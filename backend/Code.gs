@@ -50,6 +50,10 @@ function doGet(e) {
         };
         break;
 
+      case "update_contributor":
+        result = handleUpdateContributor(params);
+        break;
+
       default:
         result = { success: false, error: "Hành động không hợp lệ" };
     }
@@ -86,6 +90,10 @@ function doPost(e) {
 
       case "create_folder":
         result = handleCreateFolder(data);
+        break;
+
+      case "update_contributor":
+        result = handleUpdateContributor(data);
         break;
 
       default:
@@ -418,6 +426,31 @@ function handleCreateFolder(data) {
       name: newFolder.getName()
     }
   };
+}
+
+/**
+ * Xử lý cập nhật tên người đóng góp tài liệu lên Google Drive
+ */
+function handleUpdateContributor(data) {
+  const fileId = data.fileId || data.id;
+  const contributor = (data.contributor || "").trim();
+
+  if (!fileId) {
+    return { success: false, error: "Thiếu ID tệp cần cập nhật!" };
+  }
+
+  try {
+    const file = DriveApp.getFileById(fileId);
+    file.setDescription(contributor ? ("Người đóng góp: " + contributor) : "");
+    return {
+      success: true,
+      message: "Đã lưu tên người đóng góp lên Google Drive thành công!",
+      fileId: fileId,
+      contributor: contributor
+    };
+  } catch (err) {
+    return { success: false, error: "Lỗi lưu người đóng góp: " + err.toString() };
+  }
 }
 
 /**

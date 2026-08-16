@@ -18,6 +18,32 @@ const AppState = {
   selectedFileToUpload: null
 };
 
+// Helper hợp nhất tên người đóng góp giữa máy khách và Google Drive
+function mergeLocalContributors(files) {
+  const localContributors = JSON.parse(localStorage.getItem("thuvien_file_contributors") || "{}");
+  let hasLocalUpdates = false;
+
+  const result = (files || []).map(file => {
+    if (file.contributor && file.contributor.trim() !== "") {
+      if (localContributors[file.id] !== file.contributor.trim()) {
+        localContributors[file.id] = file.contributor.trim();
+        hasLocalUpdates = true;
+      }
+    } else if (localContributors[file.id]) {
+      file.contributor = localContributors[file.id];
+    }
+    return file;
+  });
+
+  if (hasLocalUpdates) {
+    try {
+      localStorage.setItem("thuvien_file_contributors", JSON.stringify(localContributors));
+    } catch (e) {}
+  }
+
+  return result;
+}
+
 // ==========================================
 // KHỞI ĐỘNG ỨNG DỤNG (TỐC ĐỘ CAO & NẠP TOÀN BỘ NGẦM)
 // ==========================================
@@ -41,9 +67,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         if (res.tree) {
           for (const fId in res.tree) {
-            DriveCache.set(fId, res.tree[fId]);
             const item = res.tree[fId];
-            if (item.breadcrumbs) {
+            if (item && item.files) {
+              item.files = mergeLocalContributors(item.files);
+            }
+            DriveCache.set(fId, item);
+            if (item && item.breadcrumbs) {
               const fullP = item.breadcrumbs.map(c => c.name).join("/");
               const relP = item.breadcrumbs.slice(1).map(c => c.name).join("/");
               AppState.folderMapByPath[fullP] = fId;
@@ -75,7 +104,7 @@ function initAutoSync() {
         
         // Cập nhật dữ liệu
         AppState.folders = data.folders || [];
-        AppState.files = data.files || [];
+        AppState.files = mergeLocalContributors(data.files || []);
         AppState.breadcrumbs = data.breadcrumbs || [];
 
         renderFilesAndFolders();
@@ -267,14 +296,7 @@ function applyFolderData(data) {
   AppState.folders = data.folders || [];
   
   // Nạp danh sách tệp và kết hợp dữ liệu người đóng góp
-  const localContributors = JSON.parse(localStorage.getItem("thuvien_file_contributors") || "{}");
-  AppState.files = (data.files || []).map(file => {
-    // Nếu server chưa trả về contributor (do chưa deploy lại), lấy từ bộ nhớ cục bộ
-    if (!file.contributor && localContributors[file.id]) {
-      file.contributor = localContributors[file.id];
-    }
-    return file;
-  });
+  AppState.files = mergeLocalContributors(data.files || []);
 
   // Lưu đường dẫn hiện tại vào bản đồ
   if (data.breadcrumbs && data.breadcrumbs.length > 0) {
@@ -514,21 +536,29 @@ function createFileElement(file, isGrid) {
 }
 
 // Bấm trực tiếp vào nhãn để gán/sửa tên người đóng góp
-function promptEditContributor(fileId, fileName, event) {
+async function promptEditContributor(fileId, fileName, event) {
   if (event) event.stopPropagation();
   const current = (AppState.files.find(f => f.id === fileId)?.contributor) || "";
   const newName = prompt(`Nhập tên người đóng góp cho tài liệu "${fileName}":`, current);
   if (newName !== null) {
     const trimmed = newName.trim();
-    const localContributors = JSON.parse(localStorage.getItem("thuvien_file_contributors") || "{}");
-    localContributors[fileId] = trimmed;
-    localStorage.setItem("thuvien_file_contributors", JSON.stringify(localContributors));
 
-    // Cập nhật trên màn hình
+    // 1. Lưu ngay vào bộ nhớ máy (LocalStorage)
+    const localContributors = JSON.parse(localStorage.getItem("thuvien_file_contributors") || "{}");
+    if (trimmed) {
+      localContributors[fileId] = trimmed;
+    } else {
+      delete localContributors[fileId];
+    }
+    try {
+      localStorage.setItem("thuvien_file_contributors", JSON.stringify(localContributors));
+    } catch (e) {}
+
+    // 2. Cập nhật ngay trên biến AppState và màn hình
     const targetFile = AppState.files.find(f => f.id === fileId);
     if (targetFile) targetFile.contributor = trimmed;
 
-    // Cập nhật bộ nhớ đệm
+    // 3. Cập nhật bộ nhớ đệm DriveCache
     for (const fId in DriveCache.data) {
       const item = DriveCache.data[fId]?.content;
       if (item && item.files) {
@@ -538,7 +568,19 @@ function promptEditContributor(fileId, fileName, event) {
     }
 
     renderFilesAndFolders();
-    showToast(`Đã lưu người đóng góp: "${trimmed || 'Chưa cập nhật'}"`, "success");
+    showToast(`Đang lưu tên người đóng góp: "${trimmed || 'Chưa cập nhật'}"...`, "info");
+
+    // 4. Đồng bộ lưu vĩnh viễn lên Google Drive
+    try {
+      const res = await DriveAPI.updateContributor(fileId, trimmed);
+      if (res && res.success) {
+        showToast(`Đã lưu "${trimmed || 'Chưa cập nhật'}" lên Google Drive!`, "success");
+      } else {
+        console.warn("Lưu Google Drive:", res?.error);
+      }
+    } catch (err) {
+      console.warn("Lỗi lưu lên Google Drive:", err);
+    }
   }
 }
 
@@ -947,7 +989,7 @@ async function performGlobalSearch(query) {
     const result = await DriveAPI.searchFiles(query);
     AppState.breadcrumbs = [{ id: "search", name: `Kết quả tìm: "${query}"` }];
     AppState.folders = [];
-    AppState.files = result.files || [];
+    AppState.files = mergeLocalContributors(result.files || []);
     renderBreadcrumbs();
     renderFilesAndFolders();
     showToast(`Tìm thấy ${result.total || 0} tài liệu phù hợp.`, "info");

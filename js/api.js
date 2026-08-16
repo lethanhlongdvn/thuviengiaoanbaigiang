@@ -243,6 +243,46 @@ const DriveAPI = {
   },
 
   /**
+   * Cập nhật Tên người đóng góp cho tệp lên Google Drive
+   */
+  async updateContributor(fileId, contributor) {
+    if (!this.isConfigured()) return { success: false, error: "Chưa cấu hình API" };
+
+    try {
+      const payload = {
+        action: "update_contributor",
+        fileId: fileId,
+        id: fileId,
+        contributor: (contributor || "").trim()
+      };
+
+      const response = await fetch(CONFIG.API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify(payload),
+        redirect: "follow"
+      });
+
+      const data = await response.json();
+      return data;
+    } catch (postError) {
+      console.warn("Thử gửi POST updateContributor thất bại, fallback sang GET:", postError);
+      try {
+        const url = `${CONFIG.API_URL}?action=update_contributor&fileId=${encodeURIComponent(fileId)}&contributor=${encodeURIComponent((contributor || "").trim())}&t=${Date.now()}`;
+        const response = await fetch(url, {
+          method: "GET",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          redirect: "follow"
+        });
+        return await response.json();
+      } catch (getError) {
+        console.error("Lỗi updateContributor:", getError);
+        return { success: false, error: getError.toString() };
+      }
+    }
+  },
+
+  /**
    * Chuyển đổi File sang Base64
    */
   fileToBase64(file, onProgress) {
