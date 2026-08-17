@@ -466,27 +466,162 @@ button {
   border-top: 1px solid rgba(255, 255, 255, 0.12);
 }
 
+/* ==========================================
+   ROLE CARD & POPUP MENU QUẢN TRỊ VIÊN
+   ========================================== */
 .user-role-card {
-  background: rgba(0, 0, 0, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: var(--radius-md);
-  padding: 0.85rem;
+  padding: 0.75rem 0.85rem;
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.45rem;
 }
 
 .role-title {
   color: #93c5fd;
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   font-weight: 600;
+  letter-spacing: 0.2px;
 }
 
 .role-control-wrap {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.role-state-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Nút Quản trị viên dạng viên thuốc (Pill Button) mượt mà */
+.btn-admin-pill-trigger {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%) !important;
+  border: 1px solid rgba(255, 255, 255, 0.35) !important;
+  border-radius: 9999px !important;
+  padding: 0.42rem 0.85rem !important;
+  color: #ffffff !important;
+  font-family: inherit !important;
+  font-size: 0.82rem !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  outline: none !important;
+  box-shadow: 0 2px 8px rgba(16, 185, 129, 0.35) !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  user-select: none !important;
+}
+
+.btn-admin-pill-trigger:hover {
+  background: linear-gradient(135deg, #047857 0%, #059669 100%) !important;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.5) !important;
+  transform: translateY(-1px);
+}
+
+.btn-admin-pill-trigger .admin-pill-content {
+  display: flex;
+  align-items: center;
   gap: 0.5rem;
+  color: #ffffff;
+}
+
+.btn-admin-pill-trigger .admin-pill-content i {
+  font-size: 0.85rem;
+}
+
+.btn-admin-pill-trigger #admin-dropdown-chevron {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.9);
+  transition: transform 0.25s ease;
+}
+
+.btn-admin-pill-trigger.active #admin-dropdown-chevron {
+  transform: rotate(180deg);
+}
+
+/* Menu Dropdown Popup xổ lên trên gồm 2 dòng tách biệt: MẶC ĐỊNH ẨN, CHỈ HIỆN KHI BẤM */
+.admin-popup-menu {
+  position: absolute !important;
+  bottom: calc(100% + 10px) !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  background: #0f172a !important;
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.7), 0 0 0 1px rgba(255, 255, 255, 0.08) !important;
+  padding: 6px !important;
+  z-index: 9999 !important;
+  display: none !important;
+  flex-direction: column !important;
+  gap: 3px !important;
+}
+
+.admin-popup-menu.show {
+  display: flex !important;
+  animation: adminPopupSlideUp 0.18s cubic-bezier(0.16, 1, 0.3, 1) !important;
+}
+
+@keyframes adminPopupSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Các mục bên trong menu: dòng 1 Đổi mật khẩu, dòng 2 Đăng xuất */
+.admin-popup-item {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.75rem !important;
+  padding: 0.6rem 0.85rem !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 6px !important;
+  color: #f1f5f9 !important;
+  font-family: inherit !important;
+  font-size: 0.84rem !important;
+  font-weight: 600 !important;
+  cursor: pointer !important;
+  text-align: left !important;
+  outline: none !important;
+  transition: all 0.15s ease !important;
+}
+
+.admin-popup-item:hover {
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #ffffff !important;
+  transform: translateX(2px);
+}
+
+.admin-popup-item.item-danger {
+  color: #fca5a5 !important;
+}
+
+.admin-popup-item.item-danger:hover {
+  background: rgba(239, 68, 68, 0.22) !important;
+  color: #fee2e2 !important;
+}
+
+.admin-popup-divider {
+  height: 1px !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  margin: 2px 4px !important;
 }
 
 .btn-role-action {
@@ -508,18 +643,6 @@ button {
   background: #38bdf8;
   color: #0f172a;
   border-color: #38bdf8;
-}
-
-.btn-role-action.is-admin {
-  background: rgba(239, 68, 68, 0.25);
-  border-color: rgba(239, 68, 68, 0.5);
-  color: #fca5a5;
-}
-
-.btn-role-action.is-admin:hover {
-  background: #ef4444;
-  color: #ffffff;
-  border-color: #ef4444;
 }
 
 .badge {

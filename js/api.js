@@ -219,6 +219,55 @@ const DriveAPI = {
   },
 
   /**
+   * Đổi mật khẩu Quản trị viên
+   */
+  async changeAdminPassword(currentPassword, newPassword) {
+    if (!this.isConfigured()) {
+      throw new Error("Chưa cấu hình API_URL trong file js/config.js!");
+    }
+
+    const payload = {
+      action: "change_password",
+      oldPassword: currentPassword,
+      currentPassword: currentPassword,
+      newPassword: newPassword
+    };
+
+    try {
+      const response = await fetch(CONFIG.API_URL, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify(payload),
+        redirect: "follow"
+      });
+
+      const data = await response.json();
+      if (!data.success) {
+        throw new Error(data.error || "Đổi mật khẩu thất bại!");
+      }
+
+      return data;
+    } catch (postError) {
+      console.warn("Thử gửi POST change_password thất bại, fallback sang GET:", postError);
+      try {
+        const url = `${CONFIG.API_URL}?action=change_password&oldPassword=${encodeURIComponent(currentPassword)}&newPassword=${encodeURIComponent(newPassword)}&t=${Date.now()}`;
+        const response = await fetch(url, {
+          method: "GET",
+          headers: { "Content-Type": "text/plain;charset=utf-8" },
+          redirect: "follow"
+        });
+        const data = await response.json();
+        if (!data.success) {
+          throw new Error(data.error || "Đổi mật khẩu thất bại!");
+        }
+        return data;
+      } catch (getError) {
+        throw new Error(getError.message || "Không thể kết nối đến máy chủ để đổi mật khẩu!");
+      }
+    }
+  },
+
+  /**
    * Tìm kiếm tệp theo từ khóa
    */
   async searchFiles(query) {

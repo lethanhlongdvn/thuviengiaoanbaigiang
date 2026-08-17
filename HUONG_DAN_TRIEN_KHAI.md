@@ -77,7 +77,9 @@ Hướng dẫn này giúp bạn kết nối giao diện Website Thư viện Giá
    - Bấm "Tải lên tài liệu" để tải tệp mới vào thư mục. Nếu tải tệp `.pptx` hoặc tệp nặng, website sẽ hiện cảnh báo bảo vệ dung lượng Drive 15GB miễn phí.
    - Khách sẽ **không thấy nút Xóa**.
 3. **Kiểm tra quyền Quản trị viên (Admin)**:
-   - Bấm nút **"Quản trị viên"** ở góc phải thanh menu.
-   - Nhập mật khẩu Admin (mặc định: `admin@thuvien123`).
-   - Sau khi đăng nhập: Nút **Xóa (Thùng rác đỏ)** sẽ xuất hiện cạnh từng file và thư mục, kèm theo nút **"Tạo thư mục"**.
+   - Bấm nút **"Đăng nhập"** ở góc dưới thanh Sidebar.
+   - Nhập mật khẩu Admin (mặc định ban đầu: `admin@thuvien123`).
+   - Sau khi đăng nhập:
+     - Nút **"Đổi MK"** xuất hiện ở góc dưới Sidebar: Quản trị viên có thể đổi mật khẩu mới bất kỳ lúc nào trực tiếp trên giao diện web (mật khẩu được lưu bền vững trên Google Apps Script).
+     - Nút **Xóa (Thùng rác đỏ)** sẽ xuất hiện cạnh từng file và thư mục, kèm theo nút **"Tạo thư mục"** trên thanh điều hướng.
    - Bấm Xóa thử một tệp -> Xác nhận -> Tệp sẽ lập tức bị xóa khỏi kho Google Drive của bạn!

@@ -14,7 +14,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
   <!-- CSS Giao diện -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css?v=2.2">
 </head>
 <body>
 
@@ -60,12 +60,39 @@
         <div class="user-role-card">
           <div class="role-title">Quyền truy cập của bạn:</div>
           <div class="role-control-wrap" id="user-role-box">
-            <div id="user-role-badge">
-              <span class="badge badge-guest"><i class="fa-solid fa-user"></i> Khách</span>
+            <!-- Giao diện khi là Khách -->
+            <div id="role-guest-wrap" class="role-state-box">
+              <div id="user-role-badge">
+                <span class="badge badge-guest"><i class="fa-solid fa-user"></i> Khách</span>
+              </div>
+              <button id="btn-admin-toggle" class="btn-role-action" title="Đăng nhập Quản trị viên">
+                <i class="fa-solid fa-lock"></i> Đăng nhập
+              </button>
             </div>
-            <button id="btn-admin-toggle" class="btn-role-action" title="Đăng nhập / Đăng xuất Admin">
-              <i class="fa-solid fa-lock"></i> Đăng nhập
-            </button>
+
+            <!-- Giao diện khi là Quản trị viên (Bấm vào để hiện Đổi mật khẩu & Đăng xuất) -->
+            <div id="role-admin-wrap" class="role-state-box" style="display: none; position: relative; width: 100%;">
+              <button id="btn-admin-menu-trigger" class="btn-admin-pill-trigger" type="button" title="Bấm để chọn Đổi mật khẩu hoặc Đăng xuất">
+                <div class="admin-pill-content">
+                  <i class="fa-solid fa-shield-halved"></i>
+                  <span>Quản trị viên</span>
+                </div>
+                <i class="fa-solid fa-chevron-up" id="admin-dropdown-chevron"></i>
+              </button>
+
+              <!-- Popup Menu xổ lên khi bấm Quản trị viên: 2 dòng tách biệt -->
+              <div id="admin-popup-menu" class="admin-popup-menu">
+                <button id="btn-change-password-open" class="admin-popup-item" type="button">
+                  <i class="fa-solid fa-key" style="color: #38bdf8; font-size: 0.95rem;"></i>
+                  <span>Đổi mật khẩu</span>
+                </button>
+                <div class="admin-popup-divider"></div>
+                <button id="btn-admin-logout" class="admin-popup-item item-danger" type="button">
+                  <i class="fa-solid fa-right-from-bracket" style="color: #f87171; font-size: 0.95rem;"></i>
+                  <span>Đăng xuất</span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -329,6 +356,59 @@
         <button class="btn btn-outline modal-close">Hủy</button>
         <button id="btn-submit-create-folder" class="btn btn-primary">
           <i class="fa-solid fa-check"></i> Tạo thư mục
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       MODAL 6: ĐỔI MẬT KHẨU QUẢN TRỊ VIÊN (ADMIN ONLY)
+       ========================================== -->
+  <div class="modal" id="change-password-modal">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content" style="max-width: 440px;">
+      <div class="modal-header">
+        <h3><i class="fa-solid fa-key" style="color: #2563eb;"></i> Đổi mật khẩu Quản trị viên</h3>
+        <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Mật khẩu mới sẽ được lưu trên hệ thống và áp dụng ngay lập tức cho các thao tác quản trị.
+        </p>
+        <div style="display: flex; flex-direction: column; gap: 0.85rem;">
+          <div>
+            <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.35rem;">Mật khẩu hiện tại:</label>
+            <div style="position: relative; display: flex; align-items: center;">
+              <input type="password" id="current-admin-password-input" autocomplete="off" placeholder="Nhập mật khẩu đang dùng..." style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
+              <button type="button" class="btn-pw-toggle" data-target="current-admin-password-input" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;" title="Hiện / Ẩn mật khẩu">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div>
+            <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.35rem;">Mật khẩu mới (tối thiểu 4 ký tự):</label>
+            <div style="position: relative; display: flex; align-items: center;">
+              <input type="password" id="new-admin-password-input" autocomplete="off" placeholder="Nhập mật khẩu mới..." style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
+              <button type="button" class="btn-pw-toggle" data-target="new-admin-password-input" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;" title="Hiện / Ẩn mật khẩu">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div>
+            <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.35rem;">Xác nhận mật khẩu mới:</label>
+            <div style="position: relative; display: flex; align-items: center;">
+              <input type="password" id="confirm-new-admin-password-input" autocomplete="off" placeholder="Nhập lại mật khẩu mới..." style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
+              <button type="button" class="btn-pw-toggle" data-target="confirm-new-admin-password-input" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;" title="Hiện / Ẩn mật khẩu">
+                <i class="fa-solid fa-eye"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-outline modal-close">Hủy</button>
+        <button id="btn-submit-change-password" class="btn btn-primary">
+          <i class="fa-solid fa-check"></i> Lưu mật khẩu mới
         </button>
       </div>
     </div>

@@ -185,7 +185,81 @@ function setupEventListeners() {
     if (e.key === "Enter") handleAdminLogin();
   });
 
-  // Nút Hiện / Ẩn mật khẩu (Mắt)
+  // Bấm vào nút Quản trị viên -> Bật / Tắt menu xổ lên (Đổi mật khẩu & Đăng xuất)
+  document.getElementById("btn-admin-menu-trigger")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const menu = document.getElementById("admin-popup-menu");
+    const trigger = document.getElementById("btn-admin-menu-trigger");
+    if (!menu) return;
+
+    const isCurrentlyOpen = menu.classList.contains("show");
+    if (isCurrentlyOpen) {
+      menu.classList.remove("show");
+      trigger?.classList.remove("active");
+    } else {
+      menu.classList.add("show");
+      trigger?.classList.add("active");
+    }
+  });
+
+  // Đóng dropdown menu khi bấm ra ngoài
+  document.addEventListener("click", (e) => {
+    const roleAdminWrap = document.getElementById("role-admin-wrap");
+    if (roleAdminWrap && !roleAdminWrap.contains(e.target)) {
+      const menu = document.getElementById("admin-popup-menu");
+      const trigger = document.getElementById("btn-admin-menu-trigger");
+      if (menu) menu.classList.remove("show");
+      trigger?.classList.remove("active");
+    }
+  });
+
+  // Nút Đăng xuất trong popup menu
+  document.getElementById("btn-admin-logout")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const menu = document.getElementById("admin-popup-menu");
+    if (menu) menu.classList.remove("show");
+    document.getElementById("btn-admin-menu-trigger")?.classList.remove("active");
+    AppState.isAdmin = false;
+    AppState.adminPassword = "";
+    sessionStorage.removeItem("thuvien_admin_pass");
+    updateAdminUI();
+    showToast("Đã đăng xuất khỏi tài khoản Quản trị viên.", "info");
+    renderFilesAndFolders();
+  });
+
+  // Modal Đổi mật khẩu Admin
+  document.getElementById("btn-change-password-open")?.addEventListener("click", (e) => {
+    e.stopPropagation();
+    const menu = document.getElementById("admin-popup-menu");
+    if (menu) menu.classList.remove("show");
+    document.getElementById("btn-admin-menu-trigger")?.classList.remove("active");
+    openChangePasswordModal();
+  });
+  document.getElementById("btn-submit-change-password")?.addEventListener("click", handleChangePasswordSubmit);
+  ["current-admin-password-input", "new-admin-password-input", "confirm-new-admin-password-input"].forEach(id => {
+    document.getElementById(id)?.addEventListener("keypress", (e) => {
+      if (e.key === "Enter") handleChangePasswordSubmit();
+    });
+  });
+
+  // Nút Hiện / Ẩn mật khẩu (Mắt) chung cho các ô mật khẩu
+  document.querySelectorAll(".btn-pw-toggle").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const targetId = btn.getAttribute("data-target");
+      const targetInput = document.getElementById(targetId);
+      const eyeIcon = btn.querySelector("i");
+      if (!targetInput) return;
+
+      if (targetInput.type === "password") {
+        targetInput.type = "text";
+        if (eyeIcon) eyeIcon.className = "fa-solid fa-eye-slash";
+      } else {
+        targetInput.type = "password";
+        if (eyeIcon) eyeIcon.className = "fa-solid fa-eye";
+      }
+    });
+  });
+
   document.getElementById("btn-toggle-password-visibility")?.addEventListener("click", () => {
     const passInput = document.getElementById("admin-password-input");
     const eyeIcon = document.querySelector("#btn-toggle-password-visibility i");
@@ -833,30 +907,105 @@ async function handleAdminLogin() {
 }
 
 function updateAdminUI() {
-  const adminBtn = document.getElementById("btn-admin-toggle");
-  const adminBadge = document.getElementById("user-role-badge");
+  const roleGuestWrap = document.getElementById("role-guest-wrap");
+  const roleAdminWrap = document.getElementById("role-admin-wrap");
+  const adminMenu = document.getElementById("admin-popup-menu");
+  const adminTrigger = document.getElementById("btn-admin-menu-trigger");
   const createFolderBtn = document.getElementById("btn-create-folder");
 
   if (AppState.isAdmin) {
-    if (adminBtn) {
-      adminBtn.innerHTML = `<i class="fa-solid fa-right-from-bracket"></i> Đăng xuất`;
-      adminBtn.classList.add("is-admin");
-      adminBtn.title = "Bấm để đăng xuất quyền Quản trị viên";
-    }
-    if (adminBadge) {
-      adminBadge.innerHTML = `<span class="badge badge-admin"><i class="fa-solid fa-shield-halved"></i> Quản trị viên</span>`;
-    }
+    if (roleGuestWrap) roleGuestWrap.style.display = "none";
+    if (roleAdminWrap) roleAdminWrap.style.display = "flex";
+    if (adminMenu) adminMenu.style.display = "none";
+    if (adminTrigger) adminTrigger.classList.remove("active");
     if (createFolderBtn) createFolderBtn.style.display = "inline-flex";
   } else {
-    if (adminBtn) {
-      adminBtn.innerHTML = `<i class="fa-solid fa-lock"></i> Đăng nhập`;
-      adminBtn.classList.remove("is-admin");
-      adminBtn.title = "Bấm để đăng nhập quyền Quản trị viên";
-    }
-    if (adminBadge) {
-      adminBadge.innerHTML = `<span class="badge badge-guest"><i class="fa-solid fa-user"></i> Khách</span>`;
-    }
+    if (roleGuestWrap) roleGuestWrap.style.display = "flex";
+    if (roleAdminWrap) roleAdminWrap.style.display = "none";
+    if (adminMenu) adminMenu.style.display = "none";
+    if (adminTrigger) adminTrigger.classList.remove("active");
     if (createFolderBtn) createFolderBtn.style.display = "none";
+  }
+}
+
+// ==========================================
+// ĐỔI MẬT KHẨU QUẢN TRỊ VIÊN (ADMIN ONLY)
+// ==========================================
+function openChangePasswordModal() {
+  if (!AppState.isAdmin) {
+    showToast("Bạn cần đăng nhập quyền Quản trị viên trước khi đổi mật khẩu!", "warning");
+    return;
+  }
+
+  const modal = document.getElementById("change-password-modal");
+  const curPassInput = document.getElementById("current-admin-password-input");
+  const newPassInput = document.getElementById("new-admin-password-input");
+  const confirmPassInput = document.getElementById("confirm-new-admin-password-input");
+
+  if (curPassInput) curPassInput.value = AppState.adminPassword || "";
+  if (newPassInput) newPassInput.value = "";
+  if (confirmPassInput) confirmPassInput.value = "";
+
+  // Đặt lại kiểu input là password cho các ô
+  [curPassInput, newPassInput, confirmPassInput].forEach(inp => {
+    if (inp) inp.type = "password";
+  });
+  document.querySelectorAll("#change-password-modal .btn-pw-toggle i").forEach(icon => {
+    icon.className = "fa-solid fa-eye";
+  });
+
+  modal?.classList.add("show");
+  setTimeout(() => {
+    if (newPassInput) newPassInput.focus();
+  }, 150);
+}
+
+async function handleChangePasswordSubmit() {
+  if (!AppState.isAdmin) return;
+
+  const curPass = document.getElementById("current-admin-password-input")?.value?.trim() || "";
+  const newPass = document.getElementById("new-admin-password-input")?.value?.trim() || "";
+  const confirmPass = document.getElementById("confirm-new-admin-password-input")?.value?.trim() || "";
+
+  if (!curPass) {
+    showToast("Vui lòng nhập mật khẩu hiện tại!", "warning");
+    document.getElementById("current-admin-password-input")?.focus();
+    return;
+  }
+
+  if (!newPass) {
+    showToast("Vui lòng nhập mật khẩu mới!", "warning");
+    document.getElementById("new-admin-password-input")?.focus();
+    return;
+  }
+
+  if (newPass.length < 4) {
+    showToast("Mật khẩu mới phải có tối thiểu 4 ký tự!", "warning");
+    document.getElementById("new-admin-password-input")?.focus();
+    return;
+  }
+
+  if (newPass !== confirmPass) {
+    showToast("Mật khẩu mới và mật khẩu xác nhận không khớp nhau!", "error");
+    document.getElementById("confirm-new-admin-password-input")?.focus();
+    return;
+  }
+
+  showLoading(true);
+  try {
+    const res = await DriveAPI.changeAdminPassword(curPass, newPass);
+    if (res && res.success) {
+      AppState.adminPassword = newPass;
+      sessionStorage.setItem("thuvien_admin_pass", newPass);
+      closeModal();
+      showToast("Đổi mật khẩu Quản trị viên thành công!", "success");
+    } else {
+      showToast(res.error || res.message || "Đổi mật khẩu thất bại!", "error");
+    }
+  } catch (error) {
+    showToast(error.message || "Lỗi kết nối khi đổi mật khẩu!", "error");
+  } finally {
+    showLoading(false);
   }
 }
 
@@ -1018,7 +1167,15 @@ function renderFullSidebarTree() {
       rawName: "02. KE_HOACH_GIAO_DUC", 
       path: "02. KE_HOACH_GIAO_DUC",
       displayName: "Kế hoạch giáo dục", 
-      icon: "fa-calendar-check" 
+      icon: "fa-calendar-check",
+      children: [
+        { rawName: "KHOI_1", path: "02. KE_HOACH_GIAO_DUC/KHOI_1", displayName: "Khối 1" },
+        { rawName: "KHOI_2", path: "02. KE_HOACH_GIAO_DUC/KHOI_2", displayName: "Khối 2" },
+        { rawName: "KHOI_3", path: "02. KE_HOACH_GIAO_DUC/KHOI_3", displayName: "Khối 3" },
+        { rawName: "KHOI_4", path: "02. KE_HOACH_GIAO_DUC/KHOI_4", displayName: "Khối 4" },
+        { rawName: "KHOI_5", path: "02. KE_HOACH_GIAO_DUC/KHOI_5", displayName: "Khối 5" },
+        { rawName: "TRUONG", path: "02. KE_HOACH_GIAO_DUC/TRUONG", displayName: "Cấp trường" }
+      ]
     },
     { 
       rawName: "03. KE_HOACH_BAI_DAY", 
@@ -1182,7 +1339,15 @@ function renderFullSidebarTree() {
       rawName: "05. CHUYEN_DE_SKKN", 
       path: "05. CHUYEN_DE_SKKN",
       displayName: "Chuyên đề & SKKN", 
-      icon: "fa-lightbulb" 
+      icon: "fa-lightbulb",
+      children: [
+        { rawName: "KHOI_1", path: "05. CHUYEN_DE_SKKN/KHOI_1", displayName: "Khối 1" },
+        { rawName: "KHOI_2", path: "05. CHUYEN_DE_SKKN/KHOI_2", displayName: "Khối 2" },
+        { rawName: "KHOI_3", path: "05. CHUYEN_DE_SKKN/KHOI_3", displayName: "Khối 3" },
+        { rawName: "KHOI_4", path: "05. CHUYEN_DE_SKKN/KHOI_4", displayName: "Khối 4" },
+        { rawName: "KHOI_5", path: "05. CHUYEN_DE_SKKN/KHOI_5", displayName: "Khối 5" },
+        { rawName: "TRUONG", path: "05. CHUYEN_DE_SKKN/TRUONG", displayName: "Cấp trường" }
+      ]
     },
     { 
       rawName: "06. HINH_ANH", 
@@ -1387,6 +1552,7 @@ function getVietnameseDisplayName(rawName) {
     "KHOI_3": "Khối 3",
     "KHOI_4": "Khối 4",
     "KHOI_5": "Khối 5",
+    "TRUONG": "Cấp trường",
     "TOAN": "Toán",
     "TIENG_VIET": "Tiếng Việt",
     "TIENG_ANH": "Tiếng Anh",

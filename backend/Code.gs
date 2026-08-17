@@ -10,8 +10,27 @@
 // 1. Dán ID thư mục "THU_VIEN" trên Google Drive của bạn vào đây:
 const ROOT_FOLDER_ID = "105t-KCmXmjNd61i9A3o713Kn4joUZVF5";
 
-// 2. Mật khẩu Quản trị viên (Admin) để thực hiện chức năng XÓA tệp/thư mục:
-const ADMIN_PASSWORD = "admin@thuvien123";
+// 2. Mật khẩu Quản trị viên mặc định (Có thể đổi trực tiếp trên web và lưu vào Script Properties):
+const DEFAULT_ADMIN_PASSWORD = "admin@thuvien123";
+
+/**
+ * Lấy mật khẩu Quản trị viên hiện tại (từ Script Properties hoặc mặc định)
+ */
+function getAdminPassword() {
+  try {
+    const customPass = PropertiesService.getScriptProperties().getProperty("ADMIN_PASSWORD");
+    return customPass || DEFAULT_ADMIN_PASSWORD;
+  } catch (e) {
+    return DEFAULT_ADMIN_PASSWORD;
+  }
+}
+
+/**
+ * Lưu mật khẩu Quản trị viên mới vào Script Properties
+ */
+function setAdminPassword(newPassword) {
+  PropertiesService.getScriptProperties().setProperty("ADMIN_PASSWORD", newPassword);
+}
 
 // 3. Giới hạn dung lượng tệp tải lên (MB) - Tăng lên 50MB
 const MAX_UPLOAD_MB = 50;
@@ -44,10 +63,15 @@ function doGet(e) {
 
       case "verify_admin":
         const pass = params.password || "";
+        const currentPass = getAdminPassword();
         result = {
-          success: pass === ADMIN_PASSWORD,
-          message: pass === ADMIN_PASSWORD ? "Xác thực Admin thành công!" : "Mật khẩu Admin không chính xác!"
+          success: pass === currentPass,
+          message: pass === currentPass ? "Xác thực Admin thành công!" : "Mật khẩu Admin không chính xác!"
         };
+        break;
+
+      case "change_password":
+        result = handleChangePassword(params);
         break;
 
       case "update_contributor":
@@ -94,6 +118,10 @@ function doPost(e) {
 
       case "update_contributor":
         result = handleUpdateContributor(data);
+        break;
+
+      case "change_password":
+        result = handleChangePassword(data);
         break;
 
       default:
@@ -372,7 +400,7 @@ function handleDelete(data) {
   const adminPass = data.adminPassword;
 
   // Kiểm tra bảo mật Admin
-  if (adminPass !== ADMIN_PASSWORD) {
+  if (adminPass !== getAdminPassword()) {
     return { success: false, error: "Từ chối truy cập: Mật khẩu quản trị viên không chính xác!" };
   }
 
@@ -407,7 +435,7 @@ function handleCreateFolder(data) {
   const folderName = data.name;
   const adminPass = data.adminPassword;
 
-  if (adminPass !== ADMIN_PASSWORD) {
+  if (adminPass !== getAdminPassword()) {
     return { success: false, error: "Từ chối: Cần mật khẩu Quản trị viên để tạo thư mục!" };
   }
 
@@ -451,6 +479,34 @@ function handleUpdateContributor(data) {
   } catch (err) {
     return { success: false, error: "Lỗi lưu người đóng góp: " + err.toString() };
   }
+}
+
+/**
+ * Xử lý đổi mật khẩu Quản trị viên (Lưu bền vững vào Script Properties)
+ */
+function handleChangePassword(data) {
+  const oldPassword = (data.oldPassword || data.currentPassword || data.adminPassword || "").trim();
+  const newPassword = (data.newPassword || "").trim();
+  const currentPass = getAdminPassword();
+
+  if (!oldPassword) {
+    return { success: false, error: "Vui lòng nhập mật khẩu hiện tại!" };
+  }
+
+  if (oldPassword !== currentPass) {
+    return { success: false, error: "Mật khẩu hiện tại không chính xác!" };
+  }
+
+  if (!newPassword || newPassword.length < 4) {
+    return { success: false, error: "Mật khẩu mới phải có tối thiểu 4 ký tự!" };
+  }
+
+  setAdminPassword(newPassword);
+
+  return {
+    success: true,
+    message: "Đổi mật khẩu Quản trị viên thành công!"
+  };
 }
 
 /**
