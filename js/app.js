@@ -18,12 +18,31 @@ const AppState = {
   selectedFileToUpload: null
 };
 
+// Helper lọc bỏ các tệp hệ thống, tệp ẩn hoặc tệp rỗng/trùng tên thư mục gốc như Thu_vien
+function isIgnoredLibraryFile(fileOrName) {
+  const name = (typeof fileOrName === "string" ? fileOrName : (fileOrName?.name || "")).trim().toLowerCase();
+  if (!name) return true;
+  if (name === "thu_vien" || name === "thuvien" || name === "thu vien" || name === "thu_vien." || name === "thu_vien.tmp" || name === "thu_vien.file") {
+    return true;
+  }
+  if (name.startsWith(".") || name === "desktop.ini" || name === "thumbs.db" || name === "icon\r") {
+    return true;
+  }
+  return false;
+}
+
+function filterValidLibraryFiles(files) {
+  if (!Array.isArray(files)) return [];
+  return files.filter(f => !isIgnoredLibraryFile(f));
+}
+
 // Helper hợp nhất tên người đóng góp giữa máy khách và Google Drive
 function mergeLocalContributors(files) {
+  const validFiles = filterValidLibraryFiles(files);
   const localContributors = JSON.parse(localStorage.getItem("thuvien_file_contributors") || "{}");
   let hasLocalUpdates = false;
 
-  const result = (files || []).map(file => {
+  const result = validFiles.map(file => {
     if (file.contributor && file.contributor.trim() !== "") {
       if (localContributors[file.id] !== file.contributor.trim()) {
         localContributors[file.id] = file.contributor.trim();
@@ -439,8 +458,8 @@ function renderFilesAndFolders() {
 
   container.innerHTML = "";
 
-  // 1. Lọc tệp theo FilterType
-  let filteredFiles = AppState.files;
+  // 1. Lọc tệp theo FilterType và loại bỏ các tệp hệ thống / trùng tên thư mục
+  let filteredFiles = filterValidLibraryFiles(AppState.files);
   if (AppState.filterType !== "all") {
     filteredFiles = filteredFiles.filter(f => {
       const ext = (f.extension || "").toLowerCase();
@@ -1593,7 +1612,8 @@ function setViewMode(mode) {
 function updateFolderStats() {
   const statEl = document.getElementById("folder-stats-text");
   if (statEl) {
-    statEl.textContent = `${AppState.folders.length} thư mục • ${AppState.files.length} tài liệu`;
+    const validFiles = filterValidLibraryFiles(AppState.files);
+    statEl.textContent = `${AppState.folders.length} thư mục • ${validFiles.length} tài liệu`;
   }
 }
 

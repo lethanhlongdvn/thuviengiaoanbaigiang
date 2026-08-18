@@ -175,6 +175,9 @@ function getFullLibraryTree(rootFolderId) {
     const fileIter = folder.getFiles();
     while (fileIter.hasNext()) {
       const file = fileIter.next();
+      const fileName = file.getName();
+      if (isIgnoredLibraryFile(fileName)) continue;
+
       const desc = file.getDescription() || "";
       let contributor = "";
       if (desc.startsWith("Người đóng góp: ")) {
@@ -307,6 +310,9 @@ function getFolderContents(folderId) {
   const fileIter = currentFolder.getFiles();
   while (fileIter.hasNext()) {
     const file = fileIter.next();
+    const fileName = file.getName();
+    if (isIgnoredLibraryFile(fileName)) continue;
+
     const desc = file.getDescription() || "";
     let contributor = "";
     if (desc.startsWith("Người đóng góp: ")) {
@@ -525,6 +531,9 @@ function searchFiles(keyword) {
   let count = 0;
   while (fileIterator.hasNext() && count < 50) {
     const file = fileIterator.next();
+    const fileName = file.getName();
+    if (isIgnoredLibraryFile(fileName)) continue;
+
     const desc = file.getDescription() || "";
     let contributor = "";
     if (desc.startsWith("Người đóng góp: ")) {
@@ -595,6 +604,18 @@ function formatFileSize(bytes) {
 function getFileExtension(filename) {
   if (!filename || filename.indexOf(".") === -1) return "";
   return filename.split(".").pop().toLowerCase();
+}
+
+function isIgnoredLibraryFile(name) {
+  if (!name) return true;
+  const lower = name.trim().toLowerCase();
+  if (lower === "thu_vien" || lower === "thuvien" || lower === "thu vien" || lower === "thu_vien." || lower === "thu_vien.tmp" || lower === "thu_vien.file") {
+    return true;
+  }
+  if (lower.startsWith(".") || lower === "desktop.ini" || lower === "thumbs.db" || lower === "icon\r") {
+    return true;
+  }
+  return false;
 }
 
 function createJsonResponse(data) {
