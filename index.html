@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thư Viện Giáo Viên Tiểu Học - Lưu Trữ & Tra Cứu Tài Liệu</title>
+  <title>Thư Viện Bài Giảng & Kế Hoạch Bài Dạy Tiểu Học - Lê Thành Long</title>
   
   <!-- Google Fonts: Be Vietnam Pro -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
   
   <!-- FontAwesome Icons 6 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
-  <!-- CSS Giao diện -->
-  <link rel="stylesheet" href="css/style.css?v=2.2">
+  <!-- CSS Giao diện chuẩn phong cách Thư Viện Giáo Viên -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -24,23 +24,34 @@
   <header class="main-header">
     <div class="header-container">
       <!-- Logo & Tên thư viện -->
-      <a href="index.html" class="header-logo">
+      <a href="#home" class="header-logo" onclick="navigateTo('home')">
         <div class="logo-icon">
           <i class="fa-solid fa-graduation-cap"></i>
         </div>
         <div class="logo-text">
-          <h1>THƯ VIỆN GIÁO VIÊN TIỂU HỌC</h1>
-          <p>Kho Lưu Trữ Tài Liệu Giáo Dục Tiểu Học</p>
+          <h1>THƯ VIỆN BÀI GIẢNG & KHBD TIỂU HỌC</h1>
+          <p>Kho Học Liệu Số Giáo Viên Tiểu Học • Quản trị: Thầy Lê Thành Long</p>
         </div>
       </a>
 
-      <!-- Khẩu hiệu giáo dục in đậm, nổi bật -->
+      <!-- Khẩu hiệu giáo dục in vàng kim nổi bật -->
       <div class="header-slogan-box">
         <div class="header-slogan-text">
           <i class="fa-solid fa-quote-left"></i>
-          <span>Đoàn kết - Đổi mới - Sáng tạo - Nâng cao chất lượng dạy và học</span>
+          <span>Gieo chữ – Trồng người – Thắp sáng tương lai</span>
           <i class="fa-solid fa-quote-right"></i>
         </div>
+      </div>
+
+      <!-- Nút AI nhanh & Menu Toggle Mobile -->
+      <div class="header-actions-box">
+        <button class="btn btn-ai-header" onclick="navigateTo('ai-exam')">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <span>Trợ Lý AI Ra Đề</span>
+        </button>
+        <button class="mobile-toggle-btn" id="mobile-toggle-btn" aria-label="Mở menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
       </div>
     </div>
   </header>
@@ -49,128 +60,113 @@
        BỐ CỤC CHÍNH (SIDEBAR & MAIN AREA)
        ========================================== -->
   <div class="app-layout">
-    <!-- Cột bên trái: Danh mục & Cây thư mục nhanh -->
-    <aside class="app-sidebar">
-      <div class="sidebar-section-title">Danh mục chính</div>
-      <div id="sidebar-quick-tree">
-        <!-- Render bởi JavaScript -->
-      </div>
+    <!-- Cột bên trái: Danh mục phân cấp theo Khối & Môn học -->
+    <aside class="app-sidebar" id="app-sidebar">
+      <nav aria-label="Danh mục chính">
+      <div class="sidebar-section-title">HỆ THỐNG DANH MỤC</div>
+      <ul class="tree-menu">
+        <li class="tree-item active" data-view="home" id="nav-home">
+          <div class="tree-row" onclick="navigateTo('home')">
+            <a href="javascript:void(0)">
+              <i class="fa-solid fa-house"></i>
+              <span>Trang Chủ</span>
+            </a>
+          </div>
+        </li>
 
+        <div class="sidebar-section-title" style="margin-top: 0.75rem;">DANH MỤC TÀI LIỆU</div>
+        <div id="sidebar-docs-nav"></div>
+
+        <div class="sidebar-section-title" style="margin-top: 0.75rem;">CÔNG CỤ THÔNG MINH</div>
+        <li class="tree-item" data-view="ai-exam" id="nav-ai-exam">
+          <div class="tree-row" onclick="navigateTo('ai-exam')">
+            <a href="javascript:void(0)">
+              <i class="fa-solid fa-brain" style="color: #c084fc;"></i>
+              <span>Trợ Lý AI Ra Đề & Ma Trận</span>
+            </a>
+            <span class="tree-badge badge-ai">TT 27</span>
+          </div>
+        </li>
+
+        <li class="tree-item" data-view="toolkit" id="nav-toolkit">
+          <div class="tree-row" onclick="navigateTo('toolkit')">
+            <a href="javascript:void(0)">
+              <i class="fa-solid fa-shapes" style="color: #34d399;"></i>
+              <span>Tiện Ích Giảng Dạy</span>
+            </a>
+          </div>
+        </li>
+
+        <div class="sidebar-section-title" style="margin-top: 0.75rem;">HỆ THỐNG</div>
+        <li class="tree-item" data-view="settings" id="nav-settings" style="display:none;">
+          <div class="tree-row" onclick="navigateTo('settings')">
+            <a href="javascript:void(0)">
+              <i class="fa-solid fa-sliders" style="color: #94a3b8;"></i>
+              <span>Cấu Hình & Quản Trị</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+      </nav>
+
+      <!-- Footer Sidebar: Quyền truy cập người dùng -->
       <div class="sidebar-footer">
         <div class="user-role-card">
           <div class="role-title">Quyền truy cập của bạn:</div>
           <div class="role-control-wrap" id="user-role-box">
-            <!-- Giao diện khi là Khách -->
-            <div id="role-guest-wrap" class="role-state-box">
-              <div id="user-role-badge">
-                <span class="badge badge-guest"><i class="fa-solid fa-user"></i> Khách</span>
-              </div>
-              <button id="btn-admin-toggle" class="btn-role-action" title="Đăng nhập Quản trị viên">
-                <i class="fa-solid fa-lock"></i> Đăng nhập
-              </button>
-            </div>
-
-            <!-- Giao diện khi là Quản trị viên (Bấm vào để hiện Đổi mật khẩu & Đăng xuất) -->
-            <div id="role-admin-wrap" class="role-state-box" style="display: none; position: relative; width: 100%;">
-              <button id="btn-admin-menu-trigger" class="btn-admin-pill-trigger" type="button" title="Bấm để chọn Đổi mật khẩu hoặc Đăng xuất">
-                <div class="admin-pill-content">
-                  <i class="fa-solid fa-shield-halved"></i>
-                  <span>Quản trị viên</span>
-                </div>
-                <i class="fa-solid fa-chevron-up" id="admin-dropdown-chevron"></i>
-              </button>
-
-              <!-- Popup Menu xổ lên khi bấm Quản trị viên: 2 dòng tách biệt -->
-              <div id="admin-popup-menu" class="admin-popup-menu">
-                <button id="btn-change-password-open" class="admin-popup-item" type="button">
-                  <i class="fa-solid fa-key" style="color: #38bdf8; font-size: 0.95rem;"></i>
-                  <span>Đổi mật khẩu</span>
-                </button>
-                <div class="admin-popup-divider"></div>
-                <button id="btn-admin-logout" class="admin-popup-item item-danger" type="button">
-                  <i class="fa-solid fa-right-from-bracket" style="color: #f87171; font-size: 0.95rem;"></i>
-                  <span>Đăng xuất</span>
-                </button>
-              </div>
-            </div>
+            <!-- Render động bởi auth.js -->
           </div>
         </div>
       </div>
     </aside>
 
-    <!-- Khu vực duyệt tệp trung tâm -->
+    <!-- Khu vực nội dung chính -->
     <main class="app-main">
-      <!-- Thanh điều hướng Breadcrumbs & Toolbar (Lên trên) -->
+      <!-- Thanh điều hướng Breadcrumbs & Quick Filters -->
       <div class="navigation-bar">
         <ul class="breadcrumbs" id="breadcrumbs-container">
-          <!-- Render bởi JavaScript -->
+          <li><a href="javascript:void(0)" onclick="navigateTo('home')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li>
         </ul>
 
-        <div class="toolbar-controls">
-          <button id="btn-create-folder" class="btn btn-outline" style="display: none;" title="Tạo thư mục mới (Admin)">
-            <i class="fa-solid fa-folder-plus"></i> Tạo thư mục
-          </button>
-          <button id="btn-refresh" class="icon-btn" title="Làm mới cơ sở dữ liệu (Tự động đồng bộ mỗi 10 phút)">
-            <i class="fa-solid fa-rotate-right"></i>
-          </button>
-          <button id="btn-view-grid" class="icon-btn active" title="Xem dạng Lưới">
-            <i class="fa-solid fa-table-cells-large"></i>
-          </button>
-          <button id="btn-view-list" class="icon-btn" title="Xem dạng Danh sách">
-            <i class="fa-solid fa-list-ul"></i>
-          </button>
-        </div>
+
+
       </div>
 
-      <!-- ==========================================
-           THANH TÌM KIẾM & NÚT TẢI LÊN (Ở DƯỚI ĐIỀU HƯỚNG)
-           ========================================== -->
+      <!-- Thanh tìm kiếm & Hành động (Main Action Bar) -->
       <div class="main-action-bar">
         <div class="main-search-wrap">
           <div class="search-input-wrap">
             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" id="search-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Tìm kiếm giáo án, bài giảng, đề thi... (Enter để tìm toàn bộ)">
+            <input type="search" id="search-input" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="query_search_text" placeholder="Tìm giáo án, slide, đề thi...">
+            <button class="search-clear-btn" id="searchClearBtn" style="display: none;" aria-label="Xóa tìm kiếm"><i class="fa-solid fa-xmark"></i></button>
           </div>
         </div>
 
         <div class="main-action-buttons">
-          <button id="btn-open-upload" class="btn btn-primary">
-            <i class="fa-solid fa-cloud-arrow-up"></i>
-            <span>Tải lên tài liệu</span>
+          <button class="btn btn-outline" id="btn-refresh-data" onclick="syncDriveData(true)" title="Đồng bộ lại từ Google Drive">
+            <i class="fa-solid fa-rotate-right"></i> <span>Đồng bộ Drive</span>
+          </button>
+          <button class="btn btn-primary" onclick="navigateTo('ai-exam')">
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
+            <span>Soạn Đề AI</span>
           </button>
         </div>
       </div>
 
-      <!-- Bộ lọc định dạng tệp -->
-      <div class="filter-bar">
-        <div class="filter-group">
-          <button class="filter-btn active" data-filter="all">Tất cả</button>
-          <button class="filter-btn" data-filter="docx"><i class="fa-solid fa-file-word" style="color:var(--color-word)"></i> Word</button>
-          <button class="filter-btn" data-filter="pdf"><i class="fa-solid fa-file-pdf" style="color:var(--color-pdf)"></i> PDF</button>
-          <button class="filter-btn" data-filter="xlsx"><i class="fa-solid fa-file-excel" style="color:var(--color-excel)"></i> Excel</button>
-          <button class="filter-btn" data-filter="image"><i class="fa-solid fa-file-image" style="color:var(--color-image)"></i> Hình ảnh</button>
-          <button class="filter-btn" data-filter="other"><i class="fa-solid fa-ellipsis" style="color:var(--text-muted)"></i> Khác</button>
-        </div>
-
-        <div class="folder-stats-text" id="folder-stats-text">
-          Đang tải dữ liệu...
-        </div>
+      <!-- Khung chứa động các View -->
+      <div id="content-container" class="content-viewport">
+        <!-- Render bởi app.js -->
       </div>
 
-      <!-- Khung chứa danh sách Thư mục & Tệp tin -->
-      <div id="content-container">
-        <!-- Render bởi JavaScript -->
-      </div>
-
-      <!-- ==========================================
-           CHÂN TRANG TRANG TRỌNG (FORMAL FOOTER)
-           ========================================== -->
+      <!-- Chân trang trang trọng (Formal Footer) -->
       <footer class="app-footer">
         <div class="footer-card">
           <div class="footer-info-row">
-            <span><i class="fa-solid fa-cloud-arrow-up" style="color: #38bdf8;"></i> Lưu trữ đám mây an toàn</span>
+            <span><i class="fa-solid fa-cloud-arrow-up" style="color: #38bdf8;"></i> Đã kết nối Google Drive (<span id="footer-file-count">...</span> Tệp tin)</span>
             <span class="dot-sep">•</span>
-            <span><i class="fa-solid fa-rotate" style="color: #34d399;"></i> Đồng bộ tự động theo thời gian thực</span>
+            <span><i class="fa-solid fa-award" style="color: #facc15;"></i> Chuẩn Chương trình GDPT 2018</span>
+            <span class="dot-sep">•</span>
+            <span><i class="fa-solid fa-user-tie" style="color: #34d399;"></i> Quản trị: Thầy Lê Thành Long</span>
             <span class="dot-sep">•</span>
             <span><i class="fa-regular fa-copyright"></i> 2026 Thư Viện Giáo Viên Tiểu Học</span>
           </div>
@@ -183,95 +179,70 @@
        MODAL 1: XEM TRƯỚC TÀI LIỆU (PREVIEW MODAL)
        ========================================== -->
   <div class="modal" id="preview-modal">
-    <div class="modal-backdrop"></div>
+    <div class="modal-backdrop" onclick="DriveService.closeViewer()"></div>
     <div class="modal-content modal-content-lg">
-      <div class="modal-header" style="align-items: flex-start;">
+      <div class="modal-header">
         <div style="flex: 1; min-width: 0; margin-right: 1rem;">
-          <h3 id="preview-modal-title" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 0.3rem;"><i class="fa-regular fa-file-lines"></i> Xem trước tài liệu</h3>
-          <div id="preview-contributor-info" style="font-size: 0.85rem; color: #475569; display: flex; align-items: center; gap: 0.4rem;">
-            <i class="fa-solid fa-user-pen" style="color: #2563eb;"></i> Người đóng góp: <strong id="preview-contributor-name" style="color: #1e3a8a; background: #eff6ff; padding: 0.1rem 0.5rem; border-radius: 4px; border: 1px solid #bfdbfe;">Chưa cập nhật</strong>
+          <h3 id="preview-modal-title" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 0.25rem;">
+            <i class="fa-solid fa-file-word" style="color: var(--color-word);"></i> Xem trước tài liệu
+          </h3>
+          <div id="preview-meta-info" style="font-size: 0.82rem; color: var(--text-muted);">
+            Thư mục: THU_VIEN • Người đóng góp: Thầy Lê Thành Long
           </div>
         </div>
         <div style="display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0;">
+          <button id="btn-fullscreen-toggle" class="btn btn-outline" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" title="Trình chiếu toàn màn hình">
+            <i class="fa-solid fa-expand"></i> Trình chiếu
+          </button>
+          <button id="btn-copy-drive" class="btn btn-outline" style="padding: 0.4rem 0.75rem; font-size: 0.8rem;" title="Tạo bản sao vào Google Drive">
+            <i class="fa-brands fa-google-drive" style="color: #16a34a;"></i> Lưu Drive
+          </button>
           <a id="preview-download-btn" href="#" target="_blank" class="btn btn-primary" style="padding: 0.4rem 0.85rem; font-size: 0.82rem;">
             <i class="fa-solid fa-download"></i> Tải về máy
           </a>
-          <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+          <button class="modal-close" onclick="DriveService.closeViewer()"><i class="fa-solid fa-xmark"></i></button>
         </div>
       </div>
-      <div class="modal-body preview-body">
-        <iframe id="preview-iframe" src="" allow="autoplay"></iframe>
+      <div class="modal-body preview-body" id="preview-body-container" style="position: relative;">
+        <div class="viewer-loading" id="viewerLoading">
+          <div class="spinner"></div>
+          <p>Đang tải tài liệu từ kho Google Drive...</p>
+        </div>
+        <!-- Lớp khiên chặn hoàn toàn nút Pop-out [↗] mở ngoài của Google -->
+        <div class="iframe-corner-shield" id="iframeCornerShield" onclick="handleIframeCornerClick()" title="Bảo vệ bản quyền"></div>
+        <iframe id="preview-iframe" src="" sandbox="allow-scripts allow-same-origin allow-forms" allow="autoplay; fullscreen"></iframe>
       </div>
     </div>
   </div>
 
   <!-- ==========================================
-       MODAL 2: TẢI LÊN TÀI LIỆU & CẢNH BÁO PPTX
+       MODAL 2: NHẬP MÃ PIN MỞ KHÓA (PIN ACCESS)
        ========================================== -->
-  <div class="modal" id="upload-modal">
-    <div class="modal-backdrop"></div>
-    <div class="modal-content">
+  <div class="modal" id="pin-modal">
+    <div class="modal-backdrop" onclick="closePinModal()"></div>
+    <div class="modal-content" style="max-width: 440px;">
       <div class="modal-header">
-        <h3><i class="fa-solid fa-cloud-arrow-up"></i> Tải lên tài liệu mới</h3>
-        <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+        <h3><i class="fa-solid fa-key" style="color: #f59e0b;"></i> Nhập Mã PIN Mở Khóa</h3>
+        <button class="modal-close" onclick="closePinModal()" aria-label="Đóng"><i class="fa-solid fa-xmark"></i></button>
       </div>
       <div class="modal-body">
-        <p style="font-size: 0.88rem; color: var(--text-muted);">
-          Thư mục đích lưu trữ: <strong id="upload-target-folder-name" style="color: var(--primary);">THU_VIEN</strong>
-        </p>
-
-        <!-- Dropzone kéo thả -->
-        <div class="dropzone" id="upload-dropzone" onclick="document.getElementById('upload-file-input').click()">
-          <i class="fa-solid fa-cloud-arrow-up dropzone-icon"></i>
-          <h4>Kéo thả tệp vào đây hoặc bấm để chọn tệp</h4>
-          <p>Hỗ trợ tệp thông thường (Word, PDF, Excel, Ảnh...)</p>
-          <input type="file" id="upload-file-input" style="display: none;">
+        <div style="background: #e0f2fe; border: 1px solid #bae6fd; border-radius: var(--radius-md); padding: 0.75rem 0.9rem; font-size: 0.82rem; color: #0369a1; display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+          <i class="fa-solid fa-circle-info" style="margin-top: 2px;"></i>
+          <span>Nhập mã PIN do Thầy Lê Thành Long cấp để tải tài liệu giáo án & slide PowerPoint.</span>
         </div>
-
-        <!-- Tùy chọn tải tệp lớn > 50MB - 100MB siêu tốc -->
-        <div style="background: #f0fdf4; border: 1px dashed #86efac; border-radius: var(--radius-md); padding: 0.75rem 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;">
-          <div style="font-size: 0.82rem; color: #166534; line-height: 1.4;">
-            <i class="fa-solid fa-bolt" style="color: #eab308; margin-right: 4px;"></i>
-            <strong>Tệp lớn (>50MB, Video, Bài giảng nặng):</strong><br>
-            Mở trực tiếp trên Drive để tải siêu tốc không giới hạn dung lượng.
-          </div>
-          <a id="btn-open-drive-direct-upload" href="#" target="_blank" class="btn btn-outline" style="padding: 0.4rem 0.75rem; font-size: 0.78rem; background: #ffffff; color: #15803d; border-color: #86efac; white-space: nowrap;">
-            <i class="fa-brands fa-google-drive"></i> Mở Drive tải
-          </a>
+        <div>
+          <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem;">Mã PIN xác thực:</label>
+          <input type="text" id="input-pin-code" class="form-control text-uppercase" placeholder="Nhập mã PIN..." autofocus>
+          <small style="color: var(--text-muted); font-size: 0.76rem; display: block; margin-top: 0.35rem;">
+            Liên hệ Thầy Lê Thành Long để nhận mã PIN mở khóa tài liệu.
+          </small>
         </div>
-
-        <!-- Nhập tên người đóng góp -->
-        <div style="margin-top: 0.85rem;">
-          <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.35rem; color: var(--text-main);">
-            <i class="fa-solid fa-user-pen" style="color: #2563eb; margin-right: 4px;"></i> Người đóng góp tài liệu (Giáo viên / Tổ chuyên môn):
-          </label>
-          <input type="text" id="upload-contributor-input" autocomplete="off" spellcheck="false" placeholder="Ví dụ: Cô Nguyễn Thị Hoa (Tổ 1), Thầy Lê Thanh Long..." style="width: 100%; padding: 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.88rem; outline: none;">
-        </div>
-
-        <!-- Thông tin tệp đã chọn -->
-        <div id="selected-file-info" class="selected-file-card" style="display: none; margin-top: 0.85rem;">
-          <i class="fa-solid fa-file-circle-check" style="font-size: 1.5rem; color: var(--primary);"></i>
-          <div style="flex: 1; min-width: 0;">
-            <div id="upload-filename" style="font-weight: 600; font-size: 0.88rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"></div>
-            <div id="upload-filesize" style="font-size: 0.75rem; color: var(--text-muted);"></div>
-          </div>
-        </div>
-
-        <!-- CẢNH BÁO DUNG LƯỢNG CHO TỆP PPTX HOẶC TỆP NẶNG -->
-        <div id="pptx-warning-box" style="display: none;"></div>
-
-        <!-- Thanh tiến trình tải -->
-        <div class="progress-wrap" id="upload-progress-wrap" style="display: none;">
-          <div class="progress-bar-bg">
-            <div class="progress-bar-fill" id="upload-progress-bar"></div>
-          </div>
-          <div class="progress-text" id="upload-progress-text">Đang tải lên...</div>
-        </div>
+        <div class="pin-error-msg" id="pin-error-msg" style="display: none; color: #ef4444; font-size: 0.82rem; font-weight: 600; margin-top: 0.5rem;"></div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-outline modal-close">Hủy</button>
-        <button id="btn-submit-upload" class="btn btn-primary" disabled>
-          <i class="fa-solid fa-arrow-up-from-bracket"></i> Bắt đầu tải lên
+        <button class="btn btn-outline" onclick="closePinModal()">Đóng</button>
+        <button class="btn btn-primary" onclick="submitPinCode()">
+          <i class="fa-solid fa-unlock"></i> Xác Nhận Mở Khóa
         </button>
       </div>
     </div>
@@ -281,176 +252,59 @@
        MODAL 3: ĐĂNG NHẬP QUẢN TRỊ VIÊN (ADMIN)
        ========================================== -->
   <div class="modal" id="admin-modal">
-    <div class="modal-backdrop"></div>
+    <div class="modal-backdrop" onclick="closeAdminLoginModal()"></div>
     <div class="modal-content" style="max-width: 420px;">
       <div class="modal-header">
-        <h3><i class="fa-solid fa-shield-halved"></i> Đăng nhập Quản trị viên</h3>
-        <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+        <h3><i class="fa-solid fa-shield-halved" style="color: #2563eb;"></i> Đăng Nhập Quản Trị Viên</h3>
+        <button class="modal-close" onclick="closeAdminLoginModal()" aria-label="Đóng"><i class="fa-solid fa-xmark"></i></button>
       </div>
       <div class="modal-body">
-        <p style="font-size: 0.85rem; color: var(--text-muted);">
-          Quản trị viên có toàn quyền <strong>XÓA triệt để tài liệu</strong> hoặc tạo thêm thư mục mới trên Google Drive.
+        <p style="font-size: 0.84rem; color: var(--text-muted); margin-bottom: 0.85rem;">
+          Dành riêng cho <strong>Thầy Lê Thành Long</strong> để quản lý toàn bộ hệ thống thư viện.
         </p>
         <div>
-          <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem;">Mật khẩu Quản trị viên:</label>
+          <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem;">Mật khẩu Quản trị:</label>
           <div style="position: relative; display: flex; align-items: center;">
-            <input type="password" id="admin-password-input" autocomplete="off" placeholder="Nhập mật khẩu Admin..." style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
-            <button type="button" id="btn-toggle-password-visibility" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;" title="Hiện / Ẩn mật khẩu">
+            <input type="password" id="admin-password-input" placeholder="Nhập mật khẩu Admin..." style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
+            <button type="button" id="btn-toggle-password-visibility" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;">
               <i class="fa-solid fa-eye"></i>
             </button>
           </div>
+          <small style="color: var(--text-muted); font-size: 0.76rem; display: block; margin-top: 0.35rem;">
+            Mật khẩu do Quản trị viên cấp riêng.
+          </small>
         </div>
+        <div class="pin-error-msg" id="admin-error-msg" style="display: none; color: #ef4444; font-size: 0.82rem; font-weight: 600; margin-top: 0.5rem;"></div>
       </div>
       <div class="modal-footer">
-        <button class="btn btn-outline modal-close">Hủy</button>
-        <button id="btn-admin-login" class="btn btn-primary">
-          <i class="fa-solid fa-right-to-bracket"></i> Đăng nhập
+        <button class="btn btn-outline" onclick="closeAdminLoginModal()">Hủy</button>
+        <button class="btn btn-primary" onclick="submitAdminLogin()">
+          <i class="fa-solid fa-right-to-bracket"></i> Đăng Nhập
         </button>
       </div>
     </div>
   </div>
 
-  <!-- ==========================================
-       MODAL 4: XÁC NHẬN XÓA TỆP (ADMIN ONLY)
-       ========================================== -->
-  <div class="modal" id="delete-modal">
-    <div class="modal-backdrop"></div>
-    <div class="modal-content" style="max-width: 450px;">
-      <div class="modal-header">
-        <h3 style="color: var(--color-danger);"><i class="fa-solid fa-triangle-exclamation"></i> Xác nhận xóa vĩnh viễn</h3>
-        <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+  <!-- Nút Liên hệ Zalo / Hỗ trợ nổi -->
+  <div class="floating-contact-wrap">
+    <a href="https://zalo.me/0969325896" target="_blank" class="contact-btn contact-btn-zalo" title="Hỗ trợ & Trao đổi tài liệu qua Zalo">
+      <div class="contact-icon-circle">
+        <i class="fa-solid fa-comment-dots"></i>
       </div>
-      <div class="modal-body">
-        <p>Bạn có chắc chắn muốn xóa <span id="delete-item-type" style="font-weight:600">tài liệu</span> này khỏi Google Drive không?</p>
-        <div style="background-color: #fee2e2; border-radius: var(--radius-md); padding: 0.75rem 1rem; color: #991b1b; font-weight: 600; word-break: break-word;" id="delete-item-name"></div>
-        <p style="font-size: 0.8rem; color: var(--text-muted);">
-          ⚠️ Lưu ý: Hành động này sẽ chuyển tệp vào Thùng rác trên tài khoản Google Drive của bạn.
-        </p>
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-outline modal-close">Hủy bỏ</button>
-        <button id="btn-confirm-delete" class="btn btn-primary" style="background: var(--color-danger); box-shadow: none;">
-          <i class="fa-solid fa-trash-can"></i> Xóa vĩnh viễn
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- ==========================================
-       MODAL 5: TẠO THƯ MỤC MỚI (ADMIN ONLY)
-       ========================================== -->
-  <div class="modal" id="create-folder-modal">
-    <div class="modal-backdrop"></div>
-    <div class="modal-content" style="max-width: 450px;">
-      <div class="modal-header">
-        <h3><i class="fa-solid fa-folder-plus"></i> Tạo thư mục mới</h3>
-        <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
-      </div>
-      <div class="modal-body">
-        <div>
-          <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem;">Tên thư mục mới:</label>
-          <input type="text" id="new-folder-name" autocomplete="off" spellcheck="false" placeholder="Ví dụ: GIAO_AN_STEM, MON_HOAT_DONG_TRAI_NGHIEM..." style="width: 100%; padding: 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-outline modal-close">Hủy</button>
-        <button id="btn-submit-create-folder" class="btn btn-primary">
-          <i class="fa-solid fa-check"></i> Tạo thư mục
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- ==========================================
-       MODAL 6: ĐỔI MẬT KHẨU QUẢN TRỊ VIÊN (ADMIN ONLY)
-       ========================================== -->
-  <div class="modal" id="change-password-modal">
-    <div class="modal-backdrop"></div>
-    <div class="modal-content" style="max-width: 440px;">
-      <div class="modal-header">
-        <h3><i class="fa-solid fa-key" style="color: #2563eb;"></i> Đổi mật khẩu Quản trị viên</h3>
-        <button class="modal-close"><i class="fa-solid fa-xmark"></i></button>
-      </div>
-      <div class="modal-body">
-        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
-          Mật khẩu mới sẽ được lưu trên hệ thống và áp dụng ngay lập tức cho các thao tác quản trị.
-        </p>
-        <div style="display: flex; flex-direction: column; gap: 0.85rem;">
-          <div>
-            <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.35rem;">Mật khẩu hiện tại:</label>
-            <div style="position: relative; display: flex; align-items: center;">
-              <input type="password" id="current-admin-password-input" autocomplete="off" placeholder="Nhập mật khẩu đang dùng..." style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
-              <button type="button" class="btn-pw-toggle" data-target="current-admin-password-input" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;" title="Hiện / Ẩn mật khẩu">
-                <i class="fa-solid fa-eye"></i>
-              </button>
-            </div>
-          </div>
-          <div>
-            <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.35rem;">Mật khẩu mới (tối thiểu 4 ký tự):</label>
-            <div style="position: relative; display: flex; align-items: center;">
-              <input type="password" id="new-admin-password-input" autocomplete="off" placeholder="Nhập mật khẩu mới..." style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
-              <button type="button" class="btn-pw-toggle" data-target="new-admin-password-input" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;" title="Hiện / Ẩn mật khẩu">
-                <i class="fa-solid fa-eye"></i>
-              </button>
-            </div>
-          </div>
-          <div>
-            <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.35rem;">Xác nhận mật khẩu mới:</label>
-            <div style="position: relative; display: flex; align-items: center;">
-              <input type="password" id="confirm-new-admin-password-input" autocomplete="off" placeholder="Nhập lại mật khẩu mới..." style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
-              <button type="button" class="btn-pw-toggle" data-target="confirm-new-admin-password-input" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;" title="Hiện / Ẩn mật khẩu">
-                <i class="fa-solid fa-eye"></i>
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="modal-footer">
-        <button class="btn btn-outline modal-close">Hủy</button>
-        <button id="btn-submit-change-password" class="btn btn-primary">
-          <i class="fa-solid fa-check"></i> Lưu mật khẩu mới
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <!-- ==========================================
-       OVERLAY HƯỚNG DẪN KẾT NỐI BAN ĐẦU
-       ========================================== -->
-  <div class="setup-overlay" id="setup-overlay">
-    <div class="setup-card">
-      <h2><i class="fa-solid fa-plug-circle-bolt"></i> Kết nối Google Drive Thật</h2>
-      <p style="color: var(--text-muted); font-size: 0.92rem;">
-        Chào bạn! Để website kết nối trực tiếp vào thư mục <strong>THU_VIEN</strong> trên Google Drive của bạn, bạn chỉ cần thực hiện 3 bước đơn giản:
-      </p>
-      <ol style="margin-left: 1.25rem; font-size: 0.88rem; color: var(--text-main); display: flex; flex-direction: column; gap: 0.5rem;">
-        <li>Sao chép mã nguồn trong thư mục <code>backend/Code.gs</code> dán vào <strong>Google Apps Script</strong>.</li>
-        <li>Bấm <strong>Triển khai (Deploy)</strong> dưới dạng Ứng dụng web.</li>
-        <li>Dán đường link Web App nhận được vào file <code>js/config.js</code>.</li>
-      </ol>
-      <p style="font-size: 0.82rem; color: #0284c7; background: #e0f2fe; padding: 0.65rem; border-radius: var(--radius-md);">
-        👉 Đã có tài liệu hướng dẫn từng thao tác chi tiết trong file <strong>HUONG_DAN_TRIEN_KHAI.md</strong>.
-      </p>
-      <div style="display: flex; justify-content: flex-end; margin-top: 0.5rem;">
-        <button class="btn btn-primary" onclick="document.getElementById('setup-overlay').style.display='none'">
-          Tôi đã hiểu, bắt đầu cấu hình
-        </button>
-      </div>
-    </div>
+      <span>Hỗ Trợ Zalo</span>
+    </a>
   </div>
 
   <!-- Vùng chứa thông báo Toast -->
   <div class="toast-container" id="toast-container"></div>
 
-  <!-- Loader toàn cục -->
-  <div class="global-loader" id="global-loader">
-    <div class="spinner"></div>
-    <div style="font-weight: 600; color: var(--primary); font-size: 0.95rem;">Đang kết nối cơ sở dữ liệu....</div>
-  </div>
-
-  <!-- Scripts -->
-  <script src="js/config.js"></script>
-  <script src="js/api.js"></script>
-  <script src="js/app.js"></script>
+  <!-- Scripts Logic -->
+  <script src="js/config.js" defer></script>
+  <script src="js/data.js" defer></script>
+  <script src="js/auth.js" defer></script>
+  <script src="js/drive-service.js" defer></script>
+  <script src="js/ai-service.js" defer></script>
+  <script src="js/toolkit.js" defer></script>
+  <script src="js/app.js" defer></script>
 </body>
 </html>

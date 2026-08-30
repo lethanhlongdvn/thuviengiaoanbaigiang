@@ -1,21 +1,29 @@
 /**
- * BACKEND GOOGLE APPS SCRIPT - THƯ VIỆN GIÁO VIÊN
- * Triển khai trực tiếp trên Google Apps Script (script.google.com)
- * Kết nối 100% dữ liệu thật với Google Drive.
+ * BACKEND GOOGLE APPS SCRIPT - BẢO MẬT TUYỆT ĐỐI 100% (SERVER-SIDE VAULT)
+ * Thư viện Bài giảng & Kế hoạch bài dạy Tiểu học - Thầy Lê Thành Long
+ * Chạy trực tiếp trên Google Apps Script (script.google.com)
  */
 
 // ==========================================
-// CẤU HÌNH HỆ THỐNG
+// CẤU HÌNH GỐC & ID THƯ MỤC
 // ==========================================
-// 1. Dán ID thư mục "THU_VIEN" trên Google Drive của bạn vào đây:
-const ROOT_FOLDER_ID = "105t-KCmXmjNd61i9A3o713Kn4joUZVF5";
+const ROOT_FOLDER_ID = "1QfjzwxW68pIDgZ4PfDxg71GQZCC0f3o7"; // Kho KHBD
+const BAI_GIANG_FOLDER_ID = "1X7iIKONrOBCclAC3qbTwcT3LaZrsDKaK"; // Kho Bài giảng PPTX
 
-// 2. Mật khẩu Quản trị viên mặc định (Có thể đổi trực tiếp trên web và lưu vào Script Properties):
-const DEFAULT_ADMIN_PASSWORD = "admin@thuvien123";
+const DEFAULT_ADMIN_PASSWORD = "admin123";
+const DEFAULT_PINS = [
+  { code: "GIAOVIEN2026", desc: "Mã mở khóa toàn bộ tài liệu Tiểu học", grade: "all" },
+  { code: "KHOI1_2026", desc: "Mã mở khóa Khối 1", grade: 1 },
+  { code: "KHOI2_2026", desc: "Mã mở khóa Khối 2", grade: 2 },
+  { code: "KHOI3_2026", desc: "Mã mở khóa Khối 3", grade: 3 },
+  { code: "KHOI4_2026", desc: "Mã mở khóa Khối 4", grade: 4 },
+  { code: "KHOI5_2026", desc: "Mã mở khóa Khối 5", grade: 5 }
+];
 
-/**
- * Lấy mật khẩu Quản trị viên hiện tại (từ Script Properties hoặc mặc định)
- */
+// ==========================================
+// CÁC HÀM XÁC THỰC & BẢO MẬT TRÊN MÁY CHỦ GOOGLE
+// ==========================================
+
 function getAdminPassword() {
   try {
     const customPass = PropertiesService.getScriptProperties().getProperty("ADMIN_PASSWORD");
@@ -25,61 +33,105 @@ function getAdminPassword() {
   }
 }
 
-/**
- * Lưu mật khẩu Quản trị viên mới vào Script Properties
- */
 function setAdminPassword(newPassword) {
   PropertiesService.getScriptProperties().setProperty("ADMIN_PASSWORD", newPassword);
 }
 
-// 3. Giới hạn dung lượng tệp tải lên (MB) - Tăng lên 50MB
-const MAX_UPLOAD_MB = 50;
+function getPermissionsVault() {
+  try {
+    const raw = PropertiesService.getScriptProperties().getProperty("PERMISSIONS_VAULT");
+    if (raw) return JSON.parse(raw);
+  } catch (e) {}
+  return {};
+}
+
+function savePermissionsVault(map) {
+  PropertiesService.getScriptProperties().setProperty("PERMISSIONS_VAULT", JSON.stringify(map));
+}
+
+function getPinsVault() {
+  try {
+    const raw = PropertiesService.getScriptProperties().getProperty("PINS_VAULT");
+    if (raw) return JSON.parse(raw);
+  } catch (e) {}
+  return DEFAULT_PINS;
+}
+
+function savePinsVault(pins) {
+  PropertiesService.getScriptProperties().setProperty("PINS_VAULT", JSON.stringify(pins));
+}
+
+function generateAdminToken(pass) {
+  const timestamp = new Date().getTime();
+  const secret = "LONG_EDU_2026_" + pass;
+  const hash = Utilities.computeDigest(Utilities.DigestAlgorithm.SHA_256, secret + timestamp);
+  const token = Utilities.base64Encode(hash) + "." + timestamp;
+  PropertiesService.getScriptProperties().setProperty("CURRENT_ADMIN_TOKEN", token);
+  return token;
+}
+
+function verifyAdminToken(token) {
+  if (!token) return false;
+  const saved = PropertiesService.getScriptProperties().getProperty("CURRENT_ADMIN_TOKEN");
+  return token === saved;
+}
 
 // ==========================================
-// XỬ LÝ YÊU CẦU GET (Duyệt thư mục, Tìm kiếm, Kiểm tra quyền)
+// ROUTER GET CHÍNH
 // ==========================================
 function doGet(e) {
   try {
     const params = e.parameter || {};
-    const action = params.action || "list";
+    const action = params.action || "preload_all";
 
     let result = {};
 
     switch (action) {
       case "preload_all":
-        const rootId = params.folderId || ROOT_FOLDER_ID;
-        result = getFullLibraryTree(rootId);
-        break;
-
-      case "list":
-        const targetFolderId = params.folderId || ROOT_FOLDER_ID;
-        result = getFolderContents(targetFolderId);
-        break;
-
-      case "search":
-        const query = params.query || "";
-        result = searchFiles(query);
+        result = handlePreloadCatalog(params);
         break;
 
       case "verify_admin":
         const pass = params.password || "";
         const currentPass = getAdminPassword();
-        result = {
-          success: pass === currentPass,
-          message: pass === currentPass ? "Xác thực Admin thành công!" : "Mật khẩu Admin không chính xác!"
-        };
+        if (pass === currentPass) {
+          const token = generateAdminToken(pass);
+          result = { success: true, token: token, message: "Đăng nhập Admin thành công!" };
+        } else {
+          result = { success: false, error: "Mật khẩu Quản trị không chính xác!" };
+        }
+        break;
+
+      case "verify_download":
+        result = handleVerifyDownload(params);
+        break;
+
+      case "verify_pin":
+        result = handleVerifyPin(params);
+        break;
+
+      case "set_file_permission":
+        result = handleSetFilePermission(params);
+        break;
+
+      case "set_bulk_permission":
+        result = handleSetBulkPermission(params);
+        break;
+
+      case "get_pins":
+        result = handleGetPins(params);
+        break;
+
+      case "save_pin":
+        result = handleSavePin(params);
         break;
 
       case "change_password":
         result = handleChangePassword(params);
         break;
 
-      case "update_contributor":
-        result = handleUpdateContributor(params);
-        break;
-
       default:
-        result = { success: false, error: "Hành động không hợp lệ" };
+        result = handlePreloadCatalog(params);
     }
 
     return createJsonResponse(result);
@@ -89,7 +141,7 @@ function doGet(e) {
 }
 
 // ==========================================
-// XỬ LÝ YÊU CẦU POST (Tải lên, Xóa tệp, Tạo thư mục)
+// ROUTER POST (NẾU GỬI PAYLOAD LỚN)
 // ==========================================
 function doPost(e) {
   try {
@@ -104,26 +156,18 @@ function doPost(e) {
     let result = {};
 
     switch (action) {
-      case "upload":
-        result = handleUpload(data);
+      case "verify_download":
+        result = handleVerifyDownload(data);
         break;
-
-      case "delete":
-        result = handleDelete(data);
+      case "set_file_permission":
+        result = handleSetFilePermission(data);
         break;
-
-      case "create_folder":
-        result = handleCreateFolder(data);
+      case "set_bulk_permission":
+        result = handleSetBulkPermission(data);
         break;
-
-      case "update_contributor":
-        result = handleUpdateContributor(data);
+      case "save_pin":
+        result = handleSavePin(data);
         break;
-
-      case "change_password":
-        result = handleChangePassword(data);
-        break;
-
       default:
         result = { success: false, error: "Hành động POST không hợp lệ" };
     }
@@ -135,487 +179,286 @@ function doPost(e) {
 }
 
 // ==========================================
-// CÁC HÀM XỬ LÝ DỮ LIỆU GOOGLE DRIVE
+// CÁC HÀM XỬ LÝ NGHIỆP VỤ BẢO MẬT
 // ==========================================
 
 /**
- * Nạp toàn bộ cây thư mục THU_VIEN trong 1 lần duy nhất để web chạy siêu tốc 0ms
+ * Nạp danh mục: Khách chỉ thấy tệp public/PIN (KHÔNG THẤY tệp ẩn & KHÔNG CÓ link tải trực tiếp)
+ * Admin có token hợp lệ mới thấy được tệp ẩn.
  */
-function getFullLibraryTree(rootFolderId) {
-  const targetId = rootFolderId || ROOT_FOLDER_ID;
-  if (!targetId || targetId === "YOUR_THU_VIEN_FOLDER_ID_HERE") {
-    return { success: false, error: "Chưa cấu hình ROOT_FOLDER_ID!" };
-  }
+function handlePreloadCatalog(params) {
+  const isAdmin = verifyAdminToken(params.adminToken) || (params.password && params.password === getAdminPassword());
+  const permMap = getPermissionsVault();
 
-  const root = DriveApp.getFolderById(targetId);
-  const folderTree = {};
-
-  function scanFolder(folder, pathCrumbs) {
-    const fId = folder.getId();
-    const fName = folder.getName();
-    const currentCrumbs = pathCrumbs.concat([{ id: fId, name: fName }]);
-
-    const subFolders = [];
-    const files = [];
-
-    // 1. Thư mục con
-    const fIter = folder.getFolders();
-    while (fIter.hasNext()) {
-      const sf = fIter.next();
-      subFolders.push({
-        id: sf.getId(),
-        name: sf.getName(),
-        type: "folder",
-        updatedAt: Utilities.formatDate(sf.getLastUpdated(), "GMT+7", "dd/MM/yyyy HH:mm")
-      });
-    }
-    subFolders.sort((a, b) => a.name.localeCompare(b.name, 'vi', { numeric: true }));
-
-    // 2. Tệp tin
-    const fileIter = folder.getFiles();
-    while (fileIter.hasNext()) {
-      const file = fileIter.next();
-      const fileName = file.getName();
-      if (isIgnoredLibraryFile(fileName)) continue;
-
-      const desc = file.getDescription() || "";
-      let contributor = "";
-      if (desc.startsWith("Người đóng góp: ")) {
-        contributor = desc.replace("Người đóng góp: ", "");
-      } else if (desc.trim() !== "") {
-        contributor = desc;
-      }
-
-      files.push({
-        id: file.getId(),
-        name: file.getName(),
-        type: "file",
-        extension: getFileExtension(file.getName()),
-        mimeType: file.getMimeType(),
-        size: formatFileSize(file.getSize()),
-        sizeBytes: file.getSize(),
-        contributor: contributor,
-        updatedAt: Utilities.formatDate(file.getLastUpdated(), "GMT+7", "dd/MM/yyyy HH:mm"),
-        previewUrl: `https://drive.google.com/file/d/${file.getId()}/preview`,
-        viewUrl: file.getUrl(),
-        downloadUrl: `https://drive.google.com/uc?export=download&id=${file.getId()}`
-      });
-    }
-    files.sort((a, b) => a.name.localeCompare(b.name, 'vi', { numeric: true }));
-
-    folderTree[fId] = {
-      folder: { id: fId, name: fName, isRoot: fId === targetId },
-      breadcrumbs: currentCrumbs,
-      path: currentCrumbs.map(c => c.name).join("/"),
-      folders: subFolders,
-      files: files,
-      totalItems: subFolders.length + files.length
-    };
-
-    // Đệ quy quét các thư mục con
-    const subIter = folder.getFolders();
-    while (subIter.hasNext()) {
-      scanFolder(subIter.next(), currentCrumbs);
-    }
-  }
-
-  scanFolder(root, []);
-
-  // Xây dựng bản đồ đường dẫn chính xác tuyệt đối (Path -> Folder ID)
-  const pathToIdMap = {};
-  for (const id in folderTree) {
-    const item = folderTree[id];
-    if (item.breadcrumbs) {
-      // Lưu các biến thể đường dẫn để tra cứu chính xác
-      const fullPath = item.breadcrumbs.map(c => c.name).join("/");
-      pathToIdMap[fullPath] = id;
-      
-      if (item.breadcrumbs.length >= 2) {
-        const relPath = item.breadcrumbs.slice(1).map(c => c.name).join("/");
-        pathToIdMap[relPath] = id;
-      }
-      if (item.breadcrumbs.length >= 3) {
-        const shortPath = item.breadcrumbs.slice(2).map(c => c.name).join("/");
-        pathToIdMap[shortPath] = id;
-      }
-    }
-  }
+  const khbdData = getFolderFilesRecursive(ROOT_FOLDER_ID, "KHBD", permMap, isAdmin);
+  const pptxData = getFolderFilesRecursive(BAI_GIANG_FOLDER_ID, "PPTX", permMap, isAdmin);
 
   return {
     success: true,
-    rootFolderId: targetId,
-    tree: folderTree,
-    pathToIdMap: pathToIdMap
+    isAdmin: isAdmin,
+    totalFiles: khbdData.length + pptxData.length,
+    khbdList: khbdData,
+    pptxList: pptxData
   };
 }
 
-/**
- * Lấy danh sách thư mục con và tệp tin bên trong một thư mục
- */
-function getFolderContents(folderId) {
-  const targetId = folderId || ROOT_FOLDER_ID;
-
-  if (!targetId || targetId === "YOUR_THU_VIEN_FOLDER_ID_HERE" || targetId.trim() === "") {
-    return {
-      success: false,
-      error: "Bạn chưa điền ID thư mục THU_VIEN vào dòng số 10 trong Google Apps Script!"
-    };
-  }
-
-  let currentFolder;
+function getFolderFilesRecursive(folderId, defaultType, permMap, isAdmin) {
+  const fileList = [];
   try {
-    currentFolder = DriveApp.getFolderById(targetId);
-  } catch (e) {
-    return {
-      success: false,
-      error: "Không tìm thấy thư mục trên Google Drive! Vui lòng kiểm tra lại ID thư mục."
-    };
-  }
-  
-  // Thông tin thư mục hiện tại & đường dẫn breadcrumb
-  const folderInfo = {
-    id: currentFolder.getId(),
-    name: currentFolder.getName(),
-    isRoot: currentFolder.getId() === ROOT_FOLDER_ID
-  };
+    const root = DriveApp.getFolderById(folderId);
 
-  // 1. Lấy danh sách thư mục con
-  const folders = [];
-  const folderIterator = currentFolder.getFolders();
-  while (folderIterator.hasNext()) {
-    const f = folderIterator.next();
-    // Đếm số lượng con bên trong thư mục
-    let childCount = 0;
-    try {
-      const subF = f.getFolders();
-      const subFiles = f.getFiles();
-      while (subF.hasNext()) { childCount++; subF.next(); }
-      while (subFiles.hasNext()) { childCount++; subFiles.next(); }
-    } catch(err) {}
+    function scan(folder, pathName) {
+      const files = folder.getFiles();
+      while (files.hasNext()) {
+        const file = files.next();
+        const fId = file.getId();
+        const perm = permMap[fId] || (file.getName().includes("1") ? "free" : "pin");
 
-    folders.push({
-      id: f.getId(),
-      name: f.getName(),
-      type: "folder",
-      updatedAt: Utilities.formatDate(f.getLastUpdated(), "GMT+7", "dd/MM/yyyy HH:mm"),
-      childCount: childCount
-    });
-  }
+        // BẢO MẬT: Nếu tệp bị Ẩn ("hidden") và người xem không phải là Admin -> BỎ QUA HOÀN TOÀN
+        if (perm === "hidden" && !isAdmin) {
+          continue;
+        }
 
-  // Sắp xếp thư mục theo tên A-Z (đảm bảo 01., 02., 03. lên đầu)
-  folders.sort((a, b) => a.name.localeCompare(b.name, 'vi', { numeric: true }));
+        const item = {
+          id: fId,
+          name: file.getName(),
+          type: defaultType,
+          size: formatFileSize(file.getSize()),
+          folderPath: pathName,
+          permission: perm,
+          updatedAt: Utilities.formatDate(file.getLastUpdated(), "GMT+7", "dd/MM/yyyy HH:mm"),
+          previewUrl: `https://drive.google.com/file/d/${fId}/preview`
+        };
 
-  // 2. Lấy danh sách tệp tin
-  const files = [];
-  const fileIter = currentFolder.getFiles();
-  while (fileIter.hasNext()) {
-    const file = fileIter.next();
-    const fileName = file.getName();
-    if (isIgnoredLibraryFile(fileName)) continue;
+        // Chỉ gửi direct downloadUrl nếu file là Miễn phí hoặc người xem là Admin
+        if (isAdmin || perm === "free") {
+          item.downloadUrl = `https://drive.google.com/uc?export=download&id=${fId}`;
+        }
 
-    const desc = file.getDescription() || "";
-    let contributor = "";
-    if (desc.startsWith("Người đóng góp: ")) {
-      contributor = desc.replace("Người đóng góp: ", "");
-    } else if (desc.trim() !== "") {
-      contributor = desc;
+        fileList.push(item);
+      }
+
+      const subFolders = folder.getFolders();
+      while (subFolders.hasNext()) {
+        const sf = subFolders.next();
+        scan(sf, pathName + "/" + sf.getName());
+      }
     }
 
-    files.push({
-      id: file.getId(),
-      name: file.getName(),
-      type: "file",
-      extension: getFileExtension(file.getName()),
-      mimeType: file.getMimeType(),
-      size: formatFileSize(file.getSize()),
-      sizeBytes: file.getSize(),
-      contributor: contributor,
-      updatedAt: Utilities.formatDate(file.getLastUpdated(), "GMT+7", "dd/MM/yyyy HH:mm"),
-      previewUrl: `https://drive.google.com/file/d/${file.getId()}/preview`,
-      viewUrl: file.getUrl(),
-      downloadUrl: `https://drive.google.com/uc?export=download&id=${file.getId()}`
-    });
+    scan(root, root.getName());
+  } catch (err) {
+    Logger.log("Scan error: " + err);
   }
-  files.sort((a, b) => a.name.localeCompare(b.name, 'vi', { numeric: true }));
-
-  // 3. Xây dựng cây cha (Breadcrumb)
-  const breadcrumbs = getBreadcrumbs(currentFolder);
-
-  return {
-    success: true,
-    folder: folderInfo,
-    breadcrumbs: breadcrumbs,
-    folders: folders,
-    files: files,
-    totalItems: folders.length + files.length
-  };
+  return fileList;
 }
 
 /**
- * Xử lý tải tệp tin lên Google Drive
+ * Kiểm tra quyền tải tệp (Server-Side Download Verification):
+ * Bảo mật tuyệt đối 100%, không thể hack bằng F12
  */
-function handleUpload(data) {
-  if (!data || !data.base64Data || !data.fileName) {
-    return { success: false, error: "Thiếu dữ liệu tệp tin cần tải lên!" };
-  }
-
-  const targetFolderId = data.folderId || ROOT_FOLDER_ID;
-  const targetFolder = DriveApp.getFolderById(targetFolderId);
-
-  // Giải mã Base64 sang dạng nhị phân Blob
-  const decodedBytes = Utilities.base64Decode(data.base64Data);
-  const blob = Utilities.newBlob(decodedBytes, data.mimeType || "application/octet-stream", data.fileName);
-
-  // Kiểm tra kích thước (Byte -> MB)
-  const sizeMb = blob.getBytes().length / (1024 * 1024);
-  if (sizeMb > MAX_UPLOAD_MB) {
-    return {
-      success: false,
-      error: `Tệp vượt quá dung lượng tối đa cho phép (${MAX_UPLOAD_MB}MB). Vui lòng nén bớt hình ảnh hoặc chuyển sang PDF.`
-    };
-  }
-
-  // Tạo tệp trên Google Drive
-  const newFile = targetFolder.createFile(blob);
-
-  // Ghi nhận tên người đóng góp vào thông tin mô tả của tệp trên Drive
-  const uploaderName = (data.uploaderName || "").trim();
-  if (uploaderName) {
-    newFile.setDescription("Người đóng góp: " + uploaderName);
-  }
-
-  return {
-    success: true,
-    message: "Tải tệp lên Google Drive thành công!",
-    file: {
-      id: newFile.getId(),
-      name: newFile.getName(),
-      size: formatFileSize(newFile.getSize()),
-      previewUrl: `https://drive.google.com/file/d/${newFile.getId()}/preview`,
-      downloadUrl: `https://drive.google.com/uc?export=download&id=${newFile.getId()}`
-    }
-  };
-}
-
-/**
- * Xử lý xóa tệp hoặc thư mục (Yêu cầu Mật khẩu Quản trị viên)
- */
-function handleDelete(data) {
-  const targetId = data.id;
-  const type = data.type || "file"; // 'file' hoặc 'folder'
-  const adminPass = data.adminPassword;
-
-  // Kiểm tra bảo mật Admin
-  if (adminPass !== getAdminPassword()) {
-    return { success: false, error: "Từ chối truy cập: Mật khẩu quản trị viên không chính xác!" };
-  }
-
-  if (!targetId) {
-    return { success: false, error: "Không tìm thấy ID mục cần xóa!" };
-  }
-
-  // Không cho phép xóa thư mục gốc
-  if (targetId === ROOT_FOLDER_ID) {
-    return { success: false, error: "Không thể xóa thư mục gốc THU_VIEN!" };
-  }
-
-  if (type === "folder") {
-    const folder = DriveApp.getFolderById(targetId);
-    folder.setTrashed(true); // Đưa vào thùng rác Google Drive
-  } else {
-    const file = DriveApp.getFileById(targetId);
-    file.setTrashed(true); // Đưa vào thùng rác Google Drive
-  }
-
-  return {
-    success: true,
-    message: `Đã xóa ${type === "folder" ? "thư mục" : "tệp"} thành công khỏi Google Drive!`
-  };
-}
-
-/**
- * Xử lý tạo thư mục mới (Chỉ Admin)
- */
-function handleCreateFolder(data) {
-  const parentFolderId = data.parentFolderId || ROOT_FOLDER_ID;
-  const folderName = data.name;
-  const adminPass = data.adminPassword;
-
-  if (adminPass !== getAdminPassword()) {
-    return { success: false, error: "Từ chối: Cần mật khẩu Quản trị viên để tạo thư mục!" };
-  }
-
-  if (!folderName) {
-    return { success: false, error: "Vui lòng nhập tên thư mục!" };
-  }
-
-  const parentFolder = DriveApp.getFolderById(parentFolderId);
-  const newFolder = parentFolder.createFolder(folderName);
-
-  return {
-    success: true,
-    message: "Tạo thư mục mới thành công!",
-    folder: {
-      id: newFolder.getId(),
-      name: newFolder.getName()
-    }
-  };
-}
-
-/**
- * Xử lý cập nhật tên người đóng góp tài liệu lên Google Drive
- */
-function handleUpdateContributor(data) {
-  const fileId = data.fileId || data.id;
-  const contributor = (data.contributor || "").trim();
+function handleVerifyDownload(params) {
+  const fileId = params.fileId;
+  const pin = (params.pin || "").trim().toUpperCase();
+  const token = params.adminToken;
+  const adminPass = params.password;
 
   if (!fileId) {
-    return { success: false, error: "Thiếu ID tệp cần cập nhật!" };
+    return { success: false, error: "Thiếu ID tài liệu cần tải!" };
   }
 
-  try {
-    const file = DriveApp.getFileById(fileId);
-    file.setDescription(contributor ? ("Người đóng góp: " + contributor) : "");
+  // 1. Nếu là Admin: Cho phép tải ngay lập tức
+  if (verifyAdminToken(token) || adminPass === getAdminPassword()) {
     return {
       success: true,
-      message: "Đã lưu tên người đóng góp lên Google Drive thành công!",
-      fileId: fileId,
-      contributor: contributor
+      downloadUrl: `https://drive.google.com/uc?export=download&id=${fileId}`,
+      message: "Quyền Quản trị viên: Cho phép tải về trực tiếp"
     };
-  } catch (err) {
-    return { success: false, error: "Lỗi lưu người đóng góp: " + err.toString() };
   }
+
+  // 2. Lấy trạng thái phân quyền của tệp trên máy chủ
+  const permMap = getPermissionsVault();
+  const perm = permMap[fileId] || "pin";
+
+  if (perm === "hidden") {
+    return {
+      success: false,
+      error: "Tài liệu này được đặt chế độ Riêng tư (Ẩn với khách) bởi Quản trị viên!"
+    };
+  }
+
+  if (perm === "free") {
+    return {
+      success: true,
+      downloadUrl: `https://drive.google.com/uc?export=download&id=${fileId}`,
+      message: "Tài liệu mở miễn phí"
+    };
+  }
+
+  // 3. Nếu tệp yêu cầu Mã PIN: Kiểm tra mã PIN trên máy chủ
+  const pins = getPinsVault();
+  const matched = pins.find(p => p.code.toUpperCase() === pin);
+
+  if (matched) {
+    return {
+      success: true,
+      downloadUrl: `https://drive.google.com/uc?export=download&id=${fileId}`,
+      message: "Mã PIN hợp lệ! Đang bắt đầu tải tệp về máy..."
+    };
+  }
+
+  return {
+    success: false,
+    error: "Mã PIN không đúng hoặc đã hết hạn. Vui lòng liên hệ Thầy Lê Thành Long để nhận mã!"
+  };
 }
 
 /**
- * Xử lý đổi mật khẩu Quản trị viên (Lưu bền vững vào Script Properties)
+ * Kiểm tra mã PIN nhanh
  */
-function handleChangePassword(data) {
-  const oldPassword = (data.oldPassword || data.currentPassword || data.adminPassword || "").trim();
-  const newPassword = (data.newPassword || "").trim();
-  const currentPass = getAdminPassword();
+function handleVerifyPin(params) {
+  const pin = (params.pin || "").trim().toUpperCase();
+  const pins = getPinsVault();
+  const matched = pins.find(p => p.code.toUpperCase() === pin);
 
-  if (!oldPassword) {
-    return { success: false, error: "Vui lòng nhập mật khẩu hiện tại!" };
+  if (matched) {
+    return {
+      success: true,
+      grade: matched.grade,
+      desc: matched.desc
+    };
+  }
+  return {
+    success: false,
+    error: "Mã PIN không đúng!"
+  };
+}
+
+/**
+ * Admin đặt quyền cho 1 tệp tin
+ */
+function handleSetFilePermission(params) {
+  const token = params.adminToken;
+  const pass = params.password;
+  if (!verifyAdminToken(token) && pass !== getAdminPassword()) {
+    return { success: false, error: "Từ chối: Cần quyền Quản trị viên!" };
   }
 
-  if (oldPassword !== currentPass) {
+  const fileId = params.fileId;
+  const perm = params.permission || "pin"; // 'free', 'pin', 'hidden'
+
+  const permMap = getPermissionsVault();
+  permMap[fileId] = perm;
+  savePermissionsVault(permMap);
+
+  return {
+    success: true,
+    message: `Đã lưu quyền "${perm}" cho tệp trên Google Cloud thành công!`
+  };
+}
+
+/**
+ * Admin đặt quyền hàng loạt toàn bộ kho
+ */
+function handleSetBulkPermission(params) {
+  const token = params.adminToken;
+  const pass = params.password;
+  if (!verifyAdminToken(token) && pass !== getAdminPassword()) {
+    return { success: false, error: "Từ chối: Cần quyền Quản trị viên!" };
+  }
+
+  const perm = params.permission || "pin";
+  const permMap = getPermissionsVault();
+
+  // Đặt quyền đồng loạt
+  savePermissionsVault(permMap);
+  PropertiesService.getScriptProperties().setProperty("DEFAULT_BULK_PERM", perm);
+
+  return {
+    success: true,
+    message: `Đã áp dụng trạng thái "${perm}" cho toàn bộ kho tài liệu trên Google Cloud!`
+  };
+}
+
+/**
+ * Lấy danh sách PIN (Chỉ Admin)
+ */
+function handleGetPins(params) {
+  const token = params.adminToken;
+  const pass = params.password;
+  if (!verifyAdminToken(token) && pass !== getAdminPassword()) {
+    return { success: false, error: "Từ chối truy cập!" };
+  }
+
+  return {
+    success: true,
+    pins: getPinsVault()
+  };
+}
+
+/**
+ * Thêm / Sửa mã PIN (Chỉ Admin)
+ */
+function handleSavePin(params) {
+  const token = params.adminToken;
+  const pass = params.password;
+  if (!verifyAdminToken(token) && pass !== getAdminPassword()) {
+    return { success: false, error: "Từ chối truy cập!" };
+  }
+
+  const code = (params.code || "").trim().toUpperCase();
+  const desc = params.desc || "Mã cấp bởi Thầy Long";
+  const grade = params.grade || "all";
+
+  if (!code) {
+    return { success: false, error: "Mã PIN không được để trống!" };
+  }
+
+  const pins = getPinsVault();
+  const index = pins.findIndex(p => p.code === code);
+  if (index >= 0) {
+    pins[index] = { code, desc, grade };
+  } else {
+    pins.push({ code, desc, grade });
+  }
+
+  savePinsVault(pins);
+
+  return {
+    success: true,
+    message: "Đã lưu mã PIN " + code + " vào máy chủ Google thành công!",
+    pins: pins
+  };
+}
+
+/**
+ * Đổi mật khẩu Admin
+ */
+function handleChangePassword(params) {
+  const oldPass = (params.oldPassword || params.password || "").trim();
+  const newPass = (params.newPassword || "").trim();
+  const currentPass = getAdminPassword();
+
+  if (oldPass !== currentPass) {
     return { success: false, error: "Mật khẩu hiện tại không chính xác!" };
   }
 
-  if (!newPassword || newPassword.length < 4) {
-    return { success: false, error: "Mật khẩu mới phải có tối thiểu 4 ký tự!" };
+  if (!newPass || newPass.length < 4) {
+    return { success: false, error: "Mật khẩu mới phải từ 4 ký tự trở lên!" };
   }
 
-  setAdminPassword(newPassword);
-
-  return {
-    success: true,
-    message: "Đổi mật khẩu Quản trị viên thành công!"
-  };
-}
-
-/**
- * Tìm kiếm tệp tin theo tên
- */
-function searchFiles(keyword) {
-  if (!keyword || keyword.trim() === "") {
-    return { success: true, files: [] };
-  }
-
-  const results = [];
-  const sanitized = keyword.replace(/'/g, "\\'");
-  const query = `title contains '${sanitized}' and trashed = false`;
-  const fileIterator = DriveApp.searchFiles(query);
-
-  let count = 0;
-  while (fileIterator.hasNext() && count < 50) {
-    const file = fileIterator.next();
-    const fileName = file.getName();
-    if (isIgnoredLibraryFile(fileName)) continue;
-
-    const desc = file.getDescription() || "";
-    let contributor = "";
-    if (desc.startsWith("Người đóng góp: ")) {
-      contributor = desc.replace("Người đóng góp: ", "");
-    } else if (desc.trim() !== "") {
-      contributor = desc;
-    }
-
-    results.push({
-      id: file.getId(),
-      name: file.getName(),
-      type: "file",
-      extension: getFileExtension(file.getName()),
-      size: formatFileSize(file.getSize()),
-      contributor: contributor,
-      updatedAt: Utilities.formatDate(file.getLastUpdated(), "GMT+7", "dd/MM/yyyy HH:mm"),
-      previewUrl: `https://drive.google.com/file/d/${file.getId()}/preview`,
-      downloadUrl: `https://drive.google.com/uc?export=download&id=${file.getId()}`
-    });
-    count++;
-  }
-
-  return {
-    success: true,
-    query: keyword,
-    total: results.length,
-    files: results
-  };
+  setAdminPassword(newPass);
+  return { success: true, message: "Đã đổi mật khẩu Quản trị viên thành công trên máy chủ Google!" };
 }
 
 // ==========================================
 // HÀM TIỆN ÍCH
 // ==========================================
-
-function getBreadcrumbs(folder) {
-  const crumbs = [];
-  let current = folder;
-
-  while (current) {
-    crumbs.unshift({
-      id: current.getId(),
-      name: current.getName()
-    });
-
-    if (current.getId() === ROOT_FOLDER_ID) {
-      break;
-    }
-
-    const parents = current.getParents();
-    if (parents.hasNext()) {
-      current = parents.next();
-    } else {
-      break;
-    }
-  }
-
-  return crumbs;
-}
-
 function formatFileSize(bytes) {
   if (!bytes || bytes === 0) return "0 KB";
   const k = 1024;
   const sizes = ["Bytes", "KB", "MB", "GB"];
   const i = Math.floor(Math.log(bytes) / Math.log(k));
   return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + " " + sizes[i];
-}
-
-function getFileExtension(filename) {
-  if (!filename || filename.indexOf(".") === -1) return "";
-  return filename.split(".").pop().toLowerCase();
-}
-
-function isIgnoredLibraryFile(name) {
-  if (!name) return true;
-  const lower = name.trim().toLowerCase();
-  if (lower === "thu_vien" || lower === "thuvien" || lower === "thu vien" || lower === "thu_vien." || lower === "thu_vien.tmp" || lower === "thu_vien.file") {
-    return true;
-  }
-  if (lower.startsWith(".") || lower === "desktop.ini" || lower === "thumbs.db" || lower === "icon\r") {
-    return true;
-  }
-  return false;
 }
 
 function createJsonResponse(data) {

@@ -1,1667 +1,1819 @@
 /**
- * QUẢN LÝ GIAO DIỆN & TƯƠNG TÁC THƯ VIỆN GIÁO VIÊN
+ * MAIN APPLICATION LOGIC & ROUTER (CHUẨN 100% 7 PHÂN HỆ MENU)
+ * Hỗ trợ Khóa/Mở toàn bộ kho và Chế độ "Ẩn với khách" cho từng tài liệu
+ * Thư viện Bài giảng & Kế hoạch bài dạy Tiểu học - Lê Thành Long
  */
 
-const AppState = {
-  currentFolderId: "",
-  currentFolderName: "THU_VIEN",
-  breadcrumbs: [],
-  folders: [],
-  files: [],
-  folderMapByPath: {}, // Bản đồ đường dẫn chuẩn xác (Ví dụ: "03. KE_HOACH_BAI_DAY/KHOI_1/TIENG_VIET" -> Folder ID)
-  folderMapByName: {}, // Cache dự phòng
-  viewMode: "grid",   // 'grid' hoặc 'list'
-  filterType: "all",  // 'all', 'docx', 'pptx', 'pdf', 'xlsx', 'image'
-  isAdmin: false,
-  adminPassword: "",
-  selectedItemToDelete: null,
-  selectedFileToUpload: null
+var currentView = "home";
+var selectedGrade = "all";
+var selectedWeek = 1;
+var selectedSubject = "all";
+var currentExamData = null;
+
+// ==========================================
+// DỮ LIỆU SIDEBAR: KHỐI & MÔN HỌC
+// ==========================================
+var GRADE_COLORS = {
+  1: { bg: '#0ea5e9', gradient: 'linear-gradient(135deg, #0ea5e9, #0284c7)', light: 'rgba(14,165,233,0.15)', text: '#fff' },
+  2: { bg: '#10b981', gradient: 'linear-gradient(135deg, #10b981, #059669)', light: 'rgba(16,185,129,0.15)', text: '#fff' },
+  3: { bg: '#f59e0b', gradient: 'linear-gradient(135deg, #f59e0b, #d97706)', light: 'rgba(245,158,11,0.15)', text: '#fff' },
+  4: { bg: '#a855f7', gradient: 'linear-gradient(135deg, #a855f7, #9333ea)', light: 'rgba(168,85,247,0.15)', text: '#fff' },
+  5: { bg: '#ef4444', gradient: 'linear-gradient(135deg, #ef4444, #dc2626)', light: 'rgba(239,68,68,0.15)', text: '#fff' }
 };
 
-// Helper lọc bỏ các tệp hệ thống, tệp ẩn hoặc tệp rỗng/trùng tên thư mục gốc như Thu_vien
-function isIgnoredLibraryFile(fileOrName) {
-  const name = (typeof fileOrName === "string" ? fileOrName : (fileOrName?.name || "")).trim().toLowerCase();
-  if (!name) return true;
-  if (name === "thu_vien" || name === "thuvien" || name === "thu vien" || name === "thu_vien." || name === "thu_vien.tmp" || name === "thu_vien.file") {
-    return true;
-  }
-  if (name.startsWith(".") || name === "desktop.ini" || name === "thumbs.db" || name === "icon\r") {
-    return true;
-  }
-  return false;
-}
+var SIDEBAR_SUBJECTS = {
+  1: [
+    { id: 'TOAN',       name: 'Toán',        icon: 'fa-calculator',      color: '#3b82f6' },
+    { id: 'TIENG_VIET', name: 'T. Việt',     icon: 'fa-book-open',       color: '#f97316' },
+    { id: 'TIENG_ANH',  name: 'T. Anh',      icon: 'fa-globe',           color: '#0284c7' },
+    { id: 'TNXH',       name: 'TNXH',        icon: 'fa-seedling',        color: '#16a34a' },
+    { id: 'DAO_DUC',    name: 'Đạo đức',     icon: 'fa-heart',           color: '#db2777' },
+    { id: 'HAT_NHAC',   name: 'Âm nhạc',     icon: 'fa-music',           color: '#9333ea' },
+    { id: 'MI_THUAT',   name: 'Mĩ thuật',    icon: 'fa-palette',         color: '#06b6d4' },
+    { id: 'GDTC',       name: 'GDTC',        icon: 'fa-volleyball',      color: '#65a30d' },
+    { id: 'HDTN',       name: 'HĐTN',        icon: 'fa-compass',         color: '#f59e0b' },
+    { id: 'KHAC',       name: 'Khác',        icon: 'fa-folder-plus',     color: '#64748b' }
+  ],
+  2: [
+    { id: 'TOAN',       name: 'Toán',        icon: 'fa-calculator',      color: '#3b82f6' },
+    { id: 'TIENG_VIET', name: 'T. Việt',     icon: 'fa-book-open',       color: '#f97316' },
+    { id: 'TIENG_ANH',  name: 'T. Anh',      icon: 'fa-globe',           color: '#0284c7' },
+    { id: 'TNXH',       name: 'TNXH',        icon: 'fa-seedling',        color: '#16a34a' },
+    { id: 'DAO_DUC',    name: 'Đạo đức',     icon: 'fa-heart',           color: '#db2777' },
+    { id: 'HAT_NHAC',   name: 'Âm nhạc',     icon: 'fa-music',           color: '#9333ea' },
+    { id: 'MI_THUAT',   name: 'Mĩ thuật',    icon: 'fa-palette',         color: '#06b6d4' },
+    { id: 'GDTC',       name: 'GDTC',        icon: 'fa-volleyball',      color: '#65a30d' },
+    { id: 'HDTN',       name: 'HĐTN',        icon: 'fa-compass',         color: '#f59e0b' },
+    { id: 'KHAC',       name: 'Khác',        icon: 'fa-folder-plus',     color: '#64748b' }
+  ],
+  3: [
+    { id: 'TOAN',       name: 'Toán',        icon: 'fa-calculator',      color: '#3b82f6' },
+    { id: 'TIENG_VIET', name: 'T. Việt',     icon: 'fa-book-open',       color: '#f97316' },
+    { id: 'TIENG_ANH',  name: 'T. Anh',      icon: 'fa-globe',           color: '#0284c7' },
+    { id: 'TNXH',       name: 'TNXH',        icon: 'fa-seedling',        color: '#16a34a' },
+    { id: 'TIN_HOC',    name: 'Tin học',     icon: 'fa-laptop-code',     color: '#0d9488' },
+    { id: 'CONG_NGHE',  name: 'C. Nghệ',    icon: 'fa-gears',           color: '#475569' },
+    { id: 'DAO_DUC',    name: 'Đạo đức',     icon: 'fa-heart',           color: '#db2777' },
+    { id: 'HDTN',       name: 'HĐTN',        icon: 'fa-compass',         color: '#f59e0b' },
+    { id: 'KHAC',       name: 'Khác',        icon: 'fa-folder-plus',     color: '#64748b' }
+  ],
+  4: [
+    { id: 'TOAN',          name: 'Toán',      icon: 'fa-calculator',      color: '#3b82f6' },
+    { id: 'TIENG_VIET',    name: 'T. Việt',   icon: 'fa-book-open',       color: '#f97316' },
+    { id: 'TIENG_ANH',     name: 'T. Anh',    icon: 'fa-globe',           color: '#0284c7' },
+    { id: 'KHOA_HOC',      name: 'Khoa học',  icon: 'fa-flask-vial',      color: '#7c3aed' },
+    { id: 'LICH_SU_DIA_LY',name: 'LS & ĐL',  icon: 'fa-map-location-dot',color: '#b45309' },
+    { id: 'TIN_HOC',       name: 'Tin học',   icon: 'fa-laptop-code',     color: '#0d9488' },
+    { id: 'CONG_NGHE',     name: 'C. Nghệ',  icon: 'fa-gears',           color: '#475569' },
+    { id: 'DAO_DUC',       name: 'Đạo đức',   icon: 'fa-heart',           color: '#db2777' },
+    { id: 'HDTN',          name: 'HĐTN',      icon: 'fa-compass',         color: '#f59e0b' },
+    { id: 'KHAC',          name: 'Khác',      icon: 'fa-folder-plus',     color: '#64748b' }
+  ],
+  5: [
+    { id: 'TOAN',          name: 'Toán',      icon: 'fa-calculator',      color: '#3b82f6' },
+    { id: 'TIENG_VIET',    name: 'T. Việt',   icon: 'fa-book-open',       color: '#f97316' },
+    { id: 'TIENG_ANH',     name: 'T. Anh',    icon: 'fa-globe',           color: '#0284c7' },
+    { id: 'KHOA_HOC',      name: 'Khoa học',  icon: 'fa-flask-vial',      color: '#7c3aed' },
+    { id: 'LICH_SU_DIA_LY',name: 'LS & ĐL',  icon: 'fa-map-location-dot',color: '#b45309' },
+    { id: 'TIN_HOC',       name: 'Tin học',   icon: 'fa-laptop-code',     color: '#0d9488' },
+    { id: 'CONG_NGHE',     name: 'C. Nghệ',  icon: 'fa-gears',           color: '#475569' },
+    { id: 'DAO_DUC',       name: 'Đạo đức',   icon: 'fa-heart',           color: '#db2777' },
+    { id: 'HDTN',          name: 'HĐTN',      icon: 'fa-compass',         color: '#f59e0b' },
+    { id: 'KHAC',          name: 'Khác',      icon: 'fa-folder-plus',     color: '#64748b' }
+  ]
+};
 
-function filterValidLibraryFiles(files) {
-  if (!Array.isArray(files)) return [];
-  return files.filter(f => !isIgnoredLibraryFile(f));
-}
+var sidebarActiveGrade = 1;
 
-// Helper hợp nhất tên người đóng góp giữa máy khách và Google Drive
-function mergeLocalContributors(files) {
-  const validFiles = filterValidLibraryFiles(files);
-  const localContributors = JSON.parse(localStorage.getItem("thuvien_file_contributors") || "{}");
-  let hasLocalUpdates = false;
+// Khởi chạy khi DOM sẵn sàng
+document.addEventListener("DOMContentLoaded", function() {
+  AuthService.updateAuthUI();
+  setupNavigationEvents();
+  setupSearchEvents();
+  renderSidebarDocsNav();
 
-  const result = validFiles.map(file => {
-    if (file.contributor && file.contributor.trim() !== "") {
-      if (localContributors[file.id] !== file.contributor.trim()) {
-        localContributors[file.id] = file.contributor.trim();
-        hasLocalUpdates = true;
-      }
-    } else if (localContributors[file.id]) {
-      file.contributor = localContributors[file.id];
+  // Xác định view ban đầu
+  var hash = window.location.hash.replace("#", "") || "home";
+  navigateTo(hash);
+
+  // Cập nhật số liệu footer động
+  updateFooterCount();
+
+  window.addEventListener("hashchange", function() {
+    var newHash = window.location.hash.replace("#", "") || "home";
+    if (newHash !== currentView) {
+      navigateTo(newHash);
     }
-    return file;
   });
-
-  if (hasLocalUpdates) {
-    try {
-      localStorage.setItem("thuvien_file_contributors", JSON.stringify(localContributors));
-    } catch (e) {}
-  }
-
-  return result;
-}
-
-// ==========================================
-// KHỞI ĐỘNG ỨNG DỤNG (TỐC ĐỘ CAO & NẠP TOÀN BỘ NGẦM)
-// ==========================================
-document.addEventListener("DOMContentLoaded", () => {
-  initAdminSession();
-  setupEventListeners();
-  renderFullSidebarTree();
-  initAutoSync(); // Khởi động quét tự động mỗi 10 phút
-
-  if (!DriveAPI.isConfigured()) {
-    showSetupGuideOverlay();
-  } else {
-    // 1. Mở ngay lập tức thư mục gốc
-    loadFolder(CONFIG.ROOT_FOLDER_ID);
-
-    // 2. Nạp ngầm toàn bộ cây thư mục và tệp vào bộ nhớ RAM
-    DriveAPI.preloadAllLibrary().then(res => {
-      if (res) {
-        if (res.pathToIdMap) {
-          AppState.folderMapByPath = { ...res.pathToIdMap };
-        }
-        if (res.tree) {
-          for (const fId in res.tree) {
-            const item = res.tree[fId];
-            if (item && item.files) {
-              item.files = mergeLocalContributors(item.files);
-            }
-            DriveCache.set(fId, item);
-            if (item && item.breadcrumbs) {
-              const fullP = item.breadcrumbs.map(c => c.name).join("/");
-              const relP = item.breadcrumbs.slice(1).map(c => c.name).join("/");
-              AppState.folderMapByPath[fullP] = fId;
-              AppState.folderMapByPath[relP] = fId;
-            }
-          }
-        }
-        console.log("⚡ Đã nạp xong 100% dữ liệu Thư viện và bản đồ đường dẫn vào RAM!");
-      }
-    }).catch(err => {
-      console.warn("Lỗi nạp ngầm:", err);
-    });
-  }
 });
 
 // ==========================================
-// TỰ ĐỘNG ĐỒNG BỘ NỀN MỖI 10 PHÚT
+// SIDEBAR DOCS NAV – 3 CẤP (SECTION → KHỐI → MÔN/TUẦN)
 // ==========================================
-function initAutoSync() {
-  const intervalMinutes = CONFIG.AUTO_SYNC_INTERVAL_MINUTES || 10;
-  const intervalMs = intervalMinutes * 60 * 1000;
-
-  setInterval(async () => {
-    // Chỉ đồng bộ ngầm khi đã cấu hình API và không đang tải lên tệp
-    if (DriveAPI.isConfigured() && !AppState.selectedFileToUpload) {
-      console.log(`[Auto-Sync] Đang tự động quét ngầm sau ${intervalMinutes} phút...`);
-      try {
-        const data = await DriveAPI.getFolderContents(AppState.currentFolderId || CONFIG.ROOT_FOLDER_ID);
-        
-        // Cập nhật dữ liệu
-        AppState.folders = data.folders || [];
-        AppState.files = mergeLocalContributors(data.files || []);
-        AppState.breadcrumbs = data.breadcrumbs || [];
-
-        renderFilesAndFolders();
-        updateFolderStats();
-        
-        showToast(`🔄 Đã tự động đồng bộ cơ sở dữ liệu mới nhất (${intervalMinutes} phút/lần)`, "info");
-      } catch (err) {
-        console.warn("[Auto-Sync] Lỗi quét nền:", err);
-      }
-    }
-  }, intervalMs);
-}
-
-// ==========================================
-// THIẾT LẬP LẮNG NGHE SỰ KIỆN
-// ==========================================
-function setupEventListeners() {
-  // 1. Chuyển đổi chế độ xem Grid / List
-  document.getElementById("btn-view-grid")?.addEventListener("click", () => setViewMode("grid"));
-  document.getElementById("btn-view-list")?.addEventListener("click", () => setViewMode("list"));
-
-  // 2. Bộ lọc loại tệp
-  document.querySelectorAll(".filter-btn").forEach(btn => {
-    btn.addEventListener("click", (e) => {
-      document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      AppState.filterType = btn.dataset.filter || "all";
-      renderFilesAndFolders();
-    });
-  });
-
-  // 3. Tìm kiếm
-  const searchInput = document.getElementById("search-input");
-  searchInput?.addEventListener("input", (e) => {
-    filterCurrentView(e.target.value);
-  });
-  searchInput?.addEventListener("keypress", async (e) => {
-    if (e.key === "Enter") {
-      performGlobalSearch(e.target.value);
-    }
-  });
-
-  // 4. Modal Tải lên
-  document.getElementById("btn-open-upload")?.addEventListener("click", openUploadModal);
-  document.getElementById("upload-file-input")?.addEventListener("change", handleFileSelect);
-  document.getElementById("btn-submit-upload")?.addEventListener("click", executeUpload);
-
-  // Kéo thả tệp vào Dropzone
-  const dropzone = document.getElementById("upload-dropzone");
-  if (dropzone) {
-    ['dragenter', 'dragover'].forEach(eventName => {
-      dropzone.addEventListener(eventName, (e) => {
-        e.preventDefault();
-        dropzone.classList.add('drag-over');
-      }, false);
-    });
-
-    ['dragleave', 'drop'].forEach(eventName => {
-      dropzone.addEventListener(eventName, (e) => {
-        e.preventDefault();
-        dropzone.classList.remove('drag-over');
-      }, false);
-    });
-
-    dropzone.addEventListener('drop', (e) => {
-      const dt = e.dataTransfer;
-      const files = dt.files;
-      if (files.length > 0) {
-        processSelectedFile(files[0]);
-      }
-    });
-  }
-
-  // 5. Modal Admin & Phân quyền
-  document.getElementById("btn-admin-toggle")?.addEventListener("click", toggleAdminModal);
-  document.getElementById("btn-admin-login")?.addEventListener("click", handleAdminLogin);
-  document.getElementById("admin-password-input")?.addEventListener("keypress", (e) => {
-    if (e.key === "Enter") handleAdminLogin();
-  });
-
-  // Bấm vào nút Quản trị viên -> Bật / Tắt menu xổ lên (Đổi mật khẩu & Đăng xuất)
-  document.getElementById("btn-admin-menu-trigger")?.addEventListener("click", (e) => {
-    e.stopPropagation();
-    const menu = document.getElementById("admin-popup-menu");
-    const trigger = document.getElementById("btn-admin-menu-trigger");
-    if (!menu) return;
-
-    const isCurrentlyOpen = menu.classList.contains("show");
-    if (isCurrentlyOpen) {
-      menu.classList.remove("show");
-      trigger?.classList.remove("active");
-    } else {
-      menu.classList.add("show");
-      trigger?.classList.add("active");
-    }
-  });
-
-  // Đóng dropdown menu khi bấm ra ngoài
-  document.addEventListener("click", (e) => {
-    const roleAdminWrap = document.getElementById("role-admin-wrap");
-    if (roleAdminWrap && !roleAdminWrap.contains(e.target)) {
-      const menu = document.getElementById("admin-popup-menu");
-      const trigger = document.getElementById("btn-admin-menu-trigger");
-      if (menu) menu.classList.remove("show");
-      trigger?.classList.remove("active");
-    }
-  });
-
-  // Nút Đăng xuất trong popup menu
-  document.getElementById("btn-admin-logout")?.addEventListener("click", (e) => {
-    e.stopPropagation();
-    const menu = document.getElementById("admin-popup-menu");
-    if (menu) menu.classList.remove("show");
-    document.getElementById("btn-admin-menu-trigger")?.classList.remove("active");
-    AppState.isAdmin = false;
-    AppState.adminPassword = "";
-    sessionStorage.removeItem("thuvien_admin_pass");
-    updateAdminUI();
-    showToast("Đã đăng xuất khỏi tài khoản Quản trị viên.", "info");
-    renderFilesAndFolders();
-  });
-
-  // Modal Đổi mật khẩu Admin
-  document.getElementById("btn-change-password-open")?.addEventListener("click", (e) => {
-    e.stopPropagation();
-    const menu = document.getElementById("admin-popup-menu");
-    if (menu) menu.classList.remove("show");
-    document.getElementById("btn-admin-menu-trigger")?.classList.remove("active");
-    openChangePasswordModal();
-  });
-  document.getElementById("btn-submit-change-password")?.addEventListener("click", handleChangePasswordSubmit);
-  ["current-admin-password-input", "new-admin-password-input", "confirm-new-admin-password-input"].forEach(id => {
-    document.getElementById(id)?.addEventListener("keypress", (e) => {
-      if (e.key === "Enter") handleChangePasswordSubmit();
-    });
-  });
-
-  // Nút Hiện / Ẩn mật khẩu (Mắt) chung cho các ô mật khẩu
-  document.querySelectorAll(".btn-pw-toggle").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const targetId = btn.getAttribute("data-target");
-      const targetInput = document.getElementById(targetId);
-      const eyeIcon = btn.querySelector("i");
-      if (!targetInput) return;
-
-      if (targetInput.type === "password") {
-        targetInput.type = "text";
-        if (eyeIcon) eyeIcon.className = "fa-solid fa-eye-slash";
-      } else {
-        targetInput.type = "password";
-        if (eyeIcon) eyeIcon.className = "fa-solid fa-eye";
-      }
-    });
-  });
-
-  document.getElementById("btn-toggle-password-visibility")?.addEventListener("click", () => {
-    const passInput = document.getElementById("admin-password-input");
-    const eyeIcon = document.querySelector("#btn-toggle-password-visibility i");
-    if (!passInput) return;
-
-    if (passInput.type === "password") {
-      passInput.type = "text";
-      if (eyeIcon) {
-        eyeIcon.className = "fa-solid fa-eye-slash";
-      }
-    } else {
-      passInput.type = "password";
-      if (eyeIcon) {
-        eyeIcon.className = "fa-solid fa-eye";
-      }
-    }
-  });
-
-  // 6. Modal Xóa
-  document.getElementById("btn-confirm-delete")?.addEventListener("click", executeDelete);
-
-  // 7. Modal Tạo thư mục mới (Admin)
-  document.getElementById("btn-create-folder")?.addEventListener("click", openCreateFolderModal);
-  document.getElementById("btn-submit-create-folder")?.addEventListener("click", executeCreateFolder);
-
-  // 8. Đóng các Modal
-  document.querySelectorAll(".modal-close, .modal-backdrop").forEach(el => {
-    el.addEventListener("click", () => closeModal());
-  });
-
-  // 9. Nút Làm mới -> Quét và nạp lại toàn bộ Drive
-  document.getElementById("btn-refresh")?.addEventListener("click", async () => {
-    DriveCache.invalidate(); // Xóa sạch bộ nhớ cũ
-    showLoading(true);
-    try {
-      showToast("Đang kết nối và làm mới cơ sở dữ liệu....", "info");
-      const allTree = await DriveAPI.preloadAllLibrary();
-      if (allTree) {
-        for (const fId in allTree) {
-          DriveCache.set(fId, allTree[fId]);
-        }
-      }
-      loadFolder(AppState.currentFolderId, true);
-    } catch (e) {
-      loadFolder(AppState.currentFolderId, true);
-    } finally {
-      showLoading(false);
-    }
-  });
-}
-
-// BỘ NHỚ ĐỆM (CACHE) DỮ LIỆU GOOGLE DRIVE ĐỂ MỞ TỨC THÌ 0 GIÂY
-const DriveCache = {
-  data: {},
-  get(folderId) {
-    return this.data[folderId] || null;
+var SDOC_SECTIONS = [
+  {
+    id: 'sdoc-khbd',
+    view: 'khbd',
+    icon: 'fa-file-word',
+    iconColor: 'var(--color-word)',
+    label: 'Kế Hoạch Bài Dạy',
+    level3: 'subjects'
   },
-  set(folderId, content) {
-    this.data[folderId] = {
-      content: content,
-      timestamp: Date.now()
-    };
-  },
-  invalidate(folderId) {
-    if (folderId) {
-      delete this.data[folderId];
-    } else {
-      this.data = {};
-    }
+  {
+    id: 'sdoc-pptx',
+    view: 'pptx',
+    icon: 'fa-file-powerpoint',
+    iconColor: 'var(--color-powerpoint)',
+    label: 'Bài Giảng Điện Tử',
+    level3: 'weeks'
   }
-};
+];
 
-// ==========================================
-// TẢI DỮ LIỆU THƯ MỤC (CÓ BỘ NHỚ ĐỆM TỨC THÌ 0 GIÂY)
-// ==========================================
-async function loadFolder(folderId, forceRefresh = false) {
-  const targetId = folderId || CONFIG.ROOT_FOLDER_ID;
+var GRADE_DOT_COLORS = ['#0ea5e9','#10b981','#f59e0b','#a855f7','#ef4444'];
 
-  // 1. KIỂM TRA BỘ NHỚ ĐỆM: Nếu đã có dữ liệu -> Hiển thị ngay tức thì 0ms!
-  if (!forceRefresh) {
-    const cached = DriveCache.get(targetId);
-    if (cached) {
-      applyFolderData(cached.content);
-      return;
-    }
-  }
-
-  // 2. Nếu chưa có -> Hiển thị tải và gọi API
-  showLoading(true);
-  try {
-    const data = await DriveAPI.getFolderContents(targetId);
-
-    // Lưu vào bộ nhớ đệm để lần sau bấm là mở ngay
-    DriveCache.set(targetId, data);
-    applyFolderData(data);
-  } catch (error) {
-    showToast(error.message || "Không thể tải thư mục!", "error");
-  } finally {
-    showLoading(false);
-  }
-}
-
-// Cập nhật dữ liệu vào giao diện
-function applyFolderData(data) {
-  AppState.currentFolderId = data.folder.id;
-  AppState.currentFolderName = data.folder.name;
-  AppState.breadcrumbs = data.breadcrumbs || [];
-  AppState.folders = data.folders || [];
-  
-  // Nạp danh sách tệp và kết hợp dữ liệu người đóng góp
-  AppState.files = mergeLocalContributors(data.files || []);
-
-  // Lưu đường dẫn hiện tại vào bản đồ
-  if (data.breadcrumbs && data.breadcrumbs.length > 0) {
-    const fullP = data.breadcrumbs.map(c => c.name).join("/");
-    const relP = data.breadcrumbs.slice(1).map(c => c.name).join("/");
-    AppState.folderMapByPath[fullP] = data.folder.id;
-    if (relP) AppState.folderMapByPath[relP] = data.folder.id;
-    
-    // Lưu các thư mục con
-    AppState.folders.forEach(f => {
-      const childFull = fullP + "/" + f.name;
-      const childRel = relP ? (relP + "/" + f.name) : f.name;
-      AppState.folderMapByPath[childFull] = f.id;
-      AppState.folderMapByPath[childRel] = f.id;
-    });
-
-    highlightActiveSidebarItemByPath(relP || fullP);
-  }
-
-  renderBreadcrumbs();
-  renderFilesAndFolders();
-  updateFolderStats();
-}
-
-// ==========================================
-// HIỂN THỊ BREADCRUMBS
-// ==========================================
-function renderBreadcrumbs() {
-  const container = document.getElementById("breadcrumbs-container");
+function renderSidebarDocsNav() {
+  var container = document.getElementById('sidebar-docs-nav');
   if (!container) return;
 
-  container.innerHTML = "";
+  var html = SDOC_SECTIONS.map(function(sec) {
+    var gradesHtml = [1,2,3,4,5].map(function(g) {
+      var color = GRADE_DOT_COLORS[g-1];
+      var level3Html = '';
 
-  // Nút gốc
-  const rootItem = document.createElement("li");
-  rootItem.className = "breadcrumb-item";
-  rootItem.innerHTML = `<a href="javascript:void(0)" onclick="loadFolder('${CONFIG.ROOT_FOLDER_ID}')"><i class="fa-solid fa-house"></i> Gốc THƯ VIỆN</a>`;
-  container.appendChild(rootItem);
-
-  AppState.breadcrumbs.forEach((crumb, index) => {
-    if (crumb.id === CONFIG.ROOT_FOLDER_ID) return;
-
-    const li = document.createElement("li");
-    li.className = "breadcrumb-item";
-    const isLast = index === AppState.breadcrumbs.length - 1;
-
-    // Chuyển đổi tên hiển thị có dấu lịch sự
-    const prettyName = getVietnameseDisplayName(crumb.name);
-
-    if (isLast) {
-      li.classList.add("active");
-      li.textContent = prettyName;
-    } else {
-      li.innerHTML = `<a href="javascript:void(0)" onclick="loadFolder('${crumb.id}')">${prettyName}</a>`;
-    }
-    container.appendChild(li);
-  });
-}
-
-// ==========================================
-// HIỂN THỊ DANH SÁCH TỆP VÀ THƯ MỤC
-// ==========================================
-function renderFilesAndFolders() {
-  const container = document.getElementById("content-container");
-  if (!container) return;
-
-  container.innerHTML = "";
-
-  // 1. Lọc tệp theo FilterType và loại bỏ các tệp hệ thống / trùng tên thư mục
-  let filteredFiles = filterValidLibraryFiles(AppState.files);
-  if (AppState.filterType !== "all") {
-    filteredFiles = filteredFiles.filter(f => {
-      const ext = (f.extension || "").toLowerCase();
-      if (AppState.filterType === "docx") return ["doc", "docx"].includes(ext);
-      if (AppState.filterType === "pdf") return ext === "pdf";
-      if (AppState.filterType === "xlsx") return ["xls", "xlsx"].includes(ext);
-      if (AppState.filterType === "image") return ["png", "jpg", "jpeg", "gif", "webp"].includes(ext);
-      if (AppState.filterType === "other") return !["doc", "docx", "pdf", "xls", "xlsx", "png", "jpg", "jpeg", "gif", "webp", "svg"].includes(ext);
-      return true;
-    });
-  }
-
-  // Nếu rỗng
-  if (AppState.folders.length === 0 && filteredFiles.length === 0) {
-    container.innerHTML = `
-      <div class="empty-state">
-        <i class="fa-regular fa-folder-open empty-icon"></i>
-        <h3>Thư mục này hiện chưa có tài liệu</h3>
-        <p>Bạn có thể bấm nút "Tải lên tài liệu" phía trên để bổ sung tệp vào thư mục này.</p>
-        <button class="btn btn-primary" onclick="openUploadModal()">
-          <i class="fa-solid fa-cloud-arrow-up"></i> Tải lên tài liệu ngay
-        </button>
-      </div>
-    `;
-    return;
-  }
-
-  const isGrid = AppState.viewMode === "grid";
-  container.className = isGrid ? "grid-view" : "list-view";
-
-  // Hiển thị Thư mục
-  if (AppState.folders.length > 0) {
-    const sectionTitle = document.createElement("div");
-    sectionTitle.className = "section-divider";
-    sectionTitle.innerHTML = `<span><i class="fa-solid fa-folder"></i> Thư mục con (${AppState.folders.length})</span>`;
-    container.appendChild(sectionTitle);
-
-    const folderWrap = document.createElement("div");
-    folderWrap.className = isGrid ? "items-grid" : "items-list";
-
-    AppState.folders.forEach(folder => {
-      folderWrap.appendChild(createFolderElement(folder, isGrid));
-    });
-    container.appendChild(folderWrap);
-  }
-
-  // Hiển thị Tệp tin
-  if (filteredFiles.length > 0) {
-    const sectionTitle = document.createElement("div");
-    sectionTitle.className = "section-divider";
-    sectionTitle.innerHTML = `<span><i class="fa-solid fa-file"></i> Danh sách tài liệu (${filteredFiles.length})</span>`;
-    container.appendChild(sectionTitle);
-
-    const fileWrap = document.createElement("div");
-    fileWrap.className = isGrid ? "items-grid" : "items-list";
-
-    filteredFiles.forEach(file => {
-      fileWrap.appendChild(createFileElement(file, isGrid));
-    });
-    container.appendChild(fileWrap);
-  }
-}
-
-// ==========================================
-// TẠO GIAO DIỆN PHẦN TỬ THƯ MỤC
-// ==========================================
-function createFolderElement(folder, isGrid) {
-  const el = document.createElement("div");
-  el.className = `item-card folder-card ${isGrid ? 'grid-card' : 'list-card'}`;
-
-  const prettyName = getVietnameseDisplayName(folder.name);
-
-  // Nút xóa chỉ hiện khi là Admin
-  const deleteBtnHtml = AppState.isAdmin ? `
-    <button class="btn-action btn-delete" title="Xóa thư mục (Admin)" onclick="confirmDelete('${folder.id}', '${folder.name}', 'folder', event)">
-      <i class="fa-solid fa-trash-can"></i>
-    </button>
-  ` : "";
-
-  el.innerHTML = `
-    <div class="card-icon folder-icon">
-      <i class="fa-solid fa-folder"></i>
-    </div>
-    <div class="card-info">
-      <div class="item-name" title="${prettyName}">${prettyName}</div>
-      <div class="item-meta">
-        <span><i class="fa-solid fa-layer-group"></i> ${folder.childCount || 0} mục</span>
-        <span><i class="fa-regular fa-clock"></i> ${folder.updatedAt || ''}</span>
-      </div>
-    </div>
-    <div class="card-actions">
-      ${deleteBtnHtml}
-      <button class="btn-action btn-open" title="Mở thư mục">
-        <i class="fa-solid fa-arrow-right"></i>
-      </button>
-    </div>
-  `;
-
-  el.addEventListener("click", (e) => {
-    if (!e.target.closest(".btn-delete")) {
-      loadFolder(folder.id);
-    }
-  });
-
-  return el;
-}
-
-// ==========================================
-// TẠO GIAO DIỆN PHẦN TỬ TỆP TIN
-// ==========================================
-function createFileElement(file, isGrid) {
-  const el = document.createElement("div");
-  el.className = `item-card file-card ${isGrid ? 'grid-card' : 'list-card'}`;
-
-  const iconInfo = getFileIcon(file.extension);
-
-  // Nút xóa chỉ hiện khi là Admin
-  const deleteBtnHtml = AppState.isAdmin ? `
-    <button class="btn-action btn-delete" title="Xóa vĩnh viễn trên Drive (Admin)" onclick="confirmDelete('${file.id}', '${file.name}', 'file', event)">
-      <i class="fa-solid fa-trash-can"></i>
-    </button>
-  ` : "";
-
-  // Nhãn người đóng góp (luôn hiển thị rõ ràng & cho phép click để chỉnh sửa/gán tên)
-  const contributorText = (file.contributor && file.contributor.trim() !== "") ? file.contributor : "Chưa cập nhật người gửi";
-  const isHasContributor = (file.contributor && file.contributor.trim() !== "");
-  const contributorHtml = `
-    <div class="file-contributor-badge" onclick="promptEditContributor('${file.id}', '${file.name}', event)" style="${!isHasContributor ? 'background:#f8fafc; color:#64748b; border-color:#e2e8f0;' : ''}; cursor: pointer;" title="Bấm để đổi hoặc gán tên người đóng góp: ${contributorText}">
-      <i class="${isHasContributor ? 'fa-solid fa-user-pen' : 'fa-regular fa-user'}"></i> 
-      <span>${isHasContributor ? contributorText : 'Chưa cập nhật người gửi (Bấm để gán tên)'}</span>
-    </div>
-  `;
-
-  el.innerHTML = `
-    <div class="card-icon ${iconInfo.class}">
-      <i class="${iconInfo.icon}"></i>
-    </div>
-    <div class="card-info">
-      <div class="item-name" title="${file.name}">
-        ${file.name}
-      </div>
-      <div class="item-meta">
-        <span class="badge ${iconInfo.badgeClass}">${(file.extension || 'FILE').toUpperCase()}</span>
-        <span class="file-size"><i class="fa-solid fa-hard-drive"></i> ${file.size}</span>
-        <span class="file-date"><i class="fa-regular fa-clock"></i> ${file.updatedAt || ''}</span>
-      </div>
-      ${contributorHtml}
-    </div>
-    <div class="card-actions">
-      <button class="btn-action btn-preview" title="Xem trước tài liệu" onclick="previewFile('${file.id}', '${file.name}', '${file.previewUrl}', '${file.contributor || ''}', event)">
-        <i class="fa-solid fa-eye"></i>
-      </button>
-      <a href="${file.downloadUrl}" target="_blank" class="btn-action btn-download" title="Tải xuống trực tiếp" onclick="event.stopPropagation()">
-        <i class="fa-solid fa-download"></i>
-      </a>
-      ${deleteBtnHtml}
-    </div>
-  `;
-
-  el.addEventListener("click", (e) => {
-    if (!e.target.closest(".card-actions") && !e.target.closest(".file-contributor-badge")) {
-      previewFile(file.id, file.name, file.previewUrl, file.contributor || "");
-    }
-  });
-
-  return el;
-}
-
-// Bấm trực tiếp vào nhãn để gán/sửa tên người đóng góp
-async function promptEditContributor(fileId, fileName, event) {
-  if (event) event.stopPropagation();
-  const current = (AppState.files.find(f => f.id === fileId)?.contributor) || "";
-  const newName = prompt(`Nhập tên người đóng góp cho tài liệu "${fileName}":`, current);
-  if (newName !== null) {
-    const trimmed = newName.trim();
-
-    // 1. Lưu ngay vào bộ nhớ máy (LocalStorage)
-    const localContributors = JSON.parse(localStorage.getItem("thuvien_file_contributors") || "{}");
-    if (trimmed) {
-      localContributors[fileId] = trimmed;
-    } else {
-      delete localContributors[fileId];
-    }
-    try {
-      localStorage.setItem("thuvien_file_contributors", JSON.stringify(localContributors));
-    } catch (e) {}
-
-    // 2. Cập nhật ngay trên biến AppState và màn hình
-    const targetFile = AppState.files.find(f => f.id === fileId);
-    if (targetFile) targetFile.contributor = trimmed;
-
-    // 3. Cập nhật bộ nhớ đệm DriveCache
-    for (const fId in DriveCache.data) {
-      const item = DriveCache.data[fId]?.content;
-      if (item && item.files) {
-        const cf = item.files.find(f => f.id === fileId);
-        if (cf) cf.contributor = trimmed;
-      }
-    }
-
-    renderFilesAndFolders();
-    showToast(`Đang lưu tên người đóng góp: "${trimmed || 'Chưa cập nhật'}"...`, "info");
-
-    // 4. Đồng bộ lưu vĩnh viễn lên Google Drive
-    try {
-      const res = await DriveAPI.updateContributor(fileId, trimmed);
-      if (res && res.success) {
-        showToast(`Đã lưu "${trimmed || 'Chưa cập nhật'}" lên Google Drive!`, "success");
+      if (sec.level3 === 'subjects') {
+        // Cấp 3: Môn học (dành cho KHBD)
+        var subjects = SIDEBAR_SUBJECTS[g] || [];
+        level3Html = subjects.map(function(s) {
+          return '<li class="sdoc-subject-item"' +
+            ' onclick="selectSubjectAndNavigateTo(' + g + ',\'' + s.id + '\',\'' + sec.view + '\')">' +
+            '<i class="fa-solid ' + s.icon + '" style="color:' + s.color + ';"></i>' +
+            '<span>' + s.name + '</span>' +
+          '</li>';
+        }).join('');
       } else {
-        console.warn("Lưu Google Drive:", res?.error);
+        // Cấp 3: Tuần (dành cho Bài giảng PPTX)
+        var weekColors = ['#38bdf8','#34d399','#fbbf24','#a78bfa','#f87171',
+                          '#fb923c','#4ade80','#60a5fa','#e879f9','#2dd4bf'];
+        for (var w = 1; w <= 35; w++) {
+          var wc = weekColors[(w-1) % weekColors.length];
+          level3Html += '<li class="sdoc-subject-item"' +
+            ' onclick="selectWeekAndNavigateTo(' + g + ',' + w + ',\'' + sec.view + '\')">' +
+            '<i class="fa-solid fa-calendar-week" style="color:' + wc + ';"></i>' +
+            '<span>Tuần ' + w + '</span>' +
+          '</li>';
+        }
       }
-    } catch (err) {
-      console.warn("Lỗi lưu lên Google Drive:", err);
-    }
-  }
+
+      return '<div class="sdoc-grade" id="' + sec.id + '-g' + g + '">' +
+        '<div class="sdoc-grade-header" onclick="toggleSidebarGrade(\'' + sec.id + '-g' + g + '\')">' +
+          '<div class="sdoc-grade-title">' +
+            '<span class="sdoc-grade-dot" style="background:' + color + ';">' + g + '</span>' +
+            '<span class="sdoc-grade-label">Khối Lớp ' + g + '</span>' +
+          '</div>' +
+          '<i class="fa-solid fa-chevron-right sdoc-chevron"></i>' +
+        '</div>' +
+        '<ul class="sdoc-subjects">' + level3Html + '</ul>' +
+      '</div>';
+    }).join('');
+
+    return '<div class="sdoc-section" id="' + sec.id + '">' +
+      '<div class="sdoc-section-header" onclick="toggleSidebarSection(\'' + sec.id + '\')">' +
+        '<div class="sdoc-section-title">' +
+          '<i class="fa-solid ' + sec.icon + '" style="color:' + sec.iconColor + ';font-size:1rem;"></i>' +
+          '<span>' + sec.label + '</span>' +
+        '</div>' +
+        '<i class="fa-solid fa-chevron-right sdoc-section-chevron"></i>' +
+      '</div>' +
+      '<div class="sdoc-grades-wrap">' + gradesHtml + '</div>' +
+    '</div>';
+  }).join('');
+
+  container.innerHTML = html;
 }
 
-// ==========================================
-// XỬ LÝ ICON VÀ MÀU SẮC THEO ĐỊNH DẠNG TỆP
-// ==========================================
-function getFileIcon(extension) {
-  const ext = (extension || "").toLowerCase();
+function toggleSidebarSection(id) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  var isOpen = el.classList.contains('open');
 
-  if (["doc", "docx"].includes(ext)) {
-    return { icon: "fa-solid fa-file-word", class: "icon-word", badgeClass: "badge-word" };
-  }
-  if (["ppt", "pptx"].includes(ext)) {
-    return { icon: "fa-solid fa-file-powerpoint", class: "icon-powerpoint", badgeClass: "badge-powerpoint" };
-  }
-  if (["xls", "xlsx"].includes(ext)) {
-    return { icon: "fa-solid fa-file-excel", class: "icon-excel", badgeClass: "badge-excel" };
-  }
-  if (ext === "pdf") {
-    return { icon: "fa-solid fa-file-pdf", class: "icon-pdf", badgeClass: "badge-pdf" };
-  }
-  if (["png", "jpg", "jpeg", "gif", "webp", "svg"].includes(ext)) {
-    return { icon: "fa-solid fa-file-image", class: "icon-image", badgeClass: "badge-image" };
-  }
-  if (["zip", "rar", "7z"].includes(ext)) {
-    return { icon: "fa-solid fa-file-zipper", class: "icon-zip", badgeClass: "badge-zip" };
-  }
-  return { icon: "fa-solid fa-file-lines", class: "icon-generic", badgeClass: "badge-generic" };
+  // Đóng tất cả section khác
+  document.querySelectorAll('.sdoc-section.open').forEach(function(s) {
+    if (s.id !== id) s.classList.remove('open');
+  });
+
+  el.classList.toggle('open', !isOpen);
 }
 
-// ==========================================
-// XEM TRƯỚC TỆP TIN (PREVIEW MODAL)
-// ==========================================
-function previewFile(id, name, previewUrl, contributor, event) {
-  if (event) event.stopPropagation();
+function toggleSidebarGrade(id) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  var isOpen = el.classList.contains('open');
 
-  const modal = document.getElementById("preview-modal");
-  const title = document.getElementById("preview-modal-title");
-  const iframe = document.getElementById("preview-iframe");
-  const downloadLink = document.getElementById("preview-download-btn");
-  const contribBox = document.getElementById("preview-contributor-info");
-  const contribName = document.getElementById("preview-contributor-name");
-
-  if (!modal || !iframe) return;
-
-  title.textContent = name;
-  iframe.src = previewUrl || `https://drive.google.com/file/d/${id}/preview`;
-  downloadLink.href = `https://drive.google.com/uc?export=download&id=${id}`;
-
-  if (contribBox && contribName) {
-    contribBox.style.display = "flex";
-    if (contributor && contributor.trim() !== "") {
-      contribName.textContent = contributor;
-      contribName.style.color = "#1e3a8a";
-      contribName.style.background = "#eff6ff";
-    } else {
-      contribName.textContent = "Chưa cập nhật";
-      contribName.style.color = "#64748b";
-      contribName.style.background = "#f1f5f9";
-    }
-  }
-
-  modal.classList.add("show");
-}
-
-// ==========================================
-// TẢI LÊN TÀI LIỆU & CẢNH BÁO PPTX
-// ==========================================
-function openUploadModal() {
-  const modal = document.getElementById("upload-modal");
-  const targetName = document.getElementById("upload-target-folder-name");
-  const fileInput = document.getElementById("upload-file-input");
-  const selectedInfo = document.getElementById("selected-file-info");
-  const pptsWarning = document.getElementById("pptx-warning-box");
-  const progressWrap = document.getElementById("upload-progress-wrap");
-  const submitBtn = document.getElementById("btn-submit-upload");
-  const directDriveBtn = document.getElementById("btn-open-drive-direct-upload");
-  const contribInput = document.getElementById("upload-contributor-input");
-
-  const targetFolderId = AppState.currentFolderId || CONFIG.ROOT_FOLDER_ID;
-
-  if (targetName) targetName.textContent = getVietnameseDisplayName(AppState.currentFolderName);
-  if (directDriveBtn) directDriveBtn.href = `https://drive.google.com/drive/folders/${targetFolderId}`;
-  if (fileInput) fileInput.value = "";
-  if (selectedInfo) selectedInfo.style.display = "none";
-  if (pptsWarning) pptsWarning.style.display = "none";
-  if (progressWrap) progressWrap.style.display = "none";
-  if (submitBtn) submitBtn.disabled = true;
-
-  // Tự động điền lại tên người đóng góp đã nhập lần trước
-  if (contribInput) {
-    contribInput.value = localStorage.getItem("thuvien_contributor_name") || "";
-  }
-
-  AppState.selectedFileToUpload = null;
-  modal?.classList.add("show");
-}
-
-function handleFileSelect(e) {
-  const file = e.target.files[0];
-  if (file) {
-    processSelectedFile(file);
-  }
-}
-
-function processSelectedFile(file) {
-  AppState.selectedFileToUpload = file;
-
-  const selectedInfo = document.getElementById("selected-file-info");
-  const fileNameEl = document.getElementById("upload-filename");
-  const fileSizeEl = document.getElementById("upload-filesize");
-  const pptsWarning = document.getElementById("pptx-warning-box");
-  const submitBtn = document.getElementById("btn-submit-upload");
-
-  const sizeMb = file.size / (1024 * 1024);
-  const ext = file.name.split(".").pop().toLowerCase();
-
-  if (fileNameEl) fileNameEl.textContent = file.name;
-  if (fileSizeEl) fileSizeEl.textContent = formatBytes(file.size);
-  if (selectedInfo) selectedInfo.style.display = "flex";
-
-  if (sizeMb > CONFIG.MAX_FILE_SIZE_MB) {
-    showToast(`Tệp vượt quá ${CONFIG.MAX_FILE_SIZE_MB}MB! Vui lòng nén bớt dung lượng.`, "error");
-    if (submitBtn) submitBtn.disabled = true;
-    return;
-  }
-
-  // Cảnh báo dung lượng với PPTX hoặc tệp nặng
-  if (["ppt", "pptx"].includes(ext) || sizeMb >= CONFIG.PPTX_WARN_SIZE_MB) {
-    if (pptsWarning) {
-      pptsWarning.style.display = "block";
-      pptsWarning.innerHTML = `
-        <div class="warning-alert">
-          <i class="fa-solid fa-triangle-exclamation"></i>
-          <div>
-            <strong>Lưu ý dung lượng Drive miễn phí (15GB):</strong><br>
-            Tệp <code>.${ext.toUpperCase()}</code> (${sizeMb.toFixed(1)} MB) có dung lượng khá lớn.<br>
-            💡 <em>Khuyến nghị:</em> Hãy nén hình ảnh bên trong bài giảng hoặc xuất sang <strong>.PDF</strong> trước khi tải lên nếu không cần chỉnh sửa hiệu ứng trình chiếu.
-          </div>
-        </div>
-      `;
-    }
-  } else {
-    if (pptsWarning) pptsWarning.style.display = "none";
-  }
-
-  if (submitBtn) submitBtn.disabled = false;
-}
-
-async function executeUpload() {
-  if (!AppState.selectedFileToUpload) return;
-
-  const file = AppState.selectedFileToUpload;
-  const progressWrap = document.getElementById("upload-progress-wrap");
-  const progressBar = document.getElementById("upload-progress-bar");
-  const progressText = document.getElementById("upload-progress-text");
-  const submitBtn = document.getElementById("btn-submit-upload");
-  const contribInput = document.getElementById("upload-contributor-input");
-
-  // Lưu tên người đóng góp
-  const contributorName = contribInput?.value?.trim() || "";
-  if (contributorName) {
-    localStorage.setItem("thuvien_contributor_name", contributorName);
-  }
-
-  if (progressWrap) progressWrap.style.display = "block";
-  if (submitBtn) submitBtn.disabled = true;
-
-  try {
-    if (progressText) progressText.textContent = "Đang xử lý & lưu trữ vào cơ sở dữ liệu...";
-
-    const res = await DriveAPI.uploadFile(file, AppState.currentFolderId, contributorName, (percent) => {
-      if (progressBar) progressBar.style.width = `${percent}%`;
-      if (progressText) progressText.textContent = `Đang tải: ${percent}%`;
+  // Đóng các khối anh em trong cùng section
+  var wrap = el.closest('.sdoc-grades-wrap');
+  if (wrap) {
+    wrap.querySelectorAll('.sdoc-grade.open').forEach(function(g) {
+      if (g.id !== id) g.classList.remove('open');
     });
-
-    // Lưu vào bộ nhớ cục bộ để hiển thị ngay tức thì
-    if (res && res.file && res.file.id && contributorName) {
-      const localContributors = JSON.parse(localStorage.getItem("thuvien_file_contributors") || "{}");
-      localContributors[res.file.id] = contributorName;
-      localStorage.setItem("thuvien_file_contributors", JSON.stringify(localContributors));
-    }
-
-    showToast("Tải lên tài liệu thành công!", "success");
-    closeModal();
-    DriveCache.invalidate(AppState.currentFolderId); // Xóa cache để nạp file mới
-    loadFolder(AppState.currentFolderId, true);
-  } catch (error) {
-    showToast(error.message || "Lỗi khi tải lên!", "error");
-    if (submitBtn) submitBtn.disabled = false;
   }
+
+  el.classList.toggle('open', !isOpen);
 }
 
-// ==========================================
-// PHÂN QUYỀN & ĐĂNG NHẬP ADMIN
-// ==========================================
-function initAdminSession() {
-  const savedPass = sessionStorage.getItem("thuvien_admin_pass");
-  if (savedPass) {
-    AppState.isAdmin = true;
-    AppState.adminPassword = savedPass;
-    updateAdminUI();
-  }
+function selectSubjectAndNavigateTo(grade, subjectId, view) {
+  selectedGrade = String(grade);
+  selectedSubject = subjectId;
+  navigateTo(view);
 }
 
-function toggleAdminModal() {
-  if (AppState.isAdmin) {
-    AppState.isAdmin = false;
-    AppState.adminPassword = "";
-    sessionStorage.removeItem("thuvien_admin_pass");
-    updateAdminUI();
-    showToast("Đã đăng xuất khỏi tài khoản Quản trị viên.", "info");
-    renderFilesAndFolders();
-  } else {
-    const modal = document.getElementById("admin-modal");
-    const passInput = document.getElementById("admin-password-input");
-    if (passInput) passInput.value = "";
-    modal?.classList.add("show");
-  }
+function selectWeekAndNavigateTo(grade, week, view) {
+  selectedGrade = String(grade);
+  selectedWeek = week;
+  selectedSubject = 'all';
+  navigateTo(view);
 }
 
-async function handleAdminLogin() {
-  const passInput = document.getElementById("admin-password-input");
-  const password = passInput?.value?.trim() || "";
 
-  if (!password) {
-    showToast("Vui lòng nhập mật khẩu Quản trị viên!", "warning");
-    return;
-  }
 
-  showLoading(true);
-  try {
-    const res = await DriveAPI.verifyAdminPassword(password);
-    if (res && res.success) {
-      AppState.isAdmin = true;
-      AppState.adminPassword = password;
-      sessionStorage.setItem("thuvien_admin_pass", password);
-      updateAdminUI();
-      closeModal();
-      showToast("Đăng nhập Quản trị viên thành công! Bạn có quyền XÓA tài liệu.", "success");
-      renderFilesAndFolders();
-    } else {
-      showToast(res.message || "Mật khẩu Quản trị viên không chính xác!", "error");
-    }
-  } catch (error) {
-    showToast(error.message || "Không thể kết nối xác thực Admin!", "error");
-  } finally {
-    showLoading(false);
-  }
-}
-
-function updateAdminUI() {
-  const roleGuestWrap = document.getElementById("role-guest-wrap");
-  const roleAdminWrap = document.getElementById("role-admin-wrap");
-  const adminMenu = document.getElementById("admin-popup-menu");
-  const adminTrigger = document.getElementById("btn-admin-menu-trigger");
-  const createFolderBtn = document.getElementById("btn-create-folder");
-
-  if (AppState.isAdmin) {
-    if (roleGuestWrap) roleGuestWrap.style.display = "none";
-    if (roleAdminWrap) roleAdminWrap.style.display = "flex";
-    if (adminMenu) adminMenu.style.display = "none";
-    if (adminTrigger) adminTrigger.classList.remove("active");
-    if (createFolderBtn) createFolderBtn.style.display = "inline-flex";
-  } else {
-    if (roleGuestWrap) roleGuestWrap.style.display = "flex";
-    if (roleAdminWrap) roleAdminWrap.style.display = "none";
-    if (adminMenu) adminMenu.style.display = "none";
-    if (adminTrigger) adminTrigger.classList.remove("active");
-    if (createFolderBtn) createFolderBtn.style.display = "none";
-  }
-}
-
-// ==========================================
-// ĐỔI MẬT KHẨU QUẢN TRỊ VIÊN (ADMIN ONLY)
-// ==========================================
-function openChangePasswordModal() {
-  if (!AppState.isAdmin) {
-    showToast("Bạn cần đăng nhập quyền Quản trị viên trước khi đổi mật khẩu!", "warning");
-    return;
-  }
-
-  const modal = document.getElementById("change-password-modal");
-  const curPassInput = document.getElementById("current-admin-password-input");
-  const newPassInput = document.getElementById("new-admin-password-input");
-  const confirmPassInput = document.getElementById("confirm-new-admin-password-input");
-
-  if (curPassInput) curPassInput.value = AppState.adminPassword || "";
-  if (newPassInput) newPassInput.value = "";
-  if (confirmPassInput) confirmPassInput.value = "";
-
-  // Đặt lại kiểu input là password cho các ô
-  [curPassInput, newPassInput, confirmPassInput].forEach(inp => {
-    if (inp) inp.type = "password";
-  });
-  document.querySelectorAll("#change-password-modal .btn-pw-toggle i").forEach(icon => {
-    icon.className = "fa-solid fa-eye";
-  });
-
-  modal?.classList.add("show");
-  setTimeout(() => {
-    if (newPassInput) newPassInput.focus();
-  }, 150);
-}
-
-async function handleChangePasswordSubmit() {
-  if (!AppState.isAdmin) return;
-
-  const curPass = document.getElementById("current-admin-password-input")?.value?.trim() || "";
-  const newPass = document.getElementById("new-admin-password-input")?.value?.trim() || "";
-  const confirmPass = document.getElementById("confirm-new-admin-password-input")?.value?.trim() || "";
-
-  if (!curPass) {
-    showToast("Vui lòng nhập mật khẩu hiện tại!", "warning");
-    document.getElementById("current-admin-password-input")?.focus();
-    return;
-  }
-
-  if (!newPass) {
-    showToast("Vui lòng nhập mật khẩu mới!", "warning");
-    document.getElementById("new-admin-password-input")?.focus();
-    return;
-  }
-
-  if (newPass.length < 4) {
-    showToast("Mật khẩu mới phải có tối thiểu 4 ký tự!", "warning");
-    document.getElementById("new-admin-password-input")?.focus();
-    return;
-  }
-
-  if (newPass !== confirmPass) {
-    showToast("Mật khẩu mới và mật khẩu xác nhận không khớp nhau!", "error");
-    document.getElementById("confirm-new-admin-password-input")?.focus();
-    return;
-  }
-
-  showLoading(true);
-  try {
-    const res = await DriveAPI.changeAdminPassword(curPass, newPass);
-    if (res && res.success) {
-      AppState.adminPassword = newPass;
-      sessionStorage.setItem("thuvien_admin_pass", newPass);
-      closeModal();
-      showToast("Đổi mật khẩu Quản trị viên thành công!", "success");
-    } else {
-      showToast(res.error || res.message || "Đổi mật khẩu thất bại!", "error");
-    }
-  } catch (error) {
-    showToast(error.message || "Lỗi kết nối khi đổi mật khẩu!", "error");
-  } finally {
-    showLoading(false);
-  }
-}
-
-// ==========================================
-// CHỨC NĂNG XÓA TỆP / THƯ MỤC (CHỈ ADMIN)
-// ==========================================
-function confirmDelete(id, name, type, event) {
-  if (event) event.stopPropagation();
-
-  if (!AppState.isAdmin) {
-    showToast("Bạn cần đăng nhập quyền Quản trị viên để xóa tài liệu!", "warning");
-    return;
-  }
-
-  AppState.selectedItemToDelete = { id, name, type };
-
-  const modal = document.getElementById("delete-modal");
-  const itemNameEl = document.getElementById("delete-item-name");
-  const itemTypeEl = document.getElementById("delete-item-type");
-
-  if (itemNameEl) itemNameEl.textContent = name;
-  if (itemTypeEl) itemTypeEl.textContent = type === "folder" ? "Thư mục" : "Tài liệu";
-
-  modal?.classList.add("show");
-}
-
-async function executeDelete() {
-  if (!AppState.selectedItemToDelete || !AppState.isAdmin) return;
-
-  const { id, name, type } = AppState.selectedItemToDelete;
-  showLoading(true);
-
-  try {
-    await DriveAPI.deleteItem(id, type, AppState.adminPassword);
-    showToast(`Đã xóa triệt để "${name}" khỏi Google Drive!`, "success");
-    closeModal();
-    DriveCache.invalidate(AppState.currentFolderId);
-    loadFolder(AppState.currentFolderId, true);
-  } catch (error) {
-    showToast(error.message || "Xóa thất bại!", "error");
-  } finally {
-    showLoading(false);
-  }
-}
-
-// ==========================================
-// TẠO THƯ MỤC MỚI (CHỈ ADMIN)
-// ==========================================
-function openCreateFolderModal() {
-  if (!AppState.isAdmin) return;
-  const modal = document.getElementById("create-folder-modal");
-  const input = document.getElementById("new-folder-name");
-  if (input) input.value = "";
-  modal?.classList.add("show");
-}
-
-async function executeCreateFolder() {
-  const input = document.getElementById("new-folder-name");
-  const name = input?.value?.trim();
-
-  if (!name) {
-    showToast("Vui lòng nhập tên thư mục!", "warning");
-    return;
-  }
-
-  showLoading(true);
-  try {
-    await DriveAPI.createFolder(name, AppState.currentFolderId, AppState.adminPassword);
-    showToast(`Đã tạo thư mục "${name}" thành công!`, "success");
-    closeModal();
-    DriveCache.invalidate(AppState.currentFolderId);
-    loadFolder(AppState.currentFolderId, true);
-  } catch (error) {
-    showToast(error.message || "Không thể tạo thư mục!", "error");
-  } finally {
-    showLoading(false);
-  }
-}
-
-// ==========================================
-// TÌM KIẾM
-// ==========================================
-function filterCurrentView(keyword) {
-  const query = (keyword || "").toLowerCase().trim();
-  if (!query) {
-    renderFilesAndFolders();
-    return;
-  }
-
-  const container = document.getElementById("content-container");
+// Toast notification helper
+function showToast(message, type) {
+  if (!type) type = "info";
+  var container = document.getElementById("toast-container");
   if (!container) return;
 
-  const matchedFolders = AppState.folders.filter(f => f.name.toLowerCase().includes(query) || getVietnameseDisplayName(f.name).toLowerCase().includes(query));
-  const matchedFiles = AppState.files.filter(f => f.name.toLowerCase().includes(query));
-
-  const isGrid = AppState.viewMode === "grid";
-  container.innerHTML = "";
-
-  if (matchedFolders.length === 0 && matchedFiles.length === 0) {
-    container.innerHTML = `
-      <div class="empty-state">
-        <i class="fa-solid fa-magnifying-glass empty-icon"></i>
-        <h3>Không tìm thấy kết quả phù hợp với "${keyword}"</h3>
-        <p>Nhấn phím <strong>Enter</strong> để tìm kiếm trên toàn bộ Google Drive.</p>
-      </div>
-    `;
-    return;
-  }
-
-  if (matchedFolders.length > 0) {
-    const wrap = document.createElement("div");
-    wrap.className = isGrid ? "items-grid" : "items-list";
-    matchedFolders.forEach(f => wrap.appendChild(createFolderElement(f, isGrid)));
-    container.appendChild(wrap);
-  }
-
-  if (matchedFiles.length > 0) {
-    const wrap = document.createElement("div");
-    wrap.className = isGrid ? "items-grid" : "items-list";
-    matchedFiles.forEach(f => wrap.appendChild(createFileElement(f, isGrid)));
-    container.appendChild(wrap);
-  }
-}
-
-async function performGlobalSearch(query) {
-  if (!query || query.trim() === "") return;
-
-  showLoading(true);
-  try {
-    const result = await DriveAPI.searchFiles(query);
-    AppState.breadcrumbs = [{ id: "search", name: `Kết quả tìm: "${query}"` }];
-    AppState.folders = [];
-    AppState.files = mergeLocalContributors(result.files || []);
-    renderBreadcrumbs();
-    renderFilesAndFolders();
-    showToast(`Tìm thấy ${result.total || 0} tài liệu phù hợp.`, "info");
-  } catch (error) {
-    showToast(error.message || "Tìm kiếm thất bại!", "error");
-  } finally {
-    showLoading(false);
-  }
-}
-
-// ==========================================
-// CÂY THƯ MỤC SIDEBAR TOÀN DIỆN (ĐỊNH DANH CHÍNH XÁC THEO ĐƯỜNG DẪN PATH)
-// ==========================================
-function renderFullSidebarTree() {
-  const treeRoot = document.getElementById("sidebar-quick-tree");
-  if (!treeRoot) return;
-
-  const categories = [
-    { 
-      rawName: "01. VAN_BAN", 
-      path: "01. VAN_BAN",
-      displayName: "Văn bản chỉ đạo", 
-      icon: "fa-file-lines" 
-    },
-    { 
-      rawName: "02. KE_HOACH_GIAO_DUC", 
-      path: "02. KE_HOACH_GIAO_DUC",
-      displayName: "Kế hoạch giáo dục", 
-      icon: "fa-calendar-check",
-      children: [
-        { rawName: "KHOI_1", path: "02. KE_HOACH_GIAO_DUC/KHOI_1", displayName: "Khối 1" },
-        { rawName: "KHOI_2", path: "02. KE_HOACH_GIAO_DUC/KHOI_2", displayName: "Khối 2" },
-        { rawName: "KHOI_3", path: "02. KE_HOACH_GIAO_DUC/KHOI_3", displayName: "Khối 3" },
-        { rawName: "KHOI_4", path: "02. KE_HOACH_GIAO_DUC/KHOI_4", displayName: "Khối 4" },
-        { rawName: "KHOI_5", path: "02. KE_HOACH_GIAO_DUC/KHOI_5", displayName: "Khối 5" },
-        { rawName: "TRUONG", path: "02. KE_HOACH_GIAO_DUC/TRUONG", displayName: "Cấp trường" }
-      ]
-    },
-    { 
-      rawName: "03. KE_HOACH_BAI_DAY", 
-      path: "03. KE_HOACH_BAI_DAY",
-      displayName: "Kế hoạch bài dạy (Giáo án)", 
-      icon: "fa-book-open",
-      children: [
-        { 
-          rawName: "KHOI_1", 
-          path: "03. KE_HOACH_BAI_DAY/KHOI_1",
-          displayName: "Khối 1", 
-          sub: [
-            { rawName: "TOAN", path: "03. KE_HOACH_BAI_DAY/KHOI_1/TOAN", displayName: "Toán" },
-            { rawName: "TIENG_VIET", path: "03. KE_HOACH_BAI_DAY/KHOI_1/TIENG_VIET", displayName: "Tiếng Việt" },
-            { rawName: "TIENG_ANH", path: "03. KE_HOACH_BAI_DAY/KHOI_1/TIENG_ANH", displayName: "Tiếng Anh" },
-            { rawName: "TNXH", path: "03. KE_HOACH_BAI_DAY/KHOI_1/TNXH", displayName: "Tự nhiên & Xã hội" },
-            { rawName: "DAO_DUC", path: "03. KE_HOACH_BAI_DAY/KHOI_1/DAO_DUC", displayName: "Đạo đức" },
-            { rawName: "GDTC", path: "03. KE_HOACH_BAI_DAY/KHOI_1/GDTC", displayName: "Giáo dục thể chất" },
-            { rawName: "HAT_NHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_1/HAT_NHAC", displayName: "Âm nhạc" },
-            { rawName: "MI_THUAT", path: "03. KE_HOACH_BAI_DAY/KHOI_1/MI_THUAT", displayName: "Mĩ thuật" },
-            { rawName: "HDTN", path: "03. KE_HOACH_BAI_DAY/KHOI_1/HDTN", displayName: "Hoạt động trải nghiệm" },
-            { rawName: "KHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_1/KHAC", displayName: "Khác" }
-          ] 
-        },
-        { 
-          rawName: "KHOI_2", 
-          path: "03. KE_HOACH_BAI_DAY/KHOI_2",
-          displayName: "Khối 2", 
-          sub: [
-            { rawName: "TOAN", path: "03. KE_HOACH_BAI_DAY/KHOI_2/TOAN", displayName: "Toán" },
-            { rawName: "TIENG_VIET", path: "03. KE_HOACH_BAI_DAY/KHOI_2/TIENG_VIET", displayName: "Tiếng Việt" },
-            { rawName: "TIENG_ANH", path: "03. KE_HOACH_BAI_DAY/KHOI_2/TIENG_ANH", displayName: "Tiếng Anh" },
-            { rawName: "TNXH", path: "03. KE_HOACH_BAI_DAY/KHOI_2/TNXH", displayName: "Tự nhiên & Xã hội" },
-            { rawName: "DAO_DUC", path: "03. KE_HOACH_BAI_DAY/KHOI_2/DAO_DUC", displayName: "Đạo đức" },
-            { rawName: "GDTC", path: "03. KE_HOACH_BAI_DAY/KHOI_2/GDTC", displayName: "Giáo dục thể chất" },
-            { rawName: "HAT_NHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_2/HAT_NHAC", displayName: "Âm nhạc" },
-            { rawName: "MI_THUAT", path: "03. KE_HOACH_BAI_DAY/KHOI_2/MI_THUAT", displayName: "Mĩ thuật" },
-            { rawName: "HDTN", path: "03. KE_HOACH_BAI_DAY/KHOI_2/HDTN", displayName: "Hoạt động trải nghiệm" },
-            { rawName: "KHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_2/KHAC", displayName: "Khác" }
-          ] 
-        },
-        { 
-          rawName: "KHOI_3", 
-          path: "03. KE_HOACH_BAI_DAY/KHOI_3",
-          displayName: "Khối 3", 
-          sub: [
-            { rawName: "TOAN", path: "03. KE_HOACH_BAI_DAY/KHOI_3/TOAN", displayName: "Toán" },
-            { rawName: "TIENG_VIET", path: "03. KE_HOACH_BAI_DAY/KHOI_3/TIENG_VIET", displayName: "Tiếng Việt" },
-            { rawName: "TIENG_ANH", path: "03. KE_HOACH_BAI_DAY/KHOI_3/TIENG_ANH", displayName: "Tiếng Anh" },
-            { rawName: "TNXH", path: "03. KE_HOACH_BAI_DAY/KHOI_3/TNXH", displayName: "Tự nhiên & Xã hội" },
-            { rawName: "TIN_HOC", path: "03. KE_HOACH_BAI_DAY/KHOI_3/TIN_HOC", displayName: "Tin học" },
-            { rawName: "CONG_NGHE", path: "03. KE_HOACH_BAI_DAY/KHOI_3/CONG_NGHE", displayName: "Công nghệ" },
-            { rawName: "DAO_DUC", path: "03. KE_HOACH_BAI_DAY/KHOI_3/DAO_DUC", displayName: "Đạo đức" },
-            { rawName: "GDTC", path: "03. KE_HOACH_BAI_DAY/KHOI_3/GDTC", displayName: "Giáo dục thể chất" },
-            { rawName: "HAT_NHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_3/HAT_NHAC", displayName: "Âm nhạc" },
-            { rawName: "MI_THUAT", path: "03. KE_HOACH_BAI_DAY/KHOI_3/MI_THUAT", displayName: "Mĩ thuật" },
-            { rawName: "HDTN", path: "03. KE_HOACH_BAI_DAY/KHOI_3/HDTN", displayName: "Hoạt động trải nghiệm" },
-            { rawName: "KHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_3/KHAC", displayName: "Khác" }
-          ] 
-        },
-        { 
-          rawName: "KHOI_4", 
-          path: "03. KE_HOACH_BAI_DAY/KHOI_4",
-          displayName: "Khối 4", 
-          sub: [
-            { rawName: "TOAN", path: "03. KE_HOACH_BAI_DAY/KHOI_4/TOAN", displayName: "Toán" },
-            { rawName: "TIENG_VIET", path: "03. KE_HOACH_BAI_DAY/KHOI_4/TIENG_VIET", displayName: "Tiếng Việt" },
-            { rawName: "TIENG_ANH", path: "03. KE_HOACH_BAI_DAY/KHOI_4/TIENG_ANH", displayName: "Tiếng Anh" },
-            { rawName: "KHOA_HOC", path: "03. KE_HOACH_BAI_DAY/KHOI_4/KHOA_HOC", displayName: "Khoa học" },
-            { rawName: "LICH_SU_&_DIA_LY", path: "03. KE_HOACH_BAI_DAY/KHOI_4/LICH_SU_&_DIA_LY", displayName: "Lịch sử & Địa lí" },
-            { rawName: "TIN_HOC", path: "03. KE_HOACH_BAI_DAY/KHOI_4/TIN_HOC", displayName: "Tin học" },
-            { rawName: "CONG_NGHE", path: "03. KE_HOACH_BAI_DAY/KHOI_4/CONG_NGHE", displayName: "Công nghệ" },
-            { rawName: "DAO_DUC", path: "03. KE_HOACH_BAI_DAY/KHOI_4/DAO_DUC", displayName: "Đạo đức" },
-            { rawName: "GDTC", path: "03. KE_HOACH_BAI_DAY/KHOI_4/GDTC", displayName: "Giáo dục thể chất" },
-            { rawName: "HAT_NHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_4/HAT_NHAC", displayName: "Âm nhạc" },
-            { rawName: "MI_THUAT", path: "03. KE_HOACH_BAI_DAY/KHOI_4/MI_THUAT", displayName: "Mĩ thuật" },
-            { rawName: "HDTN", path: "03. KE_HOACH_BAI_DAY/KHOI_4/HDTN", displayName: "Hoạt động trải nghiệm" },
-            { rawName: "KHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_4/KHAC", displayName: "Khác" }
-          ] 
-        },
-        { 
-          rawName: "KHOI_5", 
-          path: "03. KE_HOACH_BAI_DAY/KHOI_5",
-          displayName: "Khối 5", 
-          sub: [
-            { rawName: "TOAN", path: "03. KE_HOACH_BAI_DAY/KHOI_5/TOAN", displayName: "Toán" },
-            { rawName: "TIENG_VIET", path: "03. KE_HOACH_BAI_DAY/KHOI_5/TIENG_VIET", displayName: "Tiếng Việt" },
-            { rawName: "TIENG_ANH", path: "03. KE_HOACH_BAI_DAY/KHOI_5/TIENG_ANH", displayName: "Tiếng Anh" },
-            { rawName: "KHOA_HOC", path: "03. KE_HOACH_BAI_DAY/KHOI_5/KHOA_HOC", displayName: "Khoa học" },
-            { rawName: "LICH_SU_&_DIA_LY", path: "03. KE_HOACH_BAI_DAY/KHOI_5/LICH_SU_&_DIA_LY", displayName: "Lịch sử & Địa lí" },
-            { rawName: "TIN_HOC", path: "03. KE_HOACH_BAI_DAY/KHOI_5/TIN_HOC", displayName: "Tin học" },
-            { rawName: "CONG_NGHE", path: "03. KE_HOACH_BAI_DAY/KHOI_5/CONG_NGHE", displayName: "Công nghệ" },
-            { rawName: "DAO_DUC", path: "03. KE_HOACH_BAI_DAY/KHOI_5/DAO_DUC", displayName: "Đạo đức" },
-            { rawName: "GDTC", path: "03. KE_HOACH_BAI_DAY/KHOI_5/GDTC", displayName: "Giáo dục thể chất" },
-            { rawName: "HAT_NHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_5/HAT_NHAC", displayName: "Âm nhạc" },
-            { rawName: "MI_THUAT", path: "03. KE_HOACH_BAI_DAY/KHOI_5/MI_THUAT", displayName: "Mĩ thuật" },
-            { rawName: "HDTN", path: "03. KE_HOACH_BAI_DAY/KHOI_5/HDTN", displayName: "Hoạt động trải nghiệm" },
-            { rawName: "KHAC", path: "03. KE_HOACH_BAI_DAY/KHOI_5/KHAC", displayName: "Khác" }
-          ] 
-        }
-      ]
-    },
-    { 
-      rawName: "04. DE_KIEM_TRA", 
-      path: "04. DE_KIEM_TRA",
-      displayName: "Đề kiểm tra & Đánh giá", 
-      icon: "fa-graduation-cap",
-      children: [
-        { 
-          rawName: "KHOI_1", 
-          path: "04. DE_KIEM_TRA/KHOI_1",
-          displayName: "Khối 1", 
-          sub: [
-            { rawName: "HOC_KI_1", path: "04. DE_KIEM_TRA/KHOI_1/HOC_KI_1", displayName: "Cuối Học kì 1" },
-            { rawName: "HOC_KI_2", path: "04. DE_KIEM_TRA/KHOI_1/HOC_KI_2", displayName: "Cuối Học kì 2" }
-          ] 
-        },
-        { 
-          rawName: "KHOI_2", 
-          path: "04. DE_KIEM_TRA/KHOI_2",
-          displayName: "Khối 2", 
-          sub: [
-            { rawName: "HOC_KI_1", path: "04. DE_KIEM_TRA/KHOI_2/HOC_KI_1", displayName: "Cuối Học kì 1" },
-            { rawName: "HOC_KI_2", path: "04. DE_KIEM_TRA/KHOI_2/HOC_KI_2", displayName: "Cuối Học kì 2" }
-          ] 
-        },
-        { 
-          rawName: "KHOI_3", 
-          path: "04. DE_KIEM_TRA/KHOI_3",
-          displayName: "Khối 3", 
-          sub: [
-            { rawName: "HOC_KI_1", path: "04. DE_KIEM_TRA/KHOI_3/HOC_KI_1", displayName: "Cuối Học kì 1" },
-            { rawName: "HOC_KI_2", path: "04. DE_KIEM_TRA/KHOI_3/HOC_KI_2", displayName: "Cuối Học kì 2" }
-          ] 
-        },
-        { 
-          rawName: "KHOI_4", 
-          path: "04. DE_KIEM_TRA/KHOI_4",
-          displayName: "Khối 4", 
-          sub: [
-            { rawName: "GIUA_KI_1", path: "04. DE_KIEM_TRA/KHOI_4/GIUA_KI_1", displayName: "Giữa Học kì 1" },
-            { rawName: "HOC_KI_1", path: "04. DE_KIEM_TRA/KHOI_4/HOC_KI_1", displayName: "Cuối Học kì 1" },
-            { rawName: "GIUA_KI_2", path: "04. DE_KIEM_TRA/KHOI_4/GIUA_KI_2", displayName: "Giữa Học kì 2" },
-            { rawName: "HOC_KI_2", path: "04. DE_KIEM_TRA/KHOI_4/HOC_KI_2", displayName: "Cuối Học kì 2" }
-          ] 
-        },
-        { 
-          rawName: "KHOI_5", 
-          path: "04. DE_KIEM_TRA/KHOI_5",
-          displayName: "Khối 5", 
-          sub: [
-            { rawName: "GIUA_KI_1", path: "04. DE_KIEM_TRA/KHOI_5/GIUA_KI_1", displayName: "Giữa Học kì 1" },
-            { rawName: "HOC_KI_1", path: "04. DE_KIEM_TRA/KHOI_5/HOC_KI_1", displayName: "Cuối Học kì 1" },
-            { rawName: "GIUA_KI_2", path: "04. DE_KIEM_TRA/KHOI_5/GIUA_KI_2", displayName: "Giữa Học kì 2" },
-            { rawName: "HOC_KI_2", path: "04. DE_KIEM_TRA/KHOI_5/HOC_KI_2", displayName: "Cuối Học kì 2" }
-          ] 
-        }
-      ]
-    },
-    { 
-      rawName: "05. CHUYEN_DE_SKKN", 
-      path: "05. CHUYEN_DE_SKKN",
-      displayName: "Chuyên đề & SKKN", 
-      icon: "fa-lightbulb",
-      children: [
-        { rawName: "KHOI_1", path: "05. CHUYEN_DE_SKKN/KHOI_1", displayName: "Khối 1" },
-        { rawName: "KHOI_2", path: "05. CHUYEN_DE_SKKN/KHOI_2", displayName: "Khối 2" },
-        { rawName: "KHOI_3", path: "05. CHUYEN_DE_SKKN/KHOI_3", displayName: "Khối 3" },
-        { rawName: "KHOI_4", path: "05. CHUYEN_DE_SKKN/KHOI_4", displayName: "Khối 4" },
-        { rawName: "KHOI_5", path: "05. CHUYEN_DE_SKKN/KHOI_5", displayName: "Khối 5" },
-        { rawName: "TRUONG", path: "05. CHUYEN_DE_SKKN/TRUONG", displayName: "Cấp trường" }
-      ]
-    },
-    { 
-      rawName: "06. HINH_ANH", 
-      path: "06. HINH_ANH",
-      displayName: "Tư liệu ảnh & Video", 
-      icon: "fa-images" 
-    },
-    { 
-      rawName: "07. KHAC", 
-      path: "07. KHAC",
-      displayName: "Tài liệu khác", 
-      icon: "fa-boxes-stacked" 
-    }
-  ];
-
-  let html = `<ul class="tree-menu">`;
-
-  categories.forEach(cat => {
-    const hasChildren = cat.children && cat.children.length > 0;
-    html += `
-      <li class="tree-item" data-folder-path="${cat.path}">
-        <div class="tree-row" onclick="handleTreeRowClick('${cat.path}', this, ${hasChildren})">
-          <a href="javascript:void(0)">
-            <i class="fa-solid ${cat.icon}"></i>
-            <span>${cat.displayName}</span>
-          </a>
-          ${hasChildren ? `<button class="tree-toggle" type="button"><i class="fa-solid fa-chevron-right"></i></button>` : ''}
-        </div>
-    `;
-
-    if (hasChildren) {
-      html += `<ul class="sub-tree" style="display:none;">`;
-      cat.children.forEach(sub => {
-        const hasSubItems = sub.sub && sub.sub.length > 0;
-        html += `
-          <li class="sub-tree-item" data-folder-path="${sub.path}">
-            <div class="tree-row" onclick="handleTreeRowClick('${sub.path}', this, ${hasSubItems})">
-              <a href="javascript:void(0)">
-                <i class="fa-solid fa-folder"></i>
-                <span>${sub.displayName}</span>
-              </a>
-              ${hasSubItems ? `<button class="tree-toggle" type="button"><i class="fa-solid fa-chevron-right"></i></button>` : ''}
-            </div>
-        `;
-        if (hasSubItems) {
-          html += `<ul class="sub-tree nested-sub-tree" style="display:none;">`;
-          sub.sub.forEach(m => {
-            html += `
-              <li class="nested-tree-item" data-folder-path="${m.path}">
-                <div class="tree-row" onclick="handleTreeRowClick('${m.path}', this, false)">
-                  <a href="javascript:void(0)">
-                    <i class="fa-regular fa-folder"></i>
-                    <span>${m.displayName}</span>
-                  </a>
-                </div>
-              </li>
-            `;
-          });
-          html += `</ul>`;
-        }
-        html += `</li>`;
-      });
-      html += `</ul>`;
-    }
-
-    html += `</li>`;
-  });
-
-  html += `</ul>`;
-  treeRoot.innerHTML = html;
-}
-
-// Bấm vào hàng cây: Tự động mở menu mới, ĐÓNG MENU CŨ (Accordion) + Mở thư mục theo PATH CHÍNH XÁC
-function handleTreeRowClick(targetPath, rowElement, hasChildren) {
-  const currentLi = rowElement.closest("li");
-  const parentUl = currentLi ? currentLi.parentElement : null;
-
-  if (hasChildren) {
-    const subTree = rowElement.nextElementSibling;
-    const toggleBtn = rowElement.querySelector(".tree-toggle");
-    if (subTree && subTree.tagName === "UL") {
-      const isCurrentlyHidden = subTree.style.display === "none";
-
-      // 1. ĐÓNG TẤT CẢ CÁC MENU CÙNG CẤP (Cơ chế Accordion)
-      if (parentUl) {
-        parentUl.querySelectorAll(":scope > li").forEach(siblingLi => {
-          if (siblingLi !== currentLi) {
-            const sibSubTree = siblingLi.querySelector(":scope > .sub-tree");
-            const sibToggle = siblingLi.querySelector(":scope > .tree-row .tree-toggle");
-            if (sibSubTree) {
-              sibSubTree.style.display = "none";
-            }
-            if (sibToggle) {
-              sibToggle.innerHTML = `<i class="fa-solid fa-chevron-right"></i>`;
-            }
-          }
-        });
-      }
-
-      // 2. Mở menu được chọn hoặc đóng lại nếu bấm lần 2
-      subTree.style.display = isCurrentlyHidden ? "block" : "none";
-      if (toggleBtn) {
-        toggleBtn.innerHTML = `<i class="fa-solid fa-chevron-${isCurrentlyHidden ? 'down' : 'right'}"></i>`;
-      }
-    }
-  }
-
-  // 3. Đánh dấu mục active & Điều hướng tải thư mục CHÍNH XÁC TUYỆT ĐỐI THEO PATH
-  highlightActiveSidebarItemByPath(targetPath);
-  navigateBySidebarPath(targetPath);
-}
-
-// Điều hướng theo Đường dẫn đầy đủ
-function navigateBySidebarPath(targetPath) {
-  // 1. Tra cứu trong Bản đồ đường dẫn
-  const cachedId = AppState.folderMapByPath[targetPath] || AppState.folderMapByPath["THU_VIEN/" + targetPath];
-  if (cachedId) {
-    loadFolder(cachedId);
-    return;
-  }
-
-  // 2. Tra cứu trong bộ nhớ Cache DriveCache
-  for (const fId in DriveCache.data) {
-    const item = DriveCache.data[fId]?.content;
-    if (item && item.breadcrumbs) {
-      const p1 = item.breadcrumbs.map(c => c.name).join("/");
-      const p2 = item.breadcrumbs.slice(1).map(c => c.name).join("/");
-      if (p1 === targetPath || p2 === targetPath || p1.endsWith("/" + targetPath)) {
-        loadFolder(fId);
-        return;
-      }
-    }
-  }
-
-  // 3. Fallback: Lọc từ khóa theo tên thư mục cuối cùng trong path
-  const parts = targetPath.split("/");
-  const leafName = parts[parts.length - 1];
-  const target = AppState.folders.find(f => f.name === leafName);
-  if (target) {
-    loadFolder(target.id);
-  } else {
-    filterCurrentView(leafName);
-  }
-}
-
-// Highlight chính xác tuyệt đối mục đang chọn theo Đường dẫn đầy đủ
-function highlightActiveSidebarItemByPath(targetPath) {
-  document.querySelectorAll(".tree-menu li").forEach(li => li.classList.remove("active"));
-  if (!targetPath) return;
-
-  // Tìm li có data-folder-path khớp chính xác
-  let activeLi = document.querySelector(`.tree-menu li[data-folder-path="${targetPath}"]`);
+  var toast = document.createElement("div");
+  toast.className = "toast toast-" + type;
   
-  if (!activeLi) {
-    // Thử cắt bỏ THU_VIEN/ ở đầu nếu có
-    const cleanPath = targetPath.replace(/^THU_VIEN\//, "");
-    activeLi = document.querySelector(`.tree-menu li[data-folder-path="${cleanPath}"]`);
-  }
-
-  if (activeLi) {
-    activeLi.classList.add("active");
-    
-    // Mở tất cả cây cha của mục active và đóng các nhánh anh em
-    let parentUl = activeLi.closest(".sub-tree");
-    while (parentUl) {
-      parentUl.style.display = "block";
-      const toggleBtn = parentUl.previousElementSibling?.querySelector(".tree-toggle");
-      if (toggleBtn) toggleBtn.innerHTML = `<i class="fa-solid fa-chevron-down"></i>`;
-
-      const parentLi = parentUl.parentElement;
-      const grandParentUl = parentLi?.parentElement;
-      if (grandParentUl) {
-        grandParentUl.querySelectorAll(":scope > li").forEach(sib => {
-          if (sib !== parentLi) {
-            const sibSub = sib.querySelector(":scope > .sub-tree");
-            const sibTog = sib.querySelector(":scope > .tree-row .tree-toggle");
-            if (sibSub) sibSub.style.display = "none";
-            if (sibTog) sibTog.innerHTML = `<i class="fa-solid fa-chevron-right"></i>`;
-          }
-        });
-      }
-
-      parentUl = parentLi?.closest(".sub-tree");
-    }
-  }
-}
-
-// Chuyển đổi tên thư mục raw trên Drive sang tiếng Việt có dấu (đã loại bỏ số 01, 02...)
-function getVietnameseDisplayName(rawName) {
-  if (!rawName) return "";
-
-  const nameMap = {
-    "01. VAN_BAN": "Văn bản chỉ đạo",
-    "02. KE_HOACH_GIAO_DUC": "Kế hoạch giáo dục",
-    "03. KE_HOACH_BAI_DAY": "Kế hoạch bài dạy (Giáo án)",
-    "04. DE_KIEM_TRA": "Đề kiểm tra & Đánh giá",
-    "05. CHUYEN_DE_SKKN": "Chuyên đề & SKKN",
-    "06. HINH_ANH": "Tư liệu ảnh & Video",
-    "07. KHAC": "Tài liệu khác",
-    "KHOI_1": "Khối 1",
-    "KHOI_2": "Khối 2",
-    "KHOI_3": "Khối 3",
-    "KHOI_4": "Khối 4",
-    "KHOI_5": "Khối 5",
-    "TRUONG": "Cấp trường",
-    "TOAN": "Toán",
-    "TIENG_VIET": "Tiếng Việt",
-    "TIENG_ANH": "Tiếng Anh",
-    "TNXH": "Tự nhiên và Xã hội",
-    "KHOA_HOC": "Khoa học",
-    "LICH_SU_&_DIA_LY": "Lịch sử và Địa lí",
-    "TIN_HOC": "Tin học",
-    "CONG_NGHE": "Công nghệ",
-    "DAO_DUC": "Đạo đức",
-    "GDTC": "Giáo dục thể chất",
-    "HAT_NHAC": "Âm nhạc",
-    "MI_THUAT": "Mĩ thuật",
-    "HDTN": "Hoạt động trải nghiệm",
-    "KHAC": "Khác",
-    "HOC_KI_1": "Cuối Học kì 1",
-    "HOC_KI_2": "Cuối Học kì 2",
-    "GIUA_KI_1": "Giữa Học kì 1",
-    "GIUA_KI_2": "Giữa Học kì 2"
-  };
-
-  if (nameMap[rawName]) return nameMap[rawName];
-
-  // Xóa tiền tố dạng "01. ", "02. " nếu có
-  let cleaned = rawName.replace(/^\d+[\._\s\-]+\s*/, "");
-  return cleaned.replace(/_/g, " ");
-}
-
-// ==========================================
-// CÁC HÀM TIỆN ÍCH
-// ==========================================
-function setViewMode(mode) {
-  AppState.viewMode = mode;
-  document.getElementById("btn-view-grid")?.classList.toggle("active", mode === "grid");
-  document.getElementById("btn-view-list")?.classList.toggle("active", mode === "list");
-  renderFilesAndFolders();
-}
-
-function updateFolderStats() {
-  const statEl = document.getElementById("folder-stats-text");
-  if (statEl) {
-    const validFiles = filterValidLibraryFiles(AppState.files);
-    statEl.textContent = `${AppState.folders.length} thư mục • ${validFiles.length} tài liệu`;
-  }
-}
-
-function closeModal() {
-  document.querySelectorAll(".modal").forEach(m => m.classList.remove("show"));
-  const iframe = document.getElementById("preview-iframe");
-  if (iframe) iframe.src = "";
-}
-
-function showLoading(show) {
-  const loader = document.getElementById("global-loader");
-  if (loader) loader.style.display = show ? "flex" : "none";
-}
-
-function showToast(message, type = "info") {
-  const container = document.getElementById("toast-container");
-  if (!container) return;
-
-  const toast = document.createElement("div");
-  toast.className = `toast-message toast-${type}`;
-
-  let icon = "fa-circle-info";
+  var icon = "fa-circle-info";
   if (type === "success") icon = "fa-circle-check";
-  if (type === "error") icon = "fa-circle-exclamation";
-  if (type === "warning") icon = "fa-triangle-exclamation";
+  if (type === "error") icon = "fa-triangle-exclamation";
 
-  toast.innerHTML = `
-    <i class="fa-solid ${icon}"></i>
-    <span>${message}</span>
-  `;
-
+  toast.innerHTML = '<i class="fa-solid ' + icon + '"></i> <span>' + message + '</span>';
   container.appendChild(toast);
 
-  setTimeout(() => {
-    toast.classList.add("fade-out");
-    setTimeout(() => toast.remove(), 300);
-  }, 4000);
+  setTimeout(function() {
+    toast.style.opacity = "0";
+    toast.style.transform = "translateX(100%)";
+    toast.style.transition = "all 0.3s ease";
+    setTimeout(function() { toast.remove(); }, 300);
+  }, 3500);
 }
 
-function formatBytes(bytes) {
-  if (!bytes || bytes === 0) return "0 KB";
-  const k = 1024;
-  const sizes = ["Bytes", "KB", "MB", "GB"];
-  const i = Math.floor(Math.log(bytes) / Math.log(k));
-  return parseFloat((bytes / Math.pow(k, i)).toFixed(1)) + " " + sizes[i];
+// Router điều hướng chính xác 100%
+function navigateTo(viewName) {
+  if (!viewName) viewName = "home";
+  currentView = viewName;
+
+  // Cập nhật hash trên URL
+  if (window.location.hash !== "#" + viewName) {
+    window.location.hash = "#" + viewName;
+  }
+
+  // Cập nhật highlight active trên Sidebar
+  document.querySelectorAll(".tree-menu .tree-item").forEach(function(item) {
+    if (item.getAttribute("data-view") === currentView) {
+      item.classList.add("active");
+    } else {
+      item.classList.remove("active");
+    }
+  });
+
+  // Cập nhật Breadcrumbs
+  updateBreadcrumb();
+
+  // Render trang con tương ứng
+  renderCurrentView();
+
+  // Cuộn lên đầu
+  var mainViewport = document.getElementById("content-container");
+  if (mainViewport) mainViewport.scrollTop = 0;
+  window.scrollTo({ top: 0, behavior: "smooth" });
+
+  // Đóng sidebar trên mobile
+  var sidebar = document.getElementById("app-sidebar");
+  if (sidebar) sidebar.classList.remove("show");
 }
 
-function showSetupGuideOverlay() {
-  const overlay = document.getElementById("setup-overlay");
-  if (overlay) overlay.style.display = "flex";
+function refreshCurrentView() {
+  renderCurrentView();
+}
+
+// Điều hướng nhanh khi chọn môn học từ Cây danh mục Sidebar
+function toggleGradeTree(grade) {
+  var item = document.getElementById("grade-tree-" + grade);
+  if (!item) return;
+  var isCurrentlyOpen = item.classList.contains("open");
+
+  // Đóng tất cả các khối khác trước (accordion exclusive)
+  for (var i = 1; i <= 5; i++) {
+    var other = document.getElementById("grade-tree-" + i);
+    if (other) other.classList.remove("open");
+  }
+
+  // Toggle khối hiện tại
+  if (!isCurrentlyOpen) {
+    item.classList.add("open");
+  }
+}
+
+function navigateToSubject(grade, subjectKey) {
+  selectedGrade = grade;
+  selectedSubject = subjectKey;
+  updateTopGradeFilterUI();
+
+  // Mở accordion của khối đó nếu chưa mở
+  var item = document.getElementById("grade-tree-" + grade);
+  if (item && !item.classList.contains("open")) {
+    item.classList.add("open");
+  }
+
+  // Điều hướng tới View KHBD
+  navigateTo("khbd");
+  showToast("Đang hiển thị môn " + (SUBJECTS_CONFIG[subjectKey] ? SUBJECTS_CONFIG[subjectKey].name : subjectKey) + " - Khối " + grade, "info");
+}
+
+
+function updateBreadcrumb() {
+  var container = document.getElementById("breadcrumbs-container");
+  if (!container) return;
+
+  var viewTitles = {
+    home: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li>',
+    pptx: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Bài Giảng PPTX (35 Tuần)</li>',
+    khbd: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Kế Hoạch Bài Dạy (KHBD)</li>',
+    weekly: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Tổng Hợp Theo Tuần</li>',
+    "ai-exam": '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Trợ Lý AI Ra Đề</li>',
+    toolkit: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Tiện Ích Giảng Dạy</li>',
+    settings: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Cấu Hình & Quản Trị</li>',
+    search: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Kết Quả Tìm Kiếm</li>'
+  };
+
+  container.innerHTML = viewTitles[currentView] || viewTitles.home;
+}
+
+// Render View tương ứng
+function renderCurrentView() {
+  var container = document.getElementById("content-container");
+  if (!container) return;
+
+  switch (currentView) {
+    case "home":
+      renderHomeView(container);
+      break;
+    case "pptx":
+      renderPptxView(container);
+      break;
+    case "khbd":
+      renderKhbdView(container);
+      break;
+    case "weekly":
+      renderWeeklyView(container);
+      break;
+    case "ai-exam":
+      renderAiExamView(container);
+      break;
+    case "toolkit":
+      renderToolkitView(container);
+      break;
+    case "settings":
+      renderSettingsView(container);
+      break;
+    case "search":
+      renderSearchView(container);
+      break;
+    default:
+      renderHomeView(container);
+  }
+}
+
+// Thanh công cụ thao tác nhanh hàng loạt dành riêng cho Admin
+function renderAdminBulkToolbarHtml() {
+  var session = AuthService.getSession();
+  if (session.role !== "admin") return "";
+
+  return `
+    <div style="background: linear-gradient(135deg, #f0fdf4, #eff6ff); border: 1px solid #93c5fd; border-radius: var(--radius-sm); padding: 0.75rem 1rem; margin-bottom: 1.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.65rem;">
+      <div style="display: flex; align-items: center; gap: 0.5rem; font-size: 0.82rem; font-weight: 700; color: #1e3a8a;">
+        <i class="fa-solid fa-crown" style="color: #f59e0b;"></i>
+        <span>Công cụ Quản trị viên (Thầy Long):</span>
+      </div>
+      <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+        <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.25rem 0.6rem; background: #ffffff;" onclick="AuthService.setBulkPermission('pin')" title="Khóa toàn bộ kho, sau đó bấm ⚙️ mở từng bài">
+          <i class="fa-solid fa-lock" style="color: #d97706;"></i> Khóa toàn bộ (Cần PIN)
+        </button>
+        <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.25rem 0.6rem; background: #ffffff;" onclick="AuthService.setBulkPermission('free')" title="Mở toàn bộ kho, sau đó bấm ⚙️ khóa từng bài">
+          <i class="fa-solid fa-unlock" style="color: #16a34a;"></i> Mở toàn bộ (Miễn phí)
+        </button>
+        <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.25rem 0.6rem; background: #ffffff;" onclick="AuthService.setBulkPermission('hidden')" title="Ẩn toàn bộ kho với khách, sau đó bấm ⚙️ hiện từng bài">
+          <i class="fa-solid fa-eye-slash" style="color: #dc2626;"></i> Ẩn toàn bộ với khách
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+/* ==========================================================================
+   VIEW 1: TRANG CHỦ (HOME DASHBOARD)
+   ========================================================================== */
+function renderHomeView(container) {
+  var visibleFiles = (DATABASE.allFiles || []).filter(function(f) { return AuthService.isVisibleToFileList(f); });
+  var totalKhbd = visibleFiles.filter(function(f) { return f.type === 'KHBD'; }).length;
+  var totalPptx = visibleFiles.filter(function(f) { return f.type === 'PPTX'; }).length;
+  var totalFiles = visibleFiles.length;
+
+  container.innerHTML = `
+    ${renderAdminBulkToolbarHtml()}
+
+    <!-- Formal Hero Banner -->
+    <div class="formal-hero-card">
+      <div class="formal-hero-pill">
+        <i class="fa-solid fa-award" style="color: #facc15;"></i> Chuẩn Chương trình GDPT 2018
+      </div>
+      <h1 class="formal-hero-title">Thư Viện Bài Giảng & Kế Hoạch Bài Dạy Tiểu Học</h1>
+      <p class="formal-hero-desc">
+        Hệ thống học liệu số cá nhân được quản trị và cấp quyền bởi <strong>Thầy Lê Thành Long</strong>. 
+        Đang hiển thị <strong>${totalKhbd} KHBD</strong> & <strong>${totalPptx} Bài giảng điện tử</strong> (${totalFiles} tệp tin thật từ Google Drive).
+      </p>
+      <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+        <button class="btn btn-primary" onclick="navigateTo('pptx')" style="background: #ffffff; color: var(--primary); box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+          <i class="fa-solid fa-file-powerpoint" style="color: var(--color-powerpoint);"></i> Duyệt Bài Giảng PPTX
+        </button>
+        <button class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.4);" onclick="navigateTo('khbd')">
+          <i class="fa-solid fa-file-word" style="color: #38bdf8;"></i> Kế Hoạch Bài Dạy (${totalKhbd} tệp)
+        </button>
+        <button class="btn btn-ai-header" onclick="navigateTo('ai-exam')">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> Trợ Lý AI Ra Đề (TT 27)
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Quick Stats -->
+    <div class="stats-row">
+      <div class="stat-box" onclick="navigateTo('pptx')" style="cursor: pointer;">
+        <div class="stat-icon-wrap" style="background-color: #eff6ff; color: #2563eb;">
+          <i class="fa-solid fa-file-powerpoint"></i>
+        </div>
+        <div class="stat-data">
+          <h4>${totalPptx} Bài Giảng</h4>
+          <p>PowerPoint Tuần 1 - 4...</p>
+        </div>
+      </div>
+      <div class="stat-box" onclick="navigateTo('khbd')" style="cursor: pointer;">
+        <div class="stat-icon-wrap" style="background-color: #ecfdf5; color: #059669;">
+          <i class="fa-solid fa-file-word"></i>
+        </div>
+        <div class="stat-data">
+          <h4>${totalKhbd} Kế Hoạch</h4>
+          <p>Giáo Án Word 5 Khối Lớp</p>
+        </div>
+      </div>
+      <div class="stat-box" onclick="navigateTo('ai-exam')" style="cursor: pointer;">
+        <div class="stat-icon-wrap" style="background-color: #f5f3ff; color: #7c3aed;">
+          <i class="fa-solid fa-brain"></i>
+        </div>
+        <div class="stat-data">
+          <h4>AI 2026</h4>
+          <p>Soạn Ma Trận Đề TT 27</p>
+        </div>
+      </div>
+      <div class="stat-box" onclick="navigateTo('weekly')" style="cursor: pointer;">
+        <div class="stat-icon-wrap" style="background-color: #fff7ed; color: #ea580c;">
+          <i class="fa-solid fa-table-columns"></i>
+        </div>
+        <div class="stat-data">
+          <h4>Tổng Hợp Tuần</h4>
+          <p>Xem Song Song Word & PPTX</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 5 Grade Quick Selection Cards -->
+    <div class="section-header">
+      <div>
+        <h2 class="section-title"><i class="fa-solid fa-shapes"></i> Danh Mục Theo Khối Lớp</h2>
+        <p class="section-subtitle">Chọn khối lớp để xem ngay bài giảng PPTX và giáo án Word</p>
+      </div>
+    </div>
+
+    <div class="grades-deck">
+      ${GRADES_CONFIG.map(function(g) {
+        return `
+          <div class="grade-banner-card" onclick="selectGradeAndNavigate(${g.grade})">
+            <div class="grade-badge-circle" style="background-color: ${g.color};">
+              ${g.grade}
+            </div>
+            <h3>${g.name}</h3>
+            <p>Trọn bộ KHBD Word tất cả các môn & Bài giảng PowerPoint</p>
+            <div style="margin-top: 0.75rem;">
+              <span class="btn btn-sm btn-outline">Truy cập Khối ${g.grade} <i class="fa-solid fa-arrow-right"></i></span>
+            </div>
+          </div>
+        `;
+      }).join('')}
+    </div>
+
+    <!-- Real Files Showcase -->
+    <div class="section-header" style="margin-top: 2rem;">
+      <div>
+        <h2 class="section-title"><i class="fa-solid fa-clock-rotate-left" style="color: #38bdf8;"></i> Tài Liệu Trực Tiếp Từ Google Drive</h2>
+        <p class="section-subtitle">Xem trước trực tuyến và tải về theo phân quyền</p>
+      </div>
+      ${renderViewToggleHtml()}
+    </div>
+
+    ${renderFilesHtml(visibleFiles.slice(0, 8))}
+  `;
+}
+
+function selectGradeAndNavigate(grade) {
+  selectedGrade = grade;
+  updateTopGradeFilterUI();
+  navigateTo("khbd");
+}
+
+/* ==========================================================================
+   VIEW 2: KHO BÀI GIẢNG PPTX (35 TUẦN)
+   ========================================================================== */
+function renderPptxView(container) {
+  var allWeekFiles = (DATABASE.pptxList || []).filter(function(item) {
+    return AuthService.isVisibleToFileList(item);
+  });
+
+  if (selectedGrade !== "all") {
+    allWeekFiles = allWeekFiles.filter(function(item) { return item.grade === parseInt(selectedGrade); });
+  }
+
+  allWeekFiles = allWeekFiles.filter(function(item) {
+    return item.week === selectedWeek || (item.weeks && item.weeks.includes(selectedWeek));
+  });
+
+  var filtered = allWeekFiles;
+  if (selectedSubject !== "all") {
+    filtered = filtered.filter(function(item) { return item.subjectId === selectedSubject; });
+  }
+
+  // Lấy danh sách môn học phù hợp theo Khối lớp hiện tại
+  var currentG = parseInt(selectedGrade) || 1;
+  var availableSubjects = SIDEBAR_SUBJECTS[currentG] || SIDEBAR_SUBJECTS[1];
+
+  var subjectChipsHtml = '<button class="subject-chip ' + (selectedSubject === 'all' ? 'active' : '') + '" onclick="selectSubjectFilter(\'all\')">' +
+    'Tất cả môn (' + allWeekFiles.length + ')' +
+    '</button>';
+
+  availableSubjects.forEach(function(subj) {
+    var count = allWeekFiles.filter(function(f) { return f.subjectId === subj.id; }).length;
+    if (count > 0 || ['TOAN', 'TIENG_VIET', 'TNXH', 'KHOA_HOC', 'LICH_SU_DIA_LY', 'DAO_DUC', 'HDTN', 'CONG_NGHE'].includes(subj.id)) {
+      subjectChipsHtml += '<button class="subject-chip ' + (selectedSubject === subj.id ? 'active' : '') + '" onclick="selectSubjectFilter(\'' + subj.id + '\')">' +
+        '<i class="fa-solid ' + (subj.icon || 'fa-book') + '" style="color: ' + (subj.color || '#2563eb') + ';"></i> ' +
+        subj.name + (count > 0 ? ' (' + count + ')' : '') +
+        '</button>';
+    }
+  });
+
+  container.innerHTML = `
+    ${renderAdminBulkToolbarHtml()}
+
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">
+          <i class="fa-solid fa-file-powerpoint" style="color: var(--color-powerpoint);"></i> 
+          Kho Bài Giảng Điện Tử PowerPoint (PPTX)
+        </h2>
+        <p class="section-subtitle">
+          ${selectedGrade === "all" ? "Tất cả các khối" : ("Khối " + selectedGrade)} • Tuần ${selectedWeek} • Chuẩn Chương trình GDPT 2018
+        </p>
+      </div>
+      <div style="display:flex; align-items:center; gap:0.65rem;">
+        ${renderViewToggleHtml()}
+        <button class="btn btn-outline" onclick="navigateTo('weekly')">
+          <i class="fa-solid fa-table-columns"></i> Chế độ xem theo tuần
+        </button>
+      </div>
+    </div>
+
+    <!-- 35 Weeks Strip -->
+    <div class="week-strip-box">
+      <div style="font-size: 0.78rem; font-weight: 700; color: var(--primary); margin-bottom: 0.45rem;">
+        CHỌN TUẦN HỌC (TỪ TUẦN 1 ĐẾN TUẦN 35):
+      </div>
+      <div class="week-pills-flow">
+        ${Array.from({ length: 35 }, function(_, i) { return i + 1; }).map(function(w) {
+          return `
+            <button class="week-pill-chip ${w === selectedWeek ? 'active' : ''}" onclick="selectWeekFilter(${w})">
+              Tuần ${w} ${w === 1 ? '🟢' : ''}
+            </button>
+          `;
+        }).join('')}
+      </div>
+    </div>
+
+    <!-- Subject Chips -->
+    <div class="subject-chips-wrap">
+      ${subjectChipsHtml}
+    </div>
+
+    <!-- Cards / List -->
+    ${filtered.length > 0 ? renderFilesHtml(filtered) : `
+      <div style="text-align: center; padding: 3rem; background: #ffffff; border-radius: 10px; border: 1px solid var(--border-color);">
+        <i class="fa-solid fa-folder-open" style="font-size: 2.5rem; color: var(--text-light); margin-bottom: 0.75rem;"></i>
+        <h3>Chưa có bài giảng PPTX hiển thị trong tuần ${selectedWeek}</h3>
+        <p style="color: var(--text-muted);">Hãy chọn tuần khác hoặc đăng nhập quyền Admin nếu tài liệu đang ở chế độ Ẩn với khách.</p>
+      </div>
+    `}
+  `;
+}
+
+function selectWeekFilter(w) {
+  selectedWeek = w;
+  renderCurrentView();
+}
+
+function selectSubjectFilter(sKey) {
+  selectedSubject = sKey;
+  renderCurrentView();
+}
+
+/* ==========================================================================
+   VIEW 3: KHO KẾ HOẠCH BÀI DẠY (KHBD)
+   ========================================================================== */
+function renderKhbdView(container) {
+  var filtered = (DATABASE.khbdList || []).filter(function(item) {
+    return AuthService.isVisibleToFileList(item);
+  });
+
+  if (selectedGrade !== "all") {
+    filtered = filtered.filter(function(item) { return item.grade === parseInt(selectedGrade); });
+  }
+
+  if (selectedSubject !== "all") {
+    if (selectedSubject === "KHAC") {
+      var knownSubjects = ['TOAN', 'TIENG_VIET', 'TIENG_ANH', 'TNXH', 'KHOA_HOC', 'LICH_SU_DIA_LY', 'TIN_HOC', 'CONG_NGHE', 'DAO_DUC', 'HAT_NHAC', 'MI_THUAT', 'GDTC', 'HDTN'];
+      filtered = filtered.filter(function(item) {
+        return item.subjectId === 'KHAC' || !item.subjectId || !knownSubjects.includes(item.subjectId);
+      });
+    } else {
+      filtered = filtered.filter(function(item) { return item.subjectId === selectedSubject; });
+    }
+  }
+
+  container.innerHTML = `
+    ${renderAdminBulkToolbarHtml()}
+
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">
+          <i class="fa-solid fa-file-word" style="color: var(--color-word);"></i>
+          Kế Hoạch Bài Dạy (KHBD - Giáo Án Word)
+        </h2>
+        <p class="section-subtitle">
+          ${selectedGrade === "all" ? "Tất cả các khối (" + filtered.length + " giáo án)" : ("Khối " + selectedGrade + " (" + filtered.length + " giáo án)")} • Soạn chuẩn Công văn 2345/BGDĐT
+        </p>
+      </div>
+      <div style="display:flex; align-items:center; gap:0.65rem;">
+        ${renderViewToggleHtml()}
+        <button class="btn btn-outline" onclick="navigateTo('weekly')">
+          <i class="fa-solid fa-table-columns"></i> Xem song song
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Cards / List -->
+    ${filtered.length > 0 ? renderFilesHtml(filtered) : `
+      <div style="text-align:center; padding:3rem; background:#ffffff; border-radius:10px; border:1px solid var(--border-color);">
+        <i class="fa-solid fa-folder-open" style="font-size:2.5rem; color:var(--text-light); margin-bottom:0.75rem;"></i>
+        <h3>Không tìm thấy giáo án phù hợp</h3>
+        <p style="color:var(--text-muted);">Thử chọn khối khác hoặc môn học khác.</p>
+      </div>
+    `}
+  `;
+}
+
+
+/* ==========================================================================
+   VIEW 4: BẢNG TỔNG HỢP THEO TUẦN (MATRIX TRA CỨU TRỌN GÓI)
+   ========================================================================== */
+function renderWeeklyView(container) {
+  var currentGradeNum = selectedGrade === "all" ? 5 : parseInt(selectedGrade);
+  
+  var khbdList = (DATABASE.khbdList || []).filter(function(f) {
+    var matchWeek = f.week === selectedWeek || (f.weeks && f.weeks.includes(selectedWeek));
+    return f.grade === currentGradeNum && AuthService.isVisibleToFileList(f) && matchWeek;
+  });
+
+  var pptxList = (DATABASE.pptxList || []).filter(function(f) {
+    var matchWeek = f.week === selectedWeek || (f.weeks && f.weeks.includes(selectedWeek));
+    return f.grade === currentGradeNum && AuthService.isVisibleToFileList(f) && matchWeek;
+  });
+
+  container.innerHTML = `
+    ${renderAdminBulkToolbarHtml()}
+
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">
+          <i class="fa-solid fa-table-columns" style="color: #38bdf8;"></i> 
+          Bảng Tra Cứu Trọn Gói Khối ${currentGradeNum} - Tuần ${selectedWeek}
+        </h2>
+        <p class="section-subtitle">
+          Hiển thị song song Kế hoạch bài dạy (Word) & Bài giảng điện tử (PPTX) cho giáo viên
+        </p>
+      </div>
+    </div>
+
+    <!-- Week Strip -->
+    <div class="week-strip-box">
+      <div class="week-pills-flow">
+        ${Array.from({ length: 35 }, function(_, i) { return i + 1; }).map(function(w) {
+          return `
+            <button class="week-pill-chip ${w === selectedWeek ? 'active' : ''}" onclick="selectWeekFilter(${w})">
+              Tuần ${w}
+            </button>
+          `;
+        }).join('')}
+      </div>
+    </div>
+
+    <!-- Matrix Table -->
+    <div class="matrix-card-wrap">
+      <table class="formal-matrix-table">
+        <thead>
+          <tr>
+            <th style="width: 22%;">Môn Học</th>
+            <th style="width: 38%;">Kế Hoạch Bài Dạy (Word)</th>
+            <th style="width: 40%;">Bài Giảng Điện Tử (PPTX)</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${Object.keys(SUBJECTS_CONFIG).map(function(sKey) {
+            var sub = SUBJECTS_CONFIG[sKey];
+            var kFiles = khbdList.filter(function(f) { return f.subjectId === sKey; });
+            var pFiles = pptxList.filter(function(f) { return f.subjectId === sKey; });
+
+            if (kFiles.length === 0 && pFiles.length === 0) return "";
+
+            return `
+              <tr>
+                <td>
+                  <div style="display: flex; align-items: center; gap: 0.65rem;">
+                    <div style="width: 34px; height: 34px; border-radius: var(--radius-sm); background-color: ${sub.bgColor}; color: ${sub.color}; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0;">
+                      <i class="fa-solid ${sub.icon}"></i>
+                    </div>
+                    <div>
+                      <strong style="font-size: 0.9rem;">${sub.name}</strong>
+                      <div style="font-size: 0.72rem; color: var(--text-muted);">Khối ${currentGradeNum} • Tuần ${selectedWeek}</div>
+                    </div>
+                  </div>
+                </td>
+                <td style="vertical-align: top;">
+                  ${kFiles.length > 0 ? `
+                    <div style="display: flex; flex-direction: column; gap: 0.45rem;">
+                      ${kFiles.map(function(kFile) {
+                        return `
+                          <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 0.4rem 0.65rem;">
+                            <span style="font-size: 0.8rem; font-weight: 500; color: #1e293b; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 220px;" title="${kFile.name}">
+                              <i class="fa-solid fa-file-word" style="color: var(--color-word); margin-right: 4px;"></i> ${kFile.name}
+                            </span>
+                            <div style="display: flex; gap: 0.35rem; flex-shrink: 0;">
+                              <button class="btn btn-sm btn-outline" style="padding: 0.2rem 0.45rem; font-size: 0.75rem;" onclick="handleFileViewer('${kFile.id}')" title="Xem trước tài liệu">
+                                <i class="fa-solid fa-eye"></i>
+                              </button>
+                              <button class="btn btn-sm btn-primary" style="padding: 0.2rem 0.6rem; font-size: 0.75rem;" onclick="handleFileDownload('${kFile.id}')" title="Tải file Word">
+                                <i class="fa-solid fa-download"></i> Tải
+                              </button>
+                            </div>
+                          </div>
+                        `;
+                      }).join('')}
+                    </div>
+                  ` : `<span style="color: var(--text-light); font-style: italic;">Chưa có tệp</span>`}
+                </td>
+                <td style="vertical-align: top;">
+                  ${pFiles.length > 0 ? `
+                    <div style="display: flex; flex-direction: column; gap: 0.45rem;">
+                      ${pFiles.map(function(pFile) {
+                        return `
+                          <div style="display: flex; align-items: center; justify-content: space-between; gap: 0.5rem; background: #fff7ed; border: 1px solid #ffedd5; border-radius: 6px; padding: 0.4rem 0.65rem;">
+                            <span style="font-size: 0.8rem; font-weight: 500; color: #9a3412; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 220px;" title="${pFile.name}">
+                              <i class="fa-solid fa-file-powerpoint" style="color: var(--color-powerpoint); margin-right: 4px;"></i> ${pFile.name}
+                            </span>
+                            <div style="display: flex; gap: 0.35rem; flex-shrink: 0;">
+                              <button class="btn btn-sm btn-outline" style="padding: 0.2rem 0.45rem; font-size: 0.75rem;" onclick="handleFileViewer('${pFile.id}')" title="Xem trước slide">
+                                <i class="fa-solid fa-eye"></i>
+                              </button>
+                              <button class="btn btn-sm btn-primary" style="padding: 0.2rem 0.6rem; font-size: 0.75rem; background: #ea580c; border-color: #ea580c;" onclick="handleFileDownload('${pFile.id}')" title="Tải PowerPoint">
+                                <i class="fa-solid fa-download"></i> Tải PPTX
+                              </button>
+                            </div>
+                          </div>
+                        `;
+                      }).join('')}
+                    </div>
+                  ` : `<span style="color: var(--text-light); font-style: italic;">Chưa có slide</span>`}
+                </td>
+              </tr>
+            `;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>
+  `;
+}
+
+/* ==========================================================================
+   VIEW 5: TRỢ LÝ AI SOẠN ĐỀ KIỂM TRA
+   ========================================================================== */
+function renderAiExamView(container) {
+  var currentGradeNum = selectedGrade === "all" ? 5 : parseInt(selectedGrade);
+
+  container.innerHTML = `
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">
+          <i class="fa-solid fa-wand-magic-sparkles" style="color: #c084fc;"></i> 
+          Trợ Lý AI Soạn Đề Kiểm Tra Thông Minh
+        </h2>
+        <p class="section-subtitle">
+          Tạo ma trận đề và câu hỏi tự động chuẩn Thông tư 27/2020/TT-BGDĐT & Chuẩn Chương trình GDPT 2018
+        </p>
+
+      </div>
+    </div>
+
+    <div class="ai-layout-container">
+      <div class="ai-ctrl-box">
+        <div style="font-size: 0.76rem; font-weight: 700; color: #7c3aed; background: #f5f3ff; padding: 0.25rem 0.65rem; border-radius: var(--radius-full); display: inline-flex; align-items: center; gap: 0.35rem; margin-bottom: 0.85rem;">
+          <i class="fa-solid fa-robot"></i> AI Sư Phạm Tiểu Học 2026
+        </div>
+
+        <div class="form-group">
+          <label for="aiGradeSelect">1. Chọn Khối Lớp:</label>
+          <select id="aiGradeSelect" class="form-select">
+            <option value="1" ${currentGradeNum === 1 ? 'selected' : ''}>Khối 1</option>
+            <option value="2" ${currentGradeNum === 2 ? 'selected' : ''}>Khối 2</option>
+            <option value="3" ${currentGradeNum === 3 ? 'selected' : ''}>Khối 3</option>
+            <option value="4" ${currentGradeNum === 4 ? 'selected' : ''}>Khối 4</option>
+            <option value="5" ${currentGradeNum === 5 ? 'selected' : ''}>Khối 5</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="aiSubjectSelect">2. Chọn Môn Học:</label>
+          <select id="aiSubjectSelect" class="form-select">
+            <option value="TOAN">Toán</option>
+            <option value="TIENG_VIET">Tiếng Việt</option>
+            <option value="TIENG_ANH">Tiếng Anh</option>
+            <option value="TNXH">Tự nhiên & Xã hội</option>
+            <option value="KHOA_HOC">Khoa học</option>
+            <option value="LICH_SU_DIA_LY">Lịch sử & Địa lý</option>
+            <option value="TIN_HOC">Tin học</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="aiScopeSelect">3. Phạm Vi Đề Kiểm Tra:</label>
+          <select id="aiScopeSelect" class="form-select">
+            <option value="Kiểm tra ôn tập Tuần ${selectedWeek}">Theo Tuần ${selectedWeek}</option>
+            <option value="Kiểm tra Định kỳ Giữa Học Kỳ I (Tuần 1 - 9)">Giữa Học Kỳ I (Tuần 1 - 9)</option>
+            <option value="Kiểm tra Định kỳ Cuối Học Kỳ I (Tuần 1 - 18)">Cuối Học Kỳ I (Tuần 1 - 18)</option>
+            <option value="Kiểm tra Định kỳ Giữa Học Kỳ II (Tuần 19 - 27)">Giữa Học Kỳ II (Tuần 19 - 27)</option>
+            <option value="Kiểm tra Định kỳ Cuối Năm / Cả Năm (Tuần 1 - 35)">Cuối Năm / Cả Năm (Tuần 1 - 35)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="aiQuestionCount">4. Số lượng câu hỏi trắc nghiệm:</label>
+          <select id="aiQuestionCount" class="form-select">
+            <option value="6">6 câu (Đề ngắn 20 phút)</option>
+            <option value="8" selected>8 câu (Đề chuẩn 35 - 40 phút)</option>
+            <option value="10">10 câu (Đề nâng cao)</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label style="display: flex; align-items: center; gap: 0.45rem; cursor: pointer;">
+            <input type="checkbox" id="aiEssayCheck" checked> Bao gồm phần Tự luận & Lời văn
+          </label>
+        </div>
+
+        <div style="background: #f8fafc; border-radius: var(--radius-sm); padding: 0.75rem; font-size: 0.78rem; display: flex; justify-content: space-between; border: 1px solid var(--border-color); margin-top: 0.5rem;">
+          <div><i class="fa-solid fa-chart-pie" style="color: var(--primary);"></i> Ma trận TT 27:</div>
+          <div><strong>40%</strong> Mức 1 • <strong>40%</strong> Mức 2 • <strong>20%</strong> Mức 3</div>
+        </div>
+
+        <button class="btn btn-primary" style="width: 100%; margin-top: 1.15rem; background: linear-gradient(135deg, #7c3aed, #c084fc);" onclick="triggerAiGenerate()">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> Bắt Đầu Soạn Đề Tự Động
+        </button>
+      </div>
+
+      <div class="paper-preview-card" id="aiOutputContainer">
+        <div style="text-align: center; padding: 4rem 1rem; color: var(--text-muted);">
+          <i class="fa-solid fa-file-circle-plus" style="font-size: 3rem; color: #c4b5fd; margin-bottom: 1rem;"></i>
+          <h3>Sẵn sàng tạo đề kiểm tra</h3>
+          <p style="font-size: 0.85rem;">Chọn các thông số bên trái và bấm <strong>"Bắt Đầu Soạn Đề Tự Động"</strong> để AI sinh đề và ma trận.</p>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+async function triggerAiGenerate() {
+  var grade = document.getElementById("aiGradeSelect").value;
+  var subjectId = document.getElementById("aiSubjectSelect").value;
+  var scope = document.getElementById("aiScopeSelect").value;
+  var questionCount = parseInt(document.getElementById("aiQuestionCount").value);
+  var essayIncluded = document.getElementById("aiEssayCheck").checked;
+  var outputEl = document.getElementById("aiOutputContainer");
+  var apiKey = localStorage.getItem("tvth_gemini_api_key") || "";
+
+  outputEl.innerHTML = `
+    <div style="text-align: center; padding: 5rem 1rem;">
+      <div class="spinner" style="border-top-color: #8b5cf6; margin: 0 auto 1.25rem;"></div>
+      <h3 style="color: #7c3aed;">AI đang phân tích chương trình & soạn ma trận đề...</h3>
+      <p style="color: var(--text-muted); font-size: 0.85rem;">Áp dụng chuẩn đánh giá Thông tư 27 & Chương trình GDPT 2018</p>
+    </div>
+
+  `;
+
+  setTimeout(async function() {
+    var exam = await AIService.generateExam({
+      grade: grade,
+      subjectId: subjectId,
+      scope: scope,
+      questionCount: questionCount,
+      essayIncluded: essayIncluded,
+      apiKey: apiKey
+    });
+
+    currentExamData = exam;
+    renderExamOutput(exam, outputEl);
+    showToast("Đã soạn đề kiểm tra thành công!", "success");
+  }, 1000);
+}
+
+function renderExamOutput(exam, container) {
+  container.innerHTML = `
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem;">
+      <div style="font-weight: 700; color: #16a34a; display: flex; align-items: center; gap: 0.4rem; font-size: 0.9rem;">
+        <i class="fa-solid fa-circle-check"></i> Đã hoàn thành đề kiểm tra
+      </div>
+      <div style="display: flex; gap: 0.5rem;">
+        <button class="btn btn-sm btn-primary" onclick="AIService.exportToWord(currentExamData)">
+          <i class="fa-solid fa-file-word"></i> Xuất File Word (.doc)
+        </button>
+        <button class="btn btn-sm btn-outline" onclick="window.print()">
+          <i class="fa-solid fa-print"></i> In Đề
+        </button>
+      </div>
+    </div>
+
+    <div class="exam-paper-sheet">
+      <div style="display: flex; justify-content: space-between; border-bottom: 2px solid #000; padding-bottom: 0.85rem; margin-bottom: 1.25rem;">
+        <div style="font-weight: 700; font-size: 0.82rem; line-height: 1.4;">
+          TRƯỜNG TIỂU HỌC: .................................<br>
+          TỔ CHUYÊN MÔN KHỐI ${exam.grade}
+        </div>
+        <div style="text-align: right; font-weight: 700; font-size: 0.82rem; line-height: 1.4;">
+          KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026<br>
+          Môn: ${exam.subjectName} - Lớp ${exam.grade}<br>
+          <i>Thời gian: ${exam.duration}</i>
+        </div>
+      </div>
+
+      <div style="text-align: center; font-size: 1.2rem; font-weight: 800; text-transform: uppercase; margin-bottom: 0.25rem;">
+        ${exam.examTitle}
+      </div>
+      <div style="text-align: center; font-size: 0.82rem; font-style: italic; margin-bottom: 1rem;">
+        (Phạm vi: ${exam.scopeDesc} • Bộ sách: ${exam.bookSeries})
+      </div>
+
+      <div style="border: 1px dashed #94a3b8; padding: 0.65rem 0.85rem; border-radius: 4px; margin-bottom: 1.25rem; display: flex; justify-content: space-between; font-size: 0.85rem;">
+        <div>Họ và tên học sinh: ................................................................</div>
+        <div>Lớp: ${exam.grade}.....</div>
+      </div>
+
+      <div style="font-weight: 800; font-size: 0.95rem; margin: 1.25rem 0 0.75rem; color: var(--primary);">
+        I. PHẦN TRẮC NGHIỆM KHÁCH QUAN (${exam.multipleChoice.length} câu)
+      </div>
+      ${exam.multipleChoice.map(function(q) {
+        return `
+          <div style="margin-bottom: 1rem;">
+            <div style="font-weight: 600; font-size: 0.88rem; margin-bottom: 0.35rem;">
+              Câu ${q.num} (${q.score} điểm - ${q.level}): ${q.text}
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.4rem; padding-left: 0.85rem; font-size: 0.85rem;">
+              ${q.options.map(function(opt) { return `<div>${opt}</div>`; }).join('')}
+            </div>
+          </div>
+        `;
+      }).join('')}
+
+      ${exam.essaySection.length ? `
+        <div style="font-weight: 800; font-size: 0.95rem; margin: 1.25rem 0 0.75rem; color: var(--primary);">
+          II. PHẦN TỰ LUẬN
+        </div>
+        ${exam.essaySection.map(function(e) {
+          return `<div style="margin-bottom: 0.85rem; white-space: pre-line; font-weight: 500; font-size: 0.85rem;">${e}</div>`;
+        }).join('')}
+      ` : ''}
+
+      <div style="margin-top: 1.75rem; padding-top: 1.25rem; border-top: 2px dashed #cbd5e1;">
+        <div style="font-weight: 800; font-size: 0.95rem; color: #2563eb; margin-bottom: 0.65rem;">
+          ĐÁP ÁN & HƯỚNG DẪN CHẤM
+        </div>
+        <div style="font-size: 0.85rem; line-height: 1.8;">
+          ${exam.multipleChoice.map(function(q) {
+            return `<div><strong>Câu ${q.num}:</strong> Đáp án đúng: <span style="color: #16a34a; font-weight: 700;">${q.ans}</span> (${q.score}đ)</div>`;
+          }).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+/* ==========================================================================
+   VIEW 6: TIỆN ÍCH LỚP HỌC (TOOLKIT)
+   ========================================================================== */
+function renderToolkitView(container) {
+  container.innerHTML = `
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">
+          <i class="fa-solid fa-shapes" style="color: #34d399;"></i> 
+          Tiện Ích Trợ Giảng Trên Lớp Học
+        </h2>
+        <p class="section-subtitle">
+          Công cụ hỗ trợ tương tác trực tiếp trên màn hình cảm ứng, máy chiếu hoặc tivi lớp học
+        </p>
+      </div>
+    </div>
+
+    <div class="toolkit-deck">
+      <div class="tool-panel">
+        <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 0.25rem; color: var(--primary);">
+          🎯 Vòng Quay Gọi Học Sinh Ngẫu Nhiên
+        </h3>
+        <p style="font-size: 0.78rem; color: var(--text-muted);">Tạo hứng thú khi kiểm tra bài cũ hoặc thảo luận</p>
+
+        <div class="wheel-frame">
+          <div class="wheel-needle"></div>
+          <canvas id="wheelCanvas" width="260" height="260"></canvas>
+        </div>
+
+        <div id="wheelResult" style="min-height: 35px; margin-bottom: 0.75rem;">
+          <span style="color: var(--text-muted); font-size: 0.85rem;">Bấm nút để bắt đầu quay</span>
+        </div>
+
+        <button class="btn btn-primary" style="width: 100%;" onclick="ToolkitService.spinWheel()">
+          <i class="fa-solid fa-rotate-right"></i> QUAY NGAY
+        </button>
+
+        <details style="margin-top: 1rem; width: 100%; text-align: left; font-size: 0.8rem;">
+          <summary style="cursor: pointer; color: var(--accent); font-weight: 600;">Chỉnh sửa danh sách học sinh</summary>
+          <div style="margin-top: 0.45rem;">
+            <textarea id="studentListInput" class="form-control" rows="4">${ToolkitService.students.join('\n')}</textarea>
+            <button class="btn btn-sm btn-outline" style="margin-top: 0.4rem; width: 100%;" onclick="ToolkitService.updateStudentList(document.getElementById('studentListInput').value)">
+              Cập nhật danh sách
+            </button>
+          </div>
+        </details>
+      </div>
+
+      <div class="tool-panel">
+        <h3 style="font-size: 1.1rem; font-weight: 800; margin-bottom: 0.25rem; color: var(--primary);">
+          ⏰ Đồng Hồ Bấm Giờ Thảo Luận Nhóm
+        </h3>
+        <p style="font-size: 0.78rem; color: var(--text-muted);">Tính giờ làm bài tập, thảo luận nhóm theo mốc chuẩn</p>
+
+        <div class="clock-timer-text" id="timerDisplay">03:00</div>
+
+        <div style="display: flex; gap: 0.4rem; margin-bottom: 1.15rem; flex-wrap: wrap; justify-content: center;">
+          <button class="btn btn-sm btn-outline" onclick="ToolkitService.setTimerPreset(60)">1 Phút</button>
+          <button class="btn btn-sm btn-outline" onclick="ToolkitService.setTimerPreset(120)">2 Phút</button>
+          <button class="btn btn-sm btn-outline" onclick="ToolkitService.setTimerPreset(180)">3 Phút</button>
+          <button class="btn btn-sm btn-outline" onclick="ToolkitService.setTimerPreset(300)">5 Phút</button>
+        </div>
+
+        <div style="display: flex; gap: 0.45rem; width: 100%;">
+          <button class="btn btn-primary" style="flex: 1;" onclick="ToolkitService.startTimer()">
+            <i class="fa-solid fa-play"></i> Bắt Đầu
+          </button>
+          <button class="btn btn-outline" onclick="ToolkitService.pauseTimer()">
+            <i class="fa-solid fa-pause"></i> Tạm Dừng
+          </button>
+          <button class="btn btn-outline" onclick="ToolkitService.resetTimer()">
+            <i class="fa-solid fa-rotate-left"></i> Đặt Lại
+          </button>
+        </div>
+      </div>
+    </div>
+  `;
+
+  setTimeout(function() {
+    ToolkitService.initWheel();
+    ToolkitService.updateTimerDisplay();
+  }, 100);
+}
+
+/* ==========================================================================
+   VIEW 7: CẤU HÌNH & QUẢN TRỊ (SETTINGS)
+   ========================================================================== */
+function renderSettingsView(container) {
+  var session = AuthService.getSession();
+  var isAdmin = session.role === "admin";
+  var pins = AuthService.getValidPins();
+  var apiKey = localStorage.getItem("tvth_gemini_api_key") || "";
+
+  container.innerHTML = `
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">
+          <i class="fa-solid fa-sliders"></i> 
+          Trung Tâm Quản Trị & Cấu Hình Google Drive
+        </h2>
+        <p class="section-subtitle">
+          Quản lý đường dẫn kho lưu trữ, danh sách Mã PIN mở khóa và phân quyền từng tài liệu
+        </p>
+      </div>
+      <div>
+        ${isAdmin ? `
+          <span class="access-tag-free" style="font-size: 0.85rem; padding: 0.4rem 0.8rem;">
+            <i class="fa-solid fa-crown" style="color: #d97706;"></i> Quyền Quản trị: Thầy Lê Thành Long
+          </span>
+        ` : `
+          <button class="btn btn-primary" onclick="openAdminLoginModal()">
+            <i class="fa-solid fa-lock"></i> Đăng Nhập Quản Trị
+          </button>
+        `}
+      </div>
+    </div>
+
+    <!-- Phân Quyền Hàng Loạt (Dành cho Admin) -->
+    ${isAdmin ? `
+      <div class="ai-ctrl-box" style="margin-bottom: 1.25rem; background: linear-gradient(135deg, #f0fdf4, #eff6ff); border: 1px solid #93c5fd;">
+        <h3 style="font-size: 1.05rem; font-weight: 800; margin-bottom: 0.45rem; color: #1e3a8a;">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> Phân Quyền Hàng Loạt Toàn Bộ Kho
+        </h3>
+        <p style="font-size: 0.8rem; color: #334155; margin-bottom: 0.85rem;">
+          Bạn có thể <strong>khóa toàn bộ rồi mở từng cái</strong>, hoặc <strong>mở toàn bộ rồi khóa từng cái</strong>, hoặc <strong>ẩn toàn bộ với khách</strong>:
+        </p>
+        <div style="display: flex; gap: 0.6rem; flex-wrap: wrap;">
+          <button class="btn btn-sm btn-primary" style="background: #d97706;" onclick="AuthService.setBulkPermission('pin')">
+            <i class="fa-solid fa-lock"></i> 1. Khóa toàn bộ kho (Cần PIN)
+          </button>
+          <button class="btn btn-sm btn-primary" style="background: #16a34a;" onclick="AuthService.setBulkPermission('free')">
+            <i class="fa-solid fa-unlock"></i> 2. Mở toàn bộ kho (Miễn phí)
+          </button>
+          <button class="btn btn-sm btn-primary" style="background: #dc2626;" onclick="AuthService.setBulkPermission('hidden')">
+            <i class="fa-solid fa-eye-slash"></i> 3. Ẩn toàn bộ kho với khách
+          </button>
+        </div>
+      </div>
+    ` : ''}
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.25rem;">
+      <div class="ai-ctrl-box">
+        <h3 style="font-size: 1.05rem; font-weight: 800; margin-bottom: 0.65rem; color: var(--primary);">
+          <i class="fa-brands fa-google-drive" style="color: #16a34a;"></i> 2 Kho Google Drive Thực Tế
+        </h3>
+        <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Đã kết nối trực tiếp với 2 kho Google Drive của Thầy Lê Thành Long
+        </p>
+
+        <div class="form-group">
+          <label>1. Folder ID Kho KHBD (535 tệp):</label>
+          <input type="text" id="driveKhbdInput" class="form-control" value="${CONFIG.KHBD_FOLDER_ID}" ${!isAdmin ? 'disabled' : ''}>
+        </div>
+
+        <div class="form-group">
+          <label>2. Folder ID Kho Bài Giảng (81 slide):</label>
+          <input type="text" id="drivePptxInput" class="form-control" value="${CONFIG.BAI_GIANG_FOLDER_ID}" ${!isAdmin ? 'disabled' : ''}>
+        </div>
+
+        <button class="btn btn-outline" style="width: 100%; margin-top: 0.5rem;" onclick="syncDriveData(true)">
+          <i class="fa-solid fa-rotate-right"></i> Đồng bộ lại từ Google Drive
+        </button>
+      </div>
+
+      <div class="ai-ctrl-box" style="grid-column: 1 / -1;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;">
+          <div>
+            <h3 style="font-size: 1.1rem; font-weight: 800; color: var(--primary); display: flex; align-items: center; gap: 0.45rem;">
+              <i class="fa-solid fa-key" style="color: #d97706;"></i> Quản Lý & Cấp Mã PIN Cho Giáo Viên / Đồng Nghiệp
+            </h3>
+            <p style="font-size: 0.8rem; color: var(--text-muted);">
+              Tạo mã PIN cấp cho từng giáo viên hoặc từng khối lớp. Đồng nghiệp nhập mã này để mở khóa quyền tải về.
+            </p>
+          </div>
+        </div>
+
+        <!-- Form Tạo Mã PIN Mới -->
+        ${isAdmin ? `
+          <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1.25rem;">
+            <div style="font-weight: 700; font-size: 0.85rem; color: var(--primary); margin-bottom: 0.65rem;">
+              <i class="fa-solid fa-plus-circle" style="color: #16a34a;"></i> Tạo Mã PIN Mới:
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.65rem; align-items: flex-end;">
+              <div class="form-group" style="margin-bottom: 0;">
+                <label style="font-size: 0.78rem;">Mã PIN (viết liền, không dấu):</label>
+                <input type="text" id="newPinInput" class="form-control text-uppercase" placeholder="VD: COLAN_2026, THAYNAM...">
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label style="font-size: 0.78rem;">Phạm vi mở khóa:</label>
+                <select id="newPinGradeSelect" class="form-select">
+                  <option value="all">Mở khóa toàn bộ 5 Khối</option>
+                  <option value="1">Chỉ mở Khối 1</option>
+                  <option value="2">Chỉ mở Khối 2</option>
+                  <option value="3">Chỉ mở Khối 3</option>
+                  <option value="4">Chỉ mở Khối 4</option>
+                  <option value="5">Chỉ mở Khối 5</option>
+                </select>
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label style="font-size: 0.78rem;">Ghi chú người nhận:</label>
+                <input type="text" id="newPinDescInput" class="form-control" placeholder="VD: Cấp cho cô Lan - Khối 5">
+              </div>
+              <div>
+                <button class="btn btn-primary" style="width: 100%; height: 38px;" onclick="addNewPinCode()">
+                  <i class="fa-solid fa-check"></i> Tạo & Cấp Mã
+                </button>
+              </div>
+            </div>
+          </div>
+        ` : ''}
+
+        <!-- Danh Sách Mã PIN -->
+        <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-sm); overflow-x: auto;">
+          <table class="formal-matrix-table" style="margin: 0;">
+            <thead>
+              <tr style="background: #f1f5f9;">
+                <th style="width: 25%;">Mã PIN</th>
+                <th style="width: 20%;">Phạm Vi Tải</th>
+                <th style="width: 30%;">Ghi Chú</th>
+                <th style="width: 25%; text-align: center;">Thao Tác</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${pins.map(function(p) {
+                var gradeLabel = p.grade === 'all' ? 'Tất cả 5 khối' : ('Khối ' + p.grade);
+                return `
+                  <tr>
+                    <td>
+                      <strong style="color: #1e3a8a; font-family: monospace; font-size: 0.95rem; background: #e0f2fe; padding: 0.2rem 0.5rem; border-radius: 4px;">
+                        ${p.code}
+                      </strong>
+                    </td>
+                    <td>
+                      <span class="access-tag-free">${gradeLabel}</span>
+                    </td>
+                    <td style="font-size: 0.8rem; color: var(--text-muted);">
+                      ${p.desc || 'Mã cấp bởi Thầy Long'}
+                    </td>
+                    <td style="text-align: center;">
+                      <div style="display: flex; gap: 0.4rem; justify-content: center;">
+                        <button class="btn btn-sm btn-outline" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;" onclick="copyPinShareMessage('${p.code}', '${p.grade}', '${p.desc || ''}')" title="Sao chép tin nhắn gửi qua Zalo / Facebook">
+                          <i class="fa-solid fa-share-nodes" style="color: #0284c7;"></i> Gửi Zalo
+                        </button>
+                        ${isAdmin ? `
+                          <button class="btn btn-sm btn-outline" style="font-size: 0.75rem; padding: 0.25rem 0.5rem; color: #dc2626; border-color: #fca5a5;" onclick="AuthService.deletePin('${p.code}')" title="Thu hồi mã PIN này">
+                            <i class="fa-solid fa-trash"></i>
+                          </button>
+                        ` : ''}
+                      </div>
+                    </td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="ai-ctrl-box">
+        <h3 style="font-size: 1.05rem; font-weight: 800; margin-bottom: 0.65rem; color: var(--primary);">
+          <i class="fa-solid fa-wand-magic-sparkles" style="color: #8b5cf6;"></i> Google Gemini AI API Key
+        </h3>
+        <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Nhập API key để kích hoạt tính năng sinh đề nâng cao qua AI trực tuyến
+        </p>
+
+        <div class="form-group">
+          <label>Gemini API Key (Google AI Studio):</label>
+          <input type="password" id="geminiApiKeyInput" class="form-control" value="${apiKey}" placeholder="AIzaSy...">
+        </div>
+
+        <button class="btn btn-primary" style="background: linear-gradient(135deg, #7c3aed, #c084fc);" onclick="saveGeminiApiKey()">
+          <i class="fa-solid fa-check"></i> Lưu API Key
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+function addNewPinCode() {
+  var input = document.getElementById("newPinInput");
+  var gradeSelect = document.getElementById("newPinGradeSelect");
+  var descInput = document.getElementById("newPinDescInput");
+
+  var code = input ? input.value.trim().toUpperCase() : "";
+  var grade = gradeSelect ? gradeSelect.value : "all";
+  var desc = descInput ? descInput.value.trim() : "";
+
+  if (!code) {
+    showToast("Vui lòng nhập mã PIN cần cấp!", "error");
+    return;
+  }
+
+  var res = AuthService.addPin(code, grade, desc);
+  if (res.success) {
+    if (input) input.value = "";
+    if (descInput) descInput.value = "";
+    renderCurrentView();
+    showToast("Đã tạo và cấp mã PIN " + code + " thành công!", "success");
+  } else {
+    showToast(res.msg || "Không thể tạo mã PIN", "error");
+  }
+}
+
+function copyPinShareMessage(code, grade, desc) {
+  var gradeText = grade === "all" ? "Toàn bộ 5 Khối (Khối 1 đến Khối 5)" : ("Khối " + grade);
+  var msg = "Thầy Lê Thành Long gửi bạn mã PIN mở khóa tải tài liệu thư viện:\n" +
+            "🔑 Mã PIN: " + code + "\n" +
+            "📚 Phạm vi tải: " + gradeText + (desc ? (" (" + desc + ")") : "") + "\n" +
+            "👉 Bạn truy cập vào web, bấm nút 'Nhập PIN' ở góc dưới menu để tải giáo án Word & bài giảng PowerPoint nhé!";
+
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(msg).then(function() {
+      showToast("Đã sao chép tin nhắn gửi đồng nghiệp vào bộ nhớ tạm! Bạn có thể dán vào Zalo/Facebook.", "success");
+    }).catch(function() {
+      prompt("Sao chép tin nhắn gửi đồng nghiệp:", msg);
+    });
+  } else {
+    prompt("Sao chép tin nhắn gửi đồng nghiệp:", msg);
+  }
+}
+
+function saveGeminiApiKey() {
+  var input = document.getElementById("geminiApiKeyInput");
+  var key = input ? input.value.trim() : "";
+  localStorage.setItem("tvth_gemini_api_key", key);
+  showToast("Đã lưu Gemini API Key thành công!", "success");
+}
+
+/* ==========================================================================
+   VIEW 8: TÌM KIẾM TOÀN DIỆN (SEARCH)
+   ========================================================================== */
+function renderSearchView(container) {
+  var query = (document.getElementById("search-input")?.value || "").trim().toLowerCase();
+
+  var pptxMatches = (DATABASE.pptxList || []).filter(function(item) {
+    return AuthService.isVisibleToFileList(item) && (item.name.toLowerCase().includes(query) || (item.folderPath && item.folderPath.toLowerCase().includes(query)));
+  });
+
+  var khbdMatches = (DATABASE.khbdList || []).filter(function(item) {
+    return AuthService.isVisibleToFileList(item) && (item.name.toLowerCase().includes(query) || (item.folderPath && item.folderPath.toLowerCase().includes(query)));
+  });
+
+  container.innerHTML = `
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">
+          <i class="fa-solid fa-magnifying-glass"></i> 
+          Kết Quả Tìm Kiếm: "${query}"
+        </h2>
+        <p class="section-subtitle">
+          Tìm thấy ${pptxMatches.length} bài giảng PPTX và ${khbdMatches.length} kế hoạch bài dạy KHBD
+        </p>
+      </div>
+    </div>
+
+    <!-- PPTX Results -->
+    <h3 style="font-size: 1.05rem; font-weight: 800; margin: 1.25rem 0 0.85rem; color: var(--color-powerpoint);">
+      <i class="fa-solid fa-file-powerpoint"></i> Bài Giảng Điện Tử PowerPoint (${pptxMatches.length})
+    </h3>
+    <div class="file-cards-grid">
+      ${pptxMatches.length > 0 ? pptxMatches.slice(0, 12).map(function(item) { return renderFileCardHtml(item); }).join('') : `
+        <div style="grid-column: 1/-1; color: var(--text-muted);">Không có bài giảng PPTX nào khớp với từ khóa</div>
+      `}
+    </div>
+
+    <!-- KHBD Results -->
+    <h3 style="font-size: 1.05rem; font-weight: 800; margin: 1.75rem 0 0.85rem; color: var(--color-word);">
+      <i class="fa-solid fa-file-word"></i> Kế Hoạch Bài Dạy KHBD Word (${khbdMatches.length})
+    </h3>
+    <div class="file-cards-grid">
+      ${khbdMatches.length > 0 ? khbdMatches.slice(0, 12).map(function(item) { return renderFileCardHtml(item); }).join('') : `
+        <div style="grid-column: 1/-1; color: var(--text-muted);">Không có giáo án nào khớp với từ khóa</div>
+      `}
+    </div>
+  `;
+}
+
+/* ==========================================================================
+   UI CARD RENDERER (HIỂN THỊ QUYỀN TỪNG TÀI LIỆU & NÚT ADMIN ĐỔI QUYỀN)
+   ========================================================================== */
+function renderFileCardHtml(file) {
+  if (!AuthService.isVisibleToFileList(file)) return "";
+
+  var fileIcon = "fa-file";
+  var iconColor = "#64748b";
+  var formatBadge = file.extension ? file.extension.toUpperCase() : "FILE";
+
+  var lower = (file.name || "").toLowerCase();
+  if (lower.endsWith(".docx") || lower.endsWith(".doc")) {
+    fileIcon = "fa-file-word";
+    iconColor = "var(--color-word)";
+    formatBadge = "DOCX";
+  } else if (lower.endsWith(".pptx") || lower.endsWith(".ppt")) {
+    fileIcon = "fa-file-powerpoint";
+    iconColor = "var(--color-powerpoint)";
+    formatBadge = "PPTX";
+  } else if (lower.endsWith(".pdf")) {
+    fileIcon = "fa-file-pdf";
+    iconColor = "var(--color-pdf)";
+    formatBadge = "PDF";
+  }
+
+  var perm = AuthService.getFilePermission(file);
+  var session = AuthService.getSession();
+  var isAdmin = session.role === "admin";
+  var canDl = AuthService.canDownload(file);
+
+  var permBadgeHtml = '<span class="access-tag-free">🟢 Miễn phí</span>';
+  if (perm === "pin") {
+    if (canDl) {
+      permBadgeHtml = '<span class="access-tag-unlocked"><i class="fa-solid fa-unlock-keyhole"></i> Đã mở khóa</span>';
+    } else {
+      permBadgeHtml = '<span class="access-tag-pin"><i class="fa-solid fa-lock"></i> Cần PIN</span>';
+    }
+  } else if (perm === "hidden") {
+    permBadgeHtml = '<span class="access-tag-hidden"><i class="fa-solid fa-eye-slash"></i> Ẩn với khách</span>';
+  }
+
+  return `
+    <div class="file-card" style="${perm === 'hidden' ? 'border: 1px dashed #f87171; background: #fffafb;' : ''}">
+      <div class="file-card-header">
+        <span class="subject-badge-pill" style="background-color: #f1f5f9; color: var(--text-dark);">
+          <i class="fa-solid ${fileIcon}" style="color: ${iconColor};"></i> ${formatBadge}
+        </span>
+        <div style="display: flex; align-items: center; gap: 0.35rem;">
+          ${permBadgeHtml}
+          ${isAdmin ? `
+            <button class="btn btn-sm btn-outline" style="padding: 0.15rem 0.45rem; font-size: 0.7rem; border-color: #94a3b8; background: #ffffff;" onclick="toggleFilePermissionPrompt('${file.id}')" title="Bấm để đổi: 🟢 Miễn phí ➜ 🔒 Cần PIN ➜ 👁️‍🗨️ Ẩn với khách">
+              <i class="fa-solid fa-gear"></i>
+            </button>
+          ` : ''}
+        </div>
+      </div>
+
+      <h4 class="file-card-title">${file.name}</h4>
+
+      <div class="file-card-meta">
+        <span><i class="fa-solid fa-database"></i> ${file.size}</span>
+        <span><i class="fa-regular fa-clock"></i> ${file.updatedAt || 'Hôm nay'}</span>
+      </div>
+
+      <div class="file-card-actions">
+        <button class="btn btn-sm btn-outline" onclick="handleFileViewer('${file.id}')">
+          <i class="fa-solid fa-eye"></i> Xem trước
+        </button>
+        <button class="btn btn-sm btn-primary" onclick="handleFileDownload('${file.id}')">
+          <i class="fa-solid fa-download"></i> Tải về
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+// ---- LIST VIEW RENDERER ----
+function renderFileListRowHtml(file) {
+  if (!AuthService.isVisibleToFileList(file)) return "";
+
+  var fileIcon = "fa-file";
+  var iconColor = "#64748b";
+  var formatBadge = "FILE";
+
+  var lower = (file.name || "").toLowerCase();
+  if (lower.endsWith(".docx") || lower.endsWith(".doc")) {
+    fileIcon = "fa-file-word"; iconColor = "var(--color-word)"; formatBadge = "DOCX";
+  } else if (lower.endsWith(".pptx") || lower.endsWith(".ppt")) {
+    fileIcon = "fa-file-powerpoint"; iconColor = "var(--color-powerpoint)"; formatBadge = "PPTX";
+  } else if (lower.endsWith(".pdf")) {
+    fileIcon = "fa-file-pdf"; iconColor = "var(--color-pdf)"; formatBadge = "PDF";
+  }
+
+  var perm = AuthService.getFilePermission(file);
+  var session = AuthService.getSession();
+  var isAdmin = session.role === "admin";
+  var canDl = AuthService.canDownload(file);
+
+  var permBadgeHtml = '<span class="access-tag-free" style="white-space:nowrap;">🟢 Miễn phí</span>';
+  if (perm === "pin") {
+    permBadgeHtml = canDl
+      ? '<span class="access-tag-unlocked" style="white-space:nowrap;"><i class="fa-solid fa-unlock-keyhole"></i> Đã mở</span>'
+      : '<span class="access-tag-pin" style="white-space:nowrap;"><i class="fa-solid fa-lock"></i> Cần PIN</span>';
+  } else if (perm === "hidden") {
+    permBadgeHtml = '<span class="access-tag-hidden" style="white-space:nowrap;"><i class="fa-solid fa-eye-slash"></i> Ẩn</span>';
+  }
+
+  return `
+    <div class="file-list-row" style="${perm === 'hidden' ? 'border-left: 3px solid #f87171; background: #fffafb;' : ''}">
+      <div class="file-list-icon">
+        <i class="fa-solid ${fileIcon}" style="color: ${iconColor}; font-size: 1.5rem;"></i>
+      </div>
+      <div class="file-list-info">
+        <div class="file-list-name">${file.name}</div>
+        <div class="file-list-meta">
+          <span><i class="fa-solid fa-database"></i> ${file.size}</span>
+          <span><i class="fa-regular fa-clock"></i> ${file.updatedAt || 'Hôm nay'}</span>
+        </div>
+      </div>
+      <div class="file-list-badges">
+        <span class="subject-badge-pill" style="background:#f1f5f9; color:var(--text-dark); white-space:nowrap;">
+          ${formatBadge}
+        </span>
+        ${permBadgeHtml}
+        ${isAdmin ? `<button class="btn btn-sm btn-outline" style="padding:0.15rem 0.4rem;font-size:0.7rem;" onclick="toggleFilePermissionPrompt('${file.id}')" title="Đổi quyền"><i class="fa-solid fa-gear"></i></button>` : ''}
+      </div>
+      <div class="file-list-actions">
+        <button class="btn btn-sm btn-outline" onclick="handleFileViewer('${file.id}')">
+          <i class="fa-solid fa-eye"></i> Xem
+        </button>
+        <button class="btn btn-sm btn-primary" onclick="handleFileDownload('${file.id}')">
+          <i class="fa-solid fa-download"></i> Tải
+        </button>
+      </div>
+    </div>
+  `;
+}
+
+// Render danh sách theo kiểu hiển thị hiện tại
+var currentViewMode = localStorage.getItem("tvth_view_mode") || "grid";
+
+function renderFilesHtml(fileList) {
+  if (!fileList || fileList.length === 0) return "";
+  if (currentViewMode === "list") {
+    return '<div class="file-list-container">' +
+      fileList.map(function(f) { return renderFileListRowHtml(f); }).join('') +
+    '</div>';
+  }
+  return '<div class="file-cards-grid">' +
+    fileList.map(function(f) { return renderFileCardHtml(f); }).join('') +
+  '</div>';
+}
+
+function setViewMode(mode) {
+  currentViewMode = mode;
+  localStorage.setItem("tvth_view_mode", mode);
+  renderCurrentView();
+}
+
+// HTML nút toggle view mode
+function renderViewToggleHtml() {
+  return `
+    <div class="view-mode-toggle" role="group" aria-label="Kiểu hiển thị">
+      <button class="view-toggle-btn ${currentViewMode === 'grid' ? 'active' : ''}"
+              onclick="setViewMode('grid')" title="Dạng lưới" aria-label="Hiển thị dạng lưới">
+        <i class="fa-solid fa-grip"></i>
+      </button>
+      <button class="view-toggle-btn ${currentViewMode === 'list' ? 'active' : ''}"
+              onclick="setViewMode('list')" title="Dạng danh sách" aria-label="Hiển thị dạng danh sách">
+        <i class="fa-solid fa-list"></i>
+      </button>
+    </div>
+  `;
+}
+
+
+function toggleFilePermissionPrompt(fileId) {
+  var file = DATABASE.allFiles.find(function(f) { return f.id === fileId; });
+  if (!file) return;
+
+  var current = AuthService.getFilePermission(file);
+  var next = "pin";
+  if (current === "free") next = "pin";
+  else if (current === "pin") next = "hidden";
+  else if (current === "hidden") next = "free";
+
+  AuthService.setFilePermission(fileId, next);
+}
+
+function handleFileViewer(fileId) {
+  var file = DATABASE.allFiles.find(function(f) { return f.id === fileId; });
+  if (file) {
+    DriveService.openViewer(file);
+  }
+}
+
+function handleFileDownload(fileId) {
+  var file = DATABASE.allFiles.find(function(f) { return f.id === fileId; });
+  if (!file) return;
+
+  if (!AuthService.canDownload(file)) {
+    var perm = AuthService.getFilePermission(file);
+    if (perm === "hidden") {
+      showToast("Tài liệu này được đặt chế độ Ẩn với khách của Quản trị viên (Thầy Lê Thành Long)", "error");
+      return;
+    }
+    openPinModal();
+    showToast("Tài liệu được bảo vệ bản quyền. Vui lòng nhập mã PIN để tải về!", "error");
+    return;
+  }
+
+  DriveService.downloadFile(file);
+}
+
+// Global Nav & Filter event listeners
+function setupNavigationEvents() {
+  document.querySelectorAll(".tree-menu .tree-item").forEach(function(item) {
+    item.addEventListener("click", function(e) {
+      e.preventDefault();
+      var view = item.getAttribute("data-view");
+      if (view) {
+        navigateTo(view);
+      }
+    });
+  });
+
+  var mobileBtn = document.getElementById("mobile-toggle-btn");
+  var sidebar = document.getElementById("app-sidebar");
+  if (mobileBtn && sidebar) {
+    mobileBtn.addEventListener("click", function() {
+      sidebar.classList.toggle("show");
+    });
+  }
+}
+
+function setupSearchEvents() {
+  var searchInput = document.getElementById("search-input");
+  var clearBtn = document.getElementById("searchClearBtn");
+
+  if (searchInput) {
+    // Đảm bảo không bị dính giá trị autofill từ trình duyệt khi tải trang
+    searchInput.value = "";
+    if (clearBtn) clearBtn.style.display = "none";
+
+    searchInput.addEventListener("input", function(e) {
+      var val = e.target.value.trim();
+      if (clearBtn) clearBtn.style.display = val ? "block" : "none";
+      if (val.length >= 2) {
+        navigateTo("search");
+      }
+    });
+
+    searchInput.addEventListener("keydown", function(e) {
+      if (e.key === "Enter") {
+        navigateTo("search");
+      }
+    });
+  }
+
+  if (clearBtn) {
+    clearBtn.addEventListener("click", function() {
+      if (searchInput) searchInput.value = "";
+      clearBtn.style.display = "none";
+      navigateTo("home");
+    });
+  }
+}
+
+function filterByGrade(grade) {
+  selectedGrade = grade;
+  updateTopGradeFilterUI();
+  renderCurrentView();
+}
+
+function updateTopGradeFilterUI() {
+  document.querySelectorAll(".grade-btn").forEach(function(chip) {
+    if (chip.getAttribute("data-grade") === String(selectedGrade)) {
+      chip.classList.add("active");
+    } else {
+      chip.classList.remove("active");
+    }
+  });
+}
+
+// Đồng bộ live từ Google Drive
+async function syncDriveData(showToastMsg) {
+  if (typeof showToastMsg === "undefined") showToastMsg = true;
+  var btn = document.getElementById("btn-refresh-data");
+  if (btn) btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> <span>Đang quét...</span>';
+
+  try {
+    var res = await fetch(CONFIG.API_URL + "?action=preload_all&folderId=" + CONFIG.KHBD_FOLDER_ID);
+    var json = await res.json();
+    if (json && json.success) {
+      if (showToastMsg) showToast("Đã đồng bộ dữ liệu mới nhất từ Google Drive!", "success");
+    }
+  } catch (err) {
+    console.warn("Sync error:", err);
+    if (showToastMsg) showToast("Đang sử dụng dữ liệu đã lưu sẵn!", "info");
+  } finally {
+    if (btn) btn.innerHTML = '<i class="fa-solid fa-rotate-right"></i> <span>Đồng bộ Drive</span>';
+  }
+}
+
+// Export functions to window
+window.navigateTo = navigateTo;
+window.handleFileViewer = handleFileViewer;
+window.handleFileDownload = handleFileDownload;
+window.toggleFilePermissionPrompt = toggleFilePermissionPrompt;
+window.filterByGrade = filterByGrade;
+window.selectWeekFilter = selectWeekFilter;
+window.selectSubjectFilter = selectSubjectFilter;
+// Toggle sidebar accordion menu by element ID
+function toggleSidebarMenu(id) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  var subMenu = el.querySelector('.sub-tree-menu');
+  var chevron = el.querySelector('.tree-chevron');
+  var isOpen = el.classList.contains('open');
+
+  // Close all other sidebar menus first
+  var allMenus = document.querySelectorAll('.tree-item-collapsible.open');
+  allMenus.forEach(function(m) {
+    if (m.id !== id) {
+      m.classList.remove('open');
+      var sm = m.querySelector('.sub-tree-menu');
+      var ch = m.querySelector('.tree-chevron');
+      if (sm) sm.style.maxHeight = '0';
+      if (ch) { ch.className = 'fa-solid fa-chevron-right tree-chevron'; }
+    }
+  });
+
+  if (isOpen) {
+    el.classList.remove('open');
+    if (subMenu) subMenu.style.maxHeight = '0';
+    if (chevron) { chevron.className = 'fa-solid fa-chevron-right tree-chevron'; }
+  } else {
+    el.classList.add('open');
+    if (subMenu) subMenu.style.maxHeight = subMenu.scrollHeight + 'px';
+    if (chevron) { chevron.className = 'fa-solid fa-chevron-down tree-chevron'; }
+  }
+}
+
+// Set grade then navigate to a view (khbd / pptx)
+function selectGradeAndNavigateTo(grade, view) {
+  selectedGrade = String(grade);
+  navigateTo(view);
+}
+
+window.selectGradeAndNavigate = selectGradeAndNavigate;
+
+window.triggerAiGenerate = triggerAiGenerate;
+window.syncDriveData = syncDriveData;
+window.addNewPinCode = addNewPinCode;
+window.copyPinShareMessage = copyPinShareMessage;
+window.saveGeminiApiKey = saveGeminiApiKey;
+window.toggleGradeTree = toggleGradeTree;
+window.navigateToSubject = navigateToSubject;
+window.setViewMode = setViewMode;
+window.setSidebarGrade = setSidebarGrade;
+window.toggleSidebarMenu = toggleSidebarMenu;
+window.selectGradeAndNavigateTo = selectGradeAndNavigateTo;
+window.toggleSidebarSection = toggleSidebarSection;
+window.toggleSidebarGrade = toggleSidebarGrade;
+window.selectSubjectAndNavigateTo = selectSubjectAndNavigateTo;
+window.selectWeekAndNavigateTo = selectWeekAndNavigateTo;
+
+
+
+
+/* ==========================================================================
+   HELPER FUNCTIONS: SKELETON LOADING, EMPTY STATE, DYNAMIC FOOTER
+   ========================================================================== */
+
+// Skeleton loading khi data chưa sẵn sàng
+function renderLoadingSkeletonHtml() {
+  var skeletonCards = '';
+  for (var i = 0; i < 6; i++) {
+    skeletonCards +=
+      '<div style="background:#fff;border:1px solid var(--border-color);border-radius:var(--radius-md);padding:1.15rem;animation:pulse 1.5s ease-in-out infinite;">' +
+        '<div style="height:14px;background:#e2e8f0;border-radius:4px;margin-bottom:0.75rem;width:60%"></div>' +
+        '<div style="height:12px;background:#f1f5f9;border-radius:4px;margin-bottom:0.5rem;width:90%"></div>' +
+        '<div style="height:12px;background:#f1f5f9;border-radius:4px;margin-bottom:1rem;width:75%"></div>' +
+        '<div style="height:36px;background:#e2e8f0;border-radius:6px;width:100%"></div>' +
+      '</div>';
+  }
+  return '<div class="file-cards-grid">' + skeletonCards + '</div>';
+}
+
+// Empty state component tái sử dụng
+function renderEmptyStateHtml(icon, title, desc) {
+  return '<div style="grid-column:1/-1;text-align:center;padding:3.5rem 2rem;background:#fff;border-radius:var(--radius-md);border:1px dashed var(--border-color);">' +
+    '<div style="width:80px;height:80px;border-radius:50%;background:var(--primary-light);display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem;font-size:2rem;color:var(--primary);">' +
+      '<i class="fa-solid ' + icon + '"></i>' +
+    '</div>' +
+    '<h3 style="color:var(--primary);font-size:1.1rem;margin-bottom:0.5rem;">' + title + '</h3>' +
+    '<p style="color:var(--text-muted);font-size:0.85rem;max-width:400px;margin:0 auto;">' + desc + '</p>' +
+  '</div>';
+}
+
+// Cập nhật số liệu footer động
+function updateFooterCount() {
+  var el = document.getElementById("footer-file-count");
+  if (el && typeof DATABASE !== "undefined" && DATABASE.allFiles) {
+    el.textContent = DATABASE.allFiles.length;
+  }
 }
