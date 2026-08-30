@@ -83,10 +83,7 @@ var AuthService = {
       return map[file.id];
     }
 
-    // Mặc định: Tuần 1 là "free", còn lại là "pin"
-    if (file.week === 1 || (file.folderPath && (file.folderPath.includes("TUẦN 1") || file.folderPath.includes("TUAN 1")))) {
-      return "free";
-    }
+    // Mặc định: Tất cả tài liệu đều bị KHÓA (yêu cầu PIN) để bảo vệ bản quyền
     return "pin";
   },
 
