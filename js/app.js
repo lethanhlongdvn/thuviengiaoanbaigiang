@@ -432,7 +432,7 @@ function renderHomeView(container) {
       <h1 class="formal-hero-title">Thư Viện Bài Giảng & Kế Hoạch Bài Dạy Tiểu Học</h1>
       <p class="formal-hero-desc">
         Hệ thống học liệu số cá nhân được quản trị và cấp quyền bởi <strong>Thầy Lê Thành Long</strong>. 
-        Đang hiển thị <strong>${totalKhbd} KHBD</strong> & <strong>${totalPptx} Bài giảng điện tử</strong> (${totalFiles} tệp tin thật từ Google Drive).
+        Đang hiển thị <strong>${totalKhbd} KHBD</strong> & <strong>${totalPptx} Bài giảng điện tử</strong>.
       </p>
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
         <button class="btn btn-primary" onclick="navigateTo('pptx')" style="background: #ffffff; color: var(--primary); box-shadow: 0 4px 12px rgba(0,0,0,0.15);">

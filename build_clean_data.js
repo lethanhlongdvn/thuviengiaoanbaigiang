@@ -1,7 +1,7 @@
 const fs = require('fs');
 
-const khbdTree = JSON.parse(fs.readFileSync('khbd_exact_tree.json', 'utf8'));
-const bgTree = JSON.parse(fs.readFileSync('bg_exact_tree.json', 'utf8'));
+const khbdTree = fs.existsSync('khbd_exact_tree.json') ? JSON.parse(fs.readFileSync('khbd_exact_tree.json', 'utf8')) : { tree: {} };
+const bgTree = fs.existsSync('bg_exact_tree.json') ? JSON.parse(fs.readFileSync('bg_exact_tree.json', 'utf8')) : { tree: {} };
 
 const allFiles = [];
 const khbdList = [];
@@ -39,9 +39,9 @@ function getSubjectFromPath(path, name) {
 
   // 1. Folder path matching
   if (p.includes('/TOAN') || p.includes('_TOAN') || p.includes('TOÁN') || p.includes('TOAN4') || p.includes('TOAN5')) return 'TOAN';
-  if (p.includes('/TIENG_VIET') || p.includes('_TIENG_VIET') || p.includes('TIẾNG VIỆT') || p.includes('/TIENG VIET') || p.includes('TV-') || p.includes('_TV') || p.includes('TIENGVIET')) return 'TIENG_VIET';
+  if (p.includes('/TIENG_VIET') || p.includes('_TIENG_VIET') || p.includes('TIẾNG VIỆT') || p.includes('/TIENG VIET') || p.includes('TV-') || p.includes('_TV') || p.includes('TIENGVIET') || /\/TV\s*\d+/i.test(path) || /\/TV$/i.test(path) || /\/TV\b/i.test(path)) return 'TIENG_VIET';
   if (p.includes('/TIENG_ANH') || p.includes('TIẾNG ANH') || p.includes('/TIENG ANH') || p.includes('ENGLISH')) return 'TIENG_ANH';
-  if (p.includes('/TNXH') || p.includes('TỰ NHIÊN') || p.includes('TN-XH') || p.includes('TU NHIEN')) return 'TNXH';
+  if (p.includes('TNXH') || p.includes('TỰ NHIÊN') || p.includes('TN-XH') || p.includes('TU NHIEN')) return 'TNXH';
   if (p.includes('/KHOA_HOC') || p.includes('KHOA HỌC') || /\/KH[-_ ]/i.test(p) || p.includes('KH- TUẦN') || p.includes('KHOAHOC') || p.includes('KHOA HOC')) return 'KHOA_HOC';
   if (p.includes('/LICH_SU') || p.includes('/LSDL') || p.includes('LSĐL') || p.includes('LS-ĐL') || p.includes('LS-DL') || p.includes('LỊCH SỬ') || p.includes('ĐỊA LÝ') || p.includes('ĐỊA LÍ')) return 'LICH_SU_DIA_LY';
   if (p.includes('/CONG_NGHE') || p.includes('CÔNG NGHỆ') || /\/CN[-_ ]/i.test(p) || p.includes('CN-') || p.includes('CONGNGHE') || p.includes('CONG NGHE')) return 'CONG_NGHE';
