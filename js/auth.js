@@ -83,7 +83,27 @@ var AuthService = {
       return map[file.id];
     }
 
-    // Mặc định: Tất cả tài liệu đều bị KHÓA (yêu cầu PIN) để bảo vệ bản quyền
+    // 🟢 Mở khóa MIỄN PHÍ TỪ TUẦN 1 ĐẾN TUẦN 8 (dành cho khách tải tự do để thu hút truy cập)
+    var isFreeWeek = false;
+    if (file.week && file.week >= 1 && file.week <= 8) {
+      isFreeWeek = true;
+    } else if (file.weeks && Array.isArray(file.weeks) && file.weeks.some(function(w) { return w >= 1 && w <= 8; })) {
+      isFreeWeek = true;
+    } else {
+      // Nhận diện theo tên file hoặc đường dẫn thư mục
+      var textToCheck = ((file.name || '') + ' ' + (file.folderPath || '') + ' ' + (file.path || '')).toUpperCase();
+      var matchWeek = textToCheck.match(/TUẦN\s*([0-9]+)/) || textToCheck.match(/TUAN\s*([0-9]+)/) || textToCheck.match(/TUAN([0-9]+)/) || textToCheck.match(/\bT([1-8])\b/);
+      if (matchWeek && matchWeek[1]) {
+        var wNum = parseInt(matchWeek[1], 10);
+        if (wNum >= 1 && wNum <= 8) isFreeWeek = true;
+      }
+    }
+
+    if (isFreeWeek) {
+      return "free";
+    }
+
+    // Các tuần còn lại (Tuần 9-35): Yêu cầu mã PIN
     return "pin";
   },
 

@@ -425,14 +425,17 @@ function renderHomeView(container) {
     ${renderAdminBulkToolbarHtml()}
 
     <!-- Formal Hero Banner -->
-    <div class="formal-hero-card">
-      <div class="formal-hero-pill">
-        <i class="fa-solid fa-award" style="color: #facc15;"></i> Chuẩn Chương trình GDPT 2018
+      <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.85rem;">
+        <div class="formal-hero-pill">
+          <i class="fa-solid fa-award" style="color: #facc15;"></i> Chuẩn GDPT 2018
+        </div>
+        <div class="formal-hero-pill" style="background: rgba(34, 197, 94, 0.25); border-color: rgba(74, 222, 128, 0.6); color: #86efac;">
+          <i class="fa-solid fa-gift" style="color: #4ade80;"></i> MỞ KHÓA MIỄN PHÍ TUẦN 1 - 8 (Tải không cần PIN)
+        </div>
       </div>
       <h1 class="formal-hero-title">Thư Viện Bài Giảng & Kế Hoạch Bài Dạy Tiểu Học</h1>
       <p class="formal-hero-desc">
-        Hệ thống học liệu số cá nhân được quản trị và cấp quyền bởi <strong>Thầy Lê Thành Long</strong>. 
-        Đang hiển thị <strong>${totalKhbd} KHBD</strong> & <strong>${totalPptx} Bài giảng điện tử</strong>.
+        Hệ thống học liệu số cá nhân quản trị bởi <strong>Thầy Lê Thành Long</strong>. Mở khóa tải <strong>Hoàn Toàn Miễn Phí Tuần 1 đến Tuần 8</strong> cho tất cả giáo viên toàn quốc!
       </p>
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
         <button class="btn btn-primary" onclick="navigateTo('pptx')" style="background: #ffffff; color: var(--primary); box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
