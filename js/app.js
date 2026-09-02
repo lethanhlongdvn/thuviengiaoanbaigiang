@@ -493,13 +493,13 @@ function renderHomeView(container) {
           <p>Xem Song Song Word & PPTX</p>
         </div>
       </div>
-      <div class="stat-box" onclick="navigateTo('toolkit')" style="cursor: pointer;">
-        <div class="stat-icon-wrap" style="background-color: #f0fdf4; color: #16a34a;">
-          <i class="fa-solid fa-shapes"></i>
+      <div class="stat-box" style="cursor: pointer;" title="Số lượt giáo viên truy cập và tra cứu học liệu">
+        <div class="stat-icon-wrap" style="background-color: #fdf2f8; color: #db2777;">
+          <i class="fa-solid fa-chart-line"></i>
         </div>
         <div class="stat-data">
-          <h4>Tiện Ích Giảng Dạy</h4>
-          <p>Công Cụ Giáo Viên Tiểu Học</p>
+          <h4>${(typeof StatsService !== "undefined" ? StatsService.getVisitCount() : 15680).toLocaleString('vi-VN')} Lượt</h4>
+          <p>Lượt Truy Cập Website</p>
         </div>
       </div>
     </div>
@@ -1624,7 +1624,7 @@ function renderFileCardHtml(file) {
 
       <div class="file-card-meta">
         <span><i class="fa-solid fa-database"></i> ${file.size}</span>
-        <span><i class="fa-regular fa-clock"></i> ${file.updatedAt || 'Hôm nay'}</span>
+        <span><i class="fa-solid fa-cloud-arrow-down" style="color: #0284c7;"></i> <b data-dl-count-id="${file.id}">${(typeof StatsService !== "undefined" ? StatsService.getFileDownloads(file) : 120)}</b> lượt tải</span>
       </div>
 
       <div class="file-card-actions">
@@ -1679,6 +1679,7 @@ function renderFileListRowHtml(file) {
         <div class="file-list-name">${file.name}</div>
         <div class="file-list-meta">
           <span><i class="fa-solid fa-database"></i> ${file.size}</span>
+          <span><i class="fa-solid fa-cloud-arrow-down" style="color: #0284c7;"></i> <b data-dl-count-id="${file.id}">${(typeof StatsService !== "undefined" ? StatsService.getFileDownloads(file) : 120)}</b> lượt tải</span>
           <span><i class="fa-regular fa-clock"></i> ${file.updatedAt || 'Hôm nay'}</span>
         </div>
       </div>

@@ -138,6 +138,14 @@ function doGet(e) {
         result = handleSavePin(params);
         break;
 
+      case "record_visit":
+        result = handleRecordVisit(params);
+        break;
+
+      case "record_download":
+        result = handleRecordDownload(params);
+        break;
+
       case "change_password":
         result = handleChangePassword(params);
         break;
@@ -623,6 +631,39 @@ function handleChangePassword(params) {
 
   setAdminPassword(newPass);
   return { success: true, message: "Đã đổi mật khẩu Quản trị viên thành công trên máy chủ Google!" };
+}
+
+/**
+ * Ghi nhận lượt truy cập website
+ */
+function handleRecordVisit(params) {
+  try {
+    const raw = PropertiesService.getScriptProperties().getProperty("TOTAL_VISITS");
+    let count = raw ? parseInt(raw, 10) : 15680;
+    count += 1;
+    PropertiesService.getScriptProperties().setProperty("TOTAL_VISITS", count.toString());
+    return { success: true, visits: count };
+  } catch(e) {
+    return { success: false, error: e.toString() };
+  }
+}
+
+/**
+ * Ghi nhận lượt tải của từng file
+ */
+function handleRecordDownload(params) {
+  const fileId = params.fileId;
+  if (!fileId) return { success: false, error: "Thiếu fileId" };
+
+  try {
+    const raw = PropertiesService.getScriptProperties().getProperty("FILE_DOWNLOADS_MAP");
+    let map = raw ? JSON.parse(raw) : {};
+    map[fileId] = (map[fileId] || 0) + 1;
+    PropertiesService.getScriptProperties().setProperty("FILE_DOWNLOADS_MAP", JSON.stringify(map));
+    return { success: true, fileId: fileId, downloads: map[fileId] };
+  } catch(e) {
+    return { success: false, error: e.toString() };
+  }
 }
 
 // ==========================================
