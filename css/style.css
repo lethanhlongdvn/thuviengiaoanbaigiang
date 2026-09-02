@@ -1226,7 +1226,8 @@ button {
   background: #ffffff;
   border-radius: var(--radius-lg);
   width: 100%;
-  max-width: 550px;
+  max-width: 520px;
+  max-height: calc(100vh - 2rem);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   display: flex;
@@ -1236,19 +1237,21 @@ button {
 .modal-content-lg {
   max-width: 95vw;
   height: 90vh;
+  max-height: 95vh;
 }
 
 .modal-header {
-  padding: 1rem 1.25rem;
+  padding: 0.85rem 1.25rem;
   background: #ffffff;
   border-bottom: 1px solid var(--border-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-shrink: 0;
 }
 
 .modal-header h3 {
-  font-size: 1.05rem;
+  font-size: 1rem;
   font-weight: 800;
   color: var(--primary);
 }
@@ -1266,8 +1269,9 @@ button {
 }
 
 .modal-body {
-  padding: 1.25rem;
+  padding: 1rem 1.25rem;
   overflow-y: auto;
+  flex: 1;
 }
 
 .preview-body {
