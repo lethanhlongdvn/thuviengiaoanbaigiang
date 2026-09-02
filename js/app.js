@@ -443,7 +443,7 @@ function renderHomeView(container) {
       </div>
       <h1 class="formal-hero-title">Thư Viện Bài Giảng & Kế Hoạch Bài Dạy Tiểu Học</h1>
       <p class="formal-hero-desc">
-        Hệ thống học liệu số cá nhân quản trị bởi <strong>Thầy Lê Thành Long</strong>. Mở khóa tải <strong>Hoàn Toàn Miễn Phí Tuần 1 đến Tuần 8</strong> cho tất cả giáo viên toàn quốc!
+        Hệ thống học liệu số giáo viên Tiểu học chuẩn chương trình GDPT 2018. Mở khóa tải <strong>Hoàn Toàn Miễn Phí Tuần 1 đến Tuần 8</strong> cho tất cả giáo viên toàn quốc!
       </p>
       <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
         <button class="btn btn-primary" onclick="navigateTo('pptx')" style="background: #ffffff; color: var(--primary); box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
