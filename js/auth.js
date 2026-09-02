@@ -85,48 +85,46 @@ var AuthService = {
 
     // 🟢 Mở khóa MIỄN PHÍ TỪ TUẦN 1 ĐẾN TUẦN 8 (Áp dụng cho cả KHBD và Bài giảng PPTX)
     var isFree = false;
+    var textToCheck = ((file.name || '') + ' ' + (file.folderPath || '') + ' ' + (file.path || '')).toUpperCase();
 
-    // 1. Kiểm tra thuộc tính week / weeks có sẵn
+    // 1. Phân tích số tuần từ tên file hoặc đường dẫn thư mục:
+    // Hỗ trợ dạng khoảng: (7-8), (9-10), (11-12), Tuần 7-8, Tuần 9-10...
+    var rangeMatch = textToCheck.match(/(?:TUẦN|TUAN|T)?\s*\(?\s*([0-9]+)\s*[-–—_]\s*([0-9]+)\s*\)?/);
+    if (rangeMatch && rangeMatch[1] && rangeMatch[2]) {
+      var startW = parseInt(rangeMatch[1], 10);
+      var endW = parseInt(rangeMatch[2], 10);
+      // Nếu có tuần nào nằm trong khoảng 1 đến 8 (ví dụ 7-8) -> Miễn phí; nếu từ 9 trở lên (ví dụ 9-10) -> Cần PIN
+      if ((startW >= 1 && startW <= 8) || (endW >= 1 && endW <= 8)) {
+        isFree = true;
+      } else {
+        isFree = false;
+      }
+      return isFree ? "free" : "pin";
+    }
+
+    // Khớp số tuần đơn: Tuần 8, Tuần 9, T8, T9, (8), (9)...
+    var singleMatch = textToCheck.match(/TUẦN\s*([0-9]+)/) || 
+                      textToCheck.match(/TUAN\s*([0-9]+)/) || 
+                      textToCheck.match(/TUAN([0-9]+)/) || 
+                      textToCheck.match(/\bT([0-9]+)\b/) ||
+                      textToCheck.match(/\(([0-9]+)\)/);
+    if (singleMatch && singleMatch[1]) {
+      var wNum = parseInt(singleMatch[1], 10);
+      if (wNum >= 1 && wNum <= 8) {
+        return "free";
+      } else {
+        return "pin";
+      }
+    }
+
+    // 2. Dự phòng: Kiểm tra thuộc tính file.week / file.weeks nếu tên file không chứa số tuần
     if (file.week && file.week >= 1 && file.week <= 8) {
       isFree = true;
     } else if (file.weeks && Array.isArray(file.weeks) && file.weeks.some(function(w) { return w >= 1 && w <= 8; })) {
       isFree = true;
-    } else {
-      // 2. Nhận diện theo tên file hoặc đường dẫn thư mục:
-      // Hỗ trợ: "Tuần 1", "Tuan 8", "TOÁN 1 (7-8)", "(9-10)", "T1-8", "T9", v.v.
-      var textToCheck = ((file.name || '') + ' ' + (file.folderPath || '') + ' ' + (file.path || '')).toUpperCase();
-      
-      // Khớp dạng khoảng số trong ngoặc đơn như (7-8), (9-10), (11-12) hoặc dạng Tuần 9-10
-      var rangeMatch = textToCheck.match(/(?:TUẦN|TUAN|T)?\s*\(?\s*([0-9]+)\s*[-–—_]\s*([0-9]+)\s*\)?/);
-      if (rangeMatch && rangeMatch[1] && rangeMatch[2]) {
-        var startW = parseInt(rangeMatch[1], 10);
-        var endW = parseInt(rangeMatch[2], 10);
-        // Nếu có tuần nào nằm trong khoảng 1 đến 8 thì là miễn phí
-        if ((startW >= 1 && startW <= 8) || (endW >= 1 && endW <= 8)) {
-          isFree = true;
-        }
-      } else {
-        // Khớp số tuần đơn: Tuần 8, Tuan 9, T8, Tuần 12...
-        var singleMatch = textToCheck.match(/TUẦN\s*([0-9]+)/) || 
-                           textToCheck.match(/TUAN\s*([0-9]+)/) || 
-                           textToCheck.match(/TUAN([0-9]+)/) || 
-                           textToCheck.match(/\bT([0-9]+)\b/) ||
-                           textToCheck.match(/\(([0-9]+)\)/);
-        if (singleMatch && singleMatch[1]) {
-          var wNum = parseInt(singleMatch[1], 10);
-          if (wNum >= 1 && wNum <= 8) {
-            isFree = true;
-          }
-        }
-      }
     }
 
-    if (isFree) {
-      return "free";
-    }
-
-    // Các tuần từ 9 đến 35: Yêu cầu mã PIN
-    return "pin";
+    return isFree ? "free" : "pin";
   },
 
   setFilePermission: async function(fileId, permission) {
