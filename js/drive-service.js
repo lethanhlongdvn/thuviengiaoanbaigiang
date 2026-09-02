@@ -6,6 +6,8 @@
 var DriveService = {
   currentFile: null,
   pendingFile: null,
+  isPresentationMode: false,
+  hideToolbarTimer: null,
 
   openViewer: function(item) {
     if (!item) return;
@@ -63,20 +65,18 @@ var DriveService = {
       };
     }
 
-    // Nút Trình chiếu toàn màn hình
+    // Nút Trình chiếu toàn màn hình: Mở thẳng trang trình chiếu độc lập
     if (fsBtn) {
       if (!canDl && isTooLargeForGooglePreview) {
         fsBtn.style.display = "none";
       } else {
         fsBtn.style.display = "inline-flex";
-        fsBtn.onclick = function() {
-          if (!document.fullscreenElement) {
-            bodyContainer.requestFullscreen().catch(function(err) {
-              window.open(item.previewUrl || ("https://drive.google.com/file/d/" + item.id + "/preview"), "_blank");
-            });
-          } else {
-            document.exitFullscreen();
-          }
+        fsBtn.innerHTML = '<i class="fa-solid fa-arrow-up-right-from-square"></i> Trình chiếu';
+        fsBtn.title = "Mở bài giảng sang tab mới để trình chiếu toàn màn hình";
+        fsBtn.onclick = function(e) {
+          e.preventDefault();
+          var embedUrl = item.previewUrl || ("https://drive.google.com/file/d/" + item.id + "/preview");
+          window.open(embedUrl, "_blank");
         };
       }
     }
@@ -107,7 +107,6 @@ var DriveService = {
     // ==========================================
 
     // TRƯỜNG HỢP 1: Tệp ĐANG BỊ KHÓA VÀ DUNG LƯỢNG LỚN (> 25MB)
-    // -> KHÔNG NẠP IFRAME CỦA GOOGLE ĐỂ TRÁNH LỘ NÚT TẢI XUỐNG CỦA GOOGLE!
     if (!canDl && isTooLargeForGooglePreview) {
       bodyContainer.innerHTML = `
         <div style="width: 100%; height: 100%; min-height: 420px; display: flex; flex-direction: column; align-items: center; justify-content: center; background: #0f172a; color: #ffffff; text-align: center; padding: 2rem; border-radius: 0 0 12px 12px;">
@@ -161,6 +160,8 @@ var DriveService = {
         <!-- Lớp khiên bảo vệ góc trên bên phải ngăn chặn nút popout [↗] mở ngoài của Google -->
         <div class="iframe-corner-shield" id="iframeCornerShield" onclick="handleIframeCornerClick()" title="Bảo vệ bản quyền"></div>
         <iframe id="preview-iframe" src="" sandbox="allow-scripts allow-same-origin allow-forms" allow="autoplay; fullscreen" style="opacity: 0; width: 100%; height: 100%; border: none;"></iframe>
+
+        <iframe id="preview-iframe" src="" sandbox="allow-scripts allow-same-origin allow-forms" allow="autoplay; fullscreen" style="opacity: 0; width: 100%; height: 100%; border: none;"></iframe>
       `;
 
       var iframe = document.getElementById("preview-iframe");
@@ -178,7 +179,17 @@ var DriveService = {
     document.body.style.overflow = "hidden";
   },
 
+  togglePresentation: function(item) {
+    var target = item || this.currentFile;
+    if (!target) return;
+    var embedUrl = target.previewUrl || ("https://drive.google.com/file/d/" + target.id + "/preview");
+    window.open(embedUrl, "_blank");
+  },
+
   closeViewer: function() {
+    if (this.isPresentationMode) {
+      this.exitPresentationMode();
+    }
     var modal = document.getElementById("preview-modal");
     var bodyContainer = document.getElementById("preview-body-container");
     if (modal) modal.classList.remove("active", "show");
@@ -225,6 +236,20 @@ var DriveService = {
   }
 };
 
+// Đồng bộ trạng thái khi người dùng bấm phím ESC của trình duyệt để thoát Fullscreen
+if (typeof document !== "undefined") {
+  document.addEventListener("fullscreenchange", function() {
+    if (!document.fullscreenElement && DriveService.isPresentationMode) {
+      DriveService.exitPresentationMode();
+    }
+  });
+  document.addEventListener("webkitfullscreenchange", function() {
+    if (!document.webkitFullscreenElement && DriveService.isPresentationMode) {
+      DriveService.exitPresentationMode();
+    }
+  });
+}
+
 function handleIframeCornerClick() {
   var item = DriveService.currentFile;
   if (!item) return;
@@ -246,6 +271,11 @@ function openPinModalForPending() {
   openPinModal();
 }
 
-window.handleIframeCornerClick = handleIframeCornerClick;
-window.openPinModalForPending = openPinModalForPending;
-window.DriveService = DriveService;
+if (typeof window !== "undefined") {
+  window.handleIframeCornerClick = handleIframeCornerClick;
+  window.openPinModalForPending = openPinModalForPending;
+  window.DriveService = DriveService;
+}
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = { DriveService };
+}
