@@ -224,7 +224,35 @@ function getFolderFilesRecursive(folderId, defaultType, permMap, isAdmin) {
       while (files.hasNext()) {
         const file = files.next();
         const fId = file.getId();
-        const perm = permMap[fId] || (file.getName().includes("1") ? "free" : "pin");
+        let perm = permMap[fId];
+        if (!perm) {
+          // Mặc định: Miễn phí Tuần 1-8 (cho cả KHBD và PPTX), từ tuần 9-35 yêu cầu PIN
+          const fTextUpper = (file.getName() + " " + pathName).toUpperCase();
+          const rangeMatch = fTextUpper.match(/(?:TUẦN|TUAN|T)?\s*\(?\s*([0-9]+)\s*[-–—_]\s*([0-9]+)\s*\)?/);
+          let isFreeWeek = false;
+
+          if (rangeMatch && rangeMatch[1] && rangeMatch[2]) {
+            const startW = parseInt(rangeMatch[1], 10);
+            const endW = parseInt(rangeMatch[2], 10);
+            if ((startW >= 1 && startW <= 8) || (endW >= 1 && endW <= 8)) {
+              isFreeWeek = true;
+            }
+          } else {
+            const singleMatch = fTextUpper.match(/TUẦN\s*([0-9]+)/) || 
+                                fTextUpper.match(/TUAN\s*([0-9]+)/) || 
+                                fTextUpper.match(/TUAN([0-9]+)/) || 
+                                fTextUpper.match(/\bT([0-9]+)\b/) ||
+                                fTextUpper.match(/\(([0-9]+)\)/);
+            if (singleMatch && singleMatch[1]) {
+              const wNum = parseInt(singleMatch[1], 10);
+              if (wNum >= 1 && wNum <= 8) {
+                isFreeWeek = true;
+              }
+            }
+          }
+
+          perm = isFreeWeek ? "free" : "pin";
+        }
 
         // BẢO MẬT: Nếu tệp bị Ẩn ("hidden") và người xem không phải là Admin -> BỎ QUA HOÀN TOÀN
         if (perm === "hidden" && !isAdmin) {
