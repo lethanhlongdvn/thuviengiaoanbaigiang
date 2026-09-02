@@ -1259,40 +1259,59 @@ function renderSettingsView(container) {
           </div>
         ` : ''}
 
-        <!-- Danh Sách Mã PIN -->
+        <!-- Danh Sách Mã PIN & Thành Viên Đang Kích Hoạt -->
         <div style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-sm); overflow-x: auto;">
           <table class="formal-matrix-table" style="margin: 0;">
             <thead>
               <tr style="background: #f1f5f9;">
-                <th style="width: 25%;">Mã PIN</th>
-                <th style="width: 20%;">Phạm Vi Tải</th>
-                <th style="width: 30%;">Ghi Chú</th>
-                <th style="width: 25%; text-align: center;">Thao Tác</th>
+                <th style="width: 20%;">Mã PIN / SĐT</th>
+                <th style="width: 15%;">Phạm Vi</th>
+                <th style="width: 15%;">Thiết Bị</th>
+                <th style="width: 20%;">Thời Hạn</th>
+                <th style="width: 30%; text-align: center;">Thao Tác</th>
               </tr>
             </thead>
             <tbody>
               ${pins.map(function(p) {
                 var gradeLabel = p.grade === 'all' ? 'Tất cả 5 khối' : ('Khối ' + p.grade);
+                var devCount = (p.devices && Array.isArray(p.devices)) ? p.devices.length : 0;
+                var devBadge = devCount >= 2 ? '<span style="color:#dc2626; font-weight:700;">2/2 (Đầy)</span>' : (`<span style="color:#16a34a; font-weight:700;">${devCount}/2</span>`);
+                
+                var now = Date.now();
+                var isExpired = p.expiresAt && now > p.expiresAt;
+                var daysLeft = p.expiresAt ? Math.max(0, Math.ceil((p.expiresAt - now)/(1000*60*60*24))) : 7;
+                var expBadge = isExpired ? '<span style="color:#dc2626; font-size:0.75rem; font-weight:700;">Đã hết hạn</span>' : (`<span style="color:#0284c7; font-size:0.75rem;">Còn ${daysLeft} ngày</span>`);
+
                 return `
                   <tr>
                     <td>
                       <strong style="color: #1e3a8a; font-family: monospace; font-size: 0.95rem; background: #e0f2fe; padding: 0.2rem 0.5rem; border-radius: 4px;">
                         ${p.code}
                       </strong>
+                      <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 2px;">${p.desc || ''}</div>
                     </td>
                     <td>
                       <span class="access-tag-free">${gradeLabel}</span>
                     </td>
-                    <td style="font-size: 0.8rem; color: var(--text-muted);">
-                      ${p.desc || 'Mã cấp bởi Thầy Long'}
+                    <td>
+                      ${devBadge}
+                    </td>
+                    <td>
+                      ${expBadge}
                     </td>
                     <td style="text-align: center;">
-                      <div style="display: flex; gap: 0.4rem; justify-content: center;">
-                        <button class="btn btn-sm btn-outline" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;" onclick="copyPinShareMessage('${p.code}', '${p.grade}', '${p.desc || ''}')" title="Sao chép tin nhắn gửi qua Zalo / Facebook">
-                          <i class="fa-solid fa-share-nodes" style="color: #0284c7;"></i> Gửi Zalo
+                      <div style="display: flex; gap: 0.35rem; justify-content: center; flex-wrap: wrap;">
+                        <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.2rem 0.4rem;" onclick="copyPinShareMessage('${p.code}', '${p.grade}', '${p.desc || ''}')" title="Sao chép tin nhắn gửi qua Zalo / Facebook">
+                          <i class="fa-solid fa-share-nodes" style="color: #0284c7;"></i> Zalo
                         </button>
                         ${isAdmin ? `
-                          <button class="btn btn-sm btn-outline" style="font-size: 0.75rem; padding: 0.25rem 0.5rem; color: #dc2626; border-color: #fca5a5;" onclick="AuthService.deletePin('${p.code}')" title="Thu hồi mã PIN này">
+                          <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.2rem 0.4rem; color: #d97706; border-color: #fde68a;" onclick="resetPinDevicesPrompt('${p.code}')" title="Reset để cho phép đổi sang 2 máy tính mới">
+                            <i class="fa-solid fa-rotate-left"></i> Reset Máy
+                          </button>
+                          <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.2rem 0.4rem; color: #16a34a; border-color: #bbf7d0;" onclick="extendPinDaysPrompt('${p.code}')" title="Gia hạn thêm 7 ngày">
+                            <i class="fa-solid fa-calendar-plus"></i> +7 Ngày
+                          </button>
+                          <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.2rem 0.4rem; color: #dc2626; border-color: #fca5a5;" onclick="AuthService.deletePin('${p.code}')" title="Thu hồi mã PIN này">
                             <i class="fa-solid fa-trash"></i>
                           </button>
                         ` : ''}
@@ -1304,6 +1323,35 @@ function renderSettingsView(container) {
             </tbody>
           </table>
         </div>
+      </div>
+
+      <!-- Khung Đổi Mật Khẩu Admin -->
+      <div class="ai-ctrl-box">
+        <h3 style="font-size: 1.05rem; font-weight: 800; margin-bottom: 0.65rem; color: var(--primary);">
+          <i class="fa-solid fa-shield-halved" style="color: #dc2626;"></i> Đổi Mật Khẩu Quản Trị Viên (Admin)
+        </h3>
+        <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Đổi mật khẩu tài khoản Thầy Lê Thành Long (đồng bộ lưu trữ an toàn trên máy chủ Google)
+        </p>
+
+        <div class="form-group">
+          <label>Mật khẩu hiện tại:</label>
+          <input type="password" id="adminOldPassInput" class="form-control" placeholder="Nhập mật khẩu hiện tại...">
+        </div>
+
+        <div class="form-group">
+          <label>Mật khẩu mới:</label>
+          <input type="password" id="adminNewPassInput" class="form-control" placeholder="Nhập mật khẩu mới (ít nhất 4 ký tự)...">
+        </div>
+
+        <div class="form-group">
+          <label>Xác nhận mật khẩu mới:</label>
+          <input type="password" id="adminConfirmPassInput" class="form-control" placeholder="Nhập lại mật khẩu mới...">
+        </div>
+
+        <button class="btn btn-primary" id="btn-submit-change-pass" style="background: #dc2626; border-color: #dc2626;" onclick="handleAdminChangePassword()">
+          <i class="fa-solid fa-key"></i> Đổi Mật Khẩu
+        </button>
       </div>
 
       <div class="ai-ctrl-box">
@@ -1325,6 +1373,47 @@ function renderSettingsView(container) {
       </div>
     </div>
   `;
+}
+
+async function handleAdminChangePassword() {
+  var oldPass = (document.getElementById("adminOldPassInput")?.value || "").trim();
+  var newPass = (document.getElementById("adminNewPassInput")?.value || "").trim();
+  var confirmPass = (document.getElementById("adminConfirmPassInput")?.value || "").trim();
+  var btn = document.getElementById("btn-submit-change-pass");
+
+  if (!oldPass) {
+    showToast("Vui lòng nhập mật khẩu hiện tại!", "error");
+    return;
+  }
+  if (!newPass || newPass.length < 4) {
+    showToast("Mật khẩu mới phải có ít nhất 4 ký tự!", "error");
+    return;
+  }
+  if (newPass !== confirmPass) {
+    showToast("Mật khẩu xác nhận không khớp!", "error");
+    return;
+  }
+
+  if (btn) {
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang đổi mật khẩu...';
+  }
+
+  var res = await AuthService.changeAdminPassword(oldPass, newPass);
+
+  if (btn) {
+    btn.disabled = false;
+    btn.innerHTML = '<i class="fa-solid fa-key"></i> Đổi Mật Khẩu';
+  }
+
+  if (res.success) {
+    showToast(res.msg, "success");
+    document.getElementById("adminOldPassInput").value = "";
+    document.getElementById("adminNewPassInput").value = "";
+    document.getElementById("adminConfirmPassInput").value = "";
+  } else {
+    showToast(res.msg || "Không thể đổi mật khẩu!", "error");
+  }
 }
 
 function addNewPinCode() {
@@ -1349,6 +1438,54 @@ function addNewPinCode() {
     showToast("Đã tạo và cấp mã PIN " + code + " thành công!", "success");
   } else {
     showToast(res.msg || "Không thể tạo mã PIN", "error");
+  }
+}
+
+async function resetPinDevicesPrompt(code) {
+  if (!confirm(`Bạn có chắc chắn muốn RESET thiết bị cho mã ${code}?\nKhách sẽ có thể đăng nhập trên 2 máy tính mới.`)) return;
+
+  var token = AuthService.getAdminToken();
+  try {
+    var url = CONFIG.API_URL + "?action=reset_pin_devices&code=" + encodeURIComponent(code) + "&adminToken=" + encodeURIComponent(token);
+    var res = await fetch(url);
+    var json = await res.json();
+    if (json && json.success) {
+      showToast(json.message || "Đã reset thiết bị thành công!", "success");
+      // Cập nhật local
+      var pins = AuthService.getValidPins();
+      var item = pins.find(p => p.code === code);
+      if (item) { item.devices = []; item.deviceDetails = []; AuthService.savePins(pins); }
+      renderCurrentView();
+    } else {
+      showToast(json.error || "Không thể reset thiết bị", "error");
+    }
+  } catch(e) {
+    showToast("Lỗi kết nối máy chủ Google!", "error");
+  }
+}
+
+async function extendPinDaysPrompt(code) {
+  var daysStr = prompt(`Nhập số ngày muốn gia hạn thêm cho mã ${code}:`, "7");
+  if (!daysStr) return;
+  var days = parseInt(daysStr, 10);
+  if (isNaN(days) || days <= 0) return;
+
+  var token = AuthService.getAdminToken();
+  try {
+    var url = CONFIG.API_URL + "?action=extend_pin_days&code=" + encodeURIComponent(code) + "&days=" + days + "&adminToken=" + encodeURIComponent(token);
+    var res = await fetch(url);
+    var json = await res.json();
+    if (json && json.success) {
+      showToast(json.message || `Đã gia hạn thêm ${days} ngày thành công!`, "success");
+      var pins = AuthService.getValidPins();
+      var item = pins.find(p => p.code === code);
+      if (item && json.expiresAt) { item.expiresAt = json.expiresAt; AuthService.savePins(pins); }
+      renderCurrentView();
+    } else {
+      showToast(json.error || "Không thể gia hạn", "error");
+    }
+  } catch(e) {
+    showToast("Lỗi kết nối máy chủ Google!", "error");
   }
 }
 

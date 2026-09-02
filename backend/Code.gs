@@ -110,6 +110,18 @@ function doGet(e) {
         result = handleVerifyPin(params);
         break;
 
+      case "check_payment_status":
+        result = handleCheckPaymentStatus(params);
+        break;
+
+      case "reset_pin_devices":
+        result = handleResetPinDevices(params);
+        break;
+
+      case "extend_pin_days":
+        result = handleExtendPinDays(params);
+        break;
+
       case "set_file_permission":
         result = handleSetFilePermission(params);
         break;
@@ -294,11 +306,30 @@ function handleVerifyDownload(params) {
     };
   }
 
-  // 3. Nếu tệp yêu cầu Mã PIN: Kiểm tra mã PIN trên máy chủ
+  // 3. Nếu tệp yêu cầu Mã PIN: Kiểm tra mã PIN trên máy chủ kèm thiết bị & thời hạn 7 ngày
   const pins = getPinsVault();
   const matched = pins.find(p => p.code.toUpperCase() === pin);
 
   if (matched) {
+    const now = new Date().getTime();
+    if (matched.expiresAt && now > matched.expiresAt) {
+      return {
+        success: false,
+        error: "Mã PIN của bạn đã hết hạn (Thời hạn 7 ngày). Vui lòng nạp gia hạn để tiếp tục tải!"
+      };
+    }
+
+    // Kiểm tra thiết bị nếu có truyền deviceId
+    const deviceId = params.deviceId || "";
+    if (deviceId && matched.devices && Array.isArray(matched.devices)) {
+      if (!matched.devices.includes(deviceId) && matched.devices.length >= 2) {
+        return {
+          success: false,
+          error: "Mã PIN này đã đạt giới hạn tối đa 2 thiết bị máy tính! Vui lòng dùng trên máy đã đăng ký."
+        };
+      }
+    }
+
     return {
       success: true,
       downloadUrl: `https://drive.google.com/uc?export=download&id=${fileId}`,
@@ -313,24 +344,140 @@ function handleVerifyDownload(params) {
 }
 
 /**
- * Kiểm tra mã PIN nhanh
+ * Kiểm tra mã PIN nhanh (kèm kiểm tra thời hạn 7 ngày & tối đa 2 thiết bị)
  */
 function handleVerifyPin(params) {
   const pin = (params.pin || "").trim().toUpperCase();
-  const pins = getPinsVault();
-  const matched = pins.find(p => p.code.toUpperCase() === pin);
+  const deviceId = (params.deviceId || "").trim();
+  const deviceName = (params.deviceName || "Máy tính").trim();
 
-  if (matched) {
+  const pins = getPinsVault();
+  const index = pins.findIndex(p => p.code.toUpperCase() === pin);
+
+  if (index >= 0) {
+    const matched = pins[index];
+    const now = new Date().getTime();
+
+    // 1. Kiểm tra thời hạn 7 ngày
+    if (matched.expiresAt && now > matched.expiresAt) {
+      return {
+        success: false,
+        error: "Mã PIN / Số điện thoại này đã hết hạn 7 ngày. Vui lòng quét mã nạp để gia hạn!"
+      };
+    }
+
+    // 2. Kiểm tra giới hạn 2 thiết bị
+    if (!matched.devices) matched.devices = [];
+    if (!matched.deviceDetails) matched.deviceDetails = [];
+
+    if (deviceId) {
+      if (!matched.devices.includes(deviceId)) {
+        if (matched.devices.length >= 2) {
+          return {
+            success: false,
+            error: "Mã PIN này đã đăng nhập đủ 2 thiết bị máy tính! Không thể đăng nhập thêm máy thứ 3."
+          };
+        }
+        // Thêm thiết bị mới
+        matched.devices.push(deviceId);
+        matched.deviceDetails.push({
+          id: deviceId,
+          name: deviceName,
+          addedAt: Utilities.formatDate(new Date(), "GMT+7", "dd/MM/yyyy HH:mm")
+        });
+        pins[index] = matched;
+        savePinsVault(pins);
+      }
+    }
+
+    const remainingDays = matched.expiresAt ? Math.max(0, Math.ceil((matched.expiresAt - now) / (1000 * 60 * 60 * 24))) : 7;
+
     return {
       success: true,
-      grade: matched.grade,
-      desc: matched.desc
+      grade: matched.grade || "all",
+      desc: matched.desc,
+      phone: matched.phone || pin,
+      expiresAt: matched.expiresAt,
+      remainingDays: remainingDays,
+      deviceCount: matched.devices ? matched.devices.length : 1,
+      maxDevices: 2
     };
   }
+
   return {
     success: false,
-    error: "Mã PIN không đúng!"
+    error: "Mã PIN hoặc Số điện thoại không tồn tại trong hệ thống!"
   };
+}
+
+/**
+ * Kiểm tra trạng thái nạp tiền tự động (Polling từ Web)
+ */
+function handleCheckPaymentStatus(params) {
+  const phone = (params.phone || "").trim();
+  const code = (params.code || "").trim().toUpperCase();
+
+  const pins = getPinsVault();
+  const matched = pins.find(p => (phone && p.phone === phone) || (code && p.code === code));
+
+  if (matched) {
+    const now = new Date().getTime();
+    if (!matched.expiresAt || now <= matched.expiresAt) {
+      return {
+        success: true,
+        paid: true,
+        pin: matched.code,
+        grade: matched.grade,
+        expiresAt: matched.expiresAt
+      };
+    }
+  }
+
+  return { success: true, paid: false };
+}
+
+/**
+ * Admin Reset danh sách thiết bị cho 1 mã PIN
+ */
+function handleResetPinDevices(params) {
+  const token = params.adminToken;
+  if (!verifyAdminToken(token) && params.password !== getAdminPassword()) {
+    return { success: false, error: "Từ chối truy cập!" };
+  }
+
+  const code = (params.code || "").trim().toUpperCase();
+  const pins = getPinsVault();
+  const item = pins.find(p => p.code === code);
+  if (item) {
+    item.devices = [];
+    item.deviceDetails = [];
+    savePinsVault(pins);
+    return { success: true, message: `Đã reset thiết bị cho mã ${code} thành công!` };
+  }
+  return { success: false, error: "Không tìm thấy mã PIN!" };
+}
+
+/**
+ * Admin Gia hạn thêm ngày cho 1 mã PIN
+ */
+function handleExtendPinDays(params) {
+  const token = params.adminToken;
+  if (!verifyAdminToken(token) && params.password !== getAdminPassword()) {
+    return { success: false, error: "Từ chối truy cập!" };
+  }
+
+  const code = (params.code || "").trim().toUpperCase();
+  const days = parseInt(params.days || 7, 10);
+  const pins = getPinsVault();
+  const item = pins.find(p => p.code === code);
+  if (item) {
+    const now = new Date().getTime();
+    const baseTime = (item.expiresAt && item.expiresAt > now) ? item.expiresAt : now;
+    item.expiresAt = baseTime + (days * 24 * 60 * 60 * 1000);
+    savePinsVault(pins);
+    return { success: true, message: `Đã gia hạn thêm ${days} ngày cho mã ${code} thành công!`, expiresAt: item.expiresAt };
+  }
+  return { success: false, error: "Không tìm thấy mã PIN!" };
 }
 
 /**

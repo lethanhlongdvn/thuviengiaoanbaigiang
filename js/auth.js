@@ -164,25 +164,54 @@ var AuthService = {
     return true;
   },
 
-  verifyPin: async function(pinCode) {
-    if (!pinCode) return { success: false, msg: "Vui lòng nhập mã PIN" };
-    var cleanPin = pinCode.trim().toUpperCase();
+  getDeviceId: function() {
+    var dId = localStorage.getItem("tvth_device_id");
+    if (!dId) {
+      dId = "PC_" + Math.random().toString(36).substring(2, 10).toUpperCase() + "_" + Date.now().toString(36).toUpperCase();
+      localStorage.setItem("tvth_device_id", dId);
+    }
+    return dId;
+  },
 
-    // 1. Thử gửi xác thực lên Google Apps Script Backend
+  getDeviceName: function() {
+    var ua = navigator.userAgent;
+    var name = "Máy tính";
+    if (ua.includes("Windows")) name = "Máy tính Windows";
+    else if (ua.includes("Mac")) name = "Máy Mac";
+    else if (ua.includes("Linux")) name = "Máy tính Linux";
+    else if (ua.includes("Android")) name = "Điện thoại Android";
+    else if (ua.includes("iPhone") || ua.includes("iPad")) name = "Thiết bị iOS";
+    return name;
+  },
+
+  verifyPin: async function(pinCode) {
+    if (!pinCode) return { success: false, msg: "Vui lòng nhập số điện thoại hoặc mã PIN" };
+    var cleanPin = pinCode.trim().toUpperCase();
+    var deviceId = this.getDeviceId();
+    var deviceName = this.getDeviceName();
+
+    // 1. Thử gửi xác thực lên Google Apps Script Backend kèm Device ID & Device Name
     try {
-      var res = await fetch(CONFIG.API_URL + "?action=verify_pin&pin=" + encodeURIComponent(cleanPin));
+      var url = CONFIG.API_URL + "?action=verify_pin&pin=" + encodeURIComponent(cleanPin) + "&deviceId=" + encodeURIComponent(deviceId) + "&deviceName=" + encodeURIComponent(deviceName);
+      var res = await fetch(url);
       var json = await res.json();
       if (json && json.success) {
         var serverSession = {
           role: "pin_user",
           unlockedGrade: json.grade || "all",
           pinCode: cleanPin,
-          displayName: json.grade === "all" ? "Giáo viên (Mở khóa toàn bộ)" : ("Giáo viên (Khối " + json.grade + ")")
+          phone: json.phone || cleanPin,
+          expiresAt: json.expiresAt,
+          remainingDays: json.remainingDays,
+          deviceCount: json.deviceCount || 1,
+          displayName: json.grade === "all" ? "Giáo viên (Toàn bộ 5 khối)" : ("Giáo viên (Khối " + json.grade + ")")
         };
         sessionStorage.setItem("tvth_user_session", JSON.stringify(serverSession));
         localStorage.setItem("tvth_user_session", JSON.stringify(serverSession));
         this.updateAuthUI();
         return { success: true, session: serverSession };
+      } else {
+        return { success: false, msg: json.error || "Mã PIN không đúng hoặc đã hết hạn!" };
       }
     } catch(err) {
       console.warn("Backend offline or unreachable:", err);
@@ -215,6 +244,34 @@ var AuthService = {
     }
 
     return { success: false, msg: "Mật khẩu Quản trị không chính xác!" };
+  },
+
+  changeAdminPassword: async function(oldPassword, newPassword) {
+    if (!oldPassword || !newPassword) {
+      return { success: false, msg: "Vui lòng nhập đầy đủ mật khẩu cũ và mật khẩu mới!" };
+    }
+    if (newPassword.length < 4) {
+      return { success: false, msg: "Mật khẩu mới phải có ít nhất 4 ký tự!" };
+    }
+
+    try {
+      var token = this.getAdminToken();
+      var url = CONFIG.API_URL + "?action=change_password&oldPassword=" + encodeURIComponent(oldPassword) + "&newPassword=" + encodeURIComponent(newPassword) + "&adminToken=" + encodeURIComponent(token);
+      var res = await fetch(url);
+      var json = await res.json();
+      if (json && json.success) {
+        // Cập nhật token và lưu trạng thái
+        if (json.token) {
+          sessionStorage.setItem("tvth_admin_token", json.token);
+        }
+        return { success: true, msg: json.message || "Đã đổi mật khẩu Admin thành công!" };
+      } else {
+        return { success: false, msg: json.error || "Mật khẩu cũ không chính xác!" };
+      }
+    } catch(err) {
+      console.warn("Change password error:", err);
+      return { success: false, msg: "Không thể kết nối máy chủ Google. Vui lòng kiểm tra lại mạng!" };
+    }
   },
 
   logout: function() {
@@ -265,13 +322,20 @@ var AuthService = {
         </button>
       `;
     } else if (session.role === "pin_user") {
+      var expiryInfo = "";
+      if (session.remainingDays !== undefined) {
+        expiryInfo = `<div style="font-size: 0.72rem; color: #fde047; margin-top: 0.25rem;">
+          <i class="fa-regular fa-clock"></i> Còn ${session.remainingDays} ngày • Thiết bị: ${session.deviceCount || 1}/2
+        </div>`;
+      }
       roleBox.innerHTML = `
         <div class="user-role-badge role-pin">
           <i class="fa-solid fa-key" style="color: #facc15;"></i>
           <span>${session.displayName}</span>
         </div>
+        ${expiryInfo}
         <button class="btn btn-sm btn-outline" style="width: 100%; margin-top: 0.4rem;" onclick="AuthService.logout()">
-          <i class="fa-solid fa-right-from-bracket"></i> Đổi mã PIN
+          <i class="fa-solid fa-right-from-bracket"></i> Đổi mã / Đăng xuất
         </button>
       `;
     } else {
@@ -281,11 +345,16 @@ var AuthService = {
           <span>Khách • Xem trước miễn phí</span>
         </div>
         <div style="display: flex; gap: 0.35rem; margin-top: 0.45rem;">
-          <button class="btn btn-sm btn-primary" style="flex: 1; padding: 0.35rem 0.2rem; font-size: 0.75rem;" onclick="openPinModal()">
+          <button class="btn btn-sm btn-primary" style="flex: 1; padding: 0.35rem 0.2rem; font-size: 0.75rem; background: #ea580c; border-color: #ea580c;" onclick="openPaymentModal()">
+            <i class="fa-solid fa-qrcode"></i> Nạp / Mở Khóa
+          </button>
+          <button class="btn btn-sm btn-outline" style="flex: 1; padding: 0.35rem 0.2rem; font-size: 0.75rem;" onclick="openPinModal()">
             <i class="fa-solid fa-key"></i> Nhập PIN
           </button>
-          <button class="btn btn-sm btn-outline" style="flex: 1; padding: 0.35rem 0.2rem; font-size: 0.75rem;" onclick="openAdminLoginModal()">
-            <i class="fa-solid fa-lock"></i> Admin
+        </div>
+        <div style="margin-top: 0.35rem;">
+          <button class="btn btn-sm btn-outline" style="width: 100%; padding: 0.25rem 0.2rem; font-size: 0.72rem; color: #94a3b8; border-color: rgba(255,255,255,0.15);" onclick="openAdminLoginModal()">
+            <i class="fa-solid fa-lock"></i> Đăng nhập Admin
           </button>
         </div>
       `;
@@ -377,6 +446,135 @@ async function submitAdminLogin() {
     if (err) { err.textContent = res.msg; err.style.display = "block"; }
   }
 }
+
+var paymentPollInterval = null;
+
+function openPaymentModal() {
+  var modal = document.getElementById("payment-modal");
+  if (modal) {
+    modal.classList.add("active", "show");
+    backToPaymentStep1();
+    var input = document.getElementById("pay-phone-input");
+    if (input) { input.focus(); }
+  }
+}
+
+function closePaymentModal() {
+  var modal = document.getElementById("payment-modal");
+  if (modal) modal.classList.remove("active", "show");
+  if (paymentPollInterval) {
+    clearInterval(paymentPollInterval);
+    paymentPollInterval = null;
+  }
+}
+
+function backToPaymentStep1() {
+  var step1 = document.getElementById("payment-step-1");
+  var step2 = document.getElementById("payment-step-2");
+  if (step1) step1.style.display = "block";
+  if (step2) step2.style.display = "none";
+  if (paymentPollInterval) {
+    clearInterval(paymentPollInterval);
+    paymentPollInterval = null;
+  }
+}
+
+function updatePaymentPackageUI() {
+  var pkg = document.querySelector('input[name="pay-package"]:checked')?.value || "SINGLE";
+  var picker = document.getElementById("single-grade-picker");
+  if (picker) {
+    picker.style.display = pkg === "SINGLE" ? "block" : "none";
+  }
+}
+
+function generateQrCodeStep() {
+  var phone = (document.getElementById("pay-phone-input")?.value || "").trim().replace(/\D/g, "");
+  if (!phone || phone.length < 9) {
+    showToast("Vui lòng nhập đúng Số Điện Thoại / Zalo để làm Mã PIN!", "error");
+    return;
+  }
+
+  var pkg = document.querySelector('input[name="pay-package"]:checked')?.value || "SINGLE";
+  var grade = document.getElementById("pay-grade-select")?.value || "5";
+  var amount = pkg === "SINGLE" ? (CONFIG.PAYMENT?.PRICING?.SINGLE_GRADE || 100000) : (CONFIG.PAYMENT?.PRICING?.ALL_GRADES || 350000);
+  var targetGrade = pkg === "SINGLE" ? grade : "all";
+
+  // Cú pháp chuyển khoản ngắn gọn chuẩn VietQR: TV [SĐT] K[Lớp]
+  var memo = "TV " + phone + (pkg === "SINGLE" ? (" K" + grade) : " ALL");
+
+  var bankId = CONFIG.PAYMENT?.BANK_ID || "970405";
+  var accountNo = CONFIG.PAYMENT?.ACCOUNT_NO || "7411215029816";
+  var accountName = encodeURIComponent(CONFIG.PAYMENT?.ACCOUNT_NAME || "LE THANH LONG");
+
+  // Link ảnh VietQR chuẩn Ngân hàng Việt Nam (tự động render QR kèm số tiền và nội dung)
+  var qrUrl = `https://img.vietqr.io/image/${bankId}-${accountNo}-compact2.png?amount=${amount}&addInfo=${encodeURIComponent(memo)}&accountName=${accountName}`;
+
+  var img = document.getElementById("vietqr-image");
+  if (img) img.src = qrUrl;
+
+  var amtText = document.getElementById("qr-amount-text");
+  if (amtText) amtText.textContent = amount.toLocaleString("vi-VN") + "đ";
+
+  var memoText = document.getElementById("qr-memo-text");
+  if (memoText) memoText.textContent = memo;
+
+  var zaloLink = document.getElementById("btn-zalo-confirm");
+  if (zaloLink) {
+    var zaloPhone = CONFIG.ZALO_PHONE || "0931049998";
+    var zaloMsg = `Chào Thầy Long, em vừa chuyển khoản ${amount.toLocaleString('vi-VN')}đ gói ${pkg === 'SINGLE' ? ('Khối ' + grade) : '5 Khối'} qua SĐT ${phone}. Nội dung: ${memo}`;
+    zaloLink.href = `https://zalo.me/${zaloPhone}?text=${encodeURIComponent(zaloMsg)}`;
+  }
+
+  // Chuyển sang Bước 2
+  document.getElementById("payment-step-1").style.display = "none";
+  document.getElementById("payment-step-2").style.display = "block";
+
+  // Bắt đầu lắng nghe thanh toán tự động (Polling mỗi 3.5 giây)
+  startPaymentPolling(phone, targetGrade, memo);
+}
+
+function startPaymentPolling(phone, grade, memo) {
+  if (paymentPollInterval) clearInterval(paymentPollInterval);
+
+  var attempts = 0;
+  paymentPollInterval = setInterval(async function() {
+    attempts++;
+    if (attempts > 100) { // Quá 5 phút
+      clearInterval(paymentPollInterval);
+      return;
+    }
+
+    try {
+      var url = CONFIG.API_URL + "?action=check_payment_status&phone=" + encodeURIComponent(phone) + "&code=" + encodeURIComponent(phone);
+      var res = await fetch(url);
+      var json = await res.json();
+      if (json && json.paid) {
+        clearInterval(paymentPollInterval);
+        paymentPollInterval = null;
+
+        // Tự động xác thực mở khóa luôn trên máy
+        await AuthService.verifyPin(phone);
+
+        closePaymentModal();
+        showToast("🎉 Chúc mừng bạn! Đã nhận thanh toán thành công. Đã mở khóa tải tài liệu trong 7 ngày!", "success");
+
+        if (typeof refreshCurrentView === "function") refreshCurrentView();
+
+        if (DriveService && DriveService.pendingFile) {
+          var target = DriveService.pendingFile;
+          DriveService.pendingFile = null;
+          setTimeout(function() { DriveService.downloadFile(target); }, 400);
+        }
+      }
+    } catch(e) {}
+  }, 3500);
+}
+
+window.openPaymentModal = openPaymentModal;
+window.closePaymentModal = closePaymentModal;
+window.backToPaymentStep1 = backToPaymentStep1;
+window.updatePaymentPackageUI = updatePaymentPackageUI;
+window.generateQrCodeStep = generateQrCodeStep;
 
 window.openPinModal = openPinModal;
 window.closePinModal = closePinModal;

@@ -13,7 +13,24 @@ var CONFIG = {
   // 3. Tên Thư viện hiển thị
   APP_NAME: "THƯ VIỆN BÀI GIẢNG & KHBD TIỂU HỌC",
   ADMIN_NAME: "Lê Thành Long",
-  CURRICULUM: "Chương trình Giáo dục Phổ thông"
+  CURRICULUM: "Chương trình Giáo dục Phổ thông",
+
+  // 4. Cấu hình Thanh toán & Mở khóa (VietQR Agribank)
+  PAYMENT: {
+    BANK_ID: "970405", // Agribank BIN
+    BANK_NAME: "Agribank",
+    ACCOUNT_NO: "7411215029816",
+    ACCOUNT_NAME: "LE THANH LONG",
+    PRICING: {
+      SINGLE_GRADE: 100000, // 100k / khối / tuần
+      ALL_GRADES: 350000    // 350k / 5 khối / tuần
+    },
+    DURATION_DAYS: 7, // Giới hạn 7 ngày
+    MAX_DEVICES: 2    // Tối đa 2 thiết bị
+  },
+
+  // 5. Hotline / Zalo Hỗ trợ trực tiếp
+  ZALO_PHONE: "0931049998"
 };
 
 window.CONFIG = CONFIG;
