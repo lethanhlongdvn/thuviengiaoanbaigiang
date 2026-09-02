@@ -58,7 +58,7 @@
 
       <!-- Nút AI nhanh & Menu Toggle Mobile -->
       <div class="header-actions-box">
-        <button class="btn btn-ai-header" onclick="navigateTo('ai-exam')">
+        <button class="btn btn-ai-header" id="btn-header-ai" onclick="navigateTo('ai-exam')" style="display: none;">
           <i class="fa-solid fa-wand-magic-sparkles"></i>
           <span>Trợ Lý AI Ra Đề</span>
         </button>
@@ -91,7 +91,7 @@
         <div id="sidebar-docs-nav"></div>
 
         <div class="sidebar-section-title" style="margin-top: 0.75rem;">CÔNG CỤ THÔNG MINH</div>
-        <li class="tree-item" data-view="ai-exam" id="nav-ai-exam">
+        <li class="tree-item" data-view="ai-exam" id="nav-ai-exam" style="display: none;">
           <div class="tree-row" onclick="navigateTo('ai-exam')">
             <a href="javascript:void(0)">
               <i class="fa-solid fa-brain" style="color: #c084fc;"></i>

@@ -262,6 +262,14 @@ function showToast(message, type) {
 // Router điều hướng chính xác 100%
 function navigateTo(viewName) {
   if (!viewName) viewName = "home";
+
+  // Bảo vệ view Quản trị & AI khi chưa đăng nhập Admin
+  var session = AuthService.getSession();
+  if ((viewName === "ai-exam" || viewName === "settings") && session.role !== "admin") {
+    showToast("Tính năng này đang được quản trị viên hoàn thiện và kiểm thử!", "info");
+    viewName = "home";
+  }
+
   currentView = viewName;
 
   // Cập nhật hash trên URL
@@ -444,9 +452,14 @@ function renderHomeView(container) {
         <button class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.4);" onclick="navigateTo('khbd')">
           <i class="fa-solid fa-file-word" style="color: #38bdf8;"></i> Kế Hoạch Bài Dạy (${totalKhbd} tệp)
         </button>
-        <button class="btn btn-ai-header" onclick="navigateTo('ai-exam')">
-          <i class="fa-solid fa-wand-magic-sparkles"></i> Trợ Lý AI Ra Đề (TT 27)
+        <button class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.4);" onclick="navigateTo('weekly')">
+          <i class="fa-solid fa-table-columns" style="color: #fb923c;"></i> Xem Theo Tuần Học
         </button>
+        ${AuthService.getSession().role === 'admin' ? `
+          <button class="btn btn-ai-header" onclick="navigateTo('ai-exam')">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Trợ Lý AI Ra Đề (Admin)
+          </button>
+        ` : ''}
       </div>
     </div>
 
@@ -459,7 +472,7 @@ function renderHomeView(container) {
         </div>
         <div class="stat-data">
           <h4>${totalPptx} Bài Giảng</h4>
-          <p>PowerPoint Tuần 1 - 4...</p>
+          <p>PowerPoint Tuần 1 - 35</p>
         </div>
       </div>
       <div class="stat-box" onclick="navigateTo('khbd')" style="cursor: pointer;">
@@ -471,22 +484,22 @@ function renderHomeView(container) {
           <p>Giáo Án Word 5 Khối Lớp</p>
         </div>
       </div>
-      <div class="stat-box" onclick="navigateTo('ai-exam')" style="cursor: pointer;">
-        <div class="stat-icon-wrap" style="background-color: #f5f3ff; color: #7c3aed;">
-          <i class="fa-solid fa-brain"></i>
-        </div>
-        <div class="stat-data">
-          <h4>AI 2026</h4>
-          <p>Soạn Ma Trận Đề TT 27</p>
-        </div>
-      </div>
       <div class="stat-box" onclick="navigateTo('weekly')" style="cursor: pointer;">
         <div class="stat-icon-wrap" style="background-color: #fff7ed; color: #ea580c;">
           <i class="fa-solid fa-table-columns"></i>
         </div>
         <div class="stat-data">
-          <h4>Tổng Hợp Tuần</h4>
+          <h4>Tổng Hợp 35 Tuần</h4>
           <p>Xem Song Song Word & PPTX</p>
+        </div>
+      </div>
+      <div class="stat-box" onclick="navigateTo('toolkit')" style="cursor: pointer;">
+        <div class="stat-icon-wrap" style="background-color: #f0fdf4; color: #16a34a;">
+          <i class="fa-solid fa-shapes"></i>
+        </div>
+        <div class="stat-data">
+          <h4>Tiện Ích Giảng Dạy</h4>
+          <p>Công Cụ Giáo Viên Tiểu Học</p>
         </div>
       </div>
     </div>

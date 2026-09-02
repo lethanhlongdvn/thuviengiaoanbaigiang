@@ -291,10 +291,21 @@ var AuthService = {
       `;
     }
 
-    // Chỉ hiện "Cấu Hình & Quản Trị" cho Admin
+    // Chỉ hiện "Cấu Hình & Quản Trị" và "Trợ Lý AI Ra Đề" khi là Admin
+    var isAdmin = session.role === 'admin';
     var navSettings = document.getElementById('nav-settings');
     if (navSettings) {
-      navSettings.style.display = session.role === 'admin' ? '' : 'none';
+      navSettings.style.display = isAdmin ? '' : 'none';
+    }
+
+    var navAiExam = document.getElementById('nav-ai-exam');
+    if (navAiExam) {
+      navAiExam.style.display = isAdmin ? '' : 'none';
+    }
+
+    var headerAiBtn = document.getElementById('btn-header-ai');
+    if (headerAiBtn) {
+      headerAiBtn.style.display = isAdmin ? '' : 'none';
     }
   }
 
