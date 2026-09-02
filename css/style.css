@@ -2467,3 +2467,15 @@ button {
   text-overflow: ellipsis;
   max-width: 100%;
 }
+
+/* Ẩn hoàn toàn huy hiệu Netlify Drawer / Powered by Netlify chèn tự động */
+[data-netlify-deploy-id],
+.netlify-drawer,
+#netlify-badge,
+iframe[src*="netlify"],
+div[class*="netlify"] {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
