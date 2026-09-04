@@ -312,7 +312,7 @@ var StatsService = {
 
     // Cập nhật ngay lập tức các nhãn lượt tải đang hiển thị trên giao diện
     document.querySelectorAll('[data-dl-count-id="' + fileId + '"]').forEach(function(el) {
-      el.textContent = (current + 1) + ' lượt tải';
+      el.textContent = (current + 1);
     });
 
     // Gửi đồng bộ lên Google Apps Script
