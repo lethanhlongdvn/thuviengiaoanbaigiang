@@ -433,6 +433,7 @@ function renderHomeView(container) {
     ${renderAdminBulkToolbarHtml()}
 
     <!-- Formal Hero Banner -->
+    <div class="formal-hero-card">
       <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.85rem;">
         <div class="formal-hero-pill">
           <i class="fa-solid fa-award" style="color: #facc15;"></i> Chuẩn GDPT 2018
