@@ -380,7 +380,7 @@ var AuthService = {
       `;
     }
 
-    // Chỉ hiện "Cấu Hình & Quản Trị" và "Trợ Lý AI Ra Đề" khi là Admin
+    // Chỉ hiện "Cấu Hình & Quản Trị" khi là Admin; Trợ Lý AI Ra Đề mở cho tất cả người dùng
     var isAdmin = session.role === 'admin';
     var navSettings = document.getElementById('nav-settings');
     if (navSettings) {
@@ -389,12 +389,12 @@ var AuthService = {
 
     var navAiExam = document.getElementById('nav-ai-exam');
     if (navAiExam) {
-      navAiExam.style.display = isAdmin ? '' : 'none';
+      navAiExam.style.display = '';
     }
 
     var headerAiBtn = document.getElementById('btn-header-ai');
     if (headerAiBtn) {
-      headerAiBtn.style.display = isAdmin ? '' : 'none';
+      headerAiBtn.style.display = '';
     }
   }
 

@@ -263,10 +263,10 @@ function showToast(message, type) {
 function navigateTo(viewName) {
   if (!viewName) viewName = "home";
 
-  // Bảo vệ view Quản trị & AI khi chưa đăng nhập Admin
+  // Bảo vệ view Quản trị khi chưa đăng nhập Admin
   var session = AuthService.getSession();
-  if ((viewName === "ai-exam" || viewName === "settings") && session.role !== "admin") {
-    showToast("Tính năng này đang được quản trị viên hoàn thiện và kiểm thử!", "info");
+  if (viewName === "settings" && session.role !== "admin") {
+    showToast("Khu vực Cấu hình & Quản trị chỉ dành cho Quản trị viên!", "warning");
     viewName = "home";
   }
 
@@ -456,11 +456,9 @@ function renderHomeView(container) {
         <button class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.4);" onclick="navigateTo('weekly')">
           <i class="fa-solid fa-table-columns" style="color: #fb923c;"></i> Xem Theo Tuần Học
         </button>
-        ${AuthService.getSession().role === 'admin' ? `
-          <button class="btn btn-ai-header" onclick="navigateTo('ai-exam')">
-            <i class="fa-solid fa-wand-magic-sparkles"></i> Trợ Lý AI Ra Đề (Admin)
-          </button>
-        ` : ''}
+        <button class="btn btn-ai-header" onclick="navigateTo('ai-exam')">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> Trợ Lý AI Ra Đề
+        </button>
       </div>
     </div>
 
@@ -839,144 +837,465 @@ function renderWeeklyView(container) {
 }
 
 /* ==========================================================================
-   VIEW 5: TRỢ LÝ AI SOẠN ĐỀ KIỂM TRA
+   VIEW 5: TRỢ LÝ AI SOẠN ĐỀ KIỂM TRA (CHƯƠNG TRÌNH GDPT 2018 - SGK KẾT NỐI TRI THỨC)
+   Chuẩn mẫu thực tế: Ma trận phân tầng 3 Mức • Đề kiểm tra 3 ô đánh giá • Barem chấm
    ========================================================================== */
+
+var currentExamData = null;
+var currentExamActiveTab = "exam"; // "exam" | "matrix" | "answers"
+
+function getSubjectsForGrade(grade) {
+  var g = parseInt(grade) || 5;
+  var all = AIService.EXAM_SUBJECTS;
+  var list = [];
+  for (var key in all) {
+    if (all[key].grades.indexOf(g) !== -1) {
+      list.push(all[key]);
+    }
+  }
+  return list;
+}
+
 function renderAiExamView(container) {
   var currentGradeNum = selectedGrade === "all" ? 5 : parseInt(selectedGrade);
+  var apiKey = localStorage.getItem("tvth_gemini_api_key") || (window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || "";
+  var availableSubjects = getSubjectsForGrade(currentGradeNum);
 
   container.innerHTML = `
     <div class="section-header">
       <div>
         <h2 class="section-title">
-          <i class="fa-solid fa-wand-magic-sparkles" style="color: #c084fc;"></i> 
-          Trợ Lý AI Soạn Đề Kiểm Tra Thông Minh
+          <i class="fa-solid fa-wand-magic-sparkles" style="color: #a855f7;"></i> 
+          Trợ Lý AI Soạn Đề Kiểm Tra & Ma Trận Chuẩn Sư Phạm
         </h2>
         <p class="section-subtitle">
-          Tạo ma trận đề và câu hỏi tự động chuẩn Thông tư 27/2020/TT-BGDĐT & Chuẩn Chương trình GDPT 2018
+          Bộ sách <strong>Kết nối tri thức với cuộc sống</strong> • Thông tư 27/2020/TT-BGDĐT • Ma trận 3 Mức độ • Phiếu kiểm tra & Barem chấm
         </p>
-
+      </div>
+      <div>
+        <button class="btn btn-sm ${apiKey ? 'btn-outline' : 'btn-primary'}" style="${apiKey ? 'border-color: #16a34a; color: #16a34a;' : 'background: linear-gradient(135deg, #7c3aed, #a855f7);'}" onclick="openGeminiApiKeyModal()">
+          <i class="fa-solid ${apiKey ? 'fa-key' : 'fa-wand-magic-sparkles'}"></i> 
+          ${apiKey ? 'Gemini AI: Đã kết nối' : 'Cấu hình Gemini API Key'}
+        </button>
       </div>
     </div>
 
     <div class="ai-layout-container">
-      <div class="ai-ctrl-box">
-        <div style="font-size: 0.76rem; font-weight: 700; color: #7c3aed; background: #f5f3ff; padding: 0.25rem 0.65rem; border-radius: var(--radius-full); display: inline-flex; align-items: center; gap: 0.35rem; margin-bottom: 0.85rem;">
-          <i class="fa-solid fa-robot"></i> AI Sư Phạm Tiểu Học 2026
+      <!-- CỘT ĐIỀU KHIỂN BÊN TRÁI (FORM THU THẬP THÔNG SỐ) -->
+      <div class="ai-ctrl-box" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm);">
+        
+        <div style="font-size: 0.76rem; font-weight: 800; color: #7c3aed; background: #f5f3ff; border: 1px solid #ddd6fe; padding: 0.3rem 0.75rem; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+          <span><i class="fa-solid fa-book-open"></i> SGK KẾT NỐI TRI THỨC 2026</span>
+          <span style="color: #16a34a;"><i class="fa-solid fa-circle-check"></i> Chuẩn TT 27</span>
         </div>
 
-        <div class="form-group">
-          <label for="aiGradeSelect">1. Chọn Khối Lớp:</label>
-          <select id="aiGradeSelect" class="form-select">
-            <option value="1" ${currentGradeNum === 1 ? 'selected' : ''}>Khối 1</option>
-            <option value="2" ${currentGradeNum === 2 ? 'selected' : ''}>Khối 2</option>
-            <option value="3" ${currentGradeNum === 3 ? 'selected' : ''}>Khối 3</option>
-            <option value="4" ${currentGradeNum === 4 ? 'selected' : ''}>Khối 4</option>
-            <option value="5" ${currentGradeNum === 5 ? 'selected' : ''}>Khối 5</option>
-          </select>
+        <!-- 1. KHỐI LỚP & MÔN THI -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem;">
+          <div class="form-group">
+            <label for="aiGradeSelect" style="font-weight: 700; font-size: 0.82rem;">1. Khối Lớp:</label>
+            <select id="aiGradeSelect" class="form-select" onchange="onExamGradeChange(this.value)">
+              <option value="1" ${currentGradeNum === 1 ? 'selected' : ''}>Khối 1</option>
+              <option value="2" ${currentGradeNum === 2 ? 'selected' : ''}>Khối 2</option>
+              <option value="3" ${currentGradeNum === 3 ? 'selected' : ''}>Khối 3</option>
+              <option value="4" ${currentGradeNum === 4 ? 'selected' : ''}>Khối 4</option>
+              <option value="5" ${currentGradeNum === 5 ? 'selected' : ''}>Khối 5</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="aiSubjectSelect" style="font-weight: 700; font-size: 0.82rem;">2. Môn Thi:</label>
+            <select id="aiSubjectSelect" class="form-select" onchange="onExamSubjectChange(this.value)">
+              ${availableSubjects.map(function(s) {
+                return `<option value="${s.id}">${s.name}</option>`;
+              }).join('')}
+            </select>
+          </div>
         </div>
 
-        <div class="form-group">
-          <label for="aiSubjectSelect">2. Chọn Môn Học:</label>
-          <select id="aiSubjectSelect" class="form-select">
-            <option value="TOAN">Toán</option>
-            <option value="TIENG_VIET">Tiếng Việt</option>
-            <option value="TIENG_ANH">Tiếng Anh</option>
-            <option value="TNXH">Tự nhiên & Xã hội</option>
-            <option value="KHOA_HOC">Khoa học</option>
-            <option value="LICH_SU_DIA_LY">Lịch sử & Địa lý</option>
-            <option value="TIN_HOC">Tin học</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label for="aiScopeSelect">3. Phạm Vi Đề Kiểm Tra:</label>
-          <select id="aiScopeSelect" class="form-select">
-            <option value="Kiểm tra ôn tập Tuần ${selectedWeek}">Theo Tuần ${selectedWeek}</option>
+        <!-- 2. PHẠM VI RA ĐỀ -->
+        <div class="form-group" style="margin-top: 0.35rem;">
+          <label for="aiScopePreset" style="font-weight: 700; font-size: 0.82rem;">3. Phạm Vi Đề Kiểm Tra:</label>
+          <select id="aiScopePreset" class="form-select" onchange="onExamScopePresetChange(this.value)">
+            <option value="Kiểm tra Định kỳ Cuối Học Kỳ I (Tuần 1 - 18)" selected>Cuối Học Kỳ I (Tuần 1 - 18)</option>
             <option value="Kiểm tra Định kỳ Giữa Học Kỳ I (Tuần 1 - 9)">Giữa Học Kỳ I (Tuần 1 - 9)</option>
-            <option value="Kiểm tra Định kỳ Cuối Học Kỳ I (Tuần 1 - 18)">Cuối Học Kỳ I (Tuần 1 - 18)</option>
             <option value="Kiểm tra Định kỳ Giữa Học Kỳ II (Tuần 19 - 27)">Giữa Học Kỳ II (Tuần 19 - 27)</option>
             <option value="Kiểm tra Định kỳ Cuối Năm / Cả Năm (Tuần 1 - 35)">Cuối Năm / Cả Năm (Tuần 1 - 35)</option>
+            <option value="Theo Tuần ${selectedWeek}">Theo Tuần ${selectedWeek}</option>
+            <option value="custom">✏️ Tự gõ tên bài học SGK Kết nối tri thức...</option>
           </select>
+          <input type="text" id="aiCustomScopeInput" class="form-control" placeholder="Ví dụ: Bài 15 Luyện tập chung - Phép nhân và phép chia..." style="margin-top: 0.4rem; display: none;">
         </div>
 
-        <div class="form-group">
-          <label for="aiQuestionCount">4. Số lượng câu hỏi trắc nghiệm:</label>
-          <select id="aiQuestionCount" class="form-select">
-            <option value="6">6 câu (Đề ngắn 20 phút)</option>
-            <option value="8" selected>8 câu (Đề chuẩn 35 - 40 phút)</option>
-            <option value="10">10 câu (Đề nâng cao)</option>
-          </select>
+        <!-- 3. SỐ CÂU TRẮC NGHIỆM & TỰ LUẬN -->
+        <div style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.75rem; margin-top: 0.65rem;">
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem; margin-bottom: 0.5rem;">
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="aiMcqCount" style="font-weight: 700; font-size: 0.8rem;">4. Số câu Trắc nghiệm:</label>
+              <input type="number" id="aiMcqCount" min="0" max="30" value="8" class="form-control" style="font-weight: 700; text-align: center;">
+            </div>
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="aiEssayCount" style="font-weight: 700; font-size: 0.8rem;">5. Số câu Tự luận:</label>
+              <input type="number" id="aiEssayCount" min="0" max="10" value="2" class="form-control" style="font-weight: 700; text-align: center;">
+            </div>
+          </div>
+
+          <!-- ĐỊNH HƯỚNG NỘI DUNG TỰ LUẬN -->
+          <div class="form-group" style="margin-bottom: 0.5rem;">
+            <label for="aiEssayGuide" style="font-weight: 700; font-size: 0.8rem;">6. Định hướng nội dung Tự luận (Gợi ý cho AI):</label>
+            <textarea id="aiEssayGuide" class="form-control" rows="2" placeholder="Ví dụ: Bài 1 đặt tính rồi tính (4 phép tính), Bài 2 giải toán có lời văn 2 bước tính, Bài 3 tính bằng cách thuận tiện..." style="font-size: 0.8rem;"></textarea>
+          </div>
+
+          <!-- TỈ LỆ % ĐIỂM TRẮC NGHIỆM / TỰ LUẬN -->
+          <div class="form-group" style="margin-bottom: 0;">
+            <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.8rem; margin-bottom: 0.25rem;">
+              <span>Trắc nghiệm: <b id="aiMcqPctLabel" style="color: #7c3aed;">70%</b> (<span id="aiMcqScoreLabel">7,0</span>đ)</span>
+              <span>Tự luận: <b id="aiEssayPctLabel" style="color: #2563eb;">30%</b> (<span id="aiEssayScoreLabel">3,0</span>đ)</span>
+            </div>
+            <input type="range" id="aiScoreRatioSlider" min="0" max="100" step="10" value="70" class="form-range" oninput="onExamScoreRatioChange(this.value)" style="width: 100%; cursor: pointer;">
+            <div style="display: flex; justify-content: space-between; gap: 0.25rem; margin-top: 0.35rem;">
+              <button type="button" class="btn btn-sm btn-outline" style="padding: 0.15rem 0.4rem; font-size: 0.72rem;" onclick="setExamScoreRatio(70)">70% - 30%</button>
+              <button type="button" class="btn btn-sm btn-outline" style="padding: 0.15rem 0.4rem; font-size: 0.72rem;" onclick="setExamScoreRatio(80)">80% - 20%</button>
+              <button type="button" class="btn btn-sm btn-outline" style="padding: 0.15rem 0.4rem; font-size: 0.72rem;" onclick="setExamScoreRatio(60)">60% - 40%</button>
+              <button type="button" class="btn btn-sm btn-outline" style="padding: 0.15rem 0.4rem; font-size: 0.72rem;" onclick="setExamScoreRatio(50)">50% - 50%</button>
+              <button type="button" class="btn btn-sm btn-outline" style="padding: 0.15rem 0.4rem; font-size: 0.72rem;" onclick="setExamScoreRatio(100)">100% TN</button>
+            </div>
+          </div>
         </div>
 
-        <div class="form-group">
-          <label style="display: flex; align-items: center; gap: 0.45rem; cursor: pointer;">
-            <input type="checkbox" id="aiEssayCheck" checked> Bao gồm phần Tự luận & Lời văn
-          </label>
+        <!-- 4. TỰ NHẬP TỈ LỆ 3 MỨC ĐỘ NHẬN THỨC (THÔNG TƯ 27) -->
+        <div style="background: #fdf4ff; border: 1px solid #f0abfc; border-radius: var(--radius-sm); padding: 0.75rem; margin-top: 0.65rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem;">
+            <label style="font-weight: 800; font-size: 0.8rem; color: #86198f; margin-bottom: 0;">
+              7. Ma trận 3 Mức độ nhận thức (Tự nhập %):
+            </label>
+            <span id="aiCognitiveTotalBadge" style="font-size: 0.72rem; font-weight: 800; padding: 0.15rem 0.5rem; border-radius: 9999px; background: #dcfce7; color: #166534;">
+              Tổng: 100% ✓
+            </span>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.4rem; text-align: center;">
+            <div>
+              <div style="font-size: 0.72rem; font-weight: 700; color: #6b21a8; margin-bottom: 0.15rem;">Mức 1 (Nhận biết)</div>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 0.2rem;">
+                <input type="number" id="aiLevel1Pct" min="0" max="100" step="5" value="40" class="form-control" style="text-align: center; font-weight: 800; padding: 0.25rem;" oninput="updateCognitiveTotal()">
+                <span style="font-size: 0.75rem; font-weight: 700;">%</span>
+              </div>
+            </div>
+
+            <div>
+              <div style="font-size: 0.72rem; font-weight: 700; color: #6b21a8; margin-bottom: 0.15rem;">Mức 2 (Kết nối)</div>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 0.2rem;">
+                <input type="number" id="aiLevel2Pct" min="0" max="100" step="5" value="40" class="form-control" style="text-align: center; font-weight: 800; padding: 0.25rem;" oninput="updateCognitiveTotal()">
+                <span style="font-size: 0.75rem; font-weight: 700;">%</span>
+              </div>
+            </div>
+
+            <div>
+              <div style="font-size: 0.72rem; font-weight: 700; color: #6b21a8; margin-bottom: 0.15rem;">Mức 3 (Vận dụng)</div>
+              <div style="display: flex; align-items: center; justify-content: center; gap: 0.2rem;">
+                <input type="number" id="aiLevel3Pct" min="0" max="100" step="5" value="20" class="form-control" style="text-align: center; font-weight: 800; padding: 0.25rem;" oninput="updateCognitiveTotal()">
+                <span style="font-size: 0.75rem; font-weight: 700;">%</span>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 0.35rem; margin-top: 0.45rem; justify-content: center;">
+            <button type="button" class="btn btn-sm btn-outline" style="padding: 0.15rem 0.45rem; font-size: 0.7rem; background: #fff;" onclick="setCognitivePreset(40, 40, 20)">40 - 40 - 20 (Chuẩn TT27)</button>
+            <button type="button" class="btn btn-sm btn-outline" style="padding: 0.15rem 0.45rem; font-size: 0.7rem; background: #fff;" onclick="setCognitivePreset(50, 30, 20)">50 - 30 - 20</button>
+            <button type="button" class="btn btn-sm btn-outline" style="padding: 0.15rem 0.45rem; font-size: 0.7rem; background: #fff;" onclick="setCognitivePreset(30, 40, 30)">30 - 40 - 30</button>
+          </div>
         </div>
 
-        <div style="background: #f8fafc; border-radius: var(--radius-sm); padding: 0.75rem; font-size: 0.78rem; display: flex; justify-content: space-between; border: 1px solid var(--border-color); margin-top: 0.5rem;">
-          <div><i class="fa-solid fa-chart-pie" style="color: var(--primary);"></i> Ma trận TT 27:</div>
-          <div><strong>40%</strong> Mức 1 • <strong>40%</strong> Mức 2 • <strong>20%</strong> Mức 3</div>
+        <!-- 5. CÁC THÔNG SỐ BỔ SUNG -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem; margin-top: 0.65rem;">
+          <div class="form-group" style="margin-bottom: 0;">
+            <label for="aiDurationSelect" style="font-weight: 700; font-size: 0.8rem;">8. Thời gian làm bài:</label>
+            <select id="aiDurationSelect" class="form-select">
+              <option value="35 phút" ${currentGradeNum <= 2 ? 'selected' : ''}>35 phút (Tiết học chuẩn)</option>
+              <option value="40 phút" ${currentGradeNum > 2 ? 'selected' : ''}>40 phút (Chuẩn định kỳ)</option>
+              <option value="15 phút">15 phút (Kiểm tra nhanh)</option>
+              <option value="45 phút">45 phút</option>
+            </select>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 0;">
+            <label for="aiSchoolNameInput" style="font-weight: 700; font-size: 0.8rem;">9. Tên Trường Tiểu học:</label>
+            <input type="text" id="aiSchoolNameInput" class="form-control" placeholder="Trường Tiểu học .................">
+          </div>
         </div>
 
-        <button class="btn btn-primary" style="width: 100%; margin-top: 1.15rem; background: linear-gradient(135deg, #7c3aed, #c084fc);" onclick="triggerAiGenerate()">
-          <i class="fa-solid fa-wand-magic-sparkles"></i> Bắt Đầu Soạn Đề Tự Động
+        <div class="form-group" style="margin-top: 0.5rem; margin-bottom: 0;">
+          <label for="aiCustomPrompt" style="font-weight: 700; font-size: 0.8rem;">10. Ghi chú / Yêu cầu đặc biệt cho AI (Tùy chọn):</label>
+          <input type="text" id="aiCustomPrompt" class="form-control" placeholder="Ví dụ: Đề vừa sức học sinh, câu hỏi trắc nghiệm có tình huống thực tế...">
+        </div>
+
+        <!-- NÚT BẮT ĐẦU SOẠN ĐỀ -->
+        <button class="btn btn-primary" style="width: 100%; margin-top: 1.15rem; padding: 0.8rem; font-size: 0.95rem; font-weight: 800; background: linear-gradient(135deg, #7c3aed, #a855f7); box-shadow: 0 4px 12px rgba(124, 58, 237, 0.35);" onclick="triggerAiGenerate()">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> BẮT ĐẦU SOẠN ĐỀ TỰ ĐỘNG
         </button>
+
       </div>
 
-      <div class="paper-preview-card" id="aiOutputContainer">
-        <div style="text-align: center; padding: 4rem 1rem; color: var(--text-muted);">
-          <i class="fa-solid fa-file-circle-plus" style="font-size: 3rem; color: #c4b5fd; margin-bottom: 1rem;"></i>
-          <h3>Sẵn sàng tạo đề kiểm tra</h3>
-          <p style="font-size: 0.85rem;">Chọn các thông số bên trái và bấm <strong>"Bắt Đầu Soạn Đề Tự Động"</strong> để AI sinh đề và ma trận.</p>
+      <!-- CỘT KẾT QUẢ BÊN PHẢI (TRÌNH XEM TRƯỚC ĐỀ THI 3 TABS) -->
+      <div class="paper-preview-card" id="aiOutputContainer" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm); min-height: 600px;">
+        <div style="text-align: center; padding: 6rem 1rem; color: var(--text-muted);">
+          <div style="width: 70px; height: 70px; border-radius: 50%; background: #f3e8ff; color: #7c3aed; display: inline-flex; align-items: center; justify-content: center; font-size: 2.2rem; margin-bottom: 1.25rem;">
+            <i class="fa-solid fa-file-signature"></i>
+          </div>
+          <h3 style="color: var(--text-color); font-weight: 800; font-size: 1.25rem; margin-bottom: 0.5rem;">Sẵn sàng tạo đề kiểm tra chuẩn Bộ GD&ĐT</h3>
+          <p style="font-size: 0.88rem; max-width: 480px; margin: 0 auto; line-height: 1.5;">
+            Chọn thông số bên trái và bấm <strong>"BẮT ĐẦU SOẠN ĐỀ TỰ ĐỘNG"</strong>. AI sẽ tạo trọn bộ Ma trận 3 Mức độ, Đề kiểm tra và Hướng dẫn chấm chi tiết theo SGK Kết nối tri thức.
+          </p>
         </div>
       </div>
     </div>
   `;
+
+  setTimeout(function() {
+    updateExamScopeOptions(currentGradeNum, availableSubjects[0]?.id);
+  }, 20);
 }
 
+// Cập nhật danh sách môn khi đổi khối lớp
+function onExamGradeChange(grade) {
+  var select = document.getElementById("aiSubjectSelect");
+  if (!select) return;
+  var subjects = getSubjectsForGrade(grade);
+  select.innerHTML = subjects.map(function(s) {
+    return `<option value="${s.id}">${s.name}</option>`;
+  }).join('');
+
+  updateExamScopeOptions(grade, select.value);
+}
+
+// Cập nhật phạm vi bài học khi đổi môn
+function onExamSubjectChange(subjectId) {
+  var grade = document.getElementById("aiGradeSelect")?.value || 5;
+  updateExamScopeOptions(grade, subjectId);
+}
+
+// Nạp danh sách chủ đề & bài học từ Kho Sách Giáo Khoa Số Hóa KNTT
+function updateExamScopeOptions(grade, subjectId) {
+  var scopeSelect = document.getElementById("aiScopePreset");
+  if (!scopeSelect) return;
+
+  var currentSelectedVal = scopeSelect.value;
+  var sgkKey = (subjectId || 'TOAN').toLowerCase().replace('lich_su_dia_ly', 'lich_su_dia_li');
+  var book = (typeof window !== 'undefined' && window.SGK_DATA && typeof window.SGK_DATA.getBook === 'function') 
+             ? window.SGK_DATA.getBook(grade, sgkKey) : null;
+
+  var html = `
+    <optgroup label="Phạm vi định kỳ chuẩn">
+      <option value="Kiểm tra Định kỳ Cuối Học Kỳ I (Tuần 1 - 18)" selected>Cuối Học Kỳ I (Tuần 1 - 18)</option>
+      <option value="Kiểm tra Định kỳ Giữa Học Kỳ I (Tuần 1 - 9)">Giữa Học Kỳ I (Tuần 1 - 9)</option>
+      <option value="Kiểm tra Định kỳ Giữa Học Kỳ II (Tuần 19 - 27)">Giữa Học Kỳ II (Tuần 19 - 27)</option>
+      <option value="Kiểm tra Định kỳ Cuối Năm / Cả Năm (Tuần 1 - 35)">Cuối Năm / Cả Năm (Tuần 1 - 35)</option>
+      <option value="Theo Tuần ${selectedWeek}">Theo Tuần ${selectedWeek}</option>
+    </optgroup>
+  `;
+
+  if (book && book.topics && book.topics.length > 0) {
+    html += `
+      <optgroup label="Chủ đề / Chủ điểm SGK KNTT (${book.metadata?.bookName || ''})">
+        ${book.topics.map(function(t) {
+          return `<option value="${t.name}">${t.name} (Tuần ${t.weeks || ''})</option>`;
+        }).join('')}
+      </optgroup>
+    `;
+  }
+
+  if (book && book.lessons && book.lessons.length > 0) {
+    html += `
+      <optgroup label="Từng bài học SGK số hóa (Khối ${grade})">
+        ${book.lessons.slice(0, 45).map(function(l) {
+          return `<option value="${l.title}">Tuần ${l.week || 'N/A'}: ${l.title}</option>`;
+        }).join('')}
+      </optgroup>
+    `;
+  }
+
+  html += `
+    <optgroup label="Tùy chỉnh khác">
+      <option value="custom">✏️ Tự gõ tên bài học / phạm vi khác...</option>
+    </optgroup>
+  `;
+
+  scopeSelect.innerHTML = html;
+  onExamScopePresetChange(scopeSelect.value);
+}
+
+// Xử lý chọn nhanh hoặc tự gõ bài học
+function onExamScopePresetChange(val) {
+  var customInput = document.getElementById("aiCustomScopeInput");
+  if (!customInput) return;
+  if (val === "custom") {
+    customInput.style.display = "block";
+    customInput.focus();
+  } else {
+    customInput.style.display = "none";
+  }
+}
+
+// Đồng bộ thanh trượt tỉ lệ điểm % Trắc nghiệm / Tự luận
+function onExamScoreRatioChange(mcqPct) {
+  var p = parseInt(mcqPct);
+  var essayPct = 100 - p;
+  
+  var mcqLbl = document.getElementById("aiMcqPctLabel");
+  var essayLbl = document.getElementById("aiEssayPctLabel");
+  var mcqScore = document.getElementById("aiMcqScoreLabel");
+  var essayScore = document.getElementById("aiEssayScoreLabel");
+
+  if (mcqLbl) mcqLbl.innerText = p + "%";
+  if (essayLbl) essayLbl.innerText = essayPct + "%";
+  if (mcqScore) mcqScore.innerText = (p / 10).toString().replace('.', ',');
+  if (essayScore) essayScore.innerText = (essayPct / 10).toString().replace('.', ',');
+}
+
+function setExamScoreRatio(mcqPct) {
+  var slider = document.getElementById("aiScoreRatioSlider");
+  if (slider) {
+    slider.value = mcqPct;
+    onExamScoreRatioChange(mcqPct);
+  }
+}
+
+// Cập nhật và kiểm tra tổng % 3 mức độ nhận thức
+function updateCognitiveTotal() {
+  var m1 = parseInt(document.getElementById("aiLevel1Pct")?.value) || 0;
+  var m2 = parseInt(document.getElementById("aiLevel2Pct")?.value) || 0;
+  var m3 = parseInt(document.getElementById("aiLevel3Pct")?.value) || 0;
+  var total = m1 + m2 + m3;
+
+  var badge = document.getElementById("aiCognitiveTotalBadge");
+  if (badge) {
+    if (total === 100) {
+      badge.style.background = "#dcfce7";
+      badge.style.color = "#166534";
+      badge.innerHTML = "Tổng: 100% ✓";
+    } else {
+      badge.style.background = "#fee2e2";
+      badge.style.color = "#991b1b";
+      badge.innerHTML = `Tổng: ${total}% (Cần đủ 100%)`;
+    }
+  }
+}
+
+function setCognitivePreset(m1, m2, m3) {
+  var in1 = document.getElementById("aiLevel1Pct");
+  var in2 = document.getElementById("aiLevel2Pct");
+  var in3 = document.getElementById("aiLevel3Pct");
+  if (in1) in1.value = m1;
+  if (in2) in2.value = m2;
+  if (in3) in3.value = m3;
+  updateCognitiveTotal();
+}
+
+// Bắt đầu gọi sinh đề
 async function triggerAiGenerate() {
-  var grade = document.getElementById("aiGradeSelect").value;
-  var subjectId = document.getElementById("aiSubjectSelect").value;
-  var scope = document.getElementById("aiScopeSelect").value;
-  var questionCount = parseInt(document.getElementById("aiQuestionCount").value);
-  var essayIncluded = document.getElementById("aiEssayCheck").checked;
+  var grade = document.getElementById("aiGradeSelect")?.value || 3;
+  var subjectId = document.getElementById("aiSubjectSelect")?.value || "TOAN";
+  var scopePreset = document.getElementById("aiScopePreset")?.value || "";
+  var customScope = document.getElementById("aiCustomScopeInput")?.value || "";
+  var scope = (scopePreset === "custom" && customScope.trim()) ? customScope.trim() : scopePreset;
+
+  var mcqCount = parseInt(document.getElementById("aiMcqCount")?.value) || 8;
+  var essayCount = parseInt(document.getElementById("aiEssayCount")?.value);
+  if (isNaN(essayCount)) essayCount = 2;
+  var essayGuide = document.getElementById("aiEssayGuide")?.value || "";
+
+  var sliderVal = parseInt(document.getElementById("aiScoreRatioSlider")?.value);
+  var mcqPercent = !isNaN(sliderVal) ? sliderVal : 70;
+  var essayPercent = 100 - mcqPercent;
+
+  var level1Percent = parseInt(document.getElementById("aiLevel1Pct")?.value) || 40;
+  var level2Percent = parseInt(document.getElementById("aiLevel2Pct")?.value) || 40;
+  var level3Percent = parseInt(document.getElementById("aiLevel3Pct")?.value) || 20;
+
+  var duration = document.getElementById("aiDurationSelect")?.value || "40 phút";
+  var schoolName = document.getElementById("aiSchoolNameInput")?.value || "";
+  var customPrompt = document.getElementById("aiCustomPrompt")?.value || "";
+  var apiKey = localStorage.getItem("tvth_gemini_api_key") || (window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || "";
+
   var outputEl = document.getElementById("aiOutputContainer");
-  var apiKey = localStorage.getItem("tvth_gemini_api_key") || "";
+  if (!outputEl) return;
 
   outputEl.innerHTML = `
-    <div style="text-align: center; padding: 5rem 1rem;">
-      <div class="spinner" style="border-top-color: #8b5cf6; margin: 0 auto 1.25rem;"></div>
-      <h3 style="color: #7c3aed;">AI đang phân tích chương trình & soạn ma trận đề...</h3>
-      <p style="color: var(--text-muted); font-size: 0.85rem;">Áp dụng chuẩn đánh giá Thông tư 27 & Chương trình GDPT 2018</p>
+    <div style="text-align: center; padding: 6rem 1rem;">
+      <div class="spinner" style="border-top-color: #7c3aed; width: 44px; height: 44px; margin: 0 auto 1.5rem; border-width: 4px;"></div>
+      <h3 style="color: #7c3aed; font-weight: 800; font-size: 1.2rem; margin-bottom: 0.5rem;">AI đang phân tích chương trình SGK Kết nối tri thức...</h3>
+      <p style="color: var(--text-muted); font-size: 0.88rem; max-width: 450px; margin: 0 auto;">
+        Đang xây dựng Ma trận 3 Mức độ (${level1Percent}% - ${level2Percent}% - ${level3Percent}%), Đề kiểm tra (${mcqCount} câu TN + ${essayCount} câu TL) và Barem chấm chuẩn Thông tư 27.
+      </p>
     </div>
-
   `;
 
   setTimeout(async function() {
-    var exam = await AIService.generateExam({
-      grade: grade,
-      subjectId: subjectId,
-      scope: scope,
-      questionCount: questionCount,
-      essayIncluded: essayIncluded,
-      apiKey: apiKey
-    });
+    try {
+      var exam = await AIService.generateExam({
+        grade: grade,
+        subjectId: subjectId,
+        scope: scope,
+        mcqCount: mcqCount,
+        essayCount: essayCount,
+        essayGuide: essayGuide,
+        mcqPercent: mcqPercent,
+        essayPercent: essayPercent,
+        level1Percent: level1Percent,
+        level2Percent: level2Percent,
+        level3Percent: level3Percent,
+        duration: duration,
+        schoolName: schoolName,
+        customPrompt: customPrompt,
+        apiKey: apiKey
+      });
 
-    currentExamData = exam;
-    renderExamOutput(exam, outputEl);
-    showToast("Đã soạn đề kiểm tra thành công!", "success");
-  }, 1000);
+      currentExamData = exam;
+      currentExamActiveTab = "exam";
+      renderExamOutput(exam, outputEl);
+      showToast("Đã soạn đề kiểm tra & ma trận thành công!", "success");
+    } catch (err) {
+      console.error(err);
+      showToast("Có lỗi khi tạo đề, vui lòng thử lại!", "error");
+    }
+  }, 600);
 }
 
+// Hiển thị kết quả đề thi dạng 3 Tabs (Đề thi - Ma trận - Đáp án)
 function renderExamOutput(exam, container) {
+  if (!container || !exam) return;
+
+  var mcqScoreStr = exam.mcqTotalScore ? exam.mcqTotalScore.toString().replace('.', ',') : "7,0";
+  var essayScoreStr = exam.essayTotalScore ? exam.essayTotalScore.toString().replace('.', ',') : "3,0";
+  var m = exam.matrix || {};
+  var s = m.summary || {};
+
+  var isAi = exam.source === 'ai';
+  var sourceBadgeHtml = isAi 
+    ? `<div style="display: inline-flex; align-items: center; gap: 0.35rem; background: #f3e8ff; color: #7c3aed; padding: 0.35rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 700; border: 1px solid #d8b4fe;" title="Đề thi được tạo trực tuyến bởi mô hình Google Gemini AI"><i class="fa-solid fa-brain"></i> ${exam.modelName ? `AI (${exam.modelName})` : `Google Gemini AI (Online)`}</div>`
+    : `<div style="display: inline-flex; align-items: center; gap: 0.35rem; background: #fef3c7; color: #b45309; padding: 0.35rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 700; border: 1px solid #fde68a;" title="Đề thi được tạo tự động từ Ngân hàng SGK Kết nối tri thức số hóa"><i class="fa-solid fa-database"></i> Ngân hàng SGK (Offline)</div>`;
+
   container.innerHTML = `
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem; flex-wrap: wrap; gap: 0.5rem;">
-      <div style="font-weight: 700; color: #16a34a; display: flex; align-items: center; gap: 0.4rem; font-size: 0.9rem;">
-        <i class="fa-solid fa-circle-check"></i> Đã hoàn thành đề kiểm tra
+    <!-- THANH CÔNG CỤ ĐIỀU HƯỚNG VÀ XUẤT BẢN -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.65rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem;">
+      
+      <!-- 3 TABS CHUYỂN ĐỔI -->
+      <div style="display: flex; gap: 0.35rem; background: #f1f5f9; padding: 0.25rem; border-radius: var(--radius-sm); align-items: center;">
+        <button class="btn btn-sm ${currentExamActiveTab === 'exam' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'exam' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('exam')">
+          <i class="fa-solid fa-file-lines"></i> 1. Phiếu Đề Thi
+        </button>
+        <button class="btn btn-sm ${currentExamActiveTab === 'matrix' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'matrix' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('matrix')">
+          <i class="fa-solid fa-table-cells"></i> 2. Ma Trận Đề (TT 27)
+        </button>
+        <button class="btn btn-sm ${currentExamActiveTab === 'answers' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'answers' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('answers')">
+          <i class="fa-solid fa-square-check"></i> 3. Hướng Dẫn Chấm
+        </button>
       </div>
-      <div style="display: flex; gap: 0.5rem;">
-        <button class="btn btn-sm btn-primary" onclick="AIService.exportToWord(currentExamData)">
+
+      <!-- BADGE NGUỒN GỐC & NÚT THAO TÁC XUẤT FILE & IN -->
+      <div style="display: flex; gap: 0.45rem; align-items: center;">
+        ${sourceBadgeHtml}
+        <button class="btn btn-sm btn-primary" style="background: #16a34a; border-color: #16a34a;" onclick="AIService.exportToWord(currentExamData)">
           <i class="fa-solid fa-file-word"></i> Xuất File Word (.doc)
         </button>
         <button class="btn btn-sm btn-outline" onclick="window.print()">
@@ -985,68 +1304,287 @@ function renderExamOutput(exam, container) {
       </div>
     </div>
 
-    <div class="exam-paper-sheet">
-      <div style="display: flex; justify-content: space-between; border-bottom: 2px solid #000; padding-bottom: 0.85rem; margin-bottom: 1.25rem;">
-        <div style="font-weight: 700; font-size: 0.82rem; line-height: 1.4;">
-          TRƯỜNG TIỂU HỌC: .................................<br>
-          TỔ CHUYÊN MÔN KHỐI ${exam.grade}
-        </div>
-        <div style="text-align: right; font-weight: 700; font-size: 0.82rem; line-height: 1.4;">
-          KIỂM TRA ĐỊNH KỲ NĂM HỌC 2025 - 2026<br>
-          Môn: ${exam.subjectName} - Lớp ${exam.grade}<br>
-          <i>Thời gian: ${exam.duration}</i>
-        </div>
-      </div>
+    <!-- NỘI DUNG TAB 1: PHIẾU ĐỀ THI HỌC SINH -->
+    <div id="examTabContent_exam" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'exam' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+      
+      <!-- HEADER 2 CỘT -->
+      <table style="width: 100%; border: none; margin-bottom: 12px;">
+        <tr>
+          <td style="width: 48%; vertical-align: top;">
+            <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
+            Tên học sinh: ...................................................<br>
+            Lớp: ${exam.grade}.....
+          </td>
+          <td style="width: 52%; vertical-align: top; text-align: right;">
+            <i>Thứ….. ngày … tháng … năm 2026</i><br>
+            <b style="font-size: 13.5pt; text-transform: uppercase;">ĐỀ KIỂM TRA HỌC KÌ I</b><br>
+            <b>MÔN: ${exam.subjectName.toUpperCase()} - LỚP ${exam.grade}</b><br>
+            <i>Thời gian làm bài: ${exam.duration}</i>
+          </td>
+        </tr>
+      </table>
 
-      <div style="text-align: center; font-size: 1.2rem; font-weight: 800; text-transform: uppercase; margin-bottom: 0.25rem;">
-        ${exam.examTitle}
-      </div>
-      <div style="text-align: center; font-size: 0.82rem; font-style: italic; margin-bottom: 1rem;">
-        (Phạm vi: ${exam.scopeDesc} • Bộ sách: ${exam.bookSeries})
-      </div>
+      <!-- KHUNG ĐÁNH GIÁ 3 Ô -->
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px;">
+        <tr>
+          <td style="border: 1px solid #000; width: 25%; text-align: center; height: 75px; vertical-align: top; padding: 6px;">
+            <b>Điểm</b>
+          </td>
+          <td style="border: 1px solid #000; width: 50%; text-align: center; vertical-align: top; padding: 6px;">
+            <b>Nhận xét của giáo viên</b>
+          </td>
+          <td style="border: 1px solid #000; width: 25%; text-align: center; vertical-align: top; padding: 6px;">
+            <b>Chữ kí của PHHS</b>
+          </td>
+        </tr>
+      </table>
 
-      <div style="border: 1px dashed #94a3b8; padding: 0.65rem 0.85rem; border-radius: 4px; margin-bottom: 1.25rem; display: flex; justify-content: space-between; font-size: 0.85rem;">
-        <div>Họ và tên học sinh: ................................................................</div>
-        <div>Lớp: ${exam.grade}.....</div>
-      </div>
+      <!-- PHẦN I: TRẮC NGHIỆM -->
+      <div style="font-weight: bold; font-size: 13.5pt; margin: 12px 0 4px 0;">I. PHẦN TRẮC NGHIỆM (${mcqScoreStr} điểm)</div>
+      <p style="margin: 0 0 10px 0; font-style: italic;">Khoanh vào chữ cái đặt trước câu trả lời đúng:</p>
 
-      <div style="font-weight: 800; font-size: 0.95rem; margin: 1.25rem 0 0.75rem; color: var(--primary);">
-        I. PHẦN TRẮC NGHIỆM KHÁCH QUAN (${exam.multipleChoice.length} câu)
-      </div>
-      ${exam.multipleChoice.map(function(q) {
+      ${(exam.multipleChoice || []).map(function(q) {
         return `
-          <div style="margin-bottom: 1rem;">
-            <div style="font-weight: 600; font-size: 0.88rem; margin-bottom: 0.35rem;">
-              Câu ${q.num} (${q.score} điểm - ${q.level}): ${q.text}
-            </div>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.4rem; padding-left: 0.85rem; font-size: 0.85rem;">
-              ${q.options.map(function(opt) { return `<div>${opt}</div>`; }).join('')}
+          <div style="margin-bottom: 10px;" contenteditable="true">
+            <b>Câu ${q.num}</b> (${q.score ? q.score.toString().replace('.', ',') : '0,5'} điểm - ${q.level || 'Mức 1'}): ${q.text}
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.35rem; padding-left: 1.25rem; margin-top: 4px;">
+              ${(q.options || []).map(function(opt) { return `<div>${opt}</div>`; }).join('')}
             </div>
           </div>
         `;
       }).join('')}
 
-      ${exam.essaySection.length ? `
-        <div style="font-weight: 800; font-size: 0.95rem; margin: 1.25rem 0 0.75rem; color: var(--primary);">
-          II. PHẦN TỰ LUẬN
-        </div>
+      <!-- PHẦN II: TỰ LUẬN -->
+      ${(exam.essaySection && exam.essaySection.length > 0) ? `
+        <div style="font-weight: bold; font-size: 13.5pt; margin: 18px 0 6px 0;">II. PHẦN TỰ LUẬN (${essayScoreStr} điểm)</div>
         ${exam.essaySection.map(function(e) {
-          return `<div style="margin-bottom: 0.85rem; white-space: pre-line; font-weight: 500; font-size: 0.85rem;">${e}</div>`;
+          return `
+            <div style="margin-top: 10px; margin-bottom: 14px;" contenteditable="true">
+              <b>${e.title || `Câu ${e.num} (${e.score ? e.score.toString().replace('.', ',') : ''} điểm):`}</b> ${e.text}
+              <div style="margin-top: 6px;">
+                <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+                <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+                <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+                <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+                <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+              </div>
+            </div>
+          `;
         }).join('')}
       ` : ''}
+    </div>
 
-      <div style="margin-top: 1.75rem; padding-top: 1.25rem; border-top: 2px dashed #cbd5e1;">
-        <div style="font-weight: 800; font-size: 0.95rem; color: #2563eb; margin-bottom: 0.65rem;">
-          ĐÁP ÁN & HƯỚNG DẪN CHẤM
-        </div>
-        <div style="font-size: 0.85rem; line-height: 1.8;">
-          ${exam.multipleChoice.map(function(q) {
-            return `<div><strong>Câu ${q.num}:</strong> Đáp án đúng: <span style="color: #16a34a; font-weight: 700;">${q.ans}</span> (${q.score}đ)</div>`;
+    <!-- NỘI DUNG TAB 2: MA TRẬN ĐỀ THI THÔNG TƯ 27 -->
+    <div id="examTabContent_matrix" style="display: ${currentExamActiveTab === 'matrix' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 12pt; line-height: 1.35; color: #000;">
+      
+      <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
+        MA TRẬN ĐỀ THI HỌC KÌ I MÔN ${exam.subjectName.toUpperCase()} LỚP ${exam.grade} - KẾT NỐI TRI THỨC
+      </div>
+      <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
+        NĂM HỌC ${exam.schoolYear}
+      </div>
+
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center;">
+        <thead>
+          <tr style="background: #f1f5f9; font-weight: bold;">
+            <th rowspan="3" style="border: 1px solid #000; width: 32%; padding: 6px; text-align: left;">Chủ đề / Bài học</th>
+            <th colspan="6" style="border: 1px solid #000; padding: 6px;">Mức độ nhận thức</th>
+            <th colspan="2" rowspan="2" style="border: 1px solid #000; padding: 6px;">Tổng số câu</th>
+            <th rowspan="3" style="border: 1px solid #000; width: 10%; padding: 6px;">Điểm số</th>
+          </tr>
+          <tr style="background: #f8fafc; font-weight: bold;">
+            <th colspan="2" style="border: 1px solid #000; padding: 4px;">Mức 1<br>(Nhận biết)</th>
+            <th colspan="2" style="border: 1px solid #000; padding: 4px;">Mức 2<br>(Kết nối)</th>
+            <th colspan="2" style="border: 1px solid #000; padding: 4px;">Mức 3<br>(Vận dụng)</th>
+          </tr>
+          <tr style="background: #f8fafc; font-weight: bold;">
+            <th style="border: 1px solid #000; padding: 4px;">TN</th>
+            <th style="border: 1px solid #000; padding: 4px;">TL</th>
+            <th style="border: 1px solid #000; padding: 4px;">TN</th>
+            <th style="border: 1px solid #000; padding: 4px;">TL</th>
+            <th style="border: 1px solid #000; padding: 4px;">TN</th>
+            <th style="border: 1px solid #000; padding: 4px;">TL</th>
+            <th style="border: 1px solid #000; padding: 4px;">TN</th>
+            <th style="border: 1px solid #000; padding: 4px;">TL</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${(m.topics || []).map(function(t) {
+            return `
+              <tr>
+                <td style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: 500;">${t.topic}</td>
+                <td style="border: 1px solid #000; padding: 6px;">${t.m1_mcq || '-'}</td>
+                <td style="border: 1px solid #000; padding: 6px;">${t.m1_essay || '-'}</td>
+                <td style="border: 1px solid #000; padding: 6px;">${t.m2_mcq || '-'}</td>
+                <td style="border: 1px solid #000; padding: 6px;">${t.m2_essay || '-'}</td>
+                <td style="border: 1px solid #000; padding: 6px;">${t.m3_mcq || '-'}</td>
+                <td style="border: 1px solid #000; padding: 6px;">${t.m3_essay || '-'}</td>
+                <td style="border: 1px solid #000; padding: 6px; font-weight: bold;">${t.total_mcq || 0}</td>
+                <td style="border: 1px solid #000; padding: 6px; font-weight: bold;">${t.total_essay || 0}</td>
+                <td style="border: 1px solid #000; padding: 6px; font-weight: bold;">${t.score ? t.score.toString().replace('.', ',') : '-'}</td>
+              </tr>
+            `;
           }).join('')}
+          <tr style="font-weight: bold; background: #fafafa;">
+            <td style="border: 1px solid #000; padding: 6px; text-align: left;">Tổng số câu TN / TL</td>
+            <td style="border: 1px solid #000; padding: 6px;">${s.m1_total_mcq || 0}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${s.m1_total_essay || 0}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${s.m2_total_mcq || 0}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${s.m2_total_essay || 0}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${s.m3_total_mcq || 0}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${s.m3_total_essay || 0}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${s.total_mcq_count || 0}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${s.total_essay_count || 0}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${(s.total_mcq_count || 0) + (s.total_essay_count || 0)}</td>
+          </tr>
+          <tr style="font-weight: bold; background: #fafafa;">
+            <td style="border: 1px solid #000; padding: 6px; text-align: left;">Điểm số</td>
+            <td colspan="2" style="border: 1px solid #000; padding: 6px;">${s.m1_score ? s.m1_score.toString().replace('.', ',') : '-'}</td>
+            <td colspan="2" style="border: 1px solid #000; padding: 6px;">${s.m2_score ? s.m2_score.toString().replace('.', ',') : '-'}</td>
+            <td colspan="2" style="border: 1px solid #000; padding: 6px;">${s.m3_score ? s.m3_score.toString().replace('.', ',') : '-'}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${mcqScoreStr}</td>
+            <td style="border: 1px solid #000; padding: 6px;">${essayScoreStr}</td>
+            <td style="border: 1px solid #000; padding: 6px;">10,0</td>
+          </tr>
+          <tr style="font-weight: bold; background: #f1f5f9;">
+            <td style="border: 1px solid #000; padding: 6px; text-align: left;">Tỉ lệ %</td>
+            <td colspan="2" style="border: 1px solid #000; padding: 6px;">${s.m1_pct || 40}%</td>
+            <td colspan="2" style="border: 1px solid #000; padding: 6px;">${s.m2_pct || 40}%</td>
+            <td colspan="2" style="border: 1px solid #000; padding: 6px;">${s.m3_pct || 20}%</td>
+            <td colspan="2" style="border: 1px solid #000; padding: 6px;">100%</td>
+            <td style="border: 1px solid #000; padding: 6px;">100%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- NỘI DUNG TAB 3: HƯỚNG DẪN CHẤM & ĐÁP ÁN -->
+    <div id="examTabContent_answers" style="display: ${currentExamActiveTab === 'answers' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+      
+      <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
+        HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN MÔN ${exam.subjectName.toUpperCase()} LỚP ${exam.grade}
+      </div>
+      <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
+        Bộ sách: Kết nối tri thức với cuộc sống • Năm học ${exam.schoolYear}
+      </div>
+
+      <div style="font-weight: bold; font-size: 13.5pt; margin: 12px 0 6px 0;">I. PHẦN TRẮC NGHIỆM (${mcqScoreStr} điểm)</div>
+      <p style="margin: 0 0 8px 0; font-style: italic;">Mỗi câu trả lời đúng được ${exam.multipleChoice?.[0]?.score ? exam.multipleChoice[0].score.toString().replace('.', ',') : '0,5'} điểm.</p>
+
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 18px; text-align: center;">
+        <tr style="background: #f1f5f9; font-weight: bold;">
+          <td style="border: 1px solid #000; padding: 6px; width: 15%;">Câu hỏi</td>
+          ${(exam.multipleChoice || []).map(function(q) {
+            return `<td style="border: 1px solid #000; padding: 6px;"><b>Câu ${q.num}</b></td>`;
+          }).join('')}
+        </tr>
+        <tr style="font-weight: bold; font-size: 13.5pt; color: #b91c1c;">
+          <td style="border: 1px solid #000; padding: 6px;">Đáp án</td>
+          ${(exam.multipleChoice || []).map(function(q) {
+            return `<td style="border: 1px solid #000; padding: 6px;">${q.ans || '-'}</td>`;
+          }).join('')}
+        </tr>
+      </table>
+
+      ${(exam.essaySection && exam.essaySection.length > 0) ? `
+        <div style="font-weight: bold; font-size: 13.5pt; margin: 18px 0 8px 0;">II. PHẦN TỰ LUẬN (${essayScoreStr} điểm)</div>
+        <table style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr style="background: #f1f5f9; font-weight: bold;">
+              <th style="border: 1px solid #000; width: 15%; padding: 6px; text-align: center;">Câu</th>
+              <th style="border: 1px solid #000; width: 65%; padding: 6px; text-align: center;">Nội dung đáp án & Các bước giải</th>
+              <th style="border: 1px solid #000; width: 20%; padding: 6px; text-align: center;">Biểu điểm</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${exam.essaySection.map(function(e) {
+              return `
+                <tr>
+                  <td style="border: 1px solid #000; padding: 8px; text-align: center; vertical-align: top; font-weight: bold;">
+                    Câu ${e.num}<br>(${e.score ? e.score.toString().replace('.', ',') : ''} đ)
+                  </td>
+                  <td style="border: 1px solid #000; padding: 8px; vertical-align: top; white-space: pre-line;">
+                    ${e.solution || e.text}
+                  </td>
+                  <td style="border: 1px solid #000; padding: 8px; text-align: center; vertical-align: top;">
+                    ${(e.rubric || []).map(function(r) {
+                      return `<div style="margin-bottom: 4px;"><b>${r.score}</b></div>`;
+                    }).join('') || `<b>${e.score ? e.score.toString().replace('.', ',') : ''} đ</b>`}
+                  </td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+      ` : ''}
+
+    </div>
+  `;
+}
+
+// Chuyển đổi tabs xem trước
+function switchExamTab(tabName) {
+  currentExamActiveTab = tabName;
+  var elExam = document.getElementById("examTabContent_exam");
+  var elMatrix = document.getElementById("examTabContent_matrix");
+  var elAnswers = document.getElementById("examTabContent_answers");
+  if (elExam) elExam.style.display = (tabName === "exam" ? "block" : "none");
+  if (elMatrix) elMatrix.style.display = (tabName === "matrix" ? "block" : "none");
+  if (elAnswers) elAnswers.style.display = (tabName === "answers" ? "block" : "none");
+
+  var container = document.getElementById("aiOutputContainer");
+  if (container && currentExamData) {
+    renderExamOutput(currentExamData, container);
+  }
+}
+
+// Modal Cấu hình nhanh Gemini API Key
+function openGeminiApiKeyModal() {
+  var key = localStorage.getItem("tvth_gemini_api_key") || "";
+  var modalHtml = `
+    <div class="modal-overlay" id="geminiKeyModal">
+      <div class="modal-content" style="max-width: 480px;">
+        <div class="modal-header">
+          <h3 style="display: flex; align-items: center; gap: 0.5rem; font-size: 1.1rem; color: #7c3aed;">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> Cấu hình Google Gemini AI
+          </h3>
+          <button class="modal-close-btn" onclick="document.getElementById('geminiKeyModal').remove()">&times;</button>
+        </div>
+        <div class="modal-body" style="padding: 1.25rem 0;">
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+            Nhập <strong>API Key Gemini</strong> miễn phí từ <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color: #7c3aed; font-weight: 700;">Google AI Studio</a> để AI soạn đề không giới hạn, bám sát từng bài học SGK Kết nối tri thức.
+          </p>
+          <div class="form-group">
+            <label style="font-weight: 700; font-size: 0.85rem;">Gemini API Key:</label>
+            <input type="password" id="quickGeminiApiKeyInput" class="form-control" value="${key}" placeholder="AIzaSy...">
+          </div>
+          <div style="background: #f5f3ff; border: 1px solid #ddd6fe; border-radius: var(--radius-sm); padding: 0.75rem; font-size: 0.78rem; color: #6b21a8;">
+            <i class="fa-solid fa-shield-halved"></i> Key được lưu trữ an toàn trong trình duyệt của bạn (Local Storage).
+          </div>
+        </div>
+        <div class="modal-footer" style="display: flex; justify-content: flex-end; gap: 0.5rem;">
+          <button class="btn btn-outline" onclick="document.getElementById('geminiKeyModal').remove()">Đóng</button>
+          <button class="btn btn-primary" style="background: linear-gradient(135deg, #7c3aed, #a855f7);" onclick="saveQuickGeminiApiKey()">
+            <i class="fa-solid fa-save"></i> Lưu API Key
+          </button>
         </div>
       </div>
     </div>
   `;
+  document.body.insertAdjacentHTML('beforeend', modalHtml);
+}
+
+function saveQuickGeminiApiKey() {
+  var input = document.getElementById("quickGeminiApiKeyInput");
+  if (!input) return;
+  var key = (input.value || "").trim();
+  localStorage.setItem("tvth_gemini_api_key", key);
+  showToast(key ? "Đã lưu Gemini API Key thành công!" : "Đã xóa API Key", "success");
+  var modal = document.getElementById("geminiKeyModal");
+  if (modal) modal.remove();
+  if (currentActiveTab === "aiexam") {
+    switchMainTab("aiexam");
+  }
 }
 
 /* ==========================================================================
@@ -1931,6 +2469,18 @@ window.toggleSidebarSection = toggleSidebarSection;
 window.toggleSidebarGrade = toggleSidebarGrade;
 window.selectSubjectAndNavigateTo = selectSubjectAndNavigateTo;
 window.selectWeekAndNavigateTo = selectWeekAndNavigateTo;
+
+// AI Exam Generator Window Bindings
+window.onExamGradeChange = onExamGradeChange;
+window.onExamScopePresetChange = onExamScopePresetChange;
+window.onExamScoreRatioChange = onExamScoreRatioChange;
+window.setExamScoreRatio = setExamScoreRatio;
+window.updateCognitiveTotal = updateCognitiveTotal;
+window.setCognitivePreset = setCognitivePreset;
+window.triggerAiGenerate = triggerAiGenerate;
+window.switchExamTab = switchExamTab;
+window.openGeminiApiKeyModal = openGeminiApiKeyModal;
+window.saveQuickGeminiApiKey = saveQuickGeminiApiKey;
 
 
 

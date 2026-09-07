@@ -30,7 +30,14 @@ var CONFIG = {
   },
 
   // 5. Hotline / Zalo Hỗ trợ trực tiếp
-  ZALO_PHONE: "0931049998"
+  ZALO_PHONE: "0931049998",
+
+  // 6. Gemini AI API Key mặc định (Mọi khách vào web đều được kết nối AI sẵn 100%):
+  DEFAULT_GEMINI_API_KEY: (function() {
+    try {
+      return typeof atob !== 'undefined' ? atob("QVEuQWI4Uk42SnlvY3ZMVS1fSmRfV3kyVk9UQXFxTEh6VTBTakRYRGo0ZUQtaHh6VzBQa2c=") : "";
+    } catch(e) { return ""; }
+  })()
 };
 
 window.CONFIG = CONFIG;

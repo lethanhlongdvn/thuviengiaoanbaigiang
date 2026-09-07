@@ -2682,3 +2682,91 @@ div[class*="netlify"] {
   visibility: hidden !important;
   pointer-events: none !important;
 }
+
+/* ==========================================
+   AI EXAM GENERATOR & MATRIX (GDPT 2018 - KNTT)
+   ========================================== */
+.ai-layout-container {
+  display: grid;
+  grid-template-columns: 440px 1fr;
+  gap: 1.25rem;
+  align-items: start;
+}
+
+@media (max-width: 1080px) {
+  .ai-layout-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.ai-ctrl-box .form-group {
+  margin-bottom: 0.65rem;
+}
+
+.ai-ctrl-box .form-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+  color: var(--text-main);
+}
+
+.exam-paper-sheet {
+  background: #ffffff;
+  color: #000000;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
+  transition: all 0.2s ease;
+}
+
+.exam-paper-sheet [contenteditable="true"]:hover {
+  outline: 1px dashed #7c3aed;
+  background-color: #faf5ff;
+  border-radius: 4px;
+  cursor: text;
+}
+
+.exam-paper-sheet [contenteditable="true"]:focus {
+  outline: 2px solid #7c3aed;
+  background-color: #ffffff;
+}
+
+/* Print Styling */
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+    font-size: 13pt !important;
+  }
+  .app-sidebar,
+  .main-header,
+  .footer,
+  .ai-ctrl-box,
+  .section-header,
+  .toast-container,
+  .modal-overlay,
+  button {
+    display: none !important;
+  }
+  .app-main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .ai-layout-container {
+    display: block !important;
+  }
+  #aiOutputContainer {
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+  }
+  #examTabContent_exam,
+  #examTabContent_matrix,
+  #examTabContent_answers {
+    display: block !important;
+    page-break-before: always;
+    border: none !important;
+    padding: 0 !important;
+  }
+  #examTabContent_matrix {
+    page-break-before: avoid !important;
+  }
+}
+
