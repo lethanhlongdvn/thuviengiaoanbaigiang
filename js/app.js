@@ -842,7 +842,7 @@ function renderWeeklyView(container) {
    ========================================================================== */
 
 var currentExamData = null;
-var currentExamActiveTab = "exam"; // "exam" | "matrix" | "answers"
+var currentExamActiveTab = "exam"; // "exam" | "matrix" | "answers" | "reading" | "writing" | "rubric"
 
 function getSubjectsForGrade(grade) {
   var g = parseInt(grade) || 5;
@@ -860,6 +860,7 @@ function renderAiExamView(container) {
   var currentGradeNum = selectedGrade === "all" ? 5 : parseInt(selectedGrade);
   var apiKey = localStorage.getItem("tvth_gemini_api_key") || (window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || "";
   var availableSubjects = getSubjectsForGrade(currentGradeNum);
+  var defaultSubject = availableSubjects[0]?.id || "TOAN";
 
   container.innerHTML = `
     <div class="section-header">
@@ -926,8 +927,75 @@ function renderAiExamView(container) {
           <input type="text" id="aiCustomScopeInput" class="form-control" placeholder="Ví dụ: Bài 15 Luyện tập chung - Phép nhân và phép chia..." style="margin-top: 0.4rem; display: none;">
         </div>
 
-        <!-- 3. SỐ CÂU TRẮC NGHIỆM & TỰ LUẬN -->
-        <div style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.75rem; margin-top: 0.65rem;">
+        <!-- ========================================================= -->
+        <!-- FORM ĐẶC THÙ CHO MÔN TIẾNG VIỆT (CHUẨN 2 PHIẾU ĐỌC & VIẾT) -->
+        <!-- ========================================================= -->
+        <div id="tvConfigBox" style="display: none; background: #fdf4ff; border: 1px solid #e879f9; border-radius: var(--radius-sm); padding: 0.75rem; margin-top: 0.65rem;">
+          
+          <div style="font-weight: 800; font-size: 0.82rem; color: #86198f; margin-bottom: 0.45rem; display: flex; align-items: center; gap: 0.35rem;">
+            <i class="fa-solid fa-book-open-reader"></i> I. PHẦN KIỂM TRA ĐỌC (10,0 điểm)
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr; gap: 0.45rem; margin-bottom: 0.6rem; background: #fff; padding: 0.5rem; border-radius: 4px; border: 1px solid #f0abfc;">
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="tvOralScoreSelect" style="font-weight: 700; font-size: 0.78rem; color: #581c87;">• Điểm Đọc thành tiếng:</label>
+              <select id="tvOralScoreSelect" class="form-select" style="font-size: 0.8rem;" onchange="onTvOralScoreChange(this.value)">
+                <option value="4" selected>4,0 điểm (Đọc hiểu & LTVC: 6,0 điểm - Chuẩn TT27)</option>
+                <option value="3">3,0 điểm (Đọc hiểu & LTVC: 7,0 điểm)</option>
+              </select>
+            </div>
+
+            <div class="form-group" style="margin-bottom: 0;">
+              <label for="tvOralModeSelect" style="font-weight: 700; font-size: 0.78rem; color: #581c87;">• Chế độ Đọc thành tiếng:</label>
+              <select id="tvOralModeSelect" class="form-select" style="font-size: 0.8rem;">
+                <option value="sgk" selected>📚 5 bài trong SGK KNTT (Bốc thăm, chỉ in Tên bài + Trang SGK)</option>
+                <option value="custom">📄 1 bài đọc ngoài SGK tương tự (In toàn văn bài đọc vào đề)</option>
+              </select>
+              <p style="font-size: 0.71rem; color: #7e22ce; margin: 0.25rem 0 0 0; line-height: 1.3;">
+                <i class="fa-solid fa-circle-info"></i> <i>Câu hỏi & Gợi ý trả lời sẽ được in trong <b>Hướng Dẫn Chấm</b> để giáo viên hỏi học sinh.</i>
+              </p>
+            </div>
+          </div>
+
+          <div style="font-weight: 800; font-size: 0.82rem; color: #86198f; margin-bottom: 0.45rem; display: flex; align-items: center; gap: 0.35rem;">
+            <i class="fa-solid fa-pen-nib"></i> II. PHẦN KIỂM TRA VIẾT (10,0 điểm)
+          </div>
+
+          <!-- Dành cho Lớp 1, 2, 3 -->
+          <div id="tvWritingGrade123Box" style="background: #fff; padding: 0.5rem; border-radius: 4px; border: 1px solid #f0abfc;">
+            <label for="tvWritingRatioSelect" style="font-weight: 700; font-size: 0.78rem; color: #581c87;">• Phân chia điểm Chính tả & Tập làm văn:</label>
+            <select id="tvWritingRatioSelect" class="form-select" style="font-size: 0.8rem;">
+              <option value="4-6" selected>Chính tả (Nghe-viết): 4,0đ — Viết đoạn văn: 6,0đ (Chuẩn TT27)</option>
+              <option value="3-7">Chính tả (Nghe-viết): 3,0đ — Viết đoạn văn: 7,0đ</option>
+              <option value="5-5">Chính tả (Nghe-viết): 5,0đ — Viết đoạn văn: 5,0đ</option>
+            </select>
+          </div>
+
+          <!-- Dành cho Lớp 4, 5 -->
+          <div id="tvWritingGrade45Box" style="display: none; background: #fff; padding: 0.5rem; border-radius: 4px; border: 1px solid #f0abfc;">
+            <div style="font-size: 0.78rem; font-weight: 700; color: #1e40af; margin-bottom: 0.35rem;">
+              <i class="fa-solid fa-circle-check"></i> Tập làm văn: 10,0 điểm (Bài văn hoàn chỉnh)
+            </div>
+            <label for="tvEssayGenreSelect" style="font-weight: 700; font-size: 0.78rem; color: #581c87;">• Thể loại Tập làm văn:</label>
+            <select id="tvEssayGenreSelect" class="form-select" style="font-size: 0.8rem;">
+              <option value="Văn miêu tả cây cối" selected>Văn miêu tả cây cối (cây bóng mát, cây hoa, cây ăn quả)</option>
+              <option value="Văn miêu tả con vật">Văn miêu tả con vật nuôi yêu thích</option>
+              <option value="Văn miêu tả cảnh vật">Văn miêu tả cảnh đẹp thiên nhiên / quê hương</option>
+              <option value="Văn miêu tả người">Văn miêu tả người thân / thầy cô giáo</option>
+              <option value="Văn kể chuyện">Văn kể lại câu chuyện đã học / đã nghe</option>
+              <option value="Viết đoạn văn nêu tình cảm cảm xúc">Viết đoạn văn nêu tình cảm, cảm xúc</option>
+            </select>
+            <p style="font-size: 0.71rem; color: #1e40af; margin: 0.3rem 0 0 0;">
+              <i class="fa-solid fa-award"></i> Tự động tạo Barem chấm 10 điểm chi tiết trong Hướng Dẫn Chấm.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- ========================================================= -->
+        <!-- FORM CHUẨN CHO CÁC MÔN TOÁN, KHOA HỌC, XÃ HỘI, TIN HỌC... -->
+        <!-- ========================================================= -->
+        <div id="standardConfigBox" style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.75rem; margin-top: 0.65rem;">
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem; margin-bottom: 0.5rem;">
             <div class="form-group" style="margin-bottom: 0;">
               <label for="aiMcqCount" style="font-weight: 700; font-size: 0.8rem;">4. Số câu Trắc nghiệm:</label>
@@ -966,7 +1034,7 @@ function renderAiExamView(container) {
         <div style="background: #fdf4ff; border: 1px solid #f0abfc; border-radius: var(--radius-sm); padding: 0.75rem; margin-top: 0.65rem;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem;">
             <label style="font-weight: 800; font-size: 0.8rem; color: #86198f; margin-bottom: 0;">
-              7. Ma trận 3 Mức độ nhận thức (Tự nhập %):
+              Ma trận 3 Mức độ nhận thức (Tự nhập %):
             </label>
             <span id="aiCognitiveTotalBadge" style="font-size: 0.72rem; font-weight: 800; padding: 0.15rem 0.5rem; border-radius: 9999px; background: #dcfce7; color: #166534;">
               Tổng: 100% ✓
@@ -1009,23 +1077,23 @@ function renderAiExamView(container) {
         <!-- 5. CÁC THÔNG SỐ BỔ SUNG -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem; margin-top: 0.65rem;">
           <div class="form-group" style="margin-bottom: 0;">
-            <label for="aiDurationSelect" style="font-weight: 700; font-size: 0.8rem;">8. Thời gian làm bài:</label>
+            <label for="aiDurationSelect" style="font-weight: 700; font-size: 0.8rem;">Thời gian làm bài:</label>
             <select id="aiDurationSelect" class="form-select">
               <option value="35 phút" ${currentGradeNum <= 2 ? 'selected' : ''}>35 phút (Tiết học chuẩn)</option>
               <option value="40 phút" ${currentGradeNum > 2 ? 'selected' : ''}>40 phút (Chuẩn định kỳ)</option>
               <option value="15 phút">15 phút (Kiểm tra nhanh)</option>
-              <option value="45 phút">45 phút</option>
+              <option value="Đọc: 35p | Viết: 35p">Đọc: 35p | Viết: 35p (Tiếng Việt)</option>
             </select>
           </div>
 
           <div class="form-group" style="margin-bottom: 0;">
-            <label for="aiSchoolNameInput" style="font-weight: 700; font-size: 0.8rem;">9. Tên Trường Tiểu học:</label>
+            <label for="aiSchoolNameInput" style="font-weight: 700; font-size: 0.8rem;">Tên Trường Tiểu học:</label>
             <input type="text" id="aiSchoolNameInput" class="form-control" placeholder="Trường Tiểu học .................">
           </div>
         </div>
 
         <div class="form-group" style="margin-top: 0.5rem; margin-bottom: 0;">
-          <label for="aiCustomPrompt" style="font-weight: 700; font-size: 0.8rem;">10. Ghi chú / Yêu cầu đặc biệt cho AI (Tùy chọn):</label>
+          <label for="aiCustomPrompt" style="font-weight: 700; font-size: 0.8rem;">Ghi chú / Yêu cầu đặc biệt cho AI (Tùy chọn):</label>
           <input type="text" id="aiCustomPrompt" class="form-control" placeholder="Ví dụ: Đề vừa sức học sinh, câu hỏi trắc nghiệm có tình huống thực tế...">
         </div>
 
@@ -1036,7 +1104,7 @@ function renderAiExamView(container) {
 
       </div>
 
-      <!-- CỘT KẾT QUẢ BÊN PHẢI (TRÌNH XEM TRƯỚC ĐỀ THI 3 TABS) -->
+      <!-- CỘT KẾT QUẢ BÊN PHẢI (TRÌNH XEM TRƯỚC ĐỀ THI ĐA TABS) -->
       <div class="paper-preview-card" id="aiOutputContainer" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm); min-height: 600px;">
         <div style="text-align: center; padding: 6rem 1rem; color: var(--text-muted);">
           <div style="width: 70px; height: 70px; border-radius: 50%; background: #f3e8ff; color: #7c3aed; display: inline-flex; align-items: center; justify-content: center; font-size: 2.2rem; margin-bottom: 1.25rem;">
@@ -1052,8 +1120,32 @@ function renderAiExamView(container) {
   `;
 
   setTimeout(function() {
-    updateExamScopeOptions(currentGradeNum, availableSubjects[0]?.id);
+    updateExamSubjectFormState(defaultSubject, currentGradeNum);
+    updateExamScopeOptions(currentGradeNum, defaultSubject);
   }, 20);
+}
+
+// Cập nhật giao diện form khi đổi môn học hoặc khối lớp
+function updateExamSubjectFormState(subjectId, grade) {
+  var isTv = (subjectId === "TIENG_VIET");
+  var g = parseInt(grade) || 3;
+  
+  var tvBox = document.getElementById("tvConfigBox");
+  var stdBox = document.getElementById("standardConfigBox");
+  var tvG123Box = document.getElementById("tvWritingGrade123Box");
+  var tvG45Box = document.getElementById("tvWritingGrade45Box");
+
+  if (tvBox) tvBox.style.display = isTv ? "block" : "none";
+  if (stdBox) stdBox.style.display = isTv ? "none" : "block";
+
+  if (isTv) {
+    if (tvG123Box) tvG123Box.style.display = (g <= 3) ? "block" : "none";
+    if (tvG45Box) tvG45Box.style.display = (g >= 4) ? "block" : "none";
+  }
+}
+
+function onTvOralScoreChange(val) {
+  // Có thể cập nhật nhãn nếu cần
 }
 
 // Cập nhật danh sách môn khi đổi khối lớp
@@ -1065,12 +1157,14 @@ function onExamGradeChange(grade) {
     return `<option value="${s.id}">${s.name}</option>`;
   }).join('');
 
+  updateExamSubjectFormState(select.value, grade);
   updateExamScopeOptions(grade, select.value);
 }
 
 // Cập nhật phạm vi bài học khi đổi môn
 function onExamSubjectChange(subjectId) {
   var grade = document.getElementById("aiGradeSelect")?.value || 5;
+  updateExamSubjectFormState(subjectId, grade);
   updateExamScopeOptions(grade, subjectId);
 }
 
@@ -1199,23 +1293,56 @@ async function triggerAiGenerate() {
   var customScope = document.getElementById("aiCustomScopeInput")?.value || "";
   var scope = (scopePreset === "custom" && customScope.trim()) ? customScope.trim() : scopePreset;
 
-  var mcqCount = parseInt(document.getElementById("aiMcqCount")?.value) || 8;
-  var essayCount = parseInt(document.getElementById("aiEssayCount")?.value);
-  if (isNaN(essayCount)) essayCount = 2;
-  var essayGuide = document.getElementById("aiEssayGuide")?.value || "";
-
-  var sliderVal = parseInt(document.getElementById("aiScoreRatioSlider")?.value);
-  var mcqPercent = !isNaN(sliderVal) ? sliderVal : 70;
-  var essayPercent = 100 - mcqPercent;
+  var duration = document.getElementById("aiDurationSelect")?.value || "40 phút";
+  var schoolName = document.getElementById("aiSchoolNameInput")?.value || "";
+  var customPrompt = document.getElementById("aiCustomPrompt")?.value || "";
+  var apiKey = localStorage.getItem("tvth_gemini_api_key") || (window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || "";
 
   var level1Percent = parseInt(document.getElementById("aiLevel1Pct")?.value) || 40;
   var level2Percent = parseInt(document.getElementById("aiLevel2Pct")?.value) || 40;
   var level3Percent = parseInt(document.getElementById("aiLevel3Pct")?.value) || 20;
 
-  var duration = document.getElementById("aiDurationSelect")?.value || "40 phút";
-  var schoolName = document.getElementById("aiSchoolNameInput")?.value || "";
-  var customPrompt = document.getElementById("aiCustomPrompt")?.value || "";
-  var apiKey = localStorage.getItem("tvth_gemini_api_key") || (window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || "";
+  var isTv = (subjectId === "TIENG_VIET");
+  var payload = {
+    grade: grade,
+    subjectId: subjectId,
+    scope: scope,
+    duration: duration,
+    schoolName: schoolName,
+    customPrompt: customPrompt,
+    apiKey: apiKey,
+    level1Percent: level1Percent,
+    level2Percent: level2Percent,
+    level3Percent: level3Percent
+  };
+
+  if (isTv) {
+    var oralScoreVal = parseFloat(document.getElementById("tvOralScoreSelect")?.value) || 4.0;
+    var oralModeVal = document.getElementById("tvOralModeSelect")?.value || "sgk";
+    var ratioVal = document.getElementById("tvWritingRatioSelect")?.value || "4-6";
+    var dictScoreVal = parseFloat(ratioVal.split('-')[0]) || 4.0;
+    var genreVal = document.getElementById("tvEssayGenreSelect")?.value || "Văn miêu tả cây cối";
+
+    payload.tvOralScore = oralScoreVal;
+    payload.tvOralMode = oralModeVal;
+    payload.tvDictationScore = dictScoreVal;
+    payload.tvEssayGenre = genreVal;
+  } else {
+    var mcqCount = parseInt(document.getElementById("aiMcqCount")?.value) || 8;
+    var essayCount = parseInt(document.getElementById("aiEssayCount")?.value);
+    if (isNaN(essayCount)) essayCount = 2;
+    var essayGuide = document.getElementById("aiEssayGuide")?.value || "";
+
+    var sliderVal = parseInt(document.getElementById("aiScoreRatioSlider")?.value);
+    var mcqPercent = !isNaN(sliderVal) ? sliderVal : 70;
+    var essayPercent = 100 - mcqPercent;
+
+    payload.mcqCount = mcqCount;
+    payload.essayCount = essayCount;
+    payload.essayGuide = essayGuide;
+    payload.mcqPercent = mcqPercent;
+    payload.essayPercent = essayPercent;
+  }
 
   var outputEl = document.getElementById("aiOutputContainer");
   if (!outputEl) return;
@@ -1225,55 +1352,519 @@ async function triggerAiGenerate() {
       <div class="spinner" style="border-top-color: #7c3aed; width: 44px; height: 44px; margin: 0 auto 1.5rem; border-width: 4px;"></div>
       <h3 style="color: #7c3aed; font-weight: 800; font-size: 1.2rem; margin-bottom: 0.5rem;">AI đang phân tích chương trình SGK Kết nối tri thức...</h3>
       <p style="color: var(--text-muted); font-size: 0.88rem; max-width: 450px; margin: 0 auto;">
-        Đang xây dựng Ma trận 3 Mức độ (${level1Percent}% - ${level2Percent}% - ${level3Percent}%), Đề kiểm tra (${mcqCount} câu TN + ${essayCount} câu TL) và Barem chấm chuẩn Thông tư 27.
+        ${isTv ? 'Đang xây dựng Đề Đọc (Đọc tiếng + Đọc hiểu), Đề Viết (Chính tả + TLV), Ma trận Thông tư 27 và Barem chấm chi tiết...' : 'Đang xây dựng Ma trận 3 Mức độ, Đề kiểm tra và Barem chấm chuẩn Thông tư 27...'}
       </p>
     </div>
   `;
 
   setTimeout(async function() {
     try {
-      var exam = await AIService.generateExam({
-        grade: grade,
-        subjectId: subjectId,
-        scope: scope,
-        mcqCount: mcqCount,
-        essayCount: essayCount,
-        essayGuide: essayGuide,
-        mcqPercent: mcqPercent,
-        essayPercent: essayPercent,
-        level1Percent: level1Percent,
-        level2Percent: level2Percent,
-        level3Percent: level3Percent,
-        duration: duration,
-        schoolName: schoolName,
-        customPrompt: customPrompt,
-        apiKey: apiKey
-      });
-
+      var exam = await AIService.generateExam(payload);
       currentExamData = exam;
-      currentExamActiveTab = "exam";
+      currentExamActiveTab = (exam.isTiengViet || exam.subjectId === "TIENG_VIET" || exam.readingExam) ? "reading" : "exam";
       renderExamOutput(exam, outputEl);
       showToast("Đã soạn đề kiểm tra & ma trận thành công!", "success");
     } catch (err) {
       console.error(err);
       showToast("Có lỗi khi tạo đề, vui lòng thử lại!", "error");
     }
-  }, 600);
+  }, 500);
 }
 
-// Hiển thị kết quả đề thi dạng 3 Tabs (Đề thi - Ma trận - Đáp án)
+// Hiển thị kết quả đề thi dạng Tabs
 function renderExamOutput(exam, container) {
   if (!container || !exam) return;
-
-  var mcqScoreStr = exam.mcqTotalScore ? exam.mcqTotalScore.toString().replace('.', ',') : "7,0";
-  var essayScoreStr = exam.essayTotalScore ? exam.essayTotalScore.toString().replace('.', ',') : "3,0";
-  var m = exam.matrix || {};
-  var s = m.summary || {};
 
   var isAi = exam.source === 'ai';
   var sourceBadgeHtml = isAi 
     ? `<div style="display: inline-flex; align-items: center; gap: 0.35rem; background: #f3e8ff; color: #7c3aed; padding: 0.35rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 700; border: 1px solid #d8b4fe;" title="Đề thi được tạo trực tuyến bởi mô hình Google Gemini AI"><i class="fa-solid fa-brain"></i> ${exam.modelName ? `AI (${exam.modelName})` : `Google Gemini AI (Online)`}</div>`
     : `<div style="display: inline-flex; align-items: center; gap: 0.35rem; background: #fef3c7; color: #b45309; padding: 0.35rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 700; border: 1px solid #fde68a;" title="Đề thi được tạo tự động từ Ngân hàng SGK Kết nối tri thức số hóa"><i class="fa-solid fa-database"></i> Ngân hàng SGK (Offline)</div>`;
+
+  // =========================================================================
+  // GIAO DIỆN HIỂN THỊ ĐẶC BIỆT CHO MÔN TIẾNG VIỆT (4 TABS: ĐỌC, VIẾT, MA TRẬN, ĐÁP ÁN)
+  // =========================================================================
+  if (exam.isTiengViet || exam.subjectId === "TIENG_VIET" || exam.readingExam) {
+    var rd = exam.readingExam || {};
+    var wr = exam.writingExam || {};
+    var oralScoreStr = (rd.oralScore || 4.0).toFixed(1).replace('.', ',');
+    var compScoreStr = (rd.comprehensionScore || 6.0).toFixed(1).replace('.', ',');
+    var isSGK = (rd.oralMode !== "custom");
+    var grade = exam.grade || 3;
+
+    if (!["reading", "writing", "matrix", "rubric"].includes(currentExamActiveTab)) {
+      currentExamActiveTab = "reading";
+    }
+
+    container.innerHTML = `
+      <!-- THANH ĐIỀU HƯỚNG 4 TABS TIẾNG VIỆT -->
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.65rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem;">
+        <div style="display: flex; gap: 0.35rem; background: #f1f5f9; padding: 0.25rem; border-radius: var(--radius-sm); align-items: center; flex-wrap: wrap;">
+          <button class="btn btn-sm ${currentExamActiveTab === 'reading' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'reading' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('reading')">
+            <i class="fa-solid fa-book-open"></i> 1. Phiếu Đề Đọc (10đ)
+          </button>
+          <button class="btn btn-sm ${currentExamActiveTab === 'writing' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'writing' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('writing')">
+            <i class="fa-solid fa-pen-nib"></i> 2. Phiếu Đề Viết (10đ)
+          </button>
+          <button class="btn btn-sm ${currentExamActiveTab === 'matrix' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'matrix' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('matrix')">
+            <i class="fa-solid fa-table-cells"></i> 3. Ma Trận Đề (TT 27)
+          </button>
+          <button class="btn btn-sm ${currentExamActiveTab === 'rubric' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'rubric' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('rubric')">
+            <i class="fa-solid fa-square-check"></i> 4. Hướng Dẫn Chấm
+          </button>
+        </div>
+
+        <div style="display: flex; gap: 0.45rem; align-items: center;">
+          ${sourceBadgeHtml}
+          <button class="btn btn-sm btn-primary" style="background: #16a34a; border-color: #16a34a;" onclick="AIService.exportToWord(currentExamData)">
+            <i class="fa-solid fa-file-word"></i> Xuất File Word (.doc)
+          </button>
+          <button class="btn btn-sm btn-outline" onclick="window.print()">
+            <i class="fa-solid fa-print"></i> In Đề
+          </button>
+        </div>
+      </div>
+
+      <!-- TAB 1: PHIẾU ĐỀ ĐỌC (HỌC SINH) -->
+      <div id="examTabContent_reading" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'reading' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+        
+        <!-- HEADER 2 CỘT -->
+        <table style="width: 100%; border: none; margin-bottom: 12px;">
+          <tr>
+            <td style="width: 48%; vertical-align: top;">
+              <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
+              Họ và tên: ...................................................<br>
+              Lớp: ${exam.grade}.....
+            </td>
+            <td style="width: 52%; vertical-align: top; text-align: right;">
+              <i>Thứ….. ngày … tháng … năm 2026</i><br>
+              <b style="font-size: 13.5pt; text-transform: uppercase;">PHIẾU KIỂM TRA ĐỌC</b><br>
+              <b>MÔN: TIẾNG VIỆT - LỚP ${exam.grade}</b><br>
+              <i>Thời gian làm bài: 35 - 40 phút</i>
+            </td>
+          </tr>
+        </table>
+
+        <!-- KHUNG ĐÁNH GIÁ 3 Ô PHẦN ĐỌC -->
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px;">
+          <tr style="background: #fafafa; font-weight: bold; text-align: center;">
+            <td style="border: 1px solid #000; width: 16%; padding: 4px;">Đọc tiếng</td>
+            <td style="border: 1px solid #000; width: 16%; padding: 4px;">Đọc hiểu</td>
+            <td style="border: 1px solid #000; width: 16%; padding: 4px;">Tổng điểm</td>
+            <td style="border: 1px solid #000; width: 34%; padding: 4px;">Nhận xét của giáo viên</td>
+            <td style="border: 1px solid #000; width: 18%; padding: 4px;">Chữ kí PHHS</td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000; height: 50px; text-align: center;">..... / ${oralScoreStr}đ</td>
+            <td style="border: 1px solid #000; text-align: center;">..... / ${compScoreStr}đ</td>
+            <td style="border: 1px solid #000; text-align: center; font-weight: bold; font-size: 13pt;">..... / 10đ</td>
+            <td style="border: 1px solid #000;">&nbsp;</td>
+            <td style="border: 1px solid #000;">&nbsp;</td>
+          </tr>
+        </table>
+
+        <!-- A. ĐỌC THÀNH TIẾNG -->
+        <div style="font-weight: bold; font-size: 13.5pt; margin: 10px 0 4px 0;">A. PHẦN ĐỌC THÀNH TIẾNG (${oralScoreStr} điểm)</div>
+        <p style="margin: 0 0 6px 0; font-style: italic;">
+          ${rd.oralGuideIntro || "Học sinh bốc thăm đọc thành tiếng một đoạn trong các bài sau (thời gian không quá 1 phút) và trả lời câu hỏi do giáo viên nêu:"}
+        </p>
+
+        ${isSGK ? `
+          <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 4px; padding: 8px 12px; margin-bottom: 14px;">
+            <table style="width: 100%; border-collapse: collapse;">
+              ${(rd.oralItems || []).map(function(item, idx) {
+                return `
+                  <tr style="border-bottom: 1px dashed #e2e8f0;">
+                    <td style="padding: 4px 6px; font-weight: bold; width: 14%; color: #7c3aed;">Phiếu ${idx + 1}:</td>
+                    <td style="padding: 4px 6px;">
+                      <b>${item.title}</b> <span style="color: #64748b; font-style: italic;">(${item.bookVolume || 'Tập 1'} - ${item.page || 'SGK KNTT'})</span>
+                    </td>
+                  </tr>
+                `;
+              }).join('')}
+            </table>
+          </div>
+        ` : `
+          <div style="background: #fafafa; border: 1px solid #ccc; padding: 10px 14px; margin: 8px 0 14px 0; line-height: 1.45;">
+            <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 4px;">
+              ${rd.oralItems?.[0]?.title || "BÀI ĐỌC THÀNH TIẾNG"}
+            </div>
+            <div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px;">
+              ${rd.oralItems?.[0]?.author ? `Tác giả: ${rd.oralItems[0].author}` : ''}
+            </div>
+            <div style="text-align: justify; text-indent: 1.5rem;">
+              ${rd.oralItems?.[0]?.passage || ""}
+            </div>
+          </div>
+        `}
+
+        <!-- B. ĐỌC HIỂU VÀ KIẾN THỨC TIẾNG VIỆT -->
+        <div style="font-weight: bold; font-size: 13.5pt; margin: 14px 0 4px 0;">B. PHẦN ĐỌC HIỂU VÀ KIẾN THỨC TIẾNG VIỆT (${compScoreStr} điểm)</div>
+        <p style="margin: 0 0 6px 0; font-style: italic;">Đọc thầm bài văn sau và hoàn thành các câu hỏi bên dưới:</p>
+
+        <div style="background: #fdfdfd; border: 1px solid #cbd5e1; border-radius: 4px; padding: 10px 14px; margin: 6px 0 12px 0;">
+          <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 2px;">
+            ${rd.comprehensionReading?.title || "BÀI ĐỌC THẦM"}
+          </div>
+          <div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px; color: #555;">
+            ${rd.comprehensionReading?.author ? `Tác giả: ${rd.comprehensionReading.author}` : ''}
+          </div>
+          <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45;">
+            ${rd.comprehensionReading?.passage || ""}
+          </div>
+        </div>
+
+        <p style="margin: 6px 0 8px 0; font-style: italic; font-weight: bold;">Khoanh vào chữ cái trước câu trả lời đúng và hoàn thành các bài tập:</p>
+
+        ${(rd.questions || []).map(function(q) {
+          if (q.type === 'mcq') {
+            return `
+              <div style="margin-bottom: 10px;" contenteditable="true">
+                <b>Câu ${q.num}</b> (${q.score ? q.score.toString().replace('.', ',') : '0,5'} điểm - ${q.level || 'Mức 1'}): ${q.text}
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0.35rem; padding-left: 1.25rem; margin-top: 3px;">
+                  ${(q.options || []).map(function(opt) { return `<div>${opt}</div>`; }).join('')}
+                </div>
+              </div>
+            `;
+          } else {
+            return `
+              <div style="margin-top: 10px; margin-bottom: 12px;" contenteditable="true">
+                <b>Câu ${q.num}</b> (${q.score ? q.score.toString().replace('.', ',') : '1,0'} điểm - ${q.level || 'Mức 2'}): ${q.text}
+                <div style="margin-top: 4px;">
+                  <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+                  <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+                </div>
+              </div>
+            `;
+          }
+        }).join('')}
+      </div>
+
+      <!-- TAB 2: PHIẾU ĐỀ VIẾT (HỌC SINH) -->
+      <div id="examTabContent_writing" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'writing' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+        
+        <!-- HEADER 2 CỘT -->
+        <table style="width: 100%; border: none; margin-bottom: 12px;">
+          <tr>
+            <td style="width: 48%; vertical-align: top;">
+              <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
+              Họ và tên: ...................................................<br>
+              Lớp: ${exam.grade}.....
+            </td>
+            <td style="width: 52%; vertical-align: top; text-align: right;">
+              <i>Thứ….. ngày … tháng … năm 2026</i><br>
+              <b style="font-size: 13.5pt; text-transform: uppercase;">PHIẾU KIỂM TRA VIẾT</b><br>
+              <b>MÔN: TIẾNG VIỆT - LỚP ${exam.grade}</b><br>
+              <i>Thời gian làm bài: 35 - 40 phút</i>
+            </td>
+          </tr>
+        </table>
+
+        ${grade <= 3 ? `
+          <!-- KHUNG ĐÁNH GIÁ 3 Ô PHẦN VIẾT LỚP 1-3 -->
+          <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px;">
+            <tr style="background: #fafafa; font-weight: bold; text-align: center;">
+              <td style="border: 1px solid #000; width: 18%; padding: 4px;">Chính tả</td>
+              <td style="border: 1px solid #000; width: 18%; padding: 4px;">Tập làm văn</td>
+              <td style="border: 1px solid #000; width: 18%; padding: 4px;">Tổng điểm Viết</td>
+              <td style="border: 1px solid #000; width: 28%; padding: 4px;">Nhận xét của giáo viên</td>
+              <td style="border: 1px solid #000; width: 18%; padding: 4px;">Chữ kí PHHS</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #000; height: 50px; text-align: center;">..... / ${(wr.dictation?.score || 4.0).toFixed(1).replace('.', ',')}đ</td>
+              <td style="border: 1px solid #000; text-align: center;">..... / ${(wr.paragraphWriting?.score || 6.0).toFixed(1).replace('.', ',')}đ</td>
+              <td style="border: 1px solid #000; text-align: center; font-weight: bold; font-size: 13pt;">..... / 10đ</td>
+              <td style="border: 1px solid #000;">&nbsp;</td>
+              <td style="border: 1px solid #000;">&nbsp;</td>
+            </tr>
+          </table>
+
+          <!-- PHẦN 1: CHÍNH TẢ -->
+          <div style="font-weight: bold; font-size: 13.5pt; margin: 12px 0 4px 0;">I. CHÍNH TẢ (Nghe - viết) (${(wr.dictation?.score || 4.0).toFixed(1).replace('.', ',')} điểm)</div>
+          <p style="margin: 0 0 6px 0; font-style: italic;">
+            <b>${wr.dictation?.title || "Bài viết chính tả"}</b> ${wr.dictation?.author ? `(Tác giả: ${wr.dictation.author})` : ''}
+          </p>
+
+          <div style="margin-top: 8px;">
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+          </div>
+
+          <!-- PHẦN 2: TẬP LÀM VĂN -->
+          <div style="font-weight: bold; font-size: 13.5pt; margin: 18px 0 4px 0;">II. TẬP LÀM VĂN (${(wr.paragraphWriting?.score || 6.0).toFixed(1).replace('.', ',')} điểm)</div>
+          <p style="margin: 0 0 6px 0; font-weight: bold;">
+            Đề bài: ${wr.paragraphWriting?.prompt || "Viết đoạn văn ngắn theo chủ điểm đã học."}
+          </p>
+          ${(wr.paragraphWriting?.suggestions && wr.paragraphWriting.suggestions.length > 0) ? `
+            <div style="font-style: italic; margin-bottom: 8px; font-size: 11.5pt; color: #475569;">
+              Gợi ý:
+              ${wr.paragraphWriting.suggestions.map(function(s){ return `<div>• ${s}</div>`; }).join('')}
+            </div>
+          ` : ''}
+
+          <div style="margin-top: 8px;">
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+          </div>
+        ` : `
+          <!-- KHUNG ĐÁNH GIÁ LỚP 4-5 -->
+          <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px;">
+            <tr style="background: #fafafa; font-weight: bold; text-align: center;">
+              <td style="border: 1px solid #000; width: 25%; padding: 6px;">Điểm Tập làm văn</td>
+              <td style="border: 1px solid #000; width: 50%; padding: 6px;">Nhận xét của giáo viên</td>
+              <td style="border: 1px solid #000; width: 25%; padding: 6px;">Chữ kí của PHHS</td>
+            </tr>
+            <tr>
+              <td style="border: 1px solid #000; height: 60px; text-align: center; font-weight: bold; font-size: 14pt;">..... / 10đ</td>
+              <td style="border: 1px solid #000;">&nbsp;</td>
+              <td style="border: 1px solid #000;">&nbsp;</td>
+            </tr>
+          </table>
+
+          <div style="font-weight: bold; font-size: 13.5pt; margin: 12px 0 4px 0;">TẬP LÀM VĂN (10,0 điểm)</div>
+          <p style="margin: 0 0 8px 0; font-weight: bold; font-size: 13.5pt;">
+            Đề bài: ${wr.essay?.prompt || "Em hãy viết một bài văn hoàn chỉnh đúng thể loại đã học."}
+          </p>
+          ${(wr.essay?.suggestions && wr.essay.suggestions.length > 0) ? `
+            <div style="font-style: italic; margin-bottom: 10px; font-size: 12pt; background: #f8fafc; border: 1px dashed #94a3b8; padding: 8px 12px; border-radius: 4px;">
+              <b>Gợi ý dàn ý:</b>
+              ${wr.essay.suggestions.map(function(s){ return `<div>• ${s}</div>`; }).join('')}
+            </div>
+          ` : ''}
+
+          <div style="margin-top: 8px;">
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+            <div style="border-bottom: 1px dotted #777; height: 24px;"></div>
+          </div>
+        `}
+
+      </div>
+
+      <!-- TAB 3: MA TRẬN ĐỀ TIẾNG VIỆT (TT 27) -->
+      <div id="examTabContent_matrix" style="display: ${currentExamActiveTab === 'matrix' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 12pt; line-height: 1.35; color: #000;">
+        <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
+          MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}
+        </div>
+        <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
+          Bộ sách: Kết nối tri thức với cuộc sống • Năm học ${exam.schoolYear}
+        </div>
+
+        <div style="font-weight: bold; font-size: 13pt; margin: 10px 0 6px 0; color: #1e3a8a;">I. MA TRẬN NỘI DUNG VÀ MỨC ĐỘ NHẬN THỨC PHẦN ĐỌC (10 ĐIỂM)</div>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px; text-align: center;">
+          <thead>
+            <tr style="background: #f1f5f9; font-weight: bold;">
+              <th rowspan="2" style="border: 1px solid #000; width: 35%; padding: 6px; text-align: left;">Mạch kiến thức, kĩ năng</th>
+              <th colspan="3" style="border: 1px solid #000; padding: 6px;">Mức độ nhận thức (TT 27)</th>
+              <th rowspan="2" style="border: 1px solid #000; width: 15%; padding: 6px;">Tổng điểm</th>
+            </tr>
+            <tr style="background: #f8fafc; font-weight: bold;">
+              <th style="border: 1px solid #000; padding: 4px;">Mức 1</th>
+              <th style="border: 1px solid #000; padding: 4px;">Mức 2</th>
+              <th style="border: 1px solid #000; padding: 4px;">Mức 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${(exam.matrix?.readingMatrix || []).map(function(r) {
+              return `
+                <tr>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: 500;">${r.component}</td>
+                  <td style="border: 1px solid #000; padding: 6px;">${r.m1 || '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px;">${r.m2 || '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px;">${r.m3 || '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px; font-weight: bold;">${r.total || '-'}đ</td>
+                </tr>
+              `;
+            }).join('')}
+            <tr style="font-weight: bold; background: #fafafa;">
+              <td style="border: 1px solid #000; padding: 6px; text-align: left;">Tổng cộng Phần Đọc</td>
+              <td style="border: 1px solid #000; padding: 6px;">4,0đ</td>
+              <td style="border: 1px solid #000; padding: 6px;">4,0đ</td>
+              <td style="border: 1px solid #000; padding: 6px;">2,0đ</td>
+              <td style="border: 1px solid #000; padding: 6px; font-weight: bold;">10,0đ</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div style="font-weight: bold; font-size: 13pt; margin: 14px 0 6px 0; color: #1e3a8a;">II. MA TRẬN NỘI DUNG VÀ MỨC ĐỘ NHẬN THỨC PHẦN VIẾT (10 ĐIỂM)</div>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px; text-align: center;">
+          <thead>
+            <tr style="background: #f1f5f9; font-weight: bold;">
+              <th style="border: 1px solid #000; width: 45%; padding: 6px; text-align: left;">Nội dung kiểm tra</th>
+              <th style="border: 1px solid #000; width: 30%; padding: 6px;">Mức độ đáp ứng</th>
+              <th style="border: 1px solid #000; width: 25%; padding: 6px;">Điểm số</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${(exam.matrix?.writingMatrix || []).map(function(w) {
+              return `
+                <tr>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: left; font-weight: 500;">${w.component}</td>
+                  <td style="border: 1px solid #000; padding: 6px;">${w.level}</td>
+                  <td style="border: 1px solid #000; padding: 6px; font-weight: bold;">${w.score} điểm</td>
+                </tr>
+              `;
+            }).join('')}
+            <tr style="font-weight: bold; background: #fafafa;">
+              <td style="border: 1px solid #000; padding: 6px; text-align: left;">Tổng cộng Phần Viết</td>
+              <td style="border: 1px solid #000; padding: 6px;">Chuẩn năng lực TT 27</td>
+              <td style="border: 1px solid #000; padding: 6px; font-weight: bold;">10,0 điểm</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- TAB 4: HƯỚNG DẪN CHẤM & ĐÁP ÁN TIẾNG VIỆT -->
+      <div id="examTabContent_rubric" style="display: ${currentExamActiveTab === 'rubric' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+        <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
+          HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN MÔN TIẾNG VIỆT LỚP ${exam.grade}
+        </div>
+        <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
+          Chuẩn đánh giá học sinh Tiểu học theo Thông tư 27/2020/TT-BGDĐT
+        </div>
+
+        <!-- 1. HƯỚNG DẪN CHẤM ĐỌC THÀNH TIẾNG -->
+        <div style="font-weight: bold; font-size: 13.5pt; margin: 10px 0 4px 0; color: #1e3a8a;">A. HƯỚNG DẪN CHẤM ĐỌC THÀNH TIẾNG (${oralScoreStr} ĐIỂM)</div>
+        <p style="margin: 0 0 6px 0; font-size: 11.5pt; white-space: pre-line;">
+          ${exam.teacherGuide?.oralGuide?.criteria || "- Đọc đúng, rõ ràng, phát âm chuẩn.\n- Trả lời đúng câu hỏi đọc hiểu được 1,0 điểm."}
+        </p>
+
+        <div style="font-weight: bold; margin: 8px 0 4px 0; color: #6b21a8;">
+          DANH SÁCH CÂU HỎI VÀ GỢI Ý TRẢ LỜI DÀNH CHO GIÁO VIÊN:
+        </div>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 14px;">
+          <thead>
+            <tr style="background: #f1f5f9; font-weight: bold;">
+              <th style="border: 1px solid #000; width: 25%; padding: 6px; text-align: center;">Bài đọc</th>
+              <th style="border: 1px solid #000; width: 35%; padding: 6px; text-align: center;">Câu hỏi giáo viên hỏi</th>
+              <th style="border: 1px solid #000; width: 40%; padding: 6px; text-align: center;">Gợi ý câu trả lời chuẩn của học sinh</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${(exam.teacherGuide?.oralGuide?.qaList || []).map(function(item, idx) {
+              return `
+                <tr>
+                  <td style="border: 1px solid #000; padding: 6px; font-weight: bold; vertical-align: top;">
+                    ${idx + 1}. ${item.lessonTitle}<br>
+                    <span style="font-size: 10pt; font-weight: normal; color: #555;">${item.bookVolume || ''} ${item.page ? `(${item.page})` : ''}</span>
+                  </td>
+                  <td style="border: 1px solid #000; padding: 6px; vertical-align: top;">${item.question}</td>
+                  <td style="border: 1px solid #000; padding: 6px; vertical-align: top; color: #15803d;"><b>${item.answer}</b></td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+
+        <!-- 2. HƯỚNG DẪN CHẤM ĐỌC HIỂU -->
+        <div style="font-weight: bold; font-size: 13.5pt; margin: 14px 0 4px 0; color: #1e3a8a;">B. ĐÁP ÁN ĐỌC HIỂU VÀ KIẾN THỨC TIẾNG VIỆT (${compScoreStr} ĐIỂM)</div>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px;">
+          <thead>
+            <tr style="background: #f1f5f9; font-weight: bold;">
+              <th style="border: 1px solid #000; width: 12%; padding: 6px; text-align: center;">Câu</th>
+              <th style="border: 1px solid #000; width: 25%; padding: 6px; text-align: center;">Đáp án / Lời giải</th>
+              <th style="border: 1px solid #000; width: 63%; padding: 6px; text-align: center;">Hướng dẫn chấm chi tiết</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${(exam.teacherGuide?.comprehensionAnswers || []).map(function(ans) {
+              return `
+                <tr>
+                  <td style="border: 1px solid #000; padding: 6px; font-weight: bold; text-align: center;">Câu ${ans.num}</td>
+                  <td style="border: 1px solid #000; padding: 6px; font-weight: bold; color: #b91c1c; text-align: center; font-size: 12pt;">${ans.ans}</td>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: left; vertical-align: top;">${ans.explain}</td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+
+        <!-- 3. HƯỚNG DẪN CHẤM PHẦN VIẾT -->
+        <div style="font-weight: bold; font-size: 13.5pt; margin: 14px 0 4px 0; color: #1e3a8a;">C. HƯỚNG DẪN CHẤM PHẦN VIẾT (10 ĐIỂM)</div>
+        ${grade <= 3 ? `
+          <div style="font-weight: bold; margin-bottom: 4px;">1. Chính tả (${(wr.dictation?.score || 4.0).toFixed(1).replace('.', ',')} điểm):</div>
+          <p style="margin: 0 0 8px 0; font-size: 11.5pt; white-space: pre-line;">
+            ${exam.teacherGuide?.writingGuide?.dictationCriteria || "- Viết đúng mẫu chữ, độ đều nét, trình bày sạch: 1,0đ\n- Mỗi lỗi chính tả (âm đầu, vần, thanh, hoa): trừ 0,5đ"}
+          </p>
+
+          <div style="font-weight: bold; margin: 8px 0 4px 0;">2. Tập làm văn - Viết đoạn văn (${(wr.paragraphWriting?.score || 6.0).toFixed(1).replace('.', ',')} điểm):</div>
+          <table style="width: 100%; border-collapse: collapse; margin-bottom: 14px;">
+            <thead>
+              <tr style="background: #f1f5f9; font-weight: bold;">
+                <th style="border: 1px solid #000; width: 30%; padding: 6px; text-align: center;">Tiêu chí đánh giá</th>
+                <th style="border: 1px solid #000; width: 18%; padding: 6px; text-align: center;">Điểm</th>
+                <th style="border: 1px solid #000; width: 52%; padding: 6px; text-align: center;">Yêu cầu cần đạt</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${(wr.paragraphWriting?.rubric || []).map(function(rub) {
+                return `
+                  <tr>
+                    <td style="border: 1px solid #000; padding: 6px; font-weight: bold;">${rub.criteria}</td>
+                    <td style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold;">${rub.score}</td>
+                    <td style="border: 1px solid #000; padding: 6px;">${rub.detail}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        ` : `
+          <div style="font-weight: bold; margin-bottom: 6px;">Barem chấm điểm Bài văn hoàn chỉnh (10,0 điểm):</div>
+          <table style="width: 100%; border-collapse: collapse; margin-bottom: 14px;">
+            <thead>
+              <tr style="background: #f1f5f9; font-weight: bold;">
+                <th style="border: 1px solid #000; width: 25%; padding: 6px; text-align: center;">Tiêu chí chấm</th>
+                <th style="border: 1px solid #000; width: 15%; padding: 6px; text-align: center;">Điểm</th>
+                <th style="border: 1px solid #000; width: 60%; padding: 6px; text-align: center;">Yêu cầu chi tiết</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${(wr.essay?.rubric || []).map(function(rub) {
+                return `
+                  <tr>
+                    <td style="border: 1px solid #000; padding: 6px; font-weight: bold;">${rub.criteria}</td>
+                    <td style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold;">${rub.score}</td>
+                    <td style="border: 1px solid #000; padding: 6px;">${rub.detail}</td>
+                  </tr>
+                `;
+              }).join('')}
+            </tbody>
+          </table>
+        `}
+      </div>
+    `;
+    return;
+  }
+
+  // =========================================================================
+  // GIAO DIỆN HIỂN THỊ 3 TABS CHO CÁC MÔN CÒN LẠI (TOÁN, KHOA HỌC, XÃ HỘI...)
+  // =========================================================================
+  var mcqScoreStr = exam.mcqTotalScore ? exam.mcqTotalScore.toString().replace('.', ',') : "7,0";
+  var essayScoreStr = exam.essayTotalScore ? exam.essayTotalScore.toString().replace('.', ',') : "3,0";
+  var m = exam.matrix || {};
+  var s = m.summary || {};
+
+  if (!["exam", "matrix", "answers"].includes(currentExamActiveTab)) {
+    currentExamActiveTab = "exam";
+  }
 
   container.innerHTML = `
     <!-- THANH CÔNG CỤ ĐIỀU HƯỚNG VÀ XUẤT BẢN -->
@@ -1528,9 +2119,16 @@ function switchExamTab(tabName) {
   var elExam = document.getElementById("examTabContent_exam");
   var elMatrix = document.getElementById("examTabContent_matrix");
   var elAnswers = document.getElementById("examTabContent_answers");
+  var elReading = document.getElementById("examTabContent_reading");
+  var elWriting = document.getElementById("examTabContent_writing");
+  var elRubric = document.getElementById("examTabContent_rubric");
+
   if (elExam) elExam.style.display = (tabName === "exam" ? "block" : "none");
   if (elMatrix) elMatrix.style.display = (tabName === "matrix" ? "block" : "none");
   if (elAnswers) elAnswers.style.display = (tabName === "answers" ? "block" : "none");
+  if (elReading) elReading.style.display = (tabName === "reading" ? "block" : "none");
+  if (elWriting) elWriting.style.display = (tabName === "writing" ? "block" : "none");
+  if (elRubric) elRubric.style.display = (tabName === "rubric" ? "block" : "none");
 
   var container = document.getElementById("aiOutputContainer");
   if (container && currentExamData) {
