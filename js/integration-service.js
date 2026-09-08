@@ -1010,7 +1010,7 @@ var IntegrationService = {
     }
 
     var docSummary = this.extractDocumentKeywordsAndSummary(docText, docTitle);
-    var apiKey = (typeof AuthService !== 'undefined' && AuthService.getApiKey) ? AuthService.getApiKey() : ((typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_gemini_api_key') : '') || (typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ''));
+    var apiKey = this.getGeminiApiKey();
 
     var matrixLessons = [];
 
@@ -1043,54 +1043,300 @@ var IntegrationService = {
     };
   },
 
+  getGeminiApiKey: function() {
+    if (typeof localStorage !== 'undefined') {
+      var custom = localStorage.getItem('tvth_gemini_api_key');
+      if (custom && custom.trim()) return custom.trim();
+    }
+    if (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) {
+      return window.CONFIG.DEFAULT_GEMINI_API_KEY;
+    }
+    if (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) {
+      return CONFIG.DEFAULT_GEMINI_API_KEY;
+    }
+    return '';
+  },
+
   extractDocumentKeywordsAndSummary: function(text, title) {
     var clean = (text || '').replace(/\s+/g, ' ');
-    var sampleLines = clean.split(/[.\n\r]+/).map(function(s){ return s.trim(); }).filter(function(s){ return s.length > 15; });
-    var coreTopics = [];
+    var textLower = clean.toLowerCase();
+    var titleLower = (title || '').toLowerCase();
+    var headerSnippet = textLower.substring(0, 1000);
 
-    var keywords = [
-      { key: 'địa phương', tag: 'Giáo dục Địa phương' },
-      { key: 'quyền con người', tag: 'Quyền con người' },
-      { key: 'trẻ em', tag: 'Quyền trẻ em' },
-      { key: 'đuối nước', tag: 'Phòng chống đuối nước' },
-      { key: 'an toàn giao thông', tag: 'An toàn giao thông' },
-      { key: 'môi trường', tag: 'Bảo vệ môi trường' },
-      { key: 'khí hậu', tag: 'Biến đổi khí hậu' },
-      { key: 'chuyển đổi số', tag: 'Kỹ năng số' },
-      { key: 'công nghệ số', tag: 'Kỹ năng số' },
-      { key: 'tài chính', tag: 'Giáo dục tài chính' },
-      { key: 'tiết kiệm', tag: 'Kỹ năng tiết kiệm' },
-      { key: 'quốc phòng', tag: 'Quốc phòng - An ninh' },
-      { key: 'biển đảo', tag: 'Chủ quyền Biển đảo' },
-      { key: 'di sản', tag: 'Di sản văn hóa' },
-      { key: 'phẩm chất', tag: 'Phát triển phẩm chất' },
-      { key: 'năng lực', tag: 'Phát triển năng lực' }
+    // Bảng định nghĩa chuyên đề tích hợp chuẩn GDPT 2018 & CV 2345
+    var topicDefinitions = [
+      {
+        tag: 'Giáo dục Trí tuệ nhân tạo (AI)',
+        shortTag: 'GD Trí tuệ nhân tạo (AI)',
+        primaryKeys: ['trí tuệ nhân tạo', 'trí tuệ nhân tạo (ai)', 'khung nội dung giáo dục trí tuệ nhân tạo', 'artificial intelligence', 'mô hình ai', 'máy học', 'machine learning'],
+        secondaryKeys: ['ai', 'robot', 'rô-bốt', 'thuật toán', 'công nghệ thông minh', 'khoa học dữ liệu']
+      },
+      {
+        tag: 'Giáo dục STEM',
+        shortTag: 'Giáo dục STEM',
+        primaryKeys: ['giáo dục stem', 'bài học stem', 'hoạt động stem', 'steam'],
+        secondaryKeys: ['stem', 'thực hành stem', 'chế tạo', 'thiết kế kĩ thuật']
+      },
+      {
+        tag: 'Giáo dục Quyền con người',
+        shortTag: 'Quyền con người',
+        primaryKeys: ['quyền con người', 'nhân quyền', 'đề án giáo dục quyền con người'],
+        secondaryKeys: ['bình đẳng', 'tôn trọng sự khác biệt', 'phẩm giá con người']
+      },
+      {
+        tag: 'Giáo dục Quyền trẻ em',
+        shortTag: 'Quyền trẻ em',
+        primaryKeys: ['quyền trẻ em', 'luật trẻ em', 'công ước quyền trẻ em', 'bảo vệ trẻ em'],
+        secondaryKeys: ['trẻ em được vui chơi', 'trẻ em được học tập', 'bổn phận của trẻ em']
+      },
+      {
+        tag: 'Giáo dục Bảo vệ môi trường',
+        shortTag: 'Bảo vệ môi trường',
+        primaryKeys: ['bảo vệ môi trường', 'biến đổi khí hậu', 'rác thải nhựa', 'phát triển bền vững', 'ô nhiễm môi trường'],
+        secondaryKeys: ['môi trường xanh', 'tiết kiệm năng lượng', 'trồng cây', 'phân loại rác']
+      },
+      {
+        tag: 'Giáo dục An toàn giao thông',
+        shortTag: 'An toàn giao thông',
+        primaryKeys: ['an toàn giao thông', 'luật giao thông', 'văn hóa giao thông', 'atgt'],
+        secondaryKeys: ['mũ bảo hiểm', 'đội mũ bảo hiểm', 'đi bộ an toàn', 'giao thông đường bộ']
+      },
+      {
+        tag: 'Phòng chống đuối nước',
+        shortTag: 'Phòng chống đuối nước',
+        primaryKeys: ['phòng chống đuối nước', 'phòng, chống tai nạn đuối nước', 'tai nạn thương tích', 'kỹ năng an toàn trong môi trường nước'],
+        secondaryKeys: ['đuối nước', 'áo phao', 'tắm sông', 'cứu đuối']
+      },
+      {
+        tag: 'Giáo dục Địa phương',
+        shortTag: 'GD Địa phương',
+        primaryKeys: ['giáo dục địa phương', 'tài liệu giáo dục địa phương', 'lịch sử địa phương', 'địa lí địa phương'],
+        secondaryKeys: ['địa phương em', 'truyền thống quê hương', 'danh lam thắng cảnh quê hương']
+      },
+      {
+        tag: 'Giáo dục Tài chính',
+        shortTag: 'Giáo dục tài chính',
+        primaryKeys: ['giáo dục tài chính', 'quản lý tài chính', 'tiết kiệm tiền', 'tiền tệ'],
+        secondaryKeys: ['chi tiêu hợp lý', 'kế hoạch chi tiêu', 'giá trị đồng tiền']
+      },
+      {
+        tag: 'Chuyển đổi số & Kỹ năng số',
+        shortTag: 'Kỹ năng số',
+        primaryKeys: ['chuyển đổi số', 'kỹ năng số', 'năng lực số', 'an toàn trên không gian mạng', 'công nghệ số'],
+        secondaryKeys: ['internet an toàn', 'thiết bị số', 'thông tin số']
+      },
+      {
+        tag: 'Giáo dục Quốc phòng và An ninh',
+        shortTag: 'Quốc phòng - An ninh',
+        primaryKeys: ['quốc phòng và an ninh', 'quốc phòng - an ninh', 'chủ quyền biển đảo', 'biên giới hải đảo'],
+        secondaryKeys: ['biển đảo việt nam', 'quân đội nhân dân', 'bảo vệ tổ quốc']
+      },
+      {
+        tag: 'Giáo dục Kỹ năng sống',
+        shortTag: 'Kỹ năng sống',
+        primaryKeys: ['kỹ năng sống', 'kĩ năng sống', 'kỹ năng tự phục vụ', 'phòng chống xâm hại'],
+        secondaryKeys: ['tự lập', 'giao tiếp ứng xử', 'hợp tác nhóm']
+      }
     ];
 
-    var textLower = clean.toLowerCase();
-    keywords.forEach(function(item) {
-      if (textLower.indexOf(item.key) !== -1) {
-        if (coreTopics.indexOf(item.tag) === -1) coreTopics.push(item.tag);
+    // Chấm điểm xác định chủ đề chuẩn xác:
+    var scoredTopics = [];
+    topicDefinitions.forEach(function(def) {
+      var score = 0;
+      def.primaryKeys.forEach(function(pk) {
+        if (titleLower.indexOf(pk) !== -1) score += 120;
+        if (headerSnippet.indexOf(pk) !== -1) score += 60;
+        var count = 0;
+        var pos = 0;
+        while ((pos = textLower.indexOf(pk, pos)) !== -1) {
+          count++;
+          pos += pk.length;
+        }
+        score += count * 10;
+      });
+      def.secondaryKeys.forEach(function(sk) {
+        if (titleLower.indexOf(sk) !== -1) score += 30;
+        if (headerSnippet.indexOf(sk) !== -1) score += 15;
+        var count = 0;
+        var pos = 0;
+        while ((pos = textLower.indexOf(sk, pos)) !== -1) {
+          count++;
+          pos += sk.length;
+        }
+        score += count * 2;
+      });
+      if (score > 0) {
+        scoredTopics.push({ def: def, score: score });
       }
     });
 
-    if (coreTopics.length === 0) {
-      coreTopics.push('Chuyên đề tích hợp theo tài liệu ' + (title || 'mới'));
+    scoredTopics.sort(function(a, b) { return b.score - a.score; });
+
+    var coreTopics = [];
+    if (scoredTopics.length > 0) {
+      coreTopics.push(scoredTopics[0].def.tag);
+      // Chỉ ghép thêm chủ đề thứ 2 nếu điểm số của chủ đề 2 thực sự tương đương (>= 65% chủ đề 1)
+      if (scoredTopics.length > 1 && scoredTopics[1].score >= scoredTopics[0].score * 0.65) {
+        coreTopics.push(scoredTopics[1].def.tag);
+      }
+    } else {
+      var fallbackTitle = (title || 'Chuyên đề tích hợp mới').replace(/\.[a-zA-Z0-9]+$/, '').trim();
+      coreTopics.push(fallbackTitle);
     }
 
     return {
-      topicName: coreTopics.slice(0, 3).join(' • '),
+      topicName: coreTopics.join(' • '),
       topicsList: coreTopics,
-      sampleQuotes: sampleLines.slice(0, 4),
+      primaryTag: scoredTopics.length > 0 ? scoredTopics[0].def.shortTag : coreTopics[0],
       fullSnippet: clean.substring(0, 800)
     };
   },
 
+  getIntegrationContentByTopic: function(topicName, grade, subj, level, lessonTitle, periodIdx) {
+    var s = (subj || 'toan').toLowerCase();
+    var tLower = (topicName || '').toLowerCase();
+    var g = parseInt(grade) || 5;
+
+    // 1. CHUYÊN ĐỀ TRÍ TUỆ NHÂN TẠO (AI) & KỸ NĂNG SỐ
+    if (tLower.indexOf('trí tuệ nhân tạo') !== -1 || tLower.indexOf('ai') !== -1 || tLower.indexOf('kỹ năng số') !== -1 || tLower.indexOf('công nghệ') !== -1) {
+      if (s === 'toan') {
+        var toanVariants = [
+          {
+            yccd: 'Học sinh bước đầu làm quen với ứng dụng của trí tuệ nhân tạo (AI) trong tính toán số liệu; rèn luyện tư duy logic và kiểm tra kết quả.',
+            gv: 'GV đặt câu hỏi gợi mở: "Để tính toán nhanh và xử lý khối lượng lớn các con số như trong bài toán hôm nay, máy tính hay công nghệ AI làm như thế nào?"; hướng dẫn HS nhận biết vai trò của dữ liệu chính xác và con người luôn là người quyết định.',
+            hs: 'HS trao đổi nhóm đôi, nhận biết AI giúp con người tính toán nhanh nhưng bản thân cần tự giác tính cẩn thận, biết kiểm tra lại kết quả.'
+          },
+          {
+            yccd: 'Nhận biết máy tính và AI cần dữ liệu số chính xác để phân tích; rèn tính cẩn thận, trung thực khi thu thập và giải quyết các bài toán.',
+            gv: 'GV liên hệ: "AI học hỏi từ dữ liệu do con người cung cấp. Nếu dữ liệu nhập vào sai thì AI cũng cho kết quả sai. Vì vậy khi làm toán, các em cần cẩn thận từng con số."; hướng dẫn HS cách đối chiếu đáp án.',
+            hs: 'HS lắng nghe, đối chiếu các bước giải với bạn trong nhóm, rèn luyện tính chính xác và trung thực khi làm bài tập.'
+          },
+          {
+            yccd: 'Bước đầu nhận biết AI được ứng dụng trong nhận diện hình ảnh, quy luật số và đo lường thông minh trong cuộc sống.',
+            gv: 'GV trình chiếu hình ảnh ví dụ máy quét mã hoặc nhận diện biển số xe/hình ảnh thực tế; hướng dẫn HS liên hệ quy luật toán học được ứng dụng trong công nghệ AI.',
+            hs: 'HS hào hứng phát biểu các ví dụ về công nghệ thông minh quanh mình; củng cố niềm yêu thích học toán.'
+          }
+        ];
+        var item = toanVariants[periodIdx % toanVariants.length];
+        return {
+          brief: 'Ứng dụng AI và tư duy dữ liệu số vào bài toán',
+          yccdText: 'Tích hợp Giáo dục Trí tuệ nhân tạo (AI) (' + level + '): ' + item.yccd,
+          dodungText: 'Hình ảnh, video hoặc slide minh họa ứng dụng công nghệ/AI trong xử lý số liệu.',
+          teacherAct: item.gv,
+          studentAct: item.hs
+        };
+      } else if (s === 'tieng_viet') {
+        var tvVariants = [
+          {
+            yccd: 'Bước đầu nhận biết ứng dụng của AI trong xử lý từ ngữ, dịch thuật và đọc văn bản; bồi dưỡng tư duy phản biện và giữ gìn sự trong sáng của tiếng Việt.',
+            gv: 'GV nêu câu hỏi: "Khi các em nghe trợ lý ảo đọc sách hoặc dịch từ ngữ, các em thấy AI có thay thế được giọng đọc truyền cảm của con người không?"; nhắc nhở HS dùng công nghệ hỗ trợ nhưng luôn giữ gìn cảm xúc và sự trong sáng của tiếng Việt.',
+            hs: 'HS chia sẻ cảm nhận, tích cực luyện đọc diễn cảm và thể hiện cảm xúc chân thành khi nói và viết.'
+          },
+          {
+            yccd: 'Hình thành ý thức chọn lọc thông tin khi tra cứu tài liệu từ internet và công cụ AI; không phụ thuộc máy móc.',
+            gv: 'GV hướng dẫn: "Khi tìm kiếm tài liệu trên mạng hoặc qua AI, thông tin có thể chưa chuẩn xác. Các em cần đối chiếu với sách giáo khoa và hỏi ý kiến thầy cô."; rèn thói quen đọc hiểu sâu.',
+            hs: 'HS ghi nhớ nguyên tắc đối chiếu nguồn tin, tự giác đọc hiểu và tự viết bài theo suy nghĩ của bản thân.'
+          }
+        ];
+        var item = tvVariants[periodIdx % tvVariants.length];
+        return {
+          brief: 'Ứng dụng AI trong ngôn ngữ & tư duy phản biện',
+          yccdText: 'Tích hợp Giáo dục Trí tuệ nhân tạo (AI) (' + level + '): ' + item.yccd,
+          dodungText: 'Tư liệu, ví dụ trực quan về công nghệ xử lý ngôn ngữ/trợ lý ảo.',
+          teacherAct: item.gv,
+          studentAct: item.hs
+        };
+      } else {
+        return {
+          brief: 'Tìm hiểu ứng dụng của công nghệ và AI an toàn',
+          yccdText: 'Tích hợp Giáo dục Trí tuệ nhân tạo (AI) (' + level + '): Nhận biết ứng dụng của công nghệ thông minh trong đời sống; có ý thức sử dụng thiết bị số an toàn, lành mạnh.',
+          dodungText: 'Hình ảnh hoặc video minh họa ứng dụng khoa học công nghệ, rô-bốt, AI.',
+          teacherAct: 'GV giới thiệu ứng dụng công nghệ AI liên quan đến chủ đề bài học; nhắc nhở học sinh văn hóa sử dụng công nghệ an toàn, không lạm dụng thiết bị số.',
+          studentAct: 'HS quan sát, thảo luận về những lợi ích và lưu ý an toàn khi tiếp xúc với thiết bị thông minh.'
+        };
+      }
+    }
+
+    // 2. CHUYÊN ĐỀ QUYỀN CON NGƯỜI & QUYỀN TRẺ EM
+    if (tLower.indexOf('quyền con người') !== -1 || tLower.indexOf('quyền trẻ em') !== -1) {
+      return {
+        brief: 'Giáo dục quyền được học tập, bày tỏ ý kiến và tôn trọng sự khác biệt',
+        yccdText: 'Tích hợp Quyền con người & Quyền trẻ em (' + level + '): Học sinh hiểu quyền được bày tỏ ý kiến và học tập bình đẳng; biết lắng nghe, tôn trọng và yêu thương bạn bè.',
+        dodungText: 'Tình huống, tranh ảnh về quyền trẻ em được học tập, vui chơi an toàn.',
+        teacherAct: 'GV tạo cơ hội cho mọi học sinh trong lớp đều được phát biểu, bày tỏ suy nghĩ; nhắc nhở các em tôn trọng sự khác biệt, không trêu chọc hay phân biệt đối xử.',
+        studentAct: 'HS mạnh dạn chia sẻ ý kiến, tích cực hợp tác nhóm, lắng nghe và động viên bạn bè cùng tiến bộ.'
+      };
+    }
+
+    // 3. CHUYÊN ĐỀ BẢO VỆ MÔI TRƯỜNG & BIẾN ĐỔI KHÍ HẬU
+    if (tLower.indexOf('môi trường') !== -1 || tLower.indexOf('khí hậu') !== -1 || tLower.indexOf('rác thải') !== -1) {
+      return {
+        brief: 'Ý thức giữ gìn môi trường xanh, sạch, đẹp và tiết kiệm tài nguyên',
+        yccdText: 'Tích hợp Bảo vệ môi trường (' + level + '): Nhận thức được tầm quan trọng của việc giữ gìn môi trường sống; có hành động thiết thực tiết kiệm tài nguyên và bảo vệ thiên nhiên.',
+        dodungText: 'Tranh ảnh, tư liệu thực tế về bảo vệ môi trường, cây xanh, phân loại rác.',
+        teacherAct: 'GV liên hệ nội dung bài học với việc bảo vệ môi trường xung quanh trường lớp; nhắc nhở học sinh tiết kiệm điện nước, giữ vệ sinh chung.',
+        studentAct: 'HS liên hệ những việc làm cụ thể ở lớp và ở nhà: vứt rác đúng nơi quy định, tắt điện khi ra khỏi phòng, chăm sóc cây xanh.'
+      };
+    }
+
+    // 4. CHUYÊN ĐỀ AN TOÀN GIAO THÔNG
+    if (tLower.indexOf('giao thông') !== -1 || tLower.indexOf('atgt') !== -1) {
+      return {
+        brief: 'Chấp hành quy tắc an toàn giao thông đường bộ',
+        yccdText: 'Tích hợp An toàn giao thông (' + level + '): Nhận biết và tự giác chấp hành các quy định an toàn khi tham gia giao thông; bảo vệ bản thân và mọi người.',
+        dodungText: 'Hình ảnh biển báo, tình huống an toàn giao thông phù hợp lứa tuổi tiểu học.',
+        teacherAct: 'GV nhắc nhở học sinh quy tắc an toàn khi đi bộ, đội mũ bảo hiểm khi ngồi trên xe máy/xe đạp điện; phê phán hành vi nguy hiểm.',
+        studentAct: 'HS nhắc lại các quy tắc an toàn khi đi học; cam kết thực hiện đúng văn hóa giao thông.'
+      };
+    }
+
+    // 5. CHUYÊN ĐỀ PHÒNG CHỐNG ĐUỐI NƯỚC
+    if (tLower.indexOf('đuối nước') !== -1) {
+      return {
+        brief: 'Kỹ năng phòng, chống đuối nước và tai nạn thương tích',
+        yccdText: 'Tích hợp Phòng chống đuối nước (' + level + '): Nhận biết các nguy cơ tai nạn đuối nước; rèn kỹ năng phòng tránh và không tự ý đến gần ao, hồ nguy hiểm.',
+        dodungText: 'Tranh ảnh cảnh báo khu vực nước sâu nguy hiểm, biển báo cấm tắm.',
+        teacherAct: 'GV cảnh báo các khu vực tiềm ẩn nguy cơ đuối nước (ao, hồ, sông, suối, hố công trình); hướng dẫn HS cách tìm kiếm sự trợ giúp của người lớn khi gặp sự cố.',
+        studentAct: 'HS ghi nhớ quy tắc: tuyệt đối không tự ý tắm sông/ao hồ khi không có người lớn; biết hô hoán người lớn khi thấy người đuối nước.'
+      };
+    }
+
+    // 6. CHUYÊN ĐỀ GIÁO DỤC TÀI CHÍNH
+    if (tLower.indexOf('tài chính') !== -1 || tLower.indexOf('tiết kiệm') !== -1) {
+      return {
+        brief: 'Hình thành kỹ năng quản lý và tiết kiệm tiền bạc, tài sản',
+        yccdText: 'Tích hợp Giáo dục tài chính (' + level + '): Hiểu được giá trị của đồng tiền và sức lao động; bước đầu hình thành thói quen chi tiêu hợp lý và tiết kiệm.',
+        dodungText: 'Tình huống chi tiêu, hình ảnh ví dụ về tiết kiệm sách vở, đồ dùng học tập.',
+        teacherAct: 'GV lồng ghép giáo dục ý thức giữ gìn đồ dùng học tập, sách vở; hướng dẫn HS hiểu tiết kiệm tài nguyên chính là tiết kiệm tài chính cho gia đình.',
+        studentAct: 'HS chia sẻ cách giữ gìn đồ dùng, nuôi heo đất tiết kiệm và mua sắm những thứ thực sự cần thiết.'
+      };
+    }
+
+    // 7. CHUYÊN ĐỀ GIÁO DỤC ĐỊA PHƯƠNG
+    if (tLower.indexOf('địa phương') !== -1 || tLower.indexOf('gdđp') !== -1) {
+      return {
+        brief: 'Tìm hiểu và tự hào về truyền thống, nét đẹp quê hương',
+        yccdText: 'Tích hợp Giáo dục địa phương (' + level + '): Bồi dưỡng tình yêu quê hương, đất nước thông qua những danh lam, sản vật và truyền thống văn hóa địa phương.',
+        dodungText: 'Tranh ảnh, video giới thiệu di tích lịch sử, cảnh đẹp hoặc sản vật quê hương.',
+        teacherAct: 'GV gợi mở để HS liên hệ bài học với cảnh quan, làng nghề hoặc đặc sản của địa phương; khơi gợi lòng tự hào quê hương.',
+        studentAct: 'HS hào hứng giới thiệu những địa danh, món ăn hoặc nét đẹp quê hương mình với bạn bè.'
+      };
+    }
+
+    // CHUYÊN ĐỀ MẶC ĐỊNH CHUNG
+    return {
+      brief: 'Tích hợp chuyên đề ' + topicName + ' vào bài học',
+      yccdText: 'Tích hợp ' + topicName + ' (' + level + '): Vận dụng kiến thức bài học để nhận biết và xử lý tình huống thực tế liên quan đến ' + topicName + '; hình thành phẩm chất chăm chỉ, trách nhiệm.',
+      dodungText: 'Tư liệu, hình ảnh minh họa liên quan đến chuyên đề ' + topicName + '.',
+      teacherAct: 'GV hướng dẫn học sinh liên hệ kiến thức bài học vào thực tế chủ đề ' + topicName + '; nhấn mạnh ý nghĩa giáo dục thực tiễn.',
+      studentAct: 'HS tích cực trao đổi, bày tỏ suy nghĩ và liên hệ vận dụng vào đời sống hằng ngày.'
+    };
+  },
+
   generatePlanViaSmartRuleEngine: function(grade, subj, weeksPlan, docSummary, userNotes) {
+    var self = this;
     var results = [];
     var topic = docSummary.topicName || 'Chuyên đề mới';
-    var quotes = docSummary.sampleQuotes || [];
-    var quoteIdx = 0;
 
     var targetParts = [
       'Hoạt động Vận dụng, trải nghiệm',
@@ -1106,30 +1352,26 @@ var IntegrationService = {
         var pIdx = lIdx % targetParts.length;
         var chosenPart = targetParts[pIdx];
         var chosenLevel = levels[lIdx % levels.length];
-        var relevantQuote = quotes.length > 0 ? quotes[quoteIdx % quotes.length] : ('Nội dung tích hợp trọng tâm: ' + topic);
-        quoteIdx++;
+        var lessonTitle = les.title || les.lessonTitle || ('Bài ' + (lIdx + 1));
 
+        var content = self.getIntegrationContentByTopic(topic, grade, subj, chosenLevel, lessonTitle, lIdx);
         var lessonId = (subj || 'toan') + '_' + weekItem.week + '_' + lIdx;
-        var brief = 'Tích hợp nội dung ' + topic + ' vào ' + chosenPart + ': ' + relevantQuote;
-
-        var gvContent = 'GV hướng dẫn HS liên hệ thực tế về ' + topic + ': ' + relevantQuote;
-        var hsContent = 'HS lắng nghe, trao đổi nhóm, phát biểu cảm nghĩ và thực hành xử lý tình huống về ' + topic + '.';
 
         results.push({
           lessonId: lessonId,
           week: weekItem.week,
           periodIndex: lIdx,
           period: les.period || ('Tiết ' + (lIdx + 1)),
-          title: les.title || les.lessonTitle || ('Bài ' + (lIdx + 1)),
+          title: lessonTitle,
           targetPart: chosenPart,
           level: chosenLevel,
-          integrationBrief: brief,
-          yccdAddition: '- Tích hợp ' + topic + ' (' + chosenLevel + '): ' + relevantQuote.substring(0, 120) + (relevantQuote.length > 120 ? '...' : ''),
-          dodungAddition: '- Tư liệu, hình ảnh, tình huống thực tế về ' + topic + '.',
+          integrationBrief: content.brief,
+          yccdAddition: '- ' + content.yccdText,
+          dodungAddition: '- ' + content.dodungText,
           activityAddition: {
             stepName: chosenPart + ' (3-5 phút)',
-            teacherAct: gvContent,
-            studentAct: hsContent
+            teacherAct: content.teacherAct,
+            studentAct: content.studentAct
           }
         });
       });
@@ -1153,9 +1395,9 @@ var IntegrationService = {
     });
 
     var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Soạn Kế hoạch bài dạy (KHBD) chuẩn Công văn 2345/BGDĐT-GDTH.
-Nhiệm vụ của bạn: Nghiên cứu kỹ tài liệu chỉ đạo tích hợp mới dưới đây, đối chiếu với danh sách các bài dạy môn ${subj.toUpperCase()} - Khối ${grade} (Từ tuần ${sWeek} đến tuần ${eWeek}), và lập KẾ HOẠCH TÍCH HỢP CHI TIẾT cho từng bài dạy.
+Nhiệm vụ của bạn: Nghiên cứu kỹ tài liệu chỉ đạo tích hợp dưới đây, đối chiếu với danh sách các bài dạy môn ${subj.toUpperCase()} - Khối ${grade} (Từ tuần ${sWeek} đến tuần ${eWeek}), và lập KẾ HOẠCH TÍCH HỢP CHI TIẾT cho từng bài dạy.
 
-TÀI LIỆU TÍCH HỢP MỚI (${docTitle}):
+TÀI LIỆU TÍCH HỢP (${docTitle}):
 """
 ${docText.substring(0, 3500)}
 """
@@ -1164,6 +1406,18 @@ YÊU CẦU ĐẶC BIỆT CỦA GIÁO VIÊN: "${userNotes || 'Tích hợp sâu s�
 
 DANH SÁCH BÀI DẠY CẦN TÍCH HỢP:
 ${JSON.stringify(lessonsListDesc, null, 2)}
+
+QUY TẮC SƯ PHẠM BẮT BUỘC (CHUẨN CV 2345):
+1. XÁC ĐỊNH ĐÚNG CHỦ ĐỀ CHÍNH: Xác định đúng chủ đề cốt lõi của tài liệu (ví dụ: Trí tuệ nhân tạo (AI), Quyền con người, STEM, An toàn giao thông, Môi trường...). Tuyệt đối không ghép nối lan man các từ ngẫu nhiên.
+2. MỤC TIÊU YÊU CẦU CẦN ĐẠT (yccdAddition):
+   - Phải viết theo ngôn ngữ sư phạm tiểu học, bắt đầu bằng động từ hành động ("Bước đầu nhận biết...", "Làm quen với...", "Hình thành ý thức...").
+   - TUYỆT ĐỐI KHÔNG sao chép nguyên văn tiêu đề tài liệu, tên chương mục, tên đề án, khẩu hiệu hành chính vào mục tiêu bài dạy.
+   - Định dạng chuẩn: "- Tích hợp [Tên chuyên đề] ([Liên hệ/Bộ phận/Toàn phần]): Học sinh [mục tiêu cụ thể gắn với bài học]..."
+3. ĐỒ DÙNG DẠY HỌC (dodungAddition): Ngắn gọn, thiết thực (hình ảnh, video, phiếu học tập...).
+4. TIẾN TRÌNH HOẠT ĐỘNG (activityAddition):
+   - stepName: Tên hoạt động được chọn (Khởi động, Khám phá, Luyện tập, Vận dụng) kèm "(3-5 phút)".
+   - teacherAct: Lời thoại dẫn dắt sinh động của GV (2-3 câu gắn liền nội dung bài học).
+   - studentAct: Hành động cụ thể của HS (quan sát, thảo luận nhóm, phát biểu, liên hệ thực tế).
 
 Hãy trả về kết quả dạng JSON thuần túy (không kèm markdown code block \`\`\`json) với cấu trúc mảng suggestions như sau:
 [
@@ -1176,7 +1430,7 @@ Hãy trả về kết quả dạng JSON thuần túy (không kèm markdown code 
     "targetPart": "Hoạt động Vận dụng, trải nghiệm",
     "level": "Liên hệ",
     "integrationBrief": "Tóm tắt ngắn gọn nội dung tích hợp vào tiết này",
-    "yccdAddition": "- Tích hợp ...: Học sinh nhận biết/thực hành ...",
+    "yccdAddition": "- Tích hợp [Tên chuyên đề] (Liên hệ): Học sinh nhận biết/thực hành ...",
     "dodungAddition": "- Hình ảnh/tư liệu ...",
     "activityAddition": {
       "stepName": "Hoạt động Vận dụng, trải nghiệm (3-5 phút)",
@@ -1196,7 +1450,7 @@ Hãy trả về kết quả dạng JSON thuần túy (không kèm markdown code 
 
   refineIntegrationPlanWithFeedback: async function(currentPlan, userFeedback) {
     if (!currentPlan || !currentPlan.suggestions) throw new Error('Kế hoạch tích hợp không hợp lệ.');
-    var apiKey = (typeof AuthService !== 'undefined' && AuthService.getApiKey) ? AuthService.getApiKey() : ((typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_gemini_api_key') : '') || (typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ''));
+    var apiKey = this.getGeminiApiKey();
 
     if (apiKey && typeof AIService !== 'undefined' && AIService.callGeminiApi) {
       try {
@@ -1242,10 +1496,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var les = JSON.parse(JSON.stringify(origLesson));
 
     var integKeywords = [
-      '[Tích hợp', '[Tích hợp mới]', '[GDĐP]', '[QCN]', '[ATGT]', '[BVMT]', '[KNS]', '[GDTC]',
+      '[Tích hợp', '[Tích hợp mới]', '[GDĐP]', '[QCN]', '[ATGT]', '[BVMT]', '[KNS]', '[GDTC]', '[AI',
       'Tích hợp GDĐP', 'Tích hợp Quyền con người', 'Tích hợp Quyền trẻ em', 'Tích hợp Phòng chống đuối nước',
       'Tích hợp Giáo dục tài chính', 'Tích hợp An toàn giao thông', 'Tích hợp Bảo vệ môi trường',
-      'Tích hợp Chuyển đổi số', 'Tích hợp Kỹ năng số', 'Tích hợp Quốc phòng'
+      'Tích hợp Chuyển đổi số', 'Tích hợp Kỹ năng số', 'Tích hợp Quốc phòng', 'Tích hợp Giáo dục Trí tuệ nhân tạo',
+      'Tích hợp Trí tuệ nhân tạo', 'Tích hợp AI', 'Tích hợp STEM', 'Tích hợp Kỹ năng sống', 'Năng lực số', 'Kỹ năng số',
+      'AI 5.', 'AI 4.', 'AI 3.', 'AI 2.', 'AI 1.'
     ];
 
     function isIntegratedText(text) {
@@ -1282,12 +1538,17 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
     if (!lesson.yccd) lesson.yccd = [];
     if (suggestion.yccdAddition) {
-      lesson.yccd.push('[Tích hợp mới] ' + suggestion.yccdAddition.replace(/^-\s*/, ''));
+      var rawYccd = suggestion.yccdAddition.replace(/^-\s*/, '').trim();
+      var cleanYccd = rawYccd.replace(/^\[Tích hợp mới\]\s*/i, '').replace(/^\[Tích hợp\]\s*/i, '').trim();
+      cleanYccd = cleanYccd.replace(/^Tích hợp\s+/i, '').trim();
+      lesson.yccd.push('[Tích hợp mới] ' + cleanYccd);
     }
 
     var dodungList = lesson.dodung || lesson.teachingAids || [];
     if (suggestion.dodungAddition) {
-      dodungList.push('[Tích hợp] ' + suggestion.dodungAddition.replace(/^-\s*/, ''));
+      var rawDodung = suggestion.dodungAddition.replace(/^-\s*/, '').trim();
+      var cleanDodung = rawDodung.replace(/^\[Tích hợp\]\s*/i, '').trim();
+      dodungList.push('[Tích hợp] ' + cleanDodung);
     }
     lesson.dodung = dodungList;
     lesson.teachingAids = dodungList;
@@ -1299,9 +1560,10 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     if (suggestion.activityAddition) {
       var act = suggestion.activityAddition;
       var newHeaderRow = ['* ' + act.stepName + ' [NỘI DUNG TÍCH HỢP MỚI]'];
+      var teacherActText = (act.teacherAct || '').replace(/^\[Tích hợp\]\s*/i, '').trim();
       var newActRow = [
-        '[Tích hợp] ' + act.teacherAct,
-        act.studentAct
+        '[Tích hợp] ' + teacherActText,
+        act.studentAct || ''
       ];
 
       var lastTable = lesson.tables[lesson.tables.length - 1];
@@ -1327,8 +1589,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var weeksPlan = khbdDataObj ? khbdDataObj.getWeekRangePlan(grade, subj, sWeek, eWeek) : [];
 
     var lookupSuggestions = {};
+    var hasMap = selectedLessonsMap && typeof selectedLessonsMap === 'object';
     (plan.suggestions || []).forEach(function(s) {
-      if (selectedLessonsMap[s.lessonId] !== false) {
+      if (!hasMap || selectedLessonsMap[s.lessonId] !== false) {
         lookupSuggestions[s.lessonId] = s;
       }
     });
