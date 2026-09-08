@@ -258,9 +258,9 @@ var StatsService = {
   incrementVisitCount: function() {
     var count = this.getVisitCount();
     // Mỗi phiên làm việc (session) chỉ tính tăng 1 lần
-    if (!sessionStorage.getItem("tvth_visit_counted")) {
+    if (typeof sessionStorage !== "undefined" && !sessionStorage.getItem("tvth_visit_counted")) {
       count += 1;
-      localStorage.setItem("tvth_total_visits", count.toString());
+      if (typeof localStorage !== "undefined") localStorage.setItem("tvth_total_visits", count.toString());
       sessionStorage.setItem("tvth_visit_counted", "1");
 
       // Gửi đồng bộ lên Google Apps Script (nếu có cấu hình API_URL)

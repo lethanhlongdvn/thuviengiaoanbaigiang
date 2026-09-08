@@ -10,6 +10,22 @@ var selectedWeek = 1;
 var selectedSubject = "all";
 var currentExamData = null;
 
+var integrationState = {
+  grade: 5,
+  subjectKey: 'toan',
+  durationWeeks: 1, // 1, 2, or 4
+  startWeek: 1,
+  topicKey: 'gddp',
+  customTopicTitle: '',
+  customNotes: '',
+  analyzedPlan: null,
+  selectedLessons: {},
+  appliedLessons: null,
+  activePreviewLessonIndex: 0,
+  isAnalyzing: false,
+  isApplying: false
+};
+
 // ==========================================
 // DỮ LIỆU SIDEBAR: KHỐI & MÔN HỌC
 // ==========================================
@@ -3041,117 +3057,57 @@ async function syncDriveData(showToastMsg) {
 }
 
 // Export functions to window
-window.navigateTo = navigateTo;
-window.handleFileViewer = handleFileViewer;
-window.handleFileDownload = handleFileDownload;
-window.toggleFilePermissionPrompt = toggleFilePermissionPrompt;
-window.filterByGrade = filterByGrade;
-window.selectWeekFilter = selectWeekFilter;
-window.selectSubjectFilter = selectSubjectFilter;
-// Toggle sidebar accordion menu by element ID
-function toggleSidebarMenu(id) {
-  var el = document.getElementById(id);
-  if (!el) return;
-  var subMenu = el.querySelector('.sub-tree-menu');
-  var chevron = el.querySelector('.tree-chevron');
-  var isOpen = el.classList.contains('open');
+// Window bindings an toàn (chống ReferenceError)
+if (typeof window !== "undefined") {
+  window.navigateTo = typeof navigateTo !== "undefined" ? navigateTo : null;
+  window.handleFileViewer = typeof handleFileViewer !== "undefined" ? handleFileViewer : null;
+  window.handleFileDownload = typeof handleFileDownload !== "undefined" ? handleFileDownload : null;
+  window.toggleFilePermissionPrompt = typeof toggleFilePermissionPrompt !== "undefined" ? toggleFilePermissionPrompt : null;
+  window.filterByGrade = typeof filterByGrade !== "undefined" ? filterByGrade : null;
+  window.selectWeekFilter = typeof selectWeekFilter !== "undefined" ? selectWeekFilter : null;
+  window.selectSubjectFilter = typeof selectSubjectFilter !== "undefined" ? selectSubjectFilter : null;
+  window.toggleSidebarMenu = typeof toggleSidebarMenu !== "undefined" ? toggleSidebarMenu : null;
+  window.selectGradeAndNavigateTo = typeof selectGradeAndNavigateTo !== "undefined" ? selectGradeAndNavigateTo : null;
+  window.toggleGradeTree = typeof toggleGradeTree !== "undefined" ? toggleGradeTree : null;
+  window.navigateToSubject = typeof navigateToSubject !== "undefined" ? navigateToSubject : null;
+  window.syncDriveData = typeof syncDriveData !== "undefined" ? syncDriveData : null;
+  window.addNewPinCode = typeof addNewPinCode !== "undefined" ? addNewPinCode : null;
+  window.copyPinShareMessage = typeof copyPinShareMessage !== "undefined" ? copyPinShareMessage : null;
+  window.saveGeminiApiKey = typeof saveGeminiApiKey !== "undefined" ? saveGeminiApiKey : null;
 
-  // Close all other sidebar menus first
-  var allMenus = document.querySelectorAll('.tree-item-collapsible.open');
-  allMenus.forEach(function(m) {
-    if (m.id !== id) {
-      m.classList.remove('open');
-      var sm = m.querySelector('.sub-tree-menu');
-      var ch = m.querySelector('.tree-chevron');
-      if (sm) sm.style.maxHeight = '0';
-      if (ch) { ch.className = 'fa-solid fa-chevron-right tree-chevron'; }
-    }
-  });
+  // AI Exam Generator Window Bindings
+  window.renderAiExamView = typeof renderAiExamView !== "undefined" ? renderAiExamView : null;
+  window.onExamGradeChange = typeof onExamGradeChange !== "undefined" ? onExamGradeChange : null;
+  window.onExamScopePresetChange = typeof onExamScopePresetChange !== "undefined" ? onExamScopePresetChange : null;
+  window.onExamScoreRatioChange = typeof onExamScoreRatioChange !== "undefined" ? onExamScoreRatioChange : null;
+  window.setExamScoreRatio = typeof setExamScoreRatio !== "undefined" ? setExamScoreRatio : null;
+  window.updateCognitiveTotal = typeof updateCognitiveTotal !== "undefined" ? updateCognitiveTotal : null;
+  window.setCognitivePreset = typeof setCognitivePreset !== "undefined" ? setCognitivePreset : null;
+  window.triggerAiGenerate = typeof triggerAiGenerate !== "undefined" ? triggerAiGenerate : null;
+  window.switchExamTab = typeof switchExamTab !== "undefined" ? switchExamTab : null;
+  window.openGeminiApiKeyModal = typeof openGeminiApiKeyModal !== "undefined" ? openGeminiApiKeyModal : null;
+  window.saveQuickGeminiApiKey = typeof saveQuickGeminiApiKey !== "undefined" ? saveQuickGeminiApiKey : null;
 
-  if (isOpen) {
-    el.classList.remove('open');
-    if (subMenu) subMenu.style.maxHeight = '0';
-    if (chevron) { chevron.className = 'fa-solid fa-chevron-right tree-chevron'; }
-  } else {
-    el.classList.add('open');
-    if (subMenu) subMenu.style.maxHeight = subMenu.scrollHeight + 'px';
-    if (chevron) { chevron.className = 'fa-solid fa-chevron-down tree-chevron'; }
-  }
+  // AI Integration Window Bindings
+  window.renderAiIntegrationView = typeof renderAiIntegrationView !== "undefined" ? renderAiIntegrationView : null;
+  window.onIntegrationGradeChange = typeof onIntegrationGradeChange !== "undefined" ? onIntegrationGradeChange : null;
+  window.onIntegrationSubjectChange = typeof onIntegrationSubjectChange !== "undefined" ? onIntegrationSubjectChange : null;
+  window.onIntegrationDurationChange = typeof onIntegrationDurationChange !== "undefined" ? onIntegrationDurationChange : null;
+  window.onIntegrationStartWeekChange = typeof onIntegrationStartWeekChange !== "undefined" ? onIntegrationStartWeekChange : null;
+  window.onIntegrationTopicChange = typeof onIntegrationTopicChange !== "undefined" ? onIntegrationTopicChange : null;
+  window.triggerAnalyzeIntegrationPlan = typeof triggerAnalyzeIntegrationPlan !== "undefined" ? triggerAnalyzeIntegrationPlan : null;
+  window.toggleIntegrationLessonSelect = typeof toggleIntegrationLessonSelect !== "undefined" ? toggleIntegrationLessonSelect : null;
+  window.toggleSelectAllIntegrationLessons = typeof toggleSelectAllIntegrationLessons !== "undefined" ? toggleSelectAllIntegrationLessons : null;
+  window.triggerApplyAndPreviewIntegration = typeof triggerApplyAndPreviewIntegration !== "undefined" ? triggerApplyAndPreviewIntegration : null;
+  window.switchIntegrationPreviewLesson = typeof switchIntegrationPreviewLesson !== "undefined" ? switchIntegrationPreviewLesson : null;
+  window.triggerExportIntegrationWord = typeof triggerExportIntegrationWord !== "undefined" ? triggerExportIntegrationWord : null;
 }
-
-// Set grade then navigate to a view (khbd / pptx)
-function selectGradeAndNavigateTo(grade, view) {
-  selectedGrade = String(grade);
-  navigateTo(view);
-}
-
-window.selectGradeAndNavigate = selectGradeAndNavigate;
-
-window.triggerAiGenerate = triggerAiGenerate;
-window.syncDriveData = syncDriveData;
-window.addNewPinCode = addNewPinCode;
-window.copyPinShareMessage = copyPinShareMessage;
-window.saveGeminiApiKey = saveGeminiApiKey;
-window.toggleGradeTree = toggleGradeTree;
-window.navigateToSubject = navigateToSubject;
-window.setViewMode = setViewMode;
-window.setSidebarGrade = setSidebarGrade;
-window.toggleSidebarMenu = toggleSidebarMenu;
-window.selectGradeAndNavigateTo = selectGradeAndNavigateTo;
-window.toggleSidebarSection = toggleSidebarSection;
-window.toggleSidebarGrade = toggleSidebarGrade;
-window.selectSubjectAndNavigateTo = selectSubjectAndNavigateTo;
-window.selectWeekAndNavigateTo = selectWeekAndNavigateTo;
-
-// AI Exam Generator Window Bindings
-window.onExamGradeChange = onExamGradeChange;
-window.onExamScopePresetChange = onExamScopePresetChange;
-window.onExamScoreRatioChange = onExamScoreRatioChange;
-window.setExamScoreRatio = setExamScoreRatio;
-window.updateCognitiveTotal = updateCognitiveTotal;
-window.setCognitivePreset = setCognitivePreset;
-window.triggerAiGenerate = triggerAiGenerate;
-window.switchExamTab = switchExamTab;
-window.openGeminiApiKeyModal = openGeminiApiKeyModal;
-window.saveQuickGeminiApiKey = saveQuickGeminiApiKey;
-
-// AI Integration Window Bindings
-window.onIntegrationGradeChange = onIntegrationGradeChange;
-window.onIntegrationSubjectChange = onIntegrationSubjectChange;
-window.onIntegrationDurationChange = onIntegrationDurationChange;
-window.onIntegrationStartWeekChange = onIntegrationStartWeekChange;
-window.onIntegrationTopicChange = onIntegrationTopicChange;
-window.triggerAnalyzeIntegrationPlan = triggerAnalyzeIntegrationPlan;
-window.toggleIntegrationLessonSelect = toggleIntegrationLessonSelect;
-window.toggleSelectAllIntegrationLessons = toggleSelectAllIntegrationLessons;
-window.triggerApplyAndPreviewIntegration = triggerApplyAndPreviewIntegration;
-window.switchIntegrationPreviewLesson = switchIntegrationPreviewLesson;
-window.triggerExportIntegrationWord = triggerExportIntegrationWord;
-
-
-
-
-
 
 /* ==========================================================================
    TRỢ LÝ AI TÍCH HỢP GIÁO ÁN TỰ ĐỘNG (CHUẨN CÔNG VĂN 2345/BGDĐT-GDTH)
    ========================================================================== */
 
-var integrationState = {
-  grade: 5,
-  subjectKey: 'toan',
-  durationWeeks: 1, // 1, 2, or 4
-  startWeek: 1,
-  topicKey: 'gddp',
-  customTopicTitle: '',
-  customNotes: '',
-  analyzedPlan: null,
-  selectedLessons: {},
-  appliedLessons: null,
-  activePreviewLessonIndex: 0,
-  isAnalyzing: false,
-  isApplying: false
-};
+// integrationState defined at top of file
 
 function getIntegrationSubjectsForGrade(grade) {
   var g = parseInt(grade) || 5;
