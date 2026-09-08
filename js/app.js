@@ -85,11 +85,11 @@ var SIDEBAR_SUBJECTS = {
 
 var sidebarActiveGrade = 1;
 
-// Khởi chạy khi DOM sẵn sàng
-document.addEventListener("DOMContentLoaded", function() {
+// Khởi chạy khi DOM sẵn sàng (Hỗ trợ cả Trang chính và Trang độc lập)
+function initApplication() {
   var pathname = (window.location.pathname || "").toLowerCase();
-  var isStandaloneIntegration = pathname.indexOf("ai-integration") !== -1 || document.body.classList.contains("page-ai-integration");
-  var isStandaloneExam = pathname.indexOf("ai-exam") !== -1 || document.body.classList.contains("page-ai-exam");
+  var isStandaloneIntegration = pathname.indexOf("ai-integration") !== -1 || (document.body && document.body.classList.contains("page-ai-integration"));
+  var isStandaloneExam = pathname.indexOf("ai-exam") !== -1 || (document.body && document.body.classList.contains("page-ai-exam"));
 
   if (isStandaloneIntegration) {
     currentView = "ai-integration";
@@ -127,11 +127,14 @@ document.addEventListener("DOMContentLoaded", function() {
       navigateTo(newHash);
     }
   });
-});
+}
 
-// ==========================================
-// SIDEBAR DOCS NAV – 3 CẤP (SECTION → KHỐI → MÔN/TUẦN)
-// ==========================================
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initApplication);
+} else {
+  initApplication();
+}
+
 var SDOC_SECTIONS = [
   {
     id: 'sdoc-khbd',
