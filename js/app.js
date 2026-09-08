@@ -3107,6 +3107,8 @@ if (typeof window !== "undefined") {
   window.onIntegrationSubjectChange = typeof onIntegrationSubjectChange !== "undefined" ? onIntegrationSubjectChange : null;
   window.onIntegrationDurationChange = typeof onIntegrationDurationChange !== "undefined" ? onIntegrationDurationChange : null;
   window.onIntegrationStartWeekChange = typeof onIntegrationStartWeekChange !== "undefined" ? onIntegrationStartWeekChange : null;
+  window.onIntegrationEndWeekChange = typeof onIntegrationEndWeekChange !== "undefined" ? onIntegrationEndWeekChange : null;
+  window.setIntegrationQuickRange = typeof setIntegrationQuickRange !== "undefined" ? setIntegrationQuickRange : null;
   window.setIntegrationInputMethod = typeof setIntegrationInputMethod !== "undefined" ? setIntegrationInputMethod : null;
   window.handleIntegrationFileInput = typeof handleIntegrationFileInput !== "undefined" ? handleIntegrationFileInput : null;
   window.onIntegrationPasteTextInput = typeof onIntegrationPasteTextInput !== "undefined" ? onIntegrationPasteTextInput : null;
@@ -3220,44 +3222,48 @@ function renderAiIntegrationView(container) {
           </div>
         </div>
 
-        <!-- 2. THỜI LƯỢNG TÍCH HỢP (1 TUẦN, 2 TUẦN, 4 TUẦN) -->
-        <div class="form-group" style="margin-bottom: 0.75rem;">
-          <label style="font-weight: 700; font-size: 0.82rem; color: #334155; display: flex; justify-content: space-between;">
-            <span>3. Thời lượng tích hợp:</span>
-            <span style="font-size: 0.74rem; color: #db2777; font-weight: 800;">Tối ưu tốc độ AI</span>
-          </label>
-          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.4rem; margin-top: 0.25rem;">
-            <label style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.5rem 0.25rem; border: 1.5px solid ${integrationState.durationWeeks === 1 ? '#db2777' : 'var(--border-color)'}; background: ${integrationState.durationWeeks === 1 ? '#fdf2f8' : '#ffffff'}; border-radius: var(--radius-sm); cursor: pointer; text-align: center;">
-              <input type="radio" name="integDurationRadio" value="1" ${integrationState.durationWeeks === 1 ? 'checked' : ''} onchange="onIntegrationDurationChange(1)" style="display: none;">
-              <strong style="font-size: 0.85rem; color: ${integrationState.durationWeeks === 1 ? '#db2777' : 'inherit'};">1 Tuần</strong>
-              <small style="font-size: 0.68rem; color: var(--text-muted);">Nhanh nhất</small>
-            </label>
-            <label style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.5rem 0.25rem; border: 1.5px solid ${integrationState.durationWeeks === 2 ? '#db2777' : 'var(--border-color)'}; background: ${integrationState.durationWeeks === 2 ? '#fdf2f8' : '#ffffff'}; border-radius: var(--radius-sm); cursor: pointer; text-align: center;">
-              <input type="radio" name="integDurationRadio" value="2" ${integrationState.durationWeeks === 2 ? 'checked' : ''} onchange="onIntegrationDurationChange(2)" style="display: none;">
-              <strong style="font-size: 0.85rem; color: ${integrationState.durationWeeks === 2 ? '#db2777' : 'inherit'};">2 Tuần</strong>
-              <small style="font-size: 0.68rem; color: var(--text-muted);">Nửa tháng</small>
-            </label>
-            <label style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.5rem 0.25rem; border: 1.5px solid ${integrationState.durationWeeks === 4 ? '#db2777' : 'var(--border-color)'}; background: ${integrationState.durationWeeks === 4 ? '#fdf2f8' : '#ffffff'}; border-radius: var(--radius-sm); cursor: pointer; text-align: center;">
-              <input type="radio" name="integDurationRadio" value="4" ${integrationState.durationWeeks === 4 ? 'checked' : ''} onchange="onIntegrationDurationChange(4)" style="display: none;">
-              <strong style="font-size: 0.85rem; color: ${integrationState.durationWeeks === 4 ? '#db2777' : 'inherit'};">4 Tuần</strong>
-              <small style="font-size: 0.68rem; color: var(--text-muted);">1 Tháng</small>
-            </label>
-          </div>
-        </div>
-
-        <!-- 3. CHỌN TUẦN BẮT ĐẦU -->
+        <!-- 3. PHẠM VI TUẦN HỌC (TÙY CHỌN: TỪ TUẦN ... ĐẾN TUẦN ...) -->
         <div class="form-group" style="margin-bottom: 0.85rem;">
-          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-            <label for="integStartWeekSelect" style="font-weight: 700; font-size: 0.82rem; color: #334155; margin-bottom: 0;">4. Tuần Bắt Đầu:</label>
-            <span id="integWeekRangeBadge" style="font-size: 0.75rem; font-weight: 800; color: #db2777; background: #fdf2f8; padding: 0.15rem 0.5rem; border-radius: 9999px;">
-              Áp dụng: Tuần ${integrationState.startWeek} → Tuần ${endWeek}
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+            <label style="font-weight: 700; font-size: 0.82rem; color: #334155; margin: 0;">3. Phạm vi Tuần học:</label>
+            <span id="integWeekRangeBadge" style="font-size: 0.74rem; font-weight: 800; color: #db2777; background: #fdf2f8; padding: 0.15rem 0.5rem; border-radius: 9999px; border: 1px solid #fbcfe8;">
+              Tuần ${integrationState.startWeek} → Tuần ${integrationState.endWeek || integrationState.startWeek} (${(integrationState.endWeek || integrationState.startWeek) - integrationState.startWeek + 1} tuần)
             </span>
           </div>
-          <select id="integStartWeekSelect" class="form-select" onchange="onIntegrationStartWeekChange(this.value)">
-            ${Array.from({length: 35}, function(_, i) { return i + 1; }).map(function(w) {
-              return `<option value="${w}" ${w === integrationState.startWeek ? 'selected' : ''}>Tuần ${w}</option>`;
-            }).join('')}
-          </select>
+
+          <!-- HAI Ô CHỌN TỪ TUẦN ... ĐẾN TUẦN ... -->
+          <div style="display: grid; grid-template-columns: 1fr auto 1fr; gap: 0.45rem; align-items: center; margin-bottom: 0.5rem;">
+            <div>
+              <label for="integStartWeekSelect" style="font-size: 0.72rem; color: #64748b; font-weight: 700; margin-bottom: 2px; display: block;">Từ tuần:</label>
+              <select id="integStartWeekSelect" class="form-select" style="font-size: 0.82rem; font-weight: 700;" onchange="onIntegrationStartWeekChange(this.value)">
+                ${Array.from({length: 35}, function(_, i) { return i + 1; }).map(function(w) {
+                  return `<option value="${w}" ${w === integrationState.startWeek ? 'selected' : ''}>Tuần ${w}</option>`;
+                }).join('')}
+              </select>
+            </div>
+
+            <div style="text-align: center; color: #db2777; font-weight: 800; padding-top: 14px; font-size: 0.9rem;">
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+
+            <div>
+              <label for="integEndWeekSelect" style="font-size: 0.72rem; color: #64748b; font-weight: 700; margin-bottom: 2px; display: block;">Đến tuần:</label>
+              <select id="integEndWeekSelect" class="form-select" style="font-size: 0.82rem; font-weight: 700;" onchange="onIntegrationEndWeekChange(this.value)">
+                ${Array.from({length: 35}, function(_, i) { return i + 1; }).map(function(w) {
+                  var curEnd = integrationState.endWeek || integrationState.startWeek;
+                  return `<option value="${w}" ${w === curEnd ? 'selected' : ''}>Tuần ${w}</option>`;
+                }).join('')}
+              </select>
+            </div>
+          </div>
+
+          <!-- CÁC NÚT BẤM NHANH (PRESETS) -->
+          <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.35rem;">
+            <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.25rem 0.2rem; ${(integrationState.endWeek - integrationState.startWeek + 1 === 1) ? 'background: #fdf2f8; border-color: #db2777; color: #db2777; font-weight: 800;' : ''}" onclick="setIntegrationQuickRange(integrationState.startWeek, integrationState.startWeek)">1 Tuần</button>
+            <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.25rem 0.2rem; ${(integrationState.endWeek - integrationState.startWeek + 1 === 2) ? 'background: #fdf2f8; border-color: #db2777; color: #db2777; font-weight: 800;' : ''}" onclick="setIntegrationQuickRange(integrationState.startWeek, integrationState.startWeek + 1)">2 Tuần</button>
+            <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.25rem 0.2rem; ${(integrationState.endWeek - integrationState.startWeek + 1 === 4) ? 'background: #fdf2f8; border-color: #db2777; color: #db2777; font-weight: 800;' : ''}" onclick="setIntegrationQuickRange(integrationState.startWeek, integrationState.startWeek + 3)">4 Tuần</button>
+            <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.25rem 0.2rem; ${(integrationState.startWeek === 1 && integrationState.endWeek === 18) ? 'background: #fdf2f8; border-color: #db2777; color: #db2777; font-weight: 800;' : ''}" onclick="setIntegrationQuickRange(1, 18)">Học kì 1</button>
+          </div>
         </div>
 
         <!-- 4. KHU VỰC TẢI LÊN HOẶC DÁN TÀI LIỆU CHỈ ĐẠO MỚI CỦA BỘ / SỞ -->
@@ -3421,11 +3427,45 @@ function onIntegrationDurationChange(weeks) {
 }
 
 function onIntegrationStartWeekChange(week) {
-  integrationState.startWeek = parseInt(week) || 1;
-  var endWeek = Math.min(35, integrationState.startWeek + integrationState.durationWeeks - 1);
+  var s = parseInt(week) || 1;
+  integrationState.startWeek = s;
+  if (!integrationState.endWeek || integrationState.endWeek < s) {
+    integrationState.endWeek = s;
+  }
+  integrationState.durationWeeks = integrationState.endWeek - integrationState.startWeek + 1;
+  updateWeekRangeBadgeAndSelects();
+}
+
+function onIntegrationEndWeekChange(week) {
+  var e = parseInt(week) || 1;
+  if (e < integrationState.startWeek) {
+    integrationState.startWeek = e;
+  }
+  integrationState.endWeek = e;
+  integrationState.durationWeeks = integrationState.endWeek - integrationState.startWeek + 1;
+  updateWeekRangeBadgeAndSelects();
+}
+
+function setIntegrationQuickRange(start, end) {
+  integrationState.startWeek = Math.max(1, Math.min(35, parseInt(start) || 1));
+  integrationState.endWeek = Math.max(integrationState.startWeek, Math.min(35, parseInt(end) || 1));
+  integrationState.durationWeeks = integrationState.endWeek - integrationState.startWeek + 1;
+  var container = document.getElementById('content-container');
+  if (container && currentView === 'ai-integration') {
+    renderAiIntegrationView(container);
+  }
+}
+
+function updateWeekRangeBadgeAndSelects() {
+  var sSelect = document.getElementById('integStartWeekSelect');
+  var eSelect = document.getElementById('integEndWeekSelect');
+  if (sSelect) sSelect.value = integrationState.startWeek;
+  if (eSelect) eSelect.value = integrationState.endWeek;
+
+  var count = (integrationState.endWeek || integrationState.startWeek) - integrationState.startWeek + 1;
   var badge = document.getElementById('integWeekRangeBadge');
   if (badge) {
-    badge.textContent = 'Áp dụng: Tuần ' + integrationState.startWeek + ' → Tuần ' + endWeek;
+    badge.textContent = 'Tuần ' + integrationState.startWeek + ' → Tuần ' + (integrationState.endWeek || integrationState.startWeek) + ' (' + count + ' tuần)';
   }
 }
 
@@ -3525,7 +3565,8 @@ async function triggerAnalyzeIntegrationPlan() {
       grade: integrationState.grade,
       subjectKey: integrationState.subjectKey,
       startWeek: integrationState.startWeek,
-      durationWeeks: integrationState.durationWeeks,
+      endWeek: integrationState.endWeek || integrationState.startWeek,
+      durationWeeks: (integrationState.endWeek || integrationState.startWeek) - integrationState.startWeek + 1,
       docTitle: integrationState.uploadedDocName,
       docText: integrationState.uploadedDocText,
       userNotes: integrationState.userNotes
