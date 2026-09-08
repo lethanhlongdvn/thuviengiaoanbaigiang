@@ -636,9 +636,22 @@ var IntegrationService = {
   // =========================================================================
 
   isDoublePeriodLesson: function(title, period) {
-    var t = ((title || '') + ' ' + (period || '')).toLowerCase();
+    var rawTitle = (title || '').trim();
+    var t = (rawTitle + ' ' + (period || '')).toLowerCase();
+
+    // 1. Nếu đã có hậu tố tiết con cụ thể (- Tiết 1:, - Tiết 2:, (Tiết 1), (Tiết 2), (T1), (T2)) -> Tiết đơn!
+    if (/(?:-\s*ti[eế]t\s*\d+|\(ti[eế]t\s*\d+\)|\(t\d+\))/i.test(rawTitle)) {
+      return false;
+    }
+
+    // 2. Nếu chỉ ghi "Số tiết: 2" (thường là tổng số tiết chủ đề dạy trong nhiều tuần, VD Đạo đức) -> không phải tiết đôi cùng tuần
+    if (/s[oố]\s*ti[eế]t\s*:\s*\d+/i.test(t) && !/th[oờ]i\s*l[uư][oợ]ng\s*:\s*2/i.test(t)) {
+      return false;
+    }
+
+    // 3. Tiết đôi thực thụ (chưa chia nhỏ): "Tiết 1 - 2", "Tiết 1, 2", "2 tiết", "Thời lượng: 2 tiết", "Tiết đôi"
     if (/ti[eế]t\s*\d+\s*[-–,]\s*\d+/i.test(t)) return true;
-    if (/(?:2\s*ti[eế]t|th[oờ]i\s*l[uư][oợ]ng\s*:\s*2|s[oố]\s*ti[eế]t\s*:\s*2|ti[eế]t\s*đ[oô]i)/i.test(t)) return true;
+    if (/(?:2\s*ti[eế]t|th[oờ]i\s*l[uư][oợ]ng\s*:\s*2|ti[eế]t\s*đ[oô]i)/i.test(t)) return true;
     return false;
   },
 
@@ -649,7 +662,27 @@ var IntegrationService = {
     var self = this;
 
     (rawLessons || []).forEach(function(les, r_idx) {
-      var tables = les.tables || [];
+      var rawTables = les.tables || [];
+      var tables = rawTables.filter(function(tbl) {
+        if (!tbl || !Array.isArray(tbl) || tbl.length === 0) return false;
+        if (tbl.length === 1) {
+          var r0 = tbl[0];
+          if (!Array.isArray(r0) || r0.length <= 1) return false;
+          var text = r0.join(' ').trim().toLowerCase();
+          if (text.length < 100 && (text.includes('kế hoạch bài dạy') || text.includes('môn') || text.includes('tuần') || text.includes('chủ đề'))) {
+            return false;
+          }
+        }
+        if (tbl.length === 2) {
+          var allText = tbl.map(function(r) { return Array.isArray(r) ? r.join(' ') : ''; }).join(' ').trim().toLowerCase();
+          if (allText.length < 120 && (allText.includes('kế hoạch bài dạy') || allText.includes('giáo viên') || allText.includes('trường tiểu học'))) {
+            return false;
+          }
+        }
+        return true;
+      });
+      if (tables.length === 0 && rawTables.length > 0) tables = rawTables;
+
       var hasRealContent = false;
       for (var i = 0; i < tables.length; i++) {
         if (tables[i] && tables[i].length > 0) {
@@ -663,6 +696,7 @@ var IntegrationService = {
         return;
       }
       var lesCopy = JSON.parse(JSON.stringify(les));
+      lesCopy.tables = tables;
       if (currentTopic && !lesCopy.topic) lesCopy.topic = currentTopic;
       validLessons.push({ origIdx: r_idx, lesson: lesCopy });
     });

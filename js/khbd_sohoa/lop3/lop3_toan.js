@@ -6481,11 +6481,6 @@
               "- GV kết luận: Bảng nhân, bảng chia giúp chúng ta giải nhanh nhiều tình huống trong đời sống hằng ngày.",
               "- HS ghi nhớ nội dung bài học."
             ]
-          ],
-          [
-            [
-              "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3"
-            ]
           ]
         ],
         "title": "Bài 15: LUYỆN TẬP CHUNG (T1)"
@@ -6674,11 +6669,6 @@
               "- GV kết luận: Biết bảng nhân, bảng chia giúp em giải nhanh bài toán và tìm được một phần mấy của một nhóm đồ vật.",
               "- HS ghi nhớ nội dung bài."
             ]
-          ],
-          [
-            [
-              "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3"
-            ]
           ]
         ],
         "title": "Bài 15: LUYỆN TẬP CHUNG (T2)"
@@ -6864,11 +6854,6 @@
             [
               "- GV kết luận: Trung điểm là điểm ở giữa và cách đều hai đầu mút của đoạn thẳng.",
               "- HS nhắc lại kết luận."
-            ]
-          ],
-          [
-            [
-              "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3"
             ]
           ]
         ],
@@ -7059,11 +7044,6 @@
             [
               "- GV kết luận: Kiến thức trung điểm giúp em chia đều đoạn thẳng, đoạn dây hoặc vật liệu trong thực tế.",
               "- HS ghi nhớ."
-            ]
-          ],
-          [
-            [
-              "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3"
             ]
           ]
         ],
@@ -34181,7 +34161,7 @@
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
+  if (typeof window !== 'undefined' && window.KHBD_DATA) {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {

@@ -5436,11 +5436,6 @@
         "tables": [
           [
             [
-              "KẾ HOẠCH BÀI DẠY MÔN KHOA HỌC 5\nKHOA HỌC TUẦN 17\nCHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT\nBÀI 16: VÒNG ĐỜI VÀ SỰ PHÁT TRIỂN CỦA ĐỘNG VẬT (TIẾT 1)"
-            ]
-          ],
-          [
-            [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
@@ -8727,26 +8722,6 @@
           ],
           [
             [
-              "A. TRẮC NGHIỆM (4 điểm) - Khoanh vào chữ cái trước ý trả lời đúng."
-            ]
-          ],
-          [
-            [
-              "B. TỰ LUẬN (6 điểm) - Trả lời câu hỏi vào chỗ chấm."
-            ]
-          ],
-          [
-            [
-              "Chúc em bình tĩnh, tự tin và làm bài thật tốt!"
-            ]
-          ],
-          [
-            [
-              "ĐÁP ÁN - HƯỚNG DẪN CHẤM"
-            ]
-          ],
-          [
-            [
               "A. Trắc nghiệm: 4 điểm, mỗi câu đúng 0,5 điểm."
             ],
             [
@@ -10924,16 +10899,6 @@
           ],
           [
             [
-              "A. TRẮC NGHIỆM (4 điểm) - Khoanh vào chữ cái trước ý trả lời đúng."
-            ]
-          ],
-          [
-            [
-              "B. TỰ LUẬN (6 điểm) - Trả lời câu hỏi vào chỗ chấm."
-            ]
-          ],
-          [
-            [
               "Chúc em bình tĩnh, tự tin và làm bài thật tốt!"
             ],
             [
@@ -11035,12 +11000,12 @@
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
+  if (typeof window !== 'undefined' && window.KHBD_DATA) {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {
       window.KHBD_RAW_DATA = window.KHBD_RAW_DATA || {};
-      window.KHBD_RAW_DATA["5_khoa_hoc"] = {
+      window.KHBD_RAW_DATA[grade + "_" + subjectId] = {
         grade: grade,
         subjectId: subjectId,
         subjectName: subjectName,

@@ -16621,11 +16621,6 @@
         "tables": [
           [
             [
-              "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 16\nCHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH\nBÀI 29: CÁNH CỬA NHỚ BÀ (4 TIẾT)\nTIẾT 1 - 2: ĐỌC - CÁNH CỬA NHỚ BÀ"
-            ]
-          ],
-          [
-            [
               "HOẠT ĐỘNG CỦA GV",
               "HOẠT ĐỘNG CỦA HS"
             ],
@@ -16773,11 +16768,6 @@
           ],
           [
             [
-              "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 16\nCHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH\nBÀI 29: CÁNH CỬA NHỚ BÀ\nTIẾT 3: VIẾT - CHỮ HOA Ô, Ơ"
-            ]
-          ],
-          [
-            [
               "HOẠT ĐỘNG CỦA GV",
               "HOẠT ĐỘNG CỦA HS"
             ],
@@ -16859,11 +16849,6 @@
           ],
           [
             [
-              "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 16\nCHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH\nBÀI 29: CÁNH CỬA NHỚ BÀ\nTIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN BÀ CHÁU"
-            ]
-          ],
-          [
-            [
               "HOẠT ĐỘNG CỦA GV",
               "HOẠT ĐỘNG CỦA HS"
             ],
@@ -16937,11 +16922,6 @@
             [
               "- GV yêu cầu HS về nhà kể cho người thân nghe câu chuyện Bà cháu và nói điều em thích trong câu chuyện.",
               "- HS nhận nhiệm vụ: kể lại 1 - 2 đoạn hoặc cả câu chuyện cho người thân nghe."
-            ]
-          ],
-          [
-            [
-              "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 16\nCHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH\nBÀI 30: THƯƠNG ÔNG (6 TIẾT)\nTIẾT 1 - 2: ĐỌC - THƯƠNG ÔNG"
             ]
           ],
           [
@@ -17081,11 +17061,6 @@
           ],
           [
             [
-              "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 16\nCHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH\nBÀI 30: THƯƠNG ÔNG\nTIẾT 3: VIẾT - NGHE VIẾT THƯƠNG ÔNG"
-            ]
-          ],
-          [
-            [
               "HOẠT ĐỘNG CỦA GV",
               "HOẠT ĐỘNG CỦA HS"
             ],
@@ -17155,11 +17130,6 @@
             [
               "- GV nhận xét bài viết, dặn HS viết lại các tiếng viết sai mỗi tiếng 1 dòng.",
               "- HS ghi nhớ các lỗi cần sửa và thực hiện ở nhà."
-            ]
-          ],
-          [
-            [
-              "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 16\nCHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH\nBÀI 30: THƯƠNG ÔNG\nTIẾT 4: LUYỆN TẬP - TỪ CHỈ SỰ VẬT, HOẠT ĐỘNG; CÂU NÊU HOẠT ĐỘNG"
             ]
           ],
           [
@@ -17253,11 +17223,6 @@
           ],
           [
             [
-              "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 16\nCHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH\nBÀI 30: THƯƠNG ÔNG\nTIẾT 5: LUYỆN TẬP - VIẾT ĐOẠN VĂN KỂ VỀ VIỆC ĐÃ LÀM CÙNG NGƯỜI THÂN"
-            ]
-          ],
-          [
-            [
               "HOẠT ĐỘNG CỦA GV",
               "HOẠT ĐỘNG CỦA HS"
             ],
@@ -17331,11 +17296,6 @@
             [
               "- GV dặn HS đọc đoạn văn cho người thân nghe và thực hiện một việc nhỏ giúp gia đình.",
               "- HS nhận nhiệm vụ: đọc đoạn văn cho người thân nghe, giúp người thân một việc vừa sức."
-            ]
-          ],
-          [
-            [
-              "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 16\nCHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH\nBÀI 30: THƯƠNG ÔNG\nTIẾT 6: ĐỌC MỞ RỘNG"
             ]
           ],
           [
@@ -32503,7 +32463,7 @@
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
+  if (typeof window !== 'undefined' && window.KHBD_DATA) {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {

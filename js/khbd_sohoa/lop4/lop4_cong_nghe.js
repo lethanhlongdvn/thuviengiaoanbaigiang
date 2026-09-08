@@ -4486,11 +4486,6 @@
           ],
           [
             [
-              "BỘ ĐỀ KIỂM TRA ĐỊNH KÌ MÔN CÔNG NGHỆ LỚP 4Tuần 35 – Thời gian: 35 phútNăm học: 2025 – 2026"
-            ]
-          ],
-          [
-            [
               "Mạch nội dung",
               "Nhận biết",
               "Thông hiểu",
@@ -4616,7 +4611,7 @@
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
+  if (typeof window !== 'undefined' && window.KHBD_DATA) {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {
