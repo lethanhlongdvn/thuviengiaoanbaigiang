@@ -8,6 +8,11 @@
 var KHBD_DATA = {
   db: {},
 
+  isLoaded: function(grade, subjectId) {
+    var key = grade + '_' + (subjectId || '').toLowerCase();
+    return !!(this.db && this.db[key] && this.db[key].weeks);
+  },
+
   registerSubject: function(grade, subjectId, subjectName, weeksData) {
     var key = grade + '_' + (subjectId || '').toLowerCase();
     this.db[key] = {
@@ -100,4 +105,7 @@ var KHBD_DATA = {
 
 if (typeof window !== 'undefined') {
   window.KHBD_DATA = KHBD_DATA;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = KHBD_DATA;
 }

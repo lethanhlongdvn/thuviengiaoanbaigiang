@@ -351,6 +351,7 @@ function updateBreadcrumb() {
     khbd: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Kế Hoạch Bài Dạy (KHBD)</li>',
     weekly: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Tổng Hợp Theo Tuần</li>',
     "ai-exam": '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Trợ Lý AI Ra Đề</li>',
+    "ai-integration": '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">AI Tích Hợp Giáo Án (CV 2345)</li>',
     toolkit: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Tiện Ích Giảng Dạy</li>',
     settings: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Cấu Hình & Quản Trị</li>',
     search: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Kết Quả Tìm Kiếm</li>'
@@ -379,6 +380,9 @@ function renderCurrentView() {
       break;
     case "ai-exam":
       renderAiExamView(container);
+      break;
+    case "ai-integration":
+      renderAiIntegrationView(container);
       break;
     case "toolkit":
       renderToolkitView(container);
@@ -455,6 +459,14 @@ function renderHomeView(container) {
         </button>
         <button class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.4);" onclick="navigateTo('weekly')">
           <i class="fa-solid fa-table-columns" style="color: #fb923c;"></i> Xem Theo Tuần Học
+        </button>
+        <button class="btn btn-ai-header" onclick="navigateTo('ai-integration')" style="background: linear-gradient(135deg, #db2777, #ec4899); border: none; box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);">
+          <i class="fa-solid fa-layer-group"></i> AI Tích Hợp Giáo Án
+          <span style="background: #ef4444; color: white; font-size: 0.62rem; padding: 2px 6px; border-radius: 9999px; margin-left: 4px; font-weight: 800;">MỚI</span>
+        </button>
+        <button class="btn btn-ai-header" onclick="navigateTo('ai-integration')" style="background: linear-gradient(135deg, #db2777, #ec4899); border: none; box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);">
+          <i class="fa-solid fa-layer-group"></i> AI Tích Hợp Giáo Án
+          <span style="background: #ef4444; color: white; font-size: 0.62rem; padding: 2px 6px; border-radius: 9999px; margin-left: 4px; font-weight: 800;">MỚI</span>
         </button>
         <button class="btn btn-ai-header" onclick="navigateTo('ai-exam')">
           <i class="fa-solid fa-wand-magic-sparkles"></i> Trợ Lý AI Ra Đề
@@ -3080,7 +3092,608 @@ window.switchExamTab = switchExamTab;
 window.openGeminiApiKeyModal = openGeminiApiKeyModal;
 window.saveQuickGeminiApiKey = saveQuickGeminiApiKey;
 
+// AI Integration Window Bindings
+window.onIntegrationGradeChange = onIntegrationGradeChange;
+window.onIntegrationSubjectChange = onIntegrationSubjectChange;
+window.onIntegrationDurationChange = onIntegrationDurationChange;
+window.onIntegrationStartWeekChange = onIntegrationStartWeekChange;
+window.onIntegrationTopicChange = onIntegrationTopicChange;
+window.triggerAnalyzeIntegrationPlan = triggerAnalyzeIntegrationPlan;
+window.toggleIntegrationLessonSelect = toggleIntegrationLessonSelect;
+window.toggleSelectAllIntegrationLessons = toggleSelectAllIntegrationLessons;
+window.triggerApplyAndPreviewIntegration = triggerApplyAndPreviewIntegration;
+window.switchIntegrationPreviewLesson = switchIntegrationPreviewLesson;
+window.triggerExportIntegrationWord = triggerExportIntegrationWord;
 
+
+
+
+
+
+/* ==========================================================================
+   TRỢ LÝ AI TÍCH HỢP GIÁO ÁN TỰ ĐỘNG (CHUẨN CÔNG VĂN 2345/BGDĐT-GDTH)
+   ========================================================================== */
+
+var integrationState = {
+  grade: 5,
+  subjectKey: 'toan',
+  durationWeeks: 1, // 1, 2, or 4
+  startWeek: 1,
+  topicKey: 'gddp',
+  customTopicTitle: '',
+  customNotes: '',
+  analyzedPlan: null,
+  selectedLessons: {},
+  appliedLessons: null,
+  activePreviewLessonIndex: 0,
+  isAnalyzing: false,
+  isApplying: false
+};
+
+function getIntegrationSubjectsForGrade(grade) {
+  var g = parseInt(grade) || 5;
+  var subjs = [
+    { key: 'toan', name: 'Toán', icon: 'fa-calculator' },
+    { key: 'tieng_viet', name: 'Tiếng Việt', icon: 'fa-book-open' }
+  ];
+  if (g <= 3) {
+    subjs.push({ key: 'tnxh', name: 'Tự nhiên và Xã hội', icon: 'fa-leaf' });
+  } else {
+    subjs.push({ key: 'khoa_hoc', name: 'Khoa học', icon: 'fa-flask' });
+    subjs.push({ key: 'lich_su_dia_ly', name: 'Lịch sử và Địa lí', icon: 'fa-earth-asia' });
+  }
+  subjs.push({ key: 'dao_duc', name: 'Đạo đức', icon: 'fa-heart' });
+  subjs.push({ key: 'hdtn', name: 'Hoạt động trải nghiệm', icon: 'fa-compass' });
+  if (g >= 3) {
+    subjs.push({ key: 'cong_nghe', name: 'Công nghệ', icon: 'fa-microchip' });
+  }
+  return subjs;
+}
+
+function renderAiIntegrationView(container) {
+  var curGrade = integrationState.grade;
+  var subjects = getIntegrationSubjectsForGrade(curGrade);
+  var curSubj = integrationState.subjectKey;
+  if (!subjects.some(function(s) { return s.key === curSubj; })) {
+    curSubj = subjects[0].key;
+    integrationState.subjectKey = curSubj;
+  }
+
+  var topics = (typeof IntegrationService !== 'undefined' && IntegrationService.TOPICS) ? IntegrationService.TOPICS : {};
+  var endWeek = Math.min(35, integrationState.startWeek + integrationState.durationWeeks - 1);
+
+  container.innerHTML = `
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">
+          <i class="fa-solid fa-layer-group" style="color: #ec4899;"></i> 
+          Trợ Lý AI Tích Hợp Giáo Án Tự Động
+        </h2>
+        <p class="section-subtitle">
+          Số hóa 100% KHBD Kết nối tri thức • Tích hợp chuẩn Công văn 2345/BGDĐT-GDTH • Chèn vào 3 vị trí (YCCĐ, ĐDDH, Hoạt động GV-HS) • Xuất file Word (.doc) hoàn chỉnh
+        </p>
+      </div>
+      <div>
+        <span class="tree-badge badge-ai" style="background: linear-gradient(135deg, #db2777, #ec4899); color: white; padding: 0.45rem 0.85rem; font-size: 0.85rem; font-weight: 800;">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> AI Engine 2026
+        </span>
+      </div>
+    </div>
+
+    <div class="ai-layout-container" style="display: grid; grid-template-columns: 380px 1fr; gap: 1.25rem; align-items: start;">
+      
+      <!-- CỘT ĐIỀU KHIỂN BÊN TRÁI -->
+      <div class="ai-ctrl-box" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm);">
+        
+        <div style="font-size: 0.76rem; font-weight: 800; color: #db2777; background: #fdf2f8; border: 1px solid #fbcfe8; padding: 0.35rem 0.75rem; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
+          <span><i class="fa-solid fa-sliders"></i> THIẾT LẬP TÍCH HỢP</span>
+          <span style="color: #16a34a;"><i class="fa-solid fa-circle-check"></i> CV 2345 Chuẩn</span>
+        </div>
+
+        <!-- 1. KHỐI LỚP & MÔN HỌC -->
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem; margin-bottom: 0.75rem;">
+          <div class="form-group" style="margin-bottom: 0;">
+            <label for="integGradeSelect" style="font-weight: 700; font-size: 0.82rem; color: #334155;">1. Khối Lớp:</label>
+            <select id="integGradeSelect" class="form-select" onchange="onIntegrationGradeChange(this.value)">
+              <option value="1" ${curGrade === 1 ? 'selected' : ''}>Khối 1 (Lớp 1)</option>
+              <option value="2" ${curGrade === 2 ? 'selected' : ''}>Khối 2 (Lớp 2)</option>
+              <option value="3" ${curGrade === 3 ? 'selected' : ''}>Khối 3 (Lớp 3)</option>
+              <option value="4" ${curGrade === 4 ? 'selected' : ''}>Khối 4 (Lớp 4)</option>
+              <option value="5" ${curGrade === 5 ? 'selected' : ''}>Khối 5 (Lớp 5)</option>
+            </select>
+          </div>
+
+          <div class="form-group" style="margin-bottom: 0;">
+            <label for="integSubjectSelect" style="font-weight: 700; font-size: 0.82rem; color: #334155;">2. Môn Học:</label>
+            <select id="integSubjectSelect" class="form-select" onchange="onIntegrationSubjectChange(this.value)">
+              ${subjects.map(function(s) {
+                return `<option value="${s.key}" ${s.key === curSubj ? 'selected' : ''}>${s.name}</option>`;
+              }).join('')}
+            </select>
+          </div>
+        </div>
+
+        <!-- 2. THỜI LƯỢNG TÍCH HỢP (1 TUẦN, 2 TUẦN, 4 TUẦN) -->
+        <div class="form-group" style="margin-bottom: 0.75rem;">
+          <label style="font-weight: 700; font-size: 0.82rem; color: #334155; display: flex; justify-content: space-between;">
+            <span>3. Thời lượng tích hợp:</span>
+            <span style="font-size: 0.74rem; color: #db2777; font-weight: 800;">Tối ưu tốc độ AI</span>
+          </label>
+          <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0.4rem; margin-top: 0.25rem;">
+            <label style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.5rem 0.25rem; border: 1.5px solid ${integrationState.durationWeeks === 1 ? '#db2777' : 'var(--border-color)'}; background: ${integrationState.durationWeeks === 1 ? '#fdf2f8' : '#ffffff'}; border-radius: var(--radius-sm); cursor: pointer; text-align: center;">
+              <input type="radio" name="integDurationRadio" value="1" ${integrationState.durationWeeks === 1 ? 'checked' : ''} onchange="onIntegrationDurationChange(1)" style="display: none;">
+              <strong style="font-size: 0.85rem; color: ${integrationState.durationWeeks === 1 ? '#db2777' : 'inherit'};">1 Tuần</strong>
+              <small style="font-size: 0.68rem; color: var(--text-muted);">Nhanh nhất</small>
+            </label>
+            <label style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.5rem 0.25rem; border: 1.5px solid ${integrationState.durationWeeks === 2 ? '#db2777' : 'var(--border-color)'}; background: ${integrationState.durationWeeks === 2 ? '#fdf2f8' : '#ffffff'}; border-radius: var(--radius-sm); cursor: pointer; text-align: center;">
+              <input type="radio" name="integDurationRadio" value="2" ${integrationState.durationWeeks === 2 ? 'checked' : ''} onchange="onIntegrationDurationChange(2)" style="display: none;">
+              <strong style="font-size: 0.85rem; color: ${integrationState.durationWeeks === 2 ? '#db2777' : 'inherit'};">2 Tuần</strong>
+              <small style="font-size: 0.68rem; color: var(--text-muted);">Nửa tháng</small>
+            </label>
+            <label style="display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 0.5rem 0.25rem; border: 1.5px solid ${integrationState.durationWeeks === 4 ? '#db2777' : 'var(--border-color)'}; background: ${integrationState.durationWeeks === 4 ? '#fdf2f8' : '#ffffff'}; border-radius: var(--radius-sm); cursor: pointer; text-align: center;">
+              <input type="radio" name="integDurationRadio" value="4" ${integrationState.durationWeeks === 4 ? 'checked' : ''} onchange="onIntegrationDurationChange(4)" style="display: none;">
+              <strong style="font-size: 0.85rem; color: ${integrationState.durationWeeks === 4 ? '#db2777' : 'inherit'};">4 Tuần</strong>
+              <small style="font-size: 0.68rem; color: var(--text-muted);">1 Tháng</small>
+            </label>
+          </div>
+        </div>
+
+        <!-- 3. CHỌN TUẦN BẮT ĐẦU -->
+        <div class="form-group" style="margin-bottom: 0.75rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+            <label for="integStartWeekSelect" style="font-weight: 700; font-size: 0.82rem; color: #334155; margin-bottom: 0;">4. Tuần Bắt Đầu:</label>
+            <span id="integWeekRangeBadge" style="font-size: 0.75rem; font-weight: 800; color: #db2777; background: #fdf2f8; padding: 0.15rem 0.5rem; border-radius: 9999px;">
+              Áp dụng: Tuần ${integrationState.startWeek} → Tuần ${endWeek}
+            </span>
+          </div>
+          <select id="integStartWeekSelect" class="form-select" onchange="onIntegrationStartWeekChange(this.value)">
+            ${Array.from({length: 35}, function(_, i) { return i + 1; }).map(function(w) {
+              return `<option value="${w}" ${w === integrationState.startWeek ? 'selected' : ''}>Tuần ${w}</option>`;
+            }).join('')}
+          </select>
+        </div>
+
+        <!-- 4. CHỦ ĐỀ / NỘI DUNG TÍCH HỢP -->
+        <div class="form-group" style="margin-bottom: 0.75rem;">
+          <label for="integTopicSelect" style="font-weight: 700; font-size: 0.82rem; color: #334155;">5. Nội Dung / Chủ Đề Tích Hợp:</label>
+          <select id="integTopicSelect" class="form-select" onchange="onIntegrationTopicChange(this.value)">
+            ${Object.keys(topics).map(function(k) {
+              return `<option value="${k}" ${k === integrationState.topicKey ? 'selected' : ''}>${topics[k].name}</option>`;
+            }).join('')}
+          </select>
+        </div>
+
+        <!-- TÙY CHỈNH TÊN CHỦ ĐỀ NẾU CHỌN CUSTOM -->
+        <div id="integCustomTopicBox" style="display: ${integrationState.topicKey === 'custom' ? 'block' : 'none'}; margin-bottom: 0.75rem;">
+          <label for="integCustomTopicInput" style="font-weight: 700; font-size: 0.8rem; color: #db2777;">Tên chủ đề / Nội dung tích hợp tùy chỉnh:</label>
+          <input type="text" id="integCustomTopicInput" class="form-control" placeholder="Ví dụ: Lồng ghép Giáo dục Địa phương tỉnh Đồng Nai..." value="${integrationState.customTopicTitle || ''}" oninput="integrationState.customTopicTitle = this.value">
+        </div>
+
+        <!-- GHI CHÚ / YÊU CẦU ĐẶC BIỆT CHO AI -->
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label for="integCustomNotes" style="font-weight: 700; font-size: 0.82rem; color: #334155;">6. Yêu cầu chi tiết cho AI (Tùy chọn):</label>
+          <textarea id="integCustomNotes" class="form-control" rows="2" placeholder="Ví dụ: Tích hợp sâu vào hoạt động Vận dụng, nêu rõ đặc sản / di tích cụ thể..." oninput="integrationState.customNotes = this.value">${integrationState.customNotes || ''}</textarea>
+        </div>
+
+        <!-- NÚT BẮT ĐẦU PHÂN TÍCH MA TRẬN BƯỚC 1 -->
+        <button id="btnStartIntegAnalyze" class="btn btn-primary" style="width: 100%; padding: 0.8rem; font-size: 0.95rem; font-weight: 800; background: linear-gradient(135deg, #db2777, #ec4899); box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35); border: none;" onclick="triggerAnalyzeIntegrationPlan()">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> BƯỚC 1: AI LẬP KẾ HOẠCH TÍCH HỢP
+        </button>
+
+      </div>
+
+      <!-- CỘT KẾT QUẢ BÊN PHẢI -->
+      <div id="integOutputContainer" class="paper-preview-card" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm); min-height: 600px;">
+        ${renderIntegrationIdleStateHtml()}
+      </div>
+
+    </div>
+  `;
+}
+
+function renderIntegrationIdleStateHtml() {
+  return `
+    <div style="text-align: center; padding: 4.5rem 1.5rem; color: var(--text-muted);">
+      <div style="width: 80px; height: 80px; border-radius: 50%; background: #fdf2f8; color: #db2777; display: inline-flex; align-items: center; justify-content: center; font-size: 2.5rem; margin-bottom: 1.25rem; box-shadow: 0 4px 14px rgba(219, 39, 119, 0.2);">
+        <i class="fa-solid fa-layer-group"></i>
+      </div>
+      <h3 style="color: var(--text-color); font-weight: 800; font-size: 1.3rem; margin-bottom: 0.65rem;">
+        Trợ Lý AI Tích Hợp Giáo Án Chuẩn Công Văn 2345
+      </h3>
+      <p style="font-size: 0.9rem; max-width: 540px; margin: 0 auto 1.5rem; line-height: 1.6;">
+        Tự động quét toàn bộ Kế hoạch bài dạy số hóa, xây dựng <strong>Ma trận Tích hợp (Bước 1)</strong> và <strong>Chèn tự động chuẩn 3 vị trí (Bước 2)</strong>, sau đó xuất ra file <strong>Word (.doc)</strong> hoàn chỉnh 100%.
+      </p>
+
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 600px; margin: 0 auto; text-align: left;">
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 0.85rem;">
+          <div style="font-weight: 800; color: #db2777; font-size: 0.82rem; margin-bottom: 0.25rem;">
+            <i class="fa-solid fa-1"></i> Mục I. YCCĐ
+          </div>
+          <p style="font-size: 0.76rem; color: var(--text-muted); margin: 0;">Bổ sung phẩm chất & năng lực đặc thù của nội dung tích hợp.</p>
+        </div>
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 0.85rem;">
+          <div style="font-weight: 800; color: #2563eb; font-size: 0.82rem; margin-bottom: 0.25rem;">
+            <i class="fa-solid fa-2"></i> Mục II. ĐDDH
+          </div>
+          <p style="font-size: 0.76rem; color: var(--text-muted); margin: 0;">Bổ sung đồ dùng, tranh ảnh, video clip trực quan cho GV & HS.</p>
+        </div>
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 0.85rem;">
+          <div style="font-weight: 800; color: #16a34a; font-size: 0.82rem; margin-bottom: 0.25rem;">
+            <i class="fa-solid fa-3"></i> Mục III. Hoạt động
+          </div>
+          <p style="font-size: 0.76rem; color: var(--text-muted); margin: 0;">Chèn tiến trình GV - HS trực tiếp vào bảng 2 cột của bài dạy.</p>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+// Controller handlers
+function onIntegrationGradeChange(grade) {
+  integrationState.grade = parseInt(grade) || 5;
+  var subjs = getIntegrationSubjectsForGrade(integrationState.grade);
+  var subjSelect = document.getElementById('integSubjectSelect');
+  if (subjSelect) {
+    subjSelect.innerHTML = subjs.map(function(s) {
+      return `<option value="${s.key}">${s.name}</option>`;
+    }).join('');
+    integrationState.subjectKey = subjs[0].key;
+  }
+}
+
+function onIntegrationSubjectChange(subjKey) {
+  integrationState.subjectKey = subjKey;
+}
+
+function onIntegrationDurationChange(weeks) {
+  integrationState.durationWeeks = parseInt(weeks) || 1;
+  // Re-render controls or update UI borders
+  var container = document.getElementById('content-container');
+  if (container && currentView === 'ai-integration') {
+    renderAiIntegrationView(container);
+  }
+}
+
+function onIntegrationStartWeekChange(week) {
+  integrationState.startWeek = parseInt(week) || 1;
+  var endWeek = Math.min(35, integrationState.startWeek + integrationState.durationWeeks - 1);
+  var badge = document.getElementById('integWeekRangeBadge');
+  if (badge) {
+    badge.textContent = 'Áp dụng: Tuần ' + integrationState.startWeek + ' → Tuần ' + endWeek;
+  }
+}
+
+function onIntegrationTopicChange(topicKey) {
+  integrationState.topicKey = topicKey;
+  var customBox = document.getElementById('integCustomTopicBox');
+  if (customBox) {
+    customBox.style.display = (topicKey === 'custom') ? 'block' : 'none';
+  }
+}
+
+// BƯỚC 1: AI LẬP KẾ HOẠCH MA TRẬN TÍCH HỢP
+async function triggerAnalyzeIntegrationPlan() {
+  if (typeof IntegrationService === 'undefined') {
+    showToast('Dịch vụ AI Tích hợp chưa sẵn sàng!', 'danger');
+    return;
+  }
+
+  var btn = document.getElementById('btnStartIntegAnalyze');
+  var output = document.getElementById('integOutputContainer');
+  if (!output) return;
+
+  if (btn) {
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang đọc KHBD & Lập ma trận...';
+  }
+
+  output.innerHTML = `
+    <div style="text-align: center; padding: 5rem 1rem;">
+      <div class="spinner" style="width: 48px; height: 48px; border-width: 4px; border-color: #fbcfe8; border-top-color: #db2777; margin: 0 auto 1.25rem;"></div>
+      <h4 style="color: #db2777; font-weight: 800; font-size: 1.15rem; margin-bottom: 0.5rem;">AI đang nghiên cứu Kế hoạch bài dạy...</h4>
+      <p style="color: var(--text-muted); font-size: 0.85rem; max-width: 420px; margin: 0 auto;">
+        Đang quét nội dung số hóa từ <strong>Tuần ${integrationState.startWeek} đến Tuần ${Math.min(35, integrationState.startWeek + integrationState.durationWeeks - 1)}</strong> môn <strong>${integrationState.subjectKey.toUpperCase()} - Khối ${integrationState.grade}</strong> để tìm địa chỉ tích hợp tối ưu.
+      </p>
+    </div>
+  `;
+
+  try {
+    var plan = await IntegrationService.analyzeIntegrationPlan(
+      integrationState.grade,
+      integrationState.subjectKey,
+      integrationState.startWeek,
+      integrationState.durationWeeks,
+      integrationState.topicKey,
+      integrationState.customTopicTitle,
+      integrationState.customNotes
+    );
+
+    integrationState.analyzedPlan = plan;
+    integrationState.selectedLessons = {};
+    plan.suggestions.forEach(function(s) {
+      integrationState.selectedLessons[s.lessonId] = s.integrate !== false;
+    });
+
+    renderIntegrationMatrixView(output, plan);
+    showToast('Đã lập Ma trận Tích hợp cho ' + plan.suggestions.length + ' bài dạy thành công!', 'success');
+
+  } catch (err) {
+    console.error('Integration analysis error:', err);
+    output.innerHTML = `
+      <div style="text-align: center; padding: 4rem 1rem; color: #dc2626;">
+        <i class="fa-solid fa-circle-exclamation" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+        <h4>Có lỗi xảy ra khi phân tích KHBD</h4>
+        <p style="font-size: 0.85rem; max-width: 420px; margin: 0 auto 1.5rem;">${err.message || 'Không tìm thấy dữ liệu giáo án số hóa cho phạm vi tuần đã chọn.'}</p>
+        <button class="btn btn-primary" onclick="triggerAnalyzeIntegrationPlan()">Thử lại</button>
+      </div>
+    `;
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = '<i class="fa-solid fa-wand-magic-sparkles"></i> BƯỚC 1: AI LẬP KẾ HOẠCH TÍCH HỢP';
+    }
+  }
+}
+
+function renderIntegrationMatrixView(output, plan) {
+  var topicInfo = plan.topicInfo || {};
+  var totalSelected = Object.values(integrationState.selectedLessons).filter(Boolean).length;
+
+  output.innerHTML = `
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+      <div>
+        <div style="font-size: 0.75rem; font-weight: 800; color: #db2777; text-transform: uppercase;">
+          <i class="fa-solid fa-table"></i> MA TRẬN KẾ HOẠCH TÍCH HỢP (BƯỚC 1/2)
+        </div>
+        <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin: 0.15rem 0;">
+          Chủ đề: ${topicInfo.name || 'Tích hợp'}
+        </h3>
+        <div style="font-size: 0.8rem; color: var(--text-muted);">
+          Môn: <strong>${plan.subjectName}</strong> • <strong>Khối ${plan.grade}</strong> • <strong>Tuần ${plan.startWeek} - ${plan.endWeek}</strong> (${plan.suggestions.length} bài dạy)
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 0.5rem; align-items: center;">
+        <button id="btnExecuteApplyIntegration" class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.35); padding: 0.6rem 1.15rem;" onclick="triggerApplyAndPreviewIntegration()">
+          <i class="fa-solid fa-arrow-right"></i> BƯỚC 2: CHÈN VÀO GIÁO ÁN (<span id="integSelectedCountBadge">${totalSelected}</span> Bài)
+        </button>
+      </div>
+    </div>
+
+    <!-- HƯỚNG DẪN GIÁO VIÊN -->
+    <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 0.75rem 1rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between;">
+      <div style="font-size: 0.82rem; color: #166534; display: flex; align-items: center; gap: 0.5rem;">
+        <i class="fa-solid fa-circle-info" style="font-size: 1rem;"></i>
+        <span>Giáo viên có thể tích chọn/bỏ chọn từng bài dưới đây trước khi AI tiến hành chèn vào giáo án.</span>
+      </div>
+      <div>
+        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.2rem 0.5rem;" onclick="toggleSelectAllIntegrationLessons(true)">Chọn tất cả</button>
+        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.2rem 0.5rem;" onclick="toggleSelectAllIntegrationLessons(false)">Bỏ chọn tất cả</button>
+      </div>
+    </div>
+
+    <!-- BẢNG MA TRẬN -->
+    <div style="overflow-x: auto; border: 1px solid var(--border-color); border-radius: var(--radius-sm); margin-bottom: 1rem;">
+      <table style="width: 100%; border-collapse: collapse; font-size: 0.84rem; text-align: left;">
+        <thead>
+          <tr style="background: #f8fafc; border-bottom: 2px solid var(--border-color); color: #334155; font-weight: 700;">
+            <th style="padding: 0.65rem 0.5rem; text-align: center; width: 45px;">Chọn</th>
+            <th style="padding: 0.65rem 0.5rem; text-align: center; width: 60px;">Tuần</th>
+            <th style="padding: 0.65rem 0.5rem; text-align: center; width: 70px;">Tiết</th>
+            <th style="padding: 0.65rem 0.75rem; width: 220px;">Tên bài dạy (KHBD gốc)</th>
+            <th style="padding: 0.65rem 0.6rem; text-align: center; width: 110px;">Mức độ</th>
+            <th style="padding: 0.65rem 0.75rem;">Nội dung tích hợp & Hoạt động đề xuất</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${plan.suggestions.map(function(s, idx) {
+            var isChecked = integrationState.selectedLessons[s.lessonId] !== false;
+            var isEven = idx % 2 === 0;
+            var levelBadgeColor = s.level === 'Toàn phần' ? 'background: #fef2f2; color: #dc2626; border: 1px solid #fecaca;' :
+                                 (s.level === 'Bộ phận' ? 'background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe;' : 'background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0;');
+
+            return `
+              <tr style="border-bottom: 1px solid var(--border-color); background: ${isChecked ? (isEven ? '#ffffff' : '#fcfcfc') : '#f8fafc'}; opacity: ${isChecked ? '1' : '0.6'};">
+                <td style="padding: 0.65rem 0.5rem; text-align: center;">
+                  <input type="checkbox" id="chk_integ_${s.lessonId}" ${isChecked ? 'checked' : ''} onchange="toggleIntegrationLessonSelect('${s.lessonId}')" style="cursor: pointer; width: 16px; height: 16px;">
+                </td>
+                <td style="padding: 0.65rem 0.5rem; text-align: center; font-weight: 700; color: #db2777;">
+                  T.${s.week}
+                </td>
+                <td style="padding: 0.65rem 0.5rem; text-align: center; font-weight: 600; color: var(--text-muted);">
+                  ${s.period || '—'}
+                </td>
+                <td style="padding: 0.65rem 0.75rem; font-weight: 700; color: #1e293b;">
+                  ${s.title}
+                </td>
+                <td style="padding: 0.65rem 0.6rem; text-align: center;">
+                  <span style="font-size: 0.72rem; font-weight: 800; padding: 0.2rem 0.5rem; border-radius: 9999px; ${levelBadgeColor}">
+                    ${s.level}
+                  </span>
+                </td>
+                <td style="padding: 0.65rem 0.75rem;">
+                  <div style="font-weight: 700; color: #4338ca; margin-bottom: 0.2rem;">
+                    • ${s.integrationTarget}
+                  </div>
+                  <div style="font-size: 0.78rem; color: #475569; line-height: 1.4;">
+                    <i class="fa-solid fa-arrow-turn-down-right" style="color: #db2777; font-size: 0.7rem;"></i> <b>Hoạt động:</b> ${s.activityHook}
+                  </div>
+                </td>
+              </tr>
+            `;
+          }).join('')}
+        </tbody>
+      </table>
+    </div>
+
+    <!-- ACTION BUTTON BƯỚC 2 -->
+    <div style="text-align: right; margin-top: 1rem;">
+      <button class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35); padding: 0.75rem 1.5rem; font-size: 0.95rem;" onclick="triggerApplyAndPreviewIntegration()">
+        <i class="fa-solid fa-layer-group"></i> TIẾN HÀNH CHÈN VÀO GIÁO ÁN VÀ XEM TRƯỚC (BƯỚC 2)
+      </button>
+    </div>
+  `;
+}
+
+function toggleIntegrationLessonSelect(lessonId) {
+  integrationState.selectedLessons[lessonId] = !integrationState.selectedLessons[lessonId];
+  var count = Object.values(integrationState.selectedLessons).filter(Boolean).length;
+  var badge = document.getElementById('integSelectedCountBadge');
+  if (badge) badge.textContent = count;
+}
+
+function toggleSelectAllIntegrationLessons(checked) {
+  if (!integrationState.analyzedPlan) return;
+  integrationState.analyzedPlan.suggestions.forEach(function(s) {
+    integrationState.selectedLessons[s.lessonId] = checked;
+    var chk = document.getElementById('chk_integ_' + s.lessonId);
+    if (chk) chk.checked = checked;
+  });
+  var count = Object.values(integrationState.selectedLessons).filter(Boolean).length;
+  var badge = document.getElementById('integSelectedCountBadge');
+  if (badge) badge.textContent = count;
+}
+
+// BƯỚC 2: CHÈN VÀO GIÁO ÁN VÀ XEM TRƯỚC
+async function triggerApplyAndPreviewIntegration() {
+  if (!integrationState.analyzedPlan) return;
+  var output = document.getElementById('integOutputContainer');
+  if (!output) return;
+
+  output.innerHTML = `
+    <div style="text-align: center; padding: 5rem 1rem;">
+      <div class="spinner" style="width: 48px; height: 48px; border-width: 4px; border-color: #bbf7d0; border-top-color: #16a34a; margin: 0 auto 1.25rem;"></div>
+      <h4 style="color: #16a34a; font-weight: 800; font-size: 1.15rem; margin-bottom: 0.5rem;">Đang chèn nội dung tích hợp chuẩn CV 2345...</h4>
+      <p style="color: var(--text-muted); font-size: 0.85rem; max-width: 420px; margin: 0 auto;">
+        Đang bảo lưu 100% giáo án gốc và bổ sung chính xác vào <strong>Mục I (YCCĐ)</strong>, <strong>Mục II (ĐDDH)</strong> và <strong>Mục III (Hoạt động GV-HS)</strong>...
+      </p>
+    </div>
+  `;
+
+  try {
+    var appliedLessons = await IntegrationService.applyIntegrationToWeekRange(
+      integrationState.analyzedPlan,
+      integrationState.selectedLessons
+    );
+
+    integrationState.appliedLessons = appliedLessons;
+    integrationState.activePreviewLessonIndex = 0;
+
+    renderIntegratedLessonPreview(output);
+    showToast('Đã hoàn tất tích hợp ' + appliedLessons.length + ' bài dạy chuẩn CV 2345!', 'success');
+
+  } catch (err) {
+    console.error('Apply integration error:', err);
+    output.innerHTML = `
+      <div style="text-align: center; padding: 4rem 1rem; color: #dc2626;">
+        <i class="fa-solid fa-circle-exclamation" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+        <h4>Có lỗi xảy ra khi chèn vào KHBD</h4>
+        <p style="font-size: 0.85rem; max-width: 420px; margin: 0 auto 1.5rem;">${err.message || 'Lỗi xử lý chèn giáo án.'}</p>
+        <button class="btn btn-primary" onclick="renderIntegrationMatrixView(document.getElementById('integOutputContainer'), integrationState.analyzedPlan)">Quay lại Ma trận</button>
+      </div>
+    `;
+  }
+}
+
+function renderIntegratedLessonPreview(output) {
+  var lessons = integrationState.appliedLessons || [];
+  if (lessons.length === 0) {
+    output.innerHTML = renderIntegrationIdleStateHtml();
+    return;
+  }
+
+  var curIdx = integrationState.activePreviewLessonIndex;
+  if (curIdx >= lessons.length) curIdx = 0;
+  var currentLesson = lessons[curIdx];
+
+  var topicInfo = (integrationState.analyzedPlan && integrationState.analyzedPlan.topicInfo) || {};
+  var topicName = topicInfo.name || 'Tích hợp';
+
+  // Render CV 2345 HTML Preview for currentLesson
+  var lessonHtml = (typeof KHBD_REGISTRY !== 'undefined' && typeof KHBD_REGISTRY.renderLessonHtml === 'function')
+                   ? KHBD_REGISTRY.renderLessonHtml(currentLesson)
+                   : renderFallbackLessonHtml(currentLesson);
+
+  output.innerHTML = `
+    <!-- THANH CÔNG CỤ XUẤT FILE & CHỌN BÀI DẠY -->
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.65rem;">
+      <div>
+        <div style="font-size: 0.74rem; font-weight: 800; color: #16a34a; text-transform: uppercase;">
+          <i class="fa-solid fa-circle-check"></i> ĐÃ TÍCH HỢP HOÀN TẤT (${lessons.length} BÀI DẠY)
+        </div>
+        <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin: 0.15rem 0;">
+          Kế Hoạch Bài Dạy Chuẩn Công Văn 2345
+        </h3>
+      </div>
+
+      <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+        <button class="btn btn-outline" style="font-size: 0.82rem; padding: 0.5rem 0.85rem;" onclick="renderIntegrationMatrixView(document.getElementById('integOutputContainer'), integrationState.analyzedPlan)">
+          <i class="fa-solid fa-table"></i> Xem lại Ma trận
+        </button>
+        <button class="btn btn-primary" style="background: linear-gradient(135deg, #2563eb, #3b82f6); border: none; font-weight: 800; box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35); padding: 0.55rem 1.15rem;" onclick="triggerExportIntegrationWord()">
+          <i class="fa-solid fa-file-word"></i> TẢI TOÀN BỘ FILE WORD (.DOC)
+        </button>
+      </div>
+    </div>
+
+    <!-- CHỌN BÀI ĐỂ XEM TRƯỚC -->
+    <div style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.65rem 0.85rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.65rem; flex-wrap: wrap;">
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <label for="integLessonPicker" style="font-weight: 700; font-size: 0.82rem; color: #334155; margin-bottom: 0; white-space: nowrap;">
+          <i class="fa-solid fa-file-lines"></i> Xem trước bài dạy:
+        </label>
+        <select id="integLessonPicker" class="form-select" style="font-size: 0.82rem; min-width: 260px;" onchange="switchIntegrationPreviewLesson(this.value)">
+          ${lessons.map(function(l, i) {
+            return `<option value="${i}" ${i === curIdx ? 'selected' : ''}>Tuần ${l.week}: ${l.title || ('Bài ' + (i+1))}</option>`;
+          }).join('')}
+        </select>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 0.75rem; font-size: 0.76rem;">
+        <span style="display: flex; align-items: center; gap: 0.35rem;">
+          <span style="width: 12px; height: 12px; background: #e0e7ff; border: 1px solid #c7d2fe; border-radius: 3px; display: inline-block;"></span>
+          <span>Nội dung tích hợp mới</span>
+        </span>
+        <span style="display: flex; align-items: center; gap: 0.35rem;">
+          <span style="width: 12px; height: 12px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 3px; display: inline-block;"></span>
+          <span>100% Giáo án gốc</span>
+        </span>
+      </div>
+    </div>
+
+    <!-- KHUNG XEM TRƯỚC GIÁO ÁN ĐÃ TÍCH HỢP -->
+    <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); padding: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,0.06); max-height: 800px; overflow-y: auto; font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.45;">
+      ${lessonHtml}
+    </div>
+  `;
+}
+
+function switchIntegrationPreviewLesson(idx) {
+  integrationState.activePreviewLessonIndex = parseInt(idx) || 0;
+  var output = document.getElementById('integOutputContainer');
+  if (output) {
+    renderIntegratedLessonPreview(output);
+  }
+}
+
+function triggerExportIntegrationWord() {
+  if (!integrationState.appliedLessons || integrationState.appliedLessons.length === 0) {
+    showToast('Chưa có dữ liệu giáo án để xuất!', 'warning');
+    return;
+  }
+
+  var plan = integrationState.analyzedPlan || {};
+  var topicName = (plan.topicInfo && plan.topicInfo.name) || 'Tich_Hop';
+  var cleanTopic = topicName.replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
+  var filename = 'KHBD_Lop' + (plan.grade || 5) + '_' + (plan.subjectKey || 'mon') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + cleanTopic + '.doc';
+
+  IntegrationService.exportToWord(integrationState.appliedLessons, filename);
+  showToast('Đã tải xuống file Word thành công: ' + filename, 'success');
+}
+
+function renderFallbackLessonHtml(lesson) {
+  return '<div style="padding: 1rem;"><h3>' + (lesson.title || 'Kế hoạch bài dạy') + '</h3><p>Đã tích hợp thành công.</p></div>';
+}
 
 
 /* ==========================================================================
