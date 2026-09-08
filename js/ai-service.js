@@ -326,7 +326,11 @@ var AIService = {
     if (typeof window !== 'undefined' && window.SGK_DATA && typeof window.SGK_DATA.getScopeContent === 'function') {
       var scopeInfo = window.SGK_DATA.getScopeContent(grade, sgkKey, scope);
       if (scopeInfo && scopeInfo.found && scopeInfo.knowledgeDigest) {
-        sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA SỐ HÓA KNTT THEO PHẠM VI RA ĐỀ:\n${scopeInfo.knowledgeDigest}\n- YÊU CẦU: Các bài đọc, câu hỏi trắc nghiệm, luyện từ và câu PHẢI sử dụng chính xác các bài học, khái niệm và ngữ liệu của SGK Kết nối tri thức được cung cấp ở trên.`;
+        var digest = scopeInfo.knowledgeDigest;
+        if (digest.length > 3000) {
+          digest = digest.substring(0, 3000) + "\n...(và các bài học khác trong phạm vi)...";
+        }
+        sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA SỐ HÓA KNTT THEO PHẠM VI RA ĐỀ:\n${digest}\n- YÊU CẦU: Các bài đọc, câu hỏi trắc nghiệm, luyện từ và câu PHẢI sử dụng chính xác các bài học, khái niệm và ngữ liệu của SGK Kết nối tri thức được cung cấp ở trên.`;
       }
     }
 
@@ -580,22 +584,28 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
 `;
     }
 
-    // Gọi Gemini API model mới nhất
-    var models = ["gemini-2.5-flash", "gemini-1.5-flash", "gemini-2.0-flash"];
+    // Gọi Gemini API model mới nhất (Tự động chuyển đổi thông minh)
+    var models = ["gemini-2.5-flash", "gemini-1.5-flash", "gemini-2.0-flash", "gemini-1.5-pro"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
       var modelName = models[m];
       try {
+        var genConfig = {
+          responseMimeType: "application/json",
+          temperature: 0.2
+        };
+        // Tắt thinking budget ở gemini-2.5-flash để tốc độ sinh JSON siêu tốc (1-2 giây)
+        if (modelName.indexOf("2.5") !== -1) {
+          genConfig.thinkingConfig = { thinkingBudget: 0 };
+        }
+
         var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             contents: [{ parts: [{ text: prompt }] }],
-            generationConfig: {
-              responseMimeType: "application/json",
-              temperature: 0.2
-            }
+            generationConfig: genConfig
           })
         });
 
@@ -603,14 +613,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
           var data = await response.json();
           var rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text || "";
           if (rawText) {
-            // Parse JSON
-            var cleanJsonStr = rawText.trim();
-            if (cleanJsonStr.startsWith("```json")) {
-              cleanJsonStr = cleanJsonStr.replace(/^```json\s*/, "").replace(/\s*```$/, "");
-            } else if (cleanJsonStr.startsWith("```")) {
-              cleanJsonStr = cleanJsonStr.replace(/^```\s*/, "").replace(/\s*```$/, "");
-            }
-            var parsed = JSON.parse(cleanJsonStr);
+            var parsed = this.parseJsonSafely(rawText);
             if (parsed) {
               parsed.source = "ai";
               parsed.sourceName = "Google Gemini AI (Online)";
@@ -628,6 +631,36 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
     }
 
     throw new Error(lastError || "Không thể kết nối Gemini API");
+  },
+
+  /**
+   * Bóc tách và phân tích JSON linh hoạt, chống lỗi định dạng chuỗi từ AI
+   */
+  parseJsonSafely: function(text) {
+    if (!text) return null;
+    var t = text.trim();
+    try {
+      return JSON.parse(t);
+    } catch (e) {}
+
+    // Bóc tách khối markdown ```json ... ```
+    var match = t.match(/```(?:json)?\s*([\s\S]*?)\s*```/);
+    if (match && match[1]) {
+      try {
+        return JSON.parse(match[1].trim());
+      } catch (e) {}
+    }
+
+    // Tìm dấu ngoặc nhọn đầu và cuối
+    var start = t.indexOf("{");
+    var end = t.lastIndexOf("}");
+    if (start !== -1 && end > start) {
+      try {
+        return JSON.parse(t.substring(start, end + 1));
+      } catch (e) {}
+    }
+
+    return null;
   },
 
   /**
