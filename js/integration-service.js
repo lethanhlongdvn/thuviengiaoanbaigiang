@@ -81,24 +81,25 @@ var IntegrationService = {
   normalizeSubjectKey: function(rawText) {
     if (!rawText || typeof rawText !== 'string') return '';
     var text = rawText.trim().toLowerCase();
-    if (!text || text === '-' || text === '—' || text === 'nghỉ' || text === 'trống') return '';
+    if (!text || text === '-' || text === '--' || text === '—' || text === 'nghỉ' || text === 'trống' || text === 'x') return '';
 
-    var noAcc = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    var noAcc = text.replace(/đ/g, 'd').replace(/Đ/g, 'D').normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+    var compact = noAcc.replace(/[^a-z0-9]/g, '');
 
-    if (text.includes('toán') || noAcc.includes('toan')) return 'toan';
-    if (text.includes('tiếng việt') || noAcc.includes('tieng viet') || text.includes('t.việt') || text.includes('t. việt') || text === 'tv' || text.includes('tập đọc') || text.includes('chính tả') || text.includes('luyện từ') || text.includes('tập làm văn')) return 'tieng_viet';
-    if (text.includes('khoa học') || noAcc.includes('khoa hoc') || text === 'kh') return 'khoa_hoc';
-    if (text.includes('lịch sử') || text.includes('địa lí') || text.includes('địa lý') || noAcc.includes('lich su') || noAcc.includes('dia ly') || text.includes('ls&đl') || text.includes('ls-đl') || text.includes('ls - đl') || text === 'lsdl') return 'lich_su_dia_ly';
-    if (text.includes('tự nhiên') || text.includes('xã hội') || noAcc.includes('tu nhien') || text.includes('tnxh') || text.includes('tn-xh')) return 'tnxh';
-    if (text.includes('đạo đức') || noAcc.includes('dao duc') || text === 'đđ' || text === 'dd') return 'dao_duc';
-    if (text.includes('trải nghiệm') || noAcc.includes('trai nghiem') || text.includes('hdtn') || text.includes('hđtn')) return 'hdtn';
-    if (text.includes('công nghệ') || noAcc.includes('cong nghe') || text === 'cn') return 'cong_nghe';
-    if (text.includes('tin học') || noAcc.includes('tin hoc') || text.includes('tin') || text === 'th') return 'tin_hoc';
-    if (text.includes('tiếng anh') || noAcc.includes('tieng anh') || text.includes('anh') || text.includes('english') || text === 'ta') return 'tieng_anh';
-    if (text.includes('âm nhạc') || noAcc.includes('am nhac') || text.includes('nhạc') || text === 'an') return 'am_nhac';
-    if (text.includes('mĩ thuật') || text.includes('mỹ thuật') || noAcc.includes('mi thuat') || text === 'mt') return 'mi_thuat';
-    if (text.includes('thể chất') || text.includes('thể dục') || noAcc.includes('the chat') || noAcc.includes('the duc') || text.includes('gdtc') || text === 'td') return 'gdtc';
-    if (text.includes('chào cờ') || text.includes('sinh hoạt') || noAcc.includes('chao co') || noAcc.includes('sinh hoat') || text.includes('shl') || text.includes('shdc') || text.includes('shcn') || text.includes('tổng kết')) return 'shcn';
+    if (compact.includes('toan') || compact === 't') return 'toan';
+    if (compact.includes('tiengviet') || compact.includes('tviet') || compact === 'tv' || compact.includes('tapdoc') || compact.includes('chinhta') || compact.includes('luyentu') || compact.includes('taplamvan')) return 'tieng_viet';
+    if (compact.includes('khoahoc') || compact.includes('khoc') || compact === 'kh') return 'khoa_hoc';
+    if (compact.includes('lichsudialy') || compact.includes('lichsudiali') || compact.includes('lsdl') || compact.includes('lsd') || compact.includes('lichsu') || compact.includes('diali') || compact.includes('dialy')) return 'lich_su_dia_ly';
+    if (compact.includes('tunhienxahoi') || compact.includes('tnxh')) return 'tnxh';
+    if (compact.includes('daoduc') || compact === 'dd') return 'dao_duc';
+    if (compact.includes('trainghiem') || compact.includes('hdtn') || compact.includes('hdtnh') || compact.includes('hdtnvhn')) return 'hdtn';
+    if (compact.includes('congnghe') || compact === 'cn') return 'cong_nghe';
+    if (compact.includes('tinhoc') || compact === 'tin' || compact === 'th') return 'tin_hoc';
+    if (compact.includes('tienganh') || compact.includes('anhvan') || compact.includes('anh') || compact.includes('english') || compact === 'ta') return 'tieng_anh';
+    if (compact.includes('amnhac') || compact.includes('hatnhac') || compact === 'an' || compact === 'nhac') return 'am_nhac';
+    if (compact.includes('mithuat') || compact.includes('mythuat') || compact === 'mt') return 'mi_thuat';
+    if (compact.includes('thechat') || compact.includes('theduc') || compact.includes('gdtc') || compact === 'td') return 'gdtc';
+    if (compact.includes('chaoco') || compact.includes('sinhhoat') || compact.includes('shl') || compact.includes('shdc') || compact.includes('shcn') || compact.includes('tongket')) return 'shcn';
 
     return text;
   },
@@ -301,15 +302,11 @@ var IntegrationService = {
     // 1. Tìm dòng Header chứa các Thứ (Thứ 2, Thứ 3, Thứ 4, Thứ 5, Thứ 6)
     var dayColMap = {};
     var headerRowIdx = -1;
-    var sessionCol = -1;
-    var periodCol = -1;
 
     for (var r = 0; r < Math.min(rows.length, 10); r++) {
       var row = rows[r] || [];
       for (var c = 0; c < row.length; c++) {
         var cellStr = String(row[c] || '').toLowerCase().trim();
-        if (cellStr.includes('buổi') || cellStr === 'buoi') sessionCol = c;
-        if (cellStr.includes('tiết') || cellStr === 'tiet') periodCol = c;
 
         if (cellStr.includes('thứ 2') || cellStr.includes('thứ hai') || cellStr === 'thứ 2' || cellStr === 'hai' || cellStr === 't2') {
           dayColMap[2] = c;
@@ -317,7 +314,7 @@ var IntegrationService = {
         } else if (cellStr.includes('thứ 3') || cellStr.includes('thứ ba') || cellStr === 'thứ 3' || cellStr === 'ba' || cellStr === 't3') {
           dayColMap[3] = c;
           headerRowIdx = r;
-        } else if (cellStr.includes('thứ 4') || cellStr.includes('thứ tư') || cellStr.includes('thứ 4') || cellStr === 'tư' || cellStr === 't4') {
+        } else if (cellStr.includes('thứ 4') || cellStr.includes('thứ tư') || cellStr === 'thứ 4' || cellStr === 'tư' || cellStr === 't4') {
           dayColMap[4] = c;
           headerRowIdx = r;
         } else if (cellStr.includes('thứ 5') || cellStr.includes('thứ năm') || cellStr === 'thứ 5' || cellStr === 'năm' || cellStr === 't5') {
@@ -337,6 +334,7 @@ var IntegrationService = {
       headerRowIdx = 0;
     }
 
+    var firstDayCol = Math.min(...Object.values(dayColMap));
     var isAfternoon = false;
     var morningCounters = { 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 };
     var afternoonCounters = { 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 };
@@ -344,38 +342,42 @@ var IntegrationService = {
 
     for (var r = headerRowIdx + 1; r < rows.length; r++) {
       var row = rows[r] || [];
-      var rowText = row.join(' ').toLowerCase();
+      var nonDayCells = row.slice(0, firstDayCol);
+      var nonDayText = nonDayCells.join(' ').toLowerCase();
 
       // Check session
-      if (sessionCol >= 0 && row[sessionCol]) {
-        var sVal = String(row[sessionCol]).toLowerCase();
-        if (sVal.includes('chiều') || sVal.includes('chieu')) isAfternoon = true;
-        if (sVal.includes('sáng') || sVal.includes('sang')) isAfternoon = false;
-      } else {
-        if (rowText.includes('chiều') || rowText.includes('buổi chiều') || rowText.includes('buoi chieu')) isAfternoon = true;
-        if (rowText.includes('sáng') || rowText.includes('buổi sáng') || rowText.includes('buoi sang')) isAfternoon = false;
+      if (nonDayText.includes('chiều') || nonDayText.includes('chieu')) {
+        isAfternoon = true;
+      } else if (nonDayText.includes('sáng') || nonDayText.includes('sang')) {
+        isAfternoon = false;
       }
 
-      // Check period number (1..4 / 1..3)
+      // Check period number (1..5)
       var slotIdx = -1;
-      if (periodCol >= 0 && row[periodCol]) {
-        var pMatch = String(row[periodCol]).match(/(\d+)/);
-        if (pMatch) slotIdx = parseInt(pMatch[1]) - 1;
-      }
-      if (slotIdx < 0) {
-        for (var c = 0; c < Math.min(row.length, 3); c++) {
-          var numMatch = String(row[c] || '').match(/^(\d+)$/);
-          if (numMatch) {
+      for (var c = 0; c < nonDayCells.length; c++) {
+        var cellVal = String(nonDayCells[c] || '').trim();
+        var numMatch = cellVal.match(/(?:tiết\s*)?([1-5])/i);
+        if (numMatch && !cellVal.toLowerCase().includes('thứ') && !cellVal.toLowerCase().includes('buổi')) {
+          if (/^\d+$/.test(cellVal) || /^tiết\s*\d+$/i.test(cellVal)) {
             slotIdx = parseInt(numMatch[1]) - 1;
-            break;
           }
         }
       }
 
-      // If still no slotIdx, use row counter
       if (slotIdx < 0) {
         slotIdx = isAfternoon ? afternoonCounters[2] : morningCounters[2];
       }
+
+      // Check if row has any day data
+      var hasAnyDayVal = false;
+      for (var dayNum = 2; dayNum <= 6; dayNum++) {
+        var col = dayColMap[dayNum];
+        if (col !== undefined && row[col] && String(row[col]).trim()) {
+          hasAnyDayVal = true;
+          break;
+        }
+      }
+      if (!hasAnyDayVal) continue;
 
       // Fill in days
       for (var dayNum = 2; dayNum <= 6; dayNum++) {
@@ -1191,23 +1193,23 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         <table style="width: 100%; border-collapse: collapse; border: none; margin-bottom: 12pt;">
           <tr>
             <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
-              <p style="margin: 0;"><b>\${schoolName}</b></p>
-              <p style="margin: 2pt 0 0 0;">Giáo viên: <b>\${teacherName}</b></p>
+              <p style="margin: 0;"><b>${schoolName}</b></p>
+              <p style="margin: 2pt 0 0 0;">Giáo viên: <b>${teacherName}</b></p>
             </td>
             <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
               <p style="margin: 0;"><b>NĂM HỌC: 2025 - 2026</b></p>
-              <p style="margin: 2pt 0 0 0;">Khối <b>\${grade}</b> • <b>TUẦN \${weekNum}</b></p>
+              <p style="margin: 2pt 0 0 0;">Khối <b>${grade}</b> • <b>TUẦN ${weekNum}</b></p>
             </td>
           </tr>
         </table>
 
         <h2 style="font-size: 15pt; font-weight: bold; text-transform: uppercase; margin: 10pt 0 4pt 0;">
-          KẾ HOẠCH BÀI DẠY TUẦN \${weekNum}
+          KẾ HOẠCH BÀI DẠY TUẦN ${weekNum}
         </h2>
         <p style="font-size: 12pt; font-style: italic; margin: 0 0 15pt 0;">(Sắp xếp tuần tự theo Thời khóa biểu giảng dạy)</p>
 
         <h3 style="font-size: 12.5pt; font-weight: bold; text-align: left; text-transform: uppercase; margin: 10pt 0 4pt 0;">
-          THỜI KHÓA BIỂU TUẦN \${weekNum}:
+          THỜI KHÓA BIỂU TUẦN ${weekNum}:
         </h3>
         <table style="width: 100%; border-collapse: collapse; margin-bottom: 15pt; font-size: 11pt;">
           <thead>
@@ -1221,7 +1223,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             </tr>
           </thead>
           <tbody>
-            \${tkbTableRows}
+            ${tkbTableRows}
           </tbody>
         </table>
       </div>
@@ -1253,7 +1255,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             xmlns="http://www.w3.org/TR/REC-html40">
       <head>
         <meta charset="utf-8">
-        <title>\${meta.title || 'Kế hoạch bài dạy'}</title>
+        <title>${meta.title || 'Kế hoạch bài dạy'}</title>
         <style>
           @page {
             size: A4;
@@ -1363,17 +1365,17 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 var isTichHop = gvCol.indexOf('[Tích hợp') !== -1 || hsCol.indexOf('[Tích hợp') !== -1;
                 var rowBg = isTichHop ? 'background-color: #f5f3ff;' : '';
                 return `
-                  <tr style="\${rowBg}">
+                  <tr style="${rowBg}">
                     <td style="width: 50%; vertical-align: top; padding: 6pt; border: 1pt solid #000;">
-                      <div>\${gvCol}</div>
+                      <div>${gvCol}</div>
                     </td>
                     <td style="width: 50%; vertical-align: top; padding: 6pt; border: 1pt solid #000;">
-                      <div>\${hsCol}</div>
+                      <div>${hsCol}</div>
                     </td>
                   </tr>
                 `;
               } else if (r.length === 1) {
-                return `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold;">\${r[0]}</td></tr>`;
+                return `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold;">${r[0]}</td></tr>`;
               }
             }
             return '';
@@ -1388,7 +1390,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 </tr>
               </thead>
               <tbody>
-                \${rowsHtml}
+                ${rowsHtml}
               </tbody>
             </table>
           `;
@@ -1400,36 +1402,36 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           <table class="header-table">
             <tr>
               <td style="width: 50%;">
-                <p><b>\${schoolName}</b></p>
-                <p>Giáo viên: <b>\${teacherName}</b></p>
+                <p><b>${schoolName}</b></p>
+                <p>Giáo viên: <b>${teacherName}</b></p>
               </td>
               <td style="width: 50%; text-align: right;">
                 <p><b>NĂM HỌC: 2025 - 2026</b></p>
-                <p>Khối: <b>\${les.grade || grade}</b> - Tuần: <b>\${les.week || 1}</b></p>
+                <p>Khối: <b>${les.grade || grade}</b> - Tuần: <b>${les.week || 1}</b></p>
               </td>
             </tr>
           </table>
 
-          \${daySessionInfo}
+          ${daySessionInfo}
           <h2>KẾ HOẠCH BÀI DẠY</h2>
-          <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: \${(les.subjectName || les.subjectKey || 'MÔN HỌC').toUpperCase()}</p>
-          <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt;">\${les.lessonTitle || les.title || 'BÀI DẠY'}</p>
-          \${les.period ? ('<p style="font-style: italic; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
+          <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: ${(les.subjectName || les.subjectKey || 'MÔN HỌC').toUpperCase()}</p>
+          <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt;">${les.lessonTitle || les.title || 'BÀI DẠY'}</p>
+          ${les.period ? ('<p style="font-style: italic; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
         </div>
 
         <div class="section-title">I. YÊU CẦU CẦN ĐẠT:</div>
         <div style="margin-left: 10pt;">
-          \${yccdContent || '<p>Theo quy định của chương trình môn học.</p>'}
+          ${yccdContent || '<p>Theo quy định của chương trình môn học.</p>'}
         </div>
 
         <div class="section-title">II. ĐỒ DÙNG DẠY HỌC:</div>
         <div style="margin-left: 10pt;">
-          \${dodungContent || '<p>1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>'}
+          ${dodungContent || '<p>1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>'}
         </div>
 
         <div class="section-title">III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:</div>
         <div style="margin-left: 5pt;">
-          \${actTablesHtml || '<p>Thực hiện theo tiến trình chuẩn của bài dạy.</p>'}
+          ${actTablesHtml || '<p>Thực hiện theo tiến trình chuẩn của bài dạy.</p>'}
         </div>
 
         <div class="section-title">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):</div>
