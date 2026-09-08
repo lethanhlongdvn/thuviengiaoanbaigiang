@@ -613,55 +613,116 @@ Trả về duy nhất mảng JSON.`;
 
 
   // =========================================================================
-  // 5. CHÈN NỘI DUNG ĐÃ PHÊ DUYỆT VÀO 3 VỊ TRÍ KHBD (CHUẨN CV 2345)
+  // 5. TỰ ĐỘNG NHẬN DIỆN & XÓA NỘI DUNG TÍCH HỢP CŨ ĐỂ THAY BẰNG CÔNG VĂN MỚI
   // =========================================================================
 
-  injectIntegrationIntoLesson: function(originalLesson, matrixItem) {
-    var les = JSON.parse(JSON.stringify(originalLesson));
+  /**
+   * Tự động quét và loại bỏ 100% các dòng/mục tích hợp cũ trước khi chèn mới
+   */
+  cleanLegacyIntegrationFromLesson: function(lesson) {
+    if (!lesson) return lesson;
+    var les = JSON.parse(JSON.stringify(lesson));
+    var legacyMarkers = [
+      '[Tích hợp', '[tích hợp', '[GDĐP', '[gdđp', '[Lồng ghép', '[lồng ghép',
+      '[QCN', '[KNS', '[ATGT', '[MÔI TRƯỜNG', '[TÀI CHÍNH', '[QPAN', '[ỨNG XỬ',
+      '[STEM', '[NỘI DUNG TÍCH HỢP', '[Chuyên đề', 'Tích hợp -'
+    ];
 
-    // Vị trí 1: Mục I. Yêu cầu cần đạt
+    function isLegacy(str) {
+      if (typeof str !== 'string') return false;
+      return legacyMarkers.some(function(marker) {
+        return str.indexOf(marker) !== -1;
+      });
+    }
+
+    // 1. Dọn dẹp Mục I. Yêu cầu cần đạt
+    if (les.yccd && Array.isArray(les.yccd)) {
+      les.yccd = les.yccd.filter(function(line) {
+        return !isLegacy(line);
+      });
+    }
+
+    // 2. Dọn dẹp Mục II. Đồ dùng dạy học
+    if (les.dodung && Array.isArray(les.dodung)) {
+      les.dodung = les.dodung.filter(function(line) {
+        return !isLegacy(line);
+      });
+    }
+    if (les.teachingAids && Array.isArray(les.teachingAids)) {
+      les.teachingAids = les.teachingAids.filter(function(line) {
+        return !isLegacy(line);
+      });
+    }
+
+    // 3. Dọn dẹp Mục III. Bảng hoạt động dạy học GV - HS
+    if (les.tables && Array.isArray(les.tables)) {
+      les.tables = les.tables.map(function(tableRows) {
+        if (!Array.isArray(tableRows)) return tableRows;
+        return tableRows.filter(function(r) {
+          if (Array.isArray(r)) {
+            var gv = r[0] || '';
+            var hs = r[1] || '';
+            return !isLegacy(gv) && !isLegacy(hs);
+          } else if (r && typeof r === 'object') {
+            return !isLegacy(r.gv || '') && !isLegacy(r.hs || '') && !isLegacy(r.activityName || '');
+          }
+          return true;
+        });
+      });
+    }
+
+    if (les.activities && Array.isArray(les.activities)) {
+      les.activities.forEach(function(act) {
+        if (act.rows && Array.isArray(act.rows)) {
+          act.rows = act.rows.filter(function(r) {
+            return !r.isInjected && !isLegacy(r.gv || '') && !isLegacy(r.hs || '') && !isLegacy(r.activityName || '');
+          });
+        }
+      });
+    }
+
+    return les;
+  },
+
+  /**
+   * Chèn nội dung tích hợp mới chuẩn CV 2345 (Tự động thay thế nội dung cũ)
+   */
+  injectIntegrationIntoLesson: function(originalLesson, matrixItem, overwriteLegacy) {
+    var shouldClean = (overwriteLegacy !== false);
+    
+    // Bước 1: Quét sạch các đoạn tích hợp cũ (nếu có)
+    var les = shouldClean ? this.cleanLegacyIntegrationFromLesson(originalLesson) : JSON.parse(JSON.stringify(originalLesson));
+
+    // Bước 2: Chèn vào Mục I. Yêu cầu cần đạt
     if (!les.yccd) les.yccd = [];
-    var isYccdAlreadyAdded = les.yccd.some(function(line) {
-      return typeof line === 'string' && line.indexOf('[Tích hợp') !== -1;
-    });
-    if (!isYccdAlreadyAdded && matrixItem.yccdAddition) {
+    if (matrixItem.yccdAddition) {
       les.yccd.push(matrixItem.yccdAddition);
     }
 
-    // Vị trí 2: Mục II. Đồ dùng dạy học
+    // Bước 3: Chèn vào Mục II. Đồ dùng dạy học
     if (!les.dodung) les.dodung = les.teachingAids || [];
-    var isDodungAlreadyAdded = les.dodung.some(function(line) {
-      return typeof line === 'string' && line.indexOf('[Tích hợp') !== -1;
-    });
-    if (!isDodungAlreadyAdded && matrixItem.dodungAddition) {
+    if (matrixItem.dodungAddition) {
       les.dodung.push(matrixItem.dodungAddition);
     }
     les.teachingAids = les.dodung;
 
-    // Vị trí 3: Mục III. Các hoạt động dạy học chủ yếu (Bảng 2 cột GV - HS)
+    // Bước 4: Chèn vào Mục III. Các hoạt động dạy học chủ yếu (Bảng 2 cột GV - HS)
     var actAddition = matrixItem.activityAddition;
     var targetPartLabel = matrixItem.targetPart || 'Hoạt động Vận dụng, trải nghiệm';
 
     if (actAddition) {
-      if (les.tables && les.tables.length > 0 && Array.isArray(les.tables[0])) {
-        var rows = les.tables[0];
-        var isActivityAlreadyAdded = rows.some(function(r) {
-          var gvStr = Array.isArray(r) ? (r[0] || '') : (r.gv || '');
-          return gvStr.indexOf('[Tích hợp') !== -1;
-        });
+      var gvText = '<b>* [Tích hợp - ' + targetPartLabel + ']:</b><br/>' + (actAddition.teacher || '').replace(/\n/g, '<br/>');
+      var hsText = '<b>* [Tích hợp - ' + targetPartLabel + ']:</b><br/>' + (actAddition.student || '').replace(/\n/g, '<br/>');
 
-        if (!isActivityAlreadyAdded) {
-          var gvText = '<b>* [Tích hợp - ' + targetPartLabel + ']:</b><br/>' + (actAddition.teacher || '').replace(/\n/g, '<br/>');
-          var hsText = '<b>* [Tích hợp - ' + targetPartLabel + ']:</b><br/>' + (actAddition.student || '').replace(/\n/g, '<br/>');
-          rows.push([gvText, hsText]);
-        }
+      if (les.tables && les.tables.length > 0 && Array.isArray(les.tables[0])) {
+        les.tables[0].push([gvText, hsText]);
       } else if (les.activities && les.activities.length > 0) {
         var targetTable = les.activities[les.activities.length - 1];
         if (targetTable && targetTable.rows) {
           targetTable.rows.push({
             activityName: targetPartLabel,
-            gv: '<b>* [Tích hợp - ' + targetPartLabel + ']:</b><br/>' + (actAddition.teacher || '').replace(/\n/g, '<br/>'),
-            hs: '<b>* [Tích hợp - ' + targetPartLabel + ']:</b><br/>' + (actAddition.student || '').replace(/\n/g, '<br/>'),
+            gv: gvText,
+            hs: hsText,
             isInjected: true
           });
         }
@@ -672,17 +733,19 @@ Trả về duy nhất mảng JSON.`;
     les.integrationInfo = {
       targetPart: targetPartLabel,
       topicLabel: matrixItem.topicLabel,
-      level: matrixItem.level || matrixItem.degree
+      level: matrixItem.level || matrixItem.degree,
+      isReplacedLegacy: shouldClean
     };
 
     return les;
   },
 
-  applyIntegrationToWeekRange: async function(analyzedPlan, selectedLessonMap) {
+  applyIntegrationToWeekRange: async function(analyzedPlan, selectedLessonMap, overwriteLegacy) {
     var matrixLessons = analyzedPlan.suggestions || analyzedPlan.matrixLessons || [];
     var weeksPlan = analyzedPlan.weeksPlan || [];
     var integratedWeeks = [];
     var allAppliedLessons = [];
+    var shouldClean = (overwriteLegacy !== false);
 
     weeksPlan.forEach(function(wItem) {
       var wNum = wItem.week;
@@ -693,12 +756,12 @@ Trả về duy nhất mảng JSON.`;
         var isSelected = matchMatrix && (selectedLessonMap ? selectedLessonMap[matchMatrix.id] !== false : matchMatrix.selected);
 
         if (isSelected && matchMatrix) {
-          var injectedLes = IntegrationService.injectIntegrationIntoLesson(origLes, matchMatrix);
+          var injectedLes = IntegrationService.injectIntegrationIntoLesson(origLes, matchMatrix, shouldClean);
           injectedLes.week = wNum;
           newLessons.push(injectedLes);
           allAppliedLessons.push(injectedLes);
         } else {
-          var cloned = JSON.parse(JSON.stringify(origLes));
+          var cloned = shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(origLes) : JSON.parse(JSON.stringify(origLes));
           cloned.week = wNum;
           newLessons.push(cloned);
           allAppliedLessons.push(cloned);
@@ -715,7 +778,6 @@ Trả về duy nhất mảng JSON.`;
     integratedWeeks.flatLessons = allAppliedLessons;
     return allAppliedLessons;
   },
-
 
   // =========================================================================
   // 6. XUẤT GIÁO ÁN ĐÃ TÍCH HỢP RA FILE WORD (.DOC) CHUẨN CV 2345

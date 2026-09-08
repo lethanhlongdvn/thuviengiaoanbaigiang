@@ -29,6 +29,7 @@ var integrationState = {
   activePreviewLessonIndex: 0,
   isAnalyzing: false,
   isApplying: false,
+  overwriteLegacy: true,
   activeStep: 1 // 1: Setup & Upload, 2: Review & Feedback Plan, 3: Final Integrated View
 };
 
@@ -3322,6 +3323,14 @@ function renderAiIntegrationView(container) {
           <textarea id="integUserNotes" class="form-control" rows="2" placeholder="Ví dụ: Tích hợp sâu vào hoạt động Vận dụng, tạo câu hỏi thực tế địa phương..." oninput="integrationState.userNotes = this.value">${integrationState.userNotes || ''}</textarea>
         </div>
 
+        <!-- TÙY CHỌN TỰ ĐỘNG XÓA TÍCH HỢP CŨ ĐỂ THAY MỚI -->
+        <div style="background: #fdf2f8; border: 1px solid #fbcfe8; border-radius: var(--radius-sm); padding: 0.65rem 0.75rem; margin-bottom: 0.85rem;">
+          <label style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer; font-size: 0.78rem; color: #9d174d; margin: 0; line-height: 1.35;">
+            <input type="checkbox" id="integOverwriteLegacyCheck" ${integrationState.overwriteLegacy !== false ? 'checked' : ''} onchange="integrationState.overwriteLegacy = this.checked" style="margin-top: 2px; width: 15px; height: 15px; accent-color: #db2777; cursor: pointer;">
+            <span><strong>Tự động làm sạch tích hợp cũ:</strong> AI tự nhận biết và xóa bỏ toàn bộ phần tích hợp cũ trước đó để thay thế hoàn toàn bằng công văn mới.</span>
+          </label>
+        </div>
+
         <!-- NÚT BẮT ĐẦU PHÂN TÍCH MA TRẬN BƯỚC 1 -->
         <button id="btnStartIntegAnalyze" class="btn btn-primary" style="width: 100%; padding: 0.85rem; font-size: 0.95rem; font-weight: 800; background: linear-gradient(135deg, #db2777, #ec4899); box-shadow: 0 4px 14px rgba(219, 39, 119, 0.35); border: none;" onclick="triggerAnalyzeIntegrationPlan()">
           <i class="fa-solid fa-wand-magic-sparkles"></i> BƯỚC 1: AI NGHIÊN CỨU & LẬP KẾ HOẠCH
@@ -3764,7 +3773,8 @@ async function triggerApplyAndPreviewIntegration() {
   try {
     var applied = await IntegrationService.applyIntegrationToWeekRange(
       integrationState.analyzedPlan,
-      integrationState.selectedLessons
+      integrationState.selectedLessons,
+      integrationState.overwriteLegacy !== false
     );
 
     integrationState.appliedLessons = applied;
