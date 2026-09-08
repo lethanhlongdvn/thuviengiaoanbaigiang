@@ -634,6 +634,51 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
   },
 
   /**
+   * Gọi Gemini API trực tiếp với bất kỳ prompt nào (Hỗ trợ AI Tích hợp Giáo án, phân tích văn bản...)
+   */
+  callGeminiApi: async function(apiKey, prompt, options) {
+    var opt = options || {};
+    var models = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite", "gemini-2.5-pro", "gemini-3.5-flash"];
+    var lastError = null;
+
+    for (var m = 0; m < models.length; m++) {
+      var modelName = models[m];
+      try {
+        var genConfig = {
+          temperature: typeof opt.temperature === 'number' ? opt.temperature : 0.3
+        };
+        if (opt.maxTokens) genConfig.maxOutputTokens = opt.maxTokens;
+        if (opt.responseMimeType) genConfig.responseMimeType = opt.responseMimeType;
+        if (modelName.indexOf("2.5") !== -1) {
+          genConfig.thinkingConfig = { thinkingBudget: 0 };
+        }
+
+        var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            contents: [{ parts: [{ text: prompt }] }],
+            generationConfig: genConfig
+          })
+        });
+
+        if (response.ok) {
+          var data = await response.json();
+          var rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text || "";
+          if (rawText) return rawText;
+        } else {
+          var errJson = await response.json().catch(function(){ return {}; });
+          lastError = errJson.error?.message || response.statusText;
+        }
+      } catch (e) {
+        lastError = e.message;
+      }
+    }
+
+    throw new Error(lastError || "Không thể kết nối Gemini API");
+  },
+
+  /**
    * Bóc tách và phân tích JSON linh hoạt, chống lỗi định dạng chuỗi từ AI
    */
   parseJsonSafely: function(text) {
