@@ -40,9 +40,7 @@
         "activities": [],
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
-          "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 1: GIA ĐÌNH"
+          "- Đồ dùng, học liệu: ................................................................................................................"
         ],
         "tables": [
           [
@@ -151,7 +149,8 @@
               "- HS lắng nghe và chuẩn bị ảnh/tư liệu gia đình cho tiết sau nếu có."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: HỌ HÀNG VÀ NHỮNG NGÀY KỈ NIỆM CỦA GIA ĐÌNH"
       },
       {
         "lessonTitle": "BÀI 1: HỌ HÀNG VÀ NHỮNG NGÀY KỈ NIỆM CỦA GIA ĐÌNH",
@@ -297,7 +296,8 @@
               "- HS lắng nghe và tự nhắc: Em sẽ xưng hô lễ phép, quan tâm họ hàng và hoàn thiện sơ đồ gia đình theo hướng dẫn."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: HỌ HÀNG VÀ NHỮNG NGÀY KỈ NIỆM CỦA GIA ĐÌNH"
       }
     ]
   },
@@ -325,20 +325,16 @@
           "4. Tích hợp",
           "- Bài học STEM: Họ hàng nội, ngoại (tiết 3). HS hoàn thiện cây gia đình, giới thiệu sản phẩm và kể một ngày kỉ niệm của gia đình.",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS trân trọng truyền thống gia đình, biết nói lời biết ơn và thể hiện tình cảm với người thân.",
-          "1. Năng lực đặc thù",
           "- Nêu được một số nguyên nhân dẫn đến cháy nhà và những thiệt hại có thể xảy ra về người, tài sản do hỏa hoạn.",
           "- Phát hiện được một số vật dễ gây cháy và giải thích được vì sao không được đặt chúng ở gần lửa, nguồn nhiệt hoặc ổ điện.",
           "- Đưa ra được cách ứng xử phù hợp trong tình huống có cháy xảy ra; nhận xét được cách ứng xử đúng và chưa đúng.",
           "- Thực hành nêu được việc cần làm khi gia đình có hỏa hoạn; có ý thức phòng tránh hỏa hoạn và tôn trọng quy định phòng cháy.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Thảo luận nhóm 2, nhóm 4, nhóm 6; trình bày ý kiến, lắng nghe và nhận xét cách xử lí tình huống.",
           "- Năng lực tự chủ và tự học: Chủ động quan sát tranh, liên hệ việc làm ở gia đình, tự nhận biết vật dễ gây cháy.",
           "- Năng lực giải quyết vấn đề: Biết lựa chọn cách thoát hiểm phù hợp, báo người lớn, gọi số khẩn cấp 114 trong tình huống cần thiết.",
-          "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức giữ an toàn cho bản thân, gia đình và cộng đồng; không nghịch lửa, không nghịch điện.",
           "- Chăm chỉ: Tích cực tham gia quan sát, thảo luận, hoàn thành phiếu điều tra.",
           "- Nhân ái: Biết quan tâm, nhắc nhở người thân cùng phòng tránh hỏa hoạn và giúp đỡ trong phạm vi an toàn.",
-          "4. Tích hợp",
           "- Tích hợp KNS/ANQP: HS nhận biết nguy cơ hỏa hoạn trong gia đình; biết bình tĩnh thoát ra nơi an toàn, gọi người lớn hoặc số khẩn cấp 114, không quay lại lấy đồ."
         ],
         "dodung": [
@@ -351,9 +347,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 1: GIA ĐÌNH",
-          "TUẦN 2: BÀI 2: PHÒNG TRÁNH HỎA HOẠN KHI Ở NHÀ (TIẾT 1)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -628,7 +621,8 @@
               "- HS nhắc lại một việc em sẽ làm: Em sẽ không nghịch lửa, không nghịch điện và nhắc người thân cất vật dễ cháy đúng chỗ."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -655,20 +649,16 @@
           "- Trung thực: Sử dụng cuộc gọi khẩn cấp đúng mục đích, không trêu đùa, không báo tin sai sự thật.",
           "4. Tích hợp",
           "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS biết dùng điện thoại/cuộc gọi khẩn cấp đúng mục đích; không quay, đăng hoặc chia sẻ hình ảnh đám cháy gây hoang mang, lộ thông tin riêng tư.",
-          "1. Năng lực đặc thù",
           "- Kể được tên một số việc làm để giữ vệ sinh xung quanh nhà qua tranh và thực tế gia đình.",
           "- Giải thích được lợi ích của việc giữ vệ sinh xung quanh nhà đối với sức khỏe và môi trường sống.",
           "- Nhận biết được một số việc làm có tác dụng giữ vệ sinh và việc làm gây mất vệ sinh xung quanh nhà.",
           "- Nêu được lí do cần giữ vệ sinh xung quanh nhà và bước đầu liên hệ việc làm phù hợp ở gia đình.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Trao đổi nhóm 2, nhóm 4, nhóm 6; biết trình bày, lắng nghe và bổ sung ý kiến về việc giữ vệ sinh.",
           "- Năng lực tự chủ và tự học: Chủ động quan sát tranh, liên hệ việc làm ở nhà và tự nêu việc bản thân có thể thực hiện.",
           "- Năng lực giải quyết vấn đề: Biết nhận ra nguyên nhân làm mất vệ sinh và đề xuất việc làm phù hợp để giữ môi trường sống sạch đẹp.",
-          "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức giữ sạch sân, ngõ, khu vực sinh hoạt; biết bỏ rác đúng nơi quy định.",
           "- Chăm chỉ: Tích cực tham gia hoạt động quan sát, thảo luận, chia sẻ và thực hiện việc làm phù hợp.",
           "- Nhân ái: Biết nhắc nhở người thân, bạn bè giữ vệ sinh bằng lời nói nhẹ nhàng, tôn trọng.",
-          "4. Tích hợp",
           "- Tích hợp GDBVMT: HS quan sát và nêu nguyên nhân làm mất vệ sinh xung quanh nhà; biết bỏ rác đúng nơi, giữ sạch sân, ngõ và khu vực sinh hoạt."
         ],
         "dodung": [
@@ -681,9 +671,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 1: GIA ĐÌNH",
-          "TUẦN 3: BÀI 3: VỆ SINH XUNG QUANH NHÀ (TIẾT 1)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -944,7 +931,8 @@
               "- HS lắng nghe, tự cam kết một việc làm phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -964,12 +952,24 @@
           "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Trao đổi nhóm 2, nhóm 4, nhóm 6 để hoàn thành sơ đồ và thống nhất cách ứng xử.",
           "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn việc làm phù hợp để giữ vệ sinh ở khu dân cư, sân nhà, đường làng, cầu thang, vỉa hè.",
-          "1. Năng lực đặc thù",
           "- Hệ thống hóa được kiến thức đã học về chủ đề Gia đình: họ hàng, ngày kỉ niệm, phòng tránh hoả hoạn và vệ sinh xung quanh nhà.",
           "- Xử lí được một số tình huống gia đình liên quan đến an toàn khi ở nhà và thể hiện tình cảm với họ hàng.",
           "- Chọn một số sự kiện và nói về sự thay đổi của gia đình qua các mốc thời gian khác nhau.",
           "- Biết tự đánh giá kết quả học tập, nhận ra nội dung đã biết và nội dung cần ôn thêm.",
-          "2. Năng lực chung"
+          "3. Phẩm chất",
+          "- Trách nhiệm: Có ý thức giữ vệ sinh xung quanh nhà, không xả rác bừa bãi, biết nhắc người thân và bạn bè làm việc phù hợp.",
+          "- Nhân ái: Biết góp ý nhẹ nhàng, lịch sự khi thấy người khác làm mất vệ sinh nơi ở.",
+          "- Chăm chỉ: Tích cực tham gia thảo luận, thực hành, hoàn thành nhiệm vụ nhóm.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 3.1.CB1a: HS dùng tranh, khẩu hiệu hoặc công cụ trình bày đơn giản để tuyên truyền giữ vệ sinh xung quanh nhà dưới sự hướng dẫn của GV.",
+          "- Tích hợp GDBVMT: HS vận động người thân cùng làm sạch khu vực sống, chăm sóc cây xanh và giữ môi trường gia đình sạch đẹp.",
+          "- Năng lực giao tiếp và hợp tác: Trao đổi nhóm 2, nhóm 4, nhóm 6 để hoàn thiện sơ đồ và xử lí tình huống.",
+          "- Năng lực giải quyết vấn đề: Biết vận dụng kiến thức chủ đề Gia đình để đưa ra cách xử lí phù hợp trong tình huống cụ thể.",
+          "- Trách nhiệm: Có ý thức phòng tránh hoả hoạn, giữ vệ sinh xung quanh nhà và quan tâm đến người thân.",
+          "- Nhân ái: Biết yêu thương, hỏi thăm, giúp đỡ họ hàng và chia sẻ tình cảm trong gia đình.",
+          "- Trung thực: Tự đánh giá đúng việc đã làm, không sao chép máy móc khi hoàn thành sơ đồ ôn tập.",
+          "- Tích hợp NLS 5.2.CB1a: HS hệ thống hóa kiến thức chủ đề Gia đình bằng bảng/sơ đồ đơn giản; tự đánh giá điều đã biết và việc cần rèn thêm.",
+          "- Tích hợp AI (Khung 3439) - 3.A3.1: Biết kết quả do công cụ số/AI gợi ý có thể sai, cần đối chiếu với SGK, thầy cô và cha mẹ."
         ],
         "dodung": [
           "Chuẩn bị của GV",
@@ -989,27 +989,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Trách nhiệm: Có ý thức giữ vệ sinh xung quanh nhà, không xả rác bừa bãi, biết nhắc người thân và bạn bè làm việc phù hợp.",
-          "- Nhân ái: Biết góp ý nhẹ nhàng, lịch sự khi thấy người khác làm mất vệ sinh nơi ở.",
-          "- Chăm chỉ: Tích cực tham gia thảo luận, thực hành, hoàn thành nhiệm vụ nhóm.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 3.1.CB1a: HS dùng tranh, khẩu hiệu hoặc công cụ trình bày đơn giản để tuyên truyền giữ vệ sinh xung quanh nhà dưới sự hướng dẫn của GV.",
-          "- Tích hợp GDBVMT: HS vận động người thân cùng làm sạch khu vực sống, chăm sóc cây xanh và giữ môi trường gia đình sạch đẹp.",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 1: GIA ĐÌNH",
-          "TUẦN 4: BÀI 4: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH (TIẾT 1)",
-          "- Năng lực giao tiếp và hợp tác: Trao đổi nhóm 2, nhóm 4, nhóm 6 để hoàn thiện sơ đồ và xử lí tình huống.",
-          "- Năng lực giải quyết vấn đề: Biết vận dụng kiến thức chủ đề Gia đình để đưa ra cách xử lí phù hợp trong tình huống cụ thể.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: Có ý thức phòng tránh hoả hoạn, giữ vệ sinh xung quanh nhà và quan tâm đến người thân.",
-          "- Nhân ái: Biết yêu thương, hỏi thăm, giúp đỡ họ hàng và chia sẻ tình cảm trong gia đình.",
-          "- Trung thực: Tự đánh giá đúng việc đã làm, không sao chép máy móc khi hoàn thành sơ đồ ôn tập.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 5.2.CB1a: HS hệ thống hóa kiến thức chủ đề Gia đình bằng bảng/sơ đồ đơn giản; tự đánh giá điều đã biết và việc cần rèn thêm.",
-          "- Tích hợp AI (Khung 3439) - 3.A3.1: Biết kết quả do công cụ số/AI gợi ý có thể sai, cần đối chiếu với SGK, thầy cô và cha mẹ.",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -1334,7 +1315,8 @@
               "- HS lắng nghe, tự đánh giá hoàn thành nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -1361,20 +1343,16 @@
           "- Trung thực: Chia sẻ đúng sự kiện, hình ảnh hoặc câu chuyện của gia đình; không phóng đại, không kể chuyện riêng tư khi chưa được phép.",
           "4. Tích hợp",
           "- Tích hợp QCN/KNS: HS củng cố quyền được yêu thương, chăm sóc, bảo vệ trong gia đình; biết chia sẻ việc làm an toàn, lễ phép và có trách nhiệm với người thân.",
-          "1. Năng lực đặc thù",
           "- Nêu được tên và ý nghĩa của một đến hai hoạt động kết nối với xã hội của trường học mà em đã được hoạt động.",
           "- Nhận xét được sự tham gia của học sinh trong các hoạt động kết nối với cộng đồng qua tranh và trải nghiệm.",
           "- Tích cực, có trách nhiệm khi tham gia hoạt động kết nối trường học với cộng đồng.",
           "- Có ý thức tuyên truyền, vận động các bạn cùng tham gia hoạt động vừa sức, phù hợp lứa tuổi.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Làm việc nhóm 2, nhóm 4, nhóm 6 để quan sát tranh, thảo luận, chia sẻ ý kiến và nhận xét bạn.",
           "- Năng lực tự chủ và tự học: Chủ động kể lại trải nghiệm cá nhân khi tham gia hoạt động kết nối với cộng đồng.",
           "- Năng lực giải quyết vấn đề: Biết lựa chọn cách tham gia phù hợp, an toàn, đúng mục đích trong hoạt động cộng đồng.",
-          "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, sẻ chia với người gặp khó khăn, biết lan tỏa yêu thương trong cộng đồng.",
           "- Trách nhiệm: Có ý thức tham gia hoạt động chung, giữ gìn hình ảnh trường lớp và cộng đồng.",
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ nhóm, quan sát tranh và trình bày ý kiến.",
-          "4. Tích hợp",
           "- Tích hợp QCN: HS hiểu trẻ em có quyền tham gia hoạt động xã hội, hoạt động cộng đồng phù hợp lứa tuổi.",
           "- Tích hợp NLS 2.3.CB1a: HS giao tiếp lịch sự khi chia sẻ thông tin về hoạt động kết nối cộng đồng; không tự ý đăng hình ảnh người khác khi chưa được phép."
         ],
@@ -1395,9 +1373,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 1: TRƯỜNG HỌC",
-          "TUẦN 5: BÀI 5: HOẠT ĐỘNG KẾT NỐI VỚI CỘNG ĐỒNG (TIẾT 1)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -1777,7 +1752,8 @@
               "- HS chuẩn bị tên hoạt động, việc em đã tham gia hoặc quan sát được và cảm nghĩ của em về hoạt động đó."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -1805,20 +1781,16 @@
           "4. Tích hợp",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết quan tâm, sẻ chia, tham gia việc làm vừa sức để góp phần xây dựng cộng đồng thân thiện.",
           "- Tích hợp NLS 3.1.CB1a: HS trình bày ngắn gọn kết quả hoạt động cộng đồng bằng tranh, bảng hoặc hình ảnh do GV cung cấp.",
-          "1. Năng lực đặc thù",
           "- Đặt được một số câu hỏi để tìm hiểu về truyền thống nhà trường như năm thành lập, thành tích dạy và học, hoạt động văn nghệ, thể dục thể thao và những tấm gương tiêu biểu.",
           "- Thu thập được thông tin về truyền thống nhà trường thông qua quan sát hình ảnh, tư liệu, hiện vật và đặt câu hỏi phù hợp.",
           "- Giới thiệu được một cách đơn giản một vài thông tin về truyền thống nhà trường.",
           "- Bày tỏ được tình cảm hoặc mong ước của bản thân đối với nhà trường.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4; biết hỏi, trả lời, lắng nghe và bổ sung thông tin cho bạn.",
           "- Năng lực tự chủ và tự học: Tự chuẩn bị câu hỏi, tự ghi chép thông tin vào phiếu thu thập.",
           "- Năng lực giải quyết vấn đề: Biết xác định thông tin cần tìm và lựa chọn cách thu thập thông tin phù hợp.",
-          "3. Phẩm chất",
           "- Yêu nước: Tự hào về truyền thống tốt đẹp của nhà trường, yêu quý mái trường đang học.",
           "- Trách nhiệm: Có ý thức giữ gìn, phát huy truyền thống nhà trường bằng việc học tập, rèn luyện tốt.",
           "- Trung thực: Ghi chép thông tin đúng với nội dung đã quan sát, đã được thầy cô hoặc tư liệu cung cấp.",
-          "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a: HS tìm kiếm, quan sát thông tin/hình ảnh về truyền thống nhà trường từ nguồn phù hợp và trình bày lại bằng lời của mình.",
           "- Tích hợp AI (Khung 3439) - 3.A2.1: Nhận biết AI/công nghệ có thể hỗ trợ số hóa, lưu giữ tư liệu truyền thống trường học."
         ],
@@ -1842,9 +1814,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC",
-          "TUẦN 6: BÀI 6: TRUYỀN THỐNG TRƯỜNG EM (TIẾT 1)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -2205,7 +2174,8 @@
               "- HS lắng nghe và chuẩn bị thông tin cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -2232,19 +2202,15 @@
           "4. Tích hợp",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS tự hào về truyền thống trường em, biết giữ gìn nề nếp, đoàn kết và góp phần xây dựng lớp học tốt.",
           "- Tích hợp NLS 4.2.CB1a: Khi giới thiệu trường lớp, HS không chia sẻ hình ảnh, họ tên, thông tin cá nhân của bạn khi chưa được phép.",
-          "1. Năng lực đặc thù",
           "- Nhận biết được một số vị trí, đồ vật hoặc hiện tượng có thể gây mất an toàn trong trường học qua quan sát hình và thực tế.",
           "- Lập được kế hoạch khảo sát về sự an toàn và vệ sinh ở trường theo nhóm.",
           "- Nêu được việc cần làm để giữ an toàn khi khảo sát và khi sinh hoạt trong trường.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4, nhóm 6 và thống nhất nhiệm vụ khảo sát.",
           "- Năng lực tự chủ và tự học: Chủ động quan sát, ghi chép thông tin theo phiếu khảo sát.",
           "- Năng lực giải quyết vấn đề: Biết phát hiện nguy cơ mất an toàn và đề xuất cách phòng tránh ban đầu.",
-          "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức thực hiện nội quy an toàn ở trường.",
           "- Chăm chỉ: Tích cực tham gia lập kế hoạch khảo sát.",
           "- Nhân ái: Biết nhắc bạn giữ an toàn, vệ sinh đúng cách.",
-          "4. Tích hợp",
           "- Tích hợp QCN/QPAN: HS hiểu trẻ em có quyền học tập trong môi trường an toàn; biết báo thầy cô, người lớn khi phát hiện nguy cơ cháy nổ, vật sắc nhọn, khu vực nguy hiểm.",
           "- Tích hợp AI (Khung 3439) - 3.A3.1: Nhận biết công nghệ chỉ hỗ trợ cảnh báo, HS vẫn phải quan sát, tuân thủ nội quy và nhờ người lớn xử lí."
         ],
@@ -2268,9 +2234,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC",
-          "TUẦN 7: BÀI 7: GIỮ AN TOÀN VÀ VỆ SINH Ở TRƯỜNG (TIẾT 1)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -2519,7 +2482,8 @@
               "- HS chuẩn bị đồ dùng học tập và thực hiện đúng hướng dẫn."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -2546,19 +2510,15 @@
           "4. Tích hợp",
           "- Tích hợp GDBVMT/KNS: HS biết giữ vệ sinh lớp học, sân trường, nhà vệ sinh; bỏ rác đúng nơi và tham gia trực nhật phù hợp.",
           "- Tích hợp NLS 3.1.CB1a: HS ghi lại việc làm giữ an toàn, vệ sinh ở trường bằng bảng theo dõi, tranh hoặc hình ảnh do GV cung cấp.",
-          "1. Năng lực đặc thù",
           "- Tổng hợp được kết quả khảo sát và đề xuất khuyến nghị cần thiết với nhà trường.",
           "- Báo cáo được kết quả khảo sát và nhận xét việc nên làm, không nên làm để giữ an toàn, vệ sinh ở trường.",
           "- Thực hành hoặc cam kết một việc làm cụ thể để giữ vệ sinh trường học và khu vực xung quanh trường.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Biết trình bày kết quả khảo sát, lắng nghe nhận xét và bổ sung ý kiến.",
           "- Năng lực tự chủ và tự học: Tự đánh giá việc làm của bản thân trong giữ an toàn, vệ sinh trường học.",
           "- Năng lực giải quyết vấn đề: Biết đề xuất cách khắc phục nguy cơ mất an toàn, mất vệ sinh.",
-          "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức nhắc bạn đúng cách và cam kết việc làm cụ thể.",
           "- Nhân ái: Tôn trọng, động viên bạn khi cùng thực hiện nhiệm vụ.",
           "- Chăm chỉ: Tích cực hoàn thành báo cáo và tham gia vệ sinh trường lớp.",
-          "4. Tích hợp",
           "- Tích hợp QCN/KNS: HS thực hành xử lí tình huống an toàn, vệ sinh ở trường; biết nhắc bạn đúng cách và cam kết một việc làm cụ thể."
         ],
         "dodung": [
@@ -2581,9 +2541,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC",
-          "TUẦN 8: BÀI 7: GIỮ AN TOÀN VÀ VỆ SINH Ở TRƯỜNG (TIẾT 3)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -2827,7 +2784,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -2854,20 +2812,16 @@
           "4. Tích hợp",
           "- Tích hợp NLS 3.2.CB1a: HS tổng hợp hình ảnh/thông tin đã học về chủ đề Trường học và trình bày bằng sơ đồ, bảng hoặc poster đơn giản.",
           "- Tích hợp AI (Khung 3439) - 3.C5.1: Làm quen cách nêu quy tắc dạng “nếu... thì...” để giải thích hành vi an toàn, vệ sinh trong trường học.",
-          "1. Năng lực đặc thù",
           "- Nhận biết được những việc không nên làm để giữ an toàn và vệ sinh trường học.",
           "- Đưa ra được cách xử lí trong một số tình huống cụ thể ở trường học.",
           "- Hoàn thành được đoạn văn viết về truyền thống nhà trường và chia sẻ cảm xúc của bản thân.",
           "- Tự đánh giá được việc thực hiện nội quy, giữ gìn vệ sinh, an toàn ở trường.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4; lắng nghe, nhận xét và bổ sung ý kiến.",
           "- Năng lực tự chủ và tự học: Tự hoàn thiện đoạn văn, tự kiểm tra nội dung đã học.",
           "- Năng lực giải quyết vấn đề: Biết lựa chọn cách ứng xử phù hợp khi gặp tình huống mất an toàn, mất vệ sinh.",
-          "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức thực hiện nội quy, giữ gìn vệ sinh và an toàn ở trường.",
           "- Nhân ái: Biết nhắc bạn bằng lời nói lịch sự, không chê bai hoặc làm bạn xấu hổ.",
           "- Chăm chỉ: Tích cực hoàn thành bài viết và nhiệm vụ ôn tập.",
-          "4. Tích hợp",
           "- Tích hợp đạo đức, lối sống/KNS: HS tự đánh giá việc thực hiện nội quy, giữ gìn vệ sinh và an toàn ở trường; biết cam kết một việc làm cụ thể để xây dựng trường học thân thiện."
         ],
         "dodung": [
@@ -2888,9 +2842,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC",
-          "TUẦN 9: BÀI 8: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC (TIẾT 2)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -3163,7 +3114,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -3191,20 +3143,16 @@
           "4. Tích hợp",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết trân trọng lao động của nông dân, sử dụng lương thực, thực phẩm tiết kiệm và không lãng phí.",
           "- Tích hợp NLS 2.3.CB1a: HS chia sẻ thông tin về sản phẩm nông nghiệp bằng lời nói, tranh ảnh đúng mực, không đưa thông tin sai lệch.",
-          "1. Năng lực đặc thù",
           "- Nêu được ích lợi của một số hoạt động sản xuất nông nghiệp và sản phẩm nông nghiệp.",
           "- Chia sẻ được lợi ích của hoạt động sản xuất nông nghiệp ở địa phương theo gợi ý.",
           "- Nêu được những việc nên làm để tiêu dùng tiết kiệm, bảo vệ môi trường và giải thích được lí do.",
           "- Biết liên hệ việc sử dụng sản phẩm nông nghiệp trong gia đình với ý thức tiết kiệm và bảo vệ môi trường.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Trao đổi nhóm 2, nhóm 4; biết trình bày và lắng nghe ý kiến của bạn.",
           "- Năng lực tự chủ và tự học: Chủ động quan sát hình, đọc thông tin, ghi kết quả vào bảng.",
           "- Năng lực giải quyết vấn đề: Biết lựa chọn việc làm phù hợp để tiêu dùng tiết kiệm, bảo vệ môi trường.",
-          "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức tiết kiệm lương thực, thực phẩm và bảo vệ môi trường sống.",
           "- Chăm chỉ: Tích cực hoàn thành nhiệm vụ học tập, chia sẻ thông tin với nhóm.",
           "- Nhân ái: Biết trân trọng người lao động và sản phẩm nông nghiệp.",
-          "4. Tích hợp",
           "- Tích hợp GDBVMT: HS biết sản xuất nông nghiệp cần bảo vệ đất, nước, cây trồng; không lãng phí nước và không làm ô nhiễm môi trường sống.",
           "- Tích hợp NLS 1.1.CB1a: HS quan sát hình ảnh/đoạn phim về hoạt động nông nghiệp từ nguồn phù hợp dưới sự hướng dẫn của GV."
         ],
@@ -3227,9 +3175,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
-          "TUẦN 10: BÀI 9: HOẠT ĐỘNG SẢN XUẤT NÔNG NGHIỆP (TIẾT 2)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -3537,7 +3482,8 @@
               "- HS chuẩn bị tranh ảnh hoặc tên một sản phẩm nông nghiệp ở địa phương để giới thiệu với lớp."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -3565,20 +3511,15 @@
           "4. Tích hợp",
           "- Tích hợp đạo đức, lối sống/KNS: HS biết quý trọng sản phẩm nông nghiệp, sử dụng thức ăn tiết kiệm và chia sẻ việc làm giúp gia đình tránh lãng phí.",
           "- Tích hợp NLS 5.2.CB1a: HS tự đánh giá việc làm tiết kiệm lương thực bằng bảng kiểm đơn giản.",
-          "1. Năng lực đặc thù",
           "- Kể được tên, sản phẩm và ích lợi của một số hoạt động sản xuất thủ công ở địa phương và trong tranh.",
           "- Giới thiệu được một sản phẩm thủ công ở địa phương dựa trên thông tin, tranh ảnh, vật thật đã sưu tầm.",
-          "- Đưa ra được cách xử lí khi gặp tình huống liên quan đến tiêu dùng tiết kiệm, bảo vệ môi trường.",
           "- Nhận biết được sự khác nhau bước đầu giữa sản phẩm làm bằng tay và sản phẩm làm bằng máy móc.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Trao đổi nhóm 2, nhóm 4, nhóm 6; báo cáo ngắn gọn kết quả học tập.",
           "- Năng lực tự chủ và tự học: Chủ động quan sát tranh, đọc yêu cầu, ghi thông tin về sản phẩm thủ công.",
           "- Năng lực giải quyết vấn đề: Biết liên hệ việc sử dụng sản phẩm thủ công với tiêu dùng tiết kiệm.",
-          "3. Phẩm chất",
           "- Chăm chỉ: Tích cực quan sát, thảo luận, hoàn thành nhiệm vụ nhóm.",
           "- Trách nhiệm: Biết giữ gìn, sử dụng sản phẩm tiết kiệm, đúng mục đích.",
           "- Nhân ái: Biết trân trọng người lao động làm ra sản phẩm thủ công.",
-          "4. Tích hợp",
           "- Tích hợp đạo đức, lối sống: HS trân trọng người lao động trong sản xuất thủ công, công nghiệp; biết giữ gìn, sử dụng sản phẩm tiết kiệm, đúng mục đích.",
           "- Tích hợp NLS 3.1.CB1a: HS báo cáo ngắn gọn kết quả tìm hiểu bằng tranh, ảnh hoặc bảng đơn giản do GV hướng dẫn."
         ],
@@ -3602,9 +3543,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
-          "TUẦN 11: BÀI 10: HOẠT ĐỘNG SẢN XUẤT THỦ CÔNG VÀ CÔNG NGHIỆP (TIẾT 1)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -3860,7 +3798,8 @@
               "- HS ghi nhớ nhiệm vụ, hỏi người thân hoặc sưu tầm tranh ảnh phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -3888,20 +3827,16 @@
           "4. Tích hợp",
           "- Tích hợp KNS/QPAN: HS nhận biết một số nguy cơ mất an toàn trong cơ sở sản xuất; biết đứng đúng vị trí, không tự ý chạm vào máy móc, dụng cụ nguy hiểm.",
           "- Tích hợp NLS 1.1.CB1a: HS chọn hình ảnh/video về nghề thủ công, công nghiệp từ nguồn phù hợp lứa tuổi.",
-          "1. Năng lực đặc thù",
           "- Giới thiệu được một sản phẩm thủ công hoặc công nghiệp ở địa phương dựa trên thông tin, tranh ảnh, vật thật đã sưu tầm.",
           "- Viết hoặc vẽ được thông điệp về sự cần thiết phải tiêu dùng tiết kiệm, bảo vệ môi trường.",
           "- Chia sẻ được sản phẩm học tập với bạn và người xung quanh.",
           "- Thể hiện ý thức sử dụng tiết kiệm sản phẩm, tái sử dụng đồ dùng phù hợp.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Biết làm việc nhóm 3, nhóm 4; phân công nhiệm vụ và trình bày sản phẩm.",
           "- Năng lực tự chủ và tự học: Tự chuẩn bị tư liệu, tự hoàn thiện sản phẩm học tập.",
           "- Năng lực giải quyết vấn đề: Biết lựa chọn nội dung và hình thức phù hợp để tuyên truyền tiêu dùng tiết kiệm.",
-          "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức tiêu dùng tiết kiệm, bảo vệ môi trường trong gia đình và cộng đồng.",
           "- Chăm chỉ: Tích cực hoàn thiện sản phẩm nhóm.",
           "- Nhân ái: Biết chia sẻ thông điệp tích cực với bạn bè, người thân.",
-          "4. Tích hợp",
           "- Tích hợp GDBVMT/đạo đức, lối sống: HS biết sử dụng tiết kiệm sản phẩm, tái sử dụng đồ dùng phù hợp và có ý thức bảo vệ môi trường trong sản xuất, tiêu dùng."
         ],
         "dodung": [
@@ -3922,9 +3857,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
-          "TUẦN 12: BÀI 10: HOẠT ĐỘNG SẢN XUẤT THỦ CÔNG VÀ CÔNG NGHIỆP (TIẾT 3)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -4168,7 +4100,8 @@
               "- HS chuẩn bị tư liệu cho bài học sau."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -4196,13 +4129,18 @@
           "4. Tích hợp",
           "- Tích hợp QPAN/GDBVMT: HS nhận biết giá trị di tích, cảnh quan thiên nhiên; biết không xả rác, không viết vẽ lên di tích và ứng xử văn minh khi tham quan.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết công nghệ/AI có thể hỗ trợ nhận diện, phục dựng, quảng bá di tích nhưng cần dùng thông tin đúng.",
-          "1. Năng lực đặc thù",
           "- Làm được sản phẩm máy chiếu phim đơn giản để giới thiệu một di tích lịch sử – văn hoá hoặc cảnh quan thiên nhiên của địa phương.",
           "- Giới thiệu được tên, đặc điểm nổi bật và cảm xúc của em về địa danh thể hiện trong sản phẩm.",
           "- Nêu được việc cần làm để thể hiện sự tôn trọng và giữ vệ sinh khi tham quan di tích, cảnh quan.",
           "- Vận dụng thao tác gấp, cắt, ghép, xếp, vẽ, trang trí để hoàn thiện sản phẩm STEM.",
-          "2. Năng lực chung",
-          "- Năng lực giao tiếp và hợp tác: Phân công nhiệm vụ nhóm 2, nhóm 4; cùng làm sản phẩm và góp ý cho nhóm bạn."
+          "- Năng lực giao tiếp và hợp tác: Phân công nhiệm vụ nhóm 2, nhóm 4; cùng làm sản phẩm và góp ý cho nhóm bạn.",
+          "TUẦN 13: BÀI 11: DI TÍCH LỊCH SỬ – VĂN HOÁ VÀ CẢNH QUAN THIÊN NHIÊN (TIẾT 2) - BÀI HỌC STEM",
+          "- Năng lực tự chủ và tự học: Tự kiểm tra sản phẩm theo tiêu chí, hoàn thiện phiếu học tập và tự đánh giá.",
+          "- Yêu nước: Tự hào về di tích, cảnh quan quê hương và mong muốn giới thiệu với người khác.",
+          "- Trách nhiệm: Có ý thức bảo vệ di sản, giữ vệ sinh nơi tham quan và bảo quản sản phẩm nhóm.",
+          "- Chăm chỉ: Kiên trì cắt, dán, trang trí, hoàn thiện sản phẩm đúng thời gian.",
+          "- Bài học STEM: Di tích lịch sử – văn hoá và cảnh quan thiên nhiên (tiết 2). HS hoàn thiện sản phẩm giới thiệu di tích/cảnh quan và nêu việc cần làm để giữ gìn.",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS tự hào về địa phương, biết trân trọng và bảo vệ di sản, cảnh quan quê hương."
         ],
         "dodung": [
           "Chuẩn bị của GV",
@@ -4224,17 +4162,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
-          "TUẦN 13: BÀI 11: DI TÍCH LỊCH SỬ – VĂN HOÁ VÀ CẢNH QUAN THIÊN NHIÊN (TIẾT 2) - BÀI HỌC STEM",
-          "- Năng lực tự chủ và tự học: Tự kiểm tra sản phẩm theo tiêu chí, hoàn thiện phiếu học tập và tự đánh giá.",
-          "3. Phẩm chất",
-          "- Yêu nước: Tự hào về di tích, cảnh quan quê hương và mong muốn giới thiệu với người khác.",
-          "- Trách nhiệm: Có ý thức bảo vệ di sản, giữ vệ sinh nơi tham quan và bảo quản sản phẩm nhóm.",
-          "- Chăm chỉ: Kiên trì cắt, dán, trang trí, hoàn thiện sản phẩm đúng thời gian.",
-          "4. Tích hợp",
-          "- Bài học STEM: Di tích lịch sử – văn hoá và cảnh quan thiên nhiên (tiết 2). HS hoàn thiện sản phẩm giới thiệu di tích/cảnh quan và nêu việc cần làm để giữ gìn.",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS tự hào về địa phương, biết trân trọng và bảo vệ di sản, cảnh quan quê hương.",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -4561,7 +4488,8 @@
               "- HS lắng nghe và chuẩn bị giới thiệu sản phẩm cho người thân ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -4589,14 +4517,16 @@
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB1a, 3.2.CB1a: HS tìm kiếm, chọn lọc hình ảnh về địa phương và hệ thống hoá bằng bảng/sơ đồ số đơn giản.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Biết AI có thể hỗ trợ nhận diện địa điểm, gợi ý thông tin nhưng HS cần kiểm chứng bằng SGK, thầy cô hoặc nguồn chính thống.",
-          "1. Năng lực đặc thù",
           "- Báo cáo được kết quả thực hiện dự án “Giới thiệu về địa phương em”.",
           "- Giới thiệu được một số hoạt động sản xuất, sản phẩm, di tích lịch sử - văn hoá hoặc cảnh quan thiên nhiên của địa phương.",
           "- Nêu được cảm nhận và niềm tự hào của bản thân về địa phương.",
           "- Thể hiện được tinh thần trách nhiệm, hợp tác khi làm việc nhóm và trình bày trước lớp.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Biết phân công, phối hợp, trình bày sản phẩm nhóm, lắng nghe và góp ý cho bạn.",
-          "- Năng lực tự chủ và tự học: Chủ động chuẩn bị tư liệu, sản phẩm, tập nói phần trình bày."
+          "- Năng lực tự chủ và tự học: Chủ động chuẩn bị tư liệu, sản phẩm, tập nói phần trình bày.",
+          "- Yêu nước: Tự hào về truyền thống, sản phẩm, cảnh quan, di tích của địa phương.",
+          "- Trách nhiệm: Tôn trọng người lao động, giữ gìn di tích, cảnh quan và thực hiện việc làm phù hợp để xây dựng địa phương.",
+          "- Nhân ái: Biết trân trọng công sức của người lao động và chia sẻ điều tốt đẹp về quê hương.",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS tự hào về cộng đồng địa phương, biết tôn trọng người lao động, giữ gìn di tích, cảnh quan và thực hiện việc làm phù hợp để xây dựng địa phương."
         ],
         "dodung": [
           "Chuẩn bị của GV",
@@ -4616,15 +4546,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
-          "TUẦN 14: BÀI 12: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)",
-          "3. Phẩm chất",
-          "- Yêu nước: Tự hào về truyền thống, sản phẩm, cảnh quan, di tích của địa phương.",
-          "- Trách nhiệm: Tôn trọng người lao động, giữ gìn di tích, cảnh quan và thực hiện việc làm phù hợp để xây dựng địa phương.",
-          "- Nhân ái: Biết trân trọng công sức của người lao động và chia sẻ điều tốt đẹp về quê hương.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS tự hào về cộng đồng địa phương, biết tôn trọng người lao động, giữ gìn di tích, cảnh quan và thực hiện việc làm phù hợp để xây dựng địa phương.",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -4916,7 +4837,8 @@
               "- HS ghi nhớ nhiệm vụ: quan sát cây xung quanh nhà/trường và chuẩn bị câu hỏi cho bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -4943,20 +4865,10 @@
           "- Yêu thiên nhiên: Biết yêu quý cây xanh, trân trọng sự đa dạng của thực vật xung quanh.",
           "4. Tích hợp",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: HS biết AI/công cụ như Google Lens có thể hỗ trợ nhận diện cây dựa trên đặc điểm lá, hoa, thân nhưng cần kiểm tra lại với kiến thức đã học.",
-          "1. Năng lực đặc thù",
           "- Chỉ và nói được tên các bộ phận của lá cây: cuống lá, phiến lá, gân lá.",
           "- Nhận xét, so sánh được hình dạng, kích thước, màu sắc của một số lá cây.",
           "- Chỉ và nói được tên một số bộ phận của hoa, quả; nhận xét, so sánh màu sắc, hình dạng của hoa và quả.",
           "- Tìm hiểu được cây ở trường hoặc nơi em sống theo gợi ý; nhận xét sự đa dạng về đặc điểm của cây.",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: Chủ động quan sát tranh, vật thật; chuẩn bị và hoàn thành nhiệm vụ học tập.",
-          "- Giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4, nhóm 6; trình bày, lắng nghe và bổ sung ý kiến cho bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn tiêu chí để so sánh, phân loại cây; vận dụng kiến thức vào quan sát thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực quan sát, ghi chép và thực hiện các nhiệm vụ học tập.",
-          "- Trách nhiệm: Có ý thức giữ gìn, chăm sóc cây; không bẻ cành, hái lá, phá hoại cây xanh.",
-          "- Yêu thiên nhiên: Biết yêu quý cây xanh, trân trọng sự đa dạng của thực vật xung quanh.",
-          "4. Tích hợp",
           "- Tích hợp GDBVMT/NLS 1.1.CB1a: HS biết yêu cây xanh, không bẻ cành hái lá; biết tìm thông tin đơn giản về cây từ nguồn phù hợp, trình bày thông tin rõ ràng và không chia sẻ thông tin chưa kiểm chứng."
         ],
         "dodung": [
@@ -4979,9 +4891,6 @@
         "dieuchinh": [
           "............................................................................................................................",
           "............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
-          "TUẦN 15: BÀI 13: MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 2)",
           "............................................................................................................................",
           "............................................................................................................................"
         ],
@@ -5360,7 +5269,8 @@
               "- HS lắng nghe, ghi nhớ và hoàn thành bảng tìm hiểu cây."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -5379,11 +5289,9 @@
           "2. Năng lực chung",
           "- Tự chủ và tự học: Chuẩn bị đồ dùng, hoàn thành nhiệm vụ cá nhân và nhóm.",
           "- Giao tiếp và hợp tác: Trao đổi ý tưởng, phân công nhiệm vụ, cùng hoàn thiện sản phẩm.",
-          "1. Năng lực đặc thù",
           "- Trình bày được chức năng của rễ, thân và lá ở mức độ đơn giản.",
           "- Thực hiện được thí nghiệm nhỏ để nhận xét vai trò vận chuyển nước của thân cây.",
           "- Giải thích được một số hiện tượng đơn giản liên quan đến sự thoát hơi nước, hô hấp và quang hợp của lá cây.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: Quan sát hình, đọc thông tin, ghi kết quả thí nghiệm vào bảng đơn giản.",
           "- Giao tiếp và hợp tác: Thảo luận nhóm 2, nhóm 4, chia sẻ kết quả quan sát và lắng nghe góp ý.",
           "- Giải quyết vấn đề và sáng tạo: Dự đoán kết quả thí nghiệm, giải thích hiện tượng bằng kiến thức đã học.",
@@ -5393,7 +5301,11 @@
           "- Yêu thiên nhiên: Có tình cảm với cây xanh, không bẻ cành, hái lá, hái hoa tùy tiện.",
           "4. Tích hợp",
           "- Tích hợp NLS 1.3.CB1a, 5.2.CB1a: HS ghi chép kết quả quan sát/thí nghiệm về chức năng bộ phận của cây bằng bảng đơn giản, tự kiểm tra kết quả.",
-          "- Tích hợp GDBVMT: HS nêu việc làm bảo vệ cây xanh và sử dụng thực vật hợp lí trong đời sống."
+          "- Tích hợp GDBVMT: HS nêu việc làm bảo vệ cây xanh và sử dụng thực vật hợp lí trong đời sống.",
+          "- Chăm chỉ: Tích cực thực hành, hoàn thiện sản phẩm đúng thời gian.",
+          "- Trách nhiệm: Biết giữ gìn cây xanh, sử dụng tiết kiệm giấy và vật liệu học tập.",
+          "- Bài học STEM: Các bộ phận của thực vật, HS đề xuất ý tưởng, làm, trưng bày và giới thiệu sản phẩm “Sổ lật về cây”.",
+          "- Tích hợp đạo đức, lối sống/GDBVMT: HS hình thành trách nhiệm chăm sóc cây, giữ gìn mảng xanh ở lớp, ở nhà và ở trường."
         ],
         "dodung": [
           "1. Chuẩn bị của GV",
@@ -5413,18 +5325,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hành, hoàn thiện sản phẩm đúng thời gian.",
-          "- Trách nhiệm: Biết giữ gìn cây xanh, sử dụng tiết kiệm giấy và vật liệu học tập.",
           "- Yêu thiên nhiên: Hình thành tình yêu cây xanh, có ý thức chăm sóc và bảo vệ mảng xanh ở lớp, ở nhà, ở trường.",
-          "4. Tích hợp",
-          "- Bài học STEM: Các bộ phận của thực vật, HS đề xuất ý tưởng, làm, trưng bày và giới thiệu sản phẩm “Sổ lật về cây”.",
-          "- Tích hợp đạo đức, lối sống/GDBVMT: HS hình thành trách nhiệm chăm sóc cây, giữ gìn mảng xanh ở lớp, ở nhà và ở trường.",
           "- ........................................................................................................................",
           "- ........................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
-          "TUẦN 16: BÀI 14: CHỨC NĂNG MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 1)",
           "- ........................................................................................................................",
           "- ........................................................................................................................"
         ],
@@ -5716,7 +5619,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị đồ dùng cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -5743,11 +5647,16 @@
           "4. Tích hợp",
           "- Tích hợp GDBVMT: HS giải thích vì sao cần bảo vệ rễ, thân, lá, hoa, quả; không hái hoa, bẻ cành và chăm sóc cây phù hợp.",
           "- Tích hợp NLS 5.2.CB1a: HS đối chiếu kết quả quan sát với kiến thức đã học để tự sửa phần còn nhầm.",
-          "1. Năng lực đặc thù",
           "- Hệ thống hóa được một số kiến thức đã học trong học kì I về các chủ đề: Gia đình, Trường học, Cộng đồng địa phương và Thực vật.",
           "- Nêu được một số việc làm phù hợp để giữ an toàn, giữ vệ sinh môi trường, bảo vệ cây xanh và ứng xử đúng trong gia đình, nhà trường, cộng đồng.",
           "- Tự đánh giá được điều đã biết, điều còn nhầm và nội dung cần ôn thêm.",
-          "2. Năng lực chung"
+          "- Giao tiếp và hợp tác: Thảo luận nhóm 2, nhóm 4, nhóm 6; trình bày kết quả ôn tập rõ ràng.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để xử lí một số tình huống thực tế.",
+          "- Chăm chỉ: Tích cực tham gia ôn tập, hoàn thành phiếu học tập và nhiệm vụ nhóm.",
+          "- Trách nhiệm: Trung thực khi tự đánh giá, biết sửa lỗi sai và chia sẻ kinh nghiệm học tập với bạn.",
+          "- Yêu nước, nhân ái: Biết yêu gia đình, trường học, quê hương; yêu thiên nhiên và có ý thức bảo vệ môi trường.",
+          "- Tích hợp NLS 5.2.CB1a: HS hệ thống hóa kiến thức học kì I bằng sơ đồ/bảng đơn giản; tự đánh giá điều đã biết và điều cần ôn thêm.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.2: Phân biệt dùng AI/công cụ số để hỗ trợ ôn tập với việc để công cụ làm thay nhiệm vụ học tập."
         ],
         "dodung": [
           "1. Chuẩn bị của GV",
@@ -5767,18 +5676,6 @@
         "dieuchinh": [
           "- ........................................................................................................................",
           "- ........................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
-          "TUẦN 17: ÔN TẬP CUỐI HỌC KÌ I",
-          "- Giao tiếp và hợp tác: Thảo luận nhóm 2, nhóm 4, nhóm 6; trình bày kết quả ôn tập rõ ràng.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để xử lí một số tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia ôn tập, hoàn thành phiếu học tập và nhiệm vụ nhóm.",
-          "- Trách nhiệm: Trung thực khi tự đánh giá, biết sửa lỗi sai và chia sẻ kinh nghiệm học tập với bạn.",
-          "- Yêu nước, nhân ái: Biết yêu gia đình, trường học, quê hương; yêu thiên nhiên và có ý thức bảo vệ môi trường.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 5.2.CB1a: HS hệ thống hóa kiến thức học kì I bằng sơ đồ/bảng đơn giản; tự đánh giá điều đã biết và điều cần ôn thêm.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.2: Phân biệt dùng AI/công cụ số để hỗ trợ ôn tập với việc để công cụ làm thay nhiệm vụ học tập.",
           "- ........................................................................................................................",
           "- ........................................................................................................................"
         ],
@@ -6066,7 +5963,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà, chuẩn bị bài kiểm tra cuối học kì I."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -6090,16 +5988,13 @@
           "- Trung thực khi làm bài kiểm tra.",
           "- Trách nhiệm với nhiệm vụ học tập của bản thân.",
           "- Chăm chỉ, cẩn thận khi đọc đề và trình bày bài.",
-          "1. Năng lực đặc thù",
           "- Vẽ hoặc sử dụng sơ đồ sẵn có để chỉ vị trí và nói hoặc viết được tên một số bộ phận bên ngoài của động vật.",
           "- Kể được tên, nơi sống và một số đặc điểm bên ngoài nổi bật của một số con vật.",
           "- So sánh được lớp bao phủ bên ngoài và cơ quan di chuyển của một số động vật.",
           "- Bước đầu phân loại được động vật dựa vào cơ quan di chuyển hoặc lớp bao phủ bên ngoài.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: HS thảo luận nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, bổ sung ý kiến cho bạn.",
           "- Năng lực tự chủ và tự học: HS quan sát hình, đọc yêu cầu và hoàn thành nhiệm vụ theo hướng dẫn.",
           "- Năng lực giải quyết vấn đề: HS dùng đặc điểm quan sát được để phân loại động vật theo tiêu chí phù hợp.",
-          "3. Phẩm chất",
           "- Yêu thiên nhiên, yêu quý động vật.",
           "- Có trách nhiệm bảo vệ động vật và môi trường sống của chúng.",
           "- Chăm chỉ, tích cực tham gia hoạt động quan sát, thảo luận.",
@@ -6126,9 +6021,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
-          "TUẦN 18: BÀI 15: MỘT SỐ BỘ PHẬN CỦA ĐỘNG VẬT VÀ CHỨC NĂNG CỦA CHÚNG (TIẾT 1)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -6436,7 +6328,8 @@
               "- HS lắng nghe, chuẩn bị tranh ảnh con vật cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -6463,20 +6356,15 @@
           "- Chăm chỉ: Tích cực tham gia hoạt động quan sát, thảo luận và trình bày sản phẩm nhóm.",
           "4. Tích hợp",
           "- Tích hợp QCN/GDBVMT: HS biết trẻ em có quyền được sống trong môi trường an toàn, lành mạnh; có trách nhiệm bảo vệ động vật có ích và môi trường sống của chúng.",
-          "1. Năng lực đặc thù",
-          "- Vẽ hoặc sử dụng sơ đồ sẵn có để chỉ vị trí và nói hoặc viết được tên một số bộ phận của động vật.",
           "- Trình bày được chức năng của một số bộ phận của động vật dựa vào tranh ảnh, sơ đồ hoặc sản phẩm nhóm.",
           "- Tạo được sản phẩm đơn giản giới thiệu một số con vật theo tiêu chí đã học.",
           "- Nêu được việc làm không làm hại động vật, không phá tổ hoặc nơi sống của chúng.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: HS làm việc nhóm, phân công nhiệm vụ, trao đổi và giới thiệu sản phẩm.",
           "- Năng lực tự chủ và tự học: HS chuẩn bị tranh ảnh, lựa chọn thông tin phù hợp và tự kiểm tra sản phẩm.",
           "- Năng lực giải quyết vấn đề: HS biết lựa chọn cách trình bày sơ đồ/bảng để thể hiện bộ phận và chức năng của động vật.",
-          "3. Phẩm chất",
           "- Yêu thiên nhiên, yêu quý động vật.",
           "- Trách nhiệm với việc bảo vệ động vật và nơi sống của chúng.",
           "- Chăm chỉ, tự tin khi giới thiệu sản phẩm học tập.",
-          "4. Tích hợp",
           "- Tích hợp NLS 3.1.CB1a: HS trình bày sơ đồ đơn giản về một số bộ phận của động vật và chức năng của chúng.",
           "- Tích hợp GDBVMT: HS nêu việc làm không làm hại động vật, không phá tổ hoặc nơi sống của chúng."
         ],
@@ -6500,9 +6388,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
-          "TUẦN 19: BÀI 15: MỘT SỐ BỘ PHẬN CỦA ĐỘNG VẬT VÀ CHỨC NĂNG CỦA CHÚNG (TIẾT 3)",
           "- Hình thức tổ chức: ................................................................................................................",
           "- Đồ dùng, học liệu: ................................................................................................................"
         ],
@@ -6775,7 +6660,8 @@
               "- HS lắng nghe, hoàn thành cam kết bảo vệ động vật."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -6803,20 +6689,16 @@
           "4. Tích hợp",
           "- Tích hợp GDBVMT: HS nhận biết cần sử dụng hợp lí thực vật, động vật; không khai thác quá mức, không mua bán hoặc làm hại loài quý hiếm.",
           "- Tích hợp AI (Khung 3439) - 3.C5.1: HS vận dụng quy tắc “nếu... thì...” để giải thích hậu quả của việc khai thác thực vật, động vật không hợp lí; GV giới thiệu công cụ ChatGPT/Gemini ở máy GV để minh họa cách công cụ gợi ý quy tắc bảo tồn, HS phải đối chiếu với SGK và hiểu biết thực tế trước khi kết luận.",
-          "1. Năng lực đặc thù",
           "- Liên hệ thực tế, nhận xét được cách sử dụng thực vật và động vật của gia đình, cộng đồng địa phương.",
           "- Lựa chọn và đề xuất được cách sử dụng thực vật, động vật hợp lí trong các tình huống cụ thể.",
           "- Chia sẻ được ý kiến với gia đình, người xung quanh để cùng sử dụng hợp lí thực vật và động vật.",
           "- Nêu được việc làm không lãng phí thức ăn, đồ dùng có nguồn gốc từ thực vật, động vật.",
-          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: HS chia sẻ kết quả tìm hiểu trong nhóm 4, nhóm 6; biết góp ý cho bạn lịch sự.",
           "- Năng lực tự chủ và tự học: HS tự xác định nhu cầu cá nhân khi đề xuất việc làm phù hợp với gia đình mình.",
           "- Năng lực giải quyết vấn đề: HS xử lí tình huống sử dụng đồ dùng, thực phẩm và sản phẩm từ động vật hoang dã.",
-          "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức sử dụng tiết kiệm, không lãng phí thức ăn, giấy, quần áo, đồ dùng.",
           "- Nhân ái: Không sử dụng sản phẩm làm hại động vật hoang dã, biết bảo vệ môi trường sống của chúng.",
           "- Chăm chỉ: Tích cực hoàn thành phiếu, trình bày đề xuất và cam kết thực hiện việc làm phù hợp.",
-          "4. Tích hợp",
           "- Tích hợp NLS 5.2.CB1a: HS xác định nhu cầu cá nhân khi đề xuất sử dụng hợp lí thực vật, động vật và trình bày đề xuất bằng bảng/tranh đơn giản.",
           "- Tích hợp đạo đức, lối sống: HS hình thành thói quen tiêu dùng tiết kiệm, không lãng phí thức ăn, đồ dùng có nguồn gốc từ thực vật, động vật."
         ],
@@ -6840,9 +6722,6 @@
         "dieuchinh": [
           "- Hình thức tổ chức: ...................................................................................................",
           "- Đồ dùng, học liệu: ...................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
-          "TUẦN 20: BÀI 16: SỬ DỤNG HỢP LÍ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 2)",
           "- Hình thức tổ chức: ...................................................................................................",
           "- Đồ dùng, học liệu: ..................................................................................................."
         ],
@@ -7197,7 +7076,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -7224,20 +7104,16 @@
           "- Yêu thiên nhiên: Biết trân trọng sự đa dạng của thực vật và động vật xung quanh.",
           "4. Tích hợp",
           "- Tích hợp AI (Khung 3439) - 3.D2.1: Nhận thức dữ liệu đúng giúp AI hỗ trợ nhận diện, bảo tồn thiên nhiên hiệu quả. GV giới thiệu công cụ Google Lens/Seek by iNaturalist để minh hoạ việc nhận diện thực vật, động vật từ hình ảnh; HS biết ảnh rõ, đủ đặc điểm và thông tin đúng giúp công cụ gợi ý chính xác hơn, đồng thời phải đối chiếu với SGK, kiến thức đã học và ý kiến của GV.",
-          "1. Năng lực đặc thù",
           "- Nhận xét được việc sử dụng thực vật, động vật trong một số tình huống và giải thích được lí do nhận xét.",
           "- Nêu được cách sử dụng hợp lí thực vật, động vật của bản thân và gia đình.",
           "- Chia sẻ được một số việc đã làm để vận động người xung quanh sử dụng hợp lí thực vật, động vật.",
           "- Thực hiện được cam kết nhỏ để bảo vệ thực vật, động vật và môi trường sống xanh, sạch.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: Tự liên hệ việc làm của bản thân, gia đình khi sử dụng sản phẩm từ thực vật, động vật.",
           "- Giao tiếp và hợp tác: Thảo luận nhóm 2, nhóm 4; biết lắng nghe, phản hồi lịch sự với ý kiến của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Đề xuất cách xử lí phù hợp trong tình huống và hình thức chia sẻ với người xung quanh.",
-          "3. Phẩm chất",
           "- Yêu thiên nhiên: Biết yêu quý cây xanh, động vật và môi trường sống của chúng.",
           "- Trách nhiệm: Có ý thức sử dụng tiết kiệm, không lãng phí các sản phẩm có nguồn gốc từ thực vật, động vật.",
           "- Nhân ái: Biết nhắc nhở, vận động người thân và bạn bè cùng bảo vệ thực vật, động vật bằng lời nói phù hợp.",
-          "4. Tích hợp",
           "- Tích hợp GDBVMT/đạo đức, lối sống: HS trình bày việc làm bảo vệ thực vật, động vật; biết yêu thiên nhiên và thực hiện cam kết nhỏ để giữ môi trường sống xanh, sạch."
         ],
         "dodung": [
@@ -7260,9 +7136,6 @@
         "dieuchinh": [
           "- ................................................................................................................................................",
           "- ................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
-          "TUẦN 21: BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 2)",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -7503,7 +7376,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà và kết thúc tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -7529,21 +7403,18 @@
           "- Nhân ái: biết nhắc bạn ăn uống vệ sinh, rửa tay trước khi ăn bằng lời nói nhẹ nhàng.",
           "4. Tích hợp:",
           "- Tích hợp KNS/QCN: HS nhận biết đường đi của thức ăn, biết ăn uống vệ sinh, nhai kĩ, rửa tay trước khi ăn; hiểu trẻ em có quyền được chăm sóc sức khỏe và tiếp cận thực phẩm an toàn.",
-          "1. Năng lực đặc thù:",
           "- Hoàn thiện được mô hình cơ quan tiêu hóa bằng vật liệu dễ tìm theo ý tưởng của nhóm.",
           "- Chỉ và nói được tên các bộ phận chính của cơ quan tiêu hóa trên mô hình: miệng, thực quản, dạ dày, ruột non, ruột già, hậu môn.",
           "- Thử nghiệm, mô tả được đường đi của thức ăn qua các bộ phận của cơ quan tiêu hóa dựa trên mô hình.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: đọc yêu cầu, lựa chọn vật liệu, hoàn thành nhiệm vụ theo kế hoạch của nhóm.",
           "- Giao tiếp và hợp tác: làm việc nhóm 4/6, phân công nhiệm vụ, lắng nghe và góp ý cho sản phẩm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng đo độ dài, cắt, dán, nặn, sắp xếp để tạo mô hình cơ quan tiêu hóa chắc chắn, đúng vị trí.",
-          "3. Phẩm chất:",
           "- Trách nhiệm: biết ăn chín, uống sôi, giữ vệ sinh để bảo vệ cơ quan tiêu hóa.",
           "- Chăm chỉ: tích cực thực hành, hoàn thiện sản phẩm và trình bày trước lớp.",
           "- Trung thực: đánh giá đúng sản phẩm của nhóm mình và nhóm bạn.",
-          "4. Tích hợp:",
           "- Bài học STEM: Cơ quan tiêu hóa (tiết 2). HS hoàn thiện mô hình cơ quan tiêu hóa và nêu chức năng đơn giản của từng bộ phận.",
-          "- Tích hợp KNS: HS liên hệ việc ăn chín, uống sôi, rửa tay trước khi ăn, giữ vệ sinh dụng cụ và thực phẩm để bảo vệ cơ quan tiêu hóa."
+          "- Tích hợp KNS: HS liên hệ việc ăn chín, uống sôi, rửa tay trước khi ăn, giữ vệ sinh dụng cụ và thực phẩm để bảo vệ cơ quan tiêu hóa.",
+          "TUẦN 22: BÀI 18: CƠ QUAN TIÊU HÓA (TIẾT 2 - BÀI HỌC STEM)"
         ],
         "dodung": [
           "1. Chuẩn bị của GV",
@@ -7565,9 +7436,6 @@
         "dieuchinh": [
           "- ........................................................................................................................................",
           "- ........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
-          "TUẦN 22: BÀI 18: CƠ QUAN TIÊU HÓA (TIẾT 2 - BÀI HỌC STEM)",
           "- ........................................................................................................................................",
           "- ........................................................................................................................................"
         ],
@@ -7859,7 +7727,8 @@
               "- HS lắng nghe và tự đánh giá tinh thần làm việc của nhóm."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -7876,11 +7745,19 @@
           "- Kể được tên một số thức ăn, đồ uống và hoạt động có lợi hoặc không có lợi cho cơ quan tiêu hoá.",
           "- Thu thập được thông tin đơn giản về một số chất hoặc hoạt động có hại đối với cơ quan tiêu hoá và cách phòng tránh.",
           "2. Năng lực chung",
-          "1. Năng lực đặc thù",
           "- Trình bày được thói quen ăn uống, sinh hoạt phù hợp để chăm sóc và bảo vệ cơ quan tiêu hoá.",
           "- Xử lí được một số tình huống liên quan đến ăn uống chưa an toàn, vệ sinh thực phẩm và dấu hiệu bất thường của cơ quan tiêu hoá.",
           "- Chia sẻ được việc làm cụ thể của bản thân để ăn uống hợp vệ sinh, ăn chín, uống sôi, rửa tay sạch trước khi ăn và sau khi đi vệ sinh.",
-          "2. Năng lực chung"
+          "- Năng lực giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, trình bày ý kiến, lắng nghe và phản hồi lịch sự.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: nhận xét tình huống, lựa chọn cách ứng xử phù hợp để bảo vệ sức khỏe.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực quan sát, thảo luận, hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết giữ gìn vệ sinh cá nhân, ăn uống an toàn để bảo vệ sức khỏe bản thân và cộng đồng.",
+          "- Nhân ái: biết nhắc nhở bạn bè, người thân thực hiện thói quen ăn uống hợp vệ sinh bằng lời nói nhẹ nhàng.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.1.CB1a, 4.1.CB1a: HS tìm kiếm thông tin/hình ảnh an toàn về chất hoặc hoạt động có hại cho cơ quan tiêu hóa; biết dùng thiết bị số an toàn.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI có thể gợi ý thực đơn, cảnh báo thực phẩm không phù hợp nhưng cần người lớn kiểm chứng.",
+          "- Tích hợp QCN/KNS: HS hiểu quyền được chăm sóc sức khỏe; biết ăn chín, uống sôi, giữ vệ sinh thực phẩm và báo người lớn khi đau bụng hoặc có dấu hiệu bất thường."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -7899,28 +7776,7 @@
           "- Chuẩn bị chia sẻ về bữa ăn hằng ngày và thói quen chăm sóc cơ quan tiêu hoá của bản thân."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Năng lực giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, trình bày ý kiến, lắng nghe và phản hồi lịch sự.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: nhận xét tình huống, lựa chọn cách ứng xử phù hợp để bảo vệ sức khỏe.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực quan sát, thảo luận, hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết giữ gìn vệ sinh cá nhân, ăn uống an toàn để bảo vệ sức khỏe bản thân và cộng đồng.",
-          "- Nhân ái: biết nhắc nhở bạn bè, người thân thực hiện thói quen ăn uống hợp vệ sinh bằng lời nói nhẹ nhàng.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 1.1.CB1a, 4.1.CB1a: HS tìm kiếm thông tin/hình ảnh an toàn về chất hoặc hoạt động có hại cho cơ quan tiêu hóa; biết dùng thiết bị số an toàn.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI có thể gợi ý thực đơn, cảnh báo thực phẩm không phù hợp nhưng cần người lớn kiểm chứng.",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
-          "TUẦN 23: BÀI 19: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TIÊU HOÁ (TIẾT 2)",
-          "- Năng lực giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, trình bày ý kiến, lắng nghe và phản hồi lịch sự.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: nhận xét tình huống, lựa chọn cách ứng xử phù hợp để bảo vệ sức khỏe.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực quan sát, thảo luận, hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết giữ gìn vệ sinh cá nhân, ăn uống an toàn để bảo vệ sức khỏe bản thân và cộng đồng.",
-          "- Nhân ái: biết nhắc nhở bạn bè, người thân thực hiện thói quen ăn uống hợp vệ sinh bằng lời nói nhẹ nhàng.",
-          "4. Tích hợp",
-          "- Tích hợp QCN/KNS: HS hiểu quyền được chăm sóc sức khỏe; biết ăn chín, uống sôi, giữ vệ sinh thực phẩm và báo người lớn khi đau bụng hoặc có dấu hiệu bất thường."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -8193,7 +8049,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà và chuẩn bị bài Cơ quan tuần hoàn."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -8220,11 +8077,16 @@
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB1a, 5.1.CB1a: HS quan sát/tìm hiểu dữ liệu sức khỏe đơn giản như nhịp tim, mạch đập dưới sự hướng dẫn của GV.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết thiết bị thông minh có thể hỗ trợ đo nhịp tim, theo dõi vận động và cảnh báo bất thường nhưng phải được người lớn hướng dẫn, kiểm chứng và không tự kết luận bệnh.",
-          "1. Năng lực đặc thù",
           "- Củng cố tên, vị trí và chức năng chính của tim, các mạch máu trong cơ quan tuần hoàn.",
           "- Biết cách tìm mạch ở cổ tay hoặc cổ; thực hành đếm nhịp mạch/nhịp tim trong 1 phút ở mức độ đơn giản.",
           "- So sánh được nhịp tim khi ngồi yên và sau vận động; nêu được một số việc cần làm để bảo vệ cơ quan tuần hoàn.",
-          "2. Năng lực chung"
+          "- Giao tiếp và hợp tác: làm việc nhóm 2, nhóm 4, chia sẻ số liệu với bạn đúng mực.",
+          "- Giải quyết vấn đề: giải thích vì sao sau vận động nhịp tim thường tăng và cần nghỉ ngơi phù hợp.",
+          "- Chăm chỉ, cẩn thận khi thực hành tìm mạch và ghi kết quả.",
+          "- Trách nhiệm bảo vệ sức khỏe bản thân; không chạy nhảy quá sức khi mệt hoặc sau khi ăn.",
+          "- Trung thực khi ghi kết quả thực hành của bản thân.",
+          "- Tích hợp KNS: HS biết vận động vừa sức, nghỉ ngơi hợp lí, không chạy nhảy quá sức sau ăn hoặc khi mệt để bảo vệ cơ quan tuần hoàn.",
+          "- Tích hợp NLS 5.2.CB1a: HS tự kiểm tra kết quả học tập bằng trò chơi/bảng câu hỏi đơn giản và xác định nội dung cần luyện thêm."
         ],
         "dodung": [
           "1. Chuẩn bị của GV",
@@ -8248,18 +8110,6 @@
         "dieuchinh": [
           "- ................................................................................................................................................",
           "- ................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
-          "TUẦN 24: BÀI 20: CƠ QUAN TUẦN HOÀN (TIẾT 2)",
-          "- Giao tiếp và hợp tác: làm việc nhóm 2, nhóm 4, chia sẻ số liệu với bạn đúng mực.",
-          "- Giải quyết vấn đề: giải thích vì sao sau vận động nhịp tim thường tăng và cần nghỉ ngơi phù hợp.",
-          "3. Phẩm chất",
-          "- Chăm chỉ, cẩn thận khi thực hành tìm mạch và ghi kết quả.",
-          "- Trách nhiệm bảo vệ sức khỏe bản thân; không chạy nhảy quá sức khi mệt hoặc sau khi ăn.",
-          "- Trung thực khi ghi kết quả thực hành của bản thân.",
-          "4. Tích hợp",
-          "- Tích hợp KNS: HS biết vận động vừa sức, nghỉ ngơi hợp lí, không chạy nhảy quá sức sau ăn hoặc khi mệt để bảo vệ cơ quan tuần hoàn.",
-          "- Tích hợp NLS 5.2.CB1a: HS tự kiểm tra kết quả học tập bằng trò chơi/bảng câu hỏi đơn giản và xác định nội dung cần luyện thêm.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -8535,7 +8385,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -8562,19 +8413,15 @@
           "4. Tích hợp",
           "- Tích hợp NLS 5.1.CB1a: HS lập bảng theo dõi thói quen tốt cho tim mạch như vận động, uống nước, ngủ đủ; đánh dấu trung thực việc đã làm.",
           "- Tích hợp đạo đức, lối sống: HS có trách nhiệm chăm sóc sức khỏe bản thân, không chủ quan với dấu hiệu mệt, đau ngực, khó thở.",
-          "1. Năng lực đặc thù",
           "- Củng cố việc phân loại thói quen, thức ăn, đồ uống, hoạt động có lợi hoặc có hại cho cơ quan tuần hoàn.",
           "- Nêu được lí do vì sao cần làm hoặc cần tránh một số việc để bảo vệ cơ quan tuần hoàn.",
           "- Chia sẻ được với người thân những việc cần làm để chăm sóc và bảo vệ cơ quan tuần hoàn.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: tiếp tục theo dõi thói quen tốt cho tim mạch bằng bảng cá nhân.",
           "- Giao tiếp và hợp tác: thảo luận nhóm, trình bày lí do, nhận xét ý kiến của bạn lịch sự.",
           "- Giải quyết vấn đề: xử lí tình huống vận động quá sức, ăn quá nhiều muối hoặc đồ chiên rán.",
-          "3. Phẩm chất",
           "- Trung thực khi tự theo dõi thói quen của bản thân.",
           "- Trách nhiệm biết báo người lớn khi cơ thể có dấu hiệu bất thường.",
           "- Nhân ái, biết nhắc người thân và bạn bè giữ thói quen tốt cho sức khỏe.",
-          "4. Tích hợp",
           "- Tích hợp KNS/QCN: HS biết lựa chọn hoạt động tốt cho tim mạch, nghỉ ngơi hợp lí; hiểu quyền được chăm sóc sức khỏe và biết báo người lớn khi có dấu hiệu bất thường.",
           "- Tích hợp NLS 5.1.CB1a: HS tiếp tục theo dõi thói quen tốt cho tim mạch bằng bảng cá nhân."
         ],
@@ -8598,9 +8445,6 @@
         "dieuchinh": [
           "- ................................................................................................................................................",
           "- ................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
-          "TUẦN 25: BÀI 21: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TUẦN HOÀN (TIẾT 2)",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -8876,7 +8720,8 @@
               "- HS lắng nghe, nhắc lại và hoàn thành bài học."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -8903,19 +8748,14 @@
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB1a, 4.1.CB1a: HS chọn lọc thông tin phù hợp lứa tuổi về cơ quan thần kinh; biết sử dụng thiết bị số an toàn, có thời lượng phù hợp.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: So sánh cách não người tiếp nhận thông tin với cách AI học từ dữ liệu ở mức đơn giản.",
-          "1. Năng lực đặc thù",
           "- Nhận biết được một số phản ứng của cơ thể khi gặp kích thích bất ngờ và vai trò của tủy sống, não trong các phản ứng đó.",
           "- Trình bày được cơ quan thần kinh tiếp nhận, trả lời kích thích từ bên trong và bên ngoài cơ thể; điều khiển, phối hợp các cơ quan để thực hiện hoạt động.",
           "- Biết vận dụng kiến thức để phòng tránh nguy cơ gây mất an toàn cho đầu, não và hệ thần kinh.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: chủ động quan sát tình huống, suy nghĩ và trả lời câu hỏi.",
           "- Giao tiếp và hợp tác: tham gia nhóm 2, nhóm 4; đóng vai và chơi trò chơi học tập đúng luật.",
           "- Giải quyết vấn đề và sáng tạo: đề xuất cách tự bảo vệ bản thân khi gặp nguy cơ mất an toàn.",
-          "3. Phẩm chất",
           "- Trách nhiệm: biết đội mũ bảo hiểm, không chơi trò nguy hiểm, báo người lớn khi gặp tình huống khẩn cấp.",
           "- Chăm chỉ: tích cực tham gia thảo luận, luyện tập và vận dụng kiến thức.",
-          "- Nhân ái: biết nhắc bạn giữ an toàn cho đầu, não và cơ thể.",
-          "4. Tích hợp",
           "- Tích hợp KNS: HS biết phòng tránh nguy cơ mất an toàn cho đầu, não và hệ thần kinh; đội mũ bảo hiểm, không chơi trò nguy hiểm, báo người lớn khi gặp tình huống khẩn cấp.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết công nghệ cảnh báo nguy hiểm chỉ hỗ trợ, không thay thế việc tự bảo vệ bản thân."
         ],
@@ -8936,11 +8776,7 @@
           "- Chuẩn bị 1 việc làm cụ thể để bảo vệ đầu, não và cơ quan thần kinh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
-          "TUẦN 26: BÀI 22: CƠ QUAN THẦN KINH (TIẾT 2)"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9220,7 +9056,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -9245,18 +9082,15 @@
           "- Chăm chỉ, trách nhiệm: Có ý thức ngủ đủ, nghỉ ngơi, vui chơi lành mạnh để giữ tinh thần thoải mái.",
           "4. Tích hợp",
           "- Tích hợp QCN/KNS: HS hiểu trẻ em có quyền được nghỉ ngơi, vui chơi lành mạnh; biết ngủ đủ, tránh nội dung độc hại, không dùng thiết bị số trước giờ ngủ quá lâu.",
-          "1. Năng lực đặc thù",
           "- Kể được tên một số thức ăn, đồ uống và hoạt động có lợi, không có lợi đối với cơ quan thần kinh.",
           "- Lập được thời gian biểu các hoạt động hằng ngày để giữ gìn, bảo vệ cơ quan thần kinh.",
           "- Chia sẻ được việc làm ở nhà, ở trường để chăm sóc và bảo vệ cơ quan thần kinh.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: Biết tự theo dõi thời gian học tập, nghỉ ngơi, vui chơi, sử dụng thiết bị số trong ngày.",
           "- Giao tiếp và hợp tác: Thảo luận nhóm 2, nhóm 4 để chia sẻ thời gian biểu và cách xử lí tình huống.",
           "- Giải quyết vấn đề và sáng tạo: Biết đưa lời khuyên phù hợp trong tình huống bạn thức khuya, chơi trò chơi điện tử quá lâu.",
-          "3. Phẩm chất",
           "- Chăm chỉ: Tự giác thực hiện thời gian biểu học tập, nghỉ ngơi và ngủ đúng giờ.",
           "- Trách nhiệm: Biết kiểm soát cảm xúc, sử dụng thiết bị số hợp lí, giữ tinh thần thoải mái.",
-          "4. Tích hợp"
+          "- Tích hợp đạo đức, lối sống: HS rèn tính tự giác, biết kiểm soát cảm xúc và giữ tinh thần thoải mái."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -9271,12 +9105,7 @@
           "- SGK Tự nhiên và Xã hội 3; bút màu; giấy A4 để lập thời gian biểu cá nhân."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
-          "TUẦN 27: BÀI 23: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN THẦN KINH (TIẾT 2)",
-          "- Tích hợp đạo đức, lối sống: HS rèn tính tự giác, biết kiểm soát cảm xúc và giữ tinh thần thoải mái."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9506,7 +9335,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện trong sinh hoạt hằng ngày."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -9532,16 +9362,15 @@
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS xác định thông tin cần tìm về các chất/hoạt động có hại cho sức khỏe; biết chọn nguồn phù hợp, đáng tin cậy.",
           "- Tích hợp AI (Khung 3439) - 3.A3.1: Biết kết quả tìm kiếm/AI về sức khỏe cần được kiểm chứng bởi thầy cô, cha mẹ hoặc nhân viên y tế.",
-          "1. Năng lực đặc thù",
           "- Hệ thống được các kiến thức đã học của chủ đề Con người và sức khoẻ.",
           "- Xây dựng và thực hiện được thời gian biểu phù hợp để hình thành thói quen học tập, vui chơi, ăn uống, nghỉ ngơi điều độ và ngủ đủ giấc.",
           "- Nêu được một số việc cần làm để chăm sóc, bảo vệ cơ quan tiêu hoá, tuần hoàn, thần kinh.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: biết tự ôn tập, tự xác định nội dung còn nhầm để rèn thêm.",
           "- Giao tiếp và hợp tác: làm việc nhóm, trao đổi, thuyết trình kết quả sơ đồ/bảng ôn tập.",
           "- Giải quyết vấn đề: vận dụng kiến thức để giải thích một số thói quen có lợi và không có lợi cho sức khỏe.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: có ý thức chăm sóc, bảo vệ sức khỏe bản thân hằng ngày."
+          "- Trách nhiệm: có ý thức chăm sóc, bảo vệ sức khỏe bản thân hằng ngày.",
+          "- Tích hợp NLS 3.2.CB1a, 5.2.CB1a: HS hệ thống hóa kiến thức chủ đề Con người và sức khỏe bằng sơ đồ/bảng; tự xác định nội dung còn nhầm để ôn tập.",
+          "- Tích hợp KNS: HS cam kết một việc làm cụ thể để bảo vệ sức khỏe bản thân hằng ngày."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -9560,14 +9389,7 @@
           "- Ôn lại kiến thức về cơ quan tiêu hoá, tuần hoàn, thần kinh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
-          "TUẦN 28: BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (1 TIẾT)",
-          "4. Tích hợp",
-          "- Tích hợp NLS 3.2.CB1a, 5.2.CB1a: HS hệ thống hóa kiến thức chủ đề Con người và sức khỏe bằng sơ đồ/bảng; tự xác định nội dung còn nhầm để ôn tập.",
-          "- Tích hợp KNS: HS cam kết một việc làm cụ thể để bảo vệ sức khỏe bản thân hằng ngày."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9800,7 +9622,8 @@
               "- HS lắng nghe, thực hiện cam kết ở nhà và chia sẻ với người thân."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -9826,18 +9649,14 @@
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB1a, 5.2.CB1a: HS quan sát bản đồ/la bàn số đơn giản để xác định phương hướng; biết kiểm tra và trình bày kết quả.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết công nghệ định vị/AI có thể hỗ trợ xác định phương hướng nhưng cần quan sát thực tế.",
-          "1. Năng lực đặc thù",
           "- Nhận biết được la bàn là dụng cụ dùng để xác định phương hướng trong không gian.",
           "- Nêu và thực hành được các bước đơn giản để xác định phương bắc, nam, đông, tây bằng la bàn.",
           "- Vận dụng xác định được phương của cửa lớp, cổng trường hoặc một vị trí quen thuộc dựa vào Mặt Trời hoặc la bàn.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: đọc thông tin, quan sát hình và thực hành theo đúng các bước.",
           "- Giao tiếp và hợp tác: phối hợp nhóm 4 để sử dụng la bàn, báo cáo kết quả và nhận xét lẫn nhau.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức phương hướng để xác định hướng của vật, địa điểm trong không gian quen thuộc.",
-          "3. Phẩm chất",
           "- Chăm chỉ: tích cực luyện tập sử dụng la bàn và hoàn thành nhiệm vụ nhóm.",
           "- Trách nhiệm: biết sử dụng dụng cụ học tập an toàn, cẩn thận và di chuyển đúng hướng khi có người lớn hướng dẫn.",
-          "4. Tích hợp",
           "- Tích hợp KNS/ATGT: HS vận dụng xác định phương hướng để di chuyển an toàn trong không gian quen thuộc; không đi theo hướng lạ khi chưa có người lớn hướng dẫn."
         ],
         "dodung": [
@@ -9857,11 +9676,7 @@
           "- La bàn nếu có; chuẩn bị tinh thần thực hành nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
-          "TUẦN 29: BÀI 26: XÁC ĐỊNH CÁC PHƯƠNG TRONG KHÔNG GIAN (TIẾT 2)"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10133,7 +9948,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -10159,18 +9975,14 @@
           "4. Tích hợp",
           "- Tích hợp GDBVMT/ứng phó biến đổi khí hậu: HS biết tiết kiệm điện, nước, trồng và chăm sóc cây xanh, giữ vệ sinh môi trường để góp phần bảo vệ khí hậu.",
           "- Tích hợp NLS 1.2.CB1a: HS biết so sánh thông tin thời tiết quan sát thực tế với thông tin từ thiết bị số và chọn nguồn đáng tin cậy.",
-          "1. Năng lực đặc thù",
           "- Nêu được một số hoạt động của con người ở các đới khí hậu khác nhau.",
           "- Nhận biết được sự khác nhau về cảnh quan, trang phục, hoạt động sản xuất ở các đới khí hậu.",
           "- Lựa chọn được việc làm phù hợp để góp phần bảo vệ khí hậu và môi trường sống.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: đọc thông tin, quan sát tranh và hoàn thành nhiệm vụ học tập.",
           "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, trình bày ý kiến trước lớp.",
           "- Giải quyết vấn đề và sáng tạo: đề xuất việc làm bảo vệ khí hậu phù hợp với lứa tuổi.",
-          "3. Phẩm chất",
           "- Nhân ái: biết quan tâm đến con người sống ở các vùng khí hậu khác nhau.",
           "- Trách nhiệm: có ý thức tiết kiệm tài nguyên, bảo vệ Trái Đất.",
-          "4. Tích hợp",
           "- Tích hợp GDBVMT/đạo đức, lối sống: HS lựa chọn việc làm hằng ngày để giảm lãng phí tài nguyên, bảo vệ khí hậu và môi trường sống.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI/công nghệ hỗ trợ dự báo thời tiết, cảnh báo thiên tai nhưng con người vẫn cần hành động bảo vệ môi trường."
         ],
@@ -10191,11 +10003,7 @@
           "- Sưu tầm tranh ảnh về hoạt động của con người ở nơi có thời tiết nóng, lạnh hoặc ôn hoà."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
-          "TUẦN 30: BÀI 27: TRÁI ĐẤT VÀ CÁC ĐỚI KHÍ HẬU (TIẾT 2)"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10424,7 +10232,8 @@
               "- HS trả lời: Em sẽ tiết kiệm điện nước, trồng cây, giữ vệ sinh môi trường."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -10449,20 +10258,17 @@
           "- Trách nhiệm: có ý thức bảo vệ bề mặt đất, nguồn nước, sông suối, ao hồ và biển.",
           "4. Tích hợp",
           "- Tích hợp GDBVMT: HS nhận biết các dạng địa hình, biết bảo vệ bề mặt đất, nguồn nước, không xả rác, không làm ô nhiễm sông suối, ao hồ.",
-          "1. Năng lực đặc thù",
           "- Nêu được một số dạng địa hình của Trái Đất qua hình ảnh: núi, đồi, cao nguyên, đồng bằng, sông, hồ, biển.",
           "- Mô tả và so sánh được điểm giống, điểm khác cơ bản giữa núi với đồi, cao nguyên với đồng bằng.",
           "- Phối hợp gấp, cắt, ghép, tạo hình mô hình các dạng địa hình theo nhiệm vụ STEM.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: đọc yêu cầu, quan sát hình, chuẩn bị và sử dụng vật liệu học tập phù hợp.",
           "- Giao tiếp và hợp tác: làm việc nhóm 4, phân công nhiệm vụ, trao đổi để hoàn thành sản phẩm.",
           "- Giải quyết vấn đề và sáng tạo: lựa chọn vật liệu, màu sắc, cách bố trí để mô hình thể hiện được đặc điểm địa hình.",
-          "3. Phẩm chất",
           "- Chăm chỉ: tích cực quan sát, thực hành, hoàn thành bảng so sánh và sản phẩm nhóm.",
           "- Trách nhiệm: biết giữ gìn cảnh quan địa phương, bảo vệ đất, nước và sử dụng vật liệu tiết kiệm.",
-          "4. Tích hợp",
           "- Bài học STEM: Bề mặt Trái Đất (tiết 2). HS phối hợp gấp, cắt, ghép, tạo hình mô hình các dạng địa hình.",
-          "- Tích hợp GDBVMT: HS liên hệ việc giữ gìn cảnh quan địa phương khi quan sát hoặc tạo mô hình địa hình."
+          "- Tích hợp GDBVMT: HS liên hệ việc giữ gìn cảnh quan địa phương khi quan sát hoặc tạo mô hình địa hình.",
+          "TUẦN 31: BÀI 28: BỀ MẶT TRÁI ĐẤT (TIẾT 2 - BÀI HỌC STEM)"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -10481,11 +10287,7 @@
           "- Giấy màu, bìa cứng, kéo, hồ dán theo phân công của nhóm; sử dụng dụng cụ an toàn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
-          "TUẦN 31: BÀI 28: BỀ MẶT TRÁI ĐẤT (TIẾT 2 - BÀI HỌC STEM)"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10693,7 +10495,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -10710,11 +10513,9 @@
           "- Nêu được đặc điểm chính của một số dạng địa hình: núi, đồi, cao nguyên, đồng bằng, sông, hồ, biển.",
           "- Biết liên hệ mô hình địa hình với cảnh quan nơi em sống và việc giữ gìn bề mặt Trái Đất.",
           "2. Năng lực chung",
-          "1. Năng lực đặc thù",
           "- Chỉ được vị trí của Mặt Trời, Trái Đất trên sơ đồ hệ Mặt Trời và nêu được Trái Đất là hành tinh thứ ba tính từ Mặt Trời.",
           "- Nói được chiều chuyển động của Trái Đất quanh mình nó, quanh Mặt Trời và Mặt Trăng quanh Trái Đất qua sơ đồ.",
           "- Bước đầu nêu được một số lưu ý an toàn khi quan sát Mặt Trời, Mặt Trăng và bầu trời.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: quan sát hình, đọc thông tin, hoàn thành câu hỏi cá nhân và nhóm đôi.",
           "- Giao tiếp và hợp tác: trao đổi với bạn, trình bày kết quả rõ ràng, lắng nghe ý kiến của nhóm.",
           "- Giải quyết vấn đề và sáng tạo: dựa vào sơ đồ, mũi tên chuyển động để giải thích đơn giản về vị trí và chuyển động.",
@@ -10723,7 +10524,12 @@
           "- Trách nhiệm: biết tự bảo vệ mắt, chọn thông tin phù hợp và hỏi người lớn khi xem hiện tượng thiên văn.",
           "4. Tích hợp",
           "- Tích hợp KNS: HS biết an toàn khi quan sát bầu trời, không nhìn trực tiếp vào Mặt Trời và hỏi người lớn khi xem hiện tượng thiên văn.",
-          "- Tích hợp NLS 1.2.CB1a: HS chọn thông tin, tranh ảnh về Mặt Trời, Trái Đất, Mặt Trăng từ nguồn phù hợp lứa tuổi."
+          "- Tích hợp NLS 1.2.CB1a: HS chọn thông tin, tranh ảnh về Mặt Trời, Trái Đất, Mặt Trăng từ nguồn phù hợp lứa tuổi.",
+          "- Giao tiếp và hợp tác: phân công nhiệm vụ, trưng bày sản phẩm, trình bày và nhận xét sản phẩm của nhóm bạn.",
+          "- Giải quyết vấn đề và sáng tạo: lựa chọn cách bổ sung nhãn, màu sắc, hình khối để sản phẩm thể hiện rõ dạng địa hình.",
+          "- Chăm chỉ: tích cực hoàn thiện sản phẩm và tham gia nhận xét, đánh giá.",
+          "- Trách nhiệm: biết sử dụng vật liệu tiết kiệm, giữ vệ sinh lớp học và có ý thức bảo vệ cảnh quan thiên nhiên.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI có thể phân tích ảnh vệ tinh để theo dõi thay đổi bề mặt Trái Đất nhưng cần con người giải thích."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -10742,18 +10548,7 @@
           "- Một tranh ảnh hoặc hiểu biết đã có về Mặt Trời, Trái Đất, Mặt Trăng để chia sẻ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: phân công nhiệm vụ, trưng bày sản phẩm, trình bày và nhận xét sản phẩm của nhóm bạn.",
-          "- Giải quyết vấn đề và sáng tạo: lựa chọn cách bổ sung nhãn, màu sắc, hình khối để sản phẩm thể hiện rõ dạng địa hình.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực hoàn thiện sản phẩm và tham gia nhận xét, đánh giá.",
-          "- Trách nhiệm: biết sử dụng vật liệu tiết kiệm, giữ vệ sinh lớp học và có ý thức bảo vệ cảnh quan thiên nhiên.",
-          "4. Tích hợp",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI có thể phân tích ảnh vệ tinh để theo dõi thay đổi bề mặt Trái Đất nhưng cần con người giải thích.",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
-          "TUẦN 32: BÀI 29: MẶT TRỜI, TRÁI ĐẤT, MẶT TRĂNG (TIẾT 1)"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10972,7 +10767,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -10993,20 +10789,20 @@
           "- Giao tiếp và hợp tác: trao đổi nhóm, phân công nhiệm vụ, trình bày và nhận xét sản phẩm rõ ràng.",
           "- Giải quyết vấn đề và sáng tạo: lựa chọn vật liệu, cách gắn que, cách xoay mô hình để thể hiện đúng chuyển động.",
           "3. Phẩm chất",
-          "1. Năng lực đặc thù",
           "- Hệ thống hóa được kiến thức đã học về các phương chính, một số dạng địa hình, các đới khí hậu và chuyển động của Trái Đất.",
           "- Hoàn thành được sơ đồ ôn tập chủ đề Trái Đất và bầu trời theo gợi ý trong SGK.",
           "- Tham gia được trò chơi xác định phương đông, tây, nam, bắc và nêu được cách xác định phương dựa vào Mặt Trời mọc.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: nhớ lại kiến thức, sắp xếp thông tin, hoàn thành sơ đồ ôn tập.",
           "- Giao tiếp và hợp tác: thảo luận nhóm, phân loại tranh ảnh, tham gia trò chơi đúng luật.",
           "- Giải quyết vấn đề và sáng tạo: đề xuất cách nhóm tranh ảnh, thông tin theo chủ đề để ôn tập hiệu quả.",
-          "3. Phẩm chất",
           "- Chăm chỉ: tích cực ôn tập, hoàn thành nhiệm vụ nhóm.",
           "- Trách nhiệm: sử dụng tranh ảnh, thông tin đúng mục đích, biết lắng nghe và tôn trọng bạn khi chơi trò chơi.",
           "4. Tích hợp",
           "- Tích hợp NLS 1.3.CB1a, 3.2.CB1a: HS sắp xếp, lưu trữ tranh ảnh hoặc thông tin đã sưu tầm về Trái Đất và bầu trời theo nhóm nội dung đơn giản.",
-          "- Tích hợp AI (Khung 3439) - 3.D1.1: Đề xuất ý tưởng hệ thống AI phân loại tranh ảnh về Trái Đất, Mặt Trời, Mặt Trăng theo chủ đề."
+          "- Tích hợp AI (Khung 3439) - 3.D1.1: Đề xuất ý tưởng hệ thống AI phân loại tranh ảnh về Trái Đất, Mặt Trời, Mặt Trăng theo chủ đề.",
+          "- Trách nhiệm: sử dụng vật liệu an toàn, giữ vệ sinh lớp học và hợp tác với bạn khi làm mô hình.",
+          "- Bài học STEM: Mô hình Mặt Trời - Trái Đất - Mặt Trăng (tiết 2). HS đề xuất ý tưởng, làm, trưng bày và sử dụng mô hình để thuyết minh chuyển động của Trái Đất, Mặt Trăng.",
+          "- Tích hợp KNS: HS làm việc nhóm an toàn, sử dụng vật liệu mô hình đúng cách và trình bày kết quả rõ ràng."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -11025,15 +10821,7 @@
           "- Tranh ảnh hoặc thông tin đã sưu tầm về Trái Đất và bầu trời theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Trách nhiệm: sử dụng vật liệu an toàn, giữ vệ sinh lớp học và hợp tác với bạn khi làm mô hình.",
-          "4. Tích hợp",
-          "- Bài học STEM: Mô hình Mặt Trời - Trái Đất - Mặt Trăng (tiết 2). HS đề xuất ý tưởng, làm, trưng bày và sử dụng mô hình để thuyết minh chuyển động của Trái Đất, Mặt Trăng.",
-          "- Tích hợp KNS: HS làm việc nhóm an toàn, sử dụng vật liệu mô hình đúng cách và trình bày kết quả rõ ràng.",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
-          "TUẦN 33: BÀI 30: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 1)"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -11260,7 +11048,8 @@
               "- HS lắng nghe, ghi nhớ và hoàn thiện phiếu học tập nếu còn thiếu."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -11286,15 +11075,12 @@
           "4. Tích hợp",
           "- Tích hợp GDBVMT: HS củng cố ý thức bảo vệ Trái Đất, giữ môi trường sống sạch đẹp, tiết kiệm tài nguyên trong sinh hoạt hằng ngày.",
           "- Tích hợp AI (Khung 3439) - 3.D1.1: Nhận biết công nghệ/AI có thể hỗ trợ theo dõi môi trường nhưng hành động bảo vệ Trái Đất bắt đầu từ con người.",
-          "1. Năng lực đặc thù",
           "- Hệ thống hóa được các kiến thức trọng tâm học kì II về thực vật và động vật, con người và sức khỏe, Trái Đất và bầu trời.",
           "- Trả lời được một số câu hỏi ôn tập theo mức độ nhận biết, thông hiểu và vận dụng đơn giản.",
           "- Vận dụng kiến thức đã học để xử lí tình huống bảo vệ thiên nhiên, giữ gìn sức khỏe, xác định phương hướng và bảo vệ môi trường sống.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: tự ôn lại kiến thức, hoàn thành phiếu ôn tập, xác định nội dung cần luyện thêm.",
           "- Giao tiếp và hợp tác: trao đổi nhóm, chia sẻ cách nhớ kiến thức, nhận xét câu trả lời của bạn.",
           "- Giải quyết vấn đề và sáng tạo: lựa chọn kiến thức phù hợp để xử lí tình huống thực tế.",
-          "3. Phẩm chất",
           "- Chăm chỉ: tích cực ôn tập, hoàn thành nhiệm vụ học tập.",
           "- Trách nhiệm: biết chăm sóc bản thân, bảo vệ môi trường, yêu quý thực vật, động vật và thiên nhiên."
         ],
@@ -11315,11 +11101,7 @@
           "- Ôn lại các bài đã học trong học kì II; chuẩn bị tinh thần tham gia trò chơi ôn tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
-          "TUẦN 34: ÔN TẬP CUỐI HỌC KÌ II (1 TIẾT)"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -11527,7 +11309,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   },
@@ -11544,17 +11327,19 @@
           "- Làm được một số bài tập ôn tập tổng hợp: chọn đáp án đúng, trả lời câu hỏi ngắn, xử lí tình huống thực tế.",
           "- Tự xác định được nội dung đã nắm chắc và nội dung cần ôn thêm trước khi kiểm tra cuối học kì II.",
           "2. Năng lực chung",
-          "1. Năng lực đặc thù",
           "- Hoàn thành bài kiểm tra cuối học kì II theo yêu cầu, thể hiện được kiến thức và kĩ năng đã học trong học kì II.",
           "- Đọc hiểu yêu cầu câu hỏi, lựa chọn đáp án đúng, viết câu trả lời ngắn gọn, rõ ý.",
           "- Vận dụng kiến thức Tự nhiên và Xã hội vào một số tình huống chăm sóc sức khỏe, bảo vệ thực vật, động vật, môi trường và xác định hiện tượng tự nhiên.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: tự giác làm bài, biết kiểm tra lại bài trước khi nộp.",
           "- Giải quyết vấn đề: lựa chọn kiến thức phù hợp để trả lời câu hỏi và xử lí tình huống.",
           "- Giao tiếp: trình bày bài làm rõ ràng, sạch đẹp, đúng yêu cầu.",
           "3. Phẩm chất",
           "- Trung thực: làm bài nghiêm túc, không trao đổi trong giờ kiểm tra.",
-          "- Trách nhiệm: thực hiện đúng quy định kiểm tra, giữ gìn giấy kiểm tra sạch đẹp."
+          "- Trách nhiệm: thực hiện đúng quy định kiểm tra, giữ gìn giấy kiểm tra sạch đẹp.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm, trình bày kết quả, nhận xét câu trả lời của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để xử lí tình huống bảo vệ sức khỏe, môi trường và thiên nhiên.",
+          "- Chăm chỉ: tích cực ôn tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: nghiêm túc chuẩn bị cho kiểm tra, biết chăm sóc bản thân và bảo vệ môi trường sống."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -11573,16 +11358,7 @@
           "- Ôn lại kiến thức đã học, chuẩn bị tâm thế bình tĩnh, tự tin khi làm bài."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm, trình bày kết quả, nhận xét câu trả lời của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để xử lí tình huống bảo vệ sức khỏe, môi trường và thiên nhiên.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực ôn tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: nghiêm túc chuẩn bị cho kiểm tra, biết chăm sóc bản thân và bảo vệ môi trường sống.",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3",
-          "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
-          "TUẦN 35: KIỂM TRA CUỐI HỌC KÌ II (1 TIẾT)"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -11739,7 +11515,8 @@
               "- HS lắng nghe nhận xét, ổn định đồ dùng cá nhân."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI 3"
       }
     ]
   }
@@ -11757,5 +11534,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

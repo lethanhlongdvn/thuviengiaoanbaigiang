@@ -22,7 +22,15 @@
           "- Nhận biết được sự việc gắn với thời gian, không gian xảy ra câu chuyện trong văn bản tự sự; hiểu suy nghĩ, cảm xúc của nhân vật dựa vào hành động, việc làm và lời nói của nhân vật.",
           "- Nhận biết được trình tự các sự việc gắn với thời gian, địa điểm cụ thể; hiểu điều tác giả muốn nói qua câu chuyện: Mỗi vùng miền đều có những sản vật đặc trưng, mang đậm nét dấu ấn của vùng miền đó; hiểu biết và tự hào về sản vật, có ý thức phát triển sản vật chính là một trong những biểu hiện của tình yêu quê hương.",
           "- Biết nêu cảm nhận riêng về bài đọc, tưởng tượng và chia sẻ điều em nghe thấy khi tham gia trò chơi bịt tai nghe gió.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi với bạn về trò chơi, thảo luận câu hỏi đọc hiểu, lắng nghe và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: dự đoán nội dung bài đọc từ tranh minh họa, tưởng tượng thanh âm của gió và trình bày cảm nhận riêng.",
+          "3. Phẩm chất",
+          "- Yêu nước: yêu thiên nhiên, yêu quê hương; biết tự hào về sản vật, cảnh vật và trò chơi tuổi thơ của quê hương.",
+          "- Nhân ái: biết sống chan hòa, hòa đồng với bạn bè; lắng nghe, tôn trọng cảm xúc và chia sẻ trải nghiệm của bạn.",
+          "- Chăm chỉ: tích cực luyện đọc, đọc trước bài, tham gia trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết giữ gìn cảnh quan, không xả rác khi tham gia vui chơi ngoài trời; có ý thức phát triển, bảo vệ những giá trị tốt đẹp của quê hương.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa chủ điểm Thế giới tuổi thơ; tranh minh họa bài đọc Thanh âm của gió.",
@@ -32,21 +40,11 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi với bạn về trò chơi, thảo luận câu hỏi đọc hiểu, lắng nghe và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: dự đoán nội dung bài đọc từ tranh minh họa, tưởng tượng thanh âm của gió và trình bày cảm nhận riêng.",
-          "3. Phẩm chất",
-          "- Yêu nước: yêu thiên nhiên, yêu quê hương; biết tự hào về sản vật, cảnh vật và trò chơi tuổi thơ của quê hương.",
-          "- Nhân ái: biết sống chan hòa, hòa đồng với bạn bè; lắng nghe, tôn trọng cảm xúc và chia sẻ trải nghiệm của bạn.",
-          "- Chăm chỉ: tích cực luyện đọc, đọc trước bài, tham gia trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết giữ gìn cảnh quan, không xả rác khi tham gia vui chơi ngoài trời; có ý thức phát triển, bảo vệ những giá trị tốt đẹp của quê hương.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình yêu quê hương, biết lắng nghe vẻ đẹp của thiên nhiên và sống chan hòa với bạn bè.",
           "- Quyền con người: Lồng ghép quyền trẻ em được vui chơi, được bày tỏ cảm xúc và chia sẻ trải nghiệm khi tham gia các trò chơi ngoài trời.",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 1"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -239,7 +237,8 @@
               "- HS ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: THANH ÂM CỦA GIÓ"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ DANH TỪ, ĐỘNG TỪ, TÍNH TỪ",
@@ -270,9 +269,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 1"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -413,7 +410,8 @@
               "- HS tự đánh giá việc tham gia hoạt động nhóm và trò chơi."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ DANH TỪ, ĐỘNG TỪ, TÍNH TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÀI VĂN KỂ CHUYỆN SÁNG TẠO",
@@ -445,9 +443,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 1"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -632,7 +628,8 @@
               "- HS lắng nghe, chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÀI VĂN KỂ CHUYỆN SÁNG TẠO"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC CÁNH ĐỒNG HOA",
@@ -667,9 +664,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 1"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -937,7 +932,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC CÁNH ĐỒNG HOA"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN KỂ CHUYỆN SÁNG TẠO (TIẾP THEO)",
@@ -970,9 +966,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 1"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -1121,7 +1115,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN KỂ CHUYỆN SÁNG TẠO (TIẾP THEO)"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -1270,7 +1265,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà: đọc trước bài 3 - Tuổi Ngựa."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -1287,7 +1283,15 @@
           "- Nhận biết được nội dung cuộc trò chuyện giữa hai mẹ con; cảm nhận được suy nghĩ, cảm xúc của bạn nhỏ về hành trình rong ruổi của chú ngựa con và tình yêu thương dành cho mẹ.",
           "- Hiểu điều tác giả muốn nói qua bài thơ: tuổi thơ có nhiều ước mơ, muốn đi đến nhiều nơi, muốn khám phá nhiều điều thú vị của cuộc sống nhưng vẫn luôn nhớ về mẹ và quê hương.",
           "- Biết trả lời các câu hỏi đọc hiểu trong SGK; biết nêu nhận xét về bạn nhỏ trong bài thơ và học thuộc lòng bài thơ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi với bạn khi tìm hiểu bài đọc; biết lắng nghe, nhận xét và bổ sung ý kiến cho bạn.",
+          "- Giải quyết vấn đề và sáng tạo: dự đoán nội dung bài đọc từ tranh minh họa, nêu cách hiểu, cách cảm nhận riêng về hình ảnh, nhân vật hoặc sự việc trong bài.",
+          "3. Phẩm chất",
+          "- Yêu nước: bồi dưỡng tình yêu gia đình, quê hương, trân trọng vẻ đẹp của thiên nhiên và những kỉ niệm tuổi thơ.",
+          "- Nhân ái: biết yêu thương người thân, chia sẻ cảm xúc, lắng nghe và tôn trọng cảm nhận của bạn.",
+          "- Chăm chỉ: tích cực luyện đọc, làm bài, viết bài và hoàn thành nhiệm vụ học tập được giao.",
+          "- Trách nhiệm: có ý thức giữ gìn môi trường sống, bảo vệ cảnh quan quê hương, thực hiện nhiệm vụ học tập nghiêm túc.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài thơ Tuổi Ngựa trong SGK Tiếng Việt 5, tập một.",
@@ -1297,21 +1301,11 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi với bạn khi tìm hiểu bài đọc; biết lắng nghe, nhận xét và bổ sung ý kiến cho bạn.",
-          "- Giải quyết vấn đề và sáng tạo: dự đoán nội dung bài đọc từ tranh minh họa, nêu cách hiểu, cách cảm nhận riêng về hình ảnh, nhân vật hoặc sự việc trong bài.",
-          "3. Phẩm chất",
-          "- Yêu nước: bồi dưỡng tình yêu gia đình, quê hương, trân trọng vẻ đẹp của thiên nhiên và những kỉ niệm tuổi thơ.",
-          "- Nhân ái: biết yêu thương người thân, chia sẻ cảm xúc, lắng nghe và tôn trọng cảm nhận của bạn.",
-          "- Chăm chỉ: tích cực luyện đọc, làm bài, viết bài và hoàn thành nhiệm vụ học tập được giao.",
-          "- Trách nhiệm: có ý thức giữ gìn môi trường sống, bảo vệ cảnh quan quê hương, thực hiện nhiệm vụ học tập nghiêm túc.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng tình yêu gia đình, yêu quê hương qua khát vọng đi xa nhưng vẫn nhớ về mẹ và nơi chốn thân thuộc.",
           "- Quyền con người: Lồng ghép quyền được nuôi dưỡng ước mơ, được học tập, khám phá thế giới phù hợp với lứa tuổi.",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 2"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -1532,7 +1526,8 @@
               "- HS lắng nghe dặn dò, luyện đọc thuộc lòng bài thơ và chuẩn bị tiết Luyện từ và câu: Đại từ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC - TUỔI NGỰA"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - ĐẠI TỪ",
@@ -1565,9 +1560,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 2"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -1748,7 +1741,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị tiết Viết: Lập dàn ý cho bài văn kể chuyện sáng tạo."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - ĐẠI TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - LẬP DÀN Ý CHO BÀI VĂN KỂ CHUYỆN SÁNG TẠO",
@@ -1781,9 +1775,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 2"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -1928,7 +1920,8 @@
               "- HS lắng nghe, ghi nhớ góp ý và hoàn thiện dàn ý ở nhà nếu cần."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - LẬP DÀN Ý CHO BÀI VĂN KỂ CHUYỆN SÁNG TẠO"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - BẾN SÔNG TUỔI THƠ",
@@ -1939,7 +1932,15 @@
           "- Nhận biết được các hình ảnh quen thuộc của quê hương, những kỉ niệm tuổi thơ bên bến sông và tình cảm yêu mến, tự hào của bạn nhỏ đối với vùng đất cù lao.",
           "- Hiểu nội dung chính: Bến sông, cây bần, món ăn và những kỉ niệm tuổi thơ đã trở thành một phần thân thuộc trong kí ức, gợi tình yêu quê hương sâu nặng.",
           "- Biết trả lời các câu hỏi đọc hiểu trong SGK; nhận diện được đại từ tôi, chúng tôi và một số từ ngữ đậm màu sắc Nam Bộ trong văn bản.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi với bạn khi tìm hiểu bài đọc; biết lắng nghe, nhận xét và bổ sung ý kiến cho bạn.",
+          "- Giải quyết vấn đề và sáng tạo: dự đoán nội dung bài đọc từ tranh minh họa, nêu cách hiểu, cách cảm nhận riêng về hình ảnh, nhân vật hoặc sự việc trong bài.",
+          "3. Phẩm chất",
+          "- Yêu nước: bồi dưỡng tình yêu gia đình, quê hương, trân trọng vẻ đẹp của thiên nhiên và những kỉ niệm tuổi thơ.",
+          "- Nhân ái: biết yêu thương người thân, chia sẻ cảm xúc, lắng nghe và tôn trọng cảm nhận của bạn.",
+          "- Chăm chỉ: tích cực luyện đọc, làm bài, viết bài và hoàn thành nhiệm vụ học tập được giao.",
+          "- Trách nhiệm: có ý thức giữ gìn môi trường sống, bảo vệ cảnh quan quê hương, thực hiện nhiệm vụ học tập nghiêm túc.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Bến sông tuổi thơ trong SGK Tiếng Việt 5, tập một.",
@@ -1949,21 +1950,11 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi với bạn khi tìm hiểu bài đọc; biết lắng nghe, nhận xét và bổ sung ý kiến cho bạn.",
-          "- Giải quyết vấn đề và sáng tạo: dự đoán nội dung bài đọc từ tranh minh họa, nêu cách hiểu, cách cảm nhận riêng về hình ảnh, nhân vật hoặc sự việc trong bài.",
-          "3. Phẩm chất",
-          "- Yêu nước: bồi dưỡng tình yêu gia đình, quê hương, trân trọng vẻ đẹp của thiên nhiên và những kỉ niệm tuổi thơ.",
-          "- Nhân ái: biết yêu thương người thân, chia sẻ cảm xúc, lắng nghe và tôn trọng cảm nhận của bạn.",
-          "- Chăm chỉ: tích cực luyện đọc, làm bài, viết bài và hoàn thành nhiệm vụ học tập được giao.",
-          "- Trách nhiệm: có ý thức giữ gìn môi trường sống, bảo vệ cảnh quan quê hương, thực hiện nhiệm vụ học tập nghiêm túc.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục lòng biết ơn, trân trọng kỉ niệm tuổi thơ và nếp sống nghĩa tình nơi quê nhà.",
           "- Tiết kiệm và bảo vệ nguồn nước: Liên hệ việc giữ gìn bến sông, ao hồ quê hương; không xả rác xuống sông, biết quý trọng nguồn nước sạch.",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 2"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -2219,7 +2210,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - BẾN SÔNG TUỔI THƠ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT BÀI VĂN KỂ CHUYỆN SÁNG TẠO",
@@ -2252,9 +2244,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 2"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -2355,7 +2345,8 @@
               "- HS lắng nghe, ghi nhớ và tiếp tục hoàn thiện bài viết."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT BÀI VĂN KỂ CHUYỆN SÁNG TẠO"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - NHỮNG CÂU CHUYỆN THÚ VỊ",
@@ -2496,7 +2487,8 @@
               "- HS ghi nhớ nhiệm vụ đọc trước Bài 5: Tiếng hạt nảy mầm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - NHỮNG CÂU CHUYỆN THÚ VỊ"
       }
     ]
   },
@@ -2535,9 +2527,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 3"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -2754,7 +2744,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC - TIẾNG HẠT NẢY MẦM"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ ĐẠI TỪ",
@@ -2784,9 +2775,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 3"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -2911,7 +2900,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ ĐẠI TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - ĐÁNH GIÁ, CHỈNH SỬA BÀI VĂN KỂ CHUYỆN SÁNG TẠO",
@@ -2924,7 +2914,12 @@
           "- Biết ghi vào sổ tay những điều học được về cách viết bài văn kể lại câu chuyện với chi tiết sáng tạo.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: tự rà soát bài viết theo nhận xét của GV, tự lựa chọn lỗi cần sửa.",
-          "- Giao tiếp và hợp tác: trao đổi bài với bạn, góp ý lịch sự, tiếp thu góp ý phù hợp."
+          "- Giao tiếp và hợp tác: trao đổi bài với bạn, góp ý lịch sự, tiếp thu góp ý phù hợp.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: nghiêm túc đọc lại bài, sửa bài, viết lại đoạn văn.",
+          "- Trung thực: nhìn nhận đúng ưu điểm, hạn chế trong bài viết của mình.",
+          "- Trách nhiệm: giữ gìn bài của bạn, góp ý chân thành, không chê bai làm bạn mất tự tin.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Bài viết của HS đã được GV nhận xét; bảng tiêu chí đánh giá, phiếu tự sửa lỗi.",
@@ -2933,17 +2928,10 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: nghiêm túc đọc lại bài, sửa bài, viết lại đoạn văn.",
-          "- Trung thực: nhìn nhận đúng ưu điểm, hạn chế trong bài viết của mình.",
-          "- Trách nhiệm: giữ gìn bài của bạn, góp ý chân thành, không chê bai làm bạn mất tự tin.",
-          "4. Tích hợp",
           "- AI: 5.A2.2 - Tìm hiểu AI giám sát độ ẩm, ánh sáng giúp hạt mầm phát triển tốt trong nông nghiệp thông minh.",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 3"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -3080,7 +3068,8 @@
               "- HS lắng nghe, tự đánh giá việc sửa bài của mình."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - ĐÁNH GIÁ, CHỈNH SỬA BÀI VĂN KỂ CHUYỆN SÁNG TẠO"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - NGÔI SAO SÂN CỎ",
@@ -3091,7 +3080,15 @@
           "- Nhận biết được thời gian, địa điểm, nhân vật, nhân vật chính và trình tự các sự việc trong câu chuyện.",
           "- Hiểu được sự thay đổi trong nhận thức của nhân vật Việt: từ thích thể hiện cá nhân đến biết trân trọng tinh thần đồng đội.",
           "- Luyện tập theo văn bản đọc: mở rộng từ ngữ chỉ sự vật, hoạt động trong trận đấu bóng đá; biết đặt câu có dùng đại từ thay thế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi với bạn về hành động của nhân vật, biết lắng nghe và phản hồi phù hợp.",
+          "- Giải quyết vấn đề và sáng tạo: nhận xét tình huống trong câu chuyện, rút ra cách ứng xử khi tham gia hoạt động thể thao tập thể.",
+          "3. Phẩm chất",
+          "- Trung thực: biết chơi thể thao đúng luật, công bằng, không ích kỉ khi tham gia trò chơi.",
+          "- Nhân ái: biết tôn trọng bạn chơi, biết chia sẻ cơ hội và động viên đồng đội.",
+          "- Trách nhiệm: có ý thức bảo đảm an toàn, tôn trọng luật chơi và cổ vũ văn minh.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tinh thần trung thực, fair-play, tôn trọng luật chơi và biết cổ vũ văn minh."
         ],
         "dodung": [
           "- SGK Tiếng Việt 5 tập một; tranh minh họa câu chuyện Ngôi sao sân cỏ.",
@@ -3101,20 +3098,10 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi với bạn về hành động của nhân vật, biết lắng nghe và phản hồi phù hợp.",
-          "- Giải quyết vấn đề và sáng tạo: nhận xét tình huống trong câu chuyện, rút ra cách ứng xử khi tham gia hoạt động thể thao tập thể.",
-          "3. Phẩm chất",
-          "- Trung thực: biết chơi thể thao đúng luật, công bằng, không ích kỉ khi tham gia trò chơi.",
-          "- Nhân ái: biết tôn trọng bạn chơi, biết chia sẻ cơ hội và động viên đồng đội.",
-          "- Trách nhiệm: có ý thức bảo đảm an toàn, tôn trọng luật chơi và cổ vũ văn minh.",
-          "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tinh thần trung thực, fair-play, tôn trọng luật chơi và biết cổ vũ văn minh.",
           "- Quyền con người: Lồng ghép quyền được vui chơi, rèn luyện thể thao trong môi trường an toàn, bình đẳng.",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 3"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -3343,7 +3330,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - NGÔI SAO SÂN CỎ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÁO CÁO CÔNG VIỆC",
@@ -3374,9 +3362,7 @@
         "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: THẾ GIỚI TUỔI THƠ",
-          "TUẦN 3"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -3509,7 +3495,8 @@
               "- HS lắng nghe, tự đánh giá việc tham gia học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÁO CÁO CÔNG VIỆC"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -3652,7 +3639,8 @@
               "- HS lắng nghe, chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -3669,7 +3657,14 @@
           "- Nhận biết được hoạt động triển lãm, hiểu ý tưởng sưu tầm giọng nói của Loan và tình cảm bạn bè được thể hiện qua bộ sưu tập.",
           "- Trả lời được các câu hỏi đọc hiểu; biết đóng vai Loan để kể lại quá trình nảy ra ý tưởng và thực hiện ý tưởng cho bộ sưu tập.",
           "- Biết liên hệ bản thân để nêu ý tưởng sưu tầm một món đồ có ý nghĩa.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực luyện đọc, chuẩn bị bài, tham gia trả lời câu hỏi.",
+          "- Nhân ái: biết trân trọng tình bạn, biết lắng nghe và tôn trọng cảm xúc của bạn.",
+          "- Trách nhiệm: biết giữ gìn đồ vật, biết chia sẻ câu chuyện về đồ vật bằng thái độ lịch sự.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; máy tính, máy chiếu hoặc ti vi.",
@@ -3678,13 +3673,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực luyện đọc, chuẩn bị bài, tham gia trả lời câu hỏi.",
-          "- Nhân ái: biết trân trọng tình bạn, biết lắng nghe và tôn trọng cảm xúc của bạn.",
-          "- Trách nhiệm: biết giữ gìn đồ vật, biết chia sẻ câu chuyện về đồ vật bằng thái độ lịch sự.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Rèn nếp sống cẩn thận, biết giữ gìn đồ vật, chia sẻ câu chuyện về đồ vật bằng thái độ lịch sự.",
           "- Quyền con người: Giáo dục ý thức tôn trọng sở thích, tài sản và sản phẩm sưu tầm cá nhân của bạn.",
           "- ....................................................................................................................................................",
@@ -3865,7 +3853,8 @@
               "- HS tự đọc toàn bài; nêu: Em thích ý tưởng sưu tầm giọng nói của Loan vì rất sáng tạo và ý nghĩa."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC - BỘ SƯU TẬP ĐỘC ĐÁO"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ ĐẠI TỪ (TIẾP THEO)",
@@ -3875,7 +3864,14 @@
           "- Ôn lại ba nhóm đại từ: đại từ xưng hô, đại từ thay thế và đại từ nghi vấn.",
           "- Biết chọn đại từ thích hợp để hoàn chỉnh câu chuyện; xác định được đại từ thay thế và đại từ nghi vấn.",
           "- Biết dùng đại từ thay thế để tránh lặp từ; viết được câu đáp lời có sử dụng đại từ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực làm bài, hoàn thành nhiệm vụ trong vở hoặc phiếu học tập.",
+          "- Trung thực: trao đổi, báo cáo kết quả đúng với phần làm của cá nhân và nhóm.",
+          "- Trách nhiệm: sử dụng thiết bị số đúng mục đích khi chụp ảnh và lưu tư liệu học tập.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; phiếu học tập phần Luyện từ và câu.",
@@ -3884,13 +3880,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực làm bài, hoàn thành nhiệm vụ trong vở hoặc phiếu học tập.",
-          "- Trung thực: trao đổi, báo cáo kết quả đúng với phần làm của cá nhân và nhóm.",
-          "- Trách nhiệm: sử dụng thiết bị số đúng mục đích khi chụp ảnh và lưu tư liệu học tập.",
-          "4. Tích hợp",
           "- NLS: 1.3.CB2a - HS chụp ảnh món đồ yêu thích và lưu vào thư mục số có tên rõ ràng.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -3995,7 +3984,8 @@
               "- HS ghi nhiệm vụ học tập vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ ĐẠI TỪ (TIẾP THEO)"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT BÁO CÁO CÔNG VIỆC",
@@ -4005,7 +3995,14 @@
           "- Biết lựa chọn một trong hai đề để viết báo cáo công việc theo đúng vai người viết.",
           "- Biết chuẩn bị số liệu, thông tin chính xác về hoạt động của tổ, của lớp hoặc của chi đội trong tháng qua.",
           "- Viết được bản báo cáo có đủ phần, trình bày rõ ràng, có bảng biểu hoặc mục liệt kê phù hợp; biết đọc soát và chỉnh sửa báo cáo.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực chuẩn bị thông tin, số liệu và hoàn thành bản báo cáo.",
+          "- Trung thực: nêu đúng số liệu, thông tin chính xác trong báo cáo.",
+          "- Trách nhiệm: biết đánh giá hoạt động tập thể và đề xuất hướng cố gắng phù hợp.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; mẫu báo cáo công việc.",
@@ -4014,13 +4011,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực chuẩn bị thông tin, số liệu và hoàn thành bản báo cáo.",
-          "- Trung thực: nêu đúng số liệu, thông tin chính xác trong báo cáo.",
-          "- Trách nhiệm: biết đánh giá hoạt động tập thể và đề xuất hướng cố gắng phù hợp.",
-          "4. Tích hợp",
           "- AI: 5.C4.2 - Trải nghiệm Teachable Machine để dạy máy nhận diện, phân loại đồ vật trong bộ sưu tập.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -4120,7 +4110,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT BÁO CÁO CÔNG VIỆC"
       },
       {
         "lessonTitle": "TIẾT 4 - 5: ĐỌC - HÀNH TINH KÌ LẠ",
@@ -4131,7 +4122,15 @@
           "- Nhận biết đặc điểm của nhân vật qua hình dáng, điệu bộ, hành động, suy nghĩ; hiểu cách liên tưởng, so sánh trong việc xây dựng nhân vật và diễn biến câu chuyện.",
           "- Hiểu điều tác giả muốn nói: Người máy có thể làm nhiều việc thay con người, nhưng tình cảm, cảm xúc và tình yêu quê hương là điều máy móc không thể thay thế.",
           "- Biết đóng vai người máy để giới thiệu về hành tinh lạ và kể tiếp phần kết thúc cho câu chuyện.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Yêu nước: biết trân trọng, yêu quý nơi mình sinh sống, có tình cảm với quê hương.",
+          "- Nhân ái: biết quan tâm đến cảm xúc của con người trong thế giới công nghệ.",
+          "- Trách nhiệm: biết cập nhật thay đổi của thời đại nhưng vẫn giữ tình cảm, giá trị tốt đẹp của con người.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục trách nhiệm khi sáng tạo công nghệ, biết dùng tri thức để phục vụ con người và cộng đồng."
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; máy tính, máy chiếu hoặc ti vi.",
@@ -4140,14 +4139,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Yêu nước: biết trân trọng, yêu quý nơi mình sinh sống, có tình cảm với quê hương.",
-          "- Nhân ái: biết quan tâm đến cảm xúc của con người trong thế giới công nghệ.",
-          "- Trách nhiệm: biết cập nhật thay đổi của thời đại nhưng vẫn giữ tình cảm, giá trị tốt đẹp của con người.",
-          "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục trách nhiệm khi sáng tạo công nghệ, biết dùng tri thức để phục vụ con người và cộng đồng.",
           "- Quyền con người: Lồng ghép quyền được sáng tạo, tưởng tượng và tham gia hoạt động học tập an toàn, tôn trọng ý kiến khác biệt.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -4366,7 +4357,8 @@
               "- HS lắng nghe, sửa hoặc bổ sung câu trả lời vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4 - 5: ĐỌC - HÀNH TINH KÌ LẠ"
       },
       {
         "lessonTitle": "TIẾT 6: VIẾT - ĐÁNH GIÁ, CHỈNH SỬA BÁO CÁO CÔNG VIỆC",
@@ -4376,7 +4368,13 @@
           "- Nghe thầy cô nhận xét chung về bài làm của lớp; biết tự đánh giá báo cáo của mình theo các tiêu chí.",
           "- Biết chỉnh sửa hình thức trình bày, thông tin, bảng biểu, nhận xét, cách dùng từ, viết câu và chính tả trong báo cáo.",
           "- Biết đọc soát, trao đổi góp ý với bạn để hoàn thiện báo cáo công việc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc soát, chỉnh sửa bài viết.",
+          "- Trách nhiệm: hoàn thiện sản phẩm báo cáo nghiêm túc, rõ ràng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; bài báo cáo công việc HS đã viết.",
@@ -4385,12 +4383,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc soát, chỉnh sửa bài viết.",
-          "- Trách nhiệm: hoàn thiện sản phẩm báo cáo nghiêm túc, rõ ràng.",
-          "4. Tích hợp",
           "- NLS: 3.1.CB2a - HS dùng PowerPoint thiết kế slide kể chuyện sáng tạo về thế giới tương lai.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -4474,7 +4466,8 @@
               "- HS ghi nhớ nhiệm vụ, hoàn thiện bài ở nhà nếu chưa xong."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6: VIẾT - ĐÁNH GIÁ, CHỈNH SỬA BÁO CÁO CÔNG VIỆC"
       },
       {
         "lessonTitle": "TIẾT 7: NÓI VÀ NGHE - NHỮNG NƠI VUI CHƠI LÍ THÚ",
@@ -4485,7 +4478,14 @@
           "- Trình bày được bài giới thiệu có nội dung rõ ràng: tên, địa chỉ, lí do biết nơi đó, quang cảnh, hoạt động vui chơi và điều lí thú.",
           "- Biết thể hiện suy nghĩ, cảm xúc qua giọng nói, cử chỉ, điệu bộ; biết lắng nghe, ghi lại điều thú vị trong phần trình bày của bạn.",
           "- Biết đánh giá, góp ý bài giới thiệu về nội dung, trình tự và cách trình bày.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết lắng nghe, tôn trọng ý kiến khác biệt khi bạn giới thiệu.",
+          "- Chăm chỉ: chuẩn bị nội dung nói, tranh ảnh minh hoạ hoặc phương tiện hỗ trợ.",
+          "- Trách nhiệm: giới thiệu thông tin đúng, phù hợp và an toàn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; tranh ảnh về các khu vui chơi lí thú.",
@@ -4494,14 +4494,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Nhân ái: biết lắng nghe, tôn trọng ý kiến khác biệt khi bạn giới thiệu.",
-          "- Chăm chỉ: chuẩn bị nội dung nói, tranh ảnh minh hoạ hoặc phương tiện hỗ trợ.",
-          "- Trách nhiệm: giới thiệu thông tin đúng, phù hợp và an toàn.",
-          "4. Tích hợp",
-          "- Quyền con người: Rèn quyền được bày tỏ ý kiến, biết lắng nghe và tôn trọng ý kiến khác biệt khi trao đổi về chủ điểm hành tinh kì lạ.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -4604,7 +4596,8 @@
               "- HS lắng nghe, tự đánh giá kết quả học tập của bản thân."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7: NÓI VÀ NGHE - NHỮNG NƠI VUI CHƠI LÍ THÚ"
       }
     ]
   },
@@ -4621,7 +4614,14 @@
           "- Nhận biết được hình ảnh thơ, thời gian, không gian được thể hiện trong bài thơ; hiểu những hình ảnh gợi vẻ đẹp hoang sơ, khoáng đạt, trong lành, thơ mộng của thiên nhiên.",
           "- Cảm nhận được hình ảnh con người miền núi hiện lên chan hòa với thiên nhiên, cần cù lao động và giàu sức sống.",
           "- Nêu được chủ đề bài thơ và biết bày tỏ cảm xúc, suy nghĩ của bản thân về vẻ đẹp thiên nhiên, con người vùng cao.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: Tự hào về vẻ đẹp thiên nhiên, vùng cao, biên cương của đất nước.",
+          "- Nhân ái: Biết tôn trọng con người, văn hóa, bản sắc của các dân tộc.",
+          "- Chăm chỉ, trách nhiệm: Tích cực luyện đọc, biết giữ gìn cảnh quan thiên nhiên và môi trường sống.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; vở ghi, bút, bảng nhóm, phiếu học tập.",
@@ -4630,13 +4630,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: Tự hào về vẻ đẹp thiên nhiên, vùng cao, biên cương của đất nước.",
-          "- Nhân ái: Biết tôn trọng con người, văn hóa, bản sắc của các dân tộc.",
-          "- Chăm chỉ, trách nhiệm: Tích cực luyện đọc, biết giữ gìn cảnh quan thiên nhiên và môi trường sống.",
-          "4. Tích hợp",
           "QPAN: Bồi dưỡng tình yêu quê hương, tự hào về vẻ đẹp vùng cao, biên cương và ý thức giữ gìn khối đại đoàn kết các dân tộc.",
           "Quyền con người: Giáo dục HS tôn trọng bản sắc văn hóa, phong tục tốt đẹp của các dân tộc trên đất nước Việt Nam.",
           "....................................................................................................................................................",
@@ -4777,7 +4770,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ học ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: TRƯỚC CỔNG TRỜI"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: TỪ ĐỒNG NGHĨA",
@@ -4787,7 +4781,14 @@
           "- Nhận biết được từ đồng nghĩa; bước đầu phân biệt từ có nghĩa giống nhau và từ có nghĩa gần giống nhau.",
           "- Biết tìm từ đồng nghĩa trong ngữ liệu, thành ngữ; biết lựa chọn từ đồng nghĩa phù hợp trong nói, viết.",
           "- Vận dụng kiến thức về từ đồng nghĩa để làm bài tập và mở rộng vốn từ gắn với chủ điểm Thiên nhiên kì thú.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực thực hiện bài tập, tự kiểm tra kết quả.",
+          "- Trách nhiệm: Sử dụng từ ngữ đúng hoàn cảnh, tôn trọng ý kiến của bạn khi thảo luận.",
+          "- Nhân ái: Biết cảm nhận vẻ đẹp của tiếng Việt qua cách lựa chọn từ ngữ.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; vở ghi, bút, bảng nhóm, phiếu học tập.",
@@ -4796,13 +4797,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hiện bài tập, tự kiểm tra kết quả.",
-          "- Trách nhiệm: Sử dụng từ ngữ đúng hoàn cảnh, tôn trọng ý kiến của bạn khi thảo luận.",
-          "- Nhân ái: Biết cảm nhận vẻ đẹp của tiếng Việt qua cách lựa chọn từ ngữ.",
-          "4. Tích hợp",
           "NLS: 5.2.CB2a - HS quan sát hình ảnh 360 độ về vùng núi cao bằng Google Earth/Bản đồ số để mở rộng vốn từ về cảnh thiên nhiên.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -4910,7 +4904,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: TỪ ĐỒNG NGHĨA"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN TẢ PHONG CẢNH",
@@ -4920,7 +4915,14 @@
           "- Nhận biết được bài văn tả phong cảnh; xác định được bố cục 3 phần của bài văn tả phong cảnh.",
           "- Biết tìm trình tự miêu tả, cách lựa chọn cảnh vật để miêu tả và cách làm nổi bật đặc điểm của phong cảnh.",
           "- Biết nêu những điểm cần lưu ý khi viết bài văn tả phong cảnh và vận dụng vào chuẩn bị bài viết.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: Yêu thiên nhiên, quê hương, đất nước qua những cảnh đẹp được miêu tả.",
+          "- Chăm chỉ: Tích cực đọc văn bản mẫu, ghi chép ý chính.",
+          "- Trách nhiệm: Biết quan sát, miêu tả chân thực và trân trọng vẻ đẹp phong cảnh.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; vở ghi, bút, bảng nhóm, phiếu học tập.",
@@ -4929,14 +4931,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: Yêu thiên nhiên, quê hương, đất nước qua những cảnh đẹp được miêu tả.",
-          "- Chăm chỉ: Tích cực đọc văn bản mẫu, ghi chép ý chính.",
-          "- Trách nhiệm: Biết quan sát, miêu tả chân thực và trân trọng vẻ đẹp phong cảnh.",
-          "4. Tích hợp",
-          "AI: 5.C4.2 - Sử dụng Trợ lí ảo/AI Search tìm hiểu văn hóa, phong tục vùng cao được nhắc trong bài đọc.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -5047,7 +5041,8 @@
               "- HS lắng nghe, hoàn thành nhiệm vụ ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN TẢ PHONG CẢNH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: KÌ DIỆU RỪNG XANH",
@@ -5058,7 +5053,15 @@
           "- Nhận biết được các chi tiết tiêu biểu, nội dung chính của văn bản; hiểu được hình ảnh, từ ngữ, biện pháp so sánh, nhân hóa làm nổi bật vẻ đẹp của rừng.",
           "- Biết trả lời câu hỏi đọc hiểu, tóm tắt nội dung từng đoạn và nêu thông điệp của bài đọc.",
           "- Củng cố kiến thức về từ đồng nghĩa qua phần luyện tập sau văn bản đọc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: Yêu thiên nhiên, yêu cảnh sắc rừng xanh của đất nước.",
+          "- Trách nhiệm: Có ý thức bảo vệ rừng, giữ gìn môi trường sống và nguồn nước.",
+          "- Chăm chỉ: Tích cực luyện đọc, trao đổi và hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp",
+          "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục lối sống xanh, biết yêu thiên nhiên và có trách nhiệm bảo vệ môi trường sống."
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; vở ghi, bút, bảng nhóm, phiếu học tập.",
@@ -5067,14 +5070,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: Yêu thiên nhiên, yêu cảnh sắc rừng xanh của đất nước.",
-          "- Trách nhiệm: Có ý thức bảo vệ rừng, giữ gìn môi trường sống và nguồn nước.",
-          "- Chăm chỉ: Tích cực luyện đọc, trao đổi và hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp",
-          "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục lối sống xanh, biết yêu thiên nhiên và có trách nhiệm bảo vệ môi trường sống.",
           "Tiết kiệm và bảo vệ nguồn nước: Liên hệ rừng là nơi giữ nước, bảo vệ nguồn nước đầu nguồn; nhắc HS không phá hoại cây xanh, không xả rác khi tham quan rừng.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -5214,7 +5209,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: KÌ DIỆU RỪNG XANH"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN TẢ PHONG CẢNH (TIẾP THEO)",
@@ -5224,7 +5220,15 @@
           "- Nhận biết được cách viết bài văn tả phong cảnh theo trình tự thời gian hoặc theo những thời điểm khác nhau.",
           "- Biết so sánh trình tự miêu tả của hai bài văn tả phong cảnh đã học.",
           "- Biết rút ra điều cần ghi nhớ khi tả cảnh theo thời gian và vận dụng vào định hướng bài viết.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực đọc bài văn mẫu, ghi chép ý chính.",
+          "- Trách nhiệm: Có ý thức quan sát cảnh vật chân thực, bảo vệ phong cảnh và môi trường sống.",
+          "- Nhân ái: Biết chia sẻ cảm nhận về cảnh đẹp quê hương, đất nước.",
+          "4. Tích hợp",
+          "AI: 5.A2.2 - Giới thiệu hệ thống AI nghe âm thanh rừng để phát hiện sớm phá rừng, cháy rừng; giúp HS hiểu công nghệ có thể hỗ trợ con người bảo vệ thiên nhiên nhưng không thay thế trách nhiệm của con người."
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; vở ghi, bút, bảng nhóm, phiếu học tập.",
@@ -5233,14 +5237,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực đọc bài văn mẫu, ghi chép ý chính.",
-          "- Trách nhiệm: Có ý thức quan sát cảnh vật chân thực, bảo vệ phong cảnh và môi trường sống.",
-          "- Nhân ái: Biết chia sẻ cảm nhận về cảnh đẹp quê hương, đất nước.",
-          "4. Tích hợp",
-          "AI: 5.A2.2 - Giới thiệu hệ thống AI nghe âm thanh rừng để phát hiện sớm phá rừng, cháy rừng; giúp HS hiểu công nghệ có thể hỗ trợ con người bảo vệ thiên nhiên nhưng không thay thế trách nhiệm của con người.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -5351,7 +5347,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN TẢ PHONG CẢNH (TIẾP THEO)"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -5361,7 +5358,14 @@
           "- Tìm đọc được sách báo khoa học viết về động vật hoang dã; biết ghi lại thông tin quan trọng vào phiếu đọc sách.",
           "- Biết trao đổi với bạn về nội dung đã đọc, chia sẻ thông tin mới hoặc thú vị về động vật hoang dã.",
           "- Hình thành thói quen đọc mở rộng, biết chọn lọc thông tin và nêu nguồn đọc phù hợp.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực đọc sách, ghi chép đầy đủ thông tin.",
+          "- Trách nhiệm: Biết bảo vệ động vật hoang dã, không cổ vũ hành vi săn bắt, mua bán trái phép.",
+          "- Nhân ái: Yêu quý các loài vật và biết ứng xử thân thiện với thiên nhiên.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; vở ghi, bút, bảng nhóm, phiếu học tập.",
@@ -5370,13 +5374,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm nhỏ; biết lắng nghe, trình bày, nhận xét và bổ sung ý kiến.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức tiếng Việt để trả lời câu hỏi, tìm ý, lựa chọn từ ngữ và tạo lập sản phẩm học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực đọc sách, ghi chép đầy đủ thông tin.",
-          "- Trách nhiệm: Biết bảo vệ động vật hoang dã, không cổ vũ hành vi săn bắt, mua bán trái phép.",
-          "- Nhân ái: Yêu quý các loài vật và biết ứng xử thân thiện với thiên nhiên.",
-          "4. Tích hợp",
           "NLS: 2.5.CB2a - HS tra cứu động thực vật rừng và thực hiện nghi thức số khi trao đổi trong nhóm trực tuyến: dùng từ ngữ lịch sự, ghi nguồn thông tin, không chia sẻ nội dung chưa kiểm chứng.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -5457,7 +5454,8 @@
               "- HS lắng nghe, hoàn thành nhiệm vụ ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -5659,7 +5657,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: HANG SƠN ĐOÒNG – NHỮNG ĐIỀU KÌ THÚ"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ TỪ ĐỒNG NGHĨA",
@@ -5808,7 +5807,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ TỪ ĐỒNG NGHĨA"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT MỞ BÀI VÀ KẾT BÀI CHO BÀI VĂN TẢ PHONG CẢNH",
@@ -5961,7 +5961,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT MỞ BÀI VÀ KẾT BÀI CHO BÀI VĂN TẢ PHONG CẢNH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: NHỮNG HÒN ĐẢO TRÊN VỊNH HẠ LONG",
@@ -6179,7 +6180,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NHỮNG HÒN ĐẢO TRÊN VỊNH HẠ LONG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: QUAN SÁT PHONG CẢNH",
@@ -6332,7 +6334,8 @@
               "- HS ghi nhớ nhiệm vụ: tìm đọc đoạn văn, bài văn tả phong cảnh và hoàn thiện phiếu quan sát."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: QUAN SÁT PHONG CẢNH"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: BẢO TỒN ĐỘNG VẬT HOANG DÃ",
@@ -6462,7 +6465,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ sưu tầm tranh ảnh, thông tin và ghi rõ nguồn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: BẢO TỒN ĐỘNG VẬT HOANG DÃ"
       }
     ]
   },
@@ -6479,7 +6483,14 @@
           "- Hiểu được hình ảnh mầm non qua biện pháp nhân hóa; nhận biết cảnh vật mùa đông và tín hiệu mùa xuân trong bài thơ.",
           "- Trả lời được các câu hỏi đọc hiểu; nêu được nội dung bài thơ và cảm xúc trước sự sống mới của thiên nhiên.",
           "- Học thuộc lòng một số khổ thơ yêu thích, bước đầu biết đọc bài thơ bằng giọng nhẹ nhàng, trong trẻo.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thiên nhiên, trân trọng sự sống nhỏ bé xung quanh.",
+          "- Chăm chỉ: Tích cực luyện đọc, học thuộc lòng và tham gia thảo luận.",
+          "- Trách nhiệm: Có ý thức chăm sóc cây xanh, bảo vệ môi trường sống quanh mình.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; kế hoạch bài dạy; bảng phụ hoặc màn hình trình chiếu.",
@@ -6488,13 +6499,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
-          "3. Phẩm chất",
-          "- Nhân ái: Biết yêu thiên nhiên, trân trọng sự sống nhỏ bé xung quanh.",
-          "- Chăm chỉ: Tích cực luyện đọc, học thuộc lòng và tham gia thảo luận.",
-          "- Trách nhiệm: Có ý thức chăm sóc cây xanh, bảo vệ môi trường sống quanh mình.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình yêu cây xanh, biết nâng niu mầm sống và hành động nhỏ để làm đẹp trường lớp.",
           "- Tiết kiệm và bảo vệ nguồn nước: Hướng dẫn HS chăm sóc cây non bằng cách tưới nước vừa đủ, tận dụng nước sạch hợp lí.",
           "....................................................................................................................................................",
@@ -6619,7 +6623,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: MẦM NON"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: TỪ ĐA NGHĨA",
@@ -6629,7 +6634,14 @@
           "- Nhận biết được từ đa nghĩa; bước đầu phân biệt nghĩa gốc và nghĩa chuyển của từ.",
           "- Hiểu được mối liên hệ giữa các nghĩa của từ đa nghĩa qua các ví dụ cụ thể.",
           "- Vận dụng kiến thức để tìm nghĩa của từ trong câu và đặt câu với từ đa nghĩa.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực làm bài tập, tìm ví dụ, đặt câu.",
+          "- Trách nhiệm: Biết dùng từ đúng nghĩa trong nói và viết.",
+          "- Nhân ái: Lắng nghe, góp ý cho bạn bằng lời nói nhẹ nhàng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; kế hoạch bài dạy; bảng phụ hoặc màn hình trình chiếu.",
@@ -6638,13 +6650,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực làm bài tập, tìm ví dụ, đặt câu.",
-          "- Trách nhiệm: Biết dùng từ đúng nghĩa trong nói và viết.",
-          "- Nhân ái: Lắng nghe, góp ý cho bạn bằng lời nói nhẹ nhàng.",
-          "4. Tích hợp",
           "- NLS 3.4.CB2a: HS dùng cấu trúc Nếu... thì... để lập trình đoạn thơ trên Scratch.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -6740,7 +6745,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: TỪ ĐA NGHĨA"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN TẢ PHONG CẢNH",
@@ -6751,7 +6757,14 @@
           "- Lập được dàn ý cho bài văn tả phong cảnh đủ ba phần: mở bài, thân bài, kết bài.",
           "- Biết chọn chi tiết tiêu biểu, sắp xếp ý hợp lí, thể hiện cảm xúc trước cảnh đẹp.",
           "- Bước đầu biết trao đổi, góp ý và chỉnh sửa dàn ý cho rõ ràng, mạch lạc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
+          "3. Phẩm chất",
+          "- Yêu nước: Biết yêu cảnh đẹp quê hương, đất nước.",
+          "- Chăm chỉ: Tích cực quan sát, ghi chép, lập dàn ý.",
+          "- Trách nhiệm: Có ý thức giữ gìn cảnh quan thiên nhiên.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; kế hoạch bài dạy; bảng phụ hoặc màn hình trình chiếu.",
@@ -6760,13 +6773,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
-          "3. Phẩm chất",
-          "- Yêu nước: Biết yêu cảnh đẹp quê hương, đất nước.",
-          "- Chăm chỉ: Tích cực quan sát, ghi chép, lập dàn ý.",
-          "- Trách nhiệm: Có ý thức giữ gìn cảnh quan thiên nhiên.",
-          "4. Tích hợp",
           "- AI 5.A2.2: Tìm hiểu AI hỗ trợ dự báo thời tiết, chăm sóc cây trồng và bảo vệ môi trường sống.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -6846,7 +6852,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN TẢ PHONG CẢNH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: NHỮNG NGỌN NÚI NÓNG RẪY",
@@ -6857,7 +6864,15 @@
           "- Nhận biết được các thông tin chính về hình dáng, hoạt động, tiếng động, vị trí và sự hình thành của núi lửa.",
           "- Hiểu được cách tác giả dùng hình ảnh so sánh để giải thích hiện tượng tự nhiên; trả lời được các câu hỏi đọc hiểu.",
           "- Biết trao đổi về thông tin thú vị, thông tin mới và điều muốn tìm hiểu thêm về núi lửa.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực đọc, tìm hiểu hiện tượng tự nhiên.",
+          "- Trách nhiệm: Có ý thức phòng tránh thiên tai, tôn trọng thông tin khoa học.",
+          "- Yêu nước: Biết tự hào và ham tìm hiểu các cảnh quan, hiện tượng thiên nhiên trên Trái Đất.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tinh thần bình tĩnh, trách nhiệm và biết chia sẻ khó khăn với cộng đồng vùng thiên tai."
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; kế hoạch bài dạy; bảng phụ hoặc màn hình trình chiếu.",
@@ -6866,14 +6881,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực đọc, tìm hiểu hiện tượng tự nhiên.",
-          "- Trách nhiệm: Có ý thức phòng tránh thiên tai, tôn trọng thông tin khoa học.",
-          "- Yêu nước: Biết tự hào và ham tìm hiểu các cảnh quan, hiện tượng thiên nhiên trên Trái Đất.",
-          "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tinh thần bình tĩnh, trách nhiệm và biết chia sẻ khó khăn với cộng đồng vùng thiên tai.",
           "- Quyền con người: Lồng ghép quyền được an toàn trước thiên tai; biết tìm kiếm sự hỗ trợ của người lớn khi có nguy cơ nguy hiểm.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -7009,7 +7016,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ.\n- HS ghi nhớ nhiệm vụ và chuẩn bị tiết Viết đoạn văn tả phong cảnh."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NHỮNG NGỌN NÚI NÓNG RẪY"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN TẢ PHONG CẢNH",
@@ -7019,7 +7027,14 @@
           "- Viết được đoạn văn tả một phong cảnh dựa trên dàn ý đã lập, có câu mở đoạn, các câu phát triển ý và câu kết đoạn phù hợp.",
           "- Biết lựa chọn chi tiết tiêu biểu, sử dụng từ ngữ gợi tả, biện pháp so sánh hoặc nhân hóa để làm nổi bật vẻ đẹp phong cảnh.",
           "- Biết đọc lại, tự đánh giá, góp ý và chỉnh sửa đoạn văn cho mạch lạc, giàu hình ảnh, cảm xúc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực viết, đọc lại, chỉnh sửa bài.",
+          "- Nhân ái: Biết góp ý cho bạn chân thành, lịch sự.",
+          "- Trách nhiệm: Biết trân trọng và giữ gìn cảnh đẹp thiên nhiên.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; kế hoạch bài dạy; bảng phụ hoặc màn hình trình chiếu.",
@@ -7028,13 +7043,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực viết, đọc lại, chỉnh sửa bài.",
-          "- Nhân ái: Biết góp ý cho bạn chân thành, lịch sự.",
-          "- Trách nhiệm: Biết trân trọng và giữ gìn cảnh đẹp thiên nhiên.",
-          "4. Tích hợp",
           "- AI 5.A1.1: Liên hệ robot/AI quan trắc núi lửa giúp con người theo dõi nơi nguy hiểm.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -7114,7 +7122,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN TẢ PHONG CẢNH"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG: TÌM ĐỌC VĂN BẢN VỀ THIÊN NHIÊN KÌ THÚ",
@@ -7124,7 +7133,14 @@
           "- Tìm đọc được sách báo, bài viết phù hợp về thiên nhiên, môi trường sống hoặc các hiện tượng tự nhiên.",
           "- Biết ghi phiếu đọc sách, nêu tên tài liệu, tác giả/nguồn, thông tin chính và điều em thấy thú vị.",
           "- Biết trao đổi với bạn về nội dung đã đọc, đặt câu hỏi và chia sẻ cảm nghĩ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực đọc, ghi chép và hoàn thành phiếu đọc sách.",
+          "- Trách nhiệm: Biết lựa chọn nguồn thông tin phù hợp, không sao chép máy móc.",
+          "- Nhân ái: Lắng nghe, tôn trọng nội dung chia sẻ của bạn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; kế hoạch bài dạy; bảng phụ hoặc màn hình trình chiếu.",
@@ -7133,13 +7149,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, trình bày ý kiến rõ ràng, lắng nghe và nhận xét lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn thông tin, sắp xếp ý, vận dụng kiến thức vào đọc hiểu, luyện từ và câu, viết đoạn/bài.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực đọc, ghi chép và hoàn thành phiếu đọc sách.",
-          "- Trách nhiệm: Biết lựa chọn nguồn thông tin phù hợp, không sao chép máy móc.",
-          "- Nhân ái: Lắng nghe, tôn trọng nội dung chia sẻ của bạn.",
-          "4. Tích hợp",
           "- NLS 4.1.CB2a: HS tìm hình ảnh núi lửa và thảo luận rủi ro khi xem nội dung giật gân trên mạng.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -7207,7 +7216,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG: TÌM ĐỌC VĂN BẢN VỀ THIÊN NHIÊN KÌ THÚ"
       }
     ]
   },
@@ -7358,7 +7368,8 @@
               "- HS lắng nghe, nêu một việc làm cụ thể để tiết kiệm nước ở nhà và ở trường; cam kết thực hiện trong tuần."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC - BÀI CA VỀ MẶT TRỜI"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ TỪ ĐA NGHĨA",
@@ -7485,7 +7496,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ TỪ ĐA NGHĨA"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT BÀI VĂN TẢ PHONG CẢNH",
@@ -7588,7 +7600,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT BÀI VĂN TẢ PHONG CẢNH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - XIN CHÀO, XA-HA-RA",
@@ -7736,7 +7749,8 @@
               "- HS nêu việc làm cụ thể: khóa vòi nước sau khi rửa tay, dùng cốc khi đánh răng, không nghịch nước, không xả rác xuống nguồn nước; cam kết thực hiện một việc tiết kiệm nước trong tuần."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - XIN CHÀO, XA-HA-RA"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - ĐÁNH GIÁ, CHỈNH SỬA BÀI VĂN TẢ PHONG CẢNH",
@@ -7839,7 +7853,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - ĐÁNH GIÁ, CHỈNH SỬA BÀI VĂN TẢ PHONG CẢNH"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - CẢNH ĐẸP THIÊN NHIÊN",
@@ -7934,7 +7949,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ; chuẩn bị chia sẻ trong tiết học sau nếu được yêu cầu."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - CẢNH ĐẸP THIÊN NHIÊN"
       }
     ]
   },
@@ -7968,7 +7984,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "TUẦN 9",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ I",
           "PHẦN I - ÔN TẬP"
         ],
@@ -8063,7 +8078,8 @@
               "– HS lắng nghe, thực hiện nhiệm vụ ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1"
       },
       {
         "lessonTitle": "TIẾT 2",
@@ -8091,7 +8107,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "TUẦN 9",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ I",
           "PHẦN I - ÔN TẬP"
         ],
@@ -8174,7 +8189,8 @@
               "– HS lắng nghe, thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2"
       },
       {
         "lessonTitle": "TIẾT 3",
@@ -8202,7 +8218,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "TUẦN 9",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ I",
           "PHẦN I - ÔN TẬP"
         ],
@@ -8292,7 +8307,8 @@
               "– HS lắng nghe, ghi nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3"
       },
       {
         "lessonTitle": "TIẾT 4",
@@ -8320,7 +8336,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "TUẦN 9",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ I",
           "PHẦN I - ÔN TẬP"
         ],
@@ -8406,7 +8421,8 @@
               "– HS ghi nhiệm vụ, thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4"
       },
       {
         "lessonTitle": "TIẾT 5",
@@ -8434,7 +8450,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "TUẦN 9",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ I",
           "PHẦN II - ĐÁNH GIÁ GIỮA HỌC KÌ I"
         ],
@@ -8537,7 +8552,8 @@
               "– HS lắng nghe, ghi nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5"
       },
       {
         "lessonTitle": "TIẾT 6 - KIỂM TRA ĐỌC",
@@ -8565,7 +8581,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "TUẦN 9",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ I",
           "PHẦN II - ĐÁNH GIÁ GIỮA HỌC KÌ I"
         ],
@@ -8628,7 +8643,8 @@
               "– HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6 - KIỂM TRA ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 7 - KIỂM TRA ĐỌC HIỂU - VIẾT",
@@ -8716,7 +8732,8 @@
               "– HS lắng nghe, chuẩn bị bài học sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7 - KIỂM TRA ĐỌC HIỂU - VIẾT"
       }
     ]
   },
@@ -8728,7 +8745,16 @@
         "lessonTitle": "TIẾT 1: ĐỌC: THƯ GỬI CÁC HỌC SINH",
         "topic": "CHỦ ĐIỂM: TRÊN CON ĐƯỜNG HỌC TẬP",
         "yccd": [
-          "1. Năng lực đặc thù"
+          "1. Năng lực đặc thù",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi với bạn về lễ khai giảng, thảo luận câu hỏi đọc hiểu, lắng nghe và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết trong văn bản, suy luận để nêu ý nghĩa lời khuyên của Bác Hồ.",
+          "3. Phẩm chất",
+          "- Yêu nước: yêu Tổ quốc, biết tự hào về ngày khai trường đầu tiên của nước Việt Nam độc lập.",
+          "- Chăm chỉ: có ý thức cố gắng, siêng năng học tập, nghe thầy, yêu bạn.",
+          "- Trách nhiệm: biết rèn luyện bản thân để góp phần xây dựng quê hương, đất nước.",
+          "4. Tích hợp",
+          "- QPAN: Liên hệ trách nhiệm của thế hệ trẻ trong giữ gìn thành quả độc lập, yêu Tổ quốc và có ý thức học tập vì tương lai đất nước."
         ],
         "dodung": [
           "- Tranh ảnh minh hoạ chủ điểm Trên con đường học tập; tranh minh hoạ bài đọc Thư gửi các học sinh.",
@@ -8741,15 +8767,6 @@
           "- Hiểu nội dung bức thư; cảm nhận tình cảm của Bác Hồ dành cho thiếu nhi trong niềm vui ngày khai trường đầu tiên sau khi nước nhà giành được độc lập; hiểu mong muốn của Bác qua lời khuyên học sinh chăm học, nghe thầy, yêu bạn.",
           "- Hiểu sự tin tưởng của Bác Hồ: học sinh sẽ là những người kế tục xứng đáng sự nghiệp của cha ông, xây dựng đất nước Việt Nam sánh vai với các cường quốc năm châu.",
           "- Biết nêu cảm nghĩ sau khi đọc thư của Bác Hồ; học thuộc lòng đoạn thư từ “Sau 80 năm giời nô lệ...” đến “nhờ một phần lớn ở công học tập của các em”.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: trao đổi với bạn về lễ khai giảng, thảo luận câu hỏi đọc hiểu, lắng nghe và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết trong văn bản, suy luận để nêu ý nghĩa lời khuyên của Bác Hồ.",
-          "3. Phẩm chất",
-          "- Yêu nước: yêu Tổ quốc, biết tự hào về ngày khai trường đầu tiên của nước Việt Nam độc lập.",
-          "- Chăm chỉ: có ý thức cố gắng, siêng năng học tập, nghe thầy, yêu bạn.",
-          "- Trách nhiệm: biết rèn luyện bản thân để góp phần xây dựng quê hương, đất nước.",
-          "4. Tích hợp",
-          "- QPAN: Liên hệ trách nhiệm của thế hệ trẻ trong giữ gìn thành quả độc lập, yêu Tổ quốc và có ý thức học tập vì tương lai đất nước.",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục HS thực hiện lời Bác dạy, chăm học, chăm làm, rèn luyện để góp phần xây dựng đất nước.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -8913,7 +8930,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: THƯ GỬI CÁC HỌC SINH"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - SỬ DỤNG TỪ ĐIỂN",
@@ -9055,7 +9073,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - SỬ DỤNG TỪ ĐIỂN"
       },
       {
         "lessonTitle": "BÀI 17: THƯ GỬI CÁC HỌC SINH",
@@ -9195,7 +9214,8 @@
               "- HS lắng nghe, chuẩn bị bài mới."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17: THƯ GỬI CÁC HỌC SINH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: TẤM GƯƠNG TỰ HỌC",
@@ -9410,7 +9430,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: TẤM GƯƠNG TỰ HỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM Ý CHO ĐOẠN VĂN GIỚI THIỆU NHÂN VẬT TRONG MỘT CUỐN SÁCH",
@@ -9422,7 +9443,13 @@
           "- Biết đưa dẫn chứng cụ thể về ngoại hình, hành động, lời nói, suy nghĩ,... để làm rõ đặc điểm của nhân vật.",
           "- Biết góp ý và chỉnh sửa kết quả tìm ý của bản thân.",
           "2. Năng lực chung",
-          "- Tự chủ và tự học: tự chọn nhân vật, xem lại sách, tự ghi ý vào vở hoặc phiếu."
+          "- Tự chủ và tự học: tự chọn nhân vật, xem lại sách, tự ghi ý vào vở hoặc phiếu.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn đặc điểm tiêu biểu và dẫn chứng thuyết phục.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: chuẩn bị bài chu đáo, tìm ý đầy đủ.",
+          "- Trách nhiệm: biết kiểm tra tính chính xác của thông tin về sách và nhân vật.",
+          "- Trung thực: giới thiệu đúng thông tin đã đọc, không bịa tên sách, tác giả hoặc chi tiết.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK, vở viết, phiếu bài tập tìm ý; một số cuốn sách HS đã đọc nếu có.",
@@ -9431,12 +9458,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn đặc điểm tiêu biểu và dẫn chứng thuyết phục.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: chuẩn bị bài chu đáo, tìm ý đầy đủ.",
-          "- Trách nhiệm: biết kiểm tra tính chính xác của thông tin về sách và nhân vật.",
-          "- Trung thực: giới thiệu đúng thông tin đã đọc, không bịa tên sách, tác giả hoặc chi tiết.",
-          "4. Tích hợp",
           "- AI: 5.D2.1 - Liên hệ con người cần tự học thường xuyên cũng như AI cần dữ liệu cập nhật để cải tiến.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -9547,7 +9568,8 @@
               "- HS lắng nghe, giữ phiếu/vở tìm ý cẩn thận."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM Ý CHO ĐOẠN VĂN GIỚI THIỆU NHÂN VẬT TRONG MỘT CUỐN SÁCH"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -9666,7 +9688,8 @@
               "- HS nhắc lại các nội dung chính của Bài 18 và ghi nhớ chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -9682,7 +9705,15 @@
           "- Đọc đúng và diễn cảm văn bản Trải nghiệm để sáng tạo; biết ngắt nghỉ hợp lí ở câu dài, nhấn giọng ở những từ ngữ thể hiện trải nghiệm, năng khiếu và quá trình sáng tạo của An-đéc-xen.",
           "- Hiểu nghĩa một số từ khó; nhận biết được các trải nghiệm tuổi thơ, tâm nguyện và quá trình sáng tác của An-đéc-xen.",
           "- Trả lời được các câu hỏi đọc hiểu trong SGK; hiểu điều tác giả muốn nói: trải nghiệm phong phú và trái tim nhân hậu giúp con người sáng tạo nên những giá trị tốt đẹp.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực luyện đọc, đọc trước bài, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
+          "- Nhân ái: biết cảm thông với những thân phận bé nhỏ, thiếu may mắn trong cuộc sống.",
+          "- Trách nhiệm: chủ động tham gia trải nghiệm, biết rút kinh nghiệm và chia sẻ điều học được.",
+          "4. Tích hợp",
+          "Quyền con người: Giáo dục quyền được tham gia hoạt động trải nghiệm, được bày tỏ ý tưởng và phát triển năng lực sáng tạo."
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; tranh minh họa và văn bản Trải nghiệm để sáng tạo.",
@@ -9691,15 +9722,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực luyện đọc, đọc trước bài, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
-          "- Nhân ái: biết cảm thông với những thân phận bé nhỏ, thiếu may mắn trong cuộc sống.",
-          "- Trách nhiệm: chủ động tham gia trải nghiệm, biết rút kinh nghiệm và chia sẻ điều học được.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Rèn lối sống chủ động, dám thử nghiệm, biết rút kinh nghiệm từ hoạt động thực tế.",
-          "Quyền con người: Giáo dục quyền được tham gia hoạt động trải nghiệm, được bày tỏ ý tưởng và phát triển năng lực sáng tạo.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -9886,7 +9909,8 @@
               "- HS chia sẻ; ghi nhiệm vụ chuẩn bị tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: TRẢI NGHIỆM ĐỂ SÁNG TẠO"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP SỬ DỤNG TỪ ĐIỂN",
@@ -9896,7 +9920,13 @@
           "- Biết sử dụng từ điển tiếng Việt để tra cứu nghĩa của từ; biết lựa chọn loại từ điển phù hợp với mục đích tra cứu.",
           "- Tìm được nghĩa của thành ngữ theo các bước gợi ý trong SGK; nêu được tên một số loại từ điển thường dùng.",
           "- Vận dụng việc tra cứu từ điển để mở rộng vốn từ phục vụ nói và viết.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực tra cứu, ghi chép nghĩa từ và hoàn thành bài tập.",
+          "- Trách nhiệm: sử dụng từ điển, công cụ số đúng mục đích; không sao chép máy móc.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; hình bài tập Luyện tập sử dụng từ điển được cắt đúng vị trí.",
@@ -9905,12 +9935,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực tra cứu, ghi chép nghĩa từ và hoàn thành bài tập.",
-          "- Trách nhiệm: sử dụng từ điển, công cụ số đúng mục đích; không sao chép máy móc.",
-          "4. Tích hợp",
           "NLS: 3.1.CB2a - HS lập bản đồ ý tưởng số về trải nghiệm và vốn từ phục vụ viết sáng tạo.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -10044,7 +10068,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP SỬ DỤNG TỪ ĐIỂN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN GIỚI THIỆU NHÂN VẬT TRONG MỘT CUỐN SÁCH",
@@ -10054,7 +10079,14 @@
           "- Viết được đoạn văn giới thiệu một nhân vật trong cuốn sách đã đọc; tập trung nêu đặc điểm nổi bật của nhân vật.",
           "- Biết thể hiện tình cảm, cảm xúc đối với nhân vật và khích lệ người đọc tìm đọc cuốn sách.",
           "- Biết đọc soát, chỉnh sửa đoạn văn về nội dung, dùng từ, đặt câu và trình bày.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực viết, đọc soát và chỉnh sửa bài viết.",
+          "- Nhân ái: biết trân trọng phẩm chất tốt đẹp của nhân vật trong sách.",
+          "- Trách nhiệm: viết bằng suy nghĩ của mình, không sao chép bài của người khác hoặc công cụ số.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; hình phần Viết được cắt đúng vị trí.",
@@ -10063,13 +10095,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực viết, đọc soát và chỉnh sửa bài viết.",
-          "- Nhân ái: biết trân trọng phẩm chất tốt đẹp của nhân vật trong sách.",
-          "- Trách nhiệm: viết bằng suy nghĩ của mình, không sao chép bài của người khác hoặc công cụ số.",
-          "4. Tích hợp",
           "AI: 5.C4.2 - Dùng trợ lí số tìm từ đồng nghĩa, từ láy giàu hình ảnh để mở rộng vốn từ khi viết.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -10183,7 +10208,8 @@
               "- HS ghi nhiệm vụ về nhà, hoàn thiện đoạn văn sau khi được góp ý."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN GIỚI THIỆU NHÂN VẬT TRONG MỘT CUỐN SÁCH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: KHỔ LUYỆN THÀNH TÀI",
@@ -10193,7 +10219,14 @@
           "- Đọc đúng và diễn cảm văn bản Khổ luyện thành tài; biết đọc lời kể và lời nhân vật với giọng phù hợp.",
           "- Hiểu nghĩa một số từ khó; nhận biết được quá trình học vẽ của Lê-ô-nác-đô đa Vin-xi và ý nghĩa lời dạy của thầy Vê-rô-ki-ô.",
           "- Trả lời được câu hỏi đọc hiểu và làm được bài tập luyện tập theo văn bản đọc; hiểu rằng thành công cần sự rèn luyện bền bỉ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực luyện đọc, tìm chi tiết và hoàn thành bài tập.",
+          "- Trách nhiệm: biết tự giác luyện tập để phát triển năng khiếu, năng lực của bản thân.",
+          "- Nhân ái: biết tôn trọng, khích lệ sự cố gắng của bạn trong học tập.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; tranh minh họa và văn bản Khổ luyện thành tài.",
@@ -10202,13 +10235,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực luyện đọc, tìm chi tiết và hoàn thành bài tập.",
-          "- Trách nhiệm: biết tự giác luyện tập để phát triển năng khiếu, năng lực của bản thân.",
-          "- Nhân ái: biết tôn trọng, khích lệ sự cố gắng của bạn trong học tập.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục đức tính kiên trì, tự giác, vượt khó; hiểu thành công cần quá trình rèn luyện bền bỉ.",
           "Quyền con người: Lồng ghép quyền được phát triển năng khiếu và được khích lệ trong quá trình học tập, luyện tập.",
           "- ....................................................................................................................................................",
@@ -10436,7 +10462,8 @@
               "- HS chia sẻ; các bạn lắng nghe, động viên."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: KHỔ LUYỆN THÀNH TÀI"
       },
       {
         "lessonTitle": "BÀI 20: KHỔ LUYỆN THÀNH TÀI",
@@ -10447,7 +10474,14 @@
           "- Nghe được nhận xét chung về đoạn văn giới thiệu nhân vật trong một cuốn sách.",
           "- Biết tự đọc soát, đánh giá đoạn văn theo các tiêu chí: cách mở đoạn, cách giới thiệu đặc điểm nhân vật, cách kết thúc, cách dùng từ, đặt câu.",
           "- Viết lại được một số câu trong bài cho đúng hơn hoặc hay hơn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: chủ động đọc soát, chỉnh sửa đoạn văn.",
+          "- Trách nhiệm: góp ý cho bạn bằng thái độ tích cực, lịch sự.",
+          "- Nhân ái: tôn trọng sản phẩm viết của bạn, biết động viên bạn tiến bộ.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; hình phần Đánh giá, chỉnh sửa đoạn văn được cắt đúng vị trí.",
@@ -10456,13 +10490,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: chủ động đọc soát, chỉnh sửa đoạn văn.",
-          "- Trách nhiệm: góp ý cho bạn bằng thái độ tích cực, lịch sự.",
-          "- Nhân ái: tôn trọng sản phẩm viết của bạn, biết động viên bạn tiến bộ.",
-          "4. Tích hợp",
           "NLS: 2.5.CB2a - HS trao đổi trực tuyến văn minh về ý chí khổ luyện, biết phản hồi tích cực cho bạn.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -10569,7 +10596,8 @@
               "- HS chuẩn bị tên sách, tên tác giả, nội dung chính, nhân vật yêu thích và điều em học được từ sách."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20: KHỔ LUYỆN THÀNH TÀI"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: CUỐN SÁCH TÔI YÊU",
@@ -10579,7 +10607,14 @@
           "- Biết giới thiệu về một cuốn sách em yêu thích theo nội dung đã chuẩn bị.",
           "- Biết ghi chép thông tin quan trọng khi nghe bạn trình bày; biết đặt câu hỏi để hiểu rõ hơn cuốn sách bạn giới thiệu.",
           "- Biết đánh giá phần trình bày của bạn theo hướng tích cực, lịch sự.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: chuẩn bị nội dung nói và tích cực tham gia trao đổi.",
+          "- Nhân ái: lắng nghe, tôn trọng ý kiến và sở thích đọc sách của bạn.",
+          "- Trách nhiệm: chia sẻ sách phù hợp lứa tuổi, nội dung lành mạnh.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; hình phần Nói và nghe được cắt đúng vị trí.",
@@ -10588,14 +10623,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: chuẩn bị nội dung nói và tích cực tham gia trao đổi.",
-          "- Nhân ái: lắng nghe, tôn trọng ý kiến và sở thích đọc sách của bạn.",
-          "- Trách nhiệm: chia sẻ sách phù hợp lứa tuổi, nội dung lành mạnh.",
-          "4. Tích hợp",
-          "Quyền con người: Rèn quyền được bày tỏ ý kiến, biết lắng nghe và tôn trọng ý kiến khác biệt khi trao đổi về chủ điểm khổ luyện thành tài.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -10698,7 +10725,8 @@
               "- HS ghi nhiệm vụ về nhà, chuẩn bị bài Tuần 12."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: CUỐN SÁCH TÔI YÊU"
       }
     ]
   },
@@ -10971,7 +10999,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: THẾ GIỚI TRONG TRANG SÁCH"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: DẤU GẠCH NGANG",
@@ -11135,7 +11164,8 @@
               "- HS hoàn thiện câu trong vở, ghi nhớ cách dùng dấu gạch ngang."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: DẤU GẠCH NGANG"
       },
       {
         "lessonTitle": "BÀI 21: THẾ GIỚI TRONG TRANG SÁCH",
@@ -11394,7 +11424,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị cho bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: THẾ GIỚI TRONG TRANG SÁCH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: TỪ NHỮNG CÂU CHUYỆN ẤU THƠ",
@@ -11693,7 +11724,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: TỪ NHỮNG CÂU CHUYỆN ẤU THƠ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT CÂU CHUYỆN",
@@ -11704,7 +11736,14 @@
           "- Biết chuẩn bị trước khi viết: đọc kĩ câu chuyện, tóm tắt nội dung chính, lựa chọn chi tiết gây ấn tượng để bày tỏ tình cảm, cảm xúc.",
           "- Biết tìm ý cho đoạn văn theo 3 phần: mở đầu, triển khai, kết thúc.",
           "- Biết góp ý và chỉnh sửa ý dựa vào các gợi ý trong SGK.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi với bạn, góp ý chân thành, tiếp thu ý kiến phù hợp.",
+          "- Giải quyết vấn đề và sáng tạo: lựa chọn chi tiết tiêu biểu để bộc lộ tình cảm, cảm xúc của bản thân.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: chuẩn bị câu chuyện đã đọc, ghi đủ các ý chính theo yêu cầu.",
+          "- Nhân ái: biết bộc lộ tình cảm tích cực, trân trọng nhân vật, sự việc có ý nghĩa trong câu chuyện.",
+          "- Trách nhiệm: tự viết cảm nhận bằng cảm xúc thật, không sao chép bài của bạn hoặc của công cụ AI.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; sơ đồ tìm ý trong SGK.",
@@ -11713,13 +11752,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi với bạn, góp ý chân thành, tiếp thu ý kiến phù hợp.",
-          "- Giải quyết vấn đề và sáng tạo: lựa chọn chi tiết tiêu biểu để bộc lộ tình cảm, cảm xúc của bản thân.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: chuẩn bị câu chuyện đã đọc, ghi đủ các ý chính theo yêu cầu.",
-          "- Nhân ái: biết bộc lộ tình cảm tích cực, trân trọng nhân vật, sự việc có ý nghĩa trong câu chuyện.",
-          "- Trách nhiệm: tự viết cảm nhận bằng cảm xúc thật, không sao chép bài của bạn hoặc của công cụ AI.",
-          "4. Tích hợp",
           "- AI: 5.A3.1 - Thảo luận cách dùng AI gợi ý sách an toàn, không sao chép cảm nhận cá nhân từ máy.",
           "- ........................................"
         ],
@@ -11886,7 +11918,8 @@
               "- HS lắng nghe, hoàn thiện phiếu tìm ý ở nhà nếu cần."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT CÂU CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -12046,7 +12079,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -12062,7 +12096,15 @@
           "- Đọc đúng và diễn cảm văn bản Giới thiệu sách Dế Mèn phiêu lưu kí; biết ngắt nghỉ hợp lí ở câu dài, nhấn giọng vào những từ ngữ giới thiệu tên sách, tác giả, nhân vật và giá trị của cuốn sách.",
           "- Hiểu nghĩa một số từ khó; nhận biết được thông tin cơ bản về cuốn sách Dế Mèn phiêu lưu kí, nhân vật chính và những bài học được giới thiệu trong văn bản.",
           "- Trả lời được các câu hỏi đọc hiểu trong SGK; biết nêu cảm nghĩ của bản thân sau khi đọc lời giới thiệu sách.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực luyện đọc, đọc trước bài và hoàn thành nhiệm vụ học tập.",
+          "- Nhân ái: biết yêu quý tình bạn, tôn trọng bạn bè và biết nhận lỗi, sửa lỗi qua nhân vật văn học.",
+          "- Trách nhiệm: biết lựa chọn sách phù hợp, đọc sách có suy nghĩ và chia sẻ cảm nhận một cách văn minh.",
+          "4. Tích hợp",
+          "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình bạn, lòng nhân ái, biết nhận lỗi và sửa lỗi qua nhân vật văn học."
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; tranh minh họa và văn bản Giới thiệu sách Dế Mèn phiêu lưu kí.",
@@ -12071,14 +12113,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực luyện đọc, đọc trước bài và hoàn thành nhiệm vụ học tập.",
-          "- Nhân ái: biết yêu quý tình bạn, tôn trọng bạn bè và biết nhận lỗi, sửa lỗi qua nhân vật văn học.",
-          "- Trách nhiệm: biết lựa chọn sách phù hợp, đọc sách có suy nghĩ và chia sẻ cảm nhận một cách văn minh.",
-          "4. Tích hợp",
-          "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình bạn, lòng nhân ái, biết nhận lỗi và sửa lỗi qua nhân vật văn học.",
           "Quyền con người: Lồng ghép thái độ tôn trọng sự khác biệt, không bắt nạt, biết bảo vệ bạn yếu thế trong tập thể.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -12266,7 +12300,8 @@
               "- HS đọc theo nhóm 2, góp ý trong nhóm; có thể đọc thêm một số đoạn trong cuốn sách Dế Mèn phiêu lưu kí."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: GIỚI THIỆU SÁCH DẾ MÈN PHIÊU LƯU KÍ"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ DẤU GẠCH NGANG",
@@ -12276,7 +12311,13 @@
           "- Nhận biết và nêu được công dụng của dấu gạch ngang trong các trường hợp cụ thể.",
           "- Biết thêm dấu gạch ngang vào vị trí thích hợp trong đoạn văn.",
           "- Viết được 1 - 2 câu có sử dụng dấu gạch ngang đúng một trong các công dụng đã học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực làm bài tập, đọc kĩ yêu cầu và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: sử dụng dấu câu đúng để diễn đạt rõ ý, trình bày bài viết cẩn thận.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; hình bài tập Luyện tập về dấu gạch ngang được cắt đúng vị trí.",
@@ -12285,12 +12326,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực làm bài tập, đọc kĩ yêu cầu và hoàn thành nhiệm vụ.",
-          "- Trách nhiệm: sử dụng dấu câu đúng để diễn đạt rõ ý, trình bày bài viết cẩn thận.",
-          "4. Tích hợp",
           "NLS: 1.2.CB2a - HS tra cứu thông tin về tác giả, tác phẩm từ nguồn tin cậy trước khi giới thiệu sách.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -12391,7 +12426,8 @@
               "- HS đọc câu, lớp nhận xét và sửa lỗi nếu có."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ DẤU GẠCH NGANG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT CÂU CHUYỆN",
@@ -12401,7 +12437,14 @@
           "- Viết được đoạn văn thể hiện tình cảm, cảm xúc về một câu chuyện đã đọc, đã nghe theo yêu cầu của đề bài.",
           "- Biết dựa vào các ý đã tìm được ở Bài 22 để sắp xếp ý, tóm tắt ngắn gọn câu chuyện và nêu điều yêu thích.",
           "- Biết đọc soát, chỉnh sửa đoạn văn theo các tiêu chí trong SGK.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực viết bài, đọc soát và chỉnh sửa bài viết.",
+          "- Nhân ái: biết bày tỏ tình cảm, cảm xúc chân thành đối với nhân vật, câu chuyện.",
+          "- Trách nhiệm: viết bằng suy nghĩ của mình, không sao chép bài của người khác hoặc công cụ số.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; hình phần Viết được cắt đúng vị trí.",
@@ -12410,13 +12453,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực viết bài, đọc soát và chỉnh sửa bài viết.",
-          "- Nhân ái: biết bày tỏ tình cảm, cảm xúc chân thành đối với nhân vật, câu chuyện.",
-          "- Trách nhiệm: viết bằng suy nghĩ của mình, không sao chép bài của người khác hoặc công cụ số.",
-          "4. Tích hợp",
           "AI: 5.D1.1 - HS đóng vai người huấn luyện máy, thu thập từ ngữ miêu tả ngoại hình nhân vật làm dữ liệu.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -12493,7 +12529,8 @@
               "- HS ghi nhiệm vụ; có thể nói với người thân: Em nghĩ Dế Mèn là nhân vật biết trưởng thành sau lỗi lầm và có tình bạn đẹp."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT CÂU CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: TINH THẦN HỌC TẬP CỦA NHÀ PHI-LÍT",
@@ -12501,7 +12538,14 @@
         "yccd": [
           "1. Năng lực đặc thù",
           "- Đọc đúng và diễn cảm văn bản Tinh thần học tập của nhà Phi-lít; biết đọc lời kể và lời nhân vật với giọng phù hợp.",
-          "- Hiểu nghĩa một số từ khó; nhận biết được tinh thần học tập trong gia đình Phi-lít và lợi ích của phương pháp học tập ấy."
+          "- Hiểu nghĩa một số từ khó; nhận biết được tinh thần học tập trong gia đình Phi-lít và lợi ích của phương pháp học tập ấy.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực luyện đọc, tìm chi tiết và hoàn thành bài tập.",
+          "- Trách nhiệm: có ý thức tự học, học mỗi ngày và chia sẻ điều học được với người thân, bạn bè.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; tranh minh họa và văn bản Tinh thần học tập của nhà Phi-lít.",
@@ -12510,14 +12554,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực luyện đọc, tìm chi tiết và hoàn thành bài tập.",
           "- Yêu thương: biết quan tâm, chia sẻ và thể hiện lòng biết ơn với người thân trong gia đình.",
-          "- Trách nhiệm: có ý thức tự học, học mỗi ngày và chia sẻ điều học được với người thân, bạn bè.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng tình yêu gia đình, biết quan tâm, chia sẻ và thể hiện lòng biết ơn với người thân.",
           "Quyền con người: Giáo dục quyền trẻ em được sống trong tình yêu thương, được chăm sóc và được lắng nghe trong gia đình.",
           "- ....................................................................................................................................................",
@@ -12760,7 +12797,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: TINH THẦN HỌC TẬP CỦA NHÀ PHI-LÍT"
       },
       {
         "lessonTitle": "BÀI 24: TINH THẦN HỌC TẬP CỦA NHÀ PHI-LÍT",
@@ -12771,7 +12809,14 @@
           "- Nghe được nhận xét chung về đoạn văn thể hiện tình cảm, cảm xúc về một câu chuyện.",
           "- Biết tự đọc lại bài viết, nhận xét ưu điểm và hạn chế trong bài theo các tiêu chí trong SGK.",
           "- Biết trao đổi bài làm với bạn, học tập ưu điểm của bạn và viết lại một số câu văn cho hay hơn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc soát, chỉnh sửa và hoàn thiện bài viết.",
+          "- Nhân ái: biết góp ý cho bạn bằng lời lẽ lịch sự, tôn trọng cảm xúc của bạn.",
+          "- Trách nhiệm: tự chịu trách nhiệm về bài viết, chủ động sửa lỗi dùng từ, đặt câu và cách thể hiện cảm xúc.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; hình phần Đánh giá, chỉnh sửa đoạn văn được cắt đúng vị trí.",
@@ -12780,13 +12825,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc soát, chỉnh sửa và hoàn thiện bài viết.",
-          "- Nhân ái: biết góp ý cho bạn bằng lời lẽ lịch sự, tôn trọng cảm xúc của bạn.",
-          "- Trách nhiệm: tự chịu trách nhiệm về bài viết, chủ động sửa lỗi dùng từ, đặt câu và cách thể hiện cảm xúc.",
-          "4. Tích hợp",
           "NLS: 2.2.CB2a - HS chia sẻ cảm nhận về câu chuyện trên Padlet lớp học, tôn trọng ý kiến khác biệt.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -12903,7 +12941,8 @@
               "- HS ghi nhiệm vụ, chuẩn bị hoàn thiện đoạn văn."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24: TINH THẦN HỌC TẬP CỦA NHÀ PHI-LÍT"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: LỢI ÍCH CỦA TỰ HỌC",
@@ -12913,7 +12952,14 @@
           "- Biết thảo luận về yêu cầu: Việc tự học đem đến cho chúng ta những lợi ích gì?",
           "- Biết chuẩn bị ý kiến, nêu cách hiểu về tự học, trình bày lợi ích của tự học và lấy ví dụ về tấm gương tự học.",
           "- Biết lắng nghe, nhận xét, đánh giá kết quả thảo luận và chia sẻ cách tự học của bản thân.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực chuẩn bị ý kiến, tham gia thảo luận và ghi chép nội dung cần thiết.",
+          "- Trách nhiệm: có ý thức tự học, tự tìm tài liệu và chuẩn bị bài trước khi đến lớp.",
+          "- Nhân ái: biết lắng nghe, tôn trọng ý kiến của bạn và khích lệ bạn trong thảo luận.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập một; hình phần Nói và nghe được cắt đúng vị trí.",
@@ -12922,13 +12968,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực chuẩn bị ý kiến, tham gia thảo luận và ghi chép nội dung cần thiết.",
-          "- Trách nhiệm: có ý thức tự học, tự tìm tài liệu và chuẩn bị bài trước khi đến lớp.",
-          "- Nhân ái: biết lắng nghe, tôn trọng ý kiến của bạn và khích lệ bạn trong thảo luận.",
-          "4. Tích hợp",
           "Quyền con người: Rèn quyền được bày tỏ ý kiến, biết lắng nghe và tôn trọng ý kiến khác biệt khi trao đổi về lợi ích của tự học.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -13095,7 +13134,8 @@
               "- HS nhắc lại nội dung chính của bài học; chia sẻ nội dung nhớ nhất, hiểu nhất và lắng nghe GV dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: LỢI ÍCH CỦA TỰ HỌC"
       }
     ]
   },
@@ -13112,7 +13152,15 @@
           "- Nhận biết được từ ngữ và hình ảnh thơ giàu sức gợi tả; cảm nhận được tiếng đàn ba-la-lai-ca gợi lên những cung bậc âm thanh và hình ảnh của cuộc sống.",
           "- Hiểu được một trong những ý nghĩa sâu sắc của bài thơ: nghệ thuật, âm nhạc mang đến cảm xúc, niềm vui sống cho con người.",
           "- Biết học thuộc lòng đoạn thơ theo yêu cầu; chia sẻ cảm xúc trước vẻ đẹp của thơ ca, âm nhạc và tình hữu nghị.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Yêu nước: tự hào về lao động xây dựng đất nước, trân trọng tình hữu nghị và tinh thần cống hiến của con người Việt Nam.",
+          "- Nhân ái: biết đồng cảm với niềm vui lao động, trân trọng sự giúp đỡ của bạn bè quốc tế.",
+          "- Trách nhiệm: biết sử dụng điện, nước tiết kiệm và có ý thức bảo vệ dòng sông, môi trường sống.",
+          "4. Tích hợp",
+          "Tiết kiệm và bảo vệ nguồn nước: Liên hệ sông Đà, thủy điện và trách nhiệm bảo vệ dòng sông, sử dụng điện - nước tiết kiệm."
         ],
         "dodung": [
           "- Tranh minh họa bài thơ Tiếng đàn ba-la-lai-ca trên sông Đà; hình SGK được cắt và chèn đúng vị trí.",
@@ -13121,15 +13169,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Yêu nước: tự hào về lao động xây dựng đất nước, trân trọng tình hữu nghị và tinh thần cống hiến của con người Việt Nam.",
-          "- Nhân ái: biết đồng cảm với niềm vui lao động, trân trọng sự giúp đỡ của bạn bè quốc tế.",
-          "- Trách nhiệm: biết sử dụng điện, nước tiết kiệm và có ý thức bảo vệ dòng sông, môi trường sống.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục niềm tự hào về lao động xây dựng đất nước và tinh thần cống hiến của con người Việt Nam.",
-          "Tiết kiệm và bảo vệ nguồn nước: Liên hệ sông Đà, thủy điện và trách nhiệm bảo vệ dòng sông, sử dụng điện - nước tiết kiệm.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -13312,7 +13352,8 @@
               "- HS lắng nghe và thực hiện theo hướng dẫn.+ Liên hệ nội dung bài học với bản thân.+ Trao đổi, chia sẻ ý kiến phù hợp.+ Ghi nhớ cách thực hiện trong học tập và cuộc sống."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: TIẾNG ĐÀN BA-LA-LAI-CA TRÊN SÔNG ĐÀ"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: BIỆN PHÁP ĐIỆP TỪ, ĐIỆP NGỮ",
@@ -13322,7 +13363,14 @@
           "- Nhận biết được biện pháp điệp từ, điệp ngữ và tác dụng của việc sử dụng điệp từ, điệp ngữ trong câu thơ, đoạn văn.",
           "- Xác định được từ ngữ được lặp lại trong bài ca dao, câu tục ngữ, đoạn thơ, đoạn văn.",
           "- Biết nêu tác dụng của việc lặp lại từ ngữ trong một số ngữ cảnh cụ thể.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc ngữ liệu, làm bài và hoàn thành nhiệm vụ học tập.",
+          "- Trung thực: trình bày đúng kết quả tìm được, biết sửa lỗi sau khi nghe góp ý.",
+          "- Trách nhiệm: hợp tác trong nhóm, lắng nghe và tôn trọng ý kiến của bạn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình bài tập trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -13331,14 +13379,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc ngữ liệu, làm bài và hoàn thành nhiệm vụ học tập.",
-          "- Trung thực: trình bày đúng kết quả tìm được, biết sửa lỗi sau khi nghe góp ý.",
-          "- Trách nhiệm: hợp tác trong nhóm, lắng nghe và tôn trọng ý kiến của bạn.",
-          "4. Tích hợp",
-          "NLS: 5.2.CB2a - HS nghe âm thanh nhạc cụ bằng học liệu số, chọn phương tiện phù hợp để cảm nhận bài thơ.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -13469,7 +13509,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: BIỆN PHÁP ĐIỆP TỪ, ĐIỆP NGỮ"
       },
       {
         "lessonTitle": "BÀI 25: TIẾNG ĐÀN BA-LA-LAI-CA TRÊN SÔNG ĐÀ",
@@ -13480,7 +13521,14 @@
           "- Nhận biết được cách viết đoạn văn thể hiện tình cảm, cảm xúc về một bài thơ.",
           "- Xác định được phần mở đầu, triển khai, kết thúc của đoạn văn và ý chính của từng phần.",
           "- Nêu được những điều ở bài thơ khiến người viết yêu thích hoặc xúc động; nhận biết từ ngữ, câu văn thể hiện tình cảm, cảm xúc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: đọc kĩ đoạn văn mẫu, thực hiện đầy đủ yêu cầu của bài học.",
+          "- Nhân ái: biết trân trọng cảm xúc tốt đẹp mà thơ ca mang lại.",
+          "- Trách nhiệm: biết lắng nghe, góp ý và hoàn thiện hiểu biết về cách viết đoạn văn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình bài viết trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -13489,13 +13537,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: đọc kĩ đoạn văn mẫu, thực hiện đầy đủ yêu cầu của bài học.",
-          "- Nhân ái: biết trân trọng cảm xúc tốt đẹp mà thơ ca mang lại.",
-          "- Trách nhiệm: biết lắng nghe, góp ý và hoàn thiện hiểu biết về cách viết đoạn văn.",
-          "4. Tích hợp",
           "AI: 5.A1.1 - Tìm hiểu AI hỗ trợ kĩ sư vận hành nhà máy thủy điện hiện đại an toàn, chính xác.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -13647,7 +13688,8 @@
               "- HS nhắc lại nội dung đã học, lắng nghe GV nhận xét và dặn dò đọc trước Bài 26."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25: TIẾNG ĐÀN BA-LA-LAI-CA TRÊN SÔNG ĐÀ"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: TRÍ TƯỞNG TƯỢNG PHONG PHÚ",
@@ -13658,7 +13700,14 @@
           "- Hiểu nghĩa của từ ngữ, chi tiết nói về niềm đam mê sáng tạo, trí tưởng tượng phong phú của nhân vật Giô-an Rô-linh thông qua lời kể của tác giả.",
           "- Hiểu được điều tác giả muốn nói qua câu chuyện: trong cuộc sống, trí tưởng tượng gắn với niềm đam mê là động lực để con người sáng tạo, cống hiến.",
           "- Mở rộng vốn từ về trí tuệ, biết lựa chọn từ phù hợp để đặt câu.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc bài, tìm chi tiết và hoàn thành nhiệm vụ đọc hiểu.",
+          "- Nhân ái: biết tôn trọng sản phẩm sáng tạo và ước mơ của bạn.",
+          "- Trách nhiệm: biết sử dụng trí tưởng tượng theo hướng tích cực trong học tập và cuộc sống.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Trí tưởng tượng phong phú; hình SGK được cắt và chèn đúng vị trí.",
@@ -13667,13 +13716,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc bài, tìm chi tiết và hoàn thành nhiệm vụ đọc hiểu.",
-          "- Nhân ái: biết tôn trọng sản phẩm sáng tạo và ước mơ của bạn.",
-          "- Trách nhiệm: biết sử dụng trí tưởng tượng theo hướng tích cực trong học tập và cuộc sống.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục sử dụng trí tưởng tượng theo hướng tích cực, biết tôn trọng sản phẩm sáng tạo của bạn.",
           "Quyền con người: Lồng ghép quyền được sáng tạo nghệ thuật, được trình bày ý tưởng cá nhân trong học tập.",
           "- ....................................................................................................................................................",
@@ -13905,7 +13947,8 @@
               "- HS lắng nghe và thực hiện theo hướng dẫn.+ Liên hệ nội dung bài học với bản thân.+ Trao đổi, chia sẻ ý kiến phù hợp.+ Ghi nhớ cách thực hiện trong học tập và cuộc sống."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: TRÍ TƯỞNG TƯỢNG PHONG PHÚ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT BÀI THƠ",
@@ -13915,7 +13958,14 @@
           "- Biết tìm ý cho đoạn văn thể hiện tình cảm, cảm xúc về một bài thơ theo yêu cầu của đề bài.",
           "- Biết lựa chọn bài thơ phù hợp với đề, ghi lại những điều yêu thích ở bài thơ và sắp xếp ý theo bố cục đoạn văn.",
           "- Biết góp ý, chỉnh sửa ý đã tìm để chuẩn bị viết đoạn văn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: đọc lại bài thơ, tìm ý đầy đủ theo hướng dẫn.",
+          "- Nhân ái: biết thể hiện tình cảm, cảm xúc tích cực trước vẻ đẹp của thơ ca.",
+          "- Trách nhiệm: biết nhận xét, góp ý lịch sự và hoàn thiện dàn ý cá nhân.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình bài viết trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -13924,13 +13974,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: đọc lại bài thơ, tìm ý đầy đủ theo hướng dẫn.",
-          "- Nhân ái: biết thể hiện tình cảm, cảm xúc tích cực trước vẻ đẹp của thơ ca.",
-          "- Trách nhiệm: biết nhận xét, góp ý lịch sự và hoàn thiện dàn ý cá nhân.",
-          "4. Tích hợp",
           "AI: 5.C4.2 - Dùng công cụ AI tạo hình minh họa ý tưởng, sau đó nhận xét điểm phù hợp và chưa phù hợp.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -14030,7 +14073,8 @@
               "- HS lắng nghe, hoàn thiện phần tìm ý để chuẩn bị viết đoạn văn ở tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT BÀI THƠ"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -14040,7 +14084,14 @@
           "- Đọc câu chuyện viết về một người làm việc trong lĩnh vực nghệ thuật.",
           "- Viết phiếu đọc sách theo mẫu, nêu được tên câu chuyện, nhân vật chính, lĩnh vực nghệ thuật, nội dung chính, chi tiết đáng nhớ và mức độ yêu thích.",
           "- Trao đổi với bạn hoặc người thân về câu chuyện đã đọc; biết chia sẻ ấn tượng về tinh thần lao động, sáng tạo của người nghệ sĩ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: chủ động tìm đọc sách, ghi phiếu đọc sách đầy đủ.",
+          "- Nhân ái: trân trọng người làm nghệ thuật và sản phẩm nghệ thuật.",
+          "- Trách nhiệm: ghi nguồn hình ảnh, tài liệu khi chia sẻ trong bài trình bày.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Sách, truyện viết về người làm việc trong lĩnh vực nghệ thuật.",
@@ -14049,14 +14100,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, vận dụng vốn từ và trải nghiệm để nói, viết sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: chủ động tìm đọc sách, ghi phiếu đọc sách đầy đủ.",
-          "- Nhân ái: trân trọng người làm nghệ thuật và sản phẩm nghệ thuật.",
-          "- Trách nhiệm: ghi nguồn hình ảnh, tài liệu khi chia sẻ trong bài trình bày.",
-          "4. Tích hợp",
-          "NLS: 2.2.CB2a - HS tìm hình ảnh minh họa thơ và ghi nguồn khi chia sẻ trong bài trình bày.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -14159,7 +14202,8 @@
               "- HS nhắc lại nội dung chính của bài, lắng nghe GV nhận xét và dặn dò đọc trước Bài 27."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -14175,7 +14219,14 @@
           "- Đọc đúng, rõ ràng văn bản Tranh làng Hồ với ngữ điệu nhẹ nhàng, tha thiết, pha chút tự hào; biết ngắt, nghỉ hơi hợp lí.",
           "- Nhận biết được những ý chính trong bài đọc; hiểu được thông tin chính về tranh làng Hồ - một dòng tranh dân gian độc đáo của vùng quê Bắc Bộ, di sản văn hoá phi vật thể cấp quốc gia.",
           "- Biết trả lời câu hỏi đọc hiểu, nêu cảm nhận về những bức tranh làng Hồ và bày tỏ sự trân trọng đối với sản phẩm tinh thần dân tộc Việt.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Yêu nước: tự hào và trân trọng các giá trị văn hóa, nghệ thuật truyền thống của dân tộc.",
+          "- Nhân ái: biết kính trọng những người nghệ sĩ dân gian, trân trọng bàn tay lao động sáng tạo.",
+          "- Trách nhiệm: có ý thức giữ gìn, giới thiệu và lan tỏa giá trị di sản văn hóa truyền thống.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Tranh làng Hồ; hình trong SGK được cắt và chèn đúng vị trí.",
@@ -14184,13 +14235,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Yêu nước: tự hào và trân trọng các giá trị văn hóa, nghệ thuật truyền thống của dân tộc.",
-          "- Nhân ái: biết kính trọng những người nghệ sĩ dân gian, trân trọng bàn tay lao động sáng tạo.",
-          "- Trách nhiệm: có ý thức giữ gìn, giới thiệu và lan tỏa giá trị di sản văn hóa truyền thống.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục ý thức giữ gìn di sản văn hóa dân tộc, trân trọng bàn tay lao động của nghệ nhân.",
           "Quyền con người: Lồng ghép quyền tham gia đời sống văn hóa và quyền được tiếp cận các giá trị nghệ thuật truyền thống.",
           "- ....................................................................................................................................................",
@@ -14379,7 +14423,8 @@
               "- HS lắng nghe và thực hiện theo hướng dẫn.+ Liên hệ nội dung bài học với bản thân.+ Trao đổi, chia sẻ ý kiến phù hợp.+ Ghi nhớ cách thực hiện trong học tập và cuộc sống."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: TRANH LÀNG HỒ"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐIỆP TỪ, ĐIỆP NGỮ",
@@ -14389,7 +14434,14 @@
           "- Xác định được điệp từ, điệp ngữ trong câu thơ, đoạn văn và đoạn thơ.",
           "- Nêu được tác dụng của biện pháp điệp từ, điệp ngữ trong từng ngữ liệu cụ thể.",
           "- Viết được 2 - 3 câu thể hiện tình cảm, cảm xúc về một đoạn thơ, đoạn văn, trong đó có sử dụng biện pháp điệp từ, điệp ngữ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực luyện tập, hoàn thành bài tập trong SGK.",
+          "- Trách nhiệm: sử dụng từ ngữ chính xác, trình bày bài sạch, rõ ràng.",
+          "- Nhân ái: biết thể hiện tình cảm, cảm xúc đẹp qua câu văn, câu thơ.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình bài tập Luyện từ và câu trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -14398,13 +14450,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực luyện tập, hoàn thành bài tập trong SGK.",
-          "- Trách nhiệm: sử dụng từ ngữ chính xác, trình bày bài sạch, rõ ràng.",
-          "- Nhân ái: biết thể hiện tình cảm, cảm xúc đẹp qua câu văn, câu thơ.",
-          "4. Tích hợp",
           "NLS: 1.2.CB2a - HS tra cứu tranh dân gian Đông Hồ từ bảo tàng/website uy tín.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -14497,7 +14542,8 @@
               "- HS lắng nghe, sửa lỗi câu văn nếu có và chuẩn bị cho tiết Viết."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐIỆP TỪ, ĐIỆP NGỮ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT BÀI THƠ",
@@ -14507,7 +14553,14 @@
           "- Viết được đoạn văn thể hiện tình cảm, cảm xúc về một bài thơ đúng yêu cầu, dựa trên dàn ý đã lập.",
           "- Biết sắp xếp các ý trong đoạn văn hợp lí, diễn đạt rõ ý, nêu được tình cảm, cảm xúc qua từ ngữ và câu văn giàu sức biểu cảm.",
           "- Biết đọc soát và chỉnh sửa đoạn văn theo gợi ý trong SGK.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tập trung viết bài, đọc soát và chỉnh sửa sản phẩm.",
+          "- Nhân ái: biết bộc lộ tình cảm, cảm xúc tích cực trước vẻ đẹp của thơ ca.",
+          "- Trách nhiệm: viết bài trung thực, không sao chép bài của bạn, biết tiếp thu góp ý.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình hoạt động Viết trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -14516,13 +14569,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tập trung viết bài, đọc soát và chỉnh sửa sản phẩm.",
-          "- Nhân ái: biết bộc lộ tình cảm, cảm xúc tích cực trước vẻ đẹp của thơ ca.",
-          "- Trách nhiệm: viết bài trung thực, không sao chép bài của bạn, biết tiếp thu góp ý.",
-          "4. Tích hợp",
           "AI: 5.C4.2 - Quan sát hình ảnh số, thảo luận AI có thể phục dựng tranh nhưng cần tôn trọng giá trị truyền thống.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -14606,7 +14652,8 @@
               "- HS nhắc lại nội dung chính của bài, chuẩn bị đọc trước Bài 28."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT BÀI THƠ"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: TẬP HÁT QUAN HỌ",
@@ -14616,7 +14663,14 @@
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Tập hát quan họ; biết đọc diễn cảm với giọng đọc phù hợp, nhấn giọng vào những từ ngữ cần thiết để thể hiện tâm trạng, cảm xúc của nhân vật.",
           "- Nhận biết được trình tự các sự việc gắn với thời gian, địa điểm cụ thể; hiểu suy nghĩ, cảm xúc của nhân vật; nêu được đặc điểm các nhân vật dựa vào hành động, lời nói của nhân vật.",
           "- Hiểu điều tác giả muốn nói qua câu chuyện: Giữ gìn những làn điệu dân ca quan họ là một cách để giữ gìn văn hoá truyền thống, nghệ thuật truyền thống của Việt Nam.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Yêu nước: yêu dân ca, tự hào về nghệ thuật truyền thống và có ý thức giữ gìn di sản văn hóa dân tộc.",
+          "- Nhân ái: biết trân trọng người dạy hát, người biểu diễn và những người gìn giữ nghệ thuật truyền thống.",
+          "- Trách nhiệm: có ý thức tìm hiểu, giới thiệu, bảo tồn những giá trị văn hóa tốt đẹp của quê hương.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa phần Khởi động và bài đọc Tập hát quan họ; hình trong SGK được cắt đúng vị trí.",
@@ -14625,13 +14679,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Yêu nước: yêu dân ca, tự hào về nghệ thuật truyền thống và có ý thức giữ gìn di sản văn hóa dân tộc.",
-          "- Nhân ái: biết trân trọng người dạy hát, người biểu diễn và những người gìn giữ nghệ thuật truyền thống.",
-          "- Trách nhiệm: có ý thức tìm hiểu, giới thiệu, bảo tồn những giá trị văn hóa tốt đẹp của quê hương.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng tình yêu dân ca, ý thức bảo tồn di sản văn hóa phi vật thể của quê hương.",
           "Quyền con người: Giáo dục quyền được tham gia sinh hoạt văn hóa, nghệ thuật lành mạnh phù hợp với lứa tuổi.",
           "- ....................................................................................................................................................",
@@ -14812,7 +14859,8 @@
               "- HS lắng nghe và thực hiện theo hướng dẫn.+ Liên hệ nội dung bài học với bản thân.+ Trao đổi, chia sẻ ý kiến phù hợp.+ Ghi nhớ cách thực hiện trong học tập và cuộc sống."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: TẬP HÁT QUAN HỌ"
       },
       {
         "lessonTitle": "BÀI 28: TẬP HÁT QUAN HỌ",
@@ -14823,7 +14871,14 @@
           "- Biết nghe nhận xét chung, đọc lại đoạn văn đã viết và tự đánh giá ưu điểm, hạn chế của bài viết.",
           "- Biết chỉnh sửa đoạn văn theo góp ý; viết lại một số câu văn cho hay hơn.",
           "- Biết chia sẻ, nhận xét sản phẩm của bạn bằng lời lẽ lịch sự, cụ thể.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: nghiêm túc đọc soát, sửa lỗi và hoàn thiện bài viết.",
+          "- Nhân ái: biết góp ý nhẹ nhàng, tôn trọng sản phẩm viết của bạn.",
+          "- Trách nhiệm: biết tiếp thu góp ý, tự hoàn thiện sản phẩm học tập.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình hoạt động Viết trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -14832,13 +14887,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: nghiêm túc đọc soát, sửa lỗi và hoàn thiện bài viết.",
-          "- Nhân ái: biết góp ý nhẹ nhàng, tôn trọng sản phẩm viết của bạn.",
-          "- Trách nhiệm: biết tiếp thu góp ý, tự hoàn thiện sản phẩm học tập.",
-          "4. Tích hợp",
           "NLS: 2.5.CB2a - HS chia sẻ, nhận xét tiết mục nghệ thuật trên lớp học số bằng lời lẽ lịch sự.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -14934,7 +14982,8 @@
               "- HS lắng nghe, hoàn thiện bài viết vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28: TẬP HÁT QUAN HỌ"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: CHƯƠNG TRÌNH NGHỆ THUẬT EM YÊU THÍCH",
@@ -14944,7 +14993,13 @@
           "- Giới thiệu được một chương trình nghệ thuật mà em đã được xem trực tiếp hoặc trên ti vi.",
           "- Biết chuẩn bị nội dung giới thiệu, trình bày rõ ràng, tự tin, có sử dụng phương tiện hỗ trợ phù hợp nếu cần.",
           "- Biết lắng nghe, ghi chép thông tin quan trọng, đặt câu hỏi để hiểu rõ hơn về chương trình nghệ thuật bạn giới thiệu.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết lắng nghe, tôn trọng sở thích nghệ thuật của bạn.",
+          "- Trách nhiệm: chuẩn bị nội dung đầy đủ, góp ý văn minh và chia sẻ đúng mực.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình hoạt động Nói và nghe trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -14953,14 +15008,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
           "- Tự tin: mạnh dạn trình bày trước nhóm và trước lớp.",
-          "- Nhân ái: biết lắng nghe, tôn trọng sở thích nghệ thuật của bạn.",
-          "- Trách nhiệm: chuẩn bị nội dung đầy đủ, góp ý văn minh và chia sẻ đúng mực.",
-          "4. Tích hợp",
-          "Quyền con người: Rèn quyền được bày tỏ ý kiến, biết lắng nghe và tôn trọng ý kiến khác biệt khi trao đổi về chủ điểm tập hát quan họ.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -15055,7 +15103,8 @@
               "- HS nhắc lại nội dung chính của bài học và chuẩn bị đọc trước Bài 29."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: CHƯƠNG TRÌNH NGHỆ THUẬT EM YÊU THÍCH"
       }
     ]
   },
@@ -15071,7 +15120,14 @@
           "- Đọc đúng, rõ ràng tờ quảng cáo phim hoạt hình Chú ốc sên bay; biết đọc diễn cảm, giọng hào hứng, sôi nổi, nhấn giọng ở những từ ngữ thể hiện cảm xúc, gây chú ý trong bài đọc.",
           "- Nhận biết được các thông tin chính của văn bản quảng cáo phim; hiểu nội dung, kĩ xảo và hình thức trình bày của tờ quảng cáo.",
           "- Biết nhận xét một sản phẩm văn hóa phù hợp với lứa tuổi; nêu được từ ngữ gây ấn tượng, thu hút khán giả và bày tỏ cảm nhận về bộ phim.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc bài, tìm thông tin, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết xem phim có chọn lọc, chọn sản phẩm văn hóa phù hợp và có giá trị giáo dục.",
+          "- Nhân ái: biết tôn trọng sở thích, cảm nhận của bạn khi trao đổi về phim hoạt hình.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh ảnh minh họa phim hoạt hình Chú ốc sên bay; hình trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -15080,13 +15136,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc bài, tìm thông tin, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết xem phim có chọn lọc, chọn sản phẩm văn hóa phù hợp và có giá trị giáo dục.",
-          "- Nhân ái: biết tôn trọng sở thích, cảm nhận của bạn khi trao đổi về phim hoạt hình.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục thói quen xem phim có chọn lọc, biết nhận xét nhân vật và thông điệp tích cực.",
           "Quyền con người: Lồng ghép quyền trẻ em được tiếp cận sản phẩm văn hóa phù hợp, an toàn và có giá trị giáo dục.",
           "- ....................................................................................................................................................",
@@ -15275,7 +15324,8 @@
               "- HS lắng nghe và thực hiện theo hướng dẫn.+ Liên hệ nội dung bài học với bản thân.+ Trao đổi, chia sẻ ý kiến phù hợp.+ Ghi nhớ cách thực hiện trong học tập và cuộc sống."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: PHIM HOẠT HÌNH CHÚ ỐC SÊN BAY"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: KẾT TỪ",
@@ -15285,7 +15335,13 @@
           "- Nhận biết được các kết từ dùng để liên kết từ ngữ, câu hoặc các bộ phận trong câu.",
           "- Chỉ ra được các cặp kết từ trong câu và hiểu được quan hệ ý nghĩa do cặp kết từ biểu thị.",
           "- Biết tìm kết từ phù hợp để thay cho bông hoa và viết câu có kết từ để giới thiệu tranh, bức ảnh.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc ngữ liệu, làm bài tập và sửa bài theo góp ý.",
+          "- Trách nhiệm: dùng từ chính xác, trình bày câu rõ ràng, giữ gìn sự trong sáng của tiếng Việt.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình bài tập Luyện từ và câu trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -15294,13 +15350,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc ngữ liệu, làm bài tập và sửa bài theo góp ý.",
-          "- Trách nhiệm: dùng từ chính xác, trình bày câu rõ ràng, giữ gìn sự trong sáng của tiếng Việt.",
           "- Hợp tác: biết trao đổi nhóm, lắng nghe và thống nhất đáp án.",
-          "4. Tích hợp",
           "NLS: 6.1.CB2a - HS tìm hiểu công cụ dựng hoạt hình và nhận biết công nghệ số trong tạo chuyển động.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -15428,7 +15478,8 @@
               "- HS lắng nghe, ghi nhớ nội dung bài học."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: KẾT TỪ"
       },
       {
         "lessonTitle": "BÀI 29: PHIM HOẠT HÌNH CHÚ ỐC SÊN BAY",
@@ -15439,7 +15490,14 @@
           "- Nhận biết được cấu tạo của đoạn văn giới thiệu nhân vật trong một bộ phim hoạt hình.",
           "- Xác định được phần mở đầu, triển khai, kết thúc của đoạn văn và nội dung từng phần.",
           "- Biết trao đổi về những điểm cần lưu ý khi viết đoạn văn giới thiệu nhân vật trong một bộ phim hoạt hình.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc đoạn văn mẫu, trả lời câu hỏi và ghi nhớ cách viết.",
+          "- Nhân ái: biết yêu quý nhân vật có phẩm chất tốt đẹp, biết chia sẻ cảm xúc tích cực.",
+          "- Trách nhiệm: lựa chọn nhân vật phù hợp, giới thiệu trung thực, rõ ràng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình hoạt động Viết trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -15448,13 +15506,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc đoạn văn mẫu, trả lời câu hỏi và ghi nhớ cách viết.",
-          "- Nhân ái: biết yêu quý nhân vật có phẩm chất tốt đẹp, biết chia sẻ cảm xúc tích cực.",
-          "- Trách nhiệm: lựa chọn nhân vật phù hợp, giới thiệu trung thực, rõ ràng.",
-          "4. Tích hợp",
           "AI: 5.D2.1 - Tìm hiểu AI học từ nhiều khung hình cũ để giúp chuyển động hoạt hình mượt mà hơn.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -15614,7 +15665,8 @@
               "- HS nhắc lại nội dung chính của bài học và chuẩn bị đọc trước Bài 30."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 29: PHIM HOẠT HÌNH CHÚ ỐC SÊN BAY"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: NGHỆ THUẬT MÚA BA LÊ",
@@ -15624,7 +15676,15 @@
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ văn bản Nghệ thuật múa ba lê; biết đọc diễn cảm với giọng đọc phù hợp, nhấn giọng vào những từ ngữ cần thiết để thể hiện tâm trạng, cảm xúc của nhân vật.",
           "- Nhận biết được những chi tiết tiêu biểu và các thông tin chính của văn bản; nhận biết được trình tự các sự việc thể hiện trong văn bản.",
           "- Hiểu điều tác giả muốn nói qua văn bản: Múa ba lê là một môn nghệ thuật rất độc đáo và tinh tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực luyện đọc, tìm thông tin trong văn bản và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết trân trọng công sức luyện tập của nghệ sĩ, có ý thức học tập nghiêm túc.",
+          "- Nhân ái: biết tôn trọng người biểu diễn nghệ thuật và cảm nhận khác nhau của bạn.",
+          "4. Tích hợp",
+          "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tinh thần kỉ luật, chăm chỉ luyện tập và tôn trọng công sức của nghệ sĩ."
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Nghệ thuật múa ba lê; hình trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -15633,14 +15693,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực luyện đọc, tìm thông tin trong văn bản và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết trân trọng công sức luyện tập của nghệ sĩ, có ý thức học tập nghiêm túc.",
-          "- Nhân ái: biết tôn trọng người biểu diễn nghệ thuật và cảm nhận khác nhau của bạn.",
-          "4. Tích hợp",
-          "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tinh thần kỉ luật, chăm chỉ luyện tập và tôn trọng công sức của nghệ sĩ.",
           "Quyền con người: Lồng ghép quyền được tham gia, thưởng thức nghệ thuật và phát triển năng khiếu cá nhân.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -15860,7 +15912,8 @@
               "- HS lắng nghe và thực hiện theo hướng dẫn.+ Liên hệ nội dung bài học với bản thân.+ Trao đổi, chia sẻ ý kiến phù hợp.+ Ghi nhớ cách thực hiện trong học tập và cuộc sống."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NGHỆ THUẬT MÚA BA LÊ"
       },
       {
         "lessonTitle": "BÀI 30: NGHỆ THUẬT MÚA BA LÊ",
@@ -15871,7 +15924,14 @@
           "- Biết lựa chọn một nhân vật trong bộ phim hoạt hình đã xem để giới thiệu.",
           "- Biết xác định các ý chính: tên phim, tên nhân vật, đặc điểm ngoại hình, tính cách, hành động gây ấn tượng, cảm nghĩ về nhân vật.",
           "- Biết góp ý, chỉnh sửa dàn ý để chuẩn bị viết đoạn văn giới thiệu nhân vật.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực chuẩn bị, ghi ý và hoàn thiện dàn ý.",
+          "- Nhân ái: biết góp ý nhẹ nhàng, tôn trọng nhân vật và sản phẩm của bạn.",
+          "- Trách nhiệm: lựa chọn thông tin đúng, phù hợp và có ý thức hoàn thiện bài viết.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình hoạt động Viết trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -15880,13 +15940,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực chuẩn bị, ghi ý và hoàn thiện dàn ý.",
-          "- Nhân ái: biết góp ý nhẹ nhàng, tôn trọng nhân vật và sản phẩm của bạn.",
-          "- Trách nhiệm: lựa chọn thông tin đúng, phù hợp và có ý thức hoàn thiện bài viết.",
-          "4. Tích hợp",
           "AI: 5.C4.2 - Dùng học liệu số/AI gợi ý động tác mẫu, sau đó nhận xét vẻ đẹp kỉ luật của nghệ thuật biểu diễn.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -15994,7 +16047,8 @@
               "- HS lắng nghe, tự rà soát dàn ý của mình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 30: NGHỆ THUẬT MÚA BA LÊ"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -16004,7 +16058,14 @@
           "- Tìm đọc được một bài giới thiệu phim phù hợp với lứa tuổi.",
           "- Viết được phiếu đọc sách theo mẫu, ghi lại tên phim, nhân vật chính, nội dung chính, chi tiết gây ấn tượng và mức độ yêu thích.",
           "- Biết trao đổi với bạn về bài giới thiệu đã đọc, nêu suy nghĩ, cảm xúc của mình.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: chủ động tìm đọc, ghi chép và hoàn thành phiếu đọc sách.",
+          "- Trách nhiệm: lựa chọn nguồn đọc phù hợp, biết ghi thông tin trung thực.",
+          "- Nhân ái: lắng nghe, tôn trọng cảm nhận và sở thích đọc của bạn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình hoạt động Đọc mở rộng trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -16013,13 +16074,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: chủ động tìm đọc, ghi chép và hoàn thành phiếu đọc sách.",
-          "- Trách nhiệm: lựa chọn nguồn đọc phù hợp, biết ghi thông tin trung thực.",
-          "- Nhân ái: lắng nghe, tôn trọng cảm nhận và sở thích đọc của bạn.",
-          "4. Tích hợp",
           "NLS: 5.2.CB2a - HS xem video tư liệu về múa ba lê, lựa chọn nguồn học liệu phù hợp.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -16119,7 +16173,8 @@
               "- HS lắng nghe, chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -16135,7 +16190,14 @@
           "- Đọc đúng bài Một ngôi chùa độc đáo; biết nhấn giọng vào những từ ngữ thể hiện thông tin quan trọng về chùa Một Cột, thể hiện niềm tự hào về công trình kiến trúc này.",
           "- Hiểu được vẻ đẹp độc đáo trong kiến trúc chùa Một Cột - di tích lịch sử, văn hoá vô giá của nước ta; biết thời gian xây dựng, địa điểm toạ lạc và nguồn gốc tên gọi của chùa Một Cột; hiểu được khả năng sáng tạo nghệ thuật của cha ông chúng ta.",
           "- Biết tóm tắt bài đọc theo gợi ý; nêu được điều bài đọc muốn nói và chia sẻ thông tin gây ấn tượng.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Yêu nước: thêm yêu và tự hào về quê hương, đất nước; trân trọng các di tích lịch sử, văn hoá trên quê hương.",
+          "- Trách nhiệm: có ý thức giữ gìn di tích lịch sử, ứng xử văn minh nơi công cộng và nơi tham quan.",
+          "- Chăm chỉ: tích cực đọc bài, tìm thông tin, thảo luận và hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh ảnh khởi động và tranh minh hoạ bài đọc trong SGK được cắt đúng nội dung, chèn đúng vị trí.",
@@ -16144,13 +16206,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Yêu nước: thêm yêu và tự hào về quê hương, đất nước; trân trọng các di tích lịch sử, văn hoá trên quê hương.",
-          "- Trách nhiệm: có ý thức giữ gìn di tích lịch sử, ứng xử văn minh nơi công cộng và nơi tham quan.",
-          "- Chăm chỉ: tích cực đọc bài, tìm thông tin, thảo luận và hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục ý thức tôn trọng di sản kiến trúc, ứng xử văn minh nơi công cộng và nơi tham quan.",
           "Quyền con người: Lồng ghép thái độ tôn trọng giá trị văn hóa, tín ngưỡng và sự đa dạng trong đời sống cộng đồng.",
           "- ....................................................................................................................................................",
@@ -16340,7 +16395,8 @@
               "- HS lắng nghe và thực hiện theo hướng dẫn.+ Liên hệ nội dung bài học với bản thân.+ Trao đổi, chia sẻ ý kiến phù hợp.+ Ghi nhớ cách thực hiện trong học tập và cuộc sống."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: MỘT NGÔI CHÙA ĐỘC ĐÁO"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ KẾT TỪ",
@@ -16350,7 +16406,14 @@
           "- Nhận diện kết từ, sử dụng đúng kết từ trong những ngữ cảnh cụ thể để nối các từ ngữ, các vế câu với nhau.",
           "- Biết lựa chọn kết từ phù hợp để hoàn thiện câu; biết viết tiếp câu với kết từ cho sẵn.",
           "- Vận dụng kiến thức về kết từ để diễn đạt câu văn rõ nghĩa, mạch lạc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc đề, làm bài và sửa bài.",
+          "- Trách nhiệm: hoàn thành bài tập cá nhân, hợp tác trong nhóm và ghi chép đáp án đúng.",
+          "- Trung thực: tự đánh giá kết quả làm bài, mạnh dạn sửa lỗi dùng kết từ.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình bài tập Luyện từ và câu trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -16359,13 +16422,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc đề, làm bài và sửa bài.",
-          "- Trách nhiệm: hoàn thành bài tập cá nhân, hợp tác trong nhóm và ghi chép đáp án đúng.",
-          "- Trung thực: tự đánh giá kết quả làm bài, mạnh dạn sửa lỗi dùng kết từ.",
-          "4. Tích hợp",
           "NLS: 1.1.CB2b - HS tra cứu hình ảnh 360 độ về kiến trúc chùa, ghi nhận thông tin chính.",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
@@ -16470,7 +16526,8 @@
               "- HS lắng nghe, ghi nhớ cách dùng kết từ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ KẾT TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN GIỚI THIỆU NHÂN VẬT TRONG MỘT BỘ PHIM HOẠT HÌNH",
@@ -16480,7 +16537,14 @@
           "- Viết được đoạn văn giới thiệu về một nhân vật trong bộ phim hoạt hình em đã được xem.",
           "- Biết dựa vào các ý đã tìm được trong hoạt động Viết ở Bài 30 để viết đoạn văn có đủ mở đầu, triển khai, kết thúc.",
           "- Biết đọc soát và chỉnh sửa đoạn văn theo gợi ý trong SGK.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực viết bài, đọc soát và hoàn thiện đoạn văn.",
+          "- Trách nhiệm: sử dụng dẫn chứng phù hợp, trình bày bài viết rõ ràng, trung thực với trải nghiệm xem phim.",
+          "- Nhân ái: biết nhận xét, góp ý cho bạn bằng lời nói nhẹ nhàng, tôn trọng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình hoạt động Viết trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -16489,13 +16553,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực viết bài, đọc soát và hoàn thiện đoạn văn.",
-          "- Trách nhiệm: sử dụng dẫn chứng phù hợp, trình bày bài viết rõ ràng, trung thực với trải nghiệm xem phim.",
-          "- Nhân ái: biết nhận xét, góp ý cho bạn bằng lời nói nhẹ nhàng, tôn trọng.",
-          "4. Tích hợp",
           "AI: 5.C4.2 - Trải nghiệm ảnh 3D/tham quan ảo, nhận biết AI hỗ trợ khám phá di sản văn hóa.",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
@@ -16580,7 +16637,8 @@
               "- HS lắng nghe, tự rà soát sản phẩm viết của mình."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN GIỚI THIỆU NHÂN VẬT TRONG MỘT BỘ PHIM HOẠT HÌNH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: SỰ TÍCH CHÚ TỄU",
@@ -16590,7 +16648,14 @@
           "- Đọc đúng và diễn cảm văn bản kịch Sự tích chú Tễu; biết thể hiện giọng đọc phù hợp với lời thoại của nhân vật; biết nhấn giọng vào những từ ngữ cần thiết để thể hiện ngữ điệu của lời nói, cảm xúc của nhân vật.",
           "- Nhận biết được nội dung cuộc trò chuyện của hai nhân vật trong vở kịch; cảm nhận được suy nghĩ, cảm xúc của các nhân vật trong mỗi cảnh của vở kịch.",
           "- Hiểu ý nghĩa của kịch bản: đưa ra một cách giải thích về sự xuất hiện của nhân vật chú Tễu được yêu thích trong các vở múa rối nước.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Yêu nước: biết cảm nhận, thưởng thức nghệ thuật truyền thống, có hứng thú tìm hiểu nghệ thuật cổ truyền dân tộc.",
+          "- Trách nhiệm: có ý thức giữ gìn nghệ thuật múa rối nước và bảo vệ không gian văn hóa làng quê.",
+          "- Nhân ái: biết trân trọng ước mơ, tâm nguyện tốt đẹp và nỗ lực của người khác.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -16599,13 +16664,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Yêu nước: biết cảm nhận, thưởng thức nghệ thuật truyền thống, có hứng thú tìm hiểu nghệ thuật cổ truyền dân tộc.",
-          "- Trách nhiệm: có ý thức giữ gìn nghệ thuật múa rối nước và bảo vệ không gian văn hóa làng quê.",
-          "- Nhân ái: biết trân trọng ước mơ, tâm nguyện tốt đẹp và nỗ lực của người khác.",
-          "4. Tích hợp",
           "Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục ý thức giữ gìn nghệ thuật múa rối nước, trân trọng trí tuệ dân gian.",
           "Tiết kiệm và bảo vệ nguồn nước: Liên hệ sân khấu rối nước và ao hồ; nhắc HS bảo vệ nguồn nước, không làm ô nhiễm ao hồ làng quê.",
           "- ....................................................................................................................................................",
@@ -16814,7 +16872,8 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: SỰ TÍCH CHÚ TỄU"
       },
       {
         "lessonTitle": "BÀI 32: SỰ TÍCH CHÚ TỄU",
@@ -16825,7 +16884,14 @@
           "- Biết nghe thầy cô giáo nhận xét chung về đoạn văn giới thiệu nhân vật trong một bộ phim hoạt hình.",
           "- Biết đọc lại đoạn văn của mình, nhận xét bài viết theo gợi ý trong SGK, phát hiện lỗi và chỉnh sửa bài viết cho hay hơn.",
           "- Viết lại được câu hoặc đoạn trong bài làm cho rõ hơn, hay hơn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc lại, sửa lỗi và hoàn thiện bài viết.",
+          "- Trách nhiệm: tự đánh giá bài làm, tiếp thu góp ý phù hợp và chỉnh sửa cẩn thận.",
+          "- Nhân ái: nhận xét bài của bạn với thái độ tôn trọng, góp ý xây dựng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình hoạt động Viết trong SGK được cắt đúng nội dung và chèn đúng vị trí.",
@@ -16834,13 +16900,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc lại, sửa lỗi và hoàn thiện bài viết.",
-          "- Trách nhiệm: tự đánh giá bài làm, tiếp thu góp ý phù hợp và chỉnh sửa cẩn thận.",
-          "- Nhân ái: nhận xét bài của bạn với thái độ tôn trọng, góp ý xây dựng.",
-          "4. Tích hợp",
           "NLS: 3.1.CB2a - HS tạo phiếu giới thiệu phim yêu thích bằng mẫu số, trình bày ngắn gọn.",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
@@ -16933,7 +16992,8 @@
               "- HS lắng nghe, ghi nhớ cách tự sửa bài."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 32: SỰ TÍCH CHÚ TỄU"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: BỘ PHIM YÊU THÍCH",
@@ -16943,7 +17003,13 @@
           "- Biết giới thiệu, trình bày ý kiến về một bộ phim yêu thích đã xem.",
           "- Biết chuẩn bị thông tin, sắp xếp ý theo trình tự logic, hợp lí và lựa chọn phương tiện hỗ trợ trình bày nếu cần.",
           "- Biết trao đổi, góp ý, lắng nghe và phản hồi lịch sự sau phần trình bày của bạn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết lắng nghe, tôn trọng sở thích và cảm nhận khác biệt của bạn.",
+          "- Trách nhiệm: chọn bộ phim phù hợp lứa tuổi, trình bày trung thực và sử dụng phương tiện hỗ trợ an toàn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Hình hoạt động Nói và nghe trong SGK được cắt đúng nội dung, chèn đúng vị trí.",
@@ -16952,14 +17018,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4, nhóm 6; biết lắng nghe, trình bày, nhận xét và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm chi tiết, lựa chọn thông tin, dùng từ ngữ phù hợp và thể hiện suy nghĩ sáng tạo.",
-          "3. Phẩm chất",
           "- Tự tin: mạnh dạn giới thiệu bộ phim yêu thích trước nhóm, trước lớp.",
-          "- Nhân ái: biết lắng nghe, tôn trọng sở thích và cảm nhận khác biệt của bạn.",
-          "- Trách nhiệm: chọn bộ phim phù hợp lứa tuổi, trình bày trung thực và sử dụng phương tiện hỗ trợ an toàn.",
-          "4. Tích hợp",
-          "Quyền con người: Rèn quyền được bày tỏ ý kiến, biết lắng nghe và tôn trọng ý kiến khác biệt khi trao đổi về chủ điểm sự tích chú tễu.",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -17074,7 +17133,8 @@
               "- HS chia sẻ nội dung yêu thích và ghi nhớ nhiệm vụ chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: BỘ PHIM YÊU THÍCH"
       }
     ]
   },
@@ -17090,7 +17150,14 @@
           "- Ôn lại được bốn chủ điểm đã học trong học kì I và nêu được hiểu biết, ý nghĩa của mỗi chủ điểm.",
           "- Đọc lại một câu chuyện hoặc bài thơ trong các chủ điểm đã học; trả lời được câu hỏi về chủ điểm, tác giả, nội dung chính và điều gây ấn tượng.",
           "- Ôn tập về kết từ, từ ngữ dùng để xưng hô trong giao tiếp; biết xác định từ dùng để xưng hô trong văn bản cụ thể.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để giải bài tập, lựa chọn cách trình bày phù hợp.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực ôn tập, đọc lại bài đã học và hoàn thành các nhiệm vụ học tập.",
+          "- Trách nhiệm: tự giác làm bài, sửa lỗi và ghi nhớ kiến thức cần ôn.",
+          "- Nhân ái: biết lắng nghe, góp ý cho bạn với thái độ tôn trọng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Phiếu học tập theo nội dung tiết 1 - 2 để HS không làm trực tiếp vào SGK.",
@@ -17099,13 +17166,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để giải bài tập, lựa chọn cách trình bày phù hợp.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực ôn tập, đọc lại bài đã học và hoàn thành các nhiệm vụ học tập.",
-          "- Trách nhiệm: tự giác làm bài, sửa lỗi và ghi nhớ kiến thức cần ôn.",
-          "- Nhân ái: biết lắng nghe, góp ý cho bạn với thái độ tôn trọng.",
-          "4. Tích hợp",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
@@ -17222,7 +17282,8 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: PHẦN 1 - ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3 - 4: PHẦN 1 - ÔN TẬP",
@@ -17232,7 +17293,14 @@
           "- Đọc lại một trong bốn bài đọc đã học và nêu được cảm nghĩ của bản thân về bài đọc đó.",
           "- Ôn tập một số kiến thức tiếng Việt: biện pháp tu từ, kết từ, đại từ, dấu gạch ngang, động từ, từ xưng hô, câu nghi vấn, từ đồng nghĩa, từ thay thế, từ đa nghĩa.",
           "- Nhận diện được điệp từ, điệp ngữ trong đoạn văn và nêu được tác dụng; viết được đoạn văn ngắn có sử dụng điệp từ, điệp ngữ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để giải bài tập, lựa chọn cách trình bày phù hợp.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: đọc lại văn bản đã học, tích cực tham gia giải ô chữ và làm bài.",
+          "- Trách nhiệm: hoàn thành nhiệm vụ cá nhân và nhóm đúng thời gian.",
+          "- Nhân ái: biết lắng nghe cảm nghĩ của bạn, góp ý lịch sự.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Phiếu học tập cho các bài 1, 2, 3, 4, 5.",
@@ -17241,13 +17309,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để giải bài tập, lựa chọn cách trình bày phù hợp.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: đọc lại văn bản đã học, tích cực tham gia giải ô chữ và làm bài.",
-          "- Trách nhiệm: hoàn thành nhiệm vụ cá nhân và nhóm đúng thời gian.",
-          "- Nhân ái: biết lắng nghe cảm nghĩ của bạn, góp ý lịch sự.",
-          "4. Tích hợp",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
@@ -17376,7 +17437,8 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4: PHẦN 1 - ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5: PHẦN 1 - ÔN TẬP",
@@ -17386,7 +17448,14 @@
           "- Trao đổi được với bạn về nội dung của một cuốn sách viết về một tấm gương học tập.",
           "- Viết được đoạn văn giới thiệu về một nhân vật tài năng trong cuốn sách đã đọc.",
           "- Biết trao đổi với bạn để góp ý cho nhau và chỉnh sửa bài viết.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để giải bài tập, lựa chọn cách trình bày phù hợp.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc sách, tìm hiểu tấm gương học tập và hoàn thành đoạn văn.",
+          "- Trách nhiệm: biết tự chỉnh sửa bài viết theo góp ý của bạn, của GV.",
+          "- Nhân ái: góp ý bài của bạn bằng lời lẽ lịch sự, xây dựng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Phiếu gợi ý trao đổi về sách, phiếu viết đoạn văn.",
@@ -17395,13 +17464,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để giải bài tập, lựa chọn cách trình bày phù hợp.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc sách, tìm hiểu tấm gương học tập và hoàn thành đoạn văn.",
-          "- Trách nhiệm: biết tự chỉnh sửa bài viết theo góp ý của bạn, của GV.",
-          "- Nhân ái: góp ý bài của bạn bằng lời lẽ lịch sự, xây dựng.",
-          "4. Tích hợp",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
@@ -17494,7 +17556,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: PHẦN 1 - ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 6 - 7: PHẦN 2 - ĐÁNH GIÁ CUỐI HỌC KÌ I",
@@ -17504,7 +17567,14 @@
           "- Đọc thành tiếng một văn bản và trả lời được câu hỏi theo yêu cầu kiểm tra.",
           "- Đọc hiểu được văn bản thông tin Những điều thú vị về chim di cư; trả lời câu hỏi, lập sơ đồ cấu trúc bài đọc, nhận biết dấu gạch ngang, từ ngữ thay thế và kết từ.",
           "- Viết được đoạn văn theo một trong hai đề: giới thiệu nhân vật trong cuốn sách/bộ phim hoạt hình hoặc thể hiện tình cảm, cảm xúc về một bài thơ ca ngợi tình cảm gia đình.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để giải bài tập, lựa chọn cách trình bày phù hợp.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: đọc kĩ văn bản, làm bài đầy đủ và kiểm tra lại bài làm.",
+          "- Trung thực: tự giác làm bài, không nhìn bài của bạn.",
+          "- Trách nhiệm: thực hiện nghiêm túc yêu cầu đánh giá cuối học kì I.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Phiếu kiểm tra tham khảo tiết 6 - 7; hình đề tham khảo trong SGK được cắt đúng nội dung, chèn đúng vị trí.",
@@ -17513,13 +17583,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để giải bài tập, lựa chọn cách trình bày phù hợp.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: đọc kĩ văn bản, làm bài đầy đủ và kiểm tra lại bài làm.",
-          "- Trung thực: tự giác làm bài, không nhìn bài của bạn.",
-          "- Trách nhiệm: thực hiện nghiêm túc yêu cầu đánh giá cuối học kì I.",
-          "4. Tích hợp",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
           "- ....................................................................................................................................................",
@@ -17755,7 +17818,8 @@
               "- HS ghi nhớ nhiệm vụ sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6 - 7: PHẦN 2 - ĐÁNH GIÁ CUỐI HỌC KÌ I"
       }
     ]
   },
@@ -17771,7 +17835,14 @@
           "- Đọc đúng và diễn cảm bài Tiếng hát của người đá; biết nhấn giọng ở những từ ngữ gợi hình, gợi cảm, những câu văn diễn tả những điều kì diệu của thiên nhiên và cuộc sống.",
           "- Nhận biết được nội dung chính của bài đọc: Những hành động, việc làm của chú bé người đá trong câu chuyện thể hiện niềm tin yêu đối với cuộc sống và con người.",
           "- Hiểu được những từ ngữ, hình ảnh, biện pháp so sánh, nhân hóa được sử dụng trong bài đọc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: yêu thiên nhiên, trân trọng vẻ đẹp kì diệu của quê hương, đất nước.",
+          "- Nhân ái: biết yêu thương con người, mong muốn cuộc sống bình yên, tốt đẹp.",
+          "- Chăm chỉ: tích cực luyện đọc, chuẩn bị bài và hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa chủ điểm Vẻ đẹp cuộc sống; tranh bài đọc Tiếng hát của người đá.",
@@ -17780,13 +17851,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: yêu thiên nhiên, trân trọng vẻ đẹp kì diệu của quê hương, đất nước.",
-          "- Nhân ái: biết yêu thương con người, mong muốn cuộc sống bình yên, tốt đẹp.",
-          "- Chăm chỉ: tích cực luyện đọc, chuẩn bị bài và hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình yêu thiên nhiên, biết trân trọng những giá trị kì diệu của cuộc sống.",
           "- Quyền con người: Lồng ghép quyền được sống trong môi trường an toàn, được bảo vệ trước những nguy cơ từ thiên nhiên và con người.",
           "- ....................................................................................................................................................",
@@ -17951,7 +18015,8 @@
               "- 2 - 3 HS thi đọc; lớp nhận xét về giọng đọc, cách ngắt nghỉ và nhấn giọng."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: TIẾNG HÁT CỦA NGƯỜI ĐÁ"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: CÂU ĐƠN VÀ CÂU GHÉP",
@@ -17961,7 +18026,14 @@
           "- Nhận biết được sự khác nhau giữa câu đơn và câu ghép.",
           "- Phân tích được cấu tạo của câu ghép; xác định được các vế câu trong câu ghép.",
           "- Đặt được câu ghép nói về nhân vật Nai Ngọc trong bài đọc Tiếng hát của người đá.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực làm bài tập, đọc kĩ yêu cầu và sửa bài đầy đủ.",
+          "- Trách nhiệm: hoàn thành nhiệm vụ cá nhân, nhóm đúng thời gian.",
+          "- Nhân ái: biết lắng nghe, góp ý cho bạn trong quá trình luyện tập.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Bảng phụ hoặc phiếu học tập ghi bài 1, 2, 3, 4.",
@@ -17970,13 +18042,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực làm bài tập, đọc kĩ yêu cầu và sửa bài đầy đủ.",
-          "- Trách nhiệm: hoàn thành nhiệm vụ cá nhân, nhóm đúng thời gian.",
-          "- Nhân ái: biết lắng nghe, góp ý cho bạn trong quá trình luyện tập.",
-          "4. Tích hợp",
           "- NLS: 6.2.CB2a - HS dùng công cụ dịch thuật/tra cứu để tìm hiểu tên gọi di sản văn hóa.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -18107,7 +18172,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: CÂU ĐƠN VÀ CÂU GHÉP"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN TẢ NGƯỜI",
@@ -18117,7 +18183,14 @@
           "- Biết được cấu tạo bài văn tả người gồm 3 phần: mở bài, thân bài, kết bài.",
           "- Xác định được nội dung chính của mỗi phần trong bài văn tả người.",
           "- Nhận biết được cách làm nổi bật đặc điểm của người được tả qua ngoại hình, hoạt động, sở trường.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: đọc kĩ bài văn mẫu, hoàn thành bài tập tìm hiểu cách viết.",
+          "- Trách nhiệm: ghi chép đầy đủ, chuẩn bị ý cho bài văn tả người.",
+          "- Nhân ái: biết quan sát và nhận xét người khác bằng thái độ trân trọng, lịch sự.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Bảng phụ ghi cấu tạo bài văn tả người.",
@@ -18126,13 +18199,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: đọc kĩ bài văn mẫu, hoàn thành bài tập tìm hiểu cách viết.",
-          "- Trách nhiệm: ghi chép đầy đủ, chuẩn bị ý cho bài văn tả người.",
-          "- Nhân ái: biết quan sát và nhận xét người khác bằng thái độ trân trọng, lịch sự.",
-          "4. Tích hợp",
           "- AI: 5.C4.2 - Dùng AI Search/hình ảnh 3D khám phá di sản, sau đó nêu điều con người cần trân trọng.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -18248,7 +18314,8 @@
               "- HS lắng nghe, chuẩn bị cho tiết Đọc mở rộng ở bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN TẢ NGƯỜI"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: KHÚC HÁT RU NHỮNG EM BÉ LỚN TRÊN LƯNG MẸ",
@@ -18258,7 +18325,14 @@
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ bài thơ Khúc hát ru những em bé lớn trên lưng mẹ; biết đọc diễn cảm với giọng tha thiết, tình cảm.",
           "- Hiểu nghĩa của từ ngữ, hình ảnh miêu tả sự vất vả của người mẹ, tình yêu thương của mẹ dành cho con và vẻ đẹp của tình mẫu tử.",
           "- Cảm nhận được bài thơ ca ngợi tình yêu thương, lòng biết ơn người lao động và vẻ đẹp của những người mẹ trong cuộc sống.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: trân trọng vẻ đẹp lao động, tình yêu quê hương trong cuộc sống hằng ngày.",
+          "- Nhân ái: biết yêu thương, biết ơn mẹ và những người lao động.",
+          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng và chia sẻ cảm nhận về bài thơ.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Khúc hát ru những em bé lớn trên lưng mẹ.",
@@ -18267,13 +18341,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: trân trọng vẻ đẹp lao động, tình yêu quê hương trong cuộc sống hằng ngày.",
-          "- Nhân ái: biết yêu thương, biết ơn mẹ và những người lao động.",
-          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng và chia sẻ cảm nhận về bài thơ.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng tình yêu mẹ, lòng biết ơn người lao động và ý thức chia sẻ việc nhà phù hợp với lứa tuổi.",
           "- Quyền con người: Giáo dục quyền trẻ em được chăm sóc, yêu thương và được sống trong vòng tay gia đình.",
           "- ....................................................................................................................................................",
@@ -18462,7 +18529,8 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: KHÚC HÁT RU NHỮNG EM BÉ LỚN TRÊN LƯNG MẸ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT MỞ BÀI VÀ KẾT BÀI CHO BÀI VĂN TẢ NGƯỜI",
@@ -18472,7 +18540,14 @@
           "- Nhận biết được cách mở bài trực tiếp, mở bài gián tiếp và kết bài không mở rộng, kết bài mở rộng trong bài văn tả người.",
           "- Viết được mở bài gián tiếp và kết bài mở rộng cho bài văn tả người theo cách của mình.",
           "- Biết trao đổi, góp ý và chỉnh sửa mở bài, kết bài của bài văn tả người.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: luyện viết mở bài, kết bài và sửa bài theo góp ý.",
+          "- Trách nhiệm: hoàn thành bài viết đúng yêu cầu, trình bày sạch đẹp.",
+          "- Nhân ái: biết nói về người thân bằng tình cảm trân trọng, yêu thương.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Bảng phụ ghi các kiểu mở bài, kết bài.",
@@ -18481,13 +18556,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: luyện viết mở bài, kết bài và sửa bài theo góp ý.",
-          "- Trách nhiệm: hoàn thành bài viết đúng yêu cầu, trình bày sạch đẹp.",
-          "- Nhân ái: biết nói về người thân bằng tình cảm trân trọng, yêu thương.",
-          "4. Tích hợp",
           "- AI: 5.A2.1 - Thảo luận AI có thể tạo lời ru nhưng không thay thế tình mẫu tử và cảm xúc yêu thương.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -18582,7 +18650,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT MỞ BÀI VÀ KẾT BÀI CHO BÀI VĂN TẢ NGƯỜI"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -18592,7 +18661,14 @@
           "- Đọc được sách báo viết về người tốt, việc tốt.",
           "- Viết được phiếu đọc sách theo mẫu, nêu được tên sách báo, tác giả, người làm việc tốt, ý nghĩa của việc tốt đối với cộng đồng.",
           "- Chia sẻ với người thân về một việc tốt em đã làm hoặc em mong muốn được làm cho cộng đồng.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc sách báo, ghi chép thông tin vào phiếu đọc sách.",
+          "- Trách nhiệm: biết lựa chọn sách báo phù hợp, hoàn thành phiếu đọc sách.",
+          "- Nhân ái: biết quan tâm đến việc tốt, người tốt và mong muốn làm việc có ích cho cộng đồng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Sách báo viết về người tốt, việc tốt; phiếu đọc sách.",
@@ -18601,13 +18677,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc sách báo, ghi chép thông tin vào phiếu đọc sách.",
-          "- Trách nhiệm: biết lựa chọn sách báo phù hợp, hoàn thành phiếu đọc sách.",
-          "- Nhân ái: biết quan tâm đến việc tốt, người tốt và mong muốn làm việc có ích cho cộng đồng.",
-          "4. Tích hợp",
           "- NLS: 3.1.CB2a - HS tạo poster số giới thiệu vẻ đẹp lao động và tình mẫu tử, chia sẻ trên nhóm học tập.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -18710,7 +18779,8 @@
               "- HS lắng nghe, rút kinh nghiệm và chuẩn bị bài học sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -18726,7 +18796,14 @@
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ bài thơ Hạt gạo làng ta; biết đọc diễn cảm bài thơ với giọng điệu phù hợp, nhấn giọng ở những từ ngữ nêu giá trị của hạt gạo và những khó khăn, vất vả mà người nông dân phải trải qua trong quá trình sản xuất lúa gạo.",
           "- Nhận biết được giá trị của hạt gạo thông qua các hình ảnh liên tưởng so sánh; hiểu điều tác giả muốn gửi gắm qua bài thơ: ca ngợi tinh thần vượt lên khó khăn, vất vả, phẩm chất cần cù, chịu khó của người nông dân trong việc sản xuất ra lúa gạo, nuôi sống con người.",
           "- Biết quý hạt gạo, trân trọng công sức của người nông dân trong việc sản xuất lúa gạo.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: yêu quê hương, trân trọng vẻ đẹp lao động và sản vật của làng quê Việt Nam.",
+          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng bài thơ và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết quý trọng hạt gạo, tránh lãng phí thức ăn và có ý thức tiết kiệm nước.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh hoạ bài đọc Hạt gạo làng ta; tranh ảnh về công việc của người nông dân.",
@@ -18735,13 +18812,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: yêu quê hương, trân trọng vẻ đẹp lao động và sản vật của làng quê Việt Nam.",
-          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng bài thơ và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết quý trọng hạt gạo, tránh lãng phí thức ăn và có ý thức tiết kiệm nước.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục lòng biết ơn người nông dân, biết quý trọng hạt gạo và tránh lãng phí thức ăn.",
           "- Tiết kiệm và bảo vệ nguồn nước: Liên hệ quá trình làm ra hạt gạo cần nước; giáo dục sử dụng nước tiết kiệm trong sản xuất và sinh hoạt.",
           "- ....................................................................................................................................................",
@@ -18910,7 +18980,8 @@
               "- HS đọc lại bài thơ theo hình thức GV chọn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: HẠT GẠO LÀNG TA"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: CÁCH NỐI CÁC VẾ CÂU GHÉP",
@@ -18920,7 +18991,14 @@
           "- Nhận biết được các vế câu trong câu ghép; biết cách nối các vế của câu ghép bằng một kết từ và cách nối trực tiếp các vế của câu ghép bằng dấu câu như dấu phẩy, dấu chấm phẩy.",
           "- Xác định được kết từ nối các vế câu; chọn được kết từ phù hợp để hoàn chỉnh câu ghép.",
           "- Viết được đoạn văn 3 - 5 câu về bài thơ Hạt gạo làng ta, trong đó có câu ghép gồm các vế nối bằng một kết từ hoặc nối trực tiếp.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực làm bài tập, đọc kĩ yêu cầu và hoàn thành nhiệm vụ đúng thời gian.",
+          "- Trung thực: trình bày kết quả rõ ràng, biết sửa bài theo đáp án thống nhất.",
+          "- Trách nhiệm: biết sử dụng bảng tính hoặc phiếu học tập đúng mục đích theo hướng dẫn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5 tập hai; phiếu bài tập hoặc vở bài tập.",
@@ -18929,13 +19007,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực làm bài tập, đọc kĩ yêu cầu và hoàn thành nhiệm vụ đúng thời gian.",
-          "- Trung thực: trình bày kết quả rõ ràng, biết sửa bài theo đáp án thống nhất.",
-          "- Trách nhiệm: biết sử dụng bảng tính hoặc phiếu học tập đúng mục đích theo hướng dẫn.",
-          "4. Tích hợp",
           "- NLS: 1.3.CB2a - HS nhập dữ liệu mùa vụ, hoạt động làm ra hạt gạo vào bảng tính để so sánh.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -19043,7 +19114,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: CÁCH NỐI CÁC VẾ CÂU GHÉP"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: QUAN SÁT ĐỂ VIẾT BÀI VĂN TẢ NGƯỜI",
@@ -19053,7 +19125,14 @@
           "- Biết cách quan sát người để viết bài văn tả người; biết quan sát ngoại hình, hoạt động, những biểu hiện về sở trường, sở thích của người được tả.",
           "- Biết lựa chọn chi tiết tiêu biểu thể hiện nét riêng của người được quan sát và ghi chép kết quả quan sát.",
           "- Biết trao đổi, nhận xét, góp ý về kết quả quan sát của bạn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực quan sát, ghi chép đầy đủ kết quả quan sát theo gợi ý.",
+          "- Trung thực: ghi chép đúng những điều quan sát được, không bịa chi tiết không có cơ sở.",
+          "- Nhân ái: biết nhìn nhận, miêu tả người thân, bạn bè hoặc người quen bằng thái độ trân trọng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5 tập hai; phiếu ghi chép kết quả quan sát.",
@@ -19062,13 +19141,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực quan sát, ghi chép đầy đủ kết quả quan sát theo gợi ý.",
-          "- Trung thực: ghi chép đúng những điều quan sát được, không bịa chi tiết không có cơ sở.",
-          "- Nhân ái: biết nhìn nhận, miêu tả người thân, bạn bè hoặc người quen bằng thái độ trân trọng.",
-          "4. Tích hợp",
           "- AI: 5.A2.2 - Tìm hiểu AI trong nông nghiệp giúp dự báo sâu bệnh, thời tiết và nâng cao năng suất.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -19167,7 +19239,8 @@
               "- HS nêu: Đọc hiểu Hạt gạo làng ta; Luyện từ và câu: Cách nối các vế câu ghép; Viết: Quan sát để viết bài văn tả người."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: QUAN SÁT ĐỂ VIẾT BÀI VĂN TẢ NGƯỜI"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: HỘP QUÀ MÀU THIÊN THANH",
@@ -19177,7 +19250,14 @@
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Hộp quà màu thiên thanh; biết đọc diễn cảm phù hợp với lời thoại của các nhân vật trong câu chuyện.",
           "- Nhận biết được đặc điểm của nhân vật thể hiện qua hình dáng, hành động, điệu bộ, lời nói, suy nghĩ; hiểu điều tác giả muốn nói qua câu chuyện: Tình cảm thầy trò là tình cảm đẹp đẽ, vô cùng đáng quý. Mỗi người cần biết trân trọng, giữ gìn, vun đắp để tình cảm đó mỗi ngày càng đẹp hơn.",
           "- Biết bày tỏ tình yêu thương với bạn bè, thầy cô giáo.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết yêu thương, trân trọng tình cảm thầy trò, bạn bè.",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết ứng xử lịch sự, biết nói lời cảm ơn, lời chúc và giữ gìn môi trường học đường thân thiện.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh hoạ câu chuyện Hộp quà màu thiên thanh; tranh/video về hoạt động học tập, lễ tổng kết.",
@@ -19186,13 +19266,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Nhân ái: biết yêu thương, trân trọng tình cảm thầy trò, bạn bè.",
-          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết ứng xử lịch sự, biết nói lời cảm ơn, lời chúc và giữ gìn môi trường học đường thân thiện.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục văn hóa ứng xử học đường, biết trao lời chúc, lời cảm ơn và chia sẻ niềm vui với bạn.",
           "- Quyền con người: Lồng ghép quyền được yêu thương, được nhận sự quan tâm và được sống trong môi trường học đường thân thiện.",
           "- ....................................................................................................................................................",
@@ -19405,7 +19478,8 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: HỘP QUÀ MÀU THIÊN THANH"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN TẢ NGƯỜI",
@@ -19415,7 +19489,14 @@
           "- Biết cách lập dàn ý cho bài văn tả người đúng yêu cầu của đề bài và theo đúng các bước cần thiết.",
           "- Lựa chọn được đề bài phù hợp, biết dựa vào kết quả quan sát để lập dàn ý gồm mở bài, thân bài, kết bài.",
           "- Biết góp ý và chỉnh sửa dàn ý để bài văn tả người có chi tiết tiêu biểu, mạch lạc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực lập dàn ý, đọc soát và chỉnh sửa dàn ý.",
+          "- Trách nhiệm: hoàn thành dàn ý đúng yêu cầu, trình bày rõ ràng.",
+          "- Nhân ái: biết viết về người thân, người quen bằng thái độ yêu thương, trân trọng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5 tập hai; dàn ý mẫu; vở viết hoặc phiếu học tập.",
@@ -19424,13 +19505,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực lập dàn ý, đọc soát và chỉnh sửa dàn ý.",
-          "- Trách nhiệm: hoàn thành dàn ý đúng yêu cầu, trình bày rõ ràng.",
-          "- Nhân ái: biết viết về người thân, người quen bằng thái độ yêu thương, trân trọng.",
-          "4. Tích hợp",
           "- NLS: 2.5.CB2a - HS viết lời nhắn số lịch sự, chân thành gửi tặng bạn như một hộp quà tinh thần.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -19506,7 +19580,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN TẢ NGƯỜI"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: NÉT ĐẸP HỌC ĐƯỜNG",
@@ -19516,7 +19591,14 @@
           "- Biết thảo luận về một vấn đề được nhiều người quan tâm, cụ thể là những ứng xử đẹp trong trường học.",
           "- Biết dùng lí lẽ và dẫn chứng để thuyết phục người đối thoại; biết thể hiện sự nhã nhặn, lịch sự khi thảo luận.",
           "- Biết chia sẻ với người thân về những ứng xử đẹp trong trường học mà em và các bạn đã thảo luận.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết ứng xử lịch sự, tôn trọng thầy cô, bạn bè và những người làm việc trong trường.",
+          "- Trách nhiệm: tham gia thảo luận nghiêm túc, có ý kiến xây dựng, biết tự đánh giá ứng xử của bản thân.",
+          "- Trung thực: nêu ý kiến và dẫn chứng xác đáng, không phóng đại hoặc nói sai sự việc.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5 tập hai; phiếu thảo luận nhóm.",
@@ -19525,13 +19607,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Nhân ái: biết ứng xử lịch sự, tôn trọng thầy cô, bạn bè và những người làm việc trong trường.",
-          "- Trách nhiệm: tham gia thảo luận nghiêm túc, có ý kiến xây dựng, biết tự đánh giá ứng xử của bản thân.",
-          "- Trung thực: nêu ý kiến và dẫn chứng xác đáng, không phóng đại hoặc nói sai sự việc.",
-          "4. Tích hợp",
           "- Quyền con người: Lồng ghép quyền được yêu thương, được nhận sự quan tâm và được sống trong môi trường học đường thân thiện.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -19620,7 +19695,8 @@
               "- HS lắng nghe, rút kinh nghiệm và chuẩn bị bài học sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: NÉT ĐẸP HỌC ĐƯỜNG"
       }
     ]
   },
@@ -19636,7 +19712,14 @@
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Giỏ hoa tháng Năm; biết nhấn giọng vào những từ ngữ chứa thông tin quan trọng; biết ngắt, nghỉ hơi theo chỉ dẫn của dấu câu.",
           "- Nắm được ý chính của mỗi đoạn trong bài đọc. Hiểu được điều tác giả muốn nói qua bài đọc: Tình bạn là một phần đẹp đẽ của cuộc sống; cần hiểu đúng về tình bạn và biết cách giữ gìn tình bạn.",
           "- Biết chia sẻ kỉ niệm đáng nhớ với bạn, biết trân trọng tình bạn và đồng cảm với cảm xúc của bạn bè.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết yêu quý, chia sẻ và cảm thông với bạn bè.",
+          "- Chăm chỉ: tích cực luyện đọc, chuẩn bị bài và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết giữ gìn tình bạn, biết dùng việc làm đẹp để thể hiện tình cảm với người thân, thầy cô, bạn bè.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Giỏ hoa tháng Năm; tranh ảnh/video ngắn về hoạt động tặng hoa, chăm sóc hoa, cây cảnh.",
@@ -19645,13 +19728,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Nhân ái: biết yêu quý, chia sẻ và cảm thông với bạn bè.",
-          "- Chăm chỉ: tích cực luyện đọc, chuẩn bị bài và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết giữ gìn tình bạn, biết dùng việc làm đẹp để thể hiện tình cảm với người thân, thầy cô, bạn bè.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục lòng biết ơn, biết dùng việc làm đẹp để thể hiện tình cảm với người thân, thầy cô, bạn bè.",
           "- Tiết kiệm và bảo vệ nguồn nước: Liên hệ việc chăm sóc hoa, cây cảnh bằng cách tưới nước vừa đủ, tận dụng nước hợp lí.",
           "- ....................................................................................................................................................",
@@ -19816,7 +19892,8 @@
               "- HS ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: GIỎ HOA THÁNG NĂM"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - CÁCH NỐI CÁC VẾ CÂU GHÉP (TIẾP THEO)",
@@ -19826,7 +19903,14 @@
           "- Biết tìm cặp kết từ nối các vế câu trong câu ghép.",
           "- Biết chọn cặp kết từ hoặc cặp từ hô ứng phù hợp để tạo câu ghép.",
           "- Biết đặt câu ghép theo yêu cầu, vận dụng đúng kiến thức về cách nối các vế câu ghép.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực thực hành, hoàn thành bài tập đúng thời gian.",
+          "- Trung thực: đối chiếu, sửa bài khách quan.",
+          "- Trách nhiệm: sử dụng công cụ số đúng mục đích khi thực hiện nhiệm vụ học tập.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; phiếu học tập; bảng phụ ghi câu ghép.",
@@ -19834,13 +19918,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực thực hành, hoàn thành bài tập đúng thời gian.",
-          "- Trung thực: đối chiếu, sửa bài khách quan.",
-          "- Trách nhiệm: sử dụng công cụ số đúng mục đích khi thực hiện nhiệm vụ học tập.",
-          "4. Tích hợp",
           "- NLS: 2.2.CB2a - HS dùng phần mềm trình chiếu giới thiệu một loài hoa, biết trích dẫn hình ảnh.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -19945,7 +20022,8 @@
               "- HS ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - CÁCH NỐI CÁC VẾ CÂU GHÉP (TIẾP THEO)"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN TẢ NGƯỜI",
@@ -19955,7 +20033,14 @@
           "- Biết đọc các đoạn văn tả người và trả lời câu hỏi về đối tượng được tả, từ ngữ làm nổi bật đặc điểm, chi tiết gây ấn tượng.",
           "- Biết dựa vào dàn ý đã lập để viết đoạn văn tả một người thân trong gia đình hoặc người đã để lại ấn tượng tốt đẹp.",
           "- Biết dùng từ ngữ gợi tả và biện pháp so sánh để làm nổi bật đặc điểm của người được tả.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực quan sát, viết và chỉnh sửa đoạn văn.",
+          "- Nhân ái: biết trân trọng người thân, người lao động và những người đã để lại ấn tượng đẹp.",
+          "- Trách nhiệm: biết sử dụng công cụ số/AI đúng mục đích, không sao chép máy móc.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; vở viết; phiếu tự đánh giá đoạn văn.",
@@ -19963,13 +20048,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực quan sát, viết và chỉnh sửa đoạn văn.",
-          "- Nhân ái: biết trân trọng người thân, người lao động và những người đã để lại ấn tượng đẹp.",
-          "- Trách nhiệm: biết sử dụng công cụ số/AI đúng mục đích, không sao chép máy móc.",
-          "4. Tích hợp",
           "- AI: 5.C4.2 - Dùng công cụ AI tạo bố cục poster loài hoa, sau đó chỉnh sửa theo ý tưởng cá nhân.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -20049,7 +20127,8 @@
               "- HS lắng nghe, chỉnh sửa đoạn văn vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN TẢ NGƯỜI"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: THƯ CỦA BỐ",
@@ -20059,7 +20138,15 @@
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ bài thơ Thư của bố; biết đọc diễn cảm với giọng tha thiết, xúc động.",
           "- Hiểu nghĩa một số từ ngữ khó; hiểu nội dung bài thơ: tình yêu thương, sự hi sinh và niềm tin của người bố là lính biển dành cho con.",
           "- Biết bày tỏ lòng biết ơn, tình yêu đối với cha mẹ và những người lính đang làm nhiệm vụ bảo vệ biển đảo của Tổ quốc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: biết trân trọng những người lính bảo vệ biển đảo quê hương.",
+          "- Nhân ái: biết yêu thương, kính trọng cha mẹ và người thân.",
+          "- Trách nhiệm: biết tiếp nhận lời khuyên đúng đắn, sống có trách nhiệm với bản thân và gia đình.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Rèn lòng hiếu thảo, biết tiếp nhận lời khuyên đúng đắn và sống có trách nhiệm với bản thân."
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Thư của bố; tranh ảnh về người lính biển làm nhiệm vụ bảo vệ biển đảo.",
@@ -20068,14 +20155,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: biết trân trọng những người lính bảo vệ biển đảo quê hương.",
-          "- Nhân ái: biết yêu thương, kính trọng cha mẹ và người thân.",
-          "- Trách nhiệm: biết tiếp nhận lời khuyên đúng đắn, sống có trách nhiệm với bản thân và gia đình.",
-          "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Rèn lòng hiếu thảo, biết tiếp nhận lời khuyên đúng đắn và sống có trách nhiệm với bản thân.",
           "- Quyền con người: Giáo dục quyền trẻ em được lắng nghe, được yêu thương, được định hướng và bảo vệ trong gia đình.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -20231,7 +20310,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: THƯ CỦA BỐ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT BÀI VĂN TẢ NGƯỜI (BÀI VIẾT SỐ 1)",
@@ -20241,7 +20321,14 @@
           "- Biết chọn một trong hai đề để viết bài văn tả người.",
           "- Biết dựa vào dàn ý đã lập để viết bài văn có đủ mở bài, thân bài, kết bài.",
           "- Biết đọc soát, chỉnh sửa bài viết theo yêu cầu và thể hiện tình cảm chân thành với người được tả.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: hoàn thành bài viết đúng yêu cầu.",
+          "- Trung thực: tự đánh giá và chỉnh sửa bài viết của mình.",
+          "- Trách nhiệm: biết đặt câu hỏi với AI an toàn, không sao chép bài viết của AI.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; vở viết; phiếu tự đánh giá bài viết.",
@@ -20249,13 +20336,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: hoàn thành bài viết đúng yêu cầu.",
-          "- Trung thực: tự đánh giá và chỉnh sửa bài viết của mình.",
-          "- Trách nhiệm: biết đặt câu hỏi với AI an toàn, không sao chép bài viết của AI.",
-          "4. Tích hợp",
           "- AI: 5.A3.1 - Thực hành đặt câu hỏi với AI an toàn, biết không thay thế lời khuyên của gia đình và thầy cô.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -20327,7 +20407,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT BÀI VĂN TẢ NGƯỜI (BÀI VIẾT SỐ 1)"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -20337,14 +20418,7 @@
           "- Đọc được bài thơ thể hiện vẻ đẹp cuộc sống.",
           "- Biết viết phiếu đọc sách theo mẫu; biết chia sẻ với bạn về điều em yêu thích trong một bài thơ.",
           "- Biết trao đổi với người thân về công việc của những người đang bảo vệ cuộc sống bình yên cho nhân dân.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- SGK Tiếng Việt 5, tập hai; sách, báo, bài thơ về vẻ đẹp cuộc sống.",
-          "- Phiếu đọc sách; máy tính, máy chiếu hoặc ti vi."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
           "3. Phẩm chất",
@@ -20352,7 +20426,14 @@
           "- Nhân ái: biết trân trọng những người đang bảo vệ cuộc sống bình yên.",
           "- Trách nhiệm: biết chia sẻ thông tin tích cực, đúng mực.",
           "4. Tích hợp",
-          "- Không tích hợp.",
+          "- Không tích hợp."
+        ],
+        "dodung": [
+          "- SGK Tiếng Việt 5, tập hai; sách, báo, bài thơ về vẻ đẹp cuộc sống.",
+          "- Phiếu đọc sách; máy tính, máy chiếu hoặc ti vi."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -20439,7 +20520,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -20455,7 +20537,14 @@
           "- Đọc đúng và diễn cảm bài thơ Đoàn thuyền đánh cá; biết ngắt nhịp thơ, nhấn giọng vào những từ ngữ gợi tả, gợi cảm.",
           "- Nhận biết nội dung và cảm hứng chủ đạo của bài thơ: bài thơ ca ngợi vẻ đẹp huy hoàng của biển cả và vẻ đẹp khỏe khoắn, lạc quan của người lao động.",
           "- Biết nêu cảm nhận về vẻ đẹp của người lao động trên biển và vẻ đẹp của quê hương, đất nước.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: yêu biển đảo quê hương, tự hào về cảnh sắc và người lao động Việt Nam.",
+          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng bài thơ và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: có ý thức giữ gìn môi trường biển, trân trọng thành quả lao động của ngư dân.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Đoàn thuyền đánh cá; tranh ảnh về cảnh biển, đoàn thuyền ra khơi, ngư dân lao động trên biển.",
@@ -20464,13 +20553,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: yêu biển đảo quê hương, tự hào về cảnh sắc và người lao động Việt Nam.",
-          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng bài thơ và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: có ý thức giữ gìn môi trường biển, trân trọng thành quả lao động của ngư dân.",
-          "4. Tích hợp",
           "- QPAN: Lồng ghép tình yêu biển đảo, ý thức giữ gìn chủ quyền biển đảo và an toàn cho ngư dân khi lao động trên biển.",
           "- Tiết kiệm và bảo vệ nguồn nước: Giáo dục bảo vệ môi trường biển, không xả rác xuống biển, giữ nguồn nước biển trong lành.",
           "- ....................................................................................................................................................",
@@ -20639,7 +20721,8 @@
               "- HS ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: ĐOÀN THUYỀN ĐÁNH CÁ"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ CÂU GHÉP",
@@ -20648,7 +20731,13 @@
           "1. Năng lực đặc thù",
           "- Nhận biết được các vế câu trong câu ghép; biết xác định từ ngữ nối các vế câu.",
           "- Biết tìm cặp kết từ hoặc cặp từ hô ứng để tạo câu ghép; biết viết đoạn văn có câu ghép.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực làm bài tập, hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: trình bày bài rõ ràng, lắng nghe và sửa lỗi sau khi được góp ý.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; máy tính, máy chiếu hoặc ti vi.",
@@ -20656,12 +20745,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực làm bài tập, hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: trình bày bài rõ ràng, lắng nghe và sửa lỗi sau khi được góp ý.",
-          "4. Tích hợp",
           "- NLS: 3.4.CB2a - HS dùng cấu trúc Nếu... thì... mô phỏng quy trình đánh cá an toàn trên biển.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -20754,7 +20837,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ CÂU GHÉP"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: ĐÁNH GIÁ, CHỈNH SỬA BÀI VĂN TẢ NGƯỜI",
@@ -20763,7 +20847,13 @@
           "1. Năng lực đặc thù",
           "- Biết đọc lại bài văn tả người đã viết, phát hiện ưu điểm và hạn chế trong bài viết.",
           "- Biết chỉnh sửa bài văn theo góp ý của GV và bạn; biết viết lại một số câu, đoạn cho hay hơn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc lại bài, chỉnh sửa bài viết.",
+          "- Trách nhiệm: biết tiếp nhận góp ý, sửa lỗi và hoàn thiện sản phẩm viết.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; bài văn tả người của HS đã viết ở tiết trước.",
@@ -20771,12 +20861,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc lại bài, chỉnh sửa bài viết.",
-          "- Trách nhiệm: biết tiếp nhận góp ý, sửa lỗi và hoàn thiện sản phẩm viết.",
-          "4. Tích hợp",
           "- AI: 5.A1.1 - Tìm hiểu AI dự báo thời tiết biển, hỗ trợ tàu thuyền tránh bão và giảm rủi ro.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -20833,7 +20917,8 @@
               "- HS ghi nhiệm vụ, hoàn thiện bài văn tả người."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: ĐÁNH GIÁ, CHỈNH SỬA BÀI VĂN TẢ NGƯỜI"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: KHU RỪNG CỦA MÁT",
@@ -20843,7 +20928,15 @@
           "- Đọc đúng và diễn cảm câu chuyện Khu rừng của Mát; biết nhấn giọng ở những từ ngữ gợi tả, gợi cảm và lời nhân vật.",
           "- Hiểu nội dung câu chuyện: Tình yêu rừng, ý thức trồng cây và bảo vệ rừng có thể bắt đầu từ những việc làm nhỏ của mỗi người.",
           "- Biết nêu suy nghĩ về việc trồng cây, bảo vệ rừng và sống thân thiện với thiên nhiên.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: yêu thiên nhiên, yêu rừng, có ý thức giữ gìn môi trường sống.",
+          "- Nhân ái: biết lắng nghe, tôn trọng ý kiến của bạn.",
+          "- Trách nhiệm: có ý thức trồng cây, bảo vệ rừng và nguồn nước.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục trách nhiệm cá nhân trong trồng cây, bảo vệ rừng và sống thân thiện với thiên nhiên."
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Khu rừng của Mát; tranh ảnh về rừng, hoạt động trồng cây, bảo vệ rừng.",
@@ -20852,14 +20945,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: yêu thiên nhiên, yêu rừng, có ý thức giữ gìn môi trường sống.",
-          "- Nhân ái: biết lắng nghe, tôn trọng ý kiến của bạn.",
-          "- Trách nhiệm: có ý thức trồng cây, bảo vệ rừng và nguồn nước.",
-          "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục trách nhiệm cá nhân trong trồng cây, bảo vệ rừng và sống thân thiện với thiên nhiên.",
           "- Tiết kiệm và bảo vệ nguồn nước: Liên hệ rừng giữ nước, chống xói mòn, bảo vệ nguồn nước đầu nguồn và môi trường sống.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -21003,7 +21088,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: KHU RỪNG CỦA MÁT"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT BÀI VĂN TẢ NGƯỜI (BÀI VIẾT SỐ 2)",
@@ -21012,7 +21098,13 @@
           "1. Năng lực đặc thù",
           "- Viết được bài văn tả người theo đúng yêu cầu đề bài, đủ bố cục ba phần.",
           "- Biết chọn chi tiết tiêu biểu về ngoại hình, hoạt động, sở trường hoặc tính cách để làm nổi bật người được tả.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: viết bài nghiêm túc, hoàn thành bài đúng thời gian.",
+          "- Trách nhiệm: biết tự đọc lại bài và sửa lỗi diễn đạt.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; vở viết của HS.",
@@ -21020,12 +21112,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: viết bài nghiêm túc, hoàn thành bài đúng thời gian.",
-          "- Trách nhiệm: biết tự đọc lại bài và sửa lỗi diễn đạt.",
-          "4. Tích hợp",
           "- NLS: 4.4.CB2a - HS tìm hiểu công nghệ số giám sát rừng giúp bảo vệ môi trường, ngăn cháy rừng.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -21082,7 +21168,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT BÀI VĂN TẢ NGƯỜI (BÀI VIẾT SỐ 2)"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: NHỮNG Ý KIẾN KHÁC BIỆT",
@@ -21091,7 +21178,13 @@
           "1. Năng lực đặc thù",
           "- Biết trao đổi về những ý kiến khác biệt trong một tình huống cụ thể; biết lắng nghe và phản hồi lịch sự.",
           "- Biết nêu ý kiến của mình rõ ràng, có lí lẽ và biết tôn trọng ý kiến khác với mình.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết lắng nghe, tôn trọng sự khác biệt.",
+          "- Trách nhiệm: biết trao đổi để tìm cách giải quyết phù hợp trong tập thể.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; tranh ảnh hoặc tình huống trao đổi nhóm.",
@@ -21099,13 +21192,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Nhân ái: biết lắng nghe, tôn trọng sự khác biệt.",
-          "- Trách nhiệm: biết trao đổi để tìm cách giải quyết phù hợp trong tập thể.",
-          "4. Tích hợp",
-          "- Quyền con người: Rèn quyền được bày tỏ ý kiến, biết lắng nghe và tôn trọng ý kiến khác biệt khi trao đổi về chủ điểm khu rừng của mát.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -21169,7 +21255,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: NHỮNG Ý KIẾN KHÁC BIỆT"
       }
     ]
   },
@@ -21185,14 +21272,7 @@
           "- Đọc đúng từ ngữ, câu, đoạn và cả văn bản Hội thổi cơm thi ở Đồng Vân; biết nhấn giọng phù hợp ở những chi tiết miêu tả khung cảnh, hoạt động của sự việc.",
           "- Nhận biết được cách thuật, kể sự việc theo trình tự thời gian của văn bản; hiểu được điều tác giả muốn nói qua văn bản.",
           "- Biết bày tỏ thái độ trân trọng đối với những giá trị văn hóa truyền thống của quê hương, đất nước.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Tranh minh họa bài đọc Hội thổi cơm thi ở Đồng Vân; SGK Tiếng Việt 5, tập hai; máy tính, máy chiếu hoặc ti vi.",
-          "- Phiếu học tập dùng cho hoạt động đọc hiểu và luyện đọc."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
           "3. Phẩm chất",
@@ -21200,7 +21280,14 @@
           "- Nhân ái: biết tôn trọng, chia sẻ niềm vui trong hoạt động văn hóa cộng đồng.",
           "- Trách nhiệm: có ý thức giữ gìn lễ hội truyền thống, đoàn kết và trung thực khi tham gia hoạt động tập thể.",
           "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục ý thức giữ gìn lễ hội truyền thống, tinh thần đoàn kết, khéo léo và trung thực khi tham gia hoạt động tập thể.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục ý thức giữ gìn lễ hội truyền thống, tinh thần đoàn kết, khéo léo và trung thực khi tham gia hoạt động tập thể."
+        ],
+        "dodung": [
+          "- Tranh minh họa bài đọc Hội thổi cơm thi ở Đồng Vân; SGK Tiếng Việt 5, tập hai; máy tính, máy chiếu hoặc ti vi.",
+          "- Phiếu học tập dùng cho hoạt động đọc hiểu và luyện đọc."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- Quyền con người: Lồng ghép quyền được tham gia đời sống văn hóa cộng đồng và tôn trọng phong tục tốt đẹp của địa phương.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -21348,7 +21435,8 @@
               "- HS luyện đọc theo cặp hoặc nhóm, sửa cách đọc theo góp ý."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: HỘI THỔI CƠM THI Ở ĐỒNG VÂN"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LIÊN KẾT CÂU BẰNG CÁCH LẶP TỪ NGỮ",
@@ -21358,7 +21446,13 @@
           "- Nhận biết được phép liên kết câu trong đoạn văn bằng cách lặp từ ngữ.",
           "- Nắm được lí thuyết và vận dụng thực hành các bài tập.",
           "- Biết viết 2 - 3 câu về một lễ hội, trong đó các câu liên kết với nhau bằng cách lặp từ ngữ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực làm bài tập, hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: viết câu rõ ràng, biết sửa lỗi liên kết câu sau khi được góp ý.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; máy tính, máy chiếu hoặc ti vi.",
@@ -21366,12 +21460,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực làm bài tập, hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: viết câu rõ ràng, biết sửa lỗi liên kết câu sau khi được góp ý.",
-          "4. Tích hợp",
           "- NLS: 3.1.CB2a - HS sưu tầm, chỉnh sửa ảnh/văn bản để giới thiệu lễ hội địa phương.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -21464,7 +21552,8 @@
               "- HS đọc bài, lắng nghe nhận xét và sửa bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LIÊN KẾT CÂU BẰNG CÁCH LẶP TỪ NGỮ"
       },
       {
         "lessonTitle": "BÀI 9: HỘI THỔI CƠM THI Ở ĐỒNG VÂN",
@@ -21475,7 +21564,13 @@
           "- Hiểu được cách viết đoạn văn thể hiện tình cảm, cảm xúc về một sự việc.",
           "- Biết được nội dung chính của từng phần trong đoạn văn.",
           "- Biết trao đổi về những điểm cần lưu ý khi viết đoạn văn thể hiện tình cảm, cảm xúc về một sự việc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc đoạn văn mẫu, trả lời câu hỏi và ghi nhớ cách viết.",
+          "- Trách nhiệm: biết lắng nghe, góp ý và hoàn thiện câu trả lời.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; máy tính, máy chiếu hoặc ti vi.",
@@ -21483,12 +21578,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc đoạn văn mẫu, trả lời câu hỏi và ghi nhớ cách viết.",
-          "- Trách nhiệm: biết lắng nghe, góp ý và hoàn thiện câu trả lời.",
-          "4. Tích hợp",
           "- AI: 5.C4.2 - Dùng AI Search tìm tư liệu lễ hội, sau đó đối chiếu nguồn và trình bày bằng lời của mình.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -21568,7 +21657,8 @@
               "- HS nhắc lại: đọc hiểu Hội thổi cơm thi ở Đồng Vân; liên kết câu bằng cách lặp từ ngữ; cách viết đoạn văn thể hiện tình cảm, cảm xúc về một sự việc."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9: HỘI THỔI CƠM THI Ở ĐỒNG VÂN"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: NHỮNG BÚP CHÈ TRÊN CÂY CỔ THỤ",
@@ -21578,7 +21668,14 @@
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Những búp chè trên cây cổ thụ; biết đọc diễn cảm với giọng đọc phù hợp.",
           "- Nhận biết được trình tự các sự việc gắn với thời gian, địa điểm cụ thể; hiểu suy nghĩ, cảm xúc của nhân vật.",
           "- Hiểu điều tác giả muốn nói qua câu chuyện: mỗi vùng miền đều có những sản vật đặc trưng, mang đậm dấu ấn của vùng miền đó.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: tự hào về sản vật quê hương, biết trân trọng tri thức địa phương.",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: có ý thức tìm hiểu, bảo vệ sản vật quê hương và nguồn nước vùng cao.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Những búp chè trên cây cổ thụ; SGK Tiếng Việt 5, tập hai; máy tính, máy chiếu hoặc ti vi.",
@@ -21586,13 +21683,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: tự hào về sản vật quê hương, biết trân trọng tri thức địa phương.",
-          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: có ý thức tìm hiểu, bảo vệ sản vật quê hương và nguồn nước vùng cao.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục quý trọng lao động, tri thức địa phương và sản vật quê hương.",
           "- Tiết kiệm và bảo vệ nguồn nước: Liên hệ sản xuất chè cần đất, rừng và nước sạch; giáo dục bảo vệ nguồn nước vùng cao.",
           "- ....................................................................................................................................................",
@@ -21745,7 +21835,8 @@
               "- HS viết: Tôi rất thích nhãn lồng Hưng Yên vì quả to, tròn, ngọt lịm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NHỮNG BÚP CHÈ TRÊN CÂY CỔ THỤ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT SỰ VIỆC",
@@ -21755,7 +21846,13 @@
           "- Biết tìm ý cho đoạn văn thể hiện tình cảm, cảm xúc về một sự việc.",
           "- Biết xác định ấn tượng chung và tình cảm, cảm xúc về các chi tiết của sự việc.",
           "- Biết góp ý, chỉnh sửa dàn ý theo góp ý của thầy cô và bạn bè.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực chuẩn bị, tìm ý và hoàn thành nhiệm vụ viết.",
+          "- Trách nhiệm: biết tiếp thu góp ý, chỉnh sửa bài của mình.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; máy tính, máy chiếu hoặc ti vi.",
@@ -21763,12 +21860,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực chuẩn bị, tìm ý và hoàn thành nhiệm vụ viết.",
-          "- Trách nhiệm: biết tiếp thu góp ý, chỉnh sửa bài của mình.",
-          "4. Tích hợp",
           "- AI: 5.D1.1 - Tìm hiểu dữ liệu hình ảnh giúp AI học cách nhận diện giống chè, cây trồng địa phương.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -21829,7 +21920,8 @@
               "- HS hoàn thiện dàn ý sau góp ý của thầy cô và bạn bè."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT SỰ VIỆC"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -21839,7 +21931,13 @@
           "- Tìm và đọc được cuốn sách viết về một miền đất.",
           "- Ghi chép được một số thông tin cơ bản vào phiếu đọc sách theo mẫu.",
           "- Dựa vào phiếu đọc sách để chia sẻ với bạn những thông tin thú vị trong cuốn sách.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đọc sách, ghi chép và hoàn thành phiếu đọc sách.",
+          "- Trách nhiệm: biết chia sẻ thông tin trung thực, rõ ràng; tôn trọng ý kiến của bạn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; sách hoặc văn bản viết về một miền đất.",
@@ -21847,12 +21945,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đọc sách, ghi chép và hoàn thành phiếu đọc sách.",
-          "- Trách nhiệm: biết chia sẻ thông tin trung thực, rõ ràng; tôn trọng ý kiến của bạn.",
-          "4. Tích hợp",
           "- NLS: 6.1.CB2a - HS dùng ứng dụng số nhận diện giống chè và thảo luận về đạo đức, tính công bằng của dữ liệu.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -21920,7 +22012,8 @@
               "- HS nhắc lại: đọc hiểu Những búp chè trên cây cổ thụ; tìm ý cho đoạn văn thể hiện tình cảm, cảm xúc; đọc cuốn sách về một miền đất."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -21936,7 +22029,14 @@
           "- Đọc đúng và diễn cảm bài thơ Hương cốm mùa thu; biết nhấn giọng vào những từ ngữ cần thiết để thể hiện tâm trạng, cảm xúc của nhân vật.",
           "- Nhận biết được các sự việc gắn với không gian, thời gian cụ thể; hiểu điều tác giả muốn nói qua bài thơ: Cốm là một đặc sản tiêu biểu của Hà Nội, là thức quà ngon, được làm từ tinh tuý của đất trời và bàn tay khéo léo của người làm cốm.",
           "- Biết bày tỏ tình cảm yêu quý sản vật, đặc sản quê hương và chia sẻ cảm xúc với những người xung quanh.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: biết tự hào, trân trọng sản vật, nghề truyền thống và vẻ đẹp mùa thu của quê hương.",
+          "- Chăm chỉ: tích cực đọc bài, trả lời câu hỏi và học thuộc lòng bài thơ.",
+          "- Trách nhiệm: có ý thức quý trọng sản phẩm lao động bình dị, biết giữ gìn môi trường ruộng đồng, kênh mương, ao hồ.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Hương cốm mùa thu; SGK Tiếng Việt 5, tập hai; máy tính, máy chiếu hoặc ti vi.",
@@ -21944,13 +22044,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: biết tự hào, trân trọng sản vật, nghề truyền thống và vẻ đẹp mùa thu của quê hương.",
-          "- Chăm chỉ: tích cực đọc bài, trả lời câu hỏi và học thuộc lòng bài thơ.",
-          "- Trách nhiệm: có ý thức quý trọng sản phẩm lao động bình dị, biết giữ gìn môi trường ruộng đồng, kênh mương, ao hồ.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng tình yêu nghề truyền thống, biết quý trọng sản phẩm lao động bình dị.",
           "- Tiết kiệm và bảo vệ nguồn nước: Liên hệ hạt lúa, hạt cốm gắn với ruộng đồng và nguồn nước; giáo dục không làm ô nhiễm kênh mương, ao hồ.",
           "- ....................................................................................................................................................",
@@ -22099,7 +22192,8 @@
               "- HS đọc lại bài thơ, ghi nhiệm vụ học thuộc lòng ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: HƯƠNG CỐM MÙA THU"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LIÊN KẾT CÂU BẰNG TỪ NGỮ NỐI",
@@ -22109,7 +22203,14 @@
           "- Nhận biết được quan hệ liên kết giữa các câu trong đoạn văn; biết dùng các từ ngữ nối để liên kết các câu trong đoạn văn.",
           "- Biết chọn từ ngữ nối phù hợp để tạo liên kết giữa các câu.",
           "- Biết viết đoạn văn ngắn về địa điểm du lịch hoặc khu di tích lịch sử, trong đó có sử dụng từ ngữ nối.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực làm bài, hoàn thành các bài tập trong SGK.",
+          "- Trung thực: làm bài bằng suy nghĩ của mình, không chép máy móc bài của bạn.",
+          "- Trách nhiệm: biết lựa chọn từ ngữ nối phù hợp để câu văn rõ nghĩa, mạch lạc.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; máy tính, máy chiếu hoặc ti vi.",
@@ -22117,13 +22218,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực làm bài, hoàn thành các bài tập trong SGK.",
-          "- Trung thực: làm bài bằng suy nghĩ của mình, không chép máy móc bài của bạn.",
-          "- Trách nhiệm: biết lựa chọn từ ngữ nối phù hợp để câu văn rõ nghĩa, mạch lạc.",
-          "4. Tích hợp",
           "- NLS: 3.1.CB2a - HS dùng sơ đồ tư duy số hệ thống quy trình làm cốm từ lời kể của gió.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -22204,7 +22298,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LIÊN KẾT CÂU BẰNG TỪ NGỮ NỐI"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT SỰ VIỆC",
@@ -22214,7 +22309,14 @@
           "- Viết được đoạn văn thể hiện tình cảm, cảm xúc về một sự việc theo yêu cầu.",
           "- Biết dựa vào ý đã tìm được để viết đoạn văn có mở đầu, triển khai và kết thúc rõ ràng.",
           "- Biết đọc soát và chỉnh sửa bài viết của mình.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực viết bài, đọc soát và hoàn thiện đoạn văn.",
+          "- Trung thực: viết bằng cảm xúc thật, không sao chép máy móc từ bạn hoặc công cụ hỗ trợ.",
+          "- Trách nhiệm: biết tiếp thu góp ý, chỉnh sửa đoạn văn để bài viết rõ ràng, giàu cảm xúc.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; vở viết, phiếu viết đoạn văn.",
@@ -22222,13 +22324,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực viết bài, đọc soát và hoàn thiện đoạn văn.",
-          "- Trung thực: viết bằng cảm xúc thật, không sao chép máy móc từ bạn hoặc công cụ hỗ trợ.",
-          "- Trách nhiệm: biết tiếp thu góp ý, chỉnh sửa đoạn văn để bài viết rõ ràng, giàu cảm xúc.",
-          "4. Tích hợp",
           "- AI: 5.C4.2 - Dùng AI/sơ đồ số gợi ý quy trình, sau đó HS chọn lọc và bổ sung cảm xúc cá nhân.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -22281,7 +22376,8 @@
               "- HS ghi nhiệm vụ, chuẩn bị chia sẻ với người thân sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT SỰ VIỆC"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: VŨ ĐIỆU TRÊN NỀN THỔ CẨM",
@@ -22291,7 +22387,14 @@
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ văn bản Vũ điệu trên nền thổ cẩm; biết nhấn giọng vào những từ ngữ đánh dấu thông tin quan trọng, biết ngắt nghỉ hơi sau dấu câu.",
           "- Nhận biết được ý chính của mỗi đoạn trong bài; hiểu điều tác giả muốn nói qua văn bản: điệu múa Da dá và hoa văn da dá là những di sản văn hóa phi vật thể và vật thể độc đáo của đồng bào Cơ-tu.",
           "- Biết bày tỏ sự trân trọng đối với di sản văn hóa các dân tộc ở Việt Nam.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Yêu nước: biết tự hào về vẻ đẹp đa dạng của văn hóa Việt Nam.",
+          "- Nhân ái: tôn trọng bản sắc, trang phục, tiếng nói, phong tục của các dân tộc.",
+          "- Trách nhiệm: có ý thức giữ gìn, giới thiệu và lan tỏa những giá trị văn hóa tốt đẹp.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Tranh minh họa bài đọc Vũ điệu trên nền thổ cẩm; tranh ảnh minh họa trang phục truyền thống của một số dân tộc; máy tính, máy chiếu hoặc ti vi.",
@@ -22299,13 +22402,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Yêu nước: biết tự hào về vẻ đẹp đa dạng của văn hóa Việt Nam.",
-          "- Nhân ái: tôn trọng bản sắc, trang phục, tiếng nói, phong tục của các dân tộc.",
-          "- Trách nhiệm: có ý thức giữ gìn, giới thiệu và lan tỏa những giá trị văn hóa tốt đẹp.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng tinh thần đoàn kết, tôn trọng sự đa dạng văn hóa trong cộng đồng Việt Nam.",
           "- Quyền con người: Giáo dục quyền được giữ gìn bản sắc văn hóa, được tôn trọng trang phục, tiếng nói, phong tục của các dân tộc.",
           "- ....................................................................................................................................................",
@@ -22462,7 +22558,8 @@
               "- HS trình bày: Bảo tàng Lịch sử Quốc gia Việt Nam toạ lạc trên phố Tràng Tiền, giữa một vườn cây cổ thụ đã hàng trăm năm tuổi. Đó là một tòa nhà cổ kính, có kiến trúc kết hợp Đông - Tây tuyệt đẹp. Tại đây trưng bày rất nhiều hiện vật liên quan đến lịch sử của Việt Nam từ thời cổ đại đến hiện đại, trong đó có những cổ vật rất có giá trị như: rìu đá Phùng Nguyên, trống đồng Đông Sơn, cọc gỗ Bạch Đằng,..."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: VŨ ĐIỆU TRÊN NỀN THỔ CẨM"
       },
       {
         "lessonTitle": "BÀI 12: VŨ ĐIỆU TRÊN NỀN THỔ CẨM",
@@ -22473,7 +22570,14 @@
           "- Biết nhận ra ưu điểm và hạn chế trong bài viết thể hiện tình cảm, cảm xúc về một sự việc.",
           "- Biết đọc lại bài viết để phát hiện lỗi và sửa lỗi.",
           "- Biết viết lại một số câu trong đoạn văn theo gợi ý để bài viết rõ ràng, giàu cảm xúc hơn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: đọc soát bài cẩn thận và hoàn thành nhiệm vụ chỉnh sửa.",
+          "- Trung thực: nhận ra lỗi của mình, góp ý cho bạn đúng mực.",
+          "- Trách nhiệm: biết tiếp thu góp ý để hoàn thiện bài viết.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; bài viết của HS; bút chì để gạch dưới lỗi.",
@@ -22481,13 +22585,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: đọc soát bài cẩn thận và hoàn thành nhiệm vụ chỉnh sửa.",
-          "- Trung thực: nhận ra lỗi của mình, góp ý cho bạn đúng mực.",
-          "- Trách nhiệm: biết tiếp thu góp ý để hoàn thiện bài viết.",
-          "4. Tích hợp",
           "- NLS: 6.1.CB2a - HS dùng phần mềm số phục dựng hoa văn truyền thống, nhận biết vai trò công nghệ trong bảo tồn văn hóa.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
@@ -22537,7 +22634,8 @@
               "- HS lắng nghe, tiếp tục hoàn thiện đoạn văn sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: VŨ ĐIỆU TRÊN NỀN THỔ CẨM"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: ĐỊA ĐIỂM THAM QUAN, DU LỊCH",
@@ -22547,7 +22645,13 @@
           "- Biết giới thiệu về một địa điểm tham quan, du lịch mà em biết.",
           "- Biết nghe lời giới thiệu của bạn, ghi chép thông tin mới và nêu ý kiến phản hồi phù hợp.",
           "- Biết chia sẻ với người thân những điều đã ghi chép khi nghe bạn giới thiệu.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết lắng nghe, tôn trọng phần trình bày của bạn.",
+          "- Trách nhiệm: trình bày thông tin rõ ràng, đúng, biết sử dụng tranh ảnh/bản đồ hỗ trợ phù hợp.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; tranh ảnh hoặc bản đồ về một số địa điểm tham quan, du lịch.",
@@ -22555,14 +22659,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4; biết lắng nghe, trình bày, nhận xét và góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, viết câu, viết đoạn và hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
           "- Tự tin: mạnh dạn trình bày ý kiến trước nhóm và trước lớp.",
-          "- Nhân ái: biết lắng nghe, tôn trọng phần trình bày của bạn.",
-          "- Trách nhiệm: trình bày thông tin rõ ràng, đúng, biết sử dụng tranh ảnh/bản đồ hỗ trợ phù hợp.",
-          "4. Tích hợp",
-          "- Quyền con người: Rèn quyền được bày tỏ ý kiến, biết lắng nghe và tôn trọng ý kiến khác biệt khi trao đổi về chủ điểm vũ điệu trên nền thổ cẩm.",
           "- ....................................................................................................................................................",
           "- ...................................................................................................................................................."
         ],
@@ -22618,7 +22715,8 @@
               "- HS nhắc lại: Đọc hiểu Vũ điệu trên nền thổ cẩm; Viết: Đánh giá, chỉnh sửa đoạn văn thể hiện tình cảm, cảm xúc về một sự việc; Nói và nghe: Địa điểm tham quan, du lịch."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: ĐỊA ĐIỂM THAM QUAN, DU LỊCH"
       }
     ]
   },
@@ -22653,9 +22751,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: HƯƠNG SẮC TRĂM MIỀN",
-          "TUẦN 25"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -22812,7 +22908,8 @@
               "- HS tự luyện đọc toàn bài, chú ý ngắt nghỉ hơi và nhấn giọng phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: ĐÀN T'RƯNG - TIẾNG CA ĐẠI NGÀN"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LIÊN KẾT CÂU BẰNG TỪ NGỮ THAY THẾ",
@@ -22839,9 +22936,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: HƯƠNG SẮC TRĂM MIỀN",
-          "TUẦN 25"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -22967,7 +23062,8 @@
               "- HS lắng nghe và sửa câu nếu cần."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LIÊN KẾT CÂU BẰNG TỪ NGỮ THAY THẾ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT CHƯƠNG TRÌNH HOẠT ĐỘNG",
@@ -22994,9 +23090,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: HƯƠNG SẮC TRĂM MIỀN",
-          "TUẦN 25"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -23074,7 +23168,8 @@
               "- HS lắng nghe và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT CHƯƠNG TRÌNH HOẠT ĐỘNG"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: ĐƯỜNG QUÊ ĐỒNG THÁP MƯỜI",
@@ -23103,9 +23198,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: HƯƠNG SẮC TRĂM MIỀN",
-          "TUẦN 25"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -23286,7 +23379,8 @@
               "- HS lắng nghe, đối chiếu và sửa bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: ĐƯỜNG QUÊ ĐỒNG THÁP MƯỜI"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT CHƯƠNG TRÌNH HOẠT ĐỘNG (BÀI VIẾT SỐ 1)",
@@ -23313,9 +23407,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5",
-          "CHỦ ĐIỂM: HƯƠNG SẮC TRĂM MIỀN",
-          "TUẦN 25"
+          "KẾ HOẠCH DẠY HỌC MÔN TIẾNG VIỆT 5"
         ],
         "tables": [
           [
@@ -23373,7 +23465,8 @@
               "- HS chỉnh sửa lỗi về nội dung, cách trình bày, chính tả và bảng biểu."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT CHƯƠNG TRÌNH HOẠT ĐỘNG (BÀI VIẾT SỐ 1)"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -23460,7 +23553,8 @@
               "- HS ghi nhiệm vụ vận dụng và thực hiện sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -23675,7 +23769,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: XUỒNG BA LÁ QUÊ TÔITIẾT 1: ĐỌC: XUỒNG BA LÁ QUÊ TÔI"
       },
       {
         "lessonTitle": "BÀI 15: XUỒNG BA LÁ QUÊ TÔITIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ LIÊN KẾT CÂU TRONG ĐOẠN VĂN",
@@ -23825,7 +23920,8 @@
               "- HS lắng nghe, hoàn thiện bài làm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: XUỒNG BA LÁ QUÊ TÔITIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ LIÊN KẾT CÂU TRONG ĐOẠN VĂN"
       },
       {
         "lessonTitle": "BÀI 15: XUỒNG BA LÁ QUÊ TÔITIẾT 3: VIẾT: ĐÁNH GIÁ, CHỈNH SỬA CHƯƠNG TRÌNH HOẠT ĐỘNG",
@@ -23837,7 +23933,11 @@
           "- Biết chỉnh sửa nội dung, hình thức trình bày của bản chương trình hoạt động để bài viết rõ ràng, hợp lí hơn.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: tự đọc lại bài viết, nhận ra ưu điểm, hạn chế và sửa lỗi.",
-          "- Giao tiếp và hợp tác: trao đổi với bạn để góp ý bài viết theo tinh thần xây dựng."
+          "- Giao tiếp và hợp tác: trao đổi với bạn để góp ý bài viết theo tinh thần xây dựng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: nghiêm túc đọc soát, chỉnh sửa bài viết.",
+          "- Trách nhiệm: có ý thức hoàn thiện sản phẩm học tập và tôn trọng góp ý của bạn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; bài viết chương trình hoạt động của HS.",
@@ -23846,10 +23946,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: nghiêm túc đọc soát, chỉnh sửa bài viết.",
-          "- Trách nhiệm: có ý thức hoàn thiện sản phẩm học tập và tôn trọng góp ý của bạn.",
-          "4. Tích hợp",
           "- AI: 5.C4.2 - Dùng mô hình/hình ảnh số để quan sát xuồng ba lá, nhận biết AI hỗ trợ bảo tồn tri thức dân gian.",
           "- ................................................................................................................................................................",
           "- ................................................................................................................................................................",
@@ -23965,7 +24061,8 @@
               "- HS lắng nghe, chuẩn bị bài Về thăm Đất Mũi."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: XUỒNG BA LÁ QUÊ TÔITIẾT 3: VIẾT: ĐÁNH GIÁ, CHỈNH SỬA CHƯƠNG TRÌNH HOẠT ĐỘNG"
       },
       {
         "lessonTitle": "BÀI 16: VỀ THĂM ĐẤT MŨITIẾT 1 - 2: ĐỌC: VỀ THĂM ĐẤT MŨI",
@@ -24193,7 +24290,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: VỀ THĂM ĐẤT MŨITIẾT 1 - 2: ĐỌC: VỀ THĂM ĐẤT MŨI"
       },
       {
         "lessonTitle": "BÀI 16: VỀ THĂM ĐẤT MŨITIẾT 3: VIẾT: VIẾT CHƯƠNG TRÌNH HOẠT ĐỘNG (BÀI VIẾT SỐ 2)",
@@ -24334,7 +24432,8 @@
               "- HS chuẩn bị: chọn một sản vật địa phương, tìm thông tin, tranh ảnh hoặc video phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: VỀ THĂM ĐẤT MŨITIẾT 3: VIẾT: VIẾT CHƯƠNG TRÌNH HOẠT ĐỘNG (BÀI VIẾT SỐ 2)"
       },
       {
         "lessonTitle": "BÀI 16: VỀ THĂM ĐẤT MŨITIẾT 4: NÓI VÀ NGHE: SẢN VẬT ĐỊA PHƯƠNG",
@@ -24473,7 +24572,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: VỀ THĂM ĐẤT MŨITIẾT 4: NÓI VÀ NGHE: SẢN VẬT ĐỊA PHƯƠNG"
       }
     ]
   },
@@ -24617,7 +24717,8 @@
               "- HS lắng nghe, sửa câu nếu dùng kết từ hoặc vế câu chưa phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: PHẦN I - ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3 - 4: PHẦN I - ÔN TẬP (TIẾP THEO)",
@@ -24793,7 +24894,8 @@
               "- HS lắng nghe, sửa bài và ghi nhớ cách sử dụng từ ngữ nối để liên kết câu."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4: PHẦN I - ÔN TẬP (TIẾP THEO)"
       },
       {
         "lessonTitle": "TIẾT 5: PHẦN I - ÔN TẬP (TIẾP THEO)",
@@ -24906,7 +25008,8 @@
               "- HS lắng nghe, hoàn thiện đoạn văn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: PHẦN I - ÔN TẬP (TIẾP THEO)"
       },
       {
         "lessonTitle": "TIẾT 6: KIỂM TRA ĐỌC",
@@ -24992,7 +25095,8 @@
               "- HS lắng nghe, chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6: KIỂM TRA ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 7: KIỂM TRA ĐỌC HIỂU - VIẾT",
@@ -25125,7 +25229,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7: KIỂM TRA ĐỌC HIỂU - VIẾT"
       }
     ]
   },
@@ -25366,7 +25471,8 @@
               "- HS lắng nghe và thực hiện:+ Ghi nhớ truyền thống hiếu học của dân tộc.+ Cố gắng học tập, rèn luyện và chia sẻ điều tốt đẹp với bạn bè."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: NGHÌN NĂM VĂN HIẾN"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐẠI TỪ VÀ KẾT TỪ",
@@ -25515,7 +25621,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐẠI TỪ VÀ KẾT TỪ"
       },
       {
         "lessonTitle": "BÀI 17: NGHÌN NĂM VĂN HIẾN",
@@ -25635,7 +25742,8 @@
               "- HS nhắc lại: Đọc hiểu Nghìn năm văn hiến; Luyện tập về đại từ và kết từ; Tìm hiểu cách viết đoạn văn nêu ý kiến tán thành một sự việc, hiện tượng."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17: NGHÌN NĂM VĂN HIẾN"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: NGƯỜI THẦY CỦA MUÔN ĐỜI",
@@ -25894,7 +26002,8 @@
               "- HS lắng nghe và thực hiện:+ Tôn trọng thầy cô, bạn bè trong lớp học.+ Mạnh dạn hỏi bài, chia sẻ khó khăn học tập đúng cách.+ Không trêu chọc, cản trở việc học của bạn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NGƯỜI THẦY CỦA MUÔN ĐỜI"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN NÊU Ý KIẾN TÁN THÀNH MỘT SỰ VIỆC, HIỆN TƯỢNG",
@@ -26016,7 +26125,8 @@
               "- HS lắng nghe và ghi nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN NÊU Ý KIẾN TÁN THÀNH MỘT SỰ VIỆC, HIỆN TƯỢNG"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -26127,7 +26237,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ đọc trước Bài 19."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -26139,17 +26250,8 @@
         "lessonTitle": "TIẾT 1: ĐỌC: DANH Y TUỆ TĨNH",
         "topic": "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG",
         "yccd": [
-          "1. Năng lực đặc thù"
-        ],
-        "dodung": [
-          "- Tranh minh họa bài đọc Danh y Tuệ Tĩnh; hình ảnh cây thuốc nam.",
-          "- SGK Tiếng Việt 5, tập hai; bảng phụ hoặc phiếu học tập ghi câu hỏi đọc hiểu.",
-          "- Máy tính, máy chiếu; hình SGK được cắt đúng nội dung và chèn ngay dưới câu lệnh GV tương ứng."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "1. Năng lực đặc thù",
           "- Nhận biết được nội dung câu chuyện: Ca ngợi danh y Tuệ Tĩnh - người nêu cao tinh thần yêu nước, tự tôn dân tộc và ý thức nối gót người đi trước trong việc tìm tòi các vị thuốc nam.",
-          "- Hiểu được từ ngữ, hình ảnh trong việc thể hiện suy nghĩ, cảm xúc của nhân vật.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: chủ động đọc bài, tìm hiểu nghĩa từ, chuẩn bị câu trả lời.",
           "- Giao tiếp và hợp tác: trao đổi nhóm, trình bày câu trả lời, lắng nghe và bổ sung ý kiến.",
@@ -26159,14 +26261,20 @@
           "- Yêu nước: tự hào về tri thức y học dân tộc và truyền thống của cha ông.",
           "- Trách nhiệm: có ý thức bảo vệ sức khỏe bản thân và cộng đồng.",
           "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục y đức, lòng nhân ái, tinh thần vì dân và trân trọng tri thức y học dân tộc.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục y đức, lòng nhân ái, tinh thần vì dân và trân trọng tri thức y học dân tộc."
+        ],
+        "dodung": [
+          "- Tranh minh họa bài đọc Danh y Tuệ Tĩnh; hình ảnh cây thuốc nam.",
+          "- SGK Tiếng Việt 5, tập hai; bảng phụ hoặc phiếu học tập ghi câu hỏi đọc hiểu.",
+          "- Máy tính, máy chiếu; hình SGK được cắt đúng nội dung và chèn ngay dưới câu lệnh GV tương ứng."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "- Hiểu được từ ngữ, hình ảnh trong việc thể hiện suy nghĩ, cảm xúc của nhân vật.",
           "- Quyền con người: Lồng ghép quyền được chăm sóc sức khỏe, được tiếp cận kiến thức bảo vệ sức khỏe phù hợp lứa tuổi.",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 29",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -26343,7 +26451,8 @@
               "- HS lắng nghe, nhắc lại việc làm phù hợp: hỏi người lớn khi cần chăm sóc sức khỏe, không tự ý dùng cây thuốc lạ, biết bảo vệ bản thân."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: DANH Y TUỆ TĨNH"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ TỪ ĐỒNG NGHĨA VÀ TỪ ĐA NGHĨA",
@@ -26372,10 +26481,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 29",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -26527,7 +26633,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ TỪ ĐỒNG NGHĨA VÀ TỪ ĐA NGHĨA"
       },
       {
         "lessonTitle": "BÀI 19: DANH Y TUỆ TĨNH",
@@ -26557,10 +26664,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 29",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -26633,23 +26737,15 @@
               "- HS lắng nghe, ghi nhiệm vụ vận dụng."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 19: DANH Y TUỆ TĨNH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: CỤ ĐỒ CHIỂU",
         "topic": "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG",
         "yccd": [
-          "1. Năng lực đặc thù"
-        ],
-        "dodung": [
-          "- Tranh minh họa bài đọc Cụ Đồ Chiểu; tranh ảnh hoặc thông tin về Nguyễn Đình Chiểu.",
-          "- SGK Tiếng Việt 5, tập hai; phiếu học tập tóm tắt sự kiện chính.",
-          "- Máy tính, máy chiếu; hình SGK cắt đúng nội dung và đặt trong cột GV."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "1. Năng lực đặc thù",
           "- Nhận biết được chủ đề của bài đọc: Ca ngợi Nguyễn Đình Chiểu - người trí thức giàu nghị lực, có tấm lòng yêu nước, thương dân sâu sắc.",
-          "- Hiểu được từ ngữ, hình ảnh, biện pháp so sánh trong việc thể hiện suy nghĩ, cảm xúc, ý chí, nghị lực của nhân vật.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: đọc trước văn bản, tìm hiểu thông tin về Nguyễn Đình Chiểu.",
           "- Giao tiếp và hợp tác: thảo luận câu hỏi, trình bày ý kiến và lắng nghe bạn.",
@@ -26659,14 +26755,20 @@
           "- Nhân ái: biết tôn trọng, cảm thông với người khuyết tật.",
           "- Trách nhiệm: biết sống có ích, vượt khó trong học tập.",
           "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng lòng yêu nước, nghị lực vượt khó, nhân cách thanh cao và tinh thần sống có ích.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng lòng yêu nước, nghị lực vượt khó, nhân cách thanh cao và tinh thần sống có ích."
+        ],
+        "dodung": [
+          "- Tranh minh họa bài đọc Cụ Đồ Chiểu; tranh ảnh hoặc thông tin về Nguyễn Đình Chiểu.",
+          "- SGK Tiếng Việt 5, tập hai; phiếu học tập tóm tắt sự kiện chính.",
+          "- Máy tính, máy chiếu; hình SGK cắt đúng nội dung và đặt trong cột GV."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "- Hiểu được từ ngữ, hình ảnh, biện pháp so sánh trong việc thể hiện suy nghĩ, cảm xúc, ý chí, nghị lực của nhân vật.",
           "- Quyền con người: Lồng ghép quyền được học tập, sáng tạo, cống hiến của người khuyết tật; giáo dục thái độ tôn trọng, không kì thị.",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 29",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -26843,7 +26945,8 @@
               "- HS lắng nghe, nêu việc làm phù hợp: tôn trọng mọi người, không trêu chọc khuyết điểm của bạn, giúp bạn học tập và tham gia hoạt động lớp."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: CỤ ĐỒ CHIỂU"
       },
       {
         "lessonTitle": "BÀI 20: CỤ ĐỒ CHIỂU",
@@ -26856,7 +26959,11 @@
           "- Biết viết lại một số câu hoặc bổ sung dẫn chứng để đoạn văn đúng và hay hơn.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: tự đọc lại bài làm, phát hiện và sửa lỗi.",
-          "- Giao tiếp và hợp tác: trao đổi, góp ý bài viết cho bạn."
+          "- Giao tiếp và hợp tác: trao đổi, góp ý bài viết cho bạn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực sửa bài, hoàn thiện sản phẩm viết.",
+          "- Trách nhiệm: biết tiếp thu góp ý và phản hồi văn minh.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Bài viết số 1 của HS; SGK Tiếng Việt 5, tập hai.",
@@ -26865,17 +26972,10 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực sửa bài, hoàn thiện sản phẩm viết.",
-          "- Trách nhiệm: biết tiếp thu góp ý và phản hồi văn minh.",
-          "4. Tích hợp",
           "- NLS: 2.5.CB2a - HS viết cảm nghĩ trên nền tảng số, tuân thủ quy tắc ứng xử mạng.",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 29",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -26956,7 +27056,8 @@
               "- HS ghi nhiệm vụ, hoàn thiện bài viết ở nhà nếu cần."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20: CỤ ĐỒ CHIỂU"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: ĐỀN ƠN ĐÁP NGHĨA",
@@ -27075,7 +27176,8 @@
               "- HS ghi nhiệm vụ: hỏi người thân về ý nghĩa ngày 27 tháng 7 và những việc làm tri ân người có công với đất nước."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: ĐỀN ƠN ĐÁP NGHĨA"
       }
     ]
   },
@@ -27112,10 +27214,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 30",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27303,7 +27402,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: ANH HÙNG LAO ĐỘNG TRẦN ĐẠI NGHĨA"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ CÂU GHÉP",
@@ -27332,10 +27432,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 30",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27459,7 +27556,8 @@
               "- HS thực hiện:+ Tìm thông tin từ SGK hoặc nguồn tin cậy.+ Ghi nguồn dưới sản phẩm.+ Không đưa thông tin cá nhân, hình ảnh riêng tư lên sản phẩm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ CÂU GHÉP"
       },
       {
         "lessonTitle": "BÀI 21: ANH HÙNG LAO ĐỘNG TRẦN ĐẠI NGHĨA",
@@ -27489,10 +27587,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 30",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27580,13 +27675,24 @@
               "- HS hoàn thiện bài viết ở nhà nếu cần."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: ANH HÙNG LAO ĐỘNG TRẦN ĐẠI NGHĨA"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: BỘ ĐỘI VỀ LÀNG",
         "topic": "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG",
         "yccd": [
-          "1. Năng lực đặc thù"
+          "1. Năng lực đặc thù",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: đọc trước bài, tự học thuộc lòng bài thơ.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm, chia sẻ cảm nhận về bài thơ.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ bài thơ với việc làm tri ân bộ đội.",
+          "3. Phẩm chất",
+          "- Yêu nước: biết ơn bộ đội và những người bảo vệ Tổ quốc.",
+          "- Nhân ái: trân trọng tình cảm quân dân thắm thiết.",
+          "- Trách nhiệm: có ý thức tham gia hoạt động tri ân phù hợp.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Rèn lòng biết ơn, tinh thần đền ơn đáp nghĩa và sống có trách nhiệm với cộng đồng."
         ],
         "dodung": [
           "- SGK Tiếng Việt 5, tập hai; tranh minh họa bài thơ Bộ đội về làng.",
@@ -27597,23 +27703,10 @@
         "dieuchinh": [
           "- Hiểu được từ ngữ, hình ảnh thơ gợi tình cảm, cảm xúc của người dân dành cho các anh bộ đội.",
           "- Cảm nhận được tình quân dân thắm thiết trong những năm kháng chiến chống thực dân Pháp.",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: đọc trước bài, tự học thuộc lòng bài thơ.",
-          "- Giao tiếp và hợp tác: trao đổi nhóm, chia sẻ cảm nhận về bài thơ.",
-          "- Giải quyết vấn đề và sáng tạo: biết liên hệ bài thơ với việc làm tri ân bộ đội.",
-          "3. Phẩm chất",
-          "- Yêu nước: biết ơn bộ đội và những người bảo vệ Tổ quốc.",
-          "- Nhân ái: trân trọng tình cảm quân dân thắm thiết.",
-          "- Trách nhiệm: có ý thức tham gia hoạt động tri ân phù hợp.",
-          "4. Tích hợp",
           "- QPAN: Giáo dục tình cảm quân dân, lòng biết ơn bộ đội, ý thức trân trọng những người bảo vệ bình yên cho Tổ quốc.",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Rèn lòng biết ơn, tinh thần đền ơn đáp nghĩa và sống có trách nhiệm với cộng đồng.",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 30",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27817,7 +27910,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: BỘ ĐỘI VỀ LÀNG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LUYỆN VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT SỰ VIỆC",
@@ -27847,10 +27941,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 30",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27938,7 +28029,8 @@
               "- HS ghi nhiệm vụ chuẩn bị bài đọc mở rộng."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LUYỆN VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM, CẢM XÚC VỀ MỘT SỰ VIỆC"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -28059,7 +28151,8 @@
               "- HS nhắc lại: Đọc hiểu Bộ đội về làng; Viết luyện viết đoạn văn thể hiện tình cảm, cảm xúc về một sự việc; Đọc mở rộng bài ca dao hoặc bài thơ về quê hương, đất nước."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -28097,10 +28190,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 31",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -28261,7 +28351,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: VỀ NGÔI NHÀ ĐANG XÂY"
       },
       {
         "lessonTitle": "BÀI 23: VỀ NGÔI NHÀ ĐANG XÂY",
@@ -28292,10 +28383,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 31",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -28415,7 +28503,8 @@
               "- HS đọc bài, lắng nghe nhận xét và chỉnh sửa nếu cần."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 23: VỀ NGÔI NHÀ ĐANG XÂY"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LUYỆN TẬP LẬP DÀN Ý CHO BÀI VĂN TẢ PHONG CẢNH",
@@ -28445,10 +28534,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 31",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -28548,7 +28634,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LUYỆN TẬP LẬP DÀN Ý CHO BÀI VĂN TẢ PHONG CẢNH"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: VIỆT NAM QUÊ HƯƠNG TA",
@@ -28580,10 +28667,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 31",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -28794,7 +28878,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: VIỆT NAM QUÊ HƯƠNG TA"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LUYỆN VIẾT BÀI VĂN TẢ PHONG CẢNH",
@@ -28824,10 +28909,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 31",
-          "CHỦ ĐIỂM: TIẾP BƯỚC CHA ÔNG"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -28912,7 +28994,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LUYỆN VIẾT BÀI VĂN TẢ PHONG CẢNH"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: DI TÍCH LỊCH SỬ",
@@ -29050,7 +29133,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: DI TÍCH LỊCH SỬ"
       }
     ]
   },
@@ -29087,10 +29171,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 32",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -29250,7 +29331,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: BÀI CA TRÁI ĐẤT"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: CÁCH VIẾT TÊN NGƯỜI VÀ TÊN ĐỊA LÍ NƯỚC NGOÀI",
@@ -29280,10 +29362,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 32",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -29396,7 +29475,8 @@
               "- HS đọc bài, lớp nhận xét cách viết tên riêng nước ngoài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: CÁCH VIẾT TÊN NGƯỜI VÀ TÊN ĐỊA LÍ NƯỚC NGOÀI"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LUYỆN TẬP LẬP DÀN Ý CHO BÀI VĂN TẢ NGƯỜI",
@@ -29426,10 +29506,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 32",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -29518,7 +29595,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LUYỆN TẬP LẬP DÀN Ý CHO BÀI VĂN TẢ NGƯỜI"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: NHỮNG CON HẠC GIẤY",
@@ -29549,10 +29627,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 32",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -29771,7 +29846,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NHỮNG CON HẠC GIẤY"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LUYỆN VIẾT BÀI VĂN TẢ NGƯỜI",
@@ -29801,10 +29877,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 32",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -29881,7 +29954,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LUYỆN VIẾT BÀI VĂN TẢ NGƯỜI"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -29996,7 +30070,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -30032,10 +30107,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- .............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 33",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "- ............................................................................................................................."
         ],
         "tables": [
           [
@@ -30216,7 +30288,8 @@
               "- HS nêu: Em học được lòng nhân hậu, tinh thần dũng cảm, trách nhiệm và cách làm việc tốt âm thầm vì người khác."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: MỘT NGƯỜI HÙNG THẦM LẶNG"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ DẤU GẠCH NGANG",
@@ -30243,10 +30316,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- .............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 33",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "- ............................................................................................................................."
         ],
         "tables": [
           [
@@ -30351,7 +30421,8 @@
               "- HS lắng nghe và chỉnh sửa đoạn văn của mình."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ DẤU GẠCH NGANG"
       },
       {
         "lessonTitle": "BÀI 27: MỘT NGƯỜI HÙNG THẦM LẶNG",
@@ -30379,10 +30450,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- .............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 33",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "- ............................................................................................................................."
         ],
         "tables": [
           [
@@ -30515,7 +30583,8 @@
               "- HS nêu: Đọc hiểu Một người hùng thầm lặng; luyện tập về dấu gạch ngang; tìm hiểu cách viết đoạn văn nêu ý kiến phản đối một sự việc, hiện tượng."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27: MỘT NGƯỜI HÙNG THẦM LẶNG"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: GIỜ TRÁI ĐẤT",
@@ -30544,10 +30613,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- .............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 33",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "- ............................................................................................................................."
         ],
         "tables": [
           [
@@ -30728,7 +30794,8 @@
               "- HS lắng nghe, hoàn thiện bài tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: GIỜ TRÁI ĐẤT"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN NÊU Ý KIẾN PHẢN ĐỐI MỘT SỰ VIỆC, HIỆN TƯỢNG",
@@ -30755,10 +30822,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- .............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 5",
-          "TUẦN 33",
-          "CHỦ ĐIỂM: THẾ GIỚI CỦA CHÚNG TA"
+          "- ............................................................................................................................."
         ],
         "tables": [
           [
@@ -30835,7 +30899,8 @@
               "- HS lắng nghe, tự hoàn thiện phần tìm ý của mình."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN NÊU Ý KIẾN PHẢN ĐỐI MỘT SỰ VIỆC, HIỆN TƯỢNG"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: TRẢI NGHIỆM NGÀY HÈ",
@@ -30947,7 +31012,8 @@
               "- HS nêu: Đọc hiểu Giờ Trái Đất; tìm ý cho đoạn văn nêu ý kiến phản đối một sự việc, hiện tượng; nói và nghe Trải nghiệm ngày hè."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: TRẢI NGHIỆM NGÀY HÈ"
       }
     ]
   },
@@ -31113,7 +31179,8 @@
               "- HS lắng nghe, ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: ĐIỆN THOẠI DI ĐỘNG"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ LIÊN KẾT CÂU TRONG ĐOẠN VĂN",
@@ -31230,7 +31297,8 @@
               "- HS lắng nghe, chỉnh sửa đoạn văn của mình."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ LIÊN KẾT CÂU TRONG ĐOẠN VĂN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN NÊU Ý KIẾN PHẢN ĐỐI MỘT SỰ VIỆC, HIỆN TƯỢNG",
@@ -31323,7 +31391,8 @@
               "- HS ghi nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN NÊU Ý KIẾN PHẢN ĐỐI MỘT SỰ VIỆC, HIỆN TƯỢNG"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: THÀNH PHỐ THÔNG MINH MÁT-XĐA",
@@ -31495,7 +31564,8 @@
               "- HS nêu: Thành phố thông minh cần tiết kiệm năng lượng, bảo vệ môi trường, giúp con người sống an toàn, sạch đẹp và thuận tiện hơn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: THÀNH PHỐ THÔNG MINH MÁT-XĐA"
       },
       {
         "lessonTitle": "BÀI 30: THÀNH PHỐ THÔNG MINH MÁT-XĐA",
@@ -31593,7 +31663,8 @@
               "- HS hoàn thiện bài viết sau khi chỉnh sửa."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 30: THÀNH PHỐ THÔNG MINH MÁT-XĐA"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -31686,7 +31757,8 @@
               "- HS lắng nghe, ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -31849,7 +31921,8 @@
               "- HS lắng nghe, sửa đoạn văn theo góp ý."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM HỌC"
       },
       {
         "lessonTitle": "TIẾT 3 - 4: ÔN TẬP",
@@ -31983,7 +32056,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4: ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5: ÔN TẬP",
@@ -32084,7 +32158,8 @@
               "- HS lắng nghe, ghi nhớ những điểm cần chú ý khi viết bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 6: KIỂM TRA ĐỌC",
@@ -32174,7 +32249,8 @@
               "- HS ghi nhớ nhiệm vụ tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6: KIỂM TRA ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 7: KIỂM TRA ĐỌC HIỂU - VIẾT",
@@ -32301,7 +32377,8 @@
               "- HS nộp bài, giữ trật tự, lắng nghe nhận xét chung và tự nhẩm lại điều mình đã tiến bộ, điều cần cố gắng thêm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7: KIỂM TRA ĐỌC HIỂU - VIẾT"
       }
     ]
   }
@@ -32319,5 +32396,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

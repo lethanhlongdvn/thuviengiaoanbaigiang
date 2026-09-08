@@ -212,7 +212,8 @@
               "- HS trả lời: Hôm nay học bài Tôi là học sinh lớp 2; bài đọc giúp em hiểu ngày khai giảng lớp 2 rất vui, ai cũng háo hức đến trường.\n- HS ghi nhiệm vụ: đọc bài ở nhà và thực hành 3 lời chào thân thiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: TÔI LÀ HỌC SINH LỚP 2"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: CHỮ HOA A",
@@ -222,7 +223,12 @@
           "- Biết viết đúng chữ hoa A cỡ vừa và cỡ nhỏ theo quy trình.",
           "- Viết đúng câu ứng dụng: “Ánh nắng tràn ngập sân trường.”",
           "- Trình bày bài viết sạch, rõ ràng, đúng khoảng cách.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết nhận xét bài viết của bạn bằng lời góp ý nhẹ nhàng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: kiên trì luyện từng nét chữ.",
+          "- Trách nhiệm: có ý thức giữ vở sạch, chữ đẹp.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Mẫu chữ hoa A, tranh/cụm câu ứng dụng trong SGK, máy chiếu hoặc ti vi.",
@@ -230,11 +236,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết nhận xét bài viết của bạn bằng lời góp ý nhẹ nhàng.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: kiên trì luyện từng nét chữ.",
-          "- Trách nhiệm: có ý thức giữ vở sạch, chữ đẹp.",
-          "4. Tích hợp:",
           "- Giáo dục bảo vệ môi trường: Qua câu ứng dụng “Ánh nắng tràn ngập sân trường”, giáo dục HS giữ vệ sinh lớp học, bỏ rác đúng nơi quy định, chăm sóc cây xanh để sân trường luôn xanh - sạch - đẹp."
         ],
         "tables": [
@@ -330,7 +331,8 @@
               "- HS trả lời: Em viết hoa chữ A khi đứng đầu câu, đầu tên riêng; câu ứng dụng nhắc em yêu sân trường và giữ vệ sinh trường lớp.\n- HS ghi nhiệm vụ: luyện viết chữ A và bỏ rác đúng nơi quy định."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: CHỮ HOA A"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: NHỮNG NGÀY HÈ CỦA EM",
@@ -448,7 +450,8 @@
               "- HS trả lời: Em nói đi đâu, làm gì, nhớ nhất điều gì, cảm xúc ra sao; em không tự ý chơi gần nước và phải có người lớn khi đi bơi.\n- HS ghi nhiệm vụ: kể lại kỉ niệm hè và nhớ quy tắc không tự ý tắm sông, ao, hồ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: NHỮNG NGÀY HÈ CỦA EM"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: NGÀY HÔM QUA ĐÂU RỒI?",
@@ -641,7 +644,8 @@
               "- HS ghi nhiệm vụ: đọc bài thơ và làm một việc có ích trong hôm nay."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NGÀY HÔM QUA ĐÂU RỒI?"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: NGHE - VIẾT: NGÀY HÔM QUA ĐÂU RỒI?; BẢNG CHỮ CÁI",
@@ -773,7 +777,8 @@
               "- HS trả lời: Em trình bày mỗi dòng thơ một dòng, viết hoa chữ đầu dòng; em học các chữ a, ă, â, b, c, d, đ, e, ê.\n- HS ghi nhiệm vụ học thuộc bảng chữ cái và sửa lỗi chính tả."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: NGHE - VIẾT: NGÀY HÔM QUA ĐÂU RỒI?; BẢNG CHỮ CÁI"
       },
       {
         "lessonTitle": "TIẾT 4: TỪ NGỮ CHỈ SỰ VẬT, HOẠT ĐỘNG. CÂU GIỚI THIỆU",
@@ -907,7 +912,8 @@
               "- HS nói: Em là học sinh lớp 2. Em học ở Trường Tiểu học Lương Thế Vinh.\n- HS ghi nhớ nhiệm vụ vận dụng ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: TỪ NGỮ CHỈ SỰ VẬT, HOẠT ĐỘNG. CÂU GIỚI THIỆU"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: VIẾT ĐOẠN VĂN GIỚI THIỆU VỀ BẢN THÂN; ĐỌC MỞ RỘNG",
@@ -1103,7 +1109,8 @@
               "- HS ghi nhiệm vụ: đọc thêm một bài phù hợp và ghi lại tên bài, điều em học được."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: VIẾT ĐOẠN VĂN GIỚI THIỆU VỀ BẢN THÂN; ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -1137,10 +1144,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, bảng con, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 2",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -1379,7 +1383,8 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài học sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NIỀM VUI CỦA BI VÀ BỐNG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: CHỮ HOA Ă, Â",
@@ -1406,9 +1411,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 2",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -1547,7 +1550,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: CHỮ HOA Ă, Â"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN NIỀM VUI CỦA BI VÀ BỐNG",
@@ -1573,10 +1577,7 @@
           "- HS: SGK, vở, bút chì; chuẩn bị kể lại câu chuyện cho người thân."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 2",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -1690,7 +1691,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN NIỀM VUI CỦA BI VÀ BỐNG"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: LÀM VIỆC THẬT LÀ VUI",
@@ -1717,9 +1719,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 2",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -1939,7 +1939,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: LÀM VIỆC THẬT LÀ VUI"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: NGHE - VIẾT: LÀM VIỆC THẬT LÀ VUI; BẢNG CHỮ CÁI",
@@ -1967,9 +1968,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 2",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -2112,7 +2111,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: NGHE - VIẾT: LÀM VIỆC THẬT LÀ VUI; BẢNG CHỮ CÁI"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ SỰ VẬT, HOẠT ĐỘNG; CÂU NÊU HOẠT ĐỘNG",
@@ -2137,9 +2137,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 2",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -2270,7 +2268,8 @@
               "- HS nói: Em nhặt rác dưới gầm bàn. Em xếp ghế ngay ngắn. Em lau bảng sau giờ học."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ SỰ VẬT, HOẠT ĐỘNG; CÂU NÊU HOẠT ĐỘNG"
       },
       {
         "lessonTitle": "BÀI 4: LÀM VIỆC THẬT LÀ VUI",
@@ -2524,7 +2523,8 @@
               "- HS ghi nhớ nhiệm vụ đọc mở rộng ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: LÀM VIỆC THẬT LÀ VUI"
       }
     ]
   },
@@ -2540,7 +2540,14 @@
           "- Đọc đúng, rõ ràng bài học; biết ngắt nghỉ hơi phù hợp theo dấu câu, dòng thơ hoặc đoạn văn.",
           "- Hiểu nghĩa từ ngữ; trả lời được câu hỏi trong SGK; nêu được nội dung chính của bài.",
           "- Biết luyện đọc lại, trao đổi, nói/viết câu theo nội dung bài học.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi với bạn về nét riêng của mỗi người; lắng nghe, nhận xét bạn đọc, bạn trả lời bằng lời nói tôn trọng.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn lời nói phù hợp để động viên bạn tự tin là chính mình, không chê bai hay so sánh ngoại hình.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương, tôn trọng nét riêng của bản thân và bạn bè; không trêu chọc, không so sánh ngoại hình của bạn.",
+          "- Chăm chỉ: tích cực luyện đọc, tham gia trả lời câu hỏi và hoàn thành nhiệm vụ học tập trong bài đọc.",
+          "- Trách nhiệm: có ý thức dùng lời nói tích cực, lịch sự khi nhận xét bạn và khi bày tỏ cảm xúc của bản thân.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh và câu bài tập cắt từ SGK, thẻ từ, phiếu học tập phù hợp với bài.",
@@ -2548,17 +2555,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi với bạn về nét riêng của mỗi người; lắng nghe, nhận xét bạn đọc, bạn trả lời bằng lời nói tôn trọng.",
-          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn lời nói phù hợp để động viên bạn tự tin là chính mình, không chê bai hay so sánh ngoại hình.",
-          "3. Phẩm chất:",
-          "- Nhân ái: biết yêu thương, tôn trọng nét riêng của bản thân và bạn bè; không trêu chọc, không so sánh ngoại hình của bạn.",
-          "- Chăm chỉ: tích cực luyện đọc, tham gia trả lời câu hỏi và hoàn thành nhiệm vụ học tập trong bài đọc.",
-          "- Trách nhiệm: có ý thức dùng lời nói tích cực, lịch sự khi nhận xét bạn và khi bày tỏ cảm xúc của bản thân.",
-          "4. Tích hợp:",
           "- Quyền con người: Quyền được tôn trọng; HS hiểu mỗi người có nét riêng, có quyền được yêu thương, được nói lên cảm xúc và không bị chê bai, so sánh ngoại hình.",
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 3",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -2767,7 +2765,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà và chuẩn bị đồ dùng học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: EM CÓ XINH KHÔNG?"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: CHỮ HOA B",
@@ -2778,7 +2777,11 @@
           "- Viết đúng câu ứng dụng; trình bày bài viết sạch, rõ ràng, đúng khoảng cách; đặt dấu thanh, dấu phụ đúng vị trí.",
           "2. Năng lực chung:",
           "- Tự chủ và tự học: tự chuẩn bị vở, bút; quan sát mẫu chữ hoa B, giữ tư thế ngồi viết đúng và tự soát lỗi bài viết.",
-          "- Giao tiếp và hợp tác: biết trao đổi, nhận xét bài viết của bạn bằng lời lịch sự; góp ý về độ cao, khoảng cách, dấu thanh trong câu ứng dụng."
+          "- Giao tiếp và hợp tác: biết trao đổi, nhận xét bài viết của bạn bằng lời lịch sự; góp ý về độ cao, khoảng cách, dấu thanh trong câu ứng dụng.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết chia sẻ, giúp đỡ bạn trong học tập theo ý nghĩa câu ứng dụng Bạn bè chia ngọt sẻ bùi.",
+          "- Chăm chỉ: kiên trì rèn viết chữ hoa B, viết câu ứng dụng đúng mẫu, sạch đẹp.",
+          "- Trách nhiệm: giữ vở sạch, chữ rõ ràng, biết tự sửa lỗi và hoàn thành bài viết theo yêu cầu."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh và câu bài tập cắt từ SGK, thẻ từ, phiếu học tập phù hợp với bài.",
@@ -2786,13 +2789,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất:",
-          "- Nhân ái: biết chia sẻ, giúp đỡ bạn trong học tập theo ý nghĩa câu ứng dụng Bạn bè chia ngọt sẻ bùi.",
-          "- Chăm chỉ: kiên trì rèn viết chữ hoa B, viết câu ứng dụng đúng mẫu, sạch đẹp.",
-          "- Trách nhiệm: giữ vở sạch, chữ rõ ràng, biết tự sửa lỗi và hoàn thành bài viết theo yêu cầu.",
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 3",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -2899,7 +2896,8 @@
               "- HS ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: CHỮ HOA B"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN EM CÓ XINH KHÔNG?",
@@ -2923,9 +2921,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 3",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -3020,7 +3016,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN EM CÓ XINH KHÔNG?"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: MỘT GIỜ HỌC",
@@ -3047,9 +3044,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 3",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -3226,7 +3221,8 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị tiết Viết."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: MỘT GIỜ HỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: NGHE - VIẾT MỘT GIỜ HỌC; BẢNG CHỮ CÁI",
@@ -3250,9 +3246,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 3",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -3347,7 +3341,8 @@
               "- HS ghi nhớ nhiệm vụ ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: NGHE - VIẾT MỘT GIỜ HỌC; BẢNG CHỮ CÁI"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ CHỈ ĐẶC ĐIỂM; CÂU NÊU ĐẶC ĐIỂM",
@@ -3371,9 +3366,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 3",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -3480,7 +3473,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ CHỈ ĐẶC ĐIỂM; CÂU NÊU ĐẶC ĐIỂM"
       },
       {
         "lessonTitle": "BÀI 6: MỘT GIỜ HỌC",
@@ -3694,7 +3688,8 @@
               "- HS ghi nhớ nhiệm vụ, thực hiện ở nhà và chuẩn bị bài học tuần sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: MỘT GIỜ HỌC"
       }
     ]
   },
@@ -3724,10 +3719,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 4",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3919,7 +3911,8 @@
               "- HS ghi nhớ nhiệm vụ, về nhà đọc bài và quan sát cây cối xung quanh."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: CÂY XẤU HỔ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: CHỮ HOA C",
@@ -3940,10 +3933,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 4",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4056,7 +4046,8 @@
               "- HS ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: CHỮ HOA C"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN CHÚ ĐỖ CON",
@@ -4078,10 +4069,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 4",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4175,7 +4163,8 @@
               "- HS ghi nhớ nhiệm vụ, về nhà kể chuyện cho người thân."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN CHÚ ĐỖ CON"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: CẦU THỦ DỰ BỊ",
@@ -4199,10 +4188,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 4",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4358,7 +4344,8 @@
               "- HS ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: CẦU THỦ DỰ BỊ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: NGHE - VIẾT CẦU THỦ DỰ BỊ; VIẾT HOA TÊN NGƯỜI",
@@ -4380,10 +4367,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 4",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4469,7 +4453,8 @@
               "- HS ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: NGHE - VIẾT CẦU THỦ DỰ BỊ; VIẾT HOA TÊN NGƯỜI"
       },
       {
         "lessonTitle": "BÀI 8: CẦU THỦ DỰ BỊ",
@@ -4492,10 +4477,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 4",
-          "CHỦ ĐỀ 1: EM LỚN LÊN TỪNG NGÀY"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4569,7 +4551,8 @@
               "- HS ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: CẦU THỦ DỰ BỊ"
       },
       {
         "lessonTitle": "BÀI 8: CẦU THỦ DỰ BỊ",
@@ -4744,7 +4727,8 @@
               "- HS ghi nhớ nhiệm vụ, về nhà tìm đọc và ghi thông tin theo hướng dẫn."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: CẦU THỦ DỰ BỊ"
       }
     ]
   },
@@ -4775,9 +4759,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 5",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -5074,7 +5056,8 @@
               "- HS ghi nhớ nhiệm vụ: Em đọc bài cho người thân nghe, chuẩn bị bảng con, vở Tập viết và bút cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: CÔ GIÁO LỚP EM"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: CHỮ HOA D",
@@ -5096,9 +5079,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 5",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -5227,7 +5208,8 @@
               "- HS ghi nhớ: Em luyện viết thêm, soát lỗi độ cao, khoảng cách, dấu thanh và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: CHỮ HOA D"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN CẬU BÉ HAM HỌC",
@@ -5250,9 +5232,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 5",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -5365,7 +5345,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà, tập kể lại câu chuyện theo lời của mình và xem trước bài mới."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN CẬU BÉ HAM HỌC"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: THỜI KHÓA BIỂU",
@@ -5390,9 +5371,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 5",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -5554,7 +5533,8 @@
               "- HS ghi nhớ: Em xem thời khóa biểu, soạn sách vở dưới sự nhắc nhở của người lớn và chuẩn bị bài viết."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: THỜI KHÓA BIỂU"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: NGHE - VIẾT: THỜI KHÓA BIỂU; PHÂN BIỆT C/K, CH/TR, V/D",
@@ -5577,9 +5557,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 5",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -5688,7 +5666,8 @@
               "- HS ghi nhớ: Em sửa lỗi vào vở, luyện viết đúng các từ dễ lẫn và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: NGHE - VIẾT: THỜI KHÓA BIỂU; PHÂN BIỆT C/K, CH/TR, V/D"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ SỰ VẬT, HOẠT ĐỘNG; CÂU NÊU HOẠT ĐỘNG",
@@ -5711,9 +5690,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 5",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -5810,7 +5787,8 @@
               "- HS ghi nhớ và thực hiện, ghi từ tìm được vào vở nháp."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ SỰ VẬT, HOẠT ĐỘNG; CÂU NÊU HOẠT ĐỘNG"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: LUYỆN VIẾT ĐOẠN: VIẾT THỜI GIAN BIỂU; ĐỌC MỞ RỘNG",
@@ -6016,7 +5994,8 @@
               "- HS ghi nhớ: Em tìm thông tin an toàn, chọn nguồn phù hợp và không chia sẻ thông tin cá nhân."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: LUYỆN VIẾT ĐOẠN: VIẾT THỜI GIAN BIỂU; ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -6048,10 +6027,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 6",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -6296,7 +6272,8 @@
               "- HS ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: CÁI TRỐNG TRƯỜNG EM"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: CHỮ HOA Đ",
@@ -6317,10 +6294,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 6",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -6422,7 +6396,8 @@
               "- HS lắng nghe và hoàn thiện bài viết."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: CHỮ HOA Đ"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: NGÔI TRƯỜNG CỦA EM",
@@ -6445,10 +6420,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 6",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -6582,7 +6554,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: NGÔI TRƯỜNG CỦA EM"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: DANH SÁCH HỌC SINH",
@@ -6608,10 +6581,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 6",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -6797,7 +6767,8 @@
               "- HS ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: DANH SÁCH HỌC SINH"
       },
       {
         "lessonTitle": "BÀI 12: DANH SÁCH HỌC SINH",
@@ -6819,10 +6790,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 6",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -6976,7 +6944,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: DANH SÁCH HỌC SINH"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ SỰ VẬT, ĐẶC ĐIỂM; CÂU NÊU ĐẶC ĐIỂM",
@@ -6997,10 +6966,7 @@
           "- HS: SGK Tiếng Việt 2 tập một, Vở bài tập Tiếng Việt, vở ô ly, bảng con/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH DẠY HỌC - TUẦN 6",
-          "CHỦ ĐỀ 2: ĐI HỌC VUI SAO"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -7162,7 +7128,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ SỰ VẬT, ĐẶC ĐIỂM; CÂU NÊU ĐẶC ĐIỂM"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: LUYỆN VIẾT ĐOẠN: LẬP DANH SÁCH HỌC SINH (TỔ); ĐỌC MỞ RỘNG",
@@ -7455,7 +7422,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: LUYỆN VIẾT ĐOẠN: LẬP DANH SÁCH HỌC SINH (TỔ); ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -7481,78 +7449,56 @@
           "- Trách nhiệm: biết giữ gìn bàn ghế, cây xanh, lớp học sạch đẹp.",
           "4. Tích hợp:",
           "- Đạo đức, lối sống: Giáo dục HS yêu quý mái trường, thầy cô, bạn bè và biết trân trọng kỉ niệm đẹp trong học tập; HS biết thể hiện tình yêu trường lớp bằng việc giữ gìn bàn ghế, cây xanh, lớp học sạch đẹp, chào thầy cô, thân thiện và giúp đỡ bạn.",
-          "1. Năng lực đặc thù:",
           "- Biết viết chữ hoa E, Ê cỡ vừa và cỡ nhỏ đúng mẫu, đúng quy trình.",
           "- Viết đúng câu ứng dụng: “Em yêu mái trường. Có hàng cây mát.”",
           "- Trình bày bài viết sạch, rõ ràng, đúng khoảng cách; đặt dấu phụ đúng vị trí.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: tự chuẩn bị đồ dùng, giữ tư thế ngồi viết đúng.",
           "- Giao tiếp và hợp tác: biết nhận xét bài viết của bạn bằng lời lịch sự.",
           "- Giải quyết vấn đề: biết tự phát hiện và sửa lỗi chữ viết.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: kiên trì rèn chữ, giữ vở sạch đẹp.",
           "- Trách nhiệm: viết bài cẩn thận, hoàn thành nhiệm vụ.",
-          "1. Năng lực đặc thù:",
           "- Nghe và nhớ được nội dung câu chuyện Bữa ăn trưa theo tranh.",
           "- Chọn kể được 1 - 2 đoạn của câu chuyện theo tranh; biết kể rõ ràng, đúng trình tự.",
           "- Biết lắng nghe bạn kể và nhận xét lời kể của bạn theo gợi ý.",
-          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết kể trong nhóm, lắng nghe và góp ý cho bạn.",
           "- Tự chủ và tự học: mạnh dạn trình bày trước lớp.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn lời kể phù hợp với tranh.",
-          "3. Phẩm chất:",
           "- Nhân ái: biết quan tâm đến người phục vụ bữa ăn và bạn bè.",
           "- Trách nhiệm: biết giữ vệ sinh, không lãng phí thức ăn.",
-          "4. Tích hợp:",
           "- Giáo dục đạo đức, lối sống: Giáo dục HS nếp sống văn minh trong sinh hoạt bán trú; HS biết rửa tay trước khi ăn, ăn hết phần vừa sức, không nói chuyện quá to, không làm rơi vãi, cảm ơn người phục vụ và dọn vệ sinh đúng nơi quy định.",
-          "1. Năng lực đặc thù:",
           "- Đọc đúng, rõ ràng bài thơ Em học vẽ; biết ngắt nghỉ theo dòng thơ, khổ thơ.",
           "- Hiểu nội dung bài: bạn nhỏ vẽ những hình ảnh đẹp của thiên nhiên, trường lớp và thể hiện niềm vui học vẽ.",
           "- Trả lời được câu hỏi trong SGK; biết tìm từ ngữ chỉ sự vật và đặt câu nêu đặc điểm.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: chủ động đọc bài, chuẩn bị tranh mình thích để giới thiệu.",
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm, lắng nghe và góp ý cho bạn.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với việc bảo vệ môi trường, tiết kiệm giấy màu khi vẽ.",
-          "3. Phẩm chất:",
           "- Nhân ái: yêu thiên nhiên, yêu trường lớp.",
           "- Chăm chỉ: tích cực luyện đọc, hoàn thành bài tập.",
           "- Trách nhiệm: biết giữ gìn cảnh quan xanh - sạch - đẹp.",
-          "4. Tích hợp:",
           "- Giáo dục bảo vệ môi trường: Qua những bức tranh về biển, cây phượng và sân trường, HS biết yêu vẻ đẹp thiên nhiên, giữ gìn cảnh quan trường lớp xanh - sạch - đẹp; biết bỏ rác đúng nơi, không bẻ cành hái hoa, tiết kiệm giấy màu khi vẽ, chăm sóc cây xanh và giữ vệ sinh lớp học.",
-          "1. Năng lực đặc thù:",
           "- Nghe - viết đúng 2 khổ thơ đầu của bài Em học vẽ.",
           "- Làm đúng bài tập phân biệt ng/ngh, r/d/gi; tìm được từ có tiếng chứa an hoặc ang.",
           "- Trình bày bài chính tả sạch đẹp, biết soát lỗi và sửa lỗi.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: biết nghe kĩ, viết đúng và tự soát lỗi.",
           "- Giao tiếp và hợp tác: trao đổi cặp đôi khi làm bài tập chính tả.",
           "- Giải quyết vấn đề: biết chọn chữ, dấu đúng theo quy tắc chính tả.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: rèn chữ viết cẩn thận.",
           "- Trách nhiệm: giữ vở sạch, hoàn thành bài viết.",
-          "1. Năng lực đặc thù:",
           "- Tìm được từ ngữ chỉ sự vật là đồ dùng học tập trong tranh.",
           "- Đặt được câu nêu công dụng của đồ dùng học tập.",
           "- Biết chọn dấu chấm hoặc dấu chấm hỏi phù hợp trong đoạn hội thoại.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: chủ động quan sát tranh, làm bài cá nhân.",
           "- Giao tiếp và hợp tác: trao đổi nhóm, trình bày kết quả rõ ràng.",
           "- Giải quyết vấn đề: chọn dấu câu phù hợp với mục đích câu.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: tích cực tìm từ và đặt câu.",
           "- Trách nhiệm: biết giữ gìn đồ dùng học tập.",
-          "1. Năng lực đặc thù:",
           "- Nói được tên đồ vật dùng để vẽ và công dụng của đồ vật.",
           "- Viết được 3 - 4 câu giới thiệu về một đồ vật được dùng để vẽ.",
           "- Tìm đọc được một câu chuyện về trường học; chia sẻ được thông tin về câu chuyện đã đọc.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: chuẩn bị đồ dùng, tự viết đoạn văn và tự tìm bài đọc phù hợp.",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm, lắng nghe, góp ý cho bạn.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết để giới thiệu đồ vật; biết chọn nguồn đọc an toàn.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: hoàn thành bài viết và nhiệm vụ đọc mở rộng.",
           "- Trách nhiệm: biết giữ gìn đồ dùng học tập và chọn thông tin phù hợp.",
-          "4. Tích hợp:",
           "- Tích hợp NLS 1.1.CB1a: Xác định được thông tin, tìm kiếm dữ liệu, thông tin và nội dung thông qua tìm kiếm đơn giản trong môi trường số; biết chọn lọc thông tin phù hợp khi tìm câu chuyện về trường học, kiểm tra tên bài, tác giả hoặc nguồn trước khi chia sẻ."
         ],
         "dodung": [
@@ -7574,17 +7520,11 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 7CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 13: YÊU LẮM TRƯỜNG ƠI!TIẾT 3: VIẾT: CHỮ HOA E, Ê",
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 7CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 13: YÊU LẮM TRƯỜNG ƠI!TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN BỮA ĂN TRƯA",
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 7CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 14: EM HỌC VẼTIẾT 1 - 2: ĐỌC: EM HỌC VẼ",
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 7CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 14: EM HỌC VẼTIẾT 3: VIẾT: NGHE - VIẾT: EM HỌC VẼ; PHÂN BIỆT NG/NGH, R/D/GI, AN/ANG",
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 7CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 14: EM HỌC VẼTIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ SỰ VẬT; DẤU CHẤM, DẤU CHẤM HỎI",
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 7CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 14: EM HỌC VẼTIẾT 5 - 6: LUYỆN VIẾT ĐOẠN; ĐỌC MỞ RỘNG",
           "................................................................................................................................................"
         ],
         "tables": [
@@ -8418,7 +8358,8 @@
               "- HS ghi nhớ nhiệm vụ đọc mở rộng ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài học Tuần 7"
       }
     ]
   },
@@ -8444,67 +8385,47 @@
           "4. Tích hợp:",
           "- Giáo dục đạo đức, lối sống: Hình thành văn hóa đọc; HS biết yêu quý, giữ gìn sách, đọc sách thường xuyên để mở rộng hiểu biết.",
           "- Tích hợp năng lực số 1.1.CB1a: Xác định được nhu cầu thông tin, tìm kiếm thông tin thông qua tìm kiếm đơn giản trong môi trường số; HS biết tìm kiếm tên sách hoặc tác giả trên trang web thư viện/trang sách thiếu nhi dưới sự hướng dẫn của GV.",
-          "1. Năng lực đặc thù:",
           "- Biết viết chữ hoa G cỡ vừa và cỡ nhỏ đúng mẫu, đúng quy trình.",
           "- Viết đúng câu ứng dụng: “Gần mực thì đen, gần đèn thì sáng.”",
           "- Trình bày bài viết sạch, rõ ràng, đúng khoảng cách; đặt dấu thanh đúng vị trí.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: tự quan sát mẫu chữ, luyện viết và soát lỗi.",
           "- Giao tiếp và hợp tác: biết nhận xét bài viết của bạn bằng lời lịch sự.",
-          "3. Phẩm chất:",
           "- Chăm chỉ, trách nhiệm: kiên trì rèn chữ, giữ vở sạch đẹp.",
-          "4. Tích hợp:",
           "- Tích hợp AI - YCCĐ 2.C1.2: Giải thích được “dữ liệu” là những ví dụ như hình ảnh, chữ viết, âm thanh mà con người dùng để dạy cho AI; HS hiểu chữ và hình ảnh trên bìa sách là dữ liệu giúp con người và máy tính nhận biết cuốn sách.",
-          "1. Năng lực đặc thù:",
           "- Nghe kể và nhận biết được các sự việc trong câu chuyện Họa mi, vẹt và quạ.",
           "- Dựa vào tranh, kể lại được 1 - 2 đoạn của câu chuyện bằng lời của mình.",
           "- Biết lắng nghe bạn kể và nhận xét lời kể theo gợi ý.",
-          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết kể chuyện trong nhóm, lắng nghe và góp ý cho bạn.",
           "- Tự chủ và tự học: chuẩn bị nội dung kể, mạnh dạn trình bày trước lớp.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: biết kiên trì học tập qua câu chuyện.",
           "- Nhân ái: biết khích lệ bạn và tôn trọng người nói.",
-          "1. Năng lực đặc thù:",
           "- Đọc đúng, rõ ràng bài thơ Khi trang sách mở ra; biết đọc với giọng vui vẻ, háo hức.",
           "- Hiểu nội dung bài: sách mang đến cho ta nhiều điều kì diệu, thú vị và hấp dẫn.",
           "- Trả lời được câu hỏi trong SGK; tìm được từ ngữ chỉ sự vật và đặt câu về một cuốn truyện.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: chủ động luyện đọc và chia sẻ trải nghiệm đọc sách.",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm khi tìm chi tiết trong bài thơ.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung sách với thế giới xung quanh.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: yêu thích đọc sách, có thói quen đọc sách.",
           "- Yêu nước, nhân ái: biết yêu thiên nhiên, quê hương và cuộc sống qua trang sách.",
-          "4. Tích hợp:",
           "- Giáo dục đạo đức, lối sống: Khơi gợi niềm yêu thích đọc sách; qua trang sách về biển, rừng và cuộc sống, HS biết yêu thiên nhiên, quê hương và ham khám phá.",
-          "1. Năng lực đặc thù:",
           "- Nghe - viết đúng 2 khổ thơ cuối của bài Khi trang sách mở ra.",
           "- Làm đúng bài tập chính tả phân biệt l/n và các vần ăn/ăng, ân/âng.",
           "- Biết viết hoa tên người, trình bày sạch đẹp và soát lỗi chính tả.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: nghe kĩ, viết đúng, tự soát lỗi.",
           "- Giao tiếp và hợp tác: biết đổi vở kiểm tra chéo và góp ý cho bạn.",
-          "3. Phẩm chất:",
           "- Chăm chỉ, trách nhiệm: viết cẩn thận, giữ vở sạch đẹp.",
-          "1. Năng lực đặc thù:",
           "- Tìm được từ chỉ đặc điểm của đồ dùng học tập trong tranh.",
           "- Kết hợp được từ ngữ để tạo câu nêu đặc điểm.",
           "- Biết chọn dấu chấm hoặc dấu chấm hỏi phù hợp với câu.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: hoàn thành bài tập cá nhân và tự kiểm tra.",
           "- Giao tiếp và hợp tác: trao đổi nhóm 2, nhóm 4 khi làm bài tập.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: tích cực tham gia hoạt động học tập.",
           "- Trách nhiệm: biết giữ gìn đồ dùng học tập.",
-          "1. Năng lực đặc thù:",
           "- Kể được tên đồ dùng học tập và nêu công dụng của chúng.",
           "- Viết được 3 - 4 câu tả một đồ dùng học tập.",
           "- Đọc mở rộng và chia sẻ được thông tin về một câu chuyện hoặc cuốn sách đã đọc.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: chuẩn bị ý tưởng viết đoạn và đọc thêm ở nhà.",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm, chia sẻ bài viết và nội dung đã đọc.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: tích cực viết đoạn và đọc sách.",
           "- Trách nhiệm: biết giữ gìn đồ dùng học tập, ghi chép phiếu đọc sách trung thực."
         ],
@@ -8527,17 +8448,11 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 15: CUỐN SÁCH CỦA EMTIẾT 3: VIẾT: CHỮ HOA G",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 15: CUỐN SÁCH CỦA EMTIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN HỌA MI, VẸT VÀ QUẠ",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 16: KHI TRANG SÁCH MỞ RATIẾT 1 - 2: ĐỌC: KHI TRANG SÁCH MỞ RA",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 16: KHI TRANG SÁCH MỞ RATIẾT 3: VIẾT: NGHE - VIẾT: KHI TRANG SÁCH MỞ RA; PHÂN BIỆT L/N, ĂN/ĂNG, ÂN/ÂNG",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 16: KHI TRANG SÁCH MỞ RATIẾT 4: LUYỆN TỪ VÀ CÂU: TỪ NGỮ CHỈ ĐẶC ĐIỂM; CÂU NÊU ĐẶC ĐIỂM; DẤU CHẤM, DẤU CHẤM HỎI",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2- TUẦN 8CHỦ ĐỀ 2: ĐI HỌC VUI SAOBÀI 16: KHI TRANG SÁCH MỞ RATIẾT 5 - 6: LUYỆN VIẾT ĐOẠN: TẢ ĐỒ DÙNG HỌC TẬP; ĐỌC MỞ RỘNG",
           "................................................................................................................................................"
         ],
         "tables": [
@@ -9382,7 +9297,8 @@
               "- HS ghi nhớ nhiệm vụ đọc mở rộng ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài học Tuần 8"
       }
     ]
   },
@@ -9413,7 +9329,6 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 9",
           "ÔN TẬP GIỮA HỌC KÌ I"
         ],
         "tables": [
@@ -9527,7 +9442,8 @@
               "- HS ghi nhớ nhiệm vụ và chọn bài sẽ đọc ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2"
       },
       {
         "lessonTitle": "TIẾT 3 - 4",
@@ -9549,7 +9465,6 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 9",
           "ÔN TẬP GIỮA HỌC KÌ I"
         ],
         "tables": [
@@ -9702,7 +9617,8 @@
               "- HS trả lời: Em cất đồ đúng nơi, không làm rơi vỡ, không vẽ bậy và lau chùi khi đồ bị bẩn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4"
       },
       {
         "lessonTitle": "TIẾT 5 - 6",
@@ -9725,7 +9641,6 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 9",
           "ÔN TẬP GIỮA HỌC KÌ I"
         ],
         "tables": [
@@ -9859,7 +9774,8 @@
               "- HS đặt câu: Mẹ em là giáo viên; Bố em là công nhân; Anh em là học sinh."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6"
       },
       {
         "lessonTitle": "TIẾT 7 - 8",
@@ -9882,7 +9798,6 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 9",
           "ÔN TẬP GIỮA HỌC KÌ I"
         ],
         "tables": [
@@ -9992,7 +9907,8 @@
               "- HS ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7 - 8"
       },
       {
         "lessonTitle": "TIẾT 9 - 10",
@@ -10165,7 +10081,8 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài học sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 9 - 10"
       }
     ]
   },
@@ -10197,17 +10114,11 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 10CHỦ ĐỀ 3: NIỀM VUI TUỔI THƠBÀI 17: GỌI BẠNTIẾT 3: VIẾT: CHỮ HOA H",
           "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 10CHỦ ĐỀ 3: NIỀM VUI TUỔI THƠBÀI 17: GỌI BẠNTIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN GỌI BẠN",
           "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 10CHỦ ĐỀ 3: NIỀM VUI TUỔI THƠBÀI 18: TỚ NHỚ CẬUTIẾT 1 - 2: ĐỌC: TỚ NHỚ CẬU",
           "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 10CHỦ ĐỀ 3: NIỀM VUI TUỔI THƠBÀI 18: TỚ NHỚ CẬUTIẾT 3: VIẾT: NGHE - VIẾT: TỚ NHỚ CẬU; PHÂN BIỆT C/K, IÊU/ƯƠU, EN/ENG",
           "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 10CHỦ ĐỀ 3: NIỀM VUI TUỔI THƠBÀI 18: TỚ NHỚ CẬUTIẾT 4: LUYỆN TỪ VÀ CÂU: MỞ RỘNG VỐN TỪ VỀ TÌNH CẢM BẠN BÈ; DẤU CHẤM, DẤU CHẤM HỎI, DẤU CHẤM THAN",
           "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC - TUẦN 10CHỦ ĐỀ 3: NIỀM VUI TUỔI THƠBÀI 18: TỚ NHỚ CẬUTIẾT 5 - 6: LUYỆN VIẾT ĐOẠN; ĐỌC MỞ RỘNG",
           "........................................................................................................................"
         ],
         "tables": [
@@ -11155,7 +11066,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH DẠY HỌC - TUẦN 10CHỦ ĐỀ 3: NIỀM VUI TUỔI THƠBÀI 17: GỌI BẠNTIẾT 1 - 2: ĐỌC: GỌI BẠN"
       }
     ]
   },
@@ -11190,8 +11102,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 11"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11400,7 +11311,8 @@
               "- HS thực hiện: Em sẽ nói với người thân rằng muốn học tốt cần chăm đọc sách và biết hợp tác với bạn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC – CHỮ A VÀ NHỮNG NGƯỜI BẠN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT – CHỮ HOA I, K",
@@ -11412,7 +11324,10 @@
           "- Nêu được cấu tạo, độ cao, độ rộng và quy trình viết chữ hoa I, K.",
           "2. Năng lực chung",
           "- Tự chủ, tự học: tự luyện viết, biết tự soát lỗi chữ viết của mình.",
-          "- Giao tiếp, hợp tác: biết nhận xét bài viết của bạn bằng lời góp ý phù hợp."
+          "- Giao tiếp, hợp tác: biết nhận xét bài viết của bạn bằng lời góp ý phù hợp.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: kiên trì luyện chữ, viết cẩn thận.",
+          "- Trách nhiệm: giữ vở sạch, viết đúng mẫu, hoàn thành bài viết."
         ],
         "dodung": [
           "1. Giáo viên: Mẫu chữ hoa I, K; mẫu câu ứng dụng; máy tính, máy chiếu.",
@@ -11420,12 +11335,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: kiên trì luyện chữ, viết cẩn thận.",
-          "- Trách nhiệm: giữ vở sạch, viết đúng mẫu, hoàn thành bài viết.",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 11"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11526,7 +11437,8 @@
               "- HS ghi nhớ nhiệm vụ luyện viết ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT – CHỮ HOA I, K"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE – NIỀM VUI CỦA EM",
@@ -11553,8 +11465,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 11"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11623,7 +11534,8 @@
               "- HS ghi nhớ: Về nhà em hỏi bố mẹ, anh chị điều gì làm mọi người vui trong ngày hôm nay."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE – NIỀM VUI CỦA EM"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC – NHÍM NÂU KẾT BẠN",
@@ -11650,8 +11562,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 11"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11828,7 +11739,8 @@
               "- HS nói: Chào bạn, mình là An. Mình có thể chơi cùng bạn được không?"
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC – NHÍM NÂU KẾT BẠN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT – NGHE - VIẾT: NHÍM NÂU KẾT BẠN",
@@ -11853,8 +11765,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 11"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11939,7 +11850,8 @@
               "- HS ghi nhớ nhiệm vụ luyện chính tả ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT – NGHE - VIẾT: NHÍM NÂU KẾT BẠN"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TỪ VÀ CÂU – TỪ CHỈ HOẠT ĐỘNG, TỪ CHỈ ĐẶC ĐIỂM",
@@ -11964,8 +11876,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 11"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -12046,7 +11957,8 @@
               "- HS nói: Em sẽ giúp bạn trực nhật lớp. Em sẽ cho bạn mượn bút khi bạn quên."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TỪ VÀ CÂU – TỪ CHỈ HOẠT ĐỘNG, TỪ CHỈ ĐẶC ĐIỂM"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: LUYỆN VIẾT ĐOẠN – ĐỌC MỞ RỘNG",
@@ -12225,7 +12137,8 @@
               "- HS ghi nhớ nhiệm vụ đọc mở rộng ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: LUYỆN VIẾT ĐOẠN – ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -12261,9 +12174,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 12",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -12452,7 +12363,8 @@
               "- HS ghi nhớ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1 - 2: Đọc"
       },
       {
         "lessonTitle": "Tiết 3: Viết – Chữ hoa L",
@@ -12464,7 +12376,12 @@
           "- Nêu được cấu tạo, độ cao, độ rộng và quy trình viết chữ hoa L.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: tự luyện viết, tự kiểm tra tư thế ngồi viết và nét chữ.",
-          "- Giao tiếp và hợp tác: biết nhận xét bài viết của bạn bằng lời góp ý lịch sự."
+          "- Giao tiếp và hợp tác: biết nhận xét bài viết của bạn bằng lời góp ý lịch sự.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: kiên trì luyện chữ.",
+          "- Trách nhiệm: viết bài cẩn thận, giữ gìn vở sạch đẹp.",
+          "4. Tích hợp",
+          "Tích hợp giáo dục bảo vệ môi trường và tình yêu quê hương: qua câu ứng dụng Làng quê xanh mát bóng tre, HS biết yêu cảnh đẹp quê hương, có ý thức giữ gìn cây xanh và môi trường sống."
         ],
         "dodung": [
           "1. Giáo viên: mẫu chữ hoa L, tranh minh họa cây tre, bảng phụ câu ứng dụng, máy chiếu.",
@@ -12472,15 +12389,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: kiên trì luyện chữ.",
-          "- Trách nhiệm: viết bài cẩn thận, giữ gìn vở sạch đẹp.",
-          "4. Tích hợp",
-          "Tích hợp giáo dục bảo vệ môi trường và tình yêu quê hương: qua câu ứng dụng Làng quê xanh mát bóng tre, HS biết yêu cảnh đẹp quê hương, có ý thức giữ gìn cây xanh và môi trường sống.",
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 12",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -12561,7 +12471,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết – Chữ hoa L"
       },
       {
         "lessonTitle": "Tiết 4: Nói và nghe – Kể chuyện Chúng mình là bạn",
@@ -12588,9 +12499,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 12",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -12667,7 +12576,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Nói và nghe – Kể chuyện Chúng mình là bạn"
       },
       {
         "lessonTitle": "Tiết 1 - 2: Đọc",
@@ -12695,9 +12605,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 12",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -12854,7 +12762,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1 - 2: Đọc"
       },
       {
         "lessonTitle": "Tiết 3: Viết – Nghe viết: Đồ chơi yêu thích",
@@ -12881,9 +12790,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 12",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -12976,7 +12883,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết – Nghe viết: Đồ chơi yêu thích"
       },
       {
         "lessonTitle": "Tiết 4: Luyện từ và câu – Từ ngữ chỉ sự vật; Câu nêu đặc điểm",
@@ -13003,9 +12911,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 12",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -13086,7 +12992,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện từ và câu – Từ ngữ chỉ sự vật; Câu nêu đặc điểm"
       },
       {
         "lessonTitle": "Tiết 5 - 6: Luyện viết đoạn; Đọc mở rộng",
@@ -13248,7 +13155,8 @@
               "- HS ghi nhớ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 5 - 6: Luyện viết đoạn; Đọc mở rộng"
       }
     ]
   },
@@ -13283,9 +13191,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 13",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -13466,7 +13372,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1 - 2: Đọc"
       },
       {
         "lessonTitle": "Tiết 3: Viết – Chữ hoa M",
@@ -13476,7 +13383,14 @@
           "- Biết viết chữ hoa M cỡ vừa và cỡ nhỏ đúng mẫu, đúng quy trình.",
           "- Viết được câu ứng dụng: Một con ngựa đau cả tàu bỏ cỏ; hiểu ý nghĩa câu ứng dụng.",
           "- Biết tự soát, sửa lỗi khi viết chữ hoa và câu ứng dụng.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết nhận xét, góp ý bài viết của bạn theo cặp.",
+          "- Giải quyết vấn đề và sáng tạo: biết sửa lỗi nét chữ, khoảng cách và dấu thanh.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: kiên trì luyện viết chữ đúng, đẹp.",
+          "- Trách nhiệm: giữ vở sạch, viết cẩn thận, hoàn thành bài viết.",
+          "4. Tích hợp",
+          "Tích hợp đạo đức, lối sống: HS hiểu câu ứng dụng nhắc nhở biết yêu thương, lo lắng, quan tâm người thân và bạn bè."
         ],
         "dodung": [
           "1. Giáo viên: mẫu chữ hoa M, câu ứng dụng, tranh chữ trong SGK, bảng phụ.",
@@ -13484,17 +13398,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết nhận xét, góp ý bài viết của bạn theo cặp.",
-          "- Giải quyết vấn đề và sáng tạo: biết sửa lỗi nét chữ, khoảng cách và dấu thanh.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: kiên trì luyện viết chữ đúng, đẹp.",
-          "- Trách nhiệm: giữ vở sạch, viết cẩn thận, hoàn thành bài viết.",
-          "4. Tích hợp",
-          "Tích hợp đạo đức, lối sống: HS hiểu câu ứng dụng nhắc nhở biết yêu thương, lo lắng, quan tâm người thân và bạn bè.",
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 13",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -13595,7 +13500,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết – Chữ hoa M"
       },
       {
         "lessonTitle": "Tiết 4: Nói và nghe – Búp bê biết khóc",
@@ -13622,9 +13528,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 13",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -13705,7 +13609,8 @@
               "- HS lắng nghe, chuẩn bị bài học sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Nói và nghe – Búp bê biết khóc"
       },
       {
         "lessonTitle": "Tiết 1 - 2: Đọc",
@@ -13734,9 +13639,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 13",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -13897,7 +13800,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1 - 2: Đọc"
       },
       {
         "lessonTitle": "Tiết 3: Viết – Nghe viết: Nặn đồ chơi; Phân biệt da/gia, l/x, uơn/uơng",
@@ -13924,9 +13828,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 13",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -14019,7 +13921,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết – Nghe viết: Nặn đồ chơi; Phân biệt da/gia, l/x, uơn/uơng"
       },
       {
         "lessonTitle": "Tiết 4: Luyện từ và câu – Từ ngữ về đồ chơi; Dấu phẩy",
@@ -14046,9 +13949,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 13",
-          "Chủ đề 3: Niềm vui tuổi thơ"
+          "……………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -14125,7 +14026,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện từ và câu – Từ ngữ về đồ chơi; Dấu phẩy"
       },
       {
         "lessonTitle": "Tiết 5 - 6: Luyện viết đoạn; Đọc mở rộng",
@@ -14276,7 +14178,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 5 - 6: Luyện viết đoạn; Đọc mở rộng"
       }
     ]
   },
@@ -14311,9 +14214,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................",
-          "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 14",
-          "Chủ đề 4: Mái ấm gia đình"
+          "........................................................................................................................"
         ],
         "tables": [
           [
@@ -14546,7 +14447,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1 - 2: Đọc"
       },
       {
         "lessonTitle": "Tiết 3: Viết",
@@ -14571,9 +14473,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 14",
-          "Chủ đề 4: Mái ấm gia đình"
+          "........................................................................................................................"
         ],
         "tables": [
           [
@@ -14681,7 +14581,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết"
       },
       {
         "lessonTitle": "Tiết 4: Nói và nghe",
@@ -14706,9 +14607,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 14",
-          "Chủ đề 4: Mái ấm gia đình"
+          "........................................................................................................................"
         ],
         "tables": [
           [
@@ -14800,7 +14699,8 @@
               "- HS lắng nghe và nêu việc sẽ làm: Em sẽ nhường em nhỏ, giúp anh/chị việc nhà, nói lời yêu thương với người thân."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Nói và nghe"
       },
       {
         "lessonTitle": "Tiết 1 - 2: Đọc",
@@ -14827,9 +14727,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 14",
-          "Chủ đề 4: Mái ấm gia đình"
+          "........................................................................................................................"
         ],
         "tables": [
           [
@@ -15026,7 +14924,8 @@
               "- HS lắng nghe, ghi nhớ thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1 - 2: Đọc"
       },
       {
         "lessonTitle": "Tiết 3: Viết",
@@ -15049,9 +14948,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 14",
-          "Chủ đề 4: Mái ấm gia đình"
+          "........................................................................................................................"
         ],
         "tables": [
           [
@@ -15152,7 +15049,8 @@
               "- HS lắng nghe và hoàn thiện bài."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết"
       },
       {
         "lessonTitle": "Tiết 4: Luyện tập",
@@ -15175,9 +15073,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "........................................................................................................................",
-          "KẾ HOẠCH DẠY HỌC – TUẦN 14",
-          "Chủ đề 4: Mái ấm gia đình"
+          "........................................................................................................................"
         ],
         "tables": [
           [
@@ -15274,7 +15170,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập"
       },
       {
         "lessonTitle": "Tiết 5 - 6: Viết đoạn – Đọc mở rộng",
@@ -15448,7 +15345,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 5 - 6: Viết đoạn – Đọc mở rộng"
       }
     ]
   },
@@ -15483,9 +15381,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 15",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
+          "……………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -15660,7 +15556,8 @@
               "- HS ghi nhớ nhiệm vụ và hứa thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT – CHỮ HOA O",
@@ -15672,7 +15569,10 @@
           "- Chữ viết rõ ràng, tương đối đều nét, thẳng hàng; biết trình bày sạch đẹp.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: tự quan sát mẫu chữ, luyện viết và tự sửa lỗi.",
-          "- Giao tiếp và hợp tác: biết chia sẻ, nhận xét bài viết của bạn lịch sự."
+          "- Giao tiếp và hợp tác: biết chia sẻ, nhận xét bài viết của bạn lịch sự.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: kiên trì luyện chữ.",
+          "- Trách nhiệm: giữ vở sạch, viết bài cẩn thận."
         ],
         "dodung": [
           "- Giáo viên: Mẫu chữ hoa O, câu ứng dụng, máy chiếu, bảng phụ.",
@@ -15680,13 +15580,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: kiên trì luyện chữ.",
-          "- Trách nhiệm: giữ vở sạch, viết bài cẩn thận.",
           "……………………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 15",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
+          "……………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -15802,7 +15697,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT – CHỮ HOA O"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE – KỂ CHUYỆN SỰ TÍCH CÂY VÚ SỮA",
@@ -15828,9 +15724,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 15",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
+          "……………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -15930,7 +15824,8 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị kể chuyện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE – KỂ CHUYỆN SỰ TÍCH CÂY VÚ SỮA"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC",
@@ -15958,9 +15853,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 15",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
+          "……………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -16112,7 +16005,8 @@
               "- HS ghi nhớ và hứa thực hiện: Em sẽ nói “dạ”, “vâng ạ”, “con cảm ơn” khi giao tiếp với người lớn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT – NGHE VIẾT: TRÒ CHƠI CỦA BỐ",
@@ -16137,9 +16031,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 15",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
+          "……………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -16244,7 +16136,8 @@
               "- HS ghi nhớ nhiệm vụ: tìm từ và luyện viết đúng chính tả ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT – NGHE VIẾT: TRÒ CHƠI CỦA BỐ"
       },
       {
         "lessonTitle": "BÀI 28: TRÒ CHƠI CỦA BỐ",
@@ -16271,9 +16164,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 15",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
+          "……………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -16362,7 +16253,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28: TRÒ CHƠI CỦA BỐ"
       },
       {
         "lessonTitle": "TIẾT 5: LUYỆN TẬP – VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM VỚI NGƯỜI THÂN",
@@ -16389,9 +16281,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY – TUẦN 15",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
+          "……………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -16476,7 +16366,8 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: LUYỆN TẬP – VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM VỚI NGƯỜI THÂN"
       },
       {
         "lessonTitle": "TIẾT 6: ĐỌC MỞ RỘNG",
@@ -16581,7 +16472,8 @@
               "- HS ghi nhớ nhiệm vụ đọc thêm và chia sẻ bài đọc ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -16609,86 +16501,66 @@
           "4. Tích hợp",
           "- Tích hợp giáo dục lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết yêu thương, kính trọng và quan tâm đến ông bà trong gia đình.",
           "- Tích hợp năng lực số 2.3.CB1a: Học sinh giao tiếp, hợp tác khi tham gia hoạt động nhóm và sử dụng các công cụ số đơn giản như máy chiếu, bảng điện tử để quan sát tranh, trao đổi, trình bày kết quả học tập.",
-          "1. Năng lực đặc thù",
           "- Biết viết đúng chữ hoa Ô, Ơ cỡ vừa và cỡ nhỏ; viết đúng quy trình, đúng độ cao, độ rộng, nét chữ.",
           "- Viết đúng câu ứng dụng: Ông bà sum vầy cùng con cháu.",
           "- Biết nối chữ hoa với chữ thường; đặt dấu thanh, dấu phụ đúng vị trí; trình bày bài viết sạch, đẹp.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: tự quan sát, luyện viết theo mẫu.",
           "- Giao tiếp và hợp tác: nhận xét bài viết của bạn theo hướng dẫn.",
-          "1. Năng lực đặc thù",
           "- Nhận biết được các sự việc trong câu chuyện Bà cháu qua tranh minh họa và câu hỏi gợi ý.",
           "- Nghe kể chuyện, ghi nhớ nội dung chính của từng tranh.",
           "- Kể lại được 1 - 2 đoạn của câu chuyện theo tranh và lời gợi ý; nói rõ ràng, tự tin.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: chuẩn bị nội dung kể chuyện.",
           "- Giao tiếp và hợp tác: trao đổi nhóm, lắng nghe bạn kể, góp ý lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết dùng lời của mình để kể lại câu chuyện.",
-          "3. Phẩm chất",
           "- Nhân ái: biết yêu thương, trân trọng tình cảm bà cháu.",
           "- Trách nhiệm: biết giữ trật tự khi nghe bạn kể chuyện.",
-          "1. Năng lực đặc thù",
           "- Đọc đúng, rõ ràng bài thơ; phát âm đúng các từ: khập khiễng, khập khà, nhăn nhó, nhanh nhảu, quẳng gậy; biết ngắt nhịp thơ phù hợp.",
           "- Hiểu nghĩa các từ: tấy, khập khiễng, khập khà, lon ton; trả lời đúng câu hỏi trong SGK.",
           "- Hiểu nội dung bài: Việt yêu thương, quan tâm và biết giúp đỡ ông khi ông đau chân; nhận biết lời khen của ông dành cho Việt.",
           "- Tìm được từ ngữ thể hiện dáng vẻ của Việt và đọc được câu thơ thể hiện lời khen của ông.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: đọc thầm, luyện đọc theo hướng dẫn.",
           "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn để trả lời câu hỏi.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ việc giúp đỡ người thân trong gia đình.",
-          "3. Phẩm chất",
           "- Nhân ái: yêu thương, quan tâm, giúp đỡ ông bà, người thân.",
           "- Chăm chỉ: tích cực luyện đọc, học thuộc khổ thơ yêu thích.",
           "- Trách nhiệm: biết làm việc vừa sức để hỗ trợ người thân.",
-          "4. Tích hợp",
           "- Tích hợp giáo dục lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết yêu thương, quan tâm và sẵn sàng giúp đỡ ông bà, người thân trong gia đình.",
-          "1. Năng lực đặc thù",
           "- Nghe - viết đúng 2 khổ thơ đầu bài Thương ông; trình bày đúng thể thơ, viết hoa đầu dòng thơ.",
           "- Làm đúng bài tập chính tả phân biệt ch/tr và ac/at theo SGK.",
           "- Biết tự soát lỗi và sửa lỗi chính tả.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: tự chuẩn bị vở, nghe - viết và soát lỗi.",
           "- Giao tiếp và hợp tác: trao đổi đáp án bài tập chính tả theo nhóm đôi.",
           "- Giải quyết vấn đề và sáng tạo: lựa chọn âm/vần đúng dựa vào nghĩa của từ.",
-          "3. Phẩm chất",
           "- Chăm chỉ: viết bài cẩn thận, sạch đẹp.",
           "- Trách nhiệm: giữ vở sạch, sửa lỗi sau khi viết.",
-          "1. Năng lực đặc thù",
           "- Mở rộng vốn từ chỉ sự vật và từ chỉ hoạt động qua tranh, đoạn thơ trong SGK.",
           "- Trả lời được câu hỏi bằng câu nêu hoạt động: Ai đang làm gì?",
           "- Biết đặt câu ngắn, rõ ý về hoạt động của người trong tranh.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: tự quan sát tranh, làm bài cá nhân.",
           "- Giao tiếp và hợp tác: trao đổi nhóm, trình bày đáp án.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng từ ngữ để nói câu phù hợp.",
-          "3. Phẩm chất",
           "- Chăm chỉ: tích cực luyện tập.",
           "- Nhân ái: biết quan tâm đến công việc của người thân trong gia đình.",
-          "1. Năng lực đặc thù",
           "- Nêu được việc các bạn nhỏ đã làm cùng người thân qua tranh trong SGK.",
           "- Viết được 3 - 5 câu kể về một công việc em đã làm cùng người thân, câu văn rõ ý, đúng nội dung.",
           "- Biết đọc lại, chỉnh sửa đoạn văn về lỗi dùng từ, dấu câu, chính tả.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: tự nhớ lại trải nghiệm, tự viết đoạn văn.",
           "- Giao tiếp và hợp tác: trao đổi ý tưởng với bạn, nghe góp ý và sửa bài.",
           "- Giải quyết vấn đề và sáng tạo: lựa chọn chi tiết phù hợp để kể việc đã làm cùng người thân.",
-          "3. Phẩm chất",
           "- Nhân ái: biết yêu thương, chia sẻ công việc với người thân.",
           "- Chăm chỉ: tích cực viết và sửa bài.",
           "- Trách nhiệm: biết làm việc nhà vừa sức.",
-          "4. Tích hợp",
           "- Tích hợp AI 2.A1.2: HS nhận biết công cụ AI có thể hỗ trợ gợi ý từ ngữ hoặc dàn ý khi viết đoạn văn, nhưng chỉ dùng để tham khảo; HS phải tự viết bằng cảm xúc thật, không sao chép nguyên văn và không nhập thông tin riêng tư của gia đình.",
-          "1. Năng lực đặc thù",
           "- Tìm đọc được một bài thơ hoặc câu chuyện về tình cảm của ông bà và cháu.",
           "- Chia sẻ được với các bạn cảm xúc về bài thơ, câu chuyện hoặc một sự việc trong câu chuyện mà em thấy thú vị.",
           "- Biết kể lại cho người thân nghe nội dung đã đọc.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: tự lựa chọn sách, bài thơ, câu chuyện phù hợp.",
           "- Giao tiếp và hợp tác: chia sẻ trong nhóm đôi, lắng nghe bạn nói.",
           "- Giải quyết vấn đề và sáng tạo: nêu cảm xúc của bản thân sau khi đọc.",
-          "3. Phẩm chất",
           "- Nhân ái: biết trân trọng tình cảm ông bà và cháu.",
-          "- Chăm chỉ: hình thành thói quen đọc sách."
+          "- Chăm chỉ: hình thành thói quen đọc sách.",
+          "- Chăm chỉ: luyện viết cẩn thận.",
+          "- Trách nhiệm: giữ vở sạch, viết đúng mẫu."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -16731,9 +16603,6 @@
         "dieuchinh": [
           "................................................................................................................................................................................................................",
           "--------------------------------------------------",
-          "3. Phẩm chất",
-          "- Chăm chỉ: luyện viết cẩn thận.",
-          "- Trách nhiệm: giữ vở sạch, viết đúng mẫu.",
           "................................................................................................................................................................................................................",
           "--------------------------------------------------",
           "................................................................................................................................................................................................................",
@@ -17527,7 +17396,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Bài học Tuần 16"
       }
     ]
   },
@@ -17562,10 +17432,7 @@
           "- SGK, vở ghi, bút, bảng con; chuẩn bị trước bài đọc."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 17",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -17697,7 +17564,8 @@
               "- HS nêu: Em sẽ hỏi thăm, lấy nước, báo người lớn, giúp việc nhà.\n- HS ghi nhớ chuẩn bị tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT CHỮ HOA P",
@@ -17707,7 +17575,11 @@
           "1. Năng lực đặc thù",
           "- Viết đúng chữ hoa P cỡ vừa và cỡ nhỏ; nắm được quy trình viết chữ hoa P, cách nối chữ P với chữ h trong tiếng Phượng.",
           "- Viết đúng câu ứng dụng: Phượng nở đỏ rực một góc trời; trình bày sạch, đẹp, đúng khoảng cách và dấu câu.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: nhận xét, góp ý chữ viết của bạn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: luyện viết cẩn thận, kiên trì.",
+          "- Trách nhiệm: giữ vở sạch, viết đúng yêu cầu."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -17716,14 +17588,7 @@
           "- Vở Tập viết, bảng con, phấn/bút, SGK."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: nhận xét, góp ý chữ viết của bạn.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: luyện viết cẩn thận, kiên trì.",
-          "- Trách nhiệm: giữ vở sạch, viết đúng yêu cầu.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 17",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -17779,7 +17644,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT CHỮ HOA P"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE",
@@ -17790,7 +17656,10 @@
           "- Quan sát tranh, nói được sự việc trong từng tranh minh họa câu chuyện Ánh sáng của yêu thương.",
           "- Sắp xếp được tranh theo đúng trình tự câu chuyện; kể lại được 1 – 2 đoạn của câu chuyện bằng lời của mình.",
           "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: kể chuyện trong nhóm, lắng nghe và góp ý cho bạn."
+          "- Giao tiếp và hợp tác: kể chuyện trong nhóm, lắng nghe và góp ý cho bạn.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết trân trọng tình yêu thương của con dành cho cha mẹ.",
+          "- Trách nhiệm: biết thực hiện việc làm phù hợp để giúp người thân."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -17799,13 +17668,7 @@
           "- SGK, tranh hoặc câu chuyện chuẩn bị ở nhà."
         ],
         "activities": [],
-        "dieuchinh": [
-          "3. Phẩm chất",
-          "- Nhân ái: biết trân trọng tình yêu thương của con dành cho cha mẹ.",
-          "- Trách nhiệm: biết thực hiện việc làm phù hợp để giúp người thân.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 17",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -17856,7 +17719,8 @@
               "- HS nêu: Cần yêu thương, quan tâm, chăm sóc cha mẹ và người thân.\n- HS ghi nhớ kể chuyện cho người thân nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE"
       },
       {
         "lessonTitle": "TIẾT 1 – 2: ĐỌC",
@@ -17884,10 +17748,7 @@
           "- SGK, vở ghi; chuẩn bị chia sẻ về trò chơi cùng anh chị em."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 17",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -18011,7 +17872,8 @@
               "- HS nêu: Em sẽ nhường em nhỏ, chia sẻ đồ chơi, không giành thắng thua.\n- HS ghi nhớ chuẩn bị tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT",
@@ -18035,10 +17897,7 @@
           "- Vở chính tả, bảng con, SGK."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 17",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -18102,7 +17961,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TẬP",
@@ -18126,10 +17986,7 @@
           "- SGK, vở bài tập, bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 17",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -18188,7 +18045,8 @@
               "- HS đặt câu. Ví dụ: Anh em trong nhà cần yêu thương và giúp đỡ nhau.\n- HS ghi nhớ chuẩn bị tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5: VIẾT TIN NHẮN",
@@ -18215,10 +18073,7 @@
           "- SGK, vở, bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 17",
-          "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -18286,7 +18141,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: VIẾT TIN NHẮN"
       },
       {
         "lessonTitle": "TIẾT 6: ĐỌC MỞ RỘNG",
@@ -18358,7 +18214,8 @@
               "- HS ghi nhớ: tiếp tục đọc sách và chia sẻ với người thân."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -18391,7 +18248,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 18",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1",
           "PHẦN I – ÔN TẬP"
         ],
@@ -18474,7 +18330,8 @@
               "- HS ghi nhớ: về nhà luyện đọc bài còn đọc chậm và chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2"
       },
       {
         "lessonTitle": "TIẾT 3 – 4",
@@ -18501,7 +18358,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 18",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1",
           "PHẦN I – ÔN TẬP"
         ],
@@ -18594,7 +18450,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 – 4"
       },
       {
         "lessonTitle": "TIẾT 5 – 6",
@@ -18621,7 +18478,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 18",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1",
           "PHẦN I – ÔN TẬP"
         ],
@@ -18722,7 +18578,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 – 6"
       },
       {
         "lessonTitle": "TIẾT 7 – 8",
@@ -18749,7 +18606,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 18",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1",
           "PHẦN II – ĐÁNH GIÁ CUỐI HỌC KÌ 1"
         ],
@@ -18850,7 +18706,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7 – 8"
       },
       {
         "lessonTitle": "TIẾT 9 – 10",
@@ -18966,7 +18823,8 @@
               "- HS lắng nghe, tự đánh giá việc ôn tập của bản thân và ghi nhớ lời dặn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 9 – 10"
       }
     ]
   },
@@ -19000,10 +18858,7 @@
           "- SGK, vở ghi, bút chì; chuẩn bị một câu nói về thời tiết nơi em ở."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 19",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -19100,7 +18955,8 @@
               "- HS nói: Em thích mùa xuân vì mùa xuân có hoa đào và thời tiết ấm áp.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC: CHUYỆN BỐN MÙA"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT CHỮ HOA Q; TIẾT 4: NÓI VÀ NGHE",
@@ -19126,10 +18982,7 @@
           "- Vở tập viết, bảng con, phấn/bút; SGK."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 19",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -19223,7 +19076,8 @@
               "- HS trả lời: Em thích nàng tiên mùa xuân vì mùa xuân làm cây cối đâm chồi nảy lộc.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT CHỮ HOA Q; TIẾT 4: NÓI VÀ NGHE"
       },
       {
         "lessonTitle": "TIẾT 1 – 2: ĐỌC: MÙA NƯỚC NỔI",
@@ -19251,10 +19105,7 @@
           "- SGK, vở ghi, bút; chuẩn bị một điều em biết về miền Nam hoặc mùa mưa."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 19",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -19347,7 +19198,8 @@
               "- HS nói: Em sẽ không vứt rác xuống kênh, rạch; em sẽ bỏ rác đúng nơi quy định.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC: MÙA NƯỚC NỔI"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP",
@@ -19373,10 +19225,7 @@
           "- Vở ô li, bảng con, SGK, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 19",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -19466,7 +19315,8 @@
               "- HS đặt câu: Hôm nay trời có mưa không? Hôm nay trời nắng nhẹ.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5 – 6: VIẾT ĐOẠN VĂN TẢ ĐỒ VẬT; ĐỌC MỞ RỘNG",
@@ -19582,7 +19432,8 @@
               "- HS ghi tên bài muốn đọc thêm.\n- HS ghi nhớ: về nhà đọc và chia sẻ với người thân."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 – 6: VIẾT ĐOẠN VĂN TẢ ĐỒ VẬT; ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -19617,10 +19468,7 @@
           "- SGK, vở ghi, bút; chuẩn bị một câu nói về mùa xuân hoặc tiếng chim em từng nghe."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 20",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -19713,7 +19561,8 @@
               "- HS nói: Em không phá tổ chim, không bẻ cành, chăm sóc cây, không xả rác trong vườn trường.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC: HỌA MI HÓT"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT CHỮ HOA R; TIẾT 4: NÓI VÀ NGHE",
@@ -19739,10 +19588,7 @@
           "- Vở tập viết, bảng con, phấn/bút; SGK."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 20",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -19832,7 +19678,8 @@
               "- HS trả lời: Em học được rằng mọi sự vật đều có ích và cần giúp đỡ nhau; không nên chỉ tự khen mình.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT CHỮ HOA R; TIẾT 4: NÓI VÀ NGHE"
       },
       {
         "lessonTitle": "TIẾT 1 – 2: ĐỌC: TẾT ĐẾN RỒI",
@@ -19860,10 +19707,7 @@
           "- SGK, vở ghi, bút; chuẩn bị một điều em biết về ngày Tết."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 20",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -19956,7 +19800,8 @@
               "- HS nói: Em có thể quét nhà, lau bàn ghế, phụ mẹ cắm hoa, viết thiệp chúc Tết.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC: TẾT ĐẾN RỒI"
       },
       {
         "lessonTitle": "TIẾT 3: NGHE – VIẾT; TIẾT 4: LUYỆN TẬP",
@@ -19982,10 +19827,7 @@
           "- Vở ô li, bảng con, bút; SGK."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 20",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20079,7 +19921,8 @@
               "- HS nói: Em sẽ lau bàn ghế, phụ mẹ nhặt lá, chúc Tết ông bà.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: NGHE – VIẾT; TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5 – 6: VIẾT THIỆP CHÚC TẾT; ĐỌC MỞ RỘNG",
@@ -20203,7 +20046,8 @@
               "- HS ghi tên bài muốn đọc thêm.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 – 6: VIẾT THIỆP CHÚC TẾT; ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -20239,10 +20083,7 @@
           "- SGK, vở ghi, bút; chuẩn bị một việc em đã làm để tiết kiệm nước."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 21",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20339,7 +20180,8 @@
               "- HS nêu: Em khóa vòi nước, lấy nước vừa đủ, nhắc em nhỏ không nghịch nước.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC: GIỌT NƯỚC VÀ BIỂN LỚN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT CHỮ HOA G; TIẾT 4: NÓI VÀ NGHE",
@@ -20367,10 +20209,7 @@
           "- Vở tập viết, bảng con, phấn/bút; SGK."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 21",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20460,7 +20299,8 @@
               "- HS trả lời: Em học được phải biết quan tâm, giúp đỡ người gặp khó khăn.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT CHỮ HOA G; TIẾT 4: NÓI VÀ NGHE"
       },
       {
         "lessonTitle": "TIẾT 1 – 2: ĐỌC: MÙA VÀNG",
@@ -20489,10 +20329,7 @@
           "- SGK, vở ghi, bút; chuẩn bị tên một loại cây, quả em biết."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 21",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20589,7 +20426,8 @@
               "- HS nói: Em ăn hết phần cơm đã lấy, không bỏ thừa trái cây, giữ gìn rau quả.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC: MÙA VÀNG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP",
@@ -20615,10 +20453,7 @@
           "- Vở ô li, bảng con, bút, SGK."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 21",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20708,7 +20543,8 @@
               "- HS nói: Em tưới cây, nhặt lá vàng, không bẻ cành, nhắc bạn không giẫm lên cây."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5: VIẾT ĐOẠN VĂN; TIẾT 6: ĐỌC MỞ RỘNG",
@@ -20820,7 +20656,8 @@
               "- HS ghi tên câu chuyện muốn đọc thêm.\n- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: VIẾT ĐOẠN VĂN; TIẾT 6: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -20856,10 +20693,7 @@
           "- SGK, vở ghi, bút; chuẩn bị một việc làm thể hiện tiết kiệm cơm gạo."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 22",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -21044,7 +20878,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC: HẠT THÓC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT CHỮ HOA G; TIẾT 4: NÓI VÀ NGHE",
@@ -21072,10 +20907,7 @@
           "- Vở tập viết, bảng con, phấn/bút; SGK."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 22",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -21217,7 +21049,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT CHỮ HOA G; TIẾT 4: NÓI VÀ NGHE"
       },
       {
         "lessonTitle": "TIẾT 1 – 2: ĐỌC: LŨY TRE",
@@ -21246,10 +21079,7 @@
           "- SGK, vở ghi, bút; chuẩn bị một hình ảnh hoặc câu nói về quê hương."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 22",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -21430,7 +21260,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC: LŨY TRE"
       },
       {
         "lessonTitle": "TIẾT 3: NGHE – VIẾT; TIẾT 4: LUYỆN TẬP",
@@ -21458,10 +21289,7 @@
           "- Vở ô li, bảng con, SGK, bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 22",
-          "CHỦ ĐỀ 5: VẺ ĐẸP QUANH EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -21623,7 +21451,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: NGHE – VIẾT; TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5: VIẾT ĐOẠN VĂN; TIẾT 6: ĐỌC MỞ RỘNG",
@@ -21778,7 +21607,8 @@
               ""
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: VIẾT ĐOẠN VĂN; TIẾT 6: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -21809,10 +21639,7 @@
           "- HS: SGK Tiếng Việt 2, vở ghi, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 23",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -21982,7 +21809,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC – VÈ CHIM"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT CHỮ HOA U, Ư; TIẾT 4: NÓI VÀ NGHE – CẢM ƠN HỌA MI",
@@ -22005,10 +21833,7 @@
           "- HS: Vở Tập viết, SGK, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 23",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -22158,7 +21983,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT CHỮ HOA U, Ư; TIẾT 4: NÓI VÀ NGHE – CẢM ƠN HỌA MI"
       },
       {
         "lessonTitle": "TIẾT 1 – 2: ĐỌC – KHỦNG LONG",
@@ -22183,10 +22009,7 @@
           "- HS: SGK, vở ghi, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 23",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -22336,7 +22159,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC – KHỦNG LONG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP; TIẾT 5 – 6: VIẾT ĐOẠN VĂN – ĐỌC MỞ RỘNG",
@@ -22561,7 +22385,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP; TIẾT 5 – 6: VIẾT ĐOẠN VĂN – ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -22592,10 +22417,7 @@
           "- HS: SGK Tiếng Việt 2, vở ghi, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 24",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -22773,7 +22595,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC – SỰ TÍCH CÂY THÌ LÀ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT CHỮ HOA V; TIẾT 4: NÓI VÀ NGHE – SỰ TÍCH CÂY THÌ LÀ",
@@ -22796,10 +22619,7 @@
           "- HS: SGK, vở Tập viết/vở ô li, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 24",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -22921,7 +22741,8 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài Bờ tre đón khách."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT CHỮ HOA V; TIẾT 4: NÓI VÀ NGHE – SỰ TÍCH CÂY THÌ LÀ"
       },
       {
         "lessonTitle": "TIẾT 1 – 2: ĐỌC – BỜ TRE ĐÓN KHÁCH",
@@ -22946,10 +22767,7 @@
           "- HS: SGK Tiếng Việt 2, vở ghi, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 24",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -23115,7 +22933,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC – BỜ TRE ĐÓN KHÁCH"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP; TIẾT 5 – 6: VIẾT ĐOẠN VĂN – ĐỌC MỞ RỘNG",
@@ -23352,7 +23171,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP; TIẾT 5 – 6: VIẾT ĐOẠN VĂN – ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -23383,10 +23203,7 @@
           "- HS: SGK Tiếng Việt 2, vở ghi, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 25",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -23572,7 +23389,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC – TIẾNG CHỔI TRE"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT CHỮ HOA X; TIẾT 4: NÓI VÀ NGHE – HẠT GIỐNG NHỎ",
@@ -23596,10 +23414,7 @@
           "- HS: SGK, vở Tập viết, bảng con, bút, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 25",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -23750,7 +23565,8 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài Cỏ non cười rồi."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT CHỮ HOA X; TIẾT 4: NÓI VÀ NGHE – HẠT GIỐNG NHỎ"
       },
       {
         "lessonTitle": "TIẾT 1 – 2: ĐỌC – CỎ NON CƯỜI RỒI",
@@ -23775,10 +23591,7 @@
           "- HS: SGK Tiếng Việt 2, vở ghi, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 25",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -23948,7 +23761,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC – CỎ NON CƯỜI RỒI"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP; TIẾT 5 – 6: VIẾT LỜI XIN LỖI – ĐỌC MỞ RỘNG",
@@ -24185,7 +23999,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP; TIẾT 5 – 6: VIẾT LỜI XIN LỖI – ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -24201,24 +24016,21 @@
           "- Đọc đúng, rõ ràng văn bản Những con sao biển; biết đọc lời nhân vật với giọng phù hợp; hiểu nghĩa các từ thủy triều, dạt.",
           "- Hiểu nội dung bài: ca ngợi hành động nhỏ nhưng có ý nghĩa của cậu bé khi cứu những con sao biển; biết liên hệ trách nhiệm bảo vệ môi trường biển.",
           "- Trả lời đúng các câu hỏi đọc hiểu; tìm được từ chỉ hoạt động trong bài; nhận biết và viết được câu hỏi.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi; tranh hai bãi biển trong SGK; tranh minh họa cậu bé nhặt sao biển; thẻ từ thủy triều, dạt; phiếu học tập.",
-          "- HS: SGK Tiếng Việt 2, vở ghi, bút, bảng con."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi nhóm đôi/nhóm bốn, lắng nghe và phản hồi ý kiến của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết nêu việc làm vừa sức để góp phần giữ biển sạch, đẹp.",
           "3. Phẩm chất",
           "- Nhân ái, trách nhiệm: Biết yêu quý sinh vật biển, có ý thức sống xanh, không xả rác ra biển và nơi công cộng.",
           "4. Tích hợp",
           "- Tích hợp bảo vệ môi trường: Giáo dục HS trách nhiệm với cộng đồng, biết thực hiện hành động nhỏ nhưng có ích để bảo vệ môi trường biển.",
-          "- Tích hợp AI - YCCĐ 2.A1.2: HS nhận biết công cụ AI có thể hỗ trợ nhận diện rác thải/hiện tượng môi trường qua hình ảnh, nhưng con người vẫn phải kiểm tra, lựa chọn và hành động có trách nhiệm.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 26",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
+          "- Tích hợp AI - YCCĐ 2.A1.2: HS nhận biết công cụ AI có thể hỗ trợ nhận diện rác thải/hiện tượng môi trường qua hình ảnh, nhưng con người vẫn phải kiểm tra, lựa chọn và hành động có trách nhiệm."
         ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi; tranh hai bãi biển trong SGK; tranh minh họa cậu bé nhặt sao biển; thẻ từ thủy triều, dạt; phiếu học tập.",
+          "- HS: SGK Tiếng Việt 2, vở ghi, bút, bảng con."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -24396,7 +24208,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC – NHỮNG CON SAO BIỂN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT CHỮ HOA Y; TIẾT 4: NÓI VÀ NGHE – BẢO VỆ MÔI TRƯỜNG",
@@ -24421,10 +24234,7 @@
           "- HS: SGK, vở Tập viết, bảng con, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 26",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -24563,7 +24373,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT CHỮ HOA Y; TIẾT 4: NÓI VÀ NGHE – BẢO VỆ MÔI TRƯỜNG"
       },
       {
         "lessonTitle": "TIẾT 1 – 2: ĐỌC – TẠM BIỆT CÁNH CAM",
@@ -24588,10 +24399,7 @@
           "- HS: SGK Tiếng Việt 2, vở ghi, bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 26",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -24765,7 +24573,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 – 2: ĐỌC – TẠM BIỆT CÁNH CAM"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP; TIẾT 5 – 6: VIẾT ĐOẠN – ĐỌC MỞ RỘNG",
@@ -24988,7 +24797,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT; TIẾT 4: LUYỆN TẬP; TIẾT 5 – 6: VIẾT ĐOẠN – ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -25004,7 +24814,13 @@
           "- Ghép được tranh với tên các bài đọc phù hợp; đọc lại bài em thích và nêu được câu văn, câu thơ hay hoặc nhân vật yêu thích.",
           "- Nói và đáp lời trong một số tình huống giao tiếp quen thuộc: an ủi, động viên, mời, đề nghị.",
           "- Rèn kĩ năng đọc hiểu, nói thành câu, trình bày ý kiến trước nhóm và trước lớp.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, lắng nghe bạn, trình bày câu trả lời rõ ràng, lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về đọc, viết, từ ngữ, câu và dấu câu để hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện đọc, luyện viết, hoàn thành bài tập được giao.",
+          "- Trách nhiệm: Có ý thức giữ gìn sách vở, trình bày bài sạch đẹp, hợp tác nghiêm túc trong hoạt động nhóm.",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn bè qua các tình huống ôn tập."
         ],
         "dodung": [
           "- GV: Máy tính, tivi/máy chiếu, tranh minh họa SGK, thẻ tên bài đọc, phiếu học tập, bảng nhóm.",
@@ -25012,14 +24828,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, lắng nghe bạn, trình bày câu trả lời rõ ràng, lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về đọc, viết, từ ngữ, câu và dấu câu để hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện đọc, luyện viết, hoàn thành bài tập được giao.",
-          "- Trách nhiệm: Có ý thức giữ gìn sách vở, trình bày bài sạch đẹp, hợp tác nghiêm túc trong hoạt động nhóm.",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn bè qua các tình huống ôn tập.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 27",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM",
           "BÀI: ÔN TẬP GIỮA HỌC KÌ II"
         ],
         "tables": [
@@ -25094,7 +24902,8 @@
               "- HS lắng nghe, tự đánh giá việc học của mình trong tiết ôn tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3 - 4: ÔN TẬP",
@@ -25104,7 +24913,13 @@
           "- Đọc đúng, rõ ràng bài thơ “Cánh cam lạc mẹ”; hiểu nội dung bài thơ và trả lời được các câu hỏi đọc hiểu.",
           "- Tìm được từ ngữ chỉ hoạt động của con vật theo mẫu; biết nói và đáp lời trong một số tình huống giao tiếp.",
           "- Biết thể hiện sự quan tâm, giúp đỡ khi người khác gặp khó khăn thông qua tình huống trong bài học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, lắng nghe bạn, trình bày câu trả lời rõ ràng, lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về đọc, viết, từ ngữ, câu và dấu câu để hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện đọc, luyện viết, hoàn thành bài tập được giao.",
+          "- Trách nhiệm: Có ý thức giữ gìn sách vở, trình bày bài sạch đẹp, hợp tác nghiêm túc trong hoạt động nhóm.",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn bè qua các tình huống ôn tập."
         ],
         "dodung": [
           "- GV: Máy tính, tivi/máy chiếu, tranh minh họa SGK, thẻ tên bài đọc, phiếu học tập, bảng nhóm.",
@@ -25112,14 +24927,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, lắng nghe bạn, trình bày câu trả lời rõ ràng, lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về đọc, viết, từ ngữ, câu và dấu câu để hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện đọc, luyện viết, hoàn thành bài tập được giao.",
-          "- Trách nhiệm: Có ý thức giữ gìn sách vở, trình bày bài sạch đẹp, hợp tác nghiêm túc trong hoạt động nhóm.",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn bè qua các tình huống ôn tập.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 27",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM",
           "BÀI: ÔN TẬP GIỮA HỌC KÌ II"
         ],
         "tables": [
@@ -25209,7 +25016,8 @@
               "- HS lắng nghe và tự nhắc mình biết yêu thương, giúp đỡ người khác."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4: ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: ÔN TẬP",
@@ -25219,7 +25027,13 @@
           "- Quan sát tranh, tìm được từ ngữ chỉ sự vật và từ ngữ chỉ màu sắc của sự vật.",
           "- Biết đặt 2 - 3 câu với từ ngữ tìm được; chọn đúng dấu câu phù hợp vào ô vuông.",
           "- Rèn kĩ năng quan sát tranh, dùng từ, đặt câu và trình bày ý kiến trong nhóm.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, lắng nghe bạn, trình bày câu trả lời rõ ràng, lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về đọc, viết, từ ngữ, câu và dấu câu để hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện đọc, luyện viết, hoàn thành bài tập được giao.",
+          "- Trách nhiệm: Có ý thức giữ gìn sách vở, trình bày bài sạch đẹp, hợp tác nghiêm túc trong hoạt động nhóm.",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn bè qua các tình huống ôn tập."
         ],
         "dodung": [
           "- GV: Máy tính, tivi/máy chiếu, tranh minh họa SGK, thẻ tên bài đọc, phiếu học tập, bảng nhóm.",
@@ -25227,14 +25041,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, lắng nghe bạn, trình bày câu trả lời rõ ràng, lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về đọc, viết, từ ngữ, câu và dấu câu để hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện đọc, luyện viết, hoàn thành bài tập được giao.",
-          "- Trách nhiệm: Có ý thức giữ gìn sách vở, trình bày bài sạch đẹp, hợp tác nghiêm túc trong hoạt động nhóm.",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn bè qua các tình huống ôn tập.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 27",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM",
           "BÀI: ÔN TẬP GIỮA HỌC KÌ II"
         ],
         "tables": [
@@ -25305,7 +25111,8 @@
               "- HS lắng nghe, ghi nhớ cách viết câu đúng."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 7 - 8: ÔN TẬP",
@@ -25315,7 +25122,13 @@
           "- Nghe - viết đúng chính tả hai khổ thơ cuối bài Cánh cam lạc mẹ; trình bày sạch, rõ ràng.",
           "- Tìm được tiếng có tiếng bắt đầu bằng c, k, g, gh, ng, ngh theo yêu cầu.",
           "- Viết được 4 - 5 câu kể về việc em đã giúp đỡ người khác hoặc được người khác giúp đỡ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, lắng nghe bạn, trình bày câu trả lời rõ ràng, lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về đọc, viết, từ ngữ, câu và dấu câu để hoàn thành nhiệm vụ học tập.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện đọc, luyện viết, hoàn thành bài tập được giao.",
+          "- Trách nhiệm: Có ý thức giữ gìn sách vở, trình bày bài sạch đẹp, hợp tác nghiêm túc trong hoạt động nhóm.",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn bè qua các tình huống ôn tập."
         ],
         "dodung": [
           "- GV: Máy tính, tivi/máy chiếu, tranh minh họa SGK, thẻ tên bài đọc, phiếu học tập, bảng nhóm.",
@@ -25323,14 +25136,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, lắng nghe bạn, trình bày câu trả lời rõ ràng, lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về đọc, viết, từ ngữ, câu và dấu câu để hoàn thành nhiệm vụ học tập.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện đọc, luyện viết, hoàn thành bài tập được giao.",
-          "- Trách nhiệm: Có ý thức giữ gìn sách vở, trình bày bài sạch đẹp, hợp tác nghiêm túc trong hoạt động nhóm.",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn bè qua các tình huống ôn tập.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 – TUẦN 27",
-          "CHỦ ĐỀ: HÀNH TINH XANH CỦA EM",
           "BÀI: ÔN TẬP GIỮA HỌC KÌ II"
         ],
         "tables": [
@@ -25417,7 +25222,8 @@
               "- HS lắng nghe, tự đánh giá phần viết của mình."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7 - 8: ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 9 - 10: ÔN TẬP",
@@ -25427,14 +25233,7 @@
           "- Đọc hiểu truyện Mây đen và mây trắng; trả lời được câu hỏi và thực hiện yêu cầu về từ chỉ đặc điểm, dấu phẩy.",
           "- Viết được 4 - 5 câu kể về một việc em thích làm trong ngày nghỉ.",
           "- Rèn kĩ năng đọc thầm, chọn ý đúng, viết câu có nội dung rõ ràng, dùng dấu câu phù hợp.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Máy tính, tivi/máy chiếu, tranh minh họa SGK, thẻ tên bài đọc, phiếu học tập, bảng nhóm.",
-          "- HS: Sách giáo khoa, vở ô li, vở bài tập Tiếng Việt, bảng con, bút chì."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi trong nhóm, lắng nghe bạn, trình bày câu trả lời rõ ràng, lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về đọc, viết, từ ngữ, câu và dấu câu để hoàn thành nhiệm vụ học tập.",
           "3. Phẩm chất",
@@ -25442,6 +25241,12 @@
           "- Trách nhiệm: Có ý thức giữ gìn sách vở, trình bày bài sạch đẹp, hợp tác nghiêm túc trong hoạt động nhóm.",
           "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn bè qua các tình huống ôn tập."
         ],
+        "dodung": [
+          "- GV: Máy tính, tivi/máy chiếu, tranh minh họa SGK, thẻ tên bài đọc, phiếu học tập, bảng nhóm.",
+          "- HS: Sách giáo khoa, vở ô li, vở bài tập Tiếng Việt, bảng con, bút chì."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -25533,7 +25338,8 @@
               "- HS lắng nghe, ghi nhớ việc ôn tập ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 9 - 10: ÔN TẬP"
       }
     ]
   },
@@ -25713,7 +25519,8 @@
               "- HS lắng nghe, chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - NHỮNG CÁCH CHÀO ĐỘC ĐÁO"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - LỚP HỌC VIẾT THƯ",
@@ -25860,7 +25667,8 @@
               "- HS lắng nghe, chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - LỚP HỌC VIẾT THƯ"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - THƯ VIỆN BIẾT ĐI",
@@ -26018,7 +25826,8 @@
               "- HS lắng nghe, chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - THƯ VIỆN BIẾT ĐI"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: LUYỆN VIẾT ĐOẠN - ĐỌC MỞ RỘNG",
@@ -26212,7 +26021,8 @@
               "- HS lắng nghe, thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: LUYỆN VIẾT ĐOẠN - ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -26228,23 +26038,21 @@
           "- Đọc đúng, rõ ràng văn bản truyện; biết ngắt nghỉ hơi ở chỗ có dấu câu; đọc đúng lời người kể và lời nhân vật.",
           "- Hiểu nội dung câu chuyện: biết nói lời đề nghị, lời cảm ơn, lời xin lỗi lịch sự khi giao tiếp; nhận ra thái độ, hành động của các nhân vật.",
           "- Trả lời được các câu hỏi đọc hiểu; tìm được câu hỏi lịch sự với người lớn tuổi; biết nói tiếp câu theo mẫu trong bài.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Tranh minh hoạ bài đọc đã cắt đúng nội dung từng hoạt động; phiếu thảo luận câu hỏi đọc hiểu; thẻ tình huống giao tiếp lịch sự; máy chiếu.",
-          "- HS: SGK, vở ghi, VBT Tiếng Việt."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi nhóm đôi, nhóm bốn; biết lắng nghe bạn và nói lời nhận xét lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết vận dụng nội dung bài vào tình huống cần nhờ giúp đỡ, xin lỗi và cảm ơn.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, giúp đỡ bạn bè; biết cảm ơn khi được giúp đỡ và xin lỗi khi làm phiền người khác.",
           "- Trách nhiệm: Có ý thức dùng lời nói lịch sự trong gia đình, nhà trường và nơi công cộng.",
           "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Rèn văn hoá cảm ơn, xin lỗi, đề nghị lịch sự; biết tôn trọng người lớn tuổi và giữ thái độ thân thiện khi giao tiếp.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 29"
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Rèn văn hoá cảm ơn, xin lỗi, đề nghị lịch sự; biết tôn trọng người lớn tuổi và giữ thái độ thân thiện khi giao tiếp."
         ],
+        "dodung": [
+          "- GV: Tranh minh hoạ bài đọc đã cắt đúng nội dung từng hoạt động; phiếu thảo luận câu hỏi đọc hiểu; thẻ tình huống giao tiếp lịch sự; máy chiếu.",
+          "- HS: SGK, vở ghi, VBT Tiếng Việt."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -26406,7 +26214,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - CẢM ƠN ANH HÀ MÃ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - CHỮ HOA M",
@@ -26418,19 +26227,17 @@
           "- Biết trình bày bài viết sạch đẹp, đúng khoảng cách, đúng độ cao con chữ.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự quan sát mẫu chữ, luyện viết và tự soát lỗi.",
-          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng để cùng sửa bài."
+          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng để cùng sửa bài.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
+          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, không bỏ dở nhiệm vụ."
         ],
         "dodung": [
           "- GV: Mẫu chữ hoa M, câu ứng dụng, bảng phụ/máy chiếu.",
           "- HS: Vở Tập viết, bảng con, phấn/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
-          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, không bỏ dở nhiệm vụ.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 29"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -26512,7 +26319,8 @@
               "- HS lắng nghe, nêu một việc sẽ làm: hỏi cô khi chưa hiểu, luyện viết lại chữ còn sai, cảm ơn bạn khi được góp ý."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - CHỮ HOA M"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN CẢM ƠN ANH HÀ MÃ",
@@ -26530,17 +26338,15 @@
           "- Nhân ái: Biết giúp đỡ bạn bè, biết nói lời cảm ơn.",
           "- Trách nhiệm: Có thái độ nghiêm túc khi nghe bạn kể, không ngắt lời bạn.",
           "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Rèn thói quen nói lời cảm ơn, xin lỗi, đề nghị lịch sự; biết thể hiện sự tôn trọng trong giao tiếp."
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Rèn thói quen nói lời cảm ơn, xin lỗi, đề nghị lịch sự; biết thể hiện sự tôn trọng trong giao tiếp.",
+          "CHỦ ĐỀ: GIAO TIẾP VÀ KẾT NỐI"
         ],
         "dodung": [
           "- GV: Tranh minh hoạ 4 đoạn câu chuyện đã cắt đúng từ SGK; thẻ vai nhân vật; máy chiếu.",
           "- HS: SGK, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 29",
-          "CHỦ ĐỀ: GIAO TIẾP VÀ KẾT NỐI"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -26622,7 +26428,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN CẢM ƠN ANH HÀ MÃ"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - TỪ CHÚ BỒ CÂU ĐẾN IN-TƠ-NÉT",
@@ -26648,9 +26455,7 @@
           "- HS: SGK, vở ghi, VBT Tiếng Việt."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 29"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -26812,7 +26617,8 @@
               "- HS ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - TỪ CHÚ BỒ CÂU ĐẾN IN-TƠ-NÉT"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - NGHE VIẾT; PHÂN BIỆT EO/OE, L/N, ÊN/ÊNH",
@@ -26822,23 +26628,21 @@
           "- Nghe - viết đúng đoạn văn trong bài Từ chú bồ câu đến in-tơ-nét; trình bày đúng đoạn văn, viết hoa đúng quy định.",
           "- Làm đúng bài tập phân biệt eo/oe, l/n, ên/ênh.",
           "- Biết soát lỗi, sửa lỗi chính tả sau khi viết.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Bảng phụ đoạn viết; tranh/bài tập chính tả đã cắt đúng từ SGK; thẻ bài tập chính tả; máy chiếu.",
-          "- HS: Vở ô li, VBT, bảng con."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết đổi vở kiểm tra, góp ý lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng quy tắc chính tả để lựa chọn tiếng/từ đúng.",
           "3. Phẩm chất",
           "- Chăm chỉ: Viết cẩn thận, giữ vở sạch.",
           "- Trách nhiệm: Trung thực khi soát lỗi, biết sửa lỗi của mình.",
           "4. Tích hợp",
-          "- Tích hợp năng lực số 2.1.CB1a: Xác định được phương tiện giao tiếp đơn giản thích hợp cho một bối cảnh; nhận biết in-tơ-nét là môi trường số giúp kết nối nhanh chóng.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 29"
+          "- Tích hợp năng lực số 2.1.CB1a: Xác định được phương tiện giao tiếp đơn giản thích hợp cho một bối cảnh; nhận biết in-tơ-nét là môi trường số giúp kết nối nhanh chóng."
         ],
+        "dodung": [
+          "- GV: Bảng phụ đoạn viết; tranh/bài tập chính tả đã cắt đúng từ SGK; thẻ bài tập chính tả; máy chiếu.",
+          "- HS: Vở ô li, VBT, bảng con."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -26909,7 +26713,8 @@
               "- HS lắng nghe; chọn phương tiện phù hợp trong một tình huống GV nêu."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - NGHE VIẾT; PHÂN BIỆT EO/OE, L/N, ÊN/ÊNH"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TỪ VÀ CÂU - MỞ RỘNG VỐN TỪ VỀ GIAO TIẾP, KẾT NỐI; DẤU CÂU",
@@ -26934,9 +26739,7 @@
           "- HS: SGK, VBT, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 29"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -26999,7 +26802,8 @@
               "- HS lắng nghe; nêu một việc sẽ thực hiện khi sử dụng thiết bị ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TỪ VÀ CÂU - MỞ RỘNG VỐN TỪ VỀ GIAO TIẾP, KẾT NỐI; DẤU CÂU"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: VIẾT ĐOẠN VĂN TẢ MỘT ĐỒ DÙNG TRONG GIA ĐÌNH; ĐỌC MỞ RỘNG",
@@ -27139,7 +26943,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: VIẾT ĐOẠN VĂN TẢ MỘT ĐỒ DÙNG TRONG GIA ĐÌNH; ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -27155,14 +26960,7 @@
           "- Đọc đúng, rõ ràng văn bản truyện Mai An Tiêm; biết ngắt nghỉ hơi ở chỗ có dấu câu; bước đầu đọc với giọng kể phù hợp.",
           "- Hiểu nội dung câu chuyện: Mai An Tiêm là người chăm chỉ, tự lực, biết lao động để vượt qua khó khăn; nhận biết nguồn gốc quả dưa hấu theo truyện cổ Việt Nam.",
           "- Trả lời được các câu hỏi đọc hiểu; tìm được từ ngữ chỉ hoạt động trong đoạn văn; đặt được câu với từ ngữ vừa tìm được.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi; tranh chủ điểm, tranh bài đọc và câu hỏi/bài tập đã cắt từ SGK; thẻ từ chỉ hoạt động; phiếu thảo luận nhóm.",
-          "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bút chì."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi nhóm đôi, nhóm bốn; lắng nghe và bổ sung ý kiến cho bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết rút ra bài học về ý chí tự lực, vận dụng vào học tập và sinh hoạt.",
           "3. Phẩm chất",
@@ -27171,9 +26969,14 @@
           "- Nhân ái: Biết trân trọng thành quả lao động của mọi người.",
           "4. Tích hợp",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục HS tinh thần tự lực, chăm chỉ, không nản chí trước khó khăn; biết sống trung thực và có trách nhiệm với bản thân, gia đình.",
-          "- Tích hợp AI - YCCĐ 2.A1.1: Nhận biết AI có thể hỗ trợ gợi ý thông tin học tập, nhưng HS cần kiểm tra lại bằng SGK, tranh minh họa và hiểu biết của mình; không chép nguyên gợi ý của AI.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 30"
+          "- Tích hợp AI - YCCĐ 2.A1.1: Nhận biết AI có thể hỗ trợ gợi ý thông tin học tập, nhưng HS cần kiểm tra lại bằng SGK, tranh minh họa và hiểu biết của mình; không chép nguyên gợi ý của AI."
         ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi; tranh chủ điểm, tranh bài đọc và câu hỏi/bài tập đã cắt từ SGK; thẻ từ chỉ hoạt động; phiếu thảo luận nhóm.",
+          "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bút chì."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -27331,7 +27134,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - MAI AN TIÊM"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - CHỮ HOA N",
@@ -27343,19 +27147,17 @@
           "- Biết trình bày bài viết sạch đẹp, đúng khoảng cách, đúng độ cao con chữ.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự quan sát mẫu chữ, luyện viết và tự soát lỗi.",
-          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng để cùng sửa bài."
+          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng để cùng sửa bài.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
+          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, hoàn thành nhiệm vụ viết."
         ],
         "dodung": [
           "- GV: Mẫu chữ hoa N, câu ứng dụng, bảng phụ/máy chiếu.",
           "- HS: Vở Tập viết, bảng con, phấn/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
-          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, hoàn thành nhiệm vụ viết.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 30"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -27437,7 +27239,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - CHỮ HOA N"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN MAI AN TIÊM",
@@ -27462,9 +27265,7 @@
           "- HS: SGK, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 30"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -27554,7 +27355,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN MAI AN TIÊM"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - THƯ GỬI BỐ NGOÀI ĐẢO",
@@ -27581,9 +27383,7 @@
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 30"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -27737,7 +27537,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - THƯ GỬI BỐ NGOÀI ĐẢO"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - NGHE VIẾT; PHÂN BIỆT D/GI, S/X, IP/IÊP",
@@ -27747,21 +27548,19 @@
           "- Nghe - viết đúng đoạn thơ trong bài Thư gửi bố ngoài đảo; trình bày đúng các dòng thơ, viết hoa đúng quy định.",
           "- Làm đúng bài tập phân biệt d/gi, s/x, ip/iêp.",
           "- Biết soát lỗi, sửa lỗi chính tả sau khi viết.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết đổi vở kiểm tra, góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng quy tắc chính tả để lựa chọn tiếng/từ đúng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Viết cẩn thận, giữ vở sạch.",
+          "- Trách nhiệm: Trung thực khi soát lỗi, biết sửa lỗi của mình."
         ],
         "dodung": [
           "- GV: Bảng phụ đoạn viết; tranh/bài tập chính tả đã cắt từ SGK; thẻ tiếng; máy chiếu.",
           "- HS: Vở ô ly, VBT, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết đổi vở kiểm tra, góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng quy tắc chính tả để lựa chọn tiếng/từ đúng.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Viết cẩn thận, giữ vở sạch.",
-          "- Trách nhiệm: Trung thực khi soát lỗi, biết sửa lỗi của mình.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 30"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -27836,7 +27635,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - NGHE VIẾT; PHÂN BIỆT D/GI, S/X, IP/IÊP"
       },
       {
         "lessonTitle": "BÀI 22: THƯ GỬI BỐ NGOÀI ĐẢO",
@@ -27860,9 +27660,7 @@
           "- HS: SGK, VBT, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 30"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -27917,7 +27715,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: THƯ GỬI BỐ NGOÀI ĐẢO"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: VIẾT LỜI CẢM ƠN CÁC CHÚ BỘ ĐỘI HẢI QUÂN; ĐỌC MỞ RỘNG",
@@ -28066,7 +27865,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: VIẾT LỜI CẢM ƠN CÁC CHÚ BỘ ĐỘI HẢI QUÂN; ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -28277,7 +28077,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - BÓP NÁT QUẢ CAM"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - CHỮ HOA Q (KIỂU 2)",
@@ -28289,18 +28090,17 @@
           "- Biết trình bày bài viết sạch đẹp, đúng khoảng cách, viết hoa đúng tên riêng.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự quan sát mẫu chữ, luyện viết và tự soát lỗi.",
-          "- Giao tiếp và hợp tác: Biết đổi vở, nhận xét nhẹ nhàng để cùng sửa lỗi."
+          "- Giao tiếp và hợp tác: Biết đổi vở, nhận xét nhẹ nhàng để cùng sửa lỗi.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
+          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, không bỏ dở nhiệm vụ."
         ],
         "dodung": [
           "- GV: Mẫu chữ hoa Q kiểu 2, câu ứng dụng, tranh cắt phần viết trong SGK, bảng phụ/máy chiếu.",
           "- HS: Vở Tập viết, bảng con, phấn/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
-          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, không bỏ dở nhiệm vụ."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -28382,7 +28182,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - CHỮ HOA Q (KIỂU 2)"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN BÓP NÁT QUẢ CAM",
@@ -28501,7 +28302,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN BÓP NÁT QUẢ CAM"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - CHIẾC RỄ ĐA TRÒN",
@@ -28699,7 +28501,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - CHIẾC RỄ ĐA TRÒN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - NGHE VIẾT; VIẾT HOA TÊN NGƯỜI; PHÂN BIỆT IU/ƯU, IM/IÊM",
@@ -28801,7 +28604,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - NGHE VIẾT; VIẾT HOA TÊN NGƯỜI; PHÂN BIỆT IU/ƯU, IM/IÊM"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TỪ VÀ CÂU - MỞ RỘNG VỐN TỪ VỀ BÁC HỒ VÀ NHÂN DÂN",
@@ -28917,7 +28721,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TỪ VÀ CÂU - MỞ RỘNG VỐN TỪ VỀ BÁC HỒ VÀ NHÂN DÂN"
       },
       {
         "lessonTitle": "TIẾT 5: VIẾT ĐOẠN VĂN KỂ MỘT SỰ VIỆC",
@@ -29019,7 +28824,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: VIẾT ĐOẠN VĂN KỂ MỘT SỰ VIỆC"
       },
       {
         "lessonTitle": "TIẾT 6: ĐỌC MỞ RỘNG",
@@ -29111,7 +28917,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -29127,23 +28934,21 @@
           "- Đọc đúng, rõ ràng văn bản thông tin; biết ngắt nghỉ hơi hợp lí ở các câu dài, đọc đúng tên riêng trong bài.",
           "- Hiểu nội dung bài đọc: biết một số thông tin tiêu biểu về đất nước Việt Nam như tên nước, thủ đô, lá cờ, anh hùng dân tộc, khí hậu ba miền và trang phục truyền thống.",
           "- Trả lời được câu hỏi đọc hiểu; tìm được tên riêng trong bài; dùng được từ ngữ để tạo câu giới thiệu về đất nước Việt Nam.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm và tranh bài đọc cắt từ SGK, thẻ từ tên riêng, phiếu thảo luận câu hỏi đọc hiểu.",
-          "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bút chì."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi nhóm đôi, nhóm bốn khi trả lời câu hỏi, lắng nghe và bổ sung ý kiến cho bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết vận dụng mẫu câu giới thiệu để nói về đất nước, quê hương bằng lời của mình.",
           "3. Phẩm chất",
           "- Yêu nước: Tự hào về Tổ quốc Việt Nam, biết trân trọng lá cờ, Quốc ca, thủ đô và truyền thống dân tộc.",
           "- Trách nhiệm: Có ý thức chăm học, giữ gìn trường lớp, cư xử văn minh để góp phần xây dựng quê hương.",
           "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống và QPAN: Giáo dục HS niềm tự hào về Tổ quốc, biết ơn các anh hùng dân tộc, chào cờ nghiêm túc, hát Quốc ca trang trọng, có trách nhiệm học tập và rèn luyện.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 32"
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống và QPAN: Giáo dục HS niềm tự hào về Tổ quốc, biết ơn các anh hùng dân tộc, chào cờ nghiêm túc, hát Quốc ca trang trọng, có trách nhiệm học tập và rèn luyện."
         ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm và tranh bài đọc cắt từ SGK, thẻ từ tên riêng, phiếu thảo luận câu hỏi đọc hiểu.",
+          "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bút chì."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -29323,7 +29128,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - ĐẤT NƯỚC CHÚNG MÌNH"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - CHỮ HOA V (KIỂU 2)",
@@ -29335,21 +29141,19 @@
           "- Biết trình bày bài viết sạch đẹp, đúng khoảng cách, đúng độ cao con chữ.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự quan sát mẫu chữ, luyện viết và tự soát lỗi.",
-          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng để cùng sửa bài."
+          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng để cùng sửa bài.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
+          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp",
+          "- Tích hợp AI - YCCĐ 2.B3.1: HS bước đầu nhận biết tranh ảnh, bài hát, bài thơ về đất nước do con người hoặc AI tạo ra đều cần được tôn trọng nguồn/tác giả; khi dùng hình ảnh tham khảo phải hỏi GV/người lớn và không tự nhận là của mình."
         ],
         "dodung": [
           "- GV: Mẫu chữ hoa V kiểu 2, câu ứng dụng, tranh minh họa cảnh đẹp đất nước, bảng phụ/máy chiếu.",
           "- HS: Vở Tập viết, bảng con, phấn/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
-          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp",
-          "- Tích hợp AI - YCCĐ 2.B3.1: HS bước đầu nhận biết tranh ảnh, bài hát, bài thơ về đất nước do con người hoặc AI tạo ra đều cần được tôn trọng nguồn/tác giả; khi dùng hình ảnh tham khảo phải hỏi GV/người lớn và không tự nhận là của mình.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 32"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -29439,7 +29243,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - CHỮ HOA V (KIỂU 2)"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN THÁNH GIÓNG",
@@ -29464,9 +29269,7 @@
           "- HS: SGK Tiếng Việt 2, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 32"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -29545,7 +29348,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN THÁNH GIÓNG"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - TRÊN CÁC MIỀN ĐẤT NƯỚC",
@@ -29570,9 +29374,7 @@
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 32"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -29744,7 +29546,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - TRÊN CÁC MIỀN ĐẤT NƯỚC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - NGHE VIẾT; VIẾT HOA TÊN ĐỊA LÍ; PHÂN BIỆT CH/TR, IU/IÊU",
@@ -29754,21 +29557,19 @@
           "- Nghe - viết đúng đoạn trong bài Trên các miền đất nước; trình bày đúng các dòng thơ.",
           "- Biết viết hoa tên địa lí; làm đúng bài tập phân biệt ch/tr, iu/iêu.",
           "- Biết soát lỗi, sửa lỗi chính tả sau khi viết.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết đổi vở kiểm tra, góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng quy tắc chính tả để lựa chọn tiếng/từ đúng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Viết cẩn thận, giữ vở sạch.",
+          "- Trách nhiệm: Trung thực khi soát lỗi, biết sửa lỗi của mình."
         ],
         "dodung": [
           "- GV: Bảng phụ đoạn viết, thẻ bài tập chính tả, tranh bài tập cắt từ SGK, máy chiếu.",
           "- HS: Vở ô ly, VBT, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết đổi vở kiểm tra, góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng quy tắc chính tả để lựa chọn tiếng/từ đúng.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Viết cẩn thận, giữ vở sạch.",
-          "- Trách nhiệm: Trung thực khi soát lỗi, biết sửa lỗi của mình.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 32"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -29851,7 +29652,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - NGHE VIẾT; VIẾT HOA TÊN ĐỊA LÍ; PHÂN BIỆT CH/TR, IU/IÊU"
       },
       {
         "lessonTitle": "BÀI 26: TRÊN CÁC MIỀN ĐẤT NƯỚC",
@@ -29877,9 +29679,7 @@
           "- HS: SGK, VBT, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 32"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -29954,7 +29754,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26: TRÊN CÁC MIỀN ĐẤT NƯỚC"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: VIẾT ĐOẠN VĂN GIỚI THIỆU ĐỒ VẬT LÀM TỪ TRE/GỖ; ĐỌC MỞ RỘNG",
@@ -30107,7 +29908,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: VIẾT ĐOẠN VĂN GIỚI THIỆU ĐỒ VẬT LÀM TỪ TRE/GỖ; ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -30123,14 +29925,7 @@
           "- Đọc đúng, rõ ràng văn bản truyện; biết ngắt nghỉ hơi ở chỗ có dấu câu; đọc đúng lời người kể và lời nhân vật.",
           "- Hiểu nội dung câu chuyện: giải thích theo truyện dân gian về nguồn gốc các dân tộc anh em trên đất nước ta; nhận biết ý nghĩa đoàn kết, yêu thương giữa các dân tộc.",
           "- Trả lời được các câu hỏi đọc hiểu; tìm được tên một số dân tộc trong bài; biết kết hợp từ ngữ để tạo câu nêu đặc điểm.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Tranh minh hoạ bài đọc cắt từ SGK, thẻ từ tên dân tộc, phiếu thảo luận câu hỏi đọc hiểu, máy chiếu/tivi.",
-          "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bút chì."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi nhóm đôi, nhóm ba khi luyện đọc và trả lời câu hỏi; biết lắng nghe bạn trình bày.",
           "- Giải quyết vấn đề và sáng tạo: Biết rút ra bài học về đoàn kết, giúp đỡ nhau và vận dụng vào tình huống ở lớp.",
           "3. Phẩm chất",
@@ -30138,9 +29933,14 @@
           "- Yêu nước: Tự hào về các dân tộc anh em trên đất nước Việt Nam.",
           "- Trách nhiệm: Có ý thức đoàn kết, giúp đỡ bạn và chia sẻ khi đồng bào gặp khó khăn, thiên tai.",
           "4. Tích hợp",
-          "- Tích hợp QPAN/ANQP, đạo đức, lối sống: Giáo dục HS ý thức đoàn kết các dân tộc, yêu mến đồng bào trên cùng Tổ quốc; biết giúp đỡ nhau khi gặp khó khăn, thiên tai; hình thành trách nhiệm nhỏ bé của học sinh trong xây dựng khối đoàn kết.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 33"
+          "- Tích hợp QPAN/ANQP, đạo đức, lối sống: Giáo dục HS ý thức đoàn kết các dân tộc, yêu mến đồng bào trên cùng Tổ quốc; biết giúp đỡ nhau khi gặp khó khăn, thiên tai; hình thành trách nhiệm nhỏ bé của học sinh trong xây dựng khối đoàn kết."
         ],
+        "dodung": [
+          "- GV: Tranh minh hoạ bài đọc cắt từ SGK, thẻ từ tên dân tộc, phiếu thảo luận câu hỏi đọc hiểu, máy chiếu/tivi.",
+          "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bút chì."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -30332,7 +30132,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - CHUYỆN QUẢ BẦU"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - ÔN CHỮ HOA A, M, N (KIỂU 2)",
@@ -30344,22 +30145,20 @@
           "- Biết trình bày bài viết sạch đẹp, đúng khoảng cách, đúng độ cao con chữ.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự quan sát mẫu chữ, luyện viết và tự soát lỗi.",
-          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng để cùng sửa bài."
+          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng để cùng sửa bài.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
+          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, không bỏ dở nhiệm vụ.",
+          "- Nhân ái: Biết đoàn kết, hỗ trợ bạn trong học tập.",
+          "4. Tích hợp",
+          "- Tích hợp đạo đức, lối sống: Qua câu ứng dụng “Muôn người như một”, rèn ý thức đồng lòng, đoàn kết, cùng chia sẻ nhiệm vụ trong học tập và sinh hoạt lớp."
         ],
         "dodung": [
           "- GV: Mẫu chữ hoa A, M, N kiểu 2, câu ứng dụng, bảng phụ/máy chiếu.",
           "- HS: Vở Tập viết, bảng con, phấn/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
-          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, không bỏ dở nhiệm vụ.",
-          "- Nhân ái: Biết đoàn kết, hỗ trợ bạn trong học tập.",
-          "4. Tích hợp",
-          "- Tích hợp đạo đức, lối sống: Qua câu ứng dụng “Muôn người như một”, rèn ý thức đồng lòng, đoàn kết, cùng chia sẻ nhiệm vụ trong học tập và sinh hoạt lớp.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 33"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -30449,7 +30248,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - ÔN CHỮ HOA A, M, N (KIỂU 2)"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN CHUYỆN QUẢ BẦU",
@@ -30474,9 +30274,7 @@
           "- HS: SGK, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 33"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -30570,7 +30368,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN CHUYỆN QUẢ BẦU"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - KHÁM PHÁ ĐÁY BIỂN Ở TRƯỜNG SA",
@@ -30596,9 +30395,7 @@
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 33"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -30766,7 +30563,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - KHÁM PHÁ ĐÁY BIỂN Ở TRƯỜNG SA"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - NGHE VIẾT; PHÂN BIỆT IT/UYT, IÊU/ƯƠU, IN/INH",
@@ -30776,22 +30574,20 @@
           "- Nghe - viết đúng đoạn văn trong bài Khám phá đáy biển ở Trường Sa; trình bày đúng đoạn văn, viết hoa tên riêng.",
           "- Làm đúng bài tập phân biệt it/uyt, iêu/ươu, in/inh.",
           "- Biết soát lỗi, sửa lỗi chính tả sau khi viết.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết đổi vở kiểm tra, góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng quy tắc chính tả để lựa chọn tiếng/từ đúng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Viết cẩn thận, giữ vở sạch.",
+          "- Trách nhiệm: Trung thực khi soát lỗi, biết sửa lỗi của mình.",
+          "- Yêu nước: Biết viết đúng tên địa danh Trường Sa với thái độ trân trọng."
         ],
         "dodung": [
           "- GV: Bảng phụ đoạn viết, thẻ bài tập chính tả, tranh bài tập cắt từ SGK, máy chiếu.",
           "- HS: Vở ô ly, VBT, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết đổi vở kiểm tra, góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng quy tắc chính tả để lựa chọn tiếng/từ đúng.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Viết cẩn thận, giữ vở sạch.",
-          "- Trách nhiệm: Trung thực khi soát lỗi, biết sửa lỗi của mình.",
-          "- Yêu nước: Biết viết đúng tên địa danh Trường Sa với thái độ trân trọng.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 33"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -30870,7 +30666,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - NGHE VIẾT; PHÂN BIỆT IT/UYT, IÊU/ƯƠU, IN/INH"
       },
       {
         "lessonTitle": "BÀI 28: KHÁM PHÁ ĐÁY BIỂN Ở TRƯỜNG SA",
@@ -30896,9 +30693,7 @@
           "- HS: SGK, VBT, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 33"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -30981,7 +30776,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28: KHÁM PHÁ ĐÁY BIỂN Ở TRƯỜNG SA"
       },
       {
         "lessonTitle": "TIẾT 5 - 6: VIẾT ĐOẠN VĂN KỂ VỀ MỘT BUỔI ĐI CHƠI; ĐỌC MỞ RỘNG",
@@ -31147,7 +30943,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6: VIẾT ĐOẠN VĂN KỂ VỀ MỘT BUỔI ĐI CHƠI; ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -31179,9 +30976,7 @@
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 34"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -31353,7 +31148,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - HỒ GƯƠM"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - ÔN CHỮ HOA Q, V (KIỂU 2)",
@@ -31365,19 +31161,17 @@
           "- Biết trình bày bài viết sạch đẹp, đúng khoảng cách giữa các tiếng.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự quan sát mẫu chữ, luyện viết và soát lỗi bài viết.",
-          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng cho bạn."
+          "- Giao tiếp và hợp tác: Biết đổi vở, góp ý nhẹ nhàng cho bạn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
+          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận và hoàn thành nhiệm vụ."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh và câu bài tập cắt từ SGK, thẻ từ, phiếu học tập phù hợp với bài.",
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì luyện viết đúng, viết đẹp.",
-          "- Trách nhiệm: Giữ vở sạch, viết cẩn thận và hoàn thành nhiệm vụ.",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 34"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -31449,7 +31243,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - ÔN CHỮ HOA Q, V (KIỂU 2)"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - NÓI VỀ QUÊ HƯƠNG, ĐẤT NƯỚC EM",
@@ -31474,10 +31269,7 @@
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 34",
-          "CHỦ ĐỀ: VIỆT NAM QUÊ HƯƠNG EM"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -31545,7 +31337,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - NÓI VỀ QUÊ HƯƠNG, ĐẤT NƯỚC EM"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - CÁNH ĐỒNG QUÊ EM",
@@ -31571,9 +31364,7 @@
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 34"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -31713,7 +31504,8 @@
               "- HS ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - CÁNH ĐỒNG QUÊ EM"
       },
       {
         "lessonTitle": "BÀI 30: CÁNH ĐỒNG QUÊ EM",
@@ -31737,9 +31529,7 @@
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 34"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -31819,7 +31609,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 30: CÁNH ĐỒNG QUÊ EM"
       },
       {
         "lessonTitle": "BÀI 30: CÁNH ĐỒNG QUÊ EM",
@@ -31845,9 +31636,7 @@
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 34"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -31931,7 +31720,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 30: CÁNH ĐỒNG QUÊ EM"
       },
       {
         "lessonTitle": "TIẾT 5: VIẾT ĐOẠN VĂN KỂ VỀ CÔNG VIỆC CỦA MỘT NGƯỜI",
@@ -31956,9 +31746,7 @@
           "- HS: SGK Tiếng Việt 2, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 34"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -32030,7 +31818,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: VIẾT ĐOẠN VĂN KỂ VỀ CÔNG VIỆC CỦA MỘT NGƯỜI"
       },
       {
         "lessonTitle": "TIẾT 6: ĐỌC MỞ RỘNG",
@@ -32112,7 +31901,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -32143,7 +31933,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 35",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 2",
           "PHẦN I - ÔN TẬP"
         ],
@@ -32219,7 +32008,8 @@
               "- HS lắng nghe, chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2"
       },
       {
         "lessonTitle": "TIẾT 3 - 4",
@@ -32244,7 +32034,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 35",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 2",
           "PHẦN I - ÔN TẬP"
         ],
@@ -32343,7 +32132,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4"
       },
       {
         "lessonTitle": "TIẾT 5 - 6",
@@ -32368,7 +32158,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 35",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 2",
           "PHẦN I - ÔN TẬP"
         ],
@@ -32459,7 +32248,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5 - 6"
       },
       {
         "lessonTitle": "TIẾT 7 - 8",
@@ -32484,7 +32274,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 2 - TUẦN 35",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 2",
           "PHẦN II - ĐÁNH GIÁ CUỐI HỌC KÌ 2"
         ],
@@ -32583,7 +32372,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7 - 8"
       },
       {
         "lessonTitle": "TIẾT 9 - 10",
@@ -32706,7 +32496,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 9 - 10"
       }
     ]
   }
@@ -32724,5 +32515,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

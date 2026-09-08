@@ -23,7 +23,16 @@
           "- Nhận biết được Quốc hiệu, Quốc kì, Quốc ca Việt Nam.",
           "- Mô tả được đặc điểm cơ bản của Quốc kì Việt Nam; nêu được tên bài hát và tác giả Quốc ca Việt Nam.",
           "- Giải thích được vì sao cần nghiêm trang khi chào cờ và hát Quốc ca.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi, chia sẻ, nhận xét hành vi của nhân vật trong tranh; hợp tác khi luyện tập theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến chào cờ và hát Quốc ca.",
+          "3. Phẩm chất",
+          "- Yêu nước: Trân trọng Quốc hiệu, Quốc kì, Quốc ca; thể hiện tình yêu Tổ quốc qua thái độ nghiêm trang khi chào cờ.",
+          "- Trách nhiệm: Có ý thức thực hiện đúng nền nếp chào cờ, nhắc nhở bạn bè thực hiện đúng.",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, luyện hát Quốc ca và rèn tư thế chào cờ.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.2.CB1a, 4.2.CB1a: HS biết xem/nghe tư liệu Quốc ca, Quốc kì từ nguồn chính thống; không tự ý chỉnh sửa, chia sẻ sai lệch âm thanh, hình ảnh biểu tượng quốc gia.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: Nhận biết AI hỗ trợ lưu giữ, phục dựng tư liệu về nghi lễ, hình ảnh lịch sử của Tổ quốc."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -36,15 +45,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi, chia sẻ, nhận xét hành vi của nhân vật trong tranh; hợp tác khi luyện tập theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến chào cờ và hát Quốc ca.",
-          "3. Phẩm chất",
-          "- Yêu nước: Trân trọng Quốc hiệu, Quốc kì, Quốc ca; thể hiện tình yêu Tổ quốc qua thái độ nghiêm trang khi chào cờ.",
-          "- Trách nhiệm: Có ý thức thực hiện đúng nền nếp chào cờ, nhắc nhở bạn bè thực hiện đúng.",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, luyện hát Quốc ca và rèn tư thế chào cờ.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 1.2.CB1a, 4.2.CB1a: HS biết xem/nghe tư liệu Quốc ca, Quốc kì từ nguồn chính thống; không tự ý chỉnh sửa, chia sẻ sai lệch âm thanh, hình ảnh biểu tượng quốc gia.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.1: Nhận biết AI hỗ trợ lưu giữ, phục dựng tư liệu về nghi lễ, hình ảnh lịch sử của Tổ quốc.",
           "- Gợi ý hoạt động: GV cho HS xem tư liệu phù hợp lứa tuổi về lễ chào cờ; nhắc HS chọn nội dung chính thống, không nghe/lan truyền bản Quốc ca bị chỉnh sửa.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
@@ -224,7 +224,8 @@
               "- HS lắng nghe, tự nhắc mình thực hiện trong buổi chào cờ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA"
       }
     ]
   },
@@ -243,7 +244,16 @@
           "- Biết đưa ra lời khuyên phù hợp, nhẹ nhàng cho bạn khi bạn chưa thực hiện nghiêm trang trong lễ chào cờ.",
           "- Thực hiện được tư thế nghiêm trang, hát Quốc ca rõ ràng, đúng thái độ khi chào cờ.",
           "- Chia sẻ được những việc cần thực hiện trước, trong và sau khi chào cờ, hát Quốc ca.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi, thảo luận nhóm, nhận xét hành vi trong tranh; biết góp ý cho bạn bằng lời nói lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến chào cờ và hát Quốc ca.",
+          "3. Phẩm chất",
+          "- Yêu nước: Trân trọng Quốc kì, Quốc ca; thể hiện tình yêu Tổ quốc qua thái độ nghiêm trang khi chào cờ.",
+          "- Trách nhiệm: Có ý thức thực hiện đúng nền nếp chào cờ, nhắc nhở bạn bè thực hiện đúng bằng cách phù hợp.",
+          "- Chăm chỉ: Tích cực tham gia luyện tập, vẽ cờ, tập chào cờ và hát Quốc ca.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.1.CB1a, 4.2.CB1a: HS biết lựa chọn video, hình ảnh lễ chào cờ phù hợp lứa tuổi; không chia sẻ hình ảnh cá nhân, hình ảnh lớp học khi chưa được phép.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: Nhận biết AI có thể hỗ trợ lưu giữ, nhận diện âm thanh, hình ảnh, tư liệu về Quốc kì, Quốc ca nhưng cần con người kiểm chứng và sử dụng đúng mục đích."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -256,15 +266,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi, thảo luận nhóm, nhận xét hành vi trong tranh; biết góp ý cho bạn bằng lời nói lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến chào cờ và hát Quốc ca.",
-          "3. Phẩm chất",
-          "- Yêu nước: Trân trọng Quốc kì, Quốc ca; thể hiện tình yêu Tổ quốc qua thái độ nghiêm trang khi chào cờ.",
-          "- Trách nhiệm: Có ý thức thực hiện đúng nền nếp chào cờ, nhắc nhở bạn bè thực hiện đúng bằng cách phù hợp.",
-          "- Chăm chỉ: Tích cực tham gia luyện tập, vẽ cờ, tập chào cờ và hát Quốc ca.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 1.1.CB1a, 4.2.CB1a: HS biết lựa chọn video, hình ảnh lễ chào cờ phù hợp lứa tuổi; không chia sẻ hình ảnh cá nhân, hình ảnh lớp học khi chưa được phép.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.1: Nhận biết AI có thể hỗ trợ lưu giữ, nhận diện âm thanh, hình ảnh, tư liệu về Quốc kì, Quốc ca nhưng cần con người kiểm chứng và sử dụng đúng mục đích.",
           "................................................................................................................................................................",
           "................................................................................................................................................................"
         ],
@@ -487,7 +488,8 @@
               "- HS lắng nghe nhận xét, ghi nhớ nhiệm vụ về nhà và chuẩn bị bài học tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA"
       }
     ]
   },
@@ -620,7 +622,8 @@
               "- HS lắng nghe, nhắc lại: AI chỉ hỗ trợ tìm gợi ý ban đầu; em phải hỏi người lớn, kiểm tra nguồn và tự nói bằng lời của mình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM -  SỐ TIẾT: 3 TIẾT"
       }
     ]
   },
@@ -761,7 +764,8 @@
               "- HS lắng nghe, nhắc lại: Em chỉ tham khảo gợi ý của AI, kiểm chứng thông tin và tự trình bày bằng lời của mình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM - SỐ TIẾT: 3 TIẾT"
       }
     ]
   },
@@ -918,7 +922,8 @@
               "- HS đọc lại thông điệp và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM"
       }
     ]
   },
@@ -937,7 +942,16 @@
           "- Biết vì sao phải quan tâm đến hàng xóm láng giềng.",
           "- Quan tâm đến hàng xóm láng giềng bằng những lời nói, việc làm phù hợp.",
           "- Đồng tình với những lời nói, việc làm tốt; không đồng tình với những lời nói, việc làm không tốt đối với hàng xóm láng giềng.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
+          "3. PHẨM CHẤT",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng lời nói, việc làm phù hợp.",
+          "- Trách nhiệm: Có ý thức thực hiện điều đúng, biết nhắc nhở bản thân và bạn bè ứng xử phù hợp.",
+          "- Chăm chỉ: Tích cực tham gia học tập, thực hành, rèn luyện thói quen tốt.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS biết dùng lời nhắn, cuộc gọi hoặc nhờ người lớn liên hệ khi cần giúp hàng xóm; không tự ý chia sẻ vị trí, hình ảnh nhà cửa trong khu dân cư.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.2: Hiểu AI/công nghệ có thể hỗ trợ người già, người khuyết tật trong cộng đồng nhưng sự quan tâm của con người vẫn quan trọng nhất."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -950,15 +964,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
-          "3. PHẨM CHẤT",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng lời nói, việc làm phù hợp.",
-          "- Trách nhiệm: Có ý thức thực hiện điều đúng, biết nhắc nhở bản thân và bạn bè ứng xử phù hợp.",
-          "- Chăm chỉ: Tích cực tham gia học tập, thực hành, rèn luyện thói quen tốt.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS biết dùng lời nhắn, cuộc gọi hoặc nhờ người lớn liên hệ khi cần giúp hàng xóm; không tự ý chia sẻ vị trí, hình ảnh nhà cửa trong khu dân cư.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.2: Hiểu AI/công nghệ có thể hỗ trợ người già, người khuyết tật trong cộng đồng nhưng sự quan tâm của con người vẫn quan trọng nhất.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -1030,7 +1035,8 @@
               "- HS nêu: “Em sẽ chào hỏi bác hàng xóm”; “Em sẽ không làm ồn giờ nghỉ trưa”; “Em sẽ nhắc ba mẹ khi thấy hàng xóm cần giúp.”"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG"
       }
     ]
   },
@@ -1049,7 +1055,16 @@
           "- Biết vì sao phải quan tâm đến hàng xóm láng giềng.",
           "- Quan tâm đến hàng xóm láng giềng bằng những lời nói, việc làm phù hợp.",
           "- Đồng tình với những lời nói, việc làm tốt; không đồng tình với những lời nói, việc làm không tốt đối với hàng xóm láng giềng.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
+          "3. PHẨM CHẤT",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng lời nói, việc làm phù hợp.",
+          "- Trách nhiệm: Có ý thức thực hiện điều đúng, biết nhắc nhở bản thân và bạn bè ứng xử phù hợp.",
+          "- Chăm chỉ: Tích cực tham gia học tập, thực hành, rèn luyện thói quen tốt.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 2.1.CB1a, 4.1.CB1b: HS biết lựa chọn cách liên hệ an toàn khi cần báo tin cho người lớn; không tự ý trả lời tin nhắn/nghe lời người lạ trên môi trường số.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.2: Nhận biết công nghệ/AI có thể hỗ trợ cảnh báo, gọi trợ giúp trong khu dân cư nhưng HS cần ứng xử an toàn."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1062,15 +1077,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
-          "3. PHẨM CHẤT",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng lời nói, việc làm phù hợp.",
-          "- Trách nhiệm: Có ý thức thực hiện điều đúng, biết nhắc nhở bản thân và bạn bè ứng xử phù hợp.",
-          "- Chăm chỉ: Tích cực tham gia học tập, thực hành, rèn luyện thói quen tốt.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 2.1.CB1a, 4.1.CB1b: HS biết lựa chọn cách liên hệ an toàn khi cần báo tin cho người lớn; không tự ý trả lời tin nhắn/nghe lời người lạ trên môi trường số.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.2: Nhận biết công nghệ/AI có thể hỗ trợ cảnh báo, gọi trợ giúp trong khu dân cư nhưng HS cần ứng xử an toàn.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -1146,7 +1152,8 @@
               "- HS lắng nghe, tự liên hệ hành vi của bản thân."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG"
       }
     ]
   },
@@ -1165,7 +1172,16 @@
           "- Biết vì sao phải quan tâm đến hàng xóm láng giềng.",
           "- Quan tâm đến hàng xóm láng giềng bằng những lời nói, việc làm phù hợp.",
           "- Đồng tình với những lời nói, việc làm tốt; không đồng tình với những lời nói, việc làm không tốt đối với hàng xóm láng giềng.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
+          "3. PHẨM CHẤT",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng lời nói, việc làm phù hợp.",
+          "- Trách nhiệm: Có ý thức thực hiện điều đúng, biết nhắc nhở bản thân và bạn bè ứng xử phù hợp.",
+          "- Chăm chỉ: Tích cực tham gia học tập, thực hành, rèn luyện thói quen tốt.",
+          "4. TÍCH HỢP",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền được sống trong môi trường an toàn, được bảo vệ trước nguy cơ bị xâm hại; đồng thời biết tôn trọng đời sống riêng tư của hàng xóm, láng giềng.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.2: Hiểu AI là công cụ hỗ trợ, không thay thế lòng nhân ái và sự quan tâm chân thành giữa con người với nhau."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1178,15 +1194,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
-          "3. PHẨM CHẤT",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng lời nói, việc làm phù hợp.",
-          "- Trách nhiệm: Có ý thức thực hiện điều đúng, biết nhắc nhở bản thân và bạn bè ứng xử phù hợp.",
-          "- Chăm chỉ: Tích cực tham gia học tập, thực hành, rèn luyện thói quen tốt.",
-          "4. TÍCH HỢP",
-          "- Tích hợp QCN: HS hiểu trẻ em có quyền được sống trong môi trường an toàn, được bảo vệ trước nguy cơ bị xâm hại; đồng thời biết tôn trọng đời sống riêng tư của hàng xóm, láng giềng.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.2: Hiểu AI là công cụ hỗ trợ, không thay thế lòng nhân ái và sự quan tâm chân thành giữa con người với nhau.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -1258,7 +1265,8 @@
               "- HS chia sẻ: “Em sẽ chào hỏi bác hàng xóm”; “Em sẽ giữ vệ sinh trước cổng nhà.”"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG"
       }
     ]
   },
@@ -1277,7 +1285,16 @@
           "- Biết vì sao phải quan tâm đến hàng xóm láng giềng.",
           "- Quan tâm đến hàng xóm láng giềng bằng những lời nói, việc làm phù hợp.",
           "- Đồng tình với những lời nói, việc làm tốt; không đồng tình với những lời nói, việc làm không tốt đối với hàng xóm láng giềng.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
+          "3. PHẨM CHẤT",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng lời nói, việc làm phù hợp.",
+          "- Trách nhiệm: Có ý thức thực hiện điều đúng, biết nhắc nhở bản thân và bạn bè ứng xử phù hợp.",
+          "- Chăm chỉ: Tích cực tham gia học tập, thực hành, rèn luyện thói quen tốt.",
+          "4. TÍCH HỢP",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình làng nghĩa xóm, biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng việc làm phù hợp.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.2: Nhận biết AI/công nghệ chỉ hỗ trợ kết nối, nhắc việc, gọi trợ giúp; tình cảm và trách nhiệm vẫn do con người thực hiện."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1290,15 +1307,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
-          "3. PHẨM CHẤT",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng lời nói, việc làm phù hợp.",
-          "- Trách nhiệm: Có ý thức thực hiện điều đúng, biết nhắc nhở bản thân và bạn bè ứng xử phù hợp.",
-          "- Chăm chỉ: Tích cực tham gia học tập, thực hành, rèn luyện thói quen tốt.",
-          "4. TÍCH HỢP",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình làng nghĩa xóm, biết quan tâm, chia sẻ, giúp đỡ người xung quanh bằng việc làm phù hợp.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.2: Nhận biết AI/công nghệ chỉ hỗ trợ kết nối, nhắc việc, gọi trợ giúp; tình cảm và trách nhiệm vẫn do con người thực hiện.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -1374,7 +1382,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện sau bài học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG"
       }
     ]
   },
@@ -1391,7 +1400,16 @@
           "- Nhận xét được hành vi đúng, chưa đúng trong các tình huống đạo đức quen thuộc.",
           "- Biết lựa chọn cách ứng xử phù hợp, lịch sự, an toàn trong một số tình huống thực hành rèn kĩ năng.",
           "- Tự đánh giá được việc thực hiện lời nói, việc làm thể hiện tình yêu Tổ quốc và sự quan tâm đến người xung quanh.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Trao đổi nhóm, lắng nghe ý kiến bạn, trình bày nhận xét và góp ý bằng lời nói lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống, lựa chọn cách xử lí phù hợp, biết kiểm chứng thông tin trước khi làm theo.",
+          "3. PHẨM CHẤT",
+          "- Yêu nước: Có thái độ trân trọng Quốc kì, Quốc ca; tự hào về quê hương, đất nước Việt Nam.",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ hàng xóm láng giềng bằng việc làm phù hợp.",
+          "- Trách nhiệm: Có ý thức nói thật, làm đúng, không vội tin hoặc lan truyền thông tin chưa được kiểm chứng.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 1.2.CB1a, 2.3.CB1a: HS biết trao đổi lịch sự khi thảo luận tình huống đạo đức trên môi trường số; không vội tin hoặc chuyển tiếp thông tin chưa rõ nguồn.",
+          "- Tích hợp AI (Khung 3439) - 3.A3.1: Rèn thói quen kiểm tra kết quả do máy tính/AI đưa ra; không tin ngay mọi thông tin khi chưa xác minh."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1404,15 +1422,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi nhóm, lắng nghe ý kiến bạn, trình bày nhận xét và góp ý bằng lời nói lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống, lựa chọn cách xử lí phù hợp, biết kiểm chứng thông tin trước khi làm theo.",
-          "3. PHẨM CHẤT",
-          "- Yêu nước: Có thái độ trân trọng Quốc kì, Quốc ca; tự hào về quê hương, đất nước Việt Nam.",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ hàng xóm láng giềng bằng việc làm phù hợp.",
-          "- Trách nhiệm: Có ý thức nói thật, làm đúng, không vội tin hoặc lan truyền thông tin chưa được kiểm chứng.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 1.2.CB1a, 2.3.CB1a: HS biết trao đổi lịch sự khi thảo luận tình huống đạo đức trên môi trường số; không vội tin hoặc chuyển tiếp thông tin chưa rõ nguồn.",
-          "- Tích hợp AI (Khung 3439) - 3.A3.1: Rèn thói quen kiểm tra kết quả do máy tính/AI đưa ra; không tin ngay mọi thông tin khi chưa xác minh.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -1539,7 +1548,8 @@
               "- HS lắng nghe, tự nhắc mình thực hiện lời cam kết."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4"
       }
     ]
   },
@@ -1558,7 +1568,16 @@
           "- Nêu được lợi ích của ham học hỏi đối với lứa tuổi của mình.",
           "- Thực hiện được việc làm thể hiện sự ham học hỏi.",
           "- Biết bày tỏ ý kiến, nhận xét hành vi và đưa ra lời khuyên phù hợp trong tình huống học tập.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
+          "3. PHẨM CHẤT",
+          "- Chăm chỉ: Tích cực học tập, đọc sách, đặt câu hỏi và tìm hiểu những điều mới.",
+          "- Trách nhiệm: Trung thực khi trình bày điều mình biết/chưa biết, không sao chép máy móc.",
+          "- Nhân ái: Biết chia sẻ điều hay đã học được, hỗ trợ bạn cùng tiến bộ.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a: HS biết đặt câu hỏi học tập rõ ràng, tìm thông tin dưới sự hướng dẫn của GV và trình bày lại bằng lời của mình.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết sử dụng AI như công cụ hỗ trợ tìm kiếm tri thức chủ động, không sao chép máy móc."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1571,15 +1590,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
-          "3. PHẨM CHẤT",
-          "- Chăm chỉ: Tích cực học tập, đọc sách, đặt câu hỏi và tìm hiểu những điều mới.",
-          "- Trách nhiệm: Trung thực khi trình bày điều mình biết/chưa biết, không sao chép máy móc.",
-          "- Nhân ái: Biết chia sẻ điều hay đã học được, hỗ trợ bạn cùng tiến bộ.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a: HS biết đặt câu hỏi học tập rõ ràng, tìm thông tin dưới sự hướng dẫn của GV và trình bày lại bằng lời của mình.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết sử dụng AI như công cụ hỗ trợ tìm kiếm tri thức chủ động, không sao chép máy móc.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -1655,7 +1665,8 @@
               "- HS lắng nghe, ghi nhớ lợi ích của ham học hỏi."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: HAM HỌC HỎI"
       }
     ]
   },
@@ -1674,7 +1685,16 @@
           "- Nêu được lợi ích của ham học hỏi đối với lứa tuổi của mình.",
           "- Thực hiện được việc làm thể hiện sự ham học hỏi.",
           "- Biết bày tỏ ý kiến, nhận xét hành vi và đưa ra lời khuyên phù hợp trong tình huống học tập.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
+          "3. PHẨM CHẤT",
+          "- Chăm chỉ: Tích cực học tập, đọc sách, đặt câu hỏi và tìm hiểu những điều mới.",
+          "- Trách nhiệm: Trung thực khi trình bày điều mình biết/chưa biết, không sao chép máy móc.",
+          "- Nhân ái: Biết chia sẻ điều hay đã học được, hỗ trợ bạn cùng tiến bộ.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 1.2.CB1a, 3.1.CB1a: HS biết chọn nội dung học tập phù hợp lứa tuổi, ghi chép ý chính từ nguồn số và không sao chép máy móc.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.1: Nhận biết AI có thể gợi ý kiến thức nhưng HS cần tự suy nghĩ và diễn đạt bằng lời của mình."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1687,15 +1707,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
-          "3. PHẨM CHẤT",
-          "- Chăm chỉ: Tích cực học tập, đọc sách, đặt câu hỏi và tìm hiểu những điều mới.",
-          "- Trách nhiệm: Trung thực khi trình bày điều mình biết/chưa biết, không sao chép máy móc.",
-          "- Nhân ái: Biết chia sẻ điều hay đã học được, hỗ trợ bạn cùng tiến bộ.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 1.2.CB1a, 3.1.CB1a: HS biết chọn nội dung học tập phù hợp lứa tuổi, ghi chép ý chính từ nguồn số và không sao chép máy móc.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.1: Nhận biết AI có thể gợi ý kiến thức nhưng HS cần tự suy nghĩ và diễn đạt bằng lời của mình.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -1771,7 +1782,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: HAM HỌC HỎI"
       }
     ]
   },
@@ -1790,7 +1802,16 @@
           "- Nêu được lợi ích của ham học hỏi đối với lứa tuổi của mình.",
           "- Thực hiện được việc làm thể hiện sự ham học hỏi.",
           "- Biết bày tỏ ý kiến, nhận xét hành vi và đưa ra lời khuyên phù hợp trong tình huống học tập.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
+          "3. PHẨM CHẤT",
+          "- Chăm chỉ: Tích cực học tập, đọc sách, đặt câu hỏi và tìm hiểu những điều mới.",
+          "- Trách nhiệm: Trung thực khi trình bày điều mình biết/chưa biết, không sao chép máy móc.",
+          "- Nhân ái: Biết chia sẻ điều hay đã học được, hỗ trợ bạn cùng tiến bộ.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 1.1.CB1a, 4.2.CB1a: HS biết tìm ví dụ minh họa cho điều muốn học hỏi; không nhập họ tên đầy đủ, địa chỉ, số điện thoại hoặc dữ liệu riêng tư vào công cụ số.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết dùng AI để tham khảo thêm ví dụ, tranh ảnh, câu hỏi gợi mở dưới sự hướng dẫn của GV."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1803,15 +1824,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
-          "3. PHẨM CHẤT",
-          "- Chăm chỉ: Tích cực học tập, đọc sách, đặt câu hỏi và tìm hiểu những điều mới.",
-          "- Trách nhiệm: Trung thực khi trình bày điều mình biết/chưa biết, không sao chép máy móc.",
-          "- Nhân ái: Biết chia sẻ điều hay đã học được, hỗ trợ bạn cùng tiến bộ.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 1.1.CB1a, 4.2.CB1a: HS biết tìm ví dụ minh họa cho điều muốn học hỏi; không nhập họ tên đầy đủ, địa chỉ, số điện thoại hoặc dữ liệu riêng tư vào công cụ số.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết dùng AI để tham khảo thêm ví dụ, tranh ảnh, câu hỏi gợi mở dưới sự hướng dẫn của GV.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -1891,7 +1903,8 @@
               "- HS đọc đồng thanh thông điệp và nêu việc sẽ làm để rèn ham học hỏi."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: HAM HỌC HỎI"
       }
     ]
   },
@@ -1909,7 +1922,16 @@
           "- Nêu được một số biểu hiện của việc giữ lời hứa qua câu chuyện, tranh và tình huống gần gũi.",
           "- Bước đầu biết liên hệ bản thân về lời hứa và việc thực hiện lời hứa.",
           "- Biết bày tỏ thái độ đồng tình với việc giữ đúng lời đã hứa.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, lắng nghe ý kiến của bạn và nói lời xin lỗi, lời giải thích lịch sự khi cần.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi đã hứa nhưng gặp khó khăn chưa thực hiện được.",
+          "3. PHẨM CHẤT",
+          "- Trung thực: Biết nói thật, không hứa suông, không tạo lí do sai để che giấu lỗi.",
+          "- Trách nhiệm: Có ý thức thực hiện lời hứa với gia đình, thầy cô, bạn bè; biết nhận lỗi và sửa lỗi khi chưa giữ lời hứa.",
+          "- Nhân ái: Biết tôn trọng cảm xúc của người được mình hứa; nói lời xin lỗi chân thành khi làm người khác buồn.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 5.1.CB1a, 4.2.CB1a: HS biết dùng công cụ nhắc việc đơn giản dưới sự hướng dẫn của người lớn để thực hiện lời hứa; không chia sẻ thông tin cá nhân khi tạo lời nhắc.",
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hiểu AI cần dữ liệu đúng để đưa ra kết quả đúng; liên hệ con người cần nói thật, làm đúng lời hứa."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1922,15 +1944,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, lắng nghe ý kiến của bạn và nói lời xin lỗi, lời giải thích lịch sự khi cần.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi đã hứa nhưng gặp khó khăn chưa thực hiện được.",
-          "3. PHẨM CHẤT",
-          "- Trung thực: Biết nói thật, không hứa suông, không tạo lí do sai để che giấu lỗi.",
-          "- Trách nhiệm: Có ý thức thực hiện lời hứa với gia đình, thầy cô, bạn bè; biết nhận lỗi và sửa lỗi khi chưa giữ lời hứa.",
-          "- Nhân ái: Biết tôn trọng cảm xúc của người được mình hứa; nói lời xin lỗi chân thành khi làm người khác buồn.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 5.1.CB1a, 4.2.CB1a: HS biết dùng công cụ nhắc việc đơn giản dưới sự hướng dẫn của người lớn để thực hiện lời hứa; không chia sẻ thông tin cá nhân khi tạo lời nhắc.",
-          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hiểu AI cần dữ liệu đúng để đưa ra kết quả đúng; liên hệ con người cần nói thật, làm đúng lời hứa.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -2065,7 +2078,8 @@
               "- HS trình bày: “Em hứa giúp mẹ gấp quần áo vào tối thứ Bảy.” / “Em hứa không quên mang vở bài tập.”"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: GIỮ LỜI HỨA"
       }
     ]
   },
@@ -2083,7 +2097,16 @@
           "- Nêu được vì sao phải giữ lời hứa; hiểu giữ lời hứa giúp con người được tin tưởng, quý trọng.",
           "- Biết thảo luận những việc nên làm, nên tránh để giữ lời hứa.",
           "- Biết bày tỏ ý kiến đồng tình/không đồng tình về việc giữ lời hứa.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, lắng nghe ý kiến của bạn và nói lời xin lỗi, lời giải thích lịch sự khi cần.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi đã hứa nhưng gặp khó khăn chưa thực hiện được.",
+          "3. PHẨM CHẤT",
+          "- Trung thực: Biết nói thật, không hứa suông, không tạo lí do sai để che giấu lỗi.",
+          "- Trách nhiệm: Có ý thức thực hiện lời hứa với gia đình, thầy cô, bạn bè; biết nhận lỗi và sửa lỗi khi chưa giữ lời hứa.",
+          "- Nhân ái: Biết tôn trọng cảm xúc của người được mình hứa; nói lời xin lỗi chân thành khi làm người khác buồn.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 2.3.CB1a, 4.2.CB1a: HS biết nhắn tin/xin lỗi lịch sự khi lỡ thất hứa trong tình huống phù hợp; không dùng công cụ số để nói dối hoặc đổ lỗi cho người khác.",
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Nhận biết việc dùng công nghệ/AI cần trung thực; không tạo nội dung giả để che giấu lỗi hoặc đổ lỗi cho người khác."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2096,15 +2119,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, lắng nghe ý kiến của bạn và nói lời xin lỗi, lời giải thích lịch sự khi cần.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi đã hứa nhưng gặp khó khăn chưa thực hiện được.",
-          "3. PHẨM CHẤT",
-          "- Trung thực: Biết nói thật, không hứa suông, không tạo lí do sai để che giấu lỗi.",
-          "- Trách nhiệm: Có ý thức thực hiện lời hứa với gia đình, thầy cô, bạn bè; biết nhận lỗi và sửa lỗi khi chưa giữ lời hứa.",
-          "- Nhân ái: Biết tôn trọng cảm xúc của người được mình hứa; nói lời xin lỗi chân thành khi làm người khác buồn.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 2.3.CB1a, 4.2.CB1a: HS biết nhắn tin/xin lỗi lịch sự khi lỡ thất hứa trong tình huống phù hợp; không dùng công cụ số để nói dối hoặc đổ lỗi cho người khác.",
-          "- Tích hợp AI (Khung 3439) - 3.B3.2: Nhận biết việc dùng công nghệ/AI cần trung thực; không tạo nội dung giả để che giấu lỗi hoặc đổ lỗi cho người khác.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -2227,7 +2241,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: GIỮ LỜI HỨA"
       }
     ]
   },
@@ -2245,7 +2260,16 @@
           "- Biết nhận xét hành vi giữ lời hứa/chưa giữ lời hứa trong tranh.",
           "- Biết xử lí tình huống khi đã hứa nhưng gặp khó khăn không thể thực hiện đúng.",
           "- Biết chia sẻ, thực hiện việc giữ lời hứa trong cuộc sống hằng ngày.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, lắng nghe ý kiến của bạn và nói lời xin lỗi, lời giải thích lịch sự khi cần.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi đã hứa nhưng gặp khó khăn chưa thực hiện được.",
+          "3. PHẨM CHẤT",
+          "- Trung thực: Biết nói thật, không hứa suông, không tạo lí do sai để che giấu lỗi.",
+          "- Trách nhiệm: Có ý thức thực hiện lời hứa với gia đình, thầy cô, bạn bè; biết nhận lỗi và sửa lỗi khi chưa giữ lời hứa.",
+          "- Nhân ái: Biết tôn trọng cảm xúc của người được mình hứa; nói lời xin lỗi chân thành khi làm người khác buồn.",
+          "4. TÍCH HỢP",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền được tôn trọng, được lắng nghe khi giải thích sự việc; đồng thời có trách nhiệm nói thật, nhận lỗi và sửa lỗi khi chưa thực hiện đúng lời hứa.",
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hình thành thái độ không dùng AI để tạo thông tin sai; biết chịu trách nhiệm với lời nói và việc làm của mình."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2258,15 +2282,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, lắng nghe ý kiến của bạn và nói lời xin lỗi, lời giải thích lịch sự khi cần.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi đã hứa nhưng gặp khó khăn chưa thực hiện được.",
-          "3. PHẨM CHẤT",
-          "- Trung thực: Biết nói thật, không hứa suông, không tạo lí do sai để che giấu lỗi.",
-          "- Trách nhiệm: Có ý thức thực hiện lời hứa với gia đình, thầy cô, bạn bè; biết nhận lỗi và sửa lỗi khi chưa giữ lời hứa.",
-          "- Nhân ái: Biết tôn trọng cảm xúc của người được mình hứa; nói lời xin lỗi chân thành khi làm người khác buồn.",
-          "4. TÍCH HỢP",
-          "- Tích hợp QCN: HS hiểu trẻ em có quyền được tôn trọng, được lắng nghe khi giải thích sự việc; đồng thời có trách nhiệm nói thật, nhận lỗi và sửa lỗi khi chưa thực hiện đúng lời hứa.",
-          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hình thành thái độ không dùng AI để tạo thông tin sai; biết chịu trách nhiệm với lời nói và việc làm của mình.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -2397,7 +2412,8 @@
               "- HS nhận nhiệm vụ, ghi nhớ thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: GIỮ LỜI HỨA"
       }
     ]
   },
@@ -2414,7 +2430,18 @@
           "- Nhận xét được hành vi đúng, chưa đúng trong một số tình huống đạo đức quen thuộc; biết nêu cách ứng xử phù hợp.",
           "- Biết tự đánh giá việc thực hiện hành vi đạo đức của bản thân trên tinh thần trung thực, tôn trọng bản thân và người khác.",
           "- Bước đầu biết phân biệt thông tin thật - giả do công cụ số/AI tạo ra; biết hỏi thầy cô, cha mẹ hoặc kiểm tra nguồn trước khi tin và chia sẻ.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Thảo luận nhóm 2, nhóm 4; biết lắng nghe, trình bày ý kiến, nhận xét bạn bằng lời nói lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống đạo đức, lựa chọn cách xử lí phù hợp; biết kiểm chứng thông tin khi gặp nội dung chưa chắc đúng.",
+          "3. PHẨM CHẤT",
+          "- Yêu nước: Tự hào về Tổ quốc, tôn trọng Quốc kì, Quốc ca và những biểu tượng của đất nước.",
+          "- Nhân ái: Biết quan tâm, chia sẻ với hàng xóm, bạn bè và người xung quanh.",
+          "- Trung thực: Biết nói thật, nhận lỗi, sửa lỗi; không tạo hoặc chia sẻ thông tin sai sự thật.",
+          "- Trách nhiệm: Có ý thức giữ lời hứa, hoàn thành việc đã cam kết và sử dụng công cụ số đúng mục đích.",
+          "- Chăm chỉ: Tích cực ôn tập, tham gia hoạt động nhóm và thực hành rèn kĩ năng đạo đức.",
+          "4. TÍCH HỢP",
+          "- Tích hợp QCN: HS biết tự đánh giá hành vi đạo đức trên tinh thần tôn trọng bản thân và người khác; được khuyến khích nói thật, trình bày ý kiến và sửa lỗi trong môi trường an toàn.",
+          "- Tích hợp AI (Khung 3439) - 3.B2.1: Biết phân biệt thông tin thật - giả do AI tạo ra; rèn sự trung thực và cảnh giác khi tiếp nhận thông tin."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2427,17 +2454,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Thảo luận nhóm 2, nhóm 4; biết lắng nghe, trình bày ý kiến, nhận xét bạn bằng lời nói lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống đạo đức, lựa chọn cách xử lí phù hợp; biết kiểm chứng thông tin khi gặp nội dung chưa chắc đúng.",
-          "3. PHẨM CHẤT",
-          "- Yêu nước: Tự hào về Tổ quốc, tôn trọng Quốc kì, Quốc ca và những biểu tượng của đất nước.",
-          "- Nhân ái: Biết quan tâm, chia sẻ với hàng xóm, bạn bè và người xung quanh.",
-          "- Trung thực: Biết nói thật, nhận lỗi, sửa lỗi; không tạo hoặc chia sẻ thông tin sai sự thật.",
-          "- Trách nhiệm: Có ý thức giữ lời hứa, hoàn thành việc đã cam kết và sử dụng công cụ số đúng mục đích.",
-          "- Chăm chỉ: Tích cực ôn tập, tham gia hoạt động nhóm và thực hành rèn kĩ năng đạo đức.",
-          "4. TÍCH HỢP",
-          "- Tích hợp QCN: HS biết tự đánh giá hành vi đạo đức trên tinh thần tôn trọng bản thân và người khác; được khuyến khích nói thật, trình bày ý kiến và sửa lỗi trong môi trường an toàn.",
-          "- Tích hợp AI (Khung 3439) - 3.B2.1: Biết phân biệt thông tin thật - giả do AI tạo ra; rèn sự trung thực và cảnh giác khi tiếp nhận thông tin.",
           "- Gợi ý hoạt động: GV đưa ví dụ một thông tin/ảnh chưa chắc đúng; HS nêu cách hỏi lại người lớn hoặc kiểm tra nguồn.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
@@ -2600,7 +2616,8 @@
               "- HS lắng nghe, tự cam kết thực hiện một việc tốt trong tuần."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4"
       }
     ]
   },
@@ -2619,7 +2636,16 @@
           "- Nêu được vì sao phải tích cực hoàn thành nhiệm vụ.",
           "- Hoàn thành nhiệm vụ đúng kế hoạch, có chất lượng.",
           "- Nhắc nhở bạn bè tích cực hoàn thành nhiệm vụ.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, phân công, lắng nghe và hỗ trợ bạn trong thảo luận nhóm 2, nhóm 4.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp khó khăn trong quá trình thực hiện nhiệm vụ.",
+          "3. PHẨM CHẤT",
+          "- Trách nhiệm: Có ý thức nhận nhiệm vụ, thực hiện đến nơi đến chốn và báo cáo kết quả trung thực.",
+          "- Chăm chỉ: Tích cực, kiên trì hoàn thành công việc học tập, việc lớp, việc nhà phù hợp với khả năng.",
+          "- Trung thực: Không nhờ người khác làm thay, không báo cáo sai kết quả nhiệm vụ.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 5.1.CB1a, 3.1.CB1a: HS biết lập danh sách việc cần làm hoặc bảng theo dõi nhiệm vụ đơn giản; đánh dấu việc đã hoàn thành trung thực, không nhờ người khác làm thay.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.2: Phân biệt dùng AI để nhắc việc, gợi ý kế hoạch với việc để AI làm thay nhiệm vụ của bản thân."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2630,15 +2656,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, phân công, lắng nghe và hỗ trợ bạn trong thảo luận nhóm 2, nhóm 4.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp khó khăn trong quá trình thực hiện nhiệm vụ.",
-          "3. PHẨM CHẤT",
-          "- Trách nhiệm: Có ý thức nhận nhiệm vụ, thực hiện đến nơi đến chốn và báo cáo kết quả trung thực.",
-          "- Chăm chỉ: Tích cực, kiên trì hoàn thành công việc học tập, việc lớp, việc nhà phù hợp với khả năng.",
-          "- Trung thực: Không nhờ người khác làm thay, không báo cáo sai kết quả nhiệm vụ.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 5.1.CB1a, 3.1.CB1a: HS biết lập danh sách việc cần làm hoặc bảng theo dõi nhiệm vụ đơn giản; đánh dấu việc đã hoàn thành trung thực, không nhờ người khác làm thay.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.2: Phân biệt dùng AI để nhắc việc, gợi ý kế hoạch với việc để AI làm thay nhiệm vụ của bản thân.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -2737,7 +2754,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ"
       }
     ]
   },
@@ -2756,7 +2774,16 @@
           "- Nêu được vì sao phải tích cực hoàn thành nhiệm vụ.",
           "- Hoàn thành nhiệm vụ đúng kế hoạch, có chất lượng.",
           "- Nhắc nhở bạn bè tích cực hoàn thành nhiệm vụ.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, phân công, lắng nghe và hỗ trợ bạn trong thảo luận nhóm 2, nhóm 4.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp khó khăn trong quá trình thực hiện nhiệm vụ.",
+          "3. PHẨM CHẤT",
+          "- Trách nhiệm: Có ý thức nhận nhiệm vụ, thực hiện đến nơi đến chốn và báo cáo kết quả trung thực.",
+          "- Chăm chỉ: Tích cực, kiên trì hoàn thành công việc học tập, việc lớp, việc nhà phù hợp với khả năng.",
+          "- Trung thực: Không nhờ người khác làm thay, không báo cáo sai kết quả nhiệm vụ.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 5.1.CB1a, 1.1.CB1a: HS biết dùng lịch/nhắc việc dưới sự hướng dẫn của GV hoặc cha mẹ để chia nhỏ nhiệm vụ; kiểm tra lại kết quả trước khi báo cáo.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.2: Nhận biết công cụ AI có thể gợi ý cách chia nhỏ nhiệm vụ nhưng HS phải chủ động thực hiện."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2767,15 +2794,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, phân công, lắng nghe và hỗ trợ bạn trong thảo luận nhóm 2, nhóm 4.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp khó khăn trong quá trình thực hiện nhiệm vụ.",
-          "3. PHẨM CHẤT",
-          "- Trách nhiệm: Có ý thức nhận nhiệm vụ, thực hiện đến nơi đến chốn và báo cáo kết quả trung thực.",
-          "- Chăm chỉ: Tích cực, kiên trì hoàn thành công việc học tập, việc lớp, việc nhà phù hợp với khả năng.",
-          "- Trung thực: Không nhờ người khác làm thay, không báo cáo sai kết quả nhiệm vụ.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 5.1.CB1a, 1.1.CB1a: HS biết dùng lịch/nhắc việc dưới sự hướng dẫn của GV hoặc cha mẹ để chia nhỏ nhiệm vụ; kiểm tra lại kết quả trước khi báo cáo.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.2: Nhận biết công cụ AI có thể gợi ý cách chia nhỏ nhiệm vụ nhưng HS phải chủ động thực hiện.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -2870,7 +2888,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ"
       }
     ]
   },
@@ -2889,7 +2908,16 @@
           "- Nêu được vì sao phải tích cực hoàn thành nhiệm vụ.",
           "- Hoàn thành nhiệm vụ đúng kế hoạch, có chất lượng.",
           "- Nhắc nhở bạn bè tích cực hoàn thành nhiệm vụ.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, phân công, lắng nghe và hỗ trợ bạn trong thảo luận nhóm 2, nhóm 4.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp khó khăn trong quá trình thực hiện nhiệm vụ.",
+          "3. PHẨM CHẤT",
+          "- Trách nhiệm: Có ý thức nhận nhiệm vụ, thực hiện đến nơi đến chốn và báo cáo kết quả trung thực.",
+          "- Chăm chỉ: Tích cực, kiên trì hoàn thành công việc học tập, việc lớp, việc nhà phù hợp với khả năng.",
+          "- Trung thực: Không nhờ người khác làm thay, không báo cáo sai kết quả nhiệm vụ.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 3.1.CB1a, 2.3.CB1a: HS biết báo cáo tiến độ nhiệm vụ bằng lời nói, hình ảnh hoặc bảng theo dõi đơn giản; giao tiếp lịch sự, trung thực khi làm việc nhóm.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.2: Biết sử dụng AI/công nghệ như công cụ hỗ trợ theo dõi tiến độ, không thay thế sự cố gắng cá nhân."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2900,15 +2928,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, phân công, lắng nghe và hỗ trợ bạn trong thảo luận nhóm 2, nhóm 4.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp khó khăn trong quá trình thực hiện nhiệm vụ.",
-          "3. PHẨM CHẤT",
-          "- Trách nhiệm: Có ý thức nhận nhiệm vụ, thực hiện đến nơi đến chốn và báo cáo kết quả trung thực.",
-          "- Chăm chỉ: Tích cực, kiên trì hoàn thành công việc học tập, việc lớp, việc nhà phù hợp với khả năng.",
-          "- Trung thực: Không nhờ người khác làm thay, không báo cáo sai kết quả nhiệm vụ.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 3.1.CB1a, 2.3.CB1a: HS biết báo cáo tiến độ nhiệm vụ bằng lời nói, hình ảnh hoặc bảng theo dõi đơn giản; giao tiếp lịch sự, trung thực khi làm việc nhóm.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.2: Biết sử dụng AI/công nghệ như công cụ hỗ trợ theo dõi tiến độ, không thay thế sự cố gắng cá nhân.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -3019,7 +3038,8 @@
               "- HS đọc thông điệp, tự nhắc mình tích cực hoàn thành nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ"
       }
     ]
   },
@@ -3038,7 +3058,16 @@
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
+          "3. PHẨM CHẤT",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
+          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 4.2.CB1a: HS biết bảo vệ thông tin cá nhân khi giới thiệu bản thân; chỉ chia sẻ điểm mạnh, điều cần cố gắng ở mức phù hợp, không nêu địa chỉ nhà, số điện thoại, tài khoản riêng, mật khẩu hoặc hình ảnh cá nhân/bạn bè khi chưa được phép.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS nhận ra AI có thể hỗ trợ cá nhân hóa việc học theo năng lực, sở thích nhưng cần GV/cha mẹ hướng dẫn; không để AI đánh giá thay giá trị, phẩm chất của con người."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3051,15 +3080,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
-          "3. PHẨM CHẤT",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
-          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 4.2.CB1a: HS biết bảo vệ thông tin cá nhân khi giới thiệu bản thân; chỉ chia sẻ điểm mạnh, điều cần cố gắng ở mức phù hợp, không nêu địa chỉ nhà, số điện thoại, tài khoản riêng, mật khẩu hoặc hình ảnh cá nhân/bạn bè khi chưa được phép.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS nhận ra AI có thể hỗ trợ cá nhân hóa việc học theo năng lực, sở thích nhưng cần GV/cha mẹ hướng dẫn; không để AI đánh giá thay giá trị, phẩm chất của con người.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -3142,7 +3162,8 @@
               "- HS ghi hoặc nêu miệng: “Em sẽ phát huy điểm mạnh chăm chỉ bằng cách đọc bài trước khi đến lớp.”"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
       }
     ]
   },
@@ -3161,7 +3182,16 @@
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
+          "3. PHẨM CHẤT",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
+          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 3.1.CB1a, 4.2.CB1a: HS biết dùng hình vẽ, ảnh hoặc công cụ trình bày đơn giản để giới thiệu điểm mạnh; không đăng tải thông tin, hình ảnh của mình/bạn khi chưa được phép.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS nhận biết AI có thể gợi ý hoạt động học tập phù hợp nhưng không đánh giá thay giá trị, phẩm chất con người; kết quả AI cần được con người kiểm tra và lựa chọn."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3174,15 +3204,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
-          "3. PHẨM CHẤT",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
-          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 3.1.CB1a, 4.2.CB1a: HS biết dùng hình vẽ, ảnh hoặc công cụ trình bày đơn giản để giới thiệu điểm mạnh; không đăng tải thông tin, hình ảnh của mình/bạn khi chưa được phép.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS nhận biết AI có thể gợi ý hoạt động học tập phù hợp nhưng không đánh giá thay giá trị, phẩm chất con người; kết quả AI cần được con người kiểm tra và lựa chọn.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -3265,7 +3286,8 @@
               "- HS nhận nhiệm vụ, nêu: “Em sẽ viết vào vở hoặc giấy nhắc việc.”"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
       }
     ]
   },
@@ -3284,7 +3306,16 @@
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
+          "3. PHẨM CHẤT",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
+          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 5.1.CB1a, 3.1.CB1a: HS biết sử dụng bảng mục tiêu nhỏ hoặc phiếu theo dõi số đơn giản để tự rèn luyện; ghi nhận tiến bộ của bản thân trung thực, biết trình bày kết quả rèn luyện bằng lời của mình.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS hiểu AI có thể gợi ý lộ trình luyện tập cá nhân nhưng HS cần tự kiểm tra, tự thực hiện và nhờ thầy cô/cha mẹ hỗ trợ khi cần."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3297,15 +3328,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
-          "3. PHẨM CHẤT",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
-          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 5.1.CB1a, 3.1.CB1a: HS biết sử dụng bảng mục tiêu nhỏ hoặc phiếu theo dõi số đơn giản để tự rèn luyện; ghi nhận tiến bộ của bản thân trung thực, biết trình bày kết quả rèn luyện bằng lời của mình.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS hiểu AI có thể gợi ý lộ trình luyện tập cá nhân nhưng HS cần tự kiểm tra, tự thực hiện và nhờ thầy cô/cha mẹ hỗ trợ khi cần.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -3388,7 +3410,8 @@
               "- HS nêu nhiệm vụ: “Em sẽ luyện đọc to mỗi ngày.” / “Em sẽ mạnh dạn phát biểu ít nhất 1 lần.”"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
       }
     ]
   },
@@ -3407,7 +3430,16 @@
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
+          "3. PHẨM CHẤT",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
+          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 5.1.CB1a, 3.1.CB1a: HS biết sử dụng bảng mục tiêu nhỏ hoặc phiếu theo dõi số đơn giản để tự rèn luyện; ghi nhận tiến bộ của bản thân trung thực, biết trình bày kết quả rèn luyện bằng lời của mình.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS hiểu AI có thể gợi ý lộ trình luyện tập cá nhân nhưng HS cần tự kiểm tra, tự thực hiện và nhờ thầy cô/cha mẹ hỗ trợ khi cần."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3420,15 +3452,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
-          "3. PHẨM CHẤT",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
-          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
-          "4. TÍCH HỢP",
-          "- Tích hợp NLS 5.1.CB1a, 3.1.CB1a: HS biết sử dụng bảng mục tiêu nhỏ hoặc phiếu theo dõi số đơn giản để tự rèn luyện; ghi nhận tiến bộ của bản thân trung thực, biết trình bày kết quả rèn luyện bằng lời của mình.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS hiểu AI có thể gợi ý lộ trình luyện tập cá nhân nhưng HS cần tự kiểm tra, tự thực hiện và nhờ thầy cô/cha mẹ hỗ trợ khi cần.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -3511,7 +3534,8 @@
               "- HS nêu nhiệm vụ: “Em sẽ luyện đọc to mỗi ngày.” / “Em sẽ mạnh dạn phát biểu ít nhất 1 lần.”"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
       }
     ]
   },
@@ -3530,7 +3554,16 @@
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
+          "3. PHẨM CHẤT",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
+          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
+          "4. TÍCH HỢP",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục sự tự tin, khiêm tốn, ý chí tự rèn luyện; biết phát huy ưu điểm, khắc phục hạn chế để trở thành người có ích cho gia đình, lớp học và cộng đồng.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS biết dùng AI/công cụ học tập để tham khảo cách luyện tập, sau đó tự chọn việc phù hợp với bản thân; không sao chép máy móc và không nhập dữ liệu riêng tư."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3543,15 +3576,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
-          "3. PHẨM CHẤT",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có trách nhiệm với việc phát huy điểm mạnh, khắc phục điểm yếu của bản thân; biết tôn trọng sự khác biệt của bạn.",
-          "- Nhân ái: Biết nhận xét, góp ý cho bạn bằng lời nói tích cực, không chê bai, không làm bạn tự ti.",
-          "4. TÍCH HỢP",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục sự tự tin, khiêm tốn, ý chí tự rèn luyện; biết phát huy ưu điểm, khắc phục hạn chế để trở thành người có ích cho gia đình, lớp học và cộng đồng.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS biết dùng AI/công cụ học tập để tham khảo cách luyện tập, sau đó tự chọn việc phù hợp với bản thân; không sao chép máy móc và không nhập dữ liệu riêng tư.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -3630,7 +3654,8 @@
               "- HS nêu: “Em sẽ phát huy điểm mạnh chăm chỉ và khắc phục điểm yếu hay rụt rè.”"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
       }
     ]
   },
@@ -3642,7 +3667,18 @@
         "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4",
         "topic": "",
         "yccd": [
-          "1. NĂNG LỰC ĐẶC THÙ"
+          "1. NĂNG LỰC ĐẶC THÙ",
+          "- Biết phân tích tình huống đạo đức đơn giản, nêu cách ứng xử thể hiện sự trung thực, trách nhiệm, tôn trọng bản thân và tôn trọng người khác.",
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết thảo luận nhóm 2, nhóm 4; lắng nghe, trình bày ý kiến rõ ràng, nhận xét bạn bằng lời nói lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong tình huống đạo đức; biết kiểm chứng thông tin trước khi thực hiện.",
+          "3. PHẨM CHẤT",
+          "- Trách nhiệm: Có ý thức hoàn thành nhiệm vụ, nói thật, nhận lỗi và sửa lỗi khi thực hiện chưa tốt.",
+          "- Trung thực: Không nói sai, không che giấu lỗi, không dùng công cụ số/AI để tạo thông tin giả hoặc làm thay trách nhiệm của mình.",
+          "- Nhân ái: Biết tôn trọng sự khác biệt, động viên bạn, không chê bai khi bạn còn hạn chế hoặc chưa hoàn thành nhiệm vụ.",
+          "4. TÍCH HỢP",
+          "- Tích hợp QCN: HS biết quyền được bày tỏ ý kiến, được người lớn hướng dẫn và bảo vệ; khi gặp thông tin khó hiểu hoặc chưa phù hợp cần hỏi thầy cô, cha mẹ.",
+          "- Tích hợp AI (Khung 3439) - 3.A3.1: Biết trao đổi với người lớn để xác minh thông tin từ ứng dụng AI; không tự ý làm theo gợi ý chưa phù hợp."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3655,19 +3691,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Biết phân tích tình huống đạo đức đơn giản, nêu cách ứng xử thể hiện sự trung thực, trách nhiệm, tôn trọng bản thân và tôn trọng người khác.",
           "- Biết tự đánh giá việc thực hiện nhiệm vụ, điểm mạnh, điểm cần cố gắng của bản thân; mạnh dạn bày tỏ ý kiến và tìm sự hỗ trợ khi cần.",
           "- Biết nhận ra gợi ý chưa phù hợp từ công cụ số/AI và nêu được cách hỏi lại thầy cô, cha mẹ hoặc người lớn đáng tin cậy trước khi làm theo.",
-          "2. NĂNG LỰC CHUNG",
-          "- Giao tiếp và hợp tác: Biết thảo luận nhóm 2, nhóm 4; lắng nghe, trình bày ý kiến rõ ràng, nhận xét bạn bằng lời nói lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong tình huống đạo đức; biết kiểm chứng thông tin trước khi thực hiện.",
-          "3. PHẨM CHẤT",
-          "- Trách nhiệm: Có ý thức hoàn thành nhiệm vụ, nói thật, nhận lỗi và sửa lỗi khi thực hiện chưa tốt.",
-          "- Trung thực: Không nói sai, không che giấu lỗi, không dùng công cụ số/AI để tạo thông tin giả hoặc làm thay trách nhiệm của mình.",
-          "- Nhân ái: Biết tôn trọng sự khác biệt, động viên bạn, không chê bai khi bạn còn hạn chế hoặc chưa hoàn thành nhiệm vụ.",
-          "4. TÍCH HỢP",
-          "- Tích hợp QCN: HS biết quyền được bày tỏ ý kiến, được người lớn hướng dẫn và bảo vệ; khi gặp thông tin khó hiểu hoặc chưa phù hợp cần hỏi thầy cô, cha mẹ.",
-          "- Tích hợp AI (Khung 3439) - 3.A3.1: Biết trao đổi với người lớn để xác minh thông tin từ ứng dụng AI; không tự ý làm theo gợi ý chưa phù hợp.",
           "- Gợi ý hoạt động: HS nêu một kết quả AI có thể sai và cách hỏi lại thầy cô, cha mẹ trước khi thực hiện.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
@@ -3806,7 +3831,8 @@
               "- HS lắng nghe, tự nhắc bản thân thực hiện cam kết sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4"
       }
     ]
   },
@@ -3825,14 +3851,7 @@
           "- Nhận biết được lợi ích của việc xử lí bất hòa với bạn bè.",
           "- Thực hiện được một số cách đơn giản, phù hợp để xử lí bất hòa với bạn bè.",
           "- Sẵn sàng giúp bạn bè xử lí bất hòa với nhau.",
-          "2. NĂNG LỰC CHUNG"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
-          "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. NĂNG LỰC CHUNG",
           "- Giao tiếp và hợp tác: Biết lắng nghe, thảo luận nhóm 2/nhóm 4, trình bày ý kiến, nhận xét và góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong các tình huống bất hòa với bạn bè; biết nhờ người lớn hỗ trợ khi cần.",
           "3. PHẨM CHẤT",
@@ -3841,7 +3860,14 @@
           "- Trung thực: Biết nói sự thật một cách phù hợp; không bịa chuyện, nói xấu hoặc đổ lỗi cho bạn.",
           "4. TÍCH HỢP",
           "- Tích hợp NLS 2.3.CB1a, 4.2.CB1a: HS biết giao tiếp lịch sự trên môi trường số; không lan truyền hình ảnh, lời nói làm tổn thương bạn và không chia sẻ thông tin riêng tư.",
-          "- Tích hợp AI (Khung 3439) - 3.B3.2: Không dùng AI để chế ảnh, bịa chuyện, trêu chọc hoặc bắt nạt bạn bè.",
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Không dùng AI để chế ảnh, bịa chuyện, trêu chọc hoặc bắt nạt bạn bè."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
+          "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -3948,7 +3974,8 @@
               "- HS lắng nghe và tự nhắc mình dùng lời nói tích cực khi có bất hòa."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ"
       }
     ]
   },
@@ -3967,14 +3994,7 @@
           "- Nhận biết được lợi ích của việc xử lí bất hòa với bạn bè.",
           "- Thực hiện được một số cách đơn giản, phù hợp để xử lí bất hòa với bạn bè.",
           "- Sẵn sàng giúp bạn bè xử lí bất hòa với nhau.",
-          "2. NĂNG LỰC CHUNG"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
-          "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. NĂNG LỰC CHUNG",
           "- Giao tiếp và hợp tác: Biết lắng nghe, thảo luận nhóm 2/nhóm 4, trình bày ý kiến, nhận xét và góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong các tình huống bất hòa với bạn bè; biết nhờ người lớn hỗ trợ khi cần.",
           "3. PHẨM CHẤT",
@@ -3983,7 +4003,14 @@
           "- Trung thực: Biết nói sự thật một cách phù hợp; không bịa chuyện, nói xấu hoặc đổ lỗi cho bạn.",
           "4. TÍCH HỢP",
           "- Tích hợp NLS 2.3.CB1a, 3.1.CB1a: HS biết dùng lời nhắn tích cực để xin lỗi, hòa giải; không tạo, chia sẻ nội dung trêu chọc, xúc phạm hoặc gây hiểu lầm cho bạn.",
-          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hình thành thái độ sử dụng AI có đạo đức; không tạo nội dung gây chia rẽ, mất đoàn kết trong lớp.",
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hình thành thái độ sử dụng AI có đạo đức; không tạo nội dung gây chia rẽ, mất đoàn kết trong lớp."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
+          "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -4090,7 +4117,8 @@
               "- HS lắng nghe và điều chỉnh câu trả lời nếu cần."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ"
       }
     ]
   },
@@ -4109,14 +4137,7 @@
           "- Nhận biết được lợi ích của việc xử lí bất hòa với bạn bè.",
           "- Thực hiện được một số cách đơn giản, phù hợp để xử lí bất hòa với bạn bè.",
           "- Sẵn sàng giúp bạn bè xử lí bất hòa với nhau.",
-          "2. NĂNG LỰC CHUNG"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
-          "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. NĂNG LỰC CHUNG",
           "- Giao tiếp và hợp tác: Biết lắng nghe, thảo luận nhóm 2/nhóm 4, trình bày ý kiến, nhận xét và góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong các tình huống bất hòa với bạn bè; biết nhờ người lớn hỗ trợ khi cần.",
           "3. PHẨM CHẤT",
@@ -4125,7 +4146,14 @@
           "- Trung thực: Biết nói sự thật một cách phù hợp; không bịa chuyện, nói xấu hoặc đổ lỗi cho bạn.",
           "4. TÍCH HỢP",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng lối sống nhân ái, tôn trọng, đoàn kết; biết kiềm chế cảm xúc và giải quyết mâu thuẫn bằng lời nói tích cực, thiện chí.",
-          "- Tích hợp AI (Khung 3439) - 3.B3.2: Biết từ chối yêu cầu sử dụng AI/công cụ số để nói xấu, bêu riếu hoặc làm tổn thương bạn.",
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Biết từ chối yêu cầu sử dụng AI/công cụ số để nói xấu, bêu riếu hoặc làm tổn thương bạn."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
+          "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -4232,7 +4260,8 @@
               "- HS trình bày ngắn gọn; HS khác lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ"
       }
     ]
   },
@@ -4251,14 +4280,7 @@
           "- Nhận biết được lợi ích của việc xử lí bất hòa với bạn bè.",
           "- Thực hiện được một số cách đơn giản, phù hợp để xử lí bất hòa với bạn bè.",
           "- Sẵn sàng giúp bạn bè xử lí bất hòa với nhau.",
-          "2. NĂNG LỰC CHUNG"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
-          "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. NĂNG LỰC CHUNG",
           "- Giao tiếp và hợp tác: Biết lắng nghe, thảo luận nhóm 2/nhóm 4, trình bày ý kiến, nhận xét và góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong các tình huống bất hòa với bạn bè; biết nhờ người lớn hỗ trợ khi cần.",
           "3. PHẨM CHẤT",
@@ -4267,7 +4289,14 @@
           "- Trung thực: Biết nói sự thật một cách phù hợp; không bịa chuyện, nói xấu hoặc đổ lỗi cho bạn.",
           "4. TÍCH HỢP",
           "- Tích hợp QCN: HS hiểu trẻ em có quyền được bảo vệ khỏi bạo lực, bắt nạt, xúc phạm trên môi trường trực tiếp và môi trường số; biết tìm sự hỗ trợ của thầy cô, cha mẹ khi bất hòa kéo dài.",
-          "- Tích hợp AI (Khung 3439) - 3.B3.2: Biết sử dụng AI/công cụ số có trách nhiệm; không tạo hoặc lan truyền nội dung làm tổn thương bạn bè.",
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Biết sử dụng AI/công cụ số có trách nhiệm; không tạo hoặc lan truyền nội dung làm tổn thương bạn bè."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
+          "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
         ],
@@ -4366,7 +4395,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ"
       }
     ]
   },
@@ -4385,7 +4415,16 @@
           "- Nêu được sự cần thiết phải tuân thủ quy tắc đi bộ an toàn.",
           "- Tuân thủ quy tắc an toàn khi đi bộ.",
           "- Đồng tình với những hành vi tuân thủ quy tắc đi bộ an toàn; không đồng tình với những hành vi vi phạm quy tắc đi bộ an toàn.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4; trình bày ý kiến, lắng nghe và nhận xét cách xử lí tình huống giao thông của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách đi bộ an toàn trong các tình huống quen thuộc; biết nhờ người lớn hỗ trợ khi cần qua đường.",
+          "3. PHẨM CHẤT",
+          "- Trách nhiệm: Có ý thức tuân thủ quy tắc đi bộ an toàn, bảo vệ bản thân và nhắc nhở bạn bè thực hiện đúng.",
+          "- Nhân ái: Biết quan tâm, giúp đỡ em nhỏ, bạn bè hoặc người cần hỗ trợ khi đi bộ qua đường.",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động thảo luận, luyện tập, thực hành và tuyên truyền đi bộ an toàn.",
+          "4. TÍCH HỢP",
+          "- Tích hợp QPAN: HS biết tuân thủ quy tắc đi bộ an toàn, chấp hành tín hiệu giao thông; góp phần giữ gìn trật tự, an toàn xã hội.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI hỗ trợ giao thông an toàn như nhận diện biển báo, vạch sang đường, người đi bộ."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4398,15 +4437,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4; trình bày ý kiến, lắng nghe và nhận xét cách xử lí tình huống giao thông của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách đi bộ an toàn trong các tình huống quen thuộc; biết nhờ người lớn hỗ trợ khi cần qua đường.",
-          "3. PHẨM CHẤT",
-          "- Trách nhiệm: Có ý thức tuân thủ quy tắc đi bộ an toàn, bảo vệ bản thân và nhắc nhở bạn bè thực hiện đúng.",
-          "- Nhân ái: Biết quan tâm, giúp đỡ em nhỏ, bạn bè hoặc người cần hỗ trợ khi đi bộ qua đường.",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động thảo luận, luyện tập, thực hành và tuyên truyền đi bộ an toàn.",
-          "4. TÍCH HỢP",
-          "- Tích hợp QPAN: HS biết tuân thủ quy tắc đi bộ an toàn, chấp hành tín hiệu giao thông; góp phần giữ gìn trật tự, an toàn xã hội.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI hỗ trợ giao thông an toàn như nhận diện biển báo, vạch sang đường, người đi bộ.",
           "- Gợi ý hoạt động: GV cho HS quan sát hình/video ngắn về vạch sang đường và hệ thống xe thông minh nhận diện người đi bộ.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
@@ -4537,7 +4567,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9: ĐI BỘ AN TOÀN"
       }
     ]
   },
@@ -4556,7 +4587,16 @@
           "- Nêu được sự cần thiết phải tuân thủ quy tắc đi bộ an toàn.",
           "- Tuân thủ quy tắc an toàn khi đi bộ.",
           "- Đồng tình với những hành vi tuân thủ quy tắc đi bộ an toàn; không đồng tình với những hành vi vi phạm quy tắc đi bộ an toàn.",
-          "2. NĂNG LỰC CHUNG"
+          "2. NĂNG LỰC CHUNG",
+          "- Giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4; trình bày ý kiến, lắng nghe và nhận xét cách xử lí tình huống giao thông của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách đi bộ an toàn trong các tình huống quen thuộc; biết nhờ người lớn hỗ trợ khi cần qua đường.",
+          "3. PHẨM CHẤT",
+          "- Trách nhiệm: Có ý thức tuân thủ quy tắc đi bộ an toàn, bảo vệ bản thân và nhắc nhở bạn bè thực hiện đúng.",
+          "- Nhân ái: Biết quan tâm, giúp đỡ em nhỏ, bạn bè hoặc người cần hỗ trợ khi đi bộ qua đường.",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động thảo luận, luyện tập, thực hành và tuyên truyền đi bộ an toàn.",
+          "4. TÍCH HỢP",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền được bảo vệ an toàn khi tham gia giao thông; biết lựa chọn hành vi an toàn, tránh đùa nghịch, chen lấn hoặc tự ý qua đường.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: Hiểu công nghệ hỗ trợ cảnh báo nguy hiểm nhưng mỗi người vẫn phải quan sát và tuân thủ quy tắc giao thông."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4569,15 +4609,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4; trình bày ý kiến, lắng nghe và nhận xét cách xử lí tình huống giao thông của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách đi bộ an toàn trong các tình huống quen thuộc; biết nhờ người lớn hỗ trợ khi cần qua đường.",
-          "3. PHẨM CHẤT",
-          "- Trách nhiệm: Có ý thức tuân thủ quy tắc đi bộ an toàn, bảo vệ bản thân và nhắc nhở bạn bè thực hiện đúng.",
-          "- Nhân ái: Biết quan tâm, giúp đỡ em nhỏ, bạn bè hoặc người cần hỗ trợ khi đi bộ qua đường.",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động thảo luận, luyện tập, thực hành và tuyên truyền đi bộ an toàn.",
-          "4. TÍCH HỢP",
-          "- Tích hợp QCN: HS hiểu trẻ em có quyền được bảo vệ an toàn khi tham gia giao thông; biết lựa chọn hành vi an toàn, tránh đùa nghịch, chen lấn hoặc tự ý qua đường.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: Hiểu công nghệ hỗ trợ cảnh báo nguy hiểm nhưng mỗi người vẫn phải quan sát và tuân thủ quy tắc giao thông.",
           "- Gợi ý hoạt động: HS chọn hành vi an toàn/không an toàn khi đi bộ; GV nhắc không mải nhìn thiết bị khi qua đường.",
           "- ................................................................................................................................................",
           "- ................................................................................................................................................"
@@ -4685,7 +4716,8 @@
               "- HS ghi nhớ tiêu chí tự rèn luyện và thực hiện trong cuộc sống hằng ngày."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9: ĐI BỘ AN TOÀN"
       }
     ]
   },
@@ -4828,7 +4860,8 @@
               "- HS nhận nhiệm vụ và thực hiện trong cuộc sống hằng ngày."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG"
       }
     ]
   },
@@ -4983,7 +5016,8 @@
               "- HS lắng nghe, tự cam kết thực hiện quy tắc an toàn trong cuộc sống hằng ngày."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG"
       }
     ]
   },
@@ -5144,7 +5178,8 @@
               "- HS lắng nghe, tự nhắc bản thân tiếp tục rèn luyện."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4"
       }
     ]
   }
@@ -5162,5 +5197,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

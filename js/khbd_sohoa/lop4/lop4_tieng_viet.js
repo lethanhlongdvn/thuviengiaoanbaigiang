@@ -17,7 +17,7 @@
         "lessonTitle": "TIẾT 1: ĐỌC: ĐIỀU KÌ DIỆU",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ bài thơ Điều kì diệu; biết ngắt nhịp thơ phù hợp, nhấn giọng ở những từ ngữ gợi cảm xúc.",
           "- Nhận biết được những chi tiết cho thấy mỗi bạn nhỏ trong bài thơ có một vẻ riêng.",
@@ -46,8 +46,7 @@
           "...............................................................................................................................",
           "...............................................................................................................................",
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -210,13 +209,14 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: ĐIỀU KÌ DIỆU"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: DANH TỪ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được danh từ là từ chỉ sự vật: người, vật, hiện tượng tự nhiên, thời gian.",
           "- Xếp được các từ in đậm trong đoạn văn vào nhóm thích hợp.",
@@ -244,8 +244,7 @@
           "...............................................................................................................................",
           "...............................................................................................................................",
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -368,13 +367,14 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: DANH TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU ĐOẠN VĂN VÀ CÂU CHỦ ĐỀ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được hình thức trình bày của đoạn văn.",
           "- Xác định được ý chính của mỗi đoạn văn và tìm được câu chủ đề.",
@@ -401,8 +401,7 @@
           "...............................................................................................................................",
           "...............................................................................................................................",
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -549,13 +548,14 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU ĐOẠN VĂN VÀ CÂU CHỦ ĐỀ"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: THI NHẠC",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Đọc đúng từ ngữ, câu, đoạn và bước đầu đọc diễn cảm câu chuyện Thi nhạc.",
           "- Biết đọc phù hợp với lời miêu tả từng tiết mục của mỗi nhân vật trong câu chuyện.",
@@ -588,8 +588,7 @@
           "...............................................................................................................................",
           "...............................................................................................................................",
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -780,13 +779,14 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: THI NHẠC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT ĐOẠN VĂN NÊU Ý KIẾN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hiểu được cách viết đoạn văn nêu ý kiến về một câu chuyện đã đọc hoặc đã nghe.",
           "- Nhận biết được cấu trúc đoạn văn nêu ý kiến: câu mở đầu, các câu triển khai, câu kết đoạn.",
@@ -813,8 +813,7 @@
           "...............................................................................................................................",
           "...............................................................................................................................",
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -946,13 +945,14 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT ĐOẠN VĂN NÊU Ý KIẾN"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: TÔI VÀ BẠN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết giới thiệu những điểm nổi bật của bản thân theo gợi ý trong SGK.",
           "- Biết nói về những điểm tốt của một người bạn và điều em mong muốn ở bạn.",
@@ -1096,7 +1096,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: TÔI VÀ BẠN"
       }
     ]
   },
@@ -1108,7 +1109,7 @@
         "lessonTitle": "TIẾT 1: ĐỌC: ANH EM SINH ĐÔI",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Anh em sinh đôi; biết đọc diễn cảm các đoạn hội thoại phù hợp với tâm lí, cảm xúc của nhân vật.",
           "- Nhận biết được các sự việc xảy ra trong câu chuyện; hiểu suy nghĩ, cảm xúc của Long dựa vào hành động, việc làm và lời nói.",
@@ -1131,9 +1132,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 2",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -1286,13 +1285,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: ANH EM SINH ĐÔI"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: DANH TỪ CHUNG, DANH TỪ RIÊNG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Biết phân biệt danh từ chung và danh từ riêng.",
           "- Biết xếp từ vào nhóm phù hợp; tìm được danh từ chung, danh từ riêng trong đoạn văn.",
@@ -1314,9 +1314,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 2",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -1441,13 +1439,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: DANH TỪ CHUNG, DANH TỪ RIÊNG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN NÊU Ý KIẾN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Biết chọn một trong hai đề bài và xác định yêu cầu trọng tâm của đề.",
           "- Biết tìm ý cho đoạn văn nêu lí do yêu thích một câu chuyện đã đọc hoặc đã nghe.",
@@ -1469,9 +1468,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 2",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -1572,13 +1569,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN NÊU Ý KIẾN"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Công chúa và người dẫn chuyện.",
           "- Biết đọc diễn cảm phù hợp với lời của nhân vật trong câu chuyện.",
@@ -1604,9 +1602,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 2",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -1777,13 +1773,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN NÊU Ý KIẾN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Viết được đoạn văn nêu lí do yêu thích một câu chuyện đã đọc hoặc đã nghe dựa vào ý đã tìm ở bài 3.",
           "- Biết trình bày đoạn văn liền mạch, có mở đầu, triển khai, kết thúc; lí do rõ ràng, có dẫn chứng.",
@@ -1805,9 +1802,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 2",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -1892,13 +1887,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN NÊU Ý KIẾN"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc được câu chuyện về những người có năng khiếu nổi bật.",
           "- Viết được phiếu đọc sách theo mẫu: tên câu chuyện, tác giả, ngày đọc, tên nhân vật, năng khiếu nổi bật, mức độ yêu thích.",
@@ -2009,7 +2005,8 @@
               "- HS chuẩn bị bài mới."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -2021,7 +2018,7 @@
         "lessonTitle": "TIẾT 1: ĐỌC: THẰN LẰN XANH VÀ TẮC KÈ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng và đọc diễn cảm bài Thằn lằn xanh và tắc kè; biết nhấn giọng vào những từ ngữ thể hiện tâm trạng, cảm xúc của nhân vật.",
           "- Nhận biết được bối cảnh, diễn biến các sự việc qua lời kể của tác giả; hiểu suy nghĩ, cảm xúc của thằn lằn xanh và tắc kè qua lời nói, hành động.",
@@ -2045,9 +2042,7 @@
         "activities": [],
         "dieuchinh": [
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 3",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -2180,13 +2175,14 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: THẰN LẰN XANH VÀ TẮC KÈ"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ DANH TỪ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Củng cố kiến thức: danh từ là từ chỉ sự vật (người, vật, hiện tượng tự nhiên, thời gian,...).",
           "- Tìm được danh từ chỉ thời gian, con vật, cây cối, người và hiện tượng tự nhiên trong đoạn văn, tranh ảnh và tình huống cụ thể.",
@@ -2209,9 +2205,7 @@
         "activities": [],
         "dieuchinh": [
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 3",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -2320,13 +2314,14 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ DANH TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TRẢ BÀI VIẾT ĐOẠN VĂN NÊU Ý KIẾN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Biết lắng nghe nhận xét chung của GV về bài viết đoạn văn nêu ý kiến.",
           "- Biết đọc lại bài làm, phát hiện và sửa lỗi về cách mở đoạn, triển khai lí do, dẫn chứng, dùng từ, đặt câu và chính tả.",
@@ -2349,9 +2344,7 @@
         "activities": [],
         "dieuchinh": [
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 3",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -2448,13 +2441,14 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TRẢ BÀI VIẾT ĐOẠN VĂN NÊU Ý KIẾN"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: NGHỆ SĨ TRỐNG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng từ ngữ, câu, đoạn và bước đầu đọc diễn cảm bài Nghệ sĩ trống.",
           "- Biết đọc lời người dẫn chuyện, lời người dân trên đảo, lời độc thoại của cô bé Mi-lô với giọng điệu phù hợp.",
@@ -2481,9 +2475,7 @@
         "activities": [],
         "dieuchinh": [
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 3",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -2655,13 +2647,14 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NGHỆ SĨ TRỐNG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÁO CÁO THẢO LUẬN NHÓM",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Tìm hiểu được cách viết báo cáo thảo luận nhóm.",
           "- Nhận biết được các phần của báo cáo: phần đầu, phần chính, phần cuối.",
@@ -2684,9 +2677,7 @@
         "activities": [],
         "dieuchinh": [
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 3",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -2783,13 +2774,14 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÁO CÁO THẢO LUẬN NHÓM"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN BỐN ANH TÀI",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Nghe kể chuyện Bốn anh tài và ghi lại được những chi tiết quan trọng.",
           "- Trả lời được câu hỏi theo tranh và kể lại được câu chuyện theo trình tự phù hợp.",
@@ -2913,7 +2905,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN BỐN ANH TÀI"
       }
     ]
   },
@@ -2925,7 +2918,7 @@
         "lessonTitle": "TIẾT 1: ĐỌC: NHỮNG BỨC CHÂN DUNG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng và đọc diễn cảm câu chuyện Những bức chân dung; biết đọc lời người dẫn chuyện và lời nhân vật phù hợp với tâm trạng.",
           "- Nhận biết được sự việc chính, đặc điểm nhân vật Màu Nước, Hoa Nhỏ, Bông Tuyết, Mắt Xanh qua lời nói, hành động.",
@@ -2950,9 +2943,7 @@
         "dieuchinh": [
           "...................................................................................................................",
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 4",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -3073,13 +3064,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: NHỮNG BỨC CHÂN DUNG"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: QUY TẮC VIẾT TÊN CƠ QUAN, TỔ CHỨC",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Nhận biết được cách viết hoa tên cơ quan, tổ chức qua các ví dụ trong SGK.",
           "- Phân biệt được tên cơ quan, tổ chức với tên người; biết tách tên cơ quan, tổ chức thành các bộ phận theo mẫu.",
@@ -3105,9 +3097,7 @@
         "dieuchinh": [
           "...................................................................................................................",
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 4",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -3223,13 +3213,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: QUY TẮC VIẾT TÊN CƠ QUAN, TỔ CHỨC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÁO CÁO THẢO LUẬN NHÓM",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Biết xác định yêu cầu của đề bài viết báo cáo thảo luận nhóm.",
           "- Biết thảo luận để xác định nội dung, cách thức thực hiện, phân công nhiệm vụ và lập dàn ý báo cáo theo mẫu.",
@@ -3254,9 +3245,7 @@
         "dieuchinh": [
           "...................................................................................................................",
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 4",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -3349,13 +3338,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÁO CÁO THẢO LUẬN NHÓM"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: ĐÒ NGANG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Đò ngang; biết đọc lời nhân vật phù hợp với tâm trạng.",
           "- Nhận biết được sự khác nhau giữa đò ngang và thuyền mành; hiểu suy nghĩ, cảm xúc của đò ngang qua lời kể và đối thoại.",
@@ -3381,9 +3371,7 @@
         "dieuchinh": [
           "...................................................................................................................",
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 4",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -3527,13 +3515,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: ĐÒ NGANG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT BÁO CÁO THẢO LUẬN NHÓM",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Viết được báo cáo thảo luận nhóm dựa vào dàn ý đã lập ở bài 7.",
           "- Biết trình bày báo cáo có đủ phần đầu, phần chính, phần cuối; các ý rõ ràng, đúng nội dung thảo luận.",
@@ -3558,9 +3547,7 @@
         "dieuchinh": [
           "...................................................................................................................",
           "...................................................................................................................",
-          "...................................................................................................................",
-          "TUẦN 4",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -3645,13 +3632,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT BÁO CÁO THẢO LUẬN NHÓM"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc được một câu chuyện có nhân vật mang điểm nổi bật về ngoại hình hoặc tính cách.",
           "- Biết viết phiếu đọc sách theo mẫu: tên câu chuyện, tác giả, ngày đọc, nhân vật, nội dung chính, điểm nổi bật của nhân vật, điều em học được.",
@@ -3758,7 +3746,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -3770,7 +3759,7 @@
         "lessonTitle": "TIẾT 1: ĐỌC: BẦU TRỜI TRONG QUẢ TRỨNG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng và đọc diễn cảm bài thơ Bầu trời trong quả trứng; biết ngắt nhịp phù hợp, nhấn giọng ở những từ ngữ gợi cảm xúc của gà con.",
           "- Nhận biết được sự thay đổi trong cảm nhận của gà con về bầu trời và cuộc sống bên ngoài quả trứng.",
@@ -3793,9 +3782,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 5",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -3940,13 +3927,14 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: BẦU TRỜI TRONG QUẢ TRỨNG"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: ĐỘNG TỪ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Nhận biết được động từ là từ chỉ hoạt động, trạng thái của sự vật.",
           "- Tìm được động từ phù hợp với người, vật trong tranh và trong câu tục ngữ.",
@@ -3968,9 +3956,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 5",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -4079,13 +4065,14 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: ĐỘNG TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Nhận biết được bố cục bài văn thuật lại một sự việc gồm mở bài, thân bài, kết bài.",
           "- Biết xác định các hoạt động được thuật lại theo trình tự thời gian hoặc trình tự diễn biến sự việc.",
@@ -4107,9 +4094,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 5",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -4206,13 +4191,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: TIẾNG NÓI CỦA CỎ CÂY",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng và đọc diễn cảm câu chuyện Tiếng nói của cỏ cây; biết đọc lời người dẫn chuyện và lời nhân vật phù hợp.",
           "- Hiểu được việc làm của Ta-nhi-a trong vườn nhà ông bà và sự thay đổi của hoa hồng, hoa huệ.",
@@ -4235,9 +4221,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 5",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -4397,13 +4381,14 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: TIẾNG NÓI CỦA CỎ CÂY"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Biết chọn một hoạt động trải nghiệm đã tham gia để lập dàn ý bài văn thuật lại sự việc.",
           "- Biết sắp xếp các việc theo trình tự hợp lí trong phần thân bài.",
@@ -4425,9 +4410,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "...................................................................................................................",
-          "TUẦN 5",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          "..................................................................................................................."
         ],
         "tables": [
           [
@@ -4512,13 +4495,14 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: TRẢI NGHIỆM ĐÁNG NHỚ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Thuật lại được một hoạt động trải nghiệm đã tham gia và chia sẻ suy nghĩ, cảm xúc của em về hoạt động đó.",
           "- Biết nói rõ thời gian, địa điểm, người tham gia, các hoạt động chính và cảm xúc của bản thân.",
@@ -4629,7 +4613,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: TRẢI NGHIỆM ĐÁNG NHỚ"
       }
     ]
   },
@@ -4641,7 +4626,7 @@
         "lessonTitle": "TIẾT 1: ĐỌC: TẬP LÀM VĂN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng và đọc diễn cảm bài Tập làm văn; biết nhấn giọng ở những từ ngữ thể hiện sự ngạc nhiên, bối rối và cảm xúc của bạn nhỏ.",
           "- Nhận biết được mục đích về quê của bạn nhỏ, diễn biến việc quan sát cây hoa hồng và những điều bạn học được sau khi đọc gợi ý.",
@@ -4666,9 +4651,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 6",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -4801,13 +4784,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: TẬP LÀM VĂN"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐỘNG TỪ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Củng cố kiến thức về động từ; nhận biết được động từ trong đoạn văn và trong tranh.",
           "- Tìm được động từ phù hợp với hoạt động của người, vật; đặt câu có sử dụng động từ.",
@@ -4829,9 +4813,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 6",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -4927,13 +4909,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐỘNG TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: VIẾT BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Viết được bài văn thuật lại một hoạt động trải nghiệm đã tham gia theo dàn ý đã lập.",
           "- Biết sắp xếp các việc theo trình tự hợp lí; thể hiện được cảm xúc, suy nghĩ về hoạt động trải nghiệm.",
@@ -4957,9 +4940,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 6",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -5040,13 +5021,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: VIẾT BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: NHÀ PHÁT MINH 6 TUỔI",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng và đọc diễn cảm bài Nhà phát minh 6 tuổi; biết nhấn giọng ở những chi tiết thể hiện sự tò mò, suy nghĩ và niềm vui của Ma-ri-a.",
           "- Nhận biết được thông tin về nhân vật Ma-ri-a, việc làm thí nghiệm, câu trả lời bạn tìm được và ý nghĩa câu nói của người cha.",
@@ -5073,9 +5055,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 6",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -5219,13 +5199,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: NHÀ PHÁT MINH 6 TUỔI"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Nhận biết được bố cục của bài văn kể lại một câu chuyện gồm mở bài, thân bài, kết bài.",
           "- Biết tìm các sự việc chính, diễn biến và cách kể trong bài văn kể lại câu chuyện Cô bé Lọ Lem.",
@@ -5249,9 +5230,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 6",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -5356,13 +5335,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc được bài thơ, bài văn viết về những trải nghiệm trong cuộc sống phù hợp với lứa tuổi.",
           "- Biết viết phiếu đọc sách theo mẫu, ghi được tên bài đọc, tác giả, ngày đọc, trải nghiệm được nhắc đến, suy nghĩ của em.",
@@ -5478,7 +5458,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -5490,7 +5471,7 @@
         "lessonTitle": "TIẾT 1: ĐỌC: CON VẸT XANH",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng và đọc diễn cảm bài Con vẹt xanh; biết đọc lời nhân vật Tũ, lời anh trai và lời con vẹt với giọng phù hợp.",
           "- Nhận biết được các sự việc trong câu chuyện; hiểu cảm xúc, hành động và sự thay đổi trong suy nghĩ của nhân vật Tũ.",
@@ -5515,9 +5496,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 7",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -5650,13 +5629,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC: CON VẸT XANH"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐỘNG TỪ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Củng cố kiến thức về động từ; tìm được động từ theo yêu cầu và đặt câu có động từ phù hợp với tranh.",
           "- Nhận biết được động từ thể hiện hoạt động, trạng thái, tình cảm, cảm xúc.",
@@ -5680,9 +5660,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 7",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -5782,13 +5760,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐỘNG TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LUYỆN VIẾT MỞ BÀI, KẾT BÀI CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Phân biệt được mở bài trực tiếp, mở bài gián tiếp; kết bài mở rộng, kết bài không mở rộng.",
           "- Viết được mở bài gián tiếp và kết bài mở rộng cho bài văn kể lại câu chuyện Cô bé Lọ Lem.",
@@ -5812,9 +5791,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 7",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -5907,13 +5884,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LUYỆN VIẾT MỞ BÀI, KẾT BÀI CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC: CHÂN TRỜI CUỐI PHỐ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng và đọc diễn cảm bài Chân trời cuối phố; biết đọc với giọng kể chậm rãi, thể hiện sự tò mò, ngỡ ngàng của chú cún.",
           "- Nhận biết được thông tin về nhân vật cún theo gợi ý: hình dáng, tính cách, nơi ở, tiếng kêu.",
@@ -5938,9 +5916,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 7",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -6096,13 +6072,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC: CHÂN TRỜI CUỐI PHỐ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Biết chọn một đề bài phù hợp để lập dàn ý cho bài văn kể lại một câu chuyện.",
           "- Biết chuẩn bị thông tin về câu chuyện: tên truyện, các sự việc chính, trình tự sự việc.",
@@ -6126,9 +6103,7 @@
         "dieuchinh": [
           "..............................................................................................................",
           "..............................................................................................................",
-          "..............................................................................................................",
-          "TUẦN 7",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
+          ".............................................................................................................."
         ],
         "tables": [
           [
@@ -6228,13 +6203,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE: VIỆC LÀM CÓ ÍCH",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Biết chuẩn bị và kể lại một việc có ích đã làm cùng bạn bè hoặc người thân.",
           "- Biết chia sẻ theo trình tự: việc gì, ở đâu, khi nào, với ai, diễn biến, kết quả và cảm xúc.",
@@ -6354,7 +6330,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE: VIỆC LÀM CÓ ÍCH"
       }
     ]
   },
@@ -6367,7 +6344,7 @@
         "topic": "CHỦ ĐIỂM: TRẢI NGHIỆM VÀ KHÁM PHÁ",
         "yccd": [
           "TIẾT 1 - 2: ĐỌC - GẶT CHỮ TRÊN NON; LUYỆN TỪ VÀ CÂU: CÁCH DÙNG VÀ CÔNG DỤNG CỦA TỪ ĐIỂN",
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng và đọc diễn cảm bài thơ Gặt chữ trên non; biết ngắt nhịp thơ phù hợp, nhấn giọng ở những từ ngữ gợi tả cảnh vật vùng cao và hành trình đến trường của bạn nhỏ.",
           "- Hiểu được nội dung bài thơ: ca ngợi tinh thần vượt khó, niềm vui đi học và khát vọng học chữ của các bạn nhỏ ở vùng cao.",
@@ -6550,13 +6527,14 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 15: GẶT CHỮ TRÊN NON (3 tiết)"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
         "topic": "CHỦ ĐIỂM: TRẢI NGHIỆM VÀ KHÁM PHÁ",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Viết được bài văn kể lại một câu chuyện đã đọc hoặc đã nghe dựa vào dàn ý đã lập ở Bài 14.",
           "- Biết đọc soát, phát hiện lỗi về mở bài, kết bài, trình tự kể, dùng từ, đặt câu và chính tả.",
@@ -6665,13 +6643,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC - TRƯỚC NGÀY XA QUÊ",
         "topic": "CHỦ ĐIỂM: TRẢI NGHIỆM VÀ KHÁM PHÁ",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Đọc đúng, đọc diễn cảm văn bản Trước ngày xa quê; biết thể hiện cảm xúc bồi hồi, lưu luyến của nhân vật.",
           "- Hiểu tâm trạng của bạn nhỏ trước ngày chuyển lên thành phố học; nhận biết được tình cảm với thầy cô, bạn bè, quê hương.",
@@ -6836,13 +6815,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC - TRƯỚC NGÀY XA QUÊ"
       },
       {
         "lessonTitle": "TIẾT 3 - 4: VIẾT - TRẢ BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN; ĐỌC MỞ RỘNG",
         "topic": "CHỦ ĐIỂM: TRẢI NGHIỆM VÀ KHÁM PHÁ",
         "yccd": [
-          "Thời gian thực hiện: ....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù:",
           "- Nghe và hiểu nhận xét chung của GV về bài văn kể lại một câu chuyện.",
           "- Biết đọc lại bài của mình, nhận ra ưu điểm, lỗi cần sửa và viết lại một số câu/đoạn cho hay hơn.",
@@ -6968,7 +6948,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4: VIẾT - TRẢ BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN; ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -6994,42 +6975,33 @@
           "- Chăm chỉ: tích cực đọc lại văn bản, hoàn thành bài tập ôn tập và luyện viết cẩn thận.",
           "- Trách nhiệm: tự giác chuẩn bị bài, giữ trật tự khi nghe bạn đọc, trung thực khi tự soát lỗi.",
           "- Yêu nước: thêm yêu tiếng Việt, trân trọng cảnh đẹp quê hương, đất nước qua các văn bản đã học.",
-          "1. Năng lực đặc thù:",
           "- Nêu được tên bài thơ đã học, tên tác giả và đọc được một đoạn thơ/bài thơ theo yêu cầu.",
           "- Nhận biết được câu chủ đề trong từng đoạn văn; bước đầu hiểu câu chủ đề nêu ý chính của đoạn.",
           "- Tìm được động từ trong đoạn văn cho sẵn và mở rộng thêm động từ theo nhóm nghĩa.",
           "- Viết được đoạn văn 4 - 5 câu theo chủ đề tự chọn, có sử dụng động từ phù hợp.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: chủ động đọc yêu cầu, nhớ lại bài thơ đã học, tự hoàn thành bài tập về động từ.",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và bổ sung ý kiến cho bạn.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn động từ phù hợp với chủ đề để viết đoạn văn rõ ý.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: tích cực ôn bài, làm bài, viết đoạn văn và sửa lỗi.",
           "- Trách nhiệm: hoàn thành nhiệm vụ cá nhân, tham gia đúng vai trò trong nhóm.",
           "- Nhân ái: biết tôn trọng ý kiến của bạn, góp ý bài viết nhẹ nhàng.",
-          "1. Năng lực đặc thù:",
           "- Đọc được lời thoại trong tranh, hiểu các sự việc chính của câu chuyện Nai con Bam-bi.",
           "- Tóm tắt được câu chuyện theo trình tự sự việc và nhân vật trong tranh.",
           "- Viết được mở bài hoặc kết bài cho câu chuyện theo một cách phù hợp.",
           "- Biết trao đổi, chỉnh sửa câu văn để bài viết rõ ý, có cảm xúc.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: đọc yêu cầu, quan sát tranh và tự lựa chọn cách viết mở bài/kết bài.",
           "- Giao tiếp và hợp tác: thảo luận nhóm để tóm tắt câu chuyện, lắng nghe và góp ý bài viết của bạn.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn sự việc quan trọng, sắp xếp theo trình tự và diễn đạt bằng lời của mình.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: tích cực quan sát tranh, viết bài và sửa bài.",
           "- Nhân ái: biết yêu quý, cảm thông với nhân vật trong câu chuyện; góp ý với bạn nhẹ nhàng.",
           "- Trách nhiệm: hoàn thành đoạn mở bài/kết bài, giữ vở sạch đẹp.",
-          "1. Năng lực đặc thù:",
           "- Đọc thành tiếng một đoạn/bài đã học, đảm bảo đúng tiếng, rõ lời, biết ngắt nghỉ hợp lí và trả lời được câu hỏi liên quan.",
           "- Đọc hiểu văn bản thơ Con chim chiền chiện và truyện Trai ngọc và Hải Quỳ; trả lời đúng các câu hỏi theo yêu cầu.",
           "- Nhận biết được từ ngữ đồng nghĩa, động từ trong ngữ cảnh; vận dụng kiến thức tiếng Việt đã học để làm bài.",
           "- Viết được bài văn theo một trong hai đề: thuật lại một sự việc/hoạt động đã đổi với em hoặc kể lại một câu chuyện đã đọc, đã nghe về trí thông minh hoặc khả năng tìm tòi, sáng tạo.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: tự giác làm bài kiểm tra, đọc kĩ yêu cầu và quản lí thời gian làm bài.",
           "- Giao tiếp và hợp tác: thực hiện đúng quy định khi kiểm tra đọc thành tiếng; biết lắng nghe hướng dẫn của GV.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức đọc hiểu, từ ngữ, ngữ pháp và kĩ năng viết để hoàn thành bài đánh giá.",
-          "3. Phẩm chất:",
           "- Trung thực: làm bài bằng khả năng của bản thân, không nhìn bài bạn, không trao đổi khi làm bài cá nhân.",
           "- Chăm chỉ: chuẩn bị bài, đọc kĩ, viết cẩn thận và kiểm tra lại bài trước khi nộp.",
           "- Trách nhiệm: nghiêm túc chấp hành nội quy kiểm tra, giữ gìn bài làm sạch đẹp."
@@ -7047,16 +7019,10 @@
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4",
-          "TUẦN 9",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ I - PHẦN ÔN TẬP (TIẾT 3 - 4)",
           "- ............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4",
-          "TUẦN 9",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ I - PHẦN ÔN TẬP (TIẾT 5)",
           "- ............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4",
-          "TUẦN 9",
           "ĐÁNH GIÁ GIỮA HỌC KÌ I (TIẾT 6 - 7)",
           "- ............................................................................................................................"
         ],
@@ -7676,7 +7642,8 @@
               "- HS ghi nhớ việc cần rèn luyện thêm."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4"
       }
     ]
   },
@@ -7693,7 +7660,13 @@
           "- Nhận biết được các màu sắc của sự vật trong bài thơ; nêu được thời điểm xuất hiện màu sắc ở các khổ thơ 2, 3, 4.",
           "- Hiểu được tình cảm của bạn nhỏ đối với thiên nhiên, cuộc sống và mẹ; nêu được điều tác giả muốn gửi gắm qua bài thơ.",
           "- Học thuộc lòng bài thơ; biết chia sẻ ý tưởng về bức tranh mình muốn vẽ bằng lời nói rõ ràng, tự nhiên.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn để trả lời câu hỏi đọc hiểu và chia sẻ ý tưởng vẽ tranh.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ màu sắc trong bài thơ với quan sát thực tế, tưởng tượng bức tranh của riêng mình.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương mẹ, trân trọng tình cảm gia đình và những sáng tạo của bạn bè.",
+          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết giữ trật tự, lắng nghe bạn đọc, nhận xét lịch sự và học tập nghiêm túc."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm Niềm vui sáng tạo, tranh và bài thơ Vẽ màu trong SGK, thẻ từ luyện đọc, phiếu câu hỏi.",
@@ -7701,15 +7674,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn để trả lời câu hỏi đọc hiểu và chia sẻ ý tưởng vẽ tranh.",
-          "- Giải quyết vấn đề và sáng tạo: biết liên hệ màu sắc trong bài thơ với quan sát thực tế, tưởng tượng bức tranh của riêng mình.",
-          "3. Phẩm chất:",
-          "- Nhân ái: biết yêu thương mẹ, trân trọng tình cảm gia đình và những sáng tạo của bạn bè.",
-          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết giữ trật tự, lắng nghe bạn đọc, nhận xét lịch sự và học tập nghiêm túc.",
-          "- ............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4",
-          "TUẦN 10 - CHỦ ĐIỂM 3: NIỀM VUI SÁNG TẠO"
+          "- ............................................................................................................................"
         ],
         "tables": [
           [
@@ -7841,7 +7806,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 17: VẼ MÀU - Tiết 1: Đọc"
       },
       {
         "lessonTitle": "Bài 17: VẼ MÀU - Tiết 2: Luyện từ và câu - Biện pháp nhân hoá",
@@ -7869,9 +7835,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4",
-          "TUẦN 10 - CHỦ ĐIỂM 3: NIỀM VUI SÁNG TẠO"
+          "- ............................................................................................................................"
         ],
         "tables": [
           [
@@ -7995,7 +7959,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 17: VẼ MÀU - Tiết 2: Luyện từ và câu - Biện pháp nhân hoá"
       },
       {
         "lessonTitle": "Bài 17: VẼ MÀU - Tiết 3: Viết - Tìm hiểu cách viết đoạn văn tưởng tượng",
@@ -8021,9 +7986,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4",
-          "TUẦN 10 - CHỦ ĐIỂM 3: NIỀM VUI SÁNG TẠO"
+          "- ............................................................................................................................"
         ],
         "tables": [
           [
@@ -8119,7 +8082,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 17: VẼ MÀU - Tiết 3: Viết - Tìm hiểu cách viết đoạn văn tưởng tượng"
       },
       {
         "lessonTitle": "Bài 18: ĐỒNG CỎ NỞ HOA - Tiết 1 - 2: Đọc",
@@ -8148,9 +8112,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4",
-          "TUẦN 10 - CHỦ ĐIỂM 3: NIỀM VUI SÁNG TẠO"
+          "- ............................................................................................................................"
         ],
         "tables": [
           [
@@ -8315,7 +8277,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 18: ĐỒNG CỎ NỞ HOA - Tiết 1 - 2: Đọc"
       },
       {
         "lessonTitle": "Bài 18: ĐỒNG CỎ NỞ HOA - Tiết 3: Viết - Tìm ý cho đoạn văn tưởng tượng",
@@ -8341,9 +8304,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4",
-          "TUẦN 10 - CHỦ ĐIỂM 3: NIỀM VUI SÁNG TẠO"
+          "- ............................................................................................................................"
         ],
         "tables": [
           [
@@ -8439,7 +8400,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 18: ĐỒNG CỎ NỞ HOA - Tiết 3: Viết - Tìm ý cho đoạn văn tưởng tượng"
       },
       {
         "lessonTitle": "Bài 18: ĐỒNG CỎ NỞ HOA - Tiết 4: Nói và nghe - Chúng em sáng tạo",
@@ -8567,7 +8529,8 @@
               "- HS lắng nghe, nêu cảm nghĩ về tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 18: ĐỒNG CỎ NỞ HOA - Tiết 4: Nói và nghe - Chúng em sáng tạo"
       }
     ]
   },
@@ -8714,7 +8677,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ BIỆN PHÁP NHÂN HOÁ",
@@ -8832,7 +8796,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ BIỆN PHÁP NHÂN HOÁ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG",
@@ -8943,7 +8908,8 @@
               "- HS ghi nhớ: Em sẽ đọc lại bài, sửa lỗi và chia sẻ với người thân."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG"
       },
       {
         "lessonTitle": "TIẾT 4 - 5: ĐỌC",
@@ -9090,7 +9056,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4 - 5: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 6: VIẾT - TRẢ BÀI VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG",
@@ -9193,7 +9160,8 @@
               "- HS ghi nhớ nhiệm vụ: Em sẽ đọc lại bài, hoàn thiện câu văn và giữ lại bản sửa trong vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6: VIẾT - TRẢ BÀI VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG"
       },
       {
         "lessonTitle": "TIẾT 7: ĐỌC MỞ RỘNG",
@@ -9302,7 +9270,8 @@
               "- HS lắng nghe và hoàn thành phiếu đọc sách nếu chưa xong."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -9463,7 +9432,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - TÍNH TỪ",
@@ -9573,7 +9543,8 @@
               "- HS ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - TÍNH TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT HƯỚNG DẪN THỰC HIỆN MỘT CÔNG VIỆC",
@@ -9685,7 +9656,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT HƯỚNG DẪN THỰC HIỆN MỘT CÔNG VIỆC"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC",
@@ -9840,7 +9812,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT HƯỚNG DẪN THỰC HIỆN MỘT CÔNG VIỆC",
@@ -9858,7 +9831,8 @@
           "- Chăm chỉ: Tích cực viết bài, đọc soát và chỉnh sửa.",
           "- Trách nhiệm: Viết hướng dẫn rõ ràng, an toàn, không hướng dẫn việc nguy hiểm.",
           "- Sáng tạo: Biết chọn đồ chơi yêu thích và trình bày hướng dẫn hấp dẫn.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- Tích hợp AI (4.C5.1): Sử dụng tư duy thuật toán để hiểu cách huấn luyện máy tính thực hiện nhiệm vụ. Gợi ý hoạt động: Trải nghiệm dùng Teachable Machine dạy máy nhận diện đồ vật theo từng bước hướng dẫn cụ thể."
         ],
         "dodung": [
           "- GV: Máy chiếu/tivi, hình bài viết SGK, bảng kiểm, phiếu lập dàn ý, ví dụ sơ đồ các bước.",
@@ -9866,7 +9840,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Tích hợp AI (4.C5.1): Sử dụng tư duy thuật toán để hiểu cách huấn luyện máy tính thực hiện nhiệm vụ. Gợi ý hoạt động: Trải nghiệm dùng Teachable Machine dạy máy nhận diện đồ vật theo từng bước hướng dẫn cụ thể.",
           "- ........................................................................................................................................"
         ],
         "tables": [
@@ -9975,7 +9948,8 @@
               "- HS ghi nhiệm vụ và chuẩn bị chia sẻ bài viết."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT HƯỚNG DẪN THỰC HIỆN MỘT CÔNG VIỆC"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN: NHÀ PHÁT MINH VÀ BÀ CỤ",
@@ -10083,7 +10057,8 @@
               "- HS chuẩn bị tìm đọc và ghi tên câu chuyện, tác giả nếu có."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN: NHÀ PHÁT MINH VÀ BÀ CỤ"
       }
     ]
   },
@@ -10119,8 +10094,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 13"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -10252,7 +10226,8 @@
               "- HS ghi nhiệm vụ: kể cho người thân nghe và chuẩn bị bài Luyện tập về tính từ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ TÍNH TỪ",
@@ -10278,8 +10253,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 13"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -10379,7 +10353,8 @@
               "- HS lắng nghe, chuẩn bị bài Tìm hiểu cách viết đơn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ TÍNH TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT ĐƠN",
@@ -10406,8 +10381,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 13"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -10488,7 +10462,8 @@
               "- HS lắng nghe, chuẩn bị bài đọc mới."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT ĐƠN"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC",
@@ -10517,8 +10492,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 13"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -10646,7 +10620,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT ĐƠN",
@@ -10673,8 +10648,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 13"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -10766,7 +10740,8 @@
               "- HS ghi nhiệm vụ, chuẩn bị sách/truyện về nhà khoa học hoặc phát minh khoa học."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT ĐƠN"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -10875,7 +10850,8 @@
               "- HS lắng nghe, giữ phiếu đọc sách trong vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -10912,8 +10888,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 14"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11029,7 +11004,8 @@
               "- HS ghi nhiệm vụ, chuẩn bị tiết Luyện tập về tính từ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ TÍNH TỪ",
@@ -11056,8 +11032,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 14"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11172,7 +11147,8 @@
               "- HS lắng nghe, chuẩn bị bài Tìm hiểu cách viết bài văn miêu tả con vật."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ TÍNH TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÀI VĂN MIÊU TẢ CON VẬT",
@@ -11202,8 +11178,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 14"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11299,7 +11274,8 @@
               "- HS lắng nghe, chuẩn bị bài Quan sát con vật."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÀI VĂN MIÊU TẢ CON VẬT"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC",
@@ -11329,8 +11305,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 14"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11465,7 +11440,8 @@
               "- HS ghi nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - QUAN SÁT CON VẬT",
@@ -11494,8 +11470,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 14"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11602,7 +11577,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - QUAN SÁT CON VẬT"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - ƯỚC MƠ CỦA EM",
@@ -11719,7 +11695,8 @@
               "- HS ghi nhiệm vụ, chuẩn bị bài tuần sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - ƯỚC MƠ CỦA EM"
       }
     ]
   },
@@ -11755,8 +11732,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 15"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -11876,7 +11852,8 @@
               "- HS ghi nhiệm vụ, chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - DẤU GẠCH NGANG",
@@ -11902,8 +11879,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 15"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -12015,7 +11991,8 @@
               "- HS lắng nghe, chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - DẤU GẠCH NGANG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - LUYỆN VIẾT ĐOẠN VĂN MIÊU TẢ CON VẬT",
@@ -12044,8 +12021,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 15"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -12141,7 +12117,8 @@
               "- HS lắng nghe, chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - LUYỆN VIẾT ĐOẠN VĂN MIÊU TẢ CON VẬT"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC",
@@ -12170,8 +12147,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 15"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -12302,7 +12278,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - LẬP DÀN Ý CHO BÀI VĂN MIÊU TẢ CON VẬT",
@@ -12329,8 +12306,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 15"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -12422,7 +12398,8 @@
               "- HS lắng nghe, chuẩn bị một bài thơ viết về ước mơ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - LẬP DÀN Ý CHO BÀI VĂN MIÊU TẢ CON VẬT"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -12535,7 +12512,8 @@
               "- HS lắng nghe, giữ phiếu đọc sách trong vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -12572,8 +12550,7 @@
         "dieuchinh": [
           "................................................................................................................",
           "................................................................................................................",
-          "................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 16"
+          "................................................................................................................"
         ],
         "tables": [
           [
@@ -12701,7 +12678,8 @@
               "- HS ghi nhiệm vụ và chuẩn bị bài Luyện tập về dấu gạch ngang."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ DẤU GẠCH NGANG",
@@ -12728,8 +12706,7 @@
         "dieuchinh": [
           "................................................................................................................",
           "................................................................................................................",
-          "................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 16"
+          "................................................................................................................"
         ],
         "tables": [
           [
@@ -12825,7 +12802,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ DẤU GẠCH NGANG"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT BÀI VĂN MIÊU TẢ CON VẬT",
@@ -12852,8 +12830,7 @@
         "dieuchinh": [
           "................................................................................................................",
           "................................................................................................................",
-          "................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 16"
+          "................................................................................................................"
         ],
         "tables": [
           [
@@ -12949,7 +12926,8 @@
               "- HS lắng nghe, chuẩn bị bài đọc mới."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT BÀI VĂN MIÊU TẢ CON VẬT"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC",
@@ -12979,8 +12957,7 @@
         "dieuchinh": [
           "................................................................................................................",
           "................................................................................................................",
-          "................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 16"
+          "................................................................................................................"
         ],
         "tables": [
           [
@@ -13092,7 +13069,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TRẢ BÀI VĂN MIÊU TẢ CON VẬT",
@@ -13119,8 +13097,7 @@
         "dieuchinh": [
           "................................................................................................................",
           "................................................................................................................",
-          "................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 16"
+          "................................................................................................................"
         ],
         "tables": [
           [
@@ -13200,7 +13177,8 @@
               "- HS lắng nghe, giữ bài viết để tiếp tục rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TRẢ BÀI VĂN MIÊU TẢ CON VẬT"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN ĐÔI CÁNH CỦA NGỰA TRẮNG",
@@ -13327,7 +13305,8 @@
               "- HS lắng nghe, chuẩn bị bài tuần sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN ĐÔI CÁNH CỦA NGỰA TRẮNG"
       }
     ]
   },
@@ -13364,8 +13343,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 17"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -13529,7 +13507,8 @@
               "- HS ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ DANH TỪ, ĐỘNG TỪ, TÍNH TỪ",
@@ -13558,8 +13537,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 17"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -13703,7 +13681,8 @@
               "- HS lắng nghe, ghi nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ DANH TỪ, ĐỘNG TỪ, TÍNH TỪ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT THƯ",
@@ -13733,8 +13712,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 17"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -13855,7 +13833,8 @@
               "- HS ghi nhiệm vụ chuẩn bị tiết Viết thư."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT THƯ"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC",
@@ -13885,8 +13864,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 17"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -14070,7 +14048,8 @@
               "- HS lắng nghe, ghi nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT THƯ",
@@ -14099,8 +14078,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 17"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -14220,7 +14198,8 @@
               "- HS chuẩn bị câu chuyện/phiếu đọc sách cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT THƯ"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -14355,7 +14334,8 @@
               "- HS lắng nghe, giữ phiếu đọc sách trong vở."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -14390,7 +14370,6 @@
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 18",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ I - PHẦN 1: ÔN TẬP"
         ],
         "tables": [
@@ -14565,7 +14544,8 @@
               "- HS lắng nghe, ghi nhớ bài ôn tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2"
       },
       {
         "lessonTitle": "TIẾT 3 - 4",
@@ -14594,7 +14574,6 @@
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 18",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ I - PHẦN 1: ÔN TẬP"
         ],
         "tables": [
@@ -14757,7 +14736,8 @@
               "- HS sửa lỗi nếu có và ghi nhớ quy tắc viết hoa tên riêng."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4"
       },
       {
         "lessonTitle": "TIẾT 5",
@@ -14786,7 +14766,6 @@
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 18",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ I - PHẦN 2: ĐÁNH GIÁ CUỐI HỌC KÌ I"
         ],
         "tables": [
@@ -14891,7 +14870,8 @@
               "- HS lắng nghe, nêu việc làm phù hợp: cho vật nuôi ăn, giữ vệ sinh chuồng, không ném đá, không phá tổ chim."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5"
       },
       {
         "lessonTitle": "TIẾT 6 - 7: KIỂM TRA ĐỌC - VIẾT",
@@ -15015,7 +14995,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài học tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6 - 7: KIỂM TRA ĐỌC - VIẾT"
       }
     ]
   },
@@ -15052,8 +15033,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 19"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -15173,7 +15153,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - CÂU",
@@ -15201,8 +15182,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 19"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -15333,7 +15313,8 @@
               "- HS lắng nghe, chuẩn bị bài mới."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - CÂU"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT ĐOẠN VĂN NÊU TÌNH CẢM, CẢM XÚC",
@@ -15363,8 +15344,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 19"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -15461,7 +15441,8 @@
               "- HS đọc bài; lớp nhận xét câu có cảm xúc chân thành, dùng từ phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT ĐOẠN VĂN NÊU TÌNH CẢM, CẢM XÚC"
       },
       {
         "lessonTitle": "TIẾT 1 - 2: ĐỌC",
@@ -15492,8 +15473,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 19"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -15621,7 +15601,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ĐỌC"
       },
       {
         "lessonTitle": "BÀI 2: VỆT PHẤN TRÊN MẶT BÀN",
@@ -15650,8 +15631,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 19"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -15747,7 +15727,8 @@
               "- HS ghi nhiệm vụ, chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: VỆT PHẤN TRÊN MẶT BÀN"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - GIÚP BẠN",
@@ -15881,7 +15862,8 @@
               "- HS ghi nhiệm vụ, chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - GIÚP BẠN"
       }
     ]
   },
@@ -16063,7 +16045,8 @@
               "- HS lắng nghe và thực hiện nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - HAI THÀNH PHẦN CHÍNH CỦA CÂU",
@@ -16224,7 +16207,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - HAI THÀNH PHẦN CHÍNH CỦA CÂU"
       },
       {
         "lessonTitle": "BÀI 3: ÔNG BỤT ĐÃ ĐẾN",
@@ -16346,7 +16330,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: ÔNG BỤT ĐÃ ĐẾN"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -16521,7 +16506,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "BÀI 4: QUẢ NGỌT CUỐI MÙA",
@@ -16643,7 +16629,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: QUẢ NGỌT CUỐI MÙA"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -16766,7 +16753,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -16952,7 +16940,8 @@
               "- HS lắng nghe và thực hiện nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ CHỦ NGỮ",
@@ -17093,7 +17082,8 @@
               "- HS lắng nghe, ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ CHỦ NGỮ"
       },
       {
         "lessonTitle": "BÀI 5: TỜ BÁO TƯỜNG CỦA TÔI",
@@ -17210,7 +17200,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: TỜ BÁO TƯỜNG CỦA TÔI"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -17382,7 +17373,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "BÀI 6: TIẾNG RU",
@@ -17395,7 +17387,11 @@
           "- Biết viết lại câu văn cho hay hơn, phù hợp hơn.",
           "2. Năng lực chung:",
           "- Tự chủ và tự học: Tự đọc lại bài, tự sửa lỗi.",
-          "- Giao tiếp và hợp tác: Biết lắng nghe nhận xét, góp ý cho bạn."
+          "- Giao tiếp và hợp tác: Biết lắng nghe nhận xét, góp ý cho bạn.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Nghiêm túc sửa bài.",
+          "- Trách nhiệm: Biết tiếp thu góp ý.",
+          "- Nhân ái: Biết tôn trọng bài viết và cảm xúc của bạn."
         ],
         "dodung": [
           "- GV: SGK, kế hoạch bài dạy, bài giảng PowerPoint, máy chiếu/ti vi, tranh minh họa SGK, bảng phụ, phiếu học tập.",
@@ -17403,10 +17399,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Nghiêm túc sửa bài.",
-          "- Trách nhiệm: Biết tiếp thu góp ý.",
-          "- Nhân ái: Biết tôn trọng bài viết và cảm xúc của bạn.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................"
@@ -17486,7 +17478,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: TIẾNG RU"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN BÀI HỌC QUÝ",
@@ -17613,7 +17606,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN BÀI HỌC QUÝ"
       }
     ]
   },
@@ -17650,8 +17644,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 22"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -17772,7 +17765,8 @@
               "- HS lắng nghe và thực hiện nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ VỊ NGỮ",
@@ -17799,8 +17793,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 22"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -17898,7 +17891,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ VỊ NGỮ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT HƯỚNG DẪN SỬ DỤNG MỘT SẢN PHẨM",
@@ -17927,8 +17921,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 22"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -18017,7 +18010,8 @@
               "- HS lắng nghe và thực hiện nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT HƯỚNG DẪN SỬ DỤNG MỘT SẢN PHẨM"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -18047,8 +18041,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 22"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -18173,7 +18166,8 @@
               "- HS lắng nghe và thực hiện nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT HƯỚNG DẪN SỬ DỤNG MỘT SẢN PHẨM",
@@ -18202,8 +18196,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 22"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -18296,7 +18289,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT HƯỚNG DẪN SỬ DỤNG MỘT SẢN PHẨM"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -18423,7 +18417,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -18459,8 +18454,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 23"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -18605,7 +18599,8 @@
               "- HS lắng nghe và thực hiện nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ HAI THÀNH PHẦN CHÍNH CỦA CÂU",
@@ -18633,8 +18628,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 23"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -18768,7 +18762,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ HAI THÀNH PHẦN CHÍNH CỦA CÂU"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - LẬP DÀN Ý CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
@@ -18796,8 +18791,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 23"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -18914,7 +18908,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - LẬP DÀN Ý CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -18945,8 +18940,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 23"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -19091,7 +19085,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
@@ -19119,8 +19114,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 23"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -19229,7 +19223,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - NHỮNG TẤM GƯƠNG SÁNG",
@@ -19364,7 +19359,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - NHỮNG TẤM GƯƠNG SÁNG"
       }
     ]
   },
@@ -19401,8 +19397,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 24"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -19531,7 +19526,8 @@
               "- HS lắng nghe, ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - TRẠNG NGỮ",
@@ -19559,8 +19555,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 24"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -19661,7 +19656,8 @@
               "- HS lắng nghe, ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - TRẠNG NGỮ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TRẢ BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
@@ -19689,8 +19685,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 24"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -19771,7 +19766,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TRẢ BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC VÀ LUYỆN TẬP THEO VĂN BẢN ĐỌC",
@@ -19802,8 +19798,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 24"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -19928,7 +19923,8 @@
               "- HS lắng nghe, ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC VÀ LUYỆN TẬP THEO VĂN BẢN ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT ĐOẠN VĂN NÊU Ý KIẾN",
@@ -19956,8 +19952,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 24"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -20042,7 +20037,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT ĐOẠN VĂN NÊU Ý KIẾN"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -20153,7 +20149,8 @@
               "- HS thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -20170,14 +20167,7 @@
           "- Nhận biết được đặc điểm nhân vật qua lời nói, cử chỉ, hành động, tình cảm; trả lời được các câu hỏi đọc hiểu trong SGK.",
           "- Hiểu nội dung: Câu chuyện kể về khu vườn của người ông, qua đó thể hiện sự trân trọng, lòng biết ơn của cháu con đối với ông, người đã làm nên khu vườn đó.",
           "- Biết thể hiện tình nghĩa, lòng biết ơn với ông bà, người thân; biết chăm sóc, bảo vệ cây cối và không gian sống quanh mình.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: SGK, kế hoạch bài dạy, bài giảng PowerPoint, máy chiếu/ti vi, tranh minh họa/bài tập SGK đã cắt đúng nội dung, bảng phụ, phiếu học tập, thẻ nhiệm vụ nhóm.",
-          "- HS: SGK, vở ghi, bút, bảng con, phiếu học tập; chuẩn bị bài theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: Biết trao đổi nhóm, lắng nghe bạn đọc, nhận xét lịch sự và trình bày ý kiến rõ ràng.",
           "- Giải quyết vấn đề và sáng tạo: Biết suy luận từ chi tiết trong văn bản để nhận xét nhân vật, rút ra ý nghĩa và liên hệ thực tế.",
           "3. Phẩm chất:",
@@ -20186,11 +20176,17 @@
           "- Trách nhiệm: Biết giữ trật tự, lắng nghe, học tập nghiêm túc và có trách nhiệm với việc làm của bản thân.",
           "4. Tích hợp:",
           "- Tích hợp BVMT (tiết kiệm và bảo vệ nguồn nước): HS biết yêu quý khu vườn, cây trái và công sức lao động của ông bà, cha mẹ; có ý thức tưới cây vừa đủ, không lãng phí nước và không làm bẩn nguồn nước khi chăm sóc cây trái.",
-          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS quan sát hình ảnh cây trái, khu vườn từ nguồn GV cung cấp; biết chọn thông tin phù hợp để liên hệ bài đọc, không sao chép từ nguồn chưa rõ.",
+          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS quan sát hình ảnh cây trái, khu vườn từ nguồn GV cung cấp; biết chọn thông tin phù hợp để liên hệ bài đọc, không sao chép từ nguồn chưa rõ."
+        ],
+        "dodung": [
+          "- GV: SGK, kế hoạch bài dạy, bài giảng PowerPoint, máy chiếu/ti vi, tranh minh họa/bài tập SGK đã cắt đúng nội dung, bảng phụ, phiếu học tập, thẻ nhiệm vụ nhóm.",
+          "- HS: SGK, vở ghi, bút, bảng con, phiếu học tập; chuẩn bị bài theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 25"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -20327,7 +20323,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU",
@@ -20355,8 +20352,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 25"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -20473,7 +20469,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT",
@@ -20501,8 +20498,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 25"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -20587,7 +20583,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT"
       },
       {
         "lessonTitle": "TIẾT 4-5: ĐỌC",
@@ -20598,14 +20595,7 @@
           "- Nhận biết được vẻ đẹp, ý nghĩa của lời mẹ ru đối với cuộc đời người con; hiểu lòng biết ơn của người con đối với mẹ.",
           "- Hiểu nội dung: Bài thơ nêu lên vẻ đẹp của lời ru, tình yêu thương, sự hi sinh của mẹ và lòng biết ơn của con đối với mẹ.",
           "- Học thuộc lòng 3 khổ thơ cuối; viết được 2-3 câu về việc mẹ đã làm cho con, trong đó có trạng ngữ chỉ thời gian hoặc nơi chốn.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: SGK, kế hoạch bài dạy, bài giảng PowerPoint, máy chiếu/ti vi, tranh minh họa/bài tập SGK đã cắt đúng nội dung, bảng phụ, phiếu học tập, thẻ nhiệm vụ nhóm.",
-          "- HS: SGK, vở ghi, bút, bảng con, phiếu học tập; chuẩn bị bài theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: Biết trao đổi nhóm, lắng nghe bạn đọc, nhận xét lịch sự và trình bày ý kiến rõ ràng.",
           "- Giải quyết vấn đề và sáng tạo: Biết suy luận từ chi tiết trong văn bản để nhận xét nhân vật, rút ra ý nghĩa và liên hệ thực tế.",
           "3. Phẩm chất:",
@@ -20614,11 +20604,17 @@
           "- Trách nhiệm: Biết giữ trật tự, lắng nghe, học tập nghiêm túc và có trách nhiệm với việc làm của bản thân.",
           "4. Tích hợp:",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS cảm nhận tình yêu thương, sự hi sinh của mẹ; biết nói lời yêu thương, giúp đỡ cha mẹ bằng việc vừa sức và sống hiếu thảo.",
-          "- Tích hợp AI (4.A2.2): HS nhận biết AI hỗ trợ lưu giữ giá trị truyền thống thông qua phục chế hình ảnh/âm thanh; biết dùng công nghệ có trách nhiệm để kết nối kỉ niệm gia đình, không thay thế tình cảm thật của con người.",
+          "- Tích hợp AI (4.A2.2): HS nhận biết AI hỗ trợ lưu giữ giá trị truyền thống thông qua phục chế hình ảnh/âm thanh; biết dùng công nghệ có trách nhiệm để kết nối kỉ niệm gia đình, không thay thế tình cảm thật của con người."
+        ],
+        "dodung": [
+          "- GV: SGK, kế hoạch bài dạy, bài giảng PowerPoint, máy chiếu/ti vi, tranh minh họa/bài tập SGK đã cắt đúng nội dung, bảng phụ, phiếu học tập, thẻ nhiệm vụ nhóm.",
+          "- HS: SGK, vở ghi, bút, bảng con, phiếu học tập; chuẩn bị bài theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 25"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -20751,7 +20747,8 @@
               "- HS ghi nhiệm vụ, thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4-5: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 6: VIẾT",
@@ -20779,8 +20776,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 25"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -20862,7 +20858,8 @@
               "- HS ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6: VIẾT"
       },
       {
         "lessonTitle": "TIẾT 7: NÓI VÀ NGHE",
@@ -20958,7 +20955,8 @@
               "- HS lắng nghe, ghi nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 7: NÓI VÀ NGHE"
       }
     ]
   },
@@ -20975,14 +20973,7 @@
           "- Nhận biết được đặc điểm nhân vật qua lời nói, cử chỉ, việc làm; nêu được ý chính của các đoạn và nội dung câu chuyện.",
           "- Hiểu ý nghĩa câu chuyện: học trò luôn kính trọng, biết ơn thầy cô; thầy cô luôn yêu thương và dành tình cảm tốt đẹp cho học trò.",
           "- Biết liên hệ, bày tỏ tình cảm biết ơn đối với thầy cô bằng lời nói và việc làm phù hợp.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: SGK, kế hoạch bài dạy, bài giảng PowerPoint, tranh/bảng phụ/phiếu học tập phù hợp với từng hoạt động.",
-          "- HS: SGK Tiếng Việt 4, vở ghi, bút, bảng con/phiếu học tập; chuẩn bị bài theo hướng dẫn."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết thảo luận nhóm, lắng nghe, nhận xét bạn đọc và trình bày ý kiến rõ ràng.",
           "- Giải quyết vấn đề và sáng tạo: biết suy luận từ chi tiết để nhận xét nhân vật và liên hệ bản thân.",
           "3. Phẩm chất:",
@@ -20991,7 +20982,14 @@
           "- Trách nhiệm: giữ trật tự, lắng nghe, có ý thức học tập nghiêm túc.",
           "4. Tích hợp:",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục truyền thống tôn sư trọng đạo; HS biết kính trọng, biết ơn thầy cô, trân trọng sự dạy dỗ của người đi trước.",
-          "- Tích hợp AI (4.A2.2): Nhận diện AI hỗ trợ tìm kiếm thông tin cũ giúp con người kết nối với quá khứ; thảo luận việc AI có thể giúp tìm lại kỉ niệm trường xưa qua kho dữ liệu hình ảnh nhưng không thay thế tình cảm thật của con người.",
+          "- Tích hợp AI (4.A2.2): Nhận diện AI hỗ trợ tìm kiếm thông tin cũ giúp con người kết nối với quá khứ; thảo luận việc AI có thể giúp tìm lại kỉ niệm trường xưa qua kho dữ liệu hình ảnh nhưng không thay thế tình cảm thật của con người."
+        ],
+        "dodung": [
+          "- GV: SGK, kế hoạch bài dạy, bài giảng PowerPoint, tranh/bảng phụ/phiếu học tập phù hợp với từng hoạt động.",
+          "- HS: SGK Tiếng Việt 4, vở ghi, bút, bảng con/phiếu học tập; chuẩn bị bài theo hướng dẫn."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................"
         ],
@@ -21114,7 +21112,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU",
@@ -21278,7 +21277,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT",
@@ -21394,7 +21394,8 @@
               "- HS lắng nghe, chuẩn bị bài mới."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -21579,7 +21580,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT",
@@ -21706,7 +21708,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -21824,7 +21827,8 @@
               "- HS ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -21859,7 +21863,6 @@
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 27",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ II"
         ],
         "tables": [
@@ -21981,7 +21984,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ÔN TẬP ĐỌC, NGHE - VIẾT, LUYỆN CÂU VÀ VIẾT ĐOẠN"
       },
       {
         "lessonTitle": "TIẾT 3 - 4: ÔN TẬP ĐỌC THUỘC LÒNG, ĐỌC HIỂU, CÂU CHỦ ĐỀ",
@@ -22009,7 +22013,6 @@
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 27",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ II"
         ],
         "tables": [
@@ -22123,7 +22126,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4: ÔN TẬP ĐỌC THUỘC LÒNG, ĐỌC HIỂU, CÂU CHỦ ĐỀ"
       },
       {
         "lessonTitle": "TIẾT 5: ĐỌC HIỂU THƠ VÀ VIẾT ĐOẠN VĂN NÊU TÌNH CẢM, CẢM XÚC",
@@ -22151,7 +22155,6 @@
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 27",
           "ÔN TẬP VÀ ĐÁNH GIÁ GIỮA HỌC KÌ II"
         ],
         "tables": [
@@ -22245,7 +22248,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: ĐỌC HIỂU THƠ VÀ VIẾT ĐOẠN VĂN NÊU TÌNH CẢM, CẢM XÚC"
       },
       {
         "lessonTitle": "TIẾT 6 - 7: KIỂM TRA ĐỌC, ĐỌC HIỂU - VIẾT",
@@ -22349,7 +22353,8 @@
               "- HS lắng nghe, chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6 - 7: KIỂM TRA ĐỌC, ĐỌC HIỂU - VIẾT"
       }
     ]
   },
@@ -22385,8 +22390,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 28"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -22534,7 +22538,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - TRẠNG NGỮ CHỈ PHƯƠNG TIỆN",
@@ -22561,8 +22566,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 28"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -22667,7 +22671,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - TRẠNG NGỮ CHỈ PHƯƠNG TIỆN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÀI VĂN MIÊU TẢ CÂY CỐI",
@@ -22694,8 +22699,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 28"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -22780,7 +22784,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÀI VĂN MIÊU TẢ CÂY CỐI"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -22809,8 +22814,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 28"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -22949,7 +22953,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÀI VĂN MIÊU TẢ CÂY CỐI (TIẾP THEO)",
@@ -22976,8 +22981,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 28"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -23062,7 +23066,8 @@
               "- HS lắng nghe, ghi nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TÌM HIỂU CÁCH VIẾT BÀI VĂN MIÊU TẢ CÂY CỐI (TIẾP THEO)"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - NHỮNG MIỀN QUÊ YÊU DẤU",
@@ -23180,7 +23185,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - NHỮNG MIỀN QUÊ YÊU DẤU"
       }
     ]
   },
@@ -23216,9 +23222,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 29",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -23345,7 +23349,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - DẤU NGOẶC KÉP",
@@ -23371,9 +23376,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 29",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -23462,7 +23465,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - DẤU NGOẶC KÉP"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - QUAN SÁT CÂY CỐI",
@@ -23488,9 +23492,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 29",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -23567,7 +23569,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - QUAN SÁT CÂY CỐI"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -23597,9 +23600,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 29",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -23726,7 +23727,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - LUYỆN VIẾT ĐOẠN VĂN MIÊU TẢ CÂY CỐI",
@@ -23752,9 +23754,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 29",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -23843,7 +23843,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - LUYỆN VIẾT ĐOẠN VĂN MIÊU TẢ CÂY CỐI"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -23952,7 +23953,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -23988,8 +23990,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 30"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -24109,7 +24110,8 @@
               "- HS ghi nhiệm vụ về nhà và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - DẤU NGOẶC ĐƠN",
@@ -24135,8 +24137,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 30"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -24229,7 +24230,8 @@
               "- HS ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - DẤU NGOẶC ĐƠN"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - LUYỆN VIẾT MỞ BÀI, KẾT BÀI CHO BÀI VĂN MIÊU TẢ CÂY CỐI",
@@ -24255,8 +24257,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 30"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -24345,7 +24346,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - LUYỆN VIẾT MỞ BÀI, KẾT BÀI CHO BÀI VĂN MIÊU TẢ CÂY CỐI"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -24375,8 +24377,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 30"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -24492,7 +24493,8 @@
               "- HS ghi nhiệm vụ và chuẩn bị chia sẻ ở tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - LẬP DÀN Ý CHO BÀI VĂN MIÊU TẢ CÂY CỐI",
@@ -24518,8 +24520,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 30"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -24604,7 +24605,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - LẬP DÀN Ý CHO BÀI VĂN MIÊU TẢ CÂY CỐI"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN VỀ QUÊ NGOẠI",
@@ -24700,7 +24702,8 @@
               "- HS ghi nhiệm vụ về nhà và hứa thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - KỂ CHUYỆN VỀ QUÊ NGOẠI"
       }
     ]
   },
@@ -24737,9 +24740,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 31",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -24910,7 +24911,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VIẾT TÊN CƠ QUAN, TỔ CHỨC",
@@ -24940,9 +24942,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 31",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -25047,7 +25047,8 @@
               "- HS ghi nhiệm vụ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VIẾT TÊN CƠ QUAN, TỔ CHỨC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT BÀI VĂN MIÊU TẢ CÂY CỐI",
@@ -25075,9 +25076,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 31",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -25169,7 +25168,8 @@
               "- HS ghi nhiệm vụ, thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT BÀI VĂN MIÊU TẢ CÂY CỐI"
       },
       {
         "lessonTitle": "TIẾT 1+2: ĐỌC",
@@ -25199,9 +25199,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 31",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -25376,7 +25374,8 @@
               "- HS lắng nghe, thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1+2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TRẢ BÀI VĂN MIÊU TẢ CÂY CỐI",
@@ -25404,9 +25403,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 31",
-          "CHỦ ĐIỂM: QUÊ HƯƠNG TRONG TÔI"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -25498,7 +25495,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TRẢ BÀI VĂN MIÊU TẢ CÂY CỐI"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -25632,7 +25630,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -25669,9 +25668,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 32",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -25811,7 +25808,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LỰA CHỌN TỪ NGỮ",
@@ -25840,9 +25838,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 32",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -25927,7 +25923,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LỰA CHỌN TỪ NGỮ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG",
@@ -25954,9 +25951,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 32",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -26037,7 +26032,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG"
       },
       {
         "lessonTitle": "TIẾT 1+2: ĐỌC",
@@ -26048,14 +26044,7 @@
           "- Nhận biết được nội dung bức thư: tình yêu thương, thấu hiểu, sẻ chia của bạn Lương Thanh Bình đối với những bạn nhỏ không nhà.",
           "- Hiểu ước muốn về một thế giới hoà bình, ấm no cho trẻ em, nơi không có bom đạn, chiến tranh.",
           "- Biết yêu thương, chia sẻ với những hoàn cảnh khó khăn của trẻ em trên toàn thế giới.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: SGK, kế hoạch bài dạy, bài giảng PowerPoint, tranh/hình SGK cắt đúng nội dung bài, bảng phụ, phiếu học tập, thiết bị trình chiếu.",
-          "- HS: SGK, vở, bút, bảng con, phiếu học tập; chuẩn bị bài theo yêu cầu."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: Biết thảo luận nhóm, lắng nghe và phản hồi ý kiến của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết liên hệ trách nhiệm của bản thân đối với những vấn đề chung như hoà bình, nhà ở, bảo vệ động vật.",
           "3. Phẩm chất:",
@@ -26063,12 +26052,17 @@
           "- Chăm chỉ: Có ý thức luyện đọc, hoàn thành nhiệm vụ học tập.",
           "- Trách nhiệm: Có ý thức sống nhân ái, quan tâm đến cộng đồng.",
           "4. Tích hợp:",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thương, sẻ chia với những bạn nhỏ có hoàn cảnh khó khăn; nuôi dưỡng ước mơ về một thế giới hòa bình, ấm no; hình thành lối sống nhân ái, trách nhiệm, biết quan tâm đến những vấn đề chung của cộng đồng.",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thương, sẻ chia với những bạn nhỏ có hoàn cảnh khó khăn; nuôi dưỡng ước mơ về một thế giới hòa bình, ấm no; hình thành lối sống nhân ái, trách nhiệm, biết quan tâm đến những vấn đề chung của cộng đồng."
+        ],
+        "dodung": [
+          "- GV: SGK, kế hoạch bài dạy, bài giảng PowerPoint, tranh/hình SGK cắt đúng nội dung bài, bảng phụ, phiếu học tập, thiết bị trình chiếu.",
+          "- HS: SGK, vở, bút, bảng con, phiếu học tập; chuẩn bị bài theo yêu cầu."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 32",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -26207,7 +26201,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1+2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - TRẢ BÀI VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG",
@@ -26234,9 +26229,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 32",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -26305,7 +26298,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - TRẢ BÀI VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - CHUNG TAY BẢO VỆ ĐỘNG VẬT",
@@ -26407,7 +26401,8 @@
               "- HS ghi nhớ nhiệm vụ, thực hiện và chia sẻ ở tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - CHUNG TAY BẢO VỆ ĐỘNG VẬT"
       }
     ]
   },
@@ -26444,9 +26439,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 33",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -26574,7 +26567,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP LỰA CHỌN TỪ NGỮ",
@@ -26601,9 +26595,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 33",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -26712,7 +26704,8 @@
               "- HS ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP LỰA CHỌN TỪ NGỮ"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG",
@@ -26739,9 +26732,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 33",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -26830,7 +26821,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT ĐOẠN VĂN TƯỞNG TƯỢNG"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -26861,9 +26853,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 33",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -27010,7 +27000,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - HƯỚNG DẪN CÁCH VIẾT THƯ",
@@ -27037,9 +27028,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "-----------------------------------------------------------------",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 33",
-          "CHỦ ĐIỂM: VÌ MỘT THẾ GIỚI BÌNH YÊN"
+          "-----------------------------------------------------------------"
         ],
         "tables": [
           [
@@ -27136,7 +27125,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - HƯỚNG DẪN CÁCH VIẾT THƯ"
       },
       {
         "lessonTitle": "TIẾT 4: ĐỌC MỞ RỘNG",
@@ -27255,7 +27245,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: ĐỌC MỞ RỘNG"
       }
     ]
   },
@@ -27290,8 +27281,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 34"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27439,7 +27429,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ DẤU CÂU",
@@ -27465,8 +27456,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 34"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27563,7 +27553,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TỪ VÀ CÂU - LUYỆN TẬP VỀ DẤU CÂU"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT THƯ",
@@ -27592,8 +27583,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 34"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27674,7 +27664,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT THƯ"
       },
       {
         "lessonTitle": "TIẾT 1 + 2: ĐỌC",
@@ -27703,8 +27694,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 34"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27824,7 +27814,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 + 2: ĐỌC"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - VIẾT GIẤY MỜI",
@@ -27852,8 +27843,7 @@
         "activities": [],
         "dieuchinh": [
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 34"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -27946,7 +27936,8 @@
               "- HS ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - VIẾT GIẤY MỜI"
       },
       {
         "lessonTitle": "TIẾT 4: NÓI VÀ NGHE - CUỘC SỐNG XANH",
@@ -28060,7 +28051,8 @@
               "- HS lắng nghe, cam kết thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: NÓI VÀ NGHE - CUỘC SỐNG XANH"
       }
     ]
   },
@@ -28096,7 +28088,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 35",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM HỌC"
         ],
         "tables": [
@@ -28267,7 +28258,8 @@
               "- HS lắng nghe, thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - 2: ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3 - 4: ÔN TẬP",
@@ -28295,7 +28287,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 35",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM HỌC"
         ],
         "tables": [
@@ -28474,7 +28465,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - 4: ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5: ÔN TẬP",
@@ -28502,7 +28494,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 4 - TUẦN 35",
           "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM HỌC"
         ],
         "tables": [
@@ -28608,7 +28599,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: ÔN TẬP"
       },
       {
         "lessonTitle": "TIẾT 6 - 7: KIỂM TRA ĐỌC, ĐỌC HIỂU - VIẾT",
@@ -28707,7 +28699,8 @@
               "- HS lắng nghe, rút kinh nghiệm, thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6 - 7: KIỂM TRA ĐỌC, ĐỌC HIỂU - VIẾT"
       }
     ]
   }
@@ -28725,5 +28718,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

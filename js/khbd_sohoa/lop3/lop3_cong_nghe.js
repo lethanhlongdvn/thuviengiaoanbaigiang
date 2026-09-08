@@ -17,12 +17,19 @@
         "lessonTitle": "Bài 1: Tự nhiên và công nghệ (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Phân biệt được đối tượng tự nhiên và sản phẩm công nghệ ở mức độ đơn giản.",
           "- Gọi tên được một số đối tượng trong tranh và trong lớp học; bước đầu nêu được đối tượng nào do con người làm ra, đối tượng nào có sẵn trong tự nhiên.",
           "- Biết liên hệ thực tế để kể thêm một số đối tượng tự nhiên và sản phẩm công nghệ quen thuộc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Năng lực giao tiếp và hợp tác: Trao đổi với bạn, trình bày ý kiến rõ ràng, lắng nghe và bổ sung ý kiến cho nhóm.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Biết đặt câu hỏi “Vì sao em biết?” để lí giải cách phân loại đối tượng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực quan sát, tham gia trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: Có ý thức sử dụng, giữ gìn sản phẩm công nghệ trong gia đình và lớp học.",
+          "4. Tích hợp:",
+          "Tích hợp NLS 1.2.CB1a: HS nhận biết một số thiết bị, sản phẩm công nghệ quen thuộc; biết quan sát thông tin từ nguồn do GV cung cấp. Công cụ cụ thể: Google Lens do GV mở trên thiết bị của GV."
         ],
         "dodung": [
           "- Giáo viên: SGK Công nghệ 3; tranh khởi động; Hình 1 về đối tượng tự nhiên và sản phẩm công nghệ; thẻ từ; điện thoại hoặc máy tính bảng có Google Lens do GV thao tác; máy chiếu hoặc màn hình trình chiếu.",
@@ -30,13 +37,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giao tiếp và hợp tác: Trao đổi với bạn, trình bày ý kiến rõ ràng, lắng nghe và bổ sung ý kiến cho nhóm.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: Biết đặt câu hỏi “Vì sao em biết?” để lí giải cách phân loại đối tượng.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực quan sát, tham gia trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: Có ý thức sử dụng, giữ gìn sản phẩm công nghệ trong gia đình và lớp học.",
-          "4. Tích hợp:",
-          "Tích hợp NLS 1.2.CB1a: HS nhận biết một số thiết bị, sản phẩm công nghệ quen thuộc; biết quan sát thông tin từ nguồn do GV cung cấp. Công cụ cụ thể: Google Lens do GV mở trên thiết bị của GV.",
           "- ........................................................................................................................................................................",
           "- ........................................................................................................................................................................"
         ],
@@ -155,7 +155,8 @@
               "- HS lắng nghe, nhắc lại nội dung ghi nhớ và chuẩn bị quan sát thêm các sản phẩm công nghệ trong gia đình cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 1: Tự nhiên và công nghệ (Tiết 1)"
       }
     ]
   },
@@ -167,14 +168,18 @@
         "lessonTitle": "Bài 1: Tự nhiên và công nghệ (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tác dụng của một số sản phẩm công nghệ trong gia đình như ti vi, tủ lạnh, máy thu thanh, quạt điện, bóng đèn điện.",
           "- Biết kể tên và nêu tác dụng của một số sản phẩm công nghệ quen thuộc ở nhà, ở trường.",
           "- Có ý thức giữ gìn sản phẩm công nghệ trong gia đình; biết nêu việc nên làm và không nên làm khi sử dụng đồ dùng công nghệ.",
           "2. Năng lực chung",
           "- Năng lực tự chủ và tự học: Tự quan sát tranh, đọc gợi ý, suy nghĩ để nêu tác dụng của sản phẩm công nghệ.",
-          "- Năng lực giao tiếp và hợp tác: Trao đổi với bạn về tác dụng, cách giữ gìn đồ dùng và trình bày ý kiến rõ ràng."
+          "- Năng lực giao tiếp và hợp tác: Trao đổi với bạn về tác dụng, cách giữ gìn đồ dùng và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia quan sát, thảo luận, hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: Có ý thức sử dụng đúng cách, giữ gìn sản phẩm công nghệ trong gia đình và lớp học.",
+          "4. Tích hợp: Tích hợp AI (Khung 3439) - 3.A3.1: HS biết kết quả do công cụ số hoặc AI gợi ý cần được kiểm chứng bằng kiến thức đã học và hướng dẫn của GV. Công cụ cụ thể: Google Lens và Gemini do GV thao tác trên máy chiếu để nhận diện hình ảnh sản phẩm công nghệ; HS không tự thao tác, chỉ quan sát, đối chiếu với SGK và nêu kết luận."
         ],
         "dodung": [
           "- Giáo viên: SGK Công nghệ 3; Hình 2, Hình 3, Hình 4; thẻ từ về tác dụng sản phẩm công nghệ; máy chiếu hoặc màn hình; công cụ nhận diện hình ảnh hoặc trợ lí AI do GV thao tác để minh họa việc cần kiểm chứng thông tin.",
@@ -182,10 +187,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia quan sát, thảo luận, hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: Có ý thức sử dụng đúng cách, giữ gìn sản phẩm công nghệ trong gia đình và lớp học.",
-          "4. Tích hợp: Tích hợp AI (Khung 3439) - 3.A3.1: HS biết kết quả do công cụ số hoặc AI gợi ý cần được kiểm chứng bằng kiến thức đã học và hướng dẫn của GV. Công cụ cụ thể: Google Lens và Gemini do GV thao tác trên máy chiếu để nhận diện hình ảnh sản phẩm công nghệ; HS không tự thao tác, chỉ quan sát, đối chiếu với SGK và nêu kết luận.",
           "- ........................................................................................................................................................................",
           "- ........................................................................................................................................................................"
         ],
@@ -304,7 +305,8 @@
               "- HS lắng nghe, nhắc lại nội dung ghi nhớ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 1: Tự nhiên và công nghệ (Tiết 2)"
       }
     ]
   },
@@ -316,7 +318,7 @@
         "lessonTitle": "Bài 2: Sử dụng đèn học (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tác dụng của đèn học đối với việc học tập và bảo vệ mắt.",
           "- Nhận biết được một số loại đèn học thông dụng qua hình dạng, màu sắc và cách sử dụng.",
@@ -454,7 +456,8 @@
               "- HS lắng nghe, nhắc lại nội dung ghi nhớ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 2: Sử dụng đèn học (Tiết 1)"
       }
     ]
   },
@@ -466,8 +469,14 @@
         "lessonTitle": "Bài 2: Sử dụng đèn học (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
-          "1. Năng lực đặc thù"
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
+          "1. Năng lực đặc thù",
+          "2. Năng lực chung",
+          "- Năng lực giao tiếp và hợp tác: Trao đổi với bạn về các bước sử dụng đèn học và tình huống mất an toàn.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Biết xử lí tình huống khi đèn học đặt sai vị trí, chiếu thẳng vào mắt hoặc có dấu hiệu mất an toàn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực thực hành, sắp xếp bước sử dụng và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: Có ý thức sử dụng đèn học đúng cách, tiết kiệm điện và báo người lớn khi gặp tình huống nguy hiểm."
         ],
         "dodung": [
           "- Giáo viên: SGK Công nghệ 3; Hình 4, Hình 5; đèn học thật hoặc mô hình; thẻ các bước sử dụng đèn học; máy chiếu; tranh minh họa ý tưởng cảm biến ánh sáng.",
@@ -477,12 +486,6 @@
         "dieuchinh": [
           "- Sắp xếp được các bước sử dụng đèn học đúng cách và an toàn.",
           "- Nhận biết và phòng tránh được một số tình huống mất an toàn khi sử dụng đèn học.",
-          "2. Năng lực chung",
-          "- Năng lực giao tiếp và hợp tác: Trao đổi với bạn về các bước sử dụng đèn học và tình huống mất an toàn.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: Biết xử lí tình huống khi đèn học đặt sai vị trí, chiếu thẳng vào mắt hoặc có dấu hiệu mất an toàn.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hành, sắp xếp bước sử dụng và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: Có ý thức sử dụng đèn học đúng cách, tiết kiệm điện và báo người lớn khi gặp tình huống nguy hiểm.",
           "- ........................................................................................................................................................................",
           "- ........................................................................................................................................................................"
         ],
@@ -601,7 +604,8 @@
               "- HS lắng nghe, nhắc lại nội dung ghi nhớ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 2: Sử dụng đèn học (Tiết 2)"
       }
     ]
   },
@@ -613,7 +617,7 @@
         "lessonTitle": "Bài 3: Sử dụng quạt điện (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tác dụng của quạt điện là tạo ra gió, giúp làm mát trong sinh hoạt hằng ngày.",
           "- Nhận biết được một số loại quạt điện thông dụng như quạt hộp, quạt trần, quạt bàn, quạt treo tường.",
@@ -750,7 +754,8 @@
               "- HS lắng nghe, nhắc lại nội dung ghi nhớ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 3: Sử dụng quạt điện (Tiết 1)"
       }
     ]
   },
@@ -762,8 +767,16 @@
         "lessonTitle": "Bài 3: Sử dụng quạt điện (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
-          "1. Năng lực đặc thù"
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
+          "1. Năng lực đặc thù",
+          "2. Năng lực chung",
+          "- Năng lực tự chủ và tự học: Tự quan sát tranh, sắp xếp các bước sử dụng quạt điện và ghi nhớ quy tắc an toàn.",
+          "- Năng lực giao tiếp và hợp tác: Thảo luận với bạn để giải thích tình huống mất an toàn và trình bày cách xử lí phù hợp.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn cách dùng quạt an toàn, tiết kiệm; liên hệ ý tưởng quạt thông minh trong cuộc sống.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực thực hành, thảo luận và hoàn thành nhiệm vụ sắp xếp các bước sử dụng quạt điện.",
+          "- Trách nhiệm: Có ý thức bảo đảm an toàn cho bản thân và người khác khi sử dụng quạt điện; biết tắt quạt khi không dùng.",
+          "4. Tích hợp: Tích hợp KNS: HS biết đặt quạt ở vị trí bằng phẳng, không cho tay hoặc vật lạ vào lồng quạt, tắt quạt khi không sử dụng để bảo đảm an toàn."
         ],
         "dodung": [
           "- Giáo viên: SGK Công nghệ 3; tranh Hình 4, Hình 5; quạt điện thật hoặc mô hình; thẻ bước sử dụng quạt điện; bài mô phỏng quạt thông minh trên Canva hoặc Google Slides; máy chiếu hoặc màn hình.",
@@ -773,14 +786,6 @@
         "dieuchinh": [
           "- Nhận biết và phòng tránh được một số tình huống mất an toàn khi sử dụng quạt điện.",
           "- Nêu được các bước sử dụng quạt điện đúng cách và an toàn trong gia đình, lớp học.",
-          "2. Năng lực chung",
-          "- Năng lực tự chủ và tự học: Tự quan sát tranh, sắp xếp các bước sử dụng quạt điện và ghi nhớ quy tắc an toàn.",
-          "- Năng lực giao tiếp và hợp tác: Thảo luận với bạn để giải thích tình huống mất an toàn và trình bày cách xử lí phù hợp.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn cách dùng quạt an toàn, tiết kiệm; liên hệ ý tưởng quạt thông minh trong cuộc sống.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hành, thảo luận và hoàn thành nhiệm vụ sắp xếp các bước sử dụng quạt điện.",
-          "- Trách nhiệm: Có ý thức bảo đảm an toàn cho bản thân và người khác khi sử dụng quạt điện; biết tắt quạt khi không dùng.",
-          "4. Tích hợp: Tích hợp KNS: HS biết đặt quạt ở vị trí bằng phẳng, không cho tay hoặc vật lạ vào lồng quạt, tắt quạt khi không sử dụng để bảo đảm an toàn.",
           "- ........................................................................................................................................................................",
           "- ........................................................................................................................................................................"
         ],
@@ -899,7 +904,8 @@
               "- HS lắng nghe, nhắc lại nội dung ghi nhớ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 3: Sử dụng quạt điện (Tiết 2)"
       }
     ]
   },
@@ -911,7 +917,7 @@
         "lessonTitle": "Bài 4: Sử dụng máy thu thanh (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tác dụng của máy thu thanh là dùng để nghe các chương trình phát thanh.",
           "- Nhận biết được một số nội dung chương trình phát thanh phù hợp như tin tức, thông tin giải trí và một số chương trình giáo dục.",
@@ -1049,7 +1055,8 @@
               "- HS lắng nghe, nhắc lại nội dung ghi nhớ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: Sử dụng máy thu thanh (Tiết 1)"
       }
     ]
   },
@@ -1061,7 +1068,7 @@
         "lessonTitle": "Bài 4: Sử dụng máy thu thanh (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Mô tả được mối quan hệ đơn giản giữa đài phát thanh và máy thu thanh dựa vào sơ đồ khối.",
           "- Nêu được đài phát thanh là nơi sản xuất chương trình phát thanh và phát tín hiệu truyền thanh qua ăng ten.",
@@ -1201,7 +1208,8 @@
               "- HS lắng nghe, nhắc lại nội dung chính của bài học."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: Sử dụng máy thu thanh (Tiết 2)"
       }
     ]
   },
@@ -1213,7 +1221,7 @@
         "lessonTitle": "Bài 4: Sử dụng máy thu thanh (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Kể tên được một số chương trình phát thanh phù hợp với lứa tuổi học sinh trên đài phát thanh.",
           "- Nêu được nội dung chính của một số chương trình phát thanh như ca nhạc thiếu nhi, thiếu nhi, đọc truyện dài kì, giáo dục từ xa.",
@@ -1354,7 +1362,8 @@
               "- HS nhắc lại nội dung chính của bài học."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: Sử dụng máy thu thanh (Tiết 3)"
       }
     ]
   },
@@ -1366,8 +1375,17 @@
         "lessonTitle": "Bài 4: Sử dụng máy thu thanh (Tiết 4)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
-          "1. Năng lực đặc thù"
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
+          "1. Năng lực đặc thù",
+          "2. Năng lực chung",
+          "- Năng lực tự chủ và tự học: Tự quan sát Hình 4, nêu thứ tự các bước sử dụng máy thu thanh và ghi nhớ quy tắc bảo quản thiết bị.",
+          "- Năng lực giao tiếp và hợp tác: Thực hành theo nhóm, lắng nghe hướng dẫn, nhận xét thao tác của bạn và phối hợp hoàn thành bảng thực hành.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực quan sát, thực hành, hoàn thành bảng kiểm và bảng chọn kênh phát thanh.",
+          "- Trách nhiệm: Có ý thức sử dụng máy thu thanh vừa đủ âm lượng, tắt nguồn khi không dùng, bảo quản thiết bị an toàn trong gia đình.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 5.1.CB1a: HS biết bảo quản máy thu thanh, không tự ý tháo lắp, không làm theo hướng dẫn sửa chữa không rõ nguồn. Công cụ cụ thể: Google Sheets dùng làm bảng kiểm bảo quản thiết bị; GV trình chiếu bảng kiểm và hướng dẫn HS đánh dấu việc nên làm, không nên làm khi sử dụng máy thu thanh.",
+          "- Tích hợp KNS: HS biết nhờ người lớn hỗ trợ khi thiết bị không hoạt động, phát âm thanh bất thường hoặc bị rè; biết sử dụng âm lượng vừa phải để không ảnh hưởng đến người xung quanh."
         ],
         "dodung": [
           "- Giáo viên: SGK Công nghệ 3; tranh Hình 4; máy thu thanh thật hoặc mô hình; thẻ các bước sử dụng máy thu thanh; bảng thực hành chọn kênh; bảng kiểm bảo quản thiết bị trên Google Sheets; máy chiếu hoặc màn hình.",
@@ -1377,15 +1395,6 @@
         "dieuchinh": [
           "- Chọn được kênh phát thanh và thay đổi âm lượng theo ý muốn dưới sự hướng dẫn của GV.",
           "- Biết bảo quản máy thu thanh, không tự ý tháo lắp và không làm theo hướng dẫn sửa chữa không rõ nguồn.",
-          "2. Năng lực chung",
-          "- Năng lực tự chủ và tự học: Tự quan sát Hình 4, nêu thứ tự các bước sử dụng máy thu thanh và ghi nhớ quy tắc bảo quản thiết bị.",
-          "- Năng lực giao tiếp và hợp tác: Thực hành theo nhóm, lắng nghe hướng dẫn, nhận xét thao tác của bạn và phối hợp hoàn thành bảng thực hành.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực quan sát, thực hành, hoàn thành bảng kiểm và bảng chọn kênh phát thanh.",
-          "- Trách nhiệm: Có ý thức sử dụng máy thu thanh vừa đủ âm lượng, tắt nguồn khi không dùng, bảo quản thiết bị an toàn trong gia đình.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 5.1.CB1a: HS biết bảo quản máy thu thanh, không tự ý tháo lắp, không làm theo hướng dẫn sửa chữa không rõ nguồn. Công cụ cụ thể: Google Sheets dùng làm bảng kiểm bảo quản thiết bị; GV trình chiếu bảng kiểm và hướng dẫn HS đánh dấu việc nên làm, không nên làm khi sử dụng máy thu thanh.",
-          "- Tích hợp KNS: HS biết nhờ người lớn hỗ trợ khi thiết bị không hoạt động, phát âm thanh bất thường hoặc bị rè; biết sử dụng âm lượng vừa phải để không ảnh hưởng đến người xung quanh.",
           "- ........................................................................................................................................................................",
           "- ........................................................................................................................................................................"
         ],
@@ -1504,7 +1513,8 @@
               "- HS lắng nghe, nhắc lại nội dung ghi nhớ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: Sử dụng máy thu thanh (Tiết 4)"
       }
     ]
   },
@@ -1516,7 +1526,7 @@
         "lessonTitle": "Bài 5: Sử dụng máy thu hình (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Trình bày được tác dụng của máy thu hình trong gia đình.",
           "- Nêu được máy thu hình dùng để xem các chương trình truyền hình như tin tức, giải trí, giáo dục.",
@@ -1655,7 +1665,8 @@
               "- HS nhắc lại: Em chỉ xem nội dung phù hợp, không tự ý tìm kiếm hoặc bấm vào nội dung lạ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: Sử dụng máy thu hình (Tiết 1)"
       }
     ]
   },
@@ -1667,7 +1678,7 @@
         "lessonTitle": "Bài 5: Sử dụng máy thu hình (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Kể được tên và nêu được nội dung của một số kênh truyền hình phổ biến, phù hợp với HS.",
           "- Nhận biết được chương trình, quảng cáo hoặc nội dung không phù hợp lứa tuổi và biết dừng xem.",
@@ -1807,7 +1818,8 @@
               "- HS nhắc lại: Em chọn chương trình phù hợp và nhờ người lớn khi gặp nội dung lạ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: Sử dụng máy thu hình (Tiết 2)"
       }
     ]
   },
@@ -1819,8 +1831,16 @@
         "lessonTitle": "Bài 5: Sử dụng máy thu hình (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
-          "1. Năng lực đặc thù"
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
+          "1. Năng lực đặc thù",
+          "2. Năng lực chung",
+          "- Năng lực tự chủ và tự học: Tự quan sát Hình 4, Hình 5 và thực hiện nhiệm vụ chọn cách sử dụng ti vi đúng.",
+          "- Năng lực giao tiếp và hợp tác: Thảo luận nhóm để nhận xét hành vi xem ti vi đúng cách, chưa đúng cách.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực thực hành, quan sát tranh, hoàn thành bảng kiểm tự đánh giá thói quen xem ti vi.",
+          "- Trách nhiệm: Có ý thức xem ti vi đúng cách, không xem quá lâu, biết nhờ người lớn hỗ trợ khi sử dụng điều khiển.",
+          "4. Tích hợp: Tích hợp KNS: HS biết chọn vị trí ngồi, giữ khoảng cách phù hợp, không xem quá lâu và không xem ti vi trong điều kiện thiếu sáng để bảo vệ mắt, bảo vệ sức khỏe.",
+          "4. Tích hợp: Tích hợp NLS 5.2.CB1a: HS biết theo dõi thời gian xem ti vi bằng bảng kiểm đơn giản, tự nhắc mình dừng xem đúng lúc. Công cụ cụ thể: Google Forms do GV tạo phiếu tự đánh giá thời gian xem ti vi. GV hướng dẫn HS hiểu rằng công cụ số không dùng để chấm điểm các em, mà giúp các em tự nhìn lại thói quen xem ti vi: hôm nay xem bao lâu, có ngồi đúng khoảng cách không, có dừng xem đúng giờ không, có hỏi người lớn khi gặp nội dung lạ không."
         ],
         "dodung": [
           "- Giáo viên: SGK Công nghệ 3; tranh Hình 4, Hình 5; tranh chọn chỗ ngồi xem ti vi; điều khiển ti vi mẫu hoặc hình ảnh điều khiển; Google Forms tự đánh giá do GV chuẩn bị.",
@@ -1831,14 +1851,6 @@
           "- Lựa chọn được vị trí ngồi bảo đảm góc nhìn và khoảng cách hợp lí khi xem ti vi.",
           "- Nhận biết được một số cách xem ti vi chưa đúng và nêu được ảnh hưởng xấu có thể xảy ra.",
           "- Biết theo dõi thời gian xem ti vi bằng bảng kiểm đơn giản và tự nhắc mình dừng xem đúng lúc.",
-          "2. Năng lực chung",
-          "- Năng lực tự chủ và tự học: Tự quan sát Hình 4, Hình 5 và thực hiện nhiệm vụ chọn cách sử dụng ti vi đúng.",
-          "- Năng lực giao tiếp và hợp tác: Thảo luận nhóm để nhận xét hành vi xem ti vi đúng cách, chưa đúng cách.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hành, quan sát tranh, hoàn thành bảng kiểm tự đánh giá thói quen xem ti vi.",
-          "- Trách nhiệm: Có ý thức xem ti vi đúng cách, không xem quá lâu, biết nhờ người lớn hỗ trợ khi sử dụng điều khiển.",
-          "4. Tích hợp: Tích hợp KNS: HS biết chọn vị trí ngồi, giữ khoảng cách phù hợp, không xem quá lâu và không xem ti vi trong điều kiện thiếu sáng để bảo vệ mắt, bảo vệ sức khỏe.",
-          "4. Tích hợp: Tích hợp NLS 5.2.CB1a: HS biết theo dõi thời gian xem ti vi bằng bảng kiểm đơn giản, tự nhắc mình dừng xem đúng lúc. Công cụ cụ thể: Google Forms do GV tạo phiếu tự đánh giá thời gian xem ti vi. GV hướng dẫn HS hiểu rằng công cụ số không dùng để chấm điểm các em, mà giúp các em tự nhìn lại thói quen xem ti vi: hôm nay xem bao lâu, có ngồi đúng khoảng cách không, có dừng xem đúng giờ không, có hỏi người lớn khi gặp nội dung lạ không.",
           "- ........................................................................................................................................................................",
           "- ........................................................................................................................................................................"
         ],
@@ -1957,7 +1969,8 @@
               "- HS cam kết: Em xem ti vi đúng cách, dừng đúng giờ và chia sẻ với người thân điều đã học."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: Sử dụng máy thu hình (Tiết 3)"
       }
     ]
   },
@@ -1969,7 +1982,7 @@
         "lessonTitle": "Bài 5: Sử dụng máy thu hình - Bài học STEM: Cẩm nang sử dụng máy thu hình (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Đề xuất được ý tưởng, hình thức, nội dung và cách làm cẩm nang sử dụng máy thu hình.",
           "- Lựa chọn được dụng cụ, vật liệu đơn giản để làm cẩm nang sử dụng máy thu hình.",
@@ -2157,7 +2170,8 @@
               "- HS đồng thanh nhắc lại: Sử dụng máy thu hình đúng cách, an toàn và hợp lí."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: Sử dụng máy thu hình - Bài học STEM: Cẩm nang sử dụng máy thu hình (Tiết 2)"
       }
     ]
   },
@@ -2169,7 +2183,7 @@
         "lessonTitle": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được một số tình huống không an toàn khi sử dụng sản phẩm công nghệ trong gia đình.",
           "- Nêu được nguy hiểm có thể xảy ra trong các tình huống như bỏng, điện giật, đứt tay, rò rỉ khí ga.",
@@ -2310,7 +2324,8 @@
               "- HS cam kết: Em quan sát cẩn thận, thực hiện quy tắc an toàn và nhắc người thân khi cần."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 1)"
       }
     ]
   },
@@ -2322,7 +2337,7 @@
         "lessonTitle": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được một số lưu ý khi sử dụng sản phẩm công nghệ trong gia đình để đảm bảo an toàn.",
           "- Biết lựa chọn hành vi sử dụng thiết bị điện, thiết bị số đúng cách và tiết kiệm năng lượng.",
@@ -2463,7 +2478,8 @@
               "- HS cam kết: Em dùng thiết bị đúng cách, tiết kiệm điện và nhắc người thân cùng thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 2)"
       }
     ]
   },
@@ -2475,7 +2491,7 @@
         "lessonTitle": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được một số sự cố không an toàn như cháy, khói, điện giật, bị vật sắc nhọn cắt hoặc đâm.",
           "- Nêu được cách xử lí ban đầu phù hợp khi gặp sự cố không an toàn trong gia đình.",
@@ -2617,7 +2633,8 @@
               "- HS đọc lại ghi nhớ: Khi có tình huống không an toàn xảy ra, cần báo cho người lớn biết hoặc gọi điện đến số điện thoại khẩn cấp."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 3)"
       }
     ]
   },
@@ -2629,7 +2646,7 @@
         "lessonTitle": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 4)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được một số việc làm thể hiện thói quen sử dụng sản phẩm công nghệ an toàn, tiết kiệm trong gia đình.",
           "- Biết tự đánh giá thói quen sử dụng thiết bị công nghệ của bản thân bằng bảng kiểm đơn giản.",
@@ -2637,7 +2654,12 @@
           "- Biết nhắc người thân dùng thiết bị đúng cách, không lãng phí điện và bảo quản đồ dùng chung.",
           "2. Năng lực chung",
           "- Năng lực tự chủ và tự học: Tự kiểm tra thói quen sử dụng thiết bị công nghệ của bản thân.",
-          "- Năng lực giao tiếp và hợp tác: Trao đổi với bạn về việc sử dụng thiết bị an toàn, tiết kiệm ở gia đình."
+          "- Năng lực giao tiếp và hợp tác: Trao đổi với bạn về việc sử dụng thiết bị an toàn, tiết kiệm ở gia đình.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Hoàn thành bảng tự đánh giá và chia sẻ việc làm phù hợp.",
+          "- Trách nhiệm: Có ý thức tiết kiệm điện, dùng thiết bị đúng hướng dẫn và nhắc người thân cùng thực hiện.",
+          "4. Tích hợp: Tích hợp NLS 5.2.CB1a: HS tự đánh giá thói quen sử dụng thiết bị công nghệ an toàn, tiết kiệm và có trách nhiệm. Công cụ cụ thể: Google Forms dùng làm bảng tự đánh giá thói quen sử dụng thiết bị.",
+          "4. Tích hợp: Tích hợp đạo đức, lối sống: HS hình thành ý thức nhắc người thân dùng thiết bị đúng cách, không lãng phí điện và bảo quản đồ dùng chung."
         ],
         "dodung": [
           "- Tranh vận dụng SGK bài 6, bảng kiểm “Em sử dụng công nghệ an toàn ở gia đình”.",
@@ -2645,13 +2667,7 @@
           "- Phiếu cam kết cá nhân, bút màu, thẻ việc nên làm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Hoàn thành bảng tự đánh giá và chia sẻ việc làm phù hợp.",
-          "- Trách nhiệm: Có ý thức tiết kiệm điện, dùng thiết bị đúng hướng dẫn và nhắc người thân cùng thực hiện.",
-          "4. Tích hợp: Tích hợp NLS 5.2.CB1a: HS tự đánh giá thói quen sử dụng thiết bị công nghệ an toàn, tiết kiệm và có trách nhiệm. Công cụ cụ thể: Google Forms dùng làm bảng tự đánh giá thói quen sử dụng thiết bị.",
-          "4. Tích hợp: Tích hợp đạo đức, lối sống: HS hình thành ý thức nhắc người thân dùng thiết bị đúng cách, không lãng phí điện và bảo quản đồ dùng chung."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2775,7 +2791,8 @@
               "- HS đọc đồng thanh: An toàn - tiết kiệm - trách nhiệm."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 4)"
       }
     ]
   },
@@ -2930,7 +2947,8 @@
               "- HS đọc lại thông điệp: Dùng công nghệ đúng cách, an toàn, tiết kiệm."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3"
       }
     ]
   },
@@ -3088,7 +3106,8 @@
               "- HS lắng nghe và hoàn thành nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3"
       }
     ]
   },
@@ -3100,7 +3119,7 @@
         "lessonTitle": "Bài 7: Dụng cụ và vật liệu làm thủ công (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Kể được tên một số vật liệu, dụng cụ đơn giản để làm thủ công.",
           "- Phân biệt được vật liệu và dụng cụ trong hoạt động làm thủ công.",
@@ -3254,7 +3273,8 @@
               "- HS đọc lại ghi nhớ: Vật liệu làm thủ công có nhiều loại; dụng cụ cần dùng đúng cách và an toàn."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 7: Dụng cụ và vật liệu làm thủ công (Tiết 1)"
       }
     ]
   },
@@ -3266,7 +3286,7 @@
         "lessonTitle": "Bài 7: Dụng cụ và vật liệu làm thủ công (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Lựa chọn được vật liệu làm thủ công phù hợp, đúng yêu cầu.",
           "- Nhận biết được một số tính chất của vật liệu như mềm, cứng, thấm nước, không thấm nước.",
@@ -3424,7 +3444,8 @@
               "- HS đọc lại ghi nhớ: Chọn dụng cụ vừa tay, hạn chế đầu sắc nhọn, tập trung khi sử dụng và cất dụng cụ ở nơi an toàn."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 7: Dụng cụ và vật liệu làm thủ công (Tiết 2)"
       }
     ]
   },
@@ -3436,7 +3457,7 @@
         "lessonTitle": "Bài 8. Làm đồ dùng học tập (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tên và tác dụng của một số đồ dùng học tập quen thuộc như bút chì, thước kẻ, tẩy, hộp bút, vở, cặp sách.",
           "- Nhận biết được một số đồ dùng học tập có thể làm từ giấy, bìa, nhựa, gỗ hoặc vật liệu thủ công phù hợp.",
@@ -3575,7 +3596,8 @@
               "- HS nhắc lại nhiệm vụ chuẩn bị và cất đồ dùng học tập gọn gàng."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 8. Làm đồ dùng học tập (Tiết 1)"
       }
     ]
   },
@@ -3587,14 +3609,20 @@
         "lessonTitle": "Bài 8. Làm đồ dùng học tập (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Lựa chọn được vật liệu và dụng cụ phù hợp để làm thước kẻ theo yêu cầu.",
           "- Thực hành được một số bước làm thước kẻ: tạo hình, tạo khung, chia vạch, hoàn thiện sản phẩm.",
           "- Sử dụng kéo, hồ dán, bút chì, thước kẻ, bút màu đúng cách và an toàn.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Thực hiện nhiệm vụ theo hướng dẫn, biết kiểm tra sản phẩm trong quá trình làm.",
-          "- Giao tiếp và hợp tác: Trao đổi, hỗ trợ bạn trong nhóm khi lựa chọn vật liệu và thực hành."
+          "- Giao tiếp và hợp tác: Trao đổi, hỗ trợ bạn trong nhóm khi lựa chọn vật liệu và thực hành.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực thực hành, hoàn thành sản phẩm theo từng bước.",
+          "- Trách nhiệm: Dùng vật liệu tiết kiệm, giữ vệ sinh khu vực học tập, bảo quản dụng cụ chung.",
+          "4. Tích hợp",
+          "- Tích hợp KNS: HS thực hành tạo sản phẩm học tập, biết phối hợp màu sắc, kích thước và công dụng của sản phẩm; biết dùng kéo, hồ dán, thước kẻ đúng cách, an toàn.",
+          "- Tích hợp BVMT: HS biết dùng vật liệu tiết kiệm, không lãng phí giấy màu, bìa và biết thu gom phần thừa sau khi làm sản phẩm."
         ],
         "dodung": [
           "- GV: SGK, hình cắt từ SGK, thước mẫu, giấy bìa, giấy màu, kéo, hồ dán, bút chì, bút màu, bảng tiêu chí sản phẩm.",
@@ -3602,12 +3630,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hành, hoàn thành sản phẩm theo từng bước.",
-          "- Trách nhiệm: Dùng vật liệu tiết kiệm, giữ vệ sinh khu vực học tập, bảo quản dụng cụ chung.",
-          "4. Tích hợp",
-          "- Tích hợp KNS: HS thực hành tạo sản phẩm học tập, biết phối hợp màu sắc, kích thước và công dụng của sản phẩm; biết dùng kéo, hồ dán, thước kẻ đúng cách, an toàn.",
-          "- Tích hợp BVMT: HS biết dùng vật liệu tiết kiệm, không lãng phí giấy màu, bìa và biết thu gom phần thừa sau khi làm sản phẩm.",
           "- Hình thức tổ chức: ................................................................................................",
           "- Ghi chú khác: ........................................................................................................"
         ],
@@ -3753,7 +3775,8 @@
               "- HS cất sản phẩm vào bìa hoặc kẹp để không bị cong, rách."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 8. Làm đồ dùng học tập (Tiết 2)"
       }
     ]
   },
@@ -3765,7 +3788,7 @@
         "lessonTitle": "Bài 9. Làm biển báo giao thông (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được ý nghĩa của một số biển báo giao thông quen thuộc như biển cấm, biển báo nguy hiểm, biển chỉ dẫn.",
           "- Nhận biết được hình dạng, màu sắc và ý nghĩa của biển báo cấm đi ngược chiều để chuẩn bị làm mô hình.",
@@ -3905,7 +3928,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị và cất đồ dùng gọn gàng."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9. Làm biển báo giao thông (Tiết 1)"
       }
     ]
   },
@@ -3917,14 +3941,20 @@
         "lessonTitle": "Bài 9. Làm biển báo giao thông (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Lựa chọn được vật liệu phù hợp, tiết kiệm để làm mô hình biển báo giao thông.",
           "- Thực hành được một số bước làm biển báo cấm đi ngược chiều: tạo biển báo, làm cột, làm đế, gắn và kiểm tra sản phẩm.",
           "- Sử dụng kéo, hồ dán, băng dính, thước kẻ, com pa đúng cách và an toàn.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Thực hiện nhiệm vụ theo các bước đã hướng dẫn, biết tự kiểm tra sản phẩm trong quá trình làm.",
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách chọn vật liệu, hỗ trợ nhau khi thực hành."
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách chọn vật liệu, hỗ trợ nhau khi thực hành.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực thực hành, hoàn thành sản phẩm theo đúng quy trình.",
+          "- Trách nhiệm: Dùng vật liệu tiết kiệm, giữ vệ sinh lớp học và bảo đảm an toàn khi dùng dụng cụ.",
+          "4. Tích hợp",
+          "- Tích hợp BVMT: HS biết lựa chọn bìa, giấy màu, que đỡ từ vật liệu tái sử dụng sạch, an toàn khi làm biển báo; biết thu gom giấy vụn, dùng vật liệu tiết kiệm.",
+          "- Tích hợp NLS 1.1.CB1a: HS xem mẫu biển báo từ nguồn GV cung cấp, không tự ý tìm kiếm hình ảnh chưa phù hợp trên Internet; công cụ cụ thể: Google Search hình ảnh do GV thao tác và chọn lọc mẫu biển báo."
         ],
         "dodung": [
           "- GV: SGK, hình cắt từ SGK, mẫu biển báo, giấy màu, bìa, que gỗ, đất nặn, kéo, hồ dán, băng dính, thước, com pa, máy tính/tivi có mẫu biển báo đã chọn lọc.",
@@ -3932,12 +3962,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hành, hoàn thành sản phẩm theo đúng quy trình.",
-          "- Trách nhiệm: Dùng vật liệu tiết kiệm, giữ vệ sinh lớp học và bảo đảm an toàn khi dùng dụng cụ.",
-          "4. Tích hợp",
-          "- Tích hợp BVMT: HS biết lựa chọn bìa, giấy màu, que đỡ từ vật liệu tái sử dụng sạch, an toàn khi làm biển báo; biết thu gom giấy vụn, dùng vật liệu tiết kiệm.",
-          "- Tích hợp NLS 1.1.CB1a: HS xem mẫu biển báo từ nguồn GV cung cấp, không tự ý tìm kiếm hình ảnh chưa phù hợp trên Internet; công cụ cụ thể: Google Search hình ảnh do GV thao tác và chọn lọc mẫu biển báo.",
           "- Hình thức tổ chức: ................................................................................................",
           "- Ghi chú khác: ........................................................................................................"
         ],
@@ -4056,7 +4080,8 @@
               "- HS hoàn thiện sản phẩm, thu dọn khu vực học tập và bảo quản mô hình cẩn thận."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9. Làm biển báo giao thông (Tiết 2)"
       }
     ]
   },
@@ -4068,7 +4093,7 @@
         "lessonTitle": "Bài 9. Làm biển báo giao thông (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Hoàn thiện, trưng bày và giới thiệu được mô hình biển báo giao thông đã làm.",
           "- Nêu được ý nghĩa của biển báo và biết cam kết chấp hành biển báo khi tham gia giao thông.",
@@ -4208,7 +4233,8 @@
               "- HS nhắc lại nội dung chính, thu dọn sản phẩm và đồ dùng học tập gọn gàng."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9. Làm biển báo giao thông (Tiết 3)"
       }
     ]
   },
@@ -4220,14 +4246,20 @@
         "lessonTitle": "Bài 9. Làm biển báo giao thông (Tiết 4)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Hoàn thiện, giới thiệu được mô hình biển báo giao thông và nêu được ý nghĩa của biển báo đã làm.",
           "- Biết lựa chọn vật liệu sẵn có để làm thêm biển báo giao thông có hình dạng khác như hình tam giác, hình tròn, hình chữ nhật.",
           "- Biết sử dụng sản phẩm để nhắc nhở bản thân, bạn bè và người thân chấp hành biển báo khi tham gia giao thông.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự kiểm tra, hoàn thiện sản phẩm theo tiêu chí đã học.",
-          "- Giao tiếp và hợp tác: Trưng bày, thuyết trình ngắn về sản phẩm và nhận xét sản phẩm của bạn lịch sự."
+          "- Giao tiếp và hợp tác: Trưng bày, thuyết trình ngắn về sản phẩm và nhận xét sản phẩm của bạn lịch sự.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực hoàn thiện sản phẩm và tham gia giới thiệu trước lớp.",
+          "- Trách nhiệm: Có ý thức chấp hành biển báo giao thông, không đăng ảnh bạn khi chưa được đồng ý.",
+          "4. Tích hợp",
+          "- Tích hợp ATGT: HS nêu ý nghĩa của biển báo và cam kết chấp hành biển báo khi tham gia giao thông.",
+          "- Tích hợp NLS 3.1.CB1a: HS chụp hoặc ghi nhận sản phẩm biển báo, thuyết trình ngắn và không đăng hình bạn khi chưa được đồng ý; công cụ cụ thể: Padlet lớp dùng để trưng bày ảnh sản phẩm theo hướng dẫn của GV."
         ],
         "dodung": [
           "- GV: SGK Công nghệ 3, hình cắt từ SGK, sản phẩm mẫu biển báo, máy tính/tivi, Padlet lớp đã tạo sẵn và kiểm duyệt quyền đăng.",
@@ -4235,12 +4267,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực hoàn thiện sản phẩm và tham gia giới thiệu trước lớp.",
-          "- Trách nhiệm: Có ý thức chấp hành biển báo giao thông, không đăng ảnh bạn khi chưa được đồng ý.",
-          "4. Tích hợp",
-          "- Tích hợp ATGT: HS nêu ý nghĩa của biển báo và cam kết chấp hành biển báo khi tham gia giao thông.",
-          "- Tích hợp NLS 3.1.CB1a: HS chụp hoặc ghi nhận sản phẩm biển báo, thuyết trình ngắn và không đăng hình bạn khi chưa được đồng ý; công cụ cụ thể: Padlet lớp dùng để trưng bày ảnh sản phẩm theo hướng dẫn của GV.",
           "- Hình thức tổ chức: ................................................................................................",
           "- Ghi chú khác: ........................................................................................................"
         ],
@@ -4359,7 +4385,8 @@
               "- HS thu dọn vật liệu, cất kéo, hồ dán, sản phẩm và vệ sinh chỗ ngồi."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9. Làm biển báo giao thông (Tiết 4)"
       }
     ]
   },
@@ -4371,7 +4398,7 @@
         "lessonTitle": "Bài 10. Làm đồ chơi (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được một số đồ chơi dân gian và đồ chơi hiện đại gần gũi với HS.",
           "- Nêu được tên, đặc điểm, vật liệu và cách chơi an toàn của một số đồ chơi.",
@@ -4511,7 +4538,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị và thu dọn đồ dùng học tập."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 10. Làm đồ chơi (Tiết 1)"
       }
     ]
   },
@@ -4523,14 +4551,20 @@
         "lessonTitle": "Bài 10. Làm đồ chơi (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được các bộ phận chính và yêu cầu của sản phẩm xe đồ chơi đơn giản.",
           "- Lựa chọn được vật liệu, dụng cụ phù hợp để làm xe đồ chơi.",
           "- Thực hiện được một số bước làm xe đồ chơi theo hướng dẫn: làm thân xe, làm trục, lắp bánh xe và kiểm tra sản phẩm.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Thực hiện nhiệm vụ theo quy trình, biết quan sát mẫu và tự kiểm tra sản phẩm.",
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách chọn vật liệu, thao tác cắt dán, lắp ghép an toàn."
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách chọn vật liệu, thao tác cắt dán, lắp ghép an toàn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực thực hành, hoàn thành từng bước làm sản phẩm.",
+          "- Trách nhiệm: Dùng vật liệu tiết kiệm, giữ vệ sinh lớp học, bảo đảm an toàn khi dùng kéo, hồ dán và vật liệu nhỏ.",
+          "4. Tích hợp",
+          "- Tích hợp BVMT: HS biết tận dụng vật liệu tái chế sạch như bìa, nắp chai, ống hút giấy để làm đồ chơi và giảm rác thải.",
+          "- Tích hợp NLS 5.1.CB1a: HS dùng kéo, băng dính, hồ dán đúng cách; biết dừng lại và báo GV khi vật liệu sắc nhọn hoặc không an toàn; công cụ cụ thể: YouTube Kids dùng để xem video thao tác an toàn do GV chọn."
         ],
         "dodung": [
           "- GV: SGK, hình cắt từ SGK, mẫu xe đồ chơi, máy tính/tivi, video thao tác an toàn đã chọn trên YouTube Kids, kéo, hồ dán, băng dính, mẫu vật liệu sạch.",
@@ -4538,12 +4572,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hành, hoàn thành từng bước làm sản phẩm.",
-          "- Trách nhiệm: Dùng vật liệu tiết kiệm, giữ vệ sinh lớp học, bảo đảm an toàn khi dùng kéo, hồ dán và vật liệu nhỏ.",
-          "4. Tích hợp",
-          "- Tích hợp BVMT: HS biết tận dụng vật liệu tái chế sạch như bìa, nắp chai, ống hút giấy để làm đồ chơi và giảm rác thải.",
-          "- Tích hợp NLS 5.1.CB1a: HS dùng kéo, băng dính, hồ dán đúng cách; biết dừng lại và báo GV khi vật liệu sắc nhọn hoặc không an toàn; công cụ cụ thể: YouTube Kids dùng để xem video thao tác an toàn do GV chọn.",
           "- Hình thức tổ chức: ................................................................................................",
           "- Ghi chú khác: ........................................................................................................"
         ],
@@ -4662,7 +4690,8 @@
               "- HS cất sản phẩm cẩn thận, thu dọn vật liệu, vệ sinh khu vực học tập."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 10. Làm đồ chơi (Tiết 2)"
       }
     ]
   },
@@ -4674,9 +4703,17 @@
         "lessonTitle": "Bài 10. Làm đồ chơi (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
-          "- Thực hành lắp ghép, thử chuyển động hoặc cách chơi của xe đồ chơi theo sản phẩm đã làm."
+          "- Thực hành lắp ghép, thử chuyển động hoặc cách chơi của xe đồ chơi theo sản phẩm đã làm.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm khi thử sản phẩm và nhận góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết tìm nguyên nhân và đề xuất cách khắc phục khi sản phẩm chưa hoạt động tốt.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực thực hành, kiên trì chỉnh sửa sản phẩm.",
+          "- Trách nhiệm: Thực hiện thao tác an toàn, giữ vệ sinh lớp học, thu gom vật liệu thừa đúng nơi quy định.",
+          "4. Tích hợp",
+          "- Tích hợp BVMT: HS thu gom vật liệu thừa, phân loại phần có thể tái sử dụng và giữ vệ sinh khu vực làm việc."
         ],
         "dodung": [
           "- GV: SGK, hình cắt từ SGK, mẫu xe đồ chơi, một số vật liệu sạch có thể tái sử dụng, thùng thu gom giấy vụn và vật liệu thừa.",
@@ -4685,14 +4722,6 @@
         "activities": [],
         "dieuchinh": [
           "- Đề xuất được cách cải tiến đơn giản để sản phẩm an toàn, chắc chắn và chơi được.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm khi thử sản phẩm và nhận góp ý lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết tìm nguyên nhân và đề xuất cách khắc phục khi sản phẩm chưa hoạt động tốt.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hành, kiên trì chỉnh sửa sản phẩm.",
-          "- Trách nhiệm: Thực hiện thao tác an toàn, giữ vệ sinh lớp học, thu gom vật liệu thừa đúng nơi quy định.",
-          "4. Tích hợp",
-          "- Tích hợp BVMT: HS thu gom vật liệu thừa, phân loại phần có thể tái sử dụng và giữ vệ sinh khu vực làm việc.",
           "- Hình thức tổ chức: ................................................................................................",
           "- Ghi chú khác: ........................................................................................................"
         ],
@@ -4811,7 +4840,8 @@
               "- HS lắng nghe, cất sản phẩm và chuẩn bị cho tiết học tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 10. Làm đồ chơi (Tiết 3)"
       }
     ]
   },
@@ -4823,7 +4853,7 @@
         "lessonTitle": "Bài 10. Làm đồ chơi (Tiết 4)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 1 tiết",
+          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Hoàn thiện và giới thiệu được sản phẩm đồ chơi đơn giản theo tiêu chí đã học.",
           "- Biết lập bảng tính chi phí làm xe đồ chơi theo các bước: liệt kê vật liệu, tìm giá tiền, tính tiền từng loại và tính tổng chi phí.",
@@ -4963,7 +4993,8 @@
               "- HS lắng nghe, cất sản phẩm và ghi nhớ cách chọn đồ chơi an toàn ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 10. Làm đồ chơi (Tiết 4)"
       }
     ]
   },
@@ -5111,7 +5142,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3"
       }
     ]
   },
@@ -5259,7 +5291,8 @@
               "- HS lắng nghe, thu dọn đồ dùng và kết thúc tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN CÔNG NGHỆ 3"
       }
     ]
   }
@@ -5277,5 +5310,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

@@ -39,11 +39,7 @@
           "- Học sinh: SGK, vở ghi, bút màu, phiếu học tập; thiết bị học tập nếu được phân công và được GV cho phép sử dụng."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 1: ĐẤT NƯỚC VÀ CON NGƯỜI VIỆT NAM",
-          "TUẦN 1"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -209,7 +205,8 @@
               "+ HS chuẩn bị bài cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: VỊ TRÍ ĐỊA LÍ, LÃNH THỔ, ĐƠN VỊ HÀNH CHÍNH, QUỐC KÌ, QUỐC HUY, QUỐC CA (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 1: VỊ TRÍ ĐỊA LÍ, LÃNH THỔ, ĐƠN VỊ HÀNH CHÍNH, QUỐC KÌ, QUỐC HUY, QUỐC CA (TIẾT 2)",
@@ -443,7 +440,8 @@
               "+ HS chuẩn bị bài học sau theo hướng dẫn của GV."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: VỊ TRÍ ĐỊA LÍ, LÃNH THỔ, ĐƠN VỊ HÀNH CHÍNH, QUỐC KÌ, QUỐC HUY, QUỐC CA (TIẾT 2)"
       }
     ]
   },
@@ -474,11 +472,7 @@
           "- Học sinh: SGK/SHS, vở ghi, bút, thước, bút màu; thiết bị học tập nếu được giáo viên phân công sử dụng trong hoạt động tích hợp."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 1: ĐẤT NƯỚC VÀ CON NGƯỜI VIỆT NAM",
-          "TUẦN 2"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -660,7 +654,8 @@
               "- HS chuẩn bị nội dung tiết sau theo hướng dẫn của GV."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 2)",
@@ -907,7 +902,8 @@
               "- HS chuẩn bị nội dung tiết sau theo hướng dẫn của GV."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 2)"
       }
     ]
   },
@@ -937,11 +933,7 @@
           "- Học sinh: SGK/SHS, vở ghi, bút, thước, bút màu; thiết bị học tập nếu được giáo viên phân công sử dụng trong hoạt động tích hợp."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 1: ĐẤT NƯỚC VÀ CON NGƯỜI VIỆT NAM",
-          "TUẦN 3"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -1083,7 +1075,8 @@
               "- HS chuẩn bị nội dung tiết sau theo hướng dẫn của GV."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 4)",
@@ -1283,7 +1276,8 @@
               "- HS tìm kiếm, sưu tầm hình ảnh hoặc thông tin theo hướng dẫn; chuẩn bị chia sẻ với bạn hoặc trình bày ở tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 4)"
       }
     ]
   },
@@ -1318,8 +1312,6 @@
         "dieuchinh": [
           "................................................................................................................................................................................",
           "................................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 1. ĐẤT NƯỚC VÀ CON NGƯỜI VIỆT NAM",
           "TUẦN: 4"
         ],
         "tables": [
@@ -1416,7 +1408,8 @@
               "- HS lắng nghe, hoàn thiện sản phẩm nếu cần."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 2)",
@@ -1559,7 +1552,8 @@
               "- HS ghi nhiệm vụ về nhà và chuẩn bị chia sẻ ở tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 2)"
       }
     ]
   },
@@ -1589,11 +1583,7 @@
           "- Học sinh: SGK, vở, bút, đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ: ĐẤT NƯỚC VÀ CON NGƯỜI VIỆT NAM",
-          "TUẦN 5"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -1767,7 +1757,8 @@
               "- HS trả lời: Em sẽ chia sẻ rằng năm 2024 Việt Nam có 101,3 triệu người và đứng thứ 3 trong khu vực Đông Nam Á."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4. DÂN CƯ VÀ DÂN TỘC Ở VIỆT NAM (Tiết 1)"
       },
       {
         "lessonTitle": "BÀI 4. DÂN CƯ VÀ DÂN TỘC Ở VIỆT NAM (Tiết 2)",
@@ -1914,7 +1905,8 @@
               "- HS trả lời: Em cần nêu một thuận lợi hoặc khó khăn do đặc điểm dân cư đó mang lại."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4. DÂN CƯ VÀ DÂN TỘC Ở VIỆT NAM (Tiết 2)"
       }
     ]
   },
@@ -1944,11 +1936,7 @@
           "- Học sinh: SGK, vở, bút, đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ: NHỮNG QUỐC GIA ĐẦU TIÊN TRÊN LÃNH THỔ VIỆT NAM",
-          "TUẦN 6"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2116,7 +2104,8 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4. DÂN CƯ VÀ DÂN TỘC Ở VIỆT NAM (Tiết 3)"
       },
       {
         "lessonTitle": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 1)",
@@ -2313,7 +2302,8 @@
               "- HS ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 1)"
       }
     ]
   },
@@ -2343,11 +2333,7 @@
           "- HS: SGK, vở ghi, bút màu, thiết bị học tập theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 2: NHỮNG QUỐC GIA ĐẦU TIÊN TRÊN LÃNH THỔ VIỆT NAM",
-          "TUẦN 7"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2499,7 +2485,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà và chuẩn bị bài học tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 2)"
       },
       {
         "lessonTitle": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 3)",
@@ -2666,7 +2653,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 3)"
       }
     ]
   },
@@ -2696,11 +2684,7 @@
           "- HS: SGK, vở ghi, bút màu, tư liệu đã sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 2: NHỮNG QUỐC GIA ĐẦU TIÊN TRÊN LÃNH THỔ VIỆT NAM",
-          "TUẦN 8"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2836,7 +2820,8 @@
               "- HS lắng nghe, tự đánh giá mức độ tham gia học tập và ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6. VƯƠNG QUỐC PHÙ NAM"
       },
       {
         "lessonTitle": "BÀI 7. VƯƠNG QUỐC CHĂM-PA (Tiết 1)",
@@ -2968,7 +2953,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. VƯƠNG QUỐC CHĂM-PA (Tiết 1)"
       }
     ]
   },
@@ -2999,11 +2985,7 @@
           "- Học sinh: SGK, vở, bút, tư liệu hoặc hình ảnh sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
-          "TUẦN 9"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3063,7 +3045,8 @@
               "- HS đọc nhiệm vụ Vận dụng.\n- HS ghi nhớ nhiệm vụ sưu tầm tranh ảnh và chia sẻ.\n- HS lắng nghe.\n- HS ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2"
       },
       {
         "lessonTitle": "TIẾT 1",
@@ -3176,7 +3159,8 @@
               "- HS đọc nhiệm vụ Vận dụng.\n- HS ghi nhớ nhiệm vụ: tìm tên di tích, đường phố, trường học liên quan đến Hai Bà Trưng, Bà Triệu, Lý Bí, Ngô Quyền,...\n- HS trả lời: Em học được lòng yêu nước, ý chí kiên cường, không chịu khuất phục và tinh thần tự chủ của cha ông.\n- HS thể hiện thái độ tự hào, biết ơn và có ý thức học tập tốt để góp phần xây dựng đất nước.\n- HS lắng nghe.\n- HS chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1"
       }
     ]
   },
@@ -3207,11 +3191,7 @@
           "- Học sinh: SGK, vở, bút, tư liệu hoặc hình ảnh sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
-          "TUẦN 10"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3287,7 +3267,8 @@
               "- HS đọc nhiệm vụ Vận dụng.\n- HS ghi nhiệm vụ: tìm hiểu và ghi lại tên di tích, địa chỉ, nhân vật liên quan.\n- HS trả lời: Em học tập chăm chỉ, sống trung thực, đoàn kết, yêu quê hương và biết bảo vệ điều đúng.\n- HS bày tỏ thái độ tự hào, biết ơn các nhân vật lịch sử tiêu biểu trong cuộc đấu tranh chống Bắc thuộc.\n- HS lắng nghe.\n- HS ghi nhớ nhiệm vụ chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 2"
       },
       {
         "lessonTitle": "TIẾT 1",
@@ -3377,7 +3358,8 @@
               "- HS đọc nhiệm vụ.\n- HS ghi nhớ nhiệm vụ sưu tầm.\n- HS trả lời: Em cần giữ vệ sinh, đi nhẹ nói khẽ, không sờ hiện vật khi chưa được phép, không viết vẽ lên di tích và tôn trọng quy định nơi tham quan.\n- HS có ý thức giữ gìn di tích lịch sử và ứng xử văn minh khi tham quan.\n- HS lắng nghe.\n- HS thực hiện nhiệm vụ chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1"
       }
     ]
   },
@@ -3409,11 +3391,7 @@
           "- Học sinh: SGK, vở, bút, thước, tư liệu hoặc hình ảnh sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
-          "Tuần 11"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3557,7 +3535,8 @@
               "- HS ghi nhớ nhiệm vụ học tập."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 2"
       },
       {
         "lessonTitle": "Tiết 3",
@@ -3734,7 +3713,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3"
       }
     ]
   },
@@ -3767,11 +3747,7 @@
           "- HS: SGK, vở ghi, bút màu, tư liệu sưu tầm về nhân vật hoặc di tích thời Trần nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ: XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
-          "TUẦN 12"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3901,7 +3877,8 @@
               "- HS lắng nghe và thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC"
       },
       {
         "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC",
@@ -4016,7 +3993,8 @@
               "- HS lắng nghe và thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC"
       }
     ]
   },
@@ -4051,8 +4029,6 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
           "TUẦN: 13"
         ],
         "tables": [
@@ -4175,7 +4151,8 @@
               "- HS lắng nghe và thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC"
       },
       {
         "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC",
@@ -4314,7 +4291,8 @@
               "- HS lắng nghe và thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC"
       }
     ]
   },
@@ -4349,10 +4327,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ: ÔN TẬP",
-          "TUẦN 14"
+          "........................................................................................................................................"
         ],
         "tables": [
           [
@@ -4410,7 +4385,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà.\n- HS lắng nghe, thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11. ÔN TẬP"
       },
       {
         "lessonTitle": "BÀI 11. ÔN TẬP",
@@ -4501,7 +4477,8 @@
               "- HS ghi nhiệm vụ về nhà.\n- HS lắng nghe và thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11. ÔN TẬP"
       }
     ]
   },
@@ -4545,8 +4522,6 @@
         "dieuchinh": [
           "..................................................................................................................",
           "..................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ: CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
           "TUẦN: 15"
         ],
         "tables": [
@@ -4714,7 +4689,8 @@
               "- HS lắng nghe và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 2)",
@@ -4894,7 +4870,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 2)"
       }
     ]
   },
@@ -4937,8 +4914,6 @@
         "dieuchinh": [
           "..................................................................................................................",
           "..................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
           "TUẦN: 16"
         ],
         "tables": [
@@ -5102,7 +5077,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 13. TRIỀU NGUYỄN (TIẾT 1)",
@@ -5290,7 +5266,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 13. TRIỀU NGUYỄN (TIẾT 1)"
       }
     ]
   },
@@ -5334,8 +5311,6 @@
         "dieuchinh": [
           "..................................................................................................................",
           "..................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
           "TUẦN: 17"
         ],
         "tables": [
@@ -5499,7 +5474,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 13. TRIỀU NGUYỄN (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 13. TRIỀU NGUYỄN (TIẾT 3)",
@@ -5706,7 +5682,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 13. TRIỀU NGUYỄN (TIẾT 3)"
       }
     ]
   },
@@ -5874,7 +5851,8 @@
               "HS nêu được 2 đến 3 việc làm phù hợp, ví dụ: học tập lịch sử nghiêm túc; biết ơn nhân vật lịch sử; giữ gìn di tích, không vẽ bậy, không xả rác; tuyên truyền với bạn bè, người thân về bảo vệ di sản; thực hiện tốt trách nhiệm của học sinh."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 18: KIỂM TRA CUỐI HỌC KÌ 1"
       },
       {
         "lessonTitle": "BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 1)",
@@ -6041,7 +6019,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 1)"
       }
     ]
   },
@@ -6082,8 +6061,6 @@
         "dieuchinh": [
           "..................................................................................................................",
           "..................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
           "TUẦN: 19"
         ],
         "tables": [
@@ -6230,7 +6207,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 1)",
@@ -6481,7 +6459,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 1)"
       }
     ]
   },
@@ -6521,8 +6500,6 @@
         "dieuchinh": [
           "..................................................................................................................",
           "..................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
           "TUẦN: 20"
         ],
         "tables": [
@@ -6665,7 +6642,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 1)",
@@ -6872,7 +6850,8 @@
               "- HS lắng nghe, chuẩn bị bài ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 1)"
       }
     ]
   },
@@ -6915,8 +6894,6 @@
         "dieuchinh": [
           "................................................................................................................",
           "................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
           "TUẦN: 21"
         ],
         "tables": [
@@ -7092,7 +7069,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ học tập ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 1)",
@@ -7322,7 +7300,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 1)"
       }
     ]
   },
@@ -7364,8 +7343,6 @@
           ".................................................................................................................................",
           ".................................................................................................................................",
           ".................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
           "TUẦN: 22"
         ],
         "tables": [
@@ -7565,7 +7542,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 1)",
@@ -7786,7 +7764,8 @@
               "- HS lắng nghe, tự đánh giá hoạt động học tập của bản thân."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 1)"
       }
     ]
   },
@@ -7828,8 +7807,6 @@
           ".................................................................................................................................",
           ".................................................................................................................................",
           ".................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
           "TUẦN: 23"
         ],
         "tables": [
@@ -8001,7 +7978,8 @@
               "- HS lắng nghe, tự đánh giá kết quả học tập."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 1)",
@@ -8194,7 +8172,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 1)"
       }
     ]
   },
@@ -8233,8 +8212,6 @@
         "dieuchinh": [
           "..................................................................................................................",
           "..................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
           "TUẦN: 24"
         ],
         "tables": [
@@ -8366,7 +8343,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 1)",
@@ -8564,7 +8542,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 1)"
       }
     ]
   },
@@ -8606,8 +8585,6 @@
         "dieuchinh": [
           "..................................................................................................................",
           "..................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
           "TUẦN: 25"
         ],
         "tables": [
@@ -8732,7 +8709,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 1)",
@@ -8901,7 +8879,8 @@
               "- HS lắng nghe, ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 1)"
       }
     ]
   },
@@ -8944,8 +8923,6 @@
         "dieuchinh": [
           "..................................................................................................................",
           "..................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
           "TUẦN: 26"
         ],
         "tables": [
@@ -9051,7 +9028,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 1)",
@@ -9231,7 +9209,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 1)"
       }
     ]
   },
@@ -9275,8 +9254,6 @@
         "dieuchinh": [
           "........................................................................................................................",
           "........................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
           "TUẦN: 27"
         ],
         "tables": [
@@ -9428,7 +9405,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 3)",
@@ -9582,7 +9560,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 3)"
       }
     ]
   },
@@ -9623,8 +9602,6 @@
         "dieuchinh": [
           "........................................................................................................................",
           "........................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
           "TUẦN: 28"
         ],
         "tables": [
@@ -9748,7 +9725,8 @@
               "- HS ghi nhớ nhiệm vụ học tập tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 4)"
       },
       {
         "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 5)",
@@ -9905,7 +9883,8 @@
               "- HS ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 5)"
       }
     ]
   },
@@ -9947,8 +9926,6 @@
         "dieuchinh": [
           "........................................................................................................................",
           "........................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
           "TUẦN: 29"
         ],
         "tables": [
@@ -10076,7 +10053,8 @@
               "- HS chia sẻ câu viết của mình, lắng nghe nhận xét và chuẩn bị bài ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 2)",
@@ -10230,7 +10208,8 @@
               "- HS chia sẻ câu viết của mình, lắng nghe nhận xét và hoàn thiện bài ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 2)"
       }
     ]
   },
@@ -10254,7 +10233,8 @@
           "- Chăm chỉ: tích cực đọc thông tin, quan sát tranh ảnh, khai thác tư liệu và hoàn thành sản phẩm học tập.",
           "- Trách nhiệm: có ý thức giữ gìn, bảo vệ nguồn nước, bảo vệ di sản văn hoá và sử dụng tư liệu học tập đúng mục đích.",
           "- Nhân ái: biết trân trọng thành quả lao động, sáng tạo của con người trong lịch sử và tôn trọng giá trị văn minh nhân loại.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS liên hệ vai trò sông Nin và ý thức bảo vệ nguồn nước đối với đời sống con người."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -10268,11 +10248,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS liên hệ vai trò sông Nin và ý thức bảo vệ nguồn nước đối với đời sống con người.",
           "........................................................................................................................",
           "........................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
           "TUẦN: 30"
         ],
         "tables": [
@@ -10408,7 +10385,8 @@
               "- HS ghi nhiệm vụ và chuẩn bị tư liệu cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24. VĂN MINH AI CẬP (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 24. VĂN MINH AI CẬP (TIẾT 2)",
@@ -10586,7 +10564,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24. VĂN MINH AI CẬP (TIẾT 2)"
       }
     ]
   },
@@ -10622,8 +10601,6 @@
         "dieuchinh": [
           "........................................................................................................................................................",
           "........................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
           "TUẦN: 31"
         ],
         "tables": [
@@ -10735,7 +10712,8 @@
               "- HS ghi gợi ý vào vở để chuẩn bị sản phẩm thẻ thông tin số ở tiết 2."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25. VĂN MINH HY LẠP (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 25. VĂN MINH HY LẠP (TIẾT 2)",
@@ -10863,7 +10841,8 @@
               "- HS lắng nghe, tự đánh giá việc học và hoàn thiện sản phẩm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25. VĂN MINH HY LẠP (TIẾT 2)"
       }
     ]
   },
@@ -10899,8 +10878,6 @@
         "dieuchinh": [
           "........................................................................................................................................................",
           "........................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
           "TUẦN: 32"
         ],
         "tables": [
@@ -11012,7 +10989,8 @@
               "- HS tiếp nhận nhiệm vụ và chuẩn bị câu trả lời."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 2)",
@@ -11140,7 +11118,8 @@
               "- HS lắng nghe, tự đánh giá một việc làm xanh mình sẽ thực hiện trong tuần."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 2)"
       }
     ]
   },
@@ -11176,8 +11155,6 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
           "TUẦN: 33"
         ],
         "tables": [
@@ -11327,7 +11304,8 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị bài cho tiết sau: tìm hiểu một số biện pháp xây dựng thế giới hòa bình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 2)",
@@ -11489,7 +11467,8 @@
               "- HS lắng nghe, ghi nhớ và tự đánh giá việc mình có thể làm để góp phần xây dựng hòa bình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 2)"
       }
     ]
   },
@@ -11526,8 +11505,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
           "TUẦN: 34"
         ],
         "tables": [
@@ -11629,7 +11606,8 @@
               "- HS lắng nghe, hoàn thiện sản phẩm hoặc hoàn thiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28. ÔN TẬP (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 28. ÔN TẬP (TIẾT 2)",
@@ -11749,7 +11727,8 @@
               "- HS nhận nhiệm vụ, ghi vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28. ÔN TẬP (TIẾT 2)"
       }
     ]
   },
@@ -11775,19 +11754,15 @@
           "- Trách nhiệm: có ý thức bảo vệ môi trường, di sản và góp phần xây dựng thế giới tốt đẹp.",
           "4. Tích hợp",
           "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS tổng kết bài học về yêu nước, trách nhiệm công dân, tôn trọng di sản, bảo vệ môi trường và sống nhân ái.",
-          "1. Năng lực đặc thù",
           "- Củng cố và đánh giá mức độ nắm kiến thức của HS về các nội dung Lịch sử và Địa lí đã học trong năm học: xây dựng và bảo vệ đất nước Việt Nam, các nước láng giềng, tìm hiểu thế giới, xây dựng thế giới xanh - sạch - đẹp và thế giới hòa bình.",
           "- Nhận biết, lựa chọn được thông tin đúng; trình bày được sự kiện, nhân vật lịch sử, đặc điểm địa lí, công trình văn minh và nội dung môi trường - hòa bình bằng câu trả lời rõ ý.",
           "- Vận dụng kiến thức đã học để nêu việc làm phù hợp của bản thân trong trân trọng lịch sử, tôn trọng di sản, bảo vệ môi trường và xây dựng hòa bình.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: tự giác ôn tập, đọc kĩ đề, tự làm bài, biết phân bố thời gian làm bài hợp lí.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức để hoàn thành câu hỏi trắc nghiệm, tự luận, bảng thông tin và câu hỏi liên hệ.",
           "- Giao tiếp: thực hiện đúng hiệu lệnh kiểm tra, nêu thắc mắc về cách làm bài khi cần, trình bày bài rõ ràng, sạch đẹp.",
-          "3. Phẩm chất",
           "- Trung thực: làm bài độc lập, không trao đổi, không sao chép bài của bạn.",
           "- Chăm chỉ: chuẩn bị bài, đọc kĩ yêu cầu, cố gắng hoàn thành đầy đủ các câu hỏi.",
           "- Trách nhiệm: nghiêm túc chấp hành quy định kiểm tra, giữ gìn bài làm sạch đẹp và nộp bài đúng thời gian.",
-          "4. Tích hợp",
           "- Không tích hợp trong tiết kiểm tra, đánh giá.",
           "Khoanh vào chữ cái trước ý trả lời đúng nhất.",
           "Câu 1. Cuộc khởi nghĩa Lam Sơn do ai lãnh đạo?",
@@ -11846,19 +11821,16 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
           "KIỂM TRA, ĐÁNH GIÁ",
           "TUẦN: 35",
           "KIỂM TRA, ĐÁNH GIÁ CUỐI NĂM (TIẾT 70)",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "PHỤ LỤC 1. MA TRẬN ĐỀ KIỂM TRA CUỐI NĂM",
-          "Môn: Lịch sử và Địa lí 5 | Thời gian: 35 phút | Tổng điểm: 10 điểm",
           "PHỤ LỤC 2. ĐỀ KIỂM TRA CUỐI NĂM",
           "TRƯỜNG: ....................................................",
           "Họ và tên: .................................................    Lớp: 5......",
           "ĐỀ KIỂM TRA CUỐI NĂM",
-          "MÔN: LỊCH SỬ VÀ ĐỊA LÍ 5",
           "Thời gian làm bài: 35 phút"
         ],
         "tables": [
@@ -12091,7 +12063,8 @@
               "C"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28. ÔN TẬP (TIẾT 3)"
       }
     ]
   }
@@ -12109,5 +12082,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

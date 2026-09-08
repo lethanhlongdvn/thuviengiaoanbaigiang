@@ -41,8 +41,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "Lịch sử và Địa lí - Tuần 1 - Tiết 2"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -262,7 +261,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1"
       },
       {
         "lessonTitle": "Tiết 2",
@@ -444,7 +444,8 @@
               "- HS lắng nghe, rút kinh nghiệm cho bản thân và ghi nhớ nhiệm vụ chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 2"
       }
     ]
   },
@@ -479,8 +480,7 @@
         "dieuchinh": [
           "................................................................................................................................................................",
           "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "Lịch sử và Địa lí - Tuần 2 - Tiết 4"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -623,7 +623,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 1)"
       },
       {
         "lessonTitle": "BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 2)",
@@ -786,7 +787,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 2)"
       }
     ]
   },
@@ -940,7 +942,8 @@
               "- HS lắng nghe, ghi nhớ nội dung chuẩn bị cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1"
       },
       {
         "lessonTitle": "Tiết 2",
@@ -1088,7 +1091,8 @@
               "- HS ghi nhớ bài học, nêu một việc bản thân có thể làm để giữ gìn di sản văn hóa."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 2"
       }
     ]
   },
@@ -1119,9 +1123,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và địa lí - Tuần 4 - Tiết 8",
-          "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -1292,7 +1294,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)"
       },
       {
         "lessonTitle": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
@@ -1476,7 +1479,8 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị bài theo yêu cầu."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)"
       }
     ]
   },
@@ -1507,9 +1511,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và Địa lí - Tuần 5 - Tiết 10",
-          "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -1650,7 +1652,8 @@
               "- HS lắng nghe, rút ra bài học khi tham quan, du lịch và ghi nhớ nhiệm vụ chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)"
       },
       {
         "lessonTitle": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
@@ -1782,7 +1785,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)"
       }
     ]
   },
@@ -1814,9 +1818,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và Địa lí - Tuần 6 - Tiết 12",
-          "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -1917,7 +1919,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)"
       },
       {
         "lessonTitle": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)",
@@ -2029,7 +2032,8 @@
               "- HS lắng nghe, hoàn thiện sản phẩm và ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)"
       }
     ]
   },
@@ -2062,9 +2066,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và địa lí - Tuần 7 - Tiết 14",
-          "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -2188,7 +2190,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)"
       },
       {
         "lessonTitle": "Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
@@ -2340,7 +2343,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)"
       }
     ]
   },
@@ -2377,9 +2381,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và địa lí - Tuần 8 - Tiết 16",
-          "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -2503,7 +2505,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 1)"
       },
       {
         "lessonTitle": "Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 2)",
@@ -2634,7 +2637,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 2)"
       }
     ]
   },
@@ -2667,9 +2671,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và địa lí - Tuần 9 - Tiết 18",
-          "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -2829,7 +2831,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)"
       },
       {
         "lessonTitle": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
@@ -2945,7 +2948,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)"
       }
     ]
   },
@@ -2980,9 +2984,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và địa lí - Tuần 10 - Tiết 20",
-          "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -3071,7 +3073,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)"
       },
       {
         "lessonTitle": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
@@ -3196,7 +3199,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)"
       }
     ]
   },
@@ -3235,9 +3239,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và địa lí - Tuần 11 - Tiết 22",
-          "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -3325,7 +3327,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)"
       },
       {
         "lessonTitle": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)",
@@ -3432,7 +3435,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)"
       }
     ]
   },
@@ -3468,9 +3472,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và địa lí - Tuần 12 - Tiết 24",
-          "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -3562,7 +3564,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)"
       },
       {
         "lessonTitle": "Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
@@ -3693,7 +3696,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)"
       }
     ]
   },
@@ -3734,9 +3738,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và địa lí - Tuần 13 - Tiết 26",
-          "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -3836,7 +3838,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 1)"
       },
       {
         "lessonTitle": "Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 2)",
@@ -3966,7 +3969,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 2)"
       }
     ]
   },
@@ -4007,8 +4011,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và Địa lí - Tuần 14 - Tiết 28"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -4096,7 +4099,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 12: THĂNG LONG – HÀ NỘI (Tiết 1)"
       },
       {
         "lessonTitle": "Bài 12: THĂNG LONG – HÀ NỘI (Tiết 2)",
@@ -4204,7 +4208,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 12: THĂNG LONG – HÀ NỘI (Tiết 2)"
       }
     ]
   },
@@ -4244,9 +4249,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và Địa lí - Tuần 15 - Tiết 30",
-          "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -4315,7 +4318,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 12: THĂNG LONG - HÀ NỘI (Tiết 3)"
       },
       {
         "lessonTitle": "Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 1)",
@@ -4418,7 +4422,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 1)"
       }
     ]
   },
@@ -4458,9 +4463,7 @@
         "activities": [],
         "dieuchinh": [
           "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và Địa lí - Tuần 16 - Tiết 32",
-          "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ"
+          "..............................................................................................................................."
         ],
         "tables": [
           [
@@ -4521,7 +4524,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 2)"
       },
       {
         "lessonTitle": "Bài 14: ÔN TẬP",
@@ -4626,7 +4630,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 14: ÔN TẬP"
       }
     ]
   },
@@ -4801,7 +4806,8 @@
               "Làng quê truyền thống, lễ hội Hội Lim, Cổ Loa; văn minh sông Hồng; Thăng Long - Hà Nội; Văn Miếu - Quốc Tử Giám."
             ]
           ]
-        ]
+        ],
+        "title": "Bài học Tuần 17"
       }
     ]
   },
@@ -4827,18 +4833,14 @@
           "4. Tích hợp",
           "- Tích hợp QPAN: HS xác định vị trí vùng ven biển, quần đảo Hoàng Sa, Trường Sa; bồi dưỡng ý thức chủ quyền biển, đảo Việt Nam.",
           "- Tích hợp AI (4.C2.1): HS hiểu được lòng cảm thông cần đi đôi với công nghệ: AI giúp dự báo chính xác, góp phần giảm thiệt hại cho đồng bào miền Trung.",
-          "1. Năng lực đặc thù",
           "– Quan sát lược đồ hoặc bản đồ, tranh ảnh, trình bày được một trong những đặc điểm thiên nhiên (ví dụ: địa hình, khí hậu, sông ngòi, đất, rừng,...) của vùng Bắc Trung Bộ và Nam Trung Bộ.",
           "– Nêu được một số đặc điểm của khí hậu ở một địa điểm thông qua đọc số liệu về lượng mưa, nhiệt độ.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: đọc thông tin, bảng số liệu và ghi lại ý chính theo nhiệm vụ.",
           "- Giao tiếp và hợp tác: làm việc nhóm 4, khăn phủ bàn để phân tích địa hình, khí hậu.",
           "- Giải quyết vấn đề và sáng tạo: liên hệ ảnh hưởng của mưa bão, hạn hán đến nguồn nước và đời sống.",
-          "3. Phẩm chất",
           "- Chăm chỉ: tích cực quan sát, tìm tòi đặc điểm tự nhiên của vùng.",
           "- Trách nhiệm: có ý thức sử dụng nước tiết kiệm, giữ gìn nguồn nước trong sinh hoạt.",
           "- Yêu nước: thêm yêu cảnh quan thiên nhiên đa dạng của vùng Bắc Trung Bộ và Nam Trung Bộ.",
-          "4. Tích hợp",
           "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS nhận biết tác động của mưa, bão, hạn hán đến nguồn nước; biết sử dụng nước tiết kiệm, không làm ô nhiễm nguồn nước và thực hiện việc làm phù hợp để bảo vệ nguồn nước."
         ],
         "dodung": [
@@ -4849,8 +4851,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "────────────────────────────────────────",
-          "TUẦN 18 – TIẾT 2 (PPCT 36)BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 2)"
+          "────────────────────────────────────────"
         ],
         "tables": [
           [
@@ -5061,7 +5062,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ"
       }
     ]
   },
@@ -5087,18 +5089,14 @@
           "- Yêu nước: trân trọng cảnh quan, tài nguyên thiên nhiên của vùng.",
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB1a: HS đọc bản đồ/lược đồ để xác định sông ngòi, đất, rừng, biển đảo của vùng.",
-          "1. Năng lực đặc thù",
           "– Nêu được một số tác động của thiên nhiên đối với hoạt động sản xuất và đời sống của người dân ở vùng Bắc Trung Bộ và Nam Trung Bộ.",
           "– Đề xuất được ở mức độ đơn giản một số biện pháp bảo vệ thiên nhiên và phòng, chống thiên tai.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: đọc thông tin, quan sát tranh ảnh, hoàn thành phiếu học tập.",
           "- Giao tiếp và hợp tác: làm việc nhóm 4 theo kĩ thuật khăn phủ bàn để phân loại tác động tích cực, tiêu cực.",
           "- Giải quyết vấn đề và sáng tạo: đề xuất biện pháp phù hợp để bảo vệ thiên nhiên, giảm rủi ro thiên tai.",
-          "3. Phẩm chất",
           "- Trách nhiệm: có ý thức giữ rừng, giữ nguồn nước, bảo vệ bờ biển và tài nguyên thiên nhiên.",
           "- Nhân ái: cảm thông, sẵn sàng chia sẻ với người dân gặp khó khăn do thiên tai.",
           "- Chăm chỉ: tích cực tham gia thảo luận, hoàn thành phiếu học tập.",
-          "4. Tích hợp",
           "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS nêu việc làm giữ gìn rừng, nguồn nước, bờ biển; không khai thác tài nguyên bừa bãi; biết bảo vệ nguồn nước trước tác động của bão, lũ, hạn hán."
         ],
         "dodung": [
@@ -5109,8 +5107,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "────────────────────────────────────────",
-          "TUẦN 19 – TIẾT 4 (PPCT 38)BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 4)"
+          "────────────────────────────────────────"
         ],
         "tables": [
           [
@@ -5282,7 +5279,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ"
       }
     ]
   },
@@ -5309,17 +5307,13 @@
           "- Chăm chỉ: tích cực luyện tập, đọc bảng số liệu chính xác.",
           "4. Tích hợp",
           "- Tích hợp QPAN: HS nhận biết phòng, chống thiên tai góp phần bảo vệ đời sống nhân dân; biết chấp hành hướng dẫn của người lớn, lực lượng chức năng và chia sẻ phù hợp với đồng bào vùng bão lũ.",
-          "1. Năng lực đặc thù",
           "– Thể hiện được thái độ cảm thông và sẵn sàng có hành động chia sẻ với người dân gặp thiên tai.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: lựa chọn nhiệm vụ vận dụng phù hợp, hoàn thành sản phẩm cá nhân.",
           "- Giao tiếp và hợp tác: trao đổi nhóm 4, trình bày và nhận xét sản phẩm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: phân biệt thông tin đáng tin cậy, lựa chọn cách chia sẻ phù hợp khi gặp thông tin về thiên tai.",
-          "3. Phẩm chất",
           "- Nhân ái: cảm thông, chia sẻ với người dân vùng thiên tai bằng việc làm phù hợp.",
           "- Trách nhiệm: sử dụng thông tin, hình ảnh, video về thiên tai đúng nguồn, không lan truyền tin sai.",
           "- Chăm chỉ: hoàn thiện sản phẩm vận dụng theo yêu cầu.",
-          "4. Tích hợp",
           "- Tích hợp NLS 1.2.CB1a: GV dùng hình ảnh/video/AI mô phỏng thiên tai đã kiểm duyệt; HS phân biệt thông tin đáng tin cậy và thông tin cần kiểm chứng."
         ],
         "dodung": [
@@ -5330,8 +5324,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "────────────────────────────────────────",
-          "TUẦN 20 – TIẾT 6 (PPCT 40)BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 6)"
+          "────────────────────────────────────────"
         ],
         "tables": [
           [
@@ -5512,7 +5505,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ"
       }
     ]
   },
@@ -5520,17 +5514,6 @@
     "week": 21,
     "sourceFile": "LSĐL TUẦN 21.docx",
     "lessons": [
-      {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
-        "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
-        "yccd": [
-          "TUẦN 21 – TIẾT 1 (PPCT 41)"
-        ],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
       {
         "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
@@ -5552,10 +5535,7 @@
           "- HS: SGK, vở ghi, bút màu, bảng nhóm nhỏ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4",
-          "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -5607,18 +5587,8 @@
               "- HS viết: Em sẽ tôn trọng bạn bè, không chê bai sự khác biệt; em sẽ tìm hiểu văn hóa các dân tộc bằng thái độ lịch sự.\n- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
-      },
-      {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
-        "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
-        "yccd": [
-          "TUẦN 21 – TIẾT 2 (PPCT 42)"
         ],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
+        "title": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 2)",
@@ -5694,7 +5664,8 @@
               "- HS nêu: mặc áo phao, đi cùng người lớn, không xả rác xuống biển, không đùa nghịch trên tàu thuyền, nghe theo hướng dẫn của lực lượng chức năng.\n- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 2)"
       }
     ]
   },
@@ -5702,17 +5673,6 @@
     "week": 22,
     "sourceFile": "LSĐL TUẦN 22.docx",
     "lessons": [
-      {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
-        "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
-        "yccd": [
-          "TUẦN 22 – TIẾT 3 (PPCT 43)"
-        ],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
       {
         "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 3)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
@@ -5734,10 +5694,7 @@
           "- HS: SGK, vở ghi, bút màu, bảng nhóm nhỏ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4",
-          "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -5793,18 +5750,8 @@
               "- HS nêu: cà phê dùng làm thức uống; cao su dùng sản xuất lốp xe, đồ dùng; hồ tiêu làm gia vị; bò, lợn cung cấp thực phẩm.\n- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
-      },
-      {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
-        "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
-        "yccd": [
-          "TUẦN 22 – TIẾT 4 (PPCT 44)"
         ],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
+        "title": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 4)",
@@ -5887,7 +5834,8 @@
               "- HS trình bày; HS khác nhận xét, bổ sung lịch sự.\n- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 4)"
       }
     ]
   },
@@ -5924,8 +5872,7 @@
         "dieuchinh": [
           "- ................................................................................................................................................",
           "- ................................................................................................................................................",
-          "- ................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY - TUẦN 23"
+          "- ................................................................................................................................................"
         ],
         "tables": [
           [
@@ -6026,7 +5973,8 @@
               "- Ghi nhớ nhiệm vụ sưu tầm tranh ảnh/thông tin về lễ hội cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1: Di sản thế giới"
       },
       {
         "lessonTitle": "Tiết 2: Lễ hội",
@@ -6147,7 +6095,8 @@
               "- Ghi nhiệm vụ chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 2: Lễ hội"
       }
     ]
   },
@@ -6264,7 +6213,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng: hoàn thiện sản phẩm sưu tầm và chuẩn bị đọc trước bài 18."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3"
       },
       {
         "lessonTitle": "Tiết 1",
@@ -6393,7 +6343,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà: đọc trước câu chuyện về anh hùng Núp và chuẩn bị 3 ý chính để kể lại."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1"
       }
     ]
   },
@@ -6429,8 +6380,7 @@
         "activities": [],
         "dieuchinh": [
           "- ................................................................................................................................................",
-          "- ................................................................................................................................................",
-          "TUẦN 25"
+          "- ................................................................................................................................................"
         ],
         "tables": [
           [
@@ -6519,7 +6469,8 @@
               "- HS ghi nhớ yêu cầu về nhà và cam kết kiểm tra thông tin trước khi sử dụng."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 2"
       },
       {
         "lessonTitle": "Tiết 1",
@@ -6651,7 +6602,8 @@
               "- HS ghi nhiệm vụ chuẩn bị tiết 2: đọc trước Hoạt động 3, sưu tầm hình ảnh hoặc thông tin có nguồn rõ ràng."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1"
       }
     ]
   },
@@ -6687,8 +6639,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4 - TUẦN 26"
+          "- ............................................................................................................................................................"
         ],
         "tables": [
           [
@@ -6789,7 +6740,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà và chuẩn bị bài mới."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 19: CỐ ĐÔ HUẾ (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 20: PHỐ CỔ HỘI AN (TIẾT 1)",
@@ -6913,7 +6865,8 @@
               "- HS lắng nghe và chuẩn bị bài theo yêu cầu."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20: PHỐ CỔ HỘI AN (TIẾT 1)"
       }
     ]
   },
@@ -6949,8 +6902,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4 - TUẦN 27"
+          "- ............................................................................................................................................................"
         ],
         "tables": [
           [
@@ -7035,7 +6987,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20: PHỐ CỔ HỘI AN (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 21: LỄ HỘI CỒNG CHIÊNG TÂY NGUYÊN (TIẾT 1)",
@@ -7150,7 +7103,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: LỄ HỘI CỒNG CHIÊNG TÂY NGUYÊN (TIẾT 1)"
       }
     ]
   },
@@ -7188,8 +7142,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4 - TUẦN 28"
+          "- ............................................................................................................................................................"
         ],
         "tables": [
           [
@@ -7270,7 +7223,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: LỄ HỘI CỒNG CHIÊNG TÂY NGUYÊN (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 1)",
@@ -7395,7 +7349,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 1)"
       }
     ]
   },
@@ -7432,8 +7387,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4 - TUẦN 29"
+          "- ............................................................................................................................................................"
         ],
         "tables": [
           [
@@ -7518,7 +7472,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 3)",
@@ -7626,7 +7581,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 3)"
       }
     ]
   },
@@ -7664,8 +7620,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4 - TUẦN 30"
+          "- ................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -7766,7 +7721,8 @@
               "- HS lắng nghe và chuẩn bị bài."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 23: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG NAM BỘ (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 23: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG NAM BỘ (TIẾT 2)",
@@ -7887,7 +7843,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 23: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG NAM BỘ (TIẾT 2)"
       }
     ]
   },
@@ -7926,8 +7883,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4 - TUẦN 31"
+          "- ............................................................................................................................................................"
         ],
         "tables": [
           [
@@ -8013,7 +7969,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 23: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG NAM BỘ (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 24: MỘT SỐ NÉT VĂN HOÁ VÀ TRUYỀN THỐNG YÊU NƯỚC, CÁCH MẠNG CỦA ĐỒNG BÀO NAM BỘ (TIẾT 1)",
@@ -8145,7 +8102,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài, sưu tầm tranh ảnh hoặc câu chuyện phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24: MỘT SỐ NÉT VĂN HOÁ VÀ TRUYỀN THỐNG YÊU NƯỚC, CÁCH MẠNG CỦA ĐỒNG BÀO NAM BỘ (TIẾT 1)"
       }
     ]
   },
@@ -8183,8 +8141,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4 - TUẦN 32"
+          "- ............................................................................................................................................................"
         ],
         "tables": [
           [
@@ -8289,7 +8246,8 @@
               "- HS ghi nhớ nhiệm vụ, chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24: MỘT SỐ NÉT VĂN HOÁ VÀ TRUYỀN THỐNG YÊU NƯỚC, CÁCH MẠNG CỦA ĐỒNG BÀO NAM BỘ (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 25: THÀNH PHỐ HỒ CHÍ MINH (TIẾT 1)",
@@ -8437,7 +8395,8 @@
               "- HS lắng nghe và chuẩn bị tranh ảnh, thông tin nếu có."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25: THÀNH PHỐ HỒ CHÍ MINH (TIẾT 1)"
       }
     ]
   },
@@ -8472,8 +8431,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- ............................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4 - TUẦN 33"
+          "- ............................................................................................................................................................"
         ],
         "tables": [
           [
@@ -8566,7 +8524,8 @@
               "- HS lắng nghe, ghi nhiệm vụ và chuẩn bị sản phẩm ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25: THÀNH PHỐ HỒ CHÍ MINH (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 26: ĐỊA ĐẠO CỦ CHI",
@@ -8702,7 +8661,8 @@
               "- HS ghi nhớ nhiệm vụ, chuẩn bị bài sau và thực hiện nội quy khi tham quan di tích."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26: ĐỊA ĐẠO CỦ CHI"
       }
     ]
   },
@@ -8726,18 +8686,9 @@
           "- Yêu nước: yêu quê hương, yêu Tổ quốc; tự hào về các vùng miền của đất nước.",
           "- Chăm chỉ: tích cực tham gia hoạt động ôn tập, hoàn thành nhiệm vụ được giao.",
           "- Trách nhiệm: có ý thức giữ gìn di sản, cảnh quan, truyền thống văn hoá và lịch sử của dân tộc.",
-          "1. Năng lực đặc thù",
           "- Hệ thống hoá được kiến thức trọng tâm về vùng Bắc Trung Bộ và Nam Trung Bộ, vùng Nam Bộ qua hoạt động đóng vai hướng dẫn viên du lịch.",
           "- Giới thiệu được một vùng đã học theo gợi ý: tên vùng, danh lam thắng cảnh/di tích, câu chuyện lịch sử, lí do yêu thích và cảm nghĩ của bản thân.",
-          "- Biết vận dụng kiến thức lịch sử, địa lí đã học để chia sẻ, nhận xét và hoàn thiện sản phẩm ôn tập.",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: chủ động đọc lại SGK, quan sát bảng/hình ảnh và hoàn thành nhiệm vụ ôn tập.",
-          "- Giao tiếp và hợp tác: biết trao đổi trong nhóm, lắng nghe, nhận xét và bổ sung ý kiến cho bạn.",
-          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn thông tin phù hợp, trình bày kiến thức bằng bảng, sơ đồ hoặc lời giới thiệu ngắn.",
-          "3. Phẩm chất",
-          "- Yêu nước: yêu quê hương, yêu Tổ quốc; tự hào về các vùng miền của đất nước.",
-          "- Chăm chỉ: tích cực tham gia hoạt động ôn tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: có ý thức giữ gìn di sản, cảnh quan, truyền thống văn hoá và lịch sử của dân tộc."
+          "- Biết vận dụng kiến thức lịch sử, địa lí đã học để chia sẻ, nhận xét và hoàn thiện sản phẩm ôn tập."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -8758,8 +8709,6 @@
         "activities": [],
         "dieuchinh": [
           "- ....................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4",
-          "TUẦN 34 - BÀI 27: ÔN TẬP (TIẾT 2)",
           "- ...................................................................................................................................................."
         ],
         "tables": [
@@ -8911,7 +8860,8 @@
               "- HS lắng nghe, ghi nhiệm vụ ôn tập ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4"
       }
     ]
   },
@@ -8973,32 +8923,20 @@
           "B. TỰ LUẬN (6 điểm)",
           "Câu 9. (2 điểm) Nêu hai thuận lợi và hai khó khăn của môi trường thiên nhiên vùng Nam Bộ đối với sản xuất và sinh hoạt của người dân.",
           "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
           "Câu 10. (1,5 điểm) Kể tên ba hoạt động sản xuất tiêu biểu ở vùng Nam Bộ và nêu một sản phẩm hoặc nơi phân bố phù hợp với mỗi hoạt động đó.",
-          "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
           "Câu 11. (1,5 điểm) Theo em, học sinh cần làm gì để góp phần bảo tồn và phát huy giá trị của Cố đô Huế, phố cổ Hội An hoặc lễ hội Cồng chiêng Tây Nguyên? Nêu ít nhất ba việc làm cụ thể.",
-          "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
           "Câu 12. (1 điểm) Viết đoạn văn ngắn 4 - 5 câu thể hiện mong muốn của em về Thành phố Hồ Chí Minh trong tương lai.",
-          "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
-          "...........................................................................................................................................................",
           "ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM",
-          "A. TRẮC NGHIỆM (4 điểm)",
           "Mỗi câu đúng được 0,5 điểm.",
-          "B. TỰ LUẬN (6 điểm)",
           "Lưu ý khi chấm:",
           "- HS có cách diễn đạt khác nhưng đúng ý vẫn cho điểm tối đa theo từng ý.",
           "- Câu tự luận được chấm linh hoạt theo mức độ đầy đủ, chính xác, rõ ràng của câu trả lời.",
           "- Bài làm trình bày sạch đẹp, rõ ràng có thể được ghi nhận trong phần nhận xét; không cộng quá thang điểm 10."
         ],
-        "dodung": [],
+        "dodung": [
+          "- GV: SGK, máy tính, bài giảng điện tử môn Lịch sử và Địa lý.",
+          "- HS: SGK, vở ghi, đồ dùng học tập."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -9161,7 +9099,8 @@
               "1,0"
             ]
           ]
-        ]
+        ],
+        "title": "MA TRẬN ĐỀ KIỂM TRA CUỐI NĂM"
       }
     ]
   }
@@ -9179,5 +9118,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

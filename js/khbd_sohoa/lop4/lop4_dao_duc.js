@@ -22,14 +22,7 @@
           "- Biết vì sao phải biết ơn người lao động.",
           "- Nhận biết được sự cần thiết của sản phẩm, dịch vụ do người lao động tạo ra đối với cuộc sống.",
           "- Bước đầu có thái độ trân trọng, biết ơn công sức lao động của mọi người.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, thẻ ý kiến, phiếu thảo luận nhóm.",
-          "- HS: SGK, vở ghi, bút, thẻ màu hoặc bảng con, tranh ảnh/sản phẩm sưu tầm theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến với bạn; phối hợp trong thảo luận nhóm và trình bày kết quả học tập.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét, lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến người lao động.",
           "3. Phẩm chất",
@@ -37,7 +30,14 @@
           "- Chăm chỉ: Tích cực học tập, rèn luyện để sau này trở thành người lao động có ích.",
           "- Trách nhiệm: Biết giữ gìn thành quả lao động, nhắc nhở bạn bè cùng thể hiện thái độ lịch sự, biết ơn.",
           "4. Tích hợp:",
-          "- Tích hợp AI (4.A1.1; 4.C2.1): Mục tiêu: Nhận biết AI là công cụ hỗ trợ người lao động tăng năng suất. Hoạt động: Tìm hiểu về các \"người lao động thông minh\" (Robot thu hoạch lúa, AI chẩn đoán bệnh) để thấy công nghệ giúp giảm bớt sự vất vả của con người.",
+          "- Tích hợp AI (4.A1.1; 4.C2.1): Mục tiêu: Nhận biết AI là công cụ hỗ trợ người lao động tăng năng suất. Hoạt động: Tìm hiểu về các \"người lao động thông minh\" (Robot thu hoạch lúa, AI chẩn đoán bệnh) để thấy công nghệ giúp giảm bớt sự vất vả của con người."
+        ],
+        "dodung": [
+          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, thẻ ý kiến, phiếu thảo luận nhóm.",
+          "- HS: SGK, vở ghi, bút, thẻ màu hoặc bảng con, tranh ảnh/sản phẩm sưu tầm theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
@@ -137,7 +137,8 @@
               "- HS lắng nghe, ghi nhiệm vụ và chuẩn bị bài theo hướng dẫn của GV."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 1: BIẾT ƠN NGƯỜI LAO ĐỘNG (TIẾT 1)"
       }
     ]
   },
@@ -154,14 +155,7 @@
           "- Phân biệt được việc làm thể hiện và chưa thể hiện sự biết ơn người lao động.",
           "- Biết lựa chọn lời nói, việc làm phù hợp với lứa tuổi để bày tỏ sự trân trọng người lao động.",
           "- Bước đầu biết nhắc nhở bạn bè, người thân có thái độ tôn trọng người lao động.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, thẻ ý kiến, phiếu thảo luận nhóm.",
-          "- HS: SGK, vở ghi, bút, thẻ màu hoặc bảng con, tranh ảnh/sản phẩm sưu tầm theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến với bạn; phối hợp trong thảo luận nhóm và trình bày kết quả học tập.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét, lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến người lao động.",
           "3. Phẩm chất",
@@ -169,7 +163,14 @@
           "- Chăm chỉ: Tích cực học tập, rèn luyện để sau này trở thành người lao động có ích.",
           "- Trách nhiệm: Biết giữ gìn thành quả lao động, nhắc nhở bạn bè cùng thể hiện thái độ lịch sự, biết ơn.",
           "4. Tích hợp:",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết thể hiện lòng biết ơn người lao động bằng lời nói và việc làm cụ thể; biết chào hỏi, cảm ơn, giúp đỡ người lao động phù hợp với khả năng.",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết thể hiện lòng biết ơn người lao động bằng lời nói và việc làm cụ thể; biết chào hỏi, cảm ơn, giúp đỡ người lao động phù hợp với khả năng."
+        ],
+        "dodung": [
+          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, thẻ ý kiến, phiếu thảo luận nhóm.",
+          "- HS: SGK, vở ghi, bút, thẻ màu hoặc bảng con, tranh ảnh/sản phẩm sưu tầm theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
@@ -250,7 +251,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ; cam kết thực hiện việc làm biết ơn người lao động và chuẩn bị bài mới."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 1: BIẾT ƠN NGƯỜI LAO ĐỘNG (TIẾT 2)"
       }
     ]
   },
@@ -267,14 +269,7 @@
           "- Nhận xét được việc làm thể hiện hoặc chưa thể hiện sự biết ơn người lao động trong tình huống cụ thể.",
           "- Giải thích được vì sao cần tôn trọng mọi người lao động chân chính.",
           "- Có thái độ lịch sự, lễ phép, biết trân trọng thành quả lao động.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, thẻ ý kiến, phiếu thảo luận nhóm.",
-          "- HS: SGK, vở ghi, bút, thẻ màu hoặc bảng con, tranh ảnh/sản phẩm sưu tầm theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến với bạn; phối hợp trong thảo luận nhóm và trình bày kết quả học tập.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét, lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến người lao động.",
           "3. Phẩm chất",
@@ -282,7 +277,14 @@
           "- Chăm chỉ: Tích cực học tập, rèn luyện để sau này trở thành người lao động có ích.",
           "- Trách nhiệm: Biết giữ gìn thành quả lao động, nhắc nhở bạn bè cùng thể hiện thái độ lịch sự, biết ơn.",
           "4. Tích hợp:",
-          "- Tích hợp QCN: HS biết người lao động có quyền được tôn trọng; hình thành thái độ biết ơn, lễ phép với người lao động.",
+          "- Tích hợp QCN: HS biết người lao động có quyền được tôn trọng; hình thành thái độ biết ơn, lễ phép với người lao động."
+        ],
+        "dodung": [
+          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, thẻ ý kiến, phiếu thảo luận nhóm.",
+          "- HS: SGK, vở ghi, bút, thẻ màu hoặc bảng con, tranh ảnh/sản phẩm sưu tầm theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
@@ -390,7 +392,8 @@
               "- HS lắng nghe, ghi nhiệm vụ; chuẩn bị ý kiến và lời khuyên để tham gia hoạt động đóng vai ở tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 1: BIẾT ƠN NGƯỜI LAO ĐỘNG (TIẾT 3)"
       }
     ]
   },
@@ -407,14 +410,7 @@
           "- Nêu được lời khuyên phù hợp dành cho bạn trong các tình huống cụ thể.",
           "- Vận dụng kiến thức đã học vào thực tiễn qua việc làm, lời nói cụ thể phù hợp với lứa tuổi.",
           "- Biết sưu tầm, chia sẻ tư liệu, xây dựng tiểu phẩm để lan tỏa lòng biết ơn người lao động.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, thẻ ý kiến, phiếu thảo luận nhóm.",
-          "- HS: SGK, vở ghi, bút, thẻ màu hoặc bảng con, tranh ảnh/sản phẩm sưu tầm theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến với bạn; phối hợp trong thảo luận nhóm và trình bày kết quả học tập.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét, lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến người lao động.",
           "3. Phẩm chất",
@@ -423,7 +419,14 @@
           "- Trách nhiệm: Biết giữ gìn thành quả lao động, nhắc nhở bạn bè cùng thể hiện thái độ lịch sự, biết ơn.",
           "4. Tích hợp:",
           "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS tìm tranh ảnh, bài thơ, câu chuyện về người lao động từ nguồn phù hợp; biết ghi nguồn và chọn thông tin tin cậy.",
-          "Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Thể hiện lòng biết ơn người lao động bằng việc làm cụ thể.",
+          "Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Thể hiện lòng biết ơn người lao động bằng việc làm cụ thể."
+        ],
+        "dodung": [
+          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, thẻ ý kiến, phiếu thảo luận nhóm.",
+          "- HS: SGK, vở ghi, bút, thẻ màu hoặc bảng con, tranh ảnh/sản phẩm sưu tầm theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
@@ -519,7 +522,8 @@
               "- HS lắng nghe, đọc/nhắc lại câu tục ngữ “Ăn quả nhớ người trồng cây” và nêu quyết tâm thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 1: BIẾT ƠN NGƯỜI LAO ĐỘNG (TIẾT 4)"
       }
     ]
   },
@@ -536,14 +540,7 @@
           "- Nhận biết được những hoàn cảnh khó khăn trong cuộc sống qua tranh ảnh, câu chuyện gần gũi.",
           "- Biết nêu một số việc làm thể hiện sự cảm thông, giúp đỡ người gặp khó khăn phù hợp với lứa tuổi.",
           "- Bước đầu hình thành thái độ quan tâm, chia sẻ với những người xung quanh.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, bài hát “Bầu và bí”, phiếu thảo luận, thẻ bày tỏ ý kiến.",
-          "- HS: SGK, vở ghi, bút, thẻ màu/bảng con, tư liệu sưu tầm theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến với bạn; phối hợp trong thảo luận nhóm, đóng vai và trình bày kết quả học tập.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử nhân ái, tế nhị và phù hợp với khả năng của bản thân.",
           "3. Phẩm chất",
@@ -551,7 +548,14 @@
           "- Trách nhiệm: Biết quan tâm đến người xung quanh, không thờ ơ trước khó khăn của người khác; thực hiện việc giúp đỡ vừa sức.",
           "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện thói quen sống biết quan tâm, chia sẻ.",
           "4. Tích hợp:",
-          "- Tích hợp giáo dục quyền con người: HS nhận biết người gặp khó khăn có quyền được cảm thông, hỗ trợ và không bị phân biệt đối xử; biết giúp đỡ bằng việc làm phù hợp, an toàn.",
+          "- Tích hợp giáo dục quyền con người: HS nhận biết người gặp khó khăn có quyền được cảm thông, hỗ trợ và không bị phân biệt đối xử; biết giúp đỡ bằng việc làm phù hợp, an toàn."
+        ],
+        "dodung": [
+          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, bài hát “Bầu và bí”, phiếu thảo luận, thẻ bày tỏ ý kiến.",
+          "- HS: SGK, vở ghi, bút, thẻ màu/bảng con, tư liệu sưu tầm theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
@@ -624,7 +628,8 @@
               "- HS lắng nghe, thực hiện việc quan sát và giúp đỡ phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 2: CẢM THÔNG, GIÚP ĐỠ NGƯỜI GẶP KHÓ KHĂN (TIẾT 1)"
       }
     ]
   },
@@ -641,14 +646,7 @@
           "- Nêu được ý nghĩa của sự cảm thông, giúp đỡ đối với người đang gặp khó khăn và những người xung quanh.",
           "- Biết bày tỏ suy nghĩ, cảm xúc trước việc làm nhân ái trong câu chuyện.",
           "- Có ý thức thể hiện sự quan tâm, giúp đỡ người gặp khó khăn bằng việc làm phù hợp.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, bài hát “Bầu và bí”, phiếu thảo luận, thẻ bày tỏ ý kiến.",
-          "- HS: SGK, vở ghi, bút, thẻ màu/bảng con, tư liệu sưu tầm theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến với bạn; phối hợp trong thảo luận nhóm, đóng vai và trình bày kết quả học tập.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử nhân ái, tế nhị và phù hợp với khả năng của bản thân.",
           "3. Phẩm chất",
@@ -657,7 +655,14 @@
           "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện thói quen sống biết quan tâm, chia sẻ.",
           "4. Tích hợp:",
           "- Tích hợp AI (4.A2.2): Mục tiêu: Nhận biết AI hỗ trợ người yếu thế để nối dài lòng nhân ái. Hoạt động: Giới thiệu các ứng dụng AI giúp người khiếm thị \"nhìn\" vật dụng hoặc AI chuyển giọng nói thành văn bản cho người khiếm thính.",
-          "- Tích hợp QCN: HS nhận biết trẻ em/người gặp khó khăn có quyền được bảo vệ, chăm sóc, giúp đỡ và không bị phân biệt đối xử.",
+          "- Tích hợp QCN: HS nhận biết trẻ em/người gặp khó khăn có quyền được bảo vệ, chăm sóc, giúp đỡ và không bị phân biệt đối xử."
+        ],
+        "dodung": [
+          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, bài hát “Bầu và bí”, phiếu thảo luận, thẻ bày tỏ ý kiến.",
+          "- HS: SGK, vở ghi, bút, thẻ màu/bảng con, tư liệu sưu tầm theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
@@ -730,7 +735,8 @@
               "- HS lắng nghe, chuẩn bị nội dung cho tiết 3."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 2: CẢM THÔNG, GIÚP ĐỠ NGƯỜI GẶP KHÓ KHĂN (TIẾT 2)"
       }
     ]
   },
@@ -747,14 +753,7 @@
           "- Biết bày tỏ ý kiến đồng tình hoặc không đồng tình trước các nhận định, lời nói liên quan đến sự cảm thông, giúp đỡ người gặp khó khăn.",
           "- Lựa chọn được thái độ, hành vi phù hợp khi cảm thông, giúp đỡ người gặp khó khăn.",
           "- Biết chia sẻ thông điệp giúp đỡ người gặp khó khăn một cách lịch sự, tôn trọng quyền riêng tư.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, bài hát “Bầu và bí”, phiếu thảo luận, thẻ bày tỏ ý kiến.",
-          "- HS: SGK, vở ghi, bút, thẻ màu/bảng con, tư liệu sưu tầm theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến với bạn; phối hợp trong thảo luận nhóm, đóng vai và trình bày kết quả học tập.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử nhân ái, tế nhị và phù hợp với khả năng của bản thân.",
           "3. Phẩm chất",
@@ -762,7 +761,14 @@
           "- Trách nhiệm: Biết quan tâm đến người xung quanh, không thờ ơ trước khó khăn của người khác; thực hiện việc giúp đỡ vừa sức.",
           "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện thói quen sống biết quan tâm, chia sẻ.",
           "4. Tích hợp:",
-          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS chia sẻ thông điệp giúp đỡ người khó khăn trên môi trường số một cách lịch sự, không đăng hình ảnh/thông tin riêng tư khi chưa được đồng ý.",
+          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS chia sẻ thông điệp giúp đỡ người khó khăn trên môi trường số một cách lịch sự, không đăng hình ảnh/thông tin riêng tư khi chưa được đồng ý."
+        ],
+        "dodung": [
+          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, bài hát “Bầu và bí”, phiếu thảo luận, thẻ bày tỏ ý kiến.",
+          "- HS: SGK, vở ghi, bút, thẻ màu/bảng con, tư liệu sưu tầm theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
@@ -873,7 +879,8 @@
               "- HS ghi nhớ nhiệm vụ, chuẩn bị cho tiết 4."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 2: CẢM THÔNG, GIÚP ĐỠ NGƯỜI GẶP KHÓ KHĂN (TIẾT 3)"
       }
     ]
   },
@@ -890,14 +897,7 @@
           "- Biết xây dựng kế hoạch giúp đỡ người gặp khó khăn phù hợp với khả năng của bản thân.",
           "- Vận dụng kiến thức đã học vào thực tiễn qua lời nói, việc làm cụ thể.",
           "- Sẵn sàng lan tỏa tinh thần nhân ái trong lớp học, gia đình và cộng đồng.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, bài hát “Bầu và bí”, phiếu thảo luận, thẻ bày tỏ ý kiến.",
-          "- HS: SGK, vở ghi, bút, thẻ màu/bảng con, tư liệu sưu tầm theo yêu cầu của giáo viên."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến với bạn; phối hợp trong thảo luận nhóm, đóng vai và trình bày kết quả học tập.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử nhân ái, tế nhị và phù hợp với khả năng của bản thân.",
           "3. Phẩm chất",
@@ -905,7 +905,14 @@
           "- Trách nhiệm: Biết quan tâm đến người xung quanh, không thờ ơ trước khó khăn của người khác; thực hiện việc giúp đỡ vừa sức.",
           "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, rèn luyện thói quen sống biết quan tâm, chia sẻ.",
           "4. Tích hợp:",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS sẵn sàng giúp đỡ người gặp khó khăn phù hợp với khả năng, biết lan tỏa tinh thần nhân ái trong lớp và cộng đồng.",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS sẵn sàng giúp đỡ người gặp khó khăn phù hợp với khả năng, biết lan tỏa tinh thần nhân ái trong lớp và cộng đồng."
+        ],
+        "dodung": [
+          "- GV: SGK Đạo đức 4, máy tính, ti vi/máy chiếu, tranh ảnh trong SGK, bài hát “Bầu và bí”, phiếu thảo luận, thẻ bày tỏ ý kiến.",
+          "- HS: SGK, vở ghi, bút, thẻ màu/bảng con, tư liệu sưu tầm theo yêu cầu của giáo viên."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
@@ -990,7 +997,8 @@
               "- HS ghi nhiệm vụ, phối hợp với nhóm và người thân để thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 2: CẢM THÔNG, GIÚP ĐỠ NGƯỜI GẶP KHÓ KHĂN (TIẾT 4)"
       }
     ]
   },
@@ -1138,7 +1146,8 @@
               "........................................................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH DẠY HỌC MÔN ĐẠO ĐỨC LỚP 4"
       }
     ]
   },
@@ -1230,7 +1239,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 3: YÊU LAO ĐỘNG (TIẾT 1)"
       }
     ]
   },
@@ -1322,7 +1332,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 3: YÊU LAO ĐỘNG (TIẾT 2)"
       }
     ]
   },
@@ -1450,7 +1461,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 3: YÊU LAO ĐỘNG (TIẾT 3)"
       }
     ]
   },
@@ -1575,7 +1587,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 3: YÊU LAO ĐỘNG (TIẾT 4)"
       }
     ]
   },
@@ -1722,7 +1735,8 @@
               "- HS nhận nhiệm vụ, chuẩn bị câu chuyện ngắn cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: TÔN TRỌNG TÀI SẢN CỦA NGƯỜI KHÁC (TIẾT 1)"
       }
     ]
   },
@@ -1841,7 +1855,8 @@
               "- HS nhận nhiệm vụ, chuẩn bị ví dụ cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: TÔN TRỌNG TÀI SẢN CỦA NGƯỜI KHÁC (TIẾT 2)"
       }
     ]
   },
@@ -2033,7 +2048,8 @@
               "- HS đọc đồng thanh thông điệp, ghi nhớ bài học."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 4: TÔN TRỌNG TÀI SẢN CỦA NGƯỜI KHÁC (TIẾT 3)"
       }
     ]
   },
@@ -2050,14 +2066,7 @@
           "- Đánh giá được hành vi đúng/sai, phù hợp/chưa phù hợp trong các tình huống đạo đức gắn với 4 chủ đề đã học ở học kì I.",
           "- Đề xuất được cách ứng xử phù hợp, an toàn, tôn trọng trong học tập, gia đình, nhà trường và cộng đồng.",
           "- Lựa chọn được một việc làm cụ thể để thực hiện sau tiết học nhằm rèn thói quen sống nhân ái, chăm chỉ, trung thực và có trách nhiệm.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Máy tính, ti vi, thẻ chủ đề, thẻ hành vi, phiếu học tập theo trạm, bảng nhóm, bút dạ, thẻ mặt cười/mặt mếu.",
-          "- HS: SGK, vở ghi, bút, ví dụ thực tế về một trong bốn chủ đề đã học, thẻ lựa chọn hoặc bảng con."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phản hồi lịch sự; hợp tác với bạn trong hoạt động nhóm, hoạt động theo trạm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, đề xuất nhiều cách xử lí và lựa chọn cách ứng xử phù hợp.",
           "3. Phẩm chất",
@@ -2066,7 +2075,14 @@
           "- Trung thực, trách nhiệm: Biết tôn trọng, bảo vệ tài sản của người khác; trung thực khi làm hư, làm mất hoặc nhặt được đồ.",
           "4. Tích hợp:",
           "- Tích hợp giáo dục quyền con người: HS củng cố nhận thức về quyền sở hữu tài sản, quyền được tôn trọng và bổn phận không xâm phạm tài sản của người khác.",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS thực hành lối sống trung thực, có trách nhiệm, biết tôn trọng tài sản của người khác qua các tình huống ôn tập cuối học kì I.",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS thực hành lối sống trung thực, có trách nhiệm, biết tôn trọng tài sản của người khác qua các tình huống ôn tập cuối học kì I."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, thẻ chủ đề, thẻ hành vi, phiếu học tập theo trạm, bảng nhóm, bút dạ, thẻ mặt cười/mặt mếu.",
+          "- HS: SGK, vở ghi, bút, ví dụ thực tế về một trong bốn chủ đề đã học, thẻ lựa chọn hoặc bảng con."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -2278,7 +2294,8 @@
               ""
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH DẠY HỌC MÔN ĐẠO ĐỨC LỚP 4"
       }
     ]
   },
@@ -2297,7 +2314,14 @@
           "- Biết nhắc nhở mọi người giữ gìn, bảo vệ của công.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, phối hợp khi thực hiện nhiệm vụ học tập.",
-          "- Giải quyết vấn đề và sáng tạo: Nhận biết tình huống, lựa chọn cách xử lí phù hợp để bảo vệ của công."
+          "- Giải quyết vấn đề và sáng tạo: Nhận biết tình huống, lựa chọn cách xử lí phù hợp để bảo vệ của công.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, thực hiện việc làm bảo vệ của công.",
+          "- Trách nhiệm: Có ý thức giữ gìn, bảo vệ của công; nhắc nhở người khác cùng thực hiện.",
+          "- Nhân ái: Biết tôn trọng lợi ích chung, không gây thiệt hại cho tập thể và cộng đồng.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (4.A2.1): Mục tiêu: Biết AI hỗ trợ xã hội bảo vệ các giá trị chung. Hoạt động: Tìm hiểu về hệ thống camera thông minh (AI) tại công viên hoặc thư viện giúp phát hiện các hành vi phá hoại tài sản công để cảnh báo kịp thời.",
+          "- Tích hợp ANQP: HS hiểu lợi ích của việc bảo vệ tài sản chung, công trình công cộng, cây xanh, thiết bị trường lớp; biết không phá hoại, không lãng phí của công."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, tranh ảnh SGK, phiếu học tập, thẻ bày tỏ ý kiến.",
@@ -2305,13 +2329,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động, thực hiện việc làm bảo vệ của công.",
-          "- Trách nhiệm: Có ý thức giữ gìn, bảo vệ của công; nhắc nhở người khác cùng thực hiện.",
-          "- Nhân ái: Biết tôn trọng lợi ích chung, không gây thiệt hại cho tập thể và cộng đồng.",
-          "4. Tích hợp:",
-          "- Tích hợp AI (4.A2.1): Mục tiêu: Biết AI hỗ trợ xã hội bảo vệ các giá trị chung. Hoạt động: Tìm hiểu về hệ thống camera thông minh (AI) tại công viên hoặc thư viện giúp phát hiện các hành vi phá hoại tài sản công để cảnh báo kịp thời.",
-          "- Tích hợp ANQP: HS hiểu lợi ích của việc bảo vệ tài sản chung, công trình công cộng, cây xanh, thiết bị trường lớp; biết không phá hoại, không lãng phí của công.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -2439,7 +2456,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà và chuẩn bị chia sẻ ở tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: BẢO VỆ CỦA CÔNG (TIẾT 1)"
       }
     ]
   },
@@ -2458,7 +2476,13 @@
           "- Có ý thức nhắc nhở bạn bè cùng bảo vệ tài sản chung.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, phối hợp khi thực hiện nhiệm vụ học tập.",
-          "- Giải quyết vấn đề và sáng tạo: Nhận biết tình huống, lựa chọn cách xử lí phù hợp để bảo vệ của công."
+          "- Giải quyết vấn đề và sáng tạo: Nhận biết tình huống, lựa chọn cách xử lí phù hợp để bảo vệ của công.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, thực hiện việc làm bảo vệ của công.",
+          "- Trách nhiệm: Có ý thức giữ gìn, bảo vệ của công; nhắc nhở người khác cùng thực hiện.",
+          "- Nhân ái: Biết tôn trọng lợi ích chung, không gây thiệt hại cho tập thể và cộng đồng.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS biết mình có quyền tham gia giữ gìn, bảo vệ của công và có bổn phận giữ gìn tài sản chung của nhà trường, cộng đồng."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, tranh ảnh SGK, phiếu học tập, thẻ bày tỏ ý kiến.",
@@ -2466,12 +2490,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động, thực hiện việc làm bảo vệ của công.",
-          "- Trách nhiệm: Có ý thức giữ gìn, bảo vệ của công; nhắc nhở người khác cùng thực hiện.",
-          "- Nhân ái: Biết tôn trọng lợi ích chung, không gây thiệt hại cho tập thể và cộng đồng.",
-          "4. Tích hợp:",
-          "- Tích hợp QCN: HS biết mình có quyền tham gia giữ gìn, bảo vệ của công và có bổn phận giữ gìn tài sản chung của nhà trường, cộng đồng.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -2599,7 +2617,8 @@
               "- HS lắng nghe, thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: BẢO VỆ CỦA CÔNG (TIẾT 2)"
       }
     ]
   },
@@ -2618,7 +2637,13 @@
           "- Biết nhắc nhở mọi người giữ gìn, bảo vệ của công bằng lời nói và hành động phù hợp.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, phối hợp khi thực hiện nhiệm vụ học tập.",
-          "- Giải quyết vấn đề và sáng tạo: Nhận biết tình huống, lựa chọn cách xử lí phù hợp để bảo vệ của công."
+          "- Giải quyết vấn đề và sáng tạo: Nhận biết tình huống, lựa chọn cách xử lí phù hợp để bảo vệ của công.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, thực hiện việc làm bảo vệ của công.",
+          "- Trách nhiệm: Có ý thức giữ gìn, bảo vệ của công; nhắc nhở người khác cùng thực hiện.",
+          "- Nhân ái: Biết tôn trọng lợi ích chung, không gây thiệt hại cho tập thể và cộng đồng.",
+          "4. Tích hợp:",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết nhắc nhở mọi người giữ gìn của công, góp phần xây dựng trường lớp văn minh, sạch đẹp."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, tranh ảnh SGK, phiếu học tập, thẻ bày tỏ ý kiến.",
@@ -2626,12 +2651,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động, thực hiện việc làm bảo vệ của công.",
-          "- Trách nhiệm: Có ý thức giữ gìn, bảo vệ của công; nhắc nhở người khác cùng thực hiện.",
-          "- Nhân ái: Biết tôn trọng lợi ích chung, không gây thiệt hại cho tập thể và cộng đồng.",
-          "4. Tích hợp:",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết nhắc nhở mọi người giữ gìn của công, góp phần xây dựng trường lớp văn minh, sạch đẹp.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -2755,7 +2774,8 @@
               "- HS lắng nghe, thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 5: BẢO VỆ CỦA CÔNG (TIẾT 3)"
       }
     ]
   },
@@ -2773,7 +2793,11 @@
           "- Bước đầu lựa chọn được cách làm quen, kết bạn phù hợp với tình huống ở trường học và nơi ở.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ ý kiến trong nhóm/cặp; phối hợp khi chơi trò chơi và thảo luận; tôn trọng ý kiến bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách làm phù hợp để thiết lập quan hệ bạn bè; đề xuất thêm cách làm khác."
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách làm phù hợp để thiết lập quan hệ bạn bè; đề xuất thêm cách làm khác.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn; cư xử thân thiện, tôn trọng bạn bè.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (4.A1.2): Mục tiêu: Phân biệt tình bạn thực sự và tương tác mô phỏng của AI. Hoạt động: Thảo luận: Một chatbot AI có thể nói lời ngọt ngào, nhưng nó có thực sự là \"bạn\" biết buồn vui và sẻ chia như người bạn thật sự không?"
         ],
         "dodung": [
           "- GV: máy tính, ti vi, tranh ảnh SGK, thẻ mặt cười/mặt mếu, bảng phụ.",
@@ -2781,11 +2805,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn; cư xử thân thiện, tôn trọng bạn bè.",
-          "- Yêu mến, quý trọng bạn bè: Trân trọng tình bạn; biết hợp tác, đoàn kết và giữ gìn mối quan hệ tốt đẹp với bạn.",
-          "4. Tích hợp:",
-          "- Tích hợp AI (4.A1.2): Mục tiêu: Phân biệt tình bạn thực sự và tương tác mô phỏng của AI. Hoạt động: Thảo luận: Một chatbot AI có thể nói lời ngọt ngào, nhưng nó có thực sự là \"bạn\" biết buồn vui và sẻ chia như người bạn thật sự không?"
+          "- Yêu mến, quý trọng bạn bè: Trân trọng tình bạn; biết hợp tác, đoàn kết và giữ gìn mối quan hệ tốt đẹp với bạn."
         ],
         "tables": [
           [
@@ -2904,7 +2924,8 @@
               "- HS ghi nhớ nhiệm vụ; chuẩn bị chia sẻ ở tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 6: THIẾT LẬP QUAN HỆ BẠN BÈ (TIẾT 1)"
       }
     ]
   },
@@ -2922,7 +2943,11 @@
           "- Biết đưa ra lời khuyên phù hợp để giúp bạn tự tin làm quen và duy trì tình bạn tốt đẹp.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Thảo luận nhóm/cặp, trình bày ý kiến rõ ràng; biết lắng nghe, nhận xét và bổ sung phù hợp.",
-          "- Giải quyết vấn đề và sáng tạo: Phân tích các trường hợp, lựa chọn cách xử lí phù hợp; đưa ra lời khuyên thiết thực cho bạn."
+          "- Giải quyết vấn đề và sáng tạo: Phân tích các trường hợp, lựa chọn cách xử lí phù hợp; đưa ra lời khuyên thiết thực cho bạn.",
+          "3. Phẩm chất",
+          "- Nhân ái: Quan tâm, chia sẻ, giúp đỡ bạn; cư xử thân thiện, không gây tổn thương cho bạn.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS biết quyền được kết bạn, được tôn trọng; giao tiếp với bạn trong nhóm lớp/môi trường số lịch sự, không nói xấu, không chia sẻ thông tin riêng của bạn."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, tranh ảnh SGK, phiếu học tập, bảng phụ.",
@@ -2930,11 +2955,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Nhân ái: Quan tâm, chia sẻ, giúp đỡ bạn; cư xử thân thiện, không gây tổn thương cho bạn.",
-          "- Yêu mến, quý trọng bạn bè: Trân trọng tình bạn; biết giữ lời hứa, hợp tác, cùng bạn xây dựng môi trường lớp học đoàn kết.",
-          "4. Tích hợp:",
-          "- Tích hợp QCN: HS biết quyền được kết bạn, được tôn trọng; giao tiếp với bạn trong nhóm lớp/môi trường số lịch sự, không nói xấu, không chia sẻ thông tin riêng của bạn."
+          "- Yêu mến, quý trọng bạn bè: Trân trọng tình bạn; biết giữ lời hứa, hợp tác, cùng bạn xây dựng môi trường lớp học đoàn kết."
         ],
         "tables": [
           [
@@ -3049,7 +3070,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 6: THIẾT LẬP QUAN HỆ BẠN BÈ (TIẾT 2)"
       }
     ]
   },
@@ -3066,7 +3088,13 @@
           "- Nhận biết được cách đơn giản để duy trì quan hệ bạn bè.",
           "- Có quan hệ tốt với bạn bè ở trường học, làng xóm.",
           "2. Năng lực chung",
-          "- Năng lực giao tiếp và hợp tác: Trao đổi, lắng nghe, trình bày ý kiến rõ ràng khi thảo luận; phối hợp trong nhóm; tôn trọng bạn bè."
+          "- Năng lực giao tiếp và hợp tác: Trao đổi, lắng nghe, trình bày ý kiến rõ ràng khi thảo luận; phối hợp trong nhóm; tôn trọng bạn bè.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Phân tích tình huống; đề xuất cách duy trì tình bạn; vận dụng vào thực tế.",
+          "3. Phẩm chất",
+          "- Nhân ái: Quan tâm, chia sẻ, giúp đỡ bạn; tôn trọng sự khác biệt; không làm bạn tổn thương.",
+          "- Trách nhiệm: Giữ lời hứa, ứng xử đúng mực; chủ động duy trì và xây dựng mối quan hệ bạn bè bền vững.",
+          "4. Tích hợp:",
+          "- Tích hợp giáo dục quyền con người: HS có quyền được tôn trọng, được kết bạn, được tham gia hoạt động cùng bạn bè trong môi trường an toàn; không bị phân biệt đối xử, không bị bắt nạt, trêu chọc; biết giữ gìn tình bạn bằng sự quan tâm và tôn trọng."
         ],
         "dodung": [
           "- GV: Máy tính, SGK",
@@ -3074,12 +3102,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giải quyết vấn đề và sáng tạo: Phân tích tình huống; đề xuất cách duy trì tình bạn; vận dụng vào thực tế.",
-          "3. Phẩm chất",
-          "- Nhân ái: Quan tâm, chia sẻ, giúp đỡ bạn; tôn trọng sự khác biệt; không làm bạn tổn thương.",
-          "- Trách nhiệm: Giữ lời hứa, ứng xử đúng mực; chủ động duy trì và xây dựng mối quan hệ bạn bè bền vững.",
-          "4. Tích hợp:",
-          "- Tích hợp giáo dục quyền con người: HS có quyền được tôn trọng, được kết bạn, được tham gia hoạt động cùng bạn bè trong môi trường an toàn; không bị phân biệt đối xử, không bị bắt nạt, trêu chọc; biết giữ gìn tình bạn bằng sự quan tâm và tôn trọng.",
           "…………………………………………………………………………………"
         ],
         "tables": [
@@ -3175,7 +3197,8 @@
               "- HS nêu lại các cách: tôn trọng, chia sẻ, giúp đỡ, động viên, quan tâm; bổ sung giữ lời hứa, xin lỗi đúng lúc; cam kết thực hiện 1 việc làm cụ thể."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 7: DUY TRÌ QUAN HỆ BẠN BÈ (TIẾT 1)"
       }
     ]
   },
@@ -3190,7 +3213,14 @@
           "1. Năng lực đặc thù",
           "- Củng cố kiến thức, biết bày tỏ thái độ, nhận xét hành vi, xử lí tình huống liên quan đến việc duy trì quan hệ bạn bè.",
           "2. Năng lực chung",
-          "- Năng lực giao tiếp và hợp tác: Thảo luận nhóm/cặp, trình bày rõ ràng; lắng nghe và tôn trọng ý kiến của bạn."
+          "- Năng lực giao tiếp và hợp tác: Thảo luận nhóm/cặp, trình bày rõ ràng; lắng nghe và tôn trọng ý kiến của bạn.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Phân tích tranh/tình huống; lựa chọn cách xử lí phù hợp; đưa ra phương án duy trì tình bạn.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn; không ích kỉ, không làm bạn buồn.",
+          "- Trách nhiệm: Có ý thức giữ gìn tình bạn; không tiết lộ bí mật của bạn; biết bảo vệ bạn khi cần.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (4.D2.1): Mục tiêu: Sử dụng công nghệ để gắn kết bạn bè một cách trách nhiệm. Hoạt động: Học sinh cùng nhau đánh giá các ứng dụng liên lạc có AI, đề xuất các \"quy tắc ứng xử lịch sự\" để duy trì tình bạn đẹp trong môi trường số.",
+          "- Tích hợp QCN: HS biết tôn trọng, lắng nghe, chia sẻ để duy trì tình bạn; không phân biệt đối xử, không cô lập bạn."
         ],
         "dodung": [
           "- GV: Máy tính, SGK",
@@ -3198,13 +3228,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giải quyết vấn đề và sáng tạo: Phân tích tranh/tình huống; lựa chọn cách xử lí phù hợp; đưa ra phương án duy trì tình bạn.",
-          "3. Phẩm chất",
-          "- Nhân ái: Biết quan tâm, chia sẻ, giúp đỡ bạn; không ích kỉ, không làm bạn buồn.",
-          "- Trách nhiệm: Có ý thức giữ gìn tình bạn; không tiết lộ bí mật của bạn; biết bảo vệ bạn khi cần.",
-          "4. Tích hợp:",
-          "- Tích hợp AI (4.D2.1): Mục tiêu: Sử dụng công nghệ để gắn kết bạn bè một cách trách nhiệm. Hoạt động: Học sinh cùng nhau đánh giá các ứng dụng liên lạc có AI, đề xuất các \"quy tắc ứng xử lịch sự\" để duy trì tình bạn đẹp trong môi trường số.",
-          "- Tích hợp QCN: HS biết tôn trọng, lắng nghe, chia sẻ để duy trì tình bạn; không phân biệt đối xử, không cô lập bạn.",
           "…………………………………………………………………………………"
         ],
         "tables": [
@@ -3303,7 +3326,8 @@
               "- HS nêu lại các cách; chọn 1 việc sẽ thực hiện trong tuần để duy trì tình bạn và ghi vào vở."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 7: DUY TRÌ QUAN HỆ BẠN BÈ (TIẾT 2)"
       }
     ]
   },
@@ -3318,7 +3342,13 @@
           "1. Năng lực đặc thù",
           "- Củng cố kiến thức, biết bày tỏ thái độ, nhận xét hành vi, xử lí tình huống liên quan đến việc duy trì quan hệ bạn bè.",
           "2. Năng lực chung",
-          "- Năng lực giao tiếp và hợp tác: Thảo luận nhóm đôi/nhóm; phối hợp xây dựng kịch bản và sắm vai; lắng nghe và nhận xét tích cực."
+          "- Năng lực giao tiếp và hợp tác: Thảo luận nhóm đôi/nhóm; phối hợp xây dựng kịch bản và sắm vai; lắng nghe và nhận xét tích cực.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Đưa lời khuyên phù hợp; xử lí tình huống; xây dựng kịch bản, sắm vai sáng tạo.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết cảm thông, động viên, giúp đỡ bạn; cư xử thân thiện.",
+          "- Trách nhiệm: Giữ gìn tình bạn; không bao che lỗi sai; cư xử đúng mực; góp phần xây dựng môi trường lớp học an toàn.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS biết nhắn tin, trao đổi với bạn trên môi trường số bằng lời lẽ phù hợp; không đăng ảnh, video của bạn khi chưa được đồng ý."
         ],
         "dodung": [
           "- GV: Máy tính, SGK",
@@ -3326,12 +3356,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giải quyết vấn đề và sáng tạo: Đưa lời khuyên phù hợp; xử lí tình huống; xây dựng kịch bản, sắm vai sáng tạo.",
-          "3. Phẩm chất",
-          "- Nhân ái: Biết cảm thông, động viên, giúp đỡ bạn; cư xử thân thiện.",
-          "- Trách nhiệm: Giữ gìn tình bạn; không bao che lỗi sai; cư xử đúng mực; góp phần xây dựng môi trường lớp học an toàn.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS biết nhắn tin, trao đổi với bạn trên môi trường số bằng lời lẽ phù hợp; không đăng ảnh, video của bạn khi chưa được đồng ý.",
           "…………………………………………………………………………………"
         ],
         "tables": [
@@ -3415,7 +3439,8 @@
               "- HS sưu tầm ít nhất 2 câu về tình bạn; ghi vào vở; nêu ý nghĩa và 1 việc làm cụ thể để thực hiện theo câu đó."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 7: DUY TRÌ QUAN HỆ BẠN BÈ (TIẾT 3)"
       }
     ]
   },
@@ -3560,7 +3585,8 @@
               "- HS chia sẻ cam kết của mình.\n- HS lắng nghe, ghi nhớ.\n- HS thực hiện ở lớp, ở nhà hoặc ở khu phố."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH DẠY HỌC MÔN ĐẠO ĐỨC LỚP 4"
       }
     ]
   },
@@ -3576,7 +3602,13 @@
           "- Nêu được vai trò của tiền trong đời sống hằng ngày qua tranh và ví dụ cụ thể.",
           "- Biết tiền phục vụ các nhu cầu chính đáng như học tập, sinh hoạt, chăm sóc sức khỏe, giúp đỡ người khác.",
           "- Bước đầu biết sử dụng tiền đúng mục đích, không lãng phí và biết hỏi ý kiến người lớn khi cần.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: Trao đổi nhóm/cặp, trình bày ý kiến rõ ràng, lắng nghe và tôn trọng ý kiến bạn khi thảo luận.",
+          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống chi tiêu, bảo quản, tiết kiệm tiền; lựa chọn cách làm phù hợp với lứa tuổi.",
+          "3. Phẩm chất:",
+          "- Trách nhiệm: Có ý thức bảo quản và tiết kiệm tiền; chi tiêu hợp lí; trân trọng công sức lao động tạo ra tiền.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (4.A2.1; 4.C2.1): Mục tiêu: Nhận biết AI hỗ trợ quản lý tài chính thông minh. Hoạt động: Giới thiệu các ứng dụng quản lý chi tiêu sử dụng AI để giúp con người biết tiết kiệm và chi tiêu hợp lý theo điều kiện gia đình."
         ],
         "dodung": [
           "- GV: SGK, SGV, tranh ảnh bài học, máy chiếu/ti vi, phiếu học tập, thẻ bày tỏ ý kiến, bảng nhóm.",
@@ -3584,12 +3616,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi nhóm/cặp, trình bày ý kiến rõ ràng, lắng nghe và tôn trọng ý kiến bạn khi thảo luận.",
-          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống chi tiêu, bảo quản, tiết kiệm tiền; lựa chọn cách làm phù hợp với lứa tuổi.",
-          "3. Phẩm chất:",
-          "- Trách nhiệm: Có ý thức bảo quản và tiết kiệm tiền; chi tiêu hợp lí; trân trọng công sức lao động tạo ra tiền.",
-          "4. Tích hợp:",
-          "- Tích hợp AI (4.A2.1; 4.C2.1): Mục tiêu: Nhận biết AI hỗ trợ quản lý tài chính thông minh. Hoạt động: Giới thiệu các ứng dụng quản lý chi tiêu sử dụng AI để giúp con người biết tiết kiệm và chi tiêu hợp lý theo điều kiện gia đình.",
           "...............................................................................................................................",
           "...............................................................................................................................",
           "..............................................................................................................................."
@@ -3648,7 +3674,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ; nêu nhanh một việc sẽ làm: giữ gìn đồ dùng học tập, không đòi mua đồ chưa cần, tiết kiệm điện nước."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1 - TUẦN 27"
       }
     ]
   },
@@ -3664,7 +3691,13 @@
           "- Biết vì sao phải quý trọng đồng tiền qua câu chuyện “Hũ bạc của người cha”.",
           "- Hiểu tiền là thành quả từ công sức, trí tuệ và thời gian lao động của con người.",
           "- Biết liên hệ việc sử dụng tiền cá nhân đúng mục đích, phù hợp với điều kiện gia đình.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: Trao đổi nhóm/cặp, trình bày ý kiến rõ ràng, lắng nghe và tôn trọng ý kiến bạn khi thảo luận.",
+          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống chi tiêu, bảo quản, tiết kiệm tiền; lựa chọn cách làm phù hợp với lứa tuổi.",
+          "3. Phẩm chất:",
+          "- Trách nhiệm: Có ý thức bảo quản và tiết kiệm tiền; chi tiêu hợp lí; trân trọng công sức lao động tạo ra tiền.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS nhận biết quyền về tài sản cá nhân; biết sử dụng tiền đúng mục đích, phù hợp với điều kiện gia đình."
         ],
         "dodung": [
           "- GV: SGK, SGV, tranh ảnh bài học, máy chiếu/ti vi, phiếu học tập, thẻ bày tỏ ý kiến, bảng nhóm.",
@@ -3672,12 +3705,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi nhóm/cặp, trình bày ý kiến rõ ràng, lắng nghe và tôn trọng ý kiến bạn khi thảo luận.",
-          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống chi tiêu, bảo quản, tiết kiệm tiền; lựa chọn cách làm phù hợp với lứa tuổi.",
-          "3. Phẩm chất:",
-          "- Trách nhiệm: Có ý thức bảo quản và tiết kiệm tiền; chi tiêu hợp lí; trân trọng công sức lao động tạo ra tiền.",
-          "4. Tích hợp:",
-          "- Tích hợp QCN: HS nhận biết quyền về tài sản cá nhân; biết sử dụng tiền đúng mục đích, phù hợp với điều kiện gia đình.",
           "...............................................................................................................................",
           "...............................................................................................................................",
           "..............................................................................................................................."
@@ -3732,7 +3759,8 @@
               "- HS viết: giữ gìn đồ dùng học tập, không tiêu tiền tùy tiện, hỏi bố mẹ trước khi mua đồ, bỏ tiền tiết kiệm vào heo đất."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2 - TUẦN 28"
       }
     ]
   },
@@ -3748,7 +3776,13 @@
           "- Biết nêu một số cách bảo quản tiền đúng cách trong sinh hoạt hằng ngày.",
           "- Nêu được một số cách tiết kiệm tiền khi mua sắm quần áo, đồ dùng, đồ chơi, quà bánh phù hợp với hoàn cảnh gia đình.",
           "- Biết lựa chọn nhu cầu phù hợp, không đua đòi, không lãng phí tiền của gia đình.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: Trao đổi nhóm/cặp, trình bày ý kiến rõ ràng, lắng nghe và tôn trọng ý kiến bạn khi thảo luận.",
+          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống chi tiêu, bảo quản, tiết kiệm tiền; lựa chọn cách làm phù hợp với lứa tuổi.",
+          "3. Phẩm chất:",
+          "- Trách nhiệm: Có ý thức bảo quản và tiết kiệm tiền; chi tiêu hợp lí; trân trọng công sức lao động tạo ra tiền.",
+          "4. Tích hợp:",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết quý trọng đồng tiền, hiểu công sức lao động tạo ra tiền; có thái độ tiết kiệm, không đua đòi, biết lựa chọn nhu cầu phù hợp với điều kiện gia đình."
         ],
         "dodung": [
           "- GV: SGK, SGV, tranh ảnh bài học, máy chiếu/ti vi, phiếu học tập, thẻ bày tỏ ý kiến, bảng nhóm.",
@@ -3756,12 +3790,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi nhóm/cặp, trình bày ý kiến rõ ràng, lắng nghe và tôn trọng ý kiến bạn khi thảo luận.",
-          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống chi tiêu, bảo quản, tiết kiệm tiền; lựa chọn cách làm phù hợp với lứa tuổi.",
-          "3. Phẩm chất:",
-          "- Trách nhiệm: Có ý thức bảo quản và tiết kiệm tiền; chi tiêu hợp lí; trân trọng công sức lao động tạo ra tiền.",
-          "4. Tích hợp:",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết quý trọng đồng tiền, hiểu công sức lao động tạo ra tiền; có thái độ tiết kiệm, không đua đòi, biết lựa chọn nhu cầu phù hợp với điều kiện gia đình.",
           "...............................................................................................................................",
           "...............................................................................................................................",
           "..............................................................................................................................."
@@ -3823,7 +3851,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3 - TUẦN 29"
       }
     ]
   },
@@ -3839,7 +3868,13 @@
           "- Củng cố kiến thức về vai trò của tiền, lí do phải quý trọng đồng tiền, cách bảo quản và tiết kiệm tiền.",
           "- Biết bày tỏ ý kiến, xử lí tình huống và đưa ra lời khuyên phù hợp về chi tiêu, bảo quản, tiết kiệm tiền.",
           "- Lập được kế hoạch tiết kiệm tiền phù hợp với điều kiện của bản thân; biết nhắc nhở bạn bè tiết kiệm sách vở, quần áo, đồ dùng, điện, nước.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: Trao đổi nhóm/cặp, trình bày ý kiến rõ ràng, lắng nghe và tôn trọng ý kiến bạn khi thảo luận.",
+          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống chi tiêu, bảo quản, tiết kiệm tiền; lựa chọn cách làm phù hợp với lứa tuổi.",
+          "3. Phẩm chất:",
+          "- Trách nhiệm: Có ý thức bảo quản và tiết kiệm tiền; chi tiêu hợp lí; trân trọng công sức lao động tạo ra tiền.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 5.2.CB1a: HS lập bảng kế hoạch chi tiêu tiết kiệm; GV có thể dùng AI gợi ý tình huống mua sắm, HS thảo luận và lựa chọn phương án phù hợp."
         ],
         "dodung": [
           "- GV: SGK, SGV, tranh ảnh bài học, máy chiếu/ti vi, phiếu học tập, thẻ bày tỏ ý kiến, bảng nhóm.",
@@ -3847,12 +3882,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi nhóm/cặp, trình bày ý kiến rõ ràng, lắng nghe và tôn trọng ý kiến bạn khi thảo luận.",
-          "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống chi tiêu, bảo quản, tiết kiệm tiền; lựa chọn cách làm phù hợp với lứa tuổi.",
-          "3. Phẩm chất:",
-          "- Trách nhiệm: Có ý thức bảo quản và tiết kiệm tiền; chi tiêu hợp lí; trân trọng công sức lao động tạo ra tiền.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 5.2.CB1a: HS lập bảng kế hoạch chi tiêu tiết kiệm; GV có thể dùng AI gợi ý tình huống mua sắm, HS thảo luận và lựa chọn phương án phù hợp.",
           "...............................................................................................................................",
           "...............................................................................................................................",
           "..............................................................................................................................."
@@ -3926,7 +3955,8 @@
               "- HS tham gia phỏng vấn, trả lời cụ thể: giữ gìn sách vở, tắt điện khi ra khỏi phòng, dùng lại đồ còn tốt, không mua đồ không cần thiết.\n- HS đọc thông điệp, nêu cảm nhận và 1 việc sẽ làm để tiết kiệm tiền ở nhà/lớp."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4 - TUẦN 30"
       }
     ]
   },
@@ -3943,14 +3973,7 @@
           "- Biết được vì sao phải thực hiện quyền và bổn phận của trẻ em.",
           "- Thực hiện được quyền và bổn phận của trẻ em phù hợp với lứa tuổi.",
           "- Nhắc nhở, giúp đỡ bạn bè thực hiện quyền và bổn phận của trẻ em.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: máy tính, ti vi, video “Quyền và bổn phận của trẻ em”.",
-          "- HS: SGK, vở ghi."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Thảo luận nhóm đôi/nhóm bốn; trình bày ý kiến rõ ràng, tôn trọng bạn; biết lắng nghe, nhận xét và bổ sung; phối hợp khi chơi trò chơi, đóng vai, xây dựng phương án xử lí tình huống.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện hành vi đúng/sai liên quan quyền và bổn phận trẻ em; đề xuất cách xử lí tình huống phù hợp, an toàn; vận dụng vào thực tế để bảo vệ quyền của bản thân và hỗ trợ bạn bè; tạo sản phẩm (vẽ tranh, tóm tắt câu chuyện tấm gương) để chia sẻ.",
           "3. Phẩm chất",
@@ -3960,7 +3983,14 @@
           "- Chăm chỉ: Tích cực học tập, rèn luyện; hoàn thành nhiệm vụ học tập và việc làm vừa sức ở nhà/trường; kiên trì thực hiện kế hoạch khắc phục hạn chế của bản thân.",
           "- Trách nhiệm: Tự giác thực hiện bổn phận; giữ gìn sức khỏe, an toàn cho bản thân; góp phần giữ gìn của công và trật tự lớp học; nhắc nhở, giúp đỡ bạn bè thực hiện quyền và bổn phận phù hợp.",
           "4. TÍCH HỢP",
-          "- Tích hợp giáo dục quyền con người: HS nhận biết một số quyền và bổn phận cơ bản của trẻ em; biết tôn trọng quyền của bản thân, bạn bè và thực hiện bổn phận phù hợp lứa tuổi.- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS quan sát video/tranh ảnh về quyền và bổn phận trẻ em từ nguồn GV cung cấp; biết chọn thông tin phù hợp, không tự ý mở nguồn lạ và không chia sẻ thông tin cá nhân khi học trên môi trường số.",
+          "- Tích hợp giáo dục quyền con người: HS nhận biết một số quyền và bổn phận cơ bản của trẻ em; biết tôn trọng quyền của bản thân, bạn bè và thực hiện bổn phận phù hợp lứa tuổi.- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS quan sát video/tranh ảnh về quyền và bổn phận trẻ em từ nguồn GV cung cấp; biết chọn thông tin phù hợp, không tự ý mở nguồn lạ và không chia sẻ thông tin cá nhân khi học trên môi trường số."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, video “Quyền và bổn phận của trẻ em”.",
+          "- HS: SGK, vở ghi."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "…………………………………………………………………………………"
         ],
         "tables": [
@@ -4081,7 +4111,8 @@
               "- HS ghi nhớ chuẩn bị nội dung cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9: QUYỀN VÀ BỔN PHẬN CỦA TRẺ EM (TIẾT 1)"
       }
     ]
   },
@@ -4098,14 +4129,7 @@
           "- Biết được vì sao phải thực hiện quyền và bổn phận của trẻ em.",
           "- Thực hiện được quyền và bổn phận của trẻ em phù hợp với lứa tuổi.",
           "- Nhắc nhở, giúp đỡ bạn bè thực hiện quyền và bổn phận của trẻ em.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: máy tính, ti vi.",
-          "- HS: SGK, vở ghi."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Thảo luận nhóm đôi/nhóm bốn; trình bày ý kiến rõ ràng, tôn trọng bạn; biết lắng nghe, nhận xét và bổ sung; phối hợp khi chơi trò chơi, đóng vai, xây dựng phương án xử lí tình huống.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện hành vi đúng/sai liên quan quyền và bổn phận trẻ em; đề xuất cách xử lí tình huống phù hợp, an toàn; vận dụng vào thực tế để bảo vệ quyền của bản thân và hỗ trợ bạn bè; tạo sản phẩm (vẽ tranh, tóm tắt câu chuyện tấm gương) để chia sẻ.",
           "3. Phẩm chất",
@@ -4115,7 +4139,14 @@
           "- Chăm chỉ: Tích cực học tập, rèn luyện; hoàn thành nhiệm vụ học tập và việc làm vừa sức ở nhà/trường; kiên trì thực hiện kế hoạch khắc phục hạn chế của bản thân.",
           "- Trách nhiệm: Tự giác thực hiện bổn phận; giữ gìn sức khỏe, an toàn cho bản thân; góp phần giữ gìn của công và trật tự lớp học; nhắc nhở, giúp đỡ bạn bè thực hiện quyền và bổn phận phù hợp.",
           "4. TÍCH HỢP",
-          "- Tích hợp AI (4.A3.1; 4.B2.1): Mục tiêu: Trẻ em có quyền được an toàn và bảo mật khi dùng AI. Hoạt động: Thảo luận về quyền từ chối cung cấp thông tin cá nhân cho các ứng dụng AI không rõ nguồn gốc để bảo vệ bản thân khỏi rủi ro bị lợi dụng.",
+          "- Tích hợp AI (4.A3.1; 4.B2.1): Mục tiêu: Trẻ em có quyền được an toàn và bảo mật khi dùng AI. Hoạt động: Thảo luận về quyền từ chối cung cấp thông tin cá nhân cho các ứng dụng AI không rõ nguồn gốc để bảo vệ bản thân khỏi rủi ro bị lợi dụng."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi.",
+          "- HS: SGK, vở ghi."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "…………………………………………………………………………………"
         ],
         "tables": [
@@ -4200,7 +4231,8 @@
               "- HS ghi nhớ, chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9: QUYỀN VÀ BỔN PHẬN CỦA TRẺ EM (TIẾT 2)"
       }
     ]
   },
@@ -4217,14 +4249,7 @@
           "- Biết được vì sao phải thực hiện quyền và bổn phận của trẻ em.",
           "- Thực hiện được quyền và bổn phận của trẻ em phù hợp với lứa tuổi.",
           "- Nhắc nhở, giúp đỡ bạn bè thực hiện quyền và bổn phận của trẻ em.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: máy tính, ti vi, bài hát “Bảo vệ quyền trẻ em”.",
-          "- HS: SGK, vở ghi, câu chuyện về tấm gương thực hiện tốt bổn phận của trẻ em."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Thảo luận nhóm đôi/nhóm bốn; trình bày ý kiến rõ ràng, tôn trọng bạn; biết lắng nghe, nhận xét và bổ sung; phối hợp khi chơi trò chơi, đóng vai, xây dựng phương án xử lí tình huống.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện hành vi đúng/sai liên quan quyền và bổn phận trẻ em; đề xuất cách xử lí tình huống phù hợp, an toàn; vận dụng vào thực tế để bảo vệ quyền của bản thân và hỗ trợ bạn bè; tạo sản phẩm (vẽ tranh, tóm tắt câu chuyện tấm gương) để chia sẻ.",
           "3. Phẩm chất",
@@ -4234,7 +4259,14 @@
           "- Chăm chỉ: Tích cực học tập, rèn luyện; hoàn thành nhiệm vụ học tập và việc làm vừa sức ở nhà/trường; kiên trì thực hiện kế hoạch khắc phục hạn chế của bản thân.",
           "- Trách nhiệm: Tự giác thực hiện bổn phận; giữ gìn sức khỏe, an toàn cho bản thân; góp phần giữ gìn của công và trật tự lớp học; nhắc nhở, giúp đỡ bạn bè thực hiện quyền và bổn phận phù hợp.",
           "4. TÍCH HỢP",
-          "- Tích hợp QCN: HS nhận biết các quyền cơ bản và bổn phận của trẻ em trong gia đình, nhà trường, cộng đồng.",
+          "- Tích hợp QCN: HS nhận biết các quyền cơ bản và bổn phận của trẻ em trong gia đình, nhà trường, cộng đồng."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, bài hát “Bảo vệ quyền trẻ em”.",
+          "- HS: SGK, vở ghi, câu chuyện về tấm gương thực hiện tốt bổn phận của trẻ em."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "…………………………………………………………………………………"
         ],
         "tables": [
@@ -4385,7 +4417,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ; chuẩn bị bài cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9: QUYỀN VÀ BỔN PHẬN CỦA TRẺ EM (TIẾT 3)"
       }
     ]
   },
@@ -4402,14 +4435,7 @@
           "- Biết được vì sao phải thực hiện quyền và bổn phận của trẻ em.",
           "- Thực hiện được quyền và bổn phận của trẻ em phù hợp với lứa tuổi.",
           "- Nhắc nhở, giúp đỡ bạn bè thực hiện quyền và bổn phận của trẻ em.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: máy tính, ti vi.",
-          "- HS: SGK, vở ghi."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Thảo luận nhóm đôi/nhóm bốn; trình bày ý kiến rõ ràng, tôn trọng bạn; biết lắng nghe, nhận xét và bổ sung; phối hợp khi chơi trò chơi, đóng vai, xây dựng phương án xử lí tình huống.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện hành vi đúng/sai liên quan quyền và bổn phận trẻ em; đề xuất cách xử lí tình huống phù hợp, an toàn; vận dụng vào thực tế để bảo vệ quyền của bản thân và hỗ trợ bạn bè; tạo sản phẩm (vẽ tranh, tóm tắt câu chuyện tấm gương) để chia sẻ.",
           "3. Phẩm chất",
@@ -4419,7 +4445,14 @@
           "- Chăm chỉ: Tích cực học tập, rèn luyện; hoàn thành nhiệm vụ học tập và việc làm vừa sức ở nhà/trường; kiên trì thực hiện kế hoạch khắc phục hạn chế của bản thân.",
           "- Trách nhiệm: Tự giác thực hiện bổn phận; giữ gìn sức khỏe, an toàn cho bản thân; góp phần giữ gìn của công và trật tự lớp học; nhắc nhở, giúp đỡ bạn bè thực hiện quyền và bổn phận phù hợp.",
           "4. TÍCH HỢP",
-          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a, 4.1.CB1b: HS tìm câu chuyện về tấm gương thực hiện tốt bổn phận trẻ em, biết chọn nguồn tin cậy và bảo vệ thông tin cá nhân khi chia sẻ.",
+          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a, 4.1.CB1b: HS tìm câu chuyện về tấm gương thực hiện tốt bổn phận trẻ em, biết chọn nguồn tin cậy và bảo vệ thông tin cá nhân khi chia sẻ."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi.",
+          "- HS: SGK, vở ghi."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "…………………………………………………………………………………"
         ],
         "tables": [
@@ -4532,7 +4565,8 @@
               "- HS ghi nhớ nhiệm vụ: vẽ tranh, tự đánh giá, tìm một câu chuyện an toàn, ghi nguồn và chuẩn bị tóm tắt ngắn gọn trước lớp."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 9: QUYỀN VÀ BỔN PHẬN CỦA TRẺ EM (TIẾT 4)"
       }
     ]
   },
@@ -4687,7 +4721,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH DẠY HỌC MÔN ĐẠO ĐỨC LỚP 4"
       }
     ]
   }
@@ -4705,5 +4740,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

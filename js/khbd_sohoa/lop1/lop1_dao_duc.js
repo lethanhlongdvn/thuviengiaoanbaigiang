@@ -142,7 +142,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: EM GIỮ SẠCH ĐÔI TAY"
       }
     ]
   },
@@ -280,7 +281,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: EM GIỮ SẠCH RĂNG MIỆNG"
       }
     ]
   },
@@ -404,7 +406,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: EM TẮM, GỘI SẠCH SẼ"
       }
     ]
   },
@@ -528,7 +531,8 @@
               "- HS thực hiện việc gấp, giữ trang phục sạch ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: EM GIỮ TRANG PHỤC GỌN GÀNG, SẠCH SẼ"
       }
     ]
   },
@@ -658,7 +662,8 @@
               "- HS lắng nghe, thực hiện nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 1"
       }
     ]
   },
@@ -767,7 +772,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 2"
       }
     ]
   },
@@ -784,14 +790,7 @@
           "- Nhận biết được biểu hiện và ý nghĩa của sự lễ phép, vâng lời đối với ông bà, cha mẹ, anh chị.",
           "- Nêu được lời nói, việc làm lễ phép trong một số tình huống gần gũi.",
           "- Thực hiện được cách ứng xử phù hợp khi được người thân nhắc nhở hoặc nhờ giúp đỡ.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV; tranh cắt từ SGK; bài hát “Con chim vành khuyên”; thẻ mặt cười/mặt mếu.",
-          "- Học sinh: SGK, vở bài tập; thẻ bày tỏ ý kiến."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết nói lời phù hợp, lắng nghe và tôn trọng người lớn.",
           "- Giải quyết vấn đề: Lựa chọn cách ứng xử đúng trong tình huống gia đình.",
           "3. Phẩm chất",
@@ -799,7 +798,14 @@
           "- Trách nhiệm: Vâng lời, thực hiện việc vừa sức khi được giao.",
           "- Chăm chỉ: Rèn thói quen chào hỏi, thưa gửi hằng ngày.",
           "4. Tích hợp",
-          "- Tích hợp đạo đức - lối sống: Bồi dưỡng lòng kính trọng, biết ơn đối với ông bà, cha mẹ, thầy cô; xây dựng tình cảm gia đình ấm êm, tôn trọng người khác.",
+          "- Tích hợp đạo đức - lối sống: Bồi dưỡng lòng kính trọng, biết ơn đối với ông bà, cha mẹ, thầy cô; xây dựng tình cảm gia đình ấm êm, tôn trọng người khác."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV; tranh cắt từ SGK; bài hát “Con chim vành khuyên”; thẻ mặt cười/mặt mếu.",
+          "- Học sinh: SGK, vở bài tập; thẻ bày tỏ ý kiến."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................"
         ],
@@ -886,7 +892,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: LỄ PHÉP, VÂNG LỜI ÔNG BÀ, CHA MẸ, ANH CHỊ"
       }
     ]
   },
@@ -1006,7 +1013,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: QUAN TÂM, CHĂM SÓC ÔNG BÀ"
       }
     ]
   },
@@ -1119,7 +1127,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY"
       }
     ]
   },
@@ -1247,7 +1256,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: QUAN TÂM, CHĂM SÓC CHA MẸ"
       }
     ]
   },
@@ -1370,7 +1380,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9: CHĂM SÓC, GIÚP ĐỠ EM NHỎ"
       }
     ]
   },
@@ -1503,7 +1514,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: ĐI HỌC ĐÚNG GIỜ"
       }
     ]
   },
@@ -1623,7 +1635,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ"
       }
     ]
   },
@@ -1743,7 +1756,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ"
       }
     ]
   },
@@ -1854,7 +1868,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 13: GIỮ GÌN TÀI SẢN CỦA TRƯỜNG, LỚP"
       }
     ]
   },
@@ -1965,7 +1980,8 @@
               "- HS lắng nghe, duy trì thói quen."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 14: GIỮ VỆ SINH TRƯỜNG, LỚP"
       }
     ]
   },
@@ -2080,7 +2096,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: GỌN GÀNG, NGĂN NẮP"
       }
     ]
   },
@@ -2096,7 +2113,13 @@
           "- Củng cố được những chuẩn mực đã học trong học kì I: tự chăm sóc bản thân; yêu thương gia đình; thực hiện nội quy trường, lớp; sinh hoạt nền nếp.",
           "- Nhận xét được hành vi đúng, chưa đúng trong các tình huống quen thuộc.",
           "- Tự đánh giá được một số việc bản thân đã thực hiện và xác định việc cần tiếp tục rèn luyện.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Tham gia trò chơi, thảo luận và góp ý cho bạn lịch sự.",
+          "- Giải quyết vấn đề: Lựa chọn cách ứng xử đúng trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực rèn luyện thói quen tốt.",
+          "- Trách nhiệm: Thực hiện nội quy, nền nếp và công việc vừa sức.",
+          "- Nhân ái: Biết yêu thương, quan tâm người thân và bạn bè."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống câu hỏi ôn tập; bảng con/thẻ đáp án; mô hình Những ngôi sao sáng; phiếu ghi việc tốt; nhạc bài Lớp chúng mình đoàn kết.",
@@ -2104,12 +2127,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Tham gia trò chơi, thảo luận và góp ý cho bạn lịch sự.",
-          "- Giải quyết vấn đề: Lựa chọn cách ứng xử đúng trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực rèn luyện thói quen tốt.",
-          "- Trách nhiệm: Thực hiện nội quy, nền nếp và công việc vừa sức.",
-          "- Nhân ái: Biết yêu thương, quan tâm người thân và bạn bè.",
           "................................................................................................................................................",
           "................................................................................................................................................"
         ],
@@ -2200,7 +2217,8 @@
               "- HS lắng nghe và thực hiện việc tốt đã cam kết."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY"
       }
     ]
   },
@@ -2219,7 +2237,13 @@
           "- Bước đầu thực hiện được nếp học tập, sinh hoạt đúng giờ.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Biết quản lí thời gian và chủ động thực hiện thời gian biểu.",
-          "- Giao tiếp và hợp tác: Trao đổi, thống nhất với bạn trong hoạt động nhóm."
+          "- Giao tiếp và hợp tác: Trao đổi, thống nhất với bạn trong hoạt động nhóm.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì thực hiện việc học tập, sinh hoạt đúng giờ.",
+          "- Trách nhiệm: Tôn trọng giờ học, giờ ăn, giờ nghỉ của bản thân và mọi người.",
+          "4. Tích hợp",
+          "- Tích hợp quyền con người: Quyền được học tập, quyền được chăm sóc sức khỏe và tôn trọng quyền của người khác.",
+          "- Tích hợp NLS 5.2.CB1a: Xác định được nhu cầu cá nhân và sử dụng công cụ số đơn giản dưới sự hướng dẫn của người lớn để trình bày thời gian biểu học tập, sinh hoạt đúng giờ."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV; tranh cắt từ SGK; bài hát Giờ nào việc nấy; phiếu thảo luận nhóm; bảng thời gian biểu; thiết bị của GV minh họa công cụ trình bày số.",
@@ -2227,12 +2251,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì thực hiện việc học tập, sinh hoạt đúng giờ.",
-          "- Trách nhiệm: Tôn trọng giờ học, giờ ăn, giờ nghỉ của bản thân và mọi người.",
-          "4. Tích hợp",
-          "- Tích hợp quyền con người: Quyền được học tập, quyền được chăm sóc sức khỏe và tôn trọng quyền của người khác.",
-          "- Tích hợp NLS 5.2.CB1a: Xác định được nhu cầu cá nhân và sử dụng công cụ số đơn giản dưới sự hướng dẫn của người lớn để trình bày thời gian biểu học tập, sinh hoạt đúng giờ.",
           "................................................................................................................................................",
           "................................................................................................................................................"
         ],
@@ -2323,7 +2341,8 @@
               "- HS mang phiếu về chia sẻ với gia đình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: HỌC TẬP, SINH HOẠT ĐÚNG GIỜ"
       }
     ]
   },
@@ -2451,7 +2470,8 @@
               "- HS nhắc lại kết luận; thực hiện tự học và sử dụng thiết bị theo hướng dẫn của người lớn."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17: TỰ GIÁC HỌC TẬP"
       }
     ]
   },
@@ -2567,7 +2587,8 @@
               "- HS nhắc lại kết luận và thực hiện việc chung đã cam kết."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 18: TỰ GIÁC THAM GIA CÁC HOẠT ĐỘNG Ở TRƯỜNG"
       }
     ]
   },
@@ -2683,7 +2704,8 @@
               "- HS nhắc lại kết luận và thực hiện việc nhà phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 19: TỰ GIÁC LÀM VIỆC NHÀ"
       }
     ]
   },
@@ -2700,14 +2722,7 @@
           "- Nêu được biểu hiện của việc nói dối và hậu quả của nói dối.",
           "- Biết vì sao cần nói thật; đồng tình với hành vi thật thà.",
           "- Thực hiện được lời nói trung thực, lễ phép trong tình huống gần gũi.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV; tranh cắt từ SGK; truyện Cậu bé chăn cừu; phiếu thảo luận nhóm; thiết bị của GV minh họa tình huống nhóm học tập trực tuyến.",
-          "- Học sinh: SGK, vở bài tập; thẻ lựa chọn; bút."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Lắng nghe, chia sẻ và đóng vai xử lí tình huống.",
           "- Giải quyết vấn đề: Lựa chọn cách nói đúng sự thật, phù hợp hoàn cảnh.",
           "3. Phẩm chất",
@@ -2716,7 +2731,14 @@
           "- Nhân ái: Nói thật để không gây ảnh hưởng đến người khác.",
           "4. Tích hợp",
           "- Tích hợp quyền con người: Quyền được tôn trọng; quyền được tin tưởng.",
-          "- Tích hợp NLS 2.3.CB1a: Giao tiếp, hợp tác trong môi trường số; học sinh biết nói thật, không gửi thông tin sai sự thật trong nhóm học tập hoặc lớp học trực tuyến có sự hướng dẫn của giáo viên, cha mẹ.",
+          "- Tích hợp NLS 2.3.CB1a: Giao tiếp, hợp tác trong môi trường số; học sinh biết nói thật, không gửi thông tin sai sự thật trong nhóm học tập hoặc lớp học trực tuyến có sự hướng dẫn của giáo viên, cha mẹ."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV; tranh cắt từ SGK; truyện Cậu bé chăn cừu; phiếu thảo luận nhóm; thiết bị của GV minh họa tình huống nhóm học tập trực tuyến.",
+          "- Học sinh: SGK, vở bài tập; thẻ lựa chọn; bút."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................"
         ],
@@ -2807,7 +2829,8 @@
               "- HS nhắc lại kết luận và thực hiện hành vi trung thực."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20: KHÔNG NÓI DỐI"
       }
     ]
   },
@@ -2824,7 +2847,14 @@
           "- Nhận biết được tác hại của việc tự ý lấy và sử dụng đồ của người khác.",
           "- Nêu được cách ứng xử đúng: hỏi mượn, được đồng ý mới sử dụng và trả lại sau khi dùng.",
           "- Biết nhắc bạn không tự ý lấy đồ bằng lời nói lịch sự.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi theo cặp, theo nhóm; biết nói lời hỏi mượn và cảm ơn.",
+          "- Giải quyết vấn đề: Lựa chọn được cách ứng xử đúng trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Trung thực: Không giấu việc lấy đồ; dám nhận lỗi khi làm sai.",
+          "- Trách nhiệm: Biết giữ gìn và trả lại đồ sau khi sử dụng.",
+          "4. Tích hợp",
+          "- NLS 2.2.CB1a: Nhận biết được công nghệ số đơn giản, phù hợp để chia sẻ dữ liệu, thông tin và nội dung kĩ thuật số; thực hiện hành vi ứng xử có trách nhiệm trong môi trường số."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV; tranh cắt từ SGK; câu chuyện “Chuyện của Ben”; thẻ mặt cười/mặt mếu; phiếu thảo luận nhóm; hình minh họa chia sẻ tệp/hình ảnh trên thiết bị của GV.",
@@ -2832,14 +2862,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi theo cặp, theo nhóm; biết nói lời hỏi mượn và cảm ơn.",
-          "- Giải quyết vấn đề: Lựa chọn được cách ứng xử đúng trong tình huống gần gũi.",
-          "3. Phẩm chất",
-          "- Trung thực: Không giấu việc lấy đồ; dám nhận lỗi khi làm sai.",
-          "- Trách nhiệm: Biết giữ gìn và trả lại đồ sau khi sử dụng.",
           "- Tôn trọng: Tôn trọng đồ dùng, công sức và quyền của người khác.",
-          "4. Tích hợp",
-          "- NLS 2.2.CB1a: Nhận biết được công nghệ số đơn giản, phù hợp để chia sẻ dữ liệu, thông tin và nội dung kĩ thuật số; thực hiện hành vi ứng xử có trách nhiệm trong môi trường số.",
           "................................................................................................................................................",
           "................................................................................................................................................"
         ],
@@ -2938,7 +2961,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: KHÔNG TỰ Ý LẤY VÀ SỬ DỤNG ĐỒ CỦA NGƯỜI KHÁC"
       }
     ]
   },
@@ -3074,7 +3098,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: NHẶT ĐƯỢC CỦA RƠI TRẢ LẠI NGƯỜI ĐÁNH MẤT"
       }
     ]
   },
@@ -3210,7 +3235,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 23: BIẾT NHẬN LỖI"
       }
     ]
   },
@@ -3226,7 +3252,14 @@
           "- Thực hiện được một số việc làm thể hiện sự tự giác trong học tập, tham gia hoạt động ở trường và làm việc nhà.",
           "- Nhận biết được hành vi thật thà: không nói dối, không tự ý lấy đồ, biết trả lại của rơi và biết nhận lỗi.",
           "- Ứng xử phù hợp trong các tình huống đạo đức đơn giản, gần gũi.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi trong nhóm, lắng nghe và đóng vai cùng bạn.",
+          "- Giải quyết vấn đề: Lựa chọn cách ứng xử đúng trong tình huống.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tự giác thực hiện công việc.",
+          "- Trung thực: Nói thật, biết nhận lỗi, tôn trọng đồ của người khác.",
+          "- Trách nhiệm: Biết sửa sai và thực hiện việc đúng.",
+          "- Nhân ái: Biết quan tâm, tôn trọng cảm xúc của người khác."
         ],
         "dodung": [
           "- Giáo viên: Tranh tình huống các bài đã học; thẻ đúng/sai; phiếu thảo luận nhóm; bút dạ.",
@@ -3234,13 +3267,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi trong nhóm, lắng nghe và đóng vai cùng bạn.",
-          "- Giải quyết vấn đề: Lựa chọn cách ứng xử đúng trong tình huống.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tự giác thực hiện công việc.",
-          "- Trung thực: Nói thật, biết nhận lỗi, tôn trọng đồ của người khác.",
-          "- Trách nhiệm: Biết sửa sai và thực hiện việc đúng.",
-          "- Nhân ái: Biết quan tâm, tôn trọng cảm xúc của người khác.",
           "................................................................................................................................................",
           "................................................................................................................................................"
         ],
@@ -3335,7 +3361,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY"
       }
     ]
   },
@@ -3485,7 +3512,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24: PHÒNG, TRÁNH TAI NẠN GIAO THÔNG"
       }
     ]
   },
@@ -3633,7 +3661,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25: PHÒNG, TRÁNH ĐUỐI NƯỚC"
       }
     ]
   },
@@ -3674,8 +3703,7 @@
         "dieuchinh": [
           "- HS nêu được một số nguyên nhân có thể gây bỏng và biết một số việc cần làm để phòng, tránh bị bỏng.",
           "- HS phân biệt được việc nên làm và việc không nên làm trong một số tình huống gần gũi với bản thân.",
-          "- HS bước đầu biết trình bày ý kiến rõ hơn khi tham gia hoạt động nhóm và khi chia sẻ trước lớp.",
-          "- Một số HS còn nêu ý ngắn, GV cần tiếp tục gợi mở bằng câu hỏi cụ thể hơn trong những bài học sau."
+          "- HS bước đầu biết trình bày ý kiến rõ hơn khi tham gia hoạt động nhóm và khi chia sẻ trước lớp."
         ],
         "tables": [
           [
@@ -3816,7 +3844,8 @@
               "- HS lắng nghe và thực hiện quy tắc an toàn tại nhà, ở trường."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26: PHÒNG, TRÁNH BỎNG"
       }
     ]
   },
@@ -3857,8 +3886,7 @@
         "dieuchinh": [
           "- HS nêu được một số nguyên nhân có thể gây ngã và biết một số việc cần làm để phòng, tránh thương tích do ngã.",
           "- HS phân biệt được việc nên làm và việc không nên làm trong một số tình huống gần gũi với bản thân.",
-          "- HS bước đầu biết trình bày ý kiến rõ hơn khi tham gia hoạt động nhóm và khi chia sẻ trước lớp.",
-          "- Một số HS còn nêu ý ngắn, GV cần tiếp tục gợi mở bằng câu hỏi cụ thể hơn trong những bài học sau."
+          "- HS bước đầu biết trình bày ý kiến rõ hơn khi tham gia hoạt động nhóm và khi chia sẻ trước lớp."
         ],
         "tables": [
           [
@@ -3999,7 +4027,8 @@
               "- HS lắng nghe và thực hiện trong sinh hoạt hằng ngày."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27: PHÒNG, TRÁNH THƯƠNG TÍCH DO NGÃ"
       }
     ]
   },
@@ -4183,7 +4212,8 @@
               "- HS lắng nghe và thực hiện quy tắc an toàn với điện, thiết bị số."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28: PHÒNG, TRÁNH ĐIỆN GIẬT"
       }
     ]
   },
@@ -4363,7 +4393,8 @@
               "- HS lắng nghe và thực hiện thói quen ăn uống an toàn."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 29: PHÒNG, TRÁNH NGỘ ĐỘC THỰC PHẨM"
       }
     ]
   },
@@ -4536,7 +4567,8 @@
               "- HS lắng nghe và thực hiện kĩ năng tự bảo vệ bản thân."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 30: PHÒNG, TRÁNH XÂM HẠI"
       }
     ]
   },
@@ -4742,7 +4774,8 @@
               "- HS lắng nghe và thực hiện cam kết tự bảo vệ bản thân."
             ]
           ]
-        ]
+        ],
+        "title": "ÔN TẬP - ĐÁNH GIÁ CUỐI HK 2"
       }
     ]
   }
@@ -4760,5 +4793,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

@@ -131,7 +131,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện cam kết của mình."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 1: TIẾT 1 - SINH HOẠT DƯỚI CỜ: CHÀO NĂM HỌC MỚI"
       },
       {
         "lessonTitle": "TUẦN 1: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHÚNG MÌNH ĐÃ LỚN",
@@ -290,7 +291,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng.\n- HS trao đổi với người thân, chuẩn bị bìa, bút màu và những tư liệu cần thiết cho tiết sinh hoạt lớp."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 1: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHÚNG MÌNH ĐÃ LỚN"
       },
       {
         "lessonTitle": "TUẦN 1: TIẾT 3 - SINH HOẠT LỚP: BẬC THANG TRƯỞNG THÀNH",
@@ -429,7 +431,8 @@
               "- HS cam kết chuẩn bị sản phẩm hoặc ảnh chụp sản phẩm và giữ gìn tư liệu cẩn thận."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 1: TIẾT 3 - SINH HOẠT LỚP: BẬC THANG TRƯỞNG THÀNH"
       }
     ]
   },
@@ -526,7 +529,8 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị cho tiết Hoạt động giáo dục theo chủ đề."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 2: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NGÀY HỘI CÂU LẠC BỘ"
       },
       {
         "lessonTitle": "TUẦN 2: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỪNG BƯỚC TRƯỞNG THÀNH",
@@ -649,7 +653,8 @@
               "- HS dự kiến sản phẩm: pha nước chanh, bày hoa quả, gấp quần áo, khâu khuy áo hoặc việc phù hợp khác."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 2: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỪNG BƯỚC TRƯỞNG THÀNH"
       },
       {
         "lessonTitle": "TUẦN 2: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TỪNG BƯỚC TRƯỞNG THÀNH",
@@ -804,7 +809,8 @@
               "- HS lắng nghe, thu dọn đồ dùng và chuẩn bị cho tuần học tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 2: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TỪNG BƯỚC TRƯỞNG THÀNH"
       }
     ]
   },
@@ -905,7 +911,8 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị cho tiết Hoạt động giáo dục theo chủ đề."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 3: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NIỀM VUI NHÂN ĐÔI, NỖI BUỒN CHIA NỬA"
       },
       {
         "lessonTitle": "TUẦN 3: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÂN BẰNG CẢM XÚC",
@@ -1032,7 +1039,8 @@
               "- HS lắng nghe, cam kết thực hiện và chuẩn bị cho tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 3: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÂN BẰNG CẢM XÚC"
       },
       {
         "lessonTitle": "TUẦN 3: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ CÂN BẰNG CẢM XÚC",
@@ -1195,7 +1203,8 @@
               "- HS lắng nghe, thu dọn đồ dùng và chuẩn bị cho tuần học tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 3: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ CÂN BẰNG CẢM XÚC"
       }
     ]
   },
@@ -1296,7 +1305,8 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị cho tiết Hoạt động giáo dục theo chủ đề."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 4: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SỰ TRƯỞNG THÀNH CỦA HỌC SINH LỚP 5"
       },
       {
         "lessonTitle": "TUẦN 4: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THỂ HIỆN CẢM XÚC PHÙ HỢP",
@@ -1419,7 +1429,8 @@
               "- HS lắng nghe, cam kết thực hiện và chuẩn bị chia sẻ trong tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 4: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THỂ HIỆN CẢM XÚC PHÙ HỢP"
       },
       {
         "lessonTitle": "TUẦN 4: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ THỂ HIỆN CẢM XÚC PHÙ HỢP",
@@ -1582,7 +1593,8 @@
               "- HS lắng nghe, thu dọn đồ dùng và chuẩn bị cho tuần học tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 4: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ THỂ HIỆN CẢM XÚC PHÙ HỢP"
       }
     ]
   },
@@ -1703,7 +1715,8 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị cho tiết Hoạt động giáo dục theo chủ đề."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 5: TIẾT 1 - SINH HOẠT DƯỚI CỜ: VUI TRUNG THU CÙNG BẠN"
       },
       {
         "lessonTitle": "TUẦN 5: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC VẤN ĐỀ NẢY SINH TRONG MỐI QUAN HỆ BẠN BÈ VÀ CÁCH GIẢI QUYẾT",
@@ -1845,7 +1858,8 @@
               "- HS lắng nghe, nhận nhiệm vụ vận dụng và chuẩn bị chia sẻ kết quả."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 5: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC VẤN ĐỀ NẢY SINH TRONG MỐI QUAN HỆ BẠN BÈ VÀ CÁCH GIẢI QUYẾT"
       },
       {
         "lessonTitle": "TUẦN 5: TIẾT 3 - SINH HOẠT LỚP: THỰC HÀNH GIẢI QUYẾT CÁC VẤN ĐỀ NẢY SINH TRONG TÌNH BẠN",
@@ -2007,7 +2021,8 @@
               "- HS viết cam kết: lắng nghe bạn, không trêu bạn, không nói xấu, hỏi lại khi chưa hiểu, xin lỗi khi làm bạn buồn."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 5: TIẾT 3 - SINH HOẠT LỚP: THỰC HÀNH GIẢI QUYẾT CÁC VẤN ĐỀ NẢY SINH TRONG TÌNH BẠN"
       }
     ]
   },
@@ -2120,7 +2135,8 @@
               "- HS chia sẻ ngắn gọn, lắng nghe bạn và thực hiện cam kết của mình."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 6: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SẮC BÚT ĐỒNG HÀNH CÙNG EM"
       },
       {
         "lessonTitle": "TUẦN 6: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VẤN ĐỀ NẢY SINH GIỮA BẠN BÈ TRONG HỌC TẬP VÀ RÈN LUYỆN",
@@ -2262,7 +2278,8 @@
               "- HS thảo luận nhanh, thống nhất ý tưởng, nguyên vật liệu và phân công nhiệm vụ cho từng thành viên."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 6: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VẤN ĐỀ NẢY SINH GIỮA BẠN BÈ TRONG HỌC TẬP VÀ RÈN LUYỆN"
       },
       {
         "lessonTitle": "TUẦN 6: TIẾT 3 - SINH HOẠT LỚP: HỢP TÁC ĐỂ THỰC HIỆN SẢN PHẨM CHUNG",
@@ -2436,7 +2453,8 @@
               "- HS lắng nghe, thể hiện quyết tâm tiếp tục vận dụng nguyên tắc hợp tác trong học tập, rèn luyện."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 6: TIẾT 3 - SINH HOẠT LỚP: HỢP TÁC ĐỂ THỰC HIỆN SẢN PHẨM CHUNG"
       }
     ]
   },
@@ -2553,7 +2571,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện việc đã chọn."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 7: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NGÀY HỘI TRAO ĐỔI SÁCH"
       },
       {
         "lessonTitle": "TUẦN 7: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TÌNH BẠN",
@@ -2703,7 +2722,8 @@
               "- HS ghi nhiệm vụ, chuẩn bị ý tưởng như sinh nhật lớp, góc lời khen, hòm thư tình bạn, hoạt động “Cùng làm nên kỉ niệm”."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 7: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TÌNH BẠN"
       },
       {
         "lessonTitle": "TUẦN 7: TIẾT 3 - SINH HOẠT LỚP: NUÔI DƯỠNG TÌNH BẠN",
@@ -2881,7 +2901,8 @@
               "- HS cùng đọc/hát, thể hiện cảm xúc tích cực và quyết tâm nuôi dưỡng tình bạn trong sáng."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 7: TIẾT 3 - SINH HOẠT LỚP: NUÔI DƯỠNG TÌNH BẠN"
       }
     ]
   },
@@ -2994,7 +3015,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị và thực hiện theo phân công."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 8: TIẾT 1 - SINH HOẠT DƯỚI CỜ: TRÒ CHUYỆN VỀ CHỦ ĐỀ “KHOA HỌC SÁNG TẠO”"
       },
       {
         "lessonTitle": "TUẦN 8: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KẾ HOẠCH HOẠT ĐỘNG “CÙNG LÀM NÊN KỈ NIỆM”",
@@ -3132,7 +3154,8 @@
               "- HS thống nhất cách liên hệ trong nhóm, nhắc nhau chuẩn bị và báo với GV khi cần hỗ trợ."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 8: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KẾ HOẠCH HOẠT ĐỘNG “CÙNG LÀM NÊN KỈ NIỆM”"
       },
       {
         "lessonTitle": "TUẦN 8: TIẾT 3 - SINH HOẠT LỚP: CÙNG LÀM NÊN KỈ NIỆM",
@@ -3294,7 +3317,8 @@
               "- HS lắng nghe, tự cam kết: em sẽ lắng nghe bạn, giúp đỡ bạn, giữ lời hứa, tham gia hoạt động chung và tôn trọng quyết định của tập thể."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 8: TIẾT 3 - SINH HOẠT LỚP: CÙNG LÀM NÊN KỈ NIỆM"
       }
     ]
   },
@@ -3407,7 +3431,8 @@
               "- HS lắng nghe và tự nhắc mình thực hiện: chào hỏi lễ phép, chăm học, giữ gìn lớp học, biết nói lời cảm ơn."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 9: TIẾT 1 - SINH HOẠT DƯỚI CỜ: PHÁT ĐỘNG TỔ CHỨC SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO"
       },
       {
         "lessonTitle": "TUẦN 9: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO",
@@ -3553,7 +3578,8 @@
               "- HS ghi nhớ nhiệm vụ, thống nhất thời gian hoàn thành và cách báo cáo tiến độ."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 9: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO"
       },
       {
         "lessonTitle": "TUẦN 9: TIẾT 3 - SINH HOẠT LỚP: GIỚI THIỆU VỀ TRUYỀN THỐNG NHÀ TRƯỜNG",
@@ -3731,7 +3757,8 @@
               "- HS thống nhất tiếp tục thực hiện nhiệm vụ, giữ thái độ kính trọng thầy cô và tự hào về truyền thống nhà trường."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 9: TIẾT 3 - SINH HOẠT LỚP: GIỚI THIỆU VỀ TRUYỀN THỐNG NHÀ TRƯỜNG"
       }
     ]
   },
@@ -3844,7 +3871,8 @@
               "- HS lắng nghe và tự nhắc mình thực hiện: chào hỏi lễ phép, học tập nghiêm túc, giúp đỡ bạn, giữ gìn lớp học."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 10: TIẾT 1 - SINH HOẠT DƯỚI CỜ: CÁC TRUYỆN TRUYỀN CẢM HỨNG CỦA NHÀ TRƯỜNG"
       },
       {
         "lessonTitle": "TUẦN 10: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÂM SỰ THẦY - TRÒ",
@@ -4002,7 +4030,8 @@
               "- HS thực hiện quyền được chia sẻ bằng cách nói đúng sự thật, dùng lời lịch sự, không đổ lỗi, không nói xúc phạm và biết lắng nghe thầy cô phản hồi."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 10: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÂM SỰ THẦY - TRÒ"
       },
       {
         "lessonTitle": "TUẦN 10: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TÂM SỰ THẦY - TRÒ",
@@ -4180,7 +4209,8 @@
               "- HS tự liên hệ: em sẽ lắng nghe khi thầy cô góp ý, sửa lỗi sai, học bài nghiêm túc, lễ phép và cố gắng tiến bộ để thầy cô vui lòng."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 10: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TÂM SỰ THẦY - TRÒ"
       }
     ]
   },
@@ -4289,7 +4319,8 @@
               "- HS ghi nhớ nhiệm vụ, trao đổi sơ bộ với nhóm và chuẩn bị ý tưởng cho tiết Hoạt động giáo dục theo chủ đề."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 11: TIẾT 1 - SINH HOẠT DƯỚI CỜ: VĂN NGHỆ VỀ CHỦ ĐỀ “TÌNH THẦY TRÒ”"
       },
       {
         "lessonTitle": "TUẦN 11: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VUN ĐẮP TÌNH THẦY TRÒ",
@@ -4427,7 +4458,8 @@
               "- HS ghi nhớ nhiệm vụ, nhận phần việc và chuẩn bị nguyên liệu theo kế hoạch của nhóm."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 11: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VUN ĐẮP TÌNH THẦY TRÒ"
       },
       {
         "lessonTitle": "TUẦN 11: TIẾT 3 - SINH HOẠT LỚP: SẢN PHẨM TRI ÂN THẦY CÔ",
@@ -4597,7 +4629,8 @@
               "- HS tiếp nhận nhiệm vụ, cam kết giữ gìn sản phẩm và thực hiện việc làm tri ân thầy cô trong tuần tới."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 11: TIẾT 3 - SINH HOẠT LỚP: SẢN PHẨM TRI ÂN THẦY CÔ"
       }
     ]
   },
@@ -4706,7 +4739,8 @@
               "- HS lựa chọn và nêu cam kết: em sẽ học bài đầy đủ; em sẽ lễ phép chào thầy cô; em sẽ giữ lớp sạch đẹp; em sẽ hỗ trợ bạn trong học tập."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 12: TIẾT 1 - SINH HOẠT DƯỚI CỜ: LỄ KỈ NIỆM NGÀY NHÀ GIÁO VIỆT NAM 20-11"
       },
       {
         "lessonTitle": "TUẦN 12: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUẨN BỊ CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
@@ -4836,7 +4870,8 @@
               "- HS tiếp nhận, cam kết chuẩn bị đúng nhiệm vụ, an toàn, tiết kiệm và báo cáo kết quả với nhóm."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 12: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUẨN BỊ CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11"
       },
       {
         "lessonTitle": "TUẦN 12: TIẾT 3 - SINH HOẠT LỚP: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
@@ -5010,7 +5045,8 @@
               "- HS lắng nghe, ghi nhớ và cam kết tiếp tục vun đắp tình thầy trò bằng việc làm cụ thể."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 12: TIẾT 3 - SINH HOẠT LỚP: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11"
       }
     ]
   },
@@ -5109,7 +5145,8 @@
               "- HS lắng nghe và ghi nhớ thông điệp."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 13: TIẾT 1\nSINH HOẠT DƯỚI CỜ: CHỦ ĐỘNG THAM GIA TIẾT KIỆM CHI TIÊU"
       },
       {
         "lessonTitle": "TUẦN 13: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỔ TAY GHI CHÉP CHI TIÊU TRONG GIA ĐÌNH",
@@ -5281,7 +5318,8 @@
               "- HS nhận nhiệm vụ vận dụng, thực hiện cùng người thân."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 13: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỔ TAY GHI CHÉP CHI TIÊU TRONG GIA ĐÌNH"
       },
       {
         "lessonTitle": "TUẦN 13: TIẾT 3\nSINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ SỔ TAY GHI CHÉP CHI TIÊU TRONG GIA ĐÌNH",
@@ -5465,7 +5503,8 @@
               "- HS nhận nhiệm vụ vận dụng sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 13: TIẾT 3\nSINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ SỔ TAY GHI CHÉP CHI TIÊU TRONG GIA ĐÌNH"
       }
     ]
   },
@@ -5548,7 +5587,8 @@
               "- HS cam kết: Em sẽ giữ gìn sách khi mượn; em sẽ tặng một cuốn sách còn tốt; em sẽ đọc sách 15 phút mỗi ngày.\n- HS lắng nghe, ghi nhớ thông điệp."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 14: TIẾT 1\nSINH HOẠT DƯỚI CỜ: PHÁT TRIỂN THƯ VIỆN"
       },
       {
         "lessonTitle": "TUẦN 14: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: Ý TƯỞNG KINH DOANH",
@@ -5660,7 +5700,8 @@
               "- HS lắng nghe và nêu cách khảo sát lịch sự, tôn trọng người được hỏi.\n- HS nhận nhiệm vụ, phân công bạn kiểm tra lại câu hỏi, bạn chuẩn bị phiếu, bạn dự kiến đối tượng khảo sát.\n- HS cam kết thực hiện khảo sát trung thực, văn minh."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 14: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: Ý TƯỞNG KINH DOANH"
       },
       {
         "lessonTitle": "TUẦN 14: TIẾT 3\nSINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ Ý TƯỞNG KINH DOANH",
@@ -5764,7 +5805,8 @@
               "- HS nhận nhiệm vụ vận dụng, ghi lại việc cần chuẩn bị cho tuần sau."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 14: TIẾT 3\nSINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ Ý TƯỞNG KINH DOANH"
       }
     ]
   },
@@ -5858,7 +5900,8 @@
               "- HS lắng nghe và nhắc lại thông điệp: Học tốt, rèn tốt để biết ơn các chú bộ đội."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 15: TIẾT 1\nSINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY THÀNH LẬP QUÂN ĐỘI NHÂN DÂN VIỆT NAM 22-12"
       },
       {
         "lessonTitle": "TUẦN 15: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VIỆC CẦN LÀM ĐỂ THỰC HIỆN KẾ HOẠCH KINH DOANH",
@@ -5972,7 +6015,8 @@
               "- HS nhắc lại nội dung chốt và ghi nhớ nhiệm vụ vận dụng."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 15: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VIỆC CẦN LÀM ĐỂ THỰC HIỆN KẾ HOẠCH KINH DOANH"
       },
       {
         "lessonTitle": "TUẦN 15: TIẾT 3\nSINH HOẠT LỚP: KINH DOANH HIỆU QUẢ",
@@ -6134,7 +6178,8 @@
               "- HS lắng nghe, cam kết thực hiện nhiệm vụ nhóm."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 15: TIẾT 3\nSINH HOẠT LỚP: KINH DOANH HIỆU QUẢ"
       }
     ]
   },
@@ -6224,7 +6269,8 @@
               "- HS lắng nghe và ghi nhớ ý nghĩa của hoạt động nhân ái."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 16: TIẾT 1\nSINH HOẠT DƯỚI CỜ: XÂY DỰNG QUỸ NHÂN ÁI"
       },
       {
         "lessonTitle": "TUẦN 16: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: XÂY DỰNG KẾ HOẠCH KINH DOANH",
@@ -6338,7 +6384,8 @@
               "- HS nhắc lại nội dung cần ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 16: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: XÂY DỰNG KẾ HOẠCH KINH DOANH"
       },
       {
         "lessonTitle": "TUẦN 16: TIẾT 3\nSINH HOẠT LỚP: KẾ HOẠCH KINH DOANH CỦA LỚP",
@@ -6497,7 +6544,8 @@
               "- HS lắng nghe, cam kết xin ý kiến gia đình và GV khi chuẩn bị nguyên liệu."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 16: TIẾT 3\nSINH HOẠT LỚP: KẾ HOẠCH KINH DOANH CỦA LỚP"
       }
     ]
   },
@@ -6591,7 +6639,8 @@
               "- HS lắng nghe và ghi nhớ thông điệp."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 17: TIẾT 1\nSINH HOẠT DƯỚI CỜ: GIA ĐÌNH YÊU THƯƠNG"
       },
       {
         "lessonTitle": "TUẦN 17: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TRÁCH NHIỆM CỦA EM TRONG GIA ĐÌNH",
@@ -6705,7 +6754,8 @@
               "- HS lắng nghe, cam kết thực hiện kế hoạch đã chọn."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 17: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TRÁCH NHIỆM CỦA EM TRONG GIA ĐÌNH"
       },
       {
         "lessonTitle": "TUẦN 17: TIẾT 3\nSINH HOẠT LỚP: NHỮNG VIỆC LÀM GÂY LÃNG PHÍ TRONG CUỘC SỐNG HẰNG NGÀY",
@@ -6871,7 +6921,8 @@
               "- HS ghi nhiệm vụ, cam kết thực hiện và báo cáo kết quả."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 17: TIẾT 3\nSINH HOẠT LỚP: NHỮNG VIỆC LÀM GÂY LÃNG PHÍ TRONG CUỘC SỐNG HẰNG NGÀY"
       }
     ]
   },
@@ -6969,7 +7020,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ vận dụng."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 18: TIẾT 1\nSINH HOẠT DƯỚI CỜ: LÒNG BIẾT ƠN"
       },
       {
         "lessonTitle": "TUẦN 18: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIẾT ƠN NGƯỜI THÂN TRONG GIA ĐÌNH",
@@ -7104,7 +7156,8 @@
               "- HS lắng nghe và cam kết thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 18: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIẾT ƠN NGƯỜI THÂN TRONG GIA ĐÌNH"
       },
       {
         "lessonTitle": "TUẦN 18: TIẾT 3\nSINH HOẠT LỚP: THỂ HIỆN LÒNG BIẾT ƠN VỚI NGƯỜI THÂN",
@@ -7255,7 +7308,8 @@
               "- HS lắng nghe, chuẩn bị chia sẻ kết quả vận dụng."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 18: TIẾT 3\nSINH HOẠT LỚP: THỂ HIỆN LÒNG BIẾT ƠN VỚI NGƯỜI THÂN"
       }
     ]
   },
@@ -7349,7 +7403,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 19: TIẾT 1\nSINH HOẠT DƯỚI CỜ: TRÒ CHƠI VUI"
       },
       {
         "lessonTitle": "TUẦN 19: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIA ĐÌNH LÀ TỔ ẤM",
@@ -7472,7 +7527,8 @@
               "- HS lắng nghe, chuẩn bị nội dung chia sẻ."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 19: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIA ĐÌNH LÀ TỔ ẤM"
       },
       {
         "lessonTitle": "TUẦN 19: TIẾT 3\nSINH HOẠT LỚP: VUN ĐẮP TÌNH CẢM GIA ĐÌNH",
@@ -7615,7 +7671,8 @@
               "- HS lắng nghe, chuẩn bị chia sẻ kết quả."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 19: TIẾT 3\nSINH HOẠT LỚP: VUN ĐẮP TÌNH CẢM GIA ĐÌNH"
       }
     ]
   },
@@ -7709,7 +7766,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 20: TIẾT 1\nSINH HOẠT DƯỚI CỜ: HỘI CHỢ CUỐI TUẦN VUI VẺ"
       },
       {
         "lessonTitle": "TUẦN 20: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGÀY CUỐI TUẦN VUI VẺ, ĐẦM ẤM",
@@ -7832,7 +7890,8 @@
               "- HS ghi nhớ nhiệm vụ, cam kết thực hiện với thái độ lễ phép."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 20: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGÀY CUỐI TUẦN VUI VẺ, ĐẦM ẤM"
       },
       {
         "lessonTitle": "TUẦN 20: TIẾT 3\nSINH HOẠT LỚP: BUỔI TỐI NHÀ EM",
@@ -7999,7 +8058,8 @@
               "- HS lắng nghe và tự nhắc bản thân tiếp tục thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 20: TIẾT 3\nSINH HOẠT LỚP: BUỔI TỐI NHÀ EM"
       }
     ]
   },
@@ -8089,7 +8149,8 @@
               "- HS lựa chọn một việc làm cụ thể và nói ngắn gọn trước nhóm hoặc trước lớp.\n- HS ghi nhớ và thực hiện cam kết."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 21: TIẾT 1 - SINH HOẠT DƯỚI CỜ"
       },
       {
         "lessonTitle": "TUẦN 21: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ",
@@ -8204,7 +8265,8 @@
               "- HS ghi nhiệm vụ vận dụng.\n- HS chuẩn bị trao đổi với người thân và ghi lại thông tin tìm hiểu được."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 21: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ"
       },
       {
         "lessonTitle": "TUẦN 21: TIẾT 3 - SINH HOẠT LỚP",
@@ -8327,7 +8389,8 @@
               "- HS ghi nhiệm vụ vận dụng.\n- HS chuẩn bị thông tin, hình ảnh phù hợp và hoàn thiện sản phẩm số theo nhóm."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 21: TIẾT 3 - SINH HOẠT LỚP"
       }
     ]
   },
@@ -8421,7 +8484,8 @@
               "- HS chọn một hành động cụ thể để thực hiện.\n- HS ghi nhớ nhiệm vụ rèn luyện và cam kết thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 22: TIẾT 1 - SINH HOẠT DƯỚI CỜ: RÈN LUYỆN THỂ CHẤT VÀ TINH THẦN ĐỂ THÍCH ỨNG VỚI CUỘC SỐNG"
       },
       {
         "lessonTitle": "TUẦN 22: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC ĐỨC TÍNH CẦN THIẾT TRONG MÔI TRƯỜNG HỌC TẬP MỚI",
@@ -8548,7 +8612,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng.\n- HS cam kết thực hiện kế hoạch rèn luyện của bản thân."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 22: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC ĐỨC TÍNH CẦN THIẾT TRONG MÔI TRƯỜNG HỌC TẬP MỚI"
       },
       {
         "lessonTitle": "TUẦN 22: TIẾT 3 - SINH HOẠT LỚP: RÈN LUYỆN ĐỨC TÍNH CẦN THIẾT ĐỂ THÍCH ỨNG VỚI MÔI TRƯỜNG HỌC TẬP MỚI",
@@ -8687,7 +8752,8 @@
               "- HS ghi nhớ nội dung chuẩn bị cho tuần 23.\n- HS nêu lại một nguyên tắc an toàn khi giao tiếp trên mạng."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 22: TIẾT 3 - SINH HOẠT LỚP: RÈN LUYỆN ĐỨC TÍNH CẦN THIẾT ĐỂ THÍCH ỨNG VỚI MÔI TRƯỜNG HỌC TẬP MỚI"
       }
     ]
   },
@@ -8785,7 +8851,8 @@
               "- HS chọn một việc làm cụ thể và cam kết thực hiện.\n- HS ghi nhớ nhiệm vụ chuẩn bị cho hoạt động tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 23: TIẾT 1 - SINH HOẠT DƯỚI CỜ: KỈ NIỆM NGÀY QUỐC TẾ PHỤ NỮ 8-3"
       },
       {
         "lessonTitle": "TUẦN 23: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG",
@@ -8908,7 +8975,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng.\n- HS chuẩn bị chia sẻ kết quả thực hiện và góp ý của người thân trong tiết sinh hoạt lớp."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 23: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG"
       },
       {
         "lessonTitle": "TUẦN 23: TIẾT 3 - SINH HOẠT LỚP: ỨNG XỬ THEO QUY TẮC TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG",
@@ -9043,7 +9111,8 @@
               "- HS ghi nhớ nội dung chuẩn bị cho tuần 24.\n- HS nêu lại một nguyên tắc an toàn: gặp nguy cơ phải báo người lớn, không tự ý xử lí một mình."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 23: TIẾT 3 - SINH HOẠT LỚP: ỨNG XỬ THEO QUY TẮC TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG"
       }
     ]
   },
@@ -9141,7 +9210,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị.\n- HS cam kết không nghịch lửa, không tự ý sử dụng thiết bị điện nguy hiểm."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 24: TIẾT 1 - SINH HOẠT DƯỚI CỜ: TỰ BẢO VỆ BẢN THÂN"
       },
       {
         "lessonTitle": "TUẦN 24: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGUYÊN NHÂN VÀ CÁCH PHÒNG CHỐNG HOẢ HOẠN",
@@ -9264,7 +9334,8 @@
               "- HS ghi nhớ nhiệm vụ quan sát.\n- HS cam kết báo người lớn khi phát hiện dấu hiệu nguy hiểm."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 24: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGUYÊN NHÂN VÀ CÁCH PHÒNG CHỐNG HOẢ HOẠN"
       },
       {
         "lessonTitle": "TUẦN 24: TIẾT 3 - SINH HOẠT LỚP: THỰC HÀNH THOÁT HIỂM",
@@ -9403,7 +9474,8 @@
               "- HS quan sát phần tự đánh giá trong SGK.\n- HS tự đánh giá theo tiêu chí: xác định đức tính cần rèn để thích ứng với môi trường học tập mới; biết tự chủ và an toàn khi giao tiếp trên mạng; nhận biết nguyên nhân gây hoả hoạn; thực hành kĩ năng thoát hiểm."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 24: TIẾT 3 - SINH HOẠT LỚP: THỰC HÀNH THOÁT HIỂM"
       }
     ]
   },
@@ -9501,7 +9573,8 @@
               "- HS ghi nhiệm vụ chuẩn bị.\n- HS cam kết chuẩn bị thông tin, tranh ảnh phù hợp và tôn trọng hình ảnh của người khác."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 25: TIẾT 1 - SINH HOẠT DƯỚI CỜ: LỄ HỘI TRUYỀN THỐNG ĐỊA PHƯƠNG"
       },
       {
         "lessonTitle": "TUẦN 25: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA LỄ HỘI TRUYỀN THỐNG Ở ĐỊA PHƯƠNG",
@@ -9620,7 +9693,8 @@
               "- HS ghi nhớ yêu cầu chuẩn bị.\n- HS cam kết chuẩn bị đạo cụ an toàn, nội dung phù hợp và tìm hiểu kĩ ý nghĩa của hoạt động lễ hội."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 25: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA LỄ HỘI TRUYỀN THỐNG Ở ĐỊA PHƯƠNG"
       },
       {
         "lessonTitle": "TUẦN 25: TIẾT 3 - SINH HOẠT LỚP: TÁI HIỆN LỄ HỘI TRUYỀN THỐNG",
@@ -9755,7 +9829,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị cho tuần 26.\n- HS chuẩn bị chia sẻ về một hoạt động xã hội ở địa phương."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 25: TIẾT 3 - SINH HOẠT LỚP: TÁI HIỆN LỄ HỘI TRUYỀN THỐNG"
       }
     ]
   },
@@ -9849,7 +9924,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị.\n- HS dự kiến hỏi người thân hoặc tìm hiểu thêm về hoạt động xã hội ở địa phương."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 26: TIẾT 1 - SINH HOẠT DƯỚI CỜ: THAM GIA HOẠT ĐỘNG XÃ HỘI Ở ĐỊA PHƯƠNG"
       },
       {
         "lessonTitle": "TUẦN 26: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA HOẠT ĐỘNG XÃ HỘI",
@@ -9968,7 +10044,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng.\n- HS chuẩn bị thực hiện kế hoạch và ghi lại kết quả, cảm xúc sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 26: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA HOẠT ĐỘNG XÃ HỘI"
       },
       {
         "lessonTitle": "TUẦN 26: TIẾT 3 - SINH HOẠT LỚP: CHUNG TAY VÌ CỘNG ĐỒNG",
@@ -10083,7 +10160,8 @@
               "+ HS lắng nghe và nêu được trách nhiệm của bản thân đối với cộng đồng.\n+ HS cam kết tham gia đúng khả năng, an toàn, lễ phép và có trách nhiệm.\n+ HS hiểu rằng mỗi việc làm tốt đều góp phần xây dựng cộng đồng văn minh, thân thiện."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 26: TIẾT 3 - SINH HOẠT LỚP: CHUNG TAY VÌ CỘNG ĐỒNG"
       }
     ]
   },
@@ -10177,7 +10255,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị.\n- HS dự kiến chuẩn bị tranh ảnh hoặc câu chuyện gần gũi về người xung quanh."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 27: TIẾT 1 - SINH HOẠT DƯỚI CỜ: GƯƠNG NGƯỜI TỐT, VIỆC TỐT"
       },
       {
         "lessonTitle": "TUẦN 27: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÂN THIỆN VỚI NGƯỜI XUNG QUANH",
@@ -10300,7 +10379,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng.\n- HS cam kết thực hiện một việc làm thân thiện phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 27: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÂN THIỆN VỚI NGƯỜI XUNG QUANH"
       },
       {
         "lessonTitle": "TUẦN 27: TIẾT 3 - SINH HOẠT LỚP: ĐÁNH GIÁ VIỆC THAM GIA HOẠT ĐỘNG XÃ HỘI",
@@ -10439,7 +10519,8 @@
               "- HS trưng bày “Trái tim tự hào” và tham gia chụp hình kỉ niệm.\n- HS ghi nhớ nhiệm vụ vận dụng, dự kiến trao đổi với người thân về một hoạt động xã hội phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 27: TIẾT 3 - SINH HOẠT LỚP: ĐÁNH GIÁ VIỆC THAM GIA HOẠT ĐỘNG XÃ HỘI"
       }
     ]
   },
@@ -10533,7 +10614,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị.\n- HS dự kiến chuẩn bị tranh ảnh, tên cảnh quan và cảm xúc của bản thân."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 28: TIẾT 1 - SINH HOẠT DƯỚI CỜ: BÌNH ẢNH QUÊ HƯƠNG"
       },
       {
         "lessonTitle": "TUẦN 28: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ HÀO VỀ CẢNH QUAN THIÊN NHIÊN CỦA QUÊ HƯƠNG, ĐẤT NƯỚC",
@@ -10648,7 +10730,8 @@
               "- HS nhận nhiệm vụ tiếp tục tìm hiểu.\n- HS ghi nhớ cần hoàn thành báo cáo và luyện tập giới thiệu."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 28: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ HÀO VỀ CẢNH QUAN THIÊN NHIÊN CỦA QUÊ HƯƠNG, ĐẤT NƯỚC"
       },
       {
         "lessonTitle": "TUẦN 28: TIẾT 3 - SINH HOẠT LỚP: VIỆT NAM TRONG MẮT EM",
@@ -10787,7 +10870,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng.\n- HS dự kiến hoàn thiện sản phẩm và luyện tập lời giới thiệu."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 28: TIẾT 3 - SINH HOẠT LỚP: VIỆT NAM TRONG MẮT EM"
       }
     ]
   },
@@ -10921,7 +11005,8 @@
               "- HS chuẩn bị ví dụ và đồ dùng cho tiết học tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 29: TIẾT 1 - SINH HOẠT DƯỚI CỜ: BẢO TỒN CẢNH QUAN THIÊN NHIÊN"
       },
       {
         "lessonTitle": "TUẦN 29: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIỆN PHÁP BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
@@ -11104,7 +11189,8 @@
               "- HS trao đổi với người thân và chuẩn bị chia sẻ kết quả ở tiết sinh hoạt lớp."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 29: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIỆN PHÁP BẢO TỒN CẢNH QUAN THIÊN NHIÊN"
       },
       {
         "lessonTitle": "TUẦN 29: TIẾT 3 - SINH HOẠT LỚP: TUYÊN TRUYỀN VỀ VIỆC BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
@@ -11303,7 +11389,8 @@
               "+ HS hiểu bảo vệ nguồn nước là một phần quan trọng của bảo tồn cảnh quan."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 29: TIẾT 3 - SINH HOẠT LỚP: TUYÊN TRUYỀN VỀ VIỆC BẢO TỒN CẢNH QUAN THIÊN NHIÊN"
       }
     ]
   },
@@ -11429,7 +11516,8 @@
               "- HS chuẩn bị quan sát thực trạng môi trường quanh em."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 30: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SẢN PHẨM TUYÊN TRUYỀN BẢO TỒN CẢNH QUAN THIÊN NHIÊN"
       },
       {
         "lessonTitle": "TUẦN 30: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LẬP KẾ HOẠCH KHẢO SÁT THỰC TRẠNG MÔI TRƯỜNG QUANH EM",
@@ -11612,7 +11700,8 @@
               "- HS thực hiện khảo sát cùng nhóm/người thân theo kế hoạch, đảm bảo an toàn và trung thực."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 30: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LẬP KẾ HOẠCH KHẢO SÁT THỰC TRẠNG MÔI TRƯỜNG QUANH EM"
       },
       {
         "lessonTitle": "TUẦN 30: TIẾT 3 - SINH HOẠT LỚP: CHÚNG TÔI LÊN TIẾNG VÌ MÔI TRƯỜNG",
@@ -11827,7 +11916,8 @@
               "- HS phân công chuẩn bị trang phục, đạo cụ và luyện tập tiểu phẩm."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 30: TIẾT 3 - SINH HOẠT LỚP: CHÚNG TÔI LÊN TIẾNG VÌ MÔI TRƯỜNG"
       }
     ]
   },
@@ -11957,7 +12047,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 31: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NGÀY CUỐI TUẦN VÌ TRÁI ĐẤT"
       },
       {
         "lessonTitle": "TUẦN 31: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUNG TAY BẢO VỆ MÔI TRƯỜNG QUANH TA",
@@ -12135,7 +12226,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 31: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUNG TAY BẢO VỆ MÔI TRƯỜNG QUANH TA"
       },
       {
         "lessonTitle": "TUẦN 31: TIẾT 3 - SINH HOẠT LỚP: MỖI HÀNH ĐỘNG - MỘT CHIẾC LÁ",
@@ -12353,7 +12445,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 31: TIẾT 3 - SINH HOẠT LỚP: MỖI HÀNH ĐỘNG - MỘT CHIẾC LÁ"
       }
     ]
   },
@@ -12479,7 +12572,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 32: TIẾT 1 - SINH HOẠT DƯỚI CỜ: DIỄN ĐÀN NGHỀ NGHIỆP TƯƠNG LAI"
       },
       {
         "lessonTitle": "TUẦN 32: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGHỀ EM MƠ ƯỚC",
@@ -12657,7 +12751,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 32: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGHỀ EM MƠ ƯỚC"
       },
       {
         "lessonTitle": "TUẦN 32: TIẾT 3 - SINH HOẠT LỚP: CÂU CHUYỆN CỦA NGƯỜI LÀM NGHỀ",
@@ -12875,7 +12970,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 32: TIẾT 3 - SINH HOẠT LỚP: CÂU CHUYỆN CỦA NGƯỜI LÀM NGHỀ"
       }
     ]
   },
@@ -13001,7 +13097,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 33: TIẾT 1 - SINH HOẠT DƯỚI CỜ: TỌA ĐÀM CHỌN NGHỀ - ĐƯỜNG TỚI THÀNH CÔNG"
       },
       {
         "lessonTitle": "TUẦN 33: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: AN TOÀN NGHỀ NGHIỆP",
@@ -13175,7 +13272,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 33: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: AN TOÀN NGHỀ NGHIỆP"
       },
       {
         "lessonTitle": "TUẦN 33: TIẾT 3 - SINH HOẠT LỚP: THIẾT BỊ BẢO HỘ LAO ĐỘNG",
@@ -13365,7 +13463,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 33: TIẾT 3 - SINH HOẠT LỚP: THIẾT BỊ BẢO HỘ LAO ĐỘNG"
       }
     ]
   },
@@ -13491,7 +13590,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 34: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SÂN KHẤU ƯỚC MƠ CỦA EM"
       },
       {
         "lessonTitle": "TUẦN 34: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: MƠ ƯỚC NGHỀ NGHIỆP CỦA EM",
@@ -13657,7 +13757,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 34: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: MƠ ƯỚC NGHỀ NGHIỆP CỦA EM"
       },
       {
         "lessonTitle": "TUẦN 34: TIẾT 3 - SINH HOẠT LỚP: TẤM DANH THIẾP TƯƠNG LAI",
@@ -13847,7 +13948,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 34: TIẾT 3 - SINH HOẠT LỚP: TẤM DANH THIẾP TƯƠNG LAI"
       }
     ]
   },
@@ -13973,7 +14075,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 35: TIẾT 1 - SINH HOẠT DƯỚI CỜ: LỄ TỔNG KẾT NĂM HỌC"
       },
       {
         "lessonTitle": "TUẦN 35: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HỒ SƠ TRẢI NGHIỆM",
@@ -14143,7 +14246,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 35: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HỒ SƠ TRẢI NGHIỆM"
       },
       {
         "lessonTitle": "TUẦN 35: TIẾT 3 - SINH HOẠT LỚP: CHIA TAY TRƯỜNG TIỂU HỌC",
@@ -14339,7 +14443,8 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 35: TIẾT 3 - SINH HOẠT LỚP: CHIA TAY TRƯỜNG TIỂU HỌC"
       }
     ]
   }

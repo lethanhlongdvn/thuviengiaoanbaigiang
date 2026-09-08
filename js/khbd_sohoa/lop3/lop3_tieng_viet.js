@@ -14,7 +14,7 @@
     "sourceFile": "TV TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Ngày gặp lại; Nói và nghe - Mùa hè của em",
+        "lessonTitle": "Tiết 1, 2: Đọc - Ngày gặp lại; Nói và nghe - Mùa hè của em - Tiết 1: Đọc - Ngày gặp lại",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -23,14 +23,7 @@
           "- Trả lời đúng các câu hỏi trong SGK: nêu được chi tiết thể hiện niềm vui gặp lại nhau, trải nghiệm mùa hè của Sơn, điểm khác giữa mùa hè của Chi và Sơn, lí do mùa hè sẽ theo các bạn vào lớp học.",
           "- Biết kể về điều em nhớ nhất trong kì nghỉ hè; biết so sánh mùa hè năm nay với mùa hè năm ngoái bằng lời nói rõ ràng, tự nhiên.",
           "- Biết lắng nghe bạn nói, đặt câu hỏi hoặc nhận xét ngắn gọn, lịch sự sau khi nghe bạn chia sẻ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm Những trải nghiệm thú vị, tranh bài đọc Ngày gặp lại, tranh Nói và nghe Mùa hè của em, thẻ từ luyện đọc, phiếu học tập nhóm đôi/nhóm bốn; tài khoản giáo viên để minh họa ChatGPT/Gemini khi cần.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và kể về kì nghỉ hè.",
           "- Giải quyết vấn đề và sáng tạo: biết chọn chi tiết tiêu biểu trong trải nghiệm của mình để kể ngắn gọn, có cảm xúc.",
           "3. Phẩm chất:",
@@ -41,13 +34,10 @@
           "- GDKNS: HS chia sẻ trải nghiệm mùa hè vui, đáng nhớ nhưng cần đảm bảo an toàn như phòng tránh điện, phòng tránh đuối nước, không tự ý đi chơi xa khi không có người lớn.",
           "- Tích hợp AI (Khung 3439) - 3.A1.2: HS hiểu AI có thể mô phỏng văn bản nhưng không thể có cảm xúc như con người; biết AI chỉ hỗ trợ gợi ý, còn cảm xúc vui khi gặp lại bạn là trải nghiệm thật của con người."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm Những trải nghiệm thú vị, tranh bài đọc Ngày gặp lại, tranh Nói và nghe Mùa hè của em, thẻ từ luyện đọc, phiếu học tập nhóm đôi/nhóm bốn; tài khoản giáo viên để minh họa ChatGPT/Gemini khi cần.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -150,13 +140,35 @@
               "- HS lắng nghe, nêu được Sơn có mùa hè vui và nhiều trải nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Ngày gặp lại; Nói và nghe - Mùa hè của em - Tiết 1: Đọc - Ngày gặp lại",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Ngày gặp lại; Nói và nghe - Mùa hè của em - Tiết 2: Nói và nghe - Mùa hè của em",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng văn bản Ngày gặp lại; biết ngắt nghỉ hơi ở lời người kể chuyện và lời nhân vật Chi, Sơn.",
+          "- Hiểu nội dung bài đọc: niềm vui khi gặp lại bạn sau kì nghỉ hè và ý nghĩa của những trải nghiệm mùa hè đối với mỗi bạn nhỏ.",
+          "- Trả lời đúng các câu hỏi trong SGK: nêu được chi tiết thể hiện niềm vui gặp lại nhau, trải nghiệm mùa hè của Sơn, điểm khác giữa mùa hè của Chi và Sơn, lí do mùa hè sẽ theo các bạn vào lớp học.",
+          "- Biết kể về điều em nhớ nhất trong kì nghỉ hè; biết so sánh mùa hè năm nay với mùa hè năm ngoái bằng lời nói rõ ràng, tự nhiên.",
+          "- Biết lắng nghe bạn nói, đặt câu hỏi hoặc nhận xét ngắn gọn, lịch sự sau khi nghe bạn chia sẻ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và kể về kì nghỉ hè.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn chi tiết tiêu biểu trong trải nghiệm của mình để kể ngắn gọn, có cảm xúc.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và hoàn thành nhiệm vụ nói - nghe.",
+          "- Nhân ái: biết quan tâm, vui mừng khi gặp lại bạn; tôn trọng những trải nghiệm khác nhau của bạn.",
+          "- Trách nhiệm: biết vui chơi, nghỉ hè an toàn; có ý thức tự bảo vệ bản thân khi tham gia hoạt động ngoài trời.",
+          "4. Tích hợp:",
+          "- GDKNS: HS chia sẻ trải nghiệm mùa hè vui, đáng nhớ nhưng cần đảm bảo an toàn như phòng tránh điện, phòng tránh đuối nước, không tự ý đi chơi xa khi không có người lớn.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.2: HS hiểu AI có thể mô phỏng văn bản nhưng không thể có cảm xúc như con người; biết AI chỉ hỗ trợ gợi ý, còn cảm xúc vui khi gặp lại bạn là trải nghiệm thật của con người."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm Những trải nghiệm thú vị, tranh bài đọc Ngày gặp lại, tranh Nói và nghe Mùa hè của em, thẻ từ luyện đọc, phiếu học tập nhóm đôi/nhóm bốn; tài khoản giáo viên để minh họa ChatGPT/Gemini khi cần.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -271,10 +283,12 @@
               "- HS nhắc lại nội dung bài, ghi nhớ cách lắng nghe và chia sẻ với bạn."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Ngày gặp lại; Nói và nghe - Mùa hè của em - Tiết 2: Nói và nghe - Mùa hè của em",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Em yêu mùa hè",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Em yêu mùa hè - Tiết 1: Viết - Nghe viết: Em yêu mùa hè",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -297,15 +311,6 @@
           "- GV: Máy tính, máy chiếu/tivi, hình bài thơ Em yêu mùa hè, tranh bài tập tìm tiếng bắt đầu bằng c hoặc k, bảng phụ từ khó, phiếu soát lỗi chính tả.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, phấn/bút dạ, bút chì để soát lỗi."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -416,10 +421,12 @@
               "- HS nhắc lại nội dung chính, ghi nhớ nhiệm vụ sửa lỗi và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Em yêu mùa hè - Tiết 1: Viết - Nghe viết: Em yêu mùa hè",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Về thăm quê; Viết - Ôn chữ hoa A, Ă, Â",
+        "lessonTitle": "Tiết 1, 2: Đọc - Về thăm quê; Viết - Ôn chữ hoa A, Ă, Â - Tiết 1: Đọc - Về thăm quê",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -444,15 +451,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Về thăm quê, bảng phụ viết từ khó, mẫu chữ hoa A, Ă, Â; phiếu học tập nhóm.",
           "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -551,13 +549,36 @@
               "- HS lắng nghe và nêu lại: Bạn nhỏ yêu bà, bà thương cháu."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Về thăm quê; Viết - Ôn chữ hoa A, Ă, Â - Tiết 1: Đọc - Về thăm quê",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Về thăm quê; Viết - Ôn chữ hoa A, Ă, Â - Tiết 2: Viết - Ôn chữ hoa A, Ă, Â",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài thơ Về thăm quê; biết ngắt nhịp thơ phù hợp và thể hiện cảm xúc vui tươi, hồn nhiên của bạn nhỏ khi được về quê.",
+          "- Hiểu nội dung bài thơ: niềm vui của bạn nhỏ khi được về thăm bà, cảm nhận tình yêu thương của bà và vẻ đẹp thân thuộc của quê hương.",
+          "- Trả lời đúng các câu hỏi trong SGK; nêu được những việc làm thể hiện tình yêu thương của bà dành cho con cháu.",
+          "- Học thuộc lòng được 3 khổ thơ em thích.",
+          "- Viết đúng chữ hoa A, Ă, Â cỡ nhỏ; viết đúng tên riêng Đông Anh và câu ứng dụng Ai về đến huyện Đông Anh / Ghé xem phong cảnh Loa Thành Thục Vương.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc bài thơ, luyện viết chữ hoa đúng mẫu, tự soát lỗi khi viết.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài; biết chia sẻ cảm nhận về người thân và quê hương.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết trong bài thơ để giải thích cảm xúc của nhân vật.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương, kính trọng ông bà, người thân; trân trọng sự chăm sóc của gia đình.",
+          "- Chăm chỉ: luyện đọc, học thuộc lòng và luyện viết chữ hoa cẩn thận.",
+          "- Trách nhiệm: biết cư xử lễ phép, quan tâm và giúp đỡ người thân bằng việc làm phù hợp.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS biết yêu thương, kính trọng người thân; hiểu trẻ em có quyền được chăm sóc trong gia đình và có bổn phận ứng xử lễ phép.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.1: HS biết sử dụng AI như công cụ hỗ trợ tìm kiếm hình ảnh minh họa bài viết; biết AI chỉ hỗ trợ quan sát, gợi ý từ ngữ, còn bài nói/viết cần dựa trên tình cảm thật với quê hương, người thân."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Về thăm quê, bảng phụ viết từ khó, mẫu chữ hoa A, Ă, Â; phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -664,10 +685,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Về thăm quê; Viết - Ôn chữ hoa A, Ă, Â - Tiết 2: Viết - Ôn chữ hoa A, Ă, Â",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Từ chỉ sự vật, hoạt động",
+        "lessonTitle": "Tiết 3: Luyện tập - Từ chỉ sự vật, hoạt động - Tiết 1: Luyện tập - Từ chỉ sự vật, hoạt động",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -690,15 +713,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh đồng quê trong SGK, bảng bài tập 1, thẻ từ ghép câu, phiếu học tập nhóm.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bảng con."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -798,10 +812,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Từ chỉ sự vật, hoạt động - Tiết 1: Luyện tập - Từ chỉ sự vật, hoạt động",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Luyện tập - Viết tin nhắn",
+        "lessonTitle": "Tiết 4: Luyện tập - Viết tin nhắn - Tiết 1: Luyện tập - Viết tin nhắn",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -825,15 +841,6 @@
           "- GV: Máy tính, máy chiếu/tivi, hình hai tin nhắn trong SGK, phiếu so sánh hai tin nhắn, phiếu viết tin nhắn, bảng tiêu chí soát lỗi.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -948,7 +955,9 @@
               "- HS nhắc lại nội dung cần nhớ và ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết tin nhắn - Tiết 1: Luyện tập - Viết tin nhắn",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -957,7 +966,7 @@
     "sourceFile": "TV TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 1, 2: Đọc - Cánh rừng trong nắng; Nói và nghe - Sự tích loài hoa của mùa hạ",
+        "lessonTitle": "BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 1, 2: Đọc - Cánh rừng trong nắng; Nói và nghe - Sự tích loài hoa của mùa hạ - Tiết 1: BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 1, 2: Đọc - Cánh rừng trong nắng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -982,15 +991,6 @@
           "- GV: Kế hoạch bài dạy, máy tính, tivi/máy chiếu, tranh minh họa bài đọc, tranh kể chuyện, bản đồ Việt Nam, thẻ từ luyện đọc, phiếu học tập.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -1077,13 +1077,36 @@
               "- HS nêu: cây cối vươn ngọn lên cao tít, nhiều cây thân thẳng tắp, tán lá tròn xoe; sóc nhảy thoăn thoắt, vượn bạc má, hoẵng nhìn ngơ ngác."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 1, 2: Đọc - Cánh rừng trong nắng; Nói và nghe - Sự tích loài hoa của mùa hạ - Tiết 1: BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 1, 2: Đọc - Cánh rừng trong nắng",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 1, 2: Đọc - Cánh rừng trong nắng; Nói và nghe - Sự tích loài hoa của mùa hạ - Tiết 2: Nói và nghe - Sự tích loài hoa của mùa hạ",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Cánh rừng trong nắng; biết ngắt nghỉ hơi ở chỗ có dấu câu.",
+          "- Bước đầu biết thể hiện tâm trạng, cảm xúc của nhân vật trước sự việc và cảnh vật trong câu chuyện qua giọng đọc.",
+          "- Nhận biết được trình tự các sự việc gắn với thời gian, địa điểm cụ thể; hiểu những cảm nhận của các bạn nhỏ về cảnh vật đẹp và thú vị trong cánh rừng.",
+          "- Nghe hiểu nội dung câu chuyện Sự tích loài hoa của mùa hạ; kể lại được từng đoạn của câu chuyện dựa theo tranh và lời gợi ý.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động đọc thầm, luyện đọc đoạn, tự soát lỗi và hoàn thành nhiệm vụ học tập.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, nhận xét và góp ý cho bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết phù hợp để trả lời, kể chuyện và vận dụng vào thực tế.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, luyện viết, tham gia hoạt động học tập.",
+          "- Nhân ái: biết yêu quý thiên nhiên, con người; biết chia sẻ, giúp đỡ bạn bè và người thân.",
+          "- Trách nhiệm: có ý thức giữ gìn môi trường, giữ an toàn khi vui chơi, học tập nghiêm túc.",
+          "4. Tích hợp:",
+          "- GDBVMT: HS yêu cảnh đẹp của các cánh rừng trên đất nước ta, từ đó thêm yêu quý môi trường xung quanh, có ý thức bảo vệ môi trường.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng cho HS lối sống nhân ái, biết tha thứ, đoàn kết và sẵn sàng giúp đỡ người khác qua câu chuyện Sự tích loài hoa của mùa hạ.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: GV dùng ChatGPT/Gemini bằng tài khoản giáo viên để gợi ý câu hỏi tìm hiểu tranh rừng hoặc tranh kể chuyện; HS nhận biết AI chỉ hỗ trợ gợi ý, cần kiểm tra với SGK, quan sát thực tế và không nhập thông tin cá nhân khi sử dụng công cụ số."
+        ],
+        "dodung": [
+          "- GV: Kế hoạch bài dạy, máy tính, tivi/máy chiếu, tranh minh họa bài đọc, tranh kể chuyện, bản đồ Việt Nam, thẻ từ luyện đọc, phiếu học tập.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -1198,10 +1221,12 @@
               "- HS chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 1, 2: Đọc - Cánh rừng trong nắng; Nói và nghe - Sự tích loài hoa của mùa hạ - Tiết 2: Nói và nghe - Sự tích loài hoa của mùa hạ",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 3: Viết - Nghe viết: Cánh rừng trong nắng",
+        "lessonTitle": "BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 3: Viết - Nghe viết: Cánh rừng trong nắng - Tiết 1: BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 3: Viết - Nghe viết: Cánh rừng trong nắng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1223,15 +1248,6 @@
           "- GV: Máy tính, máy chiếu/tivi, đoạn văn nghe - viết, tranh bài tập chính tả, thẻ g/gh, phiếu học tập.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -1335,10 +1351,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 3: Viết - Nghe viết: Cánh rừng trong nắng - Tiết 1: BÀI 3: CÁNH RỪNG TRONG NẮNGTIẾT 3: Viết - Nghe viết: Cánh rừng trong nắng",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 1, 2: Đọc - Lần đầu ra biển; Đọc mở rộng",
+        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 1, 2: Đọc - Lần đầu ra biển; Đọc mở rộng - Tiết 1: BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 1, 2: Đọc - Lần đầu ra biển",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1363,15 +1381,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc, tranh/ảnh cảnh đẹp biển Quy Nhơn, tranh/ảnh con còng gió, phiếu đọc sách, sách/truyện phục vụ đọc mở rộng.",
           "- HS: SGK Tiếng Việt 3, vở ghi, phiếu đọc sách, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -1446,13 +1455,36 @@
               "- HS trả lời: Biển rộng lớn, rất xanh, chẳng nhìn thấy bờ bên kia đâu."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 1, 2: Đọc - Lần đầu ra biển; Đọc mở rộng - Tiết 1: BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 1, 2: Đọc - Lần đầu ra biển",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 1, 2: Đọc - Lần đầu ra biển; Đọc mở rộng - Tiết 2: Đọc mở rộng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Lần đầu ra biển; bước đầu biết đọc diễn cảm đoạn văn bộc lộ cảm xúc và đọc lời nhân vật với ngữ điệu phù hợp.",
+          "- Hiểu nội dung câu chuyện; nhận biết cảm xúc của nhân vật trước những sự vật mới lạ và người bạn mới gặp.",
+          "- Hiểu điều tác giả muốn nói: Mỗi chuyến đi chơi, tham quan giúp ta có thêm hiểu biết về thiên nhiên và con người.",
+          "- Đọc mở rộng: đọc bài về những hoạt động yêu thích của trẻ em, viết vào phiếu đọc sách và chia sẻ điều em biết được.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động đọc thầm, luyện đọc đoạn, tự soát lỗi và hoàn thành nhiệm vụ học tập.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, nhận xét và góp ý cho bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết phù hợp để trả lời, kể chuyện và vận dụng vào thực tế.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, luyện viết, tham gia hoạt động học tập.",
+          "- Nhân ái: biết yêu quý thiên nhiên, con người; biết chia sẻ, giúp đỡ bạn bè và người thân.",
+          "- Trách nhiệm: có ý thức giữ gìn môi trường, giữ an toàn khi vui chơi, học tập nghiêm túc.",
+          "4. Tích hợp:",
+          "- GDKNS: HS biết đảm bảo an toàn, phòng tránh tai nạn đuối nước khi vui chơi, tham quan ở biển.",
+          "- QPAN: Giáo dục HS lòng yêu quê hương, ý thức bảo vệ chủ quyền biển đảo và an ninh Tổ quốc.",
+          "- ATGT: HS biết an toàn khi vui chơi, tham quan ở biển; không tắm biển một mình, không chạy nhảy gần mép nước, luôn đi cùng người lớn và tuân thủ hướng dẫn."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc, tranh/ảnh cảnh đẹp biển Quy Nhơn, tranh/ảnh con còng gió, phiếu đọc sách, sách/truyện phục vụ đọc mở rộng.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, phiếu đọc sách, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -1559,10 +1591,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 1, 2: Đọc - Lần đầu ra biển; Đọc mở rộng - Tiết 2: Đọc mở rộng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 3: Luyện tập - Từ ngữ chỉ đặc điểm; Câu nêu đặc điểm",
+        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 3: Luyện tập - Từ ngữ chỉ đặc điểm; Câu nêu đặc điểm - Tiết 1: BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 3: Luyện tập - Từ ngữ chỉ đặc điểm",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1584,15 +1618,6 @@
           "- GV: Máy tính, máy chiếu/tivi, phiếu học tập, bảng nhóm, tranh minh họa bài tập, một số hình ảnh sự vật để gợi ý tìm từ.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -1669,10 +1694,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 3: Luyện tập - Từ ngữ chỉ đặc điểm; Câu nêu đặc điểm - Tiết 1: BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 3: Luyện tập - Từ ngữ chỉ đặc điểm",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 4: Luyện tập - Viết đoạn văn kể lại hoạt động",
+        "lessonTitle": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 4: Luyện tập - Viết đoạn văn kể lại hoạt động - Tiết 1: BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 4: Luyện tập - Viết đoạn văn kể lại hoạt động",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1697,15 +1724,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bốn hoạt động trong SGK, sơ đồ gợi ý kể lại một hoạt động, phiếu học tập.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -1809,7 +1827,9 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 4: Luyện tập - Viết đoạn văn kể lại hoạt động - Tiết 1: BÀI 4: LẦN ĐẦU RA BIỂNTIẾT 4: Luyện tập - Viết đoạn văn kể lại hoạt động",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -1818,7 +1838,7 @@
     "sourceFile": "TV TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1, 2: Đọc - Nhật kí tập bơi; Nói và nghe - Một buổi tập luyện",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Nhật kí tập bơi; Nói và nghe - Một buổi tập luyện - Tiết 1: Đọc - Nhật kí tập bơi",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1827,14 +1847,7 @@
           "- Trả lời được các câu hỏi trong SGK về sự chuẩn bị, cảm xúc, việc học bơi và suy nghĩ của bạn nhỏ.",
           "- Kể được một buổi tập luyện của bản thân theo gợi ý: nội dung tập luyện, các bước luyện tập, cảm xúc khi tập luyện.",
           "- Biết lắng nghe, nhận xét và trao đổi lịch sự khi bạn kể về một buổi tập luyện.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi; tranh bài đọc Nhật kí tập bơi; tranh Nói và nghe Một buổi tập luyện; thẻ từ luyện đọc; phiếu thảo luận nhóm; hình ảnh/video ngắn về an toàn bơi lội do GV chọn lọc.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn để tìm chi tiết trong bài và chia sẻ về một buổi tập luyện.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết tiêu biểu để kể rõ một buổi tập luyện của bản thân.",
           "3. Phẩm chất:",
@@ -1846,13 +1859,10 @@
           "- GDKNS về phòng tránh đuối nước: HS nhận thức học bơi là kĩ năng sinh tồn; biết bơi ở nơi an toàn, có người lớn hướng dẫn, không bơi một mình và không đùa nghịch nguy hiểm dưới nước.",
           "- Tích hợp NLS 1.2.CB1a, 4.1.CB1b: HS biết lựa chọn video/nội dung hướng dẫn tập luyện, học bơi an toàn do GV hoặc người lớn giới thiệu; không tự làm theo clip nguy hiểm, không chia sẻ hình ảnh, địa điểm, lịch học bơi của cá nhân trên môi trường số."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi; tranh bài đọc Nhật kí tập bơi; tranh Nói và nghe Một buổi tập luyện; thẻ từ luyện đọc; phiếu thảo luận nhóm; hình ảnh/video ngắn về an toàn bơi lội do GV chọn lọc.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -1955,13 +1965,36 @@
               "- HS lắng nghe và ghi nhớ nội dung tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Nhật kí tập bơi; Nói và nghe - Một buổi tập luyện - Tiết 1: Đọc - Nhật kí tập bơi",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Nhật kí tập bơi; Nói và nghe - Một buổi tập luyện - Tiết 2: Nói và nghe - Một buổi tập luyện",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng văn bản Nhật kí tập bơi; biết ngắt nghỉ hơi ở câu dài, đọc phù hợp giọng kể trong nhật kí.",
+          "- Hiểu được nội dung các dòng nhật kí: bạn nhỏ tập bơi từ bỡ ngỡ, sợ nước đến cố gắng luyện tập và biết bơi.",
+          "- Trả lời được các câu hỏi trong SGK về sự chuẩn bị, cảm xúc, việc học bơi và suy nghĩ của bạn nhỏ.",
+          "- Kể được một buổi tập luyện của bản thân theo gợi ý: nội dung tập luyện, các bước luyện tập, cảm xúc khi tập luyện.",
+          "- Biết lắng nghe, nhận xét và trao đổi lịch sự khi bạn kể về một buổi tập luyện.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn để tìm chi tiết trong bài và chia sẻ về một buổi tập luyện.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết tiêu biểu để kể rõ một buổi tập luyện của bản thân.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, luyện nói, mạnh dạn chia sẻ trải nghiệm học tập và rèn luyện.",
+          "- Trách nhiệm: biết rèn luyện thân thể đúng cách, giữ an toàn khi tham gia hoạt động dưới nước.",
+          "- Nhân ái: biết động viên bạn khi bạn gặp khó khăn trong học tập, luyện tập.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền được vui chơi, rèn luyện thân thể, phát triển toàn diện; biết mạnh dạn chia sẻ cảm xúc khi tham gia hoạt động thể thao.",
+          "- GDKNS về phòng tránh đuối nước: HS nhận thức học bơi là kĩ năng sinh tồn; biết bơi ở nơi an toàn, có người lớn hướng dẫn, không bơi một mình và không đùa nghịch nguy hiểm dưới nước.",
+          "- Tích hợp NLS 1.2.CB1a, 4.1.CB1b: HS biết lựa chọn video/nội dung hướng dẫn tập luyện, học bơi an toàn do GV hoặc người lớn giới thiệu; không tự làm theo clip nguy hiểm, không chia sẻ hình ảnh, địa điểm, lịch học bơi của cá nhân trên môi trường số."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi; tranh bài đọc Nhật kí tập bơi; tranh Nói và nghe Một buổi tập luyện; thẻ từ luyện đọc; phiếu thảo luận nhóm; hình ảnh/video ngắn về an toàn bơi lội do GV chọn lọc.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -2064,10 +2097,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Nhật kí tập bơi; Nói và nghe - Một buổi tập luyện - Tiết 2: Nói và nghe - Một buổi tập luyện",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: Viết - Nghe viết: Mặt trời nhỏ",
+        "lessonTitle": "TIẾT 3: Viết - Nghe viết: Mặt trời nhỏ - Tiết 1: Viết - Nghe viết: Mặt trời nhỏ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2091,15 +2126,6 @@
           "- GV: Máy tính, máy chiếu/tivi; đoạn thơ nghe - viết; tranh bài tập chính tả trong SGK; thẻ ng/ngh; bảng phụ câu gợi ý viết 2 - 3 câu.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -2199,10 +2225,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: Viết - Nghe viết: Mặt trời nhỏ - Tiết 1: Viết - Nghe viết: Mặt trời nhỏ",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 1, 2: Đọc - Tập nấu ăn; Viết - Ôn chữ hoa B, C",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Tập nấu ăn; Viết - Ôn chữ hoa B, C - Tiết 1: Đọc - Tập nấu ăn",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2228,15 +2256,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh bài đọc Tập nấu ăn; bảng các bước làm trứng đúc thịt; mẫu chữ hoa B, C; bảng phụ câu ứng dụng; thẻ sắp xếp thứ tự các bước.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -2339,13 +2358,37 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Tập nấu ăn; Viết - Ôn chữ hoa B, C - Tiết 1: Đọc - Tập nấu ăn",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Tập nấu ăn; Viết - Ôn chữ hoa B, C - Tiết 2: Viết - Ôn chữ hoa B, C",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng văn bản Tập nấu ăn; biết đọc thông tin theo trình tự: nguyên liệu và các bước thực hiện.",
+          "- Hiểu nội dung bài: bạn nhỏ học cách làm món trứng đúc thịt và chia sẻ công thức với bạn.",
+          "- Trả lời được các câu hỏi trong SGK về nguyên liệu, bước thực hiện, tranh mô tả công việc và thứ tự làm món ăn.",
+          "- Viết đúng chữ hoa B, C cỡ nhỏ; viết đúng từ Cao Bằng và câu ứng dụng Cảnh rừng Việt Bắc thật là hay / Vượn hót chim kêu suốt cả ngày.",
+          "- Biết trình bày bài viết sạch đẹp, đúng quy trình viết chữ hoa.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động đọc văn bản thông tin, quan sát tranh và thực hiện yêu cầu viết chữ hoa.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn về các bước làm món ăn và an toàn khi vào bếp.",
+          "- Giải quyết vấn đề và sáng tạo: biết sắp xếp thứ tự các bước thực hiện một công việc đơn giản.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực đọc, tìm ý, luyện viết chữ hoa và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết giúp đỡ người thân việc phù hợp, giữ an toàn và vệ sinh khi vào bếp.",
+          "- Nhân ái: biết quan tâm, chia sẻ công việc nhà với người thân.",
+          "4. Tích hợp:",
+          "- GDKNS: HS biết bảo đảm an toàn khi tập nấu ăn; chỉ thực hiện việc phù hợp với lứa tuổi, dùng dao, bếp, nước nóng khi có người lớn hướng dẫn; giữ vệ sinh khi chế biến món ăn.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS biết AI có thể gợi ý công thức nấu ăn, nhưng cần kiểm tra với người lớn, không tự ý làm theo hướng dẫn trên mạng và không cung cấp thông tin cá nhân khi sử dụng công cụ số.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS nhận biết AI hỗ trợ con người trong các công việc nội trợ hằng ngày; biết AI chỉ gợi ý, việc nấu ăn phải có người lớn hướng dẫn để bảo đảm an toàn."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi; tranh bài đọc Tập nấu ăn; bảng các bước làm trứng đúc thịt; mẫu chữ hoa B, C; bảng phụ câu ứng dụng; thẻ sắp xếp thứ tự các bước.",
+          "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -2440,10 +2483,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Tập nấu ăn; Viết - Ôn chữ hoa B, C - Tiết 2: Viết - Ôn chữ hoa B, C",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: Luyện tập - Từ ngữ chỉ hoạt động. Câu hoạt động",
+        "lessonTitle": "TIẾT 3: Luyện tập - Từ ngữ chỉ hoạt động. Câu hoạt động - Tiết 1: Luyện tập - Từ ngữ chỉ hoạt động. Câu hoạt động",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2468,15 +2513,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh và bài tập trong SGK; thẻ từ chỉ hoạt động; bảng nhóm 2 cột.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -2575,10 +2611,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: Luyện tập - Từ ngữ chỉ hoạt động. Câu hoạt động - Tiết 1: Luyện tập - Từ ngữ chỉ hoạt động. Câu hoạt động",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 4: Luyện tập - Viết đoạn văn nêu các bước làm một món ăn",
+        "lessonTitle": "TIẾT 4: Luyện tập - Viết đoạn văn nêu các bước làm một món ăn - Tiết 1: Luyện tập - Viết đoạn văn nêu các bước làm một món ăn",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2601,15 +2639,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh các bước rang thịt trong SGK; bảng gợi ý viết đoạn văn; phiếu học tập; tài khoản giáo viên để minh họa gợi ý AI khi cần.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -2716,7 +2745,9 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: Luyện tập - Viết đoạn văn nêu các bước làm một món ăn - Tiết 1: Luyện tập - Viết đoạn văn nêu các bước làm một món ăn",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -2725,7 +2756,7 @@
     "sourceFile": "TV TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: MÙA HÈ LẤP LÁNH",
+        "lessonTitle": "BÀI 7: MÙA HÈ LẤP LÁNH - Tiết 1: BÀI 7: MÙA HÈ LẤP LÁNH",
         "topic": "",
         "yccd": [
           "TIẾT 1, 2: ĐỌC - MÙA HÈ LẤP LÁNH; NÓI VÀ NGHE - KỂ CHUYỆN CHÓ ĐỐM CON VÀ MẶT TRỜI",
@@ -2752,15 +2783,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh bài thơ Mùa hè lấp lánh; tranh kể chuyện Chó đốm con và mặt trời; thẻ từ luyện đọc; phiếu nhóm; hình ảnh/video ngắn do GV chọn về mặt trời mọc, mặt trời lặn.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -2855,13 +2877,38 @@
               "- HS lắng nghe, ghi nhớ nội dung tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: MÙA HÈ LẤP LÁNH - Tiết 1: BÀI 7: MÙA HÈ LẤP LÁNH",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "BÀI 7: MÙA HÈ LẤP LÁNH (TIẾT 2 (35 phút))",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "TIẾT 1, 2: ĐỌC - MÙA HÈ LẤP LÁNH; NÓI VÀ NGHE - KỂ CHUYỆN CHÓ ĐỐM CON VÀ MẶT TRỜI",
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài thơ Mùa hè lấp lánh; biết ngắt nghỉ theo dòng thơ, khổ thơ, đọc với giọng vui tươi, trong sáng.",
+          "- Hiểu được những hình ảnh đẹp, lợi ích và cảm giác vui sướng mà mùa hè mang lại cho cây cối, học sinh và đời sống xung quanh.",
+          "- Trả lời được các câu hỏi trong SGK; lựa chọn được ý đúng về hình ảnh “ngày dài lấp lánh”.",
+          "- Nghe, kể lại được từng đoạn và toàn bộ câu chuyện Chó đốm con và mặt trời theo tranh, biết dùng lời kể rõ ràng, mạch lạc.",
+          "- Biết bày tỏ cảm xúc yêu thích mùa hè, yêu thiên nhiên và biết lắng nghe khi bạn kể chuyện.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, đọc thầm để tìm chi tiết trong bài thơ.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn khi trả lời câu hỏi và kể chuyện theo tranh.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn hình ảnh, chi tiết phù hợp để giải thích ý nghĩa câu thơ và kể chuyện sinh động.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, luyện kể và hoàn thành nhiệm vụ học tập.",
+          "- Nhân ái: biết chia sẻ niềm vui, biết lắng nghe và động viên bạn khi kể chuyện.",
+          "- Trách nhiệm: có ý thức giữ gìn cây xanh, môi trường mùa hè sạch đẹp, an toàn.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền nghỉ ngơi, vui chơi, bày tỏ cảm xúc về mùa hè và được lắng nghe, tôn trọng ý kiến.",
+          "- GDBVMT: HS biết yêu quý thiên nhiên mùa hè, chăm sóc cây xanh, giữ vệ sinh nơi học tập và vui chơi, không bẻ cành, hái hoa, xả rác.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI như ChatGPT/Gemini có thể gợi ý thông tin về hiện tượng mặt trời mọc, mặt trời lặn hoặc gợi ý câu hỏi khi tìm hiểu bài; HS chỉ xem phần GV trình chiếu, không tự nhập thông tin cá nhân và cần đối chiếu với SGK, lời GV trước khi tin hoặc sử dụng."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi; tranh bài thơ Mùa hè lấp lánh; tranh kể chuyện Chó đốm con và mặt trời; thẻ từ luyện đọc; phiếu nhóm; hình ảnh/video ngắn do GV chọn về mặt trời mọc, mặt trời lặn.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -2976,10 +3023,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: MÙA HÈ LẤP LÁNH (TIẾT 2 (35 phút))",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: Viết - Nghe - viết Mùa hè lấp lánh",
+        "lessonTitle": "TIẾT 3: Viết - Nghe - viết Mùa hè lấp lánh - Tiết 1: Viết - Nghe - viết Mùa hè lấp lánh",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3003,15 +3052,6 @@
           "- GV: Máy tính, máy chiếu/tivi; đoạn thơ nghe - viết; tranh/bài tập chính tả trong SGK; thẻ tiếng chung/trung, ch/tr, v/d.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -3119,10 +3159,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: Viết - Nghe - viết Mùa hè lấp lánh - Tiết 1: Viết - Nghe - viết Mùa hè lấp lánh",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 1, 2: Đọc - Tạm biệt mùa hè; Đọc mở rộng",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Tạm biệt mùa hè; Đọc mở rộng - Tiết 1: Đọc - Tạm biệt mùa hè",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3148,15 +3190,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh bài đọc Tạm biệt mùa hè; phiếu đọc sách; thẻ từ; một số sách/bài đọc phù hợp lứa tuổi do GV chọn.",
           "- HS: SGK Tiếng Việt 3, sách/bài đọc đã chuẩn bị, vở ghi, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -3243,13 +3276,37 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Tạm biệt mùa hè; Đọc mở rộng - Tiết 1: Đọc - Tạm biệt mùa hè",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Tạm biệt mùa hè; Đọc mở rộng - Tiết 2: Đọc mở rộng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng văn bản Tạm biệt mùa hè; biết đọc với giọng kể nhẹ nhàng, thể hiện cảm xúc lưu luyến, háo hức trước năm học mới.",
+          "- Hiểu nội dung văn bản: những trải nghiệm mùa hè của Diệu và cảm xúc khi mùa hè kết thúc, chuẩn bị bước vào năm học mới.",
+          "- Trả lời được các câu hỏi SGK; nêu được trải nghiệm mình thích nhất trong mùa hè.",
+          "- Biết đọc mở rộng và ghi phiếu đọc sách về sách, bài đọc liên quan đến công việc làm bếp hoặc hoạt động yêu thích của trẻ em.",
+          "- Biết chia sẻ với bạn về điều em đọc được một cách rõ ràng, lịch sự.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động đọc thầm, tìm chi tiết, hoàn thành phiếu đọc sách.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn khi trả lời câu hỏi và chia sẻ đọc mở rộng.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết tiêu biểu để bày tỏ cảm xúc về mùa hè và bạn bè.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực đọc bài, luyện đọc và hoàn thành nhiệm vụ đọc mở rộng.",
+          "- Nhân ái: biết yêu quý người thân, bạn bè, biết trân trọng kỉ niệm đẹp.",
+          "- Trách nhiệm: chuẩn bị tâm thế vui vẻ, an toàn, đúng nền nếp để bước vào năm học mới.",
+          "4. Tích hợp:",
+          "- KNS: HS biết chia sẻ kỉ niệm, bày tỏ cảm xúc tích cực khi mùa hè kết thúc; chuẩn bị tâm thế vui vẻ, an toàn để bước vào năm học mới.",
+          "- Tích hợp NLS 1.2.CB1a, 4.1.CB1b: HS biết lựa chọn sách, bài đọc giấy hoặc bài đọc số phù hợp lứa tuổi theo hướng dẫn của GV; khi ghi phiếu đọc sách không ghi địa chỉ, số điện thoại, tài khoản, hình ảnh riêng tư; biết trao đổi lịch sự khi chia sẻ bài đọc.",
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Biết rằng cần bảo vệ thông tin cá nhân khi tương tác với AI; không chia sẻ địa chỉ, hình ảnh, tài khoản hoặc thông tin của bạn bè khi dùng chatbot tìm ý thơ, câu văn tặng bạn."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi; tranh bài đọc Tạm biệt mùa hè; phiếu đọc sách; thẻ từ; một số sách/bài đọc phù hợp lứa tuổi do GV chọn.",
+          "- HS: SGK Tiếng Việt 3, sách/bài đọc đã chuẩn bị, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -3352,10 +3409,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Tạm biệt mùa hè; Đọc mở rộng - Tiết 2: Đọc mở rộng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: Luyện tập - Mở rộng vốn từ về mùa hè. Dấu chấm, dấu hai chấm",
+        "lessonTitle": "TIẾT 3: Luyện tập - Mở rộng vốn từ về mùa hè. Dấu chấm, dấu hai chấm - Tiết 1: Luyện tập - Mở rộng vốn từ về mùa hè. Dấu chấm, dấu hai chấm",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3378,15 +3437,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh và bài tập trong SGK; thẻ từ về mùa hè; phiếu nhóm.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -3489,10 +3539,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: Luyện tập - Mở rộng vốn từ về mùa hè. Dấu chấm, dấu hai chấm - Tiết 1: Luyện tập - Mở rộng vốn từ về mùa hè. Dấu chấm, dấu hai chấm",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc đối với một người bạn",
+        "lessonTitle": "TIẾT 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc đối với một người bạn - Tiết 1: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc đối với một người bạn",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3515,15 +3567,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh và gợi ý viết đoạn văn trong SGK; bảng phụ gợi ý từ ngữ chỉ tình cảm, cảm xúc; phiếu sửa lỗi.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -3638,7 +3681,9 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc đối với một người bạn - Tiết 1: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc đối với một người bạn",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -3647,7 +3692,7 @@
     "sourceFile": "TV TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1, 2: Đọc - Đi học vui sao; Nói và nghe - Tới lớp, tới trường",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Đi học vui sao; Nói và nghe - Tới lớp, tới trường - Tiết 1: Đọc - Đi học vui sao",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3673,15 +3718,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh chủ điểm Cổng trường rộng mở; tranh bài thơ Đi học vui sao; tranh phần nói và nghe; thẻ từ luyện đọc; phiếu nhóm.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -3772,13 +3808,37 @@
               "- HS lắng nghe, ghi nhớ nội dung tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Đi học vui sao; Nói và nghe - Tới lớp, tới trường - Tiết 1: Đọc - Đi học vui sao",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Đi học vui sao; Nói và nghe - Tới lớp, tới trường - Tiết 2: Nói và nghe - Tới lớp, tới trường",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài thơ Đi học vui sao; biết ngắt nghỉ theo dòng thơ, khổ thơ và đọc với giọng vui tươi, phấn khởi.",
+          "- Hiểu được khung cảnh đi học, niềm vui của bạn nhỏ khi ở lớp, giờ ra chơi và khi tan học.",
+          "- Trả lời được các câu hỏi trong SGK; tìm được chi tiết thể hiện niềm vui của các bạn trong giờ ra chơi.",
+          "- Kể được một ngày đi học của em theo gợi ý; nêu được cảm nghĩ sau một tháng học tập.",
+          "- Biết bày tỏ tình yêu trường lớp và niềm vui khi được đến trường.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, đọc thầm để tìm chi tiết trong bài thơ.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn khi chia sẻ chuyện về trường lớp và kể một ngày đi học.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết phù hợp để giới thiệu trường lớp, hoạt động học tập của bản thân.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, luyện kể và hoàn thành nhiệm vụ học tập.",
+          "- Nhân ái: biết yêu quý bạn bè, kính trọng thầy cô, vui vẻ giúp đỡ bạn trong lớp.",
+          "- Trách nhiệm: có ý thức giữ gìn trường lớp sạch đẹp, đi học đúng giờ, tham gia hoạt động học tập nghiêm túc.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền được đến trường học tập, được bày tỏ cảm xúc và ý kiến về trường lớp của mình.",
+          "- Tích hợp KNS: HS biết hợp tác, lắng nghe, chia sẻ ý kiến, thể hiện niềm vui đến trường bằng lời nói và việc làm phù hợp.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.1: HS nhận biết AI như ChatGPT/Gemini có thể gợi ý câu hỏi hoặc từ ngữ khi chuẩn bị kể về một ngày đi học; GV thao tác bằng tài khoản giáo viên, HS chỉ tham khảo, không để AI kể thay trải nghiệm thật và không cung cấp tên đầy đủ, địa chỉ, hình ảnh cá nhân, thông tin riêng tư của bản thân hoặc bạn bè."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi; tranh chủ điểm Cổng trường rộng mở; tranh bài thơ Đi học vui sao; tranh phần nói và nghe; thẻ từ luyện đọc; phiếu nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -3893,10 +3953,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Đi học vui sao; Nói và nghe - Tới lớp, tới trường - Tiết 2: Nói và nghe - Tới lớp, tới trường",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: Viết - Nhớ viết: Đi học vui sao",
+        "lessonTitle": "TIẾT 3: Viết - Nhớ viết: Đi học vui sao - Tiết 1: Viết - Nhớ viết: Đi học vui sao",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3919,15 +3981,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh/bài tập viết trong SGK; bảng phụ khổ thơ nhớ - viết; thẻ từ s/x, hỏi/ngã.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -4030,10 +4083,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: Viết - Nhớ viết: Đi học vui sao - Tiết 1: Viết - Nhớ viết: Đi học vui sao",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 1, 2: Đọc - Con đường đến trường; Viết - Ôn chữ hoa D, Đ",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Con đường đến trường; Viết - Ôn chữ hoa D, Đ - Tiết 1: Đọc - Con đường đến trường",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4059,15 +4114,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh bài đọc Con đường đến trường; tranh câu hỏi đọc hiểu; mẫu chữ hoa D, Đ; bảng phụ câu ứng dụng; phiếu nhóm.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -4150,13 +4196,37 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Con đường đến trường; Viết - Ôn chữ hoa D, Đ - Tiết 1: Đọc - Con đường đến trường",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Con đường đến trường; Viết - Ôn chữ hoa D, Đ - Tiết 2: Viết - Ôn chữ hoa D, Đ",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài Con đường đến trường; biết ngắt nghỉ ở câu dài và đọc với giọng nhẹ nhàng, tha thiết.",
+          "- Hiểu được hình ảnh con đường đến trường, tình cảm của bạn nhỏ đối với cô giáo và ý nghĩa của việc vượt khó đi học.",
+          "- Trả lời được các câu hỏi trong SGK; nêu được suy nghĩ về con đường đi học của các bạn nhỏ trong bài.",
+          "- Viết đúng chữ hoa D, Đ; viết đúng tên riêng Bình Dương và câu ứng dụng Đường trường lừa lưa lập loè đâm bông.",
+          "- Biết liên hệ việc đi học an toàn và tình yêu trường lớp.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, tìm chi tiết trong bài, luyện viết chữ hoa đúng mẫu.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn khi trả lời câu hỏi và liên hệ con đường đi học của bản thân.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách đi học an toàn, biết nhờ người lớn hỗ trợ khi gặp khó khăn trên đường.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, luyện viết và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: có ý thức đi học đúng giờ, bảo đảm an toàn giao thông.",
+          "- Nhân ái: biết kính trọng, yêu quý cô giáo; cảm phục những bạn vượt khó đến trường.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.1.CB1a, 4.1.CB1b: HS biết quan sát, tìm kiếm hình ảnh/tuyến đường an toàn đến trường dưới sự hướng dẫn của GV; không tự ý chia sẻ vị trí cá nhân, địa chỉ nhà, ảnh trường lớp hoặc lộ trình đi học trên bản đồ số.",
+          "- Tích hợp KNS/ATGT: HS biết đi học an toàn, quan sát đường đi, không đùa nghịch, không đi vào nơi nguy hiểm; biết nhờ người lớn hỗ trợ khi gặp mưa lũ, đường trơn, khu vực khó đi.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể hỗ trợ nhận dạng hình ảnh đường xá, biển báo hoặc tình huống giao thông; biết chỉ quan sát phần GV trình chiếu, không tự đăng vị trí cá nhân, ảnh trường lớp, địa chỉ nhà hoặc lộ trình đi học lên công cụ số."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi; tranh bài đọc Con đường đến trường; tranh câu hỏi đọc hiểu; mẫu chữ hoa D, Đ; bảng phụ câu ứng dụng; phiếu nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -4259,10 +4329,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Con đường đến trường; Viết - Ôn chữ hoa D, Đ - Tiết 2: Viết - Ôn chữ hoa D, Đ",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: Luyện tập - Từ chỉ đặc điểm. Câu nêu đặc điểm",
+        "lessonTitle": "TIẾT 3: Luyện tập - Từ chỉ đặc điểm. Câu nêu đặc điểm - Tiết 1: Luyện tập - Từ chỉ đặc điểm. Câu nêu đặc điểm",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4285,15 +4357,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh luyện tập trong SGK; thẻ từ chỉ đặc điểm; phiếu nhóm.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -4392,10 +4455,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: Luyện tập - Từ chỉ đặc điểm. Câu nêu đặc điểm - Tiết 1: Luyện tập - Từ chỉ đặc điểm. Câu nêu đặc điểm",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "BÀI 10: CON ĐƯỜNG ĐẾN TRƯỜNG",
+        "lessonTitle": "BÀI 10 - Tiết 1: BÀI 10: CON ĐƯỜNG ĐẾN TRƯỜNG",
         "topic": "",
         "yccd": [
           "TIẾT 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc với người mà em yêu quý; Đọc mở rộng",
@@ -4419,15 +4484,6 @@
           "- GV: Máy tính, máy chiếu/tivi; tranh và gợi ý viết đoạn văn trong SGK; bảng phụ gợi ý từ ngữ chỉ tình cảm, cảm xúc; phiếu đọc sách.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bút chì, bút mực, sách/truyện/bài thơ về nhà trường nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -4530,7 +4586,9 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10 - Tiết 1: BÀI 10: CON ĐƯỜNG ĐẾN TRƯỜNG",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -4735,7 +4793,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: ĐỌC - LỜI GIẢI TOÁN ĐẶC BIỆT; NÓI VÀ NGHE - ĐỘI VIÊN TƯƠNG LAI"
       },
       {
         "lessonTitle": "TIẾT 3: VIẾT - NGHE VIẾT: LỜI GIẢI TOÁN ĐẶC BIỆT",
@@ -4849,7 +4908,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - NGHE VIẾT: LỜI GIẢI TOÁN ĐẶC BIỆT"
       },
       {
         "lessonTitle": "TIẾT 1, 2: ĐỌC - BÀI TẬP LÀM VĂN; ĐỌC MỞ RỘNG",
@@ -5044,7 +5104,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: ĐỌC - BÀI TẬP LÀM VĂN; ĐỌC MỞ RỘNG"
       },
       {
         "lessonTitle": "TIẾT 3: LUYỆN TẬP - MỞ RỘNG VỐN TỪ VỀ NHÀ TRƯỜNG. CÂU HỎI",
@@ -5155,7 +5216,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: LUYỆN TẬP - MỞ RỘNG VỐN TỪ VỀ NHÀ TRƯỜNG. CÂU HỎI"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TẬP - ĐIỀN THÔNG TIN VÀO MẪU ĐƠN XIN VÀO ĐỘI",
@@ -5266,7 +5328,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TẬP - ĐIỀN THÔNG TIN VÀO MẪU ĐƠN XIN VÀO ĐỘI"
       }
     ]
   },
@@ -5275,7 +5338,7 @@
     "sourceFile": "TV TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1, 2: Đọc - Bàn tay cô giáo; Nói và nghe - Một giờ học thú vị",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Bàn tay cô giáo; Nói và nghe - Một giờ học thú vị - Tiết 1: Đọc - Bàn tay cô giáo",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5298,15 +5361,6 @@
           "- GV: SGK, SGV Tiếng Việt 3; máy tính, tivi/máy chiếu; tranh và bài tập cắt từ SGK; bảng phụ, thẻ từ, phiếu học tập. Tranh bài Bàn tay cô giáo; hình minh họa sản phẩm giấy; phiếu kể một giờ học thú vị.",
           "- HS: SGK Tiếng Việt 3, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -5389,13 +5443,34 @@
               "- HS lắng nghe, chuẩn bị tìm hiểu tiếp ở tiết 2."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Bàn tay cô giáo; Nói và nghe - Một giờ học thú vị - Tiết 1: Đọc - Bàn tay cô giáo",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Bàn tay cô giáo; Nói và nghe - Một giờ học thú vị - Tiết 2: Nói và nghe - Một giờ học thú vị",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài thơ Bàn tay cô giáo; biết ngắt nhịp thơ hợp lí, đọc với giọng nhẹ nhàng, thể hiện sự ngạc nhiên và yêu quý cô giáo.",
+          "- Hiểu nghĩa các từ phô, dập dềnh, rì rào; trả lời đúng các câu hỏi đọc hiểu, nêu được sự khéo léo của cô giáo qua việc tạo bức tranh bằng giấy.",
+          "- Biết giới thiệu bức tranh mà cô giáo đã tạo ra bằng lời nói rõ ràng, có cảm xúc.",
+          "- Kể được một giờ học thú vị của bản thân; nêu được cảm nhận của em về giờ học đó.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động đọc thầm, tìm chi tiết trong bài thơ và chuẩn bị ý kiến trả lời câu hỏi.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe bạn kể và góp ý lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết tiêu biểu để kể về một giờ học thú vị; trình bày ý tưởng rõ ràng, tự nhiên.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu quý, kính trọng thầy cô; trân trọng sự chăm chút của thầy cô trong mỗi giờ học.",
+          "- Chăm chỉ: tích cực luyện đọc, tham gia hoạt động nói và nghe.",
+          "- Trách nhiệm: biết giữ gìn sản phẩm học tập, vệ sinh lớp học sau giờ học thủ công, mĩ thuật.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS biết sau mỗi tiết học thủ công, mĩ thuật và các buổi học cần vệ sinh sạch sẽ chỗ ngồi, nhặt giấy vụn, bỏ rác vào thùng rác, giữ lớp học xanh - sạch - đẹp."
+        ],
+        "dodung": [
+          "- GV: SGK, SGV Tiếng Việt 3; máy tính, tivi/máy chiếu; tranh và bài tập cắt từ SGK; bảng phụ, thẻ từ, phiếu học tập. Tranh bài Bàn tay cô giáo; hình minh họa sản phẩm giấy; phiếu kể một giờ học thú vị.",
+          "- HS: SGK Tiếng Việt 3, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ................................................................................................................",
@@ -5495,10 +5570,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Bàn tay cô giáo; Nói và nghe - Một giờ học thú vị - Tiết 2: Nói và nghe - Một giờ học thú vị",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: Viết - Nghe - viết: Nghe thầy đọc thơ",
+        "lessonTitle": "TIẾT 3: Viết - Nghe - viết: Nghe thầy đọc thơ - Tiết 1: Viết - Nghe - viết: Nghe thầy đọc thơ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5520,15 +5597,6 @@
           "- GV: SGK, SGV Tiếng Việt 3; máy tính, tivi/máy chiếu; tranh và bài tập cắt từ SGK; bảng phụ, thẻ từ, phiếu học tập. Bảng phụ viết đoạn thơ, thẻ tiếng ch/tr hoặc ăn/ăng.",
           "- HS: SGK Tiếng Việt 3, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ................................................................................................................",
@@ -5617,10 +5685,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: Viết - Nghe - viết: Nghe thầy đọc thơ - Tiết 1: Viết - Nghe - viết: Nghe thầy đọc thơ",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 1, 2: Đọc - Cuộc họp của chữ viết; Viết - Ôn chữ hoa E, Ê",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Cuộc họp của chữ viết; Viết - Ôn chữ hoa E, Ê - Tiết 1: Đọc - Cuộc họp của chữ viết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5643,15 +5713,6 @@
           "- GV: SGK, SGV Tiếng Việt 3; máy tính, tivi/máy chiếu; tranh và bài tập cắt từ SGK; bảng phụ, thẻ từ, phiếu học tập. Tranh bài Cuộc họp của chữ viết; mẫu chữ hoa E, Ê; bảng phụ câu ứng dụng.",
           "- HS: SGK Tiếng Việt 3, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -5726,13 +5787,34 @@
               "- HS lắng nghe, chuẩn bị học tiếp tiết 2."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Cuộc họp của chữ viết; Viết - Ôn chữ hoa E, Ê - Tiết 1: Đọc - Cuộc họp của chữ viết",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "TIẾT 1, 2: Đọc - Cuộc họp của chữ viết; Viết - Ôn chữ hoa E, Ê - Tiết 2: Viết - Ôn chữ hoa E, Ê",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng văn bản Cuộc họp của chữ viết; biết đọc phân biệt lời người kể và lời nhân vật.",
+          "- Hiểu nội dung câu chuyện: cần dùng dấu câu, viết hoa và đọc lại câu để người khác hiểu đúng điều mình viết.",
+          "- Trả lời đúng câu hỏi đọc hiểu; biết góp ý giúp bạn viết câu đúng hơn.",
+          "- Viết đúng chữ hoa E, Ê cỡ nhỏ; viết được tên riêng Ê-đê và câu ứng dụng đúng mẫu.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động đọc văn bản, tìm chi tiết để trả lời câu hỏi.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi sắp xếp các bước giúp Hoàng viết đúng.",
+          "- Giải quyết vấn đề và sáng tạo: biết phát hiện lỗi trong câu thiếu dấu câu và đề xuất cách sửa hợp lí.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: luyện đọc, luyện viết đều đặn, trình bày sạch đẹp.",
+          "- Trách nhiệm: biết đọc lại bài viết của mình trước khi nộp.",
+          "- Trung thực: tự phát hiện lỗi, sửa lỗi và không cẩu thả khi viết.",
+          "4. Tích hợp:",
+          "- Tích hợp đạo đức, lối sống: HS rèn tính cẩn thận, trung thực khi viết; biết tự soát lỗi, sửa lỗi, giữ gìn sự trong sáng của tiếng Việt và trình bày bài sạch đẹp."
+        ],
+        "dodung": [
+          "- GV: SGK, SGV Tiếng Việt 3; máy tính, tivi/máy chiếu; tranh và bài tập cắt từ SGK; bảng phụ, thẻ từ, phiếu học tập. Tranh bài Cuộc họp của chữ viết; mẫu chữ hoa E, Ê; bảng phụ câu ứng dụng.",
+          "- HS: SGK Tiếng Việt 3, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ................................................................................................................",
@@ -5836,10 +5918,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: Đọc - Cuộc họp của chữ viết; Viết - Ôn chữ hoa E, Ê - Tiết 2: Viết - Ôn chữ hoa E, Ê",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: Luyện tập - Câu kể. Các dấu câu kết thúc",
+        "lessonTitle": "TIẾT 3: Luyện tập - Câu kể. Các dấu câu kết thúc - Tiết 1: Luyện tập - Câu kể. Các dấu câu kết thúc",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5862,15 +5946,6 @@
           "- GV: SGK, SGV Tiếng Việt 3; máy tính, tivi/máy chiếu; tranh và bài tập cắt từ SGK; bảng phụ, thẻ từ, phiếu học tập. Bảng phụ ghi các câu trong bài tập; thẻ dấu chấm, dấu chấm hỏi, dấu chấm than; điện thoại/máy tính của GV để minh họa OCR nếu có điều kiện.",
           "- HS: SGK Tiếng Việt 3, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ................................................................................................................",
@@ -5982,10 +6057,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: Luyện tập - Câu kể. Các dấu câu kết thúc - Tiết 1: Luyện tập - Câu kể. Các dấu câu kết thúc",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 4: Luyện tập - Viết đoạn văn giới thiệu về bản thân",
+        "lessonTitle": "TIẾT 4: Luyện tập - Viết đoạn văn giới thiệu về bản thân - Tiết 1: Luyện tập - Viết đoạn văn giới thiệu về bản thân",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6007,15 +6084,6 @@
           "- GV: SGK, SGV Tiếng Việt 3; máy tính, tivi/máy chiếu; tranh và bài tập cắt từ SGK; bảng phụ, thẻ từ, phiếu học tập. Tranh bài tập đóng vai, mẫu thẻ giới thiệu bản thân, phiếu gợi ý viết đoạn văn.",
           "- HS: SGK Tiếng Việt 3, Vở bài tập Tiếng Việt, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ................................................................................................................",
@@ -6115,7 +6183,9 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: Luyện tập - Viết đoạn văn giới thiệu về bản thân - Tiết 1: Luyện tập - Viết đoạn văn giới thiệu về bản thân",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -6124,7 +6194,7 @@
     "sourceFile": "TV TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1, 2: ĐỌC VĂN BẢN - NÓI VÀ NGHE",
+        "lessonTitle": "TIẾT 1, 2: ĐỌC VĂN BẢN - NÓI VÀ NGHE - Tiết 1: ĐỌC VĂN BẢN - NÓI VÀ NGHE",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6147,15 +6217,6 @@
           "- GV: Máy tính, tivi/máy chiếu, tranh thư viện và tranh kể chuyện cắt từ SGK, thẻ từ, phiếu đọc hiểu.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bút chì, bảng con."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -6250,13 +6311,34 @@
               "- HS cam kết: Em chỉ dùng công cụ số khi có người lớn hướng dẫn; em không chia sẻ thông tin cá nhân khi tìm gợi ý sách."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: ĐỌC VĂN BẢN - NÓI VÀ NGHE - Tiết 1: ĐỌC VĂN BẢN - NÓI VÀ NGHE",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "TIẾT 1, 2: ĐỌC VĂN BẢN - NÓI VÀ NGHE (TIẾT 2 (35 phút))",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng văn bản Thư viện; biết ngắt nghỉ phù hợp ở các câu dài, đọc đúng lời thoại của thầy hiệu trưởng.",
+          "- Nhận biết được các chi tiết nói về thư viện mới của trường, những điều thầy hiệu trưởng dặn học sinh và cảm xúc của các bạn khi có thư viện mới.",
+          "- Trả lời được các câu hỏi đọc hiểu trong SGK; nêu được mong muốn về thư viện em mơ ước.",
+          "- Nghe, dựa vào tranh và câu hỏi gợi ý để kể lại từng đoạn, kể lại toàn bộ câu chuyện Mặt trời mọc ở đằng... tây!.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chuẩn bị sách vở, đọc trước văn bản, mạnh dạn chia sẻ thói quen đọc sách của bản thân.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm đôi, nhóm bốn khi tìm chi tiết, kể chuyện theo tranh và nhận xét phần kể của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết phù hợp để nói về thư viện mơ ước và kể chuyện theo cách tự nhiên.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: có ý thức đọc sách, tìm hiểu sách phù hợp với lứa tuổi.",
+          "- Trách nhiệm: biết giữ gìn sách, trả sách đúng nơi quy định, sử dụng thư viện văn minh.",
+          "- Nhân ái: biết chia sẻ sách hay, góc đọc tốt với bạn bè.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI như ChatGPT/Gemini có thể gợi ý sách, truyện phù hợp lứa tuổi dưới sự hướng dẫn của GV; HS biết chọn lọc theo tiêu chí phù hợp độ tuổi, nội dung lành mạnh, nguồn đáng tin cậy, không tự tạo tài khoản và không cung cấp thông tin cá nhân."
+        ],
+        "dodung": [
+          "- GV: Máy tính, tivi/máy chiếu, tranh thư viện và tranh kể chuyện cắt từ SGK, thẻ từ, phiếu đọc hiểu.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bút chì, bảng con."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -6323,10 +6405,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: ĐỌC VĂN BẢN - NÓI VÀ NGHE (TIẾT 2 (35 phút))",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: VIẾT - NGHE VIẾT: THƯ VIỆN",
+        "lessonTitle": "TIẾT 3: VIẾT - NGHE VIẾT: THƯ VIỆN - Tiết 1: VIẾT - NGHE VIẾT: THƯ VIỆN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6348,15 +6432,6 @@
           "- GV: Bảng phụ ghi đoạn nghe - viết, tranh/bài tập chính tả cắt từ SGK, thẻ tiếng chân/trân, dân/dâng.",
           "- HS: Vở ô ly, SGK, bảng con, bút chì."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -6446,10 +6521,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: VIẾT - NGHE VIẾT: THƯ VIỆN - Tiết 1: VIẾT - NGHE VIẾT: THƯ VIỆN",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 1, 2: ĐỌC VĂN BẢN - ĐỌC MỞ RỘNG",
+        "lessonTitle": "TIẾT 1, 2: ĐỌC VĂN BẢN - ĐỌC MỞ RỘNG - Tiết 1: ĐỌC VĂN BẢN - ĐỌC MỞ RỘNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6472,15 +6549,6 @@
           "- GV: Máy tính, tivi/máy chiếu, tranh lễ kết nạp Đội và phiếu đọc sách cắt từ SGK, khăn quàng đỏ, thẻ câu hỏi.",
           "- HS: SGK, vở ghi, sách/câu đố đã chuẩn bị, bút chì."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -6551,13 +6619,34 @@
               "- HS lắng nghe, nêu một việc làm cụ thể: Em sẽ giúp bạn học bài, giữ trật tự khi học, chăm đọc sách, tham gia trực nhật, chào hỏi lễ phép."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: ĐỌC VĂN BẢN - ĐỌC MỞ RỘNG - Tiết 1: ĐỌC VĂN BẢN - ĐỌC MỞ RỘNG",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "TIẾT 1, 2: ĐỌC VĂN BẢN - ĐỌC MỞ RỘNG (TIẾT 2 (35 phút))",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài thơ Ngày em vào Đội; biết ngắt nhịp thơ và thể hiện giọng đọc trang trọng, vui tươi.",
+          "- Hiểu được hình ảnh chiếc khăn quàng đỏ, niềm vui, ước mơ và lời nhắn nhủ của người chị dành cho em khi vào Đội.",
+          "- Trả lời được các câu hỏi trong SGK; học thuộc lòng một số khổ thơ theo yêu cầu.",
+          "- Thực hiện đọc mở rộng: đọc câu đố về đồ dùng học tập hoặc đồ vật ở trường, viết phiếu đọc sách và chia sẻ với bạn.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, chuẩn bị bài đọc mở rộng.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm khi tìm hình ảnh thơ, chia sẻ câu đố và lắng nghe bạn giải đố.",
+          "- Giải quyết vấn đề và sáng tạo: suy nghĩ để giải câu đố, nêu được việc làm phấn đấu trở thành đội viên tốt.",
+          "3. Phẩm chất:",
+          "- Yêu nước: biết tự hào về Đội Thiếu niên Tiền phong Hồ Chí Minh và truyền thống thiếu nhi Việt Nam.",
+          "- Chăm chỉ: cố gắng học tập, rèn luyện để xứng đáng là đội viên.",
+          "- Trách nhiệm: biết đoàn kết, giúp đỡ bạn, giữ gìn nền nếp trường lớp.",
+          "4. Tích hợp:",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS hiểu được vào Đội là niềm tự hào của thiếu nhi; biết phấn đấu học tập, rèn luyện, đoàn kết, làm việc tốt để xứng đáng là đội viên."
+        ],
+        "dodung": [
+          "- GV: Máy tính, tivi/máy chiếu, tranh lễ kết nạp Đội và phiếu đọc sách cắt từ SGK, khăn quàng đỏ, thẻ câu hỏi.",
+          "- HS: SGK, vở ghi, sách/câu đố đã chuẩn bị, bút chì."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -6611,10 +6700,12 @@
               "- HS ghi nhớ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2: ĐỌC VĂN BẢN - ĐỌC MỞ RỘNG (TIẾT 2 (35 phút))",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "TIẾT 3: LUYỆN TẬP - MỞ RỘNG VỐN TỪ VỀ THƯ VIỆN. CÂU CẢM",
+        "lessonTitle": "TIẾT 3: LUYỆN TẬP - MỞ RỘNG VỐN TỪ VỀ THƯ VIỆN. CÂU CẢM - Tiết 1: LUYỆN TẬP - MỞ RỘNG VỐN TỪ VỀ THƯ VIỆN. CÂU CẢM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6636,15 +6727,6 @@
           "- GV: Máy tính, máy chiếu/tivi, bảng phân loại từ, thẻ từ, tranh bài tập cắt từ SGK.",
           "- HS: SGK, Vở bài tập Tiếng Việt, bảng con, bút chì."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -6714,10 +6796,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: LUYỆN TẬP - MỞ RỘNG VỐN TỪ VỀ THƯ VIỆN. CÂU CẢM - Tiết 1: LUYỆN TẬP - MỞ RỘNG VỐN TỪ VỀ THƯ VIỆN. CÂU CẢM",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 4: LUYỆN TẬP - VIẾT THÔNG BÁO",
+        "lessonTitle": "TIẾT 4: LUYỆN TẬP - VIẾT THÔNG BÁO - Tiết 1: LUYỆN TẬP - VIẾT THÔNG BÁO",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6739,15 +6823,6 @@
           "- GV: Mẫu thông báo cắt từ SGK, phiếu lập dàn ý thông báo, máy tính/tivi, bảng phụ.",
           "- HS: SGK, vở viết, bút chì, bảng con."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -6841,7 +6916,9 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TẬP - VIẾT THÔNG BÁO - Tiết 1: LUYỆN TẬP - VIẾT THÔNG BÁO",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -7003,7 +7080,8 @@
               "- HS ghi nhớ nhiệm vụ học ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1, 2"
       },
       {
         "lessonTitle": "TIẾT 3, 4",
@@ -7133,7 +7211,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3, 4"
       },
       {
         "lessonTitle": "TIẾT 5",
@@ -7239,7 +7318,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5"
       },
       {
         "lessonTitle": "TIẾT 6, 7: BÀI LUYỆN TẬP",
@@ -7387,7 +7467,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 6, 7: BÀI LUYỆN TẬP"
       }
     ]
   },
@@ -7396,7 +7477,7 @@
     "sourceFile": "TV TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Ngưỡng cửa; Nói và nghe - Sự tích nhà sàn",
+        "lessonTitle": "Tiết 1, 2: Đọc - Ngưỡng cửa; Nói và nghe - Sự tích nhà sàn - Tiết 1: Đọc - Ngưỡng cửa",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7420,15 +7501,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm Mái nhà yêu thương, tranh bài đọc Ngưỡng cửa, tranh kể chuyện Sự tích nhà sàn, thẻ từ luyện đọc, phiếu học tập nhóm.; tài khoản giáo viên để minh họa ChatGPT/Gemini/Canva Magic Write khi có tích hợp AI hoặc công cụ số.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -7507,13 +7579,35 @@
               "- HS lắng nghe, nêu được tình cảm gắn bó với ngôi nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Ngưỡng cửa; Nói và nghe - Sự tích nhà sàn - Tiết 1: Đọc - Ngưỡng cửa",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Ngưỡng cửa; Nói và nghe - Sự tích nhà sàn - Tiết 2: Nói và nghe - Sự tích nhà sàn",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài thơ Ngưỡng cửa; biết nghỉ hơi ở chỗ ngắt nhịp thơ và giữa các dòng thơ; bước đầu biết thể hiện cảm xúc của bạn nhỏ qua giọng đọc.",
+          "- Dựa vào từ ngữ, hình ảnh thơ và tranh minh họa, nhận biết những kỉ niệm của bạn nhỏ gắn bó với ngưỡng cửa, với người thân từ thuở ấu thơ đến lúc khôn lớn.",
+          "- Trả lời được các câu hỏi trong SGK; nêu được ý nghĩa hình ảnh “con đường xa tắp” và cảm nhận về tình yêu thương của gia đình.",
+          "- Nghe hiểu câu chuyện Sự tích nhà sàn; dựa vào tranh và câu hỏi gợi ý để kể lại từng đoạn câu chuyện.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động đọc thầm, ghi nhớ từ ngữ, hình ảnh thơ và chuẩn bị ý kiến trả lời.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và kể chuyện theo tranh.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ hình ảnh ngưỡng cửa với kỉ niệm gia đình và quá trình trưởng thành của bản thân.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương ông bà, cha mẹ, người thân; trân trọng mái nhà và kỉ niệm tuổi thơ.",
+          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng và tham gia kể chuyện.",
+          "- Trách nhiệm: biết giúp đỡ người thân bằng việc vừa sức, giữ gìn nếp sống gia đình.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS nhận biết trẻ em có quyền được sống trong gia đình, được yêu thương, chăm sóc, bảo vệ và học tập; đồng thời biết bày tỏ tình cảm, biết thực hiện bổn phận với người thân.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS hiểu yêu mái nhà, yêu gia đình là nền tảng nuôi dưỡng tình yêu quê hương, đất nước; biết lễ phép, biết ơn và có trách nhiệm với gia đình."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm Mái nhà yêu thương, tranh bài đọc Ngưỡng cửa, tranh kể chuyện Sự tích nhà sàn, thẻ từ luyện đọc, phiếu học tập nhóm.; tài khoản giáo viên để minh họa ChatGPT/Gemini/Canva Magic Write khi có tích hợp AI hoặc công cụ số.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -7612,10 +7706,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Ngưỡng cửa; Nói và nghe - Sự tích nhà sàn - Tiết 2: Nói và nghe - Sự tích nhà sàn",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Đồ đạc trong nhà",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Đồ đạc trong nhà - Tiết 1: Viết - Nghe viết: Đồ đạc trong nhà",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7638,15 +7734,6 @@
           "- GV: Máy tính, máy chiếu/tivi, hình bài thơ Đồ đạc trong nhà, tranh/bài tập chính tả cắt từ SGK, bảng phụ từ khó, phiếu soát lỗi.; tài khoản giáo viên để minh họa ChatGPT/Gemini/Canva Magic Write khi có tích hợp AI hoặc công cụ số.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -7734,10 +7821,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Đồ đạc trong nhà - Tiết 1: Viết - Nghe viết: Đồ đạc trong nhà",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Món quà đặc biệt; Viết - Ôn chữ hoa G, H",
+        "lessonTitle": "Tiết 1, 2: Đọc - Món quà đặc biệt; Viết - Ôn chữ hoa G, H - Tiết 1: Đọc - Món quà đặc biệt",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7761,15 +7850,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Món quà đặc biệt, bảng phụ viết từ khó, mẫu chữ hoa G, H, phiếu học tập nhóm.; tài khoản giáo viên để minh họa ChatGPT/Gemini/Canva Magic Write khi có tích hợp AI hoặc công cụ số.",
           "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -7840,13 +7920,35 @@
               "- HS lắng nghe, nêu được ý nghĩa của tấm thiệp."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Món quà đặc biệt; Viết - Ôn chữ hoa G, H - Tiết 1: Đọc - Món quà đặc biệt",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Món quà đặc biệt; Viết - Ôn chữ hoa G, H - Tiết 2: Viết - Ôn chữ hoa G, H",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng văn bản Món quà đặc biệt; biết đọc phân biệt lời người kể và lời nhân vật, đọc diễn cảm đoạn bộc lộ cảm xúc.",
+          "- Hiểu nội dung câu chuyện: tình cảm yêu thương của con cái dành cho cha mẹ và tình yêu thương, sự bao dung của cha mẹ dành cho con.",
+          "- Trả lời được các câu hỏi trong SGK; nêu được chi tiết yêu thích và lí do yêu thích.",
+          "- Viết đúng chữ hoa G, H cỡ nhỏ, tên riêng Hà Giang và câu ứng dụng.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, luyện viết chữ hoa và tự sửa lỗi.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm đôi khi tìm hiểu bài, biết lắng nghe và góp ý cho bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết tiêu biểu để nêu cảm nhận về tình cảm gia đình.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương, quan tâm, bày tỏ tình cảm với cha mẹ, người thân.",
+          "- Chăm chỉ: tích cực luyện đọc, luyện viết và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết trung thực nhận lỗi, biết giúp đỡ người thân bằng việc vừa sức.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền bày tỏ tình cảm, suy nghĩ trong gia đình và được người thân lắng nghe, tôn trọng.",
+          "- Tích hợp đạo đức, lối sống: HS biết nói lời yêu thương, cảm ơn, xin lỗi; biết trung thực nhận lỗi và giúp đỡ người thân bằng việc vừa sức."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Món quà đặc biệt, bảng phụ viết từ khó, mẫu chữ hoa G, H, phiếu học tập nhóm.; tài khoản giáo viên để minh họa ChatGPT/Gemini/Canva Magic Write khi có tích hợp AI hoặc công cụ số.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -7949,10 +8051,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Món quà đặc biệt; Viết - Ôn chữ hoa G, H - Tiết 2: Viết - Ôn chữ hoa G, H",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Từ chỉ đặc điểm. Câu khiến",
+        "lessonTitle": "Tiết 3: Luyện tập - Từ chỉ đặc điểm. Câu khiến - Tiết 1: Luyện tập - Từ chỉ đặc điểm. Câu khiến",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7975,15 +8079,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài tập cắt từ SGK, thẻ từ chỉ đặc điểm, thẻ câu kể - câu cảm - câu khiến, phiếu học tập nhóm.; tài khoản giáo viên để minh họa ChatGPT/Gemini/Canva Magic Write khi có tích hợp AI hoặc công cụ số.",
           "- HS: SGK Tiếng Việt 3, Vở bài tập Tiếng Việt, bảng con, bút chì."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -8086,10 +8181,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Từ chỉ đặc điểm. Câu khiến - Tiết 1: Luyện tập - Từ chỉ đặc điểm. Câu khiến",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn tả một đồ vật",
+        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn tả một đồ vật - Tiết 1: Luyện tập - Viết đoạn văn tả một đồ vật",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8112,15 +8209,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài tập viết đoạn văn cắt từ SGK, phiếu quan sát đồ vật, bảng tiêu chí sửa đoạn văn.; tài khoản giáo viên để minh họa ChatGPT/Gemini/Canva Magic Write khi có tích hợp AI hoặc công cụ số.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bút chì, bảng con."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -8215,7 +8303,9 @@
               "- HS ghi nhớ nhiệm vụ đọc mở rộng và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết đoạn văn tả một đồ vật - Tiết 1: Luyện tập - Viết đoạn văn tả một đồ vật",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -8224,7 +8314,7 @@
     "sourceFile": "TV TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Khi cả nhà bé tí; Nói và nghe - Những người yêu thương",
+        "lessonTitle": "Tiết 1, 2: Đọc - Khi cả nhà bé tí; Nói và nghe - Những người yêu thương - Tiết 1: Đọc - Khi cả nhà bé tí",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8233,14 +8323,7 @@
           "- Trả lời đúng các câu hỏi trong SGK; nêu được hình ảnh của mỗi người thân trong suy nghĩ của bạn nhỏ.",
           "- Học thuộc lòng được những khổ thơ em thích.",
           "- Biết đóng vai hỏi - đáp về công việc yêu thích của người thân và kể về việc em thích làm cùng người thân bằng lời nói rõ ràng, tự nhiên.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm Mái nhà yêu thương, tranh bài thơ Khi cả nhà bé tí, tranh phần Nói và nghe, thẻ từ luyện đọc, phiếu học tập nhóm đôi/nhóm bốn; tài khoản giáo viên để minh họa Google Photos khi cần.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và thực hiện nhiệm vụ nói - nghe.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết phù hợp để kể, hỏi - đáp và chia sẻ về người thân.",
           "3. Phẩm chất:",
@@ -8252,13 +8335,10 @@
           "- Tích hợp đạo đức, lối sống: HS biết thể hiện tình yêu thương bằng lời nói, hành động cụ thể như hỏi han, giúp việc vừa sức, nói lời cảm ơn và xin lỗi trong gia đình.",
           "- Tích hợp AI (Khung 3439) - 3.C4.1: HS hiểu hình ảnh và thông tin là dữ liệu để máy tính lưu giữ kỉ niệm; biết quan sát GV minh họa Google Photos/Google Ảnh tự động nhóm ảnh người thân thành album, không tự ý tải ảnh gia đình lên mạng khi chưa được người lớn đồng ý."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm Mái nhà yêu thương, tranh bài thơ Khi cả nhà bé tí, tranh phần Nói và nghe, thẻ từ luyện đọc, phiếu học tập nhóm đôi/nhóm bốn; tài khoản giáo viên để minh họa Google Photos khi cần.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -8361,13 +8441,36 @@
               "- HS nhắc lại: Bạn nhỏ yêu thương và quan tâm đến người thân trong gia đình."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Khi cả nhà bé tí; Nói và nghe - Những người yêu thương - Tiết 1: Đọc - Khi cả nhà bé tí",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Khi cả nhà bé tí; Nói và nghe - Những người yêu thương - Tiết 2: Nói và nghe - Những người yêu thương",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài thơ Khi cả nhà bé tí; biết ngắt nghỉ hơi đúng ở dòng thơ, khổ thơ và đọc với giọng hồn nhiên, vui tươi.",
+          "- Hiểu nội dung bài thơ: suy nghĩ ngộ nghĩnh của bạn nhỏ về ông bà, bố mẹ khi còn bé; cảm nhận được tình yêu thương, sự gắn bó với người thân trong gia đình.",
+          "- Trả lời đúng các câu hỏi trong SGK; nêu được hình ảnh của mỗi người thân trong suy nghĩ của bạn nhỏ.",
+          "- Học thuộc lòng được những khổ thơ em thích.",
+          "- Biết đóng vai hỏi - đáp về công việc yêu thích của người thân và kể về việc em thích làm cùng người thân bằng lời nói rõ ràng, tự nhiên.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và thực hiện nhiệm vụ nói - nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết phù hợp để kể, hỏi - đáp và chia sẻ về người thân.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng và hoàn thành nhiệm vụ nói - nghe.",
+          "- Nhân ái: biết yêu thương, quan tâm, kính trọng ông bà, cha mẹ và người thân.",
+          "- Trách nhiệm: biết thực hiện việc làm vừa sức để giúp đỡ gia đình, giữ gìn nếp sống yêu thương trong mái nhà.",
+          "4. Tích hợp:",
+          "- Tích hợp QCN: HS biết yêu thương, kính trọng người thân; hiểu trẻ em có quyền được chăm sóc trong gia đình và có bổn phận ứng xử lễ phép.",
+          "- Tích hợp đạo đức, lối sống: HS biết thể hiện tình yêu thương bằng lời nói, hành động cụ thể như hỏi han, giúp việc vừa sức, nói lời cảm ơn và xin lỗi trong gia đình.",
+          "- Tích hợp AI (Khung 3439) - 3.C4.1: HS hiểu hình ảnh và thông tin là dữ liệu để máy tính lưu giữ kỉ niệm; biết quan sát GV minh họa Google Photos/Google Ảnh tự động nhóm ảnh người thân thành album, không tự ý tải ảnh gia đình lên mạng khi chưa được người lớn đồng ý."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh chủ điểm Mái nhà yêu thương, tranh bài thơ Khi cả nhà bé tí, tranh phần Nói và nghe, thẻ từ luyện đọc, phiếu học tập nhóm đôi/nhóm bốn; tài khoản giáo viên để minh họa Google Photos khi cần.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -8482,10 +8585,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Khi cả nhà bé tí; Nói và nghe - Những người yêu thương - Tiết 2: Nói và nghe - Những người yêu thương",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Khi cả nhà bé tí",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Khi cả nhà bé tí - Tiết 1: Viết - Nghe viết: Khi cả nhà bé tí",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8508,15 +8613,6 @@
           "- GV: Máy tính, máy chiếu/tivi, hình bài thơ Khi cả nhà bé tí, tranh/bài tập chính tả cắt từ SGK, bảng phụ từ khó, phiếu soát lỗi chính tả.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -8620,10 +8716,12 @@
               "- HS ghi nhớ nhiệm vụ sửa lỗi và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Khi cả nhà bé tí - Tiết 1: Viết - Nghe viết: Khi cả nhà bé tí",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Trò chuyện cùng mẹ; Đọc mở rộng",
+        "lessonTitle": "Tiết 1, 2: Đọc - Trò chuyện cùng mẹ; Đọc mở rộng - Tiết 1: Đọc - Trò chuyện cùng mẹ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8648,15 +8746,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Trò chuyện cùng mẹ, phiếu đọc sách, thẻ câu hỏi, bảng tiêu chí chia sẻ bài đọc; thiết bị của GV để minh họa giao tiếp số an toàn.",
           "- HS: SGK Tiếng Việt 3, vở ghi, sách/bài đọc mở rộng, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -8743,13 +8832,36 @@
               "- HS lắng nghe, nêu được ý nghĩa của việc trò chuyện trong gia đình."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Trò chuyện cùng mẹ; Đọc mở rộng - Tiết 1: Đọc - Trò chuyện cùng mẹ",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Trò chuyện cùng mẹ; Đọc mở rộng - Tiết 2: Đọc mở rộng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng văn bản Trò chuyện cùng mẹ; biết ngắt nghỉ câu đúng, đọc lời kể và lời nhân vật với ngữ điệu phù hợp.",
+          "- Hiểu nội dung bài đọc: tình cảm yêu thương, những buổi tối vui vẻ, đầm ấm của gia đình Thư qua việc đọc sách và trò chuyện trước giờ ngủ.",
+          "- Trả lời đúng các câu hỏi trong SGK; biết đóng vai nhân vật nhắc lại chuyện đã kể cho mẹ nghe.",
+          "- Đọc được bài về tình cảm của người thân trong gia đình, ghi phiếu đọc sách và chia sẻ về nhân vật yêu thích.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, tự chuẩn bị bài đọc mở rộng.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm khi tìm hiểu bài, chia sẻ phiếu đọc sách và lắng nghe bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết để nêu cảm nghĩ về tình cảm gia đình.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương, lắng nghe và chia sẻ với người thân.",
+          "- Chăm chỉ: tích cực luyện đọc, hoàn thành phiếu đọc sách.",
+          "- Trách nhiệm: biết giữ gìn nếp trò chuyện, sinh hoạt gia đình lành mạnh, an toàn.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 2.3.CB1a, 4.2.CB1a: HS biết lựa chọn cách giao tiếp phù hợp với người thân qua điện thoại, tin nhắn hoặc cuộc gọi video; biết nói lời lịch sự, không chia sẻ thông tin riêng tư của gia đình trên môi trường số.",
+          "- Tích hợp đạo đức, lối sống: HS biết trò chuyện lễ phép, lắng nghe người thân, chia sẻ việc học tập và cảm xúc hằng ngày với cha mẹ.",
+          "- Tích hợp NLS 2.5.CB2a: HS biết giữ gìn thông tin riêng tư của gia đình khi kể chuyện, đọc mở rộng hoặc chia sẻ trên môi trường số; không tự ý đăng hình ảnh, câu chuyện gia đình nếu chưa được người thân đồng ý."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Trò chuyện cùng mẹ, phiếu đọc sách, thẻ câu hỏi, bảng tiêu chí chia sẻ bài đọc; thiết bị của GV để minh họa giao tiếp số an toàn.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, sách/bài đọc mở rộng, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -8848,10 +8960,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Trò chuyện cùng mẹ; Đọc mở rộng - Tiết 2: Đọc mở rộng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ về người thân. Dấu hai chấm",
+        "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ về người thân. Dấu hai chấm - Tiết 1: Luyện tập - Mở rộng vốn từ về người thân. Dấu hai chấm",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8873,15 +8987,6 @@
           "- GV: Máy tính, máy chiếu/tivi, đoạn văn bài tập, thẻ từ về người thân, bảng tác dụng của dấu hai chấm, phiếu học tập nhóm.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bảng con, bút chì."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -8969,10 +9074,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Mở rộng vốn từ về người thân. Dấu hai chấm - Tiết 1: Luyện tập - Mở rộng vốn từ về người thân. Dấu hai chấm",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn tả ngôi nhà của mình",
+        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn tả ngôi nhà của mình - Tiết 1: Luyện tập - Viết đoạn văn tả ngôi nhà của mình",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8995,15 +9102,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh ngôi nhà trong SGK, phiếu lập ý, bảng tiêu chí soát lỗi, tài khoản giáo viên minh họa ChatGPT/Gemini khi cần.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -9098,7 +9196,9 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết đoạn văn tả ngôi nhà của mình - Tiết 1: Luyện tập - Viết đoạn văn tả ngôi nhà của mình",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -9107,7 +9207,7 @@
     "sourceFile": "TV TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Tia nắng bé nhỏ; Nói và nghe - Tia nắng bé nhỏ",
+        "lessonTitle": "Tiết 1, 2: Đọc - Tia nắng bé nhỏ; Nói và nghe - Tia nắng bé nhỏ - Tiết 1: Đọc - Tia nắng bé nhỏ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9116,7 +9216,14 @@
           "- Hiểu nội dung bài: Khi biết yêu thương và quan tâm đến những người thân trong gia đình, người thân của chúng ta sẽ rất vui và hạnh phúc.",
           "- Dựa vào tranh minh họa, kể lại được câu chuyện Tia nắng bé nhỏ; nêu được suy nghĩ về cô bé Na.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm ba khi tìm hiểu bài và kể chuyện.",
+          "- Giải quyết vấn đề và sáng tạo: biết đề xuất việc làm phù hợp để giúp đỡ, chăm sóc người thân.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương, quan tâm, chăm sóc ông bà, cha mẹ và người thân.",
+          "- Chăm chỉ: tích cực đọc, viết, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết giúp đỡ người thân bằng việc vừa sức; giữ trật tự, hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Tia nắng bé nhỏ, tranh kể chuyện, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm.",
@@ -9124,24 +9231,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm ba khi tìm hiểu bài và kể chuyện.",
-          "- Giải quyết vấn đề và sáng tạo: biết đề xuất việc làm phù hợp để giúp đỡ, chăm sóc người thân.",
-          "3. Phẩm chất:",
-          "- Nhân ái: biết yêu thương, quan tâm, chăm sóc ông bà, cha mẹ và người thân.",
-          "- Chăm chỉ: tích cực đọc, viết, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
-          "- Trách nhiệm: biết giúp đỡ người thân bằng việc vừa sức; giữ trật tự, hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp:",
           "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết quan tâm, yêu thương và thể hiện tình cảm chân thành với ông bà, cha mẹ bằng lời nói, việc làm cụ thể."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9218,15 +9309,36 @@
               "- HS lắng nghe và nhắc lại: Na yêu thương, quan tâm đến bà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Tia nắng bé nhỏ; Nói và nghe - Tia nắng bé nhỏ - Tiết 1: Đọc - Tia nắng bé nhỏ",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Tia nắng bé nhỏ; Nói và nghe - Tia nắng bé nhỏ - Tiết 2: Nói và nghe - Tia nắng bé nhỏ",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Tia nắng bé nhỏ; biết ngắt nghỉ hơi ở chỗ có dấu câu, bước đầu nhận biết tâm trạng, cảm xúc của nhân vật qua giọng đọc.",
+          "- Nhận biết được các sự việc xảy ra trong câu chuyện gắn với thời gian cụ thể; hiểu suy nghĩ, cảm xúc của nhân vật dựa vào hành động, việc làm và lời nói của nhân vật.",
+          "- Hiểu nội dung bài: Khi biết yêu thương và quan tâm đến những người thân trong gia đình, người thân của chúng ta sẽ rất vui và hạnh phúc.",
+          "- Dựa vào tranh minh họa, kể lại được câu chuyện Tia nắng bé nhỏ; nêu được suy nghĩ về cô bé Na.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm ba khi tìm hiểu bài và kể chuyện.",
+          "- Giải quyết vấn đề và sáng tạo: biết đề xuất việc làm phù hợp để giúp đỡ, chăm sóc người thân.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương, quan tâm, chăm sóc ông bà, cha mẹ và người thân.",
+          "- Chăm chỉ: tích cực đọc, viết, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết giúp đỡ người thân bằng việc vừa sức; giữ trật tự, hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:"
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Tia nắng bé nhỏ, tranh kể chuyện, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết quan tâm, yêu thương và thể hiện tình cảm chân thành với ông bà, cha mẹ bằng lời nói, việc làm cụ thể.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -9319,10 +9431,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Tia nắng bé nhỏ; Nói và nghe - Tia nắng bé nhỏ - Tiết 2: Nói và nghe - Tia nắng bé nhỏ",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Kho sách của ông bà",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Kho sách của ông bà - Tiết 1: Viết - Nghe viết: Kho sách của ông bà",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9345,15 +9459,6 @@
           "- GV: Máy tính, máy chiếu/tivi, hình bài viết Kho sách của ông bà, bảng phụ từ khó, tranh bài tập chính tả, phiếu soát lỗi.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì để soát lỗi."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -9437,10 +9542,12 @@
               "- HS ghi nhớ nhiệm vụ vận dụng."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Kho sách của ông bà - Tiết 1: Viết - Nghe viết: Kho sách của ông bà",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Để cháu nắm tay ông; Viết - Ôn chữ hoa I, K",
+        "lessonTitle": "Tiết 1, 2: Đọc - Để cháu nắm tay ông; Viết - Ôn chữ hoa I, K - Tiết 1: Đọc - Để cháu nắm tay ông",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9449,7 +9556,14 @@
           "- Hiểu nội dung bài: Dương nhận ra ông đã già yếu và muốn trở thành người chăm sóc, bảo vệ ông; từ đó biết yêu thương, trân trọng người thân.",
           "- Viết đúng chữ hoa I, K cỡ nhỏ; viết đúng tên riêng Khánh Hòa và câu ứng dụng.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm khi tìm hiểu bài, biết nhận xét bài viết của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết nêu việc làm thể hiện sự quan tâm đến ông bà, người thân.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương, kính trọng và quan tâm chăm sóc ông bà, cha mẹ.",
+          "- Chăm chỉ: tích cực đọc, viết, làm bài tập.",
+          "- Trách nhiệm: biết giúp đỡ người thân bằng việc vừa sức; giữ trật tự, hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Để cháu nắm tay ông, mẫu chữ hoa I, K, bảng phụ câu dài, phiếu học tập nhóm.",
@@ -9457,24 +9571,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm khi tìm hiểu bài, biết nhận xét bài viết của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: biết nêu việc làm thể hiện sự quan tâm đến ông bà, người thân.",
-          "3. Phẩm chất:",
-          "- Nhân ái: biết yêu thương, kính trọng và quan tâm chăm sóc ông bà, cha mẹ.",
-          "- Chăm chỉ: tích cực đọc, viết, làm bài tập.",
-          "- Trách nhiệm: biết giúp đỡ người thân bằng việc vừa sức; giữ trật tự, hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp:",
           "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết quan tâm, yêu thương và thể hiện lòng hiếu thảo với ông bà, cha mẹ bằng lời nói, việc làm cụ thể."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9551,15 +9649,36 @@
               "- HS lắng nghe và ghi nhớ ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Để cháu nắm tay ông; Viết - Ôn chữ hoa I, K - Tiết 1: Đọc - Để cháu nắm tay ông",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Để cháu nắm tay ông; Viết - Ôn chữ hoa I, K - Tiết 2: Viết - Ôn chữ hoa I, K",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ bài đọc Để cháu nắm tay ông; biết thay đổi giọng đọc phù hợp với lời người dẫn chuyện, lời ông và lời cháu.",
+          "- Nhận biết được nội dung, những chi tiết quan trọng trong câu chuyện; hiểu sự thay đổi suy nghĩ của Dương về ông.",
+          "- Hiểu nội dung bài: Dương nhận ra ông đã già yếu và muốn trở thành người chăm sóc, bảo vệ ông; từ đó biết yêu thương, trân trọng người thân.",
+          "- Viết đúng chữ hoa I, K cỡ nhỏ; viết đúng tên riêng Khánh Hòa và câu ứng dụng.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm khi tìm hiểu bài, biết nhận xét bài viết của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết nêu việc làm thể hiện sự quan tâm đến ông bà, người thân.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết yêu thương, kính trọng và quan tâm chăm sóc ông bà, cha mẹ.",
+          "- Chăm chỉ: tích cực đọc, viết, làm bài tập.",
+          "- Trách nhiệm: biết giúp đỡ người thân bằng việc vừa sức; giữ trật tự, hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:"
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Để cháu nắm tay ông, mẫu chữ hoa I, K, bảng phụ câu dài, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết quan tâm, yêu thương và thể hiện lòng hiếu thảo với ông bà, cha mẹ bằng lời nói, việc làm cụ thể.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -9660,10 +9779,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Để cháu nắm tay ông; Viết - Ôn chữ hoa I, K - Tiết 2: Viết - Ôn chữ hoa I, K",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Từ chỉ hoạt động, từ chỉ đặc điểm. Câu kể",
+        "lessonTitle": "Tiết 3: Luyện tập - Từ chỉ hoạt động, từ chỉ đặc điểm. Câu kể - Tiết 1: Luyện tập - Từ chỉ hoạt động, từ chỉ đặc điểm. Câu kể",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9684,15 +9805,6 @@
           "- GV: Máy tính, máy chiếu/tivi, bảng bài tập, tranh/ngữ liệu trong SGK, thẻ từ, phiếu học tập nhóm.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bảng con."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -9768,10 +9880,12 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Từ chỉ hoạt động, từ chỉ đặc điểm. Câu kể - Tiết 1: Luyện tập - Từ chỉ hoạt động, từ chỉ đặc điểm. Câu kể",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn thể hiện tình cảm với người thân; Đọc mở rộng",
+        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn thể hiện tình cảm với người thân; Đọc mở rộng - Tiết 1: Luyện tập - Viết đoạn văn thể hiện tình cảm với người thân",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9794,15 +9908,6 @@
           "- GV: Máy tính, máy chiếu/tivi, ngữ liệu mẫu trong SGK, phiếu viết, bảng tiêu chí soát lỗi, phiếu đọc sách.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -9889,7 +9994,9 @@
               "- HS nhắc lại nội dung cần nhớ và ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết đoạn văn thể hiện tình cảm với người thân; Đọc mở rộng - Tiết 1: Luyện tập - Viết đoạn văn thể hiện tình cảm với người thân",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -9898,7 +10005,7 @@
     "sourceFile": "TV TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Tôi yêu em tôi; Nói và nghe - Tình cảm anh chị em",
+        "lessonTitle": "Tiết 1, 2: Đọc - Tôi yêu em tôi; Nói và nghe - Tình cảm anh chị em - Tiết 1: Đọc - Tôi yêu em tôi",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9922,15 +10029,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài thơ Tôi yêu em tôi, tranh phần Nói và nghe Tình cảm anh chị em, thẻ từ luyện đọc, bảng phụ câu thơ, phiếu thảo luận nhóm.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -10017,13 +10115,35 @@
               "- HS lắng nghe và nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Tôi yêu em tôi; Nói và nghe - Tình cảm anh chị em - Tiết 1: Đọc - Tôi yêu em tôi",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Tôi yêu em tôi; Nói và nghe - Tình cảm anh chị em - Tiết 2: Nói và nghe - Tình cảm anh chị em",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài thơ Tôi yêu em tôi; biết nghỉ hơi giữa các dòng thơ và đọc với giọng thể hiện tình cảm của bạn nhỏ đối với em gái.",
+          "- Hiểu được vẻ đáng yêu của em gái qua cảm nhận của nhân vật “tôi”; nhận biết tình cảm anh chị em trong gia đình qua hình ảnh, từ ngữ trong bài thơ.",
+          "- Trả lời đúng các câu hỏi trong SGK; nêu được chi tiết cho thấy bạn nhỏ yêu em, hiểu sở thích và tính cách của em mình.",
+          "- Hiểu nội dung, ý nghĩa một số câu tục ngữ, ca dao nói về tình cảm anh chị em; kể được việc đã làm cùng anh, chị hoặc em và nêu cảm nghĩ.",
+          "- Phát triển năng lực ngôn ngữ; nói rõ ràng, tập trung vào mục đích nói và biết nhìn người nghe khi chia sẻ.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, luyện viết, tự hoàn thành nhiệm vụ học tập.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và bổ sung ý kiến cho bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết, từ ngữ, câu văn phù hợp để trình bày ý kiến.",
+          "3. Phẩm chất:",
+          "- Nhân ái: Biết yêu thương, quan tâm, nhường nhịn và chia sẻ với anh chị em trong gia đình.",
+          "- Chăm chỉ: Tích cực luyện đọc, học thuộc lòng, trả lời câu hỏi và hoàn thành nhiệm vụ nói - nghe.",
+          "- Trách nhiệm: Biết giúp đỡ người thân bằng việc vừa sức; giữ trật tự và hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thương, quan tâm, chia sẻ với anh chị em trong gia đình bằng lời nói và việc làm cụ thể."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài thơ Tôi yêu em tôi, tranh phần Nói và nghe Tình cảm anh chị em, thẻ từ luyện đọc, bảng phụ câu thơ, phiếu thảo luận nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -10126,10 +10246,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Tôi yêu em tôi; Nói và nghe - Tình cảm anh chị em - Tiết 2: Nói và nghe - Tình cảm anh chị em",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Tôi yêu em tôi",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Tôi yêu em tôi - Tiết 1: Viết - Nghe viết: Tôi yêu em tôi",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10152,15 +10274,6 @@
           "- GV: Máy tính, máy chiếu/tivi, hình bài thơ Tôi yêu em tôi, tranh bài tập chính tả, bảng phụ từ khó, phiếu soát lỗi.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -10240,10 +10353,12 @@
               "- HS nêu lại một việc em sẽ làm để người thân vui."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Tôi yêu em tôi - Tiết 1: Viết - Nghe viết: Tôi yêu em tôi",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Bạn nhỏ trong nhà; Đọc mở rộng",
+        "lessonTitle": "Tiết 1, 2: Đọc - Bạn nhỏ trong nhà; Đọc mở rộng - Tiết 1: Đọc - Bạn nhỏ trong nhà",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10267,15 +10382,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Bạn nhỏ trong nhà, phiếu đọc sách, sách truyện phục vụ đọc mở rộng.",
           "- HS: SGK Tiếng Việt 3, vở ghi, phiếu đọc sách, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -10358,13 +10464,35 @@
               "- HS lắng nghe và nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Bạn nhỏ trong nhà; Đọc mở rộng - Tiết 1: Đọc - Bạn nhỏ trong nhà",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Bạn nhỏ trong nhà; Đọc mở rộng - Tiết 2: Đọc mở rộng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài Bạn nhỏ trong nhà; biết đọc diễn cảm câu, đoạn văn bộc lộ cảm xúc và nhấn giọng ở những từ ngữ gợi tả.",
+          "- Hiểu nội dung bài: Vật nuôi trong nhà là những người bạn của chúng ta; nhận biết tình cảm thân thiết, gắn bó giữa bạn nhỏ và chú chó Cúp.",
+          "- Trả lời đúng các câu hỏi trong SGK; nêu được chi tiết thể hiện tình cảm của bạn nhỏ đối với chú chó.",
+          "- Đọc mở rộng văn bản về tình cảm với người thân hoặc mọi vật trong nhà; viết được thông tin vào phiếu đọc sách và chia sẻ chi tiết yêu thích.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, luyện viết, tự hoàn thành nhiệm vụ học tập.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và bổ sung ý kiến cho bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn chi tiết, từ ngữ, câu văn phù hợp để trình bày ý kiến.",
+          "3. Phẩm chất:",
+          "- Nhân ái: Biết yêu thương, quan tâm, chăm sóc vật nuôi và cư xử tốt với những người bạn trong nhà.",
+          "- Chăm chỉ: Tích cực đọc, trả lời câu hỏi, hoàn thành phiếu đọc sách.",
+          "- Trách nhiệm: Biết giữ gìn đồ vật, chăm sóc vật nuôi phù hợp với lứa tuổi và hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thương, chăm sóc, bảo vệ vật nuôi và cư xử nhân ái với các con vật trong gia đình."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Bạn nhỏ trong nhà, phiếu đọc sách, sách truyện phục vụ đọc mở rộng.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, phiếu đọc sách, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -10451,10 +10579,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Bạn nhỏ trong nhà; Đọc mở rộng - Tiết 2: Đọc mở rộng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Từ ngữ về bạn trong nhà. Biện pháp so sánh",
+        "lessonTitle": "Tiết 3: Luyện tập - Từ ngữ về bạn trong nhà. Biện pháp so sánh - Tiết 1: Luyện tập - Từ ngữ về bạn trong nhà. Biện pháp so sánh",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10477,15 +10607,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh phần Luyện tập, bảng bài tập, thẻ từ, phiếu học tập nhóm.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bảng con."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -10561,10 +10682,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Từ ngữ về bạn trong nhà. Biện pháp so sánh - Tiết 1: Luyện tập - Từ ngữ về bạn trong nhà. Biện pháp so sánh",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn tả đồ vật",
+        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn tả đồ vật - Tiết 1: Luyện tập - Viết đoạn văn tả đồ vật",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10587,15 +10710,6 @@
           "- GV: Máy tính, máy chiếu/tivi, bài văn Cái đồng hồ, tranh/ảnh đồ vật, bảng tiêu chí soát lỗi, phiếu viết đoạn văn.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực; có thể chuẩn bị một đồ vật nhỏ để quan sát."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -10682,7 +10796,9 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết đoạn văn tả đồ vật - Tiết 1: Luyện tập - Viết đoạn văn tả đồ vật",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -10691,7 +10807,7 @@
     "sourceFile": "TV TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Những bậc đá chạm mây; Nói và nghe - Những bậc đá chạm mây",
+        "lessonTitle": "Tiết 1, 2: Đọc - Những bậc đá chạm mây; Nói và nghe - Những bậc đá chạm mây - Tiết 1: Đọc - Những bậc đá chạm mây",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10700,14 +10816,7 @@
           "- Hiểu nội dung bài: Trong cuộc sống, có những người rất đáng trân trọng vì họ biết sống vì cộng đồng.",
           "- Dựa vào tranh và lời gợi ý, kể lại được từng đoạn câu chuyện Những bậc đá chạm mây; biết bày tỏ suy nghĩ về nhân vật cố Đương.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Những bậc đá chạm mây, tranh kể chuyện, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và kể chuyện theo tranh.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ việc làm của nhân vật với những việc tốt có thể làm cho tập thể, cộng đồng.",
           "3. Phẩm chất:",
@@ -10718,13 +10827,10 @@
           "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết trân trọng những người sống vì cộng đồng và học tập tinh thần giúp đỡ, cống hiến cho tập thể.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI/robot có thể hỗ trợ khảo sát địa hình vùng núi cao để giúp con người làm đường an toàn; biết AI chỉ hỗ trợ, con người cần kiểm tra, lựa chọn và chịu trách nhiệm."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Những bậc đá chạm mây, tranh kể chuyện, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -10807,13 +10913,35 @@
               "- HS lắng nghe và nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Những bậc đá chạm mây; Nói và nghe - Những bậc đá chạm mây - Tiết 1: Đọc - Những bậc đá chạm mây",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Những bậc đá chạm mây; Nói và nghe - Những bậc đá chạm mây - Tiết 2: Nói và nghe - Những bậc đá chạm mây",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Những bậc đá chạm mây; biết nghỉ hơi ở chỗ có dấu câu, biết nhấn giọng ở những từ ngữ nói về khó khăn, quyết tâm và cảm xúc của nhân vật.",
+          "- Nhận biết được các sự việc xảy ra trong câu chuyện gắn với thời gian, địa điểm cụ thể; hiểu suy nghĩ, cảm xúc của nhân vật qua hành động, việc làm.",
+          "- Hiểu nội dung bài: Trong cuộc sống, có những người rất đáng trân trọng vì họ biết sống vì cộng đồng.",
+          "- Dựa vào tranh và lời gợi ý, kể lại được từng đoạn câu chuyện Những bậc đá chạm mây; biết bày tỏ suy nghĩ về nhân vật cố Đương.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và kể chuyện theo tranh.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ việc làm của nhân vật với những việc tốt có thể làm cho tập thể, cộng đồng.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết trân trọng, cảm phục những người sống vì cộng đồng, biết giúp đỡ người khác.",
+          "- Chăm chỉ: tích cực luyện đọc, kể chuyện, hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết làm việc tốt, giúp đỡ tập thể bằng việc phù hợp với lứa tuổi.",
+          "4. Tích hợp:",
+          "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết trân trọng những người sống vì cộng đồng và học tập tinh thần giúp đỡ, cống hiến cho tập thể.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI/robot có thể hỗ trợ khảo sát địa hình vùng núi cao để giúp con người làm đường an toàn; biết AI chỉ hỗ trợ, con người cần kiểm tra, lựa chọn và chịu trách nhiệm."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Những bậc đá chạm mây, tranh kể chuyện, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -10916,10 +11044,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Những bậc đá chạm mây; Nói và nghe - Những bậc đá chạm mây - Tiết 2: Nói và nghe - Những bậc đá chạm mây",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Những bậc đá chạm mây",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Những bậc đá chạm mây - Tiết 1: Viết - Nghe viết: Những bậc đá chạm mây",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10942,15 +11072,6 @@
           "- GV: Máy tính, máy chiếu/tivi, hình bài viết Những bậc đá chạm mây, bảng phụ từ khó, tranh bài tập chính tả, phiếu soát lỗi.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì để soát lỗi."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -11042,10 +11163,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Những bậc đá chạm mây - Tiết 1: Viết - Nghe viết: Những bậc đá chạm mây",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Đi tìm mặt trời; Viết - Ôn chữ hoa L",
+        "lessonTitle": "Tiết 1, 2: Đọc - Đi tìm mặt trời; Viết - Ôn chữ hoa L - Tiết 1: Đọc - Đi tìm mặt trời",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -11054,14 +11177,7 @@
           "- Hiểu nội dung bài: Câu chuyện ca ngợi việc làm cao đẹp vì cộng đồng, tinh thần dũng cảm, kiên trì và trách nhiệm.",
           "- Viết đúng chữ hoa L cỡ nhỏ, tên riêng Lam Sơn và câu ứng dụng.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Đi tìm mặt trời, mẫu chữ hoa L, bảng phụ câu dài, phiếu học tập nhóm.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm khi tìm hiểu bài, biết nhận xét bài viết của bạn.",
           "- Giải quyết vấn đề và sáng tạo: biết nêu việc làm thể hiện tinh thần giúp đỡ cộng đồng.",
           "3. Phẩm chất:",
@@ -11071,13 +11187,10 @@
           "4. Tích hợp:",
           "- Tích hợp đạo đức, lối sống: HS rèn tính cẩn thận, trung thực khi viết; biết giữ gìn sự trong sáng của tiếng Việt và trình bày bài sạch đẹp."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Đi tìm mặt trời, mẫu chữ hoa L, bảng phụ câu dài, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -11156,13 +11269,34 @@
               "- HS lắng nghe và nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Đi tìm mặt trời; Viết - Ôn chữ hoa L - Tiết 1: Đọc - Đi tìm mặt trời",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Đi tìm mặt trời; Viết - Ôn chữ hoa L - Tiết 2: Viết - Ôn chữ hoa L",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Đi tìm mặt trời; biết ngắt nghỉ đúng, nhấn giọng ở những từ ngữ gợi khó khăn, quyết tâm của gà trống.",
+          "- Nhận biết được các sự việc xảy ra trong câu chuyện gắn với thời gian, địa điểm cụ thể; hiểu hành trình gian nan của gà trống.",
+          "- Hiểu nội dung bài: Câu chuyện ca ngợi việc làm cao đẹp vì cộng đồng, tinh thần dũng cảm, kiên trì và trách nhiệm.",
+          "- Viết đúng chữ hoa L cỡ nhỏ, tên riêng Lam Sơn và câu ứng dụng.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm khi tìm hiểu bài, biết nhận xét bài viết của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết nêu việc làm thể hiện tinh thần giúp đỡ cộng đồng.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết cảm phục người dũng cảm, sẵn lòng vì cộng đồng.",
+          "- Chăm chỉ: tích cực đọc, viết, trả lời câu hỏi.",
+          "- Trách nhiệm: biết kiên trì, không ngại khó và làm việc có ích cho tập thể.",
+          "4. Tích hợp:",
+          "- Tích hợp đạo đức, lối sống: HS rèn tính cẩn thận, trung thực khi viết; biết giữ gìn sự trong sáng của tiếng Việt và trình bày bài sạch đẹp."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Đi tìm mặt trời, mẫu chữ hoa L, bảng phụ câu dài, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -11265,10 +11399,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Đi tìm mặt trời; Viết - Ôn chữ hoa L - Tiết 2: Viết - Ôn chữ hoa L",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Từ trái nghĩa. Câu khiến",
+        "lessonTitle": "Tiết 3: Luyện tập - Từ trái nghĩa. Câu khiến - Tiết 1: Luyện tập - Từ trái nghĩa. Câu khiến",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -11292,15 +11428,6 @@
           "- GV: Máy tính, máy chiếu/tivi, bảng bài tập, thẻ từ trái nghĩa, phiếu học tập nhóm, thiết bị của GV để minh họa nguồn học liệu số phù hợp.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bảng con."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -11399,10 +11526,12 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Từ trái nghĩa. Câu khiến - Tiết 1: Luyện tập - Từ trái nghĩa. Câu khiến",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "BÀI 26: ĐI TÌM MẶT TRỜI",
+        "lessonTitle": "BÀI 26 - Tiết 1: BÀI 26: ĐI TÌM MẶT TRỜI",
         "topic": "",
         "yccd": [
           "Tiết 4: Luyện tập - Viết đoạn văn nêu lí do thích hoặc không thích một nhân vật; Đọc mở rộng",
@@ -11427,15 +11556,6 @@
           "- GV: Máy tính, máy chiếu/tivi, ngữ liệu mẫu trong SGK, phiếu viết, bảng tiêu chí soát lỗi, phiếu đọc sách.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -11530,7 +11650,9 @@
               "- HS nhắc lại nội dung cần nhớ và ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26 - Tiết 1: BÀI 26: ĐI TÌM MẶT TRỜI",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -11539,7 +11661,7 @@
     "sourceFile": "TV TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Những chiếc áo ấm; Nói và nghe - Thêm sức thêm tài",
+        "lessonTitle": "Tiết 1, 2: Đọc - Những chiếc áo ấm; Nói và nghe - Thêm sức thêm tài - Tiết 1: Đọc - Những chiếc áo ấm",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -11548,14 +11670,7 @@
           "- Hiểu nội dung bài: Nếu tất cả chung sức, chung lòng sẽ làm được những việc lớn lao mà sức một người không thể làm được.",
           "- Nói rõ ràng, đóng góp ý kiến đúng yêu cầu; biết đặt câu hỏi với bạn để hiểu đúng ý kiến của bạn trong phần Nói và nghe Thêm sức thêm tài.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Những chiếc áo ấm, tranh phần Nói và nghe, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm; hình minh họa “AI tư vấn” thời tiết - áo ấm nếu có.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; biết lắng nghe, đặt câu hỏi và chia sẻ ý kiến khi thảo luận.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ sức mạnh hợp tác trong câu chuyện với việc học tập, sinh hoạt hằng ngày.",
           "3. Phẩm chất:",
@@ -11566,13 +11681,10 @@
           "- Tích hợp KNS: HS biết hợp tác, lắng nghe, chia sẻ ý kiến và vận dụng bài học vào ứng xử hằng ngày.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể gợi ý đồ dùng phù hợp với điều kiện thời tiết; biết AI chỉ hỗ trợ gợi ý, con người cần tự kiểm tra và lựa chọn phù hợp."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Những chiếc áo ấm, tranh phần Nói và nghe, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm; hình minh họa “AI tư vấn” thời tiết - áo ấm nếu có.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -11655,13 +11767,35 @@
               "- HS lắng nghe và nhắc lại ý chính."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Những chiếc áo ấm; Nói và nghe - Thêm sức thêm tài - Tiết 1: Đọc - Những chiếc áo ấm",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Những chiếc áo ấm; Nói và nghe - Thêm sức thêm tài - Tiết 2: Nói và nghe - Thêm sức thêm tài",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Những chiếc áo ấm; biết nghỉ hơi ở chỗ có dấu câu, bước đầu thể hiện ngữ điệu khi đọc lời nói của nhân vật.",
+          "- Nhận biết được các nhân vật, hành động, việc làm và sự đóng góp phù hợp với khả năng của mỗi nhân vật vào công việc chung.",
+          "- Hiểu nội dung bài: Nếu tất cả chung sức, chung lòng sẽ làm được những việc lớn lao mà sức một người không thể làm được.",
+          "- Nói rõ ràng, đóng góp ý kiến đúng yêu cầu; biết đặt câu hỏi với bạn để hiểu đúng ý kiến của bạn trong phần Nói và nghe Thêm sức thêm tài.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; biết lắng nghe, đặt câu hỏi và chia sẻ ý kiến khi thảo luận.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ sức mạnh hợp tác trong câu chuyện với việc học tập, sinh hoạt hằng ngày.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết đoàn kết, giúp đỡ người khác và tôn trọng sự khác biệt của mỗi bạn.",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi, tham gia hoạt động nhóm.",
+          "- Trách nhiệm: biết đóng góp vào công việc chung bằng việc phù hợp với khả năng của bản thân.",
+          "4. Tích hợp:",
+          "- Tích hợp KNS: HS biết hợp tác, lắng nghe, chia sẻ ý kiến và vận dụng bài học vào ứng xử hằng ngày.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể gợi ý đồ dùng phù hợp với điều kiện thời tiết; biết AI chỉ hỗ trợ gợi ý, con người cần tự kiểm tra và lựa chọn phù hợp."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Những chiếc áo ấm, tranh phần Nói và nghe, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm; hình minh họa “AI tư vấn” thời tiết - áo ấm nếu có.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -11768,10 +11902,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Những chiếc áo ấm; Nói và nghe - Thêm sức thêm tài - Tiết 2: Nói và nghe - Thêm sức thêm tài",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Trong vườn",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Trong vườn - Tiết 1: Viết - Nghe viết: Trong vườn",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -11794,15 +11930,6 @@
           "- GV: Máy tính, máy chiếu/tivi, hình bài viết Trong vườn, bảng phụ từ khó, tranh bài tập chính tả, phiếu soát lỗi.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì để soát lỗi."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -11878,10 +12005,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Trong vườn - Tiết 1: Viết - Nghe viết: Trong vườn",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Con đường của bé; Đọc mở rộng",
+        "lessonTitle": "Tiết 1, 2: Đọc - Con đường của bé; Đọc mở rộng - Tiết 1: Đọc - Con đường của bé",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -11905,15 +12034,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài thơ Con đường của bé, tranh đọc mở rộng, thẻ từ luyện đọc, phiếu đọc sách; một số sách/bài đọc số phù hợp lứa tuổi do GV chuẩn bị.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -11992,13 +12112,35 @@
               "- HS lắng nghe và nhắc lại ý chính."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Con đường của bé; Đọc mở rộng - Tiết 1: Đọc - Con đường của bé",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Con đường của bé; Đọc mở rộng - Tiết 2: Đọc mở rộng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ bài thơ Con đường của bé với giọng vui vẻ, hồn nhiên; biết nghỉ hơi ở chỗ ngắt nhịp thơ và giữa các dòng thơ.",
+          "- Hiểu nội dung bài thơ: mỗi nghề nghiệp có một con đường lao động riêng; con đường của bé là con đường học tập để lớn lên, thực hiện ước mơ.",
+          "- Trả lời được các câu hỏi trong SGK; nêu được nghề nghiệp của các nhân vật trong bài thơ và cảm nhận về giá trị lao động.",
+          "- Thực hiện đọc mở rộng theo yêu cầu; biết ghi và chia sẻ thông tin cơ bản về bài đọc phù hợp.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, tìm hiểu từ ngữ và chuẩn bị ý kiến trả lời.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và chia sẻ bài đọc.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ bài thơ với ước mơ nghề nghiệp của bản thân.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết trân trọng người lao động và giá trị của các nghề nghiệp trong xã hội.",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi, hoàn thành nhiệm vụ đọc mở rộng.",
+          "- Trách nhiệm: biết học tập chăm chỉ để chuẩn bị cho con đường tương lai của bản thân.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.2.CB1a: HS biết lựa chọn sách, báo, nội dung đọc số phù hợp lứa tuổi; bước đầu nhận biết nguồn thông tin đáng tin cậy."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài thơ Con đường của bé, tranh đọc mở rộng, thẻ từ luyện đọc, phiếu đọc sách; một số sách/bài đọc số phù hợp lứa tuổi do GV chuẩn bị.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -12089,10 +12231,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Con đường của bé; Đọc mở rộng - Tiết 2: Đọc mở rộng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ về nghề nghiệp. Câu hỏi",
+        "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ về nghề nghiệp. Câu hỏi - Tiết 1: Luyện tập - Mở rộng vốn từ về nghề nghiệp. Câu hỏi",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -12115,15 +12259,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh/ngữ liệu trong SGK, thẻ từ nghề nghiệp, phiếu học tập nhóm.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bảng con."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -12195,10 +12330,12 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Mở rộng vốn từ về nghề nghiệp. Câu hỏi - Tiết 1: Luyện tập - Mở rộng vốn từ về nghề nghiệp. Câu hỏi",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "BÀI 28: CON ĐƯỜNG CỦA BÉ",
+        "lessonTitle": "BÀI 28 - Tiết 1: BÀI 28: CON ĐƯỜNG CỦA BÉ",
         "topic": "",
         "yccd": [
           "Tiết 4: Luyện tập - Viết đoạn văn nêu lí do thích hoặc không thích một nhân vật trong câu chuyện em đã đọc",
@@ -12222,15 +12359,6 @@
           "- GV: Máy tính, máy chiếu/tivi, ngữ liệu mẫu trong SGK, phiếu viết, bảng tiêu chí soát lỗi.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -12317,7 +12445,9 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28 - Tiết 1: BÀI 28: CON ĐƯỜNG CỦA BÉ",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -12326,7 +12456,7 @@
     "sourceFile": "TV TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Ngôi nhà trong cỏ; Nói và nghe - Kể chuyện Hàng xóm của tắc kè",
+        "lessonTitle": "Tiết 1, 2: Đọc - Ngôi nhà trong cỏ; Nói và nghe - Kể chuyện Hàng xóm của tắc kè - Tiết 1: Đọc - Ngôi nhà trong cỏ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -12335,14 +12465,7 @@
           "- Hiểu nội dung bài: Những người hàng xóm là những người bạn tốt; chúng ta có thể học hỏi và cùng làm việc chung để cuộc sống tốt đẹp hơn.",
           "- Kể được câu chuyện Hàng xóm của tắc kè dựa vào tranh minh họa và câu hỏi gợi ý; nêu được điều học được sau khi nghe chuyện.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Ngôi nhà trong cỏ, tranh kể chuyện Hàng xóm của tắc kè, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm; hình minh họa AI/camera cảm biến bảo vệ sinh vật nếu có.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và kể chuyện theo tranh.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ cách sống thân thiện, giúp đỡ hàng xóm, bạn bè trong đời sống.",
           "3. Phẩm chất:",
@@ -12353,13 +12476,10 @@
           "- Tích hợp GDBVMT: HS biết mỗi loài vật đều cần môi trường sống phù hợp; có ý thức không phá tổ, không làm hại côn trùng có ích và giữ gìn môi trường xung quanh.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể hỗ trợ bảo vệ môi trường sống của sinh vật qua camera/cảm biến theo dõi an toàn của các loài côn trùng."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Ngôi nhà trong cỏ, tranh kể chuyện Hàng xóm của tắc kè, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm; hình minh họa AI/camera cảm biến bảo vệ sinh vật nếu có.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -12442,13 +12562,35 @@
               "- HS lắng nghe, nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Ngôi nhà trong cỏ; Nói và nghe - Kể chuyện Hàng xóm của tắc kè - Tiết 1: Đọc - Ngôi nhà trong cỏ",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Ngôi nhà trong cỏ; Nói và nghe - Kể chuyện Hàng xóm của tắc kè - Tiết 2: Nói và nghe - Kể chuyện Hàng xóm của tắc kè",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Ngôi nhà trong cỏ; biết nghỉ hơi ở chỗ có dấu câu, bước đầu thể hiện tâm trạng, cảm xúc của nhân vật qua giọng đọc.",
+          "- Nhận biết được các sự việc xảy ra trong câu chuyện gắn với thời gian, địa điểm cụ thể; hiểu suy nghĩ, cảm xúc của nhân vật dựa vào hành động, việc làm.",
+          "- Hiểu nội dung bài: Những người hàng xóm là những người bạn tốt; chúng ta có thể học hỏi và cùng làm việc chung để cuộc sống tốt đẹp hơn.",
+          "- Kể được câu chuyện Hàng xóm của tắc kè dựa vào tranh minh họa và câu hỏi gợi ý; nêu được điều học được sau khi nghe chuyện.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài và kể chuyện theo tranh.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ cách sống thân thiện, giúp đỡ hàng xóm, bạn bè trong đời sống.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết sống thân thiện, quan tâm và sẵn sàng giúp đỡ bạn bè, hàng xóm.",
+          "- Chăm chỉ: tích cực luyện đọc, kể chuyện, hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết giữ gìn môi trường sống, không phá tổ, không làm hại côn trùng có ích.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS biết mỗi loài vật đều cần môi trường sống phù hợp; có ý thức không phá tổ, không làm hại côn trùng có ích và giữ gìn môi trường xung quanh.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể hỗ trợ bảo vệ môi trường sống của sinh vật qua camera/cảm biến theo dõi an toàn của các loài côn trùng."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Ngôi nhà trong cỏ, tranh kể chuyện Hàng xóm của tắc kè, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm; hình minh họa AI/camera cảm biến bảo vệ sinh vật nếu có.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -12551,10 +12693,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Ngôi nhà trong cỏ; Nói và nghe - Kể chuyện Hàng xóm của tắc kè - Tiết 2: Nói và nghe - Kể chuyện Hàng xóm của tắc kè",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Gió",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Gió - Tiết 1: Viết - Nghe viết: Gió",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -12577,15 +12721,6 @@
           "- GV: Máy tính, máy chiếu/tivi, hình bài viết Gió, bảng phụ từ khó, phiếu soát lỗi chính tả.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì để soát lỗi."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -12665,10 +12800,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Gió - Tiết 1: Viết - Nghe viết: Gió",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Những ngọn hải đăng; Viết - Ôn chữ hoa M, N",
+        "lessonTitle": "Tiết 1, 2: Đọc - Những ngọn hải đăng; Viết - Ôn chữ hoa M, N - Tiết 1: Đọc - Những ngọn hải đăng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -12692,15 +12829,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Những ngọn hải đăng, mẫu chữ hoa M, N, bảng phụ câu dài, tranh/ảnh Đồng Tháp Mười, phiếu học tập nhóm.",
           "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -12779,13 +12907,35 @@
               "- HS lắng nghe và ghi nhớ ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Những ngọn hải đăng; Viết - Ôn chữ hoa M, N - Tiết 1: Đọc - Những ngọn hải đăng",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Những ngọn hải đăng; Viết - Ôn chữ hoa M, N - Tiết 2: Viết - Ôn chữ hoa M, N",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bài Những ngọn hải đăng; biết nghỉ hơi ở chỗ có dấu câu và đọc rõ các thông tin trong văn bản.",
+          "- Nhận biết được những thông tin đáng chú ý trong bài đọc; nêu được ích lợi của hải đăng và công việc vất vả của người canh giữ hải đăng.",
+          "- Hiểu nội dung bài: Cảm nhận được tinh thần lao động quên mình của những người canh giữ hải đăng; biết trân trọng công việc vì cộng đồng.",
+          "- Viết đúng chữ hoa M, N cỡ nhỏ; viết đúng tên riêng Mũi Né và câu ứng dụng.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc, luyện viết, tự soát lỗi bài viết.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm khi tìm hiểu thông tin trong bài và nhận xét bài viết của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ vai trò của hải đăng, biển đảo, môi trường thiên nhiên với đời sống con người.",
+          "3. Phẩm chất:",
+          "- Yêu nước: biết yêu quê hương, biển đảo, trân trọng những người làm nhiệm vụ nơi biển khơi.",
+          "- Chăm chỉ: tích cực đọc, viết, trả lời câu hỏi và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: có ý thức bảo vệ môi trường, cảnh đẹp thiên nhiên và tài nguyên quê hương.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS yêu mến cảnh đẹp thiên nhiên, có ý thức bảo vệ môi trường qua câu ca dao ca ngợi vẻ đẹp Đồng Tháp Mười, vùng đất mênh mông, sông nước dạt dào, nhiều tôm cá."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Những ngọn hải đăng, mẫu chữ hoa M, N, bảng phụ câu dài, tranh/ảnh Đồng Tháp Mười, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -12884,10 +13034,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Những ngọn hải đăng; Viết - Ôn chữ hoa M, N - Tiết 2: Viết - Ôn chữ hoa M, N",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Từ chỉ sự vật, hoạt động. Hỏi - đáp về sự vật, hoạt động",
+        "lessonTitle": "Tiết 3: Luyện tập - Từ chỉ sự vật, hoạt động. Hỏi - đáp về sự vật, hoạt động - Tiết 1: Luyện tập - Từ chỉ sự vật, hoạt động. Hỏi - đáp về sự vật, hoạt động",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -12910,15 +13062,6 @@
           "- GV: Máy tính, máy chiếu/tivi, bảng bài tập, tranh/ngữ liệu trong SGK, thẻ từ, phiếu học tập nhóm.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bảng con."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -12994,10 +13137,12 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Từ chỉ sự vật, hoạt động. Hỏi - đáp về sự vật, hoạt động - Tiết 1: Luyện tập - Từ chỉ sự vật, hoạt động. Hỏi - đáp về sự vật, hoạt động",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Luyện tập - Viết thư; Đọc mở rộng",
+        "lessonTitle": "Tiết 4: Luyện tập - Viết thư; Đọc mở rộng - Tiết 1: Luyện tập - Viết thư",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -13021,15 +13166,6 @@
           "- GV: Máy tính, máy chiếu/tivi, ngữ liệu mẫu trong SGK, phiếu viết thư, bảng tiêu chí soát lỗi, phiếu đọc sách; thiết bị giáo viên minh họa tìm kiếm thông tin an toàn nếu cần.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -13124,7 +13260,9 @@
               "- HS nhắc lại nội dung cần nhớ và ghi nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết thư; Đọc mở rộng - Tiết 1: Luyện tập - Viết thư",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -13133,7 +13271,7 @@
     "sourceFile": "TV TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Người làm đồ chơi; Nói và nghe - Kể chuyện Người làm đồ chơi",
+        "lessonTitle": "Tiết 1, 2: Đọc - Người làm đồ chơi; Nói và nghe - Kể chuyện Người làm đồ chơi - Tiết 1: Đọc - Người làm đồ chơi",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -13142,14 +13280,7 @@
           "- Hiểu nội dung bài: Bác Nhân là người đáng trân trọng vì yêu nghề, yêu trẻ em; bạn nhỏ biết quan tâm, làm việc tốt để người mình quý mến được vui.",
           "- Kể lại được từng đoạn câu chuyện Người làm đồ chơi dựa vào gợi ý; biết chia sẻ suy nghĩ về nghề nặn tò he và những nghề nghiệp trong cuộc sống.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Người làm đồ chơi, tranh kể chuyện, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -13159,13 +13290,10 @@
           "4. Tích hợp:",
           "- Tích hợp KNS: HS biết hợp tác, lắng nghe, chia sẻ ý kiến và vận dụng bài học vào ứng xử hằng ngày."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Người làm đồ chơi, tranh kể chuyện, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -13240,13 +13368,34 @@
               "- HS lắng nghe, nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Người làm đồ chơi; Nói và nghe - Kể chuyện Người làm đồ chơi - Tiết 1: Đọc - Người làm đồ chơi",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Người làm đồ chơi; Nói và nghe - Kể chuyện Người làm đồ chơi - Tiết 2: Nói và nghe - Kể chuyện Người làm đồ chơi",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Người làm đồ chơi; bước đầu biết đọc lời nhân vật với giọng phù hợp.",
+          "- Nhận biết được trình tự sự việc, hiểu suy nghĩ và hành động của nhân vật; nêu được đặc điểm của bác Nhân và bạn nhỏ.",
+          "- Hiểu nội dung bài: Bác Nhân là người đáng trân trọng vì yêu nghề, yêu trẻ em; bạn nhỏ biết quan tâm, làm việc tốt để người mình quý mến được vui.",
+          "- Kể lại được từng đoạn câu chuyện Người làm đồ chơi dựa vào gợi ý; biết chia sẻ suy nghĩ về nghề nặn tò he và những nghề nghiệp trong cuộc sống.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết quan tâm, chia sẻ, trân trọng người lao động và những người đem lại niềm vui cho trẻ em.",
+          "- Chăm chỉ: tích cực luyện đọc, kể chuyện và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: biết giữ gìn đồ chơi, trân trọng nghề truyền thống và ứng xử đẹp với người xung quanh.",
+          "4. Tích hợp:",
+          "- Tích hợp KNS: HS biết hợp tác, lắng nghe, chia sẻ ý kiến và vận dụng bài học vào ứng xử hằng ngày."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Người làm đồ chơi, tranh kể chuyện, thẻ từ luyện đọc, bảng phụ câu dài, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -13341,10 +13490,12 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Người làm đồ chơi; Nói và nghe - Kể chuyện Người làm đồ chơi - Tiết 2: Nói và nghe - Kể chuyện Người làm đồ chơi",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Người làm đồ chơi",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Người làm đồ chơi - Tiết 1: Viết - Nghe viết: Người làm đồ chơi",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -13352,14 +13503,7 @@
           "- Viết đúng chữ hoa tên người; biết trình bày sạch đẹp và tự soát lỗi.",
           "- Viết đúng thông tin vào phiếu mượn sách theo mẫu.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, bảng phụ đoạn nghe - viết, phiếu mượn sách, bảng từ khó, phiếu soát lỗi.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -13369,13 +13513,10 @@
           "4. Tích hợp:",
           "- Tích hợp đạo đức, lối sống: Rèn tính cẩn thận, trung thực khi viết; biết giữ gìn sự trong sáng của tiếng Việt và trình bày bài sạch đẹp."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, bảng phụ đoạn nghe - viết, phiếu mượn sách, bảng từ khó, phiếu soát lỗi.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -13459,10 +13600,12 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Người làm đồ chơi - Tiết 1: Viết - Nghe viết: Người làm đồ chơi",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Cây bút thần; Đọc mở rộng",
+        "lessonTitle": "Tiết 1, 2: Đọc - Cây bút thần; Đọc mở rộng - Tiết 1: Đọc - Cây bút thần",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -13471,14 +13614,7 @@
           "- Hiểu nội dung bài: Mã Lương có tài năng, biết dùng tài năng để giúp người nghèo và không làm theo yêu cầu tham lam, trái đạo lí.",
           "- Chia sẻ được nội dung bài đọc mở rộng về người làm việc thầm lặng, có ích cho xã hội.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Cây bút thần, tranh đọc mở rộng, bảng phụ câu dài, phiếu học tập nhóm; hình minh họa do AI tạo để GV trình chiếu khi cần.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -13488,13 +13624,10 @@
           "4. Tích hợp:",
           "- Tích hợp AI (Khung 3439) - 3.B2.1: HS phân biệt sự khác nhau giữa vật thật và hình ảnh do AI tạo ra; biết quan sát, so sánh và không vội tin hình ảnh khi chưa kiểm chứng."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Cây bút thần, tranh đọc mở rộng, bảng phụ câu dài, phiếu học tập nhóm; hình minh họa do AI tạo để GV trình chiếu khi cần.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -13569,13 +13702,34 @@
               "- HS nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Cây bút thần; Đọc mở rộng - Tiết 1: Đọc - Cây bút thần",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Cây bút thần; Đọc mở rộng - Tiết 2: Đọc mở rộng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng câu chuyện Cây bút thần; biết đọc lời nhân vật với ngữ điệu phù hợp.",
+          "- Biết kết hợp đọc chữ và xem tranh để hiểu tình tiết, sự việc; nêu được nhận xét về nhân vật qua hành động, việc làm.",
+          "- Hiểu nội dung bài: Mã Lương có tài năng, biết dùng tài năng để giúp người nghèo và không làm theo yêu cầu tham lam, trái đạo lí.",
+          "- Chia sẻ được nội dung bài đọc mở rộng về người làm việc thầm lặng, có ích cho xã hội.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết cảm phục người có hành động cao đẹp, sẵn sàng giúp đỡ người khó khăn.",
+          "- Trung thực: biết phân biệt đúng - sai, không làm theo yêu cầu trái đạo lí.",
+          "- Trách nhiệm: biết dùng khả năng của bản thân để làm việc có ích.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (Khung 3439) - 3.B2.1: HS phân biệt sự khác nhau giữa vật thật và hình ảnh do AI tạo ra; biết quan sát, so sánh và không vội tin hình ảnh khi chưa kiểm chứng."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Cây bút thần, tranh đọc mở rộng, bảng phụ câu dài, phiếu học tập nhóm; hình minh họa do AI tạo để GV trình chiếu khi cần.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -13666,10 +13820,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Cây bút thần; Đọc mở rộng - Tiết 2: Đọc mở rộng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ về thành thị và nông thôn. So sánh",
+        "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ về thành thị và nông thôn. So sánh - Tiết 1: Luyện tập - Mở rộng vốn từ về thành thị và nông thôn. So sánh",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -13677,7 +13833,14 @@
           "- Nhận biết được sự vật được so sánh trong câu văn; biết đặt câu có hình ảnh so sánh.",
           "- Biết dùng từ ngữ phù hợp khi nói, viết về cảnh quan môi trường quê hương.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
+          "3. Phẩm chất:",
+          "- Yêu nước: biết tự hào về cảnh quan quê hương, đất nước.",
+          "- Chăm chỉ: tích cực tìm từ, đặt câu, hoàn thành bài tập.",
+          "- Trách nhiệm: có ý thức giữ gìn cảnh quan thành thị, nông thôn xanh - sạch - đẹp.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh thành thị - nông thôn, phiếu học tập, bảng phụ bài tập so sánh.",
@@ -13685,24 +13848,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
-          "3. Phẩm chất:",
-          "- Yêu nước: biết tự hào về cảnh quan quê hương, đất nước.",
-          "- Chăm chỉ: tích cực tìm từ, đặt câu, hoàn thành bài tập.",
-          "- Trách nhiệm: có ý thức giữ gìn cảnh quan thành thị, nông thôn xanh - sạch - đẹp.",
-          "4. Tích hợp:",
-          "- GDBVMT: HS có ý thức tự hào về cảnh quan môi trường trên các vùng đất quê hương; biết giữ gìn môi trường sống xanh - sạch - đẹp."
-        ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [
+          "- GDBVMT: HS có ý thức tự hào về cảnh quan môi trường trên các vùng đất quê hương; biết giữ gìn môi trường sống xanh - sạch - đẹp.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -13768,10 +13914,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Mở rộng vốn từ về thành thị và nông thôn. So sánh - Tiết 1: Luyện tập - Mở rộng vốn từ về thành thị và nông thôn. So sánh",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Luyện tập - Viết thư và phong bì thư",
+        "lessonTitle": "Tiết 4: Luyện tập - Viết thư và phong bì thư - Tiết 1: Luyện tập - Viết thư và phong bì thư",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -13779,14 +13927,7 @@
           "- Viết được một đoạn trong bức thư theo hướng dẫn; biết ghi thông tin cơ bản rõ ràng, lịch sự.",
           "- Biết lựa chọn phương tiện giao tiếp phù hợp khi gửi lời thăm hỏi, chia sẻ.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, mẫu bức thư, mẫu phong bì thư, bảng tiêu chí soát lỗi, phiếu viết.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -13796,13 +13937,10 @@
           "4. Tích hợp:",
           "- Tích hợp NLS 2.1.CB1a, 3.1.CB1a: HS biết lựa chọn phương tiện giao tiếp phù hợp; viết thư giao lưu đúng mực và chia sẻ thông tin cơ bản qua thiết bị số an toàn."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, mẫu bức thư, mẫu phong bì thư, bảng tiêu chí soát lỗi, phiếu viết.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -13877,7 +14015,9 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết thư và phong bì thư - Tiết 1: Luyện tập - Viết thư và phong bì thư",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -13886,7 +14026,7 @@
     "sourceFile": "TV TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Ôn đọc - Ôn từ ngữ, câu và viết ngắn",
+        "lessonTitle": "Tiết 1, 2: Ôn đọc - Ôn từ ngữ, câu và viết ngắn - Tiết 1: Ôn đọc - Ôn từ ngữ, câu và viết ngắn",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -13895,14 +14035,7 @@
           "- Hiểu nội dung bài đọc, nhận biết chi tiết, nội dung chính và nêu cảm nghĩ về nhân vật yêu thích.",
           "- Nhận biết từ ngữ miêu tả điệu bộ, hành động, đặc điểm nhân vật; đặt câu và viết ngắn theo yêu cầu.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, phiếu bốc thăm bài đọc, tranh minh họa các bài đã học, phiếu học tập, bảng đáp án, bảng tự đánh giá AI/NLS.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -13913,13 +14046,10 @@
           "- Tích hợp AI (Khung 3439) - 3.A3.1: HS tự đánh giá mức độ chủ động khi sử dụng AI hỗ trợ học tập; biết ghi rõ bài tự làm và bài có tham khảo AI đúng cách.",
           "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a ở tiết 1: HS biết tìm kiếm, quan sát thông tin/hình ảnh minh họa bài học từ nguồn phù hợp lứa tuổi; biết dùng công cụ số đơn giản để trình bày, chia sẻ kết quả đọc - nói - nghe."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, phiếu bốc thăm bài đọc, tranh minh họa các bài đã học, phiếu học tập, bảng đáp án, bảng tự đánh giá AI/NLS.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -13974,13 +14104,35 @@
               "- HS nhắc lại: Em chủ động học tập, không sao chép kết quả của AI."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Ôn đọc - Ôn từ ngữ, câu và viết ngắn - Tiết 1: Ôn đọc - Ôn từ ngữ, câu và viết ngắn",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Ôn đọc - Ôn từ ngữ, câu và viết ngắn (TIẾT 2 (35 phút))",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ, câu, đoạn, bài theo yêu cầu; bước đầu đọc diễn cảm bài văn, câu chuyện, bài thơ với ngữ điệu phù hợp.",
+          "- Tốc độ đọc khoảng 70 - 80 tiếng/phút; biết nghỉ hơi ở dấu câu hoặc chỗ ngắt nhịp thơ.",
+          "- Hiểu nội dung bài đọc, nhận biết chi tiết, nội dung chính và nêu cảm nghĩ về nhân vật yêu thích.",
+          "- Nhận biết từ ngữ miêu tả điệu bộ, hành động, đặc điểm nhân vật; đặt câu và viết ngắn theo yêu cầu.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực ôn tập, đọc bài, làm bài và tự sửa lỗi.",
+          "- Trung thực: tự đánh giá kết quả học tập đúng khả năng.",
+          "- Trách nhiệm: chuẩn bị bài, giữ trật tự khi kiểm tra, tôn trọng lượt lời của bạn.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (Khung 3439) - 3.A3.1: HS tự đánh giá mức độ chủ động khi sử dụng AI hỗ trợ học tập; biết ghi rõ bài tự làm và bài có tham khảo AI đúng cách.",
+          "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a ở tiết 1: HS biết tìm kiếm, quan sát thông tin/hình ảnh minh họa bài học từ nguồn phù hợp lứa tuổi; biết dùng công cụ số đơn giản để trình bày, chia sẻ kết quả đọc - nói - nghe."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, phiếu bốc thăm bài đọc, tranh minh họa các bài đã học, phiếu học tập, bảng đáp án, bảng tự đánh giá AI/NLS.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -14053,10 +14205,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Ôn đọc - Ôn từ ngữ, câu và viết ngắn (TIẾT 2 (35 phút))",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Ôn đọc thuộc lòng - Từ ngữ thể hiện cảm xúc",
+        "lessonTitle": "Tiết 3: Ôn đọc thuộc lòng - Từ ngữ thể hiện cảm xúc - Tiết 1: Ôn đọc thuộc lòng - Từ ngữ thể hiện cảm xúc",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -14064,14 +14218,7 @@
           "- Tìm được từ ngữ thể hiện cảm xúc, tình cảm trong các bài đã học.",
           "- Biết chia sẻ cảm xúc sau khi đọc thơ, đọc văn.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Phiếu bốc thăm bài thơ, bảng từ ngữ cảm xúc, bảng tự đánh giá học tập.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -14081,13 +14228,10 @@
           "4. Tích hợp:",
           "- Tích hợp AI (Khung 3439) - 3.A3.1: HS tự đánh giá mức độ chủ động khi dùng AI/công cụ số hỗ trợ ôn tập; biết kiểm tra lại kết quả và không sao chép máy móc."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Phiếu bốc thăm bài thơ, bảng từ ngữ cảm xúc, bảng tự đánh giá học tập.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -14148,10 +14292,12 @@
               "- HS nhắc lại: Em tự học, tự kiểm tra và sử dụng AI đúng cách nếu được GV/người lớn hướng dẫn."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Ôn đọc thuộc lòng - Từ ngữ thể hiện cảm xúc - Tiết 1: Ôn đọc thuộc lòng - Từ ngữ thể hiện cảm xúc",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Ôn các kiểu câu",
+        "lessonTitle": "Tiết 4: Ôn các kiểu câu - Tiết 1: Ôn các kiểu câu",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -14159,14 +14305,7 @@
           "- Đặt được câu theo tranh và tình huống; biết dùng điệu bộ, cử chỉ phù hợp khi nói.",
           "- Chăm chú lắng nghe ý kiến của người khác, biết hỏi lại để hiểu đúng ý người nói.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy chiếu/tivi, tranh tình huống, bảng phụ câu kể/câu hỏi/câu cảm/câu khiến, phiếu học tập.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -14176,13 +14315,10 @@
           "4. Tích hợp:",
           "- Tích hợp AI (Khung 3439) - 3.A3.1: HS biết không tin ngay câu trả lời do AI/công cụ số gợi ý khi ôn kiểu câu; cần đối chiếu dấu câu, mục đích nói và kiến thức đã học."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy chiếu/tivi, tranh tình huống, bảng phụ câu kể/câu hỏi/câu cảm/câu khiến, phiếu học tập.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -14251,10 +14387,12 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Ôn các kiểu câu - Tiết 1: Ôn các kiểu câu",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 5: Kể chuyện theo tranh - Viết đoạn văn",
+        "lessonTitle": "Tiết 5: Kể chuyện theo tranh - Viết đoạn văn - Tiết 1: Kể chuyện theo tranh - Viết đoạn văn",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -14262,14 +14400,7 @@
           "- Biết nói theo đề tài phù hợp với lứa tuổi, tôn trọng lượt lời khi trao đổi.",
           "- Viết được một đoạn văn ngắn dựa vào nội dung tranh đã khai thác.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Tranh kể chuyện trong SGK, phiếu gợi ý kể chuyện, bảng tiêu chí đoạn văn, bảng tự đánh giá.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -14279,13 +14410,10 @@
           "4. Tích hợp:",
           "- Tích hợp AI (Khung 3439) - 3.A3.1: HS tự đánh giá đoạn văn tự viết; nếu có tham khảo AI/công cụ số, phải tự chọn lọc, chỉnh sửa và không sao chép nguyên văn."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 5 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Tranh kể chuyện trong SGK, phiếu gợi ý kể chuyện, bảng tiêu chí đoạn văn, bảng tự đánh giá.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -14358,10 +14486,12 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 5: Kể chuyện theo tranh - Viết đoạn văn - Tiết 1: Kể chuyện theo tranh - Viết đoạn văn",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 6: Ôn đọc hiểu - Luyện viết câu, đoạn",
+        "lessonTitle": "Tiết 6: Ôn đọc hiểu - Luyện viết câu, đoạn - Tiết 1: Ôn đọc hiểu - Luyện viết câu, đoạn",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -14369,14 +14499,7 @@
           "- Viết được câu, đoạn ngắn theo yêu cầu; biết dùng từ, đặt câu rõ nghĩa.",
           "- Biết tự soát lỗi chính tả, dấu câu và cách trình bày.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Phiếu đọc hiểu, bảng phụ bài tập, bảng tự đánh giá, phiếu soát lỗi.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -14386,13 +14509,10 @@
           "4. Tích hợp:",
           "- Tích hợp AI (Khung 3439) - 3.A3.1: HS biết tự đánh giá mức độ chủ động khi ôn tập; không phụ thuộc vào AI/công cụ số, cần đọc hiểu và tự trả lời."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 6 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Phiếu đọc hiểu, bảng phụ bài tập, bảng tự đánh giá, phiếu soát lỗi.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -14457,10 +14577,12 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 6: Ôn đọc hiểu - Luyện viết câu, đoạn - Tiết 1: Ôn đọc hiểu - Luyện viết câu, đoạn",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 7: Đánh giá tổng hợp và tự đánh giá",
+        "lessonTitle": "Tiết 7: Đánh giá tổng hợp và tự đánh giá - Tiết 1: Đánh giá tổng hợp và tự đánh giá",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -14468,14 +14590,7 @@
           "- Biết đọc, hiểu, trả lời câu hỏi và viết ngắn ở mức phù hợp.",
           "- Biết tự nhận xét điểm mạnh, điểm cần cố gắng trong môn Tiếng Việt.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Phiếu đánh giá tổng hợp, bảng tự đánh giá, bút màu, bảng tiêu chí.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách diễn đạt, cách trình bày phù hợp với nhiệm vụ học tập.",
           "3. Phẩm chất:",
@@ -14485,13 +14600,10 @@
           "4. Tích hợp:",
           "- Tích hợp AI (Khung 3439) - 3.A3.1: HS tự đánh giá mức độ chủ động khi sử dụng AI/công cụ số hỗ trợ học tập; biết chỉ dùng để tham khảo dưới sự hướng dẫn của GV/người lớn."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 7 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Phiếu đánh giá tổng hợp, bảng tự đánh giá, bút màu, bảng tiêu chí.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -14559,7 +14671,9 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 7: Đánh giá tổng hợp và tự đánh giá - Tiết 1: Đánh giá tổng hợp và tự đánh giá",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -14568,7 +14682,7 @@
     "sourceFile": "TV TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Bầu trời; Nói và nghe - Bầu trời trong mắt em",
+        "lessonTitle": "Tiết 1, 2: Đọc - Bầu trời; Nói và nghe - Bầu trời trong mắt em - Tiết 1: Đọc - Bầu trời",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -14577,7 +14691,15 @@
           "- Hiểu nội dung bài: Bài văn nói về vẻ đẹp và vai trò của bầu trời đối với cuộc sống của muôn loài trên Trái Đất.",
           "- Nói được 3 - 5 câu về bầu trời trong ngày hôm nay; biết chia sẻ cảm nhận của bản thân về bầu trời.",
           "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và hoàn thành nhiệm vụ nói - nghe.",
+          "- Trách nhiệm: có ý thức giữ gìn môi trường, bảo vệ bầu trời và Trái Đất bằng việc làm phù hợp.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS biết tìm kiếm hoặc xem thông tin thời tiết/bầu trời từ nguồn phù hợp lứa tuổi dưới sự hướng dẫn của GV; bước đầu biết so sánh thông tin quan sát thực tế với thông tin trên thiết bị số.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể thu thập, phân tích dữ liệu bầu trời để hỗ trợ dự báo thời tiết; biết kiểm tra thông tin với GV/người lớn và quan sát thực tế."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh chủ đề, tranh bài đọc Bầu trời, tranh Nói và nghe, phiếu học tập, bảng phụ câu dài, tài khoản/thiết bị của GV để minh họa thông tin thời tiết hoặc AI dự báo mưa khi cần.",
@@ -14585,25 +14707,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
-          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
-          "3. Phẩm chất:",
-          "- Yêu thiên nhiên: biết yêu quý vẻ đẹp của bầu trời và môi trường sống.",
-          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và hoàn thành nhiệm vụ nói - nghe.",
-          "- Trách nhiệm: có ý thức giữ gìn môi trường, bảo vệ bầu trời và Trái Đất bằng việc làm phù hợp.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS biết tìm kiếm hoặc xem thông tin thời tiết/bầu trời từ nguồn phù hợp lứa tuổi dưới sự hướng dẫn của GV; bước đầu biết so sánh thông tin quan sát thực tế với thông tin trên thiết bị số.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể thu thập, phân tích dữ liệu bầu trời để hỗ trợ dự báo thời tiết; biết kiểm tra thông tin với GV/người lớn và quan sát thực tế."
+          "- Yêu thiên nhiên: biết yêu quý vẻ đẹp của bầu trời và môi trường sống."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -14700,15 +14805,37 @@
               "- HS nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Bầu trời; Nói và nghe - Bầu trời trong mắt em - Tiết 1: Đọc - Bầu trời",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Bầu trời; Nói và nghe - Bầu trời trong mắt em - Tiết 2: Nói và nghe - Bầu trời trong mắt em",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài Bầu trời; biết ngắt nghỉ hơi sau dấu câu và đọc với giọng tươi vui, phù hợp cảnh thiên nhiên sinh động.",
+          "- Nhận biết được một số thông tin về bầu trời: sự vật trên bầu trời, màu sắc và vai trò của bầu trời đối với muôn vật.",
+          "- Hiểu nội dung bài: Bài văn nói về vẻ đẹp và vai trò của bầu trời đối với cuộc sống của muôn loài trên Trái Đất.",
+          "- Nói được 3 - 5 câu về bầu trời trong ngày hôm nay; biết chia sẻ cảm nhận của bản thân về bầu trời.",
+          "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và hoàn thành nhiệm vụ nói - nghe.",
+          "- Trách nhiệm: có ý thức giữ gìn môi trường, bảo vệ bầu trời và Trái Đất bằng việc làm phù hợp.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS biết tìm kiếm hoặc xem thông tin thời tiết/bầu trời từ nguồn phù hợp lứa tuổi dưới sự hướng dẫn của GV; bước đầu biết so sánh thông tin quan sát thực tế với thông tin trên thiết bị số.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể thu thập, phân tích dữ liệu bầu trời để hỗ trợ dự báo thời tiết; biết kiểm tra thông tin với GV/người lớn và quan sát thực tế."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh chủ đề, tranh bài đọc Bầu trời, tranh Nói và nghe, phiếu học tập, bảng phụ câu dài, tài khoản/thiết bị của GV để minh họa thông tin thời tiết hoặc AI dự báo mưa khi cần.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Yêu thiên nhiên: biết yêu quý vẻ đẹp của bầu trời và môi trường sống.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -14821,10 +14948,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Bầu trời; Nói và nghe - Bầu trời trong mắt em - Tiết 2: Nói và nghe - Bầu trời trong mắt em",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Buổi sáng",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Buổi sáng - Tiết 1: Viết - Nghe viết: Buổi sáng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -14847,15 +14976,6 @@
           "- GV: Máy tính, máy chiếu/tivi, bảng phụ bài thơ Buổi sáng, tranh/bảng bài tập chính tả, phiếu soát lỗi.",
           "- HS: SGK Tiếng Việt 3 tập hai, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -14963,10 +15083,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Buổi sáng - Tiết 1: Viết - Nghe viết: Buổi sáng",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Mưa; Viết - Ôn chữ hoa O, Ô, Ơ",
+        "lessonTitle": "Tiết 1, 2: Đọc - Mưa; Viết - Ôn chữ hoa O, Ô, Ơ - Tiết 1: Đọc - Mưa",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -14975,7 +15097,13 @@
           "- Hiểu nội dung bài: Bài thơ tả cảnh trời mưa và tình yêu thiên nhiên, yêu cuộc sống gia đình của bạn nhỏ.",
           "- Viết đúng chữ hoa O, Ô, Ơ cỡ nhỏ; viết đúng tên riêng sông Ông Đốc và câu ứng dụng.",
           "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng và luyện viết.",
+          "- Trách nhiệm: có ý thức tiết kiệm, bảo vệ nguồn nước sạch và giữ gìn môi trường.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh bài thơ Mưa, mẫu chữ hoa O, Ô, Ơ, bảng phụ câu ứng dụng, phiếu học tập nhóm.",
@@ -14983,24 +15111,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
-          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
-          "3. Phẩm chất:",
           "- Yêu thiên nhiên: biết yêu quý mưa, nguồn nước và vẻ đẹp của thiên nhiên.",
-          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng và luyện viết.",
-          "- Trách nhiệm: có ý thức tiết kiệm, bảo vệ nguồn nước sạch và giữ gìn môi trường.",
-          "4. Tích hợp:",
           "- GDBVMT: HS có ý thức bảo vệ nguồn nước sạch để các sinh vật như cá, tôm, cây cối vùng đất Cửu Long nói riêng và mọi sinh vật nói chung có thể sinh sống."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -15089,15 +15202,36 @@
               "- HS nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Mưa; Viết - Ôn chữ hoa O, Ô, Ơ - Tiết 1: Đọc - Mưa",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Mưa; Viết - Ôn chữ hoa O, Ô, Ơ - Tiết 2: Viết - Ôn chữ hoa O, Ô, Ơ",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài thơ Mưa; biết nghỉ hơi sau mỗi dòng thơ, khổ thơ và bước đầu đọc diễn cảm.",
+          "- Nhận biết được hình ảnh thiên nhiên trước và trong cơn mưa; hiểu khung cảnh sinh hoạt ấm cúng của gia đình khi trời mưa.",
+          "- Hiểu nội dung bài: Bài thơ tả cảnh trời mưa và tình yêu thiên nhiên, yêu cuộc sống gia đình của bạn nhỏ.",
+          "- Viết đúng chữ hoa O, Ô, Ơ cỡ nhỏ; viết đúng tên riêng sông Ông Đốc và câu ứng dụng.",
+          "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, học thuộc lòng và luyện viết.",
+          "- Trách nhiệm: có ý thức tiết kiệm, bảo vệ nguồn nước sạch và giữ gìn môi trường.",
+          "4. Tích hợp:"
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài thơ Mưa, mẫu chữ hoa O, Ô, Ơ, bảng phụ câu ứng dụng, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Yêu thiên nhiên: biết yêu quý mưa, nguồn nước và vẻ đẹp của thiên nhiên.",
+          "- GDBVMT: HS có ý thức bảo vệ nguồn nước sạch để các sinh vật như cá, tôm, cây cối vùng đất Cửu Long nói riêng và mọi sinh vật nói chung có thể sinh sống.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -15210,10 +15344,12 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Mưa; Viết - Ôn chữ hoa O, Ô, Ơ - Tiết 2: Viết - Ôn chữ hoa O, Ô, Ơ",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "BÀI 2: MƯA",
+        "lessonTitle": "BÀI 2: MƯA - Tiết 1: BÀI 2: MƯA",
         "topic": "",
         "yccd": [
           "Tiết 3: Luyện tập - Mở rộng vốn từ về hiện tượng thiên nhiên. Câu cảm, câu khiến",
@@ -15222,7 +15358,14 @@
           "- Nhận biết và sử dụng được câu cảm, câu khiến trong tình huống phù hợp.",
           "- Biết đặt câu, nói câu rõ ràng, lịch sự trong trao đổi nhóm.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực làm bài tập, tìm từ, đặt câu.",
+          "- Trách nhiệm: biết lựa chọn thông tin phù hợp khi đọc, xem nội dung số về thiên nhiên.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.2.CB1a: HS biết lựa chọn sách, báo, nội dung đọc số phù hợp lứa tuổi; bước đầu nhận biết nguồn thông tin đáng tin cậy."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh/bảng bài tập SGK, thẻ từ về hiện tượng thiên nhiên, phiếu học tập nhóm.",
@@ -15230,24 +15373,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
-          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
-          "3. Phẩm chất:",
           "- Yêu thiên nhiên: biết quan tâm đến thời tiết, hiện tượng tự nhiên quanh mình.",
-          "- Chăm chỉ: tích cực làm bài tập, tìm từ, đặt câu.",
-          "- Trách nhiệm: biết lựa chọn thông tin phù hợp khi đọc, xem nội dung số về thiên nhiên.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 1.2.CB1a: HS biết lựa chọn sách, báo, nội dung đọc số phù hợp lứa tuổi; bước đầu nhận biết nguồn thông tin đáng tin cậy."
-        ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -15341,10 +15467,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: MƯA - Tiết 1: BÀI 2: MƯA",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "BÀI 2: MƯA",
+        "lessonTitle": "BÀI 2: MƯA - Tiết 1: BÀI 2: MƯA",
         "topic": "",
         "yccd": [
           "Tiết 4: Luyện tập - Viết đoạn văn kể lại diễn biến một hoạt động ngoài trời; Đọc mở rộng",
@@ -15354,14 +15482,7 @@
           "- Biết đọc lại đoạn văn, phát hiện và sửa lỗi dùng từ, đặt câu, sắp xếp ý.",
           "- Tìm đọc được bài văn, bài thơ về hiện tượng tự nhiên theo yêu cầu đọc mở rộng.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, sơ đồ gợi ý viết đoạn, bảng tiêu chí soát lỗi, phiếu đọc sách.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở bài tập/vở ô ly, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
           "3. Phẩm chất:",
@@ -15371,13 +15492,10 @@
           "4. Tích hợp:",
           "- Không tích hợp."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, sơ đồ gợi ý viết đoạn, bảng tiêu chí soát lỗi, phiếu đọc sách.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở bài tập/vở ô ly, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -15477,7 +15595,9 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: MƯA - Tiết 1: BÀI 2: MƯA",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -15486,7 +15606,7 @@
     "sourceFile": "TV TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Cóc kiện trời; Nói và nghe - Kể chuyện Cóc kiện trời",
+        "lessonTitle": "Tiết 1, 2: Đọc - Cóc kiện trời; Nói và nghe - Kể chuyện Cóc kiện trời - Tiết 1: Đọc - Cóc kiện trời",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -15495,7 +15615,14 @@
           "- Hiểu nội dung bài: Câu chuyện giải thích vì sao hễ cóc nghiến răng thì trời đổ mưa.",
           "- Dựa vào tranh minh họa, kể lại được từng đoạn câu chuyện Cóc kiện trời.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, kể chuyện, trả lời câu hỏi.",
+          "- Trách nhiệm: có ý thức tiết kiệm nước, giữ vệ sinh nguồn nước và bảo vệ môi trường.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS biết so sánh cách dự báo mưa dân gian qua hình ảnh con cóc với cách dự báo hiện nay có AI phân tích dữ liệu mây, gió, mưa; biết AI chỉ hỗ trợ, con người cần kiểm tra thông tin."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Cóc kiện trời, tranh kể chuyện, bảng phụ câu dài, phiếu học tập, video/ảnh minh họa dự báo thời tiết bằng công cụ số khi cần.",
@@ -15503,25 +15630,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
-          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
-          "3. Phẩm chất:",
           "- Yêu thiên nhiên: biết quan tâm đến mưa, hạn hán và môi trường sống.",
-          "- Chăm chỉ: tích cực luyện đọc, kể chuyện, trả lời câu hỏi.",
-          "- Trách nhiệm: có ý thức tiết kiệm nước, giữ vệ sinh nguồn nước và bảo vệ môi trường.",
-          "4. Tích hợp:",
-          "- GDBVMT: HS nhận biết hạn hán, lũ lụt có thể xảy ra do thiên nhiên và cũng do con người thiếu ý thức bảo vệ môi trường; biết tiết kiệm nước, giữ vệ sinh nguồn nước.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS biết so sánh cách dự báo mưa dân gian qua hình ảnh con cóc với cách dự báo hiện nay có AI phân tích dữ liệu mây, gió, mưa; biết AI chỉ hỗ trợ, con người cần kiểm tra thông tin."
+          "- GDBVMT: HS nhận biết hạn hán, lũ lụt có thể xảy ra do thiên nhiên và cũng do con người thiếu ý thức bảo vệ môi trường; biết tiết kiệm nước, giữ vệ sinh nguồn nước."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -15586,15 +15697,37 @@
               "- HS nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Cóc kiện trời; Nói và nghe - Kể chuyện Cóc kiện trời - Tiết 1: Đọc - Cóc kiện trời",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Cóc kiện trời; Nói và nghe - Kể chuyện Cóc kiện trời - Tiết 2: Nói và nghe - Kể chuyện Cóc kiện trời",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng từ ngữ, câu, đoạn và toàn bộ câu chuyện Cóc kiện trời; biết phân biệt lời kể và lời nhân vật.",
+          "- Nhận biết được các sự việc diễn ra trong câu chuyện; hiểu đặc điểm của nhân vật qua hành động, lời nói.",
+          "- Hiểu nội dung bài: Câu chuyện giải thích vì sao hễ cóc nghiến răng thì trời đổ mưa.",
+          "- Dựa vào tranh minh họa, kể lại được từng đoạn câu chuyện Cóc kiện trời.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, kể chuyện, trả lời câu hỏi.",
+          "- Trách nhiệm: có ý thức tiết kiệm nước, giữ vệ sinh nguồn nước và bảo vệ môi trường.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS biết so sánh cách dự báo mưa dân gian qua hình ảnh con cóc với cách dự báo hiện nay có AI phân tích dữ liệu mây, gió, mưa; biết AI chỉ hỗ trợ, con người cần kiểm tra thông tin."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc Cóc kiện trời, tranh kể chuyện, bảng phụ câu dài, phiếu học tập, video/ảnh minh họa dự báo thời tiết bằng công cụ số khi cần.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Yêu thiên nhiên: biết quan tâm đến mưa, hạn hán và môi trường sống.",
+          "- GDBVMT: HS nhận biết hạn hán, lũ lụt có thể xảy ra do thiên nhiên và cũng do con người thiếu ý thức bảo vệ môi trường; biết tiết kiệm nước, giữ vệ sinh nguồn nước.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -15683,10 +15816,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Cóc kiện trời; Nói và nghe - Kể chuyện Cóc kiện trời - Tiết 2: Nói và nghe - Kể chuyện Cóc kiện trời",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Trăng trên biển",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Trăng trên biển - Tiết 1: Viết - Nghe viết: Trăng trên biển",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -15709,15 +15844,6 @@
           "- GV: Máy tính, máy chiếu/tivi, bảng phụ đoạn viết Trăng trên biển, tranh/bảng bài tập chính tả, phiếu soát lỗi.",
           "- HS: SGK Tiếng Việt 3 tập hai, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -15813,10 +15939,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Trăng trên biển - Tiết 1: Viết - Nghe viết: Trăng trên biển",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Những cái tên đáng yêu; Đọc mở rộng",
+        "lessonTitle": "Tiết 1, 2: Đọc - Những cái tên đáng yêu; Đọc mở rộng - Tiết 1: Đọc - Những cái tên đáng yêu",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -15825,7 +15953,14 @@
           "- Hiểu nội dung bài: Mỗi sự vật có thể được gọi bằng những cái tên khác nhau tùy theo cách cảm nhận riêng của từng người.",
           "- Đọc mở rộng được bài văn, bài thơ về hiện tượng tự nhiên; ghi được một số thông tin vào phiếu đọc sách.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và thực hiện đọc mở rộng.",
+          "- Trách nhiệm: biết lựa chọn nội dung đọc phù hợp, lành mạnh.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.2.CB1a: HS biết lựa chọn sách, báo, nội dung đọc số phù hợp lứa tuổi; bước đầu nhận biết nguồn thông tin đáng tin cậy."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh truyện Những cái tên đáng yêu, phiếu đọc sách, bảng phụ câu hỏi, thẻ từ.",
@@ -15833,24 +15968,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
-          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
-          "3. Phẩm chất:",
-          "- Yêu thiên nhiên: biết quan sát, cảm nhận vẻ đẹp của sự vật xung quanh.",
-          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và thực hiện đọc mở rộng.",
-          "- Trách nhiệm: biết lựa chọn nội dung đọc phù hợp, lành mạnh.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 1.2.CB1a: HS biết lựa chọn sách, báo, nội dung đọc số phù hợp lứa tuổi; bước đầu nhận biết nguồn thông tin đáng tin cậy."
+          "- Yêu thiên nhiên: biết quan sát, cảm nhận vẻ đẹp của sự vật xung quanh."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -15911,15 +16030,36 @@
               "- HS nhắc lại ý chính của tiết 1."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Những cái tên đáng yêu; Đọc mở rộng - Tiết 1: Đọc - Những cái tên đáng yêu",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Những cái tên đáng yêu; Đọc mở rộng - Tiết 2: Đọc mở rộng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng câu chuyện tranh Những cái tên đáng yêu; biết đọc lời thoại của nhân vật với ngữ điệu phù hợp.",
+          "- Biết kết hợp đọc chữ và xem tranh để hiểu tình tiết, sự việc trong câu chuyện.",
+          "- Hiểu nội dung bài: Mỗi sự vật có thể được gọi bằng những cái tên khác nhau tùy theo cách cảm nhận riêng của từng người.",
+          "- Đọc mở rộng được bài văn, bài thơ về hiện tượng tự nhiên; ghi được một số thông tin vào phiếu đọc sách.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và thực hiện đọc mở rộng.",
+          "- Trách nhiệm: biết lựa chọn nội dung đọc phù hợp, lành mạnh.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.2.CB1a: HS biết lựa chọn sách, báo, nội dung đọc số phù hợp lứa tuổi; bước đầu nhận biết nguồn thông tin đáng tin cậy."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh truyện Những cái tên đáng yêu, phiếu đọc sách, bảng phụ câu hỏi, thẻ từ.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở bài tập, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Yêu thiên nhiên: biết quan sát, cảm nhận vẻ đẹp của sự vật xung quanh.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -15996,10 +16136,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Những cái tên đáng yêu; Đọc mở rộng - Tiết 2: Đọc mở rộng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "BÀI 4: NHỮNG CÁI TÊN ĐÁNG YÊU",
+        "lessonTitle": "BÀI 4: NHỮNG CÁI TÊN ĐÁNG YÊU - Tiết 1: BÀI 4: NHỮNG CÁI TÊN ĐÁNG YÊU",
         "topic": "",
         "yccd": [
           "Tiết 3: Luyện tập - Từ ngữ có nghĩa giống nhau. Đặt và trả lời câu hỏi: Khi nào?",
@@ -16008,14 +16150,7 @@
           "- Tìm được từ có nghĩa giống với từ cho trước.",
           "- Biết đặt và trả lời câu hỏi Khi nào? phù hợp với nội dung câu chuyện.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh/bảng bài tập SGK, thẻ từ, phiếu học tập nhóm.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở bài tập/vở ô ly, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
           "3. Phẩm chất:",
@@ -16025,13 +16160,10 @@
           "4. Tích hợp:",
           "- Tích hợp KNS: HS rèn thói quen dùng từ, đặt câu lịch sự, rõ ràng; biết lắng nghe, phản hồi phù hợp trong giao tiếp hằng ngày."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh/bảng bài tập SGK, thẻ từ, phiếu học tập nhóm.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở bài tập/vở ô ly, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -16095,10 +16227,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: NHỮNG CÁI TÊN ĐÁNG YÊU - Tiết 1: BÀI 4: NHỮNG CÁI TÊN ĐÁNG YÊU",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn kể lại hoạt động quan sát được trong tranh",
+        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn kể lại hoạt động quan sát được trong tranh - Tiết 1: Luyện tập - Viết đoạn văn kể lại hoạt động quan sát được trong tranh",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -16106,14 +16240,7 @@
           "- Biết nêu tên hoạt động, các việc cụ thể, kết quả hoạt động và nhận xét của bản thân.",
           "- Biết trao đổi bài làm trong nhóm để sửa lỗi, bổ sung ý cần thiết.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, sơ đồ gợi ý viết đoạn, bảng tiêu chí soát lỗi.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở bài tập/vở ô ly, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn khi tìm hiểu bài, kể chuyện, nói và nghe.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài học với thực tế và trình bày ý kiến rõ ràng.",
           "3. Phẩm chất:",
@@ -16123,13 +16250,10 @@
           "4. Tích hợp:",
           "- Không tích hợp."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, sơ đồ gợi ý viết đoạn, bảng tiêu chí soát lỗi.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở bài tập/vở ô ly, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................"
@@ -16204,7 +16328,9 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết đoạn văn kể lại hoạt động quan sát được trong tranh - Tiết 1: Luyện tập - Viết đoạn văn kể lại hoạt động quan sát được trong tranh",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -16213,7 +16339,7 @@
     "sourceFile": "TV TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Ngày hội rừng xanh; Nói và nghe - Rừng",
+        "lessonTitle": "Tiết 1, 2: Đọc - Ngày hội rừng xanh; Nói và nghe - Rừng - Tiết 1: Đọc - Ngày hội rừng xanh",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -16221,7 +16347,15 @@
           "- Nhận biết được các sự vật, con vật tham gia ngày hội; hiểu sự vui nhộn, kì thú của thiên nhiên rừng xanh.",
           "- Nói được những hiểu biết về rừng qua phim ảnh, sách báo hoặc nguồn thông tin phù hợp; trao đổi được cách bảo vệ rừng.",
           "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ luyện đọc, trả lời câu hỏi, hoàn thành nhiệm vụ nhóm.",
+          "- Trách nhiệm giữ gìn môi trường sống, không chặt phá rừng, không xả rác.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS biết bảo vệ rừng, tuyên truyền mọi người không chặt phá rừng để bảo vệ nơi sống của các loài động vật và môi trường sống của con người.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể hỗ trợ nhận dạng hình ảnh thiên nhiên, tên cây, loài chim qua ảnh/tiếng hót để góp phần bảo tồn rừng."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -16229,25 +16363,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
-          "- Yêu thiên nhiên, yêu quý các loài động vật và có ý thức bảo vệ rừng.",
-          "- Chăm chỉ luyện đọc, trả lời câu hỏi, hoàn thành nhiệm vụ nhóm.",
-          "- Trách nhiệm giữ gìn môi trường sống, không chặt phá rừng, không xả rác.",
-          "4. Tích hợp:",
-          "- Tích hợp GDBVMT: HS biết bảo vệ rừng, tuyên truyền mọi người không chặt phá rừng để bảo vệ nơi sống của các loài động vật và môi trường sống của con người.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể hỗ trợ nhận dạng hình ảnh thiên nhiên, tên cây, loài chim qua ảnh/tiếng hót để góp phần bảo tồn rừng."
+          "- Yêu thiên nhiên, yêu quý các loài động vật và có ý thức bảo vệ rừng."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -16332,15 +16449,36 @@
               "- HS nhắc lại nội dung chính vừa tìm hiểu."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Ngày hội rừng xanh; Nói và nghe - Rừng - Tiết 1: Đọc - Ngày hội rừng xanh",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Ngày hội rừng xanh; Nói và nghe - Rừng - Tiết 2: Nói và nghe - Rừng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, khổ thơ và toàn bài thơ Ngày hội rừng xanh; biết ngắt nhịp thơ, đọc với giọng vui tươi, rộn ràng.",
+          "- Nhận biết được các sự vật, con vật tham gia ngày hội; hiểu sự vui nhộn, kì thú của thiên nhiên rừng xanh.",
+          "- Nói được những hiểu biết về rừng qua phim ảnh, sách báo hoặc nguồn thông tin phù hợp; trao đổi được cách bảo vệ rừng.",
+          "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ luyện đọc, trả lời câu hỏi, hoàn thành nhiệm vụ nhóm.",
+          "- Trách nhiệm giữ gìn môi trường sống, không chặt phá rừng, không xả rác.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS biết bảo vệ rừng, tuyên truyền mọi người không chặt phá rừng để bảo vệ nơi sống của các loài động vật và môi trường sống của con người.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI có thể hỗ trợ nhận dạng hình ảnh thiên nhiên, tên cây, loài chim qua ảnh/tiếng hót để góp phần bảo tồn rừng."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Yêu thiên nhiên, yêu quý các loài động vật và có ý thức bảo vệ rừng.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -16449,17 +16587,26 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Ngày hội rừng xanh; Nói và nghe - Rừng - Tiết 2: Nói và nghe - Rừng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Chim chích bông",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Chim chích bông - Tiết 1: Viết - Nghe viết: Chim chích bông",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Nghe - viết đúng bài Chim chích bông; biết trình bày đoạn văn, viết hoa tên bài và chữ đầu câu.",
           "- Làm đúng bài tập chính tả phân biệt iêu/ươu hoặc ât/âc; viết đúng các địa danh trong đoạn văn.",
           "- Biết tự soát lỗi và sửa lỗi chính tả.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, cẩn thận khi viết và làm bài tập.",
+          "- Trách nhiệm giữ vở sạch, chữ rõ, hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS biết bảo vệ môi trường, đặc biệt là bảo vệ rừng và môi trường sống của các loài động vật."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -16467,24 +16614,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
           "- Yêu thiên nhiên, yêu quý các loài chim và môi trường rừng.",
-          "- Chăm chỉ, cẩn thận khi viết và làm bài tập.",
-          "- Trách nhiệm giữ vở sạch, chữ rõ, hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp:",
-          "- Tích hợp GDBVMT: HS biết bảo vệ môi trường, đặc biệt là bảo vệ rừng và môi trường sống của các loài động vật."
-        ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -16566,10 +16696,12 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Chim chích bông - Tiết 1: Viết - Nghe viết: Chim chích bông",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Cây gạo; Viết - Ôn chữ hoa P, Q",
+        "lessonTitle": "Tiết 1, 2: Đọc - Cây gạo; Viết - Ôn chữ hoa P, Q - Tiết 1: Đọc - Cây gạo",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -16577,7 +16709,14 @@
           "- Nhận biết vẻ đẹp của cây gạo theo mùa; hiểu cây gạo là một phần của cảnh sắc làng quê.",
           "- Viết đúng chữ hoa P, Q; tên riêng Phú Quốc và câu ứng dụng.",
           "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ luyện đọc, luyện viết chữ hoa.",
+          "- Trách nhiệm bảo vệ cây xanh, không bẻ cành, hái hoa.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS biết yêu thiên nhiên, bảo vệ cây xanh, nguồn nước, động vật và cảnh quan; không xả rác, không phá hoại môi trường sống."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -16585,24 +16724,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
-          "- Yêu thiên nhiên, yêu cảnh đẹp quê hương và cây xanh.",
-          "- Chăm chỉ luyện đọc, luyện viết chữ hoa.",
-          "- Trách nhiệm bảo vệ cây xanh, không bẻ cành, hái hoa.",
-          "4. Tích hợp:",
-          "- Tích hợp GDBVMT: HS biết yêu thiên nhiên, bảo vệ cây xanh, nguồn nước, động vật và cảnh quan; không xả rác, không phá hoại môi trường sống."
+          "- Yêu thiên nhiên, yêu cảnh đẹp quê hương và cây xanh."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -16675,15 +16798,35 @@
               "- HS nhắc lại nội dung chính vừa tìm hiểu."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Cây gạo; Viết - Ôn chữ hoa P, Q - Tiết 1: Đọc - Cây gạo",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Cây gạo; Viết - Ôn chữ hoa P, Q - Tiết 2: Viết - Ôn chữ hoa P, Q",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng, rõ ràng bài Cây gạo; biết ngắt nghỉ hơi, nhấn giọng ở từ ngữ gợi tả vẻ đẹp của cây gạo.",
+          "- Nhận biết vẻ đẹp của cây gạo theo mùa; hiểu cây gạo là một phần của cảnh sắc làng quê.",
+          "- Viết đúng chữ hoa P, Q; tên riêng Phú Quốc và câu ứng dụng.",
+          "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ luyện đọc, luyện viết chữ hoa.",
+          "- Trách nhiệm bảo vệ cây xanh, không bẻ cành, hái hoa.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS biết yêu thiên nhiên, bảo vệ cây xanh, nguồn nước, động vật và cảnh quan; không xả rác, không phá hoại môi trường sống."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Yêu thiên nhiên, yêu cảnh đẹp quê hương và cây xanh.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -16776,17 +16919,27 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Cây gạo; Viết - Ôn chữ hoa P, Q - Tiết 2: Viết - Ôn chữ hoa P, Q",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - So sánh. Đặt và trả lời câu hỏi Ở đâu?",
+        "lessonTitle": "Tiết 3: Luyện tập - So sánh. Đặt và trả lời câu hỏi Ở đâu? - Tiết 1: Luyện tập - So sánh. Đặt và trả lời câu hỏi Ở đâu?",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Nhận biết các sự vật được so sánh trong câu văn; nêu được đặc điểm được so sánh.",
           "- Đặt và trả lời được câu hỏi Ở đâu? dựa vào đoạn văn, tranh hoặc tình huống.",
           "- Biết hợp tác nhóm, trình bày kết quả rõ ràng.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ làm bài, mạnh dạn trình bày.",
+          "- Trách nhiệm hoàn thành nhiệm vụ nhóm.",
+          "4. Tích hợp:",
+          "- Tích hợp KNS: HS rèn thói quen dùng từ, đặt câu lịch sự, rõ ràng; biết lắng nghe, phản hồi phù hợp khi trao đổi.",
+          "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a: HS biết quan sát/tìm kiếm hình ảnh minh họa từ nguồn phù hợp lứa tuổi và dùng công cụ số đơn giản để trình bày, chia sẻ kết quả."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -16794,25 +16947,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ làm bài, mạnh dạn trình bày.",
-          "- Trách nhiệm hoàn thành nhiệm vụ nhóm.",
           "- Yêu thiên nhiên qua các hình ảnh cây cối, cảnh vật trong bài.",
-          "4. Tích hợp:",
-          "- Tích hợp KNS: HS rèn thói quen dùng từ, đặt câu lịch sự, rõ ràng; biết lắng nghe, phản hồi phù hợp khi trao đổi.",
-          "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a: HS biết quan sát/tìm kiếm hình ảnh minh họa từ nguồn phù hợp lứa tuổi và dùng công cụ số đơn giản để trình bày, chia sẻ kết quả."
-        ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -16882,17 +17017,26 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - So sánh. Đặt và trả lời câu hỏi Ở đâu? - Tiết 1: Luyện tập - So sánh. Đặt và trả lời câu hỏi Ở đâu?",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc về cảnh vật trong tranh",
+        "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc về cảnh vật trong tranh - Tiết 1: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc về cảnh vật trong tranh",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Quan sát tranh, nêu được tình cảm, cảm xúc về cảnh vật.",
           "- Viết được đoạn văn ngắn nêu tình cảm, cảm xúc về cảnh vật theo gợi ý.",
           "- Biết đọc lại, phát hiện và sửa lỗi dùng từ, đặt câu, sắp xếp ý.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ viết đoạn văn và tự sửa bài.",
+          "- Trách nhiệm hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:",
+          "- Không tích hợp."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -16900,24 +17044,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
           "- Yêu thiên nhiên, biết trân trọng cảnh vật quanh em.",
-          "- Chăm chỉ viết đoạn văn và tự sửa bài.",
-          "- Trách nhiệm hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp:",
-          "- Không tích hợp."
-        ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -16979,7 +17106,9 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc về cảnh vật trong tranh - Tiết 1: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc về cảnh vật trong tranh",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -16988,7 +17117,7 @@
     "sourceFile": "TV TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: MẶT TRỜI XANH CỦA TÔI",
+        "lessonTitle": "BÀI 7: MẶT TRỜI XANH CỦA TÔI - Tiết 1: BÀI 7: MẶT TRỜI XANH CỦA TÔI",
         "topic": "",
         "yccd": [
           "Tiết 1, 2: Đọc - Mặt trời xanh của tôi; Nói và nghe - Kể chuyện Sự tích hoa mào gà",
@@ -16997,7 +17126,15 @@
           "- Nhận biết vẻ đẹp của cây cọ, lá cọ, hoa cọ; hiểu vẻ đẹp của rừng cọ qua các giác quan.",
           "- Nghe hiểu và kể lại từng đoạn câu chuyện Sự tích hoa mào gà theo tranh.",
           "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ luyện đọc, học thuộc lòng, kể chuyện.",
+          "- Trách nhiệm có việc làm cụ thể bảo vệ cây xanh.",
+          "4. Tích hợp:",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thiên nhiên, hình thành lối sống văn minh, trách nhiệm trong giữ gìn cảnh quan xanh sạch đẹp và có việc làm cụ thể để bảo vệ cây xanh.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS hiểu AI có thể dùng dữ liệu vệ tinh/hình ảnh để theo dõi độ che phủ xanh, hỗ trợ bảo vệ rừng và phát hiện nguy cơ phá rừng sớm."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -17005,25 +17142,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
-          "- Yêu thiên nhiên, cây cối và cảnh quan xanh sạch đẹp.",
-          "- Chăm chỉ luyện đọc, học thuộc lòng, kể chuyện.",
-          "- Trách nhiệm có việc làm cụ thể bảo vệ cây xanh.",
-          "4. Tích hợp:",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thiên nhiên, hình thành lối sống văn minh, trách nhiệm trong giữ gìn cảnh quan xanh sạch đẹp và có việc làm cụ thể để bảo vệ cây xanh.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS hiểu AI có thể dùng dữ liệu vệ tinh/hình ảnh để theo dõi độ che phủ xanh, hỗ trợ bảo vệ rừng và phát hiện nguy cơ phá rừng sớm."
+          "- Yêu thiên nhiên, cây cối và cảnh quan xanh sạch đẹp."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -17108,15 +17228,37 @@
               "- HS nhắc lại nội dung chính vừa tìm hiểu."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: MẶT TRỜI XANH CỦA TÔI - Tiết 1: BÀI 7: MẶT TRỜI XANH CỦA TÔI",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "BÀI 7: MẶT TRỜI XANH CỦA TÔI (TIẾT 2 (35 phút))",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "Tiết 1, 2: Đọc - Mặt trời xanh của tôi; Nói và nghe - Kể chuyện Sự tích hoa mào gà",
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, khổ thơ và toàn bài Mặt trời xanh của tôi; biết đọc diễn cảm hình ảnh thơ.",
+          "- Nhận biết vẻ đẹp của cây cọ, lá cọ, hoa cọ; hiểu vẻ đẹp của rừng cọ qua các giác quan.",
+          "- Nghe hiểu và kể lại từng đoạn câu chuyện Sự tích hoa mào gà theo tranh.",
+          "- Phát triển năng lực ngôn ngữ, năng lực văn học.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ luyện đọc, học thuộc lòng, kể chuyện.",
+          "- Trách nhiệm có việc làm cụ thể bảo vệ cây xanh.",
+          "4. Tích hợp:",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thiên nhiên, hình thành lối sống văn minh, trách nhiệm trong giữ gìn cảnh quan xanh sạch đẹp và có việc làm cụ thể để bảo vệ cây xanh.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS hiểu AI có thể dùng dữ liệu vệ tinh/hình ảnh để theo dõi độ che phủ xanh, hỗ trợ bảo vệ rừng và phát hiện nguy cơ phá rừng sớm."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Yêu thiên nhiên, cây cối và cảnh quan xanh sạch đẹp.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -17221,17 +17363,26 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: MẶT TRỜI XANH CỦA TÔI (TIẾT 2 (35 phút))",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nhớ viết: Mặt trời xanh của tôi",
+        "lessonTitle": "Tiết 3: Viết - Nhớ viết: Mặt trời xanh của tôi - Tiết 1: Viết - Nhớ viết: Mặt trời xanh của tôi",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Nhớ - viết đúng 3 khổ thơ đầu bài Mặt trời xanh của tôi; biết trình bày bài thơ sạch đẹp.",
           "- Làm đúng bài tập chính tả phân biệt r/d/gi hoặc in/inh.",
           "- Biết tự soát lỗi và sửa lỗi chính tả.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, cẩn thận khi viết.",
+          "- Trách nhiệm giữ vở sạch, chữ rõ.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS biết yêu thiên nhiên, bảo vệ cây xanh, nguồn nước, động vật và cảnh quan; không xả rác, không phá hoại môi trường sống."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -17239,24 +17390,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
           "- Yêu thiên nhiên, bảo vệ cây xanh, cảnh quan.",
-          "- Chăm chỉ, cẩn thận khi viết.",
-          "- Trách nhiệm giữ vở sạch, chữ rõ.",
-          "4. Tích hợp:",
-          "- Tích hợp GDBVMT: HS biết yêu thiên nhiên, bảo vệ cây xanh, nguồn nước, động vật và cảnh quan; không xả rác, không phá hoại môi trường sống."
-        ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -17326,10 +17460,12 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nhớ viết: Mặt trời xanh của tôi - Tiết 1: Viết - Nhớ viết: Mặt trời xanh của tôi",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Bầy voi rừng Trường Sơn; Đọc mở rộng",
+        "lessonTitle": "Tiết 1, 2: Đọc - Bầy voi rừng Trường Sơn; Đọc mở rộng - Tiết 1: Đọc - Bầy voi rừng Trường Sơn",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -17337,7 +17473,14 @@
           "- Hiểu bài văn nói về bầy voi rừng Trường Sơn và môi trường sống của chúng.",
           "- Biết đọc mở rộng theo chủ điểm, ghi thông tin vào phiếu đọc sách.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ đọc bài, tìm thông tin trong văn bản.",
+          "- Trách nhiệm bảo vệ môi trường sống của động vật.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.1.CB1a: HS xác định thông tin cần ghi trong phiếu đọc sách và thực hiện tìm kiếm đơn giản trong môi trường số để chọn lọc bài đọc phù hợp chủ điểm."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -17345,24 +17488,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
-          "- Yêu thiên nhiên, yêu quý động vật hoang dã.",
-          "- Chăm chỉ đọc bài, tìm thông tin trong văn bản.",
-          "- Trách nhiệm bảo vệ môi trường sống của động vật.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 1.1.CB1a: HS xác định thông tin cần ghi trong phiếu đọc sách và thực hiện tìm kiếm đơn giản trong môi trường số để chọn lọc bài đọc phù hợp chủ điểm."
+          "- Yêu thiên nhiên, yêu quý động vật hoang dã."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -17435,15 +17562,35 @@
               "- HS nhắc lại nội dung chính vừa tìm hiểu."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Bầy voi rừng Trường Sơn; Đọc mở rộng - Tiết 1: Đọc - Bầy voi rừng Trường Sơn",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Bầy voi rừng Trường Sơn; Đọc mở rộng - Tiết 2: Đọc mở rộng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bài Bầy voi rừng Trường Sơn; biết nhấn giọng ở từ ngữ gợi tả.",
+          "- Hiểu bài văn nói về bầy voi rừng Trường Sơn và môi trường sống của chúng.",
+          "- Biết đọc mở rộng theo chủ điểm, ghi thông tin vào phiếu đọc sách.",
+          "- Phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ đọc bài, tìm thông tin trong văn bản.",
+          "- Trách nhiệm bảo vệ môi trường sống của động vật.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.1.CB1a: HS xác định thông tin cần ghi trong phiếu đọc sách và thực hiện tìm kiếm đơn giản trong môi trường số để chọn lọc bài đọc phù hợp chủ điểm."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Yêu thiên nhiên, yêu quý động vật hoang dã.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -17532,10 +17679,12 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Bầy voi rừng Trường Sơn; Đọc mở rộng - Tiết 2: Đọc mở rộng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN",
+        "lessonTitle": "BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN - Tiết 1: BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN",
         "topic": "",
         "yccd": [
           "Tiết 3: Luyện tập - Mở rộng vốn từ về núi rừng. Đặt và trả lời câu hỏi Khi nào?, Ở đâu?",
@@ -17543,7 +17692,14 @@
           "- Mở rộng được vốn từ về núi rừng; biết đặt và trả lời câu hỏi Khi nào?, Ở đâu?",
           "- Biết dùng từ ngữ phù hợp để nói về cảnh vật, con vật trong rừng.",
           "- Biết hợp tác, lắng nghe và trình bày kết quả nhóm.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ làm bài, hoàn thành nhiệm vụ.",
+          "- Trách nhiệm giữ gìn môi trường xanh sạch đẹp.",
+          "4. Tích hợp:",
+          "- Tích hợp GDBVMT: HS biết yêu thiên nhiên, bảo vệ cây xanh, nguồn nước, động vật và cảnh quan; không xả rác, không phá hoại môi trường sống."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -17551,24 +17707,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
           "- Yêu thiên nhiên, có ý thức bảo vệ rừng, động vật.",
-          "- Chăm chỉ làm bài, hoàn thành nhiệm vụ.",
-          "- Trách nhiệm giữ gìn môi trường xanh sạch đẹp.",
-          "4. Tích hợp:",
-          "- Tích hợp GDBVMT: HS biết yêu thiên nhiên, bảo vệ cây xanh, nguồn nước, động vật và cảnh quan; không xả rác, không phá hoại môi trường sống."
-        ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -17626,10 +17765,12 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN - Tiết 1: BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN",
+        "lessonTitle": "BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN - Tiết 1: BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN",
         "topic": "",
         "yccd": [
           "Tiết 4: Luyện tập - Viết đoạn văn nêu tình cảm, cảm xúc về cảnh vật em yêu thích",
@@ -17637,7 +17778,14 @@
           "- Nêu được tình cảm, cảm xúc về cảnh vật em yêu thích theo gợi ý.",
           "- Viết được đoạn văn ngắn rõ ý, có cảm xúc; biết đọc lại và sửa lỗi.",
           "- Biết chia sẻ bài viết với bạn và nhận xét lịch sự.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ viết bài, tự sửa lỗi.",
+          "- Trách nhiệm hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:",
+          "- Không tích hợp."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, thẻ từ và học liệu số do GV chuẩn bị.",
@@ -17645,24 +17793,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
           "- Yêu thiên nhiên, cảnh đẹp quê hương.",
-          "- Chăm chỉ viết bài, tự sửa lỗi.",
-          "- Trách nhiệm hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp:",
-          "- Không tích hợp."
-        ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -17720,7 +17851,9 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN - Tiết 1: BÀI 8: BẦY VOI RỪNG TRƯỜNG SƠN",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -17738,14 +17871,7 @@
           "- Trả lời được các câu hỏi đọc hiểu, tìm được ý chính tương ứng với mỗi đoạn; biết nêu việc làm cụ thể để thực hiện lời Bác dạy.",
           "- Nói được điều em học được từ bạn; biết trao đổi, hỏi - đáp lịch sự trong hoạt động Nói và nghe.",
           "- Phát triển năng lực ngôn ngữ, năng lực giao tiếp và năng lực cảm thụ văn bản thông tin.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc, ảnh Bác Hồ tập thể dục, bảng phụ câu dài, phiếu câu hỏi, thẻ từ, phiếu cam kết rèn luyện sức khỏe.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, bút, bảng con, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết đọc nhóm, thảo luận nhóm đôi, lắng nghe bạn, phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung bài với việc rèn luyện sức khỏe trong đời sống.",
           "3. Phẩm chất:",
@@ -17753,7 +17879,14 @@
           "- Chăm chỉ: tích cực luyện đọc, tham gia hoạt động nhóm và thực hiện kế hoạch tập luyện.",
           "- Trách nhiệm: có ý thức giữ gìn sức khỏe, vận động người thân cùng tập thể dục phù hợp.",
           "4. Tích hợp:",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết noi gương Chủ tịch Hồ Chí Minh về tinh thần tự rèn luyện, sống kỉ luật, sống lành mạnh; hiểu rèn luyện sức khỏe là trách nhiệm của mỗi người để học tập tốt, xây dựng và bảo vệ Tổ quốc.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết noi gương Chủ tịch Hồ Chí Minh về tinh thần tự rèn luyện, sống kỉ luật, sống lành mạnh; hiểu rèn luyện sức khỏe là trách nhiệm của mỗi người để học tập tốt, xây dựng và bảo vệ Tổ quốc."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh bài đọc, ảnh Bác Hồ tập thể dục, bảng phụ câu dài, phiếu câu hỏi, thẻ từ, phiếu cam kết rèn luyện sức khỏe.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, bút, bảng con, đồ dùng học tập."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ...................................................................................................................................."
         ],
         "tables": [
@@ -17953,7 +18086,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà và chuẩn bị tiết Nghe - viết."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Lời kêu gọi toàn dân tập thể dục; Nói và nghe - Học từ bạn"
       },
       {
         "lessonTitle": "Tiết 3: Viết - Nghe viết: Lời kêu gọi toàn dân tập thể dục",
@@ -18088,7 +18222,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Lời kêu gọi toàn dân tập thể dục"
       },
       {
         "lessonTitle": "Tiết 1, 2: Đọc - Quả hồng của thỏ con; Viết - Ôn chữ hoa R, S",
@@ -18307,7 +18442,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Quả hồng của thỏ con; Viết - Ôn chữ hoa R, S"
       },
       {
         "lessonTitle": "Tiết 3: Luyện tập - Từ ngữ có nghĩa giống nhau; Dấu gạch ngang; Đọc mở rộng",
@@ -18446,7 +18582,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Từ ngữ có nghĩa giống nhau; Dấu gạch ngang; Đọc mở rộng"
       },
       {
         "lessonTitle": "Tiết 4: Luyện tập - Viết 2-3 câu nêu lí do thích hoặc không thích nhân vật",
@@ -18573,7 +18710,8 @@
               "- HS ghi nhớ nhiệm vụ: Em sẽ đọc bài cho người thân nghe và làm một việc tốt như giúp bạn hoặc chia sẻ đồ dùng."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết 2-3 câu nêu lí do thích hoặc không thích nhân vật"
       }
     ]
   },
@@ -18590,7 +18728,15 @@
           "- Nhận biết trình tự sự việc, hiểu việc làm, suy nghĩ, cảm xúc của cậu bé; nêu được chi tiết thể hiện sự ân hận và sự thay đổi nhận thức của nhân vật.",
           "- Hiểu nội dung bài: Nếu bạn yêu quý thiên nhiên thì thiên nhiên cũng sẽ yêu quý bạn; biết liên hệ với việc bảo vệ chim chóc, cây xanh quanh nhà, quanh trường.",
           "- Nghe hiểu, dựa vào tranh kể lại được từng đoạn câu chuyện Cậu bé đánh giày; nêu được ý nghĩa của việc giữ lời hứa.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, đặt câu hỏi và phản hồi lịch sự khi đọc, nói, kể chuyện.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ việc làm của nhân vật với tình huống thực tế, đề xuất cách ứng xử đúng khi thấy loài vật cần được bảo vệ.",
+          "3. Phẩm chất:",
+          "- Yêu thiên nhiên, sống nhân ái với loài vật, biết bảo vệ môi trường sống quanh mình.",
+          "- Chăm chỉ đọc bài, kể chuyện, hoàn thành nhiệm vụ học tập.",
+          "4. Tích hợp:",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thiên nhiên, yêu quê hương đất nước từ những việc gần gũi; biết xin lỗi, sửa lỗi, giữ lời hứa; sống xanh, sống nhân ái với muôn loài.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết công cụ AI có thể hỗ trợ nhận diện loài chim qua hình ảnh/âm thanh như Google Lens hoặc Merlin Bird ID; biết chỉ quan sát trên thiết bị của GV, không tự chụp ảnh người/nhà ở/địa chỉ, không nhập thông tin cá nhân và phải kiểm chứng kết quả với GV/người lớn."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu học tập, tranh kể chuyện, thiết bị GV có cài/sẵn trình chiếu Google Lens hoặc Merlin Bird ID để minh họa nhận diện chim khi cần.",
@@ -18598,15 +18744,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, đặt câu hỏi và phản hồi lịch sự khi đọc, nói, kể chuyện.",
-          "- Giải quyết vấn đề và sáng tạo: biết liên hệ việc làm của nhân vật với tình huống thực tế, đề xuất cách ứng xử đúng khi thấy loài vật cần được bảo vệ.",
-          "3. Phẩm chất:",
-          "- Yêu thiên nhiên, sống nhân ái với loài vật, biết bảo vệ môi trường sống quanh mình.",
           "- Biết nhận lỗi, xin lỗi, sửa lỗi; biết giữ lời hứa và tôn trọng người khác.",
-          "- Chăm chỉ đọc bài, kể chuyện, hoàn thành nhiệm vụ học tập.",
-          "4. Tích hợp:",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thiên nhiên, yêu quê hương đất nước từ những việc gần gũi; biết xin lỗi, sửa lỗi, giữ lời hứa; sống xanh, sống nhân ái với muôn loài.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết công cụ AI có thể hỗ trợ nhận diện loài chim qua hình ảnh/âm thanh như Google Lens hoặc Merlin Bird ID; biết chỉ quan sát trên thiết bị của GV, không tự chụp ảnh người/nhà ở/địa chỉ, không nhập thông tin cá nhân và phải kiểm chứng kết quả với GV/người lớn.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -18778,7 +18916,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Chuyện bên cửa sổ; Nói và nghe - Kể chuyện Cậu bé đánh giày"
       },
       {
         "lessonTitle": "Tiết 3: Viết - Nghe viết: Chuyện bên cửa sổ",
@@ -18873,7 +19012,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Chuyện bên cửa sổ"
       },
       {
         "lessonTitle": "Tiết 1, 2: Đọc - Tay trái và tay phải; Đọc mở rộng",
@@ -18883,14 +19023,7 @@
           "- Đọc đúng văn bản Tay trái và tay phải; biết ngắt nghỉ hơi, đọc lời nhân vật phù hợp với cảm xúc.",
           "- Hiểu thông điệp: mỗi người có vai trò riêng, cần hợp tác, tôn trọng nhau và biết xin lỗi, sửa lỗi khi làm sai.",
           "- Biết đọc mở rộng theo chủ điểm, ghi thông tin vào phiếu đọc sách và chia sẻ điều học được.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu đọc sách, thẻ từ, thiết bị GV minh họa tìm bài đọc phù hợp bằng công cụ số/AI khi cần.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm, lắng nghe, tôn trọng vai trò của bạn trong nhiệm vụ chung.",
           "- Giải quyết vấn đề và sáng tạo: biết vận dụng bài học hợp tác vào tình huống học tập, sinh hoạt.",
           "3. Phẩm chất:",
@@ -18898,8 +19031,15 @@
           "- Chăm chỉ đọc bài và chia sẻ.",
           "- Trách nhiệm trong làm việc chung, biết nhận phần việc phù hợp.",
           "4. Tích hợp:",
+          "- Tích hợp NLS/AI hỗ trợ đọc mở rộng: HS biết có thể dùng công cụ như Google Tìm kiếm an toàn, Google Lens hoặc Gemini/ChatGPT dưới sự hướng dẫn của GV để gợi ý sách/bài đọc phù hợp, nhưng phải chọn nguồn đáng tin cậy, không sao chép, không nhập thông tin cá nhân."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK, bảng phụ câu dài, phiếu đọc sách, thẻ từ, thiết bị GV minh họa tìm bài đọc phù hợp bằng công cụ số/AI khi cần.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết đoàn kết, hợp tác; tôn trọng vai trò của mỗi người trong tập thể; biết nhận lỗi, xin lỗi và sửa lỗi.",
-          "- Tích hợp NLS/AI hỗ trợ đọc mở rộng: HS biết có thể dùng công cụ như Google Tìm kiếm an toàn, Google Lens hoặc Gemini/ChatGPT dưới sự hướng dẫn của GV để gợi ý sách/bài đọc phù hợp, nhưng phải chọn nguồn đáng tin cậy, không sao chép, không nhập thông tin cá nhân.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -19043,7 +19183,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Tay trái và tay phải; Đọc mở rộng"
       },
       {
         "lessonTitle": "Tiết 3: Luyện tập - Dấu ngoặc kép. Đặt và trả lời câu hỏi Bằng gì?",
@@ -19142,7 +19283,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Dấu ngoặc kép. Đặt và trả lời câu hỏi Bằng gì?"
       },
       {
         "lessonTitle": "BÀI 12: TAY TRÁI VÀ TAY PHẢI",
@@ -19247,7 +19389,8 @@
               "- HS lắng nghe, hoàn thiện bài ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: TAY TRÁI VÀ TAY PHẢI"
       }
     ]
   },
@@ -19264,7 +19407,14 @@
           "- Nắm được diễn biến sự việc, suy nghĩ của hai anh em mèo và bài học: không ỷ lại, phải có trách nhiệm trong việc chung.",
           "- Nói và nghe theo chủ điểm Cùng vui làm việc; nêu được việc làm trong tranh, biết trao đổi về cách làm việc nhóm hiệu quả.",
           "- Phát triển năng lực ngôn ngữ qua đọc thơ, hỏi đáp, trình bày ý kiến, nhận xét và vận dụng bài học vào đời sống.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Trách nhiệm: tích cực tham gia việc chung, không ỷ lại vào bạn bè hoặc người thân.",
+          "- Chăm chỉ: luyện đọc, trả lời câu hỏi, hoàn thành nhiệm vụ nhóm.",
+          "- Nhân ái: biết hợp tác, giúp đỡ bạn và góp ý nhẹ nhàng khi làm việc chung.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Mèo đi câu cá và phần Nói và nghe, bảng phụ khổ thơ cần luyện đọc, phiếu thảo luận nhóm, thẻ tình huống an toàn khi ở gần nơi có nước.",
@@ -19272,13 +19422,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
-          "- Trách nhiệm: tích cực tham gia việc chung, không ỷ lại vào bạn bè hoặc người thân.",
-          "- Chăm chỉ: luyện đọc, trả lời câu hỏi, hoàn thành nhiệm vụ nhóm.",
-          "- Nhân ái: biết hợp tác, giúp đỡ bạn và góp ý nhẹ nhàng khi làm việc chung.",
-          "4. Tích hợp:",
           "- An toàn phòng chống đuối nước: HS không tự ý đi câu cá ở sông, hồ, ao; tuân thủ quy định an toàn khi ở gần nơi có nước; biết gọi người lớn hỗ trợ khi có nguy hiểm.",
           "- ............................................................................................................................"
         ],
@@ -19479,7 +19622,8 @@
               "- HS lắng nghe, tự đánh giá thái độ học tập của mình."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Mèo đi câu cá; Nói và nghe - Cùng vui làm việc"
       },
       {
         "lessonTitle": "Tiết 3: Viết - Nghe viết: Bài học của gấu",
@@ -19489,14 +19633,7 @@
           "- Nghe - viết đúng chính tả câu chuyện Bài học của gấu trong khoảng 15 phút; trình bày đúng hình thức đoạn văn/câu chuyện ngắn.",
           "- Làm đúng bài tập chính tả phân biệt s/x hoặc v/d; biết đọc lại để kiểm tra nghĩa.",
           "- Biết tự soát lỗi, sửa lỗi và rút kinh nghiệm khi được góp ý.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh SGK phần Viết, bảng phụ đoạn nghe - viết, phiếu luyện chính tả s/x hoặc v/d, bảng tiêu chí soát lỗi.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở ô li, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
           "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
           "3. Phẩm chất:",
@@ -19504,7 +19641,14 @@
           "- Trung thực khi tự soát lỗi, không giấu lỗi sai.",
           "- Trách nhiệm hoàn thành bài viết, biết lắng nghe lời khuyên đúng.",
           "4. Tích hợp:",
-          "- Tích hợp đạo đức, lối sống: HS biết rút ra bài học từ câu chuyện, không chủ quan, biết lắng nghe lời khuyên đúng và có trách nhiệm sửa lỗi.",
+          "- Tích hợp đạo đức, lối sống: HS biết rút ra bài học từ câu chuyện, không chủ quan, biết lắng nghe lời khuyên đúng và có trách nhiệm sửa lỗi."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK phần Viết, bảng phụ đoạn nghe - viết, phiếu luyện chính tả s/x hoặc v/d, bảng tiêu chí soát lỗi.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ô li, bảng con, bút chì, bút mực."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -19601,7 +19745,8 @@
               "- HS lắng nghe, tự đánh giá bài viết của mình."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Bài học của gấu"
       },
       {
         "lessonTitle": "Tiết 1, 2: Đọc - Học nghề; Viết - Ôn chữ hoa T, U, Ư",
@@ -19612,7 +19757,12 @@
           "- Hiểu thông điệp: muốn làm tốt một nghề cần yêu thích, quan sát, học hỏi, luyện tập và không ngại khó.",
           "- Ôn viết đúng chữ hoa T, U, Ư; viết đúng tên riêng Út Trà Ôn và câu ứng dụng.",
           "- Chia sẻ được ước mơ nghề nghiệp phù hợp lứa tuổi, biết tôn trọng ước mơ của bạn.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ học tập, rèn luyện để thực hiện ước mơ.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Học nghề, mẫu chữ hoa T, U, Ư, bảng phụ câu ứng dụng, phiếu tìm hiểu nhân vật và phiếu luyện viết.",
@@ -19620,13 +19770,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
           "- Trân trọng người lao động và các nghề nghiệp chân chính.",
-          "- Chăm chỉ học tập, rèn luyện để thực hiện ước mơ.",
           "- Tôn trọng ước mơ của bạn, không chê bai nghề nghiệp hoặc hoàn cảnh của người khác.",
-          "4. Tích hợp:",
           "- Quyền con người: HS hiểu trẻ em có quyền được học tập, phát triển bản thân, được bày tỏ và tôn trọng ước mơ nghề nghiệp phù hợp lứa tuổi; biết bình đẳng, không phân biệt đối xử với nghề nghiệp.",
           "- ............................................................................................................................"
         ],
@@ -19808,7 +19953,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ cố gắng học tập, rèn luyện mỗi ngày."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Học nghề; Viết - Ôn chữ hoa T, U, Ư"
       },
       {
         "lessonTitle": "Tiết 3: Luyện tập - Dấu gạch ngang. Dấu ngoặc kép",
@@ -19818,14 +19964,7 @@
           "- Nhận biết được dấu gạch ngang, dấu ngoặc kép trong đoạn văn.",
           "- Biết sử dụng dấu câu để ghi lời nói trực tiếp của nhân vật hoặc lời được trích dẫn.",
           "- Rèn kĩ năng trao đổi, nhận xét bài làm của bạn rõ ràng, lịch sự.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh SGK phần Luyện tập, bảng phụ đoạn văn, phiếu bài tập dấu câu, thẻ câu hội thoại.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
           "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
           "3. Phẩm chất:",
@@ -19833,7 +19972,14 @@
           "- Chăm chỉ làm bài, sửa bài theo góp ý.",
           "- Tôn trọng người nghe, người nói trong giao tiếp.",
           "4. Tích hợp:",
-          "- Tích hợp đạo đức, lối sống/KNS: HS biết giao tiếp lịch sự, ghi lời nói của người khác rõ ràng, trung thực; tôn trọng ý kiến và ước mơ của bạn.",
+          "- Tích hợp đạo đức, lối sống/KNS: HS biết giao tiếp lịch sự, ghi lời nói của người khác rõ ràng, trung thực; tôn trọng ý kiến và ước mơ của bạn."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK phần Luyện tập, bảng phụ đoạn văn, phiếu bài tập dấu câu, thẻ câu hội thoại.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -19922,7 +20068,8 @@
               "- HS lắng nghe, ghi nhớ cách sử dụng dấu gạch ngang và dấu ngoặc kép."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Dấu gạch ngang. Dấu ngoặc kép"
       },
       {
         "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn về ước mơ của em",
@@ -19932,7 +20079,14 @@
           "- Nói được ước mơ nghề nghiệp của bản thân và lí do em yêu thích nghề đó.",
           "- Viết được đoạn văn ngắn 5 - 7 câu về ước mơ, nêu việc cần cố gắng từ bây giờ.",
           "- Biết đọc lại, sửa lỗi và chia sẻ bài viết với bạn bằng lời nhận xét lịch sự.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ viết bài, tự sửa lỗi để đoạn văn rõ ý.",
+          "- Có trách nhiệm học tập, rèn luyện để thực hiện ước mơ.",
+          "4. Tích hợp:",
+          "- Tích hợp Quyền con người: HS hiểu trẻ em có quyền được học tập, phát triển bản thân, được bày tỏ và tôn trọng ước mơ nghề nghiệp phù hợp lứa tuổi."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK phần Luyện viết, sơ đồ gợi ý viết đoạn văn, bảng tiêu chí nhận xét đoạn văn, phiếu nháp tìm ý.",
@@ -19940,14 +20094,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
           "- Tôn trọng ước mơ của mình và của bạn.",
-          "- Chăm chỉ viết bài, tự sửa lỗi để đoạn văn rõ ý.",
-          "- Có trách nhiệm học tập, rèn luyện để thực hiện ước mơ.",
-          "4. Tích hợp:",
-          "- Tích hợp Quyền con người: HS hiểu trẻ em có quyền được học tập, phát triển bản thân, được bày tỏ và tôn trọng ước mơ nghề nghiệp phù hợp lứa tuổi.",
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -20036,7 +20183,8 @@
               "- HS lắng nghe, tự nhắc mình tôn trọng ước mơ của bản thân và của bạn."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết đoạn văn về ước mơ của em"
       }
     ]
   },
@@ -20055,7 +20203,13 @@
           "- Hiểu nội dung bài: Ngày đẹp là ngày mỗi người làm được nhiều việc tốt, sống có ích và biết quan tâm đến môi trường xung quanh.",
           "- Dựa vào tranh minh họa, kể lại được từng đoạn câu chuyện Ngày như thế nào là đẹp? bằng lời của mình.",
           "- Phát triển năng lực ngôn ngữ qua đọc, hỏi đáp, đóng vai, kể chuyện và liên hệ thực tế.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
+          "3. Phẩm chất:",
+          "- Nhân ái: biết làm việc tốt, giúp đỡ người thân, bạn bè và những người xung quanh.",
+          "- Chăm chỉ, trách nhiệm: tích cực đọc bài, trả lời câu hỏi, thực hiện việc tốt phù hợp lứa tuổi.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu/tivi, tranh minh họa bài đọc và tranh kể chuyện, bảng phụ câu dài/lời thoại, phiếu thảo luận nhóm, thẻ việc nên làm/không nên làm để bảo vệ môi trường.",
@@ -20063,13 +20217,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
-          "3. Phẩm chất:",
           "- Yêu thiên nhiên: biết quan sát cảnh vật, yêu quý các loài vật nhỏ và môi trường sống xanh - sạch - đẹp.",
-          "- Nhân ái: biết làm việc tốt, giúp đỡ người thân, bạn bè và những người xung quanh.",
-          "- Chăm chỉ, trách nhiệm: tích cực đọc bài, trả lời câu hỏi, thực hiện việc tốt phù hợp lứa tuổi.",
-          "4. Tích hợp:",
           "- GDBVMT: HS nhận biết những việc nên làm và không nên làm để bảo vệ môi trường; biết chọn việc làm nhỏ hằng ngày như nhặt rác, chăm cây, tiết kiệm nước, không bẻ cành, không giẫm lên cỏ để môi trường xanh - sạch - đẹp.",
           "- ............................................................................................................................"
         ],
@@ -20282,7 +20430,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: NGÀY NHƯ THẾ NÀO LÀ ĐẸP?"
       },
       {
         "lessonTitle": "Tiết 3: Viết - Nghe viết: Ngày như thế nào là đẹp?",
@@ -20293,14 +20442,7 @@
           "- Làm đúng bài tập chính tả phân biệt r/d/gi hoặc dấu hỏi/dấu ngã theo yêu cầu.",
           "- Biết tự soát lỗi, sửa lỗi chính tả và trình bày bài sạch đẹp.",
           "- Phát triển năng lực ngôn ngữ qua nghe - viết, làm bài tập, đặt câu và vận dụng.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, bảng phụ đoạn chính tả, tranh/bảng bài tập chính tả r/d/gi hoặc dấu hỏi/dấu ngã, phiếu soát lỗi.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở ô li, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
           "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
           "3. Phẩm chất:",
@@ -20308,7 +20450,14 @@
           "- Trung thực: tự soát lỗi, sửa lỗi, không giấu lỗi, không chép bài bạn.",
           "- Trách nhiệm: giữ gìn vở sạch, chữ rõ, viết cẩn thận.",
           "4. Tích hợp:",
-          "- Tích hợp đạo đức, lối sống: HS rèn tính cẩn thận, trung thực khi viết; biết tự soát lỗi, sửa lỗi và giữ gìn sự trong sáng của tiếng Việt, trình bày bài sạch đẹp.",
+          "- Tích hợp đạo đức, lối sống: HS rèn tính cẩn thận, trung thực khi viết; biết tự soát lỗi, sửa lỗi và giữ gìn sự trong sáng của tiếng Việt, trình bày bài sạch đẹp."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, bảng phụ đoạn chính tả, tranh/bảng bài tập chính tả r/d/gi hoặc dấu hỏi/dấu ngã, phiếu soát lỗi.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ô li, bảng con, bút chì, bút mực."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -20421,7 +20570,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Ngày như thế nào là đẹp?"
       },
       {
         "lessonTitle": "Tiết 1, 2: Đọc - A lô, tớ đây; Đọc mở rộng",
@@ -20432,14 +20582,7 @@
           "- Hiểu nội dung bài: Trong giao tiếp cần chú ý cách nói năng phù hợp, không làm ảnh hưởng đến người xung quanh.",
           "- Đọc mở rộng được câu chuyện, bài văn, bài thơ về bài học ứng xử, cách giao tiếp với người xung quanh; ghi được phiếu đọc sách.",
           "- Phát triển năng lực ngôn ngữ qua đọc, đóng vai gọi điện, chia sẻ bài đọc và vận dụng giao tiếp lịch sự.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh minh họa bài đọc, bảng phụ câu dài/lời thoại, phiếu đọc sách, thiết bị của GV có ứng dụng Google Translate/Microsoft Translator/Gemini để minh họa dịch một câu chào.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
           "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
           "3. Phẩm chất:",
@@ -20447,7 +20590,14 @@
           "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi, hoàn thành phiếu đọc sách.",
           "- Trách nhiệm: biết sử dụng lời nói, âm lượng phù hợp trong giao tiếp trực tiếp và qua điện thoại.",
           "4. Tích hợp:",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS hiểu AI giúp vượt qua rào cản ngôn ngữ khi giao tiếp; biết quan sát cách trợ lý ảo/công cụ dịch như Google Translate, Microsoft Translator, Google Assistant hoặc Gemini dịch một câu chào đơn giản; biết AI chỉ hỗ trợ giao tiếp, cần kiểm tra lại, dùng lời lịch sự và không nhập thông tin cá nhân.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS hiểu AI giúp vượt qua rào cản ngôn ngữ khi giao tiếp; biết quan sát cách trợ lý ảo/công cụ dịch như Google Translate, Microsoft Translator, Google Assistant hoặc Gemini dịch một câu chào đơn giản; biết AI chỉ hỗ trợ giao tiếp, cần kiểm tra lại, dùng lời lịch sự và không nhập thông tin cá nhân."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh minh họa bài đọc, bảng phụ câu dài/lời thoại, phiếu đọc sách, thiết bị của GV có ứng dụng Google Translate/Microsoft Translator/Gemini để minh họa dịch một câu chào.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bảng con, bút chì, bút mực."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -20651,7 +20801,8 @@
               "- HS lắng nghe, ghi nhớ cách giao tiếp lịch sự và an toàn."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - A lô, tớ đây; Đọc mở rộng"
       },
       {
         "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ về giao tiếp. Câu kể, câu hỏi",
@@ -20662,14 +20813,7 @@
           "- Đặt được câu với từ ngữ tìm được; phân biệt được câu kể và câu hỏi dựa vào dấu câu, từ hỏi và mục đích nói.",
           "- Nói được câu kể, câu hỏi trong tình huống giao tiếp cụ thể.",
           "- Phát triển năng lực ngôn ngữ qua hoạt động luyện từ, đặt câu, hỏi - đáp và nhận xét.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh SGK phần luyện tập, thẻ từ, bảng phụ câu kể/câu hỏi, phiếu nhóm.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, bảng con, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
           "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
           "3. Phẩm chất:",
@@ -20677,7 +20821,14 @@
           "- Chăm chỉ: tích cực làm bài, đặt câu, sửa câu theo góp ý.",
           "- Trách nhiệm: biết nói rõ ràng, lắng nghe và phản hồi phù hợp trong giao tiếp.",
           "4. Tích hợp:",
-          "- Tích hợp KNS: HS biết lựa chọn cách giao tiếp phù hợp trong từng tình huống; dùng câu kể, câu hỏi lịch sự, nói rõ ràng, lắng nghe và phản hồi đúng mực.",
+          "- Tích hợp KNS: HS biết lựa chọn cách giao tiếp phù hợp trong từng tình huống; dùng câu kể, câu hỏi lịch sự, nói rõ ràng, lắng nghe và phản hồi đúng mực."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK phần luyện tập, thẻ từ, bảng phụ câu kể/câu hỏi, phiếu nhóm.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, bảng con, bút chì, bút mực."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -20793,7 +20944,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Mở rộng vốn từ về giao tiếp. Câu kể, câu hỏi"
       },
       {
         "lessonTitle": "Tiết 4: Luyện tập - Viết thư điện tử",
@@ -20804,14 +20956,7 @@
           "- Viết được thư điện tử/lời nhắn ngắn gửi bạn bè đúng hình thức, thể hiện tình cảm phù hợp.",
           "- Biết đọc lại, sửa lỗi nội dung, câu chữ, lời chào, lời kết và thông tin người nhận.",
           "- Hình thành và phát triển năng lực ngôn ngữ giao tiếp trong môi trường số.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, mẫu thư điện tử trong SGK, bảng so sánh thư tay và thư điện tử, sơ đồ các bước viết thư điện tử, phiếu gợi ý viết thư.",
-          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, phản hồi lịch sự khi đọc, nói và viết.",
           "- Giải quyết vấn đề và sáng tạo: biết vận dụng kiến thức vào tình huống học tập và cuộc sống gần gũi.",
           "3. Phẩm chất:",
@@ -20819,7 +20964,14 @@
           "- Chăm chỉ: tích cực viết, sửa bài, hoàn thành nhiệm vụ.",
           "- Trách nhiệm: biết sử dụng thư điện tử an toàn, đúng người nhận, đúng mục đích.",
           "4. Tích hợp:",
-          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS biết viết thư điện tử/lời nhắn lịch sự, đúng người nhận, đúng mục đích; biết sử dụng dịch vụ số đơn giản để giao tiếp an toàn, không chia sẻ địa chỉ nhà, số điện thoại, mật khẩu, hình ảnh riêng tư hoặc thông tin cá nhân khi gửi thư điện tử.",
+          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS biết viết thư điện tử/lời nhắn lịch sự, đúng người nhận, đúng mục đích; biết sử dụng dịch vụ số đơn giản để giao tiếp an toàn, không chia sẻ địa chỉ nhà, số điện thoại, mật khẩu, hình ảnh riêng tư hoặc thông tin cá nhân khi gửi thư điện tử."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, mẫu thư điện tử trong SGK, bảng so sánh thư tay và thư điện tử, sơ đồ các bước viết thư điện tử, phiếu gợi ý viết thư.",
+          "- HS: SGK Tiếng Việt 3 tập hai, vở ghi, vở ô li, bút chì, bút mực."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "- ............................................................................................................................"
         ],
         "tables": [
@@ -20951,7 +21103,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết thư điện tử"
       }
     ]
   },
@@ -20969,21 +21122,27 @@
           "- Biết chia sẻ bài đọc yêu thích, nêu được nội dung, chi tiết đáng nhớ và điều bản thân học được sau khi đọc.",
           "- Phát triển năng lực ngôn ngữ thông qua nghe, nói, đọc, viết trong các hoạt động ôn tập.",
           "2. Năng lực chung.",
-          "1. Năng lực đặc thù.",
           "- Ôn đọc thuộc một số khổ thơ, bài thơ đã học; trả lời được câu hỏi về điều yêu thích trong bài.",
           "- Phân biệt được từ có nghĩa giống nhau, từ có nghĩa trái ngược nhau; tìm được từ ngữ chỉ sự vật, hoạt động, đặc điểm.",
           "- Nhận biết được câu kể, câu hỏi, câu cảm, câu khiến; nhận ra công dụng của dấu gạch ngang, dấu chấm hỏi và biết đặt câu phù hợp tranh minh họa.",
-          "2. Năng lực chung.",
-          "1. Năng lực đặc thù.",
           "- Đọc và hiểu được nội dung văn bản “Đường về”; biết xác định ý chính của từng đoạn.",
           "- Nêu được cảnh vật hoặc chi tiết mình yêu thích trong bài; bước đầu viết được đoạn văn ngắn nêu tình cảm, cảm xúc về cảnh vật trong bài đã học.",
           "- Phát triển năng lực ngôn ngữ thông qua hoạt động đọc hiểu và viết đoạn văn.",
-          "2. Năng lực chung.",
-          "1. Năng lực đặc thù.",
           "- Đọc thành tiếng bài thơ “Gió”, trả lời được câu hỏi về nội dung và hình ảnh trong bài thơ.",
           "- Đọc hiểu câu chuyện “Chú sẻ và bông hoa bằng lăng”; trả lời được câu hỏi, xác định kiểu câu và tìm từ ngữ chỉ hoạt động.",
           "- Nghe – viết đúng 3 khổ thơ đầu của bài “Gió”; viết được đoạn văn ngắn về một nhân vật yêu thích trong câu chuyện đã được nghe kể.",
-          "2. Năng lực chung."
+          "- Năng lực giao tiếp và hợp tác: trao đổi với bạn, trình bày ý kiến rõ ràng, biết nhận xét và phản hồi phù hợp.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, đặt câu, viết đoạn văn và xử lí tình huống thực tế.",
+          "3. Phẩm chất.",
+          "- Yêu nước: thêm yêu quê hương, cảnh đẹp đất nước, trân trọng vẻ đẹp của tiếng Việt qua các bài đọc đã học.",
+          "- Nhân ái: biết yêu quý con người, con vật, cây cối; biết cảm thông với nhân vật và cư xử thân thiện với bạn bè.",
+          "- Chăm chỉ: tích cực đọc bài, làm bài tập, luyện viết và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: chuẩn bị bài, giữ trật tự, có ý thức kiểm tra lại thông tin trước khi sử dụng và trình bày bài sạch đẹp.",
+          "4. Tích hợp.",
+          "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a (Tiết 1): HS biết quan sát, lựa chọn thông tin/hình ảnh minh họa bài học từ nguồn phù hợp lứa tuổi; biết dùng công cụ số đơn giản dưới sự hướng dẫn của GV để trình bày, chia sẻ kết quả đọc – nói – nghe.",
+          "- Tích hợp AI 3.A3.1 (theo định hướng ôn tập tuần 27): HS biết AI có thể đưa ra thông tin chưa chính xác; khi ôn tập phải đối chiếu lại với SGK, vở ghi, lời GV hoặc nguồn thông tin chính thống trước khi tin và sử dụng.",
+          "- Tích hợp AI 3.A3.1: Củng cố kĩ năng kiểm tra thông tin khi ôn tập tiếng Việt; biết đối chiếu câu trả lời do AI gợi ý với SGK, vở ghi và nhận xét của GV trước khi sử dụng.",
+          "- Tích hợp AI 3.A3.1: HS tiếp tục được nhắc nhở rằng AI có thể hỗ trợ gợi ý ý tưởng hoặc câu hỏi ôn tập nhưng không thay thế việc đọc kĩ văn bản, nghe GV hướng dẫn và tự suy nghĩ để trả lời."
         ],
         "dodung": [
           "- Kế hoạch bài dạy, SGK, VBT, máy tính/máy chiếu (nếu có), phiếu học tập, bảng phụ.",
@@ -21001,61 +21160,21 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giao tiếp và hợp tác: trao đổi với bạn, trình bày ý kiến rõ ràng, biết nhận xét và phản hồi phù hợp.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, đặt câu, viết đoạn văn và xử lí tình huống thực tế.",
-          "3. Phẩm chất.",
-          "- Yêu nước: thêm yêu quê hương, cảnh đẹp đất nước, trân trọng vẻ đẹp của tiếng Việt qua các bài đọc đã học.",
-          "- Nhân ái: biết yêu quý con người, con vật, cây cối; biết cảm thông với nhân vật và cư xử thân thiện với bạn bè.",
-          "- Chăm chỉ: tích cực đọc bài, làm bài tập, luyện viết và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: chuẩn bị bài, giữ trật tự, có ý thức kiểm tra lại thông tin trước khi sử dụng và trình bày bài sạch đẹp.",
-          "4. Tích hợp.",
-          "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a (Tiết 1): HS biết quan sát, lựa chọn thông tin/hình ảnh minh họa bài học từ nguồn phù hợp lứa tuổi; biết dùng công cụ số đơn giản dưới sự hướng dẫn của GV để trình bày, chia sẻ kết quả đọc – nói – nghe.",
-          "- Tích hợp AI 3.A3.1 (theo định hướng ôn tập tuần 27): HS biết AI có thể đưa ra thông tin chưa chính xác; khi ôn tập phải đối chiếu lại với SGK, vở ghi, lời GV hoặc nguồn thông tin chính thống trước khi tin và sử dụng.",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
-          "TUẦN 27",
           "TIẾNG VIỆT",
           "ÔN TẬP GIỮA HỌC KÌ II (Tiết 3 + 4)",
-          "- Năng lực giao tiếp và hợp tác: trao đổi với bạn, trình bày ý kiến rõ ràng, biết nhận xét và phản hồi phù hợp.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, đặt câu, viết đoạn văn và xử lí tình huống thực tế.",
-          "3. Phẩm chất.",
-          "- Yêu nước: thêm yêu quê hương, cảnh đẹp đất nước, trân trọng vẻ đẹp của tiếng Việt qua các bài đọc đã học.",
-          "- Nhân ái: biết yêu quý con người, con vật, cây cối; biết cảm thông với nhân vật và cư xử thân thiện với bạn bè.",
-          "- Chăm chỉ: tích cực đọc bài, làm bài tập, luyện viết và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: chuẩn bị bài, giữ trật tự, có ý thức kiểm tra lại thông tin trước khi sử dụng và trình bày bài sạch đẹp.",
-          "4. Tích hợp.",
-          "- Tích hợp AI 3.A3.1: Củng cố kĩ năng kiểm tra thông tin khi ôn tập tiếng Việt; biết đối chiếu câu trả lời do AI gợi ý với SGK, vở ghi và nhận xét của GV trước khi sử dụng.",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
-          "TUẦN 27",
           "TIẾNG VIỆT",
           "ÔN TẬP GIỮA HỌC KÌ II (Tiết 5)",
-          "- Năng lực giao tiếp và hợp tác: trao đổi với bạn, trình bày ý kiến rõ ràng, biết nhận xét và phản hồi phù hợp.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, đặt câu, viết đoạn văn và xử lí tình huống thực tế.",
-          "3. Phẩm chất.",
-          "- Yêu nước: thêm yêu quê hương, cảnh đẹp đất nước, trân trọng vẻ đẹp của tiếng Việt qua các bài đọc đã học.",
-          "- Nhân ái: biết yêu quý con người, con vật, cây cối; biết cảm thông với nhân vật và cư xử thân thiện với bạn bè.",
-          "- Chăm chỉ: tích cực đọc bài, làm bài tập, luyện viết và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: chuẩn bị bài, giữ trật tự, có ý thức kiểm tra lại thông tin trước khi sử dụng và trình bày bài sạch đẹp.",
-          "4. Tích hợp.",
-          "- Củng cố định hướng AI 3.A3.1 của tuần ôn tập: HS biết lời gợi ý của công cụ số chỉ mang tính tham khảo; khi nói hoặc viết vẫn phải dùng hiểu biết của bản thân và đối chiếu với nội dung văn bản.",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
-          "TUẦN 27",
           "TIẾNG VIỆT",
           "ÔN TẬP GIỮA HỌC KÌ II (Tiết 6 + 7)",
-          "- Năng lực giao tiếp và hợp tác: trao đổi với bạn, trình bày ý kiến rõ ràng, biết nhận xét và phản hồi phù hợp.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: vận dụng kiến thức đã học để trả lời câu hỏi, đặt câu, viết đoạn văn và xử lí tình huống thực tế.",
-          "3. Phẩm chất.",
-          "- Yêu nước: thêm yêu quê hương, cảnh đẹp đất nước, trân trọng vẻ đẹp của tiếng Việt qua các bài đọc đã học.",
-          "- Nhân ái: biết yêu quý con người, con vật, cây cối; biết cảm thông với nhân vật và cư xử thân thiện với bạn bè.",
-          "- Chăm chỉ: tích cực đọc bài, làm bài tập, luyện viết và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: chuẩn bị bài, giữ trật tự, có ý thức kiểm tra lại thông tin trước khi sử dụng và trình bày bài sạch đẹp.",
-          "4. Tích hợp.",
-          "- Tích hợp AI 3.A3.1: HS tiếp tục được nhắc nhở rằng AI có thể hỗ trợ gợi ý ý tưởng hoặc câu hỏi ôn tập nhưng không thay thế việc đọc kĩ văn bản, nghe GV hướng dẫn và tự suy nghĩ để trả lời.",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................"
@@ -21280,7 +21399,8 @@
               "- HS trả lời nội dung cần luyện thêm, ví dụ: Em cần luyện đọc diễn cảm hơn; em cần luyện viết đoạn văn mạch lạc hơn.- HS trả lời: Nếu AI gợi ý sai, em sẽ sửa lại theo SGK, vở ghi hoặc hỏi cô giáo; nếu AI viết giúp cả đoạn văn, em chỉ tham khảo cách viết chứ không chép nguyên.- HS nhắc lại: Em phải tự học, tự kiểm tra và sử dụng công cụ số một cách có trách nhiệm."
             ]
           ]
-        ]
+        ],
+        "title": "TUẦN 27"
       }
     ]
   },
@@ -21321,7 +21441,6 @@
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
-          "TUẦN 28",
           "TIẾNG VIỆT"
         ],
         "tables": [
@@ -21406,7 +21525,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1: Đọc - Đọc văn bản, đọc hiểu câu 1, 2"
       },
       {
         "lessonTitle": "Tiết 2: Đọc hiểu câu 3, 4 - Luyện đọc lại - Nói và nghe: Cảnh đẹp đất nước",
@@ -21441,7 +21561,6 @@
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
-          "TUẦN 28",
           "TIẾNG VIỆT"
         ],
         "tables": [
@@ -21541,7 +21660,8 @@
               "- HS nhắc lại: Em sử dụng AI khi có hướng dẫn, kiểm tra thông tin và biết giữ gìn cảnh đẹp đất nước bằng hành động thật."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 2: Đọc hiểu câu 3, 4 - Luyện đọc lại - Nói và nghe: Cảnh đẹp đất nước"
       },
       {
         "lessonTitle": "Tiết 3: Viết - Nghe - viết: BẢN EM",
@@ -21573,7 +21693,6 @@
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
-          "TUẦN 28",
           "TIẾNG VIỆT"
         ],
         "tables": [
@@ -21654,7 +21773,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe - viết: BẢN EM"
       },
       {
         "lessonTitle": "Tiết 1: Đọc - Đọc văn bản, đọc hiểu câu 1, 2",
@@ -21687,7 +21807,6 @@
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
-          "TUẦN 28",
           "TIẾNG VIỆT"
         ],
         "tables": [
@@ -21764,7 +21883,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1: Đọc - Đọc văn bản, đọc hiểu câu 1, 2"
       },
       {
         "lessonTitle": "Tiết 2: Đọc hiểu câu 3, 4, 5 - Luyện đọc lại - Ôn chữ hoa V, X",
@@ -21797,7 +21917,6 @@
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
-          "TUẦN 28",
           "TIẾNG VIỆT"
         ],
         "tables": [
@@ -21889,7 +22008,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 2: Đọc hiểu câu 3, 4, 5 - Luyện đọc lại - Ôn chữ hoa V, X"
       },
       {
         "lessonTitle": "Tiết 3: Luyện tập - Từ ngữ có nghĩa giống nhau. So sánh",
@@ -21921,7 +22041,6 @@
           "......................................................................................................................................................",
           "......................................................................................................................................................",
           "......................................................................................................................................................",
-          "TUẦN 28",
           "TIẾNG VIỆT"
         ],
         "tables": [
@@ -21998,7 +22117,8 @@
               "- HS lắng nghe, sửa câu nếu cần."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Từ ngữ có nghĩa giống nhau. So sánh"
       },
       {
         "lessonTitle": "Bài 18: NÚI QUÊ TÔI",
@@ -22107,7 +22227,8 @@
               "- HS lắng nghe, rút kinh nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 18: NÚI QUÊ TÔI"
       }
     ]
   },
@@ -22139,20 +22260,16 @@
           "- Phẩm chất trách nhiệm: Giữ trật tự, học tập nghiêm túc, có ý thức giữ gìn cảnh đẹp thiên nhiên và môi trường sống quanh em.",
           "4. Tích hợp",
           "- NLS 1.2.CB1a: Học sinh biết lựa chọn hình ảnh, video, thông tin về Sông Hương từ nguồn phù hợp, chính thống hoặc do giáo viên cung cấp; không tự ý bấm vào liên kết lạ, không chia sẻ thông tin cá nhân khi tìm hiểu trên môi trường số.- AI 3.A2.1: Học sinh nhận biết AI có thể hỗ trợ giới thiệu, quảng bá cảnh đẹp Sông Hương và hỗ trợ theo dõi, bảo vệ cảnh quan thiên nhiên; biết kiểm chứng thông tin, hình ảnh do AI gợi ý bằng SGK, tư liệu của giáo viên hoặc nguồn chính thống.",
-          "1. Năng lực đặc thù",
           "- Viết đúng chính tả bài Chợ Hòn Gai theo hình thức nghe - viết; biết cách trình bày đoạn văn, biết viết hoa chữ cái đầu tên bài học và đầu các câu văn.",
           "- Làm đúng các bài tập chính tả viết hoa tên riêng địa lí Việt Nam.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung",
           "- Năng lực tự chủ, tự học: Lắng nghe, viết đúng bài chính tả Chợ Hòn Gai, chủ động soát lỗi, sửa lỗi và hoàn thành các bài tập trong SGK.",
           "- Năng lực giải quyết vấn đề và sáng tạo: Biết phát hiện tên riêng địa lí viết đúng, sửa lại những tên riêng viết sai; biết giải câu đố để tìm tên địa danh Việt Nam.",
           "- Năng lực giao tiếp và hợp tác: Biết trao đổi với bạn trong hoạt động nhóm đôi, chia sẻ kết quả trước lớp, nhận xét bài làm của bạn.",
-          "3. Phẩm chất",
           "- Phẩm chất yêu nước: Biết yêu cảnh đẹp quê hương, đất nước qua hình ảnh chợ Hòn Gai và các địa danh Việt Nam.",
           "- Phẩm chất nhân ái: Biết lắng nghe, hợp tác với bạn khi làm việc nhóm.",
           "- Phẩm chất chăm chỉ: Chăm chỉ viết bài, soát lỗi, làm bài tập đầy đủ.",
           "- Phẩm chất trách nhiệm: Có ý thức trình bày bài sạch đẹp, giữ trật tự, học tập nghiêm túc.",
-          "4. Tích hợp",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết trân trọng vẻ đẹp của quê hương, đất nước qua các địa danh Việt Nam; có ý thức viết đúng tên riêng địa lí, thể hiện sự cẩn thận, nghiêm túc trong học tập, từ đó bồi dưỡng niềm tự hào về đất nước Việt Nam và tình yêu tiếng Việt."
         ],
         "dodung": [
@@ -22167,8 +22284,7 @@
           "TIẾNG VIỆT",
           "Nghe - viết: CHỢ HÒN GAI (Tiết 3)",
           "....................................................................................................................................",
-          "TIẾNG VIỆT",
-          "CHỦ ĐỀ 4: ĐẤT NƯỚC NGÀN NĂM"
+          "TIẾNG VIỆT"
         ],
         "tables": [
           [
@@ -22645,7 +22761,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 19: SÔNG HƯƠNG"
       },
       {
         "lessonTitle": "Bài 20: TIẾNG NƯỚC MÌNH",
@@ -22670,29 +22787,21 @@
           "- Phẩm chất trách nhiệm: Giữ trật tự, học tập nghiêm túc, có ý thức giữ gìn sự trong sáng của tiếng Việt.",
           "4. Tích hợp",
           "- QPAN: Giáo dục học sinh biết yêu quý tiếng Việt, tự hào về tiếng mẹ đẻ, giữ gìn bản sắc văn hóa dân tộc; hiểu rằng giữ gìn sự trong sáng của tiếng Việt cũng là một cách thể hiện tình yêu quê hương, đất nước.- NLS 1.2.CB1a: Học sinh biết chọn sách, báo, bài thơ, câu chuyện hoặc nội dung đọc số về quê hương, đất nước phù hợp lứa tuổi; biết ghi thông tin cơ bản vào phiếu đọc sách và chia sẻ an toàn.",
-          "1. Năng lực đặc thù",
           "- Mở rộng vốn từ về đất nước Việt Nam.",
           "- Biết đặc điểm, dấu hiệu nhận diện và công dụng của câu khiến, câu cảm.",
           "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung",
           "- Năng lực tự chủ, tự học: Chủ động đọc yêu cầu, hiểu được tác dụng của câu khiến, câu cảm, hoàn thành các bài tập trong SGK.",
           "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn từ ngữ phù hợp, phân loại câu cảm và câu khiến, đặt câu phù hợp với tình huống giao tiếp.",
           "- Năng lực giao tiếp và hợp tác: Biết thảo luận nhóm, trao đổi với bạn, trình bày ý kiến rõ ràng trước lớp.",
-          "3. Phẩm chất",
           "- Phẩm chất yêu nước: Biết thêm các từ ngữ về Việt Nam, thêm yêu quê hương, đất nước.",
           "- Phẩm chất nhân ái: Biết nói năng phù hợp, dùng câu khiến lịch sự, lời cảm chân thành.",
           "- Phẩm chất chăm chỉ: Chăm chỉ đọc bài, làm bài tập, đặt câu đúng yêu cầu.",
           "- Phẩm chất trách nhiệm: Có ý thức học tập nghiêm túc, giữ gìn cảnh đẹp quê hương qua lời nói và việc làm.",
-          "4. Tích hợp",
           "- KNS/đạo đức, lối sống: Giáo dục học sinh biết dùng câu cảm, câu khiến lịch sự, rõ ràng; biết lắng nghe, phản hồi phù hợp, góp ý nhẹ nhàng khi làm việc nhóm; dùng lời nói đẹp để nhắc nhở, kêu gọi mọi người cùng giữ gìn cảnh đẹp quê hương, đất nước.",
-          "1. Năng lực đặc thù",
           "- Viết đoạn văn nêu cảm xúc của em về một cảnh đẹp của đất nước.",
-          "- Phát triển năng lực ngôn ngữ.",
-          "2. Năng lực chung",
           "- Năng lực tự chủ, tự học: Biết quan sát tranh, suy nghĩ và viết được đoạn văn ngắn nêu cảm xúc của em về một cảnh đẹp của đất nước.",
           "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn ý, sắp xếp câu văn hợp lí để viết đoạn văn; biết bổ sung, sửa lỗi và làm cho đoạn văn hay hơn.",
           "- Năng lực giao tiếp và hợp tác: Biết trao đổi với bạn về nội dung bài viết, nhận xét bài của bạn và chia sẻ đoạn văn của mình trước lớp.",
-          "3. Phẩm chất",
           "- Phẩm chất yêu nước: Biết yêu quê hương, đất nước qua việc cảm nhận và viết về cảnh đẹp của đất nước.",
           "- Phẩm chất nhân ái: Biết chia sẻ cảm xúc chân thành, biết nhận xét bài của bạn nhẹ nhàng, tôn trọng.",
           "- Phẩm chất chăm chỉ: Chăm chỉ quan sát, suy nghĩ, viết bài và sửa bài.",
@@ -23263,7 +23372,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 20: TIẾNG NƯỚC MÌNH"
       }
     ]
   },
@@ -23272,7 +23382,7 @@
     "sourceFile": "TV TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Nhà rông; Nói và nghe - Quê hương em",
+        "lessonTitle": "Tiết 1, 2: Đọc - Nhà rông; Nói và nghe - Quê hương em - Tiết 1: Đọc - Nhà rông",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -23281,14 +23391,7 @@
           "- Hiểu tình cảm của người dân Tây Nguyên với mái nhà rông thân thương; nêu được nội dung bài đọc.",
           "- Giới thiệu được về quê hương em với thái độ tự tin, biết kết hợp cử chỉ, điệu bộ thích hợp.",
           "- Biết nói 1 - 2 câu mời bạn bè hoặc du khách đến thăm quê hương em.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Nhà rông và phần Nói và nghe, video ngắn về buôn làng Tây Nguyên/nhà rông, thẻ từ luyện đọc, phiếu học tập; thiết bị của GV để minh họa AI khi cần.",
-          "- HS: SGK Tiếng Việt 3, vở ghi, bút chì, bút mực."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, nhận xét khi bạn đọc, bạn giới thiệu.",
           "- Giải quyết vấn đề và sáng tạo: biết quan sát tranh, video, liên hệ thực tế để giới thiệu vẻ đẹp quê hương.",
           "3. Phẩm chất:",
@@ -23298,18 +23401,16 @@
           "- Trách nhiệm: có ý thức giữ gìn cảnh đẹp, nét đẹp văn hóa của quê hương.",
           "4. Tích hợp:",
           "- Tích hợp QPAN: HS biết trân trọng bản sắc văn hóa dân tộc, hiểu mỗi vùng miền đều góp phần làm nên vẻ đẹp của Tổ quốc Việt Nam.",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu quý, tự hào và giữ gìn nét đẹp văn hóa của cộng đồng các dân tộc.",
           "- Tích hợp AI (Khung 3439) - 3.D1.1: HS hiểu AI cần nhiều dữ liệu để học về kiến trúc các dân tộc; để vẽ được nhà rông, AI phải được con người cung cấp nhiều hình ảnh, thông tin đúng và phù hợp."
         ],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Nhà rông và phần Nói và nghe, video ngắn về buôn làng Tây Nguyên/nhà rông, thẻ từ luyện đọc, phiếu học tập; thiết bị của GV để minh họa AI khi cần.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bút chì, bút mực."
+        ],
         "activities": [],
-        "dieuchinh": [],
+        "dieuchinh": [
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu quý, tự hào và giữ gìn nét đẹp văn hóa của cộng đồng các dân tộc."
+        ],
         "tables": [
           [
             [
@@ -23386,15 +23487,39 @@
               "- HS lắng nghe, nhắc lại ý chính của tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Nhà rông; Nói và nghe - Quê hương em - Tiết 1: Đọc - Nhà rông",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Nhà rông; Nói và nghe - Quê hương em - Tiết 2: Nói và nghe - Quê hương em",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ bài Nhà rông; biết nghỉ hơi ở chỗ có dấu câu.",
+          "- Bước đầu biết nhấn giọng ở các từ ngữ gợi tả, gợi cảm; nhận biết vẻ đẹp độc đáo của nhà rông Tây Nguyên.",
+          "- Hiểu tình cảm của người dân Tây Nguyên với mái nhà rông thân thương; nêu được nội dung bài đọc.",
+          "- Giới thiệu được về quê hương em với thái độ tự tin, biết kết hợp cử chỉ, điệu bộ thích hợp.",
+          "- Biết nói 1 - 2 câu mời bạn bè hoặc du khách đến thăm quê hương em.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm đôi, nhóm bốn; lắng nghe, nhận xét khi bạn đọc, bạn giới thiệu.",
+          "- Giải quyết vấn đề và sáng tạo: biết quan sát tranh, video, liên hệ thực tế để giới thiệu vẻ đẹp quê hương.",
+          "3. Phẩm chất:",
+          "- Yêu nước: yêu cảnh đẹp, yêu quê hương đất nước; tự hào về bản sắc văn hóa các vùng miền.",
+          "- Nhân ái: biết trân trọng văn hóa của đồng bào Tây Nguyên, thân thiện khi giao tiếp với bạn bè, du khách.",
+          "- Chăm chỉ: tích cực luyện đọc, trả lời câu hỏi và hoàn thành nhiệm vụ nói - nghe.",
+          "- Trách nhiệm: có ý thức giữ gìn cảnh đẹp, nét đẹp văn hóa của quê hương.",
+          "4. Tích hợp:",
+          "- Tích hợp QPAN: HS biết trân trọng bản sắc văn hóa dân tộc, hiểu mỗi vùng miền đều góp phần làm nên vẻ đẹp của Tổ quốc Việt Nam.",
+          "- Tích hợp AI (Khung 3439) - 3.D1.1: HS hiểu AI cần nhiều dữ liệu để học về kiến trúc các dân tộc; để vẽ được nhà rông, AI phải được con người cung cấp nhiều hình ảnh, thông tin đúng và phù hợp."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Nhà rông và phần Nói và nghe, video ngắn về buôn làng Tây Nguyên/nhà rông, thẻ từ luyện đọc, phiếu học tập; thiết bị của GV để minh họa AI khi cần.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu quý, tự hào và giữ gìn nét đẹp văn hóa của cộng đồng các dân tộc.",
           "- ............................................................................................................................",
           "- ............................................................................................................................"
         ],
@@ -23480,10 +23605,12 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Nhà rông; Nói và nghe - Quê hương em - Tiết 2: Nói và nghe - Quê hương em",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Nhà rông",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Nhà rông - Tiết 1: Viết - Nghe viết: Nhà rông",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -23505,15 +23632,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK phần Viết, bảng phụ đoạn viết, thẻ từ chính tả, phiếu soát lỗi.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -23602,10 +23720,12 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Nhà rông - Tiết 1: Viết - Nghe viết: Nhà rông",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Sự tích ông Đùng, bà Đùng; Viết - Ôn chữ hoa Y",
+        "lessonTitle": "Tiết 1, 2: Đọc - Sự tích ông Đùng, bà Đùng; Viết - Ôn chữ hoa Y - Tiết 1: Đọc - Sự tích ông Đùng, bà Đùng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -23628,15 +23748,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Sự tích ông Đùng, bà Đùng, bảng phụ câu dài, thẻ từ khó, mẫu chữ hoa Y, bảng con.",
           "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -23715,13 +23826,34 @@
               "- HS trả lời: Vì ông bà làm việc để dân có đất ở, có đất cày cấy, có đường nước, giúp cuộc sống của mọi người tốt hơn.\n- HS lắng nghe, liên hệ: Em có thể giúp bạn, giữ vệ sinh, chăm cây, học tập chăm chỉ để góp phần làm lớp học tốt hơn.\n- HS nêu việc sẽ làm: Em sẽ giúp bạn trực nhật/nhắc bạn không xả rác/chăm sóc cây xanh của lớp."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Sự tích ông Đùng, bà Đùng; Viết - Ôn chữ hoa Y - Tiết 1: Đọc - Sự tích ông Đùng, bà Đùng",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Sự tích ông Đùng, bà Đùng; Viết - Ôn chữ hoa Y - Tiết 2: Viết - Ôn chữ hoa Y",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Sự tích ông Đùng, bà Đùng; biết nghỉ hơi ở chỗ có dấu câu.",
+          "- Hiểu những việc ông Đùng, bà Đùng đã làm giúp dân; nhận biết phẩm chất tốt đẹp của hai nhân vật.",
+          "- Hiểu câu chuyện giải thích đặc điểm con sông Đà và ca ngợi công lao chinh phục thiên nhiên của con người.",
+          "- Viết đúng chữ hoa Y, tên riêng Nam Yết và câu ứng dụng.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động đọc bài, luyện viết chữ hoa và tự sửa lỗi.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm khi trả lời câu hỏi, nhận xét bài đọc và bài viết của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết liên hệ câu chuyện với ước mơ chinh phục thiên nhiên, xây dựng cuộc sống tốt đẹp.",
+          "3. Phẩm chất:",
+          "- Yêu nước: biết trân trọng những con người có công xây dựng, bảo vệ quê hương đất nước.",
+          "- Chăm chỉ: tích cực đọc bài, luyện viết và hoàn thành nhiệm vụ học tập.",
+          "- Trách nhiệm: học tập tinh thần giúp đỡ cộng đồng, biết làm việc phù hợp để góp phần xây dựng quê hương.",
+          "4. Tích hợp:",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục HS lòng biết ơn những người có công với đất nước, biết trân trọng những con người đã góp sức chinh phục thiên nhiên, xây dựng cuộc sống cho cộng đồng; từ đó bồi dưỡng ý thức sống tốt, biết giúp đỡ mọi người và yêu quê hương, đất nước."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Sự tích ông Đùng, bà Đùng, bảng phụ câu dài, thẻ từ khó, mẫu chữ hoa Y, bảng con.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, vở ô ly, bảng con, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -23809,10 +23941,12 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Sự tích ông Đùng, bà Đùng; Viết - Ôn chữ hoa Y - Tiết 2: Viết - Ôn chữ hoa Y",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Dấu ngoặc kép, dấu gạch ngang",
+        "lessonTitle": "Tiết 3: Luyện tập - Dấu ngoặc kép, dấu gạch ngang - Tiết 1: Luyện tập - Dấu ngoặc kép, dấu gạch ngang",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -23835,15 +23969,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh/bài tập SGK, bảng phụ, phiếu học tập nhóm, thẻ dấu ngoặc kép và dấu gạch ngang.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -23931,10 +24056,12 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Dấu ngoặc kép, dấu gạch ngang - Tiết 1: Luyện tập - Dấu ngoặc kép, dấu gạch ngang",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "BÀI 22: SỰ TÍCH ÔNG ĐÙNG, BÀ ĐÙNG",
+        "lessonTitle": "BÀI 22 - Tiết 1: BÀI 22: SỰ TÍCH ÔNG ĐÙNG, BÀ ĐÙNG",
         "topic": "",
         "yccd": [
           "Tiết 4: Luyện tập - Viết đoạn nêu lí do yêu thích một nhân vật trong câu chuyện đã đọc, đã nghe",
@@ -23957,15 +24084,6 @@
           "- GV: Máy tính, máy chiếu/tivi, sơ đồ gợi ý viết đoạn trong SGK, bảng tiêu chí nhận xét bài viết, phiếu lập ý.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -24045,7 +24163,9 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22 - Tiết 1: BÀI 22: SỰ TÍCH ÔNG ĐÙNG, BÀ ĐÙNG",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -24054,7 +24174,7 @@
     "sourceFile": "TV TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Hai Bà Trưng; Nói và nghe - Kể chuyện Hai Bà Trưng",
+        "lessonTitle": "Tiết 1, 2: Đọc - Hai Bà Trưng; Nói và nghe - Kể chuyện Hai Bà Trưng - Tiết 1: Đọc - Hai Bà Trưng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -24079,15 +24199,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Hai Bà Trưng và tranh kể chuyện, bảng phụ câu dài, thẻ từ khó, tư liệu/hình ảnh lịch sử do GV cung cấp.",
           "- HS: SGK Tiếng Việt 3, vở ghi, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -24190,13 +24301,36 @@
               "- HS trả lời: Vì Hai Bà Trưng dũng cảm đứng lên chống giặc, bảo vệ non sông và cứu dân khỏi ách nô lệ.\n- HS lắng nghe, liên hệ: Em biết ơn anh hùng dân tộc bằng việc chăm học, sống tốt, giữ gìn truyền thống và kể lại câu chuyện lịch sử cho người thân.\n- HS nhắc lại: Em yêu Tổ quốc, tự hào về truyền thống chống giặc và biết ơn những người có công với đất nước."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Hai Bà Trưng; Nói và nghe - Kể chuyện Hai Bà Trưng - Tiết 1: Đọc - Hai Bà Trưng",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Hai Bà Trưng; Nói và nghe - Kể chuyện Hai Bà Trưng - Tiết 2: Nói và nghe - Kể chuyện Hai Bà Trưng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Hai Bà Trưng; biết nghỉ hơi ở chỗ có dấu câu.",
+          "- Bước đầu thể hiện tâm trạng, cảm xúc của nhân vật và người dẫn truyện qua giọng đọc.",
+          "- Nhận biết hành động thể hiện tài năng, chí hướng của Hai Bà Trưng; hiểu nội dung bài ca ngợi lòng yêu nước, tinh thần bất khuất chống giặc xâm lược.",
+          "- Kể lại được câu chuyện Hai Bà Trưng theo tranh gợi ý; biết nêu cảm nghĩ về nhân vật lịch sử.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động luyện đọc Hai Bà Trưng, tìm chi tiết về tội ác của giặc, chí hướng và cuộc khởi nghĩa của Hai Bà.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm để trả lời câu hỏi, quan sát tranh, kể lại câu chuyện và nhận xét phần kể của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn chi tiết tiêu biểu, sắp xếp sự việc theo tranh, nêu cảm nghĩ về lòng yêu nước của Hai Bà Trưng.",
+          "3. Phẩm chất:",
+          "- Yêu nước: tự hào, biết ơn Hai Bà Trưng và truyền thống chống giặc ngoại xâm của dân tộc.",
+          "- Nhân ái: biết kính trọng người có công, lắng nghe và động viên bạn khi luyện đọc, kể chuyện.",
+          "- Chăm chỉ: tích cực đọc bài, trả lời câu hỏi, luyện kể chuyện theo tranh.",
+          "- Trách nhiệm: noi gương tinh thần yêu nước bằng việc học tập nghiêm túc, giữ gìn truyền thống dân tộc.",
+          "4. Tích hợp:",
+          "- QPAN: Giáo dục HS lòng yêu nước, niềm tự hào dân tộc, ý thức biết ơn các anh hùng chống giặc ngoại xâm; bước đầu bồi dưỡng trách nhiệm bảo vệ Tổ quốc, giữ gìn truyền thống đấu tranh kiên cường của dân tộc.",
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: HS nhận biết AI hỗ trợ phục chế và số hóa tài liệu lịch sử cũ; biết xem hình ảnh AI phục chế tranh/tư liệu cổ với sự hướng dẫn của GV và đối chiếu nguồn đáng tin cậy."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Hai Bà Trưng và tranh kể chuyện, bảng phụ câu dài, thẻ từ khó, tư liệu/hình ảnh lịch sử do GV cung cấp.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -24324,10 +24458,12 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Hai Bà Trưng; Nói và nghe - Kể chuyện Hai Bà Trưng - Tiết 2: Nói và nghe - Kể chuyện Hai Bà Trưng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Viết - Nghe viết: Hai Bà Trưng",
+        "lessonTitle": "Tiết 3: Viết - Nghe viết: Hai Bà Trưng - Tiết 1: Viết - Nghe viết: Hai Bà Trưng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -24349,15 +24485,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK phần Viết, bảng phụ đoạn viết, thẻ từ chính tả tr/ch, ai/ay, phiếu soát lỗi.",
           "- HS: SGK Tiếng Việt 3, vở ô ly, bảng con, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -24470,10 +24597,12 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Hai Bà Trưng - Tiết 1: Viết - Nghe viết: Hai Bà Trưng",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "Tiết 1, 2: Đọc - Cùng Bác qua suối; Đọc mở rộng",
+        "lessonTitle": "Tiết 1, 2: Đọc - Cùng Bác qua suối; Đọc mở rộng - Tiết 1: Đọc - Cùng Bác qua suối",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -24498,15 +24627,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Cùng Bác qua suối, phiếu đọc sách, sách/bài đọc về Bác Hồ, vị thần hoặc người có công với đất nước; thiết bị GV để trình chiếu tư liệu phù hợp.",
           "- HS: SGK Tiếng Việt 3, vở ghi, phiếu đọc sách, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 1 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -24613,13 +24733,36 @@
               "- HS trả lời: Bác rất cẩn thận, nhân ái, gần gũi và luôn quan tâm đến sự an toàn của mọi người.\n- HS lắng nghe, liên hệ: Em sẽ nhắc bạn đi cẩn thận, không chạy ở cầu thang, giúp bạn khi gặp khó khăn.\n- HS nhắc lại: Học tập Bác là biết quan tâm, giúp đỡ người khác bằng việc làm cụ thể hằng ngày."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Cùng Bác qua suối; Đọc mở rộng - Tiết 1: Đọc - Cùng Bác qua suối",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "TIẾT 2 (35 phút)",
+        "lessonTitle": "Tiết 1, 2: Đọc - Cùng Bác qua suối; Đọc mở rộng - Tiết 2: Đọc mở rộng",
         "topic": "",
-        "yccd": [],
-        "dodung": [],
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Cùng Bác qua suối; biết nghỉ hơi ở chỗ có dấu câu.",
+          "- Bước đầu biết thể hiện cảm xúc của nhân vật qua giọng đọc; hiểu ý nghĩa việc làm của Bác.",
+          "- Nhận biết những chi tiết cho thấy Bác cẩn thận, quan tâm đến người khác; nêu được phẩm chất tốt đẹp của Bác.",
+          "- Đọc mở rộng theo yêu cầu, viết phiếu đọc sách và kể với bạn về công lao của vị thần hoặc người có công với đất nước.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động đọc bài Cùng Bác qua suối, tìm chi tiết thể hiện sự cẩn thận, chu đáo của Bác.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm về việc làm của Bác, chia sẻ bài đọc mở rộng về Bác Hồ hoặc người có công.",
+          "- Giải quyết vấn đề và sáng tạo: hiểu ý nghĩa việc kê lại hòn đá giữa suối, liên hệ cách quan tâm người khác trong đời sống.",
+          "3. Phẩm chất:",
+          "- Yêu nước: kính yêu Bác Hồ, biết ơn Bác và những người có công với đất nước.",
+          "- Nhân ái: học cách quan tâm, giúp đỡ người khác qua những việc làm nhỏ của Bác.",
+          "- Chăm chỉ: tích cực luyện đọc, đọc mở rộng, ghi phiếu đọc sách đầy đủ.",
+          "- Trách nhiệm: học tập và làm theo Bác bằng việc giữ an toàn, giúp bạn, giữ gìn trường lớp.",
+          "4. Tích hợp:",
+          "- Tích hợp QPAN: HS biết kính yêu Bác Hồ, bồi dưỡng lòng biết ơn và ý thức trách nhiệm với quê hương, đất nước qua câu chuyện về Bác.",
+          "- Tích hợp NLS 1.2.CB1a: HS biết lựa chọn sách, báo, nội dung đọc số phù hợp lứa tuổi; bước đầu nhận biết nguồn thông tin đáng tin cậy."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu/tivi, tranh SGK bài Cùng Bác qua suối, phiếu đọc sách, sách/bài đọc về Bác Hồ, vị thần hoặc người có công với đất nước; thiết bị GV để trình chiếu tư liệu phù hợp.",
+          "- HS: SGK Tiếng Việt 3, vở ghi, phiếu đọc sách, bút chì, bút mực."
+        ],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -24747,10 +24890,12 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Cùng Bác qua suối; Đọc mở rộng - Tiết 2: Đọc mở rộng",
+        "period": "Tiết 2"
       },
       {
-        "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ về lễ hội. Dấu ngoặc kép, dấu gạch ngang",
+        "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ về lễ hội. Dấu ngoặc kép, dấu gạch ngang - Tiết 1: Luyện tập - Mở rộng vốn từ về lễ hội. Dấu ngoặc kép, dấu gạch ngang",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -24772,15 +24917,6 @@
           "- GV: Máy tính, máy chiếu/tivi, tranh ảnh lễ hội trong SGK, bảng phụ bài tập, phiếu học tập nhóm, thẻ dấu câu.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 3 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -24912,10 +25048,12 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Mở rộng vốn từ về lễ hội. Dấu ngoặc kép, dấu gạch ngang - Tiết 1: Luyện tập - Mở rộng vốn từ về lễ hội. Dấu ngoặc kép, dấu gạch ngang",
+        "period": "Tiết 1"
       },
       {
-        "lessonTitle": "BÀI 24: CÙNG BÁC QUA SUỐI",
+        "lessonTitle": "BÀI 24 - Tiết 1: BÀI 24: CÙNG BÁC QUA SUỐI",
         "topic": "",
         "yccd": [
           "Tiết 4: Luyện tập - Viết đoạn văn về nhân vật yêu thích trong câu chuyện em đã đọc, đã nghe",
@@ -24938,15 +25076,6 @@
           "- GV: Máy tính, máy chiếu/tivi, bảng gợi ý viết đoạn văn, phiếu lập ý, bảng tiêu chí nhận xét bài viết, một số đoạn văn mẫu ngắn phù hợp.",
           "- HS: SGK Tiếng Việt 3, vở bài tập/vở ô ly, bút chì, bút mực."
         ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": []
-      },
-      {
-        "lessonTitle": "TIẾT 4 (35 phút)",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
         "activities": [],
         "dieuchinh": [
           "- ............................................................................................................................",
@@ -25070,7 +25199,9 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24 - Tiết 1: BÀI 24: CÙNG BÁC QUA SUỐI",
+        "period": "Tiết 1"
       }
     ]
   },
@@ -25110,8 +25241,7 @@
         "activities": [],
         "dieuchinh": [
           ".......................................................................................................................................",
-          "TIẾNG VIỆT",
-          "CHỦ ĐIỂM: TRÁI ĐẤT CỦA CHÚNG MÌNH"
+          "TIẾNG VIỆT"
         ],
         "tables": [
           [
@@ -25235,7 +25365,8 @@
               "- HS ghi nhớ nhiệm vụ học ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 26: NGỌN LỬA Ô-LIM-PÍCH"
       },
       {
         "lessonTitle": "Bài 26: NGỌN LỬA Ô-LIM-PÍCH",
@@ -25393,7 +25524,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 26: NGỌN LỬA Ô-LIM-PÍCH"
       },
       {
         "lessonTitle": "TIẾT 3",
@@ -25427,8 +25559,7 @@
         "activities": [],
         "dieuchinh": [
           ".......................................................................................................................................",
-          "TIẾNG VIỆT",
-          "CHỦ ĐIỂM: TRÁI ĐẤT CỦA CHÚNG MÌNH"
+          "TIẾNG VIỆT"
         ],
         "tables": [
           [
@@ -25555,7 +25686,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3"
       },
       {
         "lessonTitle": "Bài 27: RÔ-BỐT Ở QUANH TA",
@@ -25589,8 +25721,7 @@
         "activities": [],
         "dieuchinh": [
           ".......................................................................................................................................",
-          "TIẾNG VIỆT",
-          "CHỦ ĐIỂM: TRÁI ĐẤT CỦA CHÚNG MÌNH"
+          "TIẾNG VIỆT"
         ],
         "tables": [
           [
@@ -25718,7 +25849,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 27: RÔ-BỐT Ở QUANH TA"
       },
       {
         "lessonTitle": "Bài 27: RÔ-BỐT Ở QUANH TA",
@@ -25739,27 +25871,27 @@
           "- Trách nhiệm: Giữ vở sạch, viết cẩn thận, hoàn thành bài luyện viết và có ý thức giữ gìn cảnh quan, giá trị văn hoá của quê hương.",
           "4. Tích hợp",
           "- Tích hợp giáo dục tình yêu quê hương, đất nước: Thông qua tên riêng Hội An và câu ứng dụng về phố cổ Hội An, HS hiểu thêm vẻ đẹp văn hoá, kiến trúc, con người Việt Nam; biết viết đúng tên địa danh, nói lời giới thiệu lịch sự về cảnh đẹp và có ý thức giữ gìn di sản, môi trường du lịch xanh, sạch, đẹp.",
-          "1. Năng lực đặc thù",
           "- Hiểu công dụng và biết sử dụng dấu hai chấm trong câu.",
           "- Biết đặt và trả lời câu hỏi “Để làm gì?”.",
           "- Mở rộng vốn câu, biết dùng câu phù hợp với mục đích giao tiếp.",
           "- Phát triển năng lực ngôn ngữ thông qua luyện tập về dấu câu và kiểu câu.",
-          "2. Năng lực chung",
-          "1. Năng lực đặc thù",
           "- Nhận biết được các thông tin chính trong một bản tin ngắn.",
           "- Viết được bản tin ngắn về hoạt động giữ gìn vệ sinh môi trường.",
           "- Biết trao đổi bản tin với bạn để bổ sung, chỉnh sửa nếu cần.",
           "- Đọc mở rộng theo yêu cầu và chia sẻ điều em yêu thích.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: Tự đọc bản tin mẫu, xác định thông tin chính, lựa chọn hoạt động giữ gìn vệ sinh môi trường và viết bản tin ngắn theo đúng yêu cầu.",
           "- Giao tiếp và hợp tác: Đọc bản tin cho bạn nghe, góp ý và tiếp thu góp ý theo tiêu chí đủ thông tin, câu văn rõ ràng, dùng từ phù hợp; biết hoàn thiện sản phẩm sau trao đổi.",
           "- Giải quyết vấn đề và sáng tạo: Biết chọn thông tin tiêu biểu, sắp xếp ý thành bản tin ngắn, lồng ghép thông điệp bảo vệ môi trường và liên hệ việc làm cụ thể ở lớp, trường, gia đình.",
-          "3. Phẩm chất",
           "- Yêu nước: Biết yêu quê hương, có ý thức giữ gìn môi trường xanh, sạch, đẹp ở lớp, trường, gia đình và nơi công cộng.",
           "- Chăm chỉ: Tích cực quan sát, đọc bản tin mẫu, viết bản tin, sửa bài và hoàn thiện sản phẩm theo góp ý của GV, bạn bè.",
           "- Trách nhiệm, nhân ái: Biết góp ý bài của bạn nhẹ nhàng; có trách nhiệm lan toả thông điệp tiết kiệm điện, phân loại rác, trồng cây và bảo vệ Trái Đất.",
-          "4. Tích hợp",
-          "- Tích hợp bảo vệ môi trường: Khi viết bản tin, HS không chỉ ghi lại hoạt động mà còn biết lan toả thông điệp giữ vệ sinh, tiết kiệm điện, trồng cây, phân loại rác, không xả rác bừa bãi; bản tin cần khuyến khích bạn bè, người thân cùng hành động để lớp học, trường học và nơi ở xanh, sạch, đẹp hơn."
+          "- Tích hợp bảo vệ môi trường: Khi viết bản tin, HS không chỉ ghi lại hoạt động mà còn biết lan toả thông điệp giữ vệ sinh, tiết kiệm điện, trồng cây, phân loại rác, không xả rác bừa bãi; bản tin cần khuyến khích bạn bè, người thân cùng hành động để lớp học, trường học và nơi ở xanh, sạch, đẹp hơn.",
+          "- Giao tiếp và hợp tác: Thảo luận nhóm đôi, nhóm bốn, thực hành hỏi - đáp với bạn bằng câu hỏi Để làm gì?; biết lắng nghe và phản hồi rõ ràng, lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn dấu câu, ghép từ ngữ, hoàn thành câu theo quan hệ mục đích và đặt câu hỏi - trả lời trong tình huống giao tiếp gần gũi.",
+          "- Yêu nước: Hình thành tình cảm yêu quê hương qua ngữ liệu về đất nước, thể thao, rô-bốt và ý thức học tập để làm chủ tri thức mới.",
+          "- Nhân ái: Biết tôn trọng bạn trong hoạt động nhóm, dùng lời hỏi - đáp lịch sự, không cắt ngang hoặc chê bai khi bạn trình bày.",
+          "- Chăm chỉ, trách nhiệm: Hoàn thành bài tập về dấu câu và câu hỏi Để làm gì?, giữ trật tự, tự sửa lỗi và vận dụng kiến thức vào giao tiếp hằng ngày.",
+          "- Tích hợp kĩ năng sống: HS biết đặt câu hỏi Để làm gì? đúng mục đích, trả lời rõ ràng để người nghe hiểu lí do của việc làm; khi giao tiếp cần dùng giọng nhẹ nhàng, nhìn người nghe, chờ bạn nói xong, không hỏi dồn dập và biết dùng câu hỏi để tìm hiểu, giúp đỡ, nhắc nhở bạn một cách lịch sự."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -25791,14 +25923,6 @@
           "TIẾNG VIỆT",
           "LUYỆN TỪ VÀ CÂU",
           "DẤU HAI CHẤM - CÂU HỎI “ĐỂ LÀM GÌ?” - TIẾT 3",
-          "- Giao tiếp và hợp tác: Thảo luận nhóm đôi, nhóm bốn, thực hành hỏi - đáp với bạn bằng câu hỏi Để làm gì?; biết lắng nghe và phản hồi rõ ràng, lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn dấu câu, ghép từ ngữ, hoàn thành câu theo quan hệ mục đích và đặt câu hỏi - trả lời trong tình huống giao tiếp gần gũi.",
-          "3. Phẩm chất",
-          "- Yêu nước: Hình thành tình cảm yêu quê hương qua ngữ liệu về đất nước, thể thao, rô-bốt và ý thức học tập để làm chủ tri thức mới.",
-          "- Nhân ái: Biết tôn trọng bạn trong hoạt động nhóm, dùng lời hỏi - đáp lịch sự, không cắt ngang hoặc chê bai khi bạn trình bày.",
-          "- Chăm chỉ, trách nhiệm: Hoàn thành bài tập về dấu câu và câu hỏi Để làm gì?, giữ trật tự, tự sửa lỗi và vận dụng kiến thức vào giao tiếp hằng ngày.",
-          "4. Tích hợp",
-          "- Tích hợp kĩ năng sống: HS biết đặt câu hỏi Để làm gì? đúng mục đích, trả lời rõ ràng để người nghe hiểu lí do của việc làm; khi giao tiếp cần dùng giọng nhẹ nhàng, nhìn người nghe, chờ bạn nói xong, không hỏi dồn dập và biết dùng câu hỏi để tìm hiểu, giúp đỡ, nhắc nhở bạn một cách lịch sự.",
           ".......................................................................................................................................",
           "TIẾNG VIỆT",
           "LUYỆN VIẾT ĐOẠN",
@@ -26195,7 +26319,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 27: RÔ-BỐT Ở QUANH TA"
       }
     ]
   },
@@ -26501,7 +26626,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27: THƯ CỦA ÔNG TRÁI ĐẤT GỬI CÁC BẠN NHỎ"
       },
       {
         "lessonTitle": "Tiết 3: Viết - Nghe viết: Em nghĩ về Trái Đất",
@@ -26666,7 +26792,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Em nghĩ về Trái Đất"
       },
       {
         "lessonTitle": "Tiết 1, 2: Đọc - Những điều nhỏ tớ làm cho Trái Đất; Đọc mở rộng",
@@ -26922,7 +27049,8 @@
               "- HS lắng nghe, nhận nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Những điều nhỏ tớ làm cho Trái Đất; Đọc mở rộng"
       },
       {
         "lessonTitle": "Tiết 3: Luyện tập - Ôn tập các dấu câu, các kiểu câu đã học",
@@ -27067,7 +27195,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Ôn tập các dấu câu, các kiểu câu đã học"
       },
       {
         "lessonTitle": "BÀI 28: NHỮNG ĐIỀU NHỎ TỚ LÀM CHO TRÁI ĐẤT",
@@ -27218,7 +27347,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28: NHỮNG ĐIỀU NHỎ TỚ LÀM CHO TRÁI ĐẤT"
       }
     ]
   },
@@ -27501,7 +27631,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Bác sĩ Y-éc-xanh; Nói và nghe - Người nổi tiếng"
       },
       {
         "lessonTitle": "Tiết 3: Viết - Nghe viết: Bác sĩ Y-éc-xanh",
@@ -27650,7 +27781,8 @@
               "- HS lắng nghe, nhận nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Viết - Nghe viết: Bác sĩ Y-éc-xanh"
       },
       {
         "lessonTitle": "Tiết 1, 2: Đọc - Một mái nhà chung; Viết - Ôn chữ hoa M, N, V (kiểu 2)",
@@ -27876,7 +28008,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 1, 2: Đọc - Một mái nhà chung; Viết - Ôn chữ hoa M, N, V (kiểu 2)"
       },
       {
         "lessonTitle": "Tiết 3: Luyện tập - Mở rộng vốn từ Trái Đất. Ôn tập các kiểu câu đã học",
@@ -28022,7 +28155,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 3: Luyện tập - Mở rộng vốn từ Trái Đất. Ôn tập các kiểu câu đã học"
       },
       {
         "lessonTitle": "Tiết 4: Luyện tập - Viết đoạn văn tả bức tranh về Trái Đất",
@@ -28167,7 +28301,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Tiết 4: Luyện tập - Viết đoạn văn tả bức tranh về Trái Đất"
       }
     ]
   },
@@ -28193,48 +28328,25 @@
           "- Nhân ái: lắng nghe, tôn trọng ý kiến khác nhau và nhận xét bạn bằng lời tích cực.",
           "4. Tích hợp:",
           "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a: HS biết tìm kiếm, quan sát thông tin/hình ảnh minh họa bài học từ nguồn phù hợp lứa tuổi; biết dùng công cụ số đơn giản để trình bày, chia sẻ kết quả đọc - nói - nghe.",
-          "1. Năng lực đặc thù:",
-          "- Đọc đúng, rõ ràng văn bản, bài thơ, câu chuyện hoặc văn bản thông tin theo yêu cầu ôn tập; hiểu nội dung chính và chi tiết quan trọng.",
-          "- Ôn lại từ ngữ, dấu câu, kiểu câu, kĩ năng nói - nghe, đọc hiểu và viết đã học trong học kì II.",
-          "- Biết vận dụng kiến thức Tiếng Việt vào làm bài ôn tập và đánh giá cuối học kì.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: chủ động luyện đọc lại thơ, truyện, văn bản đã học; tự tìm chi tiết trả lời câu hỏi đọc hiểu.",
           "- Giao tiếp và hợp tác: đọc trong nhóm, trao đổi về từ ngữ, hình ảnh, nội dung văn bản và nhận xét giọng đọc của bạn.",
           "- Giải quyết vấn đề và sáng tạo: biết gạch từ khóa, tìm bằng chứng trong bài và vận dụng từ ngữ đã học vào câu trả lời mới.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: luyện đọc, đọc kĩ văn bản, hoàn thành bài tập ôn đọc hiểu.",
           "- Trách nhiệm: nghiêm túc ôn tập, tự sửa lỗi đọc và câu trả lời.",
           "- Nhân ái: khích lệ bạn khi đọc trước lớp, biết góp ý nhẹ nhàng để bạn tiến bộ.",
-          "4. Tích hợp:",
           "- Không có tích hợp trong tiết học này.",
-          "1. Năng lực đặc thù:",
-          "- Đọc đúng, rõ ràng văn bản, bài thơ, câu chuyện hoặc văn bản thông tin theo yêu cầu ôn tập; hiểu nội dung chính và chi tiết quan trọng.",
-          "- Ôn lại từ ngữ, dấu câu, kiểu câu, kĩ năng nói - nghe, đọc hiểu và viết đã học trong học kì II.",
-          "- Biết vận dụng kiến thức Tiếng Việt vào làm bài ôn tập và đánh giá cuối học kì.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: tự chuẩn bị ý, viết câu/đoạn văn theo yêu cầu ôn tập và tự kiểm tra lỗi.",
           "- Giao tiếp và hợp tác: trao đổi với bạn về ý viết, đọc bài cho bạn nghe và tiếp thu góp ý.",
           "- Giải quyết vấn đề và sáng tạo: sắp xếp ý hợp lí, dùng từ và câu phù hợp để viết đoạn văn rõ ý, có cảm xúc.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: viết bài cẩn thận, hoàn thành nhiệm vụ viết trong thời gian quy định.",
           "- Trách nhiệm: tự soát lỗi, sửa lỗi chính tả, dùng từ, đặt câu trước khi nộp bài.",
           "- Nhân ái: biết tôn trọng bài viết của bạn và góp ý bằng lời lịch sự.",
-          "4. Tích hợp:",
-          "- Không có tích hợp trong tiết học này.",
-          "1. Năng lực đặc thù:",
-          "- Đọc đúng, rõ ràng văn bản, bài thơ, câu chuyện hoặc văn bản thông tin theo yêu cầu ôn tập; hiểu nội dung chính và chi tiết quan trọng.",
-          "- Ôn lại từ ngữ, dấu câu, kiểu câu, kĩ năng nói - nghe, đọc hiểu và viết đã học trong học kì II.",
-          "- Biết vận dụng kiến thức Tiếng Việt vào làm bài ôn tập và đánh giá cuối học kì.",
-          "2. Năng lực chung:",
           "- Tự chủ và tự học: tự đọc đề, phân bổ thời gian và hoàn thành phần đọc, viết trong bài đánh giá cuối học kì II.",
           "- Giao tiếp và hợp tác: thực hiện đúng hướng dẫn của GV, giữ trật tự, hỏi lại khi chưa hiểu yêu cầu trước khi làm bài.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng tổng hợp kiến thức đọc hiểu, từ ngữ, câu và viết đoạn văn để hoàn thành bài đánh giá.",
-          "3. Phẩm chất:",
           "- Chăm chỉ: làm bài nghiêm túc, cẩn thận, không bỏ sót câu hỏi.",
           "- Trung thực: tự làm bài theo khả năng của mình, không trao đổi hoặc nhìn bài bạn.",
-          "- Trách nhiệm: giữ gìn bài làm sạch đẹp, kiểm tra lại trước khi nộp và chuẩn bị đầy đủ đồ dùng học tập.",
-          "4. Tích hợp:",
-          "- Không có tích hợp trong tiết học này."
+          "- Trách nhiệm: giữ gìn bài làm sạch đẹp, kiểm tra lại trước khi nộp và chuẩn bị đầy đủ đồ dùng học tập."
         ],
         "dodung": [
           "- GV: Kế hoạch bài dạy, SGK, bài giảng PowerPoint, tranh ảnh SGK đã cắt đúng nội dung hoạt động, bảng phụ/phiếu học tập, máy tính, máy chiếu/tivi.",
@@ -28811,7 +28923,8 @@
               "- HS nộp bài, lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 3"
       }
     ]
   }
@@ -28829,5 +28942,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

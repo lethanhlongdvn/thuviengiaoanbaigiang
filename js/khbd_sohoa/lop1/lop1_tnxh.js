@@ -37,9 +37,7 @@
         "activities": [],
         "dieuchinh": [
           "............................................................................................",
-          "............................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 1: GIA ĐÌNH"
+          "............................................................................................"
         ],
         "tables": [
           [
@@ -144,7 +142,8 @@
               "- HS ghi nhớ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: KỂ VỀ GIA ĐÌNH (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 1: KỂ VỀ GIA ĐÌNH (TIẾT 2)",
@@ -275,7 +274,8 @@
               "- HS ghi nhớ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: KỂ VỀ GIA ĐÌNH (TIẾT 2)"
       }
     ]
   },
@@ -307,9 +307,7 @@
         "activities": [],
         "dieuchinh": [
           "............................................................................................",
-          "............................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 1: GIA ĐÌNH"
+          "............................................................................................"
         ],
         "tables": [
           [
@@ -406,7 +404,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: NGÔI NHÀ CỦA EM (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 2: NGÔI NHÀ CỦA EM (TIẾT 2)",
@@ -535,7 +534,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: NGÔI NHÀ CỦA EM (TIẾT 2)"
       }
     ]
   },
@@ -565,9 +565,7 @@
         "activities": [],
         "dieuchinh": [
           "............................................................................................",
-          "............................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 1: GIA ĐÌNH"
+          "............................................................................................"
         ],
         "tables": [
           [
@@ -644,7 +642,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: ĐỒ DÙNG TRONG NHÀ (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 3: ĐỒ DÙNG TRONG NHÀ (TIẾT 2)",
@@ -751,7 +750,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: ĐỒ DÙNG TRONG NHÀ (TIẾT 2)"
       }
     ]
   },
@@ -785,9 +785,7 @@
         "activities": [],
         "dieuchinh": [
           "............................................................................................",
-          "............................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 1: GIA ĐÌNH"
+          "............................................................................................"
         ],
         "tables": [
           [
@@ -880,7 +878,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: AN TOÀN KHI SỬ DỤNG ĐỒ DÙNG TRONG NHÀ (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 4: AN TOÀN KHI SỬ DỤNG ĐỒ DÙNG TRONG NHÀ (TIẾT 2)",
@@ -1001,7 +1000,8 @@
               "- HS ghi nhớ và thực hiện cùng gia đình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: AN TOÀN KHI SỬ DỤNG ĐỒ DÙNG TRONG NHÀ (TIẾT 2)"
       }
     ]
   },
@@ -1034,9 +1034,7 @@
         "dieuchinh": [
           ".................................................................................................................................................................................",
           ".................................................................................................................................................................................",
-          ".................................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 1: GIA ĐÌNH"
+          "................................................................................................................................................................................."
         ],
         "tables": [
           [
@@ -1133,7 +1131,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH (TIẾT 2)",
@@ -1261,7 +1260,8 @@
               "- HS lắng nghe, thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH (TIẾT 2)"
       }
     ]
   },
@@ -1278,7 +1278,12 @@
           "- Nêu được cách xử lí đơn giản, phù hợp và an toàn trong tình huống quen thuộc.",
           "- Nói được điều em yêu quý, ấn tượng sau khi học chủ đề Gia đình.",
           "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: Biết trao đổi, thể hiện vai diễn và lắng nghe ý kiến bạn."
+          "- Giao tiếp và hợp tác: Biết trao đổi, thể hiện vai diễn và lắng nghe ý kiến bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong tình huống.",
+          "3. Phẩm chất",
+          "- Nhân ái: Yêu thương, quan tâm các thành viên trong gia đình.",
+          "- Trách nhiệm: Biết bảo vệ bản thân và giúp đỡ người thân phù hợp.",
+          "- Chăm chỉ: Tích cực tham gia ôn tập và vận dụng."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh tình huống trong chủ đề Gia đình, thẻ vai.",
@@ -1286,16 +1291,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong tình huống.",
-          "3. Phẩm chất",
-          "- Nhân ái: Yêu thương, quan tâm các thành viên trong gia đình.",
-          "- Trách nhiệm: Biết bảo vệ bản thân và giúp đỡ người thân phù hợp.",
-          "- Chăm chỉ: Tích cực tham gia ôn tập và vận dụng.",
           ".................................................................................................................................................................................",
           ".................................................................................................................................................................................",
-          ".................................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC"
+          "................................................................................................................................................................................."
         ],
         "tables": [
           [
@@ -1388,7 +1386,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 6: LỚP HỌC CỦA EM (TIẾT 1)",
@@ -1530,7 +1529,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: LỚP HỌC CỦA EM (TIẾT 1)"
       }
     ]
   },
@@ -1565,9 +1565,7 @@
         "dieuchinh": [
           ".................................................................................................................................................................................",
           ".................................................................................................................................................................................",
-          ".................................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC"
+          "................................................................................................................................................................................."
         ],
         "tables": [
           [
@@ -1672,7 +1670,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: LỚP HỌC CỦA EM (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 6: LỚP HỌC CỦA EM (TIẾT 3)",
@@ -1796,7 +1795,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: LỚP HỌC CỦA EM (TIẾT 3)"
       }
     ]
   },
@@ -1831,9 +1831,7 @@
         "dieuchinh": [
           ".................................................................................................................................................................................",
           ".................................................................................................................................................................................",
-          ".................................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC"
+          "................................................................................................................................................................................."
         ],
         "tables": [
           [
@@ -1942,7 +1940,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: CÙNG KHÁM PHÁ TRƯỜNG HỌC (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 7: CÙNG KHÁM PHÁ TRƯỜNG HỌC (TIẾT 2)",
@@ -2076,7 +2075,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: CÙNG KHÁM PHÁ TRƯỜNG HỌC (TIẾT 2)"
       }
     ]
   },
@@ -2112,9 +2112,7 @@
         "dieuchinh": [
           ".................................................................................................................................................................................",
           ".................................................................................................................................................................................",
-          ".................................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC"
+          "................................................................................................................................................................................."
         ],
         "tables": [
           [
@@ -2227,7 +2225,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: CÙNG KHÁM PHÁ TRƯỜNG HỌC (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 8: CÙNG VUI Ở TRƯỜNG (TIẾT 1)",
@@ -2370,7 +2369,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: CÙNG VUI Ở TRƯỜNG (TIẾT 1)"
       }
     ]
   },
@@ -2403,9 +2403,7 @@
         "dieuchinh": [
           ".................................................................................................................................................................................",
           ".................................................................................................................................................................................",
-          ".................................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC"
+          "................................................................................................................................................................................."
         ],
         "tables": [
           [
@@ -2506,7 +2504,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8: CÙNG VUI Ở TRƯỜNG (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 9: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC (TIẾT 1)",
@@ -2640,7 +2639,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC (TIẾT 1)"
       }
     ]
   },
@@ -2674,9 +2674,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 2: TRƯỜNG HỌC"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -2757,7 +2755,8 @@
               "- Ghi nhớ nhiệm vụ trải nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 9: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC (TIẾT 3)",
@@ -2767,7 +2766,15 @@
           "- Tự đánh giá được một số việc bản thân đã thực hiện sau chủ đề Trường học.",
           "- Biết lựa chọn hành động an toàn khi có người lạ hỏi địa chỉ, số điện thoại hoặc hình ảnh cá nhân.",
           "- Nói được cảm xúc của em về thầy cô, bạn bè và trường lớp.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết chia sẻ, lắng nghe khi trao đổi tình huống.",
+          "- Giải quyết vấn đề và sáng tạo: Biết từ chối và tìm người lớn hỗ trợ trong tình huống không an toàn.",
+          "3. Phẩm chất",
+          "- Nhân ái: Yêu quý thầy cô, bạn bè và mái trường.",
+          "- Trách nhiệm: Biết bảo vệ thông tin cá nhân và thực hiện hành vi an toàn.",
+          "- Chăm chỉ: Hoàn thành sản phẩm tự đánh giá cuối chủ đề.",
+          "4. Tích hợp",
+          "- Năng lực số 4.2.CB1a: Bảo vệ dữ liệu cá nhân; học sinh biết lựa chọn hành động an toàn khi có người lạ hỏi địa chỉ, số điện thoại hoặc hình ảnh cá nhân."
         ],
         "dodung": [
           "- SGK Tự nhiên và Xã hội 1; tranh ôn tập chủ đề Trường học.",
@@ -2776,14 +2783,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết chia sẻ, lắng nghe khi trao đổi tình huống.",
-          "- Giải quyết vấn đề và sáng tạo: Biết từ chối và tìm người lớn hỗ trợ trong tình huống không an toàn.",
-          "3. Phẩm chất",
-          "- Nhân ái: Yêu quý thầy cô, bạn bè và mái trường.",
-          "- Trách nhiệm: Biết bảo vệ thông tin cá nhân và thực hiện hành vi an toàn.",
-          "- Chăm chỉ: Hoàn thành sản phẩm tự đánh giá cuối chủ đề.",
-          "4. Tích hợp",
-          "- Năng lực số 4.2.CB1a: Bảo vệ dữ liệu cá nhân; học sinh biết lựa chọn hành động an toàn khi có người lạ hỏi địa chỉ, số điện thoại hoặc hình ảnh cá nhân.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................"
@@ -2867,7 +2866,8 @@
               "- Ghi nhớ nhiệm vụ trải nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC (TIẾT 3)"
       }
     ]
   },
@@ -2901,9 +2901,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -2988,7 +2986,8 @@
               "- Lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: CÙNG KHÁM PHÁ QUANG CẢNH XUNG QUANH (TIẾT 1)LỒNG GHÉP STEM: MÔ HÌNH QUANG CẢNH QUANH EM"
       },
       {
         "lessonTitle": "BÀI 10: CÙNG KHÁM PHÁ QUANG CẢNH XUNG QUANH (TIẾT 2)LỒNG GHÉP STEM: MÔ HÌNH QUANG CẢNH QUANH EM",
@@ -3000,7 +2999,11 @@
           "- Biết tham gia hoạt động xã hội phù hợp và thực hiện bổn phận giữ gìn cộng đồng sạch đẹp.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Thực hiện các bước làm sản phẩm theo hướng dẫn.",
-          "- Giao tiếp và hợp tác: Phối hợp, chia sẻ vật liệu và trình bày sản phẩm."
+          "- Giao tiếp và hợp tác: Phối hợp, chia sẻ vật liệu và trình bày sản phẩm.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: Giữ vệ sinh, bảo vệ cây xanh và cảnh quan cộng đồng.",
+          "- Chăm chỉ: Tích cực hoàn thiện sản phẩm.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK Tự nhiên và Xã hội 1; tranh quang cảnh nông thôn, thành phố.",
@@ -3009,11 +3012,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
           "- Yêu quê hương: Trân trọng vẻ đẹp của nơi em sống.",
-          "- Trách nhiệm: Giữ vệ sinh, bảo vệ cây xanh và cảnh quan cộng đồng.",
-          "- Chăm chỉ: Tích cực hoàn thiện sản phẩm.",
-          "4. Tích hợp",
           "- Quyền trẻ em: Học sinh có quyền được tham gia những hoạt động xã hội phù hợp ở cộng đồng.",
           "- Bổn phận của trẻ em đối với cộng đồng, xã hội: Biết giữ gìn vệ sinh, bảo vệ cây xanh, tôn trọng cảnh quan và nhắc nhở nhau thực hiện việc tốt.",
           "................................................................................................................................................",
@@ -3096,7 +3095,8 @@
               "- Lắng nghe; mang thông điệp về chia sẻ với gia đình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: CÙNG KHÁM PHÁ QUANG CẢNH XUNG QUANH (TIẾT 2)LỒNG GHÉP STEM: MÔ HÌNH QUANG CẢNH QUANH EM"
       }
     ]
   },
@@ -3134,9 +3134,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -3233,7 +3231,8 @@
               "- Trình bày; lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: CON NGƯỜI NƠI EM SỐNG (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 11: CON NGƯỜI NƠI EM SỐNG (TIẾT 2)",
@@ -3334,7 +3333,8 @@
               "- Ghi nhớ nhiệm vụ trải nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: CON NGƯỜI NƠI EM SỐNG (TIẾT 2)"
       }
     ]
   },
@@ -3370,9 +3370,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -3453,7 +3451,8 @@
               "- Hoàn thành sản phẩm và mang về chia sẻ với gia đình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: VUI ĐÓN TẾT (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 12: VUI ĐÓN TẾT (TIẾT 2)",
@@ -3560,7 +3559,8 @@
               "- Lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: VUI ĐÓN TẾT (TIẾT 2)"
       }
     ]
   },
@@ -3597,9 +3597,7 @@
         "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TỰ NHIÊN VÀ XÃ HỘI",
-          "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -3715,7 +3713,8 @@
               "- Lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 13: AN TOÀN TRÊN ĐƯỜNG (TIẾT 1)LỒNG GHÉP STEM: MÔ HÌNH ĐÈN HIỆU VÀ BIỂN BÁO GIAO THÔNG"
       },
       {
         "lessonTitle": "BÀI 13: AN TOÀN TRÊN ĐƯỜNG (TIẾT 2)LỒNG GHÉP STEM: MÔ HÌNH ĐÈN HIỆU VÀ BIỂN BÁO GIAO THÔNG",
@@ -3856,7 +3855,8 @@
               "- Trình bày; ghi nhớ và thực hiện trong cuộc sống."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 13: AN TOÀN TRÊN ĐƯỜNG (TIẾT 2)LỒNG GHÉP STEM: MÔ HÌNH ĐÈN HIỆU VÀ BIỂN BÁO GIAO THÔNG"
       }
     ]
   },
@@ -4003,7 +4003,8 @@
               "- Lắng nghe và thực hiện trong cuộc sống."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 14: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 14: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)",
@@ -4115,7 +4116,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 14: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)"
       }
     ]
   },
@@ -4234,7 +4236,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TỰ NHIÊN VÀ XÃ HỘI"
       },
       {
         "lessonTitle": "BÀI 15: CÂY XUNG QUANH EM (TIẾT 1)",
@@ -4357,7 +4360,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: CÂY XUNG QUANH EM (TIẾT 1)"
       }
     ]
   },
@@ -4489,7 +4493,8 @@
               "- Ghi nhớ nhiệm vụ, chuẩn bị vật liệu."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: CÂY XUNG QUANH EM (TIẾT 2) - LỒNG GHÉP STEM"
       },
       {
         "lessonTitle": "BÀI 15: CÂY XUNG QUANH EM (TIẾT 3) - LỒNG GHÉP STEM",
@@ -4591,7 +4596,8 @@
               "- Lắng nghe, tự đánh giá sản phẩm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: CÂY XUNG QUANH EM (TIẾT 3) - LỒNG GHÉP STEM"
       }
     ]
   },
@@ -4718,7 +4724,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: CHĂM SÓC VÀ BẢO VỆ CÂY TRỒNG (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 16: CHĂM SÓC VÀ BẢO VỆ CÂY TRỒNG (TIẾT 2)",
@@ -4826,7 +4833,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: CHĂM SÓC VÀ BẢO VỆ CÂY TRỒNG (TIẾT 2)"
       }
     ]
   },
@@ -4946,7 +4954,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17: CON VẬT QUANH EM (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 17: CON VẬT QUANH EM (TIẾT 2)",
@@ -5053,7 +5062,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17: CON VẬT QUANH EM (TIẾT 2)"
       }
     ]
   },
@@ -5182,7 +5192,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17: CON VẬT QUANH EM (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 18: CHĂM SÓC VÀ BẢO VỆ VẬT NUÔI (TIẾT 1)",
@@ -5311,7 +5322,8 @@
               "- Ghi nhớ nhiệm vụ, chuẩn bị vật liệu."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 18: CHĂM SÓC VÀ BẢO VỆ VẬT NUÔI (TIẾT 1)"
       }
     ]
   },
@@ -5443,7 +5455,8 @@
               "- Lắng nghe, tự đánh giá sản phẩm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 18: CHĂM SÓC VÀ BẢO VỆ VẬT NUÔI (TIẾT 2) - LỒNG GHÉP STEM"
       },
       {
         "lessonTitle": "BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)",
@@ -5558,7 +5571,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)"
       }
     ]
   },
@@ -5680,7 +5694,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 3)",
@@ -5801,7 +5816,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 19: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 3)"
       }
     ]
   },
@@ -5939,7 +5955,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20: CƠ THỂ EM (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 20: CƠ THỂ EM (TIẾT 2)",
@@ -6056,7 +6073,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20: CƠ THỂ EM (TIẾT 2)"
       }
     ]
   },
@@ -6184,7 +6202,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20: CƠ THỂ EM (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 1)",
@@ -6306,7 +6325,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 1)"
       }
     ]
   },
@@ -6438,7 +6458,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 3)",
@@ -6571,7 +6592,8 @@
               "- Lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: CÁC GIÁC QUAN CỦA CƠ THỂ (TIẾT 3)"
       }
     ]
   },
@@ -6699,7 +6721,8 @@
               "- Ghi nhớ và thực hiện cùng gia đình."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: ĂN, UỐNG HẰNG NGÀY (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 22: ĂN, UỐNG HẰNG NGÀY (TIẾT 2)",
@@ -6812,7 +6835,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: ĂN, UỐNG HẰNG NGÀY (TIẾT 2)"
       }
     ]
   },
@@ -6934,7 +6958,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 23: VẬN ĐỘNG VÀ NGHỈ NGƠI (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 23: VẬN ĐỘNG VÀ NGHỈ NGƠI (TIẾT 2)",
@@ -7049,7 +7074,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 23: VẬN ĐỘNG VÀ NGHỈ NGƠI (TIẾT 2)"
       }
     ]
   },
@@ -7168,7 +7194,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24: TỰ BẢO VỆ MÌNH (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 24: TỰ BẢO VỆ MÌNH (TIẾT 2)",
@@ -7279,7 +7306,8 @@
               "- Lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24: TỰ BẢO VỆ MÌNH (TIẾT 2)"
       }
     ]
   },
@@ -7401,7 +7429,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)",
@@ -7516,7 +7545,8 @@
               "- Lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)"
       }
     ]
   },
@@ -7630,7 +7660,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 1)",
@@ -7742,7 +7773,8 @@
               "- Ghi nhớ, bảo quản phiếu."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 1)"
       }
     ]
   },
@@ -7877,7 +7909,8 @@
               "- Lắng nghe, tự đánh giá sản phẩm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 2) - LỒNG GHÉP STEM: BẦU TRỜI NGÀY VÀ ĐÊM"
       },
       {
         "lessonTitle": "BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 3)",
@@ -7992,7 +8025,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26: CÙNG KHÁM PHÁ BẦU TRỜI (TIẾT 3)"
       }
     ]
   },
@@ -8123,7 +8157,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 2)",
@@ -8238,7 +8273,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 2)"
       }
     ]
   },
@@ -8360,7 +8396,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27: THỜI TIẾT LUÔN THAY ĐỔI (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 28: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 1)",
@@ -8471,7 +8508,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 1)"
       }
     ]
   },
@@ -8497,18 +8535,9 @@
           "- Nhân ái: Biết quan tâm, nhắc nhở bạn và người thân cùng thực hiện việc tốt.",
           "4. Tích hợp",
           "- Năng lực số 2.1.CB1a: Lựa chọn được phương tiện giao tiếp đơn giản thích hợp cho một bối cảnh cụ thể.",
-          "1. Năng lực đặc thù",
           "- Hệ thống được các kiến thức trọng tâm đã học trong học kì II.",
           "- Vận dụng được kiến thức để lựa chọn việc làm chăm sóc sức khỏe, bảo vệ bản thân và ứng xử phù hợp với thời tiết.",
-          "- Tự đánh giá được một số việc bản thân đã làm được.",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: Chủ động quan sát tranh, thực hiện nhiệm vụ học tập phù hợp.",
-          "- Giao tiếp và hợp tác: Trao đổi, trình bày ý kiến và lắng nghe bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong tình huống gần gũi.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập.",
-          "- Trách nhiệm: Có ý thức chăm sóc sức khỏe và bảo vệ bản thân.",
-          "- Nhân ái: Biết quan tâm, nhắc nhở bạn và người thân cùng thực hiện việc tốt."
+          "- Tự đánh giá được một số việc bản thân đã làm được."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh họa được cắt theo nội dung quan sát, phiếu học tập, máy tính/máy chiếu khi cần.",
@@ -8690,7 +8719,8 @@
               "- Ghi nhớ, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 2)"
       }
     ]
   }
@@ -8708,5 +8738,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

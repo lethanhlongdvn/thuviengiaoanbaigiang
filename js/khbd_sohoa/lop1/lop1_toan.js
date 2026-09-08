@@ -176,7 +176,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI: TIẾT HỌC ĐẦU TIÊN"
       },
       {
         "lessonTitle": "BÀI 1: CÁC SỐ 0, 1, 2, 3, 4, 5 - TIẾT 1",
@@ -359,7 +360,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: CÁC SỐ 0, 1, 2, 3, 4, 5 - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 1: CÁC SỐ 0, 1, 2, 3, 4, 5 - TIẾT 2: LUYỆN TẬP",
@@ -522,7 +524,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: CÁC SỐ 0, 1, 2, 3, 4, 5 - TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -695,7 +698,8 @@
               "- HS hào hứng chuẩn bị bài mới."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: CÁC SỐ 0, 1, 2, 3, 4, 5 - TIẾT 3 (LUYỆN TẬP)"
       },
       {
         "lessonTitle": "BÀI 2: CÁC SỐ 6, 7, 8, 9, 10 - TIẾT 1",
@@ -854,7 +858,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: CÁC SỐ 6, 7, 8, 9, 10 - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 2: CÁC SỐ 6, 7, 8, 9, 10 - TIẾT 2: LUYỆN TẬP",
@@ -1021,7 +1026,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: CÁC SỐ 6, 7, 8, 9, 10 - TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -1190,7 +1196,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: CÁC SỐ 6, 7, 8, 9, 10 - TIẾT 3"
       },
       {
         "lessonTitle": "BÀI 3: NHIỀU HƠN, ÍT HƠN, BẰNG NHAU - TIẾT 1",
@@ -1369,7 +1376,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: NHIỀU HƠN, ÍT HƠN, BẰNG NHAU - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 3: NHIỀU HƠN, ÍT HƠN, BẰNG NHAU - TIẾT 2: LUYỆN TẬP",
@@ -1521,7 +1529,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3: NHIỀU HƠN, ÍT HƠN, BẰNG NHAU - TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -1709,7 +1718,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: SO SÁNH SỐ - TIẾT 1: LỚN HƠN, DẤU >"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: DỤNG CỤ SO SÁNH SỐ TRONG PHẠM VI 10 - TIẾT 1 (TIẾT 2 TRONG TUẦN 4)",
@@ -1720,7 +1730,14 @@
           "- So sánh được hai số trong phạm vi 10 bằng các dấu >, <, =.",
           "- Mô tả được yêu cầu của dụng cụ so sánh số và thực hiện được một số thao tác đơn giản để tạo sản phẩm.",
           "- Sử dụng được sản phẩm để luyện so sánh số trong phạm vi 10.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi ý tưởng, phân công nhiệm vụ khi làm việc nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Đề xuất, chế tạo và thử nghiệm dụng cụ so sánh số.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì thực hiện các thao tác tạo sản phẩm.",
+          "- Trách nhiệm: Sử dụng kéo, vật liệu đúng cách; giữ vệ sinh và bảo quản sản phẩm.",
+          "- Nhân ái: Hỗ trợ bạn trong hoạt động nhóm.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1732,13 +1749,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi ý tưởng, phân công nhiệm vụ khi làm việc nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Đề xuất, chế tạo và thử nghiệm dụng cụ so sánh số.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì thực hiện các thao tác tạo sản phẩm.",
-          "- Trách nhiệm: Sử dụng kéo, vật liệu đúng cách; giữ vệ sinh và bảo quản sản phẩm.",
-          "- Nhân ái: Hỗ trợ bạn trong hoạt động nhóm.",
-          "4. Tích hợp",
           "........................................................................................................................................................................",
           "........................................................................................................................................................................",
           "........................................................................................................................................................................"
@@ -1845,7 +1855,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: DỤNG CỤ SO SÁNH SỐ TRONG PHẠM VI 10 - TIẾT 1 (TIẾT 2 TRONG TUẦN 4)"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: DỤNG CỤ SO SÁNH SỐ TRONG PHẠM VI 10 - TIẾT 2 (TIẾT 3 TRONG TUẦN 4)",
@@ -1854,7 +1865,15 @@
           "Số tiết thực hiện: 01 tiết - Thay cho Bài 4: So sánh số - Tiết 3 theo KHGD    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đề xuất và thực hiện được cách làm dụng cụ so sánh số bằng vật liệu đơn giản.",
-          "- Sử dụng được dụng cụ để biểu diễn các dấu >, <, = khi so sánh hai số trong phạm vi 10."
+          "- Sử dụng được dụng cụ để biểu diễn các dấu >, <, = khi so sánh hai số trong phạm vi 10.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động thực hiện phần việc và tự kiểm tra sản phẩm.",
+          "- Giao tiếp và hợp tác: Phân công, hỗ trợ nhau trong quá trình chế tạo và thử nghiệm.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì hoàn thiện sản phẩm.",
+          "- Trách nhiệm: Sử dụng kéo, vật liệu an toàn và giữ vệ sinh khu vực học tập.",
+          "- Nhân ái: Tôn trọng, góp ý và hỗ trợ sản phẩm của nhóm bạn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1866,14 +1885,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: Chủ động thực hiện phần việc và tự kiểm tra sản phẩm.",
-          "- Giao tiếp và hợp tác: Phân công, hỗ trợ nhau trong quá trình chế tạo và thử nghiệm.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì hoàn thiện sản phẩm.",
-          "- Trách nhiệm: Sử dụng kéo, vật liệu an toàn và giữ vệ sinh khu vực học tập.",
-          "- Nhân ái: Tôn trọng, góp ý và hỗ trợ sản phẩm của nhóm bạn.",
-          "4. Tích hợp",
           "........................................................................................................................................................................",
           "........................................................................................................................................................................",
           "........................................................................................................................................................................",
@@ -1993,7 +2004,8 @@
               "- HS ghi nhớ và bảo quản sản phẩm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: DỤNG CỤ SO SÁNH SỐ TRONG PHẠM VI 10 - TIẾT 2 (TIẾT 3 TRONG TUẦN 4)"
       }
     ]
   },
@@ -2158,7 +2170,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4: SO SÁNH SỐ - TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 5: MẤY VÀ MẤY - TIẾT 1",
@@ -2305,7 +2318,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: MẤY VÀ MẤY - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 5: MẤY VÀ MẤY - TIẾT 2",
@@ -2460,7 +2474,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: MẤY VÀ MẤY - TIẾT 2"
       }
     ]
   },
@@ -2477,7 +2492,13 @@
           "- Củng cố mối liên hệ giữa các số trong phạm vi 10.",
           "- Điền được số thích hợp khi gộp hai nhóm hoặc tách một số thành hai nhóm.",
           "- Diễn đạt được kết quả theo mẫu “... và ... được ...”, “... gồm ... và ...”.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2487,14 +2508,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2603,7 +2617,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5: MẤY VÀ MẤY - TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 6: LUYỆN TẬP CHUNG - TIẾT 1",
@@ -2614,7 +2629,13 @@
           "- Đếm, đọc, viết được các số trong phạm vi 10.",
           "- Nhận biết số lượng đồ vật và điền đúng số tương ứng.",
           "- Vận dụng việc đếm vào tình huống tranh gần gũi.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2624,14 +2645,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2732,7 +2746,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: LUYỆN TẬP CHUNG - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 6: LUYỆN TẬP CHUNG - TIẾT 2",
@@ -2743,7 +2758,13 @@
           "- Điền được số liền trước, số liền sau trong dãy số từ 0 đến 10.",
           "- Ghi đúng số lượng sự vật trong tranh.",
           "- Nhận biết thứ tự số thông qua tranh nối điểm và lựa chọn nhóm nhiều nhất, ít nhất.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2753,14 +2774,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2861,7 +2875,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6: LUYỆN TẬP CHUNG - TIẾT 2"
       }
     ]
   },
@@ -2878,7 +2893,13 @@
           "- Vận dụng đếm, đọc, viết, so sánh và sắp xếp các số trong phạm vi 10.",
           "- Nhận biết được yêu cầu của sản phẩm thẻ học Toán.",
           "- Lựa chọn được thẻ hình phù hợp với thẻ số trong nhiệm vụ luyện tập.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động nhận biết và thiết kế thẻ.",
+          "- Trách nhiệm: Chuẩn bị vật liệu, giữ vệ sinh khi thực hành.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2889,13 +2910,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động nhận biết và thiết kế thẻ.",
-          "- Trách nhiệm: Chuẩn bị vật liệu, giữ vệ sinh khi thực hành.",
-          "- Hợp tác: Biết trao đổi ý tưởng và hỗ trợ bạn.",
-          "4. Tích hợp"
+          "- Hợp tác: Biết trao đổi ý tưởng và hỗ trợ bạn."
         ],
         "tables": [
           [
@@ -2981,7 +2996,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: THỰC HÀNH CÙNG THẺ HỌC TOÁN - TIẾT 1 (TIẾT 1 TRONG TUẦN 7)"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH CÙNG THẺ HỌC TOÁN - TIẾT 2 (TIẾT 2 TRONG TUẦN 7)",
@@ -2990,7 +3006,14 @@
           "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đề xuất và thực hiện được cách làm thẻ học Toán bằng vật liệu đơn giản.",
-          "- Sử dụng được thẻ để đếm, đọc, so sánh và sắp xếp số trong phạm vi 10."
+          "- Sử dụng được thẻ để đếm, đọc, so sánh và sắp xếp số trong phạm vi 10.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì hoàn thành sản phẩm.",
+          "- Trách nhiệm: Sử dụng kéo an toàn, thu dọn vật liệu sau hoạt động.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3000,14 +3023,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì hoàn thành sản phẩm.",
-          "- Trách nhiệm: Sử dụng kéo an toàn, thu dọn vật liệu sau hoạt động.",
-          "- Hợp tác: Phân công và hỗ trợ bạn trong nhóm.",
-          "4. Tích hợp"
+          "- Hợp tác: Phân công và hỗ trợ bạn trong nhóm."
         ],
         "tables": [
           [
@@ -3093,7 +3109,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: THỰC HÀNH CÙNG THẺ HỌC TOÁN - TIẾT 2 (TIẾT 2 TRONG TUẦN 7)"
       },
       {
         "lessonTitle": "BÀI 7: HÌNH VUÔNG, HÌNH TRÒN, HÌNH TAM GIÁC, HÌNH CHỮ NHẬT - TIẾT 1",
@@ -3104,7 +3121,15 @@
           "- Nhận dạng và gọi đúng tên hình vuông, hình tròn, hình tam giác, hình chữ nhật qua vật thật và hình vẽ.",
           "- Phân loại được một số hình theo tên gọi.",
           "- Đếm được số hình đơn giản trong hình ghép.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "4. Tích hợp",
+          "- Tích hợp AI - 1.C1.3: Hiểu AI có thể xử lí hình ảnh nhận được từ camera để nhận diện đồ vật có dạng hình vuông, hình tròn, hình tam giác, hình chữ nhật."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3115,15 +3140,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "4. Tích hợp",
-          "- Giáo dục công dân số: Tìm kiếm được dữ liệu, thông tin và nội dung hướng dẫn cách làm sản phẩm trang trí lớp học bằng các hình hình học trên Internet dưới sự hướng dẫn của giáo viên.",
-          "- Tích hợp AI - 1.C1.3: Hiểu AI có thể xử lí hình ảnh nhận được từ camera để nhận diện đồ vật có dạng hình vuông, hình tròn, hình tam giác, hình chữ nhật."
+          "- Giáo dục công dân số: Tìm kiếm được dữ liệu, thông tin và nội dung hướng dẫn cách làm sản phẩm trang trí lớp học bằng các hình hình học trên Internet dưới sự hướng dẫn của giáo viên."
         ],
         "tables": [
           [
@@ -3245,7 +3262,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: HÌNH VUÔNG, HÌNH TRÒN, HÌNH TAM GIÁC, HÌNH CHỮ NHẬT - TIẾT 1"
       }
     ]
   },
@@ -3262,7 +3280,13 @@
           "- Củng cố nhận dạng bốn hình phẳng qua hình rời, hình ghép và đồ vật.",
           "- Đếm được số hình theo từng loại trong tranh.",
           "- Xác định được hình không thuộc nhóm theo yêu cầu.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3272,14 +3296,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3372,7 +3389,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7: HÌNH VUÔNG, HÌNH TRÒN, HÌNH TAM GIÁC, HÌNH CHỮ NHẬT - TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH TRANG TRÍ LỚP HỌC BẰNG CÁC HÌNH HÌNH HỌC - TIẾT 1 (TIẾT 2 TRONG TUẦN 8)",
@@ -3383,7 +3401,14 @@
           "- Vận dụng nhận biết hình vuông, hình tròn, hình tam giác, hình chữ nhật trong sản phẩm trang trí.",
           "- Nêu được yêu cầu và đề xuất ý tưởng cho sản phẩm trang trí lớp học.",
           "- Chọn được vật liệu phù hợp để làm sản phẩm.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực quan sát, đề xuất ý tưởng.",
+          "- Trách nhiệm: Giữ gìn vật liệu và sử dụng thiết bị/học liệu đúng hướng dẫn.",
+          "4. Tích hợp",
+          "- Tích hợp AI - 1.C1.2: Hiểu camera là “mắt” giúp thiết bị/robot thu nhận hình ảnh; AI có thể xử lí hình ảnh để nhận diện các mảnh ghép khi thực hiện nhiệm vụ xếp hình."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3394,14 +3419,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực quan sát, đề xuất ý tưởng.",
-          "- Trách nhiệm: Giữ gìn vật liệu và sử dụng thiết bị/học liệu đúng hướng dẫn.",
-          "- Hợp tác: Biết thống nhất ý tưởng trong nhóm.",
-          "4. Tích hợp",
-          "- Tích hợp AI - 1.C1.2: Hiểu camera là “mắt” giúp thiết bị/robot thu nhận hình ảnh; AI có thể xử lí hình ảnh để nhận diện các mảnh ghép khi thực hiện nhiệm vụ xếp hình."
+          "- Hợp tác: Biết thống nhất ý tưởng trong nhóm."
         ],
         "tables": [
           [
@@ -3487,7 +3505,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: THỰC HÀNH TRANG TRÍ LỚP HỌC BẰNG CÁC HÌNH HÌNH HỌC - TIẾT 1 (TIẾT 2 TRONG TUẦN 8)"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH TRANG TRÍ LỚP HỌC BẰNG CÁC HÌNH HÌNH HỌC - TIẾT 2 (TIẾT 3 TRONG TUẦN 8)",
@@ -3496,7 +3515,15 @@
           "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Làm được sản phẩm trang trí lớp học từ các hình phẳng đã học.",
-          "- Giới thiệu được hình dạng sử dụng trong sản phẩm."
+          "- Giới thiệu được hình dạng sử dụng trong sản phẩm.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì thực hiện sản phẩm.",
+          "- Trách nhiệm: Thao tác an toàn và giữ vệ sinh lớp học.",
+          "4. Tích hợp",
+          "- Tích hợp AI - 1.C1.2: Hiểu camera là “mắt” giúp thiết bị/robot thu nhận hình ảnh; AI có thể xử lí hình ảnh để nhận diện các mảnh ghép khi thực hiện nhiệm vụ xếp hình."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3506,15 +3533,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Kiên trì thực hiện sản phẩm.",
-          "- Trách nhiệm: Thao tác an toàn và giữ vệ sinh lớp học.",
-          "- Hợp tác: Phân công, hỗ trợ và góp ý lịch sự.",
-          "4. Tích hợp",
-          "- Tích hợp AI - 1.C1.2: Hiểu camera là “mắt” giúp thiết bị/robot thu nhận hình ảnh; AI có thể xử lí hình ảnh để nhận diện các mảnh ghép khi thực hiện nhiệm vụ xếp hình."
+          "- Hợp tác: Phân công, hỗ trợ và góp ý lịch sự."
         ],
         "tables": [
           [
@@ -3596,7 +3615,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: THỰC HÀNH TRANG TRÍ LỚP HỌC BẰNG CÁC HÌNH HÌNH HỌC - TIẾT 2 (TIẾT 3 TRONG TUẦN 8)"
       }
     ]
   },
@@ -3613,7 +3633,13 @@
           "- Nhận dạng, gọi tên đúng các hình đã học qua đồ vật và hình vẽ.",
           "- Xếp, ghép được các hình theo yêu cầu.",
           "- Nhận biết được quy luật đơn giản về màu sắc hoặc hình dạng.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3623,14 +3649,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3723,7 +3742,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9: LUYỆN TẬP CHUNG"
       },
       {
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 1: GỘP LẠI THÌ BẰNG MẤY?",
@@ -3734,7 +3754,13 @@
           "- Nhận biết ý nghĩa ban đầu của phép cộng là gộp hai nhóm lại.",
           "- Viết và đọc được phép cộng phù hợp với tranh.",
           "- Tìm được kết quả phép cộng bằng cách đếm tất cả trong phạm vi 5.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3744,14 +3770,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3844,7 +3863,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 1: GỘP LẠI THÌ BẰNG MẤY?"
       },
       {
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 2: LUYỆN TẬP",
@@ -3855,7 +3875,13 @@
           "- Củng cố ý nghĩa phép cộng theo tình huống gộp lại.",
           "- Tính được các phép cộng trong phạm vi 6.",
           "- Viết được phép cộng phù hợp với tranh và hoàn thành phép tính còn thiếu.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3865,14 +3891,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3961,7 +3980,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -3978,7 +3998,13 @@
           "- Nhận biết ý nghĩa phép cộng là thêm vào.",
           "- Tìm được kết quả phép cộng bằng cách đếm thêm.",
           "- Thực hiện được một số phép cộng trong phạm vi 10.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3988,14 +4014,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4088,7 +4107,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 3: THÊM VÀO THÌ BẰNG MẤY?"
       },
       {
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 4: SỐ 0 TRONG PHÉP CỘNG",
@@ -4099,7 +4119,13 @@
           "- Nhận biết được đặc điểm của phép cộng với 0.",
           "- Thực hiện được phép cộng có một số hạng bằng 0.",
           "- Viết được phép cộng phù hợp với tranh và nối đúng kết quả.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4109,14 +4135,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4224,7 +4243,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 4: SỐ 0 TRONG PHÉP CỘNG"
       },
       {
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 5: LUYỆN TẬP",
@@ -4235,7 +4255,13 @@
           "- Tính được phép cộng trong phạm vi 10.",
           "- Bước đầu nhận biết khi đổi chỗ hai số trong phép cộng thì kết quả không thay đổi qua các ví dụ cụ thể.",
           "- Giải quyết được nhiệm vụ theo tranh và trò chơi ghép thẻ phép tính - kết quả.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4245,14 +4271,7 @@
           "- SGK Toán 1; bộ đồ dùng học Toán; bảng con; vở/bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe và hỗ trợ bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết nhiệm vụ gắn với tranh hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết đúng kết quả quan sát và tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng, thực hiện nhiệm vụ cá nhân và nhiệm vụ nhóm."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4368,7 +4387,8 @@
               "IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)\n........................................................................................................................................................\n........................................................................................................................................................"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 5: LUYỆN TẬP"
       }
     ]
   },
@@ -4385,7 +4405,14 @@
           "- Củng cố cách tính cộng trong phạm vi 10 bằng đếm thêm và ghi nhớ bảng cộng.",
           "- Viết được phép cộng thích hợp với tranh và tình huống thực tế.",
           "- Kiểm tra, trình bày được bài làm rõ ràng trước khi nộp.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4396,14 +4423,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "4. Tích hợp",
-          "- Giáo dục công dân số (CDS): Sử dụng được một số chức năng và tính năng cơ bản của điện thoại thông minh để chụp ảnh bài làm và gửi bài của mình vào Zalo cho cô giáo kiểm soát.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -4498,7 +4517,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 6: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 1",
@@ -4509,7 +4529,13 @@
           "- Nhận biết được ý nghĩa của phép trừ qua tình huống “bớt đi” hoặc “tách ra”.",
           "- Viết và đọc được phép trừ phù hợp với tranh trong phạm vi 10.",
           "- Tìm được kết quả phép trừ bằng cách đếm số còn lại hoặc đếm bớt.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4520,12 +4546,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -4608,7 +4628,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 2: LUYỆN TẬP",
@@ -4619,7 +4640,13 @@
           "- Thực hiện được phép trừ trong phạm vi 10.",
           "- Viết được phép trừ phù hợp với tranh; giải thích được cách tính.",
           "- Rèn kĩ năng tính nhẩm, trình bày và tự kiểm tra kết quả.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4630,12 +4657,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................",
           "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
@@ -4708,7 +4729,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -4725,7 +4747,15 @@
           "- Thực hiện được phép trừ trong phạm vi 10.",
           "- Viết được phép trừ phù hợp với tranh; giải thích được cách tính.",
           "- Rèn kĩ năng tính nhẩm, trình bày và tự kiểm tra kết quả.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "4. Tích hợp",
+          "- Năng lực số 2.1.CB1a: Lựa chọn được các phương tiện giao tiếp đơn giản thích hợp cho một bối cảnh cụ thể."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4736,14 +4766,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "4. Tích hợp",
-          "- Năng lực số 2.1.CB1a: Lựa chọn được các phương tiện giao tiếp đơn giản thích hợp cho một bối cảnh cụ thể.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -4838,7 +4860,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 4: SỐ 0 TRONG PHÉP TRỪ",
@@ -4849,7 +4872,13 @@
           "- Nhận biết được số nào trừ 0 cũng bằng chính số đó; số nào trừ chính số đó bằng 0.",
           "- Thực hiện được phép trừ có số 0 trong phạm vi 10.",
           "- Viết được phép trừ phù hợp với tranh minh hoạ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4860,12 +4889,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -4940,7 +4963,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 4: SỐ 0 TRONG PHÉP TRỪ"
       },
       {
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 5: BẢNG TRỪ",
@@ -4951,7 +4975,13 @@
           "- Hình thành và sử dụng được một phần bảng trừ trong phạm vi 10.",
           "- Tính nhẩm được các phép trừ dựa vào quy luật và bảng trừ.",
           "- Giải quyết được bài tập gắn với tranh, trò chơi hoặc tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4962,12 +4992,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................",
           "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
@@ -5036,7 +5060,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 5: BẢNG TRỪ"
       }
     ]
   },
@@ -5053,7 +5078,13 @@
           "- Thực hiện được phép trừ và biểu thức có hai dấu phép tính trong phạm vi 10.",
           "- Nêu được phép tính phù hợp với tình huống qua tranh.",
           "- Tham gia trò chơi vận dụng phép trừ chính xác.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5064,12 +5095,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -5129,7 +5154,8 @@
               "- HS lắng nghe và tự đánh giá."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 6: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 12: BẢNG CỘNG, BẢNG TRỪ TRONG PHẠM VI 10 - TIẾT 1: BẢNG CỘNG",
@@ -5140,7 +5166,13 @@
           "- Nhận biết cấu tạo bảng cộng trong phạm vi 10.",
           "- Điền và sử dụng được bảng cộng để tìm kết quả phép tính.",
           "- Rèn thói quen đọc, ghi nhớ bảng cộng theo hàng/cột.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5151,12 +5183,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -5219,7 +5245,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: BẢNG CỘNG, BẢNG TRỪ TRONG PHẠM VI 10 - TIẾT 1: BẢNG CỘNG"
       },
       {
         "lessonTitle": "BÀI 12: BẢNG CỘNG, BẢNG TRỪ TRONG PHẠM VI 10 - TIẾT 2: BẢNG TRỪ",
@@ -5230,7 +5257,13 @@
           "- Nhận biết cấu tạo bảng trừ trong phạm vi 10.",
           "- Điền được kết quả còn thiếu và sử dụng bảng trừ để tính nhẩm.",
           "- So sánh được cách đọc bảng cộng và bảng trừ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5241,12 +5274,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................",
           "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
@@ -5310,7 +5337,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: BẢNG CỘNG, BẢNG TRỪ TRONG PHẠM VI 10 - TIẾT 2: BẢNG TRỪ"
       }
     ]
   },
@@ -5327,7 +5355,13 @@
           "- Vận dụng bảng cộng, bảng trừ để tính nhẩm trong phạm vi 10.",
           "- Điền được số còn thiếu trong các phép tính.",
           "- Giải quyết được tình huống tranh bằng phép cộng hoặc phép trừ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5338,12 +5372,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -5399,7 +5427,8 @@
               "- HS ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: BẢNG CỘNG, BẢNG TRỪ TRONG PHẠM VI 10 - TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: DỤNG CỤ TÍNH CỘNG, TÍNH TRỪ - TIẾT 1 (TIẾT 2 TRONG TUẦN 14)",
@@ -5410,7 +5439,14 @@
           "- Viết được các số theo thứ tự từ 0 đến 10 để tạo thành băng số.",
           "- Thực hiện được phép cộng, phép trừ trong phạm vi 10 bằng thao tác di chuyển thanh trượt.",
           "- Hợp tác thiết kế, sử dụng và giới thiệu sản phẩm học tập.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5420,13 +5456,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "4. Tích hợp",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -5485,7 +5514,8 @@
               "- HS thu dọn và chuẩn bị vật liệu."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: DỤNG CỤ TÍNH CỘNG, TÍNH TRỪ - TIẾT 1 (TIẾT 2 TRONG TUẦN 14)"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: DỤNG CỤ TÍNH CỘNG, TÍNH TRỪ - TIẾT 2 (TIẾT 3 TRONG TUẦN 14)",
@@ -5496,7 +5526,14 @@
           "- Viết được các số theo thứ tự từ 0 đến 10 để tạo thành băng số.",
           "- Thực hiện được phép cộng, phép trừ trong phạm vi 10 bằng thao tác di chuyển thanh trượt.",
           "- Hợp tác thiết kế, sử dụng và giới thiệu sản phẩm học tập.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5506,13 +5543,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "4. Tích hợp",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -5571,7 +5601,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: DỤNG CỤ TÍNH CỘNG, TÍNH TRỪ - TIẾT 2 (TIẾT 3 TRONG TUẦN 14)"
       }
     ]
   },
@@ -5586,7 +5617,15 @@
           "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Vận dụng được bảng cộng, bảng trừ trong phạm vi 10 để tính nhẩm.",
-          "- Thiết kế và sử dụng được bộ thẻ/trò chơi tính nhẩm đơn giản."
+          "- Thiết kế và sử dụng được bộ thẻ/trò chơi tính nhẩm đơn giản.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5596,14 +5635,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "4. Tích hợp",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -5658,7 +5689,8 @@
               "- HS lắng nghe và chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: THỰC HÀNH TÍNH NHẨM - TIẾT 1 (TIẾT 1 TRONG TUẦN 15)"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH TÍNH NHẨM - TIẾT 2 (TIẾT 2 TRONG TUẦN 15)",
@@ -5667,7 +5699,15 @@
           "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Vận dụng được bảng cộng, bảng trừ trong phạm vi 10 để tính nhẩm.",
-          "- Thiết kế và sử dụng được bộ thẻ/trò chơi tính nhẩm đơn giản."
+          "- Thiết kế và sử dụng được bộ thẻ/trò chơi tính nhẩm đơn giản.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5677,14 +5717,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "4. Tích hợp",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -5739,7 +5771,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: THỰC HÀNH TÍNH NHẨM - TIẾT 2 (TIẾT 2 TRONG TUẦN 15)"
       },
       {
         "lessonTitle": "BÀI 14: KHỐI LẬP PHƯƠNG, KHỐI HỘP CHỮ NHẬT - TIẾT 2: LUYỆN TẬP",
@@ -5750,7 +5783,13 @@
           "- Nhận dạng được khối lập phương và khối hộp chữ nhật qua vật thật và hình vẽ.",
           "- Đếm, xếp, ghép được một số khối lập phương theo mẫu.",
           "- Liên hệ được hình khối với đồ vật xung quanh.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5761,12 +5800,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -5833,7 +5866,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 14: KHỐI LẬP PHƯƠNG, KHỐI HỘP CHỮ NHẬT - TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -5850,7 +5884,16 @@
           "- Nhận biết được các vị trí trước - sau, trên - dưới, ở giữa qua hình ảnh và vật thật.",
           "- Diễn đạt được vị trí của một vật/nhân vật so với vật/nhân vật khác.",
           "- Vận dụng từ chỉ vị trí để hướng dẫn di chuyển trong trò chơi.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "4. Tích hợp",
+          "- Tích hợp AI: 1.C1.2: Hiểu được AI có khả năng hiểu các mệnh lệnh đơn giản của con người; biết robot cần mệnh lệnh vị trí chính xác (trái, phải, trước, sau) để di chuyển đến đúng mục tiêu.",
+          "- Năng lực số 5.1.CB1a: Xác định được các vấn đề kĩ thuật đơn giản khi vận hành thiết bị và sử dụng môi trường số vào giải quyết nhiệm vụ đơn giản bằng công cụ số."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5861,16 +5904,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "4. Tích hợp",
-          "- Tích hợp AI: 1.C1.2: Hiểu được AI có khả năng hiểu các mệnh lệnh đơn giản của con người; biết robot cần mệnh lệnh vị trí chính xác (trái, phải, trước, sau) để di chuyển đến đúng mục tiêu.",
-          "- Năng lực số 5.1.CB1a: Xác định được các vấn đề kĩ thuật đơn giản khi vận hành thiết bị và sử dụng môi trường số vào giải quyết nhiệm vụ đơn giản bằng công cụ số.",
-          "- Giáo dục Công dân số: Bài 3 - Tư duy lập trình.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -5956,7 +5989,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: VỊ TRÍ, ĐỊNH HƯỚNG TRONG KHÔNG GIAN - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 15: VỊ TRÍ, ĐỊNH HƯỚNG TRONG KHÔNG GIAN - TIẾT 2",
@@ -5967,7 +6001,15 @@
           "- Nhận biết và sử dụng được từ chỉ vị trí phải - trái trong tình huống tranh.",
           "- Xác định được thứ tự, vị trí của các nhân vật hoặc đồ vật khi quan sát.",
           "- Thực hành diễn đạt đường đi đơn giản bằng lời nói.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "4. Tích hợp",
+          "- Tích hợp giáo dục công dân số: Hiểu được đặc điểm của ngôn ngữ lập trình như lệnh điều khiển rõ ràng; bước đầu xét điều kiện rẽ nhánh thông qua việc nhận biết vị trí, định hướng trong không gian: trên - dưới, phải - trái, trước - sau, ở giữa."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5978,14 +6020,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "4. Tích hợp",
-          "- Tích hợp giáo dục công dân số: Hiểu được đặc điểm của ngôn ngữ lập trình như lệnh điều khiển rõ ràng; bước đầu xét điều kiện rẽ nhánh thông qua việc nhận biết vị trí, định hướng trong không gian: trên - dưới, phải - trái, trước - sau, ở giữa.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -6064,7 +6098,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 15: VỊ TRÍ, ĐỊNH HƯỚNG TRONG KHÔNG GIAN - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 16: LUYỆN TẬP CHUNG",
@@ -6075,7 +6110,13 @@
           "- Củng cố nhận biết khối lập phương, khối hộp chữ nhật và vị trí định hướng trong không gian.",
           "- Xác định được mặt trước, mặt trên, mặt bên; nhận biết hình ghép từ khối.",
           "- Vận dụng quan sát, xếp ghép trong nhiệm vụ thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -6086,12 +6127,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................",
           "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
@@ -6140,7 +6175,8 @@
               "- HS ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: LUYỆN TẬP CHUNG"
       }
     ]
   },
@@ -6157,7 +6193,13 @@
           "- Ôn đọc, viết, đếm, phân tích, so sánh và sắp xếp các số trong phạm vi 10.",
           "- Thực hiện được bài tập nhận biết số qua tranh và dãy số.",
           "- Trình bày, kiểm tra được kết quả học tập với bạn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -6168,12 +6210,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -6229,7 +6265,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17: ÔN TẬP CÁC SỐ TRONG PHẠM VI 10 - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 17: ÔN TẬP CÁC SỐ TRONG PHẠM VI 10 - TIẾT 2",
@@ -6240,7 +6277,13 @@
           "- Ôn đọc, viết, đếm, phân tích, so sánh và sắp xếp các số trong phạm vi 10.",
           "- Thực hiện được bài tập nhận biết số qua tranh và dãy số.",
           "- Trình bày, kiểm tra được kết quả học tập với bạn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -6251,12 +6294,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -6312,7 +6349,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 17: ÔN TẬP CÁC SỐ TRONG PHẠM VI 10 - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 18: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 1",
@@ -6323,7 +6361,13 @@
           "- Ôn tập và thực hiện được phép cộng, phép trừ trong phạm vi 10.",
           "- Tính nhẩm, so sánh kết quả và viết được phép tính thích hợp với tranh.",
           "- Vận dụng bảng cộng, bảng trừ trong bài tập và trò chơi.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -6334,12 +6378,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................",
           "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
@@ -6396,7 +6434,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 18: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 1"
       }
     ]
   },
@@ -6413,7 +6452,13 @@
           "- Ôn tập và thực hiện được phép cộng, phép trừ trong phạm vi 10.",
           "- Tính nhẩm, so sánh kết quả và viết được phép tính thích hợp với tranh.",
           "- Vận dụng bảng cộng, bảng trừ trong bài tập và trò chơi.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -6424,12 +6469,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -6485,7 +6524,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 18: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 19: ÔN TẬP HÌNH HỌC",
@@ -6496,7 +6536,13 @@
           "- Nhận dạng được hình vuông, hình tròn, hình tam giác, hình chữ nhật; khối lập phương và khối hộp chữ nhật.",
           "- Nhận biết quy luật sắp xếp hình; xếp ghép được hình theo mẫu.",
           "- Liên hệ hình học với đồ vật quen thuộc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -6507,12 +6553,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................"
         ],
@@ -6564,7 +6604,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 19: ÔN TẬP HÌNH HỌC"
       },
       {
         "lessonTitle": "BÀI 20: ÔN TẬP CHUNG",
@@ -6575,7 +6616,13 @@
           "- Củng cố số, phép cộng, phép trừ trong phạm vi 10 và một số nội dung hình học đã học.",
           "- Viết được phép tính phù hợp với tranh và tính đúng kết quả.",
           "- Vận dụng tổng hợp kiến thức vào bài tập cuối học kì.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
+          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
+          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -6586,12 +6633,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi cách làm; biết lắng nghe, hỗ trợ bạn khi học theo cặp hoặc theo nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức toán học để xử lí nhiệm vụ gắn với tranh, đồ vật hoặc tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập và hoàn thành bài tập.",
-          "- Trung thực: Nêu, viết và báo cáo đúng kết quả quan sát hoặc tính toán.",
-          "- Trách nhiệm: Giữ gìn đồ dùng; thực hiện nghiêm túc nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "........................................................................................................................................................",
           "........................................................................................................................................................",
           "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
@@ -6644,7 +6685,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 20: ÔN TẬP CHUNG"
       }
     ]
   },
@@ -6656,7 +6698,7 @@
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được các số từ 11 đến 20 thông qua nhóm một chục và các đơn vị.",
           "- Đọc, viết được các số từ 11 đến 20; bước đầu nêu được cấu tạo số gồm chục và đơn vị.",
@@ -6771,13 +6813,14 @@
               "- HS lắng nghe và đọc lại các số từ 1 đến 20."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Đọc, viết và tìm được số còn thiếu trong dãy số từ 10 đến 20.",
           "- Vận dụng nhận biết số có hai chữ số để trả lời câu hỏi từ tranh và tham gia trò chơi học tập.",
@@ -6869,13 +6912,14 @@
               "- HS lắng nghe và chia sẻ kết quả chơi."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - CÁC SỐ TRÒN CHỤC - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết, đọc, viết được các số tròn chục từ 10 đến 90.",
           "- Biết mỗi số tròn chục gồm một số chục và 0 đơn vị; vận dụng đếm theo chục.",
@@ -6986,7 +7030,8 @@
               "- HS ghi nhớ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - CÁC SỐ TRÒN CHỤC - TIẾT 3"
       }
     ]
   },
@@ -6998,7 +7043,7 @@
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - CÁC SỐ ĐẾN 99 - TIẾT 4",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết cấu tạo số có hai chữ số trong phạm vi 99 theo chục và đơn vị.",
           "- Đọc, viết được một số có hai chữ số; biết đọc đúng trường hợp có chữ số hàng đơn vị là 1 hoặc 5.",
@@ -7113,13 +7158,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - CÁC SỐ ĐẾN 99 - TIẾT 4"
       },
       {
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 5",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Phân tích được số có hai chữ số thành số chục và số đơn vị.",
           "- Đọc, viết và nhận biết số có hai chữ số thông qua hình biểu diễn và tình huống.",
@@ -7219,13 +7265,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 5"
       },
       {
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 6",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố đọc, viết, phân tích và sắp xếp các số có hai chữ số trong phạm vi 99.",
           "- Vận dụng kiến thức vào bảng số và trò chơi học tập.",
@@ -7309,7 +7356,8 @@
               "- HS lắng nghe và chia sẻ kết quả."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 6"
       }
     ]
   },
@@ -7321,7 +7369,7 @@
         "lessonTitle": "BÀI 22: SO SÁNH SỐ CÓ HAI CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết so sánh hai số có hai chữ số bằng cách so sánh số chục trước, nếu số chục bằng nhau thì so sánh số đơn vị.",
           "- Sử dụng được dấu >, <, = khi so sánh số có hai chữ số; nhận biết số lớn hơn, số bé hơn.",
@@ -7436,13 +7484,14 @@
               "- HS ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: SO SÁNH SỐ CÓ HAI CHỮ SỐ - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 22: SO SÁNH SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố so sánh số có hai chữ số; chọn được số lớn hơn, số bé hơn trong từng cặp.",
           "- Sắp xếp được ba số theo thứ tự từ bé đến lớn hoặc từ lớn đến bé.",
@@ -7538,13 +7587,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: SO SÁNH SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 22: SO SÁNH SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố việc sử dụng dấu >, <, = khi so sánh số có hai chữ số.",
           "- Vận dụng so sánh số để giải quyết tình huống thực tế đơn giản.",
@@ -7632,7 +7682,8 @@
               "- HS lắng nghe và nhắc lại cách so sánh."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 22: SO SÁNH SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 3"
       }
     ]
   },
@@ -7644,7 +7695,7 @@
         "lessonTitle": "BÀI HỌC STEM: BẢNG CÁC SỐ TỪ 1 ĐẾN 100 - TIẾT 1 - THAY CHO BÀI 23 THEO KHGD",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được số 100; đọc, viết được số 100; nhận biết cấu trúc bảng các số từ 1 đến 100.",
           "- Đếm, điền được số còn thiếu và phát hiện quy luật đơn giản của hàng, cột trong bảng số.",
@@ -7756,13 +7807,14 @@
               "- HS ghi nhớ nhiệm vụ và thu dọn đồ dùng."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: BẢNG CÁC SỐ TỪ 1 ĐẾN 100 - TIẾT 1 - THAY CHO BÀI 23 THEO KHGD"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: BẢNG CÁC SỐ TỪ 1 ĐẾN 100 - TIẾT 2 - TIẾP NỐI BÀI STEM THEO KHGD",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hành làm được bảng các số từ 1 đến 100 bằng vật liệu đơn giản; viết đúng vị trí các số.",
           "- Sử dụng bảng số để tìm, đọc và so sánh một số trong phạm vi 100.",
@@ -7866,13 +7918,14 @@
               "- HS thu dọn dụng cụ, giữ gìn sản phẩm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: BẢNG CÁC SỐ TỪ 1 ĐẾN 100 - TIẾT 2 - TIẾP NỐI BÀI STEM THEO KHGD"
       },
       {
         "lessonTitle": "BÀI 24: LUYỆN TẬP CHUNG - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố đọc, viết, so sánh và sắp xếp các số trong phạm vi 100.",
           "- Tìm được số theo quy luật; vận dụng số có hai chữ số trong bài toán vui.",
@@ -7984,7 +8037,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 24: LUYỆN TẬP CHUNG - TIẾT 2"
       }
     ]
   },
@@ -8156,7 +8210,8 @@
               "- HS ghi nhớ nhiệm vụ vận dụng."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25: DÀI HƠN, NGẮN HƠN - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 25: DÀI HƠN, NGẮN HƠN - TIẾT 2",
@@ -8291,7 +8346,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 25: DÀI HƠN, NGẮN HƠN - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 26: ĐƠN VỊ ĐO ĐỘ DÀI - TIẾT 1",
@@ -8420,7 +8476,8 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26: ĐƠN VỊ ĐO ĐỘ DÀI - TIẾT 1"
       }
     ]
   },
@@ -8591,7 +8648,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 26: ĐƠN VỊ ĐO ĐỘ DÀI - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 27: THỰC HÀNH ƯỚC LƯỢNG VÀ ĐO ĐỘ DÀI - TIẾT 1",
@@ -8707,7 +8765,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27: THỰC HÀNH ƯỚC LƯỢNG VÀ ĐO ĐỘ DÀI - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 27: THỰC HÀNH ƯỚC LƯỢNG VÀ ĐO ĐỘ DÀI - TIẾT 2",
@@ -8819,7 +8878,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 27: THỰC HÀNH ƯỚC LƯỢNG VÀ ĐO ĐỘ DÀI - TIẾT 2"
       }
     ]
   },
@@ -8967,7 +9027,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28: LUYỆN TẬP CHUNG - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 28: LUYỆN TẬP CHUNG - TIẾT 2",
@@ -9094,7 +9155,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 28: LUYỆN TẬP CHUNG - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 29: PHÉP CỘNG SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ - TIẾT 1",
@@ -9225,7 +9287,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 29: PHÉP CỘNG SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ - TIẾT 1"
       }
     ]
   },
@@ -9382,7 +9445,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 29: PHÉP CỘNG SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 30: PHÉP CỘNG SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ - TIẾT 1",
@@ -9528,7 +9592,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 30: PHÉP CỘNG SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 30: PHÉP CỘNG SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ - TIẾT 2",
@@ -9675,7 +9740,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 30: PHÉP CỘNG SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ - TIẾT 2"
       }
     ]
   },
@@ -9687,7 +9753,7 @@
         "lessonTitle": "BÀI 31: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa thực tế của phép trừ qua thao tác bớt đi.",
           "- Thực hiện được phép trừ số có hai chữ số cho số có một chữ số, không nhớ, bằng que tính và đặt tính theo cột dọc.",
@@ -9842,13 +9908,14 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 31: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 31: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép trừ số có hai chữ số cho số có một chữ số trong các bài luyện tập.",
           "- Biết nhận xét phép tính đúng, sai và giải thích được lỗi đặt tính hoặc lỗi tính.",
@@ -9970,13 +10037,14 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 31: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 31: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố phép trừ số có hai chữ số cho số có một chữ số qua tính nhẩm, tìm số và bài toán.",
           "- So sánh được kết quả phép tính với số cho trước; chọn đúng đối tượng theo điều kiện.",
@@ -10090,7 +10158,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 31: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ - TIẾT 3"
       }
     ]
   },
@@ -10102,7 +10171,7 @@
         "lessonTitle": "BÀI 32: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa bớt đi của phép trừ số có hai chữ số cho số có hai chữ số.",
           "- Thực hiện được phép trừ không nhớ bằng que tính và đặt tính theo cột dọc.",
@@ -10227,13 +10296,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 32: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 32: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố thực hiện phép trừ số có hai chữ số cho số có hai chữ số.",
           "- Tính nhẩm các phép trừ số tròn chục; tìm số thích hợp và giải toán thực tế.",
@@ -10347,13 +10417,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 32: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 32: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố phép trừ số có hai chữ số qua bài tập tính, nối và tình huống thực tế.",
           "- So sánh được kết quả phép tính và chọn đối tượng theo yêu cầu.",
@@ -10448,7 +10519,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 32: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 3"
       }
     ]
   },
@@ -10460,7 +10532,7 @@
         "lessonTitle": "BÀI HỌC STEM: MÔ HÌNH TÍNH HÀNG DỌC - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ số có hai chữ số trong phạm vi 100 ở mức không nhớ.",
           "- Nhận biết nhu cầu tạo mô hình hỗ trợ đặt tính thẳng cột chục, cột đơn vị.",
@@ -10563,15 +10635,26 @@
               "- HS ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: MÔ HÌNH TÍNH HÀNG DỌC - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: MÔ HÌNH TÍNH HÀNG DỌC - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
-          "- Làm được mô hình tính hàng dọc có cột chục, cột đơn vị và sử dụng được để tính phép cộng, phép trừ không nhớ."
+          "- Làm được mô hình tính hàng dọc có cột chục, cột đơn vị và sử dụng được để tính phép cộng, phép trừ không nhớ.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, thực hiện nhiệm vụ; biết tự kiểm tra và sửa kết quả khi cần.",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm; trình bày kết quả rõ ràng, biết nhận xét lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức Toán để giải quyết nhiệm vụ và tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, hoàn thành bài tập.",
+          "- Trách nhiệm: Chuẩn bị và giữ gìn đồ dùng; hoàn thành nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "- Trung thực: Báo cáo đúng kết quả đã thực hiện, biết sửa sai khi được góp ý.",
+          "4. Tích hợp",
+          "- Tích hợp Tiếng Việt - Giới thiệu “Dế Mèn phiêu lưu kí”: HS biết thêm về tác phẩm và một số nhân vật như Dế Mèn, Dế Trũi, Xén tóc, Châu chấu voi; biết quan sát tranh, đọc hiểu thông tin đơn giản và liên hệ với nhiệm vụ Toán; bồi dưỡng hứng thú đọc sách."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -10583,16 +10666,6 @@
         "activities": [],
         "dieuchinh": [
           "- Vận dụng mô hình để giải nhiệm vụ toán học trong tình huống gần gũi.",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: Chủ động quan sát, thực hiện nhiệm vụ; biết tự kiểm tra và sửa kết quả khi cần.",
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm; trình bày kết quả rõ ràng, biết nhận xét lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức Toán để giải quyết nhiệm vụ và tình huống gần gũi.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, hoàn thành bài tập.",
-          "- Trách nhiệm: Chuẩn bị và giữ gìn đồ dùng; hoàn thành nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "- Trung thực: Báo cáo đúng kết quả đã thực hiện, biết sửa sai khi được góp ý.",
-          "4. Tích hợp",
-          "- Tích hợp Tiếng Việt - Giới thiệu “Dế Mèn phiêu lưu kí”: HS biết thêm về tác phẩm và một số nhân vật như Dế Mèn, Dế Trũi, Xén tóc, Châu chấu voi; biết quan sát tranh, đọc hiểu thông tin đơn giản và liên hệ với nhiệm vụ Toán; bồi dưỡng hứng thú đọc sách.",
           ".............................................................................................................................................................",
           "............................................................................................................................................................."
         ],
@@ -10671,13 +10744,14 @@
               "- HS bảo quản sản phẩm và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: MÔ HÌNH TÍNH HÀNG DỌC - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 33: LUYỆN TẬP CHUNG - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố phép cộng, phép trừ số có hai chữ số không nhớ trong phạm vi 100.",
           "- Giải được bài toán thực tế bằng phép tính thích hợp; biết tìm quy luật đơn giản trong bài tập.",
@@ -10791,7 +10865,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 33: LUYỆN TẬP CHUNG - TIẾT 3"
       }
     ]
   },
@@ -10803,7 +10878,7 @@
         "lessonTitle": "BÀI 33: LUYỆN TẬP CHUNG - TIẾT 4",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố phép cộng, phép trừ số có hai chữ số không nhớ trong phạm vi 100.",
           "- Tìm được số thích hợp trong mảnh ghép và giải được bài toán trực quan.",
@@ -10924,13 +10999,14 @@
               "- HS lắng nghe, chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 33: LUYỆN TẬP CHUNG - TIẾT 4"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: ĐỒNG HỒ TIỆN ÍCH - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Đọc được giờ đúng trên đồng hồ và nhận biết các bộ phận chính của đồng hồ.",
           "- Nêu được ích lợi của đồng hồ; xác định tiêu chí của sản phẩm đồng hồ tiện ích.",
@@ -11041,16 +11117,25 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: ĐỒNG HỒ TIỆN ÍCH - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI HỌC STEM: ĐỒNG HỒ TIỆN ÍCH - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: ................................................",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Làm được mô hình đồng hồ có đủ 12 số đúng thứ tự và hai kim có thể xoay.",
-          "- Sử dụng mô hình để đọc, đặt giờ đúng theo yêu cầu."
+          "- Sử dụng mô hình để đọc, đặt giờ đúng theo yêu cầu.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, thực hiện nhiệm vụ; biết tự kiểm tra và sửa kết quả khi cần.",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm; trình bày kết quả rõ ràng, biết nhận xét lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức Toán để giải quyết nhiệm vụ và tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, hoàn thành bài tập.",
+          "- Trách nhiệm: Chuẩn bị và giữ gìn đồ dùng; hoàn thành nhiệm vụ cá nhân và nhiệm vụ nhóm.",
+          "- Trung thực: Báo cáo đúng kết quả đã thực hiện, biết sửa sai khi được góp ý."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -11061,14 +11146,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: Chủ động quan sát, thực hiện nhiệm vụ; biết tự kiểm tra và sửa kết quả khi cần.",
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm; trình bày kết quả rõ ràng, biết nhận xét lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức Toán để giải quyết nhiệm vụ và tình huống gần gũi.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, hoàn thành bài tập.",
-          "- Trách nhiệm: Chuẩn bị và giữ gìn đồ dùng; hoàn thành nhiệm vụ cá nhân và nhiệm vụ nhóm.",
-          "- Trung thực: Báo cáo đúng kết quả đã thực hiện, biết sửa sai khi được góp ý.",
           ".............................................................................................................................................................",
           "............................................................................................................................................................."
         ],
@@ -11135,7 +11212,8 @@
               "- HS mang sản phẩm về sử dụng và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI HỌC STEM: ĐỒNG HỒ TIỆN ÍCH - TIẾT 2"
       }
     ]
   },
@@ -11163,17 +11241,14 @@
           "4. Tích hợp",
           "- Năng lực số 6.1.CB1a: Nhớ lại được các ứng dụng đơn giản của AI trong cuộc sống hằng ngày.",
           "- HS nhận biết vai trò của trợ lý ảo trong việc nhắc lịch học, theo dõi thời gian và hỗ trợ sắp xếp hoạt động trong tuần theo yêu cầu của con người.",
-          "1. Năng lực đặc thù",
           "- Nhận biết, đọc đúng tên các ngày trong tuần.",
           "- Xác định được ngày còn thiếu trong một dãy các ngày trong tuần.",
           "- Đọc được thời khóa biểu đơn giản và trả lời được câu hỏi liên quan.",
           "- Dựa vào sơ đồ, xác định được thứ tương ứng với một địa điểm trong hành trình.",
           "- Vận dụng được kiến thức về các ngày trong tuần vào tình huống thực tế gần gũi.",
-          "2. Năng lực chung",
           "- Năng lực tư duy và lập luận toán học: Biết quan sát, so sánh, sắp xếp thứ tự các ngày trong tuần.",
           "- Năng lực giải quyết vấn đề: Biết dựa vào dữ kiện cho sẵn để tìm câu trả lời phù hợp.",
           "- Năng lực giao tiếp và hợp tác: Biết trao đổi với bạn, trình bày kết quả, nhận xét bài làm của bạn trong hoạt động cá nhân, nhóm 2, nhóm 4.",
-          "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, tự giác hoàn thành bài tập.",
           "- Trung thực: Nêu đúng kết quả, mạnh dạn sửa sai khi có góp ý.",
           "- Trách nhiệm: Có ý thức hợp tác với bạn, giữ trật tự và hoàn thành nhiệm vụ học tập."
@@ -11189,7 +11264,6 @@
           ".............................................................................................................",
           ".............................................................................................................",
           ".............................................................................................................",
-          "TOÁNBài 35: CÁC NGÀY TRONG TUẦN (TIẾT 2)LUYỆN TẬP",
           ".............................................................................................................",
           ".............................................................................................................",
           ".............................................................................................................",
@@ -11488,7 +11562,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 35: CÁC NGÀY TRONG TUẦN (TIẾT 1)"
       },
       {
         "lessonTitle": "Bài 36: THỰC HÀNH XEM LỊCH VÀ GIỜ (TIẾT 1)",
@@ -11679,7 +11754,8 @@
               "HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 36: THỰC HÀNH XEM LỊCH VÀ GIỜ (TIẾT 1)"
       }
     ]
   },
@@ -11866,7 +11942,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 36: THỰC HÀNH XEM LỊCH VÀ GIỜ (TIẾT 2) - LUYỆN TẬP"
       },
       {
         "lessonTitle": "Bài 37: LUYỆN TẬP CHUNG (TIẾT 1)",
@@ -11897,9 +11974,7 @@
         "dieuchinh": [
           ".............................................................................................................",
           ".............................................................................................................",
-          ".............................................................................................................",
-          "KẾ HOẠCH BÀI DẠY",
-          "Môn: Toán - Lớp 1"
+          "............................................................................................................."
         ],
         "tables": [
           [
@@ -12044,7 +12119,8 @@
               "– HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 37: LUYỆN TẬP CHUNG (TIẾT 1)"
       },
       {
         "lessonTitle": "Bài 37: LUYỆN TẬP CHUNG (TIẾT 2)",
@@ -12202,7 +12278,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 37: LUYỆN TẬP CHUNG (TIẾT 2)"
       }
     ]
   },
@@ -12239,8 +12316,6 @@
           "....................................................................................................",
           "....................................................................................................",
           "....................................................................................................",
-          "KẾ HOẠCH BÀI DẠY",
-          "Môn: Toán",
           "Luyện tập – Ôn tập các phép tính trong phạm vi 10",
           "Tuần: ............                                Ngày soạn: ........................",
           "Tiết: ............                                  Ngày dạy: ........................."
@@ -12433,7 +12508,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 38: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 10 (TIẾT 1)"
       },
       {
         "lessonTitle": "Bài 38: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 10 (TIẾT 2)",
@@ -12608,7 +12684,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ và chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 38: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 10 (TIẾT 2)"
       },
       {
         "lessonTitle": "Bài 38: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 10 (TIẾT 3)",
@@ -12801,7 +12878,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 38: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 10 (TIẾT 3)"
       }
     ]
   },
@@ -12839,9 +12917,7 @@
         "dieuchinh": [
           ".............................................................................................................",
           ".............................................................................................................",
-          ".............................................................................................................",
-          "KẾ HOẠCH BÀI DẠY",
-          "MÔN: TOÁN"
+          "............................................................................................................."
         ],
         "tables": [
           [
@@ -12994,7 +13070,8 @@
               "- HS lắng nghe, chuẩn bị bài sau."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 39: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 100 (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 39: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 100 (TIẾT 2)",
@@ -13022,9 +13099,7 @@
         "dieuchinh": [
           ".............................................................................................................",
           ".............................................................................................................",
-          ".............................................................................................................",
-          "KẾ HOẠCH BÀI DẠY",
-          "MÔN: TOÁN"
+          "............................................................................................................."
         ],
         "tables": [
           [
@@ -13094,7 +13169,8 @@
               "- HS trao đổi nhóm 2 và nêu ví dụ: “Lớp em có 42 quyển sách, thư viện cho thêm 15 quyển nữa. Hỏi lớp em có tất cả bao nhiêu quyển sách?”; phép tính là 42 + 15 = 57.\n- Đại diện nhóm trình bày, các nhóm khác lắng nghe và nhận xét.\n- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 39: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 100 (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 39: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 100 (TIẾT 3)",
@@ -13226,7 +13302,8 @@
               "- HS trao đổi nhóm 2 và nêu ví dụ: “Tổ em có 28 quyển vở, cô phát thêm 15 quyển nữa. Hỏi tổ em có tất cả bao nhiêu quyển vở?”; phép tính là 28 + 15 = 43.\n- Đại diện nhóm trình bày, các nhóm khác lắng nghe và nhận xét.\n- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 39: ÔN TẬP CÁC SỐ VÀ PHÉP TÍNH TRONG PHẠM VI 100 (TIẾT 3)"
       }
     ]
   },
@@ -13258,10 +13335,7 @@
           "2. Thiết bị: Máy tính, máy chiếu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY",
-          "Môn: Toán"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -13390,7 +13464,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 40: ÔN TẬP HÌNH HỌC VÀ ĐO LƯỜNG (TIẾT 1)"
       },
       {
         "lessonTitle": "Bài 40: ÔN TẬP HÌNH HỌC VÀ ĐO LƯỜNG (TIẾT 2)",
@@ -13556,7 +13631,8 @@
               "- HS trả lời: Em ôn xem giờ, xác định thứ trong tuần, đo độ dài, so sánh độ dài và chọn đơn vị đo.\n- HS trả lời: Bài 2 và Bài 5 em thực hiện trên Quizizz.\n- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 40: ÔN TẬP HÌNH HỌC VÀ ĐO LƯỜNG (TIẾT 2)"
       },
       {
         "lessonTitle": "Bài 41: ÔN TẬP CHUNG",
@@ -13863,7 +13939,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "Bài 41: ÔN TẬP CHUNG"
       }
     ]
   }
@@ -13881,5 +13958,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

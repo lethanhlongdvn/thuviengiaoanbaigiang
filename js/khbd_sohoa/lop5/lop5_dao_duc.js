@@ -157,7 +157,8 @@
               "- HS lắng nghe, ghi nhớ nội dung bài học.\n- HS tự nhắc bản thân thực hiện việc làm tri ân người có công bằng thái độ và hành động phù hợp."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1. BIẾT ƠN NHỮNG NGƯỜI CÓ CÔNG VỚI QUÊ HƯƠNG, ĐẤT NƯỚC"
       }
     ]
   },
@@ -321,7 +322,8 @@
               "- HS lắng nghe, ghi nhớ và tự nhắc bản thân thực hiện nhiệm vụ trải nghiệm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1. BIẾT ƠN NHỮNG NGƯỜI CÓ CÔNG VỚI QUÊ HƯƠNG, ĐẤT NƯỚC"
       }
     ]
   },
@@ -488,7 +490,8 @@
               "- HS lắng nghe, ghi nhớ và tự nhắc bản thân thực hiện nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1. BIẾT ƠN NHỮNG NGƯỜI CÓ CÔNG VỚI QUÊ HƯƠNG, ĐẤT NƯỚC"
       }
     ]
   },
@@ -611,7 +614,8 @@
               "- HS lắng nghe, nhắc lại thông điệp: “Uống nước nhớ nguồn.”"
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1. BIẾT ƠN NHỮNG NGƯỜI CÓ CÔNG VỚI QUÊ HƯƠNG, ĐẤT NƯỚC"
       }
     ]
   },
@@ -629,7 +633,15 @@
           "- Kể được một số biểu hiện tôn trọng sự khác biệt về đặc điểm cá nhân, giới tính, hoàn cảnh, dân tộc của người khác.",
           "- Giải thích được vì sao phải tôn trọng sự khác biệt giữa mọi người qua câu chuyện Cây cọ nhí.",
           "- Bước đầu nêu được lời nói, thái độ, hành động thể hiện tôn trọng sự khác biệt trong môi trường lớp học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết lắng nghe, thảo luận nhóm, trình bày ý kiến, nhận xét bạn bằng lời lẽ lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết vận dụng nội dung bài học để xử lí tình huống gần gũi trong học tập, sinh hoạt.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết thấu hiểu, chia sẻ và cảm thông với những điều khác biệt của người khác.",
+          "- Trách nhiệm: có ý thức xây dựng môi trường lớp học thân thiện, không kì thị, không phân biệt đối xử.",
+          "4. Tích hợp",
+          "- Tích hợp Năng lực số 2.1.CB2a: HS lựa chọn phương tiện giao tiếp số như Email hoặc Zalo nhóm để mời các bạn có hoàn cảnh khác nhau tham gia nhóm học tập bằng lời lẽ lịch sự.",
+          "- Tích hợp QCN: HS hiểu mỗi người có quyền được tôn trọng và đối xử công bằng."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 5; tranh phần Khám phá; máy chiếu, máy tính; thẻ bày tỏ thái độ, phiếu học tập, sticker.",
@@ -638,14 +650,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: biết lắng nghe, thảo luận nhóm, trình bày ý kiến, nhận xét bạn bằng lời lẽ lịch sự.",
-          "- Giải quyết vấn đề và sáng tạo: biết vận dụng nội dung bài học để xử lí tình huống gần gũi trong học tập, sinh hoạt.",
-          "3. Phẩm chất",
-          "- Nhân ái: biết thấu hiểu, chia sẻ và cảm thông với những điều khác biệt của người khác.",
-          "- Trách nhiệm: có ý thức xây dựng môi trường lớp học thân thiện, không kì thị, không phân biệt đối xử.",
-          "4. Tích hợp",
-          "- Tích hợp Năng lực số 2.1.CB2a: HS lựa chọn phương tiện giao tiếp số như Email hoặc Zalo nhóm để mời các bạn có hoàn cảnh khác nhau tham gia nhóm học tập bằng lời lẽ lịch sự.",
-          "- Tích hợp QCN: HS hiểu mỗi người có quyền được tôn trọng và đối xử công bằng.",
           "........................................................................................................................................................................",
           "........................................................................................................................................................................",
           "........................................................................................................................................................................"
@@ -756,7 +760,8 @@
               "- HS ghi nhiệm vụ: dùng lời nói lịch sự, chơi cùng bạn, không chê bai điểm khác biệt của bạn, chủ động làm quen bạn mới."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2. TÔN TRỌNG SỰ KHÁC BIỆT CỦA NGƯỜI KHÁC"
       }
     ]
   },
@@ -774,15 +779,7 @@
           "- Củng cố được hiểu biết về biểu hiện và ý nghĩa của việc tôn trọng sự khác biệt.",
           "- Biết bày tỏ ý kiến tán thành hoặc không tán thành trước các quan điểm liên quan đến sự khác biệt.",
           "- Nhận xét được việc làm đúng, chưa đúng; đưa ra lời khuyên phù hợp thể hiện tôn trọng sự khác biệt.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 5; tranh bài tập trong SGK; máy chiếu, máy tính; sticker hoặc thẻ mặt cười, mặt mếu; phiếu học tập.; hình ảnh trang phục truyền thống, chữ viết và không khí lễ hội Ok Om Bok, Tết Chôl Chnăm Thmây (Khmer), Tết Nguyên tiêu (Hoa), Lễ Kỳ yên (Kinh); Tài liệu GDĐP.",
-          "- Học sinh: SGK Đạo đức 5, vở ghi, bút màu; chuẩn bị ý kiến cá nhân về các biểu hiện tôn trọng sự khác biệt.",
-          "- Công cụ tích hợp: Teachable Machine hoặc video/hình ảnh mô phỏng do GV chuẩn bị; nội dung về quyền được đối xử bình đẳng."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, thảo luận nhóm, trình bày ý kiến, nhận xét bạn bằng lời lẽ lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: biết vận dụng nội dung bài học để xử lí tình huống gần gũi trong học tập, sinh hoạt.",
           "3. Phẩm chất",
@@ -791,7 +788,15 @@
           "4. Tích hợp",
           "- Tích hợp AI 5.B1.1 (Công cụ: Teachable Machine): HS quan sát mô phỏng dạy máy nhận diện đa dạng đặc điểm con người; thảo luận nếu AI chỉ nhận diện được một màu da, một giọng nói hoặc một vùng miền thì đó là thiếu công bằng.",
           "- Tích hợp Giáo dục địa phương (GDĐP): Tôn trọng sự đa dạng bản sắc văn hóa, ngôn ngữ, trang phục, phong tục tập quán của các dân tộc Kinh, Khmer, Hoa cùng sinh sống hòa thuận tại địa phương (Chủ đề 1 & 3 - Trà Vinh, trang 6, 18; Chủ đề 1 - Vĩnh Long, trang 7; Chủ đề 1 - Bến Tre, trang 22).",
-          "- Tích hợp QCN: HS tôn trọng quyền được đối xử bình đẳng của mọi người.",
+          "- Tích hợp QCN: HS tôn trọng quyền được đối xử bình đẳng của mọi người."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 5; tranh bài tập trong SGK; máy chiếu, máy tính; sticker hoặc thẻ mặt cười, mặt mếu; phiếu học tập.; hình ảnh trang phục truyền thống, chữ viết và không khí lễ hội Ok Om Bok, Tết Chôl Chnăm Thmây (Khmer), Tết Nguyên tiêu (Hoa), Lễ Kỳ yên (Kinh); Tài liệu GDĐP.",
+          "- Học sinh: SGK Đạo đức 5, vở ghi, bút màu; chuẩn bị ý kiến cá nhân về các biểu hiện tôn trọng sự khác biệt.",
+          "- Công cụ tích hợp: Teachable Machine hoặc video/hình ảnh mô phỏng do GV chuẩn bị; nội dung về quyền được đối xử bình đẳng."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "........................................................................................................................................................................",
           "........................................................................................................................................................................",
           "........................................................................................................................................................................"
@@ -909,7 +914,8 @@
               "- HS ghi nhiệm vụ vào vở.\n- HS chuẩn bị sản phẩm ở nhà: nêu điểm mạnh, sở thích, thói quen tốt hoặc điều em muốn chia sẻ để bạn bè hiểu và tôn trọng mình hơn."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2. TÔN TRỌNG SỰ KHÁC BIỆT CỦA NGƯỜI KHÁC"
       }
     ]
   },
@@ -927,15 +933,7 @@
           "- Củng cố được hiểu biết về biểu hiện tôn trọng sự khác biệt của người khác.",
           "- Biết xử lí một số tình huống thể hiện thái độ, lời nói, hành động tôn trọng sự khác biệt.",
           "- Biết giới thiệu điểm riêng của bản thân và chia sẻ cảm nhận tích cực về sự khác biệt của các bạn trong lớp.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 5; tranh tình huống trong SGK; máy chiếu, máy tính; phiếu học tập, thẻ bày tỏ thái độ, sticker.",
-          "- Học sinh: SGK Đạo đức 5, vở ghi; chuẩn bị sản phẩm “Tôi khác biệt” theo hướng dẫn của GV.",
-          "- Công cụ tích hợp: Canva, PowerPoint hoặc Padlet lớp học do GV kiểm soát để HS tạo và chia sẻ sản phẩm số bằng lời lẽ tích cực, tôn trọng sự đa dạng."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, đóng vai, thảo luận nhóm và nhận xét sản phẩm của bạn bằng lời lẽ tích cực.",
           "- Giải quyết vấn đề và sáng tạo: biết đưa ra cách xử lí phù hợp trong tình huống có sự khác biệt về sở thích, hoàn cảnh, dân tộc.",
           "3. Phẩm chất",
@@ -944,6 +942,13 @@
           "4. Tích hợp",
           "- Tích hợp Năng lực số 2.2.CB2a: HS tạo video ngắn hoặc bài trình chiếu “Tôi khác biệt” để giới thiệu điểm độc đáo của bản thân và chia sẻ lên Padlet lớp học; khi nhận xét sản phẩm của bạn, HS dùng lời lẽ tích cực, tôn trọng sự đa dạng."
         ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 5; tranh tình huống trong SGK; máy chiếu, máy tính; phiếu học tập, thẻ bày tỏ thái độ, sticker.",
+          "- Học sinh: SGK Đạo đức 5, vở ghi; chuẩn bị sản phẩm “Tôi khác biệt” theo hướng dẫn của GV.",
+          "- Công cụ tích hợp: Canva, PowerPoint hoặc Padlet lớp học do GV kiểm soát để HS tạo và chia sẻ sản phẩm số bằng lời lẽ tích cực, tôn trọng sự đa dạng."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -1010,7 +1015,8 @@
               "- HS ghi nhiệm vụ vào vở và chuẩn bị chia sẻ ở tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2. TÔN TRỌNG SỰ KHÁC BIỆT CỦA NGƯỜI KHÁC"
       }
     ]
   },
@@ -1157,7 +1163,8 @@
               "- HS ghi nhiệm vụ vào vở, chuẩn bị cho tiết học tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3. VƯỢT QUA KHÓ KHĂN"
       }
     ]
   },
@@ -1273,7 +1280,8 @@
               "- HS chia sẻ: “Em sẽ không trêu chọc bạn có điểm khác em”; “Em sẽ hỏi thầy cô khi chưa hiểu bài”; “Em sẽ giữ gìn sách có hình ảnh danh nhân.”\n- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 5"
       }
     ]
   },
@@ -1293,15 +1301,7 @@
           "- Biết vì sao phải vượt qua khó khăn.",
           "- Biết vượt qua một số khó khăn của bản thân trong học tập và sinh hoạt.",
           "- Quý trọng gương vượt khó trong học tập và cuộc sống.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV, Vở Bài tập Đạo đức 5; một vài câu chuyện về tấm gương biết vượt qua khó khăn trong học tập và sinh hoạt; máy chiếu, máy tính, thẻ bày tỏ thái độ, phiếu học tập, sticker,...",
-          "- Học sinh: SGK Đạo đức 5, vở ghi, đồ dùng học tập; chuẩn bị câu chuyện hoặc ví dụ về vượt qua khó khăn theo yêu cầu của GV.",
-          "- Công cụ/tài liệu tích hợp: YouTube hoặc video robot cứu hộ AI do GV kiểm soát; phiếu kĩ năng sống để HS đề xuất cách ứng phó khi gặp khó khăn."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày ý kiến, nhận xét và hỗ trợ bạn trong các hoạt động học tập.",
           "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn biện pháp phù hợp để giải quyết khó khăn của bản thân.",
           "3. Phẩm chất",
@@ -1311,6 +1311,13 @@
           "- Tích hợp AI 5.A1.1 (Công cụ: YouTube, video robot cứu hộ AI): HS xem video về robot cứu hộ AI vào vùng thiên tai, vùng nguy hiểm để nhận biết AI có thể làm việc nguy hiểm thay con người.",
           "- Tích hợp Kĩ năng sống: HS đề xuất cách ứng phó khi gặp khó khăn."
         ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV, Vở Bài tập Đạo đức 5; một vài câu chuyện về tấm gương biết vượt qua khó khăn trong học tập và sinh hoạt; máy chiếu, máy tính, thẻ bày tỏ thái độ, phiếu học tập, sticker,...",
+          "- Học sinh: SGK Đạo đức 5, vở ghi, đồ dùng học tập; chuẩn bị câu chuyện hoặc ví dụ về vượt qua khó khăn theo yêu cầu của GV.",
+          "- Công cụ/tài liệu tích hợp: YouTube hoặc video robot cứu hộ AI do GV kiểm soát; phiếu kĩ năng sống để HS đề xuất cách ứng phó khi gặp khó khăn."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -1384,7 +1391,8 @@
               "– HS lắng nghe và chuẩn bị nội dung tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3. VƯỢT QUA KHÓ KHĂN"
       }
     ]
   },
@@ -1404,15 +1412,7 @@
           "- Biết vì sao phải vượt qua khó khăn.",
           "- Biết vượt qua một số khó khăn của bản thân trong học tập và sinh hoạt.",
           "- Quý trọng gương vượt khó trong học tập và cuộc sống.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK, SGV, Vở Bài tập Đạo đức 5; một vài câu chuyện về tấm gương biết vượt qua khó khăn trong học tập và sinh hoạt; máy chiếu, máy tính, thẻ bày tỏ thái độ, phiếu học tập, sticker,...",
-          "- Học sinh: SGK Đạo đức 5, vở ghi, đồ dùng học tập; chuẩn bị câu chuyện hoặc ví dụ về vượt qua khó khăn theo yêu cầu của GV.",
-          "- Tài liệu tích hợp: phiếu đặt mục tiêu nhỏ, kế hoạch rèn ý chí tự học, nội dung về lý tưởng cách mạng, đạo đức, lối sống phù hợp với HS lớp 5."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày ý kiến, nhận xét và hỗ trợ bạn trong các hoạt động học tập.",
           "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn biện pháp phù hợp để giải quyết khó khăn của bản thân.",
           "3. Phẩm chất",
@@ -1420,6 +1420,13 @@
           "- Trách nhiệm: biết chủ động tìm cách khắc phục khó khăn, không ỷ lại hoặc bỏ cuộc.",
           "4. Tích hợp"
         ],
+        "dodung": [
+          "- Giáo viên: SGK, SGV, Vở Bài tập Đạo đức 5; một vài câu chuyện về tấm gương biết vượt qua khó khăn trong học tập và sinh hoạt; máy chiếu, máy tính, thẻ bày tỏ thái độ, phiếu học tập, sticker,...",
+          "- Học sinh: SGK Đạo đức 5, vở ghi, đồ dùng học tập; chuẩn bị câu chuyện hoặc ví dụ về vượt qua khó khăn theo yêu cầu của GV.",
+          "- Tài liệu tích hợp: phiếu đặt mục tiêu nhỏ, kế hoạch rèn ý chí tự học, nội dung về lý tưởng cách mạng, đạo đức, lối sống phù hợp với HS lớp 5."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -1486,7 +1493,8 @@
               "– HS lắng nghe và chuẩn bị nội dung tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3. VƯỢT QUA KHÓ KHĂN"
       }
     ]
   },
@@ -1506,7 +1514,14 @@
           "- Biết vì sao phải vượt qua khó khăn.",
           "- Biết vượt qua một số khó khăn của bản thân trong học tập và sinh hoạt.",
           "- Quý trọng gương vượt khó trong học tập và cuộc sống.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày ý kiến, nhận xét và hỗ trợ bạn trong các hoạt động học tập.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn biện pháp phù hợp để giải quyết khó khăn của bản thân.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: có ý thức kiên trì, cố gắng khi gặp khó khăn trong học tập và sinh hoạt.",
+          "- Trách nhiệm: biết chủ động tìm cách khắc phục khó khăn, không ỷ lại hoặc bỏ cuộc.",
+          "4. Tích hợp",
+          "- Tích hợp Năng lực số 2.2.CB2a: HS chia sẻ tấm gương vượt khó sưu tầm được lên Google Classroom hoặc không gian lớp học số và nêu bài học rút ra; biết tương tác văn minh, tích cực với bài chia sẻ của bạn."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, Vở Bài tập Đạo đức 5; một vài câu chuyện về tấm gương biết vượt qua khó khăn trong học tập và sinh hoạt; máy chiếu, máy tính, thẻ bày tỏ thái độ, phiếu học tập, sticker,...",
@@ -1515,13 +1530,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày ý kiến, nhận xét và hỗ trợ bạn trong các hoạt động học tập.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn biện pháp phù hợp để giải quyết khó khăn của bản thân.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: có ý thức kiên trì, cố gắng khi gặp khó khăn trong học tập và sinh hoạt.",
-          "- Trách nhiệm: biết chủ động tìm cách khắc phục khó khăn, không ỷ lại hoặc bỏ cuộc.",
-          "4. Tích hợp",
-          "- Tích hợp Năng lực số 2.2.CB2a: HS chia sẻ tấm gương vượt khó sưu tầm được lên Google Classroom hoặc không gian lớp học số và nêu bài học rút ra; biết tương tác văn minh, tích cực với bài chia sẻ của bạn.",
           "…………………………………………………………………………………………",
           "…………………………………………………………………………………………",
           "…………………………………………………………………………………………",
@@ -1570,7 +1578,8 @@
               "– HS lắng nghe, ghi nhớ bài học.\n– HS ghi nhiệm vụ vào vở và thực hiện kế hoạch vượt qua khó khăn của bản thân."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3. VƯỢT QUA KHÓ KHĂN"
       }
     ]
   },
@@ -1589,7 +1598,15 @@
           "- Biết vì sao phải bảo vệ cái đúng, cái tốt.",
           "- Biết một số cách đơn giản để bảo vệ cái đúng, cái tốt.",
           "- Mạnh dạn bảo vệ cái đúng, cái tốt.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày, nhận xét, đóng vai và chia sẻ ý kiến với bạn trong các hoạt động học tập.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn cách ứng xử phù hợp để bảo vệ cái đúng, cái tốt trong một số tình huống.",
+          "3. Phẩm chất",
+          "- Trung thực: không chấp nhận, không làm theo cái sai, cái xấu; biết ủng hộ và bảo vệ sự thật.",
+          "- Trách nhiệm: biết bênh vực, ủng hộ, noi gương những việc làm đúng, tốt và nhắc nhở hành vi sai trái phù hợp với lứa tuổi.",
+          "4. Tích hợp",
+          "- Tích hợp Năng lực số 1.1.CB2b: HS sử dụng trình duyệt web tìm kiếm thông tin về gương “Người tốt việc tốt” tại địa phương phục vụ chia sẻ đầu giờ.",
+          "- Tích hợp QCN: HS hiểu quyền được sống trong môi trường an toàn, lành mạnh và được bảo vệ trước hành vi sai trái."
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5.",
@@ -1599,14 +1616,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày, nhận xét, đóng vai và chia sẻ ý kiến với bạn trong các hoạt động học tập.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn cách ứng xử phù hợp để bảo vệ cái đúng, cái tốt trong một số tình huống.",
-          "3. Phẩm chất",
-          "- Trung thực: không chấp nhận, không làm theo cái sai, cái xấu; biết ủng hộ và bảo vệ sự thật.",
-          "- Trách nhiệm: biết bênh vực, ủng hộ, noi gương những việc làm đúng, tốt và nhắc nhở hành vi sai trái phù hợp với lứa tuổi.",
-          "4. Tích hợp",
-          "- Tích hợp Năng lực số 1.1.CB2b: HS sử dụng trình duyệt web tìm kiếm thông tin về gương “Người tốt việc tốt” tại địa phương phục vụ chia sẻ đầu giờ.",
-          "- Tích hợp QCN: HS hiểu quyền được sống trong môi trường an toàn, lành mạnh và được bảo vệ trước hành vi sai trái.",
           "…………………………………………………………………………………………………………………………",
           "…………………………………………………………………………………………………………………………",
           "…………………………………………………………………………………………………………………………"
@@ -1756,7 +1765,8 @@
               "- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4. BẢO VỆ CÁI ĐÚNG, CÁI TỐT"
       }
     ]
   },
@@ -1775,7 +1785,15 @@
           "- Biết vì sao phải bảo vệ cái đúng, cái tốt.",
           "- Biết một số cách đơn giản để bảo vệ cái đúng, cái tốt.",
           "- Mạnh dạn bảo vệ cái đúng, cái tốt.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày, nhận xét, đóng vai và chia sẻ ý kiến với bạn trong các hoạt động học tập.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn cách ứng xử phù hợp để bảo vệ cái đúng, cái tốt trong một số tình huống.",
+          "3. Phẩm chất",
+          "- Trung thực: không chấp nhận, không làm theo cái sai, cái xấu; biết ủng hộ và bảo vệ sự thật.",
+          "- Trách nhiệm: biết bênh vực, ủng hộ, noi gương những việc làm đúng, tốt và nhắc nhở hành vi sai trái phù hợp với lứa tuổi.",
+          "4. Tích hợp",
+          "- Tích hợp Năng lực số 2.2.CB2a: HS bình chọn hoặc bình luận ủng hộ các hành vi đúng trên mạng xã hội học tập nội bộ để lan tỏa điều tốt đẹp.",
+          "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết dùng lời lẽ văn minh, không cổ vũ hành vi sai trái."
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5.",
@@ -1785,14 +1803,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày, nhận xét, đóng vai và chia sẻ ý kiến với bạn trong các hoạt động học tập.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn cách ứng xử phù hợp để bảo vệ cái đúng, cái tốt trong một số tình huống.",
-          "3. Phẩm chất",
-          "- Trung thực: không chấp nhận, không làm theo cái sai, cái xấu; biết ủng hộ và bảo vệ sự thật.",
-          "- Trách nhiệm: biết bênh vực, ủng hộ, noi gương những việc làm đúng, tốt và nhắc nhở hành vi sai trái phù hợp với lứa tuổi.",
-          "4. Tích hợp",
-          "- Tích hợp Năng lực số 2.2.CB2a: HS bình chọn hoặc bình luận ủng hộ các hành vi đúng trên mạng xã hội học tập nội bộ để lan tỏa điều tốt đẹp.",
-          "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết dùng lời lẽ văn minh, không cổ vũ hành vi sai trái.",
           "…………………………………………………………………………………………………………………………",
           "…………………………………………………………………………………………………………………………",
           "…………………………………………………………………………………………………………………………"
@@ -1906,7 +1916,8 @@
               "- HS chuẩn bị nội dung chia sẻ cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4. BẢO VỆ CÁI ĐÚNG, CÁI TỐT"
       }
     ]
   },
@@ -1925,7 +1936,15 @@
           "- Biết vì sao phải bảo vệ cái đúng, cái tốt.",
           "- Biết một số cách đơn giản để bảo vệ cái đúng, cái tốt.",
           "- Mạnh dạn bảo vệ cái đúng, cái tốt.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày, nhận xét, đóng vai và chia sẻ ý kiến với bạn trong các hoạt động học tập.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn cách ứng xử phù hợp để bảo vệ cái đúng, cái tốt trong một số tình huống.",
+          "3. Phẩm chất",
+          "- Trung thực: không chấp nhận, không làm theo cái sai, cái xấu; biết ủng hộ và bảo vệ sự thật.",
+          "- Trách nhiệm: biết bênh vực, ủng hộ, noi gương những việc làm đúng, tốt và nhắc nhở hành vi sai trái phù hợp với lứa tuổi.",
+          "4. Tích hợp",
+          "- Tích hợp AI 5.A1.2 (Công cụ: ChatGPT hoặc Gemini do GV kiểm soát): HS thực hiện hoạt động kiểm chứng thông tin, thử hỏi chatbot AI về một tấm gương đạo đức và nhận xét thông tin có thể đúng hoặc sai.",
+          "- Tích hợp QCN: HS biết bảo vệ sự thật, không lan truyền thông tin sai."
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5.",
@@ -1935,14 +1954,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giao tiếp và hợp tác: biết thảo luận, trình bày, nhận xét, đóng vai và chia sẻ ý kiến với bạn trong các hoạt động học tập.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: biết lựa chọn cách ứng xử phù hợp để bảo vệ cái đúng, cái tốt trong một số tình huống.",
-          "3. Phẩm chất",
-          "- Trung thực: không chấp nhận, không làm theo cái sai, cái xấu; biết ủng hộ và bảo vệ sự thật.",
-          "- Trách nhiệm: biết bênh vực, ủng hộ, noi gương những việc làm đúng, tốt và nhắc nhở hành vi sai trái phù hợp với lứa tuổi.",
-          "4. Tích hợp",
-          "- Tích hợp AI 5.A1.2 (Công cụ: ChatGPT hoặc Gemini do GV kiểm soát): HS thực hiện hoạt động kiểm chứng thông tin, thử hỏi chatbot AI về một tấm gương đạo đức và nhận xét thông tin có thể đúng hoặc sai.",
-          "- Tích hợp QCN: HS biết bảo vệ sự thật, không lan truyền thông tin sai.",
           "…………………………………………………………………………………………",
           "…………………………………………………………………………………………",
           "…………………………………………………………………………………………",
@@ -2006,7 +2017,8 @@
               "- HS chia sẻ ngắn gọn việc sẽ làm; ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4. BẢO VỆ CÁI ĐÚNG, CÁI TỐT"
       }
     ]
   },
@@ -2128,7 +2140,8 @@
               "- HS chia sẻ ngắn gọn: “Em sẽ bỏ rác đúng nơi quy định, tiết kiệm nước, chăm sóc cây xanh, không dùng túi ni-lông khi không cần thiết.”\n- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. BẢO VỆ MÔI TRƯỜNG SỐNG"
       }
     ]
   },
@@ -2246,7 +2259,8 @@
               "- HS chia sẻ ngắn gọn việc sẽ làm: “Em sẽ mang bình nước cá nhân”; “Em sẽ tắt quạt khi ra khỏi lớp”; “Em sẽ nhắc bạn bỏ rác đúng nơi quy định.”\n- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. BẢO VỆ MÔI TRƯỜNG SỐNG"
       }
     ]
   },
@@ -2351,7 +2365,8 @@
               "- HS chọn một nội dung và nêu việc làm cụ thể: “Em sẽ mạnh dạn nhắc bạn bỏ rác đúng nơi quy định”; “Em sẽ tập phát biểu để vượt qua khó khăn khi nói trước lớp.”\n- HS ghi nhiệm vụ vào vở và thực hiện sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 5"
       }
     ]
   },
@@ -2493,7 +2508,8 @@
               "- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. BẢO VỆ MÔI TRƯỜNG SỐNG"
       }
     ]
   },
@@ -2515,7 +2531,12 @@
           "- Tự chủ và tự học: biết tự nhìn lại việc làm tốt, việc làm chưa tốt và đề xuất biện pháp khắc phục.",
           "- Giao tiếp và hợp tác: biết làm việc nhóm, thuyết trình, nhận xét sản phẩm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: biết đề xuất biện pháp bảo vệ môi trường ở trường học, địa phương.",
-          "3. Phẩm chất"
+          "3. Phẩm chất",
+          "- Yêu nước: biết yêu quý, giữ gìn môi trường sống xanh, sạch, đẹp ở địa phương.",
+          "4. Tích hợp",
+          "- Tích hợp Năng lực số 3.1.CB2a: HS thực hiện bảng tự đánh giá số trên Google Forms về việc tham gia bảo vệ môi trường.",
+          "- Tích hợp Giáo dục địa phương (GDĐP): Thực hiện các hành động thiết thực bảo vệ nguồn nước sông rạch, tham gia phong trào xây dựng Nông thôn mới sáng - xanh - sạch - đẹp trên quê hương (Chủ đề 6 - Trà Vinh, trang 34; Chủ đề 1 - Vĩnh Long, trang 9; Chủ đề 1 - Bến Tre, trang 25).",
+          "- Tích hợp BVMT: HS biết nhìn lại việc làm của bản thân và đề xuất biện pháp khắc phục sai sót."
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5; phiếu tự đánh giá; bảng nhóm; giấy khổ to, bút dạ, tranh ảnh/sản phẩm về bảo vệ môi trường.; phóng sự ảnh về các dòng sông quê hương (sông Tiền, sông Cổ Chiên), hình ảnh các tuyến đường hoa Nông thôn mới kiểu mẫu; phiếu dự án nhỏ; Tài liệu GDĐP.",
@@ -2523,11 +2544,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Yêu nước: biết yêu quý, giữ gìn môi trường sống xanh, sạch, đẹp ở địa phương.",
-          "4. Tích hợp",
-          "- Tích hợp Năng lực số 3.1.CB2a: HS thực hiện bảng tự đánh giá số trên Google Forms về việc tham gia bảo vệ môi trường.",
-          "- Tích hợp Giáo dục địa phương (GDĐP): Thực hiện các hành động thiết thực bảo vệ nguồn nước sông rạch, tham gia phong trào xây dựng Nông thôn mới sáng - xanh - sạch - đẹp trên quê hương (Chủ đề 6 - Trà Vinh, trang 34; Chủ đề 1 - Vĩnh Long, trang 9; Chủ đề 1 - Bến Tre, trang 25).",
-          "- Tích hợp BVMT: HS biết nhìn lại việc làm của bản thân và đề xuất biện pháp khắc phục sai sót.",
           "................................................................................................"
         ],
         "tables": [
@@ -2624,7 +2640,8 @@
               "- HS ghi nhiệm vụ vào vở, phân công nhiệm vụ nhóm và chuẩn bị chia sẻ kết quả vào tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. BẢO VỆ MÔI TRƯỜNG SỐNG"
       }
     ]
   },
@@ -2795,7 +2812,8 @@
               "- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6. LẬP KẾ HOẠCH CÁ NHÂN"
       }
     ]
   },
@@ -2815,7 +2833,13 @@
           "- Biết cách lập kế hoạch cá nhân và lập được kế hoạch cá nhân để thực hiện các công việc của bản thân trong học tập và cuộc sống.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: chủ động xác định mục tiêu, thời gian, điểm mạnh, điểm yếu và việc cần làm của bản thân.",
-          "- Giao tiếp và hợp tác: biết thảo luận, trình bày, lắng nghe, nhận xét và phản biện khi lập kế hoạch cá nhân."
+          "- Giao tiếp và hợp tác: biết thảo luận, trình bày, lắng nghe, nhận xét và phản biện khi lập kế hoạch cá nhân.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: có ý thức lập kế hoạch và kiên trì thực hiện kế hoạch để nâng cao hiệu quả học tập, rèn luyện.",
+          "- Trách nhiệm: biết chủ động thực hiện công việc của bản thân, không trì hoãn, không phụ thuộc hoàn toàn vào người khác.",
+          "4. Tích hợp",
+          "- Tích hợp AI 5.C4.1 (Công cụ: Google Assistant, Microsoft To Do hoặc app nhắc việc có gợi ý thông minh): HS thực hành tư duy “Nếu... thì...” trong lập kế hoạch cá nhân, ví dụ nếu đến 19 giờ thì ngồi vào bàn học, nếu hoàn thành bài tập thì đánh dấu hoàn thành.",
+          "- Tích hợp Kĩ năng sống: HS hình thành thói quen quản lí thời gian."
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5; tranh, trường hợp trong SGK; thẻ bày tỏ thái độ, phiếu học tập, sticker, bảng nhóm.",
@@ -2824,12 +2848,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: có ý thức lập kế hoạch và kiên trì thực hiện kế hoạch để nâng cao hiệu quả học tập, rèn luyện.",
-          "- Trách nhiệm: biết chủ động thực hiện công việc của bản thân, không trì hoãn, không phụ thuộc hoàn toàn vào người khác.",
-          "4. Tích hợp",
-          "- Tích hợp AI 5.C4.1 (Công cụ: Google Assistant, Microsoft To Do hoặc app nhắc việc có gợi ý thông minh): HS thực hành tư duy “Nếu... thì...” trong lập kế hoạch cá nhân, ví dụ nếu đến 19 giờ thì ngồi vào bàn học, nếu hoàn thành bài tập thì đánh dấu hoàn thành.",
-          "- Tích hợp Kĩ năng sống: HS hình thành thói quen quản lí thời gian.",
           "................................................................................................................................................................",
           "................................................................................................................................................................",
           "................................................................................................................................................................",
@@ -2924,7 +2942,8 @@
               "- HS chia sẻ: “Em cần cân đối thời gian làm bài và đọc sách”; “Em cần làm việc nhà trước khi xem ti vi.”\n- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6. LẬP KẾ HOẠCH CÁ NHÂN"
       }
     ]
   },
@@ -2944,7 +2963,12 @@
           "- Biết cách lập kế hoạch cá nhân và lập được kế hoạch cá nhân để thực hiện các công việc của bản thân trong học tập và cuộc sống.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: chủ động xác định mục tiêu, thời gian, điểm mạnh, điểm yếu và việc cần làm của bản thân.",
-          "- Giao tiếp và hợp tác: biết thảo luận, trình bày, lắng nghe, nhận xét và phản biện khi lập kế hoạch cá nhân."
+          "- Giao tiếp và hợp tác: biết thảo luận, trình bày, lắng nghe, nhận xét và phản biện khi lập kế hoạch cá nhân.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: có ý thức lập kế hoạch và kiên trì thực hiện kế hoạch để nâng cao hiệu quả học tập, rèn luyện.",
+          "- Trách nhiệm: biết chủ động thực hiện công việc của bản thân, không trì hoãn, không phụ thuộc hoàn toàn vào người khác.",
+          "4. Tích hợp",
+          "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS rèn tính tự giác, kỉ luật và trách nhiệm khi thực hiện kế hoạch cá nhân; biết chủ động thực hiện nhiệm vụ, không trì hoãn, không phụ thuộc hoàn toàn vào người khác hoặc công cụ hỗ trợ."
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5; tranh, trường hợp trong SGK; thẻ bày tỏ thái độ, phiếu học tập, sticker, bảng nhóm.",
@@ -2953,11 +2977,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: có ý thức lập kế hoạch và kiên trì thực hiện kế hoạch để nâng cao hiệu quả học tập, rèn luyện.",
-          "- Trách nhiệm: biết chủ động thực hiện công việc của bản thân, không trì hoãn, không phụ thuộc hoàn toàn vào người khác.",
-          "4. Tích hợp",
-          "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS rèn tính tự giác, kỉ luật và trách nhiệm khi thực hiện kế hoạch cá nhân; biết chủ động thực hiện nhiệm vụ, không trì hoãn, không phụ thuộc hoàn toàn vào người khác hoặc công cụ hỗ trợ.",
           "................................................................................................................................................................",
           "................................................................................................................................................................",
           "................................................................................................................................................................",
@@ -3067,7 +3086,8 @@
               "- HS chia sẻ ngắn gọn nếu biết, ví dụ: “Việc hôm nay chớ để ngày mai.”\n- HS ghi nhiệm vụ vào vở, chuẩn bị sản phẩm để chia sẻ ở tiết sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6. LẬP KẾ HOẠCH CÁ NHÂN"
       }
     ]
   },
@@ -3087,7 +3107,11 @@
           "- Biết cách lập kế hoạch cá nhân và lập được kế hoạch cá nhân để thực hiện các công việc của bản thân trong học tập và cuộc sống.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: chủ động xác định mục tiêu, thời gian, điểm mạnh, điểm yếu và việc cần làm của bản thân.",
-          "- Giao tiếp và hợp tác: biết thảo luận, trình bày, lắng nghe, nhận xét và phản biện khi lập kế hoạch cá nhân."
+          "- Giao tiếp và hợp tác: biết thảo luận, trình bày, lắng nghe, nhận xét và phản biện khi lập kế hoạch cá nhân.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: có ý thức lập kế hoạch và kiên trì thực hiện kế hoạch để nâng cao hiệu quả học tập, rèn luyện.",
+          "- Trách nhiệm: biết chủ động thực hiện công việc của bản thân, không trì hoãn, không phụ thuộc hoàn toàn vào người khác.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- SGK, SGV, Vở Bài tập Đạo đức 5; tranh, trường hợp trong SGK; thẻ bày tỏ thái độ, phiếu học tập, sticker, bảng nhóm.",
@@ -3096,10 +3120,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: có ý thức lập kế hoạch và kiên trì thực hiện kế hoạch để nâng cao hiệu quả học tập, rèn luyện.",
-          "- Trách nhiệm: biết chủ động thực hiện công việc của bản thân, không trì hoãn, không phụ thuộc hoàn toàn vào người khác.",
-          "4. Tích hợp",
           "................................................................................................................................................................",
           "................................................................................................................................................................",
           "................................................................................................................................................................",
@@ -3168,7 +3188,8 @@
               "- HS ghi nhiệm vụ vào vở, tiếp tục thực hiện kế hoạch cá nhân và chuẩn bị chia sẻ kết quả."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6. LẬP KẾ HOẠCH CÁ NHÂN"
       }
     ]
   },
@@ -3343,7 +3364,8 @@
               "- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÒNG, TRÁNH XÂM HẠI"
       }
     ]
   },
@@ -3490,7 +3512,8 @@
               "- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÒNG, TRÁNH XÂM HẠI (TIẾT 2)"
       }
     ]
   },
@@ -3625,7 +3648,8 @@
               "- HS ghi nhiệm vụ vào vở và thực hiện sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 5"
       }
     ]
   },
@@ -3782,7 +3806,8 @@
               "- HS chia sẻ ngắn gọn quy tắc an toàn.\n- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÒNG, TRÁNH XÂM HẠI"
       }
     ]
   },
@@ -3920,7 +3945,8 @@
               "- HS chia sẻ ngắn gọn câu từ chối.\n- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÒNG, TRÁNH XÂM HẠI (TIẾT 4)"
       }
     ]
   },
@@ -4020,7 +4046,8 @@
               "- HS lắng nghe, ghi nhớ cách chia sẻ an toàn với GV hoặc người lớn đáng tin cậy.\n- HS ghi nhiệm vụ vào vở và thực hiện sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÒNG, TRÁNH XÂM HẠI"
       }
     ]
   },
@@ -4180,7 +4207,8 @@
               "- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8. SỬ DỤNG TIỀN HỢP LÍ"
       }
     ]
   },
@@ -4336,7 +4364,8 @@
               "- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8. SỬ DỤNG TIỀN HỢP LÍ"
       }
     ]
   },
@@ -4481,7 +4510,8 @@
               "- HS ghi nhiệm vụ vào vở và chuẩn bị cho tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8. SỬ DỤNG TIỀN HỢP LÍ"
       }
     ]
   },
@@ -4591,7 +4621,8 @@
               "- HS ghi nhiệm vụ vào vở và thực hiện sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8. SỬ DỤNG TIỀN HỢP LÍ"
       }
     ]
   },
@@ -4716,7 +4747,8 @@
               "- HS lắng nghe, ghi nhớ và thực hiện sau tiết học."
             ]
           ]
-        ]
+        ],
+        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 5"
       }
     ]
   }
@@ -4734,5 +4766,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

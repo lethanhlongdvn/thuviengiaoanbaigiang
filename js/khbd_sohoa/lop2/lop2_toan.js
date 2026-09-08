@@ -17,7 +17,7 @@
         "lessonTitle": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 100 – TIẾT 1: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Ôn tập, củng cố cách đọc, viết các số có hai chữ số theo cấu tạo chục và đơn vị.",
           "- Nhận biết, phân tích và viết được số có hai chữ số tương ứng với hình ảnh que tính, bảng số.",
@@ -36,9 +36,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2",
-          "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -200,13 +198,14 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 100 – TIẾT 1: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 100 – TIẾT 2: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết và phân tích được số có hai chữ số theo chục và đơn vị.",
           "- Viết được số có hai chữ số dưới dạng phân tích, ví dụ 35 = 30 + 5.",
@@ -223,9 +222,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2",
-          "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -363,13 +360,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 100 – TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 100 – TIẾT 3: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Làm quen với việc ước lượng số lượng theo nhóm chục.",
           "- Củng cố phân tích số có hai chữ số theo chục, đơn vị và tìm vị trí số trong bảng số đến 100.",
@@ -387,9 +385,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2",
-          "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -535,13 +531,14 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 100 – TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 2: TIA SỐ. SỐ LIỀN TRƯỚC, SỐ LIỀN SAU – TIẾT 1",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được tia số, biết viết số thích hợp trên tia số.",
           "- Nhận biết được số liền trước, số liền sau của một số.",
@@ -561,9 +558,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "................................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2",
-          "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1"
+          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -699,13 +694,14 @@
               "- HS lắng nghe nhiệm vụ chuẩn bị vật liệu.\n- HS ghi nhớ các vật liệu cần chuẩn bị.\n- HS nêu lại yêu cầu an toàn khi sử dụng kéo, hồ dán/băng dính.\n- HS chuẩn bị ở nhà và trao đổi với người thân để mang vật liệu phù hợp vào tiết học sau."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: TIA SỐ. SỐ LIỀN TRƯỚC, SỐ LIỀN SAU – TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 2: TIA SỐ. SỐ LIỀN TRƯỚC, SỐ LIỀN SAU – TIẾT 2: BÀI HỌC STEM: TIA SỐ CỦA EM",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Xác định được vị trí các số trên tia số; biết vận dụng tia số để tìm số liền trước, số liền sau.",
           "- Thiết kế được sản phẩm “Tia số của em” có vạch chia đều, ghi số đúng thứ tự và sử dụng được sản phẩm để học tập.",
@@ -871,7 +867,8 @@
               "- HS lắng nghe, tự đánh giá phần tham gia của bản thân trong nhóm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 2: TIA SỐ. SỐ LIỀN TRƯỚC, SỐ LIỀN SAU – TIẾT 2: BÀI HỌC STEM: TIA SỐ CỦA EM"
       }
     ]
   },
@@ -883,7 +880,7 @@
         "lessonTitle": "BÀI 3. CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ – TIẾT 1: SỐ HẠNG, TỔNG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được số hạng, tổng trong phép cộng.",
           "- Tính được tổng khi biết các số hạng.",
@@ -904,8 +901,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................",
-          "........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 2"
+          "........................................................................................................................................"
         ],
         "tables": [
           [
@@ -1034,13 +1030,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3. CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ – TIẾT 1: SỐ HẠNG, TỔNG"
       },
       {
         "lessonTitle": "BÀI 3. CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ – TIẾT 2: SỐ BỊ TRỪ, SỐ TRỪ, HIỆU",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được số bị trừ, số trừ, hiệu trong phép trừ.",
           "- Tính được hiệu khi biết số bị trừ, số trừ.",
@@ -1061,8 +1058,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................",
-          "........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 2"
+          "........................................................................................................................................"
         ],
         "tables": [
           [
@@ -1187,13 +1183,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3. CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ – TIẾT 2: SỐ BỊ TRỪ, SỐ TRỪ, HIỆU"
       },
       {
         "lessonTitle": "BÀI 3. CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ – TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ và so sánh các số.",
           "- Lập được phép tính phù hợp từ các số đã cho.",
@@ -1218,8 +1215,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................",
-          "........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 2"
+          "........................................................................................................................................"
         ],
         "tables": [
           [
@@ -1321,13 +1317,14 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 3. CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ – TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 4. HƠN, KÉM NHAU BAO NHIÊU – TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về hơn, kém nhau bao nhiêu thông qua tranh hoặc đề bài.",
           "- Biết dùng phép trừ để giải bài toán hơn, kém nhau bao nhiêu.",
@@ -1352,8 +1349,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................",
-          "........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 2"
+          "........................................................................................................................................"
         ],
         "tables": [
           [
@@ -1482,13 +1478,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4. HƠN, KÉM NHAU BAO NHIÊU – TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 4. HƠN, KÉM NHAU BAO NHIÊU – TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố kĩ năng giải bài toán về hơn, kém nhau bao nhiêu.",
           "- Biết tính toán với số đo độ dài có đơn vị xăng-ti-mét.",
@@ -1597,7 +1594,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 4. HƠN, KÉM NHAU BAO NHIÊU – TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -1609,7 +1607,7 @@
         "lessonTitle": "BÀI 5. ÔN TẬP VỀ PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100 – TIẾT 1: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ (không nhớ) trong phạm vi 100.",
           "- Thực hiện cộng, trừ nhẩm trong các trường hợp đơn giản và với số tròn chục.",
@@ -1632,8 +1630,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................",
-          "........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 3"
+          "........................................................................................................................................"
         ],
         "tables": [
           [
@@ -1751,13 +1748,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. ÔN TẬP VỀ PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100 – TIẾT 1: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 5. ÔN TẬP VỀ PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100 – TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ và so sánh được các số có hai chữ số.",
           "- Viết đúng cách đặt tính theo cột dọc.",
@@ -1780,8 +1778,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................",
-          "........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 3"
+          "........................................................................................................................................"
         ],
         "tables": [
           [
@@ -1887,13 +1884,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. ÔN TẬP VỀ PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100 – TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 5. ÔN TẬP VỀ PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100 – TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ và so sánh các số để tìm số lớn nhất, số bé nhất.",
           "- Giải và trình bày được bài giải của bài toán có lời văn.",
@@ -1914,8 +1912,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................",
-          "........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 3"
+          "........................................................................................................................................"
         ],
         "tables": [
           [
@@ -2021,13 +2018,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 5. ÔN TẬP VỀ PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100 – TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 6. LUYỆN TẬP CHUNG – TIẾT 1: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được số liền trước, số liền sau, số hạng, tổng.",
           "- Sắp xếp được bốn số theo thứ tự từ bé đến lớn và ngược lại.",
@@ -2050,8 +2048,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................",
-          "........................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 3"
+          "........................................................................................................................................"
         ],
         "tables": [
           [
@@ -2157,13 +2154,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6. LUYỆN TẬP CHUNG – TIẾT 1: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 6. LUYỆN TẬP CHUNG – TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ và so sánh các số.",
           "- Lập được các số có hai chữ số từ các chữ số đã cho; tìm được số lớn nhất, số bé nhất trong các số đã cho.",
@@ -2284,7 +2282,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 6. LUYỆN TẬP CHUNG – TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -2296,7 +2295,7 @@
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được phép cộng qua 10 trong phạm vi 20; biết tính bằng cách đếm tiếp hoặc tách số.",
           "- Biết tách số hạng thứ hai để thêm vào số hạng thứ nhất cho đủ 10 rồi cộng tiếp phần còn lại.",
@@ -2321,8 +2320,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 4"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -2439,13 +2437,14 @@
               "- HS ghi nhớ nhiệm vụ; nêu cách sẽ tự kiểm tra trước khi xem kết quả trên máy."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố cách cộng qua 10 bằng cách tách số và biết lựa chọn cách tính thuận tiện.",
           "- Hoàn thành bảng cộng qua 10, tính nhẩm các phép tính đơn giản trong phạm vi 20.",
@@ -2469,8 +2468,7 @@
         "dieuchinh": [
           "- Gợi ý hoạt động: HS thao tác kéo thả 10 que tính trên slide, nêu cách tách số và đọc phép cộng tương ứng.",
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 4"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -2616,13 +2614,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10 với số hạng 7, 8 và vận dụng để tính nhẩm nhanh.",
           "- Biết tách số để tính các phép cộng qua 10; hoàn thành bảng cộng và các bài luyện tập.",
@@ -2647,8 +2646,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 4"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -2802,13 +2800,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 4: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10 với các số hạng đã học.",
           "- Thực hiện được các phép cộng qua 10 bằng tính nhẩm, bảng cộng hoặc cách tách số.",
@@ -2829,8 +2828,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 4"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -2948,13 +2946,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 5: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10 và biết vận dụng để tính nhẩm nhanh.",
           "- Tìm được các phép tính có kết quả bằng một số cho trước; nhận biết hai phép tính có cùng kết quả.",
@@ -3093,7 +3092,8 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 5: LUYỆN TẬP"
       }
     ]
   },
@@ -3105,7 +3105,7 @@
         "lessonTitle": "BÀI 8. BẢNG CỘNG (QUA 10) - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hình thành được bảng cộng qua 10 qua việc hệ thống lại các phép cộng đã học thành một bảng.",
           "- Vận dụng bảng cộng qua 10 để tính nhẩm, giải bài tập và giải quyết tình huống toán học đơn giản.",
@@ -3126,8 +3126,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 5"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -3256,13 +3255,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8. BẢNG CỘNG (QUA 10) - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 8. BẢNG CỘNG (QUA 10) - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10 và biết vận dụng để tính nhẩm nhanh.",
           "- Tính được tổng khi biết hai số hạng; so sánh được hai vế có phép tính.",
@@ -3285,8 +3285,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 5"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -3436,13 +3435,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 8. BẢNG CỘNG (QUA 10) - TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 9. BÀI TOÁN VỀ THÊM, BỚT MỘT SỐ ĐƠN VỊ - TIẾT 1: GIẢI BÀI TOÁN VỀ THÊM MỘT SỐ ĐƠN VỊ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về thêm một số đơn vị.",
           "- Biết tóm tắt, chọn phép tính cộng và trình bày bài giải cho bài toán về thêm một số đơn vị.",
@@ -3467,8 +3467,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 5"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -3585,13 +3584,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9. BÀI TOÁN VỀ THÊM, BỚT MỘT SỐ ĐƠN VỊ - TIẾT 1: GIẢI BÀI TOÁN VỀ THÊM MỘT SỐ ĐƠN VỊ"
       },
       {
         "lessonTitle": "BÀI 9. BÀI TOÁN VỀ THÊM, BỚT MỘT SỐ ĐƠN VỊ - TIẾT 2: GIẢI BÀI TOÁN VỀ BỚT MỘT SỐ ĐƠN VỊ VÀ LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về bớt một số đơn vị.",
           "- Biết tóm tắt, chọn phép tính trừ và trình bày bài giải cho bài toán về bớt một số đơn vị.",
@@ -3615,8 +3615,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 5"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -3756,13 +3755,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9. BÀI TOÁN VỀ THÊM, BỚT MỘT SỐ ĐƠN VỊ - TIẾT 2: GIẢI BÀI TOÁN VỀ BỚT MỘT SỐ ĐƠN VỊ VÀ LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 10. LUYỆN TẬP CHUNG - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10, cách tính tổng và tính biểu thức đơn giản.",
           "- Củng cố kĩ năng giải và trình bày bài giải cho bài toán về thêm hoặc bớt một số đơn vị.",
@@ -3913,7 +3913,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10. LUYỆN TẬP CHUNG - TIẾT 1"
       }
     ]
   },
@@ -3925,7 +3926,7 @@
         "lessonTitle": "BÀI 10. LUYỆN TẬP CHUNG - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố kĩ năng giải và trình bày bài giải cho bài toán về thêm hoặc bớt một số đơn vị có một bước tính.",
           "- Củng cố tính nhẩm phép cộng qua 10 và vận dụng vào bài tập có tranh, bảng số, tình huống thực tế.",
@@ -3949,8 +3950,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 6"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -4076,13 +4076,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 10. LUYỆN TẬP CHUNG - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết ý nghĩa của phép trừ qua 10 trong phạm vi 20 thông qua tình huống có thật.",
           "- Biết thực hiện phép trừ dạng 11 trừ đi một số bằng cách đếm lùi hoặc tách số.",
@@ -4106,8 +4107,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 6"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -4228,13 +4228,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết tính nhẩm phép trừ qua 10 trong phạm vi 20.",
           "- Thực hiện được các phép trừ dạng 12, 13 trừ đi một số.",
@@ -4258,8 +4259,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 6"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -4397,13 +4397,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 2"
       },
       {
         "lessonTitle": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết tính nhẩm phép trừ qua 10 trong phạm vi 20.",
           "- Thực hiện được các phép trừ dạng 14, 15 trừ đi một số.",
@@ -4426,8 +4427,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 6"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -4565,13 +4565,14 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 3"
       },
       {
         "lessonTitle": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 4",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết tính nhẩm phép trừ qua 10 trong phạm vi 20.",
           "- Thực hiện được các phép trừ dạng 16, 17, 18 trừ đi một số.",
@@ -4722,7 +4723,8 @@
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 4"
       }
     ]
   },
@@ -4734,7 +4736,7 @@
         "lessonTitle": "BÀI 11: PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 5: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết tính nhẩm phép trừ qua 10 trong phạm vi 20; thực hiện được các phép trừ dạng 18, 19 trừ đi một số.",
           "- Củng cố mối quan hệ giữa phép cộng và phép trừ; vận dụng cách tính nhẩm phù hợp để tìm kết quả.",
@@ -4757,8 +4759,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 7"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -4896,13 +4897,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 11: PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 5: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 12: BẢNG TRỪ (QUA 10) - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hình thành bảng trừ qua 10 trong phạm vi 20; biết cách tìm kết quả phép trừ dựa vào bảng trừ.",
           "- Thực hiện được các phép trừ 11, 12, 13, ..., 18 trừ đi một số.",
@@ -4923,8 +4925,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 7"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -5041,13 +5042,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: BẢNG TRỪ (QUA 10) - TIẾT 1"
       },
       {
         "lessonTitle": "BÀI 12: BẢNG TRỪ (QUA 10) - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được các phép trừ qua 10 trong phạm vi 20; củng cố bảng trừ qua 10.",
           "- Giải được bài toán có lời văn liên quan đến phép trừ qua 10 trong phạm vi 20.",
@@ -5070,8 +5072,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 7"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -5185,13 +5186,14 @@
               "- HS lắng nghe, đọc lại một số phép trừ đúng trên cây hoa."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 12: BẢNG TRỪ (QUA 10) - TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "BÀI 13: BÀI TOÁN VỀ NHIỀU HƠN, ÍT HƠN MỘT SỐ ĐƠN VỊ - TIẾT 1: GIẢI BÀI TOÁN VỀ NHIỀU HƠN MỘT SỐ ĐƠN VỊ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về nhiều hơn một số đơn vị.",
           "- Biết giải và trình bày bài giải bài toán về nhiều hơn một số đơn vị.",
@@ -5214,8 +5216,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 7"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -5320,13 +5321,14 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 13: BÀI TOÁN VỀ NHIỀU HƠN, ÍT HƠN MỘT SỐ ĐƠN VỊ - TIẾT 1: GIẢI BÀI TOÁN VỀ NHIỀU HƠN MỘT SỐ ĐƠN VỊ"
       },
       {
         "lessonTitle": "BÀI 13: BÀI TOÁN VỀ NHIỀU HƠN, ÍT HƠN MỘT SỐ ĐƠN VỊ - TIẾT 2: GIẢI BÀI TOÁN VỀ ÍT HƠN MỘT SỐ ĐƠN VỊ + LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: .....",
+          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về ít hơn một số đơn vị.",
           "- Biết giải và trình bày bài giải bài toán về ít hơn một số đơn vị.",
@@ -5471,7 +5473,8 @@
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 13: BÀI TOÁN VỀ NHIỀU HƠN, ÍT HƠN MỘT SỐ ĐƠN VỊ - TIẾT 2: GIẢI BÀI TOÁN VỀ ÍT HƠN MỘT SỐ ĐƠN VỊ + LUYỆN TẬP"
       }
     ]
   },
@@ -5502,8 +5505,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 8"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -5649,7 +5651,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -5674,8 +5677,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 8"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -5813,7 +5815,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3: LUYỆN TẬP",
@@ -5838,8 +5841,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 8"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -5984,7 +5986,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1: NẶNG HƠN, NHẸ HƠN",
@@ -6014,8 +6017,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 8"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -6156,7 +6158,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: NẶNG HƠN, NHẸ HƠN"
       },
       {
         "lessonTitle": "TIẾT 2: KI-LÔ-GAM",
@@ -6321,7 +6324,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: KI-LÔ-GAM"
       }
     ]
   },
@@ -6354,8 +6358,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 9"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -6537,7 +6540,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1: LÍT",
@@ -6568,8 +6572,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 9"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -6722,7 +6725,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: LÍT"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -6748,8 +6752,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 9"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -6927,7 +6930,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1: THỰC HÀNH VÀ TRẢI NGHIỆM",
@@ -6956,8 +6960,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 9"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -7102,7 +7105,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: THỰC HÀNH VÀ TRẢI NGHIỆM"
       },
       {
         "lessonTitle": "TIẾT 2: THỰC HÀNH VÀ TRẢI NGHIỆM",
@@ -7312,7 +7316,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: THỰC HÀNH VÀ TRẢI NGHIỆM"
       }
     ]
   },
@@ -7344,8 +7349,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 10"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -7519,7 +7523,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 18. LUYỆN TẬP CHUNG"
       },
       {
         "lessonTitle": "TIẾT 1",
@@ -7548,8 +7553,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 10"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -7742,7 +7746,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -7771,8 +7776,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 10"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -7954,7 +7958,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3: LUYỆN TẬP",
@@ -7982,8 +7987,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 10"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -8173,7 +8177,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1",
@@ -8380,7 +8385,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1"
       }
     ]
   },
@@ -8415,9 +8421,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 11",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -8619,7 +8623,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3: LUYỆN TẬP",
@@ -8645,9 +8650,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 11",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -8829,7 +8832,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TẬP",
@@ -8858,9 +8862,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 11",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -9034,7 +9036,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1",
@@ -9064,9 +9067,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 11",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -9260,7 +9261,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1"
       },
       {
         "lessonTitle": "TIẾT 2",
@@ -9479,7 +9481,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2"
       }
     ]
   },
@@ -9514,9 +9517,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 12",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -9709,7 +9710,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -9737,9 +9739,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 12",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -9921,7 +9921,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3: LUYỆN TẬP",
@@ -9947,9 +9948,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 12",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -10135,7 +10134,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TẬP",
@@ -10164,9 +10164,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 12",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -10352,7 +10350,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1: PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ",
@@ -10547,7 +10546,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ"
       }
     ]
   },
@@ -10580,9 +10580,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 13",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -10728,7 +10726,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ ôn lại phép trừ có nhớ ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3: LUYỆN TẬP",
@@ -10755,9 +10754,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 13",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -10879,7 +10876,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 4: LUYỆN TẬP",
@@ -10904,9 +10902,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 13",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -11036,7 +11032,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 4: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 5: LUYỆN TẬP",
@@ -11063,9 +11060,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 13",
-          "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -11195,7 +11190,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 5: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1",
@@ -11360,7 +11356,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1"
       }
     ]
   },
@@ -11391,9 +11388,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 14",
-          "CHỦ ĐỀ 5: LÀM QUEN VỚI HÌNH PHẲNG"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -11535,7 +11530,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1: ĐIỂM, ĐOẠN THẲNG",
@@ -11560,9 +11556,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 14",
-          "CHỦ ĐỀ 5: LÀM QUEN VỚI HÌNH PHẲNG"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -11683,7 +11677,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐIỂM, ĐOẠN THẲNG"
       },
       {
         "lessonTitle": "TIẾT 2: ĐƯỜNG THẲNG, ĐƯỜNG CONG, BA ĐIỂM THẲNG HÀNG",
@@ -11710,9 +11705,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 14",
-          "CHỦ ĐỀ 5: LÀM QUEN VỚI HÌNH PHẲNG"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -11861,7 +11854,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: ĐƯỜNG THẲNG, ĐƯỜNG CONG, BA ĐIỂM THẲNG HÀNG"
       },
       {
         "lessonTitle": "TIẾT 1: ĐƯỜNG GẤP KHÚC. HÌNH TỨ GIÁC",
@@ -11886,10 +11880,7 @@
           "- HS: SGK, vở ô li, thước kẻ, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 14",
-          "CHỦ ĐỀ 5: LÀM QUEN VỚI HÌNH PHẲNG"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -12013,7 +12004,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐƯỜNG GẤP KHÚC. HÌNH TỨ GIÁC"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -12176,7 +12168,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ ôn bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -12209,9 +12202,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 15",
-          "CHỦ ĐỀ 5: LÀM QUEN VỚI HÌNH PHẲNG"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -12341,7 +12332,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ quan sát ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: THỰC HÀNH GẤP, CẮT, GHÉP, XẾP HÌNH"
       },
       {
         "lessonTitle": "TIẾT 2: VẼ ĐOẠN THẲNG",
@@ -12366,9 +12358,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 15",
-          "CHỦ ĐỀ 5: LÀM QUEN VỚI HÌNH PHẲNG"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -12505,7 +12495,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: VẼ ĐOẠN THẲNG"
       },
       {
         "lessonTitle": "TIẾT 1: LUYỆN TẬP",
@@ -12530,9 +12521,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 15",
-          "CHỦ ĐỀ 6: NGÀY - GIỜ, GIỜ - PHÚT, NGÀY - THÁNG"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -12674,7 +12663,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1",
@@ -12702,9 +12692,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 15",
-          "CHỦ ĐỀ 6: NGÀY - GIỜ, GIỜ - PHÚT, NGÀY - THÁNG"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -12845,7 +12833,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1"
       },
       {
         "lessonTitle": "TIẾT 2",
@@ -13037,7 +13026,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2"
       }
     ]
   },
@@ -13068,10 +13058,7 @@
           "- HS: SGK, vở ô li, thước kẻ, bút chì, bút màu, giấy trắng/giấy bìa, tranh ảnh về sự kiện hoặc cảnh quan."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 16",
-          "CHỦ ĐỀ 6: NGÀY - GIỜ, GIỜ - PHÚT, NGÀY - THÁNG"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -13175,7 +13162,8 @@
               "- HS lắng nghe, ghi nhớ vật liệu cần chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: NGÀY - THÁNG"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP - BÀI HỌC STEM: LỊCH ĐỂ BÀN TIỆN ÍCH",
@@ -13200,10 +13188,7 @@
           "- HS: Giấy bìa/giấy trắng, bút chì, bút màu, kéo thủ công, thước kẻ, tranh ảnh nhỏ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 16",
-          "CHỦ ĐỀ 6: NGÀY - GIỜ, GIỜ - PHÚT, NGÀY - THÁNG"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -13304,7 +13289,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP - BÀI HỌC STEM: LỊCH ĐỂ BÀN TIỆN ÍCH"
       },
       {
         "lessonTitle": "TIẾT 1: THỰC HÀNH VÀ TRẢI NGHIỆM XEM ĐỒNG HỒ",
@@ -13330,10 +13316,7 @@
           "- HS: SGK, mô hình đồng hồ trong bộ đồ dùng Toán, vở ô li."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 16",
-          "CHỦ ĐỀ 6: NGÀY - GIỜ, GIỜ - PHÚT, NGÀY - THÁNG"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -13470,7 +13453,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: THỰC HÀNH VÀ TRẢI NGHIỆM XEM ĐỒNG HỒ"
       },
       {
         "lessonTitle": "TIẾT 2: THỰC HÀNH VÀ TRẢI NGHIỆM XEM LỊCH",
@@ -13495,10 +13479,7 @@
           "- HS: SGK, vở ô li, lịch cá nhân hoặc lịch bàn nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 16",
-          "CHỦ ĐỀ 6: NGÀY - GIỜ, GIỜ - PHÚT, NGÀY - THÁNG"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -13595,7 +13576,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: THỰC HÀNH VÀ TRẢI NGHIỆM XEM LỊCH"
       },
       {
         "lessonTitle": "TIẾT 1: LUYỆN TẬP",
@@ -13747,7 +13729,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: LUYỆN TẬP"
       }
     ]
   },
@@ -13769,46 +13752,21 @@
           "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết tình huống toán học trong học tập và thực tế.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
-          "1. Năng lực đặc thù:",
           "- Ôn tập, củng cố phép cộng, phép trừ trong phạm vi 20.",
           "- Biết so sánh kết quả phép tính, lựa chọn cặp số phù hợp và giải bài toán có lời văn.",
           "- Biết trình bày bài giải có lời văn rõ ràng, đúng phép tính và đơn vị.",
-          "2. Năng lực chung:",
-          "- Tự chủ và tự học: Chủ động thực hiện nhiệm vụ học tập, tự kiểm tra kết quả bài làm.",
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết tình huống toán học trong học tập và thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
-          "1. Năng lực đặc thù:",
           "- Ôn tập, củng cố phép cộng, phép trừ trong phạm vi 100.",
           "- Biết đặt tính rồi tính, tìm kết quả phù hợp, giải bài toán có lời văn.",
           "- Biết vận dụng mối quan hệ cộng - trừ để kiểm tra kết quả.",
-          "2. Năng lực chung:",
-          "- Tự chủ và tự học: Chủ động thực hiện nhiệm vụ học tập, tự kiểm tra kết quả bài làm.",
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết tình huống toán học trong học tập và thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
-          "1. Năng lực đặc thù:",
           "- Ôn tập phép cộng, phép trừ trong phạm vi 100 và dãy tính có hai dấu phép tính.",
           "- Biết tìm tổng các số theo điều kiện, giải bài toán thực tế và hoàn thành tháp số.",
           "- Biết tự đánh giá mức độ chắc chắn của bài làm để hỏi bạn hoặc GV khi còn phân vân.",
-          "2. Năng lực chung:",
-          "- Tự chủ và tự học: Chủ động thực hiện nhiệm vụ học tập, tự kiểm tra kết quả bài làm.",
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết tình huống toán học trong học tập và thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
-          "1. Năng lực đặc thù:",
           "- Ôn tập, củng cố nhận dạng đoạn thẳng, hình tứ giác, ba điểm thẳng hàng.",
           "- Biết đo độ dài đoạn thẳng, so sánh đoạn thẳng dài nhất, ngắn nhất.",
           "- Biết quan sát hình mẫu và vẽ hình trên giấy ô vuông theo các bước phù hợp.",
-          "2. Năng lực chung:",
-          "- Tự chủ và tự học: Chủ động thực hiện nhiệm vụ học tập, tự kiểm tra kết quả bài làm.",
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết tình huống toán học trong học tập và thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập."
+          "4. Tích hợp",
+          "- Tích hợp AI - YCCĐ 2.A1.2: HS hiểu AI/công cụ số có thể tạo câu ôn tập nhanh, nhưng HS phải tự làm, tự kiểm tra bằng tính nhẩm hoặc đặt tính, không chép kết quả máy móc.",
+          "- Tích hợp năng lực số 5.2.CB1a: HS biết sử dụng công cụ số đơn giản để tự luyện tập phép cộng, phép trừ trong phạm vi 20, xem phản hồi và giải thích lại cách làm bằng lời."
         ],
         "dodung": [
           "- GV: Máy tính, ti vi/máy chiếu, máy soi, bảng phụ, phiếu học tập, hình SGK phóng to.",
@@ -13824,24 +13782,15 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "4. Tích hợp",
-          "- Tích hợp AI - YCCĐ 2.A1.2: HS hiểu AI/công cụ số có thể tạo câu ôn tập nhanh, nhưng HS phải tự làm, tự kiểm tra bằng tính nhẩm hoặc đặt tính, không chép kết quả máy móc.",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 17CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ IBÀI 33. ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20, 100TIẾT 2: LUYỆN TẬP",
-          "4. Tích hợp",
-          "- Tích hợp năng lực số 5.2.CB1a: HS biết sử dụng công cụ số đơn giản để tự luyện tập phép cộng, phép trừ trong phạm vi 20, xem phản hồi và giải thích lại cách làm bằng lời.",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 17CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ IBÀI 33. ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20, 100TIẾT 3: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 17CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ IBÀI 33. ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 20, 100TIẾT 4: LUYỆN TẬP",
-          "4. Tích hợp",
           "- Kĩ năng tự đánh giá: HS biết đánh dấu câu đã làm chắc, câu còn phân vân để hỏi bạn hoặc GV trong giờ ôn tập học kì; biết sửa lỗi với thái độ tích cực.",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 17CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ IBÀI 34. ÔN TẬP HÌNH PHẲNGTIẾT 1: LUYỆN TẬP",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………"
         ],
@@ -14481,7 +14430,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài học Tuần 17"
       }
     ]
   },
@@ -14498,26 +14448,31 @@
           "- Nhận dạng được hình phẳng đã học; phân tích, tổng hợp hình để đếm hình và tìm quy luật sắp xếp hình.",
           "- Biết trình bày cách làm rõ ràng, biết giải thích vì sao chọn đáp án.",
           "2. Năng lực chung:",
-          "1. Năng lực đặc thù:",
           "- Ôn tập, củng cố biểu tượng nặng hơn, nhẹ hơn và đơn vị đo khối lượng ki-lô-gam.",
           "- Thực hiện được phép tính cộng, trừ với số đo khối lượng có đơn vị kg.",
           "- Vận dụng giải bài toán thực tế liên quan đến khối lượng.",
-          "2. Năng lực chung:",
-          "1. Năng lực đặc thù:",
           "- Ôn tập, củng cố biểu tượng dung tích và đơn vị đo dung tích lít.",
           "- Thực hiện được phép cộng, phép trừ với số đo dung tích có đơn vị lít.",
           "- Vận dụng giải bài toán thực tế liên quan đến dung tích.",
-          "2. Năng lực chung:",
-          "1. Năng lực đặc thù:",
           "- Củng cố thứ tự số trên tia số, ngày tháng, xem giờ trên đồng hồ.",
           "- Thực hiện được phép cộng, phép trừ trong phạm vi 100 và giải toán có lời văn.",
           "- Tính được độ dài đường gấp khúc, biết so sánh độ dài các đường đi.",
-          "2. Năng lực chung:",
-          "1. Năng lực đặc thù:",
           "- Thực hiện được phép cộng, phép trừ trong phạm vi 100; phép cộng, phép trừ với đơn vị kg, l.",
           "- Xem được giờ trên đồng hồ, tính được độ dài đường gấp khúc và giải bài toán có lời văn.",
           "- Nhận dạng hình tứ giác qua phân tích, tổng hợp hình.",
-          "2. Năng lực chung:"
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn khi làm việc nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết các tình huống toán học trong học tập và thực tế.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
+          "- Trách nhiệm: Có ý thức hoàn thành nhiệm vụ, hợp tác với bạn và tự sửa lỗi khi làm sai.",
+          "4. Tích hợp",
+          "- Tích hợp AI - YCCĐ 2.C3.1: HS biết AI có thể phân loại đồ vật/hình ảnh, nhưng cần so sánh cách AI nhận diện với cách con người phân loại dựa vào đặc điểm hình học.",
+          "- Mục tiêu tích hợp AI: HS biết AI có thể nhận diện hình phẳng qua ảnh, nhưng phải kiểm tra lại bằng số cạnh, số góc, đường thẳng, đường cong để tránh nhầm lẫn.",
+          "- Tích hợp năng lực số 5.2.CB1a: HS biết sử dụng công cụ số đơn giản để trình bày kết quả đo lường.",
+          "- Mục tiêu tích hợp: HS biết dùng bảng tương tác/slide để chọn đơn vị đo phù hợp và trình bày kết quả tính với đơn vị lít.",
+          "- Đạo đức, lối sống: HS ôn tập nghiêm túc, trung thực khi làm bài, không nhìn bài bạn và mạnh dạn hỏi khi chưa hiểu.",
+          "- Tích hợp AI - YCCĐ 2.D2.1: HS nhận thức con người cần cung cấp dữ liệu chính xác để AI học và làm việc hiệu quả.",
+          "- Mục tiêu tích hợp AI: HS hiểu nếu đưa dữ liệu sai hoặc sửa lỗi không đúng thì Robot/AI sẽ học sai; vì vậy cần rà soát lỗi và tự chịu trách nhiệm về kết quả."
         ],
         "dodung": [
           "- GV: Máy tính, ti vi/máy chiếu, máy soi, bảng phụ, phiếu học tập, hình SGK phóng to.",
@@ -14533,53 +14488,14 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn khi làm việc nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết các tình huống toán học trong học tập và thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
-          "- Trách nhiệm: Có ý thức hoàn thành nhiệm vụ, hợp tác với bạn và tự sửa lỗi khi làm sai.",
-          "4. Tích hợp",
-          "- Tích hợp AI - YCCĐ 2.C3.1: HS biết AI có thể phân loại đồ vật/hình ảnh, nhưng cần so sánh cách AI nhận diện với cách con người phân loại dựa vào đặc điểm hình học.",
-          "- Mục tiêu tích hợp AI: HS biết AI có thể nhận diện hình phẳng qua ảnh, nhưng phải kiểm tra lại bằng số cạnh, số góc, đường thẳng, đường cong để tránh nhầm lẫn.",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 18CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ IBÀI 35. ÔN TẬP ĐO LƯỜNGTIẾT 1: LUYỆN TẬP VỀ KI-LÔ-GAM",
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn khi làm việc nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết các tình huống toán học trong học tập và thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
-          "- Trách nhiệm: Có ý thức hoàn thành nhiệm vụ, hợp tác với bạn và tự sửa lỗi khi làm sai.",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 18CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ IBÀI 35. ÔN TẬP ĐO LƯỜNGTIẾT 2: LUYỆN TẬP VỀ LÍT",
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn khi làm việc nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết các tình huống toán học trong học tập và thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
-          "- Trách nhiệm: Có ý thức hoàn thành nhiệm vụ, hợp tác với bạn và tự sửa lỗi khi làm sai.",
-          "4. Tích hợp",
-          "- Tích hợp năng lực số 5.2.CB1a: HS biết sử dụng công cụ số đơn giản để trình bày kết quả đo lường.",
-          "- Mục tiêu tích hợp: HS biết dùng bảng tương tác/slide để chọn đơn vị đo phù hợp và trình bày kết quả tính với đơn vị lít.",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 18CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ IBÀI 36. ÔN TẬP CHUNGTIẾT 1: LUYỆN TẬP",
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn khi làm việc nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết các tình huống toán học trong học tập và thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
-          "- Trách nhiệm: Có ý thức hoàn thành nhiệm vụ, hợp tác với bạn và tự sửa lỗi khi làm sai.",
-          "4. Tích hợp",
-          "- Đạo đức, lối sống: HS ôn tập nghiêm túc, trung thực khi làm bài, không nhìn bài bạn và mạnh dạn hỏi khi chưa hiểu.",
-          "- Tích hợp AI - YCCĐ 2.D2.1: HS nhận thức con người cần cung cấp dữ liệu chính xác để AI học và làm việc hiệu quả.",
-          "- Mục tiêu tích hợp AI: HS hiểu nếu đưa dữ liệu sai hoặc sửa lỗi không đúng thì Robot/AI sẽ học sai; vì vậy cần rà soát lỗi và tự chịu trách nhiệm về kết quả.",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 18CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ IBÀI 36. ÔN TẬP CHUNGTIẾT 2: LUYỆN TẬP",
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn khi làm việc nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức đã học để giải quyết các tình huống toán học trong học tập và thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì khi thực hiện các bài toán ôn tập.",
-          "- Trách nhiệm: Có ý thức hoàn thành nhiệm vụ, hợp tác với bạn và tự sửa lỗi khi làm sai.",
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………"
         ],
@@ -15179,7 +15095,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "Bài học Tuần 18"
       }
     ]
   },
@@ -15357,7 +15274,8 @@
               "- HS lắng nghe và thực hiện ở nhà."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 91 - BÀI 37: PHÉP NHÂN (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 92 - BÀI 37: PHÉP NHÂN (TIẾT 2)",
@@ -15494,7 +15412,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 92 - BÀI 37: PHÉP NHÂN (TIẾT 2)"
       },
       {
         "lessonTitle": "TIẾT 93 - BÀI 38: THỪA SỐ, TÍCH (TIẾT 1)",
@@ -15648,7 +15567,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 93 - BÀI 38: THỪA SỐ, TÍCH (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 94 - BÀI 38: THỪA SỐ, TÍCH (TIẾT 2)",
@@ -15797,7 +15717,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 94 - BÀI 38: THỪA SỐ, TÍCH (TIẾT 2)"
       },
       {
         "lessonTitle": "TIẾT 95 - BÀI 39: BẢNG NHÂN 2 (TIẾT 1)",
@@ -15960,7 +15881,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 95 - BÀI 39: BẢNG NHÂN 2 (TIẾT 1)"
       }
     ]
   },
@@ -16154,7 +16076,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 96 - BÀI 39: BẢNG NHÂN 2 (TIẾT 2: LUYỆN TẬP)"
       },
       {
         "lessonTitle": "TIẾT 97 - BÀI 40: BẢNG NHÂN 5 (TIẾT 1)",
@@ -16316,7 +16239,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 97 - BÀI 40: BẢNG NHÂN 5 (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 98 - BÀI 40: BẢNG NHÂN 5 (TIẾT 2: LUYỆN TẬP)",
@@ -16480,7 +16404,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 98 - BÀI 40: BẢNG NHÂN 5 (TIẾT 2: LUYỆN TẬP)"
       },
       {
         "lessonTitle": "TIẾT 99 - BÀI 41: PHÉP CHIA (TIẾT 1)",
@@ -16652,7 +16577,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 99 - BÀI 41: PHÉP CHIA (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 100 - BÀI 41: PHÉP CHIA (TIẾT 2: LUYỆN TẬP)",
@@ -16827,7 +16753,8 @@
               "- HS lắng nghe, thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 100 - BÀI 41: PHÉP CHIA (TIẾT 2: LUYỆN TẬP)"
       }
     ]
   },
@@ -16970,7 +16897,8 @@
               "-HS trả lởi- HS nêu số bị chia, số chia, thương.-HS lắng nghe"
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 101 - BÀI 42: SỐ BỊ CHIA, SỐ CHIA, THƯƠNG"
       },
       {
         "lessonTitle": "TIẾT 102- BÀI 42: SỐ BỊ CHIA, SỐ CHIA, THƯƠNG (TIẾT 2)",
@@ -17082,7 +17010,8 @@
               "- HS trả lời- HS nhắc lại cách tìm thương khi biết số bị chia, số chia- HS lắng nghe-- HS lắng nghe"
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 102- BÀI 42: SỐ BỊ CHIA, SỐ CHIA, THƯƠNG (TIẾT 2)"
       },
       {
         "lessonTitle": "TIẾT 103 - BÀI 43: BẢNG CHIA 2 (TIẾT 1)",
@@ -17154,7 +17083,8 @@
               "- HS trả lời: Học bài “Bảng chia 2”.\n- HS đọc lại bảng chia 2, ghi nhớ.\n- HS nhắc lại quy tắc: Số bị chia chia cho số chia bằng thương.\n- HS lắng nghe nhận xét và ghi nhớ dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 103 - BÀI 43: BẢNG CHIA 2 (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 104 - BÀI 43: BẢNG CHIA 2 (TIẾT 2)",
@@ -17232,7 +17162,8 @@
               "4. HĐ Vận dụng – trải nghiệm\n- HS trả lời: Hôm nay học bài Luyện tập (bảng chia 2).\n- HS nhắc lại cách thực hiện phép chia 2 trong bảng chia 2.\n- HS lắng nghe nhận xét của GV.\n- HS ghi nhớ dặn dò và chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 104 - BÀI 43: BẢNG CHIA 2 (TIẾT 2)"
       },
       {
         "lessonTitle": "TIẾT 105 - BÀI 44: BẢNG CHIA 5 (TIẾT 1)",
@@ -17320,7 +17251,8 @@
               "- HS trả lời: Bảng chia 5.\n- 2–3 HS đọc bảng chia 5; cả lớp đọc thầm/đồng thanh.\n- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 105 - BÀI 44: BẢNG CHIA 5 (TIẾT 1)"
       }
     ]
   },
@@ -17492,7 +17424,8 @@
               "- HS lắng nghe và thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 106 – BÀI 44: BẢNG CHIA 5 – LUYỆN TẬP (TIẾT 2)"
       },
       {
         "lessonTitle": "TIẾT 107 – BÀI 45: LUYỆN TẬP CHUNG – LUYỆN TẬP (TIẾT 1)",
@@ -17686,7 +17619,8 @@
               "- HS ghi nhớ và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 107 – BÀI 45: LUYỆN TẬP CHUNG – LUYỆN TẬP (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 108 – BÀI 45: LUYỆN TẬP CHUNG – LUYỆN TẬP (TIẾT 2)",
@@ -17876,7 +17810,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 108 – BÀI 45: LUYỆN TẬP CHUNG – LUYỆN TẬP (TIẾT 2)"
       },
       {
         "lessonTitle": "TIẾT 109 – BÀI 45: LUYỆN TẬP CHUNG – LUYỆN TẬP (TIẾT 3)",
@@ -18074,7 +18009,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 109 – BÀI 45: LUYỆN TẬP CHUNG – LUYỆN TẬP (TIẾT 3)"
       },
       {
         "lessonTitle": "TIẾT 110 – BÀI 45: LUYỆN TẬP CHUNG – LUYỆN TẬP (TIẾT 4)",
@@ -18256,7 +18192,8 @@
               "- HS lắng nghe và thực hiện dặn dò."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 110 – BÀI 45: LUYỆN TẬP CHUNG – LUYỆN TẬP (TIẾT 4)"
       }
     ]
   },
@@ -18274,7 +18211,13 @@
           "- Giải được bài toán thực tế liên quan đến phép chia.",
           "- Qua thực hành, luyện tập sẽ phát triển năng lực tư duy và lập luận toán học, năng lực giao tiếp Toán học. Qua giải bài toán thực tế sẽ phát triển năng lực giải quyết vấn đề Toán học.",
           "2. Năng lực chung",
-          "- Giao tiếp – hợp tác: Trao đổi, thảo luận nhóm/cặp; trình bày và lắng nghe ý kiến; phối hợp thực hiện nhiệm vụ học tập."
+          "- Giao tiếp – hợp tác: Trao đổi, thảo luận nhóm/cặp; trình bày và lắng nghe ý kiến; phối hợp thực hiện nhiệm vụ học tập.",
+          "- Giải quyết vấn đề và sáng tạo: Phát hiện và lựa chọn cách làm phù hợp; vận dụng kiến thức đã học để giải quyết các tình huống/bài toán.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập; kiên trì luyện tập để hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Thực hiện đúng yêu cầu của GV; hoàn thành bài tập; giữ gìn đồ dùng học tập.",
+          "- Nhân ái: Tôn trọng, giúp đỡ bạn; ứng xử thân thiện trong học tập và sinh hoạt.",
+          "4. Tích hợp:"
         ],
         "dodung": [
           "- GV: Laptop; máy chiếu; clip, slide minh họa, ... Bộ đồ dùng học Toán 2. Phiếu học tập nhóm BT 1, BT 3.",
@@ -18284,13 +18227,7 @@
           "TOÁN"
         ],
         "dieuchinh": [
-          "- Giải quyết vấn đề và sáng tạo: Phát hiện và lựa chọn cách làm phù hợp; vận dụng kiến thức đã học để giải quyết các tình huống/bài toán.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập; kiên trì luyện tập để hoàn thành nhiệm vụ.",
-          "- Trách nhiệm: Thực hiện đúng yêu cầu của GV; hoàn thành bài tập; giữ gìn đồ dùng học tập.",
-          "- Nhân ái: Tôn trọng, giúp đỡ bạn; ứng xử thân thiện trong học tập và sinh hoạt.",
           "- Tinh thần hợp tác: Phối hợp làm việc nhóm; chia sẻ, hỗ trợ nhau để hoàn thành nhiệm vụ chung.",
-          "4. Tích hợp:",
           "Đạo đức, lối sống: HS khi được bạn bè/người thân chúc mừng sinh nhật cần lễ phép đáp lại, biết nói lời “Cảm ơn” và thể hiện sự trân trọng."
         ],
         "tables": [
@@ -18431,7 +18368,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 111 - BÀI 45: LUYỆN TẬP CHUNG"
       },
       {
         "lessonTitle": "TIẾT 112 - BÀI 46: KHỐI TRỤ, KHỐI CẦU",
@@ -18443,7 +18381,14 @@
           "- Liên hệ, nhận biết được các đồ vật gần gũi có dạng khối trụ, khối cầu.",
           "- Thông qua nhận dạng hình, HS phát triển năng lực quan sát, năng lực tư duy, mô hình hóa, đồng thời bước bước đầu phát triển trí tưởng tượng không gian. Qua thực hành, luyện tập, HS phát triển được năng lực giải quyết vấn đề Toán học và sử dụng công cụ, phương tiện, đồ dung Toán học.",
           "2. Năng lực chung",
-          "- Giao tiếp – hợp tác: Trao đổi, thảo luận nhóm/cặp; trình bày và lắng nghe ý kiến; phối hợp thực hiện nhiệm vụ học tập."
+          "- Giao tiếp – hợp tác: Trao đổi, thảo luận nhóm/cặp; trình bày và lắng nghe ý kiến; phối hợp thực hiện nhiệm vụ học tập.",
+          "- Giải quyết vấn đề và sáng tạo: Phát hiện và lựa chọn cách làm phù hợp; vận dụng kiến thức đã học để giải quyết các tình huống/bài toán.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập; kiên trì luyện tập để hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Thực hiện đúng yêu cầu của GV; hoàn thành bài tập; giữ gìn đồ dùng học tập.",
+          "- Nhân ái: Tôn trọng, giúp đỡ bạn; ứng xử thân thiện trong học tập và sinh hoạt.",
+          "4. Tích hợp",
+          "Bảo vệ môi trường: Giáo dục HS giữ gìn môi trường biển, không xả rác ở biển.Tích hợp năng lực số 4.4.CB1a: Nhận biết tác động cơ bản của công nghệ số đối với môi trường; có ý thức phân loại, thu gom rác thải công nghệ như pin cũ có dạng khối trụ.Tích hợp AI - YCCĐ 2.C3.2: HS hiểu rằng AI có thể nhận diện và phân loại sai nếu hình ảnh không rõ hoặc dữ liệu còn thiếu."
         ],
         "dodung": [
           "- GV: Mô hình khối trụ, khối cầu bằng bìa hoặc nhựa như: hộp sữa, cái cốc, ống nước, quả bóng, ống chè, hộp bánh sắt, quả địa cầu …",
@@ -18453,14 +18398,7 @@
           "TOÁN"
         ],
         "dieuchinh": [
-          "- Giải quyết vấn đề và sáng tạo: Phát hiện và lựa chọn cách làm phù hợp; vận dụng kiến thức đã học để giải quyết các tình huống/bài toán.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập; kiên trì luyện tập để hoàn thành nhiệm vụ.",
-          "- Trách nhiệm: Thực hiện đúng yêu cầu của GV; hoàn thành bài tập; giữ gìn đồ dùng học tập.",
-          "- Nhân ái: Tôn trọng, giúp đỡ bạn; ứng xử thân thiện trong học tập và sinh hoạt.",
-          "- Tinh thần hợp tác: Phối hợp làm việc nhóm; chia sẻ, hỗ trợ nhau để hoàn thành nhiệm vụ chung.",
-          "4. Tích hợp",
-          "Bảo vệ môi trường: Giáo dục HS giữ gìn môi trường biển, không xả rác ở biển.Tích hợp năng lực số 4.4.CB1a: Nhận biết tác động cơ bản của công nghệ số đối với môi trường; có ý thức phân loại, thu gom rác thải công nghệ như pin cũ có dạng khối trụ.Tích hợp AI - YCCĐ 2.C3.2: HS hiểu rằng AI có thể nhận diện và phân loại sai nếu hình ảnh không rõ hoặc dữ liệu còn thiếu."
+          "- Tinh thần hợp tác: Phối hợp làm việc nhóm; chia sẻ, hỗ trợ nhau để hoàn thành nhiệm vụ chung."
         ],
         "tables": [
           [
@@ -18637,7 +18575,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 112 - BÀI 46: KHỐI TRỤ, KHỐI CẦU"
       },
       {
         "lessonTitle": "TIẾT 113 - BÀI 46: KHỐI TRỤ, KHỐI CẦU",
@@ -18648,7 +18587,13 @@
           "- Củng cố khả năng nhận dạng khối trụ và khối cầu; học sinh củng cố kĩ năng xử lí vấn đề trong bài toán có quy luật hình.",
           "- Thông qua nhận dạng hình, HS phát triển năng lực quan sát, năng lực tư duy, mô hình hoá; bước đầu phát triển trí tưởng tượng không gian.  Qua thực hành, luyện tập phát triển năng lực giải quyết vấn đề Toán học.",
           "2. Năng lực chung",
-          "- Giao tiếp – hợp tác: Trao đổi, thảo luận nhóm/cặp; trình bày và lắng nghe ý kiến; phối hợp thực hiện nhiệm vụ học tập."
+          "- Giao tiếp – hợp tác: Trao đổi, thảo luận nhóm/cặp; trình bày và lắng nghe ý kiến; phối hợp thực hiện nhiệm vụ học tập.",
+          "- Giải quyết vấn đề và sáng tạo: Phát hiện và lựa chọn cách làm phù hợp; vận dụng kiến thức đã học để giải quyết các tình huống/bài toán.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập; kiên trì luyện tập để hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Thực hiện đúng yêu cầu của GV; hoàn thành bài tập; giữ gìn đồ dùng học tập.",
+          "- Nhân ái: Tôn trọng, giúp đỡ bạn; ứng xử thân thiện trong học tập và sinh hoạt.",
+          "4. Tích hợpTích hợp AI - YCCĐ 2.C3.2: Biết được rằng AI có thể phân loại sai; HS hiểu khi hình ảnh không rõ ràng hoặc dữ liệu thiếu, AI có thể nhầm khối trụ với khối cầu, vì vậy cần quan sát và kiểm tra lại bằng kiến thức đã học."
         ],
         "dodung": [
           "- GV: Laptop; máy chiếu; clip, slide minh họa, ... Bộ đồ dùng học Toán 2. Phiếu học tập nhóm bài 4.",
@@ -18659,13 +18604,7 @@
           "KẾ HOẠCH BÀI DẠY"
         ],
         "dieuchinh": [
-          "- Giải quyết vấn đề và sáng tạo: Phát hiện và lựa chọn cách làm phù hợp; vận dụng kiến thức đã học để giải quyết các tình huống/bài toán.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập; kiên trì luyện tập để hoàn thành nhiệm vụ.",
-          "- Trách nhiệm: Thực hiện đúng yêu cầu của GV; hoàn thành bài tập; giữ gìn đồ dùng học tập.",
-          "- Nhân ái: Tôn trọng, giúp đỡ bạn; ứng xử thân thiện trong học tập và sinh hoạt.",
-          "- Tinh thần hợp tác: Phối hợp làm việc nhóm; chia sẻ, hỗ trợ nhau để hoàn thành nhiệm vụ chung.",
-          "4. Tích hợpTích hợp AI - YCCĐ 2.C3.2: Biết được rằng AI có thể phân loại sai; HS hiểu khi hình ảnh không rõ ràng hoặc dữ liệu thiếu, AI có thể nhầm khối trụ với khối cầu, vì vậy cần quan sát và kiểm tra lại bằng kiến thức đã học."
+          "- Tinh thần hợp tác: Phối hợp làm việc nhóm; chia sẻ, hỗ trợ nhau để hoàn thành nhiệm vụ chung."
         ],
         "tables": [
           [
@@ -18810,7 +18749,8 @@
               "- HS lắng nghe"
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 113 - BÀI 46: KHỐI TRỤ, KHỐI CẦU"
       },
       {
         "lessonTitle": "BÀI 9: TRẢI NGHIỆM THÀNH PHỐ HÌNH HỌC (2 TIẾT)",
@@ -19020,7 +18960,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 9: TRẢI NGHIỆM THÀNH PHỐ HÌNH HỌC (2 TIẾT)"
       }
     ]
   },
@@ -19045,42 +18986,23 @@
           "- Trách nhiệm: Thực hiện nhiệm vụ cá nhân/nhóm; giữ gìn đồ dùng học tập.",
           "4. Tích hợp",
           "- Tích hợp năng lực số 5.2.CB1a: HS xác định được nhu cầu cá nhân và sử dụng công cụ số đơn giản để trình bày cấu tạo số theo đơn vị, chục, trăm, nghìn.",
-          "1. Năng lực đặc thù",
           "- Nắm được đơn vị nghìn, quan hệ giữa trăm và nghìn.",
           "- Qua hoạt động quan sát, nhận biết hình ảnh đơn vị, chục, trăm, nghìn, HS phát triển năng lực mô hình hoá toán học.",
           "- Qua hoạt động diễn đạt, trả lời câu hỏi (bằng cách nói hoặc viết) mà GV đặt ra, HS phát triển năng lực giao tiếp toán học.",
-          "2. Năng lực chung",
           "- Tự chủ - tự học: HS chủ động thực hiện nhiệm vụ học tập, tự kiểm tra và sửa sai khi làm bài.",
           "- Giao tiếp - hợp tác: HS trao đổi trong nhóm/cặp, trình bày và lắng nghe ý kiến của bạn.",
           "- Giải quyết vấn đề và sáng tạo: HS vận dụng kiến thức đơn vị, chục, trăm, nghìn để giải quyết các bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
           "- Nhân ái: Biết tôn trọng, hỗ trợ bạn khi học nhóm, chia sẻ đồ dùng học tập.",
           "- Chăm chỉ: Tích cực, kiên trì làm bài tập; rèn luyện tính cẩn thận khi học Toán.",
           "- Trung thực: Làm bài và báo cáo kết quả đúng; tự giác nhận lỗi và sửa sai.",
           "- Trách nhiệm: Có ý thức hợp tác trong hoạt động nhóm; giữ gìn đồ dùng học tập và hoàn thành nhiệm vụ được giao.",
-          "1. Năng lực đặc thù",
           "- Nhận biết được cách đọc và viết các số tròn trăm, tròn chục.",
           "- Qua hoạt động quan sát, nhận biết hình ảnh các số tròn chục, tròn trăm, HS phát triển năng lực mô hình hoá toán học.",
-          "- Qua hoạt động diễn đạt, trả lời câu hỏi (bằng cách nói hoặc viết) mà GV đặt ra, HS phát triển năng lực giao tiếp toán học.",
-          "2. Năng lực chung",
-          "- Tự chủ - tự học: HS chủ động thực hiện nhiệm vụ học tập, tự kiểm tra và sửa sai khi làm bài.",
-          "- Giao tiếp - hợp tác: HS trao đổi trong nhóm/cặp, trình bày và lắng nghe ý kiến của bạn.",
           "- Giải quyết vấn đề và sáng tạo: HS vận dụng kiến thức về số tròn trăm để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Nhân ái: Biết tôn trọng, hỗ trợ bạn khi học nhóm, chia sẻ đồ dùng học tập.",
-          "- Chăm chỉ: Tích cực, kiên trì làm bài tập; rèn luyện tính cẩn thận khi học Toán.",
-          "- Trung thực: Làm bài và báo cáo kết quả đúng; tự giác nhận lỗi và sửa sai.",
-          "- Trách nhiệm: Có ý thức hợp tác trong hoạt động nhóm; giữ gìn đồ dùng học tập và hoàn thành nhiệm vụ được giao.",
-          "4. Tích hợp",
           "- Tích hợp AI - YCCĐ 2.C3.1: HS biết AI có thể phân loại đồ vật/số bằng cách sử dụng công cụ máy học; nhận biết AI có thể phân loại số theo đặc điểm nhưng cần dựa vào cấu tạo số để kiểm tra số tròn trăm, số tròn chục.",
-          "1. Năng lực đặc thù",
           "- Củng cố kĩ năng ước lượng số lượng đồ vật theo số tròn chục.",
-          "- Qua hoạt động quan sát, nhận biết hình ảnh các số tròn chục, tròn trăm, HS phát triển năng lực mô hình hoá toán học.",
           "- Qua hoạt động diễn đạt, trả lời câu hỏi (bằng cách nói hoặc viết) mà GV đặt ra sẽ giúp HS phát triển năng lực giao tiếp toán học.",
           "- HS được tham gia vào hoạt động thực hành, trải nghiệm thông qua trò chơi toán học.",
-          "2. Năng lực chung",
-          "- Tự chủ - tự học: HS chủ động thực hiện nhiệm vụ học tập, tự kiểm tra và sửa sai khi làm bài.",
-          "- Giao tiếp - hợp tác: HS trao đổi trong nhóm/cặp, trình bày và lắng nghe ý kiến của bạn.",
           "1. Năng lực đặc thù:",
           "- Nhận biết và so sánh được các số tròn trăm, tròn chục dựa vào chữ số hàng trăm, hàng chục.",
           "- Xác định được số tương ứng với hình biểu diễn trăm/chục và với các vạch trên tia số.",
@@ -19095,8 +19017,8 @@
           "- Trung thực: Làm bài đúng khả năng, kiểm tra chéo nghiêm túc.",
           "- Trách nhiệm: Chuẩn bị đồ dùng, thực hiện đúng yêu cầu, hợp tác tốt.",
           "- Cẩn thận: Viết số rõ ràng, điền dấu chính xác.",
-          "4. Tích hợp",
-          "- Đạo đức, lối sống: Rèn tính cẩn thận, kiên trì khi so sánh số; HS biết kiểm tra từng hàng trước khi kết luận lớn hơn, bé hơn; trình bày kết quả trung thực, không làm qua loa."
+          "- Đạo đức, lối sống: Rèn tính cẩn thận, kiên trì khi so sánh số; HS biết kiểm tra từng hàng trước khi kết luận lớn hơn, bé hơn; trình bày kết quả trung thực, không làm qua loa.",
+          "- Yêu nước: Yêu thích học tập, trân trọng giá trị của tri thức; có ý thức học tập để trở thành người có ích."
         ],
         "dodung": [
           "- GV: Laptop; máy chiếu; clip, slide minh họa, ... Bộ đồ dùng học Toán 2.",
@@ -19115,25 +19037,15 @@
         "activities": [],
         "dieuchinh": [
           "TOÁN",
-          "TIẾT: 117 - BÀI 48: ĐƠN VỊ, CHỤC, TRĂM, NGHÌN (TIẾT 2)",
           "LUYỆN TẬP",
           "………………………………………………………………………………………………………………………………………………………………………………",
           "TOÁN",
-          "TIẾT: 118 - BÀI 49: CÁC SỐ TRÒN TRĂM, TRÒN CHỤC (TIẾT 1)",
           "CÁC SỐ TRÒN TRĂM",
           "………………………………………………………………………………………………………………………………………………………………………………",
           "TOÁN",
-          "TIẾT: 119 - BÀI 49: CÁC SỐ TRÒN TRĂM, TRÒN CHỤC (TIẾT 2)",
           "CÁC SỐ TRÒN CHỤC",
-          "3. Phẩm chất",
-          "- Yêu nước: Yêu thích học tập, trân trọng giá trị của tri thức; có ý thức học tập để trở thành người có ích.",
-          "- Nhân ái: Biết tôn trọng, hỗ trợ bạn khi học nhóm, chia sẻ đồ dùng học tập.",
-          "- Chăm chỉ: Tích cực, kiên trì làm bài tập; rèn luyện tính cẩn thận khi học Toán.",
-          "- Trung thực: Làm bài và báo cáo kết quả đúng; tự giác nhận lỗi và sửa sai.",
-          "- Trách nhiệm: Có ý thức hợp tác trong hoạt động nhóm; giữ gìn đồ dùng học tập và hoàn thành nhiệm vụ được giao.",
           "………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………………",
           "TOÁN",
-          "TIẾT: 120 - BÀI 50: SO SÁNH CÁC SỐ TRÒN TRĂM, TRÒN CHỤC (TIẾT 1)",
           "……………………………………………………………………………",
           "……………………………………………………………………………"
         ],
@@ -19985,7 +19897,8 @@
               "- HS lắng nghe và thực hiện."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT: 116 - BÀI 48: ĐƠN VỊ, CHỤC, TRĂM, NGHÌN (TIẾT 1)"
       }
     ]
   },
@@ -20002,7 +19915,12 @@
           "- Biết sắp xếp các số tròn trăm, tròn chục theo thứ tự từ bé đến lớn và ngược lại; tìm số bé nhất hoặc lớn nhất trong 4 số.",
           "- Qua thực hành, luyện tập sẽ phát triển năng lực tư duy và lập luận toán học, năng lực giao tiếp Toán học. Qua giải bài toán thực tế sẽ phát triển năng lực giải quyết vấn đề Toán học.",
           "2. Năng lực chung",
-          "- Giao tiếp – hợp tác: HS trao đổi, chia sẻ cách làm; phối hợp khi làm việc theo cặp/nhóm và trình bày kết quả."
+          "- Giao tiếp – hợp tác: HS trao đổi, chia sẻ cách làm; phối hợp khi làm việc theo cặp/nhóm và trình bày kết quả.",
+          "- Giải quyết vấn đề sáng tạo: HS vận dụng kiến thức so sánh, sắp xếp số để giải quyết tình huống/bài toán thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực, kiên trì thực hiện nhiệm vụ học tập; hoàn thành bài tập được giao.",
+          "- Trách nhiệm: Tự giác, nghiêm túc trong học tập; có ý thức hợp tác và chịu trách nhiệm với kết quả cá nhân/nhóm.",
+          "- Nhân ái: Tôn trọng, lắng nghe và hỗ trợ bạn trong hoạt động học tập."
         ],
         "dodung": [
           "- GV: Máy tính, tivi chiếu nội dung bài;",
@@ -20011,13 +19929,7 @@
         "activities": [
           "TOÁN"
         ],
-        "dieuchinh": [
-          "- Giải quyết vấn đề sáng tạo: HS vận dụng kiến thức so sánh, sắp xếp số để giải quyết tình huống/bài toán thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực, kiên trì thực hiện nhiệm vụ học tập; hoàn thành bài tập được giao.",
-          "- Trách nhiệm: Tự giác, nghiêm túc trong học tập; có ý thức hợp tác và chịu trách nhiệm với kết quả cá nhân/nhóm.",
-          "- Nhân ái: Tôn trọng, lắng nghe và hỗ trợ bạn trong hoạt động học tập."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20216,7 +20128,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 121 – BÀI 50. LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 122 – BÀI 51. SỐ CÓ BA CHỮ SỐ (TIẾT 1)",
@@ -20227,7 +20140,15 @@
           "- Đọc, viết thành thạo các số có ba chữ số.",
           "- Thông qua hoạt động quan sát, nhận biết hình ảnh đơn vị, chục, trăm, nghìn; diễn đạt, trả lời câu hỏi và giải quyết các bài tập có tình huống, HS phát triển năng lực mô hình hóa toán học, năng lực giao tiếp, năng lực giải quyết vấn đề.",
           "2. Năng lực chung",
-          "- Giao tiếp – hợp tác: HS trao đổi, chia sẻ khi thực hiện nhiệm vụ; hợp tác trong nhóm/cặp."
+          "- Giao tiếp – hợp tác: HS trao đổi, chia sẻ khi thực hiện nhiệm vụ; hợp tác trong nhóm/cặp.",
+          "- Giải quyết vấn đề sáng tạo: HS vận dụng kiến thức để giải quyết các bài tập có tình huống.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành bài tập.",
+          "- Trách nhiệm: Tự giác, nghiêm túc; chịu trách nhiệm với kết quả cá nhân/nhóm.",
+          "- Nhân ái: Tôn trọng, lắng nghe và hỗ trợ bạn trong học tập.",
+          "4. Tích hợp",
+          "- Tích hợp AI - YCCĐ 2.D2.1: HS hiểu vai trò của việc cung cấp dữ liệu chính xác để AI đưa ra kết quả đúng.",
+          "- Mục tiêu tích hợp AI: HS nhận biết chữ số 0-9 viết rõ ràng, đúng mẫu là dữ liệu quan trọng giúp máy tính/AI nhận diện số; khi viết, đọc số có ba chữ số, HS biết kiểm tra lại vị trí hàng trăm, hàng chục, hàng đơn vị để tránh nhầm lẫn."
         ],
         "dodung": [
           "- GV: Laptop; máy chiếu; clip, slide minh họa, ...; Bộ đồ dùng học Toán 2.",
@@ -20238,16 +20159,7 @@
         "activities": [
           "TOÁN"
         ],
-        "dieuchinh": [
-          "- Giải quyết vấn đề sáng tạo: HS vận dụng kiến thức để giải quyết các bài tập có tình huống.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành bài tập.",
-          "- Trách nhiệm: Tự giác, nghiêm túc; chịu trách nhiệm với kết quả cá nhân/nhóm.",
-          "- Nhân ái: Tôn trọng, lắng nghe và hỗ trợ bạn trong học tập.",
-          "4. Tích hợp",
-          "- Tích hợp AI - YCCĐ 2.D2.1: HS hiểu vai trò của việc cung cấp dữ liệu chính xác để AI đưa ra kết quả đúng.",
-          "- Mục tiêu tích hợp AI: HS nhận biết chữ số 0-9 viết rõ ràng, đúng mẫu là dữ liệu quan trọng giúp máy tính/AI nhận diện số; khi viết, đọc số có ba chữ số, HS biết kiểm tra lại vị trí hàng trăm, hàng chục, hàng đơn vị để tránh nhầm lẫn."
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20431,7 +20343,8 @@
               "- 1 HS đọc hai số có 3 chữ số bất kì rồi đố bạn so sánh 2 số.\n- Lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 122 – BÀI 51. SỐ CÓ BA CHỮ SỐ (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 123 – BÀI 51. SỐ CÓ BA CHỮ SỐ (TIẾT 2)",
@@ -20443,17 +20356,7 @@
           "- Biết tìm số liền trước, liền sau.",
           "- Thông qua hoạt động khám phá, phát hiện tình huống, nêu bài toán và cách giải, HS phát triển năng lực giao tiếp, năng lực mô hình hóa toán học, năng lực giải quyết vấn đề. Rèn kĩ năng hợp tác, rèn tính cẩn thận.",
           "2. Năng lực chung",
-          "- Giao tiếp – hợp tác: HS hợp tác khi làm việc nhóm/cặp; chia sẻ kết quả."
-        ],
-        "dodung": [
-          "- GV: Laptop; máy chiếu; clip, slide minh họa, ...",
-          "- GV: Nếu có điều kiện, chuẩn bị hình phóng to bài 1, 2, 3, 4.",
-          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
-        ],
-        "activities": [
-          "TOÁN"
-        ],
-        "dieuchinh": [
+          "- Giao tiếp – hợp tác: HS hợp tác khi làm việc nhóm/cặp; chia sẻ kết quả.",
           "- Giải quyết vấn đề sáng tạo: HS vận dụng kiến thức để giải quyết các nhiệm vụ học tập.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành bài tập.",
@@ -20463,6 +20366,15 @@
           "- Tích hợp năng lực số 1.3.CB1a: Nhận biết nơi sắp xếp dữ liệu, thông tin đơn giản trong môi trường có cấu trúc.",
           "- Mục tiêu tích hợp: HS biết quan sát bảng hàng trăm, chục, đơn vị trên slide/bảng tương tác để viết, đọc số có ba chữ số; biết kiểm tra vị trí từng chữ số trước khi nêu kết quả."
         ],
+        "dodung": [
+          "- GV: Laptop; máy chiếu; clip, slide minh họa, ...",
+          "- GV: Nếu có điều kiện, chuẩn bị hình phóng to bài 1, 2, 3, 4.",
+          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
+        ],
+        "activities": [
+          "TOÁN"
+        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20579,7 +20491,8 @@
               "- Nghe.\n- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 123 – BÀI 51. SỐ CÓ BA CHỮ SỐ (TIẾT 2)"
       },
       {
         "lessonTitle": "TIẾT 124 – BÀI 51. SỐ CÓ BA CHỮ SỐ (TIẾT 3)",
@@ -20591,16 +20504,7 @@
           "- Củng cố về cấu tạo của các số có ba chữ số.",
           "- Phát triển năng lực mô hình hóa Toán học, năng lực tư duy và lập luận toán học, năng lực giao tiếp Toán học.",
           "2. Năng lực chung",
-          "- Giao tiếp – hợp tác: HS hợp tác khi làm việc nhóm/cặp; chia sẻ kết quả."
-        ],
-        "dodung": [
-          "- GV: Máy tính, tivi chiếu nội dung bài.",
-          "- HS: SGK; xúc xắc, quân cờ."
-        ],
-        "activities": [
-          "TOÁN"
-        ],
-        "dieuchinh": [
+          "- Giao tiếp – hợp tác: HS hợp tác khi làm việc nhóm/cặp; chia sẻ kết quả.",
           "- Giải quyết vấn đề sáng tạo: HS vận dụng kiến thức vào trò chơi, bài tập.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành bài tập.",
@@ -20610,6 +20514,14 @@
           "- Tích hợp kĩ năng sống: Rèn thói quen tự kiểm tra số đã viết, đọc lại kết quả và sửa lỗi nếu nhầm hàng trăm, chục, đơn vị.",
           "- Mục tiêu tích hợp: HS biết đọc chậm, đối chiếu cấu tạo số, tự sửa lỗi và góp ý cho bạn bằng lời nói nhẹ nhàng, tôn trọng."
         ],
+        "dodung": [
+          "- GV: Máy tính, tivi chiếu nội dung bài.",
+          "- HS: SGK; xúc xắc, quân cờ."
+        ],
+        "activities": [
+          "TOÁN"
+        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20688,7 +20600,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 124 – BÀI 51. SỐ CÓ BA CHỮ SỐ (TIẾT 3)"
       },
       {
         "lessonTitle": "TIẾT 125 – BÀI 52. VIẾT SỐ THÀNH TỔNG CÁC TRĂM, CHỤC, ĐƠN VỊ (TIẾT 1)",
@@ -20699,20 +20612,19 @@
           "- HS biết cách viết một số có ba chữ số thành tổng các trăm, chục, đơn vị (theo cấu tạo thập phân của nó). Vận dụng giải các bài toán có tình huống.",
           "- Thông qua quan sát, nhận biết hình ảnh đơn vị, chục, trăm, nghìn HS phát triển năng lực mô hình hóa Toán học. Qua hoạt động diễn đạt, trả lời câu hỏi HS phát triển năng lực giao tiếp Toán học.",
           "2. Năng lực chung",
-          "- Giao tiếp – hợp tác: HS hợp tác khi làm việc nhóm/cặp; chia sẻ kết quả."
-        ],
-        "dodung": [
-          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
-          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "- Giao tiếp – hợp tác: HS hợp tác khi làm việc nhóm/cặp; chia sẻ kết quả.",
           "- Giải quyết vấn đề sáng tạo: HS vận dụng kiến thức để giải quyết bài tập có tình huống.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành bài tập.",
           "- Trách nhiệm: Tự giác, nghiêm túc; chịu trách nhiệm với kết quả cá nhân/nhóm.",
           "- Nhân ái: Tôn trọng, lắng nghe và hỗ trợ bạn."
         ],
+        "dodung": [
+          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
+          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -20785,7 +20697,8 @@
               "- HS trả lời.\n- HS lắng nghe.\n- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 125 – BÀI 52. VIẾT SỐ THÀNH TỔNG CÁC TRĂM, CHỤC, ĐƠN VỊ (TIẾT 1)"
       }
     ]
   },
@@ -20802,16 +20715,7 @@
           "- HS nắm được cách viết một số có ba chữ số thành tổng các trăm, chục, đơn vị.",
           "- HS biết cách viết một số có ba chữ số thành tổng các trăm, chục, đơn vị (theo cấu tạo thập phân của nó). Vận dụng giải các bài toán có tình huống.",
           "- Năng lực Toán học: Thông qua quan sát, nhận biết hình ảnh đơn vị, chục, trăm, nghìn, HS phát triển năng lực mô hình hóa Toán học. Qua hoạt động diễn đạt, trả lời câu hỏi, HS phát triển năng lực giao tiếp Toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
-          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
-        ],
-        "activities": [
-          "TOÁN"
-        ],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: HS trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
           "- Giải quyết vấn đề và sáng tạo: HS vận dụng kiến thức để giải quyết bài tập và tình huống.",
           "3. Phẩm chất",
@@ -20820,6 +20724,14 @@
           "4. Tích hợp",
           "Tích hợp quyền con người: HS được bày tỏ ý kiến về nghề nghiệp yêu thích và được tôn trọng."
         ],
+        "dodung": [
+          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
+          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
+        ],
+        "activities": [
+          "TOÁN"
+        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -21060,7 +20972,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 126 – BÀI 52: VIẾT SỐ THÀNH TỔNG CÁC TRĂM, CHỤC, ĐƠN VỊ"
       },
       {
         "lessonTitle": "TIẾT 127 – BÀI 53: SO SÁNH CÁC SỐ CÓ BA CHỮ SỐ (TIẾT 1)",
@@ -21070,16 +20983,7 @@
           "- HS biết cách so sánh các số có ba chữ số.",
           "- HS nắm được thứ tự các số (trong phạm vi 1000).",
           "- Năng lực Toán học: Thông qua quan sát, nhận biết hình ảnh đơn vị, chục, trăm, nghìn, HS phát triển năng lực mô hình hóa Toán học. Qua hoạt động diễn đạt, trả lời câu hỏi, HS phát triển năng lực giao tiếp Toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
-          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
-        ],
-        "activities": [
-          "TOÁN"
-        ],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: HS trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
           "- Giải quyết vấn đề và sáng tạo: HS vận dụng kiến thức để giải quyết bài tập và tình huống.",
           "3. Phẩm chất",
@@ -21089,6 +20993,14 @@
           "- Đạo đức, lối sống: HS hình thành tình yêu thương động vật, biết chăm sóc và đối xử nhân ái với vật nuôi.",
           "- Tích hợp năng lực số 5.2.CB1a: HS xác định nhu cầu hoàn thành nhiệm vụ học tập và sử dụng công cụ số đơn giản để trình bày kết quả so sánh các số có ba chữ số."
         ],
+        "dodung": [
+          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
+          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
+        ],
+        "activities": [
+          "TOÁN"
+        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -21356,7 +21268,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 127 – BÀI 53: SO SÁNH CÁC SỐ CÓ BA CHỮ SỐ (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 128 – BÀI 53: SO SÁNH CÁC SỐ CÓ BA CHỮ SỐ",
@@ -21367,16 +21280,7 @@
           "- Củng cố cách so sánh các số có ba chữ số.",
           "- HS biết sắp xếp các số có ba chữ số theo thứ tự từ bé đến lớn hoặc ngược lại.",
           "- Năng lực Toán học: Thông qua quan sát, nhận biết hình ảnh đơn vị, chục, trăm, nghìn, HS phát triển năng lực mô hình hóa Toán học. Qua hoạt động diễn đạt, trả lời câu hỏi, HS phát triển năng lực giao tiếp Toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
-          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
-        ],
-        "activities": [
-          "TOÁN"
-        ],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: HS trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
           "- Giải quyết vấn đề và sáng tạo: HS vận dụng kiến thức để giải quyết bài tập và tình huống.",
           "3. Phẩm chất",
@@ -21386,6 +21290,14 @@
           "Tích hợp AI - YCCĐ 2.A1.2: HS thể hiện thái độ đúng đắn khi sử dụng AI; biết tin tưởng vào công nghệ ở mức hợp lý nhưng vẫn có trách nhiệm kiểm tra kết quả.",
           "Mục tiêu tích hợp AI: HS biết AI có thể hỗ trợ sắp xếp, so sánh số điểm hoặc số lượng, nhưng cần tự kiểm tra bằng cách so sánh lần lượt hàng trăm, hàng chục, hàng đơn vị."
         ],
+        "dodung": [
+          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
+          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
+        ],
+        "activities": [
+          "TOÁN"
+        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -21586,7 +21498,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 128 – BÀI 53: SO SÁNH CÁC SỐ CÓ BA CHỮ SỐ"
       },
       {
         "lessonTitle": "TIẾT 129 – BÀI 54: LUYỆN TẬP CHUNG (TIẾT 1)",
@@ -21596,16 +21509,7 @@
           "- HS nắm được cách đọc, viết các số có ba chữ số.",
           "- HS nắm được cách so sánh và sắp xếp các số có ba chữ số.",
           "- Năng lực Toán học: Thông qua quan sát, nhận biết hình ảnh đơn vị, chục, trăm, nghìn, HS phát triển năng lực mô hình hóa Toán học. Qua hoạt động diễn đạt, trả lời câu hỏi, HS phát triển năng lực giao tiếp Toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
-          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
-        ],
-        "activities": [
-          "TOÁN"
-        ],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: HS trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
           "- Giải quyết vấn đề và sáng tạo: HS vận dụng kiến thức để giải quyết bài tập và tình huống.",
           "3. Phẩm chất",
@@ -21615,6 +21519,14 @@
           "Tích hợp AI - YCCĐ 2.A3.1: HS biết AI ghi nhận dữ liệu để học hỏi từ mỗi lần con người tương tác, tìm kiếm.",
           "Mục tiêu tích hợp AI: HS biết đặt câu hỏi rõ ràng khi dùng công cụ số/AI để tìm thông tin số liệu, kiểm tra lại kết quả và không nhập thông tin cá nhân."
         ],
+        "dodung": [
+          "- GV: Laptop, máy chiếu, bộ đồ dùng học Toán 2.",
+          "- HS: SGK, vở, bộ đồ dùng học Toán 2."
+        ],
+        "activities": [
+          "TOÁN"
+        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -21791,7 +21703,8 @@
               "- HS lắng nghe và ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 129 – BÀI 54: LUYỆN TẬP CHUNG (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 130 – BÀI 54: LUYỆN TẬP CHUNG (TIẾT 2)",
@@ -21801,20 +21714,19 @@
           "- HS nắm vững cách so sánh các số có ba chữ số.",
           "- Biết viết một số có ba chữ số thành tổng các trăm, chục, đơn vị.",
           "- Thông qua quan sát, nhận biết hình ảnh đơn vị, chục, trăm, nghìn, HS phát triển năng lực mô hình hóa Toán học. Qua hoạt động diễn đạt, trả lời câu hỏi, HS phát triển năng lực giao tiếp Toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Laptop, máy chiếu, slide minh họa, ...; Bộ đồ dùng học Toán 2.",
-          "- HS: SGK, vở, bảng con, bộ đồ dùng học Toán 2."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: HS trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
           "- Giải quyết vấn đề và sáng tạo: HS vận dụng kiến thức để giải quyết bài tập và tình huống.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực, hăng hái tham gia nhiệm vụ học tập; hoàn thành bài tập được giao.",
           "- Trách nhiệm: Tự giác, nghiêm túc trong học tập; chịu trách nhiệm với kết quả cá nhân/nhóm."
         ],
+        "dodung": [
+          "- GV: Laptop, máy chiếu, slide minh họa, ...; Bộ đồ dùng học Toán 2.",
+          "- HS: SGK, vở, bảng con, bộ đồ dùng học Toán 2."
+        ],
+        "activities": [],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -22046,7 +21958,8 @@
               "- HS trả lời: So sánh lần lượt từ hàng trăm đến hàng đơn vị."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 130 – BÀI 54: LUYỆN TẬP CHUNG (TIẾT 2)"
       }
     ]
   },
@@ -22077,9 +21990,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 27",
-          "CHỦ ĐỀ 11: ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -22196,7 +22107,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: ĐỀ-XI-MÉT. MÉT"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -22223,9 +22135,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 27",
-          "CHỦ ĐỀ 11: ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -22319,7 +22229,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3: KI-LÔ-MÉT",
@@ -22346,9 +22257,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 27",
-          "CHỦ ĐỀ 11: ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -22461,7 +22370,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: KI-LÔ-MÉT"
       },
       {
         "lessonTitle": "TIẾT 1: GIỚI THIỆU TIỀN VIỆT NAM",
@@ -22491,9 +22401,7 @@
         "activities": [],
         "dieuchinh": [
           "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 27",
-          "CHỦ ĐỀ 11: ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM"
+          "…………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -22598,7 +22506,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: GIỚI THIỆU TIỀN VIỆT NAM"
       },
       {
         "lessonTitle": "TIẾT 1: BÀI HỌC STEM - THƯỚC GẤP",
@@ -22710,7 +22619,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: BÀI HỌC STEM - THƯỚC GẤP"
       }
     ]
   },
@@ -22724,14 +22634,7 @@
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Sử dụng được thước có chia vạch đến xăng-ti-mét để thực hành đo độ dài.",
-          "- Đề xuất được ý tưởng, lựa chọn vật liệu và thực hành tạo được thước gấp có chia vạch xăng-ti-mét sử dụng trong học tập."
-        ],
-        "dodung": [
-          "- GV: Máy tính, ti vi, phiếu học tập, phiếu đánh giá, thước gấp mẫu, băng giấy màu, bảng tiêu chí sản phẩm, máy tính bảng/điện thoại của GV để chụp sản phẩm và trình bày kết quả.",
-          "- HS: Giấy bìa màu cứng, khuy bấm nhựa, kéo, thước thẳng 10 cm, bút chì, bút màu, hồ dán."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "- Đề xuất được ý tưởng, lựa chọn vật liệu và thực hành tạo được thước gấp có chia vạch xăng-ti-mét sử dụng trong học tập.",
           "2. Năng lực chung:",
           "- Tự chủ và tự học: Chủ động thực hiện nhiệm vụ học tập, tự kiểm tra kết quả bài làm.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và hợp tác với bạn trong hoạt động nhóm.",
@@ -22740,11 +22643,16 @@
           "- Chăm chỉ: Tích cực học tập, rèn luyện tính cẩn thận, kiên trì khi thực hiện nhiệm vụ.",
           "- Trách nhiệm: Có ý thức hoàn thành nhiệm vụ học tập, biết hợp tác và hỗ trợ bạn khi làm việc nhóm.",
           "4. Tích hợp",
-          "- Tích hợp năng lực số 5.2.CB1a: HS xác định nhu cầu cá nhân khi cần trình bày sản phẩm thước gấp của nhóm; biết sử dụng công cụ số đơn giản dưới sự hướng dẫn của GV để chụp ảnh sản phẩm, ghi số đo và trình bày kết quả đo trên một trang trình chiếu/phiếu trình bày số. HS hiểu công cụ số giúp trình bày rõ ràng hơn nhưng số đo phải trung thực, đúng với sản phẩm thật.",
+          "- Tích hợp năng lực số 5.2.CB1a: HS xác định nhu cầu cá nhân khi cần trình bày sản phẩm thước gấp của nhóm; biết sử dụng công cụ số đơn giản dưới sự hướng dẫn của GV để chụp ảnh sản phẩm, ghi số đo và trình bày kết quả đo trên một trang trình chiếu/phiếu trình bày số. HS hiểu công cụ số giúp trình bày rõ ràng hơn nhưng số đo phải trung thực, đúng với sản phẩm thật."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, phiếu học tập, phiếu đánh giá, thước gấp mẫu, băng giấy màu, bảng tiêu chí sản phẩm, máy tính bảng/điện thoại của GV để chụp sản phẩm và trình bày kết quả.",
+          "- HS: Giấy bìa màu cứng, khuy bấm nhựa, kéo, thước thẳng 10 cm, bút chì, bút màu, hồ dán."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 28",
-          "CHỦ ĐỀ 11: ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -22847,7 +22755,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ và giữ gìn sản phẩm."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: THỰC HÀNH LÀM THƯỚC GẤP"
       },
       {
         "lessonTitle": "TIẾT 1: LUYỆN TẬP",
@@ -22875,9 +22784,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 28",
-          "CHỦ ĐỀ 11: ĐỘ DÀI VÀ ĐƠN VỊ ĐO ĐỘ DÀI. TIỀN VIỆT NAM"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -23007,7 +22914,8 @@
               "- HS lắng nghe, ghi nhớ bài học và quy tắc an toàn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -23032,9 +22940,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 28",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -23172,7 +23078,8 @@
               "- HS nêu: Cần đọc kĩ đề, xác định số đo đã biết, số đo cần tìm, chọn phép tính và ghi đúng đơn vị."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1: PHÉP CỘNG (KHÔNG NHỚ) TRONG PHẠM VI 1 000",
@@ -23199,9 +23106,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 28",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -23330,7 +23235,8 @@
               "- HS trả lời: Cần đặt tính thẳng hàng, cộng từ phải sang trái và kiểm tra lại kết quả."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: PHÉP CỘNG (KHÔNG NHỚ) TRONG PHẠM VI 1 000"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -23503,7 +23409,8 @@
               "- HS lắng nghe, chia sẻ cảm nhận sau bài học."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -23536,9 +23443,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 29",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -23667,7 +23572,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: PHÉP CỘNG (CÓ NHỚ) TRONG PHẠM VI 1 000"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -23694,9 +23600,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 29",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -23818,7 +23722,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ ôn bài."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 3: LUYỆN TẬP",
@@ -23845,9 +23750,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 29",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -23977,7 +23880,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 1: PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 1 000",
@@ -24002,9 +23906,7 @@
         "activities": [],
         "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 29",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -24141,7 +24043,8 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 1: PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 1 000"
       },
       {
         "lessonTitle": "TIẾT 2: LUYỆN TẬP",
@@ -24300,7 +24203,8 @@
               "- HS lắng nghe, ghi nhớ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 2: LUYỆN TẬP"
       }
     ]
   },
@@ -24316,7 +24220,14 @@
           "- Ôn tập, củng cố phép trừ không nhớ trong phạm vi 1 000; biết so sánh các kết quả phép tính để lựa chọn đáp án phù hợp.",
           "- Thực hiện đúng biểu thức có hai dấu phép tính cộng, trừ theo thứ tự từ trái sang phải; vận dụng để tìm hiệu, so sánh số đo độ dài.",
           "- Vận dụng kiến thức toán học để giải quyết tình huống thực tế qua bài toán cây cầu, que tính và các phép tính gắn với hình vẽ trong SGK.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính phù hợp, vận dụng kiến thức đã học để giải quyết tình huống thực tế.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
+          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- GV: Máy tính, ti vi/máy chiếu, tranh SGK phóng to, phiếu học tập, que tính, bảng nhóm, hình ảnh/bản đồ minh họa Đà Nẵng, Quảng Nam, Huế và ruộng bậc thang.",
@@ -24324,18 +24235,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính phù hợp, vận dụng kiến thức đã học để giải quyết tình huống thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
-          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng.",
-          "4. Tích hợp",
           "- Giáo dục địa phương, tình yêu quê hương đất nước: HS biết thêm thông tin về Đà Nẵng sáp nhập với tỉnh Quảng Nam, tên gọi mới chính thức là Thành phố Đà Nẵng (trực thuộc Trung ương); Thừa Thiên Huế được nâng cấp toàn bộ diện tích và dân số để trở thành thành phố trực thuộc Trung ương thứ 6 của Việt Nam, với tên gọi mới là Thành phố Huế. Giáo dục bảo vệ cảnh quan: Qua hình ảnh ruộng bậc thang, HS biết trân trọng công sức lao động của người dân và có ý thức giữ gìn cảnh đẹp quê hương, không xả rác, không giẫm đạp cây trồng, biết nhắc người thân bảo vệ cảnh quan khi đi tham quan.",
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 30",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -24465,7 +24367,8 @@
               "- HS lắng nghe, nhắc lại kiến thức đã luyện tập."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 146: LUYỆN TẬP (TIẾT 3)"
       },
       {
         "lessonTitle": "TIẾT 147: PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 1 000 (TIẾT 1)",
@@ -24475,14 +24378,7 @@
           "- Thực hiện được phép trừ có nhớ trong phạm vi 1 000; biết đặt tính theo cột dọc và trừ từ phải sang trái.",
           "- Hiểu được tình huống thực tế dẫn đến phép trừ có nhớ; biết giải thích bước mượn 1 chục ở hàng chục khi hàng đơn vị không trừ được.",
           "- Vận dụng phép trừ có nhớ để giải bài toán một bước tính trong phạm vi 1 000.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, ti vi/máy chiếu, tranh SGK phóng to, bộ đồ dùng học Toán 2, thẻ trăm - chục - đơn vị, bảng con.",
-          "- HS: SGK, vở ô li, bảng con, bút chì, bộ đồ dùng học Toán 2."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính phù hợp, vận dụng kiến thức đã học để giải quyết tình huống thực tế.",
           "3. Phẩm chất:",
@@ -24490,11 +24386,16 @@
           "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
           "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng.",
           "4. Tích hợp",
-          "- Tích hợp AI - YCCĐ 2.A1.2: HS hiểu con người là trung tâm, AI/công cụ số chỉ hỗ trợ tính nhanh; HS cần tự kiểm tra kết quả bằng kiến thức đã học, đặc biệt là bước “mượn” khi trừ có nhớ.",
+          "- Tích hợp AI - YCCĐ 2.A1.2: HS hiểu con người là trung tâm, AI/công cụ số chỉ hỗ trợ tính nhanh; HS cần tự kiểm tra kết quả bằng kiến thức đã học, đặc biệt là bước “mượn” khi trừ có nhớ."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi/máy chiếu, tranh SGK phóng to, bộ đồ dùng học Toán 2, thẻ trăm - chục - đơn vị, bảng con.",
+          "- HS: SGK, vở ô li, bảng con, bút chì, bộ đồ dùng học Toán 2."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 30",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -24623,7 +24524,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 147: PHÉP TRỪ (CÓ NHỚ) TRONG PHẠM VI 1 000 (TIẾT 1)"
       },
       {
         "lessonTitle": "TIẾT 148: LUYỆN TẬP (TIẾT 2)",
@@ -24633,7 +24535,13 @@
           "- Ôn tập, củng cố phép trừ có nhớ trong phạm vi 1 000, đặc biệt dạng mượn 1 trăm khi cần.",
           "- Biết xác định số bị trừ, số trừ, hiệu; tính kết quả phép trừ và vận dụng vào bài toán thực tế.",
           "- Thực hiện được biểu thức, trò chơi tìm địa chỉ, giải toán có lời văn và tìm đường đi dựa trên kết quả phép tính.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính phù hợp, vận dụng kiến thức đã học để giải quyết tình huống thực tế.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
+          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng."
         ],
         "dodung": [
           "- GV: Máy tính, ti vi/máy chiếu, tranh SGK phóng to, phiếu học tập, thẻ trò chơi.",
@@ -24641,16 +24549,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính phù hợp, vận dụng kiến thức đã học để giải quyết tình huống thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
-          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng.",
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 30",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -24784,7 +24684,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 148: LUYỆN TẬP (TIẾT 2)"
       },
       {
         "lessonTitle": "TIẾT 149: LUYỆN TẬP (TIẾT 3)",
@@ -24794,7 +24695,13 @@
           "- Ôn tập, củng cố phép trừ có nhớ trong phạm vi 1 000 và tính nhẩm với các số tròn trăm.",
           "- Thực hiện được biểu thức có hai phép tính theo thứ tự từ trái sang phải; giải bài toán thực tế về huy chương, áo thi đấu và sửa phép tính sai.",
           "- Phát triển năng lực tư duy, lập luận toán học thông qua việc so sánh kết quả và phát hiện lỗi sai trong phép tính.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính phù hợp, vận dụng kiến thức đã học để giải quyết tình huống thực tế.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
+          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng."
         ],
         "dodung": [
           "- GV: Máy tính, ti vi/máy chiếu, tranh SGK phóng to, phiếu học tập, bảng nhóm.",
@@ -24802,16 +24709,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính phù hợp, vận dụng kiến thức đã học để giải quyết tình huống thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
-          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng.",
           "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 30",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "……………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -24941,7 +24840,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 149: LUYỆN TẬP (TIẾT 3)"
       },
       {
         "lessonTitle": "TIẾT 150: LUYỆN TẬP",
@@ -24951,14 +24851,7 @@
           "- Ôn tập, củng cố phép trừ có nhớ trong phạm vi 1 000; biết tìm chữ số thích hợp trong phép tính.",
           "- Thực hiện được các bài luyện tập về tính, giải mã ô chữ, nối kết quả và giải bài toán thực tế có số đo độ cao.",
           "- Vận dụng kĩ năng đọc số liệu, so sánh số đo độ cao và giải bài toán liên quan đến các ngọn núi ở Việt Nam.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, ti vi/máy chiếu, tranh SGK phóng to, phiếu học tập, bảng nhóm; có thể chuẩn bị sẵn hình ảnh một số ngọn núi ở Việt Nam.",
-          "- HS: SGK, vở ô li, bảng con, bút chì; thiết bị số dùng theo nhóm dưới sự hướng dẫn của GV nếu có."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính phù hợp, vận dụng kiến thức đã học để giải quyết tình huống thực tế.",
           "3. Phẩm chất:",
@@ -24966,7 +24859,14 @@
           "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
           "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng.",
           "4. Tích hợp",
-          "- Tích hợp năng lực số 1.1.CB1a: HS xác định được thông tin cần tìm và thực hiện tìm kiếm đơn giản trong môi trường số; biết chọn lọc thông tin phù hợp về hình ảnh, địa điểm, độ cao của một số ngọn núi để phục vụ nhiệm vụ học tập.",
+          "- Tích hợp năng lực số 1.1.CB1a: HS xác định được thông tin cần tìm và thực hiện tìm kiếm đơn giản trong môi trường số; biết chọn lọc thông tin phù hợp về hình ảnh, địa điểm, độ cao của một số ngọn núi để phục vụ nhiệm vụ học tập."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi/máy chiếu, tranh SGK phóng to, phiếu học tập, bảng nhóm; có thể chuẩn bị sẵn hình ảnh một số ngọn núi ở Việt Nam.",
+          "- HS: SGK, vở ô li, bảng con, bút chì; thiết bị số dùng theo nhóm dưới sự hướng dẫn của GV nếu có."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "……………………………………………………………………………………………………………………",
           "……………………………………………………………………………………………………………………"
         ],
@@ -25094,7 +24994,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 150: LUYỆN TẬP"
       }
     ]
   },
@@ -25110,14 +25011,7 @@
           "- Thực hiện được phép cộng, phép trừ (không nhớ và có nhớ) trong phạm vi 1 000; biết đặt tính thẳng hàng và tính từ phải sang trái.",
           "- Giải quyết được một số bài toán có lời văn một bước tính gắn với tình huống thực tế; biết phân tích dữ kiện, lựa chọn phép tính phù hợp.",
           "- Biết quan sát hình khối, hình phẳng, đọc thông tin từ tranh và so sánh kết quả phép tính để trả lời câu hỏi.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu, tranh SGK phóng to, phiếu học tập, bảng phụ.",
-          "- HS: SGK, vở ô li, nháp, bảng con."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách làm phù hợp, vận dụng kiến thức đã học để giải quyết tình huống học tập và thực tiễn.",
           "3. Phẩm chất:",
@@ -25126,11 +25020,16 @@
           "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng, tôn trọng.",
           "4. Tích hợp",
           "- Tích hợp AI - YCCĐ 2.D1.1: HS nêu được một số vấn đề đơn giản trong đời sống có thể áp dụng AI để giải quyết; nhận biết AI có thể hỗ trợ phân loại dạng toán tổng hợp nhưng HS phải tự đọc đề, xác định dữ kiện, chọn phép tính và giải thích cách làm.",
-          "- Mục tiêu tích hợp AI: HS biết dùng gợi ý của AI như một thông tin tham khảo; không chọn nhãn “cộng”, “trừ”, “nhân/chia” một cách máy móc mà phải dựa vào dấu hiệu trong đề toán và tự kiểm tra kết quả bằng kiến thức đã học.",
+          "- Mục tiêu tích hợp AI: HS biết dùng gợi ý của AI như một thông tin tham khảo; không chọn nhãn “cộng”, “trừ”, “nhân/chia” một cách máy móc mà phải dựa vào dấu hiệu trong đề toán và tự kiểm tra kết quả bằng kiến thức đã học."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu, tranh SGK phóng to, phiếu học tập, bảng phụ.",
+          "- HS: SGK, vở ô li, nháp, bảng con."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "…………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 31",
-          "CHỦ ĐỀ 12: PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1 000"
+          "…………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -25252,7 +25151,8 @@
               "- HS lắng nghe và ghi nhớ nhiệm vụ."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 151: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 152: LUYỆN TẬP",
@@ -25262,7 +25162,13 @@
           "- Thực hiện được phép cộng, phép trừ (không nhớ và có nhớ) trong phạm vi 1 000; biết phát hiện và sửa lỗi tính toán.",
           "- Thực hiện được biểu thức có hai dấu phép tính cộng, trừ theo thứ tự từ trái sang phải.",
           "- Giải được bài toán có lời văn một bước tính và vận dụng luyện tập qua trò chơi học tập.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách làm phù hợp, vận dụng kiến thức đã học để giải quyết tình huống học tập và thực tiễn.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán, đọc dữ liệu và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
+          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng, tôn trọng."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu, tranh SGK, xúc xắc, phiếu học tập.",
@@ -25270,16 +25176,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách làm phù hợp, vận dụng kiến thức đã học để giải quyết tình huống học tập và thực tiễn.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán, đọc dữ liệu và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
-          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng, tôn trọng.",
           "…………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 31",
-          "CHỦ ĐỀ 13: LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT"
+          "…………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -25393,7 +25291,8 @@
               "- HS nhắc lại: cộng, trừ trong phạm vi 1 000; tính biểu thức từ trái sang phải; giải toán có lời văn."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 152: LUYỆN TẬP"
       },
       {
         "lessonTitle": "TIẾT 153: THU THẬP, PHÂN LOẠI, KIỂM ĐẾM SỐ LIỆU",
@@ -25403,14 +25302,7 @@
           "- Làm quen với việc thu thập, phân loại, kiểm đếm các đối tượng thống kê trong một số tình huống đơn giản.",
           "- Biết quan sát tranh, phân loại đối tượng theo đặc điểm đã cho, ghi lại số lượng và trả lời câu hỏi từ dữ liệu đã kiểm đếm.",
           "- Phát triển năng lực giao tiếp toán học, mô hình hóa toán học và sử dụng phương tiện, công cụ học toán qua hoạt động kiểm đếm, nhập dữ liệu.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu, slide minh họa, phiếu học tập, Google Form hoặc bảng dữ liệu số mẫu.",
-          "- HS: SGK, vở, nháp, bảng con."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách làm phù hợp, vận dụng kiến thức đã học để giải quyết tình huống học tập và thực tiễn.",
           "3. Phẩm chất:",
@@ -25419,11 +25311,16 @@
           "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng, tôn trọng.",
           "4. Tích hợp",
           "- Tích hợp năng lực số 3.2.CB1a: HS biết chọn cách sửa đổi, tinh chỉnh, cải thiện nội dung đơn giản để tạo ra thông tin mới; biết nhập số liệu kiểm đếm vào bảng dữ liệu số/Google Form và quan sát kết quả tổng hợp.",
-          "- Tích hợp AI - YCCĐ 2.D2.1: HS giải thích được vai trò của dữ liệu chính xác trong việc “dạy” AI học tập; hiểu rằng dữ liệu nhập sai sẽ làm kết quả tổng hợp, biểu đồ hoặc gợi ý của AI bị sai lệch.",
+          "- Tích hợp AI - YCCĐ 2.D2.1: HS giải thích được vai trò của dữ liệu chính xác trong việc “dạy” AI học tập; hiểu rằng dữ liệu nhập sai sẽ làm kết quả tổng hợp, biểu đồ hoặc gợi ý của AI bị sai lệch."
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu, slide minh họa, phiếu học tập, Google Form hoặc bảng dữ liệu số mẫu.",
+          "- HS: SGK, vở, nháp, bảng con."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "…………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 31",
-          "CHỦ ĐỀ 13: LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT"
+          "…………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -25545,7 +25442,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 153: THU THẬP, PHÂN LOẠI, KIỂM ĐẾM SỐ LIỆU"
       },
       {
         "lessonTitle": "TIẾT 154: BIỂU ĐỒ TRANH",
@@ -25555,14 +25453,7 @@
           "- Nhận biết được biểu đồ tranh biểu thị số liệu kiểm đếm bằng hình ảnh hoặc tranh vẽ theo cột/hàng.",
           "- Đọc, mô tả được số liệu trên biểu đồ tranh; nêu được một số nhận xét đơn giản từ biểu đồ tranh.",
           "- Phát triển năng lực giải quyết vấn đề, mô hình hóa toán học và giao tiếp toán học qua hoạt động đọc biểu đồ, nhập và nhận xét dữ liệu.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: Máy tính, tivi/máy chiếu, tranh và biểu đồ tranh phóng to, Google Form/bảng dữ liệu số mẫu.",
-          "- HS: SGK, nháp, vở, bảng con."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách làm phù hợp, vận dụng kiến thức đã học để giải quyết tình huống học tập và thực tiễn.",
           "3. Phẩm chất:",
@@ -25570,11 +25461,16 @@
           "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
           "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng, tôn trọng.",
           "4. Tích hợp",
-          "- Tích hợp năng lực số 3.2.CB1a: HS biết chuyển dữ liệu đọc được từ biểu đồ tranh sang bảng dữ liệu số đơn giản, biết chỉnh sửa/tinh chỉnh thông tin để tạo bảng tổng hợp/báo cáo mới và trình bày nhận xét.",
+          "- Tích hợp năng lực số 3.2.CB1a: HS biết chuyển dữ liệu đọc được từ biểu đồ tranh sang bảng dữ liệu số đơn giản, biết chỉnh sửa/tinh chỉnh thông tin để tạo bảng tổng hợp/báo cáo mới và trình bày nhận xét."
+        ],
+        "dodung": [
+          "- GV: Máy tính, tivi/máy chiếu, tranh và biểu đồ tranh phóng to, Google Form/bảng dữ liệu số mẫu.",
+          "- HS: SGK, nháp, vở, bảng con."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "…………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 2 - TUẦN 31",
-          "CHỦ ĐỀ 13: LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT"
+          "…………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -25681,7 +25577,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 154: BIỂU ĐỒ TRANH"
       },
       {
         "lessonTitle": "TIẾT 155: LUYỆN TẬP",
@@ -25691,7 +25588,14 @@
           "- Củng cố nhận biết, đọc, mô tả, nhận xét số liệu của biểu đồ tranh.",
           "- Biết biểu thị con vật, đồ vật bằng đơn vị khái quát hơn như chấm tròn, bó que tính khi kiểm đếm số liệu dựa vào biểu đồ tranh.",
           "- Biết so sánh số liệu trên biểu đồ, nêu nhận xét và giải thích kết quả bằng lời.",
-          "2. Năng lực chung:"
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách làm phù hợp, vận dụng kiến thức đã học để giải quyết tình huống học tập và thực tiễn.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán, đọc dữ liệu và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
+          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng, tôn trọng.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- GV: Máy tính, tivi/máy chiếu, tranh SGK, phiếu học tập, bảng tính/slide dữ liệu mẫu.",
@@ -25699,13 +25603,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận, lắng nghe và phối hợp với bạn trong hoạt động cặp đôi, nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách làm phù hợp, vận dụng kiến thức đã học để giải quyết tình huống học tập và thực tiễn.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực tham gia học tập, kiên trì khi tính toán, đọc dữ liệu và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức tự giác, nghiêm túc trong học tập; biết hợp tác, hỗ trợ bạn và chịu trách nhiệm với kết quả cá nhân/nhóm.",
-          "- Nhân ái: Biết chia sẻ, giúp đỡ bạn trong quá trình học tập, nhận xét bài của bạn bằng lời nói nhẹ nhàng, tôn trọng.",
-          "4. Tích hợp",
           "…………………………………………………………………………………………………………",
           "…………………………………………………………………………………………………………"
         ],
@@ -25810,7 +25707,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 155: LUYỆN TẬP"
       }
     ]
   },
@@ -25826,14 +25724,7 @@
           "- Làm quen với việc mô tả những hiện tượng liên quan tới các thuật ngữ: chắc chắn, có thể, không thể thông qua một vài thí nghiệm, trò chơi hoặc xuất phát từ thực tiễn.",
           "- Qua việc mô tả các hiện tượng, diễn giải câu trả lời được đưa ra, HS có thể hình thành và phát triển năng lực tư duy và lập luận toán học.",
           "- Qua hoạt động diễn đạt, trả lời câu hỏi (bằng cách nói hoặc viết) sẽ giúp HS phát triển năng lực giao tiếp toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Máy tính, máy chiếu, PBT",
-          "- HS: SGK; Bộ đồ dùng Toán…"
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết bài tập/tình huống.",
           "3. Phẩm chất",
@@ -25841,9 +25732,15 @@
           "- Trách nhiệm: Tự giác, nghiêm túc; thực hiện nhiệm vụ cá nhân/nhóm đến cùng.",
           "- Nhân ái: Biết chia sẻ, hỗ trợ bạn trong học tập và hoạt động nhóm.",
           "4. Tích hợp",
-          "…………………………………………………………………………………………………………………………………………………………………………",
-          "BÀI HỌC STEM LỚP 2",
-          "KẾ HOẠCH BÀI DẠY"
+          "BÀI HỌC STEM LỚP 2"
+        ],
+        "dodung": [
+          "- GV: Máy tính, máy chiếu, PBT",
+          "- HS: SGK; Bộ đồ dùng Toán…"
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "…………………………………………………………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -26077,7 +25974,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 156 – BÀI 66: CHẮC CHẮN, CÓ THỂ, KHÔNG THỂ"
       },
       {
         "lessonTitle": "BÀI 16: VÒNG XOAY NGẪU NHIÊN",
@@ -26088,7 +25986,13 @@
           "- Thực hành thiết kế và tạo được vòng xoay ngẫu nhiên sử dụng trong học tập.",
           "- Tự tin chia sẻ ý tưởng thiết kế và cách sử dụng vòng xoay ngẫu nhiên.",
           "- Phát triển năng lực tư duy và lập luận toán học; năng lực sử dụng công cụ và phương tiện học toán qua hoạt động phác hoạ ý tưởng sản phẩm, giải thích cơ chế hoạt động, sử dụng sản phẩm trong học tập Toán.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi, chia sẻ ý tưởng; phối hợp, phân công nhiệm vụ khi làm việc nhóm.",
+          "3. Phẩm chất",
+          "- Trung thực: Trung thực khi dự đoán, ghi kết quả và đánh giá sản phẩm.",
+          "- Trách nhiệm: Có trách nhiệm với nhiệm vụ được giao; giữ gìn dụng cụ, vệ sinh sau hoạt động.",
+          "- Chăm chỉ: Tích cực, kiên trì hoàn thành sản phẩm và phiếu học tập.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "1. Chuẩn bị của giáo viên",
@@ -26104,14 +26008,7 @@
         "activities": [
           "TUẦN 32 – TOÁN"
         ],
-        "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi, chia sẻ ý tưởng; phối hợp, phân công nhiệm vụ khi làm việc nhóm.",
-          "3. Phẩm chất",
-          "- Trung thực: Trung thực khi dự đoán, ghi kết quả và đánh giá sản phẩm.",
-          "- Trách nhiệm: Có trách nhiệm với nhiệm vụ được giao; giữ gìn dụng cụ, vệ sinh sau hoạt động.",
-          "- Chăm chỉ: Tích cực, kiên trì hoàn thành sản phẩm và phiếu học tập.",
-          "4. Tích hợp"
-        ],
+        "dieuchinh": [],
         "tables": [
           [
             [
@@ -26367,7 +26264,8 @@
               "– HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 16: VÒNG XOAY NGẪU NHIÊN"
       },
       {
         "lessonTitle": "TIẾT 158 – BÀI 68: ÔN TẬP CÁC SỐ TRONG PHẠM VI 1000",
@@ -26380,7 +26278,13 @@
           "- Tìm được số lớn nhất, số bé nhất trong 4 số đã cho.",
           "- Thực hiện được việc viết số thành tổng các trăm, chục, đơn vị.",
           "- Qua việc diễn giải câu trả lời được đưa ra, HS có thể hình thành và phát triển năng lực tư duy và lập luận toán học; năng lực giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết bài tập/tình huống.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia học tập; hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Tự giác, nghiêm túc; thực hiện nhiệm vụ cá nhân/nhóm đến cùng.",
+          "- Nhân ái: Biết chia sẻ, hỗ trợ bạn trong học tập và hoạt động nhóm."
         ],
         "dodung": [
           "- GV: Máy tính, tivi chiếu nội dung bài; PBT",
@@ -26388,14 +26292,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết bài tập/tình huống.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia học tập; hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Tự giác, nghiêm túc; thực hiện nhiệm vụ cá nhân/nhóm đến cùng.",
-          "- Nhân ái: Biết chia sẻ, hỗ trợ bạn trong học tập và hoạt động nhóm.",
-          "…………………………………………………………………………………………………………………………………………………………………………",
-          "TUẦN 32 – TOÁN"
+          "…………………………………………………………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -26576,7 +26473,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 158 – BÀI 68: ÔN TẬP CÁC SỐ TRONG PHẠM VI 1000"
       },
       {
         "lessonTitle": "TIẾT 159 – BÀI 68: ÔN TẬP CÁC SỐ TRONG PHẠM VI 1000",
@@ -26589,7 +26487,13 @@
           "- Tìm được số lớn nhất, số bé nhất trong 4 số đã cho.",
           "- Thực hiện được việc viết số thành tổng các trăm, chục, đơn vị.",
           "- Qua thực hành, luyện tập sẽ phát triển năng lực tư duy và lập luận toán học, năng lực giao tiếp Toán học, giải quyết vấn đề Toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết bài tập/tình huống.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia học tập; hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Tự giác, nghiêm túc; thực hiện nhiệm vụ cá nhân/nhóm đến cùng.",
+          "- Nhân ái: Biết chia sẻ, hỗ trợ bạn trong học tập và hoạt động nhóm."
         ],
         "dodung": [
           "- GV: Máy tính, tivi chiếu nội dung bài.",
@@ -26597,14 +26501,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết bài tập/tình huống.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia học tập; hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Tự giác, nghiêm túc; thực hiện nhiệm vụ cá nhân/nhóm đến cùng.",
-          "- Nhân ái: Biết chia sẻ, hỗ trợ bạn trong học tập và hoạt động nhóm.",
-          "…………………………………………………………………………………………………………………………………………………………………………",
-          "TUẦN 32 – TOÁN"
+          "…………………………………………………………………………………………………………………………………………………………………………"
         ],
         "tables": [
           [
@@ -26813,7 +26710,8 @@
               "- HS lắng nghe."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 159 – BÀI 68: ÔN TẬP CÁC SỐ TRONG PHẠM VI 1000"
       },
       {
         "lessonTitle": "TIẾT 160 – BÀI 69: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100 (TIẾT 1)",
@@ -26826,14 +26724,7 @@
           "- So sánh được các số trong phạm vi 100.",
           "- Giải được bài toán có nội dung thực tiễn liên quan đến phép cộng, phép trừ trong phạm vi 100.",
           "- Qua thực hành, luyện tập sẽ phát triển năng lực tư duy và lập luận toán học; năng lực giao tiếp và hợp tác; năng lực giải quyết vấn đề Toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Máy tính, tivi chiếu nội dung bài;",
-          "- HS: SGK; Bộ đồ dùng Toán."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi, chia sẻ; phối hợp khi làm việc theo cặp/nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để giải quyết bài tập/tình huống.",
           "3. Phẩm chất",
@@ -26841,7 +26732,14 @@
           "- Trách nhiệm: Tự giác, nghiêm túc; thực hiện nhiệm vụ cá nhân/nhóm đến cùng.",
           "- Nhân ái: Biết chia sẻ, hỗ trợ bạn trong học tập và hoạt động nhóm.",
           "4. Tích hợp",
-          "- Tích hợp AI - YCCĐ 2.A1.2: HS thể hiện thái độ đúng đắn khi sử dụng AI; biết AI/công cụ thông minh có thể gợi ý hoặc tạo nhanh phép tính ôn tập, nhưng HS không phụ thuộc, phải tự thực hiện phép tính, tự kiểm tra bằng tính nhẩm, đặt tính hoặc phép tính ngược trước khi kết luận.",
+          "- Tích hợp AI - YCCĐ 2.A1.2: HS thể hiện thái độ đúng đắn khi sử dụng AI; biết AI/công cụ thông minh có thể gợi ý hoặc tạo nhanh phép tính ôn tập, nhưng HS không phụ thuộc, phải tự thực hiện phép tính, tự kiểm tra bằng tính nhẩm, đặt tính hoặc phép tính ngược trước khi kết luận."
+        ],
+        "dodung": [
+          "- GV: Máy tính, tivi chiếu nội dung bài;",
+          "- HS: SGK; Bộ đồ dùng Toán."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "…………………………………………………………………………………………………………………………………………………………………………"
         ],
         "tables": [
@@ -27039,7 +26937,8 @@
               "- HS trả lời."
             ]
           ]
-        ]
+        ],
+        "title": "TIẾT 160 – BÀI 69: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100 (TIẾT 1)"
       }
     ]
   },
@@ -27272,7 +27171,8 @@
               "- HS ghi nhớ và luyện tập thêm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 69: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100 (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 69: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100 (TIẾT 3)",
@@ -27488,7 +27388,8 @@
               "- HS chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 69: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 100 (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 70: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1000 (TIẾT 1)",
@@ -27685,7 +27586,8 @@
               "- HS chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 70: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1000 (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 70: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1000 (TIẾT 2)",
@@ -27891,7 +27793,8 @@
               "- HS chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 70: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1000 (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 70: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1000 (TIẾT 3)",
@@ -28120,7 +28023,8 @@
               "- HS chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 70: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 1000 (TIẾT 3)"
       }
     ]
   },
@@ -28359,7 +28263,8 @@
               "- HS ghi nhớ và luyện tập thêm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 71: ÔN TẬP PHÉP NHÂN, PHÉP CHIA (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 71: ÔN TẬP PHÉP NHÂN, PHÉP CHIA (TIẾT 2)",
@@ -28600,7 +28505,8 @@
               "- HS ghi nhớ và luyện tập thêm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 71: ÔN TẬP PHÉP NHÂN, PHÉP CHIA (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 71: ÔN TẬP PHÉP NHÂN, PHÉP CHIA (TIẾT 3)",
@@ -28831,7 +28737,8 @@
               "- HS ghi nhớ và luyện tập thêm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 71: ÔN TẬP PHÉP NHÂN, PHÉP CHIA (TIẾT 3)"
       },
       {
         "lessonTitle": "BÀI 72: ÔN TẬP VỀ HÌNH HỌC (TIẾT 1)",
@@ -29051,7 +28958,8 @@
               "- HS ghi nhớ và luyện tập thêm."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 72: ÔN TẬP VỀ HÌNH HỌC (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 72: ÔN TẬP VỀ HÌNH HỌC (TIẾT 2)",
@@ -29282,7 +29190,8 @@
               "- HS chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 72: ÔN TẬP VỀ HÌNH HỌC (TIẾT 2)"
       }
     ]
   },
@@ -29491,7 +29400,8 @@
               "- HS chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 73: ÔN TẬP ĐO LƯỜNG (TIẾT 1)"
       },
       {
         "lessonTitle": "BÀI 73: ÔN TẬP ĐO LƯỜNG (TIẾT 2)",
@@ -29503,7 +29413,13 @@
           "- Thông qua các bài toán vui, liên quan đến đo lường (được ước lượng, tính toán, trả lời câu hỏi, giải quyết vấn đề,...), HS được phát triển năng lực giải quyết vấn đề, giao tiếp toán học, năng lực lập luận toán học.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: HS chủ động ước lượng độ dài, tính với đơn vị đo, đọc giờ, xác định ngày tháng và tự kiểm tra kết quả khi làm bài trên phiếu hoặc công cụ số.",
-          "- Giao tiếp và hợp tác: HS trao đổi cặp đôi khi nối tranh với số đo, đọc đồng hồ, so sánh thời gian đến lớp và chia sẻ cách suy luận với bạn."
+          "- Giao tiếp và hợp tác: HS trao đổi cặp đôi khi nối tranh với số đo, đọc đồng hồ, so sánh thời gian đến lớp và chia sẻ cách suy luận với bạn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập ước lượng, tính toán với số đo và đọc thời gian; hoàn thành nhiệm vụ học tập đúng yêu cầu.",
+          "- Trách nhiệm: Cẩn thận khi đọc giờ, đổi đơn vị, ghi kết quả; có ý thức đến lớp đúng giờ qua tình huống so sánh thời gian.",
+          "- Nhân ái: Biết chia sẻ cách làm, nhắc bạn kiểm tra lại dữ kiện thời gian và hỗ trợ bạn khi thao tác trên Quizizz.",
+          "4. Tích hợp",
+          "- Tích hợp năng lực số 5.2.CB1a: HS xác định nhu cầu hoàn thành nhiệm vụ học tập và sử dụng Quizizz/slide tương tác để trình bày đáp án về đo lường, thời gian; biết tự kiểm tra kết quả dựa trên phản hồi của công cụ."
         ],
         "dodung": [
           "- GV: Máy tính, máy chiếu; PBT",
@@ -29511,13 +29427,7 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập ước lượng, tính toán với số đo và đọc thời gian; hoàn thành nhiệm vụ học tập đúng yêu cầu.",
-          "- Trách nhiệm: Cẩn thận khi đọc giờ, đổi đơn vị, ghi kết quả; có ý thức đến lớp đúng giờ qua tình huống so sánh thời gian.",
-          "- Nhân ái: Biết chia sẻ cách làm, nhắc bạn kiểm tra lại dữ kiện thời gian và hỗ trợ bạn khi thao tác trên Quizizz.",
           "- Hợp tác: Phối hợp khi làm việc cặp đôi/nhóm, cùng đối chiếu kết quả và thống nhất câu trả lời.",
-          "4. Tích hợp",
-          "- Tích hợp năng lực số 5.2.CB1a: HS xác định nhu cầu hoàn thành nhiệm vụ học tập và sử dụng Quizizz/slide tương tác để trình bày đáp án về đo lường, thời gian; biết tự kiểm tra kết quả dựa trên phản hồi của công cụ.",
           "…………………………………………………………………………………………………………………………………………………………………………",
           "TOÁN"
         ],
@@ -29701,7 +29611,8 @@
               "- HS chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 73: ÔN TẬP ĐO LƯỜNG (TIẾT 2)"
       },
       {
         "lessonTitle": "BÀI 74: ÔN TẬP KIỂM ĐẾM SỐ LIỆU VÀ LỰA CHỌN KHẢ NĂNG",
@@ -29863,7 +29774,8 @@
               "- HS chuẩn bị bài tiếp theo."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 74: ÔN TẬP KIỂM ĐẾM SỐ LIỆU VÀ LỰA CHỌN KHẢ NĂNG"
       },
       {
         "lessonTitle": "BÀI 75: ÔN TẬP CHUNG (TIẾT 1) - LUYỆN TẬP",
@@ -29884,15 +29796,12 @@
           "- Hợp tác: Phối hợp hiệu quả trong hoạt động cặp đôi/nhóm, lắng nghe bạn trình bày và góp ý đúng mực.",
           "4. Tích hợp",
           "- An toàn giao thông: Qua tình huống xe buýt, HS biết xếp hàng khi lên xuống xe, ngồi đúng chỗ, thắt dây an toàn khi có và không nô đùa trên xe; biết giữ trật tự, nhường chỗ khi cần và thực hiện văn hóa giao thông an toàn.",
-          "1. Năng lực đặc thù",
           "- Đánh giá mức độ đạt được của HS về đọc, viết, so sánh các số trong phạm vi 1 000; thực hiện phép cộng, phép trừ trong phạm vi 1 000; vận dụng bảng nhân, bảng chia 2 và 5.",
           "- Đánh giá khả năng vận dụng kiến thức đo lường, hình học, kiểm đếm số liệu, biểu đồ tranh và lựa chọn khả năng vào tình huống quen thuộc.",
           "- HS biết đọc kĩ yêu cầu đề kiểm tra, lựa chọn cách làm phù hợp, trình bày bài làm rõ ràng, đúng đơn vị và kiểm tra lại kết quả trước khi nộp bài.",
-          "2. Năng lực chung",
           "- Tự chủ và tự học: HS chủ động chuẩn bị đồ dùng kiểm tra, đọc kĩ từng câu hỏi, tự thực hiện bài làm theo khả năng của bản thân và biết kiểm tra lại phép tính, đơn vị đo, đáp án đã chọn trước khi nộp bài.",
           "- Giao tiếp và hợp tác: HS lắng nghe hướng dẫn của GV, thực hiện đúng hiệu lệnh trong giờ kiểm tra, không trao đổi bài; sau kiểm tra biết chia sẻ cảm nhận học tập và lắng nghe nhận xét chung của GV.",
           "- Giải quyết vấn đề và sáng tạo: HS vận dụng linh hoạt kiến thức về số, phép tính, đo lường, hình học, thống kê và xác suất để xử lí câu hỏi; biết chọn cách tính, cách suy luận phù hợp với từng dạng bài.",
-          "3. Phẩm chất",
           "- Chăm chỉ: HS tích cực, nghiêm túc làm bài; kiên trì suy nghĩ khi gặp câu hỏi khó và hoàn thành bài trong thời gian quy định.",
           "- Trung thực: HS tự làm bài, không nhìn bài bạn, không hỏi bài trong giờ kiểm tra; báo cáo đúng tình huống nếu cần hỗ trợ về đề hoặc giấy kiểm tra.",
           "- Trách nhiệm: HS giữ gìn trật tự, bảo quản giấy kiểm tra, trình bày sạch sẽ, nộp bài đúng thời gian và chịu trách nhiệm với kết quả bài làm của mình.",
@@ -30156,7 +30065,8 @@
               "- HS lắng nghe nhận xét chung, chia sẻ cảm nhận ngắn gọn nếu được mời và ghi nhớ cần tiếp tục rèn luyện."
             ]
           ]
-        ]
+        ],
+        "title": "BÀI 75: ÔN TẬP CHUNG (TIẾT 1) - LUYỆN TẬP"
       }
     ]
   }
@@ -30174,5 +30084,8 @@
         weeks: weeksData
       };
     }
+  }
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();
