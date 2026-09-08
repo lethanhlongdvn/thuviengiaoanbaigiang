@@ -3271,7 +3271,7 @@ function renderAiIntegrationView(container) {
                 <i class="fa-solid fa-pen-to-square"></i> Xem & Sửa TKB
               </button>
               <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.75rem; flex: 1; white-space: nowrap;" onclick="document.getElementById('integTkbFileInput').click()">
-                <i class="fa-solid fa-upload"></i> Tải TKB (.csv/.txt)
+                <i class="fa-solid fa-file-excel" style="color: #10b981;"></i> Tải TKB (.xlsx, .docx, .csv)
               </button>
               ${integrationState.customTimetable ? `
                 <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.75rem; color: #dc2626; border-color: #fca5a5;" onclick="resetTimetableToDefault()" title="Trở về TKB chuẩn Bộ">
@@ -3279,7 +3279,7 @@ function renderAiIntegrationView(container) {
                 </button>
               ` : ''}
             </div>
-            <input type="file" id="integTkbFileInput" accept=".csv,.txt,.json,.xlsx,.docx" style="display: none;" onchange="handleTimetableFileUpload(this)">
+            <input type="file" id="integTkbFileInput" accept=".xlsx,.xls,.docx,.doc,.csv,.txt,.pdf,.json" style="display: none;" onchange="handleTimetableFileUpload(this)">
           </div>
         ` : ''}
 
@@ -3862,16 +3862,35 @@ async function handleTimetableFileUpload(input) {
   var file = (input.files && input.files[0]) ? input.files[0] : null;
   if (!file) return;
 
+  showToast('Đang nhận diện Thời khóa biểu từ tệp ' + file.name + '...', 'info');
+
   try {
-    var result = await IntegrationService.extractTextFromFile(file);
-    integrationState.customTimetableName = file.name;
-    showToast('Đã nạp Thời khóa biểu từ tệp "' + file.name + '"!', 'success');
-    var container = document.getElementById('content-container');
-    if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
-      renderAiIntegrationView(container);
+    var curGrade = integrationState.grade || 5;
+    var result = await IntegrationService.parseTimetableFile(file, curGrade);
+    
+    if (result && result.timetable) {
+      integrationState.customTimetable = result.timetable;
+      integrationState.customTimetableName = file.name;
+
+      var container = document.getElementById('content-container');
+      if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+        renderAiIntegrationView(container);
+      }
+
+      showToast('Đã nhận diện thành công Thời khóa biểu từ "' + file.name + '" (' + result.fileType + ')! Hãy kiểm tra lại bảng TKB.', 'success');
+      
+      // Tự động mở bảng TKB để giáo viên xem lại và xác nhận
+      setTimeout(function() {
+        openTimetableEditorModal();
+      }, 400);
+    } else {
+      throw new Error('Không nhận diện được cấu trúc bảng trong tệp.');
     }
   } catch (err) {
-    showToast(err.message || 'Lỗi đọc tệp TKB', 'danger');
+    console.error('Timetable upload error:', err);
+    showToast(err.message || 'Lỗi khi đọc tệp Thời khóa biểu', 'danger');
+  } finally {
+    input.value = ''; // Reset input
   }
 }
 

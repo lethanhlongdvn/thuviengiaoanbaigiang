@@ -57,6 +57,338 @@ var IntegrationService = {
     return JSON.parse(JSON.stringify(list));
   },
 
+  
+  // =========================================================================
+  // 1.1. BỘ PHÂN TÍCH THỜI KHÓA BIỂU ĐA ĐỊNH DẠNG (EXCEL, WORD, CSV, TXT)
+  // =========================================================================
+
+  normalizeSubjectKey: function(rawText) {
+    if (!rawText || typeof rawText !== 'string') return '';
+    var text = rawText.trim().toLowerCase();
+    if (!text || text === '-' || text === '—' || text === 'nghỉ' || text === 'trống') return '';
+
+    var noAcc = text.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    if (text.includes('toán') || noAcc.includes('toan')) return 'toan';
+    if (text.includes('tiếng việt') || noAcc.includes('tieng viet') || text.includes('t.việt') || text.includes('t. việt') || text === 'tv' || text.includes('tập đọc') || text.includes('chính tả') || text.includes('luyện từ') || text.includes('tập làm văn')) return 'tieng_viet';
+    if (text.includes('khoa học') || noAcc.includes('khoa hoc') || text === 'kh') return 'khoa_hoc';
+    if (text.includes('lịch sử') || text.includes('địa lí') || text.includes('địa lý') || noAcc.includes('lich su') || noAcc.includes('dia ly') || text.includes('ls&đl') || text.includes('ls-đl') || text.includes('ls - đl') || text === 'lsdl') return 'lich_su_dia_ly';
+    if (text.includes('tự nhiên') || text.includes('xã hội') || noAcc.includes('tu nhien') || text.includes('tnxh') || text.includes('tn-xh')) return 'tnxh';
+    if (text.includes('đạo đức') || noAcc.includes('dao duc') || text === 'đđ' || text === 'dd') return 'dao_duc';
+    if (text.includes('trải nghiệm') || noAcc.includes('trai nghiem') || text.includes('hdtn') || text.includes('hđtn')) return 'hdtn';
+    if (text.includes('công nghệ') || noAcc.includes('cong nghe') || text === 'cn') return 'cong_nghe';
+    if (text.includes('tin học') || noAcc.includes('tin hoc') || text.includes('tin') || text === 'th') return 'tin_hoc';
+    if (text.includes('tiếng anh') || noAcc.includes('tieng anh') || text.includes('anh') || text.includes('english') || text === 'ta') return 'tieng_anh';
+    if (text.includes('âm nhạc') || noAcc.includes('am nhac') || text.includes('nhạc') || text === 'an') return 'am_nhac';
+    if (text.includes('mĩ thuật') || text.includes('mỹ thuật') || noAcc.includes('mi thuat') || text === 'mt') return 'mi_thuat';
+    if (text.includes('thể chất') || text.includes('thể dục') || noAcc.includes('the chat') || noAcc.includes('the duc') || text.includes('gdtc') || text === 'td') return 'gdtc';
+    if (text.includes('chào cờ') || text.includes('sinh hoạt') || noAcc.includes('chao co') || noAcc.includes('sinh hoat') || text.includes('shl') || text.includes('shdc') || text.includes('shcn') || text.includes('tổng kết')) return 'shcn';
+
+    return text;
+  },
+
+  /**
+   * Phân tích tệp Thời Khóa Biểu (Excel .xlsx/.xls, Word .docx, PDF, CSV, TXT)
+   */
+  parseTimetableFile: async function(file, grade) {
+    if (!file) throw new Error('Vui lòng chọn tệp Thời khóa biểu.');
+    var fileName = file.name || 'Thoi_Khoa_Bieu';
+    var ext = (fileName.split('.').pop() || '').toLowerCase();
+    var curGrade = parseInt(grade) || 5;
+
+    // 1. TỆP EXCEL (.XLSX, .XLS)
+    if (ext === 'xlsx' || ext === 'xls') {
+      return new Promise(function(resolve, reject) {
+        if (typeof XLSX === 'undefined') {
+          reject(new Error('Thư viện đọc Excel đang tải, vui lòng thử lại sau 2 giây.'));
+          return;
+        }
+        var reader = new FileReader();
+        reader.onload = function(e) {
+          try {
+            var data = new Uint8Array(e.target.result);
+            var workbook = XLSX.read(data, { type: 'array' });
+            var firstSheetName = workbook.SheetNames[0];
+            var worksheet = workbook.Sheets[firstSheetName];
+            var rows = XLSX.utils.sheet_to_json(worksheet, { header: 1, defval: '' });
+
+            var parsed = IntegrationService.parseTimetableFromGrid(rows, curGrade);
+            resolve({
+              success: true,
+              fileName: fileName,
+              fileType: 'Excel (' + ext.toUpperCase() + ')',
+              timetable: parsed.timetable,
+              slotsCount: parsed.slotsCount
+            });
+          } catch (err) {
+            reject(new Error('Lỗi khi đọc bảng tính Excel: ' + err.message));
+          }
+        };
+        reader.onerror = function() { reject(new Error('Không thể đọc tệp Excel.')); };
+        reader.readAsArrayBuffer(file);
+      });
+    }
+
+    // 2. TỆP WORD (.DOCX)
+    if (ext === 'docx') {
+      return new Promise(function(resolve, reject) {
+        if (typeof mammoth === 'undefined') {
+          reject(new Error('Thư viện đọc Word đang tải, vui lòng thử lại sau 2 giây.'));
+          return;
+        }
+        var reader = new FileReader();
+        reader.onload = function(e) {
+          mammoth.convertToHtml({ arrayBuffer: e.target.result })
+            .then(function(result) {
+              var html = result.value || '';
+              var grid = IntegrationService.extractGridFromHtmlTable(html);
+              if (grid.length > 0) {
+                var parsed = IntegrationService.parseTimetableFromGrid(grid, curGrade);
+                resolve({
+                  success: true,
+                  fileName: fileName,
+                  fileType: 'Word (DOCX)',
+                  timetable: parsed.timetable,
+                  slotsCount: parsed.slotsCount
+                });
+              } else {
+                // Fallback: parse raw text lines
+                return mammoth.extractRawText({ arrayBuffer: e.target.result }).then(function(textRes) {
+                  var rawText = textRes.value || '';
+                  var parsed = IntegrationService.parseTimetableFromText(rawText, curGrade);
+                  resolve({
+                    success: true,
+                    fileName: fileName,
+                    fileType: 'Word (DOCX Text)',
+                    timetable: parsed.timetable,
+                    slotsCount: parsed.slotsCount
+                  });
+                });
+              }
+            })
+            .catch(function(err) {
+              reject(new Error('Lỗi khi phân tích tệp Word: ' + err.message));
+            });
+        };
+        reader.onerror = function() { reject(new Error('Không thể đọc tệp Word.')); };
+        reader.readAsArrayBuffer(file);
+      });
+    }
+
+    // 3. TỆP CSV, TXT, JSON
+    if (ext === 'csv' || ext === 'txt' || ext === 'json' || ext === 'md') {
+      var textObj = await this.extractTextFromFile(file);
+      var text = textObj.text || '';
+      
+      if (ext === 'json') {
+        try {
+          var jsonData = JSON.parse(text);
+          if (Array.isArray(jsonData) && jsonData.length === 5) {
+            return {
+              success: true,
+              fileName: fileName,
+              fileType: 'JSON',
+              timetable: jsonData,
+              slotsCount: 35
+            };
+          }
+        } catch (jErr) {}
+      }
+
+      var parsed = this.parseTimetableFromText(text, curGrade);
+      return {
+        success: true,
+        fileName: fileName,
+        fileType: ext.toUpperCase(),
+        timetable: parsed.timetable,
+        slotsCount: parsed.slotsCount
+      };
+    }
+
+    // 4. TỆP PDF
+    if (ext === 'pdf') {
+      var pdfObj = await this.extractTextFromFile(file);
+      var parsed = this.parseTimetableFromText(pdfObj.text || '', curGrade);
+      return {
+        success: true,
+        fileName: fileName,
+        fileType: 'PDF Document',
+        timetable: parsed.timetable,
+        slotsCount: parsed.slotsCount
+      };
+    }
+
+    throw new Error('Định dạng tệp .' + ext + ' chưa được hỗ trợ. Vui lòng chọn .xlsx, .xls, .docx, .csv hoặc .txt.');
+  },
+
+  /**
+   * Trích xuất ma trận ô (2D Array) từ bảng HTML trong tệp Word
+   */
+  extractGridFromHtmlTable: function(html) {
+    var grid = [];
+    if (!html) return grid;
+
+    var tempDiv = null;
+    if (typeof document !== 'undefined') {
+      tempDiv = document.createElement('div');
+      tempDiv.innerHTML = html;
+      var tables = tempDiv.querySelectorAll('table');
+      if (tables.length > 0) {
+        var table = tables[0];
+        var rows = table.querySelectorAll('tr');
+        rows.forEach(function(tr) {
+          var rowData = [];
+          var cells = tr.querySelectorAll('td, th');
+          cells.forEach(function(c) {
+            rowData.push((c.textContent || '').trim());
+          });
+          if (rowData.length > 0) grid.push(rowData);
+        });
+      }
+    }
+    return grid;
+  },
+
+  /**
+   * Phân tích Ma trận lưới 2D (từ Excel hoặc Word Table) thành Thời Khóa Biểu chuẩn 5 ngày
+   */
+  parseTimetableFromGrid: function(rows, grade) {
+    var g = parseInt(grade) || 5;
+    var days = [
+      { day: 'Thứ Hai', dayNum: 2, morning: [], afternoon: [] },
+      { day: 'Thứ Ba', dayNum: 3, morning: [], afternoon: [] },
+      { day: 'Thứ Tư', dayNum: 4, morning: [], afternoon: [] },
+      { day: 'Thứ Năm', dayNum: 5, morning: [], afternoon: [] },
+      { day: 'Thứ Sáu', dayNum: 6, morning: [], afternoon: [] }
+    ];
+
+    if (!Array.isArray(rows) || rows.length === 0) {
+      return { timetable: IntegrationService.getDefaultTimetable(g), slotsCount: 35 };
+    }
+
+    // 1. Tìm dòng Header chứa các Thứ (Thứ 2/Hai, Thứ 3/Ba, Thứ 4/Tư, Thứ 5/Năm, Thứ 6/Sáu)
+    var dayColMap = {}; // { 2: colIdx, 3: colIdx, 4: colIdx, 5: colIdx, 6: colIdx }
+    var headerRowIdx = -1;
+
+    for (var r = 0; r < Math.min(rows.length, 10); r++) {
+      var row = rows[r] || [];
+      for (var c = 0; c < row.length; c++) {
+        var cellStr = String(row[c] || '').toLowerCase().trim();
+        if (cellStr.includes('thứ 2') || cellStr.includes('thứ hai') || cellStr === 'thứ 2' || cellStr === 'hai' || cellStr === 't2') {
+          dayColMap[2] = c;
+          headerRowIdx = r;
+        } else if (cellStr.includes('thứ 3') || cellStr.includes('thứ ba') || cellStr === 'thứ 3' || cellStr === 'ba' || cellStr === 't3') {
+          dayColMap[3] = c;
+          headerRowIdx = r;
+        } else if (cellStr.includes('thứ 4') || cellStr.includes('thứ tư') || cellStr.includes('thứ 4') || cellStr === 'tư' || cellStr === 't4') {
+          dayColMap[4] = c;
+          headerRowIdx = r;
+        } else if (cellStr.includes('thứ 5') || cellStr.includes('thứ năm') || cellStr === 'thứ 5' || cellStr === 'năm' || cellStr === 't5') {
+          dayColMap[5] = c;
+          headerRowIdx = r;
+        } else if (cellStr.includes('thứ 6') || cellStr.includes('thứ sáu') || cellStr === 'thứ 6' || cellStr === 'sáu' || cellStr === 't6') {
+          dayColMap[6] = c;
+          headerRowIdx = r;
+        }
+      }
+      if (Object.keys(dayColMap).length >= 3) break;
+    }
+
+    // Nếu không tìm thấy cột Thứ rõ ràng, giả định các cột liên tiếp (thường từ cột 1 hoặc 2)
+    if (Object.keys(dayColMap).length < 3) {
+      var startCol = (rows[0] && rows[0].length >= 6) ? (rows[0].length - 5) : 1;
+      dayColMap = { 2: startCol, 3: startCol + 1, 4: startCol + 2, 5: startCol + 3, 6: startCol + 4 };
+      headerRowIdx = 0;
+    }
+
+    var isAfternoon = false;
+    var morningSlots = { 2: [], 3: [], 4: [], 5: [], 6: [] };
+    var afternoonSlots = { 2: [], 3: [], 4: [], 5: [], 6: [] };
+
+    for (var r = headerRowIdx + 1; r < rows.length; r++) {
+      var row = rows[r] || [];
+      var rowText = row.join(' ').toLowerCase();
+
+      if (rowText.includes('chiều') || rowText.includes('buổi chiều') || rowText.includes('buoi chieu')) {
+        isAfternoon = true;
+      }
+      if (rowText.includes('sáng') || rowText.includes('buổi sáng') || rowText.includes('buoi sang')) {
+        isAfternoon = false;
+      }
+
+      var hasAnySubject = false;
+      for (var dayNum = 2; dayNum <= 6; dayNum++) {
+        var col = dayColMap[dayNum];
+        var cellVal = (col !== undefined && row[col] !== undefined) ? String(row[col]).trim() : '';
+        var subjKey = IntegrationService.normalizeSubjectKey(cellVal);
+
+        if (subjKey) {
+          hasAnySubject = true;
+          if (isAfternoon) {
+            if (afternoonSlots[dayNum].length < 3) afternoonSlots[dayNum].push(subjKey);
+          } else {
+            if (morningSlots[dayNum].length < 4) {
+              morningSlots[dayNum].push(subjKey);
+            } else if (afternoonSlots[dayNum].length < 3) {
+              afternoonSlots[dayNum].push(subjKey);
+            }
+          }
+        }
+      }
+    }
+
+    var defaultTkb = IntegrationService.getDefaultTimetable(g);
+    var filledCount = 0;
+
+    days.forEach(function(dayItem, dIdx) {
+      var dNum = dayItem.dayNum;
+      var defDay = defaultTkb[dIdx] || {};
+
+      // Điền buổi sáng (đảm bảo đủ 4 tiết)
+      var mList = morningSlots[dNum] || [];
+      for (var s = 0; s < 4; s++) {
+        var val = mList[s] || (defDay.morning && defDay.morning[s]) || 'toan';
+        dayItem.morning.push(val);
+        if (mList[s]) filledCount++;
+      }
+
+      // Điền buổi chiều (tối đa 3 tiết)
+      var aList = afternoonSlots[dNum] || [];
+      for (var a = 0; a < 3; a++) {
+        var val = aList[a] || (defDay.afternoon && defDay.afternoon[a]) || '';
+        if (val) {
+          dayItem.afternoon.push(val);
+          if (aList[a]) filledCount++;
+        }
+      }
+    });
+
+    return { timetable: days, slotsCount: filledCount };
+  },
+
+  /**
+   * Phân tích Thời Khóa Biểu từ văn bản thuần (TXT/CSV/PDF Text)
+   */
+  parseTimetableFromText: function(text, grade) {
+    var lines = (text || '').split(/\r?\n/).map(function(l) { return l.trim(); }).filter(Boolean);
+    var grid = [];
+
+    lines.forEach(function(line) {
+      var parts = line.split(/[,;\t|]+/).map(function(p) { return p.trim(); });
+      if (parts.length > 1) {
+        grid.push(parts);
+      } else {
+        // Tách theo nhiều khoảng trắng
+        var spaceParts = line.split(/\s{2,}/).map(function(p) { return p.trim(); });
+        if (spaceParts.length > 1) grid.push(spaceParts);
+        else grid.push([line]);
+      }
+    });
+
+    return this.parseTimetableFromGrid(grid, grade);
+  },
+
+
   getSubjectDisplayName: function(subjectKey) {
     var map = {
       'toan': 'Toán',
