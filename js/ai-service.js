@@ -2163,23 +2163,67 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
     return docHtml;
   },
 
-  downloadWordBlob: function(docHtml, filename) {
+  downloadWordBlob: async function(docHtml, filename) {
     if (typeof document === "undefined" || typeof Blob === "undefined") {
-      return;
+      return { success: false };
     }
     var blob = new Blob([docHtml], { type: "application/msword;charset=utf-8" });
+
+    // 1. Mở Hộp thoại Lưu File (Save As) của hệ điều hành
+    if (typeof window !== "undefined" && typeof window.showSaveFilePicker === "function") {
+      try {
+        var pickerOpts = {
+          suggestedName: filename,
+          types: [{
+            description: "Tài liệu Microsoft Word (.doc)",
+            accept: { "application/msword": [".doc"] }
+          }]
+        };
+        var handle = await window.showSaveFilePicker(pickerOpts);
+        var writable = await handle.createWritable();
+        await writable.write(blob);
+        await writable.close();
+        if (typeof showToast === "function") {
+          showToast("Đã lưu tệp Word vào máy tính thành công!", "success");
+        }
+        return { success: true, method: "picker" };
+      } catch (err) {
+        if (err && (err.name === "AbortError" || err.code === 20)) {
+          if (typeof showToast === "function") {
+            showToast("Bạn đã hủy lưu tệp Word.", "info");
+          }
+          return { success: false, aborted: true };
+        }
+        console.warn("showSaveFilePicker fallback:", err);
+      }
+    }
+
+    // 2. Trình duyệt cũ IE / Edge Legacy
+    if (typeof window !== "undefined" && window.navigator && window.navigator.msSaveOrOpenBlob) {
+      window.navigator.msSaveOrOpenBlob(blob, filename);
+      if (typeof showToast === "function") {
+        showToast("Đã lưu tệp Word thành công!", "success");
+      }
+      return { success: true, method: "msSave" };
+    }
+
+    // 3. Chuẩn HTML5 download qua thẻ <a>
     var url = URL.createObjectURL(blob);
     var a = document.createElement("a");
     a.href = url;
     a.download = filename;
+    a.style.display = "none";
     document.body.appendChild(a);
     a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    setTimeout(function() {
+      if (a.parentNode) a.parentNode.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 1500);
 
     if (typeof showToast === "function") {
-      showToast("Đã xuất file Word (.doc) chuẩn mẫu thành công!", "success");
+      showToast("Đã xuất file Word! Tệp đã lưu trong thư mục Downloads (Tải về).", "success");
     }
+    return { success: true, method: "direct" };
   }
 };
 

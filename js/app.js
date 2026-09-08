@@ -3468,6 +3468,9 @@ function renderAiIntegrationView(container) {
               <i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH KHBD GỐC (${countWeeks} Tuần • Chuẩn CV 2345)
             `}
           </button>
+          <div style="font-size: 0.76rem; color: #64748b; margin-top: 0.15rem; text-align: center; line-height: 1.35;">
+            <i class="fa-solid fa-circle-info" style="color: #2563eb;"></i> Trình duyệt sẽ mở <b>Hộp thoại Lưu (Save As)</b> để chọn nơi lưu, hoặc tải vào thư mục <b>Downloads (Tải về)</b>.
+          </div>
           
         </div>
 
@@ -4040,6 +4043,7 @@ async function triggerDirectFastExport() {
   try {
     if (isTimetableMode) {
       // Xuất theo Thời Khóa Biểu: Mỗi tuần 1 file Word riêng
+      var anyAborted = false;
       for (var w = sWeek; w <= eWeek; w++) {
         var weeklyPlan = await IntegrationService.buildWeeklyPlanByTimetable(
           grade, 
@@ -4049,7 +4053,7 @@ async function triggerDirectFastExport() {
           false
         );
 
-        IntegrationService.exportWeekByTimetableWord(weeklyPlan, {
+        var resW = await IntegrationService.exportWeekByTimetableWord(weeklyPlan, {
           grade: grade,
           week: w,
           schoolName: integrationState.schoolName,
@@ -4059,11 +4063,19 @@ async function triggerDirectFastExport() {
           filename: 'KHBD_Tuan_' + w + '_Lop_' + grade + '_Theo_TKB.doc'
         });
 
+        if (resW && resW.aborted) {
+          anyAborted = true;
+          showToast('Đã dừng xuất các tuần tiếp theo theo yêu cầu.', 'info');
+          break;
+        }
+
         if (w < eWeek) {
           await new Promise(function(res) { setTimeout(res, 600); });
         }
       }
-      showToast('Đã xuất thành công ' + count + ' file Word Kế hoạch bài dạy theo Thời khóa biểu!', 'success');
+      if (!anyAborted) {
+        showToast('Đã xuất thành công ' + count + ' file Word Kế hoạch bài dạy theo Thời khóa biểu!', 'success');
+      }
 
     } else {
       // Xuất theo Từng Môn
@@ -4077,7 +4089,7 @@ async function triggerDirectFastExport() {
         throw new Error('Chưa tìm thấy dữ liệu giáo án số hóa cho Khối ' + grade + ' - Môn ' + subj);
       }
 
-      IntegrationService.exportToWord(weeksPlan, {
+      var saveResult = await IntegrationService.exportToWord(weeksPlan, {
         grade: grade,
         subjectName: IntegrationService.getSubjectDisplayName(subj),
         startWeek: sWeek,
@@ -4088,7 +4100,14 @@ async function triggerDirectFastExport() {
         className: integrationState.className,
         filename: 'KHBD_Lop' + grade + '_' + subj.toUpperCase() + '_Tuan' + sWeek + '-' + eWeek + '_CV2345.doc'
       });
-      showToast('Đã xuất thành công file Word KHBD môn ' + IntegrationService.getSubjectDisplayName(subj) + ' (Tuần ' + sWeek + ' - ' + eWeek + ')!', 'success');
+
+      if (saveResult && saveResult.aborted) {
+        showToast('Bạn đã hủy lưu file Word.', 'info');
+      } else if (saveResult && saveResult.method === 'picker') {
+        showToast('Đã lưu thành công file Word KHBD môn ' + IntegrationService.getSubjectDisplayName(subj) + ' (Tuần ' + sWeek + ' - ' + eWeek + ') vào máy tính!', 'success');
+      } else {
+        showToast('Đã xuất file Word KHBD môn ' + IntegrationService.getSubjectDisplayName(subj) + '! Tệp đã được lưu trong thư mục Downloads (Tải về).', 'success');
+      }
     }
 
   } catch (err) {
@@ -4774,7 +4793,7 @@ function switchIntegrationPreviewLesson(idx) {
   }
 }
 
-function triggerExportIntegrationWord() {
+async function triggerExportIntegrationWord() {
   if (!integrationState.appliedLessons || integrationState.appliedLessons.length === 0) {
     showToast('Chưa có dữ liệu giáo án để xuất!', 'warning');
     return;
@@ -4784,14 +4803,21 @@ function triggerExportIntegrationWord() {
   var docTitleClean = (plan.docTitle || 'Tich_Hop').replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
   var filename = 'KHBD_Lop' + (plan.grade || 5) + '_' + (plan.subjectKey || 'mon') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.doc';
 
-  IntegrationService.exportToWord(integrationState.appliedLessons, {
+  var saveResult = await IntegrationService.exportToWord(integrationState.appliedLessons, {
     grade: plan.grade,
     subjectName: plan.subjectName,
     startWeek: plan.startWeek,
     endWeek: plan.endWeek,
     filename: filename
   });
-  showToast('Đã tải xuống file Word chuẩn CV 2345: ' + filename, 'success');
+
+  if (saveResult && saveResult.aborted) {
+    showToast('Bạn đã hủy lưu file Word.', 'info');
+  } else if (saveResult && saveResult.method === 'picker') {
+    showToast('Đã lưu file Word vào máy tính thành công: ' + filename, 'success');
+  } else {
+    showToast('Đã xuất file Word chuẩn CV 2345! Tệp đã lưu trong thư mục Downloads (Tải về).', 'success');
+  }
 }
 
 function resetIntegrationToPlanStep() {

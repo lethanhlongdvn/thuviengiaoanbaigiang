@@ -1333,7 +1333,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   /**
    * Xuất file Word trọn gói cho Kế hoạch bài dạy theo Môn
    */
-  exportToWord: function(lessonsOrWeeks, metadata) {
+  exportToWord: async function(lessonsOrWeeks, metadata) {
     var meta = metadata || {};
     var grade = meta.grade || 5;
     var subjectName = meta.subjectName || 'Môn học';
@@ -1368,13 +1368,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     });
 
     var filename = meta.filename || ('KHBD_Lop' + grade + '_' + subjectName + '_Tuan' + startWeek + '-' + endWeek + '.doc');
-    this.downloadWordBlob(docHtml, filename);
+    return await this.downloadWordBlob(docHtml, filename);
   },
 
   /**
    * Xuất file Word trọn gói 1 Tuần theo Thời Khóa Biểu (.doc)
    */
-  exportWeekByTimetableWord: function(weeklyPlanResult, metadata) {
+  exportWeekByTimetableWord: async function(weeklyPlanResult, metadata) {
     var meta = metadata || {};
     var grade = weeklyPlanResult.grade || meta.grade || 5;
     var weekNum = weeklyPlanResult.week || meta.week || 1;
@@ -1463,7 +1463,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     });
 
     var filename = meta.filename || ('KHBD_Tuan_' + weekNum + '_Lop_' + grade + '_Theo_TKB.doc');
-    this.downloadWordBlob(docHtml, filename);
+    return await this.downloadWordBlob(docHtml, filename);
   },
 
   generateWordHtmlStructure: function(lessons, meta) {
@@ -1702,22 +1702,60 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     return docHtml;
   },
 
-  downloadWordBlob: function(docHtml, filename) {
-    if (typeof Blob !== 'undefined') {
-      var blob = new Blob(['\ufeff' + docHtml], { type: 'application/msword;charset=utf-8' });
-      if (typeof window !== 'undefined' && window.navigator && window.navigator.msSaveOrOpenBlob) {
-        window.navigator.msSaveOrOpenBlob(blob, filename);
-        return;
-      }
-      if (typeof document !== 'undefined') {
-        var downloadLink = document.createElement('a');
-        downloadLink.href = URL.createObjectURL(blob);
-        downloadLink.download = filename;
-        document.body.appendChild(downloadLink);
-        downloadLink.click();
-        document.body.removeChild(downloadLink);
+  downloadWordBlob: async function(docHtml, filename) {
+    if (typeof Blob === 'undefined') return { success: false, error: 'Blob not supported' };
+    var blob = new Blob(['\ufeff' + docHtml], { type: 'application/msword;charset=utf-8' });
+
+    // 1. Mở Hộp thoại Lưu File (Save As dialog) chuẩn Windows / Hệ điều hành thông qua File System Access API
+    if (typeof window !== 'undefined' && typeof window.showSaveFilePicker === 'function') {
+      try {
+        var pickerOpts = {
+          suggestedName: filename,
+          types: [{
+            description: 'Tài liệu Microsoft Word (.doc)',
+            accept: { 'application/msword': ['.doc'] }
+          }]
+        };
+        var handle = await window.showSaveFilePicker(pickerOpts);
+        var writable = await handle.createWritable();
+        await writable.write(blob);
+        await writable.close();
+        return { success: true, method: 'picker', filename: filename };
+      } catch (err) {
+        // Nếu người dùng bấm "Hủy / Cancel" trên hộp thoại Lưu của Windows
+        if (err && (err.name === 'AbortError' || err.code === 20)) {
+          return { success: false, aborted: true };
+        }
+        // Trường hợp trình duyệt chặn quyền hoặc hết hạn user gesture -> fallback sang thẻ <a>
+        console.warn('showSaveFilePicker fallback to anchor download:', err);
       }
     }
+
+    // 2. Hỗ trợ trình duyệt cũ IE / Edge Legacy
+    if (typeof window !== 'undefined' && window.navigator && window.navigator.msSaveOrOpenBlob) {
+      window.navigator.msSaveOrOpenBlob(blob, filename);
+      return { success: true, method: 'msSave', filename: filename };
+    }
+
+    // 3. Chuẩn HTML5 download qua thẻ <a> (tải thẳng vào thư mục Downloads của máy tính)
+    if (typeof document !== 'undefined') {
+      var url = URL.createObjectURL(blob);
+      var downloadLink = document.createElement('a');
+      downloadLink.href = url;
+      downloadLink.download = filename;
+      downloadLink.style.display = 'none';
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      setTimeout(function() {
+        if (downloadLink.parentNode) {
+          downloadLink.parentNode.removeChild(downloadLink);
+        }
+        URL.revokeObjectURL(url);
+      }, 1500);
+      return { success: true, method: 'direct', filename: filename };
+    }
+
+    return { success: false, error: 'No download mechanism available' };
   }
 };
 
