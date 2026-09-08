@@ -103,7 +103,7 @@
       box-sizing: border-box;
     }
 
-    /* ĐÈ BỐ CỤC LƯỚI KHÔNG GIAN RỘNG */
+    /* BỐ CỤC LƯỚI KHÔNG GIAN RỘNG */
     .ai-layout-container {
       display: grid !important;
       grid-template-columns: 420px 1fr !important;
@@ -138,7 +138,7 @@
     }
   </style>
 </head>
-<body>
+<body class="page-ai-integration">
 
   <!-- HEADER TOÀN MÀN HÌNH -->
   <header class="standalone-header">
@@ -183,11 +183,49 @@
   <!-- Vùng chứa thông báo Toast -->
   <div class="toast-container" id="toast-container"></div>
 
-  <!-- Kho Kế Hoạch Bài Dạy (KHBD) Số Hóa Chuẩn 100% CV 2345 -->
+  <!-- Kho Kế Hoạch Bài Dạy (KHBD) Số Hóa Chuẩn 100% CV 2345 - Khối 5 -->
   <script src="js/khbd_sohoa/khbd-registry.js"></script>
-  <script src="js/integration-service.js"></script>
+  <script src="js/khbd_sohoa/lop5/lop5_toan.js"></script>
+  <script src="js/khbd_sohoa/lop5/lop5_tieng_viet.js"></script>
+  <script src="js/khbd_sohoa/lop5/lop5_khoa_hoc.js"></script>
+  <script src="js/khbd_sohoa/lop5/lop5_lich_su_dia_ly.js"></script>
+  <script src="js/khbd_sohoa/lop5/lop5_dao_duc.js"></script>
+  <script src="js/khbd_sohoa/lop5/lop5_hdtn.js"></script>
+  <script src="js/khbd_sohoa/lop5/lop5_cong_nghe.js"></script>
 
-  <!-- Scripts Logic -->
+  <!-- Kho KHBD Khối 4 -->
+  <script src="js/khbd_sohoa/lop4/lop4_toan.js"></script>
+  <script src="js/khbd_sohoa/lop4/lop4_tieng_viet.js"></script>
+  <script src="js/khbd_sohoa/lop4/lop4_khoa_hoc.js"></script>
+  <script src="js/khbd_sohoa/lop4/lop4_lich_su_dia_ly.js"></script>
+  <script src="js/khbd_sohoa/lop4/lop4_dao_duc.js"></script>
+  <script src="js/khbd_sohoa/lop4/lop4_hdtn.js"></script>
+  <script src="js/khbd_sohoa/lop4/lop4_cong_nghe.js"></script>
+
+  <!-- Kho KHBD Khối 3 -->
+  <script src="js/khbd_sohoa/lop3/lop3_toan.js"></script>
+  <script src="js/khbd_sohoa/lop3/lop3_tieng_viet.js"></script>
+  <script src="js/khbd_sohoa/lop3/lop3_tnxh.js"></script>
+  <script src="js/khbd_sohoa/lop3/lop3_dao_duc.js"></script>
+  <script src="js/khbd_sohoa/lop3/lop3_hdtn.js"></script>
+  <script src="js/khbd_sohoa/lop3/lop3_cong_nghe.js"></script>
+
+  <!-- Kho KHBD Khối 2 -->
+  <script src="js/khbd_sohoa/lop2/lop2_toan.js"></script>
+  <script src="js/khbd_sohoa/lop2/lop2_tieng_viet.js"></script>
+  <script src="js/khbd_sohoa/lop2/lop2_tnxh.js"></script>
+  <script src="js/khbd_sohoa/lop2/lop2_dao_duc.js"></script>
+  <script src="js/khbd_sohoa/lop2/lop2_hdtn.js"></script>
+
+  <!-- Kho KHBD Khối 1 -->
+  <script src="js/khbd_sohoa/lop1/lop1_toan.js"></script>
+  <script src="js/khbd_sohoa/lop1/lop1_tieng_viet.js"></script>
+  <script src="js/khbd_sohoa/lop1/lop1_tnxh.js"></script>
+  <script src="js/khbd_sohoa/lop1/lop1_dao_duc.js"></script>
+  <script src="js/khbd_sohoa/lop1/lop1_hdtn.js"></script>
+
+  <!-- Dịch vụ Tích hợp & Core Scripts -->
+  <script src="js/integration-service.js"></script>
   <script src="js/config.js"></script>
   <script src="js/data.js"></script>
   <script src="js/auth.js"></script>
@@ -195,15 +233,5 @@
   <script src="js/ai-service.js"></script>
   <script src="js/toolkit.js"></script>
   <script src="js/app.js"></script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      currentView = "ai-integration";
-      var container = document.getElementById("content-container");
-      if (container && typeof renderAiIntegrationView === "function") {
-        renderAiIntegrationView(container);
-      }
-    });
-  </script>
 </body>
 </html>

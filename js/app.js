@@ -87,6 +87,28 @@ var sidebarActiveGrade = 1;
 
 // Khởi chạy khi DOM sẵn sàng
 document.addEventListener("DOMContentLoaded", function() {
+  var pathname = (window.location.pathname || "").toLowerCase();
+  var isStandaloneIntegration = pathname.indexOf("ai-integration") !== -1 || document.body.classList.contains("page-ai-integration");
+  var isStandaloneExam = pathname.indexOf("ai-exam") !== -1 || document.body.classList.contains("page-ai-exam");
+
+  if (isStandaloneIntegration) {
+    currentView = "ai-integration";
+    var container = document.getElementById("content-container");
+    if (container && typeof renderAiIntegrationView === "function") {
+      renderAiIntegrationView(container);
+    }
+    return;
+  }
+
+  if (isStandaloneExam) {
+    currentView = "ai-exam";
+    var container = document.getElementById("content-container");
+    if (container && typeof renderAiExamView === "function") {
+      renderAiExamView(container);
+    }
+    return;
+  }
+
   AuthService.updateAuthUI();
   setupNavigationEvents();
   setupSearchEvents();

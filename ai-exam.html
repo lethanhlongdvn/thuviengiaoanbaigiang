@@ -103,7 +103,7 @@
       box-sizing: border-box;
     }
 
-    /* ĐÈ BỐ CỤC LƯỚI KHÔNG GIAN RỘNG */
+    /* BỐ CỤC LƯỚI KHÔNG GIAN RỘNG */
     .ai-layout-container {
       display: grid !important;
       grid-template-columns: 420px 1fr !important;
@@ -137,7 +137,7 @@
     }
   </style>
 </head>
-<body>
+<body class="page-ai-exam">
 
   <!-- HEADER TOÀN MÀN HÌNH -->
   <header class="standalone-header">
@@ -229,15 +229,5 @@
   <script src="js/ai-service.js"></script>
   <script src="js/toolkit.js"></script>
   <script src="js/app.js"></script>
-
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      currentView = "ai-exam";
-      var container = document.getElementById("content-container");
-      if (container && typeof renderAiExamView === "function") {
-        renderAiExamView(container);
-      }
-    });
-  </script>
 </body>
 </html>
