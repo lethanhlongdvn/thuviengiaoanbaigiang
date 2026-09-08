@@ -86,20 +86,19 @@ var IntegrationService = {
     var noAcc = text.replace(/đ/g, 'd').replace(/Đ/g, 'D').normalize("NFD").replace(/[\u0300-\u036f]/g, "");
     var compact = noAcc.replace(/[^a-z0-9]/g, '');
 
-    if (compact.includes('toan') || compact === 't') return 'toan';
-    if (compact.includes('tiengviet') || compact.includes('tviet') || compact === 'tv' || compact.includes('tapdoc') || compact.includes('chinhta') || compact.includes('luyentu') || compact.includes('taplamvan')) return 'tieng_viet';
-    if (compact.includes('khoahoc') || compact.includes('khoc') || compact === 'kh') return 'khoa_hoc';
+    if (compact.includes('toan') || compact === 't' || /^t\d+$/.test(compact) || compact.startsWith('ttiet') || compact.startsWith('tiettoan')) return 'toan';
+    if (compact.includes('tiengviet') || compact.includes('tviet') || compact === 'tv' || compact.startsWith('tv') || compact.includes('tapdoc') || compact.includes('chinhta') || compact.includes('luyentu') || compact.includes('taplamvan') || compact.startsWith('tvtiet')) return 'tieng_viet';
+    if (compact.includes('khoahoc') || compact.includes('khoc') || compact === 'kh' || compact.startsWith('khtiet')) return 'khoa_hoc';
     if (compact.includes('lichsudialy') || compact.includes('lichsudiali') || compact.includes('lsdl') || compact.includes('lsd') || compact.includes('lichsu') || compact.includes('diali') || compact.includes('dialy')) return 'lich_su_dia_ly';
-    if (compact.includes('tunhienxahoi') || compact.includes('tnxh')) return 'tnxh';
-    if (compact.includes('daoduc') || compact === 'dd') return 'dao_duc';
-    if (compact.includes('trainghiem') || compact.includes('hdtn') || compact.includes('hdtnh') || compact.includes('hdtnvhn')) return 'hdtn';
-    if (compact.includes('congnghe') || compact === 'cn') return 'cong_nghe';
-    if (compact.includes('tinhoc') || compact === 'tin' || compact === 'th') return 'tin_hoc';
-    if (compact.includes('tienganh') || compact.includes('anhvan') || compact.includes('anh') || compact.includes('english') || compact === 'ta') return 'tieng_anh';
-    if (compact.includes('amnhac') || compact.includes('hatnhac') || compact === 'an' || compact === 'nhac') return 'am_nhac';
-    if (compact.includes('mithuat') || compact.includes('mythuat') || compact === 'mt') return 'mi_thuat';
-    if (compact.includes('thechat') || compact.includes('theduc') || compact.includes('gdtc') || compact === 'td') return 'gdtc';
-    if (compact.includes('chaoco') || compact.includes('sinhhoat') || compact.includes('shl') || compact.includes('shdc') || compact.includes('shcn') || compact.includes('tongket')) return 'shcn';
+    if (compact.includes('tunhienxahoi') || compact.includes('tnxh') || compact.startsWith('tnxhtiet')) return 'tnxh';
+    if (compact.includes('daoduc') || compact === 'dd' || compact.startsWith('ddtiet')) return 'dao_duc';
+    if (compact.includes('trainghiem') || compact.includes('hdtn') || compact.includes('hdtnh') || compact.includes('hdtnvhn') || compact.startsWith('hdtntiet') || compact.includes('chaoco') || compact.includes('sinhhoat') || compact.includes('shl') || compact.includes('shdc') || compact.includes('shcn') || compact.includes('tongket')) return 'hdtn';
+    if (compact.includes('congnghe') || compact === 'cn' || compact.startsWith('cntiet')) return 'cong_nghe';
+    if (compact.includes('tinhoc') || compact === 'tin' || compact === 'th' || compact.startsWith('thtiet') || compact.startsWith('tintiet')) return 'tin_hoc';
+    if (compact.includes('tienganh') || compact.includes('anhvan') || compact.includes('anh') || compact.includes('english') || compact === 'ta' || compact.startsWith('tatiet')) return 'tieng_anh';
+    if (compact.includes('amnhac') || compact.includes('hatnhac') || compact === 'an' || compact === 'nhac' || compact.startsWith('antiet')) return 'am_nhac';
+    if (compact.includes('mithuat') || compact.includes('mythuat') || compact === 'mt' || compact.startsWith('mttiet')) return 'mi_thuat';
+    if (compact.includes('thechat') || compact.includes('theduc') || compact.includes('gdtc') || compact === 'td' || compact.startsWith('gdtctiet')) return 'gdtc';
 
     return text;
   },
@@ -636,6 +635,106 @@ var IntegrationService = {
   // 5. GHÉP TUẦN TỰ TOÀN BỘ KHBD TRONG TUẦN THEO THỜI KHÓA BIỂU
   // =========================================================================
 
+  isDoublePeriodLesson: function(title, period) {
+    var t = ((title || '') + ' ' + (period || '')).toLowerCase();
+    if (/ti[eế]t\s*\d+\s*[-–,]\s*\d+/i.test(t)) return true;
+    if (/(?:2\s*ti[eế]t|th[oờ]i\s*l[uư][oợ]ng\s*:\s*2|s[oố]\s*ti[eế]t\s*:\s*2|ti[eế]t\s*đ[oô]i)/i.test(t)) return true;
+    return false;
+  },
+
+  unpackWeeklyLessons: function(rawLessons, sKey, weekNum, grade) {
+    var units = [];
+    var currentTopic = '';
+    var validLessons = [];
+    var self = this;
+
+    (rawLessons || []).forEach(function(les, r_idx) {
+      var tables = les.tables || [];
+      var hasRealContent = false;
+      for (var i = 0; i < tables.length; i++) {
+        if (tables[i] && tables[i].length > 0) {
+          hasRealContent = true;
+          break;
+        }
+      }
+      var title = les.lessonTitle || les.title || '';
+      if (!hasRealContent && (!les.activities || les.activities.length === 0)) {
+        currentTopic = title;
+        return;
+      }
+      var lesCopy = JSON.parse(JSON.stringify(les));
+      if (currentTopic && !lesCopy.topic) lesCopy.topic = currentTopic;
+      validLessons.push({ origIdx: r_idx, lesson: lesCopy });
+    });
+
+    validLessons.forEach(function(item) {
+      var orig_r_idx = item.origIdx;
+      var les = item.lesson;
+      var tables = les.tables || [];
+      var title = les.lessonTitle || les.title || '';
+      var period = les.period || '';
+      var isDouble = self.isDoublePeriodLesson(title, period);
+
+      if (tables.length > 1 && !isDouble) {
+        // Multi-table lesson (e.g. HĐTN in Lớp 1, 2, 4 có 3 bảng: SHDC, HĐGD theo chủ đề, Sinh hoạt lớp)
+        tables.forEach(function(tbl, t_idx) {
+          var subLes = JSON.parse(JSON.stringify(les));
+          subLes.tables = [tbl];
+          subLes.subUnitIndex = t_idx + 1;
+
+          if (sKey === 'hdtn' || sKey === 'shcn') {
+            if (t_idx === 0) {
+              subLes.lessonTitle = 'SINH HOẠT DƯỚI CỜ: ' + (title.toLowerCase().includes('khai giảng') ? 'THAM GIA LỄ KHAI GIẢNG NĂM HỌC MỚI' : (title.toLowerCase().includes('chào cờ') ? title : 'CHỦ ĐỀ ĐẦU TUẦN'));
+              subLes.period = 'Tiết 1';
+            } else if (t_idx === 1) {
+              subLes.lessonTitle = 'HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ' + (title ? (': ' + title.replace(/^KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM\s*(?:LỚP\s*\d+)?/i, '').trim()) : '');
+              subLes.period = 'Tiết 2';
+            } else if (t_idx === 2) {
+              subLes.lessonTitle = 'SINH HOẠT LỚP: SƠ KẾT TUẦN & PHƯƠNG HƯỚNG TUẦN TIẾP THEO';
+              subLes.period = 'Tiết 3';
+            } else {
+              subLes.lessonTitle = (title || 'BÀI DẠY') + ' (Tiết ' + (t_idx + 1) + ')';
+              subLes.period = 'Tiết ' + (t_idx + 1);
+            }
+          } else {
+            subLes.lessonTitle = (title || 'BÀI DẠY') + ' (Tiết ' + (t_idx + 1) + ')';
+            subLes.period = 'Tiết ' + (t_idx + 1);
+          }
+
+          units.push({
+            lesson: subLes,
+            rawIndex: orig_r_idx,
+            isDouble: false,
+            part: 1,
+            tableIndex: t_idx
+          });
+        });
+      } else if (isDouble) {
+        units.push({
+          lesson: les,
+          rawIndex: orig_r_idx,
+          isDouble: true,
+          part: 1
+        });
+        units.push({
+          lesson: les,
+          rawIndex: orig_r_idx,
+          isDouble: true,
+          part: 2
+        });
+      } else {
+        units.push({
+          lesson: les,
+          rawIndex: orig_r_idx,
+          isDouble: false,
+          part: 1
+        });
+      }
+    });
+
+    return units;
+  },
+
   /**
    * Xếp toàn bộ bài dạy các môn trong tuần theo đúng thứ tự Tiết & Thứ của TKB
    * Hỗ trợ chuẩn xác: Tiết đôi liên tục -> in 1 lần tính 2 tiết; Tiết đôi không liên tục -> in 2 lần (Tiết 1, Tiết 2)
@@ -655,7 +754,7 @@ var IntegrationService = {
     timetable.forEach(function(dayItem) {
       var dayName = dayItem.day || ('Thứ ' + dayItem.dayNum);
       (dayItem.morning || []).forEach(function(sKey, mIdx) {
-        var cleanKey = (sKey || '').toLowerCase().trim();
+        var cleanKey = IntegrationService.normalizeSubjectKey(sKey || '');
         if (cleanKey && cleanKey !== '-' && cleanKey !== '—') {
           allSlots.push({
             dayName: dayName,
@@ -667,7 +766,7 @@ var IntegrationService = {
         }
       });
       (dayItem.afternoon || []).forEach(function(sKey, aIdx) {
-        var cleanKey = (sKey || '').toLowerCase().trim();
+        var cleanKey = IntegrationService.normalizeSubjectKey(sKey || '');
         if (cleanKey && cleanKey !== '-' && cleanKey !== '—') {
           allSlots.push({
             dayName: dayName,
@@ -694,40 +793,11 @@ var IntegrationService = {
     for (var sKey in subjectSlotMap) {
       var sSlots = subjectSlotMap[sKey];
 
-      if (sKey === 'shcn') {
-        sSlots.forEach(function(slotEntry, idx) {
-          slotToLessonMap[slotEntry.slotIndex] = {
-            isSpecialSlot: true,
-            dayName: slotEntry.slot.dayName,
-            session: slotEntry.slot.session,
-            periodSlot: slotEntry.slot.periodSlot,
-            subjectKey: 'shcn',
-            subjectName: 'Sinh hoạt lớp / Chào cờ',
-            lessonTitle: idx === 0 ? 'Sinh hoạt dưới cờ / Hoạt động trải nghiệm' : 'Sinh hoạt lớp / Tổng kết tuần',
-            period: 'Tiết ' + slotEntry.slot.periodSlot,
-            week: wNum,
-            grade: g
-          };
-        });
-        continue;
-      }
-
       var weekData = khbdDataObj ? khbdDataObj.getWeekPlan(g, sKey, wNum) : null;
       var rawLessons = (weekData && weekData.lessons) ? weekData.lessons : [];
 
-      // Mở rộng bài học theo từng đơn vị tiết (bài 1 tiết hoặc bài 2 tiết)
-      var expandedLessonUnits = [];
-      rawLessons.forEach(function(rLes, rIdx) {
-        var title = (rLes.lessonTitle || rLes.title || '').toLowerCase();
-        var isDouble = title.includes('tiết 1 - 2') || title.includes('tiết 1-2') || title.includes('tiết 1, 2') || title.includes('2 tiết') || (rLes.period && rLes.period.includes('2 tiết'));
-
-        if (isDouble) {
-          expandedLessonUnits.push({ lesson: rLes, rawIndex: rIdx, isDouble: true, part: 1 });
-          expandedLessonUnits.push({ lesson: rLes, rawIndex: rIdx, isDouble: true, part: 2 });
-        } else {
-          expandedLessonUnits.push({ lesson: rLes, rawIndex: rIdx, isDouble: false, part: 1 });
-        }
-      });
+      // Mở rộng bài học theo từng đơn vị tiết chuẩn
+      var expandedLessonUnits = this.unpackWeeklyLessons(rawLessons, sKey, wNum, g);
 
       var unitIdx = 0;
       for (var i = 0; i < sSlots.length; i++) {
@@ -814,13 +884,28 @@ var IntegrationService = {
           var matchIntegS = integratedMap ? integratedMap[sKey + '_' + wNum + '_' + curUnit.rawIndex] : null;
           singleLesson = matchIntegS ? IntegrationService.injectIntegrationIntoLesson(baseLessonS, matchIntegS, shouldClean) : (shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(baseLessonS) : JSON.parse(JSON.stringify(baseLessonS)));
         } else {
+          var dispName = IntegrationService.getSubjectDisplayName(sKey);
           singleLesson = {
-            title: IntegrationService.getSubjectDisplayName(sKey) + ' - Tiết ' + (unitIdx + 1),
-            lessonTitle: IntegrationService.getSubjectDisplayName(sKey) + ' - Tiết ' + (unitIdx + 1),
+            title: dispName + ' - Luyện tập / Vận dụng (Tiết ' + (unitIdx + 1) + ')',
+            lessonTitle: dispName + ' - Luyện tập / Vận dụng (Tiết ' + (unitIdx + 1) + ')',
             period: 'Tiết ' + curSlotEntry.slot.periodSlot,
-            yccd: ['1. Năng lực đặc thù: Thực hiện theo chuẩn chương trình môn ' + IntegrationService.getSubjectDisplayName(sKey) + '.', '2. Phẩm chất: Chăm chỉ, trách nhiệm.'],
-            dodung: ['1. Giáo viên: SGK, máy tính, bài giảng điện tử.', '2. Học sinh: SGK, vở bài tập.'],
-            tables: [[['Hoạt động của giáo viên: Tiến hành bài dạy theo SGK.', 'Hoạt động của học sinh: Lắng nghe, thực hành, trao đổi.']]]
+            yccd: [
+              '1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn ' + dispName + ' theo yêu cầu cần đạt của chương trình.',
+              '2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.',
+              '3. Phẩm chất: Chăm chỉ, trách nhiệm, tích cực hoàn thành nhiệm vụ.'
+            ],
+            dodung: [
+              '1. Giáo viên: SGK, máy tính, ti vi / bài giảng điện tử, phiếu học tập rèn luyện.',
+              '2. Học sinh: SGK, vở bài tập, bảng con, đồ dùng học tập cá nhân.'
+            ],
+            tables: [[
+              ['* Khởi động (3 - 5 phút): Tạo tâm thế hào hứng và kết nối kiến thức bài học.'],
+              ['GV tổ chức trò chơi kết nối, khơi gợi nội dung bài học.', 'HS tham gia trò chơi sôi nổi, hào hứng vào bài.'],
+              ['* Luyện tập, thực hành (20 - 25 phút): Củng cố kiến thức và rèn luyện kĩ năng.'],
+              ['GV giao nhiệm vụ bài tập phù hợp đối tượng HS, hướng dẫn và hỗ trợ kịp thời.', 'HS làm bài cá nhân/nhóm đôi, tự tin trình bày và đổi vở kiểm tra chéo.'],
+              ['* Vận dụng (3 - 5 phút): Ghi nhớ và vận dụng vào thực tế.'],
+              ['GV nhận xét, tuyên dương và dặn dò HS thực hành vận dụng sau tiết học.', 'HS lắng nghe, ghi nhớ và thực hiện theo hướng dẫn.']
+            ]]
           };
         }
 
@@ -1387,6 +1472,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var schoolYear = meta.schoolYear || '2026 - 2027';
     var className = meta.className || '';
     var grade = meta.grade || 5;
+    var isTimetableDoc = !!meta.isTimetableDoc;
 
     var docHtml = `
       <html xmlns:o="urn:schemas-microsoft-com:office:office" 
@@ -1425,7 +1511,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           }
           .title-box {
             text-align: center;
-            margin-bottom: 15pt;
+            margin-bottom: 14pt;
           }
           .title-box h2 {
             font-size: 14pt;
@@ -1469,24 +1555,44 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       docHtml += meta.tkbCoverHtml;
     }
 
+    var isHeaderRow = function(r) {
+      if (!Array.isArray(r) || r.length < 2) return false;
+      var c0 = (r[0] || '').toLowerCase().trim();
+      var c1 = (r[1] || '').toLowerCase().trim();
+      return (c0.includes('giáo viên') || c0.includes('gv') || c0.includes('dạy học') || c0.includes('thầy')) &&
+             (c1.includes('học sinh') || c1.includes('hs') || c1.includes('trò') || c1.includes('luyện tập'));
+    };
+
     lessons.forEach(function(les, lIdx) {
       if (lIdx > 0 || meta.tkbCoverHtml) {
         docHtml += '<div class="page-break"></div>';
       }
 
-      var daySessionInfo = les.dayName ? ('<p style="font-weight: bold; color: #1e40af; margin-bottom: 4pt;">' + les.dayName + ' • Buổi ' + les.session + ' • ' + (les.periodSlot ? ('Tiết ' + les.periodSlot) : '') + '</p>') : '';
+      var daySessionInfo = les.dayName ? ('<p style="font-weight: bold; color: #1e40af; font-size: 12pt; margin-bottom: 4pt;">' + les.dayName + ' • Buổi ' + les.session + ' • ' + (les.periodSlot ? ('Tiết ' + les.periodSlot) : '') + '</p>') : '';
+
+      var isDouble = (les.periodSlot && les.periodSlot.toString().includes('-')) || (les.period && (les.period.toLowerCase().includes('2 tiết') || les.period.toLowerCase().includes('tiết đôi')));
+      var durationDefault = isDouble ? '70 phút' : '35 phút';
 
       var yccdContent = (les.yccd || []).map(function(line) {
-        var isTichHop = typeof line === 'string' && line.indexOf('[Tích hợp') !== -1;
-        if (isTichHop) {
-          return '<p style="margin: 3pt 0; background-color: #fdf2f8; color: #9d174d;"><b>' + line + '</b></p>';
+        if (typeof line !== 'string') return '';
+        var cleanLine = line;
+        if (/^thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]*(?:\(.*\))?$/i.test(line)) {
+          cleanLine = 'Thời gian thực hiện: ' + durationDefault;
+        } else if (/^thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]+/i.test(line)) {
+          cleanLine = line.replace(/:\s*[.\s_]+/, ': ' + durationDefault + ' ');
         }
-        return '<p style="margin: 3pt 0;">' + line + '</p>';
+
+        var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1;
+        if (isTichHop) {
+          return '<p style="margin: 3pt 0; background-color: #fdf2f8; color: #9d174d;"><b>' + cleanLine + '</b></p>';
+        }
+        return '<p style="margin: 3pt 0;">' + cleanLine + '</p>';
       }).join('');
 
       var dodungList = les.dodung || les.teachingAids || [];
       var dodungContent = dodungList.map(function(line) {
-        var isTichHop = typeof line === 'string' && line.indexOf('[Tích hợp') !== -1;
+        if (typeof line !== 'string') return '';
+        var isTichHop = line.indexOf('[Tích hợp') !== -1;
         if (isTichHop) {
           return '<p style="margin: 3pt 0; background-color: #eff6ff; color: #1e40af;"><b>' + line + '</b></p>';
         }
@@ -1496,48 +1602,54 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var actTablesHtml = '';
       if (les.tables && les.tables.length > 0) {
         les.tables.forEach(function(tableRows) {
-          var rowsHtml = (tableRows || []).map(function(r) {
-            if (Array.isArray(r)) {
-              if (r.length >= 2) {
-                var gvCol = (r[0] || '').replace(/\n/g, '<br/>');
-                var hsCol = (r[1] || '').replace(/\n/g, '<br/>');
-                var isTichHop = gvCol.indexOf('[Tích hợp') !== -1 || hsCol.indexOf('[Tích hợp') !== -1;
-                var rowBg = isTichHop ? 'background-color: #f5f3ff;' : '';
-                return `
-                  <tr style="${rowBg}">
-                    <td style="width: 50%; vertical-align: top; padding: 6pt; border: 1pt solid #000;">
-                      <div>${gvCol}</div>
-                    </td>
-                    <td style="width: 50%; vertical-align: top; padding: 6pt; border: 1pt solid #000;">
-                      <div>${hsCol}</div>
-                    </td>
-                  </tr>
-                `;
-              } else if (r.length === 1) {
-                return `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold;">${r[0]}</td></tr>`;
-              }
-            }
-            return '';
-          }).join('');
+          if (!tableRows || tableRows.length === 0) return;
+          var rowsHtml = '';
+          for (var rIdx = 0; rIdx < tableRows.length; rIdx++) {
+            var r = tableRows[rIdx];
+            if (!Array.isArray(r)) continue;
+            if (rIdx === 0 && isHeaderRow(r)) continue;
 
-          actTablesHtml += `
-            <table class="table-activity">
-              <thead>
-                <tr>
-                  <th style="width: 50%;">Hoạt động của giáo viên</th>
-                  <th style="width: 50%;">Hoạt động của học sinh</th>
+            if (r.length >= 2) {
+              var gvCol = (r[0] || '').replace(/\n/g, '<br/>');
+              var hsCol = (r[1] || '').replace(/\n/g, '<br/>');
+              var isTichHop = gvCol.indexOf('[Tích hợp') !== -1 || hsCol.indexOf('[Tích hợp') !== -1;
+              var rowBg = isTichHop ? 'background-color: #f5f3ff;' : '';
+              rowsHtml += `
+                <tr style="${rowBg}">
+                  <td style="width: 50%; vertical-align: top; padding: 6pt; border: 1pt solid #000;">
+                    <div>${gvCol}</div>
+                  </td>
+                  <td style="width: 50%; vertical-align: top; padding: 6pt; border: 1pt solid #000;">
+                    <div>${hsCol}</div>
+                  </td>
                 </tr>
-              </thead>
-              <tbody>
-                ${rowsHtml}
-              </tbody>
-            </table>
-          `;
+              `;
+            } else if (r.length === 1) {
+              rowsHtml += `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold;">${(r[0] || '').replace(/\n/g, '<br/>')}</td></tr>`;
+            }
+          }
+
+          if (rowsHtml) {
+            actTablesHtml += `
+              <table class="table-activity">
+                <thead>
+                  <tr>
+                    <th style="width: 50%;">Hoạt động của giáo viên</th>
+                    <th style="width: 50%;">Hoạt động của học sinh</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${rowsHtml}
+                </tbody>
+              </table>
+            `;
+          }
         });
       }
 
-      docHtml += `
-        <div class="title-box">
+      var headerBlock = '';
+      if (!isTimetableDoc && lIdx === 0) {
+        headerBlock = `
           <table class="header-table">
             <tr>
               <td style="width: 50%;">
@@ -1550,11 +1662,16 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               </td>
             </tr>
           </table>
+        `;
+      }
 
+      docHtml += `
+        <div class="title-box">
+          ${headerBlock}
           ${daySessionInfo}
           <h2>KẾ HOẠCH BÀI DẠY</h2>
           <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: ${(les.subjectName || les.subjectKey || 'MÔN HỌC').toUpperCase()}</p>
-          <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt;">${les.lessonTitle || les.title || 'BÀI DẠY'}</p>
+          <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt; color: #1e3a8a;">${les.lessonTitle || les.title || 'BÀI DẠY'}</p>
           ${les.period ? ('<p style="font-style: italic; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
         </div>
 

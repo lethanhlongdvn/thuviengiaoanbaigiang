@@ -4630,67 +4630,92 @@ async function triggerExportAllTimetableWeeksWord() {
 }
 
 function renderIntegratedLessonSheetContent(les) {
-  if (!les || !les.title) {
+  if (!les || (!les.title && !les.lessonTitle)) {
     return '<div style="text-align: center; padding: 2rem;">Chưa có dữ liệu bài dạy.</div>';
   }
 
+  var isDouble = (les.periodSlot && les.periodSlot.toString().includes('-')) || (les.period && (les.period.toLowerCase().includes('2 tiết') || les.period.toLowerCase().includes('tiết đôi')));
+  var durationDefault = isDouble ? '70 phút' : '35 phút';
+
   var yccdHtml = (les.yccd || []).map(function(line) {
-    var isTichHop = typeof line === 'string' && line.indexOf('[Tích hợp') !== -1;
-    if (isTichHop) {
-      return `<p style="margin: 4pt 0; background: #fdf2f8; color: #9d174d; padding: 4pt 8pt; border-left: 3px solid #db2777; border-radius: 2px;"><strong>${line}</strong></p>`;
+    if (typeof line !== 'string') return '';
+    var cleanLine = line;
+    if (/^thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]*(?:\(.*\))?$/i.test(line)) {
+      cleanLine = 'Thời gian thực hiện: ' + durationDefault;
+    } else if (/^thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]+/i.test(line)) {
+      cleanLine = line.replace(/:\s*[.\s_]+/, ': ' + durationDefault + ' ');
     }
-    return `<p style="margin: 3pt 0;">${line}</p>`;
+
+    var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1;
+    if (isTichHop) {
+      return `<p style="margin: 4pt 0; background: #fdf2f8; color: #9d174d; padding: 4pt 8pt; border-left: 3px solid #db2777; border-radius: 2px;"><strong>${cleanLine}</strong></p>`;
+    }
+    return `<p style="margin: 3pt 0;">${cleanLine}</p>`;
   }).join('');
 
   var dodungList = les.dodung || les.teachingAids || [];
   var dodungHtml = dodungList.map(function(line) {
-    var isTichHop = typeof line === 'string' && line.indexOf('[Tích hợp') !== -1;
+    if (typeof line !== 'string') return '';
+    var isTichHop = line.indexOf('[Tích hợp') !== -1;
     if (isTichHop) {
       return `<p style="margin: 4pt 0; background: #eff6ff; color: #1e40af; padding: 4pt 8pt; border-left: 3px solid #3b82f6; border-radius: 2px;"><strong>${line}</strong></p>`;
     }
     return `<p style="margin: 3pt 0;">${line}</p>`;
   }).join('');
 
+  var isHeaderRow = function(r) {
+    if (!Array.isArray(r) || r.length < 2) return false;
+    var c0 = (r[0] || '').toLowerCase().trim();
+    var c1 = (r[1] || '').toLowerCase().trim();
+    return (c0.includes('giáo viên') || c0.includes('gv') || c0.includes('dạy học') || c0.includes('thầy')) &&
+           (c1.includes('học sinh') || c1.includes('hs') || c1.includes('trò') || c1.includes('luyện tập'));
+  };
+
   var tablesHtml = '';
   if (les.tables && les.tables.length > 0) {
     les.tables.forEach(function(tableRows) {
-      var rowsHtml = (tableRows || []).map(function(r) {
-        if (Array.isArray(r)) {
-          if (r.length >= 2) {
-            var gvCol = (r[0] || '').replace(/\n/g, '<br/>');
-            var hsCol = (r[1] || '').replace(/\n/g, '<br/>');
-            var isTichHop = gvCol.indexOf('[Tích hợp') !== -1 || hsCol.indexOf('[Tích hợp') !== -1;
-            return `
-              <tr style="${isTichHop ? 'background: #fdf4ff;' : ''}">
-                <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1;">
-                  ${isTichHop ? '<div style="display: inline-block; background: #db2777; color: white; font-size: 9pt; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px;">NỘI DUNG TÍCH HỢP MỚI</div>' : ''}
-                  <div>${gvCol}</div>
-                </td>
-                <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1;">
-                  <div>${hsCol}</div>
-                </td>
-              </tr>
-            `;
-          } else if (r.length === 1) {
-            return `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;">${r[0]}</td></tr>`;
-          }
-        }
-        return '';
-      }).join('');
+      if (!tableRows || tableRows.length === 0) return;
+      var rowsHtml = '';
+      for (var rIdx = 0; rIdx < tableRows.length; rIdx++) {
+        var r = tableRows[rIdx];
+        if (!Array.isArray(r)) continue;
+        if (rIdx === 0 && isHeaderRow(r)) continue;
 
-      tablesHtml += `
-        <table style="width: 100%; border-collapse: collapse; margin-top: 8pt; margin-bottom: 12pt;">
-          <thead>
-            <tr style="background: #f1f5f9;">
-              <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của giáo viên</th>
-              <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của học sinh</th>
+        if (r.length >= 2) {
+          var gvCol = (r[0] || '').replace(/\n/g, '<br/>');
+          var hsCol = (r[1] || '').replace(/\n/g, '<br/>');
+          var isTichHop = gvCol.indexOf('[Tích hợp') !== -1 || hsCol.indexOf('[Tích hợp') !== -1;
+          rowsHtml += `
+            <tr style="${isTichHop ? 'background: #fdf4ff;' : ''}">
+              <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1;">
+                ${isTichHop ? '<div style="display: inline-block; background: #db2777; color: white; font-size: 9pt; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px;">NỘI DUNG TÍCH HỢP MỚI</div>' : ''}
+                <div>${gvCol}</div>
+              </td>
+              <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1;">
+                <div>${hsCol}</div>
+              </td>
             </tr>
-          </thead>
-          <tbody>
-            ${rowsHtml}
-          </tbody>
-        </table>
-      `;
+          `;
+        } else if (r.length === 1) {
+          rowsHtml += `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;">${(r[0] || '').replace(/\n/g, '<br/>')}</td></tr>`;
+        }
+      }
+
+      if (rowsHtml) {
+        tablesHtml += `
+          <table style="width: 100%; border-collapse: collapse; margin-top: 8pt; margin-bottom: 12pt;">
+            <thead>
+              <tr style="background: #f1f5f9;">
+                <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của giáo viên</th>
+                <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của học sinh</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${rowsHtml}
+            </tbody>
+          </table>
+        `;
+      }
     });
   }
 
@@ -4713,8 +4738,8 @@ function renderIntegratedLessonSheetContent(les) {
 
       ${daySessionInfo}
       <h2 style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase;">KẾ HOẠCH BÀI DẠY</h2>
-      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0;">MÔN: ${(les.subjectName || integrationState.subjectKey).toUpperCase()}</p>
-      <p style="font-size: 14pt; font-weight: bold; color: #db2777; margin: 4pt 0 0 0;">${les.lessonTitle || les.title}</p>
+      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0;">MÔN: ${(les.subjectName || (integrationState.subjectKey ? IntegrationService.getSubjectDisplayName(integrationState.subjectKey) : '') || 'MÔN HỌC').toUpperCase()}</p>
+      <p style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0;">${les.lessonTitle || les.title || 'BÀI DẠY'}</p>
       ${les.period ? ('<p style="font-style: italic; margin: 2pt 0 0 0;">(' + les.period + ')</p>') : ''}
     </div>
 
