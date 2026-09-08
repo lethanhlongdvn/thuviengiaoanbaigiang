@@ -17,6 +17,10 @@ var integrationState = {
   durationWeeks: 1,
   startWeek: 1,
   endWeek: 1,
+  schoolName: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_school_name') : '') || 'TRƯỜNG TIỂU HỌC .................................',
+  teacherName: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_teacher_name') : '') || 'Lê Thành Long',
+  schoolYear: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_school_year') : '') || '2026 - 2027',
+  className: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_class_name') : '') || '',
   inputMethod: 'upload', // 'upload' | 'paste'
   uploadedDocName: '',
   uploadedDocType: '',
@@ -3283,6 +3287,34 @@ function renderAiIntegrationView(container) {
           </div>
         ` : ''}
 
+        <!-- THÔNG TIN GIÁO VIÊN & NĂM HỌC HIỂN THỊ TRÊN KHBD -->
+        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 0.75rem; margin-bottom: 0.85rem;">
+          <div style="font-size: 0.78rem; font-weight: 800; color: #1e293b; margin-bottom: 0.45rem; display: flex; align-items: center; justify-content: space-between;">
+            <span><i class="fa-solid fa-user-pen" style="color: #db2777;"></i> Thông tin Giáo viên & Năm học:</span>
+            <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(Tự động điền từ TKB)</span>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem; margin-bottom: 0.45rem;">
+            <div>
+              <label style="font-size: 0.72rem; color: #475569; font-weight: 700; display: block; margin-bottom: 2px;">Giáo viên:</label>
+              <input type="text" id="integTeacherNameInput" class="form-control" style="font-size: 0.78rem; padding: 0.35rem 0.5rem;" value="${integrationState.teacherName || ''}" placeholder="Họ và tên GV" oninput="onIntegrationTeacherNameChange(this.value)">
+            </div>
+            <div>
+              <label style="font-size: 0.72rem; color: #475569; font-weight: 700; display: block; margin-bottom: 2px;">Năm học:</label>
+              <input type="text" id="integSchoolYearInput" class="form-control" style="font-size: 0.78rem; padding: 0.35rem 0.5rem;" value="${integrationState.schoolYear || '2026 - 2027'}" placeholder="2026 - 2027" oninput="onIntegrationSchoolYearChange(this.value)">
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem;">
+            <div>
+              <label style="font-size: 0.72rem; color: #475569; font-weight: 700; display: block; margin-bottom: 2px;">Lớp / Khối:</label>
+              <input type="text" id="integClassNameInput" class="form-control" style="font-size: 0.78rem; padding: 0.35rem 0.5rem;" value="${integrationState.className || ''}" placeholder="VD: Lớp 2^1 hoặc 5A" oninput="onIntegrationClassNameChange(this.value)">
+            </div>
+            <div>
+              <label style="font-size: 0.72rem; color: #475569; font-weight: 700; display: block; margin-bottom: 2px;">Trường Tiểu học:</label>
+              <input type="text" id="integSchoolNameInput" class="form-control" style="font-size: 0.78rem; padding: 0.35rem 0.5rem;" value="${integrationState.schoolName || ''}" placeholder="Trường Tiểu học..." oninput="onIntegrationSchoolNameChange(this.value)">
+            </div>
+          </div>
+        </div>
+
         <!-- 3. PHẠM VI TUẦN HỌC (TỐI ĐA 4 TUẦN / LẦN ĐỂ XỬ LÝ NHANH) -->
         <div class="form-group" style="margin-bottom: 0.85rem;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
@@ -3708,6 +3740,26 @@ function onIntegrationPasteTextInput(text) {
 // XỬ LÝ THỜI KHÓA BIỂU TÙY CHỈNH & TẢI TỆP
 // ===========================================================================
 
+function onIntegrationTeacherNameChange(val) {
+  integrationState.teacherName = val;
+  try { localStorage.setItem('tvth_teacher_name', val); } catch(e){}
+}
+
+function onIntegrationSchoolYearChange(val) {
+  integrationState.schoolYear = val;
+  try { localStorage.setItem('tvth_school_year', val); } catch(e){}
+}
+
+function onIntegrationSchoolNameChange(val) {
+  integrationState.schoolName = val;
+  try { localStorage.setItem('tvth_school_name', val); } catch(e){}
+}
+
+function onIntegrationClassNameChange(val) {
+  integrationState.className = val;
+  try { localStorage.setItem('tvth_class_name', val); } catch(e){}
+}
+
 function openTimetableEditorModal() {
   var modal = document.getElementById('integTkbModal');
   var body = document.getElementById('integTkbModalBody');
@@ -3734,6 +3786,31 @@ function openTimetableEditorModal() {
   ];
 
   var html = `
+    <!-- KHUNG THÔNG TIN GIÁO VIÊN & NĂM HỌC TRONG MODAL -->
+    <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 6px; padding: 0.75rem; margin-bottom: 0.85rem;">
+      <div style="font-size: 0.8rem; font-weight: 800; color: #1e293b; margin-bottom: 0.4rem;">
+        <i class="fa-solid fa-user-pen" style="color: #db2777;"></i> Thông tin Giáo viên & Năm học xuất trên KHBD:
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; gap: 0.45rem;">
+        <div>
+          <label style="font-size: 0.72rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Giáo viên:</label>
+          <input type="text" id="modalTeacherNameInput" class="form-control" style="font-size: 0.78rem; padding: 3px 6px;" value="${integrationState.teacherName || ''}" placeholder="Họ và tên GV">
+        </div>
+        <div>
+          <label style="font-size: 0.72rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Năm học:</label>
+          <input type="text" id="modalSchoolYearInput" class="form-control" style="font-size: 0.78rem; padding: 3px 6px;" value="${integrationState.schoolYear || '2026 - 2027'}" placeholder="2026 - 2027">
+        </div>
+        <div>
+          <label style="font-size: 0.72rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Lớp / Khối:</label>
+          <input type="text" id="modalClassNameInput" class="form-control" style="font-size: 0.78rem; padding: 3px 6px;" value="${integrationState.className || ''}" placeholder="VD: Lớp 2^1">
+        </div>
+        <div>
+          <label style="font-size: 0.72rem; font-weight: 700; color: #475569; display: block; margin-bottom: 2px;">Trường Tiểu học:</label>
+          <input type="text" id="modalSchoolNameInput" class="form-control" style="font-size: 0.78rem; padding: 3px 6px;" value="${integrationState.schoolName || ''}" placeholder="Trường Tiểu học...">
+        </div>
+      </div>
+    </div>
+
     <p style="font-size: 0.82rem; color: #64748b; margin-top: 0; margin-bottom: 0.85rem;">
       Tùy chỉnh các môn học cho từng buổi Sáng và Chiều từ Thứ Hai đến Thứ Sáu. Hệ thống sẽ căn cứ vào đây để sắp xếp toàn bộ bài dạy trong tuần.
     </p>
@@ -3834,6 +3911,28 @@ function saveCustomTimetableFromModal() {
     }
   }
 
+  // Lưu thông tin Giáo viên, Năm học từ modal
+  var mTeacher = document.getElementById('modalTeacherNameInput');
+  if (mTeacher) {
+    integrationState.teacherName = mTeacher.value.trim();
+    try { localStorage.setItem('tvth_teacher_name', integrationState.teacherName); } catch(e){}
+  }
+  var mYear = document.getElementById('modalSchoolYearInput');
+  if (mYear) {
+    integrationState.schoolYear = mYear.value.trim();
+    try { localStorage.setItem('tvth_school_year', integrationState.schoolYear); } catch(e){}
+  }
+  var mClass = document.getElementById('modalClassNameInput');
+  if (mClass) {
+    integrationState.className = mClass.value.trim();
+    try { localStorage.setItem('tvth_class_name', integrationState.className); } catch(e){}
+  }
+  var mSchool = document.getElementById('modalSchoolNameInput');
+  if (mSchool) {
+    integrationState.schoolName = mSchool.value.trim();
+    try { localStorage.setItem('tvth_school_name', integrationState.schoolName); } catch(e){}
+  }
+
   integrationState.customTimetable = days;
   integrationState.customTimetableName = 'TKB Tùy chỉnh của Giáo viên';
   closeTimetableEditorModal();
@@ -3842,7 +3941,7 @@ function saveCustomTimetableFromModal() {
   if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
     renderAiIntegrationView(container);
   }
-  showToast('Đã lưu Thời khóa biểu tùy chỉnh!', 'success');
+  showToast('Đã lưu Thời khóa biểu và thông tin Giáo viên!', 'success');
 }
 
 function resetTimetableToDefault() {
@@ -3871,12 +3970,40 @@ async function handleTimetableFileUpload(input) {
       integrationState.customTimetable = result.timetable;
       integrationState.customTimetableName = file.name;
 
+      if (result.metadata) {
+        if (result.metadata.teacherName) {
+          integrationState.teacherName = result.metadata.teacherName;
+          try { localStorage.setItem('tvth_teacher_name', result.metadata.teacherName); } catch(e){}
+        }
+        if (result.metadata.schoolYear) {
+          integrationState.schoolYear = result.metadata.schoolYear;
+          try { localStorage.setItem('tvth_school_year', result.metadata.schoolYear); } catch(e){}
+        }
+        if (result.metadata.schoolName) {
+          integrationState.schoolName = result.metadata.schoolName;
+          try { localStorage.setItem('tvth_school_name', result.metadata.schoolName); } catch(e){}
+        }
+        if (result.metadata.className) {
+          integrationState.className = result.metadata.className;
+          try { localStorage.setItem('tvth_class_name', result.metadata.className); } catch(e){}
+        }
+        if (result.metadata.grade && result.metadata.grade >= 1 && result.metadata.grade <= 5) {
+          integrationState.grade = result.metadata.grade;
+        }
+      }
+
       var container = document.getElementById('content-container');
       if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
         renderAiIntegrationView(container);
       }
 
-      showToast('Đã nhận diện thành công Thời khóa biểu từ "' + file.name + '" (' + result.fileType + ')! Hãy kiểm tra lại bảng TKB.', 'success');
+      var infoSummary = [];
+      if (integrationState.teacherName) infoSummary.push('GV: ' + integrationState.teacherName);
+      if (integrationState.schoolYear) infoSummary.push('NH: ' + integrationState.schoolYear);
+      if (integrationState.className) infoSummary.push(integrationState.className);
+
+      var summaryText = infoSummary.length > 0 ? (' (' + infoSummary.join(', ') + ')') : '';
+      showToast('Đã nhận diện thành công Thời khóa biểu từ "' + file.name + '"' + summaryText + '! Hãy kiểm tra lại bảng TKB.', 'success');
       
       // Tự động mở bảng TKB để giáo viên xem lại và xác nhận
       setTimeout(function() {
@@ -3925,6 +4052,10 @@ async function triggerDirectFastExport() {
         IntegrationService.exportWeekByTimetableWord(weeklyPlan, {
           grade: grade,
           week: w,
+          schoolName: integrationState.schoolName,
+          teacherName: integrationState.teacherName,
+          schoolYear: integrationState.schoolYear,
+          className: integrationState.className,
           filename: 'KHBD_Tuan_' + w + '_Lop_' + grade + '_Theo_TKB.doc'
         });
 
@@ -3951,6 +4082,10 @@ async function triggerDirectFastExport() {
         subjectName: IntegrationService.getSubjectDisplayName(subj),
         startWeek: sWeek,
         endWeek: eWeek,
+        schoolName: integrationState.schoolName,
+        teacherName: integrationState.teacherName,
+        schoolYear: integrationState.schoolYear,
+        className: integrationState.className,
         filename: 'KHBD_Lop' + grade + '_' + subj.toUpperCase() + '_Tuan' + sWeek + '-' + eWeek + '_CV2345.doc'
       });
       showToast('Đã xuất thành công file Word KHBD môn ' + IntegrationService.getSubjectDisplayName(subj) + ' (Tuần ' + sWeek + ' - ' + eWeek + ')!', 'success');
@@ -4481,6 +4616,10 @@ async function triggerExportAllTimetableWeeksWord() {
     IntegrationService.exportWeekByTimetableWord(wData, {
       grade: wData.grade,
       week: wData.week,
+      schoolName: integrationState.schoolName,
+      teacherName: integrationState.teacherName,
+      schoolYear: integrationState.schoolYear,
+      className: integrationState.className,
       filename: filename
     });
     if (i < weeks.length - 1) {
@@ -4562,12 +4701,12 @@ function renderIntegratedLessonSheetContent(les) {
       <table style="width: 100%; border-collapse: collapse; margin-bottom: 10pt;">
         <tr>
           <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
-            <p style="margin:0;"><strong>TRƯỜNG TIỂU HỌC .................................</strong></p>
-            <p style="margin:2pt 0 0 0;">Giáo viên: <strong>Lê Thành Long</strong></p>
+            <p style="margin:0;"><strong>${integrationState.schoolName || 'TRƯỜNG TIỂU HỌC .................................'}</strong></p>
+            <p style="margin:2pt 0 0 0;">Giáo viên: <strong>${integrationState.teacherName || 'Lê Thành Long'}</strong></p>
           </td>
           <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
-            <p style="margin:0;"><strong>NĂM HỌC: 2025 - 2026</strong></p>
-            <p style="margin:2pt 0 0 0;">Khối ${les.grade || integrationState.grade} - Tuần: <strong>${les.week || 1}</strong></p>
+            <p style="margin:0;"><strong>NĂM HỌC: ${integrationState.schoolYear || '2026 - 2027'}</strong></p>
+            <p style="margin:2pt 0 0 0;">${integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Khối ' + (les.grade || integrationState.grade) + ' • ')}Tuần: <strong>${les.week || 1}</strong></p>
           </td>
         </tr>
       </table>

@@ -104,6 +104,52 @@ var IntegrationService = {
     return text;
   },
 
+  /**
+   * Trích xuất thông tin Giáo viên, Năm học, Khối lớp, Trường từ văn bản tiêu đề TKB
+   */
+  extractMetadataFromText: function(text) {
+    var meta = {};
+    if (!text || typeof text !== 'string') return meta;
+
+    // 1. Năm học (vd: NĂM HỌC 2026 – 2027, Năm học: 2026-2027)
+    var yMatch = text.match(/(?:NĂM\s*HỌC|NH)\s*[:：\-–]?\s*([0-9]{4}\s*[-–/]\s*[0-9]{4})/i);
+    if (yMatch) {
+      meta.schoolYear = yMatch[1].replace(/[–/]/g, '-').replace(/\s*-\s*/g, ' - ').trim();
+    }
+
+    // 2. Giáo viên / GVCN (vd: GVCN: NGUYỄN VĂN TRUNG, Giáo viên: Lê Thành Long)
+    var tMatch = text.match(/(?:GVCN|GIÁO\s*VIÊN\s*(?:CHỦ\s*NHIỆM)?|GIÁO\s*VIÊN|GV)\s*[:：\-–]\s*([^\(\[\{\n\r,]+)/i);
+    if (tMatch) {
+      var rawName = tMatch[1].trim().replace(/^[:：\-–\s]+/, '').replace(/^(Thầy|Cô)\s+/i, '').trim();
+      rawName = rawName.split(/\s+(?:dạy|áp\s+dụng|từ\s+ngày|sđt|đt)\b/i)[0].trim();
+      if (rawName.length >= 2 && rawName.length <= 50) {
+        meta.teacherName = rawName;
+      }
+    }
+
+    // 3. Khối & Lớp (vd: LỚP 2^1, LỚP 2/1, LỚP 5A, Khối 2)
+    var cMatch = text.match(/(?:THỜI\s*KHÓA\s*BIỂU\s+)?(?:LỚP|KHỐI)\s*[:：\-–]?\s*([1-5])(?:\s*([\^/_\-\.]?\s*[0-9A-Za-z]{1,4}))?(?=\s*[\n\r,;\-–]|\s+năm\b|\s+nh\b|\s+học\b|$)/i);
+    if (cMatch) {
+      meta.grade = parseInt(cMatch[1]);
+      if (cMatch[2]) {
+        var suffix = cMatch[2].trim();
+        meta.className = 'Lớp ' + cMatch[1] + (suffix.startsWith('^') || suffix.startsWith('/') ? '' : (suffix.match(/^[A-Za-z0-9]/) ? (suffix.length === 1 && suffix.match(/[0-9]/) ? '^' : ' ') : '')) + suffix;
+      } else {
+        meta.className = 'Khối ' + cMatch[1];
+      }
+    }
+
+    // 4. Trường học (vd: TRƯỜNG TIỂU HỌC KIM ĐỒNG)
+    var sMatch = text.match(/(?:TRƯỜNG\s*TIỂU\s*HỌC|TRƯỜNG\s*TH)\s*[:：\-–]?\s*([A-ZÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝĐa-zàáâãèéêìíòóôõùúýđ0-9\s\.\-–]+?)(?=\s*[\n\r,;]|$)/i);
+    if (sMatch) {
+      var rawSchool = sMatch[1].trim().replace(/^[:：\-–\s]+/, '');
+      if (rawSchool.length >= 2 && rawSchool.length <= 60) {
+        meta.schoolName = ('TRƯỜNG TIỂU HỌC ' + rawSchool.replace(/^tiểu\s*học\s+/i, '')).toUpperCase();
+      }
+    }
+
+    return meta;
+  },
 
   // =========================================================================
   // 2. BỘ PHÂN TÍCH THỜI KHÓA BIỂU ĐA ĐỊNH DẠNG (EXCEL, WORD, CSV, TXT)
@@ -134,13 +180,17 @@ var IntegrationService = {
             var worksheet = workbook.Sheets[firstSheetName];
             var rows = XLSX.utils.sheet_to_json(worksheet, { header: 1, defval: '' });
 
-            var parsed = IntegrationService.parseTimetableFromGrid(rows, curGrade);
+            var topText = rows.slice(0, 10).map(function(r) { return Array.isArray(r) ? r.join(' ') : String(r || ''); }).join('\n');
+            var fileMeta = IntegrationService.extractMetadataFromText(topText);
+            var targetGrade = fileMeta.grade || curGrade;
+            var parsed = IntegrationService.parseTimetableFromGrid(rows, targetGrade);
             resolve({
               success: true,
               fileName: fileName,
               fileType: 'Excel (' + ext.toUpperCase() + ')',
               timetable: parsed.timetable,
-              slotsCount: parsed.slotsCount
+              slotsCount: parsed.slotsCount,
+              metadata: fileMeta
             });
           } catch (err) {
             reject(new Error('Lỗi khi đọc bảng tính Excel: ' + err.message));
@@ -160,31 +210,38 @@ var IntegrationService = {
         }
         var reader = new FileReader();
         reader.onload = function(e) {
-          mammoth.convertToHtml({ arrayBuffer: e.target.result })
-            .then(function(result) {
-              var html = result.value || '';
+          var htmlPromise = mammoth.convertToHtml({ arrayBuffer: e.target.result });
+          var rawTextPromise = mammoth.extractRawText({ arrayBuffer: e.target.result });
+
+          Promise.all([htmlPromise, rawTextPromise])
+            .then(function(results) {
+              var htmlResult = results[0];
+              var textResult = results[1];
+              var html = htmlResult.value || '';
+              var rawText = textResult.value || '';
+              var fileMeta = IntegrationService.extractMetadataFromText(rawText || html);
+              var targetGrade = fileMeta.grade || curGrade;
+
               var grid = IntegrationService.extractGridFromHtmlTable(html);
               if (grid.length > 0) {
-                var parsed = IntegrationService.parseTimetableFromGrid(grid, curGrade);
+                var parsed = IntegrationService.parseTimetableFromGrid(grid, targetGrade);
                 resolve({
                   success: true,
                   fileName: fileName,
                   fileType: 'Word (DOCX)',
                   timetable: parsed.timetable,
-                  slotsCount: parsed.slotsCount
+                  slotsCount: parsed.slotsCount,
+                  metadata: fileMeta
                 });
               } else {
-                // Fallback: parse raw text lines
-                return mammoth.extractRawText({ arrayBuffer: e.target.result }).then(function(textRes) {
-                  var rawText = textRes.value || '';
-                  var parsed = IntegrationService.parseTimetableFromText(rawText, curGrade);
-                  resolve({
-                    success: true,
-                    fileName: fileName,
-                    fileType: 'Word (DOCX Text)',
-                    timetable: parsed.timetable,
-                    slotsCount: parsed.slotsCount
-                  });
+                var parsed = IntegrationService.parseTimetableFromText(rawText, targetGrade);
+                resolve({
+                  success: true,
+                  fileName: fileName,
+                  fileType: 'Word (DOCX Text)',
+                  timetable: parsed.timetable,
+                  slotsCount: parsed.slotsCount,
+                  metadata: fileMeta
                 });
               }
             })
@@ -201,6 +258,8 @@ var IntegrationService = {
     if (ext === 'csv' || ext === 'txt' || ext === 'json' || ext === 'md') {
       var textObj = await this.extractTextFromFile(file);
       var text = textObj.text || '';
+      var fileMeta = this.extractMetadataFromText(text);
+      var targetGrade = fileMeta.grade || curGrade;
       
       if (ext === 'json') {
         try {
@@ -211,32 +270,37 @@ var IntegrationService = {
               fileName: fileName,
               fileType: 'JSON',
               timetable: jsonData,
-              slotsCount: 35
+              slotsCount: 35,
+              metadata: fileMeta
             };
           }
         } catch (jErr) {}
       }
 
-      var parsed = this.parseTimetableFromText(text, curGrade);
+      var parsed = this.parseTimetableFromText(text, targetGrade);
       return {
         success: true,
         fileName: fileName,
         fileType: ext.toUpperCase(),
         timetable: parsed.timetable,
-        slotsCount: parsed.slotsCount
+        slotsCount: parsed.slotsCount,
+        metadata: fileMeta
       };
     }
 
     // 4. TỆP PDF
     if (ext === 'pdf') {
       var pdfObj = await this.extractTextFromFile(file);
-      var parsed = this.parseTimetableFromText(pdfObj.text || '', curGrade);
+      var fileMeta = this.extractMetadataFromText(pdfObj.text || '');
+      var targetGrade = fileMeta.grade || curGrade;
+      var parsed = this.parseTimetableFromText(pdfObj.text || '', targetGrade);
       return {
         success: true,
         fileName: fileName,
         fileType: 'PDF Document',
         timetable: parsed.timetable,
-        slotsCount: parsed.slotsCount
+        slotsCount: parsed.slotsCount,
+        metadata: fileMeta
       };
     }
 
@@ -1192,6 +1256,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var endWeek = meta.endWeek || startWeek;
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = meta.teacherName || 'Lê Thành Long';
+    var schoolYear = meta.schoolYear || '2026 - 2027';
+    var className = meta.className || '';
 
     var lessons = [];
     if (Array.isArray(lessonsOrWeeks)) {
@@ -1205,9 +1271,11 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     }
 
     var docHtml = this.generateWordHtmlStructure(lessons, {
-      title: 'Kế hoạch bài dạy Khối ' + grade + ' - Môn ' + subjectName + ' (Tuần ' + startWeek + ' - ' + endWeek + ')',
+      title: 'Kế hoạch bài dạy ' + (className || ('Khối ' + grade)) + ' - Môn ' + subjectName + ' (Tuần ' + startWeek + ' - ' + endWeek + ')',
       schoolName: schoolName,
       teacherName: teacherName,
+      schoolYear: schoolYear,
+      className: className,
       grade: grade,
       subjectName: subjectName,
       startWeek: startWeek,
@@ -1229,6 +1297,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var lessons = weeklyPlanResult.lessons || [];
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = meta.teacherName || 'Lê Thành Long';
+    var schoolYear = meta.schoolYear || '2026 - 2027';
+    var className = meta.className || '';
 
     // Xây dựng Bảng Thời Khóa Biểu Tuần định dạng Word
     var tkbTableRows = '';
@@ -1262,8 +1332,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               <p style="margin: 2pt 0 0 0;">Giáo viên: <b>${teacherName}</b></p>
             </td>
             <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
-              <p style="margin: 0;"><b>NĂM HỌC: 2025 - 2026</b></p>
-              <p style="margin: 2pt 0 0 0;">Khối <b>${grade}</b> • <b>TUẦN ${weekNum}</b></p>
+              <p style="margin: 0;"><b>NĂM HỌC: ${schoolYear}</b></p>
+              <p style="margin: 2pt 0 0 0;">${className ? ('<b>' + className + '</b> • ') : ('Khối <b>' + grade + '</b> • ')}<b>TUẦN ${weekNum}</b></p>
             </td>
           </tr>
         </table>
@@ -1296,9 +1366,11 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     `;
 
     var docHtml = this.generateWordHtmlStructure(lessons, {
-      title: 'Kế hoạch bài dạy Tuần ' + weekNum + ' - Khối ' + grade + ' (Theo Thời khóa biểu)',
+      title: 'Kế hoạch bài dạy Tuần ' + weekNum + ' - ' + (className || ('Khối ' + grade)) + ' (Theo Thời khóa biểu)',
       schoolName: schoolName,
       teacherName: teacherName,
+      schoolYear: schoolYear,
+      className: className,
       grade: grade,
       weekNum: weekNum,
       isTimetableDoc: true,
@@ -1312,6 +1384,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   generateWordHtmlStructure: function(lessons, meta) {
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = meta.teacherName || 'Lê Thành Long';
+    var schoolYear = meta.schoolYear || '2026 - 2027';
+    var className = meta.className || '';
     var grade = meta.grade || 5;
 
     var docHtml = `
@@ -1471,8 +1545,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 <p>Giáo viên: <b>${teacherName}</b></p>
               </td>
               <td style="width: 50%; text-align: right;">
-                <p><b>NĂM HỌC: 2025 - 2026</b></p>
-                <p>Khối: <b>${les.grade || grade}</b> - Tuần: <b>${les.week || 1}</b></p>
+                <p><b>NĂM HỌC: ${schoolYear}</b></p>
+                <p>${className ? ('<b>' + className + '</b> • ') : ('Khối: <b>' + (les.grade || grade) + '</b> • ')}Tuần: <b>${les.week || 1}</b></p>
               </td>
             </tr>
           </table>
