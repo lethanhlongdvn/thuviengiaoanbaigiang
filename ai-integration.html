@@ -117,24 +117,111 @@
       }
     }
 
-    .integrated-doc-sheet {
-      background: #ffffff !important;
-      border: 1px solid #cbd5e1 !important;
-      border-radius: var(--radius-md) !important;
-      padding: 2.5rem 3rem !important;
-      box-shadow: 0 4px 25px rgba(0,0,0,0.06) !important;
-      max-height: 820px !important;
-      overflow-y: auto !important;
-    }
-
-    .standalone-footer {
-      background: #ffffff;
-      border-top: 1px solid var(--border-color);
-      padding: 1rem 2rem;
+    /* STYLE CHO KHU VỰC TẢI TÀI LIỆU & GÓP Ý AI */
+    .upload-dropzone {
+      border: 2px dashed #cbd5e1;
+      border-radius: var(--radius-sm);
+      background: #f8fafc;
+      padding: 1.25rem 1rem;
       text-align: center;
-      font-size: 0.82rem;
-      color: var(--text-muted);
-      margin-top: auto;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .upload-dropzone:hover, .upload-dropzone.dragover {
+      border-color: #db2777;
+      background: #fdf2f8;
+    }
+    .upload-tab-btn {
+      flex: 1;
+      padding: 0.45rem 0.5rem;
+      font-size: 0.78rem;
+      font-weight: 700;
+      border: 1px solid #cbd5e1;
+      background: #f8fafc;
+      border-radius: var(--radius-sm);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .upload-tab-btn.active {
+      background: #db2777;
+      color: #ffffff;
+      border-color: #db2777;
+    }
+    .ai-feedback-box {
+      background: linear-gradient(135deg, #fdf2f8 0%, #f3e8ff 100%);
+      border: 1px solid #f0abfc;
+      border-radius: var(--radius-md);
+      padding: 1rem 1.25rem;
+      margin-top: 1rem;
+    }
+    .editable-plan-input {
+      width: 100%;
+      border: 1px solid #cbd5e1;
+      border-radius: 4px;
+      padding: 0.35rem 0.5rem;
+      font-size: 0.8rem;
+      font-family: inherit;
+      background: #ffffff;
+      transition: border 0.2s;
+    }
+    .editable-plan-input:focus {
+      border-color: #db2777;
+      outline: none;
+      box-shadow: 0 0 0 2px rgba(219, 39, 119, 0.15);
+    }
+    .stepper-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 0.75rem 1.5rem;
+      box-shadow: var(--shadow-sm);
+    }
+    .step-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.84rem;
+      font-weight: 700;
+      color: #94a3b8;
+    }
+    .step-item.active {
+      color: #db2777;
+    }
+    .step-item.completed {
+      color: #16a34a;
+    }
+    .step-number {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: #e2e8f0;
+      color: #64748b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 800;
+    }
+    .step-item.active .step-number {
+      background: #db2777;
+      color: #ffffff;
+    }
+    .step-item.completed .step-number {
+      background: #16a34a;
+      color: #ffffff;
+    }
+    .step-line {
+      flex: 1;
+      height: 2px;
+      background: #e2e8f0;
+      margin: 0 1rem;
+    }
+    .step-line.active {
+      background: #16a34a;
     }
   </style>
 </head>
@@ -149,7 +236,7 @@
         </div>
         <div>
           <h1 class="standalone-brand-title">TRỢ LÝ AI TÍCH HỢP GIÁO ÁN TỰ ĐỘNG</h1>
-          <p class="standalone-brand-subtitle">Chuẩn Công văn 2345/BGDĐT-GDTH • Bộ sách Kết nối tri thức với cuộc sống</p>
+          <p class="standalone-brand-subtitle">Nghiên cứu tài liệu mới • Lập kế hoạch tương tác • Chuẩn Công văn 2345/BGDĐT-GDTH</p>
         </div>
       </a>
 
@@ -182,6 +269,10 @@
 
   <!-- Vùng chứa thông báo Toast -->
   <div class="toast-container" id="toast-container"></div>
+
+  <!-- Thư viện Đọc tài liệu phía Trình duyệt (Mammoth & PDF.js) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 
   <!-- Kho Kế Hoạch Bài Dạy (KHBD) Số Hóa Chuẩn 100% CV 2345 - Khối 5 -->
   <script src="js/khbd_sohoa/khbd-registry.js"></script>

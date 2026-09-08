@@ -15,16 +15,26 @@ var integrationState = {
   subjectKey: 'toan',
   durationWeeks: 1, // 1, 2, or 4
   startWeek: 1,
-  topicKey: 'gddp',
-  customTopicTitle: '',
-  customNotes: '',
+  inputMethod: 'upload', // 'upload' | 'paste'
+  uploadedDocName: '',
+  uploadedDocType: '',
+  uploadedDocText: '',
+  uploadedWordCount: 0,
+  userNotes: '',
   analyzedPlan: null,
+  userFeedbackInput: '',
+  planFeedbackHistory: [],
   selectedLessons: {},
   appliedLessons: null,
   activePreviewLessonIndex: 0,
   isAnalyzing: false,
-  isApplying: false
+  isApplying: false,
+  activeStep: 1 // 1: Setup & Upload, 2: Review & Feedback Plan, 3: Final Integrated View
 };
+
+if (typeof window !== "undefined") {
+  window.integrationState = integrationState;
+}
 
 // ==========================================
 // DỮ LIỆU SIDEBAR: KHỐI & MÔN HỌC
@@ -103,13 +113,13 @@ var sidebarActiveGrade = 1;
 
 // Khởi chạy khi DOM sẵn sàng (Hỗ trợ cả Trang chính và Trang độc lập)
 function initApplication() {
-  var pathname = (window.location.pathname || "").toLowerCase();
-  var isStandaloneIntegration = pathname.indexOf("ai-integration") !== -1 || (document.body && document.body.classList.contains("page-ai-integration"));
-  var isStandaloneExam = pathname.indexOf("ai-exam") !== -1 || (document.body && document.body.classList.contains("page-ai-exam"));
+  var pathname = (typeof window !== "undefined" && window.location && window.location.pathname ? window.location.pathname : "").toLowerCase();
+  var isStandaloneIntegration = pathname.indexOf("ai-integration") !== -1 || (typeof document !== "undefined" && document.body && document.body.classList && document.body.classList.contains("page-ai-integration"));
+  var isStandaloneExam = pathname.indexOf("ai-exam") !== -1 || (typeof document !== "undefined" && document.body && document.body.classList && document.body.classList.contains("page-ai-exam"));
 
   if (isStandaloneIntegration) {
     currentView = "ai-integration";
-    var container = document.getElementById("content-container");
+    var container = typeof document !== "undefined" ? document.getElementById("content-container") : null;
     if (container && typeof renderAiIntegrationView === "function") {
       renderAiIntegrationView(container);
     }
@@ -118,31 +128,33 @@ function initApplication() {
 
   if (isStandaloneExam) {
     currentView = "ai-exam";
-    var container = document.getElementById("content-container");
+    var container = typeof document !== "undefined" ? document.getElementById("content-container") : null;
     if (container && typeof renderAiExamView === "function") {
       renderAiExamView(container);
     }
     return;
   }
 
-  AuthService.updateAuthUI();
-  setupNavigationEvents();
-  setupSearchEvents();
-  renderSidebarDocsNav();
+  if (typeof AuthService !== "undefined" && AuthService.updateAuthUI) AuthService.updateAuthUI();
+  if (typeof setupNavigationEvents === "function") setupNavigationEvents();
+  if (typeof setupSearchEvents === "function") setupSearchEvents();
+  if (typeof renderSidebarDocsNav === "function") renderSidebarDocsNav();
 
   // Xác định view ban đầu
-  var hash = window.location.hash.replace("#", "") || "home";
-  navigateTo(hash);
+  var hash = (typeof window !== "undefined" && window.location && window.location.hash ? window.location.hash.replace("#", "") : "") || "home";
+  if (typeof navigateTo === "function") navigateTo(hash);
 
   // Cập nhật số liệu footer động
-  updateFooterCount();
+  if (typeof updateFooterCount === "function") updateFooterCount();
 
-  window.addEventListener("hashchange", function() {
-    var newHash = window.location.hash.replace("#", "") || "home";
-    if (newHash !== currentView) {
-      navigateTo(newHash);
-    }
-  });
+  if (typeof window !== "undefined") {
+    window.addEventListener("hashchange", function() {
+      var newHash = (window.location && window.location.hash ? window.location.hash.replace("#", "") : "") || "home";
+      if (newHash !== currentView && typeof navigateTo === "function") {
+        navigateTo(newHash);
+      }
+    });
+  }
 }
 
 if (document.readyState === "loading") {
@@ -3094,20 +3106,25 @@ if (typeof window !== "undefined") {
   window.onIntegrationSubjectChange = typeof onIntegrationSubjectChange !== "undefined" ? onIntegrationSubjectChange : null;
   window.onIntegrationDurationChange = typeof onIntegrationDurationChange !== "undefined" ? onIntegrationDurationChange : null;
   window.onIntegrationStartWeekChange = typeof onIntegrationStartWeekChange !== "undefined" ? onIntegrationStartWeekChange : null;
-  window.onIntegrationTopicChange = typeof onIntegrationTopicChange !== "undefined" ? onIntegrationTopicChange : null;
+  window.setIntegrationInputMethod = typeof setIntegrationInputMethod !== "undefined" ? setIntegrationInputMethod : null;
+  window.handleIntegrationFileInput = typeof handleIntegrationFileInput !== "undefined" ? handleIntegrationFileInput : null;
+  window.onIntegrationPasteTextInput = typeof onIntegrationPasteTextInput !== "undefined" ? onIntegrationPasteTextInput : null;
   window.triggerAnalyzeIntegrationPlan = typeof triggerAnalyzeIntegrationPlan !== "undefined" ? triggerAnalyzeIntegrationPlan : null;
+  window.onPlanCellEdit = typeof onPlanCellEdit !== "undefined" ? onPlanCellEdit : null;
+  window.triggerSendIntegrationFeedback = typeof triggerSendIntegrationFeedback !== "undefined" ? triggerSendIntegrationFeedback : null;
   window.toggleIntegrationLessonSelect = typeof toggleIntegrationLessonSelect !== "undefined" ? toggleIntegrationLessonSelect : null;
   window.toggleSelectAllIntegrationLessons = typeof toggleSelectAllIntegrationLessons !== "undefined" ? toggleSelectAllIntegrationLessons : null;
   window.triggerApplyAndPreviewIntegration = typeof triggerApplyAndPreviewIntegration !== "undefined" ? triggerApplyAndPreviewIntegration : null;
   window.switchIntegrationPreviewLesson = typeof switchIntegrationPreviewLesson !== "undefined" ? switchIntegrationPreviewLesson : null;
   window.triggerExportIntegrationWord = typeof triggerExportIntegrationWord !== "undefined" ? triggerExportIntegrationWord : null;
+  window.resetIntegrationToPlanStep = typeof resetIntegrationToPlanStep !== "undefined" ? resetIntegrationToPlanStep : null;
+  window.resetIntegrationToSetup = typeof resetIntegrationToSetup !== "undefined" ? resetIntegrationToSetup : null;
 }
 
 /* ==========================================================================
    TRỢ LÝ AI TÍCH HỢP GIÁO ÁN TỰ ĐỘNG (CHUẨN CÔNG VĂN 2345/BGDĐT-GDTH)
+   Cơ chế: Tải tài liệu -> AI Nghiên cứu & Lập Kế hoạch -> Góp ý sửa chữa -> Chèn vào KHBD
    ========================================================================== */
-
-// integrationState defined at top of file
 
 function getIntegrationSubjectsForGrade(grade) {
   var g = parseInt(grade) || 5;
@@ -3138,35 +3155,45 @@ function renderAiIntegrationView(container) {
     integrationState.subjectKey = curSubj;
   }
 
-  var topics = (typeof IntegrationService !== 'undefined' && IntegrationService.TOPICS) ? IntegrationService.TOPICS : {};
   var endWeek = Math.min(35, integrationState.startWeek + integrationState.durationWeeks - 1);
+  var step = integrationState.activeStep || 1;
 
   container.innerHTML = `
-    <div class="section-header">
-      <div>
-        <h2 class="section-title">
-          <i class="fa-solid fa-layer-group" style="color: #ec4899;"></i> 
-          Trợ Lý AI Tích Hợp Giáo Án Tự Động
-        </h2>
-        <p class="section-subtitle">
-          Số hóa 100% KHBD Kết nối tri thức • Tích hợp chuẩn Công văn 2345/BGDĐT-GDTH • Chèn vào 3 vị trí (YCCĐ, ĐDDH, Hoạt động GV-HS) • Xuất file Word (.doc) hoàn chỉnh
-        </p>
+    <!-- STEPPER TIẾN TRÌNH 3 BƯỚC -->
+    <div class="stepper-header">
+      <div class="step-item ${step >= 1 ? (step === 1 ? 'active' : 'completed') : ''}">
+        <div class="step-number">${step > 1 ? '<i class="fa-solid fa-check"></i>' : '1'}</div>
+        <div>
+          <div>Bước 1</div>
+          <div style="font-size: 0.75rem; font-weight: normal; color: var(--text-muted);">Tải tài liệu & Lập kế hoạch</div>
+        </div>
       </div>
-      <div>
-        <span class="tree-badge badge-ai" style="background: linear-gradient(135deg, #db2777, #ec4899); color: white; padding: 0.45rem 0.85rem; font-size: 0.85rem; font-weight: 800;">
-          <i class="fa-solid fa-wand-magic-sparkles"></i> AI Engine 2026
-        </span>
+      <div class="step-line ${step >= 2 ? 'active' : ''}"></div>
+      <div class="step-item ${step >= 2 ? (step === 2 ? 'active' : 'completed') : ''}">
+        <div class="step-number">${step > 2 ? '<i class="fa-solid fa-check"></i>' : '2'}</div>
+        <div>
+          <div>Bước 2</div>
+          <div style="font-size: 0.75rem; font-weight: normal; color: var(--text-muted);">Duyệt & Góp ý AI sửa đổi</div>
+        </div>
+      </div>
+      <div class="step-line ${step >= 3 ? 'active' : ''}"></div>
+      <div class="step-item ${step >= 3 ? 'active completed' : ''}">
+        <div class="step-number">3</div>
+        <div>
+          <div>Bước 3</div>
+          <div style="font-size: 0.75rem; font-weight: normal; color: var(--text-muted);">Chèn vào Giáo án & Xuất Word</div>
+        </div>
       </div>
     </div>
 
-    <div class="ai-layout-container" style="display: grid; grid-template-columns: 380px 1fr; gap: 1.25rem; align-items: start;">
+    <div class="ai-layout-container">
       
       <!-- CỘT ĐIỀU KHIỂN BÊN TRÁI -->
       <div class="ai-ctrl-box" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm);">
         
         <div style="font-size: 0.76rem; font-weight: 800; color: #db2777; background: #fdf2f8; border: 1px solid #fbcfe8; padding: 0.35rem 0.75rem; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
-          <span><i class="fa-solid fa-sliders"></i> THIẾT LẬP TÍCH HỢP</span>
-          <span style="color: #16a34a;"><i class="fa-solid fa-circle-check"></i> CV 2345 Chuẩn</span>
+          <span><i class="fa-solid fa-file-arrow-up"></i> TÀI LIỆU & PHẠM VI DẠY HỌC</span>
+          <span style="color: #16a34a;"><i class="fa-solid fa-circle-check"></i> Chuẩn CV 2345</span>
         </div>
 
         <!-- 1. KHỐI LỚP & MÔN HỌC -->
@@ -3218,7 +3245,7 @@ function renderAiIntegrationView(container) {
         </div>
 
         <!-- 3. CHỌN TUẦN BẮT ĐẦU -->
-        <div class="form-group" style="margin-bottom: 0.75rem;">
+        <div class="form-group" style="margin-bottom: 0.85rem;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
             <label for="integStartWeekSelect" style="font-weight: 700; font-size: 0.82rem; color: #334155; margin-bottom: 0;">4. Tuần Bắt Đầu:</label>
             <span id="integWeekRangeBadge" style="font-size: 0.75rem; font-weight: 800; color: #db2777; background: #fdf2f8; padding: 0.15rem 0.5rem; border-radius: 9999px;">
@@ -3232,75 +3259,127 @@ function renderAiIntegrationView(container) {
           </select>
         </div>
 
-        <!-- 4. CHỦ ĐỀ / NỘI DUNG TÍCH HỢP -->
-        <div class="form-group" style="margin-bottom: 0.75rem;">
-          <label for="integTopicSelect" style="font-weight: 700; font-size: 0.82rem; color: #334155;">5. Nội Dung / Chủ Đề Tích Hợp:</label>
-          <select id="integTopicSelect" class="form-select" onchange="onIntegrationTopicChange(this.value)">
-            ${Object.keys(topics).map(function(k) {
-              return `<option value="${k}" ${k === integrationState.topicKey ? 'selected' : ''}>${topics[k].name}</option>`;
-            }).join('')}
-          </select>
+        <!-- 4. KHU VỰC TẢI LÊN HOẶC DÁN TÀI LIỆU CHỈ ĐẠO MỚI CỦA BỘ / SỞ -->
+        <div class="form-group" style="margin-bottom: 0.85rem;">
+          <label style="font-weight: 700; font-size: 0.82rem; color: #334155; margin-bottom: 0.4rem; display: block;">
+            5. Tài Liệu Tích Hợp (Bộ GD&ĐT / Sở GD&ĐT / Tỉnh):
+          </label>
+
+          <!-- TABS LỰA CHỌN PHƯƠNG THỨC -->
+          <div style="display: flex; gap: 0.35rem; margin-bottom: 0.5rem;">
+            <button type="button" class="upload-tab-btn ${integrationState.inputMethod === 'upload' ? 'active' : ''}" onclick="setIntegrationInputMethod('upload')">
+              <i class="fa-solid fa-cloud-arrow-up"></i> Tải Tệp (.docx, .pdf, .txt)
+            </button>
+            <button type="button" class="upload-tab-btn ${integrationState.inputMethod === 'paste' ? 'active' : ''}" onclick="setIntegrationInputMethod('paste')">
+              <i class="fa-solid fa-paste"></i> Dán Văn Bản
+            </button>
+          </div>
+
+          <!-- TAB 1: TẢI FILE -->
+          <div id="integUploadTabContent" style="display: ${integrationState.inputMethod === 'upload' ? 'block' : 'none'};">
+            ${integrationState.uploadedDocName ? `
+              <div style="background: #f0fdf4; border: 1px solid #86efac; border-radius: var(--radius-sm); padding: 0.75rem; display: flex; align-items: center; justify-content: space-between;">
+                <div style="display: flex; align-items: center; gap: 0.6rem; overflow: hidden;">
+                  <div style="width: 34px; height: 34px; border-radius: 8px; background: #22c55e; color: white; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;">
+                    <i class="fa-solid fa-file-circle-check"></i>
+                  </div>
+                  <div style="overflow: hidden;">
+                    <div style="font-size: 0.82rem; font-weight: 800; color: #15803d; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;" title="${integrationState.uploadedDocName}">
+                      ${integrationState.uploadedDocName}
+                    </div>
+                    <div style="font-size: 0.72rem; color: #166534;">
+                      ${integrationState.uploadedDocType || 'Tài liệu'} • ${integrationState.uploadedWordCount} từ
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.2rem 0.45rem; flex-shrink: 0; color: #dc2626; border-color: #fca5a5;" onclick="document.getElementById('integFileInput').click()" title="Đổi tệp khác">
+                  Đổi tệp
+                </button>
+              </div>
+            ` : `
+              <div class="upload-dropzone" onclick="document.getElementById('integFileInput').click()" ondragover="event.preventDefault(); this.classList.add('dragover')" ondragleave="this.classList.remove('dragover')" ondrop="event.preventDefault(); this.classList.remove('dragover'); handleIntegrationFileInput(event.dataTransfer)">
+                <i class="fa-solid fa-file-arrow-up" style="font-size: 2rem; color: #db2777; margin-bottom: 0.4rem;"></i>
+                <div style="font-size: 0.84rem; font-weight: 700; color: #1e293b;">Kéo thả tệp hoặc bấm để chọn</div>
+                <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 0.2rem;">Hỗ trợ .DOCX, .PDF, .TXT (Tài liệu GDĐP, Quyền con người, An toàn...)</div>
+              </div>
+            `}
+            <input type="file" id="integFileInput" accept=".docx,.pdf,.txt,.md" style="display: none;" onchange="handleIntegrationFileInput(this)">
+          </div>
+
+          <!-- TAB 2: DÁN VĂN BẢN TRỰC TIẾP -->
+          <div id="integPasteTabContent" style="display: ${integrationState.inputMethod === 'paste' ? 'block' : 'none'};">
+            <textarea id="integPasteTextArea" class="form-control" rows="4" placeholder="Dán toàn bộ văn bản hướng dẫn, tài liệu chuyên đề mới hoặc chỉ đạo của Bộ/Sở/Trường tại đây..." style="font-size: 0.8rem; line-height: 1.45;" oninput="onIntegrationPasteTextInput(this.value)">${integrationState.uploadedDocText || ''}</textarea>
+            <div style="display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--text-muted); margin-top: 0.25rem;">
+              <span>AI sẽ tự động đọc và trích xuất nội dung tích hợp</span>
+              <span id="pasteWordCountBadge">${integrationState.uploadedWordCount || 0} từ</span>
+            </div>
+          </div>
         </div>
 
-        <!-- TÙY CHỈNH TÊN CHỦ ĐỀ NẾU CHỌN CUSTOM -->
-        <div id="integCustomTopicBox" style="display: ${integrationState.topicKey === 'custom' ? 'block' : 'none'}; margin-bottom: 0.75rem;">
-          <label for="integCustomTopicInput" style="font-weight: 700; font-size: 0.8rem; color: #db2777;">Tên chủ đề / Nội dung tích hợp tùy chỉnh:</label>
-          <input type="text" id="integCustomTopicInput" class="form-control" placeholder="Ví dụ: Lồng ghép Giáo dục Địa phương tỉnh Đồng Nai..." value="${integrationState.customTopicTitle || ''}" oninput="integrationState.customTopicTitle = this.value">
-        </div>
-
-        <!-- GHI CHÚ / YÊU CẦU ĐẶC BIỆT CHO AI -->
+        <!-- 5. GHI CHÚ / YÊU CẦU ĐẶC BIỆT CHO AI -->
         <div class="form-group" style="margin-bottom: 1rem;">
-          <label for="integCustomNotes" style="font-weight: 700; font-size: 0.82rem; color: #334155;">6. Yêu cầu chi tiết cho AI (Tùy chọn):</label>
-          <textarea id="integCustomNotes" class="form-control" rows="2" placeholder="Ví dụ: Tích hợp sâu vào hoạt động Vận dụng, nêu rõ đặc sản / di tích cụ thể..." oninput="integrationState.customNotes = this.value">${integrationState.customNotes || ''}</textarea>
+          <label for="integUserNotes" style="font-weight: 700; font-size: 0.82rem; color: #334155;">6. Yêu cầu chi tiết cho AI (Tùy chọn):</label>
+          <textarea id="integUserNotes" class="form-control" rows="2" placeholder="Ví dụ: Tích hợp sâu vào hoạt động Vận dụng, tạo câu hỏi thực tế địa phương..." oninput="integrationState.userNotes = this.value">${integrationState.userNotes || ''}</textarea>
         </div>
 
         <!-- NÚT BẮT ĐẦU PHÂN TÍCH MA TRẬN BƯỚC 1 -->
-        <button id="btnStartIntegAnalyze" class="btn btn-primary" style="width: 100%; padding: 0.8rem; font-size: 0.95rem; font-weight: 800; background: linear-gradient(135deg, #db2777, #ec4899); box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35); border: none;" onclick="triggerAnalyzeIntegrationPlan()">
-          <i class="fa-solid fa-wand-magic-sparkles"></i> BƯỚC 1: AI LẬP KẾ HOẠCH TÍCH HỢP
+        <button id="btnStartIntegAnalyze" class="btn btn-primary" style="width: 100%; padding: 0.85rem; font-size: 0.95rem; font-weight: 800; background: linear-gradient(135deg, #db2777, #ec4899); box-shadow: 0 4px 14px rgba(219, 39, 119, 0.35); border: none;" onclick="triggerAnalyzeIntegrationPlan()">
+          <i class="fa-solid fa-wand-magic-sparkles"></i> BƯỚC 1: AI NGHIÊN CỨU & LẬP KẾ HOẠCH
         </button>
 
       </div>
 
-      <!-- CỘT KẾT QUẢ BÊN PHẢI -->
-      <div id="integOutputContainer" class="paper-preview-card" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm); min-height: 600px;">
-        ${renderIntegrationIdleStateHtml()}
+      <!-- CỘT HIỂN THỊ KẾT QUẢ BÊN PHẢI -->
+      <div id="integOutputContainer" class="paper-preview-card" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.5rem; box-shadow: var(--shadow-sm); min-height: 620px;">
+        ${renderIntegrationRightColumnContent()}
       </div>
 
     </div>
   `;
 }
 
+function renderIntegrationRightColumnContent() {
+  var step = integrationState.activeStep || 1;
+  if (step === 2 && integrationState.analyzedPlan) {
+    return renderIntegrationPlanReviewHtml(integrationState.analyzedPlan);
+  }
+  if (step === 3 && integrationState.appliedLessons) {
+    return renderIntegrationFinalPreviewHtml();
+  }
+  return renderIntegrationIdleStateHtml();
+}
+
 function renderIntegrationIdleStateHtml() {
   return `
-    <div style="text-align: center; padding: 4.5rem 1.5rem; color: var(--text-muted);">
-      <div style="width: 80px; height: 80px; border-radius: 50%; background: #fdf2f8; color: #db2777; display: inline-flex; align-items: center; justify-content: center; font-size: 2.5rem; margin-bottom: 1.25rem; box-shadow: 0 4px 14px rgba(219, 39, 119, 0.2);">
-        <i class="fa-solid fa-layer-group"></i>
+    <div style="text-align: center; padding: 4rem 1.5rem; color: var(--text-muted);">
+      <div style="width: 84px; height: 84px; border-radius: 50%; background: #fdf2f8; color: #db2777; display: inline-flex; align-items: center; justify-content: center; font-size: 2.75rem; margin-bottom: 1.25rem; box-shadow: 0 4px 16px rgba(219, 39, 119, 0.2);">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
       </div>
-      <h3 style="color: var(--text-color); font-weight: 800; font-size: 1.3rem; margin-bottom: 0.65rem;">
-        Trợ Lý AI Tích Hợp Giáo Án Chuẩn Công Văn 2345
+      <h3 style="color: var(--text-color); font-weight: 800; font-size: 1.35rem; margin-bottom: 0.65rem;">
+        Trợ Lý AI Tích Hợp Giáo Án Tương Tác (Chuẩn CV 2345)
       </h3>
-      <p style="font-size: 0.9rem; max-width: 540px; margin: 0 auto 1.5rem; line-height: 1.6;">
-        Tự động quét toàn bộ Kế hoạch bài dạy số hóa, xây dựng <strong>Ma trận Tích hợp (Bước 1)</strong> và <strong>Chèn tự động chuẩn 3 vị trí (Bước 2)</strong>, sau đó xuất ra file <strong>Word (.doc)</strong> hoàn chỉnh 100%.
+      <p style="font-size: 0.92rem; max-width: 580px; margin: 0 auto 1.75rem; line-height: 1.6;">
+        Tải lên tài liệu hoặc dán nội dung hướng dẫn mới ➔ AI nghiên cứu tài liệu & lập <strong>Kế hoạch tích hợp chi tiết từng bài (Tiết nào, Phần nào, Nội dung gì)</strong> ➔ Giáo viên góp ý sửa chữa ➔ AI hoàn thiện và <strong>chèn tự động vào giáo án gốc chuẩn CV 2345</strong>.
       </p>
 
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 600px; margin: 0 auto; text-align: left;">
-        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 0.85rem;">
-          <div style="font-weight: 800; color: #db2777; font-size: 0.82rem; margin-bottom: 0.25rem;">
-            <i class="fa-solid fa-1"></i> Mục I. YCCĐ
+      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 680px; margin: 0 auto; text-align: left;">
+        <div style="background: #fdf2f8; border: 1px solid #fbcfe8; border-radius: var(--radius-sm); padding: 1rem;">
+          <div style="font-weight: 800; color: #db2777; font-size: 0.85rem; margin-bottom: 0.35rem;">
+            <i class="fa-solid fa-1"></i> Nghiên Cứu Tài Liệu
           </div>
-          <p style="font-size: 0.76rem; color: var(--text-muted); margin: 0;">Bổ sung phẩm chất & năng lực đặc thù của nội dung tích hợp.</p>
+          <p style="font-size: 0.78rem; color: #64748b; margin: 0; line-height: 1.45;">Đọc sâu tài liệu Word/PDF/TXT do giáo viên cung cấp và đối chiếu với KHBD số hóa.</p>
         </div>
-        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 0.85rem;">
-          <div style="font-weight: 800; color: #2563eb; font-size: 0.82rem; margin-bottom: 0.25rem;">
-            <i class="fa-solid fa-2"></i> Mục II. ĐDDH
+        <div style="background: #fdf4ff; border: 1px solid #f0abfc; border-radius: var(--radius-sm); padding: 1rem;">
+          <div style="font-weight: 800; color: #9333ea; font-size: 0.85rem; margin-bottom: 0.35rem;">
+            <i class="fa-solid fa-2"></i> Lập Kế Hoạch & Góp Ý
           </div>
-          <p style="font-size: 0.76rem; color: var(--text-muted); margin: 0;">Bổ sung đồ dùng, tranh ảnh, video clip trực quan cho GV & HS.</p>
+          <p style="font-size: 0.78rem; color: #64748b; margin: 0; line-height: 1.45;">Xác định rõ Tiết nào, Phần nào (Khởi động, Khám phá, Vận dụng), cho phép giáo viên góp ý để AI sửa.</p>
         </div>
-        <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 0.85rem;">
-          <div style="font-weight: 800; color: #16a34a; font-size: 0.82rem; margin-bottom: 0.25rem;">
-            <i class="fa-solid fa-3"></i> Mục III. Hoạt động
+        <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 1rem;">
+          <div style="font-weight: 800; color: #16a34a; font-size: 0.85rem; margin-bottom: 0.35rem;">
+            <i class="fa-solid fa-3"></i> Tích Hợp & Xuất Word
           </div>
-          <p style="font-size: 0.76rem; color: var(--text-muted); margin: 0;">Chèn tiến trình GV - HS trực tiếp vào bảng 2 cột của bài dạy.</p>
+          <p style="font-size: 0.78rem; color: #64748b; margin: 0; line-height: 1.45;">Chèn chuẩn 3 vị trí (YCCĐ, ĐDDH, Hoạt động GV-HS) và xuất file Word (.doc) 100% hoàn chỉnh.</p>
         </div>
       </div>
     </div>
@@ -3326,7 +3405,6 @@ function onIntegrationSubjectChange(subjKey) {
 
 function onIntegrationDurationChange(weeks) {
   integrationState.durationWeeks = parseInt(weeks) || 1;
-  // Re-render controls or update UI borders
   var container = document.getElementById('content-container');
   if (container && currentView === 'ai-integration') {
     renderAiIntegrationView(container);
@@ -3342,18 +3420,75 @@ function onIntegrationStartWeekChange(week) {
   }
 }
 
-function onIntegrationTopicChange(topicKey) {
-  integrationState.topicKey = topicKey;
-  var customBox = document.getElementById('integCustomTopicBox');
-  if (customBox) {
-    customBox.style.display = (topicKey === 'custom') ? 'block' : 'none';
+function setIntegrationInputMethod(method) {
+  integrationState.inputMethod = method;
+  var uploadTab = document.getElementById('integUploadTabContent');
+  var pasteTab = document.getElementById('integPasteTabContent');
+  if (uploadTab && pasteTab) {
+    uploadTab.style.display = (method === 'upload') ? 'block' : 'none';
+    pasteTab.style.display = (method === 'paste') ? 'block' : 'none';
+  }
+  document.querySelectorAll('.upload-tab-btn').forEach(function(btn, idx) {
+    if ((idx === 0 && method === 'upload') || (idx === 1 && method === 'paste')) {
+      btn.classList.add('active');
+    } else {
+      btn.classList.remove('active');
+    }
+  });
+}
+
+async function handleIntegrationFileInput(inputOrDataTransfer) {
+  var file = (inputOrDataTransfer.files && inputOrDataTransfer.files[0]) ? inputOrDataTransfer.files[0] : null;
+  if (!file) return;
+
+  var uploadTab = document.getElementById('integUploadTabContent');
+  if (uploadTab) {
+    uploadTab.innerHTML = '<div style="text-align: center; padding: 1rem; color: #db2777;"><i class="fa-solid fa-spinner fa-spin"></i> Đang đọc tệp ' + file.name + '...</div>';
+  }
+
+  try {
+    var result = await IntegrationService.extractTextFromFile(file);
+    integrationState.uploadedDocName = result.fileName;
+    integrationState.uploadedDocType = result.fileType;
+    integrationState.uploadedDocText = result.text;
+    integrationState.uploadedWordCount = result.wordCount;
+
+    var container = document.getElementById('content-container');
+    if (container && currentView === 'ai-integration') {
+      renderAiIntegrationView(container);
+    }
+    showToast('Đã đọc tệp "' + file.name + '" thành công (' + result.wordCount + ' từ)!', 'success');
+
+  } catch (err) {
+    console.error('File read error:', err);
+    showToast(err.message || 'Lỗi khi đọc tệp', 'danger');
+    var container = document.getElementById('content-container');
+    if (container && currentView === 'ai-integration') {
+      renderAiIntegrationView(container);
+    }
   }
 }
 
-// BƯỚC 1: AI LẬP KẾ HOẠCH MA TRẬN TÍCH HỢP
+function onIntegrationPasteTextInput(text) {
+  integrationState.uploadedDocText = text;
+  var wordCount = text.trim() ? text.trim().split(/\s+/).length : 0;
+  integrationState.uploadedWordCount = wordCount;
+  if (!integrationState.uploadedDocName) {
+    integrationState.uploadedDocName = 'Văn bản dán trực tiếp';
+  }
+  var badge = document.getElementById('pasteWordCountBadge');
+  if (badge) badge.textContent = wordCount + ' từ';
+}
+
+// BƯỚC 1: AI LẬP KẾ HOẠCH TÍCH HỢP CHI TIẾT
 async function triggerAnalyzeIntegrationPlan() {
   if (typeof IntegrationService === 'undefined') {
     showToast('Dịch vụ AI Tích hợp chưa sẵn sàng!', 'danger');
+    return;
+  }
+
+  if (!integrationState.uploadedDocText || !integrationState.uploadedDocText.trim()) {
+    showToast('Vui lòng tải lên tài liệu (.docx, .pdf, .txt) hoặc dán văn bản chỉ đạo tích hợp!', 'warning');
     return;
   }
 
@@ -3363,140 +3498,149 @@ async function triggerAnalyzeIntegrationPlan() {
 
   if (btn) {
     btn.disabled = true;
-    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang đọc KHBD & Lập ma trận...';
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> AI đang nghiên cứu tài liệu...';
   }
 
   output.innerHTML = `
     <div style="text-align: center; padding: 5rem 1rem;">
       <div class="spinner" style="width: 48px; height: 48px; border-width: 4px; border-color: #fbcfe8; border-top-color: #db2777; margin: 0 auto 1.25rem;"></div>
-      <h4 style="color: #db2777; font-weight: 800; font-size: 1.15rem; margin-bottom: 0.5rem;">AI đang nghiên cứu Kế hoạch bài dạy...</h4>
-      <p style="color: var(--text-muted); font-size: 0.85rem; max-width: 420px; margin: 0 auto;">
-        Đang quét nội dung số hóa từ <strong>Tuần ${integrationState.startWeek} đến Tuần ${Math.min(35, integrationState.startWeek + integrationState.durationWeeks - 1)}</strong> môn <strong>${integrationState.subjectKey.toUpperCase()} - Khối ${integrationState.grade}</strong> để tìm địa chỉ tích hợp tối ưu.
+      <h4 style="color: #db2777; font-weight: 800; font-size: 1.15rem; margin-bottom: 0.5rem;">AI đang nghiên cứu tài liệu & Lập kế hoạch chi tiết...</h4>
+      <p style="color: var(--text-muted); font-size: 0.85rem; max-width: 450px; margin: 0 auto; line-height: 1.5;">
+        Đang quét văn bản <strong>"${integrationState.uploadedDocName || 'Tài liệu tích hợp'}"</strong> và đối chiếu với KHBD môn <strong>${integrationState.subjectKey.toUpperCase()} - Khối ${integrationState.grade} (Tuần ${integrationState.startWeek} đến ${Math.min(35, integrationState.startWeek + integrationState.durationWeeks - 1)})</strong>.
       </p>
     </div>
   `;
 
   try {
-    var plan = await IntegrationService.analyzeIntegrationPlan(
-      integrationState.grade,
-      integrationState.subjectKey,
-      integrationState.startWeek,
-      integrationState.durationWeeks,
-      integrationState.topicKey,
-      integrationState.customTopicTitle,
-      integrationState.customNotes
-    );
+    var plan = await IntegrationService.analyzeIntegrationPlanWithDocument({
+      grade: integrationState.grade,
+      subjectKey: integrationState.subjectKey,
+      startWeek: integrationState.startWeek,
+      durationWeeks: integrationState.durationWeeks,
+      docTitle: integrationState.uploadedDocName,
+      docText: integrationState.uploadedDocText,
+      userNotes: integrationState.userNotes
+    });
 
     integrationState.analyzedPlan = plan;
     integrationState.selectedLessons = {};
     plan.suggestions.forEach(function(s) {
-      integrationState.selectedLessons[s.lessonId] = s.integrate !== false;
+      integrationState.selectedLessons[s.lessonId] = true;
     });
+    integrationState.activeStep = 2;
 
-    renderIntegrationMatrixView(output, plan);
-    showToast('Đã lập Ma trận Tích hợp cho ' + plan.suggestions.length + ' bài dạy thành công!', 'success');
+    var container = document.getElementById('content-container');
+    if (container && currentView === 'ai-integration') {
+      renderAiIntegrationView(container);
+    }
+    showToast('Đã lập Kế hoạch Tích hợp chi tiết cho ' + plan.suggestions.length + ' bài dạy thành công!', 'success');
 
   } catch (err) {
     console.error('Integration analysis error:', err);
     output.innerHTML = `
       <div style="text-align: center; padding: 4rem 1rem; color: #dc2626;">
         <i class="fa-solid fa-circle-exclamation" style="font-size: 3rem; margin-bottom: 1rem;"></i>
-        <h4>Có lỗi xảy ra khi phân tích KHBD</h4>
-        <p style="font-size: 0.85rem; max-width: 420px; margin: 0 auto 1.5rem;">${err.message || 'Không tìm thấy dữ liệu giáo án số hóa cho phạm vi tuần đã chọn.'}</p>
+        <h4>Có lỗi xảy ra khi phân tích tài liệu</h4>
+        <p style="font-size: 0.85rem; max-width: 450px; margin: 0 auto 1.5rem;">${err.message || 'Lỗi không xác định khi đọc dữ liệu.'}</p>
         <button class="btn btn-primary" onclick="triggerAnalyzeIntegrationPlan()">Thử lại</button>
       </div>
     `;
   } finally {
     if (btn) {
       btn.disabled = false;
-      btn.innerHTML = '<i class="fa-solid fa-wand-magic-sparkles"></i> BƯỚC 1: AI LẬP KẾ HOẠCH TÍCH HỢP';
+      btn.innerHTML = '<i class="fa-solid fa-wand-magic-sparkles"></i> BƯỚC 1: AI NGHIÊN CỨU & LẬP KẾ HOẠCH';
     }
   }
 }
 
-function renderIntegrationMatrixView(output, plan) {
-  var topicInfo = plan.topicInfo || {};
+// BƯỚC 2: RENDER BẢNG KẾ HOẠCH CHI TIẾT & KHUNG GÓP Ý
+function renderIntegrationPlanReviewHtml(plan) {
   var totalSelected = Object.values(integrationState.selectedLessons).filter(Boolean).length;
+  var docSummary = plan.docSummary || {};
 
-  output.innerHTML = `
-    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+  return `
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
       <div>
-        <div style="font-size: 0.75rem; font-weight: 800; color: #db2777; text-transform: uppercase;">
-          <i class="fa-solid fa-table"></i> MA TRẬN KẾ HOẠCH TÍCH HỢP (BƯỚC 1/2)
+        <div style="font-size: 0.75rem; font-weight: 800; color: #db2777; text-transform: uppercase; display: flex; align-items: center; gap: 0.4rem;">
+          <i class="fa-solid fa-table-list"></i> BẢNG KẾ HOẠCH TÍCH HỢP CHI TIẾT (BƯỚC 2/3)
         </div>
-        <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin: 0.15rem 0;">
-          Chủ đề: ${topicInfo.name || 'Tích hợp'}
+        <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin: 0.2rem 0;">
+          Tài liệu: ${plan.docTitle || 'Tài liệu tích hợp'}
         </h3>
         <div style="font-size: 0.8rem; color: var(--text-muted);">
-          Môn: <strong>${plan.subjectName}</strong> • <strong>Khối ${plan.grade}</strong> • <strong>Tuần ${plan.startWeek} - ${plan.endWeek}</strong> (${plan.suggestions.length} bài dạy)
+          Môn: <strong>${plan.subjectName}</strong> • <strong>Khối ${plan.grade}</strong> • <strong>Tuần ${plan.startWeek} - ${plan.endWeek}</strong> (${plan.suggestions.length} bài dạy) • Chủ đề cốt lõi: <span style="color: #db2777; font-weight: 700;">${docSummary.topicName || 'Chuyên đề'}</span>
         </div>
       </div>
 
       <div style="display: flex; gap: 0.5rem; align-items: center;">
-        <button id="btnExecuteApplyIntegration" class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.35); padding: 0.6rem 1.15rem;" onclick="triggerApplyAndPreviewIntegration()">
-          <i class="fa-solid fa-arrow-right"></i> BƯỚC 2: CHÈN VÀO GIÁO ÁN (<span id="integSelectedCountBadge">${totalSelected}</span> Bài)
+        <button class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.35); padding: 0.65rem 1.25rem;" onclick="triggerApplyAndPreviewIntegration()">
+          <i class="fa-solid fa-circle-check"></i> XÁC NHẬN & CHÈN VÀO GIÁO ÁN (<span id="integSelectedCountBadge">${totalSelected}</span> Bài)
         </button>
       </div>
     </div>
 
     <!-- HƯỚNG DẪN GIÁO VIÊN -->
-    <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 0.75rem 1rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between;">
-      <div style="font-size: 0.82rem; color: #166534; display: flex; align-items: center; gap: 0.5rem;">
-        <i class="fa-solid fa-circle-info" style="font-size: 1rem;"></i>
-        <span>Giáo viên có thể tích chọn/bỏ chọn từng bài dưới đây trước khi AI tiến hành chèn vào giáo án.</span>
+    <div style="background: #fdf2f8; border: 1px solid #fbcfe8; border-radius: var(--radius-sm); padding: 0.75rem 1rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
+      <div style="font-size: 0.82rem; color: #9d174d; display: flex; align-items: center; gap: 0.5rem;">
+        <i class="fa-solid fa-lightbulb" style="font-size: 1.1rem; color: #db2777;"></i>
+        <span>Giáo viên có thể <strong>sửa trực tiếp từng ô</strong> trên bảng dưới đây hoặc <strong>nhập góp ý gửi AI</strong> để AI tự động điều chỉnh kế hoạch!</span>
       </div>
       <div>
-        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.2rem 0.5rem;" onclick="toggleSelectAllIntegrationLessons(true)">Chọn tất cả</button>
-        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.2rem 0.5rem;" onclick="toggleSelectAllIntegrationLessons(false)">Bỏ chọn tất cả</button>
+        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.2rem 0.5rem; border-color: #fbcfe8;" onclick="toggleSelectAllIntegrationLessons(true)">Chọn tất cả</button>
+        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.2rem 0.5rem; border-color: #fbcfe8;" onclick="toggleSelectAllIntegrationLessons(false)">Bỏ chọn tất cả</button>
       </div>
     </div>
 
-    <!-- BẢNG MA TRẬN -->
+    <!-- BẢNG KẾ HOẠCH CHI TIẾT TỪNG TIẾT -->
     <div style="overflow-x: auto; border: 1px solid var(--border-color); border-radius: var(--radius-sm); margin-bottom: 1rem;">
-      <table style="width: 100%; border-collapse: collapse; font-size: 0.84rem; text-align: left;">
+      <table style="width: 100%; border-collapse: collapse; font-size: 0.82rem; text-align: left;">
         <thead>
           <tr style="background: #f8fafc; border-bottom: 2px solid var(--border-color); color: #334155; font-weight: 700;">
-            <th style="padding: 0.65rem 0.5rem; text-align: center; width: 45px;">Chọn</th>
-            <th style="padding: 0.65rem 0.5rem; text-align: center; width: 60px;">Tuần</th>
-            <th style="padding: 0.65rem 0.5rem; text-align: center; width: 70px;">Tiết</th>
-            <th style="padding: 0.65rem 0.75rem; width: 220px;">Tên bài dạy (KHBD gốc)</th>
-            <th style="padding: 0.65rem 0.6rem; text-align: center; width: 110px;">Mức độ</th>
-            <th style="padding: 0.65rem 0.75rem;">Nội dung tích hợp & Hoạt động đề xuất</th>
+            <th style="padding: 0.65rem 0.4rem; text-align: center; width: 40px;">Chọn</th>
+            <th style="padding: 0.65rem 0.4rem; text-align: center; width: 55px;">Tuần</th>
+            <th style="padding: 0.65rem 0.4rem; text-align: center; width: 60px;">Tiết</th>
+            <th style="padding: 0.65rem 0.6rem; width: 180px;">Tên bài dạy (KHBD gốc)</th>
+            <th style="padding: 0.65rem 0.6rem; width: 190px;">Tích hợp vào phần nào?</th>
+            <th style="padding: 0.65rem 0.5rem; text-align: center; width: 95px;">Mức độ</th>
+            <th style="padding: 0.65rem 0.6rem;">Nội dung tích hợp cụ thể (Trích từ tài liệu)</th>
           </tr>
         </thead>
         <tbody>
           ${plan.suggestions.map(function(s, idx) {
             var isChecked = integrationState.selectedLessons[s.lessonId] !== false;
             var isEven = idx % 2 === 0;
-            var levelBadgeColor = s.level === 'Toàn phần' ? 'background: #fef2f2; color: #dc2626; border: 1px solid #fecaca;' :
-                                 (s.level === 'Bộ phận' ? 'background: #eff6ff; color: #2563eb; border: 1px solid #bfdbfe;' : 'background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0;');
 
             return `
-              <tr style="border-bottom: 1px solid var(--border-color); background: ${isChecked ? (isEven ? '#ffffff' : '#fcfcfc') : '#f8fafc'}; opacity: ${isChecked ? '1' : '0.6'};">
-                <td style="padding: 0.65rem 0.5rem; text-align: center;">
+              <tr style="border-bottom: 1px solid var(--border-color); background: ${isChecked ? (isEven ? '#ffffff' : '#fdfafc') : '#f8fafc'}; opacity: ${isChecked ? '1' : '0.6'};">
+                <td style="padding: 0.65rem 0.4rem; text-align: center;">
                   <input type="checkbox" id="chk_integ_${s.lessonId}" ${isChecked ? 'checked' : ''} onchange="toggleIntegrationLessonSelect('${s.lessonId}')" style="cursor: pointer; width: 16px; height: 16px;">
                 </td>
-                <td style="padding: 0.65rem 0.5rem; text-align: center; font-weight: 700; color: #db2777;">
+                <td style="padding: 0.65rem 0.4rem; text-align: center; font-weight: 700; color: #db2777;">
                   T.${s.week}
                 </td>
-                <td style="padding: 0.65rem 0.5rem; text-align: center; font-weight: 600; color: var(--text-muted);">
+                <td style="padding: 0.65rem 0.4rem; text-align: center; font-weight: 600; color: var(--text-muted);">
                   ${s.period || '—'}
                 </td>
-                <td style="padding: 0.65rem 0.75rem; font-weight: 700; color: #1e293b;">
+                <td style="padding: 0.65rem 0.6rem; font-weight: 700; color: #1e293b;">
                   ${s.title}
                 </td>
-                <td style="padding: 0.65rem 0.6rem; text-align: center;">
-                  <span style="font-size: 0.72rem; font-weight: 800; padding: 0.2rem 0.5rem; border-radius: 9999px; ${levelBadgeColor}">
-                    ${s.level}
-                  </span>
+                <td style="padding: 0.65rem 0.5rem;">
+                  <select class="editable-plan-input" style="font-weight: 600; color: #7c3aed;" onchange="onPlanCellEdit('${s.lessonId}', 'targetPart', this.value)">
+                    <option value="Hoạt động Vận dụng, trải nghiệm" ${s.targetPart === 'Hoạt động Vận dụng, trải nghiệm' ? 'selected' : ''}>HĐ Vận dụng, trải nghiệm</option>
+                    <option value="Hoạt động Khởi động" ${s.targetPart === 'Hoạt động Khởi động' ? 'selected' : ''}>HĐ Khởi động</option>
+                    <option value="Hoạt động Khám phá kiến thức mới" ${s.targetPart === 'Hoạt động Khám phá kiến thức mới' ? 'selected' : ''}>HĐ Khám phá</option>
+                    <option value="Hoạt động Luyện tập, thực hành" ${s.targetPart === 'Hoạt động Luyện tập, thực hành' ? 'selected' : ''}>HĐ Luyện tập, thực hành</option>
+                  </select>
                 </td>
-                <td style="padding: 0.65rem 0.75rem;">
-                  <div style="font-weight: 700; color: #4338ca; margin-bottom: 0.2rem;">
-                    • ${s.integrationTarget}
-                  </div>
-                  <div style="font-size: 0.78rem; color: #475569; line-height: 1.4;">
-                    <i class="fa-solid fa-arrow-turn-down-right" style="color: #db2777; font-size: 0.7rem;"></i> <b>Hoạt động:</b> ${s.activityHook}
-                  </div>
+                <td style="padding: 0.65rem 0.4rem; text-align: center;">
+                  <select class="editable-plan-input" style="font-size: 0.76rem; text-align: center;" onchange="onPlanCellEdit('${s.lessonId}', 'level', this.value)">
+                    <option value="Liên hệ" ${s.level === 'Liên hệ' ? 'selected' : ''}>Liên hệ</option>
+                    <option value="Bộ phận" ${s.level === 'Bộ phận' ? 'selected' : ''}>Bộ phận</option>
+                    <option value="Toàn phần" ${s.level === 'Toàn phần' ? 'selected' : ''}>Toàn phần</option>
+                  </select>
+                </td>
+                <td style="padding: 0.65rem 0.6rem;">
+                  <textarea class="editable-plan-input" rows="2" style="resize: vertical; line-height: 1.35;" placeholder="Nội dung tích hợp..." onblur="onPlanCellEdit('${s.lessonId}', 'integrationBrief', this.value)">${s.integrationBrief || ''}</textarea>
                 </td>
               </tr>
             `;
@@ -3505,13 +3649,81 @@ function renderIntegrationMatrixView(output, plan) {
       </table>
     </div>
 
-    <!-- ACTION BUTTON BƯỚC 2 -->
-    <div style="text-align: right; margin-top: 1rem;">
-      <button class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35); padding: 0.75rem 1.5rem; font-size: 0.95rem;" onclick="triggerApplyAndPreviewIntegration()">
-        <i class="fa-solid fa-layer-group"></i> TIẾN HÀNH CHÈN VÀO GIÁO ÁN VÀ XEM TRƯỚC (BƯỚC 2)
+    <!-- KHUNG GÓP Ý & YÊU CẦU AI ĐIỀU CHỈNH KẾ HOẠCH -->
+    <div class="ai-feedback-box">
+      <div style="font-weight: 800; font-size: 0.88rem; color: #7c3aed; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.4rem;">
+        <i class="fa-solid fa-comments"></i> Góp ý & Yêu cầu AI sửa chữa kế hoạch:
+      </div>
+      <p style="font-size: 0.78rem; color: #64748b; margin-bottom: 0.5rem;">
+        Nếu chưa vừa ý với tiết nào, bạn hãy nhập yêu cầu vào đây (Ví dụ: <em>"Đổi tiết 2 sang tích hợp hoạt động Khởi động", "Thêm câu hỏi tình huống thực tế cho tiết 3", "Rút ngắn nội dung tiết 1"</em>), AI sẽ lập tức cập nhật lại kế hoạch cho bạn.
+      </p>
+      <div style="display: flex; gap: 0.6rem; align-items: stretch;">
+        <textarea id="integFeedbackInput" class="form-control" rows="2" placeholder="Nhập ý kiến góp ý / yêu cầu sửa đổi cho AI tại đây..." style="font-size: 0.82rem; background: #ffffff;" oninput="integrationState.userFeedbackInput = this.value">${integrationState.userFeedbackInput || ''}</textarea>
+        <button id="btnSendFeedbackToAi" class="btn btn-primary" style="background: linear-gradient(135deg, #7c3aed, #a855f7); border: none; font-weight: 800; padding: 0 1.25rem; font-size: 0.84rem; white-space: nowrap; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.2rem;" onclick="triggerSendIntegrationFeedback()">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>GỬI GÓP Ý</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- NÚT XÁC NHẬN CHÍNH CUỐI BƯỚC 2 -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+      <button class="btn btn-outline" style="font-size: 0.84rem;" onclick="resetIntegrationToSetup()">
+        <i class="fa-solid fa-arrow-left"></i> Quay lại chọn tài liệu khác
+      </button>
+      <button class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35); padding: 0.75rem 1.75rem; font-size: 0.95rem;" onclick="triggerApplyAndPreviewIntegration()">
+        <i class="fa-solid fa-circle-check"></i> XÁC NHẬN KẾ HOẠCH NÀY & BẮT ĐẦU CHÈN VÀO GIÁO ÁN (BƯỚC 3)
       </button>
     </div>
   `;
+}
+
+function onPlanCellEdit(lessonId, fieldName, value) {
+  if (!integrationState.analyzedPlan) return;
+  var item = (integrationState.analyzedPlan.suggestions || []).find(function(s) { return s.lessonId === lessonId; });
+  if (item) {
+    item[fieldName] = value;
+    if (fieldName === 'targetPart') {
+      item.activityAddition.stepName = value + ' (3-5 phút)';
+    }
+  }
+}
+
+// XỬ LÝ GỬI GÓP Ý ĐỂ AI SỬA KẾ HOẠCH
+async function triggerSendIntegrationFeedback() {
+  var feedbackInput = document.getElementById('integFeedbackInput');
+  var feedbackText = (feedbackInput ? feedbackInput.value : integrationState.userFeedbackInput) || '';
+  if (!feedbackText.trim()) {
+    showToast('Vui lòng nhập nội dung góp ý cho AI!', 'warning');
+    return;
+  }
+
+  var btn = document.getElementById('btnSendFeedbackToAi');
+  if (btn) {
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> <span>Đang sửa...</span>';
+  }
+
+  try {
+    var updatedPlan = await IntegrationService.refineIntegrationPlanWithFeedback(integrationState.analyzedPlan, feedbackText);
+    integrationState.analyzedPlan = updatedPlan;
+    integrationState.userFeedbackInput = '';
+
+    var output = document.getElementById('integOutputContainer');
+    if (output) {
+      output.innerHTML = renderIntegrationPlanReviewHtml(updatedPlan);
+    }
+    showToast('AI đã tiếp thu góp ý và cập nhật lại kế hoạch thành công!', 'success');
+
+  } catch (err) {
+    console.error('Feedback error:', err);
+    showToast(err.message || 'Có lỗi khi cập nhật kế hoạch', 'danger');
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = '<i class="fa-solid fa-paper-plane"></i> <span>GỬI GÓP Ý</span>';
+    }
+  }
 }
 
 function toggleIntegrationLessonSelect(lessonId) {
@@ -3533,7 +3745,7 @@ function toggleSelectAllIntegrationLessons(checked) {
   if (badge) badge.textContent = count;
 }
 
-// BƯỚC 2: CHÈN VÀO GIÁO ÁN VÀ XEM TRƯỚC
+// BƯỚC 3: XÁC NHẬN & CHÈN VÀO GIÁO ÁN
 async function triggerApplyAndPreviewIntegration() {
   if (!integrationState.analyzedPlan) return;
   var output = document.getElementById('integOutputContainer');
@@ -3542,116 +3754,210 @@ async function triggerApplyAndPreviewIntegration() {
   output.innerHTML = `
     <div style="text-align: center; padding: 5rem 1rem;">
       <div class="spinner" style="width: 48px; height: 48px; border-width: 4px; border-color: #bbf7d0; border-top-color: #16a34a; margin: 0 auto 1.25rem;"></div>
-      <h4 style="color: #16a34a; font-weight: 800; font-size: 1.15rem; margin-bottom: 0.5rem;">Đang chèn nội dung tích hợp chuẩn CV 2345...</h4>
-      <p style="color: var(--text-muted); font-size: 0.85rem; max-width: 420px; margin: 0 auto;">
-        Đang bảo lưu 100% giáo án gốc và bổ sung chính xác vào <strong>Mục I (YCCĐ)</strong>, <strong>Mục II (ĐDDH)</strong> và <strong>Mục III (Hoạt động GV-HS)</strong>...
+      <h4 style="color: #16a34a; font-weight: 800; font-size: 1.15rem; margin-bottom: 0.5rem;">Đang chèn kế hoạch đã duyệt vào 100% Giáo án gốc (CV 2345)...</h4>
+      <p style="color: var(--text-muted); font-size: 0.85rem; max-width: 450px; margin: 0 auto; line-height: 1.5;">
+        Đang chèn chính xác vào <strong>Mục I (Yêu cầu cần đạt)</strong>, <strong>Mục II (Đồ dùng dạy học)</strong> và <strong>Mục III (Tiến trình hoạt động dạy học GV-HS)</strong>...
       </p>
     </div>
   `;
 
   try {
-    var appliedLessons = await IntegrationService.applyIntegrationToWeekRange(
+    var applied = await IntegrationService.applyIntegrationToWeekRange(
       integrationState.analyzedPlan,
       integrationState.selectedLessons
     );
 
-    integrationState.appliedLessons = appliedLessons;
+    integrationState.appliedLessons = applied;
     integrationState.activePreviewLessonIndex = 0;
+    integrationState.activeStep = 3;
 
-    renderIntegratedLessonPreview(output);
-    showToast('Đã hoàn tất tích hợp ' + appliedLessons.length + ' bài dạy chuẩn CV 2345!', 'success');
+    var container = document.getElementById('content-container');
+    if (container && currentView === 'ai-integration') {
+      renderAiIntegrationView(container);
+    }
+    showToast('Đã tích hợp vào toàn bộ ' + applied.length + ' bài dạy thành công!', 'success');
 
   } catch (err) {
-    console.error('Apply integration error:', err);
+    console.error('Apply error:', err);
     output.innerHTML = `
       <div style="text-align: center; padding: 4rem 1rem; color: #dc2626;">
         <i class="fa-solid fa-circle-exclamation" style="font-size: 3rem; margin-bottom: 1rem;"></i>
-        <h4>Có lỗi xảy ra khi chèn vào KHBD</h4>
-        <p style="font-size: 0.85rem; max-width: 420px; margin: 0 auto 1.5rem;">${err.message || 'Lỗi xử lý chèn giáo án.'}</p>
-        <button class="btn btn-primary" onclick="renderIntegrationMatrixView(document.getElementById('integOutputContainer'), integrationState.analyzedPlan)">Quay lại Ma trận</button>
+        <h4>Lỗi khi chèn vào giáo án</h4>
+        <p style="font-size: 0.85rem;">${err.message || 'Lỗi không xác định.'}</p>
+        <button class="btn btn-primary" onclick="triggerApplyAndPreviewIntegration()">Thử lại</button>
       </div>
     `;
   }
 }
 
-function renderIntegratedLessonPreview(output) {
+// RENDER BƯỚC 3: XEM TRƯỚC GIÁO ÁN VÀ XUẤT FILE WORD
+function renderIntegrationFinalPreviewHtml() {
   var lessons = integrationState.appliedLessons || [];
   if (lessons.length === 0) {
-    output.innerHTML = renderIntegrationIdleStateHtml();
-    return;
+    return renderIntegrationIdleStateHtml();
   }
 
-  var curIdx = integrationState.activePreviewLessonIndex;
-  if (curIdx >= lessons.length) curIdx = 0;
-  var currentLesson = lessons[curIdx];
+  var activeIdx = integrationState.activePreviewLessonIndex || 0;
+  if (activeIdx >= lessons.length) activeIdx = 0;
+  var currentLesson = lessons[activeIdx] || {};
 
-  var topicInfo = (integrationState.analyzedPlan && integrationState.analyzedPlan.topicInfo) || {};
-  var topicName = topicInfo.name || 'Tích hợp';
-
-  // Render CV 2345 HTML Preview for currentLesson
-  var lessonHtml = (typeof KHBD_REGISTRY !== 'undefined' && typeof KHBD_REGISTRY.renderLessonHtml === 'function')
-                   ? KHBD_REGISTRY.renderLessonHtml(currentLesson)
-                   : renderFallbackLessonHtml(currentLesson);
-
-  output.innerHTML = `
-    <!-- THANH CÔNG CỤ XUẤT FILE & CHỌN BÀI DẠY -->
-    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.65rem;">
+  return `
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
       <div>
-        <div style="font-size: 0.74rem; font-weight: 800; color: #16a34a; text-transform: uppercase;">
-          <i class="fa-solid fa-circle-check"></i> ĐÃ TÍCH HỢP HOÀN TẤT (${lessons.length} BÀI DẠY)
+        <div style="font-size: 0.75rem; font-weight: 800; color: #16a34a; text-transform: uppercase; display: flex; align-items: center; gap: 0.4rem;">
+          <i class="fa-solid fa-circle-check"></i> GIÁO ÁN ĐÃ TÍCH HỢP HOÀN TẤT (BƯỚC 3/3)
         </div>
-        <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin: 0.15rem 0;">
-          Kế Hoạch Bài Dạy Chuẩn Công Văn 2345
+        <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin: 0.2rem 0;">
+          Chuẩn Công văn 2345/BGDĐT-GDTH (${lessons.length} bài dạy)
         </h3>
+        <div style="font-size: 0.8rem; color: var(--text-muted);">
+          Tài liệu tích hợp: <strong style="color: #db2777;">${integrationState.uploadedDocName || 'Chuyên đề mới'}</strong>
+        </div>
       </div>
 
-      <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
-        <button class="btn btn-outline" style="font-size: 0.82rem; padding: 0.5rem 0.85rem;" onclick="renderIntegrationMatrixView(document.getElementById('integOutputContainer'), integrationState.analyzedPlan)">
-          <i class="fa-solid fa-table"></i> Xem lại Ma trận
+      <div style="display: flex; gap: 0.5rem; align-items: center;">
+        <button class="btn btn-outline" style="font-size: 0.82rem;" onclick="resetIntegrationToPlanStep()">
+          <i class="fa-solid fa-pen-to-square"></i> Sửa lại kế hoạch
         </button>
-        <button class="btn btn-primary" style="background: linear-gradient(135deg, #2563eb, #3b82f6); border: none; font-weight: 800; box-shadow: 0 4px 14px rgba(37, 99, 235, 0.35); padding: 0.55rem 1.15rem;" onclick="triggerExportIntegrationWord()">
-          <i class="fa-solid fa-file-word"></i> TẢI TOÀN BỘ FILE WORD (.DOC)
+        <button class="btn btn-primary" style="background: linear-gradient(135deg, #1e40af, #3b82f6); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(30, 64, 175, 0.35); padding: 0.65rem 1.25rem;" onclick="triggerExportIntegrationWord()">
+          <i class="fa-solid fa-file-word"></i> TẢI FILE WORD (.DOC)
         </button>
       </div>
     </div>
 
-    <!-- CHỌN BÀI ĐỂ XEM TRƯỚC -->
-    <div style="background: #f8fafc; border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 0.65rem 0.85rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; gap: 0.65rem; flex-wrap: wrap;">
-      <div style="display: flex; align-items: center; gap: 0.5rem;">
-        <label for="integLessonPicker" style="font-weight: 700; font-size: 0.82rem; color: #334155; margin-bottom: 0; white-space: nowrap;">
-          <i class="fa-solid fa-file-lines"></i> Xem trước bài dạy:
-        </label>
-        <select id="integLessonPicker" class="form-select" style="font-size: 0.82rem; min-width: 260px;" onchange="switchIntegrationPreviewLesson(this.value)">
-          ${lessons.map(function(l, i) {
-            return `<option value="${i}" ${i === curIdx ? 'selected' : ''}>Tuần ${l.week}: ${l.title || ('Bài ' + (i+1))}</option>`;
-          }).join('')}
-        </select>
-      </div>
-
-      <div style="display: flex; align-items: center; gap: 0.75rem; font-size: 0.76rem;">
-        <span style="display: flex; align-items: center; gap: 0.35rem;">
-          <span style="width: 12px; height: 12px; background: #e0e7ff; border: 1px solid #c7d2fe; border-radius: 3px; display: inline-block;"></span>
-          <span>Nội dung tích hợp mới</span>
-        </span>
-        <span style="display: flex; align-items: center; gap: 0.35rem;">
-          <span style="width: 12px; height: 12px; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 3px; display: inline-block;"></span>
-          <span>100% Giáo án gốc</span>
-        </span>
-      </div>
+    <!-- THANH ĐIỀU HƯỚNG TỪNG BÀI DẠY -->
+    <div style="display: flex; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 1px dashed var(--border-color);">
+      ${lessons.map(function(les, idx) {
+        var isAct = idx === activeIdx;
+        return `
+          <button class="btn btn-sm ${isAct ? 'btn-primary' : 'btn-outline'}" style="font-size: 0.78rem; white-space: nowrap; ${isAct ? 'background: #db2777; border-color: #db2777; color: white;' : ''}" onclick="switchIntegrationPreviewLesson(${idx})">
+            T.${les.week || (idx+1)} • ${les.period || ('Tiết ' + (idx+1))}
+          </button>
+        `;
+      }).join('')}
     </div>
 
-    <!-- KHUNG XEM TRƯỚC GIÁO ÁN ĐÃ TÍCH HỢP -->
-    <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); padding: 2rem; box-shadow: 0 4px 20px rgba(0,0,0,0.06); max-height: 800px; overflow-y: auto; font-family: 'Times New Roman', Times, serif; font-size: 14pt; line-height: 1.45;">
-      ${lessonHtml}
+    <!-- SHEET XEM TRƯỚC GIÁO ÁN CHUẨN IN -->
+    <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 750px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #0f172a;">
+      ${renderIntegratedLessonSheetContent(currentLesson)}
+    </div>
+  `;
+}
+
+function renderIntegratedLessonSheetContent(les) {
+  if (!les || !les.title) {
+    return '<div style="text-align: center; padding: 2rem;">Chưa có dữ liệu bài dạy.</div>';
+  }
+
+  var yccdHtml = (les.yccd || []).map(function(line) {
+    var isTichHop = typeof line === 'string' && line.indexOf('[Tích hợp') !== -1;
+    if (isTichHop) {
+      return `<p style="margin: 4pt 0; background: #fdf2f8; color: #9d174d; padding: 4pt 8pt; border-left: 3px solid #db2777; border-radius: 2px;"><strong>${line}</strong></p>`;
+    }
+    return `<p style="margin: 3pt 0;">${line}</p>`;
+  }).join('');
+
+  var dodungList = les.dodung || les.teachingAids || [];
+  var dodungHtml = dodungList.map(function(line) {
+    var isTichHop = typeof line === 'string' && line.indexOf('[Tích hợp') !== -1;
+    if (isTichHop) {
+      return `<p style="margin: 4pt 0; background: #eff6ff; color: #1e40af; padding: 4pt 8pt; border-left: 3px solid #3b82f6; border-radius: 2px;"><strong>${line}</strong></p>`;
+    }
+    return `<p style="margin: 3pt 0;">${line}</p>`;
+  }).join('');
+
+  var tablesHtml = '';
+  if (les.tables && les.tables.length > 0) {
+    les.tables.forEach(function(tableRows) {
+      var rowsHtml = (tableRows || []).map(function(r) {
+        if (Array.isArray(r)) {
+          if (r.length >= 2) {
+            var gvCol = (r[0] || '').replace(/\n/g, '<br/>');
+            var hsCol = (r[1] || '').replace(/\n/g, '<br/>');
+            var isTichHop = gvCol.indexOf('[Tích hợp') !== -1 || hsCol.indexOf('[Tích hợp') !== -1;
+            return `
+              <tr style="${isTichHop ? 'background: #fdf4ff;' : ''}">
+                <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1;">
+                  ${isTichHop ? '<div style="display: inline-block; background: #db2777; color: white; font-size: 9pt; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px;">NỘI DUNG TÍCH HỢP MỚI</div>' : ''}
+                  <div>${gvCol}</div>
+                </td>
+                <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1;">
+                  <div>${hsCol}</div>
+                </td>
+              </tr>
+            `;
+          } else if (r.length === 1) {
+            return `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;">${r[0]}</td></tr>`;
+          }
+        }
+        return '';
+      }).join('');
+
+      tablesHtml += `
+        <table style="width: 100%; border-collapse: collapse; margin-top: 8pt; margin-bottom: 12pt;">
+          <thead>
+            <tr style="background: #f1f5f9;">
+              <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của giáo viên</th>
+              <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của học sinh</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${rowsHtml}
+          </tbody>
+        </table>
+      `;
+    });
+  }
+
+  return `
+    <div style="text-align: center; margin-bottom: 15pt;">
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 10pt;">
+        <tr>
+          <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
+            <p style="margin:0;"><strong>TRƯỜNG TIỂU HỌC .................................</strong></p>
+            <p style="margin:2pt 0 0 0;">Giáo viên: <strong>Lê Thành Long</strong></p>
+          </td>
+          <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
+            <p style="margin:0;"><strong>NĂM HỌC: 2025 - 2026</strong></p>
+            <p style="margin:2pt 0 0 0;">Khối ${les.grade || integrationState.grade} - Tuần: <strong>${les.week || 1}</strong></p>
+          </td>
+        </tr>
+      </table>
+
+      <h2 style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase;">KẾ HOẠCH BÀI DẠY</h2>
+      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0;">MÔN: ${(les.subjectName || integrationState.subjectKey).toUpperCase()}</p>
+      <p style="font-size: 14pt; font-weight: bold; color: #db2777; margin: 4pt 0 0 0;">${les.lessonTitle || les.title}</p>
+      ${les.period ? ('<p style="font-style: italic; margin: 2pt 0 0 0;">(' + les.period + ')</p>') : ''}
+    </div>
+
+    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">I. YÊU CẦU CẦN ĐẠT:</div>
+    <div style="margin-left: 10pt;">
+      ${yccdHtml || '<p>Theo chuẩn chương trình môn học.</p>'}
+    </div>
+
+    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">II. ĐỒ DÙNG DẠY HỌC:</div>
+    <div style="margin-left: 10pt;">
+      ${dodungHtml || '<p>1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>'}
+    </div>
+
+    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:</div>
+    <div style="margin-left: 5pt;">
+      ${tablesHtml || '<p>Tiến trình hoạt động chuẩn theo KHBD số hóa.</p>'}
+    </div>
+
+    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):</div>
+    <div style="margin-left: 10pt;">
+      <p>.................................................................................................................................................</p>
+      <p>.................................................................................................................................................</p>
     </div>
   `;
 }
 
 function switchIntegrationPreviewLesson(idx) {
   integrationState.activePreviewLessonIndex = parseInt(idx) || 0;
-  var output = document.getElementById('integOutputContainer');
-  if (output) {
-    renderIntegratedLessonPreview(output);
+  var container = document.getElementById('content-container');
+  if (container && currentView === 'ai-integration') {
+    renderAiIntegrationView(container);
   }
 }
 
@@ -3662,16 +3968,35 @@ function triggerExportIntegrationWord() {
   }
 
   var plan = integrationState.analyzedPlan || {};
-  var topicName = (plan.topicInfo && plan.topicInfo.name) || 'Tich_Hop';
-  var cleanTopic = topicName.replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
-  var filename = 'KHBD_Lop' + (plan.grade || 5) + '_' + (plan.subjectKey || 'mon') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + cleanTopic + '.doc';
+  var docTitleClean = (plan.docTitle || 'Tich_Hop').replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
+  var filename = 'KHBD_Lop' + (plan.grade || 5) + '_' + (plan.subjectKey || 'mon') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.doc';
 
-  IntegrationService.exportToWord(integrationState.appliedLessons, filename);
-  showToast('Đã tải xuống file Word thành công: ' + filename, 'success');
+  IntegrationService.exportToWord(integrationState.appliedLessons, {
+    grade: plan.grade,
+    subjectName: plan.subjectName,
+    startWeek: plan.startWeek,
+    endWeek: plan.endWeek,
+    filename: filename
+  });
+  showToast('Đã tải xuống file Word chuẩn CV 2345: ' + filename, 'success');
 }
 
-function renderFallbackLessonHtml(lesson) {
-  return '<div style="padding: 1rem;"><h3>' + (lesson.title || 'Kế hoạch bài dạy') + '</h3><p>Đã tích hợp thành công.</p></div>';
+function resetIntegrationToPlanStep() {
+  integrationState.activeStep = 2;
+  var container = document.getElementById('content-container');
+  if (container && currentView === 'ai-integration') {
+    renderAiIntegrationView(container);
+  }
+}
+
+function resetIntegrationToSetup() {
+  integrationState.activeStep = 1;
+  integrationState.analyzedPlan = null;
+  integrationState.appliedLessons = null;
+  var container = document.getElementById('content-container');
+  if (container && currentView === 'ai-integration') {
+    renderAiIntegrationView(container);
+  }
 }
 
 
