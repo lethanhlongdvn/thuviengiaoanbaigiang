@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trợ Lý AI Ra Đề & Ma Trận Chuẩn TT 27 - Thư Viện Giáo Viên Tiểu Học</title>
+  
+  <!-- SEO & Social Meta -->
+  <meta name="description" content="Trợ lý AI Soạn Đề Kiểm Tra & Ma Trận Chuẩn Thông tư 27/2020/TT-BGDĐT. Bám sát SGK Kết nối tri thức với cuộc sống.">
+  <meta name="author" content="Thầy Lê Thành Long">
+  
+  <!-- Google Fonts: Be Vietnam Pro & Nunito -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* BỐ CỤC TOÀN MÀN HÌNH RỘNG RÃI & HIỆN ĐẠI */
+    body {
+      background-color: #f1f5f9;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      font-family: 'Be Vietnam Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+      color: #0f172a;
+      margin: 0;
+      padding: 0;
+    }
+
+    .standalone-header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+      color: #ffffff;
+      padding: 0.75rem 2rem;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .standalone-header-inner {
+      max-width: 1720px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .standalone-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    .standalone-brand-icon {
+      width: 44px;
+      height: 44px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #7c3aed, #a855f7);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.35rem;
+      color: #ffffff;
+      box-shadow: 0 4px 12px rgba(124, 58, 237, 0.4);
+    }
+
+    .standalone-brand-title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      font-family: 'Nunito', sans-serif;
+      letter-spacing: 0.02em;
+      margin: 0;
+    }
+
+    .standalone-brand-subtitle {
+      font-size: 0.76rem;
+      color: #93c5fd;
+      margin: 0;
+    }
+
+    .standalone-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .standalone-main {
+      flex: 1;
+      max-width: 1720px;
+      width: 100%;
+      margin: 1.25rem auto;
+      padding: 0 1.5rem 2.5rem 1.5rem;
+      box-sizing: border-box;
+    }
+
+    /* ĐÈ BỐ CỤC LƯỚI KHÔNG GIAN RỘNG */
+    .ai-layout-container {
+      display: grid !important;
+      grid-template-columns: 420px 1fr !important;
+      gap: 1.5rem !important;
+      align-items: start !important;
+    }
+
+    @media (max-width: 1180px) {
+      .ai-layout-container {
+        grid-template-columns: 1fr !important;
+      }
+    }
+
+    .paper-preview-card {
+      background: #ffffff !important;
+      border: 1px solid #cbd5e1 !important;
+      border-radius: var(--radius-md) !important;
+      padding: 2rem 2.5rem !important;
+      box-shadow: 0 4px 25px rgba(0,0,0,0.06) !important;
+      min-height: 650px !important;
+    }
+
+    .standalone-footer {
+      background: #ffffff;
+      border-top: 1px solid var(--border-color);
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER TOÀN MÀN HÌNH -->
+  <header class="standalone-header">
+    <div class="standalone-header-inner">
+      <a href="index.html" class="standalone-brand">
+        <div class="standalone-brand-icon">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+        <div>
+          <h1 class="standalone-brand-title">TRỢ LÝ AI SOẠN ĐỀ KIỂM TRA & MA TRẬN</h1>
+          <p class="standalone-brand-subtitle">Chuẩn Thông tư 27/2020/TT-BGDĐT • Ma trận 3 Mức độ • Bộ sách Kết nối tri thức</p>
+        </div>
+      </a>
+
+      <div class="standalone-actions">
+        <a href="ai-integration.html" class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.4); font-size: 0.82rem;" title="Mở Trợ Lý AI Tích Hợp Giáo Án trong tab riêng">
+          <i class="fa-solid fa-layer-group" style="color: #ec4899;"></i>
+          <span>AI Tích Hợp Giáo Án (CV 2345)</span>
+        </a>
+        <a href="index.html" class="btn btn-primary" style="background: #ffffff; color: var(--primary); font-weight: 700; font-size: 0.82rem; box-shadow: 0 4px 12px rgba(0,0,0,0.15);">
+          <i class="fa-solid fa-house"></i>
+          <span>Về Thư Viện Chính</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- NỘI DUNG CHÍNH RỘNG RÃI -->
+  <main class="standalone-main">
+    <div id="content-container">
+      <!-- Render động bởi renderAiExamView trong app.js -->
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="standalone-footer">
+    <div>
+      <i class="fa-solid fa-award" style="color: #f59e0b;"></i> Chuẩn Chương trình GDPT 2018 & Thông tư 27/2020/TT-BGDĐT • Thư Viện Giáo Viên Tiểu Học (Thầy Lê Thành Long)
+    </div>
+  </footer>
+
+  <!-- Vùng chứa thông báo Toast -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 5 -->
+  <script src="js/sgk/sgk-registry.js"></script>
+  <script src="js/sgk/lop5/toan-5.js"></script>
+  <script src="js/sgk/lop5/tieng-viet-5.js"></script>
+  <script src="js/sgk/lop5/khoa-hoc-5.js"></script>
+  <script src="js/sgk/lop5/lich-su-dia-li-5.js"></script>
+  <script src="js/sgk/lop5/cong-nghe-5.js"></script>
+  <script src="js/sgk/lop5/tin-hoc-5.js"></script>
+  <script src="js/sgk/lop5/tieng-anh-5.js"></script>
+
+  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 4 -->
+  <script src="js/sgk/lop4/toan-4.js"></script>
+  <script src="js/sgk/lop4/tieng-viet-4.js"></script>
+  <script src="js/sgk/lop4/khoa-hoc-4.js"></script>
+  <script src="js/sgk/lop4/lich-su-dia-li-4.js"></script>
+  <script src="js/sgk/lop4/cong-nghe-4.js"></script>
+  <script src="js/sgk/lop4/tin-hoc-4.js"></script>
+  <script src="js/sgk/lop4/tieng-anh-4.js"></script>
+
+  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 3 -->
+  <script src="js/sgk/lop3/toan-3.js"></script>
+  <script src="js/sgk/lop3/tieng-viet-3.js"></script>
+  <script src="js/sgk/lop3/tnxh-3.js"></script>
+  <script src="js/sgk/lop3/cong-nghe-3.js"></script>
+  <script src="js/sgk/lop3/tin-hoc-3.js"></script>
+  <script src="js/sgk/lop3/tieng-anh-3.js"></script>
+
+  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 2 -->
+  <script src="js/sgk/lop2/toan-2.js"></script>
+  <script src="js/sgk/lop2/tieng-viet-2.js"></script>
+  <script src="js/sgk/lop2/tnxh-2.js"></script>
+  <script src="js/sgk/lop2/tieng-anh-2.js"></script>
+
+  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 1 -->
+  <script src="js/sgk/lop1/toan-1.js"></script>
+  <script src="js/sgk/lop1/tieng-viet-1.js"></script>
+  <script src="js/sgk/lop1/tnxh-1.js"></script>
+  <script src="js/sgk/lop1/tieng-anh-1.js"></script>
+
+  <!-- Scripts Logic -->
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/auth.js"></script>
+  <script src="js/drive-service.js"></script>
+  <script src="js/ai-service.js"></script>
+  <script src="js/toolkit.js"></script>
+  <script src="js/app.js"></script>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      currentView = "ai-exam";
+      var container = document.getElementById("content-container");
+      if (container && typeof renderAiExamView === "function") {
+        renderAiExamView(container);
+      }
+    });
+  </script>
+</body>
+</html>

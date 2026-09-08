@@ -460,16 +460,14 @@ function renderHomeView(container) {
         <button class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.4);" onclick="navigateTo('weekly')">
           <i class="fa-solid fa-table-columns" style="color: #fb923c;"></i> Xem Theo Tuần Học
         </button>
-        <button class="btn btn-ai-header" onclick="navigateTo('ai-integration')" style="background: linear-gradient(135deg, #db2777, #ec4899); border: none; box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);">
+        <button class="btn btn-ai-header" onclick="window.open('ai-integration.html', '_blank')" style="background: linear-gradient(135deg, #db2777, #ec4899); border: none; box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);" title="Mở Trợ Lý AI Tích Hợp Giáo Án trong tab mới rộng rãi">
           <i class="fa-solid fa-layer-group"></i> AI Tích Hợp Giáo Án
           <span style="background: #ef4444; color: white; font-size: 0.62rem; padding: 2px 6px; border-radius: 9999px; margin-left: 4px; font-weight: 800;">MỚI</span>
+          <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.65rem; margin-left: 4px; opacity: 0.85;"></i>
         </button>
-        <button class="btn btn-ai-header" onclick="navigateTo('ai-integration')" style="background: linear-gradient(135deg, #db2777, #ec4899); border: none; box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);">
-          <i class="fa-solid fa-layer-group"></i> AI Tích Hợp Giáo Án
-          <span style="background: #ef4444; color: white; font-size: 0.62rem; padding: 2px 6px; border-radius: 9999px; margin-left: 4px; font-weight: 800;">MỚI</span>
-        </button>
-        <button class="btn btn-ai-header" onclick="navigateTo('ai-exam')">
+        <button class="btn btn-ai-header" onclick="window.open('ai-exam.html', '_blank')" title="Mở Trợ Lý AI Ra Đề trong tab mới rộng rãi">
           <i class="fa-solid fa-wand-magic-sparkles"></i> Trợ Lý AI Ra Đề
+          <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.65rem; margin-left: 4px; opacity: 0.85;"></i>
         </button>
       </div>
     </div>
