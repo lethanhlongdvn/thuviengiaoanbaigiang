@@ -574,6 +574,7 @@ var IntegrationService = {
 
   /**
    * Xếp toàn bộ bài dạy các môn trong tuần theo đúng thứ tự Tiết & Thứ của TKB
+   * Hỗ trợ chuẩn xác: Tiết đôi liên tục -> in 1 lần tính 2 tiết; Tiết đôi không liên tục -> in 2 lần (Tiết 1, Tiết 2)
    */
   buildWeeklyPlanByTimetable: async function(grade, weekNumber, customTimetable, integratedMap, overwriteLegacy) {
     var g = parseInt(grade) || 5;
@@ -584,141 +585,205 @@ var IntegrationService = {
     await this.ensureAllSubjectsLoadedForGrade(g);
 
     var khbdDataObj = (typeof window !== 'undefined' && window.KHBD_DATA) ? window.KHBD_DATA : (typeof KHBD_DATA !== 'undefined' ? KHBD_DATA : null);
-    
-    // Đếm số tiết đã lấy của từng môn trong tuần đó
-    var subjectCounters = {};
+
+    // 1. Thu thập toàn bộ các ô có tiết học theo thứ tự thời gian trong tuần
+    var allSlots = [];
+    timetable.forEach(function(dayItem) {
+      var dayName = dayItem.day || ('Thứ ' + dayItem.dayNum);
+      (dayItem.morning || []).forEach(function(sKey, mIdx) {
+        var cleanKey = (sKey || '').toLowerCase().trim();
+        if (cleanKey && cleanKey !== '-' && cleanKey !== '—') {
+          allSlots.push({
+            dayName: dayName,
+            dayNum: dayItem.dayNum,
+            session: 'Sáng',
+            periodSlot: mIdx + 1,
+            subjectKey: cleanKey
+          });
+        }
+      });
+      (dayItem.afternoon || []).forEach(function(sKey, aIdx) {
+        var cleanKey = (sKey || '').toLowerCase().trim();
+        if (cleanKey && cleanKey !== '-' && cleanKey !== '—') {
+          allSlots.push({
+            dayName: dayName,
+            dayNum: dayItem.dayNum,
+            session: 'Chiều',
+            periodSlot: aIdx + 1,
+            subjectKey: cleanKey
+          });
+        }
+      });
+    });
+
+    // 2. Gom nhóm các ô theo từng môn học để nắm vị trí trên TKB
+    var subjectSlotMap = {};
+    allSlots.forEach(function(slot, slotIndex) {
+      if (!subjectSlotMap[slot.subjectKey]) subjectSlotMap[slot.subjectKey] = [];
+      subjectSlotMap[slot.subjectKey].push({ slotIndex: slotIndex, slot: slot });
+    });
+
+    var slotToLessonMap = {};
+    var skippedSlotIndices = {};
+
+    // 3. Xử lý từng môn học theo tiến trình chuẩn và quy tắc Tiết đôi
+    for (var sKey in subjectSlotMap) {
+      var sSlots = subjectSlotMap[sKey];
+
+      if (sKey === 'shcn') {
+        sSlots.forEach(function(slotEntry, idx) {
+          slotToLessonMap[slotEntry.slotIndex] = {
+            isSpecialSlot: true,
+            dayName: slotEntry.slot.dayName,
+            session: slotEntry.slot.session,
+            periodSlot: slotEntry.slot.periodSlot,
+            subjectKey: 'shcn',
+            subjectName: 'Sinh hoạt lớp / Chào cờ',
+            lessonTitle: idx === 0 ? 'Sinh hoạt dưới cờ / Hoạt động trải nghiệm' : 'Sinh hoạt lớp / Tổng kết tuần',
+            period: 'Tiết ' + slotEntry.slot.periodSlot,
+            week: wNum,
+            grade: g
+          };
+        });
+        continue;
+      }
+
+      var weekData = khbdDataObj ? khbdDataObj.getWeekPlan(g, sKey, wNum) : null;
+      var rawLessons = (weekData && weekData.lessons) ? weekData.lessons : [];
+
+      // Mở rộng bài học theo từng đơn vị tiết (bài 1 tiết hoặc bài 2 tiết)
+      var expandedLessonUnits = [];
+      rawLessons.forEach(function(rLes, rIdx) {
+        var title = (rLes.lessonTitle || rLes.title || '').toLowerCase();
+        var isDouble = title.includes('tiết 1 - 2') || title.includes('tiết 1-2') || title.includes('tiết 1, 2') || title.includes('2 tiết') || (rLes.period && rLes.period.includes('2 tiết'));
+
+        if (isDouble) {
+          expandedLessonUnits.push({ lesson: rLes, rawIndex: rIdx, isDouble: true, part: 1 });
+          expandedLessonUnits.push({ lesson: rLes, rawIndex: rIdx, isDouble: true, part: 2 });
+        } else {
+          expandedLessonUnits.push({ lesson: rLes, rawIndex: rIdx, isDouble: false, part: 1 });
+        }
+      });
+
+      var unitIdx = 0;
+      for (var i = 0; i < sSlots.length; i++) {
+        if (skippedSlotIndices[sSlots[i].slotIndex]) continue;
+
+        var curSlotEntry = sSlots[i];
+        var nextSlotEntry = (i + 1 < sSlots.length) ? sSlots[i + 1] : null;
+
+        var curUnit = expandedLessonUnits[unitIdx];
+        var nextUnit = (unitIdx + 1 < expandedLessonUnits.length) ? expandedLessonUnits[unitIdx + 1] : null;
+
+        // KIỂM TRA BÀI TIẾT ĐÔI
+        if (curUnit && curUnit.isDouble && curUnit.part === 1 && nextUnit && nextUnit.isDouble && nextUnit.part === 2 && curUnit.rawIndex === nextUnit.rawIndex) {
+          // Kiểm tra xem 2 slot TKB có LIÊN TỤC (cùng ngày, cùng buổi, liền kề số tiết) không
+          var isConsecutive = nextSlotEntry &&
+                              (nextSlotEntry.slot.dayNum === curSlotEntry.slot.dayNum) &&
+                              (nextSlotEntry.slot.session === curSlotEntry.slot.session) &&
+                              (nextSlotEntry.slot.periodSlot === curSlotEntry.slot.periodSlot + 1);
+
+          if (isConsecutive) {
+            // QUY TẮC: 2 TIẾT LIÊN TỤC -> IN 1 LẦN TÍNH 2 TIẾT
+            var baseLesson = curUnit.lesson;
+            var matchInteg = integratedMap ? integratedMap[sKey + '_' + wNum + '_' + curUnit.rawIndex] : null;
+            var lessonItem = matchInteg ? IntegrationService.injectIntegrationIntoLesson(baseLesson, matchInteg, shouldClean) : (shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(baseLesson) : JSON.parse(JSON.stringify(baseLesson)));
+
+            lessonItem.dayName = curSlotEntry.slot.dayName;
+            lessonItem.session = curSlotEntry.slot.session;
+            lessonItem.periodSlot = curSlotEntry.slot.periodSlot + ' - ' + nextSlotEntry.slot.periodSlot;
+            lessonItem.period = 'Tiết ' + curSlotEntry.slot.periodSlot + ' - ' + nextSlotEntry.slot.periodSlot + ' (Thời lượng 2 tiết)';
+            lessonItem.subjectKey = sKey;
+            lessonItem.subjectName = IntegrationService.getSubjectDisplayName(sKey);
+            lessonItem.week = wNum;
+            lessonItem.grade = g;
+
+            slotToLessonMap[curSlotEntry.slotIndex] = lessonItem;
+            skippedSlotIndices[nextSlotEntry.slotIndex] = true;
+            unitIdx += 2;
+            continue;
+          } else {
+            // QUY TẮC: 2 TIẾT KHÔNG LIÊN TỤC -> IN LẦN 1 (TIẾT 1)
+            var baseLesson1 = curUnit.lesson;
+            var matchInteg1 = integratedMap ? integratedMap[sKey + '_' + wNum + '_' + curUnit.rawIndex] : null;
+            var lessonItem1 = matchInteg1 ? IntegrationService.injectIntegrationIntoLesson(baseLesson1, matchInteg1, shouldClean) : (shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(baseLesson1) : JSON.parse(JSON.stringify(baseLesson1)));
+
+            lessonItem1.dayName = curSlotEntry.slot.dayName;
+            lessonItem1.session = curSlotEntry.slot.session;
+            lessonItem1.periodSlot = curSlotEntry.slot.periodSlot;
+            lessonItem1.period = 'Tiết ' + curSlotEntry.slot.periodSlot + ' (Tiết 1)';
+            lessonItem1.lessonTitle = (baseLesson1.lessonTitle || baseLesson1.title || '') + ' (Tiết 1)';
+            lessonItem1.subjectKey = sKey;
+            lessonItem1.subjectName = IntegrationService.getSubjectDisplayName(sKey);
+            lessonItem1.week = wNum;
+            lessonItem1.grade = g;
+
+            slotToLessonMap[curSlotEntry.slotIndex] = lessonItem1;
+            unitIdx += 1;
+            continue;
+          }
+        } else if (curUnit && curUnit.isDouble && curUnit.part === 2) {
+          // QUY TẮC: 2 TIẾT KHÔNG LIÊN TỤC -> IN LẦN 2 (TIẾT 2)
+          var baseLesson2 = curUnit.lesson;
+          var matchInteg2 = integratedMap ? integratedMap[sKey + '_' + wNum + '_' + curUnit.rawIndex] : null;
+          var lessonItem2 = matchInteg2 ? IntegrationService.injectIntegrationIntoLesson(baseLesson2, matchInteg2, shouldClean) : (shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(baseLesson2) : JSON.parse(JSON.stringify(baseLesson2)));
+
+          lessonItem2.dayName = curSlotEntry.slot.dayName;
+          lessonItem2.session = curSlotEntry.slot.session;
+          lessonItem2.periodSlot = curSlotEntry.slot.periodSlot;
+          lessonItem2.period = 'Tiết ' + curSlotEntry.slot.periodSlot + ' (Tiết 2)';
+          lessonItem2.lessonTitle = (baseLesson2.lessonTitle || baseLesson2.title || '') + ' (Tiết 2)';
+          lessonItem2.subjectKey = sKey;
+          lessonItem2.subjectName = IntegrationService.getSubjectDisplayName(sKey);
+          lessonItem2.week = wNum;
+          lessonItem2.grade = g;
+
+          slotToLessonMap[curSlotEntry.slotIndex] = lessonItem2;
+          unitIdx += 1;
+          continue;
+        }
+
+        // Bài học thông thường (1 tiết)
+        var singleLesson = null;
+        if (curUnit && curUnit.lesson) {
+          var baseLessonS = curUnit.lesson;
+          var matchIntegS = integratedMap ? integratedMap[sKey + '_' + wNum + '_' + curUnit.rawIndex] : null;
+          singleLesson = matchIntegS ? IntegrationService.injectIntegrationIntoLesson(baseLessonS, matchIntegS, shouldClean) : (shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(baseLessonS) : JSON.parse(JSON.stringify(baseLessonS)));
+        } else {
+          singleLesson = {
+            title: IntegrationService.getSubjectDisplayName(sKey) + ' - Tiết ' + (unitIdx + 1),
+            lessonTitle: IntegrationService.getSubjectDisplayName(sKey) + ' - Tiết ' + (unitIdx + 1),
+            period: 'Tiết ' + curSlotEntry.slot.periodSlot,
+            yccd: ['1. Năng lực đặc thù: Thực hiện theo chuẩn chương trình môn ' + IntegrationService.getSubjectDisplayName(sKey) + '.', '2. Phẩm chất: Chăm chỉ, trách nhiệm.'],
+            dodung: ['1. Giáo viên: SGK, máy tính, bài giảng điện tử.', '2. Học sinh: SGK, vở bài tập.'],
+            tables: [[['Hoạt động của giáo viên: Tiến hành bài dạy theo SGK.', 'Hoạt động của học sinh: Lắng nghe, thực hành, trao đổi.']]]
+          };
+        }
+
+        singleLesson.dayName = curSlotEntry.slot.dayName;
+        singleLesson.session = curSlotEntry.slot.session;
+        singleLesson.periodSlot = curSlotEntry.slot.periodSlot;
+        singleLesson.subjectKey = sKey;
+        singleLesson.subjectName = IntegrationService.getSubjectDisplayName(sKey);
+        singleLesson.week = wNum;
+        singleLesson.grade = g;
+
+        slotToLessonMap[curSlotEntry.slotIndex] = singleLesson;
+        unitIdx += 1;
+      }
+    }
+
+    // 4. Lắp ráp lại toàn bộ bài dạy theo đúng thứ tự thời gian trên TKB
     var weeklyOrderedLessons = [];
     var globalPeriodCounter = 1;
 
-    timetable.forEach(function(dayItem) {
-      var dayName = dayItem.day || ('Thứ ' + dayItem.dayNum);
-      
-      // Xử lý buổi sáng
-      (dayItem.morning || []).forEach(function(sKey, mIdx) {
-        var cleanKey = (sKey || '').toLowerCase();
-        if (!cleanKey || cleanKey === '-' || cleanKey === '—') return; // Bỏ qua tiết trống
-
-        if (cleanKey === 'shcn') {
-          // Sinh hoạt chào cờ / cuối tuần
-          weeklyOrderedLessons.push({
-            isSpecialSlot: true,
-            dayName: dayName,
-            session: 'Sáng',
-            periodSlot: mIdx + 1,
-            globalPeriod: globalPeriodCounter++,
-            subjectKey: 'shcn',
-            subjectName: 'Sinh hoạt lớp / Chào cờ',
-            lessonTitle: 'Sinh hoạt dưới cờ / Hoạt động trải nghiệm',
-            period: 'Tiết ' + (mIdx + 1),
-            week: wNum,
-            grade: g
-          });
-          return;
-        }
-
-        if (!subjectCounters[cleanKey]) subjectCounters[cleanKey] = 0;
-        var curLessonIdx = subjectCounters[cleanKey];
-        subjectCounters[cleanKey]++;
-
-        var weekData = khbdDataObj ? khbdDataObj.getWeekPlan(g, cleanKey, wNum) : null;
-        var origLesson = (weekData && weekData.lessons && weekData.lessons[curLessonIdx]) ? weekData.lessons[curLessonIdx] : null;
-
-        var lessonItem = null;
-        if (origLesson) {
-          // Kiểm tra xem có tích hợp không
-          var matchInteg = integratedMap ? integratedMap[cleanKey + '_' + wNum + '_' + curLessonIdx] : null;
-          if (matchInteg) {
-            lessonItem = IntegrationService.injectIntegrationIntoLesson(origLesson, matchInteg, shouldClean);
-          } else {
-            lessonItem = shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(origLesson) : JSON.parse(JSON.stringify(origLesson));
-          }
-        } else {
-          // Fallback tạo bài dạy định dạng chuẩn nếu môn chưa nạp đủ
-          lessonItem = {
-            title: IntegrationService.getSubjectDisplayName(cleanKey) + ' (Tiết ' + (curLessonIdx + 1) + ')',
-            lessonTitle: IntegrationService.getSubjectDisplayName(cleanKey) + ' - Tiết ' + (curLessonIdx + 1),
-            period: 'Tiết ' + (curLessonIdx + 1),
-            yccd: ['1. Về kiến thức, kĩ năng: Thực hiện theo chuẩn chương trình môn ' + IntegrationService.getSubjectDisplayName(cleanKey) + '.', '2. Về phẩm chất: Chăm chỉ, trách nhiệm.'],
-            dodung: ['1. Giáo viên: SGK, máy tính, bài giảng điện tử.', '2. Học sinh: SGK, vở bài tập.'],
-            tables: [[
-              ['Hoạt động của giáo viên: Tiến hành bài dạy theo SGK.', 'Hoạt động của học sinh: Lắng nghe, thực hành, trao đổi.']
-            ]]
-          };
-        }
-
-        lessonItem.dayName = dayName;
-        lessonItem.session = 'Sáng';
-        lessonItem.periodSlot = mIdx + 1;
+    allSlots.forEach(function(slot, slotIndex) {
+      if (skippedSlotIndices[slotIndex]) return;
+      var lessonItem = slotToLessonMap[slotIndex];
+      if (lessonItem) {
         lessonItem.globalPeriod = globalPeriodCounter++;
-        lessonItem.subjectKey = cleanKey;
-        lessonItem.subjectName = IntegrationService.getSubjectDisplayName(cleanKey);
-        lessonItem.week = wNum;
-        lessonItem.grade = g;
-
         weeklyOrderedLessons.push(lessonItem);
-      });
-
-      // Xử lý buổi chiều
-      (dayItem.afternoon || []).forEach(function(sKey, aIdx) {
-        var cleanKey = (sKey || '').toLowerCase();
-        if (!cleanKey || cleanKey === '-' || cleanKey === '—') return; // Bỏ qua tiết trống
-
-        if (cleanKey === 'shcn') {
-          weeklyOrderedLessons.push({
-            isSpecialSlot: true,
-            dayName: dayName,
-            session: 'Chiều',
-            periodSlot: aIdx + 1,
-            globalPeriod: globalPeriodCounter++,
-            subjectKey: 'shcn',
-            subjectName: 'Sinh hoạt lớp / Tổng kết tuần',
-            lessonTitle: 'Sinh hoạt lớp / Tổng kết tuần',
-            period: 'Tiết ' + (aIdx + 1),
-            week: wNum,
-            grade: g
-          });
-          return;
-        }
-
-        if (!subjectCounters[cleanKey]) subjectCounters[cleanKey] = 0;
-        var curLessonIdx = subjectCounters[cleanKey];
-        subjectCounters[cleanKey]++;
-
-        var weekData = khbdDataObj ? khbdDataObj.getWeekPlan(g, cleanKey, wNum) : null;
-        var origLesson = (weekData && weekData.lessons && weekData.lessons[curLessonIdx]) ? weekData.lessons[curLessonIdx] : null;
-
-        var lessonItem = null;
-        if (origLesson) {
-          var matchInteg = integratedMap ? integratedMap[cleanKey + '_' + wNum + '_' + curLessonIdx] : null;
-          if (matchInteg) {
-            lessonItem = IntegrationService.injectIntegrationIntoLesson(origLesson, matchInteg, shouldClean);
-          } else {
-            lessonItem = shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(origLesson) : JSON.parse(JSON.stringify(origLesson));
-          }
-        } else {
-          lessonItem = {
-            title: IntegrationService.getSubjectDisplayName(cleanKey) + ' (Tiết ' + (curLessonIdx + 1) + ')',
-            lessonTitle: IntegrationService.getSubjectDisplayName(cleanKey) + ' - Tiết ' + (curLessonIdx + 1),
-            period: 'Tiết ' + (curLessonIdx + 1),
-            yccd: ['1. Về kiến thức, kĩ năng: Theo chương trình môn học.', '2. Về phẩm chất: Tự tin, chăm chỉ.'],
-            dodung: ['1. GV: Đồ dùng trực quan.', '2. HS: Sách vở bài tập.'],
-            tables: [[
-              ['GV hướng dẫn học sinh thực hiện các nhiệm vụ học tập.', 'HS tích cực làm bài, trao đổi nhóm và báo cáo.']
-            ]]
-          };
-        }
-
-        lessonItem.dayName = dayName;
-        lessonItem.session = 'Chiều';
-        lessonItem.periodSlot = aIdx + 1;
-        lessonItem.globalPeriod = globalPeriodCounter++;
-        lessonItem.subjectKey = cleanKey;
-        lessonItem.subjectName = IntegrationService.getSubjectDisplayName(cleanKey);
-        lessonItem.week = wNum;
-        lessonItem.grade = g;
-
-        weeklyOrderedLessons.push(lessonItem);
-      });
+      }
     });
 
     return {
