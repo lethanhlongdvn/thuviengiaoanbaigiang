@@ -57,10 +57,26 @@ var IntegrationService = {
     return JSON.parse(JSON.stringify(list));
   },
 
-  
-  // =========================================================================
-  // 1.1. BỘ PHÂN TÍCH THỜI KHÓA BIỂU ĐA ĐỊNH DẠNG (EXCEL, WORD, CSV, TXT)
-  // =========================================================================
+  getSubjectDisplayName: function(subjectKey) {
+    if (!subjectKey || subjectKey === '—' || subjectKey === '-') return '—';
+    var map = {
+      'toan': 'Toán',
+      'tieng_viet': 'Tiếng Việt',
+      'khoa_hoc': 'Khoa học',
+      'lich_su_dia_ly': 'Lịch sử và Địa lí',
+      'tnxh': 'Tự nhiên và Xã hội',
+      'dao_duc': 'Đạo đức',
+      'hdtn': 'Hoạt động trải nghiệm',
+      'cong_nghe': 'Công nghệ',
+      'tin_hoc': 'Tin học',
+      'tieng_anh': 'Tiếng Anh',
+      'am_nhac': 'Âm nhạc',
+      'mi_thuat': 'Mĩ thuật',
+      'gdtc': 'Giáo dục thể chất',
+      'shcn': 'Sinh hoạt lớp'
+    };
+    return map[subjectKey] || subjectKey;
+  },
 
   normalizeSubjectKey: function(rawText) {
     if (!rawText || typeof rawText !== 'string') return '';
@@ -86,6 +102,11 @@ var IntegrationService = {
 
     return text;
   },
+
+
+  // =========================================================================
+  // 2. BỘ PHÂN TÍCH THỜI KHÓA BIỂU ĐA ĐỊNH DẠNG (EXCEL, WORD, CSV, TXT)
+  // =========================================================================
 
   /**
    * Phân tích tệp Thời Khóa Biểu (Excel .xlsx/.xls, Word .docx, PDF, CSV, TXT)
@@ -222,30 +243,41 @@ var IntegrationService = {
   },
 
   /**
-   * Trích xuất ma trận ô (2D Array) từ bảng HTML trong tệp Word
+   * Trích xuất ma trận ô (2D Array) từ bảng HTML trong tệp Word (xử lý chuẩn rowspan & colspan)
    */
   extractGridFromHtmlTable: function(html) {
+    var trMatches = (html || '').match(/<tr[^>]*>[\s\S]*?<\/tr>/gi) || [];
     var grid = [];
-    if (!html) return grid;
 
-    var tempDiv = null;
-    if (typeof document !== 'undefined') {
-      tempDiv = document.createElement('div');
-      tempDiv.innerHTML = html;
-      var tables = tempDiv.querySelectorAll('table');
-      if (tables.length > 0) {
-        var table = tables[0];
-        var rows = table.querySelectorAll('tr');
-        rows.forEach(function(tr) {
-          var rowData = [];
-          var cells = tr.querySelectorAll('td, th');
-          cells.forEach(function(c) {
-            rowData.push((c.textContent || '').trim());
-          });
-          if (rowData.length > 0) grid.push(rowData);
-        });
-      }
-    }
+    trMatches.forEach(function(trHtml, rIdx) {
+      if (!grid[rIdx]) grid[rIdx] = [];
+      var cellMatches = trHtml.match(/<(td|th)[^>]*>[\s\S]*?<\/(td|th)>/gi) || [];
+      var colIdx = 0;
+
+      cellMatches.forEach(function(cellHtml) {
+        while (grid[rIdx][colIdx] !== undefined) {
+          colIdx++;
+        }
+
+        var rMatch = cellHtml.match(/rowspan=["']?(\d+)["']?/i);
+        var rowspan = rMatch ? parseInt(rMatch[1]) : 1;
+
+        var cMatch = cellHtml.match(/colspan=["']?(\d+)["']?/i);
+        var colspan = cMatch ? parseInt(cMatch[1]) : 1;
+
+        var text = cellHtml.replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&nbsp;/g, ' ').trim();
+
+        for (var r = 0; r < rowspan; r++) {
+          var targetRow = rIdx + r;
+          if (!grid[targetRow]) grid[targetRow] = [];
+          for (var c = 0; c < colspan; c++) {
+            grid[targetRow][colIdx + c] = text;
+          }
+        }
+        colIdx += colspan;
+      });
+    });
+
     return grid;
   },
 
@@ -255,25 +287,30 @@ var IntegrationService = {
   parseTimetableFromGrid: function(rows, grade) {
     var g = parseInt(grade) || 5;
     var days = [
-      { day: 'Thứ Hai', dayNum: 2, morning: [], afternoon: [] },
-      { day: 'Thứ Ba', dayNum: 3, morning: [], afternoon: [] },
-      { day: 'Thứ Tư', dayNum: 4, morning: [], afternoon: [] },
-      { day: 'Thứ Năm', dayNum: 5, morning: [], afternoon: [] },
-      { day: 'Thứ Sáu', dayNum: 6, morning: [], afternoon: [] }
+      { day: 'Thứ Hai', dayNum: 2, morning: ['', '', '', ''], afternoon: ['', '', ''] },
+      { day: 'Thứ Ba', dayNum: 3, morning: ['', '', '', ''], afternoon: ['', '', ''] },
+      { day: 'Thứ Tư', dayNum: 4, morning: ['', '', '', ''], afternoon: ['', '', ''] },
+      { day: 'Thứ Năm', dayNum: 5, morning: ['', '', '', ''], afternoon: ['', '', ''] },
+      { day: 'Thứ Sáu', dayNum: 6, morning: ['', '', '', ''], afternoon: ['', '', ''] }
     ];
 
     if (!Array.isArray(rows) || rows.length === 0) {
-      return { timetable: IntegrationService.getDefaultTimetable(g), slotsCount: 35 };
+      return { timetable: days, slotsCount: 0 };
     }
 
-    // 1. Tìm dòng Header chứa các Thứ (Thứ 2/Hai, Thứ 3/Ba, Thứ 4/Tư, Thứ 5/Năm, Thứ 6/Sáu)
-    var dayColMap = {}; // { 2: colIdx, 3: colIdx, 4: colIdx, 5: colIdx, 6: colIdx }
+    // 1. Tìm dòng Header chứa các Thứ (Thứ 2, Thứ 3, Thứ 4, Thứ 5, Thứ 6)
+    var dayColMap = {};
     var headerRowIdx = -1;
+    var sessionCol = -1;
+    var periodCol = -1;
 
     for (var r = 0; r < Math.min(rows.length, 10); r++) {
       var row = rows[r] || [];
       for (var c = 0; c < row.length; c++) {
         var cellStr = String(row[c] || '').toLowerCase().trim();
+        if (cellStr.includes('buổi') || cellStr === 'buoi') sessionCol = c;
+        if (cellStr.includes('tiết') || cellStr === 'tiet') periodCol = c;
+
         if (cellStr.includes('thứ 2') || cellStr.includes('thứ hai') || cellStr === 'thứ 2' || cellStr === 'hai' || cellStr === 't2') {
           dayColMap[2] = c;
           headerRowIdx = r;
@@ -294,74 +331,72 @@ var IntegrationService = {
       if (Object.keys(dayColMap).length >= 3) break;
     }
 
-    // Nếu không tìm thấy cột Thứ rõ ràng, giả định các cột liên tiếp (thường từ cột 1 hoặc 2)
     if (Object.keys(dayColMap).length < 3) {
-      var startCol = (rows[0] && rows[0].length >= 6) ? (rows[0].length - 5) : 1;
+      var startCol = (rows[0] && rows[0].length >= 6) ? (rows[0].length - 5) : 2;
       dayColMap = { 2: startCol, 3: startCol + 1, 4: startCol + 2, 5: startCol + 3, 6: startCol + 4 };
       headerRowIdx = 0;
     }
 
     var isAfternoon = false;
-    var morningSlots = { 2: [], 3: [], 4: [], 5: [], 6: [] };
-    var afternoonSlots = { 2: [], 3: [], 4: [], 5: [], 6: [] };
+    var morningCounters = { 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 };
+    var afternoonCounters = { 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 };
+    var filledCount = 0;
 
     for (var r = headerRowIdx + 1; r < rows.length; r++) {
       var row = rows[r] || [];
       var rowText = row.join(' ').toLowerCase();
 
-      if (rowText.includes('chiều') || rowText.includes('buổi chiều') || rowText.includes('buoi chieu')) {
-        isAfternoon = true;
-      }
-      if (rowText.includes('sáng') || rowText.includes('buổi sáng') || rowText.includes('buoi sang')) {
-        isAfternoon = false;
+      // Check session
+      if (sessionCol >= 0 && row[sessionCol]) {
+        var sVal = String(row[sessionCol]).toLowerCase();
+        if (sVal.includes('chiều') || sVal.includes('chieu')) isAfternoon = true;
+        if (sVal.includes('sáng') || sVal.includes('sang')) isAfternoon = false;
+      } else {
+        if (rowText.includes('chiều') || rowText.includes('buổi chiều') || rowText.includes('buoi chieu')) isAfternoon = true;
+        if (rowText.includes('sáng') || rowText.includes('buổi sáng') || rowText.includes('buoi sang')) isAfternoon = false;
       }
 
-      var hasAnySubject = false;
+      // Check period number (1..4 / 1..3)
+      var slotIdx = -1;
+      if (periodCol >= 0 && row[periodCol]) {
+        var pMatch = String(row[periodCol]).match(/(\d+)/);
+        if (pMatch) slotIdx = parseInt(pMatch[1]) - 1;
+      }
+      if (slotIdx < 0) {
+        for (var c = 0; c < Math.min(row.length, 3); c++) {
+          var numMatch = String(row[c] || '').match(/^(\d+)$/);
+          if (numMatch) {
+            slotIdx = parseInt(numMatch[1]) - 1;
+            break;
+          }
+        }
+      }
+
+      // If still no slotIdx, use row counter
+      if (slotIdx < 0) {
+        slotIdx = isAfternoon ? afternoonCounters[2] : morningCounters[2];
+      }
+
+      // Fill in days
       for (var dayNum = 2; dayNum <= 6; dayNum++) {
         var col = dayColMap[dayNum];
         var cellVal = (col !== undefined && row[col] !== undefined) ? String(row[col]).trim() : '';
         var subjKey = IntegrationService.normalizeSubjectKey(cellVal);
 
-        if (subjKey) {
-          hasAnySubject = true;
-          if (isAfternoon) {
-            if (afternoonSlots[dayNum].length < 3) afternoonSlots[dayNum].push(subjKey);
-          } else {
-            if (morningSlots[dayNum].length < 4) {
-              morningSlots[dayNum].push(subjKey);
-            } else if (afternoonSlots[dayNum].length < 3) {
-              afternoonSlots[dayNum].push(subjKey);
-            }
+        var targetDay = days.find(function(d) { return d.dayNum === dayNum; });
+        if (targetDay) {
+          if (!isAfternoon && slotIdx < 4) {
+            targetDay.morning[slotIdx] = subjKey;
+            morningCounters[dayNum] = Math.max(morningCounters[dayNum], slotIdx + 1);
+            if (subjKey) filledCount++;
+          } else if (isAfternoon && slotIdx < 3) {
+            targetDay.afternoon[slotIdx] = subjKey;
+            afternoonCounters[dayNum] = Math.max(afternoonCounters[dayNum], slotIdx + 1);
+            if (subjKey) filledCount++;
           }
         }
       }
     }
-
-    var defaultTkb = IntegrationService.getDefaultTimetable(g);
-    var filledCount = 0;
-
-    days.forEach(function(dayItem, dIdx) {
-      var dNum = dayItem.dayNum;
-      var defDay = defaultTkb[dIdx] || {};
-
-      // Điền buổi sáng (đảm bảo đủ 4 tiết)
-      var mList = morningSlots[dNum] || [];
-      for (var s = 0; s < 4; s++) {
-        var val = mList[s] || (defDay.morning && defDay.morning[s]) || 'toan';
-        dayItem.morning.push(val);
-        if (mList[s]) filledCount++;
-      }
-
-      // Điền buổi chiều (tối đa 3 tiết)
-      var aList = afternoonSlots[dNum] || [];
-      for (var a = 0; a < 3; a++) {
-        var val = aList[a] || (defDay.afternoon && defDay.afternoon[a]) || '';
-        if (val) {
-          dayItem.afternoon.push(val);
-          if (aList[a]) filledCount++;
-        }
-      }
-    });
 
     return { timetable: days, slotsCount: filledCount };
   },
@@ -378,7 +413,6 @@ var IntegrationService = {
       if (parts.length > 1) {
         grid.push(parts);
       } else {
-        // Tách theo nhiều khoảng trắng
         var spaceParts = line.split(/\s{2,}/).map(function(p) { return p.trim(); });
         if (spaceParts.length > 1) grid.push(spaceParts);
         else grid.push([line]);
@@ -389,29 +423,8 @@ var IntegrationService = {
   },
 
 
-  getSubjectDisplayName: function(subjectKey) {
-    var map = {
-      'toan': 'Toán',
-      'tieng_viet': 'Tiếng Việt',
-      'khoa_hoc': 'Khoa học',
-      'lich_su_dia_ly': 'Lịch sử và Địa lí',
-      'tnxh': 'Tự nhiên và Xã hội',
-      'dao_duc': 'Đạo đức',
-      'hdtn': 'Hoạt động trải nghiệm',
-      'cong_nghe': 'Công nghệ',
-      'tin_hoc': 'Tin học',
-      'tieng_anh': 'Tiếng Anh',
-      'am_nhac': 'Âm nhạc',
-      'mi_thuat': 'Mĩ thuật',
-      'gdtc': 'Giáo dục thể chất',
-      'shcn': 'Sinh hoạt lớp'
-    };
-    return map[subjectKey] || (subjectKey ? subjectKey.toUpperCase() : 'Môn học');
-  },
-
-
   // =========================================================================
-  // 2. TRÍCH XUẤT NỘI DUNG TÀI LIỆU TẢI LÊN (.DOCX, .PDF, .TXT)
+  // 3. TRÍCH XUẤT NỘI DUNG TÀI LIỆU TẢI LÊN (.DOCX, .PDF, .TXT)
   // =========================================================================
 
   extractTextFromFile: async function(file) {
@@ -510,7 +523,7 @@ var IntegrationService = {
 
 
   // =========================================================================
-  // 3. NẠP DỮ LIỆU KHBD SỐ HÓA & ĐẢM BẢO TOÀN BỘ MÔN TRONG TUẦN
+  // 4. NẠP DỮ LIỆU KHBD SỐ HÓA & ĐẢM BẢO TOÀN BỘ MÔN TRONG TUẦN
   // =========================================================================
 
   ensureSubjectLoaded: async function(grade, subjectId) {
@@ -554,7 +567,7 @@ var IntegrationService = {
 
 
   // =========================================================================
-  // 4. GHÉP TUẦN TỰ TOÀN BỘ KHBD TRONG TUẦN THEO THỜI KHÓA BIỂU
+  // 5. GHÉP TUẦN TỰ TOÀN BỘ KHBD TRONG TUẦN THEO THỜI KHÓA BIỂU
   // =========================================================================
 
   /**
@@ -581,7 +594,9 @@ var IntegrationService = {
       // Xử lý buổi sáng
       (dayItem.morning || []).forEach(function(sKey, mIdx) {
         var cleanKey = (sKey || '').toLowerCase();
-        if (!cleanKey || cleanKey === 'shcn') {
+        if (!cleanKey || cleanKey === '-' || cleanKey === '—') return; // Bỏ qua tiết trống
+
+        if (cleanKey === 'shcn') {
           // Sinh hoạt chào cờ / cuối tuần
           weeklyOrderedLessons.push({
             isSpecialSlot: true,
@@ -589,9 +604,9 @@ var IntegrationService = {
             session: 'Sáng',
             periodSlot: mIdx + 1,
             globalPeriod: globalPeriodCounter++,
-            subjectKey: cleanKey || 'shcn',
-            subjectName: cleanKey === 'shcn' ? 'Sinh hoạt lớp / Chào cờ' : 'Hoạt động trường',
-            lessonTitle: 'Sinh hoạt đầu tuần / Tổng kết tuần',
+            subjectKey: 'shcn',
+            subjectName: 'Sinh hoạt lớp / Chào cờ',
+            lessonTitle: 'Sinh hoạt dưới cờ / Hoạt động trải nghiệm',
             period: 'Tiết ' + (mIdx + 1),
             week: wNum,
             grade: g
@@ -644,7 +659,24 @@ var IntegrationService = {
       // Xử lý buổi chiều
       (dayItem.afternoon || []).forEach(function(sKey, aIdx) {
         var cleanKey = (sKey || '').toLowerCase();
-        if (!cleanKey) return;
+        if (!cleanKey || cleanKey === '-' || cleanKey === '—') return; // Bỏ qua tiết trống
+
+        if (cleanKey === 'shcn') {
+          weeklyOrderedLessons.push({
+            isSpecialSlot: true,
+            dayName: dayName,
+            session: 'Chiều',
+            periodSlot: aIdx + 1,
+            globalPeriod: globalPeriodCounter++,
+            subjectKey: 'shcn',
+            subjectName: 'Sinh hoạt lớp / Tổng kết tuần',
+            lessonTitle: 'Sinh hoạt lớp / Tổng kết tuần',
+            period: 'Tiết ' + (aIdx + 1),
+            week: wNum,
+            grade: g
+          });
+          return;
+        }
 
         if (!subjectCounters[cleanKey]) subjectCounters[cleanKey] = 0;
         var curLessonIdx = subjectCounters[cleanKey];
@@ -698,14 +730,14 @@ var IntegrationService = {
 
 
   // =========================================================================
-  // 5. AI PHÂN TÍCH TÍCH HỢP TÀI LIỆU
+  // 6. AI PHÂN TÍCH TÍCH HỢP TÀI LIỆU
   // =========================================================================
 
   analyzeIntegrationPlanWithDocument: async function(params) {
     var grade = parseInt(params.grade) || 5;
     var subj = (params.subjectKey || params.subjectId || 'toan').toLowerCase();
     var sWeek = parseInt(params.startWeek) || 1;
-    var maxAllowedEnd = Math.min(35, sWeek + 3); // Tối đa 4 tuần
+    var maxAllowedEnd = Math.min(35, sWeek + 3);
     var eWeek = params.endWeek ? Math.min(maxAllowedEnd, parseInt(params.endWeek)) : Math.min(maxAllowedEnd, sWeek + (parseInt(params.durationWeeks || params.duration) || 1) - 1);
     if (eWeek < sWeek) eWeek = sWeek;
     var dur = eWeek - sWeek + 1;
@@ -780,494 +812,310 @@ var IntegrationService = {
       { key: 'tiết kiệm', tag: 'Kỹ năng tiết kiệm' },
       { key: 'quốc phòng', tag: 'Quốc phòng - An ninh' },
       { key: 'biển đảo', tag: 'Chủ quyền Biển đảo' },
-      { key: 'bạo lực học đường', tag: 'Phòng chống bạo lực' },
-      { key: 'văn hóa ứng xử', tag: 'Văn hóa ứng xử' },
-      { key: 'stem', tag: 'Giáo dục STEM/STEAM' }
+      { key: 'di sản', tag: 'Di sản văn hóa' },
+      { key: 'phẩm chất', tag: 'Phát triển phẩm chất' },
+      { key: 'năng lực', tag: 'Phát triển năng lực' }
     ];
 
-    var lower = clean.toLowerCase();
-    keywords.forEach(function(kw) {
-      if (lower.indexOf(kw.key) !== -1 && coreTopics.indexOf(kw.tag) === -1) {
-        coreTopics.push(kw.tag);
+    var textLower = clean.toLowerCase();
+    keywords.forEach(function(item) {
+      if (textLower.indexOf(item.key) !== -1) {
+        if (coreTopics.indexOf(item.tag) === -1) coreTopics.push(item.tag);
       }
     });
 
-    var extractedTopicName = coreTopics.length > 0 ? coreTopics.join(' • ') : (title || 'Nội dung Chuyên đề mới');
+    if (coreTopics.length === 0) {
+      coreTopics.push('Chuyên đề tích hợp theo tài liệu ' + (title || 'mới'));
+    }
 
     return {
-      topicName: extractedTopicName,
-      keyPoints: sampleLines.slice(0, 5),
-      fullLength: clean.length,
-      snippet: clean.substring(0, 250) + '...'
+      topicName: coreTopics.slice(0, 3).join(' • '),
+      topicsList: coreTopics,
+      sampleQuotes: sampleLines.slice(0, 4),
+      fullSnippet: clean.substring(0, 800)
     };
   },
 
   generatePlanViaSmartRuleEngine: function(grade, subj, weeksPlan, docSummary, userNotes) {
-    var matrixLessons = [];
-    var lessonGlobalIndex = 0;
-    var topicName = docSummary.topicName || 'Chuyên đề Tích hợp Mới';
-    var keyPoints = docSummary.keyPoints || [];
+    var results = [];
+    var topic = docSummary.topicName || 'Chuyên đề mới';
+    var quotes = docSummary.sampleQuotes || [];
+    var quoteIdx = 0;
 
     var targetParts = [
       'Hoạt động Vận dụng, trải nghiệm',
-      'Hoạt động Khởi động',
-      'Hoạt động Luyện tập, thực hành (Bài tập liên hệ)',
-      'Hoạt động Khám phá kiến thức mới'
+      'Hoạt động Khám phá kiến thức mới',
+      'Hoạt động Luyện tập, thực hành',
+      'Hoạt động Khởi động'
     ];
 
-    weeksPlan.forEach(function(wItem) {
-      var wNum = wItem.week;
-      (wItem.lessons || []).forEach(function(les, lIdx) {
-        var lTitle = les.lessonTitle || les.title || ('Bài học ' + (lIdx + 1));
-        var lTopic = les.topic || '';
+    var levels = ['Liên hệ', 'Bộ phận', 'Toàn phần'];
 
-        var targetPart = targetParts[lIdx % targetParts.length];
-        var level = (lIdx % 3 === 0) ? 'Bộ phận' : 'Liên hệ';
+    weeksPlan.forEach(function(weekItem) {
+      (weekItem.lessons || []).forEach(function(les, lIdx) {
+        var pIdx = lIdx % targetParts.length;
+        var chosenPart = targetParts[pIdx];
+        var chosenLevel = levels[lIdx % levels.length];
+        var relevantQuote = quotes.length > 0 ? quotes[quoteIdx % quotes.length] : ('Nội dung tích hợp trọng tâm: ' + topic);
+        quoteIdx++;
 
-        var refPoint = keyPoints[lIdx % Math.max(1, keyPoints.length)] || ('Nội dung gắn liền với định hướng ' + topicName);
-        var brief = 'Tích hợp nội dung ' + topicName + ' vào ' + targetPart + ': ' + (refPoint.length > 70 ? refPoint.substring(0, 70) + '...' : refPoint);
+        var lessonId = (subj || 'toan') + '_' + weekItem.week + '_' + lIdx;
+        var brief = 'Tích hợp nội dung ' + topic + ' vào ' + chosenPart + ': ' + relevantQuote;
 
-        var yccdText = '• [Tích hợp ' + topicName + ']: Vận dụng kiến thức bài học để nhận biết, liên hệ thực tế và hình thành ý thức/kỹ năng theo tài liệu hướng dẫn: ' + topicName + '.';
-        var dodungText = '• [Tích hợp ' + topicName + '] Giáo viên: Phiếu học tập, tranh ảnh/tư liệu trích xuất từ tài liệu ' + topicName + '; Học sinh: Đồ dùng học tập, tranh ảnh liên hệ thực tế.';
+        var gvContent = 'GV hướng dẫn HS liên hệ thực tế về ' + topic + ': ' + relevantQuote;
+        var hsContent = 'HS lắng nghe, trao đổi nhóm, phát biểu cảm nghĩ và thực hành xử lý tình huống về ' + topic + '.';
 
-        var gvAction = '';
-        var hsAction = '';
-
-        if (targetPart.indexOf('Vận dụng') !== -1) {
-          gvAction = '- GV liên hệ thực tế nội dung bài học với tài liệu ' + topicName + ':\n  + Nêu tình huống/câu hỏi: "' + refPoint + '"\n  + Hướng dẫn HS thảo luận nhóm và liên hệ hành động thực tế của bản thân.\n- GV nhận xét, tuyên dương và chốt lại thông điệp giáo dục.';
-          hsAction = '- HS lắng nghe tình huống và trao đổi tích cực trong nhóm đôi/nhóm 4.\n- Đại diện 1-2 HS chia sẻ cách giải quyết/liên hệ trước lớp.\n- Ghi nhớ và cam kết thực hiện trong học tập và sinh hoạt hàng ngày.';
-        } else if (targetPart.indexOf('Khởi động') !== -1) {
-          gvAction = '- GV tạo không khí hào hứng bằng câu hỏi/hình ảnh liên hệ tới ' + topicName + ':\n  + Trình chiếu tư liệu: "' + refPoint + '"\n  + Đặt câu hỏi gợi mở để dẫn dắt vào bài mới.\n- GV nhận xét và kết nối vào bài học.';
-          hsAction = '- HS quan sát hình ảnh/nghe câu hỏi gợi mở.\n- HS xung phong phát biểu nêu cảm nhận hoặc hiểu biết ban đầu.\n- Sẵn sàng bước vào bài học mới với tâm thế tích cực.';
-        } else if (targetPart.indexOf('Luyện tập') !== -1) {
-          gvAction = '- GV thiết kế/lồng ghép thêm câu hỏi vận dụng gắn với tài liệu ' + topicName + ' vào bài tập luyện tập.\n- Yêu cầu HS áp dụng kiến thức vừa học để xử lý tình huống thực tế.\n- Chữa bài và nhận xét câu trả lời của HS.';
-          hsAction = '- HS đọc kỹ yêu cầu bài tập có lồng ghép nội dung ' + topicName + '.\n- Thực hiện làm bài cá nhân vào vở/phiếu học tập.\n- Trình bày kết quả và lắng nghe bạn, thầy cô nhận xét.';
-        } else {
-          gvAction = '- Trong quá trình hướng dẫn khám phá kiến thức mới, GV mở rộng liên hệ tới nội dung ' + topicName + ' (' + refPoint + ').\n- Nhấn mạnh ý nghĩa thực tiễn của kiến thức.';
-          hsAction = '- HS chú ý lắng nghe và quan sát ví dụ liên hệ thực tế của giáo viên.\n- Nêu thêm ví dụ tương tự từ cuộc sống xung quanh em.';
-        }
-
-        var item = {
-          id: 'les_' + wNum + '_' + lIdx,
-          lessonId: 'les_' + wNum + '_' + lIdx,
-          globalIndex: lessonGlobalIndex++,
-          week: wNum,
-          lessonIndex: lIdx,
+        results.push({
+          lessonId: lessonId,
+          week: weekItem.week,
+          periodIndex: lIdx,
           period: les.period || ('Tiết ' + (lIdx + 1)),
-          title: lTitle,
-          lessonTitle: lTitle,
-          topic: lTopic,
-          level: level,
-          degree: level,
-          targetPart: targetPart,
-          topicLabel: topicName,
+          title: les.title || les.lessonTitle || ('Bài ' + (lIdx + 1)),
+          targetPart: chosenPart,
+          level: chosenLevel,
           integrationBrief: brief,
-          integrationTarget: brief,
-          activityHook: targetPart + ' - ' + gvAction.split('\n')[0].replace(/^- /, ''),
-          yccdAddition: yccdText,
-          dodungAddition: dodungText,
+          yccdAddition: '- Tích hợp ' + topic + ' (' + chosenLevel + '): ' + relevantQuote.substring(0, 120) + (relevantQuote.length > 120 ? '...' : ''),
+          dodungAddition: '- Tư liệu, hình ảnh, tình huống thực tế về ' + topic + '.',
           activityAddition: {
-            stepName: targetPart + ' (3-5 phút)',
-            teacher: gvAction,
-            student: hsAction
-          },
-          selected: true
-        };
-
-        matrixLessons.push(item);
+            stepName: chosenPart + ' (3-5 phút)',
+            teacherAct: gvContent,
+            studentAct: hsContent
+          }
+        });
       });
     });
 
-    return matrixLessons;
+    return results;
   },
 
   generatePlanViaGeminiAI: async function(apiKey, grade, subj, sWeek, eWeek, weeksPlan, docTitle, docText, userNotes) {
-    var subjectName = this.getSubjectDisplayName(subj);
-    var lessonListForPrompt = [];
-
-    weeksPlan.forEach(function(wItem) {
-      (wItem.lessons || []).forEach(function(les, lIdx) {
-        lessonListForPrompt.push({
-          week: wItem.week,
-          lessonIndex: lIdx,
-          period: les.period || ('Tiết ' + (lIdx + 1)),
-          title: les.lessonTitle || les.title || 'Bài học'
+    var lessonsListDesc = [];
+    weeksPlan.forEach(function(w) {
+      (w.lessons || []).forEach(function(l, idx) {
+        lessonsListDesc.push({
+          lessonId: subj + '_' + w.week + '_' + idx,
+          week: w.week,
+          periodIndex: idx,
+          period: l.period || ('Tiết ' + (idx + 1)),
+          title: l.title || l.lessonTitle || ''
         });
       });
     });
 
-    var prompt = `Bạn là Chuyên gia Sư phạm Tiểu học hàng đầu Việt Nam về Chương trình GDPT 2018 và Kế hoạch bài dạy chuẩn Công văn 2345/BGDĐT-GDTH.
-NHIỆM VỤ: Nghiên cứu tài liệu chỉ đạo/nội dung tích hợp được cung cấp dưới đây, đối chiếu với danh sách các bài học môn ${subjectName} Khối ${grade} (Tuần ${sWeek} đến Tuần ${eWeek}) để LẬP BẢNG KẾ HOẠCH TÍCH HỢP CHI TIẾT TỪNG TIẾT HỌC.
+    var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Soạn Kế hoạch bài dạy (KHBD) chuẩn Công văn 2345/BGDĐT-GDTH.
+Nhiệm vụ của bạn: Nghiên cứu kỹ tài liệu chỉ đạo tích hợp mới dưới đây, đối chiếu với danh sách các bài dạy môn ${subj.toUpperCase()} - Khối ${grade} (Từ tuần ${sWeek} đến tuần ${eWeek}), và lập KẾ HOẠCH TÍCH HỢP CHI TIẾT cho từng bài dạy.
 
-TÀI LIỆU TÍCH HỢP ĐƯỢC TẢI LÊN:
---- TÊN TÀI LIỆU: ${docTitle} ---
-${docText.substring(0, 4000)}
----------------------------------
-${userNotes ? ('YÊU CẦU ĐẶC BIỆT CỦA GIÁO VIÊN: ' + userNotes) : ''}
+TÀI LIỆU TÍCH HỢP MỚI (${docTitle}):
+"""
+${docText.substring(0, 3500)}
+"""
+
+YÊU CẦU ĐẶC BIỆT CỦA GIÁO VIÊN: "${userNotes || 'Tích hợp sâu sát, sinh động, chuẩn CV 2345'}"
 
 DANH SÁCH BÀI DẠY CẦN TÍCH HỢP:
-${JSON.stringify(lessonListForPrompt, null, 2)}
+${JSON.stringify(lessonsListDesc, null, 2)}
 
-YÊU CẦU ĐẦU RA JSON:
-Trả về duy nhất 1 mảng JSON chứa các bài học với cấu trúc:
+Hãy trả về kết quả dạng JSON thuần túy (không kèm markdown code block \`\`\`json) với cấu trúc mảng suggestions như sau:
 [
   {
+    "lessonId": "toan_1_0",
     "week": 1,
-    "lessonIndex": 0,
+    "periodIndex": 0,
     "period": "Tiết 1",
-    "title": "Tên bài học",
+    "title": "Tên bài",
     "targetPart": "Hoạt động Vận dụng, trải nghiệm",
     "level": "Liên hệ",
-    "integrationBrief": "Tóm tắt ngắn gọn nội dung tích hợp (1 câu)",
-    "yccdAddition": "• [Tích hợp Tên_Nội_Dung]: Yêu cầu cần đạt bổ sung...",
-    "dodungAddition": "• [Tích hợp Tên_Nội_Dung] Giáo viên: ...; Học sinh: ...",
-    "activityTeacher": "- GV nêu câu hỏi / hành động cụ thể cho HS...",
-    "activityStudent": "- HS thảo luận, phát biểu, thực hiện..."
-  }
-]
-`;
-
-    var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: {
-          responseMimeType: 'application/json',
-          temperature: 0.2
-        }
-      })
-    });
-
-    if (!response.ok) throw new Error('Gemini API Error: ' + response.statusText);
-
-    var data = await response.json();
-    var raw = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
-    var parsedList = JSON.parse(raw);
-
-    if (!Array.isArray(parsedList) || parsedList.length === 0) {
-      throw new Error('Không nhận được mảng kết quả từ AI');
+    "integrationBrief": "Tóm tắt ngắn gọn nội dung tích hợp vào tiết này",
+    "yccdAddition": "- Tích hợp ...: Học sinh nhận biết/thực hành ...",
+    "dodungAddition": "- Hình ảnh/tư liệu ...",
+    "activityAddition": {
+      "stepName": "Hoạt động Vận dụng, trải nghiệm (3-5 phút)",
+      "teacherAct": "Lời thoại và nhiệm vụ cụ thể GV giao cho HS",
+      "studentAct": "Hoạt động cụ thể của HS: thảo luận, trả lời, thực hành"
     }
+  }
+]`;
 
-    var matrix = [];
-    var lessonGlobalIndex = 0;
-
-    parsedList.forEach(function(item, idx) {
-      var wNum = item.week || (sWeek + Math.floor(idx / 4));
-      var lIdx = item.lessonIndex !== undefined ? item.lessonIndex : (idx % 4);
-      var part = item.targetPart || 'Hoạt động Vận dụng, trải nghiệm';
-      var gv = item.activityTeacher || item.teacherAction || '- GV tổ chức cho HS liên hệ thực tế.';
-      var hs = item.activityStudent || item.studentAction || '- HS tích cực phát biểu và lắng nghe.';
-
-      matrix.push({
-        id: 'les_' + wNum + '_' + lIdx,
-        lessonId: 'les_' + wNum + '_' + lIdx,
-        globalIndex: lessonGlobalIndex++,
-        week: wNum,
-        lessonIndex: lIdx,
-        period: item.period || ('Tiết ' + (lIdx + 1)),
-        title: item.title || ('Bài ' + (idx + 1)),
-        lessonTitle: item.title || ('Bài ' + (idx + 1)),
-        topic: item.topic || '',
-        level: item.level || 'Liên hệ',
-        degree: item.level || 'Liên hệ',
-        targetPart: part,
-        topicLabel: docTitle,
-        integrationBrief: item.integrationBrief || ('Tích hợp vào ' + part),
-        integrationTarget: item.integrationBrief || ('Tích hợp vào ' + part),
-        activityHook: part + ' - ' + gv.split('\n')[0].replace(/^- /, ''),
-        yccdAddition: item.yccdAddition || ('• [Tích hợp ' + docTitle + ']: Bổ sung phẩm chất và năng lực liên hệ thực tiễn.'),
-        dodungAddition: item.dodungAddition || ('• [Tích hợp ' + docTitle + '] Giáo viên: Tư liệu trực quan; Học sinh: Đồ dùng học tập.'),
-        activityAddition: {
-          stepName: part + ' (3-5 phút)',
-          teacher: gv,
-          student: hs
-        },
-        selected: true
-      });
-    });
-
-    return matrix;
+    var response = await AIService.callGeminiApi(apiKey, prompt, { temperature: 0.3, maxTokens: 4000 });
+    var cleanJson = response.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/, '').trim();
+    var parsed = JSON.parse(cleanJson);
+    if (Array.isArray(parsed)) return parsed;
+    if (parsed && Array.isArray(parsed.suggestions)) return parsed.suggestions;
+    throw new Error('Dữ liệu AI trả về không đúng định dạng mảng JSON');
   },
 
   refineIntegrationPlanWithFeedback: async function(currentPlan, userFeedback) {
-    if (!currentPlan || !currentPlan.suggestions || currentPlan.suggestions.length === 0) {
-      throw new Error('Chưa có kế hoạch hiện tại để điều chỉnh.');
-    }
-    var feedback = (userFeedback || '').trim();
-    if (!feedback) throw new Error('Vui lòng nhập nội dung góp ý.');
-
-    var apiKey = (typeof AuthService !== 'undefined' && AuthService.getApiKey) ? AuthService.getApiKey() : (localStorage.getItem('tvth_gemini_api_key') || (typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ''));
+    if (!currentPlan || !currentPlan.suggestions) throw new Error('Kế hoạch tích hợp không hợp lệ.');
+    var apiKey = (typeof AuthService !== 'undefined' && AuthService.getApiKey) ? AuthService.getApiKey() : ((typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_gemini_api_key') : '') || (typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ''));
 
     if (apiKey && typeof AIService !== 'undefined' && AIService.callGeminiApi) {
       try {
-        var updatedSuggestions = await this.refinePlanViaGeminiAI(apiKey, currentPlan, feedback);
-        currentPlan.suggestions = updatedSuggestions;
-        currentPlan.matrixLessons = updatedSuggestions;
-        return currentPlan;
-      } catch (e) {
-        console.warn('Lỗi gọi Gemini AI khi sửa kế hoạch, chuyển sang Rule Engine:', e);
+        var prompt = `Bạn là Trợ lý AI Soạn Giáo Án Tiểu Học. Dưới đây là Bảng Kế hoạch Tích hợp hiện tại:
+${JSON.stringify(currentPlan.suggestions, null, 2)}
+
+Ý KIẾN GÓP Ý / YÊU CẦU ĐIỀU CHỈNH CỦA GIÁO VIÊN:
+"${userFeedback}"
+
+Hãy điều chỉnh và hoàn thiện lại toàn bộ bảng Kế hoạch tích hợp theo đúng góp ý của giáo viên.
+Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
+
+        var response = await AIService.callGeminiApi(apiKey, prompt, { temperature: 0.3 });
+        var cleanJson = response.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/, '').trim();
+        var updatedSuggestions = JSON.parse(cleanJson);
+        if (Array.isArray(updatedSuggestions)) {
+          currentPlan.suggestions = updatedSuggestions;
+          return currentPlan;
+        }
+      } catch (err) {
+        console.warn('Lỗi AI tinh chỉnh, chuyển sang bộ xử lý trực tiếp:', err);
       }
     }
 
-    var updatedSuggestions = currentPlan.suggestions.map(function(item) {
-      var cloned = JSON.parse(JSON.stringify(item));
-      var lowerFb = feedback.toLowerCase();
-
-      var matchWeek = lowerFb.indexOf('tuần ' + cloned.week) !== -1 || lowerFb.indexOf('t.' + cloned.week) !== -1;
-      var matchPeriod = lowerFb.indexOf(cloned.period.toLowerCase()) !== -1;
-
-      if (lowerFb.indexOf('toàn bộ') !== -1 || lowerFb.indexOf('tất cả') !== -1 || matchWeek || matchPeriod || (!lowerFb.match(/tuần \d/) && !lowerFb.match(/tiết \d/))) {
-        if (lowerFb.indexOf('khởi động') !== -1) {
-          cloned.targetPart = 'Hoạt động Khởi động';
-          cloned.activityAddition.stepName = 'Khởi động (3-5 phút)';
-        } else if (lowerFb.indexOf('vận dụng') !== -1) {
-          cloned.targetPart = 'Hoạt động Vận dụng, trải nghiệm';
-          cloned.activityAddition.stepName = 'Vận dụng, trải nghiệm (4-5 phút)';
-        } else if (lowerFb.indexOf('luyện tập') !== -1) {
-          cloned.targetPart = 'Hoạt động Luyện tập, thực hành';
-          cloned.activityAddition.stepName = 'Luyện tập, thực hành (Bài tập liên hệ)';
-        }
-
-        cloned.activityAddition.teacher += '\n* [Đã cập nhật theo góp ý]: ' + feedback;
-        cloned.integrationBrief += ' (Đã sửa theo góp ý)';
+    currentPlan.suggestions.forEach(function(s) {
+      s.integrationBrief += ' (Đã cập nhật theo yêu cầu: ' + userFeedback.substring(0, 60) + ')';
+      s.yccdAddition += ' [Cập nhật: ' + userFeedback.substring(0, 40) + ']';
+      if (s.activityAddition) {
+        s.activityAddition.teacherAct += ' (GV lưu ý: ' + userFeedback + ')';
       }
-
-      return cloned;
     });
 
-    currentPlan.suggestions = updatedSuggestions;
-    currentPlan.matrixLessons = updatedSuggestions;
     return currentPlan;
   },
 
-  refinePlanViaGeminiAI: async function(apiKey, currentPlan, userFeedback) {
-    var prompt = `Bạn là Chuyên gia Sư phạm Tiểu học.
-Giáo viên đang xem Bảng Kế hoạch Tích hợp Giáo án và đưa ra GÓP Ý / YÊU CẦU ĐIỀU CHỈNH như sau:
-"${userFeedback}"
-
-DƯỚI ĐÂY LÀ BẢNG KẾ HOẠCH HIỆN TẠI (JSON):
-${JSON.stringify(currentPlan.suggestions.map(function(s) {
-  return {
-    week: s.week,
-    lessonIndex: s.lessonIndex,
-    period: s.period,
-    title: s.title,
-    targetPart: s.targetPart,
-    level: s.level,
-    integrationBrief: s.integrationBrief,
-    yccdAddition: s.yccdAddition,
-    dodungAddition: s.dodungAddition,
-    activityTeacher: s.activityAddition.teacher,
-    activityStudent: s.activityAddition.student
-  };
-}), null, 2)}
-
-NHIỆM VỤ: Tiếp thu 100% góp ý của giáo viên và trả về bảng JSON các bài học ĐÃ ĐƯỢC CHỈNH SỬA HOÀN CHỈNH.
-Trả về duy nhất mảng JSON.`;
-
-    var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        contents: [{ parts: [{ text: prompt }] }],
-        generationConfig: {
-          responseMimeType: 'application/json',
-          temperature: 0.2
-        }
-      })
-    });
-
-    if (!response.ok) throw new Error('AI Refine Error');
-    var data = await response.json();
-    var list = JSON.parse(data?.candidates?.[0]?.content?.parts?.[0]?.text || '[]');
-
-    return list.map(function(item, idx) {
-      var orig = currentPlan.suggestions[idx] || {};
-      var part = item.targetPart || orig.targetPart || 'Hoạt động Vận dụng, trải nghiệm';
-      var gv = item.activityTeacher || (orig.activityAddition && orig.activityAddition.teacher) || '';
-      var hs = item.activityStudent || (orig.activityAddition && orig.activityAddition.student) || '';
-
-      return {
-        id: orig.id || ('les_' + (item.week || 1) + '_' + idx),
-        lessonId: orig.lessonId || ('les_' + (item.week || 1) + '_' + idx),
-        globalIndex: idx,
-        week: item.week || orig.week,
-        lessonIndex: item.lessonIndex !== undefined ? item.lessonIndex : orig.lessonIndex,
-        period: item.period || orig.period,
-        title: item.title || orig.title,
-        lessonTitle: item.title || orig.lessonTitle,
-        topic: orig.topic || '',
-        level: item.level || orig.level || 'Liên hệ',
-        degree: item.level || orig.level || 'Liên hệ',
-        targetPart: part,
-        topicLabel: currentPlan.docTitle || 'Tích hợp',
-        integrationBrief: item.integrationBrief || orig.integrationBrief,
-        integrationTarget: item.integrationBrief || orig.integrationBrief,
-        activityHook: part + ' - ' + gv.split('\n')[0].replace(/^- /, ''),
-        yccdAddition: item.yccdAddition || orig.yccdAddition,
-        dodungAddition: item.dodungAddition || orig.dodungAddition,
-        activityAddition: {
-          stepName: part + ' (3-5 phút)',
-          teacher: gv,
-          student: hs
-        },
-        selected: orig.selected !== false
-      };
-    });
-  },
-
 
   // =========================================================================
-  // 6. LÀM SẠCH TÍCH HỢP CŨ & CHÈN NỘI DUNG TÍCH HỢP MỚI CHUẨN CV 2345
+  // 7. LÀM SẠCH TÍCH HỢP CŨ & CHÈN TÍCH HỢP MỚI VÀO BÀI DẠY (CV 2345)
   // =========================================================================
 
-  cleanLegacyIntegrationFromLesson: function(lesson) {
-    if (!lesson) return lesson;
-    var les = JSON.parse(JSON.stringify(lesson));
-    var legacyMarkers = [
-      '[Tích hợp', '[tích hợp', '[GDĐP', '[gdđp', '[Lồng ghép', '[lồng ghép',
-      '[QCN', '[KNS', '[ATGT', '[MÔI TRƯỜNG', '[TÀI CHÍNH', '[QPAN', '[ỨNG XỬ',
-      '[STEM', '[NỘI DUNG TÍCH HỢP', '[Chuyên đề', 'Tích hợp -'
+  cleanLegacyIntegrationFromLesson: function(origLesson) {
+    if (!origLesson) return origLesson;
+    var les = JSON.parse(JSON.stringify(origLesson));
+
+    var integKeywords = [
+      '[Tích hợp', '[Tích hợp mới]', '[GDĐP]', '[QCN]', '[ATGT]', '[BVMT]', '[KNS]', '[GDTC]',
+      'Tích hợp GDĐP', 'Tích hợp Quyền con người', 'Tích hợp Quyền trẻ em', 'Tích hợp Phòng chống đuối nước',
+      'Tích hợp Giáo dục tài chính', 'Tích hợp An toàn giao thông', 'Tích hợp Bảo vệ môi trường',
+      'Tích hợp Chuyển đổi số', 'Tích hợp Kỹ năng số', 'Tích hợp Quốc phòng'
     ];
 
-    function isLegacy(str) {
-      if (typeof str !== 'string') return false;
-      return legacyMarkers.some(function(marker) { return str.indexOf(marker) !== -1; });
+    function isIntegratedText(text) {
+      if (!text || typeof text !== 'string') return false;
+      return integKeywords.some(function(kw) { return text.indexOf(kw) !== -1; });
     }
 
-    if (les.yccd && Array.isArray(les.yccd)) {
-      les.yccd = les.yccd.filter(function(line) { return !isLegacy(line); });
+    if (Array.isArray(les.yccd)) {
+      les.yccd = les.yccd.filter(function(line) { return !isIntegratedText(line); });
     }
 
-    if (les.dodung && Array.isArray(les.dodung)) {
-      les.dodung = les.dodung.filter(function(line) { return !isLegacy(line); });
-    }
-    if (les.teachingAids && Array.isArray(les.teachingAids)) {
-      les.teachingAids = les.teachingAids.filter(function(line) { return !isLegacy(line); });
+    var dodungProp = Array.isArray(les.dodung) ? 'dodung' : (Array.isArray(les.teachingAids) ? 'teachingAids' : null);
+    if (dodungProp && Array.isArray(les[dodungProp])) {
+      les[dodungProp] = les[dodungProp].filter(function(line) { return !isIntegratedText(line); });
     }
 
-    if (les.tables && Array.isArray(les.tables)) {
+    if (Array.isArray(les.tables)) {
       les.tables = les.tables.map(function(tableRows) {
         if (!Array.isArray(tableRows)) return tableRows;
-        return tableRows.filter(function(r) {
-          if (Array.isArray(r)) {
-            return !isLegacy(r[0] || '') && !isLegacy(r[1] || '');
-          } else if (r && typeof r === 'object') {
-            return !isLegacy(r.gv || '') && !isLegacy(r.hs || '') && !isLegacy(r.activityName || '');
-          }
-          return true;
+        return tableRows.filter(function(row) {
+          if (!Array.isArray(row)) return true;
+          var rowStr = row.join(' ');
+          return !isIntegratedText(rowStr);
         });
       });
     }
 
-    if (les.activities && Array.isArray(les.activities)) {
-      les.activities.forEach(function(act) {
-        if (act.rows && Array.isArray(act.rows)) {
-          act.rows = act.rows.filter(function(r) {
-            return !r.isInjected && !isLegacy(r.gv || '') && !isLegacy(r.hs || '') && !isLegacy(r.activityName || '');
-          });
-        }
-      });
-    }
-
     return les;
   },
 
-  injectIntegrationIntoLesson: function(originalLesson, matrixItem, overwriteLegacy) {
+  injectIntegrationIntoLesson: function(origLesson, suggestion, overwriteLegacy) {
     var shouldClean = (overwriteLegacy !== false);
-    var les = shouldClean ? this.cleanLegacyIntegrationFromLesson(originalLesson) : JSON.parse(JSON.stringify(originalLesson));
+    var lesson = shouldClean ? this.cleanLegacyIntegrationFromLesson(origLesson) : JSON.parse(JSON.stringify(origLesson));
 
-    if (!les.yccd) les.yccd = [];
-    if (matrixItem && matrixItem.yccdAddition) {
-      les.yccd.push(matrixItem.yccdAddition);
+    if (!lesson.yccd) lesson.yccd = [];
+    if (suggestion.yccdAddition) {
+      lesson.yccd.push('[Tích hợp mới] ' + suggestion.yccdAddition.replace(/^-\s*/, ''));
     }
 
-    if (!les.dodung) les.dodung = les.teachingAids || [];
-    if (matrixItem && matrixItem.dodungAddition) {
-      les.dodung.push(matrixItem.dodungAddition);
+    var dodungList = lesson.dodung || lesson.teachingAids || [];
+    if (suggestion.dodungAddition) {
+      dodungList.push('[Tích hợp] ' + suggestion.dodungAddition.replace(/^-\s*/, ''));
     }
-    les.teachingAids = les.dodung;
+    lesson.dodung = dodungList;
+    lesson.teachingAids = dodungList;
 
-    var actAddition = matrixItem ? matrixItem.activityAddition : null;
-    var targetPartLabel = (matrixItem && matrixItem.targetPart) || 'Hoạt động Vận dụng, trải nghiệm';
+    if (!lesson.tables || lesson.tables.length === 0) {
+      lesson.tables = [[]];
+    }
 
-    if (actAddition) {
-      var gvText = '<b>* [Tích hợp - ' + targetPartLabel + ']:</b><br/>' + (actAddition.teacher || '').replace(/\n/g, '<br/>');
-      var hsText = '<b>* [Tích hợp - ' + targetPartLabel + ']:</b><br/>' + (actAddition.student || '').replace(/\n/g, '<br/>');
+    if (suggestion.activityAddition) {
+      var act = suggestion.activityAddition;
+      var newHeaderRow = ['* ' + act.stepName + ' [NỘI DUNG TÍCH HỢP MỚI]'];
+      var newActRow = [
+        '[Tích hợp] ' + act.teacherAct,
+        act.studentAct
+      ];
 
-      if (les.tables && les.tables.length > 0 && Array.isArray(les.tables[0])) {
-        les.tables[0].push([gvText, hsText]);
-      } else if (les.activities && les.activities.length > 0) {
-        var targetTable = les.activities[les.activities.length - 1];
-        if (targetTable && targetTable.rows) {
-          targetTable.rows.push({
-            activityName: targetPartLabel,
-            gv: gvText,
-            hs: hsText,
-            isInjected: true
-          });
-        }
+      var lastTable = lesson.tables[lesson.tables.length - 1];
+      if (Array.isArray(lastTable)) {
+        lastTable.push(newHeaderRow);
+        lastTable.push(newActRow);
       }
     }
 
-    les.isInjected = true;
-    les.integrationInfo = {
-      targetPart: targetPartLabel,
-      topicLabel: matrixItem ? matrixItem.topicLabel : '',
-      level: matrixItem ? (matrixItem.level || matrixItem.degree) : '',
-      isReplacedLegacy: shouldClean
-    };
-
-    return les;
+    return lesson;
   },
 
-  applyIntegrationToWeekRange: async function(analyzedPlan, selectedLessonMap, overwriteLegacy) {
-    var matrixLessons = analyzedPlan.suggestions || analyzedPlan.matrixLessons || [];
-    var weeksPlan = analyzedPlan.weeksPlan || [];
-    var integratedWeeks = [];
-    var allAppliedLessons = [];
+  applyIntegrationToWeekRange: async function(plan, selectedLessonsMap, overwriteLegacy) {
+    var grade = plan.grade;
+    var subj = plan.subjectKey;
+    var sWeek = plan.startWeek;
+    var eWeek = plan.endWeek;
     var shouldClean = (overwriteLegacy !== false);
 
-    weeksPlan.forEach(function(wItem) {
-      var wNum = wItem.week;
-      var newLessons = [];
+    await this.ensureSubjectLoaded(grade, subj);
 
-      (wItem.lessons || []).forEach(function(origLes, lIdx) {
-        var matchMatrix = matrixLessons.find(function(m) { return m.week === wNum && m.lessonIndex === lIdx; });
-        var isSelected = matchMatrix && (selectedLessonMap ? selectedLessonMap[matchMatrix.id] !== false : matchMatrix.selected);
+    var khbdDataObj = (typeof window !== 'undefined' && window.KHBD_DATA) ? window.KHBD_DATA : (typeof KHBD_DATA !== 'undefined' ? KHBD_DATA : null);
+    var weeksPlan = khbdDataObj ? khbdDataObj.getWeekRangePlan(grade, subj, sWeek, eWeek) : [];
 
-        if (isSelected && matchMatrix) {
-          var injectedLes = IntegrationService.injectIntegrationIntoLesson(origLes, matchMatrix, shouldClean);
-          injectedLes.week = wNum;
-          newLessons.push(injectedLes);
-          allAppliedLessons.push(injectedLes);
+    var lookupSuggestions = {};
+    (plan.suggestions || []).forEach(function(s) {
+      if (selectedLessonsMap[s.lessonId] !== false) {
+        lookupSuggestions[s.lessonId] = s;
+      }
+    });
+
+    var finalLessons = [];
+
+    weeksPlan.forEach(function(weekItem) {
+      (weekItem.lessons || []).forEach(function(origLes, lIdx) {
+        var lessonId = subj + '_' + weekItem.week + '_' + lIdx;
+        var suggestion = lookupSuggestions[lessonId];
+
+        var integratedLesson = null;
+        if (suggestion) {
+          integratedLesson = IntegrationService.injectIntegrationIntoLesson(origLes, suggestion, shouldClean);
         } else {
-          var cloned = shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(origLes) : JSON.parse(JSON.stringify(origLes));
-          cloned.week = wNum;
-          newLessons.push(cloned);
-          allAppliedLessons.push(cloned);
+          integratedLesson = shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(origLes) : JSON.parse(JSON.stringify(origLes));
         }
-      });
 
-      integratedWeeks.push({
-        week: wNum,
-        sourceFile: wItem.sourceFile,
-        lessons: newLessons
+        integratedLesson.week = weekItem.week;
+        integratedLesson.grade = grade;
+        integratedLesson.subjectName = plan.subjectName;
+        integratedLesson.subjectKey = subj;
+
+        finalLessons.push(integratedLesson);
       });
     });
 
-    integratedWeeks.flatLessons = allAppliedLessons;
-    return allAppliedLessons;
+    return finalLessons;
   },
 
 
   // =========================================================================
-  // 7. XUẤT FILE WORD CHO 2 CHẾ ĐỘ (THEO MÔN HOẶC THEO THỜI KHÓA BIỂU)
+  // 8. XUẤT FILE WORD (.DOC) CHUẨN CÔNG VĂN 2345 (TỪNG MÔN & THEO TKB)
   // =========================================================================
 
   /**
-   * Xuất file Word theo từng môn (.doc)
+   * Xuất file Word trọn gói cho Kế hoạch bài dạy theo Môn
    */
   exportToWord: function(lessonsOrWeeks, metadata) {
     var meta = metadata || {};
@@ -1322,8 +1170,8 @@ Trả về duy nhất mảng JSON.`;
     for (var slot = 0; slot < 4; slot++) {
       tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Sáng)</td>';
       timetable.forEach(function(day) {
-        var sKey = (day.morning && day.morning[slot]) || '—';
-        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + IntegrationService.getSubjectDisplayName(sKey) + '</td>';
+        var sKey = (day.morning && day.morning[slot]) || '';
+        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + (sKey ? IntegrationService.getSubjectDisplayName(sKey) : '') + '</td>';
       });
       tkbTableRows += '</tr>';
     }
@@ -1332,8 +1180,8 @@ Trả về duy nhất mảng JSON.`;
     for (var slot = 0; slot < 3; slot++) {
       tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Chiều)</td>';
       timetable.forEach(function(day) {
-        var sKey = (day.afternoon && day.afternoon[slot]) || '—';
-        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + (sKey !== '—' ? IntegrationService.getSubjectDisplayName(sKey) : '') + '</td>';
+        var sKey = (day.afternoon && day.afternoon[slot]) || '';
+        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + (sKey ? IntegrationService.getSubjectDisplayName(sKey) : '') + '</td>';
       });
       tkbTableRows += '</tr>';
     }

@@ -3763,6 +3763,7 @@ function openTimetableEditorModal() {
                   return `
                     <td style="padding: 3px; border: 1px solid #cbd5e1;">
                       <select id="tkb_m_${dayIdx}_${slotIdx}" class="form-select" style="font-size: 0.75rem; padding: 3px;">
+                        <option value="">— (Trống / GV chuyên) —</option>
                         ${availableSubjects.map(function(s) {
                           return `<option value="${s.key}" ${s.key === curSubj ? 'selected' : ''}>${s.name}</option>`;
                         }).join('')}
@@ -3787,7 +3788,7 @@ function openTimetableEditorModal() {
                   return `
                     <td style="padding: 3px; border: 1px solid #cbd5e1;">
                       <select id="tkb_a_${dayIdx}_${slotIdx}" class="form-select" style="font-size: 0.75rem; padding: 3px;">
-                        <option value="">— (Nghỉ / Trống) —</option>
+                        <option value="">— (Trống / GV chuyên) —</option>
                         ${availableSubjects.map(function(s) {
                           return `<option value="${s.key}" ${s.key === curSubj ? 'selected' : ''}>${s.name}</option>`;
                         }).join('')}
@@ -3825,13 +3826,11 @@ function saveCustomTimetableFromModal() {
   for (var dayIdx = 0; dayIdx < 5; dayIdx++) {
     for (var m = 0; m < 4; m++) {
       var sel = document.getElementById('tkb_m_' + dayIdx + '_' + m);
-      days[dayIdx].morning.push(sel ? sel.value : 'toan');
+      days[dayIdx].morning.push(sel ? sel.value : '');
     }
     for (var a = 0; a < 3; a++) {
       var selA = document.getElementById('tkb_a_' + dayIdx + '_' + a);
-      if (selA && selA.value) {
-        days[dayIdx].afternoon.push(selA.value);
-      }
+      days[dayIdx].afternoon.push(selA ? selA.value : '');
     }
   }
 
