@@ -1,59 +1,116 @@
 /**
  * TRỢ LÝ AI TÍCH HỢP GIÁO ÁN TỰ ĐỘNG (CHUẨN CÔNG VĂN 2345/BGDĐT-GDTH)
  * Hệ thống số hóa Kế hoạch bài dạy 5 Khối lớp (Bộ sách Kết nối tri thức với cuộc sống)
- * Cơ chế AI Nghiên cứu Tài liệu tải lên & Lập Kế hoạch tích hợp Tương tác
+ * Hỗ trợ 2 Chế độ:
+ * 1. Xuất theo Từng Môn (Có hoặc Không tích hợp)
+ * 2. Xuất theo Thời Khóa Biểu Tuần (Ghép tuần tự tất cả các môn, Có hoặc Không tích hợp)
  * Quản trị: Thầy Lê Thành Long
  */
 
 var IntegrationService = {
 
   // =========================================================================
-  // 1. TRÍCH XUẤT NỘI DUNG VĂN BẢN TỪ FILE TẢI LÊN (.DOCX, .PDF, .TXT)
+  // 1. MẪU THỜI KHÓA BIỂU CHUẨN CỦA BỘ GD&ĐT (CHO 5 KHỐI LỚP)
   // =========================================================================
 
-  /**
-   * Đọc và trích xuất nội dung văn bản thuần túy từ tệp người dùng tải lên
-   * @param {File} file Đối tượng File từ thẻ <input type="file"> hoặc Drag & Drop
-   * @returns {Promise<{success: boolean, text: string, fileName: string, fileType: string, wordCount: number}>}
-   */
-  extractTextFromFile: async function(file) {
-    if (!file) {
-      throw new Error('Vui lòng chọn tệp tài liệu.');
-    }
+  DEFAULT_TIMETABLES: {
+    5: [
+      { day: 'Thứ Hai', dayNum: 2, morning: ['hdtn', 'toan', 'tieng_viet', 'tieng_viet'], afternoon: ['khoa_hoc', 'lich_su_dia_ly', 'dao_duc'] },
+      { day: 'Thứ Ba', dayNum: 3, morning: ['toan', 'tieng_viet', 'tieng_viet', 'khoa_hoc'], afternoon: ['cong_nghe', 'tieng_anh', 'gdtc'] },
+      { day: 'Thứ Tư', dayNum: 4, morning: ['toan', 'tieng_viet', 'tieng_viet', 'lich_su_dia_ly'], afternoon: ['tin_hoc', 'am_nhac', 'mi_thuat'] },
+      { day: 'Thứ Năm', dayNum: 5, morning: ['toan', 'tieng_viet', 'tieng_viet', 'tieng_anh'], afternoon: ['dao_duc', 'toan', 'gdtc'] },
+      { day: 'Thứ Sáu', dayNum: 6, morning: ['toan', 'tieng_viet', 'tieng_anh', 'cong_nghe'], afternoon: ['hdtn', 'tin_hoc', 'hdtn'] }
+    ],
+    4: [
+      { day: 'Thứ Hai', dayNum: 2, morning: ['hdtn', 'toan', 'tieng_viet', 'tieng_viet'], afternoon: ['khoa_hoc', 'lich_su_dia_ly', 'dao_duc'] },
+      { day: 'Thứ Ba', dayNum: 3, morning: ['toan', 'tieng_viet', 'tieng_viet', 'khoa_hoc'], afternoon: ['cong_nghe', 'tieng_anh', 'gdtc'] },
+      { day: 'Thứ Tư', dayNum: 4, morning: ['toan', 'tieng_viet', 'tieng_viet', 'lich_su_dia_ly'], afternoon: ['tin_hoc', 'am_nhac', 'mi_thuat'] },
+      { day: 'Thứ Năm', dayNum: 5, morning: ['toan', 'tieng_viet', 'tieng_viet', 'tieng_anh'], afternoon: ['dao_duc', 'toan', 'gdtc'] },
+      { day: 'Thứ Sáu', dayNum: 6, morning: ['toan', 'tieng_viet', 'tieng_anh', 'cong_nghe'], afternoon: ['hdtn', 'tin_hoc', 'hdtn'] }
+    ],
+    3: [
+      { day: 'Thứ Hai', dayNum: 2, morning: ['hdtn', 'toan', 'tieng_viet', 'tieng_viet'], afternoon: ['tnxh', 'dao_duc', 'am_nhac'] },
+      { day: 'Thứ Ba', dayNum: 3, morning: ['toan', 'tieng_viet', 'tieng_viet', 'tnxh'], afternoon: ['cong_nghe', 'tieng_anh', 'gdtc'] },
+      { day: 'Thứ Tư', dayNum: 4, morning: ['toan', 'tieng_viet', 'tieng_viet', 'tin_hoc'], afternoon: ['mi_thuat', 'dao_duc', 'gdtc'] },
+      { day: 'Thứ Năm', dayNum: 5, morning: ['toan', 'tieng_viet', 'tieng_viet', 'tieng_anh'], afternoon: ['tnxh', 'toan', 'cong_nghe'] },
+      { day: 'Thứ Sáu', dayNum: 6, morning: ['toan', 'tieng_viet', 'tieng_anh', 'tin_hoc'], afternoon: ['hdtn', 'hdtn', 'hdtn'] }
+    ],
+    2: [
+      { day: 'Thứ Hai', dayNum: 2, morning: ['hdtn', 'tieng_viet', 'tieng_viet', 'toan'], afternoon: ['tnxh', 'dao_duc', 'gdtc'] },
+      { day: 'Thứ Ba', dayNum: 3, morning: ['tieng_viet', 'tieng_viet', 'toan', 'tnxh'], afternoon: ['am_nhac', 'tieng_anh', 'hdtn'] },
+      { day: 'Thứ Tư', dayNum: 4, morning: ['tieng_viet', 'tieng_viet', 'toan', 'dao_duc'], afternoon: ['mi_thuat', 'gdtc', 'tnxh'] },
+      { day: 'Thứ Năm', dayNum: 5, morning: ['tieng_viet', 'tieng_viet', 'toan', 'tieng_anh'], afternoon: ['toan', 'hdtn', 'gdtc'] },
+      { day: 'Thứ Sáu', dayNum: 6, morning: ['tieng_viet', 'tieng_viet', 'toan', 'tieng_anh'], afternoon: ['hdtn', 'hdtn', 'hdtn'] }
+    ],
+    1: [
+      { day: 'Thứ Hai', dayNum: 2, morning: ['hdtn', 'tieng_viet', 'tieng_viet', 'toan'], afternoon: ['tnxh', 'dao_duc', 'gdtc'] },
+      { day: 'Thứ Ba', dayNum: 3, morning: ['tieng_viet', 'tieng_viet', 'toan', 'tnxh'], afternoon: ['am_nhac', 'tieng_anh', 'hdtn'] },
+      { day: 'Thứ Tư', dayNum: 4, morning: ['tieng_viet', 'tieng_viet', 'toan', 'dao_duc'], afternoon: ['mi_thuat', 'gdtc', 'tnxh'] },
+      { day: 'Thứ Năm', dayNum: 5, morning: ['tieng_viet', 'tieng_viet', 'toan', 'tieng_anh'], afternoon: ['toan', 'hdtn', 'gdtc'] },
+      { day: 'Thứ Sáu', dayNum: 6, morning: ['tieng_viet', 'tieng_viet', 'toan', 'tieng_anh'], afternoon: ['hdtn', 'hdtn', 'hdtn'] }
+    ]
+  },
 
+  getDefaultTimetable: function(grade) {
+    var g = parseInt(grade) || 5;
+    var list = this.DEFAULT_TIMETABLES[g] || this.DEFAULT_TIMETABLES[5];
+    return JSON.parse(JSON.stringify(list));
+  },
+
+  getSubjectDisplayName: function(subjectKey) {
+    var map = {
+      'toan': 'Toán',
+      'tieng_viet': 'Tiếng Việt',
+      'khoa_hoc': 'Khoa học',
+      'lich_su_dia_ly': 'Lịch sử và Địa lí',
+      'tnxh': 'Tự nhiên và Xã hội',
+      'dao_duc': 'Đạo đức',
+      'hdtn': 'Hoạt động trải nghiệm',
+      'cong_nghe': 'Công nghệ',
+      'tin_hoc': 'Tin học',
+      'tieng_anh': 'Tiếng Anh',
+      'am_nhac': 'Âm nhạc',
+      'mi_thuat': 'Mĩ thuật',
+      'gdtc': 'Giáo dục thể chất',
+      'shcn': 'Sinh hoạt lớp'
+    };
+    return map[subjectKey] || (subjectKey ? subjectKey.toUpperCase() : 'Môn học');
+  },
+
+
+  // =========================================================================
+  // 2. TRÍCH XUẤT NỘI DUNG TÀI LIỆU TẢI LÊN (.DOCX, .PDF, .TXT)
+  // =========================================================================
+
+  extractTextFromFile: async function(file) {
+    if (!file) throw new Error('Vui lòng chọn tệp tài liệu.');
     var fileName = file.name || 'Tai_lieu_tich_hop';
     var ext = (fileName.split('.').pop() || '').toLowerCase();
 
-    // 1. Tệp văn bản thuần .TXT hoặc .MD
-    if (ext === 'txt' || ext === 'md' || ext === 'json') {
+    if (ext === 'txt' || ext === 'md' || ext === 'json' || ext === 'csv') {
       return new Promise(function(resolve, reject) {
         var reader = new FileReader();
         reader.onload = function(e) {
           var text = (e.target.result || '').trim();
-          var wordCount = text ? text.split(/\s+/).length : 0;
           resolve({
             success: true,
             text: text,
             fileName: fileName,
             fileType: ext.toUpperCase(),
-            wordCount: wordCount
+            wordCount: text ? text.split(/\s+/).length : 0
           });
         };
-        reader.onerror = function() {
-          reject(new Error('Không thể đọc nội dung tệp văn bản: ' + fileName));
-        };
+        reader.onerror = function() { reject(new Error('Không thể đọc tệp văn bản: ' + fileName)); };
         reader.readAsText(file, 'utf-8');
       });
     }
 
-    // 2. Tệp Word (.DOCX) - Dùng thư viện Mammoth.js
     if (ext === 'docx') {
       return new Promise(function(resolve, reject) {
         var reader = new FileReader();
         reader.onload = function(e) {
-          var arrayBuffer = e.target.result;
           if (typeof mammoth !== 'undefined') {
-            mammoth.extractRawText({ arrayBuffer: arrayBuffer })
+            mammoth.extractRawText({ arrayBuffer: e.target.result })
               .then(function(result) {
                 var text = (result.value || '').trim();
                 resolve({
@@ -64,12 +121,9 @@ var IntegrationService = {
                   wordCount: text ? text.split(/\s+/).length : 0
                 });
               })
-              .catch(function(err) {
-                reject(new Error('Lỗi khi phân tích tệp .docx: ' + (err.message || '')));
-              });
+              .catch(function(err) { reject(new Error('Lỗi phân tích tệp .docx: ' + err.message)); });
           } else {
-            // Mammoth fallback if not ready
-            reject(new Error('Thư viện đọc Word (.docx) đang nạp. Bạn vui lòng dán trực tiếp nội dung vào ô văn bản bên cạnh nhé!'));
+            reject(new Error('Thư viện đọc Word (.docx) đang tải, vui lòng dán nội dung vào ô văn bản.'));
           }
         };
         reader.onerror = function() { reject(new Error('Lỗi khi nạp tệp Word.')); };
@@ -77,14 +131,12 @@ var IntegrationService = {
       });
     }
 
-    // 3. Tệp PDF (.PDF) - Dùng thư viện PDF.js
     if (ext === 'pdf') {
       return new Promise(function(resolve, reject) {
         if (typeof pdfjsLib === 'undefined') {
-          reject(new Error('Thư viện đọc PDF đang được nạp, bạn có thể dán trực tiếp nội dung vào ô văn bản bên cạnh.'));
+          reject(new Error('Thư viện đọc PDF đang nạp, vui lòng thử lại hoặc dán văn bản trực tiếp.'));
           return;
         }
-
         var reader = new FileReader();
         reader.onload = async function(e) {
           try {
@@ -95,7 +147,7 @@ var IntegrationService = {
             var loadingTask = pdfjsLib.getDocument({ data: typedarray });
             var pdf = await loadingTask.promise;
             var fullText = '';
-            var maxPages = Math.min(pdf.numPages, 30); // Giới hạn 30 trang đầu
+            var maxPages = Math.min(pdf.numPages, 30);
 
             for (var pageNum = 1; pageNum <= maxPages; pageNum++) {
               var page = await pdf.getPage(pageNum);
@@ -114,24 +166,19 @@ var IntegrationService = {
               wordCount: text ? text.split(/\s+/).length : 0
             });
           } catch (err) {
-            reject(new Error('Lỗi khi trích xuất văn bản từ tệp PDF: ' + (err.message || '')));
+            reject(new Error('Lỗi trích xuất PDF: ' + err.message));
           }
         };
         reader.readAsArrayBuffer(file);
       });
     }
 
-    // 4. Các định dạng khác (.doc cũ): hướng dẫn người dùng
-    if (ext === 'doc') {
-      throw new Error('Định dạng .doc (Word 97-2003) cũ không hỗ trợ đọc trực tiếp trên trình duyệt. Bạn vui lòng lưu lại thành .docx hoặc mở tệp và Copy/Paste nội dung vào ô dán văn bản bên cạnh nhé!');
-    }
-
-    throw new Error('Định dạng tệp .' + ext + ' chưa được hỗ trợ. Vui lòng tải lên tệp .docx, .pdf, .txt hoặc dán văn bản trực tiếp.');
+    throw new Error('Định dạng tệp .' + ext + ' chưa được hỗ trợ. Vui lòng chọn .docx, .pdf, .txt hoặc dán văn bản trực tiếp.');
   },
 
 
   // =========================================================================
-  // 2. NẠP DỮ LIỆU KẾ HOẠCH BÀI DẠY SỐ HÓA
+  // 3. NẠP DỮ LIỆU KHBD SỐ HÓA & ĐẢM BẢO TOÀN BỘ MÔN TRONG TUẦN
   // =========================================================================
 
   ensureSubjectLoaded: async function(grade, subjectId) {
@@ -143,56 +190,194 @@ var IntegrationService = {
       return true;
     }
     
-    if (typeof document === 'undefined') {
-      return true;
-    }
+    if (typeof document === 'undefined') return true;
 
     var filePath = 'js/khbd_sohoa/lop' + g + '/lop' + g + '_' + sId + '.js';
     return new Promise(function(resolve) {
       var existing = document.querySelector('script[src="' + filePath + '"]');
-      if (existing) {
-        resolve(true);
-        return;
-      }
+      if (existing) { resolve(true); return; }
       var s = document.createElement('script');
       s.src = filePath;
       s.onload = function() { resolve(true); };
-      s.onerror = function() {
-        console.warn('Could not load script:', filePath);
-        resolve(false);
-      };
+      s.onerror = function() { resolve(false); };
       document.head.appendChild(s);
     });
   },
 
-  getSubjectDisplayName: function(subjectKey) {
-    var map = {
-      'toan': 'Toán',
-      'tieng_viet': 'Tiếng Việt',
-      'khoa_hoc': 'Khoa học',
-      'lich_su_dia_ly': 'Lịch sử và Địa lí',
-      'tnxh': 'Tự nhiên và Xã hội',
-      'dao_duc': 'Đạo đức',
-      'hdtn': 'Hoạt động trải nghiệm',
-      'cong_nghe': 'Công nghệ',
-      'tin_hoc': 'Tin học'
-    };
-    return map[subjectKey] || (subjectKey ? subjectKey.toUpperCase() : 'Môn học');
+  ensureAllSubjectsLoadedForGrade: async function(grade) {
+    var g = parseInt(grade) || 5;
+    var subjs = ['toan', 'tieng_viet', 'dao_duc', 'hdtn'];
+    if (g <= 3) {
+      subjs.push('tnxh');
+      if (g === 3) subjs.push('cong_nghe');
+    } else {
+      subjs.push('khoa_hoc', 'lich_su_dia_ly', 'cong_nghe');
+    }
+
+    for (var i = 0; i < subjs.length; i++) {
+      await this.ensureSubjectLoaded(g, subjs[i]);
+    }
+    return true;
   },
 
 
   // =========================================================================
-  // 3. AI NGHIÊN CỨU TÀI LIỆU & LẬP KẾ HOẠCH TÍCH HỢP CHI TIẾT
+  // 4. GHÉP TUẦN TỰ TOÀN BỘ KHBD TRONG TUẦN THEO THỜI KHÓA BIỂU
+  // =========================================================================
+
+  /**
+   * Xếp toàn bộ bài dạy các môn trong tuần theo đúng thứ tự Tiết & Thứ của TKB
+   */
+  buildWeeklyPlanByTimetable: async function(grade, weekNumber, customTimetable, integratedMap, overwriteLegacy) {
+    var g = parseInt(grade) || 5;
+    var wNum = parseInt(weekNumber) || 1;
+    var timetable = customTimetable || this.getDefaultTimetable(g);
+    var shouldClean = (overwriteLegacy !== false);
+
+    await this.ensureAllSubjectsLoadedForGrade(g);
+
+    var khbdDataObj = (typeof window !== 'undefined' && window.KHBD_DATA) ? window.KHBD_DATA : (typeof KHBD_DATA !== 'undefined' ? KHBD_DATA : null);
+    
+    // Đếm số tiết đã lấy của từng môn trong tuần đó
+    var subjectCounters = {};
+    var weeklyOrderedLessons = [];
+    var globalPeriodCounter = 1;
+
+    timetable.forEach(function(dayItem) {
+      var dayName = dayItem.day || ('Thứ ' + dayItem.dayNum);
+      
+      // Xử lý buổi sáng
+      (dayItem.morning || []).forEach(function(sKey, mIdx) {
+        var cleanKey = (sKey || '').toLowerCase();
+        if (!cleanKey || cleanKey === 'shcn') {
+          // Sinh hoạt chào cờ / cuối tuần
+          weeklyOrderedLessons.push({
+            isSpecialSlot: true,
+            dayName: dayName,
+            session: 'Sáng',
+            periodSlot: mIdx + 1,
+            globalPeriod: globalPeriodCounter++,
+            subjectKey: cleanKey || 'shcn',
+            subjectName: cleanKey === 'shcn' ? 'Sinh hoạt lớp / Chào cờ' : 'Hoạt động trường',
+            lessonTitle: 'Sinh hoạt đầu tuần / Tổng kết tuần',
+            period: 'Tiết ' + (mIdx + 1),
+            week: wNum,
+            grade: g
+          });
+          return;
+        }
+
+        if (!subjectCounters[cleanKey]) subjectCounters[cleanKey] = 0;
+        var curLessonIdx = subjectCounters[cleanKey];
+        subjectCounters[cleanKey]++;
+
+        var weekData = khbdDataObj ? khbdDataObj.getWeekPlan(g, cleanKey, wNum) : null;
+        var origLesson = (weekData && weekData.lessons && weekData.lessons[curLessonIdx]) ? weekData.lessons[curLessonIdx] : null;
+
+        var lessonItem = null;
+        if (origLesson) {
+          // Kiểm tra xem có tích hợp không
+          var matchInteg = integratedMap ? integratedMap[cleanKey + '_' + wNum + '_' + curLessonIdx] : null;
+          if (matchInteg) {
+            lessonItem = IntegrationService.injectIntegrationIntoLesson(origLesson, matchInteg, shouldClean);
+          } else {
+            lessonItem = shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(origLesson) : JSON.parse(JSON.stringify(origLesson));
+          }
+        } else {
+          // Fallback tạo bài dạy định dạng chuẩn nếu môn chưa nạp đủ
+          lessonItem = {
+            title: IntegrationService.getSubjectDisplayName(cleanKey) + ' (Tiết ' + (curLessonIdx + 1) + ')',
+            lessonTitle: IntegrationService.getSubjectDisplayName(cleanKey) + ' - Tiết ' + (curLessonIdx + 1),
+            period: 'Tiết ' + (curLessonIdx + 1),
+            yccd: ['1. Về kiến thức, kĩ năng: Thực hiện theo chuẩn chương trình môn ' + IntegrationService.getSubjectDisplayName(cleanKey) + '.', '2. Về phẩm chất: Chăm chỉ, trách nhiệm.'],
+            dodung: ['1. Giáo viên: SGK, máy tính, bài giảng điện tử.', '2. Học sinh: SGK, vở bài tập.'],
+            tables: [[
+              ['Hoạt động của giáo viên: Tiến hành bài dạy theo SGK.', 'Hoạt động của học sinh: Lắng nghe, thực hành, trao đổi.']
+            ]]
+          };
+        }
+
+        lessonItem.dayName = dayName;
+        lessonItem.session = 'Sáng';
+        lessonItem.periodSlot = mIdx + 1;
+        lessonItem.globalPeriod = globalPeriodCounter++;
+        lessonItem.subjectKey = cleanKey;
+        lessonItem.subjectName = IntegrationService.getSubjectDisplayName(cleanKey);
+        lessonItem.week = wNum;
+        lessonItem.grade = g;
+
+        weeklyOrderedLessons.push(lessonItem);
+      });
+
+      // Xử lý buổi chiều
+      (dayItem.afternoon || []).forEach(function(sKey, aIdx) {
+        var cleanKey = (sKey || '').toLowerCase();
+        if (!cleanKey) return;
+
+        if (!subjectCounters[cleanKey]) subjectCounters[cleanKey] = 0;
+        var curLessonIdx = subjectCounters[cleanKey];
+        subjectCounters[cleanKey]++;
+
+        var weekData = khbdDataObj ? khbdDataObj.getWeekPlan(g, cleanKey, wNum) : null;
+        var origLesson = (weekData && weekData.lessons && weekData.lessons[curLessonIdx]) ? weekData.lessons[curLessonIdx] : null;
+
+        var lessonItem = null;
+        if (origLesson) {
+          var matchInteg = integratedMap ? integratedMap[cleanKey + '_' + wNum + '_' + curLessonIdx] : null;
+          if (matchInteg) {
+            lessonItem = IntegrationService.injectIntegrationIntoLesson(origLesson, matchInteg, shouldClean);
+          } else {
+            lessonItem = shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(origLesson) : JSON.parse(JSON.stringify(origLesson));
+          }
+        } else {
+          lessonItem = {
+            title: IntegrationService.getSubjectDisplayName(cleanKey) + ' (Tiết ' + (curLessonIdx + 1) + ')',
+            lessonTitle: IntegrationService.getSubjectDisplayName(cleanKey) + ' - Tiết ' + (curLessonIdx + 1),
+            period: 'Tiết ' + (curLessonIdx + 1),
+            yccd: ['1. Về kiến thức, kĩ năng: Theo chương trình môn học.', '2. Về phẩm chất: Tự tin, chăm chỉ.'],
+            dodung: ['1. GV: Đồ dùng trực quan.', '2. HS: Sách vở bài tập.'],
+            tables: [[
+              ['GV hướng dẫn học sinh thực hiện các nhiệm vụ học tập.', 'HS tích cực làm bài, trao đổi nhóm và báo cáo.']
+            ]]
+          };
+        }
+
+        lessonItem.dayName = dayName;
+        lessonItem.session = 'Chiều';
+        lessonItem.periodSlot = aIdx + 1;
+        lessonItem.globalPeriod = globalPeriodCounter++;
+        lessonItem.subjectKey = cleanKey;
+        lessonItem.subjectName = IntegrationService.getSubjectDisplayName(cleanKey);
+        lessonItem.week = wNum;
+        lessonItem.grade = g;
+
+        weeklyOrderedLessons.push(lessonItem);
+      });
+    });
+
+    return {
+      week: wNum,
+      grade: g,
+      timetable: timetable,
+      lessons: weeklyOrderedLessons,
+      totalSlots: weeklyOrderedLessons.length
+    };
+  },
+
+
+  // =========================================================================
+  // 5. AI PHÂN TÍCH TÍCH HỢP TÀI LIỆU
   // =========================================================================
 
   analyzeIntegrationPlanWithDocument: async function(params) {
     var grade = parseInt(params.grade) || 5;
     var subj = (params.subjectKey || params.subjectId || 'toan').toLowerCase();
     var sWeek = parseInt(params.startWeek) || 1;
-    var maxAllowedEnd = Math.min(35, sWeek + 3); // Tối đa 4 tuần mỗi lần xử lý
+    var maxAllowedEnd = Math.min(35, sWeek + 3); // Tối đa 4 tuần
     var eWeek = params.endWeek ? Math.min(maxAllowedEnd, parseInt(params.endWeek)) : Math.min(maxAllowedEnd, sWeek + (parseInt(params.durationWeeks || params.duration) || 1) - 1);
     if (eWeek < sWeek) eWeek = sWeek;
     var dur = eWeek - sWeek + 1;
+
     var docText = (params.docText || '').trim();
     var docTitle = (params.docTitle || 'Tài liệu tích hợp chuyên đề mới').trim();
     var userNotes = (params.userNotes || '').trim();
@@ -211,8 +396,7 @@ var IntegrationService = {
     }
 
     var docSummary = this.extractDocumentKeywordsAndSummary(docText, docTitle);
-
-    var apiKey = (typeof AuthService !== 'undefined' && AuthService.getApiKey) ? AuthService.getApiKey() : (localStorage.getItem('tvth_gemini_api_key') || (typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ''));
+    var apiKey = (typeof AuthService !== 'undefined' && AuthService.getApiKey) ? AuthService.getApiKey() : ((typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_gemini_api_key') : '') || (typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ''));
 
     var matrixLessons = [];
 
@@ -220,7 +404,7 @@ var IntegrationService = {
       try {
         matrixLessons = await this.generatePlanViaGeminiAI(apiKey, grade, subj, sWeek, eWeek, weeksPlan, docTitle, docText, userNotes);
       } catch (aiErr) {
-        console.warn('Lỗi khi gọi Gemini AI Online, tự động chuyển sang AI Engine Phân tích Chuyên sâu:', aiErr);
+        console.warn('Lỗi gọi Gemini AI Online, chuyển sang AI Engine Phân tích Chuyên sâu:', aiErr);
         matrixLessons = this.generatePlanViaSmartRuleEngine(grade, subj, weeksPlan, docSummary, userNotes);
       }
     } else {
@@ -423,9 +607,7 @@ Trả về duy nhất 1 mảng JSON chứa các bài học với cấu trúc:
       })
     });
 
-    if (!response.ok) {
-      throw new Error('Gemini API Error: ' + response.statusText);
-    }
+    if (!response.ok) throw new Error('Gemini API Error: ' + response.statusText);
 
     var data = await response.json();
     var raw = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
@@ -476,20 +658,13 @@ Trả về duy nhất 1 mảng JSON chứa các bài học với cấu trúc:
     return matrix;
   },
 
-
-  // =========================================================================
-  // 4. VÒNG LẶP GÓP Ý & ĐIỀU CHỈNH KẾ HOẠCH THEO PHẢN HỒI CỦA GIÁO VIÊN
-  // =========================================================================
-
   refineIntegrationPlanWithFeedback: async function(currentPlan, userFeedback) {
     if (!currentPlan || !currentPlan.suggestions || currentPlan.suggestions.length === 0) {
       throw new Error('Chưa có kế hoạch hiện tại để điều chỉnh.');
     }
-    if (!userFeedback || !userFeedback.trim()) {
-      throw new Error('Vui lòng nhập nội dung góp ý hoặc yêu cầu điều chỉnh cho AI.');
-    }
+    var feedback = (userFeedback || '').trim();
+    if (!feedback) throw new Error('Vui lòng nhập nội dung góp ý.');
 
-    var feedback = userFeedback.trim();
     var apiKey = (typeof AuthService !== 'undefined' && AuthService.getApiKey) ? AuthService.getApiKey() : (localStorage.getItem('tvth_gemini_api_key') || (typeof CONFIG !== 'undefined' ? CONFIG.GEMINI_API_KEY : ''));
 
     if (apiKey && typeof AIService !== 'undefined' && AIService.callGeminiApi) {
@@ -499,7 +674,7 @@ Trả về duy nhất 1 mảng JSON chứa các bài học với cấu trúc:
         currentPlan.matrixLessons = updatedSuggestions;
         return currentPlan;
       } catch (e) {
-        console.warn('Lỗi gọi Gemini AI khi sửa kế hoạch, chuyển sang sửa bằng Rule Engine:', e);
+        console.warn('Lỗi gọi Gemini AI khi sửa kế hoạch, chuyển sang Rule Engine:', e);
       }
     }
 
@@ -523,7 +698,7 @@ Trả về duy nhất 1 mảng JSON chứa các bài học với cấu trúc:
         }
 
         cloned.activityAddition.teacher += '\n* [Đã cập nhật theo góp ý]: ' + feedback;
-        cloned.integrationBrief += ' (Đã sửa theo góp ý: ' + (feedback.length > 50 ? feedback.substring(0, 50) + '...' : feedback) + ')';
+        cloned.integrationBrief += ' (Đã sửa theo góp ý)';
       }
 
       return cloned;
@@ -556,7 +731,7 @@ ${JSON.stringify(currentPlan.suggestions.map(function(s) {
   };
 }), null, 2)}
 
-NHIỆM VỤ: Hãy tiếp thu 100% góp ý của giáo viên và trả về bảng JSON các bài học ĐÃ ĐƯỢC CHỈNH SỬA HOÀN CHỈNH theo đúng yêu cầu.
+NHIỆM VỤ: Tiếp thu 100% góp ý của giáo viên và trả về bảng JSON các bài học ĐÃ ĐƯỢC CHỈNH SỬA HOÀN CHỈNH.
 Trả về duy nhất mảng JSON.`;
 
     var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
@@ -573,10 +748,7 @@ Trả về duy nhất mảng JSON.`;
 
     if (!response.ok) throw new Error('AI Refine Error');
     var data = await response.json();
-    var raw = data?.candidates?.[0]?.content?.parts?.[0]?.text || '';
-    var list = JSON.parse(raw);
-
-    if (!Array.isArray(list)) throw new Error('Invalid refined JSON');
+    var list = JSON.parse(data?.candidates?.[0]?.content?.parts?.[0]?.text || '[]');
 
     return list.map(function(item, idx) {
       var orig = currentPlan.suggestions[idx] || {};
@@ -615,12 +787,9 @@ Trả về duy nhất mảng JSON.`;
 
 
   // =========================================================================
-  // 5. TỰ ĐỘNG NHẬN DIỆN & XÓA NỘI DUNG TÍCH HỢP CŨ ĐỂ THAY BẰNG CÔNG VĂN MỚI
+  // 6. LÀM SẠCH TÍCH HỢP CŨ & CHÈN NỘI DUNG TÍCH HỢP MỚI CHUẨN CV 2345
   // =========================================================================
 
-  /**
-   * Tự động quét và loại bỏ 100% các dòng/mục tích hợp cũ trước khi chèn mới
-   */
   cleanLegacyIntegrationFromLesson: function(lesson) {
     if (!lesson) return lesson;
     var les = JSON.parse(JSON.stringify(lesson));
@@ -632,39 +801,26 @@ Trả về duy nhất mảng JSON.`;
 
     function isLegacy(str) {
       if (typeof str !== 'string') return false;
-      return legacyMarkers.some(function(marker) {
-        return str.indexOf(marker) !== -1;
-      });
+      return legacyMarkers.some(function(marker) { return str.indexOf(marker) !== -1; });
     }
 
-    // 1. Dọn dẹp Mục I. Yêu cầu cần đạt
     if (les.yccd && Array.isArray(les.yccd)) {
-      les.yccd = les.yccd.filter(function(line) {
-        return !isLegacy(line);
-      });
+      les.yccd = les.yccd.filter(function(line) { return !isLegacy(line); });
     }
 
-    // 2. Dọn dẹp Mục II. Đồ dùng dạy học
     if (les.dodung && Array.isArray(les.dodung)) {
-      les.dodung = les.dodung.filter(function(line) {
-        return !isLegacy(line);
-      });
+      les.dodung = les.dodung.filter(function(line) { return !isLegacy(line); });
     }
     if (les.teachingAids && Array.isArray(les.teachingAids)) {
-      les.teachingAids = les.teachingAids.filter(function(line) {
-        return !isLegacy(line);
-      });
+      les.teachingAids = les.teachingAids.filter(function(line) { return !isLegacy(line); });
     }
 
-    // 3. Dọn dẹp Mục III. Bảng hoạt động dạy học GV - HS
     if (les.tables && Array.isArray(les.tables)) {
       les.tables = les.tables.map(function(tableRows) {
         if (!Array.isArray(tableRows)) return tableRows;
         return tableRows.filter(function(r) {
           if (Array.isArray(r)) {
-            var gv = r[0] || '';
-            var hs = r[1] || '';
-            return !isLegacy(gv) && !isLegacy(hs);
+            return !isLegacy(r[0] || '') && !isLegacy(r[1] || '');
           } else if (r && typeof r === 'object') {
             return !isLegacy(r.gv || '') && !isLegacy(r.hs || '') && !isLegacy(r.activityName || '');
           }
@@ -686,31 +842,23 @@ Trả về duy nhất mảng JSON.`;
     return les;
   },
 
-  /**
-   * Chèn nội dung tích hợp mới chuẩn CV 2345 (Tự động thay thế nội dung cũ)
-   */
   injectIntegrationIntoLesson: function(originalLesson, matrixItem, overwriteLegacy) {
     var shouldClean = (overwriteLegacy !== false);
-    
-    // Bước 1: Quét sạch các đoạn tích hợp cũ (nếu có)
     var les = shouldClean ? this.cleanLegacyIntegrationFromLesson(originalLesson) : JSON.parse(JSON.stringify(originalLesson));
 
-    // Bước 2: Chèn vào Mục I. Yêu cầu cần đạt
     if (!les.yccd) les.yccd = [];
-    if (matrixItem.yccdAddition) {
+    if (matrixItem && matrixItem.yccdAddition) {
       les.yccd.push(matrixItem.yccdAddition);
     }
 
-    // Bước 3: Chèn vào Mục II. Đồ dùng dạy học
     if (!les.dodung) les.dodung = les.teachingAids || [];
-    if (matrixItem.dodungAddition) {
+    if (matrixItem && matrixItem.dodungAddition) {
       les.dodung.push(matrixItem.dodungAddition);
     }
     les.teachingAids = les.dodung;
 
-    // Bước 4: Chèn vào Mục III. Các hoạt động dạy học chủ yếu (Bảng 2 cột GV - HS)
-    var actAddition = matrixItem.activityAddition;
-    var targetPartLabel = matrixItem.targetPart || 'Hoạt động Vận dụng, trải nghiệm';
+    var actAddition = matrixItem ? matrixItem.activityAddition : null;
+    var targetPartLabel = (matrixItem && matrixItem.targetPart) || 'Hoạt động Vận dụng, trải nghiệm';
 
     if (actAddition) {
       var gvText = '<b>* [Tích hợp - ' + targetPartLabel + ']:</b><br/>' + (actAddition.teacher || '').replace(/\n/g, '<br/>');
@@ -734,8 +882,8 @@ Trả về duy nhất mảng JSON.`;
     les.isInjected = true;
     les.integrationInfo = {
       targetPart: targetPartLabel,
-      topicLabel: matrixItem.topicLabel,
-      level: matrixItem.level || matrixItem.degree,
+      topicLabel: matrixItem ? matrixItem.topicLabel : '',
+      level: matrixItem ? (matrixItem.level || matrixItem.degree) : '',
       isReplacedLegacy: shouldClean
     };
 
@@ -781,16 +929,20 @@ Trả về duy nhất mảng JSON.`;
     return allAppliedLessons;
   },
 
+
   // =========================================================================
-  // 6. XUẤT GIÁO ÁN ĐÃ TÍCH HỢP RA FILE WORD (.DOC) CHUẨN CV 2345
+  // 7. XUẤT FILE WORD CHO 2 CHẾ ĐỘ (THEO MÔN HOẶC THEO THỜI KHÓA BIỂU)
   // =========================================================================
 
+  /**
+   * Xuất file Word theo từng môn (.doc)
+   */
   exportToWord: function(lessonsOrWeeks, metadata) {
     var meta = metadata || {};
     var grade = meta.grade || 5;
     var subjectName = meta.subjectName || 'Môn học';
     var startWeek = meta.startWeek || 1;
-    var endWeek = meta.endWeek || 1;
+    var endWeek = meta.endWeek || startWeek;
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = meta.teacherName || 'Lê Thành Long';
 
@@ -805,13 +957,123 @@ Trả về duy nhất mảng JSON.`;
       }
     }
 
+    var docHtml = this.generateWordHtmlStructure(lessons, {
+      title: 'Kế hoạch bài dạy Khối ' + grade + ' - Môn ' + subjectName + ' (Tuần ' + startWeek + ' - ' + endWeek + ')',
+      schoolName: schoolName,
+      teacherName: teacherName,
+      grade: grade,
+      subjectName: subjectName,
+      startWeek: startWeek,
+      endWeek: endWeek
+    });
+
+    var filename = meta.filename || ('KHBD_Lop' + grade + '_' + subjectName + '_Tuan' + startWeek + '-' + endWeek + '.doc');
+    this.downloadWordBlob(docHtml, filename);
+  },
+
+  /**
+   * Xuất file Word trọn gói 1 Tuần theo Thời Khóa Biểu (.doc)
+   */
+  exportWeekByTimetableWord: function(weeklyPlanResult, metadata) {
+    var meta = metadata || {};
+    var grade = weeklyPlanResult.grade || meta.grade || 5;
+    var weekNum = weeklyPlanResult.week || meta.week || 1;
+    var timetable = weeklyPlanResult.timetable || meta.timetable || this.getDefaultTimetable(grade);
+    var lessons = weeklyPlanResult.lessons || [];
+    var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
+    var teacherName = meta.teacherName || 'Lê Thành Long';
+
+    // Xây dựng Bảng Thời Khóa Biểu Tuần định dạng Word
+    var tkbTableRows = '';
+    
+    // Buổi Sáng
+    for (var slot = 0; slot < 4; slot++) {
+      tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Sáng)</td>';
+      timetable.forEach(function(day) {
+        var sKey = (day.morning && day.morning[slot]) || '—';
+        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + IntegrationService.getSubjectDisplayName(sKey) + '</td>';
+      });
+      tkbTableRows += '</tr>';
+    }
+
+    // Buổi Chiều
+    for (var slot = 0; slot < 3; slot++) {
+      tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Chiều)</td>';
+      timetable.forEach(function(day) {
+        var sKey = (day.afternoon && day.afternoon[slot]) || '—';
+        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + (sKey !== '—' ? IntegrationService.getSubjectDisplayName(sKey) : '') + '</td>';
+      });
+      tkbTableRows += '</tr>';
+    }
+
+    var tkbCoverHtml = `
+      <div style="text-align: center; margin-bottom: 20pt;">
+        <table style="width: 100%; border-collapse: collapse; border: none; margin-bottom: 12pt;">
+          <tr>
+            <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
+              <p style="margin: 0;"><b>\${schoolName}</b></p>
+              <p style="margin: 2pt 0 0 0;">Giáo viên: <b>\${teacherName}</b></p>
+            </td>
+            <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
+              <p style="margin: 0;"><b>NĂM HỌC: 2025 - 2026</b></p>
+              <p style="margin: 2pt 0 0 0;">Khối <b>\${grade}</b> • <b>TUẦN \${weekNum}</b></p>
+            </td>
+          </tr>
+        </table>
+
+        <h2 style="font-size: 15pt; font-weight: bold; text-transform: uppercase; margin: 10pt 0 4pt 0;">
+          KẾ HOẠCH BÀI DẠY TUẦN \${weekNum}
+        </h2>
+        <p style="font-size: 12pt; font-style: italic; margin: 0 0 15pt 0;">(Sắp xếp tuần tự theo Thời khóa biểu giảng dạy)</p>
+
+        <h3 style="font-size: 12.5pt; font-weight: bold; text-align: left; text-transform: uppercase; margin: 10pt 0 4pt 0;">
+          THỜI KHÓA BIỂU TUẦN \${weekNum}:
+        </h3>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 15pt; font-size: 11pt;">
+          <thead>
+            <tr style="background: #e2e8f0; font-weight: bold; text-align: center;">
+              <th style="border: 1pt solid #000; padding: 5pt; width: 15%;">Tiết</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Hai</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Ba</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Tư</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Năm</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Sáu</th>
+            </tr>
+          </thead>
+          <tbody>
+            \${tkbTableRows}
+          </tbody>
+        </table>
+      </div>
+      <div style="page-break-before: always;"></div>
+    `;
+
+    var docHtml = this.generateWordHtmlStructure(lessons, {
+      title: 'Kế hoạch bài dạy Tuần ' + weekNum + ' - Khối ' + grade + ' (Theo Thời khóa biểu)',
+      schoolName: schoolName,
+      teacherName: teacherName,
+      grade: grade,
+      weekNum: weekNum,
+      isTimetableDoc: true,
+      tkbCoverHtml: tkbCoverHtml
+    });
+
+    var filename = meta.filename || ('KHBD_Tuan_' + weekNum + '_Lop_' + grade + '_Theo_TKB.doc');
+    this.downloadWordBlob(docHtml, filename);
+  },
+
+  generateWordHtmlStructure: function(lessons, meta) {
+    var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
+    var teacherName = meta.teacherName || 'Lê Thành Long';
+    var grade = meta.grade || 5;
+
     var docHtml = `
       <html xmlns:o="urn:schemas-microsoft-com:office:office" 
             xmlns:w="urn:schemas-microsoft-com:office:word" 
             xmlns="http://www.w3.org/TR/REC-html40">
       <head>
         <meta charset="utf-8">
-        <title>Kế hoạch bài dạy Khối \${grade} - Môn \${subjectName} (Tuần \${startWeek} - \${endWeek})</title>
+        <title>\${meta.title || 'Kế hoạch bài dạy'}</title>
         <style>
           @page {
             size: A4;
@@ -834,7 +1096,7 @@ Trả về duy nhất mảng JSON.`;
             width: 100%;
             border-collapse: collapse;
             border: none;
-            margin-bottom: 15pt;
+            margin-bottom: 12pt;
           }
           .header-table td {
             border: none;
@@ -848,11 +1110,6 @@ Trả về duy nhất mảng JSON.`;
             font-size: 14pt;
             font-weight: bold;
             text-transform: uppercase;
-          }
-          .title-box p {
-            font-size: 13pt;
-            font-weight: bold;
-            margin: 3pt 0 0 0;
           }
           .section-title {
             font-size: 13pt;
@@ -887,10 +1144,16 @@ Trả về duy nhất mảng JSON.`;
       <body>
     `;
 
+    if (meta.tkbCoverHtml) {
+      docHtml += meta.tkbCoverHtml;
+    }
+
     lessons.forEach(function(les, lIdx) {
-      if (lIdx > 0) {
+      if (lIdx > 0 || meta.tkbCoverHtml) {
         docHtml += '<div class="page-break"></div>';
       }
+
+      var daySessionInfo = les.dayName ? ('<p style="font-weight: bold; color: #1e40af; margin-bottom: 4pt;">' + les.dayName + ' • Buổi ' + les.session + ' • ' + (les.periodSlot ? ('Tiết ' + les.periodSlot) : '') + '</p>') : '';
 
       var yccdContent = (les.yccd || []).map(function(line) {
         var isTichHop = typeof line === 'string' && line.indexOf('[Tích hợp') !== -1;
@@ -956,21 +1219,22 @@ Trả về duy nhất mảng JSON.`;
         <div class="title-box">
           <table class="header-table">
             <tr>
-              <td style="width: 45%;">
+              <td style="width: 50%;">
                 <p><b>\${schoolName}</b></p>
                 <p>Giáo viên: <b>\${teacherName}</b></p>
               </td>
-              <td style="width: 55%; text-align: right;">
+              <td style="width: 50%; text-align: right;">
                 <p><b>NĂM HỌC: 2025 - 2026</b></p>
-                <p>Khối: <b>\${les.grade || grade}</b> - Tuần: <b>\${les.week || startWeek}</b></p>
+                <p>Khối: <b>\${les.grade || grade}</b> - Tuần: <b>\${les.week || 1}</b></p>
               </td>
             </tr>
           </table>
 
+          \${daySessionInfo}
           <h2>KẾ HOẠCH BÀI DẠY</h2>
-          <p>MÔN: \${les.subjectName || subjectName.toUpperCase()}</p>
-          <p style="font-size: 14pt; margin-top: 4pt;">\${les.lessonTitle || les.title || 'BÀI DẠY'}</p>
-          \${les.period ? ('<p style="font-style: italic; font-weight: normal; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
+          <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: \${(les.subjectName || les.subjectKey || 'MÔN HỌC').toUpperCase()}</p>
+          <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt;">\${les.lessonTitle || les.title || 'BÀI DẠY'}</p>
+          \${les.period ? ('<p style="font-style: italic; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
         </div>
 
         <div class="section-title">I. YÊU CẦU CẦN ĐẠT:</div>
@@ -996,21 +1260,17 @@ Trả về duy nhất mảng JSON.`;
       `;
     });
 
-    docHtml += `
-      </body>
-      </html>
-    `;
+    docHtml += '</body></html>';
+    return docHtml;
+  },
 
-    var filename = meta.filename || ('KHBD_Lop' + grade + '_' + subjectName + '_Tuan' + startWeek + '-' + endWeek + '_TichHop.doc');
-    
+  downloadWordBlob: function(docHtml, filename) {
     if (typeof Blob !== 'undefined') {
       var blob = new Blob(['\ufeff' + docHtml], { type: 'application/msword;charset=utf-8' });
-      
       if (typeof window !== 'undefined' && window.navigator && window.navigator.msSaveOrOpenBlob) {
         window.navigator.msSaveOrOpenBlob(blob, filename);
         return;
       }
-
       if (typeof document !== 'undefined') {
         var downloadLink = document.createElement('a');
         downloadLink.href = URL.createObjectURL(blob);
@@ -1023,7 +1283,6 @@ Trả về duy nhất mảng JSON.`;
   }
 };
 
-// Export to global scope
 if (typeof window !== 'undefined') {
   window.IntegrationService = IntegrationService;
 }
