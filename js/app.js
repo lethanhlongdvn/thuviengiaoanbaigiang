@@ -4241,7 +4241,32 @@ async function triggerPreviewOriginalKhbd() {
         throw new Error('Chưa tìm thấy dữ liệu giáo án số hóa cho Khối ' + grade + ' - Môn ' + subj);
       }
 
-      integrationState.appliedLessons = JSON.parse(JSON.stringify(weeksPlan));
+      var flatLessons = [];
+      weeksPlan.forEach(function(wItem) {
+        (wItem.lessons || []).forEach(function(l, lIdx) {
+          var copy = JSON.parse(JSON.stringify(l));
+          copy.week = wItem.week;
+          copy.grade = grade;
+          copy.subjectKey = subj;
+          copy.subjectName = IntegrationService.getSubjectDisplayName(subj);
+          if (!copy.period) {
+            copy.period = 'Tiết ' + (lIdx + 1);
+          }
+          if (!copy.title && copy.lessonTitle) {
+            copy.title = copy.lessonTitle;
+          }
+          if (!copy.lessonTitle && copy.title) {
+            copy.lessonTitle = copy.title;
+          }
+          flatLessons.push(copy);
+        });
+      });
+
+      if (flatLessons.length === 0) {
+        throw new Error('Chưa tìm thấy dữ liệu bài dạy chi tiết cho Khối ' + grade + ' - Môn ' + subj + ' (Tuần ' + sWeek + ' - ' + eWeek + ')');
+      }
+
+      integrationState.appliedLessons = flatLessons;
       integrationState.activePreviewLessonIndex = 0;
       integrationState.isOriginalPreview = true;
       integrationState.activeStep = 3;
@@ -5498,8 +5523,21 @@ async function triggerExportAllTimetableWeeksWord() {
 }
 
 function renderIntegratedLessonSheetContent(les) {
+  if (!les) {
+    return '<div style="text-align: center; padding: 2rem;">Chưa có dữ liệu bài dạy.</div>';
+  }
+  // Nếu truyền nhầm một object tuần chứa mảng bài học
+  if ((!les.title && !les.lessonTitle) && Array.isArray(les.lessons) && les.lessons.length > 0) {
+    les = les.lessons[0];
+  }
   if (!les || (!les.title && !les.lessonTitle)) {
     return '<div style="text-align: center; padding: 2rem;">Chưa có dữ liệu bài dạy.</div>';
+  }
+  if (!les.title && les.lessonTitle) {
+    les.title = les.lessonTitle;
+  }
+  if (!les.lessonTitle && les.title) {
+    les.lessonTitle = les.title;
   }
 
   var isDouble = (les.periodSlot && les.periodSlot.toString().includes('-')) || (les.period && (les.period.toLowerCase().includes('2 tiết') || les.period.toLowerCase().includes('tiết đôi')));
