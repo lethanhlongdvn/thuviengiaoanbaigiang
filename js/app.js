@@ -3142,6 +3142,13 @@ if (typeof window !== "undefined") {
   window.triggerPreviewOriginalKhbd = typeof triggerPreviewOriginalKhbd !== "undefined" ? triggerPreviewOriginalKhbd : null;
   window.triggerDirectFastExport = typeof triggerDirectFastExport !== "undefined" ? triggerDirectFastExport : null;
   window.printIntegratedLessonSheet = typeof printIntegratedLessonSheet !== "undefined" ? printIntegratedLessonSheet : null;
+  window.setStep2ViewMode = typeof setStep2ViewMode !== "undefined" ? setStep2ViewMode : null;
+  window.switchStep2PreviewLesson = typeof switchStep2PreviewLesson !== "undefined" ? switchStep2PreviewLesson : null;
+  window.switchStep2TimetablePreviewWeek = typeof switchStep2TimetablePreviewWeek !== "undefined" ? switchStep2TimetablePreviewWeek : null;
+  window.switchStep2TimetablePreviewLesson = typeof switchStep2TimetablePreviewLesson !== "undefined" ? switchStep2TimetablePreviewLesson : null;
+  window.toggleStep2InlineEditCurrentLesson = typeof toggleStep2InlineEditCurrentLesson !== "undefined" ? toggleStep2InlineEditCurrentLesson : null;
+  window.saveAndRefreshStep2LessonEdit = typeof saveAndRefreshStep2LessonEdit !== "undefined" ? saveAndRefreshStep2LessonEdit : null;
+  window.triggerExportPlanSummaryWord = typeof triggerExportPlanSummaryWord !== "undefined" ? triggerExportPlanSummaryWord : null;
 }
 
 /* ==========================================================================
@@ -4414,6 +4421,13 @@ async function triggerAnalyzeIntegrationPlan() {
     plan.suggestions.forEach(function(s) {
       integrationState.selectedLessons[s.lessonId] = true;
     });
+
+    await syncAppliedLessonsFromPlan();
+    integrationState.step2ViewMode = 'word_lesson';
+    integrationState.activePreviewLessonIndex = 0;
+    integrationState.activeTimetableWeekIndex = 0;
+    integrationState.activeTimetableLessonIndex = 0;
+    integrationState.step2EditingLessonId = null;
     integrationState.activeStep = 2;
 
     var container = document.getElementById('content-container');
@@ -4440,17 +4454,185 @@ async function triggerAnalyzeIntegrationPlan() {
   }
 }
 
-// BƯỚC 2: RENDER BẢNG KẾ HOẠCH CHI TIẾT & KHUNG GÓP Ý
+// ===========================================================================
+// BƯỚC 2: HỖ TRỢ HIỂN THỊ TRANG WORD & BẢNG DUYỆT KẾ HOẠCH
+// ===========================================================================
+
+async function syncAppliedLessonsFromPlan() {
+  if (!integrationState.analyzedPlan) return;
+  var isTimetableMode = (integrationState.exportMode === 'timetable');
+  var grade = integrationState.grade || 5;
+  var sWeek = integrationState.startWeek || 1;
+  var eWeek = integrationState.endWeek || sWeek;
+
+  try {
+    if (isTimetableMode) {
+      var integratedMap = {};
+      (integrationState.analyzedPlan.suggestions || []).forEach(function(s) {
+        if (!integrationState.selectedLessons || integrationState.selectedLessons[s.lessonId] !== false) {
+          integratedMap[s.lessonId] = s;
+          integratedMap[(s.subjectKey || integrationState.subjectKey) + '_' + s.week + '_' + (s.periodIndex || 0)] = s;
+        }
+      });
+
+      var weeklyResults = [];
+      for (var w = sWeek; w <= eWeek; w++) {
+        var wPlan = await IntegrationService.buildWeeklyPlanByTimetable(
+          grade, 
+          w, 
+          integrationState.customTimetable, 
+          integratedMap, 
+          integrationState.overwriteLegacy !== false
+        );
+        weeklyResults.push(wPlan);
+      }
+      integrationState.timetableAppliedWeeks = weeklyResults;
+      if (typeof integrationState.activeTimetableWeekIndex === 'undefined') {
+        integrationState.activeTimetableWeekIndex = 0;
+      }
+      if (typeof integrationState.activeTimetableLessonIndex === 'undefined') {
+        integrationState.activeTimetableLessonIndex = 0;
+      }
+    } else {
+      var applied = await IntegrationService.applyIntegrationToWeekRange(
+        integrationState.analyzedPlan,
+        integrationState.selectedLessons,
+        integrationState.overwriteLegacy !== false
+      );
+      integrationState.appliedLessons = applied;
+      if (typeof integrationState.activePreviewLessonIndex === 'undefined') {
+        integrationState.activePreviewLessonIndex = 0;
+      }
+    }
+  } catch (err) {
+    console.error('Error syncing applied lessons:', err);
+  }
+}
+
+async function setStep2ViewMode(mode) {
+  integrationState.step2ViewMode = mode;
+  integrationState.step2EditingLessonId = null;
+  if (mode === 'word_lesson') {
+    await syncAppliedLessonsFromPlan();
+  }
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+}
+
+function switchStep2PreviewLesson(idx) {
+  integrationState.activePreviewLessonIndex = parseInt(idx) || 0;
+  integrationState.step2EditingLessonId = null;
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+}
+
+function switchStep2TimetablePreviewWeek(wIdx) {
+  integrationState.activeTimetableWeekIndex = parseInt(wIdx) || 0;
+  integrationState.activeTimetableLessonIndex = 0;
+  integrationState.step2EditingLessonId = null;
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+}
+
+function switchStep2TimetablePreviewLesson(lIdx) {
+  integrationState.activeTimetableLessonIndex = parseInt(lIdx) || 0;
+  integrationState.step2EditingLessonId = null;
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+}
+
+function toggleStep2InlineEditCurrentLesson(lessonId) {
+  integrationState.step2EditingLessonId = (integrationState.step2EditingLessonId === lessonId ? null : lessonId);
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+}
+
+async function saveAndRefreshStep2LessonEdit(lessonId) {
+  if (!lessonId || !integrationState.analyzedPlan) return;
+  var s = (integrationState.analyzedPlan.suggestions || []).find(function(item) { return item.lessonId === lessonId; });
+  if (s) {
+    var yccdEl = document.getElementById('edit_yccd_' + lessonId);
+    var dodungEl = document.getElementById('edit_dodung_' + lessonId);
+    var gvEl = document.getElementById('edit_gv_' + lessonId);
+    var hsEl = document.getElementById('edit_hs_' + lessonId);
+    if (yccdEl) s.yccdAddition = yccdEl.value;
+    if (dodungEl) s.dodungAddition = dodungEl.value;
+    if (gvEl || hsEl) {
+      if (!s.activityAddition) s.activityAddition = {};
+      if (gvEl) s.activityAddition.teacherAct = gvEl.value;
+      if (hsEl) s.activityAddition.studentAct = hsEl.value;
+    }
+  }
+  integrationState.step2EditingLessonId = null;
+  await syncAppliedLessonsFromPlan();
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  showToast('Đã cập nhật lời văn bài dạy lên trang Word!', 'success');
+}
+
+async function triggerExportPlanSummaryWord() {
+  var sheet = document.querySelector('.integrated-doc-sheet');
+  if (!sheet) return;
+  var plan = integrationState.analyzedPlan || {};
+  var docTitleClean = (plan.docTitle || 'Tich_Hop').replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
+  var filename = 'Ke_Hoach_Tich_Hop_' + (plan.grade || 5) + '_' + (plan.subjectKey || 'TKB') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.doc';
+  
+  var html = `<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+  <meta charset="utf-8">
+  <title>Kế hoạch tích hợp</title>
+  <style>
+    @page { size: A4; margin: 20mm 20mm 20mm 25mm; }
+    body { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.35; color: #000; }
+    table { width: 100%; border-collapse: collapse; margin: 6pt 0; }
+    th, td { border: 1pt solid #000; padding: 6pt; vertical-align: top; }
+    p { margin: 3pt 0; }
+    h1, h2, h3, h4 { margin: 6pt 0; }
+  </style>
+</head>
+<body>
+  ${sheet.innerHTML}
+</body>
+</html>`;
+
+  var blob = new Blob(['\ufeff' + html], { type: 'application/msword;charset=utf-8' });
+  await IntegrationService.saveWordBlob(blob, filename);
+}
+
+// BƯỚC 2: RENDER BẢNG KẾ HOẠCH CHI TIẾT & TRANG WORD XEM TRƯỚC
 function renderIntegrationPlanReviewHtml(plan) {
   var totalSelected = Object.values(integrationState.selectedLessons).filter(Boolean).length;
   var docSummary = plan.docSummary || {};
   var isTimetableMode = (integrationState.exportMode === 'timetable');
+  var viewMode = integrationState.step2ViewMode || 'word_lesson';
 
-  return `
-    <div style="display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.5rem;">
+  // Failsafe: nếu xem trang word mà chưa có appliedLessons thì tạm chuyển về table
+  var checkLessons = isTimetableMode ? 
+    ((integrationState.timetableAppliedWeeks && integrationState.timetableAppliedWeeks[integrationState.activeTimetableWeekIndex || 0]) ? integrationState.timetableAppliedWeeks[integrationState.activeTimetableWeekIndex || 0].lessons || [] : []) : 
+    (integrationState.appliedLessons || []);
+  if (viewMode === 'word_lesson' && checkLessons.length === 0) {
+    viewMode = 'table';
+  }
+
+  // Header thanh công cụ Bước 2 với 3 nút chuyển chế độ
+  var headerHtml = `
+    <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.75rem;">
       <div>
         <div style="font-size: 0.75rem; font-weight: 800; color: #db2777; text-transform: uppercase; display: flex; align-items: center; gap: 0.4rem;">
-          <i class="fa-solid fa-table-list"></i> BẢNG KẾ HOẠCH TÍCH HỢP CHI TIẾT (BƯỚC 2/3)
+          <i class="fa-solid fa-file-signature"></i> BƯỚC 2/3: DUYỆT NỘI DUNG TÍCH HỢP (CHUẨN CV 2345)
         </div>
         <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin: 0.2rem 0;">
           Tài liệu: ${plan.docTitle || 'Tài liệu tích hợp'}
@@ -4461,13 +4643,325 @@ function renderIntegrationPlanReviewHtml(plan) {
         </div>
       </div>
 
-      <div style="display: flex; gap: 0.5rem; align-items: center;">
-        <button class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.35); padding: 0.65rem 1.25rem;" onclick="triggerApplyAndPreviewIntegration()">
-          <i class="fa-solid fa-circle-check"></i> XÁC NHẬN & CHÈN VÀO GIÁO ÁN (<span id="integSelectedCountBadge">${totalSelected}</span> Bài)
+      <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+        <!-- BỘ 3 NÚT CHUYỂN CHẾ ĐỘ XEM TRANG WORD / BẢNG -->
+        <div style="display: inline-flex; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); overflow: hidden; background: #f8fafc; padding: 2px; gap: 2px;">
+          <button class="btn btn-sm" style="font-size: 0.78rem; font-weight: 700; border: none; padding: 0.35rem 0.75rem; border-radius: 4px; ${viewMode === 'word_lesson' ? 'background: #1e40af; color: #ffffff; box-shadow: 0 2px 6px rgba(30,64,175,0.25);' : 'background: transparent; color: #475569;'}" onclick="setStep2ViewMode('word_lesson')" title="Xem trực tiếp giáo án trên trang Word (A4) với chữ màu tím">
+            <i class="fa-solid fa-file-word"></i> Trang Word Giáo Án
+          </button>
+          <button class="btn btn-sm" style="font-size: 0.78rem; font-weight: 700; border: none; padding: 0.35rem 0.75rem; border-radius: 4px; ${viewMode === 'word_plan' ? 'background: #1e40af; color: #ffffff; box-shadow: 0 2px 6px rgba(30,64,175,0.25);' : 'background: transparent; color: #475569;'}" onclick="setStep2ViewMode('word_plan')" title="Xem trang Word văn bản Kế hoạch tích hợp để trình ký">
+            <i class="fa-solid fa-file-lines"></i> Trang Word Kế Hoạch
+          </button>
+          <button class="btn btn-sm" style="font-size: 0.78rem; font-weight: 700; border: none; padding: 0.35rem 0.75rem; border-radius: 4px; ${viewMode === 'table' ? 'background: #7c3aed; color: #ffffff; box-shadow: 0 2px 6px rgba(124,58,237,0.25);' : 'background: transparent; color: #475569;'}" onclick="setStep2ViewMode('table')" title="Bảng quản lý chi tiết từng tiết">
+            <i class="fa-solid fa-table-list"></i> Bảng Duyệt & Góp Ý
+          </button>
+        </div>
+
+        <!-- NÚT XÁC NHẬN CHÍNH -->
+        <button class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(22, 163, 74, 0.35); padding: 0.55rem 1.15rem; font-size: 0.84rem;" onclick="triggerApplyAndPreviewIntegration()">
+          <i class="fa-solid fa-circle-check"></i> XÁC NHẬN & XUẤT WORD (BƯỚC 3)
+        </button>
+      </div>
+    </div>
+  `;
+
+  // Khung góp ý & nút xác nhận ở chân trang (dùng chung cho mọi chế độ)
+  var feedbackBoxHtml = `
+    <!-- KHUNG GÓP Ý & YÊU CẦU AI ĐIỀU CHỈNH KẾ HOẠCH -->
+    <div class="ai-feedback-box" style="margin-top: 1.25rem;">
+      <div style="font-weight: 800; font-size: 0.88rem; color: #7c3aed; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.4rem;">
+        <i class="fa-solid fa-comments"></i> Góp ý & Yêu cầu AI sửa chữa kế hoạch:
+      </div>
+      <p style="font-size: 0.78rem; color: #64748b; margin-bottom: 0.5rem;">
+        Nếu chưa vừa ý với tiết nào, bạn hãy nhập yêu cầu vào đây (Ví dụ: <em>"Đổi tiết 2 sang tích hợp hoạt động Khởi động", "Thêm câu hỏi tình huống thực tế cho tiết 3", "Rút ngắn nội dung tiết 1"</em>), AI sẽ lập tức cập nhật lại và hiển thị ngay trên trang Word!
+      </p>
+      <div style="display: flex; gap: 0.6rem; align-items: stretch;">
+        <textarea id="integFeedbackInput" class="form-control" rows="2" placeholder="Nhập ý kiến góp ý / yêu cầu sửa đổi cho AI tại đây..." style="font-size: 0.82rem; background: #ffffff;" oninput="integrationState.userFeedbackInput = this.value">${integrationState.userFeedbackInput || ''}</textarea>
+        <button id="btnSendFeedbackToAi" class="btn btn-primary" style="background: linear-gradient(135deg, #7c3aed, #a855f7); border: none; font-weight: 800; padding: 0 1.25rem; font-size: 0.84rem; white-space: nowrap; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.2rem;" onclick="triggerSendIntegrationFeedback()">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>GỬI GÓP Ý</span>
         </button>
       </div>
     </div>
 
+    <!-- NÚT XÁC NHẬN CHÍNH CUỐI BƯỚC 2 -->
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
+      <button class="btn btn-outline" style="font-size: 0.84rem;" onclick="resetIntegrationToSetup()">
+        <i class="fa-solid fa-arrow-left"></i> Quay lại chọn tài liệu khác
+      </button>
+      <button class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35); padding: 0.75rem 1.75rem; font-size: 0.95rem;" onclick="triggerApplyAndPreviewIntegration()">
+        <i class="fa-solid fa-circle-check"></i> XÁC NHẬN KẾ HOẠCH NÀY & BẮT ĐẦU CHÈN VÀO GIÁO ÁN (BƯỚC 3)
+      </button>
+    </div>
+  `;
+
+  // =========================================================================
+  // CHẾ ĐỘ 1: XEM TRANG WORD GIÁO ÁN (WORD_LESSON)
+  // =========================================================================
+  if (viewMode === 'word_lesson') {
+    var lessons = [];
+    var activeIdx = 0;
+    var curLesson = {};
+
+    if (isTimetableMode) {
+      var weeks = integrationState.timetableAppliedWeeks || [];
+      var wIdx = integrationState.activeTimetableWeekIndex || 0;
+      if (wIdx >= weeks.length) wIdx = 0;
+      var curW = weeks[wIdx] || {};
+      lessons = curW.lessons || [];
+      activeIdx = integrationState.activeTimetableLessonIndex || 0;
+      if (activeIdx >= lessons.length) activeIdx = 0;
+      curLesson = lessons[activeIdx] || {};
+    } else {
+      lessons = integrationState.appliedLessons || [];
+      activeIdx = integrationState.activePreviewLessonIndex || 0;
+      if (activeIdx >= lessons.length) activeIdx = 0;
+      curLesson = lessons[activeIdx] || {};
+    }
+
+    var activeLessonId = curLesson.lessonId || (isTimetableMode ? (curLesson.subjectKey + '_' + curLesson.week + '_' + curLesson.periodIndex) : '');
+    var currentSuggestion = (plan.suggestions || []).find(function(s) {
+      return s.lessonId === activeLessonId || (s.week === curLesson.week && s.title === (curLesson.lessonTitle || curLesson.title));
+    }) || {};
+
+    var isInlineEditing = (integrationState.step2EditingLessonId === activeLessonId);
+
+    var tabsHtml = '';
+    if (isTimetableMode) {
+      var weeks = integrationState.timetableAppliedWeeks || [];
+      var wIdx = integrationState.activeTimetableWeekIndex || 0;
+      tabsHtml = `
+        ${weeks.length > 1 ? `
+          <div style="display: flex; gap: 0.4rem; margin-bottom: 0.6rem; align-items: center;">
+            <span style="font-size: 0.8rem; font-weight: 700; color: #475569;">Tuần:</span>
+            ${weeks.map(function(wItem, idx) {
+              var isWAct = idx === wIdx;
+              return `
+                <button class="btn btn-sm ${isWAct ? 'btn-primary' : 'btn-outline'}" style="font-size: 0.76rem; ${isWAct ? 'background: #1e40af; border-color: #1e40af; color: white;' : ''}" onclick="switchStep2TimetablePreviewWeek(${idx})">
+                  Tuần ${wItem.week}
+                </button>
+              `;
+            }).join('')}
+          </div>
+        ` : ''}
+        <div style="display: flex; gap: 0.35rem; overflow-x: auto; padding-bottom: 0.5rem; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--border-color);">
+          ${lessons.map(function(les, idx) {
+            var isAct = idx === activeIdx;
+            return `
+              <button class="btn btn-sm ${isAct ? 'btn-primary' : 'btn-outline'}" style="font-size: 0.74rem; white-space: nowrap; ${isAct ? 'background: #1e40af; border-color: #1e40af; color: white;' : ''}" onclick="switchStep2TimetablePreviewLesson(${idx})">
+                ${les.dayName || ('T' + (les.week))} • ${les.subjectName || les.subjectKey} (${les.period || ('Tiết ' + (idx+1))})
+              </button>
+            `;
+          }).join('')}
+        </div>
+      `;
+    } else {
+      tabsHtml = `
+        <div style="display: flex; gap: 0.4rem; overflow-x: auto; padding-bottom: 0.5rem; margin-bottom: 0.85rem; border-bottom: 1px dashed var(--border-color);">
+          ${lessons.map(function(les, idx) {
+            var isAct = idx === activeIdx;
+            return `
+              <button class="btn btn-sm ${isAct ? 'btn-primary' : 'btn-outline'}" style="font-size: 0.78rem; white-space: nowrap; ${isAct ? 'background: #1e40af; border-color: #1e40af; color: white;' : ''}" onclick="switchStep2PreviewLesson(${idx})">
+                T.${les.week || (idx+1)} • ${les.period || ('Tiết ' + (idx+1))}
+              </button>
+            `;
+          }).join('')}
+        </div>
+      `;
+    }
+
+    var toolStripHtml = `
+      <div style="display: flex; justify-content: space-between; align-items: center; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 0.55rem 0.85rem; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;">
+        <div style="font-size: 0.8rem; color: #166534; display: flex; align-items: center; gap: 0.4rem;">
+          <i class="fa-solid fa-file-circle-check" style="font-size: 1rem; color: #16a34a;"></i>
+          <span>Trang Word: <strong>${curLesson.lessonTitle || curLesson.title || 'Bài dạy'}</strong> (Nội dung mới hiển thị <strong style="color: #7030a0;">chữ màu tím</strong>).</span>
+        </div>
+        <div style="display: flex; gap: 0.4rem; align-items: center;">
+          <button class="btn btn-sm btn-outline" style="font-size: 0.76rem; background: #fff;" onclick="printIntegratedLessonSheet()" title="In bài dạy đang xem ra giấy">
+            <i class="fa-solid fa-print"></i> In bài này
+          </button>
+          <button class="btn btn-sm btn-outline" style="font-size: 0.76rem; background: ${isInlineEditing ? '#fdf2f8' : '#fff'}; color: ${isInlineEditing ? '#db2777' : '#475569'}; border-color: ${isInlineEditing ? '#fbcfe8' : '#cbd5e1'};" onclick="toggleStep2InlineEditCurrentLesson('${activeLessonId}')" title="Sửa lời văn AI của bài này">
+            <i class="fa-solid fa-pen-to-square"></i> ${isInlineEditing ? 'Đóng ô sửa' : 'Sửa nhanh bài này'}
+          </button>
+          <button class="btn btn-sm btn-primary" style="font-size: 0.76rem; background: #1e40af; border-color: #1e40af;" onclick="${isTimetableMode ? 'triggerExportAllTimetableWeeksWord()' : 'triggerExportIntegrationWord()'}" title="Tải file Word (.doc) về máy ngay">
+            <i class="fa-solid fa-file-word"></i> Tải file Word (.doc)
+          </button>
+        </div>
+      </div>
+    `;
+
+    var inlineEditHtml = '';
+    if (isInlineEditing && currentSuggestion && currentSuggestion.lessonId) {
+      var s = currentSuggestion;
+      inlineEditHtml = `
+        <div style="background: #faf5ff; border: 1px solid #c084fc; border-radius: var(--radius-sm); padding: 1rem; margin-bottom: 1rem; box-shadow: 0 4px 12px rgba(124, 58, 237, 0.08);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; border-bottom: 1px dashed #d8b4fe; padding-bottom: 0.4rem;">
+            <div style="font-weight: 800; color: #6b21a8; font-size: 0.85rem; display: flex; align-items: center; gap: 0.4rem;">
+              <i class="fa-solid fa-pen-to-square"></i> CHỈNH SỬA LỜI VĂN AI CHO TIẾT NÀY (${curLesson.lessonTitle || curLesson.title})
+            </div>
+            <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 2px 8px; border-color: #d8b4fe;" onclick="toggleStep2InlineEditCurrentLesson('')">
+              <i class="fa-solid fa-xmark"></i> Đóng
+            </button>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.65rem;">
+            <div>
+              <label style="font-size: 0.74rem; font-weight: 700; color: #334155; display: block; margin-bottom: 3px;">
+                1. Mục I.4 (Yêu cầu cần đạt mới):
+              </label>
+              <textarea id="edit_yccd_${s.lessonId}" class="form-control" rows="2" style="font-size: 0.78rem; line-height: 1.4;">${s.yccdAddition || ''}</textarea>
+            </div>
+            <div>
+              <label style="font-size: 0.74rem; font-weight: 700; color: #334155; display: block; margin-bottom: 3px;">
+                2. Mục II (Đồ dùng dạy học bổ sung):
+              </label>
+              <textarea id="edit_dodung_${s.lessonId}" class="form-control" rows="2" style="font-size: 0.78rem; line-height: 1.4;">${s.dodungAddition || ''}</textarea>
+            </div>
+          </div>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.75rem;">
+            <div>
+              <label style="font-size: 0.74rem; font-weight: 700; color: #15803d; display: block; margin-bottom: 3px;">
+                3. Lời thoại GV (${s.targetPart || 'HĐ Vận dụng'}):
+              </label>
+              <textarea id="edit_gv_${s.lessonId}" class="form-control" rows="3" style="font-size: 0.78rem; line-height: 1.4; background: #f0fdf4;">${(s.activityAddition && s.activityAddition.teacherAct) || ''}</textarea>
+            </div>
+            <div>
+              <label style="font-size: 0.74rem; font-weight: 700; color: #0369a1; display: block; margin-bottom: 3px;">
+                4. Hoạt động HS (${s.targetPart || 'HĐ Vận dụng'}):
+              </label>
+              <textarea id="edit_hs_${s.lessonId}" class="form-control" rows="3" style="font-size: 0.78rem; line-height: 1.4; background: #f0f9ff;">${(s.activityAddition && s.activityAddition.studentAct) || ''}</textarea>
+            </div>
+          </div>
+          <div style="display: flex; justify-content: flex-end; gap: 0.5rem;">
+            <button class="btn btn-sm btn-primary" style="background: #7c3aed; border: none; font-weight: 700; font-size: 0.78rem;" onclick="saveAndRefreshStep2LessonEdit('${s.lessonId}')">
+              <i class="fa-solid fa-check"></i> Lưu & Cập nhật lên trang Word
+            </button>
+          </div>
+        </div>
+      `;
+    }
+
+    var sheetHtml = `
+      <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 700px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #0f172a;">
+        ${renderIntegratedLessonSheetContent(curLesson)}
+      </div>
+    `;
+
+    return headerHtml + tabsHtml + toolStripHtml + inlineEditHtml + sheetHtml + feedbackBoxHtml;
+  }
+
+  // =========================================================================
+  // CHẾ ĐỘ 2: XEM TRANG WORD KẾ HOẠCH TÍCH HỢP (WORD_PLAN)
+  // =========================================================================
+  if (viewMode === 'word_plan') {
+    var schoolName = integrationState.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
+    var teacherName = integrationState.teacherName || 'Lê Thành Long';
+    var schoolYear = integrationState.schoolYear || '2026 - 2027';
+
+    var toolStripHtml = `
+      <div style="display: flex; justify-content: space-between; align-items: center; background: #eff6ff; border: 1px solid #bfdbfe; border-radius: var(--radius-sm); padding: 0.55rem 0.85rem; margin-bottom: 0.85rem; flex-wrap: gap; gap: 0.5rem;">
+        <div style="font-size: 0.8rem; color: #1e40af; display: flex; align-items: center; gap: 0.4rem;">
+          <i class="fa-solid fa-file-contract" style="font-size: 1rem; color: #2563eb;"></i>
+          <span>Văn bản Kế hoạch tích hợp chuyên đề chuẩn hành chính (dùng để lưu hồ sơ chuyên môn, trình ký BGH).</span>
+        </div>
+        <div style="display: flex; gap: 0.4rem; align-items: center;">
+          <button class="btn btn-sm btn-outline" style="font-size: 0.76rem; background: #fff;" onclick="printIntegratedLessonSheet()" title="In văn bản kế hoạch này ra giấy">
+            <i class="fa-solid fa-print"></i> In kế hoạch này
+          </button>
+          <button class="btn btn-sm btn-primary" style="font-size: 0.76rem; background: #1e40af; border-color: #1e40af;" onclick="triggerExportPlanSummaryWord()" title="Tải file Word bảng kế hoạch về máy">
+            <i class="fa-solid fa-file-word"></i> Tải file Word Kế hoạch (.doc)
+          </button>
+        </div>
+      </div>
+    `;
+
+    var sheetHtml = `
+      <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 700px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.35; color: #0f172a;">
+        <table style="width: 100%; border: none; border-collapse: collapse; margin-bottom: 1.5rem;">
+          <tr style="border: none;">
+            <td style="border: none; width: 45%; text-align: center; vertical-align: top;">
+              <div style="font-size: 11pt; font-weight: bold; text-transform: uppercase;">${schoolName}</div>
+              <div style="font-size: 11pt; font-weight: bold; text-transform: uppercase;">TỔ CHUYÊN MÔN KHỐI ${plan.grade}</div>
+              <div style="border-bottom: 1px solid #000; width: 120px; margin: 4px auto;"></div>
+            </td>
+            <td style="border: none; width: 55%; text-align: center; vertical-align: top;">
+              <div style="font-size: 11pt; font-weight: bold;">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</div>
+              <div style="font-size: 11pt; font-weight: bold; font-style: italic;">Độc lập - Tự do - Hạnh phúc</div>
+              <div style="border-bottom: 1px solid #000; width: 160px; margin: 4px auto;"></div>
+            </td>
+          </tr>
+        </table>
+
+        <div style="text-align: center; margin-bottom: 1.25rem;">
+          <h2 style="font-size: 14pt; font-weight: bold; text-transform: uppercase; margin: 0 0 6px 0;">
+            KẾ HOẠCH TÍCH HỢP NỘI DUNG GIÁO DỤC
+          </h2>
+          <div style="font-size: 13pt; font-weight: bold; color: #7030a0; text-transform: uppercase;">
+            CHUYÊN ĐỀ: ${plan.docTitle || 'TÀI LIỆU TÍCH HỢP MỚI'}
+          </div>
+          <div style="font-size: 12pt; font-style: italic; margin-top: 4px;">
+            (Áp dụng: ${isTimetableMode ? 'Các môn học theo Thời khóa biểu' : ('Môn ' + plan.subjectName)} - Khối ${plan.grade} - Năm học ${schoolYear})
+          </div>
+        </div>
+
+        <table style="width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 12pt;">
+          <thead>
+            <tr style="background: #f1f5f9; text-align: center; font-weight: bold;">
+              <th style="border: 1pt solid #000; padding: 6pt 4pt; width: 35px;">TT</th>
+              <th style="border: 1pt solid #000; padding: 6pt 4pt; width: 55px;">Tuần</th>
+              <th style="border: 1pt solid #000; padding: 6pt 4pt; width: 55px;">Tiết</th>
+              <th style="border: 1pt solid #000; padding: 6pt 6pt; width: 170px;">Bài học (KHBD gốc)</th>
+              <th style="border: 1pt solid #000; padding: 6pt 6pt; width: 140px;">Địa chỉ tích hợp</th>
+              <th style="border: 1pt solid #000; padding: 6pt 4pt; width: 75px;">Mức độ</th>
+              <th style="border: 1pt solid #000; padding: 6pt 6pt;">Nội dung tích hợp cụ thể</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${plan.suggestions.map(function(s, idx) {
+              return `
+                <tr>
+                  <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">${idx + 1}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">Tuần ${s.week}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">${s.period || '—'}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 6pt; font-weight: bold;">${s.title}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 6pt;">${s.targetPart || 'Hoạt động Vận dụng'}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">${s.level || 'Liên hệ'}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 6pt;">
+                    ${s.integrationBrief || ''}
+                    ${s.yccdAddition ? ('<br><span style="color: #7030a0; font-weight: bold;">* YCCĐ mới:</span> <span style="color: #7030a0;">' + s.yccdAddition + '</span>') : ''}
+                    ${(s.activityAddition && s.activityAddition.teacherAct) ? ('<br><span style="color: #7030a0; font-weight: bold;">* Hoạt động:</span> <span style="color: #7030a0;">' + s.activityAddition.teacherAct + '</span>') : ''}
+                  </td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+
+        <table style="width: 100%; border: none; border-collapse: collapse; margin-top: 2rem;">
+          <tr style="border: none;">
+            <td style="border: none; width: 50%; text-align: center; vertical-align: top;">
+              <div style="font-weight: bold; text-transform: uppercase;">DUYỆT CỦA BAN GIÁM HIỆU / TỔ TRƯỞNG</div>
+              <div style="font-style: italic; font-size: 11pt; margin-top: 3px;">(Ký và ghi rõ họ tên)</div>
+              <div style="height: 65px;"></div>
+            </td>
+            <td style="border: none; width: 50%; text-align: center; vertical-align: top;">
+              <div style="font-style: italic; font-size: 11pt;">......., ngày ..... tháng ..... năm 202...</div>
+              <div style="font-weight: bold; text-transform: uppercase; margin-top: 3px;">NGƯỜI LẬP KẾ HOẠCH</div>
+              <div style="font-style: italic; font-size: 11pt; margin-top: 3px;">(Ký và ghi rõ họ tên)</div>
+              <div style="height: 65px;"></div>
+              <div style="font-weight: bold;">${teacherName}</div>
+            </td>
+          </tr>
+        </table>
+      </div>
+    `;
+
+    return headerHtml + toolStripHtml + sheetHtml + feedbackBoxHtml;
+  }
+
+  // =========================================================================
+  // CHẾ ĐỘ 3: BẢNG DUYỆT & GÓP Ý (TABLE)
+  // =========================================================================
+  var tableGuideHtml = `
     <!-- HƯỚNG DẪN GIÁO VIÊN -->
     <div style="background: #fdf2f8; border: 1px solid #fbcfe8; border-radius: var(--radius-sm); padding: 0.75rem 1rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
       <div style="font-size: 0.82rem; color: #9d174d; display: flex; align-items: center; gap: 0.5rem;">
@@ -4482,8 +4976,9 @@ function renderIntegrationPlanReviewHtml(plan) {
         <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.25rem 0.5rem; border-color: #fbcfe8;" onclick="toggleSelectAllIntegrationLessons(false)">Bỏ chọn tất cả</button>
       </div>
     </div>
+  `;
 
-    <!-- BẢNG KẾ HOẠCH CHI TIẾT TỪNG TIẾT -->
+  var tableHtml = `
     <div style="overflow-x: auto; border: 1px solid var(--border-color); border-radius: var(--radius-sm); margin-bottom: 1rem;">
       <table style="width: 100%; border-collapse: collapse; font-size: 0.82rem; text-align: left;">
         <thead>
@@ -4590,34 +5085,9 @@ function renderIntegrationPlanReviewHtml(plan) {
         </tbody>
       </table>
     </div>
-
-    <!-- KHUNG GÓP Ý & YÊU CẦU AI ĐIỀU CHỈNH KẾ HOẠCH -->
-    <div class="ai-feedback-box">
-      <div style="font-weight: 800; font-size: 0.88rem; color: #7c3aed; margin-bottom: 0.4rem; display: flex; align-items: center; gap: 0.4rem;">
-        <i class="fa-solid fa-comments"></i> Góp ý & Yêu cầu AI sửa chữa kế hoạch:
-      </div>
-      <p style="font-size: 0.78rem; color: #64748b; margin-bottom: 0.5rem;">
-        Nếu chưa vừa ý với tiết nào, bạn hãy nhập yêu cầu vào đây (Ví dụ: <em>"Đổi tiết 2 sang tích hợp hoạt động Khởi động", "Thêm câu hỏi tình huống thực tế cho tiết 3", "Rút ngắn nội dung tiết 1"</em>), AI sẽ lập tức cập nhật lại kế hoạch cho bạn.
-      </p>
-      <div style="display: flex; gap: 0.6rem; align-items: stretch;">
-        <textarea id="integFeedbackInput" class="form-control" rows="2" placeholder="Nhập ý kiến góp ý / yêu cầu sửa đổi cho AI tại đây..." style="font-size: 0.82rem; background: #ffffff;" oninput="integrationState.userFeedbackInput = this.value">${integrationState.userFeedbackInput || ''}</textarea>
-        <button id="btnSendFeedbackToAi" class="btn btn-primary" style="background: linear-gradient(135deg, #7c3aed, #a855f7); border: none; font-weight: 800; padding: 0 1.25rem; font-size: 0.84rem; white-space: nowrap; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.2rem;" onclick="triggerSendIntegrationFeedback()">
-          <i class="fa-solid fa-paper-plane"></i>
-          <span>GỬI GÓP Ý</span>
-        </button>
-      </div>
-    </div>
-
-    <!-- NÚT XÁC NHẬN CHÍNH CUỐI BƯỚC 2 -->
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border-color);">
-      <button class="btn btn-outline" style="font-size: 0.84rem;" onclick="resetIntegrationToSetup()">
-        <i class="fa-solid fa-arrow-left"></i> Quay lại chọn tài liệu khác
-      </button>
-      <button class="btn btn-primary" style="background: linear-gradient(135deg, #16a34a, #22c55e); border: none; font-weight: 800; box-shadow: 0 4px 14px rgba(22, 163, 74, 0.35); padding: 0.75rem 1.75rem; font-size: 0.95rem;" onclick="triggerApplyAndPreviewIntegration()">
-        <i class="fa-solid fa-circle-check"></i> XÁC NHẬN KẾ HOẠCH NÀY & BẮT ĐẦU CHÈN VÀO GIÁO ÁN (BƯỚC 3)
-      </button>
-    </div>
   `;
+
+  return headerHtml + tableGuideHtml + tableHtml + feedbackBoxHtml;
 }
 
 function onPlanCellEdit(lessonId, fieldName, value) {
@@ -4682,10 +5152,11 @@ async function triggerSendIntegrationFeedback() {
     var updatedPlan = await IntegrationService.refineIntegrationPlanWithFeedback(integrationState.analyzedPlan, feedbackText);
     integrationState.analyzedPlan = updatedPlan;
     integrationState.userFeedbackInput = '';
+    await syncAppliedLessonsFromPlan();
 
-    var output = document.getElementById('integOutputContainer');
-    if (output) {
-      output.innerHTML = renderIntegrationPlanReviewHtml(updatedPlan);
+    var container = document.getElementById('content-container');
+    if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+      renderAiIntegrationView(container);
     }
     showToast('AI đã tiếp thu góp ý và cập nhật lại kế hoạch thành công!', 'success');
 
@@ -4700,14 +5171,21 @@ async function triggerSendIntegrationFeedback() {
   }
 }
 
-function toggleIntegrationLessonSelect(lessonId) {
+async function toggleIntegrationLessonSelect(lessonId) {
   integrationState.selectedLessons[lessonId] = !integrationState.selectedLessons[lessonId];
   var count = Object.values(integrationState.selectedLessons).filter(Boolean).length;
   var badge = document.getElementById('integSelectedCountBadge');
   if (badge) badge.textContent = count;
+  if (integrationState.step2ViewMode === 'word_lesson') {
+    await syncAppliedLessonsFromPlan();
+    var container = document.getElementById('content-container');
+    if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+      renderAiIntegrationView(container);
+    }
+  }
 }
 
-function toggleSelectAllIntegrationLessons(checked) {
+async function toggleSelectAllIntegrationLessons(checked) {
   if (!integrationState.analyzedPlan) return;
   integrationState.analyzedPlan.suggestions.forEach(function(s) {
     integrationState.selectedLessons[s.lessonId] = checked;
@@ -4717,6 +5195,13 @@ function toggleSelectAllIntegrationLessons(checked) {
   var count = Object.values(integrationState.selectedLessons).filter(Boolean).length;
   var badge = document.getElementById('integSelectedCountBadge');
   if (badge) badge.textContent = count;
+  if (integrationState.step2ViewMode === 'word_lesson') {
+    await syncAppliedLessonsFromPlan();
+    var container = document.getElementById('content-container');
+    if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+      renderAiIntegrationView(container);
+    }
+  }
 }
 
 // BƯỚC 3: XÁC NHẬN & CHÈN VÀO GIÁO ÁN
@@ -5277,6 +5762,8 @@ function resetIntegrationToSetup() {
   integrationState.analyzedPlan = null;
   integrationState.appliedLessons = null;
   integrationState.timetableAppliedWeeks = [];
+  integrationState.step2ViewMode = 'word_lesson';
+  integrationState.step2EditingLessonId = null;
   var container = document.getElementById('content-container');
   if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
     renderAiIntegrationView(container);
