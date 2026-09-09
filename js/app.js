@@ -22,6 +22,7 @@ var integrationState = {
   schoolYear: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_school_year') : '') || '2026 - 2027',
   className: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_class_name') : '') || '',
   inputMethod: 'upload', // 'upload' | 'paste'
+  uploadedFiles: [], // Danh sách các tệp tải lên: [{ id, name, type, text, wordCount, pageCount, uploadedAt }]
   uploadedDocName: '',
   uploadedDocType: '',
   uploadedDocText: '',
@@ -3122,6 +3123,8 @@ if (typeof window !== "undefined") {
   window.setIntegrationQuickRange = typeof setIntegrationQuickRange !== "undefined" ? setIntegrationQuickRange : null;
   window.setIntegrationInputMethod = typeof setIntegrationInputMethod !== "undefined" ? setIntegrationInputMethod : null;
   window.handleIntegrationFileInput = typeof handleIntegrationFileInput !== "undefined" ? handleIntegrationFileInput : null;
+  window.removeUploadedIntegrationFile = typeof removeUploadedIntegrationFile !== "undefined" ? removeUploadedIntegrationFile : null;
+  window.clearAllUploadedIntegrationDocs = typeof clearAllUploadedIntegrationDocs !== "undefined" ? clearAllUploadedIntegrationDocs : null;
   window.onIntegrationPasteTextInput = typeof onIntegrationPasteTextInput !== "undefined" ? onIntegrationPasteTextInput : null;
   window.triggerAnalyzeIntegrationPlan = typeof triggerAnalyzeIntegrationPlan !== "undefined" ? triggerAnalyzeIntegrationPlan : null;
   window.onPlanCellEdit = typeof onPlanCellEdit !== "undefined" ? onPlanCellEdit : null;
@@ -3161,6 +3164,11 @@ function getIntegrationSubjectsForGrade(grade) {
 }
 
 function renderAiIntegrationView(container) {
+  if (!integrationState._storageInitialized) {
+    integrationState._storageInitialized = true;
+    setTimeout(initSavedIntegrationDocs, 10);
+  }
+
   var curGrade = integrationState.grade || 5;
   var subjects = getIntegrationSubjectsForGrade(curGrade);
   var curSubj = integrationState.subjectKey || 'toan';
@@ -3395,34 +3403,59 @@ function renderAiIntegrationView(container) {
 
           <!-- TAB 1: TẢI FILE -->
           <div id="integUploadTabContent" style="display: ${integrationState.inputMethod === 'upload' ? 'block' : 'none'};">
-            ${integrationState.uploadedDocName ? `
-              <div style="background: #f0fdf4; border: 1px solid #86efac; border-radius: var(--radius-sm); padding: 0.75rem; display: flex; align-items: center; justify-content: space-between;">
-                <div style="display: flex; align-items: center; gap: 0.6rem; overflow: hidden;">
-                  <div style="width: 34px; height: 34px; border-radius: 8px; background: #22c55e; color: white; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; flex-shrink: 0;">
-                    <i class="fa-solid fa-file-circle-check"></i>
-                  </div>
-                  <div style="overflow: hidden;">
-                    <div style="font-size: 0.82rem; font-weight: 800; color: #15803d; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;" title="${integrationState.uploadedDocName}">
-                      ${integrationState.uploadedDocName}
-                    </div>
-                    <div style="font-size: 0.72rem; color: #166534;">
-                      ${integrationState.uploadedDocType || 'Tài liệu'} • ${integrationState.uploadedWordCount} từ
-                    </div>
-                  </div>
+            ${(integrationState.uploadedFiles && integrationState.uploadedFiles.length > 0) ? `
+              <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); padding: 0.65rem; margin-bottom: 0.5rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem; padding-bottom: 0.35rem; border-bottom: 1px dashed #cbd5e1;">
+                  <span style="font-size: 0.78rem; font-weight: 800; color: #1e293b;">
+                    <i class="fa-solid fa-folder-open" style="color: #db2777;"></i> Tài liệu đã nạp (${integrationState.uploadedFiles.length} tệp • ${integrationState.uploadedWordCount} từ):
+                  </span>
+                  <span style="font-size: 0.7rem; color: #16a34a; font-weight: 700;">
+                    <i class="fa-solid fa-circle-check"></i> Đã lưu lâu dài trên máy
+                  </span>
                 </div>
-                <div style="display: flex; gap: 0.3rem;">
-                  <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.2rem 0.45rem; color: #0284c7; border-color: #bae6fd;" onclick="document.getElementById('integFileInput').click()" title="Đổi tệp khác">Đổi</button>
-                  <button class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.2rem 0.45rem; color: #dc2626; border-color: #fca5a5;" onclick="clearUploadedIntegrationDoc()" title="Xóa tài liệu">Xóa</button>
+                <div style="display: flex; flex-direction: column; gap: 0.35rem; max-height: 180px; overflow-y: auto;">
+                  ${integrationState.uploadedFiles.map(function(f) {
+                    var isPdf = (f.type || '').indexOf('PDF') !== -1 || f.name.toLowerCase().endsWith('.pdf');
+                    var isDoc = (f.type || '').indexOf('Word') !== -1 || f.name.toLowerCase().endsWith('.docx');
+                    var iconClass = isPdf ? 'fa-file-pdf' : (isDoc ? 'fa-file-word' : 'fa-file-lines');
+                    var iconColor = isPdf ? '#ef4444' : (isDoc ? '#2563eb' : '#64748b');
+                    return `
+                      <div style="background: #ffffff; border: 1px solid #e2e8f0; border-radius: 4px; padding: 0.4rem 0.6rem; display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;">
+                        <div style="display: flex; align-items: center; gap: 0.5rem; overflow: hidden;">
+                          <i class="fa-solid ${iconClass}" style="color: ${iconColor}; font-size: 1.15rem; flex-shrink: 0;"></i>
+                          <div style="overflow: hidden;">
+                            <div style="font-size: 0.78rem; font-weight: 700; color: #1e293b; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;" title="${f.name}">
+                              ${f.name}
+                            </div>
+                            <div style="font-size: 0.68rem; color: #64748b;">
+                              ${f.pageCount ? f.pageCount + ' trang • ' : ''}${f.wordCount} từ (Đọc 100% nội dung)
+                            </div>
+                          </div>
+                        </div>
+                        <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 0.15rem 0.4rem; color: #dc2626; border-color: #fca5a5; flex-shrink: 0;" onclick="removeUploadedIntegrationFile('${f.id}')" title="Xóa tệp này">
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </div>
+                    `;
+                  }).join('')}
+                </div>
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.45rem; padding-top: 0.35rem; border-top: 1px dashed #e2e8f0;">
+                  <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.25rem 0.55rem; color: #db2777; border-color: #fbcfe8;" onclick="document.getElementById('integFileInput').click()">
+                    <i class="fa-solid fa-plus"></i> Thêm tệp khác
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.25rem 0.55rem; color: #dc2626; border-color: #fca5a5;" onclick="clearAllUploadedIntegrationDocs()">
+                    <i class="fa-solid fa-trash-can"></i> Xóa tất cả
+                  </button>
                 </div>
               </div>
             ` : `
               <div class="upload-dropzone" onclick="document.getElementById('integFileInput').click()" ondragover="event.preventDefault(); this.classList.add('dragover')" ondragleave="this.classList.remove('dragover')" ondrop="event.preventDefault(); this.classList.remove('dragover'); handleIntegrationFileInput(event.dataTransfer)">
                 <i class="fa-solid fa-file-arrow-up" style="font-size: 2rem; color: #db2777; margin-bottom: 0.4rem;"></i>
-                <div style="font-size: 0.84rem; font-weight: 700; color: #1e293b;">Kéo thả tệp hoặc bấm để chọn</div>
-                <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 0.2rem;">Hỗ trợ .DOCX, .PDF, .TXT (Tài liệu GDĐP, Quyền con người, An toàn...)</div>
+                <div style="font-size: 0.84rem; font-weight: 700; color: #1e293b;">Kéo thả tệp hoặc bấm để chọn (Chọn nhiều tệp cùng lúc)</div>
+                <div style="font-size: 0.72rem; color: var(--text-muted); margin-top: 0.2rem;">Hỗ trợ .DOCX, .PDF, .TXT — Đọc 100% tất cả các trang & Tự động lưu lâu dài</div>
               </div>
             `}
-            <input type="file" id="integFileInput" accept=".docx,.pdf,.txt,.md" style="display: none;" onchange="handleIntegrationFileInput(this)">
+            <input type="file" id="integFileInput" multiple accept=".docx,.pdf,.txt,.md" style="display: none;" onchange="handleIntegrationFileInput(this)">
           </div>
 
           <!-- TAB 2: DÁN VĂN BẢN TRỰC TIẾP -->
@@ -3685,47 +3718,149 @@ function setIntegrationInputMethod(method) {
   });
 }
 
-function clearUploadedIntegrationDoc() {
-  integrationState.uploadedDocName = '';
-  integrationState.uploadedDocType = '';
-  integrationState.uploadedDocText = '';
-  integrationState.uploadedWordCount = 0;
+function updateCombinedUploadedDocs(shouldPersist) {
+  if (shouldPersist === undefined) shouldPersist = true;
+
+  if (!integrationState.uploadedFiles || integrationState.uploadedFiles.length === 0) {
+    integrationState.uploadedDocName = '';
+    integrationState.uploadedDocType = '';
+    integrationState.uploadedDocText = '';
+    integrationState.uploadedWordCount = 0;
+    if (shouldPersist && typeof IntegrationService !== 'undefined' && IntegrationService.storage) {
+      IntegrationService.storage.clearAllDocs();
+    }
+    return;
+  }
+
+  var count = integrationState.uploadedFiles.length;
+  if (count === 1) {
+    var f = integrationState.uploadedFiles[0];
+    integrationState.uploadedDocName = f.name;
+    integrationState.uploadedDocType = f.type || 'Tài liệu';
+    integrationState.uploadedDocText = f.text || '';
+    integrationState.uploadedWordCount = f.wordCount || 0;
+  } else {
+    integrationState.uploadedDocName = count + ' tài liệu: ' + integrationState.uploadedFiles.map(function(f) { return f.name; }).join(', ');
+    integrationState.uploadedDocType = 'Nhiều tài liệu (' + count + ' tệp)';
+
+    var combinedText = integrationState.uploadedFiles.map(function(f, idx) {
+      var header = '=== TÀI LIỆU ' + (idx + 1) + ': ' + f.name.toUpperCase() + (f.pageCount ? ' (' + f.pageCount + ' trang, ' : ' (') + f.wordCount + ' từ) ===';
+      return header + '\n' + (f.text || '');
+    }).join('\n\n' + '='.repeat(60) + '\n\n');
+
+    integrationState.uploadedDocText = combinedText;
+    integrationState.uploadedWordCount = integrationState.uploadedFiles.reduce(function(sum, f) { return sum + (f.wordCount || 0); }, 0);
+  }
+
+  if (shouldPersist && typeof IntegrationService !== 'undefined' && IntegrationService.storage) {
+    IntegrationService.storage.saveDocs(integrationState.uploadedFiles);
+  }
+}
+
+function removeUploadedIntegrationFile(fileId) {
+  if (!integrationState.uploadedFiles) return;
+  integrationState.uploadedFiles = integrationState.uploadedFiles.filter(function(f) {
+    return f.id !== fileId;
+  });
+  updateCombinedUploadedDocs(true);
   var container = document.getElementById('content-container');
   if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
     renderAiIntegrationView(container);
   }
+  showToast('Đã xóa tệp khỏi danh sách tài liệu tích hợp.', 'info');
+}
+
+function clearAllUploadedIntegrationDocs() {
+  integrationState.uploadedFiles = [];
+  updateCombinedUploadedDocs(true);
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  showToast('Đã xóa toàn bộ tài liệu tích hợp.', 'info');
+}
+
+function clearUploadedIntegrationDoc() {
+  clearAllUploadedIntegrationDocs();
+}
+
+async function initSavedIntegrationDocs() {
+  if (typeof IntegrationService !== 'undefined' && IntegrationService.storage) {
+    try {
+      var saved = await IntegrationService.storage.getAllDocs();
+      if (saved && saved.length > 0 && (!integrationState.uploadedFiles || integrationState.uploadedFiles.length === 0)) {
+        integrationState.uploadedFiles = saved;
+        updateCombinedUploadedDocs(false);
+        var container = document.getElementById('content-container');
+        if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+          renderAiIntegrationView(container);
+        }
+      }
+    } catch(err) {
+      console.warn('Lỗi nạp tài liệu đã lưu:', err);
+    }
+  }
 }
 
 async function handleIntegrationFileInput(inputOrDataTransfer) {
-  var file = (inputOrDataTransfer.files && inputOrDataTransfer.files[0]) ? inputOrDataTransfer.files[0] : null;
-  if (!file) return;
+  var filesList = [];
+  if (inputOrDataTransfer.files) {
+    filesList = Array.from(inputOrDataTransfer.files);
+  }
+  if (!filesList || filesList.length === 0) return;
 
   var uploadTab = document.getElementById('integUploadTabContent');
-  if (uploadTab) {
-    uploadTab.innerHTML = '<div style="text-align: center; padding: 1rem; color: #db2777;"><i class="fa-solid fa-spinner fa-spin"></i> Đang đọc tệp ' + file.name + '...</div>';
+  var totalFiles = filesList.length;
+
+  for (var i = 0; i < totalFiles; i++) {
+    var file = filesList[i];
+    if (uploadTab) {
+      uploadTab.innerHTML = `
+        <div style="text-align: center; padding: 1.25rem; color: #db2777;">
+          <i class="fa-solid fa-spinner fa-spin" style="font-size: 1.75rem; margin-bottom: 0.5rem;"></i>
+          <div style="font-weight: 800; font-size: 0.88rem;">Đang đọc tệp (${i + 1}/${totalFiles}): ${file.name}...</div>
+          <div id="fileReadPageProgress" style="font-size: 0.76rem; color: #64748b; margin-top: 0.25rem;">Đang đọc 100% nội dung...</div>
+        </div>
+      `;
+    }
+
+    try {
+      var result = await IntegrationService.extractTextFromFile(file, function(curPage, totalPages) {
+        var pEl = document.getElementById('fileReadPageProgress');
+        if (pEl) pEl.textContent = 'Đang trích xuất trang ' + curPage + '/' + totalPages + ' (Đọc 100% toàn bộ nội dung)...';
+      });
+
+      if (!integrationState.uploadedFiles) integrationState.uploadedFiles = [];
+      
+      var newDoc = {
+        id: 'doc_' + Date.now() + '_' + Math.random().toString(36).substr(2, 5),
+        name: result.fileName,
+        type: result.fileType,
+        text: result.text,
+        wordCount: result.wordCount,
+        pageCount: result.pageCount || 0,
+        uploadedAt: new Date().toISOString()
+      };
+
+      var existingIdx = integrationState.uploadedFiles.findIndex(function(x) { return x.name === result.fileName; });
+      if (existingIdx !== -1) {
+        integrationState.uploadedFiles[existingIdx] = newDoc;
+      } else {
+        integrationState.uploadedFiles.push(newDoc);
+      }
+    } catch (err) {
+      console.error('File read error for ' + file.name + ':', err);
+      showToast('Lỗi khi đọc tệp ' + file.name + ': ' + (err.message || ''), 'danger');
+    }
   }
 
-  try {
-    var result = await IntegrationService.extractTextFromFile(file);
-    integrationState.uploadedDocName = result.fileName;
-    integrationState.uploadedDocType = result.fileType;
-    integrationState.uploadedDocText = result.text;
-    integrationState.uploadedWordCount = result.wordCount;
+  updateCombinedUploadedDocs(true);
 
-    var container = document.getElementById('content-container');
-    if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
-      renderAiIntegrationView(container);
-    }
-    showToast('Đã đọc tệp "' + file.name + '" thành công (' + result.wordCount + ' từ)!', 'success');
-
-  } catch (err) {
-    console.error('File read error:', err);
-    showToast(err.message || 'Lỗi khi đọc tệp', 'danger');
-    var container = document.getElementById('content-container');
-    if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
-      renderAiIntegrationView(container);
-    }
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
   }
+  showToast('Đã nạp thành công ' + totalFiles + ' tệp (Đã đọc 100% và lưu trữ lâu dài trên máy)!', 'success');
 }
 
 function onIntegrationPasteTextInput(text) {

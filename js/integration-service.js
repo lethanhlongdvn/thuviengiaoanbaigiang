@@ -489,10 +489,117 @@ var IntegrationService = {
 
 
   // =========================================================================
+  // =========================================================================
+  // BỘ NHỚ LƯU TRỮ TÀI LIỆU LÂU DÀI TRÊN MÁY (INDEXEDDB & LOCALSTORAGE)
+  // =========================================================================
+  storage: {
+    DB_NAME: 'TVTH_Integration_DB',
+    STORE_NAME: 'uploaded_docs',
+    DB_VERSION: 1,
+
+    openDB: function() {
+      var self = this;
+      return new Promise(function(resolve) {
+        if (typeof indexedDB === 'undefined') {
+          resolve(null);
+          return;
+        }
+        try {
+          var request = indexedDB.open(self.DB_NAME, self.DB_VERSION);
+          request.onupgradeneeded = function(e) {
+            var db = e.target.result;
+            if (!db.objectStoreNames.contains(self.STORE_NAME)) {
+              db.createObjectStore(self.STORE_NAME, { keyPath: 'id' });
+            }
+          };
+          request.onsuccess = function(e) {
+            resolve(e.target.result);
+          };
+          request.onerror = function(e) {
+            console.warn('IndexedDB open error:', e);
+            resolve(null);
+          };
+        } catch(err) {
+          resolve(null);
+        }
+      });
+    },
+
+    getAllDocs: async function() {
+      var db = await this.openDB();
+      if (!db) {
+        try {
+          var raw = localStorage.getItem('tvth_saved_docs');
+          return raw ? JSON.parse(raw) : [];
+        } catch(e) { return []; }
+      }
+      var self = this;
+      return new Promise(function(resolve) {
+        try {
+          var tx = db.transaction(self.STORE_NAME, 'readonly');
+          var store = tx.objectStore(self.STORE_NAME);
+          var req = store.getAll();
+          req.onsuccess = function() {
+            resolve(req.result || []);
+          };
+          req.onerror = function() {
+            resolve([]);
+          };
+        } catch(e) {
+          resolve([]);
+        }
+      });
+    },
+
+    saveDocs: async function(docsList) {
+      var db = await this.openDB();
+      if (!db) {
+        try {
+          localStorage.setItem('tvth_saved_docs', JSON.stringify(docsList));
+        } catch(e) {}
+        return true;
+      }
+      var self = this;
+      return new Promise(function(resolve) {
+        try {
+          var tx = db.transaction(self.STORE_NAME, 'readwrite');
+          var store = tx.objectStore(self.STORE_NAME);
+          store.clear();
+          docsList.forEach(function(doc) {
+            store.put(doc);
+          });
+          tx.oncomplete = function() { resolve(true); };
+          tx.onerror = function() { resolve(false); };
+        } catch(e) {
+          resolve(false);
+        }
+      });
+    },
+
+    clearAllDocs: async function() {
+      try { localStorage.removeItem('tvth_saved_docs'); } catch(e) {}
+      var db = await this.openDB();
+      if (!db) return true;
+      var self = this;
+      return new Promise(function(resolve) {
+        try {
+          var tx = db.transaction(self.STORE_NAME, 'readwrite');
+          var store = tx.objectStore(self.STORE_NAME);
+          store.clear();
+          tx.oncomplete = function() { resolve(true); };
+          tx.onerror = function() { resolve(false); };
+        } catch(e) {
+          resolve(false);
+        }
+      });
+    }
+  },
+
+  // =========================================================================
   // 3. TRÍCH XUẤT NỘI DUNG TÀI LIỆU TẢI LÊN (.DOCX, .PDF, .TXT)
   // =========================================================================
 
-  extractTextFromFile: async function(file) {
+  extractTextFromFile: async function(file, onProgress) {
     if (!file) throw new Error('Vui lòng chọn tệp tài liệu.');
     var fileName = file.name || 'Tai_lieu_tich_hop';
     var ext = (fileName.split('.').pop() || '').toLowerCase();
@@ -557,9 +664,12 @@ var IntegrationService = {
             var loadingTask = pdfjsLib.getDocument({ data: typedarray });
             var pdf = await loadingTask.promise;
             var fullText = '';
-            var maxPages = Math.min(pdf.numPages, 30);
+            var maxPages = pdf.numPages; // ĐỌC TOÀN BỘ 100% TẤT CẢ CÁC TRANG (KHÔNG GIỚI HẠN)
 
             for (var pageNum = 1; pageNum <= maxPages; pageNum++) {
+              if (typeof onProgress === 'function') {
+                try { onProgress(pageNum, maxPages); } catch(pErr){}
+              }
               var page = await pdf.getPage(pageNum);
               var textContent = await page.getTextContent();
               var pageText = textContent.items.map(function(item) { return item.str; }).join(' ');
@@ -1399,7 +1509,7 @@ Nhiệm vụ của bạn: Nghiên cứu kỹ tài liệu chỉ đạo tích hợ
 
 TÀI LIỆU TÍCH HỢP (${docTitle}):
 """
-${docText.substring(0, 3500)}
+${docText.substring(0, 350000)}
 """
 
 YÊU CẦU ĐẶC BIỆT CỦA GIÁO VIÊN: "${userNotes || 'Tích hợp sâu sát, sinh động, chuẩn CV 2345'}"
