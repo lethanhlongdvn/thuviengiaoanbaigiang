@@ -170,12 +170,6 @@ function initApplication() {
   }
 }
 
-if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", initApplication);
-} else {
-  initApplication();
-}
-
 var SDOC_SECTIONS = [
   {
     id: 'sdoc-khbd',
@@ -5846,3 +5840,13 @@ function updateFooterCount() {
     el.textContent = DATABASE.allFiles.length;
   }
 }
+
+// Khởi tạo ứng dụng sau khi toàn bộ script & biến số đã nạp đầy đủ
+if (typeof document !== "undefined") {
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initApplication);
+  } else {
+    initApplication();
+  }
+}
+
