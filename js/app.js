@@ -4888,9 +4888,13 @@ function renderIntegratedLessonSheetContent(les) {
       cleanLine = line.replace(/:\s*[.\s_]+/, ': ' + durationDefault + ' ');
     }
 
-    var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1;
+    var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1;
     if (isTichHop) {
-      return `<p style="margin: 4pt 0; background: #fdf2f8; color: #9d174d; padding: 4pt 8pt; border-left: 3px solid #db2777; border-radius: 2px;"><strong>${cleanLine}</strong></p>`;
+      var displayLine = cleanLine.replace(/^\[Tích hợp mới\]\s*/i, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/^\(Tích hợp\)\s*/i, '').trim();
+      if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
+        displayLine = '- ' + displayLine;
+      }
+      return `<p style="margin: 3pt 0; color: #7030a0; font-weight: 500;">${displayLine}</p>`;
     }
     return `<p style="margin: 3pt 0;">${cleanLine}</p>`;
   }).join('');
@@ -4898,9 +4902,13 @@ function renderIntegratedLessonSheetContent(les) {
   var dodungList = les.dodung || les.teachingAids || [];
   var dodungHtml = dodungList.map(function(line) {
     if (typeof line !== 'string') return '';
-    var isTichHop = line.indexOf('[Tích hợp') !== -1;
+    var isTichHop = line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1;
     if (isTichHop) {
-      return `<p style="margin: 4pt 0; background: #eff6ff; color: #1e40af; padding: 4pt 8pt; border-left: 3px solid #3b82f6; border-radius: 2px;"><strong>${line}</strong></p>`;
+      var displayLine = line.replace(/^\[Tích hợp mới\]\s*/i, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/^\(Tích hợp\)\s*/i, '').trim();
+      if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
+        displayLine = '- ' + displayLine;
+      }
+      return `<p style="margin: 3pt 0; color: #7030a0; font-weight: 500;">${displayLine}</p>`;
     }
     return `<p style="margin: 3pt 0;">${line}</p>`;
   }).join('');
@@ -4924,22 +4932,30 @@ function renderIntegratedLessonSheetContent(les) {
         if (rIdx === 0 && isHeaderRow(r)) continue;
 
         if (r.length >= 2) {
-          var gvCol = (r[0] || '').replace(/\n/g, '<br/>');
-          var hsCol = (r[1] || '').replace(/\n/g, '<br/>');
-          var isTichHop = gvCol.indexOf('[Tích hợp') !== -1 || hsCol.indexOf('[Tích hợp') !== -1;
+          var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1;
+          var gvText = (r[0] || '').replace(/^\[Tích hợp\]\s*/i, '').trim();
+          var hsText = (r[1] || '').replace(/^\[Tích hợp\]\s*/i, '').trim();
+          var gvCol = gvText.replace(/\n/g, '<br/>');
+          var hsCol = hsText.replace(/\n/g, '<br/>');
+
+          var cellStyle = isTichHop ? 'color: #7030a0; font-weight: 500;' : '';
+
           rowsHtml += `
-            <tr style="${isTichHop ? 'background: #fdf4ff;' : ''}">
-              <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1;">
-                ${isTichHop ? '<div style="display: inline-block; background: #db2777; color: white; font-size: 9pt; font-weight: bold; padding: 2px 6px; border-radius: 4px; margin-bottom: 4px;">NỘI DUNG TÍCH HỢP MỚI</div>' : ''}
+            <tr>
+              <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1; ${cellStyle}">
                 <div>${gvCol}</div>
               </td>
-              <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1;">
+              <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1; ${cellStyle}">
                 <div>${hsCol}</div>
               </td>
             </tr>
           `;
         } else if (r.length === 1) {
-          rowsHtml += `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;">${(r[0] || '').replace(/\n/g, '<br/>')}</td></tr>`;
+          var rawHeader = r[0] || '';
+          var isTichHopHeader = rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('(Tích hợp)') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1;
+          var cleanHeader = rawHeader.replace(/\[NỘI DUNG TÍCH HỢP MỚI\]/i, '').replace(/^\[Tích hợp\]\s*/i, '').trim();
+          var headerColorStyle = isTichHopHeader ? 'color: #7030a0;' : '';
+          rowsHtml += `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; ${headerColorStyle}">${cleanHeader.replace(/\n/g, '<br/>')}</td></tr>`;
         }
       }
 
