@@ -1631,11 +1631,22 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     if (Array.isArray(les.tables)) {
       les.tables = les.tables.map(function(tableRows) {
         if (!Array.isArray(tableRows)) return tableRows;
-        return tableRows.filter(function(row) {
-          if (!Array.isArray(row)) return true;
+        var filtered = [];
+        for (var i = 0; i < tableRows.length; i++) {
+          var row = tableRows[i];
+          if (!Array.isArray(row)) continue;
+          var nextRow = tableRows[i + 1];
+          var isNextInteg = Array.isArray(nextRow) && nextRow.some(function(c) { return isIntegratedText(c); });
+          if (row.length === 1 && isNextInteg) {
+            continue;
+          }
           var rowStr = row.join(' ');
-          return !isIntegratedText(rowStr);
-        });
+          if (isIntegratedText(rowStr)) {
+            continue;
+          }
+          filtered.push(row);
+        }
+        return filtered;
       });
     }
 
@@ -1649,14 +1660,28 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     if (!lesson.yccd) lesson.yccd = [];
     if (suggestion.yccdAddition) {
       var rawYccd = suggestion.yccdAddition.replace(/^-\s*/, '').trim();
-      var cleanYccd = rawYccd.replace(/^\[Tích hợp mới\]\s*/i, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/^\(Tích hợp\)\s*/i, '').trim();
+      var cleanYccd = rawYccd
+        .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+        .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/^\[Tích hợp\]\s*/i, '')
+        .replace(/\(Tích hợp\)/gi, '')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
       lesson.yccd.push('[Tích hợp] - ' + cleanYccd);
     }
 
     var dodungList = lesson.dodung || lesson.teachingAids || [];
     if (suggestion.dodungAddition) {
       var rawDodung = suggestion.dodungAddition.replace(/^-\s*/, '').trim();
-      var cleanDodung = rawDodung.replace(/^\[Tích hợp\]\s*/i, '').replace(/^\(Tích hợp\)\s*/i, '').trim();
+      var cleanDodung = rawDodung
+        .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+        .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/^\[Tích hợp\]\s*/i, '')
+        .replace(/\(Tích hợp\)/gi, '')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
       dodungList.push('[Tích hợp] - ' + cleanDodung);
     }
     lesson.dodung = dodungList;
@@ -1668,13 +1693,34 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
     if (suggestion.activityAddition) {
       var act = suggestion.activityAddition;
-      var cleanStepName = (act.stepName || 'Hoạt động Vận dụng').replace(/\[.*?\]/g, '').trim();
-      var newHeaderRow = ['* ' + cleanStepName + ' (Tích hợp)'];
-      var teacherActText = (act.teacherAct || '').replace(/^\[Tích hợp\]\s*/i, '').trim();
+      var cleanStepName = (act.stepName || 'Hoạt động Vận dụng')
+        .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+        .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/\(Tích hợp\)/gi, '')
+        .replace(/\[.*?\]/g, '')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+      var newHeaderRow = ['* ' + cleanStepName];
+      var teacherActText = (act.teacherAct || '')
+        .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+        .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/^\[Tích hợp\]\s*/i, '')
+        .replace(/\(Tích hợp\)/gi, '')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
       if (!teacherActText.startsWith('-') && !teacherActText.startsWith('+')) {
         teacherActText = '- ' + teacherActText;
       }
-      var studentActText = (act.studentAct || '').replace(/^\[Tích hợp\]\s*/i, '').trim();
+      var studentActText = (act.studentAct || '')
+        .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+        .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/^\[Tích hợp\]\s*/i, '')
+        .replace(/\(Tích hợp\)/gi, '')
+        .replace(/\s{2,}/g, ' ')
+        .trim();
       if (studentActText && !studentActText.startsWith('-') && !studentActText.startsWith('+')) {
         studentActText = '- ' + studentActText;
       }
@@ -1996,9 +2042,17 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           cleanLine = line.replace(/:\s*[.\s_]+/, ': ' + durationDefault + ' ');
         }
 
-        var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1;
+        var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
         if (isTichHop) {
-          var displayLine = cleanLine.replace(/^\[Tích hợp mới\]\s*/i, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/^\(Tích hợp\)\s*/i, '').trim();
+          var displayLine = cleanLine
+            .replace(/<!--.*?-->/g, '')
+            .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+            .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+            .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+            .replace(/^\[Tích hợp\]\s*/i, '')
+            .replace(/\(Tích hợp\)/gi, '')
+            .replace(/\s{2,}/g, ' ')
+            .trim();
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
             displayLine = '- ' + displayLine;
           }
@@ -2010,9 +2064,17 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var dodungList = les.dodung || les.teachingAids || [];
       var dodungContent = dodungList.map(function(line) {
         if (typeof line !== 'string') return '';
-        var isTichHop = line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1;
+        var isTichHop = line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
         if (isTichHop) {
-          var displayLine = line.replace(/^\[Tích hợp mới\]\s*/i, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/^\(Tích hợp\)\s*/i, '').trim();
+          var displayLine = line
+            .replace(/<!--.*?-->/g, '')
+            .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+            .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+            .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+            .replace(/^\[Tích hợp\]\s*/i, '')
+            .replace(/\(Tích hợp\)/gi, '')
+            .replace(/\s{2,}/g, ' ')
+            .trim();
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
             displayLine = '- ' + displayLine;
           }
@@ -2032,9 +2094,25 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             if (rIdx === 0 && isHeaderRow(r)) continue;
 
             if (r.length >= 2) {
-              var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1;
-              var gvText = (r[0] || '').replace(/^\[Tích hợp\]\s*/i, '').trim();
-              var hsText = (r[1] || '').replace(/^\[Tích hợp\]\s*/i, '').trim();
+              var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+              var gvText = (r[0] || '')
+                .replace(/<!--.*?-->/g, '')
+                .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+                .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                .replace(/^\[Tích hợp\]\s*/i, '')
+                .replace(/\(Tích hợp\)/gi, '')
+                .replace(/\s{2,}/g, ' ')
+                .trim();
+              var hsText = (r[1] || '')
+                .replace(/<!--.*?-->/g, '')
+                .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+                .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                .replace(/^\[Tích hợp\]\s*/i, '')
+                .replace(/\(Tích hợp\)/gi, '')
+                .replace(/\s{2,}/g, ' ')
+                .trim();
               var gvCol = gvText.replace(/\n/g, '<br/>');
               var hsCol = hsText.replace(/\n/g, '<br/>');
 
@@ -2052,8 +2130,18 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               `;
             } else if (r.length === 1) {
               var rawHeader = r[0] || '';
-              var isTichHopHeader = rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('(Tích hợp)') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1;
-              var cleanHeader = rawHeader.replace(/\[NỘI DUNG TÍCH HỢP MỚI\]/i, '').replace(/^\[Tích hợp\]\s*/i, '').trim();
+              var nextRow = tableRows[rIdx + 1];
+              var isNextRowTichHop = Array.isArray(nextRow) && nextRow.length >= 2 && ((nextRow[0] || '').indexOf('[Tích hợp') !== -1 || (nextRow[1] || '').indexOf('[Tích hợp') !== -1 || (nextRow[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (nextRow[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1);
+              var isTichHopHeader = isNextRowTichHop || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('(Tích hợp)') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1;
+              var cleanHeader = rawHeader
+                .replace(/<!--.*?-->/g, '')
+                .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+                .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                .replace(/^\[Tích hợp\]\s*/i, '')
+                .replace(/\(Tích hợp\)/gi, '')
+                .replace(/\s{2,}/g, ' ')
+                .trim();
               var headerColorStyle = isTichHopHeader ? 'color: #7030a0;' : '';
               rowsHtml += `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; ${headerColorStyle}">${cleanHeader.replace(/\n/g, '<br/>')}</td></tr>`;
             }
