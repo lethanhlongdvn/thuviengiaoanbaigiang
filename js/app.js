@@ -3128,6 +3128,9 @@ if (typeof window !== "undefined") {
   window.onIntegrationPasteTextInput = typeof onIntegrationPasteTextInput !== "undefined" ? onIntegrationPasteTextInput : null;
   window.triggerAnalyzeIntegrationPlan = typeof triggerAnalyzeIntegrationPlan !== "undefined" ? triggerAnalyzeIntegrationPlan : null;
   window.onPlanCellEdit = typeof onPlanCellEdit !== "undefined" ? onPlanCellEdit : null;
+  window.onPlanActivityEdit = typeof onPlanActivityEdit !== "undefined" ? onPlanActivityEdit : null;
+  window.togglePlanLessonDetail = typeof togglePlanLessonDetail !== "undefined" ? togglePlanLessonDetail : null;
+  window.toggleExpandAllPlanDetails = typeof toggleExpandAllPlanDetails !== "undefined" ? toggleExpandAllPlanDetails : null;
   window.triggerSendIntegrationFeedback = typeof triggerSendIntegrationFeedback !== "undefined" ? triggerSendIntegrationFeedback : null;
   window.toggleIntegrationLessonSelect = typeof toggleIntegrationLessonSelect !== "undefined" ? toggleIntegrationLessonSelect : null;
   window.toggleSelectAllIntegrationLessons = typeof toggleSelectAllIntegrationLessons !== "undefined" ? toggleSelectAllIntegrationLessons : null;
@@ -4370,11 +4373,14 @@ function renderIntegrationPlanReviewHtml(plan) {
     <div style="background: #fdf2f8; border: 1px solid #fbcfe8; border-radius: var(--radius-sm); padding: 0.75rem 1rem; margin-bottom: 1rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
       <div style="font-size: 0.82rem; color: #9d174d; display: flex; align-items: center; gap: 0.5rem;">
         <i class="fa-solid fa-lightbulb" style="font-size: 1.1rem; color: #db2777;"></i>
-        <span>Giáo viên có thể <strong>sửa trực tiếp từng ô</strong> trên bảng dưới đây hoặc <strong>nhập góp ý gửi AI</strong> để AI tự động điều chỉnh kế hoạch!</span>
+        <span>Giáo viên có thể <strong>bấm xem chi tiết từng lời văn AI</strong>, sửa trực tiếp từng ô trên bảng dưới đây hoặc <strong>nhập góp ý</strong> để AI tự động điều chỉnh!</span>
       </div>
-      <div>
-        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.2rem 0.5rem; border-color: #fbcfe8;" onclick="toggleSelectAllIntegrationLessons(true)">Chọn tất cả</button>
-        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.2rem 0.5rem; border-color: #fbcfe8;" onclick="toggleSelectAllIntegrationLessons(false)">Bỏ chọn tất cả</button>
+      <div style="display: flex; gap: 0.4rem; align-items: center;">
+        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.25rem 0.6rem; border-color: #7c3aed; color: #7c3aed; font-weight: 700; background: ${integrationState.expandAllPlanDetails ? '#f5f3ff' : '#ffffff'};" onclick="toggleExpandAllPlanDetails()">
+          <i class="fa-solid ${integrationState.expandAllPlanDetails ? 'fa-compress' : 'fa-book-open'}"></i> ${integrationState.expandAllPlanDetails ? 'Thu gọn bảng' : 'Xem toàn văn lời văn tất cả bài'}
+        </button>
+        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.25rem 0.5rem; border-color: #fbcfe8;" onclick="toggleSelectAllIntegrationLessons(true)">Chọn tất cả</button>
+        <button class="btn btn-sm btn-outline" style="font-size: 0.74rem; padding: 0.25rem 0.5rem; border-color: #fbcfe8;" onclick="toggleSelectAllIntegrationLessons(false)">Bỏ chọn tất cả</button>
       </div>
     </div>
 
@@ -4386,16 +4392,17 @@ function renderIntegrationPlanReviewHtml(plan) {
             <th style="padding: 0.65rem 0.4rem; text-align: center; width: 40px;">Chọn</th>
             <th style="padding: 0.65rem 0.4rem; text-align: center; width: 55px;">Tuần</th>
             <th style="padding: 0.65rem 0.4rem; text-align: center; width: 60px;">Tiết</th>
-            <th style="padding: 0.65rem 0.6rem; width: 180px;">Tên bài dạy (KHBD gốc)</th>
-            <th style="padding: 0.65rem 0.6rem; width: 190px;">Tích hợp vào phần nào?</th>
+            <th style="padding: 0.65rem 0.6rem; width: 175px;">Tên bài dạy (KHBD gốc)</th>
+            <th style="padding: 0.65rem 0.6rem; width: 185px;">Tích hợp vào phần nào?</th>
             <th style="padding: 0.65rem 0.5rem; text-align: center; width: 95px;">Mức độ</th>
-            <th style="padding: 0.65rem 0.6rem;">Nội dung tích hợp cụ thể (Trích từ tài liệu)</th>
+            <th style="padding: 0.65rem 0.6rem;">Nội dung tích hợp & Lời văn chi tiết</th>
           </tr>
         </thead>
         <tbody>
           ${plan.suggestions.map(function(s, idx) {
             var isChecked = integrationState.selectedLessons[s.lessonId] !== false;
             var isEven = idx % 2 === 0;
+            var isExpanded = integrationState.expandAllPlanDetails || (integrationState.expandedLessons && integrationState.expandedLessons[s.lessonId]);
 
             return `
               <tr style="border-bottom: 1px solid var(--border-color); background: ${isChecked ? (isEven ? '#ffffff' : '#fdfafc') : '#f8fafc'}; opacity: ${isChecked ? '1' : '0.6'};">
@@ -4427,9 +4434,58 @@ function renderIntegrationPlanReviewHtml(plan) {
                   </select>
                 </td>
                 <td style="padding: 0.65rem 0.6rem;">
-                  <textarea class="editable-plan-input" rows="2" style="resize: vertical; line-height: 1.35;" placeholder="Nội dung tích hợp..." onblur="onPlanCellEdit('${s.lessonId}', 'integrationBrief', this.value)">${s.integrationBrief || ''}</textarea>
+                  <div style="display: flex; flex-direction: column; gap: 0.35rem;">
+                    <textarea class="editable-plan-input" rows="2" style="resize: vertical; line-height: 1.35;" placeholder="Nội dung tóm tắt..." onblur="onPlanCellEdit('${s.lessonId}', 'integrationBrief', this.value)">${s.integrationBrief || ''}</textarea>
+                    <div style="display: flex; justify-content: flex-end;">
+                      <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 2px 7px; color: ${isExpanded ? '#db2777' : '#7c3aed'}; border-color: ${isExpanded ? '#fbcfe8' : '#ddd6fe'}; background: ${isExpanded ? '#fdf2f8' : '#ffffff'}; font-weight: 700;" onclick="togglePlanLessonDetail('${s.lessonId}')">
+                        <i class="fa-solid ${isExpanded ? 'fa-chevron-up' : 'fa-eye'}"></i> ${isExpanded ? 'Đóng chi tiết' : 'Đọc & Sửa lời văn AI (YCCĐ, GV-HS)'}
+                      </button>
+                    </div>
+                  </div>
                 </td>
               </tr>
+              ${isExpanded ? `
+                <tr style="background: #faf5ff; border-bottom: 2px solid #c084fc;">
+                  <td colspan="7" style="padding: 0.75rem 1rem;">
+                    <div style="background: #ffffff; border: 1px solid #e9d5ff; border-radius: 6px; padding: 0.85rem; box-shadow: 0 2px 8px rgba(124, 58, 237, 0.08);">
+                      <div style="font-size: 0.82rem; font-weight: 800; color: #6b21a8; margin-bottom: 0.65rem; display: flex; align-items: center; justify-content: space-between; border-bottom: 1px dashed #e9d5ff; padding-bottom: 0.4rem;">
+                        <span><i class="fa-solid fa-file-pen"></i> NỘI DUNG TOÀN VĂN AI SẼ CHÈN VÀO BÀI NÀY (BẠN CÓ THỂ ĐỌC VÀ SỬA TỪNG CHỮ):</span>
+                        <span style="font-size: 0.72rem; font-weight: 700; color: #16a34a;"><i class="fa-solid fa-circle-check"></i> Chuẩn CV 2345/BGDĐT-GDTH</span>
+                      </div>
+
+                      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; margin-bottom: 0.65rem;">
+                        <div>
+                          <label style="font-size: 0.74rem; font-weight: 700; color: #334155; display: block; margin-bottom: 3px;">
+                            <i class="fa-solid fa-bullseye" style="color: #db2777;"></i> 1. Mục I.4 - Yêu cầu cần đạt mới (Chèn vào KHBD):
+                          </label>
+                          <textarea class="form-control" rows="2" style="font-size: 0.78rem; line-height: 1.4; border-color: #fbcfe8;" placeholder="Mục tiêu cần đạt..." onblur="onPlanCellEdit('${s.lessonId}', 'yccdAddition', this.value)">${s.yccdAddition || ''}</textarea>
+                        </div>
+                        <div>
+                          <label style="font-size: 0.74rem; font-weight: 700; color: #334155; display: block; margin-bottom: 3px;">
+                            <i class="fa-solid fa-toolbox" style="color: #2563eb;"></i> 2. Mục II - Đồ dùng dạy học bổ sung:
+                          </label>
+                          <textarea class="form-control" rows="2" style="font-size: 0.78rem; line-height: 1.4; border-color: #bfdbfe;" placeholder="Đồ dùng dạy học..." onblur="onPlanCellEdit('${s.lessonId}', 'dodungAddition', this.value)">${s.dodungAddition || ''}</textarea>
+                        </div>
+                      </div>
+
+                      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+                        <div>
+                          <label style="font-size: 0.74rem; font-weight: 700; color: #15803d; display: block; margin-bottom: 3px;">
+                            <i class="fa-solid fa-chalkboard-user"></i> 3. Mục III - Lời thoại của Giáo viên (${s.targetPart}):
+                          </label>
+                          <textarea class="form-control" rows="3" style="font-size: 0.78rem; line-height: 1.4; background: #f0fdf4; border-color: #bbf7d0;" placeholder="Lời thoại hướng dẫn của GV..." onblur="onPlanActivityEdit('${s.lessonId}', 'teacherAct', this.value)">${(s.activityAddition && s.activityAddition.teacherAct) || ''}</textarea>
+                        </div>
+                        <div>
+                          <label style="font-size: 0.74rem; font-weight: 700; color: #0369a1; display: block; margin-bottom: 3px;">
+                            <i class="fa-solid fa-user-graduate"></i> 4. Mục III - Hoạt động của Học sinh (${s.targetPart}):
+                          </label>
+                          <textarea class="form-control" rows="3" style="font-size: 0.78rem; line-height: 1.4; background: #f0f9ff; border-color: #bae6fd;" placeholder="Hành động, phát biểu của HS..." onblur="onPlanActivityEdit('${s.lessonId}', 'studentAct', this.value)">${(s.activityAddition && s.activityAddition.studentAct) || ''}</textarea>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              ` : ''}
             `;
           }).join('')}
         </tbody>
@@ -4470,9 +4526,41 @@ function onPlanCellEdit(lessonId, fieldName, value) {
   var item = (integrationState.analyzedPlan.suggestions || []).find(function(s) { return s.lessonId === lessonId; });
   if (item) {
     item[fieldName] = value;
-    if (fieldName === 'targetPart') {
+    if (fieldName === 'targetPart' && item.activityAddition) {
       item.activityAddition.stepName = value + ' (3-5 phút)';
     }
+  }
+}
+
+function onPlanActivityEdit(lessonId, actField, value) {
+  if (!integrationState.analyzedPlan) return;
+  var item = (integrationState.analyzedPlan.suggestions || []).find(function(s) { return s.lessonId === lessonId; });
+  if (item) {
+    if (!item.activityAddition) item.activityAddition = {};
+    item.activityAddition[actField] = value;
+  }
+}
+
+function togglePlanLessonDetail(lessonId) {
+  if (!integrationState.expandedLessons) integrationState.expandedLessons = {};
+  integrationState.expandedLessons[lessonId] = !integrationState.expandedLessons[lessonId];
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+}
+
+function toggleExpandAllPlanDetails() {
+  integrationState.expandAllPlanDetails = !integrationState.expandAllPlanDetails;
+  if (integrationState.analyzedPlan && integrationState.analyzedPlan.suggestions) {
+    if (!integrationState.expandedLessons) integrationState.expandedLessons = {};
+    integrationState.analyzedPlan.suggestions.forEach(function(s) {
+      integrationState.expandedLessons[s.lessonId] = integrationState.expandAllPlanDetails;
+    });
+  }
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
   }
 }
 
