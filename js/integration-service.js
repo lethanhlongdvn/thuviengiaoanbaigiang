@@ -1955,57 +1955,109 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           body {
             font-family: 'Times New Roman', serif;
             font-size: 13pt;
-            line-height: 1.35;
+            line-height: 1.25;
             color: #000000;
+            margin: 0;
+            padding: 0;
+          }
+          p, p.MsoNormal, li, div {
+            font-family: 'Times New Roman', serif;
+            font-size: 13pt;
+            margin: 0pt;
+            margin-top: 0pt;
+            margin-bottom: 0pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-top: 0pt;
+            mso-para-margin-bottom: 0pt;
+            mso-margin-top-alt: 0pt;
+            mso-margin-bottom-alt: 0pt;
+            line-height: 1.25;
           }
           h1, h2, h3, h4 {
             font-family: 'Times New Roman', serif;
-            margin: 0;
+            margin: 0pt;
+            margin-top: 0pt;
+            margin-bottom: 0pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-top: 0pt;
+            mso-para-margin-bottom: 0pt;
             padding: 0;
           }
           .header-table {
             width: 100%;
             border-collapse: collapse;
             border: none;
-            margin-bottom: 12pt;
+            margin-bottom: 8pt;
           }
           .header-table td {
             border: none;
             vertical-align: top;
+            padding: 1pt;
+            margin: 0pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-top: 0pt;
+            mso-para-margin-bottom: 0pt;
           }
           .title-box {
             text-align: center;
-            margin-bottom: 14pt;
+            margin-bottom: 8pt;
           }
           .title-box h2 {
             font-size: 14pt;
             font-weight: bold;
             text-transform: uppercase;
+            margin: 0pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-top: 0pt;
+            mso-para-margin-bottom: 0pt;
           }
           .section-title {
             font-size: 13pt;
             font-weight: bold;
             text-transform: uppercase;
-            margin-top: 10pt;
-            margin-bottom: 4pt;
+            margin-top: 8pt;
+            margin-bottom: 2pt;
+            mso-para-margin-top: 8pt;
+            mso-para-margin-bottom: 2pt;
           }
           .table-activity {
             width: 100%;
             border-collapse: collapse;
-            margin-top: 6pt;
-            margin-bottom: 10pt;
+            margin-top: 4pt;
+            margin-bottom: 8pt;
           }
           .table-activity th {
             border: 1pt solid #000000;
-            padding: 6pt;
+            padding: 4pt 6pt;
             background-color: #f2f2f2;
             font-weight: bold;
             text-align: center;
+            margin: 0pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-top: 0pt;
+            mso-para-margin-bottom: 0pt;
           }
           .table-activity td {
             border: 1pt solid #000000;
-            padding: 6pt;
+            padding: 4pt 6pt;
             vertical-align: top;
+            margin: 0pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-top: 0pt;
+            mso-para-margin-bottom: 0pt;
+            mso-margin-top-alt: 0pt;
+            mso-margin-bottom-alt: 0pt;
+          }
+          .table-activity td div, .table-activity td p {
+            margin: 0pt;
+            margin-top: 0pt;
+            margin-bottom: 0pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-top: 0pt;
+            mso-para-margin-bottom: 0pt;
+            mso-margin-top-alt: 0pt;
+            mso-margin-bottom-alt: 0pt;
+            line-height: 1.25;
           }
           .page-break {
             page-break-before: always;
@@ -2060,9 +2112,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
             displayLine = '- ' + displayLine;
           }
-          return '<p style="margin: 3pt 0; color: #7030a0;">' + displayLine + '</p>';
+          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; color: #7030a0;">' + displayLine + '</p>';
         }
-        return '<p style="margin: 3pt 0;">' + cleanLine + '</p>';
+        return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">' + cleanLine + '</p>';
       }).join('');
 
       var dodungList = les.dodung || les.teachingAids || [];
@@ -2082,9 +2134,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
             displayLine = '- ' + displayLine;
           }
-          return '<p style="margin: 3pt 0; color: #7030a0;">' + displayLine + '</p>';
+          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; color: #7030a0;">' + displayLine + '</p>';
         }
-        return '<p style="margin: 3pt 0;">' + line + '</p>';
+        return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">' + line + '</p>';
       }).join('');
 
       var actTablesHtml = '';
@@ -2124,11 +2176,11 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
               rowsHtml += `
                 <tr>
-                  <td style="width: 50%; vertical-align: top; padding: 6pt; border: 1pt solid #000; ${cellStyle}">
-                    <div>${gvCol}</div>
+                  <td style="width: 50%; vertical-align: top; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
+                    <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${gvCol}</div>
                   </td>
-                  <td style="width: 50%; vertical-align: top; padding: 6pt; border: 1pt solid #000; ${cellStyle}">
-                    <div>${hsCol}</div>
+                  <td style="width: 50%; vertical-align: top; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
+                    <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${hsCol}</div>
                   </td>
                 </tr>
               `;
@@ -2147,7 +2199,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 .replace(/\s{2,}/g, ' ')
                 .trim();
               var headerColorStyle = isTichHopHeader ? 'color: #7030a0;' : '';
-              rowsHtml += `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; ${headerColorStyle}">${cleanHeader.replace(/\n/g, '<br/>')}</td></tr>`;
+              rowsHtml += `<tr><td colspan="2" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${headerColorStyle}"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
             }
           }
 

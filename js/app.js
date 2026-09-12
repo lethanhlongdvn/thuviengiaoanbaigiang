@@ -5560,9 +5560,9 @@ function renderIntegratedLessonSheetContent(les) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 3pt 0; color: #7030a0; font-weight: 500;">${displayLine}</p>`;
+      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #7030a0; font-weight: 500; line-height: 1.25;">${displayLine}</p>`;
     }
-    return `<p style="margin: 3pt 0;">${cleanLine}</p>`;
+    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25;">${cleanLine}</p>`;
   }).join('');
 
   var dodungList = les.dodung || les.teachingAids || [];
@@ -5582,9 +5582,9 @@ function renderIntegratedLessonSheetContent(les) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 3pt 0; color: #7030a0; font-weight: 500;">${displayLine}</p>`;
+      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #7030a0; font-weight: 500; line-height: 1.25;">${displayLine}</p>`;
     }
-    return `<p style="margin: 3pt 0;">${line}</p>`;
+    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25;">${line}</p>`;
   }).join('');
 
   var isHeaderRow = function(r) {
@@ -5632,11 +5632,11 @@ function renderIntegratedLessonSheetContent(les) {
 
           rowsHtml += `
             <tr>
-              <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1; ${cellStyle}">
-                <div>${gvCol}</div>
+              <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
+                <div style="line-height: 1.25; margin: 0;">${gvCol}</div>
               </td>
-              <td style="width: 50%; vertical-align: top; padding: 8pt; border: 1pt solid #cbd5e1; ${cellStyle}">
-                <div>${hsCol}</div>
+              <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
+                <div style="line-height: 1.25; margin: 0;">${hsCol}</div>
               </td>
             </tr>
           `;
@@ -5655,7 +5655,7 @@ function renderIntegratedLessonSheetContent(les) {
             .replace(/\s{2,}/g, ' ')
             .trim();
           var headerColorStyle = isTichHopHeader ? 'color: #7030a0;' : '';
-          rowsHtml += `<tr><td colspan="2" style="padding: 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; ${headerColorStyle}">${cleanHeader.replace(/\n/g, '<br/>')}</td></tr>`;
+          rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; ${headerColorStyle}"><div style="line-height: 1.25; margin: 0;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
         }
       }
 
