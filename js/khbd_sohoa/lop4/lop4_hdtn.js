@@ -14,65 +14,27 @@
     "sourceFile": "HĐTN TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO NĂM HỌC MỚI - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc, tích cực Lễ khai giảng năm học mới theo kế hoạch của nhà trường.",
           "- HS tham gia hoạt động chào đón các em học sinh lớp 1 bằng thái độ thân thiện, vui vẻ, đúng nền nếp.",
           "- HS nêu được ít nhất một hình ảnh hoặc hoạt động gây ấn tượng trong buổi lễ và biết lựa chọn một việc làm tích cực để bắt đầu năm học mới.",
           "2. Năng lực chung",
-          "- HS hiểu được mỗi người đều có những đặc điểm riêng đáng trân trọng và biết cách phát hiện đặc điểm riêng đó.",
-          "- HS giới thiệu được những đặc điểm đáng tự hào của bản thân thông qua trò chơi “Xin chào” và bông hoa “Tự hào”.",
-          "- HS biết chia sẻ, lắng nghe, tôn trọng điểm riêng của bạn; bước đầu biết phát huy những điểm mạnh của bản thân.",
-          "- Năng lực giao tiếp và hợp tác: Biết chia sẻ, lắng nghe, trao đổi với bạn bè bằng lời nói lịch sự, tích cực.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn cách thể hiện bản thân phù hợp, linh hoạt, sáng tạo qua sản phẩm bông hoa.",
-          "- Năng lực tự chủ và tự học: Chủ động giới thiệu về bản thân, rèn luyện sự tự tin khi trình bày trước tập thể.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, hoàn thành sản phẩm cá nhân.",
-          "- Trách nhiệm: Giới thiệu đúng, trung thực về bản thân; tôn trọng đặc điểm, giá trị riêng của bạn bè.",
-          "- Nhân ái: Biết khen ngợi, động viên, không chê bai hoặc trêu chọc đặc điểm khác biệt của bạn.",
-          "4. Tích hợp",
-          "- Tích hợp QCN: HS biết mỗi em có quyền được tôn trọng đặc điểm riêng, được bày tỏ cảm xúc và được lắng nghe khi giới thiệu về bản thân.",
-          "- HS nhớ lại, đánh giá được những việc đã thực hiện trong tuần 1; nêu được ưu điểm, hạn chế và hướng khắc phục trong tuần 2.",
-          "- HS chia sẻ được kết quả trò chuyện với người thân về những điểm đáng yêu, đáng tự hào của bản thân và gia đình.",
-          "- HS thể hiện được một khả năng của bản thân trước lớp; biết tự tin, tự hào về việc mình làm tốt và biết bày tỏ sự thán phục, khen ngợi, động viên bạn.",
-          "- Năng lực giao tiếp và hợp tác: Biết nhận xét, lắng nghe, cổ vũ và phản hồi tích cực đối với phần thể hiện của bạn.",
-          "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn hình thức thể hiện khả năng phù hợp như hát, kể chuyện, võ thuật, đọc thơ, vẽ nhanh hoặc giới thiệu sản phẩm.",
-          "- Năng lực tự chủ và tự học: Biết chuẩn bị, tự tin trình bày và đặt mục tiêu rèn luyện khả năng của bản thân.",
-          "- Chăm chỉ: Tích cực rèn luyện khả năng của bản thân và tham gia hoạt động chung.",
-          "- Trách nhiệm: Chuẩn bị nội dung thể hiện phù hợp, giữ trật tự và tôn trọng thời gian của tập thể.",
-          "- Nhân ái: Biết khích lệ, không chê bai; vui trước thành công và sự tiến bộ của bạn.",
-          "- Tích hợp AI (4.A1.2): HS hiểu AI có thể hỗ trợ gợi ý cách trình bày hoặc minh họa ý tưởng, nhưng cảm xúc tự hào và sự lựa chọn hành động tích cực là của chính bản thân các em.",
+          "- Năng lực tự chủ và tự học: Biết chuẩn bị trang phục, đồ dùng, giữ trật tự và tự điều chỉnh hành vi khi tham gia hoạt động toàn trường.",
           "- Năng lực giao tiếp và hợp tác: Biết chào hỏi, lắng nghe, cổ vũ văn minh, phối hợp cùng tập thể trong các phần của chương trình.",
           "- Năng lực giải quyết vấn đề và sáng tạo: Biết đề xuất việc làm giúp bản thân nhanh chóng hòa nhập, thực hiện tốt nền nếp năm học mới.",
+          "3. Phẩm chất",
           "- Yêu nước: Nghiêm trang khi thực hiện nghi lễ chào cờ; trân trọng Quốc kỳ, Quốc ca và truyền thống hiếu học của nhà trường.",
           "- Trách nhiệm: Chấp hành nội quy, tham gia đầy đủ các hoạt động do nhà trường tổ chức.",
           "- Nhân ái: Biết chào đón, quan tâm, hỗ trợ các em học sinh lớp 1 và bạn bè trong ngày khai trường."
         ],
         "dodung": [
           "- GV: Kế hoạch tổ chức Lễ khai giảng; nội dung chương trình; hệ thống âm thanh; cờ, hoa; tiết mục văn nghệ; tranh minh họa trong SGK Hoạt động trải nghiệm 4.",
-          "- HS: Trang phục gọn gàng; ghế ngồi; cờ, hoa hoặc đồ dùng theo yêu cầu của nhà trường; tâm thế vui tươi, sẵn sàng tham gia.",
-          "- GV: Máy tính, ti vi; tranh minh họa SGK; phiếu hoặc giấy bông hoa 5 cánh; bút màu; nhạc khởi động vui tươi.",
-          "- HS: Giấy A4 hoặc bìa màu, bút màu, kéo, hồ dán; chuẩn bị suy nghĩ về điểm mạnh, sở thích, khả năng, tính cách của bản thân.",
-          "- GV: Máy tính, ti vi; tranh minh họa SGK; bảng theo dõi nền nếp tuần 1; phiếu nhận xét nhanh; phần thưởng động viên nếu có.",
-          "- HS: Trang phục hoặc dụng cụ đơn giản để thể hiện khả năng của bản thân; bông hoa “Tự hào” đã hoàn thành ở tiết 2."
+          "- HS: Trang phục gọn gàng; ghế ngồi; cờ, hoa hoặc đồ dùng theo yêu cầu của nhà trường; tâm thế vui tươi, sẵn sàng tham gia."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................",
-          "................................................................................................................",
-          "Thời gian thực hiện: ...",
-          "................................................................................................................",
-          "................................................................................................................",
-          "................................................................................................................",
-          "SINH HOẠT LỚP: TỰ HÀO THỂ HIỆN KHẢ NĂNG CỦA BẢN THÂN",
-          "Thời gian thực hiện: ...",
-          "................................................................................................................",
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -164,7 +126,39 @@
               "- GV nhận xét, động viên và nhắc HS thực hiện cam kết trong các buổi học tiếp theo.",
               "- HS lắng nghe, ghi nhớ và thực hiện cam kết của mình."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: EM TỰ HÀO VỀ BẢN THÂN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS hiểu được mỗi người đều có những đặc điểm riêng đáng trân trọng và biết cách phát hiện đặc điểm riêng đó.",
+          "- HS giới thiệu được những đặc điểm đáng tự hào của bản thân thông qua trò chơi “Xin chào” và bông hoa “Tự hào”.",
+          "- HS biết chia sẻ, lắng nghe, tôn trọng điểm riêng của bạn; bước đầu biết phát huy những điểm mạnh của bản thân.",
+          "2. Năng lực chung",
+          "- Năng lực giao tiếp và hợp tác: Biết chia sẻ, lắng nghe, trao đổi với bạn bè bằng lời nói lịch sự, tích cực.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn cách thể hiện bản thân phù hợp, linh hoạt, sáng tạo qua sản phẩm bông hoa.",
+          "- Năng lực tự chủ và tự học: Chủ động giới thiệu về bản thân, rèn luyện sự tự tin khi trình bày trước tập thể.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, hoàn thành sản phẩm cá nhân.",
+          "- Trách nhiệm: Giới thiệu đúng, trung thực về bản thân; tôn trọng đặc điểm, giá trị riêng của bạn bè.",
+          "- Nhân ái: Biết khen ngợi, động viên, không chê bai hoặc trêu chọc đặc điểm khác biệt của bạn.",
+          "4. Tích hợp",
+          "- Tích hợp QCN: HS biết mỗi em có quyền được tôn trọng đặc điểm riêng, được bày tỏ cảm xúc và được lắng nghe khi giới thiệu về bản thân."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi; tranh minh họa SGK; phiếu hoặc giấy bông hoa 5 cánh; bút màu; nhạc khởi động vui tươi.",
+          "- HS: Giấy A4 hoặc bìa màu, bút màu, kéo, hồ dán; chuẩn bị suy nghĩ về điểm mạnh, sở thích, khả năng, tính cách của bản thân."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -262,7 +256,39 @@
               "- GV nhận xét tiết học, khen ngợi tinh thần tham gia của HS.",
               "- HS lắng nghe, thu dọn đồ dùng, giữ sản phẩm bông hoa để tiếp tục sử dụng."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: TỰ HÀO THỂ HIỆN KHẢ NĂNG CỦA BẢN THÂN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhớ lại, đánh giá được những việc đã thực hiện trong tuần 1; nêu được ưu điểm, hạn chế và hướng khắc phục trong tuần 2.",
+          "- HS chia sẻ được kết quả trò chuyện với người thân về những điểm đáng yêu, đáng tự hào của bản thân và gia đình.",
+          "- HS thể hiện được một khả năng của bản thân trước lớp; biết tự tin, tự hào về việc mình làm tốt và biết bày tỏ sự thán phục, khen ngợi, động viên bạn.",
+          "2. Năng lực chung",
+          "- Năng lực giao tiếp và hợp tác: Biết nhận xét, lắng nghe, cổ vũ và phản hồi tích cực đối với phần thể hiện của bạn.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn hình thức thể hiện khả năng phù hợp như hát, kể chuyện, võ thuật, đọc thơ, vẽ nhanh hoặc giới thiệu sản phẩm.",
+          "- Năng lực tự chủ và tự học: Biết chuẩn bị, tự tin trình bày và đặt mục tiêu rèn luyện khả năng của bản thân.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực rèn luyện khả năng của bản thân và tham gia hoạt động chung.",
+          "- Trách nhiệm: Chuẩn bị nội dung thể hiện phù hợp, giữ trật tự và tôn trọng thời gian của tập thể.",
+          "- Nhân ái: Biết khích lệ, không chê bai; vui trước thành công và sự tiến bộ của bạn.",
+          "4. Tích hợp",
+          "- Tích hợp AI (4.A1.2): HS hiểu AI có thể hỗ trợ gợi ý cách trình bày hoặc minh họa ý tưởng, nhưng cảm xúc tự hào và sự lựa chọn hành động tích cực là của chính bản thân các em."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi; tranh minh họa SGK; bảng theo dõi nền nếp tuần 1; phiếu nhận xét nhanh; phần thưởng động viên nếu có.",
+          "- HS: Trang phục hoặc dụng cụ đơn giản để thể hiện khả năng của bản thân; bông hoa “Tự hào” đã hoàn thành ở tiết 2."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -284,7 +310,7 @@
               "- HS lắng nghe, hào hứng bước vào nội dung sinh hoạt lớp."
             ],
             [
-              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN\n2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦNMục tiêu: HS nhận xét được các hoạt động đã thực hiện trong tuần 1; biết nêu ưu điểm, hạn chế của bản thân và tập thể lớp.\n* Cách tiến hành:"
+              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN\n2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN\nMục tiêu: HS nhận xét được các hoạt động đã thực hiện trong tuần 1; biết nêu ưu điểm, hạn chế của bản thân và tập thể lớp.\n* Cách tiến hành:"
             ],
             [
               "- GV hoặc lớp trưởng điều hành phần tổng kết: nêu các hoạt động lớp đã thực hiện trong tuần như dự Lễ khai giảng, ổn định nền nếp, chuẩn bị đồ dùng học tập, giữ vệ sinh lớp học.",
@@ -303,7 +329,7 @@
               "- HS lắng nghe, tự rút kinh nghiệm và thể hiện tinh thần cầu tiến."
             ],
             [
-              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 2\nMục tiêu: HS biết được phương hướng hoạt động tuần 2 và đề xuất được việc làm cụ thể để lớp học tốt hơn.\n* Cách tiến hành:"
+              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN\n2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 2\nMục tiêu: HS biết được phương hướng hoạt động tuần 2 và đề xuất được việc làm cụ thể để lớp học tốt hơn.\n* Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS nhắc lại những điều còn tồn tại trong tuần và gợi ý cách khắc phục phù hợp.",
@@ -392,7 +418,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -401,8 +431,8 @@
     "sourceFile": "HĐTN TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CÂU LẠC BỘ CỦA EM - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo kế hoạch của nhà trường.",
@@ -415,54 +445,13 @@
           "3. Phẩm chất",
           "- Chăm chỉ: Có ý thức rèn luyện thường xuyên khi tham gia hoạt động câu lạc bộ.",
           "- Trách nhiệm: Thực hiện đúng nội quy khi tham gia hoạt động chung; có trách nhiệm với nhóm, đội, câu lạc bộ của mình.",
-          "- Nhân ái: Biết cổ vũ, động viên, tôn trọng năng lực và sở thích khác nhau của bạn bè.",
-          "- HS xác định và giới thiệu được những việc làm đáng tự hào của bản thân.",
-          "- HS ghi chép hoặc vẽ lại được những việc làm đáng tự hào dưới một hình thức phù hợp.",
-          "- HS biết đề xuất những việc cần làm để phát huy niềm tự hào của bản thân trong học tập, sinh hoạt và giúp đỡ mọi người.",
-          "- Tự chủ và tự học: Chủ động suy nghĩ, nhớ lại, lựa chọn và chia sẻ những việc làm đáng tự hào của bản thân.",
-          "- Giao tiếp và hợp tác: Biết trình bày, lắng nghe, đặt câu hỏi, phản hồi tích cực khi bạn chia sẻ.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn hình thức ghi chép, vẽ, lập bảng hoặc sơ đồ để trình bày việc làm đáng tự hào và cách phát huy.",
-          "- Chăm chỉ: Có ý thức nỗ lực thực hiện việc làm tốt hằng ngày và duy trì sự tiến bộ của bản thân.",
-          "- Trách nhiệm: Biết giữ gìn, phát huy những hành động tích cực; trung thực khi chia sẻ về việc làm của mình.",
-          "- Nhân ái: Biết vui với niềm tự hào của bạn, khen ngợi chân thành, không so sánh hoặc chê bai bạn.",
-          "4. Tích hợp",
-          "- HĐ3: Tích hợp KNS: HS rèn kĩ năng tự nhận thức, biết ghi nhận việc làm đáng tự hào của bản thân và có kế hoạch phát huy điểm tốt.",
-          "- HS nhận ra được những ưu điểm để phát huy, những hạn chế cần khắc phục trong tuần học tới.",
-          "- HS phản hồi được kết quả thực hiện những việc làm đáng tự hào của bản thân sau tiết Hoạt động giáo dục theo chủ đề.",
-          "- HS được củng cố sâu sắc hơn về những đặc điểm, việc làm đáng tự hào của bản thân thông qua trò chơi “Tôi tự hào”.",
-          "- Tự chủ và tự học: Biết tự đánh giá việc làm của bản thân, nêu hướng phát huy ưu điểm và khắc phục hạn chế.",
-          "- Giao tiếp và hợp tác: Biết chia sẻ, lắng nghe, phản hồi ý kiến của bạn bè bằng thái độ tôn trọng.",
-          "- Giải quyết vấn đề và sáng tạo: Biết đề xuất giải pháp phát huy việc làm đáng tự hào, lựa chọn cách thể hiện niềm tự hào phù hợp.",
-          "- Chăm chỉ: Kiên trì thực hiện nhiệm vụ học tập, rèn luyện hằng ngày để duy trì sự tiến bộ.",
-          "- Trách nhiệm: Có ý thức với việc làm của bản thân, dám nhận khuyết điểm và quyết tâm sửa chữa.",
-          "- Nhân ái: Biết tôn trọng, động viên và vui với niềm tự hào của bạn bè trong lớp.",
-          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng chia sẻ cảm xúc tích cực, biết lắng nghe và cổ vũ bạn khi bạn kể về điều đáng tự hào."
+          "- Nhân ái: Biết cổ vũ, động viên, tôn trọng năng lực và sở thích khác nhau của bạn bè."
         ],
         "dodung": [
           "- GV: Kế hoạch tổ chức Sinh hoạt dưới cờ; danh sách câu lạc bộ học sinh của trường; âm thanh, sân khấu; tranh minh họa SGK Hoạt động trải nghiệm 4.",
-          "- HS: Trang phục gọn gàng; nội dung chia sẻ ngắn về câu lạc bộ mình tham gia hoặc muốn tham gia; tâm thế tích cực, sẵn sàng giao lưu.",
-          "- GV: Máy tính, ti vi; tranh minh họa SGK Hoạt động trải nghiệm 4; giấy A3, A4; bút màu; bảng mẫu “Việc làm đáng tự hào - Việc cần làm để phát huy”.",
-          "- HS: Bút màu, giấy A4; nhớ lại những việc làm thành công, việc làm thể hiện sự tiến bộ, việc tốt giúp đỡ mọi người.",
-          "- GV: Máy tính, ti vi; bảng theo dõi nền nếp tuần 2; quả bóng mềm; tranh minh họa SGK Hoạt động trải nghiệm 4; phiếu cam kết nhỏ.",
-          "- HS: Kết quả thực hiện dự định phát huy việc làm đáng tự hào; sản phẩm hoặc ghi chép cá nhân ở tiết 2; tâm thế sẵn sàng chia sẻ."
+          "- HS: Trang phục gọn gàng; nội dung chia sẻ ngắn về câu lạc bộ mình tham gia hoặc muốn tham gia; tâm thế tích cực, sẵn sàng giao lưu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................",
-          "................................................................................................................",
-          "______________________________________",
-          "Thời gian thực hiện: ...",
-          "................................................................................................................",
-          "................................................................................................................",
-          "................................................................................................................",
-          "______________________________________",
-          "SINH HOẠT LỚP: NIỀM TỰ HÀO TRONG TIM",
-          "Thời gian thực hiện: ...",
-          "................................................................................................................",
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -546,7 +535,41 @@
               "- GV nhận xét, động viên HS tiếp tục quan sát, trao đổi với người thân và thầy cô để chọn hoạt động phù hợp với bản thân.",
               "- HS lắng nghe, ghi nhớ và chuẩn bị cho hoạt động giáo dục theo chủ đề trong tiết sau."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................",
+          "______________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VIỆC LÀM ĐÁNG TỰ HÀO CỦA BẢN THÂN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS xác định và giới thiệu được những việc làm đáng tự hào của bản thân.",
+          "- HS ghi chép hoặc vẽ lại được những việc làm đáng tự hào dưới một hình thức phù hợp.",
+          "- HS biết đề xuất những việc cần làm để phát huy niềm tự hào của bản thân trong học tập, sinh hoạt và giúp đỡ mọi người.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động suy nghĩ, nhớ lại, lựa chọn và chia sẻ những việc làm đáng tự hào của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trình bày, lắng nghe, đặt câu hỏi, phản hồi tích cực khi bạn chia sẻ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn hình thức ghi chép, vẽ, lập bảng hoặc sơ đồ để trình bày việc làm đáng tự hào và cách phát huy.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Có ý thức nỗ lực thực hiện việc làm tốt hằng ngày và duy trì sự tiến bộ của bản thân.",
+          "- Trách nhiệm: Biết giữ gìn, phát huy những hành động tích cực; trung thực khi chia sẻ về việc làm của mình.",
+          "- Nhân ái: Biết vui với niềm tự hào của bạn, khen ngợi chân thành, không so sánh hoặc chê bai bạn.",
+          "4. Tích hợp",
+          "- HĐ3: Tích hợp KNS: HS rèn kĩ năng tự nhận thức, biết ghi nhận việc làm đáng tự hào của bản thân và có kế hoạch phát huy điểm tốt."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi; tranh minh họa SGK Hoạt động trải nghiệm 4; giấy A3, A4; bút màu; bảng mẫu “Việc làm đáng tự hào - Việc cần làm để phát huy”.",
+          "- HS: Bút màu, giấy A4; nhớ lại những việc làm thành công, việc làm thể hiện sự tiến bộ, việc tốt giúp đỡ mọi người."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -664,7 +687,41 @@
               "- GV nhận xét giờ học, khen ngợi HS biết chia sẻ, lắng nghe và động viên bạn bằng thái độ thân thiện.",
               "- HS lắng nghe, thu dọn đồ dùng và giữ sản phẩm để tiếp tục sử dụng."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................",
+          "______________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: NIỀM TỰ HÀO TRONG TIM - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra được những ưu điểm để phát huy, những hạn chế cần khắc phục trong tuần học tới.",
+          "- HS phản hồi được kết quả thực hiện những việc làm đáng tự hào của bản thân sau tiết Hoạt động giáo dục theo chủ đề.",
+          "- HS được củng cố sâu sắc hơn về những đặc điểm, việc làm đáng tự hào của bản thân thông qua trò chơi “Tôi tự hào”.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự đánh giá việc làm của bản thân, nêu hướng phát huy ưu điểm và khắc phục hạn chế.",
+          "- Giao tiếp và hợp tác: Biết chia sẻ, lắng nghe, phản hồi ý kiến của bạn bè bằng thái độ tôn trọng.",
+          "- Giải quyết vấn đề và sáng tạo: Biết đề xuất giải pháp phát huy việc làm đáng tự hào, lựa chọn cách thể hiện niềm tự hào phù hợp.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì thực hiện nhiệm vụ học tập, rèn luyện hằng ngày để duy trì sự tiến bộ.",
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, dám nhận khuyết điểm và quyết tâm sửa chữa.",
+          "- Nhân ái: Biết tôn trọng, động viên và vui với niềm tự hào của bạn bè trong lớp.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng chia sẻ cảm xúc tích cực, biết lắng nghe và cổ vũ bạn khi bạn kể về điều đáng tự hào."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi; bảng theo dõi nền nếp tuần 2; quả bóng mềm; tranh minh họa SGK Hoạt động trải nghiệm 4; phiếu cam kết nhỏ.",
+          "- HS: Kết quả thực hiện dự định phát huy việc làm đáng tự hào; sản phẩm hoặc ghi chép cá nhân ở tiết 2; tâm thế sẵn sàng chia sẻ."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -791,7 +848,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -800,8 +862,8 @@
     "sourceFile": "HĐTN TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GIAO LƯU TÀI NĂNG HỌC TRÒ VỚI CHỦ ĐỀ “NỤ CƯỜI LAN TỎA NIỀM VUI”",
+        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia hoặc cổ vũ văn minh cho các tiết mục văn nghệ, kể chuyện, tiểu phẩm vui, hài hước của các lớp.",
@@ -821,12 +883,6 @@
           "- HS: Trang phục gọn gàng; tâm thế vui tươi; chuẩn bị tiết mục hoặc lời chia sẻ theo phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -860,17 +916,28 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: KHẢ NĂNG ĐIỀU CHỈNH CẢM XÚC",
-        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - TIẾT 2: KHẢ NĂNG ĐIỀU CHỈNH CẢM XÚC",
+        "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
+          "- HS xác định được khả năng điều chỉnh cảm xúc của bản thân trong một số tình huống đơn giản thường gặp.",
+          "- HS biết vận dụng cách hít thở sâu để lấy lại sự bình tĩnh, cân bằng cảm xúc.",
+          "- HS biết lựa chọn lời nói, hành động phù hợp khi có cảm xúc tích cực hoặc tiêu cực.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết chia sẻ, trao đổi cảm xúc với bạn bè, thầy cô; lắng nghe và tôn trọng ý kiến của người khác.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp để điều chỉnh cảm xúc trong tình huống cụ thể.",
           "- Tự chủ và tự học: Biết tự quan sát, nhận diện cảm xúc của bản thân, chủ động rèn luyện kĩ năng giữ bình tĩnh.",
           "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và rèn luyện kĩ năng điều chỉnh cảm xúc.",
           "- Trách nhiệm: Có ý thức tự kiểm soát cảm xúc để không làm ảnh hưởng tiêu cực đến bản thân và người khác.",
           "- Nhân ái: Biết cảm thông, không chê cười khi bạn chia sẻ cảm xúc.",
           "4. Tích hợp",
@@ -881,15 +948,6 @@
           "- HS: Giấy A4, bút màu; tâm thế sẵn sàng chia sẻ và lắng nghe."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- HS biết vận dụng cách hít thở sâu để lấy lại sự bình tĩnh, cân bằng cảm xúc.",
-          "- HS biết lựa chọn lời nói, hành động phù hợp khi có cảm xúc tích cực hoặc tiêu cực.",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP"
-        ],
         "tables": [
           [
             [
@@ -942,31 +1000,38 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: KHẢ NĂNG ĐIỀU CHỈNH CẢM XÚC"
-      },
-      {
-        "lessonTitle": "TIẾT 3: ĐIỀU CHỈNH CẢM XÚC",
-        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS nhận ra được những ưu điểm để phát huy, những khuyết điểm để khắc phục trong tuần học tới.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: Biết chia sẻ, trao đổi cảm xúc với bạn bè, thầy cô; lắng nghe và tôn trọng ý kiến của người khác.",
-          "- Tự chủ và tự học: Biết tự đánh giá bản thân, chủ động rèn luyện cách giữ bình tĩnh.",
-          "3. Phẩm chất",
-          "- Nhân ái: Biết chia sẻ, động viên bạn khi bạn gặp cảm xúc tiêu cực.",
-          "4. Tích hợp"
-        ],
-        "dodung": [
-          "- GV: Máy tính, ti vi, tranh tình huống SGK, thẻ tình huống, phiếu nhận xét tuần."
-        ],
-        "activities": [],
         "dieuchinh": [
+          "(NẾU CÓ)",
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP - TIẾT 3: ĐIỀU CHỈNH CẢM XÚC",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra được những ưu điểm để phát huy, những khuyết điểm để khắc phục trong tuần học tới.",
+          "- HS phản hồi được kết quả trò chuyện với người thân về những cách điều chỉnh cảm xúc và kết quả thực hiện việc điều chỉnh cảm xúc của bản thân trong cuộc sống.",
+          "- HS nhận ra được tầm quan trọng của việc điều chỉnh cảm xúc trong một số tình huống đơn giản.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết chia sẻ, trao đổi cảm xúc với bạn bè, thầy cô; lắng nghe và tôn trọng ý kiến của người khác.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp để điều chỉnh cảm xúc trong tình huống cụ thể.",
+          "- Tự chủ và tự học: Biết tự đánh giá bản thân, chủ động rèn luyện cách giữ bình tĩnh.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động sinh hoạt lớp và rèn luyện kĩ năng điều chỉnh cảm xúc.",
+          "- Trách nhiệm: Có ý thức tự kiểm soát, điều chỉnh cảm xúc để không ảnh hưởng tiêu cực đến bản thân và người khác.",
+          "- Nhân ái: Biết chia sẻ, động viên bạn khi bạn gặp cảm xúc tiêu cực.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng điều chỉnh cảm xúc, biết hít thở sâu, suy nghĩ tích cực và lựa chọn cách ứng xử phù hợp."
         ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh tình huống SGK, thẻ tình huống, phiếu nhận xét tuần.",
+          "- HS: Trang phục hoặc đồ dùng đơn giản để sắm vai; kết quả trao đổi với người thân về cách điều chỉnh cảm xúc."
+        ],
+        "activities": [],
         "tables": [
           [
             [
@@ -1098,7 +1163,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: ĐIỀU CHỈNH CẢM XÚC"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1107,8 +1178,8 @@
     "sourceFile": "HĐTN TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TRUNG THU CỦA EM",
+        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia tham gia trình diễn tiểu phẩm “Một ngày trên cung trăng” theo lớp với thái độ tích cực, tự tin và văn minh.",
@@ -1117,6 +1188,7 @@
           "2. Năng lực chung",
           "- Năng lực tự chủ và tự học: Biết chuẩn bị sản phẩm, giữ trật tự, thực hiện đúng yêu cầu khi tham gia hoạt động Trung thu.",
           "- Năng lực giao tiếp và hợp tác: Biết tham gia tiểu phẩm, lắng nghe bạn trình bày, cổ vũ và phản hồi lịch sự.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Biết nêu ý tưởng, điều chỉnh cách trình bày để sản phẩm được giới thiệu rõ ràng, hấp dẫn.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực hoàn thành sản phẩm, tham gia chuẩn bị gian trưng bày của lớp.",
           "- Trách nhiệm: Giữ gìn sản phẩm, bảo quản khu vực biểu diễn, thực hiện đúng phân công.",
@@ -1127,12 +1199,6 @@
           "- HS: Đạo cụ hoặc lời thoại theo phân công; lời giới thiệu ngắn; trang phục gọn gàng; tâm thế tự tin, vui vẻ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1166,17 +1232,24 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: SUY NGHĨ TÍCH CỰC",
-        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - TIẾT 2: SUY NGHĨ TÍCH CỰC",
+        "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nhận biết được một số tình huống có thể làm nảy sinh suy nghĩ tiêu cực trong học tập, vui chơi và sinh hoạt.",
           "- HS biết chuyển suy nghĩ tiêu cực thành suy nghĩ tích cực theo cách phù hợp.",
           "- HS biết sắm vai thể hiện suy nghĩ tích cực qua lời nói, hành động phù hợp trong một số tình huống đơn giản.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự quan sát suy nghĩ của bản thân, chủ động điều chỉnh suy nghĩ khi gặp khó khăn.",
           "- Giao tiếp và hợp tác: Biết chia sẻ tình huống, lắng nghe bạn, thảo luận và sắm vai theo nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết tìm cách nhìn nhận vấn đề theo hướng tích cực, đưa ra cách xử lí phù hợp.",
           "3. Phẩm chất",
@@ -1191,13 +1264,6 @@
           "- HS: Bút màu, giấy nháp, tâm thế sẵn sàng chia sẻ và sắm vai."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP"
-        ],
         "tables": [
           [
             [
@@ -1242,11 +1308,17 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: SUY NGHĨ TÍCH CỰC"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: NGHĨ TÍCH CỰC - SỐNG VUI TƯƠI",
-        "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
+        "lessonTitle": "SINH HOẠT LỚP - TIẾT 3: NGHĨ TÍCH CỰC - SỐNG VUI TƯƠI",
+        "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nhận ra được những ưu điểm để phát huy, những hạn chế cần khắc phục trong tuần học tới.",
@@ -1258,6 +1330,7 @@
           "- Giải quyết vấn đề và sáng tạo: Biết đề xuất cách khắc phục khó khăn khi luyện suy nghĩ tích cực.",
           "3. Phẩm chất",
           "- Chăm chỉ: Kiên trì rèn luyện suy nghĩ tích cực trong học tập và sinh hoạt.",
+          "- Trách nhiệm: Biết điều chỉnh lời nói, hành động để không làm ảnh hưởng đến người khác.",
           "- Nhân ái: Biết động viên, khích lệ bạn khi bạn chia sẻ điều chưa vui.",
           "4. Tích hợp",
           "- HĐ4: Tích hợp KNS: HS rèn kĩ năng tự động viên bản thân, lắng nghe và phản hồi tích cực khi bạn chia sẻ cảm xúc."
@@ -1267,12 +1340,6 @@
           "- HS: Kết quả rèn luyện suy nghĩ tích cực; một tình huống em đã thực hành nghĩ tích cực."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1404,7 +1471,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: NGHĨ TÍCH CỰC - SỐNG VUI TƯƠI"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1413,8 +1486,8 @@
     "sourceFile": "HĐTN TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI “CÙNG LÀM CÙNG VUI”",
+        "topic": "CHỦ ĐỀ 2: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia hoặc theo dõi triển lãm giới thiệu sản phẩm theo lớp với thái độ tích cực, vui tươi.",
@@ -1427,19 +1500,15 @@
           "3. Phẩm chất",
           "- Chăm chỉ: Có ý thức thực hiện các hoạt động học tập, sinh hoạt theo thời gian hợp lí.",
           "- Trách nhiệm: Biết giữ trật tự, tham gia đầy đủ hoạt động chung và thực hiện đúng nội quy.",
-          "- Nhân ái: Biết cổ vũ văn minh, tôn trọng bạn tham gia biểu diễn."
+          "- Nhân ái: Biết cổ vũ văn minh, tôn trọng bạn tham gia biểu diễn.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Rèn nếp sống khoa học bằng việc sử dụng nước tiết kiệm trong sinh hoạt cá nhân hằng ngày.",
+          "- Giáo dục địa phương (Chủ đề 2): Phong trào 'Kế hoạch nhỏ vì bạn khó' tại tỉnh Trà Vinh (biết sắp xếp thời gian hợp lí, nuôi heo đất tiết kiệm và thu gom giấy vụn giúp bạn nghèo)."
         ],
         "dodung": [
           "- GV: Kế hoạch sinh hoạt dưới cờ; sân khấu, âm thanh; triển lãm giới thiệu sản phẩm theo lớp; tranh SGK; bảng câu hỏi gợi mở.",
           "- HS: Trang phục gọn gàng; tâm thế vui tươi; chuẩn bị lời chia sẻ theo hướng dẫn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1470,14 +1539,24 @@
             [
               "- GV tổ chức cho HS về lớp chia sẻ theo cặp: một hoạt động trong ngày em cần sắp xếp lại cho hợp lí hơn.\n- GV mời một số HS trình bày trước lớp và nêu việc sẽ thực hiện trong tuần: đi ngủ đúng giờ, chuẩn bị sách vở, giảm thời gian xem ti vi, phụ giúp gia đình.\n- GV nhận xét, động viên HS chuẩn bị cho tiết Hoạt động giáo dục theo chủ đề về nền nếp sinh hoạt.",
               "- HS chia sẻ theo cặp, lắng nghe ý kiến của bạn.\n- HS nêu việc làm cụ thể, phù hợp với bản thân.\n- HS lắng nghe, chuẩn bị cho bài học tiếp theo."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 2) & Mizuiku: GV hướng dẫn HS xây dựng thói quen khoa học, tiết kiệm: Lập kế hoạch nuôi heo đất, thu gom phế liệu hưởng ứng phong trào 'Kế hoạch nhỏ vì bạn khó' của thiếu nhi tỉnh Trà Vinh; đồng thời rèn luyện thói quen tiết kiệm nước: tắt vòi nước khi không sử dụng, rửa tay bằng lượng nước vừa đủ.",
+              "- HS thảo luận, ghi nhớ và cam kết: xây dựng thời gian biểu cá nhân hợp lí, tích cực tham gia phong trào kế hoạch nhỏ giúp bạn khó tại trường và thực hành tiết kiệm nước mỗi ngày."
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 14: NỀN NẾP SINH HOẠT",
-        "topic": "CHỦ ĐỀ 2: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - TIẾT 14: NỀN NẾP SINH HOẠT",
+        "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nêu được đầy đủ các công việc thường làm trong một ngày.",
@@ -1486,9 +1565,11 @@
           "- HS xây dựng được thời gian biểu đảm bảo nền nếp sinh hoạt.",
           "2. Năng lực chung",
           "- Năng lực tự chủ và tự học: Biết tự xây dựng thời gian biểu và thực hiện theo kế hoạch đã đề ra.",
+          "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn cách sắp xếp công việc hợp lí, sáng tạo trong điều chỉnh thời gian biểu phù hợp với hoàn cảnh.",
           "- Năng lực giao tiếp và hợp tác: Biết chia sẻ thời gian biểu, lắng nghe góp ý và hỗ trợ bạn hoàn thiện kế hoạch.",
           "3. Phẩm chất",
           "- Chăm chỉ: Thực hiện đầy đủ, nghiêm túc các công việc theo thời gian biểu.",
+          "- Trách nhiệm: Biết tự giác thực hiện và điều chỉnh nền nếp sinh hoạt để đảm bảo hiệu quả học tập, sinh hoạt hằng ngày.",
           "- Trung thực: Biết tự đánh giá đúng việc đã làm, chưa làm theo thời gian biểu.",
           "4. Tích hợp",
           "- HĐ3: Tích hợp AI (4.A1.1): HS nhận biết AI/công cụ số có thể hỗ trợ gợi ý cách sắp xếp thời gian biểu nhưng bản thân cần tự lựa chọn cho phù hợp."
@@ -1498,13 +1579,6 @@
           "- HS: Bút màu, giấy nháp; chuẩn bị danh sách các việc thường làm trong một ngày."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP"
-        ],
         "tables": [
           [
             [
@@ -1553,33 +1627,38 @@
             ]
           ]
         ],
-        "title": "TIẾT 14: NỀN NẾP SINH HOẠT"
-      },
-      {
-        "lessonTitle": "TIẾT 3: GIÚP NHAU THỰC HIỆN NỀN NẾP SINH HOẠT",
-        "topic": "CHỦ ĐỀ 2: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS hiểu được cách sử dụng thời gian biểu để đảm bảo sinh hoạt nền nếp, nâng cao hiệu quả trong công việc.",
-          "- HS biết tổ chức cuộc sống khoa học, hướng tới đạt mục tiêu đã đặt ra.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ khó khăn và đưa ra lời khuyên phù hợp cho bạn.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Thực hiện nghiêm túc thời gian biểu để hoàn thành công việc.",
-          "- Trách nhiệm: Có ý thức thực hiện và duy trì nền nếp sinh hoạt khoa học.",
-          "- Nhân ái: Biết góp ý, khuyên nhủ bạn bằng lời nói tích cực, không chê bai khi bạn chưa thực hiện tốt.",
-          "4. Tích hợp"
-        ],
-        "dodung": [
-          "- GV: Máy tính, ti vi, tranh SGK, hộp giấy, các mẩu giấy nhỏ, phiếu nhận xét tuần."
-        ],
-        "activities": [],
         "dieuchinh": [
+          "(NẾU CÓ)",
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................",
           "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP - TIẾT 3: GIÚP NHAU THỰC HIỆN NỀN NẾP SINH HOẠT",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS hiểu được cách sử dụng thời gian biểu để đảm bảo sinh hoạt nền nếp, nâng cao hiệu quả trong công việc.",
+          "- HS biết tổ chức cuộc sống khoa học, hướng tới đạt mục tiêu đã đặt ra.",
+          "- HS chia sẻ được cảm xúc, suy nghĩ sau khi bắt đầu thực hiện thời gian biểu đã điều chỉnh.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự điều chỉnh, thực hiện thời gian biểu phù hợp với bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ khó khăn và đưa ra lời khuyên phù hợp cho bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận ra khó khăn khi thực hiện thời gian biểu, tìm cách khắc phục và điều chỉnh.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Thực hiện nghiêm túc thời gian biểu để hoàn thành công việc.",
+          "- Trách nhiệm: Có ý thức thực hiện và duy trì nền nếp sinh hoạt khoa học.",
+          "- Nhân ái: Biết góp ý, khuyên nhủ bạn bằng lời nói tích cực, không chê bai khi bạn chưa thực hiện tốt.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng quản lí thời gian, biết phản hồi kết quả thực hiện và điều chỉnh nền nếp sinh hoạt."
         ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK, hộp giấy, các mẩu giấy nhỏ, phiếu nhận xét tuần.",
+          "- HS: Thời gian biểu đã điều chỉnh; kết quả bước đầu thực hiện; bút, giấy ghi việc chưa thực hiện được."
+        ],
+        "activities": [],
         "tables": [
           [
             [
@@ -1711,7 +1790,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: GIÚP NHAU THỰC HIỆN NỀN NẾP SINH HOẠT"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1720,8 +1805,8 @@
     "sourceFile": "HĐTN TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CUỘC PHIÊU LƯU CỦA SÁCH, BÚT",
+        "topic": "CHỦ ĐỀ: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ với chủ đề cuộc phiêu lưu của sách, bút.",
@@ -1729,50 +1814,18 @@
           "- HS lựa chọn được một việc làm cụ thể để thực hiện trong tuần.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, cổ vũ, chia sẻ ý kiến trước tập thể.",
-          "- HS biết sử dụng các câu hỏi 5W1H để khai thác, tổ chức và quản lí thông tin về sự vật, hiện tượng đang tìm hiểu.",
-          "- HS biết thiết kế, sử dụng sơ đồ tư duy như công cụ tìm hiểu thông tin và hỗ trợ trình bày.",
-          "- HS biết lựa chọn thông tin quan trọng, phân loại thông tin để mô hình hóa bằng sơ đồ tư duy.",
-          "- Tự chủ và tự học: chủ động đặt câu hỏi, tìm thông tin và tự hoàn thiện sản phẩm.",
-          "- Giao tiếp và hợp tác: biết trao đổi, đặt câu hỏi, lắng nghe và phản hồi khi làm việc nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: biết chọn thông tin, phân loại thông tin, trình bày bằng sơ đồ tư duy.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực đặt câu hỏi, tìm hiểu sự vật, hiện tượng.",
-          "- Trách nhiệm: hoàn thành nhiệm vụ nhóm, trình bày thông tin rõ ràng, trung thực.",
-          "4. Tích hợp",
-          "- HĐ2: Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS biết đặt câu hỏi để tìm thông tin, chọn nguồn phù hợp và bước đầu ghi chép thông tin cần thiết.",
-          "- HS biết trình bày về một vấn đề trước lớp bằng sơ đồ tư duy.",
-          "- HS biết lập luận, trả lời câu hỏi chất vấn và tiếp thu góp ý của bạn.",
-          "- HS tự đánh giá ưu điểm, hạn chế trong tuần và đề ra hướng rèn luyện tuần tới.",
-          "- Tự chủ và tự học: chuẩn bị sản phẩm, tự tin trình bày trước lớp.",
-          "- Giao tiếp và hợp tác: biết đặt câu hỏi, phản hồi, nhận xét sản phẩm của bạn.",
+          "- Tự chủ và tự học: biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung hoạt động với việc học tập, rèn luyện của bản thân.",
+          "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia hoạt động theo yêu cầu của nhà trường.",
           "- Trách nhiệm: thực hiện đúng nền nếp, giữ trật tự và hoàn thành cam kết sau hoạt động.",
-          "- Nhân ái: biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ.",
-          "- Chăm chỉ: hoàn thành sơ đồ tư duy đã cam kết.",
-          "- Trách nhiệm: tham gia nhận xét công bằng, lịch sự.",
-          "- HĐ4: Tích hợp AI (4.A1.2): HS biết AI/chatbot có thể gợi ý câu hỏi hoặc ý tưởng sơ đồ tư duy, nhưng cần kiểm tra và trình bày bằng hiểu biết của mình."
+          "- Nhân ái: biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ."
         ],
         "dodung": [
           "- GV: kế hoạch sinh hoạt dưới cờ, âm thanh, tranh ảnh hoặc sản phẩm minh họa chủ đề.",
-          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công.",
-          "- GV: máy tính, ti vi, tranh minh họa SGK, các tấm bìa, bút màu, phấn.",
-          "- HS: SGK, vở ghi, bút màu, giấy A4.",
-          "- GV: máy tính, ti vi, thẻ số bình chọn, bảng trưng bày.",
-          "- HS: sơ đồ tư duy đã chuẩn bị, bút màu."
+          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "_______________________________________________________________",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "_______________________________________________________________",
-          "SINH HOẠT LỚP: RÈN LUYỆN TƯ DUY KHOA HỌC",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -1824,7 +1877,39 @@
               "- GV giao nhiệm vụ về lớp: chia sẻ lại điều đã học và ghi nhớ cam kết hành động.",
               "- HS thực hiện nhiệm vụ sau hoạt động và chuẩn bị chia sẻ ở tiết sinh hoạt lớp."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "_______________________________________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KĨ NĂNG ĐẶT CÂU HỎI ĐỂ TÌM HIỂU THÔNG TIN",
+        "topic": "CHỦ ĐỀ: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS biết sử dụng các câu hỏi 5W1H để khai thác, tổ chức và quản lí thông tin về sự vật, hiện tượng đang tìm hiểu.",
+          "- HS biết thiết kế, sử dụng sơ đồ tư duy như công cụ tìm hiểu thông tin và hỗ trợ trình bày.",
+          "- HS biết lựa chọn thông tin quan trọng, phân loại thông tin để mô hình hóa bằng sơ đồ tư duy.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: chủ động đặt câu hỏi, tìm thông tin và tự hoàn thiện sản phẩm.",
+          "- Giao tiếp và hợp tác: biết trao đổi, đặt câu hỏi, lắng nghe và phản hồi khi làm việc nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn thông tin, phân loại thông tin, trình bày bằng sơ đồ tư duy.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực đặt câu hỏi, tìm hiểu sự vật, hiện tượng.",
+          "- Trách nhiệm: hoàn thành nhiệm vụ nhóm, trình bày thông tin rõ ràng, trung thực.",
+          "4. Tích hợp",
+          "- HĐ2: Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS biết đặt câu hỏi để tìm thông tin, chọn nguồn phù hợp và bước đầu ghi chép thông tin cần thiết."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh minh họa SGK, các tấm bìa, bút màu, phấn.",
+          "- HS: SGK, vở ghi, bút màu, giấy A4."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -1926,7 +2011,39 @@
               "- GV nhắc HS ghi nhớ nhiệm vụ về nhà và chuẩn bị minh chứng chia sẻ ở tiết sau.",
               "- HS ghi nhớ cam kết, chuẩn bị thực hiện và báo cáo kết quả."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "_______________________________________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: RÈN LUYỆN TƯ DUY KHOA HỌC",
+        "topic": "CHỦ ĐỀ: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS biết trình bày về một vấn đề trước lớp bằng sơ đồ tư duy.",
+          "- HS biết lập luận, trả lời câu hỏi chất vấn và tiếp thu góp ý của bạn.",
+          "- HS tự đánh giá ưu điểm, hạn chế trong tuần và đề ra hướng rèn luyện tuần tới.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: chuẩn bị sản phẩm, tự tin trình bày trước lớp.",
+          "- Giao tiếp và hợp tác: biết đặt câu hỏi, phản hồi, nhận xét sản phẩm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết điều chỉnh sơ đồ tư duy để trình bày khoa học hơn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: hoàn thành sơ đồ tư duy đã cam kết.",
+          "- Trách nhiệm: tham gia nhận xét công bằng, lịch sự.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp AI (4.A1.2): HS biết AI/chatbot có thể gợi ý câu hỏi hoặc ý tưởng sơ đồ tư duy, nhưng cần kiểm tra và trình bày bằng hiểu biết của mình."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, thẻ số bình chọn, bảng trưng bày.",
+          "- HS: sơ đồ tư duy đã chuẩn bị, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -2041,7 +2158,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -2050,8 +2171,8 @@
     "sourceFile": "HĐTN TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: HỘI CHỢ ĐỒ TÁI CHẾ",
+        "topic": "CHỦ ĐỀ: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ với chủ đề hội chợ đồ tái chế.",
@@ -2059,50 +2180,18 @@
           "- HS lựa chọn được một việc làm cụ thể để thực hiện trong tuần.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, cổ vũ, chia sẻ ý kiến trước tập thể.",
-          "- HS biết nhìn một sự vật, hiện tượng dưới nhiều góc độ khác nhau.",
-          "- HS thực hành phân loại hoạt động cá nhân theo nhiều tiêu chí khác nhau.",
-          "- HS xây dựng được sơ đồ tư duy về thời gian biểu theo tiêu chí phân loại.",
-          "- Giao tiếp và hợp tác: trao đổi với bạn về cách phân loại hoạt động hằng ngày.",
-          "- Thích ứng với cuộc sống: biết thiết kế sơ đồ tư duy về thời gian biểu của bản thân.",
-          "- Tự chủ và tự học: chủ động sắp xếp hoạt động cá nhân hợp lí.",
-          "3. Phẩm chất",
-          "- Nhân ái: vui vẻ, thân thiện, tôn trọng cách sắp xếp của bạn.",
-          "- Trách nhiệm: biết tự lực thực hiện nhiệm vụ theo hướng dẫn.",
-          "4. Tích hợp",
-          "- HĐ2: Tích hợp AI (4.C2.1): HS nhận biết AI có thể hỗ trợ phân loại thông tin, từ đó liên hệ cách phân loại hoạt động cá nhân theo tiêu chí rõ ràng.",
-          "- HS trưng bày và chia sẻ được cách trình bày sơ đồ tư duy theo nhiều phương án khác nhau.",
-          "- HS hiểu sơ đồ tư duy giúp phân loại sự vật, hiện tượng, hoạt động một cách rõ ràng.",
-          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng rèn luyện tuần tới.",
-          "- Giao tiếp và hợp tác: biết trao đổi, đặt câu hỏi, góp ý cho bạn.",
-          "- Thích ứng với cuộc sống: biết vận dụng sơ đồ tư duy vào thời gian biểu cá nhân.",
-          "- Nhân ái: vui vẻ, thân thiện, tôn trọng ý tưởng trình bày của bạn.",
-          "- Chăm chỉ: hoàn thành sản phẩm trưng bày.",
-          "- HĐ3: Tích hợp NLS 3.1.CB1a, 5.2.CB1a: HS biết dùng sơ đồ tư duy/công cụ số để trình bày thời gian biểu, biết chia sẻ sản phẩm an toàn, văn minh.",
+          "- Tự chủ và tự học: biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung hoạt động với việc học tập, rèn luyện của bản thân.",
+          "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia hoạt động theo yêu cầu của nhà trường.",
           "- Trách nhiệm: thực hiện đúng nền nếp, giữ trật tự và hoàn thành cam kết sau hoạt động.",
           "- Nhân ái: biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ."
         ],
         "dodung": [
           "- GV: kế hoạch sinh hoạt dưới cờ, âm thanh, tranh ảnh hoặc sản phẩm minh họa chủ đề.",
-          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công.",
-          "- GV: máy tính, ti vi, tranh minh họa SGK, phiếu bài tập.",
-          "- HS: SGK, vở ghi, bút màu, giấy A4.",
-          "- GV: máy tính, ti vi, khu vực trưng bày sản phẩm.",
-          "- HS: sơ đồ tư duy đã chuẩn bị, bút màu."
+          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "_______________________________________________________________",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "_______________________________________________________________",
-          "SINH HOẠT LỚP: TRIỂN LÃM SƠ ĐỒ TƯ DUY",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -2154,7 +2243,39 @@
               "- GV giao nhiệm vụ về lớp: chia sẻ lại điều đã học và ghi nhớ cam kết hành động.",
               "- HS thực hiện nhiệm vụ sau hoạt động và chuẩn bị chia sẻ ở tiết sinh hoạt lớp."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "_______________________________________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: PHÂN LOẠI VÀ SẮP XẾP HOẠT ĐỘNG CÁ NHÂN",
+        "topic": "CHỦ ĐỀ: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS biết nhìn một sự vật, hiện tượng dưới nhiều góc độ khác nhau.",
+          "- HS thực hành phân loại hoạt động cá nhân theo nhiều tiêu chí khác nhau.",
+          "- HS xây dựng được sơ đồ tư duy về thời gian biểu theo tiêu chí phân loại.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi với bạn về cách phân loại hoạt động hằng ngày.",
+          "- Thích ứng với cuộc sống: biết thiết kế sơ đồ tư duy về thời gian biểu của bản thân.",
+          "- Tự chủ và tự học: chủ động sắp xếp hoạt động cá nhân hợp lí.",
+          "3. Phẩm chất",
+          "- Nhân ái: vui vẻ, thân thiện, tôn trọng cách sắp xếp của bạn.",
+          "- Trách nhiệm: biết tự lực thực hiện nhiệm vụ theo hướng dẫn.",
+          "4. Tích hợp",
+          "- HĐ2: Tích hợp AI (4.C2.1): HS nhận biết AI có thể hỗ trợ phân loại thông tin, từ đó liên hệ cách phân loại hoạt động cá nhân theo tiêu chí rõ ràng."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh minh họa SGK, phiếu bài tập.",
+          "- HS: SGK, vở ghi, bút màu, giấy A4."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -2244,7 +2365,38 @@
               "- GV nhắc HS ghi nhớ nhiệm vụ về nhà và chuẩn bị minh chứng chia sẻ ở tiết sau.",
               "- HS ghi nhớ cam kết, chuẩn bị thực hiện và báo cáo kết quả."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "_______________________________________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: TRIỂN LÃM SƠ ĐỒ TƯ DUY",
+        "topic": "CHỦ ĐỀ: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS trưng bày và chia sẻ được cách trình bày sơ đồ tư duy theo nhiều phương án khác nhau.",
+          "- HS hiểu sơ đồ tư duy giúp phân loại sự vật, hiện tượng, hoạt động một cách rõ ràng.",
+          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng rèn luyện tuần tới.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết trao đổi, đặt câu hỏi, góp ý cho bạn.",
+          "- Thích ứng với cuộc sống: biết vận dụng sơ đồ tư duy vào thời gian biểu cá nhân.",
+          "3. Phẩm chất",
+          "- Nhân ái: vui vẻ, thân thiện, tôn trọng ý tưởng trình bày của bạn.",
+          "- Chăm chỉ: hoàn thành sản phẩm trưng bày.",
+          "4. Tích hợp",
+          "- HĐ3: Tích hợp NLS 3.1.CB1a, 5.2.CB1a: HS biết dùng sơ đồ tư duy/công cụ số để trình bày thời gian biểu, biết chia sẻ sản phẩm an toàn, văn minh."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, khu vực trưng bày sản phẩm.",
+          "- HS: sơ đồ tư duy đã chuẩn bị, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -2367,7 +2519,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -2376,8 +2532,8 @@
     "sourceFile": "HĐTN TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI STEM",
+        "topic": "CHỦ ĐỀ: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ với chủ đề ngày hội stem.",
@@ -2385,49 +2541,18 @@
           "- HS lựa chọn được một việc làm cụ thể để thực hiện trong tuần.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, cổ vũ, chia sẻ ý kiến trước tập thể.",
-          "- HS xác định được mục tiêu ngắn hạn và dài hạn trong học tập.",
-          "- HS biết sử dụng câu hỏi 5W1H để làm rõ việc cần làm nhằm đạt mục tiêu.",
-          "- HS biết xây dựng tiêu chí và tự đánh giá nền nếp sinh hoạt của bản thân.",
-          "- Giao tiếp và hợp tác: chia sẻ kế hoạch hành động với bạn, lắng nghe góp ý.",
-          "- Thiết kế và tổ chức hoạt động: xây dựng bảng kế hoạch thực hiện mục tiêu.",
-          "- HS biết xây dựng tiêu chí đánh giá rèn luyện tư duy khoa học.",
-          "- HS thực hành sử dụng tiêu chí để tự đánh giá bản thân.",
-          "- HS nhận một nhiệm vụ thực tế để vận dụng các thao tác tư duy khoa học.",
-          "- Giao tiếp và hợp tác: chia sẻ, trao đổi kết quả tự đánh giá với bạn.",
-          "- Thiết kế và tổ chức hoạt động: xây dựng bảng tiêu chí và nhiệm vụ thực tế.",
-          "- Thích ứng với cuộc sống: vận dụng tư duy khoa học vào học tập và sinh hoạt.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: trung thực khi tự đánh giá, nghiêm túc thực hiện nhiệm vụ.",
-          "- Chăm chỉ: tiếp tục rèn luyện các thao tác tư duy khoa học.",
-          "4. Tích hợp",
+          "- Tự chủ và tự học: biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung hoạt động với việc học tập, rèn luyện của bản thân.",
+          "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia hoạt động theo yêu cầu của nhà trường.",
           "- Trách nhiệm: thực hiện đúng nền nếp, giữ trật tự và hoàn thành cam kết sau hoạt động.",
-          "- Nhân ái: biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ.",
-          "- Trách nhiệm: có trách nhiệm với bản thân trong việc thực hiện hành động để đạt mục tiêu.",
-          "- Chăm chỉ: kiên trì rèn luyện, không bỏ cuộc khi gặp khó khăn.",
-          "- HĐ2: Tích hợp AI (4.C5.1): HS nhận biết AI/công cụ số có thể hỗ trợ trực quan hóa kế hoạch hành động, nhưng cần tự đặt mục tiêu và tự chịu trách nhiệm thực hiện."
+          "- Nhân ái: biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ."
         ],
         "dodung": [
           "- GV: kế hoạch sinh hoạt dưới cờ, âm thanh, tranh ảnh hoặc sản phẩm minh họa chủ đề.",
-          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công.",
-          "- GV: máy tính, ti vi, tranh minh họa SGK, mẫu kế hoạch hành động.",
-          "- HS: SGK, vở ghi, bút màu, giấy A4.",
-          "- GV: máy tính, ti vi, hướng dẫn tiêu chí đánh giá.",
-          "- HS: SGK, vở ghi, giấy, bút."
+          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "_______________________________________________________________",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "_______________________________________________________________",
-          "SINH HOẠT LỚP: TỰ ĐÁNH GIÁ VIỆC RÈN LUYỆN TƯ DUY KHOA HỌC",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -2479,7 +2604,39 @@
               "- GV giao nhiệm vụ về lớp: chia sẻ lại điều đã học và ghi nhớ cam kết hành động.",
               "- HS thực hiện nhiệm vụ sau hoạt động và chuẩn bị chia sẻ ở tiết sinh hoạt lớp."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "_______________________________________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NẾP SỐNG KHOA HỌC",
+        "topic": "CHỦ ĐỀ: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS xác định được mục tiêu ngắn hạn và dài hạn trong học tập.",
+          "- HS biết sử dụng câu hỏi 5W1H để làm rõ việc cần làm nhằm đạt mục tiêu.",
+          "- HS biết xây dựng tiêu chí và tự đánh giá nền nếp sinh hoạt của bản thân.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: chia sẻ kế hoạch hành động với bạn, lắng nghe góp ý.",
+          "- Thiết kế và tổ chức hoạt động: xây dựng bảng kế hoạch thực hiện mục tiêu.",
+          "- Thích ứng với cuộc sống: biết điều chỉnh nền nếp sinh hoạt ở nhà và ở trường.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: có trách nhiệm với bản thân trong việc thực hiện hành động để đạt mục tiêu.",
+          "- Chăm chỉ: kiên trì rèn luyện, không bỏ cuộc khi gặp khó khăn.",
+          "4. Tích hợp",
+          "- HĐ2: Tích hợp AI (4.C5.1): HS nhận biết AI/công cụ số có thể hỗ trợ trực quan hóa kế hoạch hành động, nhưng cần tự đặt mục tiêu và tự chịu trách nhiệm thực hiện."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh minh họa SGK, mẫu kế hoạch hành động.",
+          "- HS: SGK, vở ghi, bút màu, giấy A4."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -2565,7 +2722,39 @@
               "- GV nhắc HS ghi nhớ nhiệm vụ về nhà và chuẩn bị minh chứng chia sẻ ở tiết sau.",
               "- HS ghi nhớ cam kết, chuẩn bị thực hiện và báo cáo kết quả."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "_______________________________________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: TỰ ĐÁNH GIÁ VIỆC RÈN LUYỆN TƯ DUY KHOA HỌC",
+        "topic": "CHỦ ĐỀ: NẾP SỐNG VÀ TƯ DUY KHOA HỌC",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS biết xây dựng tiêu chí đánh giá rèn luyện tư duy khoa học.",
+          "- HS thực hành sử dụng tiêu chí để tự đánh giá bản thân.",
+          "- HS nhận một nhiệm vụ thực tế để vận dụng các thao tác tư duy khoa học.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: chia sẻ, trao đổi kết quả tự đánh giá với bạn.",
+          "- Thiết kế và tổ chức hoạt động: xây dựng bảng tiêu chí và nhiệm vụ thực tế.",
+          "- Thích ứng với cuộc sống: vận dụng tư duy khoa học vào học tập và sinh hoạt.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: trung thực khi tự đánh giá, nghiêm túc thực hiện nhiệm vụ.",
+          "- Chăm chỉ: tiếp tục rèn luyện các thao tác tư duy khoa học.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng tự đánh giá, biết nhìn lại quá trình rèn luyện tư duy khoa học và điều chỉnh hành động."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, hướng dẫn tiêu chí đánh giá.",
+          "- HS: SGK, vở ghi, giấy, bút."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -2680,7 +2869,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -2689,8 +2882,8 @@
     "sourceFile": "HĐTN TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GÓC ĐỌC XANH",
+        "topic": "CHỦ ĐỀ: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ với chủ đề góc đọc xanh.",
@@ -2698,50 +2891,18 @@
           "- HS lựa chọn được một việc làm cụ thể để thực hiện trong tuần.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, cổ vũ, chia sẻ ý kiến trước tập thể.",
-          "- HS bày tỏ được tình cảm yêu trường, mến lớp và nêu việc làm góp phần giúp môi trường xanh, sạch, đẹp.",
-          "- HS xây dựng được kế hoạch khảo sát thực trạng vệ sinh trường, lớp.",
-          "- Giao tiếp và hợp tác: phối hợp với bạn trong nhóm để đề xuất kế hoạch khảo sát.",
-          "- Giải quyết vấn đề và sáng tạo: đưa ra cách thực hiện phù hợp nhằm giữ gìn môi trường học tập.",
-          "- Tự chủ và tự học: tự đánh giá vai trò bản thân trong nhóm và thực hiện nhiệm vụ được giao.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực tham gia hoạt động giữ gìn vệ sinh, trang trí lớp học.",
-          "- Trách nhiệm: có ý thức bảo vệ môi trường học tập, hoàn thành nhiệm vụ chung.",
-          "4. Tích hợp",
-          "- HĐ2: Tích hợp QCN: HS hiểu quyền được nêu ý kiến, tham gia bàn bạc, thống nhất trong nhóm và tôn trọng ý kiến khác biệt.",
-          "- HS thực hiện được việc khảo sát thực trạng vệ sinh trường, lớp theo kế hoạch.",
-          "- HS báo cáo kết quả khảo sát và đề xuất được biện pháp giữ gìn vệ sinh trường lớp.",
-          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng rèn luyện tuần tới.",
-          "- Giao tiếp và hợp tác: phối hợp với bạn khi khảo sát và báo cáo kết quả.",
-          "- Giải quyết vấn đề và sáng tạo: đề xuất biện pháp khắc phục, giữ gìn vệ sinh.",
-          "- Tự chủ và tự học: thực hiện đúng nhiệm vụ được phân công.",
-          "- Chăm chỉ: tích cực tham gia khảo sát, ghi chép, báo cáo.",
-          "- Trách nhiệm: có ý thức bảo vệ môi trường học tập xanh, sạch, đẹp.",
-          "- HĐ4: Tích hợp BVMT: HS nhận biết trách nhiệm giữ gìn vệ sinh trường, lớp và đề xuất biện pháp xây dựng môi trường xanh, sạch, đẹp.",
+          "- Tự chủ và tự học: biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung hoạt động với việc học tập, rèn luyện của bản thân.",
+          "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia hoạt động theo yêu cầu của nhà trường.",
           "- Trách nhiệm: thực hiện đúng nền nếp, giữ trật tự và hoàn thành cam kết sau hoạt động.",
           "- Nhân ái: biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ."
         ],
         "dodung": [
           "- GV: kế hoạch sinh hoạt dưới cờ, âm thanh, tranh ảnh hoặc sản phẩm minh họa chủ đề.",
-          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công.",
-          "- GV: máy tính, ti vi, thẻ từ TRƯỜNG HỌC XANH - SẠCH - ĐẸP, phiếu khảo sát.",
-          "- HS: giấy A4, bút màu, phiếu nhóm.",
-          "- GV: máy tính, ti vi, phiếu khảo sát mẫu, bảng tổng hợp.",
-          "- HS: phiếu khảo sát của tổ, bút màu."
+          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "_______________________________________________________________",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "_______________________________________________________________",
-          "SINH HOẠT LỚP: KHẢO SÁT THỰC TRẠNG VỆ SINH TRƯỜNG, LỚP",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -2793,7 +2954,38 @@
               "- GV giao nhiệm vụ về lớp: chia sẻ lại điều đã học và ghi nhớ cam kết hành động.",
               "- HS thực hiện nhiệm vụ sau hoạt động và chuẩn bị chia sẻ ở tiết sinh hoạt lớp."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "_______________________________________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THỰC TRẠNG VỆ SINH TRƯỜNG, LỚP",
+        "topic": "CHỦ ĐỀ: YÊU TRƯỜNG, MẾN LỚP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS bày tỏ được tình cảm yêu trường, mến lớp và nêu việc làm góp phần giúp môi trường xanh, sạch, đẹp.",
+          "- HS xây dựng được kế hoạch khảo sát thực trạng vệ sinh trường, lớp.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: phối hợp với bạn trong nhóm để đề xuất kế hoạch khảo sát.",
+          "- Giải quyết vấn đề và sáng tạo: đưa ra cách thực hiện phù hợp nhằm giữ gìn môi trường học tập.",
+          "- Tự chủ và tự học: tự đánh giá vai trò bản thân trong nhóm và thực hiện nhiệm vụ được giao.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực tham gia hoạt động giữ gìn vệ sinh, trang trí lớp học.",
+          "- Trách nhiệm: có ý thức bảo vệ môi trường học tập, hoàn thành nhiệm vụ chung.",
+          "4. Tích hợp",
+          "- HĐ2: Tích hợp QCN: HS hiểu quyền được nêu ý kiến, tham gia bàn bạc, thống nhất trong nhóm và tôn trọng ý kiến khác biệt."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, thẻ từ TRƯỜNG HỌC XANH - SẠCH - ĐẸP, phiếu khảo sát.",
+          "- HS: giấy A4, bút màu, phiếu nhóm."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -2891,7 +3083,39 @@
               "- GV nhắc HS ghi nhớ nhiệm vụ về nhà và chuẩn bị minh chứng chia sẻ ở tiết sau.",
               "- HS ghi nhớ cam kết, chuẩn bị thực hiện và báo cáo kết quả."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "_______________________________________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: KHẢO SÁT THỰC TRẠNG VỆ SINH TRƯỜNG, LỚP",
+        "topic": "CHỦ ĐỀ: YÊU TRƯỜNG, MẾN LỚP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS thực hiện được việc khảo sát thực trạng vệ sinh trường, lớp theo kế hoạch.",
+          "- HS báo cáo kết quả khảo sát và đề xuất được biện pháp giữ gìn vệ sinh trường lớp.",
+          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng rèn luyện tuần tới.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: phối hợp với bạn khi khảo sát và báo cáo kết quả.",
+          "- Giải quyết vấn đề và sáng tạo: đề xuất biện pháp khắc phục, giữ gìn vệ sinh.",
+          "- Tự chủ và tự học: thực hiện đúng nhiệm vụ được phân công.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực tham gia khảo sát, ghi chép, báo cáo.",
+          "- Trách nhiệm: có ý thức bảo vệ môi trường học tập xanh, sạch, đẹp.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp BVMT: HS nhận biết trách nhiệm giữ gìn vệ sinh trường, lớp và đề xuất biện pháp xây dựng môi trường xanh, sạch, đẹp."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, phiếu khảo sát mẫu, bảng tổng hợp.",
+          "- HS: phiếu khảo sát của tổ, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -3014,7 +3238,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -3023,8 +3251,8 @@
     "sourceFile": "HĐTN TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: MÁI TRƯỜNG THÂN YÊU - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia biểu diễn văn nghệ về chủ đề “Mái trường thân yêu” hoặc cổ vũ văn minh cho phần trình bày của các bạn.",
@@ -3038,46 +3266,14 @@
           "- Chăm chỉ: Tích cực tham gia luyện tập, biểu diễn hoặc cổ vũ theo kế hoạch của nhà trường.",
           "- Trách nhiệm: Thực hiện đúng nền nếp, bảo vệ cảnh quan và giữ gìn môi trường học tập.",
           "- Nhân ái: Biết tôn trọng, động viên bạn biểu diễn; không chê bai khi bạn còn lúng túng.",
-          "- HS lập được kế hoạch và phân công nhiệm vụ cho từng thành viên để giữ gìn trường học xanh, sạch, đẹp.",
-          "- HS biết thực hiện kế hoạch giữ gìn trường học xanh, sạch, đẹp bằng việc làm cụ thể, vừa sức.",
-          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn để cùng thực hiện công việc chung.",
-          "- Giải quyết vấn đề và sáng tạo: Biết đề xuất cách làm mới, phù hợp để trường lớp luôn xanh, sạch, đẹp.",
-          "- Tự chủ và tự học: Chủ động, tự giác hoàn thành nhiệm vụ được giao.",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động vệ sinh, trồng cây, chăm sóc cảnh quan trường lớp.",
-          "- Trách nhiệm: Có ý thức bảo vệ môi trường học tập; biết nhắc nhở bạn bè cùng thực hiện.",
-          "4. Tích hợp",
-          "- HĐ2: Tích hợp BVMT: HS biết lập kế hoạch, phân công nhiệm vụ và thực hiện việc làm cụ thể để giữ gìn trường học xanh, sạch, đẹp.",
-          "- HS thực hiện được công việc theo kế hoạch đã xây dựng.",
-          "- HS nhận ra sự thay đổi của trường, lớp sau khi được chăm sóc, quét dọn và tự hào về điều đó.",
-          "- HS đánh giá được kết quả hoạt động trong tuần và đề ra hướng rèn luyện tuần tới.",
-          "- Giao tiếp và hợp tác: Biết phối hợp, hỗ trợ bạn khi thực hiện nhiệm vụ chung.",
-          "- Tự chủ và tự học: Chủ động, tự giác hoàn thành nhiệm vụ được phân công.",
-          "- Chăm chỉ: Tích cực tham gia hoạt động lao động, vệ sinh, chăm sóc cây xanh.",
-          "- Trách nhiệm: Giữ gìn môi trường học tập và duy trì việc làm tốt sau hoạt động.",
-          "- HĐ4: Tích hợp AI (4.D1.1): HS hình thành ý tưởng dùng AI/công cụ số để đề xuất sáng kiến giữ gìn trường học xanh, sạch, đẹp."
+          "- Tiết kiệm và bảo vệ nguồn nước: Giữ gìn nguồn nước sạch, chăm sóc bồn hoa cây cảnh trường học bằng nguồn nước tái sử dụng an toàn.",
+          "- Giáo dục địa phương (Chủ đề 6): Tấm gương Nữ Anh hùng LLVTND Nguyễn Thị Út (Út Tịch - Cầu Kè, Trà Vinh) - noi gương anh dũng, chăm ngoan, xây dựng tinh thần đoàn kết trường lớp."
         ],
         "dodung": [
           "- GV: Kịch bản Sinh hoạt dưới cờ; âm thanh, sân khấu; tranh/ảnh minh họa chủ đề; danh sách câu hỏi giao lưu với Tổng phụ trách Đội.",
-          "- HS: Trang phục gọn gàng; tiết mục văn nghệ/lời chia sẻ nếu được phân công; tâm thế vui tươi, sẵn sàng tham gia.",
-          "- GV: Máy tính, ti vi; tranh minh họa SGK; giấy A0, bút màu; bảng mẫu kế hoạch hành động.",
-          "- HS: Giấy A0, bút màu; kết quả quan sát/khảo sát khu vực cần chăm sóc; dụng cụ cần thiết theo kế hoạch.",
-          "- GV: Máy tính, ti vi; danh sách phân công; khu vực thực hiện; hình ảnh hoặc video ngắn minh họa Google Teachable Machine/robot nhặt rác thông minh do GV chuẩn bị trước.",
-          "- HS: Dụng cụ lao động cần thiết, khẩu trang, bao tay nếu có; kết quả thực hiện kế hoạch của tổ; ý tưởng sáng kiến giữ gìn trường học."
+          "- HS: Trang phục gọn gàng; tiết mục văn nghệ/lời chia sẻ nếu được phân công; tâm thế vui tươi, sẵn sàng tham gia."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "______________________________________",
-          "Thời gian thực hiện: ...",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "______________________________________",
-          "SINH HOẠT LỚP: HÀNH ĐỘNG GIỮ GÌN TRƯỜNG HỌC XANH, SẠCH, ĐẸP",
-          "Thời gian thực hiện: ...",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -3162,10 +3358,45 @@
               "- HS trình bày trước lớp; các bạn khác lắng nghe và bổ sung bằng lời động viên."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV kết nối chủ đề: Nhắc nhở HS noi gương Nữ Anh hùng liệt sĩ Nguyễn Thị Út (chị Út Tịch, quê Cầu Kè, Trà Vinh) kiên cường, bất khuất bằng những việc làm thiết thực trong học tập; cùng chung tay giữ gìn trường học xanh - sạch - đẹp: kiểm tra vòi nước nhà vệ sinh, khóa chặt khi dùng xong và tưới cây xanh bằng nước rửa rau quả phù hợp.",
+              "- HS lắng nghe, nêu quyết tâm noi gương chị Út Tịch; cam kết cùng bạn bè giữ gìn trường lớp sạch đẹp, không lãng phí nước sạch tại các bồn rửa tay của nhà trường."
+            ],
+            [
               "- GV nhắc HS thực hiện cam kết trong tuần và chuẩn bị chia sẻ kết quả ở tiết Sinh hoạt lớp.",
               "- HS ghi nhớ nhiệm vụ sau hoạt động và thực hiện cam kết của mình."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "______________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TRƯỜNG HỌC XANH, SẠCH, ĐẸP - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS lập được kế hoạch và phân công nhiệm vụ cho từng thành viên để giữ gìn trường học xanh, sạch, đẹp.",
+          "- HS biết thực hiện kế hoạch giữ gìn trường học xanh, sạch, đẹp bằng việc làm cụ thể, vừa sức.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn để cùng thực hiện công việc chung.",
+          "- Giải quyết vấn đề và sáng tạo: Biết đề xuất cách làm mới, phù hợp để trường lớp luôn xanh, sạch, đẹp.",
+          "- Tự chủ và tự học: Chủ động, tự giác hoàn thành nhiệm vụ được giao.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động vệ sinh, trồng cây, chăm sóc cảnh quan trường lớp.",
+          "- Trách nhiệm: Có ý thức bảo vệ môi trường học tập; biết nhắc nhở bạn bè cùng thực hiện.",
+          "4. Tích hợp",
+          "- HĐ2: Tích hợp BVMT: HS biết lập kế hoạch, phân công nhiệm vụ và thực hiện việc làm cụ thể để giữ gìn trường học xanh, sạch, đẹp."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi; tranh minh họa SGK; giấy A0, bút màu; bảng mẫu kế hoạch hành động.",
+          "- HS: Giấy A0, bút màu; kết quả quan sát/khảo sát khu vực cần chăm sóc; dụng cụ cần thiết theo kế hoạch."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -3271,7 +3502,39 @@
               "- GV nhận xét tiết học, tuyên dương HS biết lập kế hoạch và phân công nhiệm vụ rõ ràng.",
               "- HS thu dọn đồ dùng, giữ lại kế hoạch của tổ."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "______________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: HÀNH ĐỘNG GIỮ GÌN TRƯỜNG HỌC XANH, SẠCH, ĐẸP - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS thực hiện được công việc theo kế hoạch đã xây dựng.",
+          "- HS nhận ra sự thay đổi của trường, lớp sau khi được chăm sóc, quét dọn và tự hào về điều đó.",
+          "- HS đánh giá được kết quả hoạt động trong tuần và đề ra hướng rèn luyện tuần tới.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết phối hợp, hỗ trợ bạn khi thực hiện nhiệm vụ chung.",
+          "- Giải quyết vấn đề và sáng tạo: Biết điều chỉnh cách làm để hoàn thành công việc.",
+          "- Tự chủ và tự học: Chủ động, tự giác hoàn thành nhiệm vụ được phân công.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động lao động, vệ sinh, chăm sóc cây xanh.",
+          "- Trách nhiệm: Giữ gìn môi trường học tập và duy trì việc làm tốt sau hoạt động.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp AI (4.D1.1): HS hình thành ý tưởng dùng AI/công cụ số để đề xuất sáng kiến giữ gìn trường học xanh, sạch, đẹp."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi; danh sách phân công; khu vực thực hiện; hình ảnh hoặc video ngắn minh họa Google Teachable Machine/robot nhặt rác thông minh do GV chuẩn bị trước.",
+          "- HS: Dụng cụ lao động cần thiết, khẩu trang, bao tay nếu có; kết quả thực hiện kế hoạch của tổ; ý tưởng sáng kiến giữ gìn trường học."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -3296,7 +3559,7 @@
               "2. HOẠT ĐỘNG TỔNG KẾT TUẦN (10 phút)\n- Mục tiêu: HS đánh giá kết quả hoạt động trong tuần, nêu ưu điểm, hạn chế và thống nhất kế hoạch tuần tới.\n* Cách tiến hành:"
             ],
             [
-              "2.1. Tổng kết các hoạt động trong tuần- GV mời lớp trưởng điều hành đánh giá kết quả hoạt động cuối tuần.",
+              "2.1. Tổng kết các hoạt động trong tuần\n- GV mời lớp trưởng điều hành đánh giá kết quả hoạt động cuối tuần.",
               "- Lớp trưởng điều hành phần sinh hoạt cuối tuần."
             ],
             [
@@ -3308,7 +3571,7 @@
               "- HS lắng nghe, rút kinh nghiệm, ghi nhận việc cần cố gắng."
             ],
             [
-              "2.2. Phương hướng hoạt động tuần tới- GV mời lớp trưởng hoặc lớp phó học tập triển khai dự kiến hoạt động tuần tới.",
+              "2.2. Phương hướng hoạt động tuần tới\n- GV mời lớp trưởng hoặc lớp phó học tập triển khai dự kiến hoạt động tuần tới.",
               "- Lớp trưởng/lớp phó triển khai kế hoạch tuần tới."
             ],
             [
@@ -3402,7 +3665,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -3411,8 +3678,8 @@
     "sourceFile": "HĐTN TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: ĐỘI VIÊN CÙNG TIẾN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ với chủ đề “Đội viên cùng tiến”.",
@@ -3425,51 +3692,13 @@
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, giúp đỡ, động viên bạn trong học tập và sinh hoạt.",
           "- Chăm chỉ: Tích cực tham gia phong trào, cố gắng rèn luyện để cùng bạn tiến bộ.",
-          "- Trách nhiệm: Thực hiện đúng nền nếp Sinh hoạt dưới cờ và cam kết hành động sau hoạt động.",
-          "- HS chia sẻ được với bạn những điều em hài lòng hoặc chưa hài lòng về bản thân, về bạn khi tham gia hoạt động chung, làm việc nhóm.",
-          "- HS biết nhận diện một số tình huống mâu thuẫn, bất hòa trong quan hệ bạn bè và đề xuất cách giải quyết phù hợp.",
-          "- HS biết thể hiện sự quan tâm, tôn trọng, giữ gìn tình bạn đẹp bằng lời nói, việc làm cụ thể.",
-          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn để hoàn thành nhiệm vụ.",
-          "- Giải quyết vấn đề và sáng tạo: Chủ động tìm cách xử lí tình huống, đề xuất lời khuyên phù hợp trong quan hệ bạn bè.",
-          "- HS nhận ra được những ưu điểm để phát huy, những hạn chế cần khắc phục trong tuần học tới.",
-          "- HS chia sẻ được cảm xúc sau khi trao đổi cùng người thân về cách vượt qua tình huống bất hòa trong quan hệ bạn bè.",
-          "- HS biết sắm vai xử lí một số tình huống bất hòa và xây dựng được “Cam kết tình bạn” của lớp.",
-          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn để xây dựng cam kết chung.",
-          "- Giải quyết vấn đề và sáng tạo: Chủ động đề xuất cách xử lí tình huống và nguyên tắc ứng xử phù hợp.",
-          "- Nhân ái: Biết quan tâm, yêu thương, giúp đỡ bạn bè, sống hòa thuận, đoàn kết.",
-          "- Chăm chỉ: Tích cực tham gia hoạt động, rèn luyện kĩ năng nghe - nói và hoàn thành nhiệm vụ nhóm.",
-          "- Trách nhiệm: Có ý thức với bản thân, với tập thể; biết giữ lời hứa trong giao tiếp và hợp tác.",
-          "4. Tích hợp",
-          "- HĐ2: Tích hợp QCN: HS hiểu quyền tự do bày tỏ ý kiến phù hợp, quyền tự do kết giao, hội họp hòa bình; biết nêu ý kiến lịch sự, lắng nghe và tôn trọng bạn trong hoạt động nhóm.",
-          "- Chăm chỉ: Tích cực tham gia sinh hoạt lớp, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện bản “Cam kết tình bạn” đã thống nhất.",
-          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng xây dựng cam kết tình bạn, biết lắng nghe, tôn trọng sự khác biệt và thực hiện lời hứa trong quan hệ bạn bè."
+          "- Trách nhiệm: Thực hiện đúng nền nếp Sinh hoạt dưới cờ và cam kết hành động sau hoạt động."
         ],
         "dodung": [
           "- GV: Kịch bản Sinh hoạt dưới cờ; âm thanh, sân khấu; tranh SGK về chủ đề “Đội viên cùng tiến”; câu hỏi giao lưu.",
-          "- HS: Trang phục gọn gàng; lời chia sẻ hoặc câu hỏi giao lưu nếu được phân công; tâm thế tích cực, sẵn sàng tham gia.",
-          "- GV: Máy tính, ti vi; tranh minh họa SGK; giấy A4, bút màu; thẻ ghi tình huống; bảng gợi ý “Em hài lòng vì.../Em chưa hài lòng vì...”.",
-          "- HS: Giấy A4, bút màu; chuẩn bị một điều muốn chia sẻ về bạn hoặc nhóm học tập.",
-          "- GV: Máy tính, ti vi; tranh tình huống SGK; phiếu bốc thăm tình huống; giấy A0 để viết “Cam kết tình bạn”.",
-          "- HS: Bút màu; thông điệp yêu thương hoặc món quà nhỏ; ý kiến đề xuất nguyên tắc tình bạn."
+          "- HS: Trang phục gọn gàng; lời chia sẻ hoặc câu hỏi giao lưu nếu được phân công; tâm thế tích cực, sẵn sàng tham gia."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "______________________________________",
-          "Thời gian thực hiện: ...",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "______________________________________",
-          "SINH HOẠT LỚP: CAM KẾT TÌNH BẠN",
-          "Thời gian thực hiện: ...",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -3545,7 +3774,41 @@
               "- GV nhắc HS thực hiện cam kết, ghi nhớ kết quả để chia sẻ ở tiết Sinh hoạt lớp.",
               "- HS ghi nhớ nhiệm vụ sau hoạt động và thực hiện cam kết của mình."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "______________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÌNH BẠN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS chia sẻ được với bạn những điều em hài lòng hoặc chưa hài lòng về bản thân, về bạn khi tham gia hoạt động chung, làm việc nhóm.",
+          "- HS biết nhận diện một số tình huống mâu thuẫn, bất hòa trong quan hệ bạn bè và đề xuất cách giải quyết phù hợp.",
+          "- HS biết thể hiện sự quan tâm, tôn trọng, giữ gìn tình bạn đẹp bằng lời nói, việc làm cụ thể.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn để hoàn thành nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Chủ động tìm cách xử lí tình huống, đề xuất lời khuyên phù hợp trong quan hệ bạn bè.",
+          "- Tự chủ và tự học: Biết đánh giá bản thân, điều chỉnh lời nói và thái độ khi góp ý cho bạn.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, yêu thương, giúp đỡ bạn bè, sống hòa thuận, đoàn kết.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, rèn luyện kĩ năng nghe - nói và hoàn thành nhiệm vụ nhóm.",
+          "- Trách nhiệm: Có ý thức với bản thân, với tập thể; biết giữ lời hứa trong giao tiếp và hợp tác.",
+          "4. Tích hợp",
+          "- HĐ2: Tích hợp QCN: HS hiểu quyền tự do bày tỏ ý kiến phù hợp, quyền tự do kết giao, hội họp hòa bình; biết nêu ý kiến lịch sự, lắng nghe và tôn trọng bạn trong hoạt động nhóm."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi; tranh minh họa SGK; giấy A4, bút màu; thẻ ghi tình huống; bảng gợi ý “Em hài lòng vì.../Em chưa hài lòng vì...”.",
+          "- HS: Giấy A4, bút màu; chuẩn bị một điều muốn chia sẻ về bạn hoặc nhóm học tập."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -3647,7 +3910,41 @@
               "- GV nhận xét tiết học và dặn HS chuẩn bị chia sẻ kết quả ở tiết Sinh hoạt lớp.",
               "- HS lắng nghe, thu dọn đồ dùng và thực hiện nhiệm vụ sau giờ học."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "______________________________________"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: CAM KẾT TÌNH BẠN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra được những ưu điểm để phát huy, những hạn chế cần khắc phục trong tuần học tới.",
+          "- HS chia sẻ được cảm xúc sau khi trao đổi cùng người thân về cách vượt qua tình huống bất hòa trong quan hệ bạn bè.",
+          "- HS biết sắm vai xử lí một số tình huống bất hòa và xây dựng được “Cam kết tình bạn” của lớp.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn để xây dựng cam kết chung.",
+          "- Giải quyết vấn đề và sáng tạo: Chủ động đề xuất cách xử lí tình huống và nguyên tắc ứng xử phù hợp.",
+          "- Tự chủ và tự học: Biết tự đánh giá bản thân, điều chỉnh hành vi và thái độ trong quan hệ bạn bè.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, yêu thương, giúp đỡ bạn bè, sống hòa thuận, đoàn kết.",
+          "- Chăm chỉ: Tích cực tham gia sinh hoạt lớp, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện bản “Cam kết tình bạn” đã thống nhất.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng xây dựng cam kết tình bạn, biết lắng nghe, tôn trọng sự khác biệt và thực hiện lời hứa trong quan hệ bạn bè."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi; tranh tình huống SGK; phiếu bốc thăm tình huống; giấy A0 để viết “Cam kết tình bạn”.",
+          "- HS: Bút màu; thông điệp yêu thương hoặc món quà nhỏ; ý kiến đề xuất nguyên tắc tình bạn."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -3672,7 +3969,7 @@
               "2. HOẠT ĐỘNG TỔNG KẾT TUẦN (10 phút)\n- Mục tiêu: HS đánh giá kết quả hoạt động trong tuần, nêu ưu điểm, hạn chế và thống nhất kế hoạch tuần tới.\n* Cách tiến hành:"
             ],
             [
-              "2.1. Tổng kết các hoạt động trong tuần- GV mời lớp trưởng điều hành đánh giá kết quả hoạt động trong tuần về nền nếp, học tập, phong trào và việc thực hiện nhiệm vụ chủ đề.",
+              "2.1. Tổng kết các hoạt động trong tuần\n- GV mời lớp trưởng điều hành đánh giá kết quả hoạt động trong tuần về nền nếp, học tập, phong trào và việc thực hiện nhiệm vụ chủ đề.",
               "- Lớp trưởng điều hành; các tổ lắng nghe và chuẩn bị nhận xét."
             ],
             [
@@ -3684,7 +3981,7 @@
               "- HS lắng nghe, rút kinh nghiệm cho bản thân và tập thể."
             ],
             [
-              "2.2. Phương hướng hoạt động tuần tới- GV mời lớp trưởng hoặc lớp phó học tập triển khai kế hoạch tuần tới.",
+              "2.2. Phương hướng hoạt động tuần tới\n- GV mời lớp trưởng hoặc lớp phó học tập triển khai kế hoạch tuần tới.",
               "- HS lắng nghe kế hoạch tuần tới."
             ],
             [
@@ -3774,7 +4071,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -3783,8 +4085,8 @@
     "sourceFile": "HĐTN TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo chủ đề của tuần.",
@@ -3792,54 +4094,18 @@
           "- HS lựa chọn được một việc làm cụ thể để thực hiện trong tuần.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, cổ vũ, trao đổi ý kiến trước tập thể.",
-          "- HS gửi được thông điệp yêu thương đến thầy cô bằng lời nói, lời viết hoặc sản phẩm hạc giấy.",
-          "- HS chia sẻ được thông điệp yêu thương đến bạn bè qua việc động viên, giúp đỡ nhau vượt qua khó khăn trong sinh hoạt và học tập.",
-          "- HS biết bày tỏ tình cảm phù hợp, chân thành, lễ phép và tôn trọng người nghe.",
-          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ kỉ niệm, phối hợp cùng bạn khi thực hiện sản phẩm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết chọn lời chúc, hình thức thể hiện phù hợp để gửi thông điệp yêu thương.",
-          "- HS đánh giá được kết quả hoạt động trong tuần, nêu ưu điểm, hạn chế và phương hướng tuần tới.",
-          "- HS trao và nhận thông điệp yêu thương cùng thầy cô nhân ngày Nhà giáo Việt Nam 20-11.",
-          "- HS biết tìm, chọn và trình bày lời chúc, bài hát, bài thơ, hình ảnh về 20-11 bằng sản phẩm phù hợp.",
-          "- Giao tiếp và hợp tác: Biết phối hợp khi tổ chức hoạt động chào mừng 20-11.",
+          "- Tự chủ và tự học: Biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: Biết liên hệ nội dung hoạt động với việc học tập, rèn luyện của bản thân.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động theo yêu cầu của nhà trường.",
           "- Trách nhiệm: Thực hiện đúng nền nếp, giữ trật tự và hoàn thành cam kết sau hoạt động.",
-          "- Nhân ái: Biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ.",
-          "- Nhân ái: Biết yêu thương, biết ơn thầy cô và quan tâm, động viên bạn bè.",
-          "- Chăm chỉ: Tích cực tham gia hoạt động gấp hạc, viết thông điệp.",
-          "- Trách nhiệm: Giữ gìn sản phẩm, thực hiện lời nói và hành động yêu thương trong đời sống hằng ngày.",
-          "4. Tích hợp",
-          "- Tích hợp QCN: HS hiểu quyền tự do bày tỏ ý kiến, tình cảm, lời chúc phù hợp, không trái pháp luật; biết bày tỏ với thái độ lễ phép, tôn trọng thầy cô và bạn bè.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn hình thức thể hiện lời chúc đơn giản, đẹp và phù hợp.",
-          "- Nhân ái: Biết yêu thương, biết ơn thầy cô và chia sẻ cảm xúc tích cực.",
-          "- Chăm chỉ: Tích cực tham gia hoạt động của lớp.",
-          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được phân công, sử dụng thông tin phù hợp khi tạo sản phẩm.",
-          "- Tích hợp NLS 1.1.CB1a, 5.2.CB1a: HS tìm bài hát, bài thơ, hình ảnh về 20-11 từ nguồn phù hợp và trình bày lời chúc bằng sản phẩm số đơn giản."
+          "- Nhân ái: Biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ."
         ],
         "dodung": [
           "- GV: Kế hoạch Sinh hoạt dưới cờ; âm thanh, sân khấu; tranh/ảnh minh họa; câu hỏi giao lưu.",
-          "- HS: Trang phục gọn gàng; tâm thế tích cực; nội dung chia sẻ/câu hỏi nếu được phân công.",
-          "- GV: Máy tính, ti vi, tranh SGK, mẫu hạc giấy, giấy màu, nhạc nhẹ.",
-          "- HS: Giấy gấp hạc/giấy màu, bút màu, một bông hoa nhỏ hoặc lời chúc chuẩn bị sẵn.",
-          "- GV: Máy tính, ti vi, nhạc nền, tranh SGK, bảng/slide mẫu lời chúc 20-11.",
-          "- HS: Hạc giấy yêu thương, lời chúc, bài hát/bài thơ/hình ảnh đã chuẩn bị."
+          "- HS: Trang phục gọn gàng; tâm thế tích cực; nội dung chia sẻ/câu hỏi nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Thời gian thực hiện: ...",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "SINH HOẠT LỚP: TỔ CHỨC HOẠT ĐỘNG CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
-          "Thời gian thực hiện: ...",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -3899,7 +4165,40 @@
               "- GV chốt thông điệp của hoạt động và giao nhiệm vụ chuẩn bị cho tiết Hoạt động giáo dục theo chủ đề.",
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài học tiếp theo."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÔNG ĐIỆP YÊU THƯƠNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS gửi được thông điệp yêu thương đến thầy cô bằng lời nói, lời viết hoặc sản phẩm hạc giấy.",
+          "- HS chia sẻ được thông điệp yêu thương đến bạn bè qua việc động viên, giúp đỡ nhau vượt qua khó khăn trong sinh hoạt và học tập.",
+          "- HS biết bày tỏ tình cảm phù hợp, chân thành, lễ phép và tôn trọng người nghe.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ kỉ niệm, phối hợp cùng bạn khi thực hiện sản phẩm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết chọn lời chúc, hình thức thể hiện phù hợp để gửi thông điệp yêu thương.",
+          "- Tự chủ và tự học: Biết tự chuẩn bị sản phẩm và điều chỉnh lời nói, thái độ khi giao tiếp.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, biết ơn thầy cô và quan tâm, động viên bạn bè.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động gấp hạc, viết thông điệp.",
+          "- Trách nhiệm: Giữ gìn sản phẩm, thực hiện lời nói và hành động yêu thương trong đời sống hằng ngày.",
+          "4. Tích hợp",
+          "- Tích hợp QCN: HS hiểu quyền tự do bày tỏ ý kiến, tình cảm, lời chúc phù hợp, không trái pháp luật; biết bày tỏ với thái độ lễ phép, tôn trọng thầy cô và bạn bè."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK, mẫu hạc giấy, giấy màu, nhạc nhẹ.",
+          "- HS: Giấy gấp hạc/giấy màu, bút màu, một bông hoa nhỏ hoặc lời chúc chuẩn bị sẵn."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -3985,14 +4284,47 @@
               "- GV nhận xét tiết học, dặn HS thực hiện một lời nói hoặc việc làm yêu thương với thầy cô, bạn bè.",
               "- HS lắng nghe, cam kết thực hiện sau tiết học."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: TỔ CHỨC HOẠT ĐỘNG CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS đánh giá được kết quả hoạt động trong tuần, nêu ưu điểm, hạn chế và phương hướng tuần tới.",
+          "- HS trao và nhận thông điệp yêu thương cùng thầy cô nhân ngày Nhà giáo Việt Nam 20-11.",
+          "- HS biết tìm, chọn và trình bày lời chúc, bài hát, bài thơ, hình ảnh về 20-11 bằng sản phẩm phù hợp.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết phối hợp khi tổ chức hoạt động chào mừng 20-11.",
+          "- Tự chủ và tự học: Biết chuẩn bị sản phẩm, tự đánh giá và điều chỉnh cách thể hiện.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn hình thức thể hiện lời chúc đơn giản, đẹp và phù hợp.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, biết ơn thầy cô và chia sẻ cảm xúc tích cực.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động của lớp.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được phân công, sử dụng thông tin phù hợp khi tạo sản phẩm.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.1.CB1a, 5.2.CB1a: HS tìm bài hát, bài thơ, hình ảnh về 20-11 từ nguồn phù hợp và trình bày lời chúc bằng sản phẩm số đơn giản."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, nhạc nền, tranh SGK, bảng/slide mẫu lời chúc 20-11.",
+          "- HS: Hạc giấy yêu thương, lời chúc, bài hát/bài thơ/hình ảnh đã chuẩn bị."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)- Mục tiêu: Tạo không khí vui vẻ, gắn kết trước giờ Sinh hoạt lớp.* Cách tiến hành:"
+              "1. KHỞI ĐỘNG (5 phút)\n- Mục tiêu: Tạo không khí vui vẻ, gắn kết trước giờ Sinh hoạt lớp.\n* Cách tiến hành:"
             ],
             [
               "- GV mở bài hát “Lớp chúng ta kết đoàn” để khởi động tiết học.",
@@ -4007,10 +4339,10 @@
               "- HS lắng nghe, sẵn sàng tham gia các hoạt động."
             ],
             [
-              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN (10 phút)- Mục tiêu: HS đánh giá kết quả hoạt động trong tuần và thống nhất kế hoạch tuần tới.* Cách tiến hành:"
+              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN (10 phút)\n- Mục tiêu: HS đánh giá kết quả hoạt động trong tuần và thống nhất kế hoạch tuần tới.\n* Cách tiến hành:"
             ],
             [
-              "2.1. Tổng kết các hoạt động trong tuần- GV mời lớp trưởng điều hành phần nhận xét cuối tuần theo các nội dung: nền nếp, học tập, phong trào, việc chuẩn bị hoạt động 20-11.",
+              "2.1. Tổng kết các hoạt động trong tuần\n- GV mời lớp trưởng điều hành phần nhận xét cuối tuần theo các nội dung: nền nếp, học tập, phong trào, việc chuẩn bị hoạt động 20-11.",
               "- Lớp trưởng điều hành; các tổ thảo luận, tổ trưởng báo cáo kết quả hoạt động trong tuần."
             ],
             [
@@ -4018,11 +4350,11 @@
               "- HS lắng nghe, ghi nhận ưu điểm và việc cần cố gắng trong tuần tới."
             ],
             [
-              "2.2. Phương hướng hoạt động tuần tới- GV mời lớp phó triển khai dự kiến hoạt động tuần tới, tổ chức cho lớp góp ý và biểu quyết.",
+              "2.2. Phương hướng hoạt động tuần tới\n- GV mời lớp phó triển khai dự kiến hoạt động tuần tới, tổ chức cho lớp góp ý và biểu quyết.",
               "- HS thảo luận, bổ sung ý kiến và biểu quyết thống nhất thực hiện."
             ],
             [
-              "3. CHIA SẺ THU HOẠCH SAU TRẢI NGHIỆM: TRAO VÀ NHẬN THÔNG ĐIỆP YÊU THƯƠNG (8 phút)- Mục tiêu: HS trao, nhận thông điệp yêu thương và chia sẻ cảm xúc nhân ngày Nhà giáo Việt Nam 20-11.* Cách tiến hành:"
+              "3. CHIA SẺ THU HOẠCH SAU TRẢI NGHIỆM: TRAO VÀ NHẬN THÔNG ĐIỆP YÊU THƯƠNG (8 phút)\n- Mục tiêu: HS trao, nhận thông điệp yêu thương và chia sẻ cảm xúc nhân ngày Nhà giáo Việt Nam 20-11.\n* Cách tiến hành:"
             ],
             [
               "- GV trao lại việc điều hành cho lớp trưởng, mời cả lớp hát một bài hát chung về thầy cô.",
@@ -4041,7 +4373,7 @@
               "- HS chia sẻ cảm xúc, các bạn lắng nghe và bổ sung bằng lời động viên."
             ],
             [
-              "4. HOẠT ĐỘNG NHÓM: TẠO SẢN PHẨM LỜI CHÚC 20-11 (14 phút)- Mục tiêu: HS biết chọn nguồn phù hợp và trình bày lời chúc bằng sản phẩm số đơn giản.- Mục tiêu tích hợp: Tích hợp NLS 1.1.CB1a, 5.2.CB1a: HS tìm bài hát, bài thơ, hình ảnh về 20-11 từ nguồn phù hợp và trình bày lời chúc bằng sản phẩm số đơn giản.* Cách tiến hành:"
+              "4. HOẠT ĐỘNG NHÓM: TẠO SẢN PHẨM LỜI CHÚC 20-11 (14 phút)\n- Mục tiêu: HS biết chọn nguồn phù hợp và trình bày lời chúc bằng sản phẩm số đơn giản.\n- Mục tiêu tích hợp: Tích hợp NLS 1.1.CB1a, 5.2.CB1a: HS tìm bài hát, bài thơ, hình ảnh về 20-11 từ nguồn phù hợp và trình bày lời chúc bằng sản phẩm số đơn giản.\n* Cách tiến hành:"
             ],
             [
               "- GV đặt câu hỏi dẫn tích hợp: “Khi muốn dùng bài hát, bài thơ hoặc hình ảnh về 20-11 để làm lời chúc, em cần chọn nguồn như thế nào? Có được lấy hình ảnh lạ, thông tin chưa rõ nguồn không?”",
@@ -4064,8 +4396,8 @@
               "- HS lắng nghe, hoàn thiện sản phẩm nếu cần."
             ],
             [
-              "5. CAM KẾT HÀNH ĐỘNG (3 phút)- Mục tiêu: HS tiếp tục thể hiện sự biết ơn thầy cô bằng lời nói, việc làm phù hợp.* Cách tiến hành:",
-              "5. CAM KẾT HÀNH ĐỘNG (3 phút)- Mục tiêu: HS tiếp tục thể hiện sự biết ơn thầy cô bằng lời nói, việc làm phù hợp.* Cách tiến hành:"
+              "5. CAM KẾT HÀNH ĐỘNG (3 phút)\n- Mục tiêu: HS tiếp tục thể hiện sự biết ơn thầy cô bằng lời nói, việc làm phù hợp.\n* Cách tiến hành:",
+              "5. CAM KẾT HÀNH ĐỘNG (3 phút)\n- Mục tiêu: HS tiếp tục thể hiện sự biết ơn thầy cô bằng lời nói, việc làm phù hợp.\n* Cách tiến hành:"
             ],
             [
               "- GV nhắc HS tiếp tục thực hiện những lời nói, hành động thể hiện sự yêu thương với thầy cô và chia sẻ khó khăn với bạn bè.",
@@ -4077,7 +4409,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -4086,8 +4423,8 @@
     "sourceFile": "HĐTN TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TỰ HỌC - TỰ LÀM - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo chủ đề của tuần.",
@@ -4095,53 +4432,20 @@
           "- HS lựa chọn được một việc làm cụ thể để thực hiện trong tuần.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, cổ vũ, trao đổi ý kiến trước tập thể.",
-          "- HS nắm được các bước xây dựng kế hoạch thông qua việc lập kế hoạch giới thiệu cuốn sách yêu thích.",
-          "- HS xác định được mục tiêu, nội dung hoạt động, hình thức thể hiện và phân công nhiệm vụ cụ thể cho từng thành viên.",
-          "- HS đánh giá được kết quả hoạt động trong tuần, nêu ưu điểm, hạn chế và phương hướng tuần tới.",
-          "- HS báo cáo sơ bộ kết quả thực hiện nhiệm vụ đọc sách của nhóm.",
-          "- HS thực hiện việc đọc cuốn sách mình mang tới lớp và ghi lại từ ngữ, chi tiết ấn tượng.",
-          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ kết quả đọc sách trong nhóm.",
+          "- Tự chủ và tự học: Biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: Biết liên hệ nội dung hoạt động với việc học tập, rèn luyện của bản thân.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động theo yêu cầu của nhà trường.",
           "- Trách nhiệm: Thực hiện đúng nền nếp, giữ trật tự và hoàn thành cam kết sau hoạt động.",
           "- Nhân ái: Biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ.",
           "4. Tích hợp",
-          "- Tích hợp AI (4.A1.2): HS hiểu AI có thể hỗ trợ gợi ý dàn ý, câu hỏi, cách sắp xếp ý tưởng nhưng không thay thế tư duy sáng tạo; HS phải tự suy nghĩ và hoàn thiện nhiệm vụ.",
-          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến trong nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Biết đề xuất cách triển khai kế hoạch hợp lí, lựa chọn hình thức giới thiệu sách sáng tạo.",
-          "- Tự chủ và tự học: Chủ động tìm thông tin về cuốn sách, chuẩn bị nội dung cho phần việc của mình.",
-          "- Chăm chỉ: Thực hiện đầy đủ nhiệm vụ trong quá trình lập kế hoạch.",
-          "- Trách nhiệm: Nhận nhiệm vụ và hoàn thành phần việc cá nhân, có trách nhiệm với sản phẩm chung.",
-          "- Tích hợp NLS 5.2.CB1a: HS lập kế hoạch thực hiện nhiệm vụ bằng bảng/phiếu số đơn giản, theo dõi tiến độ và tự đánh giá kết quả.",
-          "- Giải quyết vấn đề và sáng tạo: Biết đề xuất cách khắc phục khó khăn khi thực hiện nhiệm vụ đọc sách.",
-          "- Chăm chỉ: Kiên trì đọc sách và ghi chép thông tin.",
-          "- Trách nhiệm: Hoàn thành phần việc đã nhận với nhóm."
+          "- Tích hợp AI (4.A1.2): HS hiểu AI có thể hỗ trợ gợi ý dàn ý, câu hỏi, cách sắp xếp ý tưởng nhưng không thay thế tư duy sáng tạo; HS phải tự suy nghĩ và hoàn thiện nhiệm vụ."
         ],
         "dodung": [
           "- GV: Kế hoạch Sinh hoạt dưới cờ; âm thanh, sân khấu; tranh/ảnh minh họa; câu hỏi giao lưu.",
-          "- HS: Trang phục gọn gàng; tâm thế tích cực; nội dung chia sẻ/câu hỏi nếu được phân công.",
-          "- GV: Máy tính, ti vi, tranh SGK, mẫu bảng kế hoạch, phiếu phân công nhiệm vụ.",
-          "- HS: Sách yêu thích, giấy A4, bút màu, thông tin đã chuẩn bị về cuốn sách.",
-          "- GV: Máy tính, ti vi, tranh SGK, phiếu theo dõi tiến độ đọc sách.",
-          "- HS: Cuốn sách yêu thích, giấy ghi chú, bút màu."
+          "- HS: Trang phục gọn gàng; tâm thế tích cực; nội dung chia sẻ/câu hỏi nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Thời gian thực hiện: ...",
-          "- Chủ động: Tham gia thảo luận, đề xuất ý tưởng và cách thức thực hiện kế hoạch.",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "SINH HOẠT LỚP: CHỦ ĐỘNG THỰC HIỆN NHIỆM VỤ ĐỌC SÁCH",
-          "Thời gian thực hiện: ...",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -4213,7 +4517,40 @@
               "- GV chốt thông điệp của hoạt động và giao nhiệm vụ chuẩn bị cho tiết Hoạt động giáo dục theo chủ đề.",
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài học tiếp theo."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHỦ ĐỘNG LẬP KẾ HOẠCH - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nắm được các bước xây dựng kế hoạch thông qua việc lập kế hoạch giới thiệu cuốn sách yêu thích.",
+          "- HS xác định được mục tiêu, nội dung hoạt động, hình thức thể hiện và phân công nhiệm vụ cụ thể cho từng thành viên.",
+          "- HS biết theo dõi tiến độ và điều chỉnh kế hoạch để hoàn thành nhiệm vụ chung.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết đề xuất cách triển khai kế hoạch hợp lí, lựa chọn hình thức giới thiệu sách sáng tạo.",
+          "- Tự chủ và tự học: Chủ động tìm thông tin về cuốn sách, chuẩn bị nội dung cho phần việc của mình.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Thực hiện đầy đủ nhiệm vụ trong quá trình lập kế hoạch.",
+          "- Trách nhiệm: Nhận nhiệm vụ và hoàn thành phần việc cá nhân, có trách nhiệm với sản phẩm chung.",
+          "- Chủ động: Tham gia thảo luận, đề xuất ý tưởng và cách thức thực hiện kế hoạch.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 5.2.CB1a: HS lập kế hoạch thực hiện nhiệm vụ bằng bảng/phiếu số đơn giản, theo dõi tiến độ và tự đánh giá kết quả."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK, mẫu bảng kế hoạch, phiếu phân công nhiệm vụ.",
+          "- HS: Sách yêu thích, giấy A4, bút màu, thông tin đã chuẩn bị về cuốn sách."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -4299,14 +4636,47 @@
               "- GV nhận xét tiết học, tuyên dương nhóm biết phân công rõ ràng.",
               "- HS lắng nghe, rút kinh nghiệm."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: CHỦ ĐỘNG THỰC HIỆN NHIỆM VỤ ĐỌC SÁCH - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS đánh giá được kết quả hoạt động trong tuần, nêu ưu điểm, hạn chế và phương hướng tuần tới.",
+          "- HS báo cáo sơ bộ kết quả thực hiện nhiệm vụ đọc sách của nhóm.",
+          "- HS thực hiện việc đọc cuốn sách mình mang tới lớp và ghi lại từ ngữ, chi tiết ấn tượng.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ kết quả đọc sách trong nhóm.",
+          "- Tự chủ và tự học: Biết tự theo dõi tiến độ đọc sách, điều chỉnh cách đọc để hoàn thành nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết đề xuất cách khắc phục khó khăn khi thực hiện nhiệm vụ đọc sách.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Kiên trì đọc sách và ghi chép thông tin.",
+          "- Trách nhiệm: Hoàn thành phần việc đã nhận với nhóm.",
+          "- Chủ động: Biết chia sẻ khó khăn và tìm cách điều chỉnh để hoàn thành nhiệm vụ.",
+          "4. Tích hợp",
+          "- Tích hợp KNS: HS rèn kĩ năng chủ động thực hiện nhiệm vụ đọc sách, biết tự theo dõi tiến độ, chia sẻ khó khăn và điều chỉnh cách làm để hoàn thành nhiệm vụ."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK, phiếu theo dõi tiến độ đọc sách.",
+          "- HS: Cuốn sách yêu thích, giấy ghi chú, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)- Mục tiêu: Tạo không khí vui vẻ, gắn kết trước giờ Sinh hoạt lớp.* Cách tiến hành:"
+              "1. KHỞI ĐỘNG (5 phút)\n- Mục tiêu: Tạo không khí vui vẻ, gắn kết trước giờ Sinh hoạt lớp.* Cách tiến hành:"
             ],
             [
               "- GV mở bài hát “Lớp chúng ta kết đoàn” để khởi động tiết học.",
@@ -4321,7 +4691,7 @@
               "- HS lắng nghe, sẵn sàng tham gia các hoạt động."
             ],
             [
-              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN (10 phút)- Mục tiêu: HS đánh giá kết quả hoạt động trong tuần và thống nhất kế hoạch tuần tới.* Cách tiến hành:"
+              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN (10 phút)\n- Mục tiêu: HS đánh giá kết quả hoạt động trong tuần và thống nhất kế hoạch tuần tới.\n* Cách tiến hành:"
             ],
             [
               "2.1. Tổng kết các hoạt động trong tuần"
@@ -4342,7 +4712,7 @@
               "- HS thảo luận, bổ sung và biểu quyết thống nhất thực hiện."
             ],
             [
-              "3. CHIA SẺ THU HOẠCH SAU TRẢI NGHIỆM: TIẾN ĐỘ THỰC HIỆN KẾ HOẠCH GIỚI THIỆU SÁCH (8 phút)- Mục tiêu: HS báo cáo tiến độ, nhận biết việc đã làm, đang làm, sẽ làm và điều chỉnh nhiệm vụ.* Cách tiến hành:"
+              "3. CHIA SẺ THU HOẠCH SAU TRẢI NGHIỆM: TIẾN ĐỘ THỰC HIỆN KẾ HOẠCH GIỚI THIỆU SÁCH (8 phút)\n- Mục tiêu: HS báo cáo tiến độ, nhận biết việc đã làm, đang làm, sẽ làm và điều chỉnh nhiệm vụ.\n* Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS theo nhóm báo cáo tiến độ: việc đã làm, việc đang làm, việc sẽ làm theo kế hoạch giới thiệu sách.",
@@ -4357,7 +4727,7 @@
               "- Đại diện nhóm báo cáo; các nhóm khác lắng nghe, nhận xét và bổ sung."
             ],
             [
-              "4. HOẠT ĐỘNG NHÓM: THỰC HIỆN VIỆC ĐỌC SÁCH CÁ NHÂN TẠI LỚP (14 phút)- Mục tiêu: HS đọc sách cá nhân, ghi lại từ ngữ hay, chi tiết ấn tượng và rèn kĩ năng chủ động thực hiện nhiệm vụ.- Mục tiêu tích hợp: Tích hợp KNS: HS chủ động theo dõi tiến độ, chia sẻ khó khăn và điều chỉnh cách làm để hoàn thành nhiệm vụ đọc sách.* Cách tiến hành:"
+              "4. HOẠT ĐỘNG NHÓM: THỰC HIỆN VIỆC ĐỌC SÁCH CÁ NHÂN TẠI LỚP (14 phút)\n- Mục tiêu: HS đọc sách cá nhân, ghi lại từ ngữ hay, chi tiết ấn tượng và rèn kĩ năng chủ động thực hiện nhiệm vụ.\n- Mục tiêu tích hợp: Tích hợp KNS: HS chủ động theo dõi tiến độ, chia sẻ khó khăn và điều chỉnh cách làm để hoàn thành nhiệm vụ đọc sách.\n* Cách tiến hành:"
             ],
             [
               "- GV đặt câu hỏi dẫn tích hợp: “Khi đã nhận nhiệm vụ đọc sách, nếu em chưa đọc xong hoặc chưa hiểu nội dung, em cần làm gì để vẫn hoàn thành nhiệm vụ?”",
@@ -4380,7 +4750,7 @@
               "- HS lắng nghe, tiếp tục hoàn thiện phần đọc sách của mình."
             ],
             [
-              "5. CAM KẾT HÀNH ĐỘNG (3 phút)- Mục tiêu: HS tiếp tục thực hiện công việc được phân công.* Cách tiến hành:"
+              "5. CAM KẾT HÀNH ĐỘNG (3 phút)\n- Mục tiêu: HS tiếp tục thực hiện công việc được phân công.\n* Cách tiến hành:"
             ],
             [
               "- GV nhắc HS tiếp tục đọc sách, hoàn thành ghi chú và phần việc đã nhận với nhóm.",
@@ -4392,7 +4762,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -4401,8 +4776,8 @@
     "sourceFile": "HĐTN TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: KẾ HOẠCH HOẠT ĐỘNG TẠI THƯ VIỆN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo chủ đề của tuần.",
@@ -4410,54 +4785,20 @@
           "- HS lựa chọn được một việc làm cụ thể để thực hiện trong tuần.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, cổ vũ, trao đổi ý kiến trước tập thể.",
-          "- HS báo cáo được kết quả chuẩn bị kế hoạch giới thiệu sách của nhóm.",
-          "- HS chủ động luyện tập tiết mục giới thiệu sách theo kế hoạch.",
-          "- HS biết góp ý để hoàn thiện tiết mục giới thiệu sách của nhóm.",
-          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến trong nhóm.",
-          "- HS đánh giá được kết quả hoạt động trong tuần, nêu ưu điểm, hạn chế và phương hướng tuần tới.",
-          "- HS trình diễn các tiết mục giới thiệu sách cùng nhóm với hình thức đã lựa chọn.",
-          "- HS biết bình chọn, nhận xét và rút kinh nghiệm sau phần trình diễn.",
-          "- Giao tiếp và hợp tác: Biết phối hợp, phân công, hỗ trợ bạn trong nhóm.",
+          "- Tự chủ và tự học: Biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: Biết liên hệ nội dung hoạt động với việc học tập, rèn luyện của bản thân.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động theo yêu cầu của nhà trường.",
           "- Trách nhiệm: Thực hiện đúng nền nếp, giữ trật tự và hoàn thành cam kết sau hoạt động.",
           "- Nhân ái: Biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ.",
-          "- Tự chủ và tự học: Chủ động tìm thông tin về cuốn sách, chuẩn bị nội dung cho phần việc của mình.",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thiện sản phẩm giới thiệu sách.",
-          "- Trách nhiệm: Hoàn thành phần việc cá nhân, có trách nhiệm với tiết mục chung.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS biết tìm kiếm thông tin về cuốn sách, tác giả, nội dung giới thiệu từ nguồn phù hợp; biết chọn lọc ý chính để trình bày.",
-          "- Tự chủ và tự học: Chủ động hoàn thành nhiệm vụ cá nhân trong sản phẩm chung.",
-          "- Chăm chỉ: Tích cực luyện tập, trình diễn và hoàn thiện nhiệm vụ.",
-          "- Trách nhiệm: Cùng chịu trách nhiệm với kết quả của nhóm.",
-          "- Nhân ái: Biết động viên, góp ý lịch sự, tôn trọng phần trình bày của bạn.",
-          "- Tích hợp KNS: HS rèn kĩ năng hợp tác, phân công nhiệm vụ, hỗ trợ bạn trong nhóm và cùng chịu trách nhiệm khi thực hiện nhiệm vụ giới thiệu sách."
+          "- Tiết kiệm và bảo vệ nguồn nước: Giữ gìn cảnh quan sạch sẽ, bảo vệ nguồn nước sạch tại các nơi sinh hoạt cộng đồng và lễ hội truyền thống.",
+          "- Giáo dục địa phương (Chủ đề 4): Tìm hiểu nét đẹp văn hóa và phong tục Lễ hội Ka-thi-na của đồng bào Khmer tỉnh Trà Vinh."
         ],
         "dodung": [
           "- GV: Kế hoạch Sinh hoạt dưới cờ; âm thanh, sân khấu; tranh/ảnh minh họa; câu hỏi giao lưu.",
-          "- HS: Trang phục gọn gàng; tâm thế tích cực; nội dung chia sẻ/câu hỏi nếu được phân công.",
-          "- GV: Máy tính, ti vi, tranh SGK, phiếu góp ý, bảng tiêu chí giới thiệu sách.",
-          "- HS: Sách, ghi chú nội dung, tranh/ảnh minh họa hoặc sản phẩm nhóm.",
-          "- GV: Máy tính, ti vi, phiếu bình chọn, bảng tiêu chí trình diễn.",
-          "- HS: Sách, đạo cụ, sản phẩm giới thiệu sách của nhóm."
+          "- HS: Trang phục gọn gàng; tâm thế tích cực; nội dung chia sẻ/câu hỏi nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Thời gian thực hiện: ...",
-          "- Chủ động: Mạnh dạn trình bày, tiếp thu góp ý để hoàn thiện sản phẩm.",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "SINH HOẠT LỚP: HỢP TÁC THỰC HIỆN NHIỆM VỤ",
-          "Thời gian thực hiện: ...",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -4514,10 +4855,47 @@
               "- HS trình bày ngắn gọn, nêu cam kết cá nhân hoặc nhóm."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 4) & Mizuiku: GV hướng dẫn HS tự tìm hiểu nét đẹp văn hóa quê hương Trà Vinh: Lễ hội Ka-thi-na (lễ dâng y của đồng bào Khmer) là dịp sum họp gia đình, thể hiện lòng hiếu thảo và sẻ chia với cộng đồng. Nhắc nhở HS khi tham gia lễ hội cần có ý thức giữ gìn vệ sinh chung, bảo vệ nguồn nước sạch nơi sinh hoạt tập thể.",
+              "- HS chia sẻ hiểu biết về lễ hội Ka-thi-na tại các chùa Khmer ở Trà Vinh; thể hiện thái độ tôn trọng phong tục văn hóa truyền thống các dân tộc và ý thức bảo vệ môi trường, nguồn nước khi đi lễ hội."
+            ],
+            [
               "- GV chốt thông điệp của hoạt động và giao nhiệm vụ chuẩn bị cho tiết Hoạt động giáo dục theo chủ đề.",
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài học tiếp theo."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LUYỆN TẬP GIỚI THIỆU SÁCH - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS báo cáo được kết quả chuẩn bị kế hoạch giới thiệu sách của nhóm.",
+          "- HS chủ động luyện tập tiết mục giới thiệu sách theo kế hoạch.",
+          "- HS biết góp ý để hoàn thiện tiết mục giới thiệu sách của nhóm.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn hình thức giới thiệu sách sáng tạo và điều chỉnh cách trình bày.",
+          "- Tự chủ và tự học: Chủ động tìm thông tin về cuốn sách, chuẩn bị nội dung cho phần việc của mình.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thiện sản phẩm giới thiệu sách.",
+          "- Trách nhiệm: Hoàn thành phần việc cá nhân, có trách nhiệm với tiết mục chung.",
+          "- Chủ động: Mạnh dạn trình bày, tiếp thu góp ý để hoàn thiện sản phẩm.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS biết tìm kiếm thông tin về cuốn sách, tác giả, nội dung giới thiệu từ nguồn phù hợp; biết chọn lọc ý chính để trình bày."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK, phiếu góp ý, bảng tiêu chí giới thiệu sách.",
+          "- HS: Sách, ghi chú nội dung, tranh/ảnh minh họa hoặc sản phẩm nhóm."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -4599,14 +4977,47 @@
               "- GV nhận xét tiết học, tuyên dương nhóm có tinh thần hợp tác và chuẩn bị tốt.",
               "- HS lắng nghe, rút kinh nghiệm."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: HỢP TÁC THỰC HIỆN NHIỆM VỤ - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS đánh giá được kết quả hoạt động trong tuần, nêu ưu điểm, hạn chế và phương hướng tuần tới.",
+          "- HS trình diễn các tiết mục giới thiệu sách cùng nhóm với hình thức đã lựa chọn.",
+          "- HS biết bình chọn, nhận xét và rút kinh nghiệm sau phần trình diễn.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết phối hợp, phân công, hỗ trợ bạn trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết điều chỉnh cách trình bày, xử lí tình huống khi trình diễn.",
+          "- Tự chủ và tự học: Chủ động hoàn thành nhiệm vụ cá nhân trong sản phẩm chung.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, trình diễn và hoàn thiện nhiệm vụ.",
+          "- Trách nhiệm: Cùng chịu trách nhiệm với kết quả của nhóm.",
+          "- Nhân ái: Biết động viên, góp ý lịch sự, tôn trọng phần trình bày của bạn.",
+          "4. Tích hợp",
+          "- Tích hợp KNS: HS rèn kĩ năng hợp tác, phân công nhiệm vụ, hỗ trợ bạn trong nhóm và cùng chịu trách nhiệm khi thực hiện nhiệm vụ giới thiệu sách."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, phiếu bình chọn, bảng tiêu chí trình diễn.",
+          "- HS: Sách, đạo cụ, sản phẩm giới thiệu sách của nhóm."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)- Mục tiêu: Tạo không khí vui vẻ, gắn kết trước giờ Sinh hoạt lớp.* Cách tiến hành:"
+              "1. KHỞI ĐỘNG (5 phút)\n\n- Mục tiêu: Tạo không khí vui vẻ, gắn kết trước giờ Sinh hoạt lớp.* Cách tiến hành:"
             ],
             [
               "- GV mở bài hát “Lớp chúng ta kết đoàn” để khởi động tiết học.",
@@ -4621,7 +5032,7 @@
               "- HS lắng nghe, sẵn sàng tham gia các hoạt động."
             ],
             [
-              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN (10 phút)- Mục tiêu: HS đánh giá kết quả hoạt động trong tuần và thống nhất kế hoạch tuần tới.* Cách tiến hành:"
+              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN (10 phút)\n- Mục tiêu: HS đánh giá kết quả hoạt động trong tuần và thống nhất kế hoạch tuần tới.\n* Cách tiến hành:"
             ],
             [
               "2.1. Tổng kết các hoạt động trong tuần"
@@ -4642,7 +5053,7 @@
               "- HS thảo luận, bổ sung và biểu quyết thống nhất thực hiện."
             ],
             [
-              "3. CHIA SẺ THU HOẠCH SAU TRẢI NGHIỆM (8 phút)- Mục tiêu: HS chia sẻ việc luyện tập, cảm xúc và khó khăn khi hợp tác thực hiện nhiệm vụ.* Cách tiến hành:"
+              "3. CHIA SẺ THU HOẠCH SAU TRẢI NGHIỆM (8 phút)\n- Mục tiêu: HS chia sẻ việc luyện tập, cảm xúc và khó khăn khi hợp tác thực hiện nhiệm vụ.\n* Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS chia sẻ theo cặp/nhóm: nhóm em đã luyện tập như thế nào, điều gì thuận lợi, điều gì còn khó khăn.",
@@ -4657,7 +5068,7 @@
               "- Một số HS trình bày; các bạn khác lắng nghe, bổ sung."
             ],
             [
-              "4. HOẠT ĐỘNG NHÓM: TRÌNH DIỄN VÀ BÌNH CHỌN TIẾT MỤC GIỚI THIỆU SÁCH ẤN TƯỢNG (14 phút)- Mục tiêu: HS trình diễn theo nhóm, biết hợp tác, nhận xét và bình chọn theo tiêu chí.- Mục tiêu tích hợp: Tích hợp KNS: HS rèn kĩ năng hợp tác, phân công nhiệm vụ, hỗ trợ bạn và cùng chịu trách nhiệm khi thực hiện nhiệm vụ giới thiệu sách.* Cách tiến hành:"
+              "4. HOẠT ĐỘNG NHÓM: TRÌNH DIỄN VÀ BÌNH CHỌN TIẾT MỤC GIỚI THIỆU SÁCH ẤN TƯỢNG (14 phút)\n- Mục tiêu: HS trình diễn theo nhóm, biết hợp tác, nhận xét và bình chọn theo tiêu chí.\n- Mục tiêu tích hợp: Tích hợp KNS: HS rèn kĩ năng hợp tác, phân công nhiệm vụ, hỗ trợ bạn và cùng chịu trách nhiệm khi thực hiện nhiệm vụ giới thiệu sách.\n* Cách tiến hành:"
             ],
             [
               "- GV đặt câu hỏi dẫn tích hợp: “Để phần giới thiệu sách của nhóm thành công, các thành viên cần hợp tác như thế nào? Khi bạn quên lời hoặc gặp khó khăn, em nên làm gì?”",
@@ -4680,7 +5091,7 @@
               "- HS lắng nghe, nêu cuốn sách mình muốn đọc và lí do lựa chọn."
             ],
             [
-              "5. CAM KẾT HÀNH ĐỘNG (3 phút)- Mục tiêu: HS tiếp tục rèn luyện kĩ năng hợp tác và chia sẻ sách với người thân.* Cách tiến hành:"
+              "5. CAM KẾT HÀNH ĐỘNG (3 phút)\n- Mục tiêu: HS tiếp tục rèn luyện kĩ năng hợp tác và chia sẻ sách với người thân.\n* Cách tiến hành:"
             ],
             [
               "- GV nhắc HS chia sẻ với người thân về cuốn sách mình muốn tìm đọc và tiếp tục rèn kĩ năng hợp tác trong nhóm.",
@@ -4692,7 +5103,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -4701,8 +5117,8 @@
     "sourceFile": "HĐTN TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GÌN GIỮ NÉT ĐẸP TÂM HỒN HỌC TRÒ",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ với chủ đề giữ gìn nét đẹp tâm hồn học trò.",
@@ -4710,52 +5126,18 @@
           "- HS lựa chọn được một việc làm cụ thể để rèn luyện tính tự lực, tự chủ trong tuần.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, cổ vũ, chia sẻ ý kiến trước tập thể.",
-          "- HS nhận thức được trách nhiệm của bản thân đối với các công việc trong gia đình.",
-          "- HS chủ động thực hiện được một số việc làm hằng ngày phù hợp với lứa tuổi để chăm sóc, giữ gìn ngôi nhà của mình.",
-          "- HS biết lập phiếu việc nhà để theo dõi quá trình thực hiện nhiệm vụ ở nhà.",
-          "- Giao tiếp và hợp tác: trao đổi, phối hợp với các thành viên trong gia đình khi thực hiện công việc nhà.",
-          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn và đề xuất cách thực hiện công việc nhà phù hợp, hiệu quả.",
-          "- Tự chủ và tự học: tự giác nhận và hoàn thành các công việc nhà được giao.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực, đều đặn tham gia thực hiện các công việc nhà.",
-          "- Trách nhiệm: có ý thức giữ gìn nhà cửa gọn gàng, sạch sẽ; hoàn thành công việc được giao.",
-          "4. Tích hợp",
-          "- HĐ2: Tích hợp KNS: Rèn kĩ năng tự giác phục vụ bản thân với những công việc phù hợp cả ở lớp và ở nhà.",
-          "- HĐ3: Tích hợp AI (4.A1.1): HS nhận biết AI có thể hỗ trợ một số việc gia đình như robot hút bụi nhưng con người vẫn cần chủ động làm những việc máy không thay thế được.",
-          "- HS nhận ra được những ưu điểm để phát huy, những hạn chế để khắc phục trong tuần học tiếp theo.",
-          "- HS tự đánh giá được khả năng tự thực hiện công việc của bản thân trong học tập và sinh hoạt hằng ngày.",
-          "- HS biết đề xuất biện pháp khắc phục hạn chế, tiếp tục rèn luyện tính tự lực ở nhà và ở trường.",
-          "- Giao tiếp và hợp tác: trao đổi, chia sẻ ý kiến với bạn và thầy cô khi tự đánh giá, nhận xét.",
-          "- Giải quyết vấn đề và sáng tạo: đề xuất được biện pháp cải thiện việc thực hiện công việc cá nhân.",
+          "- Tự chủ và tự học: biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung hoạt động với việc học tập, rèn luyện của bản thân.",
+          "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia hoạt động theo yêu cầu của nhà trường.",
           "- Trách nhiệm: thực hiện đúng nền nếp, giữ trật tự và hoàn thành cam kết sau hoạt động.",
-          "- Nhân ái: biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ.",
-          "- Chăm chỉ: có ý thức rèn luyện, nỗ lực học tập và hoàn thiện bản thân qua từng tuần.",
-          "- Trách nhiệm: trung thực trong tự đánh giá; có trách nhiệm với kết quả học tập và việc làm của bản thân.",
-          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng tự đánh giá khả năng tự lực, biết nhận ra điểm mạnh, điểm cần cố gắng và đề xuất cách khắc phục phù hợp."
+          "- Nhân ái: biết tôn trọng, khích lệ bạn khi tham gia trình bày, biểu diễn hoặc chia sẻ."
         ],
         "dodung": [
           "- GV: kế hoạch sinh hoạt dưới cờ, âm thanh, tranh ảnh hoặc sản phẩm minh họa chủ đề.",
-          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công.",
-          "- GV: máy tính, ti vi, video/ảnh minh họa robot hút bụi thông minh đã kiểm duyệt, tranh SGK.",
-          "- HS: giấy A4, bút màu, thước, Phiếu việc nhà.",
-          "- GV: máy tính, ti vi, phiếu nhận xét tuần, tranh SGK.",
-          "- HS: Phiếu việc nhà, kết quả thực hiện nhiệm vụ ở nhà, bút màu."
+          "- HS: trang phục gọn gàng, tâm thế vui tươi, sản phẩm hoặc nội dung chia sẻ nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP: ĐÁNH GIÁ VỀ KHẢ NĂNG TỰ LỰC",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4803,7 +5185,40 @@
               "- GV giao nhiệm vụ về lớp: chia sẻ lại điều đã học và ghi nhớ cam kết hành động.",
               "- HS thực hiện nhiệm vụ sau hoạt động và chuẩn bị chia sẻ ở tiết sinh hoạt lớp."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ LỰC THỰC HIỆN NHIỆM VỤ Ở NHÀ",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận thức được trách nhiệm của bản thân đối với các công việc trong gia đình.",
+          "- HS chủ động thực hiện được một số việc làm hằng ngày phù hợp với lứa tuổi để chăm sóc, giữ gìn ngôi nhà của mình.",
+          "- HS biết lập phiếu việc nhà để theo dõi quá trình thực hiện nhiệm vụ ở nhà.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi, phối hợp với các thành viên trong gia đình khi thực hiện công việc nhà.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn và đề xuất cách thực hiện công việc nhà phù hợp, hiệu quả.",
+          "- Tự chủ và tự học: tự giác nhận và hoàn thành các công việc nhà được giao.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực, đều đặn tham gia thực hiện các công việc nhà.",
+          "- Trách nhiệm: có ý thức giữ gìn nhà cửa gọn gàng, sạch sẽ; hoàn thành công việc được giao.",
+          "4. Tích hợp",
+          "- HĐ2: Tích hợp KNS: Rèn kĩ năng tự giác phục vụ bản thân với những công việc phù hợp cả ở lớp và ở nhà.",
+          "- HĐ3: Tích hợp AI (4.A1.1): HS nhận biết AI có thể hỗ trợ một số việc gia đình như robot hút bụi nhưng con người vẫn cần chủ động làm những việc máy không thay thế được."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, video/ảnh minh họa robot hút bụi thông minh đã kiểm duyệt, tranh SGK.",
+          "- HS: giấy A4, bút màu, thước, Phiếu việc nhà."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -4893,7 +5308,39 @@
               "- GV yêu cầu HS sử dụng Phiếu việc nhà trong tuần và nhờ người thân nhận xét.",
               "- HS lắng nghe, cam kết thực hiện và chuẩn bị chia sẻ ở tiết Sinh hoạt lớp."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: ĐÁNH GIÁ VỀ KHẢ NĂNG TỰ LỰC",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra được những ưu điểm để phát huy, những hạn chế để khắc phục trong tuần học tiếp theo.",
+          "- HS tự đánh giá được khả năng tự thực hiện công việc của bản thân trong học tập và sinh hoạt hằng ngày.",
+          "- HS biết đề xuất biện pháp khắc phục hạn chế, tiếp tục rèn luyện tính tự lực ở nhà và ở trường.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: trao đổi, chia sẻ ý kiến với bạn và thầy cô khi tự đánh giá, nhận xét.",
+          "- Giải quyết vấn đề và sáng tạo: đề xuất được biện pháp cải thiện việc thực hiện công việc cá nhân.",
+          "- Tự chủ và tự học: tự giác nhìn nhận, đánh giá và điều chỉnh hành vi của bản thân.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: có ý thức rèn luyện, nỗ lực học tập và hoàn thiện bản thân qua từng tuần.",
+          "- Trách nhiệm: trung thực trong tự đánh giá; có trách nhiệm với kết quả học tập và việc làm của bản thân.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng tự đánh giá khả năng tự lực, biết nhận ra điểm mạnh, điểm cần cố gắng và đề xuất cách khắc phục phù hợp."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, phiếu nhận xét tuần, tranh SGK.",
+          "- HS: Phiếu việc nhà, kết quả thực hiện nhiệm vụ ở nhà, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -5016,7 +5463,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -5025,8 +5477,8 @@
     "sourceFile": "HĐTN TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY THÀNH LẬP QUÂN ĐỘI NHÂN DÂN VIỆT NAM 22-12",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ chào mừng ngày thành lập Quân đội nhân dân Việt Nam 22-12.",
@@ -5034,51 +5486,20 @@
           "- HS lựa chọn được một việc làm cụ thể để rèn tính tự lập, tự chủ, sẵn sàng đối mặt với khó khăn.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, cổ vũ, chia sẻ ý kiến trước tập thể.",
-          "- HS biết được những nhiệm vụ của mình được phân công ở trường.",
-          "- HS lập được kế hoạch rèn luyện tính tự lực thực hiện nhiệm vụ ở trường.",
-          "- HS biết chia sẻ cách ghi nhớ nhiệm vụ, quản lí thời gian và tìm sự hỗ trợ phù hợp khi gặp khó khăn.",
-          "- Giao tiếp và hợp tác: biết chia sẻ ý kiến, phối hợp với bạn trong thảo luận và thực hiện nhiệm vụ chung.",
-          "- Giải quyết vấn đề và sáng tạo: biết đề xuất cách thực hiện nhiệm vụ, tìm hướng giải quyết khi gặp khó khăn.",
-          "- HS nhận ra được ưu điểm, hạn chế của bản thân và tập thể trong tuần.",
-          "- HS báo cáo được việc tự lực thực hiện nhiệm vụ ở trường theo kế hoạch.",
-          "- HS biết chia sẻ khó khăn, cách vượt qua và ý tưởng sáng tạo trong quá trình thực hiện nhiệm vụ.",
-          "- Giao tiếp và hợp tác: biết chia sẻ, lắng nghe, góp ý tích cực khi bạn báo cáo.",
-          "- Giải quyết vấn đề và sáng tạo: biết đề xuất phương án vượt khó và sáng kiến cải thiện công việc.",
+          "- Tự chủ và tự học: biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ bài học từ bộ đội Cụ Hồ với việc rèn luyện bản thân.",
           "3. Phẩm chất",
           "- Yêu nước: biết kính trọng và biết ơn bộ đội Cụ Hồ.",
           "- Trách nhiệm: thực hiện đúng nền nếp, giữ trật tự và hoàn thành cam kết sau hoạt động.",
           "- Chăm chỉ: tích cực rèn luyện phẩm chất tự lập, kỉ luật.",
           "4. Tích hợp",
-          "- Trong hoạt động: Tích hợp ANQP: HS hiểu ý nghĩa ngày thành lập Quân đội nhân dân Việt Nam, biết kính trọng và học tập phẩm chất kỉ luật, trách nhiệm của bộ đội Cụ Hồ.",
-          "- Chăm chỉ: nỗ lực hoàn thành nhiệm vụ được giao, siêng năng trong học tập và rèn luyện.",
-          "- Trách nhiệm: có ý thức với nhiệm vụ được phân công, biết giữ lời hứa và hoàn thành công việc đúng thời hạn.",
-          "- HĐ2: Tích hợp KNS: HS rèn kĩ năng tự giác phục vụ bản thân với những công việc phù hợp cả ở lớp và ở nhà.",
-          "- Chăm chỉ: tích cực hoàn thành nhiệm vụ đã nhận.",
-          "- Trách nhiệm: trung thực khi báo cáo kết quả, biết trân trọng sự hỗ trợ của người khác.",
-          "- HĐ4: Tích hợp STEM: HS chia sẻ, trưng bày ý tưởng/sản phẩm sáng tạo trong quá trình thực hiện nhiệm vụ; biết vận dụng kiến thức, vật liệu và cách làm phù hợp để vượt khó."
+          "- Trong hoạt động: Tích hợp ANQP: HS hiểu ý nghĩa ngày thành lập Quân đội nhân dân Việt Nam, biết kính trọng và học tập phẩm chất kỉ luật, trách nhiệm của bộ đội Cụ Hồ."
         ],
         "dodung": [
           "- GV: kế hoạch sinh hoạt dưới cờ, âm thanh, tranh ảnh về chú bộ đội, phần giao lưu hoặc kể chuyện.",
-          "- HS: trang phục gọn gàng, tâm thế nghiêm túc, lời chia sẻ nếu được phân công.",
-          "- GV: máy tính, ti vi, tranh SGK, phiếu kế hoạch tự lực thực hiện nhiệm vụ.",
-          "- HS: giấy A4, bút màu, thước, sản phẩm/bông hoa nhiệm vụ.",
-          "- GV: máy tính, ti vi, phiếu nhận xét tuần, thẻ hình trái tim và bóng đèn, khu vực trưng bày sản phẩm STEM.",
-          "- HS: sản phẩm/ý tưởng sáng tạo, kết quả thực hiện nhiệm vụ ở trường."
+          "- HS: trang phục gọn gàng, tâm thế nghiêm túc, lời chia sẻ nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP: VƯỢT KHÓ VÀ SÁNG TẠO",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5138,7 +5559,39 @@
               "- GV giao nhiệm vụ về lớp: chia sẻ lại điều đã học và ghi nhớ cam kết hành động.",
               "- HS thực hiện nhiệm vụ sau hoạt động và chuẩn bị chia sẻ ở tiết sinh hoạt lớp."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ LỰC THỰC HIỆN NHIỆM VỤ Ở TRƯỜNG",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS biết được những nhiệm vụ của mình được phân công ở trường.",
+          "- HS lập được kế hoạch rèn luyện tính tự lực thực hiện nhiệm vụ ở trường.",
+          "- HS biết chia sẻ cách ghi nhớ nhiệm vụ, quản lí thời gian và tìm sự hỗ trợ phù hợp khi gặp khó khăn.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết chia sẻ ý kiến, phối hợp với bạn trong thảo luận và thực hiện nhiệm vụ chung.",
+          "- Giải quyết vấn đề và sáng tạo: biết đề xuất cách thực hiện nhiệm vụ, tìm hướng giải quyết khi gặp khó khăn.",
+          "- Tự chủ và tự học: biết tự đánh giá bản thân, tự điều chỉnh trong quá trình thực hiện kế hoạch rèn luyện.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: nỗ lực hoàn thành nhiệm vụ được giao, siêng năng trong học tập và rèn luyện.",
+          "- Trách nhiệm: có ý thức với nhiệm vụ được phân công, biết giữ lời hứa và hoàn thành công việc đúng thời hạn.",
+          "4. Tích hợp",
+          "- HĐ2: Tích hợp KNS: HS rèn kĩ năng tự giác phục vụ bản thân với những công việc phù hợp cả ở lớp và ở nhà."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, phiếu kế hoạch tự lực thực hiện nhiệm vụ.",
+          "- HS: giấy A4, bút màu, thước, sản phẩm/bông hoa nhiệm vụ."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -5216,7 +5669,39 @@
               "- GV yêu cầu HS thực hiện kế hoạch tự lực trong tuần và chuẩn bị báo cáo ở tiết Sinh hoạt lớp.",
               "- HS lắng nghe, cam kết thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: VƯỢT KHÓ VÀ SÁNG TẠO",
+        "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra được ưu điểm, hạn chế của bản thân và tập thể trong tuần.",
+          "- HS báo cáo được việc tự lực thực hiện nhiệm vụ ở trường theo kế hoạch.",
+          "- HS biết chia sẻ khó khăn, cách vượt qua và ý tưởng sáng tạo trong quá trình thực hiện nhiệm vụ.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết chia sẻ, lắng nghe, góp ý tích cực khi bạn báo cáo.",
+          "- Giải quyết vấn đề và sáng tạo: biết đề xuất phương án vượt khó và sáng kiến cải thiện công việc.",
+          "- Tự chủ và tự học: biết nhìn lại nhiệm vụ đã nhận, tự điều chỉnh cách thực hiện.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực hoàn thành nhiệm vụ đã nhận.",
+          "- Trách nhiệm: trung thực khi báo cáo kết quả, biết trân trọng sự hỗ trợ của người khác.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp STEM: HS chia sẻ, trưng bày ý tưởng/sản phẩm sáng tạo trong quá trình thực hiện nhiệm vụ; biết vận dụng kiến thức, vật liệu và cách làm phù hợp để vượt khó."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, phiếu nhận xét tuần, thẻ hình trái tim và bóng đèn, khu vực trưng bày sản phẩm STEM.",
+          "- HS: sản phẩm/ý tưởng sáng tạo, kết quả thực hiện nhiệm vụ ở trường."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -5339,7 +5824,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -5348,8 +5838,8 @@
     "sourceFile": "HĐTN TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-        "topic": "",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: KỈ NIỆM GIA ĐÌNH",
+        "topic": "CHỦ ĐỀ 5: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ với chủ đề kỉ niệm gia đình.",
@@ -5357,52 +5847,18 @@
           "- HS lựa chọn được một việc làm để góp phần gắn kết yêu thương trong gia đình.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, cổ vũ, chia sẻ ý kiến trước tập thể.",
-          "- HS hiểu được ý nghĩa của việc kết nối các thành viên trong gia đình.",
-          "- HS đưa ra được những ý tưởng và việc làm tạo ra sự gắn kết, yêu thương trong gia đình.",
-          "- HS biết chia sẻ cảm xúc sau khi tham gia hoạt động chung với người thân.",
-          "- Giao tiếp và hợp tác: biết chia sẻ, lắng nghe, phối hợp với bạn khi thảo luận.",
-          "- Giải quyết vấn đề và sáng tạo: biết đề xuất việc làm cụ thể để gắn kết gia đình.",
-          "- Tự chủ và tự học: biết lựa chọn việc làm phù hợp với bản thân và gia đình.",
-          "3. Phẩm chất",
-          "- Nhân ái: yêu thương, quan tâm, chia sẻ với người thân.",
-          "- Trách nhiệm: biết góp phần xây dựng không khí gia đình vui vẻ, đầm ấm.",
-          "- Chăm chỉ: tích cực thực hiện việc làm phù hợp để giúp gia đình.",
-          "4. Tích hợp",
-          "- HĐ2: Tích hợp QCN: HS hiểu quyền được đoàn tụ, liên hệ và tiếp xúc với cha mẹ; biết trân trọng sự gắn bó giữa các thành viên trong gia đình.",
-          "- HS nhận ra được ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
-          "- HS chia sẻ cảm xúc sau khi thực hiện một hoạt động tạo sự gắn kết yêu thương.",
-          "- HS lập được kế hoạch cho “Ngày cuối tuần yêu thương” của gia đình.",
-          "- Giao tiếp và hợp tác: biết trao đổi, chia sẻ ý kiến với bạn khi lập kế hoạch.",
-          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn hoạt động phù hợp, dự kiến cách tổ chức.",
-          "- Tự chủ và tự học: chủ động chuẩn bị và thực hiện kế hoạch cùng người thân.",
-          "- Nhân ái: biết quan tâm, yêu thương và chia sẻ với người thân.",
-          "- Trách nhiệm: biết thực hiện phần việc của mình trong kế hoạch gia đình.",
-          "- Chăm chỉ: tích cực tham gia các hoạt động chung.",
-          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng lập kế hoạch cho ngày cuối tuần yêu thương, biết trao đổi với người thân và lựa chọn hoạt động gắn kết phù hợp.",
+          "- Tự chủ và tự học: biết giữ trật tự, tự điều chỉnh hành vi khi tham gia hoạt động chung.",
           "- Giải quyết vấn đề và sáng tạo: biết liên hệ nội dung hoạt động với việc làm cụ thể trong gia đình.",
+          "3. Phẩm chất",
           "- Nhân ái: yêu thương, quan tâm người thân trong gia đình.",
-          "- Trách nhiệm: có ý thức chia sẻ công việc và tạo niềm vui cho gia đình."
+          "- Trách nhiệm: có ý thức chia sẻ công việc và tạo niềm vui cho gia đình.",
+          "- Chăm chỉ: tích cực tham gia các hoạt động chung."
         ],
         "dodung": [
           "- GV: kế hoạch sinh hoạt dưới cờ, âm thanh, tranh ảnh hoặc sản phẩm minh họa chủ đề.",
-          "- HS: trang phục gọn gàng, tâm thế vui tươi, câu chuyện/kỉ niệm gia đình nếu được phân công.",
-          "- GV: máy tính, ti vi, sợi dây ruy băng hoặc len, tranh SGK.",
-          "- HS: giấy A4, bút màu, một kỉ niệm hoặc việc làm chung của gia đình.",
-          "- GV: máy tính, ti vi, tranh SGK, mẫu kế hoạch “Ngày cuối tuần yêu thương”.",
-          "- HS: sản phẩm/tranh/ảnh/thơ ca về hoạt động chung của gia đình, giấy A4, bút màu."
+          "- HS: trang phục gọn gàng, tâm thế vui tươi, câu chuyện/kỉ niệm gia đình nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5450,7 +5906,40 @@
               "- GV giao nhiệm vụ về lớp: chia sẻ lại điều đã học và ghi nhớ cam kết hành động.",
               "- HS thực hiện nhiệm vụ sau hoạt động và chuẩn bị chia sẻ ở tiết sinh hoạt lớp."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GẮN KẾT YÊU THƯƠNG",
+        "topic": "CHỦ ĐỀ 5: MÁI ẤM GIA ĐÌNH",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS hiểu được ý nghĩa của việc kết nối các thành viên trong gia đình.",
+          "- HS đưa ra được những ý tưởng và việc làm tạo ra sự gắn kết, yêu thương trong gia đình.",
+          "- HS biết chia sẻ cảm xúc sau khi tham gia hoạt động chung với người thân.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết chia sẻ, lắng nghe, phối hợp với bạn khi thảo luận.",
+          "- Giải quyết vấn đề và sáng tạo: biết đề xuất việc làm cụ thể để gắn kết gia đình.",
+          "- Tự chủ và tự học: biết lựa chọn việc làm phù hợp với bản thân và gia đình.",
+          "3. Phẩm chất",
+          "- Nhân ái: yêu thương, quan tâm, chia sẻ với người thân.",
+          "- Trách nhiệm: biết góp phần xây dựng không khí gia đình vui vẻ, đầm ấm.",
+          "- Chăm chỉ: tích cực thực hiện việc làm phù hợp để giúp gia đình.",
+          "4. Tích hợp",
+          "- HĐ2: Tích hợp QCN: HS hiểu quyền được đoàn tụ, liên hệ và tiếp xúc với cha mẹ; biết trân trọng sự gắn bó giữa các thành viên trong gia đình."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, sợi dây ruy băng hoặc len, tranh SGK.",
+          "- HS: giấy A4, bút màu, một kỉ niệm hoặc việc làm chung của gia đình."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -5532,7 +6021,40 @@
               "- GV nhận xét tiết học, khích lệ HS thể hiện tình yêu thương với gia đình bằng hành động.",
               "- HS lắng nghe và cam kết thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: NGÀY CUỐI TUẦN YÊU THƯƠNG",
+        "topic": "CHỦ ĐỀ 5: MÁI ẤM GIA ĐÌNH",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra được ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
+          "- HS chia sẻ cảm xúc sau khi thực hiện một hoạt động tạo sự gắn kết yêu thương.",
+          "- HS lập được kế hoạch cho “Ngày cuối tuần yêu thương” của gia đình.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết trao đổi, chia sẻ ý kiến với bạn khi lập kế hoạch.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn hoạt động phù hợp, dự kiến cách tổ chức.",
+          "- Tự chủ và tự học: chủ động chuẩn bị và thực hiện kế hoạch cùng người thân.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết quan tâm, yêu thương và chia sẻ với người thân.",
+          "- Trách nhiệm: biết thực hiện phần việc của mình trong kế hoạch gia đình.",
+          "- Chăm chỉ: tích cực tham gia các hoạt động chung.",
+          "4. Tích hợp",
+          "- HĐ4: Tích hợp KNS: HS rèn kĩ năng lập kế hoạch cho ngày cuối tuần yêu thương, biết trao đổi với người thân và lựa chọn hoạt động gắn kết phù hợp."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, mẫu kế hoạch “Ngày cuối tuần yêu thương”.",
+          "- HS: sản phẩm/tranh/ảnh/thơ ca về hoạt động chung của gia đình, giấy A4, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -5659,7 +6181,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -5668,7 +6195,7 @@
     "sourceFile": "HĐTN TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "TUẦN 18 - TIẾT 1\nSINH HOẠT DƯỚI CỜ: BIẾT ƠN NGƯỜI THÂN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5682,32 +6209,13 @@
           "3. Phẩm chất",
           "- Nhân ái: Biết yêu thương, quan tâm, chia sẻ với người thân, bạn bè.",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
-          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
-          "- Chia sẻ được việc thực hiện kế hoạch “Ngày cuối tuần yêu thương”.",
-          "- Kể lại được khoảnh khắc hạnh phúc bên gia đình.",
-          "- Đề xuất được ý tưởng tổ chức hoạt động chung của gia đình và biết thuyết phục người thân bằng lời nói lễ phép.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng – đạo đức – lối sống: Giúp HS chăm học, tự giác làm việc tốt, yêu thương và gắn kết gia đình để trở thành người có ích.",
-          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
-          "- Chia sẻ được khoảnh khắc hạnh phúc khi cùng người thân thực hiện hoạt động chung.",
-          "- Thiết kế được góc triển lãm “Những khoảnh khắc hạnh phúc của gia đình em”.",
-          "- Tích hợp KNS: HS rèn kĩ năng chia sẻ cảm xúc tích cực, biết trân trọng khoảnh khắc hạnh phúc trong gia đình và thể hiện tình yêu thương bằng lời nói, việc làm cụ thể."
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể."
         ],
         "dodung": [
           "- GV: kế hoạch sinh hoạt dưới cờ, âm thanh, nội dung tiểu phẩm, tranh SGK.",
-          "- HS: trang phục đúng quy định, tâm thế nghiêm túc, chuẩn bị lời chia sẻ ngắn.",
-          "- GV: máy tính, ti vi, tranh SGK, giấy A0, bút màu.",
-          "- HS: SGK, vở ghi, giấy A4, bút màu.",
-          "- GV: máy tính, ti vi, tranh SGK, phiếu nhận xét tuần, giấy A0.",
-          "- HS: sản phẩm/bài viết/tranh ảnh về khoảnh khắc gia đình, giấy A4, bút màu."
+          "- HS: trang phục đúng quy định, tâm thế nghiêm túc, chuẩn bị lời chia sẻ ngắn."
         ],
-        "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-          "TUẦN 18 - TIẾT 2HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ĐỒNG HÀNH BÊN NHAU",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-          "TUẦN 18 - TIẾT 3SINH HOẠT LỚP: NHỮNG KHOẢNH KHẮC HẠNH PHÚC"
-        ],
-        "dieuchinh": [],
+        "activities": [],
         "tables": [
           [
             [
@@ -5733,7 +6241,7 @@
               "- HS thực hiện nghi lễ nghiêm túc, lắng nghe nhận xét thi đua.\n- HS thực hiện nghi lễ nghiêm túc, hát rõ lời, đúng tư thế.\n- HS nêu: thể hiện lòng yêu nước, ý thức kỉ luật và trách nhiệm với tập thể.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
-              "- GV tổ chức/nhắc HS xem tiểu phẩm “Gia đình yêu thương”; yêu cầu chú ý hành vi biết ơn, lời nói lễ phép và cách quan tâm người thân.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi thêm: “Trong gia đình, ai thường âm thầm chăm sóc em? Em đã từng nói lời cảm ơn người ấy chưa?”.\n- GV gợi ý HS chọn việc làm vừa sức: phụ dọn bàn, hỏi thăm ông bà, tự chuẩn bị đồ dùng học tập, nói lời yêu thương.",
+              "- GV tổ chức/nhắc HS xem tiểu phẩm “Gia đình yêu thương”; yêu cầu chú ý hành vi biết ơn, lời nói lễ phép và cách quan tâm người thân.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi thêm: “Trong gia đình, ai thường âm thầm chăm sóc em? Em đã từng nói lời cảm ơn người ấy chưa?”.\n- GV gợi ý HS chọn việc làm vừa sức: phụ dọn bàn, hỏi thăm ông bà, tự chuẩn bị đồ dùng học tập, nói lời yêu thương.",
               "- HS theo dõi tiểu phẩm, cổ vũ lịch sự, không chen lấn hoặc nói chuyện riêng.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS kể tên người thân và nêu một việc làm biết ơn cụ thể.\n- HS chọn việc làm phù hợp với khả năng của mình."
             ],
             [
@@ -5751,7 +6259,35 @@
               "- GV chốt thông điệp: Biết ơn người thân cần được thể hiện bằng lời nói lễ phép và việc làm cụ thể hằng ngày.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS ghi nhớ thông điệp và cam kết thực hiện.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "TUẦN 18 - TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ĐỒNG HÀNH BÊN NHAU",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Chia sẻ được việc thực hiện kế hoạch “Ngày cuối tuần yêu thương”.",
+          "- Kể lại được khoảnh khắc hạnh phúc bên gia đình.",
+          "- Đề xuất được ý tưởng tổ chức hoạt động chung của gia đình và biết thuyết phục người thân bằng lời nói lễ phép.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí tình huống phù hợp, sáng tạo.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, tự đánh giá việc làm của bản thân.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, quan tâm, chia sẻ với người thân, bạn bè.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng – đạo đức – lối sống: Giúp HS chăm học, tự giác làm việc tốt, yêu thương và gắn kết gia đình để trở thành người có ích."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, giấy A0, bút màu.",
+          "- HS: SGK, vở ghi, giấy A4, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -5776,7 +6312,7 @@
               "- HS chia sẻ trong nhóm: gia đình em đi thăm ông bà, dọn nhà, nấu ăn, đi công viên.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS kể tên người thân và nêu một việc làm biết ơn cụ thể.\n- HS chọn việc làm phù hợp với khả năng của mình."
             ],
             [
-              "- GV chiếu tranh gợi ý, mời HS nêu hoạt động thú vị học được từ bạn.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV chiếu tranh gợi ý, mời HS nêu hoạt động thú vị học được từ bạn.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS nêu hoạt động muốn học hỏi và bổ sung vào danh mục của lớp.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -5795,7 +6331,7 @@
               "3. MỞ RỘNG VÀ TỔNG KẾT CHỦ ĐỀ: Sắm vai xử lí tình huống\nMục tiêu: HS hợp tác nhóm, sắm vai đề xuất hoạt động chung và thuyết phục người thân bằng lời nói mềm mỏng.\n* Cách tiến hành:"
             ],
             [
-              "- GV chia nhóm, cho đại diện bốc thăm tình huống tổ chức hoạt động chung cho gia đình.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi thêm: “Trong gia đình, ai thường âm thầm chăm sóc em? Em đã từng nói lời cảm ơn người ấy chưa?”.\n- GV gợi ý HS chọn việc làm vừa sức: phụ dọn bàn, hỏi thăm ông bà, tự chuẩn bị đồ dùng học tập, nói lời yêu thương.",
+              "- GV chia nhóm, cho đại diện bốc thăm tình huống tổ chức hoạt động chung cho gia đình.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi thêm: “Trong gia đình, ai thường âm thầm chăm sóc em? Em đã từng nói lời cảm ơn người ấy chưa?”.\n- GV gợi ý HS chọn việc làm vừa sức: phụ dọn bàn, hỏi thăm ông bà, tự chuẩn bị đồ dùng học tập, nói lời yêu thương.",
               "- HS nhận tình huống, phân vai ông bà, bố mẹ, con và thảo luận lời thoại.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS kể tên người thân và nêu một việc làm biết ơn cụ thể.\n- HS chọn việc làm phù hợp với khả năng của mình."
             ],
             [
@@ -5813,7 +6349,35 @@
               "- GV đề nghị HS cùng người thân lựa chọn một địa điểm hoặc hoạt động phù hợp để thực hiện.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS cam kết thực hiện và chia sẻ lại trong tiết Sinh hoạt lớp.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "TUẦN 18 - TIẾT 3\nSINH HOẠT LỚP: NHỮNG KHOẢNH KHẮC HẠNH PHÚC",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
+          "- Chia sẻ được khoảnh khắc hạnh phúc khi cùng người thân thực hiện hoạt động chung.",
+          "- Thiết kế được góc triển lãm “Những khoảnh khắc hạnh phúc của gia đình em”.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí tình huống phù hợp, sáng tạo.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, tự đánh giá việc làm của bản thân.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, quan tâm, chia sẻ với người thân, bạn bè.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
+          "4. Tích hợp",
+          "- Tích hợp KNS: HS rèn kĩ năng chia sẻ cảm xúc tích cực, biết trân trọng khoảnh khắc hạnh phúc trong gia đình và thể hiện tình yêu thương bằng lời nói, việc làm cụ thể."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, phiếu nhận xét tuần, giấy A0.",
+          "- HS: sản phẩm/bài viết/tranh ảnh về khoảnh khắc gia đình, giấy A4, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -5882,7 +6446,7 @@
               "4. HOẠT ĐỘNG NHÓM: Thiết kế góc triển lãm “Những khoảnh khắc hạnh phúc của gia đình em”\nMục tiêu: HS hợp tác thiết kế góc triển lãm từ sản phẩm đã chuẩn bị.\n* Cách tiến hành:"
             ],
             [
-              "- GV tổ chức HS ngồi theo tổ, tổng hợp sản phẩm và lên ý tưởng trang trí góc triển lãm.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV tổ chức HS ngồi theo tổ, tổng hợp sản phẩm và lên ý tưởng trang trí góc triển lãm.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS phân công dán sản phẩm, viết tiêu đề, trang trí góc triển lãm.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -5898,7 +6462,7 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": []
       }
     ]
   },
@@ -5907,7 +6471,7 @@
     "sourceFile": "HĐTN TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "TUẦN 19 - TIẾT 1\nSINH HOẠT DƯỚI CỜ: ĐÓN TẾT BÊN NGƯỜI THÂN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5923,32 +6487,13 @@
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
           "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
           "4. Tích hợp",
-          "- Tích hợp QCN: HS biết quyền được sống trong gia đình, được yêu thương; biết trân trọng, chia sẻ việc nhà và giữ gìn truyền thống gia đình ngày Tết.",
-          "- Biết được nguồn thu cho khoản tiền tiết kiệm cá nhân và lập kế hoạch chi tiêu số tiền tiết kiệm.",
-          "- Lựa chọn được món đồ phù hợp với nhu cầu của bản thân và số tiền mình có.",
-          "- Biết cân nhắc trước khi mua để tránh chi tiêu lãng phí.",
-          "- Tích hợp NLS 5.2.CB1a: HS lập kế hoạch sử dụng tiền tiết kiệm bằng bảng đơn giản; biết so sánh giá và lựa chọn nhu cầu phù hợp.",
-          "- Tích hợp AI (4.A2.1): AI giúp cuộc sống tốt đẹp và tiện nghi hơn; GV giới thiệu ứng dụng quản lí tài chính có AI giúp phân tích khoản thu/chi và gợi ý tiết kiệm hiệu quả.",
-          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
-          "- Biết xác định nhu cầu thật sự khi lựa chọn mua một món đồ.",
-          "- Biết cân nhắc tiêu chí cần – muốn – có thể để chi tiêu tiết kiệm, hợp lí.",
-          "- Tích hợp lý tưởng cách mạng – đạo đức – lối sống: HS biết cân nhắc khi chi tiêu, không đua đòi; biết tiết kiệm để chia sẻ với gia đình và cộng đồng."
+          "- Tích hợp QCN: HS biết quyền được sống trong gia đình, được yêu thương; biết trân trọng, chia sẻ việc nhà và giữ gìn truyền thống gia đình ngày Tết."
         ],
         "dodung": [
           "- GV: kế hoạch SHDC, âm thanh, tranh SGK, câu hỏi chia sẻ.",
-          "- HS: trang phục gọn gàng, chuẩn bị một hoạt động đón Tết của gia đình để chia sẻ.",
-          "- GV: máy tính, ti vi, tranh SGK, bảng kế hoạch chi tiêu mẫu.",
-          "- HS: giấy A4, bút màu, thông tin về món đồ muốn mua.",
-          "- GV: máy tính, ti vi, tranh SGK, phiếu/bảng tiêu chí cần – muốn – có thể.",
-          "- HS: bảng khảo sát giá, giấy A4, bút màu."
+          "- HS: trang phục gọn gàng, chuẩn bị một hoạt động đón Tết của gia đình để chia sẻ."
         ],
-        "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-          "TUẦN 19 - TIẾT 2HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỬ DỤNG TIỀN TIẾT KIỆM CÁ NHÂN",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-          "TUẦN 19 - TIẾT 3SINH HOẠT LỚP: LỰA CHỌN CHI TIÊU “CẦN, MUỐN VÀ CÓ THỂ”"
-        ],
-        "dieuchinh": [],
+        "activities": [],
         "tables": [
           [
             [
@@ -5974,7 +6519,7 @@
               "- HS tham gia nghi lễ nghiêm túc, lắng nghe nhận xét.\n- HS thực hiện nghi lễ nghiêm túc, hát rõ lời, đúng tư thế.\n- HS nêu: thể hiện lòng yêu nước, ý thức kỉ luật và trách nhiệm với tập thể.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
-              "- GV tổ chức HS xem/ tham gia hoạt cảnh về đón Tết; nhắc HS quan sát việc làm thể hiện sự yêu thương trong gia đình.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV tổ chức HS xem/ tham gia hoạt cảnh về đón Tết; nhắc HS quan sát việc làm thể hiện sự yêu thương trong gia đình.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS theo dõi, cổ vũ lịch sự, ghi nhớ chi tiết ấn tượng.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -5996,7 +6541,36 @@
               "- GV nhận xét và dặn HS thực hiện việc làm đã chọn.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS lắng nghe, ghi nhớ.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "TUẦN 19 - TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỬ DỤNG TIỀN TIẾT KIỆM CÁ NHÂN",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Biết được nguồn thu cho khoản tiền tiết kiệm cá nhân và lập kế hoạch chi tiêu số tiền tiết kiệm.",
+          "- Lựa chọn được món đồ phù hợp với nhu cầu của bản thân và số tiền mình có.",
+          "- Biết cân nhắc trước khi mua để tránh chi tiêu lãng phí.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí tình huống phù hợp, sáng tạo.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, tự đánh giá việc làm của bản thân.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, quan tâm, chia sẻ với người thân, bạn bè.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 5.2.CB1a: HS lập kế hoạch sử dụng tiền tiết kiệm bằng bảng đơn giản; biết so sánh giá và lựa chọn nhu cầu phù hợp.",
+          "- Tích hợp AI (4.A2.1): AI giúp cuộc sống tốt đẹp và tiện nghi hơn; GV giới thiệu ứng dụng quản lí tài chính có AI giúp phân tích khoản thu/chi và gợi ý tiết kiệm hiệu quả."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, bảng kế hoạch chi tiêu mẫu.",
+          "- HS: giấy A4, bút màu, thông tin về món đồ muốn mua."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -6017,7 +6591,7 @@
               "2. KHÁM PHÁ CHỦ ĐỀ: Chia sẻ nguồn tiền tiết kiệm\nMục tiêu: HS kể được nguồn tiền tiết kiệm và bước đầu biết lập kế hoạch chi tiêu.\n- Mục tiêu tích hợp: Tích hợp AI (4.A2.1): HS biết AI có thể hỗ trợ phân tích khoản thu/chi và gợi ý tiết kiệm, nhưng quyết định chi tiêu phải do con người cân nhắc.\n* Cách tiến hành:"
             ],
             [
-              "- GV mời HS chia sẻ theo cặp về các nguồn tiền tiết kiệm của em.\n\n- GV hướng dẫn HS chia sẻ theo 3 ý: việc đã làm, cảm xúc khi thực hiện, bài học rút ra.\n- GV gợi hỏi: “Nếu làm lại, em sẽ giữ điều gì và thay đổi điều gì để kết quả tốt hơn?”.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi thêm: “Theo em, tiền tiết kiệm nên dùng cho việc gì trước: cần thiết hay thích nhất? Vì sao?”.\n- GV hướng dẫn HS dùng bảng ba cột: Món muốn mua – Lí do – Có thật sự cần không.",
+              "- GV mời HS chia sẻ theo cặp về các nguồn tiền tiết kiệm của em.\n- GV hướng dẫn HS chia sẻ theo 3 ý: việc đã làm, cảm xúc khi thực hiện, bài học rút ra.\n- GV gợi hỏi: “Nếu làm lại, em sẽ giữ điều gì và thay đổi điều gì để kết quả tốt hơn?”.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi thêm: “Theo em, tiền tiết kiệm nên dùng cho việc gì trước: cần thiết hay thích nhất? Vì sao?”.\n- GV hướng dẫn HS dùng bảng ba cột: Món muốn mua – Lí do – Có thật sự cần không.",
               "- HS kể: tiền mừng tuổi, tiền ông bà cho, tiền bán giấy vụn, tiền thưởng.\n- HS chia sẻ đủ 3 ý, nói rõ ràng, lễ phép.\n- HS nêu điều muốn giữ lại và điều cần điều chỉnh.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS nêu ý kiến và giải thích bằng lí do phù hợp.\n- HS biết phân loại nhu cầu cần, muốn và có thể."
             ],
             [
@@ -6044,7 +6618,7 @@
               "- HS vẽ bông hoa kế hoạch chi tiêu cá nhân.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
-              "- GV yêu cầu HS lập bảng so sánh giá món đồ ở cửa hàng gần nhà, gần trường hoặc chợ gần nhà.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV yêu cầu HS lập bảng so sánh giá món đồ ở cửa hàng gần nhà, gần trường hoặc chợ gần nhà.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS hoàn thiện bảng, nêu lý do chọn hoặc không chọn món đồ.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6066,7 +6640,35 @@
               "- GV giao nhiệm vụ: về nhà cùng người thân tìm hiểu giá món đồ em thật sự muốn mua và ghi vào bảng.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS lắng nghe, ghi nhớ nhiệm vụ.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "TUẦN 19 - TIẾT 3\nSINH HOẠT LỚP: LỰA CHỌN CHI TIÊU “CẦN, MUỐN VÀ CÓ THỂ”",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
+          "- Biết xác định nhu cầu thật sự khi lựa chọn mua một món đồ.",
+          "- Biết cân nhắc tiêu chí cần – muốn – có thể để chi tiêu tiết kiệm, hợp lí.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí tình huống phù hợp, sáng tạo.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, tự đánh giá việc làm của bản thân.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, quan tâm, chia sẻ với người thân, bạn bè.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng – đạo đức – lối sống: HS biết cân nhắc khi chi tiêu, không đua đòi; biết tiết kiệm để chia sẻ với gia đình và cộng đồng."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, phiếu/bảng tiêu chí cần – muốn – có thể.",
+          "- HS: bảng khảo sát giá, giấy A4, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -6108,7 +6710,7 @@
               "- HS trình bày bảng khảo sát và lắng nghe góp ý.\n- HS chia sẻ đủ 3 ý, nói rõ ràng, lễ phép.\n- HS nêu điều muốn giữ lại và điều cần điều chỉnh.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
-              "- GV chiếu tiêu chí: Đồ vật đó có thật sự cần thiết không? Có đủ tiền mua hay không? Có nên mua ngay không?\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV chiếu tiêu chí: Đồ vật đó có thật sự cần thiết không? Có đủ tiền mua hay không? Có nên mua ngay không?\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS phân tích theo tiêu chí cần – muốn – có thể.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6131,7 +6733,7 @@
               "- HS thảo luận, ghi ý chính.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS biết tính toán đơn giản trước khi mua.\n- HS nêu được tiêu chí lựa chọn: cần thiết, giá phù hợp, chất lượng."
             ],
             [
-              "- GV mời nhóm trình bày sơ đồ tài chính gia đình.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV mời nhóm trình bày sơ đồ tài chính gia đình.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- Đại diện nhóm trình bày; nhóm khác nhận xét.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6147,7 +6749,7 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": []
       }
     ]
   },
@@ -6156,7 +6758,7 @@
     "sourceFile": "HĐTN TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "TUẦN 20 - TIẾT 1\nSINH HOẠT DƯỚI CỜ: CHÀO XUÂN MỚI",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6172,31 +6774,13 @@
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
           "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
           "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng – đạo đức – lối sống: HS yêu quý nét đẹp ngày Tết, biết giữ gìn truyền thống văn hóa và ứng xử văn minh khi tham gia hoạt động tập thể.",
-          "- Biết cách ghi chép và theo dõi các nguồn thu, chi cá nhân/gia đình.",
-          "- Xác định được mặt hàng muốn mua phù hợp khả năng tài chính cá nhân và gia đình.",
-          "- Thực hành thảo luận phương án mua sắm tiết kiệm, hợp lí.",
-          "- Tích hợp NLS 5.2.CB1a: HS lập sơ đồ các khoản thu – chi trong gia đình; GV có thể dùng AI gợi ý tình huống mua sắm để HS thảo luận cách chi tiêu tiết kiệm.",
-          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
-          "- Chia sẻ được trải nghiệm khi đi mua sắm cùng người thân.",
-          "- Biết cân nhắc khi mua sắm để đảm bảo chi tiêu tiết kiệm cho gia đình.",
-          "- Tích hợp NLS 1.2.CB1a, 4.1.CB1b: HS biết kiểm tra thông tin giá, nguồn gốc sản phẩm; không mua hàng theo quảng cáo không rõ nguồn trên mạng."
+          "- Tích hợp lý tưởng cách mạng – đạo đức – lối sống: HS yêu quý nét đẹp ngày Tết, biết giữ gìn truyền thống văn hóa và ứng xử văn minh khi tham gia hoạt động tập thể."
         ],
         "dodung": [
           "- GV: âm thanh, chương trình hội diễn, tranh SGK, câu hỏi chia sẻ.",
-          "- HS: trang phục gọn gàng, chuẩn bị tiết mục nếu được phân công.",
-          "- GV: máy tính, ti vi, tranh SGK, phiếu tình huống mua sắm, bảng/sơ đồ thu chi.",
-          "- HS: SGK, VBT, bút màu, giấy A4.",
-          "- GV: máy tính, ti vi, tranh SGK, thẻ sản phẩm, phiếu nhận xét tuần.",
-          "- HS: chuẩn bị theo nhóm 2 món đồ có công dụng giống nhau nhưng khác mẫu mã/nơi sản xuất."
+          "- HS: trang phục gọn gàng, chuẩn bị tiết mục nếu được phân công."
         ],
-        "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-          "TUẦN 20 - TIẾT 2HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHI TIÊU TIẾT KIỆM TRONG GIA ĐÌNH",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-          "TUẦN 20 - TIẾT 3SINH HOẠT LỚP: MUA SẮM THÔNG MINH"
-        ],
-        "dieuchinh": [],
+        "activities": [],
         "tables": [
           [
             [
@@ -6218,7 +6802,7 @@
               "- HS tham gia nghi lễ nghiêm túc, lắng nghe.\n- HS thực hiện nghi lễ nghiêm túc, hát rõ lời, đúng tư thế.\n- HS nêu: thể hiện lòng yêu nước, ý thức kỉ luật và trách nhiệm với tập thể.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
-              "- GV tổ chức HS xem/ tham gia hội diễn văn nghệ “Mùa xuân”; nhắc HS vỗ tay đúng lúc, không la hét, không chê bai.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV tổ chức HS xem/ tham gia hội diễn văn nghệ “Mùa xuân”; nhắc HS vỗ tay đúng lúc, không la hét, không chê bai.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS cổ vũ lịch sự, tôn trọng người biểu diễn.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6240,7 +6824,35 @@
               "- GV dặn HS giữ vệ sinh, nề nếp và chuẩn bị cho tiết học chủ đề.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS ghi nhớ.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "TUẦN 20 - TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHI TIÊU TIẾT KIỆM TRONG GIA ĐÌNH",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Biết cách ghi chép và theo dõi các nguồn thu, chi cá nhân/gia đình.",
+          "- Xác định được mặt hàng muốn mua phù hợp khả năng tài chính cá nhân và gia đình.",
+          "- Thực hành thảo luận phương án mua sắm tiết kiệm, hợp lí.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí tình huống phù hợp, sáng tạo.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, tự đánh giá việc làm của bản thân.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, quan tâm, chia sẻ với người thân, bạn bè.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 5.2.CB1a: HS lập sơ đồ các khoản thu – chi trong gia đình; GV có thể dùng AI gợi ý tình huống mua sắm để HS thảo luận cách chi tiêu tiết kiệm."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, phiếu tình huống mua sắm, bảng/sơ đồ thu chi.",
+          "- HS: SGK, VBT, bút màu, giấy A4."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -6265,7 +6877,7 @@
               "- HS chia sẻ theo nhóm, phân biệt khoản thu và khoản chi.\n- HS chia sẻ đủ 3 ý, nói rõ ràng, lễ phép.\n- HS nêu điều muốn giữ lại và điều cần điều chỉnh.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
-              "- GV chiếu sơ đồ tài chính gia đình, hướng dẫn cách chia nhánh: các khoản thu, các khoản chi, khoản tiết kiệm.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV chiếu sơ đồ tài chính gia đình, hướng dẫn cách chia nhánh: các khoản thu, các khoản chi, khoản tiết kiệm.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS quan sát, ghi ý chính và thực hành lập sơ đồ.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6292,7 +6904,7 @@
               "- HS nghe tình huống, thảo luận, không sao chép máy móc gợi ý của AI mà tự tính và quyết định.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS nêu: xem đánh giá, lượt mua, phản hồi, không bấm link lạ, không đưa mật khẩu/OTP.\n- HS biết so sánh tổng chi phí và độ uy tín trước khi chọn."
             ],
             [
-              "- GV chiếu tranh SGK, yêu cầu nhóm so sánh giá và trình bày lựa chọn.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV chiếu tranh SGK, yêu cầu nhóm so sánh giá và trình bày lựa chọn.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- Đại diện nhóm trình bày lí do chọn mặt hàng phù hợp nhất.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6306,7 +6918,35 @@
               "- GV đề nghị HS cùng người thân đi mua sắm các mặt hàng phù hợp, ghi lại một điều em học được về tiết kiệm.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi: “Khi mua online, em cần kiểm tra những thông tin nào để tránh bị lừa?”.\n- GV minh hoạ cách so sánh: giá sản phẩm + phí giao hàng + đánh giá người bán + chính sách đổi trả.",
               "- HS lắng nghe, thực hiện.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS nêu: xem đánh giá, lượt mua, phản hồi, không bấm link lạ, không đưa mật khẩu/OTP.\n- HS biết so sánh tổng chi phí và độ uy tín trước khi chọn."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "TUẦN 20 - TIẾT 3\nSINH HOẠT LỚP: MUA SẮM THÔNG MINH",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
+          "- Chia sẻ được trải nghiệm khi đi mua sắm cùng người thân.",
+          "- Biết cân nhắc khi mua sắm để đảm bảo chi tiêu tiết kiệm cho gia đình.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí tình huống phù hợp, sáng tạo.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, tự đánh giá việc làm của bản thân.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, quan tâm, chia sẻ với người thân, bạn bè.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.2.CB1a, 4.1.CB1b: HS biết kiểm tra thông tin giá, nguồn gốc sản phẩm; không mua hàng theo quảng cáo không rõ nguồn trên mạng."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, thẻ sản phẩm, phiếu nhận xét tuần.",
+          "- HS: chuẩn bị theo nhóm 2 món đồ có công dụng giống nhau nhưng khác mẫu mã/nơi sản xuất."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -6348,7 +6988,7 @@
               "- HS chia sẻ trải nghiệm mua sắm cùng người thân.\n- HS chia sẻ đủ 3 ý, nói rõ ràng, lễ phép.\n- HS nêu điều muốn giữ lại và điều cần điều chỉnh.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
-              "- GV chiếu tranh SGK, yêu cầu HS so sánh hai sản phẩm có công dụng giống nhau nhưng khác giá/mẫu mã.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV chiếu tranh SGK, yêu cầu HS so sánh hai sản phẩm có công dụng giống nhau nhưng khác giá/mẫu mã.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS nêu yếu tố cần cân nhắc: chất lượng, giá, nơi sản xuất, nhu cầu.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6383,7 +7023,7 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": []
       }
     ]
   },
@@ -6392,7 +7032,7 @@
     "sourceFile": "HĐTN TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "TUẦN 21 - TIẾT 1\nSINH HOẠT DƯỚI CỜ: KHỎE THỂ CHẤT - MẠNH TINH THẦN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6408,32 +7048,13 @@
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
           "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
           "4. Tích hợp",
-          "- Tích hợp QCN: HS nhận biết quyền được bảo vệ an toàn về thân thể, tinh thần; biết tìm kiếm sự hỗ trợ khi cảm thấy không an toàn.",
-          "- Nhận biết được hành vi xâm hại trẻ em và phân biệt xâm hại thân thể, tinh thần, tình dục.",
-          "- Nêu được tổn thương mà trẻ em có thể phải chịu đựng khi bị xâm hại.",
-          "- Biết cách nói “không”, rời khỏi nơi nguy hiểm và báo người lớn tin cậy/tổng đài 111.",
-          "- Tích hợp ANQP: HS nhận diện hành vi xâm hại trẻ em; biết nói “không”, rời khỏi nơi nguy hiểm và báo người lớn tin cậy/tổng đài 111.",
-          "- Tích hợp AI (4.A3.1): Con người quyết định khi dùng AI vì sự an toàn; tìm hiểu camera an ninh tích hợp AI phát hiện hành vi lạ, đồng thời nhấn mạnh HS phải tự bảo vệ thông tin cá nhân trên mạng để tránh bị lợi dụng.",
-          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
-          "- Xác định được tình huống có nguy cơ bị xâm hại và mức độ nguy hiểm để cảnh giác.",
-          "- Chia sẻ được cảm xúc sau khi trao đổi cùng người thân và biết thông báo với người lớn.",
-          "- Tích hợp NLS 4.1.CB1b: HS nhận biết rủi ro khi nhận tin nhắn, hình ảnh, lời mời lạ trên mạng; không chia sẻ thông tin cá nhân, hình ảnh riêng tư."
+          "- Tích hợp QCN: HS nhận biết quyền được bảo vệ an toàn về thân thể, tinh thần; biết tìm kiếm sự hỗ trợ khi cảm thấy không an toàn."
         ],
         "dodung": [
           "- GV: kế hoạch SHDC, âm thanh, sân bãi, tranh SGK, khẩu hiệu an toàn.",
-          "- HS: trang phục gọn gàng, tâm thế tích cực, giày dép phù hợp vận động.",
-          "- GV: máy tính, ti vi, tranh SGK, thẻ chữ, tình huống ngắn, video/minh họa camera AI đã kiểm duyệt.",
-          "- HS: giấy A4, bút màu, tâm thế lắng nghe và tôn trọng bạn.",
-          "- GV: máy tính, ti vi, tranh tình huống SGK, thẻ tình huống, phiếu nhận xét tuần.",
-          "- HS: kết quả trò chuyện với người thân về nguy cơ xâm hại, giấy A4, bút màu."
+          "- HS: trang phục gọn gàng, tâm thế tích cực, giày dép phù hợp vận động."
         ],
-        "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-          "TUẦN 21 - TIẾT 2HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HÀNH VI XÂM HẠI TRẺ EM",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
-          "TUẦN 21 - TIẾT 3SINH HOẠT LỚP: NHẬN DIỆN NGUY CƠ XÂM HẠI TRẺ EM"
-        ],
-        "dieuchinh": [],
+        "activities": [],
         "tables": [
           [
             [
@@ -6451,7 +7072,7 @@
               "2. TRONG HOẠT ĐỘNG (25 phút)\nMục tiêu: HS tham gia chào cờ, đồng diễn và hiểu quyền được an toàn.\n- Mục tiêu tích hợp: Tích hợp QCN: HS nhận biết quyền được bảo vệ an toàn về thân thể, tinh thần và biết tìm người lớn tin cậy khi cảm thấy không an toàn.\n* Cách tiến hành:"
             ],
             [
-              "- GV điều hành HS tham gia nghi lễ chào cờ, nhận xét thi đua và hoạt động đồng diễn thể dục/võ thuật.\n\n- GV quan sát đội hình, nhắc HS giữ khoảng cách an toàn, mắt hướng về cờ, hát rõ lời, đúng nhịp.\n- GV gợi hỏi sau nghi lễ: “Khi tham gia chào cờ nghiêm túc, em thể hiện điều gì với tập thể và Tổ quốc?”.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV điều hành HS tham gia nghi lễ chào cờ, nhận xét thi đua và hoạt động đồng diễn thể dục/võ thuật.\n- GV quan sát đội hình, nhắc HS giữ khoảng cách an toàn, mắt hướng về cờ, hát rõ lời, đúng nhịp.\n- GV gợi hỏi sau nghi lễ: “Khi tham gia chào cờ nghiêm túc, em thể hiện điều gì với tập thể và Tổ quốc?”.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS thực hiện nghi lễ nghiêm túc, tham gia đồng diễn đúng nhịp.\n- HS thực hiện nghi lễ nghiêm túc, hát rõ lời, đúng tư thế.\n- HS nêu: thể hiện lòng yêu nước, ý thức kỉ luật và trách nhiệm với tập thể.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6473,7 +7094,36 @@
               "- GV yêu cầu HS nêu một việc giúp bản thân khỏe thể chất, mạnh tinh thần.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS nêu: tập thể dục, ngủ đủ, nói không với nguy cơ, báo người lớn.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "TUẦN 21 - TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HÀNH VI XÂM HẠI TRẺ EM",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được hành vi xâm hại trẻ em và phân biệt xâm hại thân thể, tinh thần, tình dục.",
+          "- Nêu được tổn thương mà trẻ em có thể phải chịu đựng khi bị xâm hại.",
+          "- Biết cách nói “không”, rời khỏi nơi nguy hiểm và báo người lớn tin cậy/tổng đài 111.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí tình huống phù hợp, sáng tạo.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, tự đánh giá việc làm của bản thân.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, quan tâm, chia sẻ với người thân, bạn bè.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
+          "4. Tích hợp",
+          "- Tích hợp ANQP: HS nhận diện hành vi xâm hại trẻ em; biết nói “không”, rời khỏi nơi nguy hiểm và báo người lớn tin cậy/tổng đài 111.",
+          "- Tích hợp AI (4.A3.1): Con người quyết định khi dùng AI vì sự an toàn; tìm hiểu camera an ninh tích hợp AI phát hiện hành vi lạ, đồng thời nhấn mạnh HS phải tự bảo vệ thông tin cá nhân trên mạng để tránh bị lợi dụng."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, thẻ chữ, tình huống ngắn, video/minh họa camera AI đã kiểm duyệt.",
+          "- HS: giấy A4, bút màu, tâm thế lắng nghe và tôn trọng bạn."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -6494,11 +7144,11 @@
               "2. KHÁM PHÁ CHỦ ĐỀ: Nhận biết hành vi xâm hại trẻ em\nMục tiêu: HS nhận biết hành vi xâm hại và biết quy trình tự bảo vệ khi gặp nguy cơ.\n- Mục tiêu tích hợp: Tích hợp ANQP: HS biết nói “không”, rời khỏi nơi nguy hiểm, kêu cứu và báo người lớn tin cậy/tổng đài 111.\n* Cách tiến hành:"
             ],
             [
-              "- GV chiếu/treo tranh SGK, yêu cầu HS quan sát và mô tả: Trong tranh có ai? Ở đâu? Chi tiết nào khiến em lo lắng?\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV chiếu/treo tranh SGK, yêu cầu HS quan sát và mô tả: Trong tranh có ai? Ở đâu? Chi tiết nào khiến em lo lắng?\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS quan sát, mô tả sự việc và nêu dấu hiệu nguy cơ.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
-              "- GV đưa các cụm từ: đánh đập, ngược đãi, lạm dụng sức lao động, bỏ rơi, động chạm cơ thể vùng mặc đồ bơi, lăng mạ xúc phạm; yêu cầu HS ghép với tranh.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV đưa các cụm từ: đánh đập, ngược đãi, lạm dụng sức lao động, bỏ rơi, động chạm cơ thể vùng mặc đồ bơi, lăng mạ xúc phạm; yêu cầu HS ghép với tranh.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- HS ghép hành vi với tranh và nêu lí do.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6543,7 +7193,35 @@
               "- GV hướng dẫn HS về nhà trao đổi với người thân về tình huống trẻ em có nguy cơ bị xâm hại và ghi lại cách xử lí.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi chậm, rõ: “Tình huống nào làm em thấy không an toàn? Em có quyền nói KHÔNG trong trường hợp nào?”.\n- GV nhắc HS không kể tên người thật hoặc chi tiết riêng tư; chỉ nêu tình huống giả định để bảo vệ bản thân và bạn bè.\n- GV hướng dẫn quy trình 4 bước: nói KHÔNG – rời khỏi nơi nguy hiểm – kêu cứu – báo người lớn tin cậy.\n- GV yêu cầu HS luyện nói câu từ chối dứt khoát: “Không! Con/em không đồng ý. Con/em sẽ báo với người lớn.”",
               "- HS lắng nghe, thực hiện.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS nhận diện tình huống không an toàn và nêu quyền được bảo vệ.\n- HS biết giữ riêng tư, không chia sẻ thông tin cá nhân của mình hoặc bạn.\n- HS nhắc lại quy trình 4 bước an toàn.\n- HS luyện nói câu từ chối rõ ràng, mạnh dạn."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "TUẦN 21 - TIẾT 3\nSINH HOẠT LỚP: NHẬN DIỆN NGUY CƠ XÂM HẠI TRẺ EM",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
+          "- Xác định được tình huống có nguy cơ bị xâm hại và mức độ nguy hiểm để cảnh giác.",
+          "- Chia sẻ được cảm xúc sau khi trao đổi cùng người thân và biết thông báo với người lớn.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí tình huống phù hợp, sáng tạo.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, tự đánh giá việc làm của bản thân.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết yêu thương, quan tâm, chia sẻ với người thân, bạn bè.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Có ý thức với việc làm của bản thân, gia đình và tập thể.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 4.1.CB1b: HS nhận biết rủi ro khi nhận tin nhắn, hình ảnh, lời mời lạ trên mạng; không chia sẻ thông tin cá nhân, hình ảnh riêng tư."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh tình huống SGK, thẻ tình huống, phiếu nhận xét tuần.",
+          "- HS: kết quả trò chuyện với người thân về nguy cơ xâm hại, giấy A4, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -6585,7 +7263,7 @@
               "- HS chia sẻ theo cặp, lắng nghe bạn.\n- HS chia sẻ đủ 3 ý, nói rõ ràng, lễ phép.\n- HS nêu điều muốn giữ lại và điều cần điều chỉnh.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS nhắc lại quy trình 4 bước an toàn.\n- HS luyện nói câu từ chối rõ ràng, mạnh dạn."
             ],
             [
-              "- GV chiếu tranh/tình huống về nguy cơ xâm hại và hỏi HS cách xử lí an toàn.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi chậm, rõ: “Tình huống nào làm em thấy không an toàn? Em có quyền nói KHÔNG trong trường hợp nào?”.\n- GV nhắc HS không kể tên người thật hoặc chi tiết riêng tư; chỉ nêu tình huống giả định để bảo vệ bản thân và bạn bè.\n- GV hướng dẫn quy trình 4 bước: nói KHÔNG – rời khỏi nơi nguy hiểm – kêu cứu – báo người lớn tin cậy.\n- GV yêu cầu HS luyện nói câu từ chối dứt khoát: “Không! Con/em không đồng ý. Con/em sẽ báo với người lớn.”",
+              "- GV chiếu tranh/tình huống về nguy cơ xâm hại và hỏi HS cách xử lí an toàn.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.\n- GV hỏi chậm, rõ: “Tình huống nào làm em thấy không an toàn? Em có quyền nói KHÔNG trong trường hợp nào?”.\n- GV nhắc HS không kể tên người thật hoặc chi tiết riêng tư; chỉ nêu tình huống giả định để bảo vệ bản thân và bạn bè.\n- GV hướng dẫn quy trình 4 bước: nói KHÔNG – rời khỏi nơi nguy hiểm – kêu cứu – báo người lớn tin cậy.\n- GV yêu cầu HS luyện nói câu từ chối dứt khoát: “Không! Con/em không đồng ý. Con/em sẽ báo với người lớn.”",
               "- HS nêu: nói không, rời đi, kêu cứu, báo người lớn, không giữ bí mật xấu.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân.\n- HS nhận diện tình huống không an toàn và nêu quyền được bảo vệ.\n- HS biết giữ riêng tư, không chia sẻ thông tin cá nhân của mình hoặc bạn.\n- HS nhắc lại quy trình 4 bước an toàn.\n- HS luyện nói câu từ chối rõ ràng, mạnh dạn."
             ],
             [
@@ -6604,7 +7282,7 @@
               "- HS thảo luận nhóm 4, phân loại mức nguy hiểm và chọn cách xử lí.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
-              "- GV mời nhóm trình bày quy trình an toàn: Không – Rời đi – Kêu cứu – Kể ngay.\n\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
+              "- GV mời nhóm trình bày quy trình an toàn: Không – Rời đi – Kêu cứu – Kể ngay.\n- GV theo dõi từng nhóm/cá nhân, đặt câu hỏi gợi mở cho HS còn lúng túng và khuyến khích HS trả lời bằng ví dụ cụ thể.",
               "- Nhóm trình bày, nhóm khác nhận xét, bổ sung.\n- HS lắng nghe gợi ý, mạnh dạn nêu ví dụ cụ thể từ trải nghiệm của bản thân."
             ],
             [
@@ -6624,7 +7302,7 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": []
       }
     ]
   },
@@ -6633,7 +7311,7 @@
     "sourceFile": "HĐTN TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SỐNG AN TOÀN, LÀNH MẠNH",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6643,39 +7321,19 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
-          "- Nhận diện được tình huống có nguy cơ bị xâm hại thân thể.",
-          "- Lựa chọn được cách phòng tránh phù hợp trong từng tình huống.",
-          "- Biết nói “không”, rời khỏi nơi nguy hiểm, kêu cứu và báo người lớn tin cậy.",
-          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
-          "- Biết cách ứng xử phù hợp trong tình huống có nguy cơ bị xâm hại thân thể.",
-          "- Chia sẻ được kết quả trao đổi với người thân về cách phòng tránh xâm hại.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
           "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
           "4. Tích hợp",
-          "- Tích hợp QCN: HS biết quyền được sống an toàn, biết bảo vệ bản thân và tôn trọng ranh giới cá nhân của người khác.",
-          "- Tích hợp QCN: HS nhận diện nguy cơ xâm hại thân thể, biết cách tránh xa, kêu cứu và kể lại sự việc với người lớn tin cậy.",
-          "- Tích hợp NLS 4.1.CB1b: HS biết không làm theo lời rủ rê gặp mặt người lạ qua mạng; biết báo người lớn khi gặp nội dung khiến em lo sợ."
+          "- Tích hợp QCN: HS biết quyền được sống an toàn, biết bảo vệ bản thân và tôn trọng ranh giới cá nhân của người khác."
         ],
         "dodung": [
           "- GV: kế hoạch sinh hoạt dưới cờ, âm thanh, tranh chủ đề, bảng phụ “Việc làm sống an toàn, lành mạnh”.",
-          "- HS: trang phục gọn gàng, tâm thế nghiêm túc, thẻ Đúng/Sai hoặc bảng con.",
-          "- GV: máy tính, ti vi, tranh SGK, thẻ tình huống, bảng quy tắc an toàn.",
-          "- HS: giấy A4, bút màu, thẻ ghi ý kiến.",
-          "- GV: máy tính, ti vi, tranh SGK, thẻ tình huống, phiếu nhận xét tuần.",
-          "- HS: kết quả trao đổi với người thân, giấy A4, bút màu."
+          "- HS: trang phục gọn gàng, tâm thế nghiêm túc, thẻ Đúng/Sai hoặc bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "SINH HOẠT LỚP: PHÒNG TRÁNH BỊ XÂM HẠI",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -6705,7 +7363,7 @@
               "- HS trả lời: ăn uống đủ chất, ngủ đủ, tập thể dục, giữ vệ sinh, chia sẻ cảm xúc với người tin cậy.\n- HS suy nghĩ cá nhân, trao đổi với bạn, trình bày ý kiến bằng câu đầy đủ và lắng nghe góp ý.\n- HS ghi nhớ nội dung trọng tâm, điều chỉnh câu trả lời hoặc cách thực hiện sau khi nghe GV nhận xét."
             ],
             [
-              "- GV kể/đọc tình huống ngắn về nguy cơ xâm hại và dừng ở các điểm nguy cơ để hỏi: “Tình huống này có an toàn không? Vì sao?”\n\n- GV hướng dẫn nhóm xây dựng lời thoại ngắn, đúng tình huống; nhắc HS thể hiện thái độ, cử chỉ phù hợp và ưu tiên cách xử lí an toàn.\n- GV nêu tiêu chí nhận xét: nhận diện đúng vấn đề, lời nói lịch sự/dứt khoát, cách xử lí phù hợp, biết tìm người hỗ trợ.",
+              "- GV kể/đọc tình huống ngắn về nguy cơ xâm hại và dừng ở các điểm nguy cơ để hỏi: “Tình huống này có an toàn không? Vì sao?”\n- GV hướng dẫn nhóm xây dựng lời thoại ngắn, đúng tình huống; nhắc HS thể hiện thái độ, cử chỉ phù hợp và ưu tiên cách xử lí an toàn.\n- GV nêu tiêu chí nhận xét: nhận diện đúng vấn đề, lời nói lịch sự/dứt khoát, cách xử lí phù hợp, biết tìm người hỗ trợ.",
               "- HS nhận diện nguy cơ: người lạ rủ đi, đòi chạm vùng riêng tư, đe dọa, nhắn tin không phù hợp.\n- HS phân vai, luyện lời thoại, thể hiện tình huống tự nhiên; sau khi diễn biết nêu lí do chọn cách xử lí.\n- HS quan sát nhóm bạn, nhận xét theo tiêu chí, không cười chê và biết góp ý xây dựng."
             ],
             [
@@ -6727,7 +7385,39 @@
               "- GV chốt thông điệp: Khỏe thể chất, mạnh tinh thần, biết tự bảo vệ mình.\n- GV yêu cầu HS viết hoặc nói một cam kết ngắn, cụ thể, có thể kiểm chứng trong tuần; nhắc cách báo cáo kết quả ở tiết sau.\n- GV nhận xét tinh thần tham gia, nhấn mạnh việc vận dụng bài học vào đời sống hằng ngày.",
               "- HS đọc cam kết và di chuyển về lớp trật tự.\n- HS viết/nói cam kết cá nhân, chọn việc phù hợp với khả năng và hoàn cảnh của mình.\n- HS ghi nhớ nhiệm vụ về nhà, chuẩn bị minh chứng hoặc chia sẻ kết quả trong tiết học tiếp theo."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HÀNH VI XÂM HẠI THÂN THỂ",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận diện được tình huống có nguy cơ bị xâm hại thân thể.",
+          "- Lựa chọn được cách phòng tránh phù hợp trong từng tình huống.",
+          "- Biết nói “không”, rời khỏi nơi nguy hiểm, kêu cứu và báo người lớn tin cậy.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
+          "4. Tích hợp",
+          "- Tích hợp QCN: HS nhận diện nguy cơ xâm hại thân thể, biết cách tránh xa, kêu cứu và kể lại sự việc với người lớn tin cậy."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, thẻ tình huống, bảng quy tắc an toàn.",
+          "- HS: giấy A4, bút màu, thẻ ghi ý kiến."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -6748,7 +7438,7 @@
               "2. KHÁM PHÁ CHỦ ĐỀ: Nhận diện nguy cơ xâm hại thân thể\n- Mục tiêu: HS nhận diện được tình huống nguy cơ và nêu cách phòng tránh.\n- Mục tiêu tích hợp: Tích hợp QCN: HS biết quyền được bảo đảm an toàn về thân thể, sức khỏe và biết tìm kiếm sự trợ giúp khi không an toàn.\n* Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh SGK, yêu cầu mô tả: Khi ở nhà một mình, khi đi chơi nơi công cộng, khi tan học người thân chưa kịp đón, nguy cơ nào có thể xảy ra?\n\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
+              "- GV cho HS quan sát tranh SGK, yêu cầu mô tả: Khi ở nhà một mình, khi đi chơi nơi công cộng, khi tan học người thân chưa kịp đón, nguy cơ nào có thể xảy ra?\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
               "- HS quan sát, mô tả và nêu dấu hiệu nguy cơ.\n- HS quan sát kĩ, mô tả bằng câu rõ ràng, chỉ ra chi tiết trong tranh/video để chứng minh ý kiến.\n- HS lắng nghe bạn, bổ sung hoặc đặt câu hỏi lịch sự: “Bạn có thể nói rõ hơn… không?”"
             ],
             [
@@ -6771,7 +7461,7 @@
               "3. MỞ RỘNG VÀ TỔNG KẾT CHỦ ĐỀ: Sắm vai xử lí tình huống\n- Mục tiêu: HS thực hành ứng xử trong tình huống có nguy cơ xâm hại thân thể.\n* Cách tiến hành:"
             ],
             [
-              "- GV chia nhóm 4, giao tình huống trong SGK; hướng dẫn nhóm phân vai người gặp nguy cơ, bạn hỗ trợ, người lớn tin cậy.\n\n- GV giao nhiệm vụ theo từng bước: đọc yêu cầu, phân vai nhóm trưởng - thư kí - báo cáo viên - quản lí thời gian, thống nhất sản phẩm cần trình bày.\n- GV đi tới các nhóm, gợi mở thêm cho nhóm còn lúng túng: “Nhóm đã có đủ ý chưa? Ý nào cần ví dụ? Ai sẽ trình bày?”",
+              "- GV chia nhóm 4, giao tình huống trong SGK; hướng dẫn nhóm phân vai người gặp nguy cơ, bạn hỗ trợ, người lớn tin cậy.\n- GV giao nhiệm vụ theo từng bước: đọc yêu cầu, phân vai nhóm trưởng - thư kí - báo cáo viên - quản lí thời gian, thống nhất sản phẩm cần trình bày.\n- GV đi tới các nhóm, gợi mở thêm cho nhóm còn lúng túng: “Nhóm đã có đủ ý chưa? Ý nào cần ví dụ? Ai sẽ trình bày?”",
               "- HS nhận tình huống, phân vai, chuẩn bị lời thoại ngắn, rõ ràng.\n- HS phân công nhiệm vụ trong nhóm, thảo luận đúng trọng tâm, ghi ý chính, thống nhất câu trả lời trước khi trình bày.\n- HS hợp tác, lắng nghe ý kiến khác nhau, bổ sung cho bạn và hoàn thiện sản phẩm nhóm."
             ],
             [
@@ -6793,7 +7483,39 @@
               "- GV nhận xét tiết học, tuyên dương HS biết lắng nghe và chia sẻ an toàn.\n- GV yêu cầu HS viết hoặc nói một cam kết ngắn, cụ thể, có thể kiểm chứng trong tuần; nhắc cách báo cáo kết quả ở tiết sau.\n- GV nhận xét tinh thần tham gia, nhấn mạnh việc vận dụng bài học vào đời sống hằng ngày.",
               "- HS lắng nghe, chuẩn bị cho hoạt động tiếp theo.\n- HS viết/nói cam kết cá nhân, chọn việc phù hợp với khả năng và hoàn cảnh của mình.\n- HS ghi nhớ nhiệm vụ về nhà, chuẩn bị minh chứng hoặc chia sẻ kết quả trong tiết học tiếp theo."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: PHÒNG TRÁNH BỊ XÂM HẠI",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
+          "- Biết cách ứng xử phù hợp trong tình huống có nguy cơ bị xâm hại thân thể.",
+          "- Chia sẻ được kết quả trao đổi với người thân về cách phòng tránh xâm hại.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 4.1.CB1b: HS biết không làm theo lời rủ rê gặp mặt người lạ qua mạng; biết báo người lớn khi gặp nội dung khiến em lo sợ."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, thẻ tình huống, phiếu nhận xét tuần.",
+          "- HS: kết quả trao đổi với người thân, giấy A4, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -6858,7 +7580,7 @@
               "4. HOẠT ĐỘNG NHÓM: Phân tích tiểu phẩm và lựa chọn cách phòng tránh\n- Mục tiêu: HS luyện tập xử lí tình huống có nguy cơ xâm hại thân thể.\n* Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh tiểu phẩm trong SGK, yêu cầu nhóm 4 nêu hành vi nguy cơ và cách xử lí.\n\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
+              "- GV cho HS quan sát tranh tiểu phẩm trong SGK, yêu cầu nhóm 4 nêu hành vi nguy cơ và cách xử lí.\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
               "- HS quan sát, thảo luận, ghi ý kiến của nhóm.\n- HS quan sát kĩ, mô tả bằng câu rõ ràng, chỉ ra chi tiết trong tranh/video để chứng minh ý kiến.\n- HS lắng nghe bạn, bổ sung hoặc đặt câu hỏi lịch sự: “Bạn có thể nói rõ hơn… không?”"
             ],
             [
@@ -6882,7 +7604,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -6891,7 +7617,7 @@
     "sourceFile": "HĐTN TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY QUỐC TẾ PHỤ NỮ 8-3",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6901,39 +7627,21 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
-          "- Nhận diện được tình huống có nguy cơ bị xâm hại tinh thần.",
-          "- Lựa chọn được cách ứng phó phù hợp khi bị xâm hại tinh thần.",
-          "- Biết chia sẻ cảm xúc và tìm kiếm sự giúp đỡ khi bị bắt nạt, cô lập.",
-          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
-          "- Chia sẻ được cảm xúc sau khi trao đổi cùng người thân.",
-          "- Hiểu tầm quan trọng của việc chia sẻ cảm xúc và biết tìm kiếm sự trợ giúp.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
           "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
           "4. Tích hợp",
           "- Tích hợp QCN: HS biết tôn trọng phụ nữ, bạn nữ; ứng xử lịch sự, không trêu chọc, xúc phạm người khác.",
-          "- Tích hợp QCN: HS nhận diện lời nói/hành vi làm tổn thương tinh thần; biết chia sẻ cảm xúc và tìm sự giúp đỡ khi bị bắt nạt, cô lập.",
-          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS biết chọn kênh chia sẻ an toàn, lịch sự; không gửi/lan truyền nội dung gây tổn thương bạn."
+          "- Tiết kiệm và bảo vệ nguồn nước: Bảo vệ nguồn nước phục vụ nghề truyền thống và đời sống nông thôn Trà Vinh.",
+          "- Giáo dục địa phương (Chủ đề 7 & 8): Tìm hiểu các nghề truyền thống tại Trà Vinh (làng nghề điêu khắc gỗ Chùa Hang và vùng chuyên canh đặc sản dừa sáp Cầu Kè)."
         ],
         "dodung": [
           "- GV: âm thanh, danh sách tiết mục, hoa/thiệp, tranh SGK, lời dẫn chương trình.",
-          "- HS: trang phục gọn gàng, lời chúc 8/3, tâm thế cổ vũ văn minh.",
-          "- GV: máy tính, ti vi, tranh/video SGK, phiếu học tập.",
-          "- HS: vở ghi, bút, tâm thế chia sẻ an toàn.",
-          "- GV: máy tính, ti vi, tranh SGK, phiếu nhận xét tuần, hộp thư điều em muốn nói.",
-          "- HS: giấy ghi điều khó nói, bút màu, sản phẩm chia sẻ nếu có."
+          "- HS: trang phục gọn gàng, lời chúc 8/3, tâm thế cổ vũ văn minh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "SINH HOẠT LỚP: CHIA SẺ NHỮNG ĐIỀU KHÓ NÓI",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -6959,7 +7667,7 @@
               "- HS thực hiện nghi lễ nghiêm túc, lắng nghe và vỗ tay đúng lúc.\n- HS tự chỉnh trang phục, giữ khoảng cách, hát rõ và nhắc bạn bên cạnh cùng thực hiện nghiêm túc.\n- HS nêu được việc cần làm: đứng nghiêm, mắt hướng cờ, hát đúng nhịp, giữ trật tự."
             ],
             [
-              "- GV/TPT mời các tiết mục văn nghệ; nhắc HS cổ vũ văn minh, không la hét, không chê bai bạn biểu diễn.\n\n- GV thao tác mẫu trên thiết bị của GV, nói rõ từng bước: mở công cụ, nhập/nói yêu cầu, đọc kết quả, kiểm tra lại với nguồn đáng tin cậy.\n- GV nhắc quy tắc an toàn số: không nhập họ tên đầy đủ, địa chỉ, số điện thoại, mật khẩu, OTP, hình ảnh riêng tư hoặc thông tin của người khác.",
+              "- GV/TPT mời các tiết mục văn nghệ; nhắc HS cổ vũ văn minh, không la hét, không chê bai bạn biểu diễn.\n- GV thao tác mẫu trên thiết bị của GV, nói rõ từng bước: mở công cụ, nhập/nói yêu cầu, đọc kết quả, kiểm tra lại với nguồn đáng tin cậy.\n- GV nhắc quy tắc an toàn số: không nhập họ tên đầy đủ, địa chỉ, số điện thoại, mật khẩu, OTP, hình ảnh riêng tư hoặc thông tin của người khác.",
               "- HS theo dõi, cổ vũ bằng vỗ tay, giữ trật tự.\n- HS quan sát thao tác, nêu lại các bước sử dụng công cụ và thực hành theo nhóm dưới sự giám sát của GV.\n- HS biết kiểm tra kết quả, không chia sẻ thông tin cá nhân và báo GV/người lớn khi gặp nội dung lạ."
             ],
             [
@@ -6982,10 +7690,46 @@
               "- HS chia sẻ: làm thiệp, giúp việc nhà, nói lời cảm ơn, chăm học.\n- HS suy nghĩ cá nhân, trao đổi với bạn, trình bày ý kiến bằng câu đầy đủ và lắng nghe góp ý.\n- HS ghi nhớ nội dung trọng tâm, điều chỉnh câu trả lời hoặc cách thực hiện sau khi nghe GV nhận xét."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 7, 8) & Mizuiku: GV cho HS tìm hiểu nét đặc sắc của làng nghề Trà Vinh: nghệ thuật điêu khắc gỗ tinh xảo từ rễ cây cổ thụ tại Chùa Hang (huyện Châu Thành) và nghề chăm sóc cây dừa sáp đặc sản Cầu Kè. Giáo dục lòng tự hào và ý thức giữ gìn nguồn nước ngọt quý giá phục vụ tưới tiêu cây trái địa phương.",
+              "- HS hào hứng trao đổi về các sản phẩm thủ công và đặc sản dừa sáp quê hương; bày tỏ tình cảm yêu quý người lao động và ý thức giữ sạch dòng nước quê nhà."
+            ],
+            [
               "- GV chốt thông điệp: Tôn trọng – yêu thương – biết ơn.\n- GV nêu yêu cầu rõ ràng, đặt thêm câu hỏi gợi mở để HS suy nghĩ sâu hơn, khuyến khích nhiều HS tham gia trả lời.\n- GV theo dõi, hỗ trợ HS còn lúng túng, nhận xét kịp thời và chốt lại nội dung trọng tâm của hoạt động.",
               "- HS nhắc lại thông điệp và di chuyển về lớp trật tự.\n- HS suy nghĩ cá nhân, trao đổi với bạn, trình bày ý kiến bằng câu đầy đủ và lắng nghe góp ý.\n- HS ghi nhớ nội dung trọng tâm, điều chỉnh câu trả lời hoặc cách thực hiện sau khi nghe GV nhận xét."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HÀNH VI XÂM HẠI TINH THẦN",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận diện được tình huống có nguy cơ bị xâm hại tinh thần.",
+          "- Lựa chọn được cách ứng phó phù hợp khi bị xâm hại tinh thần.",
+          "- Biết chia sẻ cảm xúc và tìm kiếm sự giúp đỡ khi bị bắt nạt, cô lập.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
+          "4. Tích hợp",
+          "- Tích hợp QCN: HS nhận diện lời nói/hành vi làm tổn thương tinh thần; biết chia sẻ cảm xúc và tìm sự giúp đỡ khi bị bắt nạt, cô lập."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh/video SGK, phiếu học tập.",
+          "- HS: vở ghi, bút, tâm thế chia sẻ an toàn."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -7006,7 +7750,7 @@
               "2. KHÁM PHÁ CHỦ ĐỀ: Nhận diện hành vi xâm hại tinh thần\n- Mục tiêu: HS nhận diện hành vi xâm hại tinh thần, địa điểm, đối tượng và hậu quả.\n- Mục tiêu tích hợp: Tích hợp QCN: HS biết quyền được tôn trọng danh dự, nhân phẩm và quyền được bảo vệ khỏi bạo lực tinh thần.\n* Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh/video SGK về trẻ em bị xâm hại tinh thần, yêu cầu mô tả biểu hiện cảm xúc của nhân vật.\n\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
+              "- GV cho HS quan sát tranh/video SGK về trẻ em bị xâm hại tinh thần, yêu cầu mô tả biểu hiện cảm xúc của nhân vật.\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
               "- HS quan sát, nêu biểu hiện: buồn, sợ, lo lắng, thu mình, không dám nói.\n- HS quan sát kĩ, mô tả bằng câu rõ ràng, chỉ ra chi tiết trong tranh/video để chứng minh ý kiến.\n- HS lắng nghe bạn, bổ sung hoặc đặt câu hỏi lịch sự: “Bạn có thể nói rõ hơn… không?”"
             ],
             [
@@ -7029,7 +7773,7 @@
               "3. MỞ RỘNG VÀ TỔNG KẾT CHỦ ĐỀ: Sắm vai cách ứng phó\n- Mục tiêu: HS lựa chọn được cách ứng phó phù hợp khi bị xâm hại tinh thần.\n* Cách tiến hành:"
             ],
             [
-              "- GV chia lớp thành nhóm 6, giao tình huống SGK; yêu cầu nhóm phân vai và thống nhất cách giải quyết.\n\n- GV giao nhiệm vụ theo từng bước: đọc yêu cầu, phân vai nhóm trưởng - thư kí - báo cáo viên - quản lí thời gian, thống nhất sản phẩm cần trình bày.\n- GV đi tới các nhóm, gợi mở thêm cho nhóm còn lúng túng: “Nhóm đã có đủ ý chưa? Ý nào cần ví dụ? Ai sẽ trình bày?”",
+              "- GV chia lớp thành nhóm 6, giao tình huống SGK; yêu cầu nhóm phân vai và thống nhất cách giải quyết.\n- GV giao nhiệm vụ theo từng bước: đọc yêu cầu, phân vai nhóm trưởng - thư kí - báo cáo viên - quản lí thời gian, thống nhất sản phẩm cần trình bày.\n- GV đi tới các nhóm, gợi mở thêm cho nhóm còn lúng túng: “Nhóm đã có đủ ý chưa? Ý nào cần ví dụ? Ai sẽ trình bày?”",
               "- HS nhận tình huống, phân vai, chọn lời nói phù hợp.\n- HS phân công nhiệm vụ trong nhóm, thảo luận đúng trọng tâm, ghi ý chính, thống nhất câu trả lời trước khi trình bày.\n- HS hợp tác, lắng nghe ý kiến khác nhau, bổ sung cho bạn và hoàn thiện sản phẩm nhóm."
             ],
             [
@@ -7051,7 +7795,39 @@
               "- GV yêu cầu HS nêu 1 lời nói tích cực sẽ dùng với bạn trong tuần.\n- GV nêu yêu cầu rõ ràng, đặt thêm câu hỏi gợi mở để HS suy nghĩ sâu hơn, khuyến khích nhiều HS tham gia trả lời.\n- GV theo dõi, hỗ trợ HS còn lúng túng, nhận xét kịp thời và chốt lại nội dung trọng tâm của hoạt động.",
               "- HS nêu: Mình tin bạn làm được; cảm ơn bạn; mình sẽ giúp bạn.\n- HS suy nghĩ cá nhân, trao đổi với bạn, trình bày ý kiến bằng câu đầy đủ và lắng nghe góp ý.\n- HS ghi nhớ nội dung trọng tâm, điều chỉnh câu trả lời hoặc cách thực hiện sau khi nghe GV nhận xét."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: CHIA SẺ NHỮNG ĐIỀU KHÓ NÓI",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
+          "- Chia sẻ được cảm xúc sau khi trao đổi cùng người thân.",
+          "- Hiểu tầm quan trọng của việc chia sẻ cảm xúc và biết tìm kiếm sự trợ giúp.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 2.3.CB1a, 4.1.CB1b: HS biết chọn kênh chia sẻ an toàn, lịch sự; không gửi/lan truyền nội dung gây tổn thương bạn."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, phiếu nhận xét tuần, hộp thư điều em muốn nói.",
+          "- HS: giấy ghi điều khó nói, bút màu, sản phẩm chia sẻ nếu có."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -7101,7 +7877,7 @@
               "- HS chia sẻ: nói trực tiếp với cha mẹ, thầy cô; viết thư; gọi điện cho người thân.\n- HS phân công nhiệm vụ trong nhóm, thảo luận đúng trọng tâm, ghi ý chính, thống nhất câu trả lời trước khi trình bày.\n- HS hợp tác, lắng nghe ý kiến khác nhau, bổ sung cho bạn và hoàn thiện sản phẩm nhóm."
             ],
             [
-              "- GV cho HS quan sát hình “Chia sẻ những điều khó nói”, hỏi: Vì sao có lúc viết ra sẽ dễ nói hơn?\n\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
+              "- GV cho HS quan sát hình “Chia sẻ những điều khó nói”, hỏi: Vì sao có lúc viết ra sẽ dễ nói hơn?\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
               "- HS nêu: viết giúp bình tĩnh, diễn đạt rõ, không sợ bị ngắt lời.\n- HS quan sát kĩ, mô tả bằng câu rõ ràng, chỉ ra chi tiết trong tranh/video để chứng minh ý kiến.\n- HS lắng nghe bạn, bổ sung hoặc đặt câu hỏi lịch sự: “Bạn có thể nói rõ hơn… không?”"
             ],
             [
@@ -7140,7 +7916,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -7149,7 +7929,7 @@
     "sourceFile": "HĐTN TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TỰ BẢO VỆ BẢN THÂN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7159,40 +7939,20 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
-          "- Nhận diện được tình huống có nguy cơ bị xâm hại tình dục.",
-          "- Lựa chọn được cách phòng tránh phù hợp trong tình huống nguy cơ.",
-          "- Biết nguyên tắc bảo vệ vùng riêng tư và báo người lớn tin cậy.",
-          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
-          "- Trình bày được sản phẩm phòng tránh xâm hại tình dục đã hoàn thiện.",
-          "- Rèn luyện cách phòng tránh trong tình huống có nguy cơ bị xâm hại tình dục.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
           "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
           "4. Tích hợp",
           "- Tích hợp ANQP: HS biết các bước tự bảo vệ: nhận diện nguy cơ, từ chối, rời khỏi, kêu cứu, báo người lớn tin cậy.",
-          "- Tích hợp AI (4.B2.1): HS biết rủi ro khi chia sẻ thông tin cá nhân cho AI; đóng vai xử lí khi ứng dụng AI yêu cầu chia sẻ ảnh riêng tư hoặc mật khẩu để được “tặng quà”.",
-          "- Tích hợp QCN: HS nhận diện vùng riêng tư, hành vi không an toàn; biết không giữ bí mật xấu và báo ngay cho người lớn tin cậy.",
-          "- Tích hợp NLS 4.1.CB1b: HS biết phòng tránh rủi ro xâm hại trên môi trường số; không gửi ảnh riêng tư, không trả lời người lạ hỏi thông tin cá nhân."
+          "- Tích hợp AI (4.B2.1): HS biết rủi ro khi chia sẻ thông tin cá nhân cho AI; đóng vai xử lí khi ứng dụng AI yêu cầu chia sẻ ảnh riêng tư hoặc mật khẩu để được “tặng quà”."
         ],
         "dodung": [
           "- GV: âm thanh, bộ câu hỏi Rung chuông vàng, thẻ A-B-C, tranh SGK, máy tính có ChatGPT/Gemini do GV điều khiển để mô phỏng tình huống AI.",
-          "- HS: thẻ A-B-C, bảng con, tâm thế tham gia nghiêm túc.",
-          "- GV: máy tính, ti vi, video/tranh SGK, giấy A4, bút màu.",
-          "- HS: giấy A4, bút màu, tâm thế lắng nghe và tôn trọng bạn.",
-          "- GV: máy tính, ti vi, tranh SGK, phiếu bình chọn, phiếu nhận xét tuần.",
-          "- HS: sản phẩm nhóm, giấy A4, bút màu."
+          "- HS: thẻ A-B-C, bảng con, tâm thế tham gia nghiêm túc."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "SINH HOẠT LỚP: PHÒNG TRÁNH BỊ XÂM HẠI TÌNH DỤC",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -7218,7 +7978,7 @@
               "- HS thực hiện nghi lễ nghiêm túc, lắng nghe.\n- HS tự chỉnh trang phục, giữ khoảng cách, hát rõ và nhắc bạn bên cạnh cùng thực hiện nghiêm túc.\n- HS nêu được việc cần làm: đứng nghiêm, mắt hướng cờ, hát đúng nhịp, giữ trật tự."
             ],
             [
-              "- GV tổ chức trò chơi Rung chuông vàng: đọc câu hỏi về người lạ, vùng riêng tư, nhận quà, bị rủ đi nơi vắng, lời mời trên mạng.\n\n- GV phổ biến luật chơi rõ ràng, làm mẫu một lượt, nhắc HS chơi an toàn, không chen lấn, không trêu chọc bạn khi bạn trả lời sai.\n- GV đặt câu hỏi sau trò chơi: “Qua hoạt động vừa rồi, em rút ra thông điệp gì cho bản thân?”",
+              "- GV tổ chức trò chơi Rung chuông vàng: đọc câu hỏi về người lạ, vùng riêng tư, nhận quà, bị rủ đi nơi vắng, lời mời trên mạng.\n- GV phổ biến luật chơi rõ ràng, làm mẫu một lượt, nhắc HS chơi an toàn, không chen lấn, không trêu chọc bạn khi bạn trả lời sai.\n- GV đặt câu hỏi sau trò chơi: “Qua hoạt động vừa rồi, em rút ra thông điệp gì cho bản thân?”",
               "- HS lắng nghe, giơ thẻ A-B-C theo hiệu lệnh, giải thích ngắn gọn.\n- HS lắng nghe luật, tham gia đúng lượt, cổ vũ văn minh và tự kiểm soát hành vi khi vui chơi.\n- HS nêu thông điệp ngắn gọn, liên hệ với việc cần thực hiện trong học tập và sinh hoạt."
             ],
             [
@@ -7248,7 +8008,39 @@
               "- GV chốt thông điệp: An toàn của em là quan trọng; không im lặng khi gặp nguy cơ.\n- GV yêu cầu HS viết hoặc nói một cam kết ngắn, cụ thể, có thể kiểm chứng trong tuần; nhắc cách báo cáo kết quả ở tiết sau.\n- GV nhận xét tinh thần tham gia, nhấn mạnh việc vận dụng bài học vào đời sống hằng ngày.",
               "- HS đọc cam kết và di chuyển về lớp trật tự.\n- HS viết/nói cam kết cá nhân, chọn việc phù hợp với khả năng và hoàn cảnh của mình.\n- HS ghi nhớ nhiệm vụ về nhà, chuẩn bị minh chứng hoặc chia sẻ kết quả trong tiết học tiếp theo."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HÀNH VI XÂM HẠI TÌNH DỤC",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận diện được tình huống có nguy cơ bị xâm hại tình dục.",
+          "- Lựa chọn được cách phòng tránh phù hợp trong tình huống nguy cơ.",
+          "- Biết nguyên tắc bảo vệ vùng riêng tư và báo người lớn tin cậy.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
+          "4. Tích hợp",
+          "- Tích hợp QCN: HS nhận diện vùng riêng tư, hành vi không an toàn; biết không giữ bí mật xấu và báo ngay cho người lớn tin cậy."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, video/tranh SGK, giấy A4, bút màu.",
+          "- HS: giấy A4, bút màu, tâm thế lắng nghe và tôn trọng bạn."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -7269,7 +8061,7 @@
               "2. KHÁM PHÁ CHỦ ĐỀ: Nhận diện nguy cơ bị xâm hại tình dục\n- Mục tiêu: HS nhận diện tình huống có nguy cơ và dấu hiệu cảnh báo.\n- Mục tiêu tích hợp: Tích hợp QCN: HS biết quyền được an toàn, được bảo vệ khỏi xâm hại và biết báo người lớn khi gặp hành vi không an toàn.\n* Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh/video SGK, yêu cầu nêu tình huống có nguy cơ: nhìn trộm, tặng quà vô cớ, rủ ra chỗ vắng, ôm/đụng chạm vùng mặc đồ bơi.\n\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
+              "- GV cho HS quan sát tranh/video SGK, yêu cầu nêu tình huống có nguy cơ: nhìn trộm, tặng quà vô cớ, rủ ra chỗ vắng, ôm/đụng chạm vùng mặc đồ bơi.\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
               "- HS quan sát, thảo luận nhóm 4 và liệt kê các tình huống nguy cơ.\n- HS quan sát kĩ, mô tả bằng câu rõ ràng, chỉ ra chi tiết trong tranh/video để chứng minh ý kiến.\n- HS lắng nghe bạn, bổ sung hoặc đặt câu hỏi lịch sự: “Bạn có thể nói rõ hơn… không?”"
             ],
             [
@@ -7288,7 +8080,7 @@
               "3. MỞ RỘNG VÀ TỔNG KẾT CHỦ ĐỀ: Thiết kế sản phẩm phòng tránh xâm hại tình dục\n- Mục tiêu: HS nêu được nguyên tắc phòng tránh và tạo sản phẩm tuyên truyền phù hợp.\n* Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát gợi ý SGK về các cách phòng tránh; yêu cầu nhóm 6 chọn hình thức sản phẩm: poster, tờ rơi, tranh vẽ, khẩu hiệu.\n\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
+              "- GV cho HS quan sát gợi ý SGK về các cách phòng tránh; yêu cầu nhóm 6 chọn hình thức sản phẩm: poster, tờ rơi, tranh vẽ, khẩu hiệu.\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
               "- HS thảo luận, chọn nội dung: Ba không, Quy tắc 5 ngón tay, số người lớn tin cậy.\n- HS quan sát kĩ, mô tả bằng câu rõ ràng, chỉ ra chi tiết trong tranh/video để chứng minh ý kiến.\n- HS lắng nghe bạn, bổ sung hoặc đặt câu hỏi lịch sự: “Bạn có thể nói rõ hơn… không?”"
             ],
             [
@@ -7296,7 +8088,7 @@
               "- HS thiết kế sản phẩm trên giấy A4 hoặc giấy nhóm.\n- HS quan sát kĩ, mô tả bằng câu rõ ràng, chỉ ra chi tiết trong tranh/video để chứng minh ý kiến.\n- HS lắng nghe bạn, bổ sung hoặc đặt câu hỏi lịch sự: “Bạn có thể nói rõ hơn… không?”"
             ],
             [
-              "- GV mời nhóm trình bày ý tưởng, nhóm khác góp ý.\n\n- GV yêu cầu HS nêu minh chứng cụ thể cho ưu điểm/hạn chế, tránh nhận xét chung chung; gợi ý: nền nếp, học tập, vệ sinh, an toàn, phong trào.\n- GV hướng dẫn lớp chọn một việc cần khắc phục ngay trong tuần tới và thống nhất cách theo dõi.",
+              "- GV mời nhóm trình bày ý tưởng, nhóm khác góp ý.\n- GV yêu cầu HS nêu minh chứng cụ thể cho ưu điểm/hạn chế, tránh nhận xét chung chung; gợi ý: nền nếp, học tập, vệ sinh, an toàn, phong trào.\n- GV hướng dẫn lớp chọn một việc cần khắc phục ngay trong tuần tới và thống nhất cách theo dõi.",
               "- Đại diện nhóm trình bày; HS khác nhận xét lịch sự.\n- HS lắng nghe, đối chiếu với việc làm của bản thân; nêu bổ sung bằng lời ngắn gọn, lịch sự.\n- HS ghi nhớ việc cần phát huy, việc cần khắc phục và đồng thuận bằng giơ tay/biểu quyết."
             ],
             [
@@ -7310,7 +8102,39 @@
               "- GV nhắc các nhóm hoàn thiện sản phẩm để trình bày ở tiết Sinh hoạt lớp.\n- GV giao nhiệm vụ theo từng bước: đọc yêu cầu, phân vai nhóm trưởng - thư kí - báo cáo viên - quản lí thời gian, thống nhất sản phẩm cần trình bày.\n- GV đi tới các nhóm, gợi mở thêm cho nhóm còn lúng túng: “Nhóm đã có đủ ý chưa? Ý nào cần ví dụ? Ai sẽ trình bày?”",
               "- HS ghi nhớ nhiệm vụ.\n- HS phân công nhiệm vụ trong nhóm, thảo luận đúng trọng tâm, ghi ý chính, thống nhất câu trả lời trước khi trình bày.\n- HS hợp tác, lắng nghe ý kiến khác nhau, bổ sung cho bạn và hoàn thiện sản phẩm nhóm."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: PHÒNG TRÁNH BỊ XÂM HẠI TÌNH DỤC",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
+          "- Trình bày được sản phẩm phòng tránh xâm hại tình dục đã hoàn thiện.",
+          "- Rèn luyện cách phòng tránh trong tình huống có nguy cơ bị xâm hại tình dục.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 4.1.CB1b: HS biết phòng tránh rủi ro xâm hại trên môi trường số; không gửi ảnh riêng tư, không trả lời người lạ hỏi thông tin cá nhân."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, phiếu bình chọn, phiếu nhận xét tuần.",
+          "- HS: sản phẩm nhóm, giấy A4, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -7356,7 +8180,7 @@
               "- Nhóm trưng bày poster/tờ rơi, trình bày ngắn gọn.\n- HS phân công nhiệm vụ trong nhóm, thảo luận đúng trọng tâm, ghi ý chính, thống nhất câu trả lời trước khi trình bày.\n- HS hợp tác, lắng nghe ý kiến khác nhau, bổ sung cho bạn và hoàn thiện sản phẩm nhóm."
             ],
             [
-              "- GV mời lớp bình chọn sản phẩm rõ thông điệp, dễ hiểu, có cách hành động cụ thể.\n\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
+              "- GV mời lớp bình chọn sản phẩm rõ thông điệp, dễ hiểu, có cách hành động cụ thể.\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
               "- HS quan sát, bình chọn, góp ý lịch sự.\n- HS quan sát kĩ, mô tả bằng câu rõ ràng, chỉ ra chi tiết trong tranh/video để chứng minh ý kiến.\n- HS lắng nghe bạn, bổ sung hoặc đặt câu hỏi lịch sự: “Bạn có thể nói rõ hơn… không?”"
             ],
             [
@@ -7371,7 +8195,7 @@
               "4. HOẠT ĐỘNG NHÓM: Sắm vai xử lí tình huống\n- Mục tiêu: HS thực hành cách xử lí tình huống nguy cơ bị xâm hại tình dục.\n* Cách tiến hành:"
             ],
             [
-              "- GV giao tình huống SGK, yêu cầu nhóm 4 đọc thầm, phân vai và thống nhất lời nói an toàn.\n\n- GV giao nhiệm vụ theo từng bước: đọc yêu cầu, phân vai nhóm trưởng - thư kí - báo cáo viên - quản lí thời gian, thống nhất sản phẩm cần trình bày.\n- GV đi tới các nhóm, gợi mở thêm cho nhóm còn lúng túng: “Nhóm đã có đủ ý chưa? Ý nào cần ví dụ? Ai sẽ trình bày?”",
+              "- GV giao tình huống SGK, yêu cầu nhóm 4 đọc thầm, phân vai và thống nhất lời nói an toàn.\n- GV giao nhiệm vụ theo từng bước: đọc yêu cầu, phân vai nhóm trưởng - thư kí - báo cáo viên - quản lí thời gian, thống nhất sản phẩm cần trình bày.\n- GV đi tới các nhóm, gợi mở thêm cho nhóm còn lúng túng: “Nhóm đã có đủ ý chưa? Ý nào cần ví dụ? Ai sẽ trình bày?”",
               "- HS nhận tình huống, phân vai: nhân vật chính, bạn hỗ trợ, người lớn tin cậy.\n- HS phân công nhiệm vụ trong nhóm, thảo luận đúng trọng tâm, ghi ý chính, thống nhất câu trả lời trước khi trình bày.\n- HS hợp tác, lắng nghe ý kiến khác nhau, bổ sung cho bạn và hoàn thiện sản phẩm nhóm."
             ],
             [
@@ -7395,7 +8219,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -7404,7 +8232,7 @@
     "sourceFile": "HĐTN TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI TRUYỀN THỐNG QUÊ EM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7414,40 +8242,19 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
-          "- Đề xuất được một số hoạt động kết nối những người sống xung quanh.",
-          "- Chia sẻ được với những người xung quanh về ý tưởng kết nối cộng đồng có thể thực hiện được.",
-          "- Thiết kế được tờ rơi/kế hoạch đơn giản để kêu gọi mọi người tham gia hoạt động cộng đồng.",
-          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
-          "- Chia sẻ được kết quả trao đổi với người xung quanh về ý tưởng kết nối cộng đồng.",
-          "- Lập được kế hoạch tham gia hoạt động kết nối cộng đồng phù hợp với lứa tuổi.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
           "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
           "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết tự hào truyền thống quê hương, tôn trọng di tích, lễ hội và tham gia hoạt động tập thể văn minh.",
-          "- Tích hợp QCN: HS biết quyền được tham gia hoạt động cộng đồng; trao đổi, mời gọi bạn bè tham gia hoạt động bằng lời nói/thông điệp số lịch sự.",
-          "- Tích hợp AI (4.A2.2): HS nhận biết cách AI có thể giúp kết nối và hỗ trợ những người yếu thế trong cộng đồng.",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống và BVMT: HS lập kế hoạch việc làm vừa sức như dọn vệ sinh, góp sách, giúp người khó khăn để xây dựng cộng đồng văn minh, xanh, sạch, đẹp."
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết tự hào truyền thống quê hương, tôn trọng di tích, lễ hội và tham gia hoạt động tập thể văn minh."
         ],
         "dodung": [
           "- GV: âm thanh, kịch bản ngày hội, tranh/ảnh/clip giới thiệu truyền thống địa phương, dụng cụ trò chơi dân gian.",
-          "- HS: trang phục gọn gàng, sổ tay/nháp, tinh thần tham gia văn minh.",
-          "- GV: máy tính, ti vi, tranh SGK, phiếu học tập, giấy A0/A4, bút màu, công cụ Google Dịch hoặc Live Transcribe/ứng dụng chuyển giọng nói thành văn bản do GV điều khiển.",
-          "- HS: giấy A4, bút màu, ý tưởng hoạt động cộng đồng.",
-          "- GV: máy tính, ti vi, tranh SGK, phiếu kế hoạch, phiếu nhận xét tuần.",
-          "- HS: tờ rơi/kế hoạch đã chuẩn bị, giấy A4, bút màu."
+          "- HS: trang phục gọn gàng, sổ tay/nháp, tinh thần tham gia văn minh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "SINH HOẠT LỚP: CỘNG ĐỒNG CÙNG HÀNH ĐỘNG",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -7473,7 +8280,7 @@
               "- HS thực hiện nghi lễ nghiêm túc, lắng nghe quy định.\n- HS tự chỉnh trang phục, giữ khoảng cách, hát rõ và nhắc bạn bên cạnh cùng thực hiện nghiêm túc.\n- HS nêu được việc cần làm: đứng nghiêm, mắt hướng cờ, hát đúng nhịp, giữ trật tự."
             ],
             [
-              "- GV tổ chức cho HS xem/tham gia hoạt động ngày hội: múa lân-rồng, văn nghệ, trò chơi dân gian, gian hàng quê.\n\n- GV phổ biến luật chơi rõ ràng, làm mẫu một lượt, nhắc HS chơi an toàn, không chen lấn, không trêu chọc bạn khi bạn trả lời sai.\n- GV đặt câu hỏi sau trò chơi: “Qua hoạt động vừa rồi, em rút ra thông điệp gì cho bản thân?”",
+              "- GV tổ chức cho HS xem/tham gia hoạt động ngày hội: múa lân-rồng, văn nghệ, trò chơi dân gian, gian hàng quê.\n- GV phổ biến luật chơi rõ ràng, làm mẫu một lượt, nhắc HS chơi an toàn, không chen lấn, không trêu chọc bạn khi bạn trả lời sai.\n- GV đặt câu hỏi sau trò chơi: “Qua hoạt động vừa rồi, em rút ra thông điệp gì cho bản thân?”",
               "- HS quan sát, cổ vũ lịch sự, tham gia theo lượt và giữ an toàn.\n- HS lắng nghe luật, tham gia đúng lượt, cổ vũ văn minh và tự kiểm soát hành vi khi vui chơi.\n- HS nêu thông điệp ngắn gọn, liên hệ với việc cần thực hiện trong học tập và sinh hoạt."
             ],
             [
@@ -7499,7 +8306,40 @@
               "- GV chốt thông điệp: Tự hào quê hương – Giữ gìn truyền thống – Sống văn minh.\n- GV gợi hỏi: “Hoạt động này có ích cho ai? Em có thể tham gia phần việc nào vừa sức? Cần ứng xử thế nào để văn minh?”\n- GV hướng dẫn HS liên hệ thực tế địa phương, nêu việc làm nhỏ nhưng cụ thể để giữ gìn truyền thống và xây dựng cộng đồng.",
               "- HS nhắc lại thông điệp và di chuyển về lớp trật tự.\n- HS nêu việc làm vừa sức, phù hợp lứa tuổi; biết tôn trọng người tham gia và giữ gìn vệ sinh, trật tự.\n- HS liên hệ nơi mình sống, chia sẻ hoạt động cộng đồng hoặc nét đẹp truyền thống mà em biết."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KẾT NỐI NHỮNG NGƯỜI SỐNG QUANH EM",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Đề xuất được một số hoạt động kết nối những người sống xung quanh.",
+          "- Chia sẻ được với những người xung quanh về ý tưởng kết nối cộng đồng có thể thực hiện được.",
+          "- Thiết kế được tờ rơi/kế hoạch đơn giản để kêu gọi mọi người tham gia hoạt động cộng đồng.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
+          "4. Tích hợp",
+          "- Tích hợp QCN: HS biết quyền được tham gia hoạt động cộng đồng; trao đổi, mời gọi bạn bè tham gia hoạt động bằng lời nói/thông điệp số lịch sự.",
+          "- Tích hợp AI (4.A2.2): HS nhận biết cách AI có thể giúp kết nối và hỗ trợ những người yếu thế trong cộng đồng."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, phiếu học tập, giấy A0/A4, bút màu, công cụ Google Dịch hoặc Live Transcribe/ứng dụng chuyển giọng nói thành văn bản do GV điều khiển.",
+          "- HS: giấy A4, bút màu, ý tưởng hoạt động cộng đồng."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -7520,7 +8360,7 @@
               "2. KHÁM PHÁ CHỦ ĐỀ: Nhận diện hoạt động kết nối cộng đồng\n- Mục tiêu: HS nhận biết hoạt động kết nối cộng đồng, thời điểm, người tham gia, mục đích và việc làm cụ thể.\n- Mục tiêu tích hợp: Tích hợp QCN: HS biết quyền được tham gia hoạt động cộng đồng, được bày tỏ ý kiến và mời gọi bạn bè tham gia bằng lời nói/thông điệp lịch sự.\n* Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh/ảnh SGK về hoạt động kết nối cộng đồng; yêu cầu nhóm 4 ghi tên hoạt động và người tham gia.\n\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
+              "- GV cho HS quan sát tranh/ảnh SGK về hoạt động kết nối cộng đồng; yêu cầu nhóm 4 ghi tên hoạt động và người tham gia.\n- GV hướng dẫn HS quan sát theo trình tự: nhìn tổng thể, chú ý nhân vật, hành động, bối cảnh, chi tiết đáng chú ý; đặt câu hỏi: “Em thấy gì? Em nghĩ gì? Vì sao?”\n- GV gợi ý HS dùng câu trả lời đầy đủ: “Em nhận thấy… vì…; theo em cần…” và khuyến khích nêu ý kiến khác nhau.",
               "- HS quan sát, ghi nhanh: lễ hội, vệ sinh đường làng, trồng cây, góp sách, giúp người khó khăn.\n- HS quan sát kĩ, mô tả bằng câu rõ ràng, chỉ ra chi tiết trong tranh/video để chứng minh ý kiến.\n- HS lắng nghe bạn, bổ sung hoặc đặt câu hỏi lịch sự: “Bạn có thể nói rõ hơn… không?”"
             ],
             [
@@ -7547,7 +8387,7 @@
               "- HS phân công thư kí, người trình bày, người thiết kế; thảo luận và ghi ý tưởng.\n- HS phân công nhiệm vụ trong nhóm, thảo luận đúng trọng tâm, ghi ý chính, thống nhất câu trả lời trước khi trình bày.\n- HS hợp tác, lắng nghe ý kiến khác nhau, bổ sung cho bạn và hoàn thiện sản phẩm nhóm."
             ],
             [
-              "- GV gợi ý: nội dung cần ngắn gọn, có việc làm cụ thể, phù hợp sức HS, an toàn và có ích.\n\n- GV gợi ý cấu trúc sản phẩm: tên hoạt động, mục đích, thời gian, địa điểm, người tham gia, việc cần làm, thông điệp hoặc lời kêu gọi.\n- GV nhắc HS trình bày rõ ràng, chữ đủ lớn, hình minh họa phù hợp; ưu tiên nội dung ngắn gọn, dễ thực hiện, an toàn.",
+              "- GV gợi ý: nội dung cần ngắn gọn, có việc làm cụ thể, phù hợp sức HS, an toàn và có ích.\n- GV gợi ý cấu trúc sản phẩm: tên hoạt động, mục đích, thời gian, địa điểm, người tham gia, việc cần làm, thông điệp hoặc lời kêu gọi.\n- GV nhắc HS trình bày rõ ràng, chữ đủ lớn, hình minh họa phù hợp; ưu tiên nội dung ngắn gọn, dễ thực hiện, an toàn.",
               "- HS hoàn thiện tờ rơi/kế hoạch trên giấy A4.\n- HS lựa chọn ý tưởng, ghi nội dung chính, trang trí vừa phải; kiểm tra lại sản phẩm theo tiêu chí GV đưa ra.\n- HS trình bày sản phẩm, nêu được lí do chọn ý tưởng và tiếp thu góp ý để hoàn thiện."
             ],
             [
@@ -7577,7 +8417,39 @@
               "- GV nhận xét tiết học, tuyên dương nhóm có ý tưởng thiết thực.\n- GV yêu cầu HS viết hoặc nói một cam kết ngắn, cụ thể, có thể kiểm chứng trong tuần; nhắc cách báo cáo kết quả ở tiết sau.\n- GV nhận xét tinh thần tham gia, nhấn mạnh việc vận dụng bài học vào đời sống hằng ngày.",
               "- HS lắng nghe, hoàn thiện sản phẩm nếu cần.\n- HS viết/nói cam kết cá nhân, chọn việc phù hợp với khả năng và hoàn cảnh của mình.\n- HS ghi nhớ nhiệm vụ về nhà, chuẩn bị minh chứng hoặc chia sẻ kết quả trong tiết học tiếp theo."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: CỘNG ĐỒNG CÙNG HÀNH ĐỘNG",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được ưu điểm, hạn chế trong tuần và phương hướng tuần tới.",
+          "- Chia sẻ được kết quả trao đổi với người xung quanh về ý tưởng kết nối cộng đồng.",
+          "- Lập được kế hoạch tham gia hoạt động kết nối cộng đồng phù hợp với lứa tuổi.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ ý kiến rõ ràng và phối hợp với bạn trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn phương án phù hợp, đề xuất cách làm an toàn, hiệu quả.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, tự đánh giá hành vi của bản thân và điều chỉnh khi cần.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, hỗ trợ bạn bè và những người xung quanh.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "- Trách nhiệm: Có ý thức giữ gìn an toàn, thực hiện đúng cam kết và quy định chung.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống và BVMT: HS lập kế hoạch việc làm vừa sức như dọn vệ sinh, góp sách, giúp người khó khăn để xây dựng cộng đồng văn minh, xanh, sạch, đẹp."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, tranh SGK, phiếu kế hoạch, phiếu nhận xét tuần.",
+          "- HS: tờ rơi/kế hoạch đã chuẩn bị, giấy A4, bút màu."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -7630,7 +8502,7 @@
               "4. HOẠT ĐỘNG NHÓM: Lập kế hoạch hoạt động kết nối cộng đồng\n- Mục tiêu: HS lập kế hoạch việc làm vừa sức để xây dựng cộng đồng văn minh, xanh, sạch, đẹp.\n- Mục tiêu tích hợp: Tích hợp lý tưởng cách mạng, đạo đức, lối sống và BVMT: HS biết tham gia việc chung, giúp người khó khăn, dọn vệ sinh, góp sách, trồng cây để cộng đồng tốt đẹp hơn.\n* Cách tiến hành:"
             ],
             [
-              "- GV giao mẫu kế hoạch: tên hoạt động, mục đích, thời gian, địa điểm, người tham gia, phân công, vật dụng cần chuẩn bị.\n\n- GV giao nhiệm vụ theo từng bước: đọc yêu cầu, phân vai nhóm trưởng - thư kí - báo cáo viên - quản lí thời gian, thống nhất sản phẩm cần trình bày.\n- GV đi tới các nhóm, gợi mở thêm cho nhóm còn lúng túng: “Nhóm đã có đủ ý chưa? Ý nào cần ví dụ? Ai sẽ trình bày?”",
+              "- GV giao mẫu kế hoạch: tên hoạt động, mục đích, thời gian, địa điểm, người tham gia, phân công, vật dụng cần chuẩn bị.\n- GV giao nhiệm vụ theo từng bước: đọc yêu cầu, phân vai nhóm trưởng - thư kí - báo cáo viên - quản lí thời gian, thống nhất sản phẩm cần trình bày.\n- GV đi tới các nhóm, gợi mở thêm cho nhóm còn lúng túng: “Nhóm đã có đủ ý chưa? Ý nào cần ví dụ? Ai sẽ trình bày?”",
               "- HS làm việc nhóm, điền kế hoạch vào phiếu.\n- HS phân công nhiệm vụ trong nhóm, thảo luận đúng trọng tâm, ghi ý chính, thống nhất câu trả lời trước khi trình bày.\n- HS hợp tác, lắng nghe ý kiến khác nhau, bổ sung cho bạn và hoàn thiện sản phẩm nhóm."
             ],
             [
@@ -7662,7 +8534,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -7671,7 +8547,7 @@
     "sourceFile": "HĐTN TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: HOẠT ĐỘNG CHỦ ĐỀ “ĐỀN ƠN ĐÁP NGHĨA”",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7687,39 +8563,13 @@
           "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
           "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
           "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết tri ân thế hệ đi trước, thực hiện việc làm phù hợp để thể hiện truyền thống uống nước nhớ nguồn.",
-          "- HS nêu được ý nghĩa của hoạt động đền ơn đáp nghĩa.",
-          "- HS tìm hiểu, chia sẻ được việc làm tri ân phù hợp với lứa tuổi.",
-          "- HS lập được kế hoạch nhỏ thể hiện lòng biết ơn.",
-          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS tìm hiểu thông tin về hoạt động đền ơn đáp nghĩa ở địa phương từ nguồn đáng tin cậy, ghi nội dung chính.",
-          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
-          "- HS chia sẻ được kết quả thực hiện việc làm tri ân sau trải nghiệm.",
-          "- HS biết tiếp tục thực hiện việc làm “Uống nước nhớ nguồn” phù hợp với bản thân."
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết tri ân thế hệ đi trước, thực hiện việc làm phù hợp để thể hiện truyền thống uống nước nhớ nguồn."
         ],
         "dodung": [
           "- GV: Kịch bản sinh hoạt dưới cờ, âm thanh, hình ảnh/clip minh họa, câu hỏi giao lưu, bảng thông điệp.",
-          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần.",
-          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
-          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị.",
-          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
-          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP: UỐNG NƯỚC NHỚ NGUỒN",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7771,7 +8621,41 @@
               "- GV mời 2–3 HS trình bày trước lớp, nhắc HS nói rõ việc làm cụ thể, vừa sức.",
               "- HS trình bày: em sẽ thực hiện một việc phù hợp với chủ đề, ví dụ giúp đỡ, giữ vệ sinh, nói lời cảm ơn, giới thiệu cảnh đẹp hoặc bảo vệ môi trường."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ĐỀN ƠN ĐÁP NGHĨA",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nêu được ý nghĩa của hoạt động đền ơn đáp nghĩa.",
+          "- HS tìm hiểu, chia sẻ được việc làm tri ân phù hợp với lứa tuổi.",
+          "- HS lập được kế hoạch nhỏ thể hiện lòng biết ơn.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS tìm hiểu thông tin về hoạt động đền ơn đáp nghĩa ở địa phương từ nguồn đáng tin cậy, ghi nội dung chính."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
+          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -7849,7 +8733,41 @@
               "- GV mời một số HS đọc cam kết, nhận xét tiết học và dặn chuẩn bị nội dung chia sẻ ở tiết Sinh hoạt lớp.",
               "- HS đọc cam kết, lắng nghe dặn dò và chuẩn bị minh chứng/sản phẩm theo yêu cầu."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: UỐNG NƯỚC NHỚ NGUỒN",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
+          "- HS chia sẻ được kết quả thực hiện việc làm tri ân sau trải nghiệm.",
+          "- HS biết tiếp tục thực hiện việc làm “Uống nước nhớ nguồn” phù hợp với bản thân.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết tri ân thế hệ đi trước, thực hiện việc làm phù hợp để thể hiện truyền thống uống nước nhớ nguồn."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
+          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -7964,7 +8882,13 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7973,7 +8897,7 @@
     "sourceFile": "HĐTN TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: LÒNG NHÂN ÁI KẾT NỐI CỘNG ĐỒNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7990,39 +8914,14 @@
           "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
           "4. Tích hợp",
           "- Tích hợp QCN: HS hiểu mọi người đều có quyền được tôn trọng, được hỗ trợ và được tham gia cộng đồng an toàn.",
-          "- HS nhận ra hành động ứng xử có văn hóa và chưa có văn hóa ở nơi công cộng.",
-          "- HS nêu được lí do cần ứng xử văn minh trong cộng đồng.",
-          "- HS biết xử lí tình huống bằng lời nói, hành vi phù hợp.",
-          "- Tích hợp QCN: HS biết ứng xử lịch sự, xếp hàng, giữ vệ sinh, không xâm phạm tài sản và không làm ảnh hưởng đến người khác nơi công cộng.",
-          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
-          "- HS chia sẻ được việc làm ứng xử văn minh đã thực hiện.",
-          "- HS biết tạo thông điệp cổ vũ cộng đồng văn minh.",
-          "- Tích hợp NLS 2.3.CB1a: HS viết/thể hiện thông điệp ứng xử văn minh trong cộng đồng bằng poster hoặc công cụ số đơn giản."
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Giữ sạch bờ biển Ba Động, sông Cổ Chiên; không xả rác làm ô nhiễm nguồn nước cảnh quan thiên nhiên.",
+          "- Giáo dục địa phương (Chủ đề 3): Tìm hiểu du lịch sinh thái Trà Vinh (khu du lịch sinh thái cộng đồng Cồn Chim, Cồn Long Trị, rừng ngập mặn Duyên Hải)."
         ],
         "dodung": [
           "- GV: Kịch bản sinh hoạt dưới cờ, âm thanh, hình ảnh/clip minh họa, câu hỏi giao lưu, bảng thông điệp.",
-          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần.",
-          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
-          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị.",
-          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
-          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP: CỘNG ĐỒNG VĂN MINH",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8071,10 +8970,48 @@
               "- HS chia sẻ theo cặp; lắng nghe cảm nghĩ của bạn và bổ sung bằng lời động viên."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 3) & Mizuiku: GV giới thiệu vẻ đẹp du lịch sinh thái của tỉnh Trà Vinh: Khu du lịch cộng đồng Cồn Chim xanh mát ven sông Cổ Chiên, Cồn Long Trị và bãi biển Ba Động cát mịn rợp bóng phi lao. Giáo dục HS hành vi văn minh khi đi du lịch: không vứt rác, vỏ chai nhựa xuống biển, xuống sông để bảo vệ nguồn nước và hệ sinh thái thủy sinh.",
+              "- HS chia sẻ cảm nhận về vẻ đẹp các danh lam thắng cảnh, điểm du lịch sinh thái ở Trà Vinh; cam kết hành động xanh: giữ sạch bờ biển, dòng sông quê hương khi đi tham quan, dã ngoại."
+            ],
+            [
               "- GV mời 2–3 HS trình bày trước lớp, nhắc HS nói rõ việc làm cụ thể, vừa sức.",
               "- HS trình bày: em sẽ thực hiện một việc phù hợp với chủ đề, ví dụ giúp đỡ, giữ vệ sinh, nói lời cảm ơn, giới thiệu cảnh đẹp hoặc bảo vệ môi trường."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ỨNG XỬ CÓ VĂN HÓA",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra hành động ứng xử có văn hóa và chưa có văn hóa ở nơi công cộng.",
+          "- HS nêu được lí do cần ứng xử văn minh trong cộng đồng.",
+          "- HS biết xử lí tình huống bằng lời nói, hành vi phù hợp.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp QCN: HS biết ứng xử lịch sự, xếp hàng, giữ vệ sinh, không xâm phạm tài sản và không làm ảnh hưởng đến người khác nơi công cộng."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
+          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -8152,7 +9089,41 @@
               "- GV mời một số HS đọc cam kết, nhận xét tiết học và dặn chuẩn bị nội dung chia sẻ ở tiết Sinh hoạt lớp.",
               "- HS đọc cam kết, lắng nghe dặn dò và chuẩn bị minh chứng/sản phẩm theo yêu cầu."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: CỘNG ĐỒNG VĂN MINH",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
+          "- HS chia sẻ được việc làm ứng xử văn minh đã thực hiện.",
+          "- HS biết tạo thông điệp cổ vũ cộng đồng văn minh.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 2.3.CB1a: HS viết/thể hiện thông điệp ứng xử văn minh trong cộng đồng bằng poster hoặc công cụ số đơn giản."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
+          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -8267,7 +9238,13 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8276,7 +9253,7 @@
     "sourceFile": "HĐTN TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GIỚI THIỆU CẢNH QUAN THIÊN NHIÊN ĐỊA PHƯƠNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8290,41 +9267,13 @@
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
           "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
-          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
-          "- HS nêu được thông tin về cảnh quan thiên nhiên tại địa phương.",
-          "- HS xây dựng được hành trình trải nghiệm cảnh quan để giới thiệu với mọi người.",
-          "- HS biết trình bày hành trình bằng sơ đồ, tranh hoặc bảng kế hoạch.",
-          "4. Tích hợp",
-          "- Tích hợp AI (4.C2.1): HS trình bày ứng dụng AI trong đời sống và giao thông; sử dụng AI để lập kế hoạch cho chuyến du lịch địa phương, có kiểm chứng thông tin.",
-          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
-          "- HS chia sẻ được hành trình trải nghiệm đã chuẩn bị.",
-          "- HS rèn kĩ năng lập hành trình, phân công nhiệm vụ và chia sẻ cảm nhận.",
-          "- Tích hợp KNS: HS rèn kĩ năng lập hành trình trải nghiệm, biết chuẩn bị thông tin, phân công nhiệm vụ và chia sẻ cảm nhận sau hoạt động."
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương."
         ],
         "dodung": [
           "- GV: Kịch bản sinh hoạt dưới cờ, âm thanh, hình ảnh/clip minh họa, câu hỏi giao lưu, bảng thông điệp.",
-          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần.",
-          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
-          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị.",
-          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
-          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP: HÀNH TRÌNH TRẢI NGHIỆM",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8372,7 +9321,41 @@
               "- GV mời 2–3 HS trình bày trước lớp, nhắc HS nói rõ việc làm cụ thể, vừa sức.",
               "- HS trình bày: em sẽ thực hiện một việc phù hợp với chủ đề, ví dụ giúp đỡ, giữ vệ sinh, nói lời cảm ơn, giới thiệu cảnh đẹp hoặc bảo vệ môi trường."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: XÂY DỰNG HÀNH TRÌNH TRẢI NGHIỆM",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nêu được thông tin về cảnh quan thiên nhiên tại địa phương.",
+          "- HS xây dựng được hành trình trải nghiệm cảnh quan để giới thiệu với mọi người.",
+          "- HS biết trình bày hành trình bằng sơ đồ, tranh hoặc bảng kế hoạch.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp AI (4.C2.1): HS trình bày ứng dụng AI trong đời sống và giao thông; sử dụng AI để lập kế hoạch cho chuyến du lịch địa phương, có kiểm chứng thông tin."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
+          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -8450,7 +9433,41 @@
               "- GV mời một số HS đọc cam kết, nhận xét tiết học và dặn chuẩn bị nội dung chia sẻ ở tiết Sinh hoạt lớp.",
               "- HS đọc cam kết, lắng nghe dặn dò và chuẩn bị minh chứng/sản phẩm theo yêu cầu."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: HÀNH TRÌNH TRẢI NGHIỆM",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
+          "- HS chia sẻ được hành trình trải nghiệm đã chuẩn bị.",
+          "- HS rèn kĩ năng lập hành trình, phân công nhiệm vụ và chia sẻ cảm nhận.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp KNS: HS rèn kĩ năng lập hành trình trải nghiệm, biết chuẩn bị thông tin, phân công nhiệm vụ và chia sẻ cảm nhận sau hoạt động."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
+          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -8565,7 +9582,13 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8574,7 +9597,7 @@
     "sourceFile": "HĐTN TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: THAM GIA THUYẾT TRÌNH CHỦ ĐỀ “BẢO VỆ CẢNH QUAN THIÊN NHIÊN”",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8588,41 +9611,13 @@
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
           "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
-          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
-          "- HS giới thiệu được cảnh quan thiên nhiên quê hương bằng sơ đồ, mô hình hoặc sổ tay.",
-          "- HS biết lựa chọn thông tin tiêu biểu, trình bày rõ ràng, tự tin.",
-          "- HS biết đề xuất việc làm bảo vệ cảnh quan.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS tìm thông tin/hình ảnh cảnh quan quê hương từ nguồn đáng tin cậy; biết giới thiệu và đề xuất cách bảo vệ cảnh quan.",
-          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
-          "- HS giới thiệu được cảnh quan thiên nhiên ở địa phương.",
-          "- HS biết liên hệ cảnh đẹp đầm Ao Châu của Phú Thọ và thêm yêu quê hương.",
-          "- Tích hợp GDĐP: CĐ2 - HĐ Khám phá (trang 11): HS biết cảnh đẹp đầm Ao Châu của Phú Thọ, từ đó thêm yêu quê hương và có ý thức giới thiệu cảnh quan địa phương."
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương."
         ],
         "dodung": [
           "- GV: Kịch bản sinh hoạt dưới cờ, âm thanh, hình ảnh/clip minh họa, câu hỏi giao lưu, bảng thông điệp.",
-          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần.",
-          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
-          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị.",
-          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
-          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP: GIỚI THIỆU CẢNH QUAN THIÊN NHIÊN Ở ĐỊA PHƯƠNG",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8670,7 +9665,41 @@
               "- GV mời 2–3 HS trình bày trước lớp, nhắc HS nói rõ việc làm cụ thể, vừa sức.",
               "- HS trình bày: em sẽ thực hiện một việc phù hợp với chủ đề, ví dụ giúp đỡ, giữ vệ sinh, nói lời cảm ơn, giới thiệu cảnh đẹp hoặc bảo vệ môi trường."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CẢNH QUAN THIÊN NHIÊN QUÊ HƯƠNG EM",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS giới thiệu được cảnh quan thiên nhiên quê hương bằng sơ đồ, mô hình hoặc sổ tay.",
+          "- HS biết lựa chọn thông tin tiêu biểu, trình bày rõ ràng, tự tin.",
+          "- HS biết đề xuất việc làm bảo vệ cảnh quan.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS tìm thông tin/hình ảnh cảnh quan quê hương từ nguồn đáng tin cậy; biết giới thiệu và đề xuất cách bảo vệ cảnh quan."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
+          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -8748,7 +9777,41 @@
               "- GV mời một số HS đọc cam kết, nhận xét tiết học và dặn chuẩn bị nội dung chia sẻ ở tiết Sinh hoạt lớp.",
               "- HS đọc cam kết, lắng nghe dặn dò và chuẩn bị minh chứng/sản phẩm theo yêu cầu."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: GIỚI THIỆU CẢNH QUAN THIÊN NHIÊN Ở ĐỊA PHƯƠNG",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
+          "- HS giới thiệu được cảnh quan thiên nhiên ở địa phương.",
+          "- HS biết liên hệ cảnh đẹp đầm Ao Châu của Phú Thọ và thêm yêu quê hương.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp GDĐP: CĐ2 - HĐ Khám phá (trang 11): HS biết cảnh đẹp đầm Ao Châu của Phú Thọ, từ đó thêm yêu quê hương và có ý thức giới thiệu cảnh quan địa phương."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
+          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -8863,7 +9926,13 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8872,7 +9941,7 @@
     "sourceFile": "HĐTN TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHUNG TAY BẢO VỆ CẢNH QUAN ĐỊA PHƯƠNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8888,40 +9957,13 @@
           "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
           "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
           "4. Tích hợp",
-          "- Tích hợp GDĐP CĐ2: HS yêu quý cảnh quan địa phương, biết giữ gìn và giới thiệu cảnh quan quê hương.",
-          "- HS nhận biết dấu hiệu xâm hại, tàn phá cảnh quan thiên nhiên.",
-          "- HS nêu được nguyên nhân, hậu quả và biện pháp khắc phục.",
-          "- HS lập được kế hoạch chăm sóc, bảo vệ cảnh quan tại địa phương.",
-          "- Tích hợp BVMT: HS biết khảo sát thực trạng cảnh quan địa phương, nhận diện điểm cần chăm sóc, bảo vệ và đề xuất việc làm phù hợp để giữ gìn môi trường xanh, sạch, đẹp.",
-          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
-          "- HS trình bày được kết quả khảo sát cảnh quan thiên nhiên.",
-          "- HS biết tổng hợp nhận xét, lắng nghe góp ý và thống nhất biện pháp cải thiện cảnh quan.",
-          "- Tích hợp KNS: HS rèn kĩ năng tổng hợp kết quả khảo sát, trình bày nhận xét rõ ràng, lắng nghe góp ý và thống nhất biện pháp cải thiện cảnh quan địa phương."
+          "- Tích hợp GDĐP CĐ2: HS yêu quý cảnh quan địa phương, biết giữ gìn và giới thiệu cảnh quan quê hương."
         ],
         "dodung": [
           "- GV: Kịch bản sinh hoạt dưới cờ, âm thanh, hình ảnh/clip minh họa, câu hỏi giao lưu, bảng thông điệp.",
-          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần.",
-          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
-          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị.",
-          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
-          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+          "- HS: Trang phục gọn gàng, tâm thế sẵn sàng tham gia, sổ tay/nháp ghi ý chính nếu cần."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP: KẾT QUẢ KHẢO SÁT THỰC TRẠNG CẢNH QUAN THIÊN NHIÊN",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8973,7 +10015,41 @@
               "- GV mời 2–3 HS trình bày trước lớp, nhắc HS nói rõ việc làm cụ thể, vừa sức.",
               "- HS trình bày: em sẽ thực hiện một việc phù hợp với chủ đề, ví dụ giúp đỡ, giữ vệ sinh, nói lời cảm ơn, giới thiệu cảnh đẹp hoặc bảo vệ môi trường."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KHẢO SÁT THỰC TRẠNG CẢNH QUAN THIÊN NHIÊN",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận biết dấu hiệu xâm hại, tàn phá cảnh quan thiên nhiên.",
+          "- HS nêu được nguyên nhân, hậu quả và biện pháp khắc phục.",
+          "- HS lập được kế hoạch chăm sóc, bảo vệ cảnh quan tại địa phương.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp BVMT: HS biết khảo sát thực trạng cảnh quan địa phương, nhận diện điểm cần chăm sóc, bảo vệ và đề xuất việc làm phù hợp để giữ gìn môi trường xanh, sạch, đẹp."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh SGK/hình ảnh minh họa, phiếu học tập, giấy A0/A4, bút dạ.",
+          "- HS: SGK, vở/giấy A4, bút màu, sản phẩm hoặc thông tin đã chuẩn bị."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -9051,7 +10127,41 @@
               "- GV mời một số HS đọc cam kết, nhận xét tiết học và dặn chuẩn bị nội dung chia sẻ ở tiết Sinh hoạt lớp.",
               "- HS đọc cam kết, lắng nghe dặn dò và chuẩn bị minh chứng/sản phẩm theo yêu cầu."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "SINH HOẠT LỚP: KẾT QUẢ KHẢO SÁT THỰC TRẠNG CẢNH QUAN THIÊN NHIÊN",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận ra ưu điểm, hạn chế trong tuần và đề ra hướng khắc phục.",
+          "- HS trình bày được kết quả khảo sát cảnh quan thiên nhiên.",
+          "- HS biết tổng hợp nhận xét, lắng nghe góp ý và thống nhất biện pháp cải thiện cảnh quan.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lắng nghe, ghi nhớ yêu cầu và tự đánh giá kết quả hoạt động.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, chia sẻ ý kiến, phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp và đề xuất ý tưởng mới.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập và sinh hoạt tập thể.",
+          "- Trách nhiệm: Thực hiện đúng nhiệm vụ được giao, giữ gìn nề nếp, an toàn và cam kết hành động.",
+          "- Nhân ái/Yêu nước: Biết yêu thương, quan tâm, tự hào và có ý thức đóng góp cho gia đình, nhà trường, quê hương.",
+          "4. Tích hợp",
+          "- Tích hợp KNS: HS rèn kĩ năng tổng hợp kết quả khảo sát, trình bày nhận xét rõ ràng, lắng nghe góp ý và thống nhất biện pháp cải thiện cảnh quan địa phương."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, tranh/tình huống SGK, phiếu nhận xét tuần, giấy A4, bút màu.",
+          "- HS: Sản phẩm/ghi chép sau trải nghiệm, tâm thế sẵn sàng chia sẻ và lắng nghe."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -9166,7 +10276,13 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9175,7 +10291,7 @@
     "sourceFile": "HĐTN TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI SỐNG XANH - BẢO VỆ MÔI TRƯỜNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9192,18 +10308,15 @@
           "- Nhân ái: Biết yêu quý thiên nhiên, cảnh quan và môi trường sống.",
           "4. Tích hợp",
           "- Tích hợp BVMT: HS biết quyền sống trong môi trường trong lành và trách nhiệm tham gia bảo vệ cảnh quan địa phương.",
-          "- Tích hợp AI (4.A2.1): Mục tiêu: AI bảo vệ môi trường vì cuộc sống tốt đẹp hơn. Hoạt động: Xem video về cách AI giám sát độ phủ rừng và phát hiện cháy rừng sớm để bảo vệ \"lá phổi xanh\" của quê hương."
+          "- Tích hợp AI (4.A2.1): Mục tiêu: AI bảo vệ môi trường vì cuộc sống tốt đẹp hơn. Hoạt động: Xem video về cách AI giám sát độ phủ rừng và phát hiện cháy rừng sớm để bảo vệ \"lá phổi xanh\" của quê hương.",
+          "- Giáo dục địa phương: Giữ gìn nguồn nước kênh rạch trong lành, bảo vệ cảnh quan sông nước vùng đồng bằng tỉnh Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Thực hành kiểm tra rò rỉ nước, khóa vòi nước cẩn thận, tham gia chiến dịch 'Bảo vệ nguồn nước trường học em'."
         ],
         "dodung": [
           "- GV: Kế hoạch sinh hoạt dưới cờ; chương trình hoạt động; âm thanh, sân khấu; tranh/ảnh/video minh họa; phần thưởng hoặc hoa chúc mừng nếu có.",
           "- HS: Trang phục gọn gàng; tâm thế nghiêm túc; chuẩn bị câu hỏi, lời chia sẻ hoặc sản phẩm theo phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9272,15 +10385,24 @@
               "- HS lắng nghe, ghi nhớ cách sử dụng AI an toàn, nêu một lợi ích và một lưu ý khi dùng AI trong bảo vệ môi trường."
             ],
             [
+              "- Tích hợp Mizuiku & GDĐP: GV tổ chức hoạt động 'Chiến sĩ nhỏ bảo vệ nguồn nước': Hướng dẫn HS kiểm tra hệ thống vòi nước rửa tay, bình uống nước trong khuôn viên trường học để phát hiện rò rỉ; nhắc nhở gia đình không vứt rác, xác động vật xuống kênh mương quanh nhà, giữ cho dòng nước Trà Vinh luôn sạch trong.",
+              "- HS sôi nổi tham gia, nêu cam kết: thường xuyên kiểm tra vòi nước trường lớp; nhắc nhở người thân và bạn bè không làm ô nhiễm nguồn nước sông rạch ở địa phương."
+            ],
+            [
               "- GV yêu cầu mỗi HS chọn một cam kết nhỏ để thực hiện sau hoạt động.",
               "- HS lựa chọn một việc làm phù hợp để thực hiện trong tuần."
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: CHĂM SÓC, BẢO VỆ CẢNH QUAN THIÊN NHIÊN",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - TIẾT 2: CHĂM SÓC, BẢO VỆ CẢNH QUAN THIÊN NHIÊN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9290,6 +10412,7 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phản hồi lịch sự và phối hợp với bạn khi làm việc nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích nhiệm vụ, lựa chọn cách thực hiện phù hợp, trình bày ý tưởng rõ ràng.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị đồ dùng, thực hiện nhiệm vụ và tự điều chỉnh cách làm khi cần.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động học tập, thảo luận và hoàn thành nhiệm vụ được giao.",
           "- Trách nhiệm: Có ý thức thực hiện nhiệm vụ của bản thân, tôn trọng sản phẩm và ý kiến của bạn.",
@@ -9302,12 +10425,6 @@
           "- HS: Giấy A4, bút màu, hồ sơ/sản phẩm/tư liệu đã chuẩn bị; tâm thế sẵn sàng thảo luận."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP"
-        ],
         "tables": [
           [
             [
@@ -9400,10 +10517,15 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: CHĂM SÓC, BẢO VỆ CẢNH QUAN THIÊN NHIÊN"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: THỰC HIỆN KẾ HOẠCH CHĂM SÓC, BẢO VỆ CẢNH QUAN THIÊN NHIÊN",
+        "lessonTitle": "SINH HOẠT LỚP - TIẾT 3: THỰC HIỆN KẾ HOẠCH CHĂM SÓC, BẢO VỆ CẢNH QUAN THIÊN NHIÊN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9412,6 +10534,7 @@
           "- HS biết phối hợp nhóm, tự đánh giá và tiếp tục thực hiện việc làm bảo vệ cảnh quan.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết chia sẻ, trao đổi, lắng nghe và phối hợp khi tham gia hoạt động chung của lớp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, đề xuất cách thực hiện nhiệm vụ và điều chỉnh kế hoạch khi cần.",
           "- Tự chủ và tự học: Biết tự đánh giá bản thân, thực hiện cam kết và nhiệm vụ tuần mới.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia sinh hoạt lớp và hoàn thành nhiệm vụ được giao.",
@@ -9425,11 +10548,6 @@
           "- HS: Sản phẩm, tư liệu hoặc kết quả trải nghiệm đã chuẩn bị; vở ghi và bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9553,7 +10671,12 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: THỰC HIỆN KẾ HOẠCH CHĂM SÓC, BẢO VỆ CẢNH QUAN THIÊN NHIÊN"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9562,7 +10685,7 @@
     "sourceFile": "HĐTN TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: THẾ GIỚI NGHỀ NGHIỆP QUANH EM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9585,11 +10708,6 @@
           "- HS: Trang phục gọn gàng; tâm thế nghiêm túc; chuẩn bị câu hỏi, lời chia sẻ hoặc sản phẩm theo phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9655,10 +10773,15 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: NGHỀ TRUYỀN THỐNG",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - TIẾT 2: NGHỀ TRUYỀN THỐNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9668,6 +10791,7 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phản hồi lịch sự và phối hợp với bạn khi làm việc nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích nhiệm vụ, lựa chọn cách thực hiện phù hợp, trình bày ý tưởng rõ ràng.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị đồ dùng, thực hiện nhiệm vụ và tự điều chỉnh cách làm khi cần.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động học tập, thảo luận và hoàn thành nhiệm vụ được giao.",
           "- Trách nhiệm: Có ý thức thực hiện nhiệm vụ của bản thân, tôn trọng sản phẩm và ý kiến của bạn.",
@@ -9680,12 +10804,6 @@
           "- HS: Giấy A4, bút màu, hồ sơ/sản phẩm/tư liệu đã chuẩn bị; tâm thế sẵn sàng thảo luận."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP"
-        ],
         "tables": [
           [
             [
@@ -9778,10 +10896,15 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: NGHỀ TRUYỀN THỐNG"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: THEO DẤU NGHỆ NHÂN",
+        "lessonTitle": "SINH HOẠT LỚP - TIẾT 3: THEO DẤU NGHỆ NHÂN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9790,6 +10913,7 @@
           "- HS biết quan sát, phỏng vấn, ghi chép thông tin khi tìm hiểu nghề truyền thống.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết chia sẻ, trao đổi, lắng nghe và phối hợp khi tham gia hoạt động chung của lớp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, đề xuất cách thực hiện nhiệm vụ và điều chỉnh kế hoạch khi cần.",
           "- Tự chủ và tự học: Biết tự đánh giá bản thân, thực hiện cam kết và nhiệm vụ tuần mới.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia sinh hoạt lớp và hoàn thành nhiệm vụ được giao.",
@@ -9803,11 +10927,6 @@
           "- HS: Sản phẩm, tư liệu hoặc kết quả trải nghiệm đã chuẩn bị; vở ghi và bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9931,7 +11050,12 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: THEO DẤU NGHỆ NHÂN"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9940,7 +11064,7 @@
     "sourceFile": "HĐTN TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI “NGHỆ NHÂN TƯƠNG LAI”",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9961,11 +11085,6 @@
           "- HS: Trang phục gọn gàng; tâm thế nghiêm túc; chuẩn bị câu hỏi, lời chia sẻ hoặc sản phẩm theo phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10023,10 +11142,15 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: KHÉO TAY, THẠO VIỆC",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - TIẾT 2: KHÉO TAY, THẠO VIỆC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10036,6 +11160,7 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phản hồi lịch sự và phối hợp với bạn khi làm việc nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích nhiệm vụ, lựa chọn cách thực hiện phù hợp, trình bày ý tưởng rõ ràng.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị đồ dùng, thực hiện nhiệm vụ và tự điều chỉnh cách làm khi cần.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động học tập, thảo luận và hoàn thành nhiệm vụ được giao.",
           "- Trách nhiệm: Có ý thức thực hiện nhiệm vụ của bản thân, tôn trọng sản phẩm và ý kiến của bạn.",
@@ -10048,12 +11173,6 @@
           "- HS: Giấy A4, bút màu, hồ sơ/sản phẩm/tư liệu đã chuẩn bị; tâm thế sẵn sàng thảo luận."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP"
-        ],
         "tables": [
           [
             [
@@ -10146,10 +11265,15 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: KHÉO TAY, THẠO VIỆC"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SẢN PHẨM CỦA NGHỀ TRUYỀN THỐNG Ở ĐỊA PHƯƠNG",
+        "lessonTitle": "SINH HOẠT LỚP - TIẾT 3: SẢN PHẨM CỦA NGHỀ TRUYỀN THỐNG Ở ĐỊA PHƯƠNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10158,6 +11282,7 @@
           "- HS biết chia sẻ, nhận xét và trân trọng sản phẩm lao động của nghệ nhân.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết chia sẻ, trao đổi, lắng nghe và phối hợp khi tham gia hoạt động chung của lớp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, đề xuất cách thực hiện nhiệm vụ và điều chỉnh kế hoạch khi cần.",
           "- Tự chủ và tự học: Biết tự đánh giá bản thân, thực hiện cam kết và nhiệm vụ tuần mới.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia sinh hoạt lớp và hoàn thành nhiệm vụ được giao.",
@@ -10171,11 +11296,6 @@
           "- HS: Sản phẩm, tư liệu hoặc kết quả trải nghiệm đã chuẩn bị; vở ghi và bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10299,7 +11419,12 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SẢN PHẨM CỦA NGHỀ TRUYỀN THỐNG Ở ĐỊA PHƯƠNG"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10308,7 +11433,7 @@
     "sourceFile": "HĐTN TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: KỈ NIỆM SINH NHẬT BÁC HỒ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10329,11 +11454,6 @@
           "- HS: Trang phục gọn gàng; tâm thế nghiêm túc; chuẩn bị câu hỏi, lời chia sẻ hoặc sản phẩm theo phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10391,10 +11511,15 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: TRIỂN LÃM “THEO DẤU NGHỆ NHÂN”",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - TIẾT 2: TRIỂN LÃM “THEO DẤU NGHỆ NHÂN”",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10404,6 +11529,7 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phản hồi lịch sự và phối hợp với bạn khi làm việc nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích nhiệm vụ, lựa chọn cách thực hiện phù hợp, trình bày ý tưởng rõ ràng.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị đồ dùng, thực hiện nhiệm vụ và tự điều chỉnh cách làm khi cần.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động học tập, thảo luận và hoàn thành nhiệm vụ được giao.",
           "- Trách nhiệm: Có ý thức thực hiện nhiệm vụ của bản thân, tôn trọng sản phẩm và ý kiến của bạn.",
@@ -10416,12 +11542,6 @@
           "- HS: Giấy A4, bút màu, hồ sơ/sản phẩm/tư liệu đã chuẩn bị; tâm thế sẵn sàng thảo luận."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP"
-        ],
         "tables": [
           [
             [
@@ -10514,10 +11634,15 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: TRIỂN LÃM “THEO DẤU NGHỆ NHÂN”"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: TỔNG KẾT HOẠT ĐỘNG “THEO DẤU NGHỆ NHÂN”",
+        "lessonTitle": "SINH HOẠT LỚP - TIẾT 3: TỔNG KẾT HOẠT ĐỘNG “THEO DẤU NGHỆ NHÂN”",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10526,6 +11651,7 @@
           "- HS nêu được điều học được và đề xuất việc làm giữ gìn nghề truyền thống.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết chia sẻ, trao đổi, lắng nghe và phối hợp khi tham gia hoạt động chung của lớp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, đề xuất cách thực hiện nhiệm vụ và điều chỉnh kế hoạch khi cần.",
           "- Tự chủ và tự học: Biết tự đánh giá bản thân, thực hiện cam kết và nhiệm vụ tuần mới.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia sinh hoạt lớp và hoàn thành nhiệm vụ được giao.",
@@ -10539,11 +11665,6 @@
           "- HS: Sản phẩm, tư liệu hoặc kết quả trải nghiệm đã chuẩn bị; vở ghi và bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10667,7 +11788,12 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: TỔNG KẾT HOẠT ĐỘNG “THEO DẤU NGHỆ NHÂN”"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10676,7 +11802,7 @@
     "sourceFile": "HĐTN TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: KỈ NIỆM SINH NHẬT BÁC HỒ (TIẾP THEO) + LỄ TỔNG KẾT NĂM HỌC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10699,11 +11825,6 @@
           "- HS: Trang phục gọn gàng; tâm thế nghiêm túc; chuẩn bị câu hỏi, lời chia sẻ hoặc sản phẩm theo phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10769,10 +11890,15 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HỒ SƠ TRẢI NGHIỆM",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - TIẾT 2: HỒ SƠ TRẢI NGHIỆM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10782,6 +11908,7 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phản hồi lịch sự và phối hợp với bạn khi làm việc nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích nhiệm vụ, lựa chọn cách thực hiện phù hợp, trình bày ý tưởng rõ ràng.",
+          "- Tự chủ và tự học: Chủ động chuẩn bị đồ dùng, thực hiện nhiệm vụ và tự điều chỉnh cách làm khi cần.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia hoạt động học tập, thảo luận và hoàn thành nhiệm vụ được giao.",
           "- Trách nhiệm: Có ý thức thực hiện nhiệm vụ của bản thân, tôn trọng sản phẩm và ý kiến của bạn.",
@@ -10795,12 +11922,6 @@
           "- HS: Giấy A4, bút màu, hồ sơ/sản phẩm/tư liệu đã chuẩn bị; tâm thế sẵn sàng thảo luận."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "SINH HOẠT LỚP"
-        ],
         "tables": [
           [
             [
@@ -10901,10 +12022,15 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HỒ SƠ TRẢI NGHIỆM"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: CHIA SẺ YÊU THƯƠNG",
+        "lessonTitle": "SINH HOẠT LỚP - TIẾT 3: CHIA SẺ YÊU THƯƠNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10913,6 +12039,7 @@
           "- HS biết lựa chọn việc làm thể hiện tình cảm, trách nhiệm trong dịp hè.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Biết chia sẻ, trao đổi, lắng nghe và phối hợp khi tham gia hoạt động chung của lớp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, đề xuất cách thực hiện nhiệm vụ và điều chỉnh kế hoạch khi cần.",
           "- Tự chủ và tự học: Biết tự đánh giá bản thân, thực hiện cam kết và nhiệm vụ tuần mới.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực tham gia sinh hoạt lớp và hoàn thành nhiệm vụ được giao.",
@@ -10926,11 +12053,6 @@
           "- HS: Sản phẩm, tư liệu hoặc kết quả trải nghiệm đã chuẩn bị; vở ghi và bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11054,7 +12176,12 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: CHIA SẺ YÊU THƯƠNG"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................"
+        ]
       }
     ]
   }

@@ -20,3 +20,4 @@ chrome_temp_profile/
 *_tree.json
 *_raw.json
 real_drive_cache.json
+*_backup*/

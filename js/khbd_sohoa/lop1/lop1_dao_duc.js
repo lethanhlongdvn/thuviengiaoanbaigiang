@@ -14,10 +14,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: EM GIỮ SẠCH ĐÔI TAY",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 1: EM GIỮ SẠCH ĐÔI TAY - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được những việc cần làm để giữ sạch đôi tay.",
           "- Biết được lí do cần giữ sạch đôi tay và hậu quả khi đôi tay không sạch.",
@@ -38,7 +37,6 @@
           "- Học sinh: SGK, vở bài tập; khăn sạch; đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -143,7 +141,7 @@
             ]
           ]
         ],
-        "title": "BÀI 1: EM GIỮ SẠCH ĐÔI TAY"
+        "dieuchinh": []
       }
     ]
   },
@@ -152,10 +150,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: EM GIỮ SẠCH RĂNG MIỆNG",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 2: EM GIỮ SẠCH RĂNG MIỆNG - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được lợi ích của việc giữ sạch răng miệng.",
           "- Nêu được một số việc cần làm để răng miệng sạch, không sâu răng.",
@@ -177,7 +174,6 @@
           "- Học sinh: SGK, vở bài tập; bàn chải cá nhân hoặc mô hình thực hành."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -282,7 +278,7 @@
             ]
           ]
         ],
-        "title": "BÀI 2: EM GIỮ SẠCH RĂNG MIỆNG"
+        "dieuchinh": []
       }
     ]
   },
@@ -291,10 +287,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: EM TẮM, GỘI SẠCH SẼ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 3: EM TẮM, GỘI SẠCH SẼ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được lí do cần giữ đầu tóc, cơ thể sạch sẽ.",
           "- Nêu được các việc cần làm để tắm, gội sạch sẽ.",
@@ -315,10 +310,6 @@
           "- Học sinh: SGK, vở bài tập; khăn nhỏ; đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -407,7 +398,10 @@
             ]
           ]
         ],
-        "title": "BÀI 3: EM TẮM, GỘI SẠCH SẼ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -416,10 +410,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: EM GIỮ TRANG PHỤC GỌN GÀNG, SẠCH SẼ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 4: EM GIỮ TRANG PHỤC GỌN GÀNG, SẠCH SẼ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được các việc cần làm để giữ trang phục gọn gàng, sạch sẽ.",
           "- Biết được vì sao cần giữ trang phục gọn gàng, sạch sẽ.",
@@ -432,6 +425,8 @@
           "- Chăm chỉ: Duy trì thói quen mặc gọn gàng, sạch sẽ.",
           "- Trách nhiệm: Giữ gìn trang phục của bản thân, góp phần bảo vệ sức khỏe.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 1: Phong tục chào hỏi ở quê em - Trang 5 TLGDĐP Trà Vinh): Nhận biết nét đẹp trang phục lịch sự, chỉnh tề khi đi học và khi cùng gia đình tham gia các lễ hội, đi chùa Khmer (như chùa Âng, chùa Hang), đình miếu tại quê hương Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M4, M10): Giữ vệ sinh trang phục sạch sẽ gắn với thói quen sử dụng nước tiết kiệm (dùng cốc hứng nước khi chải răng, rửa tay đúng cách, khóa chặt vòi nước để tránh nước xịt làm ướt bẩn quần áo).",
           "- Quyền trẻ em được chăm sóc sức khỏe, trong đó có quyền được mặc trang phục sạch sẽ, an toàn.",
           "- Bổn phận trẻ em đối với bản thân: Biết tự chăm sóc và giữ gìn trang phục gọn gàng, sạch sẽ để bảo vệ sức khỏe và tạo nếp sống văn minh."
         ],
@@ -440,10 +435,6 @@
           "- Học sinh: SGK, vở bài tập; trang phục đang mặc để thực hành kiểm tra."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -479,6 +470,18 @@
             [
               "- GV yêu cầu HS quan sát các hình và nêu cách kiểm tra trang phục trước khi đến lớp.",
               "- HS nêu: Bẻ cổ áo; cài cúc; chỉnh áo; cài quai dép; kiểm tra sạch sẽ."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 1 GDĐP 1): “Khi cùng người thân đi dự lễ hội Ok Om Bok hoặc đến viếng thăm các ngôi chùa Khmer cổ kính ở Trà Vinh (như chùa Âng, chùa Hang), các em nên mặc trang phục như thế nào?”",
+              "- HS trả lời: Mặc quần áo chỉnh tề, sạch sẽ, kín đáo và trang nghiêm; cởi mũ nón, bỏ dép trước khi vào chính điện ạ."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp Tiết kiệm và bảo vệ nguồn nước (Mã Mizuiku M4, M10): “Khi rửa tay hoặc đánh răng trước khi đi học, em làm gì để quần áo không bị ướt và không lãng phí nước sạch?”",
+              "- HS trả lời: Vặn vòi nước nhỏ vừa đủ, dùng cốc hứng nước súc miệng và khóa chặt vòi nước; xắn tay áo gọn gàng trước khi rửa để không làm ướt áo ạ."
+            ],
+            [
+              "- GV kết luận: Giữ trang phục sạch đẹp, lịch sự và sử dụng nước tiết kiệm giúp các em trở thành người học sinh thanh lịch, văn minh của quê hương Trà Vinh.",
+              "- HS lắng nghe và ghi nhớ thực hiện hằng ngày."
             ],
             [
               "- GV hỏi dẫn tích hợp: “Vì sao trang phục sạch, an toàn có liên quan đến việc chăm sóc sức khỏe của trẻ em?”",
@@ -532,7 +535,10 @@
             ]
           ]
         ],
-        "title": "BÀI 4: EM GIỮ TRANG PHỤC GỌN GÀNG, SẠCH SẼ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -541,10 +547,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 1",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 1 - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được sự cần thiết của tình yêu thương trong gia đình.",
           "- Nêu được một số biểu hiện yêu thương, quan tâm giữa các thành viên trong gia đình.",
@@ -566,7 +571,6 @@
           "- Học sinh: SGK, vở bài tập; ảnh gia đình hoặc tranh vẽ gia đình (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -663,7 +667,7 @@
             ]
           ]
         ],
-        "title": "BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 1"
+        "dieuchinh": []
       }
     ]
   },
@@ -672,10 +676,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 2",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 2 - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được những biểu hiện cụ thể của tình yêu thương trong gia đình.",
           "- Đồng tình với hành vi thể hiện sự quan tâm, chia sẻ; không đồng tình với hành vi thờ ơ, chưa biết giúp đỡ người thân.",
@@ -696,10 +699,6 @@
           "- Học sinh: SGK, vở bài tập; ảnh hoặc tranh vẽ gia đình (nếu có); đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -773,7 +772,10 @@
             ]
           ]
         ],
-        "title": "BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 2"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -782,15 +784,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: LỄ PHÉP, VÂNG LỜI ÔNG BÀ, CHA MẸ, ANH CHỊ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 6: LỄ PHÉP, VÂNG LỜI ÔNG BÀ, CHA MẸ, ANH CHỊ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được biểu hiện và ý nghĩa của sự lễ phép, vâng lời đối với ông bà, cha mẹ, anh chị.",
           "- Nêu được lời nói, việc làm lễ phép trong một số tình huống gần gũi.",
           "- Thực hiện được cách ứng xử phù hợp khi được người thân nhắc nhở hoặc nhờ giúp đỡ.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự điều chỉnh lời nói, hành vi để thể hiện lễ phép.",
           "- Giao tiếp và hợp tác: Biết nói lời phù hợp, lắng nghe và tôn trọng người lớn.",
           "- Giải quyết vấn đề: Lựa chọn cách ứng xử đúng trong tình huống gia đình.",
           "3. Phẩm chất",
@@ -798,6 +800,7 @@
           "- Trách nhiệm: Vâng lời, thực hiện việc vừa sức khi được giao.",
           "- Chăm chỉ: Rèn thói quen chào hỏi, thưa gửi hằng ngày.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 1: Phong tục chào hỏi ở quê em - Trang 5 TLGDĐP Trà Vinh): Bồi dưỡng nét đẹp văn hóa chào hỏi lễ phép, tôn kính ông bà, cha mẹ của người dân quê hương Trà Vinh (đứng ngay ngắn, khoanh tay trước ngực, cúi đầu nhẹ, nói lời “Dạ, thưa” lễ phép).",
           "- Tích hợp đạo đức - lối sống: Bồi dưỡng lòng kính trọng, biết ơn đối với ông bà, cha mẹ, thầy cô; xây dựng tình cảm gia đình ấm êm, tôn trọng người khác."
         ],
         "dodung": [
@@ -805,10 +808,6 @@
           "- Học sinh: SGK, vở bài tập; thẻ bày tỏ ý kiến."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -840,6 +839,14 @@
             [
               "- GV hỏi: “Trong lời nói của bạn, tiếng nào thể hiện sự lễ phép?”",
               "- HS trả lời: Tiếng “ạ”, lời chào, lời dạ vâng."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 1 GDĐP 1): “Ở quê hương Trà Vinh chúng ta, khi gặp ông bà, cha mẹ hoặc người lớn tuổi trong xóm ấp, các em chào hỏi như thế nào để thể hiện sự ngoan ngoãn, lễ phép?”",
+              "- HS thực hành: Đứng ngay ngắn, hai tay khoanh trước ngực, cúi đầu nhẹ và nói lời chào: “Dạ, con chào ông/bà ạ!”, “Dạ, con thưa ba/mẹ con mới đi học về ạ!”."
+            ],
+            [
+              "- GV diễn giải tích hợp Giáo dục địa phương Trà Vinh: Người Trà Vinh từ xưa đến nay luôn coi trọng sự hiếu kính, lễ phép. Cử chỉ khoanh tay, nụ cười tươi và tiếng “Dạ”, tiếng “Thưa” ngọt ngào là nét đẹp truyền thống của học sinh quê hương Trà Vinh chúng ta.",
+              "- HS lắng nghe, tự hào và cam kết luôn lễ phép với người thân, lối xóm."
             ],
             [
               "- GV hỏi: “Vì sao em cần lễ phép, vâng lời ông bà, cha mẹ, anh chị?”",
@@ -893,7 +900,10 @@
             ]
           ]
         ],
-        "title": "BÀI 6: LỄ PHÉP, VÂNG LỜI ÔNG BÀ, CHA MẸ, ANH CHỊ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -902,10 +912,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: QUAN TÂM, CHĂM SÓC ÔNG BÀ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 7: QUAN TÂM, CHĂM SÓC ÔNG BÀ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được những việc làm thể hiện sự quan tâm, chăm sóc ông bà.",
           "- Nêu được ý nghĩa của việc quan tâm, chăm sóc ông bà.",
@@ -926,10 +935,6 @@
           "- Học sinh: SGK, vở bài tập; đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1014,7 +1019,10 @@
             ]
           ]
         ],
-        "title": "BÀI 7: QUAN TÂM, CHĂM SÓC ÔNG BÀ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1023,7 +1031,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ I - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1044,10 +1052,6 @@
           "- Học sinh: Bảng con/thẻ đáp án; vở bài tập; bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1128,7 +1132,10 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1137,10 +1144,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: QUAN TÂM, CHĂM SÓC CHA MẸ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 8: QUAN TÂM, CHĂM SÓC CHA MẸ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được biểu hiện và ý nghĩa của việc quan tâm, chăm sóc cha mẹ.",
           "- Nêu được những việc làm phù hợp với lứa tuổi để thể hiện tình yêu thương với cha mẹ.",
@@ -1161,10 +1167,6 @@
           "- Học sinh: SGK, vở bài tập; bút, thẻ bày tỏ ý kiến."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1257,7 +1259,10 @@
             ]
           ]
         ],
-        "title": "BÀI 8: QUAN TÂM, CHĂM SÓC CHA MẸ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1266,10 +1271,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: CHĂM SÓC, GIÚP ĐỠ EM NHỎ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 9: CHĂM SÓC, GIÚP ĐỠ EM NHỎ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được biểu hiện và ý nghĩa của việc chăm sóc, giúp đỡ em nhỏ.",
           "- Nêu được những việc làm phù hợp để quan tâm, bảo vệ và giúp đỡ em nhỏ.",
@@ -1289,10 +1293,6 @@
           "- Học sinh: SGK, vở bài tập; thẻ bày tỏ ý kiến; đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1381,7 +1381,10 @@
             ]
           ]
         ],
-        "title": "BÀI 9: CHĂM SÓC, GIÚP ĐỠ EM NHỎ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1390,10 +1393,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: ĐI HỌC ĐÚNG GIỜ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 10: ĐI HỌC ĐÚNG GIỜ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được biểu hiện và lợi ích của việc đi học đúng giờ.",
           "- Nêu được một số việc cần chuẩn bị để đi học đúng giờ.",
@@ -1407,6 +1409,7 @@
           "- Trách nhiệm: Tôn trọng nội quy thời gian của trường, lớp.",
           "- Trung thực: Biết tự nhận xét việc đi học đúng giờ của bản thân.",
           "4. Tích hợp",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M7, M10): Hình thành nền nếp chuẩn bị nước uống cá nhân mang theo khi đến trường; sử dụng nước sạch đúng cách, tiết kiệm và khóa vòi nước sau khi dùng.",
           "- QCN: Giúp HS hiểu trẻ em có quyền được đi học và cần đi học đúng giờ để thực hiện tốt quyền học tập của mình.",
           "- Tích hợp AI: 1.A2.2: Nhận biết công dụng của sản phẩm AI giúp hoạt động thông minh hơn; học sinh nhận biết đồng hồ thông minh hoặc trợ lý ảo có thể nhắc giờ đến lớp, từ đó hình thành thói quen đi học đúng giờ."
         ],
@@ -1415,10 +1418,6 @@
           "- Học sinh: SGK, vở bài tập; bảng con; thẻ bày tỏ ý kiến."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1479,6 +1478,14 @@
               "- HS trả lời: Chuẩn bị sách vở, ngủ đúng giờ, thức dậy đúng giờ, ăn sáng và đi học sớm."
             ],
             [
+              "- GV hỏi dẫn tích hợp Tiết kiệm và bảo vệ nguồn nước (Mã HĐ Mizuiku M7, M10): “Vào buổi sáng trước khi đến trường, em chuẩn bị nước uống và vệ sinh cá nhân như thế nào để vừa nhanh chóng, kịp giờ học vừa tiết kiệm nước?”",
+              "- HS trả lời: Rót nước đun sôi để nguội vào bình cá nhân mang theo; đánh răng dùng cốc hứng nước, rửa mặt vặn vòi nước vừa đủ và khóa chặt vòi nước ngay sau khi dùng ạ."
+            ],
+            [
+              "- GV khen ngợi và dặn dò: Chuẩn bị bình nước cá nhân sạch sẽ và sử dụng nước tiết kiệm giúp em chủ động bảo vệ sức khỏe và luôn đến lớp đúng giờ.",
+              "- HS ghi nhớ và thực hiện mỗi buổi sáng."
+            ],
+            [
               "- GV nêu tình huống: “Sắp đến giờ đi học nhưng em còn muốn xem tivi, em sẽ làm gì?”",
               "- HS trả lời: Em tắt tivi, chuẩn bị đi học ngay."
             ],
@@ -1515,7 +1522,10 @@
             ]
           ]
         ],
-        "title": "BÀI 10: ĐI HỌC ĐÚNG GIỜ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1524,10 +1534,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được ý nghĩa của việc học bài và làm bài đầy đủ.",
           "- Thực hiện được việc học bài, làm bài đầy đủ trước khi đến lớp.",
@@ -1548,10 +1557,6 @@
           "- Học sinh: SGK, vở bài tập; bảng con; đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1636,7 +1641,10 @@
             ]
           ]
         ],
-        "title": "BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1645,10 +1653,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được ý nghĩa của việc học bài và làm bài đầy đủ.",
           "- Thực hiện được việc học bài, làm bài đầy đủ trước khi đến lớp.",
@@ -1669,10 +1676,6 @@
           "- Học sinh: SGK, vở bài tập; bảng con; đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1757,7 +1760,10 @@
             ]
           ]
         ],
-        "title": "BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1766,10 +1772,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 13: GIỮ GÌN TÀI SẢN CỦA TRƯỜNG, LỚP",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 13: GIỮ GÌN TÀI SẢN CỦA TRƯỜNG, LỚP - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được một số tài sản của trường, lớp và những việc cần làm để giữ gìn tài sản.",
           "- Biết ý nghĩa của việc giữ gìn tài sản chung.",
@@ -1789,10 +1794,6 @@
           "- Học sinh: SGK, vở bài tập; đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1869,7 +1870,10 @@
             ]
           ]
         ],
-        "title": "BÀI 13: GIỮ GÌN TÀI SẢN CỦA TRƯỜNG, LỚP"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1878,10 +1882,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14: GIỮ VỆ SINH TRƯỜNG, LỚP",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 14: GIỮ VỆ SINH TRƯỜNG, LỚP - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được ý nghĩa và những việc cần làm để giữ vệ sinh trường, lớp.",
           "- Thực hiện được một số việc giữ vệ sinh phù hợp với khả năng.",
@@ -1901,10 +1904,6 @@
           "- Học sinh: SGK, vở bài tập; đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1981,7 +1980,10 @@
             ]
           ]
         ],
-        "title": "BÀI 14: GIỮ VỆ SINH TRƯỜNG, LỚP"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1990,10 +1992,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15: GỌN GÀNG, NGĂN NẮP",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 15: GỌN GÀNG, NGĂN NẮP - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện của gọn gàng, ngăn nắp.",
           "- Biết vì sao cần sống gọn gàng, ngăn nắp.",
@@ -2013,10 +2014,6 @@
           "- Học sinh: SGK, vở bài tập; hộp bút, sách vở; đồ dùng cá nhân."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2097,7 +2094,10 @@
             ]
           ]
         ],
-        "title": "BÀI 15: GỌN GÀNG, NGĂN NẮP"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2106,7 +2106,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - ÔN TẬP - ĐÁNH GIÁ CUỐI HỌC KÌ I - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2114,6 +2114,7 @@
           "- Nhận xét được hành vi đúng, chưa đúng trong các tình huống quen thuộc.",
           "- Tự đánh giá được một số việc bản thân đã thực hiện và xác định việc cần tiếp tục rèn luyện.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự đánh giá và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Tham gia trò chơi, thảo luận và góp ý cho bạn lịch sự.",
           "- Giải quyết vấn đề: Lựa chọn cách ứng xử đúng trong tình huống thực tế.",
           "3. Phẩm chất",
@@ -2126,10 +2127,6 @@
           "- Học sinh: Bảng con, phấn/bút; thẻ ngôi sao; đồ dùng học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2218,7 +2215,10 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2227,10 +2227,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: HỌC TẬP, SINH HOẠT ĐÚNG GIỜ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 16: HỌC TẬP, SINH HOẠT ĐÚNG GIỜ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện và lợi ích của việc học tập, sinh hoạt đúng giờ.",
           "- Xây dựng được thời gian biểu đơn giản phù hợp với lứa tuổi.",
@@ -2238,6 +2237,7 @@
           "2. Năng lực chung",
           "- Tự chủ và tự học: Biết quản lí thời gian và chủ động thực hiện thời gian biểu.",
           "- Giao tiếp và hợp tác: Trao đổi, thống nhất với bạn trong hoạt động nhóm.",
+          "- Giải quyết vấn đề: Nhận biết và điều chỉnh việc làm chưa đúng giờ.",
           "3. Phẩm chất",
           "- Chăm chỉ: Kiên trì thực hiện việc học tập, sinh hoạt đúng giờ.",
           "- Trách nhiệm: Tôn trọng giờ học, giờ ăn, giờ nghỉ của bản thân và mọi người.",
@@ -2250,10 +2250,6 @@
           "- Học sinh: SGK, vở bài tập; bút màu; phiếu thời gian biểu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2342,7 +2338,10 @@
             ]
           ]
         ],
-        "title": "BÀI 16: HỌC TẬP, SINH HOẠT ĐÚNG GIỜ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2351,10 +2350,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 17: TỰ GIÁC HỌC TẬP",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 17: TỰ GIÁC HỌC TẬP - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được biểu hiện và ích lợi của việc tự giác học tập.",
           "- Phân biệt được hành vi tự giác và chưa tự giác học tập.",
@@ -2367,6 +2365,7 @@
           "- Chăm chỉ: Tích cực, kiên trì trong học tập.",
           "- Trách nhiệm: Biết tự hoàn thành nhiệm vụ học tập của mình.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 5: Tấm gương chăm chỉ học tập ở quê em - Trang 35 TLGDĐP Trà Vinh): Noi theo tấm gương tự giác, vượt khó vươn lên học tập thành tài của Anh hùng Lao động, Thầy thuốc Nhân dân - Giáo sư, Bác sĩ Nguyễn Thiện Thành (quê ở Càng Long, Trà Vinh).",
           "- Quyền con người: Quyền được học tập; bổn phận trẻ em đối với bản thân.",
           "- NLS 1.1.CB1a: Xác định được thông tin, tìm kiếm dữ liệu, thông tin và nội dung thông qua tìm kiếm đơn giản trong môi trường số."
         ],
@@ -2375,10 +2374,6 @@
           "- Học sinh: SGK, vở bài tập; thẻ bày tỏ ý kiến; bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2418,6 +2413,18 @@
             [
               "- GV giúp HS hiểu: Mỗi trẻ em có quyền được học tập, được thầy cô hướng dẫn. Đi cùng quyền ấy là bổn phận với bản thân: tự giác nghe giảng, làm bài, không học đối phó, biết hỏi khi chưa hiểu. Tự giác giúp em trưởng thành, tự tin và có tương lai tốt hơn.",
               "- HS lắng nghe; nêu một việc tự giác học tập em sẽ thực hiện."
+            ],
+            [
+              "- GV giới thiệu tích hợp Giáo dục địa phương Trà Vinh (Bài 5 GDĐP 1): Chiếu chân dung Giáo sư, Bác sĩ Nguyễn Thiện Thành và kể ngắn gọn: “Quê hương Trà Vinh chúng ta có tấm gương sáng ngời về tinh thần tự giác học tập là Giáo sư, Bác sĩ Nguyễn Thiện Thành (quê ở Càng Long, Trà Vinh). Từ nhỏ, dù hoàn cảnh khó khăn, bác luôn chăm chỉ, tự giác đọc sách, say mê học tập và sau này trở thành một bác sĩ tài ba cứu chữa cho bộ đội và nhân dân.”",
+              "- HS chăm chú lắng nghe, bày tỏ sự khâm phục tấm gương bác sĩ Nguyễn Thiện Thành."
+            ],
+            [
+              "- GV hỏi: “Noi gương Giáo sư Nguyễn Thiện Thành, người con ưu tú của quê hương Trà Vinh, các em sẽ tự giác học tập như thế nào?”",
+              "- HS trả lời: Tự giác ngồi vào bàn học đúng giờ, chăm chỉ viết bài, đọc sách và làm bài đầy đủ không cần cha mẹ nhắc nhở ạ."
+            ],
+            [
+              "- GV biểu dương và chốt ý: Tự giác học tập chính là hành động thiết thực nhất để các em lớn lên góp phần xây dựng quê hương Trà Vinh giàu đẹp.",
+              "- HS đồng thanh hưởng ứng quyết tâm tự giác học tốt."
             ],
             [
               "- GV kết luận: Tự giác học tập là chủ động thực hiện việc học mà không chờ nhắc nhở.",
@@ -2471,7 +2478,10 @@
             ]
           ]
         ],
-        "title": "BÀI 17: TỰ GIÁC HỌC TẬP"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2480,10 +2490,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 18: TỰ GIÁC THAM GIA CÁC HOẠT ĐỘNG Ở TRƯỜNG",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 18: TỰ GIÁC THAM GIA CÁC HOẠT ĐỘNG Ở TRƯỜNG - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được những hoạt động ở trường cần tự giác tham gia.",
           "- Biết vì sao cần tự giác tham gia hoạt động tập thể.",
@@ -2504,10 +2513,6 @@
           "- Học sinh: SGK, vở bài tập; bút; thẻ bày tỏ ý kiến."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2588,7 +2593,10 @@
             ]
           ]
         ],
-        "title": "BÀI 18: TỰ GIÁC THAM GIA CÁC HOẠT ĐỘNG Ở TRƯỜNG"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2597,10 +2605,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 19: TỰ GIÁC LÀM VIỆC NHÀ",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 19: TỰ GIÁC LÀM VIỆC NHÀ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được những việc nhà phù hợp với lứa tuổi và lợi ích của việc tự giác làm việc nhà.",
           "- Phân biệt được hành vi tự giác, chưa tự giác qua tranh và tình huống.",
@@ -2621,10 +2628,6 @@
           "- Học sinh: SGK, vở bài tập; bút; thẻ bày tỏ ý kiến."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2705,7 +2708,10 @@
             ]
           ]
         ],
-        "title": "BÀI 19: TỰ GIÁC LÀM VIỆC NHÀ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2714,15 +2720,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 20: KHÔNG NÓI DỐI",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 20: KHÔNG NÓI DỐI - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được biểu hiện của việc nói dối và hậu quả của nói dối.",
           "- Biết vì sao cần nói thật; đồng tình với hành vi thật thà.",
           "- Thực hiện được lời nói trung thực, lễ phép trong tình huống gần gũi.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự điều chỉnh khi mắc lỗi và mạnh dạn nói thật.",
           "- Giao tiếp và hợp tác: Lắng nghe, chia sẻ và đóng vai xử lí tình huống.",
           "- Giải quyết vấn đề: Lựa chọn cách nói đúng sự thật, phù hợp hoàn cảnh.",
           "3. Phẩm chất",
@@ -2738,10 +2744,6 @@
           "- Học sinh: SGK, vở bài tập; thẻ lựa chọn; bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2830,7 +2832,10 @@
             ]
           ]
         ],
-        "title": "BÀI 20: KHÔNG NÓI DỐI"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2839,20 +2844,21 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 21: KHÔNG TỰ Ý LẤY VÀ SỬ DỤNG ĐỒ CỦA NGƯỜI KHÁC",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 21: KHÔNG TỰ Ý LẤY VÀ SỬ DỤNG ĐỒ CỦA NGƯỜI KHÁC - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được tác hại của việc tự ý lấy và sử dụng đồ của người khác.",
           "- Nêu được cách ứng xử đúng: hỏi mượn, được đồng ý mới sử dụng và trả lại sau khi dùng.",
           "- Biết nhắc bạn không tự ý lấy đồ bằng lời nói lịch sự.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự điều chỉnh hành vi, biết xin phép trước khi dùng đồ của người khác.",
           "- Giao tiếp và hợp tác: Trao đổi theo cặp, theo nhóm; biết nói lời hỏi mượn và cảm ơn.",
           "- Giải quyết vấn đề: Lựa chọn được cách ứng xử đúng trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Trung thực: Không giấu việc lấy đồ; dám nhận lỗi khi làm sai.",
           "- Trách nhiệm: Biết giữ gìn và trả lại đồ sau khi sử dụng.",
+          "- Tôn trọng: Tôn trọng đồ dùng, công sức và quyền của người khác.",
           "4. Tích hợp",
           "- NLS 2.2.CB1a: Nhận biết được công nghệ số đơn giản, phù hợp để chia sẻ dữ liệu, thông tin và nội dung kĩ thuật số; thực hiện hành vi ứng xử có trách nhiệm trong môi trường số."
         ],
@@ -2861,11 +2867,6 @@
           "- Học sinh: SGK, vở bài tập; bút; thẻ lựa chọn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Tôn trọng: Tôn trọng đồ dùng, công sức và quyền của người khác.",
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2962,7 +2963,10 @@
             ]
           ]
         ],
-        "title": "BÀI 21: KHÔNG TỰ Ý LẤY VÀ SỬ DỤNG ĐỒ CỦA NGƯỜI KHÁC"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2971,10 +2975,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 22: NHẶT ĐƯỢC CỦA RƠI TRẢ LẠI NGƯỜI ĐÁNH MẤT",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 22: NHẶT ĐƯỢC CỦA RƠI TRẢ LẠI NGƯỜI ĐÁNH MẤT - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được ý nghĩa của việc nhặt được của rơi trả lại người đánh mất.",
           "- Biết cách xử lí phù hợp khi nhặt được đồ vật trong tình huống gần gũi.",
@@ -2995,10 +2998,6 @@
           "- Học sinh: SGK, vở bài tập; thẻ lựa chọn; bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3099,7 +3098,10 @@
             ]
           ]
         ],
-        "title": "BÀI 22: NHẶT ĐƯỢC CỦA RƠI TRẢ LẠI NGƯỜI ĐÁNH MẤT"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3108,10 +3110,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 23: BIẾT NHẬN LỖI",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 23: BIẾT NHẬN LỖI - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Biết được ý nghĩa của việc nhận lỗi, xin lỗi và sửa lỗi.",
           "- Thực hiện được lời xin lỗi chân thành và nêu hành động sửa sai khi mắc lỗi.",
@@ -3132,10 +3133,6 @@
           "- Học sinh: SGK, vở bài tập; bút; thẻ bày tỏ ý kiến."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3236,7 +3233,10 @@
             ]
           ]
         ],
-        "title": "BÀI 23: BIẾT NHẬN LỖI"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3245,7 +3245,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ II - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3253,6 +3253,7 @@
           "- Nhận biết được hành vi thật thà: không nói dối, không tự ý lấy đồ, biết trả lại của rơi và biết nhận lỗi.",
           "- Ứng xử phù hợp trong các tình huống đạo đức đơn giản, gần gũi.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự nhận xét, điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Trao đổi trong nhóm, lắng nghe và đóng vai cùng bạn.",
           "- Giải quyết vấn đề: Lựa chọn cách ứng xử đúng trong tình huống.",
           "3. Phẩm chất",
@@ -3266,10 +3267,6 @@
           "- Học sinh: SGK, vở; bút; thẻ màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3362,7 +3359,10 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3371,10 +3371,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 24: PHÒNG, TRÁNH TAI NẠN GIAO THÔNG",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 24: PHÒNG, TRÁNH TAI NẠN GIAO THÔNG - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được một số tình huống có thể dẫn đến tai nạn giao thông.",
           "- Nêu và thực hiện được những việc nên làm để phòng, tránh tai nạn giao thông phù hợp lứa tuổi.",
@@ -3397,10 +3396,6 @@
           "- Học sinh: SGK, vở bài tập; bút; thẻ lựa chọn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3513,7 +3508,10 @@
             ]
           ]
         ],
-        "title": "BÀI 24: PHÒNG, TRÁNH TAI NẠN GIAO THÔNG"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3522,10 +3520,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 25: PHÒNG, TRÁNH ĐUỐI NƯỚC",
+        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 25: PHÒNG, TRÁNH ĐUỐI NƯỚC - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
-          "Thời lượng: 01 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được những tình huống có thể dẫn đến đuối nước và hậu quả có thể xảy ra.",
           "- Phân biệt được việc nên làm, không nên làm để phòng, tránh đuối nước.",
@@ -3539,6 +3536,8 @@
           "- Chăm chỉ: Tích cực học và thực hành quy tắc an toàn.",
           "- Nhân ái: Biết báo người lớn hỗ trợ khi thấy người gặp nguy hiểm.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 8: Bảo vệ môi trường nơi em sống - Trang 54 TLGDĐP Trà Vinh): Nhận biết nguy cơ đuối nước ở mạng lưới kênh rạch, ao hồ, sông nước đặc thù vùng quê Trà Vinh (sông Cổ Chiên, sông Hậu, ao hồ, kênh mương nội đồng).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10): Tuân thủ quy tắc an toàn khi tiếp xúc với nguồn nước (không tự ý đến gần mé ao, mé kênh rạch, lu nước sâu; đi xuồng, đò ngang phải mặc áo phao; giữ sạch nguồn nước sinh hoạt).",
           "- Quyền con người: HS nhận biết trẻ em có quyền được sống, được bảo vệ tính mạng, sức khỏe và được sống trong môi trường an toàn; biết tự bảo vệ mình và tôn trọng quyền được an toàn của người khác.",
           "- Phòng tránh tai nạn thương tích: HS nhận diện nguy cơ đuối nước, biết cách phòng tránh; không chơi gần sông, hồ, ao, suối khi không có người lớn; đi thuyền phải mặc áo phao, biết kêu cứu và báo người lớn khi gặp nguy hiểm."
         ],
@@ -3547,9 +3546,6 @@
           "- Học sinh: SGK, vở bài tập; bút; thẻ lựa chọn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3585,6 +3581,14 @@
             [
               "- GV yêu cầu HS nhận xét việc làm của các bạn trong tranh và nêu hậu quả có thể xảy ra.",
               "- HS trả lời: Chơi gần mép nước, nghịch nước khi không có người lớn, ngồi thuyền không an toàn; có thể bị ngã xuống nước, đuối nước."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh & Bảo vệ nguồn nước (Bài 8 GDĐP 1 & Mã Mizuiku M10): “Vùng quê Trà Vinh chúng ta có rất nhiều sông, kênh rạch, ao hồ và lu/bể chứa nước. Để phòng tránh tai nạn đuối nước và bảo vệ nguồn nước sạch, các em tuyệt đối không được làm những việc gì?”",
+              "- HS trả lời: Tuyệt đối không tự ý rủ nhau ra tắm sông, tắm kênh rạch hoặc ao hồ khi không có người lớn; không đùa nghịch chạy nhảy bên mé kênh trơn trượt; không leo trèo lên miệng lu nước, bể chứa nước; đi đò ngang qua sông Cổ Chiên phải mặc áo phao ạ."
+            ],
+            [
+              "- GV diễn giải và dặn dò: Sông nước Trà Vinh hiền hòa nuôi dưỡng cây trái nhưng cũng tiềm ẩn nhiều nguy cơ đuối nước nếu các em bất cẩn. Hãy luôn biết bảo vệ sự an toàn của bản thân và giữ gìn các dòng kênh, bờ ao quê hương luôn trong xanh, không xả rác xuống nguồn nước nhé.",
+              "- HS khắc sâu bài học an toàn và đồng thanh cam kết thực hiện."
             ],
             [
               "- GV chia nhóm 4, giao nhiệm vụ: trao đổi một tình huống trong tranh và nêu cách tránh nguy hiểm.",
@@ -3662,7 +3666,9 @@
             ]
           ]
         ],
-        "title": "BÀI 25: PHÒNG, TRÁNH ĐUỐI NƯỚC"
+        "dieuchinh": [
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3671,7 +3677,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 26: PHÒNG, TRÁNH BỎNG",
+        "lessonTitle": "ĐẠO ĐỨC - BÀI 26: PHÒNG, TRÁNH BỎNG",
         "topic": "CHỦ ĐỀ 8: PHÒNG, TRÁNH TAI NẠN, THƯƠNG TÍCH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3699,11 +3705,8 @@
           "- Câu hỏi gợi ý thảo luận và một số tình huống gần gũi với HS.",
           "- SGK Đạo đức, đồ dùng học tập."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- HS nêu được một số nguyên nhân có thể gây bỏng và biết một số việc cần làm để phòng, tránh bị bỏng.",
-          "- HS phân biệt được việc nên làm và việc không nên làm trong một số tình huống gần gũi với bản thân.",
-          "- HS bước đầu biết trình bày ý kiến rõ hơn khi tham gia hoạt động nhóm và khi chia sẻ trước lớp."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3845,7 +3848,12 @@
             ]
           ]
         ],
-        "title": "BÀI 26: PHÒNG, TRÁNH BỎNG"
+        "dieuchinh": [
+          "- HS nêu được một số nguyên nhân có thể gây bỏng và biết một số việc cần làm để phòng, tránh bị bỏng.",
+          "- HS phân biệt được việc nên làm và việc không nên làm trong một số tình huống gần gũi với bản thân.",
+          "- HS bước đầu biết trình bày ý kiến rõ hơn khi tham gia hoạt động nhóm và khi chia sẻ trước lớp.",
+          "- Một số HS còn nêu ý ngắn, GV cần tiếp tục gợi mở bằng câu hỏi cụ thể hơn trong những bài học sau."
+        ]
       }
     ]
   },
@@ -3854,7 +3862,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 27: PHÒNG, TRÁNH THƯƠNG TÍCH DO NGÃ",
+        "lessonTitle": "ĐẠO ĐỨC - BÀI 27: PHÒNG, TRÁNH THƯƠNG TÍCH DO NGÃ",
         "topic": "CHỦ ĐỀ 8: PHÒNG, TRÁNH TAI NẠN, THƯƠNG TÍCH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3882,11 +3890,8 @@
           "- Câu hỏi gợi ý thảo luận và một số tình huống gần gũi với HS.",
           "- SGK Đạo đức, đồ dùng học tập."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- HS nêu được một số nguyên nhân có thể gây ngã và biết một số việc cần làm để phòng, tránh thương tích do ngã.",
-          "- HS phân biệt được việc nên làm và việc không nên làm trong một số tình huống gần gũi với bản thân.",
-          "- HS bước đầu biết trình bày ý kiến rõ hơn khi tham gia hoạt động nhóm và khi chia sẻ trước lớp."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4028,7 +4033,12 @@
             ]
           ]
         ],
-        "title": "BÀI 27: PHÒNG, TRÁNH THƯƠNG TÍCH DO NGÃ"
+        "dieuchinh": [
+          "- HS nêu được một số nguyên nhân có thể gây ngã và biết một số việc cần làm để phòng, tránh thương tích do ngã.",
+          "- HS phân biệt được việc nên làm và việc không nên làm trong một số tình huống gần gũi với bản thân.",
+          "- HS bước đầu biết trình bày ý kiến rõ hơn khi tham gia hoạt động nhóm và khi chia sẻ trước lớp.",
+          "- Một số HS còn nêu ý ngắn, GV cần tiếp tục gợi mở bằng câu hỏi cụ thể hơn trong những bài học sau."
+        ]
       }
     ]
   },
@@ -4037,7 +4047,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 28: PHÒNG, TRÁNH ĐIỆN GIẬT",
+        "lessonTitle": "ĐẠO ĐỨC - BÀI 28: PHÒNG, TRÁNH ĐIỆN GIẬT",
         "topic": "CHỦ ĐỀ 8: PHÒNG, TRÁNH TAI NẠN, THƯƠNG TÍCH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4062,12 +4072,8 @@
           "- GV chuẩn bị tranh trong SGK hoặc tranh phóng to, câu hỏi gợi ý thảo luận, thẻ mặt cười và mặt buồn hoặc bảng con.",
           "- HS chuẩn bị SGK Đạo đức, đồ dùng học tập và tinh thần tham gia hoạt động nhóm, hoạt động trình bày trước lớp."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- HS nhận biết được một số tình huống nguy hiểm có thể dẫn đến điện giật.",
-          "- HS nêu được những việc cần làm để phòng, tránh điện giật trong cuộc sống hằng ngày.",
-          "- HS bước đầu biết nhận ra một số dấu hiệu không an toàn của thiết bị điện, thiết bị số và biết báo người lớn.",
-          "- Một số HS còn trả lời ngắn, GV cần tiếp tục gợi mở bằng câu hỏi cụ thể hơn."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4213,7 +4219,12 @@
             ]
           ]
         ],
-        "title": "BÀI 28: PHÒNG, TRÁNH ĐIỆN GIẬT"
+        "dieuchinh": [
+          "- HS nhận biết được một số tình huống nguy hiểm có thể dẫn đến điện giật.",
+          "- HS nêu được những việc cần làm để phòng, tránh điện giật trong cuộc sống hằng ngày.",
+          "- HS bước đầu biết nhận ra một số dấu hiệu không an toàn của thiết bị điện, thiết bị số và biết báo người lớn.",
+          "- Một số HS còn trả lời ngắn, GV cần tiếp tục gợi mở bằng câu hỏi cụ thể hơn."
+        ]
       }
     ]
   },
@@ -4222,7 +4233,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 29: PHÒNG, TRÁNH NGỘ ĐỘC THỰC PHẨM",
+        "lessonTitle": "ĐẠO ĐỨC - Bài 29: PHÒNG, TRÁNH NGỘ ĐỘC THỰC PHẨM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4248,11 +4259,8 @@
           "- Câu hỏi gợi ý thảo luận, thẻ mặt cười hoặc mặt buồn.",
           "- SGK Đạo đức, đồ dùng học tập."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- HS nêu được một số nguyên nhân và hậu quả của ngộ độc thực phẩm.",
-          "- HS biết những việc nên làm để giữ an toàn khi ăn uống.",
-          "- Một số HS còn cần được gợi mở thêm khi phân biệt thông tin an toàn và không an toàn trong môi trường số."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4261,7 +4269,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động- Mục tiêu:- Tạo hứng thú cho HS trước khi vào bài học.- Giúp HS bước đầu liên hệ với việc ăn, uống an toàn."
+              "1. Khởi động\n- Mục tiêu:\n- Tạo hứng thú cho HS trước khi vào bài học.\n- Giúp HS bước đầu liên hệ với việc ăn, uống an toàn."
             ],
             [
               "- GV tổ chức cho HS nghe bài hát về ngộ độc thực phẩm để tạo không khí vui tươi, chuẩn bị tâm thế vào bài học.",
@@ -4288,7 +4296,7 @@
               "- HS hiểu rằng cần ăn uống an toàn, không làm theo thông tin chưa rõ và biết hỏi người lớn khi chưa chắc chắn."
             ],
             [
-              "2. Khám phá- Mục tiêu:- HS nhận biết được một số tình huống có thể dẫn đến ngộ độc thực phẩm.- HS nêu được nguyên nhân, hậu quả và cách phòng tránh phù hợp."
+              "2. Khám phá\n- Mục tiêu:\n- HS nhận biết được một số tình huống có thể dẫn đến ngộ độc thực phẩm.\n- HS nêu được nguyên nhân, hậu quả và cách phòng tránh phù hợp."
             ],
             [
               "- GV yêu cầu HS quan sát các tranh trong SGK, chú ý đến thức ăn, đồ uống, cách sử dụng và dấu hiệu thiếu vệ sinh trong từng tình huống.",
@@ -4323,7 +4331,7 @@
               "- HS hiểu rằng thức ăn, đồ uống không an toàn có thể làm hại sức khỏe; khi gặp thông tin ăn uống lạ trên mạng cần hỏi người lớn trước khi làm theo."
             ],
             [
-              "3. Luyện tập- Mục tiêu:- HS phân biệt được việc nên làm và không nên làm để phòng, tránh ngộ độc thực phẩm.- HS biết giải thích ngắn gọn vì sao nên hoặc không nên thực hiện hành vi đó."
+              "3. Luyện tập\n- Mục tiêu:\n- HS phân biệt được việc nên làm và không nên làm để phòng, tránh ngộ độc thực phẩm.\n- HS biết giải thích ngắn gọn vì sao nên hoặc không nên thực hiện hành vi đó."
             ],
             [
               "- GV yêu cầu HS quan sát các tranh ở phần luyện tập và xác định việc nào nên làm, việc nào không nên làm.",
@@ -4354,7 +4362,7 @@
               "- HS hiểu rằng cần chọn thông tin an toàn, không làm theo nội dung ăn uống thiếu an toàn trên mạng."
             ],
             [
-              "4. Vận dụng- Mục tiêu:- HS biết xử lí phù hợp trong một số tình huống liên quan đến ăn uống không an toàn.- HS biết liên hệ bản thân và hình thành thói quen phòng, tránh ngộ độc thực phẩm."
+              "4. Vận dụng\n- Mục tiêu:\n- HS biết xử lí phù hợp trong một số tình huống liên quan đến ăn uống không an toàn.\n- HS biết liên hệ bản thân và hình thành thói quen phòng, tránh ngộ độc thực phẩm."
             ],
             [
               "- GV chia nhóm 4, giao nhiệm vụ cho HS đóng vai, giao tình huống xử lí về việc rủ bạn dùng nước ngọt nhiều màu hoặc thực phẩm không rõ nguồn gốc.",
@@ -4394,7 +4402,11 @@
             ]
           ]
         ],
-        "title": "Bài 29: PHÒNG, TRÁNH NGỘ ĐỘC THỰC PHẨM"
+        "dieuchinh": [
+          "- HS nêu được một số nguyên nhân và hậu quả của ngộ độc thực phẩm.",
+          "- HS biết những việc nên làm để giữ an toàn khi ăn uống.",
+          "- Một số HS còn cần được gợi mở thêm khi phân biệt thông tin an toàn và không an toàn trong môi trường số."
+        ]
       }
     ]
   },
@@ -4403,7 +4415,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 30: PHÒNG, TRÁNH XÂM HẠI",
+        "lessonTitle": "ĐẠO ĐỨC - Bài 30: PHÒNG, TRÁNH XÂM HẠI",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4430,11 +4442,8 @@
           "- Câu hỏi gợi ý thảo luận, thẻ mặt cười hoặc bảng con.",
           "- SGK Đạo đức, đồ dùng học tập."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- HS nhận biết được vùng riêng tư của cơ thể và một số nguy cơ bị xâm hại.",
-          "- HS nêu được những việc cần làm để phòng, tránh bị xâm hại và biết tìm sự giúp đỡ khi cần.",
-          "- Một số HS còn ngại chia sẻ, GV cần tiếp tục động viên bằng câu hỏi gần gũi, phù hợp."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4443,7 +4452,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động- Mục tiêu:- Tạo hứng thú cho HS trước khi vào bài học.- Giúp HS bước đầu liên hệ với việc tự bảo vệ cơ thể."
+              "1. Khởi động\n- Mục tiêu:\n- Tạo hứng thú cho HS trước khi vào bài học.\n- Giúp HS bước đầu liên hệ với việc tự bảo vệ cơ thể."
             ],
             [
               "- GV tổ chức cho HS chơi trò chơi Sói bắt cừu để tạo không khí vui vẻ, giúp HS bước đầu nghĩ đến việc tự bảo vệ mình khi gặp nguy hiểm.",
@@ -4470,7 +4479,7 @@
               "- HS hiểu rằng cơ thể mình cần được bảo vệ, không ai được làm em sợ hoặc chạm vào em không đúng cách, và em cần nói với người lớn khi gặp nguy cơ."
             ],
             [
-              "2. Khám phá- Mục tiêu:- HS nhận biết được vùng riêng tư của cơ thể và một số nguy cơ bị xâm hại.- HS biết một số việc cần làm để phòng, tránh bị xâm hại."
+              "2. Khám phá\n- Mục tiêu:\n- HS nhận biết được vùng riêng tư của cơ thể và một số nguy cơ bị xâm hại.\n- HS biết một số việc cần làm để phòng, tránh bị xâm hại."
             ],
             [
               "- GV yêu cầu HS quan sát tranh cơ thể bạn nam, bạn nữ trong SGK, xác định những vùng riêng tư không cho người khác chạm vào.",
@@ -4501,7 +4510,7 @@
               "- HS hiểu rằng cần biết nói không, tránh xa và báo ngay cho người lớn khi có người làm em thấy sợ hoặc muốn chạm vào vùng riêng tư."
             ],
             [
-              "3. Luyện tập- Mục tiêu:- HS lựa chọn được việc nên làm để phòng, tránh bị xâm hại.- HS biết chia sẻ cách xử lí phù hợp trong một số tình huống."
+              "3. Luyện tập\n- Mục tiêu:\n- HS lựa chọn được việc nên làm để phòng, tránh bị xâm hại.\n- HS biết chia sẻ cách xử lí phù hợp trong một số tình huống."
             ],
             [
               "- GV yêu cầu HS quan sát các tranh ở phần luyện tập và xác định việc nào nên làm để phòng, tránh bị xâm hại.",
@@ -4528,7 +4537,7 @@
               "- HS hiểu rằng khi gặp nguy cơ cần bảo vệ mình, nói ngay với người lớn và không im lặng trước chuyện làm em sợ hãi."
             ],
             [
-              "4. Vận dụng- Mục tiêu:- HS biết xử lí một số tình huống đơn giản để phòng, tránh bị xâm hại.- HS hình thành ý thức tự bảo vệ bản thân trong cuộc sống hằng ngày."
+              "4. Vận dụng\n- Mục tiêu:\n- HS biết xử lí một số tình huống đơn giản để phòng, tránh bị xâm hại.\n- HS hình thành ý thức tự bảo vệ bản thân trong cuộc sống hằng ngày."
             ],
             [
               "- GV chia nhóm 4, giao nhiệm vụ cho HS đóng vai để xử lí tình huống khi có người lạ gọi lại gần, cho quà hoặc rủ đi nơi khác.",
@@ -4568,7 +4577,11 @@
             ]
           ]
         ],
-        "title": "Bài 30: PHÒNG, TRÁNH XÂM HẠI"
+        "dieuchinh": [
+          "- HS nhận biết được vùng riêng tư của cơ thể và một số nguy cơ bị xâm hại.",
+          "- HS nêu được những việc cần làm để phòng, tránh bị xâm hại và biết tìm sự giúp đỡ khi cần.",
+          "- Một số HS còn ngại chia sẻ, GV cần tiếp tục động viên bằng câu hỏi gần gũi, phù hợp."
+        ]
       }
     ]
   },
@@ -4600,11 +4613,6 @@
           "- HS: SGK, vở, bút, thẻ màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          ".............................................................................................",
-          ".............................................................................................",
-          "............................................................................................."
-        ],
         "tables": [
           [
             [
@@ -4775,7 +4783,12 @@
             ]
           ]
         ],
-        "title": "ÔN TẬP - ĐÁNH GIÁ CUỐI HK 2"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          ".............................................................................................",
+          ".............................................................................................",
+          "............................................................................................."
+        ]
       }
     ]
   }

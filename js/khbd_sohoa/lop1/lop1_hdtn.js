@@ -15,7 +15,7 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết được ý nghĩa của hoạt động tập thể; tham gia nghiêm túc, tự tin và phù hợp với nội dung sinh hoạt dưới cờ.",
@@ -24,42 +24,14 @@
           "- Tự chủ và tự học: Biết chuẩn bị, thực hiện nhiệm vụ theo hướng dẫn.",
           "3. Phẩm chất",
           "- Trách nhiệm: Thực hiện nền nếp, kỉ luật trong hoạt động tập thể.",
-          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè.",
-          "- Biết cách chào hỏi, giới thiệu bản thân và hỏi thăm khi làm quen với bạn mới.",
-          "- Thực hành làm quen với bạn mới ở trường và nơi em sống.",
-          "- Giao tiếp và hợp tác: Tự tin nói lời chào, lắng nghe và phản hồi lịch sự.",
-          "- Tự chủ và tự học: Biết lựa chọn lời nói phù hợp khi làm quen.",
-          "- Nhân ái: Thân thiện, quan tâm và tôn trọng bạn.",
-          "- Trung thực: Giới thiệu đúng, chân thật về bản thân.",
-          "4. Tích hợp",
-          "- Quyền con người - Quyền được tự do biểu đạt: Học sinh được nói lên suy nghĩ, cảm xúc của mình; đồng thời tôn trọng bản thân và người khác trong giao tiếp.",
-          "- Năng lực số 2.3.CB1a: Giao tiếp, hợp tác trong môi trường số; học sinh biết chào hỏi, giới thiệu bản thân và sử dụng lời nói lịch sự khi tham gia nhóm lớp hoặc hoạt động trực tuyến có sự hướng dẫn của giáo viên.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
-          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
-          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
-          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
-          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
-          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn."
+          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè."
         ],
         "dodung": [
           "- Giáo viên: Kịch bản sinh hoạt dưới cờ, âm thanh, tranh/ảnh minh hoạ hoặc dụng cụ phục vụ hoạt động.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia.",
-          "- Giáo viên: SGK, tranh minh hoạ được cắt đúng nội dung, bài hát về tình bạn, máy tính/máy chiếu nếu cần.",
-          "- Học sinh: SGK, thẻ tự đánh giá; tâm thế sẵn sàng làm quen, chia sẻ.",
-          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -116,7 +88,39 @@
               "- Chốt ý, kết luận: Mỗi em hãy tự tin, vui vẻ và thực hiện tốt nền nếp ngay từ đầu năm học.",
               "- Ghi nhớ và thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Biết cách chào hỏi, giới thiệu bản thân và hỏi thăm khi làm quen với bạn mới.",
+          "- Thực hành làm quen với bạn mới ở trường và nơi em sống.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Tự tin nói lời chào, lắng nghe và phản hồi lịch sự.",
+          "- Tự chủ và tự học: Biết lựa chọn lời nói phù hợp khi làm quen.",
+          "3. Phẩm chất",
+          "- Nhân ái: Thân thiện, quan tâm và tôn trọng bạn.",
+          "- Trung thực: Giới thiệu đúng, chân thật về bản thân.",
+          "4. Tích hợp",
+          "- Quyền con người - Quyền được tự do biểu đạt: Học sinh được nói lên suy nghĩ, cảm xúc của mình; đồng thời tôn trọng bản thân và người khác trong giao tiếp.",
+          "- Năng lực số 2.3.CB1a: Giao tiếp, hợp tác trong môi trường số; học sinh biết chào hỏi, giới thiệu bản thân và sử dụng lời nói lịch sự khi tham gia nhóm lớp hoặc hoạt động trực tuyến có sự hướng dẫn của giáo viên."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ được cắt đúng nội dung, bài hát về tình bạn, máy tính/máy chiếu nếu cần.",
+          "- Học sinh: SGK, thẻ tự đánh giá; tâm thế sẵn sàng làm quen, chia sẻ."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -214,7 +218,37 @@
               "- Chốt ý, kết luận: Em hãy chủ động kết bạn bằng lời nói thân thiện và luôn giao tiếp an toàn, lịch sự.",
               "- Ghi nhớ, thực hiện trong tuần."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
+          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
+          "- Tự chủ và tự học: Biết tự điều chỉnh việc làm của bản thân theo góp ý và kế hoạch của lớp.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
+          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
+          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -341,7 +375,11 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -351,7 +389,7 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết được ý nghĩa của hoạt động tập thể; tham gia nghiêm túc, tự tin và phù hợp với nội dung sinh hoạt dưới cờ.",
@@ -360,42 +398,14 @@
           "- Tự chủ và tự học: Biết chuẩn bị, thực hiện nhiệm vụ theo hướng dẫn.",
           "3. Phẩm chất",
           "- Trách nhiệm: Thực hiện nền nếp, kỉ luật trong hoạt động tập thể.",
-          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè.",
-          "- Nêu được những việc nên làm và không nên làm trong giờ học, giờ chơi.",
-          "- Bước đầu biết từ chối và khuyên bạn không thực hiện việc chưa phù hợp.",
-          "- Giao tiếp và hợp tác: Trao đổi, trình bày ý kiến trong nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách xử lí phù hợp trong tình huống gần gũi.",
-          "- Trách nhiệm: Tuân thủ nội quy lớp học.",
-          "- Nhân ái: Biết nhắc bạn bằng lời nói lịch sự, không chê trách.",
-          "4. Tích hợp",
-          "- Giáo dục quyền con người: Học sinh được thực hiện quyền được học tập và vui chơi lành mạnh; đồng thời có bổn phận tôn trọng nội quy, giữ gìn môi trường học tập chung.",
-          "- Giáo dục đạo đức, lối sống: Hình thành thói quen ứng xử văn minh, biết lựa chọn hành vi đúng đắn trong giờ học và giờ chơi, sống đoàn kết, tôn trọng bạn bè.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
-          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
-          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
-          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
-          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
-          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn."
+          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè."
         ],
         "dodung": [
           "- Giáo viên: Kịch bản sinh hoạt dưới cờ, âm thanh, tranh/ảnh minh hoạ hoặc dụng cụ phục vụ hoạt động.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia.",
-          "- Giáo viên: SGK, tranh minh hoạ được cắt đúng nội dung, thẻ việc nên làm/không nên làm.",
-          "- Học sinh: SGK, thẻ lựa chọn, bút màu.",
-          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -452,7 +462,39 @@
               "- Chốt ý, kết luận: Thực hiện nội quy là cách em góp phần xây dựng trường học an toàn, thân thiện.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nêu được những việc nên làm và không nên làm trong giờ học, giờ chơi.",
+          "- Bước đầu biết từ chối và khuyên bạn không thực hiện việc chưa phù hợp.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi, trình bày ý kiến trong nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách xử lí phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: Tuân thủ nội quy lớp học.",
+          "- Nhân ái: Biết nhắc bạn bằng lời nói lịch sự, không chê trách.",
+          "4. Tích hợp",
+          "- Giáo dục quyền con người: Học sinh được thực hiện quyền được học tập và vui chơi lành mạnh; đồng thời có bổn phận tôn trọng nội quy, giữ gìn môi trường học tập chung.",
+          "- Giáo dục đạo đức, lối sống: Hình thành thói quen ứng xử văn minh, biết lựa chọn hành vi đúng đắn trong giờ học và giờ chơi, sống đoàn kết, tôn trọng bạn bè."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ được cắt đúng nội dung, thẻ việc nên làm/không nên làm.",
+          "- Học sinh: SGK, thẻ lựa chọn, bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -550,7 +592,37 @@
               "- Chốt ý, kết luận: Việc làm đúng mỗi ngày sẽ giúp lớp học vui vẻ, an toàn và đoàn kết.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
+          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
+          "- Tự chủ và tự học: Biết tự điều chỉnh việc làm của bản thân theo góp ý và kế hoạch của lớp.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
+          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
+          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -673,7 +745,11 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -683,7 +759,7 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết được ý nghĩa của hoạt động tập thể; tham gia nghiêm túc, tự tin và phù hợp với nội dung sinh hoạt dưới cờ.",
@@ -692,42 +768,14 @@
           "- Tự chủ và tự học: Biết chuẩn bị, thực hiện nhiệm vụ theo hướng dẫn.",
           "3. Phẩm chất",
           "- Trách nhiệm: Thực hiện nền nếp, kỉ luật trong hoạt động tập thể.",
-          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè.",
-          "- Nhận biết được việc không nên làm trong giờ học, giờ chơi; biết lựa chọn cách xử lí phù hợp.",
-          "- Thực hành sắm vai nhắc bạn thay đổi hành vi chưa phù hợp.",
-          "- Giao tiếp và hợp tác: Phối hợp trong sắm vai, lắng nghe ý kiến bạn.",
-          "- Giải quyết vấn đề: Đưa ra lời khuyên phù hợp trong tình huống.",
-          "- Trách nhiệm: Tự giác thực hiện nội quy.",
-          "- Nhân ái: Khuyên nhủ bạn bằng thái độ thân thiện.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
-          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
-          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
-          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
-          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
-          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn.",
-          "4. Tích hợp",
-          "- Giáo dục đạo đức, lối sống: Đi học đúng giờ, lễ phép, giữ vệ sinh, giúp đỡ bạn bè; rèn phẩm chất chăm chỉ, trách nhiệm, đoàn kết và yêu thương."
+          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè."
         ],
         "dodung": [
           "- Giáo viên: Kịch bản sinh hoạt dưới cờ, âm thanh, tranh/ảnh minh hoạ hoặc dụng cụ phục vụ hoạt động.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia.",
-          "- Giáo viên: SGK, tranh tình huống được cắt đúng nội dung, thẻ lựa chọn.",
-          "- Học sinh: SGK, thẻ vai và đồ dùng học tập.",
-          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "- Quyền con người: Trẻ em có quyền được học tập và vui chơi trong môi trường an toàn, lành mạnh.",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -784,7 +832,36 @@
               "- Chốt ý, kết luận: Việc tốt bắt đầu từ lời nói và hành động nhỏ mỗi ngày.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được việc không nên làm trong giờ học, giờ chơi; biết lựa chọn cách xử lí phù hợp.",
+          "- Thực hành sắm vai nhắc bạn thay đổi hành vi chưa phù hợp.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Phối hợp trong sắm vai, lắng nghe ý kiến bạn.",
+          "- Giải quyết vấn đề: Đưa ra lời khuyên phù hợp trong tình huống.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: Tự giác thực hiện nội quy.",
+          "- Nhân ái: Khuyên nhủ bạn bằng thái độ thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh tình huống được cắt đúng nội dung, thẻ lựa chọn.",
+          "- Học sinh: SGK, thẻ vai và đồ dùng học tập."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -851,6 +928,14 @@
               "- Nêu việc cụ thể phù hợp với bản thân."
             ],
             [
+              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 8 GDĐP 1): “Để lớp học của chúng ta ở ngôi trường quê hương Trà Vinh luôn khang trang, sạch đẹp, em sẽ cùng các bạn làm những việc gì trong giờ học và giờ ra chơi?”",
+              "- HS trả lời: Giữ gìn bàn ghế sạch sẽ, không vẽ bậy; xếp gọn sách vở, cặp xách; thấy rác trong lớp thì nhặt bỏ vào thùng rác ạ."
+            ],
+            [
+              "- GV kết luận: Giữ gìn lớp học khang trang, sạch đẹp thể hiện tình yêu mái trường và ý thức xây dựng quê hương Trà Vinh xanh - sạch - đẹp của mỗi học sinh.",
+              "- HS lắng nghe và cam kết thực hiện mỗi ngày."
+            ],
+            [
               "- Mời một số em trình bày; động viên thực hiện trong tuần.",
               "- Chia sẻ cam kết; cổ vũ bạn."
             ],
@@ -858,7 +943,41 @@
               "- Chốt ý, kết luận: Biết sửa hành vi chưa phù hợp giúp em trưởng thành và lớp học vui hơn.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
+          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
+          "- Tự chủ và tự học: Biết tự điều chỉnh việc làm của bản thân theo góp ý và kế hoạch của lớp.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
+          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
+          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn.",
+          "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 8: Bảo vệ môi trường nơi em sống - Trang 54 TLGDĐP Trà Vinh): Giữ gìn lớp học khang trang, sạch đẹp; không vẽ bậy lên bàn ghế, vứt rác đúng nơi quy định để xây dựng ngôi trường thân thiện tại quê hương Trà Vinh.",
+          "- Giáo dục đạo đức, lối sống: Đi học đúng giờ, lễ phép, giữ vệ sinh, giúp đỡ bạn bè; rèn phẩm chất chăm chỉ, trách nhiệm, đoàn kết và yêu thương.",
+          "- Quyền con người: Trẻ em có quyền được học tập và vui chơi trong môi trường an toàn, lành mạnh."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -989,7 +1108,11 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -999,7 +1122,7 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết được ý nghĩa của hoạt động tập thể; tham gia nghiêm túc, tự tin và phù hợp với nội dung sinh hoạt dưới cờ.",
@@ -1008,39 +1131,14 @@
           "- Tự chủ và tự học: Biết chuẩn bị, thực hiện nhiệm vụ theo hướng dẫn.",
           "3. Phẩm chất",
           "- Trách nhiệm: Thực hiện nền nếp, kỉ luật trong hoạt động tập thể.",
-          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè.",
-          "- Chia sẻ được việc bản thân đã thay đổi để thực hiện tốt hơn trong giờ học, giờ chơi.",
-          "- Nhận xét được sự thay đổi tích cực của bạn bằng lời nói phù hợp.",
-          "- Giao tiếp và hợp tác: Chia sẻ, lắng nghe và phản hồi tích cực.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
-          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
-          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
-          "- Trách nhiệm: Tự giác tuân thủ nội quy.",
-          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn.",
-          "4. Tích hợp",
-          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
-          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần."
+          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè."
         ],
         "dodung": [
           "- Giáo viên: Kịch bản sinh hoạt dưới cờ, âm thanh, tranh/ảnh minh hoạ hoặc dụng cụ phục vụ hoạt động.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia.",
-          "- Giáo viên: SGK, tranh hoạt động được cắt đúng nội dung, phiếu chia sẻ.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá.",
-          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "- Quyền trẻ em: Trẻ em có quyền được học tập, vui chơi trong môi trường an toàn, lành mạnh; bổn phận của học sinh là tôn trọng nội quy và giữ gìn trật tự lớp học.",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1089,7 +1187,38 @@
               "- Chốt ý, kết luận: Mỗi em hãy góp phần tạo nên ngày hội vui, sạch và an toàn.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Chia sẻ được việc bản thân đã thay đổi để thực hiện tốt hơn trong giờ học, giờ chơi.",
+          "- Nhận xét được sự thay đổi tích cực của bạn bằng lời nói phù hợp.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Chia sẻ, lắng nghe và phản hồi tích cực.",
+          "- Tự chủ và tự học: Tự đánh giá, điều chỉnh hành vi.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: Tự giác tuân thủ nội quy.",
+          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn.",
+          "4. Tích hợp",
+          "- Quyền trẻ em: Trẻ em có quyền được học tập, vui chơi trong môi trường an toàn, lành mạnh; bổn phận của học sinh là tôn trọng nội quy và giữ gìn trật tự lớp học."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh hoạt động được cắt đúng nội dung, phiếu chia sẻ.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -1164,7 +1293,37 @@
               "- Chốt ý, kết luận: Em hãy tiếp tục thực hiện việc tốt, động viên bạn và cùng xây dựng lớp học an toàn, thân thiện.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
+          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
+          "- Tự chủ và tự học: Biết tự điều chỉnh việc làm của bản thân theo góp ý và kế hoạch của lớp.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
+          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
+          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -1287,7 +1446,11 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -1297,7 +1460,7 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết được ý nghĩa của hoạt động tập thể; tham gia nghiêm túc, tự tin và phù hợp với nội dung sinh hoạt dưới cờ.",
@@ -1306,42 +1469,14 @@
           "- Tự chủ và tự học: Biết chuẩn bị, thực hiện nhiệm vụ theo hướng dẫn.",
           "3. Phẩm chất",
           "- Trách nhiệm: Thực hiện nền nếp, kỉ luật trong hoạt động tập thể.",
-          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè.",
-          "- Nhận biết được một số cảm xúc cơ bản của bản thân và của người khác.",
-          "- Thể hiện cảm xúc phù hợp trong một số tình huống giao tiếp thông thường.",
-          "- Giao tiếp và hợp tác: Chia sẻ cảm xúc, biết lắng nghe và phản hồi phù hợp.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
-          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
-          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
-          "- Nhân ái: Quan tâm, tôn trọng cảm xúc của bạn.",
-          "- Trung thực: Bày tỏ cảm xúc chân thật, phù hợp.",
-          "4. Tích hợp",
-          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
-          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
-          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn."
+          "- Nhân ái: Thân thiện, tôn trọng thầy cô và bạn bè."
         ],
         "dodung": [
           "- Giáo viên: Kịch bản sinh hoạt dưới cờ, âm thanh, tranh/ảnh minh hoạ hoặc dụng cụ phục vụ hoạt động.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia.",
-          "- Giáo viên: SGK, tranh biểu hiện cảm xúc được cắt đúng nội dung, thẻ cảm xúc, máy tính/máy chiếu nếu cần.",
-          "- Học sinh: SGK, thẻ mặt cảm xúc, bút màu.",
-          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế nghiêm túc, tích cực tham gia."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "- Quyền được tự do bày tỏ ý kiến.",
-          "- Quyền được tôn trọng bản thân và nghĩa vụ tôn trọng người khác.",
-          "- Quyền được bảo vệ chống lại sự can thiệp vào đời tư.",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1394,7 +1529,40 @@
               "- Chốt ý, kết luận: Mỗi việc tốt nhỏ đều góp phần giúp em trở thành nhi đồng chăm ngoan.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được một số cảm xúc cơ bản của bản thân và của người khác.",
+          "- Thể hiện cảm xúc phù hợp trong một số tình huống giao tiếp thông thường.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Chia sẻ cảm xúc, biết lắng nghe và phản hồi phù hợp.",
+          "- Tự chủ và tự học: Biết nhận diện, điều chỉnh cách biểu hiện cảm xúc.",
+          "3. Phẩm chất",
+          "- Nhân ái: Quan tâm, tôn trọng cảm xúc của bạn.",
+          "- Trung thực: Bày tỏ cảm xúc chân thật, phù hợp.",
+          "4. Tích hợp",
+          "- Quyền được tự do bày tỏ ý kiến.",
+          "- Quyền được tôn trọng bản thân và nghĩa vụ tôn trọng người khác.",
+          "- Quyền được bảo vệ chống lại sự can thiệp vào đời tư."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh biểu hiện cảm xúc được cắt đúng nội dung, thẻ cảm xúc, máy tính/máy chiếu nếu cần.",
+          "- Học sinh: SGK, thẻ mặt cảm xúc, bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -1496,7 +1664,37 @@
               "- Chốt ý, kết luận: Biết chia sẻ đúng lúc, đúng người và tôn trọng đời tư giúp các em được an toàn, yêu thương.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          ".................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần; nhận ra điều đã làm tốt và điều cần cố gắng.",
+          "- Tham gia xây dựng phương hướng tuần tới bằng những việc làm cụ thể, phù hợp với học sinh lớp 1.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ và trình bày ý kiến trong sinh hoạt lớp.",
+          "- Tự chủ và tự học: Biết tự điều chỉnh việc làm của bản thân theo góp ý và kế hoạch của lớp.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: Có ý thức thực hiện nền nếp và xây dựng tập thể lớp.",
+          "- Trung thực: Tự nhận xét đúng việc bản thân đã thực hiện trong tuần.",
+          "- Nhân ái: Biết động viên, tôn trọng sự cố gắng của bạn."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi thi đua, nội dung phương hướng tuần tới, tranh minh hoạ đã cắt từ SGK, thẻ tự đánh giá ba mức, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu hoặc thẻ đánh giá; nhớ lại những việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -1623,7 +1821,11 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -1633,39 +1835,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết được ý nghĩa của việc chia sẻ với bạn có hoàn cảnh khó khăn.",
           "- Tham gia ủng hộ bằng việc làm phù hợp theo hướng dẫn của nhà trường.",
           "2. Năng lực chung",
-          "- Nhận biết được những hành động thể hiện tình yêu thương.",
-          "- Chia sẻ được hành động yêu thương em đã thực hiện hoặc đã nhận được.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 6.",
-          "- Tham gia xây dựng phương hướng tuần 7 bằng những việc làm cụ thể.",
-          "- Tham gia giúp bạn có hoàn cảnh khó khăn trong lớp và hát về tình yêu thương con người.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
-          "4. Tích hợp",
-          "- Giáo dục đạo đức - lối sống: Quan tâm, chia sẻ và giúp đỡ người khác là thể hiện tình yêu thương và là phẩm chất tốt đẹp của con người."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; thùng quyên góp; kế hoạch phát động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; đồ dùng ủng hộ theo thông báo của nhà trường (nếu có).",
-          "- Giáo viên: SGK; tranh minh hoạ; thẻ mặt cười; bài hát “Cả nhà thương nhau”.",
-          "- Học sinh: SGK; bút màu; thẻ biểu cảm.",
-          "- Giáo viên: Bảng theo dõi thi đua; tranh minh hoạ và dải đánh giá cắt từ SGK; bài hát “Bầu và bí”.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã làm trong tuần."
+          "- Học sinh: Trang phục gọn gàng; đồ dùng ủng hộ theo thông báo của nhà trường (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1722,7 +1911,36 @@
               "- Chốt ý, kết luận: Việc tốt cần được thực hiện hằng ngày bằng hành động vừa sức.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được những hành động thể hiện tình yêu thương.",
+          "- Chia sẻ được hành động yêu thương em đã thực hiện hoặc đã nhận được.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh minh hoạ; thẻ mặt cười; bài hát “Cả nhà thương nhau”.",
+          "- Học sinh: SGK; bút màu; thẻ biểu cảm."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -1796,7 +2014,39 @@
               "- Chốt ý, kết luận: Hãy thực hiện việc yêu thương mỗi ngày.",
               "- Thực hiện trong cuộc sống."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 6.",
+          "- Tham gia xây dựng phương hướng tuần 7 bằng những việc làm cụ thể.",
+          "- Tham gia giúp bạn có hoàn cảnh khó khăn trong lớp và hát về tình yêu thương con người.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
+          "4. Tích hợp",
+          "- Giáo dục đạo đức - lối sống: Quan tâm, chia sẻ và giúp đỡ người khác là thể hiện tình yêu thương và là phẩm chất tốt đẹp của con người."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi thi đua; tranh minh hoạ và dải đánh giá cắt từ SGK; bài hát “Bầu và bí”.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã làm trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -1911,7 +2161,9 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -1921,39 +2173,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Mạnh dạn hát hoặc biểu diễn bài hát thể hiện tình cảm với bà, mẹ, cô giáo.",
           "- Biết trân trọng và nói lời yêu thương với người phụ nữ em quý mến.",
           "2. Năng lực chung",
-          "- Lựa chọn được cách xử lí thể hiện tình yêu thương trong một số tình huống.",
-          "- Làm được sản phẩm đơn giản để tặng người phụ nữ em yêu quý.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 7.",
-          "- Tham gia xây dựng phương hướng tuần 8 bằng những việc làm cụ thể.",
-          "- Kể được về người phụ nữ em yêu thương và tham gia hát ca ngợi bà, mẹ, cô giáo.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
-          "4. Tích hợp",
-          "- Giáo dục đạo đức - lối sống: Thể hiện tình yêu thương là phẩm chất tốt đẹp của con người."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; danh sách tiết mục; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Tiết mục hoặc lời chúc đã chuẩn bị.",
-          "- Giáo viên: SGK; tranh tình huống; giấy màu; mẫu thiệp; bài hát “Bông hồng tặng mẹ và cô”.",
-          "- Học sinh: SGK; giấy bìa; bút màu; hồ dán.",
-          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; nhạc bài “Bông hồng tặng cô”.",
-          "- Học sinh: SGK; sản phẩm thiệp; thẻ đánh giá."
+          "- Học sinh: Tiết mục hoặc lời chúc đã chuẩn bị."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2010,7 +2249,36 @@
               "- Chốt ý, kết luận: Việc tốt cần được thực hiện hằng ngày bằng hành động vừa sức.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Lựa chọn được cách xử lí thể hiện tình yêu thương trong một số tình huống.",
+          "- Làm được sản phẩm đơn giản để tặng người phụ nữ em yêu quý.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh tình huống; giấy màu; mẫu thiệp; bài hát “Bông hồng tặng mẹ và cô”.",
+          "- Học sinh: SGK; giấy bìa; bút màu; hồ dán."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -2084,7 +2352,39 @@
               "- Chốt ý, kết luận: Hãy thể hiện yêu thương bằng lời nói và việc làm chân thành mỗi ngày.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 7.",
+          "- Tham gia xây dựng phương hướng tuần 8 bằng những việc làm cụ thể.",
+          "- Kể được về người phụ nữ em yêu thương và tham gia hát ca ngợi bà, mẹ, cô giáo.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
+          "4. Tích hợp",
+          "- Giáo dục đạo đức - lối sống: Thể hiện tình yêu thương là phẩm chất tốt đẹp của con người."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; nhạc bài “Bông hồng tặng cô”.",
+          "- Học sinh: SGK; sản phẩm thiệp; thẻ đánh giá."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -2203,7 +2503,9 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -2213,39 +2515,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết được tấm gương nhi đồng chăm ngoan và việc làm đáng học tập.",
           "- Biết cổ vũ, học hỏi những hành động yêu thương, chăm ngoan của bạn.",
           "2. Năng lực chung",
-          "- Nhận xét được hành động yêu thương hoặc chưa thể hiện yêu thương trong tranh.",
-          "- Chia sẻ được cảm xúc khi trao và nhận tình yêu thương; thực hiện hành động yêu thương hằng ngày.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 8.",
-          "- Tham gia xây dựng phương hướng tuần 9 bằng những việc làm cụ thể.",
-          "- Chúc mừng, học hỏi các bạn là tấm gương Nhi đồng chăm ngoan.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
-          "4. Tích hợp"
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
         ],
         "dodung": [
           "- Giáo viên: Kịch bản tuyên dương; phần thưởng; âm thanh; tranh minh hoạ SGK.",
-          "- Học sinh: Tâm thế nghiêm túc; lời chúc mừng bạn.",
-          "- Giáo viên: SGK; tranh minh hoạ; thẻ cảm xúc; bài hát “Hoa bé ngoan”.",
-          "- Học sinh: SGK; thẻ cảm xúc; bút màu.",
-          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; nhạc bài “Hoa bé ngoan”.",
-          "- Học sinh: SGK; thẻ tự đánh giá."
+          "- Học sinh: Tâm thế nghiêm túc; lời chúc mừng bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết quan tâm, chia sẻ, giúp đỡ người khác.",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2302,7 +2591,38 @@
               "- Chốt ý, kết luận: Việc tốt cần được thực hiện hằng ngày bằng hành động vừa sức.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được hành động yêu thương hoặc chưa thể hiện yêu thương trong tranh.",
+          "- Chia sẻ được cảm xúc khi trao và nhận tình yêu thương; thực hiện hành động yêu thương hằng ngày.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết quan tâm, chia sẻ, giúp đỡ người khác."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh minh hoạ; thẻ cảm xúc; bài hát “Hoa bé ngoan”.",
+          "- Học sinh: SGK; thẻ cảm xúc; bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -2380,7 +2700,37 @@
               "- Chốt ý, kết luận: Việc yêu thương cần được thực hiện chân thành và thường xuyên.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 8.",
+          "- Tham gia xây dựng phương hướng tuần 9 bằng những việc làm cụ thể.",
+          "- Chúc mừng, học hỏi các bạn là tấm gương Nhi đồng chăm ngoan.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; nhạc bài “Hoa bé ngoan”.",
+          "- Học sinh: SGK; thẻ tự đánh giá."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -2491,7 +2841,9 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -2501,40 +2853,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết được một số nét truyền thống và hoạt động tiêu biểu của nhà trường.",
           "- Có ý thức yêu trường, yêu lớp, giữ gìn cảnh quan và nền nếp trường học.",
           "2. Năng lực chung",
-          "- Nhận biết được những biểu hiện thân thiện với bạn bè.",
-          "- Sắm vai xử lí được một số tình huống để thể hiện sự thân thiện với bạn.",
-          "- Thực hiện được lời nói, thái độ và việc làm thân thiện trong học tập, vui chơi.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 9.",
-          "- Tham gia xây dựng phương hướng tuần 10 bằng những việc làm cụ thể.",
-          "- Kể được về truyền thống trường em và làm thiệp tặng bạn để thể hiện sự thân thiện.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
-          "4. Tích hợp",
-          "- Góp phần hình thành phẩm chất nhân ái, tôn trọng, trách nhiệm; rèn kĩ năng giao tiếp, ứng xử thân thiện, hợp tác với bạn bè trong học tập và sinh hoạt."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
         ],
         "dodung": [
           "- Giáo viên: Âm thanh; câu hỏi tìm hiểu về trường; bài hát “Em yêu trường em”; tranh SGK.",
-          "- Học sinh: Tâm thế tham gia giao lưu; hiểu biết ban đầu về trường.",
-          "- Giáo viên: SGK; tranh minh hoạ; thẻ tình huống; bài hát “Lớp chúng ta đoàn kết”.",
-          "- Học sinh: SGK; bút màu; thẻ vai.",
-          "- Giáo viên: Bảng theo dõi; giấy màu làm thiệp; tranh và dải đánh giá cắt từ SGK; bài hát “Lớp chúng ta đoàn kết”.",
-          "- Học sinh: SGK; bút màu; hồ dán; thẻ đánh giá."
+          "- Học sinh: Tâm thế tham gia giao lưu; hiểu biết ban đầu về trường."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2591,7 +2929,39 @@
               "- Chốt ý, kết luận: Việc tốt cần được thực hiện hằng ngày bằng hành động vừa sức.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được những biểu hiện thân thiện với bạn bè.",
+          "- Sắm vai xử lí được một số tình huống để thể hiện sự thân thiện với bạn.",
+          "- Thực hiện được lời nói, thái độ và việc làm thân thiện trong học tập, vui chơi.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
+          "4. Tích hợp",
+          "- Góp phần hình thành phẩm chất nhân ái, tôn trọng, trách nhiệm; rèn kĩ năng giao tiếp, ứng xử thân thiện, hợp tác với bạn bè trong học tập và sinh hoạt."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh minh hoạ; thẻ tình huống; bài hát “Lớp chúng ta đoàn kết”.",
+          "- Học sinh: SGK; bút màu; thẻ vai."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -2681,7 +3051,37 @@
               "- Chốt ý, kết luận: Hành động nhỏ thân thiện góp phần xây dựng tập thể đoàn kết.",
               "- Thực hiện trong lớp học."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 9.",
+          "- Tham gia xây dựng phương hướng tuần 10 bằng những việc làm cụ thể.",
+          "- Kể được về truyền thống trường em và làm thiệp tặng bạn để thể hiện sự thân thiện.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi; giấy màu làm thiệp; tranh và dải đánh giá cắt từ SGK; bài hát “Lớp chúng ta đoàn kết”.",
+          "- Học sinh: SGK; bút màu; hồ dán; thẻ đánh giá."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -2792,7 +3192,9 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -2802,41 +3204,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Biết nội dung và ý nghĩa của phong trào thực hiện Năm điều Bác Hồ dạy.",
           "- Tích cực hưởng ứng và cam kết rèn luyện những việc làm phù hợp.",
           "2. Năng lực chung",
-          "- Nhớ và nêu được Năm điều Bác Hồ dạy.",
-          "- Kể được một số việc làm cụ thể theo Năm điều Bác Hồ dạy.",
-          "- Biết lựa chọn cách xử lí phù hợp để rèn luyện bản thân.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 10.",
-          "- Tham gia xây dựng phương hướng tuần 11 bằng những việc làm cụ thể.",
-          "- Chia sẻ được những việc em đã làm theo Năm điều Bác Hồ dạy.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
-          "4. Tích hợp",
-          "- Tích hợp tư tưởng đạo đức Hồ Chí Minh: Giáo dục học sinh biết ghi nhớ và làm theo Năm điều Bác Hồ dạy.",
-          "- Giáo dục đạo đức, lối sống: Giáo dục học sinh biết yêu nước, nhân ái, chăm chỉ, trung thực, trách nhiệm; hình thành hành vi lễ phép, đoàn kết, tự giác và sống tích cực."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
         ],
         "dodung": [
           "- Giáo viên: Âm thanh; nội dung Năm điều Bác Hồ dạy; tranh SGK; bài hát về Bác Hồ.",
-          "- Học sinh: Tâm thế tham gia nghiêm túc; chuẩn bị một việc làm em sẽ cam kết.",
-          "- Giáo viên: SGK; tranh minh hoạ; bảng Năm điều Bác Hồ dạy; bài hát về Bác Hồ.",
-          "- Học sinh: SGK; thẻ việc làm; bút màu.",
-          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; nhạc bài hát về Bác Hồ.",
-          "- Học sinh: SGK; thẻ tự đánh giá."
+          "- Học sinh: Tâm thế tham gia nghiêm túc; chuẩn bị một việc làm em sẽ cam kết."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2893,7 +3280,40 @@
               "- Chốt ý, kết luận: Việc tốt cần được thực hiện hằng ngày bằng hành động vừa sức.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhớ và nêu được Năm điều Bác Hồ dạy.",
+          "- Kể được một số việc làm cụ thể theo Năm điều Bác Hồ dạy.",
+          "- Biết lựa chọn cách xử lí phù hợp để rèn luyện bản thân.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
+          "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 1: Phong tục chào hỏi ở quê em - Trang 5 TLGDĐP Trà Vinh): Thực hành lời dạy của Bác “Yêu Tổ quốc, yêu đồng bào” gắn với nét đẹp phong tục chào hỏi lễ phép, tôn sư trọng đạo của học sinh Trà Vinh (khoanh tay chào thầy cô, người lớn tuổi).",
+          "- Tích hợp tư tưởng đạo đức Hồ Chí Minh: Giáo dục học sinh biết ghi nhớ và làm theo Năm điều Bác Hồ dạy."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh minh hoạ; bảng Năm điều Bác Hồ dạy; bài hát về Bác Hồ.",
+          "- Học sinh: SGK; thẻ việc làm; bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -2965,6 +3385,14 @@
               "- Lắng nghe; nêu một việc em cam kết làm theo lời Bác."
             ],
             [
+              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 1 GDĐP 1): “Thực hiện lời dạy của Bác Hồ về tinh thần đoàn kết, lễ phép, học sinh Trà Vinh chúng ta luôn thể hiện nét đẹp chào hỏi thầy cô và người lớn tuổi như thế nào?”",
+              "- HS thực hành: Đứng ngay ngắn, hai tay khoanh trước ngực mỉm cười lễ phép: “Em chào thầy/cô ạ!”, “Dạ con chào bác ạ!”."
+            ],
+            [
+              "- GV khen ngợi: Lời chào lễ phép, cử chỉ cung kính chính là nét đẹp truyền thống của thiếu nhi quê hương Trà Vinh kính yêu Bác Hồ.",
+              "- HS vui mừng, hào hứng ghi nhớ."
+            ],
+            [
               "- Mời nhóm sắm vai; nhận xét, động viên.",
               "- Sắm vai; lắng nghe góp ý."
             ],
@@ -2983,7 +3411,39 @@
               "- Chốt ý, kết luận: Cố gắng thực hiện cam kết để trở thành nhi đồng chăm ngoan.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 10.",
+          "- Tham gia xây dựng phương hướng tuần 11 bằng những việc làm cụ thể.",
+          "- Chia sẻ được những việc em đã làm theo Năm điều Bác Hồ dạy.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
+          "4. Tích hợp",
+          "- Giáo dục đạo đức, lối sống: Giáo dục học sinh biết yêu nước, nhân ái, chăm chỉ, trung thực, trách nhiệm; hình thành hành vi lễ phép, đoàn kết, tự giác và sống tích cực."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; nhạc bài hát về Bác Hồ.",
+          "- Học sinh: SGK; thẻ tự đánh giá."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -3102,7 +3562,9 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -3112,39 +3574,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Biết ý nghĩa ngày Nhà giáo Việt Nam 20-11.",
           "- Tham gia hát và bày tỏ tình cảm kính yêu với thầy cô.",
           "2. Năng lực chung",
-          "- Nêu được một số việc thầy cô đã làm cho học sinh hằng ngày.",
-          "- Biết những việc cần làm để thể hiện lòng biết ơn, kính yêu thầy cô.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 11.",
-          "- Tham gia xây dựng phương hướng tuần 12 bằng những việc làm cụ thể.",
-          "- Trưng bày, giới thiệu sản phẩm ở Góc tri ân của lớp và chia sẻ tình cảm đối với thầy cô.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
-          "4. Tích hợp",
-          "- Quyền con người: Quyền được học tập, được bảo vệ, được phát triển năng lực bản thân."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
         ],
         "dodung": [
           "- Giáo viên: Âm thanh; chương trình văn nghệ; tranh minh hoạ SGK; hướng dẫn làm sản phẩm tri ân.",
-          "- Học sinh: Tiết mục hoặc lời chúc; tâm thế nghiêm túc.",
-          "- Giáo viên: SGK; tranh minh hoạ; thẻ việc làm; bài hát “Cô và mẹ”.",
-          "- Học sinh: SGK; bút màu; giấy ghi lời cảm ơn.",
-          "- Giáo viên: Bảng theo dõi; sản phẩm tri ân; tranh và dải đánh giá cắt từ SGK; nhạc bài “Bông hồng tặng cô”.",
-          "- Học sinh: SGK; sản phẩm tự làm; thẻ đánh giá."
+          "- Học sinh: Tiết mục hoặc lời chúc; tâm thế nghiêm túc."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3201,7 +3650,36 @@
               "- Chốt ý, kết luận: Việc tốt cần được thực hiện hằng ngày bằng hành động vừa sức.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nêu được một số việc thầy cô đã làm cho học sinh hằng ngày.",
+          "- Biết những việc cần làm để thể hiện lòng biết ơn, kính yêu thầy cô.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh minh hoạ; thẻ việc làm; bài hát “Cô và mẹ”.",
+          "- Học sinh: SGK; bút màu; giấy ghi lời cảm ơn."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -3275,7 +3753,39 @@
               "- Chốt ý, kết luận: Sản phẩm cần do em tự thực hiện với tình cảm chân thành.",
               "- Chuẩn bị thực hiện sản phẩm."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 11.",
+          "- Tham gia xây dựng phương hướng tuần 12 bằng những việc làm cụ thể.",
+          "- Trưng bày, giới thiệu sản phẩm ở Góc tri ân của lớp và chia sẻ tình cảm đối với thầy cô.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
+          "4. Tích hợp",
+          "- Quyền con người: Quyền được học tập, được bảo vệ, được phát triển năng lực bản thân."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi; sản phẩm tri ân; tranh và dải đánh giá cắt từ SGK; nhạc bài “Bông hồng tặng cô”.",
+          "- Học sinh: SGK; sản phẩm tự làm; thẻ đánh giá."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -3394,7 +3904,9 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -3404,18 +3916,13 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Thể hiện được lòng biết ơn, kính yêu thầy cô qua sản phẩm tự làm.",
           "- Tự tin giới thiệu sản phẩm và tham quan sản phẩm của bạn.",
           "2. Năng lực chung",
-          "- Xử lí được tình huống thể hiện sự lễ phép, kính yêu thầy cô.",
-          "- Làm được thiệp đơn giản để tặng thầy cô.",
-          "- Thực hiện được việc làm theo lời thầy cô dạy hằng ngày.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 12.",
-          "- Tham gia xây dựng phương hướng tuần 13 bằng những việc làm cụ thể.",
-          "- Chia sẻ được những việc em đã làm thể hiện kính yêu thầy cô và tham gia hát về thầy cô.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
           "3. Phẩm chất",
@@ -3425,17 +3932,10 @@
         ],
         "dodung": [
           "- Giáo viên: Khu trưng bày; sản phẩm tri ân; âm thanh; tranh minh hoạ SGK.",
-          "- Học sinh: Sản phẩm tri ân; lời giới thiệu ngắn.",
-          "- Giáo viên: SGK; tranh tình huống; mẫu thiệp; bài hát “Cô giáo em”.",
-          "- Học sinh: SGK; giấy màu; bút màu; hồ dán.",
-          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; bài hát “Cô giáo em”.",
-          "- Học sinh: SGK; thẻ tự đánh giá."
+          "- Học sinh: Sản phẩm tri ân; lời giới thiệu ngắn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3492,7 +3992,37 @@
               "- Chốt ý, kết luận: Việc tốt cần được thực hiện hằng ngày bằng hành động vừa sức.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Xử lí được tình huống thể hiện sự lễ phép, kính yêu thầy cô.",
+          "- Làm được thiệp đơn giản để tặng thầy cô.",
+          "- Thực hiện được việc làm theo lời thầy cô dạy hằng ngày.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh tình huống; mẫu thiệp; bài hát “Cô giáo em”.",
+          "- Học sinh: SGK; giấy màu; bút màu; hồ dán."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -3566,7 +4096,37 @@
               "- Chốt ý, kết luận: Kính yêu thầy cô được thể hiện bằng hành động tốt hằng ngày.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 12.",
+          "- Tham gia xây dựng phương hướng tuần 13 bằng những việc làm cụ thể.",
+          "- Chia sẻ được những việc em đã làm thể hiện kính yêu thầy cô và tham gia hát về thầy cô.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; bài hát “Cô giáo em”.",
+          "- Học sinh: SGK; thẻ tự đánh giá."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -3677,7 +4237,9 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -3687,18 +4249,13 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết được trẻ em có quyền được vui chơi và được an toàn.",
           "- Nêu được một số bổn phận phù hợp với học sinh lớp 1.",
           "2. Năng lực chung",
-          "- Xác định được hành động an toàn và không an toàn khi vui chơi.",
-          "- Nêu được hậu quả có thể xảy ra khi tham gia trò chơi nguy hiểm.",
-          "- Chia sẻ được mong muốn về điều kiện vui chơi an toàn.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 13.",
-          "- Tham gia xây dựng phương hướng tuần 14 bằng những việc làm cụ thể.",
-          "- Chia sẻ được mong muốn của em về điều kiện vui chơi an toàn.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
           "3. Phẩm chất",
@@ -3708,17 +4265,10 @@
         ],
         "dodung": [
           "- Giáo viên: Âm thanh; nội dung diễn đàn; tranh SGK; bài hát “Trẻ em hôm nay - Thế giới ngày mai”.",
-          "- Học sinh: Tâm thế tham gia; chuẩn bị câu hỏi hoặc ý kiến chia sẻ.",
-          "- Giáo viên: SGK; tranh các trò chơi; thẻ an toàn/không an toàn; quả bóng nhỏ.",
-          "- Học sinh: SGK; thẻ lựa chọn; bút màu.",
-          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; bài hát “Trẻ em hôm nay - Thế giới ngày mai”.",
-          "- Học sinh: SGK; thẻ tự đánh giá."
+          "- Học sinh: Tâm thế tham gia; chuẩn bị câu hỏi hoặc ý kiến chia sẻ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3779,7 +4329,37 @@
               "- Chốt ý, kết luận: Việc tốt cần được thực hiện hằng ngày bằng hành động vừa sức.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Xác định được hành động an toàn và không an toàn khi vui chơi.",
+          "- Nêu được hậu quả có thể xảy ra khi tham gia trò chơi nguy hiểm.",
+          "- Chia sẻ được mong muốn về điều kiện vui chơi an toàn.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh các trò chơi; thẻ an toàn/không an toàn; quả bóng nhỏ.",
+          "- Học sinh: SGK; thẻ lựa chọn; bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -3857,7 +4437,37 @@
               "- Chốt ý, kết luận: Các em có quyền được vui chơi an toàn và cần cùng giữ an toàn khi vui chơi.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 13.",
+          "- Tham gia xây dựng phương hướng tuần 14 bằng những việc làm cụ thể.",
+          "- Chia sẻ được mong muốn của em về điều kiện vui chơi an toàn.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; bài hát “Trẻ em hôm nay - Thế giới ngày mai”.",
+          "- Học sinh: SGK; thẻ tự đánh giá."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -3968,7 +4578,9 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -3978,40 +4590,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Biết ngày 22-12 là ngày thành lập Quân đội nhân dân Việt Nam.",
           "- Bày tỏ sự kính trọng đối với chú bộ đội; rèn nền nếp, kỉ luật phù hợp.",
           "2. Năng lực chung",
-          "- Đưa ra được lời khuyên phù hợp trong tình huống vui chơi có nguy cơ nguy hiểm.",
-          "- Biết từ chối và khuyên bạn không tham gia trò chơi nguy hiểm.",
-          "- Thực hiện được hành động an toàn khi vui chơi.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 14.",
-          "- Tham gia xây dựng phương hướng tuần 15 bằng những việc làm cụ thể.",
-          "- Kể được trò chơi an toàn đã tham gia và cách từ chối, khuyên bạn không tham gia trò chơi nguy hiểm.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
-          "4. Tích hợp"
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
         ],
         "dodung": [
           "- Giáo viên: Âm thanh; thẻ mật lệnh; tranh SGK; bài hát “Cháu thương chú bộ đội”.",
-          "- Học sinh: Tâm thế tham gia; lời kể hoặc lời chúc chú bộ đội.",
-          "- Giáo viên: SGK; tranh tình huống; thẻ lời khuyên; bảng An toàn/Không an toàn.",
-          "- Học sinh: SGK; thẻ vai; bút màu.",
-          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; bài hát “Cháu thương chú bộ đội”.",
-          "- Học sinh: SGK; thẻ tự đánh giá."
+          "- Học sinh: Tâm thế tham gia; lời kể hoặc lời chúc chú bộ đội."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "- Phòng chống tai nạn thương tích: Học sinh biết nhận diện trò chơi nguy hiểm và vận dụng kĩ năng từ chối, khuyên can bạn để phòng tránh tai nạn thương tích.",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4068,7 +4666,39 @@
               "- Chốt ý, kết luận: Việc tốt cần được thực hiện hằng ngày bằng hành động vừa sức.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Đưa ra được lời khuyên phù hợp trong tình huống vui chơi có nguy cơ nguy hiểm.",
+          "- Biết từ chối và khuyên bạn không tham gia trò chơi nguy hiểm.",
+          "- Thực hiện được hành động an toàn khi vui chơi.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện.",
+          "4. Tích hợp",
+          "- Phòng chống tai nạn thương tích: Học sinh biết nhận diện trò chơi nguy hiểm và vận dụng kĩ năng từ chối, khuyên can bạn để phòng tránh tai nạn thương tích."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh tình huống; thẻ lời khuyên; bảng An toàn/Không an toàn.",
+          "- Học sinh: SGK; thẻ vai; bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -4150,7 +4780,37 @@
               "- Chốt ý, kết luận: Hãy vui chơi an toàn để bảo vệ bản thân và bạn bè.",
               "- Ghi nhớ, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 14.",
+          "- Tham gia xây dựng phương hướng tuần 15 bằng những việc làm cụ thể.",
+          "- Kể được trò chơi an toàn đã tham gia và cách từ chối, khuyên bạn không tham gia trò chơi nguy hiểm.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động, biết tự nhận xét và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn khi thực hiện nhiệm vụ.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong các tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng, yêu thương và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động và hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, góp phần xây dựng tập thể an toàn, thân thiện."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng theo dõi; tranh và dải đánh giá cắt từ SGK; bài hát “Cháu thương chú bộ đội”.",
+          "- Học sinh: SGK; thẻ tự đánh giá."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -4261,7 +4921,9 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -4271,44 +4933,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Nhận diện được hành động bắt nạt và biểu hiện khi bị bắt nạt.",
-          "- Biết từ chối, rời khỏi tình huống nguy hiểm và tìm kiếm sự trợ giúp.",
-          "- Cùng bạn xây dựng lớp học thân thiện, an toàn.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 15.",
-          "- Tham gia xây dựng phương hướng tuần 16 bằng việc làm cụ thể.",
-          "- Cam kết được các việc làm xây dựng lớp học thân thiện và an toàn.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
-          "4. Tích hợp",
-          "- Năng lực số 4.1.CB1b: Nhận biết lời trêu chọc, đe doạ hoặc tin nhắn khó chịu trên thiết bị số là nguy cơ không an toàn; biết lưu thông tin và báo người lớn tin cậy."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; tranh tình huống; thẻ đồng ý/không đồng ý; hình minh hoạ đã cắt từ SGK.",
-          "- Học sinh: SGK; thẻ biểu cảm; bút màu.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "- Quyền con người: Học sinh có quyền được an toàn, quyền được lên tiếng và quyền được trợ giúp khi bị bắt nạt.",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4361,7 +5005,41 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận diện được hành động bắt nạt và biểu hiện khi bị bắt nạt.",
+          "- Biết từ chối, rời khỏi tình huống nguy hiểm và tìm kiếm sự trợ giúp.",
+          "- Cùng bạn xây dựng lớp học thân thiện, an toàn.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
+          "4. Tích hợp",
+          "- Quyền con người: Học sinh có quyền được an toàn, quyền được lên tiếng và quyền được trợ giúp khi bị bắt nạt.",
+          "- Năng lực số 4.1.CB1b: Nhận biết lời trêu chọc, đe doạ hoặc tin nhắn khó chịu trên thiết bị số là nguy cơ không an toàn; biết lưu thông tin và báo người lớn tin cậy."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh tình huống; thẻ đồng ý/không đồng ý; hình minh hoạ đã cắt từ SGK.",
+          "- Học sinh: SGK; thẻ biểu cảm; bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -4459,7 +5137,38 @@
               "- Chốt ý, kết luận: Lớp học an toàn bắt đầu từ lời nói và việc làm thân thiện của mỗi bạn.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 15.",
+          "- Tham gia xây dựng phương hướng tuần 16 bằng việc làm cụ thể.",
+          "- Cam kết được các việc làm xây dựng lớp học thân thiện và an toàn.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -4558,7 +5267,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -4568,43 +5280,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Kể tên được một số đồ dùng gia đình và nêu được công dụng gần gũi.",
-          "- Phân biệt được hành vi an toàn, không an toàn khi sử dụng đồ dùng trong gia đình.",
-          "- Biết sử dụng một số đồ dùng phù hợp để làm việc nhà dưới sự hướng dẫn của người lớn.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 16.",
-          "- Tham gia xây dựng phương hướng tuần 17 bằng việc làm cụ thể.",
-          "- Chia sẻ được việc sử dụng đồ dùng trong gia đình an toàn.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
-          "4. Tích hợp",
-          "- Năng lực số 2.1.CB1a: Học sinh biết lựa chọn và sử dụng hình ảnh, lời nói và công cụ số đơn giản để trao đổi, nhận xét hành vi sử dụng đồ dùng gia đình an toàn."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; tranh hành vi an toàn/không an toàn; máy chiếu để trình bày hình ảnh; tranh đã cắt từ SGK.",
-          "- Học sinh: SGK; thẻ xanh/đỏ; bút màu.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4657,7 +5352,40 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Kể tên được một số đồ dùng gia đình và nêu được công dụng gần gũi.",
+          "- Phân biệt được hành vi an toàn, không an toàn khi sử dụng đồ dùng trong gia đình.",
+          "- Biết sử dụng một số đồ dùng phù hợp để làm việc nhà dưới sự hướng dẫn của người lớn.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
+          "4. Tích hợp",
+          "- Năng lực số 2.1.CB1a: Học sinh biết lựa chọn và sử dụng hình ảnh, lời nói và công cụ số đơn giản để trao đổi, nhận xét hành vi sử dụng đồ dùng gia đình an toàn."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh hành vi an toàn/không an toàn; máy chiếu để trình bày hình ảnh; tranh đã cắt từ SGK.",
+          "- Học sinh: SGK; thẻ xanh/đỏ; bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -4743,7 +5471,38 @@
               "- Chốt ý, kết luận: Làm việc nhà vừa sức, đúng cách giúp em tự lập và an toàn.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 16.",
+          "- Tham gia xây dựng phương hướng tuần 17 bằng việc làm cụ thể.",
+          "- Chia sẻ được việc sử dụng đồ dùng trong gia đình an toàn.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -4846,7 +5605,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -4856,44 +5618,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Nêu được một số đặc điểm bên ngoài của bản thân.",
-          "- Giới thiệu được vẻ ngoài của bản thân và nhận xét bạn theo hướng tích cực.",
-          "- Biết tôn trọng sự khác biệt và bảo vệ thông tin cá nhân đơn giản.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 17.",
-          "- Tham gia xây dựng phương hướng tuần 18 bằng việc làm cụ thể.",
-          "- Tham gia trò chơi đoán tên bạn dựa trên đặc điểm bên ngoài và biết nhận xét tích cực.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
-          "4. Tích hợp",
-          "- Năng lực số 4.2.CB1a: Học sinh biết hình ảnh chân dung, tên đầy đủ, địa chỉ và số điện thoại của mình không tự ý chia sẻ cho người lạ trên môi trường số."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; gương nhỏ; tranh chân dung; máy chiếu; hình minh hoạ đã cắt từ SGK.",
-          "- Học sinh: SGK; bút màu; gương nhỏ nếu có.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "- Quyền con người: Giáo dục học sinh tôn trọng sự khác biệt, biết tự hào về bản thân và bảo vệ nhân phẩm của người khác.",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4946,7 +5690,41 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nêu được một số đặc điểm bên ngoài của bản thân.",
+          "- Giới thiệu được vẻ ngoài của bản thân và nhận xét bạn theo hướng tích cực.",
+          "- Biết tôn trọng sự khác biệt và bảo vệ thông tin cá nhân đơn giản.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
+          "4. Tích hợp",
+          "- Quyền con người: Giáo dục học sinh tôn trọng sự khác biệt, biết tự hào về bản thân và bảo vệ nhân phẩm của người khác.",
+          "- Năng lực số 4.2.CB1a: Học sinh biết hình ảnh chân dung, tên đầy đủ, địa chỉ và số điện thoại của mình không tự ý chia sẻ cho người lạ trên môi trường số."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; gương nhỏ; tranh chân dung; máy chiếu; hình minh hoạ đã cắt từ SGK.",
+          "- Học sinh: SGK; bút màu; gương nhỏ nếu có."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -5028,7 +5806,38 @@
               "- Chốt ý, kết luận: Yêu quý bản thân và tôn trọng người khác giúp em tự tin, vui vẻ.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 17.",
+          "- Tham gia xây dựng phương hướng tuần 18 bằng việc làm cụ thể.",
+          "- Tham gia trò chơi đoán tên bạn dựa trên đặc điểm bên ngoài và biết nhận xét tích cực.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -5131,7 +5940,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -5141,43 +5953,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Nêu được một số việc cần làm để giữ vệ sinh cá nhân.",
-          "- Thực hành được việc rửa tay, rửa mặt hoặc chăm sóc cơ thể đúng cách.",
-          "- Biết duy trì thói quen vệ sinh cá nhân hằng ngày.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 18.",
-          "- Tham gia xây dựng phương hướng tuần 19 bằng việc làm cụ thể.",
-          "- Chia sẻ được việc giữ vệ sinh cá nhân hằng ngày và điều bổ ích từ Ngày hội Vì sức khỏe học đường.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
-          "4. Tích hợp",
-          "- Năng lực số 2.1.CB1a: Học sinh lựa chọn và sử dụng phương tiện giao tiếp số đơn giản phù hợp bối cảnh như xem video/ảnh, quét mã QR hoặc bình chọn theo hướng dẫn để chia sẻ và thực hiện đúng các bước giữ vệ sinh cá nhân."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; khăn sạch, xà phòng giả định; tranh trình tự; máy chiếu/video ngắn do GV chuẩn bị.",
-          "- Học sinh: SGK; khăn tay; bút màu.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5230,7 +6025,42 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nêu được một số việc cần làm để giữ vệ sinh cá nhân.",
+          "- Thực hành được việc rửa tay, rửa mặt hoặc chăm sóc cơ thể đúng cách.",
+          "- Biết duy trì thói quen vệ sinh cá nhân hằng ngày.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
+          "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 2: Tết cổ truyền quê em - Trang 12 TLGDĐP Trà Vinh): Giữ gìn cơ thể và nhà cửa sạch sẽ đón Tết cổ truyền Nguyên đán và Tết Chôl Chnăm Thmây tại Trà Vinh; tìm hiểu phong tục gói bánh tét Trà Cuôn ngày Tết.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M4, M10): Rửa tay bằng xà phòng dưới vòi nước chảy đúng 6 bước, vặn vòi nước vừa đủ dùng và khóa chặt vòi sau khi rửa để bảo vệ nguồn nước sạch.",
+          "- Năng lực số 2.1.CB1a: Học sinh lựa chọn và sử dụng phương tiện giao tiếp số đơn giản phù hợp bối cảnh như xem video/ảnh, quét mã QR hoặc bình chọn theo hướng dẫn để chia sẻ và thực hiện đúng các bước giữ vệ sinh cá nhân."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; khăn sạch, xà phòng giả định; tranh trình tự; máy chiếu/video ngắn do GV chuẩn bị.",
+          "- Học sinh: SGK; khăn tay; bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -5294,6 +6124,18 @@
               "- Lắng nghe; nêu lại việc sẽ làm để giữ vệ sinh cá nhân."
             ],
             [
+              "- GV hỏi dẫn tích hợp Tiết kiệm và bảo vệ nguồn nước (Mã HĐ Mizuiku M4, M10): “Khi thực hành 6 bước rửa tay bằng xà phòng, em làm thế nào để tay thật sạch mà vẫn tiết kiệm nước?”",
+              "- HS trả lời: Làm ướt tay rồi khóa vòi nước khi xoa xà phòng; sau đó mở vòi nước vừa phải để xả sạch bọt rồi khóa chặt vòi nước lại ạ."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 2 GDĐP 1): “Trong dịp Tết Nguyên đán và Tết Chôl Chnăm Thmây ở Trà Vinh, tại sao chúng ta luôn cần giữ bàn tay sạch sẽ khi cùng gia đình thưởng thức các món ăn truyền thống như bánh tét Trà Cuôn?”",
+              "- HS trả lời: Giữ bàn tay sạch giúp bảo vệ sức khỏe cả nhà, ăn bánh tét Trà Cuôn và các món ăn ngày Tết ngon lành và an toàn vệ sinh ạ."
+            ],
+            [
+              "- GV kết luận: Giữ gìn đôi bàn tay sạch sẽ và sử dụng nước tiết kiệm giúp các em đón những ngày Tết sum vầy trên quê hương Trà Vinh thật vui tươi, mạnh khỏe.",
+              "- HS lắng nghe và hào hứng thực hành."
+            ],
+            [
               "- Chốt ý, kết luận: Quan sát đúng hướng dẫn và thực hành đúng bước giúp cơ thể sạch khỏe.",
               "- Lắng nghe, ghi nhớ."
             ],
@@ -5308,7 +6150,38 @@
               "- Chốt ý, kết luận: Thói quen sạch sẽ giúp em khỏe mạnh và tự tin.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 18.",
+          "- Tham gia xây dựng phương hướng tuần 19 bằng việc làm cụ thể.",
+          "- Chia sẻ được việc giữ vệ sinh cá nhân hằng ngày và điều bổ ích từ Ngày hội Vì sức khỏe học đường.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -5411,7 +6284,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -5421,43 +6297,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Nhận biết được việc ăn uống hợp lí và một số thói quen ăn uống không tốt.",
-          "- Biết lựa chọn thức ăn, đồ uống có lợi cho sức khỏe trong tình huống quen thuộc.",
-          "- Chia sẻ được việc thay đổi thói quen ăn uống chưa phù hợp.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 19.",
-          "- Tham gia xây dựng phương hướng tuần 20 bằng việc làm cụ thể.",
-          "- Kể được thực phẩm đã sử dụng và chia sẻ thay đổi thói quen ăn uống chưa tốt.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
-          "4. Tích hợp",
-          "- Năng lực số 2.2.CB1a: Học sinh nhận biết và lựa chọn công nghệ số đơn giản phù hợp để chia sẻ thông tin hoặc bài làm, đồng thời ứng xử có trách nhiệm khi chia sẻ trong môi trường số."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; tranh thực phẩm; phiếu lựa chọn bữa ăn; máy chiếu để trình bày sản phẩm nhóm.",
-          "- Học sinh: SGK; bút màu; thẻ chọn thực phẩm.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5510,7 +6369,40 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được việc ăn uống hợp lí và một số thói quen ăn uống không tốt.",
+          "- Biết lựa chọn thức ăn, đồ uống có lợi cho sức khỏe trong tình huống quen thuộc.",
+          "- Chia sẻ được việc thay đổi thói quen ăn uống chưa phù hợp.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
+          "4. Tích hợp",
+          "- Năng lực số 2.2.CB1a: Học sinh nhận biết và lựa chọn công nghệ số đơn giản phù hợp để chia sẻ thông tin hoặc bài làm, đồng thời ứng xử có trách nhiệm khi chia sẻ trong môi trường số."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh thực phẩm; phiếu lựa chọn bữa ăn; máy chiếu để trình bày sản phẩm nhóm.",
+          "- Học sinh: SGK; bút màu; thẻ chọn thực phẩm."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -5588,7 +6480,38 @@
               "- Chốt ý, kết luận: Ăn uống hợp lí mỗi ngày giúp em khỏe mạnh, học tập tốt.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 19.",
+          "- Tham gia xây dựng phương hướng tuần 20 bằng việc làm cụ thể.",
+          "- Kể được thực phẩm đã sử dụng và chia sẻ thay đổi thói quen ăn uống chưa tốt.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -5691,7 +6614,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -5701,18 +6627,13 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Nhận biết được trang phục phù hợp với thời tiết và hoạt động hằng ngày.",
-          "- Lựa chọn được trang phục phù hợp trong một số tình huống gần gũi.",
-          "- Biết giữ gìn trang phục sạch sẽ, gọn gàng.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 20.",
-          "- Tham gia xây dựng phương hướng tuần 21 bằng việc làm cụ thể.",
-          "- Chia sẻ và nhận xét được việc sử dụng trang phục phù hợp với hoạt động hằng ngày.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
@@ -5722,20 +6643,10 @@
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; tranh các bộ trang phục; thẻ tình huống; hình minh hoạ đã cắt từ SGK.",
-          "- Học sinh: SGK; bút màu; thẻ chọn trang phục.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5788,7 +6699,38 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được trang phục phù hợp với thời tiết và hoạt động hằng ngày.",
+          "- Lựa chọn được trang phục phù hợp trong một số tình huống gần gũi.",
+          "- Biết giữ gìn trang phục sạch sẽ, gọn gàng.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh các bộ trang phục; thẻ tình huống; hình minh hoạ đã cắt từ SGK.",
+          "- Học sinh: SGK; bút màu; thẻ chọn trang phục."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -5866,7 +6808,38 @@
               "- Chốt ý, kết luận: Tự lựa chọn, giữ gìn trang phục là việc tự chăm sóc bản thân phù hợp lứa tuổi.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 20.",
+          "- Tham gia xây dựng phương hướng tuần 21 bằng việc làm cụ thể.",
+          "- Chia sẻ và nhận xét được việc sử dụng trang phục phù hợp với hoạt động hằng ngày.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -5969,7 +6942,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -5979,18 +6955,13 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Nhận biết được việc cần làm để nhà cửa gọn gàng, sạch đẹp đón Tết.",
-          "- Nêu được một số việc sắp xếp, dọn dẹp vừa sức với học sinh lớp 1.",
-          "- Có ý thức cùng gia đình chuẩn bị đón Tết vui vẻ.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 21.",
-          "- Tham gia xây dựng phương hướng tuần 22 bằng việc làm cụ thể.",
-          "- Chia sẻ được một việc em đã hoặc sẽ làm để nhà cửa gọn gàng đón Tết.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
@@ -6000,20 +6971,10 @@
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; tranh ngôi nhà trước và sau khi dọn; thẻ việc làm; hình minh hoạ đã cắt từ SGK.",
-          "- Học sinh: SGK; bút màu; nhớ lại việc em đã làm ở nhà.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6066,7 +7027,38 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được việc cần làm để nhà cửa gọn gàng, sạch đẹp đón Tết.",
+          "- Nêu được một số việc sắp xếp, dọn dẹp vừa sức với học sinh lớp 1.",
+          "- Có ý thức cùng gia đình chuẩn bị đón Tết vui vẻ.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh ngôi nhà trước và sau khi dọn; thẻ việc làm; hình minh hoạ đã cắt từ SGK.",
+          "- Học sinh: SGK; bút màu; nhớ lại việc em đã làm ở nhà."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -6140,7 +7132,38 @@
               "- Chốt ý, kết luận: Cùng gia đình dọn dẹp, sắp xếp nhà cửa là việc làm ý nghĩa để vui đón mùa xuân.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 21.",
+          "- Tham gia xây dựng phương hướng tuần 22 bằng việc làm cụ thể.",
+          "- Chia sẻ được một việc em đã hoặc sẽ làm để nhà cửa gọn gàng đón Tết.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -6243,7 +7266,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -6253,18 +7279,13 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Thực hành được một số việc sắp xếp nhà cửa gọn gàng phù hợp với lứa tuổi.",
-          "- Chia sẻ được cảm xúc và kết quả khi cùng gia đình chuẩn bị đón Tết.",
-          "- Duy trì thói quen giữ góc học tập, đồ dùng cá nhân ngăn nắp.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 22.",
-          "- Tham gia xây dựng phương hướng tuần 23 bằng việc làm cụ thể.",
-          "- Chia sẻ được việc làm giúp nhà cửa gọn gàng đón Tết và giữ nếp ngăn nắp.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
@@ -6274,20 +7295,10 @@
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; tranh trước/sau khi sắp xếp; phiếu việc làm; hình minh hoạ đã cắt từ SGK.",
-          "- Học sinh: SGK; sản phẩm/chia sẻ việc đã làm ở nhà.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6340,7 +7351,38 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Thực hành được một số việc sắp xếp nhà cửa gọn gàng phù hợp với lứa tuổi.",
+          "- Chia sẻ được cảm xúc và kết quả khi cùng gia đình chuẩn bị đón Tết.",
+          "- Duy trì thói quen giữ góc học tập, đồ dùng cá nhân ngăn nắp.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh trước/sau khi sắp xếp; phiếu việc làm; hình minh hoạ đã cắt từ SGK.",
+          "- Học sinh: SGK; sản phẩm/chia sẻ việc đã làm ở nhà."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -6403,7 +7445,38 @@
               "- Chốt ý, kết luận: Mỗi việc nhỏ vừa sức đều góp phần tạo không khí gia đình vui tươi ngày Tết.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 22.",
+          "- Tham gia xây dựng phương hướng tuần 23 bằng việc làm cụ thể.",
+          "- Chia sẻ được việc làm giúp nhà cửa gọn gàng đón Tết và giữ nếp ngăn nắp.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -6506,7 +7579,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -6516,43 +7592,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Nhận biết được ý nghĩa của phong tục mừng tuổi, tặng quà ngày Tết.",
-          "- Thực hành được cách nhận quà lịch sự, biết nói lời cảm ơn và lời chúc.",
-          "- Biết trân trọng tình cảm, không so bì hoặc đòi hỏi quà.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 23.",
-          "- Tham gia xây dựng phương hướng tuần 24 bằng việc làm cụ thể.",
-          "- Thực hành được lời cảm ơn và lời chúc khi nhận quà ngày Tết.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
-          "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục lối sống văn minh, biết ơn và trân trọng truyền thống; hình thành thái độ khiêm nhường, tiết kiệm, chia sẻ; bồi dưỡng trách nhiệm với gia đình và cộng đồng."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; tranh tình huống; phong bao hoặc hộp quà giả định; hình minh hoạ đã cắt từ SGK.",
-          "- Học sinh: SGK; đạo cụ đóng vai đơn giản.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6605,7 +7664,40 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được ý nghĩa của phong tục mừng tuổi, tặng quà ngày Tết.",
+          "- Thực hành được cách nhận quà lịch sự, biết nói lời cảm ơn và lời chúc.",
+          "- Biết trân trọng tình cảm, không so bì hoặc đòi hỏi quà.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục lối sống văn minh, biết ơn và trân trọng truyền thống; hình thành thái độ khiêm nhường, tiết kiệm, chia sẻ; bồi dưỡng trách nhiệm với gia đình và cộng đồng."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh tình huống; phong bao hoặc hộp quà giả định; hình minh hoạ đã cắt từ SGK.",
+          "- Học sinh: SGK; đạo cụ đóng vai đơn giản."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -6687,7 +7779,38 @@
               "- Chốt ý, kết luận: Em cùng giữ gìn nét đẹp văn hóa Tết bằng ứng xử lễ phép.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 23.",
+          "- Tham gia xây dựng phương hướng tuần 24 bằng việc làm cụ thể.",
+          "- Thực hành được lời cảm ơn và lời chúc khi nhận quà ngày Tết.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -6786,7 +7909,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -6796,43 +7922,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Củng cố được cách ứng xử lịch sự khi nhận quà ngày Tết.",
-          "- Tự tin tham gia sắm vai, giao lưu và chia sẻ trong hoạt động văn hóa ngày Tết.",
-          "- Biết tôn trọng bạn và giữ an toàn khi làm việc theo cặp, nhóm.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 24.",
-          "- Tham gia xây dựng phương hướng tuần 25 bằng việc làm cụ thể.",
-          "- Tham gia giao lưu, sắm vai và chia sẻ cách ứng xử lịch sự khi nhận quà ngày Tết.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
-          "4. Tích hợp"
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; tranh tình huống; phong bao, hộp quà giả định; thẻ nhận xét.",
-          "- Học sinh: SGK; đạo cụ đơn giản để sắm vai.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "- Quyền con người: Học sinh được bày tỏ ý kiến, được lắng nghe khi làm việc theo cặp/nhóm và được tham gia các hoạt động văn hóa như hát, giao lưu, sắm vai, chia sẻ về phong tục ngày Tết trong môi trường tôn trọng.",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6885,7 +7994,41 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Củng cố được cách ứng xử lịch sự khi nhận quà ngày Tết.",
+          "- Tự tin tham gia sắm vai, giao lưu và chia sẻ trong hoạt động văn hóa ngày Tết.",
+          "- Biết tôn trọng bạn và giữ an toàn khi làm việc theo cặp, nhóm.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
+          "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 6: Trò chơi dân gian quê em - Trang 40 TLGDĐP Trà Vinh): Trải nghiệm sự khéo léo của đôi bàn tay qua các trò chơi dân gian đặc trưng Trà Vinh (thắt lá dừa non làm kèn, làm đồng hồ, thắt con cào cào) vui đón ngày hội, ngày Tết.",
+          "- Quyền con người: Học sinh được bày tỏ ý kiến, được lắng nghe khi làm việc theo cặp/nhóm và được tham gia các hoạt động văn hóa như hát, giao lưu, sắm vai, chia sẻ về phong tục ngày Tết trong môi trường tôn trọng."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh tình huống; phong bao, hộp quà giả định; thẻ nhận xét.",
+          "- Học sinh: SGK; đạo cụ đơn giản để sắm vai."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -6926,6 +8069,14 @@
               "- Lắng nghe; nêu việc em sẽ làm để tôn trọng bạn trong hoạt động."
             ],
             [
+              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Bài 6 GDĐP 1): “Vào những ngày Tết và lễ hội ở vùng quê Trà Vinh rợp bóng dừa xanh, trẻ em thường dùng lá dừa để làm những món đồ chơi dân gian khéo léo nào?”",
+              "- HS hào hứng trả lời: Làm kèn lá dừa thổi to vang, thắt đồng hồ lá dừa đeo tay, làm con cào cào bằng lá dừa non rất đẹp ạ."
+            ],
+            [
+              "- GV diễn giải: Những món đồ chơi từ lá dừa dân dã thể hiện sự khéo léo, sáng tạo và gắn bó mật thiết với thiên nhiên quê hương Trà Vinh. Khi nhận được những món quà hay đồ chơi dân gian, các em hãy luôn nói lời cảm ơn và trân trọng nhé.",
+              "- HS lắng nghe và thích thú học hỏi."
+            ],
+            [
               "- Sắm vai theo nhóm 4: tặng quà, nhận quà, nói lời chúc và nhận xét.",
               "- Phân vai; thực hành lịch sự."
             ],
@@ -6948,7 +8099,38 @@
               "- Chốt ý, kết luận: Lời nói lễ phép và thái độ trân trọng giúp em giữ gìn nét đẹp ngày Tết.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 24.",
+          "- Tham gia xây dựng phương hướng tuần 25 bằng việc làm cụ thể.",
+          "- Tham gia giao lưu, sắm vai và chia sẻ cách ứng xử lịch sự khi nhận quà ngày Tết.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -7047,7 +8229,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -7057,43 +8242,26 @@
     "lessons": [
       {
         "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa của hoạt động dưới cờ theo chủ đề trong tuần.",
           "- Tích cực, tự tin tham gia hoạt động tập thể và biết liên hệ với việc làm của bản thân.",
           "2. Năng lực chung",
-          "- Biết kể một vài điều về hàng xóm và hoạt động gần gũi ở nơi em sống.",
-          "- Nêu được lời nói, việc làm thể hiện sự thân thiện, lễ phép với hàng xóm.",
-          "- Biết quan tâm, giúp đỡ người xung quanh bằng việc làm phù hợp với lứa tuổi.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 25.",
-          "- Tham gia xây dựng phương hướng tuần 26 bằng việc làm cụ thể.",
-          "- Kể được một việc làm thể hiện sự thân thiện, lễ phép với hàng xóm.",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
-          "4. Tích hợp"
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
         ],
         "dodung": [
           "- Giáo viên: Hệ thống âm thanh; kịch bản hoạt động; tranh minh hoạ đã cắt từ SGK.",
-          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK; tranh hoạt động hàng xóm; thẻ tình huống; hình minh hoạ đã cắt từ SGK.",
-          "- Học sinh: SGK; bút màu; nhớ lại việc giao tiếp với hàng xóm.",
-          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+          "- Học sinh: Trang phục gọn gàng; tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình làng nghĩa xóm; biết sống thân thiện, lễ phép, quan tâm, giúp đỡ người xung quanh; hình thành thói quen ứng xử văn minh trong cộng đồng.",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7146,7 +8314,40 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được duy trì trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Biết kể một vài điều về hàng xóm và hoạt động gần gũi ở nơi em sống.",
+          "- Nêu được lời nói, việc làm thể hiện sự thân thiện, lễ phép với hàng xóm.",
+          "- Biết quan tâm, giúp đỡ người xung quanh bằng việc làm phù hợp với lứa tuổi.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục tình làng nghĩa xóm; biết sống thân thiện, lễ phép, quan tâm, giúp đỡ người xung quanh; hình thành thói quen ứng xử văn minh trong cộng đồng."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK; tranh hoạt động hàng xóm; thẻ tình huống; hình minh hoạ đã cắt từ SGK.",
+          "- Học sinh: SGK; bút màu; nhớ lại việc giao tiếp với hàng xóm."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -7228,7 +8429,38 @@
               "- Chốt ý, kết luận: Mỗi việc làm thân thiện đều góp phần xây dựng cộng đồng ấm áp.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 25.",
+          "- Tham gia xây dựng phương hướng tuần 26 bằng việc làm cụ thể.",
+          "- Kể được một việc làm thể hiện sự thân thiện, lễ phép với hàng xóm.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia hoạt động; biết tự nhận xét và điều chỉnh hành vi của bản thân.",
+          "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, trình bày ý kiến và phối hợp với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, giữ an toàn cho bản thân và tập thể."
+        ],
+        "dodung": [
+          "- Giáo viên: Bảng thi đua; tranh và dải đánh giá cắt từ SGK; bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK; thẻ tự đánh giá; nhớ lại việc đã thực hiện trong tuần."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -7331,7 +8563,10 @@
             ]
           ]
         ],
-        "title": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -7341,43 +8576,26 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Kể được hoạt động cộng đồng đã tham gia và nêu được việc làm tốt với hàng xóm.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 26.",
-          "- Biết chia sẻ việc tốt đã làm với hàng xóm và ứng xử lễ phép với mọi người nơi em sống.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết sống thân thiện, đoàn kết, tôn trọng và giúp đỡ những người xung quanh nơi cư trú; hình thành thói quen ứng xử lễ phép, văn minh, có trách nhiệm trong cộng đồng."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7430,7 +8648,39 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Kể được hoạt động cộng đồng đã tham gia và nêu được việc làm tốt với hàng xóm.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết sống thân thiện, đoàn kết, tôn trọng và giúp đỡ những người xung quanh nơi cư trú; hình thành thói quen ứng xử lễ phép, văn minh, có trách nhiệm trong cộng đồng."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -7508,7 +8758,37 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 26.",
+          "- Biết chia sẻ việc tốt đã làm với hàng xóm và ứng xử lễ phép với mọi người nơi em sống.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -7611,7 +8891,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7621,43 +8904,26 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Nhận biết và tham gia được một số hoạt động xã hội phù hợp với học sinh lớp 1.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 27.",
-          "- Nêu được việc em sẽ tham gia để hưởng ứng phong trào kế hoạch nhỏ của lớp.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết yêu thương con người, sống có trách nhiệm với cộng đồng, biết quan tâm và giúp đỡ người có hoàn cảnh khó khăn bằng những việc làm phù hợp với lứa tuổi; bồi dưỡng tinh thần tương thân tương ái và lối sống đẹp."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7710,7 +8976,39 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết và tham gia được một số hoạt động xã hội phù hợp với học sinh lớp 1.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết yêu thương con người, sống có trách nhiệm với cộng đồng, biết quan tâm và giúp đỡ người có hoàn cảnh khó khăn bằng những việc làm phù hợp với lứa tuổi; bồi dưỡng tinh thần tương thân tương ái và lối sống đẹp."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -7788,7 +9086,37 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 27.",
+          "- Nêu được việc em sẽ tham gia để hưởng ứng phong trào kế hoạch nhỏ của lớp.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -7891,7 +9219,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7901,43 +9232,26 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Biết lựa chọn cách giúp đỡ người khó khăn bằng việc làm vừa sức, chân thành.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 28.",
-          "- Chia sẻ được việc làm yêu thương, giúp đỡ bạn và cam kết thực hiện trong tuần tới.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết yêu thương con người, sống có trách nhiệm với cộng đồng, biết quan tâm và giúp đỡ người có hoàn cảnh khó khăn bằng những việc làm phù hợp với lứa tuổi; bồi dưỡng tinh thần tương thân tương ái và lối sống đẹp."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7990,7 +9304,39 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Biết lựa chọn cách giúp đỡ người khó khăn bằng việc làm vừa sức, chân thành.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: Giáo dục học sinh biết yêu thương con người, sống có trách nhiệm với cộng đồng, biết quan tâm và giúp đỡ người có hoàn cảnh khó khăn bằng những việc làm phù hợp với lứa tuổi; bồi dưỡng tinh thần tương thân tương ái và lối sống đẹp."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -8068,7 +9414,37 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 28.",
+          "- Chia sẻ được việc làm yêu thương, giúp đỡ bạn và cam kết thực hiện trong tuần tới.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -8171,7 +9547,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8181,16 +9560,13 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Kể tên được một số cây, cảnh đẹp thiên nhiên nơi em sống và bày tỏ tình yêu thiên nhiên.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 29.",
-          "- Biết tham gia chăm sóc cây xanh và bảo vệ cảnh quan trường học.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
@@ -8202,22 +9578,10 @@
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8278,7 +9642,39 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Kể tên được một số cây, cảnh đẹp thiên nhiên nơi em sống và bày tỏ tình yêu thiên nhiên.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -8356,7 +9752,39 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 29.",
+          "- Biết tham gia chăm sóc cây xanh và bảo vệ cảnh quan trường học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -8467,7 +9895,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8477,43 +9908,26 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Giới thiệu được một cảnh đẹp quê em và nêu được việc làm giữ gìn cảnh đẹp đó.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 30.",
-          "- Tự tin giới thiệu ngắn gọn một cảnh đẹp quê hương và thể hiện thái độ yêu quý cảnh đẹp.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 1.1.CB1a: Học sinh bước đầu xác định thông tin cần tìm về cảnh đẹp quê hương và quan sát hình ảnh/video hoặc từ khóa ngắn do giáo viên hướng dẫn để biết tên cảnh đẹp, đặc điểm nổi bật, hoạt động của người dân nơi đó."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8566,7 +9980,39 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Giới thiệu được một cảnh đẹp quê em và nêu được việc làm giữ gìn cảnh đẹp đó.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.1.CB1a: Học sinh bước đầu xác định thông tin cần tìm về cảnh đẹp quê hương và quan sát hình ảnh/video hoặc từ khóa ngắn do giáo viên hướng dẫn để biết tên cảnh đẹp, đặc điểm nổi bật, hoạt động của người dân nơi đó."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -8644,7 +10090,37 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 30.",
+          "- Tự tin giới thiệu ngắn gọn một cảnh đẹp quê hương và thể hiện thái độ yêu quý cảnh đẹp.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -8747,7 +10223,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8757,16 +10236,13 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Nêu được việc cần làm để bảo vệ cây xanh, nguồn nước và cảnh đẹp thiên nhiên.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 31.",
-          "- Chia sẻ được việc làm bảo vệ thiên nhiên ở trường hoặc ở nhà.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
@@ -8774,27 +10250,14 @@
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
           "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
           "4. Tích hợp",
-          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường.",
-          "- Tích hợp NLS 3.1.CB1a: Dưới sự hướng dẫn của giáo viên, học sinh lựa chọn ảnh hoặc biểu tượng phù hợp để tạo thông điệp ngắn nhắc bạn bảo vệ cảnh quan thiên nhiên; không tự ý đăng ảnh có thông tin riêng tư."
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8855,7 +10318,40 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nêu được việc cần làm để bảo vệ cây xanh, nguồn nước và cảnh đẹp thiên nhiên.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường.",
+          "- Tích hợp NLS 3.1.CB1a: Dưới sự hướng dẫn của giáo viên, học sinh lựa chọn ảnh hoặc biểu tượng phù hợp để tạo thông điệp ngắn nhắc bạn bảo vệ cảnh quan thiên nhiên; không tự ý đăng ảnh có thông tin riêng tư."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -8941,7 +10437,39 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 31.",
+          "- Chia sẻ được việc làm bảo vệ thiên nhiên ở trường hoặc ở nhà.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -9052,7 +10580,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9062,43 +10593,26 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Nhận xét được hành động đúng, chưa đúng đối với cảnh quan và thực hiện việc bảo vệ thiên nhiên.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 32.",
-          "- Chia sẻ được việc làm tốt để bảo vệ cảnh quan thiên nhiên và lan tỏa đến bạn.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
-          "4. Tích hợp",
-          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9151,7 +10665,41 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận xét được hành động đúng, chưa đúng đối với cảnh quan và thực hiện việc bảo vệ thiên nhiên.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Bài 8: Bảo vệ môi trường nơi em sống - Trang 54 TLGDĐP Trà Vinh): Giữ gìn cảnh quan thiên nhiên quê hương Trà Vinh (bảo vệ cây sao, dầu cổ thụ quanh Ao Bà Om; giữ sạch bờ kênh rạch xóm ấp).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M4, M19): Không vứt rác, chai nhựa xuống dòng sông Cổ Chiên, kênh rạch và nguồn nước sinh hoạt; tuyên truyền gia đình bảo vệ nguồn nước sạch.",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -9211,6 +10759,14 @@
               "- Lắng nghe; thực hiện theo hướng dẫn."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Bài 8 GDĐP 1 & Mã Mizuiku M4, M19): “Quê hương Trà Vinh chúng ta có danh thắng Ao Bà Om mát rượi bóng cây cổ thụ và dòng sông Cổ Chiên hiền hòa. Để bảo vệ cảnh quan tươi đẹp và nguồn nước trong lành ấy, chúng ta cần làm gì?”",
+              "- HS trả lời: Không bẻ cành cây cổ thụ Ao Bà Om; không vứt túi nilon, rác thải xuống dòng sông Cổ Chiên và kênh rạch quanh nhà; nhắc nhở mọi người cùng giữ gìn nguồn nước sạch ạ."
+            ],
+            [
+              "- GV biểu dương và kết luận: Dòng sông Cổ Chiên và hàng cây cổ thụ Ao Bà Om là niềm tự hào của người dân Trà Vinh. Mỗi hành động bảo vệ cây xanh và không xả rác xuống nguồn nước của các em chính là góp phần làm cho quê hương Trà Vinh thêm tươi đẹp, trù phú.",
+              "- HS lắng nghe, tự hào và đồng thanh cam kết thực hiện."
+            ],
+            [
               "- Mời một số em/nhóm thể hiện; nhận xét, động viên.",
               "- Trình bày hoặc thực hiện; lắng nghe nhận xét."
             ],
@@ -9229,7 +10785,39 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 32.",
+          "- Chia sẻ được việc làm tốt để bảo vệ cảnh quan thiên nhiên và lan tỏa đến bạn.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -9340,7 +10928,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9350,16 +10941,13 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Kể được một số địa điểm sạch, đẹp và nêu được tác hại của việc vứt rác bừa bãi.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 33.",
-          "- Biết bày tỏ cảm xúc khi thấy rác vứt bừa bãi và cam kết giữ vệ sinh môi trường.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
@@ -9371,22 +10959,10 @@
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9447,7 +11023,39 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Kể được một số địa điểm sạch, đẹp và nêu được tác hại của việc vứt rác bừa bãi.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -9525,7 +11133,39 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 33.",
+          "- Biết bày tỏ cảm xúc khi thấy rác vứt bừa bãi và cam kết giữ vệ sinh môi trường.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -9636,7 +11276,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9646,16 +11289,13 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Đề xuất được việc làm bảo vệ môi trường ở nơi chưa sạch, đẹp và nhận xét hành động đúng, chưa đúng.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 34.",
-          "- Biết đọc thơ, hát về Bác Hồ và tham gia giữ vệ sinh môi trường bằng việc làm cụ thể.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
@@ -9663,27 +11303,14 @@
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
           "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
           "4. Tích hợp",
-          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường.",
-          "- Tích hợp AI 1.D2.1: Học sinh nhận biết máy thông minh có thể nhận diện, phân loại hình ảnh; quan sát giáo viên minh hoạ nhận diện rác giấy, chai nhựa, lá cây để thảo luận cách bỏ rác đúng nơi quy định."
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9744,7 +11371,40 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Đề xuất được việc làm bảo vệ môi trường ở nơi chưa sạch, đẹp và nhận xét hành động đúng, chưa đúng.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường.",
+          "- Tích hợp AI 1.D2.1: Học sinh nhận biết máy thông minh có thể nhận diện, phân loại hình ảnh; quan sát giáo viên minh hoạ nhận diện rác giấy, chai nhựa, lá cây để thảo luận cách bỏ rác đúng nơi quy định."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -9830,7 +11490,39 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 34.",
+          "- Biết đọc thơ, hát về Bác Hồ và tham gia giữ vệ sinh môi trường bằng việc làm cụ thể.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -9941,7 +11633,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9951,43 +11646,26 @@
     "lessons": [
       {
         "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
-        "topic": "",
+        "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động sinh hoạt dưới cờ theo chủ đề.",
           "- Nêu được việc làm phù hợp với nội dung hoạt động và lứa tuổi.",
           "2. Năng lực chung",
-          "- Thực hiện và cam kết được một số việc bảo vệ môi trường trong dịp nghỉ hè.",
-          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
-          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 35.",
-          "- Chia sẻ được việc sẽ thực hiện để có kì nghỉ hè bổ ích và bảo vệ môi trường.",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
-          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
-          "4. Tích hợp",
-          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích."
         ],
         "dodung": [
           "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
-          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động.",
-          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
           "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "HOẠT ĐỘNG TRẢI NGHIỆM",
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10040,7 +11718,39 @@
               "- Chốt ý, kết luận: Việc làm tốt cần được thực hiện thường xuyên.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Thực hiện và cam kết được một số việc bảo vệ môi trường trong dịp nghỉ hè.",
+          "- Biết trao đổi, trình bày ý kiến và thực hiện việc làm phù hợp với nội dung bài học.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -10118,7 +11828,39 @@
               "- Chốt ý, kết luận: Em tiếp tục thực hiện việc tốt trong học tập và cuộc sống.",
               "- Lắng nghe, thực hiện."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tự đánh giá được việc thực hiện nền nếp, học tập và rèn luyện trong tuần 35.",
+          "- Chia sẻ được việc sẽ thực hiện để có kì nghỉ hè bổ ích và bảo vệ môi trường.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động tham gia, tự đánh giá và điều chỉnh việc làm của bản thân.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp và trình bày ý kiến với bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn được việc làm phù hợp trong tình huống gần gũi.",
+          "3. Phẩm chất",
+          "- Nhân ái: Biết quan tâm, tôn trọng và chia sẻ với mọi người.",
+          "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, trải nghiệm.",
+          "- Trách nhiệm: Có ý thức thực hiện việc làm đúng, an toàn và có ích.",
+          "4. Tích hợp",
+          "- Tích hợp Bảo vệ môi trường: Giáo dục học sinh biết yêu thiên nhiên, cây xanh và cảnh đẹp quê hương; hình thành thói quen giữ vệ sinh, chăm sóc cây, bỏ rác đúng nơi quy định và không làm hư hại môi trường."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK, tranh minh hoạ đã cắt đúng nội dung từ SGK, thẻ nhiệm vụ, máy tính/máy chiếu khi cần, bài hát phù hợp chủ đề.",
+          "- Học sinh: SGK, bút màu, thẻ tự đánh giá; chuẩn bị tâm thế tham gia hoạt động."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -10229,7 +11971,10 @@
             ]
           ]
         ],
-        "title": "HOẠT ĐỘNG TRẢI NGHIỆM"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   }

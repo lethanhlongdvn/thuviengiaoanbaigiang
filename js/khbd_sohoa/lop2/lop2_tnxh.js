@@ -14,10 +14,9 @@
     "sourceFile": "TNXH TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 1",
+        "lessonTitle": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Kể được các thành viên trong gia đình nhiều thế hệ; sắp xếp được các thành viên trong gia đình bạn Hoa từ người nhiều tuổi đến người ít tuổi.",
           "- Nhận biết được trong một gia đình có thể có hai, ba hoặc nhiều thế hệ cùng chung sống; nêu được những người cùng thế hệ trong gia đình.",
@@ -39,10 +38,6 @@
           "- HS: SGK, vở, bút màu, ảnh chụp gia đình hoặc giấy vẽ để hoàn thành sơ đồ các thế hệ trong gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -147,13 +142,16 @@
             ]
           ]
         ],
-        "title": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 1"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 2",
+        "lessonTitle": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được sự cần thiết của việc yêu thương, quan tâm, chăm sóc và chia sẻ giữa các thế hệ trong gia đình.",
           "- Nhận xét được một số việc làm thể hiện sự quan tâm, chăm sóc trong tranh và trong đời sống hằng ngày.",
@@ -175,10 +173,6 @@
           "- HS: SGK, vở, bút, một số ý tưởng/việc làm đã thực hiện để quan tâm, chăm sóc người thân."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -259,7 +253,11 @@
             ]
           ]
         ],
-        "title": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 2"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -268,15 +266,15 @@
     "sourceFile": "TNXH TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 1",
+        "lessonTitle": "BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Đặt được câu hỏi để tìm hiểu thông tin về tên công việc, nghề nghiệp của người lớn trong gia đình.",
           "- Nêu được ý nghĩa của những công việc, nghề nghiệp đó đối với gia đình và xã hội.",
           "- Quan sát tranh SGK, kể được một số nghề nghiệp gần gũi như ngư dân, bộ đội hải quân, công nhân may, thợ đan nón, nông dân, người bán hàng; hoàn thành được phiếu học tập theo gợi ý.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động nhớ lại nghề nghiệp của người thân, tự hoàn thành phiếu học tập và tự điều chỉnh câu trả lời sau khi nghe bạn, nghe GV góp ý.",
           "- Giao tiếp và hợp tác: Biết đóng vai phóng viên, đặt câu hỏi lịch sự; thảo luận nhóm đôi, nhóm bốn khi quan sát tranh nghề nghiệp; lắng nghe và tôn trọng câu trả lời của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn câu hỏi phù hợp để tìm hiểu nghề nghiệp; biết liên hệ công nghệ, thiết bị số có thể hỗ trợ con người làm việc hiệu quả và an toàn hơn.",
           "3. Phẩm chất",
@@ -284,18 +282,14 @@
           "- Nhân ái: Biết quan tâm, biết nói lời cảm ơn và thể hiện sự trân trọng đối với công việc của ông bà, cha mẹ, người thân và những người lao động xung quanh.",
           "- Trách nhiệm: Có ý thức chia sẻ việc làm phù hợp trong gia đình; biết trân trọng mọi nghề nghiệp chân chính và không phân biệt nghề nghiệp.",
           "4. Tích hợp",
-          "- Tích hợp năng lực số 5.2.CB1a: HS nhận ra được công cụ số đơn giản và giải pháp công nghệ có thể hỗ trợ nhu cầu công việc; biết rằng robot nông nghiệp, máy bay phun thuốc, máy may công nghiệp, thiết bị liên lạc trên biển là thành quả lao động của con người, giúp công việc hiệu quả và an toàn hơn nhưng vẫn cần con người điều khiển, kiểm tra và sử dụng đúng mục đích."
+          "- Tích hợp năng lực số 5.2.CB1a: HS nhận ra được công cụ số đơn giản và giải pháp công nghệ có thể hỗ trợ nhu cầu công việc; biết rằng robot nông nghiệp, máy bay phun thuốc, máy may công nghiệp, thiết bị liên lạc trên biển là thành quả lao động của con người, giúp công việc hiệu quả và an toàn hơn nhưng vẫn cần con người điều khiển, kiểm tra và sử dụng đúng mục đích.",
+          "- Giáo dục lý tưởng cách mạng, đạo đức, lối sống: HS trân trọng giá trị lao động, hiểu mọi nghề nghiệp chân chính đều có ích cho gia đình và xã hội; biết thể hiện lòng biết ơn người lao động, không phân biệt nghề nghiệp."
         ],
         "dodung": [
           "- GV: Máy tính, ti vi/máy chiếu, tranh SGK trang 10-11, phiếu học tập, ảnh/video ngắn về một số nghề nghiệp và công nghệ hỗ trợ nghề nghiệp như robot nông nghiệp, máy bay phun thuốc, máy may công nghiệp.",
           "- HS: SGK, VBT, vở, bút, một số tranh/ảnh hoặc thông tin đơn giản về công việc, nghề nghiệp của người thân trong gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giáo dục lý tưởng cách mạng, đạo đức, lối sống: HS trân trọng giá trị lao động, hiểu mọi nghề nghiệp chân chính đều có ích cho gia đình và xã hội; biết thể hiện lòng biết ơn người lao động, không phân biệt nghề nghiệp.",
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -560,13 +554,14 @@
             ]
           ]
         ],
-        "title": "BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 1"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 2",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thu thập và nói được một số thông tin về những công việc, nghề có thu nhập và những công việc tình nguyện không nhận lương.",
           "- Biết chia sẻ với bạn bè, người thân về nghề nghiệp yêu thích sau này; hiểu ý nghĩa của các công việc từ thiện, tình nguyện đối với cộng đồng.",
@@ -589,10 +584,6 @@
           "- HS: SGK, vở, bút, giấy màu, tranh/ảnh hoặc thông tin nghề nghiệp của người thân, sách/truyện cũ để tham gia hoạt động “Tủ sách ủng hộ vùng khó khăn”."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -834,7 +825,11 @@
             ]
           ]
         ],
-        "title": "BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "…………………………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -843,10 +838,9 @@
     "sourceFile": "TNXH TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 1",
+        "lessonTitle": "BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Kể được tên một số thức ăn, đồ uống, thuốc, hóa chất và đồ dùng trong gia đình nếu không được cất giữ, bảo quản cẩn thận có thể gây ngộ độc.",
           "- Thu thập được thông tin từ tranh SGK, thảo luận với bạn để nêu một số lí do gây ngộ độc qua đường ăn uống như ăn thức ăn ôi thiu, mốc hỏng, uống thuốc không đúng cách, dùng thực phẩm quá hạn.",
@@ -868,10 +862,6 @@
           "- HS: SGK, VBT, vở, bút; tranh/ảnh sưu tầm về thức ăn, đồ uống hoặc đồ dùng trong gia đình có thể gây ngộ độc nếu bảo quản không cẩn thận."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -996,13 +986,14 @@
             ]
           ]
         ],
-        "title": "BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 1"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 2",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết cách xử lí một số tình huống đơn giản khi bản thân hoặc người nhà có dấu hiệu ngộ độc: báo ngay cho người lớn, gọi hỗ trợ y tế khi cần, không tự ý cho uống thuốc hoặc xử lí theo lời truyền miệng.",
           "- Nêu được một số cách cất giữ, bảo quản thức ăn, đồ uống, thuốc, hóa chất và biết đọc một số thông tin quan trọng trên hàng hóa như ngày sản xuất, hạn sử dụng, cách bảo quản.",
@@ -1024,10 +1015,6 @@
           "- HS: SGK, VBT, vở, bút; tranh/thông điệp tuyên truyền cách cất giữ, bảo quản thức ăn, đồ uống đã chuẩn bị."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -1144,7 +1131,11 @@
             ]
           ]
         ],
-        "title": "BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "…………………………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -1153,10 +1144,9 @@
     "sourceFile": "TNXH TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 1",
+        "lessonTitle": "BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số việc làm để giữ sạch nhà ở như lau bàn, quét nhà, lau sàn, rửa cốc chén, cọ rửa nhà vệ sinh và sắp xếp đồ dùng gọn gàng.",
           "- Giải thích được vì sao phải giữ sạch nhà ở; biết nhà ở sạch sẽ giúp bảo vệ sức khỏe, tạo cảm giác thoải mái và làm cho các thành viên trong gia đình vui vẻ hơn.",
@@ -1170,6 +1160,7 @@
           "- Trách nhiệm: Biết giữ gìn nhà ở sạch sẽ, không xả rác bừa bãi, chủ động làm những việc nhỏ vừa sức để giúp gia đình.",
           "- Nhân ái: Biết chia sẻ công việc nhà với ông bà, cha mẹ, anh chị em; trân trọng công sức của người thân khi chăm sóc nhà cửa.",
           "4. Tích hợp",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M24): Thực hiện việc giữ sạch khu vực nhà tắm, nhà vệ sinh gia đình; sử dụng nước tiết kiệm và an toàn, khóa chặt vòi nước sau khi dùng, không để nước xả tràn.",
           "- Tích hợp AI - YCCĐ 2.A2.2: HS hiểu rằng một số thiết bị thông minh/AI như robot hút bụi, robot lau nhà, máy rửa bát có thể hỗ trợ con người làm việc nhà, giúp giảm bớt sức lao động. Tuy nhiên, HS cần hiểu AI chỉ là công cụ hỗ trợ; con người vẫn phải biết tự dọn dẹp, kiểm tra kết quả và dùng thời gian được tiết kiệm để quan tâm, trò chuyện, sinh hoạt cùng người thân."
         ],
         "dodung": [
@@ -1177,10 +1168,6 @@
           "- HS: SGK, vở, bút chì; tranh/ảnh hoặc trải nghiệm về việc em đã làm để giữ vệ sinh nhà ở."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -1242,6 +1229,14 @@
               "- HS lắng nghe, quan sát ví dụ thiết bị thông minh và nêu được: AI/robot có thể hỗ trợ dọn dẹp nhưng con người vẫn phải biết giữ gìn nhà ở, biết kiểm tra và cùng gia đình làm việc nhà."
             ],
             [
+              "- GV hỏi dẫn tích hợp Tiết kiệm và bảo vệ nguồn nước (Mã HĐ Mizuiku M10, M24): “Khi lau dọn nhà tắm, bồn rửa hoặc sau khi rửa tay chân ở nhà, em làm gì để vừa giữ nơi ở sạch sẽ vừa không lãng phí nước sạch?”",
+              "- HS trả lời: Vặn vòi nước vừa đủ dùng; rửa xong phải khóa chặt vòi nước; không để nước chảy tràn ra sàn gây trơn trượt và lãng phí nước ạ."
+            ],
+            [
+              "- GV kết luận: Giữ gìn nhà tắm, nhà vệ sinh khô ráo, sạch sẽ và tiết kiệm nước giúp bảo vệ sức khỏe cho cả gia đình và bảo vệ nguồn tài nguyên nước quý giá.",
+              "- HS lắng nghe và cam kết thực hiện ở nhà."
+            ],
+            [
               "- GV hỏi: Nếu gia đình em có robot dọn nhà giúp tiết kiệm thời gian, em sẽ dùng thời gian rảnh đó để làm gì cùng bố mẹ, ông bà?",
               "- HS chia sẻ: Em sẽ trò chuyện với ông bà, đọc sách cùng bố mẹ, phụ mẹ chuẩn bị bữa ăn, chơi cùng em nhỏ, cùng cả nhà chăm sóc cây hoặc sắp xếp đồ dùng."
             ],
@@ -1297,13 +1292,14 @@
             ]
           ]
         ],
-        "title": "BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 1"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 2",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số cách sắp xếp, cất giữ đồ dùng trong gia đình để nhà ở gọn gàng, sạch sẽ.",
           "- Làm được hộp đựng đồ dùng từ vật liệu đã qua sử dụng theo các bước đơn giản; biết trình bày lí do sử dụng lại vật liệu để góp phần giữ sạch nhà ở và giảm rác thải.",
@@ -1325,10 +1321,6 @@
           "- HS: SGK, vở, bút; hộp giấy đã qua sử dụng, giấy màu, bút màu; nguyên liệu tự nhiên theo nhóm nếu được phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -1437,7 +1429,11 @@
             ]
           ]
         ],
-        "title": "BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "…………………………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -1446,10 +1442,9 @@
     "sourceFile": "TNXH TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 1",
+        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hệ thống được một số nội dung đã học trong chủ đề Gia đình: các thế hệ trong gia đình, nghề nghiệp của người lớn, phòng tránh ngộ độc khi ở nhà và giữ sạch nhà ở.",
           "- Kể được những việc làm thể hiện sự quan tâm, chăm sóc, yêu thương giữa các thành viên trong gia đình.",
@@ -1470,10 +1465,6 @@
           "- HS: SGK, VBT, tranh/ảnh gia đình hoặc sản phẩm đã chuẩn bị về gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -1571,13 +1562,14 @@
             ]
           ]
         ],
-        "title": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 1"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 2",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố được cách phòng tránh ngộ độc khi ở nhà và cách giữ sạch nhà ở thông qua trò chơi, quan sát tranh và liên hệ thực tế gia đình.",
           "- Biết sắp xếp thức ăn, đồ uống, đồ dùng, thuốc đúng nơi, đúng cách để bảo đảm vệ sinh và an toàn cho các thành viên trong gia đình.",
@@ -1599,10 +1591,6 @@
           "- HS: SGK, VBT, tranh/ảnh về việc cất giữ, bảo quản đồ ăn, đồ uống, đồ dùng trong gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -1716,7 +1704,11 @@
             ]
           ]
         ],
-        "title": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "…………………………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -1725,10 +1717,9 @@
     "sourceFile": "TNXH TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 3",
+        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 3 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Chia sẻ được thông tin về nghề nghiệp của các thành viên trong gia đình và nêu được lợi ích của một số nghề nghiệp đối với gia đình, xã hội.",
           "- Biết nói về nghề nghiệp mình yêu thích, bước đầu nêu được lí do yêu thích và lợi ích của nghề nghiệp đó.",
@@ -1749,10 +1740,6 @@
           "- HS: SGK, VBT, tranh/ảnh mô phỏng hoặc thông tin về nghề nghiệp của các thành viên trong gia đình; bút màu, giấy vẽ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -1862,13 +1849,14 @@
             ]
           ]
         ],
-        "title": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 3"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 1",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Kể được một số hoạt động diễn ra trong ngày khai giảng và nói được ý nghĩa của ngày khai giảng đối với học sinh, thầy cô và nhà trường.",
           "- Nhận xét được sự tham gia của các bạn trong ngày khai giảng và chia sẻ được cảm nhận của bản thân về ngày khai giảng ở trường em.",
@@ -1890,10 +1878,6 @@
           "- HS: SGK, VBT, tranh/ảnh hoặc kỉ niệm đáng nhớ về ngày khai giảng (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -2010,7 +1994,11 @@
             ]
           ]
         ],
-        "title": "BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 1"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "…………………………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -2019,10 +2007,9 @@
     "sourceFile": "TNXH TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 2",
+        "lessonTitle": "BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Kể được một số hoạt động ngoài lễ khai giảng và nêu được ý nghĩa của các hoạt động đó đối với học sinh, thầy cô và nhà trường.",
           "- Nhận xét được sự tham gia của các bạn trong ngày khai giảng; biết chia sẻ cảm nhận, mong muốn của bản thân về ngày khai giảng.",
@@ -2044,10 +2031,6 @@
           "- HS: SGK, VBT, tranh vẽ hoặc kỉ niệm về hoạt động em yêu thích trong ngày khai giảng."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -2158,13 +2141,14 @@
             ]
           ]
         ],
-        "title": "BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 1",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Kể được một số hoạt động diễn ra trong ngày hội đọc sách và nêu được ý nghĩa của ngày hội đọc sách ở trường.",
           "- Nhận xét được sự tham gia của các bạn trong ngày hội đọc sách; biết chia sẻ cảm nhận của bản thân khi tham gia hoạt động đọc sách.",
@@ -2186,10 +2170,6 @@
           "- HS: SGK, VBT, một cuốn sách hoặc tên cuốn sách em đã đọc."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -2280,7 +2260,11 @@
             ]
           ]
         ],
-        "title": "BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 1"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "…………………………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -2289,10 +2273,9 @@
     "sourceFile": "TNXH TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 2",
+        "lessonTitle": "BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết giới thiệu được cuốn sách yêu thích theo gợi ý: tên sách, tác giả, nhân vật hoặc nội dung yêu thích.",
           "- Biết lập kế hoạch đọc sách trong tháng và chia sẻ kế hoạch với bạn, người thân.",
@@ -2314,10 +2297,6 @@
           "- HS: SGK, VBT, cuốn sách em yêu thích hoặc tranh tuyên truyền việc đọc sách."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -2392,13 +2371,14 @@
             ]
           ]
         ],
-        "title": "BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 1",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được một số tình huống nguy hiểm, rủi ro có thể xảy ra khi tham gia các hoạt động ở trường.",
           "- Biết lựa chọn hoạt động an toàn, hướng dẫn bạn vui chơi an toàn và phòng tránh rủi ro cho bản thân, người khác.",
@@ -2421,10 +2401,6 @@
           "- HS: SGK, VBT, một số ví dụ về hoạt động an toàn hoặc chưa an toàn ở trường."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -2504,7 +2480,11 @@
             ]
           ]
         ],
-        "title": "BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 1"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "…………………………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -2513,10 +2493,9 @@
     "sourceFile": "TNXH TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 2",
+        "lessonTitle": "BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố được một số việc nên làm và không nên làm để phòng tránh nguy hiểm, rủi ro khi tham gia hoạt động ở trường.",
           "- Biết xử lí một số tình huống đơn giản khi thấy bạn có hành vi chưa an toàn; biết nhắc nhở bạn bằng lời nói phù hợp.",
@@ -2539,10 +2518,6 @@
           "- HS: SGK, VBT, bút màu, ý tưởng viết/vẽ cam kết thực hiện an toàn ở trường."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -2625,13 +2600,14 @@
             ]
           ]
         ],
-        "title": "BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 1: GIỮ VỆ SINH TRƯỜNG HỌC",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 9: GIỮ VỆ SINH TRƯỜNG HỌC - TIẾT 1: GIỮ VỆ SINH TRƯỜNG HỌC - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được việc giữ vệ sinh khi tham gia một số hoạt động ở trường như: chăm sóc bồn hoa, nhặt rác, lau bảng, sắp xếp bàn ghế, trực nhật.",
           "- Biết chia sẻ cảm nghĩ của bản thân sau khi tham gia các hoạt động giữ vệ sinh, làm đẹp trường lớp; biết nói việc nên làm và không nên làm để trường lớp sạch đẹp.",
@@ -2659,10 +2635,6 @@
           "- Một số ý tưởng nhỏ để tuyên truyền giữ vệ sinh trường học, bảo vệ cây xanh và bỏ rác đúng nơi quy định."
         ],
         "activities": [],
-        "dieuchinh": [
-          "……………………………………………………………………………………………………………………",
-          "……………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -2814,7 +2786,11 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: GIỮ VỆ SINH TRƯỜNG HỌC"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "……………………………………………………………………………………………………………………",
+          "……………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -2823,10 +2799,9 @@
     "sourceFile": "TNXH TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: GIỮ VỆ SINH TRƯỜNG HỌC - TIẾT 2",
+        "lessonTitle": "BÀI 9: GIỮ VỆ SINH TRƯỜNG HỌC - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được việc giữ vệ sinh khi tham gia một số hoạt động ở trường; biết lựa chọn và sử dụng đồ dùng vệ sinh phù hợp, an toàn.",
           "- Chia sẻ được cảm nghĩ của bản thân sau khi tham gia các hoạt động giữ vệ sinh, làm đẹp trường lớp; nhận xét được sự tham gia của các bạn bằng lời nói phù hợp.",
@@ -2840,6 +2815,7 @@
           "- Trách nhiệm: Có ý thức giữ vệ sinh, bảo vệ cảnh quan, sử dụng dụng cụ an toàn và nhắc nhở bạn cùng thực hiện.",
           "- Yêu nước: Biết yêu quý ngôi trường - ngôi nhà thứ hai của mình; thể hiện tình yêu trường lớp bằng những việc làm cụ thể để xây dựng trường học xanh - sạch - đẹp.",
           "4. Tích hợp",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M4, M19): Giữ sạch bồn rửa tay và khu vệ sinh trường học; mở vòi nước vừa đủ dùng, khóa chặt vòi sau khi rửa; không vứt rác, hộp sữa vào bồn rửa gây tắc cống rãnh.",
           "- Giáo dục bảo vệ môi trường: HS tham gia vệ sinh sân trường, trồng và chăm sóc cây; góp phần thực hiện dự án “Làm xanh trường lớp”, xây dựng ngôi trường xanh - sạch - đẹp.",
           "- Tích hợp AI - YCCĐ 2.D1.1: HS đề xuất ý tưởng dùng máy thông minh để nhắc nhở các bạn bỏ rác đúng nơi quy định; hiểu AI chỉ hỗ trợ nhận diện và nhắc nhở, con người vẫn phải tự giác hành động và kiểm tra."
         ],
@@ -2848,10 +2824,6 @@
           "- HS: Các đồ dùng, vật dụng cần thiết cho buổi vệ sinh; một số cây hoa, cây cảnh để thực hiện dự án “Làm xanh trường lớp”; tranh vẽ với chủ đề “Ngôi trường mơ ước của em”."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -2926,6 +2898,14 @@
             [
               "- Tích hợp giáo dục bảo vệ môi trường: GV nhấn mạnh rằng việc quét sân, thu gom rác, chăm sóc cây và bồn hoa không chỉ làm cho trường lớp sạch đẹp mà còn tạo môi trường học tập trong lành, hạn chế bụi bẩn và giúp cây xanh phát triển. Mỗi em cần thực hiện việc được phân công bằng thái độ tự giác, không làm qua loa, biết tiết kiệm nước khi tưới cây, không bẻ cành hái hoa và biết nhắc bạn bỏ rác đúng nơi. Những hành động nhỏ được thực hiện thường xuyên sẽ góp phần xây dựng ngôi trường xanh - sạch - đẹp và hình thành trách nhiệm bảo vệ môi trường chung.",
               "- HS lắng nghe, nêu lại những việc cần thực hiện: bỏ rác đúng nơi, tiết kiệm nước, chăm sóc cây, không phá hoại cảnh quan và chủ động nhắc bạn cùng giữ vệ sinh trường học."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp Tiết kiệm và bảo vệ nguồn nước (Mã HĐ Mizuiku M4, M19): “Tại khu vực bồn rửa tay và nhà vệ sinh của trường mình, chúng ta cần làm gì để giữ vệ sinh chung và bảo vệ nguồn nước sạch?”",
+              "- HS trả lời: Mở vòi nước vừa phải để rửa tay; rửa xong khóa chặt vòi nước; tuyệt đối không vứt giấy rác, vỏ hộp sữa hay đất cát vào bồn rửa gây nghẹt cống ạ."
+            ],
+            [
+              "- GV tuyên dương và dặn dò: Sử dụng nước tiết kiệm và giữ bồn rửa tay luôn sạch sẽ là hành động thiết thực của mỗi học sinh để xây dựng ngôi trường thân thiện, xanh - sạch - đẹp.",
+              "- HS ghi nhớ và nhắc nhở nhau cùng thực hiện."
             ],
             [
               "- GV kết luận: Các em cần nghiêm túc, tích cực và hào hứng tham gia các hoạt động làm sạch đẹp trường lớp; mỗi tổ phải phối hợp, thực hiện đúng nhiệm vụ và bảo đảm an toàn.",
@@ -3037,18 +3017,20 @@
             ]
           ]
         ],
-        "title": "BÀI 9: GIỮ VỆ SINH TRƯỜNG HỌC - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 1",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hệ thống hóa được kiến thức đã học về trường học; kể và chia sẻ được một số hoạt động trong ngày khai giảng, ngày hội đọc sách, hoạt động giữ an toàn và vệ sinh trường học.",
           "- Biết lựa chọn, trưng bày tranh ảnh về một sự kiện ở trường; giải thích được lí do lựa chọn và giới thiệu nội dung tranh ảnh bằng lời nói rõ ràng.",
           "- Vận dụng kiến thức đã học để nhận xét, xử lí một số tình huống an toàn hoặc chưa an toàn ở trường; bước đầu nhận biết rủi ro khi sử dụng thiết bị điện tử.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động nhớ lại kiến thức, chuẩn bị tranh ảnh, hoàn thành nhiệm vụ cá nhân và tự điều chỉnh cách sử dụng thiết bị điện tử.",
           "- Giao tiếp và hợp tác: Biết thảo luận nhóm, phân công trưng bày, thuyết trình, đặt câu hỏi, nhận xét và bổ sung ý kiến cho bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách xử lí phù hợp; biết nhận diện nguy cơ và đề xuất quy tắc sử dụng thiết bị điện tử an toàn.",
           "3. Phẩm chất",
@@ -3064,10 +3046,6 @@
           "- HS: SGK, tranh ảnh đã sưu tầm về sự kiện ở trường, bút viết và giấy ghi chú."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -3227,7 +3205,11 @@
             ]
           ]
         ],
-        "title": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 1"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "…………………………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -3236,10 +3218,9 @@
     "sourceFile": "TNXH TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 2",
+        "lessonTitle": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hệ thống hóa được kiến thức đã học về trường học; nhận biết và xử lí được một số tình huống an toàn hoặc nguy hiểm khi tham gia hoạt động ở trường.",
           "- Chia sẻ được thông tin về các hoạt động trong ngày khai giảng, ngày hội đọc sách, giữ an toàn, giữ vệ sinh và làm đẹp trường lớp.",
@@ -3260,10 +3241,6 @@
           "- HS: SGK, VBT; tranh, ảnh hoặc video minh chứng; chuẩn bị báo cáo dự án “Làm xanh trường lớp”."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -3441,13 +3418,14 @@
             ]
           ]
         ],
-        "title": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 3",
+        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 3 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hệ thống hóa được kiến thức đã học về trường học; chia sẻ được nội dung yêu thích và những việc bản thân đã thực hiện sau khi học chủ đề.",
           "- Báo cáo, nhận xét được kết quả dự án “Làm xanh trường lớp”; biết duy trì hoạt động chăm sóc cây và bảo vệ cảnh quan.",
@@ -3469,10 +3447,6 @@
           "- HS: SGK, VBT; báo cáo dự án “Làm xanh trường lớp”; tranh vẽ hoặc cắt, dán chủ đề “Ngôi trường thứ hai” mà em mơ ước."
         ],
         "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………………………"
-        ],
         "tables": [
           [
             [
@@ -3650,7 +3624,11 @@
             ]
           ]
         ],
-        "title": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 3"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "…………………………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -3659,10 +3637,9 @@
     "sourceFile": "TNXH TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 1",
+        "lessonTitle": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 1 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Kể được tên một số hàng hoá cần thiết và nêu được vai trò của chúng trong cuộc sống hằng ngày của gia đình.",
           "- Nêu được sự cần thiết của một số nhóm hàng hoá đối với ăn uống, học tập, đi lại, sinh hoạt và chăm sóc sức khỏe.",
@@ -3684,7 +3661,6 @@
           "- HS: SGK, VBT; tranh, ảnh về một số hàng hoá cần thiết cho cuộc sống hằng ngày của gia đình (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3807,13 +3783,14 @@
             ]
           ]
         ],
-        "title": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 1"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):\n…………………………………………………………………………………………………………………………"
+        ]
       },
       {
-        "lessonTitle": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 2",
+        "lessonTitle": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 2 - Thời gian thực hiện: 35 phút",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Trình bày được hoạt động mua bán hàng hoá thường diễn ra ở siêu thị, chợ, cửa hàng, chợ nổi và một số địa điểm khác.",
           "- Nêu được những điểm khác nhau trong cách trưng bày, lựa chọn, mua và bán hàng hoá ở các địa điểm.",
@@ -3836,7 +3813,6 @@
           "- HS: SGK, VBT; tranh, ảnh về hoạt động mua bán ở một số địa điểm (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3996,7 +3972,9 @@
             ]
           ]
         ],
-        "title": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 2"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):\n…………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -4005,7 +3983,7 @@
     "sourceFile": "TNXH TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12. THỰC HÀNH MUA BÁN HÀNG HÓA (1 tiết)",
+        "lessonTitle": "Tự nhiên – xã hội - BÀI 12. THỰC HÀNH MUA BÁN HÀNG HÓA (1 tiết)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4037,11 +4015,8 @@
           "- Một số đồ dùng học tập (sách, vở, bút chì, bút màu,...); một số đồ chơi: bộ đồ dùng gia đình (nồi, xoong, chảo, bát, đĩa, thìa, máy xay,...); trang phục (áo, mũ, giày, dép,...); thực phẩm (rau, củ cà rốt, cà chua, táo, ổi,...).",
           "- SHS, VBT; các thẻ ghi tên hàng hoá hoặc giá tiền (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "………………………………………………………………………………………………………………………………………………………………",
-          "………………………………………………………………………………………………………………………………………………………………",
-          "Tự nhiên – xã hội"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4256,10 +4231,12 @@
             ]
           ]
         ],
-        "title": "BÀI 12. THỰC HÀNH MUA BÁN HÀNG HÓA (1 tiết)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 1)",
+        "lessonTitle": "……………………………………………………………………………………………………………………………………………………………… - ……………………………………………………………………………………………………………………………………………………………… - Tự nhiên – xã hội - BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "Sau bài học, HS có khả năng:",
@@ -4288,10 +4265,8 @@
           "- SHS, VBT.",
           "- Một số tranh, ảnh về các phương tiện giao thông."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "………………………………………………………………………………………………………………………………………………………………",
-          "………………………………………………………………………………………………………………………………………………………………"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4565,7 +4540,11 @@
             ]
           ]
         ],
-        "title": "BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "………………………………………………………………………………………………………………………………………………………………",
+          "………………………………………………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -4574,7 +4553,7 @@
     "sourceFile": "TNXH TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 2)",
+        "lessonTitle": "Tự nhiên – xã hội - BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "Sau bài học, HS có khả năng:",
@@ -4586,6 +4565,7 @@
           "- Vận dụng được kiến thức đã học để lựa chọn cách đi đường an toàn trong tình huống gần gũi.",
           "- Có ý thức thực hiện và tuyên truyền người khác tuân thủ các quy định của biển báo giao thông.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: chủ động quan sát, hoàn thành nhiệm vụ cá nhân và tự điều chỉnh câu trả lời sau khi được góp ý.",
           "- Giao tiếp và hợp tác: biết trao đổi, phân công nhiệm vụ, lắng nghe và thống nhất ý kiến trong hoạt động nhóm.",
           "- Giải quyết vấn đề và sáng tạo: biết phân tích sơ đồ đường đi, nhận diện nguy cơ và đề xuất cách tham gia giao thông an toàn.",
           "- Năng lực khoa học: biết quan sát, so sánh hình dạng, màu sắc, kí hiệu để phân loại biển báo giao thông.",
@@ -4593,6 +4573,7 @@
           "- Chăm chỉ: tích cực quan sát, thảo luận và hoàn thành nhiệm vụ học tập.",
           "- Trách nhiệm: tự giác tuân thủ biển báo, biết bảo vệ an toàn cho bản thân và nhắc nhở người thân cùng thực hiện.",
           "4. Tích hợp",
+          "- Giáo dục an toàn giao thông: HS nhận biết, phân loại được một số biển báo thường gặp và biết tuân thủ biển báo để tham gia giao thông an toàn.",
           "- Tích hợp AI - YCCĐ 2.A1.2: HS nhận biết AI/camera có thể hỗ trợ nhận diện biển báo nhưng con người vẫn phải quan sát, kiểm tra và chịu trách nhiệm về an toàn."
         ],
         "dodung": [
@@ -4605,12 +4586,6 @@
           "- Một số tranh, ảnh về các biển báo giao thông đã sưu tầm (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giáo dục an toàn giao thông: HS nhận biết, phân loại được một số biển báo thường gặp và biết tuân thủ biển báo để tham gia giao thông an toàn.",
-          "………………………………………………………………………………………………………………………………………………………………",
-          "………………………………………………………………………………………………………………………………………………………………",
-          "Tự nhiên – xã hội"
-        ],
         "tables": [
           [
             [
@@ -4851,10 +4826,12 @@
             ]
           ]
         ],
-        "title": "BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 1)",
+        "lessonTitle": "……………………………………………………………………………………………………………………………………………………………… - ……………………………………………………………………………………………………………………………………………………………… - Tự nhiên – xã hội - BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4863,6 +4840,7 @@
           "- Giải thích được nguyên nhân có thể dẫn đến nguy hiểm và đề xuất cách phòng tránh phù hợp với lứa tuổi.",
           "- Tự giác thực hiện một số quy định an toàn và biết nhắc nhở bạn bè, người thân bằng lời nói lịch sự.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: chủ động liên hệ trải nghiệm, tự nhận xét hành vi đúng/sai và điều chỉnh cách tham gia giao thông.",
           "- Giao tiếp và hợp tác: biết trao đổi, lắng nghe, phân công và thống nhất cách xử lí tình huống trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: dự đoán hậu quả của hành vi nguy hiểm, lựa chọn giải pháp phòng tránh và đề xuất ý tưởng công nghệ hỗ trợ an toàn.",
           "- Năng lực khoa học: quan sát hình, nhận biết mối liên hệ giữa hành vi, nguyên nhân và hậu quả có thể xảy ra.",
@@ -4871,6 +4849,7 @@
           "- Trách nhiệm: tự giác giữ an toàn cho bản thân, không thực hiện hành vi gây nguy hiểm và biết quan tâm đến an toàn của người khác.",
           "4. Tích hợp",
           "- Tích hợp năng lực số (2.3.CB1a): HS biết giao tiếp, hợp tác văn minh khi sử dụng hình ảnh, video và các dịch vụ số đơn giản trong học tập.",
+          "- Giáo dục an toàn giao thông: HS biết thực hiện các quy định an toàn khi đi trên phương tiện giao thông và chủ động phòng tránh những tình huống nguy hiểm.",
           "- Tích hợp AI - YCCĐ 2.D1.1: HS đề xuất được ý tưởng AI/camera thông minh hỗ trợ cảnh báo hành vi giao thông không an toàn; hiểu AI chỉ là công cụ hỗ trợ."
         ],
         "dodung": [
@@ -4882,11 +4861,8 @@
           "- SHS, VBT; bút chì, bút màu.",
           "- Tranh, ảnh về việc thực hiện an toàn khi tham gia giao thông (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Giáo dục an toàn giao thông: HS biết thực hiện các quy định an toàn khi đi trên phương tiện giao thông và chủ động phòng tránh những tình huống nguy hiểm.",
-          "………………………………………………………………………………………………………………………………………………………………",
-          "………………………………………………………………………………………………………………………………………………………………"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5113,7 +5089,11 @@
             ]
           ]
         ],
-        "title": "BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "………………………………………………………………………………………………………………………………………………………………",
+          "………………………………………………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -5122,7 +5102,7 @@
     "sourceFile": "TNXH TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 2)",
+        "lessonTitle": "Tự nhiên và xã hội - BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5152,11 +5132,8 @@
           "- SHS, VBT; bút màu, giấy A4.",
           "- Một số tranh, ảnh về an toàn giao thông đã sưu tầm (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "………………………………………………………………………………………………………………………………………………………………",
-          "………………………………………………………………………………………………………………………………………………………………",
-          "Tự nhiên và xã hội"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5337,10 +5314,12 @@
             ]
           ]
         ],
-        "title": "BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):"
+        ]
       },
       {
-        "lessonTitle": "BÀI 15. ÔN TẬP CHỦ ĐỀ: CỘNG ĐỒNG ĐỊA PHƯƠNG (Tiết 1)",
+        "lessonTitle": "……………………………………………………………………………………………………………………………………………………………… - ……………………………………………………………………………………………………………………………………………………………… - Tự nhiên và xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ: CỘNG ĐỒNG ĐỊA PHƯƠNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5349,6 +5328,7 @@
           "- Thực hiện được quy định khi đi trên một số phương tiện giao thông và tuyên truyền để những người xung quanh cùng thực hiện.",
           "- Biết vận dụng kiến thức đã học để lựa chọn hàng hóa thiết yếu, sử dụng hợp lí, tiết kiệm và giải quyết tình huống gần gũi trong cộng đồng.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: tự hoàn thành nhiệm vụ học tập cá nhân, tự kiểm tra và điều chỉnh lựa chọn của mình.",
           "- Giao tiếp và hợp tác: chia sẻ, hợp tác cùng các bạn trong hoạt động nhóm; biết trình bày và bảo vệ ý kiến bằng lí do phù hợp.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn hàng hóa theo nhu cầu, phân tích tình huống và đề xuất giải pháp đơn giản cho cộng đồng.",
           "3. Phẩm chất",
@@ -5367,10 +5347,8 @@
           "- Một số tranh, ảnh về hoạt động mua bán và hoạt động giao thông.",
           "- SHS, VBT; bút vẽ, giấy màu, hồ dán."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "………………………………………………………………………………………………………………………………………………………………",
-          "………………………………………………………………………………………………………………………………………………………………"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5501,7 +5479,11 @@
             ]
           ]
         ],
-        "title": "BÀI 15. ÔN TẬP CHỦ ĐỀ: CỘNG ĐỒNG ĐỊA PHƯƠNG (Tiết 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ):",
+          "………………………………………………………………………………………………………………………………………………………………",
+          "………………………………………………………………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -5510,7 +5492,7 @@
     "sourceFile": "TNXH TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)",
+        "lessonTitle": "Tự nhiên và Xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5540,11 +5522,8 @@
           "+ Bút, giấy nháp và các miếng bìa hình dạng, kí hiệu biển báo đã chuẩn bị.",
           "+ SHS, VBT."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………",
-          "Tự nhiên và Xã hội"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5615,7 +5594,7 @@
               "- HS lắng nghe, đối chiếu kết quả của nhóm và điều chỉnh nếu ghép hoặc gọi tên chưa đúng."
             ],
             [
-              "Đáp án: - Thông báo phía trước có bệnh viện.              - Cấm xe máy.              - Cảnh báo đường trơn.",
+              "Đáp án: - Thông báo phía trước có bệnh viện.\n              - Cấm xe máy.\n              - Cảnh báo đường trơn.",
               "- HS đọc lại ba đáp án; chỉ vào từng bộ phận của biển báo và nêu đặc điểm giúp nhận biết."
             ],
             [
@@ -5623,10 +5602,10 @@
             ],
             [
               "- GV hỏi: Vì sao em phải thực hiện quy định của các biển báo giao thông?",
-              "- HS nêu ý kiến:+ Để đảm bảo an toàn.+ Để không bị phạt…+ Để bảo vệ bản thân và không gây nguy hiểm cho người khác."
+              "- HS nêu ý kiến:\n+ Để đảm bảo an toàn.\n+ Để không bị phạt…\n+ Để bảo vệ bản thân và không gây nguy hiểm cho người khác."
             ],
             [
-              "3. Hoạt động Vận dụng, trải nghiệm (5 phút)*Mục tiêu: Liên hệ kiến thức đã ôn tập với tình huống mua bán và giao thông trong cuộc sống hằng ngày.*Mục tiêu tích hợp: HS biết dựa vào thông tin về giá cả, chất lượng và biển báo giao thông để lựa chọn, hành động an toàn, hợp lí.*Cách tiến hành:",
+              "3. Hoạt động Vận dụng, trải nghiệm (5 phút)\n*Mục tiêu: Liên hệ kiến thức đã ôn tập với tình huống mua bán và giao thông trong cuộc sống hằng ngày.\n*Mục tiêu tích hợp: HS biết dựa vào thông tin về giá cả, chất lượng và biển báo giao thông để lựa chọn, hành động an toàn, hợp lí.\n*Cách tiến hành:",
               "- HS lắng nghe, nhắc lại nội dung kết luận và nêu một việc em sẽ thực hiện khi gặp biển báo trên đường."
             ],
             [
@@ -5647,10 +5626,12 @@
             ]
           ]
         ],
-        "title": "BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC NẾU CÓ"
+        ]
       },
       {
-        "lessonTitle": "BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 3)",
+        "lessonTitle": "………………………………………………………………………………………………………… - ………………………………………………………………………………………………………… - Tự nhiên và Xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5665,8 +5646,10 @@
           "+ Giải quyết vấn đề và sáng tạo: lựa chọn vật liệu, tạo sản phẩm và đề xuất giải pháp giao thông thông minh phù hợp.",
           "+ Năng lực số: bước đầu nhận biết một vấn đề thực tế ở địa phương có thể sử dụng AI/camera thông minh để hỗ trợ giải quyết.",
           "3. Phẩm chất",
+          "- Chăm chỉ: tích cực hoàn thành sản phẩm, mạnh dạn giới thiệu và điều chỉnh theo góp ý.",
           "- Trách nhiệm: có ý thức chấp hành quy định giao thông, sử dụng vật liệu tiết kiệm và giữ vệ sinh khi thực hành.",
           "4. Tích hợp",
+          "- Giáo dục an toàn giao thông và tiêu dùng thông minh: HS vận dụng hiểu biết để tạo sản phẩm tuyên truyền, sử dụng vật liệu hợp lí và nhắc mọi người thực hiện đúng quy định.",
           "- Tích hợp AI - YCCĐ 2.D1.1: HS nêu được một vấn đề thực tế tại địa phương có thể áp dụng AI để hỗ trợ giải quyết."
         ],
         "dodung": [
@@ -5679,11 +5662,8 @@
           "+ Bút vẽ, giấy màu, hồ dán, kéo an toàn và vật liệu tái sử dụng phù hợp.",
           "+ SHS, VBT."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Giáo dục an toàn giao thông và tiêu dùng thông minh: HS vận dụng hiểu biết để tạo sản phẩm tuyên truyền, sử dụng vật liệu hợp lí và nhắc mọi người thực hiện đúng quy định.",
-          "…………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5691,7 +5671,7 @@
               "1. Hoạt động Khởi động (5 phút)\n*Mục tiêu: Tạo tâm thế tích cực, kiểm tra sự chuẩn bị của HS và kết nối với nội dung ôn tập chủ đề Cộng đồng địa phương.\n*Cách tiến hành:"
             ],
             [
-              "1. Hoạt động Khởi động (5 phút)*Mục tiêu: Tạo tâm thế tích cực, giúp HS nhớ lại kết quả tiết 2 và xác định nhiệm vụ hoàn thành sản phẩm, tổng kết chủ đề.*Cách tiến hành:",
+              "1. Hoạt động Khởi động (5 phút)\n*Mục tiêu: Tạo tâm thế tích cực, giúp HS nhớ lại kết quả tiết 2 và xác định nhiệm vụ hoàn thành sản phẩm, tổng kết chủ đề.\n*Cách tiến hành:",
               "- HS hát tập thể một bài hát quen thuộc về giao thông hoặc cộng đồng; kết hợp vận động nhẹ theo nhịp."
             ],
             [
@@ -5703,7 +5683,7 @@
               "- HS lắng nghe, kiểm tra vật liệu và xác định nhiệm vụ của tiết học."
             ],
             [
-              "2. Hoạt động Thực hành, vận dụng (25 phút)*Mục tiêu: Vận dụng kiến thức để tạo, giới thiệu sản phẩm về biển báo giao thông và đề xuất ý tưởng giải quyết vấn đề giao thông thực tế.*Mục tiêu tích hợp: HS nêu được vấn đề giao thông tại địa phương và đề xuất ý tưởng sử dụng AI/camera thông minh để hỗ trợ; hiểu con người vẫn phải kiểm tra và chịu trách nhiệm.*Cách tiến hành:"
+              "2. Hoạt động Thực hành, vận dụng (25 phút)\n*Mục tiêu: Vận dụng kiến thức để tạo, giới thiệu sản phẩm về biển báo giao thông và đề xuất ý tưởng giải quyết vấn đề giao thông thực tế.\n*Mục tiêu tích hợp: HS nêu được vấn đề giao thông tại địa phương và đề xuất ý tưởng sử dụng AI/camera thông minh để hỗ trợ; hiểu con người vẫn phải kiểm tra và chịu trách nhiệm.\n*Cách tiến hành:"
             ],
             [
               "b. Hoàn thành sản phẩm học tập.",
@@ -5741,7 +5721,7 @@
               "- HS thảo luận nhóm, chọn vấn đề như ùn tắc cổng trường, vượt đèn đỏ, đi sai làn hoặc sang đường không an toàn; vẽ và ghi chú giải pháp, phân công đại diện trình bày."
             ],
             [
-              "3. Hoạt động Tổng kết, đánh giá (5 phút)*Mục tiêu: Hệ thống nội dung chủ đề, tự đánh giá kết quả học tập và xác định việc làm sẽ vận dụng trong cuộc sống.*Mục tiêu tích hợp: HS củng cố ý thức thực hiện an toàn giao thông, tiêu dùng hợp lí và sử dụng công nghệ thông minh có trách nhiệm.*Cách tiến hành:",
+              "3. Hoạt động Tổng kết, đánh giá (5 phút)\n*Mục tiêu: Hệ thống nội dung chủ đề, tự đánh giá kết quả học tập và xác định việc làm sẽ vận dụng trong cuộc sống.\n*Mục tiêu tích hợp: HS củng cố ý thức thực hiện an toàn giao thông, tiêu dùng hợp lí và sử dụng công nghệ thông minh có trách nhiệm.\n*Cách tiến hành:",
               "- Đại diện nhóm trình bày; nhóm khác đặt câu hỏi, bổ sung và khẳng định con người vẫn phải tuân thủ luật giao thông."
             ],
             [
@@ -5782,7 +5762,11 @@
             ]
           ]
         ],
-        "title": "BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 3)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC NẾU CÓ",
+          "…………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -5791,7 +5775,7 @@
     "sourceFile": "TNXH TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 1)",
+        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -5808,6 +5792,8 @@
           "- Nhân ái: Yêu quý thiên nhiên, quan tâm và bảo vệ cây xanh xung quanh.",
           "- Trách nhiệm: Có ý thức giữ gìn vệ sinh môi trường, chăm sóc và bảo vệ cây cối.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 7 - TLGDĐP Lớp 2 Trà Vinh): Nhận biết môi trường sống của các loài thực vật đặc trưng quê hương Trà Vinh (cây dừa xanh soi bóng ven kênh, cây bần bám rễ phù sa, rừng đước ngập mặn Duyên Hải).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M2): Nhận biết thực vật sống dưới nước (hoa sen, bèo tây, rong rêu); vai trò của nguồn nước sạch đối với sự sinh trưởng của thực vật.",
           "- Giáo dục bảo vệ môi trường: HS yêu quý cây xanh; biết cây có thể sống ở các môi trường khác nhau và cần được chăm sóc phù hợp; không bẻ cành, ngắt lá, phá hoại cây."
         ],
         "dodung": [
@@ -5820,11 +5806,8 @@
           "- Một số tranh, ảnh về thực vật và nơi sống của chúng mà HS đã sưu tầm (nếu có).",
           "- SHS, VBT, bút viết, bút màu."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………",
-          "TỰ NHIÊN VÀ XÃ HỘI"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5964,6 +5947,14 @@
               "- HS nêu: tưới cây vừa đủ, không để cây bị úng hoặc thiếu nước; không nhổ cây sống dưới nước lên cạn; đặt cây ở nơi có ánh sáng phù hợp; theo dõi cây để điều chỉnh cách chăm sóc."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1 GDĐP 2 & Mã Mizuiku M2): “Ở quê hương Trà Vinh chúng ta, loài cây nào sống rất nhiều ven sông rạch, bãi biển và loài cây nào sống dưới mặt nước ngọt ao hồ?”",
+              "- HS trả lời: Cây dừa xanh, rặng bần ven bờ kênh, cây đước ở rừng ngập mặn Duyên Hải; còn ở ao hồ có hoa sen, hoa súng và bèo tây sống nổi trên mặt nước ạ."
+            ],
+            [
+              "- GV diễn giải: Nguồn nước trong lành nuôi dưỡng cây cối Trà Vinh luôn xanh tươi trĩu quả. Các em hãy cùng nhau bảo vệ cây xanh và không xả rác làm bẩn nguồn nước quê mình nhé.",
+              "- HS chăm chú lắng nghe và thêm yêu thiên nhiên quê hương Trà Vinh."
+            ],
+            [
               "- GV tiếp tục diễn giải: Cây xanh giúp làm sạch không khí, giữ đất, tạo bóng mát, làm đẹp cảnh quan và cung cấp thức ăn cho con người, động vật. Vì vậy, bảo vệ cây không chỉ là không bẻ cành, ngắt lá mà còn là giữ vệ sinh nơi cây sống, không đổ rác hoặc hóa chất xuống ao hồ, không giẫm lên bồn cây, biết nhắc bạn cùng chăm sóc cây đúng cách.",
               "- HS nêu những việc làm cụ thể: bỏ rác đúng nơi, không bẻ cành hái hoa, không giẫm lên cây, chăm sóc bồn cây, tiết kiệm nước khi tưới và nhắc người thân cùng bảo vệ cây."
             ],
@@ -5995,10 +5986,12 @@
             ]
           ]
         ],
-        "title": "BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)"
+        ]
       },
       {
-        "lessonTitle": "BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 2)",
+        "lessonTitle": "………………………………………………………………………………………………………… - ………………………………………………………………………………………………………… - TỰ NHIÊN VÀ XÃ HỘI - BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -6030,10 +6023,8 @@
           "- Một số tranh, ảnh về thực vật và nơi sống của chúng mà HS đã sưu tầm (nếu có).",
           "- SHS, VBT, bút viết, bút màu."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "…………………………………………………………………………………………………………",
-          "…………………………………………………………………………………………………………"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6053,15 +6044,15 @@
               "- HS quan sát câu đố trên màn hình, đọc thầm và suy nghĩ đáp án."
             ],
             [
-              "Câu đố số 1:“Cây gì nhỏ nhỏHạt nó nuôi ngườiChín vàng nơi nơiDân làng đi hái”(Là cây gì?)",
+              "Câu đố số 1:\n“Cây gì nhỏ nhỏ\nHạt nó nuôi người\nChín vàng nơi nơi\nDân làng đi hái”\n(Là cây gì?)",
               "- HS trả lời: Cây lúa."
             ],
             [
-              "Câu đố số 2:“Cánh vàng nhị lớnQuay hướng mặt trờiHạt thơm béo ngậyMời bạn thử xơi”(Là hoa gì, hạt gì?)",
+              "Câu đố số 2:\n“Cánh vàng nhị lớn\nQuay hướng mặt trời\nHạt thơm béo ngậy\nMời bạn thử xơi”\n(Là hoa gì, hạt gì?)",
               "- HS trả lời: Hoa hướng dương, hạt hướng dương."
             ],
             [
-              "Câu đố số 3:“Hè về áo đỏ như sonHè đi thay lá xanh non mượt màBao nhiêu tay tỏa rộng raNhư vẫy như đón bạn ta đến trường”(Là cây gì?)",
+              "Câu đố số 3:\n“Hè về áo đỏ như son\nHè đi thay lá xanh non mượt mà\nBao nhiêu tay tỏa rộng ra\nNhư vẫy như đón bạn ta đến trường”\n(Là cây gì?)",
               "- HS trả lời: Cây phượng."
             ],
             [
@@ -6270,7 +6261,11 @@
             ]
           ]
         ],
-        "title": "BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "…………………………………………………………………………………………………………",
+          "…………………………………………………………………………………………………………"
+        ]
       }
     ]
   },
@@ -6279,7 +6274,7 @@
     "sourceFile": "TNXH TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 1)",
+        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 17: ĐỘNG VẬT SỐNG Ở ĐÂU? - BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -6293,12 +6288,16 @@
           "2. Năng lực chung",
           "- Tự chủ và tự học: Chủ động quan sát, tìm hiểu tên, đặc điểm và nơi sống của động vật; tự chuẩn bị học liệu, vật liệu theo nhiệm vụ.",
           "- Giao tiếp và hợp tác: Trao đổi, phân công nhiệm vụ, lắng nghe và chia sẻ kết quả trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để phân loại động vật, đề xuất, điều chỉnh và hoàn thiện mô hình môi trường sống.",
           "3. Phẩm chất chủ yếu",
           "- Nhân ái: Yêu quý động vật, biết tôn trọng sự sống và không làm hại các con vật.",
           "- Chăm chỉ: Tích cực quan sát, thảo luận, thực hành và hoàn thành nhiệm vụ học tập.",
           "- Trách nhiệm: Có ý thức bảo vệ môi trường sống của động vật, sử dụng vật liệu an toàn, tiết kiệm và giữ vệ sinh khi thực hành.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 7 - TLGDĐP Lớp 2 Trà Vinh): Nhận biết môi trường sống của động vật vùng sông nước, kênh rạch và ven biển Trà Vinh (tôm sú, cá bống kèo, cua biển Duyên Hải, đàn chim cò cồn Long Trị).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M2): Nhận biết tầm quan trọng của nguồn nước sạch đối với đời sống của các loài động vật thủy sản.",
           "- Bài học STEM - Nơi sống của động vật: HS phân loại động vật, đề xuất, thiết kế và chia sẻ mô hình môi trường sống của các con vật.",
+          "- Giáo dục bảo vệ môi trường và tôn trọng sự sống: HS không bắt, chọc phá hoặc làm hại động vật; biết bảo vệ nơi sống và giúp đỡ con vật gặp nguy hiểm phù hợp với khả năng.",
           "- Tích hợp AI - YCCĐ 2.C3.3: HS nhận biết AI có thể phân loại sai khi hình ảnh động vật bị mờ, che khuất hoặc thiếu đặc điểm."
         ],
         "dodung": [
@@ -6310,12 +6309,8 @@
           "2. HS:",
           "- SHS, bút viết, bút màu; vốn hiểu biết và tranh ảnh về động vật (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Giáo dục bảo vệ môi trường và tôn trọng sự sống: HS không bắt, chọc phá hoặc làm hại động vật; biết bảo vệ nơi sống và giúp đỡ con vật gặp nguy hiểm phù hợp với khả năng.",
-          "................................................................................",
-          "................................................................................",
-          "TỰ NHIÊN VÀ XÃ HỘI"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6457,6 +6452,14 @@
               "- HS nêu hậu quả: động vật bị đau, bị thương, bỏ đi hoặc chết; mất tổ, mất nguồn thức ăn và nước sạch; số lượng loài giảm; môi trường sống bị mất cân bằng."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 7 GDĐP 2 & Mã Mizuiku M2): “Vùng sông ngòi và bãi biển Trà Vinh là nơi sinh sống của những loài động vật, thủy sản quen thuộc nào? Nếu nguồn nước bị ô nhiễm thì chúng sẽ ra sao?”",
+              "- HS trả lời: Là nơi sống của tôm sú, cá kèo, con cua biển và các loài chim cò cồn bãi; nếu nước bẩn thì tôm cá sẽ bị chết hoặc không lớn được ạ."
+            ],
+            [
+              "- GV chốt ý: Giữ gìn nguồn nước ngọt phù sa và vùng biển Trà Vinh trong sạch chính là bảo vệ nguồn lợi thủy sản trù phú và sự sống của muôn loài.",
+              "- HS lắng nghe và ghi nhớ ý thức bảo vệ nguồn nước."
+            ],
+            [
               "- GV gợi mở các việc làm phù hợp với HS lớp 2: quan sát động vật từ khoảng cách an toàn; không ném đá, đuổi bắt, phá tổ chim, bắt côn trùng để chơi; không xả rác xuống sông, hồ; nhắc người lớn khi phát hiện con vật bị mắc kẹt hoặc gặp nguy hiểm; chỉ giúp đỡ khi bảo đảm an toàn và có người lớn hướng dẫn.",
               "- HS nêu và lựa chọn việc làm: không chọc phá con vật, không phá tổ, không xả rác, báo người lớn khi thấy con vật gặp nguy hiểm; không tự ý chạm vào động vật lạ hoặc có thể gây nguy hiểm."
             ],
@@ -6576,10 +6579,14 @@
             ]
           ]
         ],
-        "title": "BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "................................................................................",
+          "................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 2)",
+        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 17: ĐỘNG VẬT SỐNG Ở ĐÂU? - BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -6593,12 +6600,14 @@
           "2. Năng lực chung",
           "- Tự chủ và tự học: Chủ động quan sát, tìm hiểu tên, đặc điểm và nơi sống của động vật; tự chuẩn bị học liệu, vật liệu theo nhiệm vụ.",
           "- Giao tiếp và hợp tác: Trao đổi, phân công nhiệm vụ, lắng nghe và chia sẻ kết quả trong hoạt động nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để phân loại động vật, đề xuất, điều chỉnh và hoàn thiện mô hình môi trường sống.",
           "3. Phẩm chất chủ yếu",
           "- Nhân ái: Yêu quý động vật, biết tôn trọng sự sống và không làm hại các con vật.",
           "- Chăm chỉ: Tích cực quan sát, thảo luận, thực hành và hoàn thành nhiệm vụ học tập.",
           "- Trách nhiệm: Có ý thức bảo vệ môi trường sống của động vật, sử dụng vật liệu an toàn, tiết kiệm và giữ vệ sinh khi thực hành.",
           "4. Tích hợp",
-          "- Bài học STEM - Nơi sống của động vật: HS phân loại động vật, đề xuất, thiết kế và chia sẻ mô hình môi trường sống của các con vật."
+          "- Bài học STEM - Nơi sống của động vật: HS phân loại động vật, đề xuất, thiết kế và chia sẻ mô hình môi trường sống của các con vật.",
+          "- Giáo dục bảo vệ môi trường và tôn trọng sự sống: HS không bắt, chọc phá hoặc làm hại động vật; biết bảo vệ nơi sống và giúp đỡ con vật gặp nguy hiểm phù hợp với khả năng."
         ],
         "dodung": [
           "1. GV:",
@@ -6609,11 +6618,8 @@
           "- Giấy màu, bìa màu, bút chì, bút màu, kéo thủ công, keo dán, sách báo cũ, đất nặn, băng dính hai mặt và vật liệu tái sử dụng do nhóm lựa chọn.",
           "- Ý tưởng, bản phác thảo và nguyên vật liệu đã thống nhất sau tiết 1."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Giáo dục bảo vệ môi trường và tôn trọng sự sống: HS không bắt, chọc phá hoặc làm hại động vật; biết bảo vệ nơi sống và giúp đỡ con vật gặp nguy hiểm phù hợp với khả năng.",
-          "................................................................................",
-          "................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6825,7 +6831,11 @@
             ]
           ]
         ],
-        "title": "BÀI HỌC STEM: NƠI SỐNG CỦA ĐỘNG VẬT (TIẾT 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "................................................................................",
+          "................................................................................"
+        ]
       }
     ]
   },
@@ -6834,10 +6844,9 @@
     "sourceFile": "TNXH TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 18. CẦN LÀM GÌ ĐỂ BẢO VỆ MÔI TRƯỜNG SỐNG",
+        "lessonTitle": "BÀI 18. CẦN LÀM GÌ ĐỂ BẢO VỆ MÔI TRƯỜNG SỐNG - CỦA THỰC VẬT VÀ ĐỘNG VẬT? (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
-          "CỦA THỰC VẬT VÀ ĐỘNG VẬT? (TIẾT 1)",
           "1. Năng lực đặc thù",
           "- Thu thập được thông tin về một số việc làm của con người có thể làm thay đổi môi trường sống của thực vật và động vật.",
           "- Giải thích được ở mức độ đơn giản sự cần thiết phải bảo vệ môi trường sống của thực vật và động vật.",
@@ -6862,10 +6871,8 @@
           "- SHS, VBT, bút viết; tranh, ảnh đã sưu tầm (nếu có).",
           "- Tìm hiểu về những việc làm của người dân địa phương có ảnh hưởng đến môi trường sống của thực vật và động vật bằng cách hỏi người lớn trong gia đình, địa phương."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7018,13 +7025,16 @@
             ]
           ]
         ],
-        "title": "BÀI 18. CẦN LÀM GÌ ĐỂ BẢO VỆ MÔI TRƯỜNG SỐNG"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 18. CẦN LÀM GÌ ĐỂ BẢO VỆ MÔI TRƯỜNG SỐNG",
+        "lessonTitle": "BÀI 18. CẦN LÀM GÌ ĐỂ BẢO VỆ MÔI TRƯỜNG SỐNG - CỦA THỰC VẬT VÀ ĐỘNG VẬT? (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
-          "CỦA THỰC VẬT VÀ ĐỘNG VẬT? (TIẾT 2)",
           "1. Năng lực đặc thù",
           "- Thu thập được thông tin về một số việc làm của con người có thể làm thay đổi môi trường sống của thực vật và động vật.",
           "- Giải thích được ở mức độ đơn giản sự cần thiết phải bảo vệ môi trường sống của thực vật và động vật.",
@@ -7049,10 +7059,8 @@
           "- SHS, VBT, bút viết; tranh, ảnh đã sưu tầm (nếu có).",
           "- Tìm hiểu về những việc làm của người dân địa phương có ảnh hưởng đến môi trường sống của thực vật và động vật bằng cách hỏi người lớn trong gia đình, địa phương."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7244,7 +7252,11 @@
             ]
           ]
         ],
-        "title": "BÀI 18. CẦN LÀM GÌ ĐỂ BẢO VỆ MÔI TRƯỜNG SỐNG"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       }
     ]
   },
@@ -7253,10 +7265,9 @@
     "sourceFile": "TNXH TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 18. CẦN LÀM GÌ ĐỂ BẢO VỆ MÔI TRƯỜNG SỐNG",
+        "lessonTitle": "BÀI 18. CẦN LÀM GÌ ĐỂ BẢO VỆ MÔI TRƯỜNG SỐNG - CỦA THỰC VẬT VÀ ĐỘNG VẬT? (TIẾT 3)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
-          "CỦA THỰC VẬT VÀ ĐỘNG VẬT? (TIẾT 3)",
           "1. Năng lực đặc thù",
           "- Nêu được những việc có thể làm để bảo vệ, hạn chế sự thay đổi môi trường sống của thực vật và động vật.",
           "- Thực hiện được các việc làm giúp bảo vệ môi trường sống của thực vật và động vật; chia sẻ với những người xung quanh để cùng thực hiện.",
@@ -7268,6 +7279,8 @@
           "- Chăm chỉ: Tích cực tham gia thảo luận, tìm kiếm, chọn lọc thông tin và hoàn thành phiếu điều tra.",
           "- Trách nhiệm: Có ý thức vứt rác đúng nơi quy định, phân loại rác, tuyên truyền và thực hiện những việc làm bảo vệ môi trường.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3 - TLGDĐP Lớp 2 Trà Vinh): Chung tay bảo vệ cảnh quan và môi trường sống của muôn loài tại Trà Vinh (danh thắng Ao Bà Om, rừng đước ngập mặn Duyên Hải, bãi biển Ba Động).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M7, M18): Hành động bảo vệ nguồn nước sông Cổ Chiên và kênh rạch quê hương; không vứt túi nilon, rác thải, vỏ chai thuốc trừ sâu xuống dòng nước.",
           "- Tích hợp năng lực số 1.1.CB1a: HS xác định đúng thông tin cần tìm, thực hiện tìm kiếm đơn giản và chọn lọc thông tin phù hợp để hoàn thiện phiếu điều tra về việc làm có lợi hoặc gây hại đến môi trường sống của thực vật và động vật."
         ],
         "dodung": [
@@ -7279,10 +7292,8 @@
           "- SHS, VBT, bút viết; tranh, ảnh đã sưu tầm (nếu có).",
           "- Kết quả tìm hiểu/phỏng vấn người lớn về những việc làm ở địa phương làm thay đổi môi trường sống của thực vật và động vật."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7399,6 +7410,14 @@
               "- HS nêu lại các bước: xác định nội dung - chọn từ khóa - chọn nguồn - lấy ý ngắn - kiểm tra và sử dụng an toàn."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1, 3 GDĐP 2 & Mã Mizuiku M6, M7): “Để bảo vệ môi trường nước cho tôm cá và bảo vệ cảnh quan tươi đẹp tại danh thắng Ao Bà Om hay dòng sông Cổ Chiên quê mình, các em cần hành động như thế nào?”",
+              "- HS trả lời: Thu gom rác đúng nơi quy định; không ném bao bì, túi nilon xuống mặt ao hồ, sông rạch; cùng gia đình giữ gìn nguồn nước sạch ạ."
+            ],
+            [
+              "- GV kết luận: Bảo vệ nguồn nước và môi trường sống của muôn loài chính là bảo vệ cuộc sống bình yên, tươi đẹp của quê hương Trà Vinh chúng ta.",
+              "- HS đồng thanh hưởng ứng quyết tâm bảo vệ môi trường."
+            ],
+            [
               "Tổng kết - Liên hệ\n* Mục tiêu: HS hiểu bảo vệ môi trường sống là trách nhiệm chung; biết vứt rác đúng nơi, phân loại rác và liên hệ hành vi của bản thân.\n* Cách tiến hành:"
             ],
             [
@@ -7442,7 +7461,11 @@
             ]
           ]
         ],
-        "title": "BÀI 18. CẦN LÀM GÌ ĐỂ BẢO VỆ MÔI TRƯỜNG SỐNG"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 19. THỰC VẬT VÀ ĐỘNG VẬT QUANH EM (TIẾT 1)",
@@ -7474,10 +7497,8 @@
           "2. HS:",
           "- Trang phục gọn gàng, giày dép phù hợp để đi bộ; mũ, nón; giấy, bút để ghi chép."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7668,7 +7689,11 @@
             ]
           ]
         ],
-        "title": "BÀI 19. THỰC VẬT VÀ ĐỘNG VẬT QUANH EM (TIẾT 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       }
     ]
   },
@@ -7693,6 +7718,8 @@
           "- Chăm chỉ: Tích cực hoàn thành nhiệm vụ, ghi chép trung thực và trình bày kết quả rõ ràng.",
           "- Trách nhiệm: Có ý thức bảo vệ môi trường sống của thực vật, động vật và thực hiện nhiệm vụ chung của nhóm.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7 - TLGDĐP Lớp 2 Trà Vinh): Yêu quý và chăm sóc cây trồng, vật nuôi đặc trưng quê hương Trà Vinh (vườn dừa sáp Cầu Kè, hoa màu, vật nuôi trong xóm ấp).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M25): Tưới cây bằng bình hoa sen vừa đủ ẩm, không xịt tràn lãng phí nước; cung cấp nước uống sạch sẽ cho vật nuôi gia đình.",
           "- Tích hợp năng lực số 1.1.CB1a: HS xác định thông tin cần tìm, thực hiện tìm kiếm đơn giản bằng từ khóa phù hợp; dùng ảnh đã chụp hoặc hình ảnh từ nguồn phù hợp để trình bày kết quả quan sát, kiểm tra tên cây/con vật và không chia sẻ thông tin cá nhân.",
           "- Tích hợp AI - YCCĐ 2.D2.3: HS lựa chọn một số hình ảnh rõ ràng, đúng đối tượng và gắn nhãn phù hợp để tạo nhóm “Dữ liệu tốt cho AI” nhận biết cây, con vật quanh em."
         ],
@@ -7704,10 +7731,8 @@
           "2. HS:",
           "- SGK, VBT; phiếu ghi chép và tranh, ảnh thu được từ tiết học trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7829,6 +7854,14 @@
               "- HS quan sát bộ ảnh, thảo luận ảnh nào rõ, ảnh nào bị che khuất hoặc không đủ thông tin để nhận biết."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 7 GDĐP 2 & Mã Mizuiku M10, M25): “Khi chăm sóc cây hoa quanh trường và vật nuôi ở nhà, em sử dụng nước như thế nào để vừa tiết kiệm vừa giúp cây và vật nuôi phát triển tốt?”",
+              "- HS trả lời: Dùng bình tưới hoa sen tưới quanh gốc cây vào sáng sớm hoặc chiều mát; cho chó mèo, gà vịt uống nước sạch trong máng và không làm đổ tràn bẩn ra sân vườn ạ."
+            ],
+            [
+              "- GV khen ngợi: Chăm sóc cây trồng chu đáo và sử dụng nước tiết kiệm là nét đẹp chăm chỉ của học sinh Trà Vinh.",
+              "- HS vui vẻ ghi nhớ và thực hiện mỗi ngày."
+            ],
+            [
               "- GV giải thích: Mỗi hình ảnh là một ví dụ dữ liệu. Muốn “dạy” AI nhận biết đúng, cần chọn nhiều ví dụ đúng, rõ và đa dạng; không dùng ảnh mờ, ảnh quá xa hoặc gắn sai tên.",
               "- HS hiểu ảnh không phù hợp hoặc nhãn sai có thể làm AI học sai và đưa ra kết quả không chính xác."
             ],
@@ -7869,7 +7902,11 @@
             ]
           ]
         ],
-        "title": "BÀI 19. THỰC VẬT VÀ ĐỘNG VẬT QUANH EM (TIẾT 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 19. THỰC VẬT VÀ ĐỘNG VẬT QUANH EM (TIẾT 3)",
@@ -7898,10 +7935,8 @@
           "2. HS:",
           "- SGK, VBT; bút viết, bút màu; tranh, ảnh về cây và con vật (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8035,7 +8070,11 @@
             ]
           ]
         ],
-        "title": "BÀI 19. THỰC VẬT VÀ ĐỘNG VẬT QUANH EM (TIẾT 3)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       }
     ]
   },
@@ -8072,10 +8111,8 @@
           "2. Học sinh",
           "- Sách học sinh, vở bài tập; tranh ảnh sưu tầm về cây, con vật hoặc việc làm ảnh hưởng môi trường; bút màu, kéo, hồ dán (nếu sử dụng tranh ảnh)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8225,7 +8262,11 @@
             ]
           ]
         ],
-        "title": "BÀI 20. ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 20. ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 2)",
@@ -8254,10 +8295,8 @@
           "2. Học sinh",
           "- Sách học sinh, vở bài tập; tranh ảnh sưu tầm về cây, con vật hoặc việc làm ảnh hưởng môi trường; bút màu, kéo, hồ dán (nếu sử dụng tranh ảnh)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8367,7 +8406,11 @@
             ]
           ]
         ],
-        "title": "BÀI 20. ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       }
     ]
   },
@@ -8402,10 +8445,8 @@
           "2. Học sinh",
           "- SHS, VBT; tranh ảnh hoặc ghi chép về những việc làm có ảnh hưởng đến môi trường tại địa phương."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................................",
-          ".............................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8551,19 +8592,23 @@
             ]
           ]
         ],
-        "title": "BÀI 20. ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 3)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................................",
+          ".............................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 21. TÌM HIỂU CƠ QUAN VẬN ĐỘNG (TIẾT 1)",
+        "lessonTitle": "BÀI 21. TÌM HIỂU CƠ QUAN VẬN ĐỘNG (TIẾT 1) - BÀI HỌC STEM: CƠ QUAN VẬN ĐỘNG",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
-          "BÀI HỌC STEM: CƠ QUAN VẬN ĐỘNG",
           "1. Năng lực đặc thù",
           "- Chỉ và nói được tên một số xương, cơ và khớp chính của cơ thể trên sơ đồ, tranh ảnh và trên cơ thể bản thân.",
           "- Nêu được cơ quan vận động gồm bộ xương, hệ cơ và các khớp; nhận biết ở mức độ đơn giản sự phối hợp của các bộ phận này giúp cơ thể cử động và di chuyển.",
           "- Thực hiện một số động tác vận động; xác định được vị trí khớp tham gia vận động.",
           "- Nêu được ý tưởng ban đầu về sản phẩm bàn tay rô-bốt và chuẩn bị vật liệu để thực hiện ở tiết tiếp theo.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, thực hiện động tác và điều chỉnh tư thế an toàn.",
           "- Giao tiếp và hợp tác: Trao đổi, đố bạn, trình bày và nhận xét trong hoạt động nhóm đôi, nhóm nhỏ.",
           "- Giải quyết vấn đề và sáng tạo: Liên hệ cấu tạo cơ quan vận động với ý tưởng thiết kế bàn tay rô-bốt.",
           "3. Phẩm chất",
@@ -8583,10 +8628,8 @@
           "2. Học sinh",
           "- SHS, bút màu, thước kẻ, kéo thủ công; chuẩn bị vật liệu theo phân công của nhóm cho tiết thực hành tiếp theo."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................................",
-          ".............................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8755,7 +8798,11 @@
             ]
           ]
         ],
-        "title": "BÀI 21. TÌM HIỂU CƠ QUAN VẬN ĐỘNG (TIẾT 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "..............................................................................................................................................",
+          ".............................................................................................................................................."
+        ]
       }
     ]
   },
@@ -8764,15 +8811,16 @@
     "sourceFile": "TNXH TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 21. TÌM HIỂU CƠ QUAN VẬN ĐỘNG (TIẾT 2)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 24 - BÀI 21. TÌM HIỂU CƠ QUAN VẬN ĐỘNG (TIẾT 2) - BÀI HỌC STEM: CƠ QUAN VẬN ĐỘNG",
         "topic": "",
         "yccd": [
-          "BÀI HỌC STEM: CƠ QUAN VẬN ĐỘNG",
           "1. Năng lực đặc thù",
           "- Nêu được ý tưởng thiết kế bàn tay rô-bốt và chia sẻ được phương án thiết kế với bạn.",
           "- Lựa chọn được vật liệu phù hợp; thực hiện được các bước tạo mô hình bàn tay rô-bốt an toàn, chắc chắn.",
           "- Sử dụng mô hình để giải thích ở mức độ đơn giản: các đoạn ống hút mô phỏng các đoạn xương; khoảng nối mô phỏng vị trí khớp; khi kéo dây, các ngón tay gập lại.",
+          "- Trình bày, nhận xét và điều chỉnh sản phẩm dựa trên tiêu chí đã thống nhất.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị vật liệu, tự kiểm tra và điều chỉnh sản phẩm.",
           "- Giao tiếp và hợp tác: Phân công nhiệm vụ, trao đổi ý tưởng, hỗ trợ bạn và đánh giá đồng đẳng.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm phù hợp, xử lí khó khăn khi sản phẩm chưa cử động như dự kiến.",
           "3. Phẩm chất",
@@ -8792,10 +8840,8 @@
           "2. Học sinh",
           "- Giấy bìa, ống hút, dây len/chỉ mềm, băng dính hoặc hồ dán, thước, kéo thủ công, bút màu."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8978,10 +9024,14 @@
             ]
           ]
         ],
-        "title": "BÀI 21. TÌM HIỂU CƠ QUAN VẬN ĐỘNG (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 1)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 24 - BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8990,13 +9040,16 @@
           "- Nêu được cách phòng tránh chấn thương; biết đi, đứng, ngồi, bê đồ và mang cặp đúng tư thế để phòng tránh cong vẹo cột sống.",
           "- Biết xử lí ban đầu ở mức độ phù hợp lứa tuổi: báo ngay cho người lớn khi bị đau hoặc chấn thương; không tự ý nắn, kéo vùng bị thương.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự giác điều chỉnh tư thế đúng trong học tập, sinh hoạt.",
           "- Giao tiếp và hợp tác: Trao đổi, nhận xét, nhắc nhở bạn bằng lời nói nhẹ nhàng.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện nguy cơ, lựa chọn cách phòng tránh và xử lí tình huống phù hợp.",
           "3. Phẩm chất",
           "- Nhân ái: Biết quan tâm, giúp đỡ bạn khi bị đau hoặc gặp khó khăn trong vận động.",
           "- Trách nhiệm: Có ý thức bảo vệ cơ thể; thực hiện tư thế đúng và tuân thủ quy tắc an toàn khi vui chơi.",
           "4. Tích hợp",
-          "- Tích hợp quyền con người: HS nhận biết quyền được chăm sóc, bảo vệ sức khỏe; quyền học tập và vui chơi trong môi trường an toàn."
+          "- Tích hợp năng lực số 4.1.CB1b: HS nhận biết nguy cơ sử dụng thiết bị số sai tư thế hoặc trong thời gian quá lâu có thể làm mỏi cơ, ảnh hưởng cột sống; biết điều chỉnh tư thế, khoảng cách, thời gian sử dụng và nghỉ vận động phù hợp.",
+          "- Tích hợp quyền con người: HS nhận biết quyền được chăm sóc, bảo vệ sức khỏe; quyền học tập và vui chơi trong môi trường an toàn.",
+          "- Tích hợp AI - YCCĐ 2.A1.1: HS biết AI có thể theo dõi, nhắc nhở khi người dùng ngồi sai tư thế hoặc quá gần màn hình; con người vẫn phải tự điều chỉnh và kiểm tra."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -9006,10 +9059,8 @@
           "2. Học sinh",
           "- SGK, VBT, bảng con; chuẩn bị chia sẻ một việc em thường làm để chăm sóc cơ quan vận động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9142,7 +9193,11 @@
             ]
           ]
         ],
-        "title": "BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9151,7 +9206,7 @@
     "sourceFile": "TNXH TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 2)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 25 - BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9160,14 +9215,18 @@
           "- Tìm tòi, khám phá kiến thức về cơ quan vận động; vận dụng kiến thức vào thực tiễn.",
           "- Ứng xử phù hợp trong các tình huống để giữ gìn, chăm sóc và bảo vệ cơ quan vận động.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, nêu ý kiến, tự đánh giá và điều chỉnh tư thế đúng.",
           "- Giao tiếp và hợp tác: Thảo luận nhóm đôi, nhóm bốn; lắng nghe, phản hồi và thống nhất ý kiến.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện nguy cơ cong vẹo cột sống, chấn thương và đề xuất cách phòng tránh.",
           "3. Phẩm chất",
           "- Trách nhiệm: Biết quý trọng cơ thể, hình thành thói quen ngồi đúng tư thế và thực hiện an toàn khi vận động.",
           "- Chăm chỉ: Tích cực tham gia hoạt động học tập, kiên trì thực hành tư thế đúng.",
           "- Nhân ái: Quan tâm, nhắc nhở bạn bè cùng thực hiện tư thế đúng, vui chơi và luyện tập an toàn.",
+          "- Trung thực: Tự đánh giá đúng tư thế của bản thân và nêu rõ điều cần điều chỉnh.",
           "4. Tích hợp",
-          "- Tích hợp quyền con người: HS nhận biết quyền được chăm sóc, bảo vệ sức khỏe; quyền học tập và vui chơi trong môi trường an toàn."
+          "- Tích hợp năng lực số 4.1.CB1b: HS nhận biết nguy cơ sử dụng thiết bị số sai tư thế hoặc quá lâu có thể làm mỏi cơ, ảnh hưởng cột sống; biết điều chỉnh tư thế, khoảng cách và thời gian sử dụng.",
+          "- Tích hợp quyền con người: HS nhận biết quyền được chăm sóc, bảo vệ sức khỏe; quyền học tập và vui chơi trong môi trường an toàn.",
+          "- Tích hợp AI - YCCĐ 2.A1.1: HS biết AI có thể theo dõi, nhắc nhở khi người dùng ngồi sai tư thế hoặc quá gần màn hình; con người vẫn phải tự kiểm tra và điều chỉnh."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -9178,10 +9237,8 @@
           "- SGK, VBT, vở ô li, bút.",
           "- Chuẩn bị chia sẻ một việc em đã làm để phòng tránh cong vẹo cột sống."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9352,10 +9409,14 @@
             ]
           ]
         ],
-        "title": "BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 1)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 25 - BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9386,10 +9447,6 @@
           "- Chuẩn bị quan sát và thực hành hít thở theo hướng dẫn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9529,7 +9586,11 @@
             ]
           ]
         ],
-        "title": "BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9538,7 +9599,7 @@
     "sourceFile": "TNXH TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 2)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 26 - BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9548,6 +9609,7 @@
           "- Thực hiện được một số động tác hô hấp đơn giản: hít sâu, thở chậm, thổi nhẹ và nói câu ngắn theo nhịp thở.",
           "- Vận dụng kiến thức để ứng xử an toàn trong ăn uống, vui chơi và biết báo ngay cho người lớn khi có dấu hiệu khó thở hoặc hóc dị vật.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, thực hành với mô hình; tự điều chỉnh nhịp thở theo hướng dẫn.",
           "- Giao tiếp và hợp tác: Thảo luận, phân công nhiệm vụ, trình bày bằng lời nói ngắn gọn và lắng nghe phản hồi của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện nguy cơ, lựa chọn cách phòng tránh tắc đường hô hấp và giải thích lí do lựa chọn.",
           "3. Phẩm chất",
@@ -9567,10 +9629,8 @@
           "- SGK, VBT, bút chì, bút màu.",
           "- Một số vật liệu đơn giản theo hướng dẫn của GV; chuẩn bị tinh thần làm việc nhóm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9722,10 +9782,14 @@
             ]
           ]
         ],
-        "title": "BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 1)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 26 - BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9757,10 +9821,8 @@
           "- SGK, VBT, bút chì, bút màu.",
           "- Thước kẻ, kéo thủ công, giấy màu; sử dụng kéo theo hướng dẫn an toàn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9911,7 +9973,11 @@
             ]
           ]
         ],
-        "title": "BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9920,7 +9986,7 @@
     "sourceFile": "TNXH TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 2)BÀI HỌC STEM: BẢO VỆ CƠ QUAN HÔ HẤP",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 27 - BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 2)\nBÀI HỌC STEM: BẢO VỆ CƠ QUAN HÔ HẤP",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9928,7 +9994,9 @@
           "- Quan sát mô hình mẫu, nêu được tiêu chí và đề xuất được ý tưởng làm kính chắn giọt bắn.",
           "- Lựa chọn được dụng cụ, vật liệu phù hợp; thực hiện các thao tác đo, cắt, dán, lắp ghép và trang trí để hoàn thành sản phẩm theo hướng dẫn.",
           "- Trưng bày, giới thiệu được vật liệu, các bộ phận, cách làm, cách sử dụng và công dụng của sản phẩm.",
+          "- Biết kiểm tra, tự đánh giá và điều chỉnh sản phẩm; vận dụng kiến thức để lựa chọn biện pháp bảo vệ cơ quan hô hấp phù hợp.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị, lựa chọn dụng cụ, thực hiện nhiệm vụ và tự điều chỉnh sản phẩm.",
           "- Giao tiếp và hợp tác: Trao đổi, phân công nhiệm vụ, lắng nghe, nhận xét và hỗ trợ bạn trong quá trình thực hành.",
           "- Giải quyết vấn đề và sáng tạo: Đề xuất phương án, xử lí khó khăn khi chế tạo và cải tiến sản phẩm theo tiêu chí.",
           "3. Phẩm chất",
@@ -9951,10 +10019,8 @@
           "- Thước kẻ, kéo thủ công, bút màu, giấy màu và vật liệu theo hướng dẫn của GV.",
           "- SGK, phiếu học tập; chuẩn bị tinh thần làm việc nhóm và tuân thủ quy tắc an toàn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10134,10 +10200,14 @@
             ]
           ]
         ],
-        "title": "BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 2)BÀI HỌC STEM: BẢO VỆ CƠ QUAN HÔ HẤP"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 27 - BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10146,6 +10216,7 @@
           "- Nhận biết được vai trò của cơ quan bài tiết nước tiểu đối với cơ thể; nêu được một số việc làm phù hợp để bảo vệ cơ quan này.",
           "- Vận dụng kiến thức để lựa chọn thói quen có lợi: uống nước đều, không nhịn tiểu, đi vệ sinh đúng nơi và rửa tay sau khi đi vệ sinh.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, ghi nhớ tên bộ phận, hoàn thành nhiệm vụ cá nhân và tự điều chỉnh thói quen sinh hoạt.",
           "- Giao tiếp và hợp tác: Trao đổi nhóm đôi, nhóm bốn; trình bày, lắng nghe và phản hồi lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Sắp xếp đúng đường đi của nước tiểu; giải thích và lựa chọn hành vi có lợi cho sức khỏe.",
           "3. Phẩm chất",
@@ -10165,10 +10236,8 @@
           "- SGK, VBT, vở ghi, bút chì, bút màu.",
           "- Chuẩn bị thói quen học tập nghiêm túc; không chia sẻ hình ảnh hoặc thông tin riêng tư khi tham gia hoạt động số."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10344,7 +10413,11 @@
             ]
           ]
         ],
-        "title": "BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10353,7 +10426,7 @@
     "sourceFile": "TNXH TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 28 - BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10363,6 +10436,7 @@
           "- Nhận biết một số thói quen tốt để bảo vệ cơ quan bài tiết nước tiểu: uống nước đều, không nhịn tiểu, giữ vệ sinh cá nhân, mặc quần áo khô thoáng.",
           "- Vận dụng kiến thức để lựa chọn cách xử lí tình huống gần gũi, phù hợp với lứa tuổi.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, ghi nhớ, tự kiểm tra kết quả và điều chỉnh thói quen của bản thân.",
           "- Giao tiếp và hợp tác: Phân công nhiệm vụ, trình bày sản phẩm, lắng nghe và góp ý lịch sự trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống, dự đoán hậu quả và đề xuất cách phòng tránh phù hợp.",
           "3. Phẩm chất",
@@ -10382,10 +10456,8 @@
           "- SGK, VBT, vở ghi, bút chì, bút màu.",
           "- Chuẩn bị đồ dùng học tập cá nhân; thực hiện quy tắc bảo vệ thông tin và hình ảnh riêng tư khi dùng công cụ số."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10518,16 +10590,24 @@
             ]
           ]
         ],
-        "title": "BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 26. CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 28 - BÀI 26. CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nêu được sự cần thiết của việc uống nước đều, không nhịn tiểu và giữ vệ sinh để bảo vệ cơ quan bài tiết nước tiểu.",
           "- Quan sát tranh, giải thích được những việc nên làm và không nên làm: vệ sinh sạch sẽ, hạn chế ăn mặn, uống nước phù hợp, đi tiểu đúng lúc.",
+          "- Điều tra được một số thói quen trong nhóm; biết nhận xét, đề xuất cách duy trì hoặc điều chỉnh thói quen.",
+          "- Tuyên truyền, hướng dẫn người khác chăm sóc, bảo vệ cơ quan bài tiết nước tiểu bằng lời nói phù hợp.",
+          "- Vận dụng kiến thức vào tình huống gần gũi, hình thành nếp sống có lợi cho sức khỏe.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự đánh giá thói quen, xác định việc cần duy trì hoặc điều chỉnh và thực hiện mục tiêu cá nhân.",
           "- Giao tiếp và hợp tác: Thảo luận nhóm đôi, nhóm bốn; thống kê, báo cáo và tôn trọng thông tin của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Phân tích tranh, lựa chọn hành vi đúng và đề xuất cách chăm sóc sức khỏe phù hợp.",
           "3. Phẩm chất",
@@ -10547,11 +10627,8 @@
           "- SGK, VBT, vở ghi, bút.",
           "- Phiếu điều tra, đồ dùng học tập cá nhân; không ghi hoặc chia sẻ thông tin riêng tư không cần thiết."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Vận dụng kiến thức vào tình huống gần gũi, hình thành nếp sống có lợi cho sức khỏe.",
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10673,7 +10750,11 @@
             ]
           ]
         ],
-        "title": "BÀI 26. CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10682,10 +10763,9 @@
     "sourceFile": "TNXH TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 26: CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 29 - BÀI 26: CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2) - Thời gian thực hiện: ngày ...... tháng ...... năm ......",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút ngày ...... tháng ...... năm ......",
           "1. Năng lực đặc thù",
           "- Nêu được sự cần thiết và thực hiện được việc uống đủ nước, không nhịn tiểu để góp phần phòng tránh bệnh sỏi thận.",
           "- Giải thích được những việc nên làm và không nên làm để chăm sóc, bảo vệ cơ quan bài tiết nước tiểu.",
@@ -10693,14 +10773,17 @@
           "- Tuyên truyền, hướng dẫn cho người khác biết cách chăm sóc, bảo vệ cơ quan bài tiết nước tiểu.",
           "- Vận dụng kiến thức, kĩ năng đã học để phân tích tình huống và lựa chọn cách ứng xử an toàn, phù hợp nhằm bảo vệ sức khỏe.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự giác thực hiện nhiệm vụ; tự theo dõi và điều chỉnh thói quen uống nước, đi vệ sinh, vệ sinh cá nhân.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, thống nhất ý kiến trong nhóm; trình bày rõ ràng, góp ý lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Đề xuất cách chăm sóc cơ quan bài tiết nước tiểu; vận dụng vào tình huống thực tế.",
           "3. Phẩm chất",
           "- Nhân ái: Biết yêu quý, tôn trọng cơ thể của mình và bạn; không trêu chọc bạn khi bạn cần đi vệ sinh; sẵn sàng giúp đỡ bạn đúng cách.",
           "- Trách nhiệm: Thực hiện và nhắc nhở người thân, bạn bè uống đủ nước, không nhịn tiểu; giữ vệ sinh cá nhân và vệ sinh nhà vệ sinh.",
           "4. Tích hợp",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M24): Uống đủ từ 1 đến 1.5 lít nước sạch mỗi ngày để bảo vệ thận; không uống nước lã chưa đun sôi; giữ vệ sinh và dội nước sạch sau khi đi vệ sinh.",
           "- Tích hợp năng lực số 5.2.CB1a: Sử dụng công cụ số đơn giản để ghi chép, thống kê và trình bày kết quả theo dõi thói quen chăm sóc sức khỏe.",
-          "- Tích hợp quyền con người: Nhận biết quyền được chăm sóc sức khỏe, tiếp cận nước sạch, sử dụng nhà vệ sinh an toàn và được tôn trọng quyền riêng tư."
+          "- Tích hợp quyền con người: Nhận biết quyền được chăm sóc sức khỏe, tiếp cận nước sạch, sử dụng nhà vệ sinh an toàn và được tôn trọng quyền riêng tư.",
+          "- Tích hợp AI - YCCĐ 2.D2.1: Hiểu AI cần dữ liệu lịch uống nước chính xác để nhắc đúng lúc; con người phải kiểm tra, điều chỉnh và chịu trách nhiệm."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -10711,11 +10794,8 @@
           "- SGK, VBT, vở ghi, bút viết; kéo, hồ dán nếu sử dụng.",
           "- Tranh hoặc ghi chép về thói quen uống nước, vệ sinh cá nhân của bản thân và gia đình (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10776,6 +10856,14 @@
             [
               "- GV tích hợp quyền con người: “Mỗi bạn đều có quyền được sử dụng nhà vệ sinh sạch sẽ, an toàn và được tôn trọng khi đi vệ sinh. Ở trường, em cần làm gì để bảo vệ quyền đó của mình và của bạn?”",
               "- HS trả lời: xả nước sau khi sử dụng; bỏ rác đúng nơi; rửa tay; không trêu chọc, không nhìn vào khu vực riêng tư; báo thầy cô khi thiếu nước, xà phòng hoặc nhà vệ sinh hỏng."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp Tiết kiệm và bảo vệ nguồn nước (Mã HĐ Mizuiku M10, M24): “Để cơ quan bài tiết nước tiểu luôn khỏe mạnh, mỗi ngày chúng ta cần uống nước như thế nào và sau khi đi vệ sinh cần làm gì?”",
+              "- HS trả lời: Uống đủ nước chín đun sôi để nguội, không nhịn tiểu, không uống nước lã bẩn; sau khi đi tiểu tiện, đại tiện phải dội nước sạch sẽ và rửa tay bằng xà phòng ạ."
+            ],
+            [
+              "- GV kết luận: Uống đủ nước sạch và giữ vệ sinh cá nhân đúng cách giúp bảo vệ cơ quan bài tiết và giữ gìn sức khỏe dẻo dai cho các em.",
+              "- HS lắng nghe và ghi nhớ thói quen uống nước sạch mỗi ngày."
             ],
             [
               "- GV chốt: Uống đủ nước, không nhịn tiểu, giữ vệ sinh, hạn chế ăn mặn; khi có đau, tiểu buốt, sốt hoặc dấu hiệu bất thường phải báo người lớn để được khám.",
@@ -10844,19 +10932,24 @@
             ]
           ]
         ],
-        "title": "BÀI 26: CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 1)",
+        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 29 - BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 1) - Thời gian thực hiện: ngày ...... tháng ...... năm ......",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút ngày ...... tháng ...... năm ......",
           "1. Năng lực đặc thù",
           "- Củng cố kiến thức, kĩ năng đã học về cơ quan vận động, cơ quan hô hấp và cơ quan bài tiết nước tiểu.",
           "- Trình bày được tên gọi, các bộ phận chính và chức năng cơ bản của từng cơ quan bằng lời nói hoặc sơ đồ đơn giản.",
           "- Nêu và thực hiện được một số việc làm chăm sóc, bảo vệ các cơ quan; biết khuyến khích người thân cùng thực hiện.",
           "- Vận dụng kiến thức, kĩ năng đã học để lựa chọn hành vi bảo vệ sức khỏe trong tình huống gần gũi.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chuẩn bị, hoàn thành nhiệm vụ cá nhân; tự đánh giá và điều chỉnh thói quen.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, trình bày ý kiến; phối hợp nhóm và thống nhất kết quả.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện thói quen chưa phù hợp, đề xuất giải pháp chăm sóc sức khỏe.",
           "3. Phẩm chất",
@@ -10875,11 +10968,8 @@
           "- SGK, vở ghi, bút viết, bút màu.",
           "- Một số tranh/ảnh về các cơ quan của cơ thể nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11009,7 +11099,12 @@
             ]
           ]
         ],
-        "title": "BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -11018,7 +11113,7 @@
     "sourceFile": "TNXH TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)",
+        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)",
         "topic": "CHỦ ĐỀ: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11028,6 +11123,7 @@
           "- Thực hiện và chia sẻ được một số việc làm cơ bản để chăm sóc, bảo vệ các cơ quan trên; khuyến khích người thân cùng thực hiện.",
           "- Năng lực khoa học: (1) Nhận thức môi trường tự nhiên và xã hội xung quanh; (2) Tìm tòi, khám phá; (3) Vận dụng kiến thức, kĩ năng đã học vào tình huống gần gũi.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chuẩn bị, hoàn thành nhiệm vụ cá nhân; tự đánh giá và điều chỉnh thói quen để giữ gìn sức khỏe.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, trình bày ý kiến; phối hợp làm việc nhóm và thống nhất kết quả.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện thói quen chưa phù hợp, đề xuất giải pháp chăm sóc sức khỏe cho bản thân và người xung quanh.",
           "3. Phẩm chất",
@@ -11046,11 +11142,6 @@
           "- Một số tranh, ảnh về các cơ quan của cơ thể (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "TỰ NHIÊN VÀ XÃ HỘI"
-        ],
         "tables": [
           [
             [
@@ -11203,10 +11294,14 @@
             ]
           ]
         ],
-        "title": "BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 3)",
+        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 3)",
         "topic": "CHỦ ĐỀ: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11217,6 +11312,7 @@
           "- Năng lực khoa học: (1) Nhận thức môi trường tự nhiên và xã hội xung quanh; (2) Tìm tòi, khám phá; (3) Vận dụng kiến thức, kĩ năng đã học vào tình huống gần gũi.",
           "- Vận dụng kiến thức để xử lí tình huống liên quan đến khói thuốc; biết khuyên người thân bỏ thuốc lá bằng lời nói lễ phép, phù hợp.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chuẩn bị, hoàn thành nhiệm vụ cá nhân; tự đánh giá và điều chỉnh thói quen để giữ gìn sức khỏe.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, trình bày ý kiến; phối hợp làm việc nhóm và thống nhất kết quả.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện thói quen chưa phù hợp, đề xuất giải pháp chăm sóc sức khỏe cho bản thân và người xung quanh.",
           "3. Phẩm chất",
@@ -11235,10 +11331,6 @@
           "- Một số tranh, ảnh về các cơ quan của cơ thể (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11368,7 +11460,11 @@
             ]
           ]
         ],
-        "title": "BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 3)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -11377,7 +11473,7 @@
     "sourceFile": "TNXH TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 1)",
+        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11385,6 +11481,7 @@
           "- Phân biệt được mùa mưa, mùa khô và liên hệ đặc điểm mùa ở địa phương.",
           "- Lựa chọn được trang phục phù hợp theo mùa để bảo vệ sức khỏe.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: chủ động quan sát, hoàn thành nhiệm vụ và tự điều chỉnh hành vi phù hợp.",
           "- Giao tiếp và hợp tác: trao đổi, lắng nghe, phân công và trình bày kết quả rõ ràng.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức để xử lí tình huống gần gũi.",
           "3. Phẩm chất",
@@ -11392,7 +11489,10 @@
           "- Trách nhiệm: chủ động bảo vệ sức khỏe, thiên nhiên và an toàn của bản thân, cộng đồng.",
           "- Nhân ái: biết quan tâm, chia sẻ, hỗ trợ bạn và người gặp khó khăn.",
           "4. Tích hợp",
-          "- Bài học STEM - Các mùa trong năm: lựa chọn trang phục theo mùa và chuẩn bị thiết kế xúc xắc các mùa."
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 - TLGDĐP Lớp 2 Trà Vinh): Nhận biết đặc điểm khí hậu 2 mùa mưa - khô của vùng đất Nam Bộ và tỉnh Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M1, M15): Tầm quan trọng của mùa mưa đem lại dòng nước ngọt tưới mát đồng ruộng, vườn dừa; thói quen hứng trữ nước mưa sạch vào lu, bể để dùng cho mùa khô hạn.",
+          "- Bài học STEM - Các mùa trong năm: lựa chọn trang phục theo mùa và chuẩn bị thiết kế xúc xắc các mùa.",
+          "- Tích hợp AI - YCCĐ 2.A2.1: nhận biết thiết bị thông minh có thể điều chỉnh nhiệt độ theo thời tiết nhưng con người vẫn phải lựa chọn phù hợp."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -11403,11 +11503,6 @@
           "- Giấy bìa, thước, kéo thủ công, hồ dán theo phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "TỰ NHIÊN VÀ XÃ HỘI"
-        ],
         "tables": [
           [
             [
@@ -11453,6 +11548,14 @@
               "- HS liên hệ địa phương, chia sẻ theo hiểu biết."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1 GDĐP 2 & Mã Mizuiku M1, M15): “Ở Trà Vinh quê ta có mấy mùa trong năm? Vào mùa mưa, người dân quê em thường làm gì để chuẩn bị nguồn nước ngọt cho sinh hoạt?”",
+              "- HS trả lời: Quê em có 2 mùa là mùa mưa và mùa khô ạ; vào mùa mưa, người dân quê em thường cọ rửa lu sạch sẽ rồi hứng nước mưa đầy các lu, bể để dự trữ nước ngọt dùng quanh năm ạ."
+            ],
+            [
+              "- GV khen ngợi và chốt ý: Nước ngọt ở Trà Vinh rất quý, các lu nước mưa trước sân nhà là nét văn hóa truyền thống gắn liền với thói quen tiết kiệm và trữ nước của người dân quê hương chúng ta.",
+              "- HS chăm chú lắng nghe, thêm hiểu biết và trân trọng nguồn nước mưa quê mình."
+            ],
+            [
               "- GV sửa lỗi kiến thức trong bản gốc: “Mùa khô mưa ít nên đất nứt nẻ”, không ghi nhầm thành mùa mưa.",
               "- HS lắng nghe và ghi nhớ."
             ],
@@ -11488,10 +11591,14 @@
             ]
           ]
         ],
-        "title": "BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 2)",
+        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11499,6 +11606,7 @@
           "- Thực hành đo, vẽ, cắt, gấp, dán để tạo sản phẩm từ vật liệu đơn giản.",
           "- Trưng bày, giới thiệu, sử dụng và đánh giá sản phẩm theo tiêu chí.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: chủ động quan sát, hoàn thành nhiệm vụ và tự điều chỉnh hành vi phù hợp.",
           "- Giao tiếp và hợp tác: trao đổi, lắng nghe, phân công và trình bày kết quả rõ ràng.",
           "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức để xử lí tình huống gần gũi.",
           "3. Phẩm chất",
@@ -11506,7 +11614,8 @@
           "- Trách nhiệm: chủ động bảo vệ sức khỏe, thiên nhiên và an toàn của bản thân, cộng đồng.",
           "- Nhân ái: biết quan tâm, chia sẻ, hỗ trợ bạn và người gặp khó khăn.",
           "4. Tích hợp",
-          "- Bài học STEM - Các mùa trong năm: thiết kế, chế tạo và sử dụng xúc xắc các mùa."
+          "- Bài học STEM - Các mùa trong năm: thiết kế, chế tạo và sử dụng xúc xắc các mùa.",
+          "- Tích hợp AI - YCCĐ 2.A2.1: liên hệ thiết bị thông minh điều chỉnh nhiệt độ theo mùa; con người lựa chọn dữ liệu và kiểm tra kết quả."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -11517,10 +11626,6 @@
           "- SGK và phiếu học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11593,7 +11698,11 @@
             ]
           ]
         ],
-        "title": "BÀI 28: CÁC MÙA TRONG NĂM (TIẾT 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -11612,6 +11721,7 @@
           "- Nêu được một số hoạt động của con người làm tăng hoặc giảm nguy cơ thiên tai; có ý thức bảo vệ môi trường, trồng cây, bảo vệ rừng.",
           "- Năng lực khoa học: Nhận thức môi trường tự nhiên và xã hội xung quanh; tìm tòi, khám phá qua quan sát, thảo luận; vận dụng kiến thức để nhận diện rủi ro và lựa chọn hành vi an toàn.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, đọc thông tin, hoàn thành phiếu học tập; tự điều chỉnh cách tìm kiếm và ghi lại ý chính.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, trình bày ý kiến; phối hợp làm việc nhóm, thống nhất kết quả và nhận xét lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện rủi ro, phân tích nguyên nhân, đề xuất cách phòng tránh hoặc việc làm hỗ trợ phù hợp.",
           "3. Phẩm chất",
@@ -11619,6 +11729,7 @@
           "- Trách nhiệm: Có ý thức bảo vệ môi trường, tuân thủ hướng dẫn an toàn, tham gia hoạt động chung và sử dụng thông tin đúng mục đích.",
           "4. Tích hợp",
           "- Tích hợp năng lực số 5.2.CB1a: HS nhận biết và sử dụng ở mức đơn giản các biểu tượng, cảnh báo trên ứng dụng dự báo thời tiết để phát hiện sớm dấu hiệu mưa lớn, giông, bão; biết xem thông tin dưới sự hướng dẫn của người lớn, không tự ý xử lí tình huống nguy hiểm.",
+          "- Giáo dục quyền con người và kĩ năng sống: HS nhận biết quyền được bảo vệ, được an toàn trước thiên tai; biết tránh xa khu vực nguy hiểm, làm theo hướng dẫn của người lớn và cơ quan chức năng; có ý thức trồng cây, không phá rừng để góp phần giảm rủi ro.",
           "- Tích hợp AI - YCCĐ 2.D1.1: HS tìm hiểu cách AI hỗ trợ các nhà khoa học phân tích dữ liệu mây, mưa, gió, mực nước để dự báo hướng đi của bão, nguy cơ lũ; hiểu AI chỉ là công cụ hỗ trợ, con người phải kiểm tra thông tin và quyết định biện pháp bảo vệ người dân."
         ],
         "dodung": [
@@ -11631,12 +11742,6 @@
           "- Hình ảnh sưu tầm về các thiên tai thường gặp (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giáo dục quyền con người và kĩ năng sống: HS nhận biết quyền được bảo vệ, được an toàn trước thiên tai; biết tránh xa khu vực nguy hiểm, làm theo hướng dẫn của người lớn và cơ quan chức năng; có ý thức trồng cây, không phá rừng để góp phần giảm rủi ro.",
-          "...............................................................................................",
-          "...............................................................................................",
-          "..............................................................................................."
-        ],
         "tables": [
           [
             [
@@ -11740,7 +11845,12 @@
             ]
           ]
         ],
-        "title": "BÀI 29: MỘT SỐ THIÊN TAI THƯỜNG GẶP (TIẾT 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "...............................................................................................",
+          "...............................................................................................",
+          "..............................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 29: MỘT SỐ THIÊN TAI THƯỜNG GẶP (TIẾT 2)",
@@ -11753,6 +11863,7 @@
           "- Đề xuất được việc làm thiết thực, phù hợp lứa tuổi để chia sẻ, giúp đỡ các bạn ở vùng bị thiên tai.",
           "- Năng lực khoa học: Nhận thức môi trường tự nhiên và xã hội; tìm kiếm, chọn lọc thông tin; vận dụng kiến thức, kĩ năng vào tình huống gần gũi.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, đọc thông tin, hoàn thành phiếu học tập; tự điều chỉnh cách tìm kiếm và ghi lại ý chính.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, trình bày ý kiến; phối hợp làm việc nhóm, thống nhất kết quả và nhận xét lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện rủi ro, phân tích nguyên nhân, đề xuất cách phòng tránh hoặc việc làm hỗ trợ phù hợp.",
           "3. Phẩm chất",
@@ -11772,11 +11883,6 @@
           "- Phiếu điều tra về thiên tai gần nhất xảy ra ở địa phương đã hoàn thành với sự hỗ trợ của người thân."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................",
-          "...............................................................................................",
-          "..............................................................................................."
-        ],
         "tables": [
           [
             [
@@ -11888,7 +11994,12 @@
             ]
           ]
         ],
-        "title": "BÀI 29: MỘT SỐ THIÊN TAI THƯỜNG GẶP (TIẾT 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "...............................................................................................",
+          "...............................................................................................",
+          "..............................................................................................."
+        ]
       }
     ]
   },
@@ -11906,12 +12017,14 @@
           "- Có ý thức chia sẻ với những người xung quanh và cùng thực hiện phòng tránh rủi ro do thiên tai.",
           "- Năng lực khoa học: Nhận thức được nguy cơ; tìm tòi, khám phá qua quan sát và xử lí tình huống; vận dụng kiến thức, kĩ năng đã học vào thực tế.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động đọc thông tin, chuẩn bị đồ dùng, lựa chọn cách ứng phó phù hợp và tự điều chỉnh hành vi khi tham gia luyện tập.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, thảo luận nhóm; phối hợp khi đóng vai và luyện tập sơ tán.",
           "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống thiên tai, lựa chọn nơi an toàn, vật dụng thiết yếu và đề xuất cách xử lí phù hợp.",
           "3. Phẩm chất",
           "- Nhân ái: Cảm thông với những người gặp khó khăn do thiên tai; biết nhắc nhở, giúp đỡ bạn trong hoạt động luyện tập.",
           "- Trách nhiệm: Có ý thức phòng tránh rủi ro, tuân thủ hiệu lệnh, bảo vệ bản thân và nhắc nhở người thân cùng thực hiện.",
           "4. Tích hợp",
+          "- Giáo dục kĩ năng sống - phòng tránh thiên tai: HS biết chuẩn bị vật dụng cần thiết, lựa chọn nơi an toàn, sơ tán theo hướng dẫn và thường xuyên theo dõi bản tin thời tiết để ứng phó kịp thời.",
           "- Tích hợp năng lực số 1.2.CB1a: Phát hiện được độ tin cậy và độ chính xác của các nguồn dữ liệu, thông tin và nội dung số. HS nhận biết nên theo dõi bản tin thời tiết, cảnh báo thiên tai từ nguồn chính thống; không tin hoặc chia sẻ thông tin chưa được kiểm chứng."
         ],
         "dodung": [
@@ -11924,12 +12037,6 @@
           "- Một số tranh, ảnh về thiên tai; trang phục gọn gàng để tham gia hoạt động luyện tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giáo dục kĩ năng sống - phòng tránh thiên tai: HS biết chuẩn bị vật dụng cần thiết, lựa chọn nơi an toàn, sơ tán theo hướng dẫn và thường xuyên theo dõi bản tin thời tiết để ứng phó kịp thời.",
-          "...............................................................................................",
-          "...............................................................................................",
-          "..............................................................................................."
-        ],
         "tables": [
           [
             [
@@ -12034,7 +12141,12 @@
             ]
           ]
         ],
-        "title": "BÀI 30: LUYỆN TẬP ỨNG PHÓ VỚI THIÊN TAI (TIẾT 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "...............................................................................................",
+          "...............................................................................................",
+          "..............................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 30: LUYỆN TẬP ỨNG PHÓ VỚI THIÊN TAI (TIẾT 2 + 3)",
@@ -12046,12 +12158,14 @@
           "- Có ý thức chia sẻ với những người xung quanh và cùng thực hiện phòng tránh rủi ro do thiên tai.",
           "- Năng lực khoa học: Nhận thức được nguy cơ; tìm tòi, khám phá qua quan sát và xử lí tình huống; vận dụng kiến thức, kĩ năng đã học vào thực tế.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động đọc thông tin, chuẩn bị đồ dùng, lựa chọn cách ứng phó phù hợp và tự điều chỉnh hành vi khi tham gia luyện tập.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, thảo luận nhóm; phối hợp khi đóng vai và luyện tập sơ tán.",
           "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống thiên tai, lựa chọn nơi an toàn, vật dụng thiết yếu và đề xuất cách xử lí phù hợp.",
           "3. Phẩm chất",
           "- Nhân ái: Cảm thông với những người gặp khó khăn do thiên tai; biết nhắc nhở, giúp đỡ bạn trong hoạt động luyện tập.",
           "- Trách nhiệm: Có ý thức phòng tránh rủi ro, tuân thủ hiệu lệnh, bảo vệ bản thân và nhắc nhở người thân cùng thực hiện.",
           "4. Tích hợp",
+          "- Giáo dục kĩ năng sống - phòng tránh thiên tai: HS biết chuẩn bị vật dụng cần thiết, lựa chọn nơi an toàn, sơ tán theo hướng dẫn và thường xuyên theo dõi bản tin thời tiết để ứng phó kịp thời.",
           "- Tích hợp AI - YCCĐ 2.A1.2: HS hiểu dù AI có thể hỗ trợ dự báo bão, lũ nhưng con người vẫn phải chủ động chuẩn bị kĩ năng, vật dụng và thực hiện hướng dẫn ứng phó; không phụ thuộc, không chờ thiết bị tự giải quyết."
         ],
         "dodung": [
@@ -12064,12 +12178,6 @@
           "- Một số tranh, ảnh về thiên tai; trang phục gọn gàng để tham gia hoạt động luyện tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giáo dục kĩ năng sống - phòng tránh thiên tai: HS biết chuẩn bị vật dụng cần thiết, lựa chọn nơi an toàn, sơ tán theo hướng dẫn và thường xuyên theo dõi bản tin thời tiết để ứng phó kịp thời.",
-          "...............................................................................................",
-          "...............................................................................................",
-          "..............................................................................................."
-        ],
         "tables": [
           [
             [
@@ -12169,7 +12277,12 @@
             ]
           ]
         ],
-        "title": "BÀI 30: LUYỆN TẬP ỨNG PHÓ VỚI THIÊN TAI (TIẾT 2 + 3)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "...............................................................................................",
+          "...............................................................................................",
+          "..............................................................................................."
+        ]
       }
     ]
   },
@@ -12187,12 +12300,14 @@
           "- Có ý thức chia sẻ với những người xung quanh và cùng thực hiện phòng tránh những rủi ro do thiên tai.",
           "- Góp phần phát triển năng lực nhận thức, tìm tòi, khám phá và vận dụng kiến thức, kĩ năng đã học vào thực tế.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động đọc thông tin, chuẩn bị đồ dùng, lựa chọn cách ứng phó phù hợp và tự điều chỉnh hành vi khi tham gia luyện tập.",
           "- Giao tiếp và hợp tác: Biết cùng các bạn thảo luận nhóm, lắng nghe hiệu lệnh, phối hợp khi luyện tập sơ tán.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để phân tích tình huống, lựa chọn nơi an toàn, vật dụng thiết yếu và cách xử lí phù hợp.",
           "3. Phẩm chất",
           "- Nhân ái: Hiểu những khó khăn của người dân ở nơi xảy ra thiên tai; biết quan tâm, hỗ trợ bạn trong hoạt động luyện tập.",
           "- Trách nhiệm: Có ý thức làm những việc phù hợp để phòng tránh rủi ro do thiên tai; tuân thủ hiệu lệnh và nhắc nhở người thân cùng thực hiện.",
           "4. Tích hợp",
+          "- Giáo dục kĩ năng sống - phòng tránh thiên tai: HS biết chuẩn bị vật dụng cần thiết, lựa chọn nơi an toàn, sơ tán theo hướng dẫn và thường xuyên theo dõi bản tin thời tiết để ứng phó kịp thời.",
           "- Tích hợp năng lực số 1.2.CB1a: Phát hiện được độ tin cậy và độ chính xác của các nguồn dữ liệu, thông tin và nội dung số. HS nhận biết nên theo dõi bản tin thời tiết, cảnh báo thiên tai từ nguồn chính thống; không tin hoặc chia sẻ thông tin chưa được kiểm chứng.",
           "- Tích hợp AI - YCCĐ 2.A1.2: HS hiểu dù AI có thể hỗ trợ dự báo bão, lũ nhưng con người vẫn phải chủ động chuẩn bị kĩ năng, vật dụng và thực hiện hướng dẫn ứng phó; không phụ thuộc, không chờ thiết bị tự giải quyết."
         ],
@@ -12207,11 +12322,6 @@
           "- Một số tranh, ảnh về thiên tai; trang phục gọn gàng để tham gia hoạt động luyện tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giáo dục kĩ năng sống - phòng tránh thiên tai: HS biết chuẩn bị vật dụng cần thiết, lựa chọn nơi an toàn, sơ tán theo hướng dẫn và thường xuyên theo dõi bản tin thời tiết để ứng phó kịp thời.",
-          "...............................................................................................",
-          "..............................................................................................."
-        ],
         "tables": [
           [
             [
@@ -12331,7 +12441,11 @@
             ]
           ]
         ],
-        "title": "BÀI 30: LUYỆN TẬP ỨNG PHÓ VỚI THIÊN TAI (TIẾT 2 + 3)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "...............................................................................................",
+          "..............................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 31: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 1)",
@@ -12343,6 +12457,7 @@
           "- Xác định và thực hiện được một số biện pháp ứng phó với thiên tai trong tình huống gần gũi.",
           "- Hoàn thành, giới thiệu được bộ sưu tập “Các mùa ở địa phương em”.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động chuẩn bị tranh, ảnh; hoàn thành bảng và tự điều chỉnh sản phẩm.",
           "- Giao tiếp và hợp tác: Trao đổi, thảo luận, phân công nhiệm vụ và trình bày kết quả trước lớp.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn, sắp xếp tranh ảnh; vận dụng kiến thức để xử lí tình huống mưa lớn, lũ lụt.",
           "3. Phẩm chất",
@@ -12360,11 +12475,6 @@
           "- Tranh, ảnh về cảnh vật, thời tiết và trang phục theo mùa; vật liệu đơn giản theo hướng dẫn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................",
-          "...............................................................................................",
-          "..............................................................................................."
-        ],
         "tables": [
           [
             [
@@ -12477,7 +12587,12 @@
             ]
           ]
         ],
-        "title": "BÀI 31: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 1)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "...............................................................................................",
+          "...............................................................................................",
+          "..............................................................................................."
+        ]
       }
     ]
   },
@@ -12495,6 +12610,7 @@
           "- Nêu được đặc điểm của từng mùa, lựa chọn được trang phục phù hợp và hoàn thiện sản phẩm ôn tập.",
           "- Biết quan sát, nhận xét, giới thiệu và đánh giá sản phẩm học tập của cá nhân, nhóm.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, đọc thông tin, hoàn thành nhiệm vụ và tự điều chỉnh câu trả lời sau khi được góp ý.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phân công nhiệm vụ, trình bày và nhận xét bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về mùa và thiên tai để xử lí tình huống gần gũi, lựa chọn việc làm an toàn.",
           "3. Phẩm chất",
@@ -12512,11 +12628,6 @@
           "- Sản phẩm ôn tập, tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................",
-          "...............................................................................................",
-          "..............................................................................................."
-        ],
         "tables": [
           [
             [
@@ -12606,7 +12717,12 @@
             ]
           ]
         ],
-        "title": "BÀI 31: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 2)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "...............................................................................................",
+          "...............................................................................................",
+          "..............................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 31: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 3)",
@@ -12618,6 +12734,7 @@
           "- Nêu được những việc học sinh có thể làm để bảo vệ bản thân, hỗ trợ người gặp khó khăn và góp phần khắc phục hậu quả thiên tai.",
           "- Vận dụng kiến thức đã học vào tình huống thực tế, biết chia sẻ thông tin ngắn gọn, đúng nội dung.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, đọc thông tin, hoàn thành nhiệm vụ và tự điều chỉnh câu trả lời sau khi được góp ý.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phân công nhiệm vụ, trình bày và nhận xét bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết vận dụng kiến thức về mùa và thiên tai để xử lí tình huống gần gũi, lựa chọn việc làm an toàn.",
           "3. Phẩm chất",
@@ -12635,11 +12752,6 @@
           "- Sản phẩm ôn tập, tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................",
-          "...............................................................................................",
-          "..............................................................................................."
-        ],
         "tables": [
           [
             [
@@ -12717,7 +12829,12 @@
             ]
           ]
         ],
-        "title": "BÀI 31: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 3)"
+        "dieuchinh": [
+          "SAU TIẾT HỌC (NẾU CÓ)",
+          "...............................................................................................",
+          "...............................................................................................",
+          "..............................................................................................."
+        ]
       }
     ]
   }

@@ -14,7 +14,7 @@
     "sourceFile": "LSĐL TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 1 - Tiết 1 - BÀI 1: LÀM QUEN VỚI PHƯƠNG TIỆN HỌC TẬP MÔN LỊCH SỬ VÀ ĐỊA LÍ - Tiết 1",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -37,11 +37,8 @@
           "- GV: SGK, máy tính, ti vi/máy chiếu, bản đồ địa hình Việt Nam, lược đồ khởi nghĩa Hai Bà Trưng, bảng số liệu, biểu đồ, trục thời gian, phiếu học tập, bản đồ số/bảng số liệu số đã kiểm duyệt.",
           "- HS: SGK, vở ghi, bút màu, giấy A4/phiếu học tập."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -262,10 +259,15 @@
             ]
           ]
         ],
-        "title": "Tiết 1"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "Tiết 2",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 1 - Tiết 2 - BÀI 1: LÀM QUEN VỚI PHƯƠNG TIỆN HỌC TẬP MÔN LỊCH SỬ VÀ ĐỊA LÍ - Tiết 2",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -287,11 +289,8 @@
           "- GV: SGK, máy tính, ti vi/máy chiếu, tranh ảnh lịch sử, tranh ảnh địa lí, hình hiện vật mũi tên đồng Cổ Loa, phiếu học tập, khung sơ đồ tư duy/câu hỏi gợi ý do GV kiểm duyệt.",
           "- HS: SGK, vở ghi, bút màu, giấy A4/phiếu học tập."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -445,7 +444,12 @@
             ]
           ]
         ],
-        "title": "Tiết 2"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -454,7 +458,7 @@
     "sourceFile": "LSĐL TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 1)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 2 - Tiết 3 - BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -470,18 +474,15 @@
           "- Chăm chỉ: tích cực tìm hiểu thông tin về địa phương qua bản đồ, tranh ảnh, tài liệu học tập.",
           "- Trách nhiệm: có ý thức giữ gìn cảnh quan thiên nhiên và môi trường địa phương.",
           "4. TÍCH HỢP",
-          "- Tích hợp BVMT: HS nhận biết quyền được sống trong môi trường an toàn, trong lành; biết yêu quý, bảo vệ cảnh quan địa phương."
+          "- Tích hợp BVMT: HS nhận biết quyền được sống trong môi trường an toàn, trong lành; biết yêu quý, bảo vệ cảnh quan địa phương.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Nhận biết hệ thống sông Cổ Chiên, sông Hậu và mạng lưới kênh rạch Trà Vinh cung cấp nước ngọt cho sinh hoạt và nông nghiệp; có ý thức giữ sạch nguồn nước.",
+          "- Giáo dục địa phương (Chủ đề 1): Địa hình, khí hậu tỉnh Trà Vinh (đặc điểm đồng bằng ven biển với hệ thống giồng cát độc đáo; khí hậu nhiệt đới gió mùa có hai mùa mưa - khô rõ rệt)."
         ],
         "dodung": [
           "- GV: Máy tính, ti vi, SGK, Tài liệu giáo dục địa phương lớp 4, bản đồ hành chính Việt Nam năm 2025, bản đồ/tư liệu về địa phương, tranh ảnh/video về cảnh quan địa phương, phiếu học tập.",
           "- HS: SGK, vở ghi, bút, phiếu học tập, thông tin hoặc tranh ảnh về địa phương đã chuẩn bị."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -619,15 +620,24 @@
               "- HS lắng nghe, rút kinh nghiệm cách trình bày."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 1) & Mizuiku: GV hướng dẫn HS liên hệ đặc điểm tự nhiên của tỉnh Trà Vinh: tỉnh nằm ở hạ lưu đồng bằng sông Cửu Long, được bao bọc bởi hai nhánh sông lớn là sông Cổ Chiên và sông Hậu, có các dải giồng cát ven biển độc đáo. Nguồn nước ngọt từ các con sông này vô cùng quý báu đối với đời sống và sản xuất. Em cần làm gì để bảo vệ nguồn nước các con sông ở địa phương?",
+              "- HS chú ý lắng nghe, quan sát lược đồ địa hình, sông ngòi tỉnh Trà Vinh; nêu các việc làm bảo vệ nguồn nước quê hương: không vứt rác, xác động vật xuống sông, kênh rạch; sử dụng nước tiết kiệm trong mùa khô."
+            ],
+            [
               "- GV dặn HS về nhà quan sát hoặc hỏi người thân thêm về hoạt động kinh tế, địa danh nổi tiếng và việc bảo vệ môi trường ở địa phương để chuẩn bị tiết 2.",
               "- HS ghi nhớ nhiệm vụ chuẩn bị cho tiết học sau."
             ]
           ]
         ],
-        "title": "BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 2)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 2 - Tiết 4 - BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -652,11 +662,6 @@
           "- HS: SGK, vở ghi, bút, phiếu học tập, thông tin hoặc tranh ảnh về địa phương đã chuẩn bị."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -788,7 +793,12 @@
             ]
           ]
         ],
-        "title": "BÀI 2: THIÊN NHIÊN VÀ CON NGƯỜI Ở ĐỊA PHƯƠNG EM (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -797,7 +807,7 @@
     "sourceFile": "LSĐL TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1",
+        "lessonTitle": "Lịch sử và Địa lí - Bài 3: LỊCH SỬ VÀ VĂN HÓA TRUYỀN THỐNG ĐỊA PHƯƠNG EM - Tiết 1",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -813,20 +823,15 @@
           "- Chăm chỉ: Tích cực tham gia quan sát, thảo luận, hoàn thành nhiệm vụ học tập.",
           "- Trách nhiệm: Biết giữ gìn nét đẹp văn hóa trong gia đình, nhà trường và cộng đồng.",
           "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS tự hào, biết ơn các thế hệ đi trước; có ý thức giữ gìn truyền thống tốt đẹp của địa phương bằng lời nói, việc làm phù hợp với lứa tuổi."
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS tự hào, biết ơn các thế hệ đi trước; có ý thức giữ gìn truyền thống tốt đẹp của địa phương bằng lời nói, việc làm phù hợp với lứa tuổi.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Ý thức giữ gìn vệ sinh môi trường, nguồn nước sạch tại các điểm sinh hoạt văn hóa, lễ hội truyền thống của địa phương.",
+          "- Giáo dục địa phương (Chủ đề 4 & 7): Nét đẹp văn hóa truyền thống tỉnh Trà Vinh (Lễ hội Ka-thi-na của đồng bào Khmer; Làng nghề nghệ thuật điêu khắc gỗ truyền thống tại Chùa Hang - Châu Thành)."
         ],
         "dodung": [
           "- GV: Máy tính, ti vi, tranh ảnh SGK, tư liệu hình ảnh về truyền thống địa phương, phiếu học tập.",
           "- HS: SGK, vở ghi, tranh ảnh hoặc thông tin đã sưu tầm về món ăn, trang phục, lễ hội, phong tục ở địa phương."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "Lịch sử và Địa lí"
-        ],
         "tables": [
           [
             [
@@ -938,15 +943,25 @@
               "- HS ghi nhớ nhiệm vụ, chuẩn bị thực hiện ở nhà."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 4 & CĐ 7): GV giới thiệu nét văn hóa truyền thống đặc sắc của cộng đồng các dân tộc tại Trà Vinh: Lễ hội Ka-thi-na (lễ dâng y cà sa của đồng bào Khmer) thể hiện lòng thành kính và tinh thần đoàn kết, tương trợ; làng nghề nghệ thuật điêu khắc gỗ tinh xảo từ gốc cây cổ thụ tại Chùa Hang (huyện Châu Thành). Nhắc nhở HS giữ gìn cảnh quan, nguồn nước sạch nơi diễn ra lễ hội.",
+              "- HS hào hứng quan sát tranh ảnh về Lễ hội Ka-thi-na và các tác phẩm điêu khắc gỗ Chùa Hang; bày tỏ niềm tự hào về truyền thống văn hóa Trà Vinh; ghi nhớ ý thức giữ gìn vệ sinh, không xả rác bừa bãi khi tham gia các lễ hội của quê hương."
+            ],
+            [
               "- GV nhận xét tiết học, tuyên dương HS tích cực và nhắc HS chuẩn bị thông tin về một danh nhân tiêu biểu ở địa phương cho tiết sau.",
               "- HS lắng nghe, ghi nhớ nội dung chuẩn bị cho tiết sau."
             ]
           ]
         ],
-        "title": "Tiết 1"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Tiết 2",
+        "lessonTitle": "Lịch sử và Địa lí - Bài 3: LỊCH SỬ VÀ VĂN HÓA TRUYỀN THỐNG ĐỊA PHƯƠNG EM - Tiết 2",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -970,12 +985,6 @@
           "- HS: SGK, vở ghi, thông tin hoặc tranh ảnh sưu tầm về một danh nhân, lễ hội hoặc di tích tiêu biểu của địa phương."
         ],
         "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "...............................................................................................................................",
-          "..............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -1092,7 +1101,13 @@
             ]
           ]
         ],
-        "title": "Tiết 2"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -1101,7 +1116,7 @@
     "sourceFile": "LSĐL TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 4 - Tiết 7 - Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1120,10 +1135,8 @@
           "- GV: Máy tính, ti vi, SGK, lược đồ hình 2, tranh ảnh hình 1 đến hình 14, phiếu học tập, giấy A3/giấy khăn phủ bàn, thẻ mảnh ghép.",
           "- HS: SGK, vở, bút, thước, giấy nháp, đồ dùng học tập cá nhân."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1295,10 +1308,14 @@
             ]
           ]
         ],
-        "title": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 4 - Tiết 8 - Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1317,10 +1334,8 @@
           "- GV: Máy tính, ti vi, SGK, lược đồ hình 2, tranh ảnh hình 1 đến hình 14, phiếu học tập, giấy A3/giấy khăn phủ bàn, thẻ mảnh ghép.",
           "- HS: SGK, vở, bút, thước, giấy nháp, đồ dùng học tập cá nhân."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1480,7 +1495,11 @@
             ]
           ]
         ],
-        "title": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -1489,7 +1508,7 @@
     "sourceFile": "LSĐL TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 5 - Tiết 9 - Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1508,10 +1527,8 @@
           "- GV: Máy tính, ti vi, SGK, lược đồ/bản đồ số vùng Trung du và miền núi phía Bắc, hình ảnh/video về thiên tai, sơ đồ hình 15, phiếu dự án nhỏ.",
           "- HS: SGK, vở, bút, thước, phiếu học tập; tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1653,10 +1670,14 @@
             ]
           ]
         ],
-        "title": "Bài 4: THIÊN NHIÊN VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 5 - Tiết 10 - Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1677,10 +1698,8 @@
           "- GV: Máy tính, ti vi, SGK, lược đồ mật độ dân số ở vùng Trung du và miền núi phía Bắc, hình ảnh một số dân tộc, phiếu học tập.",
           "- HS: SGK, vở, bút, thước, phiếu học tập; tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1786,7 +1805,11 @@
             ]
           ]
         ],
-        "title": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -1795,7 +1818,7 @@
     "sourceFile": "LSĐL TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 6 - Tiết 11 - Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1815,10 +1838,8 @@
           "- GV: Máy tính, ti vi, SGK, lược đồ tự nhiên vùng Trung du và miền núi phía Bắc, lược đồ một số nhà máy thủy điện và mỏ khoáng sản, hình ảnh ruộng bậc thang, thủy điện, khai thác khoáng sản, phiếu khăn phủ bàn.",
           "- HS: SGK, vở, bút, thước, phiếu học tập; tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1920,10 +1941,14 @@
             ]
           ]
         ],
-        "title": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 6 - Tiết 12 - Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1943,10 +1968,8 @@
           "- GV: Máy tính, ti vi, SGK, hình ảnh một số dân tộc, khung sơ đồ tư duy/phiếu số đã kiểm duyệt, giấy A0 hoặc bảng nhóm.",
           "- HS: SGK, vở, bút, thước, phiếu học tập; tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2033,7 +2056,11 @@
             ]
           ]
         ],
-        "title": "Bài 5: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 3)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -2042,7 +2069,7 @@
     "sourceFile": "LSĐL  TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
+        "lessonTitle": "LỊCH SỬ VÀ ĐỊA LÍ - TUẦN 7 - TIẾT 13 - Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2063,10 +2090,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút; tranh ảnh, thông tin đã sưu tầm về lễ hội, chợ phiên hoặc một nét văn hoá ở vùng Trung du và miền núi phía Bắc."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2191,10 +2216,14 @@
             ]
           ]
         ],
-        "title": "Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 7 - Tiết 14 - Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2215,10 +2244,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút; tranh ảnh, thông tin đã sưu tầm về lễ hội, chợ phiên hoặc một nét văn hoá ở vùng Trung du và miền núi phía Bắc."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2344,7 +2371,11 @@
             ]
           ]
         ],
-        "title": "Bài 6: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG TRUNG DU VÀ MIỀN NÚI PHÍA BẮC (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -2353,7 +2384,7 @@
     "sourceFile": "LSĐL TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 1)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 8 - Tiết 15 - Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2378,10 +2409,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút, tranh ảnh hoặc tư liệu sưu tầm về Đền Hùng, lễ giỗ Tổ Hùng Vương, truyền thuyết thời Hùng Vương."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2506,10 +2535,14 @@
             ]
           ]
         ],
-        "title": "Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 2)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 8 - Tiết 16 - Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 2)",
         "topic": "CHỦ ĐỀ 2: TRUNG DU VÀ MIỀN NÚI PHÍA BẮC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2533,10 +2566,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút, tranh ảnh hoặc tư liệu sưu tầm về Đền Hùng, lễ giỗ Tổ Hùng Vương, truyền thuyết thời Hùng Vương."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2638,7 +2669,11 @@
             ]
           ]
         ],
-        "title": "Bài 7: ĐỀN HÙNG VÀ LỄ GIỖ TỔ HÙNG VƯƠNG (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -2647,7 +2682,7 @@
     "sourceFile": "LSĐL TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 9 - Tiết 17 - Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2668,10 +2703,8 @@
           "- GV: Máy tính, ti vi, SGK, bản đồ tự nhiên Việt Nam, bản đồ/lược đồ vùng Đồng bằng Bắc Bộ, tranh ảnh về địa hình, sông ngòi, đất, sinh vật; phiếu học tập.",
           "- HS: SGK, vở ghi, bút, thước; thông tin hoặc tranh ảnh sưu tầm theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2832,10 +2865,14 @@
             ]
           ]
         ],
-        "title": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 9 - Tiết 18 - Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2856,10 +2893,8 @@
           "- GV: Máy tính, ti vi, SGK, tranh ảnh, phiếu học tập về thuận lợi và khó khăn của vùng Đồng bằng Bắc Bộ.",
           "- HS: SGK, vở ghi, bút, thước; thông tin hoặc ví dụ đã chuẩn bị theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2949,7 +2984,11 @@
             ]
           ]
         ],
-        "title": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -2958,7 +2997,7 @@
     "sourceFile": "LSĐL TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 10 - Tiết 19 - Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2981,10 +3020,8 @@
           "- GV: Máy tính, ti vi, SGK, bản đồ/lược đồ vùng Đồng bằng Bắc Bộ, hình ảnh/video về bảo vệ thiên nhiên, ô nhiễm môi trường, phân loại rác, trồng rừng ngập mặn; phiếu học tập.",
           "- HS: SGK, vở ghi, bút, thước; thông tin hoặc tranh ảnh sưu tầm theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3074,10 +3111,14 @@
             ]
           ]
         ],
-        "title": "Bài 8: THIÊN NHIÊN VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 10 - Tiết 20 - Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3104,10 +3145,8 @@
           "- SGK, vở ghi, bút.",
           "- Thông tin, tranh ảnh sưu tầm về dân cư hoặc hoạt động trồng lúa nước ở Đồng bằng Bắc Bộ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3116,7 +3155,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)- Mục tiêu: Tạo hứng thú, huy động hiểu biết ban đầu của HS về hoạt động sản xuất ở vùng Đồng bằng Bắc Bộ."
+              "1. KHỞI ĐỘNG (5 phút)\n- Mục tiêu: Tạo hứng thú, huy động hiểu biết ban đầu của HS về hoạt động sản xuất ở vùng Đồng bằng Bắc Bộ."
             ],
             [
               "- GV yêu cầu HS đọc đoạn thơ trong SGK và hỏi: Đoạn thơ giúp em liên tưởng đến hoạt động sản xuất nào ở vùng Đồng bằng Bắc Bộ?",
@@ -3131,7 +3170,7 @@
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
-              "2. KHÁM PHÁ - Hoạt động 1. Tìm hiểu về dân cư (15 phút)- Mục tiêu: Kể được tên một số dân tộc; nhận xét và giải thích được sự phân bố dân cư ở vùng Đồng bằng Bắc Bộ."
+              "2. KHÁM PHÁ - Hoạt động 1. Tìm hiểu về dân cư (15 phút)\n- Mục tiêu: Kể được tên một số dân tộc; nhận xét và giải thích được sự phân bố dân cư ở vùng Đồng bằng Bắc Bộ."
             ],
             [
               "- GV yêu cầu HS đọc thông tin trong SGK và hỏi: Kể tên một số dân tộc sống ở vùng Đồng bằng Bắc Bộ.",
@@ -3158,7 +3197,7 @@
               "- HS thực hiện theo hướng dẫn:\n- HS xác định thông tin cần tìm trên lược đồ.\n- HS đọc chú giải trước khi nhận xét.\n- HS đối chiếu thông tin với SGK.\n- HS biết chọn nguồn đáng tin cậy và ghi lại ý chính bằng lời của mình."
             ],
             [
-              "3. KHÁM PHÁ - Hoạt động 2a. Tìm hiểu về trồng lúa nước (15 phút)- Mục tiêu: Mô tả được hoạt động trồng lúa nước và kể được một số công việc cơ bản khi trồng lúa nước."
+              "3. KHÁM PHÁ - Hoạt động 2a. Tìm hiểu về trồng lúa nước (15 phút)\n- Mục tiêu: Mô tả được hoạt động trồng lúa nước và kể được một số công việc cơ bản khi trồng lúa nước."
             ],
             [
               "- GV yêu cầu HS đọc thông tin, quan sát hình 3 và hỏi: Những điều kiện nào thuận lợi để phát triển hoạt động trồng lúa nước ở vùng Đồng bằng Bắc Bộ?",
@@ -3177,7 +3216,7 @@
               "- HS lắng nghe, hiểu thêm vai trò của trồng lúa nước và sự đổi mới trong sản xuất."
             ],
             [
-              "4. LUYỆN TẬP (5 phút)- Mục tiêu: Củng cố nội dung về dân cư và hoạt động trồng lúa nước."
+              "4. LUYỆN TẬP (5 phút)\n- Mục tiêu: Củng cố nội dung về dân cư và hoạt động trồng lúa nước."
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân: Nêu 2 đặc điểm về dân cư vùng Đồng bằng Bắc Bộ.",
@@ -3188,7 +3227,7 @@
               "- HS nêu: Đất phù sa màu mỡ, nguồn nước dồi dào, khí hậu thuận lợi, người dân có kinh nghiệm."
             ],
             [
-              "5. VẬN DỤNG (5 phút)- Mục tiêu: Liên hệ thực tế về hoạt động sản xuất nông nghiệp."
+              "5. VẬN DỤNG (5 phút)\n- Mục tiêu: Liên hệ thực tế về hoạt động sản xuất nông nghiệp."
             ],
             [
               "- GV hỏi: Ở nơi em sống có hoạt động trồng lúa, trồng rau, chăn nuôi hoặc nuôi thủy sản không? Hãy kể một hoạt động mà em biết.",
@@ -3200,7 +3239,11 @@
             ]
           ]
         ],
-        "title": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -3209,7 +3252,7 @@
     "sourceFile": "LSĐL TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 11 - Tiết 21 - Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3236,10 +3279,8 @@
           "- SGK, vở ghi, bút.",
           "- Tranh ảnh hoặc thông tin đã sưu tầm về nghề thủ công truyền thống."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3248,7 +3289,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)- Mục tiêu: Ôn lại nội dung tiết trước và tạo hứng thú tìm hiểu nghề thủ công, hệ thống đê."
+              "1. KHỞI ĐỘNG (5 phút)\n- Mục tiêu: Ôn lại nội dung tiết trước và tạo hứng thú tìm hiểu nghề thủ công, hệ thống đê."
             ],
             [
               "- GV hỏi: Tiết trước, em đã biết những gì về dân cư và trồng lúa nước ở vùng Đồng bằng Bắc Bộ?",
@@ -3263,7 +3304,7 @@
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
-              "2. KHÁM PHÁ - Hoạt động 2b. Tìm hiểu về nghề thủ công truyền thống (18 phút)- Mục tiêu: Mô tả được một số nghề thủ công truyền thống ở vùng Đồng bằng Bắc Bộ.- Tích hợp mục tiêu NLS: Biết tìm kiếm, chọn lọc và chia sẻ thông tin số về nghề thủ công truyền thống đúng cách."
+              "2. KHÁM PHÁ - Hoạt động 2b. Tìm hiểu về nghề thủ công truyền thống (18 phút)\n- Mục tiêu: Mô tả được một số nghề thủ công truyền thống ở vùng Đồng bằng Bắc Bộ.\n- Tích hợp mục tiêu NLS: Biết tìm kiếm, chọn lọc và chia sẻ thông tin số về nghề thủ công truyền thống đúng cách."
             ],
             [
               "- GV yêu cầu HS đọc thông tin, quan sát hình 4 và hỏi: Kể tên một số nghề thủ công truyền thống ở vùng Đồng bằng Bắc Bộ.",
@@ -3286,7 +3327,7 @@
               "- HS thực hiện theo hướng dẫn:\n- HS nêu được thông tin cần tìm trước khi tra cứu.\n- HS biết chọn từ khóa phù hợp.\n- HS biết ưu tiên nguồn đáng tin cậy.\n- HS ghi lại ý chính bằng lời của mình và ghi nguồn.\n- HS không chia sẻ thông tin, hình ảnh sai sự thật.\n- HS thể hiện thái độ trân trọng nghề truyền thống."
             ],
             [
-              "3. KHÁM PHÁ - Hoạt động 3. Tìm hiểu hệ thống đê ở vùng Đồng bằng Bắc Bộ (12 phút)- Mục tiêu: Mô tả được hệ thống đê và nêu được vai trò của đê điều."
+              "3. KHÁM PHÁ - Hoạt động 3. Tìm hiểu hệ thống đê ở vùng Đồng bằng Bắc Bộ (12 phút)\n- Mục tiêu: Mô tả được hệ thống đê và nêu được vai trò của đê điều."
             ],
             [
               "- GV yêu cầu HS đọc thông tin, quan sát hình 5 và hỏi: Mô tả hệ thống đê sông Hồng.",
@@ -3305,7 +3346,7 @@
               "- HS lắng nghe, nêu thêm việc làm bảo vệ đê điều, nguồn nước."
             ],
             [
-              "4. LUYỆN TẬP (5 phút)- Mục tiêu: Củng cố kiến thức về nghề thủ công truyền thống và hệ thống đê."
+              "4. LUYỆN TẬP (5 phút)\n- Mục tiêu: Củng cố kiến thức về nghề thủ công truyền thống và hệ thống đê."
             ],
             [
               "- GV yêu cầu HS nêu 2 nghề thủ công truyền thống và 1 sản phẩm tiêu biểu của mỗi nghề.",
@@ -3316,7 +3357,7 @@
               "- HS nêu: ngăn lũ, bảo vệ đồng ruộng, nhà cửa, giúp trồng lúa nhiều vụ, tạo đường giao thông."
             ],
             [
-              "5. VẬN DỤNG (5 phút)- Mục tiêu: Liên hệ việc giữ gìn nghề truyền thống và bảo vệ công trình đê điều."
+              "5. VẬN DỤNG (5 phút)\n- Mục tiêu: Liên hệ việc giữ gìn nghề truyền thống và bảo vệ công trình đê điều."
             ],
             [
               "- GV hỏi: Em có thể làm gì để góp phần giữ gìn, giới thiệu nghề truyền thống của quê hương hoặc đất nước?",
@@ -3328,10 +3369,14 @@
             ]
           ]
         ],
-        "title": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 11 - Tiết 22 - Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3358,10 +3403,8 @@
           "- SGK, vở ghi, bút.",
           "- Hình ảnh hoặc thông tin đã sưu tầm về một sản phẩm thủ công truyền thống."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3370,7 +3413,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)- Mục tiêu: Tạo tâm thế học tập và ôn lại nội dung chính của bài."
+              "1. KHỞI ĐỘNG (5 phút)\n- Mục tiêu: Tạo tâm thế học tập và ôn lại nội dung chính của bài."
             ],
             [
               "- GV tổ chức trò chơi “Ai nhớ nhanh”: Kể nhanh một dân tộc, một nghề thủ công hoặc một vai trò của hệ thống đê ở vùng Đồng bằng Bắc Bộ.",
@@ -3381,7 +3424,7 @@
               "- HS lắng nghe, chuẩn bị thực hiện nhiệm vụ."
             ],
             [
-              "2. LUYỆN TẬP (20 phút)- Mục tiêu: Củng cố kiến thức về dân cư, hoạt động sản xuất truyền thống và hệ thống đê ở vùng Đồng bằng Bắc Bộ."
+              "2. LUYỆN TẬP (20 phút)\n- Mục tiêu: Củng cố kiến thức về dân cư, hoạt động sản xuất truyền thống và hệ thống đê ở vùng Đồng bằng Bắc Bộ."
             ],
             [
               "- GV yêu cầu HS đọc phần Luyện tập trong SGK: Chọn ý ở cột A sao cho phù hợp với ý ở cột B để tạo thành thông tin hoàn chỉnh và ghi kết quả vào vở.",
@@ -3408,7 +3451,7 @@
               "- HS lắng nghe, sửa bài nếu cần."
             ],
             [
-              "3. VẬN DỤNG (17 phút)- Mục tiêu: Sưu tầm, chia sẻ hình ảnh về một sản phẩm thủ công truyền thống ở vùng Đồng bằng Bắc Bộ.- Tích hợp mục tiêu NLS: Biết tìm kiếm, chọn lọc, ghi nguồn và chia sẻ thông tin số an toàn, có trách nhiệm."
+              "3. VẬN DỤNG (17 phút)\n- Mục tiêu: Sưu tầm, chia sẻ hình ảnh về một sản phẩm thủ công truyền thống ở vùng Đồng bằng Bắc Bộ.\n- Tích hợp mục tiêu NLS: Biết tìm kiếm, chọn lọc, ghi nguồn và chia sẻ thông tin số an toàn, có trách nhiệm."
             ],
             [
               "- GV yêu cầu HS đọc phần Vận dụng trong SGK: Sưu tầm hình ảnh về một sản phẩm thủ công truyền thống ở vùng Đồng bằng Bắc Bộ và chia sẻ với các bạn.",
@@ -3436,7 +3479,11 @@
             ]
           ]
         ],
-        "title": "Bài 9: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 3)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -3445,7 +3492,7 @@
     "sourceFile": "LSĐL TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 12 - Tiết 23 - Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3469,10 +3516,8 @@
           "- SGK, vở ghi, bút.",
           "- Tranh ảnh, tư liệu sưu tầm về làng quê, nhà ở, lễ hội ở vùng Đồng bằng Bắc Bộ nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3565,10 +3610,14 @@
             ]
           ]
         ],
-        "title": "Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 12 - Tiết 24 - Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3592,10 +3641,8 @@
           "- SGK, vở ghi, bút.",
           "- Tranh ảnh, tư liệu sưu tầm về làng quê, nhà ở, lễ hội ở vùng Đồng bằng Bắc Bộ nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3697,7 +3744,11 @@
             ]
           ]
         ],
-        "title": "Bài 10: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG ĐỒNG BẰNG BẮC BỘ (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -3706,7 +3757,7 @@
     "sourceFile": "LSĐL TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 1)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 13 - Tiết 25 - Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3735,10 +3786,8 @@
           "- SGK, vở ghi, bút.",
           "- Tranh ảnh, tư liệu sưu tầm về sông Hồng hoặc văn minh sông Hồng theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3839,10 +3888,14 @@
             ]
           ]
         ],
-        "title": "Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 2)",
+        "lessonTitle": "Lịch sử và địa lí - Tuần 13 - Tiết 26 - Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3870,10 +3923,8 @@
           "- SGK, vở ghi, bút.",
           "- Thông tin, tranh ảnh hoặc câu chuyện đã sưu tầm về đời sống người Việt cổ, phong tục tập quán còn lưu giữ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3970,7 +4021,11 @@
             ]
           ]
         ],
-        "title": "Bài 11: SÔNG HỒNG VÀ VĂN MINH SÔNG HỒNG (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -3979,7 +4034,7 @@
     "sourceFile": "LSĐL TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 12: THĂNG LONG – HÀ NỘI (Tiết 1)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 14 - Tiết 27 - Bài 12: THĂNG LONG – HÀ NỘI (Tiết 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4008,10 +4063,8 @@
           "- SGK, vở ghi, bút.",
           "- Tranh ảnh, tư liệu, câu chuyện lịch sử và dụng cụ học tập theo yêu cầu của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4100,10 +4153,14 @@
             ]
           ]
         ],
-        "title": "Bài 12: THĂNG LONG – HÀ NỘI (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 12: THĂNG LONG – HÀ NỘI (Tiết 2)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 14 - Tiết 28 - Bài 12: THĂNG LONG – HÀ NỘI (Tiết 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4132,10 +4189,8 @@
           "- SGK, vở ghi, bút.",
           "- Tranh ảnh, tư liệu, câu chuyện lịch sử và dụng cụ học tập theo yêu cầu của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4209,7 +4264,11 @@
             ]
           ]
         ],
-        "title": "Bài 12: THĂNG LONG – HÀ NỘI (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -4218,7 +4277,7 @@
     "sourceFile": "LSĐL TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 12: THĂNG LONG - HÀ NỘI (Tiết 3)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 15 - Tiết 29 - Bài 12: THĂNG LONG - HÀ NỘI (Tiết 3)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4246,10 +4305,8 @@
           "- SGK, vở ghi, bút.",
           "- Tranh ảnh, câu chuyện hoặc thông tin về Hà Nội theo yêu cầu của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4319,10 +4376,14 @@
             ]
           ]
         ],
-        "title": "Bài 12: THĂNG LONG - HÀ NỘI (Tiết 3)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 1)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 15 - Tiết 30 - Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4350,10 +4411,8 @@
           "- SGK, vở ghi, bút.",
           "- Tranh ảnh hoặc thông tin sưu tầm về khu di tích Văn Miếu - Quốc Tử Giám."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4423,7 +4482,11 @@
             ]
           ]
         ],
-        "title": "Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -4432,7 +4495,7 @@
     "sourceFile": "LSĐL TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 2)",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 16 - Tiết 31 - Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4460,10 +4523,8 @@
           "- SGK, vở ghi, bút.",
           "- Thông tin, tranh ảnh đã chuẩn bị về Văn Miếu - Quốc Tử Giám."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4525,10 +4586,14 @@
             ]
           ]
         ],
-        "title": "Bài 13: VĂN MIẾU - QUỐC TỬ GIÁM (Tiết 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "Bài 14: ÔN TẬP",
+        "lessonTitle": "Lịch sử và Địa lí - Tuần 16 - Tiết 32 - Bài 14: ÔN TẬP",
         "topic": "CHỦ ĐỀ 3: ĐỒNG BẰNG BẮC BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4541,7 +4606,8 @@
           "- Yêu nước: Yêu quê hương, đất nước; tự hào về các vùng miền và giá trị văn hoá truyền thống.",
           "- Chăm chỉ: Tích cực ôn tập, hoàn thành bài tập cá nhân và nhóm.",
           "- Trách nhiệm: Có ý thức bảo vệ môi trường, di tích lịch sử - văn hoá, danh lam thắng cảnh.",
-          "4. TÍCH HỢP"
+          "4. TÍCH HỢP",
+          "- Tích hợp NLS 5.2.CB1a: GV có thể dùng Quizizz/Google Forms hoặc câu hỏi do AI gợi ý đã được kiểm duyệt để tạo bài ôn tập; HS làm bài theo hướng dẫn, xem phản hồi, tự nhận xét mức độ nắm bài và điều chỉnh cách học."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4551,10 +4617,8 @@
           "- SGK, vở ghi, bút.",
           "- Ôn lại các bài đã học về địa phương em, Trung du và miền núi phía Bắc, Đồng bằng Bắc Bộ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "...............................................................................................................................",
-          "..............................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4631,7 +4695,11 @@
             ]
           ]
         ],
-        "title": "Bài 14: ÔN TẬP"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "...............................................................................................................................",
+          "..............................................................................................................................."
+        ]
       }
     ]
   },
@@ -4640,9 +4708,11 @@
     "sourceFile": "LSĐL TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tuần 17",
+        "lessonTitle": "Bài học Tiết 1 (Tuần 17)",
         "topic": "",
         "yccd": [
+          "ĐỀ KIỂM TRA",
+          "I. TRẮC NGHIỆM (4 điểm)",
           "Câu 1. Khoanh vào chữ cái trước ý trả lời đúng. (3 điểm - mỗi ý đúng 0,5 điểm)",
           "1. Bản đồ là gì?",
           "A. Một bức tranh trang trí về cảnh đẹp.",
@@ -4679,9 +4749,7 @@
           "□ b) Đồng bằng Bắc Bộ là vùng có dân cư thưa thớt nhất cả nước.",
           "□ c) Lễ giỗ Tổ Hùng Vương được tổ chức để tưởng nhớ công lao dựng nước của các Vua Hùng.",
           "□ d) Quốc Tử Giám là nơi chủ yếu dùng để buôn bán hàng hóa truyền thống.",
-          "Câu 2: a) Đ; b) S; c) Đ; d) S. Mỗi ý đúng 0,25 điểm."
-        ],
-        "dodung": [
+          "II. TỰ LUẬN (6 điểm)",
           "Câu 3. Hoàn thành bảng sau về vùng Trung du và miền núi phía Bắc, vùng Đồng bằng Bắc Bộ. (2 điểm)",
           "Câu 4. Kể tên hai thành tựu tiêu biểu của văn minh sông Hồng và mô tả một nét về đời sống của người Việt cổ. (1,5 điểm)",
           "................................................................................................................................................",
@@ -4698,6 +4766,9 @@
           "--- Hết ---",
           "ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM",
           "Môn: Lịch sử và Địa lí - Lớp 4 - Cuối học kì I",
+          "I. TRẮC NGHIỆM (4 điểm)",
+          "Câu 2: a) Đ; b) S; c) Đ; d) S. Mỗi ý đúng 0,25 điểm.",
+          "II. TỰ LUẬN (6 điểm)",
           "Câu 3. (2 điểm)",
           "- Mỗi ô nội dung đúng, phù hợp được 0,3 - 0,35 điểm; chấp nhận cách diễn đạt khác nhưng đúng ý.",
           "Câu 4. (1,5 điểm)",
@@ -4713,8 +4784,8 @@
           "- HS hoàn thành: Nắm được kiến thức cơ bản, còn cần diễn đạt đầy đủ hơn ở câu tự luận.",
           "- HS cần cố gắng: Cần ôn lại đặc điểm các vùng, văn minh sông Hồng, Thăng Long - Hà Nội, Văn Miếu - Quốc Tử Giám."
         ],
+        "dodung": [],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4723,7 +4794,7 @@
             ],
             [
               "Họ và tên: ......................................  Lớp: 4/...",
-              "Môn: Lịch sử và Địa lí - Lớp 4Thời gian: 40 phút"
+              "Môn: Lịch sử và Địa lí - Lớp 4\nThời gian: 40 phút"
             ]
           ],
           [
@@ -4807,7 +4878,7 @@
             ]
           ]
         ],
-        "title": "Bài học Tuần 17"
+        "dieuchinh": []
       }
     ]
   },
@@ -4819,7 +4890,6 @@
         "lessonTitle": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
-          "TUẦN 18 – TIẾT 1 (PPCT 35)BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 1)",
           "1. Năng lực đặc thù",
           "– Xác định được trên bản đồ hoặc lược đồ vị trí địa lí, một số địa danh tiêu biểu (ví dụ: dãy núi Trường Sơn, dãy núi Bạch Mã, đèo Hải Vân, Vườn quốc gia Phong Nha – Kẻ Bàng, một số cao nguyên,...) của vùng Bắc Trung Bộ và Nam Trung Bộ.",
           "2. Năng lực chung",
@@ -4832,26 +4902,14 @@
           "- Nhân ái: biết cảm thông với đồng bào miền Trung khi chịu ảnh hưởng của thiên tai.",
           "4. Tích hợp",
           "- Tích hợp QPAN: HS xác định vị trí vùng ven biển, quần đảo Hoàng Sa, Trường Sa; bồi dưỡng ý thức chủ quyền biển, đảo Việt Nam.",
-          "- Tích hợp AI (4.C2.1): HS hiểu được lòng cảm thông cần đi đôi với công nghệ: AI giúp dự báo chính xác, góp phần giảm thiệt hại cho đồng bào miền Trung.",
-          "– Quan sát lược đồ hoặc bản đồ, tranh ảnh, trình bày được một trong những đặc điểm thiên nhiên (ví dụ: địa hình, khí hậu, sông ngòi, đất, rừng,...) của vùng Bắc Trung Bộ và Nam Trung Bộ.",
-          "– Nêu được một số đặc điểm của khí hậu ở một địa điểm thông qua đọc số liệu về lượng mưa, nhiệt độ.",
-          "- Tự chủ và tự học: đọc thông tin, bảng số liệu và ghi lại ý chính theo nhiệm vụ.",
-          "- Giao tiếp và hợp tác: làm việc nhóm 4, khăn phủ bàn để phân tích địa hình, khí hậu.",
-          "- Giải quyết vấn đề và sáng tạo: liên hệ ảnh hưởng của mưa bão, hạn hán đến nguồn nước và đời sống.",
-          "- Chăm chỉ: tích cực quan sát, tìm tòi đặc điểm tự nhiên của vùng.",
-          "- Trách nhiệm: có ý thức sử dụng nước tiết kiệm, giữ gìn nguồn nước trong sinh hoạt.",
-          "- Yêu nước: thêm yêu cảnh quan thiên nhiên đa dạng của vùng Bắc Trung Bộ và Nam Trung Bộ.",
-          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS nhận biết tác động của mưa, bão, hạn hán đến nguồn nước; biết sử dụng nước tiết kiệm, không làm ô nhiễm nguồn nước và thực hiện việc làm phù hợp để bảo vệ nguồn nước."
+          "- Tích hợp AI (4.C2.1): HS hiểu được lòng cảm thông cần đi đôi với công nghệ: AI giúp dự báo chính xác, góp phần giảm thiệt hại cho đồng bào miền Trung."
         ],
         "dodung": [
           "- GV: Bản đồ/lược đồ địa hình vùng Bắc Trung Bộ và Nam Trung Bộ; tranh Hình 1, Hình 2 trong SGK; video/hình ảnh dự báo bão, lũ đã kiểm duyệt; phiếu học tập.",
-          "- HS: SGK, vở ghi, bút màu, bảng nhóm nhỏ.",
-          "- GV: Hình 2, Hình 3, Bảng 1 trong SGK; bảng phụ/phiếu khăn phủ bàn; tranh/video ngắn về mưa lũ, hạn hán miền Trung đã kiểm duyệt.",
-          "- HS: SGK, vở ghi, bút màu, phiếu học tập."
+          "- HS: SGK, vở ghi, bút màu, bảng nhóm nhỏ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "────────────────────────────────────────"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4863,7 +4921,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú, gợi lại hiểu biết ban đầu về dãy Trường Sơn và vùng Bắc Trung Bộ, Nam Trung Bộ."
             ],
             [
-              "- GV chiếu Hình 1 trong SGK, yêu cầu HS quan sát và trả lời: Dãy núi này nằm ở vùng nào của nước ta?\n\nHình 1. Một phần dãy Trường Sơn",
+              "- GV chiếu Hình 1 trong SGK, yêu cầu HS quan sát và trả lời: Dãy núi này nằm ở vùng nào của nước ta?\nHình 1. Một phần dãy Trường Sơn",
               "- HS quan sát Hình 1, nêu: Dãy Trường Sơn thuộc vùng Bắc Trung Bộ và Nam Trung Bộ."
             ],
             [
@@ -4882,7 +4940,7 @@
               "2. Khám phá (25 phút)\nHoạt động 1. Tìm hiểu vị trí địa lí của vùng Bắc Trung Bộ và Nam Trung Bộ (12 phút)\nMục tiêu: Xác định được trên bản đồ hoặc lược đồ vị trí địa lí, một số địa danh tiêu biểu của vùng Bắc Trung Bộ và Nam Trung Bộ."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 2, đọc chú giải lược đồ và thực hiện nhiệm vụ cá nhân trong 2 phút: xác định vị trí vùng Bắc Trung Bộ và Nam Trung Bộ trên lược đồ.\n\nHình 2. Lược đồ địa hình vùng Bắc Trung Bộ và Nam Trung Bộ",
+              "- GV yêu cầu HS quan sát Hình 2, đọc chú giải lược đồ và thực hiện nhiệm vụ cá nhân trong 2 phút: xác định vị trí vùng Bắc Trung Bộ và Nam Trung Bộ trên lược đồ.\nHình 2. Lược đồ địa hình vùng Bắc Trung Bộ và Nam Trung Bộ",
               "- HS quan sát Hình 2, dùng ngón tay hoặc bút chì chỉ vùng Bắc Trung Bộ và Nam Trung Bộ trên lược đồ trong SGK."
             ],
             [
@@ -4916,7 +4974,7 @@
               "Hoạt động 2a. Tìm hiểu về địa hình (13 phút)\nMục tiêu: Trình bày được một trong những đặc điểm thiên nhiên của vùng Bắc Trung Bộ và Nam Trung Bộ: địa hình."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 2, đọc chú giải lược đồ và thực hiện nhiệm vụ cá nhân trong 2 phút: xác định vị trí vùng Bắc Trung Bộ và Nam Trung Bộ trên lược đồ.\n\nHình 2. Lược đồ địa hình vùng Bắc Trung Bộ và Nam Trung Bộ",
+              "- GV yêu cầu HS quan sát Hình 2, đọc chú giải lược đồ và thực hiện nhiệm vụ cá nhân trong 2 phút: xác định vị trí vùng Bắc Trung Bộ và Nam Trung Bộ trên lược đồ.\nHình 2. Lược đồ địa hình vùng Bắc Trung Bộ và Nam Trung Bộ",
               "- HS quan sát Hình 2, dùng ngón tay hoặc bút chì chỉ vùng Bắc Trung Bộ và Nam Trung Bộ trên lược đồ trong SGK."
             ],
             [
@@ -4965,7 +5023,38 @@
               "- GV giao nhiệm vụ về nhà: quan sát bản đồ Việt Nam hoặc lược đồ SGK, chỉ lại vị trí vùng Bắc Trung Bộ và Nam Trung Bộ cho người thân nghe.",
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "────────────────────────────────────────",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "– Quan sát lược đồ hoặc bản đồ, tranh ảnh, trình bày được một trong những đặc điểm thiên nhiên (ví dụ: địa hình, khí hậu, sông ngòi, đất, rừng,...) của vùng Bắc Trung Bộ và Nam Trung Bộ.",
+          "– Nêu được một số đặc điểm của khí hậu ở một địa điểm thông qua đọc số liệu về lượng mưa, nhiệt độ.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: đọc thông tin, bảng số liệu và ghi lại ý chính theo nhiệm vụ.",
+          "- Giao tiếp và hợp tác: làm việc nhóm 4, khăn phủ bàn để phân tích địa hình, khí hậu.",
+          "- Giải quyết vấn đề và sáng tạo: liên hệ ảnh hưởng của mưa bão, hạn hán đến nguồn nước và đời sống.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực quan sát, tìm tòi đặc điểm tự nhiên của vùng.",
+          "- Trách nhiệm: có ý thức sử dụng nước tiết kiệm, giữ gìn nguồn nước trong sinh hoạt.",
+          "- Yêu nước: thêm yêu cảnh quan thiên nhiên đa dạng của vùng Bắc Trung Bộ và Nam Trung Bộ.",
+          "4. Tích hợp",
+          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS nhận biết tác động của mưa, bão, hạn hán đến nguồn nước; biết sử dụng nước tiết kiệm, không làm ô nhiễm nguồn nước và thực hiện việc làm phù hợp để bảo vệ nguồn nước."
+        ],
+        "dodung": [
+          "- GV: Hình 2, Hình 3, Bảng 1 trong SGK; bảng phụ/phiếu khăn phủ bàn; tranh/video ngắn về mưa lũ, hạn hán miền Trung đã kiểm duyệt.",
+          "- HS: SGK, vở ghi, bút màu, phiếu học tập."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
@@ -4993,7 +5082,7 @@
               "Hoạt động 2b. Tìm hiểu về khí hậu (12 phút)\nMục tiêu: Nêu được một số đặc điểm của khí hậu ở một địa điểm thông qua đọc số liệu về lượng mưa, nhiệt độ."
             ],
             [
-              "- GV chuyển nhiệm vụ: HS đọc mục Khí hậu, làm khăn phủ bàn nhóm 4 với các từ khóa: gió mùa, dãy Bạch Mã, gió Tây khô nóng, mùa mưa, mùa khô.\n\nThông tin SGK về khí hậu",
+              "- GV chuyển nhiệm vụ: HS đọc mục Khí hậu, làm khăn phủ bàn nhóm 4 với các từ khóa: gió mùa, dãy Bạch Mã, gió Tây khô nóng, mùa mưa, mùa khô.\nThông tin SGK về khí hậu",
               "- HS làm khăn phủ bàn: mỗi bạn ghi một ý, cả nhóm thống nhất đặc điểm khí hậu vào ô giữa."
             ],
             [
@@ -5063,7 +5152,9 @@
             ]
           ]
         ],
-        "title": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -5075,7 +5166,6 @@
         "lessonTitle": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
-          "TUẦN 19 – TIẾT 3 (PPCT 37)BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 3)",
           "1. Năng lực đặc thù",
           "– Quan sát lược đồ hoặc bản đồ, tranh ảnh, trình bày được một trong những đặc điểm thiên nhiên (ví dụ: địa hình, khí hậu, sông ngòi, đất, rừng,...) của vùng Bắc Trung Bộ và Nam Trung Bộ.",
           "– Nêu được vai trò của rừng đối với tự nhiên, hoạt động sản xuất và đời sống của người dân ở vùng Bắc Trung Bộ và Nam Trung Bộ.",
@@ -5088,26 +5178,14 @@
           "- Chăm chỉ: tích cực khai thác bản đồ, hình ảnh, bảng thông tin.",
           "- Yêu nước: trân trọng cảnh quan, tài nguyên thiên nhiên của vùng.",
           "4. Tích hợp",
-          "- Tích hợp NLS 1.1.CB1a: HS đọc bản đồ/lược đồ để xác định sông ngòi, đất, rừng, biển đảo của vùng.",
-          "– Nêu được một số tác động của thiên nhiên đối với hoạt động sản xuất và đời sống của người dân ở vùng Bắc Trung Bộ và Nam Trung Bộ.",
-          "– Đề xuất được ở mức độ đơn giản một số biện pháp bảo vệ thiên nhiên và phòng, chống thiên tai.",
-          "- Tự chủ và tự học: đọc thông tin, quan sát tranh ảnh, hoàn thành phiếu học tập.",
-          "- Giao tiếp và hợp tác: làm việc nhóm 4 theo kĩ thuật khăn phủ bàn để phân loại tác động tích cực, tiêu cực.",
-          "- Giải quyết vấn đề và sáng tạo: đề xuất biện pháp phù hợp để bảo vệ thiên nhiên, giảm rủi ro thiên tai.",
-          "- Trách nhiệm: có ý thức giữ rừng, giữ nguồn nước, bảo vệ bờ biển và tài nguyên thiên nhiên.",
-          "- Nhân ái: cảm thông, sẵn sàng chia sẻ với người dân gặp khó khăn do thiên tai.",
-          "- Chăm chỉ: tích cực tham gia thảo luận, hoàn thành phiếu học tập.",
-          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS nêu việc làm giữ gìn rừng, nguồn nước, bờ biển; không khai thác tài nguyên bừa bãi; biết bảo vệ nguồn nước trước tác động của bão, lũ, hạn hán."
+          "- Tích hợp NLS 1.1.CB1a: HS đọc bản đồ/lược đồ để xác định sông ngòi, đất, rừng, biển đảo của vùng."
         ],
         "dodung": [
           "- GV: Hình 2, Hình 4, Hình 5, Hình 6 trong SGK; lược đồ/bản đồ số được trình chiếu; phiếu học tập.",
-          "- HS: SGK, vở ghi, bút màu; thiết bị học tập số dùng chung theo hướng dẫn của GV nếu có.",
-          "- GV: Hình 7, Hình 8, Hình 9, Hình 10 trong SGK; phiếu học tập bảng 3 cột; một số hình ảnh thiên tai miền Trung đã kiểm duyệt.",
-          "- HS: SGK, vở ghi, bút màu, bảng nhóm."
+          "- HS: SGK, vở ghi, bút màu; thiết bị học tập số dùng chung theo hướng dẫn của GV nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "────────────────────────────────────────"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5137,7 +5215,7 @@
               "Hoạt động 2d. Tìm hiểu về đất\nMục tiêu: Trình bày được đặc điểm đất của vùng Bắc Trung Bộ và Nam Trung Bộ."
             ],
             [
-              "- GV yêu cầu HS đọc mục Đất, làm việc nhóm 4: lập bảng so sánh đất ở đồng bằng ven biển và đất ở khu vực đồi núi, cao nguyên.\n\nThông tin SGK về sông ngòi và đất",
+              "- GV yêu cầu HS đọc mục Đất, làm việc nhóm 4: lập bảng so sánh đất ở đồng bằng ven biển và đất ở khu vực đồi núi, cao nguyên.\nThông tin SGK về sông ngòi và đất",
               "- HS làm nhóm 4, lập bảng: đất phù sa ở đồng bằng ven biển; đất phe-ra-lít ở đồi núi và cao nguyên."
             ],
             [
@@ -5148,7 +5226,7 @@
               "Hoạt động 2e. Tìm hiểu về rừng\nMục tiêu: Nêu được vai trò của rừng đối với tự nhiên, hoạt động sản xuất và đời sống của người dân trong vùng."
             ],
             [
-              "- GV chia lớp thành 3 nhóm lớn theo kĩ thuật “mảnh ghép”: nhóm A quan sát Hình 4, nhóm B quan sát Hình 5, nhóm C quan sát Hình 6; mỗi nhóm nêu tên kiểu rừng, đặc điểm nổi bật và vai trò của rừng.\n\nHình 4, 5, 6. Một số kiểu rừng trong vùng",
+              "- GV chia lớp thành 3 nhóm lớn theo kĩ thuật “mảnh ghép”: nhóm A quan sát Hình 4, nhóm B quan sát Hình 5, nhóm C quan sát Hình 6; mỗi nhóm nêu tên kiểu rừng, đặc điểm nổi bật và vai trò của rừng.\nHình 4, 5, 6. Một số kiểu rừng trong vùng",
               "- HS làm mảnh ghép: Hình 4 rừng rậm nhiệt đới; Hình 5 rừng khộp vào mùa khô; Hình 6 rừng ngập mặn."
             ],
             [
@@ -5189,7 +5267,38 @@
               "- GV dặn dò: về nhà quan sát tin tức/hình ảnh về thiên tai ở miền Trung từ nguồn tin cậy để chuẩn bị tiết học sau.",
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "────────────────────────────────────────",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "– Nêu được một số tác động của thiên nhiên đối với hoạt động sản xuất và đời sống của người dân ở vùng Bắc Trung Bộ và Nam Trung Bộ.",
+          "– Đề xuất được ở mức độ đơn giản một số biện pháp bảo vệ thiên nhiên và phòng, chống thiên tai.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: đọc thông tin, quan sát tranh ảnh, hoàn thành phiếu học tập.",
+          "- Giao tiếp và hợp tác: làm việc nhóm 4 theo kĩ thuật khăn phủ bàn để phân loại tác động tích cực, tiêu cực.",
+          "- Giải quyết vấn đề và sáng tạo: đề xuất biện pháp phù hợp để bảo vệ thiên nhiên, giảm rủi ro thiên tai.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: có ý thức giữ rừng, giữ nguồn nước, bảo vệ bờ biển và tài nguyên thiên nhiên.",
+          "- Nhân ái: cảm thông, sẵn sàng chia sẻ với người dân gặp khó khăn do thiên tai.",
+          "- Chăm chỉ: tích cực tham gia thảo luận, hoàn thành phiếu học tập.",
+          "4. Tích hợp",
+          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS nêu việc làm giữ gìn rừng, nguồn nước, bờ biển; không khai thác tài nguyên bừa bãi; biết bảo vệ nguồn nước trước tác động của bão, lũ, hạn hán."
+        ],
+        "dodung": [
+          "- GV: Hình 7, Hình 8, Hình 9, Hình 10 trong SGK; phiếu học tập bảng 3 cột; một số hình ảnh thiên tai miền Trung đã kiểm duyệt.",
+          "- HS: SGK, vở ghi, bút màu, bảng nhóm."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
@@ -5214,7 +5323,7 @@
               "2. Khám phá (18 phút)\nHoạt động 3. Tìm hiểu tác động của thiên nhiên đối với sản xuất và đời sống\nMục tiêu: Nêu được một số tác động của thiên nhiên đối với hoạt động sản xuất và đời sống của người dân ở vùng Bắc Trung Bộ và Nam Trung Bộ."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 7, 8, 9, 10 và đọc thông tin SGK; làm việc cá nhân 2 phút để xác định hoạt động/hiện tượng trong từng hình.\n\nThông tin và hình 7–10 trong SGK",
+              "- GV yêu cầu HS quan sát Hình 7, 8, 9, 10 và đọc thông tin SGK; làm việc cá nhân 2 phút để xác định hoạt động/hiện tượng trong từng hình.\nThông tin và hình 7–10 trong SGK",
               "- HS quan sát hình, xác định: Hình 7 bờ biển Cù Lao Chàm; Hình 8 cánh đồng điện gió; Hình 9 ngập lụt do mưa bão; Hình 10 trồng rừng chắn cát bay."
             ],
             [
@@ -5280,7 +5389,9 @@
             ]
           ]
         ],
-        "title": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -5292,7 +5403,6 @@
         "lessonTitle": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
-          "TUẦN 20 – TIẾT 5 (PPCT 39)BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 5)",
           "1. Năng lực đặc thù",
           "– Quan sát lược đồ hoặc bản đồ, tranh ảnh, trình bày được một trong những đặc điểm thiên nhiên (ví dụ: địa hình, khí hậu, sông ngòi, đất, rừng,...) của vùng Bắc Trung Bộ và Nam Trung Bộ.",
           "– Nêu được một số đặc điểm của khí hậu ở một địa điểm thông qua đọc số liệu về lượng mưa, nhiệt độ.",
@@ -5306,25 +5416,14 @@
           "- Nhân ái: biết cảm thông, chia sẻ với người dân gặp khó khăn do bão, lũ.",
           "- Chăm chỉ: tích cực luyện tập, đọc bảng số liệu chính xác.",
           "4. Tích hợp",
-          "- Tích hợp QPAN: HS nhận biết phòng, chống thiên tai góp phần bảo vệ đời sống nhân dân; biết chấp hành hướng dẫn của người lớn, lực lượng chức năng và chia sẻ phù hợp với đồng bào vùng bão lũ.",
-          "– Thể hiện được thái độ cảm thông và sẵn sàng có hành động chia sẻ với người dân gặp thiên tai.",
-          "- Tự chủ và tự học: lựa chọn nhiệm vụ vận dụng phù hợp, hoàn thành sản phẩm cá nhân.",
-          "- Giao tiếp và hợp tác: trao đổi nhóm 4, trình bày và nhận xét sản phẩm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: phân biệt thông tin đáng tin cậy, lựa chọn cách chia sẻ phù hợp khi gặp thông tin về thiên tai.",
-          "- Nhân ái: cảm thông, chia sẻ với người dân vùng thiên tai bằng việc làm phù hợp.",
-          "- Trách nhiệm: sử dụng thông tin, hình ảnh, video về thiên tai đúng nguồn, không lan truyền tin sai.",
-          "- Chăm chỉ: hoàn thiện sản phẩm vận dụng theo yêu cầu.",
-          "- Tích hợp NLS 1.2.CB1a: GV dùng hình ảnh/video/AI mô phỏng thiên tai đã kiểm duyệt; HS phân biệt thông tin đáng tin cậy và thông tin cần kiểm chứng."
+          "- Tích hợp QPAN: HS nhận biết phòng, chống thiên tai góp phần bảo vệ đời sống nhân dân; biết chấp hành hướng dẫn của người lớn, lực lượng chức năng và chia sẻ phù hợp với đồng bào vùng bão lũ."
         ],
         "dodung": [
           "- GV: Bài tập Luyện tập 1, Luyện tập 2 trong SGK; bảng phụ đáp án; phiếu học tập; thẻ A, B, C, D.",
-          "- HS: SGK, vở ghi, bút chì, bút màu.",
-          "- GV: Hình ảnh/video/AI mô phỏng thiên tai đã kiểm duyệt và ghi rõ nguồn; bài Vận dụng trong SGK; phiếu kiểm tra thông tin đáng tin cậy.",
-          "- HS: SGK, vở ghi, tranh ảnh sưu tầm nếu có, bút màu."
+          "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "────────────────────────────────────────"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5347,7 +5446,7 @@
               "2. LUYỆN TẬP (25 phút)\nHoạt động 1: Luyện tập 1 - Ghép ý ở cột A với ý ở cột B (12 phút)\nMục tiêu: Ghép được ý ở cột A với ý ở cột B để củng cố đặc điểm tự nhiên của vùng."
             ],
             [
-              "- Bài tập 1: GV yêu cầu HS đọc đề: Chọn ý ở cột A sao cho phù hợp với ý ở cột B và ghi kết quả vào vở.\n\nLuyện tập 1 trong SGK",
+              "- Bài tập 1: GV yêu cầu HS đọc đề: Chọn ý ở cột A sao cho phù hợp với ý ở cột B và ghi kết quả vào vở.\nLuyện tập 1 trong SGK",
               "- HS đọc đề, xác định yêu cầu: ghép cột A với cột B."
             ],
             [
@@ -5370,7 +5469,7 @@
               "Hoạt động 2: Luyện tập 2 - Đọc bảng số liệu nhiệt độ, lượng mưa ở Buôn Ma Thuột (13 phút)\nMục tiêu: Đọc bảng số liệu để xác định nhiệt độ, lượng mưa và mùa mưa, mùa khô ở Buôn Ma Thuột."
             ],
             [
-              "- Bài tập 2: GV yêu cầu HS đọc bảng 2 “Nhiệt độ và lượng mưa trung bình tháng ở Buôn Ma Thuột, tỉnh Đắk Lắk”.\n\nBảng 2. Nhiệt độ và lượng mưa trung bình tháng ở Buôn Ma Thuột",
+              "- Bài tập 2: GV yêu cầu HS đọc bảng 2 “Nhiệt độ và lượng mưa trung bình tháng ở Buôn Ma Thuột, tỉnh Đắk Lắk”.\nBảng 2. Nhiệt độ và lượng mưa trung bình tháng ở Buôn Ma Thuột",
               "- HS đọc tên bảng và quan sát các dòng số liệu."
             ],
             [
@@ -5408,7 +5507,37 @@
               "- GV dặn dò: ôn lại toàn bộ bài 15, chuẩn bị tiết vận dụng và phân biệt thông tin đáng tin cậy về thiên tai.",
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "────────────────────────────────────────",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "– Thể hiện được thái độ cảm thông và sẵn sàng có hành động chia sẻ với người dân gặp thiên tai.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: lựa chọn nhiệm vụ vận dụng phù hợp, hoàn thành sản phẩm cá nhân.",
+          "- Giao tiếp và hợp tác: trao đổi nhóm 4, trình bày và nhận xét sản phẩm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: phân biệt thông tin đáng tin cậy, lựa chọn cách chia sẻ phù hợp khi gặp thông tin về thiên tai.",
+          "3. Phẩm chất",
+          "- Nhân ái: cảm thông, chia sẻ với người dân vùng thiên tai bằng việc làm phù hợp.",
+          "- Trách nhiệm: sử dụng thông tin, hình ảnh, video về thiên tai đúng nguồn, không lan truyền tin sai.",
+          "- Chăm chỉ: hoàn thiện sản phẩm vận dụng theo yêu cầu.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 1.2.CB1a: GV dùng hình ảnh/video/AI mô phỏng thiên tai đã kiểm duyệt; HS phân biệt thông tin đáng tin cậy và thông tin cần kiểm chứng."
+        ],
+        "dodung": [
+          "- GV: Hình ảnh/video/AI mô phỏng thiên tai đã kiểm duyệt và ghi rõ nguồn; bài Vận dụng trong SGK; phiếu kiểm tra thông tin đáng tin cậy.",
+          "- HS: SGK, vở ghi, tranh ảnh sưu tầm nếu có, bút màu."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
@@ -5485,7 +5614,7 @@
               "Hoạt động 3: Hoàn thành nhiệm vụ vận dụng trong SGK (11 phút)\nMục tiêu: Hoàn thành một trong hai nhiệm vụ vận dụng trong SGK và chia sẻ sản phẩm."
             ],
             [
-              "- GV yêu cầu HS đọc phần Vận dụng trong SGK và chọn một trong hai nhiệm vụ: Nhiệm vụ 1 nêu việc em có thể làm để chia sẻ khó khăn với các bạn ở vùng Bắc Trung Bộ và Nam Trung Bộ khi có thiên tai; Nhiệm vụ 2 sưu tầm hình ảnh và viết lời giới thiệu ngắn 3 – 4 câu về một cảnh đẹp thiên nhiên ở vùng Bắc Trung Bộ và Nam Trung Bộ.\n\nVận dụng trong SGK",
+              "- GV yêu cầu HS đọc phần Vận dụng trong SGK và chọn một trong hai nhiệm vụ: Nhiệm vụ 1 nêu việc em có thể làm để chia sẻ khó khăn với các bạn ở vùng Bắc Trung Bộ và Nam Trung Bộ khi có thiên tai; Nhiệm vụ 2 sưu tầm hình ảnh và viết lời giới thiệu ngắn 3 – 4 câu về một cảnh đẹp thiên nhiên ở vùng Bắc Trung Bộ và Nam Trung Bộ.\nVận dụng trong SGK",
               "- HS đọc phần Vận dụng, chọn nhiệm vụ phù hợp với khả năng."
             ],
             [
@@ -5506,7 +5635,9 @@
             ]
           ]
         ],
-        "title": "BÀI 15: THIÊN NHIÊN VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -5515,7 +5646,7 @@
     "sourceFile": "LSĐL TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 1)",
+        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5534,8 +5665,9 @@
           "- GV: Hình 1, Hình 2, Hình 3, Hình 4, Hình 5 trong SGK; bản đồ dân cư vùng Bắc Trung Bộ và Nam Trung Bộ; phiếu học tập; thẻ đúng/sai.",
           "- HS: SGK, vở ghi, bút màu, bảng nhóm nhỏ."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -5546,7 +5678,7 @@
               "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: Tạo hứng thú, nhận biết ban đầu về hoạt động sản xuất ở vùng biển và vùng đồi núi, cao nguyên."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 1, Hình 2 trong SGK và nêu: hình nào thể hiện hoạt động kinh tế của người dân vùng biển, hình nào thể hiện hoạt động kinh tế của người dân khu vực đồi núi và cao nguyên?\n\nHình 1, 2. Hoạt động kinh tế ở vùng biển và khu vực đồi núi, cao nguyên",
+              "- GV yêu cầu HS quan sát Hình 1, Hình 2 trong SGK và nêu: hình nào thể hiện hoạt động kinh tế của người dân vùng biển, hình nào thể hiện hoạt động kinh tế của người dân khu vực đồi núi và cao nguyên?\nHình 1, 2. Hoạt động kinh tế ở vùng biển và khu vực đồi núi, cao nguyên",
               "- HS quan sát, trả lời: Hình 1 là thuyền đánh bắt cá trên biển, thể hiện hoạt động kinh tế biển; Hình 2 là thu hoạch cà phê, thể hiện hoạt động trồng cây công nghiệp ở khu vực đồi núi, cao nguyên."
             ],
             [
@@ -5557,7 +5689,7 @@
               "2. KHÁM PHÁ (23 phút)\nMục tiêu: Kể được tên một số dân tộc ở Bắc Trung Bộ và Nam Trung Bộ; biết tôn trọng sự đa dạng dân cư trong vùng."
             ],
             [
-              "- Hoạt động 1: Tìm hiểu về dân cư.\n- GV yêu cầu HS đọc thông tin mục 1, quan sát Hình 3, 4, 5 trong SGK và thực hiện nhiệm vụ cá nhân: kể tên một số dân tộc ở vùng Bắc Trung Bộ và Nam Trung Bộ.\n\nHình 3, 4, 5. Một số dân tộc ở vùng Bắc Trung Bộ và Nam Trung Bộ",
+              "- Hoạt động 1: Tìm hiểu về dân cư.\n- GV yêu cầu HS đọc thông tin mục 1, quan sát Hình 3, 4, 5 trong SGK và thực hiện nhiệm vụ cá nhân: kể tên một số dân tộc ở vùng Bắc Trung Bộ và Nam Trung Bộ.\nHình 3, 4, 5. Một số dân tộc ở vùng Bắc Trung Bộ và Nam Trung Bộ",
               "- HS đọc thông tin, quan sát tranh và nêu: một số dân tộc ở vùng Bắc Trung Bộ và Nam Trung Bộ là Kinh, Chăm, Thái, Mường, Gia Rai, Ê Đê, Ba Na,..."
             ],
             [
@@ -5588,10 +5720,12 @@
             ]
           ]
         ],
-        "title": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 2)",
+        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5611,8 +5745,9 @@
           "- GV: Bảng 1, Hình 6, Hình 7, Hình 8, Hình 9 trong SGK; bản đồ một số hoạt động kinh tế ở vùng Bắc Trung Bộ và Nam Trung Bộ; phiếu “Kết nối kinh tế biển”.",
           "- HS: SGK, vở ghi, bút màu, bảng nhóm."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -5630,15 +5765,15 @@
               "2. KHÁM PHÁ (22 phút)\nMục tiêu: Nêu được một số hoạt động kinh tế biển và giải thích được vì sao vùng thuận lợi phát triển kinh tế biển."
             ],
             [
-              "- Hoạt động 2: Tìm hiểu một số hoạt động kinh tế.a) Tìm hiểu về hoạt động kinh tế biển.\n- GV yêu cầu HS đọc thông tin, quan sát Bảng 1 và các Hình 6, 7, 8, 9 trong SGK để thực hiện hai nhiệm vụ: kể tên một số hoạt động kinh tế biển, một số bãi biển/cảng biển; giải thích vì sao vùng thuận lợi phát triển kinh tế biển.\n\nBảng 1, Hình 6, 7, 8. Một số hoạt động kinh tế biển",
+              "- Hoạt động 2: Tìm hiểu một số hoạt động kinh tế.\na) Tìm hiểu về hoạt động kinh tế biển.\n- GV yêu cầu HS đọc thông tin, quan sát Bảng 1 và các Hình 6, 7, 8, 9 trong SGK để thực hiện hai nhiệm vụ: kể tên một số hoạt động kinh tế biển, một số bãi biển/cảng biển; giải thích vì sao vùng thuận lợi phát triển kinh tế biển.\nBảng 1, Hình 6, 7, 8. Một số hoạt động kinh tế biển",
               "- HS đọc thông tin, quan sát bảng và hình; ghi nhanh các hoạt động kinh tế biển: làm muối, đánh bắt và nuôi trồng hải sản, du lịch biển đảo, giao thông đường biển."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 9, xác định trên bản đồ một số địa danh phát triển kinh tế biển như Sa Huỳnh, Cà Ná, Sầm Sơn, Lăng Cô, Nha Trang, Cửa Lò, Chân Mây, Đà Nẵng, Dung Quất.\n\nHình 9. Bản đồ một số hoạt động kinh tế ở vùng Bắc Trung Bộ và Nam Trung Bộ",
+              "- GV yêu cầu HS quan sát Hình 9, xác định trên bản đồ một số địa danh phát triển kinh tế biển như Sa Huỳnh, Cà Ná, Sầm Sơn, Lăng Cô, Nha Trang, Cửa Lò, Chân Mây, Đà Nẵng, Dung Quất.\nHình 9. Bản đồ một số hoạt động kinh tế ở vùng Bắc Trung Bộ và Nam Trung Bộ",
               "- HS quan sát bản đồ, chỉ được một số bãi biển, cảng biển, vùng làm muối hoặc nuôi trồng hải sản trên bản đồ."
             ],
             [
-              "- GV giao nhiệm vụ nhóm 4: hoàn thành phiếu “Kết nối kinh tế biển” bằng cách nối điều kiện thuận lợi với hoạt động kinh tế và địa danh tiêu biểu.\n\nPhiếu học tập: Kết nối kinh tế biển",
+              "- GV giao nhiệm vụ nhóm 4: hoàn thành phiếu “Kết nối kinh tế biển” bằng cách nối điều kiện thuận lợi với hoạt động kinh tế và địa danh tiêu biểu.\nPhiếu học tập: Kết nối kinh tế biển",
               "- HS làm nhóm 4, thảo luận và nối: nhiều bãi tắm, vịnh biển, đảo có phong cảnh đẹp – du lịch biển đảo – Sầm Sơn, Lăng Cô, Nha Trang, Mũi Né; nước biển có độ mặn cao, nhiều nắng – làm muối – Sa Huỳnh, Cà Ná; vùng biển rộng, nhiều hải sản – đánh bắt và nuôi trồng hải sản – Thanh Hóa, Nghệ An, Đà Nẵng, Quảng Ngãi, Gia Lai; vùng biển rộng và dài, nhiều vịnh kín gió – giao thông đường biển – Cửa Lò, Chân Mây, Đà Nẵng, Dung Quất."
             ],
             [
@@ -5665,7 +5800,9 @@
             ]
           ]
         ],
-        "title": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................................................................................"
+        ]
       }
     ]
   },
@@ -5674,7 +5811,7 @@
     "sourceFile": "LSĐL TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 3)",
+        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 3)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5693,8 +5830,9 @@
           "- GV: Hình 9, Hình 10, Hình 11 trong SGK; bản đồ một số hoạt động kinh tế; phiếu học tập về trồng cây công nghiệp, chăn nuôi gia súc; bảng nhóm.",
           "- HS: SGK, vở ghi, bút màu, bảng nhóm nhỏ."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -5712,7 +5850,7 @@
               "2. KHÁM PHÁ (23 phút)\nMục tiêu: Nêu được hoạt động trồng cây công nghiệp, chăn nuôi gia súc và xác định được một số địa phương, điều kiện thuận lợi trên bản đồ."
             ],
             [
-              "- Hoạt động 2: Tìm hiểu một số hoạt động kinh tế.b) Tìm hiểu về hoạt động trồng cây công nghiệp.\n- GV yêu cầu HS quan sát Hình 9, Hình 10, Hình 11 và đọc thông tin trong SGK; nêu tên một số cây công nghiệp được trồng nhiều ở vùng Bắc Trung Bộ và Nam Trung Bộ.\n\nHình 10, 11. Đồi chè và vườn hồ tiêu",
+              "- Hoạt động 2: Tìm hiểu một số hoạt động kinh tế.\nb) Tìm hiểu về hoạt động trồng cây công nghiệp.\n- GV yêu cầu HS quan sát Hình 9, Hình 10, Hình 11 và đọc thông tin trong SGK; nêu tên một số cây công nghiệp được trồng nhiều ở vùng Bắc Trung Bộ và Nam Trung Bộ.\nHình 10, 11. Đồi chè và vườn hồ tiêu",
               "- HS quan sát, đọc thông tin và nêu: cây công nghiệp được trồng nhiều gồm cà phê, điều, hồ tiêu, chè, cao su; ngoài ra còn có mía, lạc,..."
             ],
             [
@@ -5728,7 +5866,7 @@
               "- HS ghi ý chính vào vở.\n- HS lắng nghe, chuẩn bị tìm hiểu hoạt động chăn nuôi gia súc."
             ],
             [
-              "- c) Tìm hiểu về hoạt động chăn nuôi gia súc.\n- GV yêu cầu HS đọc thông tin, quan sát Hình 9 và hoàn thành phiếu: loại gia súc – các tỉnh nuôi nhiều – điều kiện phát triển.\n\nNhiệm vụ tìm hiểu hoạt động chăn nuôi gia súc\n\nPhiếu học tập về chăn nuôi gia súc",
+              "- c) Tìm hiểu về hoạt động chăn nuôi gia súc.\n- GV yêu cầu HS đọc thông tin, quan sát Hình 9 và hoàn thành phiếu: loại gia súc – các tỉnh nuôi nhiều – điều kiện phát triển.\nNhiệm vụ tìm hiểu hoạt động chăn nuôi gia súc\nPhiếu học tập về chăn nuôi gia súc",
               "- HS đọc thông tin, quan sát bản đồ và hoàn thành phiếu: bò nuôi nhiều ở Nghệ An, Gia Lai; lợn nuôi nhiều ở Thanh Hóa, Đắk Lắk; điều kiện phát triển là nguồn thức ăn dồi dào, khí hậu thuận lợi, khoa học – công nghệ phát triển."
             ],
             [
@@ -5751,10 +5889,12 @@
             ]
           ]
         ],
-        "title": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 3)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 4)",
+        "lessonTitle": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 4)",
         "topic": "CHỦ ĐỀ 4. BẮC TRUNG BỘ VÀ NAM TRUNG BỘ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5773,8 +5913,9 @@
           "- GV: Hình 9, Hình 12 trong SGK; bài Luyện tập, Vận dụng trong SGK; sơ đồ tư duy mẫu; phiếu đúng/sai; bảng nhóm.",
           "- HS: SGK, vở ghi, bút màu, tranh ảnh sưu tầm nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -5792,7 +5933,7 @@
               "2. KHÁM PHÁ (12 phút)\nMục tiêu: Nêu được hoạt động phát triển thủy điện và hiểu cần khai thác tài nguyên gắn với bảo vệ môi trường."
             ],
             [
-              "- Hoạt động 2: Tìm hiểu một số hoạt động kinh tế.d) Tìm hiểu về hoạt động phát triển thủy điện.\n- GV yêu cầu HS đọc thông tin, quan sát Hình 9, Hình 12 trong SGK; kể tên và xác định trên bản đồ một số nhà máy thủy điện ở vùng Bắc Trung Bộ và Nam Trung Bộ.\n\nHình 12. Nhà máy thủy điện Ia Ly",
+              "- Hoạt động 2: Tìm hiểu một số hoạt động kinh tế.\nd) Tìm hiểu về hoạt động phát triển thủy điện.\n- GV yêu cầu HS đọc thông tin, quan sát Hình 9, Hình 12 trong SGK; kể tên và xác định trên bản đồ một số nhà máy thủy điện ở vùng Bắc Trung Bộ và Nam Trung Bộ.\nHình 12. Nhà máy thủy điện Ia Ly",
               "- HS đọc thông tin, quan sát hình và bản đồ; nêu: vùng có nhiều tiềm năng phát triển thủy điện, nhiều nhà máy thủy điện đã được xây dựng, cung cấp điện cho sinh hoạt và sản xuất."
             ],
             [
@@ -5811,11 +5952,11 @@
               "3. LUYỆN TẬP (10 phút)\nMục tiêu: Hệ thống hóa một số hoạt động kinh tế và xác định câu đúng, sai."
             ],
             [
-              "- Bài tập 1: GV yêu cầu HS vẽ sơ đồ tư duy thể hiện một số hoạt động kinh tế biển ở vùng Bắc Trung Bộ và Nam Trung Bộ; có thể tham khảo sơ đồ gợi ý.\n\nGợi ý sơ đồ tư duy hoạt động kinh tế biển",
+              "- Bài tập 1: GV yêu cầu HS vẽ sơ đồ tư duy thể hiện một số hoạt động kinh tế biển ở vùng Bắc Trung Bộ và Nam Trung Bộ; có thể tham khảo sơ đồ gợi ý.\nGợi ý sơ đồ tư duy hoạt động kinh tế biển",
               "- HS vẽ sơ đồ tư duy gồm các nhánh: làm muối; đánh bắt và nuôi trồng hải sản; du lịch biển đảo; giao thông đường biển; ghi thêm điều kiện thuận lợi hoặc địa danh tiêu biểu."
             ],
             [
-              "- Bài tập 2: GV yêu cầu HS đọc các câu trong SGK và xác định đúng/sai: a) Bắc Trung Bộ và Nam Trung Bộ là vùng trồng cây lương thực lớn hàng đầu cả nước; b) vùng là vùng chăn nuôi lợn và bò lớn của cả nước; c) sông ngòi có độ dốc lớn nên thuận lợi phát triển giao thông đường thủy; d) vùng phát triển mạnh thủy điện, điện gió và điện mặt trời.\n\nLuyện tập và Vận dụng trong SGK",
+              "- Bài tập 2: GV yêu cầu HS đọc các câu trong SGK và xác định đúng/sai: a) Bắc Trung Bộ và Nam Trung Bộ là vùng trồng cây lương thực lớn hàng đầu cả nước; b) vùng là vùng chăn nuôi lợn và bò lớn của cả nước; c) sông ngòi có độ dốc lớn nên thuận lợi phát triển giao thông đường thủy; d) vùng phát triển mạnh thủy điện, điện gió và điện mặt trời.\nLuyện tập và Vận dụng trong SGK",
               "- HS làm cá nhân, sau đó trao đổi nhóm 2. Dự kiến đáp án: a sai; b đúng; c sai; d đúng."
             ],
             [
@@ -5835,7 +5976,9 @@
             ]
           ]
         ],
-        "title": "BÀI 16: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ (TIẾT 4)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................................................................................"
+        ]
       }
     ]
   },
@@ -5844,7 +5987,7 @@
     "sourceFile": "LSĐL TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1: Di sản thế giới",
+        "lessonTitle": "BÀI 17: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - Tiết 1: Di sản thế giới",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5868,11 +6011,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu, tranh ảnh/tư liệu đã sưu tầm theo hướng dẫn của giáo viên."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5974,10 +6114,15 @@
             ]
           ]
         ],
-        "title": "Tiết 1: Di sản thế giới"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "Tiết 2: Lễ hội",
+        "lessonTitle": "BÀI 17: MỘT SỐ NÉT VĂN HOÁ Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - Tiết 2: Lễ hội",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6002,11 +6147,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu, tranh ảnh/tư liệu đã sưu tầm theo hướng dẫn của giáo viên."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6096,7 +6238,12 @@
             ]
           ]
         ],
-        "title": "Tiết 2: Lễ hội"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -6105,7 +6252,7 @@
     "sourceFile": "LSĐL TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 3",
+        "lessonTitle": "BÀI 17. MỘT SỐ NÉT VĂN HOÁ Ở VÙNG BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - Tiết 3",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6129,10 +6276,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu; tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6141,7 +6286,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)Mục tiêu: Tạo tâm thế học tập, giúp HS nhớ lại một số di sản và lễ hội đã học để kết nối vào nội dung nhà ở, nhà sinh hoạt cộng đồng."
+              "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: Tạo tâm thế học tập, giúp HS nhớ lại một số di sản và lễ hội đã học để kết nối vào nội dung nhà ở, nhà sinh hoạt cộng đồng."
             ],
             [
               "- GV tổ chức trò chơi “Ô cửa văn hoá”. GV nêu nhanh tên/hình ảnh đã học như Lễ Rước cá Ông, Lễ hội Ka-tê, Lễ Khao lề thế lính Hoàng Sa, Lễ hội Đua voi và yêu cầu HS nêu nét nổi bật.",
@@ -6152,7 +6297,7 @@
               "- HS lắng nghe, xác định nhiệm vụ học tập của tiết 3: tìm hiểu nhà ở, nhà sinh hoạt cộng đồng; luyện tập sơ đồ tư duy và vận dụng sưu tầm sản phẩm văn hoá."
             ],
             [
-              "2. KHÁM PHÁ (20 phút)Hoạt động 3: Nhà ở và nhà sinh hoạt cộng đồng. Mục tiêu: HS mô tả được một số nét nổi bật về nhà ở, nhà sinh hoạt cộng đồng của người dân vùng Bắc Trung Bộ và Nam Trung Bộ; biết so sánh điểm giống và khác với nơi mình sống. Mục tiêu tích hợp tiết kiệm và bảo vệ nguồn nước: HS nêu được việc làm cụ thể để sử dụng nước tiết kiệm, giữ vệ sinh nguồn nước trong sinh hoạt gia đình và cộng đồng."
+              "2. KHÁM PHÁ (20 phút)\nHoạt động 3: Nhà ở và nhà sinh hoạt cộng đồng. Mục tiêu: HS mô tả được một số nét nổi bật về nhà ở, nhà sinh hoạt cộng đồng của người dân vùng Bắc Trung Bộ và Nam Trung Bộ; biết so sánh điểm giống và khác với nơi mình sống. Mục tiêu tích hợp tiết kiệm và bảo vệ nguồn nước: HS nêu được việc làm cụ thể để sử dụng nước tiết kiệm, giữ vệ sinh nguồn nước trong sinh hoạt gia đình và cộng đồng."
             ],
             [
               "- GV giao nhiệm vụ nhóm 4: quan sát hình 11, hình 12 trong SGK, đọc thông tin mục 3 và hoàn thành nhanh phiếu: tên công trình - dân tộc/địa điểm - vật liệu, hình dáng - công dụng.",
@@ -6183,10 +6328,10 @@
               "- HS lắng nghe, ghi nhớ kết luận: nhà ở và nhà sinh hoạt cộng đồng phản ánh điều kiện tự nhiên, tập quán sinh hoạt và tinh thần gắn bó của cộng đồng."
             ],
             [
-              "3. LUYỆN TẬP (5 phút)Mục tiêu: HS hệ thống hoá được một số nét nổi bật về văn hoá ở vùng Bắc Trung Bộ và Nam Trung Bộ qua sơ đồ tư duy."
+              "3. LUYỆN TẬP (5 phút)\nMục tiêu: HS hệ thống hoá được một số nét nổi bật về văn hoá ở vùng Bắc Trung Bộ và Nam Trung Bộ qua sơ đồ tư duy."
             ],
             [
-              "- GV giao nhiệm vụ nhóm 2: quan sát sơ đồ luyện tập trong SGK, chọn các thông tin phù hợp để hoàn thiện các ô trống về di sản thế giới, lễ hội, nhà ở và nhà sinh hoạt cộng đồng.\n\nKhung/phiếu học tập SGV dùng khi HS hệ thống di sản, lễ hội, nhà ở và nhà sinh hoạt cộng đồng:",
+              "- GV giao nhiệm vụ nhóm 2: quan sát sơ đồ luyện tập trong SGK, chọn các thông tin phù hợp để hoàn thiện các ô trống về di sản thế giới, lễ hội, nhà ở và nhà sinh hoạt cộng đồng.\nKhung/phiếu học tập SGV dùng khi HS hệ thống di sản, lễ hội, nhà ở và nhà sinh hoạt cộng đồng:",
               "- HS làm việc nhóm 2; trao đổi để điền các ý phù hợp như: Thành nhà Hồ, Phong Nha - Kẻ Bàng, Phố cổ Hội An, Thánh địa Mỹ Sơn; Lễ Rước cá Ông, Lễ hội Ka-tê, Lễ Khao lề thế lính Hoàng Sa, Lễ hội Đua voi; nhà dài, nhà rông."
             ],
             [
@@ -6198,7 +6343,7 @@
               "- HS lắng nghe, hoàn thiện sơ đồ tư duy và ghi nhớ các nét văn hoá tiêu biểu của vùng."
             ],
             [
-              "4. VẬN DỤNG (5 phút)Mục tiêu: HS biết vận dụng kiến thức để lập ý tưởng sưu tầm tranh ảnh về một di sản hoặc lễ hội ở vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu tích hợp NLS: HS sử dụng công cụ số/nguồn số phù hợp để tìm kiếm, chọn lọc hình ảnh và ghi nguồn thông tin dưới sự hướng dẫn của GV."
+              "4. VẬN DỤNG (5 phút)\nMục tiêu: HS biết vận dụng kiến thức để lập ý tưởng sưu tầm tranh ảnh về một di sản hoặc lễ hội ở vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu tích hợp NLS: HS sử dụng công cụ số/nguồn số phù hợp để tìm kiếm, chọn lọc hình ảnh và ghi nguồn thông tin dưới sự hướng dẫn của GV."
             ],
             [
               "- GV nêu câu hỏi dẫn tích hợp NLS: Khi sưu tầm tranh ảnh trên mạng về di sản hoặc lễ hội, em cần làm gì để thông tin đáng tin cậy và an toàn?",
@@ -6214,10 +6359,14 @@
             ]
           ]
         ],
-        "title": "Tiết 3"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "Tiết 1",
+        "lessonTitle": "BÀI 18. TRUYỀN THỐNG YÊU NƯỚC, CÁCH MẠNG CỦA ĐỒNG BÀO BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - Tiết 1",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6240,10 +6389,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu; tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6252,7 +6399,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)Mục tiêu: Tạo hứng thú học tập, khơi gợi hiểu biết ban đầu của HS về phong trào yêu nước, cách mạng ở vùng Bắc Trung Bộ và Nam Trung Bộ."
+              "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: Tạo hứng thú học tập, khơi gợi hiểu biết ban đầu của HS về phong trào yêu nước, cách mạng ở vùng Bắc Trung Bộ và Nam Trung Bộ."
             ],
             [
               "- GV cho HS quan sát hình 1 trong SGK và yêu cầu cá nhân suy nghĩ: Bức tranh gợi cho em biết điều gì về tinh thần yêu nước của đồng bào vùng Bắc Trung Bộ và Nam Trung Bộ?",
@@ -6263,7 +6410,7 @@
               "- HS chia sẻ hiểu biết ban đầu và lắng nghe GV giới thiệu tên bài, nhiệm vụ học tập của tiết 1."
             ],
             [
-              "2. KHÁM PHÁ (22 phút)Hoạt động 1: Tìm hiểu khái quát về truyền thống đấu tranh yêu nước, cách mạng của đồng bào vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu: HS nêu được nét nổi bật về truyền thống đấu tranh yêu nước, cách mạng của đồng bào vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu tích hợp QPAN: HS hiểu truyền thống yêu nước gắn với nhiệm vụ bảo vệ quê hương, đất nước; biết trân trọng công lao của các thế hệ đi trước."
+              "2. KHÁM PHÁ (22 phút)\nHoạt động 1: Tìm hiểu khái quát về truyền thống đấu tranh yêu nước, cách mạng của đồng bào vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu: HS nêu được nét nổi bật về truyền thống đấu tranh yêu nước, cách mạng của đồng bào vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu tích hợp QPAN: HS hiểu truyền thống yêu nước gắn với nhiệm vụ bảo vệ quê hương, đất nước; biết trân trọng công lao của các thế hệ đi trước."
             ],
             [
               "- GV giao nhiệm vụ nhóm 4 theo kĩ thuật khăn phủ bàn: đọc đoạn thông tin trong SGK ở hoạt động 1, gạch dưới các từ khoá về truyền thống đấu tranh yêu nước, cách mạng của đồng bào vùng Bắc Trung Bộ và Nam Trung Bộ.",
@@ -6321,7 +6468,7 @@
               "- HS lắng nghe, ghi nhớ và tự liên hệ việc làm phù hợp với bản thân."
             ],
             [
-              "3. LUYỆN TẬP (5 phút)Mục tiêu: HS củng cố được kiến thức về truyền thống yêu nước, cách mạng và nhân vật lịch sử đã tìm hiểu trong tiết học."
+              "3. LUYỆN TẬP (5 phút)\nMục tiêu: HS củng cố được kiến thức về truyền thống yêu nước, cách mạng và nhân vật lịch sử đã tìm hiểu trong tiết học."
             ],
             [
               "- GV phát phiếu nhanh “Ai? Việc làm gì? Phẩm chất gì?”; yêu cầu HS làm cá nhân trong 2 phút với hai nhân vật Huỳnh Thúc Kháng và Nguyễn Ái Quốc - Hồ Chí Minh.",
@@ -6332,7 +6479,7 @@
               "- HS trình bày kết quả; các bạn nhận xét và sửa vào phiếu nếu cần."
             ],
             [
-              "4. VẬN DỤNG (3 phút)Mục tiêu: HS biết lựa chọn một việc làm nhỏ để thể hiện lòng biết ơn và tinh thần học tập theo các tấm gương yêu nước."
+              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết lựa chọn một việc làm nhỏ để thể hiện lòng biết ơn và tinh thần học tập theo các tấm gương yêu nước."
             ],
             [
               "- GV yêu cầu HS viết một câu vào vở: “Em sẽ làm gì để thể hiện lòng biết ơn các nhà yêu nước, cách mạng?”",
@@ -6344,7 +6491,11 @@
             ]
           ]
         ],
-        "title": "Tiết 1"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -6353,7 +6504,7 @@
     "sourceFile": "LSĐL TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 2",
+        "lessonTitle": "BÀI 18. TRUYỀN THỐNG YÊU NƯỚC, CÁCH MẠNG CỦA ĐỒNG BÀO BẮC TRUNG BỘ VÀ NAM TRUNG BỘ - Tiết 2",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6377,10 +6528,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu; tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6389,7 +6538,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)Mục tiêu: Giúp HS nhớ lại một số nhân vật lịch sử đã tìm hiểu ở tiết 1, tạo hứng thú để tiếp tục kể chuyện về anh hùng Núp."
+              "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: Giúp HS nhớ lại một số nhân vật lịch sử đã tìm hiểu ở tiết 1, tạo hứng thú để tiếp tục kể chuyện về anh hùng Núp."
             ],
             [
               "- GV tổ chức trò chơi “Ô chữ nhân vật”: nêu gợi ý ngắn về Huỳnh Thúc Kháng, Nguyễn Ái Quốc - Hồ Chí Minh, anh hùng Núp; yêu cầu HS đoán tên nhân vật.",
@@ -6400,7 +6549,7 @@
               "- HS lắng nghe và xác định nhiệm vụ: kể chuyện về anh hùng Núp, hoàn thành bảng luyện tập, chuẩn bị sản phẩm vận dụng."
             ],
             [
-              "2. KHÁM PHÁ (20 phút)Hoạt động 2: Kể chuyện về một số tấm gương yêu nước, cách mạng ở vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu: HS kể lại được câu chuyện về anh hùng Núp, nêu được cảm nghĩ về nhân vật. Mục tiêu tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết học tập lòng yêu nước, tinh thần dũng cảm, đoàn kết và trách nhiệm với buôn làng, quê hương."
+              "2. KHÁM PHÁ (20 phút)\nHoạt động 2: Kể chuyện về một số tấm gương yêu nước, cách mạng ở vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu: HS kể lại được câu chuyện về anh hùng Núp, nêu được cảm nghĩ về nhân vật. Mục tiêu tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết học tập lòng yêu nước, tinh thần dũng cảm, đoàn kết và trách nhiệm với buôn làng, quê hương."
             ],
             [
               "- GV giao nhiệm vụ nhóm 4: đọc câu chuyện “Chuyện về anh hùng Núp”, quan sát tranh, ghi vào bảng nhóm 4 ý: nhân vật là ai, quê ở đâu, việc làm tiêu biểu, phẩm chất đáng học tập.",
@@ -6435,7 +6584,7 @@
               "- HS lắng nghe, ghi nhớ kết luận và nêu một phẩm chất muốn học tập từ anh hùng Núp."
             ],
             [
-              "3. LUYỆN TẬP (5 phút)Mục tiêu: HS hệ thống được hoạt động yêu nước nổi bật của một số nhân vật lịch sử ở vùng Bắc Trung Bộ và Nam Trung Bộ."
+              "3. LUYỆN TẬP (5 phút)\nMục tiêu: HS hệ thống được hoạt động yêu nước nổi bật của một số nhân vật lịch sử ở vùng Bắc Trung Bộ và Nam Trung Bộ."
             ],
             [
               "- GV giao nhiệm vụ cá nhân: hoàn thành bảng 3 cột trong SGK vào vở: TT - Tên nhân vật - Một số hoạt động. GV gợi ý HS có thể chọn Huỳnh Thúc Kháng, Nguyễn Ái Quốc - Hồ Chí Minh, anh hùng Núp.",
@@ -6450,7 +6599,7 @@
               "- HS trình bày; các bạn nhận xét, bổ sung và hoàn thiện bảng trong vở."
             ],
             [
-              "4. VẬN DỤNG (5 phút)Mục tiêu: HS biết lựa chọn tư liệu để kể lại câu chuyện về một nhân vật lịch sử khác trong phong trào yêu nước, cách mạng ở vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu tích hợp AI: HS sử dụng AI như công cụ hỗ trợ gợi ý dàn ý dưới sự hướng dẫn của GV; biết đối chiếu thông tin với SGK và nguồn chính thống trước khi sử dụng."
+              "4. VẬN DỤNG (5 phút)\nMục tiêu: HS biết lựa chọn tư liệu để kể lại câu chuyện về một nhân vật lịch sử khác trong phong trào yêu nước, cách mạng ở vùng Bắc Trung Bộ và Nam Trung Bộ. Mục tiêu tích hợp AI: HS sử dụng AI như công cụ hỗ trợ gợi ý dàn ý dưới sự hướng dẫn của GV; biết đối chiếu thông tin với SGK và nguồn chính thống trước khi sử dụng."
             ],
             [
               "- GV nêu câu hỏi dẫn tích hợp AI: Nếu dùng AI để hỗ trợ chuẩn bị câu chuyện lịch sử, em cần làm gì để bài kể đúng, không bị sai thông tin?",
@@ -6470,10 +6619,14 @@
             ]
           ]
         ],
-        "title": "Tiết 2"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "Tiết 1",
+        "lessonTitle": "BÀI 19. CỐ ĐÔ HUẾ - Tiết 1",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6499,10 +6652,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu; tranh ảnh hoặc thông tin đã sưu tầm theo hướng dẫn của GV nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6511,7 +6662,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)Mục tiêu: Tạo hứng thú, khơi gợi hiểu biết ban đầu của HS về Cố đô Huế và kết nối vào nội dung bài học."
+              "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: Tạo hứng thú, khơi gợi hiểu biết ban đầu của HS về Cố đô Huế và kết nối vào nội dung bài học."
             ],
             [
               "- GV trình chiếu Hình 1 - Toàn cảnh Kinh thành Huế và yêu cầu HS chia sẻ nhanh: Em đã biết hoặc nghe nói điều gì về Cố đô Huế?",
@@ -6522,7 +6673,7 @@
               "- HS lắng nghe, xác định nhiệm vụ học tập của tiết 1: tìm vị trí Cố đô Huế, mô tả vẻ đẹp, kể chuyện lịch sử liên quan đến Cố đô Huế."
             ],
             [
-              "2. KHÁM PHÁ (20 phút)Hoạt động 1: Khám phá vẻ đẹp của Cố đô Huế. Mục tiêu: HS xác định được vị trí địa lí của Cố đô Huế, mô tả được vẻ đẹp qua cảnh quan thiên nhiên và công trình kiến trúc tiêu biểu. Mục tiêu tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết trân trọng di sản, ứng xử văn minh, giữ gìn cảnh quan khi tham quan di tích."
+              "2. KHÁM PHÁ (20 phút)\nHoạt động 1: Khám phá vẻ đẹp của Cố đô Huế. Mục tiêu: HS xác định được vị trí địa lí của Cố đô Huế, mô tả được vẻ đẹp qua cảnh quan thiên nhiên và công trình kiến trúc tiêu biểu. Mục tiêu tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết trân trọng di sản, ứng xử văn minh, giữ gìn cảnh quan khi tham quan di tích."
             ],
             [
               "- GV giao nhiệm vụ nhóm 4: quan sát Hình 2, đọc chú giải lược đồ và xác định vị trí Cố đô Huế thuộc địa bàn nào; sau đó đọc thông tin, quan sát Hình 3, 4, 5 để mô tả vẻ đẹp của Cố đô Huế.",
@@ -6576,7 +6727,7 @@
               "- HS lắng nghe, ghi nhớ: Cố đô Huế có giá trị về cảnh quan, kiến trúc và lịch sử."
             ],
             [
-              "3. LUYỆN TẬP (5 phút)Mục tiêu: HS giải thích được vì sao Cố đô Huế thu hút nhiều khách du lịch."
+              "3. LUYỆN TẬP (5 phút)\nMục tiêu: HS giải thích được vì sao Cố đô Huế thu hút nhiều khách du lịch."
             ],
             [
               "- GV giao nhiệm vụ cá nhân: trả lời câu hỏi 1 trong SGK: “Vì sao Cố đô Huế là nơi thu hút nhiều khách du lịch?”",
@@ -6587,7 +6738,7 @@
               "- HS trình bày; HS khác nhận xét, bổ sung và hoàn thiện câu trả lời."
             ],
             [
-              "4. VẬN DỤNG (5 phút)Mục tiêu: HS liên hệ vai trò của công nghệ trong tìm hiểu di sản và biết sử dụng AI một cách có kiểm chứng. Mục tiêu tích hợp AI: HS thảo luận về việc AI có thể hỗ trợ thuyết minh, tìm hiểu di sản nhưng không thay thế hoàn toàn hướng dẫn viên thực sự."
+              "4. VẬN DỤNG (5 phút)\nMục tiêu: HS liên hệ vai trò của công nghệ trong tìm hiểu di sản và biết sử dụng AI một cách có kiểm chứng. Mục tiêu tích hợp AI: HS thảo luận về việc AI có thể hỗ trợ thuyết minh, tìm hiểu di sản nhưng không thay thế hoàn toàn hướng dẫn viên thực sự."
             ],
             [
               "- GV nêu câu hỏi dẫn tích hợp AI: Theo em, có nên dùng AI để thay thế hoàn toàn hướng dẫn viên tại Cố đô Huế không? Vì sao?",
@@ -6603,7 +6754,11 @@
             ]
           ]
         ],
-        "title": "Tiết 1"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -6637,9 +6792,8 @@
           "- SGK, vở ghi; tranh ảnh/tư liệu đã sưu tầm về Cố đô Huế nếu có.",
           "- Bút màu hoặc giấy nháp để hoàn thành thẻ thông tin/phiếu học tập."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6741,7 +6895,10 @@
             ]
           ]
         ],
-        "title": "BÀI 19: CỐ ĐÔ HUẾ (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 20: PHỐ CỔ HỘI AN (TIẾT 1)",
@@ -6770,9 +6927,8 @@
           "- SGK, vở ghi; tranh ảnh hoặc tư liệu về phố cổ Hội An nếu có.",
           "- Bút màu, giấy nháp để ghi nhanh đặc điểm công trình kiến trúc."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6866,7 +7022,10 @@
             ]
           ]
         ],
-        "title": "BÀI 20: PHỐ CỔ HỘI AN (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -6900,9 +7059,8 @@
           "- SGK, vở ghi; tranh ảnh/thông tin về phố cổ Hội An đã sưu tầm nếu có.",
           "- Bút màu hoặc giấy A4 để làm bảng/thẻ giới thiệu ngắn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6988,7 +7146,10 @@
             ]
           ]
         ],
-        "title": "BÀI 20: PHỐ CỔ HỘI AN (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 21: LỄ HỘI CỒNG CHIÊNG TÂY NGUYÊN (TIẾT 1)",
@@ -7016,9 +7177,8 @@
           "- SGK, vở ghi; tranh ảnh hoặc thông tin đã sưu tầm về cồng chiêng Tây Nguyên nếu có.",
           "- Bút màu, giấy nháp hoặc phiếu học tập cá nhân/nhóm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7104,7 +7264,10 @@
             ]
           ]
         ],
-        "title": "BÀI 21: LỄ HỘI CỒNG CHIÊNG TÂY NGUYÊN (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7140,9 +7303,8 @@
           "- SGK, vở ghi; thông tin/tranh ảnh về cồng chiêng hoặc lễ hội Tây Nguyên nếu có.",
           "- Bút màu, giấy nháp hoặc phiếu học tập theo nhóm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7224,7 +7386,10 @@
             ]
           ]
         ],
-        "title": "BÀI 21: LỄ HỘI CỒNG CHIÊNG TÂY NGUYÊN (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 1)",
@@ -7254,9 +7419,8 @@
           "- SGK, vở ghi; bút màu; chuẩn bị hiểu biết ban đầu về Nam Bộ.",
           "- Phiếu học tập cá nhân hoặc nhóm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7350,7 +7514,10 @@
             ]
           ]
         ],
-        "title": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7375,7 +7542,9 @@
           "- Trách nhiệm: Có ý thức bảo vệ nguồn nước, đất đai và môi trường sống.",
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập, hoàn thành phiếu đúng thời gian.",
           "4. Tích hợp",
-          "- Tích hợp NLS 1.1.CB1a: HS đọc lược đồ/bản đồ số do GV cung cấp để xác định vị trí sông ngòi, vùng đất, vùng biển đảo của Nam Bộ; biết đọc chú giải, kiểm tra thông tin bằng SGK và không tự truy cập nguồn lạ."
+          "- Tích hợp NLS 1.1.CB1a: HS đọc lược đồ/bản đồ số do GV cung cấp để xác định vị trí sông ngòi, vùng đất, vùng biển đảo của Nam Bộ; biết đọc chú giải, kiểm tra thông tin bằng SGK và không tự truy cập nguồn lạ.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Sử dụng nước hợp lí, bảo vệ nguồn nước ngọt, phòng chống hạn hán, xâm nhập mặn và phòng tránh đuối nước ở vùng sông rạch Nam Bộ.",
+          "- Giáo dục địa phương (Chủ đề 1): Liên hệ địa hình sông ngòi tỉnh Trà Vinh (hai nhánh sông Cổ Chiên và sông Hậu đổ ra Biển Đông) và đặc điểm xâm nhập mặn trong mùa khô."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -7385,9 +7554,8 @@
           "- SGK, vở ghi, bút màu; phiếu học tập cá nhân/nhóm.",
           "- Chuẩn bị kiến thức tiết trước về vị trí địa lí và địa hình Nam Bộ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7468,12 +7636,19 @@
               "- HS nêu: không xả rác xuống kênh rạch, tiết kiệm nước, trồng cây, thu gom rác đúng nơi quy định, không đổ hoá chất xuống đất hoặc nước."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 1) & Mizuiku: GV kết nối kiến thức thiên nhiên Nam Bộ với thực tế tỉnh Trà Vinh: Trà Vinh nằm ở vùng hạ lưu sông Tiền (sông Cổ Chiên) và sông Hậu. Mùa khô thường xảy ra hiện tượng nước mặn từ biển xâm nhập sâu vào sông ngòi, kênh rạch làm thiếu hụt nguồn nước ngọt sinh hoạt và tưới tiêu. Em và gia đình cần làm gì để sử dụng nước tiết kiệm và hiệu quả?",
+              "- HS quan sát vị trí sông Cổ Chiên, sông Hậu trên lược đồ Nam Bộ; thảo luận và nêu giải pháp: trữ nước ngọt, đóng cống ngăn mặn, sử dụng nước tiết kiệm trong mùa khô và tuyệt đối không tắm sông suối một mình để phòng tránh đuối nước."
+            ],
+            [
               "- GV dặn dò: HS ôn lại khí hậu, sông ngòi, đất và chuẩn bị tìm hiểu ảnh hưởng của môi trường thiên nhiên đến sản xuất, sinh hoạt.",
               "- HS ghi nhớ nhiệm vụ về nhà."
             ]
           ]
         ],
-        "title": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 3)",
@@ -7502,9 +7677,8 @@
           "- SGK, vở ghi, bút màu; thông tin/tranh ảnh về thiên nhiên Nam Bộ nếu có.",
           "- Tinh thần làm việc nhóm, trình bày và nhận xét."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7582,7 +7756,10 @@
             ]
           ]
         ],
-        "title": "BÀI 22: THIÊN NHIÊN VÙNG NAM BỘ (TIẾT 3)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7608,7 +7785,9 @@
           "- Trách nhiệm: Có ý thức trân trọng lao động sản xuất của người dân Nam Bộ.",
           "4. Tích hợp",
           "- Tích hợp QCN: HS tôn trọng sự đa dạng dân cư, văn hoá, nghề nghiệp của người dân Nam Bộ; biết đoàn kết, không phân biệt vùng miền, dân tộc, tiếng nói, phong tục.",
-          "- Tích hợp AI (4.A1.1): HS nhận diện sự hiện diện của AI trong các khu công nghiệp hiện đại và các trang trại trái cây xuất khẩu ở Nam Bộ."
+          "- Tích hợp AI (4.A1.1): HS nhận diện sự hiện diện của AI trong các khu công nghiệp hiện đại và các trang trại trái cây xuất khẩu ở Nam Bộ.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Hiểu vai trò quyết định của nguồn nước ngọt đối với trồng trọt cây ăn trái đặc sản và nuôi trồng thủy sản tại Trà Vinh; áp dụng tưới tiêu tiết kiệm.",
+          "- Giáo dục địa phương (Chủ đề 8): Dừa sáp Trà Vinh (đặc sản nổi tiếng của huyện Cầu Kè) - niềm tự hào nông sản địa phương."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -7618,9 +7797,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu; tranh ảnh hoặc thông tin đã sưu tầm về dân cư, hoạt động sản xuất ở vùng Nam Bộ nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7644,7 +7822,7 @@
               "- HS trình bày, nhận xét, lắng nghe GV giới thiệu bài học."
             ],
             [
-              "2. KHÁM PHÁ (23 phút)- Mục tiêu: Kể được tên một số dân tộc ở vùng Nam Bộ; xác định được một số cây trồng, vật nuôi chính trên bản đồ nông nghiệp; mục tiêu tích hợp: biết tôn trọng sự đa dạng dân cư, văn hoá vùng Nam Bộ.; mục tiêu tích hợp AI: nhận diện sự hiện diện của AI trong các trang trại trái cây xuất khẩu ở Nam Bộ."
+              "2. KHÁM PHÁ (23 phút)\n- Mục tiêu: Kể được tên một số dân tộc ở vùng Nam Bộ; xác định được một số cây trồng, vật nuôi chính trên bản đồ nông nghiệp; mục tiêu tích hợp: biết tôn trọng sự đa dạng dân cư, văn hoá vùng Nam Bộ.; mục tiêu tích hợp AI: nhận diện sự hiện diện của AI trong các trang trại trái cây xuất khẩu ở Nam Bộ."
             ],
             [
               "- Hoạt động 1: Tìm hiểu về dân cư. GV yêu cầu HS đọc thông tin SGK, quan sát khung câu hỏi và thực hiện nhiệm vụ cá nhân: Đọc thông tin, em hãy kể tên một số dân tộc ở vùng Nam Bộ.",
@@ -7717,12 +7895,19 @@
               "- HS ghi nhiệm vụ, chuẩn bị hình ảnh/thông tin từ SGK, sách báo hoặc nguồn do người lớn hướng dẫn."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 8) & Mizuiku: GV giới thiệu đặc sản nông nghiệp tiêu biểu của Trà Vinh: Trái dừa sáp Cầu Kè với cơm dừa dẻo quánh, hương vị béo ngậy đặc trưng mang lại giá trị kinh tế cao. Nhấn mạnh để vườn dừa sáp và các loại cây ăn trái tươi tốt, nguồn nước tưới ngọt lành đóng vai trò quyết định, người nông dân cần biết bảo vệ nguồn nước không bị ô nhiễm thuốc BVTV.",
+              "- HS chăm chú quan sát hình ảnh cây và quả dừa sáp Cầu Kè; tự hào về đặc sản độc đáo duy nhất của quê hương Trà Vinh; hiểu rõ tầm quan trọng của nguồn nước ngọt sạch đối với chất lượng nông sản địa phương."
+            ],
+            [
               "- GV dặn dò ngắn gọn: đọc trước phần công nghiệp và quan sát hình 4, 5, 6 trong SGK.",
               "- HS lắng nghe và chuẩn bị bài."
             ]
           ]
         ],
-        "title": "BÀI 23: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG NAM BỘ (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ................................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 23: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG NAM BỘ (TIẾT 2)",
@@ -7752,9 +7937,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu; phiếu học tập bảng phân bố các hoạt động sản xuất."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7774,7 +7958,7 @@
               "- HS lắng nghe, xác định nhiệm vụ học tập của tiết 2."
             ],
             [
-              "2. KHÁM PHÁ (20 phút)- Mục tiêu: Xác định được trên bản đồ sự phân bố một số ngành công nghiệp chính ở vùng Nam Bộ; mục tiêu tích hợp: biết tiết kiệm và bảo vệ nguồn nước khi liên hệ hoạt động sản xuất.; mục tiêu tích hợp AI: nhận diện sự hiện diện của AI trong các khu công nghiệp hiện đại ở Nam Bộ."
+              "2. KHÁM PHÁ (20 phút)\n- Mục tiêu: Xác định được trên bản đồ sự phân bố một số ngành công nghiệp chính ở vùng Nam Bộ; mục tiêu tích hợp: biết tiết kiệm và bảo vệ nguồn nước khi liên hệ hoạt động sản xuất.; mục tiêu tích hợp AI: nhận diện sự hiện diện của AI trong các khu công nghiệp hiện đại ở Nam Bộ."
             ],
             [
               "- Hoạt động 2: Tìm hiểu về một số hoạt động sản xuất - b) Công nghiệp. GV yêu cầu HS quan sát câu hỏi trong SGK: Đọc thông tin và quan sát hình 4, em hãy kể tên và xác định sự phân bố của một số ngành công nghiệp chính ở vùng Nam Bộ.",
@@ -7844,7 +8028,10 @@
             ]
           ]
         ],
-        "title": "BÀI 23: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG NAM BỘ (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7871,7 +8058,9 @@
           "- Nhân ái: Tôn trọng nghề nghiệp, văn hoá, đời sống của người dân vùng Nam Bộ.",
           "4. Tích hợp",
           "- Tích hợp NLS 5.2.CB1a: HS dùng bảng/sơ đồ số đơn giản để phân loại hoạt động sản xuất; GV kiểm duyệt thông tin trước khi HS sử dụng; HS biết đối chiếu thông tin với SGK, hình 1, hình 4 và nguồn do GV cung cấp.",
-          "- Tích hợp BVMT và ATGT: HS biết sản xuất, giao thông đường thủy cần gắn với bảo vệ môi trường, không xả rác xuống sông, kênh rạch; biết đội áo phao, ngồi ngay ngắn, đi theo hướng dẫn của người lớn và lực lượng chức năng khi tham gia phương tiện đường thủy."
+          "- Tích hợp BVMT và ATGT: HS biết sản xuất, giao thông đường thủy cần gắn với bảo vệ môi trường, không xả rác xuống sông, kênh rạch; biết đội áo phao, ngồi ngay ngắn, đi theo hướng dẫn của người lớn và lực lượng chức năng khi tham gia phương tiện đường thủy.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Giữ gìn môi trường sông nước xanh - sạch - đẹp, bảo vệ nguồn nước sông Cổ Chiên phục vụ du lịch sinh thái bền vững.",
+          "- Giáo dục địa phương (Chủ đề 3 & 4): Du lịch sinh thái Cồn Chim (Châu Thành, Trà Vinh) - mô hình du lịch xanh 'thuận thiên' và nét đẹp giao lưu văn hóa lễ hội các dân tộc."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -7881,9 +8070,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu; thông tin/hình ảnh đã sưu tầm về một dân tộc hoặc một hoạt động sản xuất ở vùng Nam Bộ nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7906,7 +8094,7 @@
               "2. LUYỆN TẬP (17 phút)\n- Mục tiêu: Biết hệ thống hoá hoạt động sản xuất ở vùng Nam Bộ bằng bảng/sơ đồ.\n- Mục tiêu tích hợp: Dùng công cụ số đơn giản để phân loại thông tin an toàn, đúng nguồn."
             ],
             [
-              "- Hoạt động 3: Luyện tập hệ thống hoạt động sản xuất ở vùng Nam Bộ. GV yêu cầu HS đọc lại khung luyện tập trong SGK: Quan sát các hình 1, 4, hãy hoàn thành bảng sau vào vở.\n\nKhung Luyện tập, Vận dụng trong SGK",
+              "- Hoạt động 3: Luyện tập hệ thống hoạt động sản xuất ở vùng Nam Bộ. GV yêu cầu HS đọc lại khung luyện tập trong SGK: Quan sát các hình 1, 4, hãy hoàn thành bảng sau vào vở.\nKhung Luyện tập, Vận dụng trong SGK",
               "- HS đọc yêu cầu, xác định cần dùng hình 1 và hình 4 để hoàn thành bảng hoạt động sản xuất - phân bố."
             ],
             [
@@ -7930,7 +8118,7 @@
               "- Đại diện nhóm trình bày; HS khác nhận xét, bổ sung thông tin còn thiếu."
             ],
             [
-              "- GV chốt đáp án gợi ý và nhấn mạnh: vùng Nam Bộ có hoạt động sản xuất đa dạng, trong đó nông nghiệp, thủy sản, công nghiệp đều phát triển mạnh.\n\nGợi ý phân bố một số hoạt động sản xuất",
+              "- GV chốt đáp án gợi ý và nhấn mạnh: vùng Nam Bộ có hoạt động sản xuất đa dạng, trong đó nông nghiệp, thủy sản, công nghiệp đều phát triển mạnh.\nGợi ý phân bố một số hoạt động sản xuất",
               "- HS sửa phiếu/bảng, ghi nhớ nội dung tổng hợp."
             ],
             [
@@ -7965,12 +8153,19 @@
               "- HS viết câu cam kết, ví dụ: Em sẽ không xả rác xuống kênh rạch; Em sẽ mặc áo phao khi đi thuyền; Em sẽ tiết kiệm nước trong sinh hoạt."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 3) & Mizuiku: GV giới thiệu điểm du lịch sinh thái nông nghiệp nổi tiếng Cồn Chim (xã Hòa Minh, huyện Châu Thành, Trà Vinh) nằm giữa dòng sông Cổ Chiên với triết lý 'thuận thiên' (mùa ngọt trồng lúa, mùa mặn nuôi tôm cua). Nhắc nhở HS khi tham quan du lịch sinh thái phải luôn giữ gìn nguồn nước, không vứt túi ni-lông xuống sông rạch.",
+              "- HS lắng nghe, bày tỏ niềm thích thú với nét văn hóa sinh hoạt dân dã và ẩm thực tại Cồn Chim; ghi nhớ thông điệp bảo vệ môi trường nước sông Cổ Chiên để phát triển du lịch sinh thái bền vững."
+            ],
+            [
               "- GV dặn dò ngắn gọn: hoàn thiện sản phẩm vận dụng, chuẩn bị bài tiếp theo về một số nét văn hoá ở vùng Nam Bộ.",
               "- HS lắng nghe, thực hiện nhiệm vụ ở nhà."
             ]
           ]
         ],
-        "title": "BÀI 23: DÂN CƯ VÀ HOẠT ĐỘNG SẢN XUẤT Ở VÙNG NAM BỘ (TIẾT 3)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 24: MỘT SỐ NÉT VĂN HOÁ VÀ TRUYỀN THỐNG YÊU NƯỚC, CÁCH MẠNG CỦA ĐỒNG BÀO NAM BỘ (TIẾT 1)",
@@ -7999,9 +8194,8 @@
           "- SGK, vở ghi, bút màu.",
           "- Tranh ảnh hoặc thông tin sưu tầm về nhà ở, chợ nổi, ghe xuồng, trang phục của người dân Nam Bộ nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8028,11 +8222,11 @@
               "2. KHÁM PHÁ (22 phút)\n- Mục tiêu: Mô tả được một số nét văn hoá tiêu biểu và sự chung sống hài hoà với thiên nhiên của người dân Nam Bộ.\n- Mục tiêu tích hợp: Giáo dục HS ý thức giữ gìn an toàn, trật tự và môi trường sông nước trong đời sống cộng đồng Nam Bộ."
             ],
             [
-              "- Hoạt động 1: Tìm hiểu một số nét văn hoá tiêu biểu của đồng bào Nam Bộ. GV yêu cầu HS quan sát tranh trong SGK, đọc thông tin mục 1 và thực hiện nhiệm vụ: Đọc thông tin và quan sát các hình từ 1 đến 4, em hãy: Chỉ ra một số nét nổi bật về văn hoá của người dân Nam Bộ. Nêu một số dẫn chứng thể hiện sự chung sống hài hoà với thiên nhiên của người dân Nam Bộ.\n\nHình 1. Nhà nổi ở Châu Đốc",
+              "- Hoạt động 1: Tìm hiểu một số nét văn hoá tiêu biểu của đồng bào Nam Bộ. GV yêu cầu HS quan sát tranh trong SGK, đọc thông tin mục 1 và thực hiện nhiệm vụ: Đọc thông tin và quan sát các hình từ 1 đến 4, em hãy: Chỉ ra một số nét nổi bật về văn hoá của người dân Nam Bộ. Nêu một số dẫn chứng thể hiện sự chung sống hài hoà với thiên nhiên của người dân Nam Bộ.\nHình 1. Nhà nổi ở Châu Đốc",
               "- HS quan sát hình 1, 2; đọc thông tin SGK và xác định nhiệm vụ: tìm nét văn hoá tiêu biểu, nêu dẫn chứng gắn với điều kiện sông nước Nam Bộ."
             ],
             [
-              "- GV tiếp tục cho HS quan sát hình 2 về một ngôi nhà cổ ở Bình Thủy, gợi ý HS so sánh nhà nổi và nhà cổ trong đời sống người dân Nam Bộ.\n\nHình 2. Một ngôi nhà cổ ở Bình Thủy",
+              "- GV tiếp tục cho HS quan sát hình 2 về một ngôi nhà cổ ở Bình Thủy, gợi ý HS so sánh nhà nổi và nhà cổ trong đời sống người dân Nam Bộ.\nHình 2. Một ngôi nhà cổ ở Bình Thủy",
               "- HS quan sát hình 2, nêu: nhà cổ thể hiện nét văn hoá, kiến trúc lâu đời; nhà nổi thể hiện sự thích ứng với môi trường sông nước."
             ],
             [
@@ -8044,11 +8238,11 @@
               "- HS nêu: Ở vùng sông nước có nhiều nhà sàn, nhà nổi; một số nơi có nhà cổ được lưu giữ; nhà ở thể hiện cách thích ứng với môi trường tự nhiên."
             ],
             [
-              "- GV yêu cầu HS tiếp tục quan sát hình 3, 4 và trả lời: Chợ nổi và ghe xuồng có vai trò như thế nào trong đời sống của người dân Nam Bộ?\n\nHình 3. Chợ nổi Ngã Năm",
+              "- GV yêu cầu HS tiếp tục quan sát hình 3, 4 và trả lời: Chợ nổi và ghe xuồng có vai trò như thế nào trong đời sống của người dân Nam Bộ?\nHình 3. Chợ nổi Ngã Năm",
               "- HS nêu: Chợ nổi là nơi mua bán trên sông; ghe xuồng là phương tiện đi lại, vận chuyển hàng hoá; các hoạt động này gắn chặt với đời sống sông nước."
             ],
             [
-              "- GV cho HS quan sát thêm hình 4 về ghe, xuồng được người dân Nam Bộ sử dụng trong cuộc sống hằng ngày.\n\nHình 4. Ghe, xuồng được sử dụng trong cuộc sống hằng ngày",
+              "- GV cho HS quan sát thêm hình 4 về ghe, xuồng được người dân Nam Bộ sử dụng trong cuộc sống hằng ngày.\nHình 4. Ghe, xuồng được sử dụng trong cuộc sống hằng ngày",
               "- HS quan sát hình 4, nhận biết ghe xuồng là phương tiện quen thuộc để đi lại, vận chuyển hàng hoá ở vùng sông nước."
             ],
             [
@@ -8079,7 +8273,7 @@
               "3. LUYỆN TẬP (5 phút)\n- Mục tiêu: Củng cố kiến thức về một số nét văn hoá tiêu biểu của người dân Nam Bộ."
             ],
             [
-              "- GV yêu cầu HS làm việc cá nhân, hoàn thành bảng theo gợi ý trong SGK: Hãy hoàn thiện bảng mô tả về một số nét văn hoá tiêu biểu của đồng bào Nam Bộ.\n\nKhung Luyện tập, Vận dụng trong SGK",
+              "- GV yêu cầu HS làm việc cá nhân, hoàn thành bảng theo gợi ý trong SGK: Hãy hoàn thiện bảng mô tả về một số nét văn hoá tiêu biểu của đồng bào Nam Bộ.\nKhung Luyện tập, Vận dụng trong SGK",
               "- HS làm việc cá nhân, hoàn thành bảng: Nhà ở - nhà nổi/nhà cổ; Chợ nổi - mua bán trên sông; Vận tải đường sông - đi lại, chuyên chở bằng ghe xuồng; Trang phục - áo bà ba, khăn rằn."
             ],
             [
@@ -8103,7 +8297,10 @@
             ]
           ]
         ],
-        "title": "BÀI 24: MỘT SỐ NÉT VĂN HOÁ VÀ TRUYỀN THỐNG YÊU NƯỚC, CÁCH MẠNG CỦA ĐỒNG BÀO NAM BỘ (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8129,7 +8326,9 @@
           "- Trách nhiệm: Có ý thức học tập tốt, làm việc phù hợp để noi gương các nhân vật lịch sử.",
           "4. Tích hợp",
           "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết trân trọng tinh thần yêu nước, lòng dũng cảm, sự kiên trung của các nhân vật lịch sử; biết biến lòng biết ơn thành hành động cụ thể như chăm học, sống trung thực, đoàn kết, giữ gìn truyền thống tốt đẹp của quê hương.",
-          "- Tích hợp AI 6.2.CB2a: HS biết sử dụng công cụ AI theo hướng dẫn của GV để gợi ý dàn ý hoặc câu mở đầu cho đoạn văn bày tỏ cảm nghĩ; biết kiểm tra lại thông tin bằng SGK, hình ảnh và nguồn chính thống; không sao chép máy móc nội dung do AI gợi ý."
+          "- Tích hợp AI 6.2.CB2a: HS biết sử dụng công cụ AI theo hướng dẫn của GV để gợi ý dàn ý hoặc câu mở đầu cho đoạn văn bày tỏ cảm nghĩ; biết kiểm tra lại thông tin bằng SGK, hình ảnh và nguồn chính thống; không sao chép máy móc nội dung do AI gợi ý.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Ý thức bảo vệ môi trường, cảnh quan và nguồn nước sạch tại các khu di tích lịch sử - văn hóa của quê hương.",
+          "- Giáo dục địa phương (Chủ đề 5 & 6): Truyền thống yêu nước chống giặc ngoại xâm của nhân dân Trà Vinh - Tấm gương Nữ Anh hùng LLVTND Nguyễn Thị Út (Út Tịch - Cầu Kè) và Di tích khảo cổ Lưu Cừ II (Trà Cú)."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -8139,9 +8338,8 @@
           "- SGK, vở ghi, bút màu.",
           "- Một tranh ảnh hoặc câu chuyện ngắn về nhân vật lịch sử tiêu biểu của Nam Bộ nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8168,7 +8366,7 @@
               "- HS quan sát hình 5, đọc câu chuyện về Trương Định và xác định các ý chính: quê quán, việc làm yêu nước, tinh thần chống Pháp, phẩm chất nổi bật."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin, quan sát hình 5, hình 6 và khung “Em có biết?” trong SGK; nêu nhiệm vụ: Đọc thông tin và quan sát hình 5, em hãy kể lại câu chuyện về một nhân vật lịch sử tiêu biểu cho truyền thống yêu nước và cách mạng của nhân dân Nam Bộ.\n\nHình 5. Trương Định được suy tôn là Bình Tây Đại Nguyên soái",
+              "- GV yêu cầu HS đọc thông tin, quan sát hình 5, hình 6 và khung “Em có biết?” trong SGK; nêu nhiệm vụ: Đọc thông tin và quan sát hình 5, em hãy kể lại câu chuyện về một nhân vật lịch sử tiêu biểu cho truyền thống yêu nước và cách mạng của nhân dân Nam Bộ.\nHình 5. Trương Định được suy tôn là Bình Tây Đại Nguyên soái",
               "- HS đọc thông tin, xác định cần kể lại câu chuyện bằng lời của mình, nêu được nhân vật, việc làm và phẩm chất tiêu biểu."
             ],
             [
@@ -8176,11 +8374,11 @@
               "- HS làm việc nhóm 4, mỗi em ghi một ý; cả nhóm thống nhất nội dung kể chuyện ngắn gọn, đúng thông tin SGK."
             ],
             [
-              "- GV gợi ý câu hỏi cho nhóm: Nhân vật trong câu chuyện đã làm gì để thể hiện lòng yêu nước? Em ấn tượng nhất với chi tiết nào? Vì sao?\n\nKhung Em có biết? Nguyễn Trung Trực",
+              "- GV gợi ý câu hỏi cho nhóm: Nhân vật trong câu chuyện đã làm gì để thể hiện lòng yêu nước? Em ấn tượng nhất với chi tiết nào? Vì sao?\nKhung Em có biết? Nguyễn Trung Trực",
               "- HS nêu: Trương Định lãnh đạo nghĩa quân chống Pháp; Nguyễn Trung Trực chỉ huy nghĩa quân chống Pháp; các nhân vật thể hiện lòng dũng cảm, quyết tâm bảo vệ quê hương."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 6, đọc thông tin về Nguyễn Thị Định và trả lời: Nguyễn Thị Định có đóng góp gì trong cuộc kháng chiến chống Mỹ, cứu nước?\n\nHình 6. Nguyễn Thị Định",
+              "- GV yêu cầu HS quan sát hình 6, đọc thông tin về Nguyễn Thị Định và trả lời: Nguyễn Thị Định có đóng góp gì trong cuộc kháng chiến chống Mỹ, cứu nước?\nHình 6. Nguyễn Thị Định",
               "- HS trả lời: Nguyễn Thị Định là lãnh đạo chủ chốt của phong trào Đồng khởi ở Bến Tre, giữ chức Phó Tư lệnh các lực lượng vũ trang giải phóng miền Nam Việt Nam."
             ],
             [
@@ -8211,7 +8409,7 @@
               "3. LUYỆN TẬP (5 phút)\n- Mục tiêu: Củng cố kiến thức và viết đoạn văn ngắn bày tỏ cảm nghĩ về truyền thống yêu nước của đồng bào Nam Bộ.\n- Mục tiêu tích hợp: Rèn kĩ năng sử dụng AI có hướng dẫn để gợi ý dàn ý, kiểm chứng thông tin và viết bằng lời của bản thân."
             ],
             [
-              "- GV yêu cầu HS làm việc cá nhân: Hãy hoàn thiện bảng mô tả về một số nét văn hoá tiêu biểu của đồng bào Nam Bộ. Sau đó thực hiện câu hỏi: Em hãy viết một đoạn văn ngắn (khoảng 4 - 5 câu) bày tỏ cảm nghĩ về truyền thống yêu nước, cách mạng của đồng bào Nam Bộ.\n\nKhung Luyện tập, Vận dụng trong SGK",
+              "- GV yêu cầu HS làm việc cá nhân: Hãy hoàn thiện bảng mô tả về một số nét văn hoá tiêu biểu của đồng bào Nam Bộ. Sau đó thực hiện câu hỏi: Em hãy viết một đoạn văn ngắn (khoảng 4 - 5 câu) bày tỏ cảm nghĩ về truyền thống yêu nước, cách mạng của đồng bào Nam Bộ.\nKhung Luyện tập, Vận dụng trong SGK",
               "- HS hoàn thành bảng và viết đoạn văn 4 - 5 câu, nêu được cảm nghĩ biết ơn, tự hào, mong muốn noi gương các nhân vật lịch sử."
             ],
             [
@@ -8242,12 +8440,19 @@
               "- HS nêu việc làm cụ thể: chăm học, giữ gìn di tích, không nói sai lịch sử, giúp đỡ bạn, tham gia hoạt động đền ơn đáp nghĩa ở trường/lớp."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 5 & CĐ 6): GV khắc sâu truyền thống yêu nước của quê hương Trà Vinh qua hình tượng Anh hùng LLVTND Nguyễn Thị Út (chị Út Tịch, quê Tam Ngãi, Cầu Kè) với câu nói nổi tiếng 'Còn cái lai quần cũng đánh'; đồng thời giới thiệu Di tích lịch sử - kiến trúc nghệ thuật Lưu Cừ II (huyện Trà Cú). Giáo dục HS lòng tự hào quê hương và ý thức bảo vệ di tích, giữ sạch cảnh quan môi trường.",
+              "- HS xúc động nghe câu chuyện về lòng quả cảm của chị Út Tịch; bày tỏ quyết tâm chăm ngoan học giỏi, noi gương anh hùng liệt sĩ và có ý thức giữ gìn vệ sinh, bảo vệ các di tích lịch sử - văn hóa trên địa bàn tỉnh Trà Vinh."
+            ],
+            [
               "- GV dặn dò ngắn gọn: HS đọc lại bài, hoàn thành phần vận dụng và chuẩn bị bài học tiếp theo theo hướng dẫn của GV.",
               "- HS ghi nhớ nhiệm vụ, chuẩn bị bài sau."
             ]
           ]
         ],
-        "title": "BÀI 24: MỘT SỐ NÉT VĂN HOÁ VÀ TRUYỀN THỐNG YÊU NƯỚC, CÁCH MẠNG CỦA ĐỒNG BÀO NAM BỘ (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 25: THÀNH PHỐ HỒ CHÍ MINH (TIẾT 1)",
@@ -8276,9 +8481,8 @@
           "2. Học sinh",
           "- SGK, vở, bút màu; tranh ảnh hoặc thông tin đã sưu tầm về Thành phố Hồ Chí Minh nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8290,7 +8494,7 @@
               "1. KHỞI ĐỘNG (5 phút)\n- Mục tiêu: Tạo hứng thú học tập, khơi gợi hiểu biết ban đầu của học sinh về Thành phố Hồ Chí Minh."
             ],
             [
-              "- GV cho HS quan sát Hình 1. Một góc Thành phố Hồ Chí Minh ngày nay và nêu yêu cầu: Quan sát hình dưới đây và chia sẻ những hiểu biết của em về thành phố mang tên Bác.\n\nHình 1. Một góc Thành phố Hồ Chí Minh ngày nay",
+              "- GV cho HS quan sát Hình 1. Một góc Thành phố Hồ Chí Minh ngày nay và nêu yêu cầu: Quan sát hình dưới đây và chia sẻ những hiểu biết của em về thành phố mang tên Bác.\nHình 1. Một góc Thành phố Hồ Chí Minh ngày nay",
               "- HS quan sát hình, nêu hiểu biết: Thành phố Hồ Chí Minh là đô thị lớn, có nhiều nhà cao tầng, sông Sài Gòn, cảng, nhiều công trình hiện đại."
             ],
             [
@@ -8309,7 +8513,7 @@
               "- HS lập nhóm 4, phân công bạn đọc thông tin, bạn quan sát lược đồ, bạn ghi phiếu và bạn chuẩn bị trình bày."
             ],
             [
-              "- GV cho HS quan sát Hình 2. Lược đồ thể hiện vị trí địa lí của Thành phố Hồ Chí Minh và đọc câu hỏi SGK: Quan sát hình 2, em hãy xác định trên lược đồ vị trí địa lí của Thành phố Hồ Chí Minh và cho biết thành phố tiếp giáp với các tỉnh nào.\n\nHình 2. Lược đồ thể hiện vị trí địa lí của Thành phố Hồ Chí Minh",
+              "- GV cho HS quan sát Hình 2. Lược đồ thể hiện vị trí địa lí của Thành phố Hồ Chí Minh và đọc câu hỏi SGK: Quan sát hình 2, em hãy xác định trên lược đồ vị trí địa lí của Thành phố Hồ Chí Minh và cho biết thành phố tiếp giáp với các tỉnh nào.\nHình 2. Lược đồ thể hiện vị trí địa lí của Thành phố Hồ Chí Minh",
               "- HS quan sát lược đồ, xác định Thành phố Hồ Chí Minh ở khu vực Nam Bộ; nêu được thành phố tiếp giáp với Đồng Nai, Tây Ninh, Đồng Tháp và Lâm Đồng."
             ],
             [
@@ -8329,11 +8533,11 @@
               "- HS nhận nhiệm vụ theo nhóm: nhóm 1 tìm hiểu Nguyễn Tất Thành ra đi tìm đường cứu nước; nhóm 2 tìm hiểu xe tăng tiến vào Dinh Độc Lập; nhóm 3 nêu ý nghĩa của các sự kiện."
             ],
             [
-              "- GV cho HS quan sát Hình 3. Tàu Đô đốc La-tu-sơ Tơ-rê-vin và đọc câu hỏi SGK: Nêu một số sự kiện lịch sử tiêu biểu đã diễn ra tại Thành phố Hồ Chí Minh. Kể lại một câu chuyện lịch sử được giới thiệu trong bài học.\n\nHình 3. Tàu Đô đốc La-tu-sơ Tơ-rê-vin",
+              "- GV cho HS quan sát Hình 3. Tàu Đô đốc La-tu-sơ Tơ-rê-vin và đọc câu hỏi SGK: Nêu một số sự kiện lịch sử tiêu biểu đã diễn ra tại Thành phố Hồ Chí Minh. Kể lại một câu chuyện lịch sử được giới thiệu trong bài học.\nHình 3. Tàu Đô đốc La-tu-sơ Tơ-rê-vin",
               "- HS quan sát hình, đọc câu chuyện Nguyễn Tất Thành ra đi tìm đường cứu nước và kể lại được sự kiện ngày 5-6-1911 tại Bến Nhà Rồng."
             ],
             [
-              "- GV cho HS quan sát Hình 4. Xe tăng Quân Giải phóng tiến vào Dinh Độc Lập; nêu câu hỏi: Xe tăng Quân Giải phóng tiến vào Dinh Độc Lập báo hiệu điều gì về cuộc kháng chiến chống Mỹ, cứu nước của dân tộc ta?\n\nHình 4. Xe tăng Quân Giải phóng tiến vào Dinh Độc Lập",
+              "- GV cho HS quan sát Hình 4. Xe tăng Quân Giải phóng tiến vào Dinh Độc Lập; nêu câu hỏi: Xe tăng Quân Giải phóng tiến vào Dinh Độc Lập báo hiệu điều gì về cuộc kháng chiến chống Mỹ, cứu nước của dân tộc ta?\nHình 4. Xe tăng Quân Giải phóng tiến vào Dinh Độc Lập",
               "- HS trả lời: sự kiện báo hiệu thắng lợi của Chiến dịch Hồ Chí Minh, miền Nam được giải phóng, đất nước thống nhất."
             ],
             [
@@ -8396,7 +8600,10 @@
             ]
           ]
         ],
-        "title": "BÀI 25: THÀNH PHỐ HỒ CHÍ MINH (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8429,9 +8636,8 @@
           "2. Học sinh",
           "- SGK, vở, bút màu; tranh ảnh hoặc thông tin đã sưu tầm về Thành phố Hồ Chí Minh (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8458,19 +8664,19 @@
               "- HS về nhóm 6, mỗi bạn phụ trách một mảng: kinh tế, văn hoá, giáo dục, di tích, du lịch, người trình bày."
             ],
             [
-              "- GV cho HS đọc câu hỏi SGK: Đọc thông tin và quan sát các hình từ 5 đến 9, hãy nêu những biểu hiện chứng tỏ Thành phố Hồ Chí Minh là trung tâm kinh tế, văn hoá và giáo dục quan trọng của đất nước.\n\nKhung nhiệm vụ SGK",
+              "- GV cho HS đọc câu hỏi SGK: Đọc thông tin và quan sát các hình từ 5 đến 9, hãy nêu những biểu hiện chứng tỏ Thành phố Hồ Chí Minh là trung tâm kinh tế, văn hoá và giáo dục quan trọng của đất nước.\nKhung nhiệm vụ SGK",
               "- HS đọc yêu cầu, xác định nhiệm vụ cần tìm: biểu hiện về kinh tế, biểu hiện về văn hoá, biểu hiện về giáo dục."
             ],
             [
-              "- GV trình chiếu Hình 5, Hình 6 và yêu cầu nhóm thảo luận: Thành phố Hồ Chí Minh có những biểu hiện nào về trung tâm kinh tế?\n\nHình 5, 6. Biểu hiện về kinh tế",
+              "- GV trình chiếu Hình 5, Hình 6 và yêu cầu nhóm thảo luận: Thành phố Hồ Chí Minh có những biểu hiện nào về trung tâm kinh tế?\nHình 5, 6. Biểu hiện về kinh tế",
               "- HS quan sát hình, nêu được: có cảng quốc tế, khu công nghiệp, khu công nghệ cao, trung tâm tài chính, thương mại, nhiều hoạt động kinh tế phát triển."
             ],
             [
-              "- GV trình chiếu Hình 7. Đại học Quốc gia Thành phố Hồ Chí Minh và yêu cầu HS nêu biểu hiện về giáo dục.\n\nHình 7. Đại học Quốc gia Thành phố Hồ Chí Minh",
+              "- GV trình chiếu Hình 7. Đại học Quốc gia Thành phố Hồ Chí Minh và yêu cầu HS nêu biểu hiện về giáo dục.\nHình 7. Đại học Quốc gia Thành phố Hồ Chí Minh",
               "- HS nêu: Thành phố Hồ Chí Minh có nhiều trường đại học, viện nghiên cứu, thu hút đông đảo sinh viên trong nước và quốc tế theo học."
             ],
             [
-              "- GV trình chiếu Hình 8, Hình 9 và yêu cầu HS nêu biểu hiện về văn hoá, du lịch.\n\nHình 8, 9. Di tích và khu du lịch",
+              "- GV trình chiếu Hình 8, Hình 9 và yêu cầu HS nêu biểu hiện về văn hoá, du lịch.\nHình 8, 9. Di tích và khu du lịch",
               "- HS nêu: Thành phố Hồ Chí Minh có nhiều di tích lịch sử - văn hoá, bảo tàng, khu vui chơi, khu du lịch, công trình văn hoá phục vụ nhân dân và du khách."
             ],
             [
@@ -8497,7 +8703,7 @@
               "3. LUYỆN TẬP (5 phút)\n- Mục tiêu: Củng cố kiến thức bằng bảng phân loại biểu hiện của Thành phố Hồ Chí Minh."
             ],
             [
-              "- GV cho HS quan sát khung Luyện tập trong SGK và đọc yêu cầu: Lập và hoàn thiện bảng về những biểu hiện chứng tỏ Thành phố Hồ Chí Minh là một trung tâm kinh tế, văn hoá, giáo dục lớn của đất nước.\n\nKhung Luyện tập, Vận dụng trong SGK",
+              "- GV cho HS quan sát khung Luyện tập trong SGK và đọc yêu cầu: Lập và hoàn thiện bảng về những biểu hiện chứng tỏ Thành phố Hồ Chí Minh là một trung tâm kinh tế, văn hoá, giáo dục lớn của đất nước.\nKhung Luyện tập, Vận dụng trong SGK",
               "- HS quan sát khung luyện tập, xác định cần điền biểu hiện phù hợp với từng lĩnh vực."
             ],
             [
@@ -8525,7 +8731,10 @@
             ]
           ]
         ],
-        "title": "BÀI 25: THÀNH PHỐ HỒ CHÍ MINH (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 26: ĐỊA ĐẠO CỦ CHI",
@@ -8554,9 +8763,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút màu; thông tin, tranh ảnh hoặc câu chuyện sưu tầm về Địa đạo Củ Chi nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ............................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8568,7 +8776,7 @@
               "1. KHỞI ĐỘNG (5 phút)\n- Mục tiêu: Khơi gợi hiểu biết ban đầu của HS về Địa đạo Củ Chi và tạo hứng thú tìm hiểu bài học."
             ],
             [
-              "- GV cho HS quan sát khung khởi động trong SGK và nêu câu hỏi: Trong cuộc kháng chiến chống Mỹ, cứu nước, quân và dân Củ Chi đã đào hệ thống đường hầm ngầm trong lòng đất. Theo em, hệ thống đường hầm ngầm trong Địa đạo Củ Chi được đào để làm gì? Công trình này gắn liền với những câu chuyện lịch sử nào?\n\nKhung mở đầu bài học trong SGK",
+              "- GV cho HS quan sát khung khởi động trong SGK và nêu câu hỏi: Trong cuộc kháng chiến chống Mỹ, cứu nước, quân và dân Củ Chi đã đào hệ thống đường hầm ngầm trong lòng đất. Theo em, hệ thống đường hầm ngầm trong Địa đạo Củ Chi được đào để làm gì? Công trình này gắn liền với những câu chuyện lịch sử nào?\nKhung mở đầu bài học trong SGK",
               "- HS suy nghĩ cá nhân, nêu hiểu biết ban đầu: dùng để trú ẩn, chiến đấu, đi lại bí mật, bảo vệ lực lượng cách mạng; gắn với cuộc kháng chiến chống Mỹ, cứu nước."
             ],
             [
@@ -8583,7 +8791,7 @@
               "- HS xác định nhiệm vụ: quan sát lược đồ, đọc thông tin, xác định vị trí và mô tả các công trình tiêu biểu."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 1 và đọc câu hỏi SGK: Quan sát hình 1, em hãy xác định vị trí địa lí của Địa đạo Củ Chi. Đọc thông tin và quan sát các hình 2, 3, em hãy: Kể tên một số công trình tiêu biểu trong Địa đạo Củ Chi; Mô tả một công trình mà em ấn tượng nhất.\n\nHình 1. Lược đồ thể hiện vị trí địa lí của Địa đạo Củ Chi",
+              "- GV yêu cầu HS quan sát Hình 1 và đọc câu hỏi SGK: Quan sát hình 1, em hãy xác định vị trí địa lí của Địa đạo Củ Chi. Đọc thông tin và quan sát các hình 2, 3, em hãy: Kể tên một số công trình tiêu biểu trong Địa đạo Củ Chi; Mô tả một công trình mà em ấn tượng nhất.\nHình 1. Lược đồ thể hiện vị trí địa lí của Địa đạo Củ Chi",
               "- HS quan sát lược đồ, xác định Địa đạo Củ Chi ở phía tây bắc Thành phố Hồ Chí Minh; đọc thông tin để nắm cấu trúc địa đạo gồm nhiều tầng, đường hầm, hầm cứu thương, bếp Hoàng Cầm, hầm chỉ huy,..."
             ],
             [
@@ -8591,7 +8799,7 @@
               "- HS làm việc nhóm 4, phân công nhiệm vụ, đọc thông tin SGK, quan sát hình và ghi ý chính vào phiếu học tập."
             ],
             [
-              "- GV cho HS quan sát Hình 2. Hầm cứu thương và Hình 3. Bếp Hoàng Cầm; yêu cầu các nhóm mô tả công trình mà nhóm được phân công.\n\nHình 2. Hầm cứu thương\n\nHình 3. Bếp Hoàng Cầm",
+              "- GV cho HS quan sát Hình 2. Hầm cứu thương và Hình 3. Bếp Hoàng Cầm; yêu cầu các nhóm mô tả công trình mà nhóm được phân công.\nHình 2. Hầm cứu thương\nHình 3. Bếp Hoàng Cầm",
               "- HS mô tả: hầm cứu thương dùng để chăm sóc, cứu chữa thương binh; bếp Hoàng Cầm giúp nấu ăn trong lòng đất, hạn chế khói để tránh bị phát hiện."
             ],
             [
@@ -8615,7 +8823,7 @@
               "- HS chuẩn bị đọc câu chuyện và kể lại theo lời của mình."
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện trong SGK và thực hiện nhiệm vụ: Đọc thông tin và các câu chuyện dưới đây, em hãy kể lại một câu chuyện về Địa đạo Củ Chi. Nêu cảm nghĩ của em về câu chuyện đó.\n\nCâu chuyện lịch sử: Đào hầm ở Địa đạo Củ Chi",
+              "- GV yêu cầu HS đọc câu chuyện trong SGK và thực hiện nhiệm vụ: Đọc thông tin và các câu chuyện dưới đây, em hãy kể lại một câu chuyện về Địa đạo Củ Chi. Nêu cảm nghĩ của em về câu chuyện đó.\nCâu chuyện lịch sử: Đào hầm ở Địa đạo Củ Chi",
               "- HS đọc câu chuyện “Đào hầm ở Địa đạo Củ Chi”, xác định các ý: cách đào hầm, sự vất vả, tinh thần sáng tạo và ý chí chiến đấu."
             ],
             [
@@ -8627,7 +8835,7 @@
               "- HS kể chuyện trước lớp; HS khác nhận xét và nêu cảm nghĩ: khâm phục, biết ơn, tự hào về quân dân Củ Chi."
             ],
             [
-              "- GV giới thiệu thêm khung “Cuộc chiến trong lòng đất” để HS thấy sự ác liệt của chiến tranh và sự kiên cường của quân dân Củ Chi.\n\nKhung thông tin: Cuộc chiến trong lòng đất",
+              "- GV giới thiệu thêm khung “Cuộc chiến trong lòng đất” để HS thấy sự ác liệt của chiến tranh và sự kiên cường của quân dân Củ Chi.\nKhung thông tin: Cuộc chiến trong lòng đất",
               "- HS quan sát, đọc thông tin, hiểu quân dân Củ Chi đã vượt qua nhiều thủ đoạn phá hoại để giữ vững căn cứ cách mạng."
             ],
             [
@@ -8638,7 +8846,7 @@
               "3. LUYỆN TẬP (5 phút)\n- Mục tiêu: Củng cố kiến thức về một số công trình tiêu biểu trong Địa đạo Củ Chi."
             ],
             [
-              "- GV cho HS quan sát khung Luyện tập trong SGK và nêu yêu cầu: Lập và hoàn thiện bảng về một số công trình tiêu biểu trong Địa đạo Củ Chi.\n\nKhung Luyện tập, Vận dụng trong SGK",
+              "- GV cho HS quan sát khung Luyện tập trong SGK và nêu yêu cầu: Lập và hoàn thiện bảng về một số công trình tiêu biểu trong Địa đạo Củ Chi.\nKhung Luyện tập, Vận dụng trong SGK",
               "- HS quan sát khung luyện tập, xác định cần điền tên công trình và chức năng của công trình."
             ],
             [
@@ -8662,7 +8870,10 @@
             ]
           ]
         ],
-        "title": "BÀI 26: ĐỊA ĐẠO CỦ CHI"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8671,7 +8882,7 @@
     "sourceFile": "LSĐL TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4",
+        "lessonTitle": "TUẦN 34 - BÀI 27: ÔN TẬP (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8685,10 +8896,7 @@
           "3. Phẩm chất",
           "- Yêu nước: yêu quê hương, yêu Tổ quốc; tự hào về các vùng miền của đất nước.",
           "- Chăm chỉ: tích cực tham gia hoạt động ôn tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: có ý thức giữ gìn di sản, cảnh quan, truyền thống văn hoá và lịch sử của dân tộc.",
-          "- Hệ thống hoá được kiến thức trọng tâm về vùng Bắc Trung Bộ và Nam Trung Bộ, vùng Nam Bộ qua hoạt động đóng vai hướng dẫn viên du lịch.",
-          "- Giới thiệu được một vùng đã học theo gợi ý: tên vùng, danh lam thắng cảnh/di tích, câu chuyện lịch sử, lí do yêu thích và cảm nghĩ của bản thân.",
-          "- Biết vận dụng kiến thức lịch sử, địa lí đã học để chia sẻ, nhận xét và hoàn thiện sản phẩm ôn tập."
+          "- Trách nhiệm: có ý thức giữ gìn di sản, cảnh quan, truyền thống văn hoá và lịch sử của dân tộc."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -8697,19 +8905,10 @@
           "- Hình ảnh/khung bài tập ôn tập trong SGK Bài 27.",
           "2. Học sinh",
           "- SGK, vở ghi, bút màu.",
-          "- Tranh ảnh, tư liệu theo sự phân công của giáo viên nếu có.",
-          "1. Giáo viên",
-          "- SGK, SGV Lịch sử và Địa lí 4; bản đồ hành chính Việt Nam, bản đồ tự nhiên Việt Nam treo tường.",
-          "- Tranh ảnh, tư liệu về vùng Bắc Trung Bộ và Nam Trung Bộ, vùng Nam Bộ; phiếu học tập, bảng phụ, máy chiếu nếu có.",
-          "- Hình ảnh/khung bài tập ôn tập trong SGK Bài 27.",
-          "2. Học sinh",
-          "- SGK, vở ghi, bút màu.",
           "- Tranh ảnh, tư liệu theo sự phân công của giáo viên nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8718,7 +8917,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)- Mục tiêu: Tạo hứng thú ôn tập, khơi gợi lại kiến thức về các vùng đã học."
+              "1. KHỞI ĐỘNG (5 phút)\n- Mục tiêu: Tạo hứng thú ôn tập, khơi gợi lại kiến thức về các vùng đã học."
             ],
             [
               "- GV tổ chức trò chơi “Ô chữ vùng miền”: nêu nhanh tên di sản, lễ hội, nhân vật hoặc địa danh; yêu cầu HS đoán thuộc vùng Bắc Trung Bộ và Nam Trung Bộ hay vùng Nam Bộ.",
@@ -8729,10 +8928,10 @@
               "- HS lắng nghe, xác định nhiệm vụ ôn tập của tiết học."
             ],
             [
-              "2. KHÁM PHÁ/LUYỆN TẬP (22 phút)- Mục tiêu: Lựa chọn thông tin phù hợp với hai vùng và hoàn thành bảng so sánh kiến thức trọng tâm."
+              "2. KHÁM PHÁ/LUYỆN TẬP (22 phút)\n- Mục tiêu: Lựa chọn thông tin phù hợp với hai vùng và hoàn thành bảng so sánh kiến thức trọng tâm."
             ],
             [
-              "Hoạt động 1: Lựa chọn thông tin phù hợp với hai vùng. GV yêu cầu HS quan sát Câu 1 trong SGK và đọc yêu cầu: Lựa chọn thông tin phù hợp với hai vùng và ghi kết quả vào vở.\n\nCâu 1 trong SGK",
+              "Hoạt động 1: Lựa chọn thông tin phù hợp với hai vùng. GV yêu cầu HS quan sát Câu 1 trong SGK và đọc yêu cầu: Lựa chọn thông tin phù hợp với hai vùng và ghi kết quả vào vở.\nCâu 1 trong SGK",
               "- HS quan sát Câu 1 trong SGK, xác định có hai vùng cần phân loại: A. Vùng Bắc Trung Bộ và Nam Trung Bộ; B. Vùng Nam Bộ."
             ],
             [
@@ -8748,7 +8947,7 @@
               "- HS đối chiếu đáp án, sửa bài vào vở và ghi nhớ cách phân biệt thông tin theo vùng."
             ],
             [
-              "Hoạt động 2: Hoàn thành bảng so sánh hai vùng. GV yêu cầu HS quan sát Câu 2 trong SGK và đọc yêu cầu: Hoàn thành bảng về vùng Bắc Trung Bộ và Nam Trung Bộ, vùng Nam Bộ vào vở.\n\nCâu 2 trong SGK",
+              "Hoạt động 2: Hoàn thành bảng so sánh hai vùng. GV yêu cầu HS quan sát Câu 2 trong SGK và đọc yêu cầu: Hoàn thành bảng về vùng Bắc Trung Bộ và Nam Trung Bộ, vùng Nam Bộ vào vở.\nCâu 2 trong SGK",
               "- HS đọc yêu cầu, xác định các nội dung cần so sánh: địa hình, khí hậu, dân cư, một số nét văn hoá."
             ],
             [
@@ -8768,7 +8967,7 @@
               "- HS lắng nghe, hoàn thiện phiếu học tập và ghi nhớ kiến thức trọng tâm."
             ],
             [
-              "3. LUYỆN TẬP (5 phút)- Mục tiêu: Củng cố kiến thức bằng hoạt động hỏi - đáp nhanh."
+              "3. LUYỆN TẬP (5 phút)\n- Mục tiêu: Củng cố kiến thức bằng hoạt động hỏi - đáp nhanh."
             ],
             [
               "- GV tổ chức hỏi - đáp nhanh: nêu một đặc điểm, HS giơ thẻ A hoặc B để xác định vùng tương ứng.",
@@ -8779,7 +8978,7 @@
               "- HS lắng nghe, tự điều chỉnh những nội dung còn nhầm lẫn."
             ],
             [
-              "4. VẬN DỤNG (3 phút)- Mục tiêu: Chuẩn bị nội dung giới thiệu một vùng em yêu thích ở tiết sau."
+              "4. VẬN DỤNG (3 phút)\n- Mục tiêu: Chuẩn bị nội dung giới thiệu một vùng em yêu thích ở tiết sau."
             ],
             [
               "- GV giao nhiệm vụ: mỗi HS chọn một vùng yêu thích, chuẩn bị 3 ý: tên vùng, một danh lam thắng cảnh/di tích, một lí do em yêu thích vùng đó.",
@@ -8789,14 +8988,50 @@
               "- GV dặn dò ngắn gọn: hoàn thiện Câu 1, Câu 2 trong vở và chuẩn bị phần đóng vai hướng dẫn viên du lịch.",
               "- HS lắng nghe, chuẩn bị bài ở nhà."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "TUẦN 34 - BÀI 27: ÔN TẬP (TIẾT 2)",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Hệ thống hoá được kiến thức trọng tâm về vùng Bắc Trung Bộ và Nam Trung Bộ, vùng Nam Bộ qua hoạt động đóng vai hướng dẫn viên du lịch.",
+          "- Giới thiệu được một vùng đã học theo gợi ý: tên vùng, danh lam thắng cảnh/di tích, câu chuyện lịch sử, lí do yêu thích và cảm nghĩ của bản thân.",
+          "- Biết vận dụng kiến thức lịch sử, địa lí đã học để chia sẻ, nhận xét và hoàn thiện sản phẩm ôn tập.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: chủ động đọc lại SGK, quan sát bảng/hình ảnh và hoàn thành nhiệm vụ ôn tập.",
+          "- Giao tiếp và hợp tác: biết trao đổi trong nhóm, lắng nghe, nhận xét và bổ sung ý kiến cho bạn.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn thông tin phù hợp, trình bày kiến thức bằng bảng, sơ đồ hoặc lời giới thiệu ngắn.",
+          "3. Phẩm chất",
+          "- Yêu nước: yêu quê hương, yêu Tổ quốc; tự hào về các vùng miền của đất nước.",
+          "- Chăm chỉ: tích cực tham gia hoạt động ôn tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: có ý thức giữ gìn di sản, cảnh quan, truyền thống văn hoá và lịch sử của dân tộc."
+        ],
+        "dodung": [
+          "1. Giáo viên",
+          "- SGK, SGV Lịch sử và Địa lí 4; bản đồ hành chính Việt Nam, bản đồ tự nhiên Việt Nam treo tường.",
+          "- Tranh ảnh, tư liệu về vùng Bắc Trung Bộ và Nam Trung Bộ, vùng Nam Bộ; phiếu học tập, bảng phụ, máy chiếu nếu có.",
+          "- Hình ảnh/khung bài tập ôn tập trong SGK Bài 27.",
+          "2. Học sinh",
+          "- SGK, vở ghi, bút màu.",
+          "- Tranh ảnh, tư liệu theo sự phân công của giáo viên nếu có."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)- Mục tiêu: Ôn lại nhanh nội dung tiết 1 và tạo tâm thế cho hoạt động giới thiệu vùng miền."
+              "1. KHỞI ĐỘNG (5 phút)\n- Mục tiêu: Ôn lại nhanh nội dung tiết 1 và tạo tâm thế cho hoạt động giới thiệu vùng miền."
             ],
             [
               "- GV tổ chức trò chơi “Tôi là hướng dẫn viên”: mỗi HS nêu một địa danh hoặc nét văn hoá đã học, cả lớp đoán vùng tương ứng.",
@@ -8807,10 +9042,10 @@
               "- HS lắng nghe, chuẩn bị nội dung đã sưu tầm hoặc đã ghi ở tiết trước."
             ],
             [
-              "2. KHÁM PHÁ/LUYỆN TẬP (20 phút)- Mục tiêu: Đóng vai hướng dẫn viên du lịch, giới thiệu được một vùng đã học theo gợi ý trong SGK."
+              "2. KHÁM PHÁ/LUYỆN TẬP (20 phút)\n- Mục tiêu: Đóng vai hướng dẫn viên du lịch, giới thiệu được một vùng đã học theo gợi ý trong SGK."
             ],
             [
-              "Hoạt động 3: Đóng vai hướng dẫn viên du lịch giới thiệu một vùng em yêu thích. GV yêu cầu HS quan sát Câu 3 trong SGK và đọc yêu cầu: Đóng vai hướng dẫn viên du lịch, giới thiệu về một vùng mà em yêu thích.\n\nCâu 3 trong SGK",
+              "Hoạt động 3: Đóng vai hướng dẫn viên du lịch giới thiệu một vùng em yêu thích. GV yêu cầu HS quan sát Câu 3 trong SGK và đọc yêu cầu: Đóng vai hướng dẫn viên du lịch, giới thiệu về một vùng mà em yêu thích.\nCâu 3 trong SGK",
               "- HS quan sát Câu 3 trong SGK, xác định các gợi ý cần có trong bài giới thiệu: tên vùng, danh lam thắng cảnh/di tích, câu chuyện lịch sử, lí do yêu thích, cảm nghĩ."
             ],
             [
@@ -8834,7 +9069,7 @@
               "- HS lắng nghe, ghi nhớ cách giới thiệu một vùng miền đúng, ngắn gọn và có cảm xúc."
             ],
             [
-              "3. LUYỆN TẬP (7 phút)- Mục tiêu: Củng cố kiến thức bằng bảng hệ thống và câu hỏi vận dụng ngắn."
+              "3. LUYỆN TẬP (7 phút)\n- Mục tiêu: Củng cố kiến thức bằng bảng hệ thống và câu hỏi vận dụng ngắn."
             ],
             [
               "- GV phát phiếu “3 điều em nhớ”: yêu cầu HS ghi 1 đặc điểm tự nhiên, 1 nét văn hoá và 1 sự kiện/nhân vật lịch sử mà em ấn tượng nhất sau chủ đề.",
@@ -8849,7 +9084,7 @@
               "- HS ghi nhớ nội dung trọng tâm để chuẩn bị kiểm tra cuối năm."
             ],
             [
-              "4. VẬN DỤNG (3 phút)- Mục tiêu: Tự đánh giá kết quả ôn tập và chuẩn bị kiểm tra cuối năm."
+              "4. VẬN DỤNG (3 phút)\n- Mục tiêu: Tự đánh giá kết quả ôn tập và chuẩn bị kiểm tra cuối năm."
             ],
             [
               "- GV yêu cầu HS tự đánh giá bằng tín hiệu tay: đã nhớ tốt, còn cần ôn thêm hoặc cần GV hỗ trợ phần nào.",
@@ -8861,7 +9096,10 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ LỚP 4"
+        "dieuchinh": [
+          "(NẾU CÓ)",
+          "- ...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -8870,9 +9108,12 @@
     "sourceFile": "LSĐL TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "MA TRẬN ĐỀ KIỂM TRA CUỐI NĂM",
+        "lessonTitle": "Bài học Tiết 1 (Tuần 35)",
         "topic": "",
         "yccd": [
+          "MA TRẬN ĐỀ KIỂM TRA CUỐI NĂM",
+          "Môn: Lịch sử và Địa lí lớp 4 - Thời gian: 40 phút - Thang điểm: 10 điểm",
+          "Ghi chú: TN là trắc nghiệm; TL là tự luận. Đề không bố trí nội dung tích hợp, chỉ đánh giá yêu cầu cần đạt của môn học.",
           "BẢN ĐẶC TẢ ĐỀ KIỂM TRA CUỐI NĂM",
           "ĐỀ KIỂM TRA CUỐI NĂM",
           "Môn: Lịch sử và Địa lí lớp 4 - Thời gian làm bài: 40 phút",
@@ -8923,39 +9164,50 @@
           "B. TỰ LUẬN (6 điểm)",
           "Câu 9. (2 điểm) Nêu hai thuận lợi và hai khó khăn của môi trường thiên nhiên vùng Nam Bộ đối với sản xuất và sinh hoạt của người dân.",
           "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
           "Câu 10. (1,5 điểm) Kể tên ba hoạt động sản xuất tiêu biểu ở vùng Nam Bộ và nêu một sản phẩm hoặc nơi phân bố phù hợp với mỗi hoạt động đó.",
+          "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
           "Câu 11. (1,5 điểm) Theo em, học sinh cần làm gì để góp phần bảo tồn và phát huy giá trị của Cố đô Huế, phố cổ Hội An hoặc lễ hội Cồng chiêng Tây Nguyên? Nêu ít nhất ba việc làm cụ thể.",
+          "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
           "Câu 12. (1 điểm) Viết đoạn văn ngắn 4 - 5 câu thể hiện mong muốn của em về Thành phố Hồ Chí Minh trong tương lai.",
+          "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
+          "...........................................................................................................................................................",
           "ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM",
+          "A. TRẮC NGHIỆM (4 điểm)",
           "Mỗi câu đúng được 0,5 điểm.",
+          "B. TỰ LUẬN (6 điểm)",
           "Lưu ý khi chấm:",
           "- HS có cách diễn đạt khác nhưng đúng ý vẫn cho điểm tối đa theo từng ý.",
           "- Câu tự luận được chấm linh hoạt theo mức độ đầy đủ, chính xác, rõ ràng của câu trả lời.",
           "- Bài làm trình bày sạch đẹp, rõ ràng có thể được ghi nhận trong phần nhận xét; không cộng quá thang điểm 10."
         ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Lịch sử và Địa lý.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
+        "dodung": [],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
               "Mạch nội dung",
-              "Nhận biết(Số câu/điểm)",
-              "Thông hiểu(Số câu/điểm)",
-              "Vận dụng(Số câu/điểm)",
-              "Vận dụng cao(Số câu/điểm)",
+              "Nhận biết\n(Số câu/điểm)",
+              "Thông hiểu\n(Số câu/điểm)",
+              "Vận dụng\n(Số câu/điểm)",
+              "Vận dụng cao\n(Số câu/điểm)",
               "Tổng số câu",
               "Tổng điểm",
               "Tỉ lệ"
             ],
             [
               "Bắc Trung Bộ và Nam Trung Bộ: thiên nhiên, văn hoá, Cố đô Huế, Hội An, Cồng chiêng Tây Nguyên",
-              "4 TN2,0",
-              "1 TN0,5",
-              "1 TL1,5",
+              "4 TN\n2,0",
+              "1 TN\n0,5",
+              "1 TL\n1,5",
               "",
               "6",
               "4,0",
@@ -8964,8 +9216,8 @@
             [
               "Nam Bộ: thiên nhiên, dân cư, hoạt động sản xuất, văn hoá Nam Bộ",
               "",
-              "3 TN + 1 TL3,5",
-              "1 TL1,5",
+              "3 TN + 1 TL\n3,5",
+              "1 TL\n1,5",
               "",
               "5",
               "5,0",
@@ -8976,17 +9228,17 @@
               "",
               "",
               "",
-              "1 TL1,0",
+              "1 TL\n1,0",
               "1",
               "1,0",
               "10%"
             ],
             [
               "Tổng",
-              "4 câu2,0",
-              "5 câu4,0",
-              "2 câu3,0",
-              "1 câu1,0",
+              "4 câu\n2,0",
+              "5 câu\n4,0",
+              "2 câu\n3,0",
+              "1 câu\n1,0",
               "12",
               "10,0",
               "100%"
@@ -9100,7 +9352,7 @@
             ]
           ]
         ],
-        "title": "MA TRẬN ĐỀ KIỂM TRA CUỐI NĂM"
+        "dieuchinh": []
       }
     ]
   }

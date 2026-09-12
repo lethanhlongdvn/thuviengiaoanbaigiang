@@ -17,7 +17,6 @@
         "lessonTitle": "BÀI 1: THÀNH PHẦN VÀ VAI TRÒ CỦA ĐẤT ĐỐI VỚI CÂY TRỒNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 1",
           "1. Năng lực đặc thù",
           "- Nêu được một số thành phần của đất: chất khoáng, mùn, nước, không khí và một số thành phần khác.",
           "- Thực hiện và quan sát được thí nghiệm đơn giản để nhận biết trong đất có không khí.",
@@ -39,10 +38,6 @@
           "- HS: SGK, vở ghi, bút, phiếu học tập; mẫu đất nhỏ, tranh ảnh hoặc vật thật về các loại đất theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -213,13 +208,15 @@
             ]
           ]
         ],
-        "title": "BÀI 1: THÀNH PHẦN VÀ VAI TRÒ CỦA ĐẤT ĐỐI VỚI CÂY TRỒNG (TIẾT 1)"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 1: THÀNH PHẦN VÀ VAI TRÒ CỦA ĐẤT ĐỐI VỚI CÂY TRỒNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 1",
           "1. Năng lực đặc thù",
           "- Trình bày được vai trò của đất đối với cây trồng: giữ cho cây đứng vững, cung cấp chất khoáng, mùn, nước, không khí giúp cây sống và phát triển.",
           "- Quan sát hình ảnh để giải thích rễ cây lấy những chất cần thiết từ đất và vì sao cây không bị đổ.",
@@ -241,10 +238,6 @@
           "- HS: SGK, vở ghi, bút, thông tin đã sưu tầm về đất trồng cây ở gia đình hoặc địa phương."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -388,7 +381,10 @@
             ]
           ]
         ],
-        "title": "BÀI 1: THÀNH PHẦN VÀ VAI TRÒ CỦA ĐẤT ĐỐI VỚI CÂY TRỒNG (TIẾT 2)"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -400,7 +396,6 @@
         "lessonTitle": "BÀI 2: Ô NHIỄM, XÓI MÒN ĐẤT VÀ BẢO VỆ MÔI TRƯỜNG ĐẤT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 2",
           "1. Năng lực đặc thù",
           "- Nêu được một số nguyên nhân gây ô nhiễm đất do con người và do hiện tượng tự nhiên.",
           "- Trình bày được một số tác hại của ô nhiễm đất đối với thực vật, động vật và sức khỏe con người.",
@@ -422,10 +417,6 @@
           "- HS: SGK, vở ghi, bút; tranh ảnh, thông tin sưu tầm về nguyên nhân, tác hại và biện pháp phòng chống ô nhiễm đất; kết quả điều tra một số việc làm gây ô nhiễm đất ở gia đình hoặc địa phương."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -596,13 +587,15 @@
             ]
           ]
         ],
-        "title": "BÀI 2: Ô NHIỄM, XÓI MÒN ĐẤT VÀ BẢO VỆ MÔI TRƯỜNG ĐẤT (TIẾT 1)"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 2: Ô NHIỄM, XÓI MÒN ĐẤT VÀ BẢO VỆ MÔI TRƯỜNG ĐẤT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 2",
           "1. Năng lực đặc thù",
           "- Nêu được một số nguyên nhân gây xói mòn đất do nước chảy, gió, độ dốc của đất và hoạt động chặt phá rừng của con người.",
           "- Trình bày được một số tác hại của xói mòn đất đối với thực vật, động vật và đời sống sinh hoạt của con người.",
@@ -624,10 +617,6 @@
           "- HS: SGK, vở ghi, bút; thông tin sưu tầm về nguyên nhân, tác hại và biện pháp phòng chống xói mòn đất; một số ví dụ về hiện tượng xói mòn đất ở địa phương nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -798,7 +787,10 @@
             ]
           ]
         ],
-        "title": "BÀI 2: Ô NHIỄM, XÓI MÒN ĐẤT VÀ BẢO VỆ MÔI TRƯỜNG ĐẤT (TIẾT 2)"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -810,7 +802,6 @@
         "lessonTitle": "BÀI 2: Ô NHIỄM, XÓI MÒN ĐẤT VÀ BẢO VỆ MÔI TRƯỜNG ĐẤT (TIẾT 3)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 3",
           "1. Năng lực đặc thù",
           "- Nêu được ý nghĩa của một số hoạt động bảo vệ môi trường đất qua tranh, ảnh và thông tin trong SGK.",
           "- Kể được những việc bản thân đã làm để bảo vệ môi trường đất ở lớp học, gia đình và địa phương.",
@@ -832,10 +823,6 @@
           "- HS: SGK, vở ghi, bút; tranh ảnh, thông tin sưu tầm về bảo vệ môi trường đất; một số việc bản thân đã làm hoặc đề xuất để bảo vệ môi trường đất ở gia đình, trường học, địa phương."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1033,13 +1020,15 @@
             ]
           ]
         ],
-        "title": "BÀI 2: Ô NHIỄM, XÓI MÒN ĐẤT VÀ BẢO VỆ MÔI TRƯỜNG ĐẤT (TIẾT 3)"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 3: HỖN HỢP VÀ DUNG DỊCH (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 3",
           "1. Năng lực đặc thù",
           "- Phân biệt được hỗn hợp và dung dịch từ các ví dụ đã cho trong SGK và trong cuộc sống.",
           "- Thực hiện được thí nghiệm tạo hỗn hợp muối ăn với hạt tiêu và thí nghiệm tạo dung dịch muối với nước.",
@@ -1061,10 +1050,6 @@
           "- HS: SGK, vở ghi, bút; dụng cụ thí nghiệm theo phân công của nhóm; ví dụ sưu tầm về hỗn hợp, dung dịch trong cuộc sống; chuẩn bị tinh thần thực hiện nhiệm vụ chụp ảnh, chú thích quy trình học tập theo hướng dẫn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1247,7 +1232,10 @@
             ]
           ]
         ],
-        "title": "BÀI 3: HỖN HỢP VÀ DUNG DỊCH (TIẾT 1)"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1259,12 +1247,12 @@
         "lessonTitle": "BÀI 3: HỖN HỢP VÀ DUNG DỊCH (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 4: Bài học STEM: Tách muối ra khỏi dung dịch",
           "1. Năng lực đặc thù",
           "- Thực hành được cách tách muối ra khỏi dung dịch muối bằng dụng cụ đơn giản và bảo đảm an toàn.",
           "- Giải thích được trong quá trình đun nóng hoặc làm bay hơi, nước bay hơi còn muối kết tinh lại.",
           "- Vận dụng kiến thức về hỗn hợp, dung dịch và sự bay hơi để đề xuất, thực hiện, trình bày quy trình tách muối ra khỏi dung dịch.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: chuẩn bị dụng cụ, đọc yêu cầu, tự theo dõi các bước thực hành và điều chỉnh cách làm khi cần.",
           "- Giao tiếp và hợp tác: trao đổi trong nhóm, phân công nhiệm vụ, lắng nghe góp ý khi phác thảo và thực hành.",
           "- Giải quyết vấn đề và sáng tạo: lựa chọn phương án làm nước bay hơi, dự đoán kết quả, giải thích hiện tượng và cải tiến cách làm.",
           "3. Phẩm chất",
@@ -1272,17 +1260,15 @@
           "- Trách nhiệm: sử dụng dụng cụ thí nghiệm đúng hướng dẫn, giữ vệ sinh và bảo đảm an toàn cho bản thân, nhóm bạn.",
           "- Trung thực: ghi nhận đúng kết quả quan sát, trình bày trung thực sản phẩm và kết quả thực hành của nhóm.",
           "4. Tích hợp",
-          "- Tích hợp STEM: HS vận dụng kiến thức Khoa học về hỗn hợp, dung dịch và sự bay hơi, kết hợp thao tác đo lường, phác thảo ý tưởng, thử nghiệm, đánh giá để tách muối ra khỏi dung dịch."
+          "- Tích hợp STEM: HS vận dụng kiến thức Khoa học về hỗn hợp, dung dịch và sự bay hơi, kết hợp thao tác đo lường, phác thảo ý tưởng, thử nghiệm, đánh giá để tách muối ra khỏi dung dịch.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Thực hành bảo vệ nguồn nước ngọt, không làm ô nhiễm nguồn nước ngầm và nguồn nước mặt dùng trong sinh hoạt.",
+          "- Giáo dục địa phương (Chủ đề 1): Liên hệ nguồn nước tự nhiên tại tỉnh Trà Vinh (nước ngầm, nước mặt sông Cổ Chiên, sông Hậu) và hiện tượng xâm nhập mặn mùa khô làm tăng độ mặn của nước."
         ],
         "dodung": [
           "- GV: SGK, SGV, bài trình chiếu STEM “Tách muối ra khỏi dung dịch”, phiếu học tập, bảng tiêu chí, muối, nước, cốc thủy tinh, bát sứ, kiềng, lưới tản nhiệt, cốc nến hoặc đèn cồn, bật lửa, khăn lau.",
           "- HS: SGK, vở ghi, bút, bảng nhóm, phiếu phác thảo ý tưởng, dụng cụ học tập cá nhân và tinh thần làm việc nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ......................................................................................................................",
-          "- ......................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1421,18 +1407,24 @@
               "- HS lắng nghe, ghi nhớ kết luận của bài học."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 1) & Mizuiku: GV liên hệ thực tế hiện tượng bay hơi và độ mặn: Ở vùng ven biển Trà Vinh (như Duyên Hải, Ba Động), vào mùa khô nước biển dâng và xâm nhập mặn vào sông rạch, người dân cần theo dõi độ mặn của nước để tích trữ nước ngọt kịp thời. Em hãy nêu cách giữ gìn và bảo vệ nguồn nước ngọt của gia đình trong mùa khô?",
+              "- HS liên hệ thực tế: đậy kín lu khạp, bồn chứa nước mưa; sử dụng nước ngọt tiết kiệm; không vứt rác, xả nước thải bẩn vào kênh rạch làm ô nhiễm nguồn nước sinh hoạt."
+            ],
+            [
               "- GV dặn HS về nhà quan sát hoặc tìm hiểu thêm nghề làm muối, nhưng không tự làm thí nghiệm với nguồn nhiệt khi không có người lớn.",
               "- HS tiếp nhận nhiệm vụ vận dụng và cam kết thực hiện an toàn."
             ]
           ]
         ],
-        "title": "BÀI 3: HỖN HỢP VÀ DUNG DỊCH (TIẾT 2)"
+        "dieuchinh": [
+          "- ......................................................................................................................",
+          "- ......................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 4: ĐẶC ĐIỂM CỦA CHẤT Ở TRẠNG THÁI RẮN, LỎNG, KHÍ. SỰ BIẾN ĐỔI TRẠNG THÁI CỦA CHẤT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 4",
           "1. Năng lực đặc thù",
           "- Nêu được ở mức độ đơn giản một số đặc điểm của chất ở trạng thái rắn, lỏng, khí.",
           "- Quan sát, so sánh và phân loại được một số chất quen thuộc theo trạng thái rắn, lỏng, khí.",
@@ -1453,10 +1445,6 @@
           "- HS: SGK, vở ghi, bút, bảng nhóm; tranh ảnh, thông tin sưu tầm về sự biến đổi của chất; chuẩn bị dụng cụ thí nghiệm theo phân công của nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ......................................................................................................................",
-          "- ......................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1567,7 +1555,10 @@
             ]
           ]
         ],
-        "title": "BÀI 4: ĐẶC ĐIỂM CỦA CHẤT Ở TRẠNG THÁI RẮN, LỎNG, KHÍ. SỰ BIẾN ĐỔI TRẠNG THÁI CỦA CHẤT (TIẾT 1)"
+        "dieuchinh": [
+          "- ......................................................................................................................",
+          "- ......................................................................................................................"
+        ]
       }
     ]
   },
@@ -1579,12 +1570,12 @@
         "lessonTitle": "BÀI 4: ĐẶC ĐIỂM CỦA CHẤT Ở TRẠNG THÁI RẮN, LỎNG, KHÍ. SỰ BIẾN ĐỔI TRẠNG THÁI CỦA CHẤT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 5",
           "1. Năng lực đặc thù",
           "- Trình bày được ví dụ về sự biến đổi trạng thái của chất.",
           "- Giải thích được một số hiện tượng như nến nóng chảy, nước bay hơi, băng tan.",
           "- Liên hệ được sự biến đổi trạng thái của chất trong đời sống hằng ngày.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: chuẩn bị bài, chủ động đọc thông tin, đặt câu hỏi và tự điều chỉnh cách học.",
           "- Giao tiếp và hợp tác: trao đổi trong nhóm, lắng nghe ý kiến bạn, phân công nhiệm vụ khi thực hành.",
           "- Giải quyết vấn đề và sáng tạo: biết phân tích tình huống, lựa chọn cách trình bày kết quả phù hợp.",
           "3. Phẩm chất",
@@ -1597,10 +1588,6 @@
           "- HS: SGK, vở ghi, bút, phiếu học tập cá nhân."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1717,18 +1704,21 @@
             ]
           ]
         ],
-        "title": "BÀI 4: ĐẶC ĐIỂM CỦA CHẤT Ở TRẠNG THÁI RẮN, LỎNG, KHÍ. SỰ BIẾN ĐỔI TRẠNG THÁI CỦA CHẤT (TIẾT 2)"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       },
       {
         "lessonTitle": "BÀI 5: SỰ BIẾN ĐỔI HOÁ HỌC CỦA CHẤT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "Tuần 5",
           "1. Năng lực đặc thù",
           "- Trình bày được một số ví dụ đơn giản gần gũi với cuộc sống về biến đổi hoá học.",
           "- Nhận biết được dấu hiệu có chất mới tạo thành qua thay đổi màu sắc, mùi, tính chất.",
           "- Phân biệt được một số biến đổi hoá học với biến đổi trạng thái của chất.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: chuẩn bị bài, chủ động đọc thông tin, đặt câu hỏi và tự điều chỉnh cách học.",
           "- Giao tiếp và hợp tác: trao đổi trong nhóm, lắng nghe ý kiến bạn, phân công nhiệm vụ khi thực hành.",
           "- Giải quyết vấn đề và sáng tạo: biết phân tích tình huống, lựa chọn cách trình bày kết quả phù hợp.",
           "3. Phẩm chất",
@@ -1743,10 +1733,6 @@
           "- HS: SGK, vở ghi, bút, phiếu phân loại biến đổi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1863,7 +1849,10 @@
             ]
           ]
         ],
-        "title": "BÀI 5: SỰ BIẾN ĐỔI HOÁ HỌC CỦA CHẤT (TIẾT 1)"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1875,7 +1864,6 @@
         "lessonTitle": "BÀI 5: SỰ BIẾN ĐỔI HOÁ HỌC CỦA CHẤT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "TUẦN 6",
           "1. Năng lực đặc thù",
           "- Thực hiện được một số thí nghiệm biến đổi về chất.",
           "- Trình bày được một số ví dụ đơn giản, gần gũi trong cuộc sống về biến đổi hoá học như đinh bị gỉ, giấy cháy, thanh cháy.",
@@ -1883,6 +1871,7 @@
           "2. Năng lực chung",
           "- Tự chủ và tự học: chuẩn bị dụng cụ, đọc tiêu chí, thực hiện sản phẩm theo hướng dẫn.",
           "- Giao tiếp và hợp tác: thảo luận nhóm, chia sẻ ý tưởng, phân công nhiệm vụ và hỗ trợ bạn khi làm sản phẩm.",
+          "- Giải quyết vấn đề và sáng tạo: lựa chọn vật liệu, thử nghiệm, điều chỉnh cách làm để thông điệp hiện rõ.",
           "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia hoạt động, kiên trì thử nghiệm để hoàn thành sản phẩm.",
           "- Trung thực: ghi nhận đúng kết quả thử nghiệm, không tự ý thay đổi kết quả đánh giá.",
@@ -1895,10 +1884,6 @@
           "- HS: giấy trắng, bút chì, bút màu, phiếu học tập, dụng cụ học tập cá nhân, tinh thần hợp tác trong nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -2023,13 +2008,15 @@
             ]
           ]
         ],
-        "title": "BÀI 5: SỰ BIẾN ĐỔI HOÁ HỌC CỦA CHẤT (TIẾT 2)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 6: ÔN TẬP CHỦ ĐỀ CHẤT",
         "topic": "CHỦ ĐỀ 1: CHẤT",
         "yccd": [
-          "TUẦN 6",
           "1. Năng lực đặc thù",
           "- Tóm tắt được những nội dung chính đã học dưới dạng sơ đồ.",
           "- Vận dụng được kiến thức và kĩ năng của chủ đề vào giải quyết một số tình huống đơn giản trong đời sống.",
@@ -2050,10 +2037,6 @@
           "PHỤ LỤC",
           "Menu thực đơn GV có thể dùng trong hoạt động 2:"
         ],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -2061,7 +2044,7 @@
               "Hoạt động của học sinh"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Giúp HS hứng thú để bắt đầu vào bài học.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Giúp HS hứng thú để bắt đầu vào bài học.\n*Cách tiến hành:"
             ],
             [
               "- GV sử dụng kĩ thuật Tia chớp để tổ chức hoạt động.",
@@ -2110,7 +2093,7 @@
             ],
             [
               "- GV tổ chức cho HS chơi trò chơi Thực khách thông thái. Các nhóm cử đại diện lên chọn một trong số thực đơn của nhà hàng. Mỗi thực đơn có 1 món khai vị, 1 món chính và 1 món tráng miệng. Mỗi món ăn là một phần kiến thức trong chủ đề Chất. GV lồng các bài tập ở các câu 2, 3, 4 SGK và các nội dung kiến thức đã học ở chủ đề này vào thực đơn để HS có thể nói được nhiều nhất các nội dung đã học (GV có thể tham khảo “menu thực đơn” ở Phụ lục).",
-              "- HS tham gia trò chơi theo hướng dẫn của GV.- HS chia các nhóm, đại diện nhóm lên nhận menu thực đơn và dựa vào kiến thức đã học và yêu cầu của GV để cùng nhau chuẩn bị bài thuyết trình về các “món ăn” trong menu của nhóm."
+              "- HS tham gia trò chơi theo hướng dẫn của GV.\n- HS chia các nhóm, đại diện nhóm lên nhận menu thực đơn và dựa vào kiến thức đã học và yêu cầu của GV để cùng nhau chuẩn bị bài thuyết trình về các “món ăn” trong menu của nhóm."
             ],
             [
               "Yêu cầu: Món khai vị chỉ cần nêu khái quát về nội dung yêu cầu trong thực đơn; món chính yêu cầu trình bày cụ thể, chi tiết; món tráng miệng phải giải thích cũng như xử lí một số tình huống đơn giản trong cuộc sống.",
@@ -2132,7 +2115,7 @@
               "3. Vận dụng (5 phút)\nMục tiêu: HS vận dụng kiến thức đã học trong chủ đề Chất để giải ô chữ, tìm từ khoá và giải thích ý nghĩa của từ khoá.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS chơi trò chơi giải ô chữ. Yêu cầu 1 HS lên làm quản trò điều khiển trò chơi với 4 câu hỏi:1. Khi trộn xi măng, cát và nước với nhau sẽ xảy sự biến đổi gì của chất? (Hoá học)2. Hai hay nhiều chất trộn lẫn với nhau trong đó mỗi chất giữ nguyên tính chất của nó được gọi là gì? (Hỗn hợp)3. Đá bị phá vỡ sau một quá trình lâu dài dưới tác động của nhiệt, nước, không khí,... tạo thành gì? (Đất)4. Biến đổi gì xảy ra khi nước bốc hơi thành khí? (Trạng thái)",
+              "- GV tổ chức cho HS chơi trò chơi giải ô chữ. Yêu cầu 1 HS lên làm quản trò điều khiển trò chơi với 4 câu hỏi:\n1. Khi trộn xi măng, cát và nước với nhau sẽ xảy sự biến đổi gì của chất? (Hoá học)\n2. Hai hay nhiều chất trộn lẫn với nhau trong đó mỗi chất giữ nguyên tính chất của nó được gọi là gì? (Hỗn hợp)\n3. Đá bị phá vỡ sau một quá trình lâu dài dưới tác động của nhiệt, nước, không khí,... tạo thành gì? (Đất)\n4. Biến đổi gì xảy ra khi nước bốc hơi thành khí? (Trạng thái)",
               "- HS tham gia chơi giải ô chữ theo hướng dẫn của quản trò, tìm ra được các từ hàng ngang như hình dưới:"
             ],
             [
@@ -2149,7 +2132,10 @@
             ]
           ]
         ],
-        "title": "BÀI 6: ÔN TẬP CHỦ ĐỀ CHẤT"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -2161,7 +2147,6 @@
         "lessonTitle": "BÀI 7: VAI TRÒ CỦA NĂNG LƯỢNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
-          "TUẦN 7",
           "1. Năng lực đặc thù",
           "- Trình bày được một số nguồn năng lượng thông dụng cung cấp cho hoạt động của con người, động vật, thực vật, máy móc trong cuộc sống hằng ngày.",
           "- Nêu được nguồn năng lượng trong một số tình huống, hình ảnh cụ thể: Mặt Trời, thức ăn, nước uống, xăng, điện, gió, nước chảy,...",
@@ -2182,10 +2167,6 @@
           "- HS: SGK, vở ghi, bút, bảng nhóm, phiếu học tập; thông tin hoặc tranh ảnh đã sưu tầm về các nguồn năng lượng trong đời sống."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -2293,13 +2274,15 @@
             ]
           ]
         ],
-        "title": "BÀI 7: VAI TRÒ CỦA NĂNG LƯỢNG (TIẾT 1)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 7: VAI TRÒ CỦA NĂNG LƯỢNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
-          "TUẦN 7",
           "1. Năng lực đặc thù",
           "- Trình bày được việc sử dụng một số nguồn năng lượng thông dụng trong cuộc sống hằng ngày.",
           "- Nêu được một số nguồn năng lượng gia đình sử dụng hằng ngày và việc sử dụng của từng nguồn năng lượng.",
@@ -2320,14 +2303,6 @@
           "- HS: SGK, vở ghi, bút; phiếu giao việc đã chuẩn bị; thông tin quan sát về việc sử dụng năng lượng trong gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "PHỤ LỤC",
-          "Phiếu học tập dùng cho tiết 1",
-          "Phiếu giao việc dùng cho tiết 2",
-          "Em hãy quan sát và ghi chép việc sử dụng năng lượng ở gia đình em theo gợi ý: Nêu những nguồn năng lượng gia đình em sử dụng hằng ngày; mỗi nguồn năng lượng đó được sử dụng vào việc gì?"
-        ],
         "tables": [
           [
             [
@@ -2482,7 +2457,14 @@
             ]
           ]
         ],
-        "title": "BÀI 7: VAI TRÒ CỦA NĂNG LƯỢNG (TIẾT 2)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ....................................................................................................................................................",
+          "PHỤ LỤC",
+          "Phiếu học tập dùng cho tiết 1",
+          "Phiếu giao việc dùng cho tiết 2",
+          "Em hãy quan sát và ghi chép việc sử dụng năng lượng ở gia đình em theo gợi ý: Nêu những nguồn năng lượng gia đình em sử dụng hằng ngày; mỗi nguồn năng lượng đó được sử dụng vào việc gì?"
+        ]
       }
     ]
   },
@@ -2494,7 +2476,6 @@
         "lessonTitle": "BÀI 8: SỬ DỤNG NĂNG LƯỢNG ĐIỆN (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
-          "TUẦN 8",
           "1. Năng lực đặc thù",
           "- Nêu được một số quy tắc cơ bản về an toàn điện và tuân thủ các quy tắc an toàn điện trong tình huống thường gặp.",
           "- Mô tả được điện được truyền từ nơi sản xuất đến nơi tiêu thụ qua nhà máy điện, trạm biến thế, đường dây tải điện và nơi sử dụng điện.",
@@ -2515,10 +2496,6 @@
           "- HS: SGK, vở ghi, bút, bảng nhóm; giấy A3, bút dạ để làm bảng cảnh báo an toàn điện; tinh thần hợp tác khi làm việc nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -2637,13 +2614,15 @@
             ]
           ]
         ],
-        "title": "BÀI 8: SỬ DỤNG NĂNG LƯỢNG ĐIỆN (TIẾT 1)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 8: SỬ DỤNG NĂNG LƯỢNG ĐIỆN (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
-          "TUẦN 8",
           "1. Năng lực đặc thù",
           "- Nêu và thực hiện được việc làm thiết thực để tiết kiệm năng lượng điện ở trường và ở nhà.",
           "- Nêu được các trường hợp sử dụng điện lãng phí ở gia đình và trường học, từ đó đề xuất cách khắc phục hợp lí.",
@@ -2664,10 +2643,6 @@
           "- HS: SGK, vở ghi, bút, bảng cảnh báo an toàn điện đã chuẩn bị; phiếu giao việc về các trường hợp sử dụng điện lãng phí ở gia đình và trường học."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -2778,7 +2753,10 @@
             ]
           ]
         ],
-        "title": "BÀI 8: SỬ DỤNG NĂNG LƯỢNG ĐIỆN (TIẾT 2)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -2790,7 +2768,6 @@
         "lessonTitle": "BÀI 9: MẠCH ĐIỆN ĐƠN GIẢN. VẬT DẪN ĐIỆN VÀ VẬT CÁCH ĐIỆN (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
-          "TUẦN 9",
           "1. Năng lực đặc thù",
           "- Mô tả được cấu tạo và hoạt động của mạch điện thắp sáng gồm nguồn điện, công tắc và bóng đèn.",
           "- Giải thích được vai trò của công tắc trong mạch điện thắp sáng đơn giản.",
@@ -2811,10 +2788,6 @@
           "- HS: SGK, vở ghi, bút, bảng nhóm, phiếu học tập; tinh thần hợp tác và tuân thủ an toàn khi thực hành với mạch điện đơn giản."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -2911,13 +2884,15 @@
             ]
           ]
         ],
-        "title": "BÀI 9: MẠCH ĐIỆN ĐƠN GIẢN. VẬT DẪN ĐIỆN VÀ VẬT CÁCH ĐIỆN (TIẾT 1)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 9: MẠCH ĐIỆN ĐƠN GIẢN. VẬT DẪN ĐIỆN VÀ VẬT CÁCH ĐIỆN (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
-          "TUẦN 9:  BÀI HỌC STEM: MẠCH ĐIỆN ĐƠN GIẢN",
           "1. Năng lực đặc thù",
           "- Mô tả được cấu tạo và hoạt động của mạch điện thắp sáng gồm nguồn điện, công tắc, bóng đèn.",
           "- Giải thích được lí do sử dụng vật dẫn điện, vật cách điện trong một số đồ vật, tình huống thường gặp.",
@@ -2925,7 +2900,9 @@
           "- Đề xuất được ý tưởng làm đèn trung thu.",
           "- Lựa chọn được vật liệu và tiến hành làm được đèn trung thu bằng những dụng cụ đơn giản.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: chuẩn bị dụng cụ, đọc yêu cầu, tự theo dõi các bước thực hành và điều chỉnh cách làm khi cần.",
           "- Giao tiếp và hợp tác: thảo luận nhóm, phân công nhiệm vụ, hỗ trợ bạn trong quá trình thử nghiệm sản phẩm.",
+          "- Giải quyết vấn đề và sáng tạo: lựa chọn vật liệu, kiểm tra mạch điện, điều chỉnh sản phẩm để đèn sáng an toàn.",
           "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia hoạt động, kiên trì thử nghiệm để hoàn thành sản phẩm.",
           "- Trách nhiệm: sử dụng dụng cụ đúng hướng dẫn, giữ vệ sinh, bảo đảm an toàn khi thực hành mạch điện dùng pin.",
@@ -2938,11 +2915,6 @@
           "- HS: SGK, vở ghi, bút, giấy A1/A2 để phác thảo ý tưởng, bút màu, thước, kéo, hồ dán; vật liệu tái sử dụng phù hợp để trang trí đèn trung thu; tinh thần hợp tác trong nhóm và ý thức thực hiện an toàn khi dùng pin, bóng đèn, dây dẫn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "PHỤ LỤC"
-        ],
         "tables": [
           [
             [
@@ -3049,24 +3021,7 @@
               "- GV tổng kết tiết học, khuyến khích HS sử dụng vật liệu tiết kiệm, an toàn, đơn giản xung quanh để sáng tạo thêm sản phẩm; nhắc HS không tự ý tháo lắp đồ dùng điện trong gia đình.",
               "- HS lắng nghe, ghi nhớ bài học và tham gia hoạt động rước đèn bằng chính chiếc đèn vừa hoàn thiện nếu điều kiện lớp học cho phép."
             ]
-          ]
-        ],
-        "title": "BÀI 9: MẠCH ĐIỆN ĐƠN GIẢN. VẬT DẪN ĐIỆN VÀ VẬT CÁCH ĐIỆN (TIẾT 2)"
-      },
-      {
-        "lessonTitle": "Tiết 1: Phiếu học tập",
-        "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
-        "yccd": [
-          "PHIẾU HỌC TẬP",
-          "Nếu em bật đèn pin nhưng đèn không sáng, hãy chỉ ra các lí do có thể làm đèn không sáng và cách khắc phục để đèn sáng."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Lí do đèn không sáng",
@@ -3084,26 +3039,7 @@
               "....................................................................",
               "...................................................................."
             ]
-          ]
-        ],
-        "title": "Tiết 1: Phiếu học tập"
-      },
-      {
-        "lessonTitle": "Tiết 2: Phiếu thiết kế và phiếu đánh giá sản phẩm đèn trung thu",
-        "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
-        "yccd": [
-          "PHIẾU THIẾT KẾ ĐÈN TRUNG THU",
-          "Nhóm em hãy phác thảo ý tưởng làm đèn trung thu, ghi rõ vật liệu sử dụng, vị trí các bộ phận của mạch điện và cách thử nghiệm sản phẩm.",
-          "BẢN THIẾT KẾ ĐÈN TRUNG THU",
-          "PHIẾU ĐÁNH GIÁ SẢN PHẨM"
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Nội dung thiết kế",
@@ -3167,7 +3103,19 @@
             ]
           ]
         ],
-        "title": "Tiết 2: Phiếu thiết kế và phiếu đánh giá sản phẩm đèn trung thu"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ....................................................................................................................................................",
+          "PHỤ LỤC",
+          "Tiết 1: Phiếu học tập",
+          "PHIẾU HỌC TẬP",
+          "Nếu em bật đèn pin nhưng đèn không sáng, hãy chỉ ra các lí do có thể làm đèn không sáng và cách khắc phục để đèn sáng.",
+          "Tiết 2: Phiếu thiết kế và phiếu đánh giá sản phẩm đèn trung thu",
+          "PHIẾU THIẾT KẾ ĐÈN TRUNG THU",
+          "Nhóm em hãy phác thảo ý tưởng làm đèn trung thu, ghi rõ vật liệu sử dụng, vị trí các bộ phận của mạch điện và cách thử nghiệm sản phẩm.",
+          "BẢN THIẾT KẾ ĐÈN TRUNG THU",
+          "PHIẾU ĐÁNH GIÁ SẢN PHẨM"
+        ]
       }
     ]
   },
@@ -3176,7 +3124,7 @@
     "sourceFile": "KHOA HỌC TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN KHOA HỌC 5",
+        "lessonTitle": "ÔN TẬP KIỂM TRA - ÔN TẬP GIỮA HỌC KÌ I",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3197,10 +3145,6 @@
           "- HS: SGK, vở ghi, bút, bảng con, phiếu học tập, kiến thức đã học từ đầu năm đến bài Mạch điện đơn giản."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -3280,13 +3224,15 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN KHOA HỌC 5"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
         "lessonTitle": "BÀI 10: NĂNG LƯỢNG CHẤT ĐỐT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
-          "TUẦN 10",
           "1. Năng lực đặc thù",
           "- Nêu được một số nguồn năng lượng chất đốt và vai trò của chúng trong đời sống, sản xuất.",
           "- Kể được một số nguồn năng lượng chất đốt có trong tự nhiên và do con người tạo ra.",
@@ -3307,14 +3253,6 @@
           "- HS: SGK, vở ghi, bút, bảng nhóm; thông tin hoặc tranh ảnh sưu tầm về than, dầu mỏ, khí tự nhiên, khí sinh học, bếp gas, bếp than, xăng dầu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "Phiếu ôn tập giữa học kì I",
-          "BẢNG HỆ THỐNG KIẾN THỨC",
-          "VAI TRÒ CỦA NĂNG LƯỢNG CHẤT ĐỐT",
-          "PHÂN LOẠI NGUỒN NĂNG LƯỢNG CHẤT ĐỐT"
-        ],
         "tables": [
           [
             [
@@ -3519,7 +3457,15 @@
             ]
           ]
         ],
-        "title": "BÀI 10: NĂNG LƯỢNG CHẤT ĐỐT (TIẾT 1)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ....................................................................................................................................................",
+          "Phiếu ôn tập giữa học kì I",
+          "BẢNG HỆ THỐNG KIẾN THỨC",
+          "Phiếu học tập Bài 10 - Tiết 1",
+          "VAI TRÒ CỦA NĂNG LƯỢNG CHẤT ĐỐT",
+          "PHÂN LOẠI NGUỒN NĂNG LƯỢNG CHẤT ĐỐT"
+        ]
       }
     ]
   },
@@ -3528,7 +3474,7 @@
     "sourceFile": "KHOA HỌC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: NĂNG LƯỢNG CHẤT ĐỐT (TIẾT 2)",
+        "lessonTitle": "KHOA HỌC TUẦN 11 - BÀI 10: NĂNG LƯỢNG CHẤT ĐỐT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3544,17 +3490,15 @@
           "- Trách nhiệm: có ý thức sử dụng năng lượng chất đốt an toàn, tiết kiệm và tuyên truyền người thân cùng thực hiện.",
           "- Trung thực: nêu đúng hiện tượng quan sát được, không tự ý thực hiện thí nghiệm hoặc xử lí sự cố chất đốt nguy hiểm.",
           "4. Tích hợp",
-          "- Tích hợp AI 5.A1.1: HS quan sát cảm biến khói, cảm biến gas thông minh qua ứng dụng Smart Life hoặc Tuya Smart để hiểu thiết bị có thể cảnh báo rò rỉ gas, khói, cháy."
+          "- Tích hợp AI 5.A1.1: HS quan sát cảm biến khói, cảm biến gas thông minh qua ứng dụng Smart Life hoặc Tuya Smart để hiểu thiết bị có thể cảnh báo rò rỉ gas, khói, cháy.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Sử dụng năng lượng xanh và năng lượng nước chảy hiệu quả, bảo vệ dòng chảy tự nhiên và nguồn nước sạch.",
+          "- Giáo dục địa phương (Chủ đề 8): Khai thác tiềm năng năng lượng tái tạo tại tỉnh Trà Vinh (Dự án Nhà máy điện gió ngoài khơi Duyên Hải, điện mặt trời mái nhà)."
         ],
         "dodung": [
           "- GV: SGK, SGV, hình 3, 4, 5 SGK phóng to; phiếu học tập, phiếu giao việc; tranh ảnh hoặc clip về cảm biến khói, cảm biến gas thông minh; máy tính, màn hình trình chiếu.",
           "- HS: SGK, vở ghi, bút; phiếu giao việc đã chuẩn bị về việc sử dụng năng lượng chất đốt ở gia đình; tinh thần hợp tác khi làm việc nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -3664,15 +3608,22 @@
               "- HS trả lời: nguồn chất đốt có củi, than, xăng, dầu hỏa, khí tự nhiên, khí sinh học; dùng để nấu ăn, đun nước, sưởi ấm, thắp sáng, vận hành máy móc; cần dùng an toàn, tiết kiệm, phòng chống cháy nổ và ô nhiễm."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 8) & Mizuiku: GV giới thiệu tiềm năng năng lượng sạch của tỉnh Trà Vinh: Với bờ biển dài 65 km, Trà Vinh phát triển mạnh các cụm tua-bin điện gió ngoài khơi tại thị xã Duyên Hải; đồng thời các dòng chảy sông Cổ Chiên, sông Hậu mang lại nguồn năng lượng và phù sa dồi dào. Chúng ta cần sử dụng tiết kiệm điện và nước để bảo vệ tài nguyên thiên nhiên.",
+              "- HS quan sát hình ảnh cánh đồng điện gió Duyên Hải - Trà Vinh; tự hào về nguồn năng lượng sạch của tỉnh nhà; ghi nhớ thói quen tiết kiệm điện, khóa chặt vòi nước khi không sử dụng."
+            ],
+            [
               "- GV yêu cầu HS đọc mục “Em đã học”, giao nhiệm vụ về nhà: Mỗi HS thực hiện sử dụng an toàn, tiết kiệm năng lượng chất đốt và tuyên truyền người thân cùng thực hiện.",
               "- HS đọc mục “Em đã học”, ghi nhớ và nhận nhiệm vụ thực hiện ở gia đình."
             ]
           ]
         ],
-        "title": "BÀI 10: NĂNG LƯỢNG CHẤT ĐỐT (TIẾT 2)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY (TIẾT 1)",
+        "lessonTitle": "KHOA HỌC TUẦN 11 - BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3695,11 +3646,6 @@
           "- HS: SGK, vở ghi, bút; phiếu giao việc đã chuẩn bị; thông tin hoặc tranh ảnh về việc sử dụng năng lượng mặt trời ở gia đình, địa phương."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "PHỤ LỤC"
-        ],
         "tables": [
           [
             [
@@ -3796,25 +3742,7 @@
               "- GV dặn dò: HS tìm hiểu việc sử dụng năng lượng gió, lợi ích của năng lượng gió đối với con người; có thể làm chong chóng bằng giấy bìa màu hoặc bằng tre để chuẩn bị tiết sau.",
               "- HS ghi nhiệm vụ học tập và chuẩn bị bài tiếp theo."
             ]
-          ]
-        ],
-        "title": "BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY (TIẾT 1)"
-      },
-      {
-        "lessonTitle": "Tiết 1: Phiếu học tập",
-        "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Khoa học theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Hình",
@@ -3846,25 +3774,7 @@
               "....................................................................",
               "...................................................................."
             ]
-          ]
-        ],
-        "title": "Tiết 1: Phiếu học tập"
-      },
-      {
-        "lessonTitle": "Tiết 1: Phiếu giao việc",
-        "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Khoa học theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Nguồn năng lượng chất đốt",
@@ -3886,25 +3796,7 @@
               "....................................................................",
               "...................................................................."
             ]
-          ]
-        ],
-        "title": "Tiết 1: Phiếu giao việc"
-      },
-      {
-        "lessonTitle": "Tiết 2: Phiếu giao việc",
-        "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Khoa học theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Việc sử dụng năng lượng mặt trời ở gia đình, địa phương",
@@ -3928,7 +3820,14 @@
             ]
           ]
         ],
-        "title": "Tiết 2: Phiếu giao việc"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ....................................................................................................................................................",
+          "PHỤ LỤC",
+          "Tiết 1: Phiếu học tập",
+          "Tiết 1: Phiếu giao việc",
+          "Tiết 2: Phiếu giao việc"
+        ]
       }
     ]
   },
@@ -3937,10 +3836,9 @@
     "sourceFile": "KHOA HỌC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY",
+        "lessonTitle": "KHOA HỌC TUẦN 12 - BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
-          "TUẦN 12: TIẾT 1",
           "1. Năng lực đặc thù",
           "- Kể được tên một số phương tiện, máy móc và hoạt động của con người sử dụng năng lượng gió.",
           "- Nêu được những lợi ích của năng lượng gió đối với con người và đời sống sản xuất.",
@@ -3954,31 +3852,13 @@
           "- Trách nhiệm: có ý thức sử dụng năng lượng an toàn, tiết kiệm và quan tâm đến các nguồn năng lượng sạch.",
           "- Trung thực: trình bày đúng thông tin quan sát được, không nêu thông tin chưa kiểm chứng khi dùng công cụ số.",
           "4. Tích hợp",
-          "- Tích hợp AI 5.A2.2: HS xem minh họa Windy hoặc Google Weather để hiểu AI dự báo nắng, gió, lượng mưa, dòng chảy hỗ trợ sản xuất năng lượng tái tạo.",
-          "- Vận dụng kiến thức về năng lượng gió để thiết kế, chế tạo mô hình thuyền buồm đơn giản.",
-          "- Lựa chọn được vật liệu phù hợp, lắp ráp được mô hình thuyền buồm có thể nổi và di chuyển khi có gió.",
-          "BÀI HỌC STEM: MÔ HÌNH THUYỀN BUỒM",
-          "- Tự chủ và tự học: chuẩn bị vật liệu, đọc tiêu chí, chủ động thực hiện sản phẩm theo hướng dẫn.",
-          "- Giao tiếp và hợp tác: thảo luận nhóm, phân công nhiệm vụ, hỗ trợ bạn trong quá trình thiết kế và thử nghiệm.",
-          "- Chăm chỉ: kiên trì thử nghiệm và hoàn thiện mô hình thuyền buồm.",
-          "- Trách nhiệm: sử dụng vật liệu an toàn, tiết kiệm; giữ vệ sinh khu vực làm việc.",
-          "- Trung thực: đánh giá đúng kết quả thử nghiệm, không tự ý thay đổi kết quả khi báo cáo.",
-          "- Bài học STEM: Mô hình thuyền buồm: HS vận dụng kiến thức Khoa học về năng lượng gió, kết hợp Toán trong đo, ước lượng kích thước và Công nghệ trong lựa chọn vật liệu, thiết kế, chế tạo mô hình thuyền buồm."
+          "- Tích hợp AI 5.A2.2: HS xem minh họa Windy hoặc Google Weather để hiểu AI dự báo nắng, gió, lượng mưa, dòng chảy hỗ trợ sản xuất năng lượng tái tạo."
         ],
         "dodung": [
           "- GV: SGK, SGV, hình 4 SGK phóng to; máy tính, màn hình; Windy hoặc Google Weather; video bài hát Chong chóng tre; bảng nhóm, giấy A3, bút dạ.",
-          "- HS: SGK, vở ghi, bút; chong chóng giấy hoặc tre nếu có; thông tin sưu tầm về việc sử dụng năng lượng gió ở địa phương, Việt Nam.",
-          "- GV: hình thuyền buồm trong SGK, mô hình mẫu nếu có, quạt mini hoặc quạt giấy để tạo gió, chậu nước hoặc khay nước, bảng tiêu chí, phiếu thiết kế, phiếu đánh giá.",
-          "- HS: giấy bìa, que tre hoặc ống hút, băng dính, kéo, hộp xốp hoặc vật liệu nổi, bút màu, vật liệu trang trí, dụng cụ học tập cá nhân."
+          "- HS: SGK, vở ghi, bút; chong chóng giấy hoặc tre nếu có; thông tin sưu tầm về việc sử dụng năng lượng gió ở địa phương, Việt Nam."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "PHỤ LỤC"
-        ],
         "tables": [
           [
             [
@@ -4079,7 +3959,38 @@
               "- GV giao nhiệm vụ: Chuẩn bị một số vật liệu đơn giản như giấy bìa, que tre hoặc ống hút, băng dính, hộp xốp hoặc vật liệu nổi để tiết sau làm mô hình thuyền buồm.",
               "- HS ghi nhiệm vụ, chuẩn bị vật liệu an toàn, gọn nhẹ và phù hợp để làm mô hình thuyền buồm."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
+      },
+      {
+        "lessonTitle": "KHOA HỌC TUẦN 12 - BÀI HỌC STEM: MÔ HÌNH THUYỀN BUỒM",
+        "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Vận dụng kiến thức về năng lượng gió để thiết kế, chế tạo mô hình thuyền buồm đơn giản.",
+          "- Lựa chọn được vật liệu phù hợp, lắp ráp được mô hình thuyền buồm có thể nổi và di chuyển khi có gió.",
+          "- Thử nghiệm, điều chỉnh sản phẩm và trình bày được cách làm, nguyên lí hoạt động của mô hình thuyền buồm.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: chuẩn bị vật liệu, đọc tiêu chí, chủ động thực hiện sản phẩm theo hướng dẫn.",
+          "- Giao tiếp và hợp tác: thảo luận nhóm, phân công nhiệm vụ, hỗ trợ bạn trong quá trình thiết kế và thử nghiệm.",
+          "- Giải quyết vấn đề và sáng tạo: đề xuất ý tưởng, điều chỉnh cánh buồm, thân thuyền để mô hình di chuyển tốt hơn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: kiên trì thử nghiệm và hoàn thiện mô hình thuyền buồm.",
+          "- Trách nhiệm: sử dụng vật liệu an toàn, tiết kiệm; giữ vệ sinh khu vực làm việc.",
+          "- Trung thực: đánh giá đúng kết quả thử nghiệm, không tự ý thay đổi kết quả khi báo cáo.",
+          "4. Tích hợp",
+          "- Bài học STEM: Mô hình thuyền buồm: HS vận dụng kiến thức Khoa học về năng lượng gió, kết hợp Toán trong đo, ước lượng kích thước và Công nghệ trong lựa chọn vật liệu, thiết kế, chế tạo mô hình thuyền buồm."
+        ],
+        "dodung": [
+          "- GV: hình thuyền buồm trong SGK, mô hình mẫu nếu có, quạt mini hoặc quạt giấy để tạo gió, chậu nước hoặc khay nước, bảng tiêu chí, phiếu thiết kế, phiếu đánh giá.",
+          "- HS: giấy bìa, que tre hoặc ống hút, băng dính, kéo, hộp xốp hoặc vật liệu nổi, bút màu, vật liệu trang trí, dụng cụ học tập cá nhân."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "Hoạt động của giáo viên",
@@ -4173,25 +4084,7 @@
               "- GV tổng kết bài học, khen ngợi các nhóm hợp tác tốt và dặn HS giữ sản phẩm, chuẩn bị bài ôn tập chủ đề Năng lượng.",
               "- HS lắng nghe, rút kinh nghiệm và chuẩn bị bài học sau."
             ]
-          ]
-        ],
-        "title": "BÀI 11: SỬ DỤNG NĂNG LƯỢNG MẶT TRỜI, NĂNG LƯỢNG GIÓ, NĂNG LƯỢNG NƯỚC CHẢY"
-      },
-      {
-        "lessonTitle": "Tiết 1: Phiếu thảo luận nhóm",
-        "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Khoa học theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Việc sử dụng năng lượng gió",
@@ -4213,25 +4106,7 @@
               "....................................................................",
               "...................................................................."
             ]
-          ]
-        ],
-        "title": "Tiết 1: Phiếu thảo luận nhóm"
-      },
-      {
-        "lessonTitle": "Tiết 2: Phiếu thiết kế mô hình thuyền buồm",
-        "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Khoa học theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Bộ phận",
@@ -4258,25 +4133,7 @@
               "....................................................................",
               "...................................................................."
             ]
-          ]
-        ],
-        "title": "Tiết 2: Phiếu thiết kế mô hình thuyền buồm"
-      },
-      {
-        "lessonTitle": "Tiết 2: Phiếu đánh giá sản phẩm",
-        "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Khoa học theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Tiêu chí",
@@ -4310,7 +4167,14 @@
             ]
           ]
         ],
-        "title": "Tiết 2: Phiếu đánh giá sản phẩm"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ....................................................................................................................................................",
+          "PHỤ LỤC",
+          "Tiết 1: Phiếu thảo luận nhóm",
+          "Tiết 2: Phiếu thiết kế mô hình thuyền buồm",
+          "Tiết 2: Phiếu đánh giá sản phẩm"
+        ]
       }
     ]
   },
@@ -4319,7 +4183,7 @@
     "sourceFile": "KHOA HỌC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG (TIẾT 1)",
+        "lessonTitle": "KHOA HỌC TUẦN 13 - BÀI 12: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: NĂNG LƯỢNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4333,6 +4197,7 @@
           "3. Phẩm chất",
           "- Chăm chỉ: tích cực ôn tập, hoàn thành nhiệm vụ cá nhân và nhóm.",
           "- Trách nhiệm: có ý thức sử dụng các nguồn năng lượng an toàn, tiết kiệm.",
+          "- Trung thực: tự đánh giá đúng mức độ hiểu bài và điều chỉnh lỗi sai khi ôn tập.",
           "4. Tích hợp",
           "- Tích hợp NLS 3.1.CB2a: HS dùng PowerPoint SmartArt hoặc Canva Mind Map lập sơ đồ ôn tập chủ đề Năng lượng."
         ],
@@ -4341,10 +4206,6 @@
           "- HS: SGK, vở ghi, bút, bút màu; giấy A3, bút dạ; tinh thần hợp tác khi làm việc nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -4377,8 +4238,8 @@
               "- HS quan sát hình 1, đọc các nhánh: năng lượng điện, năng lượng chất đốt, năng lượng mặt trời, năng lượng gió, năng lượng nước chảy."
             ],
             [
-              "- GV chia nhóm và giao nhiệm vụ học tập cho các nhóm:+ Hoàn thiện sơ đồ hình 1.+ Chia sẻ với bạn về việc sử dụng một số nguồn năng lượng trong cuộc sống hằng ngày.",
-              "- HS làm việc theo nhóm.+ Cá nhân mỗi HS nêu tên các nguồn năng lượng đã học, nêu ý kiến về việc sử dụng các nguồn năng lượng đó.+ Nhóm thống nhất ý kiến và điền vào sơ đồ."
+              "- GV chia nhóm và giao nhiệm vụ học tập cho các nhóm:\n+ Hoàn thiện sơ đồ hình 1.\n+ Chia sẻ với bạn về việc sử dụng một số nguồn năng lượng trong cuộc sống hằng ngày.",
+              "- HS làm việc theo nhóm.\n+ Cá nhân mỗi HS nêu tên các nguồn năng lượng đã học, nêu ý kiến về việc sử dụng các nguồn năng lượng đó.\n+ Nhóm thống nhất ý kiến và điền vào sơ đồ."
             ],
             [
               "- GV hướng dẫn tích hợp NLS 3.1.CB2a: GV mở PowerPoint SmartArt hoặc Canva Mind Map, minh hoạ cách tạo sơ đồ gồm nhánh trung tâm “Năng lượng”, các nhánh phụ “điện”, “chất đốt”, “mặt trời”, “gió”, “nước chảy”. GV nhắc HS nhập nội dung ngắn gọn, dùng từ khoá chính, kiểm tra lại với SGK trước khi trình bày. Công cụ số giúp sắp xếp kiến thức rõ ràng, dễ bổ sung hình ảnh và dễ chia sẻ nhưng HS phải tự chọn thông tin đúng, không sao chép máy móc.",
@@ -4386,7 +4247,7 @@
             ],
             [
               "- GV tổ chức cho các nhóm trình bày sơ đồ, khuyến khích HS đặt câu hỏi cho nhóm bạn về vai trò của các nguồn năng lượng trong cuộc sống.",
-              "- Đại diện các nhóm trình bày kết quả làm việc.+ HS nhận xét, bổ sung hoặc đặt câu hỏi cho nhóm bạn.+ Một số câu hỏi: Vì sao cần tránh lãng phí chất đốt? Sử dụng năng lượng mặt trời có lợi ích gì?"
+              "- Đại diện các nhóm trình bày kết quả làm việc.\n+ HS nhận xét, bổ sung hoặc đặt câu hỏi cho nhóm bạn.\n+ Một số câu hỏi: Vì sao cần tránh lãng phí chất đốt? Sử dụng năng lượng mặt trời có lợi ích gì?"
             ],
             [
               "- GV nhận xét, khen ngợi nhóm trình bày rõ ràng và kết luận: Sơ đồ giúp chúng ta nhìn lại các nguồn năng lượng đã học và cách sử dụng chúng trong đời sống.",
@@ -4412,7 +4273,7 @@
             ],
             [
               "- GV nêu tình huống: Gia đình cần làm nóng một chậu nước. Theo em có thể sử dụng những nguồn năng lượng nào? Nguồn năng lượng nào an toàn, tiết kiệm hơn?",
-              "- HS làm việc trong nhóm bàn theo gợi ý của GV:+ Lựa chọn nguồn năng lượng phù hợp để làm nóng chậu nước dựa trên các tiêu chí: an toàn, tiết kiệm và hiệu quả.+ Giải thích lí do cho lựa chọn của mình.+ Viết một đoạn văn ngắn trình bày ý tưởng của mình."
+              "- HS làm việc trong nhóm bàn theo gợi ý của GV:\n+ Lựa chọn nguồn năng lượng phù hợp để làm nóng chậu nước dựa trên các tiêu chí: an toàn, tiết kiệm và hiệu quả.\n+ Giải thích lí do cho lựa chọn của mình.\n+ Viết một đoạn văn ngắn trình bày ý tưởng của mình."
             ],
             [
               "- GV gợi ý tiêu chí lựa chọn: an toàn, tiết kiệm, hiệu quả, bảo vệ môi trường; yêu cầu HS viết đoạn ngắn trình bày ý tưởng của nhóm.",
@@ -4428,10 +4289,13 @@
             ]
           ]
         ],
-        "title": "BÀI 12: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG (TIẾT 1)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 1)",
+        "lessonTitle": "KHOA HỌC TUẦN 13 - BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4454,26 +4318,6 @@
           "- HS: SGK, vở ghi, bút; một số bông hoa sưu tầm được như hoa dâm bụt, hoa hồng, hoa mướp, hoa bưởi; tinh thần hợp tác trong nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "Tên nhóm:......................................",
-          "PHIẾU HỌC TẬP",
-          "Quan sát các hoạt động trong hình 2 SGK trang 47: mô tả hoạt động, nêu tác hại của các hoạt động đó và đề xuất biện pháp phòng tránh.",
-          "PHIẾU HỌC TẬP SỐ 1",
-          "1. Hoàn thành bảng sau:",
-          "2. Ghi chú các bộ phận của nhị và nhuỵ hoa.",
-          "PHIẾU HỌC TẬP SỐ 2",
-          "1. Ghi chú vào chỗ ..... các bộ phận trong sơ đồ mô tả sự thụ phấn, thụ tinh dưới đây:",
-          "2. Hãy điền các từ/cụm từ thích hợp vào chỗ ........",
-          "– Bộ phận của hoa tạo tế bào sinh dục cái là ........................",
-          "– Bộ phận của hoa tạo tế bào sinh dục đực là ........................",
-          "– Bộ phận của hoa hình thành quả là ................................",
-          "– Bộ phận của hoa hình thành hạt là .................................",
-          "– Khi đầu nhuỵ nhận được hạt phấn là ..... ..........................",
-          "– Thụ tinh xảy ra khi tế bào sinh dục đực kết hợp với tế bào sinh dục cái tạo thành ....",
-          "......................................"
-        ],
         "tables": [
           [
             [
@@ -4515,18 +4359,18 @@
             ],
             [
               "- GV phát bảng nhóm KWL, yêu cầu HS ghi vào cột K những điều đã biết về các bộ phận của hoa và sự sinh sản tạo cây con ở thực vật có hoa.",
-              "- HS suy nghĩ nhanh và nêu vào cột K những điều đã biết:+ Hoa có các bộ phận đài hoa, cánh hoa, nhị hoa, nhuỵ hoa.+ Hoa có thể hình thành nên quả có hạt.+ Hạt nảy mầm thành cây con."
+              "- HS suy nghĩ nhanh và nêu vào cột K những điều đã biết:\n+ Hoa có các bộ phận đài hoa, cánh hoa, nhị hoa, nhuỵ hoa.\n+ Hoa có thể hình thành nên quả có hạt.\n+ Hạt nảy mầm thành cây con."
             ],
             [
               "- GV hỏi: Em muốn tìm hiểu thêm điều gì về các bộ phận của hoa và vai trò của các bộ phận đó trong sinh sản?",
-              "- HS thảo luận và ghi vào cột W một số điều muốn biết:+ Hoa đơn tính, hoa lưỡng tính khác nhau như thế nào?+ Nhị và nhuỵ có vai trò gì?+ Vì sao từ hoa tạo được quả và hạt?"
+              "- HS thảo luận và ghi vào cột W một số điều muốn biết:\n+ Hoa đơn tính, hoa lưỡng tính khác nhau như thế nào?\n+ Nhị và nhuỵ có vai trò gì?\n+ Vì sao từ hoa tạo được quả và hạt?"
             ],
             [
               "2.2. Hoạt động 2: Phân biệt hoa đơn tính, hoa lưỡng tính và các bộ phận của hoa\nMục tiêu: HS phân biệt được hoa đơn tính, hoa lưỡng tính; sử dụng sơ đồ đã cho để ghi chú tên các bộ phận của hoa.\nMục tiêu tích hợp: Tích hợp NLS 1.1.CB2a: HS dùng Google Images tìm hình ảnh hoa, quả, hạt phục vụ bài Sinh sản của thực vật có hoa.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS đọc khung thông tin trong SGK và trả lời: Hoa có những bộ phận nào? Hoa đơn tính là gì? Hoa lưỡng tính là gì?",
-              "- HS làm việc cá nhân đọc khung thông tin, sau đó trả lời:+ Hoa gồm đài, cánh, nhị và nhuỵ hoa.+ Hoa đơn tính là hoa chỉ có nhị hoặc nhuỵ trên một hoa.+ Hoa lưỡng tính là hoa có cả nhị và nhuỵ trên cùng một bông hoa."
+              "- HS làm việc cá nhân đọc khung thông tin, sau đó trả lời:\n+ Hoa gồm đài, cánh, nhị và nhuỵ hoa.\n+ Hoa đơn tính là hoa chỉ có nhị hoặc nhuỵ trên một hoa.\n+ Hoa lưỡng tính là hoa có cả nhị và nhuỵ trên cùng một bông hoa."
             ],
             [
               "- GV yêu cầu HS quan sát hình 3, cho biết hoa bí ngô và hoa bưởi, hoa nào là hoa lưỡng tính, hoa nào là hoa đơn tính.",
@@ -4538,7 +4382,7 @@
             ],
             [
               "- GV diễn giải tích hợp NLS 1.1.CB2a: GV hướng dẫn HS dùng Google Images tìm kiếm bằng từ khoá “hoa bưởi”, “hoa bí ngô đực”, “hoa bí ngô cái”, “quả cà chua và hạt”. Khi xem hình ảnh, HS cần chọn hình rõ, phù hợp, không bấm vào trang lạ và không lấy hình thay cho quan sát thật. Sau đó, HS đối chiếu hình tìm được với SGK để xác định nhị, nhuỵ, quả và hạt. Việc tìm ảnh số giúp HS có thêm ví dụ, nhưng kết luận khoa học phải dựa trên SGK, mẫu vật và hướng dẫn của GV.",
-              "- HS lắng nghe và nêu được:+ Có thể dùng Google Images để tìm hình ảnh hoa, quả, hạt.+ Cần chọn hình phù hợp, rõ nguồn, đối chiếu với SGK.+ Không tự ý kết luận khi hình ảnh chưa rõ."
+              "- HS lắng nghe và nêu được:\n+ Có thể dùng Google Images để tìm hình ảnh hoa, quả, hạt.\n+ Cần chọn hình phù hợp, rõ nguồn, đối chiếu với SGK.\n+ Không tự ý kết luận khi hình ảnh chưa rõ."
             ],
             [
               "- GV kết luận: Hoa đơn tính chỉ có nhị hoặc nhuỵ; hoa lưỡng tính có cả nhị và nhuỵ trên cùng một hoa. Nhị và nhuỵ là những bộ phận quan trọng trong sinh sản của thực vật có hoa.",
@@ -4580,7 +4424,7 @@
               "Hình",
               "Hoạt động",
               "Tác hại",
-              "Biện phápphòng tránh"
+              "Biện pháp\nphòng tránh"
             ],
             [
               "2a",
@@ -4634,7 +4478,26 @@
             ]
           ]
         ],
-        "title": "BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 1)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ....................................................................................................................................................",
+          "Tên nhóm:......................................",
+          "PHIẾU HỌC TẬP",
+          "Quan sát các hoạt động trong hình 2 SGK trang 47: mô tả hoạt động, nêu tác hại của các hoạt động đó và đề xuất biện pháp phòng tránh.",
+          "PHIẾU HỌC TẬP SỐ 1",
+          "1. Hoàn thành bảng sau:",
+          "2. Ghi chú các bộ phận của nhị và nhuỵ hoa.",
+          "PHIẾU HỌC TẬP SỐ 2",
+          "1. Ghi chú vào chỗ ..... các bộ phận trong sơ đồ mô tả sự thụ phấn, thụ tinh dưới đây:",
+          "2. Hãy điền các từ/cụm từ thích hợp vào chỗ ........",
+          "– Bộ phận của hoa tạo tế bào sinh dục cái là ........................",
+          "– Bộ phận của hoa tạo tế bào sinh dục đực là ........................",
+          "– Bộ phận của hoa hình thành quả là ................................",
+          "– Bộ phận của hoa hình thành hạt là .................................",
+          "– Khi đầu nhuỵ nhận được hạt phấn là ..... ..........................",
+          "– Thụ tinh xảy ra khi tế bào sinh dục đực kết hợp với tế bào sinh dục cái tạo thành ....",
+          "......................................"
+        ]
       }
     ]
   },
@@ -4643,7 +4506,7 @@
     "sourceFile": "KHOA HỌC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 2)",
+        "lessonTitle": "KHOA HỌC TUẦN 14 - BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4666,10 +4529,6 @@
           "- HS: SGK, vở ghi, bút; một số quả non hoặc quả già đã chuẩn bị; tinh thần hợp tác khi làm việc nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -4757,10 +4616,13 @@
             ]
           ]
         ],
-        "title": "BÀI 13: SINH SẢN CỦA THỰC VẬT CÓ HOA (TIẾT 2)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 1)",
+        "lessonTitle": "KHOA HỌC TUẦN 14 - BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4784,23 +4646,6 @@
           "- HS: SGK, vở ghi, bút, bút màu; một số hạt đã chuẩn bị; tinh thần hợp tác khi thực hành nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 2",
-          "1. Ghi chú vào chỗ ..... các bộ phận trong sơ đồ mô tả sự thụ phấn, thụ tinh dưới đây:",
-          "2. Hãy điền các từ/cụm từ thích hợp vào chỗ ........",
-          "– Bộ phận của hoa tạo tế bào sinh dục cái là ........................",
-          "– Bộ phận của hoa tạo tế bào sinh dục đực là ........................",
-          "– Bộ phận của hoa hình thành quả là ................................",
-          "– Bộ phận của hoa hình thành hạt là .................................",
-          "– Khi đầu nhuỵ nhận được hạt phấn là ..... ..........................",
-          "– Thụ tinh xảy ra khi tế bào sinh dục đực kết hợp với tế bào sinh dục cái tạo thành ....",
-          "......................................",
-          "PHIẾU HỌC TẬP SỐ 1",
-          "Cây con mọc lên từ hạt",
-          "Tên cây: .................................."
-        ],
         "tables": [
           [
             [
@@ -4902,7 +4747,23 @@
             ]
           ]
         ],
-        "title": "BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 1)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ....................................................................................................................................................",
+          "PHIẾU HỌC TẬP SỐ 2",
+          "1. Ghi chú vào chỗ ..... các bộ phận trong sơ đồ mô tả sự thụ phấn, thụ tinh dưới đây:",
+          "2. Hãy điền các từ/cụm từ thích hợp vào chỗ ........",
+          "– Bộ phận của hoa tạo tế bào sinh dục cái là ........................",
+          "– Bộ phận của hoa tạo tế bào sinh dục đực là ........................",
+          "– Bộ phận của hoa hình thành quả là ................................",
+          "– Bộ phận của hoa hình thành hạt là .................................",
+          "– Khi đầu nhuỵ nhận được hạt phấn là ..... ..........................",
+          "– Thụ tinh xảy ra khi tế bào sinh dục đực kết hợp với tế bào sinh dục cái tạo thành ....",
+          "......................................",
+          "PHIẾU HỌC TẬP SỐ 1",
+          "Cây con mọc lên từ hạt",
+          "Tên cây: .................................."
+        ]
       }
     ]
   },
@@ -4911,7 +4772,7 @@
     "sourceFile": "KHOA HỌC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 2)",
+        "lessonTitle": "KHOA HỌC TUẦN 15 - BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4934,10 +4795,6 @@
           "- HS: SGK, vở ghi, bút; một số chậu cây cảnh hoặc tranh ảnh cây con mọc lên từ thân, rễ, lá; Phiếu học tập số 2."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -4949,7 +4806,7 @@
             ],
             [
               "– GV tổ chức trò chơi ô chữ bí mật, cả lớp chia thành 2 đội chơi với 7 ô chữ bí mật.\n+ Ô chữ gồm có 6 ô chữ hàng ngang và một ô chữ hàng dọc (có thể thay đổi tùy GV).\n+ Mỗi ô chữ hàng ngang là một nội dung kiến thức đã học và kèm theo lời gợi ý.\n+ Mỗi nhóm tham gia chơi phải giơ tay để giành được quyền trả lời.\n+ Nhóm nào trả lời nhanh và đúng thì sẽ ghi được 10 điểm.\n+ Nhóm nào trả lời sai thì nhường quyền trả lời cho nhóm khác.\n+ Trò chơi sẽ kết thúc khi ô chữ hàng dọc được đoán ra.\n+ Nhóm nào ghi được nhiều điểm nhất thì là nhóm thắng cuộc.\nHÀNG NGANG\n1. 3 chữ cái, là tên một cây có thể mọc lên từ hạt, có quả thường hình cầu, thường ăn hoặc vắt nước uống.\n2. 2 từ, 7 chữ cái, là tên bộ phận của cây mầm, nối giữa rễ và lá mầm.\n3. 2 từ, 6 chữ cái, là tên giai đoạn phát triển đầu tiên của cây con mọc lên từ hạt.\n4. 2 từ, 6 chữ cái, là bộ phận của hạt sẽ mọc thành cây, còn gọi là phôi.\n5. 3 chữ cái, là bộ phận xuất hiện đánh dấu cây bước sang giai đoạn trưởng thành.\n6. 2 từ, 11 chữ cái, là tên giai đoạn phát triển của cây với đặc điểm có hoa, quả.\nHÀNG DỌC\n6 chữ cái, là tên giai đoạn phát triển sau giai đoạn hình thành cây mầm, lúc này cây tiếp tục phát triển, ra nhiều cành, lá, rễ mới.",
-              "– HS nghe luật chơi.\n– HS quan sát và nghe các gợi ý của mỗi ô chữ và trả lời.\n\n– HS có đáp án, ra tín hiệu trả lời.\nHÀNG NGANG\n1. CAM\n2. THÂN CÂY\n3. NẢY MẦM\n4. MẦM CÂY\n5. HOA\n6. TRƯỞNG THÀNH\nHÀNG DỌC: CÂY CON"
+              "– HS nghe luật chơi.\n– HS quan sát và nghe các gợi ý của mỗi ô chữ và trả lời.\n– HS có đáp án, ra tín hiệu trả lời.\nHÀNG NGANG\n1. CAM\n2. THÂN CÂY\n3. NẢY MẦM\n4. MẦM CÂY\n5. HOA\n6. TRƯỞNG THÀNH\nHÀNG DỌC: CÂY CON"
             ],
             [
               "– GV tổng kết điểm và khen ngợi hoặc có phần quà dành cho nhóm thắng cuộc.\n– GV kết nối các thuật ngữ tiết 1 và định hướng nội dung vào tiết 2: Cây con không chỉ mọc lên từ hạt mà có thể mọc từ các bộ phận khác của cây mẹ.",
@@ -5015,10 +4872,13 @@
             ]
           ]
         ],
-        "title": "BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 2)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 3)",
+        "lessonTitle": "KHOA HỌC TUẦN 15 - BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5039,17 +4899,6 @@
           "- HS: SGK, vở ghi; hạt giống hoặc đoạn thân cây theo phân công; dụng cụ thực hành, phiếu báo cáo."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "PHỤ LỤC",
-          "PHIẾU HỌC TẬP SỐ 2",
-          "Cây con mọc lên từ bộ phận ............ của cây mẹTên cây: ..................................",
-          "BÁO CÁO THỰC HÀNH TRỒNG CÂY",
-          "Các thành viên nhóm: ................................................................................................",
-          "1. Chuẩn bị- Hạt: …………- Thân: …………- Hai chậu chứa đất trồng cây.- Dụng cụ trồng cây.",
-          "3. Kết quảChậu 1:- Sau …….. ngày các hạt …….. nảy mầm, …….. vươn ra khỏi mặt đất.- Sau …….. ngày: cặp lá mới hình thành, bắt đầu xoè ra.- Sau 1 tuần: cây con …………………………………………………Chậu 2:- Sau 1 tuần: các đoạn thân xuất hiện ………………………………- Trong nhiệm vụ thực hành:+ Cây đậu con mọc lên từ ………………..+ Cây khoai lang con mọc lên từ ……………….."
-        ],
         "tables": [
           [
             [
@@ -5060,7 +4909,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: nhắc lại một số nội dung đã học ở tiết trước, tạo hứng thú cho HS.\n*Cách tiến hành:"
             ],
             [
-              "– GV tổ chức trò chơi ghép ô chữ: ghép bộ phận của cây với mô tả cho phù hợp.\n– Các tổ cử 2 đại diện lên tham gia trò chơi.\nGhép tên các bộ phận của cây ở cột 1 với các ví dụ cây con mọc lên ở cột 2 cho phù hợp.\n\nTên bộ phận\n1. Rễ\n2. Thân\n3. Lá\n4. Hạt\nVí dụ\na) Củ lạc mọc lên cây.\nb) Củ khoai tây nảy mầm tạo cây con.\nc) Cắt đoạn cành hồng cắm xuống đất mọc thành cây.\nd) Cuống lá cây sen đá mọc lên các cây con.\ne) Củ khoai lang có thể mọc mầm tạo cây con.\n– GV nhận xét, đánh giá, thưởng sao.\n– GV kết nối vào bài: Cây con có thể mọc lên từ hạt, rễ, thân, lá,… của cây mẹ. Hôm nay các em hãy thực hành trồng cây từ hạt và một số bộ phận của cây mẹ.\n– GV giới thiệu bài, ghi bảng.",
+              "– GV tổ chức trò chơi ghép ô chữ: ghép bộ phận của cây với mô tả cho phù hợp.\n– Các tổ cử 2 đại diện lên tham gia trò chơi.\nGhép tên các bộ phận của cây ở cột 1 với các ví dụ cây con mọc lên ở cột 2 cho phù hợp.\nTên bộ phận\n1. Rễ\n2. Thân\n3. Lá\n4. Hạt\nVí dụ\na) Củ lạc mọc lên cây.\nb) Củ khoai tây nảy mầm tạo cây con.\nc) Cắt đoạn cành hồng cắm xuống đất mọc thành cây.\nd) Cuống lá cây sen đá mọc lên các cây con.\ne) Củ khoai lang có thể mọc mầm tạo cây con.\n– GV nhận xét, đánh giá, thưởng sao.\n– GV kết nối vào bài: Cây con có thể mọc lên từ hạt, rễ, thân, lá,… của cây mẹ. Hôm nay các em hãy thực hành trồng cây từ hạt và một số bộ phận của cây mẹ.\n– GV giới thiệu bài, ghi bảng.",
               "– Cả lớp lắng nghe cách chơi.\n– Đại diện lên tham gia trò chơi.\nĐáp án: 1 – e; 2 – b, c; 3 – d; 4 – a.\n– HS lắng nghe, ghi tên bài."
             ],
             [
@@ -5090,7 +4939,18 @@
             ]
           ]
         ],
-        "title": "BÀI 14: SỰ PHÁT TRIỂN CỦA CÂY CON (TIẾT 3)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ....................................................................................................................................................",
+          "PHỤ LỤC",
+          "PHIẾU HỌC TẬP SỐ 2",
+          "Cây con mọc lên từ bộ phận ............ của cây mẹ\nTên cây: ..................................",
+          "BÁO CÁO THỰC HÀNH TRỒNG CÂY",
+          "Các thành viên nhóm: ................................................................................................",
+          "1. Chuẩn bị\n- Hạt: …………\n- Thân: …………\n- Hai chậu chứa đất trồng cây.\n- Dụng cụ trồng cây.",
+          "2. Tiến hành\n- Cho 5 hạt ………… vào một chậu, phủ lớp đất mỏng lên, tưới ẩm.\n- Cắm 5 đoạn thân ………… vào chậu còn lại. Ấn nhẹ đất quanh thân.\n- Đặt các chậu nơi thoáng mát, tránh ánh sáng mạnh, hằng ngày tưới ẩm đất.\n- Theo dõi các chậu cây trong khoảng một tuần và ghi lại kết quả.",
+          "3. Kết quả\nChậu 1:\n- Sau …….. ngày các hạt …….. nảy mầm, …….. vươn ra khỏi mặt đất.\n- Sau …….. ngày: cặp lá mới hình thành, bắt đầu xoè ra.\n- Sau 1 tuần: cây con …………………………………………………\nChậu 2:\n- Sau 1 tuần: các đoạn thân xuất hiện ………………………………\n- Trong nhiệm vụ thực hành:\n+ Cây đậu con mọc lên từ ………………..\n+ Cây khoai lang con mọc lên từ ……………….."
+        ]
       }
     ]
   },
@@ -5099,7 +4959,7 @@
     "sourceFile": "KHOA HỌC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 1)",
+        "lessonTitle": "KHOA HỌC TUẦN 16 - BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5122,10 +4982,6 @@
           "- HS: SGK, vở ghi, bút; tranh ảnh hoặc thông tin sưu tầm về sinh sản ở một số động vật; bảng nhóm hoặc thẻ trống theo phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ...................................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -5255,7 +5111,7 @@
               "– HS cả lớp cùng theo dõi kết quả."
             ],
             [
-              "4. Vận dụng - trải nghiệm (2 phút)Mục tiêu: HS củng cố nội dung bài học và chuẩn bị tìm hiểu sự sinh sản của một động vật đẻ trứng mà em yêu thích.*Cách tiến hành:"
+              "4. Vận dụng - trải nghiệm (2 phút)\nMục tiêu: HS củng cố nội dung bài học và chuẩn bị tìm hiểu sự sinh sản của một động vật đẻ trứng mà em yêu thích.\n*Cách tiến hành:"
             ],
             [
               "– GV đánh giá nhanh kết quả, khen ngợi đội chơi có nhiều câu trả lời đúng và thưởng sao cho các thành viên.",
@@ -5271,10 +5127,13 @@
             ]
           ]
         ],
-        "title": "BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 1)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ...................................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 2)",
+        "lessonTitle": "KHOA HỌC TUẦN 16 - BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5297,16 +5156,6 @@
           "- HS: SGK, vở ghi, bút; tranh ảnh hoặc thông tin sưu tầm về sự sinh sản của một động vật đẻ trứng hoặc đẻ con quen thuộc."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................................",
-          "- ....................................................................................................................................................",
-          "PHỤ LỤC",
-          "https://www.youtube.com/watch?v=9yGEEb0CRl4.",
-          "Link video trò chơi khởi động con vật nào đẻ trứng.",
-          "link:https://www.youtube.com/watch?v=lFyU90oU0l0&list=RDCMUCdOYFnIOTQfZfhh6HEgXQCQ&start_radio=1&rv=lFyU90oU0l0&t=66.",
-          "PHIẾU HỌC TẬP SỐ 1",
-          "PHIẾU HỌC TẬP SỐ 2"
-        ],
         "tables": [
           [
             [
@@ -5359,7 +5208,7 @@
             ],
             [
               "– GV diễn giải tích hợp AI 5.C4.2: GV mở Google Lens trên điện thoại/máy tính bảng, nhận diện một số hình ảnh động vật quen thuộc như gà, mèo, bò, cá, bướm; yêu cầu HS kiểm tra tên động vật, sau đó phân nhóm đẻ trứng hoặc đẻ con theo kiến thức SGK. GV nhắc HS kết quả AI chỉ là gợi ý, cần đối chiếu với kiến thức bài học và sự hướng dẫn của GV.\n– GV yêu cầu HS thực hiện nhiệm vụ trang 59 về sự sinh sản của một động vật theo gợi ý trong SGK rồi chia sẻ với bạn.",
-              "– HS quan sát thao tác của GV, đọc kết quả nhận diện, thảo luận để phân nhóm động vật đẻ trứng, động vật đẻ con; HS nêu được khi AI nhận diện chưa chắc đúng thì cần kiểm tra lại bằng SGK và ý kiến GV.\n– HS thực hiện nhiệm vụ tìm hiểu về sự sinh sản bao gồm tên con vật; đẻ trứng hay đẻ con; quá trình hình thành con non diễn ra như thế nào và một số thông tin thú vị khác về sự sinh sản của các con vật đó.– HS chia sẻ với bạn."
+              "– HS quan sát thao tác của GV, đọc kết quả nhận diện, thảo luận để phân nhóm động vật đẻ trứng, động vật đẻ con; HS nêu được khi AI nhận diện chưa chắc đúng thì cần kiểm tra lại bằng SGK và ý kiến GV.\n– HS thực hiện nhiệm vụ tìm hiểu về sự sinh sản bao gồm tên con vật; đẻ trứng hay đẻ con; quá trình hình thành con non diễn ra như thế nào và một số thông tin thú vị khác về sự sinh sản của các con vật đó.\n– HS chia sẻ với bạn."
             ],
             [
               "– Trong quá trình HS thực hiện GV theo dõi và hướng dẫn HS.",
@@ -5398,7 +5247,17 @@
             ]
           ]
         ],
-        "title": "BÀI 15: SINH SẢN CỦA ĐỘNG VẬT (TIẾT 2)"
+        "dieuchinh": [
+          "- ....................................................................................................................................................",
+          "- ....................................................................................................................................................",
+          "PHỤ LỤC",
+          "Link video bài hát Gà trống, mèo con và cún con của nhạc sĩ Thế Vinh.",
+          "https://www.youtube.com/watch?v=9yGEEb0CRl4.",
+          "Link video trò chơi khởi động con vật nào đẻ trứng.",
+          "link:https://www.youtube.com/watch?v=lFyU90oU0l0&list=RDCMUCdOYFnIOTQfZfhh6HEgXQCQ&start_radio=1&rv=lFyU90oU0l0&t=66.",
+          "PHIẾU HỌC TẬP SỐ 1",
+          "PHIẾU HỌC TẬP SỐ 2"
+        ]
       }
     ]
   },
@@ -5407,7 +5266,7 @@
     "sourceFile": "KHOA HỌC TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tuần 17",
+        "lessonTitle": "Bài học Tiết 1 (Tuần 17)",
         "topic": "",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -5429,10 +5288,6 @@
           "- Bảng nhóm đủ số lượng cho mỗi nhóm (hoặc thẻ trống để HS viết)."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5448,11 +5303,11 @@
             ],
             [
               "+ Mẹ của nòng nọc là ai?",
-              "- HS trả lời câu hỏi, các HS khác lắng nghe, bổ sung.+ Mẹ của nòng nọc là ếch."
+              "- HS trả lời câu hỏi, các HS khác lắng nghe, bổ sung.\n+ Mẹ của nòng nọc là ếch."
             ],
             [
               "+ Nòng nọc và mẹ của nòng nọc có giống nhau không?",
-              "+ Nòng nọc nhận nhầm cá trê vì cá có đôi mắt và miệng to; nhận nhầm vì rùa có 4 chân.+ Nòng nọc và ếch mẹ không giống nhau: Nòng nọc ban đầu chưa có chân, có đuôi sau phát triển lớn lên mất đuôi, chân mọc ra dần mới giống ếch."
+              "+ Nòng nọc nhận nhầm cá trê vì cá có đôi mắt và miệng to; nhận nhầm vì rùa có 4 chân.\n+ Nòng nọc và ếch mẹ không giống nhau: Nòng nọc ban đầu chưa có chân, có đuôi sau phát triển lớn lên mất đuôi, chân mọc ra dần mới giống ếch."
             ],
             [
               "- GV kết nối vào bài: Sử dụng một số ý HS nói để kết nối vào bài về Vòng đời và sự phát triển của động vật.",
@@ -5463,11 +5318,11 @@
               "- HS lắng nghe, ghi tên bài."
             ],
             [
-              "2. Khám phá (22 phút)2.1. Vòng đời và sự phát triển của động vật đẻ trứngHoạt động 1: Tìm hiểu vòng đời và sự phát triển của muỗiMục tiêu: HS nêu được tên các giai đoạn trong vòng đời của muỗi và trình bày được sự lớn lên của ấu trùng nở ra từ trứng.Mục tiêu tích hợp: Tích hợp NLS 1.1.CB2a: HS xem video vòng đời bướm, ếch, gà trên YouTube Kids hoặc học liệu NXB Giáo dục; biết đối chiếu thông tin số với hình SGK để gọi đúng tên các giai đoạn phát triển.*Cách tiến hành:"
+              "2. Khám phá (22 phút)\n2.1. Vòng đời và sự phát triển của động vật đẻ trứng\nHoạt động 1: Tìm hiểu vòng đời và sự phát triển của muỗi\nMục tiêu: HS nêu được tên các giai đoạn trong vòng đời của muỗi và trình bày được sự lớn lên của ấu trùng nở ra từ trứng.\nMục tiêu tích hợp: Tích hợp NLS 1.1.CB2a: HS xem video vòng đời bướm, ếch, gà trên YouTube Kids hoặc học liệu NXB Giáo dục; biết đối chiếu thông tin số với hình SGK để gọi đúng tên các giai đoạn phát triển.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức cho HS theo nhóm đôi quan sát hình 1, đọc thông tin mô tả vòng đời phát triển của muỗi, yêu cầu HS thực hiện nhiệm vụ 1 trang 60 SGK.",
-              "- HS lắng nghe nhiệm vụ.- HS làm việc cá nhân, sau đó thảo luận cặp đôi, thực hiện nhiệm vụ 1."
+              "- HS lắng nghe nhiệm vụ.\n- HS làm việc cá nhân, sau đó thảo luận cặp đôi, thực hiện nhiệm vụ 1."
             ],
             [
               "- GV diễn giải tích hợp NLS 1.1.CB2a: GV mở video vòng đời bướm, ếch, gà trên YouTube Kids hoặc học liệu NXB Giáo dục, hướng dẫn HS quan sát trình tự trứng - ấu trùng hoặc con non - nhộng - con trưởng thành, dừng video ở từng giai đoạn để HS đối chiếu với hình SGK. GV nhắc HS chỉ xem học liệu, video dưới sự hướng dẫn của GV hoặc phụ huynh, biết chọn nguồn học liệu phù hợp, an toàn và phục vụ đúng nhiệm vụ học tập.",
@@ -5475,7 +5330,7 @@
             ],
             [
               "- GV gọi đại diện HS 2 - 3 nhóm trả lời.",
-              "- Đại diện HS trả lời:+ Các giai đoạn phát triển chính trong vòng đời của muỗi: trứng, ấu trùng, nhộng, muỗi trưởng thành.+ Hình dạng và nơi sống của ấu trùng nở ra từ trứng: Ấu trùng nở ra từ trứng muỗi (còn gọi là con loăng quăng) sống dưới nước, trông như con sâu nhỏ.+ Sự phát triển của ấu trùng đến khi là muỗi trưởng thành: Ấu trùng lớn lên hoá thành nhộng sau đó lột xác thành muỗi trưởng thành, muỗi trưởng thành không sống ở nước, có cánh bay được."
+              "- Đại diện HS trả lời:\n+ Các giai đoạn phát triển chính trong vòng đời của muỗi: trứng, ấu trùng, nhộng, muỗi trưởng thành.\n+ Hình dạng và nơi sống của ấu trùng nở ra từ trứng: Ấu trùng nở ra từ trứng muỗi (còn gọi là con loăng quăng) sống dưới nước, trông như con sâu nhỏ.\n+ Sự phát triển của ấu trùng đến khi là muỗi trưởng thành: Ấu trùng lớn lên hoá thành nhộng sau đó lột xác thành muỗi trưởng thành, muỗi trưởng thành không sống ở nước, có cánh bay được."
             ],
             [
               "- GV cùng HS thống nhất đáp án.",
@@ -5483,7 +5338,7 @@
             ],
             [
               "- GV tổ chức cho HS đọc thêm thông tin em có biết về muỗi trang 61. Nhắc nhở HS phòng tránh các bệnh do muỗi đốt.",
-              "- Đại diện HS đọc thông tin mục “Em có biết?”.- HS cùng chia sẻ về một số biện pháp phòng chống muỗi đốt."
+              "- Đại diện HS đọc thông tin mục “Em có biết?”.\n- HS cùng chia sẻ về một số biện pháp phòng chống muỗi đốt."
             ],
             [
               "- GV chốt thông tin về các giai đoạn trong vòng đời của muỗi: Từ trứng nở ra ấu trùng (loăng quăng), ấu trùng phát triển thành nhộng, nhộng phát triển thành muỗi trưởng thành.",
@@ -5494,11 +5349,11 @@
             ],
             [
               "- GV tổ chức cho HS theo nhóm đôi quan sát hình 2, đọc thông tin mô tả vòng đời phát triển của gà, yêu cầu HS thực hiện nhiệm vụ 2 trang 61 SGK.",
-              "- HS lắng nghe nhiệm vụ.- HS làm việc cá nhân, sau đó thảo luận cặp đôi, thực hiện nhiệm vụ 2."
+              "- HS lắng nghe nhiệm vụ.\n- HS làm việc cá nhân, sau đó thảo luận cặp đôi, thực hiện nhiệm vụ 2."
             ],
             [
               "- GV gọi đại diện 2 - 3 nhóm HS trả lời.",
-              "- Đại diện HS trả lời:+ Các giai đoạn phát triển chính trong vòng đời của gà: trứng, gà con mới nở, gà con, gà trưởng thành.+ Hình dạng của của gà con so với gà trưởng thành: Gà con nhỏ, lông ngắn, chưa có màu sắc như gà trưởng thành.+ Sự phát triển của gà con nở ra từ trứng: Gà con mới nở lớn dần, lông, cánh mọc dài ra, màu sắc lông thay đổi thành gà con rồi phát triển thành gà trưởng thành. Gà trưởng thành có khả năng sinh sản."
+              "- Đại diện HS trả lời:\n+ Các giai đoạn phát triển chính trong vòng đời của gà: trứng, gà con mới nở, gà con, gà trưởng thành.\n+ Hình dạng của của gà con so với gà trưởng thành: Gà con nhỏ, lông ngắn, chưa có màu sắc như gà trưởng thành.\n+ Sự phát triển của gà con nở ra từ trứng: Gà con mới nở lớn dần, lông, cánh mọc dài ra, màu sắc lông thay đổi thành gà con rồi phát triển thành gà trưởng thành. Gà trưởng thành có khả năng sinh sản."
             ],
             [
               "- GV cùng HS thống nhất đáp án.",
@@ -5549,7 +5404,7 @@
             ],
             [
               "- Từ vòng đời HS vừa hoàn thành, GV yêu cầu theo nhóm đôi chia sẻ với bạn về sự lớn lên của sâu bướm nở ra từ trứng.",
-              "- HS theo nhóm đôi cùng chia sẻ về sự lớn lên của sâu bướm nở ra từ trứng.+ Từ trứng nở ra ấu trùng (sâu bướm). Ấu trùng ăn lá cây lớn lên qua các lần lột xác. Ấu trùng hoá nhộng nằm rong kén. Nhộng biến đổi, lột xác thành bướm. Bướm phát triển thành bướm trưởng thành. Bướm cái trưởng thành tiếp tục đẻ trứng trên lá."
+              "- HS theo nhóm đôi cùng chia sẻ về sự lớn lên của sâu bướm nở ra từ trứng.\n+ Từ trứng nở ra ấu trùng (sâu bướm). Ấu trùng ăn lá cây lớn lên qua các lần lột xác. Ấu trùng hoá nhộng nằm rong kén. Nhộng biến đổi, lột xác thành bướm. Bướm phát triển thành bướm trưởng thành. Bướm cái trưởng thành tiếp tục đẻ trứng trên lá."
             ],
             [
               "- GV gọi 1 - 2 đại diện HS lên trình bày về sự lớn lên của sâu bướm nở ra từ trứng.",
@@ -5568,10 +5423,13 @@
             ]
           ]
         ],
-        "title": "Bài học Tuần 17"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 16: VÒNG ĐỜI VÀ SỰ PHÁT TRIỂN CỦA ĐỘNG VẬT (TIẾT 2)",
+        "lessonTitle": "KHOA HỌC TUẦN 17 - BÀI 16: VÒNG ĐỜI VÀ SỰ PHÁT TRIỂN CỦA ĐỘNG VẬT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -5592,10 +5450,6 @@
           "- Bảng nhóm đủ số lượng cho mỗi nhóm (hoặc thẻ trống để HS viết)."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5630,11 +5484,11 @@
               "- HS lắng nghe và ghi bài."
             ],
             [
-              "2. Khám phá (17 phút)2.1. Vòng đời và sự phát triển của động vật đẻ conMục tiêu: HS nêu được tên các giai đoạn trong đời của chó và trình bày được sự lớn lên của chó con mới được sinh ra.Mục tiêu tích hợp: Tích hợp AI 5.B3.1: HS dùng ảnh mẫu trong Google Lens để nhận diện giai đoạn vòng đời, thảo luận vì sao AI có thể nhầm nòng nọc với cá; biết kiểm chứng kết quả AI bằng kiến thức SGK.*Cách tiến hành:"
+              "2. Khám phá (17 phút)\n2.1. Vòng đời và sự phát triển của động vật đẻ con\nMục tiêu: HS nêu được tên các giai đoạn trong đời của chó và trình bày được sự lớn lên của chó con mới được sinh ra.\nMục tiêu tích hợp: Tích hợp AI 5.B3.1: HS dùng ảnh mẫu trong Google Lens để nhận diện giai đoạn vòng đời, thảo luận vì sao AI có thể nhầm nòng nọc với cá; biết kiểm chứng kết quả AI bằng kiến thức SGK.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức cho HS theo nhóm đôi quan sát hình 4, đọc thông tin về vòng đời của chó và thực hiện nhiệm vụ trang 62.",
-              "- HS lắng nghe nhiệm vụ.- HS làm việc cá nhân rồi thảo luận cặp đôi, thực hiện nhiệm vụ."
+              "- HS lắng nghe nhiệm vụ.\n- HS làm việc cá nhân rồi thảo luận cặp đôi, thực hiện nhiệm vụ."
             ],
             [
               "- GV diễn giải tích hợp liên môn Công nghệ bài 6: Chăm sóc hoa, cây cảnh trong chậu. GV gợi ý HS liên hệ: khi chăm sóc hoa, cây cảnh trong chậu, cần quan sát đất, lá, thân cây; nếu thấy trứng, ấu trùng hoặc con non của một số động vật nhỏ thì không tự ý phá huỷ, cần báo người lớn hoặc xử lí phù hợp. Chăm sóc cây đúng cách giúp cây phát triển tốt và góp phần giữ môi trường sống an toàn cho sinh vật có ích quanh cây.",
@@ -5642,7 +5496,7 @@
             ],
             [
               "- GV gọi đại diện 2 - 3 nhóm HS trả lời.",
-              "- Đại diện HS trả lời:+ Các giai đoạn phát triển chính trong vòng đời của chó: chó trưởng thành; phôi, thai; chó con mới sinh; chó con.+ Chó con có hình dạng gần giống với chó trưởng thành.+ Chó con mới sinh được chó mẹ nuôi bằng sữa đến giai đoạn chó con. Chó con ăn được các thức ăn khác, vận động nhanh nhẹn hơn lớn lên thành chó trưởng thành. Chó trưởng thành to lớn, có thể sinh sản. Chó đực giao phối với chó cái qua thụ tinh tạo thành hợp tử. Hợp tử phát triển thành phôi, phôi phát triển thành thai trong cơ thể chó mẹ."
+              "- Đại diện HS trả lời:\n+ Các giai đoạn phát triển chính trong vòng đời của chó: chó trưởng thành; phôi, thai; chó con mới sinh; chó con.\n+ Chó con có hình dạng gần giống với chó trưởng thành.\n+ Chó con mới sinh được chó mẹ nuôi bằng sữa đến giai đoạn chó con. Chó con ăn được các thức ăn khác, vận động nhanh nhẹn hơn lớn lên thành chó trưởng thành. Chó trưởng thành to lớn, có thể sinh sản. Chó đực giao phối với chó cái qua thụ tinh tạo thành hợp tử. Hợp tử phát triển thành phôi, phôi phát triển thành thai trong cơ thể chó mẹ."
             ],
             [
               "- GV cùng HS thống nhất đáp án.",
@@ -5660,7 +5514,7 @@
             ],
             [
               "- GV tổ chức cho HS làm việc cá nhân hoặc cặp đôi thực hiện nhiệm vụ mục trang 63 tìm hiểu về sự phát triển của con vật và vẽ sơ đồ ghi chú các giai đoạn trong vòng đời của con vật đó vào Phiếu học tập trong thời gian 7 phút.",
-              "- Các HS lắng nghe nhiệm vụ.- HS theo nhóm đôi, nhận nhiệm vụ.- HS thảo luận lựa chọn con vật."
+              "- Các HS lắng nghe nhiệm vụ.\n- HS theo nhóm đôi, nhận nhiệm vụ.\n- HS thảo luận lựa chọn con vật."
             ],
             [
               "- GV phát phiếu, hướng dẫn HS hoàn thành.",
@@ -5668,7 +5522,7 @@
             ],
             [
               "- GV thu phiếu của các nhóm, lựa chọn 1 - 2 đại diện HS trình bày kết quả.",
-              "- Đại diện HS chia sẻ nhiệm vụ trước lớp, các HS khác nhận xét, bổ sung.+ Các giai đoạn trong vòng đời của động vật đẻ con: (1) Con trưởng thành → (2) Thai → (3) Con mới được sinh ra → (4) Con con.+ Con trưởng thành to lớn, có khả năng sinh sản; Giai đoạn thai phát triển trong cơ thể mẹ; Con non mới sinh ra được mẹ nuôi bằng sữa mẹ; Con con có thể tự kiếm ăn,..."
+              "- Đại diện HS chia sẻ nhiệm vụ trước lớp, các HS khác nhận xét, bổ sung.\n+ Các giai đoạn trong vòng đời của động vật đẻ con: (1) Con trưởng thành → (2) Thai → (3) Con mới được sinh ra → (4) Con con.\n+ Con trưởng thành to lớn, có khả năng sinh sản; Giai đoạn thai phát triển trong cơ thể mẹ; Con non mới sinh ra được mẹ nuôi bằng sữa mẹ; Con con có thể tự kiếm ăn,..."
             ],
             [
               "- GV kết luận về các giai đoạn phát triển trong vòng đời của động vật đẻ con.",
@@ -5718,8 +5572,8 @@
               "- HS lắng nghe."
             ],
             [
-              "- GV tổ chức cho HS giải các ô chữ bí mật sử dụng các gợi ý dưới đây:1. Bò, chó, lợn,… thuộc nhóm động vật nào?2. Đây là tên giai đoạn chuyển từ ấu trùng muỗi sang muỗi trưởng thành.3. Muỗi đẻ ra gì?4. Đây là tên một giai đoạn trong vòng đời ở động vật mà lúc này chúng có khả năng sinh sản.5. Khoảng thời gian tính từ khi cơ thể được sinh ra, lớn lên, phát triển thành cơ thể trưởng thành, sinh sản tạo ra các cá thể mới, già đi rồi chết gọi là gì?6. Tên một loài cá sống ở biển, tên nghe rất béo, mắt thì rất tinh.7. Đây là tên giai đoạn phát triển ở động vật đẻ con nằm trong cơ thể mẹ.",
-              "- HS lắng nghe gợi ý và xung phong trả lời:1 - ĐẺ CON; 2 - NHỘNG; 3 - TRỨNG; 4 - TRƯỞNG THÀNH; 5 - VÒNG ĐỜI; 6 - MẬP; 7 - THAI.\nQuan sát, nghe các gợi ý của mỗi ô chữ và trả lời."
+              "- GV tổ chức cho HS giải các ô chữ bí mật sử dụng các gợi ý dưới đây:\n1. Bò, chó, lợn,… thuộc nhóm động vật nào?\n2. Đây là tên giai đoạn chuyển từ ấu trùng muỗi sang muỗi trưởng thành.\n3. Muỗi đẻ ra gì?\n4. Đây là tên một giai đoạn trong vòng đời ở động vật mà lúc này chúng có khả năng sinh sản.\n5. Khoảng thời gian tính từ khi cơ thể được sinh ra, lớn lên, phát triển thành cơ thể trưởng thành, sinh sản tạo ra các cá thể mới, già đi rồi chết gọi là gì?\n6. Tên một loài cá sống ở biển, tên nghe rất béo, mắt thì rất tinh.\n7. Đây là tên giai đoạn phát triển ở động vật đẻ con nằm trong cơ thể mẹ.",
+              "- HS lắng nghe gợi ý và xung phong trả lời:\n1 - ĐẺ CON; 2 - NHỘNG; 3 - TRỨNG; 4 - TRƯỞNG THÀNH; 5 - VÒNG ĐỜI; 6 - MẬP; 7 - THAI.\nQuan sát, nghe các gợi ý của mỗi ô chữ và trả lời."
             ],
             [
               "- GV tổng kết điểm và khen ngợi hoặc có phần quà dành cho nhóm thắng cuộc.",
@@ -5742,7 +5596,10 @@
             ]
           ]
         ],
-        "title": "BÀI 16: VÒNG ĐỜI VÀ SỰ PHÁT TRIỂN CỦA ĐỘNG VẬT (TIẾT 2)"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -5751,7 +5608,7 @@
     "sourceFile": "KHOA HỌC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "KHOA HỌC TUẦN 18 - ÔN TẬP KIỂM TRA - ÔN TẬP CUỐI HKI - TIẾT 1",
         "topic": "",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -5772,12 +5629,6 @@
           "- HS: SGK, vở ghi, bút, nháp; ôn lại các bài đã học trong học kì I."
         ],
         "activities": [],
-        "dieuchinh": [
-          "......................................................................................................................................................",
-          "......................................................................................................................................................",
-          "ÔN TẬP KIỂM TRA",
-          "KIỂM TRA CUỐI HKI"
-        ],
         "tables": [
           [
             [
@@ -5844,10 +5695,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1"
+        "dieuchinh": [
+          "......................................................................................................................................................",
+          "......................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2",
+        "lessonTitle": "KHOA HỌC TUẦN 18 - ÔN TẬP KIỂM TRA - KIỂM TRA CUỐI HKI - TIẾT 2",
         "topic": "",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -5858,41 +5712,13 @@
           "- Giải quyết vấn đề: đọc kĩ đề, lựa chọn kiến thức phù hợp để giải quyết yêu cầu của câu hỏi.",
           "3. PHẨM CHẤT",
           "- Trung thực: làm bài nghiêm túc, không trao đổi trong giờ kiểm tra.",
-          "- Trách nhiệm: thực hiện đúng nội quy kiểm tra, nộp bài đúng thời gian quy định.",
-          "Câu 1. Thành phần nào có nhiều nhất trong đất?",
-          "A. Không khí.     B. Nước.     C. Chất khoáng.     D. Mùn.",
-          "Câu 2. Việc làm nào góp phần bảo vệ môi trường đất?",
-          "A. Vứt rác bừa bãi.     B. Bón phân hợp lí.     C. Đổ nước thải chưa xử lí ra đất.     D. Đốt rác trên đất trồng.",
-          "Câu 3. Hỗn hợp là gì?",
-          "A. Hai hay nhiều chất trộn lẫn với nhau.     B. Một chất tinh khiết.     C. Chất chỉ có một thành phần.     D. Chất luôn tan trong nước.",
-          "Câu 4. Vật nào sau đây là vật cách điện?",
-          "A. Dây đồng.     B. Đinh sắt.     C. Thước nhựa.     D. Thìa nhôm.",
-          "Câu 5. Nguồn năng lượng nào là năng lượng tái tạo?",
-          "A. Than đá.     B. Dầu mỏ.     C. Khí đốt.     D. Năng lượng mặt trời.",
-          "Câu 6. Ở động vật đẻ trứng, con non hoặc ấu trùng được hình thành từ đâu?",
-          "A. Từ trứng.     B. Từ thân mẹ.     C. Từ rễ.     D. Từ lá."
+          "- Trách nhiệm: thực hiện đúng nội quy kiểm tra, nộp bài đúng thời gian quy định."
         ],
         "dodung": [
           "- GV: đề kiểm tra cuối học kì I, đáp án, biểu điểm, giấy kiểm tra dự phòng.",
-          "- HS: bút, thước, đồ dùng học tập cần thiết; ngồi đúng vị trí kiểm tra.",
-          "Câu 7. Nêu hai vai trò của đất đối với cây trồng.",
-          "Câu 8. Nêu một việc làm an toàn khi sử dụng năng lượng điện trong gia đình.",
-          "Câu 9. Trình bày ngắn gọn các giai đoạn phát triển chính của cây con mọc lên từ hạt.",
-          "Câu 10. Gia đình em muốn hạn chế muỗi phát triển. Em hãy nêu hai việc nên làm và giải thích ngắn gọn.",
-          "ĐÁP ÁN - GỢI Ý CHẤM",
-          "Câu 7. Đất cung cấp nước, không khí, chất khoáng, mùn cho cây; giúp cây đứng vững.",
-          "Câu 8. HS nêu được một việc làm an toàn: không chạm tay ướt vào ổ điện; tắt thiết bị khi không sử dụng; không nghịch dây điện,...",
-          "Câu 9. Hạt nảy mầm -> cây con -> cây trưởng thành; nêu được sự lớn lên qua rễ, thân, lá.",
-          "Câu 10. Loại bỏ nước đọng, đậy kín dụng cụ chứa nước, phát quang bụi rậm, ngủ màn,...; giải thích được muỗi thường đẻ trứng và ấu trùng phát triển ở nơi có nước đọng."
+          "- HS: bút, thước, đồ dùng học tập cần thiết; ngồi đúng vị trí kiểm tra."
         ],
         "activities": [],
-        "dieuchinh": [
-          "......................................................................................................................................................",
-          "......................................................................................................................................................",
-          "PHỤ LỤC",
-          "ĐỀ KIỂM TRA CUỐI HỌC KÌ I MÔN KHOA HỌC 5",
-          "Thời gian: 30 phút"
-        ],
         "tables": [
           [
             [
@@ -5930,7 +5756,38 @@
             ]
           ]
         ],
-        "title": "TIẾT 2"
+        "dieuchinh": [
+          "......................................................................................................................................................",
+          "......................................................................................................................................................",
+          "PHỤ LỤC",
+          "ĐỀ KIỂM TRA CUỐI HỌC KÌ I MÔN KHOA HỌC 5",
+          "Thời gian: 30 phút",
+          "I. TRẮC NGHIỆM: Khoanh vào chữ cái trước câu trả lời đúng.",
+          "Câu 1. Thành phần nào có nhiều nhất trong đất?",
+          "A. Không khí.     B. Nước.     C. Chất khoáng.     D. Mùn.",
+          "Câu 2. Việc làm nào góp phần bảo vệ môi trường đất?",
+          "A. Vứt rác bừa bãi.     B. Bón phân hợp lí.     C. Đổ nước thải chưa xử lí ra đất.     D. Đốt rác trên đất trồng.",
+          "Câu 3. Hỗn hợp là gì?",
+          "A. Hai hay nhiều chất trộn lẫn với nhau.     B. Một chất tinh khiết.     C. Chất chỉ có một thành phần.     D. Chất luôn tan trong nước.",
+          "Câu 4. Vật nào sau đây là vật cách điện?",
+          "A. Dây đồng.     B. Đinh sắt.     C. Thước nhựa.     D. Thìa nhôm.",
+          "Câu 5. Nguồn năng lượng nào là năng lượng tái tạo?",
+          "A. Than đá.     B. Dầu mỏ.     C. Khí đốt.     D. Năng lượng mặt trời.",
+          "Câu 6. Ở động vật đẻ trứng, con non hoặc ấu trùng được hình thành từ đâu?",
+          "A. Từ trứng.     B. Từ thân mẹ.     C. Từ rễ.     D. Từ lá.",
+          "II. TỰ LUẬN",
+          "Câu 7. Nêu hai vai trò của đất đối với cây trồng.",
+          "Câu 8. Nêu một việc làm an toàn khi sử dụng năng lượng điện trong gia đình.",
+          "Câu 9. Trình bày ngắn gọn các giai đoạn phát triển chính của cây con mọc lên từ hạt.",
+          "Câu 10. Gia đình em muốn hạn chế muỗi phát triển. Em hãy nêu hai việc nên làm và giải thích ngắn gọn.",
+          "ĐÁP ÁN - GỢI Ý CHẤM",
+          "I. Trắc nghiệm: Mỗi câu đúng 1 điểm. Câu 1: C; Câu 2: B; Câu 3: A; Câu 4: C; Câu 5: D; Câu 6: A.",
+          "II. Tự luận: Mỗi câu 1 điểm.",
+          "Câu 7. Đất cung cấp nước, không khí, chất khoáng, mùn cho cây; giúp cây đứng vững.",
+          "Câu 8. HS nêu được một việc làm an toàn: không chạm tay ướt vào ổ điện; tắt thiết bị khi không sử dụng; không nghịch dây điện,...",
+          "Câu 9. Hạt nảy mầm -> cây con -> cây trưởng thành; nêu được sự lớn lên qua rễ, thân, lá.",
+          "Câu 10. Loại bỏ nước đọng, đậy kín dụng cụ chứa nước, phát quang bụi rậm, ngủ màn,...; giải thích được muỗi thường đẻ trứng và ấu trùng phát triển ở nơi có nước đọng."
+        ]
       }
     ]
   },
@@ -5939,7 +5796,7 @@
     "sourceFile": "KHOA HỌC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT",
+        "lessonTitle": "KHOA HỌC TUẦN 19 - BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT",
         "topic": "CHỦ ĐỀ 3: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -5952,7 +5809,9 @@
           "- Chăm chỉ: Chăm chỉ tham gia các hoạt động nhóm, hoàn thành phiếu học tập và sơ đồ ôn tập.",
           "- Trách nhiệm: Có trách nhiệm với việc giữ gìn vệ sinh nhà cửa, chủ động thực hiện biện pháp hạn chế muỗi phát triển.",
           "4. TÍCH HỢP",
-          "- Tích hợp AI 5.D1.1: HS dùng Google Drive và Canva Whiteboard sắp xếp ảnh cây con, động vật đẻ trứng, động vật đẻ con, vòng đời động vật thành nhóm dữ liệu để “dạy” AI giả định."
+          "- Tích hợp AI 5.D1.1: HS dùng Google Drive và Canva Whiteboard sắp xếp ảnh cây con, động vật đẻ trứng, động vật đẻ con, vòng đời động vật thành nhóm dữ liệu để “dạy” AI giả định.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Vai trò của nguồn nước sạch đối với sự sinh sản, phát triển của thủy sản và vật nuôi; xử lí nước thải nuôi tôm đúng quy chuẩn.",
+          "- Giáo dục địa phương (Chủ đề 7): Mô hình nuôi tôm nước lợ công nghệ cao tại Trà Vinh (các huyện Duyên Hải, Cầu Ngang, Trà Cú) - ứng dụng quy trình tuần hoàn khép kín bảo vệ môi trường nước."
         ],
         "dodung": [
           "- Hình ảnh minh hoạ các nội dung liên quan đến bài học về vòng đời của một số thực vật và động vật như SGK.",
@@ -5961,23 +5820,6 @@
           "- Phiếu học tập số 1, Phiếu học tập số 2, Phiếu học tập số 3."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................",
-          "PHỤ LỤC",
-          "PHIẾU HỌC TẬP SỐ 3",
-          "1. Quan sát hình 2, SGK, hoàn thành bảng sau:",
-          "2. Quan sát hình 3, thực hiện nhiệm vụ:",
-          "(1)            (2)                (3)                  (4)",
-          "- Nêu tên các giai đoạn phát triển của ếch tương ứng mỗi hình:",
-          "(1): ……………......; (2): …………….......; (3): ……………….; (4): ………………...",
-          "- Sắp xếp các giai đoạn theo trình tự phát triển vòng đời của ếch:",
-          "- Mô tả vòng đời và sự phát triển của ếch:",
-          "PHIẾU HỌC TẬP SỐ 1",
-          "Hoàn thành sơ đồ tóm tắt các nội dung đã học phần thực vật.",
-          "PHIẾU HỌC TẬP SỐ 2",
-          "Hoàn thành sơ đồ tóm tắt các nội dung đã học phần động vật."
-        ],
         "tables": [
           [
             [
@@ -6108,6 +5950,10 @@
               "- HS lắng nghe."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 7) & Mizuiku: GV mở rộng ứng dụng vòng đời và sự sinh sản của động vật vào sản xuất ở Trà Vinh: Nghề nuôi tôm thẻ chân trắng, tôm sú công nghệ cao là thế mạnh kinh tế của tỉnh. Để tôm phát triển khỏe mạnh, nguồn nước ao nuôi phải được kiểm soát độ sạch nghiêm ngặt và nước thải sau nuôi tôm phải qua hồ lắng xử lí vi sinh trước khi xả ra sông để không gây ô nhiễm nguồn nước chung.",
+              "- HS chú ý lắng nghe, hiểu rõ tầm quan trọng của nguồn nước sạch đối với đời sống thủy sinh; cam kết cùng gia đình bảo vệ nguồn nước ao hồ, kênh rạch ở địa phương."
+            ],
+            [
               "- GV dặn dò HS về nhà cùng thực hiện vệ sinh nơi ở để phòng chống bệnh tật, hạn chế sự phát triển của muỗi.",
               "- HS lắng nghe và ghi nhiệm vụ."
             ]
@@ -6162,10 +6008,26 @@
             ]
           ]
         ],
-        "title": "BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................",
+          "PHỤ LỤC",
+          "PHIẾU HỌC TẬP SỐ 3",
+          "1. Quan sát hình 2, SGK, hoàn thành bảng sau:",
+          "2. Quan sát hình 3, thực hiện nhiệm vụ:",
+          "(1)            (2)                (3)                  (4)",
+          "- Nêu tên các giai đoạn phát triển của ếch tương ứng mỗi hình:",
+          "(1): ……………......; (2): …………….......; (3): ……………….; (4): ………………...",
+          "- Sắp xếp các giai đoạn theo trình tự phát triển vòng đời của ếch:",
+          "- Mô tả vòng đời và sự phát triển của ếch:",
+          "PHIẾU HỌC TẬP SỐ 1",
+          "Hoàn thành sơ đồ tóm tắt các nội dung đã học phần thực vật.",
+          "PHIẾU HỌC TẬP SỐ 2",
+          "Hoàn thành sơ đồ tóm tắt các nội dung đã học phần động vật."
+        ]
       },
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "KHOA HỌC TUẦN 19 - BÀI 18: VI KHUẨN XUNG QUANH CHÚNG TA (TIẾT 1) - TIẾT 1",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6186,13 +6048,6 @@
           "- Khay đựng mẫu, găng tay, phiếu học tập khổ A3 hoặc bảng nhóm, bút dạ đầu nhỏ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................",
-          "PHỤ LỤC",
-          "PHIẾU HỌC TẬP",
-          "Tên nhóm: ........................................................................"
-        ],
         "tables": [
           [
             [
@@ -6328,7 +6183,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................",
+          "PHỤ LỤC",
+          "PHIẾU HỌC TẬP",
+          "Tên nhóm: ........................................................................"
+        ]
       }
     ]
   },
@@ -6337,7 +6198,7 @@
     "sourceFile": "KHOA HỌC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 2",
+        "lessonTitle": "KHOA HỌC TUẦN 20 - BÀI 18: VI KHUẨN XUNG QUANH CHÚNG TA (TIẾT 2) - TIẾT 2",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6358,10 +6219,6 @@
           "- Phiếu học tập hoặc thẻ ghi nơi, đồ vật ở gia đình và xung quanh em có thể là nơi vi khuẩn sống."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6449,10 +6306,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 1)",
+        "lessonTitle": "KHOA HỌC TUẦN 20 - BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6474,12 +6334,6 @@
           "- Phiếu thảo luận nhóm, bảng nhóm, bút dạ, sản phẩm hoặc nguyên liệu phục vụ thực hành muối chua rau, củ, quả."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................",
-          "PHỤ LỤC",
-          "PHIẾU THẢO LUẬN NHÓM"
-        ],
         "tables": [
           [
             [
@@ -6601,7 +6455,12 @@
             ]
           ]
         ],
-        "title": "BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 1)"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................",
+          "PHỤ LỤC",
+          "PHIẾU THẢO LUẬN NHÓM"
+        ]
       }
     ]
   },
@@ -6610,7 +6469,7 @@
     "sourceFile": "KHOA HỌC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 2 - BÀI HỌC STEM)",
+        "lessonTitle": "KHOA HỌC TUẦN 21 - BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 2 - BÀI HỌC STEM)",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6618,12 +6477,15 @@
           "- Đề xuất được ý tưởng và cách làm cẩm nang hướng dẫn chế biến một số thực phẩm sử dụng vi khuẩn có ích.",
           "- Thực hiện được cẩm nang đơn giản và trình bày, giới thiệu được sản phẩm của nhóm.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Tích cực, chủ động tham gia xây dựng ý tưởng, hoàn thành nhiệm vụ được giao và tự điều chỉnh sản phẩm.",
           "- Giao tiếp và hợp tác: Hợp tác với bạn trong hoạt động nhóm, biết trao đổi, góp ý và cùng hoàn thiện cẩm nang.",
           "3. PHẨM CHẤT",
           "- Chăm chỉ: Tích cực tham gia làm sản phẩm, trình bày sản phẩm và hoàn thành phiếu học tập.",
           "- Trách nhiệm: Có ý thức giữ gìn vệ sinh, an toàn khi thực hiện các bước chế biến thực phẩm sử dụng vi khuẩn có ích.",
           "4. TÍCH HỢP",
-          "- Bài học STEM: Vi khuẩn có ích trong chế biến thực phẩm: HS vận dụng kiến thức về vi khuẩn lactic để đề xuất ý tưởng, thiết kế và làm cẩm nang hướng dẫn chế biến một số thực phẩm sử dụng vi khuẩn có ích."
+          "- Bài học STEM: Vi khuẩn có ích trong chế biến thực phẩm: HS vận dụng kiến thức về vi khuẩn lactic để đề xuất ý tưởng, thiết kế và làm cẩm nang hướng dẫn chế biến một số thực phẩm sử dụng vi khuẩn có ích.",
+          "- Giáo dục địa phương: Giữ gìn vệ sinh nguồn nước giếng khoan, nước máy và kênh rạch quanh khu dân cư tại tỉnh Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Nhận biết vi khuẩn gây bệnh đường tiêu hóa (tả, lỵ, thương hàn) lây qua nguồn nước ô nhiễm; thực hành ăn chín, uống sôi, rửa tay bằng nước sạch và xà phòng."
         ],
         "dodung": [
           "- Giáo án điện tử; tranh ảnh, video hoặc sản phẩm thực tế về sữa chua, rau củ muối chua; một số mẫu cẩm nang tham khảo.",
@@ -6631,14 +6493,6 @@
           "- Tư liệu HS sưu tầm về vai trò của vi khuẩn lactic; dụng cụ và vật liệu phù hợp với phương án làm cẩm nang của từng nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................",
-          "PHỤ LỤC",
-          "PHIẾU THẢO LUẬN NHÓM",
-          "PHIẾU THẢO LUẬN",
-          "SO SÁNH DINH DƯỠNG TRONG 100 g"
-        ],
         "tables": [
           [
             [
@@ -6646,7 +6500,7 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: HS nhắc lại được vai trò của vi khuẩn lactic trong chế biến thực phẩm và xác định được nhiệm vụ của bài học STEM.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: HS nhắc lại được vai trò của vi khuẩn lactic trong chế biến thực phẩm và xác định được nhiệm vụ của bài học STEM.\n*Cách tiến hành:"
             ],
             [
               "- GV cho HS quan sát một số sản phẩm như sữa chua, dưa cải muối, cà pháo muối hoặc hình ảnh minh hoạ; yêu cầu HS nêu tên thực phẩm và cho biết thực phẩm nào được chế biến với sự tham gia của vi khuẩn có ích.",
@@ -6661,14 +6515,14 @@
               "- HS lắng nghe, xác định nhiệm vụ của nhóm, ghi tên bài."
             ],
             [
-              "2. Khám phá (10 phút)2.1. Đề xuất ý tưởng và cách làm cẩm nang hướng dẫn chế biến thực phẩm sử dụng vi khuẩn có íchHoạt động 1: Đề xuất ý tưởng làm cẩm nangMục tiêu: HS xây dựng được ý tưởng làm cẩm nang hướng dẫn chế biến thực phẩm sử dụng vi khuẩn có ích.Mục tiêu tích hợp: HS vận dụng kiến thức STEM để xác định nội dung, cấu tạo và vật liệu phù hợp cho cẩm nang.*Cách tiến hành:"
+              "2. Khám phá (10 phút)\n2.1. Đề xuất ý tưởng và cách làm cẩm nang hướng dẫn chế biến thực phẩm sử dụng vi khuẩn có ích\nHoạt động 1: Đề xuất ý tưởng làm cẩm nang\nMục tiêu: HS xây dựng được ý tưởng làm cẩm nang hướng dẫn chế biến thực phẩm sử dụng vi khuẩn có ích.\nMục tiêu tích hợp: HS vận dụng kiến thức STEM để xác định nội dung, cấu tạo và vật liệu phù hợp cho cẩm nang.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu các nhóm thảo luận và chia sẻ ý tưởng làm cẩm nang chế biến một số thực phẩm sử dụng vi khuẩn có ích.",
               "- HS thảo luận nhóm, chia sẻ ý tưởng làm cẩm nang."
             ],
             [
-              "- GV đặt câu hỏi gợi ý: Vật liệu làm cẩm nang gồm những gì? Cấu tạo của cẩm nang gồm những bộ phận nào?- GV gợi ý: Vật liệu có thể gồm giấy ô li để ghi nội dung, bìa làm khung cẩm nang, giấy màu để trang trí.",
+              "- GV đặt câu hỏi gợi ý: Vật liệu làm cẩm nang gồm những gì? Cấu tạo của cẩm nang gồm những bộ phận nào?\n- GV gợi ý: Vật liệu có thể gồm giấy ô li để ghi nội dung, bìa làm khung cẩm nang, giấy màu để trang trí.",
               "- HS chia sẻ ý tưởng: vật liệu, cách trình bày, các phần nội dung của cẩm nang."
             ],
             [
@@ -6676,14 +6530,14 @@
               "- Nhóm khác nhận xét, góp ý để nhóm bạn hoàn thiện ý tưởng; HS theo dõi."
             ],
             [
-              "Hoạt động 2: Lựa chọn ý tưởng, đề xuất cách làm chế biến một số thực phẩm sử dụng vi khuẩn có íchMục tiêu: HS lựa chọn được ý tưởng phù hợp và đề xuất được cách làm chế biến một số thực phẩm sử dụng vi khuẩn có ích.*Cách tiến hành:"
+              "Hoạt động 2: Lựa chọn ý tưởng, đề xuất cách làm chế biến một số thực phẩm sử dụng vi khuẩn có ích\nMục tiêu: HS lựa chọn được ý tưởng phù hợp và đề xuất được cách làm chế biến một số thực phẩm sử dụng vi khuẩn có ích.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS thảo luận nhóm để lựa chọn ý tưởng, đề xuất giải pháp làm sản phẩm; giao phiếu học tập số 4 và yêu cầu HS hoàn thành; mời HS trình bày kết quả; mời các nhóm khác góp ý, bổ sung; GV tổng kết hoạt động và chuyển sang hoạt động tiếp theo.",
               "- HS thảo luận nhóm; hoàn thành phiếu học tập số 4; trình bày kết quả; HS góp ý, bổ sung và theo dõi."
             ],
             [
-              "3. Luyện tập (13 phút)Hoạt động 3: Làm cẩm nang hướng dẫn chế biến một số thực phẩm sử dụng vi khuẩn có íchMục tiêu: HS thực hiện làm được cẩm nang hướng dẫn chế biến một số loại thực phẩm sử dụng vi khuẩn có ích theo cách của nhóm em.*Cách tiến hành:"
+              "3. Luyện tập (13 phút)\nHoạt động 3: Làm cẩm nang hướng dẫn chế biến một số thực phẩm sử dụng vi khuẩn có ích\nMục tiêu: HS thực hiện làm được cẩm nang hướng dẫn chế biến một số loại thực phẩm sử dụng vi khuẩn có ích theo cách của nhóm em.\n*Cách tiến hành:"
             ],
             [
               "- HS lựa chọn dụng cụ và vật liệu phù hợp với phương án của nhóm."
@@ -6697,7 +6551,7 @@
               "- Các nhóm thực hành làm sản phẩm; HS kiểm tra, điều chỉnh sản phẩm theo tiêu chí GV nêu."
             ],
             [
-              "4. Vận dụng - trải nghiệm (7 phút)Hoạt động 4: Trưng bày và giới thiệu sản phẩmMục tiêu: HS giới thiệu được cẩm nang của nhóm em; biết nhận xét, đánh giá sản phẩm của nhóm bạn và vận dụng cẩm nang vào thực tế.*Cách tiến hành:"
+              "4. Vận dụng - trải nghiệm (7 phút)\nHoạt động 4: Trưng bày và giới thiệu sản phẩm\nMục tiêu: HS giới thiệu được cẩm nang của nhóm em; biết nhận xét, đánh giá sản phẩm của nhóm bạn và vận dụng cẩm nang vào thực tế.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức cho các nhóm trưng bày sản phẩm; cho HS dự kiến giá sản phẩm của nhóm mình vào phiếu đánh giá; mời HS tham quan sản phẩm của các nhóm.",
@@ -6712,7 +6566,7 @@
               "- HS tham quan, nhận xét và đánh giá sản phẩm của nhóm bạn vào phiếu đánh giá."
             ],
             [
-              "Tổng kết bài họcMục tiêu: HS củng cố kiến thức về vai trò của vi khuẩn có ích trong chế biến thực phẩm và định hướng vận dụng tại gia đình.*Cách tiến hành:"
+              "Tổng kết bài học\nMục tiêu: HS củng cố kiến thức về vai trò của vi khuẩn có ích trong chế biến thực phẩm và định hướng vận dụng tại gia đình.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức cho HS chia sẻ về cẩm nang mà em ấn tượng nhất và giải thích lí do; GV tổng kết hoạt động, nhận xét việc làm việc của nhóm HS và đánh giá sản phẩm của các nhóm.",
@@ -6721,6 +6575,10 @@
             [
               "- GV nhắc HS chưa hoàn thiện sản phẩm và phiếu học tập thì hoàn thiện nốt; đề nghị HS sử dụng cẩm nang để thực hiện chế biến sữa chua, muối các loại rau, củ, quả ở nhà.",
               "- HS ghi nhớ nhiệm vụ, có thể tiếp tục hoàn thiện sản phẩm và vận dụng tại nhà cùng người thân."
+            ],
+            [
+              "- Tích hợp Mizuiku & GDĐP: GV hướng dẫn HS phòng bệnh do vi khuẩn trong môi trường nước: Nguồn nước ao hồ, kênh rạch bị ô nhiễm phân bón, rác thải là nơi trú ngụ của nhiều vi khuẩn nguy hiểm gây bệnh tiêu chảy, sốt xuất huyết. Ở Trà Vinh, học sinh cần rèn luyện thói quen uống nước đã đun sôi hoặc lọc sạch, rửa tay đúng cách bằng xà phòng dưới vòi nước chảy để bảo vệ sức khỏe bản thân và cộng đồng.",
+              "- HS nêu các việc làm phòng tránh bệnh: uống nước sạch đun sôi, không uống nước lã từ sông kênh; rửa tay sạch trước khi ăn; giữ vệ sinh bồn chứa nước sinh hoạt gia đình."
             ],
             [
               "- GV khen ngợi những HS tích cực tham gia hoạt động, động viên các nhóm làm chưa tốt để lần sau cố gắng; dặn HS đọc trước bài 20, sưu tầm tư liệu về bệnh sâu răng và bệnh tả.",
@@ -6804,10 +6662,17 @@
             ]
           ]
         ],
-        "title": "BÀI 19: VI KHUẨN CÓ ÍCH TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 2 - BÀI HỌC STEM)"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................",
+          "PHỤ LỤC",
+          "PHIẾU THẢO LUẬN NHÓM",
+          "PHIẾU THẢO LUẬN",
+          "SO SÁNH DINH DƯỠNG TRONG 100 g"
+        ]
       },
       {
-        "lessonTitle": "BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 1)",
+        "lessonTitle": "KHOA HỌC TUẦN 21 - BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6831,10 +6696,6 @@
           "- Video phòng bệnh từ website Bộ Y tế, kênh YouTube Sức khỏe Việt Nam hoặc học liệu GV cung cấp."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6941,7 +6802,10 @@
             ]
           ]
         ],
-        "title": "BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 1)"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -6950,7 +6814,7 @@
     "sourceFile": "KHOA HỌC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 2)",
+        "lessonTitle": "KHOA HỌC TUẦN 22 - BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -6973,13 +6837,6 @@
           "- Tư liệu HS sưu tầm về bệnh tả, đường lây truyền và cách phòng tránh bệnh do vi khuẩn gây ra."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................",
-          "PHỤ LỤC",
-          "PHIẾU HỌC TẬP: BIỆN PHÁP PHÒNG TRÁNH SÂU RĂNG",
-          "PHIẾU HỌC TẬP: PHÒNG TRÁNH BỆNH TẢ"
-        ],
         "tables": [
           [
             [
@@ -7133,10 +6990,16 @@
             ]
           ]
         ],
-        "title": "BÀI 20: VI KHUẨN GÂY BỆNH Ở NGƯỜI VÀ CÁCH PHÒNG TRÁNH (TIẾT 2)"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................",
+          "PHỤ LỤC",
+          "PHIẾU HỌC TẬP: BIỆN PHÁP PHÒNG TRÁNH SÂU RĂNG",
+          "PHIẾU HỌC TẬP: PHÒNG TRÁNH BỆNH TẢ"
+        ]
       },
       {
-        "lessonTitle": "BÀI 21: ÔN TẬP CHỦ ĐỀ VI KHUẨN",
+        "lessonTitle": "KHOA HỌC TUẦN 22 - BÀI 21: ÔN TẬP CHỦ ĐỀ VI KHUẨN",
         "topic": "CHỦ ĐỀ 4: VI KHUẨN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -7160,10 +7023,6 @@
           "- HS: Tranh ảnh, tư liệu sưu tầm, đồ dùng để sắm vai trong hoạt động xử lí tình huống."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7255,7 +7114,10 @@
             ]
           ]
         ],
-        "title": "BÀI 21: ÔN TẬP CHỦ ĐỀ VI KHUẨN"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7264,7 +7126,7 @@
     "sourceFile": "KHOA HỌC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 1)",
+        "lessonTitle": "KHOA HỌC TUẦN 23 - BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -7287,10 +7149,6 @@
           "- Phiếu học tập, bộ thẻ tổ chức trò chơi “Nếu ...” - “thì ...”."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7374,10 +7232,13 @@
             ]
           ]
         ],
-        "title": "BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 1)"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 2)",
+        "lessonTitle": "KHOA HỌC TUẦN 23 - BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -7400,15 +7261,6 @@
           "- Phiếu học tập, bảng nhóm, thẻ từ: trứng, tinh trùng, sự thụ tinh, hợp tử, phôi, thai nhi, em bé."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................................",
-          "........................................................................................................................................................................",
-          "PHỤ LỤC",
-          "PHIẾU HỌC TẬP",
-          "1. Sử dụng các từ/cụm từ: trứng, thai nhi, thụ tinh, phôi, hoàn thành sơ đồ sự hình thành cơ thể người dưới đây.",
-          "2. Dựa vào sơ đồ vừa hoàn thành, hãy tìm từ thích hợp điền vào chỗ ….. hoàn thành đoạn thông tin mô tả về sự hình thành cơ thể người dưới đây.",
-          "Cơ thể người được hình thành từ sự kết hợp giữa (1)……….. của mẹ và (2)………. của bố qua thụ tinh tạo thành (3)………... Hợp tử phát triển hình thành (4)……….... Trong tử cung của mẹ, phôi tiếp tục phát triển thành (5)……….... Khoảng 9 tháng sau thụ tinh, (6)…….. được sinh ra."
-        ],
         "tables": [
           [
             [
@@ -7505,7 +7357,15 @@
             ]
           ]
         ],
-        "title": "BÀI 22: SỰ HÌNH THÀNH CƠ THỂ NGƯỜI (TIẾT 2)"
+        "dieuchinh": [
+          "........................................................................................................................................................................",
+          "........................................................................................................................................................................",
+          "PHỤ LỤC",
+          "PHIẾU HỌC TẬP",
+          "1. Sử dụng các từ/cụm từ: trứng, thai nhi, thụ tinh, phôi, hoàn thành sơ đồ sự hình thành cơ thể người dưới đây.",
+          "2. Dựa vào sơ đồ vừa hoàn thành, hãy tìm từ thích hợp điền vào chỗ ….. hoàn thành đoạn thông tin mô tả về sự hình thành cơ thể người dưới đây.",
+          "Cơ thể người được hình thành từ sự kết hợp giữa (1)……….. của mẹ và (2)………. của bố qua thụ tinh tạo thành (3)………... Hợp tử phát triển hình thành (4)……….... Trong tử cung của mẹ, phôi tiếp tục phát triển thành (5)……….... Khoảng 9 tháng sau thụ tinh, (6)…….. được sinh ra."
+        ]
       }
     ]
   },
@@ -7518,19 +7378,18 @@
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
-          "- Xác định được tên gọi và độ tuổi các giai đoạn phát triển chính của con người.- Nêu được một số đặc điểm nổi bật ở các giai đoạn phát triển trong tuổi ấu thơ.- Xác định được giai đoạn phát triển của những thành viên trong gia đình của mình.",
+          "- Xác định được tên gọi và độ tuổi các giai đoạn phát triển chính của con người.\n- Nêu được một số đặc điểm nổi bật ở các giai đoạn phát triển trong tuổi ấu thơ.\n- Xác định được giai đoạn phát triển của những thành viên trong gia đình của mình.",
           "2. Năng lực chung",
-          "- Tự chủ và tự học: Tích cực, chủ động hoàn thành các nhiệm vụ, thu thập thông tin tìm hiểu về các giai đoạn của tuổi ấu thơ, tuổi vị thành niên, tuổi trưởng thành.- Giao tiếp và hợp tác: Tham gia nhiệm vụ nhóm, chia sẻ ý kiến, trình bày kết quả nhóm.",
+          "- Tự chủ và tự học: Tích cực, chủ động hoàn thành các nhiệm vụ, thu thập thông tin tìm hiểu về các giai đoạn của tuổi ấu thơ, tuổi vị thành niên, tuổi trưởng thành.\n- Giao tiếp và hợp tác: Tham gia nhiệm vụ nhóm, chia sẻ ý kiến, trình bày kết quả nhóm.",
           "3. Phẩm chất",
-          "- Nhân ái: Biết quan tâm, tôn trọng sự khác biệt về ngoại hình, giới tính, tốc độ lớn lên của mỗi người.- Trách nhiệm: Có ý thức tìm hiểu, chia sẻ thông tin phù hợp về các giai đoạn phát triển của bản thân và người thân.",
+          "- Nhân ái: Biết quan tâm, tôn trọng sự khác biệt về ngoại hình, giới tính, tốc độ lớn lên của mỗi người.\n- Trách nhiệm: Có ý thức tìm hiểu, chia sẻ thông tin phù hợp về các giai đoạn phát triển của bản thân và người thân.",
           "4. Tích hợp",
           "- Tích hợp quyền con người: HS hiểu mỗi người có quyền được tôn trọng trong từng giai đoạn phát triển; không trêu chọc sự khác biệt về ngoại hình, giới tính, tốc độ lớn lên."
         ],
         "dodung": [
-          "- Hình ảnh minh hoạ các giai đoạn phát triển của con người, đặc biệt là tuổi ấu thơ.- Dụng cụ chiếu tranh, ảnh lên màn ảnh (nếu có).- Ảnh gia đình hoặc tranh vẽ gia đình của HS (nếu có).- Phiếu học tập, trò chơi Gọi thuyền, Bóng đỏ phiêu lưu kí, Tiếp sức đồng đội."
+          "- Hình ảnh minh hoạ các giai đoạn phát triển của con người, đặc biệt là tuổi ấu thơ.\n- Dụng cụ chiếu tranh, ảnh lên màn ảnh (nếu có).\n- Ảnh gia đình hoặc tranh vẽ gia đình của HS (nếu có).\n- Phiếu học tập, trò chơi Gọi thuyền, Bóng đỏ phiêu lưu kí, Tiếp sức đồng đội."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -7563,7 +7422,7 @@
               "2.2. TUỔI ẤU THƠ (từ lúc mới sinh đến 9 tuổi) (8 phút)\nMục tiêu: Nêu được một số đặc điểm nổi bật ở các giai đoạn phát triển trong tuổi ấu thơ.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc nhóm 4 và thực hiện theo yêu cầu của SGK.\n\n- GV tổ chức trò chơi Chuyên gia trẻ nhỏ để HS chia sẻ kết quả thảo luận nhóm.",
+              "- GV yêu cầu HS làm việc nhóm 4 và thực hiện theo yêu cầu của SGK.\n- GV tổ chức trò chơi Chuyên gia trẻ nhỏ để HS chia sẻ kết quả thảo luận nhóm.",
               "- Cá nhân HS đọc thông tin tìm hiểu, chia sẻ trong nhóm và trả lời các câu hỏi."
             ],
             [
@@ -7589,7 +7448,7 @@
               "3.2. Ghép ô chữ về các giai đoạn phát triển trong tuổi ấu thơ với mô tả đặc điểm phù hợp dưới đây. (10 phút)\nMục tiêu: Củng cố về một số giai đoạn phát triển của tuổi ấu thơ.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc cá nhân để nối 2 cột và chia sẻ kết quả theo cặp đôi (hoặc nhóm).\n\n- GV tổ chức trò chơi Tiếp sức đồng đội để ghép ô chữ tương ứng hoặc sắp xếp lại các ô chữ đã bị xáo trộn.",
+              "- GV yêu cầu HS làm việc cá nhân để nối 2 cột và chia sẻ kết quả theo cặp đôi (hoặc nhóm).\n- GV tổ chức trò chơi Tiếp sức đồng đội để ghép ô chữ tương ứng hoặc sắp xếp lại các ô chữ đã bị xáo trộn.",
               "- HS hoàn thành nhiệm vụ, chia sẻ với bạn.\n- HS chơi trò chơi:\n- 8 HS được đề cử chia làm 2 đội chơi.\n- HS nghe luật chơi và hỏi (nếu cần)."
             ],
             [
@@ -7609,26 +7468,25 @@
             ]
           ]
         ],
-        "title": "BÀI 23: CÁC GIAI ĐOẠN PHÁT TRIỂN CHÍNH CỦA CON NGƯỜI (Tiết 1)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 23: CÁC GIAI ĐOẠN PHÁT TRIỂN CHÍNH CỦA CON NGƯỜI (Tiết 2)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
-          "- Nêu được một số đặc điểm nổi bật của con người ở tuổi vị thành niên.- Nêu được một số thay đổi của nam và nữ ở tuổi dậy thì.- Vận dụng kiến thức để nhận biết biểu hiện của tuổi dậy thì và thích nghi với thay đổi của cơ thể.",
+          "- Nêu được một số đặc điểm nổi bật của con người ở tuổi vị thành niên.\n- Nêu được một số thay đổi của nam và nữ ở tuổi dậy thì.\n- Vận dụng kiến thức để nhận biết biểu hiện của tuổi dậy thì và thích nghi với thay đổi của cơ thể.",
           "2. Năng lực chung",
-          "- Tự chủ và tự học: Tích cực, chủ động hoàn thành các nhiệm vụ, thu thập thông tin tìm hiểu về các giai đoạn của tuổi ấu thơ, tuổi vị thành niên, tuổi trưởng thành.- Giao tiếp và hợp tác: Tham gia nhiệm vụ nhóm, chia sẻ ý kiến, trình bày kết quả nhóm.",
+          "- Tự chủ và tự học: Tích cực, chủ động hoàn thành các nhiệm vụ, thu thập thông tin tìm hiểu về các giai đoạn của tuổi ấu thơ, tuổi vị thành niên, tuổi trưởng thành.\n- Giao tiếp và hợp tác: Tham gia nhiệm vụ nhóm, chia sẻ ý kiến, trình bày kết quả nhóm.",
           "3. Phẩm chất",
-          "- Nhân ái: Biết chia sẻ, ứng xử phù hợp với bạn bè khi có thay đổi về cơ thể, tâm lí.- Trách nhiệm: Có ý thức chăm sóc bản thân phù hợp với lứa tuổi; biết chia sẻ với người lớn đáng tin cậy khi cần hỗ trợ.",
+          "- Nhân ái: Biết chia sẻ, ứng xử phù hợp với bạn bè khi có thay đổi về cơ thể, tâm lí.\n- Trách nhiệm: Có ý thức chăm sóc bản thân phù hợp với lứa tuổi; biết chia sẻ với người lớn đáng tin cậy khi cần hỗ trợ.",
           "4. Tích hợp",
           "- Tích hợp KNS: HS biết chăm sóc bản thân phù hợp với lứa tuổi, biết chia sẻ với người lớn đáng tin cậy khi có thay đổi về cơ thể, tâm lí."
         ],
         "dodung": [
-          "- Hình ảnh, video minh hoạ một số thay đổi của nam và nữ ở tuổi dậy thì.- Dụng cụ chiếu tranh, ảnh lên màn ảnh (nếu có).- Phiếu học tập theo nhóm.- Trò chơi ô chữ, Chuyên gia tuổi dậy thì."
+          "- Hình ảnh, video minh hoạ một số thay đổi của nam và nữ ở tuổi dậy thì.\n- Dụng cụ chiếu tranh, ảnh lên màn ảnh (nếu có).\n- Phiếu học tập theo nhóm.\n- Trò chơi ô chữ, Chuyên gia tuổi dậy thì."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -7680,7 +7538,7 @@
             ]
           ]
         ],
-        "title": "BÀI 23: CÁC GIAI ĐOẠN PHÁT TRIỂN CHÍNH CỦA CON NGƯỜI (Tiết 2)"
+        "dieuchinh": []
       }
     ]
   },
@@ -7693,23 +7551,18 @@
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
-          "- Nêu được một số đặc điểm nổi bật của con người ở giai đoạn tuổi trưởng thành.- Nêu được một số đặc điểm nổi bật của con người ở giai đoạn tuổi già.- Phân biệt được đặc điểm của con người ở các giai đoạn khác nhau trong cuộc đời.- Liên hệ thực tế, nêu được một số việc bản thân có thể làm với những thành viên trong gia đình.",
+          "- Nêu được một số đặc điểm nổi bật của con người ở giai đoạn tuổi trưởng thành.\n- Nêu được một số đặc điểm nổi bật của con người ở giai đoạn tuổi già.\n- Phân biệt được đặc điểm của con người ở các giai đoạn khác nhau trong cuộc đời.\n- Liên hệ thực tế, nêu được một số việc bản thân có thể làm với những thành viên trong gia đình.",
           "2. Năng lực chung",
-          "- Tự chủ và tự học: Tích cực, chủ động hoàn thành các nhiệm vụ, thu thập thông tin tìm hiểu về các giai đoạn của tuổi ấu thơ, tuổi vị thành niên, tuổi trưởng thành.- Giao tiếp và hợp tác: Tham gia nhiệm vụ nhóm, chia sẻ ý kiến, trình bày kết quả nhóm.",
+          "- Tự chủ và tự học: Tích cực, chủ động hoàn thành các nhiệm vụ, thu thập thông tin tìm hiểu về các giai đoạn của tuổi ấu thơ, tuổi vị thành niên, tuổi trưởng thành.\n- Giao tiếp và hợp tác: Tham gia nhiệm vụ nhóm, chia sẻ ý kiến, trình bày kết quả nhóm.",
           "3. Phẩm chất",
-          "- Nhân ái: Biết yêu thương, kính trọng, chăm sóc các thành viên trong gia đình ở từng giai đoạn phát triển.- Trách nhiệm: Có ý thức thực hiện những việc làm phù hợp để quan tâm, chăm sóc người thân.",
+          "- Nhân ái: Biết yêu thương, kính trọng, chăm sóc các thành viên trong gia đình ở từng giai đoạn phát triển.\n- Trách nhiệm: Có ý thức thực hiện những việc làm phù hợp để quan tâm, chăm sóc người thân.",
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB2a: HS quan sát tranh, video học liệu GV chọn trên PowerPoint hoặc Google Drive về các giai đoạn phát triển của con người."
         ],
         "dodung": [
-          "- Hình ảnh, video học liệu về các giai đoạn phát triển của con người trên PowerPoint hoặc Google Drive.- Dụng cụ chiếu tranh, ảnh lên màn ảnh (nếu có).- Phiếu học tập theo nhóm, cây hạnh phúc cho cả lớp.- Một số câu hỏi, trò chơi hoạt động khởi động đầu tiết học."
+          "- Hình ảnh, video học liệu về các giai đoạn phát triển của con người trên PowerPoint hoặc Google Drive.\n- Dụng cụ chiếu tranh, ảnh lên màn ảnh (nếu có).\n- Phiếu học tập theo nhóm, cây hạnh phúc cho cả lớp.\n- Một số câu hỏi, trò chơi hoạt động khởi động đầu tiết học."
         ],
         "activities": [],
-        "dieuchinh": [
-          "PHỤ LỤC",
-          "Trò chơi Ai thông minh hơn học sinh lớp 5?",
-          "- GV hướng dẫn luật chơi.- GV sẽ đưa ra các câu hỏi liên quan đến 2 tiết học trước.- HS trả lời bằng cách viết đáp án vào bảng con. Nếu HS trả lời đúng sẽ được tham gia các câu hỏi tiếp theo.- Nếu HS trả lời sai sẽ phải dừng cuộc chơi và trở thành trọng tài giúp GV giám sát.- Những HS trả lời đúng tất cả các câu hỏi sẽ chiến thắng và nhận được phần thưởng từ GV.- Một số câu hỏi gợi ý:Câu 1. Con người trải qua mấy giai đoạn phát triển? (4 giai đoạn).Câu 2. Thức ăn chủ yếu của trẻ dưới 1 tuổi là gì? (sữa mẹ và thức ăn mềm).Câu 3. Giai đoạn tuổi vị thành niên trong khoảng bao nhiêu tuổi? (10 - 19 tuổi).Câu 4. Tuổi trưởng thành trong khoảng bao nhiêu tuổi? (20 - 60 tuổi).Câu 5. Tuổi già bắt đầu từ độ tuổi nào? (trên 60 tuổi)."
-        ],
         "tables": [
           [
             [
@@ -7727,7 +7580,7 @@
               "2. KHÁM PHÁ\n2.1. TUỔI TRƯỞNG THÀNH (từ 20 đến 60 tuổi) (5 phút)\nMục tiêu: Nêu được một số đặc điểm nổi bật của con người ở giai đoạn tuổi trưởng thành.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc cá nhân, đọc khung thông tin và trả lời câu hỏi trong SGK, chia sẻ theo nhóm đôi.\n\n- GV mời một số nhóm trình bày kết quả trước lớp; HS ở dưới lắng nghe và nhận xét.",
+              "- GV yêu cầu HS làm việc cá nhân, đọc khung thông tin và trả lời câu hỏi trong SGK, chia sẻ theo nhóm đôi.\n- GV mời một số nhóm trình bày kết quả trước lớp; HS ở dưới lắng nghe và nhận xét.",
               "- HS hoàn thành yêu cầu của SGK, chia sẻ câu trả lời theo nhóm đôi.\n- Đại diện 1 số HS trình bày kết quả trước lớp, HS khác nhận xét."
             ],
             [
@@ -7742,7 +7595,7 @@
               "- HS nghe và đoán.\n- HS trả lời: Con cháu mong muốn ông bà, bố mẹ dù tuổi già nhưng vẫn vui vẻ, khoẻ mạnh và sống có ích.\n- HS lắng nghe."
             ],
             [
-              "- GV gọi HS đọc yêu cầu trong SGK.\n- GV yêu cầu HS làm việc nhóm, liên hệ thực tế và thực hiện theo yêu cầu trong SGK.\n\n- GV tổ chức cho HS chia kẻ kết quả bằng trò chơi Nhanh như chớp.",
+              "- GV gọi HS đọc yêu cầu trong SGK.\n- GV yêu cầu HS làm việc nhóm, liên hệ thực tế và thực hiện theo yêu cầu trong SGK.\n- GV tổ chức cho HS chia kẻ kết quả bằng trò chơi Nhanh như chớp.",
               "- HS đọc yêu cầu trong SGK.\n- Các nhóm chia sẻ, hội ý để tìm ra nhiều đáp án về: đặc điểm của con người ở tuổi già; vai trò của người già trong gia đình và xã hội.\n- Luật chơi: Các đội thi đối kháng qua 2 câu hỏi đã thảo luận. Ở mỗi câu hỏi, các đội sẽ lần lượt đưa ra các đáp án nhanh. Mỗi đội chỉ có 10 giây trả lời và suy nghĩ ở mỗi lượt. Sau 10 giây, đội nào không đưa ra được đáp án mới và đúng sẽ bị loại. Đội giành chiến thắng nhiều lượt chơi hơn sẽ là đội thắng cuộc."
             ],
             [
@@ -7771,7 +7624,7 @@
               "4. VẬN DỤNG - TRẢI NGHIỆM\n4.1. Chia sẻ một số việc em có thể làm để thể hiện sự quan tâm, chăm sóc với những thành viên trong gia đình.\nMục tiêu: Liên hệ thực tế, nêu được một số việc bản thân có thể làm với những thành viên trong gia đình.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát tranh hoặc liên hệ và chia sẻ những hoạt động có thể làm để thể hiện sự quan tâm, chăm sóc với các thành viên trong gia đình với bạn cùng bàn.\n\n- GV tổ chức cho HS chia sẻ kết quả bằng hoạt động: chăm sóc Cây hạnh phúc.",
+              "- GV yêu cầu HS quan sát tranh hoặc liên hệ và chia sẻ những hoạt động có thể làm để thể hiện sự quan tâm, chăm sóc với các thành viên trong gia đình với bạn cùng bàn.\n- GV tổ chức cho HS chia sẻ kết quả bằng hoạt động: chăm sóc Cây hạnh phúc.",
               "- HS chia sẻ với bạn cùng bàn theo yêu cầu.\n- Mỗi HS nhận 1 trái yêu thương để ghi 1 hoặc nhiều việc làm của mình thể hiện sự quan tâm, chăm sóc các thành viên trong gia đình.\n- HS gắn lên Cây hạnh phúc trên bảng."
             ],
             [
@@ -7787,10 +7640,10 @@
             ]
           ]
         ],
-        "title": "BÀI 23: CÁC GIAI ĐOẠN PHÁT TRIỂN CHÍNH CỦA CON NGƯỜI (Tiết 3)"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "BÀI 24: NAM VÀ NỮ (Tiết 1)",
+        "lessonTitle": "PHỤ LỤC - Trò chơi Ai thông minh hơn học sinh lớp 5? - - GV hướng dẫn luật chơi.\n- GV sẽ đưa ra các câu hỏi liên quan đến 2 tiết học trước.\n- HS trả lời bằng cách viết đáp án vào bảng con. Nếu HS trả lời đúng sẽ được tham gia các câu hỏi tiếp theo.\n- Nếu HS trả lời sai sẽ phải dừng cuộc chơi và trở thành trọng tài giúp GV giám sát.\n- Những HS trả lời đúng tất cả các câu hỏi sẽ chiến thắng và nhận được phần thưởng từ GV.\n- Một số câu hỏi gợi ý:\nCâu 1. Con người trải qua mấy giai đoạn phát triển? (4 giai đoạn).\nCâu 2. Thức ăn chủ yếu của trẻ dưới 1 tuổi là gì? (sữa mẹ và thức ăn mềm).\nCâu 3. Giai đoạn tuổi vị thành niên trong khoảng bao nhiêu tuổi? (10 - 19 tuổi).\nCâu 4. Tuổi trưởng thành trong khoảng bao nhiêu tuổi? (20 - 60 tuổi).\nCâu 5. Tuổi già bắt đầu từ độ tuổi nào? (trên 60 tuổi). - BÀI 24: NAM VÀ NỮ (Tiết 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7810,7 +7663,6 @@
           "- HS: Theo nhóm: một số thẻ trống; 01 tờ giấy A3, bút nét to (nếu có). Cá nhân: 01 thẻ hình trái tim hoặc hình mình thích."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -7941,7 +7793,7 @@
             ]
           ]
         ],
-        "title": "BÀI 24: NAM VÀ NỮ (Tiết 1)"
+        "dieuchinh": []
       }
     ]
   },
@@ -7970,7 +7822,6 @@
           "- HS: Theo nhóm: một số thẻ trống; 01 tờ giấy A3, bút nét to (nếu có). Cá nhân: 01 thẻ hình trái tim hoặc hình mình thích."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -8113,7 +7964,7 @@
             ]
           ]
         ],
-        "title": "BÀI 24: NAM VÀ NỮ (Tiết 2)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 25: CHĂM SÓC SỨC KHOẺ TUỔI DẬY THÌ (Tiết 1)",
@@ -8139,7 +7990,6 @@
           "- Bộ thẻ “Nếu - thì” để tổ chức trò chơi."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -8245,7 +8095,7 @@
             ]
           ]
         ],
-        "title": "BÀI 25: CHĂM SÓC SỨC KHOẺ TUỔI DẬY THÌ (Tiết 1)"
+        "dieuchinh": []
       }
     ]
   },
@@ -8277,7 +8127,6 @@
           "- Bộ thẻ “Nếu - thì” để tổ chức trò chơi."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -8420,7 +8269,7 @@
             ]
           ]
         ],
-        "title": "BÀI 25: CHĂM SÓC SỨC KHOẺ TUỔI DẬY THÌ (Tiết 2)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 25: CHĂM SÓC SỨC KHOẺ TUỔI DẬY THÌ (Tiết 3)",
@@ -8446,26 +8295,6 @@
           "- Bộ thẻ “Nếu - thì” để tổ chức trò chơi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "PHỤ LỤC",
-          "Khoanh vào một ý đúng ở mỗi câu sau:",
-          "Câu 1. Đặc điểm phát triển cơ thể tuổi dậy thì:",
-          "a) Tăng nhanh về chiều cao.",
-          "b) Phát triển nhanh về ngôn ngữ.",
-          "c) Chiều cao, cân nặng tăng chậm.",
-          "d) Mọc đủ răng sữa.",
-          "Câu 2. Chất dinh dưỡng giúp xương vững chắc và tăng chiều cao của cơ thể:",
-          "a) Chất đạm và chất béo.",
-          "b) Vi-ta-min D và chất khoáng (can-xi).",
-          "c) Chất bột đường và chất đạm.",
-          "d) Chất béo và chất bột đường.",
-          "Câu 3. Chơi môn thể thao vận động nhiều giúp:",
-          "a) Phát triển trí thông minh.",
-          "b) Phát triển cơ bắp và cân nặng.",
-          "c) Phát triển chiều cao.",
-          "d) Phát triển hệ cơ và xương.",
-          "Đáp án: Câu 1: a; Câu 2: b; Câu 3: d."
-        ],
         "tables": [
           [
             [
@@ -8538,7 +8367,28 @@
             ]
           ]
         ],
-        "title": "BÀI 25: CHĂM SÓC SỨC KHOẺ TUỔI DẬY THÌ (Tiết 3)"
+        "dieuchinh": [
+          "PHỤ LỤC",
+          "PHIẾU SỐ 1 (BÀI TẬP)",
+          "PHIẾU BÀI TẬP",
+          "Khoanh vào một ý đúng ở mỗi câu sau:",
+          "Câu 1. Đặc điểm phát triển cơ thể tuổi dậy thì:",
+          "a) Tăng nhanh về chiều cao.",
+          "b) Phát triển nhanh về ngôn ngữ.",
+          "c) Chiều cao, cân nặng tăng chậm.",
+          "d) Mọc đủ răng sữa.",
+          "Câu 2. Chất dinh dưỡng giúp xương vững chắc và tăng chiều cao của cơ thể:",
+          "a) Chất đạm và chất béo.",
+          "b) Vi-ta-min D và chất khoáng (can-xi).",
+          "c) Chất bột đường và chất đạm.",
+          "d) Chất béo và chất bột đường.",
+          "Câu 3. Chơi môn thể thao vận động nhiều giúp:",
+          "a) Phát triển trí thông minh.",
+          "b) Phát triển cơ bắp và cân nặng.",
+          "c) Phát triển chiều cao.",
+          "d) Phát triển hệ cơ và xương.",
+          "Đáp án: Câu 1: a; Câu 2: b; Câu 3: d."
+        ]
       }
     ]
   },
@@ -8547,7 +8397,7 @@
     "sourceFile": "KHOA HỌC TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN KHOA HỌC 5",
+        "lessonTitle": "ÔN TẬP GIỮA HỌC KÌ II",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8561,83 +8411,13 @@
           "- Chăm chỉ: tích cực tham gia ôn tập, hoàn thành nhiệm vụ đúng thời gian.",
           "- Trách nhiệm: có ý thức chăm sóc sức khỏe bản thân, tôn trọng bạn cùng giới và khác giới, biết tìm kiếm sự hỗ trợ khi cần.",
           "4. Tích hợp",
-          "- Không tích hợp trong tiết ôn tập giữa học kì II.",
-          "- Vận dụng kiến thức đã học để trả lời câu hỏi và xử lí tình huống đơn giản liên quan đến sức khỏe, tuổi dậy thì, tôn trọng nam và nữ.",
-          "- Tự chủ và tự học: tự giác làm bài, đọc kĩ yêu cầu, kiểm tra lại bài trước khi nộp.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức vào phần tự luận và tình huống thực tế.",
-          "- Trung thực: làm bài nghiêm túc, không trao đổi trong giờ kiểm tra.",
-          "- Trách nhiệm: hoàn thành bài đúng thời gian, trình bày rõ ràng, sạch đẹp.",
-          "- Không tích hợp trong tiết kiểm tra giữa học kì II."
+          "- Không tích hợp trong tiết ôn tập giữa học kì II."
         ],
         "dodung": [
           "- GV: Phiếu ôn tập, thẻ câu hỏi, bảng nhóm, bút dạ, giấy A3, một số tình huống ôn tập, máy chiếu nếu có.",
-          "- HS: Vở ghi, bút, bảng con, các ghi chép hoặc sơ đồ kiến thức đã chuẩn bị ở nhà.",
-          "- GV: Đề kiểm tra giữa học kì II, đáp án, hướng dẫn chấm, đồng hồ theo dõi thời gian.",
-          "- HS: Bút, thước, giấy nháp nếu cần; chuẩn bị tâm thế làm bài nghiêm túc."
+          "- HS: Vở ghi, bút, bảng con, các ghi chép hoặc sơ đồ kiến thức đã chuẩn bị ở nhà."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KIỂM TRA GIỮA HỌC KÌ II",
-          "ĐỀ KIỂM TRA GIỮA HỌC KÌ II MÔN KHOA HỌC",
-          "Thời gian làm bài: 35 phút       Năm học: 2025 - 2026",
-          "Câu 1. Cơ thể người được hình thành từ sự kết hợp giữa thành phần nào?",
-          "A. Trứng của mẹ và tinh trùng của bố.",
-          "B. Không khí và nước.",
-          "C. Thức ăn và ánh sáng.",
-          "D. Đất và nước.",
-          "Câu 2. Sau khi trứng và tinh trùng kết hợp, bộ phận nào được tạo thành đầu tiên?",
-          "A. Hợp tử.",
-          "B. Cây con.",
-          "C. Hạt giống.",
-          "D. Vi khuẩn.",
-          "Câu 3. Tuổi dậy thì thuộc giai đoạn phát triển nào của con người?",
-          "A. Tuổi vị thành niên.",
-          "B. Tuổi ấu thơ.",
-          "C. Tuổi già.",
-          "D. Tuổi sơ sinh.",
-          "Câu 4. Đặc điểm nào dưới đây là đặc điểm sinh học của nữ?",
-          "A. Có thể mang thai khi trưởng thành.",
-          "B. Thích mặc áo sơ mi.",
-          "C. Làm nghề giáo viên.",
-          "D. Thích đá bóng.",
-          "Câu 5. Đặc điểm nào dưới đây là đặc điểm xã hội của con người?",
-          "A. Để tóc ngắn.",
-          "B. Cơ quan sinh dục tạo ra tinh trùng.",
-          "C. Có kinh nguyệt.",
-          "D. Có thể mang thai.",
-          "Câu 6. Việc làm nào thể hiện sự tôn trọng bạn cùng giới và khác giới?",
-          "A. Cùng chia sẻ công việc phù hợp, không chê bai đặc điểm của bạn.",
-          "B. Trêu chọc bạn vì bạn khác mình.",
-          "C. Nói việc nhà chỉ dành cho nữ.",
-          "D. Chê bai sở thích của bạn.",
-          "Câu 7. Ở tuổi dậy thì, việc làm nào giúp chăm sóc sức khỏe thể chất?",
-          "A. Ăn uống đủ chất, vận động phù hợp, ngủ đủ giấc.",
-          "B. Thức khuya thường xuyên.",
-          "C. Không vệ sinh cơ thể.",
-          "D. Ăn uống thất thường.",
-          "Câu 8. Khi cơ thể có thay đổi làm em lo lắng ở tuổi dậy thì, em nên làm gì?",
-          "A. Chia sẻ với bố mẹ, thầy cô, nhân viên y tế hoặc người lớn tin cậy.",
-          "B. Giữ kín và không hỏi ai.",
-          "C. Tự dùng thuốc theo lời bạn.",
-          "D. Bỏ qua tất cả dấu hiệu bất thường.",
-          "Câu 9. (1 điểm) Nêu 2 giai đoạn phát triển chính của con người và cho biết em đang ở giai đoạn nào.",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "Câu 10. (1,5 điểm) Vì sao cần giữ vệ sinh cơ thể ở tuổi dậy thì? Hãy nêu 2 việc cần làm để giữ vệ sinh cơ thể.",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "Câu 11. (1,5 điểm) Em hãy nêu 3 việc làm thể hiện sự tôn trọng bạn cùng giới và khác giới.",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "Câu 12. (2 điểm) Tình huống: Một bạn trong lớp ngại nói với người lớn khi có thắc mắc về sự thay đổi của cơ thể ở tuổi dậy thì. Em sẽ khuyên bạn như thế nào?",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "Lưu ý khi chấm: Chấp nhận các cách diễn đạt khác nếu đúng ý, phù hợp lứa tuổi và thể hiện được kiến thức khoa học đã học."
-        ],
         "tables": [
           [
             [
@@ -8672,7 +8452,32 @@
               "- GV yêu cầu HS nêu lại 3 nội dung quan trọng nhất em cần ghi nhớ sau tiết ôn tập.\n- GV nhận xét tinh thần học tập của lớp, nhắc HS về nhà xem lại sơ đồ ôn tập và chuẩn bị bút, thước cho tiết kiểm tra.\n- GV dặn HS giữ tâm lí bình tĩnh, đọc kĩ đề, làm bài trung thực trong tiết sau.",
               "- HS nêu lại nội dung trọng tâm theo hiểu biết của mình.\n- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị cho tiết kiểm tra.\n- HS chuẩn bị đồ dùng học tập và tâm thế nghiêm túc."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "KIỂM TRA GIỮA HỌC KÌ II",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Đánh giá mức độ đạt yêu cầu cần đạt của HS sau khi học các nội dung về con người và sức khỏe.",
+          "- Vận dụng kiến thức đã học để trả lời câu hỏi và xử lí tình huống đơn giản liên quan đến sức khỏe, tuổi dậy thì, tôn trọng nam và nữ.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: tự giác làm bài, đọc kĩ yêu cầu, kiểm tra lại bài trước khi nộp.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức vào phần tự luận và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Trung thực: làm bài nghiêm túc, không trao đổi trong giờ kiểm tra.",
+          "- Trách nhiệm: hoàn thành bài đúng thời gian, trình bày rõ ràng, sạch đẹp.",
+          "4. Tích hợp",
+          "- Không tích hợp trong tiết kiểm tra giữa học kì II."
+        ],
+        "dodung": [
+          "- GV: Đề kiểm tra giữa học kì II, đáp án, hướng dẫn chấm, đồng hồ theo dõi thời gian.",
+          "- HS: Bút, thước, giấy nháp nếu cần; chuẩn bị tâm thế làm bài nghiêm túc."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -8718,6 +8523,26 @@
             [
               "Nhận xét của giáo viên: ........................................................................................................",
               ""
+            ]
+          ],
+          [
+            [
+              "A. TRẮC NGHIỆM (4 điểm) - Khoanh vào chữ cái trước ý trả lời đúng."
+            ]
+          ],
+          [
+            [
+              "B. TỰ LUẬN (6 điểm) - Trả lời câu hỏi vào chỗ chấm."
+            ]
+          ],
+          [
+            [
+              "Chúc em bình tĩnh, tự tin và làm bài thật tốt!"
+            ]
+          ],
+          [
+            [
+              "ĐÁP ÁN - HƯỚNG DẪN CHẤM"
             ]
           ],
           [
@@ -8776,7 +8601,70 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN KHOA HỌC 5"
+        "dieuchinh": [
+          "TUẦN 28 - TIẾT 56",
+          "ĐỀ KIỂM TRA GIỮA HỌC KÌ II MÔN KHOA HỌC",
+          "Thời gian làm bài: 35 phút       Năm học: 2025 - 2026",
+          "Lưu ý: Em đọc kĩ từng câu hỏi, làm bài sạch đẹp, trình bày rõ ràng.",
+          "Câu 1. Cơ thể người được hình thành từ sự kết hợp giữa thành phần nào?",
+          "A. Trứng của mẹ và tinh trùng của bố.",
+          "B. Không khí và nước.",
+          "C. Thức ăn và ánh sáng.",
+          "D. Đất và nước.",
+          "Câu 2. Sau khi trứng và tinh trùng kết hợp, bộ phận nào được tạo thành đầu tiên?",
+          "A. Hợp tử.",
+          "B. Cây con.",
+          "C. Hạt giống.",
+          "D. Vi khuẩn.",
+          "Câu 3. Tuổi dậy thì thuộc giai đoạn phát triển nào của con người?",
+          "A. Tuổi vị thành niên.",
+          "B. Tuổi ấu thơ.",
+          "C. Tuổi già.",
+          "D. Tuổi sơ sinh.",
+          "Câu 4. Đặc điểm nào dưới đây là đặc điểm sinh học của nữ?",
+          "A. Có thể mang thai khi trưởng thành.",
+          "B. Thích mặc áo sơ mi.",
+          "C. Làm nghề giáo viên.",
+          "D. Thích đá bóng.",
+          "Câu 5. Đặc điểm nào dưới đây là đặc điểm xã hội của con người?",
+          "A. Để tóc ngắn.",
+          "B. Cơ quan sinh dục tạo ra tinh trùng.",
+          "C. Có kinh nguyệt.",
+          "D. Có thể mang thai.",
+          "Câu 6. Việc làm nào thể hiện sự tôn trọng bạn cùng giới và khác giới?",
+          "A. Cùng chia sẻ công việc phù hợp, không chê bai đặc điểm của bạn.",
+          "B. Trêu chọc bạn vì bạn khác mình.",
+          "C. Nói việc nhà chỉ dành cho nữ.",
+          "D. Chê bai sở thích của bạn.",
+          "Câu 7. Ở tuổi dậy thì, việc làm nào giúp chăm sóc sức khỏe thể chất?",
+          "A. Ăn uống đủ chất, vận động phù hợp, ngủ đủ giấc.",
+          "B. Thức khuya thường xuyên.",
+          "C. Không vệ sinh cơ thể.",
+          "D. Ăn uống thất thường.",
+          "Câu 8. Khi cơ thể có thay đổi làm em lo lắng ở tuổi dậy thì, em nên làm gì?",
+          "A. Chia sẻ với bố mẹ, thầy cô, nhân viên y tế hoặc người lớn tin cậy.",
+          "B. Giữ kín và không hỏi ai.",
+          "C. Tự dùng thuốc theo lời bạn.",
+          "D. Bỏ qua tất cả dấu hiệu bất thường.",
+          "Câu 9. (1 điểm) Nêu 2 giai đoạn phát triển chính của con người và cho biết em đang ở giai đoạn nào.",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "Câu 10. (1,5 điểm) Vì sao cần giữ vệ sinh cơ thể ở tuổi dậy thì? Hãy nêu 2 việc cần làm để giữ vệ sinh cơ thể.",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "Câu 11. (1,5 điểm) Em hãy nêu 3 việc làm thể hiện sự tôn trọng bạn cùng giới và khác giới.",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "Câu 12. (2 điểm) Tình huống: Một bạn trong lớp ngại nói với người lớn khi có thắc mắc về sự thay đổi của cơ thể ở tuổi dậy thì. Em sẽ khuyên bạn như thế nào?",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "Môn: Khoa học - Lớp 5        Tuần 28 - Tiết 56",
+          "Lưu ý khi chấm: Chấp nhận các cách diễn đạt khác nếu đúng ý, phù hợp lứa tuổi và thể hiện được kiến thức khoa học đã học."
+        ]
       }
     ]
   },
@@ -8809,7 +8697,6 @@
           "- Giấy viết “Danh sách người đáng tin cậy” hoặc giấy bìa làm “Bàn tay tin cậy” theo số lượng HS."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -8940,7 +8827,7 @@
             ]
           ]
         ],
-        "title": "BÀI 26: PHÒNG TRÁNH BỊ XÂM HẠI (Tiết 1)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 26: PHÒNG TRÁNH BỊ XÂM HẠI (Tiết 2)",
@@ -8967,7 +8854,6 @@
           "- Giấy viết “Danh sách người đáng tin cậy” hoặc giấy bìa làm “Bàn tay tin cậy” theo số lượng HS."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9077,7 +8963,7 @@
             ]
           ]
         ],
-        "title": "BÀI 26: PHÒNG TRÁNH BỊ XÂM HẠI (Tiết 2)"
+        "dieuchinh": []
       }
     ]
   },
@@ -9110,7 +8996,6 @@
           "- Giấy viết “Danh sách người đáng tin cậy” hoặc giấy bìa làm “Bàn tay tin cậy” theo số lượng HS."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9142,7 +9027,7 @@
               "HĐ1. Nhận diện bí mật có thể giữ kín và bí mật cần được chia sẻ\nMục tiêu: Nhận diện những sự việc, tình huống (điều khó nói/bí mật) an toàn hoặc tiềm ẩn nguy cơ không an toàn.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS:\n\n+ Làm việc cặp đôi, quan sát kĩ nội dung, bối cảnh trong từng hình và thực hiện theo yêu cầu của SGK.\n+ Chia sẻ kết quả trong nhóm và giải thích lí do vì sao sắp xếp như vậy.",
+              "- GV yêu cầu HS:\n+ Làm việc cặp đôi, quan sát kĩ nội dung, bối cảnh trong từng hình và thực hiện theo yêu cầu của SGK.\n+ Chia sẻ kết quả trong nhóm và giải thích lí do vì sao sắp xếp như vậy.",
               "- 2 HS cùng quan sát và chia sẻ nội dung hình, dựa vào nội dung thông tin đã đọc, phân loại tình huống vào 2 cột phù hợp.\n- HS chia sẻ kết quả làm việc cặp đôi trong nhóm. Nhóm thống nhất kết quả phân loại và ý kiến giải thích cho cách sắp xếp tình huống vào 2 cột."
             ],
             [
@@ -9228,7 +9113,7 @@
             ]
           ]
         ],
-        "title": "BÀI 26: PHÒNG TRÁNH BỊ XÂM HẠI (Tiết 3)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 26: PHÒNG TRÁNH BỊ XÂM HẠI (Tiết 4)",
@@ -9255,30 +9140,6 @@
           "- Giấy viết “Danh sách người đáng tin cậy” hoặc giấy bìa làm “Bàn tay tin cậy” theo số lượng HS."
         ],
         "activities": [],
-        "dieuchinh": [
-          "PHỤ LỤC",
-          "1. Phụ lục 1 - Câu hỏi trò chơi khởi động tiết 2",
-          "Câu 1. Chọn những cụm từ diễn đạt cảm giác an toàn của con người.",
-          "a) Lo âu, hoảng sợ.    b) Tự tin, tự hào.",
-          "c) Khổ sở, nghi ngờ.    d) Vui sướng, thoải mái.",
-          "(Đáp án: b, d).",
-          "Câu 2. Chọn những nội dung cho thấy trẻ em đang ở tình huống không an toàn.",
-          "a) Nói chuyện, giúp đỡ ông bà nội hoặc ông bà ngoại.",
-          "b) Nói chuyện, giúp đỡ bạn bè kết giao qua mạng.",
-          "c) Đi cùng bạn từ trường về nhà hoặc từ nhà đến trường.",
-          "d) Nộp tiền hoặc cam chịu làm theo yêu cầu của người khác.",
-          "(Đáp án: b, d).",
-          "Câu 3. Chọn những ý kiến thể hiện quyền được an toàn, bảo vệ sự toàn vẹn của cá nhân, phản đối mọi sự xâm hại của cá nhân.",
-          "a) Mọi người có quyền bất khả xâm phạm về thân thể.",
-          "b) Nam, nữ được phân biệt đối xử về giới.",
-          "c) Được pháp luật bảo hộ về sức khoẻ, danh dự và nhân phẩm.",
-          "d) Nghiêm cấm xâm hại, hành hạ, lạm dụng trẻ em.",
-          "(Đáp án: a, b, d).",
-          "2. Trích Luật trẻ em năm 2016 của Quốc hội",
-          "- Theo điều 21 - Quyền bí mật đời sống riêng tư: Trẻ em có quyền riêng tư, bí mật cá nhân nhưng những bí mật đó không được ảnh hưởng đến sức khoẻ thể chất và tinh thần của trẻ, việc giữ bí mật cá nhân phải vì lợi ích tốt nhất của trẻ.",
-          "- Theo điều 15 - Quyền chăm sóc, nuôi dưỡng: Trẻ em chưa đủ tuổi thành niên (theo pháp luật Việt Nam là 18 tuổi) có quyền được chăm sóc, nuôi dưỡng và phát triển toàn diện cả về sức khoẻ thể chất, tinh thần và mối quan hệ xã hội của trẻ em.",
-          "- Theo điều 47 - Các yêu cầu đối với cha mẹ để thực hiện bảo vệ trẻ em: Cha mẹ, người chăm sóc trẻ em và trẻ em phải được cung cấp thông tin, được tham gia ý kiến với cơ quan, cá nhân có thẩm quyền trong việc ra quyết định can thiệp, hỗ trợ để bảo vệ trẻ em."
-        ],
         "tables": [
           [
             [
@@ -9365,7 +9226,30 @@
             ]
           ]
         ],
-        "title": "BÀI 26: PHÒNG TRÁNH BỊ XÂM HẠI (Tiết 4)"
+        "dieuchinh": [
+          "PHỤ LỤC",
+          "1. Phụ lục 1 - Câu hỏi trò chơi khởi động tiết 2",
+          "Câu 1. Chọn những cụm từ diễn đạt cảm giác an toàn của con người.",
+          "a) Lo âu, hoảng sợ.    b) Tự tin, tự hào.",
+          "c) Khổ sở, nghi ngờ.    d) Vui sướng, thoải mái.",
+          "(Đáp án: b, d).",
+          "Câu 2. Chọn những nội dung cho thấy trẻ em đang ở tình huống không an toàn.",
+          "a) Nói chuyện, giúp đỡ ông bà nội hoặc ông bà ngoại.",
+          "b) Nói chuyện, giúp đỡ bạn bè kết giao qua mạng.",
+          "c) Đi cùng bạn từ trường về nhà hoặc từ nhà đến trường.",
+          "d) Nộp tiền hoặc cam chịu làm theo yêu cầu của người khác.",
+          "(Đáp án: b, d).",
+          "Câu 3. Chọn những ý kiến thể hiện quyền được an toàn, bảo vệ sự toàn vẹn của cá nhân, phản đối mọi sự xâm hại của cá nhân.",
+          "a) Mọi người có quyền bất khả xâm phạm về thân thể.",
+          "b) Nam, nữ được phân biệt đối xử về giới.",
+          "c) Được pháp luật bảo hộ về sức khoẻ, danh dự và nhân phẩm.",
+          "d) Nghiêm cấm xâm hại, hành hạ, lạm dụng trẻ em.",
+          "(Đáp án: a, b, d).",
+          "2. Trích Luật trẻ em năm 2016 của Quốc hội",
+          "- Theo điều 21 - Quyền bí mật đời sống riêng tư: Trẻ em có quyền riêng tư, bí mật cá nhân nhưng những bí mật đó không được ảnh hưởng đến sức khoẻ thể chất và tinh thần của trẻ, việc giữ bí mật cá nhân phải vì lợi ích tốt nhất của trẻ.",
+          "- Theo điều 15 - Quyền chăm sóc, nuôi dưỡng: Trẻ em chưa đủ tuổi thành niên (theo pháp luật Việt Nam là 18 tuổi) có quyền được chăm sóc, nuôi dưỡng và phát triển toàn diện cả về sức khoẻ thể chất, tinh thần và mối quan hệ xã hội của trẻ em.",
+          "- Theo điều 47 - Các yêu cầu đối với cha mẹ để thực hiện bảo vệ trẻ em: Cha mẹ, người chăm sóc trẻ em và trẻ em phải được cung cấp thông tin, được tham gia ý kiến với cơ quan, cá nhân có thẩm quyền trong việc ra quyết định can thiệp, hỗ trợ để bảo vệ trẻ em."
+        ]
       }
     ]
   },
@@ -9387,14 +9271,15 @@
           "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức vận dụng kiến thức đã học để chăm sóc, bảo vệ sức khoẻ thể chất và tinh thần; biết thể hiện sự tôn trọng với bạn cùng giới và khác giới; biết tìm kiếm sự giúp đỡ khi gặp tình huống không an toàn.",
           "4. Tích hợp",
-          "- Tích hợp AI 5.A3.1: HS đọc một lời khuyên sức khỏe do ChatGPT, Gemini hoặc Copilot gợi ý, rồi đối chiếu SGK và học liệu của Bộ Y tế."
+          "- Tích hợp AI 5.A3.1: HS đọc một lời khuyên sức khỏe do ChatGPT, Gemini hoặc Copilot gợi ý, rồi đối chiếu SGK và học liệu của Bộ Y tế.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Môi trường nước là nơi cư trú và cung cấp thức ăn cho sinh vật; giữ sạch môi trường nước để bảo tồn đa dạng sinh học.",
+          "- Giáo dục địa phương (Chủ đề 3 & 7): Chức năng của môi trường rừng ngập mặn ven biển Duyên Hải và hệ sinh thái đất ngập nước Trà Vinh đối với sự sống của các loài động thực vật thủy sinh."
         ],
         "dodung": [
           "- GV: Các câu hỏi, bài tập trắc nghiệm, điền từ ngắn; thẻ chữ, tranh tình huống, bảng nhóm hoặc giấy khổ lớn để tổ chức trò chơi Tiếp sức đồng đội.",
           "- HS: Chuẩn bị Sơ đồ hệ thống kiến thức theo các hình dạng khác nhau hoặc theo gợi ý trong SGK."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9402,7 +9287,7 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. Khởi động (5 phút): Chia sẻ cảm xúc về chủ đềMục tiêu: Chia sẻ cảm xúc về chủ đề.*Cách tiến hành:"
+              "1. Khởi động (5 phút): Chia sẻ cảm xúc về chủ đề\nMục tiêu: Chia sẻ cảm xúc về chủ đề.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức cho HS chia sẻ một số điều ấn tượng nhất hoặc cảm nhận sau khi học xong chủ đề Con người và sức khoẻ.",
@@ -9412,10 +9297,10 @@
               "2. Luyện tập: Hệ thống hoá và củng cố kiến thức chủ đề Con người và sức khoẻ"
             ],
             [
-              "Hoạt động 1: Chia sẻ Sơ đồ hệ thống kiến thứcMục tiêu: Hệ thống hoá được kiến thức của chủ đề dưới dạng sơ đồ.*Cách tiến hành:"
+              "Hoạt động 1: Chia sẻ Sơ đồ hệ thống kiến thức\nMục tiêu: Hệ thống hoá được kiến thức của chủ đề dưới dạng sơ đồ.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho cả lớp chia sẻ theo hình thức hội chợ:\n+ Yêu cầu các nhóm trưng bày Sơ đồ hệ thống kiến thức đã chuẩn bị tại các vị trí của nhóm mình.\n\n+ Cử người giới thiệu sản phẩm nhóm và tham quan, nhận xét các nhóm khác.",
+              "- GV tổ chức cho cả lớp chia sẻ theo hình thức hội chợ:\n+ Yêu cầu các nhóm trưng bày Sơ đồ hệ thống kiến thức đã chuẩn bị tại các vị trí của nhóm mình.\n+ Cử người giới thiệu sản phẩm nhóm và tham quan, nhận xét các nhóm khác.",
               "- Trưởng nhóm yêu cầu các bạn rà soát lại Sơ đồ hệ thống hoá kiến thức đã chuẩn bị của nhóm mình, phân công các bạn thực hiện:\n+ Treo sơ đồ của nhóm và 2 bạn đứng tại vị trí sơ đồ để trình bày với “khách tham quan” về nội dung nhóm mình đã tóm lược.\n+ Các bạn còn lại di chuyển tự do đến các điểm trưng bày, nghe nhóm bạn trình bày và đặt câu hỏi và chia sẻ ý kiến (nếu cần)."
             ],
             [
@@ -9423,7 +9308,7 @@
               "- HS mỗi nhóm quay lại nhóm của mình, thảo luận về các ý kiến góp ý; trao đổi thống nhất hoàn thiện lại sơ đồ của nhóm mình (nếu cần)."
             ],
             [
-              "Hoạt động 2: Lựa chọn thông tin phù hợp với hình tương ứngMục tiêu: Củng cố kiến thức.*Cách tiến hành:"
+              "Hoạt động 2: Lựa chọn thông tin phù hợp với hình tương ứng\nMục tiêu: Củng cố kiến thức.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân để hoàn thành yêu cầu 2 của SGK và chia sẻ trong nhóm.",
@@ -9445,7 +9330,7 @@
               "3. Vận dụng - Trải nghiệm: Xử lí tình huống trong cuộc sống"
             ],
             [
-              "Hoạt động 3: Em sẽ làm gì trong tình huống cần ứng xử phù hợpMục tiêu: Vận dụng kiến thức về tôn trọng bạn cùng giới và khác giới, tìm kiếm sự giúp đỡ để đưa ra cách ứng xử phù hợp.Mục tiêu tích hợp: HS nhận biết AI là công cụ hỗ trợ tham khảo khi ôn tập và xử lí tình huống về sức khoẻ, không thay thế ý kiến của thầy cô, cha mẹ hoặc nhân viên y tế.HS biết kiểm chứng thông tin AI đưa ra với SGK, học liệu chính thống; không nhập tên thật, hình ảnh, địa chỉ, số điện thoại lên công cụ AI.*Cách tiến hành:"
+              "Hoạt động 3: Em sẽ làm gì trong tình huống cần ứng xử phù hợp\nMục tiêu: Vận dụng kiến thức về tôn trọng bạn cùng giới và khác giới, tìm kiếm sự giúp đỡ để đưa ra cách ứng xử phù hợp.\nMục tiêu tích hợp: HS nhận biết AI là công cụ hỗ trợ tham khảo khi ôn tập và xử lí tình huống về sức khoẻ, không thay thế ý kiến của thầy cô, cha mẹ hoặc nhân viên y tế.\nHS biết kiểm chứng thông tin AI đưa ra với SGK, học liệu chính thống; không nhập tên thật, hình ảnh, địa chỉ, số điện thoại lên công cụ AI.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc nhóm, quan sát tình huống ở 2 hình và thực hiện theo yêu cầu của SGK.",
@@ -9464,15 +9349,19 @@
               "- HS lắng nghe."
             ],
             [
-              "4. Vận dụng - Trải nghiệm: Tổng kết chủ đề và dặn dòMục tiêu: Củng cố nội dung chính của chủ đề và định hướng HS vận dụng trong cuộc sống hằng ngày.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm: Tổng kết chủ đề và dặn dò\nMục tiêu: Củng cố nội dung chính của chủ đề và định hướng HS vận dụng trong cuộc sống hằng ngày.\n*Cách tiến hành:"
             ],
             [
               "- GV tổng kết một số nội dung của chủ đề, nhắc HS: (1) luôn kính trọng, thể hiện lòng biết ơn với cha mẹ, ông bà; (2) thể hiện sự tôn trọng với bạn cùng giới và khác giới; (3) thực hiện việc làm phù hợp với lứa tuổi để chăm sóc, bảo vệ sức khoẻ thể chất và tinh thần; (4) thể hiện quyền được an toàn của mình và phản đối mọi sự xâm hại.",
               "- HS lắng nghe.\n- HS nhắc lại nội dung chính của chủ đề và chia sẻ một việc em sẽ thực hiện để chăm sóc, bảo vệ sức khoẻ, tôn trọng bạn cùng giới và khác giới hoặc tìm kiếm sự giúp đỡ khi cần."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 3) & Mizuiku: GV giúp HS liên hệ chức năng môi trường sống tại quê hương: Vùng rừng ngập mặn Duyên Hải và các cồn bãi ven sông Cổ Chiên ở Trà Vinh cung cấp môi trường sống an toàn cho hàng trăm loài tôm, cua, cá, chim nước sinh sản và phát triển. Việc xả rác và chất thải độc hại làm ô nhiễm nguồn nước sẽ phá hủy môi trường sống của các loài sinh vật này.",
+              "- HS thảo luận, nhận thức rõ: bảo vệ môi trường nước chính là bảo vệ sự sống của các loài sinh vật; cam kết không vứt rác xuống lòng sông, bờ biển để giữ gìn đa dạng sinh thái Trà Vinh."
             ]
           ]
         ],
-        "title": "BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 28: CHỨC NĂNG CỦA MÔI TRƯỜNG ĐỐI VỚI SINH VẬT (Tiết 1)",
@@ -9501,7 +9390,6 @@
           "- Một số đồ dùng phục vụ trò chơi; Phiếu thảo luận nhóm khi sử dụng kĩ thuật 3 lần 3."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9700,7 +9588,7 @@
             ]
           ]
         ],
-        "title": "BÀI 28: CHỨC NĂNG CỦA MÔI TRƯỜNG ĐỐI VỚI SINH VẬT (Tiết 1)"
+        "dieuchinh": []
       }
     ]
   },
@@ -9725,7 +9613,9 @@
           "- Trách nhiệm: Có ý thức bảo vệ môi trường xung quanh và hạn chế rác thải, sống tiết kiệm.",
           "- Nhân ái: Biết yêu quý, trân trọng môi trường sống của con người, động vật và thực vật.",
           "4. Tích hợp",
-          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS hiểu nước là điều kiện sống quan trọng của sinh vật; biết sử dụng nước tiết kiệm, không xả rác, dầu mỡ, hóa chất xuống ao, hồ, sông, suối."
+          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS hiểu nước là điều kiện sống quan trọng của sinh vật; biết sử dụng nước tiết kiệm, không xả rác, dầu mỡ, hóa chất xuống ao, hồ, sông, suối.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Đề xuất các biện pháp giảm thiểu ô nhiễm nguồn nước và sử dụng tiết kiệm nước trong sinh hoạt gia đình, trường học.",
+          "- Giáo dục địa phương (Chủ đề 6): Phong trào xây dựng Nông thôn mới trên quê hương Trà Vinh gắn liền với tiêu chí bảo vệ môi trường nông thôn, giữ sạch các dòng kênh thủy lợi nội đồng."
         ],
         "dodung": [
           "- GV: Giáo án điện tử; tranh ảnh về môi trường; video nếu có; thẻ hoa có ghi tên từng thành phần của môi trường tự nhiên: đất, nước, không khí, ánh sáng, sinh vật.",
@@ -9735,7 +9625,6 @@
           "- Một số đồ dùng phục vụ trò chơi; Phiếu thảo luận nhóm khi sử dụng kĩ thuật 3 lần 3."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -9879,12 +9768,16 @@
               "- HS lắng nghe."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV kết nối bài học với thành tựu xây dựng nông thôn mới của tỉnh Trà Vinh: Toàn tỉnh đẩy mạnh chỉnh trang đường làng ngõ xóm, trồng hoa ven đường và khơi thông cống rãnh, bảo vệ nguồn nước các tuyến kênh mương nội đồng phục vụ tưới tiêu lúa, hoa màu. Em có thể làm gì để chung tay giữ gìn dòng nước sạch cho quê hương?",
+              "- HS sôi nổi đề xuất hành động: thu gom bao bì thuốc BVTV sau sử dụng đúng nơi quy định; không vứt túi ni-lông xuống mương vườn; tiết kiệm nước tưới bằng phương pháp nhỏ giọt."
+            ],
+            [
               "- GV dặn HS về nhà đọc trước SGK, sưu tầm tư liệu về những chất thải của sinh vật và con người, ô nhiễm môi trường.",
               "- HS ghi nhớ nhiệm vụ."
             ]
           ]
         ],
-        "title": "BÀI 28: CHỨC NĂNG CỦA MÔI TRƯỜNG ĐỐI VỚI SINH VẬT (Tiết 2)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 28: CHỨC NĂNG CỦA MÔI TRƯỜNG ĐỐI VỚI SINH VẬT (Tiết 3)",
@@ -9914,7 +9807,6 @@
           "- Một số đồ dùng phục vụ trò chơi; Phiếu thảo luận nhóm khi sử dụng kĩ thuật 3 lần 3."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10133,7 +10025,7 @@
             ]
           ]
         ],
-        "title": "BÀI 28: CHỨC NĂNG CỦA MÔI TRƯỜNG ĐỐI VỚI SINH VẬT (Tiết 3)"
+        "dieuchinh": []
       }
     ]
   },
@@ -10165,7 +10057,6 @@
           "- Bảng gắn tư liệu sưu tầm theo hoạt động 1; sơ đồ di chuyển của HS khi dùng kĩ thuật Phòng tranh; phiếu thu thập thông tin về tài nguyên thiên nhiên."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10309,7 +10200,7 @@
             ]
           ]
         ],
-        "title": "Bài 29: Tác động của con người và một số biện pháp bảo vệ môi trường"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "Bài 29: Tác động của con người và một số biện pháp bảo vệ môi trường",
@@ -10335,7 +10226,6 @@
           "- Bảng gắn tư liệu sưu tầm theo hoạt động 1; sơ đồ di chuyển của HS khi dùng kĩ thuật Phòng tranh; phiếu thu thập thông tin về tài nguyên thiên nhiên."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10448,7 +10338,7 @@
             ]
           ]
         ],
-        "title": "Bài 29: Tác động của con người và một số biện pháp bảo vệ môi trường"
+        "dieuchinh": []
       }
     ]
   },
@@ -10480,7 +10370,6 @@
           "- Bảng gắn tư liệu sưu tầm theo hoạt động 1; sơ đồ di chuyển của HS khi dùng kĩ thuật Phòng tranh; phiếu thu thập thông tin về tài nguyên thiên nhiên."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10621,7 +10510,7 @@
             ]
           ]
         ],
-        "title": "Bài 29: Tác động của con người và một số biện pháp bảo vệ môi trường"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 30: ÔN TẬP CHỦ ĐỀ SINH VẬT VÀ MÔI TRƯỜNG",
@@ -10646,7 +10535,6 @@
           "- HS: Tranh ảnh, tư liệu sưu tầm về việc đốt rơm rạ, chèo thuyền bằng tay ở chùa Hương; vở ghi, bút màu, giấy nháp hoặc bảng nhóm."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10715,7 +10603,7 @@
             ]
           ]
         ],
-        "title": "BÀI 30: ÔN TẬP CHỦ ĐỀ SINH VẬT VÀ MÔI TRƯỜNG"
+        "dieuchinh": []
       }
     ]
   },
@@ -10724,7 +10612,7 @@
     "sourceFile": "KHOA HỌC TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN KHOA HỌC 5",
+        "lessonTitle": "ÔN TẬP CUỐI NĂM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10738,83 +10626,13 @@
           "- Chăm chỉ: tích cực tham gia ôn tập, hoàn thành nhiệm vụ đúng thời gian.",
           "- Trách nhiệm: có ý thức vận dụng kiến thức khoa học để bảo vệ sức khỏe, tiết kiệm năng lượng, bảo vệ môi trường và nguồn nước.",
           "4. Tích hợp",
-          "- Tích hợp tiết kiệm và bảo vệ nguồn nước.",
-          "- Vận dụng kiến thức đã học để trả lời câu hỏi, giải quyết tình huống đơn giản về sức khỏe, năng lượng, môi trường và tài nguyên thiên nhiên.",
-          "- Tự chủ và tự học: tự giác làm bài, đọc kĩ yêu cầu và kiểm tra lại bài làm trước khi nộp.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức để trả lời câu hỏi tự luận, nêu cách xử lí tình huống phù hợp.",
-          "- Trung thực: nghiêm túc, không trao đổi trong giờ kiểm tra.",
-          "- Trách nhiệm: hoàn thành bài đúng thời gian, trình bày sạch đẹp, rõ ràng."
+          "- Tích hợp tiết kiệm và bảo vệ nguồn nước."
         ],
         "dodung": [
           "- GV: Phiếu ôn tập, thẻ câu hỏi, bảng nhóm, bút dạ, tranh ảnh hoặc học liệu số minh họa các chủ đề đã học.",
-          "- HS: Vở ghi, bút, bảng con, các sản phẩm ôn tập hoặc sơ đồ tư duy đã chuẩn bị.",
-          "- GV: Đề kiểm tra cuối năm, đáp án, hướng dẫn chấm, đồng hồ theo dõi thời gian.",
-          "- HS: Bút, thước, giấy nháp nếu cần; chuẩn bị tâm thế làm bài nghiêm túc."
+          "- HS: Vở ghi, bút, bảng con, các sản phẩm ôn tập hoặc sơ đồ tư duy đã chuẩn bị."
         ],
         "activities": [],
-        "dieuchinh": [
-          "KIỂM TRA CUỐI NĂM",
-          "ĐỀ KIỂM TRA CUỐI NĂM MÔN KHOA HỌC",
-          "Thời gian làm bài: 35 phút       Năm học: 2025 - 2026",
-          "Câu 1. Thành phần nào dưới đây có trong đất và giúp cây trồng phát triển?",
-          "A. Nước, không khí, chất khoáng và mùn.",
-          "B. Chỉ có đá và cát.",
-          "C. Chỉ có nước.",
-          "D. Chỉ có không khí.",
-          "Câu 2. Vai trò quan trọng của rễ cây đối với cây trồng là gì?",
-          "A. Hút nước, chất khoáng và giúp cây đứng vững.",
-          "B. Tạo ra ánh sáng cho cây.",
-          "C. Làm cho đất biến mất.",
-          "D. Làm cây không cần nước.",
-          "Câu 3. Khi sử dụng năng lượng điện, việc làm nào là an toàn và tiết kiệm?",
-          "A. Tắt thiết bị điện khi không sử dụng.",
-          "B. Chạm tay ướt vào ổ điện.",
-          "C. Dùng dây điện bị hở.",
-          "D. Bật tất cả thiết bị điện cả ngày.",
-          "Câu 4. Động vật đẻ trứng thường trải qua quá trình nào?",
-          "A. Trứng - con non - con trưởng thành.",
-          "B. Cây con - cây trưởng thành.",
-          "C. Hạt - cây con - cây trưởng thành.",
-          "D. Đất - nước - không khí.",
-          "Câu 5. Vi khuẩn có ích được con người sử dụng trong việc nào?",
-          "A. Làm sữa chua, muối dưa, làm nem chua.",
-          "B. Làm bẩn nguồn nước.",
-          "C. Gây sâu răng.",
-          "D. Làm ô nhiễm thực phẩm.",
-          "Câu 6. Việc làm nào giúp chăm sóc sức khỏe tuổi dậy thì?",
-          "A. Giữ vệ sinh cơ thể, ăn uống hợp lí, vận động phù hợp.",
-          "B. Thức khuya thường xuyên.",
-          "C. Ngại chia sẻ khi cơ thể thay đổi.",
-          "D. Ăn uống thiếu chất.",
-          "Câu 7. Khi gặp tình huống không an toàn hoặc có nguy cơ bị xâm hại, em nên làm gì?",
-          "A. Bình tĩnh rời khỏi nơi nguy hiểm và tìm người tin cậy giúp đỡ.",
-          "B. Giữ im lặng vì sợ bị trách.",
-          "C. Đi theo người lạ.",
-          "D. Tự giải quyết bằng cách liều lĩnh.",
-          "Câu 8. Chức năng của môi trường đối với sinh vật là gì?",
-          "A. Cung cấp nơi ở, thức ăn, nhu cầu sống thiết yếu và chứa đựng chất thải.",
-          "B. Làm cho sinh vật không cần thức ăn.",
-          "C. Chỉ tạo ra đồ chơi cho con người.",
-          "D. Chỉ cung cấp ánh sáng cho con người.",
-          "Câu 9. (1 điểm) Nêu 2 việc em có thể làm để sử dụng năng lượng điện an toàn và tiết kiệm ở nhà hoặc ở lớp.",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "Câu 10. (1,5 điểm) Vì sao cần giữ vệ sinh cơ thể ở tuổi dậy thì? Em hãy nêu 2 việc cần làm để giữ vệ sinh cơ thể.",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "Câu 11. (1,5 điểm) Em hãy nêu 3 việc làm góp phần bảo vệ môi trường và tài nguyên thiên nhiên.",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "Câu 12. (2 điểm) Tình huống: Trên đường về quê, em thấy có người đốt rơm rạ sau thu hoạch làm khói bay mù mịt. Em hãy nêu tác hại của việc làm đó và đề xuất cách xử lí rơm rạ phù hợp hơn.",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "........................................................................................................................................",
-          "Lưu ý khi chấm: Chấp nhận các cách diễn đạt khác nếu đúng ý, phù hợp lứa tuổi và thể hiện được kiến thức khoa học đã học."
-        ],
         "tables": [
           [
             [
@@ -10849,7 +10667,30 @@
               "- GV nêu tình huống: Gia đình em dùng nước sinh hoạt hằng ngày, lớp em có bình nước uống và khu vực rửa tay. Em cần làm gì để sử dụng nước tiết kiệm, bảo vệ nguồn nước?\n- GV mời HS chia sẻ việc làm cụ thể, khuyến khích HS nêu việc bản thân có thể thực hiện ngay.\n- GV nhận xét, nhấn mạnh: tiết kiệm nước là bảo vệ nguồn tài nguyên quý; giữ sạch nguồn nước là bảo vệ sức khỏe của bản thân, gia đình và cộng đồng.\n- GV dặn HS ôn tập lại các nội dung trọng tâm, chuẩn bị tâm thế cho tiết kiểm tra cuối năm.",
               "- HS suy nghĩ và nêu cách làm: khóa vòi nước sau khi dùng, lấy nước uống vừa đủ, không đùa nghịch làm đổ nước, không vứt rác xuống cống rãnh, ao hồ.\n- HS chia sẻ việc làm mình sẽ thực hiện ở nhà hoặc ở trường.\n- HS lắng nghe và ghi nhớ ý nghĩa của việc tiết kiệm, bảo vệ nguồn nước.\n- HS ghi nhớ nhiệm vụ ôn tập, chuẩn bị đồ dùng cho tiết kiểm tra."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": []
+      },
+      {
+        "lessonTitle": "KIỂM TRA CUỐI NĂM",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Đánh giá được mức độ đạt yêu cầu cần đạt của HS sau khi học xong chương trình Khoa học lớp 5.",
+          "- Vận dụng kiến thức đã học để trả lời câu hỏi, giải quyết tình huống đơn giản về sức khỏe, năng lượng, môi trường và tài nguyên thiên nhiên.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: tự giác làm bài, đọc kĩ yêu cầu và kiểm tra lại bài làm trước khi nộp.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức để trả lời câu hỏi tự luận, nêu cách xử lí tình huống phù hợp.",
+          "3. Phẩm chất",
+          "- Trung thực: nghiêm túc, không trao đổi trong giờ kiểm tra.",
+          "- Trách nhiệm: hoàn thành bài đúng thời gian, trình bày sạch đẹp, rõ ràng."
+        ],
+        "dodung": [
+          "- GV: Đề kiểm tra cuối năm, đáp án, hướng dẫn chấm, đồng hồ theo dõi thời gian.",
+          "- HS: Bút, thước, giấy nháp nếu cần; chuẩn bị tâm thế làm bài nghiêm túc."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -10895,6 +10736,16 @@
             [
               "Nhận xét của giáo viên: ........................................................................................................",
               ""
+            ]
+          ],
+          [
+            [
+              "A. TRẮC NGHIỆM (4 điểm) - Khoanh vào chữ cái trước ý trả lời đúng."
+            ]
+          ],
+          [
+            [
+              "B. TỰ LUẬN (6 điểm) - Trả lời câu hỏi vào chỗ chấm."
             ]
           ],
           [
@@ -10994,13 +10845,76 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN KHOA HỌC 5"
+        "dieuchinh": [
+          "ĐỀ KIỂM TRA CUỐI NĂM MÔN KHOA HỌC",
+          "Thời gian làm bài: 35 phút       Năm học: 2025 - 2026",
+          "Lưu ý: Em đọc kĩ từng câu hỏi, làm bài sạch đẹp, trình bày rõ ràng.",
+          "Câu 1. Thành phần nào dưới đây có trong đất và giúp cây trồng phát triển?",
+          "A. Nước, không khí, chất khoáng và mùn.",
+          "B. Chỉ có đá và cát.",
+          "C. Chỉ có nước.",
+          "D. Chỉ có không khí.",
+          "Câu 2. Vai trò quan trọng của rễ cây đối với cây trồng là gì?",
+          "A. Hút nước, chất khoáng và giúp cây đứng vững.",
+          "B. Tạo ra ánh sáng cho cây.",
+          "C. Làm cho đất biến mất.",
+          "D. Làm cây không cần nước.",
+          "Câu 3. Khi sử dụng năng lượng điện, việc làm nào là an toàn và tiết kiệm?",
+          "A. Tắt thiết bị điện khi không sử dụng.",
+          "B. Chạm tay ướt vào ổ điện.",
+          "C. Dùng dây điện bị hở.",
+          "D. Bật tất cả thiết bị điện cả ngày.",
+          "Câu 4. Động vật đẻ trứng thường trải qua quá trình nào?",
+          "A. Trứng - con non - con trưởng thành.",
+          "B. Cây con - cây trưởng thành.",
+          "C. Hạt - cây con - cây trưởng thành.",
+          "D. Đất - nước - không khí.",
+          "Câu 5. Vi khuẩn có ích được con người sử dụng trong việc nào?",
+          "A. Làm sữa chua, muối dưa, làm nem chua.",
+          "B. Làm bẩn nguồn nước.",
+          "C. Gây sâu răng.",
+          "D. Làm ô nhiễm thực phẩm.",
+          "Câu 6. Việc làm nào giúp chăm sóc sức khỏe tuổi dậy thì?",
+          "A. Giữ vệ sinh cơ thể, ăn uống hợp lí, vận động phù hợp.",
+          "B. Thức khuya thường xuyên.",
+          "C. Ngại chia sẻ khi cơ thể thay đổi.",
+          "D. Ăn uống thiếu chất.",
+          "Câu 7. Khi gặp tình huống không an toàn hoặc có nguy cơ bị xâm hại, em nên làm gì?",
+          "A. Bình tĩnh rời khỏi nơi nguy hiểm và tìm người tin cậy giúp đỡ.",
+          "B. Giữ im lặng vì sợ bị trách.",
+          "C. Đi theo người lạ.",
+          "D. Tự giải quyết bằng cách liều lĩnh.",
+          "Câu 8. Chức năng của môi trường đối với sinh vật là gì?",
+          "A. Cung cấp nơi ở, thức ăn, nhu cầu sống thiết yếu và chứa đựng chất thải.",
+          "B. Làm cho sinh vật không cần thức ăn.",
+          "C. Chỉ tạo ra đồ chơi cho con người.",
+          "D. Chỉ cung cấp ánh sáng cho con người.",
+          "Câu 9. (1 điểm) Nêu 2 việc em có thể làm để sử dụng năng lượng điện an toàn và tiết kiệm ở nhà hoặc ở lớp.",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "Câu 10. (1,5 điểm) Vì sao cần giữ vệ sinh cơ thể ở tuổi dậy thì? Em hãy nêu 2 việc cần làm để giữ vệ sinh cơ thể.",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "Câu 11. (1,5 điểm) Em hãy nêu 3 việc làm góp phần bảo vệ môi trường và tài nguyên thiên nhiên.",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "Câu 12. (2 điểm) Tình huống: Trên đường về quê, em thấy có người đốt rơm rạ sau thu hoạch làm khói bay mù mịt. Em hãy nêu tác hại của việc làm đó và đề xuất cách xử lí rơm rạ phù hợp hơn.",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "........................................................................................................................................",
+          "Môn: Khoa học - Lớp 5        Tuần 35 - Tiết 70",
+          "Lưu ý khi chấm: Chấp nhận các cách diễn đạt khác nếu đúng ý, phù hợp lứa tuổi và thể hiện được kiến thức khoa học đã học."
+        ]
       }
     ]
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA) {
+  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {

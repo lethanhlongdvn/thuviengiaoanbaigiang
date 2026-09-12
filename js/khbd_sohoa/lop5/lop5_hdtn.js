@@ -14,9 +14,8 @@
     "sourceFile": "HĐTN TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 1: TIẾT 1 - SINH HOẠT DƯỚI CỜ: CHÀO NĂM HỌC MỚI",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 1",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO NĂM HỌC MỚI - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc, tích cực hoạt động chào mừng năm học mới theo kế hoạch của nhà trường.",
@@ -36,10 +35,6 @@
           "- HS: Trang phục gọn gàng, ghế ngồi, cờ hoặc hoa theo yêu cầu của nhà trường, tâm thế vui tươi và sẵn sàng tham gia."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -47,7 +42,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC NGÀY HỘI TOÀN TRƯỜNG\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động chào mừng năm học mới.\n* Cách tiến hành:",
               "1. TRƯỚC NGÀY HỘI TOÀN TRƯỜNG\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động chào mừng năm học mới.\n* Cách tiến hành:"
             ],
             [
@@ -63,7 +57,6 @@
               "- HS chủ động chào hỏi, hỗ trợ bạn và em nhỏ bằng thái độ thân thiện, lễ phép."
             ],
             [
-              "2. TRONG NGÀY HỘI TOÀN TRƯỜNG\nMục tiêu: HS tham gia đầy đủ chương trình, cảm nhận niềm vui ngày khai trường và biết chia sẻ cảm xúc khi đón chào năm học mới.\n* Cách tiến hành:",
               "2. TRONG NGÀY HỘI TOÀN TRƯỜNG\nMục tiêu: HS tham gia đầy đủ chương trình, cảm nhận niềm vui ngày khai trường và biết chia sẻ cảm xúc khi đón chào năm học mới.\n* Cách tiến hành:"
             ],
             [
@@ -115,7 +108,6 @@
               "- HS đồng thanh đọc thông điệp và thể hiện quyết tâm bước vào năm học mới."
             ],
             [
-              "3. SAU NGÀY HỘI TOÀN TRƯỜNG\nMục tiêu: HS chia sẻ được cảm xúc về ngày khai trường và lựa chọn một hành động cụ thể để thực hiện tốt trong tuần đầu năm học.\n* Cách tiến hành:",
               "3. SAU NGÀY HỘI TOÀN TRƯỜNG\nMục tiêu: HS chia sẻ được cảm xúc về ngày khai trường và lựa chọn một hành động cụ thể để thực hiện tốt trong tuần đầu năm học.\n* Cách tiến hành:"
             ],
             [
@@ -132,12 +124,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 1: TIẾT 1 - SINH HOẠT DƯỚI CỜ: CHÀO NĂM HỌC MỚI"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 1: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHÚNG MÌNH ĐÃ LỚN",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 1",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHÚNG MÌNH ĐÃ LỚN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nhận biết được những điểm thay đổi, tiến bộ của mình theo thời gian từ lớp 1 đến lớp 4.",
@@ -160,10 +155,6 @@
           "- HS: Một số tư liệu về bản thân thể hiện thành tích đã đạt được qua các năm học từ lớp 1 đến lớp 4, bìa màu hoặc giấy, bút màu, kéo, hồ dán."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -171,7 +162,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi lại kinh nghiệm đã có và dẫn dắt HS bước vào chủ đề Chúng mình đã lớn.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi lại kinh nghiệm đã có và dẫn dắt HS bước vào chủ đề Chúng mình đã lớn.\n* Cách tiến hành:"
             ],
             [
@@ -191,7 +181,6 @@
               "- HS lắng nghe, xác định nhiệm vụ học tập của tiết học."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS chia sẻ những thay đổi về thể chất, nhận thức và những kỉ niệm cho thấy bản thân, tập thể lớp đã tiến bộ.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS chia sẻ những thay đổi về thể chất, nhận thức và những kỉ niệm cho thấy bản thân, tập thể lớp đã tiến bộ.\n* Cách tiến hành:"
             ],
             [
@@ -251,7 +240,6 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của sự tiến bộ cá nhân và sự lớn lên của tập thể."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS chia sẻ kỉ niệm, thành tích chung của lớp, đặt những thành tích theo thứ tự thời gian và đề xuất thu thập tư liệu liên quan.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS chia sẻ kỉ niệm, thành tích chung của lớp, đặt những thành tích theo thứ tự thời gian và đề xuất thu thập tư liệu liên quan.\n* Cách tiến hành:"
             ],
             [
@@ -283,7 +271,6 @@
               "- HS lắng nghe và nêu lại được ý nghĩa của hoạt động."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS biết trao đổi với người thân, chuẩn bị tư liệu cho hoạt động tiếp theo và tiếp tục nhận ra sự trưởng thành của bản thân.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS biết trao đổi với người thân, chuẩn bị tư liệu cho hoạt động tiếp theo và tiếp tục nhận ra sự trưởng thành của bản thân.\n* Cách tiến hành:"
             ],
             [
@@ -292,12 +279,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 1: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHÚNG MÌNH ĐÃ LỚN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 1: TIẾT 3 - SINH HOẠT LỚP: BẬC THANG TRƯỞNG THÀNH",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 1",
+        "lessonTitle": "SINH HOẠT LỚP: BẬC THANG TRƯỞNG THÀNH - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nhớ lại, đánh giá được những việc đã thực hiện trong tuần 1, nêu được ưu điểm, hạn chế và hướng khắc phục trong tuần 2.",
@@ -320,10 +310,6 @@
           "- HS: Bìa các-tông, bìa màu, bút màu, kéo, hồ dán, tư liệu hoặc sản phẩm thể hiện sự trưởng thành từ lớp 1 đến lớp 4, thiết bị hoặc bản thiết kế sơ đồ số nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -331,7 +317,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ về sự trưởng thành của bản thân và tập thể.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ về sự trưởng thành của bản thân và tập thể.\n* Cách tiến hành:"
             ],
             [
@@ -347,11 +332,9 @@
               "- HS lắng nghe, hào hứng bước vào nội dung sinh hoạt lớp."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS biết nhìn lại việc thực hiện nền nếp, học tập và hoạt động trong tuần 1; xác định phương hướng rèn luyện trong tuần 2.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS biết nhìn lại việc thực hiện nền nếp, học tập và hoạt động trong tuần 1; xác định phương hướng rèn luyện trong tuần 2.\n* Cách tiến hành:"
             ],
             [
-              "2.1. Tổng kết tuần",
               "2.1. Tổng kết tuần"
             ],
             [
@@ -367,7 +350,6 @@
               "- HS lắng nghe, rút kinh nghiệm và ghi nhớ nhiệm vụ của tuần 2."
             ],
             [
-              "2.2. Phương hướng tuần 2",
               "2.2. Phương hướng tuần 2"
             ],
             [
@@ -383,7 +365,6 @@
               "+ HS nêu một mục tiêu rèn luyện trong tuần 2.\n+ HS ghi hoặc nói rõ việc làm cụ thể để thực hiện mục tiêu.\n+ HS cam kết thực hiện bằng hành động phù hợp với khả năng của bản thân."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS ghi lại sự trưởng thành của mỗi cá nhân, hệ thống sự tiến bộ từ lớp 1 đến lớp 4 và chuẩn bị bứt phá trong năm học lớp 5.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS ghi lại sự trưởng thành của mỗi cá nhân, hệ thống sự tiến bộ từ lớp 1 đến lớp 4 và chuẩn bị bứt phá trong năm học lớp 5.\n* Cách tiến hành:"
             ],
             [
@@ -419,7 +400,6 @@
               "- HS lắng nghe, tự tin hơn về quá trình trưởng thành của bản thân."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS tiếp tục tìm tư liệu, sản phẩm cùng người thân để chuẩn bị cho hoạt động triển lãm “Từng bước trưởng thành”.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS tiếp tục tìm tư liệu, sản phẩm cùng người thân để chuẩn bị cho hoạt động triển lãm “Từng bước trưởng thành”.\n* Cách tiến hành:"
             ],
             [
@@ -432,7 +412,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 1: TIẾT 3 - SINH HOẠT LỚP: BẬC THANG TRƯỞNG THÀNH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -441,9 +424,8 @@
     "sourceFile": "HĐTN TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 2: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NGÀY HỘI CÂU LẠC BỘ",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 2",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI CÂU LẠC BỘ - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS tham gia nghiêm túc, tích cực ngày hội câu lạc bộ học sinh của trường; biết quan sát, cổ vũ văn minh và giữ đúng nền nếp.",
           "- HS nêu được ít nhất một câu lạc bộ hoặc một thành tích của câu lạc bộ gây ấn tượng với bản thân.",
@@ -462,10 +444,6 @@
           "- HS: Trang phục gọn gàng; ghế ngồi; tâm thế vui tươi, sẵn sàng quan sát, cổ vũ và chia sẻ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -473,7 +451,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC NGÀY HỘI CÂU LẠC BỘ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia ngày hội câu lạc bộ của trường.\n* Cách tiến hành:",
               "1. TRƯỚC NGÀY HỘI CÂU LẠC BỘ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia ngày hội câu lạc bộ của trường.\n* Cách tiến hành:"
             ],
             [
@@ -489,7 +466,6 @@
               "- HS thực hiện đúng yêu cầu, thể hiện thái độ tôn trọng phần trình diễn của bạn."
             ],
             [
-              "2. TRONG NGÀY HỘI CÂU LẠC BỘ\nMục tiêu: HS tham gia đầy đủ chương trình, cảm nhận được ý nghĩa của câu lạc bộ đối với sự trưởng thành của học sinh.\n* Cách tiến hành:",
               "2. TRONG NGÀY HỘI CÂU LẠC BỘ\nMục tiêu: HS tham gia đầy đủ chương trình, cảm nhận được ý nghĩa của câu lạc bộ đối với sự trưởng thành của học sinh.\n* Cách tiến hành:"
             ],
             [
@@ -513,7 +489,6 @@
               "- HS lắng nghe và nhận ra mỗi câu lạc bộ đều có giá trị riêng đối với sự trưởng thành của học sinh."
             ],
             [
-              "3. SAU NGÀY HỘI CÂU LẠC BỘ\nMục tiêu: HS chia sẻ được ấn tượng sau ngày hội và lựa chọn một hoạt động phù hợp để rèn luyện bản thân.\n* Cách tiến hành:",
               "3. SAU NGÀY HỘI CÂU LẠC BỘ\nMục tiêu: HS chia sẻ được ấn tượng sau ngày hội và lựa chọn một hoạt động phù hợp để rèn luyện bản thân.\n* Cách tiến hành:"
             ],
             [
@@ -530,12 +505,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 2: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NGÀY HỘI CÂU LẠC BỘ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 2: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỪNG BƯỚC TRƯỞNG THÀNH",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 2",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỪNG BƯỚC TRƯỞNG THÀNH - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS giới thiệu được với bạn về những thay đổi tích cực của bản thân thông qua sản phẩm, tư liệu hoặc kỉ vật từ lớp 1 đến lớp 4.",
           "- HS biết hợp tác với nhóm để phân loại, chú thích, trưng bày sản phẩm theo trình tự và giới thiệu góc triển lãm “Từng bước trưởng thành”.",
@@ -554,10 +531,6 @@
           "- HS: Sản phẩm, tư liệu, hình ảnh hoặc kỉ vật thể hiện sự thay đổi tích cực từ lớp 1 đến lớp 4; bìa màu, giấy trắng, bút màu, kéo."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -565,7 +538,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, dẫn dắt, gợi mở HS bước vào hoạt động khám phá chủ đề.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, dẫn dắt, gợi mở HS bước vào hoạt động khám phá chủ đề.\n* Cách tiến hành:"
             ],
             [
@@ -585,7 +557,6 @@
               "- HS lắng nghe, sẵn sàng tham gia hoạt động triển lãm."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS chia sẻ sản phẩm, tư liệu về sự tiến bộ của bản thân và sắp xếp cùng nhóm để thể hiện sự tương tác trong tập thể.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS chia sẻ sản phẩm, tư liệu về sự tiến bộ của bản thân và sắp xếp cùng nhóm để thể hiện sự tương tác trong tập thể.\n* Cách tiến hành:"
             ],
             [
@@ -617,7 +588,6 @@
               "- HS cảm thấy tự hào về sự trưởng thành của bản thân và chia sẻ niềm vui cùng bạn."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT CHỦ ĐỀ\nMục tiêu: HS nhận ra sự trưởng thành của tập thể lớp luôn có sự tham gia của từng cá nhân và biết tự hào về thành tích chung.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT CHỦ ĐỀ\nMục tiêu: HS nhận ra sự trưởng thành của tập thể lớp luôn có sự tham gia của từng cá nhân và biết tự hào về thành tích chung.\n* Cách tiến hành:"
             ],
             [
@@ -637,7 +607,6 @@
               "- HS đồng thanh đọc thông điệp và thể hiện quyết tâm học tập, rèn luyện."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS biết chia sẻ cảm xúc sau triển lãm và tiếp tục tìm hiểu sự trưởng thành của bản thân trong gia đình.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS biết chia sẻ cảm xúc sau triển lãm và tiếp tục tìm hiểu sự trưởng thành của bản thân trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -654,12 +623,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 2: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỪNG BƯỚC TRƯỞNG THÀNH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 2: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TỪNG BƯỚC TRƯỞNG THÀNH",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 2",
+        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TỪNG BƯỚC TRƯỞNG THÀNH - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận xét được hoạt động của bản thân, tổ, lớp trong tuần 2 và nêu được phương hướng rèn luyện tuần 3.",
           "- HS chia sẻ được sự tiến bộ của bản thân khi thực hiện công việc gia đình; biết lắng nghe nhận xét của người thân và bạn bè.",
@@ -678,10 +649,6 @@
           "- HS: Chia sẻ của người thân về sự tiến bộ trong việc nhà; nguyên vật liệu đơn giản để giới thiệu/thực hành sản phẩm phục vụ gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -689,7 +656,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng chia sẻ về việc nhà và sự tiến bộ của bản thân.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng chia sẻ về việc nhà và sự tiến bộ của bản thân.\n* Cách tiến hành:"
             ],
             [
@@ -705,11 +671,9 @@
               "- HS lắng nghe, chuẩn bị bước vào phần sinh hoạt lớp."
             ],
             [
-              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN",
               "2. HOẠT ĐỘNG TỔNG KẾT TUẦN"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -729,7 +693,6 @@
               "- HS lắng nghe, tự rút kinh nghiệm và thể hiện tinh thần cầu tiến."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 3",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 3"
             ],
             [
@@ -745,7 +708,6 @@
               "- HS nhận nhiệm vụ, đồng ý thực hiện và nhắc nhau cùng cố gắng."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được sự tiến bộ của bản thân khi thực hiện công việc gia đình và biết lắng nghe nhận xét của người thân.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được sự tiến bộ của bản thân khi thực hiện công việc gia đình và biết lắng nghe nhận xét của người thân.\n* Cách tiến hành:"
             ],
             [
@@ -769,7 +731,6 @@
               "- HS lắng nghe, nhận ra ý nghĩa của việc nhà vừa sức."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS thực hiện hoặc giới thiệu được một sản phẩm phục vụ gia đình, qua đó thể hiện sự tiến bộ trong việc nhà.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS thực hiện hoặc giới thiệu được một sản phẩm phục vụ gia đình, qua đó thể hiện sự tiến bộ trong việc nhà.\n* Cách tiến hành:"
             ],
             [
@@ -793,7 +754,6 @@
               "- HS lắng nghe, tự đánh giá việc mình cần luyện thêm."
             ],
             [
-              "5. VẬN DỤNG - CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS lựa chọn một việc làm mới để chăm sóc, phục vụ gia đình và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:",
               "5. VẬN DỤNG - CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS lựa chọn một việc làm mới để chăm sóc, phục vụ gia đình và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:"
             ],
             [
@@ -810,7 +770,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 2: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TỪNG BƯỚC TRƯỞNG THÀNH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -819,9 +782,8 @@
     "sourceFile": "HĐTN TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 3: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NIỀM VUI NHÂN ĐÔI, NỖI BUỒN CHIA NỬA",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 3",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NIỀM VUI NHÂN ĐÔI, NỖI BUỒN CHIA NỬA - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS tham gia nghiêm túc, tích cực chương trình kể chuyện hoặc nghe kể chuyện về chủ đề “Niềm vui nhân đôi, nỗi buồn chia nửa”.",
           "- HS chia sẻ được thông điệp em nhận được từ các câu chuyện, biết cảm thông và lắng nghe cảm xúc của bạn.",
@@ -840,10 +802,6 @@
           "- HS: Trang phục gọn gàng; ghế ngồi; tâm thế sẵn sàng lắng nghe, chia sẻ và cổ vũ văn minh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -851,7 +809,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia chương trình kể chuyện về chủ đề “Niềm vui nhân đôi, nỗi buồn chia nửa”.\n* Cách tiến hành:",
               "1. TRƯỚC BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia chương trình kể chuyện về chủ đề “Niềm vui nhân đôi, nỗi buồn chia nửa”.\n* Cách tiến hành:"
             ],
             [
@@ -867,7 +824,6 @@
               "- HS thể hiện thái độ tôn trọng người kể chuyện và các bạn cùng tham gia."
             ],
             [
-              "2. TRONG BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoặc lắng nghe các tiết mục kể chuyện, biết nhận ra ý nghĩa của việc chia sẻ niềm vui, nỗi buồn với người xung quanh.\n* Cách tiến hành:",
               "2. TRONG BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoặc lắng nghe các tiết mục kể chuyện, biết nhận ra ý nghĩa của việc chia sẻ niềm vui, nỗi buồn với người xung quanh.\n* Cách tiến hành:"
             ],
             [
@@ -895,7 +851,6 @@
               "- HS lắng nghe và ghi nhớ thông điệp của buổi Sinh hoạt dưới cờ."
             ],
             [
-              "3. SAU BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS chia sẻ được điều ấn tượng sau chương trình và lựa chọn một việc làm cụ thể để quan tâm, động viên bạn bè.\n* Cách tiến hành:",
               "3. SAU BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS chia sẻ được điều ấn tượng sau chương trình và lựa chọn một việc làm cụ thể để quan tâm, động viên bạn bè.\n* Cách tiến hành:"
             ],
             [
@@ -912,12 +867,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 3: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NIỀM VUI NHÂN ĐÔI, NỖI BUỒN CHIA NỬA"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 3: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÂN BẰNG CẢM XÚC",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 3",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÂN BẰNG CẢM XÚC - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận diện được một số cảm xúc tích cực, cảm xúc tiêu cực và nêu được lí do cần cân bằng cảm xúc.",
           "- HS nêu được các cách cân bằng cảm xúc, biết lựa chọn cách phù hợp trong một số tình huống cụ thể.",
@@ -936,10 +893,6 @@
           "- HS: Bút màu, giấy ghi chú, tâm thế sẵn sàng chia sẻ cảm xúc và tham gia hoạt động nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -947,7 +900,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui tươi, giúp HS nhận biết các cảm xúc tích cực, cảm xúc tiêu cực và dẫn dắt vào chủ đề cân bằng cảm xúc.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui tươi, giúp HS nhận biết các cảm xúc tích cực, cảm xúc tiêu cực và dẫn dắt vào chủ đề cân bằng cảm xúc.\n* Cách tiến hành:"
             ],
             [
@@ -967,7 +919,6 @@
               "- HS lắng nghe, hiểu nội dung sẽ tìm hiểu trong tiết học."
             ],
             [
-              "2. KHÁM PHÁ\nMục tiêu: HS nhận diện được các cách cân bằng cảm xúc trong cuộc sống và hiểu vì sao cần cân bằng cảm xúc.\n* Cách tiến hành:",
               "2. KHÁM PHÁ\nMục tiêu: HS nhận diện được các cách cân bằng cảm xúc trong cuộc sống và hiểu vì sao cần cân bằng cảm xúc.\n* Cách tiến hành:"
             ],
             [
@@ -995,7 +946,6 @@
               "- HS lắng nghe, ghi nhớ các cách cân bằng cảm xúc có thể vận dụng."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS thảo luận tình huống cụ thể, lựa chọn cách cân bằng cảm xúc phù hợp và biết giải thích lí do lựa chọn.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS thảo luận tình huống cụ thể, lựa chọn cách cân bằng cảm xúc phù hợp và biết giải thích lí do lựa chọn.\n* Cách tiến hành:"
             ],
             [
@@ -1023,7 +973,6 @@
               "- HS lắng nghe, rút ra kinh nghiệm để áp dụng vào cuộc sống hằng ngày."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS biết vận dụng cách cân bằng cảm xúc hiệu quả vào cuộc sống và ghi lại kết quả thực hiện.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS biết vận dụng cách cân bằng cảm xúc hiệu quả vào cuộc sống và ghi lại kết quả thực hiện.\n* Cách tiến hành:"
             ],
             [
@@ -1040,12 +989,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 3: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÂN BẰNG CẢM XÚC"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 3: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ CÂN BẰNG CẢM XÚC",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 3",
+        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ CÂN BẰNG CẢM XÚC - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận xét được hoạt động của bản thân, tổ, lớp trong tuần 3 và nêu được phương hướng rèn luyện tuần 4.",
           "- HS chia sẻ được kết quả vận dụng cách cân bằng cảm xúc trong thực tế của bản thân.",
@@ -1064,10 +1015,6 @@
           "- HS: Bút màu; ghi chép về tình huống đã vận dụng cách cân bằng cảm xúc; câu chuyện ngắn hoặc tình huống để sắm vai."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1075,7 +1022,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ kết quả rèn luyện cách cân bằng cảm xúc.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ kết quả rèn luyện cách cân bằng cảm xúc.\n* Cách tiến hành:"
             ],
             [
@@ -1091,11 +1037,9 @@
               "- HS lắng nghe và sẵn sàng bước vào hoạt động."
             ],
             [
-              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN\nMục tiêu: HS nhìn lại hoạt động trong tuần 3, nêu ưu điểm, hạn chế và thống nhất phương hướng tuần 4.\n* Cách tiến hành:",
               "2. HOẠT ĐỘNG TỔNG KẾT TUẦN\nMục tiêu: HS nhìn lại hoạt động trong tuần 3, nêu ưu điểm, hạn chế và thống nhất phương hướng tuần 4.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -1115,7 +1059,6 @@
               "- HS lắng nghe, tự rút kinh nghiệm và thể hiện tinh thần cầu tiến."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 4",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 4"
             ],
             [
@@ -1131,7 +1074,6 @@
               "- HS nhận nhiệm vụ, đồng ý thực hiện và nhắc nhau cùng cố gắng."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả vận dụng cách cân bằng cảm xúc trong thực tế của bản thân.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả vận dụng cách cân bằng cảm xúc trong thực tế của bản thân.\n* Cách tiến hành:"
             ],
             [
@@ -1159,7 +1101,6 @@
               "- HS lắng nghe, nhận ra ý nghĩa của việc rèn luyện cảm xúc."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS sắm vai nhân vật để xử lí tình huống mất cân bằng cảm xúc và củng cố kinh nghiệm mới.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS sắm vai nhân vật để xử lí tình huống mất cân bằng cảm xúc và củng cố kinh nghiệm mới.\n* Cách tiến hành:"
             ],
             [
@@ -1183,7 +1124,6 @@
               "- HS lắng nghe, tự đánh giá việc mình cần luyện thêm."
             ],
             [
-              "5. VẬN DỤNG - CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS biết tiếp tục chia sẻ với người thân về cảm xúc, tìm hiểu câu chuyện truyền cảm hứng về sự sẻ chia và cam kết rèn luyện trong tuần tới.\n* Cách tiến hành:",
               "5. VẬN DỤNG - CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS biết tiếp tục chia sẻ với người thân về cảm xúc, tìm hiểu câu chuyện truyền cảm hứng về sự sẻ chia và cam kết rèn luyện trong tuần tới.\n* Cách tiến hành:"
             ],
             [
@@ -1204,7 +1144,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 3: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ CÂN BẰNG CẢM XÚC"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -1213,9 +1156,8 @@
     "sourceFile": "HĐTN TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 4: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SỰ TRƯỞNG THÀNH CỦA HỌC SINH LỚP 5",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 4",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SỰ TRƯỞNG THÀNH CỦA HỌC SINH LỚP 5 - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS tham gia nghiêm túc, tích cực chương trình giao lưu, chia sẻ về sự trưởng thành của học sinh lớp 5 dưới mái trường tiểu học.",
           "- HS kể được một khoảnh khắc đáng nhớ trong những năm học ở trường và nhận ra sự trưởng thành của bản thân, của tập thể.",
@@ -1234,10 +1176,6 @@
           "- HS: Trang phục gọn gàng; ghế ngồi; một kỉ niệm hoặc khoảnh khắc đáng nhớ muốn chia sẻ; tâm thế sẵn sàng tham gia."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1245,7 +1183,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia chương trình giao lưu về sự trưởng thành của học sinh lớp 5.\n* Cách tiến hành:",
               "1. TRƯỚC BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia chương trình giao lưu về sự trưởng thành của học sinh lớp 5.\n* Cách tiến hành:"
             ],
             [
@@ -1261,7 +1198,6 @@
               "- HS thể hiện thái độ tôn trọng người trình bày và các bạn cùng tham gia."
             ],
             [
-              "2. TRONG BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia đầy đủ chương trình giao lưu, chia sẻ được cảm xúc và nhận ra sự trưởng thành của bản thân, của tập thể lớp.\n* Cách tiến hành:",
               "2. TRONG BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia đầy đủ chương trình giao lưu, chia sẻ được cảm xúc và nhận ra sự trưởng thành của bản thân, của tập thể lớp.\n* Cách tiến hành:"
             ],
             [
@@ -1289,7 +1225,6 @@
               "- HS lắng nghe và ghi nhớ thông điệp của buổi Sinh hoạt dưới cờ."
             ],
             [
-              "3. SAU BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS chia sẻ được điều ấn tượng sau chương trình và lựa chọn một việc làm cụ thể để tiếp tục trưởng thành.\n* Cách tiến hành:",
               "3. SAU BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS chia sẻ được điều ấn tượng sau chương trình và lựa chọn một việc làm cụ thể để tiếp tục trưởng thành.\n* Cách tiến hành:"
             ],
             [
@@ -1306,12 +1241,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 4: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SỰ TRƯỞNG THÀNH CỦA HỌC SINH LỚP 5"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 4: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THỂ HIỆN CẢM XÚC PHÙ HỢP",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 4",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THỂ HIỆN CẢM XÚC PHÙ HỢP - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận diện được những cách thể hiện cảm xúc chưa phù hợp trong một số tình huống cụ thể.",
           "- HS đề xuất và thực hành được các cách thể hiện cảm xúc phù hợp với không gian, hoàn cảnh và cảm xúc của người xung quanh.",
@@ -1330,10 +1267,6 @@
           "- HS: Bút màu, giấy ghi chú, tâm thế sẵn sàng chia sẻ cảm xúc và tham gia sắm vai."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1341,7 +1274,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí nhẹ nhàng, giúp HS cảm nhận cảm xúc qua âm nhạc và sẵn sàng tìm hiểu cách thể hiện cảm xúc phù hợp.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí nhẹ nhàng, giúp HS cảm nhận cảm xúc qua âm nhạc và sẵn sàng tìm hiểu cách thể hiện cảm xúc phù hợp.\n* Cách tiến hành:"
             ],
             [
@@ -1357,7 +1289,6 @@
               "- HS lắng nghe, nhận ra có nhiều cách thể hiện cảm xúc và sẵn sàng vào bài học."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS nhận diện được những điều chưa phù hợp trong cách thể hiện cảm xúc và đề xuất cách thể hiện phù hợp.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS nhận diện được những điều chưa phù hợp trong cách thể hiện cảm xúc và đề xuất cách thể hiện phù hợp.\n* Cách tiến hành:"
             ],
             [
@@ -1381,7 +1312,6 @@
               "- HS lắng nghe, ghi nhớ cách thể hiện cảm xúc cần phù hợp với hoàn cảnh và người xung quanh."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS thảo luận tình huống, lựa chọn cách thể hiện cảm xúc phù hợp và sắm vai xử lí tình huống.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS thảo luận tình huống, lựa chọn cách thể hiện cảm xúc phù hợp và sắm vai xử lí tình huống.\n* Cách tiến hành:"
             ],
             [
@@ -1413,7 +1343,6 @@
               "- HS nhắc lại ba bước và nêu: cần phù hợp với không gian, hoàn cảnh và cảm xúc của người bên cạnh."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS biết vận dụng kĩ năng kiểm soát cảm xúc vào thực tế và ghi lại tình huống đã gặp, cách xử lí của bản thân.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS biết vận dụng kĩ năng kiểm soát cảm xúc vào thực tế và ghi lại tình huống đã gặp, cách xử lí của bản thân.\n* Cách tiến hành:"
             ],
             [
@@ -1430,12 +1359,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 4: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THỂ HIỆN CẢM XÚC PHÙ HỢP"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 4: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ THỂ HIỆN CẢM XÚC PHÙ HỢP",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 4",
+        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ THỂ HIỆN CẢM XÚC PHÙ HỢP - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận xét được hoạt động của bản thân, tổ, lớp trong tuần 4 và nêu được phương hướng rèn luyện tuần 5.",
           "- HS chia sẻ được những thay đổi tích cực của bản thân, của bạn khi biết kiểm soát cảm xúc.",
@@ -1454,10 +1385,6 @@
           "- HS: Bút màu; nhật kí hoặc ghi chép về tình huống đã vận dụng kĩ năng kiểm soát cảm xúc; ý tưởng thông điệp tích cực."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1465,7 +1392,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ kết quả rèn luyện cách thể hiện cảm xúc phù hợp.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ kết quả rèn luyện cách thể hiện cảm xúc phù hợp.\n* Cách tiến hành:"
             ],
             [
@@ -1481,11 +1407,9 @@
               "- HS lắng nghe và sẵn sàng bước vào hoạt động."
             ],
             [
-              "2. HOẠT ĐỘNG TỔNG KẾT TUẦN\nMục tiêu: HS nhìn lại hoạt động trong tuần 4, nêu ưu điểm, hạn chế và thống nhất phương hướng tuần 5.\n* Cách tiến hành:",
               "2. HOẠT ĐỘNG TỔNG KẾT TUẦN\nMục tiêu: HS nhìn lại hoạt động trong tuần 4, nêu ưu điểm, hạn chế và thống nhất phương hướng tuần 5.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -1505,7 +1429,6 @@
               "- HS lắng nghe, tự rút kinh nghiệm và thể hiện tinh thần cầu tiến."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 5",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 5"
             ],
             [
@@ -1521,7 +1444,6 @@
               "- HS nhận nhiệm vụ, đồng ý thực hiện và nhắc nhau cùng cố gắng."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được những thay đổi tích cực của bản thân, của bạn khi biết kiểm soát cảm xúc.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được những thay đổi tích cực của bản thân, của bạn khi biết kiểm soát cảm xúc.\n* Cách tiến hành:"
             ],
             [
@@ -1545,7 +1467,6 @@
               "- HS lắng nghe, hiểu cần rèn luyện kĩ năng này từng bước và kiên trì."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS tự đánh giá khả năng kiểm soát cảm xúc của mình và đặt mục tiêu rèn luyện tiếp theo.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS tự đánh giá khả năng kiểm soát cảm xúc của mình và đặt mục tiêu rèn luyện tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -1569,7 +1490,6 @@
               "- Đại diện nhóm đọc thông điệp; HS lắng nghe, bình chọn và nêu lí do lựa chọn."
             ],
             [
-              "5. VẬN DỤNG - CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS biết hoàn thiện thông điệp, chia sẻ với người thân, bạn bè và thực hành viết nhật kí cảm xúc an toàn trên môi trường số.\n* Cách tiến hành:",
               "5. VẬN DỤNG - CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS biết hoàn thiện thông điệp, chia sẻ với người thân, bạn bè và thực hành viết nhật kí cảm xúc an toàn trên môi trường số.\n* Cách tiến hành:"
             ],
             [
@@ -1594,7 +1514,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 4: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ THỂ HIỆN CẢM XÚC PHÙ HỢP"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -1603,9 +1526,8 @@
     "sourceFile": "HĐTN TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 5: TIẾT 1 - SINH HOẠT DƯỚI CỜ: VUI TRUNG THU CÙNG BẠN",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 5",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: VUI TRUNG THU CÙNG BẠN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo chủ đề Vui Trung thu cùng bạn.",
           "- HS nghe kể một số tích truyện cổ về các nhân vật trên Cung trăng; nhận ra ý nghĩa của sự hợp tác, đoàn kết, chia sẻ giữa bạn bè.",
@@ -1624,10 +1546,6 @@
           "- HS: Trang phục gọn gàng; ghế ngồi; tinh thần tham gia hoạt động; một ý tưởng thể hiện sự hợp tác, đoàn kết trong hoạt động Trung thu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1635,7 +1553,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC HOẠT ĐỘNG VUI TRUNG THU CÙNG BẠN\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động Vui Trung thu cùng bạn của trường.\n* Cách tiến hành:",
               "1. TRƯỚC HOẠT ĐỘNG VUI TRUNG THU CÙNG BẠN\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động Vui Trung thu cùng bạn của trường.\n* Cách tiến hành:"
             ],
             [
@@ -1651,11 +1568,9 @@
               "- HS lắng nghe, chuẩn bị thái độ tích cực, thân thiện và hợp tác với bạn."
             ],
             [
-              "2. TRONG HOẠT ĐỘNG VUI TRUNG THU CÙNG BẠN\nMục tiêu: HS tham gia đầy đủ chương trình, biết cảm nhận niềm vui Trung thu và ý nghĩa của hợp tác, đoàn kết, chia sẻ trong tập thể.\n* Cách tiến hành:",
               "2. TRONG HOẠT ĐỘNG VUI TRUNG THU CÙNG BẠN\nMục tiêu: HS tham gia đầy đủ chương trình, biết cảm nhận niềm vui Trung thu và ý nghĩa của hợp tác, đoàn kết, chia sẻ trong tập thể.\n* Cách tiến hành:"
             ],
             [
-              "Dẫn dắt",
               "Dẫn dắt"
             ],
             [
@@ -1667,7 +1582,6 @@
               "- HS lắng nghe, hiểu nội dung chương trình và sẵn sàng tham gia."
             ],
             [
-              "Trình diễn và bày cỗ",
               "Trình diễn và bày cỗ"
             ],
             [
@@ -1687,7 +1601,6 @@
               "- HS nêu: không; vì hoạt động chung cần biết lắng nghe, phân công, phối hợp và giúp đỡ nhau."
             ],
             [
-              "Tổng kết - cam kết hành động",
               "Tổng kết - cam kết hành động"
             ],
             [
@@ -1699,7 +1612,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp của hoạt động."
             ],
             [
-              "3. SAU HOẠT ĐỘNG VUI TRUNG THU CÙNG BẠN\nMục tiêu: HS chia sẻ được điều ấn tượng sau chương trình và lựa chọn một việc làm cụ thể để giữ gìn tình bạn trong lớp.\n* Cách tiến hành:",
               "3. SAU HOẠT ĐỘNG VUI TRUNG THU CÙNG BẠN\nMục tiêu: HS chia sẻ được điều ấn tượng sau chương trình và lựa chọn một việc làm cụ thể để giữ gìn tình bạn trong lớp.\n* Cách tiến hành:"
             ],
             [
@@ -1716,12 +1628,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 5: TIẾT 1 - SINH HOẠT DƯỚI CỜ: VUI TRUNG THU CÙNG BẠN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 5: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC VẤN ĐỀ NẢY SINH TRONG MỐI QUAN HỆ BẠN BÈ VÀ CÁCH GIẢI QUYẾT",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 5",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC VẤN ĐỀ NẢY SINH TRONG MỐI QUAN HỆ BẠN BÈ VÀ CÁCH GIẢI QUYẾT - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS nhận diện được những vấn đề tồn tại trong mối quan hệ bạn bè.",
           "- HS xác định được nguyên nhân và biết đề xuất phương án giải quyết một số vấn đề nảy sinh trong tình bạn.",
@@ -1747,10 +1661,6 @@
           "- HS: Bìa màu hoặc giấy; bút màu; kéo; mi-crô đồ chơi nếu có; một số tình huống nảy sinh trong tình bạn mà em biết."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1758,7 +1668,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở HS bước vào hoạt động khám phá chủ đề; qua trò chơi, HS đánh giá được mức độ hiểu nhau giữa bạn bè trong lớp.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở HS bước vào hoạt động khám phá chủ đề; qua trò chơi, HS đánh giá được mức độ hiểu nhau giữa bạn bè trong lớp.\n* Cách tiến hành:"
             ],
             [
@@ -1778,7 +1687,6 @@
               "- HS lắng nghe, hiểu nhiệm vụ của tiết học."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS tìm hiểu mức độ đoàn kết giữa các thành viên trong tập thể lớp, tổ, nhóm, từ đó tìm ra những vấn đề thường nảy sinh giữa các bạn trong lớp.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS tìm hiểu mức độ đoàn kết giữa các thành viên trong tập thể lớp, tổ, nhóm, từ đó tìm ra những vấn đề thường nảy sinh giữa các bạn trong lớp.\n* Cách tiến hành:"
             ],
             [
@@ -1806,7 +1714,6 @@
               "- HS lắng nghe, hiểu ý nghĩa của việc xác định đúng vấn đề."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS xác định nguyên nhân và tìm phương án giải quyết các vấn đề nảy sinh trong tình bạn.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS xác định nguyên nhân và tìm phương án giải quyết các vấn đề nảy sinh trong tình bạn.\n* Cách tiến hành:"
             ],
             [
@@ -1842,7 +1749,6 @@
               "- HS lắng nghe, ghi nhớ bài học và cất giữ thẻ/kẹp sách để vận dụng."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS nhớ lại một mâu thuẫn hoặc tình huống chưa được giải quyết và thực hành giải quyết theo các “bí kíp” vừa xác định cùng bạn bè.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS nhớ lại một mâu thuẫn hoặc tình huống chưa được giải quyết và thực hành giải quyết theo các “bí kíp” vừa xác định cùng bạn bè.\n* Cách tiến hành:"
             ],
             [
@@ -1859,12 +1765,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 5: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC VẤN ĐỀ NẢY SINH TRONG MỐI QUAN HỆ BẠN BÈ VÀ CÁCH GIẢI QUYẾT"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 5: TIẾT 3 - SINH HOẠT LỚP: THỰC HÀNH GIẢI QUYẾT CÁC VẤN ĐỀ NẢY SINH TRONG TÌNH BẠN",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 5",
+        "lessonTitle": "SINH HOẠT LỚP: THỰC HÀNH GIẢI QUYẾT CÁC VẤN ĐỀ NẢY SINH TRONG TÌNH BẠN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS chia sẻ phản hồi sau tiết Hoạt động trải nghiệm trước.",
           "- HS thực hành giải quyết các vấn đề nảy sinh trong những tình huống giả định.",
@@ -1886,10 +1794,6 @@
           "- HS: Bút màu; thẻ “Bí kíp giải quyết vấn đề trong tình bạn”; một trải nghiệm hoặc tình huống muốn chia sẻ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1897,7 +1801,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ, nhìn lại tình bạn và tham gia tiết sinh hoạt lớp tích cực.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ, nhìn lại tình bạn và tham gia tiết sinh hoạt lớp tích cực.\n* Cách tiến hành:"
             ],
             [
@@ -1913,11 +1816,9 @@
               "- HS lắng nghe, chuẩn bị tham gia phần sinh hoạt lớp và các hoạt động thực hành tiếp theo."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần; thống nhất phương hướng tuần tới và rèn tinh thần đoàn kết, trách nhiệm trong tập thể lớp.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần; thống nhất phương hướng tuần tới và rèn tinh thần đoàn kết, trách nhiệm trong tập thể lớp.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -1937,7 +1838,6 @@
               "- HS lắng nghe, tự rút kinh nghiệm và thể hiện tinh thần cầu tiến."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 6",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 6"
             ],
             [
@@ -1953,11 +1853,10 @@
               "- HS nhận nhiệm vụ, đồng ý thực hiện và nhắc nhau cùng cố gắng."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS phản hồi được nội dung trải nghiệm ở tiết HĐTN trước; chia sẻ được kết quả giải quyết một vấn đề nảy sinh trong quan hệ bạn bè.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS phản hồi được nội dung trải nghiệm ở tiết HĐTN trước; chia sẻ được kết quả giải quyết một vấn đề nảy sinh trong quan hệ bạn bè.\n* Cách tiến hành:"
             ],
             [
-              "Chia sẻ kết quả giải quyết những vấn đề em đang gặp phải trong mối quan hệ với bạn bè\n- GV chia nhóm theo tổ, phát cho mỗi HS một tấm bìa màu và nêu nhiệm vụ: viết tên một người bạn hoặc kí hiệu riêng để giữ tế nhị, sau đó chuẩn bị chia sẻ một kỉ niệm/vấn đề đã gặp với bạn.\n\n- GV hỏi: Khi viết tên bạn hoặc kể chuyện với bạn, em cần lưu ý điều gì để thể hiện sự tôn trọng?",
+              "Chia sẻ kết quả giải quyết những vấn đề em đang gặp phải trong mối quan hệ với bạn bè\n- GV chia nhóm theo tổ, phát cho mỗi HS một tấm bìa màu và nêu nhiệm vụ: viết tên một người bạn hoặc kí hiệu riêng để giữ tế nhị, sau đó chuẩn bị chia sẻ một kỉ niệm/vấn đề đã gặp với bạn.\n- GV hỏi: Khi viết tên bạn hoặc kể chuyện với bạn, em cần lưu ý điều gì để thể hiện sự tôn trọng?",
               "- HS nhận bìa màu, viết tên bạn hoặc kí hiệu riêng nếu muốn giữ kín thông tin.\n- HS trả lời: Em cần nói nhẹ nhàng, không nêu chuyện riêng làm bạn xấu hổ, không trách móc bạn và biết tôn trọng cảm xúc của bạn."
             ],
             [
@@ -1977,11 +1876,10 @@
               "- HS lắng nghe, ghi nhớ và tự rút kinh nghiệm để biết chủ động làm lành, lắng nghe và tôn trọng bạn."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS đóng góp được tình huống có thật trong cuộc sống và thực hành xử lí tình huống nảy sinh trong tình bạn.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS đóng góp được tình huống có thật trong cuộc sống và thực hành xử lí tình huống nảy sinh trong tình bạn.\n* Cách tiến hành:"
             ],
             [
-              "Xử lí tình huống nảy sinh trong tình bạn\n- GV giao nhiệm vụ nhóm: mỗi nhóm đưa ra một tình huống mâu thuẫn với bạn bè có thật trong cuộc sống mà các em đã trải qua hoặc từng chứng kiến; tham khảo SGK để mô tả tình huống rõ ràng.\n\n- GV hỏi: Tình huống xảy ra ở đâu? Giữa những ai? Vấn đề chính là gì?",
+              "Xử lí tình huống nảy sinh trong tình bạn\n- GV giao nhiệm vụ nhóm: mỗi nhóm đưa ra một tình huống mâu thuẫn với bạn bè có thật trong cuộc sống mà các em đã trải qua hoặc từng chứng kiến; tham khảo SGK để mô tả tình huống rõ ràng.\n- GV hỏi: Tình huống xảy ra ở đâu? Giữa những ai? Vấn đề chính là gì?",
               "- HS làm việc theo nhóm, lựa chọn tình huống phù hợp và mô tả ngắn gọn.\n- HS trả lời: Tình huống xảy ra trong giờ ra chơi; hai bạn tranh nhau một quyển truyện nên giận nhau; vấn đề chính là chưa biết nhường nhịn và chưa lắng nghe nhau."
             ],
             [
@@ -2005,7 +1903,6 @@
               "- HS lắng nghe, ghi nhớ cách xử lí tình huống trong tình bạn và chuẩn bị vận dụng vào cuộc sống hằng ngày."
             ],
             [
-              "5. VẬN DỤNG\nMục tiêu: HS lựa chọn được việc làm cụ thể để tiếp tục giữ gìn tình bạn; biết ghi lại và vận dụng cách giải quyết vấn đề trong cuộc sống hằng ngày.\n* Cách tiến hành:",
               "5. VẬN DỤNG\nMục tiêu: HS lựa chọn được việc làm cụ thể để tiếp tục giữ gìn tình bạn; biết ghi lại và vận dụng cách giải quyết vấn đề trong cuộc sống hằng ngày.\n* Cách tiến hành:"
             ],
             [
@@ -2022,7 +1919,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 5: TIẾT 3 - SINH HOẠT LỚP: THỰC HÀNH GIẢI QUYẾT CÁC VẤN ĐỀ NẢY SINH TRONG TÌNH BẠN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -2031,9 +1931,8 @@
     "sourceFile": "HĐTN TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 6: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SẮC BÚT ĐỒNG HÀNH CÙNG EM",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 6",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SẮC BÚT ĐỒNG HÀNH CÙNG EM - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo chủ đề Sắc bút đồng hành cùng em.",
           "- HS biết lắng nghe, chia sẻ phương pháp học tập: cách sử dụng sách giáo khoa, cách ghi chép hiệu quả.",
@@ -2052,10 +1951,6 @@
           "- HS: Trang phục gọn gàng; ghế ngồi; một kinh nghiệm học tập hoặc một câu hỏi muốn trao đổi với bạn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2063,7 +1958,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC HOẠT ĐỘNG SẮC BÚT ĐỒNG HÀNH CÙNG EM\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động giao lưu về phương pháp học tập.\n* Cách tiến hành:",
               "1. TRƯỚC HOẠT ĐỘNG SẮC BÚT ĐỒNG HÀNH CÙNG EM\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động giao lưu về phương pháp học tập.\n* Cách tiến hành:"
             ],
             [
@@ -2079,11 +1973,9 @@
               "- HS lắng nghe, chuẩn bị thái độ tích cực, thân thiện và sẵn sàng học hỏi bạn."
             ],
             [
-              "2. TRONG HOẠT ĐỘNG SẮC BÚT ĐỒNG HÀNH CÙNG EM\nMục tiêu: HS tham gia đầy đủ hoạt động giao lưu, biết chia sẻ và tiếp nhận phương pháp học tập tích cực từ bạn.\n* Cách tiến hành:",
               "2. TRONG HOẠT ĐỘNG SẮC BÚT ĐỒNG HÀNH CÙNG EM\nMục tiêu: HS tham gia đầy đủ hoạt động giao lưu, biết chia sẻ và tiếp nhận phương pháp học tập tích cực từ bạn.\n* Cách tiến hành:"
             ],
             [
-              "Dẫn dắt",
               "Dẫn dắt"
             ],
             [
@@ -2095,7 +1987,6 @@
               "- HS lắng nghe, hiểu nội dung chương trình và sẵn sàng tham gia."
             ],
             [
-              "Giao lưu, chia sẻ phương pháp học tập",
               "Giao lưu, chia sẻ phương pháp học tập"
             ],
             [
@@ -2115,7 +2006,6 @@
               "- HS trả lời: vì mỗi bạn có một cách học hay; chia sẻ giúp cả lớp cùng tiến bộ; bạn gặp khó khăn sẽ có thêm cách để học tốt hơn."
             ],
             [
-              "Kết luận",
               "Kết luận"
             ],
             [
@@ -2123,7 +2013,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp và thể hiện quyết tâm học hỏi bạn."
             ],
             [
-              "3. SAU HOẠT ĐỘNG SẮC BÚT ĐỒNG HÀNH CÙNG EM\nMục tiêu: HS chia sẻ được điều học được từ bạn và lựa chọn một việc làm cụ thể để vận dụng trong tuần.\n* Cách tiến hành:",
               "3. SAU HOẠT ĐỘNG SẮC BÚT ĐỒNG HÀNH CÙNG EM\nMục tiêu: HS chia sẻ được điều học được từ bạn và lựa chọn một việc làm cụ thể để vận dụng trong tuần.\n* Cách tiến hành:"
             ],
             [
@@ -2136,12 +2025,13 @@
             ]
           ]
         ],
-        "title": "TUẦN 6: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SẮC BÚT ĐỒNG HÀNH CÙNG EM"
+        "dieuchinh": [
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 6: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VẤN ĐỀ NẢY SINH GIỮA BẠN BÈ TRONG HỌC TẬP VÀ RÈN LUYỆN",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 6",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VẤN ĐỀ NẢY SINH GIỮA BẠN BÈ TRONG HỌC TẬP VÀ RÈN LUYỆN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS nhận diện được những vấn đề thường nảy sinh giữa bạn bè trong học tập, rèn luyện.",
           "- HS nêu được ảnh hưởng tiêu cực của những vấn đề nảy sinh đối với việc học tập, rèn luyện của cá nhân và tập thể.",
@@ -2167,10 +2057,6 @@
           "- HS: Bìa màu hoặc giấy, bút màu, kéo; chuẩn bị một tình huống nảy sinh khi học tập, rèn luyện hoặc làm việc nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2178,7 +2064,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở HS bước vào hoạt động khám phá chủ đề.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở HS bước vào hoạt động khám phá chủ đề.\n* Cách tiến hành:"
             ],
             [
@@ -2198,11 +2083,9 @@
               "- HS lắng nghe, chuẩn bị tham gia hoạt động thảo luận về những vấn đề nảy sinh giữa bạn bè trong học tập, rèn luyện."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS tìm hiểu các vấn đề thường nảy sinh giữa bạn bè trong học tập, rèn luyện và nêu được ảnh hưởng tiêu cực của các vấn đề đó.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS tìm hiểu các vấn đề thường nảy sinh giữa bạn bè trong học tập, rèn luyện và nêu được ảnh hưởng tiêu cực của các vấn đề đó.\n* Cách tiến hành:"
             ],
             [
-              "Thảo luận về các vấn đề thường nảy sinh giữa bạn bè trong học tập và rèn luyện",
               "Thảo luận về các vấn đề thường nảy sinh giữa bạn bè trong học tập và rèn luyện"
             ],
             [
@@ -2230,11 +2113,9 @@
               "- HS lắng nghe, ghi nhớ cần biết hợp tác, tôn trọng và hỗ trợ nhau trong học tập, rèn luyện."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS xác định các nguyên tắc để giải quyết các vấn đề nảy sinh trong học tập, rèn luyện.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS xác định các nguyên tắc để giải quyết các vấn đề nảy sinh trong học tập, rèn luyện.\n* Cách tiến hành:"
             ],
             [
-              "Đề xuất các nguyên tắc hợp tác với bạn bè trong học tập và rèn luyện",
               "Đề xuất các nguyên tắc hợp tác với bạn bè trong học tập và rèn luyện"
             ],
             [
@@ -2266,7 +2147,6 @@
               "- HS lắng nghe, hoàn thiện bản Nguyên tắc hợp tác của nhóm."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS lựa chọn việc làm cụ thể để tiếp tục vận dụng nguyên tắc hợp tác trong học tập, rèn luyện.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS lựa chọn việc làm cụ thể để tiếp tục vận dụng nguyên tắc hợp tác trong học tập, rèn luyện.\n* Cách tiến hành:"
             ],
             [
@@ -2279,12 +2159,13 @@
             ]
           ]
         ],
-        "title": "TUẦN 6: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VẤN ĐỀ NẢY SINH GIỮA BẠN BÈ TRONG HỌC TẬP VÀ RÈN LUYỆN"
+        "dieuchinh": [
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 6: TIẾT 3 - SINH HOẠT LỚP: HỢP TÁC ĐỂ THỰC HIỆN SẢN PHẨM CHUNG",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 6",
+        "lessonTitle": "SINH HOẠT LỚP: HỢP TÁC ĐỂ THỰC HIỆN SẢN PHẨM CHUNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS chia sẻ phản hồi sau tiết Hoạt động trải nghiệm trước.",
           "- HS áp dụng các nguyên tắc hợp tác để thực hiện sản phẩm chung.",
@@ -2306,10 +2187,6 @@
           "- HS: Nguyên vật liệu cần thiết để thực hiện sản phẩm chung của nhóm; bản Nguyên tắc hợp tác đã xây dựng ở tiết trước; thiết bị hoặc tài khoản nhóm trực tuyến nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2317,7 +2194,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng nhìn lại việc hợp tác và thực hiện sản phẩm chung.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng nhìn lại việc hợp tác và thực hiện sản phẩm chung.\n* Cách tiến hành:"
             ],
             [
@@ -2333,11 +2209,9 @@
               "- HS lắng nghe, chuẩn bị tham gia sinh hoạt lớp và hoạt động thực hành."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần; thống nhất phương hướng hoạt động tuần 7.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần; thống nhất phương hướng hoạt động tuần 7.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -2357,7 +2231,6 @@
               "- HS lắng nghe, rút kinh nghiệm và quyết tâm thực hiện tốt hơn."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 7",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 7"
             ],
             [
@@ -2369,11 +2242,9 @@
               "- HS nhận nhiệm vụ, thống nhất cách phối hợp để thực hiện."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS vận dụng được các nguyên tắc hợp tác đã đưa ra trong quá trình thực hiện sản phẩm học tập chung.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS vận dụng được các nguyên tắc hợp tác đã đưa ra trong quá trình thực hiện sản phẩm học tập chung.\n* Cách tiến hành:"
             ],
             [
-              "Áp dụng bản Nguyên tắc hợp tác để thực hiện sản phẩm học tập chung",
               "Áp dụng bản Nguyên tắc hợp tác để thực hiện sản phẩm học tập chung"
             ],
             [
@@ -2405,11 +2276,9 @@
               "- HS lắng nghe, tự đánh giá việc hợp tác của nhóm mình."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS dựa trên biên bản đã ghi lại để nhận xét các vấn đề nảy sinh, đưa ra kết luận về mức độ hợp tác giữa các thành viên trong quá trình làm việc.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS dựa trên biên bản đã ghi lại để nhận xét các vấn đề nảy sinh, đưa ra kết luận về mức độ hợp tác giữa các thành viên trong quá trình làm việc.\n* Cách tiến hành:"
             ],
             [
-              "Nhận xét mức độ hợp tác giữa các thành viên trong nhóm",
               "Nhận xét mức độ hợp tác giữa các thành viên trong nhóm"
             ],
             [
@@ -2441,7 +2310,6 @@
               "- HS lắng nghe, ghi nhớ và tự nhắc mình tiếp tục hợp tác tích cực."
             ],
             [
-              "5. VẬN DỤNG\nMục tiêu: HS thể hiện quyết tâm tiếp tục vận dụng Nguyên tắc hợp tác vào các hoạt động học tập và rèn luyện chung.\n* Cách tiến hành:",
               "5. VẬN DỤNG\nMục tiêu: HS thể hiện quyết tâm tiếp tục vận dụng Nguyên tắc hợp tác vào các hoạt động học tập và rèn luyện chung.\n* Cách tiến hành:"
             ],
             [
@@ -2454,7 +2322,9 @@
             ]
           ]
         ],
-        "title": "TUẦN 6: TIẾT 3 - SINH HOẠT LỚP: HỢP TÁC ĐỂ THỰC HIỆN SẢN PHẨM CHUNG"
+        "dieuchinh": [
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -2463,9 +2333,8 @@
     "sourceFile": "HĐTN TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 7: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NGÀY HỘI TRAO ĐỔI SÁCH",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 7",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI TRAO ĐỔI SÁCH - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS tham gia nghiêm túc Ngày hội trao đổi sách theo kế hoạch của nhà trường.",
           "- HS biết chia sẻ sách, giới thiệu một cuốn sách yêu thích và nêu được cảm xúc khi chia sẻ kiến thức với bạn bè.",
@@ -2484,10 +2353,6 @@
           "- HS: Một cuốn sách phù hợp để trao đổi; lời giới thiệu ngắn về cuốn sách; túi đựng sách, bút ghi chú nếu cần."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2495,7 +2360,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC NGÀY HỘI TRAO ĐỔI SÁCH\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia Ngày hội trao đổi sách.\n* Cách tiến hành:",
               "1. TRƯỚC NGÀY HỘI TRAO ĐỔI SÁCH\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia Ngày hội trao đổi sách.\n* Cách tiến hành:"
             ],
             [
@@ -2511,11 +2375,9 @@
               "- HS ghi nhớ nhiệm vụ: quan sát hoạt động trao đổi sách, lắng nghe bạn giới thiệu sách và chuẩn bị chia sẻ cảm xúc sau hoạt động."
             ],
             [
-              "2. TRONG NGÀY HỘI TRAO ĐỔI SÁCH\nMục tiêu: HS tham gia hoạt động trao đổi sách tích cực, biết giới thiệu sách và chia sẻ cảm xúc khi trao đổi kiến thức với bạn bè.\n* Cách tiến hành:",
               "2. TRONG NGÀY HỘI TRAO ĐỔI SÁCH\nMục tiêu: HS tham gia hoạt động trao đổi sách tích cực, biết giới thiệu sách và chia sẻ cảm xúc khi trao đổi kiến thức với bạn bè.\n* Cách tiến hành:"
             ],
             [
-              "Dẫn dắt",
               "Dẫn dắt"
             ],
             [
@@ -2527,7 +2389,6 @@
               "- HS trả lời: vì các bạn được chia sẻ điều mình thích, tặng nhau cơ hội đọc sách mới, trò chuyện với nhau và hiểu sở thích của nhau hơn."
             ],
             [
-              "Tham gia trao đổi sách",
               "Tham gia trao đổi sách"
             ],
             [
@@ -2547,7 +2408,6 @@
               "- HS chia sẻ: em thích tranh minh họa, nhân vật, câu chuyện hay, kiến thức mới hoặc lời giới thiệu hấp dẫn của bạn."
             ],
             [
-              "Kết luận",
               "Kết luận"
             ],
             [
@@ -2555,7 +2415,6 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của ngày hội và thể hiện quyết tâm giữ gìn sách, giữ gìn tình bạn."
             ],
             [
-              "3. SAU NGÀY HỘI TRAO ĐỔI SÁCH\nMục tiêu: HS chia sẻ được cảm xúc sau khi tham gia ngày hội và lựa chọn một việc làm để lan tỏa thói quen đọc sách trong lớp.\n* Cách tiến hành:",
               "3. SAU NGÀY HỘI TRAO ĐỔI SÁCH\nMục tiêu: HS chia sẻ được cảm xúc sau khi tham gia ngày hội và lựa chọn một việc làm để lan tỏa thói quen đọc sách trong lớp.\n* Cách tiến hành:"
             ],
             [
@@ -2572,12 +2431,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 7: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NGÀY HỘI TRAO ĐỔI SÁCH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 7: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TÌNH BẠN",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 7",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TÌNH BẠN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS đề xuất và thực hiện được các việc làm giúp giữ gìn, nuôi dưỡng tình bạn.",
           "- HS biết phát hiện, công nhận ưu điểm của bạn; biết chia sẻ cảm xúc tích cực khi được bạn ghi nhận.",
@@ -2603,10 +2464,6 @@
           "- HS: Bút màu, giấy ghi lời khen; chuẩn bị một lời khen chân thành dành cho bạn và một ý tưởng giúp giữ gìn tình bạn trong lớp."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2614,11 +2471,9 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, cảm xúc tích cực để dẫn dắt vào chủ đề giữ gìn tình bạn.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, cảm xúc tích cực để dẫn dắt vào chủ đề giữ gìn tình bạn.\n* Cách tiến hành:"
             ],
             [
-              "Chia sẻ về những ưu điểm của các thành viên trong lớp",
               "Chia sẻ về những ưu điểm của các thành viên trong lớp"
             ],
             [
@@ -2642,11 +2497,9 @@
               "- HS lắng nghe, ghi nhớ và thể hiện thái độ trân trọng ưu điểm của bạn."
             ],
             [
-              "2. KHÁM PHÁ\nMục tiêu: HS đề xuất được những việc làm cụ thể, thiết thực để giữ gìn tình bạn trong tập thể.\n* Cách tiến hành:",
               "2. KHÁM PHÁ\nMục tiêu: HS đề xuất được những việc làm cụ thể, thiết thực để giữ gìn tình bạn trong tập thể.\n* Cách tiến hành:"
             ],
             [
-              "Đề xuất những việc làm để giữ gìn tình bạn",
               "Đề xuất những việc làm để giữ gìn tình bạn"
             ],
             [
@@ -2678,11 +2531,9 @@
               "- HS lắng nghe, ghi nhớ các việc làm cụ thể để giữ gìn tình bạn."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS lựa chọn được “Sứ giả tình bạn” theo tiêu chí phù hợp và hiểu nhiệm vụ kết nối, chia sẻ khi bạn bè có mâu thuẫn, bất hòa.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS lựa chọn được “Sứ giả tình bạn” theo tiêu chí phù hợp và hiểu nhiệm vụ kết nối, chia sẻ khi bạn bè có mâu thuẫn, bất hòa.\n* Cách tiến hành:"
             ],
             [
-              "Lựa chọn “Sứ giả tình bạn”",
               "Lựa chọn “Sứ giả tình bạn”"
             ],
             [
@@ -2710,7 +2561,6 @@
               "- HS lắng nghe, ghi nhớ và trân trọng vai trò của bạn bè trong tập thể."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS thể hiện cam kết tôn trọng “Sứ giả tình bạn” và tiếp tục đề xuất ý tưởng nuôi dưỡng tình bạn trong năm học cuối cấp.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS thể hiện cam kết tôn trọng “Sứ giả tình bạn” và tiếp tục đề xuất ý tưởng nuôi dưỡng tình bạn trong năm học cuối cấp.\n* Cách tiến hành:"
             ],
             [
@@ -2723,12 +2573,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 7: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TÌNH BẠN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 7: TIẾT 3 - SINH HOẠT LỚP: NUÔI DƯỠNG TÌNH BẠN",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 7",
+        "lessonTitle": "SINH HOẠT LỚP: NUÔI DƯỠNG TÌNH BẠN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS chia sẻ được phản hồi sau tiết Hoạt động trải nghiệm trước.",
           "- HS đề xuất được chuỗi hoạt động dài hơi để nuôi dưỡng tình bạn.",
@@ -2754,10 +2606,6 @@
           "- HS: Một vài từ khóa về tình bạn; ý tưởng hoạt động kỉ niệm cho năm học cuối cấp; nếu có, chuẩn bị hình ảnh/video đã sưu tầm về hoạt động kết nối cộng đồng, thiện nguyện."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2765,7 +2613,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui tươi, giúp HS sẵn sàng chia sẻ về việc nuôi dưỡng tình bạn.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui tươi, giúp HS sẵn sàng chia sẻ về việc nuôi dưỡng tình bạn.\n* Cách tiến hành:"
             ],
             [
@@ -2781,11 +2628,9 @@
               "- HS lắng nghe, chuẩn bị chia sẻ và tham gia hoạt động."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần; thống nhất phương hướng hoạt động tuần 8.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần; thống nhất phương hướng hoạt động tuần 8.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -2805,7 +2650,6 @@
               "- HS lắng nghe, rút kinh nghiệm và quyết tâm thực hiện tốt hơn."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 8",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 8"
             ],
             [
@@ -2817,11 +2661,9 @@
               "- HS nhận nhiệm vụ, trao đổi nhanh trong tổ và chuẩn bị ý tưởng."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS nhắc lại những kết luận về việc nuôi dưỡng, giữ gìn tình bạn đã đưa ra trong tiết HĐTN trước và thể hiện bằng hoạt động tập thể vui tươi.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS nhắc lại những kết luận về việc nuôi dưỡng, giữ gìn tình bạn đã đưa ra trong tiết HĐTN trước và thể hiện bằng hoạt động tập thể vui tươi.\n* Cách tiến hành:"
             ],
             [
-              "Tham gia điệu nhảy dân vũ",
               "Tham gia điệu nhảy dân vũ"
             ],
             [
@@ -2849,11 +2691,9 @@
               "- HS lắng nghe, ghi nhớ và cảm nhận niềm vui khi cùng bạn tham gia hoạt động."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS đề xuất được các hoạt động chung để giữ gìn tình bạn cuối cấp, xây dựng kỉ niệm của tập thể lớp.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS đề xuất được các hoạt động chung để giữ gìn tình bạn cuối cấp, xây dựng kỉ niệm của tập thể lớp.\n* Cách tiến hành:"
             ],
             [
-              "Đề xuất các ý tưởng cho hoạt động “Cùng làm nên kỉ niệm”",
               "Đề xuất các ý tưởng cho hoạt động “Cùng làm nên kỉ niệm”"
             ],
             [
@@ -2885,7 +2725,6 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị ý tưởng cụ thể hơn cho tuần sau."
             ],
             [
-              "5. VẬN DỤNG\nMục tiêu: HS cam kết tiếp tục suy nghĩ, chuẩn bị ý tưởng để cùng lớp lập kế hoạch hoạt động kỉ niệm.\n* Cách tiến hành:",
               "5. VẬN DỤNG\nMục tiêu: HS cam kết tiếp tục suy nghĩ, chuẩn bị ý tưởng để cùng lớp lập kế hoạch hoạt động kỉ niệm.\n* Cách tiến hành:"
             ],
             [
@@ -2902,7 +2741,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 7: TIẾT 3 - SINH HOẠT LỚP: NUÔI DƯỠNG TÌNH BẠN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -2911,9 +2753,8 @@
     "sourceFile": "HĐTN TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 8: TIẾT 1 - SINH HOẠT DƯỚI CỜ: TRÒ CHUYỆN VỀ CHỦ ĐỀ “KHOA HỌC SÁNG TẠO”",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 8",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TRÒ CHUYỆN VỀ CHỦ ĐỀ “KHOA HỌC SÁNG TẠO” - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS tham gia nghiêm túc buổi trò chuyện về chủ đề “Khoa học sáng tạo” theo kế hoạch của nhà trường.",
           "- HS biết lắng nghe, đặt câu hỏi và nêu được một việc làm sáng tạo khoa học phù hợp với lứa tuổi.",
@@ -2932,10 +2773,6 @@
           "- HS: Trang phục gọn gàng; tâm thế tham gia; chuẩn bị một câu hỏi hoặc một ý tưởng sáng tạo khoa học đơn giản."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2943,7 +2780,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC BUỔI TRÒ CHUYỆN KHOA HỌC SÁNG TẠO\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia buổi trò chuyện theo chủ đề.\n* Cách tiến hành:",
               "1. TRƯỚC BUỔI TRÒ CHUYỆN KHOA HỌC SÁNG TẠO\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia buổi trò chuyện theo chủ đề.\n* Cách tiến hành:"
             ],
             [
@@ -2959,11 +2795,9 @@
               "- HS lắng nghe và thực hiện quy tắc giao tiếp văn minh trong hoạt động toàn trường."
             ],
             [
-              "2. TRONG BUỔI TRÒ CHUYỆN KHOA HỌC SÁNG TẠO\nMục tiêu: HS tham gia đầy đủ hoạt động, biết lắng nghe và chia sẻ ý tưởng sáng tạo khoa học phù hợp.\n* Cách tiến hành:",
               "2. TRONG BUỔI TRÒ CHUYỆN KHOA HỌC SÁNG TẠO\nMục tiêu: HS tham gia đầy đủ hoạt động, biết lắng nghe và chia sẻ ý tưởng sáng tạo khoa học phù hợp.\n* Cách tiến hành:"
             ],
             [
-              "Dẫn dắt",
               "Dẫn dắt"
             ],
             [
@@ -2975,7 +2809,6 @@
               "- HS lắng nghe và nêu thêm: khoa học sáng tạo có thể là trồng cây, tái chế đồ dùng, làm thí nghiệm an toàn, chế tạo mô hình đơn giản."
             ],
             [
-              "Giao lưu và chia sẻ ý tưởng",
               "Giao lưu và chia sẻ ý tưởng"
             ],
             [
@@ -2991,7 +2824,6 @@
               "- HS nêu: trồng cây lưu niệm, làm chậu cây tái chế, làm góc khoa học, thiết kế bảng nhắc tiết kiệm nước, làm mô hình bảo vệ môi trường."
             ],
             [
-              "Kết luận",
               "Kết luận"
             ],
             [
@@ -2999,7 +2831,6 @@
               "- HS lắng nghe, vỗ tay hưởng ứng và ghi nhớ thông điệp."
             ],
             [
-              "3. SAU BUỔI TRÒ CHUYỆN KHOA HỌC SÁNG TẠO\nMục tiêu: HS chia sẻ được điều học được và lựa chọn một việc làm sáng tạo nhỏ để thực hiện cùng lớp.\n* Cách tiến hành:",
               "3. SAU BUỔI TRÒ CHUYỆN KHOA HỌC SÁNG TẠO\nMục tiêu: HS chia sẻ được điều học được và lựa chọn một việc làm sáng tạo nhỏ để thực hiện cùng lớp.\n* Cách tiến hành:"
             ],
             [
@@ -3016,12 +2847,13 @@
             ]
           ]
         ],
-        "title": "TUẦN 8: TIẾT 1 - SINH HOẠT DƯỚI CỜ: TRÒ CHUYỆN VỀ CHỦ ĐỀ “KHOA HỌC SÁNG TẠO”"
+        "dieuchinh": [
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 8: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KẾ HOẠCH HOẠT ĐỘNG “CÙNG LÀM NÊN KỈ NIỆM”",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 8",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KẾ HOẠCH HOẠT ĐỘNG “CÙNG LÀM NÊN KỈ NIỆM” - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS cùng lập kế hoạch cụ thể cho chuỗi hoạt động “Cùng làm nên kỉ niệm”.",
           "- HS biết lựa chọn ý tưởng khả thi, phân công nhiệm vụ và dự kiến thời gian thực hiện.",
@@ -3047,10 +2879,6 @@
           "- HS: Bìa màu hoặc giấy, bút màu, kéo; chuẩn bị một ý tưởng “Cùng làm nên kỉ niệm” và tinh thần làm việc nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3058,11 +2886,9 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở những kỉ niệm đẹp giữa các thành viên trong lớp.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở những kỉ niệm đẹp giữa các thành viên trong lớp.\n* Cách tiến hành:"
             ],
             [
-              "Chơi trò chơi “Tôi nhớ...”",
               "Chơi trò chơi “Tôi nhớ...”"
             ],
             [
@@ -3082,11 +2908,9 @@
               "- HS lắng nghe và chuẩn bị bước vào hoạt động lập kế hoạch."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS lập được kế hoạch cho một hoạt động cụ thể để tạo nên kỉ niệm có thể thực hiện được ngay.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS lập được kế hoạch cho một hoạt động cụ thể để tạo nên kỉ niệm có thể thực hiện được ngay.\n* Cách tiến hành:"
             ],
             [
-              "Lập kế hoạch “Cùng làm nên kỉ niệm”",
               "Lập kế hoạch “Cùng làm nên kỉ niệm”"
             ],
             [
@@ -3114,11 +2938,9 @@
               "- HS ghi nhớ yêu cầu của một bản kế hoạch khả thi."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS bình chọn được bản kế hoạch khả thi và phân công nhiệm vụ cụ thể để thực hiện.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS bình chọn được bản kế hoạch khả thi và phân công nhiệm vụ cụ thể để thực hiện.\n* Cách tiến hành:"
             ],
             [
-              "Bình chọn bản kế hoạch khả thi để thực hiện vào tiết Sinh hoạt lớp",
               "Bình chọn bản kế hoạch khả thi để thực hiện vào tiết Sinh hoạt lớp"
             ],
             [
@@ -3142,7 +2964,6 @@
               "- HS nhắc lại nhiệm vụ của mình và ghi nhớ thời gian chuẩn bị."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS chuẩn bị đồ dùng, phương tiện và tâm thế để thực hiện kế hoạch “Cùng làm nên kỉ niệm” ở tiết Sinh hoạt lớp.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS chuẩn bị đồ dùng, phương tiện và tâm thế để thực hiện kế hoạch “Cùng làm nên kỉ niệm” ở tiết Sinh hoạt lớp.\n* Cách tiến hành:"
             ],
             [
@@ -3155,12 +2976,13 @@
             ]
           ]
         ],
-        "title": "TUẦN 8: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KẾ HOẠCH HOẠT ĐỘNG “CÙNG LÀM NÊN KỈ NIỆM”"
+        "dieuchinh": [
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 8: TIẾT 3 - SINH HOẠT LỚP: CÙNG LÀM NÊN KỈ NIỆM",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 8",
+        "lessonTitle": "SINH HOẠT LỚP: CÙNG LÀM NÊN KỈ NIỆM - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS chia sẻ phản hồi sau tiết Hoạt động trải nghiệm trước.",
           "- HS thực hiện được hoạt động “Cùng làm nên kỉ niệm” theo kế hoạch đã xây dựng.",
@@ -3186,10 +3008,6 @@
           "- HS: Đồ dùng đã được phân công; sản phẩm chuẩn bị của tổ; tinh thần hợp tác, chia sẻ và sẵn sàng thực hiện hoạt động."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3197,7 +3015,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui tươi, giúp HS sẵn sàng tham gia hoạt động chung theo kế hoạch đã xây dựng.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui tươi, giúp HS sẵn sàng tham gia hoạt động chung theo kế hoạch đã xây dựng.\n* Cách tiến hành:"
             ],
             [
@@ -3213,11 +3030,9 @@
               "- HS lắng nghe và chuẩn bị tham gia các phần của tiết sinh hoạt."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần; thống nhất phương hướng hoạt động tuần 9 và chuẩn bị cho hoạt động trải nghiệm tiếp theo.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần; thống nhất phương hướng hoạt động tuần 9 và chuẩn bị cho hoạt động trải nghiệm tiếp theo.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -3233,7 +3048,6 @@
               "- HS lắng nghe, rút kinh nghiệm và vỗ tay chúc mừng các bạn được tuyên dương."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 9",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 9"
             ],
             [
@@ -3245,7 +3059,6 @@
               "- HS tiếp nhận, thống nhất thực hiện phương hướng tuần mới."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ kết quả chuẩn bị sau tiết HĐTN trước, kiểm tra lại kế hoạch và điều chỉnh trước khi thực hiện.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ kết quả chuẩn bị sau tiết HĐTN trước, kiểm tra lại kế hoạch và điều chỉnh trước khi thực hiện.\n* Cách tiến hành:"
             ],
             [
@@ -3265,11 +3078,9 @@
               "- HS lắng nghe, kiểm tra lại nhiệm vụ và sẵn sàng thực hiện hoạt động."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS thực hiện hoạt động “Cùng làm nên kỉ niệm” theo bản kế hoạch đã xây dựng.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS thực hiện hoạt động “Cùng làm nên kỉ niệm” theo bản kế hoạch đã xây dựng.\n* Cách tiến hành:"
             ],
             [
-              "Thực hiện hoạt động “Cùng làm nên kỉ niệm” theo kế hoạch đã xây dựng",
               "Thực hiện hoạt động “Cùng làm nên kỉ niệm” theo kế hoạch đã xây dựng"
             ],
             [
@@ -3301,7 +3112,6 @@
               "- HS cùng chụp ảnh lưu niệm, hô khẩu hiệu và thể hiện sự vui vẻ, đoàn kết."
             ],
             [
-              "5. VẬN DỤNG\nMục tiêu: HS lựa chọn thêm hoạt động phù hợp để tiếp tục nuôi dưỡng tình bạn và tự đánh giá kết quả chủ đề.\n* Cách tiến hành:",
               "5. VẬN DỤNG\nMục tiêu: HS lựa chọn thêm hoạt động phù hợp để tiếp tục nuôi dưỡng tình bạn và tự đánh giá kết quả chủ đề.\n* Cách tiến hành:"
             ],
             [
@@ -3318,7 +3128,9 @@
             ]
           ]
         ],
-        "title": "TUẦN 8: TIẾT 3 - SINH HOẠT LỚP: CÙNG LÀM NÊN KỈ NIỆM"
+        "dieuchinh": [
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -3327,9 +3139,8 @@
     "sourceFile": "HĐTN TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 9: TIẾT 1 - SINH HOẠT DƯỚI CỜ: PHÁT ĐỘNG TỔ CHỨC SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 9",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: PHÁT ĐỘNG TỔ CHỨC SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động phát động tổ chức sự kiện về truyền thống tôn sư trọng đạo của nhà trường.",
           "- HS nêu được mục đích, ý nghĩa của sự kiện hướng tới ngày Nhà giáo Việt Nam 20-11.",
@@ -3348,10 +3159,6 @@
           "- HS: Trang phục gọn gàng; tâm thế tham gia; chuẩn bị một ý tưởng hoặc việc làm để góp phần tổ chức sự kiện tôn sư trọng đạo."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3359,7 +3166,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC BUỔI PHÁT ĐỘNG\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia buổi phát động tổ chức sự kiện.\n* Cách tiến hành:",
               "1. TRƯỚC BUỔI PHÁT ĐỘNG\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia buổi phát động tổ chức sự kiện.\n* Cách tiến hành:"
             ],
             [
@@ -3375,11 +3181,9 @@
               "- HS lắng nghe, thống nhất thực hiện nề nếp giao tiếp văn minh trong hoạt động toàn trường."
             ],
             [
-              "2. TRONG BUỔI PHÁT ĐỘNG\nMục tiêu: HS tham gia đầy đủ chương trình, hiểu ý nghĩa của sự kiện và xác định được nhiệm vụ chung.\n* Cách tiến hành:",
               "2. TRONG BUỔI PHÁT ĐỘNG\nMục tiêu: HS tham gia đầy đủ chương trình, hiểu ý nghĩa của sự kiện và xác định được nhiệm vụ chung.\n* Cách tiến hành:"
             ],
             [
-              "Dẫn dắt và quan sát nội dung phát động",
               "Dẫn dắt và quan sát nội dung phát động"
             ],
             [
@@ -3391,7 +3195,6 @@
               "- HS lắng nghe và nêu thêm: em biết ơn thầy cô vì thầy cô dạy chữ, dạy cách ứng xử, quan tâm và giúp đỡ học sinh."
             ],
             [
-              "Tham gia phát động và nhận nhiệm vụ",
               "Tham gia phát động và nhận nhiệm vụ"
             ],
             [
@@ -3407,7 +3210,6 @@
               "- HS nêu: làm báo tường, viết lời tri ân, kể chuyện về thầy cô, biểu diễn văn nghệ, giới thiệu truyền thống nhà trường, làm sản phẩm tặng thầy cô."
             ],
             [
-              "Kết luận",
               "Kết luận"
             ],
             [
@@ -3415,7 +3217,6 @@
               "- HS lắng nghe, vỗ tay hưởng ứng và ghi nhớ thông điệp."
             ],
             [
-              "3. SAU BUỔI PHÁT ĐỘNG\nMục tiêu: HS chia sẻ được thông tin đã nghe và chuẩn bị ý tưởng tham gia sự kiện của lớp.\n* Cách tiến hành:",
               "3. SAU BUỔI PHÁT ĐỘNG\nMục tiêu: HS chia sẻ được thông tin đã nghe và chuẩn bị ý tưởng tham gia sự kiện của lớp.\n* Cách tiến hành:"
             ],
             [
@@ -3432,12 +3233,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 9: TIẾT 1 - SINH HOẠT DƯỚI CỜ: PHÁT ĐỘNG TỔ CHỨC SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 9: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 9",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS chủ động thảo luận, đề xuất các hoạt động mình có thể tham gia tổ chức trong chuỗi sự kiện về truyền thống tôn sư trọng đạo.",
           "- HS biết lựa chọn hoạt động khả thi, lập kế hoạch, phân công nhiệm vụ và thống nhất thời gian thực hiện.",
@@ -3463,10 +3266,6 @@
           "- HS: Bìa màu hoặc giấy, bút màu, kéo; chuẩn bị một ý tưởng hoạt động tri ân thầy cô hoặc giới thiệu truyền thống nhà trường."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3474,11 +3273,9 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở tình cảm kính trọng, biết ơn thầy cô và kết nối với chủ đề tôn sư trọng đạo.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở tình cảm kính trọng, biết ơn thầy cô và kết nối với chủ đề tôn sư trọng đạo.\n* Cách tiến hành:"
             ],
             [
-              "Nghe một bài hát về thầy, cô giáo",
               "Nghe một bài hát về thầy, cô giáo"
             ],
             [
@@ -3494,11 +3291,9 @@
               "- HS lắng nghe, sẵn sàng tham gia hoạt động thảo luận và lập kế hoạch."
             ],
             [
-              "2. KHÁM PHÁ\nMục tiêu: HS thảo luận để hiểu mục tiêu chuỗi sự kiện, đề xuất các hoạt động phù hợp và lựa chọn hoạt động khả thi.\n* Cách tiến hành:",
               "2. KHÁM PHÁ\nMục tiêu: HS thảo luận để hiểu mục tiêu chuỗi sự kiện, đề xuất các hoạt động phù hợp và lựa chọn hoạt động khả thi.\n* Cách tiến hành:"
             ],
             [
-              "Thảo luận về nội dung tổ chức sự kiện",
               "Thảo luận về nội dung tổ chức sự kiện"
             ],
             [
@@ -3530,11 +3325,9 @@
               "- HS ghi nhớ: muốn tổ chức tốt cần hiểu mục tiêu, đề xuất ý tưởng phù hợp và chọn hoạt động có thể thực hiện được."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS biết lập kế hoạch cho hoạt động lớp đã lựa chọn, trình bày kế hoạch và thống nhất cách thực hiện.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS biết lập kế hoạch cho hoạt động lớp đã lựa chọn, trình bày kế hoạch và thống nhất cách thực hiện.\n* Cách tiến hành:"
             ],
             [
-              "Lập kế hoạch tổ chức hoạt động mà lớp đã lựa chọn",
               "Lập kế hoạch tổ chức hoạt động mà lớp đã lựa chọn"
             ],
             [
@@ -3566,7 +3359,6 @@
               "- HS lắng nghe, ghi nhớ các bước tổ chức hoạt động."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS bắt đầu triển khai thực hiện kế hoạch theo thời gian đã đề ra.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS bắt đầu triển khai thực hiện kế hoạch theo thời gian đã đề ra.\n* Cách tiến hành:"
             ],
             [
@@ -3579,12 +3371,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 9: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 9: TIẾT 3 - SINH HOẠT LỚP: GIỚI THIỆU VỀ TRUYỀN THỐNG NHÀ TRƯỜNG",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 9",
+        "lessonTitle": "SINH HOẠT LỚP: GIỚI THIỆU VỀ TRUYỀN THỐNG NHÀ TRƯỜNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS chia sẻ phản hồi sau tiết Hoạt động giáo dục theo chủ đề và kiểm tra tiến độ thực hiện kế hoạch sự kiện.",
           "- HS tham quan phòng truyền thống, tìm hiểu được thông tin về các truyền thống của nhà trường.",
@@ -3610,10 +3404,6 @@
           "- HS: Sổ ghi chép, bút, bìa màu hình trái tim; chuẩn bị câu hỏi phỏng vấn thầy cô, nhân viên hoặc người phụ trách phòng truyền thống."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3621,7 +3411,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, gợi nhắc tình cảm với thầy cô, mái trường và truyền thống tôn sư trọng đạo.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, gợi nhắc tình cảm với thầy cô, mái trường và truyền thống tôn sư trọng đạo.\n* Cách tiến hành:"
             ],
             [
@@ -3637,11 +3426,9 @@
               "- HS lắng nghe, chuẩn bị tham gia các phần của tiết sinh hoạt."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần và thống nhất phương hướng hoạt động tuần 10.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần và thống nhất phương hướng hoạt động tuần 10.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -3657,7 +3444,6 @@
               "- HS lắng nghe, rút kinh nghiệm và vỗ tay chúc mừng các bạn được tuyên dương."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 10",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 10"
             ],
             [
@@ -3669,7 +3455,6 @@
               "- HS tiếp nhận, tự nhắc việc và cam kết hoàn thành nhiệm vụ."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ tiến độ thực hiện kế hoạch đã lập và điều chỉnh nhiệm vụ trước khi tìm hiểu truyền thống nhà trường.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ tiến độ thực hiện kế hoạch đã lập và điều chỉnh nhiệm vụ trước khi tìm hiểu truyền thống nhà trường.\n* Cách tiến hành:"
             ],
             [
@@ -3685,11 +3470,9 @@
               "- HS lắng nghe, kiểm tra lại nhiệm vụ cá nhân và nhóm."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS tham quan, thu thập thông tin và viết bài giới thiệu về truyền thống nhà trường.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS tham quan, thu thập thông tin và viết bài giới thiệu về truyền thống nhà trường.\n* Cách tiến hành:"
             ],
             [
-              "Tham quan phòng truyền thống để tìm hiểu thông tin về các truyền thống của nhà trường",
               "Tham quan phòng truyền thống để tìm hiểu thông tin về các truyền thống của nhà trường"
             ],
             [
@@ -3717,7 +3500,6 @@
               "- HS lắng nghe và hoàn thiện phần ghi chép của nhóm."
             ],
             [
-              "Viết bài giới thiệu về các truyền thống của nhà trường",
               "Viết bài giới thiệu về các truyền thống của nhà trường"
             ],
             [
@@ -3745,7 +3527,6 @@
               "- HS lắng nghe, ghi nhớ và hoàn thiện sản phẩm của nhóm."
             ],
             [
-              "5. VẬN DỤNG\nMục tiêu: HS tiếp tục hoàn thiện bài giới thiệu và thực hiện kế hoạch sự kiện tôn sư trọng đạo.\n* Cách tiến hành:",
               "5. VẬN DỤNG\nMục tiêu: HS tiếp tục hoàn thiện bài giới thiệu và thực hiện kế hoạch sự kiện tôn sư trọng đạo.\n* Cách tiến hành:"
             ],
             [
@@ -3758,7 +3539,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 9: TIẾT 3 - SINH HOẠT LỚP: GIỚI THIỆU VỀ TRUYỀN THỐNG NHÀ TRƯỜNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -3767,9 +3551,8 @@
     "sourceFile": "HĐTN TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 10: TIẾT 1 - SINH HOẠT DƯỚI CỜ: CÁC TRUYỆN TRUYỀN CẢM HỨNG CỦA NHÀ TRƯỜNG",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 10",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CÁC TRUYỆN TRUYỀN CẢM HỨNG CỦA NHÀ TRƯỜNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động giới thiệu truyền thống của nhà trường thông qua những bài viết, câu chuyện truyền cảm hứng.",
           "- HS lắng nghe và trình bày được nội dung hoạt động làm sản phẩm tri ân thầy cô chào mừng ngày Nhà giáo Việt Nam 20-11.",
@@ -3788,10 +3571,6 @@
           "- HS: Trang phục gọn gàng; ghế ngồi; tâm thế lắng nghe; chuẩn bị một ý tưởng làm sản phẩm tri ân thầy cô."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3799,7 +3578,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động giới thiệu truyền thống của nhà trường.\n* Cách tiến hành:",
               "1. TRƯỚC BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động giới thiệu truyền thống của nhà trường.\n* Cách tiến hành:"
             ],
             [
@@ -3815,11 +3593,9 @@
               "- HS lắng nghe và thống nhất thực hiện nề nếp giao tiếp văn minh."
             ],
             [
-              "2. TRONG BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia đầy đủ chương trình, hiểu ý nghĩa của truyền thống nhà trường và định hướng được sản phẩm tri ân thầy cô.\n* Cách tiến hành:",
               "2. TRONG BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia đầy đủ chương trình, hiểu ý nghĩa của truyền thống nhà trường và định hướng được sản phẩm tri ân thầy cô.\n* Cách tiến hành:"
             ],
             [
-              "Quan sát và lắng nghe giới thiệu truyền thống nhà trường",
               "Quan sát và lắng nghe giới thiệu truyền thống nhà trường"
             ],
             [
@@ -3835,7 +3611,6 @@
               "- HS trả lời: Vì hiểu truyền thống giúp chúng em biết ơn thầy cô, tự hào về mái trường, làm sản phẩm tri ân có ý nghĩa hơn."
             ],
             [
-              "Trao đổi về sản phẩm tri ân thầy cô",
               "Trao đổi về sản phẩm tri ân thầy cô"
             ],
             [
@@ -3847,7 +3622,6 @@
               "- HS nêu ý tưởng: làm thiệp, viết lời chúc, làm báo tường, vẽ tranh, chuẩn bị bài hát, làm clip tri ân thầy cô."
             ],
             [
-              "Kết luận",
               "Kết luận"
             ],
             [
@@ -3855,7 +3629,6 @@
               "- HS lắng nghe, vỗ tay hưởng ứng và ghi nhớ thông điệp."
             ],
             [
-              "3. SAU BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS chia sẻ được điều ấn tượng sau hoạt động và chuẩn bị ý tưởng tham gia sản phẩm tri ân thầy cô.\n* Cách tiến hành:",
               "3. SAU BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS chia sẻ được điều ấn tượng sau hoạt động và chuẩn bị ý tưởng tham gia sản phẩm tri ân thầy cô.\n* Cách tiến hành:"
             ],
             [
@@ -3872,12 +3645,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 10: TIẾT 1 - SINH HOẠT DƯỚI CỜ: CÁC TRUYỆN TRUYỀN CẢM HỨNG CỦA NHÀ TRƯỜNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 10: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÂM SỰ THẦY - TRÒ",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 10",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÂM SỰ THẦY - TRÒ - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tạo được cảm xúc ấm áp, tin cậy giữa thầy và trò.",
           "- GV và HS đều nói ra được những gì mình băn khoăn, hiểu lầm.",
@@ -3903,10 +3678,6 @@
           "- HS: Bìa màu hoặc giấy, bút màu; chuẩn bị một kỉ niệm, một điều muốn chia sẻ hoặc một băn khoăn trong quan hệ thầy trò."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3914,11 +3685,9 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở HS bước vào hoạt động khám phá chủ đề; qua đó giúp HS nhớ lại những cảm xúc và kỉ niệm của mình với thầy cô.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, gợi mở HS bước vào hoạt động khám phá chủ đề; qua đó giúp HS nhớ lại những cảm xúc và kỉ niệm của mình với thầy cô.\n* Cách tiến hành:"
             ],
             [
-              "Xem những hình ảnh các thầy cô từng dạy em",
               "Xem những hình ảnh các thầy cô từng dạy em"
             ],
             [
@@ -3942,11 +3711,9 @@
               "- HS lắng nghe và chuẩn bị bước vào hoạt động chia sẻ kỉ niệm."
             ],
             [
-              "2. KHÁM PHÁ\nMục tiêu: HS chia sẻ được những kỉ niệm, ấn tượng khó quên về tình thầy trò và nhận ra ý nghĩa của việc trò chuyện chân thành với thầy cô.\n* Cách tiến hành:",
               "2. KHÁM PHÁ\nMục tiêu: HS chia sẻ được những kỉ niệm, ấn tượng khó quên về tình thầy trò và nhận ra ý nghĩa của việc trò chuyện chân thành với thầy cô.\n* Cách tiến hành:"
             ],
             [
-              "Chia sẻ những kỉ niệm về tình thầy trò",
               "Chia sẻ những kỉ niệm về tình thầy trò"
             ],
             [
@@ -3974,11 +3741,9 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của việc chia sẻ và biết trân trọng tình thầy trò."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS nhận diện được một số vấn đề có thể nảy sinh trong quan hệ thầy trò và biết bày tỏ suy nghĩ bằng thái độ lễ phép, chân thành.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS nhận diện được một số vấn đề có thể nảy sinh trong quan hệ thầy trò và biết bày tỏ suy nghĩ bằng thái độ lễ phép, chân thành.\n* Cách tiến hành:"
             ],
             [
-              "Tìm hiểu những vấn đề nảy sinh trong quan hệ thầy trò",
               "Tìm hiểu những vấn đề nảy sinh trong quan hệ thầy trò"
             ],
             [
@@ -4014,7 +3779,6 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị vận dụng."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS viết ra được vấn đề có thể nảy sinh trong quan hệ thầy trò để suy nghĩ và tìm cách giải quyết.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS viết ra được vấn đề có thể nảy sinh trong quan hệ thầy trò để suy nghĩ và tìm cách giải quyết.\n* Cách tiến hành:"
             ],
             [
@@ -4031,12 +3795,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 10: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÂM SỰ THẦY - TRÒ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 10: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TÂM SỰ THẦY - TRÒ",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 10",
+        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TÂM SỰ THẦY - TRÒ - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS phản hồi kết quả vận dụng sau tiết HĐTN trước; xác định được các vấn đề thường nảy sinh trong mối quan hệ thầy trò.",
           "- HS thực hành giải quyết tình huống, từ đó đề xuất được các nguyên tắc giải quyết vấn đề nảy sinh giữa thầy và trò.",
@@ -4062,10 +3828,6 @@
           "- HS: Sổ ghi chép; những vấn đề đã viết ở nhà; chuẩn bị tinh thần chia sẻ, sắm vai và lắng nghe góp ý."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4073,7 +3835,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ, phản hồi kết quả vận dụng và tham gia thực hành xử lí tình huống.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ, phản hồi kết quả vận dụng và tham gia thực hành xử lí tình huống.\n* Cách tiến hành:"
             ],
             [
@@ -4089,11 +3850,9 @@
               "- HS lắng nghe, chuẩn bị tham gia các phần của tiết sinh hoạt."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần và thống nhất phương hướng hoạt động tuần 11.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần và thống nhất phương hướng hoạt động tuần 11.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -4109,7 +3868,6 @@
               "- HS lắng nghe, rút kinh nghiệm và vỗ tay chúc mừng các bạn được tuyên dương."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 11",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 11"
             ],
             [
@@ -4121,7 +3879,6 @@
               "- HS tiếp nhận, tự nhắc việc và cam kết hoàn thành nhiệm vụ."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được những vấn đề có thể nảy sinh trong quan hệ thầy trò đã suy nghĩ ở nhà và lựa chọn vấn đề phù hợp để cùng tìm cách giải quyết.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được những vấn đề có thể nảy sinh trong quan hệ thầy trò đã suy nghĩ ở nhà và lựa chọn vấn đề phù hợp để cùng tìm cách giải quyết.\n* Cách tiến hành:"
             ],
             [
@@ -4141,11 +3898,9 @@
               "- HS lắng nghe, đồng ý và chuẩn bị tham gia thực hành xử lí tình huống."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS thực hành giải quyết tình huống nảy sinh trong quan hệ thầy trò và khái quát được những nguyên tắc ứng xử phù hợp.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS thực hành giải quyết tình huống nảy sinh trong quan hệ thầy trò và khái quát được những nguyên tắc ứng xử phù hợp.\n* Cách tiến hành:"
             ],
             [
-              "Thực hành giải quyết tình huống nảy sinh trong mối quan hệ thầy trò",
               "Thực hành giải quyết tình huống nảy sinh trong mối quan hệ thầy trò"
             ],
             [
@@ -4169,7 +3924,6 @@
               "- HS lắng nghe, ghi nhớ và điều chỉnh cách ứng xử của bản thân."
             ],
             [
-              "Xác định các cách giải quyết vấn đề nảy sinh trong mối quan hệ thầy trò",
               "Xác định các cách giải quyết vấn đề nảy sinh trong mối quan hệ thầy trò"
             ],
             [
@@ -4193,7 +3947,6 @@
               "- HS lắng nghe, ghi nhớ các nguyên tắc: lắng nghe, đặt mình vào vị trí người khác, chia sẻ, nói ra và sửa lỗi."
             ],
             [
-              "5. VẬN DỤNG\nMục tiêu: HS suy nghĩ được những việc làm cụ thể để vun đắp tình thầy trò và tiếp tục thực hiện kế hoạch tổ chức sự kiện của nhà trường.\n* Cách tiến hành:",
               "5. VẬN DỤNG\nMục tiêu: HS suy nghĩ được những việc làm cụ thể để vun đắp tình thầy trò và tiếp tục thực hiện kế hoạch tổ chức sự kiện của nhà trường.\n* Cách tiến hành:"
             ],
             [
@@ -4210,7 +3963,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 10: TIẾT 3 - SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TÂM SỰ THẦY - TRÒ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -4219,9 +3975,8 @@
     "sourceFile": "HĐTN TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 11: TIẾT 1 - SINH HOẠT DƯỚI CỜ: VĂN NGHỆ VỀ CHỦ ĐỀ “TÌNH THẦY TRÒ”",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 11",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: VĂN NGHỆ VỀ CHỦ ĐỀ “TÌNH THẦY TRÒ” - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động văn nghệ, tiểu phẩm, đọc thơ về chủ đề tình thầy trò theo kế hoạch của nhà trường.",
           "- HS lắng nghe được chia sẻ của thầy cô Tổng phụ trách về hoạt động giáo dục truyền thống của Liên đội.",
@@ -4240,10 +3995,6 @@
           "- HS: Trang phục gọn gàng; ghế ngồi; tâm thế lắng nghe; chuẩn bị một câu chia sẻ về tình thầy trò hoặc một việc làm em muốn thực hiện để tri ân thầy cô."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4251,7 +4002,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia văn nghệ về chủ đề tình thầy trò.\n* Cách tiến hành:",
               "1. TRƯỚC BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia văn nghệ về chủ đề tình thầy trò.\n* Cách tiến hành:"
             ],
             [
@@ -4267,11 +4017,9 @@
               "- HS lắng nghe, thống nhất thực hiện nề nếp xem biểu diễn văn minh."
             ],
             [
-              "2. TRONG BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia đầy đủ chương trình, cảm nhận được ý nghĩa của tình thầy trò và biết chia sẻ cảm xúc sau hoạt động.\n* Cách tiến hành:",
               "2. TRONG BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia đầy đủ chương trình, cảm nhận được ý nghĩa của tình thầy trò và biết chia sẻ cảm xúc sau hoạt động.\n* Cách tiến hành:"
             ],
             [
-              "Tham gia văn nghệ, tiểu phẩm, đọc thơ về chủ đề tình thầy trò",
               "Tham gia văn nghệ, tiểu phẩm, đọc thơ về chủ đề tình thầy trò"
             ],
             [
@@ -4287,7 +4035,6 @@
               "- HS trả lời: Em thích lời thơ nói về công ơn thầy cô; em thích tiểu phẩm bạn biết xin lỗi cô; chi tiết đó giúp em hiểu thầy cô luôn yêu thương, dạy dỗ chúng em."
             ],
             [
-              "Lắng nghe thầy cô Tổng phụ trách chia sẻ",
               "Lắng nghe thầy cô Tổng phụ trách chia sẻ"
             ],
             [
@@ -4299,7 +4046,6 @@
               "- HS nêu: làm thiệp, viết lời chúc, chuẩn bị tiết mục văn nghệ, làm báo tường, giữ lớp học sạch, học tập chăm chỉ, giúp thầy cô những việc phù hợp."
             ],
             [
-              "Kết luận",
               "Kết luận"
             ],
             [
@@ -4307,7 +4053,6 @@
               "- HS lắng nghe, vỗ tay hưởng ứng và ghi nhớ thông điệp."
             ],
             [
-              "3. SAU BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS chia sẻ được cảm xúc sau chương trình và chuẩn bị ý tưởng cho hoạt động Vun đắp tình thầy trò.\n* Cách tiến hành:",
               "3. SAU BUỔI SINH HOẠT DƯỚI CỜ\nMục tiêu: HS chia sẻ được cảm xúc sau chương trình và chuẩn bị ý tưởng cho hoạt động Vun đắp tình thầy trò.\n* Cách tiến hành:"
             ],
             [
@@ -4320,12 +4065,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 11: TIẾT 1 - SINH HOẠT DƯỚI CỜ: VĂN NGHỆ VỀ CHỦ ĐỀ “TÌNH THẦY TRÒ”"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 11: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VUN ĐẮP TÌNH THẦY TRÒ",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 11",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VUN ĐẮP TÌNH THẦY TRÒ - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS đề xuất và thực hiện được các việc làm giúp giữ gìn, nuôi dưỡng tình thầy trò.",
           "- HS chia sẻ được cảm xúc, mong muốn của mình khi tham gia các việc làm vun đắp tình thầy trò.",
@@ -4344,17 +4091,15 @@
           "- Chăm chỉ: Kiên trì thực hiện việc làm tốt để vun đắp tình thầy trò.",
           "4. Tích hợp",
           "- Tích hợp AI (5.A1.2): Nhấn mạnh trách nhiệm: Con người là bên quyết định nội dung tri ân; AI chỉ hỗ trợ trình bày nội dung đó.",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết thực hiện việc làm cụ thể để vun đắp tình thầy trò; hình thành lối sống lễ phép, chăm học, biết nói lời cảm ơn và giúp đỡ thầy cô trong việc phù hợp."
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết thực hiện việc làm cụ thể để vun đắp tình thầy trò; hình thành lối sống lễ phép, chăm học, biết nói lời cảm ơn và giúp đỡ thầy cô trong việc phù hợp.",
+          "- Giáo dục địa phương (Chủ đề 5): Tìm hiểu nét đẹp nghệ thuật múa dân gian Khơ-me và Nhạc cụ dàn nhạc Ngũ âm Khmer tỉnh Trà Vinh (điệu múa Rô-băm, Rom-vong, tiếng trống Sa-dăm rộn rã trong các ngày hội); bồi dưỡng tình đoàn kết các dân tộc Kinh - Khmer - Hoa trên quê hương Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Rèn luyện thói quen giữ gìn vệ sinh khuôn viên trường lớp, sử dụng nước tiết kiệm và hiệu quả khi sinh hoạt tập thể tại trường."
         ],
         "dodung": [
           "- GV: Tranh SGK; một số bài hát, bài thơ về thầy cô; bìa màu, giấy A3, bút dạ; bảng gợi ý việc làm vun đắp tình thầy trò; máy tính/điện thoại của GV để minh họa việc dùng công cụ AI hỗ trợ trình bày ý tưởng.",
           "- HS: Giấy nháp, bút màu; chuẩn bị một việc làm em muốn thực hiện để vun đắp tình thầy trò; nguyên liệu đơn giản nếu nhóm đã thống nhất chuẩn bị trước."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4362,11 +4107,9 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, cảm xúc tích cực để dẫn dắt HS vào chủ đề Vun đắp tình thầy trò.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, cảm xúc tích cực để dẫn dắt HS vào chủ đề Vun đắp tình thầy trò.\n* Cách tiến hành:"
             ],
             [
-              "Hát một bài hát ca ngợi thầy cô",
               "Hát một bài hát ca ngợi thầy cô"
             ],
             [
@@ -4382,11 +4125,9 @@
               "- HS lắng nghe và sẵn sàng tham gia hoạt động đề xuất việc làm cụ thể."
             ],
             [
-              "2. KHÁM PHÁ\nMục tiêu: HS đề xuất được những việc làm cụ thể, thiết thực cho cá nhân và tập thể để vun đắp tình thầy trò.\n* Cách tiến hành:",
               "2. KHÁM PHÁ\nMục tiêu: HS đề xuất được những việc làm cụ thể, thiết thực cho cá nhân và tập thể để vun đắp tình thầy trò.\n* Cách tiến hành:"
             ],
             [
-              "Đề xuất những việc làm cụ thể để vun đắp tình thầy trò",
               "Đề xuất những việc làm cụ thể để vun đắp tình thầy trò"
             ],
             [
@@ -4414,11 +4155,9 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị lựa chọn việc làm để thực hiện."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS lựa chọn được một số việc làm có thể thực hiện ngay để cùng khởi động chuỗi hoạt động vun đắp tình thầy trò.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT\nMục tiêu: HS lựa chọn được một số việc làm có thể thực hiện ngay để cùng khởi động chuỗi hoạt động vun đắp tình thầy trò.\n* Cách tiến hành:"
             ],
             [
-              "Thực hiện một số việc làm để vun đắp tình thầy trò",
               "Thực hiện một số việc làm để vun đắp tình thầy trò"
             ],
             [
@@ -4446,7 +4185,6 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của hoạt động chung."
             ],
             [
-              "4. VẬN DỤNG\nMục tiêu: HS tiếp tục thực hiện việc làm thiết thực để vun đắp tình thầy trò và chuẩn bị nguyên liệu cho sản phẩm tri ân thầy cô.\n* Cách tiến hành:",
               "4. VẬN DỤNG\nMục tiêu: HS tiếp tục thực hiện việc làm thiết thực để vun đắp tình thầy trò và chuẩn bị nguyên liệu cho sản phẩm tri ân thầy cô.\n* Cách tiến hành:"
             ],
             [
@@ -4456,15 +4194,21 @@
             [
               "- GV nhắc HS chuẩn bị nguyên liệu cho hoạt động thực hiện sản phẩm tri ân thầy cô; có thể phân công nhau thực hiện một phần ở nhà.",
               "- HS ghi nhớ nhiệm vụ, nhận phần việc và chuẩn bị nguyên liệu theo kế hoạch của nhóm."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 5) & Mizuiku: GV gợi ý hoạt động trải nghiệm văn hóa: Hướng dẫn HS tìm hiểu điệu múa Rom-vong, Rô-băm và âm vang rộn ràng của dàn nhạc Ngũ âm, tiếng trống Sa-dăm đặc trưng của đồng bào Khmer Trà Vinh để biểu diễn chúc mừng thầy cô; đồng thời nhắc nhở các em luôn đoàn kết, giữ gìn vệ sinh lớp học và sử dụng nước tiết kiệm trong các buổi sinh hoạt tập thể.",
+              "- HS hào hứng tìm hiểu, tập một số động tác múa dân gian Khơ-me hoặc hát ca khúc về quê hương Trà Vinh dâng tặng thầy cô; cam kết luôn đoàn kết thân ái với bạn bè và có ý thức tiết kiệm nước sạch tại trường học."
             ]
           ]
         ],
-        "title": "TUẦN 11: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VUN ĐẮP TÌNH THẦY TRÒ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 11: TIẾT 3 - SINH HOẠT LỚP: SẢN PHẨM TRI ÂN THẦY CÔ",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 11",
+        "lessonTitle": "SINH HOẠT LỚP: SẢN PHẨM TRI ÂN THẦY CÔ - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS chia sẻ được phản hồi sau tiết Hoạt động trải nghiệm trước.",
           "- HS đề xuất được chuỗi hoạt động dài hơi để nuôi dưỡng tình thầy trò.",
@@ -4490,10 +4234,6 @@
           "- HS: Nguyên liệu nhóm đã chuẩn bị; sản phẩm làm một phần ở nhà; bút màu; nội dung lời chúc, hình ảnh, tranh vẽ hoặc tư liệu nhóm muốn dùng."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4501,7 +4241,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ kết quả vận dụng và tham gia hoàn thiện sản phẩm tri ân thầy cô.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ kết quả vận dụng và tham gia hoàn thiện sản phẩm tri ân thầy cô.\n* Cách tiến hành:"
             ],
             [
@@ -4517,11 +4256,9 @@
               "- HS lắng nghe, chuẩn bị sản phẩm, nguyên liệu và tinh thần làm việc nhóm."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần và thống nhất phương hướng hoạt động tuần 12.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS nhận xét, tổng kết được hoạt động trong tuần và thống nhất phương hướng hoạt động tuần 12.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -4537,7 +4274,6 @@
               "- HS lắng nghe, rút kinh nghiệm, vỗ tay chúc mừng các bạn được tuyên dương."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 12",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 12"
             ],
             [
@@ -4549,11 +4285,9 @@
               "- HS tiếp nhận, tự nhắc việc và cam kết hoàn thành nhiệm vụ."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được lí do, kế hoạch và quá trình thực hiện sản phẩm tri ân thầy cô; biết tôn trọng ý kiến của bạn khi cùng làm sản phẩm.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được lí do, kế hoạch và quá trình thực hiện sản phẩm tri ân thầy cô; biết tôn trọng ý kiến của bạn khi cùng làm sản phẩm.\n* Cách tiến hành:"
             ],
             [
-              "Chia sẻ về kế hoạch và quá trình thực hiện sản phẩm tri ân thầy cô",
               "Chia sẻ về kế hoạch và quá trình thực hiện sản phẩm tri ân thầy cô"
             ],
             [
@@ -4577,11 +4311,9 @@
               "- HS lắng nghe, ghi nhớ và chuẩn bị hoàn thiện sản phẩm."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS hoàn thiện, trưng bày, giới thiệu và đánh giá sản phẩm tri ân thầy cô; biết ứng dụng công cụ số đơn giản để chỉnh sửa thiệp/poster số khi phù hợp.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS hoàn thiện, trưng bày, giới thiệu và đánh giá sản phẩm tri ân thầy cô; biết ứng dụng công cụ số đơn giản để chỉnh sửa thiệp/poster số khi phù hợp.\n* Cách tiến hành:"
             ],
             [
-              "Làm sản phẩm tri ân thầy cô",
               "Làm sản phẩm tri ân thầy cô"
             ],
             [
@@ -4601,7 +4333,6 @@
               "- HS giới thiệu sản phẩm và nêu: thầy cô sẽ vui, xúc động, hạnh phúc, tự hào vì học sinh biết cố gắng và biết tri ân."
             ],
             [
-              "Đánh giá kết quả tham gia làm sản phẩm tri ân thầy cô",
               "Đánh giá kết quả tham gia làm sản phẩm tri ân thầy cô"
             ],
             [
@@ -4617,7 +4348,6 @@
               "- HS lắng nghe, tự hào về sản phẩm của lớp và biết trân trọng công sức của bạn."
             ],
             [
-              "5. VẬN DỤNG\nMục tiêu: HS chuẩn bị được nội dung báo cáo kết quả tổ chức sự kiện về truyền thống tôn sư trọng đạo của cá nhân và tập thể lớp.\n* Cách tiến hành:",
               "5. VẬN DỤNG\nMục tiêu: HS chuẩn bị được nội dung báo cáo kết quả tổ chức sự kiện về truyền thống tôn sư trọng đạo của cá nhân và tập thể lớp.\n* Cách tiến hành:"
             ],
             [
@@ -4630,7 +4360,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 11: TIẾT 3 - SINH HOẠT LỚP: SẢN PHẨM TRI ÂN THẦY CÔ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -4639,9 +4372,8 @@
     "sourceFile": "HĐTN TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 12: TIẾT 1 - SINH HOẠT DƯỚI CỜ: LỄ KỈ NIỆM NGÀY NHÀ GIÁO VIỆT NAM 20-11",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 12",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: LỄ KỈ NIỆM NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tham gia nghiêm túc Lễ kỉ niệm ngày Nhà giáo Việt Nam 20-11 theo kế hoạch của nhà trường.",
           "- HS biết quan sát, lắng nghe phần báo cáo kết quả tổ chức sự kiện về truyền thống tôn sư trọng đạo.",
@@ -4660,10 +4392,6 @@
           "- HS: Trang phục gọn gàng; sản phẩm tri ân của cá nhân/nhóm/lớp; lời giới thiệu ngắn; tâm thế trang trọng, biết lắng nghe và cổ vũ văn minh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4671,7 +4399,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC LỄ KỈ NIỆM\nMục tiêu: HS ổn định đội hình, chuẩn bị sản phẩm và nắm nhiệm vụ quan sát trong Lễ kỉ niệm ngày Nhà giáo Việt Nam 20-11.\n* Cách tiến hành:",
               "1. TRƯỚC LỄ KỈ NIỆM\nMục tiêu: HS ổn định đội hình, chuẩn bị sản phẩm và nắm nhiệm vụ quan sát trong Lễ kỉ niệm ngày Nhà giáo Việt Nam 20-11.\n* Cách tiến hành:"
             ],
             [
@@ -4687,11 +4414,9 @@
               "- HS thống nhất thực hiện: đi theo hàng, quan sát lịch sự, không chen lấn và tôn trọng sản phẩm của các lớp."
             ],
             [
-              "2. TRONG LỄ KỈ NIỆM\nMục tiêu: HS tham gia đầy đủ chương trình, biết lắng nghe báo cáo và cảm nhận được ý nghĩa của truyền thống tôn sư trọng đạo.\n* Cách tiến hành:",
               "2. TRONG LỄ KỈ NIỆM\nMục tiêu: HS tham gia đầy đủ chương trình, biết lắng nghe báo cáo và cảm nhận được ý nghĩa của truyền thống tôn sư trọng đạo.\n* Cách tiến hành:"
             ],
             [
-              "Báo cáo kết quả tổ chức sự kiện về truyền thống tôn sư trọng đạo",
               "Báo cáo kết quả tổ chức sự kiện về truyền thống tôn sư trọng đạo"
             ],
             [
@@ -4707,7 +4432,6 @@
               "- HS nêu: làm báo tường, thiệp tri ân, văn nghệ chào mừng, viết thư cảm ơn, trưng bày sản phẩm, giữ lớp học sạch đẹp để chào mừng thầy cô."
             ],
             [
-              "Trưng bày và giới thiệu sản phẩm tri ân thầy cô",
               "Trưng bày và giới thiệu sản phẩm tri ân thầy cô"
             ],
             [
@@ -4719,7 +4443,6 @@
               "- HS trả lời: Em ấn tượng với báo tường vì trình bày đẹp; em thích tấm thiệp vì lời chúc chân thành; em thích tranh vẽ vì thể hiện sự biết ơn thầy cô."
             ],
             [
-              "Kết luận",
               "Kết luận"
             ],
             [
@@ -4727,7 +4450,6 @@
               "- HS lắng nghe, vỗ tay hưởng ứng và ghi nhớ ý nghĩa của hoạt động."
             ],
             [
-              "3. SAU LỄ KỈ NIỆM\nMục tiêu: HS chia sẻ được cảm xúc sau buổi lễ và lựa chọn một việc làm tiếp tục thể hiện lòng biết ơn thầy cô.\n* Cách tiến hành:",
               "3. SAU LỄ KỈ NIỆM\nMục tiêu: HS chia sẻ được cảm xúc sau buổi lễ và lựa chọn một việc làm tiếp tục thể hiện lòng biết ơn thầy cô.\n* Cách tiến hành:"
             ],
             [
@@ -4740,12 +4462,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 12: TIẾT 1 - SINH HOẠT DƯỚI CỜ: LỄ KỈ NIỆM NGÀY NHÀ GIÁO VIỆT NAM 20-11"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 12: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUẨN BỊ CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 12",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUẨN BỊ CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tổng kết được việc tham gia tổ chức sự kiện về truyền thống tôn sư trọng đạo.",
           "- HS chia sẻ được những khó khăn, cách vượt qua khó khăn và cảm xúc tích cực khi tham gia tổ chức sự kiện.",
@@ -4771,10 +4495,6 @@
           "- HS: Bìa màu hoặc giấy, bút màu, kéo; ý tưởng trang trí lớp; danh sách tiết mục văn nghệ; tinh thần hợp tác và sẵn sàng chia sẻ quá trình tham gia tổ chức sự kiện."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4782,11 +4502,9 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, chia sẻ hạnh phúc và gắn kết thầy trò trước khi tổng kết hoạt động chào mừng 20-11.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo cảm giác vui tươi, chia sẻ hạnh phúc và gắn kết thầy trò trước khi tổng kết hoạt động chào mừng 20-11.\n* Cách tiến hành:"
             ],
             [
-              "Nhảy một điệu nhảy dân vũ cùng thầy cô",
               "Nhảy một điệu nhảy dân vũ cùng thầy cô"
             ],
             [
@@ -4802,11 +4520,9 @@
               "- HS lắng nghe, ghi nhớ và sẵn sàng bước vào hoạt động chia sẻ."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS chia sẻ được quá trình tham gia tổ chức sự kiện, nhận xét kết quả đạt được và biết đề xuất việc làm để tổ chức hoạt động hiệu quả hơn.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS chia sẻ được quá trình tham gia tổ chức sự kiện, nhận xét kết quả đạt được và biết đề xuất việc làm để tổ chức hoạt động hiệu quả hơn.\n* Cách tiến hành:"
             ],
             [
-              "Chia sẻ về quá trình tham gia tổ chức sự kiện về truyền thống tôn sư trọng đạo",
               "Chia sẻ về quá trình tham gia tổ chức sự kiện về truyền thống tôn sư trọng đạo"
             ],
             [
@@ -4834,7 +4550,6 @@
               "- HS lắng nghe, ghi nhớ các việc cần làm của ban tổ chức và rút kinh nghiệm cho hoạt động tiếp theo."
             ],
             [
-              "Trang trí lớp học để chào mừng ngày Nhà giáo Việt Nam 20-11",
               "Trang trí lớp học để chào mừng ngày Nhà giáo Việt Nam 20-11"
             ],
             [
@@ -4858,7 +4573,6 @@
               "- HS lắng nghe, tự hào về phần việc của nhóm và tiếp tục hoàn thiện kế hoạch."
             ],
             [
-              "3. CAM KẾT HÀNH ĐỘNG - VẬN DỤNG\nMục tiêu: HS xác định được việc cần chuẩn bị tiếp theo để hoàn thiện hoạt động chào mừng ngày Nhà giáo Việt Nam 20-11.\n* Cách tiến hành:",
               "3. CAM KẾT HÀNH ĐỘNG - VẬN DỤNG\nMục tiêu: HS xác định được việc cần chuẩn bị tiếp theo để hoàn thiện hoạt động chào mừng ngày Nhà giáo Việt Nam 20-11.\n* Cách tiến hành:"
             ],
             [
@@ -4871,12 +4585,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 12: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUẨN BỊ CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 12: TIẾT 3 - SINH HOẠT LỚP: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 12",
+        "lessonTitle": "SINH HOẠT LỚP: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS chung tay tổ chức được một ngày hội chúc mừng thầy cô trong phạm vi lớp học.",
           "- HS biết biểu diễn văn nghệ, tâm sự cùng thầy cô và nói lời tri ân thầy cô bằng thái độ chân thành.",
@@ -4902,10 +4618,6 @@
           "- HS: Lời tri ân, tiết mục văn nghệ, sản phẩm tri ân, ảnh/video hoạt động của lớp nếu có, tâm thế vui tươi và lễ phép."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4913,7 +4625,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui tươi, thân thiện trước khi tổ chức ngày hội tri ân thầy cô trong lớp.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui tươi, thân thiện trước khi tổ chức ngày hội tri ân thầy cô trong lớp.\n* Cách tiến hành:"
             ],
             [
@@ -4929,11 +4640,9 @@
               "- HS lắng nghe, chuẩn bị sản phẩm, tiết mục và tinh thần tham gia ngày hội."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS tổng kết được hoạt động trong tuần, nhận xét việc chuẩn bị chào mừng 20-11 và thống nhất phương hướng tuần 13.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS tổng kết được hoạt động trong tuần, nhận xét việc chuẩn bị chào mừng 20-11 và thống nhất phương hướng tuần 13.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN",
               "2.1. TỔNG KẾT CÁC HOẠT ĐỘNG TRONG TUẦN"
             ],
             [
@@ -4949,7 +4658,6 @@
               "- HS lắng nghe, rút kinh nghiệm, vỗ tay chúc mừng các bạn được tuyên dương."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 13",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 13"
             ],
             [
@@ -4961,11 +4669,9 @@
               "- HS tiếp nhận, cam kết tiếp tục thể hiện lòng biết ơn thầy cô bằng hành động hằng ngày."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả chuẩn bị hoạt động chào mừng 20-11 và tôn trọng phần tham gia của từng bạn.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả chuẩn bị hoạt động chào mừng 20-11 và tôn trọng phần tham gia của từng bạn.\n* Cách tiến hành:"
             ],
             [
-              "Chia sẻ kết quả chuẩn bị ngày hội tri ân thầy cô",
               "Chia sẻ kết quả chuẩn bị ngày hội tri ân thầy cô"
             ],
             [
@@ -4985,11 +4691,9 @@
               "- HS ghi nhớ, thể hiện thái độ tích cực trước khi bước vào phần thực hành."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS chung tay tổ chức ngày hội chúc mừng thầy cô, biết biểu diễn, tâm sự và nói lời tri ân thầy cô.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS chung tay tổ chức ngày hội chúc mừng thầy cô, biết biểu diễn, tâm sự và nói lời tri ân thầy cô.\n* Cách tiến hành:"
             ],
             [
-              "Tri ân thầy cô nhân ngày Nhà giáo Việt Nam 20-11",
               "Tri ân thầy cô nhân ngày Nhà giáo Việt Nam 20-11"
             ],
             [
@@ -5021,11 +4725,9 @@
               "- HS lắng nghe, vỗ tay, tự hào về ngày hội của lớp."
             ],
             [
-              "5. ĐÁNH GIÁ VÀ VẬN DỤNG\nMục tiêu: HS tự đánh giá sau chủ đề Tôn sư trọng đạo và lựa chọn hoạt động chung tiếp tục thực hiện cùng thầy cô.\n* Cách tiến hành:",
               "5. ĐÁNH GIÁ VÀ VẬN DỤNG\nMục tiêu: HS tự đánh giá sau chủ đề Tôn sư trọng đạo và lựa chọn hoạt động chung tiếp tục thực hiện cùng thầy cô.\n* Cách tiến hành:"
             ],
             [
-              "Tự đánh giá sau chủ đề Tôn sư trọng đạo",
               "Tự đánh giá sau chủ đề Tôn sư trọng đạo"
             ],
             [
@@ -5046,7 +4748,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 12: TIẾT 3 - SINH HOẠT LỚP: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -5055,9 +4760,8 @@
     "sourceFile": "HĐTN TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 13: TIẾT 1\nSINH HOẠT DƯỚI CỜ: CHỦ ĐỘNG THAM GIA TIẾT KIỆM CHI TIÊU",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 13",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia hoặc lắng nghe các chia sẻ về những việc có thể làm để tiết kiệm chi tiêu trong gia đình.",
@@ -5078,10 +4782,6 @@
           "- HS: Trang phục gọn gàng; chuẩn bị một việc làm tiết kiệm chi tiêu mà em có thể thực hiện trong gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5089,7 +4789,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động về tiết kiệm chi tiêu.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động về tiết kiệm chi tiêu.\n* Cách tiến hành:"
             ],
             [
@@ -5105,7 +4804,6 @@
               "- HS ghi nhớ cách tham gia giao lưu, sẵn sàng chia sẻ ý kiến."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoặc lắng nghe chia sẻ về tiết kiệm chi tiêu và biết nêu việc làm phù hợp với bản thân.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoặc lắng nghe chia sẻ về tiết kiệm chi tiêu và biết nêu việc làm phù hợp với bản thân.\n* Cách tiến hành:"
             ],
             [
@@ -5129,7 +4827,6 @@
               "- HS chia sẻ: Em muốn tự chuẩn bị đồ dùng học tập cẩn thận, không làm mất bút thước; em muốn nhắc người thân tắt điện, tắt quạt khi không sử dụng."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS lựa chọn được một hành động tiết kiệm chi tiêu để thực hiện trong tuần.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS lựa chọn được một hành động tiết kiệm chi tiêu để thực hiện trong tuần.\n* Cách tiến hành:"
             ],
             [
@@ -5146,12 +4843,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 13: TIẾT 1\nSINH HOẠT DƯỚI CỜ: CHỦ ĐỘNG THAM GIA TIẾT KIỆM CHI TIÊU"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 13: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỔ TAY GHI CHÉP CHI TIÊU TRONG GIA ĐÌNH",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 13",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS biết chia sẻ cách ghi chép chi tiêu trong gia đình và nêu được điểm giống, khác nhau giữa các cách ghi chép.",
@@ -5175,10 +4874,6 @@
           "- HS: Sưu tầm hóa đơn, biên lai của gia đình; chuẩn bị sổ ghi chép hoặc giấy nháp để thực hành."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5186,7 +4881,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG - KẾT NỐI VỚI KINH NGHIỆM ĐÃ CÓ\nMục tiêu: HS chia sẻ được kinh nghiệm hoặc hiểu biết về cách ghi chép chi tiêu trong gia đình.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG - KẾT NỐI VỚI KINH NGHIỆM ĐÃ CÓ\nMục tiêu: HS chia sẻ được kinh nghiệm hoặc hiểu biết về cách ghi chép chi tiêu trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -5206,7 +4900,6 @@
               "- HS lắng nghe, ghi nhớ vai trò của việc ghi chép chi tiêu."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS nêu được nội dung, hình thức ghi chép chi tiêu và những điều cần lưu ý khi ghi chép.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ\nMục tiêu: HS nêu được nội dung, hình thức ghi chép chi tiêu và những điều cần lưu ý khi ghi chép.\n* Cách tiến hành:"
             ],
             [
@@ -5254,7 +4947,6 @@
               "- HS ghi nhớ nội dung, hình thức và lưu ý khi ghi chép chi tiêu."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS thực hành ghi chép một số khoản chi tiêu của gia đình theo hình thức phù hợp.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI\nMục tiêu: HS thực hành ghi chép một số khoản chi tiêu của gia đình theo hình thức phù hợp.\n* Cách tiến hành:"
             ],
             [
@@ -5306,7 +4998,6 @@
               "- HS lắng nghe và hoàn thiện sản phẩm."
             ],
             [
-              "4. CAM KẾT HÀNH ĐỘNG - VẬN DỤNG\nMục tiêu: HS lựa chọn được cách ghi chép chi tiêu phù hợp để cùng người thân thực hiện trong tuần.\n* Cách tiến hành:",
               "4. CAM KẾT HÀNH ĐỘNG - VẬN DỤNG\nMục tiêu: HS lựa chọn được cách ghi chép chi tiêu phù hợp để cùng người thân thực hiện trong tuần.\n* Cách tiến hành:"
             ],
             [
@@ -5319,12 +5010,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 13: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỔ TAY GHI CHÉP CHI TIÊU TRONG GIA ĐÌNH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 13: TIẾT 3\nSINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ SỔ TAY GHI CHÉP CHI TIÊU TRONG GIA ĐÌNH",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 13",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS chia sẻ được kết quả thực hiện ghi chép chi tiêu trong gia đình.",
@@ -5348,10 +5041,6 @@
           "- HS: Sổ tay ghi chép chi tiêu gia đình; phiếu chi, hóa đơn, biên lai các khoản chi đã thu thập được."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5359,7 +5048,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: HS tạo tâm thế thoải mái, sẵn sàng chia sẻ kết quả thực hiện nhiệm vụ ghi chép chi tiêu trong gia đình.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: HS tạo tâm thế thoải mái, sẵn sàng chia sẻ kết quả thực hiện nhiệm vụ ghi chép chi tiêu trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -5371,7 +5059,6 @@
               "- HS trả lời: Vì mỗi gia đình có nhu cầu, số thành viên, điều kiện và kế hoạch chi tiêu khác nhau."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS biết tự đánh giá nền nếp tuần qua và thống nhất phương hướng hoạt động tuần tiếp theo.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS biết tự đánh giá nền nếp tuần qua và thống nhất phương hướng hoạt động tuần tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -5399,7 +5086,6 @@
               "- HS thống nhất phương hướng và cam kết thực hiện."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả ghi chép chi tiêu trong gia đình và nhận ra tác dụng của sổ ghi chép chi tiêu.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả ghi chép chi tiêu trong gia đình và nhận ra tác dụng của sổ ghi chép chi tiêu.\n* Cách tiến hành:"
             ],
             [
@@ -5447,7 +5133,6 @@
               "- HS lắng nghe câu chốt và rút kinh nghiệm."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS thực hành kĩ năng ghi chép, bước đầu biết phân loại khoản chi vào các mục phù hợp.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS thực hành kĩ năng ghi chép, bước đầu biết phân loại khoản chi vào các mục phù hợp.\n* Cách tiến hành:"
             ],
             [
@@ -5504,7 +5189,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 13: TIẾT 3\nSINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ SỔ TAY GHI CHÉP CHI TIÊU TRONG GIA ĐÌNH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -5513,9 +5201,8 @@
     "sourceFile": "HĐTN TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 14: TIẾT 1\nSINH HOẠT DƯỚI CỜ: PHÁT TRIỂN THƯ VIỆN",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 14",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia hoặc lắng nghe giới thiệu những cuốn sách cần bổ sung cho thư viện nhà trường và gia đình.",
@@ -5536,10 +5223,6 @@
           "- HS: Trang phục gọn gàng; chuẩn bị một cuốn sách em yêu thích hoặc một ý tưởng phát triển thư viện để chia sẻ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5547,7 +5230,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động phát triển thư viện.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động phát triển thư viện.\n* Cách tiến hành:"
             ],
             [
@@ -5559,7 +5241,6 @@
               "- HS ghi nhớ cách tham gia hoạt động: lắng nghe, giơ tay phát biểu, cổ vũ văn minh và bảo quản sách."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoặc lắng nghe giới thiệu sách, hiểu ý nghĩa của việc bổ sung sách cho thư viện.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoặc lắng nghe giới thiệu sách, hiểu ý nghĩa của việc bổ sung sách cho thư viện.\n* Cách tiến hành:"
             ],
             [
@@ -5575,7 +5256,6 @@
               "- HS chia sẻ: Em có thể tặng sách cũ còn tốt, giữ gìn sách khi mượn, giới thiệu sách hay cho bạn, cùng lớp sắp xếp tủ sách gọn gàng."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS lựa chọn được một việc làm cụ thể để góp phần phát triển thư viện.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS lựa chọn được một việc làm cụ thể để góp phần phát triển thư viện.\n* Cách tiến hành:"
             ],
             [
@@ -5588,12 +5268,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 14: TIẾT 1\nSINH HOẠT DƯỚI CỜ: PHÁT TRIỂN THƯ VIỆN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 14: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: Ý TƯỞNG KINH DOANH",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 14",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS hiểu nội dung ý tưởng kinh doanh và biết cách xác định ý tưởng kinh doanh.",
@@ -5609,7 +5291,9 @@
           "- Chăm chỉ: Tích cực tham gia thảo luận, hoàn thiện ý tưởng và phiếu khảo sát của nhóm.",
           "4. Tích hợp",
           "- Tích hợp AI (5.D1.1): Hiểu rằng bước thu thập dữ liệu (khảo sát) là khâu quan trọng nhất để huấn luyện AI đưa ra phản hồi chính xác.",
-          "- Tích hợp QCN: HS biết khi khảo sát nhu cầu khách hàng cần tôn trọng người được hỏi, không ép buộc trả lời, không hỏi thông tin riêng tư không cần thiết và ghi nhận ý kiến trung thực."
+          "- Tích hợp QCN: HS biết khi khảo sát nhu cầu khách hàng cần tôn trọng người được hỏi, không ép buộc trả lời, không hỏi thông tin riêng tư không cần thiết và ghi nhận ý kiến trung thực.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Xây dựng và thực hành kế hoạch 'Gia đình em tiết kiệm nước sạch - Tiết kiệm chi tiêu' (tính toán hóa đơn tiền nước, kiểm tra đường ống tránh rò rỉ, tái sử dụng nước an toàn để giảm chi phí sinh hoạt gia đình).",
+          "- Giáo dục địa phương: Gắn bài học với lối sống cần kiệm, tương thân tương ái và ý thức bảo vệ tài nguyên thiên nhiên của người dân quê hương Trà Vinh."
         ],
         "dodung": [
           "- GV: Tranh minh họa trong SGK Hoạt động trải nghiệm 5; phiếu khảo sát nhu cầu khách hàng tham gia hội chợ; video hoặc hình ảnh về sản phẩm kinh doanh, dịch vụ.",
@@ -5617,10 +5301,6 @@
           "- HS: Chuẩn bị một ý tưởng sản phẩm hoặc dịch vụ em muốn kinh doanh; giấy nháp, bút viết để thảo luận nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5628,7 +5308,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG - KẾT NỐI VỚI KINH NGHIỆM ĐÃ CÓ\nMục tiêu: HS tạo không khí sôi nổi, bước đầu nhận biết vai trò của sản phẩm, thương hiệu và doanh nhân trong kinh doanh.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG - KẾT NỐI VỚI KINH NGHIỆM ĐÃ CÓ\nMục tiêu: HS tạo không khí sôi nổi, bước đầu nhận biết vai trò của sản phẩm, thương hiệu và doanh nhân trong kinh doanh.\n* Cách tiến hành:"
             ],
             [
@@ -5644,7 +5323,6 @@
               "- HS lắng nghe, hiểu khái niệm bước đầu về doanh nhân và kinh doanh."
             ],
             [
-              "2. KHÁM PHÁ CHỦ ĐỀ\nMục tiêu: HS nêu được ý tưởng kinh doanh cá nhân và lí do lựa chọn ý tưởng đó.\n* Cách tiến hành:",
               "2. KHÁM PHÁ CHỦ ĐỀ\nMục tiêu: HS nêu được ý tưởng kinh doanh cá nhân và lí do lựa chọn ý tưởng đó.\n* Cách tiến hành:"
             ],
             [
@@ -5672,7 +5350,6 @@
               "- HS lắng nghe và điều chỉnh ý tưởng của mình cho phù hợp hơn."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH\nMục tiêu: HS làm việc nhóm để thống nhất ý tưởng kinh doanh chung và bước đầu xây dựng phiếu khảo sát nhu cầu khách hàng.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH\nMục tiêu: HS làm việc nhóm để thống nhất ý tưởng kinh doanh chung và bước đầu xây dựng phiếu khảo sát nhu cầu khách hàng.\n* Cách tiến hành:"
             ],
             [
@@ -5692,21 +5369,26 @@
               "- HS lắng nghe, rà soát lại phiếu khảo sát của nhóm."
             ],
             [
-              "4. CAM KẾT HÀNH ĐỘNG - VẬN DỤNG\nMục tiêu: HS biết hoàn thiện phiếu khảo sát và cam kết thực hiện khảo sát tôn trọng, trung thực.\n* Cách tiến hành:",
               "4. CAM KẾT HÀNH ĐỘNG - VẬN DỤNG\nMục tiêu: HS biết hoàn thiện phiếu khảo sát và cam kết thực hiện khảo sát tôn trọng, trung thực.\n* Cách tiến hành:"
             ],
             [
               "Tích hợp QCN:\n+ GV nhắc HS: Khi khảo sát nhu cầu khách hàng, mỗi người được hỏi có quyền đồng ý hoặc từ chối trả lời.\n+ GV hướng dẫn HS hỏi bằng thái độ lịch sự, không ép buộc, không làm phiền người đang bận.\n+ GV yêu cầu HS chỉ hỏi thông tin cần thiết cho sản phẩm, không hỏi thông tin riêng tư như địa chỉ nhà, số điện thoại cá nhân nếu không cần.\n+ GV nhấn mạnh HS phải ghi nhận ý kiến trung thực, không tự sửa câu trả lời để làm đẹp kết quả khảo sát.\n- GV khuyến khích HS tiếp tục hoàn thiện phiếu khảo sát nhu cầu khách hàng của nhóm.\n- GV giao nhiệm vụ: Các nhóm chuẩn bị sử dụng phiếu khảo sát trong tiết Sinh hoạt lớp để tìm hiểu nhu cầu khách hàng.",
               "- HS lắng nghe và nêu cách khảo sát lịch sự, tôn trọng người được hỏi.\n- HS nhận nhiệm vụ, phân công bạn kiểm tra lại câu hỏi, bạn chuẩn bị phiếu, bạn dự kiến đối tượng khảo sát.\n- HS cam kết thực hiện khảo sát trung thực, văn minh."
+            ],
+            [
+              "- Tích hợp Mizuiku & GDĐP: GV hướng dẫn HS liên hệ ý tưởng kinh doanh và chi tiêu thông minh với việc tiết kiệm nguồn nước trong gia đình: Phổ biến chiến dịch 'Gia đình em tiết kiệm nước sạch - Tiết kiệm chi tiêu' (kiểm tra khóa vòi nước tránh thất thoát nước sạch, tận dụng nước rửa rau/vo gạo để tưới cây, giúp tiết kiệm chi phí hóa đơn nước sinh hoạt); học tập nếp sống cần kiệm, biết chia sẻ của người dân Trà Vinh.",
+              "- HS thảo luận nhóm, ghi vào sổ tay kế hoạch chi tiêu gia đình việc thực hành tiết kiệm nước sạch hằng ngày; cam kết cùng người thân kiểm tra thiết bị dùng nước trong nhà để tránh lãng phí nước và tiền bạc."
             ]
           ]
         ],
-        "title": "TUẦN 14: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: Ý TƯỞNG KINH DOANH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 14: TIẾT 3\nSINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ Ý TƯỞNG KINH DOANH",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 14",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS chia sẻ được kết quả hoàn thiện phiếu khảo sát nhu cầu khách hàng.",
@@ -5730,10 +5412,6 @@
           "- HS: Phiếu khảo sát nhu cầu khách hàng đã hoàn thiện; bút viết; ý tưởng sản phẩm kinh doanh của nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5741,7 +5419,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: HS tạo tâm thế tích cực, sẵn sàng chia sẻ phiếu khảo sát và tham gia hoạt động khảo sát nhu cầu khách hàng.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: HS tạo tâm thế tích cực, sẵn sàng chia sẻ phiếu khảo sát và tham gia hoạt động khảo sát nhu cầu khách hàng.\n* Cách tiến hành:"
             ],
             [
@@ -5749,7 +5426,6 @@
               "- HS tham gia trò chơi: Với sản phẩm thiệp, có thể hỏi “Bạn thích thiệp màu gì?”, “Bạn muốn mua thiệp với giá bao nhiêu?”.\n- HS trả lời: Cần khảo sát để biết khách hàng có cần sản phẩm không, thích kiểu nào, giá bao nhiêu là phù hợp và có nên điều chỉnh sản phẩm không."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS biết tự đánh giá nền nếp tuần qua và thống nhất phương hướng hoạt động tuần tiếp theo.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS biết tự đánh giá nền nếp tuần qua và thống nhất phương hướng hoạt động tuần tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -5761,7 +5437,6 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ tuần 15.\n- HS thống nhất phương hướng và cam kết thực hiện."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được phiếu khảo sát đã hoàn thiện, nhận xét được mức độ rõ ràng, lịch sự và phù hợp của câu hỏi khảo sát.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được phiếu khảo sát đã hoàn thiện, nhận xét được mức độ rõ ràng, lịch sự và phù hợp của câu hỏi khảo sát.\n* Cách tiến hành:"
             ],
             [
@@ -5777,7 +5452,6 @@
               "- HS lắng nghe, điều chỉnh phiếu khảo sát trước khi thực hành khảo sát."
             ],
             [
-              "4. THỰC HÀNH\nMục tiêu: HS biết sử dụng phiếu khảo sát, tổng hợp và phân tích kết quả khảo sát nhu cầu khách hàng.\n* Cách tiến hành:",
               "4. THỰC HÀNH\nMục tiêu: HS biết sử dụng phiếu khảo sát, tổng hợp và phân tích kết quả khảo sát nhu cầu khách hàng.\n* Cách tiến hành:"
             ],
             [
@@ -5806,7 +5480,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 14: TIẾT 3\nSINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ Ý TƯỞNG KINH DOANH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -5815,9 +5492,8 @@
     "sourceFile": "HĐTN TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 15: TIẾT 1\nSINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY THÀNH LẬP QUÂN ĐỘI NHÂN DÂN VIỆT NAM 22-12",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 15",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động chào mừng ngày thành lập Quân đội nhân dân Việt Nam 22-12 theo kế hoạch của nhà trường.",
@@ -5837,10 +5513,6 @@
           "- HS: Trang phục gọn gàng; chuẩn bị một lời chúc hoặc việc làm thể hiện lòng biết ơn các chú bộ đội."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5848,7 +5520,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động chào mừng ngày 22-12.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động chào mừng ngày 22-12.\n* Cách tiến hành:"
             ],
             [
@@ -5864,7 +5535,6 @@
               "- HS ghi nhớ và thực hiện nề nếp tham gia sinh hoạt dưới cờ."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoạt động, hiểu ý nghĩa ngày thành lập Quân đội nhân dân Việt Nam 22-12.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoạt động, hiểu ý nghĩa ngày thành lập Quân đội nhân dân Việt Nam 22-12.\n* Cách tiến hành:"
             ],
             [
@@ -5884,7 +5554,6 @@
               "- HS chia sẻ: Em chúc các chú bộ đội mạnh khỏe; em sẽ học tốt, giữ gìn nề nếp, tham gia chăm sóc công trình măng non của lớp."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS biết liên hệ hoạt động với việc rèn luyện bản thân trong học tập và sinh hoạt.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS biết liên hệ hoạt động với việc rèn luyện bản thân trong học tập và sinh hoạt.\n* Cách tiến hành:"
             ],
             [
@@ -5901,12 +5570,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 15: TIẾT 1\nSINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY THÀNH LẬP QUÂN ĐỘI NHÂN DÂN VIỆT NAM 22-12"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 15: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VIỆC CẦN LÀM ĐỂ THỰC HIỆN KẾ HOẠCH KINH DOANH",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 15",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS xác định được những việc cần làm để thực hiện kế hoạch kinh doanh của nhóm/lớp.",
@@ -5921,17 +5592,15 @@
           "- Trung thực: Biết chia sẻ thông tin thật, trình bày kết quả đúng với việc đã thực hiện.",
           "- Nhân ái: Biết quan tâm, tôn trọng và hỗ trợ bạn trong quá trình hoạt động.",
           "4. Tích hợp",
-          "Tích hợp năng lực số 1.1.CB2a: Xác định được nhu cầu thông tin; học sinh biết chọn từ khóa đơn giản và tìm tư liệu số phù hợp để thu thập thông tin, đưa ra lựa chọn và lập kế hoạch chi tiêu phù hợp."
+          "Tích hợp năng lực số 1.1.CB2a: Xác định được nhu cầu thông tin; học sinh biết chọn từ khóa đơn giản và tìm tư liệu số phù hợp để thu thập thông tin, đưa ra lựa chọn và lập kế hoạch chi tiêu phù hợp.",
+          "- Giáo dục địa phương (Chủ đề 2, 4): Lập kế hoạch hoạt động về nguồn, tri ân: Thăm viếng Di tích lịch sử Đền thờ Bác Hồ (xã Long Đức, thành phố Trà Vinh) và Khu tưởng niệm đồng chí Phạm Thái Bường (xã An Trường, huyện Càng Long, Trà Vinh); bồi dưỡng niềm tự hào truyền thống cách mạng quê hương.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Tích cực tham gia dọn vệ sinh nguồn nước, ao hồ, khuôn viên cây xanh tại các khu di tích lịch sử ở địa phương."
         ],
         "dodung": [
           "- GV: Tranh SGK; phiếu lập kế hoạch kinh doanh; bảng nhóm; máy tính/điện thoại có kết nối Internet để minh họa cách tìm thông tin an toàn.",
           "- HS: Ý tưởng kinh doanh của nhóm; bút màu; thông tin đã khảo sát hoặc tư liệu về sản phẩm dự kiến kinh doanh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5939,7 +5608,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí học tập tích cực và gợi lại kinh nghiệm về ý tưởng kinh doanh đã học.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí học tập tích cực và gợi lại kinh nghiệm về ý tưởng kinh doanh đã học.\n* Cách tiến hành:"
             ],
             [
@@ -5955,7 +5623,6 @@
               "- HS lắng nghe và nêu tên hoạt động: Việc cần làm để thực hiện kế hoạch kinh doanh."
             ],
             [
-              "2. KHÁM PHÁ: XÁC ĐỊNH VIỆC CẦN LÀM ĐỂ THỰC HIỆN KẾ HOẠCH KINH DOANH\nMục tiêu: HS nêu được các việc cần chuẩn bị và biết phân công nhiệm vụ trong nhóm.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: XÁC ĐỊNH VIỆC CẦN LÀM ĐỂ THỰC HIỆN KẾ HOẠCH KINH DOANH\nMục tiêu: HS nêu được các việc cần chuẩn bị và biết phân công nhiệm vụ trong nhóm.\n* Cách tiến hành:"
             ],
             [
@@ -5983,7 +5650,6 @@
               "- HS lắng nghe, ghi nhớ các nội dung chính của kế hoạch kinh doanh."
             ],
             [
-              "3. MỞ RỘNG: TÌM HIỂU THÔNG TIN ĐỂ LẬP KẾ HOẠCH PHÙ HỢP\nMục tiêu: HS biết chọn từ khóa đơn giản và tìm tư liệu số phù hợp phục vụ kế hoạch kinh doanh.\n* Cách tiến hành:",
               "3. MỞ RỘNG: TÌM HIỂU THÔNG TIN ĐỂ LẬP KẾ HOẠCH PHÙ HỢP\nMục tiêu: HS biết chọn từ khóa đơn giản và tìm tư liệu số phù hợp phục vụ kế hoạch kinh doanh.\n* Cách tiến hành:"
             ],
             [
@@ -5999,7 +5665,6 @@
               "- HS điều chỉnh kế hoạch: chọn sản phẩm phù hợp, dự kiến nguyên liệu vừa sức, tính chi phí và cách bán hàng phù hợp."
             ],
             [
-              "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS xác định việc cần làm tiếp theo để chuẩn bị cho hoạt động kinh doanh của nhóm.\n* Cách tiến hành:",
               "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS xác định việc cần làm tiếp theo để chuẩn bị cho hoạt động kinh doanh của nhóm.\n* Cách tiến hành:"
             ],
             [
@@ -6013,15 +5678,21 @@
             [
               "- GV chốt: Muốn kinh doanh hiệu quả cần có kế hoạch cụ thể, thông tin phù hợp, phân công rõ ràng và tinh thần hợp tác.",
               "- HS nhắc lại nội dung chốt và ghi nhớ nhiệm vụ vận dụng."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 2, 4) & Mizuiku: GV hướng dẫn HS xây dựng kế hoạch trải nghiệm 'Hành trình về nguồn': Tìm hiểu và lên kế hoạch tham quan, dâng hương tại Đền thờ Bác Hồ (xã Long Đức, TP. Trà Vinh) và Khu tưởng niệm Bí thư Tỉnh ủy Phạm Thái Bường (Càng Long); lồng ghép hoạt động công ích: quét dọn khuôn viên di tích, giữ sạch ao hồ, nhặt rác bảo vệ cảnh quan và nguồn nước quanh khu di tích lịch sử.",
+              "- Các nhóm tiếp thu, bổ sung vào bản kế hoạch hoạt động về nguồn của lớp nội dung dọn dẹp vệ sinh khuôn viên, bảo vệ nguồn nước quanh Đền thờ Bác Hồ và các di tích lịch sử của tỉnh Trà Vinh."
             ]
           ]
         ],
-        "title": "TUẦN 15: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VIỆC CẦN LÀM ĐỂ THỰC HIỆN KẾ HOẠCH KINH DOANH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 15: TIẾT 3\nSINH HOẠT LỚP: KINH DOANH HIỆU QUẢ",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 15",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS biết tự đánh giá hoạt động trong tuần và nêu phương hướng hoạt động tuần tiếp theo.",
@@ -6043,10 +5714,6 @@
           "- HS: Kết quả tìm hiểu cách bán hàng hiệu quả; sản phẩm mẫu hoặc ý tưởng giới thiệu sản phẩm của nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6054,7 +5721,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí tích cực, giúp HS sẵn sàng chia sẻ kết quả tìm hiểu về kinh doanh hiệu quả.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí tích cực, giúp HS sẵn sàng chia sẻ kết quả tìm hiểu về kinh doanh hiệu quả.\n* Cách tiến hành:"
             ],
             [
@@ -6066,11 +5732,9 @@
               "- HS lắng nghe và chuẩn bị sinh hoạt lớp."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS biết tự đánh giá hoạt động tuần 15 và đề xuất phương hướng tuần 16.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS biết tự đánh giá hoạt động tuần 15 và đề xuất phương hướng tuần 16.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN"
             ],
             [
@@ -6098,7 +5762,6 @@
               "- HS lắng nghe và nhắc lại: Em cần đi học đúng giờ, hoàn thành nhiệm vụ nhóm, hợp tác và giữ vệ sinh lớp học."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG TUẦN 16",
               "2.2. PHƯƠNG HƯỚNG TUẦN 16"
             ],
             [
@@ -6122,7 +5785,6 @@
               "- HS thống nhất phương hướng và cam kết: Em sẽ hoàn thành nhiệm vụ được phân công, hợp tác với nhóm và chuẩn bị tốt cho hoạt động tuần 16."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả tìm hiểu cách bán hàng hiệu quả.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả tìm hiểu cách bán hàng hiệu quả.\n* Cách tiến hành:"
             ],
             [
@@ -6146,7 +5808,6 @@
               "- HS lắng nghe và nhắc lại câu chốt."
             ],
             [
-              "4. THỰC HÀNH: GIỚI THIỆU SẢN PHẨM VÀ CÁCH BÁN HÀNG\nMục tiêu: HS thực hành giới thiệu sản phẩm và lựa chọn cách bán hàng phù hợp.\n* Cách tiến hành:",
               "4. THỰC HÀNH: GIỚI THIỆU SẢN PHẨM VÀ CÁCH BÁN HÀNG\nMục tiêu: HS thực hành giới thiệu sản phẩm và lựa chọn cách bán hàng phù hợp.\n* Cách tiến hành:"
             ],
             [
@@ -6166,7 +5827,6 @@
               "- HS lắng nghe, chỉnh sửa lời giới thiệu sản phẩm của nhóm."
             ],
             [
-              "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS xác định việc cần hoàn thiện để chuẩn bị cho tuần tiếp theo.\n* Cách tiến hành:",
               "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS xác định việc cần hoàn thiện để chuẩn bị cho tuần tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -6179,7 +5839,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 15: TIẾT 3\nSINH HOẠT LỚP: KINH DOANH HIỆU QUẢ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -6188,9 +5851,8 @@
     "sourceFile": "HĐTN TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 16: TIẾT 1\nSINH HOẠT DƯỚI CỜ: XÂY DỰNG QUỸ NHÂN ÁI",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 16",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia hoặc lắng nghe hoạt động xây dựng Quỹ nhân ái theo kế hoạch của nhà trường.",
@@ -6210,10 +5872,6 @@
           "- HS: Trang phục gọn gàng; chuẩn bị ý tưởng hoặc việc làm nhỏ để chia sẻ với bạn khó khăn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6221,7 +5879,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động xây dựng Quỹ nhân ái.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động xây dựng Quỹ nhân ái.\n* Cách tiến hành:"
             ],
             [
@@ -6237,7 +5894,6 @@
               "- HS ghi nhớ: tham gia bằng tinh thần sẻ chia, tôn trọng và không chê bai bạn."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS hiểu mục đích xây dựng Quỹ nhân ái và biết cách tham gia phù hợp.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS hiểu mục đích xây dựng Quỹ nhân ái và biết cách tham gia phù hợp.\n* Cách tiến hành:"
             ],
             [
@@ -6257,7 +5913,6 @@
               "- HS chia sẻ: Em có thể tặng sách, tặng đồ dùng học tập còn tốt, giúp bạn học bài, động viên bạn khi gặp khó khăn."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS lựa chọn được một hành động nhân ái cụ thể để thực hiện trong tuần.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS lựa chọn được một hành động nhân ái cụ thể để thực hiện trong tuần.\n* Cách tiến hành:"
             ],
             [
@@ -6270,12 +5925,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 16: TIẾT 1\nSINH HOẠT DƯỚI CỜ: XÂY DỰNG QUỸ NHÂN ÁI"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 16: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: XÂY DỰNG KẾ HOẠCH KINH DOANH",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 16",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS xác định được nội dung cần có trong kế hoạch kinh doanh.",
@@ -6297,10 +5954,6 @@
           "- HS: Ý tưởng kinh doanh; thông tin về sản phẩm, nguyên liệu, giá bán; bút màu, giấy A0/A3."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6308,7 +5961,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Gợi lại những việc đã chuẩn bị và tạo tâm thế lập kế hoạch kinh doanh.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Gợi lại những việc đã chuẩn bị và tạo tâm thế lập kế hoạch kinh doanh.\n* Cách tiến hành:"
             ],
             [
@@ -6324,7 +5976,6 @@
               "- HS lắng nghe và chuẩn bị hoạt động nhóm."
             ],
             [
-              "2. KHÁM PHÁ: XÁC ĐỊNH NỘI DUNG CẦN CÓ TRONG KẾ HOẠCH KINH DOANH\nMục tiêu: HS xác định được các mục chính trong một kế hoạch kinh doanh.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: XÁC ĐỊNH NỘI DUNG CẦN CÓ TRONG KẾ HOẠCH KINH DOANH\nMục tiêu: HS xác định được các mục chính trong một kế hoạch kinh doanh.\n* Cách tiến hành:"
             ],
             [
@@ -6348,7 +5999,6 @@
               "- HS trả lời và điều chỉnh kế hoạch: sản phẩm là thiệp, đồ trang trí, món ăn nhẹ; khách hàng là học sinh, phụ huynh, thầy cô; nguyên liệu là giấy màu, bút, hộp đựng..."
             ],
             [
-              "3. MỞ RỘNG: HOÀN THIỆN KẾ HOẠCH BẰNG THÔNG TIN PHÙ HỢP\nMục tiêu: HS biết tìm, chọn và sử dụng tư liệu số phù hợp để hoàn thiện kế hoạch.\n* Cách tiến hành:",
               "3. MỞ RỘNG: HOÀN THIỆN KẾ HOẠCH BẰNG THÔNG TIN PHÙ HỢP\nMục tiêu: HS biết tìm, chọn và sử dụng tư liệu số phù hợp để hoàn thiện kế hoạch.\n* Cách tiến hành:"
             ],
             [
@@ -6368,7 +6018,6 @@
               "- HS lắng nghe và điều chỉnh kế hoạch nhóm."
             ],
             [
-              "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS thống nhất việc cần làm để chuẩn bị thực hiện kế hoạch kinh doanh.\n* Cách tiến hành:",
               "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS thống nhất việc cần làm để chuẩn bị thực hiện kế hoạch kinh doanh.\n* Cách tiến hành:"
             ],
             [
@@ -6385,12 +6034,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 16: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: XÂY DỰNG KẾ HOẠCH KINH DOANH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 16: TIẾT 3\nSINH HOẠT LỚP: KẾ HOẠCH KINH DOANH CỦA LỚP",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 16",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS biết tự đánh giá hoạt động tuần 16 và đề ra phương hướng tuần 17.",
@@ -6413,10 +6064,6 @@
           "- HS: Kế hoạch kinh doanh của nhóm; sản phẩm mẫu hoặc hình ảnh minh họa; ý kiến góp ý cho nhóm bạn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6424,7 +6071,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí tích cực, giúp HS sẵn sàng trình bày và góp ý kế hoạch kinh doanh.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí tích cực, giúp HS sẵn sàng trình bày và góp ý kế hoạch kinh doanh.\n* Cách tiến hành:"
             ],
             [
@@ -6436,11 +6082,9 @@
               "- HS lắng nghe và chuẩn bị trình bày kế hoạch."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS tổng kết hoạt động tuần 16 và thống nhất phương hướng tuần 17.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS tổng kết hoạt động tuần 16 và thống nhất phương hướng tuần 17.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN"
             ],
             [
@@ -6468,7 +6112,6 @@
               "- HS nhắc lại: Chúng em cần hoàn thiện chi phí, giá bán, phân công, lời giới thiệu và làm việc có trách nhiệm."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG TUẦN 17",
               "2.2. PHƯƠNG HƯỚNG TUẦN 17"
             ],
             [
@@ -6492,7 +6135,6 @@
               "- HS thống nhất phương hướng và cam kết thực hiện một việc làm cụ thể ở gia đình."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS trình bày và góp ý kế hoạch kinh doanh của nhóm/lớp.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS trình bày và góp ý kế hoạch kinh doanh của nhóm/lớp.\n* Cách tiến hành:"
             ],
             [
@@ -6512,7 +6154,6 @@
               "- HS ghi lại thông tin cần bổ sung, điều chỉnh kế hoạch và phân công bạn hoàn thiện bảng kế hoạch."
             ],
             [
-              "4. THỰC HÀNH: BÌNH CHỌN VÀ THỐNG NHẤT KẾ HOẠCH\nMục tiêu: HS biết lựa chọn kế hoạch phù hợp và thống nhất nhiệm vụ chung.\n* Cách tiến hành:",
               "4. THỰC HÀNH: BÌNH CHỌN VÀ THỐNG NHẤT KẾ HOẠCH\nMục tiêu: HS biết lựa chọn kế hoạch phù hợp và thống nhất nhiệm vụ chung.\n* Cách tiến hành:"
             ],
             [
@@ -6532,7 +6173,6 @@
               "- HS nhắc lại câu chốt và ghi nhớ nhiệm vụ."
             ],
             [
-              "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS xác định việc cần làm sau tiết học để chuẩn bị cho hoạt động chung.\n* Cách tiến hành:",
               "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS xác định việc cần làm sau tiết học để chuẩn bị cho hoạt động chung.\n* Cách tiến hành:"
             ],
             [
@@ -6545,7 +6185,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 16: TIẾT 3\nSINH HOẠT LỚP: KẾ HOẠCH KINH DOANH CỦA LỚP"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -6554,9 +6197,8 @@
     "sourceFile": "HĐTN TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 17: TIẾT 1\nSINH HOẠT DƯỚI CỜ: GIA ĐÌNH YÊU THƯƠNG",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 17",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia hoạt động về chủ đề Gia đình yêu thương theo kế hoạch của nhà trường.",
@@ -6576,10 +6218,6 @@
           "- HS: Chuẩn bị một câu nói hoặc việc làm thể hiện tình yêu thương với người thân."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6587,7 +6225,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia chủ đề Gia đình yêu thương.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia chủ đề Gia đình yêu thương.\n* Cách tiến hành:"
             ],
             [
@@ -6603,7 +6240,6 @@
               "- HS ghi nhớ thái độ lắng nghe, tôn trọng và chia sẻ."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS nhận biết được ý nghĩa của tình yêu thương và trách nhiệm trong gia đình.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS nhận biết được ý nghĩa của tình yêu thương và trách nhiệm trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -6623,7 +6259,6 @@
               "- HS chia sẻ: Em sẽ phụ mẹ dọn bàn ăn, hỏi thăm ông bà, giúp em học bài, nói lời cảm ơn cha mẹ."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS xác định được việc làm cụ thể để thể hiện tình yêu thương với gia đình.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS xác định được việc làm cụ thể để thể hiện tình yêu thương với gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -6640,12 +6275,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 17: TIẾT 1\nSINH HOẠT DƯỚI CỜ: GIA ĐÌNH YÊU THƯƠNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 17: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TRÁCH NHIỆM CỦA EM TRONG GIA ĐÌNH",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 17",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nêu được trách nhiệm của bản thân trong gia đình.",
@@ -6667,10 +6304,6 @@
           "- HS: Chuẩn bị chia sẻ về một việc em đã làm để giúp đỡ gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6678,7 +6311,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ về trách nhiệm của bản thân trong gia đình.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ về trách nhiệm của bản thân trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -6694,7 +6326,6 @@
               "- HS lắng nghe và chuẩn bị chia sẻ."
             ],
             [
-              "2. KHÁM PHÁ: TÌM HIỂU TRÁCH NHIỆM CỦA EM TRONG GIA ĐÌNH\nMục tiêu: HS xác định được các biểu hiện trách nhiệm của học sinh lớp 5 trong gia đình.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: TÌM HIỂU TRÁCH NHIỆM CỦA EM TRONG GIA ĐÌNH\nMục tiêu: HS xác định được các biểu hiện trách nhiệm của học sinh lớp 5 trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -6722,7 +6353,6 @@
               "- HS lắng nghe, ghi nhớ các biểu hiện trách nhiệm trong gia đình."
             ],
             [
-              "3. MỞ RỘNG: TÌM TƯ LIỆU VỀ VIỆC LÀM THỂ HIỆN TRÁCH NHIỆM\nMục tiêu: HS biết chọn từ khóa và tư liệu số phù hợp để học cách thể hiện tình yêu thương, trách nhiệm trong gia đình.\n* Cách tiến hành:",
               "3. MỞ RỘNG: TÌM TƯ LIỆU VỀ VIỆC LÀM THỂ HIỆN TRÁCH NHIỆM\nMục tiêu: HS biết chọn từ khóa và tư liệu số phù hợp để học cách thể hiện tình yêu thương, trách nhiệm trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -6738,7 +6368,6 @@
               "- HS lắng nghe, chọn việc làm phù hợp với bản thân."
             ],
             [
-              "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS lập được kế hoạch nhỏ để thực hiện trách nhiệm trong gia đình.\n* Cách tiến hành:",
               "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS lập được kế hoạch nhỏ để thực hiện trách nhiệm trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -6755,12 +6384,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 17: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TRÁCH NHIỆM CỦA EM TRONG GIA ĐÌNH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 17: TIẾT 3\nSINH HOẠT LỚP: NHỮNG VIỆC LÀM GÂY LÃNG PHÍ TRONG CUỘC SỐNG HẰNG NGÀY",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 17",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS biết tự đánh giá hoạt động tuần 17 và đề ra phương hướng tuần 18.",
@@ -6782,10 +6413,6 @@
           "- HS: Kết quả thực hiện kế hoạch “Một việc trách nhiệm trong tuần”; ví dụ về việc làm gây lãng phí mà em quan sát được."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6793,7 +6420,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí tích cực, giúp HS sẵn sàng chia sẻ về trách nhiệm và thói quen tiết kiệm trong gia đình.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí tích cực, giúp HS sẵn sàng chia sẻ về trách nhiệm và thói quen tiết kiệm trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -6805,11 +6431,9 @@
               "- HS lắng nghe, chuẩn bị chia sẻ."
             ],
             [
-              "2. SINH HOẠT LỚP\nMục tiêu: HS tổng kết hoạt động tuần 17 và thống nhất phương hướng tuần 18.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP\nMục tiêu: HS tổng kết hoạt động tuần 17 và thống nhất phương hướng tuần 18.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN"
             ],
             [
@@ -6837,7 +6461,6 @@
               "- HS nhắc lại: Em cần chăm học, giữ nền nếp, giúp việc nhà vừa sức và biết yêu thương người thân."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG TUẦN 18",
               "2.2. PHƯƠNG HƯỚNG TUẦN 18"
             ],
             [
@@ -6861,7 +6484,6 @@
               "- HS thống nhất phương hướng và cam kết thực hiện một việc làm biết ơn, một việc làm tiết kiệm trong tuần tới."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả thực hiện trách nhiệm trong gia đình.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả thực hiện trách nhiệm trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -6881,7 +6503,6 @@
               "- HS lắng nghe và ghi nhớ ý nghĩa của việc làm có trách nhiệm."
             ],
             [
-              "4. THỰC HÀNH: NHẬN DIỆN VIỆC LÀM GÂY LÃNG PHÍ\nMục tiêu: HS nhận diện và đề xuất cách khắc phục các việc làm gây lãng phí.\n* Cách tiến hành:",
               "4. THỰC HÀNH: NHẬN DIỆN VIỆC LÀM GÂY LÃNG PHÍ\nMục tiêu: HS nhận diện và đề xuất cách khắc phục các việc làm gây lãng phí.\n* Cách tiến hành:"
             ],
             [
@@ -6909,7 +6530,6 @@
               "- HS lắng nghe, nhắc lại câu chốt."
             ],
             [
-              "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS cam kết thực hiện một việc tiết kiệm, chống lãng phí trong gia đình.\n* Cách tiến hành:",
               "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS cam kết thực hiện một việc tiết kiệm, chống lãng phí trong gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -6922,7 +6542,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 17: TIẾT 3\nSINH HOẠT LỚP: NHỮNG VIỆC LÀM GÂY LÃNG PHÍ TRONG CUỘC SỐNG HẰNG NGÀY"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -6931,9 +6554,8 @@
     "sourceFile": "HĐTN TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 18: TIẾT 1\nSINH HOẠT DƯỚI CỜ: LÒNG BIẾT ƠN",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 18",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo kế hoạch của nhà trường.",
@@ -6953,10 +6575,6 @@
           "- HS: Trang phục gọn gàng; chuẩn bị một câu chuyện, một lời cảm ơn hoặc một việc làm thể hiện lòng biết ơn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6964,7 +6582,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động về lòng biết ơn.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động về lòng biết ơn.\n* Cách tiến hành:"
             ],
             [
@@ -6980,7 +6597,6 @@
               "- HS thực hiện đúng nền nếp, lắng nghe và tham gia tích cực."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoạt động, nhận biết ý nghĩa của lòng biết ơn và biết chia sẻ cảm xúc phù hợp.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoạt động, nhận biết ý nghĩa của lòng biết ơn và biết chia sẻ cảm xúc phù hợp.\n* Cách tiến hành:"
             ],
             [
@@ -7004,7 +6620,6 @@
               "- HS lắng nghe và ghi nhớ thông điệp."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS liên hệ được hoạt động với hành động cụ thể trong tuần.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS liên hệ được hoạt động với hành động cụ thể trong tuần.\n* Cách tiến hành:"
             ],
             [
@@ -7021,12 +6636,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 18: TIẾT 1\nSINH HOẠT DƯỚI CỜ: LÒNG BIẾT ƠN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 18: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIẾT ƠN NGƯỜI THÂN TRONG GIA ĐÌNH",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 18",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS chia sẻ được lòng biết ơn của mình với người thân trong gia đình.",
@@ -7049,10 +6666,6 @@
           "- HS: Kỉ niệm, câu chuyện, việc làm của người thân dành cho em; bút màu; ý tưởng làm thiệp hoặc quà nhỏ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7060,7 +6673,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui vẻ, dẫn dắt HS vào chủ đề biết ơn người thân.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui vẻ, dẫn dắt HS vào chủ đề biết ơn người thân.\n* Cách tiến hành:"
             ],
             [
@@ -7076,7 +6688,6 @@
               "- HS lắng nghe và chuẩn bị bước vào hoạt động chia sẻ."
             ],
             [
-              "2. KHÁM PHÁ: CHIA SẺ VỀ LÒNG BIẾT ƠN CỦA EM VỚI NGƯỜI THÂN\nMục tiêu: HS kể được những điều tốt đẹp người thân mang lại và nêu cách bày tỏ lòng biết ơn.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: CHIA SẺ VỀ LÒNG BIẾT ƠN CỦA EM VỚI NGƯỜI THÂN\nMục tiêu: HS kể được những điều tốt đẹp người thân mang lại và nêu cách bày tỏ lòng biết ơn.\n* Cách tiến hành:"
             ],
             [
@@ -7104,7 +6715,6 @@
               "- HS lắng nghe và ghi nhớ câu chốt."
             ],
             [
-              "3. MỞ RỘNG: XÁC ĐỊNH CÁCH THỂ HIỆN LÒNG BIẾT ƠN NGƯỜI THÂN\nMục tiêu: HS lựa chọn được cách thể hiện lòng biết ơn phù hợp với từng người thân.\n* Cách tiến hành:",
               "3. MỞ RỘNG: XÁC ĐỊNH CÁCH THỂ HIỆN LÒNG BIẾT ƠN NGƯỜI THÂN\nMục tiêu: HS lựa chọn được cách thể hiện lòng biết ơn phù hợp với từng người thân.\n* Cách tiến hành:"
             ],
             [
@@ -7132,7 +6742,6 @@
               "- HS lắng nghe và ghi nhớ."
             ],
             [
-              "4. THỰC HÀNH: VIẾT VIỆC EM DỰ ĐỊNH LÀM ĐỂ BÀY TỎ LÒNG BIẾT ƠN\nMục tiêu: HS viết được việc làm cụ thể để thực hiện trong thời gian tới.\n* Cách tiến hành:",
               "4. THỰC HÀNH: VIẾT VIỆC EM DỰ ĐỊNH LÀM ĐỂ BÀY TỎ LÒNG BIẾT ƠN\nMục tiêu: HS viết được việc làm cụ thể để thực hiện trong thời gian tới.\n* Cách tiến hành:"
             ],
             [
@@ -7157,12 +6766,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 18: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIẾT ƠN NGƯỜI THÂN TRONG GIA ĐÌNH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 18: TIẾT 3\nSINH HOẠT LỚP: THỂ HIỆN LÒNG BIẾT ƠN VỚI NGƯỜI THÂN",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 18",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS biết tổng kết hoạt động tuần 18 và thống nhất phương hướng tuần 19.",
@@ -7185,10 +6796,6 @@
           "- HS: Kết quả thực hiện việc bày tỏ lòng biết ơn; ảnh kỉ niệm gia đình (nếu được phép); nguyên liệu làm quà nhỏ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7196,7 +6803,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ về lòng biết ơn người thân.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ về lòng biết ơn người thân.\n* Cách tiến hành:"
             ],
             [
@@ -7208,11 +6814,9 @@
               "- HS lắng nghe, chuẩn bị chia sẻ."
             ],
             [
-              "2. SINH HOẠT LỚP",
               "2. SINH HOẠT LỚP"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN"
             ],
             [
@@ -7232,7 +6836,6 @@
               "- HS lắng nghe, vỗ tay tuyên dương bạn và tiếp thu điều cần điều chỉnh."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG TUẦN 19",
               "2.2. PHƯƠNG HƯỚNG TUẦN 19"
             ],
             [
@@ -7248,7 +6851,6 @@
               "- HS thống nhất phương hướng và cam kết thực hiện."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ kết quả đã làm để thể hiện lòng biết ơn và biết lắng nghe câu chuyện của bạn trong môi trường tôn trọng.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ kết quả đã làm để thể hiện lòng biết ơn và biết lắng nghe câu chuyện của bạn trong môi trường tôn trọng.\n* Cách tiến hành:"
             ],
             [
@@ -7268,7 +6870,6 @@
               "- HS lắng nghe và ghi nhớ."
             ],
             [
-              "4. THỰC HÀNH: LÀM MÓN QUÀ NHỎ ĐỂ BÀY TỎ LÒNG BIẾT ƠN\nMục tiêu: HS hoàn thành món quà nhỏ hoặc ý tưởng sản phẩm số tặng người thân.\n* Cách tiến hành:",
               "4. THỰC HÀNH: LÀM MÓN QUÀ NHỎ ĐỂ BÀY TỎ LÒNG BIẾT ƠN\nMục tiêu: HS hoàn thành món quà nhỏ hoặc ý tưởng sản phẩm số tặng người thân.\n* Cách tiến hành:"
             ],
             [
@@ -7296,7 +6897,6 @@
               "- HS lắng nghe và trân trọng sản phẩm của mình."
             ],
             [
-              "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS biết hoàn thiện, trao tặng món quà và ghi lại cảm xúc sau khi thực hiện.\n* Cách tiến hành:",
               "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS biết hoàn thiện, trao tặng món quà và ghi lại cảm xúc sau khi thực hiện.\n* Cách tiến hành:"
             ],
             [
@@ -7309,7 +6909,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 18: TIẾT 3\nSINH HOẠT LỚP: THỂ HIỆN LÒNG BIẾT ƠN VỚI NGƯỜI THÂN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -7318,9 +6921,8 @@
     "sourceFile": "HĐTN TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 19: TIẾT 1\nSINH HOẠT DƯỚI CỜ: TRÒ CHƠI VUI",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 19",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo kế hoạch của nhà trường.",
@@ -7340,10 +6942,6 @@
           "- HS: Trang phục gọn gàng; tâm thế vui vẻ; một ví dụ về trò chơi hoặc hoạt động gia đình em thích."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7351,7 +6949,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình và nắm nhiệm vụ quan sát các hoạt động tạo niềm vui, gắn kết.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình và nắm nhiệm vụ quan sát các hoạt động tạo niềm vui, gắn kết.\n* Cách tiến hành:"
             ],
             [
@@ -7367,7 +6964,6 @@
               "- HS ghi nhớ và thực hiện đúng yêu cầu."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia trò chơi vui, nhận biết ý nghĩa của hoạt động gắn kết tập thể.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia trò chơi vui, nhận biết ý nghĩa của hoạt động gắn kết tập thể.\n* Cách tiến hành:"
             ],
             [
@@ -7387,7 +6983,6 @@
               "- HS lắng nghe và ghi nhớ thông điệp."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS liên hệ hoạt động toàn trường với việc tạo bầu không khí gia đình đầm ấm.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS liên hệ hoạt động toàn trường với việc tạo bầu không khí gia đình đầm ấm.\n* Cách tiến hành:"
             ],
             [
@@ -7404,12 +6999,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 19: TIẾT 1\nSINH HOẠT DƯỚI CỜ: TRÒ CHƠI VUI"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 19: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIA ĐÌNH LÀ TỔ ẤM",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 19",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS chia sẻ được những điều tạo nên bầu không khí vui vẻ, đầm ấm trong gia đình.",
@@ -7432,10 +7029,6 @@
           "- HS: Kỉ niệm vui trong gia đình; ý tưởng hoạt động cùng gia đình chuẩn bị đón Tết."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7443,7 +7036,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo bầu không khí vui vẻ, dẫn dắt HS vào chủ đề Gia đình là tổ ấm.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo bầu không khí vui vẻ, dẫn dắt HS vào chủ đề Gia đình là tổ ấm.\n* Cách tiến hành:"
             ],
             [
@@ -7459,7 +7051,6 @@
               "- HS lắng nghe, chuẩn bị chia sẻ."
             ],
             [
-              "2. KHÁM PHÁ: TÌM HIỂU NHỮNG ĐIỀU TẠO NÊN KHÔNG KHÍ VUI VẺ, ĐẦM ẤM TRONG GIA ĐÌNH\nMục tiêu: HS nêu được những lời nói, việc làm, hoạt động tạo bầu không khí vui vẻ, đầm ấm.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: TÌM HIỂU NHỮNG ĐIỀU TẠO NÊN KHÔNG KHÍ VUI VẺ, ĐẦM ẤM TRONG GIA ĐÌNH\nMục tiêu: HS nêu được những lời nói, việc làm, hoạt động tạo bầu không khí vui vẻ, đầm ấm.\n* Cách tiến hành:"
             ],
             [
@@ -7483,7 +7074,6 @@
               "- HS lắng nghe, ghi nhớ câu chốt."
             ],
             [
-              "3. MỞ RỘNG: LẬP KẾ HOẠCH HOẠT ĐỘNG CÙNG GIA ĐÌNH CHUẨN BỊ ĐÓN TẾT\nMục tiêu: HS lập được kế hoạch hoạt động cùng gia đình phù hợp với điều kiện thực tế.\n* Cách tiến hành:",
               "3. MỞ RỘNG: LẬP KẾ HOẠCH HOẠT ĐỘNG CÙNG GIA ĐÌNH CHUẨN BỊ ĐÓN TẾT\nMục tiêu: HS lập được kế hoạch hoạt động cùng gia đình phù hợp với điều kiện thực tế.\n* Cách tiến hành:"
             ],
             [
@@ -7515,7 +7105,6 @@
               "- HS lắng nghe, ghi nhớ."
             ],
             [
-              "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS biết trao đổi với người thân và hoàn thiện kế hoạch đón Tết.\n* Cách tiến hành:",
               "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS biết trao đổi với người thân và hoàn thiện kế hoạch đón Tết.\n* Cách tiến hành:"
             ],
             [
@@ -7528,12 +7117,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 19: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIA ĐÌNH LÀ TỔ ẤM"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 19: TIẾT 3\nSINH HOẠT LỚP: VUN ĐẮP TÌNH CẢM GIA ĐÌNH",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 19",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS biết tổng kết hoạt động tuần 19 và thống nhất phương hướng tuần 20.",
@@ -7556,10 +7147,6 @@
           "- HS: Bản kế hoạch chuẩn bị đón Tết cùng gia đình; ý tưởng hoặc hình ảnh trang phục gia đình lựa chọn dịp Tết."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7567,7 +7154,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng chia sẻ kế hoạch gia đình.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng chia sẻ kế hoạch gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -7579,11 +7165,9 @@
               "- HS lắng nghe, chuẩn bị chia sẻ."
             ],
             [
-              "2. SINH HOẠT LỚP",
               "2. SINH HOẠT LỚP"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN"
             ],
             [
@@ -7603,7 +7187,6 @@
               "- HS lắng nghe, vỗ tay tuyên dương và tiếp thu góp ý."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG TUẦN 20",
               "2.2. PHƯƠNG HƯỚNG TUẦN 20"
             ],
             [
@@ -7619,7 +7202,6 @@
               "- HS thống nhất phương hướng và cam kết thực hiện."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ kế hoạch chuẩn bị đón Tết và biết dùng lời nói nhẹ nhàng để vun đắp tình cảm gia đình.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ kế hoạch chuẩn bị đón Tết và biết dùng lời nói nhẹ nhàng để vun đắp tình cảm gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -7639,7 +7221,6 @@
               "- HS lắng nghe và ghi nhớ."
             ],
             [
-              "4. THỰC HÀNH: LỰA CHỌN CÔNG NGHỆ SỐ ĐỂ KẾT NỐI NGƯỜI THÂN\nMục tiêu: HS biết chọn công cụ số phù hợp để giao tiếp với người thân ở xa.\n* Cách tiến hành:",
               "4. THỰC HÀNH: LỰA CHỌN CÔNG NGHỆ SỐ ĐỂ KẾT NỐI NGƯỜI THÂN\nMục tiêu: HS biết chọn công cụ số phù hợp để giao tiếp với người thân ở xa.\n* Cách tiến hành:"
             ],
             [
@@ -7659,7 +7240,6 @@
               "- HS lắng nghe, điều chỉnh lời nói và thái độ."
             ],
             [
-              "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS tiếp tục thực hiện kế hoạch và chuẩn bị ý tưởng hoạt động cuối tuần.\n* Cách tiến hành:",
               "5. TIẾP TỤC VẬN DỤNG\nMục tiêu: HS tiếp tục thực hiện kế hoạch và chuẩn bị ý tưởng hoạt động cuối tuần.\n* Cách tiến hành:"
             ],
             [
@@ -7672,7 +7252,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 19: TIẾT 3\nSINH HOẠT LỚP: VUN ĐẮP TÌNH CẢM GIA ĐÌNH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -7681,9 +7264,8 @@
     "sourceFile": "HĐTN TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 20: TIẾT 1\nSINH HOẠT DƯỚI CỜ: HỘI CHỢ CUỐI TUẦN VUI VẺ",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 20",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo kế hoạch của nhà trường.",
@@ -7703,10 +7285,6 @@
           "- HS: Trang phục gọn gàng; một ý tưởng hoạt động cuối tuần vui vẻ, tiết kiệm cùng gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7714,7 +7292,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình và nắm nhiệm vụ quan sát hoạt động hội chợ.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS ổn định đội hình và nắm nhiệm vụ quan sát hoạt động hội chợ.\n* Cách tiến hành:"
             ],
             [
@@ -7730,7 +7307,6 @@
               "- HS ghi nhớ và thực hiện nếp văn minh."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoạt động, nhận biết ý nghĩa của hội chợ và tinh thần vui vẻ, chia sẻ.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoạt động, nhận biết ý nghĩa của hội chợ và tinh thần vui vẻ, chia sẻ.\n* Cách tiến hành:"
             ],
             [
@@ -7750,7 +7326,6 @@
               "- HS lắng nghe và ghi nhớ."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS liên hệ với hoạt động cuối tuần cùng gia đình.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS liên hệ với hoạt động cuối tuần cùng gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -7767,12 +7342,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 20: TIẾT 1\nSINH HOẠT DƯỚI CỜ: HỘI CHỢ CUỐI TUẦN VUI VẺ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 20: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGÀY CUỐI TUẦN VUI VẺ, ĐẦM ẤM",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 20",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nêu được một số hoạt động có thể làm cùng gia đình vào ngày cuối tuần để tạo bầu không khí vui vẻ, đầm ấm.",
@@ -7795,10 +7372,6 @@
           "- HS: Ý tưởng hoạt động cuối tuần cùng gia đình; ví dụ khó khăn khi thuyết phục người thân tham gia."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7806,7 +7379,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui vẻ, dẫn dắt HS vào chủ đề ngày cuối tuần đầm ấm.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí vui vẻ, dẫn dắt HS vào chủ đề ngày cuối tuần đầm ấm.\n* Cách tiến hành:"
             ],
             [
@@ -7822,7 +7394,6 @@
               "- HS lắng nghe và chuẩn bị chia sẻ."
             ],
             [
-              "2. KHÁM PHÁ: TÌM HIỂU HOẠT ĐỘNG TẠO KHÔNG KHÍ VUI VẺ, ĐẦM ẤM VÀO NGÀY CUỐI TUẦN\nMục tiêu: HS nêu được hoạt động phù hợp có thể cùng gia đình thực hiện.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: TÌM HIỂU HOẠT ĐỘNG TẠO KHÔNG KHÍ VUI VẺ, ĐẦM ẤM VÀO NGÀY CUỐI TUẦN\nMục tiêu: HS nêu được hoạt động phù hợp có thể cùng gia đình thực hiện.\n* Cách tiến hành:"
             ],
             [
@@ -7846,7 +7417,6 @@
               "- HS lắng nghe và ghi nhớ."
             ],
             [
-              "3. MỞ RỘNG: SẮM VAI THUYẾT PHỤC NGƯỜI THÂN CÙNG THỰC HIỆN HOẠT ĐỘNG\nMục tiêu: HS biết trình bày lí do và thuyết phục người thân bằng lời nói lễ phép.\n* Cách tiến hành:",
               "3. MỞ RỘNG: SẮM VAI THUYẾT PHỤC NGƯỜI THÂN CÙNG THỰC HIỆN HOẠT ĐỘNG\nMục tiêu: HS biết trình bày lí do và thuyết phục người thân bằng lời nói lễ phép.\n* Cách tiến hành:"
             ],
             [
@@ -7878,7 +7448,6 @@
               "- HS lắng nghe, ghi nhớ cách thuyết phục."
             ],
             [
-              "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS cam kết thuyết phục người thân và ghi lại kết quả, cảm xúc.\n* Cách tiến hành:",
               "4. CAM KẾT HÀNH ĐỘNG\nMục tiêu: HS cam kết thuyết phục người thân và ghi lại kết quả, cảm xúc.\n* Cách tiến hành:"
             ],
             [
@@ -7891,12 +7460,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 20: TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGÀY CUỐI TUẦN VUI VẺ, ĐẦM ẤM"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 20: TIẾT 3\nSINH HOẠT LỚP: BUỔI TỐI NHÀ EM",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 20",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS biết tổng kết hoạt động tuần 20 và thống nhất phương hướng tuần 21.",
@@ -7919,10 +7490,6 @@
           "- HS: Kết quả thuyết phục người thân; câu chuyện về một buổi tối vui vẻ, đầm ấm trong gia đình; ý tưởng lập lịch cuối tuần."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7930,7 +7497,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ về buổi tối gia đình.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG\nMục tiêu: Tạo không khí thân thiện, giúp HS sẵn sàng chia sẻ về buổi tối gia đình.\n* Cách tiến hành:"
             ],
             [
@@ -7942,11 +7508,9 @@
               "- HS lắng nghe, chuẩn bị chia sẻ và sắm vai."
             ],
             [
-              "2. SINH HOẠT LỚP",
               "2. SINH HOẠT LỚP"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN"
             ],
             [
@@ -7966,7 +7530,6 @@
               "- HS lắng nghe, vỗ tay tuyên dương và tiếp thu góp ý."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG TUẦN 21",
               "2.2. PHƯƠNG HƯỚNG TUẦN 21"
             ],
             [
@@ -7982,7 +7545,6 @@
               "- HS thống nhất phương hướng và cam kết thực hiện."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ kết quả thuyết phục người thân cùng thực hiện hoạt động cuối tuần.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ kết quả thuyết phục người thân cùng thực hiện hoạt động cuối tuần.\n* Cách tiến hành:"
             ],
             [
@@ -8002,7 +7564,6 @@
               "- HS lắng nghe, ghi nhớ."
             ],
             [
-              "4. THỰC HÀNH: TRÌNH DIỄN TIỂU PHẨM “BUỔI TỐI NHÀ EM”\nMục tiêu: HS tái hiện được một buổi tối vui vẻ, đầm ấm trong gia đình qua tiểu phẩm.\n* Cách tiến hành:",
               "4. THỰC HÀNH: TRÌNH DIỄN TIỂU PHẨM “BUỔI TỐI NHÀ EM”\nMục tiêu: HS tái hiện được một buổi tối vui vẻ, đầm ấm trong gia đình qua tiểu phẩm.\n* Cách tiến hành:"
             ],
             [
@@ -8026,7 +7587,6 @@
               "- HS lắng nghe, ghi nhớ câu chốt."
             ],
             [
-              "5. TIẾP TỤC VẬN DỤNG: LẬP LỊCH HOẠT ĐỘNG CUỐI TUẦN CÙNG GIA ĐÌNH\nMục tiêu: HS biết sử dụng công cụ lịch số đơn giản để lập thời gian biểu hoạt động vui chơi cuối tuần.\n* Cách tiến hành:",
               "5. TIẾP TỤC VẬN DỤNG: LẬP LỊCH HOẠT ĐỘNG CUỐI TUẦN CÙNG GIA ĐÌNH\nMục tiêu: HS biết sử dụng công cụ lịch số đơn giản để lập thời gian biểu hoạt động vui chơi cuối tuần.\n* Cách tiến hành:"
             ],
             [
@@ -8042,7 +7602,6 @@
               "- HS ghi nhớ nhiệm vụ vận dụng."
             ],
             [
-              "6. TỰ ĐÁNH GIÁ SAU CHỦ ĐỀ\nMục tiêu: HS tự đánh giá kết quả rèn luyện trong chủ đề Gia đình đầm ấm.\n* Cách tiến hành:",
               "6. TỰ ĐÁNH GIÁ SAU CHỦ ĐỀ\nMục tiêu: HS tự đánh giá kết quả rèn luyện trong chủ đề Gia đình đầm ấm.\n* Cách tiến hành:"
             ],
             [
@@ -8059,7 +7618,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 20: TIẾT 3\nSINH HOẠT LỚP: BUỔI TỐI NHÀ EM"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -8068,9 +7630,8 @@
     "sourceFile": "HĐTN TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 21: TIẾT 1 - SINH HOẠT DƯỚI CỜ",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 21",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ - RÈN LUYỆN SỨC KHỎE - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động rèn luyện sức khỏe trong giờ sinh hoạt dưới cờ theo kế hoạch của nhà trường.",
@@ -8090,10 +7651,6 @@
           "- HS: Trang phục gọn gàng, giày dép phù hợp, tâm thế sẵn sàng tham gia rèn luyện sức khỏe."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8101,7 +7658,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động rèn luyện sức khỏe.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động rèn luyện sức khỏe.\n* Cách tiến hành:"
             ],
             [
@@ -8113,7 +7669,6 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ quan sát.\n- HS cam kết giữ an toàn cho bản thân và bạn khi tham gia hoạt động."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia đồng diễn bài thể dục toàn trường và trao đổi được về việc tự chủ rèn luyện thể chất để đảm bảo sức khỏe.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia đồng diễn bài thể dục toàn trường và trao đổi được về việc tự chủ rèn luyện thể chất để đảm bảo sức khỏe.\n* Cách tiến hành:"
             ],
             [
@@ -8137,7 +7692,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp.\n- HS thể hiện quyết tâm rèn luyện sức khỏe thường xuyên."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ cảm xúc sau hoạt động và lựa chọn một việc làm cụ thể để rèn luyện sức khỏe trong tuần.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ cảm xúc sau hoạt động và lựa chọn một việc làm cụ thể để rèn luyện sức khỏe trong tuần.\n* Cách tiến hành:"
             ],
             [
@@ -8150,12 +7704,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 21: TIẾT 1 - SINH HOẠT DƯỚI CỜ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 21: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 21",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - NHẬN DIỆN CÁC MÔI TRƯỜNG HỌC TẬP MỚI - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tìm hiểu được sự khác biệt giữa các môi trường học tập trong tương lai.",
@@ -8178,10 +7735,6 @@
           "- HS: Bút màu, giấy nháp, thông tin đã biết về một số môi trường học tập như trường trung học cơ sở, câu lạc bộ, học trực tuyến, học theo nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8189,7 +7742,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút) - Sáng tạo bài thể dục riêng của lớp\nMục tiêu: Tạo không khí tươi vui, sẵn sàng bước vào chủ đề.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (5 phút) - Sáng tạo bài thể dục riêng của lớp\nMục tiêu: Tạo không khí tươi vui, sẵn sàng bước vào chủ đề.\n* Cách tiến hành:"
             ],
             [
@@ -8209,7 +7761,6 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của hoạt động khởi động."
             ],
             [
-              "2. KHÁM PHÁ – TRẢI NGHIỆM CHỦ ĐỀ (12 phút) - Chia sẻ suy nghĩ của em về các môi trường học tập\nMục tiêu: HS nêu được những hiểu biết về các môi trường học tập mình từng được trải nghiệm hoặc đã biết.\n* Cách tiến hành:",
               "2. KHÁM PHÁ – TRẢI NGHIỆM CHỦ ĐỀ (12 phút) - Chia sẻ suy nghĩ của em về các môi trường học tập\nMục tiêu: HS nêu được những hiểu biết về các môi trường học tập mình từng được trải nghiệm hoặc đã biết.\n* Cách tiến hành:"
             ],
             [
@@ -8233,7 +7784,6 @@
               "- HS lắng nghe và nhắc lại ý chính của hoạt động."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT – THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (15 phút) - Thảo luận về môi trường học tập mới\nMục tiêu: HS tưởng tượng và phỏng đoán về môi trường học tập mới.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT – THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (15 phút) - Thảo luận về môi trường học tập mới\nMục tiêu: HS tưởng tượng và phỏng đoán về môi trường học tập mới.\n* Cách tiến hành:"
             ],
             [
@@ -8257,7 +7807,6 @@
               "- HS lắng nghe, hoàn thiện sơ đồ tư duy của nhóm."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết trao đổi cùng người thân để có thêm thông tin về những môi trường học tập mới.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết trao đổi cùng người thân để có thêm thông tin về những môi trường học tập mới.\n* Cách tiến hành:"
             ],
             [
@@ -8266,12 +7815,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 21: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 21: TIẾT 3 - SINH HOẠT LỚP",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 21",
+        "lessonTitle": "SINH HOẠT LỚP - TRẢI NGHIỆM MÔI TRƯỜNG HỌC TẬP MỚI - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS chuẩn bị được tâm thế, vật dụng và câu hỏi để tham quan, trải nghiệm môi trường trung học cơ sở.",
@@ -8294,10 +7846,6 @@
           "- HS: Sổ tay, bút ghi chép, câu hỏi phỏng vấn, thông tin đã tìm hiểu về môi trường học tập mới."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8305,7 +7853,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng bước vào tiết sinh hoạt lớp.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng bước vào tiết sinh hoạt lớp.\n* Cách tiến hành:"
             ],
             [
@@ -8313,11 +7860,9 @@
               "- HS tham gia trò chơi, nêu các từ: tự tin, kỉ luật, môn học mới, thầy cô mới, bạn mới, lớp học mới, học trực tuyến,...\n- HS lắng nghe mục tiêu tiết học."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 21 (5 phút)",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 21 (5 phút)"
             ],
             [
@@ -8329,7 +7874,6 @@
               "- HS lắng nghe, vỗ tay tuyên dương bạn.\n- HS tiếp thu góp ý và tự điều chỉnh hành vi."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 22 (5 phút)",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 22 (5 phút)"
             ],
             [
@@ -8341,11 +7885,9 @@
               "- HS lắng nghe, xác định việc cần rèn.\n- HS viết một cam kết nhỏ: “Tuần tới em sẽ...”\n- HS chia sẻ cam kết với bạn bên cạnh và động viên nhau thực hiện."
             ],
             [
-              "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Trải nghiệm môi trường học tập mới\nMục tiêu: HS chuẩn bị tâm thế, vật dụng, câu hỏi để tham quan, trải nghiệm và tìm hiểu về môi trường học tập tại trường trung học cơ sở.\n* Cách tiến hành:",
               "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Trải nghiệm môi trường học tập mới\nMục tiêu: HS chuẩn bị tâm thế, vật dụng, câu hỏi để tham quan, trải nghiệm và tìm hiểu về môi trường học tập tại trường trung học cơ sở.\n* Cách tiến hành:"
             ],
             [
-              "3.1. Chuẩn bị cho buổi tham quan môi trường trung học cơ sở (10 phút)",
               "3.1. Chuẩn bị cho buổi tham quan môi trường trung học cơ sở (10 phút)"
             ],
             [
@@ -8365,7 +7907,6 @@
               "- HS lắng nghe, nhắc lại các nguyên tắc an toàn và lịch sự khi tham quan."
             ],
             [
-              "3.2. Tham quan, trải nghiệm môi trường học tập mới (9 phút)",
               "3.2. Tham quan, trải nghiệm môi trường học tập mới (9 phút)"
             ],
             [
@@ -8381,7 +7922,6 @@
               "- HS lắng nghe, ghi nhớ nội dung kết luận.\n- HS xác định một điều bản thân cần rèn luyện để thích ứng với môi trường học tập mới."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục tìm hiểu thêm về các môi trường học tập mới, đặc biệt là môi trường học trực tuyến.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục tìm hiểu thêm về các môi trường học tập mới, đặc biệt là môi trường học trực tuyến.\n* Cách tiến hành:"
             ],
             [
@@ -8390,7 +7930,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 21: TIẾT 3 - SINH HOẠT LỚP"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -8399,9 +7942,8 @@
     "sourceFile": "HĐTN TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 22: TIẾT 1 - SINH HOẠT DƯỚI CỜ: RÈN LUYỆN THỂ CHẤT VÀ TINH THẦN ĐỂ THÍCH ỨNG VỚI CUỘC SỐNG",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 22",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: RÈN LUYỆN THỂ CHẤT VÀ TINH THẦN ĐỂ THÍCH ỨNG VỚI CUỘC SỐNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động trò chuyện dưới cờ về rèn luyện thể chất và tinh thần để thích ứng với cuộc sống.",
@@ -8421,10 +7963,6 @@
           "- HS: Trang phục gọn gàng, ghế ngồi, tâm thế nghiêm túc; chuẩn bị suy nghĩ về đức tính cần rèn luyện để thích ứng với môi trường học tập mới."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8432,7 +7970,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động trò chuyện về rèn luyện thể chất và tinh thần.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động trò chuyện về rèn luyện thể chất và tinh thần.\n* Cách tiến hành:"
             ],
             [
@@ -8448,7 +7985,6 @@
               "- HS thực hiện đúng nền nếp sinh hoạt dưới cờ.\n- HS sẵn sàng tham gia chia sẻ suy nghĩ cá nhân."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia nghe trò chuyện về rèn luyện thể chất, tinh thần và trao đổi được về các đức tính cần thiết trong môi trường học tập mới.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia nghe trò chuyện về rèn luyện thể chất, tinh thần và trao đổi được về các đức tính cần thiết trong môi trường học tập mới.\n* Cách tiến hành:"
             ],
             [
@@ -8472,7 +8008,6 @@
               "- HS lắng nghe kết luận.\n- HS xác định một đức tính bản thân cần rèn luyện để thích ứng với môi trường học tập mới."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và lựa chọn một việc làm cụ thể để rèn luyện thể chất, tinh thần trong tuần.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và lựa chọn một việc làm cụ thể để rèn luyện thể chất, tinh thần trong tuần.\n* Cách tiến hành:"
             ],
             [
@@ -8485,12 +8020,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 22: TIẾT 1 - SINH HOẠT DƯỚI CỜ: RÈN LUYỆN THỂ CHẤT VÀ TINH THẦN ĐỂ THÍCH ỨNG VỚI CUỘC SỐNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 22: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC ĐỨC TÍNH CẦN THIẾT TRONG MÔI TRƯỜNG HỌC TẬP MỚI",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 22",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC ĐỨC TÍNH CẦN THIẾT TRONG MÔI TRƯỜNG HỌC TẬP MỚI - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nhận biết được những đức tính cần thiết trong môi trường học tập mới.",
@@ -8513,10 +8051,6 @@
           "- HS: Bút màu, thông tin đã tìm hiểu về môi trường trung học cơ sở, suy nghĩ về đức tính bản thân cần rèn luyện."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8524,7 +8058,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút) - Chơi trò chơi Đếm chân\nMục tiêu: Tạo không khí sôi nổi, vui vẻ và giúp HS bước vào chủ đề các đức tính cần thiết trong môi trường học tập mới.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (5 phút) - Chơi trò chơi Đếm chân\nMục tiêu: Tạo không khí sôi nổi, vui vẻ và giúp HS bước vào chủ đề các đức tính cần thiết trong môi trường học tập mới.\n* Cách tiến hành:"
             ],
             [
@@ -8544,7 +8077,6 @@
               "- HS lắng nghe kết luận.\n- HS liên hệ trò chơi với việc rèn luyện đức tính cần thiết."
             ],
             [
-              "2. KHÁM PHÁ – TRẢI NGHIỆM CHỦ ĐỀ (12 phút) - Xác định những đức tính cần rèn luyện để thích ứng với môi trường học tập mới\nMục tiêu: HS nêu được các đức tính cần chú trọng rèn luyện để thích ứng với môi trường học tập mới.\n* Cách tiến hành:",
               "2. KHÁM PHÁ – TRẢI NGHIỆM CHỦ ĐỀ (12 phút) - Xác định những đức tính cần rèn luyện để thích ứng với môi trường học tập mới\nMục tiêu: HS nêu được các đức tính cần chú trọng rèn luyện để thích ứng với môi trường học tập mới.\n* Cách tiến hành:"
             ],
             [
@@ -8572,7 +8104,6 @@
               "- HS lắng nghe, ghi nhớ ý chính.\n- HS xác định một đức tính bản thân cần chú trọng rèn luyện."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT – THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (15 phút) - Xây dựng kế hoạch rèn luyện đức tính cần thiết để thích ứng với môi trường học tập mới\nMục tiêu: HS nêu được các đức tính cần chú trọng rèn luyện và lập được kế hoạch rèn luyện cụ thể.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT – THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (15 phút) - Xây dựng kế hoạch rèn luyện đức tính cần thiết để thích ứng với môi trường học tập mới\nMục tiêu: HS nêu được các đức tính cần chú trọng rèn luyện và lập được kế hoạch rèn luyện cụ thể.\n* Cách tiến hành:"
             ],
             [
@@ -8600,7 +8131,6 @@
               "- HS hoàn thiện kế hoạch rèn luyện.\n- HS ghi nhớ cách thực hiện kế hoạch hằng ngày."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS thể hiện quyết tâm thực hiện kế hoạch rèn luyện đã xây dựng.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS thể hiện quyết tâm thực hiện kế hoạch rèn luyện đã xây dựng.\n* Cách tiến hành:"
             ],
             [
@@ -8613,12 +8143,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 22: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC ĐỨC TÍNH CẦN THIẾT TRONG MÔI TRƯỜNG HỌC TẬP MỚI"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 22: TIẾT 3 - SINH HOẠT LỚP: RÈN LUYỆN ĐỨC TÍNH CẦN THIẾT ĐỂ THÍCH ỨNG VỚI MÔI TRƯỜNG HỌC TẬP MỚI",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 22",
+        "lessonTitle": "SINH HOẠT LỚP: RÈN LUYỆN ĐỨC TÍNH CẦN THIẾT ĐỂ THÍCH ỨNG VỚI MÔI TRƯỜNG HỌC TẬP MỚI - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS chia sẻ được việc thực hiện kế hoạch rèn luyện các đức tính cần thiết để thích ứng với môi trường học tập mới.",
@@ -8641,10 +8174,6 @@
           "- HS: Kế hoạch rèn luyện đã xây dựng, vòng tay nhắc việc, đạo cụ đơn giản để trình diễn tiểu phẩm, điện thoại/máy tính bảng nếu được GV cho phép sử dụng."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8652,7 +8181,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng chia sẻ việc rèn luyện đức tính cần thiết.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng chia sẻ việc rèn luyện đức tính cần thiết.\n* Cách tiến hành:"
             ],
             [
@@ -8664,11 +8192,9 @@
               "- HS lắng nghe mục tiêu tiết học.\n- HS chuẩn bị chia sẻ việc rèn luyện của bản thân."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 22 (5 phút)",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 22 (5 phút)"
             ],
             [
@@ -8680,7 +8206,6 @@
               "- HS lắng nghe, vỗ tay tuyên dương bạn.\n- HS tiếp thu góp ý và tự điều chỉnh hành vi."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 23 (5 phút)",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 23 (5 phút)"
             ],
             [
@@ -8688,11 +8213,9 @@
               "- HS lắng nghe phương hướng hoạt động tuần tới.\n- HS nêu: không chia sẻ mật khẩu, không đăng ảnh riêng tư, hỏi người lớn khi gặp thông tin lạ, dùng mạng để học tập đúng thời gian."
             ],
             [
-              "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Rèn luyện đức tính cần thiết để thích ứng với môi trường học tập mới\nMục tiêu: HS chia sẻ kết quả thực hiện kế hoạch rèn luyện và trình diễn tiểu phẩm thể hiện các đức tính cần thiết.\n* Cách tiến hành:",
               "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Rèn luyện đức tính cần thiết để thích ứng với môi trường học tập mới\nMục tiêu: HS chia sẻ kết quả thực hiện kế hoạch rèn luyện và trình diễn tiểu phẩm thể hiện các đức tính cần thiết.\n* Cách tiến hành:"
             ],
             [
-              "3.1. Phản hồi kết quả vận dụng - Chia sẻ việc thực hiện kế hoạch rèn luyện (8 phút)",
               "3.1. Phản hồi kết quả vận dụng - Chia sẻ việc thực hiện kế hoạch rèn luyện (8 phút)"
             ],
             [
@@ -8712,7 +8235,6 @@
               "- HS lắng nghe, ghi nhớ ý chính.\n- HS sẵn sàng điều chỉnh kế hoạch rèn luyện."
             ],
             [
-              "3.2. Thực hành - Trình diễn tiểu phẩm rèn luyện đức tính cần thiết với môi trường học tập mới (11 phút)",
               "3.2. Thực hành - Trình diễn tiểu phẩm rèn luyện đức tính cần thiết với môi trường học tập mới (11 phút)"
             ],
             [
@@ -8740,7 +8262,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp.\n- HS thêm quyết tâm rèn luyện bản thân để thích ứng với môi trường học tập mới."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục rèn luyện theo kế hoạch đã xây dựng và điều chỉnh kế hoạch khi cần.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục rèn luyện theo kế hoạch đã xây dựng và điều chỉnh kế hoạch khi cần.\n* Cách tiến hành:"
             ],
             [
@@ -8753,7 +8274,11 @@
             ]
           ]
         ],
-        "title": "TUẦN 22: TIẾT 3 - SINH HOẠT LỚP: RÈN LUYỆN ĐỨC TÍNH CẦN THIẾT ĐỂ THÍCH ỨNG VỚI MÔI TRƯỜNG HỌC TẬP MỚI"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -8762,9 +8287,8 @@
     "sourceFile": "HĐTN TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 23: TIẾT 1 - SINH HOẠT DƯỚI CỜ: KỈ NIỆM NGÀY QUỐC TẾ PHỤ NỮ 8-3",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 23",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: KỈ NIỆM NGÀY QUỐC TẾ PHỤ NỮ 8-3 - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc, tích cực các hoạt động kỉ niệm ngày Quốc tế Phụ nữ 8-3 theo kế hoạch của nhà trường.",
@@ -8784,10 +8308,6 @@
           "- HS: Trang phục gọn gàng, ghế ngồi, tiết mục hát, múa, đọc thơ hoặc lời chúc; chuẩn bị suy nghĩ về việc làm thể hiện sự biết ơn, tôn trọng phụ nữ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8795,7 +8315,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động kỉ niệm ngày Quốc tế Phụ nữ 8-3.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động kỉ niệm ngày Quốc tế Phụ nữ 8-3.\n* Cách tiến hành:"
             ],
             [
@@ -8811,7 +8330,6 @@
               "- HS thực hiện đúng nền nếp sinh hoạt dưới cờ.\n- HS sẵn sàng tham gia tiết mục, giao lưu hoặc chia sẻ cảm nghĩ khi được mời."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động kỉ niệm ngày Quốc tế Phụ nữ 8-3 và trao đổi được về hình ảnh người phụ nữ Việt Nam hiện đại, làm chủ công nghệ.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động kỉ niệm ngày Quốc tế Phụ nữ 8-3 và trao đổi được về hình ảnh người phụ nữ Việt Nam hiện đại, làm chủ công nghệ.\n* Cách tiến hành:"
             ],
             [
@@ -8839,7 +8357,6 @@
               "- HS lắng nghe kết luận.\n- HS nêu lại được một thông điệp: yêu thương, tôn trọng phụ nữ; sử dụng công nghệ văn minh, an toàn."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và lựa chọn một việc làm cụ thể thể hiện sự biết ơn, tôn trọng phụ nữ.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và lựa chọn một việc làm cụ thể thể hiện sự biết ơn, tôn trọng phụ nữ.\n* Cách tiến hành:"
             ],
             [
@@ -8852,12 +8369,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 23: TIẾT 1 - SINH HOẠT DƯỚI CỜ: KỈ NIỆM NGÀY QUỐC TẾ PHỤ NỮ 8-3"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 23: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 23",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nhận ra được mặt tích cực và mặt tiêu cực của việc sử dụng, giao tiếp trên mạng.",
@@ -8873,17 +8393,14 @@
           "- Nhân ái: Tôn trọng danh dự, hình ảnh, thông tin của bạn và mọi người khi giao tiếp trên mạng.",
           "4. Tích hợp",
           "- Tích hợp AI (5.A3.1): Giáo dục an toàn: HS biết tuyệt đối không chia sẻ thông tin cá nhân, địa chỉ, ảnh riêng tư, mật khẩu hoặc thông tin người thân cho các chatbot AI lạ; chỉ sử dụng AI với mục đích học tập phù hợp và có sự hướng dẫn của thầy cô, người lớn.",
-          "- Tích hợp QCN: HS hiểu quyền riêng tư, danh dự, hình ảnh cá nhân cần được bảo vệ khi giao tiếp trên mạng; không chia sẻ mật khẩu, địa chỉ, ảnh riêng tư hoặc thông tin của bạn khi chưa được phép."
+          "- Tích hợp QCN: HS hiểu quyền riêng tư, danh dự, hình ảnh cá nhân cần được bảo vệ khi giao tiếp trên mạng; không chia sẻ mật khẩu, địa chỉ, ảnh riêng tư hoặc thông tin của bạn khi chưa được phép.",
+          "- Giáo dục địa phương (Chủ đề 6) & Tiết kiệm và bảo vệ nguồn nước: Sử dụng mạng và công nghệ số để lan tỏa phong trào xây dựng Nông thôn mới tỉnh Trà Vinh; thực hiện chiến dịch truyền thông 'Dòng kênh xanh quê em' - không vứt rác thải nhựa, bao bì thuốc BVTV xuống kênh rạch, bảo vệ an toàn nguồn nước sinh hoạt và sản xuất tại địa phương."
         ],
         "dodung": [
           "- GV: Video về văn hoá giao tiếp trên mạng, giấy A3 cho các nhóm, bút màu, phiếu khảo sát, bảng phụ, tranh minh họa trong SGK Hoạt động trải nghiệm 5, một số tình huống về an toàn khi sử dụng mạng.",
           "- HS: Bút màu, thước, giấy nháp; chuẩn bị suy nghĩ về lợi ích, tác hại và các tình huống khiến em lo lắng khi sử dụng mạng."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8891,7 +8408,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (7 phút)\nMục tiêu: HS nhận ra được mặt tích cực và tiêu cực của việc giao tiếp trên mạng thông qua trò chơi “Ánh sáng và bóng tối”.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (7 phút)\nMục tiêu: HS nhận ra được mặt tích cực và tiêu cực của việc giao tiếp trên mạng thông qua trò chơi “Ánh sáng và bóng tối”.\n* Cách tiến hành:"
             ],
             [
@@ -8911,11 +8427,9 @@
               "- HS lắng nghe kết luận.\n- HS nêu lại được: cần dùng mạng có mục đích, có thời gian, biết bảo vệ bản thân khi giao tiếp trên mạng."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ (10 phút)\nMục tiêu: HS nhận thức được tầm quan trọng của việc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ (10 phút)\nMục tiêu: HS nhận thức được tầm quan trọng của việc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng.\n* Cách tiến hành:"
             ],
             [
-              "Tìm hiểu về tự chủ và đảm bảo an toàn khi giao tiếp trên mạng",
               "Tìm hiểu về tự chủ và đảm bảo an toàn khi giao tiếp trên mạng"
             ],
             [
@@ -8935,11 +8449,9 @@
               "- HS lắng nghe kết luận.\n- HS xác định một thói quen sử dụng mạng cần điều chỉnh để an toàn hơn."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (13 phút)\nMục tiêu: HS biết xây dựng bản Quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (13 phút)\nMục tiêu: HS biết xây dựng bản Quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng.\n* Cách tiến hành:"
             ],
             [
-              "Thiết kế bản Quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng",
               "Thiết kế bản Quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng"
             ],
             [
@@ -8963,7 +8475,6 @@
               "- HS lắng nghe kết luận.\n- HS ghi nhớ ý nghĩa của bản quy tắc và chuẩn bị thực hiện trong tuần."
             ],
             [
-              "4. VẬN DỤNG (5 phút)\nMục tiêu: HS thể hiện quyết tâm thực hiện bản Quy tắc chung và chia sẻ với người thân để nhận thêm góp ý.\n* Cách tiến hành:",
               "4. VẬN DỤNG (5 phút)\nMục tiêu: HS thể hiện quyết tâm thực hiện bản Quy tắc chung và chia sẻ với người thân để nhận thêm góp ý.\n* Cách tiến hành:"
             ],
             [
@@ -8973,15 +8484,22 @@
             [
               "- GV đề nghị HS về nhà chia sẻ bản Quy tắc với người thân để nhận thêm góp ý.\n- GV dặn HS ghi lại một góp ý của người thân hoặc một tình huống thực tế cần áp dụng quy tắc để chia sẻ trong tiết sinh hoạt lớp.",
               "- HS ghi nhớ nhiệm vụ vận dụng.\n- HS chuẩn bị chia sẻ kết quả thực hiện và góp ý của người thân trong tiết sinh hoạt lớp."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV hướng dẫn HS ứng dụng quy tắc giao tiếp tích cực trên mạng để lan tỏa thông điệp vì cộng đồng: Chia sẻ bài viết, tranh cổ động về xây dựng Nông thôn mới trên quê hương Trà Vinh, bảo vệ dòng sông, kênh rạch quê em; tuyên truyền mọi người tuyệt đối không xả rác thải nhựa, chất thải chăn nuôi hay bao bì hóa chất xuống nguồn nước.",
+              "- HS ghi nhớ, thảo luận cách viết thông điệp truyền thông ngắn gọn, tích cực: 'Cùng người dân Trà Vinh chung tay giữ sạch dòng kênh, bảo vệ nguồn nước sinh hoạt và xây dựng quê hương tươi đẹp'."
             ]
           ]
         ],
-        "title": "TUẦN 23: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 23: TIẾT 3 - SINH HOẠT LỚP: ỨNG XỬ THEO QUY TẮC TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 23",
+        "lessonTitle": "SINH HOẠT LỚP: ỨNG XỬ THEO QUY TẮC TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS chia sẻ được kết quả sau khi thực hiện bản Quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng.",
@@ -9004,10 +8522,6 @@
           "- HS: Kết quả thực hiện bản Quy tắc, góp ý của người thân, đạo cụ đơn giản để sắm vai, giấy nháp, bút màu; máy tính bảng hoặc máy tính nếu được GV cho phép sử dụng."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9015,7 +8529,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng chia sẻ việc thực hiện quy tắc an toàn khi giao tiếp trên mạng.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui vẻ, giúp HS sẵn sàng chia sẻ việc thực hiện quy tắc an toàn khi giao tiếp trên mạng.\n* Cách tiến hành:"
             ],
             [
@@ -9027,11 +8540,9 @@
               "- HS lắng nghe mục tiêu tiết học.\n- HS chuẩn bị chia sẻ kết quả thực hiện quy tắc của bản thân."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 23 (5 phút)",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 23 (5 phút)"
             ],
             [
@@ -9043,7 +8554,6 @@
               "- HS lắng nghe, vỗ tay tuyên dương bạn.\n- HS tiếp thu góp ý và tự điều chỉnh hành vi trong tuần tới."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 24 (5 phút)",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 24 (5 phút)"
             ],
             [
@@ -9051,11 +8561,9 @@
               "- HS lắng nghe phương hướng hoạt động tuần tới.\n- HS nêu: quan sát nguồn điện trong lớp, không nghịch lửa, tìm hiểu số điện thoại khẩn cấp, chuẩn bị khăn hoặc biết đường thoát hiểm khi có sự cố."
             ],
             [
-              "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Ứng xử theo quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng\nMục tiêu: HS chia sẻ kết quả thực hiện bản Quy tắc và thực hành xử lí các tình huống có thể xảy ra khi giao tiếp trên mạng.\n* Cách tiến hành:",
               "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Ứng xử theo quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng\nMục tiêu: HS chia sẻ kết quả thực hiện bản Quy tắc và thực hành xử lí các tình huống có thể xảy ra khi giao tiếp trên mạng.\n* Cách tiến hành:"
             ],
             [
-              "3.1. Phản hồi kết quả vận dụng - Chia sẻ kết quả sau khi thực hiện bản Quy tắc (8 phút)",
               "3.1. Phản hồi kết quả vận dụng - Chia sẻ kết quả sau khi thực hiện bản Quy tắc (8 phút)"
             ],
             [
@@ -9075,7 +8583,6 @@
               "- HS lắng nghe kết luận.\n- HS ghi nhớ cần duy trì việc thực hiện bản Quy tắc trong học tập và đời sống hằng ngày."
             ],
             [
-              "3.2. Thực hành - Xử lí các tình huống khi giao tiếp trên mạng (11 phút)",
               "3.2. Thực hành - Xử lí các tình huống khi giao tiếp trên mạng (11 phút)"
             ],
             [
@@ -9099,7 +8606,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp.\n- HS tự nhắc mình cần bình tĩnh, không vội vàng trả lời hoặc bấm vào nội dung lạ trên mạng."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục thảo luận với người thân và những người xung quanh về chủ đề tự chủ và đảm bảo an toàn khi giao tiếp trên mạng.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục thảo luận với người thân và những người xung quanh về chủ đề tự chủ và đảm bảo an toàn khi giao tiếp trên mạng.\n* Cách tiến hành:"
             ],
             [
@@ -9112,7 +8618,11 @@
             ]
           ]
         ],
-        "title": "TUẦN 23: TIẾT 3 - SINH HOẠT LỚP: ỨNG XỬ THEO QUY TẮC TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -9121,9 +8631,8 @@
     "sourceFile": "HĐTN TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 24: TIẾT 1 - SINH HOẠT DƯỚI CỜ: TỰ BẢO VỆ BẢN THÂN",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 24",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TỰ BẢO VỆ BẢN THÂN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc, tích cực hoạt động giao lưu với cảnh sát Phòng cháy, chữa cháy và cứu nạn, cứu hộ theo kế hoạch của nhà trường.",
@@ -9143,10 +8652,6 @@
           "- HS: Trang phục gọn gàng, ghế ngồi, khăn tay hoặc khăn vải theo yêu cầu; chuẩn bị một câu hỏi về phòng cháy, chữa cháy hoặc thoát hiểm khi gặp hoả hoạn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9154,7 +8659,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động giao lưu về phòng chống hoả hoạn.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động giao lưu về phòng chống hoả hoạn.\n* Cách tiến hành:"
             ],
             [
@@ -9170,7 +8674,6 @@
               "- HS thực hiện đúng nền nếp sinh hoạt dưới cờ.\n- HS cam kết tham gia hoạt động an toàn, nghiêm túc."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia giao lưu với cảnh sát Phòng cháy, chữa cháy và cứu nạn, cứu hộ; thực hành một số động tác thoát hiểm khi có hoả hoạn theo hướng dẫn.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia giao lưu với cảnh sát Phòng cháy, chữa cháy và cứu nạn, cứu hộ; thực hành một số động tác thoát hiểm khi có hoả hoạn theo hướng dẫn.\n* Cách tiến hành:"
             ],
             [
@@ -9198,7 +8701,6 @@
               "- HS lắng nghe kết luận.\n- HS nêu lại được một thông điệp: không nghịch lửa, không chủ quan với thiết bị điện, bình tĩnh thoát hiểm khi có hoả hoạn."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và chuẩn bị cho hoạt động tìm hiểu nguyên nhân, cách phòng chống hoả hoạn trong tiết học tiếp theo.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và chuẩn bị cho hoạt động tìm hiểu nguyên nhân, cách phòng chống hoả hoạn trong tiết học tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -9211,12 +8713,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 24: TIẾT 1 - SINH HOẠT DƯỚI CỜ: TỰ BẢO VỆ BẢN THÂN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 24: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGUYÊN NHÂN VÀ CÁCH PHÒNG CHỐNG HOẢ HOẠN",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 24",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGUYÊN NHÂN VÀ CÁCH PHÒNG CHỐNG HOẢ HOẠN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS biết một số nguyên nhân gây hoả hoạn trong gia đình, trường học và nơi công cộng.",
@@ -9239,10 +8743,6 @@
           "- HS: Khăn vải hoặc khăn tay theo yêu cầu, bút, giấy nháp; chuẩn bị hiểu biết ban đầu về nguyên nhân gây hoả hoạn và cách phòng chống ở gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9250,7 +8750,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (7 phút) - Tìm hiểu nguyên nhân gây hoả hoạn\nMục tiêu: HS nhận biết được một số nguyên nhân gây hoả hoạn thông qua trò chơi “Truy tìm nguồn lửa”.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (7 phút) - Tìm hiểu nguyên nhân gây hoả hoạn\nMục tiêu: HS nhận biết được một số nguyên nhân gây hoả hoạn thông qua trò chơi “Truy tìm nguồn lửa”.\n* Cách tiến hành:"
             ],
             [
@@ -9274,7 +8773,6 @@
               "- HS lắng nghe kết luận.\n- HS nêu lại một nguyên nhân gây hoả hoạn và một việc cần tránh."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ (13 phút) - Xác định cách phòng chống hoả hoạn\nMục tiêu: HS xác định cách phòng chống hoả hoạn và nhận biết một số kĩ năng thoát hiểm khi có hoả hoạn.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ (13 phút) - Xác định cách phòng chống hoả hoạn\nMục tiêu: HS xác định cách phòng chống hoả hoạn và nhận biết một số kĩ năng thoát hiểm khi có hoả hoạn.\n* Cách tiến hành:"
             ],
             [
@@ -9298,7 +8796,6 @@
               "- HS lắng nghe kết luận.\n- HS nhắc lại thông điệp: phòng cháy hơn chữa cháy."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (12 phút) - Luyện tập một số kĩ năng thoát hiểm khi gặp hoả hoạn\nMục tiêu: HS bước đầu thực hiện được một số kĩ năng trong quá trình thoát hiểm nếu có hoả hoạn.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (12 phút) - Luyện tập một số kĩ năng thoát hiểm khi gặp hoả hoạn\nMục tiêu: HS bước đầu thực hiện được một số kĩ năng trong quá trình thoát hiểm nếu có hoả hoạn.\n* Cách tiến hành:"
             ],
             [
@@ -9322,7 +8819,6 @@
               "- HS lắng nghe kết luận.\n- HS tự nhắc lại một việc cần làm để thoát hiểm an toàn."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS trao đổi cùng người thân về những việc cần làm phòng khi xảy ra hoả hoạn và quan sát các thông tin, bảng biển liên quan đến phòng cháy, chữa cháy.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS trao đổi cùng người thân về những việc cần làm phòng khi xảy ra hoả hoạn và quan sát các thông tin, bảng biển liên quan đến phòng cháy, chữa cháy.\n* Cách tiến hành:"
             ],
             [
@@ -9335,12 +8831,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 24: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGUYÊN NHÂN VÀ CÁCH PHÒNG CHỐNG HOẢ HOẠN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 24: TIẾT 3 - SINH HOẠT LỚP: THỰC HÀNH THOÁT HIỂM",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 24",
+        "lessonTitle": "SINH HOẠT LỚP: THỰC HÀNH THOÁT HIỂM - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS biết nghe và quan sát tín hiệu cảnh báo cháy, bình tĩnh thực hành thoát hiểm khi gặp hoả hoạn.",
@@ -9363,10 +8861,6 @@
           "- HS: Khăn vải hoặc khăn tay, giấy nháp, bút; chuẩn bị chia sẻ điều đã trao đổi với người thân về phòng chống hoả hoạn."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9374,7 +8868,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí nghiêm túc, giúp HS sẵn sàng thực hành thoát hiểm khi gặp hoả hoạn.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí nghiêm túc, giúp HS sẵn sàng thực hành thoát hiểm khi gặp hoả hoạn.\n* Cách tiến hành:"
             ],
             [
@@ -9386,11 +8879,9 @@
               "- HS lắng nghe mục tiêu tiết học.\n- HS chuẩn bị tinh thần thực hành nghiêm túc, an toàn."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 24 (5 phút)",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 24 (5 phút)"
             ],
             [
@@ -9402,7 +8893,6 @@
               "- HS lắng nghe, vỗ tay tuyên dương bạn.\n- HS tiếp thu góp ý và tự điều chỉnh trong tuần tới."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 25 (5 phút)",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 25 (5 phút)"
             ],
             [
@@ -9410,11 +8900,9 @@
               "- HS lắng nghe phương hướng hoạt động tuần tới.\n- HS nêu: tìm hiểu một lễ hội truyền thống ở địa phương, hỏi người thân về ý nghĩa lễ hội, sưu tầm tranh ảnh hoặc thông tin phù hợp."
             ],
             [
-              "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Thực hành thoát hiểm\nMục tiêu: HS biết nghe và quan sát tín hiệu cảnh báo cháy, thực hành kĩ năng thoát hiểm; chia sẻ, rút kinh nghiệm sau khi thực hành.\n* Cách tiến hành:",
               "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Thực hành thoát hiểm\nMục tiêu: HS biết nghe và quan sát tín hiệu cảnh báo cháy, thực hành kĩ năng thoát hiểm; chia sẻ, rút kinh nghiệm sau khi thực hành.\n* Cách tiến hành:"
             ],
             [
-              "3.1. Thực hành - Thực hành thoát hiểm khi gặp hoả hoạn (9 phút)",
               "3.1. Thực hành - Thực hành thoát hiểm khi gặp hoả hoạn (9 phút)"
             ],
             [
@@ -9438,7 +8926,6 @@
               "- HS lắng nghe kết luận.\n- HS nêu lại một thao tác thoát hiểm vừa thực hành."
             ],
             [
-              "3.2. Chia sẻ, rút kinh nghiệm sau khi thực hành (10 phút)",
               "3.2. Chia sẻ, rút kinh nghiệm sau khi thực hành (10 phút)"
             ],
             [
@@ -9462,7 +8949,6 @@
               "- HS lắng nghe kết luận.\n- HS tự đánh giá thao tác của bản thân và nêu một việc sẽ rèn thêm."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS trao đổi cùng người thân về việc phòng chống hoả hoạn cho gia đình và cộng đồng; tự đánh giá sau chủ đề Sống an toàn và tự chủ.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS trao đổi cùng người thân về việc phòng chống hoả hoạn cho gia đình và cộng đồng; tự đánh giá sau chủ đề Sống an toàn và tự chủ.\n* Cách tiến hành:"
             ],
             [
@@ -9475,7 +8961,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 24: TIẾT 3 - SINH HOẠT LỚP: THỰC HÀNH THOÁT HIỂM"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -9484,9 +8973,8 @@
     "sourceFile": "HĐTN TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 25: TIẾT 1 - SINH HOẠT DƯỚI CỜ: LỄ HỘI TRUYỀN THỐNG ĐỊA PHƯƠNG",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 25",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: LỄ HỘI TRUYỀN THỐNG ĐỊA PHƯƠNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ về lễ hội truyền thống địa phương theo kế hoạch của nhà trường.",
@@ -9506,10 +8994,6 @@
           "- HS: Trang phục gọn gàng; chuẩn bị một thông tin, hình ảnh hoặc câu chuyện ngắn về lễ hội truyền thống ở địa phương nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9517,7 +9001,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động giới thiệu lễ hội truyền thống địa phương.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động giới thiệu lễ hội truyền thống địa phương.\n* Cách tiến hành:"
             ],
             [
@@ -9533,7 +9016,6 @@
               "- HS thực hiện nền nếp sinh hoạt dưới cờ.\n- HS thể hiện thái độ tôn trọng, lịch sự khi tham gia hoạt động."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động giới thiệu lễ hội truyền thống ở địa phương và chia sẻ được ý nghĩa của lễ hội.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động giới thiệu lễ hội truyền thống ở địa phương và chia sẻ được ý nghĩa của lễ hội.\n* Cách tiến hành:"
             ],
             [
@@ -9561,7 +9043,6 @@
               "- HS lắng nghe kết luận.\n- HS nêu lại thông điệp: Em tự hào và tham gia lễ hội truyền thống ở địa phương một cách văn minh."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và chuẩn bị tư liệu cho tiết Hoạt động giáo dục theo chủ đề về lễ hội truyền thống ở địa phương.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và chuẩn bị tư liệu cho tiết Hoạt động giáo dục theo chủ đề về lễ hội truyền thống ở địa phương.\n* Cách tiến hành:"
             ],
             [
@@ -9574,12 +9055,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 25: TIẾT 1 - SINH HOẠT DƯỚI CỜ: LỄ HỘI TRUYỀN THỐNG ĐỊA PHƯƠNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 25: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA LỄ HỘI TRUYỀN THỐNG Ở ĐỊA PHƯƠNG",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 25",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA LỄ HỘI TRUYỀN THỐNG Ở ĐỊA PHƯƠNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS hiểu được ý nghĩa, nội dung của lễ hội truyền thống ở địa phương.",
@@ -9602,10 +9085,6 @@
           "- HS: Tranh ảnh, tư liệu, câu chuyện hoặc thông tin đã tìm hiểu về lễ hội truyền thống ở địa phương; giấy A3, bút màu theo nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9613,7 +9092,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút) - Chơi trò chơi Ai nhanh hơn?\nMục tiêu: HS nhận biết sự phong phú của lễ hội truyền thống ở địa phương và hứng thú tham gia chủ đề.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (5 phút) - Chơi trò chơi Ai nhanh hơn?\nMục tiêu: HS nhận biết sự phong phú của lễ hội truyền thống ở địa phương và hứng thú tham gia chủ đề.\n* Cách tiến hành:"
             ],
             [
@@ -9633,7 +9111,6 @@
               "- HS lắng nghe kết luận.\n- HS chuẩn bị tìm hiểu sâu hơn về lễ hội truyền thống ở địa phương."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ (14 phút) - Tìm hiểu về lễ hội truyền thống ở địa phương\nMục tiêu: HS chia sẻ được hiểu biết của mình về ý nghĩa, nội dung của một số lễ hội truyền thống tại địa phương.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ (14 phút) - Tìm hiểu về lễ hội truyền thống ở địa phương\nMục tiêu: HS chia sẻ được hiểu biết của mình về ý nghĩa, nội dung của một số lễ hội truyền thống tại địa phương.\n* Cách tiến hành:"
             ],
             [
@@ -9657,7 +9134,6 @@
               "- HS lắng nghe kết luận.\n- HS nêu lại được ý nghĩa chung của lễ hội truyền thống."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (13 phút) - Lập kế hoạch tham gia lễ hội truyền thống ở địa phương\nMục tiêu: HS lập được kế hoạch tham gia hoạt động lễ hội truyền thống ở địa phương.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI (13 phút) - Lập kế hoạch tham gia lễ hội truyền thống ở địa phương\nMục tiêu: HS lập được kế hoạch tham gia hoạt động lễ hội truyền thống ở địa phương.\n* Cách tiến hành:"
             ],
             [
@@ -9681,7 +9157,6 @@
               "- HS lắng nghe nhận xét của GV.\n- Các nhóm chỉnh sửa, hoàn thiện kế hoạch sau góp ý của thầy cô và các bạn."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS chuẩn bị để tái hiện một hoạt động trong lễ hội truyền thống ở địa phương theo kế hoạch đã xây dựng.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS chuẩn bị để tái hiện một hoạt động trong lễ hội truyền thống ở địa phương theo kế hoạch đã xây dựng.\n* Cách tiến hành:"
             ],
             [
@@ -9694,12 +9169,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 25: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA LỄ HỘI TRUYỀN THỐNG Ở ĐỊA PHƯƠNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 25: TIẾT 3 - SINH HOẠT LỚP: TÁI HIỆN LỄ HỘI TRUYỀN THỐNG",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 25",
+        "lessonTitle": "SINH HOẠT LỚP: TÁI HIỆN LỄ HỘI TRUYỀN THỐNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS có hiểu biết về nội dung, ý nghĩa của lễ hội và thể hiện cảm xúc tự hào khi tham gia tái hiện lễ hội truyền thống ở địa phương.",
@@ -9722,10 +9199,6 @@
           "- HS: Đạo cụ, tranh ảnh, lời giới thiệu, trang phục hoặc vật dụng phù hợp để tái hiện một hoạt động trong lễ hội truyền thống ở địa phương."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9733,7 +9206,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui tươi, giúp HS sẵn sàng tham gia tiết sinh hoạt lớp và tái hiện hoạt động lễ hội truyền thống.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui tươi, giúp HS sẵn sàng tham gia tiết sinh hoạt lớp và tái hiện hoạt động lễ hội truyền thống.\n* Cách tiến hành:"
             ],
             [
@@ -9745,11 +9217,9 @@
               "- HS lắng nghe mục tiêu tiết học.\n- HS chuẩn bị đạo cụ, lời giới thiệu và tâm thế tham gia."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét hoạt động tuần qua và xây dựng phương hướng hoạt động tuần tới.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 25 (5 phút)",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 25 (5 phút)"
             ],
             [
@@ -9761,7 +9231,6 @@
               "- HS lắng nghe, vỗ tay tuyên dương bạn.\n- HS tiếp thu góp ý và tự điều chỉnh trong tuần tới."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 26 (5 phút)",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 26 (5 phút)"
             ],
             [
@@ -9769,11 +9238,9 @@
               "- HS lắng nghe phương hướng hoạt động tuần tới.\n- HS nêu: tìm hiểu một hoạt động xã hội ở địa phương, hỏi người thân về hoạt động lao động công ích, chuẩn bị chia sẻ việc làm giúp cộng đồng."
             ],
             [
-              "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Tái hiện lễ hội truyền thống\nMục tiêu: HS tái hiện một hoạt động lễ hội truyền thống ở địa phương để có thêm trải nghiệm, hiểu biết và cảm xúc về lễ hội đó.\n* Cách tiến hành:",
               "3. SINH HOẠT THEO CHỦ ĐỀ (19 phút) - Tái hiện lễ hội truyền thống\nMục tiêu: HS tái hiện một hoạt động lễ hội truyền thống ở địa phương để có thêm trải nghiệm, hiểu biết và cảm xúc về lễ hội đó.\n* Cách tiến hành:"
             ],
             [
-              "3.1. Thực hành - Tái hiện một hoạt động trong lễ hội truyền thống ở địa phương (11 phút)",
               "3.1. Thực hành - Tái hiện một hoạt động trong lễ hội truyền thống ở địa phương (11 phút)"
             ],
             [
@@ -9797,7 +9264,6 @@
               "- HS thảo luận, nhận xét từng hoạt động theo gợi ý của GV.\n- HS nêu nhận xét lịch sự, có căn cứ và biết trân trọng công sức của nhóm bạn."
             ],
             [
-              "3.2. Bình chọn tiết mục hấp dẫn và rút kinh nghiệm (8 phút)",
               "3.2. Bình chọn tiết mục hấp dẫn và rút kinh nghiệm (8 phút)"
             ],
             [
@@ -9817,7 +9283,6 @@
               "- HS lắng nghe kết luận.\n- HS nêu lại một việc cần làm khi tham gia lễ hội truyền thống."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tham gia hoạt động lễ hội truyền thống tại địa phương theo kế hoạch đã xây dựng và tiếp tục lan tỏa cách tham gia văn minh.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tham gia hoạt động lễ hội truyền thống tại địa phương theo kế hoạch đã xây dựng và tiếp tục lan tỏa cách tham gia văn minh.\n* Cách tiến hành:"
             ],
             [
@@ -9830,7 +9295,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 25: TIẾT 3 - SINH HOẠT LỚP: TÁI HIỆN LỄ HỘI TRUYỀN THỐNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -9839,9 +9307,8 @@
     "sourceFile": "HĐTN TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 26: TIẾT 1 - SINH HOẠT DƯỚI CỜ: THAM GIA HOẠT ĐỘNG XÃ HỘI Ở ĐỊA PHƯƠNG",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 26",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: THAM GIA HOẠT ĐỘNG XÃ HỘI Ở ĐỊA PHƯƠNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ về phong trào tham gia hoạt động xã hội ở địa phương theo kế hoạch của nhà trường.",
@@ -9861,10 +9328,6 @@
           "- HS: Trang phục gọn gàng; chuẩn bị một thông tin hoặc trải nghiệm về hoạt động xã hội, hoạt động lao động công ích mà em biết hoặc từng tham gia."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9872,7 +9335,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động về phong trào tham gia hoạt động xã hội ở địa phương.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động về phong trào tham gia hoạt động xã hội ở địa phương.\n* Cách tiến hành:"
             ],
             [
@@ -9888,7 +9350,6 @@
               "- HS thực hiện nền nếp sinh hoạt dưới cờ.\n- HS thể hiện thái độ lịch sự, sẵn sàng tham gia hoạt động."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS hưởng ứng phong trào tích cực tham gia hoạt động xã hội ở địa phương và chia sẻ được lợi ích của việc tham gia hoạt động xã hội.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS hưởng ứng phong trào tích cực tham gia hoạt động xã hội ở địa phương và chia sẻ được lợi ích của việc tham gia hoạt động xã hội.\n* Cách tiến hành:"
             ],
             [
@@ -9912,7 +9373,6 @@
               "- HS lắng nghe kết luận.\n- HS đồng thanh đọc thông điệp và thể hiện tinh thần sẵn sàng tham gia hoạt động xã hội."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều thu nhận được và lựa chọn một hoạt động xã hội phù hợp để tiếp tục tìm hiểu trong tiết học sau.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều thu nhận được và lựa chọn một hoạt động xã hội phù hợp để tiếp tục tìm hiểu trong tiết học sau.\n* Cách tiến hành:"
             ],
             [
@@ -9925,12 +9385,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 26: TIẾT 1 - SINH HOẠT DƯỚI CỜ: THAM GIA HOẠT ĐỘNG XÃ HỘI Ở ĐỊA PHƯƠNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 26: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA HOẠT ĐỘNG XÃ HỘI",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 26",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA HOẠT ĐỘNG XÃ HỘI - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS hiểu được nội dung, ý nghĩa và hình thức của hoạt động xã hội.",
@@ -9953,10 +9415,6 @@
           "- HS: Một thông tin hoặc trải nghiệm về hoạt động xã hội ở địa phương; bút màu, giấy nhóm để lập kế hoạch."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9964,7 +9422,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Chơi trò chơi Tung bóng (5 phút)\nMục tiêu: HS chia sẻ nhanh về những hoạt động xã hội mình biết hoặc từng tham gia; tạo tâm thế tích cực cho HS trải nghiệm nội dung mới.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Chơi trò chơi Tung bóng (5 phút)\nMục tiêu: HS chia sẻ nhanh về những hoạt động xã hội mình biết hoặc từng tham gia; tạo tâm thế tích cực cho HS trải nghiệm nội dung mới.\n* Cách tiến hành:"
             ],
             [
@@ -9984,7 +9441,6 @@
               "- HS lắng nghe kết luận.\n- HS nhận biết hoạt động xã hội gần gũi với cuộc sống hằng ngày."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Tìm hiểu về hoạt động xã hội (15 phút)\nMục tiêu: HS nhận biết được nội dung, ý nghĩa và hình thức của hoạt động xã hội.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Tìm hiểu về hoạt động xã hội (15 phút)\nMục tiêu: HS nhận biết được nội dung, ý nghĩa và hình thức của hoạt động xã hội.\n* Cách tiến hành:"
             ],
             [
@@ -10008,7 +9464,6 @@
               "- HS lắng nghe kết luận.\n- HS nêu lại được nội dung, hình thức và ý nghĩa của hoạt động xã hội."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI: Lập kế hoạch tham gia hoạt động xã hội ở địa phương (15 phút)\nMục tiêu: HS lập được kế hoạch tham gia hoạt động xã hội ở địa phương.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI: Lập kế hoạch tham gia hoạt động xã hội ở địa phương (15 phút)\nMục tiêu: HS lập được kế hoạch tham gia hoạt động xã hội ở địa phương.\n* Cách tiến hành:"
             ],
             [
@@ -10032,7 +9487,6 @@
               "- HS lắng nghe nhận xét.\n- Các nhóm hoàn thiện lại bản kế hoạch tham gia hoạt động xã hội."
             ],
             [
-              "4. VẬN DỤNG (5 phút)\nMục tiêu: HS thể hiện tinh thần sẵn sàng tham gia hoạt động xã hội và chuẩn bị thực hiện theo kế hoạch đã lập.\n* Cách tiến hành:",
               "4. VẬN DỤNG (5 phút)\nMục tiêu: HS thể hiện tinh thần sẵn sàng tham gia hoạt động xã hội và chuẩn bị thực hiện theo kế hoạch đã lập.\n* Cách tiến hành:"
             ],
             [
@@ -10045,12 +9499,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 26: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA HOẠT ĐỘNG XÃ HỘI"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 26: TIẾT 3 - SINH HOẠT LỚP: CHUNG TAY VÌ CỘNG ĐỒNG",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 26",
+        "lessonTitle": "SINH HOẠT LỚP: CHUNG TAY VÌ CỘNG ĐỒNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS trải nghiệm được ý nghĩa của hoạt động xã hội với bản thân và cộng đồng thông qua một hoạt động lao động công ích phù hợp.",
@@ -10073,10 +9529,6 @@
           "- HS: Dụng cụ cần thiết theo phân công; kết quả, hình ảnh hoặc ghi chép về hoạt động lao động công ích; bút màu để ghi cảm xúc sau hoạt động."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10084,7 +9536,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS tạo không khí tích cực, nhắc lại chủ đề tham gia hoạt động xã hội và chuẩn bị chia sẻ kết quả thực hành.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS tạo không khí tích cực, nhắc lại chủ đề tham gia hoạt động xã hội và chuẩn bị chia sẻ kết quả thực hành.\n* Cách tiến hành:"
             ],
             [
@@ -10096,11 +9547,9 @@
               "- HS lắng nghe và sẵn sàng bước vào tiết sinh hoạt lớp."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 26 và thống nhất phương hướng hoạt động tuần 27.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 26 và thống nhất phương hướng hoạt động tuần 27.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 26",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 26"
             ],
             [
@@ -10112,7 +9561,6 @@
               "- HS lắng nghe nhận xét.\n- HS ghi nhận ưu điểm, hạn chế và nêu hướng khắc phục."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 27",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 27"
             ],
             [
@@ -10124,7 +9572,6 @@
               "- HS chọn một việc làm cụ thể để thực hiện.\n- HS sẵn sàng chia sẻ kết quả trải nghiệm."
             ],
             [
-              "3. THỰC HÀNH: Tham gia hoạt động lao động công ích (20 phút)\nMục tiêu: HS tham gia hoạt động lao động công ích như một loại hoạt động xã hội, thấu hiểu ý nghĩa và có cảm xúc từ hoạt động lao động công ích.\n* Cách tiến hành:",
               "3. THỰC HÀNH: Tham gia hoạt động lao động công ích (20 phút)\nMục tiêu: HS tham gia hoạt động lao động công ích như một loại hoạt động xã hội, thấu hiểu ý nghĩa và có cảm xúc từ hoạt động lao động công ích.\n* Cách tiến hành:"
             ],
             [
@@ -10148,7 +9595,6 @@
               "- HS lắng nghe kết luận.\n- HS hiểu ý nghĩa của hoạt động xã hội đối với bản thân và cộng đồng."
             ],
             [
-              "4. VẬN DỤNG (5 phút)\nMục tiêu: HS biết kể lại hoạt động lao động công ích với người thân và vận động người thân cùng tham gia một hoạt động xã hội tại địa phương.\n* Cách tiến hành:",
               "4. VẬN DỤNG (5 phút)\nMục tiêu: HS biết kể lại hoạt động lao động công ích với người thân và vận động người thân cùng tham gia một hoạt động xã hội tại địa phương.\n* Cách tiến hành:"
             ],
             [
@@ -10161,7 +9607,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 26: TIẾT 3 - SINH HOẠT LỚP: CHUNG TAY VÌ CỘNG ĐỒNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -10170,9 +9619,8 @@
     "sourceFile": "HĐTN TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 27: TIẾT 1 - SINH HOẠT DƯỚI CỜ: GƯƠNG NGƯỜI TỐT, VIỆC TỐT",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 27",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GƯƠNG NGƯỜI TỐT, VIỆC TỐT - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ về chủ đề “Người tốt, việc tốt” theo kế hoạch của nhà trường.",
@@ -10192,10 +9640,6 @@
           "- HS: Trang phục gọn gàng; chuẩn bị một câu chuyện, một việc tốt hoặc một lời cảm ơn muốn chia sẻ với thầy cô, bạn bè, người xung quanh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10203,7 +9647,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động “Gương người tốt, việc tốt”.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động “Gương người tốt, việc tốt”.\n* Cách tiến hành:"
             ],
             [
@@ -10219,7 +9662,6 @@
               "- HS thực hiện nền nếp sinh hoạt dưới cờ.\n- HS thể hiện thái độ lịch sự, tôn trọng người đang biểu diễn hoặc phát biểu."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia biểu diễn hoặc theo dõi chương trình về chủ đề “Người tốt, việc tốt”; chia sẻ được cảm xúc và liên hệ với việc thiết lập quan hệ thân thiện với người xung quanh.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia biểu diễn hoặc theo dõi chương trình về chủ đề “Người tốt, việc tốt”; chia sẻ được cảm xúc và liên hệ với việc thiết lập quan hệ thân thiện với người xung quanh.\n* Cách tiến hành:"
             ],
             [
@@ -10243,7 +9685,6 @@
               "- HS lắng nghe kết luận.\n- HS đồng thanh đọc thông điệp và thể hiện quyết tâm thực hiện việc tốt."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều thu nhận được và lựa chọn một hành động thân thiện sẽ thực hiện trong tuần.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều thu nhận được và lựa chọn một hành động thân thiện sẽ thực hiện trong tuần.\n* Cách tiến hành:"
             ],
             [
@@ -10256,12 +9697,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 27: TIẾT 1 - SINH HOẠT DƯỚI CỜ: GƯƠNG NGƯỜI TỐT, VIỆC TỐT"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 27: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÂN THIỆN VỚI NGƯỜI XUNG QUANH",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 27",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÂN THIỆN VỚI NGƯỜI XUNG QUANH - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS trình bày được những cách thiết lập quan hệ thân thiện với những người xung quanh và ý nghĩa của việc làm đó.",
@@ -10284,10 +9727,6 @@
           "- HS: Tranh ảnh những người thân quen; bút, giấy nháp; chuẩn bị một câu chuyện hoặc việc làm thể hiện sự thân thiện với người xung quanh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10295,7 +9734,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Tìm hiểu một số câu tục ngữ Việt Nam (5 phút)\nMục tiêu: HS cởi mở chia sẻ ý nghĩa của câu tục ngữ và nhận ra sự cần thiết phải xây dựng mối quan hệ thân thiện với mọi người xung quanh.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Tìm hiểu một số câu tục ngữ Việt Nam (5 phút)\nMục tiêu: HS cởi mở chia sẻ ý nghĩa của câu tục ngữ và nhận ra sự cần thiết phải xây dựng mối quan hệ thân thiện với mọi người xung quanh.\n* Cách tiến hành:"
             ],
             [
@@ -10311,7 +9749,6 @@
               "- HS lắng nghe kết luận.\n- HS nhận ra ý nghĩa của việc xây dựng mối quan hệ thân thiện."
             ],
             [
-              "2. KHÁM PHÁ – TRẢI NGHIỆM CHỦ ĐỀ: Nhận diện về mối quan hệ thân thiện với những người xung quanh (15 phút)\nMục tiêu: HS xác định được những người cần thiết lập quan hệ thân thiện và cách thiết lập quan hệ thân thiện với họ.\n* Cách tiến hành:",
               "2. KHÁM PHÁ – TRẢI NGHIỆM CHỦ ĐỀ: Nhận diện về mối quan hệ thân thiện với những người xung quanh (15 phút)\nMục tiêu: HS xác định được những người cần thiết lập quan hệ thân thiện và cách thiết lập quan hệ thân thiện với họ.\n* Cách tiến hành:"
             ],
             [
@@ -10339,7 +9776,6 @@
               "- HS lắng nghe kết luận.\n- HS ghi nhớ những việc làm cụ thể để thiết lập quan hệ thân thiện."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT – THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI: Thực hành thiết lập quan hệ thân thiện với những người xung quanh (20 phút)\nMục tiêu: HS phân tích, lựa chọn được các hành vi, việc làm thể hiện cách ứng xử phù hợp nhằm thiết lập mối quan hệ thân thiện với những người xung quanh.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT – THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI: Thực hành thiết lập quan hệ thân thiện với những người xung quanh (20 phút)\nMục tiêu: HS phân tích, lựa chọn được các hành vi, việc làm thể hiện cách ứng xử phù hợp nhằm thiết lập mối quan hệ thân thiện với những người xung quanh.\n* Cách tiến hành:"
             ],
             [
@@ -10367,7 +9803,6 @@
               "- HS lắng nghe kết luận.\n- HS rút ra bài học về cách ứng xử thân thiện với người xung quanh."
             ],
             [
-              "4. VẬN DỤNG (5 phút)\nMục tiêu: HS tiếp tục thể hiện việc giao tiếp thân thiện với các bạn trong lớp, các bạn khác lớp và những người xung quanh.\n* Cách tiến hành:",
               "4. VẬN DỤNG (5 phút)\nMục tiêu: HS tiếp tục thể hiện việc giao tiếp thân thiện với các bạn trong lớp, các bạn khác lớp và những người xung quanh.\n* Cách tiến hành:"
             ],
             [
@@ -10380,12 +9815,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 27: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÂN THIỆN VỚI NGƯỜI XUNG QUANH"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 27: TIẾT 3 - SINH HOẠT LỚP: ĐÁNH GIÁ VIỆC THAM GIA HOẠT ĐỘNG XÃ HỘI",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 27",
+        "lessonTitle": "SINH HOẠT LỚP: ĐÁNH GIÁ VIỆC THAM GIA HOẠT ĐỘNG XÃ HỘI - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS đánh giá được những đóng góp của bản thân khi tham gia hoạt động xã hội thông qua báo cáo được minh họa bằng hình ảnh, thước phim, số liệu, tranh vẽ, sơ đồ tư duy hoặc bài viết.",
@@ -10408,10 +9845,6 @@
           "- HS: Báo cáo kết quả tham gia hoạt động xã hội bằng tranh ảnh, thước phim, ghi âm, kết quả ghi chép, sơ đồ tư duy, bài văn vần; bút màu, bút viết."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10419,7 +9852,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS tạo không khí thân thiện, nhắc lại chủ đề người tốt, việc tốt và chuẩn bị chia sẻ kết quả tham gia hoạt động xã hội.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS tạo không khí thân thiện, nhắc lại chủ đề người tốt, việc tốt và chuẩn bị chia sẻ kết quả tham gia hoạt động xã hội.\n* Cách tiến hành:"
             ],
             [
@@ -10431,11 +9863,9 @@
               "- HS lắng nghe và sẵn sàng bước vào tiết sinh hoạt lớp."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 27 và thống nhất phương hướng hoạt động tuần 28.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 27 và thống nhất phương hướng hoạt động tuần 28.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 27",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 27"
             ],
             [
@@ -10447,7 +9877,6 @@
               "- HS lắng nghe nhận xét.\n- HS ghi nhận ưu điểm, hạn chế và nêu hướng khắc phục."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 28",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 28"
             ],
             [
@@ -10459,7 +9888,6 @@
               "- HS ghi nhớ nhiệm vụ tuần 28.\n- HS sẵn sàng chia sẻ báo cáo hoạt động xã hội."
             ],
             [
-              "3. THỰC HÀNH: Đánh giá sự đóng góp của em khi tham gia hoạt động xã hội (12 phút)\nMục tiêu: HS đánh giá được sự đóng góp của bản thân khi tham gia hoạt động xã hội thông qua bản báo cáo được minh họa bằng hình ảnh, thước phim, số liệu, tranh vẽ, sơ đồ tư duy hoặc bài viết.\n* Cách tiến hành:",
               "3. THỰC HÀNH: Đánh giá sự đóng góp của em khi tham gia hoạt động xã hội (12 phút)\nMục tiêu: HS đánh giá được sự đóng góp của bản thân khi tham gia hoạt động xã hội thông qua bản báo cáo được minh họa bằng hình ảnh, thước phim, số liệu, tranh vẽ, sơ đồ tư duy hoặc bài viết.\n* Cách tiến hành:"
             ],
             [
@@ -10483,7 +9911,6 @@
               "- HS lắng nghe kết luận.\n- HS hiểu ý nghĩa của sự đóng góp cá nhân trong hoạt động xã hội."
             ],
             [
-              "4. THỰC HÀNH: Đánh giá sự tiến bộ của các thành viên khi tham gia hoạt động xã hội (10 phút)\nMục tiêu: HS đánh giá được sự tiến bộ, sự thay đổi của bản thân và các thành viên khi tham gia hoạt động xã hội.\n* Cách tiến hành:",
               "4. THỰC HÀNH: Đánh giá sự tiến bộ của các thành viên khi tham gia hoạt động xã hội (10 phút)\nMục tiêu: HS đánh giá được sự tiến bộ, sự thay đổi của bản thân và các thành viên khi tham gia hoạt động xã hội.\n* Cách tiến hành:"
             ],
             [
@@ -10503,7 +9930,6 @@
               "- HS lắng nghe kết luận.\n- HS tự hào về sự tiến bộ của bản thân và các bạn."
             ],
             [
-              "5. TỰ ĐÁNH GIÁ SAU CHỦ ĐỀ VÀ VẬN DỤNG (8 phút)\nMục tiêu: HS tự đánh giá kết quả tham gia chủ đề “Tham gia hoạt động xã hội” và biết tiếp tục tham gia các hoạt động xã hội phù hợp.\n* Cách tiến hành:",
               "5. TỰ ĐÁNH GIÁ SAU CHỦ ĐỀ VÀ VẬN DỤNG (8 phút)\nMục tiêu: HS tự đánh giá kết quả tham gia chủ đề “Tham gia hoạt động xã hội” và biết tiếp tục tham gia các hoạt động xã hội phù hợp.\n* Cách tiến hành:"
             ],
             [
@@ -10520,7 +9946,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 27: TIẾT 3 - SINH HOẠT LỚP: ĐÁNH GIÁ VIỆC THAM GIA HOẠT ĐỘNG XÃ HỘI"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -10529,9 +9958,8 @@
     "sourceFile": "HĐTN TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 28: TIẾT 1 - SINH HOẠT DƯỚI CỜ: BÌNH ẢNH QUÊ HƯƠNG",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 28",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: BÌNH ẢNH QUÊ HƯƠNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ với chủ đề ca ngợi cảnh đẹp quê hương, đất nước.",
@@ -10551,10 +9979,6 @@
           "- HS: Trang phục gọn gàng; chuẩn bị tinh thần tham gia, cổ vũ văn minh và một câu chia sẻ về cảnh đẹp quê hương em yêu thích."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10562,7 +9986,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động “Bình ảnh quê hương”.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động “Bình ảnh quê hương”.\n* Cách tiến hành:"
             ],
             [
@@ -10578,7 +10001,6 @@
               "- HS thực hiện nền nếp sinh hoạt dưới cờ.\n- HS thể hiện thái độ lịch sự, tôn trọng người biểu diễn và người điều hành chương trình."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia biểu diễn hoặc theo dõi văn nghệ ca ngợi cảnh đẹp quê hương, đất nước; chia sẻ được cảm xúc sau buổi biểu diễn.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia biểu diễn hoặc theo dõi văn nghệ ca ngợi cảnh đẹp quê hương, đất nước; chia sẻ được cảm xúc sau buổi biểu diễn.\n* Cách tiến hành:"
             ],
             [
@@ -10602,7 +10024,6 @@
               "- HS lắng nghe kết luận.\n- HS đồng thanh đọc thông điệp và thể hiện quyết tâm giữ gìn cảnh quan."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều thu nhận được và lựa chọn một việc làm thể hiện niềm tự hào, trách nhiệm với cảnh quan quê hương.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều thu nhận được và lựa chọn một việc làm thể hiện niềm tự hào, trách nhiệm với cảnh quan quê hương.\n* Cách tiến hành:"
             ],
             [
@@ -10615,12 +10036,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 28: TIẾT 1 - SINH HOẠT DƯỚI CỜ: BÌNH ẢNH QUÊ HƯƠNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 28: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ HÀO VỀ CẢNH QUAN THIÊN NHIÊN CỦA QUÊ HƯƠNG, ĐẤT NƯỚC",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 28",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ HÀO VỀ CẢNH QUAN THIÊN NHIÊN CỦA QUÊ HƯƠNG, ĐẤT NƯỚC - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nhận biết được vẻ đẹp của một số cảnh quan thiên nhiên ở địa phương, quê hương, đất nước.",
@@ -10636,17 +10059,15 @@
           "- Chăm chỉ: Tích cực tham gia thảo luận, tìm hiểu và hoàn thành nhiệm vụ nhóm.",
           "4. Tích hợp",
           "- Tích hợp AI (5.A2.2): Tìm hiểu cách AI giúp theo dõi đa dạng sinh học và bảo tồn các loài động vật hoang dã tại địa phương.",
-          "- Tích hợp BVMT: HS tự hào về cảnh quan thiên nhiên quê hương, đất nước; biết yêu cây xanh, sông núi, biển đảo và có ý thức không xả rác, không phá hoại cảnh quan."
+          "- Tích hợp BVMT: HS tự hào về cảnh quan thiên nhiên quê hương, đất nước; biết yêu cây xanh, sông núi, biển đảo và có ý thức không xả rác, không phá hoại cảnh quan.",
+          "- Giáo dục địa phương (Chủ đề 3, 8): Tự hào cảnh quan thiên nhiên quê hương Trà Vinh: Khu du lịch Biển Ba Động, Cồn Chim, cù lao Long Trị ven sông Cổ Chiên; tìm hiểu tiềm năng kinh tế biển và Cánh đồng Điện gió Duyên Hải kì vĩ.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Nhận thức tầm quan trọng của việc bảo vệ nguồn nước ngọt, bảo tồn hệ sinh thái rừng ngập mặn ven biển Trà Vinh và giữ gìn môi trường biển không rác thải nhựa."
         ],
         "dodung": [
           "- GV: Video hoặc hình ảnh về cảnh quan thiên nhiên địa phương, tranh minh họa SGK, giấy A0/A3, bút màu, máy tính/ti vi nếu có.",
           "- HS: Bút màu, tranh ảnh hoặc thông tin về một cảnh quan thiên nhiên em yêu thích; chuẩn bị tinh thần chia sẻ trong nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10654,7 +10075,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Chơi đố vui “Đây là đâu?” (5 phút)\nMục tiêu: Tạo không khí vui vẻ, hứng khởi cho HS trước khi bước vào khám phá cảnh đẹp quê hương.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Chơi đố vui “Đây là đâu?” (5 phút)\nMục tiêu: Tạo không khí vui vẻ, hứng khởi cho HS trước khi bước vào khám phá cảnh đẹp quê hương.\n* Cách tiến hành:"
             ],
             [
@@ -10670,7 +10090,6 @@
               "- HS lắng nghe, chuẩn bị bước vào hoạt động khám phá."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Thể hiện cảm xúc và niềm tự hào về cảnh quan thiên nhiên (12 phút)\nMục tiêu: HS có cảm xúc tích cực, tự hào khi quan sát hình ảnh cảnh quan thiên nhiên và biết cách thể hiện cảm xúc, niềm tự hào đó.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Thể hiện cảm xúc và niềm tự hào về cảnh quan thiên nhiên (12 phút)\nMục tiêu: HS có cảm xúc tích cực, tự hào khi quan sát hình ảnh cảnh quan thiên nhiên và biết cách thể hiện cảm xúc, niềm tự hào đó.\n* Cách tiến hành:"
             ],
             [
@@ -10694,7 +10113,6 @@
               "- HS lắng nghe kết luận.\n- HS thể hiện quyết tâm yêu quý và bảo vệ cảnh quan."
             ],
             [
-              "3. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Tìm hiểu về nét đặc sắc của cảnh quan thiên nhiên Việt Nam (13 phút)\nMục tiêu: HS khám phá được nét đặc sắc của các cảnh quan tiêu biểu trên các miền đất nước, từ đó khơi dậy niềm tự hào đối với cảnh quan quê hương.\n* Cách tiến hành:",
               "3. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Tìm hiểu về nét đặc sắc của cảnh quan thiên nhiên Việt Nam (13 phút)\nMục tiêu: HS khám phá được nét đặc sắc của các cảnh quan tiêu biểu trên các miền đất nước, từ đó khơi dậy niềm tự hào đối với cảnh quan quê hương.\n* Cách tiến hành:"
             ],
             [
@@ -10718,7 +10136,6 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ tiếp tục tìm hiểu."
             ],
             [
-              "4. MỞ RỘNG VÀ TỔNG KẾT: Cửa sổ du lịch (5 phút)\nMục tiêu: HS biết cách tìm hiểu về nét đặc sắc của cảnh quan ở các vùng miền.\n* Cách tiến hành:",
               "4. MỞ RỘNG VÀ TỔNG KẾT: Cửa sổ du lịch (5 phút)\nMục tiêu: HS biết cách tìm hiểu về nét đặc sắc của cảnh quan ở các vùng miền.\n* Cách tiến hành:"
             ],
             [
@@ -10728,15 +10145,21 @@
             [
               "- GV đề nghị nhóm HS sử dụng các cách thức đã gợi ý để tìm hiểu thêm về cảnh quan đã chọn.\n- GV giao nhiệm vụ vận dụng: hoàn thành báo cáo tìm hiểu cảnh quan của nhóm và luyện tập giới thiệu về vẻ đẹp cảnh quan thiên nhiên với người xung quanh.",
               "- HS nhận nhiệm vụ tiếp tục tìm hiểu.\n- HS ghi nhớ cần hoàn thành báo cáo và luyện tập giới thiệu."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 3, 8) & Mizuiku: GV trình chiếu hình ảnh, video giới thiệu cảnh quan thiên nhiên Trà Vinh: Biển Ba Động (thị xã Duyên Hải), cù lao Cồn Chim trù phú sông nước, những cánh tuabin Điện gió vươn cao trên biển; giáo dục HS niềm tự hào quê hương gắn liền với trách nhiệm bảo vệ nguồn nước ngọt quý giá vùng ven biển, không xả rác thải nhựa làm ô nhiễm bãi biển và rừng ngập mặn.",
+              "- HS hào hứng quan sát, nhận diện các danh lam thắng cảnh của Trà Vinh; chia sẻ cảm xúc tự hào và cam kết luôn có ý thức giữ gìn vệ sinh, bảo vệ nguồn nước sạch khi đi tham quan, du lịch."
             ]
           ]
         ],
-        "title": "TUẦN 28: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ HÀO VỀ CẢNH QUAN THIÊN NHIÊN CỦA QUÊ HƯƠNG, ĐẤT NƯỚC"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 28: TIẾT 3 - SINH HOẠT LỚP: VIỆT NAM TRONG MẮT EM",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 28",
+        "lessonTitle": "SINH HOẠT LỚP: VIỆT NAM TRONG MẮT EM - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS giới thiệu được cảnh quan thiên nhiên mà nhóm đã tìm hiểu.",
@@ -10759,10 +10182,6 @@
           "- HS: Báo cáo tìm hiểu cảnh quan của nhóm; tranh ảnh, tư liệu sưu tầm; vật liệu tạo hình cảnh quan thiên nhiên, ưu tiên vật liệu tái chế."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10770,7 +10189,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS khởi động nhẹ nhàng, gợi nhớ chủ đề tự hào quê hương và sẵn sàng giới thiệu cảnh quan thiên nhiên đã tìm hiểu.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS khởi động nhẹ nhàng, gợi nhớ chủ đề tự hào quê hương và sẵn sàng giới thiệu cảnh quan thiên nhiên đã tìm hiểu.\n* Cách tiến hành:"
             ],
             [
@@ -10782,11 +10200,9 @@
               "- HS lắng nghe và sẵn sàng chia sẻ kết quả nhóm."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 28 và thống nhất phương hướng hoạt động tuần 29.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 28 và thống nhất phương hướng hoạt động tuần 29.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 28",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 28"
             ],
             [
@@ -10798,7 +10214,6 @@
               "- HS lắng nghe nhận xét.\n- HS ghi nhận ưu điểm, hạn chế và nêu hướng khắc phục."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 29",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 29"
             ],
             [
@@ -10810,7 +10225,6 @@
               "- HS ghi nhớ nhiệm vụ tuần 29.\n- HS sẵn sàng giới thiệu cảnh quan thiên nhiên đã tìm hiểu."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Giới thiệu cảnh quan thiên nhiên (10 phút)\nMục tiêu: HS giới thiệu được về cảnh quan thiên nhiên mà nhóm đã tìm hiểu.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Giới thiệu cảnh quan thiên nhiên (10 phút)\nMục tiêu: HS giới thiệu được về cảnh quan thiên nhiên mà nhóm đã tìm hiểu.\n* Cách tiến hành:"
             ],
             [
@@ -10834,7 +10248,6 @@
               "- HS tham gia bình chọn, nhận xét tích cực.\n- HS tự hào về cảnh quan thiên nhiên được giới thiệu."
             ],
             [
-              "4. THỰC HÀNH: Thiết kế sản phẩm tạo hình cảnh quan thiên nhiên (17 phút)\nMục tiêu: HS tạo hình được cảnh quan thiên nhiên mình yêu thích.\n* Cách tiến hành:",
               "4. THỰC HÀNH: Thiết kế sản phẩm tạo hình cảnh quan thiên nhiên (17 phút)\nMục tiêu: HS tạo hình được cảnh quan thiên nhiên mình yêu thích.\n* Cách tiến hành:"
             ],
             [
@@ -10862,7 +10275,6 @@
               "- HS lắng nghe kết luận.\n- HS ghi chép góp ý của thầy cô và các bạn để tiếp tục hoàn thiện sản phẩm."
             ],
             [
-              "5. VẬN DỤNG (3 phút)\nMục tiêu: HS biết hoàn thiện sản phẩm và chuẩn bị tham gia triển lãm “Việt Nam quê hương em” của trường.\n* Cách tiến hành:",
               "5. VẬN DỤNG (3 phút)\nMục tiêu: HS biết hoàn thiện sản phẩm và chuẩn bị tham gia triển lãm “Việt Nam quê hương em” của trường.\n* Cách tiến hành:"
             ],
             [
@@ -10871,7 +10283,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 28: TIẾT 3 - SINH HOẠT LỚP: VIỆT NAM TRONG MẮT EM"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -10880,9 +10295,8 @@
     "sourceFile": "HĐTN TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 29: TIẾT 1 - SINH HOẠT DƯỚI CỜ: BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 29",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: BẢO TỒN CẢNH QUAN THIÊN NHIÊN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động sinh hoạt dưới cờ với chủ đề bảo tồn cảnh quan thiên nhiên.",
@@ -10902,10 +10316,6 @@
           "- HS: Trang phục gọn gàng, tâm thế tham gia nghiêm túc, một ý kiến về việc làm bảo tồn cảnh quan thiên nhiên."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10913,7 +10323,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:"
             ],
             [
@@ -10941,7 +10350,6 @@
               "- HS biết quan sát, lắng nghe và tôn trọng sản phẩm của các lớp."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia triển lãm sản phẩm giới thiệu cảnh quan thiên nhiên và nghe giới thiệu về những biện pháp bảo tồn cảnh quan thiên nhiên ở địa phương.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia triển lãm sản phẩm giới thiệu cảnh quan thiên nhiên và nghe giới thiệu về những biện pháp bảo tồn cảnh quan thiên nhiên ở địa phương.\n* Cách tiến hành:"
             ],
             [
@@ -10985,7 +10393,6 @@
               "- HS đồng thanh đọc thông điệp và thể hiện quyết tâm bảo vệ cảnh quan."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và chuẩn bị cho hoạt động đề xuất biện pháp bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ điều học được và chuẩn bị cho hoạt động đề xuất biện pháp bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:"
             ],
             [
@@ -11006,12 +10413,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 29: TIẾT 1 - SINH HOẠT DƯỚI CỜ: BẢO TỒN CẢNH QUAN THIÊN NHIÊN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 29: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIỆN PHÁP BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 29",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIỆN PHÁP BẢO TỒN CẢNH QUAN THIÊN NHIÊN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nhận diện được một số việc làm nên làm và không nên làm đối với cảnh quan thiên nhiên.",
@@ -11034,10 +10443,6 @@
           "- HS: Bìa màu hoặc giấy, bút màu, kéo; ví dụ về việc làm nên làm/không nên làm đối với cảnh quan thiên nhiên."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11045,7 +10450,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Hát hoặc nghe các bài hát về cảnh quan thiên nhiên (5 phút)\nMục tiêu: Tạo cảm giác hứng khởi cho HS trước khi bắt đầu nội dung bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Hát hoặc nghe các bài hát về cảnh quan thiên nhiên (5 phút)\nMục tiêu: Tạo cảm giác hứng khởi cho HS trước khi bắt đầu nội dung bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:"
             ],
             [
@@ -11065,7 +10469,6 @@
               "- HS lắng nghe GV dẫn vào bài."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Nhận diện những việc làm để bảo tồn cảnh quan thiên nhiên (12 phút)\nMục tiêu: HS nhận ra được các việc làm để bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Nhận diện những việc làm để bảo tồn cảnh quan thiên nhiên (12 phút)\nMục tiêu: HS nhận ra được các việc làm để bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:"
             ],
             [
@@ -11117,7 +10520,6 @@
               "- HS lắng nghe kết luận.\n- HS ghi nhớ những việc làm cần thiết để bảo tồn cảnh quan."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI: Đề xuất các biện pháp bảo tồn cảnh quan thiên nhiên (20 phút)\nMục tiêu: HS chủ động đề xuất được những hành động cụ thể để bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI: Đề xuất các biện pháp bảo tồn cảnh quan thiên nhiên (20 phút)\nMục tiêu: HS chủ động đề xuất được những hành động cụ thể để bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:"
             ],
             [
@@ -11177,7 +10579,6 @@
               "- HS lắng nghe kết luận.\n- HS ghi nhớ các biện pháp bảo tồn cảnh quan thiên nhiên."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục tìm hiểu thêm biện pháp bảo tồn cảnh quan thiên nhiên cùng người thân và liên hệ với nơi mình sinh sống.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục tìm hiểu thêm biện pháp bảo tồn cảnh quan thiên nhiên cùng người thân và liên hệ với nơi mình sinh sống.\n* Cách tiến hành:"
             ],
             [
@@ -11190,12 +10591,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 29: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIỆN PHÁP BẢO TỒN CẢNH QUAN THIÊN NHIÊN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 29: TIẾT 3 - SINH HOẠT LỚP: TUYÊN TRUYỀN VỀ VIỆC BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 29",
+        "lessonTitle": "SINH HOẠT LỚP: TUYÊN TRUYỀN VỀ VIỆC BẢO TỒN CẢNH QUAN THIÊN NHIÊN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS chia sẻ được những biện pháp bảo tồn cảnh quan thiên nhiên đã tìm hiểu cùng người thân.",
@@ -11218,10 +10621,6 @@
           "- HS: Kết quả tìm hiểu cùng người thân, bìa màu hoặc giấy, bút màu, kéo, vật liệu làm sản phẩm tuyên truyền."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11229,7 +10628,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS khởi động nhẹ nhàng, gợi nhớ chủ đề bảo tồn cảnh quan thiên nhiên và sẵn sàng chia sẻ kết quả vận dụng.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS khởi động nhẹ nhàng, gợi nhớ chủ đề bảo tồn cảnh quan thiên nhiên và sẵn sàng chia sẻ kết quả vận dụng.\n* Cách tiến hành:"
             ],
             [
@@ -11245,11 +10643,9 @@
               "- HS lắng nghe và chuẩn bị chia sẻ."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 29 và thống nhất phương hướng hoạt động tuần 30.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 29 và thống nhất phương hướng hoạt động tuần 30.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 29",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 29"
             ],
             [
@@ -11269,7 +10665,6 @@
               "- HS ghi nhận ưu điểm, hạn chế và nêu hướng khắc phục."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 30",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 30"
             ],
             [
@@ -11289,7 +10684,6 @@
               "- HS sẵn sàng chia sẻ kết quả tìm hiểu cùng người thân."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Chia sẻ về biện pháp bảo tồn cảnh quan thiên nhiên đã tìm hiểu cùng người thân (10 phút)\nMục tiêu: HS chia sẻ về kết quả đã thực hiện tại nhà cùng người thân.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Chia sẻ về biện pháp bảo tồn cảnh quan thiên nhiên đã tìm hiểu cùng người thân (10 phút)\nMục tiêu: HS chia sẻ về kết quả đã thực hiện tại nhà cùng người thân.\n* Cách tiến hành:"
             ],
             [
@@ -11313,7 +10707,6 @@
               "- HS lắng nghe kết luận.\n- HS chuẩn bị lựa chọn nội dung tuyên truyền."
             ],
             [
-              "4. THỰC HÀNH: Thực hành làm sản phẩm tuyên truyền về việc bảo tồn cảnh quan thiên nhiên (17 phút)\nMục tiêu: HS làm được một sản phẩm tuyên truyền bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:",
               "4. THỰC HÀNH: Thực hành làm sản phẩm tuyên truyền về việc bảo tồn cảnh quan thiên nhiên (17 phút)\nMục tiêu: HS làm được một sản phẩm tuyên truyền bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:"
             ],
             [
@@ -11357,7 +10750,6 @@
               "- HS lắng nghe kết luận.\n- HS tự đánh giá sản phẩm và tinh thần làm việc nhóm."
             ],
             [
-              "5. VẬN DỤNG (3 phút)\nMục tiêu: HS hoàn thiện sản phẩm tuyên truyền và lựa chọn hình thức phù hợp để thông điệp đến với cộng đồng.\n* Cách tiến hành:",
               "5. VẬN DỤNG (3 phút)\nMục tiêu: HS hoàn thiện sản phẩm tuyên truyền và lựa chọn hình thức phù hợp để thông điệp đến với cộng đồng.\n* Cách tiến hành:"
             ],
             [
@@ -11390,7 +10782,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 29: TIẾT 3 - SINH HOẠT LỚP: TUYÊN TRUYỀN VỀ VIỆC BẢO TỒN CẢNH QUAN THIÊN NHIÊN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -11399,9 +10794,8 @@
     "sourceFile": "HĐTN TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 30: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SẢN PHẨM TUYÊN TRUYỀN BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 30",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SẢN PHẨM TUYÊN TRUYỀN BẢO TỒN CẢNH QUAN THIÊN NHIÊN - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS tham gia nghiêm túc hoạt động trưng bày sản phẩm tuyên truyền bảo tồn cảnh quan thiên nhiên.",
@@ -11421,10 +10815,6 @@
           "- HS: Sản phẩm tuyên truyền bảo tồn cảnh quan thiên nhiên đã hoàn thiện; lời giới thiệu ngắn về ý nghĩa sản phẩm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11432,7 +10822,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, chuẩn bị sản phẩm và sẵn sàng tham gia hoạt động trưng bày, chia sẻ ý nghĩa sản phẩm tuyên truyền.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, chuẩn bị sản phẩm và sẵn sàng tham gia hoạt động trưng bày, chia sẻ ý nghĩa sản phẩm tuyên truyền.\n* Cách tiến hành:"
             ],
             [
@@ -11452,7 +10841,6 @@
               "- HS chuẩn bị nhận xét lịch sự, tích cực."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS trưng bày sản phẩm tuyên truyền, chia sẻ ý nghĩa sản phẩm và học cách lan tỏa thông điệp bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS trưng bày sản phẩm tuyên truyền, chia sẻ ý nghĩa sản phẩm và học cách lan tỏa thông điệp bảo tồn cảnh quan thiên nhiên.\n* Cách tiến hành:"
             ],
             [
@@ -11496,7 +10884,6 @@
               "- HS đồng thanh đọc thông điệp."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS rút kinh nghiệm từ hoạt động trưng bày và chuẩn bị cho chủ đề khảo sát thực trạng môi trường quanh em.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS rút kinh nghiệm từ hoạt động trưng bày và chuẩn bị cho chủ đề khảo sát thực trạng môi trường quanh em.\n* Cách tiến hành:"
             ],
             [
@@ -11517,12 +10904,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 30: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SẢN PHẨM TUYÊN TRUYỀN BẢO TỒN CẢNH QUAN THIÊN NHIÊN"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 30: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LẬP KẾ HOẠCH KHẢO SÁT THỰC TRẠNG MÔI TRƯỜNG QUANH EM",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 30",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LẬP KẾ HOẠCH KHẢO SÁT THỰC TRẠNG MÔI TRƯỜNG QUANH EM - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS nhận biết được một số dấu hiệu ô nhiễm môi trường nơi mình sinh sống.",
@@ -11545,10 +10934,6 @@
           "- HS: Bút màu, kéo, giấy màu; kết quả quan sát ban đầu về dấu hiệu môi trường sạch/chưa sạch ở nơi em sống."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11556,7 +10941,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Quan sát hiện trạng ô nhiễm môi trường (5 phút)\nMục tiêu: Tạo cảm giác hứng khởi, gợi mở cho HS bước vào hoạt động khám phá chủ đề về ô nhiễm môi trường.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Quan sát hiện trạng ô nhiễm môi trường (5 phút)\nMục tiêu: Tạo cảm giác hứng khởi, gợi mở cho HS bước vào hoạt động khám phá chủ đề về ô nhiễm môi trường.\n* Cách tiến hành:"
             ],
             [
@@ -11576,7 +10960,6 @@
               "- HS nêu: có rác thải, nước đục, khói bụi, mùi hôi, tiếng ồn, cống tắc, cây xanh bị héo hoặc ít cây xanh."
             ],
             [
-              "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Xác định dấu hiệu ô nhiễm môi trường và nguyên nhân (12 phút)\nMục tiêu: HS nhận ra được các dấu hiệu ô nhiễm môi trường và nguyên nhân gây ra tình trạng đó.\n* Cách tiến hành:",
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Xác định dấu hiệu ô nhiễm môi trường và nguyên nhân (12 phút)\nMục tiêu: HS nhận ra được các dấu hiệu ô nhiễm môi trường và nguyên nhân gây ra tình trạng đó.\n* Cách tiến hành:"
             ],
             [
@@ -11628,7 +11011,6 @@
               "- HS lắng nghe kết luận.\n- HS sẵn sàng xây dựng kế hoạch khảo sát."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI: Xây dựng kế hoạch khảo sát thực trạng môi trường (20 phút)\nMục tiêu: HS chủ động xây dựng được một kế hoạch để khảo sát thực trạng môi trường nơi mình sinh sống.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH, HÌNH THÀNH KIẾN THỨC MỚI: Xây dựng kế hoạch khảo sát thực trạng môi trường (20 phút)\nMục tiêu: HS chủ động xây dựng được một kế hoạch để khảo sát thực trạng môi trường nơi mình sinh sống.\n* Cách tiến hành:"
             ],
             [
@@ -11688,7 +11070,6 @@
               "- HS lắng nghe kết luận.\n- Các nhóm hoàn thiện lại kế hoạch và phiếu khảo sát."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS thực hiện khảo sát theo kế hoạch nhóm và nhiệm vụ được phân công.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS thực hiện khảo sát theo kế hoạch nhóm và nhiệm vụ được phân công.\n* Cách tiến hành:"
             ],
             [
@@ -11701,12 +11082,14 @@
             ]
           ]
         ],
-        "title": "TUẦN 30: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LẬP KẾ HOẠCH KHẢO SÁT THỰC TRẠNG MÔI TRƯỜNG QUANH EM"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 30: TIẾT 3 - SINH HOẠT LỚP: CHÚNG TÔI LÊN TIẾNG VÌ MÔI TRƯỜNG",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 30",
+        "lessonTitle": "SINH HOẠT LỚP: CHÚNG TÔI LÊN TIẾNG VÌ MÔI TRƯỜNG - Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS thực hiện và báo cáo được kết quả khảo sát về thực trạng môi trường của nhóm mình.",
@@ -11729,10 +11112,6 @@
           "- HS: Bản khảo sát của nhóm, ảnh minh chứng nếu có, ý tưởng thông tin đưa lên Bảng tin hoặc kịch bản tiểu phẩm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11740,7 +11119,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS khởi động, gợi nhớ nhiệm vụ khảo sát môi trường và sẵn sàng báo cáo kết quả nhóm.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (5 phút)\nMục tiêu: HS khởi động, gợi nhớ nhiệm vụ khảo sát môi trường và sẵn sàng báo cáo kết quả nhóm.\n* Cách tiến hành:"
             ],
             [
@@ -11756,11 +11134,9 @@
               "- HS lắng nghe và chuẩn bị báo cáo khảo sát."
             ],
             [
-              "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 30 và thống nhất phương hướng hoạt động tuần 31.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (10 phút)\nMục tiêu: HS tự nhận xét, tổng kết hoạt động tuần 30 và thống nhất phương hướng hoạt động tuần 31.\n* Cách tiến hành:"
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 30",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 30"
             ],
             [
@@ -11780,7 +11156,6 @@
               "- HS ghi nhận ưu điểm, hạn chế và nêu hướng khắc phục."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 31",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 31"
             ],
             [
@@ -11800,7 +11175,6 @@
               "- HS sẵn sàng báo cáo kết quả khảo sát."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Báo cáo kết quả khảo sát môi trường (15 phút)\nMục tiêu: HS cùng tham gia thiết lập Bảng tin và kênh Ra-đi-ô để đưa các thông tin về ô nhiễm môi trường mà nhóm khảo sát được.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Báo cáo kết quả khảo sát môi trường (15 phút)\nMục tiêu: HS cùng tham gia thiết lập Bảng tin và kênh Ra-đi-ô để đưa các thông tin về ô nhiễm môi trường mà nhóm khảo sát được.\n* Cách tiến hành:"
             ],
             [
@@ -11852,7 +11226,6 @@
               "- HS lắng nghe kết luận.\n- HS thống nhất nhiệm vụ tiếp tục hoàn thiện thông tin tuyên truyền."
             ],
             [
-              "4. THỰC HÀNH: Xây dựng kịch bản tiểu phẩm nói về những tổn thương của Trái Đất (12 phút)\nMục tiêu: HS gửi được thông điệp bảo vệ môi trường thông qua một kịch bản tiểu phẩm.\n* Cách tiến hành:",
               "4. THỰC HÀNH: Xây dựng kịch bản tiểu phẩm nói về những tổn thương của Trái Đất (12 phút)\nMục tiêu: HS gửi được thông điệp bảo vệ môi trường thông qua một kịch bản tiểu phẩm.\n* Cách tiến hành:"
             ],
             [
@@ -11904,7 +11277,6 @@
               "- HS lắng nghe kết luận.\n- HS ghi nhớ nhiệm vụ luyện tập và hoàn thiện kịch bản."
             ],
             [
-              "5. VẬN DỤNG (3 phút)\nMục tiêu: HS luyện tập tiểu phẩm và chuẩn bị trang phục, đạo cụ phù hợp với bối cảnh.\n* Cách tiến hành:",
               "5. VẬN DỤNG (3 phút)\nMục tiêu: HS luyện tập tiểu phẩm và chuẩn bị trang phục, đạo cụ phù hợp với bối cảnh.\n* Cách tiến hành:"
             ],
             [
@@ -11917,7 +11289,10 @@
             ]
           ]
         ],
-        "title": "TUẦN 30: TIẾT 3 - SINH HOẠT LỚP: CHÚNG TÔI LÊN TIẾNG VÌ MÔI TRƯỜNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -11926,9 +11301,8 @@
     "sourceFile": "HĐTN TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 31: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NGÀY CUỐI TUẦN VÌ TRÁI ĐẤT",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 31",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo chủ đề bảo vệ môi trường.",
@@ -11948,10 +11322,6 @@
           "- HS: Trang phục gọn gàng, ghế ngồi, tinh thần tham gia tích cực."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11959,7 +11329,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:"
             ],
             [
@@ -11987,7 +11356,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Ngày cuối tuần vì Trái Đất và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Ngày cuối tuần vì Trái Đất và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:"
             ],
             [
@@ -12019,7 +11387,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp của buổi sinh hoạt dưới cờ."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -12048,12 +11415,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 31: TIẾT 1 - SINH HOẠT DƯỚI CỜ: NGÀY CUỐI TUẦN VÌ TRÁI ĐẤT"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 31: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUNG TAY BẢO VỆ MÔI TRƯỜNG QUANH TA",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 31",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia đưa tin về thực trạng môi trường tại địa phương thông qua Bảng tin Môi trường hoặc Ra-đi-ô Môi trường.",
@@ -12068,17 +11438,14 @@
           "- Yêu nước: Biết yêu và giữ gìn cảnh quan quê hương.",
           "- Chăm chỉ: Tích cực hoàn thành bản tin và kế hoạch nhóm.",
           "4. Tích hợp",
-          "- AI (5.D2.1); BVMT được đưa vào từng hoạt động phù hợp, mỗi tích hợp chỉ ghi ở một hoạt động."
+          "- AI (5.D2.1); BVMT được đưa vào từng hoạt động phù hợp, mỗi tích hợp chỉ ghi ở một hoạt động.",
+          "- Giáo dục địa phương (Chủ đề 7) & Tiết kiệm và bảo vệ nguồn nước: Khảo sát thực trạng nguồn nước tại địa phương; nâng cao ý thức bảo vệ nguồn nước mặt và nước ngầm trong mô hình nuôi tôm công nghệ cao và sản xuất nông nghiệp tỉnh Trà Vinh (Cầu Kè, Duyên Hải, Cầu Ngang); vận động người dân xử lý nước thải trước khi đưa ra kênh rạch tự nhiên."
         ],
         "dodung": [
           "- GV: Bảng tin Môi trường, thiết bị phát âm thanh/đoạn thu âm, giấy A3, bút màu, tranh SGK, máy tính/tivi nếu có.",
           "- HS: Bài viết, tranh ảnh, số liệu khảo sát, bút màu, ý tưởng vận động người thân."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -12086,7 +11453,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Sáng tạo điệu nhảy Vì môi trường (5 phút)\nMục tiêu: Tạo cảm giác vui tươi, gợi mở HS bước vào hoạt động chung tay bảo vệ môi trường.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Sáng tạo điệu nhảy Vì môi trường (5 phút)\nMục tiêu: Tạo cảm giác vui tươi, gợi mở HS bước vào hoạt động chung tay bảo vệ môi trường.\n* Cách tiến hành:"
             ],
             [
@@ -12110,7 +11476,6 @@
               "- HS lắng nghe, sẵn sàng tham gia hoạt động khám phá."
             ],
             [
-              "2. KHÁM PHÁ: Báo cáo kết quả khảo sát thực trạng vệ sinh môi trường nơi mình sinh sống (15 phút)\nMục tiêu: HS tuyên truyền được kết quả khảo sát về ô nhiễm môi trường của nhóm mình.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: Báo cáo kết quả khảo sát thực trạng vệ sinh môi trường nơi mình sinh sống (15 phút)\nMục tiêu: HS tuyên truyền được kết quả khảo sát về ô nhiễm môi trường của nhóm mình.\n* Cách tiến hành:"
             ],
             [
@@ -12158,7 +11523,6 @@
               "- HS lắng nghe, ghi nhớ trách nhiệm bảo vệ môi trường quanh mình."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT: Lập kế hoạch tham gia lao động công ích, giữ gìn vệ sinh môi trường ở khu dân cư (12 phút)\nMục tiêu: HS lập được kế hoạch tham gia lao động công ích và có ý tưởng vận động người thân cùng tham gia.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT: Lập kế hoạch tham gia lao động công ích, giữ gìn vệ sinh môi trường ở khu dân cư (12 phút)\nMục tiêu: HS lập được kế hoạch tham gia lao động công ích và có ý tưởng vận động người thân cùng tham gia.\n* Cách tiến hành:"
             ],
             [
@@ -12202,7 +11566,6 @@
               "- HS hoàn thiện kế hoạch của nhóm/cá nhân."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết trình bày kế hoạch với người thân và hàng xóm để vận động cùng tham gia.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết trình bày kế hoạch với người thân và hàng xóm để vận động cùng tham gia.\n* Cách tiến hành:"
             ],
             [
@@ -12224,15 +11587,22 @@
             [
               "- GV nhận xét, chốt lại nội dung chính của hoạt động và liên hệ với việc rèn luyện hằng ngày của HS.",
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 7) & Mizuiku: GV kết nối hoạt động bảo vệ môi trường với thực tế tỉnh Trà Vinh: Hướng dẫn HS đưa vào 'Bảng tin Môi trường' nội dung khảo sát nguồn nước quanh nơi sinh sống; đặc biệt chú ý giữ sạch nguồn nước kênh rạch vùng nuôi tôm công nghệ cao ở Duyên Hải, Cầu Ngang và vùng vườn cây ăn trái Cầu Kè; tuyên truyền gia đình sử dụng nước ngầm tiết kiệm và xử lý nước thải đúng quy trình.",
+              "- HS ghi chép thông tin vào kế hoạch hành động; tự giác tham gia dọn dẹp vệ sinh kênh rạch, mương nước quanh nhà và tuyên truyền người thân cùng chung tay bảo vệ nguồn nước trong sạch."
             ]
           ]
         ],
-        "title": "TUẦN 31: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUNG TAY BẢO VỆ MÔI TRƯỜNG QUANH TA"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 31: TIẾT 3 - SINH HOẠT LỚP: MỖI HÀNH ĐỘNG - MỘT CHIẾC LÁ",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 31",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận xét, tổng kết được hoạt động tuần 31 và nêu phương hướng tuần 32.",
@@ -12254,10 +11624,6 @@
           "- HS: Bút màu, kết quả vận động người thân, hình ảnh hoặc ghi chép về hoạt động xanh."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -12265,7 +11631,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui vẻ, gợi lại hành động bảo vệ môi trường đã thực hiện trong tuần.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo không khí vui vẻ, gợi lại hành động bảo vệ môi trường đã thực hiện trong tuần.\n* Cách tiến hành:"
             ],
             [
@@ -12289,7 +11654,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 31 và thống nhất phương hướng hoạt động tuần 32.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 31 và thống nhất phương hướng hoạt động tuần 32.\n* Cách tiến hành:"
             ],
             [
@@ -12301,7 +11665,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 31 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 31 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:"
             ],
             [
@@ -12325,7 +11688,6 @@
               "- HS lắng nghe, vỗ tay động viên bạn."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 32 (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 32 (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:"
             ],
             [
@@ -12349,7 +11711,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Báo cáo kết quả vận động người thân, hàng xóm tham gia lao động công ích (8 phút)\nMục tiêu: HS chia sẻ được kết quả vận động người thân và hàng xóm cùng tham gia lao động công ích.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Báo cáo kết quả vận động người thân, hàng xóm tham gia lao động công ích (8 phút)\nMục tiêu: HS chia sẻ được kết quả vận động người thân và hàng xóm cùng tham gia lao động công ích.\n* Cách tiến hành:"
             ],
             [
@@ -12385,7 +11746,6 @@
               "- HS ghi nhớ cách vận động tích cực, không ép buộc người khác."
             ],
             [
-              "4. THỰC HÀNH: Tạo hình khu rừng xanh (9 phút)\nMục tiêu: HS nhận biết các hành động bảo vệ môi trường và có động lực duy trì những hành động đó.\n* Cách tiến hành:",
               "4. THỰC HÀNH: Tạo hình khu rừng xanh (9 phút)\nMục tiêu: HS nhận biết các hành động bảo vệ môi trường và có động lực duy trì những hành động đó.\n* Cách tiến hành:"
             ],
             [
@@ -12417,7 +11777,6 @@
               "- HS lắng nghe, tự nhắc mình duy trì hành động tốt."
             ],
             [
-              "5. VẬN DỤNG (3 phút)\nMục tiêu: HS cam kết thực hiện lao động công ích và biết gắn bảo vệ môi trường với tiết kiệm, bảo vệ nguồn nước.\n* Cách tiến hành:",
               "5. VẬN DỤNG (3 phút)\nMục tiêu: HS cam kết thực hiện lao động công ích và biết gắn bảo vệ môi trường với tiết kiệm, bảo vệ nguồn nước.\n* Cách tiến hành:"
             ],
             [
@@ -12446,7 +11805,11 @@
             ]
           ]
         ],
-        "title": "TUẦN 31: TIẾT 3 - SINH HOẠT LỚP: MỖI HÀNH ĐỘNG - MỘT CHIẾC LÁ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -12455,9 +11818,8 @@
     "sourceFile": "HĐTN TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 32: TIẾT 1 - SINH HOẠT DƯỚI CỜ: DIỄN ĐÀN NGHỀ NGHIỆP TƯƠNG LAI",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 32",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo kế hoạch của nhà trường.",
@@ -12477,10 +11839,6 @@
           "- HS: Trang phục gọn gàng, ghế ngồi, tinh thần tham gia tích cực."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -12488,7 +11846,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:"
             ],
             [
@@ -12516,7 +11873,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Diễn đàn Nghề nghiệp tương lai và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Diễn đàn Nghề nghiệp tương lai và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:"
             ],
             [
@@ -12544,7 +11900,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp và nhiệm vụ tiếp theo."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -12573,12 +11928,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 32: TIẾT 1 - SINH HOẠT DƯỚI CỜ: DIỄN ĐÀN NGHỀ NGHIỆP TƯƠNG LAI"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 32: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGHỀ EM MƠ ƯỚC",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 32",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Trình bày được ước mơ nghề nghiệp của bản thân.",
@@ -12600,10 +11958,6 @@
           "- HS: Bút màu, kéo, một số thông tin ban đầu về nghề em quan tâm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -12611,7 +11965,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Nghe và vận động theo nhạc (5 phút)\nMục tiêu: Tạo không khí vui vẻ, hứng khởi trước khi khám phá thế giới nghề nghiệp.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Nghe và vận động theo nhạc (5 phút)\nMục tiêu: Tạo không khí vui vẻ, hứng khởi trước khi khám phá thế giới nghề nghiệp.\n* Cách tiến hành:"
             ],
             [
@@ -12639,7 +11992,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. KHÁM PHÁ: Chia sẻ ước mơ nghề nghiệp (15 phút)\nMục tiêu: HS chia sẻ được nghề mình mơ ước và lí do mơ ước nghề đó.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: Chia sẻ ước mơ nghề nghiệp (15 phút)\nMục tiêu: HS chia sẻ được nghề mình mơ ước và lí do mơ ước nghề đó.\n* Cách tiến hành:"
             ],
             [
@@ -12683,7 +12035,6 @@
               "- HS ghi nhớ cần lập kế hoạch tìm hiểu nghề em mơ ước."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT: Lập kế hoạch tìm hiểu nghề em mơ ước (12 phút)\nMục tiêu: HS lập được kế hoạch tìm hiểu một nghề mà mình mơ ước.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT: Lập kế hoạch tìm hiểu nghề em mơ ước (12 phút)\nMục tiêu: HS lập được kế hoạch tìm hiểu một nghề mà mình mơ ước.\n* Cách tiến hành:"
             ],
             [
@@ -12727,7 +12078,6 @@
               "- HS hoàn thiện kế hoạch theo góp ý."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết thực hiện kế hoạch thu thập thông tin về nghề theo nhiệm vụ đã xây dựng.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết thực hiện kế hoạch thu thập thông tin về nghề theo nhiệm vụ đã xây dựng.\n* Cách tiến hành:"
             ],
             [
@@ -12752,12 +12102,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 32: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGHỀ EM MƠ ƯỚC"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 32: TIẾT 3 - SINH HOẠT LỚP: CÂU CHUYỆN CỦA NGƯỜI LÀM NGHỀ",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 32",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tổng kết được hoạt động tuần 32 và nêu phương hướng tuần 33.",
@@ -12779,10 +12132,6 @@
           "- HS: Thông tin nghề đã sưu tầm, sổ tay, bút, nguyên vật liệu làm quà tặng."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -12790,7 +12139,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo tâm thế chia sẻ thông tin nghề đã tìm hiểu.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo tâm thế chia sẻ thông tin nghề đã tìm hiểu.\n* Cách tiến hành:"
             ],
             [
@@ -12814,7 +12162,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 32 và thống nhất phương hướng hoạt động tuần 33.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 32 và thống nhất phương hướng hoạt động tuần 33.\n* Cách tiến hành:"
             ],
             [
@@ -12826,7 +12173,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 32 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 32 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:"
             ],
             [
@@ -12850,7 +12196,6 @@
               "- HS lắng nghe, vỗ tay động viên bạn."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 33 (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 33 (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:"
             ],
             [
@@ -12874,7 +12219,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Thu thập, tổng hợp thông tin về nghề em mơ ước (9 phút)\nMục tiêu: HS tổng hợp và trình bày được thông tin về nghề mơ ước đã tìm hiểu.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Thu thập, tổng hợp thông tin về nghề em mơ ước (9 phút)\nMục tiêu: HS tổng hợp và trình bày được thông tin về nghề mơ ước đã tìm hiểu.\n* Cách tiến hành:"
             ],
             [
@@ -12910,7 +12254,6 @@
               "- HS ghi nhớ ý nghĩa của việc thu thập thông tin từ nhiều nguồn."
             ],
             [
-              "4. THỰC HÀNH: Chuẩn bị cho buổi gặp gỡ chuyên gia nghề nghiệp (8 phút)\nMục tiêu: HS chuẩn bị được câu hỏi phỏng vấn chuyên gia và món quà nhỏ để bày tỏ lòng biết ơn.\n* Cách tiến hành:",
               "4. THỰC HÀNH: Chuẩn bị cho buổi gặp gỡ chuyên gia nghề nghiệp (8 phút)\nMục tiêu: HS chuẩn bị được câu hỏi phỏng vấn chuyên gia và món quà nhỏ để bày tỏ lòng biết ơn.\n* Cách tiến hành:"
             ],
             [
@@ -12950,7 +12293,6 @@
               "- HS hoàn thiện câu hỏi và ghi nhớ nhiệm vụ vận dụng."
             ],
             [
-              "5. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục tìm hiểu nghề qua người thân hoặc chuyên gia.\n* Cách tiến hành:",
               "5. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục tìm hiểu nghề qua người thân hoặc chuyên gia.\n* Cách tiến hành:"
             ],
             [
@@ -12971,7 +12313,11 @@
             ]
           ]
         ],
-        "title": "TUẦN 32: TIẾT 3 - SINH HOẠT LỚP: CÂU CHUYỆN CỦA NGƯỜI LÀM NGHỀ"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -12980,9 +12326,8 @@
     "sourceFile": "HĐTN TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 33: TIẾT 1 - SINH HOẠT DƯỚI CỜ: TỌA ĐÀM CHỌN NGHỀ - ĐƯỜNG TỚI THÀNH CÔNG",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 33",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo kế hoạch của nhà trường.",
@@ -13002,10 +12347,6 @@
           "- HS: Trang phục gọn gàng, ghế ngồi, tinh thần tham gia tích cực."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -13013,7 +12354,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:"
             ],
             [
@@ -13041,7 +12381,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Tọa đàm Chọn nghề - Đường tới thành công và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Tọa đàm Chọn nghề - Đường tới thành công và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:"
             ],
             [
@@ -13069,7 +12408,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp và nhiệm vụ tiếp theo."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -13098,12 +12436,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 33: TIẾT 1 - SINH HOẠT DƯỚI CỜ: TỌA ĐÀM CHỌN NGHỀ - ĐƯỜNG TỚI THÀNH CÔNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 33: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: AN TOÀN NGHỀ NGHIỆP",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 33",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tìm hiểu được những quy định an toàn nghề nghiệp của nghề em mơ ước.",
@@ -13125,10 +12466,6 @@
           "- HS: Hình ảnh, vật thật hoặc thông tin về thiết bị bảo hộ lao động của nghề mơ ước."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -13136,7 +12473,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Đố vui “Ai? Dùng làm gì?” (5 phút)\nMục tiêu: Tạo cảm giác hứng khởi trước khi tìm hiểu thiết bị bảo hộ lao động.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Đố vui “Ai? Dùng làm gì?” (5 phút)\nMục tiêu: Tạo cảm giác hứng khởi trước khi tìm hiểu thiết bị bảo hộ lao động.\n* Cách tiến hành:"
             ],
             [
@@ -13164,7 +12500,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. KHÁM PHÁ: Chia sẻ về những quy định đảm bảo an toàn của nghề em mơ ước (15 phút)\nMục tiêu: HS nhận ra được các quy định an toàn của nghề mình đang tìm hiểu.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: Chia sẻ về những quy định đảm bảo an toàn của nghề em mơ ước (15 phút)\nMục tiêu: HS nhận ra được các quy định an toàn của nghề mình đang tìm hiểu.\n* Cách tiến hành:"
             ],
             [
@@ -13208,7 +12543,6 @@
               "- HS ghi nhớ tầm quan trọng của an toàn nghề nghiệp."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT: Trưng bày thiết bị bảo hộ lao động của nghề (12 phút)\nMục tiêu: HS giới thiệu được thiết bị bảo hộ trong một nghề đang tìm hiểu và công dụng của thiết bị đó.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT: Trưng bày thiết bị bảo hộ lao động của nghề (12 phút)\nMục tiêu: HS giới thiệu được thiết bị bảo hộ trong một nghề đang tìm hiểu và công dụng của thiết bị đó.\n* Cách tiến hành:"
             ],
             [
@@ -13252,7 +12586,6 @@
               "- HS ghi nhớ bài học về sử dụng thiết bị bảo hộ."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục tìm hiểu thực tế nghề mơ ước và quy định an toàn của nghề.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS tiếp tục tìm hiểu thực tế nghề mơ ước và quy định an toàn của nghề.\n* Cách tiến hành:"
             ],
             [
@@ -13273,12 +12606,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 33: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: AN TOÀN NGHỀ NGHIỆP"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 33: TIẾT 3 - SINH HOẠT LỚP: THIẾT BỊ BẢO HỘ LAO ĐỘNG",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 33",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tổng kết được hoạt động tuần 33 và nêu phương hướng tuần 34.",
@@ -13300,10 +12636,6 @@
           "- HS: Thông tin/hình ảnh thiết bị bảo hộ, bút, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -13311,7 +12643,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Gợi nhớ tên thiết bị bảo hộ lao động đã tìm hiểu.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Gợi nhớ tên thiết bị bảo hộ lao động đã tìm hiểu.\n* Cách tiến hành:"
             ],
             [
@@ -13331,7 +12662,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 33 và thống nhất phương hướng hoạt động tuần 34.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 33 và thống nhất phương hướng hoạt động tuần 34.\n* Cách tiến hành:"
             ],
             [
@@ -13343,7 +12673,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 33 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 33 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:"
             ],
             [
@@ -13367,7 +12696,6 @@
               "- HS vỗ tay động viên bạn."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 34 (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 34 (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:"
             ],
             [
@@ -13391,7 +12719,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "3. THỰC HÀNH: Chơi trò chơi Vương quốc Lao động an toàn (15 phút)\nMục tiêu: HS nhớ được thiết bị bảo hộ lao động của các ngành nghề khác nhau.\n* Cách tiến hành:",
               "3. THỰC HÀNH: Chơi trò chơi Vương quốc Lao động an toàn (15 phút)\nMục tiêu: HS nhớ được thiết bị bảo hộ lao động của các ngành nghề khác nhau.\n* Cách tiến hành:"
             ],
             [
@@ -13435,7 +12762,6 @@
               "- HS ghi nhớ bài học sau trò chơi."
             ],
             [
-              "4. VẬN DỤNG (5 phút)\nMục tiêu: HS biết tôn trọng quyền được làm việc trong môi trường an toàn của người lao động.\n* Cách tiến hành:",
               "4. VẬN DỤNG (5 phút)\nMục tiêu: HS biết tôn trọng quyền được làm việc trong môi trường an toàn của người lao động.\n* Cách tiến hành:"
             ],
             [
@@ -13464,7 +12790,11 @@
             ]
           ]
         ],
-        "title": "TUẦN 33: TIẾT 3 - SINH HOẠT LỚP: THIẾT BỊ BẢO HỘ LAO ĐỘNG"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -13473,9 +12803,8 @@
     "sourceFile": "HĐTN TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 34: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SÂN KHẤU ƯỚC MƠ CỦA EM",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 34",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo kế hoạch của nhà trường.",
@@ -13495,10 +12824,6 @@
           "- HS: Trang phục gọn gàng, ghế ngồi, tinh thần tham gia tích cực."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -13506,7 +12831,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:"
             ],
             [
@@ -13534,7 +12858,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Sân khấu ước mơ của em và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Sân khấu ước mơ của em và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:"
             ],
             [
@@ -13562,7 +12885,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp và nhiệm vụ tiếp theo."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -13591,12 +12913,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 34: TIẾT 1 - SINH HOẠT DƯỚI CỜ: SÂN KHẤU ƯỚC MƠ CỦA EM"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 34: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: MƠ ƯỚC NGHỀ NGHIỆP CỦA EM",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 34",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Kể được về ước mơ nghề nghiệp của mình.",
@@ -13618,10 +12943,6 @@
           "- HS: Đồ dùng phục vụ thuyết trình, bút, sản phẩm nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -13629,7 +12950,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Điểm lại hình ảnh hoạt động đã thực hiện trong chủ đề Ước mơ nghề nghiệp (5 phút)\nMục tiêu: HS nhớ lại quá trình tìm hiểu nghề và chia sẻ cảm xúc.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Điểm lại hình ảnh hoạt động đã thực hiện trong chủ đề Ước mơ nghề nghiệp (5 phút)\nMục tiêu: HS nhớ lại quá trình tìm hiểu nghề và chia sẻ cảm xúc.\n* Cách tiến hành:"
             ],
             [
@@ -13653,7 +12973,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. KHÁM PHÁ: Tham gia thuyết trình “Nghề em mơ ước” (20 phút)\nMục tiêu: HS thuyết trình được về những công việc đặc thù của nghề mình mơ ước.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: Tham gia thuyết trình “Nghề em mơ ước” (20 phút)\nMục tiêu: HS thuyết trình được về những công việc đặc thù của nghề mình mơ ước.\n* Cách tiến hành:"
             ],
             [
@@ -13701,7 +13020,6 @@
               "- HS lắng nghe nhận xét để rút kinh nghiệm."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT: Chia sẻ cảm nghĩ sau khi tìm hiểu nghề (7 phút)\nMục tiêu: HS biết tự đánh giá sự phù hợp của bản thân với nghề mơ ước.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT: Chia sẻ cảm nghĩ sau khi tìm hiểu nghề (7 phút)\nMục tiêu: HS biết tự đánh giá sự phù hợp của bản thân với nghề mơ ước.\n* Cách tiến hành:"
             ],
             [
@@ -13737,7 +13055,6 @@
               "- HS lắng nghe, ghi nhớ bài học."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết chia sẻ với người thân về nghề em mơ ước.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết chia sẻ với người thân về nghề em mơ ước.\n* Cách tiến hành:"
             ],
             [
@@ -13758,12 +13075,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 34: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: MƠ ƯỚC NGHỀ NGHIỆP CỦA EM"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 34: TIẾT 3 - SINH HOẠT LỚP: TẤM DANH THIẾP TƯƠNG LAI",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 34",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tổng kết được hoạt động tuần 34 và nêu phương hướng tuần 35.",
@@ -13785,10 +13105,6 @@
           "- HS: Bút màu, kéo, thước, ý tưởng nghề nghiệp tương lai."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -13796,7 +13112,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Gợi nhớ ước mơ nghề nghiệp và tạo hứng thú thiết kế danh thiếp.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Gợi nhớ ước mơ nghề nghiệp và tạo hứng thú thiết kế danh thiếp.\n* Cách tiến hành:"
             ],
             [
@@ -13816,7 +13131,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 34 và thống nhất phương hướng hoạt động tuần 35.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 34 và thống nhất phương hướng hoạt động tuần 35.\n* Cách tiến hành:"
             ],
             [
@@ -13828,7 +13142,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 34 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 34 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:"
             ],
             [
@@ -13852,7 +13165,6 @@
               "- HS vỗ tay động viên bạn."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 35 (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN 35 (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:"
             ],
             [
@@ -13876,7 +13188,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "3. THỰC HÀNH: Thiết kế danh thiếp thể hiện nghề nghiệp trong tương lai (15 phút)\nMục tiêu: HS làm được tấm danh thiếp giới thiệu bản thân trong tương lai.\n* Cách tiến hành:",
               "3. THỰC HÀNH: Thiết kế danh thiếp thể hiện nghề nghiệp trong tương lai (15 phút)\nMục tiêu: HS làm được tấm danh thiếp giới thiệu bản thân trong tương lai.\n* Cách tiến hành:"
             ],
             [
@@ -13920,7 +13231,6 @@
               "- HS chia sẻ cảm xúc tự hào, vui, có động lực rèn luyện."
             ],
             [
-              "4. VẬN DỤNG (5 phút)\nMục tiêu: HS biết xây dựng hình ảnh bản thân tương lai gắn với phẩm chất tốt và việc làm có ích.\n* Cách tiến hành:",
               "4. VẬN DỤNG (5 phút)\nMục tiêu: HS biết xây dựng hình ảnh bản thân tương lai gắn với phẩm chất tốt và việc làm có ích.\n* Cách tiến hành:"
             ],
             [
@@ -13949,7 +13259,11 @@
             ]
           ]
         ],
-        "title": "TUẦN 34: TIẾT 3 - SINH HOẠT LỚP: TẤM DANH THIẾP TƯƠNG LAI"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -13958,9 +13272,8 @@
     "sourceFile": "HĐTN TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 35: TIẾT 1 - SINH HOẠT DƯỚI CỜ: LỄ TỔNG KẾT NĂM HỌC",
-        "period": "Tiết 1",
-        "topic": "CHỦ ĐỀ TUẦN 35",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo kế hoạch của nhà trường.",
@@ -13980,10 +13293,6 @@
           "- HS: Trang phục gọn gàng, ghế ngồi, tinh thần tham gia tích cực."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -13991,7 +13300,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:",
               "1. TRƯỚC GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS ổn định đội hình, nắm nhiệm vụ quan sát và sẵn sàng tham gia hoạt động.\n* Cách tiến hành:"
             ],
             [
@@ -14019,7 +13327,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Lễ tổng kết năm học và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:",
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ (25 phút)\nMục tiêu: HS tham gia hoạt động Lễ tổng kết năm học và chia sẻ được điều học được sau chương trình.\n* Cách tiến hành:"
             ],
             [
@@ -14047,7 +13354,6 @@
               "- HS lắng nghe, ghi nhớ thông điệp và nhiệm vụ tiếp theo."
             ],
             [
-              "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:",
               "3. SAU GIỜ SINH HOẠT DƯỚI CỜ (5 phút)\nMục tiêu: HS chia sẻ được điều ấn tượng và biết chuẩn bị cho hoạt động học tập tiếp theo.\n* Cách tiến hành:"
             ],
             [
@@ -14076,12 +13382,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 35: TIẾT 1 - SINH HOẠT DƯỚI CỜ: LỄ TỔNG KẾT NĂM HỌC"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 35: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HỒ SƠ TRẢI NGHIỆM",
-        "period": "Tiết 2",
-        "topic": "CHỦ ĐỀ TUẦN 35",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhắc lại được những chủ đề HĐTN trong năm học và chia sẻ cảm xúc.",
@@ -14103,10 +13412,6 @@
           "- HS: Hồ sơ/tư liệu trải nghiệm trong năm học, bút màu, kéo, hồ dán."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -14114,7 +13419,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG: Kết vòng tròn chia sẻ về hoạt động trải nghiệm lớp 5 (5 phút)\nMục tiêu: Tạo cảm giác vui tươi, nhắc lại những nội dung đã trải nghiệm.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG: Kết vòng tròn chia sẻ về hoạt động trải nghiệm lớp 5 (5 phút)\nMục tiêu: Tạo cảm giác vui tươi, nhắc lại những nội dung đã trải nghiệm.\n* Cách tiến hành:"
             ],
             [
@@ -14142,7 +13446,6 @@
               "- HS lắng nghe, cảm nhận sự trưởng thành của tập thể."
             ],
             [
-              "2. KHÁM PHÁ: Hoàn thiện Hồ sơ trải nghiệm (15 phút)\nMục tiêu: HS tự đánh giá mình đã tích cực tham gia HĐTN và có những thu hoạch gì.\n* Cách tiến hành:",
               "2. KHÁM PHÁ: Hoàn thiện Hồ sơ trải nghiệm (15 phút)\nMục tiêu: HS tự đánh giá mình đã tích cực tham gia HĐTN và có những thu hoạch gì.\n* Cách tiến hành:"
             ],
             [
@@ -14182,7 +13485,6 @@
               "- HS tiếp tục hoàn thiện hồ sơ của mình."
             ],
             [
-              "3. MỞ RỘNG VÀ TỔNG KẾT: Lắng nghe đánh giá đồng đẳng và chia sẻ của thầy cô (12 phút)\nMục tiêu: HS biết đánh giá đồng đẳng, phát hiện điểm hay của bạn để học tập.\n* Cách tiến hành:",
               "3. MỞ RỘNG VÀ TỔNG KẾT: Lắng nghe đánh giá đồng đẳng và chia sẻ của thầy cô (12 phút)\nMục tiêu: HS biết đánh giá đồng đẳng, phát hiện điểm hay của bạn để học tập.\n* Cách tiến hành:"
             ],
             [
@@ -14226,7 +13528,6 @@
               "- HS ghi nhớ giá trị của hoạt động trải nghiệm."
             ],
             [
-              "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết nhờ người thân nhận xét và chuẩn bị hoạt động chia tay năm học.\n* Cách tiến hành:",
               "4. VẬN DỤNG (3 phút)\nMục tiêu: HS biết nhờ người thân nhận xét và chuẩn bị hoạt động chia tay năm học.\n* Cách tiến hành:"
             ],
             [
@@ -14247,12 +13548,15 @@
             ]
           ]
         ],
-        "title": "TUẦN 35: TIẾT 2 - HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HỒ SƠ TRẢI NGHIỆM"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TUẦN 35: TIẾT 3 - SINH HOẠT LỚP: CHIA TAY TRƯỜNG TIỂU HỌC",
-        "period": "Tiết 3",
-        "topic": "CHỦ ĐỀ TUẦN 35",
+        "lessonTitle": "Thời gian thực hiện: ...",
+        "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Tổng kết được hoạt động tuần 35 và chia sẻ cảm xúc cuối năm.",
@@ -14272,10 +13576,6 @@
           "- HS: Hồ sơ trải nghiệm, lời nhận xét của người thân, giấy bút, ý tưởng hoạt động cuối năm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -14283,7 +13583,6 @@
               "HOẠT ĐỘNG CỦA HỌC SINH"
             ],
             [
-              "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo cảm xúc tích cực trước hoạt động chia tay trường tiểu học.\n* Cách tiến hành:",
               "1. KHỞI ĐỘNG (3 phút)\nMục tiêu: Tạo cảm xúc tích cực trước hoạt động chia tay trường tiểu học.\n* Cách tiến hành:"
             ],
             [
@@ -14307,7 +13606,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 35 và thống nhất phương hướng hoạt động tuần sau năm học.\n* Cách tiến hành:",
               "2. SINH HOẠT LỚP (12 phút)\nMục tiêu: HS tổng kết hoạt động tuần 35 và thống nhất phương hướng hoạt động tuần sau năm học.\n* Cách tiến hành:"
             ],
             [
@@ -14319,7 +13617,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 35 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:",
               "2.1. TỔNG KẾT HOẠT ĐỘNG TUẦN 35 (7 phút)\nMục tiêu: HS tự đánh giá ưu điểm, hạn chế trong tuần; biết lắng nghe nhận xét và đề xuất cách khắc phục.\n* Cách tiến hành:"
             ],
             [
@@ -14343,7 +13640,6 @@
               "- HS lắng nghe, thể hiện sự trân trọng."
             ],
             [
-              "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN SAU NĂM HỌC (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:",
               "2.2. PHƯƠNG HƯỚNG HOẠT ĐỘNG TUẦN SAU NĂM HỌC (5 phút)\nMục tiêu: HS nắm nhiệm vụ trọng tâm, biết chuẩn bị việc cần làm và cam kết thực hiện trong tuần tới.\n* Cách tiến hành:"
             ],
             [
@@ -14367,7 +13663,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG (5 phút)\nMục tiêu: HS chia sẻ được nhận xét của người thân về sự thay đổi tích cực của bản thân.\n* Cách tiến hành:",
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG (5 phút)\nMục tiêu: HS chia sẻ được nhận xét của người thân về sự thay đổi tích cực của bản thân.\n* Cách tiến hành:"
             ],
             [
@@ -14391,7 +13686,6 @@
               "- HS lắng nghe, ghi nhớ điều cần thực hiện và tự điều chỉnh hành vi sau hoạt động."
             ],
             [
-              "4. THỰC HÀNH: Tham gia hoạt động chia tay năm học cuối cấp (12 phút)\nMục tiêu: HS chủ động đề xuất ý tưởng và lên kế hoạch dã ngoại hoặc liên hoan cuối năm.\n* Cách tiến hành:",
               "4. THỰC HÀNH: Tham gia hoạt động chia tay năm học cuối cấp (12 phút)\nMục tiêu: HS chủ động đề xuất ý tưởng và lên kế hoạch dã ngoại hoặc liên hoan cuối năm.\n* Cách tiến hành:"
             ],
             [
@@ -14423,7 +13717,6 @@
               "- HS lắng nghe và nhận nhiệm vụ theo phân công."
             ],
             [
-              "5. VẬN DỤNG (3 phút)\nMục tiêu: HS biết lập kế hoạch trải nghiệm, rèn luyện trong mùa hè và chuẩn bị môi trường học tập mới.\n* Cách tiến hành:",
               "5. VẬN DỤNG (3 phút)\nMục tiêu: HS biết lập kế hoạch trải nghiệm, rèn luyện trong mùa hè và chuẩn bị môi trường học tập mới.\n* Cách tiến hành:"
             ],
             [
@@ -14444,7 +13737,11 @@
             ]
           ]
         ],
-        "title": "TUẦN 35: TIẾT 3 - SINH HOẠT LỚP: CHIA TAY TRƯỜNG TIỂU HỌC"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   }
@@ -14455,7 +13752,7 @@
   } else {
     if (typeof window !== 'undefined') {
       window.KHBD_RAW_DATA = window.KHBD_RAW_DATA || {};
-      window.KHBD_RAW_DATA["5_hdtn"] = {
+      window.KHBD_RAW_DATA[grade + "_" + subjectId] = {
         grade: grade,
         subjectId: subjectId,
         subjectName: subjectName,
@@ -14463,7 +13760,7 @@
       };
     }
   }
-  if (typeof module !== "undefined" && module.exports) {
-    module.exports = weeksData;
+  if (typeof module !== 'undefined' && module.exports) {
+    module.exports = { grade: grade, subjectId: subjectId, subjectName: subjectName, weeksData: weeksData };
   }
 })();

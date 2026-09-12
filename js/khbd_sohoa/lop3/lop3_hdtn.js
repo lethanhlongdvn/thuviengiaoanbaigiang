@@ -14,10 +14,9 @@
     "sourceFile": "HĐTN TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO NĂM HỌC MỚI",
+        "lessonTitle": "BÀI 1: CHÂN DUNG EM – NÉT RIÊNG MỖI NGƯỜI - TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO NĂM HỌC MỚI - Hình thức tổ chức: Ngày hội/lễ hội “Chào năm học mới – Em tự tin bước vào lớp 3”.",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
-          "Hình thức tổ chức: Ngày hội/lễ hội “Chào năm học mới – Em tự tin bước vào lớp 3”.",
           "1. Năng lực đặc thù",
           "- Năng lực thích ứng với cuộc sống: biết thực hiện nền nếp khi sinh hoạt dưới cờ; có tâm thế vui tươi, tự tin khi bước vào năm học mới.",
           "- Năng lực thiết kế và tổ chức hoạt động: bước đầu biết lựa chọn một cam kết hành động phù hợp để tham gia xây dựng lớp học thân thiện.",
@@ -38,10 +37,6 @@
           "- Hình ảnh minh họa ngày khai giảng/chào năm học mới."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................",
-          "- ...................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -135,10 +130,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO NĂM HỌC MỚI"
+        "dieuchinh": [
+          "- ....................................................................................................................................",
+          "- ...................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HĐGD THEO CHỦ ĐỀ – CHÂN DUNG EM",
+        "lessonTitle": "BÀI 1: CHÂN DUNG EM – NÉT RIÊNG MỖI NGƯỜI - TIẾT 2: HĐGD THEO CHỦ ĐỀ – CHÂN DUNG EM",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -164,10 +162,6 @@
           "- Phiếu câu nói tích cực: “Em nhận ra bạn nhờ…”, “Nét riêng của em là…”."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................",
-          "- ...................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -296,13 +290,17 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HĐGD THEO CHỦ ĐỀ – CHÂN DUNG EM"
+        "dieuchinh": [
+          "- ....................................................................................................................................",
+          "- ...................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – NÉT RIÊNG CỦA MỖI NGƯỜI",
+        "lessonTitle": "BÀI 1: CHÂN DUNG EM – NÉT RIÊNG MỖI NGƯỜI - TIẾT 3: SINH HOẠT LỚP – NÉT RIÊNG CỦA MỖI NGƯỜI",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
+          "- Năng lực thích ứng với cuộc sống: biết tự nhận xét một số việc đã thực hiện trong tuần; biết điều chỉnh lời nói, hành vi khi sinh hoạt cùng bạn.",
           "- Năng lực thiết kế và tổ chức hoạt động: biết tham gia trò chơi, chia sẻ thu hoạch sau trải nghiệm và lựa chọn cam kết hành động phù hợp cho tuần sau.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: biết tự đánh giá việc làm của bản thân trong tuần, xác định một việc cần cố gắng trong tuần 2.",
@@ -324,10 +322,6 @@
           "- Sản phẩm gương mặt vui nhộn đã làm ở tiết HĐGD theo chủ đề."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................",
-          "- ...................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -545,7 +539,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – NÉT RIÊNG CỦA MỖI NGƯỜI"
+        "dieuchinh": [
+          "- ....................................................................................................................................",
+          "- ...................................................................................................................................."
+        ]
       }
     ]
   },
@@ -554,7 +551,7 @@
     "sourceFile": "HĐTN TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CÂU LẠC BỘ THEO SỞ THÍCH",
+        "lessonTitle": "BÀI 2: SỞ THÍCH CỦA EM – TÀI NĂNG HỌC TRÒ - TIẾT 1: SINH HOẠT DƯỚI CỜ – CÂU LẠC BỘ THEO SỞ THÍCH",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -577,10 +574,6 @@
           "- Hình ảnh minh họa hoạt động câu lạc bộ theo sở thích."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................",
-          "- ...................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -682,10 +675,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CÂU LẠC BỘ THEO SỞ THÍCH"
+        "dieuchinh": [
+          "- ....................................................................................................................................",
+          "- ...................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HĐGD THEO CHỦ ĐỀ – SỞ THÍCH CỦA EM",
+        "lessonTitle": "BÀI 2: SỞ THÍCH CỦA EM – TÀI NĂNG HỌC TRÒ - TIẾT 2: HĐGD THEO CHỦ ĐỀ – SỞ THÍCH CỦA EM",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -694,6 +690,7 @@
           "2. Năng lực chung",
           "- Tự chủ và tự học: tự suy nghĩ về điều mình thích, chuẩn bị vật liệu, hoàn thành sản phẩm theo khả năng của bản thân.",
           "- Giao tiếp và hợp tác: biết chia sẻ trong nhóm, lắng nghe bạn trình bày, đặt câu hỏi và nhận xét bằng lời nói lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn cách giới thiệu sở thích sinh động; biết điều chỉnh khi sản phẩm chưa hoàn thiện hoặc khi bạn có sở thích khác mình.",
           "3. Phẩm chất",
           "- Yêu nước: yêu quý trường lớp, tích cực tham gia hoạt động tập thể phù hợp với lứa tuổi.",
           "- Nhân ái: tôn trọng sở thích của bạn, không chê bai, không ép bạn làm theo sở thích của mình.",
@@ -710,10 +707,6 @@
           "- Thẻ câu nói: “Sở thích của em là…”, “Em tôn trọng sở thích của bạn vì…”."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................",
-          "- ...................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -862,10 +855,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HĐGD THEO CHỦ ĐỀ – SỞ THÍCH CỦA EM"
+        "dieuchinh": [
+          "- ....................................................................................................................................",
+          "- ...................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – TÀI NĂNG HỌC TRÒ",
+        "lessonTitle": "BÀI 2: SỞ THÍCH CỦA EM – TÀI NĂNG HỌC TRÒ - TIẾT 3: SINH HOẠT LỚP – TÀI NĂNG HỌC TRÒ",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -891,10 +887,6 @@
           "- Hình ảnh minh họa hoạt động “Tài năng học trò”."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ....................................................................................................................................",
-          "- ...................................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -1088,7 +1080,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – TÀI NĂNG HỌC TRÒ"
+        "dieuchinh": [
+          "- ....................................................................................................................................",
+          "- ...................................................................................................................................."
+        ]
       }
     ]
   },
@@ -1097,7 +1092,7 @@
     "sourceFile": "HĐTN TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – GIAO LƯU TÀI NĂNG CỦA HỌC TRÒ",
+        "lessonTitle": "BÀI 3: NGÔI SAO CỦA TÔI, NGÔI SAO CỦA BẠN – SẢN PHẨM THEO SỞ THÍCH - TIẾT 1: SINH HOẠT DƯỚI CỜ – GIAO LƯU TÀI NĂNG CỦA HỌC TRÒ",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1118,10 +1113,8 @@
           "– Cờ, hoa, phần thưởng nhỏ; ghế ngồi cho học sinh theo lớp.",
           "– HS chuẩn bị trang phục gọn gàng, tinh thần tham gia nghiêm túc."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1219,10 +1212,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – GIAO LƯU TÀI NĂNG CỦA HỌC TRÒ"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGÔI SAO CỦA TÔI, NGÔI SAO CỦA BẠN",
+        "lessonTitle": "BÀI 3: NGÔI SAO CỦA TÔI, NGÔI SAO CỦA BẠN – SẢN PHẨM THEO SỞ THÍCH - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGÔI SAO CỦA TÔI, NGÔI SAO CỦA BẠN",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1246,10 +1242,8 @@
           "– Tranh/ảnh SGK về hoạt động theo sở thích, bảng phụ ghi mẫu câu chia sẻ.",
           "– HS chuẩn bị ý tưởng về sở thích, đồ dùng đơn giản để vẽ hoặc ghi vào ngôi sao."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1379,10 +1373,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGÔI SAO CỦA TÔI, NGÔI SAO CỦA BẠN"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SẢN PHẨM THEO SỞ THÍCH",
+        "lessonTitle": "BÀI 3: NGÔI SAO CỦA TÔI, NGÔI SAO CỦA BẠN – SẢN PHẨM THEO SỞ THÍCH - TIẾT 3: SINH HOẠT LỚP – SẢN PHẨM THEO SỞ THÍCH",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1405,10 +1402,8 @@
           "– Bảng tổng kết tuần, phiếu bình chọn nhóm/cá nhân tích cực.",
           "– HS chuẩn bị sản phẩm, tiết mục hoặc phần giới thiệu theo kế hoạch nhóm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1545,7 +1540,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SẢN PHẨM THEO SỞ THÍCH"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1554,7 +1552,7 @@
     "sourceFile": "HĐTN TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ - GIỚI THIỆU SẢN PHẨM CỦA CÁC CÂU LẠC BỘ",
+        "lessonTitle": "BÀI 4: ĐỌC SÁCH THEO SỞ THÍCH - DANH MỤC SÁCH THEO SỞ THÍCH - TIẾT 1: SINH HOẠT DƯỚI CỜ - GIỚI THIỆU SẢN PHẨM CỦA CÁC CÂU LẠC BỘ",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1575,10 +1573,8 @@
           "- Sản phẩm minh họa của các câu lạc bộ: tranh, sách, đồ thủ công, tiết mục biểu diễn.",
           "- Phiếu câu hỏi ngắn để HS đặt câu hỏi hoặc ghi lại câu lạc bộ mình quan tâm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ........................................................................................................................",
-          "- ........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1648,10 +1644,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ - GIỚI THIỆU SẢN PHẨM CỦA CÁC CÂU LẠC BỘ"
+        "dieuchinh": [
+          "- ........................................................................................................................",
+          "- ........................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HĐGD THEO CHỦ ĐỀ - ĐỌC SÁCH THEO SỞ THÍCH",
+        "lessonTitle": "BÀI 4: ĐỌC SÁCH THEO SỞ THÍCH - DANH MỤC SÁCH THEO SỞ THÍCH - TIẾT 2: HĐGD THEO CHỦ ĐỀ - ĐỌC SÁCH THEO SỞ THÍCH",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1675,10 +1674,8 @@
           "- Một số cuốn sách, truyện phù hợp với HS lớp 3; tranh ảnh minh họa trong SGK.",
           "- Phiếu bình chọn cuốn sách yêu thích của nhóm; bút màu, giấy A4/A3."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ........................................................................................................................",
-          "- ........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1788,10 +1785,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HĐGD THEO CHỦ ĐỀ - ĐỌC SÁCH THEO SỞ THÍCH"
+        "dieuchinh": [
+          "- ........................................................................................................................",
+          "- ........................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP - DANH MỤC SÁCH THEO SỞ THÍCH",
+        "lessonTitle": "BÀI 4: ĐỌC SÁCH THEO SỞ THÍCH - DANH MỤC SÁCH THEO SỞ THÍCH - TIẾT 3: SINH HOẠT LỚP - DANH MỤC SÁCH THEO SỞ THÍCH",
         "topic": "CHỦ ĐỀ 1: TỰ GIỚI THIỆU VỀ MÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1814,10 +1814,8 @@
           "- Danh sách một số sách phù hợp với HS lớp 3; phiếu tự đánh giá sau chủ đề.",
           "- Bảng lớp hoặc góc đọc sách để trưng bày danh mục sách của các nhóm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ........................................................................................................................",
-          "- ........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1942,7 +1940,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP - DANH MỤC SÁCH THEO SỞ THÍCH"
+        "dieuchinh": [
+          "- ........................................................................................................................",
+          "- ........................................................................................................................"
+        ]
       }
     ]
   },
@@ -1951,13 +1952,14 @@
     "sourceFile": "HĐTN TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ - ĐÊM HỘI TRĂNG RẰM",
+        "lessonTitle": "BÀI 5: THỜI GIAN BIỂU CỦA EM - QUÝ TRỌNG THỜI GIAN - TIẾT 1: SINH HOẠT DƯỚI CỜ - ĐÊM HỘI TRĂNG RẰM",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Năng lực thích ứng với cuộc sống: Tham gia được hoạt động sinh hoạt dưới cờ với chủ đề Đêm hội trăng rằm; biết nêu cảm nhận về một số tiết mục văn nghệ, hoạt động trong ngày hội.",
           "- Năng lực thiết kế và tổ chức hoạt động: Biết giữ trật tự, cổ vũ văn minh và thực hiện nhiệm vụ được phân công trong hoạt động chung.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động thực hiện nền nếp sinh hoạt dưới cờ, tự điều chỉnh hành vi để tham gia hoạt động nghiêm túc.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, cổ vũ, chia sẻ cảm nhận với thầy cô, bạn bè bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tham gia, cổ vũ hoặc chia sẻ phù hợp trong không khí ngày hội.",
           "3. Phẩm chất",
@@ -1971,10 +1973,8 @@
           "- Tiết mục văn nghệ, tiểu phẩm, lân, trống hội hoặc tranh ảnh về Trung thu.",
           "- Bảng tên lớp, ghế ngồi, phiếu chia sẻ cảm nhận ngắn sau chương trình."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ........................................................................................................................",
-          "- ........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2040,10 +2040,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ - ĐÊM HỘI TRĂNG RẰM"
+        "dieuchinh": [
+          "- ........................................................................................................................",
+          "- ........................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HĐGD THEO CHỦ ĐỀ - THỜI GIAN BIỂU CỦA EM",
+        "lessonTitle": "BÀI 5: THỜI GIAN BIỂU CỦA EM - QUÝ TRỌNG THỜI GIAN - TIẾT 2: HĐGD THEO CHỦ ĐỀ - THỜI GIAN BIỂU CỦA EM",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2052,22 +2055,24 @@
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự nhận biết việc mình thường làm trong ngày, bước đầu tự quản lí thời gian cá nhân.",
           "- Giao tiếp và hợp tác: Biết chia sẻ, trao đổi, góp ý thời gian biểu của bạn một cách lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết điều chỉnh thời gian biểu khi hoạt động chưa hợp lí, biết trình bày thời gian biểu rõ ràng.",
           "3. Phẩm chất",
           "- Chăm chỉ: Có ý thức thực hiện thời gian biểu đã lập, hoàn thành việc học và việc nhà vừa sức.",
           "- Trung thực: Ghi đúng những hoạt động hằng ngày của bản thân, không ghi theo hình thức.",
           "- Trách nhiệm: Biết sắp xếp thời gian hợp lí để học tập, vui chơi, nghỉ ngơi và tự chăm sóc bản thân.",
           "4. Tích hợp",
-          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết cách dùng trợ lý ảo hỗ trợ nhắc nhở thực hiện kế hoạch theo thời gian biểu; gợi ý hoạt động: trình diễn cách ra lệnh cho Google Assistant/Siri đặt báo thức theo lịch học."
+          "- Tích hợp NLS 5.2.CB1a: HS biết sử dụng công cụ số đơn giản như đồng hồ, lịch hoặc ứng dụng nhắc việc để lập thời gian biểu, theo dõi và điều chỉnh hoạt động hằng ngày.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết cách dùng trợ lý ảo hỗ trợ nhắc nhở thực hiện kế hoạch theo thời gian biểu; gợi ý hoạt động: trình diễn cách ra lệnh cho Google Assistant/Siri đặt báo thức theo lịch học.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Xây dựng thời gian biểu hợp lí, dành thời gian quan tâm, trò chuyện, giúp đỡ người thân và bạn bè các dân tộc xung quanh; rèn luyện nếp sống đẹp, nghĩa tình.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M25): Đưa vào thời gian biểu việc tự giác khóa vòi nước khi đánh răng, rửa mặt; nhắc nhở người thân sử dụng nước tiết kiệm hằng ngày."
         ],
         "dodung": [
           "- Bóng gai hoặc bóng mềm dùng cho trò chơi khởi động.",
           "- 4 thẻ từ: HỌC TẬP - CHĂM SÓC BẢN THÂN - GIẢI TRÍ - LÀM VIỆC NHÀ.",
           "- Mẫu thời gian biểu, giấy màu, giấy A4, bút màu, băng dính giấy; đồng hồ hoặc hình ảnh đồng hồ/lịch số."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ........................................................................................................................",
-          "- ........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2161,6 +2166,14 @@
               "- HS lắng nghe, hoàn thiện thời gian biểu của mình."
             ],
             [
+              "- GV gợi ý dẫn tích hợp GDĐP Trà Vinh & Tiết kiệm nước (Chủ đề 2 GDĐP 3 & Mã Mizuiku M25): “Khi xây dựng thời gian biểu hằng ngày, các em có thể bổ sung những việc làm ấm áp tình người tại quê hương Trà Vinh và hành động tiết kiệm nước sạch như thế nào?”",
+              "- HS trả lời: Trong thời gian biểu, chúng em dành thời gian phụ giúp ông bà, cha mẹ hoặc hỏi thăm bạn bè xung quanh; đồng thời hình thành thói quen khóa chặt vòi nước khi đánh răng, rửa mặt và kiểm tra vòi nước để tránh lãng phí nước sạch ạ."
+            ],
+            [
+              "- GV biểu dương: Sắp xếp thời gian biểu khoa học gắn liền với lối sống nghĩa tình và ý thức tiết kiệm nước sạch sẽ giúp các em trở thành những công dân nhỏ mẫu mực của quê hương Trà Vinh.",
+              "- HS chăm chú lắng nghe và quyết tâm thực hiện theo thời gian biểu."
+            ],
+            [
               "4. Cam kết hành động (3 phút)\nMục tiêu: HS biết chia sẻ thời gian biểu với người thân và thực hiện theo thời gian biểu đã lập.\n*Cách tiến hành:"
             ],
             [
@@ -2177,32 +2190,36 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HĐGD THEO CHỦ ĐỀ - THỜI GIAN BIỂU CỦA EM"
+        "dieuchinh": [
+          "- ........................................................................................................................",
+          "- ........................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP - QUÝ TRỌNG THỜI GIAN",
+        "lessonTitle": "BÀI 5: THỜI GIAN BIỂU CỦA EM - QUÝ TRỌNG THỜI GIAN - TIẾT 3: SINH HOẠT LỚP - QUÝ TRỌNG THỜI GIAN",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
+          "- Năng lực thích ứng với cuộc sống: Chia sẻ được việc thực hiện thời gian biểu của mình và nêu được việc cần điều chỉnh để phù hợp hơn.",
           "- Năng lực thiết kế và tổ chức hoạt động: Biết tham gia trò chơi, nhận ra những điểm chung trong sinh hoạt hằng ngày và đề xuất việc làm để quý trọng thời gian.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự đánh giá việc thực hiện thời gian biểu, biết điều chỉnh thói quen cá nhân.",
           "- Giao tiếp và hợp tác: Biết chia sẻ, lắng nghe và phản hồi tích cực khi bạn nói về thời gian biểu.",
           "- Giải quyết vấn đề và sáng tạo: Biết tìm cách sắp xếp công việc theo thời gian hợp lí hơn.",
           "3. Phẩm chất",
           "- Chăm chỉ: Cố gắng thực hiện việc học, việc nhà, chăm sóc bản thân theo kế hoạch.",
           "- Trung thực: Chia sẻ đúng kết quả thực hiện thời gian biểu, không nói quá thành tích.",
           "- Trách nhiệm: Biết quý trọng thời gian của bản thân và của người khác.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Tích hợp KNS: HS biết lập thời gian biểu đơn giản, ưu tiên việc học, vui chơi, nghỉ ngơi hợp lí; hình thành kĩ năng quản lí thời gian, tự điều chỉnh việc làm hằng ngày."
         ],
         "dodung": [
           "- Bảng lớp, bút màu, phiếu chia sẻ việc thực hiện thời gian biểu.",
           "- Đồng hồ đồ chơi hoặc tranh đồng hồ; thẻ hoạt động hằng ngày để tổ chức trò chơi “Giờ nào việc nấy”.",
           "- Sản phẩm thời gian biểu HS đã lập ở tiết trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ........................................................................................................................",
-          "- ........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2226,7 +2243,7 @@
               "- HS vỗ tay, chuyển sang hoạt động tổng kết tuần."
             ],
             [
-              "2. Hoạt động tổng kết tuần và phương hướng tuần 6 (10 phút)Mục tiêu: HS biết tự nhận xét hoạt động trong tuần, nêu việc đã làm tốt, việc cần cố gắng và nắm được nhiệm vụ trọng tâm của tuần tiếp theo.*Cách tiến hành:"
+              "2. Hoạt động tổng kết tuần và phương hướng tuần 6 (10 phút)\nMục tiêu: HS biết tự nhận xét hoạt động trong tuần, nêu việc đã làm tốt, việc cần cố gắng và nắm được nhiệm vụ trọng tâm của tuần tiếp theo.\n*Cách tiến hành:"
             ],
             [
               "2.1. Hoạt động tổng kết tuần"
@@ -2349,7 +2366,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP - QUÝ TRỌNG THỜI GIAN"
+        "dieuchinh": [
+          "- ........................................................................................................................",
+          "- ........................................................................................................................"
+        ]
       }
     ]
   },
@@ -2358,7 +2378,7 @@
     "sourceFile": "HĐTN TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – SÁCH BÚT THÂN YÊU",
+        "lessonTitle": "BÀI 6: CUỐN SỔ NHẮC VIỆC – LÀM VIỆC THEO KẾ HOẠCH - TIẾT 1: SINH HOẠT DƯỚI CỜ – SÁCH BÚT THÂN YÊU",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2378,10 +2398,8 @@
           "– Một số sách vở, bút, thước, hộp bút sạch đẹp để trưng bày hoặc minh họa.",
           "– HS chuẩn bị trang phục gọn gàng, đồ dùng học tập sạch đẹp, tinh thần tham gia nghiêm túc."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2483,10 +2501,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – SÁCH BÚT THÂN YÊU"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – CUỐN SỔ NHẮC VIỆC",
+        "lessonTitle": "BÀI 6: CUỐN SỔ NHẮC VIỆC – LÀM VIỆC THEO KẾ HOẠCH - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – CUỐN SỔ NHẮC VIỆC",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2495,6 +2516,7 @@
           "2. Năng lực chung",
           "– Tự chủ và tự học: Tự xác định được việc cần làm, biết ghi nhớ nhiệm vụ và chủ động theo dõi việc học tập, sinh hoạt của bản thân.",
           "– Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm 4, nhóm 6; biết lắng nghe, chia sẻ kinh nghiệm ghi việc cần làm.",
+          "– Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ghi chép, sắp xếp nhiệm vụ và điều chỉnh kế hoạch khi có việc phát sinh.",
           "3. Phẩm chất",
           "– Chăm chỉ: Tích cực tham gia hoạt động, ghi chép nhiệm vụ đầy đủ và thực hiện việc đã cam kết.",
           "– Trung thực: Ghi đúng việc cần làm, đúng thời gian, không ghi qua loa hoặc ghi sai để tránh quên nhiệm vụ.",
@@ -2508,10 +2530,8 @@
           "– Bảng phụ ghi các việc thường gặp: học bài, chuẩn bị sách vở, trực nhật, tưới cây, đọc sách, giúp việc nhà.",
           "– Thiết bị của GV có thể minh họa lịch, ghi chú hoặc nhắc việc điện tử ở mức đơn giản, phù hợp lứa tuổi."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2633,10 +2653,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – CUỐN SỔ NHẮC VIỆC"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – LÀM VIỆC THEO KẾ HOẠCH",
+        "lessonTitle": "BÀI 6: CUỐN SỔ NHẮC VIỆC – LÀM VIỆC THEO KẾ HOẠCH - TIẾT 3: SINH HOẠT LỚP – LÀM VIỆC THEO KẾ HOẠCH",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2645,6 +2668,7 @@
           "2. Năng lực chung",
           "– Tự chủ và tự học: Tự xác định được việc cần làm, biết ghi nhớ nhiệm vụ và chủ động theo dõi việc học tập, sinh hoạt của bản thân.",
           "– Giao tiếp và hợp tác: Trao đổi với bạn trong nhóm đôi, nhóm 4, nhóm 6; biết lắng nghe, chia sẻ kinh nghiệm ghi việc cần làm.",
+          "– Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ghi chép, sắp xếp nhiệm vụ và điều chỉnh kế hoạch khi có việc phát sinh.",
           "3. Phẩm chất",
           "– Chăm chỉ: Tích cực tham gia hoạt động, ghi chép nhiệm vụ đầy đủ và thực hiện việc đã cam kết.",
           "– Trung thực: Ghi đúng việc cần làm, đúng thời gian, không ghi qua loa hoặc ghi sai để tránh quên nhiệm vụ.",
@@ -2657,10 +2681,8 @@
           "– Cuốn sổ nhắc việc hoặc trang “Việc cần làm trong tuần” HS đã làm ở tiết trước.",
           "– Bút màu, thẻ việc cần làm, bảng nhóm hoặc giấy A3 cho hoạt động nhóm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2797,7 +2819,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – LÀM VIỆC THEO KẾ HOẠCH"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2806,13 +2831,14 @@
     "sourceFile": "HĐTN TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ - HỘI CHỢ TRAO ĐỔI ĐỒ DÙNG, ĐỒ CHƠI",
+        "lessonTitle": "BÀI 7: ỨNG XỬ VỚI ĐỒ CŨ - PHÂN LOẠI ĐỒ CŨ - TIẾT 1: SINH HOẠT DƯỚI CỜ - HỘI CHỢ TRAO ĐỔI ĐỒ DÙNG, ĐỒ CHƠI",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Năng lực thích ứng với cuộc sống: HS biết đánh giá tình trạng thừa - đủ của đồ dùng cá nhân; bước đầu biết ứng xử phù hợp với đồ cũ.",
           "- Năng lực thiết kế và tổ chức hoạt động: HS biết tham gia trao đổi, phân loại và đề xuất cách sử dụng lại đồ dùng cũ một cách hợp lí.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: HS tự nhận biết đồ dùng của mình còn cần thiết hay không, tự điều chỉnh thói quen giữ gìn đồ dùng.",
           "- Giao tiếp và hợp tác: HS biết lắng nghe, trao đổi, thảo luận nhóm và trình bày ý kiến về cách xử lí đồ cũ.",
           "- Giải quyết vấn đề và sáng tạo: HS đề xuất được cách sửa chữa, tái sử dụng, cho tặng hoặc phân loại đồ cũ phù hợp.",
           "3. Phẩm chất",
@@ -2825,10 +2851,8 @@
           "- Một số đồ dùng, đồ chơi còn sử dụng tốt; thẻ tên, phiếu trao đổi hoặc thẻ cảm nhận của học sinh.",
           "- Âm thanh, tranh ảnh minh họa về hội chợ trao đổi đồ dùng, đồ chơi."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2946,16 +2970,20 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ - HỘI CHỢ TRAO ĐỔI ĐỒ DÙNG, ĐỒ CHƠI"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - ỨNG XỬ VỚI ĐỒ CŨ",
+        "lessonTitle": "BÀI 7: ỨNG XỬ VỚI ĐỒ CŨ - PHÂN LOẠI ĐỒ CŨ - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - ỨNG XỬ VỚI ĐỒ CŨ",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Năng lực thích ứng với cuộc sống: HS biết đánh giá tình trạng thừa - đủ của đồ dùng cá nhân; bước đầu biết ứng xử phù hợp với đồ cũ.",
           "- Năng lực thiết kế và tổ chức hoạt động: HS biết tham gia trao đổi, phân loại và đề xuất cách sử dụng lại đồ dùng cũ một cách hợp lí.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: HS tự nhận biết đồ dùng của mình còn cần thiết hay không, tự điều chỉnh thói quen giữ gìn đồ dùng.",
           "- Giao tiếp và hợp tác: HS biết lắng nghe, trao đổi, thảo luận nhóm và trình bày ý kiến về cách xử lí đồ cũ.",
           "- Giải quyết vấn đề và sáng tạo: HS đề xuất được cách sửa chữa, tái sử dụng, cho tặng hoặc phân loại đồ cũ phù hợp.",
           "3. Phẩm chất",
@@ -2964,17 +2992,17 @@
           "- Trách nhiệm: HS có ý thức tiết kiệm, giữ gìn đồ dùng và hạn chế lãng phí, góp phần bảo vệ môi trường.",
           "4. Tích hợp",
           "- Tích hợp BVMT: HS biết giữ gìn, tái sử dụng đồ dùng cũ phù hợp, hạn chế lãng phí và phân loại đồ dùng gọn gàng để bảo vệ môi trường.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu quy trình phân loại đồ cũ có thể mô phỏng bằng các bước \"nếu... thì...\"; biết phân nhóm đồ dùng theo tình trạng, công dụng và khả năng tái sử dụng."
+          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu quy trình phân loại đồ cũ có thể mô phỏng bằng các bước \"nếu... thì...\"; biết phân nhóm đồ dùng theo tình trạng, công dụng và khả năng tái sử dụng.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Thể hiện tinh thần tương thân tương ái, san sẻ yêu thương qua việc gom tặng sách vở, quần áo, đồ dùng cũ còn tốt cho các bạn học sinh có hoàn cảnh khó khăn ở các vùng sâu trong tỉnh Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M18): Tái sử dụng các chai lọ, xô chậu cũ đã làm sạch để chứa nước hoặc trồng cây xanh; hạn chế rác thải nhựa làm ô nhiễm nguồn nước sông ngòi."
         ],
         "dodung": [
           "- Mũ nhân vật, áo, quần, tất hoặc áo, quần và tất thật để sắm vai tiểu phẩm.",
           "- Tranh/ảnh SGK về tiểu phẩm \"Nỗi buồn của quần áo cũ\", tranh đồ cũ cần sửa chữa, phiếu thảo luận nhóm.",
           "- Một số đồ dùng cũ sạch, an toàn để HS quan sát và phân loại."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3057,6 +3085,14 @@
               "- HS lắng nghe và nhắc lại ý chính."
             ],
             [
+              "- GV gợi ý dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 2 GDĐP 3 & Mã Mizuiku M18): “Ở quê hương Trà Vinh chúng ta, việc phân loại đồ dùng cũ còn tốt mang lại ý nghĩa tương thân tương ái và bảo vệ môi trường như thế nào?”",
+              "- HS trả lời: Chúng em gom sách báo, quần áo, đồ chơi cũ còn dùng tốt để gửi tặng các bạn học sinh có hoàn cảnh khó khăn ở vùng nông thôn tỉnh Trà Vinh; đồng thời tận dụng chai lọ, xô chậu nhựa cũ làm sạch để trồng cây, không vứt rác nhựa xuống dòng sông kênh rạch ạ."
+            ],
+            [
+              "- GV kết luận: San sẻ đồ dùng cũ và tái chế đồ nhựa vừa lan tỏa nét đẹp ấm áp tình người Trà Vinh, vừa chung tay giữ gìn nguồn nước quê hương xanh tươi.",
+              "- HS tự hào và tích cực tham gia phong trào phân loại, quyên góp đồ cũ."
+            ],
+            [
               "3. Mở rộng và tổng kết chủ đề: Nói lời chia tay với đồ vật cũ (10 phút)\nMục tiêu: HS biết bày tỏ tình cảm với đồ dùng cũ, biết trân trọng đồ vật đã từng gắn bó với mình.\nMục tiêu tích hợp: AI 3.C5.1: HS nhận biết có thể phân loại đồ cũ theo quy tắc \"nếu... thì...\" như một quy trình đơn giản.\n*Cách tiến hành:"
             ],
             [
@@ -3112,16 +3148,20 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - ỨNG XỬ VỚI ĐỒ CŨ"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP - PHÂN LOẠI ĐỒ CŨ",
+        "lessonTitle": "BÀI 7: ỨNG XỬ VỚI ĐỒ CŨ - PHÂN LOẠI ĐỒ CŨ - TIẾT 3: SINH HOẠT LỚP - PHÂN LOẠI ĐỒ CŨ",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Năng lực thích ứng với cuộc sống: HS biết đánh giá tình trạng thừa - đủ của đồ dùng cá nhân; bước đầu biết ứng xử phù hợp với đồ cũ.",
           "- Năng lực thiết kế và tổ chức hoạt động: HS biết tham gia trao đổi, phân loại và đề xuất cách sử dụng lại đồ dùng cũ một cách hợp lí.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: HS tự nhận biết đồ dùng của mình còn cần thiết hay không, tự điều chỉnh thói quen giữ gìn đồ dùng.",
           "- Giao tiếp và hợp tác: HS biết lắng nghe, trao đổi, thảo luận nhóm và trình bày ý kiến về cách xử lí đồ cũ.",
           "- Giải quyết vấn đề và sáng tạo: HS đề xuất được cách sửa chữa, tái sử dụng, cho tặng hoặc phân loại đồ cũ phù hợp.",
           "3. Phẩm chất",
@@ -3136,10 +3176,8 @@
           "- Một số nhãn phân loại: \"Sách đọc rồi tặng bạn\", \"Cũ mà vẫn tốt\", \"Đồ cần sửa\", \"Đồ bỏ đúng nơi\".",
           "- Phiếu chia sẻ kết quả kiểm tra và phân loại đồ cũ ở nhà."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3310,7 +3348,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP - PHÂN LOẠI ĐỒ CŨ"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3319,7 +3360,7 @@
     "sourceFile": "HĐTN TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – NGÀY HỘI TIÊU DÙNG THÔNG MINH",
+        "lessonTitle": "BÀI 8: NGƯỜI TIÊU DÙNG THÔNG MINH – CŨ MÀ VẪN TỐT - TIẾT 1: SINH HOẠT DƯỚI CỜ – NGÀY HỘI TIÊU DÙNG THÔNG MINH",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3339,10 +3380,8 @@
           "- Khu vực trưng bày minh họa các món đồ nên mua/chưa nên mua.",
           "- Câu hỏi giao lưu, thẻ “Muốn – Cần – Có thể”, phần quà nhỏ nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3351,7 +3390,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Trước hoạt động (8 phút)Mục tiêu: HS chuẩn bị tâm thế tham gia Ngày hội tiêu dùng thông minh, biết nhiệm vụ cần thực hiện khi nghe giao lưu.*Cách tiến hành:"
+              "1. Trước hoạt động (8 phút)\nMục tiêu: HS chuẩn bị tâm thế tham gia Ngày hội tiêu dùng thông minh, biết nhiệm vụ cần thực hiện khi nghe giao lưu.\n*Cách tiến hành:"
             ],
             [
               "- GV ổn định đội hình lớp, nhắc HS giữ trật tự, ngồi đúng vị trí và chuẩn bị nghe giới thiệu ngày hội.",
@@ -3374,7 +3413,7 @@
               "- HS quan sát hình, nêu nhận xét về hoạt động giao lưu trên sân trường."
             ],
             [
-              "2. Trong hoạt động (22 phút)Mục tiêu: HS biết tham gia giao lưu, trả lời câu hỏi, trao đổi về cách chi tiêu thông minh.*Cách tiến hành:"
+              "2. Trong hoạt động (22 phút)\nMục tiêu: HS biết tham gia giao lưu, trả lời câu hỏi, trao đổi về cách chi tiêu thông minh.\n*Cách tiến hành:"
             ],
             [
               "- GV cùng HS thực hiện nghi thức chào cờ, hát Quốc ca và nghe nhận xét hoạt động tuần qua.",
@@ -3401,7 +3440,7 @@
               "- HS lắng nghe và nhắc lại: Muốn là điều em thích; Cần là điều thật sự cần; Có thể là điều phù hợp với khả năng."
             ],
             [
-              "3. Sau hoạt động – Cam kết hành động (5 phút)Mục tiêu: HS nêu được một việc sẽ làm để chi tiêu tiết kiệm, tránh lãng phí.*Cách tiến hành:"
+              "3. Sau hoạt động – Cam kết hành động (5 phút)\nMục tiêu: HS nêu được một việc sẽ làm để chi tiêu tiết kiệm, tránh lãng phí.\n*Cách tiến hành:"
             ],
             [
               "- GV hỏi: “Sau buổi giao lưu, em sẽ nhắc mình điều gì khi muốn mua một món đồ mới?”",
@@ -3417,10 +3456,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – NGÀY HỘI TIÊU DÙNG THÔNG MINH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGƯỜI TIÊU DÙNG THÔNG MINH",
+        "lessonTitle": "BÀI 8: NGƯỜI TIÊU DÙNG THÔNG MINH – CŨ MÀ VẪN TỐT - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGƯỜI TIÊU DÙNG THÔNG MINH",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3441,10 +3483,8 @@
           "- Bìa xanh, bìa đỏ; thẻ từ: MUỐN, CẦN, CÓ THỂ.",
           "- Tranh SGK về kể chuyện tương tác và sắm vai xử lí tình huống; máy chiếu nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3453,7 +3493,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động: Kể chuyện tương tác “Tớ thực sự cần gì?” (7 phút)Mục tiêu: Tạo không khí vui tươi, dẫn dắt HS vào chủ đề tiêu dùng thông minh.*Cách tiến hành:"
+              "1. Khởi động: Kể chuyện tương tác “Tớ thực sự cần gì?” (7 phút)\nMục tiêu: Tạo không khí vui tươi, dẫn dắt HS vào chủ đề tiêu dùng thông minh.\n*Cách tiến hành:"
             ],
             [
               "- GV mời HS tham gia kể câu chuyện về các con thú nhỏ đòi mẹ mua những món đồ không cần thiết.",
@@ -3480,7 +3520,7 @@
               "- HS lắng nghe và bước đầu rút ra bài học: cần suy nghĩ trước khi mua."
             ],
             [
-              "2. Khám phá chủ đề: Sắm vai xử lí tình huống (15 phút)Mục tiêu: HS xác định được việc nên hay không nên mua một món đồ trong các tình huống cụ thể.*Cách tiến hành:"
+              "2. Khám phá chủ đề: Sắm vai xử lí tình huống (15 phút)\nMục tiêu: HS xác định được việc nên hay không nên mua một món đồ trong các tình huống cụ thể.\n*Cách tiến hành:"
             ],
             [
               "- GV đề nghị HS làm việc theo cặp đôi và nêu tình huống: “Một bạn muốn mua thêm một món đồ, bạn còn lại hãy thuyết phục bạn nghĩ lại”.",
@@ -3527,7 +3567,7 @@
               "- HS lắng nghe và ghi nhớ cách đặt câu hỏi trước khi mua."
             ],
             [
-              "3. Mở rộng và tổng kết chủ đề: Cùng đọc bí kíp “Muốn – Cần – Có thể” (10 phút)Mục tiêu: HS biết dùng bí kíp “Muốn – Cần – Có thể” để cân nhắc khi mua sắm.*Cách tiến hành:"
+              "3. Mở rộng và tổng kết chủ đề: Cùng đọc bí kíp “Muốn – Cần – Có thể” (10 phút)\nMục tiêu: HS biết dùng bí kíp “Muốn – Cần – Có thể” để cân nhắc khi mua sắm.\n*Cách tiến hành:"
             ],
             [
               "- GV mời HS cùng đọc ba nhóm từ: MUỐN, CẦN, CÓ THỂ.",
@@ -3558,7 +3598,7 @@
               "- HS nhắc lại: Trước khi mua, em cần nghĩ xem mình muốn gì, cần gì và có thể mua hay chưa."
             ],
             [
-              "4. Cam kết hành động (3 phút)Mục tiêu: HS biết thực hiện một việc cụ thể để kiểm tra đồ dùng và tránh mua sắm lãng phí.*Cách tiến hành:"
+              "4. Cam kết hành động (3 phút)\nMục tiêu: HS biết thực hiện một việc cụ thể để kiểm tra đồ dùng và tránh mua sắm lãng phí.\n*Cách tiến hành:"
             ],
             [
               "- GV đề nghị HS về nhà kiểm tra đồ dùng học tập và đồ dùng cá nhân đã có, lập danh mục món đồ đã mua mà chưa dùng đến.",
@@ -3574,16 +3614,20 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGƯỜI TIÊU DÙNG THÔNG MINH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: CŨ MÀ VẪN TỐT",
+        "lessonTitle": "BÀI 8: NGƯỜI TIÊU DÙNG THÔNG MINH – CŨ MÀ VẪN TỐT - TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: CŨ MÀ VẪN TỐT",
         "topic": "CHỦ ĐỀ 2: NẾP SỐNG ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
           "- HS chia sẻ phản hồi sau khi thực hiện kiểm tra đồ dùng cá nhân, xác định được những đồ chưa dùng đến.",
           "- HS biết thực hành sửa chữa một số đồ dùng bị hỏng đơn giản và nêu cách sử dụng đồ dùng tiết kiệm.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: biết tự kiểm tra đồ dùng cá nhân, tự điều chỉnh thói quen mua sắm.",
           "- Giao tiếp và hợp tác: biết chia sẻ thu hoạch, làm việc nhóm khi sửa đồ dùng bị hỏng.",
           "- Giải quyết vấn đề và sáng tạo: biết tìm cách tái sử dụng, sửa chữa đồ dùng còn dùng được.",
           "3. Phẩm chất",
@@ -3596,10 +3640,8 @@
           "- Một số đồ dùng bị hỏng nhẹ có thể sửa: sách bìa rách, vở bong gáy, hộp bút bong mép.",
           "- Phiếu chia sẻ kết quả kiểm tra đồ dùng cá nhân; tranh SGK."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3608,7 +3650,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo không khí tích cực, giúp HS nhớ lại nhiệm vụ kiểm tra đồ dùng cá nhân đã thực hiện ở nhà.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí tích cực, giúp HS nhớ lại nhiệm vụ kiểm tra đồ dùng cá nhân đã thực hiện ở nhà.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi nhanh “Đồ cũ nói gì?”: GV nêu tên một món đồ cũ, HS nói cách sử dụng tiếp hoặc sửa lại.",
@@ -3623,7 +3665,7 @@
               "- HS lắng nghe, chuẩn bị phiếu hoặc ghi nhớ kết quả kiểm tra của mình."
             ],
             [
-              "2. Hoạt động tổng kết tuần (12 phút)Mục tiêu: HS nhìn lại hoạt động trong tuần, nêu việc làm tốt và xác định phương hướng tuần tiếp theo.*Cách tiến hành:"
+              "2. Hoạt động tổng kết tuần (12 phút)\nMục tiêu: HS nhìn lại hoạt động trong tuần, nêu việc làm tốt và xác định phương hướng tuần tiếp theo.\n*Cách tiến hành:"
             ],
             [
               "2.1. Hoạt động tổng kết tuần"
@@ -3680,7 +3722,7 @@
               "- HS lắng nghe, đồng thanh quyết tâm thực hiện tốt phương hướng tuần 9."
             ],
             [
-              "3. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ kết quả kiểm tra đồ dùng cá nhân (10 phút)Mục tiêu: HS chia sẻ kết quả kiểm tra đồ dùng cá nhân và xác định đồ cần mua, đồ có thể dùng lại.*Cách tiến hành:"
+              "3. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ kết quả kiểm tra đồ dùng cá nhân (10 phút)\nMục tiêu: HS chia sẻ kết quả kiểm tra đồ dùng cá nhân và xác định đồ cần mua, đồ có thể dùng lại.\n*Cách tiến hành:"
             ],
             [
               "- GV mời HS chia sẻ với bạn bên cạnh theo gợi ý: Em đã tìm thấy những món đồ nào chưa dùng đến? Em có cần mua những món đồ mới nào không?",
@@ -3711,7 +3753,7 @@
               "- HS lắng nghe và hoàn thiện chia sẻ của mình."
             ],
             [
-              "4. Hoạt động theo nhóm: Thực hành sửa đồ dùng bị hỏng (12 phút)Mục tiêu: HS thực hành sửa chữa một số đồ dùng bị hỏng nhẹ, hình thành thói quen tiết kiệm.*Cách tiến hành:"
+              "4. Hoạt động theo nhóm: Thực hành sửa đồ dùng bị hỏng (12 phút)\nMục tiêu: HS thực hành sửa chữa một số đồ dùng bị hỏng nhẹ, hình thành thói quen tiết kiệm.\n*Cách tiến hành:"
             ],
             [
               "- GV mời HS kiểm tra lại đồ dùng học tập, xem có món đồ nào cần sửa chữa không.",
@@ -3738,7 +3780,7 @@
               "- HS lắng nghe, tự hào về sản phẩm nhóm đã sửa."
             ],
             [
-              "5. Cam kết hành động (3 phút)Mục tiêu: HS biết thực hiện việc tiết kiệm, giữ gìn và sửa chữa đồ dùng trong gia đình.*Cách tiến hành:"
+              "5. Cam kết hành động (3 phút)\nMục tiêu: HS biết thực hiện việc tiết kiệm, giữ gìn và sửa chữa đồ dùng trong gia đình.\n*Cách tiến hành:"
             ],
             [
               "- GV khuyến khích HS cùng người thân sửa chữa đồ dùng bị hỏng trong gia đình.",
@@ -3758,7 +3800,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: CŨ MÀ VẪN TỐT"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3767,7 +3812,7 @@
     "sourceFile": "HĐTN TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – PHONG TRÀO XÂY DỰNG “TỦ SÁCH LỚP HỌC”",
+        "lessonTitle": "BÀI 9: LỚP HỌC CỦA EM – LỚP HỌC THÂN THƯƠNG - TIẾT 1: SINH HOẠT DƯỚI CỜ – PHONG TRÀO XÂY DỰNG “TỦ SÁCH LỚP HỌC”",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3788,10 +3833,8 @@
           "- Một số tiết mục văn nghệ, tiểu phẩm ngắn hoặc phần dẫn chương trình về ý nghĩa của sách.",
           "- Hộp đăng kí góp sách, thẻ ghi tên sách, phiếu cam kết giữ gìn sách, một số cuốn sách mẫu còn tốt."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3890,10 +3933,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – PHONG TRÀO XÂY DỰNG “TỦ SÁCH LỚP HỌC”"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – LỚP HỌC CỦA EM",
+        "lessonTitle": "BÀI 9: LỚP HỌC CỦA EM – LỚP HỌC THÂN THƯƠNG - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – LỚP HỌC CỦA EM",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3917,10 +3963,8 @@
           "- Ba tấm bìa ghi tiêu chí: XANH, SẠCH, ĐẸP; giấy A3 đủ cho các tổ; bút màu, giấy màu, hồ dán.",
           "- Một số dụng cụ, vật liệu trang trí an toàn: kéo học sinh, băng dính, dây treo, vật liệu tái sử dụng phù hợp."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4070,10 +4114,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – LỚP HỌC CỦA EM"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: LỚP HỌC THÂN THƯƠNG",
+        "lessonTitle": "BÀI 9: LỚP HỌC CỦA EM – LỚP HỌC THÂN THƯƠNG - TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: LỚP HỌC THÂN THƯƠNG",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4083,6 +4130,7 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết phân công, phối hợp trong nhóm, nhận xét sản phẩm của bạn bằng lời nói tích cực.",
           "- Tự chủ và tự học: biết chuẩn bị vật liệu, tự hoàn thành phần việc được giao và tự dọn dẹp sau khi làm.",
+          "- Giải quyết vấn đề và sáng tạo: biết điều chỉnh cách trang trí khi vật liệu thiếu hoặc cách làm chưa an toàn.",
           "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia trang trí, vệ sinh, sắp xếp lớp học.",
           "- Trách nhiệm: biết giữ gìn sản phẩm chung, dùng dụng cụ đúng cách, bảo vệ an toàn cho bản thân và bạn.",
@@ -4095,10 +4143,8 @@
           "- Đồ dùng trang trí: giấy màu, bút màu, hồ dán, băng dính, dây treo, kéo học sinh, khăn lau, túi rác.",
           "- Phiếu phân công nhiệm vụ; bảng tiêu chí: an toàn - sạch đẹp - hợp tác - tiết kiệm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4246,7 +4292,7 @@
             ],
             [
               "- GV cùng HS đọc bài thơ theo SGV để kết thúc hoạt động chia sẻ cảm xúc.",
-              "- HS đọc đồng thanh:“Chổi, xẻng làm lớp sạch,Chậu cây làm lớp xanh.Bàn tay nhỏ thanh thanh,Làm lớp mình thêm đẹp!”"
+              "- HS đọc đồng thanh:\n“Chổi, xẻng làm lớp sạch,\nChậu cây làm lớp xanh.\nBàn tay nhỏ thanh thanh,\nLàm lớp mình thêm đẹp!”"
             ],
             [
               "- GV kết luận: Lớp học thân thương được tạo nên từ bàn tay, ý tưởng, sự an toàn và tình yêu thương của tất cả thành viên trong lớp.",
@@ -4269,7 +4315,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: LỚP HỌC THÂN THƯƠNG"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4278,7 +4327,7 @@
     "sourceFile": "HĐTN TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – TRIỂN LÃM TRANH VỀ CHỦ ĐỀ “TÌNH BẠN”",
+        "lessonTitle": "BÀI 10: BẢO VỆ TÌNH BẠN – CHÚNG MÌNH HIỂU NHAU - TIẾT 1: SINH HOẠT DƯỚI CỜ – TRIỂN LÃM TRANH VỀ CHỦ ĐỀ “TÌNH BẠN”",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4299,10 +4348,8 @@
           "- Tranh của HS về chủ đề “Tình bạn”, bảng tên tranh, thẻ giới thiệu ngắn, kẹp/giá trưng bày.",
           "- Nội dung tổng kết phong trào “Tủ sách lớp học”, phần thưởng/giấy khen nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4393,10 +4440,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – TRIỂN LÃM TRANH VỀ CHỦ ĐỀ “TÌNH BẠN”"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BẢO VỆ TÌNH BẠN",
+        "lessonTitle": "BÀI 10: BẢO VỆ TÌNH BẠN – CHÚNG MÌNH HIỂU NHAU - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BẢO VỆ TÌNH BẠN",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4420,10 +4470,8 @@
           "- Tranh SGK về tình huống hiểu lầm, tranh cãi, không hợp tác; thẻ cảm xúc: giận, buồn, lo, xấu hổ, vui, bình tĩnh.",
           "- Phiếu tình huống sắm vai; bảng ghi bí kíp giải quyết bất đồng; máy chiếu nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4526,7 +4574,7 @@
               "- HS đọc lại bí kíp và ghi nhớ để áp dụng khi có bất đồng với bạn."
             ],
             [
-              "3. Mở rộng và tổng kết chủ đề: Suy nghĩ về cách làm hoà với bạn, bảo vệ tình bạn (6 phút)Mục tiêu: HS suy nghĩ và đưa ra kế hoạch cụ thể để làm hoà với bạn, cải thiện mối quan hệ có dấu chấm than trong sơ đồ Sao tình bạn.Mục tiêu tích hợp AI (3.B3.2): HS biết không dùng các công cụ AI như ChatGPT, Microsoft Copilot, Canva AI hoặc CapCut AI để viết lời trêu chọc, chế ảnh, chỉnh ảnh, tạo video làm bạn tổn thương; biết hỏi ý kiến người lớn và dùng công nghệ tôn trọng bạn bè.*Cách tiến hành:"
+              "3. Mở rộng và tổng kết chủ đề: Suy nghĩ về cách làm hoà với bạn, bảo vệ tình bạn (6 phút)\nMục tiêu: HS suy nghĩ và đưa ra kế hoạch cụ thể để làm hoà với bạn, cải thiện mối quan hệ có dấu chấm than trong sơ đồ Sao tình bạn.\nMục tiêu tích hợp AI (3.B3.2): HS biết không dùng các công cụ AI như ChatGPT, Microsoft Copilot, Canva AI hoặc CapCut AI để viết lời trêu chọc, chế ảnh, chỉnh ảnh, tạo video làm bạn tổn thương; biết hỏi ý kiến người lớn và dùng công nghệ tôn trọng bạn bè.\n*Cách tiến hành:"
             ],
             [
               "- GV đề nghị HS xem lại sơ đồ “Sao tình bạn” và chọn một mối quan hệ cần điều chỉnh hoặc vun đắp thêm.",
@@ -4573,10 +4621,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BẢO VỆ TÌNH BẠN"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: CHÚNG MÌNH HIỂU NHAU",
+        "lessonTitle": "BÀI 10: BẢO VỆ TÌNH BẠN – CHÚNG MÌNH HIỂU NHAU - TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: CHÚNG MÌNH HIỂU NHAU",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4599,10 +4650,8 @@
           "- Tờ bìa hoặc tấm bảng nhỏ để chơi trò chơi Hiểu bạn; thẻ cảm xúc; bút dạ, giấy nhớ.",
           "- Một số tình huống mẫu về bất đồng giữa bạn bè; phiếu cam kết hành động sau giờ học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4765,7 +4814,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: CHÚNG MÌNH HIỂU NHAU"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4774,7 +4826,7 @@
     "sourceFile": "HĐTN TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – GƯƠNG SÁNG ĐỘI TA",
+        "lessonTitle": "BÀI 11: PHẤN ĐẤU TRỞ THÀNH ĐỘI VIÊN – TỰ HÀO VỀ ĐỘI TA - TIẾT 1: SINH HOẠT DƯỚI CỜ – GƯƠNG SÁNG ĐỘI TA",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4795,10 +4847,8 @@
           "- Tranh ảnh hoặc hình minh họa về anh Kim Đồng, khăn quàng đỏ, huy hiệu Đội; thẻ câu hỏi giao lưu.",
           "- Nội dung chia sẻ của Sao Nhi đồng, bài hát về Đội hoặc bài hát “Nhanh bước nhanh nhi đồng”."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4881,10 +4931,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – GƯƠNG SÁNG ĐỘI TA"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – PHẤN ĐẤU TRỞ THÀNH ĐỘI VIÊN",
+        "lessonTitle": "BÀI 11: PHẤN ĐẤU TRỞ THÀNH ĐỘI VIÊN – TỰ HÀO VỀ ĐỘI TA - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – PHẤN ĐẤU TRỞ THÀNH ĐỘI VIÊN",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4908,10 +4961,8 @@
           "- Khăn quàng đỏ, huy hiệu Đội hoặc tranh ảnh tương ứng; thẻ từ: anh Kim Đồng, 15/5/1941, khăn quàng đỏ, búp măng non, sẵn sàng.",
           "- Phiếu/thẻ kế hoạch phấn đấu trở thành đội viên; máy chiếu hoặc thiết bị trình chiếu hình ảnh nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5057,10 +5108,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – PHẤN ĐẤU TRỞ THÀNH ĐỘI VIÊN"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: TỰ HÀO VỀ ĐỘI TA",
+        "lessonTitle": "BÀI 11: PHẤN ĐẤU TRỞ THÀNH ĐỘI VIÊN – TỰ HÀO VỀ ĐỘI TA - TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: TỰ HÀO VỀ ĐỘI TA",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5069,6 +5123,7 @@
           "- HS tham gia hoạt động để cảm nhận niềm tự hào về Đội Thiếu niên Tiền phong Hồ Chí Minh và tiếp tục thực hiện kế hoạch rèn luyện.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết báo cáo, lắng nghe, góp ý lịch sự cho kế hoạch rèn luyện của bạn.",
+          "- Tự chủ và tự học: biết tự nhìn lại kết quả thực hiện kế hoạch cá nhân và điều chỉnh việc làm cho phù hợp.",
           "- Giải quyết vấn đề và sáng tạo: biết nêu cách vượt qua khó khăn khi thực hiện kế hoạch phấn đấu trở thành đội viên.",
           "3. Phẩm chất",
           "- Yêu nước: tự hào về truyền thống Đội, kính yêu Bác Hồ và trân trọng các hoạt động của Đội.",
@@ -5083,10 +5138,8 @@
           "- Tấm bìa, mẩu giấy hình tròn hoặc hình trái tim để HS ghi quyết tâm hành động.",
           "- Không gian ngoài sân trường, sảnh hoặc phòng truyền thống; tranh ảnh về Đội, 5 điều Bác Hồ dạy thiếu niên, nhi đồng."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5229,7 +5282,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: TỰ HÀO VỀ ĐỘI TA"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -5238,7 +5294,7 @@
     "sourceFile": "HĐTN TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20/11",
+        "lessonTitle": "BÀI 12: THẦY CÔ TRONG MẮT EM – MÓN QUÀ TẶNG THẦY CÔ - TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20/11",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5259,10 +5315,8 @@
           "- Một số lời chúc, bài hát về thầy cô; hoa, thiệp hoặc biểu tượng tri ân để minh họa.",
           "- Bảng nội dung chủ đề: Chào mừng Ngày Nhà giáo Việt Nam 20/11."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5333,10 +5387,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20/11"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – THẦY CÔ TRONG MẮT EM",
+        "lessonTitle": "BÀI 12: THẦY CÔ TRONG MẮT EM – MÓN QUÀ TẶNG THẦY CÔ - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – THẦY CÔ TRONG MẮT EM",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5360,10 +5417,8 @@
           "- Giấy, bút màu hoặc bảng con để ghi nhanh ý tưởng, kỉ niệm về thầy cô.",
           "- Một số hình ảnh minh họa về bưu thiếp, món quà tri ân hoặc sản phẩm tạo hình đơn giản."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5453,10 +5508,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – THẦY CÔ TRONG MẮT EM"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – MÓN QUÀ TẶNG THẦY CÔ",
+        "lessonTitle": "BÀI 12: THẦY CÔ TRONG MẮT EM – MÓN QUÀ TẶNG THẦY CÔ - TIẾT 3: SINH HOẠT LỚP – MÓN QUÀ TẶNG THẦY CÔ",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5479,10 +5537,8 @@
           "- Một cuốn sổ kỉ niệm của lớp hoặc những tờ bìa màu/giấy trắng, bút viết, bút màu, hồ dán, dây buộc.",
           "- Thẻ chữ “TRI ÂN”; một số món quà, bưu thiếp mẫu hoặc hình ảnh minh họa."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5616,7 +5672,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – MÓN QUÀ TẶNG THẦY CÔ"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -5625,9 +5684,14 @@
     "sourceFile": "HĐTN TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – TỰ PHỤC VỤ BẢN THÂN",
-        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+        "lessonTitle": "Bài học Tiết 1 (Tuần 13)",
+        "topic": "",
         "yccd": [
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+          "BÀI 13: TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP – ĐÔI TAY KHÉO LÉO",
+          "TUẦN 13",
+          "TIẾT 1: SINH HOẠT DƯỚI CỜ – TỰ PHỤC VỤ BẢN THÂN",
           "1. Năng lực đặc thù",
           "- HS tham gia xem vở kịch vui “Đồ đạc chạy trốn” và chia sẻ được cảm nhận của mình về vở kịch.",
           "- HS nhận ra sự cần thiết của việc tự phục vụ bản thân, biết để đồ dùng đúng chỗ sau khi sử dụng.",
@@ -5639,18 +5703,13 @@
           "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia hoạt động, quan sát và ghi nhớ thông điệp của vở kịch.",
           "- Trách nhiệm: biết tự phục vụ bản thân, giữ gìn đồ dùng cá nhân và đồ dùng chung.",
-          "- Nhân ái: biết trân trọng công sức của người thân, thầy cô khi giữ không gian sống, học tập gọn gàng."
-        ],
-        "dodung": [
+          "- Nhân ái: biết trân trọng công sức của người thân, thầy cô khi giữ không gian sống, học tập gọn gàng.",
           "- Sân trường hoặc hội trường; hệ thống âm thanh, micro; khu vực biểu diễn vở kịch vui “Đồ đạc chạy trốn”.",
           "- Một số đạo cụ: mũ, thẻ nhân vật đồ dùng, tủ, ghế, hộp, giỏ hoặc hình ảnh minh họa đồ dùng trong nhà.",
           "- Câu hỏi giao lưu sau vở kịch; bảng khẩu hiệu: “Dùng xong để đúng chỗ – luôn ngăn nắp, gọn gàng”."
         ],
+        "dodung": [],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5726,40 +5785,7 @@
               "- GV kết luận: Tự phục vụ bản thân bắt đầu từ những việc nhỏ. Khi biết để đồ dùng đúng chỗ, chúng ta tiết kiệm thời gian, giữ nhà cửa và lớp học gọn gàng hơn.",
               "- HS lắng nghe, ghi nhớ thông điệp của tiết Sinh hoạt dưới cờ."
             ]
-          ]
-        ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – TỰ PHỤC VỤ BẢN THÂN"
-      },
-      {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP",
-        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS sắp xếp được đồ dùng đúng chỗ sau khi sử dụng.",
-          "- HS biết biểu diễn tiểu phẩm tương tác, trao đổi để đưa ra cách sắp xếp đồ dùng phù hợp.",
-          "- HS thực hành sắp xếp một số đồ dùng cá nhân và đồ dùng chung của lớp gọn gàng, ngăn nắp.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết phân vai, thảo luận, góp ý, giúp bạn sắp xếp đồ dùng đúng chỗ.",
-          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn vật dụng chứa đồ như giá, kệ, tủ, hộp, giỏ, túi để sắp xếp gọn gàng.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực tham gia tiểu phẩm, thảo luận và thực hành sắp xếp.",
-          "- Trách nhiệm: tự giác phục vụ bản thân, giữ đồ dùng của mình và của lớp đúng nơi quy định.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình."
-        ],
-        "dodung": [
-          "- Thẻ từ nhỏ ghi các vị trí trong nhà; thẻ nhân vật đồ dùng; hộp, giỏ, túi, mắc áo, mô hình kệ hoặc hình ảnh minh họa.",
-          "- Một số đồ dùng cá nhân an toàn: sách, vở, bút, khăn, mũ, áo khoác, hộp bút, giày dép.",
-          "- Tranh SGK về tiểu phẩm “Chỗ ở của đồ đạc”, tranh dụng cụ sắp xếp và tranh thực hành sắp xếp đồ dùng."
-        ],
-        "activities": [],
-        "dieuchinh": [
-          "- Yêu lao động: trân trọng công việc sắp xếp, dọn dẹp và sản phẩm lao động của bản thân, của bạn.",
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
-        ],
-        "tables": [
+          ],
           [
             [
               "Hoạt động của GV",
@@ -5847,6 +5873,14 @@
               "- HS lắng nghe, tự nhắc mình tiếp tục giữ đồ dùng ngăn nắp."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Tiết kiệm nước (Chủ đề 7 GDĐP 3 & Mã Mizuiku M10, M25): “Để rèn luyện đôi bàn tay khéo léo, chúng ta học tập điều gì từ các nghệ nhân làng nghề dệt chiếu Cà Hom, bánh tét Trà Cuôn ở quê hương Trà Vinh? Khi làm vệ sinh, lau chùi đồ dùng em tiết kiệm nước ra sao?”",
+              "- HS trả lời: Chúng em học tập đôi bàn tay cẩn thận, khéo léo của nghệ nhân dệt chiếu Cà Hom và làm bánh tét Trà Cuôn; khi giặt khăn lau bàn ghế, chúng em hứng nước vừa đủ vào chậu nhỏ, không mở vòi chảy tràn lãng phí nước sạch ạ."
+            ],
+            [
+              "- GV biểu dương: Đôi bàn tay khéo léo kết hợp với thói quen tiết kiệm nước sạch sẽ giúp lớp học luôn sạch đẹp và bảo vệ nguồn tài nguyên quý giá của quê hương.",
+              "- HS hào hứng thi đua rèn luyện đôi tay khéo léo và tiết kiệm nước."
+            ],
+            [
               "4. Cam kết hành động (5 phút)\nMục tiêu: HS lựa chọn một việc làm cụ thể để sắp xếp đồ dùng của mình ở nhà hoặc ở lớp.\n*Cách tiến hành:"
             ],
             [
@@ -5857,40 +5891,7 @@
               "- GV nhắc HS quan sát nhà mình và lựa chọn một việc vừa sức để thực hiện, sau đó chia sẻ kết quả trong tiết Sinh hoạt lớp.",
               "- HS tiếp nhận nhiệm vụ, ghi nhớ sẽ thực hiện và chia sẻ lại với cô, với bạn."
             ]
-          ]
-        ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP"
-      },
-      {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: ĐÔI TAY KHÉO LÉO",
-        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS thực hiện phân loại và để đồ vật trong gia đình, ở lớp đúng chỗ đã quy định.",
-          "- HS chia sẻ được những việc đã làm ở nhà để sắp xếp đồ dùng gọn gàng, ngăn nắp.",
-          "- HS biết dán nhãn, xác định vị trí để đồ dùng của tổ em và cam kết tiếp tục giữ đồ dùng đúng chỗ.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết chia sẻ, khen bạn, phân công việc nhóm khi dán nhãn đồ dùng của tổ.",
-          "- Giải quyết vấn đề và sáng tạo: biết chọn nhãn, kí hiệu hoặc vị trí phù hợp để đồ dùng dễ tìm, dễ sử dụng.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực tham gia dán nhãn, sắp xếp đồ dùng và hoàn thành nhiệm vụ nhóm.",
-          "- Trách nhiệm: biết giữ gìn đồ dùng cá nhân, đồ dùng chung và không để lớp học bừa bộn.",
-          "- Trung thực: chia sẻ đúng việc mình đã làm ở nhà, biết tự nhận việc cần cố gắng hơn.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình."
-        ],
-        "dodung": [
-          "- Bảng tổng kết tuần 13, nội dung phương hướng tuần 14.",
-          "- Tờ bìa màu nhỏ, giấy nhãn, bút màu, kéo an toàn, keo dán hoặc băng dính trong.",
-          "- Một số hộp, giỏ, kệ, ngăn kéo hoặc vị trí trong lớp cần dán nhãn."
-        ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
-        ],
-        "tables": [
+          ],
           [
             [
               "Hoạt động của GV",
@@ -6027,7 +6028,62 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: ĐÔI TAY KHÉO LÉO"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................",
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+          "BÀI 13: TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP – ĐÔI TAY KHÉO LÉO",
+          "TUẦN 13",
+          "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP",
+          "1. Năng lực đặc thù",
+          "- HS sắp xếp được đồ dùng đúng chỗ sau khi sử dụng.",
+          "- HS biết biểu diễn tiểu phẩm tương tác, trao đổi để đưa ra cách sắp xếp đồ dùng phù hợp.",
+          "- HS thực hành sắp xếp một số đồ dùng cá nhân và đồ dùng chung của lớp gọn gàng, ngăn nắp.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: biết tự kiểm tra vị trí đồ dùng của mình, tự điều chỉnh khi sắp xếp chưa hợp lí.",
+          "- Giao tiếp và hợp tác: biết phân vai, thảo luận, góp ý, giúp bạn sắp xếp đồ dùng đúng chỗ.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn vật dụng chứa đồ như giá, kệ, tủ, hộp, giỏ, túi để sắp xếp gọn gàng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực tham gia tiểu phẩm, thảo luận và thực hành sắp xếp.",
+          "- Trách nhiệm: tự giác phục vụ bản thân, giữ đồ dùng của mình và của lớp đúng nơi quy định.",
+          "- Yêu lao động: trân trọng công việc sắp xếp, dọn dẹp và sản phẩm lao động của bản thân, của bạn.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Trân trọng đôi bàn tay khéo léo của người thợ thủ công, nghệ nhân các làng nghề truyền thống ở Trà Vinh (dệt chiếu Cà Hom, Hàm Tân; đan lát; làm bánh tét Trà Cuôn).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M25): Dùng nước tiết kiệm và hiệu quả khi giặt khăn, lau chùi bàn ghế, đồ dùng học tập; không để vòi nước chảy tràn khi làm vệ sinh.",
+          "- Thẻ từ nhỏ ghi các vị trí trong nhà; thẻ nhân vật đồ dùng; hộp, giỏ, túi, mắc áo, mô hình kệ hoặc hình ảnh minh họa.",
+          "- Một số đồ dùng cá nhân an toàn: sách, vở, bút, khăn, mũ, áo khoác, hộp bút, giày dép.",
+          "- Tranh SGK về tiểu phẩm “Chỗ ở của đồ đạc”, tranh dụng cụ sắp xếp và tranh thực hành sắp xếp đồ dùng.",
+          "- ................................................................................................................................",
+          "- ................................................................................................................................",
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+          "BÀI 13: TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP – ĐÔI TAY KHÉO LÉO",
+          "TUẦN 13",
+          "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: ĐÔI TAY KHÉO LÉO",
+          "1. Năng lực đặc thù",
+          "- HS thực hiện phân loại và để đồ vật trong gia đình, ở lớp đúng chỗ đã quy định.",
+          "- HS chia sẻ được những việc đã làm ở nhà để sắp xếp đồ dùng gọn gàng, ngăn nắp.",
+          "- HS biết dán nhãn, xác định vị trí để đồ dùng của tổ em và cam kết tiếp tục giữ đồ dùng đúng chỗ.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: biết tự đánh giá việc sắp xếp đồ dùng của bản thân, tự điều chỉnh khi chưa gọn gàng.",
+          "- Giao tiếp và hợp tác: biết chia sẻ, khen bạn, phân công việc nhóm khi dán nhãn đồ dùng của tổ.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn nhãn, kí hiệu hoặc vị trí phù hợp để đồ dùng dễ tìm, dễ sử dụng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực tham gia dán nhãn, sắp xếp đồ dùng và hoàn thành nhiệm vụ nhóm.",
+          "- Trách nhiệm: biết giữ gìn đồ dùng cá nhân, đồ dùng chung và không để lớp học bừa bộn.",
+          "- Trung thực: chia sẻ đúng việc mình đã làm ở nhà, biết tự nhận việc cần cố gắng hơn.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.",
+          "- Bảng tổng kết tuần 13, nội dung phương hướng tuần 14.",
+          "- Tờ bìa màu nhỏ, giấy nhãn, bút màu, kéo an toàn, keo dán hoặc băng dính trong.",
+          "- Một số hộp, giỏ, kệ, ngăn kéo hoặc vị trí trong lớp cần dán nhãn.",
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -6036,7 +6092,7 @@
     "sourceFile": "HĐTN TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – THƯ VIỆN EM YÊU",
+        "lessonTitle": "BÀI 14: GÓC HỌC TẬP ĐÁNG YÊU – GÓC NHÀ THÂN THƯƠNG - TIẾT 1: SINH HOẠT DƯỚI CỜ – THƯ VIỆN EM YÊU",
         "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6057,8 +6113,9 @@
           "- Một số sách, truyện phù hợp với HS lớp 3; hình ảnh SGK về thư viện.",
           "- Nội dung giới thiệu của thầy cô phụ trách thư viện; danh sách HS đọc sách tích cực nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -6128,10 +6185,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – THƯ VIỆN EM YÊU"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – GÓC HỌC TẬP ĐÁNG YÊU",
+        "lessonTitle": "BÀI 14: GÓC HỌC TẬP ĐÁNG YÊU – GÓC NHÀ THÂN THƯƠNG - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – GÓC HỌC TẬP ĐÁNG YÊU",
         "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6155,8 +6212,9 @@
           "- Giấy màu, bút màu, kéo, keo dán; các nguyên vật liệu để làm sản phẩm trang trí.",
           "- Hình SGK về góc học tập đáng yêu và gợi ý cắt hình hoa tuyết."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -6249,10 +6307,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – GÓC HỌC TẬP ĐÁNG YÊU"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – GÓC NHÀ THÂN THƯƠNG",
+        "lessonTitle": "BÀI 14: GÓC HỌC TẬP ĐÁNG YÊU – GÓC NHÀ THÂN THƯƠNG - TIẾT 3: SINH HOẠT LỚP – GÓC NHÀ THÂN THƯƠNG",
         "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6275,8 +6333,9 @@
           "- Tranh, ảnh về góc yêu thích của HS ở nhà; giấy ghi chú để nhận xét, góp ý.",
           "- Hình SGK về hoạt động trưng bày tranh ảnh “Góc nhà thân thương”."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -6371,7 +6430,7 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – GÓC NHÀ THÂN THƯƠNG"
+        "dieuchinh": []
       }
     ]
   },
@@ -6380,9 +6439,12 @@
     "sourceFile": "HĐTN TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA",
-        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+        "lessonTitle": "Bài học Tiết 1 (Tuần 15)",
+        "topic": "",
         "yccd": [
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+          "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA",
           "TUẦN 15",
           "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY THÀNH LẬP QUÂN ĐỘI NHÂN DÂN VIỆT NAM 22/12",
           "1. Năng lực đặc thù",
@@ -6396,18 +6458,13 @@
           "3. Phẩm chất",
           "- Yêu nước: biết kính trọng, tự hào về chú bộ đội và truyền thống Quân đội nhân dân Việt Nam.",
           "- Chăm chỉ: tích cực tham gia hoạt động, thực hiện nhiệm vụ được giao.",
-          "- Trách nhiệm: giữ nền nếp, bảo quản đồ dùng chung, góp phần xây dựng lớp học sạch đẹp."
-        ],
-        "dodung": [
+          "- Trách nhiệm: giữ nền nếp, bảo quản đồ dùng chung, góp phần xây dựng lớp học sạch đẹp.",
           "- Sân trường hoặc hội trường; hệ thống âm thanh, micro; tranh ảnh hoặc tiết mục văn nghệ chào mừng ngày 22/12.",
           "- Hình ảnh minh họa hoạt động “Giữ nhà đẹp, giữ lớp xinh”, tác phong ngăn nắp của chú bộ đội.",
           "- Thẻ cam kết việc làm: xếp bàn ghế, xếp sách vở, giữ ngăn bàn sạch, nhặt rác đúng nơi quy định."
         ],
+        "dodung": [],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6483,41 +6540,7 @@
               "- GV kết luận: Tác phong ngăn nắp, kỉ luật của chú bộ đội là tấm gương để mỗi HS rèn luyện từ việc nhỏ trong lớp, trong nhà và trong sinh hoạt hằng ngày.",
               "- HS lắng nghe, ghi nhớ thông điệp của tiết Sinh hoạt dưới cờ."
             ]
-          ]
-        ],
-        "title": "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA"
-      },
-      {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NHÀ LÀ TỔ ẤM",
-        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS chia sẻ được góc yêu thích ở ngôi nhà của mình và những việc có thể làm để chăm sóc “tổ ấm”.",
-          "- HS biết thực hiện động tác minh họa, sắm vai thành viên gia đình để giới thiệu về ngôi nhà.",
-          "- HS lựa chọn được một việc vừa sức làm cùng người thân để nhà là nơi yêu thương, sạch đẹp, gọn gàng.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết thảo luận nhóm, sắm vai, lắng nghe và phản hồi lịch sự khi bạn chia sẻ về gia đình.",
-          "- Tự chủ và tự học: biết tự nhận nhiệm vụ phù hợp với sức của mình trong chăm sóc nhà cửa.",
-          "- Giải quyết vấn đề và sáng tạo: biết chọn cách sắp xếp, trang trí hoặc làm việc nhà phù hợp với điều kiện gia đình.",
-          "3. Phẩm chất",
-          "- Nhân ái: yêu thương, quan tâm đến người thân và không gian sống của gia đình.",
-          "- Chăm chỉ: tích cực tham gia đọc thơ, sắm vai, thảo luận và thực hiện việc nhà vừa sức.",
-          "- Trách nhiệm: biết chia sẻ việc nhà phù hợp lứa tuổi, giữ gìn nhà cửa sạch sẽ, gọn gàng.",
-          "4. Tích hợp",
-          "- Tích hợp QCN: HS hiểu trẻ em có quyền được yêu thương, chăm sóc trong gia đình và có bổn phận tham gia việc nhà vừa sức, phù hợp độ tuổi.",
-          "- Tích hợp AI (Khung 3439) - 3.A3.1: HS nhận thức AI có thể nhận diện sai người thân nếu ảnh bị mờ hoặc thiếu dữ liệu; biết cần kiểm chứng khi dùng công nghệ nhận diện hình ảnh như Google Photos, Face ID/Windows Hello hoặc ứng dụng gắn thẻ khuôn mặt."
-        ],
-        "dodung": [
-          "- Tranh SGK bài “Nhà là tổ ấm”; bài thơ “Tổ ấm”; thẻ việc nhà vừa sức.",
-          "- Bảng nhóm, bút màu; tranh ảnh về các hoạt động chăm sóc nhà cửa.",
-          "- Máy chiếu nếu có; hình minh họa về công nghệ nhận diện khuôn mặt/nhận diện ảnh để thảo luận an toàn."
-        ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
-        ],
-        "tables": [
+          ],
           [
             [
               "Hoạt động của GV",
@@ -6605,6 +6628,14 @@
               "- HS lắng nghe, tự chọn một việc sẽ thực hiện ở nhà."
             ],
             [
+              "- GV gợi ý dẫn tích hợp GDĐP Trà Vinh & Tiết kiệm nước gia đình (Chủ đề 2 GDĐP 3 & Mã Mizuiku M25): “Ở quê hương Trà Vinh, các gia đình luôn gắn bó yêu thương, đầm ấm. Để chăm sóc tổ ấm và gìn giữ nguồn nước sinh hoạt gia đình, các em có thể làm những việc gì vừa sức?”",
+              "- HS trả lời: Em chăm ngoan lễ phép, phụ giúp cha mẹ quét nhà, lau bàn ghế; cọ rửa sạch sẽ nắp lu khạp đậy kín bể trữ nước mưa tránh lăng quăng; tận dụng nước vo gạo, nước rửa rau để tưới luống rau quanh nhà giúp tiết kiệm nước ngọt ạ."
+            ],
+            [
+              "- GV khen ngợi: Chăm sóc tổ ấm bằng những việc nhỏ và biết nâng niu, tiết kiệm nguồn nước chính là nét đẹp ngoan ngoãn của học sinh quê hương Trà Vinh.",
+              "- HS lắng nghe, tự giác ghi nhớ để phụ giúp gia đình mỗi ngày."
+            ],
+            [
               "4. Cam kết hành động (3 phút)\nMục tiêu: HS cam kết một việc cụ thể sẽ làm cùng người thân để chăm sóc tổ ấm.\n*Cách tiến hành:"
             ],
             [
@@ -6615,40 +6646,7 @@
               "- GV nhắc HS về nhà lựa chọn việc có thể làm an toàn, ghi nhớ cảm xúc của mình khi cùng người thân chăm sóc nhà cửa.",
               "- HS tiếp nhận nhiệm vụ và chuẩn bị chia sẻ kết quả trong tiết Sinh hoạt lớp."
             ]
-          ]
-        ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NHÀ LÀ TỔ ẤM"
-      },
-      {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: EM CHĂM SÓC NHÀ CỬA",
-        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS chia sẻ được những việc đã làm hằng ngày để chăm sóc ngôi nhà của mình và cảm xúc khi làm các công việc đó.",
-          "- HS tham gia cuộc thi gấp chăn theo tác phong chú bộ đội, biết rèn thói quen gọn gàng, ngăn nắp.",
-          "- HS cam kết tiếp tục chăm sóc nhà cửa bằng những việc phù hợp, an toàn.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết chia sẻ thu hoạch, lắng nghe bạn, tham gia hoạt động nhóm tích cực.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm cách gấp, xếp, lau dọn gọn gàng, phù hợp với điều kiện gia đình.",
-          "3. Phẩm chất",
-          "- Nhân ái: biết yêu thương gia đình, chia sẻ việc nhà với người thân.",
-          "- Chăm chỉ: tích cực thực hiện việc nhà vừa sức, tham gia cuộc thi gấp chăn và hoạt động sinh hoạt lớp.",
-          "- Trách nhiệm: có ý thức giữ gìn nhà cửa sạch sẽ, gọn gàng, biết làm việc an toàn.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thương gia đình, tự giác làm việc nhà phù hợp, giữ gìn nhà cửa sạch sẽ và gọn gàng.",
-          "- Tích hợp QCN: HS hiểu trẻ em có quyền được sống trong gia đình yêu thương, an toàn; biết chia sẻ việc nhà phù hợp với lứa tuổi."
-        ],
-        "dodung": [
-          "- Bảng tổng kết tuần 15; nội dung phương hướng tuần 16.",
-          "- Một số chiếc chăn nhỏ hoặc khăn lớn sạch để luyện gấp; thẻ nhiệm vụ theo nhóm.",
-          "- Tranh SGK về các việc chăm sóc nhà cửa; phiếu cam kết việc làm ở nhà."
-        ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
-        ],
-        "tables": [
+          ],
           [
             [
               "Hoạt động của GV",
@@ -6781,7 +6779,62 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: EM CHĂM SÓC NHÀ CỬA"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................",
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+          "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA",
+          "TUẦN 15",
+          "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NHÀ LÀ TỔ ẤM",
+          "1. Năng lực đặc thù",
+          "- HS chia sẻ được góc yêu thích ở ngôi nhà của mình và những việc có thể làm để chăm sóc “tổ ấm”.",
+          "- HS biết thực hiện động tác minh họa, sắm vai thành viên gia đình để giới thiệu về ngôi nhà.",
+          "- HS lựa chọn được một việc vừa sức làm cùng người thân để nhà là nơi yêu thương, sạch đẹp, gọn gàng.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết thảo luận nhóm, sắm vai, lắng nghe và phản hồi lịch sự khi bạn chia sẻ về gia đình.",
+          "- Tự chủ và tự học: biết tự nhận nhiệm vụ phù hợp với sức của mình trong chăm sóc nhà cửa.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn cách sắp xếp, trang trí hoặc làm việc nhà phù hợp với điều kiện gia đình.",
+          "3. Phẩm chất",
+          "- Nhân ái: yêu thương, quan tâm đến người thân và không gian sống của gia đình.",
+          "- Chăm chỉ: tích cực tham gia đọc thơ, sắm vai, thảo luận và thực hiện việc nhà vừa sức.",
+          "- Trách nhiệm: biết chia sẻ việc nhà phù hợp lứa tuổi, giữ gìn nhà cửa sạch sẽ, gọn gàng.",
+          "4. Tích hợp",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền được yêu thương, chăm sóc trong gia đình và có bổn phận tham gia việc nhà vừa sức, phù hợp độ tuổi.",
+          "- Tích hợp AI (Khung 3439) - 3.A3.1: HS nhận thức AI có thể nhận diện sai người thân nếu ảnh bị mờ hoặc thiếu dữ liệu; biết cần kiểm chứng khi dùng công nghệ nhận diện hình ảnh như Google Photos, Face ID/Windows Hello hoặc ứng dụng gắn thẻ khuôn mặt.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Giúp đỡ cha mẹ chăm sóc tổ ấm gia đình bằng những việc làm vừa sức; giữ gìn nề nếp gia phong hiếu thảo, đầm ấm đặc trưng của cộng đồng các dân tộc tại quê hương Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M25): Tham gia dọn dẹp nhà cửa, tưới cây bằng nguồn nước tiết kiệm (tận dụng nước vo gạo, nước rửa rau); giữ sạch các lu, khạp trữ nước ngọt của gia đình.",
+          "- Tranh SGK bài “Nhà là tổ ấm”; bài thơ “Tổ ấm”; thẻ việc nhà vừa sức.",
+          "- Bảng nhóm, bút màu; tranh ảnh về các hoạt động chăm sóc nhà cửa.",
+          "- Máy chiếu nếu có; hình minh họa về công nghệ nhận diện khuôn mặt/nhận diện ảnh để thảo luận an toàn.",
+          "- ................................................................................................................................",
+          "- ................................................................................................................................",
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+          "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA",
+          "TUẦN 15",
+          "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: EM CHĂM SÓC NHÀ CỬA",
+          "1. Năng lực đặc thù",
+          "- HS chia sẻ được những việc đã làm hằng ngày để chăm sóc ngôi nhà của mình và cảm xúc khi làm các công việc đó.",
+          "- HS tham gia cuộc thi gấp chăn theo tác phong chú bộ đội, biết rèn thói quen gọn gàng, ngăn nắp.",
+          "- HS cam kết tiếp tục chăm sóc nhà cửa bằng những việc phù hợp, an toàn.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết chia sẻ thu hoạch, lắng nghe bạn, tham gia hoạt động nhóm tích cực.",
+          "- Tự chủ và tự học: biết tự đánh giá việc chăm sóc nhà cửa của bản thân và điều chỉnh thói quen hằng ngày.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm cách gấp, xếp, lau dọn gọn gàng, phù hợp với điều kiện gia đình.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết yêu thương gia đình, chia sẻ việc nhà với người thân.",
+          "- Chăm chỉ: tích cực thực hiện việc nhà vừa sức, tham gia cuộc thi gấp chăn và hoạt động sinh hoạt lớp.",
+          "- Trách nhiệm: có ý thức giữ gìn nhà cửa sạch sẽ, gọn gàng, biết làm việc an toàn.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thương gia đình, tự giác làm việc nhà phù hợp, giữ gìn nhà cửa sạch sẽ và gọn gàng.",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền được sống trong gia đình yêu thương, an toàn; biết chia sẻ việc nhà phù hợp với lứa tuổi.",
+          "- Bảng tổng kết tuần 15; nội dung phương hướng tuần 16.",
+          "- Một số chiếc chăn nhỏ hoặc khăn lớn sạch để luyện gấp; thẻ nhiệm vụ theo nhóm.",
+          "- Tranh SGK về các việc chăm sóc nhà cửa; phiếu cam kết việc làm ở nhà.",
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -6790,7 +6843,7 @@
     "sourceFile": "HĐTN TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – NÉT ĐẸP HỌC TRÒ",
+        "lessonTitle": "BÀI 16: NHÀ SẠCH THÌ MÁT – CHĂM LÀM VIỆC NHÀ - TIẾT 1: SINH HOẠT DƯỚI CỜ – NÉT ĐẸP HỌC TRÒ",
         "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6811,10 +6864,8 @@
           "- Tiết mục văn nghệ, hoạt cảnh hoặc bài giới thiệu chủ đề “Nét đẹp học trò”.",
           "- Tranh ảnh minh họa trang phục gọn gàng, tác phong đẹp, nhà cửa và lớp học sạch sẽ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6889,10 +6940,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – NÉT ĐẸP HỌC TRÒ"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NHÀ SẠCH THÌ MÁT",
+        "lessonTitle": "BÀI 16: NHÀ SẠCH THÌ MÁT – CHĂM LÀM VIỆC NHÀ - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NHÀ SẠCH THÌ MÁT",
         "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6916,10 +6970,8 @@
           "- Tranh SGK về ngôi nhà lọ lem, các dụng cụ dọn vệ sinh và cách sử dụng.",
           "- Thẻ từ: LAU CHÙI, RỬA, CỌ, HÚT/XÚC RÁC, QUÉT DỌN, GIẶT; bảng nhóm, bút màu."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7013,10 +7065,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NHÀ SẠCH THÌ MÁT"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: CHĂM LÀM VIỆC NHÀ",
+        "lessonTitle": "BÀI 16: NHÀ SẠCH THÌ MÁT – CHĂM LÀM VIỆC NHÀ - TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: CHĂM LÀM VIỆC NHÀ",
         "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7040,10 +7095,8 @@
           "- Hình SGK về chia sẻ việc nhà, điệu nhảy “Việc nhà” và khung tự đánh giá sau chủ đề.",
           "- Thẻ việc nhà: quét nhà, lau bàn, lau nhà, gấp chăn, cất đồ chơi, đổ rác đúng nơi quy định."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7194,7 +7247,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: CHĂM LÀM VIỆC NHÀ"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7203,7 +7259,7 @@
     "sourceFile": "HĐTN TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – KỈ NIỆM THEO TA",
+        "lessonTitle": "BÀI 17: ĐỒ DÙNG CỦA NGƯỜI THÂN – CÂU CHUYỆN YÊU THƯƠNG - TIẾT 1: SINH HOẠT DƯỚI CỜ – KỈ NIỆM THEO TA",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7224,10 +7280,8 @@
           "- Một số đồ vật kỉ niệm, hình ảnh, câu chuyện ngắn về gia đình và mái trường.",
           "- Thẻ câu hỏi giao lưu, hoa hoặc phần quà nhỏ nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7306,10 +7360,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – KỈ NIỆM THEO TA"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – ĐỒ DÙNG CỦA NGƯỜI THÂN",
+        "lessonTitle": "BÀI 17: ĐỒ DÙNG CỦA NGƯỜI THÂN – CÂU CHUYỆN YÊU THƯƠNG - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – ĐỒ DÙNG CỦA NGƯỜI THÂN",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7333,10 +7390,8 @@
           "- Bộ thẻ Gia đình em; giấy A4, bút màu, bảng nhóm.",
           "- Tranh SGK về đồ dùng yêu thích của người thân và các việc làm thể hiện sự quan tâm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7446,10 +7501,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – ĐỒ DÙNG CỦA NGƯỜI THÂN"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – CÂU CHUYỆN YÊU THƯƠNG",
+        "lessonTitle": "BÀI 17: ĐỒ DÙNG CỦA NGƯỜI THÂN – CÂU CHUYỆN YÊU THƯƠNG - TIẾT 3: SINH HOẠT LỚP – CÂU CHUYỆN YÊU THƯƠNG",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7458,6 +7516,7 @@
           "- HS biết kể và lắng nghe câu chuyện gia đình bằng thái độ trân trọng, yêu thương.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết chia sẻ thu hoạch, lắng nghe và sắm vai cùng bạn trong nhóm.",
+          "- Tự chủ và tự học: biết nhìn lại việc mình đã làm, điều chỉnh cách quan tâm đến người thân.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách xử lí phù hợp trong tình huống gia đình cụ thể.",
           "3. Phẩm chất",
           "- Nhân ái: biết yêu thương, hỏi han, chia sẻ và chăm sóc người thân.",
@@ -7471,10 +7530,8 @@
           "- Tình huống sắm vai; thẻ cảm xúc; bảng tổng kết tuần 17, phương hướng tuần 18.",
           "- Có thể chuyển ra sân trường nếu tổ chức hoạt động nhóm rộng."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7605,7 +7662,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – CÂU CHUYỆN YÊU THƯƠNG"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7614,7 +7674,7 @@
     "sourceFile": "HĐTN TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – BIẾT ƠN NGƯỜI THÂN TRONG GIA ĐÌNH",
+        "lessonTitle": "BÀI 18: LÁ THƯ TRI ÂN – TÌNH CẢM GIA ĐÌNH - TIẾT 1: SINH HOẠT DƯỚI CỜ – BIẾT ƠN NGƯỜI THÂN TRONG GIA ĐÌNH",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7635,10 +7695,8 @@
           "- Một số bức thư, bưu thiếp tri ân người thân; bảng chủ đề “Biết ơn người thân trong gia đình”.",
           "- Phiếu nhỏ để HS ghi một lời cảm ơn hoặc một việc làm thể hiện lòng biết ơn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7713,10 +7771,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – BIẾT ƠN NGƯỜI THÂN TRONG GIA ĐÌNH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – LÁ THƯ TRI ÂN",
+        "lessonTitle": "BÀI 18: LÁ THƯ TRI ÂN – TÌNH CẢM GIA ĐÌNH - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – LÁ THƯ TRI ÂN",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7740,10 +7801,8 @@
           "- Một số mẫu câu mở đầu thư: “Con kính gửi...”, “Con cảm ơn...”, “Con nhớ nhất...”.",
           "- Tranh SGK về viết thư/bưu thiếp tri ân; bảng phụ ghi các bước viết thư đơn giản."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7841,10 +7900,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – LÁ THƯ TRI ÂN"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: TÌNH CẢM GIA ĐÌNH",
+        "lessonTitle": "BÀI 18: LÁ THƯ TRI ÂN – TÌNH CẢM GIA ĐÌNH - TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: TÌNH CẢM GIA ĐÌNH",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7867,10 +7929,8 @@
           "- Bảng tổng kết tuần 18, nội dung phương hướng tuần 19.",
           "- Không gian lớp học hoặc sân trường để HS chia sẻ và trưng bày sản phẩm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7989,7 +8049,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: TÌNH CẢM GIA ĐÌNH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -7998,7 +8061,7 @@
     "sourceFile": "HĐTN TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CÙNG NGƯỜI THÂN SẮM TẾT",
+        "lessonTitle": "BÀI 19: LAO ĐỘNG VÀ THU NHẬP GIA ĐÌNH – MUA SẮM TIẾT KIỆM - TIẾT 1: SINH HOẠT DƯỚI CỜ – CÙNG NGƯỜI THÂN SẮM TẾT",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8019,10 +8082,8 @@
           "- Đạo cụ mô phỏng sắm Tết: hoa, quả, phong bao lì xì, túi mua sắm, bảng giá giả định.",
           "- Câu hỏi giao lưu, thẻ “Cần – Muốn – Phù hợp”, phần quà nhỏ nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8093,10 +8154,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CÙNG NGƯỜI THÂN SẮM TẾT"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – LAO ĐỘNG VÀ THU NHẬP GIA ĐÌNH",
+        "lessonTitle": "BÀI 19: LAO ĐỘNG VÀ THU NHẬP GIA ĐÌNH – MUA SẮM TIẾT KIỆM - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – LAO ĐỘNG VÀ THU NHẬP GIA ĐÌNH",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8120,10 +8184,8 @@
           "- Quả bóng gai hoặc bóng mềm để tổ chức trò chơi khởi động.",
           "- Giấy A3, bút màu để vẽ sơ đồ tư duy; tranh SGK về công việc và thu nhập gia đình."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8221,10 +8283,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – LAO ĐỘNG VÀ THU NHẬP GIA ĐÌNH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: MUA SẮM TIẾT KIỆM",
+        "lessonTitle": "BÀI 19: LAO ĐỘNG VÀ THU NHẬP GIA ĐÌNH – MUA SẮM TIẾT KIỆM - TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: MUA SẮM TIẾT KIỆM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8233,6 +8298,7 @@
           "- HS biết xử lí tình huống mua hay không mua trong một số trường hợp cụ thể.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết trình bày sơ đồ tư duy, lắng nghe và góp ý cho bạn trong nhóm.",
+          "- Tự chủ và tự học: biết nhìn lại kết quả phỏng vấn người thân và điều chỉnh thói quen mua sắm của bản thân.",
           "- Giải quyết vấn đề và sáng tạo: biết nêu phương án mua sắm tiết kiệm, phù hợp với thu nhập gia đình.",
           "3. Phẩm chất",
           "- Trách nhiệm: biết quý trọng lao động tạo ra thu nhập, mua sắm hợp lí và không lãng phí.",
@@ -8247,10 +8313,8 @@
           "- Tranh SGK về mua sắm tiết kiệm; thẻ tình huống: mua hoa quả, mua giày mới, mua phong bao lì xì.",
           "- Bảng “Cần – Muốn – Phù hợp”, bút màu, giấy ghi cam kết."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8381,7 +8445,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: MUA SẮM TIẾT KIỆM"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8390,7 +8457,7 @@
     "sourceFile": "HĐTN TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – NGÀY HỘI GIA ĐÌNH",
+        "lessonTitle": "BÀI 20: TIẾT KIỆM ĐIỆN, NƯỚC TRONG GIA ĐÌNH – SỬ DỤNG THIẾT BỊ ĐIỆN, NƯỚC - TIẾT 1: SINH HOẠT DƯỚI CỜ – NGÀY HỘI GIA ĐÌNH",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8411,10 +8478,8 @@
           "- Tiết mục văn nghệ, bài thơ, hoạt cảnh ngắn về chủ đề “Gia đình”.",
           "- Tranh ảnh hoặc hình SGK về “Ngày hội gia đình”; câu hỏi giao lưu về lối sống tiết kiệm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8485,10 +8550,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – NGÀY HỘI GIA ĐÌNH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TIẾT KIỆM ĐIỆN, NƯỚC TRONG GIA ĐÌNH",
+        "lessonTitle": "BÀI 20: TIẾT KIỆM ĐIỆN, NƯỚC TRONG GIA ĐÌNH – SỬ DỤNG THIẾT BỊ ĐIỆN, NƯỚC - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TIẾT KIỆM ĐIỆN, NƯỚC TRONG GIA ĐÌNH",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8512,10 +8580,8 @@
           "- Giấy A1 để làm việc nhóm, bút màu, bút dạ, bảng phụ hoặc phiếu học tập.",
           "- Hình SGK về sử dụng điện, nước và hình minh họa cách tiết kiệm điện, nước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8617,10 +8683,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TIẾT KIỆM ĐIỆN, NƯỚC TRONG GIA ĐÌNH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – SỬ DỤNG THIẾT BỊ ĐIỆN, NƯỚC",
+        "lessonTitle": "BÀI 20: TIẾT KIỆM ĐIỆN, NƯỚC TRONG GIA ĐÌNH – SỬ DỤNG THIẾT BỊ ĐIỆN, NƯỚC - TIẾT 3: SINH HOẠT LỚP – SỬ DỤNG THIẾT BỊ ĐIỆN, NƯỚC",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8629,6 +8698,7 @@
           "- HS nêu được kinh nghiệm sử dụng một số thiết bị điện, nước đúng cách để tiết kiệm cho gia đình.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết trình bày ý kiến, lắng nghe bạn, chia sẻ kinh nghiệm trong hoạt động nhóm.",
+          "- Tự chủ và tự học: biết nhìn lại việc bản thân đã làm, tự điều chỉnh hành vi sử dụng điện, nước.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách sử dụng thiết bị điện, nước an toàn, tiết kiệm và phù hợp.",
           "3. Phẩm chất",
           "- Trách nhiệm: biết sử dụng thiết bị điện, nước đúng cách, an toàn và tiết kiệm.",
@@ -8642,10 +8712,8 @@
           "- Các tấm bìa màu để cắt thành hình bóng đèn, giọt nước; dây gai để treo các tờ bìa.",
           "- Hình SGK về chia sẻ việc làm tiết kiệm điện, nước; hình sử dụng thiết bị điện, nước và hình tự đánh giá sau chủ đề."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8764,7 +8832,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – SỬ DỤNG THIẾT BỊ ĐIỆN, NƯỚC"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8773,7 +8844,7 @@
     "sourceFile": "HĐTN TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – VÌ TẦM VÓC VIỆT",
+        "lessonTitle": "BÀI 21: BẾP NHÀ EM – TIÊU CHÍ ĐÁNH GIÁ CỦA ÔNG TÁO - TIẾT 1: SINH HOẠT DƯỚI CỜ – VÌ TẦM VÓC VIỆT",
         "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8794,10 +8865,8 @@
           "- Đạo cụ tiểu phẩm “Ông Táo lên trời”; tranh ảnh hoặc khẩu hiệu về ăn uống an toàn, hợp vệ sinh.",
           "- Câu hỏi giao lưu về vệ sinh an toàn thực phẩm, bữa ăn gia đình và sức khỏe học sinh."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8868,10 +8937,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – VÌ TẦM VÓC VIỆT"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BẾP NHÀ EM",
+        "lessonTitle": "BÀI 21: BẾP NHÀ EM – TIÊU CHÍ ĐÁNH GIÁ CỦA ÔNG TÁO - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BẾP NHÀ EM",
         "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8895,10 +8967,8 @@
           "- Trang phục cho vai diễn ông Táo, bà Táo; 3 mũ cánh chuồn đơn giản.",
           "- Các thẻ từ: ĐỂ TÌM, AN TOÀN, VỆ SINH; bộ thẻ vệ sinh an toàn thực phẩm; giấy hoặc vở để lập kế hoạch."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8996,10 +9066,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BẾP NHÀ EM"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – TIÊU CHÍ ĐÁNH GIÁ CỦA ÔNG TÁO",
+        "lessonTitle": "BÀI 21: BẾP NHÀ EM – TIÊU CHÍ ĐÁNH GIÁ CỦA ÔNG TÁO - TIẾT 3: SINH HOẠT LỚP – TIÊU CHÍ ĐÁNH GIÁ CỦA ÔNG TÁO",
         "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9022,9 +9095,8 @@
           "- Giấy A0 hoặc A1 cho các nhóm; ba chiếc mũ cánh chuồn làm đơn giản.",
           "- Hình SGK về ông Táo và mẫu bảng chấm điểm bếp vệ sinh an toàn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9135,7 +9207,9 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – TIÊU CHÍ ĐÁNH GIÁ CỦA ÔNG TÁO"
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9144,7 +9218,7 @@
     "sourceFile": "HĐTN TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – ĂN UỐNG LÀNH MẠNH",
+        "lessonTitle": "BÀI 22: ĂN SẠCH – THỰC PHẨM SẠCH - TIẾT 1: SINH HOẠT DƯỚI CỜ – ĂN UỐNG LÀNH MẠNH",
         "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9153,6 +9227,7 @@
           "- HS nêu được một thói quen ăn uống lành mạnh và một việc làm tránh nguy cơ mất an toàn thực phẩm.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, đặt câu hỏi, chia sẻ ý kiến lịch sự trong hoạt động tập thể.",
+          "- Tự chủ và tự học: biết liên hệ thói quen ăn uống của bản thân, tự điều chỉnh để phù hợp hơn.",
           "- Giải quyết vấn đề và sáng tạo: biết nêu cách xử lí đơn giản khi gặp thực phẩm không sạch, không an toàn.",
           "3. Phẩm chất",
           "- Trách nhiệm: biết bảo vệ sức khỏe của bản thân, người thân và bạn bè khi ăn uống.",
@@ -9164,10 +9239,8 @@
           "- Khẩu hiệu hoặc tranh ảnh về ăn uống lành mạnh, giữ vệ sinh an toàn thực phẩm.",
           "- Câu hỏi giao lưu với bác sĩ dinh dưỡng/cô bác nấu bếp; hình SGK về hoạt động “Ăn uống lành mạnh”."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9238,10 +9311,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – ĂN UỐNG LÀNH MẠNH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – ĂN SẠCH",
+        "lessonTitle": "BÀI 22: ĂN SẠCH – THỰC PHẨM SẠCH - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – ĂN SẠCH",
         "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9265,10 +9341,8 @@
           "- Giấy A3, bút màu cho các nhóm; 3 thẻ từ: ĐỒ ĂN NHANH, BỮA CƠM GIA ĐÌNH, ĂN Ở NHÀ HÀNG.",
           "- Video hoặc tranh ảnh về “Không an toàn thực phẩm”; hình SGK về đồ ăn nhanh, trò chơi Thám tử Sạch và thực phẩm không an toàn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9386,10 +9460,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – ĂN SẠCH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – THỰC PHẨM SẠCH",
+        "lessonTitle": "BÀI 22: ĂN SẠCH – THỰC PHẨM SẠCH - TIẾT 3: SINH HOẠT LỚP – THỰC PHẨM SẠCH",
         "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9412,10 +9489,8 @@
           "- Giấy A1 cho các nhóm; HS tự chuẩn bị sổ, bút để ghi chép.",
           "- Hình SGK về thực phẩm sạch, các giác quan nhận biết thực phẩm an toàn và kinh nghiệm bảo quản thực phẩm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9542,7 +9617,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – THỰC PHẨM SẠCH"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9551,9 +9629,14 @@
     "sourceFile": "HĐTN TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY QUỐC TẾ PHỤ NỮ 8 – 3",
-        "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
+        "lessonTitle": "Bài học Tiết 1 (Tuần 23)",
+        "topic": "",
         "yccd": [
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
+          "BÀI 23: BÊN MÂM CƠM – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
+          "TUẦN 23",
+          "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY QUỐC TẾ PHỤ NỮ 8 – 3",
           "1. Năng lực đặc thù",
           "- HS tham gia biểu diễn hoặc theo dõi văn nghệ theo chủ đề “Bà và mẹ”.",
           "- HS biết lắng nghe, chia sẻ kỉ niệm với bà, mẹ qua những bữa cơm gia đình.",
@@ -9565,17 +9648,13 @@
           "3. Phẩm chất",
           "- Nhân ái: yêu thương, biết ơn bà, mẹ và những người phụ nữ trong gia đình.",
           "- Trách nhiệm: biết phụ giúp việc vừa sức, ứng xử lễ phép khi ăn uống cùng gia đình.",
-          "- Chăm chỉ: tích cực tham gia hoạt động dưới cờ, mạnh dạn chia sẻ ý kiến."
-        ],
-        "dodung": [
+          "- Chăm chỉ: tích cực tham gia hoạt động dưới cờ, mạnh dạn chia sẻ ý kiến.",
           "- Sân trường hoặc hội trường; âm thanh, micro; tiết mục văn nghệ/đọc thơ/hoạt cảnh về bà và mẹ.",
           "- Tranh ảnh hoặc hình SGK về ngày 8 – 3; câu hỏi giao lưu về bữa cơm gia đình.",
           "- Hoa, thiệp hoặc thông điệp chúc mừng nếu có."
         ],
+        "dodung": [],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9639,39 +9718,7 @@
               "- GV kết luận: Lòng biết ơn bà, mẹ được thể hiện qua lời nói lễ phép, sự quan tâm và những việc làm nhỏ trong bữa cơm hằng ngày.",
               "- HS lắng nghe và chuẩn bị cho tiết hoạt động giáo dục theo chủ đề."
             ]
-          ]
-        ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY QUỐC TẾ PHỤ NỮ 8 – 3"
-      },
-      {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BÊN MÂM CƠM",
-        "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS nhận biết được một số nguy cơ mất an toàn khi ăn uống trong bữa cơm gia đình.",
-          "- HS biết sắm vai, thảo luận và xây dựng quy tắc ứng xử trong ăn uống: trước bữa ăn, trong bữa ăn, sau bữa ăn.",
-          "- HS biết vận dụng quy tắc ăn uống an toàn, vệ sinh và lịch sự trong gia đình.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết thảo luận, phân vai, lắng nghe và đóng góp ý kiến trong nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: biết xử lí tình huống nguy cơ mất an toàn khi ăn uống, đưa ra quy tắc phù hợp.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: thực hiện quy tắc vệ sinh, an toàn khi ăn uống và nhắc nhở người thân nhẹ nhàng.",
-          "- Nhân ái: biết quan tâm người thân trong bữa ăn, không làm ảnh hưởng đến người khác.",
-          "- Chăm chỉ: tích cực tham gia sắm vai, thảo luận và hoàn thành sản phẩm nhóm.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 4.1.CB1b: HS phân biệt được rủi ro và mối đe doạ đơn giản trong môi trường số khi tìm hiểu thông tin về an toàn ăn uống; biết chọn nội dung phù hợp và không làm theo hướng dẫn không an toàn.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.2: Phân biệt việc dùng AI gợi ý thực đơn và việc em tự học kĩ năng nấu ăn/ứng xử; công cụ gợi ý: ChatGPT/Microsoft Copilot, Canva AI."
-        ],
-        "dodung": [
-          "- Trong lớp học, bàn ghế kê thành dãy hoặc theo nhóm.",
-          "- Một số mũ/đạo cụ đơn giản để sắm vai bác sĩ, y tá, các con vật; giấy A1/A0, bút màu.",
-          "- Hình SGK về tiểu phẩm “Bác sĩ Ối đau quá”, xây dựng quy tắc ứng xử khi ăn uống."
-        ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
-        ],
-        "tables": [
+          ],
           [
             [
               "Hoạt động của GV",
@@ -9728,6 +9775,14 @@
               "- HS lắng nghe và rút kinh nghiệm cho bản thân."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Nước sạch vệ sinh ăn uống (Chủ đề 7 GDĐP 3 & Mã Mizuiku M10, M24): “Quê hương Trà Vinh chúng ta có những món ăn ngon, làng nghề ẩm thực truyền thống nào? Để bữa cơm gia đình luôn an toàn, hợp vệ sinh, chúng ta cần làm gì với nguồn nước?”",
+              "- HS trả lời: Trà Vinh nổi tiếng với đòn bánh tét Trà Cuôn thơm dẻo, bún nước lèo đậm đà, cốm dẹp giòn thơm; trước khi ăn, chúng em luôn rửa tay bằng xà phòng với nước sạch và chỉ uống nước đã đun sôi để nguội, dùng nước sạch để rửa thực phẩm ạ."
+            ],
+            [
+              "- GV kết luận: Trân trọng sản phẩm ẩm thực truyền thống Trà Vinh và tuân thủ quy tắc vệ sinh bằng nước sạch giúp cơ thể luôn khỏe mạnh, an toàn.",
+              "- HS chăm chú lắng nghe và cam kết thực hiện đúng quy tắc ăn uống an toàn."
+            ],
+            [
               "3. Mở rộng và tổng kết chủ đề: Xây dựng quy tắc ứng xử trong ăn uống (15 phút)\nMục tiêu: HS cùng đưa ra bí kíp để giữ vệ sinh, an toàn trong bữa ăn gia đình.\nMục tiêu tích hợp: HS phân biệt được AI chỉ là công cụ gợi ý thực đơn/món ăn; kĩ năng nấu ăn, giao tiếp và ứng xử trong bữa ăn cần do con người luyện tập.\n*Cách tiến hành:"
             ],
             [
@@ -9765,39 +9820,7 @@
               "- GV cho HS quan sát hình SGK phần cam kết hành động và nêu một quy tắc sẽ thực hiện ở gia đình.",
               "- HS quan sát, nêu cam kết: Em sẽ rửa tay trước khi ăn, không cười đùa khi ăn, mời người lớn và phụ dọn bàn sau bữa ăn."
             ]
-          ]
-        ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BÊN MÂM CƠM"
-      },
-      {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
-        "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS chia sẻ được những điều đã làm được hoặc những khó khăn khi thực hiện quy tắc vệ sinh, an toàn khi ăn uống.",
-          "- HS biết thực hiện quy tắc ứng xử khi ăn uống ở trường và trong gia đình.",
-          "- HS xây dựng được khẩu hiệu vui để nhắc nhở việc đảm bảo an toàn khi ăn uống.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết chia sẻ, lắng nghe, góp ý nhẹ nhàng trong sinh hoạt lớp.",
-          "- Giải quyết vấn đề và sáng tạo: biết viết khẩu hiệu, đề xuất cách nhắc nhở bạn bè ăn uống an toàn, lịch sự.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: thực hiện quy tắc ăn uống gọn gàng, lịch sự, an toàn ở trường và ở nhà.",
-          "- Nhân ái: biết cảm ơn người chuẩn bị bữa ăn, biết nhường nhịn và quan tâm bạn bè.",
-          "- Chăm chỉ: tích cực tham gia tổng kết tuần, chia sẻ và hoàn thành sản phẩm nhóm.",
-          "4. Tích hợp",
-          "- Tích hợp KNS: HS biết thực hiện quy tắc ứng xử khi ăn uống: ăn uống gọn gàng, lịch sự, không nói chuyện khi miệng còn thức ăn và biết cảm ơn người chuẩn bị bữa ăn.",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết ứng xử lịch sự trong bữa ăn, biết mời, cảm ơn, nhường nhịn và trân trọng công sức chuẩn bị bữa cơm."
-        ],
-        "dodung": [
-          "- Trong lớp học, có thể di chuyển đến nhà ăn/bếp ăn nếu điều kiện cho phép.",
-          "- Giấy bìa, bút màu, tranh minh họa quy tắc ăn uống.",
-          "- Hình SGK về chia sẻ quy tắc trong gia đình và thực hiện quy tắc ăn uống ở trường."
-        ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
-        ],
-        "tables": [
+          ],
           [
             [
               "Hoạt động của GV",
@@ -9899,7 +9922,59 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – QUY TẮC ỨNG XỬ KHI ĂN UỐNG"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
+          "BÀI 23: BÊN MÂM CƠM – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
+          "TUẦN 23",
+          "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BÊN MÂM CƠM",
+          "1. Năng lực đặc thù",
+          "- HS nhận biết được một số nguy cơ mất an toàn khi ăn uống trong bữa cơm gia đình.",
+          "- HS biết sắm vai, thảo luận và xây dựng quy tắc ứng xử trong ăn uống: trước bữa ăn, trong bữa ăn, sau bữa ăn.",
+          "- HS biết vận dụng quy tắc ăn uống an toàn, vệ sinh và lịch sự trong gia đình.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết thảo luận, phân vai, lắng nghe và đóng góp ý kiến trong nhóm.",
+          "- Tự chủ và tự học: biết tự nhìn lại thói quen ăn uống của mình và điều chỉnh hành vi chưa phù hợp.",
+          "- Giải quyết vấn đề và sáng tạo: biết xử lí tình huống nguy cơ mất an toàn khi ăn uống, đưa ra quy tắc phù hợp.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: thực hiện quy tắc vệ sinh, an toàn khi ăn uống và nhắc nhở người thân nhẹ nhàng.",
+          "- Nhân ái: biết quan tâm người thân trong bữa ăn, không làm ảnh hưởng đến người khác.",
+          "- Chăm chỉ: tích cực tham gia sắm vai, thảo luận và hoàn thành sản phẩm nhóm.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 4.1.CB1b: HS phân biệt được rủi ro và mối đe doạ đơn giản trong môi trường số khi tìm hiểu thông tin về an toàn ăn uống; biết chọn nội dung phù hợp và không làm theo hướng dẫn không an toàn.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.2: Phân biệt việc dùng AI gợi ý thực đơn và việc em tự học kĩ năng nấu ăn/ứng xử; công cụ gợi ý: ChatGPT/Microsoft Copilot, Canva AI.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Giới thiệu những món ăn đặc sản truyền thống gắn liền với làng nghề quê hương Trà Vinh (bánh tét Trà Cuôn, bún nước lèo, cốm dẹp); trân trọng mồ hôi công sức của người lao động.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M24): Rửa tay bằng xà phòng dưới vòi nước chảy vừa đủ trước khi ăn cơm; uống nước đun sôi để nguội; sử dụng nguồn nước sạch an toàn trong chế biến thức ăn.",
+          "- Trong lớp học, bàn ghế kê thành dãy hoặc theo nhóm.",
+          "- Một số mũ/đạo cụ đơn giản để sắm vai bác sĩ, y tá, các con vật; giấy A1/A0, bút màu.",
+          "- Hình SGK về tiểu phẩm “Bác sĩ Ối đau quá”, xây dựng quy tắc ứng xử khi ăn uống.",
+          "- ................................................................................................................................",
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
+          "BÀI 23: BÊN MÂM CƠM – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
+          "TUẦN 23",
+          "TIẾT 3: SINH HOẠT LỚP – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
+          "1. Năng lực đặc thù",
+          "- HS chia sẻ được những điều đã làm được hoặc những khó khăn khi thực hiện quy tắc vệ sinh, an toàn khi ăn uống.",
+          "- HS biết thực hiện quy tắc ứng xử khi ăn uống ở trường và trong gia đình.",
+          "- HS xây dựng được khẩu hiệu vui để nhắc nhở việc đảm bảo an toàn khi ăn uống.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết chia sẻ, lắng nghe, góp ý nhẹ nhàng trong sinh hoạt lớp.",
+          "- Tự chủ và tự học: biết tự đánh giá thói quen ăn uống của mình và điều chỉnh hành vi.",
+          "- Giải quyết vấn đề và sáng tạo: biết viết khẩu hiệu, đề xuất cách nhắc nhở bạn bè ăn uống an toàn, lịch sự.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: thực hiện quy tắc ăn uống gọn gàng, lịch sự, an toàn ở trường và ở nhà.",
+          "- Nhân ái: biết cảm ơn người chuẩn bị bữa ăn, biết nhường nhịn và quan tâm bạn bè.",
+          "- Chăm chỉ: tích cực tham gia tổng kết tuần, chia sẻ và hoàn thành sản phẩm nhóm.",
+          "4. Tích hợp",
+          "- Tích hợp KNS: HS biết thực hiện quy tắc ứng xử khi ăn uống: ăn uống gọn gàng, lịch sự, không nói chuyện khi miệng còn thức ăn và biết cảm ơn người chuẩn bị bữa ăn.",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết ứng xử lịch sự trong bữa ăn, biết mời, cảm ơn, nhường nhịn và trân trọng công sức chuẩn bị bữa cơm.",
+          "- Trong lớp học, có thể di chuyển đến nhà ăn/bếp ăn nếu điều kiện cho phép.",
+          "- Giấy bìa, bút màu, tranh minh họa quy tắc ăn uống.",
+          "- Hình SGK về chia sẻ quy tắc trong gia đình và thực hiện quy tắc ăn uống ở trường.",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9908,7 +9983,7 @@
     "sourceFile": "HĐTN TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – TỰ BẢO VỆ BẢN THÂN",
+        "lessonTitle": "BÀI 24: ĂN UỐNG NGOÀI HÀNG QUÁN – CẨM NANG ĂN UỐNG AN TOÀN - TIẾT 1: SINH HOẠT DƯỚI CỜ – TỰ BẢO VỆ BẢN THÂN",
         "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9929,9 +10004,8 @@
           "- Tranh ảnh minh họa về rửa tay, chọn đồ ăn sạch, uống nước hợp vệ sinh, che đậy thực phẩm.",
           "- Câu hỏi giao lưu, thẻ tình huống về ăn uống bên ngoài nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10002,10 +10076,12 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – TỰ BẢO VỆ BẢN THÂN"
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – ĂN UỐNG NGOÀI HÀNG QUÁN",
+        "lessonTitle": "BÀI 24: ĂN UỐNG NGOÀI HÀNG QUÁN – CẨM NANG ĂN UỐNG AN TOÀN - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – ĂN UỐNG NGOÀI HÀNG QUÁN",
         "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10029,9 +10105,8 @@
           "- Giấy A1/A3, bút màu, bảng nhóm để ghi kết quả khảo sát, lí do ủng hộ/phản đối.",
           "- Hình SGK về khảo sát thói quen ăn uống, thảo luận “Ăn ở nhà hàng hay ở nhà?” và nguy cơ khi ăn uống ngoài hàng quán."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10129,10 +10204,12 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – ĂN UỐNG NGOÀI HÀNG QUÁN"
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – CẨM NANG ĂN UỐNG AN TOÀN",
+        "lessonTitle": "BÀI 24: ĂN UỐNG NGOÀI HÀNG QUÁN – CẨM NANG ĂN UỐNG AN TOÀN - TIẾT 3: SINH HOẠT LỚP – CẨM NANG ĂN UỐNG AN TOÀN",
         "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10141,6 +10218,7 @@
           "- HS tự đánh giá được kết quả tham gia chủ đề “Ăn uống an toàn, hợp vệ sinh”.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết trao đổi, góp ý và trình bày cẩm nang của nhóm trước lớp.",
+          "- Tự chủ và tự học: biết tự đối chiếu tiêu chí tự đánh giá, tự điều chỉnh thói quen ăn uống.",
           "- Giải quyết vấn đề và sáng tạo: biết thiết kế cẩm nang, chọn nguyên tắc giữ vệ sinh phù hợp với tình huống thực tế.",
           "3. Phẩm chất",
           "- Trách nhiệm: biết thực hiện và nhắc người thân, bạn bè ăn uống an toàn, hợp vệ sinh.",
@@ -10155,9 +10233,8 @@
           "- Giấy A4, bìa màu, kéo, keo, bút màu để làm cẩm nang.",
           "- Hình SGK về các mẫu cẩm nang ăn uống an toàn và hình tự đánh giá sau chủ đề."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10280,7 +10357,9 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – CẨM NANG ĂN UỐNG AN TOÀN"
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10289,7 +10368,7 @@
     "sourceFile": "HĐTN TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – LÀNG NGHỀ TRUYỀN THỐNG",
+        "lessonTitle": "BÀI 25: TRUYỀN THỐNG QUÊ HƯƠNG EM – TỰ HÀO VỀ TRUYỀN THỐNG QUÊ HƯƠNG - TIẾT 1: SINH HOẠT DƯỚI CỜ – LÀNG NGHỀ TRUYỀN THỐNG",
         "topic": "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10310,10 +10389,8 @@
           "- Câu hỏi phỏng vấn nghệ nhân; hình SGK về làng nghề truyền thống.",
           "- Bảng cam kết tham gia “Giờ Trái Đất” hoặc thẻ cam kết cá nhân."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10388,10 +10465,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – LÀNG NGHỀ TRUYỀN THỐNG"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TRUYỀN THỐNG QUÊ HƯƠNG EM",
+        "lessonTitle": "BÀI 25: TRUYỀN THỐNG QUÊ HƯƠNG EM – TỰ HÀO VỀ TRUYỀN THỐNG QUÊ HƯƠNG - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TRUYỀN THỐNG QUÊ HƯƠNG EM",
         "topic": "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10415,10 +10495,8 @@
           "- Giấy A3/A4, bút màu, phiếu lập kế hoạch nhóm; hình SGK về các hình thức trình bày thu hoạch.",
           "- Máy tính/tivi hoặc thiết bị trình chiếu nếu GV giới thiệu học liệu số/VR về làng nghề."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10528,10 +10606,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TRUYỀN THỐNG QUÊ HƯƠNG EM"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – TỰ HÀO VỀ TRUYỀN THỐNG QUÊ HƯƠNG",
+        "lessonTitle": "BÀI 25: TRUYỀN THỐNG QUÊ HƯƠNG EM – TỰ HÀO VỀ TRUYỀN THỐNG QUÊ HƯƠNG - TIẾT 3: SINH HOẠT LỚP – TỰ HÀO VỀ TRUYỀN THỐNG QUÊ HƯƠNG",
         "topic": "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10554,10 +10635,8 @@
           "- Sản phẩm thu hoạch của các nhóm: tranh, bài thuyết trình, câu chuyện, tiểu phẩm hoặc đạo cụ biểu diễn.",
           "- Hình SGK về trình bày truyền thống quê hương và gợi ý cam kết hành động."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10688,7 +10767,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – TỰ HÀO VỀ TRUYỀN THỐNG QUÊ HƯƠNG"
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10697,7 +10779,7 @@
     "sourceFile": "HĐTN TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – PHONG TRÀO “MÙA ĐÔNG ẤM, MÙA HÈ VUI”",
+        "lessonTitle": "BÀI 26: MÙA ĐÔNG ẤM, MÙA HÈ VUI – MÓN QUÀ TẶNG BẠN - TIẾT 1: SINH HOẠT DƯỚI CỜ – PHONG TRÀO “MÙA ĐÔNG ẤM, MÙA HÈ VUI”",
         "topic": "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10719,10 +10801,8 @@
           "- Hình SGK về phong trào “Mùa đông ấm, mùa hè vui”."
         ],
         "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG"
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10792,10 +10872,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – PHONG TRÀO “MÙA ĐÔNG ẤM, MÙA HÈ VUI”"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – MÙA ĐÔNG ẤM, MÙA HÈ VUI",
+        "lessonTitle": "BÀI 26: MÙA ĐÔNG ẤM, MÙA HÈ VUI – MÓN QUÀ TẶNG BẠN - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – MÙA ĐÔNG ẤM, MÙA HÈ VUI",
         "topic": "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10820,10 +10900,8 @@
           "- Máy tính, màn hình/ti vi để trình chiếu; có thể dùng ChatGPT/Microsoft Copilot, Canva AI để gợi ý lời chúc hoặc mẫu thiệp dưới sự kiểm soát của GV."
         ],
         "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG"
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -10924,10 +11002,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – MÙA ĐÔNG ẤM, MÙA HÈ VUI"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – MÓN QUÀ TẶNG BẠN",
+        "lessonTitle": "BÀI 26: MÙA ĐÔNG ẤM, MÙA HÈ VUI – MÓN QUÀ TẶNG BẠN - TIẾT 3: SINH HOẠT LỚP – MÓN QUÀ TẶNG BẠN",
         "topic": "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10950,9 +11028,8 @@
           "- Vật liệu đóng gói: túi, bao, giấy, dây buộc, băng dính; bút màu, giấy bìa các màu.",
           "- Hình SGK về hoạt động đóng gói quà, lời nhắn và kể chuyện tương tác “Quà tặng cho mọi người”."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11068,7 +11145,9 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – MÓN QUÀ TẶNG BẠN"
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -11077,7 +11156,7 @@
     "sourceFile": "HĐTN TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CÂU CHUYỆN VỀ LÒNG NHÂN ÁI",
+        "lessonTitle": "BÀI 27: GIÚP ĐỠ NGƯỜI KHUYẾT TẬT – ĐỒNG CẢM VỚI NGƯỜI KHUYẾT TẬT - TIẾT 1: SINH HOẠT DƯỚI CỜ – CÂU CHUYỆN VỀ LÒNG NHÂN ÁI",
         "topic": "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11086,6 +11165,7 @@
           "- HS biết nêu một hành động nhân ái, phù hợp với lứa tuổi để giúp đỡ người gặp khó khăn.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết lắng nghe, quan sát, cổ vũ văn minh và chia sẻ cảm xúc sau khi xem biểu diễn.",
+          "- Tự chủ và tự học: biết suy nghĩ về hành vi nhân ái của bản thân, tự điều chỉnh cách ứng xử với người gặp khó khăn.",
           "- Giải quyết vấn đề và sáng tạo: biết nhận ra thông điệp của tiểu phẩm câm qua nét mặt, cử chỉ, động tác cơ thể.",
           "3. Phẩm chất",
           "- Nhân ái: biết yêu thương, đồng cảm, sẵn sàng giúp đỡ người khác.",
@@ -11098,10 +11178,8 @@
           "- Hình SGK về “Câu chuyện về lòng nhân ái”; câu hỏi giao lưu sau hoạt động."
         ],
         "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG"
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -11175,10 +11253,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CÂU CHUYỆN VỀ LÒNG NHÂN ÁI"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – GIÚP ĐỠ NGƯỜI KHUYẾT TẬT",
+        "lessonTitle": "BÀI 27: GIÚP ĐỠ NGƯỜI KHUYẾT TẬT – ĐỒNG CẢM VỚI NGƯỜI KHUYẾT TẬT - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – GIÚP ĐỠ NGƯỜI KHUYẾT TẬT",
         "topic": "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11187,12 +11265,14 @@
           "- HS lập được kế hoạch giúp đỡ người khuyết tật bằng những việc làm vừa sức, phù hợp.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết thảo luận nhóm, chia sẻ cảm xúc, lắng nghe và tôn trọng ý kiến của bạn.",
+          "- Tự chủ và tự học: biết tìm hiểu thông tin phù hợp về người khuyết tật, tự điều chỉnh lời nói và hành vi khi giao tiếp.",
           "- Giải quyết vấn đề và sáng tạo: biết đề xuất cách hỗ trợ phù hợp, không làm thay khi chưa cần thiết, không gây mặc cảm cho người được hỗ trợ.",
           "3. Phẩm chất",
           "- Nhân ái: biết đồng cảm, tôn trọng, sẵn sàng hỗ trợ người khuyết tật.",
           "- Trách nhiệm: biết lựa chọn hành động giúp đỡ an toàn, phù hợp khả năng của bản thân.",
           "- Chăm chỉ: tích cực tham gia trò chơi, thảo luận, lập kế hoạch và chia sẻ trước lớp.",
           "4. Tích hợp",
+          "- Quyền con người: Mọi người, trong đó có người khuyết tật, đều có quyền được tôn trọng, đối xử bình đẳng, học tập, tham gia các hoạt động và hòa nhập cộng đồng.",
           "- Tích hợp AI (Khung 3439) - 3.A2.2: Nhận biết vai trò của AI hỗ trợ người yếu thế xóa bỏ rào cản như dịch giọng nói, chuyển lời nói thành chữ, nhận diện vật cản, đọc văn bản hoặc mô tả hình ảnh."
         ],
         "dodung": [
@@ -11201,11 +11281,7 @@
           "- Hình SGK về người khuyết tật, kế hoạch giúp đỡ; có thể trình chiếu video/ảnh về công cụ AI hỗ trợ người yếu thế."
         ],
         "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG"
-        ],
-        "dieuchinh": [
-          "- Quyền con người: Mọi người, trong đó có người khuyết tật, đều có quyền được tôn trọng, đối xử bình đẳng, học tập, tham gia các hoạt động và hòa nhập cộng đồng."
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11311,10 +11387,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – GIÚP ĐỠ NGƯỜI KHUYẾT TẬT"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – ĐỒNG CẢM VỚI NGƯỜI KHUYẾT TẬT",
+        "lessonTitle": "BÀI 27: GIÚP ĐỠ NGƯỜI KHUYẾT TẬT – ĐỒNG CẢM VỚI NGƯỜI KHUYẾT TẬT - TIẾT 3: SINH HOẠT LỚP – ĐỒNG CẢM VỚI NGƯỜI KHUYẾT TẬT",
         "topic": "CHỦ ĐỀ 7: HOẠT ĐỘNG VÌ CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11323,12 +11399,14 @@
           "- HS biết tự đánh giá sau chủ đề “Hoạt động vì cộng đồng”.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết chia sẻ thu hoạch, tham gia hoạt động nhóm, lắng nghe và cổ vũ bạn.",
+          "- Tự chủ và tự học: biết tự đánh giá việc làm của bản thân, tiếp tục điều chỉnh hành vi để ứng xử nhân ái.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn cách bày tỏ sự đồng cảm bằng lời nói, hành động, bài hát, kí hiệu hoặc sản phẩm đơn giản.",
           "3. Phẩm chất",
           "- Nhân ái: biết đồng cảm, yêu thương và chia sẻ với người khuyết tật.",
           "- Trách nhiệm: biết thực hiện việc làm đã cam kết, tiếp tục giúp đỡ người khuyết tật ở nhà trường và địa phương.",
           "- Chăm chỉ: tích cực tham gia chia sẻ, sắm vai, tự đánh giá và hoàn thành nhiệm vụ.",
           "4. Tích hợp",
+          "- Quyền con người: Mọi người, trong đó có người khuyết tật, đều có quyền được tôn trọng, đối xử bình đẳng, học tập, tham gia các hoạt động và hòa nhập cộng đồng.",
           "- Tích hợp AI (Khung 3439) - 3.A2.2: Nhận biết vai trò của AI hỗ trợ người yếu thế xóa bỏ rào cản như dịch giọng nói, nhận diện vật cản, đọc văn bản và hỗ trợ giao tiếp."
         ],
         "dodung": [
@@ -11336,10 +11414,8 @@
           "- Hình SGK về hành động bày tỏ sự đồng cảm và hình tự đánh giá sau chủ đề.",
           "- Có thể dùng video ngắn/ngôn ngữ kí hiệu hoặc ứng dụng chuyển lời nói thành chữ để minh họa."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Quyền con người: Mọi người, trong đó có người khuyết tật, đều có quyền được tôn trọng, đối xử bình đẳng, học tập, tham gia các hoạt động và hòa nhập cộng đồng.",
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11462,7 +11538,9 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – ĐỒNG CẢM VỚI NGƯỜI KHUYẾT TẬT"
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -11471,7 +11549,7 @@
     "sourceFile": "HĐTN TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CẢNH QUAN THIÊN NHIÊN ĐỊA PHƯƠNG EM",
+        "lessonTitle": "BÀI 28: QUÊ HƯƠNG EM TƯƠI ĐẸP – TỰ HÀO VỀ CẢNH ĐẸP QUÊ HƯƠNG - TIẾT 1: SINH HOẠT DƯỚI CỜ – CẢNH QUAN THIÊN NHIÊN ĐỊA PHƯƠNG EM",
         "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11492,9 +11570,8 @@
           "- Một số bài hát, bài thơ, câu ca dao về quê hương tươi đẹp.",
           "- Hình SGK về hoạt động “Cảnh quan thiên nhiên địa phương em”."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11565,10 +11642,12 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – CẢNH QUAN THIÊN NHIÊN ĐỊA PHƯƠNG EM"
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – QUÊ HƯƠNG EM TƯƠI ĐẸP",
+        "lessonTitle": "BÀI 28: QUÊ HƯƠNG EM TƯƠI ĐẸP – TỰ HÀO VỀ CẢNH ĐẸP QUÊ HƯƠNG - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – QUÊ HƯƠNG EM TƯƠI ĐẸP",
         "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11593,9 +11672,8 @@
           "- Bộ tranh ảnh/slide/đoạn phim ngắn về cảnh quan thiên nhiên tại địa phương.",
           "- Bảng nhóm, giấy A1, bút màu; có thể sử dụng Google Maps, Google Lens hoặc hình ảnh do GV chuẩn bị."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11693,10 +11771,12 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – QUÊ HƯƠNG EM TƯƠI ĐẸP"
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – TỰ HÀO VỀ CẢNH ĐẸP QUÊ HƯƠNG",
+        "lessonTitle": "BÀI 28: QUÊ HƯƠNG EM TƯƠI ĐẸP – TỰ HÀO VỀ CẢNH ĐẸP QUÊ HƯƠNG - TIẾT 3: SINH HOẠT LỚP – TỰ HÀO VỀ CẢNH ĐẸP QUÊ HƯƠNG",
         "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11721,9 +11801,8 @@
           "- Nguyên liệu làm tranh xé giấy hoặc tranh lá: giấy khổ to, keo dán, lá khô, các loại hạt, giấy màu, bút màu.",
           "- Hình SGK về chia sẻ cảnh quan và sáng tạo tác phẩm “Quê hương tươi đẹp”."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11829,7 +11908,7 @@
               "5. Cam kết hành động (5 phút)\nMục tiêu: HS tiếp tục cùng người thân khám phá cảnh đẹp đất nước qua âm nhạc, ca dao và việc làm giữ gìn cảnh quan.\nMục tiêu tích hợp: HS nhận biết Google Lens có thể dùng AI để quét ảnh cảnh quan, gợi ý tên địa danh/thông tin ban đầu; HS cần kiểm chứng với người lớn hoặc nguồn chính thống trước khi chia sẻ.\n*Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình cam kết trong SGK và nhắc nhiệm vụ: cùng người thân nghe bài hát, sưu tầm câu ca dao ca ngợi cảnh đẹp quê hương đất nước.\n\n- Câu hỏi dẫn tích hợp AI: “Khi cùng người thân sưu tầm một bức ảnh cảnh đẹp nhưng chưa biết rõ tên địa điểm, em có thể dùng công cụ AI nào để tìm hiểu thông tin ban đầu?”",
+              "- GV cho HS quan sát hình cam kết trong SGK và nhắc nhiệm vụ: cùng người thân nghe bài hát, sưu tầm câu ca dao ca ngợi cảnh đẹp quê hương đất nước.\n- Câu hỏi dẫn tích hợp AI: “Khi cùng người thân sưu tầm một bức ảnh cảnh đẹp nhưng chưa biết rõ tên địa điểm, em có thể dùng công cụ AI nào để tìm hiểu thông tin ban đầu?”",
               "- HS quan sát hình, đọc nhiệm vụ và hứa thực hiện cùng người thân.\n- HS trả lời: Có thể dùng Google Lens để quét ảnh cảnh quan và xem gợi ý tên địa danh/thông tin liên quan; sau đó em cần hỏi người lớn hoặc đối chiếu nguồn chính thống để kiểm chứng."
             ],
             [
@@ -11838,7 +11917,9 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – TỰ HÀO VỀ CẢNH ĐẸP QUÊ HƯƠNG"
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },
@@ -11847,7 +11928,7 @@
     "sourceFile": "HĐTN TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – BẢO VỆ THIÊN NHIÊN",
+        "lessonTitle": "BÀI 29: TRUYỀN THỐNG BẢO VỆ THIÊN NHIÊN – TUYÊN TRUYỀN VIÊN NHÍ - TIẾT 1: SINH HOẠT DƯỚI CỜ – BẢO VỆ THIÊN NHIÊN",
         "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11868,10 +11949,8 @@
           "- Tiểu phẩm “Tuyên truyền viên bảo vệ thiên nhiên”, tranh ảnh về hành vi nên/không nên làm khi tham quan cảnh đẹp.",
           "- Hình SGK về hoạt động “Bảo vệ thiên nhiên”."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11934,10 +12013,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – BẢO VỆ THIÊN NHIÊN"
+        "dieuchinh": [
+          "- ................................................................................................................",
+          "- ................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TRUYỀN THỐNG BẢO VỆ THIÊN NHIÊN",
+        "lessonTitle": "BÀI 29: TRUYỀN THỐNG BẢO VỆ THIÊN NHIÊN – TUYÊN TRUYỀN VIÊN NHÍ - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TRUYỀN THỐNG BẢO VỆ THIÊN NHIÊN",
         "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11946,12 +12028,14 @@
           "- HS biết lựa chọn lời nhắc nhở lịch sự, dễ nhớ để góp phần bảo vệ môi trường và cảnh quan quê hương.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết trao đổi nhóm, thống nhất quy tắc ứng xử và trình bày trước lớp.",
+          "- Tự chủ và tự học: biết quan sát tình huống, tự điều chỉnh hành vi của bản thân nơi công cộng.",
           "- Giải quyết vấn đề và sáng tạo: biết tạo lời nhắc, khẩu hiệu, chuỗi thẻ quy tắc phù hợp với tình huống thực tế.",
           "3. Phẩm chất",
           "- Trách nhiệm: có ý thức bảo vệ danh lam thắng cảnh, cây xanh và môi trường quê hương.",
           "- Nhân ái: biết nhắc nhở bạn bè nhẹ nhàng, không chê bai hoặc ra lệnh thô cứng.",
           "- Chăm chỉ: tích cực tham gia trò chơi, thảo luận và hoàn thành sản phẩm nhóm.",
           "4. Tích hợp",
+          "- GD địa phương chủ đề “Danh lam thắng cảnh và môi trường quê em”: HS biết việc nên làm, không nên làm để bảo vệ cảnh quan quê hương.",
           "- Tích hợp AI (Khung 3439) - 3.D2.2: Hiểu AI cần dữ liệu chính xác để giám sát sự phát triển của cây xanh/rừng; khi dữ liệu báo cáo sai, công cụ AI khó hỗ trợ con người bảo vệ thiên nhiên."
         ],
         "dodung": [
@@ -11959,10 +12043,8 @@
           "- Những thẻ bìa màu sắc khác nhau; biểu tượng mặt cười, mặt mếu cho mỗi HS; dây và băng dính để treo các tấm bìa.",
           "- Hình SGK về trò chơi “Nên hay không nên?” và các mẫu quy tắc ứng xử."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -12064,10 +12146,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TRUYỀN THỐNG BẢO VỆ THIÊN NHIÊN"
+        "dieuchinh": [
+          "- ................................................................................................................",
+          "- ................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – TUYÊN TRUYỀN VIÊN NHÍ",
+        "lessonTitle": "BÀI 29: TRUYỀN THỐNG BẢO VỆ THIÊN NHIÊN – TUYÊN TRUYỀN VIÊN NHÍ - TIẾT 3: SINH HOẠT LỚP – TUYÊN TRUYỀN VIÊN NHÍ",
         "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12076,23 +12161,23 @@
           "- HS thành lập được nhóm “tuyên truyền viên nhí” và thực hiện hoạt động tuyên truyền trước lớp.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết thảo luận nhóm, thống nhất thông điệp và trình bày trước lớp.",
+          "- Tự chủ và tự học: biết lựa chọn lời nhắc phù hợp, tự điều chỉnh cách nói để không làm người khác khó chịu.",
           "- Giải quyết vấn đề và sáng tạo: biết chọn hình thức tuyên truyền như viết thông điệp, đọc thơ, diễn kịch câm, nhảy múa.",
           "3. Phẩm chất",
           "- Trách nhiệm: biết nhắc nhở mọi người cùng giữ gìn cảnh quan thiên nhiên.",
           "- Nhân ái: biết nói lời nhắc nhẹ nhàng, tôn trọng người được nhắc.",
           "- Chăm chỉ: tích cực tham gia hoạt động nhóm, hoàn thành sản phẩm tuyên truyền.",
           "4. Tích hợp",
-          "- Tích hợp NLS 5.2.CB1a: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn."
+          "- Tích hợp NLS 5.2.CB1a: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn.",
+          "- GD địa phương chủ đề “Danh lam thắng cảnh và môi trường quê em”: HS biết tuyên truyền, nhắc nhở người thân, bạn bè cùng bảo vệ cảnh quan quê hương."
         ],
         "dodung": [
           "- Trong lớp học, có thể di chuyển ra sân trường.",
           "- Giấy khổ to, bút màu, thẻ thông điệp, bảng nhóm; hình SGK về nhóm “tuyên truyền viên nhí”.",
           "- Máy tính/máy chiếu nếu GV cho HS quan sát mẫu thẻ tuyên truyền hoặc trình bày sản phẩm số."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -12204,7 +12289,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – TUYÊN TRUYỀN VIÊN NHÍ"
+        "dieuchinh": [
+          "- ................................................................................................................",
+          "- ................................................................................................................"
+        ]
       }
     ]
   },
@@ -12213,9 +12301,14 @@
     "sourceFile": "HĐTN TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ - PHÓNG VIÊN MÔI TRƯỜNG NHÍ",
-        "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
+        "lessonTitle": "Bài học Tiết 1 (Tuần 30)",
+        "topic": "",
         "yccd": [
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
+          "BÀI 30: MÔI TRƯỜNG KÊU CỨU - BẢNG THÔNG TIN MÔI TRƯỜNG",
+          "TUẦN 30",
+          "TIẾT 1: SINH HOẠT DƯỚI CỜ - PHÓNG VIÊN MÔI TRƯỜNG NHÍ",
           "1. Năng lực đặc thù",
           "- HS nghe và hiểu được cách thành lập nhóm “phóng viên môi trường nhí”.",
           "- HS biết đăng kí, cổ vũ và tham gia hoạt động tập thể về bảo vệ môi trường.",
@@ -12227,18 +12320,13 @@
           "3. Phẩm chất",
           "- Trách nhiệm: có ý thức giữ gìn môi trường lớp học, sân trường và nơi công cộng.",
           "- Nhân ái: biết quan tâm đến sức khỏe của mọi người khi môi trường bị ô nhiễm.",
-          "- Chăm chỉ: tích cực tham gia sinh hoạt dưới cờ và thực hiện nhiệm vụ được giao."
-        ],
-        "dodung": [
+          "- Chăm chỉ: tích cực tham gia sinh hoạt dưới cờ và thực hiện nhiệm vụ được giao.",
           "- Sân trường hoặc hội trường; âm thanh, micro, bảng tên chủ đề “Phóng viên môi trường nhí”.",
           "- Một số hình ảnh về môi trường sạch, môi trường bị ô nhiễm; thẻ đăng kí nhóm phóng viên.",
           "- Hình SGK về hoạt động “Phóng viên môi trường nhí”."
         ],
+        "dodung": [],
         "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -12302,41 +12390,7 @@
               "- GV kết luận: Phóng viên môi trường nhí cần quan sát trung thực, ghi chép rõ ràng và biết nhắc nhở mọi người cùng bảo vệ môi trường.",
               "- HS lắng nghe, ghi nhớ nhiệm vụ và chuẩn bị cho tiết hoạt động giáo dục theo chủ đề."
             ]
-          ]
-        ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ - PHÓNG VIÊN MÔI TRƯỜNG NHÍ"
-      },
-      {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - MÔI TRƯỜNG KÊU CỨU",
-        "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS nhận biết được những biểu hiện của ô nhiễm môi trường trong vai trò “phóng viên môi trường nhí”.",
-          "- HS biết lựa chọn phương pháp khảo sát đơn giản: quan sát, ghi chép, phỏng vấn.",
-          "- HS lập được kế hoạch hành động ban đầu để tiếp tục khảo sát và cảnh báo về vấn đề môi trường.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết thảo luận, phân công nhiệm vụ và chia sẻ kết quả khảo sát trong nhóm.",
-          "- Tự chủ và tự học: biết quan sát môi trường xung quanh, ghi lại thông tin trung thực.",
-          "- Giải quyết vấn đề và sáng tạo: biết đề xuất cách phát hiện, cảnh báo và tuyên truyền về ô nhiễm môi trường.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: có ý thức quan sát, phát hiện và nhắc nhở việc bảo vệ môi trường.",
-          "- Trung thực: ghi chép kết quả khảo sát đúng với những điều đã quan sát được.",
-          "- Nhân ái: biết quan tâm đến sức khỏe của cộng đồng khi môi trường bị ô nhiễm.",
-          "4. Tích hợp",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: Biết AI và dữ liệu quan trắc hỗ trợ cảnh báo sớm ô nhiễm không khí, thiên tai để con người ứng phó; sử dụng công cụ cụ thể: IQAir AirVisual/PAM Air/Google Maps AQI dưới sự hướng dẫn của GV.",
-          "- Tích hợp NLS 5.2.CB1a: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn."
-        ],
-        "dodung": [
-          "- Hình ảnh, tư liệu hoặc video ngắn về ô nhiễm môi trường.",
-          "- Phiếu khảo sát môi trường, bút viết, bảng nhóm.",
-          "- Hình SGK về dấu hiệu ô nhiễm, phương pháp khảo sát và phiếu khảo sát."
-        ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................"
-        ],
-        "tables": [
+          ],
           [
             [
               "Hoạt động của GV",
@@ -12409,6 +12463,14 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của việc khảo sát."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước sông biển (Chủ đề 1, 3 GDĐP 3 & Mã Mizuiku M6, M7, M18, M19): “Trong vai phóng viên môi trường nhí tại tỉnh Trà Vinh, các em quan sát thấy những hiện tượng ô nhiễm nguồn nước nào ở dòng sông Cổ Chiên hay bãi biển Ba Động? Em muốn nhắn gửi thông điệp gì?”",
+              "- HS trả lời: Chúng em thấy có rác thải nhựa dạt vào bãi cát biển Ba Động và rác túi nilon trôi nổi trên sông rạch; nhóm phóng viên chúng em gửi thông điệp: “Hãy chung tay giữ sạch bờ biển Ba Động và dòng sông quê hương Trà Vinh, tuyệt đối không vứt rác thải xuống nguồn nước!” ạ."
+            ],
+            [
+              "- GV biểu dương: Tiếng nói và hành động thiết thực của các phóng viên nhí sẽ lan tỏa ý thức bảo vệ môi trường nước trong lành cho quê hương Trà Vinh tươi đẹp.",
+              "- HS nhiệt liệt hưởng ứng và quyết tâm bảo vệ nguồn nước."
+            ],
+            [
               "3. Mở rộng và tổng kết chủ đề: Lập kế hoạch hành động của các phóng viên (8 phút)\nMục tiêu: HS lập được kế hoạch khảo sát, phỏng vấn và cảnh báo về ô nhiễm môi trường.\nMục tiêu tích hợp: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn.\n*Cách tiến hành:"
             ],
             [
@@ -12442,40 +12504,7 @@
               "- GV nhắc HS quan sát môi trường xung quanh, ghi chép lại nếu thấy có dấu hiệu ô nhiễm và cùng người thân phỏng vấn cô bác hàng xóm về ý thức bảo vệ môi trường.",
               "- HS cam kết thực hiện: Em sẽ quan sát quanh nhà, quanh đường đến trường và ghi lại những dấu hiệu ô nhiễm nếu có."
             ]
-          ]
-        ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - MÔI TRƯỜNG KÊU CỨU"
-      },
-      {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP - BẢNG THÔNG TIN MÔI TRƯỜNG",
-        "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
-        "yccd": [
-          "1. Năng lực đặc thù",
-          "- HS làm được bảng Thông tin môi trường, qua đó nhắc nhở mọi người có ý thức bảo vệ môi trường.",
-          "- HS chia sẻ được công việc của phóng viên môi trường trong những ngày qua.",
-          "- HS biết trình bày kết quả khảo sát thực trạng môi trường bằng hình ảnh, chữ viết và thông điệp rõ ràng.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết thảo luận, phân công nhiệm vụ và đặt câu hỏi khi quan sát sản phẩm nhóm bạn.",
-          "- Tự chủ và tự học: biết tự nhìn lại việc đã làm, hoàn thiện sản phẩm theo góp ý.",
-          "- Giải quyết vấn đề và sáng tạo: biết chọn thông tin, hình ảnh, lời cảnh báo phù hợp để làm bảng thông tin.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: có ý thức tuyên truyền, nhắc nhở mọi người bảo vệ môi trường.",
-          "- Chăm chỉ: tích cực hoàn thành nhiệm vụ nhóm, viết, vẽ và trình bày bảng thông tin.",
-          "- Trung thực: trình bày kết quả khảo sát đúng với thực tế đã quan sát.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 3.1.CB1a: HS biết tạo bảng, tranh ghép hoặc poster số đơn giản để chia sẻ thông điệp bảo vệ môi trường; lựa chọn thông tin, hình ảnh phù hợp và trình bày an toàn."
-        ],
-        "dodung": [
-          "- Trong lớp học, có thể di chuyển ra sân trường; giấy khổ to, bút màu, hồ dán.",
-          "- Phiếu khảo sát đã ghi chép; tranh ảnh, biểu tượng về ô nhiễm môi trường.",
-          "- Hình SGK về bảng Thông tin môi trường."
-        ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................"
-        ],
-        "tables": [
+          ],
           [
             [
               "Hoạt động của GV",
@@ -12581,7 +12610,61 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP - BẢNG THÔNG TIN MÔI TRƯỜNG"
+        "dieuchinh": [
+          "- ................................................................................................................",
+          "- ................................................................................................................",
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
+          "BÀI 30: MÔI TRƯỜNG KÊU CỨU - BẢNG THÔNG TIN MÔI TRƯỜNG",
+          "TUẦN 30",
+          "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - MÔI TRƯỜNG KÊU CỨU",
+          "1. Năng lực đặc thù",
+          "- HS nhận biết được những biểu hiện của ô nhiễm môi trường trong vai trò “phóng viên môi trường nhí”.",
+          "- HS biết lựa chọn phương pháp khảo sát đơn giản: quan sát, ghi chép, phỏng vấn.",
+          "- HS lập được kế hoạch hành động ban đầu để tiếp tục khảo sát và cảnh báo về vấn đề môi trường.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết thảo luận, phân công nhiệm vụ và chia sẻ kết quả khảo sát trong nhóm.",
+          "- Tự chủ và tự học: biết quan sát môi trường xung quanh, ghi lại thông tin trung thực.",
+          "- Giải quyết vấn đề và sáng tạo: biết đề xuất cách phát hiện, cảnh báo và tuyên truyền về ô nhiễm môi trường.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: có ý thức quan sát, phát hiện và nhắc nhở việc bảo vệ môi trường.",
+          "- Trung thực: ghi chép kết quả khảo sát đúng với những điều đã quan sát được.",
+          "- Nhân ái: biết quan tâm đến sức khỏe của cộng đồng khi môi trường bị ô nhiễm.",
+          "4. Tích hợp",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: Biết AI và dữ liệu quan trắc hỗ trợ cảnh báo sớm ô nhiễm không khí, thiên tai để con người ứng phó; sử dụng công cụ cụ thể: IQAir AirVisual/PAM Air/Google Maps AQI dưới sự hướng dẫn của GV.",
+          "- Tích hợp NLS 5.2.CB1a: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3: Các huyện thị ven biển Trà Vinh - TLGDĐP Lớp 3 Trà Vinh): Tìm hiểu thực trạng môi trường địa phương; có ý thức bảo vệ bờ biển Ba Động, dòng sông Cổ Chiên và các tuyến kênh rạch trên địa bàn tỉnh Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M7, M18, M19): Đóng vai “phóng viên môi trường nhí” tuyên truyền không xả rác thải nhựa, vỏ bao bì thuốc bảo vệ thực vật xuống sông ngòi, kênh rạch nội đồng; chung tay bảo vệ nguồn nước trong sạch.",
+          "- Hình ảnh, tư liệu hoặc video ngắn về ô nhiễm môi trường.",
+          "- Phiếu khảo sát môi trường, bút viết, bảng nhóm.",
+          "- Hình SGK về dấu hiệu ô nhiễm, phương pháp khảo sát và phiếu khảo sát.",
+          "- ................................................................................................................",
+          "- ................................................................................................................",
+          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
+          "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
+          "BÀI 30: MÔI TRƯỜNG KÊU CỨU - BẢNG THÔNG TIN MÔI TRƯỜNG",
+          "TUẦN 30",
+          "TIẾT 3: SINH HOẠT LỚP - BẢNG THÔNG TIN MÔI TRƯỜNG",
+          "1. Năng lực đặc thù",
+          "- HS làm được bảng Thông tin môi trường, qua đó nhắc nhở mọi người có ý thức bảo vệ môi trường.",
+          "- HS chia sẻ được công việc của phóng viên môi trường trong những ngày qua.",
+          "- HS biết trình bày kết quả khảo sát thực trạng môi trường bằng hình ảnh, chữ viết và thông điệp rõ ràng.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết thảo luận, phân công nhiệm vụ và đặt câu hỏi khi quan sát sản phẩm nhóm bạn.",
+          "- Tự chủ và tự học: biết tự nhìn lại việc đã làm, hoàn thiện sản phẩm theo góp ý.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn thông tin, hình ảnh, lời cảnh báo phù hợp để làm bảng thông tin.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: có ý thức tuyên truyền, nhắc nhở mọi người bảo vệ môi trường.",
+          "- Chăm chỉ: tích cực hoàn thành nhiệm vụ nhóm, viết, vẽ và trình bày bảng thông tin.",
+          "- Trung thực: trình bày kết quả khảo sát đúng với thực tế đã quan sát.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 3.1.CB1a: HS biết tạo bảng, tranh ghép hoặc poster số đơn giản để chia sẻ thông điệp bảo vệ môi trường; lựa chọn thông tin, hình ảnh phù hợp và trình bày an toàn.",
+          "- Trong lớp học, có thể di chuyển ra sân trường; giấy khổ to, bút màu, hồ dán.",
+          "- Phiếu khảo sát đã ghi chép; tranh ảnh, biểu tượng về ô nhiễm môi trường.",
+          "- Hình SGK về bảng Thông tin môi trường.",
+          "- ................................................................................................................",
+          "- ................................................................................................................"
+        ]
       }
     ]
   },
@@ -12590,7 +12673,7 @@
     "sourceFile": "HĐTN TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ - PHÒNG, CHỐNG Ô NHIỄM MÔI TRƯỜNG",
+        "lessonTitle": "BÀI 31: MÔI TRƯỜNG XANH - HÀNH ĐỘNG VÌ MÔI TRƯỜNG - TIẾT 1: SINH HOẠT DƯỚI CỜ - PHÒNG, CHỐNG Ô NHIỄM MÔI TRƯỜNG",
         "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12611,10 +12694,8 @@
           "- Một số hình ảnh về hành động sống xanh, thân thiện với môi trường.",
           "- Hình SGK về hoạt động giao lưu phòng, chống ô nhiễm môi trường."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -12681,10 +12762,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ - PHÒNG, CHỐNG Ô NHIỄM MÔI TRƯỜNG"
+        "dieuchinh": [
+          "- ................................................................................................................",
+          "- ................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - MÔI TRƯỜNG XANH",
+        "lessonTitle": "BÀI 31: MÔI TRƯỜNG XANH - HÀNH ĐỘNG VÌ MÔI TRƯỜNG - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - MÔI TRƯỜNG XANH",
         "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12708,10 +12792,8 @@
           "- Thẻ A, B, C hoặc quy ước: chọn A giơ tay, chọn B đứng dậy, chọn C ngồi tại chỗ.",
           "- Hình SGK về trò chơi Rung chuông vàng, các câu hỏi gợi ý và chuông chủ đề."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -12813,10 +12895,13 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - MÔI TRƯỜNG XANH"
+        "dieuchinh": [
+          "- ................................................................................................................",
+          "- ................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP - HÀNH ĐỘNG VÌ MÔI TRƯỜNG",
+        "lessonTitle": "BÀI 31: MÔI TRƯỜNG XANH - HÀNH ĐỘNG VÌ MÔI TRƯỜNG - TIẾT 3: SINH HOẠT LỚP - HÀNH ĐỘNG VÌ MÔI TRƯỜNG",
         "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12825,6 +12910,7 @@
           "- HS tự đánh giá kết quả thực hiện chủ đề “Làm bạn với thiên nhiên”.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết chia sẻ, lắng nghe, phân công và cùng bạn thực hiện hoạt động nhóm.",
+          "- Tự chủ và tự học: biết nhìn lại việc mình đã làm, tự đánh giá và điều chỉnh hành vi bảo vệ môi trường.",
           "- Giải quyết vấn đề và sáng tạo: biết chọn việc làm phù hợp như nhặt rác, tái sử dụng chai nhựa, tưới cây, phân loại rác.",
           "3. Phẩm chất",
           "- Trách nhiệm: tự giác tham gia hành động bảo vệ môi trường trong lớp, ở trường và gia đình.",
@@ -12838,10 +12924,8 @@
           "- Hình SGK về hoạt động vì môi trường và hình tự đánh giá sau chủ đề.",
           "- Phiếu thu hoạch cá nhân hoặc vở ghi chép."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -12956,7 +13040,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP - HÀNH ĐỘNG VÌ MÔI TRƯỜNG"
+        "dieuchinh": [
+          "- ................................................................................................................",
+          "- ................................................................................................................"
+        ]
       }
     ]
   },
@@ -12965,7 +13052,7 @@
     "sourceFile": "HĐTN TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – THẾ GIỚI NGHỀ NGHIỆP QUANH EM",
+        "lessonTitle": "BÀI 32: NGHỀ EM YÊU THÍCH – ĐỨC TÍNH NGHỀ NGHIỆP - TIẾT 1: SINH HOẠT DƯỚI CỜ – THẾ GIỚI NGHỀ NGHIỆP QUANH EM",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12986,8 +13073,9 @@
           "- Hình ảnh minh họa về một số công việc trong nhà trường.",
           "- Phiếu ghi nhanh: Tên công việc – Việc làm chính – Đức tính cần có."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -13057,10 +13145,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – THẾ GIỚI NGHỀ NGHIỆP QUANH EM"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGHỀ EM YÊU THÍCH",
+        "lessonTitle": "BÀI 32: NGHỀ EM YÊU THÍCH – ĐỨC TÍNH NGHỀ NGHIỆP - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGHỀ EM YÊU THÍCH",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13084,8 +13172,9 @@
           "- Thẻ từ về đức tính nghề nghiệp; giấy A3/A4, bút màu.",
           "- Hình SGK về vở kịch “Xưởng may áo ấm” và sơ đồ đức tính nghề nghiệp."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -13190,10 +13279,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGHỀ EM YÊU THÍCH"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – ĐỨC TÍNH NGHỀ NGHIỆP",
+        "lessonTitle": "BÀI 32: NGHỀ EM YÊU THÍCH – ĐỨC TÍNH NGHỀ NGHIỆP - TIẾT 3: SINH HOẠT LỚP – ĐỨC TÍNH NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13217,8 +13306,9 @@
           "- Phiếu phỏng vấn: Nghề – Công việc của nghề – Đức tính của nghề.",
           "- Thẻ từ về các đức tính nghề nghiệp."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -13311,7 +13401,7 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – ĐỨC TÍNH NGHỀ NGHIỆP"
+        "dieuchinh": []
       }
     ]
   },
@@ -13320,7 +13410,7 @@
     "sourceFile": "HĐTN TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – NGÀY HỘI NHỮNG NGƯỜI LAO ĐỘNG TƯƠNG LAI",
+        "lessonTitle": "BÀI 33: NGƯỜI LAO ĐỘNG TƯƠNG LAI – TẤM GƯƠNG NGHỀ NGHIỆP - TIẾT 1: SINH HOẠT DƯỚI CỜ – NGÀY HỘI NHỮNG NGƯỜI LAO ĐỘNG TƯƠNG LAI",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13342,10 +13432,8 @@
           "- Phiếu ghi nhanh: Nghề em yêu thích – việc làm chính – đức tính cần rèn luyện."
         ],
         "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP"
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -13415,10 +13503,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – NGÀY HỘI NHỮNG NGƯỜI LAO ĐỘNG TƯƠNG LAI"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGƯỜI LAO ĐỘNG TƯƠNG LAI",
+        "lessonTitle": "BÀI 33: NGƯỜI LAO ĐỘNG TƯƠNG LAI – TẤM GƯƠNG NGHỀ NGHIỆP - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGƯỜI LAO ĐỘNG TƯƠNG LAI",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13434,7 +13522,8 @@
           "- Trách nhiệm: biết giữ lời hứa, thực hiện việc đã đăng kí.",
           "- Trung thực: biết tự nhận xét đúng điểm mạnh, điểm cần cố gắng của bản thân.",
           "4. Tích hợp",
-          "- Tích hợp AI (Khung 3439) - 3.D1.1: HS nhận biết AI/robot có thể hỗ trợ con người trong một số nghề và cần được con người hướng dẫn, huấn luyện bằng dữ liệu, quy trình rõ ràng."
+          "- Tích hợp AI (Khung 3439) - 3.D1.1: HS nhận biết AI/robot có thể hỗ trợ con người trong một số nghề và cần được con người hướng dẫn, huấn luyện bằng dữ liệu, quy trình rõ ràng.",
+          "- Tích hợp NLS 5.2.CB1a: HS biết ghi lại kế hoạch rèn luyện bằng bảng hoặc sơ đồ đơn giản, theo dõi việc đã làm và điều chỉnh khi cần."
         ],
         "dodung": [
           "- Giấy màu, giấy nháp, bút màu, keo dán; giấy A4 hoặc phiếu lập kế hoạch.",
@@ -13442,10 +13531,8 @@
           "- Máy tính/màn hình trình chiếu nếu GV minh họa công cụ AI hoặc video robot hỗ trợ nghề nghiệp."
         ],
         "activities": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP"
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -13538,10 +13625,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NGƯỜI LAO ĐỘNG TƯƠNG LAI"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – TẤM GƯƠNG NGHỀ NGHIỆP",
+        "lessonTitle": "BÀI 33: NGƯỜI LAO ĐỘNG TƯƠNG LAI – TẤM GƯƠNG NGHỀ NGHIỆP - TIẾT 3: SINH HOẠT LỚP – TẤM GƯƠNG NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13550,6 +13637,7 @@
           "- HS biết tự đánh giá việc rèn luyện, nêu khó khăn và cách khắc phục.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết chia sẻ, thuyết trình, lắng nghe và góp ý cho bạn.",
+          "- Tự chủ và tự học: biết tự nhìn lại việc đã làm, ghi nhớ kết quả rèn luyện và tiếp tục điều chỉnh kế hoạch.",
           "- Giải quyết vấn đề và sáng tạo: biết xử lí khó khăn khi thực hiện kế hoạch và trình bày thông tin bằng sơ đồ.",
           "3. Phẩm chất",
           "- Chăm chỉ: cố gắng thực hiện kế hoạch rèn luyện.",
@@ -13563,8 +13651,9 @@
           "- Bảng tổng kết tuần 33, phương hướng tuần 34.",
           "- Hình SGK về thuyết trình tấm gương nghề nghiệp."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -13663,7 +13752,7 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – TẤM GƯƠNG NGHỀ NGHIỆP"
+        "dieuchinh": []
       }
     ]
   },
@@ -13672,7 +13761,7 @@
     "sourceFile": "HĐTN TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – KỈ NIỆM NGÀY SINH BÁC HỒ",
+        "lessonTitle": "BÀI 34: AN TOÀN LÀ BẠN – NGUYÊN TẮC ĐẢM BẢO AN TOÀN TRONG LAO ĐỘNG - TIẾT 1: SINH HOẠT DƯỚI CỜ – KỈ NIỆM NGÀY SINH BÁC HỒ",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13693,8 +13782,9 @@
           "- Tiết mục văn nghệ chủ đề “Bác Hồ với thiếu nhi”; nội dung báo cáo kết quả rèn luyện, học tập, lao động chào mừng sinh nhật Bác.",
           "- Hình SGK minh họa hoạt động kỉ niệm sinh nhật Bác Hồ."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -13760,10 +13850,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – KỈ NIỆM NGÀY SINH BÁC HỒ"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – AN TOÀN LÀ BẠN",
+        "lessonTitle": "BÀI 34: AN TOÀN LÀ BẠN – NGUYÊN TẮC ĐẢM BẢO AN TOÀN TRONG LAO ĐỘNG - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – AN TOÀN LÀ BẠN",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13787,8 +13877,9 @@
           "- Video clip/tranh ảnh về cách sử dụng dụng cụ lao động; đồ bảo hộ lao động như mũ, găng tay, khẩu trang, kính, ủng hoặc giày dép phù hợp.",
           "- Bộ dụng cụ làm vệ sinh lớp học; hình SGK về dụng cụ lao động và các bước bảo đảm an toàn."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -13901,10 +13992,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – AN TOÀN LÀ BẠN"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – NGUYÊN TẮC ĐẢM BẢO AN TOÀN TRONG LAO ĐỘNG",
+        "lessonTitle": "BÀI 34: AN TOÀN LÀ BẠN – NGUYÊN TẮC ĐẢM BẢO AN TOÀN TRONG LAO ĐỘNG - TIẾT 3: SINH HOẠT LỚP – NGUYÊN TẮC ĐẢM BẢO AN TOÀN TRONG LAO ĐỘNG",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13914,6 +14005,7 @@
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết trao đổi trong nhóm, chia sẻ cẩm nang an toàn và nhận xét hoạt động lao động của bạn.",
           "- Tự chủ và tự học: biết tự kiểm tra đồ dùng, trang phục, vị trí lao động trước khi làm việc.",
+          "- Giải quyết vấn đề và sáng tạo: biết phát hiện hành vi không an toàn, nhắc nhở bạn và điều chỉnh kịp thời.",
           "3. Phẩm chất",
           "- Trách nhiệm: nghiêm túc thực hiện quy tắc an toàn, không đùa nghịch trong lao động.",
           "- Chăm chỉ: tích cực tham gia lao động trong lớp/trường theo nhiệm vụ được phân công.",
@@ -13926,8 +14018,9 @@
           "- Còi, thẻ đỏ; dụng cụ lao động phù hợp cho thực hành như chổi, khăn lau, xô nước, cây lau nhà.",
           "- Hình SGK về nguyên tắc an toàn trong lao động, hành vi không an toàn và hình tự đánh giá sau chủ đề."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -14053,7 +14146,7 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – NGUYÊN TẮC ĐẢM BẢO AN TOÀN TRONG LAO ĐỘNG"
+        "dieuchinh": []
       }
     ]
   },
@@ -14062,7 +14155,7 @@
     "sourceFile": "HĐTN TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1: SINH HOẠT DƯỚI CỜ – LỄ TỔNG KẾT NĂM HỌC",
+        "lessonTitle": "BÀI 35: HỒ SƠ TRẢI NGHIỆM – BUỔI LIÊN HOAN CUỐI NĂM - TIẾT 1: SINH HOẠT DƯỚI CỜ – LỄ TỔNG KẾT NĂM HỌC",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -14083,8 +14176,9 @@
           "- Tiết mục văn nghệ cuối năm; giấy khen, phần thưởng, danh sách tuyên dương.",
           "- Hình SGK về lễ tổng kết năm học."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -14150,10 +14244,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 1: SINH HOẠT DƯỚI CỜ – LỄ TỔNG KẾT NĂM HỌC"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – HỒ SƠ TRẢI NGHIỆM",
+        "lessonTitle": "BÀI 35: HỒ SƠ TRẢI NGHIỆM – BUỔI LIÊN HOAN CUỐI NĂM - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – HỒ SƠ TRẢI NGHIỆM",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -14177,8 +14271,9 @@
           "- Sợi len nhiều màu; giấy A4 đủ cho mỗi HS một tờ; giấy màu, kéo, keo dán và bút vẽ.",
           "- Hình SGK về hồ sơ trải nghiệm, chia sẻ cảm xúc và đánh giá của người thân."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -14267,10 +14362,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – HỒ SƠ TRẢI NGHIỆM"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 3: SINH HOẠT LỚP – BUỔI LIÊN HOAN CUỐI NĂM",
+        "lessonTitle": "BÀI 35: HỒ SƠ TRẢI NGHIỆM – BUỔI LIÊN HOAN CUỐI NĂM - TIẾT 3: SINH HOẠT LỚP – BUỔI LIÊN HOAN CUỐI NĂM",
         "topic": "CHỦ ĐỀ 9: TÌM HIỂU THẾ GIỚI NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -14279,6 +14374,7 @@
           "- HS tạo được cảm xúc gắn bó với tập thể trước khi về nghỉ hè và biết lập kế hoạch trải nghiệm mùa hè.",
           "2. Năng lực chung",
           "- Giao tiếp và hợp tác: biết trao đổi, phân công nhiệm vụ, hỗ trợ bạn trong hoạt động nhóm.",
+          "- Tự chủ và tự học: biết nhìn lại kết quả hoạt động trải nghiệm, lắng nghe đánh giá từ gia đình và tự điều chỉnh.",
           "- Giải quyết vấn đề và sáng tạo: biết lựa chọn việc làm phù hợp, dùng dụng cụ an toàn và hoàn thành sản phẩm liên hoan.",
           "3. Phẩm chất",
           "- Trách nhiệm: thực hiện nhiệm vụ nhóm, giữ vệ sinh, bảo đảm an toàn khi dùng kéo, dao, ly, đĩa hoặc vật dụng trang trí.",
@@ -14293,8 +14389,9 @@
           "- Giấy gói quà, ruy băng, hoa, khăn trải bàn, đĩa, ly, bao tay, trái cây, nước cam/nước chanh tùy điều kiện thực tế.",
           "- Hình SGK về buổi liên hoan cuối năm và kế hoạch trải nghiệm mùa hè."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -14391,7 +14488,7 @@
             ]
           ]
         ],
-        "title": "TIẾT 3: SINH HOẠT LỚP – BUỔI LIÊN HOAN CUỐI NĂM"
+        "dieuchinh": []
       }
     ]
   }

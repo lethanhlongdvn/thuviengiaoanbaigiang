@@ -39,7 +39,6 @@
           "- Học sinh: SGK, vở ghi, bút màu, phiếu học tập; thiết bị học tập nếu được phân công và được GV cho phép sử dụng."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -206,7 +205,7 @@
             ]
           ]
         ],
-        "title": "BÀI 1: VỊ TRÍ ĐỊA LÍ, LÃNH THỔ, ĐƠN VỊ HÀNH CHÍNH, QUỐC KÌ, QUỐC HUY, QUỐC CA (TIẾT 1)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 1: VỊ TRÍ ĐỊA LÍ, LÃNH THỔ, ĐƠN VỊ HÀNH CHÍNH, QUỐC KÌ, QUỐC HUY, QUỐC CA (TIẾT 2)",
@@ -234,7 +233,6 @@
           "- Học sinh: SGK, vở ghi, bút màu, thông tin sưu tầm về Quốc kì, Quốc huy, Quốc ca theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -441,7 +439,7 @@
             ]
           ]
         ],
-        "title": "BÀI 1: VỊ TRÍ ĐỊA LÍ, LÃNH THỔ, ĐƠN VỊ HÀNH CHÍNH, QUỐC KÌ, QUỐC HUY, QUỐC CA (TIẾT 2)"
+        "dieuchinh": []
       }
     ]
   },
@@ -465,14 +463,15 @@
           "- Bồi dưỡng phẩm chất yêu thiên nhiên, có trách nhiệm với môi trường sống và tài nguyên thiên nhiên.",
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB2b: HS sử dụng Google Search/Google Maps/Google Earth để tìm hình ảnh, bản đồ địa hình, khoáng sản Việt Nam; biết dùng từ khóa phù hợp, chọn thông tin cần thiết và đối chiếu với SHS.",
-          "- Tích hợp BVMT: HS nhận biết tài nguyên thiên nhiên là tài sản quý, cần khai thác hợp lí và bảo vệ môi trường sống."
+          "- Tích hợp BVMT: HS nhận biết tài nguyên thiên nhiên là tài sản quý, cần khai thác hợp lí và bảo vệ môi trường sống.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Sử dụng nước sông hợp lí, có ý thức giữ gìn nguồn nước mặt không bị ô nhiễm bởi rác thải và chất độc hại.",
+          "- Giáo dục địa phương (Chủ đề 1): Đặc điểm mạng lưới sông ngòi tỉnh Trà Vinh (hai nhánh sông lớn Cổ Chiên và sông Hậu mang lại nguồn nước ngọt, phù sa và thủy sản dồi dào)."
         ],
         "dodung": [
           "- Giáo viên: SGK/SHS Lịch sử và Địa lí 5, SGV Lịch sử và Địa lí 5, bản đồ/lược đồ tự nhiên Việt Nam, lược đồ khí hậu Việt Nam, lược đồ sông, hồ Việt Nam nếu có; hình ảnh, video thể hiện đặc điểm thiên nhiên và ảnh hưởng của môi trường thiên nhiên đối với sản xuất và đời sống; hoạt động của con người trong việc bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.",
           "- Học sinh: SGK/SHS, vở ghi, bút, thước, bút màu; thiết bị học tập nếu được giáo viên phân công sử dụng trong hoạt động tích hợp."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -480,15 +479,15 @@
               "Hoạt động của học sinh"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú, khơi gợi hiểu biết ban đầu của HS về thiên nhiên Việt Nam.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú, khơi gợi hiểu biết ban đầu của HS về thiên nhiên Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS chỉ ra các từ ngữ thể hiện cảnh thiên nhiên của Việt Nam trong những câu hát sau:",
               "- HS lắng nghe nhiệm vụ, đọc thầm các câu hát."
             ],
             [
-              "“Bạn ơi hãy đến quê hương chúng tôiNgắm mặt biển xanh xa tít chân trờiNghe sóng vỗ dạt dào biển cảVút phi lao gió thổi trên bờ”.Chia sẻ thêm những điều em biết về thiên nhiên Việt Nam.",
-              "- HS trao đổi theo cặp đôi, chỉ ra các từ ngữ thể hiện cảnh thiên nhiên Việt Nam: mặt biển xanh, sóng vỗ, biển cả, phi lao, gió thổi.- HS chia sẻ thêm hiểu biết của bản thân về thiên nhiên Việt Nam."
+              "“Bạn ơi hãy đến quê hương chúng tôi\nNgắm mặt biển xanh xa tít chân trời\nNghe sóng vỗ dạt dào biển cả\nVút phi lao gió thổi trên bờ”.\n\nChia sẻ thêm những điều em biết về thiên nhiên Việt Nam.",
+              "- HS trao đổi theo cặp đôi, chỉ ra các từ ngữ thể hiện cảnh thiên nhiên Việt Nam: mặt biển xanh, sóng vỗ, biển cả, phi lao, gió thổi.\n- HS chia sẻ thêm hiểu biết của bản thân về thiên nhiên Việt Nam."
             ],
             [
               "- GV gọi đại diện 2 - 3 HS lên trình bày, các HS khác bổ sung (nếu có).",
@@ -499,7 +498,7 @@
               "- HS lắng nghe GV nhận xét và ghi tên bài học."
             ],
             [
-              "2. Khám phá: Tìm hiểu địa hình và khoáng sản (25 phút)Mục tiêu: Trình bày được đặc điểm chính của địa hình Việt Nam; kể tên, xác định được một số khoáng sản chính; nêu vai trò của khoáng sản đối với kinh tế.*Cách tiến hành:"
+              "2. Khám phá: Tìm hiểu địa hình và khoáng sản (25 phút)\nMục tiêu: Trình bày được đặc điểm chính của địa hình Việt Nam; kể tên, xác định được một số khoáng sản chính; nêu vai trò của khoáng sản đối với kinh tế.\n*Cách tiến hành:"
             ],
             [
               "2.1. Địa hình"
@@ -518,7 +517,7 @@
             ],
             [
               "• Trình bày đặc điểm chính của địa hình nước ta.",
-              "• HS trình bày: trên phần đất liền của nước ta, đồi núi chiếm  diện tích lãnh thổ, chủ yếu là đồi núi thấp; đồng bằng chiếm  diện tích, địa hình thấp và tương đối bằng phẳng."
+              "• HS trình bày: trên phần đất liền của nước ta, đồi núi chiếm 34 diện tích lãnh thổ, chủ yếu là đồi núi thấp; đồng bằng chiếm 14 diện tích, địa hình thấp và tương đối bằng phẳng."
             ],
             [
               "• Nêu thuận lợi và khó khăn của địa hình đối với hoạt động sản xuất và đời sống con người.",
@@ -545,12 +544,12 @@
               "+ Địa hình:"
             ],
             [
-              "• Khu vực đồi núi: Chiếm  diện tích; chủ yếu là đồi núi thấp, các dãy núi có hai hướng chính. Phát triển một số ngành kinh tế. Địa hình hiểm trở nên giao thông khó khăn, dân cư thưa thớt.",
-              "• Đồi núi chiếm  diện tích; chủ yếu là đồi núi thấp, có thuận lợi và khó khăn đối với sản xuất, đời sống."
+              "• Khu vực đồi núi: Chiếm 34 diện tích; chủ yếu là đồi núi thấp, các dãy núi có hai hướng chính. Phát triển một số ngành kinh tế. Địa hình hiểm trở nên giao thông khó khăn, dân cư thưa thớt.",
+              "• Đồi núi chiếm 34 diện tích; chủ yếu là đồi núi thấp, có thuận lợi và khó khăn đối với sản xuất, đời sống."
             ],
             [
-              "• Khu vực đồng bằng: Chiếm  diện tích; địa hình thấp và tương đối bằng phẳng. Phát triển nhiều ngành kinh tế; dân cư đông đúc. Chịu ảnh hưởng của một số thiên tai như bão, ngập lụt, xâm nhập mặn,...",
-              "• Đồng bằng chiếm  diện tích; địa hình thấp, tương đối bằng phẳng, thuận lợi phát triển nhiều ngành kinh tế."
+              "• Khu vực đồng bằng: Chiếm 14 diện tích; địa hình thấp và tương đối bằng phẳng. Phát triển nhiều ngành kinh tế; dân cư đông đúc. Chịu ảnh hưởng của một số thiên tai như bão, ngập lụt, xâm nhập mặn,...",
+              "• Đồng bằng chiếm 14 diện tích; địa hình thấp, tương đối bằng phẳng, thuận lợi phát triển nhiều ngành kinh tế."
             ],
             [
               "Câu hỏi dẫn tích hợp: Khi cần tìm thêm hình ảnh hoặc bản đồ địa hình Việt Nam ngoài SHS, em sẽ tìm bằng công cụ nào và cần lưu ý điều gì?",
@@ -558,7 +557,7 @@
             ],
             [
               "Tích hợp NLS 1.1.CB2b: GV giới thiệu công cụ Google Search/Google Maps/Google Earth. GV hướng dẫn HS nhập từ khóa ngắn gọn như “bản đồ địa hình Việt Nam”, “đồi núi Việt Nam”, “đồng bằng sông Cửu Long”; quan sát kết quả, chọn nguồn đáng tin cậy, không tải hoặc chia sẻ hình ảnh khi chưa được phép; sau đó đối chiếu với hình 1 trong SHS trước khi trình bày.",
-              "- HS nêu: có thể dùng Google Search, Google Maps hoặc Google Earth.- HS nhập từ khóa theo gợi ý, quan sát kết quả tìm kiếm.- HS đối chiếu thông tin tìm được với hình 1 trong SHS, không sử dụng thông tin lạ khi chưa kiểm chứng."
+              "- HS nêu: có thể dùng Google Search, Google Maps hoặc Google Earth.\n- HS nhập từ khóa theo gợi ý, quan sát kết quả tìm kiếm.\n- HS đối chiếu thông tin tìm được với hình 1 trong SHS, không sử dụng thông tin lạ khi chưa kiểm chứng."
             ],
             [
               "2.2. Khoáng sản"
@@ -617,10 +616,10 @@
             ],
             [
               "Tích hợp BVMT: GV gợi ý HS liên hệ: khoáng sản là tài nguyên thiên nhiên có hạn, nếu khai thác không hợp lí có thể làm ô nhiễm đất, nước, không khí, phá vỡ cảnh quan và ảnh hưởng đời sống con người. GV hướng dẫn HS nêu việc làm phù hợp: khai thác đúng quy hoạch, sử dụng tiết kiệm, phục hồi môi trường sau khai thác, không lãng phí tài nguyên.",
-              "- HS nêu: cần bảo vệ môi trường vì khai thác khoáng sản có thể gây ô nhiễm và làm cạn kiệt tài nguyên.- HS nêu việc làm: sử dụng tiết kiệm tài nguyên, không lãng phí, trồng cây phục hồi môi trường, tuyên truyền bảo vệ tài nguyên."
+              "- HS nêu: cần bảo vệ môi trường vì khai thác khoáng sản có thể gây ô nhiễm và làm cạn kiệt tài nguyên.\n- HS nêu việc làm: sử dụng tiết kiệm tài nguyên, không lãng phí, trồng cây phục hồi môi trường, tuyên truyền bảo vệ tài nguyên."
             ],
             [
-              "3. Luyện tập (5 phút)Mục tiêu: Củng cố kiến thức về địa hình và khoáng sản Việt Nam.*Cách tiến hành:"
+              "3. Luyện tập (5 phút)\nMục tiêu: Củng cố kiến thức về địa hình và khoáng sản Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân, hoàn thành nhanh 2 câu hỏi:",
@@ -628,7 +627,7 @@
             ],
             [
               "+ Trình bày đặc điểm chính của địa hình nước ta.",
-              "+ HS trả lời: địa hình nước ta có đồi núi chiếm  diện tích, chủ yếu là đồi núi thấp; đồng bằng chiếm  diện tích, thấp và tương đối bằng phẳng."
+              "+ HS trả lời: địa hình nước ta có đồi núi chiếm 34 diện tích, chủ yếu là đồi núi thấp; đồng bằng chiếm 14 diện tích, thấp và tương đối bằng phẳng."
             ],
             [
               "+ Kể tên một số khoáng sản chính và nêu vai trò của khoáng sản đối với phát triển kinh tế.",
@@ -643,11 +642,15 @@
               "- HS lắng nghe GV nhận xét và chỉnh sửa nếu cần."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: Liên hệ kiến thức với thực tế địa phương và chuẩn bị cho tiết học sau.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: Liên hệ kiến thức với thực tế địa phương và chuẩn bị cho tiết học sau.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân hoặc nhóm, hoàn thành nhiệm vụ: Tìm hiểu và chia sẻ với bạn về một đặc điểm địa hình hoặc một loại khoáng sản em biết ở Việt Nam.",
               "- HS ghi nhiệm vụ vận dụng và chia sẻ nhanh: địa phương/Việt Nam có đồi núi, đồng bằng, biển; có than đá, dầu mỏ, khí tự nhiên,..."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 1) & Mizuiku: GV hướng dẫn HS liên hệ đặc điểm sông ngòi đất nước với thực tế tỉnh Trà Vinh: Trà Vinh nằm ở hạ lưu sông Cửu Long, được kẹp giữa hai nhánh sông lớn là sông Cổ Chiên và sông Hậu. Mạng lưới sông ngòi, kênh rạch chằng chịt này là mạch sống nuôi dưỡng ruộng đồng, vườn cây ăn trái và nguồn thủy sản của tỉnh. Em cần làm gì để bảo vệ nguồn nước sông quê hương?",
+              "- HS quan sát lược đồ sông ngòi tỉnh Trà Vinh; thảo luận và nêu cam kết: không vứt rác, xác động vật, bao bì thuốc trừ sâu xuống sông ngòi, kênh rạch; tuyên truyền người thân cùng giữ sạch dòng nước quê hương."
             ],
             [
               "- GV hướng dẫn HS chuẩn bị tiết sau: đọc trước mục Khí hậu và Sông, hồ trong SHS; quan sát bảng nhiệt độ trung bình của Hà Nội và Thành phố Hồ Chí Minh, các hình 3, 4, 5, 6.",
@@ -655,7 +658,7 @@
             ]
           ]
         ],
-        "title": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 1)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 2)",
@@ -680,7 +683,6 @@
           "- Học sinh: SGK/SHS, vở ghi, bút, thước, bút màu; thiết bị học tập nếu được giáo viên phân công sử dụng trong hoạt động tích hợp."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -688,7 +690,7 @@
               "Hoạt động của học sinh"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Nhắc lại kiến thức tiết trước và tạo hứng thú cho HS tìm hiểu khí hậu, sông hồ Việt Nam.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Nhắc lại kiến thức tiết trước và tạo hứng thú cho HS tìm hiểu khí hậu, sông hồ Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức cho HS nhắc lại kiến thức đã học ở tiết trước:",
@@ -696,7 +698,7 @@
             ],
             [
               "+ Trình bày đặc điểm chính của địa hình nước ta.",
-              "+ Địa hình nước ta có đồi núi chiếm  diện tích; đồng bằng chiếm  diện tích, thấp và tương đối bằng phẳng."
+              "+ Địa hình nước ta có đồi núi chiếm 34 diện tích; đồng bằng chiếm 14 diện tích, thấp và tương đối bằng phẳng."
             ],
             [
               "+ Kể tên một số khoáng sản chính ở nước ta.",
@@ -707,7 +709,7 @@
               "- HS lắng nghe, ghi tên nội dung tiết học."
             ],
             [
-              "2. Khám phá: Tìm hiểu về khí hậu và sông, hồ (25 phút)Mục tiêu: Trình bày được đặc điểm chính của khí hậu, sông hồ và vai trò của sông hồ đối với đời sống, sản xuất.*Cách tiến hành:"
+              "2. Khám phá: Tìm hiểu về khí hậu và sông, hồ (25 phút)\nMục tiêu: Trình bày được đặc điểm chính của khí hậu, sông hồ và vai trò của sông hồ đối với đời sống, sản xuất.\n*Cách tiến hành:"
             ],
             [
               "2.1. Khí hậu"
@@ -794,7 +796,7 @@
             ],
             [
               "Tích hợp AI 5.A2.2: GV giới thiệu công cụ dự báo thời tiết có ứng dụng AI như ứng dụng Thời tiết, website Trung tâm Dự báo khí tượng thủy văn quốc gia, bản tin thời tiết trên tivi/Internet. GV hướng dẫn HS xem biểu tượng thời tiết, lượng mưa, cảnh báo bão; không chia sẻ tin chưa kiểm chứng; so sánh thông tin với nguồn chính thống; nghe theo hướng dẫn của người lớn khi có thiên tai.",
-              "- HS nêu: có thể xem dự báo thời tiết trên ứng dụng hoặc nguồn chính thống.- HS biết không chia sẻ thông tin chưa kiểm chứng.- HS biết theo dõi cảnh báo bão, mưa lớn, lũ lụt và nghe hướng dẫn của người lớn."
+              "- HS nêu: có thể xem dự báo thời tiết trên ứng dụng hoặc nguồn chính thống.\n- HS biết không chia sẻ thông tin chưa kiểm chứng.\n- HS biết theo dõi cảnh báo bão, mưa lớn, lũ lụt và nghe hướng dẫn của người lớn."
             ],
             [
               "2.2. Sông, hồ"
@@ -865,10 +867,10 @@
             ],
             [
               "Tích hợp tiết kiệm và bảo vệ nguồn nước: GV hướng dẫn HS liên hệ việc làm cụ thể: khóa vòi nước sau khi sử dụng; dùng lượng nước vừa đủ; không xả rác xuống kênh rạch, ao hồ; không đổ dầu mỡ, hóa chất xuống cống; nhắc người thân giữ gìn nguồn nước sạch. GV nhấn mạnh bảo vệ sông, hồ cũng là bảo vệ đời sống và sản xuất.",
-              "- HS nêu: tiết kiệm nước, không xả rác xuống sông hồ, không đổ chất thải xuống cống, nhắc người thân bảo vệ nguồn nước.- HS cam kết thực hiện một việc làm tiết kiệm và bảo vệ nguồn nước."
+              "- HS nêu: tiết kiệm nước, không xả rác xuống sông hồ, không đổ chất thải xuống cống, nhắc người thân bảo vệ nguồn nước.\n- HS cam kết thực hiện một việc làm tiết kiệm và bảo vệ nguồn nước."
             ],
             [
-              "3. Luyện tập (5 phút)Mục tiêu: Củng cố kiến thức về khí hậu và sông, hồ ở Việt Nam.*Cách tiến hành:"
+              "3. Luyện tập (5 phút)\nMục tiêu: Củng cố kiến thức về khí hậu và sông, hồ ở Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân thực hiện nhiệm vụ:",
@@ -891,7 +893,7 @@
               "- HS lắng nghe GV nhận xét và chỉnh sửa nếu cần."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: Vận dụng kiến thức để liên hệ thực tế địa phương.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: Vận dụng kiến thức để liên hệ thực tế địa phương.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân hoặc nhóm, hoàn thành nhiệm vụ: Tìm hiểu và chia sẻ với bạn về một con sông, hồ hoặc hiện tượng thời tiết ở địa phương em.",
@@ -903,7 +905,7 @@
             ]
           ]
         ],
-        "title": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 2)"
+        "dieuchinh": []
       }
     ]
   },
@@ -933,7 +935,6 @@
           "- Học sinh: SGK/SHS, vở ghi, bút, thước, bút màu; thiết bị học tập nếu được giáo viên phân công sử dụng trong hoạt động tích hợp."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -941,7 +942,7 @@
               "Hoạt động của học sinh"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Nhắc lại một số nội dung đã học tiết trước, tạo hứng thú cho HS tìm hiểu đất và rừng Việt Nam.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Nhắc lại một số nội dung đã học tiết trước, tạo hứng thú cho HS tìm hiểu đất và rừng Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức cho HS nhắc lại kiến thức đã học ở tiết trước:",
@@ -960,7 +961,7 @@
               "- HS lắng nghe, ghi tên nội dung tiết học."
             ],
             [
-              "2. Khám phá: Tìm hiểu về đất và rừng (25 phút)Mục tiêu: Trình bày được đặc điểm của đất, rừng và nêu vai trò của đất, rừng đối với sản xuất, đời sống.*Cách tiến hành:"
+              "2. Khám phá: Tìm hiểu về đất và rừng (25 phút)\nMục tiêu: Trình bày được đặc điểm của đất, rừng và nêu vai trò của đất, rừng đối với sản xuất, đời sống.\n*Cách tiến hành:"
             ],
             [
               "2.1. Đất"
@@ -1007,7 +1008,7 @@
             ],
             [
               "Tích hợp BVMT: GV hướng dẫn HS liên hệ: đất bị ô nhiễm, bạc màu, xói mòn sẽ làm cây trồng kém phát triển, giảm năng suất, ảnh hưởng nguồn nước và sức khỏe con người. GV gợi ý việc làm bảo vệ đất: không vứt rác bừa bãi, hạn chế hóa chất độc hại, trồng cây che phủ đất, giữ vệ sinh môi trường, sử dụng đất hợp lí.",
-              "- HS nêu: đất bị ô nhiễm hoặc xói mòn sẽ làm cây trồng kém phát triển, giảm năng suất, ảnh hưởng đời sống.- HS nêu việc làm: không xả rác, trồng cây, bảo vệ đất, sử dụng đất hợp lí."
+              "- HS nêu: đất bị ô nhiễm hoặc xói mòn sẽ làm cây trồng kém phát triển, giảm năng suất, ảnh hưởng đời sống.\n- HS nêu việc làm: không xả rác, trồng cây, bảo vệ đất, sử dụng đất hợp lí."
             ],
             [
               "2.2. Rừng"
@@ -1041,7 +1042,7 @@
               "+ HS nêu vai trò của rừng đối với sản xuất, đời sống và môi trường."
             ],
             [
-              "3. Luyện tập (5 phút)Mục tiêu: Củng cố kiến thức về đất và rừng ở Việt Nam.*Cách tiến hành:"
+              "3. Luyện tập (5 phút)\nMục tiêu: Củng cố kiến thức về đất và rừng ở Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân thực hiện nhiệm vụ:",
@@ -1064,7 +1065,7 @@
               "- HS lắng nghe GV nhận xét và chỉnh sửa nếu cần."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: Liên hệ kiến thức với việc bảo vệ đất và rừng ở địa phương.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: Liên hệ kiến thức với việc bảo vệ đất và rừng ở địa phương.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân hoặc nhóm, hoàn thành nhiệm vụ: Tìm hiểu và chia sẻ với bạn về một việc làm bảo vệ đất hoặc bảo vệ rừng mà em có thể thực hiện.",
@@ -1076,7 +1077,7 @@
             ]
           ]
         ],
-        "title": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 3)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 4)",
@@ -1100,7 +1101,6 @@
           "- Học sinh: SGK/SHS, vở ghi, bút, thước, bút màu; thiết bị học tập nếu được giáo viên phân công sử dụng trong hoạt động tích hợp."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -1108,7 +1108,7 @@
               "Hoạt động của học sinh"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Nhắc lại một số nội dung đã học tiết trước, tạo hứng thú cho HS tìm hiểu biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Nhắc lại một số nội dung đã học tiết trước, tạo hứng thú cho HS tìm hiểu biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức cho HS nhắc lại kiến thức đã học ở tiết trước:",
@@ -1127,7 +1127,7 @@
               "- HS lắng nghe, ghi tên nội dung tiết học."
             ],
             [
-              "2. Khám phá: Tìm hiểu một số biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai (23 phút)Mục tiêu: Đưa ra được một số biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.*Cách tiến hành:"
+              "2. Khám phá: Tìm hiểu một số biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai (23 phút)\nMục tiêu: Đưa ra được một số biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS đọc thông tin, quan sát hình 11 và dựa vào hiểu biết của bản thân, nêu một số biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.",
@@ -1199,10 +1199,10 @@
             ],
             [
               "Tích hợp tiết kiệm và bảo vệ nguồn nước: GV hướng dẫn HS nêu việc làm cụ thể: sử dụng tiết kiệm nước sạch, khóa vòi nước sau khi dùng, không xả rác xuống kênh rạch, không đổ chất thải xuống ao hồ, nhắc người thân dùng nước hợp lí. GV nhấn mạnh bảo vệ nguồn nước là một phần của bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.",
-              "- HS nêu: dùng nước tiết kiệm, khóa vòi nước, không xả rác xuống kênh rạch, ao hồ, nhắc người thân bảo vệ nguồn nước.- HS chia sẻ một việc em sẽ thực hiện trong tuần."
+              "- HS nêu: dùng nước tiết kiệm, khóa vòi nước, không xả rác xuống kênh rạch, ao hồ, nhắc người thân bảo vệ nguồn nước.\n- HS chia sẻ một việc em sẽ thực hiện trong tuần."
             ],
             [
-              "3. Luyện tập (7 phút)Mục tiêu: Hoàn thành bảng thông tin về vai trò của thiên nhiên Việt Nam đối với đời sống và hoạt động sản xuất của con người.*Cách tiến hành:"
+              "3. Luyện tập (7 phút)\nMục tiêu: Hoàn thành bảng thông tin về vai trò của thiên nhiên Việt Nam đối với đời sống và hoạt động sản xuất của con người.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân thực hiện nhiệm vụ phần Luyện tập: Hoàn thành bảng thông tin về vai trò của thiên nhiên Việt Nam đối với đời sống và hoạt động sản xuất của con người theo gợi ý dưới đây.",
@@ -1265,7 +1265,7 @@
               "• HS ghi vai trò của rừng và hoàn thiện bảng trong vở."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (5 phút)Mục tiêu: Vận dụng kiến thức đã học để tìm hiểu, chia sẻ về một thành phần thiên nhiên tại địa phương.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức đã học để tìm hiểu, chia sẻ về một thành phần thiên nhiên tại địa phương.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân hoặc nhóm, hoàn thành nhiệm vụ ở phần Vận dụng: Tìm hiểu và chia sẻ với bạn về đặc điểm của một thành phần thiên nhiên tại địa phương nơi em đang sống.",
@@ -1277,7 +1277,7 @@
             ]
           ]
         ],
-        "title": "BÀI 2: THIÊN NHIÊN VIỆT NAM (TIẾT 4)"
+        "dieuchinh": []
       }
     ]
   },
@@ -1286,7 +1286,7 @@
     "sourceFile": "LSĐL TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 1)",
+        "lessonTitle": "TUẦN: 4 - BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1. ĐẤT NƯỚC VÀ CON NGƯỜI VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1302,17 +1302,16 @@
           "- Trách nhiệm: có ý thức tìm hiểu, tuyên truyền và bảo vệ chủ quyền biển, đảo.",
           "4. Tích hợp",
           "- Tích hợp NLS 2.2.CB2a: HS chia sẻ cảm nghĩ, hình ảnh hoặc thông điệp về biển đảo Việt Nam trên Padlet theo hướng dẫn của GV.",
-          "- Tích hợp QPAN: HS hiểu vị trí, vai trò của biển đảo trong bảo vệ chủ quyền quốc gia."
+          "- Tích hợp QPAN: HS hiểu vị trí, vai trò của biển đảo trong bảo vệ chủ quyền quốc gia.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku): Giữ sạch bờ biển Ba Động, không xả rác thải nhựa xuống biển làm ô nhiễm môi trường nước biển và hủy hoại sinh vật biển.",
+          "- Giáo dục địa phương (Chủ đề 3 & 8): Tiềm năng kinh tế biển của tỉnh Trà Vinh (bờ biển dài 65 km, bãi biển Ba Động, luồng tàu cho tàu biển trọng tải lớn vào sông Hậu qua cửa biển Định An)."
         ],
         "dodung": [
           "- GV: Lược đồ hoặc bản đồ Việt Nam trong khu vực Đông Nam Á; tranh ảnh về vịnh Hạ Long, đảo Lý Sơn, đảo Phú Quốc, quần đảo Hoàng Sa, quần đảo Trường Sa; máy tính, máy chiếu; bảng phụ hoặc phiếu học tập; Padlet.",
           "- HS: SGK, vở, bút; tranh ảnh hoặc thông tin sưu tầm về biển, đảo Việt Nam."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................................",
-          "................................................................................................................................................................................",
-          "TUẦN: 4"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1321,7 +1320,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú học tập; giúp HS liên hệ kiến thức thực tế về biển, đảo Việt Nam.\nCách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; giúp HS liên hệ kiến thức thực tế về biển, đảo Việt Nam.\nCách tiến hành:"
             ],
             [
               "- GV cho HS quan sát hình 1 trong SGK và hỏi: Hình 1 là đảo thuộc quần đảo Trường Sa của nước ta. Hãy kể tên một số đảo, quần đảo khác của Việt Nam mà em biết.",
@@ -1339,7 +1338,7 @@
               "2. Khám phá (20 phút)"
             ],
             [
-              "2.1. Tìm hiểu vị trí địa lí của vùng biển, một số đảo, quần đảo lớn của Việt NamMục tiêu: HS xác định được vị trí địa lí của vùng biển, một số đảo, quần đảo lớn của Việt Nam trên bản đồ hoặc lược đồ.\nCách tiến hành:"
+              "2.1. Tìm hiểu vị trí địa lí của vùng biển, một số đảo, quần đảo lớn của Việt Nam\nMục tiêu: HS xác định được vị trí địa lí của vùng biển, một số đảo, quần đảo lớn của Việt Nam trên bản đồ hoặc lược đồ.\nCách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ: Đọc thông tin trong SGK, quan sát hình 2, hình 3, hình 4 và bản đồ Việt Nam, em hãy xác định vị trí địa lí của vùng biển, một số đảo, quần đảo lớn của Việt Nam.",
@@ -1378,7 +1377,7 @@
               "- HS lắng nghe và ghi nhớ kiến thức chính."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: Củng cố kĩ năng xác định vị trí đảo, quần đảo và nêu vai trò của biển, đảo Việt Nam.\nCách tiến hành:"
+              "3. Luyện tập (8 phút)\nMục tiêu: Củng cố kĩ năng xác định vị trí đảo, quần đảo và nêu vai trò của biển, đảo Việt Nam.\nCách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân: Hoàn thành nhanh bảng dưới đây vào vở.",
@@ -1397,11 +1396,15 @@
               "- HS nêu: Em sẽ giới thiệu về vịnh Hạ Long, đảo Lý Sơn, đảo Phú Quốc, Hoàng Sa và Trường Sa của Việt Nam."
             ],
             [
-              "4. Vận dụng (7 phút)Mục tiêu: HS chia sẻ cảm nghĩ, hình ảnh hoặc thông điệp về biển, đảo Việt Nam trên môi trường số theo hướng dẫn.\nCách tiến hành:"
+              "4. Vận dụng (7 phút)\nMục tiêu: HS chia sẻ cảm nghĩ, hình ảnh hoặc thông điệp về biển, đảo Việt Nam trên môi trường số theo hướng dẫn.\nCách tiến hành:"
             ],
             [
               "Mục tiêu tích hợp NLS 2.2.CB2a: HS chia sẻ cảm nghĩ, hình ảnh hoặc thông điệp về biển đảo Việt Nam trên Padlet theo hướng dẫn của GV.\n- GV hướng dẫn HS sử dụng Padlet của lớp: Mỗi nhóm chọn một hình ảnh hoặc viết một thông điệp ngắn về biển, đảo Việt Nam. Khi đăng bài, HS cần ghi tên nhóm, viết lời chia sẻ lịch sự, không đăng thông tin cá nhân, không sử dụng hình ảnh không rõ nguồn gốc và bình luận tích cực vào sản phẩm của nhóm bạn.",
               "HS thực hiện theo nhóm: chọn hình ảnh hoặc viết thông điệp như “Em yêu biển đảo Việt Nam”, “Chung tay bảo vệ biển đảo quê hương”, “Tìm hiểu đúng thông tin về Hoàng Sa, Trường Sa”. HS đăng lên Padlet theo hướng dẫn và bình luận lịch sự."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 3, 8) & Mizuiku: GV kết nối bài học biển đảo với vùng biển Trà Vinh: Tỉnh Trà Vinh có đường bờ biển dài 65 km với bãi biển Ba Động cát mịn thoai thoải, khu kinh tế Định An và luồng hàng hải cho tàu lớn vào sông Hậu. Vùng biển Trà Vinh rất giàu tài nguyên thủy sản và tiềm năng điện gió. Em hãy nêu các hành động nhỏ để bảo vệ môi trường biển quê hương?",
+              "- HS chia sẻ hiểu biết về biển Ba Động - Trà Vinh; nêu cam kết bảo vệ môi trường biển: khi đi tắm biển Ba Động không vứt rác, túi ni-lông bừa bãi trên bãi cát; tích cực tham gia các phong trào làm sạch bờ biển."
             ],
             [
               "- GV nhận xét, tuyên dương các nhóm có thông điệp rõ ràng, tích cực và chốt bài học.",
@@ -1409,10 +1412,13 @@
             ]
           ]
         ],
-        "title": "BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 1)"
+        "dieuchinh": [
+          "................................................................................................................................................................................",
+          "................................................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 2)",
+        "lessonTitle": "TUẦN: 4 - BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1. ĐẤT NƯỚC VÀ CON NGƯỜI VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1434,10 +1440,8 @@
           "- GV: Tranh ảnh, tư liệu về đội Hoàng Sa, bia chủ quyền trên đảo Hoàng Sa, học sinh Trường Tiểu học xã Sinh Tồn, bộ đội hải quân tuần tra; máy tính, máy chiếu; bảng phụ; phiếu học tập; AI Search có định hướng kiểm chứng thông tin.",
           "- HS: SGK, vở, bút; câu chuyện, bài thơ, bài hát hoặc hình ảnh sưu tầm về biển, đảo Việt Nam."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................................",
-          "................................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1446,7 +1450,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Ôn lại vị trí biển, đảo Việt Nam và dẫn dắt vào nội dung bảo vệ chủ quyền biển, đảo.\nCách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Ôn lại vị trí biển, đảo Việt Nam và dẫn dắt vào nội dung bảo vệ chủ quyền biển, đảo.\nCách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi “Ai nhanh hơn”: Kể tên một đảo hoặc quần đảo của Việt Nam, bạn sau không lặp lại đáp án của bạn trước.",
@@ -1464,7 +1468,7 @@
               "2. Khám phá (22 phút)"
             ],
             [
-              "2.1. Tìm hiểu công cuộc bảo vệ chủ quyền biển, đảo trong lịch sửMục tiêu: HS nêu được một số hoạt động bảo vệ chủ quyền biển, đảo thời các chúa Nguyễn, Triều Nguyễn và thời Pháp thuộc.\nCách tiến hành:"
+              "2.1. Tìm hiểu công cuộc bảo vệ chủ quyền biển, đảo trong lịch sử\nMục tiêu: HS nêu được một số hoạt động bảo vệ chủ quyền biển, đảo thời các chúa Nguyễn, Triều Nguyễn và thời Pháp thuộc.\nCách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ nhóm 4: Đọc thông tin trong SGK, quan sát hình 5, hình 6 và tư liệu, hãy trình bày những hoạt động chính trong công cuộc bảo vệ chủ quyền của Việt Nam ở Biển Đông qua các thời kì.",
@@ -1495,7 +1499,7 @@
               "HS nêu cách làm: Em dùng từ khóa rõ ràng, đọc kết quả, đối chiếu với SGK và nguồn chính thống trước khi sử dụng. Em không chia sẻ thông tin chưa kiểm chứng về Hoàng Sa, Trường Sa."
             ],
             [
-              "2.2. Tìm hiểu hoạt động bảo vệ biển, đảo hiện nay và kể chuyện về biển, đảo Việt NamMục tiêu: HS nêu được một số hoạt động hiện nay nhằm bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông; kể được một câu chuyện hoặc bài thơ, bài hát về biển, đảo.\nCách tiến hành:"
+              "2.2. Tìm hiểu hoạt động bảo vệ biển, đảo hiện nay và kể chuyện về biển, đảo Việt Nam\nMục tiêu: HS nêu được một số hoạt động hiện nay nhằm bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông; kể được một câu chuyện hoặc bài thơ, bài hát về biển, đảo.\nCách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ nhóm 6: Đọc thông tin trong SGK, quan sát hình 7, hình 8, hãy nêu một số hoạt động hiện nay của Nhà nước và nhân dân ta trong bảo vệ chủ quyền biển, đảo.",
@@ -1522,7 +1526,7 @@
               "- HS lắng nghe và ghi nhớ kiến thức."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: HS củng cố kiến thức về những hoạt động chính trong công cuộc bảo vệ chủ quyền biển, đảo Việt Nam.\nCách tiến hành:"
+              "3. Luyện tập (8 phút)\nMục tiêu: HS củng cố kiến thức về những hoạt động chính trong công cuộc bảo vệ chủ quyền biển, đảo Việt Nam.\nCách tiến hành:"
             ],
             [
               "- GV yêu cầu HS quan sát yêu cầu luyện tập trong SGK: Hoàn thành bảng về những hoạt động chính trong công cuộc bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông.",
@@ -1541,7 +1545,7 @@
               "- HS giới thiệu: tên bài hát/bài thơ/câu chuyện, nội dung chính và điều em ấn tượng."
             ],
             [
-              "4. Vận dụng (5 phút)Mục tiêu: HS liên hệ trách nhiệm giữ gìn môi trường biển và tuyên truyền bảo vệ biển, đảo.\nCách tiến hành:"
+              "4. Vận dụng (5 phút)\nMục tiêu: HS liên hệ trách nhiệm giữ gìn môi trường biển và tuyên truyền bảo vệ biển, đảo.\nCách tiến hành:"
             ],
             [
               "Mục tiêu tích hợp BVMT: HS có ý thức giữ gìn môi trường biển, không xả rác nhựa ra biển.\n- GV diễn giải tích hợp BVMT: Bảo vệ biển, đảo không chỉ là hiểu đúng chủ quyền mà còn là giữ cho biển sạch, đẹp. Rác thải nhựa như túi ni-lông, chai nhựa, ống hút nếu bị vứt xuống biển sẽ làm ô nhiễm nước biển, gây hại cho sinh vật biển và ảnh hưởng đến đời sống của ngư dân. HS cần bắt đầu từ việc nhỏ: không xả rác khi đi biển, hạn chế dùng đồ nhựa một lần, nhặt rác đúng nơi quy định, nhắc người thân cùng bảo vệ môi trường biển.",
@@ -1553,7 +1557,10 @@
             ]
           ]
         ],
-        "title": "BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 2)"
+        "dieuchinh": [
+          "................................................................................................................................................................................",
+          "................................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1576,14 +1583,17 @@
           "- Nhân ái: tôn trọng sự đa dạng văn hoá, ngôn ngữ, trang phục và phong tục tốt đẹp của các dân tộc.",
           "- Trách nhiệm: có ý thức đoàn kết, giữ gìn bản sắc văn hoá tốt đẹp của các dân tộc Việt Nam.",
           "4. Tích hợp",
-          "Tích hợp NLS 1.3.CB2a: HS sử dụng Google Sheets/Excel để nhập, sắp xếp, so sánh số liệu dân số, phân bố dân cư và một số dân tộc Việt Nam.Tích hợp QCN: HS hiểu các dân tộc Việt Nam đều bình đẳng, có quyền được tôn trọng bản sắc văn hóa."
+          "Tích hợp NLS 1.3.CB2a: HS sử dụng Google Sheets/Excel để nhập, sắp xếp, so sánh số liệu dân số, phân bố dân cư và một số dân tộc Việt Nam.\nTích hợp QCN: HS hiểu các dân tộc Việt Nam đều bình đẳng, có quyền được tôn trọng bản sắc văn hóa.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Tinh thần đoàn kết, tương trợ chia sẻ nguồn nước sinh hoạt trong cộng đồng các dân tộc Trà Vinh vào mùa khô hạn mặn.",
+          "- Giáo dục địa phương (Chủ đề 1): Đặc điểm dân cư tỉnh Trà Vinh (sự cộng cư đoàn kết, gắn bó keo sơn từ lâu đời của 3 dân tộc anh em Kinh - Khmer - Hoa)."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tranh ảnh, lược đồ/hình trong SHS, máy tính, ti vi, phiếu học tập.",
           "- Học sinh: SGK, vở, bút, đồ dùng học tập."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -1591,7 +1601,7 @@
               "Hoạt động của học sinh"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú học tập, kết nối với nội dung bài học về dân cư Việt Nam.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với nội dung bài học về dân cư Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS đọc thông tin phần Khởi động trong SHS.",
@@ -1614,7 +1624,7 @@
               "- HS lắng nghe, ghi bài và chuẩn bị học tập."
             ],
             [
-              "2. Khám phá (27 phút)Mục tiêu: HS nêu được số dân, so sánh quy mô dân số Việt Nam với một số nước Đông Nam Á và nhận xét được sự gia tăng dân số ở Việt Nam.Mục tiêu tích hợp NLS 1.3.CB2a: HS biết sử dụng Google Sheets/Excel để nhập, sắp xếp và so sánh số liệu dân số các nước Đông Nam Á theo hướng dẫn của GV.Mục tiêu tích hợp QCN: HS hiểu các dân tộc Việt Nam đều bình đẳng, có quyền được tôn trọng bản sắc văn hóa.*Cách tiến hành:"
+              "2. Khám phá (27 phút)\nMục tiêu: HS nêu được số dân, so sánh quy mô dân số Việt Nam với một số nước Đông Nam Á và nhận xét được sự gia tăng dân số ở Việt Nam.\nMục tiêu tích hợp NLS 1.3.CB2a: HS biết sử dụng Google Sheets/Excel để nhập, sắp xếp và so sánh số liệu dân số các nước Đông Nam Á theo hướng dẫn của GV.\nMục tiêu tích hợp QCN: HS hiểu các dân tộc Việt Nam đều bình đẳng, có quyền được tôn trọng bản sắc văn hóa.\n*Cách tiến hành:"
             ],
             [
               "2.1. Tìm hiểu về quy mô dân số"
@@ -1668,8 +1678,8 @@
               "- HS trả lời: Có thể dùng Google Sheets hoặc Excel để nhập bảng, sắp xếp số liệu và so sánh dữ liệu."
             ],
             [
-              "- Tích hợp NLS 1.3.CB2a: GV giới thiệu công cụ Google Sheets, hướng dẫn HS nhập cột “Tên nước”, “Số dân (triệu người)”, chọn cột số dân và sắp xếp từ lớn đến bé; GV nhắc HS chỉ dùng số liệu trong SHS và đặt tên bảng rõ ràng.- Tích hợp QCN: GV liên hệ: khi đọc số liệu dân số và tìm hiểu các dân tộc Việt Nam, HS cần tôn trọng mọi dân tộc, không dùng thông tin dân số, tiếng nói, trang phục, phong tục để so sánh, chê bai hoặc kì thị.",
-              "- HS nêu cách thao tác: mở bảng tính, nhập tên nước và số dân, sắp xếp số dân giảm dần, xác định vị trí của Việt Nam trong khu vực.- HS chia sẻ: các dân tộc Việt Nam đều bình đẳng, có quyền được tôn trọng bản sắc văn hóa; em cần tôn trọng bạn bè thuộc các dân tộc khác nhau."
+              "- Tích hợp NLS 1.3.CB2a: GV giới thiệu công cụ Google Sheets, hướng dẫn HS nhập cột “Tên nước”, “Số dân (triệu người)”, chọn cột số dân và sắp xếp từ lớn đến bé; GV nhắc HS chỉ dùng số liệu trong SHS và đặt tên bảng rõ ràng.\n- Tích hợp QCN: GV liên hệ: khi đọc số liệu dân số và tìm hiểu các dân tộc Việt Nam, HS cần tôn trọng mọi dân tộc, không dùng thông tin dân số, tiếng nói, trang phục, phong tục để so sánh, chê bai hoặc kì thị.",
+              "- HS nêu cách thao tác: mở bảng tính, nhập tên nước và số dân, sắp xếp số dân giảm dần, xác định vị trí của Việt Nam trong khu vực.\n- HS chia sẻ: các dân tộc Việt Nam đều bình đẳng, có quyền được tôn trọng bản sắc văn hóa; em cần tôn trọng bạn bè thuộc các dân tộc khác nhau."
             ],
             [
               "2.2. Tìm hiểu về gia tăng dân số"
@@ -1731,7 +1741,7 @@
               "- HS lắng nghe, ghi nhớ kiến thức chuẩn về gia tăng dân số ở Việt Nam."
             ],
             [
-              "3. Luyện tập (5 phút)Mục tiêu: Củng cố kiến thức về quy mô dân số và gia tăng dân số Việt Nam.*Cách tiến hành:"
+              "3. Luyện tập (5 phút)\nMục tiêu: Củng cố kiến thức về quy mô dân số và gia tăng dân số Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV hỏi: Số dân nước ta năm 2024 là bao nhiêu?",
@@ -1746,11 +1756,15 @@
               "- HS trả lời: Số dân năm 2024 tăng khoảng 24,8 triệu người so với năm 1999."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: HS biết liên hệ kiến thức bài học với thực tế gia đình, địa phương.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: HS biết liên hệ kiến thức bài học với thực tế gia đình, địa phương.\n*Cách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ: Về nhà chia sẻ với người thân một thông tin em học được về dân số Việt Nam.",
               "- HS ghi nhiệm vụ và thực hiện ở nhà."
+            ],
+            [
+              "- Tích hợp GDĐP (CĐ 1) & Mizuiku: GV mở rộng về cộng đồng các dân tộc tại quê hương Trà Vinh: Trà Vinh là tỉnh có cộng đồng đồng bào dân tộc Khmer chiếm gần 32% dân số, cùng dân tộc Hoa và dân tộc Kinh chung sống hòa thuận, đoàn kết từ nhiều đời nay. Trong cuộc sống hằng ngày và đặc biệt vào mùa khô hạn mặn, nhân dân các dân tộc luôn đùm bọc, tương trợ, chia sẻ từng xô nước ngọt sạch cho nhau. Em học tập được điều gì từ tinh thần đoàn kết này?",
+              "- HS tự hào về sự đa dạng văn hóa và khối đại đoàn kết các dân tộc tại Trà Vinh; bày tỏ thái độ tôn trọng, yêu quý bạn bè thuộc mọi dân tộc; sẵn sàng giúp đỡ, sẻ chia với các bạn có hoàn cảnh khó khăn."
             ],
             [
               "- GV hỏi: Em sẽ chia sẻ thông tin nào với người thân?",
@@ -1758,7 +1772,7 @@
             ]
           ]
         ],
-        "title": "BÀI 4. DÂN CƯ VÀ DÂN TỘC Ở VIỆT NAM (Tiết 1)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 4. DÂN CƯ VÀ DÂN TỘC Ở VIỆT NAM (Tiết 2)",
@@ -1775,14 +1789,15 @@
           "- Nhân ái: tôn trọng sự đa dạng văn hoá, ngôn ngữ, trang phục và phong tục tốt đẹp của các dân tộc.",
           "- Trách nhiệm: có ý thức đoàn kết, giữ gìn bản sắc văn hoá tốt đẹp của các dân tộc Việt Nam.",
           "4. Tích hợp",
-          "Tích hợp AI 5.D2.1: HS liên hệ dữ liệu tổng điều tra dân số giúp AI dự báo xu hướng dân số chính xác hơn.Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết tôn trọng sự khác biệt, đoàn kết với bạn bè thuộc các dân tộc khác nhau."
+          "Tích hợp AI 5.D2.1: HS liên hệ dữ liệu tổng điều tra dân số giúp AI dự báo xu hướng dân số chính xác hơn.\nTích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết tôn trọng sự khác biệt, đoàn kết với bạn bè thuộc các dân tộc khác nhau."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tranh ảnh, lược đồ/hình trong SHS, máy tính, ti vi, phiếu học tập.",
           "- Học sinh: SGK, vở, bút, đồ dùng học tập."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -1790,7 +1805,7 @@
               "Hoạt động của học sinh"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Nhắc lại kiến thức đã học về dân số Việt Nam, tạo tâm thế học tập cho HS.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Nhắc lại kiến thức đã học về dân số Việt Nam, tạo tâm thế học tập cho HS.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi “Ai nhớ nhanh?”.",
@@ -1809,7 +1824,7 @@
               "- HS lắng nghe và nêu dự đoán ban đầu."
             ],
             [
-              "2. Khám phá (27 phút)Mục tiêu: HS xác định được khu vực đông dân, thưa dân ở Việt Nam và rút ra nhận xét về sự phân bố dân cư.Mục tiêu tích hợp AI 5.D2.1: HS liên hệ dữ liệu dân số, mật độ dân số với việc AI hỗ trợ phân tích, dự báo xu hướng dân cư; biết kiểm chứng thông tin trước khi sử dụng.Mục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết tôn trọng sự khác biệt, đoàn kết với bạn bè thuộc các dân tộc khác nhau.*Cách tiến hành:"
+              "2. Khám phá (27 phút)\nMục tiêu: HS xác định được khu vực đông dân, thưa dân ở Việt Nam và rút ra nhận xét về sự phân bố dân cư.\nMục tiêu tích hợp AI 5.D2.1: HS liên hệ dữ liệu dân số, mật độ dân số với việc AI hỗ trợ phân tích, dự báo xu hướng dân cư; biết kiểm chứng thông tin trước khi sử dụng.\nMục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết tôn trọng sự khác biệt, đoàn kết với bạn bè thuộc các dân tộc khác nhau.\n*Cách tiến hành:"
             ],
             [
               "2.1. Tìm hiểu về phân bố dân cư"
@@ -1875,11 +1890,11 @@
               "- HS trả lời: AI có thể hỗ trợ phân tích dữ liệu, dự báo xu hướng dân cư và hỗ trợ lập kế hoạch trường học, bệnh viện, giao thông."
             ],
             [
-              "- Tích hợp AI 5.D2.1: GV giới thiệu ngắn gọn rằng AI cần dữ liệu tổng điều tra dân số, mật độ dân số, độ tuổi, nơi sinh sống,... để dự báo xu hướng dân cư; GV nhắc HS con người phải kiểm tra số liệu và chịu trách nhiệm cuối cùng khi ra quyết định.- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: GV giáo dục HS biết tôn trọng sự khác biệt về nơi cư trú, tiếng nói, trang phục, phong tục; biết đoàn kết, giúp đỡ bạn bè thuộc các dân tộc khác nhau trong học tập và sinh hoạt.",
-              "- HS nêu ví dụ: nếu một khu vực dân số tăng nhanh, AI có thể gợi ý cần thêm trường học, trạm y tế, nhà ở; con người kiểm chứng và quyết định.- HS chia sẻ việc làm: tôn trọng bạn bè, không chê bai sự khác biệt, biết hợp tác và giúp đỡ bạn thuộc các dân tộc khác nhau."
+              "- Tích hợp AI 5.D2.1: GV giới thiệu ngắn gọn rằng AI cần dữ liệu tổng điều tra dân số, mật độ dân số, độ tuổi, nơi sinh sống,... để dự báo xu hướng dân cư; GV nhắc HS con người phải kiểm tra số liệu và chịu trách nhiệm cuối cùng khi ra quyết định.\n- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: GV giáo dục HS biết tôn trọng sự khác biệt về nơi cư trú, tiếng nói, trang phục, phong tục; biết đoàn kết, giúp đỡ bạn bè thuộc các dân tộc khác nhau trong học tập và sinh hoạt.",
+              "- HS nêu ví dụ: nếu một khu vực dân số tăng nhanh, AI có thể gợi ý cần thêm trường học, trạm y tế, nhà ở; con người kiểm chứng và quyết định.\n- HS chia sẻ việc làm: tôn trọng bạn bè, không chê bai sự khác biệt, biết hợp tác và giúp đỡ bạn thuộc các dân tộc khác nhau."
             ],
             [
-              "3. Luyện tập (5 phút)Mục tiêu: Củng cố kiến thức về phân bố dân cư Việt Nam.*Cách tiến hành:"
+              "3. Luyện tập (5 phút)\nMục tiêu: Củng cố kiến thức về phân bố dân cư Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV hỏi: Hãy nêu 2 khu vực đông dân ở nước ta.",
@@ -1894,7 +1909,7 @@
               "- HS trả lời: Vì thuận lợi cho sản xuất, sinh hoạt, giao thông và phát triển kinh tế."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: HS liên hệ với địa phương nơi mình sinh sống.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: HS liên hệ với địa phương nơi mình sinh sống.\n*Cách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ: Tìm hiểu xem địa phương em thuộc khu vực đông dân hay thưa dân.",
@@ -1906,7 +1921,7 @@
             ]
           ]
         ],
-        "title": "BÀI 4. DÂN CƯ VÀ DÂN TỘC Ở VIỆT NAM (Tiết 2)"
+        "dieuchinh": []
       }
     ]
   },
@@ -1935,8 +1950,9 @@
           "- Giáo viên: SGK, SGV, tranh ảnh, lược đồ/hình trong SHS, máy tính, ti vi, phiếu học tập.",
           "- Học sinh: SGK, vở, bút, đồ dùng học tập."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -1944,7 +1960,7 @@
               "Hoạt động của học sinh"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Nhắc lại kiến thức về phân bố dân cư và kết nối với nội dung dân tộc ở Việt Nam.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Nhắc lại kiến thức về phân bố dân cư và kết nối với nội dung dân tộc ở Việt Nam.\n*Cách tiến hành:"
             ],
             [
               "- GV hỏi: Địa phương em thuộc khu vực đông dân hay thưa dân?",
@@ -1959,7 +1975,7 @@
               "- HS lắng nghe, chuẩn bị tìm hiểu nội dung mới."
             ],
             [
-              "2. Khám phá: Tìm hiểu về phân bố dân cư (27 phút)Mục tiêu: HS xác định được khu vực đông dân, khu vực thưa dân ở nước ta; nêu được nhận xét về sự phân bố dân cư và hậu quả của việc phân bố dân cư chưa hợp lí.Mục tiêu tích hợp QCN: HS nhận biết mọi người, mọi dân tộc đều có quyền được học tập, quyền được giữ gìn tiếng nói, trang phục, phong tục tốt đẹp và được tôn trọng trong cộng đồng.*Cách tiến hành:"
+              "2. Khám phá: Tìm hiểu về phân bố dân cư (27 phút)\nMục tiêu: HS xác định được khu vực đông dân, khu vực thưa dân ở nước ta; nêu được nhận xét về sự phân bố dân cư và hậu quả của việc phân bố dân cư chưa hợp lí.\nMục tiêu tích hợp QCN: HS nhận biết mọi người, mọi dân tộc đều có quyền được học tập, quyền được giữ gìn tiếng nói, trang phục, phong tục tốt đẹp và được tôn trọng trong cộng đồng.\n*Cách tiến hành:"
             ],
             [
               "- GV chia lớp thành các nhóm 4 HS, phát Phiếu học tập và nêu nhiệm vụ: Đọc thông tin mục 3, quan sát bản đồ phân bố dân cư Việt Nam năm 2024 để xác định khu vực đông dân, khu vực thưa dân.",
@@ -2077,7 +2093,7 @@
               "- HS lắng nghe, sửa câu trả lời nếu cần và ghi nhớ kiến thức."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: HS vận dụng kiến thức để liên hệ thực tế địa phương và rèn ý thức tôn trọng quyền học tập, quyền giữ gìn bản sắc văn hoá của các dân tộc.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: HS vận dụng kiến thức để liên hệ thực tế địa phương và rèn ý thức tôn trọng quyền học tập, quyền giữ gìn bản sắc văn hoá của các dân tộc.\n*Cách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ: Kể với người thân một câu chuyện trong bài thể hiện tình đoàn kết của cộng đồng các dân tộc Việt Nam.",
@@ -2105,7 +2121,7 @@
             ]
           ]
         ],
-        "title": "BÀI 4. DÂN CƯ VÀ DÂN TỘC Ở VIỆT NAM (Tiết 3)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 1)",
@@ -2121,14 +2137,15 @@
           "- Yêu nước: tự hào về cội nguồn dân tộc và truyền thống dựng nước của cha ông.",
           "- Trách nhiệm: biết ơn những người có công dựng nước, có ý thức trân trọng và giữ gìn di sản lịch sử.",
           "4. Tích hợp",
-          "Tích hợp NLS 1.2.CB2a: HS tìm kiếm và xem video/ảnh 3D phục dựng trống đồng Đông Sơn, thành Cổ Loa; bước đầu nhận biết nguồn tư liệu đáng tin cậy từ website bảo tàng, thư viện số.Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng lòng tự hào về cội nguồn dân tộc."
+          "Tích hợp NLS 1.2.CB2a: HS tìm kiếm và xem video/ảnh 3D phục dựng trống đồng Đông Sơn, thành Cổ Loa; bước đầu nhận biết nguồn tư liệu đáng tin cậy từ website bảo tàng, thư viện số.\nTích hợp Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng lòng tự hào về cội nguồn dân tộc."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, tranh ảnh, lược đồ/hình trong SHS, máy tính, ti vi, phiếu học tập.",
           "- Học sinh: SGK, vở, bút, đồ dùng học tập."
         ],
-        "activities": [],
-        "dieuchinh": [],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
         "tables": [
           [
             [
@@ -2136,7 +2153,7 @@
               "Hoạt động của học sinh"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú học tập, kết nối với nội dung bài học về Nhà nước Văn Lang, Nhà nước Âu Lạc.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với nội dung bài học về Nhà nước Văn Lang, Nhà nước Âu Lạc.\n*Cách tiến hành:"
             ],
             [
               "- GV nêu tình huống khởi động: Năm 1954, trong lần về thăm Đền Hùng, Bác Hồ căn dặn cán bộ, chiến sĩ Đại đoàn Quân Tiên phong: “Các vua Hùng đã có công dựng nước, Bác cháu ta phải cùng nhau giữ lấy nước.”",
@@ -2155,7 +2172,7 @@
               "- HS ghi bài và chuẩn bị học tập."
             ],
             [
-              "2. Khám phá: Tìm hiểu sự ra đời của Nhà nước Văn Lang, Nhà nước Âu Lạc (24 phút)Mục tiêu: Trình bày được sự ra đời của Nhà nước Văn Lang, Nhà nước Âu Lạc thông qua truyền thuyết và bằng chứng khảo cổ học.Mục tiêu tích hợp NLS 1.2.CB2a: HS biết tìm kiếm, xem và chọn lọc tư liệu số/ảnh 3D về trống đồng Đông Sơn, thành Cổ Loa từ nguồn đáng tin cậy.Mục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS bồi dưỡng lòng tự hào về cội nguồn dân tộc.*Cách tiến hành:"
+              "2. Khám phá: Tìm hiểu sự ra đời của Nhà nước Văn Lang, Nhà nước Âu Lạc (24 phút)\nMục tiêu: Trình bày được sự ra đời của Nhà nước Văn Lang, Nhà nước Âu Lạc thông qua truyền thuyết và bằng chứng khảo cổ học.\nMục tiêu tích hợp NLS 1.2.CB2a: HS biết tìm kiếm, xem và chọn lọc tư liệu số/ảnh 3D về trống đồng Đông Sơn, thành Cổ Loa từ nguồn đáng tin cậy.\nMục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS bồi dưỡng lòng tự hào về cội nguồn dân tộc.\n*Cách tiến hành:"
             ],
             [
               "2.1. Nhà nước Văn Lang"
@@ -2256,7 +2273,7 @@
               "- HS lắng nghe, đối chiếu câu trả lời của nhóm và hoàn thiện nội dung."
             ],
             [
-              "3. Luyện tập (6 phút)Mục tiêu: Củng cố kiến thức về thời gian ra đời, người đứng đầu và kinh đô của Nhà nước Văn Lang, Nhà nước Âu Lạc.*Cách tiến hành:"
+              "3. Luyện tập (6 phút)\nMục tiêu: Củng cố kiến thức về thời gian ra đời, người đứng đầu và kinh đô của Nhà nước Văn Lang, Nhà nước Âu Lạc.\n*Cách tiến hành:"
             ],
             [
               "- GV hỏi: Nhà nước Văn Lang ra đời vào thời gian nào?",
@@ -2287,7 +2304,7 @@
               "- HS trả lời: Đều là những nhà nước đầu tiên trong lịch sử dân tộc, gắn với buổi đầu dựng nước của người Việt cổ."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (5 phút)Mục tiêu: Liên hệ thực tế, bồi dưỡng lòng tự hào về cội nguồn dân tộc.Mục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS bồi dưỡng lòng tự hào, biết ơn tổ tiên và có ý thức giữ gìn di tích, hiện vật lịch sử.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (5 phút)\nMục tiêu: Liên hệ thực tế, bồi dưỡng lòng tự hào về cội nguồn dân tộc.\nMục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS bồi dưỡng lòng tự hào, biết ơn tổ tiên và có ý thức giữ gìn di tích, hiện vật lịch sử.\n*Cách tiến hành:"
             ],
             [
               "- GV hỏi: Sau khi học về Văn Lang và Âu Lạc, em cần có thái độ như thế nào đối với cội nguồn dân tộc?",
@@ -2303,7 +2320,7 @@
             ]
           ]
         ],
-        "title": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 1)"
+        "dieuchinh": []
       }
     ]
   },
@@ -2333,7 +2350,6 @@
           "- HS: SGK, vở ghi, bút màu, thiết bị học tập theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2486,7 +2502,7 @@
             ]
           ]
         ],
-        "title": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 2)"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 3)",
@@ -2509,7 +2525,6 @@
           "- HS: SGK, vở ghi, tư liệu hoặc câu chuyện đã sưu tầm về thời Văn Lang, Âu Lạc."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2654,7 +2669,7 @@
             ]
           ]
         ],
-        "title": "BÀI 5. NHÀ NƯỚC VĂN LANG, NHÀ NƯỚC ÂU LẠC (Tiết 3)"
+        "dieuchinh": []
       }
     ]
   },
@@ -2684,7 +2699,6 @@
           "- HS: SGK, vở ghi, bút màu, tư liệu đã sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2821,7 +2835,7 @@
             ]
           ]
         ],
-        "title": "BÀI 6. VƯƠNG QUỐC PHÙ NAM"
+        "dieuchinh": []
       },
       {
         "lessonTitle": "BÀI 7. VƯƠNG QUỐC CHĂM-PA (Tiết 1)",
@@ -2845,7 +2859,6 @@
           "- HS: SGK, vở ghi, bút màu, tư liệu đã sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -2954,7 +2967,7 @@
             ]
           ]
         ],
-        "title": "BÀI 7. VƯƠNG QUỐC CHĂM-PA (Tiết 1)"
+        "dieuchinh": []
       }
     ]
   },
@@ -2963,7 +2976,7 @@
     "sourceFile": "LSĐL TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 2",
+        "lessonTitle": "BÀI 7. VƯƠNG QUỐC CHĂM-PA - TIẾT 2",
         "topic": "CHỦ ĐỀ 2. NHỮNG QUỐC GIA ĐẦU TIÊN TRÊN LÃNH THỔ VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2985,7 +2998,6 @@
           "- Học sinh: SGK, vở, bút, tư liệu hoặc hình ảnh sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3046,10 +3058,10 @@
             ]
           ]
         ],
-        "title": "TIẾT 2"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "BÀI 8. ĐẤU TRANH GIÀNH ĐỘC LẬP THỜI KÌ BẮC THUỘC - TIẾT 1",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3071,7 +3083,6 @@
           "- Học sinh: SGK, vở, bút, tư liệu hoặc hình ảnh sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3160,7 +3171,7 @@
             ]
           ]
         ],
-        "title": "TIẾT 1"
+        "dieuchinh": []
       }
     ]
   },
@@ -3169,7 +3180,7 @@
     "sourceFile": "LSĐL TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 2",
+        "lessonTitle": "Bài 8. Đấu tranh giành độc lập thời kì Bắc thuộc - Tiết 2",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3191,7 +3202,6 @@
           "- Học sinh: SGK, vở, bút, tư liệu hoặc hình ảnh sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3268,10 +3278,10 @@
             ]
           ]
         ],
-        "title": "Tiết 2"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "BÀI 9. TRIỀU LÝ VÀ VIỆC ĐỊNH ĐÔ Ở THĂNG LONG - TIẾT 1",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3294,7 +3304,6 @@
           "- Học sinh: SGK, vở, bút, tư liệu hoặc hình ảnh sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3359,7 +3368,7 @@
             ]
           ]
         ],
-        "title": "TIẾT 1"
+        "dieuchinh": []
       }
     ]
   },
@@ -3368,7 +3377,7 @@
     "sourceFile": "LSĐL TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 2",
+        "lessonTitle": "Bài 9. Triều Lý và việc định đô ở Thăng Long - Tiết 2",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3391,7 +3400,6 @@
           "- Học sinh: SGK, vở, bút, thước, tư liệu hoặc hình ảnh sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3536,10 +3544,10 @@
             ]
           ]
         ],
-        "title": "Tiết 2"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "Tiết 3",
+        "lessonTitle": "Bài 9. Triều Lý và việc định đô ở Thăng Long - Tiết 3",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3561,7 +3569,6 @@
           "- Học sinh: SGK, vở, bút, thước, tư liệu hoặc hình ảnh sưu tầm theo hướng dẫn của GV."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3714,7 +3721,7 @@
             ]
           ]
         ],
-        "title": "Tiết 3"
+        "dieuchinh": []
       }
     ]
   },
@@ -3723,10 +3730,9 @@
     "sourceFile": "LSĐL TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC",
+        "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC - (Tiết 1)",
         "topic": "CHỦ ĐỀ: XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
-          "(Tiết 1)",
           "1. Năng lực đặc thù",
           "- Nêu được một số nét chính về tình hình đất nước dưới thời Trần.",
           "- Kể được một số câu chuyện về nhân vật lịch sử tiêu biểu thời Trần như Trần Nhân Tông, Nguyễn Hiền, Chu Văn An.",
@@ -3740,14 +3746,13 @@
           "- Trách nhiệm: có ý thức giữ gìn, trân trọng di tích, hiện vật lịch sử và tư liệu về Triều Trần.",
           "- Chăm chỉ: tích cực đọc tư liệu, tham gia hoạt động nhóm và hoàn thành nhiệm vụ học tập.",
           "4. Tích hợp",
-          "- Tích hợp AI 5.A1.2: HS xem video mô phỏng trận Bạch Đằng do AI hỗ trợ dựng lại, hiểu con người chịu trách nhiệm cuối cùng về nhận định lịch sử.- Tích hợp QPAN: HS hiểu bài học đoàn kết toàn dân, chuẩn bị lực lượng và quyết tâm bảo vệ Tổ quốc."
+          "- Tích hợp AI 5.A1.2: HS xem video mô phỏng trận Bạch Đằng do AI hỗ trợ dựng lại, hiểu con người chịu trách nhiệm cuối cùng về nhận định lịch sử.\n- Tích hợp QPAN: HS hiểu bài học đoàn kết toàn dân, chuẩn bị lực lượng và quyết tâm bảo vệ Tổ quốc."
         ],
         "dodung": [
           "- GV: SGK, SGV, tranh ảnh trong SGK, lược đồ, phiếu học tập, máy tính, máy chiếu.",
           "- HS: SGK, vở ghi, bút màu, tư liệu sưu tầm về nhân vật hoặc di tích thời Trần nếu có."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3766,7 +3771,7 @@
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
-              "2. Khám phá: Tìm hiểu Triều Trần và công cuộc xây dựng đất nước (25 phút)\nMục tiêu: HS nêu được những nét chính về tình hình đất nước dưới thời Trần; kể được câu chuyện về một nhân vật lịch sử của Triều Trần và nêu được đóng góp của nhân vật đó đối với lịch sử dân tộc.Mục tiêu tích hợp AI 5.A1.2: HS hiểu video mô phỏng trận Bạch Đằng do AI hỗ trợ dựng lại chỉ là học liệu tham khảo, cần đối chiếu SGK và nguồn chính thống.Mục tiêu tích hợp QPAN: HS hiểu bài học đoàn kết toàn dân, chuẩn bị lực lượng và quyết tâm bảo vệ Tổ quốc.\n*Cách tiến hành:"
+              "2. Khám phá: Tìm hiểu Triều Trần và công cuộc xây dựng đất nước (25 phút)\nMục tiêu: HS nêu được những nét chính về tình hình đất nước dưới thời Trần; kể được câu chuyện về một nhân vật lịch sử của Triều Trần và nêu được đóng góp của nhân vật đó đối với lịch sử dân tộc.\nMục tiêu tích hợp AI 5.A1.2: HS hiểu video mô phỏng trận Bạch Đằng do AI hỗ trợ dựng lại chỉ là học liệu tham khảo, cần đối chiếu SGK và nguồn chính thống.\nMục tiêu tích hợp QPAN: HS hiểu bài học đoàn kết toàn dân, chuẩn bị lực lượng và quyết tâm bảo vệ Tổ quốc.\n*Cách tiến hành:"
             ],
             [
               "2.1. Nêu những nét chính về tình hình đất nước dưới thời Trần (15 phút)"
@@ -3776,62 +3781,62 @@
               "- HS đọc thông tin đầu mục 1 trong SGK và trả lời: Cuối thời Lý, triều đình suy yếu, đất nước rối ren; họ Trần từng bước nắm quyền trong triều đình."
             ],
             [
-              "- Lý Chiêu Hoàng nhường ngôi cho ai?- Sự kiện đó dẫn đến việc thành lập triều đại nào?",
-              "- HS trả lời: Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh.- HS trả lời: Năm 1226, Triều Trần được thành lập."
+              "- Lý Chiêu Hoàng nhường ngôi cho ai?\n- Sự kiện đó dẫn đến việc thành lập triều đại nào?",
+              "- HS trả lời: Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh.\n- HS trả lời: Năm 1226, Triều Trần được thành lập."
             ],
             [
               "- GV nhận xét và chuẩn kiến thức: Năm 1226, Triều Trần được thành lập sau khi Lý Chiêu Hoàng nhường ngôi cho Trần Cảnh. Triều Trần tiếp tục xây dựng và ổn định đất nước sau thời Lý.",
               "- HS lắng nghe, sửa ý nếu cần và nhắc lại: Triều Trần được thành lập năm 1226, mở đầu một triều đại mới trong lịch sử dân tộc."
             ],
             [
-              "- Dựa vào thông tin trong SGK, em hãy nêu những nét chính về tình hình đất nước dưới thời Trần.- Để trả lời đầy đủ, các em tìm hiểu theo ba nội dung: bộ máy nhà nước; quân đội; giáo dục, khoa cử.",
-              "- HS xác định nhiệm vụ: nêu những nét chính về tình hình đất nước dưới thời Trần.- HS ghi nhớ ba nội dung cần tìm hiểu: bộ máy nhà nước; quân đội; giáo dục, khoa cử."
+              "- Dựa vào thông tin trong SGK, em hãy nêu những nét chính về tình hình đất nước dưới thời Trần.\n- Để trả lời đầy đủ, các em tìm hiểu theo ba nội dung: bộ máy nhà nước; quân đội; giáo dục, khoa cử.",
+              "- HS xác định nhiệm vụ: nêu những nét chính về tình hình đất nước dưới thời Trần.\n- HS ghi nhớ ba nội dung cần tìm hiểu: bộ máy nhà nước; quân đội; giáo dục, khoa cử."
             ],
             [
-              "- GV chia lớp thành các nhóm nhỏ và giao nhiệm vụ: Nhóm 1 tìm hiểu bộ máy nhà nước; nhóm 2 tìm hiểu quân đội; nhóm 3 tìm hiểu giáo dục, khoa cử.- Các nhóm đọc thông tin SGK, quan sát hình ảnh và chuẩn bị trình bày ngắn gọn.",
-              "- HS nhận nhiệm vụ nhóm.- HS đọc SGK, quan sát hình ảnh, thảo luận và ghi nhanh ý chính vào vở nháp."
+              "- GV chia lớp thành các nhóm nhỏ và giao nhiệm vụ: Nhóm 1 tìm hiểu bộ máy nhà nước; nhóm 2 tìm hiểu quân đội; nhóm 3 tìm hiểu giáo dục, khoa cử.\n- Các nhóm đọc thông tin SGK, quan sát hình ảnh và chuẩn bị trình bày ngắn gọn.",
+              "- HS nhận nhiệm vụ nhóm.\n- HS đọc SGK, quan sát hình ảnh, thảo luận và ghi nhanh ý chính vào vở nháp."
             ],
             [
-              "- Nhóm 1 trình bày: Bộ máy nhà nước thời Trần được tổ chức như thế nào?- Việc các vua Trần thường nhường ngôi sớm cho con, xưng là Thái thượng hoàng và cùng vua quản lí đất nước cho thấy điều gì?",
-              "- Đại diện nhóm 1 trình bày: Bộ máy nhà nước thời Trần được tổ chức chặt chẽ.- HS trả lời: Việc đó giúp vua trẻ sớm học cách điều hành đất nước, đồng thời vẫn có Thái thượng hoàng cùng giúp quản lí triều chính."
+              "- Nhóm 1 trình bày: Bộ máy nhà nước thời Trần được tổ chức như thế nào?\n- Việc các vua Trần thường nhường ngôi sớm cho con, xưng là Thái thượng hoàng và cùng vua quản lí đất nước cho thấy điều gì?",
+              "- Đại diện nhóm 1 trình bày: Bộ máy nhà nước thời Trần được tổ chức chặt chẽ.\n- HS trả lời: Việc đó giúp vua trẻ sớm học cách điều hành đất nước, đồng thời vẫn có Thái thượng hoàng cùng giúp quản lí triều chính."
             ],
             [
-              "- Câu chuyện Thượng hoàng Trần Nhân Tông dạy vua giúp em hiểu thêm điều gì về trách nhiệm trị nước thời Trần?- GV mời HS nhận xét, bổ sung ý kiến của nhóm 1.",
-              "- HS trả lời: Câu chuyện cho thấy người đứng đầu đất nước phải nghiêm khắc tu dưỡng, biết sửa mình và có trách nhiệm với dân, với nước.- HS khác nhận xét, bổ sung."
+              "- Câu chuyện Thượng hoàng Trần Nhân Tông dạy vua giúp em hiểu thêm điều gì về trách nhiệm trị nước thời Trần?\n- GV mời HS nhận xét, bổ sung ý kiến của nhóm 1.",
+              "- HS trả lời: Câu chuyện cho thấy người đứng đầu đất nước phải nghiêm khắc tu dưỡng, biết sửa mình và có trách nhiệm với dân, với nước.\n- HS khác nhận xét, bổ sung."
             ],
             [
               "- GV nhận xét và chuẩn kiến thức: Bộ máy nhà nước thời Trần được tổ chức chặt chẽ. Nhà Trần thực hiện chế độ Thái thượng hoàng, góp phần giúp việc quản lí đất nước ổn định.",
               "- HS lắng nghe, bổ sung ý vào vở và ghi nhớ nét chính về bộ máy nhà nước thời Trần."
             ],
             [
-              "- Nhóm 2 quan sát Hình 1, đọc đoạn thông tin khổ cuối và mục Em có biết trong SGK.- Quân đội nhà Trần được tổ chức như thế nào?",
-              "- HS quan sát Hình 1, đọc thông tin và mục Em có biết trong SGK.- Đại diện nhóm 2 trình bày: Quân đội nhà Trần được tổ chức quy củ, được rèn luyện thường xuyên và có nhiều tướng giỏi."
+              "- Nhóm 2 quan sát Hình 1, đọc đoạn thông tin khổ cuối và mục Em có biết trong SGK.\n- Quân đội nhà Trần được tổ chức như thế nào?",
+              "- HS quan sát Hình 1, đọc thông tin và mục Em có biết trong SGK.\n- Đại diện nhóm 2 trình bày: Quân đội nhà Trần được tổ chức quy củ, được rèn luyện thường xuyên và có nhiều tướng giỏi."
             ],
             [
-              "- Chính sách ngụ binh ư nông có ý nghĩa gì đối với việc xây dựng và bảo vệ đất nước?- Hình ảnh chiến binh luyện tập võ nghệ trên thạp gốm phản ánh điều gì về quân đội nhà Trần?",
-              "- HS trả lời: Chính sách này giúp thời bình quân lính về sản xuất, khi có chiến tranh thì tham gia chiến đấu, vừa bảo đảm sản xuất vừa bảo vệ đất nước.- HS trả lời: Hình ảnh phản ánh quân đội thời Trần được luyện tập thường xuyên, có kỉ luật và có ý chí bảo vệ đất nước."
+              "- Chính sách ngụ binh ư nông có ý nghĩa gì đối với việc xây dựng và bảo vệ đất nước?\n- Hình ảnh chiến binh luyện tập võ nghệ trên thạp gốm phản ánh điều gì về quân đội nhà Trần?",
+              "- HS trả lời: Chính sách này giúp thời bình quân lính về sản xuất, khi có chiến tranh thì tham gia chiến đấu, vừa bảo đảm sản xuất vừa bảo vệ đất nước.\n- HS trả lời: Hình ảnh phản ánh quân đội thời Trần được luyện tập thường xuyên, có kỉ luật và có ý chí bảo vệ đất nước."
             ],
             [
-              "- Kể tên những vị tướng giỏi, nhân vật tiêu biểu có công lớn trong kháng chiến chống ngoại xâm thời Trần.- Qua các thông tin vừa tìm hiểu, em hãy nêu nhận xét chung về quân đội nhà Trần.",
-              "- HS kể: Trần Quốc Tuấn, Trần Quang Khải, Trần Nhật Duật, Trần Khánh Dư, Yết Kiêu, Dã Tượng,...- HS trả lời: Quân đội nhà Trần quy củ, gắn với sản xuất, có nhiều tướng tài và góp phần quan trọng trong bảo vệ đất nước."
+              "- Kể tên những vị tướng giỏi, nhân vật tiêu biểu có công lớn trong kháng chiến chống ngoại xâm thời Trần.\n- Qua các thông tin vừa tìm hiểu, em hãy nêu nhận xét chung về quân đội nhà Trần.",
+              "- HS kể: Trần Quốc Tuấn, Trần Quang Khải, Trần Nhật Duật, Trần Khánh Dư, Yết Kiêu, Dã Tượng,...\n- HS trả lời: Quân đội nhà Trần quy củ, gắn với sản xuất, có nhiều tướng tài và góp phần quan trọng trong bảo vệ đất nước."
             ],
             [
               "- GV nhận xét và chuẩn kiến thức: Quân đội nhà Trần được tổ chức quy củ, thực hiện chính sách ngụ binh ư nông; có nhiều tướng lĩnh, nhân vật tài giỏi góp phần quan trọng trong bảo vệ đất nước.",
               "- HS lắng nghe, bổ sung vào vở và nhắc lại nét chính về quân đội nhà Trần."
             ],
             [
-              "- Nhóm 3 đọc thông tin về giáo dục, khoa cử thời Trần.- Những việc làm nào chứng tỏ Triều Trần chú trọng đến giáo dục, khoa cử?- Triều đình đặt danh hiệu Tam khôi nhằm mục đích gì?",
-              "- HS đọc thông tin về giáo dục, khoa cử thời Trần.- Đại diện nhóm 3 trình bày: Nhà Trần mở trường học ở nhiều địa phương, tổ chức kì thi Thái học sinh để chọn người tài.- HS trả lời: Danh hiệu Tam khôi nhằm tôn vinh ba người xuất sắc nhất trong kì thi."
+              "- Nhóm 3 đọc thông tin về giáo dục, khoa cử thời Trần.\n- Những việc làm nào chứng tỏ Triều Trần chú trọng đến giáo dục, khoa cử?\n- Triều đình đặt danh hiệu Tam khôi nhằm mục đích gì?",
+              "- HS đọc thông tin về giáo dục, khoa cử thời Trần.\n- Đại diện nhóm 3 trình bày: Nhà Trần mở trường học ở nhiều địa phương, tổ chức kì thi Thái học sinh để chọn người tài.\n- HS trả lời: Danh hiệu Tam khôi nhằm tôn vinh ba người xuất sắc nhất trong kì thi."
             ],
             [
-              "- Kể tên một số nhân tài thời Trần mà em biết.- Những nhân tài đó cho thấy điều gì về việc đào tạo và trọng dụng người tài dưới thời Trần?- GV nhận xét, chuẩn kiến thức và yêu cầu HS khái quát lại những nét chính về tình hình đất nước dưới thời Trần.",
-              "- HS kể: Nguyễn Hiền, Chu Văn An, Mạc Đĩnh Chi,...- HS trả lời: Điều đó cho thấy nhà Trần quan tâm đến giáo dục, coi trọng người hiền tài để xây dựng đất nước.- HS khái quát: Dưới thời Trần, bộ máy nhà nước được tổ chức chặt chẽ; quân đội quy củ, gắn với sản xuất; giáo dục, khoa cử được chú trọng."
+              "- Kể tên một số nhân tài thời Trần mà em biết.\n- Những nhân tài đó cho thấy điều gì về việc đào tạo và trọng dụng người tài dưới thời Trần?\n- GV nhận xét, chuẩn kiến thức và yêu cầu HS khái quát lại những nét chính về tình hình đất nước dưới thời Trần.",
+              "- HS kể: Nguyễn Hiền, Chu Văn An, Mạc Đĩnh Chi,...\n- HS trả lời: Điều đó cho thấy nhà Trần quan tâm đến giáo dục, coi trọng người hiền tài để xây dựng đất nước.\n- HS khái quát: Dưới thời Trần, bộ máy nhà nước được tổ chức chặt chẽ; quân đội quy củ, gắn với sản xuất; giáo dục, khoa cử được chú trọng."
             ],
             [
               "2.2. Kể câu chuyện về một nhân vật lịch sử của Triều Trần và nêu đóng góp của nhân vật đó (10 phút)"
             ],
             [
-              "- Các em đọc các câu chuyện trong SGK: Trạng nguyên trẻ tuổi nhất Việt Nam và Người thầy lưu danh muôn đời.- Các em quan sát Hình 2 trong câu chuyện về Chu Văn An.\n- Em hãy chọn một câu chuyện và kể lại ngắn gọn trước lớp.\n- Nhân vật trong câu chuyện có đóng góp gì đối với lịch sử dân tộc?\n- Em học được gì từ nhân vật đó?",
+              "- Các em đọc các câu chuyện trong SGK: Trạng nguyên trẻ tuổi nhất Việt Nam và Người thầy lưu danh muôn đời.\n- Các em quan sát Hình 2 trong câu chuyện về Chu Văn An.\n- Em hãy chọn một câu chuyện và kể lại ngắn gọn trước lớp.\n- Nhân vật trong câu chuyện có đóng góp gì đối với lịch sử dân tộc?\n- Em học được gì từ nhân vật đó?",
               "- HS đọc các câu chuyện trong SGK.\n- HS kể ngắn gọn câu chuyện về Nguyễn Hiền hoặc Chu Văn An.\n- HS nêu: Nguyễn Hiền là trạng nguyên trẻ tuổi, thể hiện truyền thống hiếu học; Chu Văn An là người thầy mẫu mực, góp phần phát triển giáo dục thời Trần.\n- HS trả lời: Em học được tinh thần hiếu học, ý chí vươn lên, sự chính trực và trách nhiệm với đất nước."
             ],
             [
@@ -3839,8 +3844,8 @@
               "- HS nhận xét phần kể chuyện của bạn.\n- HS lắng nghe câu chuyện mở rộng.\n- HS ghi nhớ đóng góp của một số nhân vật lịch sử tiêu biểu thời Trần."
             ],
             [
-              "- Tích hợp AI 5.A1.2: GV trình chiếu video mô phỏng ngắn trận Bạch Đằng do AI hỗ trợ dựng lại; hướng dẫn HS quan sát cách bố trí cọc, thủy triều, sự phối hợp lực lượng và nhắc HS phải đối chiếu thông tin với SGK.- Tích hợp QPAN: GV liên hệ bài học đoàn kết toàn dân, chuẩn bị lực lượng, mưu trí và quyết tâm bảo vệ Tổ quốc từ thời Trần.",
-              "- HS quan sát video/hình ảnh mô phỏng, nêu nhận xét: AI giúp hình dung trận đánh nhưng con người phải kiểm chứng và chịu trách nhiệm cuối cùng về nhận định lịch sử.- HS liên hệ: muốn bảo vệ đất nước cần đoàn kết, chuẩn bị tốt, có ý chí và trách nhiệm với Tổ quốc."
+              "- Tích hợp AI 5.A1.2: GV trình chiếu video mô phỏng ngắn trận Bạch Đằng do AI hỗ trợ dựng lại; hướng dẫn HS quan sát cách bố trí cọc, thủy triều, sự phối hợp lực lượng và nhắc HS phải đối chiếu thông tin với SGK.\n- Tích hợp QPAN: GV liên hệ bài học đoàn kết toàn dân, chuẩn bị lực lượng, mưu trí và quyết tâm bảo vệ Tổ quốc từ thời Trần.",
+              "- HS quan sát video/hình ảnh mô phỏng, nêu nhận xét: AI giúp hình dung trận đánh nhưng con người phải kiểm chứng và chịu trách nhiệm cuối cùng về nhận định lịch sử.\n- HS liên hệ: muốn bảo vệ đất nước cần đoàn kết, chuẩn bị tốt, có ý chí và trách nhiệm với Tổ quốc."
             ],
             [
               "- GV yêu cầu HS hệ thống lại nội dung vừa học theo hai yêu cầu của SGK:\n- Nêu những nét chính về tình hình đất nước dưới thời Trần.\n- Kể câu chuyện về một nhân vật lịch sử của Triều Trần và nêu đóng góp của nhân vật đó.\n- GV mời HS trình bày, HS khác nhận xét, bổ sung.",
@@ -3878,13 +3883,12 @@
             ]
           ]
         ],
-        "title": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC",
+        "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC - (Tiết 2)",
         "topic": "CHỦ ĐỀ: XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
-          "(Tiết 2)",
           "1. Năng lực đặc thù",
           "- Kể được nét chính về cuộc kháng chiến chống quân xâm lược Mông - Nguyên.",
           "- Nêu được đóng góp của một số nhân vật tiêu biểu như Trần Quốc Tuấn, Trần Quốc Toản, Yết Kiêu, Dã Tượng.",
@@ -3898,14 +3902,13 @@
           "- Trách nhiệm: có ý thức giữ gìn, trân trọng di tích, hiện vật lịch sử và tư liệu về Triều Trần.",
           "- Chăm chỉ: tích cực đọc tư liệu, tham gia hoạt động nhóm và hoàn thành nhiệm vụ học tập.",
           "4. Tích hợp",
-          "- Tích hợp NLS 3.1.CB2a: HS dùng Canva/PowerPoint tạo lược đồ hoặc sơ đồ số đơn giản thể hiện diễn biến chính của kháng chiến chống quân Mông - Nguyên.- Tích hợp QPAN: HS nhận thức ý nghĩa của tinh thần cảnh giác, mưu trí, dũng cảm trong bảo vệ đất nước."
+          "- Tích hợp NLS 3.1.CB2a: HS dùng Canva/PowerPoint tạo lược đồ hoặc sơ đồ số đơn giản thể hiện diễn biến chính của kháng chiến chống quân Mông - Nguyên.\n- Tích hợp QPAN: HS nhận thức ý nghĩa của tinh thần cảnh giác, mưu trí, dũng cảm trong bảo vệ đất nước."
         ],
         "dodung": [
           "- GV: SGK, SGV, tranh ảnh trong SGK, lược đồ, phiếu học tập, máy tính, máy chiếu.",
           "- HS: SGK, vở ghi, bút màu, tư liệu sưu tầm về nhân vật hoặc di tích thời Trần nếu có."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -3928,11 +3931,11 @@
               "- HS lắng nghe, chuẩn bị vào bài."
             ],
             [
-              "2. Khám phá: Tìm hiểu cuộc kháng chiến chống quân xâm lược Mông - Nguyên (25 phút)\nMục tiêu: Kể được nét chính về cuộc kháng chiến chống quân xâm lược Mông - Nguyên và nêu đóng góp của một số nhân vật tiêu biểu.\nMục tiêu tích hợp NLS 3.1.CB2a: HS dùng Canva/PowerPoint tạo lược đồ hoặc sơ đồ số đơn giản thể hiện diễn biến chính của kháng chiến chống quân Mông - Nguyên.Mục tiêu tích hợp QPAN: HS nhận thức ý nghĩa của tinh thần cảnh giác, mưu trí, dũng cảm trong bảo vệ đất nước.\n*Cách tiến hành:"
+              "2. Khám phá: Tìm hiểu cuộc kháng chiến chống quân xâm lược Mông - Nguyên (25 phút)\nMục tiêu: Kể được nét chính về cuộc kháng chiến chống quân xâm lược Mông - Nguyên và nêu đóng góp của một số nhân vật tiêu biểu.\nMục tiêu tích hợp NLS 3.1.CB2a: HS dùng Canva/PowerPoint tạo lược đồ hoặc sơ đồ số đơn giản thể hiện diễn biến chính của kháng chiến chống quân Mông - Nguyên.\nMục tiêu tích hợp QPAN: HS nhận thức ý nghĩa của tinh thần cảnh giác, mưu trí, dũng cảm trong bảo vệ đất nước.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 2 trong SGK và quan sát các Hình 3, 4, 5.- GV hỏi: Quân Mông - Nguyên xâm lược Đại Việt mấy lần và vào những năm nào?",
-              "- HS đọc thông tin mục 2, quan sát Hình 3, 4, 5 trong SGK.- HS trả lời: Quân Mông - Nguyên xâm lược Đại Việt ba lần vào các năm 1258, 1285, 1287 - 1288."
+              "- GV yêu cầu HS đọc thông tin mục 2 trong SGK và quan sát các Hình 3, 4, 5.\n- GV hỏi: Quân Mông - Nguyên xâm lược Đại Việt mấy lần và vào những năm nào?",
+              "- HS đọc thông tin mục 2, quan sát Hình 3, 4, 5 trong SGK.\n- HS trả lời: Quân Mông - Nguyên xâm lược Đại Việt ba lần vào các năm 1258, 1285, 1287 - 1288."
             ],
             [
               "- GV hỏi: Trước âm mưu xâm lược của quân Mông - Nguyên, nhà Trần đã chuẩn bị như thế nào?",
@@ -3959,8 +3962,8 @@
               "- Nhóm 4 trình bày: Yết Kiêu, Dã Tượng là những người trung thành, dũng cảm, góp sức cùng nhà Trần chống quân xâm lược."
             ],
             [
-              "- Tích hợp NLS 3.1.CB2a: GV hướng dẫn HS dùng Canva/PowerPoint tạo lược đồ hoặc sơ đồ số đơn giản thể hiện diễn biến chính của kháng chiến chống quân Mông - Nguyên; mỗi sơ đồ cần có mốc thời gian, nhân vật tiêu biểu, sự kiện chính và kết quả.- GV nhắc HS chỉ dùng thông tin đã kiểm chứng trong SGK, trình bày ngắn gọn, không sao chép nguyên văn tư liệu chưa rõ nguồn.",
-              "- HS quan sát hướng dẫn, lựa chọn mẫu sơ đồ/lược đồ số phù hợp.- HS xác định các ý cần đưa vào sản phẩm: ba lần kháng chiến, Hội nghị Diên Hồng, Trần Quốc Tuấn, Trần Quốc Toản, Yết Kiêu, Dã Tượng và kết quả thắng lợi."
+              "- Tích hợp NLS 3.1.CB2a: GV hướng dẫn HS dùng Canva/PowerPoint tạo lược đồ hoặc sơ đồ số đơn giản thể hiện diễn biến chính của kháng chiến chống quân Mông - Nguyên; mỗi sơ đồ cần có mốc thời gian, nhân vật tiêu biểu, sự kiện chính và kết quả.\n- GV nhắc HS chỉ dùng thông tin đã kiểm chứng trong SGK, trình bày ngắn gọn, không sao chép nguyên văn tư liệu chưa rõ nguồn.",
+              "- HS quan sát hướng dẫn, lựa chọn mẫu sơ đồ/lược đồ số phù hợp.\n- HS xác định các ý cần đưa vào sản phẩm: ba lần kháng chiến, Hội nghị Diên Hồng, Trần Quốc Tuấn, Trần Quốc Toản, Yết Kiêu, Dã Tượng và kết quả thắng lợi."
             ],
             [
               "- GV nhận xét phần trình bày của các nhóm và chuẩn kiến thức.",
@@ -3994,7 +3997,7 @@
             ]
           ]
         ],
-        "title": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC"
+        "dieuchinh": []
       }
     ]
   },
@@ -4003,10 +4006,9 @@
     "sourceFile": "LSĐL TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC",
+        "lessonTitle": "TUẦN: 13 - BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC - (Tiết 3)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
-          "(Tiết 3)",
           "1. Năng lực đặc thù",
           "- Kể được một số câu chuyện về nhân vật lịch sử tiêu biểu thời Trần như Trần Quốc Tuấn, Trần Quốc Toản, Yết Kiêu, Dã Tượng.",
           "- Nêu được đóng góp của các nhân vật tiêu biểu đối với cuộc kháng chiến chống quân Mông - Nguyên.",
@@ -4027,10 +4029,6 @@
           "- HS: SGK, vở ghi, bút màu, tư liệu sưu tầm về nhân vật, di tích hoặc chiến thắng Bạch Đằng nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "TUẦN: 13"
-        ],
         "tables": [
           [
             [
@@ -4152,13 +4150,14 @@
             ]
           ]
         ],
-        "title": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC"
+        "dieuchinh": [
+          "........................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC",
+        "lessonTitle": "TUẦN: 13 - BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC - (Tiết 4)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
-          "(Tiết 4)",
           "1. Năng lực đặc thù",
           "- Kể được nét chính về chiến thắng Bạch Đằng năm 1288 và ý nghĩa của chiến thắng trong cuộc kháng chiến chống quân Mông - Nguyên.",
           "- Nêu được bài học lịch sử về tinh thần đoàn kết, mưu trí, chủ động chuẩn bị lực lượng trong bảo vệ đất nước.",
@@ -4179,9 +4178,6 @@
           "- HS: SGK, vở ghi, bút màu, tư liệu sưu tầm về nhân vật, di tích hoặc chiến thắng Bạch Đằng nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4292,7 +4288,9 @@
             ]
           ]
         ],
-        "title": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC"
+        "dieuchinh": [
+          "........................................................................................................................"
+        ]
       }
     ]
   },
@@ -4301,10 +4299,9 @@
     "sourceFile": "LSĐL TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11. ÔN TẬP",
+        "lessonTitle": "BÀI 11. ÔN TẬP - (Tiết 1)",
         "topic": "CHỦ ĐỀ: ÔN TẬP",
         "yccd": [
-          "(Tiết 1)",
           "1. Năng lực đặc thù",
           "- Củng cố được kiến thức về vị trí địa lí, phạm vi lãnh thổ, đơn vị hành chính, địa hình, khí hậu của Việt Nam.",
           "- Hoàn thành được sơ đồ tư duy về đất nước Việt Nam và bảng hệ thống kiến thức về các quốc gia đầu tiên trên lãnh thổ Việt Nam.",
@@ -4326,9 +4323,6 @@
           "- HS: SGK, vở ghi, bút màu, đồ dùng học tập; ôn lại kiến thức đã học theo chủ đề."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4386,13 +4380,14 @@
             ]
           ]
         ],
-        "title": "BÀI 11. ÔN TẬP"
+        "dieuchinh": [
+          "........................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 11. ÔN TẬP",
+        "lessonTitle": "BÀI 11. ÔN TẬP - (Tiết 2)",
         "topic": "CHỦ ĐỀ: ÔN TẬP",
         "yccd": [
-          "(Tiết 2)",
           "1. Năng lực đặc thù",
           "- Củng cố được kiến thức về thời kì Bắc thuộc, Triều Lý, Triều Trần và một số sự kiện, nhân vật lịch sử tiêu biểu đã học.",
           "- Hoàn thành được bảng ôn tập về các cuộc đấu tranh tiêu biểu thời Bắc thuộc và phân loại thông tin phù hợp với Triều Lý, Triều Trần.",
@@ -4414,9 +4409,6 @@
           "- HS: SGK, vở ghi, bút màu, đồ dùng học tập; ôn lại kiến thức đã học theo chủ đề."
         ],
         "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4478,7 +4470,9 @@
             ]
           ]
         ],
-        "title": "BÀI 11. ÔN TẬP"
+        "dieuchinh": [
+          "........................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4487,7 +4481,7 @@
     "sourceFile": "LSĐL TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 1)",
+        "lessonTitle": "TUẦN: 15 - BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 1)",
         "topic": "CHỦ ĐỀ: CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4518,11 +4512,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Câu chuyện, tranh ảnh hoặc thông tin đã sưu tầm về nhân vật lịch sử nếu được giao trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          "..................................................................................................................",
-          "TUẦN: 15"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4690,10 +4681,13 @@
             ]
           ]
         ],
-        "title": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 1)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 2)",
+        "lessonTitle": "TUẦN: 15 - BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 2)",
         "topic": "CHỦ ĐỀ: CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4724,10 +4718,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Câu chuyện, tranh ảnh hoặc thông tin đã sưu tầm về nhân vật lịch sử nếu được giao trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          ".................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4871,7 +4863,10 @@
             ]
           ]
         ],
-        "title": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 2)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       }
     ]
   },
@@ -4880,7 +4875,7 @@
     "sourceFile": "LSĐL TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 3)",
+        "lessonTitle": "TUẦN: 16 - BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4910,11 +4905,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Câu chuyện, tranh ảnh hoặc thông tin đã sưu tầm về nhân vật lịch sử nếu được giao trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          "..................................................................................................................",
-          "TUẦN: 16"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5078,10 +5070,13 @@
             ]
           ]
         ],
-        "title": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 3)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 13. TRIỀU NGUYỄN (TIẾT 1)",
+        "lessonTitle": "TUẦN: 16 - BÀI 13. TRIỀU NGUYỄN (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5112,10 +5107,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Câu chuyện, tranh ảnh hoặc thông tin đã sưu tầm về nhân vật lịch sử Triều Nguyễn nếu được giao trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          ".................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5267,7 +5260,10 @@
             ]
           ]
         ],
-        "title": "BÀI 13. TRIỀU NGUYỄN (TIẾT 1)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       }
     ]
   },
@@ -5276,7 +5272,7 @@
     "sourceFile": "LSĐL TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 13. TRIỀU NGUYỄN (TIẾT 2)",
+        "lessonTitle": "TUẦN: 17 - BÀI 13. TRIỀU NGUYỄN (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5293,7 +5289,9 @@
           "- Trách nhiệm: nhận thức được quyền được học tập di sản và trách nhiệm bảo vệ di tích, hiện vật lịch sử.",
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB2b: HS tra cứu hình ảnh số về Kinh thành Huế, Nhã nhạc cung đình Huế, lăng tẩm triều Nguyễn; lựa chọn thông tin phù hợp để giới thiệu di sản.",
-          "- Tích hợp QCN: HS hiểu quyền được tiếp cận, học tập di sản văn hóa và trách nhiệm bảo vệ di tích, hiện vật lịch sử."
+          "- Tích hợp QCN: HS hiểu quyền được tiếp cận, học tập di sản văn hóa và trách nhiệm bảo vệ di tích, hiện vật lịch sử.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Ý thức giữ gìn vệ sinh, bảo vệ cảnh quan và nguồn nước tại các khu di tích lịch sử cách mạng quê hương.",
+          "- Giáo dục địa phương (Chủ đề 4): Cuộc đời và sự nghiệp cách mạng kiên trung của đồng chí Phạm Thái Bường (người con ưu tú của quê hương An Trường, Càng Long, Bí thư Tỉnh ủy Trà Vinh)."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -5307,11 +5305,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Câu chuyện, tranh ảnh hoặc thông tin đã sưu tầm về nhân vật lịch sử Triều Nguyễn nếu được giao trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          "..................................................................................................................",
-          "TUẦN: 17"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5470,15 +5465,22 @@
               "- HS nêu: Đi nhẹ, nói khẽ; không xả rác; không chạm tay vào hiện vật; không viết vẽ lên di tích; nghe hướng dẫn viên và chia sẻ thông tin đúng."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 4): GV khắc sâu truyền thống yêu nước của quê hương Trà Vinh qua tấm gương người chiến sĩ cộng sản kiên trung Phạm Thái Bường (quê xã An Trường, huyện Càng Long). Đồng chí là Bí thư Tỉnh ủy Trà Vinh, luôn tận tụy vì dân vì nước, dù bị địch bắt tù đày vẫn giữ vững khí tiết cách mạng sáng ngời. Em cần noi gương người anh hùng quê hương như thế nào?",
+              "- HS xúc động lắng nghe về cuộc đời hoạt động cách mạng của đồng chí Phạm Thái Bường; bày tỏ lòng biết ơn vô hạn đối với các thế hệ cha anh đi trước; nêu quyết tâm chăm ngoan học giỏi và giữ gìn các khu di tích lịch sử địa phương."
+            ],
+            [
               "- GV dặn HS chuẩn bị tiết sau: đọc trước phần phong trào Cần vương chống Pháp và câu chuyện về Phan Đình Phùng.",
               "- HS ghi nhớ nhiệm vụ chuẩn bị bài."
             ]
           ]
         ],
-        "title": "BÀI 13. TRIỀU NGUYỄN (TIẾT 2)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 13. TRIỀU NGUYỄN (TIẾT 3)",
+        "lessonTitle": "TUẦN: 17 - BÀI 13. TRIỀU NGUYỄN (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5508,10 +5510,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Câu chuyện, tranh ảnh hoặc thông tin đã sưu tầm về nhân vật lịch sử Triều Nguyễn nếu được giao trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          ".................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5683,7 +5683,10 @@
             ]
           ]
         ],
-        "title": "BÀI 13. TRIỀU NGUYỄN (TIẾT 3)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       }
     ]
   },
@@ -5692,170 +5695,7 @@
     "sourceFile": "LSĐL TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 18: KIỂM TRA CUỐI HỌC KÌ 1",
-        "topic": "",
-        "yccd": [
-          "Khoanh vào chữ cái trước ý trả lời đúng nhất.",
-          "Câu 1. Việt Nam nằm ở khu vực nào?",
-          "A. Đông Bắc Á.    B. Đông Nam Á.    C. Nam Á.    D. Tây Á.",
-          "Câu 2. Hai quần đảo thuộc chủ quyền của Việt Nam trên Biển Đông là:",
-          "A. Hoàng Sa và Trường Sa.    B. Phú Quốc và Côn Đảo.    C. Cô Tô và Cát Bà.    D. Lý Sơn và Cồn Cỏ.",
-          "Câu 3. Nhà nước đầu tiên trên lãnh thổ Việt Nam là:",
-          "A. Âu Lạc.    B. Chăm-pa.    C. Văn Lang.    D. Phù Nam.",
-          "Câu 4. Vua Lý Thái Tổ dời đô về Đại La và đổi tên là:",
-          "A. Thăng Long.    B. Phú Xuân.    C. Hoa Lư.    D. Cổ Loa.",
-          "Câu 5. Nhân vật lịch sử gắn với chiến thắng Bạch Đằng thời Trần là:",
-          "A. Lê Lợi.    B. Trần Quốc Tuấn.    C. Nguyễn Trãi.    D. Nguyễn Công Trứ.",
-          "Câu 6. Khởi nghĩa Lam Sơn do ai lãnh đạo?",
-          "A. Lê Lợi.    B. Lê Lai.    C. Nguyễn Huệ.    D. Phan Đình Phùng.",
-          "Câu 7. Triều Nguyễn được thành lập vào năm nào?",
-          "A. 1010.    B. 1802.    C. 1858.    D. 1945.",
-          "Câu 8. Di sản văn hóa tiêu biểu gắn với Triều Nguyễn là:",
-          "A. Thành Cổ Loa.    B. Tháp Chăm Mỹ Sơn.    C. Đền Hùng.    D. Quần thể di tích Cố đô Huế."
-        ],
-        "dodung": [
-          "Câu 9. Nêu vai trò của biển, đảo đối với nước ta. Gợi ý: tài nguyên, giao thông, du lịch, quốc phòng - an ninh. (2 điểm)",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          "Câu 10. Kể lại một số nét chính về khởi nghĩa Lam Sơn. Gợi ý: người lãnh đạo, thời gian, địa điểm, kết quả, ý nghĩa. (2 điểm)",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          "ĐỀ KIỂM TRA CUỐI HỌC KÌ I (TIẾP THEO)",
-          "Câu 11. Hoàn thành bảng sau về một số nhân vật lịch sử tiêu biểu. (1 điểm)",
-          "Câu 12. Em cần làm gì để trân trọng lịch sử dân tộc và giữ gìn các di sản văn hóa? Viết 2 đến 3 việc làm cụ thể của bản thân. (1 điểm)",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          ".................................................................................................................................................",
-          "--- HẾT ---",
-          "ĐÁP ÁN VÀ BIỂU ĐIỂM",
-          "KẾ HOẠCH BÀI DẠY MÔN LỊCH SỬ VÀ ĐỊA LÍ 5",
-          "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
-          "TUẦN: 18"
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
-          [
-            [
-              "Mạch nội dung",
-              "Yêu cầu đánh giá",
-              "Nhận biết",
-              "Thông hiểu",
-              "Vận dụng",
-              "Điểm"
-            ],
-            [
-              "Đất nước và con người Việt Nam",
-              "Nhận biết vị trí, thiên nhiên, biển đảo, dân cư Việt Nam; nêu vai trò của biển, đảo đối với nước ta.",
-              "Câu 1, 2",
-              "Câu 9",
-              "",
-              "2,5"
-            ],
-            [
-              "Những quốc gia đầu tiên trên lãnh thổ Việt Nam",
-              "Nhận biết nét tiêu biểu của Văn Lang, Âu Lạc, Phù Nam, Chăm-pa.",
-              "Câu 3",
-              "",
-              "",
-              "0,5"
-            ],
-            [
-              "Xây dựng và bảo vệ đất nước Việt Nam",
-              "Nhận biết, trình bày sự kiện, nhân vật lịch sử tiêu biểu từ thời Bắc thuộc đến Triều Nguyễn.",
-              "Câu 4, 5, 6, 7, 8",
-              "Câu 10",
-              "Câu 11, 12",
-              "7,0"
-            ],
-            [
-              "Tổng",
-              "",
-              "4,0 điểm",
-              "3,0 điểm",
-              "3,0 điểm",
-              "10,0"
-            ]
-          ],
-          [
-            [
-              "Nhân vật lịch sử",
-              "Đóng góp tiêu biểu"
-            ],
-            [
-              "Lý Thái Tổ",
-              "........................................................................................................................"
-            ],
-            [
-              "Trần Quốc Tuấn",
-              "........................................................................................................................"
-            ],
-            [
-              "Lê Lợi",
-              "........................................................................................................................"
-            ],
-            [
-              "Nguyễn Công Trứ",
-              "........................................................................................................................"
-            ]
-          ],
-          [
-            [
-              "Câu",
-              "1",
-              "2",
-              "3",
-              "4",
-              "5",
-              "6",
-              "7",
-              "8"
-            ],
-            [
-              "Đáp án",
-              "B",
-              "A",
-              "C",
-              "A",
-              "B",
-              "A",
-              "B",
-              "D"
-            ]
-          ],
-          [
-            [
-              "Câu / Điểm",
-              "Yêu cầu cần đạt / Gợi ý đáp án"
-            ],
-            [
-              "Câu 92,0 điểm",
-              "- Nêu được biển, đảo có nhiều tài nguyên, thuận lợi cho đánh bắt, nuôi trồng thủy sản.- Nêu được biển, đảo góp phần phát triển giao thông, du lịch, giao lưu với các nước.- Nêu được biển, đảo có vị trí quan trọng trong bảo vệ chủ quyền, quốc phòng - an ninh."
-            ],
-            [
-              "Câu 102,0 điểm",
-              "- Khởi nghĩa Lam Sơn do Lê Lợi lãnh đạo, nổ ra ở Lam Sơn (Thanh Hóa) năm 1418.- Cuộc khởi nghĩa kéo dài 10 năm, trải qua nhiều khó khăn, có sự góp sức của nhiều nhân vật như Nguyễn Trãi, Lê Lai, Nguyễn Chích.- Năm 1427, nghĩa quân giành thắng lợi; năm 1428, Lê Lợi lên ngôi, lập Triều Hậu Lê."
-            ],
-            [
-              "Câu 111,0 điểm",
-              "- Lý Thái Tổ: dời đô ra Đại La, đổi tên là Thăng Long.- Trần Quốc Tuấn: lãnh đạo quân dân kháng chiến chống quân Mông - Nguyên.- Lê Lợi: lãnh đạo khởi nghĩa Lam Sơn thắng lợi.- Nguyễn Công Trứ: có công trong công cuộc khai hoang, lập huyện Tiền Hải, Kim Sơn.Mỗi ý đúng được 0,25 điểm."
-            ],
-            [
-              "Câu 121,0 điểm",
-              "HS nêu được 2 đến 3 việc làm phù hợp, ví dụ: học tập lịch sử nghiêm túc; biết ơn nhân vật lịch sử; giữ gìn di tích, không vẽ bậy, không xả rác; tuyên truyền với bạn bè, người thân về bảo vệ di sản; thực hiện tốt trách nhiệm của học sinh."
-            ]
-          ]
-        ],
-        "title": "TUẦN 18: KIỂM TRA CUỐI HỌC KÌ 1"
-      },
-      {
-        "lessonTitle": "BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 1)",
+        "lessonTitle": "MA TRẬN ĐỀ KIỂM TRA CUỐI HỌC KÌ I - Môn: Lịch sử và Địa lí - Lớp 5 | Thời gian: 35 phút | Tổng điểm: 10 điểm - TRƯỜNG TIỂU HỌC: .................................................... - ĐỀ KIỂM TRA CUỐI HỌC KÌ I - Môn: Lịch sử và Địa lí - Lớp 5 - Thời gian làm bài: 35 phút | Tổng điểm: 10 điểm - Họ tên: ............................................................    Lớp: 5......    Ngày: ....../....../2025 - Điểm: ..............    Nhận xét: .......................................................................................... - I. TRẮC NGHIỆM (4 điểm) - Khoanh vào chữ cái trước ý trả lời đúng nhất. - Câu 1. Việt Nam nằm ở khu vực nào? - A. Đông Bắc Á.    B. Đông Nam Á.    C. Nam Á.    D. Tây Á. - Câu 2. Hai quần đảo thuộc chủ quyền của Việt Nam trên Biển Đông là: - A. Hoàng Sa và Trường Sa.    B. Phú Quốc và Côn Đảo.    C. Cô Tô và Cát Bà.    D. Lý Sơn và Cồn Cỏ. - Câu 3. Nhà nước đầu tiên trên lãnh thổ Việt Nam là: - A. Âu Lạc.    B. Chăm-pa.    C. Văn Lang.    D. Phù Nam. - Câu 4. Vua Lý Thái Tổ dời đô về Đại La và đổi tên là: - A. Thăng Long.    B. Phú Xuân.    C. Hoa Lư.    D. Cổ Loa. - Câu 5. Nhân vật lịch sử gắn với chiến thắng Bạch Đằng thời Trần là: - A. Lê Lợi.    B. Trần Quốc Tuấn.    C. Nguyễn Trãi.    D. Nguyễn Công Trứ. - Câu 6. Khởi nghĩa Lam Sơn do ai lãnh đạo? - A. Lê Lợi.    B. Lê Lai.    C. Nguyễn Huệ.    D. Phan Đình Phùng. - Câu 7. Triều Nguyễn được thành lập vào năm nào? - A. 1010.    B. 1802.    C. 1858.    D. 1945. - Câu 8. Di sản văn hóa tiêu biểu gắn với Triều Nguyễn là: - A. Thành Cổ Loa.    B. Tháp Chăm Mỹ Sơn.    C. Đền Hùng.    D. Quần thể di tích Cố đô Huế. - II. TỰ LUẬN (6 điểm) - Câu 9. Nêu vai trò của biển, đảo đối với nước ta. Gợi ý: tài nguyên, giao thông, du lịch, quốc phòng - an ninh. (2 điểm) - ................................................................................................................................................. - ................................................................................................................................................. - ................................................................................................................................................. - ................................................................................................................................................. - Câu 10. Kể lại một số nét chính về khởi nghĩa Lam Sơn. Gợi ý: người lãnh đạo, thời gian, địa điểm, kết quả, ý nghĩa. (2 điểm) - ................................................................................................................................................. - ................................................................................................................................................. - ................................................................................................................................................. - ................................................................................................................................................. - ................................................................................................................................................. - ĐỀ KIỂM TRA CUỐI HỌC KÌ I (TIẾP THEO) - Câu 11. Hoàn thành bảng sau về một số nhân vật lịch sử tiêu biểu. (1 điểm) - Câu 12. Em cần làm gì để trân trọng lịch sử dân tộc và giữ gìn các di sản văn hóa? Viết 2 đến 3 việc làm cụ thể của bản thân. (1 điểm) - ................................................................................................................................................. - ................................................................................................................................................. - ................................................................................................................................................. - ................................................................................................................................................. - --- HẾT --- - ĐÁP ÁN VÀ BIỂU ĐIỂM - I. Trắc nghiệm (4 điểm): Mỗi câu đúng được 0,5 điểm. - II. Tự luận (6 điểm) - TUẦN: 18 - BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5882,10 +5722,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Tư liệu, tranh ảnh sưu tầm về Cách mạng tháng Tám năm 1945 nếu được giao trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          ".................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6020,7 +5858,10 @@
             ]
           ]
         ],
-        "title": "BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 1)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       }
     ]
   },
@@ -6029,7 +5870,7 @@
     "sourceFile": "LSĐL TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 2)",
+        "lessonTitle": "TUẦN: 19 - BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6057,11 +5898,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Câu chuyện, tranh ảnh đã sưu tầm về Hồ Chí Minh, Võ Nguyên Giáp, Kim Đồng hoặc sự kiện ngày 2-9-1945."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          "..................................................................................................................",
-          "TUẦN: 19"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6208,10 +6046,13 @@
             ]
           ]
         ],
-        "title": "BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 2)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 1)",
+        "lessonTitle": "TUẦN: 19 - BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6239,10 +6080,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, câu chuyện sưu tầm về chiến dịch Điện Biên Phủ năm 1954 nếu được giao trước."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          ".................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6460,7 +6299,10 @@
             ]
           ]
         ],
-        "title": "BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 1)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       }
     ]
   },
@@ -6469,7 +6311,7 @@
     "sourceFile": "LSĐL TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 2)",
+        "lessonTitle": "TUẦN: 20 - BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6496,11 +6338,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Câu chuyện, tranh ảnh, thơ, bài hát về chiến dịch Điện Biên Phủ nếu được giao sưu tầm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          "..................................................................................................................",
-          "TUẦN: 20"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6643,10 +6482,13 @@
             ]
           ]
         ],
-        "title": "BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 2)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 1)",
+        "lessonTitle": "TUẦN: 20 - BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6676,10 +6518,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, tư liệu hoặc câu chuyện về Chiến dịch Hồ Chí Minh năm 1975 đã sưu tầm được theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6688,7 +6528,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú học tập, gợi nhớ sự kiện ngày 30 - 4 - 1975 và dẫn dắt vào bài học.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, gợi nhớ sự kiện ngày 30 - 4 - 1975 và dẫn dắt vào bài học.\n*Cách tiến hành:"
             ],
             [
               "- GV cho HS nghe một đoạn bài hát Như có Bác trong ngày vui đại thắng và hỏi: Bài hát gợi cho em nhớ đến sự kiện lịch sử nào của dân tộc?",
@@ -6707,7 +6547,7 @@
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
-              "2. Khám phá (25 phút)Mục tiêu: HS đọc thông tin, khai thác tranh ảnh, lược đồ và tư liệu trong SGK để kể lại diễn biến chính của Chiến dịch Hồ Chí Minh năm 1975. Tích hợp AI 5.C4.2: HS biết dùng AI Search sưu tầm hình ảnh, video tư liệu về sự kiện 30 - 4 - 1975 và kiểm chứng bằng SGK.*Cách tiến hành:"
+              "2. Khám phá (25 phút)\nMục tiêu: HS đọc thông tin, khai thác tranh ảnh, lược đồ và tư liệu trong SGK để kể lại diễn biến chính của Chiến dịch Hồ Chí Minh năm 1975. Tích hợp AI 5.C4.2: HS biết dùng AI Search sưu tầm hình ảnh, video tư liệu về sự kiện 30 - 4 - 1975 và kiểm chứng bằng SGK.\n*Cách tiến hành:"
             ],
             [
               "2.1. Tìm hiểu bối cảnh và các mốc chính của Chiến dịch Hồ Chí Minh"
@@ -6744,7 +6584,7 @@
               "2.2. Khai thác tranh ảnh, lược đồ và kể lại diễn biến chính của chiến dịch"
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 1 trong SGK và trả lời: Bức ảnh ghi lại cảnh gì? Em thấy chi tiết nào nổi bật nhất trong ảnh?\n\nHình 1. Quân ta tiến vào Dinh Độc Lập ngày 30 - 4 - 1975",
+              "- GV yêu cầu HS quan sát Hình 1 trong SGK và trả lời: Bức ảnh ghi lại cảnh gì? Em thấy chi tiết nào nổi bật nhất trong ảnh?\nHình 1. Quân ta tiến vào Dinh Độc Lập ngày 30 - 4 - 1975",
               "- HS quan sát và trả lời: Hình 1 ghi lại cảnh quân ta tiến vào Dinh Độc Lập ngày 30 - 4 - 1975; chi tiết nổi bật là xe tăng của Quân Giải phóng tiến qua cổng Dinh Độc Lập."
             ],
             [
@@ -6752,7 +6592,7 @@
               "- HS trả lời: Dinh Độc Lập là nơi chính quyền Sài Gòn đặt bộ máy lãnh đạo; quân ta tiến vào Dinh Độc Lập chứng tỏ chính quyền Sài Gòn đã hoàn toàn sụp đổ."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 2, đọc bảng chú giải trên lược đồ và trả lời: Lược đồ thể hiện nội dung gì?\n\nHình 2. Lược đồ Chiến dịch Hồ Chí Minh",
+              "- GV yêu cầu HS quan sát Hình 2, đọc bảng chú giải trên lược đồ và trả lời: Lược đồ thể hiện nội dung gì?\nHình 2. Lược đồ Chiến dịch Hồ Chí Minh",
               "- HS quan sát và trả lời: Lược đồ thể hiện các hướng tấn công của Quân Giải phóng vào Sài Gòn trong Chiến dịch Hồ Chí Minh."
             ],
             [
@@ -6804,7 +6644,7 @@
               "- HS lắng nghe, hoàn thiện câu trả lời và nhắc lại nội dung chính."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: Củng cố diễn biến chính và ý nghĩa của Chiến dịch Hồ Chí Minh năm 1975. Tích hợp QPAN: HS hiểu ý nghĩa của đại thắng mùa Xuân 1975 đối với độc lập, thống nhất đất nước và trách nhiệm bảo vệ Tổ quốc.*Cách tiến hành:"
+              "3. Luyện tập (8 phút)\nMục tiêu: Củng cố diễn biến chính và ý nghĩa của Chiến dịch Hồ Chí Minh năm 1975. Tích hợp QPAN: HS hiểu ý nghĩa của đại thắng mùa Xuân 1975 đối với độc lập, thống nhất đất nước và trách nhiệm bảo vệ Tổ quốc.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS hoàn thành bảng tóm tắt diễn biến chính của Chiến dịch Hồ Chí Minh.",
@@ -6839,7 +6679,7 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của chiến thắng và trách nhiệm của bản thân."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (2 phút)Mục tiêu: Vận dụng kiến thức để sưu tầm, giới thiệu tư liệu về Chiến dịch Hồ Chí Minh.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (2 phút)\nMục tiêu: Vận dụng kiến thức để sưu tầm, giới thiệu tư liệu về Chiến dịch Hồ Chí Minh.\n*Cách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ: Về nhà sưu tầm một tranh ảnh, bài viết ngắn hoặc video tư liệu về Chiến dịch Hồ Chí Minh năm 1975 để chia sẻ ở tiết sau.",
@@ -6851,7 +6691,10 @@
             ]
           ]
         ],
-        "title": "BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 1)"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       }
     ]
   },
@@ -6860,7 +6703,7 @@
     "sourceFile": "LSĐL TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 2)",
+        "lessonTitle": "TUẦN: 21 - BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6890,11 +6733,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, tư liệu hoặc câu chuyện về Chiến dịch Hồ Chí Minh năm 1975 đã sưu tầm được theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................",
-          "................................................................................................................",
-          "TUẦN: 21"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -6903,7 +6743,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Ôn lại diễn biến chính của Chiến dịch Hồ Chí Minh, kết nối với hoạt động kể chuyện lịch sử.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Ôn lại diễn biến chính của Chiến dịch Hồ Chí Minh, kết nối với hoạt động kể chuyện lịch sử.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi nhanh “Ô cửa thời gian” và hỏi: Ngày 26 - 4 - 1975 gắn với sự kiện nào?",
@@ -6922,13 +6762,13 @@
               "- HS lắng nghe, chuẩn bị SGK và tư liệu đã sưu tầm."
             ],
             [
-              "2. Khám phá (25 phút)Mục tiêu: HS đọc thông tin, khai thác tranh ảnh và kể lại được một số câu chuyện lịch sử về Chiến dịch Hồ Chí Minh. Tích hợp NLS 1.3.CB2a: HS biết sưu tầm, lưu trữ và sắp xếp tư liệu số về sự kiện 30 - 4 - 1975 theo tên tư liệu, thời gian, nội dung.*Cách tiến hành:"
+              "2. Khám phá (25 phút)\nMục tiêu: HS đọc thông tin, khai thác tranh ảnh và kể lại được một số câu chuyện lịch sử về Chiến dịch Hồ Chí Minh. Tích hợp NLS 1.3.CB2a: HS biết sưu tầm, lưu trữ và sắp xếp tư liệu số về sự kiện 30 - 4 - 1975 theo tên tư liệu, thời gian, nội dung.\n*Cách tiến hành:"
             ],
             [
               "2.1. Kể chuyện Phi đội Quyết thắng tấn công sân bay Tân Sơn Nhất"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện trong SGK, quan sát Hình 3 và trả lời: Hình 3 giới thiệu những ai?\n\nHình 3. Phi đội Quyết thắng tại sân bay Thành Sơn",
+              "- GV yêu cầu HS đọc câu chuyện trong SGK, quan sát Hình 3 và trả lời: Hình 3 giới thiệu những ai?\nHình 3. Phi đội Quyết thắng tại sân bay Thành Sơn",
               "- HS đọc thông tin, quan sát hình và trả lời: Hình 3 giới thiệu Phi đội Quyết thắng tại sân bay Thành Sơn, gồm các phi công tham gia nhiệm vụ tấn công sân bay Tân Sơn Nhất."
             ],
             [
@@ -6983,7 +6823,7 @@
               "2.2. Kể chuyện Dương Văn Minh tuyên bố đầu hàng"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện trong SGK, quan sát Hình 4 và trả lời: Bức ảnh ghi lại thời khắc nào?\n\nHình 4. Dương Văn Minh trên đường đến Đài phát thanh Sài Gòn trưa 30 - 4 - 1975",
+              "- GV yêu cầu HS đọc câu chuyện trong SGK, quan sát Hình 4 và trả lời: Bức ảnh ghi lại thời khắc nào?\nHình 4. Dương Văn Minh trên đường đến Đài phát thanh Sài Gòn trưa 30 - 4 - 1975",
               "- HS đọc thông tin, quan sát hình và trả lời: Hình 4 ghi lại cảnh Dương Văn Minh trên đường đến Đài phát thanh Sài Gòn trưa 30 - 4 - 1975 để đọc lời tuyên bố đầu hàng."
             ],
             [
@@ -7019,7 +6859,7 @@
               "- HS lắng nghe, ghi nhớ nội dung chuẩn kiến thức."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: Củng cố nội dung các câu chuyện lịch sử và bày tỏ cảm nghĩ về Chiến dịch Hồ Chí Minh. Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS bồi dưỡng lòng yêu nước, ý thức giữ gìn hòa bình, thống nhất dân tộc.*Cách tiến hành:"
+              "3. Luyện tập (8 phút)\nMục tiêu: Củng cố nội dung các câu chuyện lịch sử và bày tỏ cảm nghĩ về Chiến dịch Hồ Chí Minh. Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS bồi dưỡng lòng yêu nước, ý thức giữ gìn hòa bình, thống nhất dân tộc.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS hoàn thành bảng tóm tắt hai câu chuyện lịch sử đã học.",
@@ -7058,7 +6898,7 @@
               "- HS lắng nghe, hoàn thiện đoạn viết và ghi nhớ bài học."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (2 phút)Mục tiêu: Vận dụng kiến thức để giới thiệu một tư liệu hoặc di tích lịch sử liên quan đến Chiến dịch Hồ Chí Minh.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (2 phút)\nMục tiêu: Vận dụng kiến thức để giới thiệu một tư liệu hoặc di tích lịch sử liên quan đến Chiến dịch Hồ Chí Minh.\n*Cách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ: Về nhà chọn một tư liệu, hình ảnh hoặc di tích liên quan đến Chiến dịch Hồ Chí Minh để giới thiệu với các bạn trong 3 - 5 câu.",
@@ -7070,10 +6910,13 @@
             ]
           ]
         ],
-        "title": "BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 2)"
+        "dieuchinh": [
+          "................................................................................................................",
+          "................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 1)",
+        "lessonTitle": "TUẦN: 21 - BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7101,11 +6944,8 @@
           "- SGK Lịch sử và Địa lí 5, vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, câu chuyện, hiện vật hoặc thông tin sưu tầm về thời bao cấp và thời kì Đổi mới theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          ".................................................................................................................................",
-          ".................................................................................................................................",
-          "................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7301,7 +7141,11 @@
             ]
           ]
         ],
-        "title": "BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 1)"
+        "dieuchinh": [
+          ".................................................................................................................................",
+          ".................................................................................................................................",
+          "................................................................................................................................."
+        ]
       }
     ]
   },
@@ -7310,7 +7154,7 @@
     "sourceFile": "LSĐL TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 2)",
+        "lessonTitle": "TUẦN: 22 - BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7338,12 +7182,8 @@
           "- SGK Lịch sử và Địa lí 5, vở ghi, bút, đồ dùng học tập.",
           "- Tư liệu đã sưu tầm về một thành tựu của đất nước trong thời kì Đổi mới."
         ],
-        "activities": [],
-        "dieuchinh": [
-          ".................................................................................................................................",
-          ".................................................................................................................................",
-          ".................................................................................................................................",
-          "TUẦN: 22"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7543,10 +7383,14 @@
             ]
           ]
         ],
-        "title": "BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 2)"
+        "dieuchinh": [
+          ".................................................................................................................................",
+          ".................................................................................................................................",
+          "................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 1)",
+        "lessonTitle": "TUẦN: 22 - BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7574,11 +7418,8 @@
           "- SGK Lịch sử và Địa lí 5, vở ghi, bút, đồ dùng học tập.",
           "- Tư liệu, tranh ảnh sưu tầm về Trung Quốc nếu có."
         ],
-        "activities": [],
-        "dieuchinh": [
-          ".................................................................................................................................",
-          ".................................................................................................................................",
-          "................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7587,7 +7428,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú học tập, kết nối với chủ đề các nước láng giềng.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với chủ đề các nước láng giềng.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS quan sát hình 1 trong SGK và hỏi: Con vật trong hình là con vật nào?",
@@ -7606,11 +7447,11 @@
               "- HS trả lời: Trung Quốc tiếp giáp với nước ta ở phía bắc."
             ],
             [
-              "- GV chốt và dẫn vào bài: Trung Quốc là một nước láng giềng lớn của Việt Nam. Bài học hôm nay giúp các em tìm hiểu vị trí địa lí, tự nhiên, dân cư và một số nét tiêu biểu của đất nước này.\n\nHình 1. Gấu trúc",
+              "- GV chốt và dẫn vào bài: Trung Quốc là một nước láng giềng lớn của Việt Nam. Bài học hôm nay giúp các em tìm hiểu vị trí địa lí, tự nhiên, dân cư và một số nét tiêu biểu của đất nước này.\nHình 1. Gấu trúc",
               "- HS lắng nghe và ghi tên bài."
             ],
             [
-              "2. Khám phá (25 phút)Mục tiêu: Xác định được vị trí địa lí; nêu và so sánh được một số đặc điểm tự nhiên, dân cư của Trung Quốc. Mục tiêu tích hợp: HS biết dùng bản đồ số để xác định vị trí Trung Quốc và một số địa danh tiêu biểu; biết tôn trọng sự khác biệt văn hoá, dân tộc của nước bạn."
+              "2. Khám phá (25 phút)\nMục tiêu: Xác định được vị trí địa lí; nêu và so sánh được một số đặc điểm tự nhiên, dân cư của Trung Quốc. Mục tiêu tích hợp: HS biết dùng bản đồ số để xác định vị trí Trung Quốc và một số địa danh tiêu biểu; biết tôn trọng sự khác biệt văn hoá, dân tộc của nước bạn."
             ],
             [
               "2.1. Vị trí địa lí"
@@ -7620,7 +7461,7 @@
               "- HS lắng nghe, ghi nhớ tên đầy đủ của Trung Quốc."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 1 và quan sát hình 2: Bản đồ Trung Quốc trong châu Á.\n\nHình 2. Bản đồ Trung Quốc trong châu Á",
+              "- GV yêu cầu HS đọc thông tin mục 1 và quan sát hình 2: Bản đồ Trung Quốc trong châu Á.\nHình 2. Bản đồ Trung Quốc trong châu Á",
               "- HS đọc thông tin, quan sát bản đồ, chú ý tên nước, vị trí Trung Quốc, các biển và các nước tiếp giáp."
             ],
             [
@@ -7659,7 +7500,7 @@
               "2.2. Đặc điểm tự nhiên"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 2 và quan sát hình 3: Bản đồ tự nhiên Trung Quốc.\n\nHình 3. Bản đồ tự nhiên Trung Quốc",
+              "- GV yêu cầu HS đọc thông tin mục 2 và quan sát hình 3: Bản đồ tự nhiên Trung Quốc.\nHình 3. Bản đồ tự nhiên Trung Quốc",
               "- HS đọc thông tin, quan sát bản đồ tự nhiên, chú ý địa hình, sông, hoang mạc, đồng bằng và các màu thể hiện độ cao."
             ],
             [
@@ -7726,7 +7567,7 @@
               "- HS nhắc lại nội dung chính của mục dân cư."
             ],
             [
-              "3. Luyện tập (7 phút)Mục tiêu: Củng cố kiến thức về vị trí địa lí, tự nhiên và dân cư Trung Quốc.*Cách tiến hành:"
+              "3. Luyện tập (7 phút)\nMục tiêu: Củng cố kiến thức về vị trí địa lí, tự nhiên và dân cư Trung Quốc.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS đọc Câu 1 trong SGK: So sánh đặc điểm địa hình và khí hậu của miền Đông với miền Tây Trung Quốc bằng cách hoàn thành bảng.",
@@ -7749,7 +7590,7 @@
               "- HS trả lời: Miền Đông có đồng bằng, nhiều sông lớn và khí hậu thuận lợi hơn."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: Vận dụng kiến thức để tìm hiểu thêm về vị trí và đặc điểm Trung Quốc.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: Vận dụng kiến thức để tìm hiểu thêm về vị trí và đặc điểm Trung Quốc.\n*Cách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ: Về nhà quan sát bản đồ hoặc bản đồ số, tìm vị trí thủ đô Bắc Kinh, Vạn Lý Trường Thành, Cố cung Bắc Kinh và ghi lại 2 - 3 thông tin ngắn gọn.",
@@ -7765,7 +7606,11 @@
             ]
           ]
         ],
-        "title": "BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 1)"
+        "dieuchinh": [
+          ".................................................................................................................................",
+          ".................................................................................................................................",
+          "................................................................................................................................."
+        ]
       }
     ]
   },
@@ -7774,7 +7619,7 @@
     "sourceFile": "LSĐL TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 2)",
+        "lessonTitle": "TUẦN: 23 - BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7791,7 +7636,9 @@
           "- Trách nhiệm: biết kiểm chứng thông tin, không sao chép máy móc, có ý thức giữ gìn và trân trọng di sản văn hoá nhân loại.",
           "4. Tích hợp",
           "- Tích hợp AI 5.C4.2: HS dùng ứng dụng dịch thuật AI để tìm hiểu nghĩa gốc, cách phát âm địa danh Trung Hoa.",
-          "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS giao tiếp văn minh, tôn trọng văn hoá nước bạn."
+          "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS giao tiếp văn minh, tôn trọng văn hoá nước bạn.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Bảo vệ cảnh quan khuôn viên ao sen, hồ nước trong xanh tại Khu di tích Đền thờ Bác Hồ.",
+          "- Giáo dục địa phương (Chủ đề 2): Khu di tích lịch sử Đền thờ Bác Hồ (xã Long Đức, thành phố Trà Vinh) - biểu tượng tấm lòng son sắt thủy chung của quân dân Trà Vinh đối với Bác."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -7802,12 +7649,8 @@
           "- SGK Lịch sử và Địa lí 5, vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, câu chuyện hoặc thông tin đã sưu tầm về một công trình tiêu biểu của Trung Quốc."
         ],
-        "activities": [],
-        "dieuchinh": [
-          ".................................................................................................................................",
-          ".................................................................................................................................",
-          ".................................................................................................................................",
-          "TUẦN: 23"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -7816,7 +7659,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Khơi gợi hiểu biết của HS về các công trình tiêu biểu của Trung Quốc.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Khơi gợi hiểu biết của HS về các công trình tiêu biểu của Trung Quốc.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi “Nhìn hình đoán công trình”. GV lần lượt cho HS quan sát một phần hình ảnh về tượng binh sĩ đất nung, Vạn Lý Trường Thành, Cố cung Bắc Kinh.",
@@ -7835,7 +7678,7 @@
               "- HS lắng nghe, ghi tên bài."
             ],
             [
-              "2. Khám phá (25 phút)Mục tiêu: Kể tên, mô tả và kể được câu chuyện về một số công trình tiêu biểu của Trung Quốc; biết sử dụng công cụ AI có kiểm chứng để hỗ trợ tìm hiểu tên gọi, cách phát âm địa danh. Mục tiêu tích hợp: HS biết dùng công cụ dịch thuật AI đúng cách; biết giao tiếp văn minh, tôn trọng văn hoá nước bạn."
+              "2. Khám phá (25 phút)\nMục tiêu: Kể tên, mô tả và kể được câu chuyện về một số công trình tiêu biểu của Trung Quốc; biết sử dụng công cụ AI có kiểm chứng để hỗ trợ tìm hiểu tên gọi, cách phát âm địa danh. Mục tiêu tích hợp: HS biết dùng công cụ dịch thuật AI đúng cách; biết giao tiếp văn minh, tôn trọng văn hoá nước bạn."
             ],
             [
               "2.1. Một số công trình tiêu biểu của Trung Quốc"
@@ -7845,7 +7688,7 @@
               "- HS đọc thông tin, quan sát tranh ảnh và xác định tên các công trình tiêu biểu."
             ],
             [
-              "- GV cho HS quan sát hình 4 và hỏi: Hình 4 giới thiệu công trình hoặc di sản nào của Trung Quốc?\n\nHình 4. Tượng binh sĩ bằng đất nung trong lăng mộ Tần Thuỷ Hoàng",
+              "- GV cho HS quan sát hình 4 và hỏi: Hình 4 giới thiệu công trình hoặc di sản nào của Trung Quốc?\nHình 4. Tượng binh sĩ bằng đất nung trong lăng mộ Tần Thuỷ Hoàng",
               "- HS trả lời: Hình 4 giới thiệu tượng binh sĩ bằng đất nung trong lăng mộ Tần Thuỷ Hoàng."
             ],
             [
@@ -7853,7 +7696,7 @@
               "- HS trả lời: Có rất nhiều tượng, tư thế khác nhau, khuôn mặt sinh động như người thật."
             ],
             [
-              "- GV cho HS quan sát hình 5 và hỏi: Vạn Lý Trường Thành được xây dựng nhằm mục đích gì?\n\nHình 5. Một đoạn Vạn Lý Trường Thành",
+              "- GV cho HS quan sát hình 5 và hỏi: Vạn Lý Trường Thành được xây dựng nhằm mục đích gì?\nHình 5. Một đoạn Vạn Lý Trường Thành",
               "- HS trả lời: Vạn Lý Trường Thành được xây dựng để ngăn chặn những cuộc tấn công từ bên ngoài vào Trung Quốc."
             ],
             [
@@ -7861,7 +7704,7 @@
               "- HS trả lời: Công trình rất dài, xây dựng qua nhiều triều đại, có quy mô lớn và gắn với nhiều câu chuyện lịch sử."
             ],
             [
-              "- GV cho HS quan sát hình 6 và hỏi: Cố cung Bắc Kinh là công trình gì?\n\nHình 6. Cố cung Bắc Kinh",
+              "- GV cho HS quan sát hình 6 và hỏi: Cố cung Bắc Kinh là công trình gì?\nHình 6. Cố cung Bắc Kinh",
               "- HS trả lời: Cố cung Bắc Kinh là hoàng cung của hai triều đại Minh và Thanh ở Trung Quốc."
             ],
             [
@@ -7924,7 +7767,7 @@
               "- HS lắng nghe và ghi nhớ nội dung chính."
             ],
             [
-              "3. Luyện tập (7 phút)Mục tiêu: Củng cố kiến thức về tự nhiên và công trình tiêu biểu của Trung Quốc.*Cách tiến hành:"
+              "3. Luyện tập (7 phút)\nMục tiêu: Củng cố kiến thức về tự nhiên và công trình tiêu biểu của Trung Quốc.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS đọc Câu 1 trong SGK: So sánh đặc điểm địa hình và khí hậu của miền Đông với miền Tây Trung Quốc.",
@@ -7955,7 +7798,7 @@
               "- HS lắng nghe, rút kinh nghiệm để hoàn thiện phần giới thiệu."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: Vận dụng kiến thức để tìm hiểu thêm công trình nổi tiếng khác của Trung Quốc.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: Vận dụng kiến thức để tìm hiểu thêm công trình nổi tiếng khác của Trung Quốc.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS đọc nhiệm vụ Vận dụng trong SGK: Tìm hiểu qua sách, báo, internet, hãy kể tên một số công trình nổi tiếng khác của Trung Quốc.",
@@ -7974,15 +7817,23 @@
               "- HS ghi nhớ nhiệm vụ và chuẩn bị bài sau."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 2) & Mizuiku: GV giới thiệu di tích lịch sử tiêu biểu của tỉnh Trà Vinh: Khu di tích Đền thờ Chủ tịch Hồ Chí Minh tại ấp Vĩnh Hội, xã Long Đức, thành phố Trà Vinh. Ngôi đền được nhân dân Trà Vinh anh dũng xây dựng và bảo vệ ngay trong tầm pháo của giặc Mỹ để tưởng nhớ Bác Hồ muôn vàn kính yêu. Khuôn viên đền có hồ sen trong ngát, rợp mát bóng cây. Em cần có thái độ thế nào khi đến viếng Đền thờ Bác?",
+              "- HS bày tỏ niềm tự hào về truyền thống bất khuất của quê hương Trà Vinh; cam kết khi đến viếng Đền thờ Bác Hồ sẽ đi nhẹ nói khẽ, giữ gìn trang nghiêm và không vứt rác xuống hồ sen, bảo vệ nguồn nước sạch đẹp nơi di tích."
+            ],
+            [
               "- GV nhận xét tiết học, tuyên dương HS kể chuyện tự tin, sử dụng tranh ảnh phù hợp và biết tôn trọng văn hoá nước bạn.",
               "- HS lắng nghe, tự đánh giá kết quả học tập."
             ]
           ]
         ],
-        "title": "BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 2)"
+        "dieuchinh": [
+          ".................................................................................................................................",
+          ".................................................................................................................................",
+          "................................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 1)",
+        "lessonTitle": "TUẦN: 23 - BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8010,10 +7861,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, câu chuyện, thông tin sưu tầm về nước Lào theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          ".................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8173,7 +8022,10 @@
             ]
           ]
         ],
-        "title": "BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 1)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       }
     ]
   },
@@ -8182,7 +8034,7 @@
     "sourceFile": "LSĐL TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 2)",
+        "lessonTitle": "TUẦN: 24 - BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8208,11 +8060,8 @@
           "2. Học sinh",
           "- SGK, vở ghi, bút; tranh ảnh hoặc thông tin sưu tầm về một công trình tiêu biểu của Lào."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          "..................................................................................................................",
-          "TUẦN: 24"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8344,10 +8193,13 @@
             ]
           ]
         ],
-        "title": "BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 2)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 1)",
+        "lessonTitle": "TUẦN: 24 - BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8376,10 +8228,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, tư liệu sưu tầm về Cam-pu-chia hoặc công trình tiêu biểu của Cam-pu-chia theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          ".................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8388,7 +8238,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú học tập; kết nối hình ảnh Quốc kì Cam-pu-chia với nội dung bài học.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; kết nối hình ảnh Quốc kì Cam-pu-chia với nội dung bài học.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS quan sát hình 1 trong SGK và hỏi: Trên Quốc kì Cam-pu-chia có hình công trình kiến trúc nào?",
@@ -8407,7 +8257,7 @@
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
-              "2. Khám phá (25 phút)Mục tiêu: Xác định được vị trí địa lí; nêu được một số đặc điểm cơ bản về tự nhiên và dân cư của Cam-pu-chia.*Mục tiêu tích hợp AI 5.A2.2: HS biết AI có thể hỗ trợ khách du lịch qua hướng dẫn ảo, dịch thuật nhưng cần kiểm chứng thông tin bằng SGK và nguồn đáng tin cậy."
+              "2. Khám phá (25 phút)\nMục tiêu: Xác định được vị trí địa lí; nêu được một số đặc điểm cơ bản về tự nhiên và dân cư của Cam-pu-chia.\n*Mục tiêu tích hợp AI 5.A2.2: HS biết AI có thể hỗ trợ khách du lịch qua hướng dẫn ảo, dịch thuật nhưng cần kiểm chứng thông tin bằng SGK và nguồn đáng tin cậy."
             ],
             [
               "2.1. Vị trí địa lí"
@@ -8496,7 +8346,7 @@
               "- HS lắng nghe và trả lời: Vì AI có thể trả lời chưa đầy đủ hoặc chưa chính xác; cần kiểm chứng bằng SGK, bản đồ và nguồn đáng tin cậy."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: Củng cố kiến thức về vị trí, tự nhiên và dân cư Cam-pu-chia; biết điền thông tin vào bảng học tập.*Mục tiêu tích hợp BVMT: HS liên hệ được việc bảo vệ cảnh quan, môi trường tại di sản văn hóa."
+              "3. Luyện tập (8 phút)\nMục tiêu: Củng cố kiến thức về vị trí, tự nhiên và dân cư Cam-pu-chia; biết điền thông tin vào bảng học tập.\n*Mục tiêu tích hợp BVMT: HS liên hệ được việc bảo vệ cảnh quan, môi trường tại di sản văn hóa."
             ],
             [
               "- GV yêu cầu HS đọc Câu 1 trong SGK: Dựa vào bản đồ tự nhiên Cam-pu-chia, hãy kể tên các quốc gia tiếp giáp với Cam-pu-chia; một số dãy núi, sông và hồ lớn ở Cam-pu-chia.",
@@ -8527,7 +8377,7 @@
               "- HS lắng nghe và sửa bài vào vở."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (2 phút)Mục tiêu: Vận dụng kiến thức để chuẩn bị nội dung giới thiệu về Cam-pu-chia ở tiết học sau.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (2 phút)\nMục tiêu: Vận dụng kiến thức để chuẩn bị nội dung giới thiệu về Cam-pu-chia ở tiết học sau.\n*Cách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ: Sưu tầm một tranh ảnh hoặc tư liệu ngắn về Ăng-co Vát, Ăng-co Thom, Tượng đài hữu nghị Việt Nam - Cam-pu-chia hoặc Biển Hồ để chuẩn bị cho tiết 2.",
@@ -8543,7 +8393,10 @@
             ]
           ]
         ],
-        "title": "BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 1)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       }
     ]
   },
@@ -8552,7 +8405,7 @@
     "sourceFile": "LSĐL TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 2)",
+        "lessonTitle": "TUẦN: 25 - BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8581,11 +8434,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, tư liệu sưu tầm về Cam-pu-chia hoặc công trình tiêu biểu của Cam-pu-chia theo hướng dẫn của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          "..................................................................................................................",
-          "TUẦN: 25"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8594,7 +8444,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Ôn lại kiến thức tiết 1; tạo hứng thú tìm hiểu các công trình tiêu biểu của Cam-pu-chia.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Ôn lại kiến thức tiết 1; tạo hứng thú tìm hiểu các công trình tiêu biểu của Cam-pu-chia.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi “Ô cửa Cam-pu-chia”: HS trả lời nhanh 3 câu hỏi: Cam-pu-chia giáp những nước nào? Hồ nước ngọt lớn nhất Đông Nam Á ở Cam-pu-chia tên gì? Công trình nào xuất hiện trên Quốc kì Cam-pu-chia?",
@@ -8605,7 +8455,7 @@
               "- HS lắng nghe, ghi tên bài."
             ],
             [
-              "2. Khám phá (25 phút)Mục tiêu: Kể tên, mô tả được một số công trình tiêu biểu của Cam-pu-chia; biết khai thác tranh ảnh, tư liệu để giới thiệu công trình.*Mục tiêu tích hợp NLS 1.1.CB2b: HS biết khai thác hình ảnh, video số, chọn thông tin phù hợp để giới thiệu nét tiêu biểu của Cam-pu-chia."
+              "2. Khám phá (25 phút)\nMục tiêu: Kể tên, mô tả được một số công trình tiêu biểu của Cam-pu-chia; biết khai thác tranh ảnh, tư liệu để giới thiệu công trình.\n*Mục tiêu tích hợp NLS 1.1.CB2b: HS biết khai thác hình ảnh, video số, chọn thông tin phù hợp để giới thiệu nét tiêu biểu của Cam-pu-chia."
             ],
             [
               "2.1. Một số công trình tiêu biểu của Cam-pu-chia"
@@ -8663,7 +8513,7 @@
               "- HS trả lời: Cần chọn nguồn đáng tin cậy, xem kĩ nội dung, chọn thông tin ngắn gọn, kiểm chứng với SGK, không sao chép nguyên văn và ghi nhớ nguồn tư liệu."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: Củng cố kiến thức về các công trình tiêu biểu của Cam-pu-chia; biết trình bày thông tin theo bảng.*Mục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết tôn trọng văn hoá, lịch sử Cam-pu-chia và giữ gìn tình hữu nghị với các nước láng giềng."
+              "3. Luyện tập (8 phút)\nMục tiêu: Củng cố kiến thức về các công trình tiêu biểu của Cam-pu-chia; biết trình bày thông tin theo bảng.\n*Mục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết tôn trọng văn hoá, lịch sử Cam-pu-chia và giữ gìn tình hữu nghị với các nước láng giềng."
             ],
             [
               "- GV yêu cầu HS đọc Câu 2 trong SGK: Giới thiệu một công trình tiêu biểu của Cam-pu-chia theo gợi ý: tên công trình, địa điểm, điểm nổi bật của công trình.",
@@ -8694,7 +8544,7 @@
               "- HS lắng nghe, chỉnh sửa bảng và bài giới thiệu."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (2 phút)Mục tiêu: Vận dụng kiến thức để giới thiệu hoặc sưu tầm thêm tư liệu về Cam-pu-chia.*Cách tiến hành:"
+              "4. Vận dụng - Trải nghiệm (2 phút)\nMục tiêu: Vận dụng kiến thức để giới thiệu hoặc sưu tầm thêm tư liệu về Cam-pu-chia.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS đọc nhiệm vụ Vận dụng trong SGK: Chọn và thực hiện một trong hai nhiệm vụ: nói tên công trình Cam-pu-chia muốn đến thăm và nêu lí do; hoặc sưu tầm tranh ảnh, tư liệu về công trình tiêu biểu khác của Cam-pu-chia.",
@@ -8710,10 +8560,13 @@
             ]
           ]
         ],
-        "title": "BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 2)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 1)",
+        "lessonTitle": "TUẦN: 25 - BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8743,10 +8596,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, tư liệu, hình quốc kì hoặc thông tin ngắn về một số nước ASEAN sưu tầm được theo yêu cầu của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          ".................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8755,7 +8606,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú học tập, kết nối với sự kiện văn hoá - thể thao của khu vực Đông Nam Á."
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với sự kiện văn hoá - thể thao của khu vực Đông Nam Á."
             ],
             [
               "- GV yêu cầu HS quan sát hình 1 và hỏi: Đây là biểu tượng của sự kiện nào? Sự kiện này thường có sự tham gia của các quốc gia ở khu vực nào?",
@@ -8774,7 +8625,7 @@
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
-              "2. Khám phá (25 phút)Mục tiêu: Xác định được vị trí Đông Nam Á, kể tên các nước trong khu vực; nêu được sự ra đời, mục tiêu của ASEAN.\nMục tiêu tích hợp: HS biết trao đổi ý nghĩa cờ ASEAN và mục tiêu hợp tác ASEAN qua Padlet/phần mềm nhắn tin nhóm; thực hiện quy tắc ứng xử lịch sự, tích cực trên môi trường số."
+              "2. Khám phá (25 phút)\nMục tiêu: Xác định được vị trí Đông Nam Á, kể tên các nước trong khu vực; nêu được sự ra đời, mục tiêu của ASEAN.\nMục tiêu tích hợp: HS biết trao đổi ý nghĩa cờ ASEAN và mục tiêu hợp tác ASEAN qua Padlet/phần mềm nhắn tin nhóm; thực hiện quy tắc ứng xử lịch sự, tích cực trên môi trường số."
             ],
             [
               "- GV yêu cầu HS đọc thông tin mục 1, quan sát hình 2 và xác định khu vực Đông Nam Á trên bản đồ.",
@@ -8841,7 +8692,7 @@
               "- HS lắng nghe, nhắc lại ý chính."
             ],
             [
-              "3. Luyện tập (7 phút)Mục tiêu: Củng cố kĩ năng xác định các nước ASEAN trên lược đồ; hiểu nguyên tắc bình đẳng, hợp tác và tôn trọng lẫn nhau giữa các quốc gia."
+              "3. Luyện tập (7 phút)\nMục tiêu: Củng cố kĩ năng xác định các nước ASEAN trên lược đồ; hiểu nguyên tắc bình đẳng, hợp tác và tôn trọng lẫn nhau giữa các quốc gia."
             ],
             [
               "- GV yêu cầu HS đọc nhiệm vụ Luyện tập: Dựa vào bản đồ các quốc gia trong khu vực Đông Nam Á, hãy xác định các quốc gia thành viên của ASEAN trên bản đồ.",
@@ -8864,7 +8715,7 @@
               "- HS lắng nghe và nêu: Em cần tôn trọng bạn bè, tôn trọng sự khác biệt văn hóa và có thái độ hữu nghị với các nước láng giềng, các nước trong khu vực."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: Biết sưu tầm, chia sẻ hình ảnh quốc kì hoặc thông tin ngắn về một quốc gia ASEAN."
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: Biết sưu tầm, chia sẻ hình ảnh quốc kì hoặc thông tin ngắn về một quốc gia ASEAN."
             ],
             [
               "- GV yêu cầu HS đọc nhiệm vụ Vận dụng trong SGK: Sưu tầm và chia sẻ với bạn hình ảnh quốc kì của một số quốc gia thành viên ASEAN.",
@@ -8880,7 +8731,10 @@
             ]
           ]
         ],
-        "title": "BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 1)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       }
     ]
   },
@@ -8889,7 +8743,7 @@
     "sourceFile": "LSĐL TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 2)",
+        "lessonTitle": "TUẦN: 26 - BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8919,11 +8773,8 @@
           "- SGK Lịch sử và Địa lí 5; vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, tư liệu, hình quốc kì hoặc thông tin ngắn về một số nước ASEAN sưu tầm được theo yêu cầu của GV."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "..................................................................................................................",
-          "..................................................................................................................",
-          "TUẦN: 26"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -8932,7 +8783,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Ôn lại kiến thức về ASEAN, tạo tâm thế tìm hiểu ý nghĩa Việt Nam gia nhập ASEAN."
+              "1. Khởi động (5 phút)\nMục tiêu: Ôn lại kiến thức về ASEAN, tạo tâm thế tìm hiểu ý nghĩa Việt Nam gia nhập ASEAN."
             ],
             [
               "- GV tổ chức trò chơi nhanh “Ai nhớ đúng?” và hỏi: ASEAN được thành lập năm nào? Có mấy nước sáng lập?",
@@ -8947,7 +8798,7 @@
               "- HS suy nghĩ, dự đoán câu trả lời theo hiểu biết cá nhân."
             ],
             [
-              "2. Khám phá (25 phút)Mục tiêu: Nêu được ý nghĩa của việc Việt Nam gia nhập ASEAN; bước đầu nhận biết vai trò, đóng góp của Việt Nam trong ASEAN.\nMục tiêu tích hợp: HS thảo luận được chatbot AI cần dữ liệu đa dạng để phục vụ công bằng người dân các nước ASEAN; biết đối chiếu thông tin AI với SGK."
+              "2. Khám phá (25 phút)\nMục tiêu: Nêu được ý nghĩa của việc Việt Nam gia nhập ASEAN; bước đầu nhận biết vai trò, đóng góp của Việt Nam trong ASEAN.\nMục tiêu tích hợp: HS thảo luận được chatbot AI cần dữ liệu đa dạng để phục vụ công bằng người dân các nước ASEAN; biết đối chiếu thông tin AI với SGK."
             ],
             [
               "- GV yêu cầu HS đọc thông tin mục 2b, quan sát hình 4 và cho biết: Việt Nam gia nhập ASEAN vào ngày, tháng, năm nào?",
@@ -8990,7 +8841,7 @@
               "- HS lắng nghe, ghi nhớ nội dung chính."
             ],
             [
-              "3. Luyện tập (7 phút)Mục tiêu: Củng cố kiến thức về Việt Nam trong ASEAN và mối liên hệ giữa hợp tác khu vực với hòa bình, ổn định, an ninh chung."
+              "3. Luyện tập (7 phút)\nMục tiêu: Củng cố kiến thức về Việt Nam trong ASEAN và mối liên hệ giữa hợp tác khu vực với hòa bình, ổn định, an ninh chung."
             ],
             [
               "- GV yêu cầu HS hoàn thành bảng tóm tắt về Việt Nam trong ASEAN trong cột HS.",
@@ -9009,7 +8860,7 @@
               "- HS lắng nghe và nêu: Em cần học tập tốt, giao tiếp văn minh, tôn trọng các nước bạn và biết trân trọng hòa bình."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (3 phút)Mục tiêu: Vận dụng kiến thức để sưu tầm, giới thiệu quốc kì hoặc thông tin ngắn về một quốc gia ASEAN."
+              "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu: Vận dụng kiến thức để sưu tầm, giới thiệu quốc kì hoặc thông tin ngắn về một quốc gia ASEAN."
             ],
             [
               "- GV yêu cầu HS đọc lại nhiệm vụ Vận dụng: Sưu tầm và chia sẻ về hình ảnh quốc kì của một số quốc gia thành viên ASEAN.",
@@ -9029,10 +8880,13 @@
             ]
           ]
         ],
-        "title": "BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 2)"
+        "dieuchinh": [
+          "..................................................................................................................",
+          ".................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 1)",
+        "lessonTitle": "TUẦN: 26 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9063,10 +8917,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, tư liệu sưu tầm về một châu lục hoặc đại dương mà em yêu thích."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9210,7 +9062,10 @@
             ]
           ]
         ],
-        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 1)"
+        "dieuchinh": [
+          "........................................................................................................................",
+          "........................................................................................................................"
+        ]
       }
     ]
   },
@@ -9219,7 +9074,7 @@
     "sourceFile": "LSĐL TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 2)",
+        "lessonTitle": "TUẦN: 27 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9250,11 +9105,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, tư liệu sưu tầm về một châu lục hoặc đại dương mà em yêu thích."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "........................................................................................................................",
-          "TUẦN: 27"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9406,10 +9258,13 @@
             ]
           ]
         ],
-        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 2)"
+        "dieuchinh": [
+          "........................................................................................................................",
+          "........................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 3)",
+        "lessonTitle": "TUẦN: 27 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 3)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9438,10 +9293,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Một tranh ảnh hoặc thông tin ngắn về môi trường ở một châu lục/đại dương mà em quan tâm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9534,7 +9387,7 @@
             ],
             [
               "- GV yêu cầu HS hoàn thành bảng ngắn trong vở: Châu lục/đại dương - Đặc điểm nổi bật - Vấn đề môi trường cần quan tâm.",
-              "- HS hoàn thành bảng trong vở.Châu lục/đại dương | Đặc điểm nổi bật | Vấn đề môi trường cần quan tâmChâu Nam Cực | Lạnh, băng tuyết bao phủ | Băng tanĐại dương | Bao phủ phần lớn bề mặt Trái Đất | Rác thải nhựa, ô nhiễm nước"
+              "- HS hoàn thành bảng trong vở.\nChâu lục/đại dương | Đặc điểm nổi bật | Vấn đề môi trường cần quan tâm\nChâu Nam Cực | Lạnh, băng tuyết bao phủ | Băng tan\nĐại dương | Bao phủ phần lớn bề mặt Trái Đất | Rác thải nhựa, ô nhiễm nước"
             ],
             [
               "- GV gọi 2 - 3 HS trình bày bảng, yêu cầu các bạn nhận xét nội dung đã đúng và đủ chưa.",
@@ -9561,7 +9414,10 @@
             ]
           ]
         ],
-        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 3)"
+        "dieuchinh": [
+          "........................................................................................................................",
+          "........................................................................................................................"
+        ]
       }
     ]
   },
@@ -9570,7 +9426,7 @@
     "sourceFile": "LSĐL TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 4)",
+        "lessonTitle": "TUẦN: 28 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 4)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9598,11 +9454,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Một thông tin hoặc hình ảnh sưu tầm về đại dương, nguồn nước mà em quan tâm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "........................................................................................................................",
-          "TUẦN: 28"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9630,7 +9483,7 @@
               "- HS lắng nghe, chuẩn bị SGK, vở ghi và đồ dùng học tập."
             ],
             [
-              "2. Khám phá (55 phút)Mục tiêu: Kể tên, xác định vị trí các đại dương; so sánh diện tích, độ sâu trung bình của các đại dương trên thế giới."
+              "2. Khám phá (55 phút)\nMục tiêu: Kể tên, xác định vị trí các đại dương; so sánh diện tích, độ sâu trung bình của các đại dương trên thế giới."
             ],
             [
               "2.1. Các đại dương trên thế giới"
@@ -9695,7 +9548,7 @@
               "- HS lắng nghe, đối chiếu bảng của nhóm và sửa nếu cần."
             ],
             [
-              "3. Luyện tập (10 phút)Mục tiêu: Củng cố kiến thức về đại dương và liên hệ tiết kiệm, bảo vệ nguồn nước."
+              "3. Luyện tập (10 phút)\nMục tiêu: Củng cố kiến thức về đại dương và liên hệ tiết kiệm, bảo vệ nguồn nước."
             ],
             [
               "- GV nêu câu hỏi: Đại dương nào lớn nhất thế giới? Đại dương nào nhỏ nhất thế giới?",
@@ -9714,7 +9567,7 @@
               "- HS lắng nghe, tự chọn một việc làm sẽ thực hiện sau bài học."
             ],
             [
-              "4. Vận dụng (5 phút)Mục tiêu: Vận dụng kiến thức để tuyên truyền bảo vệ nguồn nước."
+              "4. Vận dụng (5 phút)\nMục tiêu: Vận dụng kiến thức để tuyên truyền bảo vệ nguồn nước."
             ],
             [
               "- GV giao nhiệm vụ: Về nhà sưu tầm một hình ảnh hoặc thông tin ngắn về bảo vệ đại dương, sông, hồ hoặc nguồn nước địa phương để chia sẻ ở tiết sau.",
@@ -9726,10 +9579,13 @@
             ]
           ]
         ],
-        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 4)"
+        "dieuchinh": [
+          "........................................................................................................................",
+          "........................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 5)",
+        "lessonTitle": "TUẦN: 28 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 5)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9757,10 +9613,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Thông tin hoặc tranh ảnh đã sưu tầm về một châu lục, đại dương hoặc hoạt động bảo vệ Trái Đất."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9769,7 +9623,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo tâm thế học tập và kết nối kiến thức về châu lục, đại dương với trách nhiệm bảo vệ Trái Đất."
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo tâm thế học tập và kết nối kiến thức về châu lục, đại dương với trách nhiệm bảo vệ Trái Đất."
             ],
             [
               "- GV tổ chức hoạt động “Thông điệp từ Trái Đất”: yêu cầu HS nêu một từ khóa nói về thế giới tự nhiên mà em muốn bảo vệ.",
@@ -9784,7 +9638,7 @@
               "- HS lắng nghe, chuẩn bị phiếu học tập."
             ],
             [
-              "2. Khám phá (45 phút)Mục tiêu: Hệ thống kiến thức về các châu lục, đại dương; vận dụng để nhận xét và đề xuất thông điệp bảo vệ Trái Đất."
+              "2. Khám phá (45 phút)\nMục tiêu: Hệ thống kiến thức về các châu lục, đại dương; vận dụng để nhận xét và đề xuất thông điệp bảo vệ Trái Đất."
             ],
             [
               "2.1. Hệ thống hoá kiến thức về châu lục và đại dương"
@@ -9841,7 +9695,7 @@
               "- HS lắng nghe, ghi nhớ một việc làm cụ thể của bản thân."
             ],
             [
-              "3. Luyện tập (15 phút)Mục tiêu: Củng cố kiến thức trọng tâm của Bài 22."
+              "3. Luyện tập (15 phút)\nMục tiêu: Củng cố kiến thức trọng tâm của Bài 22."
             ],
             [
               "- GV tổ chức trò chơi “Hộp câu hỏi địa lí”: HS bốc thăm và trả lời câu hỏi ngắn.",
@@ -9868,7 +9722,7 @@
               "- HS lắng nghe và hoàn thiện kiến thức."
             ],
             [
-              "4. Vận dụng (5 phút)Mục tiêu: Vận dụng kiến thức để bày tỏ mong muốn khám phá thế giới và trách nhiệm bảo vệ môi trường."
+              "4. Vận dụng (5 phút)\nMục tiêu: Vận dụng kiến thức để bày tỏ mong muốn khám phá thế giới và trách nhiệm bảo vệ môi trường."
             ],
             [
               "- GV giao nhiệm vụ: Viết 5 - 7 câu trả lời câu hỏi: Trong các châu lục đã học, em muốn được đặt chân đến khám phá châu lục nào? Vì sao?",
@@ -9884,7 +9738,10 @@
             ]
           ]
         ],
-        "title": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 5)"
+        "dieuchinh": [
+          "........................................................................................................................",
+          "........................................................................................................................"
+        ]
       }
     ]
   },
@@ -9893,7 +9750,7 @@
     "sourceFile": "LSĐL TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 1)",
+        "lessonTitle": "TUẦN: 29 - BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9922,11 +9779,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Một số tranh ảnh, thông tin sưu tầm về dân cư, văn hoá của một châu lục em biết."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "........................................................................................................................",
-          "TUẦN: 29"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -9935,7 +9789,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú học tập, huy động hiểu biết ban đầu của HS về dân số, màu da và sự khác biệt giữa các nhóm người trên thế giới."
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, huy động hiểu biết ban đầu của HS về dân số, màu da và sự khác biệt giữa các nhóm người trên thế giới."
             ],
             [
               "- GV cho HS đọc hai câu trong bài hát “Thiếu nhi thế giới liên hoan”: “Vàng, đen, trắng, nước da không chia tấm lòng”. GV hỏi: Theo em, câu hát trên thể hiện ý nghĩa gì?",
@@ -9954,7 +9808,7 @@
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
-              "2. Khám phá (27 phút)Mục tiêu: HS sử dụng bảng số liệu, tranh ảnh để so sánh dân số các châu lục và mô tả một số nét chính về ngoại hình của các chủng tộc chính trên thế giới."
+              "2. Khám phá (27 phút)\nMục tiêu: HS sử dụng bảng số liệu, tranh ảnh để so sánh dân số các châu lục và mô tả một số nét chính về ngoại hình của các chủng tộc chính trên thế giới."
             ],
             [
               "2.1. Dân số thế giới"
@@ -10023,7 +9877,7 @@
               "- HS lắng nghe, ghi nhớ và bổ sung vào vở."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: Củng cố kiến thức về dân số các châu lục và đặc điểm ngoại hình của các chủng tộc chính trên thế giới."
+              "3. Luyện tập (8 phút)\nMục tiêu: Củng cố kiến thức về dân số các châu lục và đặc điểm ngoại hình của các chủng tộc chính trên thế giới."
             ],
             [
               "- GV yêu cầu HS dựa vào bảng số dân các châu lục năm 2024, sắp xếp số dân các châu lục theo thứ tự từ nhỏ đến lớn.",
@@ -10042,7 +9896,7 @@
               "- HS lắng nghe, tự điều chỉnh cách diễn đạt cho phù hợp."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (5 phút)Mục tiêu: HS vận dụng kiến thức để nhận xét về sự đa dạng của con người trên thế giới."
+              "4. Vận dụng - Trải nghiệm (5 phút)\nMục tiêu: HS vận dụng kiến thức để nhận xét về sự đa dạng của con người trên thế giới."
             ],
             [
               "- GV tích hợp Quyền con người: GV giao nhiệm vụ: Viết 2 - 3 câu nêu suy nghĩ của em về sự đa dạng màu da, ngoại hình của con người trên thế giới. GV nhấn mạnh: Mọi người đều có quyền bình đẳng, không bị phân biệt đối xử vì màu da, chủng tộc, nơi sinh sống, ngôn ngữ hay văn hoá. GV gợi ý HS nêu cách ứng xử văn minh: tôn trọng, không trêu chọc, không hùa theo hành vi kì thị, biết bảo vệ bạn bị trêu chọc và báo thầy cô khi cần.",
@@ -10054,10 +9908,13 @@
             ]
           ]
         ],
-        "title": "BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 1)"
+        "dieuchinh": [
+          "........................................................................................................................",
+          "........................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 2)",
+        "lessonTitle": "TUẦN: 29 - BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10086,10 +9943,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Một số tranh ảnh, thông tin sưu tầm về dân cư, văn hoá của một châu lục em biết."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10098,7 +9953,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Ôn lại kiến thức về dân số, đặc điểm ngoại hình của các chủng tộc chính và tạo hứng thú tìm hiểu sự phân bố của các chủng tộc trên thế giới."
+              "1. Khởi động (5 phút)\nMục tiêu: Ôn lại kiến thức về dân số, đặc điểm ngoại hình của các chủng tộc chính và tạo hứng thú tìm hiểu sự phân bố của các chủng tộc trên thế giới."
             ],
             [
               "- GV tổ chức trò chơi “Ai nhớ nhanh hơn”: HS nêu tên một chủng tộc chính trên thế giới và một đặc điểm ngoại hình tiêu biểu.",
@@ -10113,7 +9968,7 @@
               "- HS lắng nghe, ghi nội dung bài học."
             ],
             [
-              "2. Khám phá (27 phút)Mục tiêu: HS sử dụng bản đồ phân bố các chủng tộc để trình bày sự phân bố cơ bản của các chủng tộc chính trên thế giới; biết liên hệ việc sử dụng AI công bằng, không phân biệt chủng tộc."
+              "2. Khám phá (27 phút)\nMục tiêu: HS sử dụng bản đồ phân bố các chủng tộc để trình bày sự phân bố cơ bản của các chủng tộc chính trên thế giới; biết liên hệ việc sử dụng AI công bằng, không phân biệt chủng tộc."
             ],
             [
               "2.1. Sự phân bố của các chủng tộc"
@@ -10174,7 +10029,7 @@
               "- HS lắng nghe, ghi nhớ và tự liên hệ bản thân."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: Củng cố kiến thức về sự phân bố của các chủng tộc chính và thái độ tôn trọng sự khác biệt."
+              "3. Luyện tập (8 phút)\nMục tiêu: Củng cố kiến thức về sự phân bố của các chủng tộc chính và thái độ tôn trọng sự khác biệt."
             ],
             [
               "- GV yêu cầu HS hoàn thành bảng tóm tắt về sự phân bố chủ yếu của các chủng tộc chính trên thế giới.",
@@ -10193,7 +10048,7 @@
               "- HS trình bày kết quả; HS khác nhận xét, bổ sung và hoàn thiện bài làm."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (5 phút)Mục tiêu: HS vận dụng kiến thức để viết đoạn văn thể hiện suy nghĩ về việc tôn trọng sự khác biệt chủng tộc."
+              "4. Vận dụng - Trải nghiệm (5 phút)\nMục tiêu: HS vận dụng kiến thức để viết đoạn văn thể hiện suy nghĩ về việc tôn trọng sự khác biệt chủng tộc."
             ],
             [
               "- GV yêu cầu HS đọc nhiệm vụ Vận dụng trong SGK: Viết một đoạn văn 5 - 7 câu thể hiện suy nghĩ của em về việc tôn trọng sự khác biệt chủng tộc.",
@@ -10209,7 +10064,10 @@
             ]
           ]
         ],
-        "title": "BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 2)"
+        "dieuchinh": [
+          "........................................................................................................................",
+          "........................................................................................................................"
+        ]
       }
     ]
   },
@@ -10218,7 +10076,7 @@
     "sourceFile": "LSĐL TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 24. VĂN MINH AI CẬP (TIẾT 1)",
+        "lessonTitle": "TUẦN: 30 - BÀI 24. VĂN MINH AI CẬP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10234,6 +10092,7 @@
           "- Trách nhiệm: có ý thức giữ gìn, bảo vệ nguồn nước, bảo vệ di sản văn hoá và sử dụng tư liệu học tập đúng mục đích.",
           "- Nhân ái: biết trân trọng thành quả lao động, sáng tạo của con người trong lịch sử và tôn trọng giá trị văn minh nhân loại.",
           "4. Tích hợp",
+          "- Tích hợp AI 5.C4.1: HS thiết kế quy trình “Nếu phát hiện nhiệt độ trong kim tự tháp quá cao thì robot AI tự động điều chỉnh thông gió”.",
           "- Tích hợp tiết kiệm và bảo vệ nguồn nước: HS liên hệ vai trò sông Nin và ý thức bảo vệ nguồn nước đối với đời sống con người."
         ],
         "dodung": [
@@ -10246,11 +10105,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, câu chuyện, thông tin sưu tầm về văn minh Ai Cập cổ đại."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "........................................................................................................................",
-          "TUẦN: 30"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10259,7 +10115,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú học tập, huy động hiểu biết ban đầu của HS về thành tựu văn minh Ai Cập cổ đại."
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, huy động hiểu biết ban đầu của HS về thành tựu văn minh Ai Cập cổ đại."
             ],
             [
               "- GV yêu cầu HS quan sát Hình 1 và cho biết: Đây là công trình, hình tượng nổi tiếng nào? Thuộc nền văn minh nào?",
@@ -10278,7 +10134,7 @@
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
-              "2. Khám phá (27 phút)Mục tiêu: HS xác định được vị trí địa lí của Ai Cập hiện nay; kể tên, mô tả một số thành tựu tiêu biểu của văn minh Ai Cập; nêu được vai trò của sông Nin đối với sự hình thành và phát triển của văn minh Ai Cập."
+              "2. Khám phá (27 phút)\nMục tiêu: HS xác định được vị trí địa lí của Ai Cập hiện nay; kể tên, mô tả một số thành tựu tiêu biểu của văn minh Ai Cập; nêu được vai trò của sông Nin đối với sự hình thành và phát triển của văn minh Ai Cập."
             ],
             [
               "2.1. Vị trí địa lí của Ai Cập hiện nay"
@@ -10351,7 +10207,7 @@
               "- HS lắng nghe, ghi nhớ và hoàn thiện bảng vào vở."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: Củng cố vị trí địa lí của Ai Cập và các thành tựu tiêu biểu của văn minh Ai Cập."
+              "3. Luyện tập (8 phút)\nMục tiêu: Củng cố vị trí địa lí của Ai Cập và các thành tựu tiêu biểu của văn minh Ai Cập."
             ],
             [
               "- GV yêu cầu HS trả lời: Ai Cập nằm ở châu lục nào và có con sông lớn nào chảy qua?",
@@ -10370,7 +10226,7 @@
               "- HS lắng nghe, tự điều chỉnh câu trả lời nếu cần."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (5 phút)Mục tiêu: HS vận dụng kiến thức để giới thiệu một thành tựu văn minh Ai Cập và liên hệ bảo vệ nguồn nước."
+              "4. Vận dụng - Trải nghiệm (5 phút)\nMục tiêu: HS vận dụng kiến thức để giới thiệu một thành tựu văn minh Ai Cập và liên hệ bảo vệ nguồn nước."
             ],
             [
               "- GV giao nhiệm vụ: Viết 2 - 3 câu giới thiệu một thành tựu văn minh Ai Cập cổ đại mà em ấn tượng nhất.",
@@ -10386,10 +10242,13 @@
             ]
           ]
         ],
-        "title": "BÀI 24. VĂN MINH AI CẬP (TIẾT 1)"
+        "dieuchinh": [
+          "........................................................................................................................",
+          "........................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 24. VĂN MINH AI CẬP (TIẾT 2)",
+        "lessonTitle": "TUẦN: 30 - BÀI 24. VĂN MINH AI CẬP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10418,10 +10277,8 @@
           "- Vở ghi, bút, đồ dùng học tập.",
           "- Tranh ảnh, câu chuyện, thông tin sưu tầm về văn minh Ai Cập cổ đại."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................",
-          "........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10430,7 +10287,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Ôn lại thành tựu văn minh Ai Cập và tạo hứng thú kể chuyện về kim tự tháp, pha-ra-ông."
+              "1. Khởi động (5 phút)\nMục tiêu: Ôn lại thành tựu văn minh Ai Cập và tạo hứng thú kể chuyện về kim tự tháp, pha-ra-ông."
             ],
             [
               "- GV tổ chức trò chơi “Ô cửa bí mật”: GV nêu tên thành tựu, HS nói nhanh một đặc điểm hoặc ý nghĩa của thành tựu đó.",
@@ -10445,7 +10302,7 @@
               "- HS lắng nghe, chuẩn bị SGK và tư liệu đã sưu tầm."
             ],
             [
-              "2. Khám phá (27 phút)Mục tiêu: HS kể lại được câu chuyện về kim tự tháp, pha-ra-ông; biết khai thác hình ảnh, video số và chọn thông tin tiêu biểu để giới thiệu thành tựu văn minh Ai Cập."
+              "2. Khám phá (27 phút)\nMục tiêu: HS kể lại được câu chuyện về kim tự tháp, pha-ra-ông; biết khai thác hình ảnh, video số và chọn thông tin tiêu biểu để giới thiệu thành tựu văn minh Ai Cập."
             ],
             [
               "2.1. Chuyện kể về kim tự tháp Kê-ốp"
@@ -10526,7 +10383,7 @@
               "- HS lắng nghe, ghi nhớ và hoàn thiện nội dung vào vở."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: Củng cố kĩ năng kể chuyện, mô tả thành tựu và nêu cảm nghĩ về văn minh Ai Cập cổ đại."
+              "3. Luyện tập (8 phút)\nMục tiêu: Củng cố kĩ năng kể chuyện, mô tả thành tựu và nêu cảm nghĩ về văn minh Ai Cập cổ đại."
             ],
             [
               "- GV yêu cầu HS chọn một thành tựu văn minh Ai Cập khác mà em sưu tầm được và mô tả theo gợi ý: tên thành tựu, đặc điểm, ý nghĩa.",
@@ -10549,7 +10406,7 @@
               "- HS lắng nghe và tự liên hệ bản thân."
             ],
             [
-              "4. Vận dụng - Trải nghiệm (5 phút)Mục tiêu: HS vận dụng kiến thức để tìm hiểu, giới thiệu một thành tựu văn minh Ai Cập còn được bảo tồn đến ngày nay."
+              "4. Vận dụng - Trải nghiệm (5 phút)\nMục tiêu: HS vận dụng kiến thức để tìm hiểu, giới thiệu một thành tựu văn minh Ai Cập còn được bảo tồn đến ngày nay."
             ],
             [
               "- GV giao nhiệm vụ: Tìm hiểu qua sách, báo, internet hoặc hỏi người thân, hãy kể tên một thành tựu văn minh Ai Cập vẫn còn được bảo tồn đến ngày nay.",
@@ -10565,7 +10422,10 @@
             ]
           ]
         ],
-        "title": "BÀI 24. VĂN MINH AI CẬP (TIẾT 2)"
+        "dieuchinh": [
+          "........................................................................................................................",
+          "........................................................................................................................"
+        ]
       }
     ]
   },
@@ -10574,7 +10434,7 @@
     "sourceFile": "LSĐL TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 25. VĂN MINH HY LẠP (TIẾT 1)",
+        "lessonTitle": "TUẦN: 31 - BÀI 25. VĂN MINH HY LẠP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10597,11 +10457,8 @@
           "- Giáo viên: SGK, lược đồ vị trí Hy Lạp, tranh ảnh minh họa đền Pác-tê-nông, Thế vận hội, chữ cái Hy Lạp, thành tựu khoa học - nghệ thuật; máy tính, máy chiếu, phiếu học tập.",
           "- Học sinh: SGK, vở, bút màu, tranh ảnh/tư liệu sưu tầm về văn minh Hy Lạp cổ đại."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "TUẦN: 31"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10713,10 +10570,13 @@
             ]
           ]
         ],
-        "title": "BÀI 25. VĂN MINH HY LẠP (TIẾT 1)"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 25. VĂN MINH HY LẠP (TIẾT 2)",
+        "lessonTitle": "TUẦN: 31 - BÀI 25. VĂN MINH HY LẠP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10739,10 +10599,8 @@
           "- Giáo viên: SGK, mẫu thẻ thông tin số, tranh ảnh/tư liệu về thành tựu văn minh Hy Lạp; máy tính, máy chiếu, Canva/PowerPoint.",
           "- Học sinh: SGK, vở, bút màu, thiết bị học tập theo điều kiện lớp; tư liệu đã sưu tầm về văn minh Hy Lạp."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "......................................................................................................................................................."
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10792,7 +10650,7 @@
               "- HS chỉnh sửa sản phẩm, rút gọn thông tin, trình bày thẻ thông tin rõ ràng hơn."
             ],
             [
-              "2.2. Chia sẻ thẻ thông tin số về thành tựu văn minh Hy Lạp (10 phút)Mục tiêu: HS biết trình bày sản phẩm, nhận xét lịch sự và tôn trọng giá trị văn hóa, khoa học, nghệ thuật của nhân loại.Cách tiến hành:"
+              "2.2. Chia sẻ thẻ thông tin số về thành tựu văn minh Hy Lạp (10 phút)\nMục tiêu: HS biết trình bày sản phẩm, nhận xét lịch sự và tôn trọng giá trị văn hóa, khoa học, nghệ thuật của nhân loại.\nCách tiến hành:"
             ],
             [
               "- GV mời đại diện nhóm trình bày thẻ thông tin số trong 1 phút theo trình tự: tên thành tựu, đặc điểm nổi bật, ý nghĩa.",
@@ -10826,7 +10684,7 @@
               "- HS lắng nghe, ghi nhớ cách giới thiệu thành tựu văn minh."
             ],
             [
-              "4. Vận dụng (8 phút)Mục tiêu: HS vận dụng kiến thức để hoàn thiện sản phẩm và chia sẻ thông điệp tôn trọng quyền được học tập, tiếp cận văn hóa, khoa học, nghệ thuật của nhân loại.Cách tiến hành:\nMục tiêu tích hợp: HS hiểu quyền được học tập, tiếp cận văn hóa, khoa học, nghệ thuật của nhân loại; biết tôn trọng giá trị chung của thế giới khi chia sẻ sản phẩm."
+              "4. Vận dụng (8 phút)\nMục tiêu: HS vận dụng kiến thức để hoàn thiện sản phẩm và chia sẻ thông điệp tôn trọng quyền được học tập, tiếp cận văn hóa, khoa học, nghệ thuật của nhân loại.\nCách tiến hành:\nMục tiêu tích hợp: HS hiểu quyền được học tập, tiếp cận văn hóa, khoa học, nghệ thuật của nhân loại; biết tôn trọng giá trị chung của thế giới khi chia sẻ sản phẩm."
             ],
             [
               "- Tích hợp QCN: GV giao nhiệm vụ: Hoàn thiện thẻ thông tin số ở nhà; có thể in, trình chiếu hoặc dán vào vở học tập. Sản phẩm cần có một câu thông điệp thể hiện quyền được học tập, tiếp cận văn hóa, khoa học, nghệ thuật của nhân loại. GV nhấn mạnh: mỗi người đều có quyền tìm hiểu các giá trị văn minh chung của thế giới; khi chia sẻ sản phẩm, HS cần tôn trọng văn hóa khác, không làm sai lệch thông tin, không sử dụng hình ảnh/tác phẩm thiếu tôn trọng và biết chia sẻ tri thức tích cực với bạn bè, người thân.",
@@ -10842,7 +10700,10 @@
             ]
           ]
         ],
-        "title": "BÀI 25. VĂN MINH HY LẠP (TIẾT 2)"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "......................................................................................................................................................."
+        ]
       }
     ]
   },
@@ -10851,7 +10712,7 @@
     "sourceFile": "LSĐL TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 1)",
+        "lessonTitle": "TUẦN: 32 - BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10874,11 +10735,8 @@
           "- Giáo viên: SGK, hình ảnh băng tan ở Bắc Cực, bảng một số vấn đề môi trường, hình ảnh thảm họa thiên tai, lũ quét, cháy rừng, ô nhiễm nước, máy tính, máy chiếu, phiếu học tập.",
           "- Học sinh: SGK, vở ghi, bút màu, tư liệu hoặc tranh ảnh về vấn đề môi trường đã sưu tầm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "TUẦN: 32"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -10887,7 +10745,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Gợi hứng thú học tập; giúp HS bước đầu nhận biết tác động của hiện tượng Trái Đất nóng lên đối với thiên nhiên và đời sống con người.Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Gợi hứng thú học tập; giúp HS bước đầu nhận biết tác động của hiện tượng Trái Đất nóng lên đối với thiên nhiên và đời sống con người.\nCách tiến hành:"
             ],
             [
               "- GV cho HS quan sát hình 1: Băng tan ở Bắc Cực và yêu cầu HS nêu những gì quan sát được trong hình.",
@@ -10909,7 +10767,7 @@
               "2. Khám phá (24 phút)"
             ],
             [
-              "2.1. Vai trò của thiên nhiên đối với cuộc sống con người (10 phút)Mục tiêu: HS nêu được vai trò của thiên nhiên và lấy được ví dụ minh họa.Cách tiến hành:"
+              "2.1. Vai trò của thiên nhiên đối với cuộc sống con người (10 phút)\nMục tiêu: HS nêu được vai trò của thiên nhiên và lấy được ví dụ minh họa.\nCách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ cá nhân: Đọc thông tin mục 1 trong SGK, gạch dưới các từ khóa thể hiện vai trò của thiên nhiên đối với cuộc sống con người.",
@@ -10936,7 +10794,7 @@
               "- HS lắng nghe, ghi nhớ ba vai trò chính của thiên nhiên và hoàn thiện nội dung vào vở."
             ],
             [
-              "2.2. Một số vấn đề môi trường trên thế giới (14 phút)Mục tiêu: HS kể tên, trình bày biểu hiện và tác động của một số vấn đề môi trường; biết khai thác tranh ảnh, bảng thông tin và liên hệ vai trò của công nghệ số trong bảo vệ môi trường.Cách tiến hành:"
+              "2.2. Một số vấn đề môi trường trên thế giới (14 phút)\nMục tiêu: HS kể tên, trình bày biểu hiện và tác động của một số vấn đề môi trường; biết khai thác tranh ảnh, bảng thông tin và liên hệ vai trò của công nghệ số trong bảo vệ môi trường.\nCách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ nhóm 4: Đọc thông tin mục 2, quan sát các hình 2, 3, 4, 5 và bảng “Một số vấn đề môi trường trên thế giới”; hoàn thành phiếu học tập trong cột HS.",
@@ -10963,7 +10821,7 @@
               "- HS trả lời: Công nghệ số giúp phát hiện sớm nguy cơ môi trường, thông báo nhanh cho người dân, hỗ trợ thu gom rác và theo dõi ô nhiễm. HS nêu thêm: Khi xem thông tin môi trường trên mạng cần chọn nguồn đáng tin cậy, không chia sẻ tin chưa kiểm chứng và có thể dùng mạng xã hội để kêu gọi không xả rác, tiết kiệm điện, tiết kiệm nước."
             ],
             [
-              "3. Luyện tập (8 phút)Mục tiêu: HS củng cố kiến thức về các vấn đề môi trường; biết nêu việc làm phù hợp để giữ trường lớp, gia đình, cộng đồng xanh – sạch – đẹp.Cách tiến hành:"
+              "3. Luyện tập (8 phút)\nMục tiêu: HS củng cố kiến thức về các vấn đề môi trường; biết nêu việc làm phù hợp để giữ trường lớp, gia đình, cộng đồng xanh – sạch – đẹp.\nCách tiến hành:"
             ],
             [
               "- Tích hợp BVMT: GV yêu cầu HS chọn một vấn đề môi trường đã học, vẽ sơ đồ ngắn theo mẫu: “Vấn đề môi trường → Biểu hiện → Tác động → Việc em có thể làm để giữ trường lớp, gia đình, cộng đồng xanh – sạch – đẹp”. GV gợi ý câu hỏi: Ở lớp em có thể làm gì để giữ lớp học xanh – sạch – đẹp? Ở gia đình em có thể làm gì để giảm rác thải, tiết kiệm điện, tiết kiệm nước? Ở cộng đồng em có thể làm gì để giữ đường phố, công viên, kênh rạch sạch đẹp? GV nhấn mạnh: BVMT bắt đầu từ những việc làm phù hợp với lứa tuổi như bỏ rác đúng nơi quy định, phân loại rác đơn giản, chăm sóc cây xanh, không bẻ cành, không vẽ bậy, tiết kiệm điện – nước và nhắc người thân cùng thực hiện.",
@@ -10978,7 +10836,7 @@
               "- HS lắng nghe, hoàn thiện sơ đồ và ghi nhớ thông điệp của bài học."
             ],
             [
-              "4. Vận dụng (3 phút)Mục tiêu: HS chuẩn bị tư liệu và liên hệ thực tế để học tiếp tiết 2.Cách tiến hành:"
+              "4. Vận dụng (3 phút)\nMục tiêu: HS chuẩn bị tư liệu và liên hệ thực tế để học tiếp tiết 2.\nCách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ về nhà: Sưu tầm một tranh ảnh, mẩu tin hoặc câu chuyện ngắn về một hoạt động bảo vệ môi trường ở trường học, gia đình, địa phương hoặc trên thế giới.",
@@ -10990,10 +10848,13 @@
             ]
           ]
         ],
-        "title": "BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 1)"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 2)",
+        "lessonTitle": "TUẦN: 32 - BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11016,10 +10877,8 @@
           "- Giáo viên: SGK, sơ đồ một số biện pháp xây dựng thế giới xanh – sạch – đẹp, tranh ảnh/video về robot AI thu gom rác, hệ thống AI phát hiện phá rừng, phiếu cam kết hành động xanh.",
           "- Học sinh: SGK, vở, bút màu, tranh ảnh hoặc mẩu tin về hoạt động bảo vệ môi trường đã sưu tầm."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................................................",
-          "........................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11028,7 +10887,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Ôn lại nội dung tiết 1 và tạo hứng thú tìm hiểu biện pháp xây dựng thế giới xanh – sạch – đẹp.Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Ôn lại nội dung tiết 1 và tạo hứng thú tìm hiểu biện pháp xây dựng thế giới xanh – sạch – đẹp.\nCách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi “Hành động xanh hay chưa xanh”. GV nêu nhanh một số hành động: tắt điện khi ra khỏi lớp; xả rác xuống kênh; trồng cây; dùng nhiều túi ni-lông một lần; khóa vòi nước sau khi dùng.",
@@ -11046,7 +10905,7 @@
               "2. Khám phá (25 phút)"
             ],
             [
-              "2.1. Biện pháp xây dựng thế giới xanh – sạch – đẹp (14 phút)Mục tiêu: HS nêu được một số biện pháp bảo vệ môi trường và hiểu vai trò hỗ trợ của AI trong bảo vệ môi trường.Cách tiến hành:"
+              "2.1. Biện pháp xây dựng thế giới xanh – sạch – đẹp (14 phút)\nMục tiêu: HS nêu được một số biện pháp bảo vệ môi trường và hiểu vai trò hỗ trợ của AI trong bảo vệ môi trường.\nCách tiến hành:"
             ],
             [
               "- GV giao nhiệm vụ: Đọc thông tin mục 3, quan sát hình 6 và cho biết có những biện pháp nào để xây dựng thế giới xanh – sạch – đẹp.",
@@ -11073,7 +10932,7 @@
               "- Đại diện nhóm trình bày; các nhóm khác nhận xét, bổ sung. HS ghi nhớ năm biện pháp chính."
             ],
             [
-              "2.2. Thiết kế cam kết hành động xanh (11 phút)Mục tiêu: HS biết lựa chọn việc làm phù hợp để tham gia bảo vệ môi trường trong đời sống hằng ngày.Cách tiến hành:"
+              "2.2. Thiết kế cam kết hành động xanh (11 phút)\nMục tiêu: HS biết lựa chọn việc làm phù hợp để tham gia bảo vệ môi trường trong đời sống hằng ngày.\nCách tiến hành:"
             ],
             [
               "- GV yêu cầu HS làm việc nhóm đôi, hoàn thành “Cam kết hành động xanh” theo ba nội dung: Việc em sẽ làm ở lớp; việc em sẽ làm ở nhà; việc em sẽ nhắc người thân cùng làm.",
@@ -11088,7 +10947,7 @@
               "- HS lắng nghe và điều chỉnh cam kết cho phù hợp, dễ thực hiện."
             ],
             [
-              "3. Luyện tập (7 phút)Mục tiêu: Củng cố biện pháp xây dựng thế giới xanh – sạch – đẹp.Cách tiến hành:"
+              "3. Luyện tập (7 phút)\nMục tiêu: Củng cố biện pháp xây dựng thế giới xanh – sạch – đẹp.\nCách tiến hành:"
             ],
             [
               "- GV yêu cầu HS hoàn thành bảng luyện tập: nối vấn đề môi trường với một biện pháp phù hợp.",
@@ -11103,7 +10962,7 @@
               "- HS lắng nghe và ghi nhớ."
             ],
             [
-              "4. Vận dụng (8 phút)Mục tiêu: HS thể hiện sự quan tâm đến vấn đề môi trường qua sản phẩm ngắn và liên hệ việc tiết kiệm, bảo vệ nguồn nước.Cách tiến hành:"
+              "4. Vận dụng (8 phút)\nMục tiêu: HS thể hiện sự quan tâm đến vấn đề môi trường qua sản phẩm ngắn và liên hệ việc tiết kiệm, bảo vệ nguồn nước.\nCách tiến hành:"
             ],
             [
               "- Tích hợp tiết kiệm và bảo vệ nguồn nước: GV yêu cầu HS chọn một trong hai hình thức: vẽ tranh nhỏ hoặc viết đoạn thư ngắn gửi bạn bè/người thân về một hoạt động bảo vệ môi trường mà em đã tham gia. Trong sản phẩm cần có ít nhất một thông điệp về tiết kiệm và bảo vệ nguồn nước, ví dụ: khóa vòi nước sau khi dùng, không xả rác xuống kênh rạch, không đổ dầu mỡ/hóa chất xuống cống, dùng nước vừa đủ khi rửa tay, tưới cây bằng nước đã tận dụng nếu phù hợp. GV nhấn mạnh nguồn nước sạch rất cần thiết cho con người và sinh vật; bảo vệ nước là bảo vệ sức khỏe, trường học, gia đình và cộng đồng.",
@@ -11119,7 +10978,10 @@
             ]
           ]
         ],
-        "title": "BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 2)"
+        "dieuchinh": [
+          "........................................................................................................................................................",
+          "........................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -11128,7 +10990,7 @@
     "sourceFile": "LSĐL TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 1)",
+        "lessonTitle": "TUẦN: 33 - BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11145,17 +11007,16 @@
           "- Yêu nước: hiểu giữ gìn hòa bình là điều kiện để đất nước phát triển, con người được sống an toàn, hạnh phúc.",
           "4. Tích hợp",
           "- Tích hợp NLS 4.2.CB2a: HS soạn email/tin nhắn lan tỏa thông điệp yêu hòa bình; biết không chia sẻ thông tin cá nhân, hình ảnh bạn bè khi chưa được đồng ý.",
-          "- Tích hợp QCN: HS hiểu tinh thần quyền được sống trong hòa bình, an toàn, được tôn trọng và bảo vệ."
+          "- Tích hợp QCN: HS hiểu tinh thần quyền được sống trong hòa bình, an toàn, được tôn trọng và bảo vệ.",
+          "- Tiết kiệm và bảo vệ nguồn nước (Mizuiku - QĐ 4670/QĐ-BGDĐT): Chung tay bảo vệ nguồn nước sạch dòng sông Cổ Chiên, sông Hậu để xây dựng cuộc sống bình yên, phát triển bền vững.",
+          "- Giáo dục địa phương (Chủ đề 6): Phong trào xây dựng Nông thôn mới trên quê hương Trà Vinh - kiến tạo làng quê văn minh, sáng - xanh - sạch - đẹp."
         ],
         "dodung": [
           "- GV: Tranh hình 1, hình 2, hình 3, hình 4 trong SGK; tư liệu về chim bồ câu và cành ô liu, Thế vận hội Ô-lim-pic, phong trào Chữ thập đỏ, Liên hợp quốc; máy chiếu hoặc bảng phụ; phiếu học tập.",
           "- HS: SGK, vở ghi, bút màu; tranh ảnh, câu chuyện hoặc thông tin sưu tầm về hoạt động vì hòa bình."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "TUẦN: 33"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11300,15 +11161,22 @@
               "- HS chia sẻ thông điệp và lắng nghe nhận xét."
             ],
             [
+              "- Tích hợp GDĐP (CĐ 6) & Mizuiku: GV hướng dẫn HS kết nối thông điệp thế giới xanh với quê hương Trà Vinh: Tỉnh Trà Vinh đạt nhiều thành tựu nổi bật trong phong trào xây dựng Nông thôn mới, các tuyến đường hoa nở rộ, hệ thống cấp nước sạch được đưa về tận các vùng sâu, vùng đồng bào dân tộc. Để giữ gìn môi trường sống bền vững, mỗi học sinh là một tuyên truyền viên nhí bảo vệ nguồn nước sạch. Em sẽ làm gì để góp phần xây dựng quê hương Trà Vinh giàu đẹp?",
+              "- HS hào hứng phát biểu: tích cực tham gia dọn vệ sinh trường lớp, đường làng; sử dụng nước tiết kiệm trong gia đình; không xả rác bừa bãi xuống dòng sông quê hương."
+            ],
+            [
               "- GV kết luận tiết học: Hòa bình là mong ước chung của nhân loại. Mỗi HS có thể góp phần xây dựng hòa bình bằng lời nói tử tế, hành động nhân ái, tôn trọng người khác và sử dụng môi trường số văn minh.",
               "- HS lắng nghe, ghi nhớ và chuẩn bị bài cho tiết sau: tìm hiểu một số biện pháp xây dựng thế giới hòa bình."
             ]
           ]
         ],
-        "title": "BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 1)"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 2)",
+        "lessonTitle": "TUẦN: 33 - BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11331,10 +11199,8 @@
           "- GV: Hình 5 trong SGK, sơ đồ biện pháp xây dựng hòa bình, phiếu học tập, hình ảnh hoạt động văn hóa hòa bình, bảng phụ.",
           "- HS: SGK, vở, bút màu; tranh hoặc ý tưởng về chủ đề “Em yêu hòa bình”; thông tin về một hoạt động vì hòa bình mà em biết."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -11468,7 +11334,10 @@
             ]
           ]
         ],
-        "title": "BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 2)"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -11477,7 +11346,7 @@
     "sourceFile": "LSĐL TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 28. ÔN TẬP (TIẾT 1)",
+        "lessonTitle": "TUẦN: 34 - BÀI 28. ÔN TẬP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11504,9 +11373,6 @@
           "- Ôn lại các bài đã học về Triều Hậu Lê, Triều Nguyễn, Cách mạng tháng Tám, Điện Biên Phủ, Chiến dịch Hồ Chí Minh, Đổi mới."
         ],
         "activities": [],
-        "dieuchinh": [
-          "TUẦN: 34"
-        ],
         "tables": [
           [
             [
@@ -11607,10 +11473,10 @@
             ]
           ]
         ],
-        "title": "BÀI 28. ÔN TẬP (TIẾT 1)"
+        "dieuchinh": []
       },
       {
-        "lessonTitle": "BÀI 28. ÔN TẬP (TIẾT 2)",
+        "lessonTitle": "TUẦN: 34 - BÀI 28. ÔN TẬP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11636,10 +11502,6 @@
           "- SGK, vở, bút; tranh ảnh, câu chuyện hoặc tư liệu đã sưu tầm về nhân vật, sự kiện, công trình tiêu biểu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11728,7 +11590,10 @@
             ]
           ]
         ],
-        "title": "BÀI 28. ÔN TẬP (TIẾT 2)"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -11737,7 +11602,7 @@
     "sourceFile": "LSĐL TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 28. ÔN TẬP (TIẾT 3)",
+        "lessonTitle": "TUẦN: 35 - BÀI 28. ÔN TẬP (TIẾT 3)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11753,86 +11618,16 @@
           "- Nhân ái: biết tôn trọng sự khác biệt, không kì thị, sống hòa bình với mọi người.",
           "- Trách nhiệm: có ý thức bảo vệ môi trường, di sản và góp phần xây dựng thế giới tốt đẹp.",
           "4. Tích hợp",
-          "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS tổng kết bài học về yêu nước, trách nhiệm công dân, tôn trọng di sản, bảo vệ môi trường và sống nhân ái.",
-          "- Củng cố và đánh giá mức độ nắm kiến thức của HS về các nội dung Lịch sử và Địa lí đã học trong năm học: xây dựng và bảo vệ đất nước Việt Nam, các nước láng giềng, tìm hiểu thế giới, xây dựng thế giới xanh - sạch - đẹp và thế giới hòa bình.",
-          "- Nhận biết, lựa chọn được thông tin đúng; trình bày được sự kiện, nhân vật lịch sử, đặc điểm địa lí, công trình văn minh và nội dung môi trường - hòa bình bằng câu trả lời rõ ý.",
-          "- Vận dụng kiến thức đã học để nêu việc làm phù hợp của bản thân trong trân trọng lịch sử, tôn trọng di sản, bảo vệ môi trường và xây dựng hòa bình.",
-          "- Tự chủ và tự học: tự giác ôn tập, đọc kĩ đề, tự làm bài, biết phân bố thời gian làm bài hợp lí.",
-          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức để hoàn thành câu hỏi trắc nghiệm, tự luận, bảng thông tin và câu hỏi liên hệ.",
-          "- Giao tiếp: thực hiện đúng hiệu lệnh kiểm tra, nêu thắc mắc về cách làm bài khi cần, trình bày bài rõ ràng, sạch đẹp.",
-          "- Trung thực: làm bài độc lập, không trao đổi, không sao chép bài của bạn.",
-          "- Chăm chỉ: chuẩn bị bài, đọc kĩ yêu cầu, cố gắng hoàn thành đầy đủ các câu hỏi.",
-          "- Trách nhiệm: nghiêm túc chấp hành quy định kiểm tra, giữ gìn bài làm sạch đẹp và nộp bài đúng thời gian.",
-          "- Không tích hợp trong tiết kiểm tra, đánh giá.",
-          "Khoanh vào chữ cái trước ý trả lời đúng nhất.",
-          "Câu 1. Cuộc khởi nghĩa Lam Sơn do ai lãnh đạo?",
-          "A. Lê Lợi.    B. Lê Lai.    C. Nguyễn Trãi.    D. Phan Đình Phùng.",
-          "Câu 2. Cách mạng tháng Tám năm 1945 có ý nghĩa nổi bật nào?",
-          "A. Mở đầu thời kì Bắc thuộc.    B. Giành chính quyền trong cả nước, khai sinh nước Việt Nam Dân chủ Cộng hòa.    C. Thành lập Triều Nguyễn.    D. Mở đầu công cuộc Đổi mới.",
-          "Câu 3. Chiến dịch Điện Biên Phủ giành thắng lợi vào năm nào?",
-          "A. 1945.    B. 1954.    C. 1975.    D. 1986.",
-          "Câu 4. ASEAN được thành lập vào ngày, tháng, năm nào?",
-          "A. 8 - 8 - 1967.    B. 2 - 9 - 1945.    C. 30 - 4 - 1975.    D. 28 - 7 - 1995.",
-          "Câu 5. Đại dương có diện tích lớn nhất thế giới là:",
-          "A. Đại Tây Dương.    B. Ấn Độ Dương.    C. Thái Bình Dương.    D. Bắc Băng Dương.",
-          "Câu 6. Châu lục đông dân nhất thế giới là:",
-          "A. Châu Á.    B. Châu Âu.    C. Châu Phi.    D. Châu Đại Dương.",
-          "Câu 7. Kim tự tháp là thành tựu tiêu biểu của nền văn minh nào?",
-          "A. Văn minh Hy Lạp.    B. Văn minh Ai Cập.    C. Văn minh Trung Hoa.    D. Văn minh Lào.",
-          "Câu 8. Việc làm nào góp phần xây dựng thế giới xanh - sạch - đẹp?",
-          "A. Xả rác xuống kênh rạch.    B. Lãng phí nước sạch.    C. Trồng cây, bỏ rác đúng nơi quy định.    D. Bẻ cành cây nơi công cộng."
+          "- Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS tổng kết bài học về yêu nước, trách nhiệm công dân, tôn trọng di sản, bảo vệ môi trường và sống nhân ái."
         ],
         "dodung": [
           "1. Giáo viên",
           "- SGK, hình bài tập Câu 7, Câu 8; tranh ảnh về các châu lục, đại dương và thành tựu văn minh thế giới.",
           "- Phiếu tiêu chí nhận xét đoạn văn, sản phẩm giới thiệu.",
           "2. Học sinh",
-          "- SGK, vở, tranh ảnh hoặc tư liệu đã sưu tầm về châu lục, văn minh Ai Cập, Hy Lạp, Trung Quốc, Lào, Cam-pu-chia.",
-          "1. Giáo viên",
-          "- Đề kiểm tra cuối năm môn Lịch sử và Địa lí 5.",
-          "- Đáp án, biểu điểm, danh sách lớp, giấy nháp dự phòng.",
-          "- Đồng hồ theo dõi thời gian làm bài.",
-          "2. Học sinh",
-          "- Bút viết, thước, giấy nháp theo quy định.",
-          "- Tâm thế nghiêm túc, sẵn sàng làm bài kiểm tra.",
-          "Câu 9. Hoàn thành bảng sau về một số công trình tiêu biểu của Trung Quốc, Lào, Cam-pu-chia. (1,5 điểm)",
-          "Câu 10. Nêu ý nghĩa của việc Việt Nam gia nhập ASEAN. (2 điểm)",
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "Câu 11. Em hãy nêu 3 việc làm phù hợp để bảo vệ môi trường hoặc góp phần xây dựng hòa bình. (1,5 điểm)",
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "Câu 12. Chọn một thành tựu văn minh thế giới đã học mà em ấn tượng nhất. Viết 2 - 3 câu giới thiệu và nêu lí do em ấn tượng. (1 điểm)",
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "--- HẾT ---",
-          "PHỤ LỤC 3. ĐÁP ÁN VÀ BIỂU ĐIỂM",
-          "Câu 9 (1,5 điểm): Mỗi quốc gia nêu đúng một công trình tiêu biểu được 0,5 điểm. Gợi ý: Trung Quốc: Vạn Lý Trường Thành, Cố cung Bắc Kinh; Lào: Cánh đồng Chum, Thạt Luổng, Cố đô Luông Pha-băng; Cam-pu-chia: Ăng-co Vát, Ăng-co Thom, đền Bay-on.",
-          "Câu 10 (2 điểm): Nêu được các ý: Việt Nam chính thức hội nhập khu vực; mở rộng hợp tác kinh tế, văn hóa, giáo dục; tạo cơ hội việc làm, thu hút đầu tư; nâng cao vị thế của Việt Nam trong ASEAN và trên thế giới.",
-          "Câu 11 (1,5 điểm): Nêu được 3 việc làm phù hợp, mỗi việc 0,5 điểm. Ví dụ: bỏ rác đúng nơi quy định, tiết kiệm nước, trồng và chăm sóc cây xanh, không kì thị bạn bè, biết lắng nghe và giải quyết mâu thuẫn bằng lời nói hòa bình.",
-          "Câu 12 (1 điểm): HS nêu được tên một thành tựu văn minh thế giới đã học và viết được 2 - 3 câu giới thiệu, lí do ấn tượng. Chấp nhận các câu trả lời hợp lí, diễn đạt rõ ý."
+          "- SGK, vở, tranh ảnh hoặc tư liệu đã sưu tầm về châu lục, văn minh Ai Cập, Hy Lạp, Trung Quốc, Lào, Cam-pu-chia."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KIỂM TRA, ĐÁNH GIÁ",
-          "TUẦN: 35",
-          "KIỂM TRA, ĐÁNH GIÁ CUỐI NĂM (TIẾT 70)",
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "PHỤ LỤC 1. MA TRẬN ĐỀ KIỂM TRA CUỐI NĂM",
-          "PHỤ LỤC 2. ĐỀ KIỂM TRA CUỐI NĂM",
-          "TRƯỜNG: ....................................................",
-          "Họ và tên: .................................................    Lớp: 5......",
-          "ĐỀ KIỂM TRA CUỐI NĂM",
-          "Thời gian làm bài: 35 phút"
-        ],
         "tables": [
           [
             [
@@ -11927,14 +11722,52 @@
               "- GV kết luận: Ôn tập không chỉ giúp nhớ kiến thức mà còn giúp các em biết sống có trách nhiệm với bản thân, quê hương, đất nước và thế giới.",
               "- HS lắng nghe, hoàn thành bài học."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "KIỂM TRA, ĐÁNH GIÁ - TUẦN: 35 - KIỂM TRA, ĐÁNH GIÁ CUỐI NĂM (TIẾT 70)",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Củng cố và đánh giá mức độ nắm kiến thức của HS về các nội dung Lịch sử và Địa lí đã học trong năm học: xây dựng và bảo vệ đất nước Việt Nam, các nước láng giềng, tìm hiểu thế giới, xây dựng thế giới xanh - sạch - đẹp và thế giới hòa bình.",
+          "- Nhận biết, lựa chọn được thông tin đúng; trình bày được sự kiện, nhân vật lịch sử, đặc điểm địa lí, công trình văn minh và nội dung môi trường - hòa bình bằng câu trả lời rõ ý.",
+          "- Vận dụng kiến thức đã học để nêu việc làm phù hợp của bản thân trong trân trọng lịch sử, tôn trọng di sản, bảo vệ môi trường và xây dựng hòa bình.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: tự giác ôn tập, đọc kĩ đề, tự làm bài, biết phân bố thời gian làm bài hợp lí.",
+          "- Giải quyết vấn đề và sáng tạo: vận dụng kiến thức để hoàn thành câu hỏi trắc nghiệm, tự luận, bảng thông tin và câu hỏi liên hệ.",
+          "- Giao tiếp: thực hiện đúng hiệu lệnh kiểm tra, nêu thắc mắc về cách làm bài khi cần, trình bày bài rõ ràng, sạch đẹp.",
+          "3. Phẩm chất",
+          "- Trung thực: làm bài độc lập, không trao đổi, không sao chép bài của bạn.",
+          "- Chăm chỉ: chuẩn bị bài, đọc kĩ yêu cầu, cố gắng hoàn thành đầy đủ các câu hỏi.",
+          "- Trách nhiệm: nghiêm túc chấp hành quy định kiểm tra, giữ gìn bài làm sạch đẹp và nộp bài đúng thời gian.",
+          "4. Tích hợp",
+          "- Không tích hợp trong tiết kiểm tra, đánh giá."
+        ],
+        "dodung": [
+          "1. Giáo viên",
+          "- Đề kiểm tra cuối năm môn Lịch sử và Địa lí 5.",
+          "- Đáp án, biểu điểm, danh sách lớp, giấy nháp dự phòng.",
+          "- Đồng hồ theo dõi thời gian làm bài.",
+          "2. Học sinh",
+          "- Bút viết, thước, giấy nháp theo quy định.",
+          "- Tâm thế nghiêm túc, sẵn sàng làm bài kiểm tra."
+        ],
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động, ổn định kiểm tra (3 phút)Mục tiêu: Ổn định lớp, giúp HS nắm yêu cầu khi làm bài kiểm tra."
+              "1. Khởi động, ổn định kiểm tra (3 phút)\nMục tiêu: Ổn định lớp, giúp HS nắm yêu cầu khi làm bài kiểm tra."
             ],
             [
               "- GV ổn định lớp, kiểm tra sĩ số, nhắc HS chuẩn bị bút, thước và giấy nháp.",
@@ -11949,7 +11782,7 @@
               "- HS nhận đề, kiểm tra đề và báo ngay với GV nếu đề bị thiếu hoặc mờ."
             ],
             [
-              "2. HS làm bài kiểm tra (30 phút)Mục tiêu: Đánh giá mức độ đạt yêu cầu cần đạt của HS sau chương trình Lịch sử và Địa lí 5."
+              "2. HS làm bài kiểm tra (30 phút)\nMục tiêu: Đánh giá mức độ đạt yêu cầu cần đạt của HS sau chương trình Lịch sử và Địa lí 5."
             ],
             [
               "- GV yêu cầu HS đọc toàn bộ đề, làm câu dễ trước, phân bố thời gian hợp lí cho phần trắc nghiệm và tự luận.",
@@ -11964,7 +11797,7 @@
               "- HS rà soát câu trả lời, bổ sung những ý còn thiếu, kiểm tra lại họ tên và lớp."
             ],
             [
-              "3. Thu bài, nhận xét ý thức làm bài (2 phút)Mục tiêu: Thu đủ bài và giáo dục ý thức trung thực, trách nhiệm trong học tập."
+              "3. Thu bài, nhận xét ý thức làm bài (2 phút)\nMục tiêu: Thu đủ bài và giáo dục ý thức trung thực, trách nhiệm trong học tập."
             ],
             [
               "- GV yêu cầu HS dừng bút, thu bài theo từng bàn hoặc từng tổ.",
@@ -12064,7 +11897,60 @@
             ]
           ]
         ],
-        "title": "BÀI 28. ÔN TẬP (TIẾT 3)"
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "PHỤ LỤC 1. MA TRẬN ĐỀ KIỂM TRA CUỐI NĂM",
+          "Môn: Lịch sử và Địa lí 5 | Thời gian: 35 phút | Tổng điểm: 10 điểm",
+          "PHỤ LỤC 2. ĐỀ KIỂM TRA CUỐI NĂM",
+          "TRƯỜNG: ....................................................",
+          "Họ và tên: .................................................    Lớp: 5......",
+          "ĐỀ KIỂM TRA CUỐI NĂM",
+          "MÔN: LỊCH SỬ VÀ ĐỊA LÍ 5",
+          "Thời gian làm bài: 35 phút",
+          "I. TRẮC NGHIỆM (4 điểm)",
+          "Khoanh vào chữ cái trước ý trả lời đúng nhất.",
+          "Câu 1. Cuộc khởi nghĩa Lam Sơn do ai lãnh đạo?",
+          "A. Lê Lợi.    B. Lê Lai.    C. Nguyễn Trãi.    D. Phan Đình Phùng.",
+          "Câu 2. Cách mạng tháng Tám năm 1945 có ý nghĩa nổi bật nào?",
+          "A. Mở đầu thời kì Bắc thuộc.    B. Giành chính quyền trong cả nước, khai sinh nước Việt Nam Dân chủ Cộng hòa.    C. Thành lập Triều Nguyễn.    D. Mở đầu công cuộc Đổi mới.",
+          "Câu 3. Chiến dịch Điện Biên Phủ giành thắng lợi vào năm nào?",
+          "A. 1945.    B. 1954.    C. 1975.    D. 1986.",
+          "Câu 4. ASEAN được thành lập vào ngày, tháng, năm nào?",
+          "A. 8 - 8 - 1967.    B. 2 - 9 - 1945.    C. 30 - 4 - 1975.    D. 28 - 7 - 1995.",
+          "Câu 5. Đại dương có diện tích lớn nhất thế giới là:",
+          "A. Đại Tây Dương.    B. Ấn Độ Dương.    C. Thái Bình Dương.    D. Bắc Băng Dương.",
+          "Câu 6. Châu lục đông dân nhất thế giới là:",
+          "A. Châu Á.    B. Châu Âu.    C. Châu Phi.    D. Châu Đại Dương.",
+          "Câu 7. Kim tự tháp là thành tựu tiêu biểu của nền văn minh nào?",
+          "A. Văn minh Hy Lạp.    B. Văn minh Ai Cập.    C. Văn minh Trung Hoa.    D. Văn minh Lào.",
+          "Câu 8. Việc làm nào góp phần xây dựng thế giới xanh - sạch - đẹp?",
+          "A. Xả rác xuống kênh rạch.    B. Lãng phí nước sạch.    C. Trồng cây, bỏ rác đúng nơi quy định.    D. Bẻ cành cây nơi công cộng.",
+          "II. TỰ LUẬN (6 điểm)",
+          "Câu 9. Hoàn thành bảng sau về một số công trình tiêu biểu của Trung Quốc, Lào, Cam-pu-chia. (1,5 điểm)",
+          "Câu 10. Nêu ý nghĩa của việc Việt Nam gia nhập ASEAN. (2 điểm)",
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "Câu 11. Em hãy nêu 3 việc làm phù hợp để bảo vệ môi trường hoặc góp phần xây dựng hòa bình. (1,5 điểm)",
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "Câu 12. Chọn một thành tựu văn minh thế giới đã học mà em ấn tượng nhất. Viết 2 - 3 câu giới thiệu và nêu lí do em ấn tượng. (1 điểm)",
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "--- HẾT ---",
+          "PHỤ LỤC 3. ĐÁP ÁN VÀ BIỂU ĐIỂM",
+          "I. Trắc nghiệm (4 điểm): Mỗi câu đúng được 0,5 điểm.",
+          "II. Tự luận (6 điểm)",
+          "Câu 9 (1,5 điểm): Mỗi quốc gia nêu đúng một công trình tiêu biểu được 0,5 điểm. Gợi ý: Trung Quốc: Vạn Lý Trường Thành, Cố cung Bắc Kinh; Lào: Cánh đồng Chum, Thạt Luổng, Cố đô Luông Pha-băng; Cam-pu-chia: Ăng-co Vát, Ăng-co Thom, đền Bay-on.",
+          "Câu 10 (2 điểm): Nêu được các ý: Việt Nam chính thức hội nhập khu vực; mở rộng hợp tác kinh tế, văn hóa, giáo dục; tạo cơ hội việc làm, thu hút đầu tư; nâng cao vị thế của Việt Nam trong ASEAN và trên thế giới.",
+          "Câu 11 (1,5 điểm): Nêu được 3 việc làm phù hợp, mỗi việc 0,5 điểm. Ví dụ: bỏ rác đúng nơi quy định, tiết kiệm nước, trồng và chăm sóc cây xanh, không kì thị bạn bè, biết lắng nghe và giải quyết mâu thuẫn bằng lời nói hòa bình.",
+          "Câu 12 (1 điểm): HS nêu được tên một thành tựu văn minh thế giới đã học và viết được 2 - 3 câu giới thiệu, lí do ấn tượng. Chấp nhận các câu trả lời hợp lí, diễn đạt rõ ý."
+        ]
       }
     ]
   }
@@ -12075,7 +11961,7 @@
   } else {
     if (typeof window !== 'undefined') {
       window.KHBD_RAW_DATA = window.KHBD_RAW_DATA || {};
-      window.KHBD_RAW_DATA["5_lich_su_dia_ly"] = {
+      window.KHBD_RAW_DATA[grade + "_" + subjectId] = {
         grade: grade,
         subjectId: subjectId,
         subjectName: subjectName,

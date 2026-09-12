@@ -14,16 +14,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA",
+        "lessonTitle": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA - SỐ TIẾT: 2 TIẾT",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
-          "SỐ TIẾT: 2 TIẾT",
-          "TUẦN 1: CHÀO CỜ VÀ HÁT QUỐC CA (TIẾT 1)",
           "1. Năng lực đặc thù",
           "- Nhận biết được Quốc hiệu, Quốc kì, Quốc ca Việt Nam.",
           "- Mô tả được đặc điểm cơ bản của Quốc kì Việt Nam; nêu được tên bài hát và tác giả Quốc ca Việt Nam.",
           "- Giải thích được vì sao cần nghiêm trang khi chào cờ và hát Quốc ca.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết lắng nghe hướng dẫn, tự điều chỉnh tư thế, thái độ khi tham gia hoạt động chào cờ.",
           "- Giao tiếp và hợp tác: Trao đổi, chia sẻ, nhận xét hành vi của nhân vật trong tranh; hợp tác khi luyện tập theo nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến chào cờ và hát Quốc ca.",
           "3. Phẩm chất",
@@ -32,7 +31,8 @@
           "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, luyện hát Quốc ca và rèn tư thế chào cờ.",
           "4. Tích hợp",
           "- Tích hợp NLS 1.2.CB1a, 4.2.CB1a: HS biết xem/nghe tư liệu Quốc ca, Quốc kì từ nguồn chính thống; không tự ý chỉnh sửa, chia sẻ sai lệch âm thanh, hình ảnh biểu tượng quốc gia.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.1: Nhận biết AI hỗ trợ lưu giữ, phục dựng tư liệu về nghi lễ, hình ảnh lịch sử của Tổ quốc."
+          "- Tích hợp AI (Khung 3439) - 3.A2.1: Nhận biết AI hỗ trợ lưu giữ, phục dựng tư liệu về nghi lễ, hình ảnh lịch sử của Tổ quốc.",
+          "- Gợi ý hoạt động: GV cho HS xem tư liệu phù hợp lứa tuổi về lễ chào cờ; nhắc HS chọn nội dung chính thống, không nghe/lan truyền bản Quốc ca bị chỉnh sửa."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -43,11 +43,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu.",
           "- Tâm thế sẵn sàng tham gia hát, quan sát tranh, thảo luận và luyện tập tư thế chào cờ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Gợi ý hoạt động: GV cho HS xem tư liệu phù hợp lứa tuổi về lễ chào cờ; nhắc HS chọn nội dung chính thống, không nghe/lan truyền bản Quốc ca bị chỉnh sửa.",
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -225,7 +222,10 @@
             ]
           ]
         ],
-        "title": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -234,17 +234,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA",
+        "lessonTitle": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA - SỐ TIẾT: 2 TIẾT",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
-          "SỐ TIẾT: 2 TIẾT",
-          "TUẦN 2: CHÀO CỜ VÀ HÁT QUỐC CA (TIẾT 2)",
           "1. Năng lực đặc thù",
           "- Nhận biết được hành vi đúng, chưa đúng khi chào cờ và hát Quốc ca.",
           "- Biết đưa ra lời khuyên phù hợp, nhẹ nhàng cho bạn khi bạn chưa thực hiện nghiêm trang trong lễ chào cờ.",
           "- Thực hiện được tư thế nghiêm trang, hát Quốc ca rõ ràng, đúng thái độ khi chào cờ.",
           "- Chia sẻ được những việc cần thực hiện trước, trong và sau khi chào cờ, hát Quốc ca.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết lắng nghe hướng dẫn, tự điều chỉnh tư thế, lời nói và thái độ khi tham gia hoạt động chào cờ.",
           "- Giao tiếp và hợp tác: Trao đổi, thảo luận nhóm, nhận xét hành vi trong tranh; biết góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách ứng xử phù hợp trong các tình huống liên quan đến chào cờ và hát Quốc ca.",
           "3. Phẩm chất",
@@ -264,10 +263,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu.",
           "- Tâm thế sẵn sàng tham gia thảo luận, thực hành chào cờ, hát Quốc ca và chia sẻ trước lớp."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -489,7 +486,10 @@
             ]
           ]
         ],
-        "title": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA"
+        "dieuchinh": [
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -501,7 +501,6 @@
         "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM -  SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
-          "TUẦN 3: TỰ HÀO TỔ QUỐC VIỆT NAM (TIẾT 1)",
           "1. Năng lực đặc thù",
           "- Nêu được một số nét cơ bản về vẻ đẹp của đất nước, con người Việt Nam qua tranh ảnh trong SGK và hiểu biết của bản thân.",
           "- Biết bày tỏ cảm xúc yêu mến, tự hào trước vẻ đẹp thiên nhiên, văn hóa, lịch sử và con người Việt Nam.",
@@ -515,17 +514,17 @@
           "4. Tích hợp",
           "- Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS biết quan sát, tìm kiếm hình ảnh về cảnh đẹp, di tích Việt Nam từ nguồn phù hợp; bước đầu phân biệt thông tin chính thống và thông tin chưa kiểm chứng. Vị trí: Khám phá - Hoạt động 1.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI hỗ trợ tìm kiếm, nhận diện hình ảnh danh lam thắng cảnh, di tích lịch sử Việt Nam. Vị trí: Vận dụng.",
-          "- Lưu ý: Mỗi hoạt động chỉ tích hợp một nội dung; không gộp NLS và AI trong cùng một hoạt động; không tích hợp vào Khởi động."
+          "- Lưu ý: Mỗi hoạt động chỉ tích hợp một nội dung; không gộp NLS và AI trong cùng một hoạt động; không tích hợp vào Khởi động.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1, 3, 5 - TLGDĐP Lớp 3 Trà Vinh): Nhận biết và tự hào về những cảnh đẹp, danh lam thắng cảnh tiêu biểu của tỉnh Trà Vinh (Khu di tích danh thắng Ao Bà Om, Chùa Âng, bãi biển Ba Động); có ý thức giữ gìn, bảo vệ cảnh quan quê hương.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M1, M6): Bước đầu nhận biết nước ngọt là tài nguyên quý giá gắn liền với cảnh quan thiên nhiên quê hương và có ý thức bảo vệ nguồn nước sạch."
         ],
         "dodung": [
           "- SGK, SGV, Vở bài tập Đạo đức 3; tranh ảnh trong SGK về Bài 2.",
           "- Máy tính, máy chiếu/ti vi; bài trình chiếu có các hình ảnh về cảnh đẹp, con người, sự phát triển của Việt Nam.",
           "- Phiếu thảo luận nhóm, thẻ tán thành/không tán thành, bút màu hoặc giấy A4 khi cần."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ........................................................................................................................",
-          "- ........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -553,7 +552,7 @@
               "- HS lắng nghe, nhắc lại tên bài."
             ],
             [
-              "2. Khám phá - Hoạt động 1: Khám phá vẻ đẹp của đất nước, con người Việt Nam (25 phút)Mục tiêu: HS nêu được một số nét cơ bản về vẻ đẹp của đất nước, con người Việt Nam và biết bày tỏ niềm yêu mến, tự hào trước những vẻ đẹp đó.Mục tiêu tích hợp NLS: HS biết quan sát, tìm kiếm hình ảnh về cảnh đẹp, di tích Việt Nam từ nguồn phù hợp; bước đầu phân biệt thông tin chính thống và thông tin chưa kiểm chứng."
+              "2. Khám phá - Hoạt động 1: Khám phá vẻ đẹp của đất nước, con người Việt Nam (25 phút)\nMục tiêu: HS nêu được một số nét cơ bản về vẻ đẹp của đất nước, con người Việt Nam và biết bày tỏ niềm yêu mến, tự hào trước những vẻ đẹp đó.\nMục tiêu tích hợp NLS: HS biết quan sát, tìm kiếm hình ảnh về cảnh đẹp, di tích Việt Nam từ nguồn phù hợp; bước đầu phân biệt thông tin chính thống và thông tin chưa kiểm chứng."
             ],
             [
               "- GV nêu nhiệm vụ: Các em quan sát các tranh trong SGK, thảo luận nhóm 4 và trả lời: Những hình ảnh trên thể hiện vẻ đẹp nào của đất nước Việt Nam?\n- GV nhắc HS quan sát kĩ tên địa danh, màu sắc, hoạt động của con người trong từng hình.",
@@ -592,6 +591,14 @@
               "- HS lắng nghe, nhắc lại: Em tự hào vì Việt Nam có nhiều cảnh đẹp, truyền thống văn hóa và con người tốt đẹp."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1, 3, 5 GDĐP 3 & Mã Mizuiku M1, M6): “Ở quê hương Trà Vinh chúng ta có những cảnh đẹp, danh lam thắng cảnh nào gắn liền với hồ nước và biển cả? Khi đến tham quan Ao Bà Om hay bãi biển Ba Động, các em cần làm gì để bảo vệ nguồn nước và cảnh quan nơi đây?”",
+              "- HS trả lời: Quê hương Trà Vinh có thắng cảnh Ao Bà Om với hồ nước trong xanh soi bóng Chùa Âng cổ kính và bãi biển Ba Động rợp bóng phi lao; khi đến tham quan, chúng em không vứt rác, túi nilon xuống hồ nước và bờ biển để giữ cho dòng nước và bãi biển luôn trong lành, sạch đẹp ạ."
+            ],
+            [
+              "- GV kết luận: Tự hào về vẻ đẹp non sông đất nước và danh lam thắng cảnh quê hương Trà Vinh; các em hãy luôn giữ gìn nguồn nước và môi trường sống xanh - sạch - đẹp.",
+              "- HS lắng nghe, tự hào và ghi nhớ bài học."
+            ],
+            [
               "3. Luyện tập, củng cố (7 phút)\nMục tiêu: Củng cố kiến thức về vẻ đẹp của đất nước, con người Việt Nam qua câu hỏi ngắn."
             ],
             [
@@ -607,7 +614,7 @@
               "- HS lắng nghe, vỗ tay tuyên dương bạn."
             ],
             [
-              "4. Vận dụng (3 phút)Mục tiêu: HS biết chuẩn bị tư liệu an toàn, phù hợp cho tiết học sau.Mục tiêu tích hợp AI: HS nhận biết AI/công cụ số có thể hỗ trợ tìm kiếm, nhận diện hình ảnh danh lam thắng cảnh, di tích lịch sử Việt Nam nhưng cần dùng dưới sự hướng dẫn của GV hoặc người lớn."
+              "4. Vận dụng (3 phút)\nMục tiêu: HS biết chuẩn bị tư liệu an toàn, phù hợp cho tiết học sau.\nMục tiêu tích hợp AI: HS nhận biết AI/công cụ số có thể hỗ trợ tìm kiếm, nhận diện hình ảnh danh lam thắng cảnh, di tích lịch sử Việt Nam nhưng cần dùng dưới sự hướng dẫn của GV hoặc người lớn."
             ],
             [
               "- GV giao nhiệm vụ: Về nhà, em hãy hỏi người thân hoặc xem sách, tranh ảnh phù hợp để chuẩn bị kể một điều em biết về sự phát triển của quê hương, đất nước.",
@@ -623,7 +630,10 @@
             ]
           ]
         ],
-        "title": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM -  SỐ TIẾT: 3 TIẾT"
+        "dieuchinh": [
+          "- ........................................................................................................................",
+          "- ........................................................................................................................"
+        ]
       }
     ]
   },
@@ -635,7 +645,6 @@
         "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
-          "TUẦN 4: TỰ HÀO TỔ QUỐC VIỆT NAM (TIẾT 2)",
           "1. Năng lực đặc thù",
           "- Nhận ra Tổ quốc Việt Nam đang phát triển mạnh mẽ qua một số hình ảnh, tình huống trong SGK và hiểu biết thực tế.",
           "- Nêu được những việc cần làm để thể hiện tình yêu Tổ quốc trong học tập, sinh hoạt và giao tiếp hằng ngày.",
@@ -657,10 +666,8 @@
           "- Máy tính, máy chiếu/ti vi; bài trình chiếu có các hình ảnh về cảnh đẹp, con người, sự phát triển của Việt Nam.",
           "- Phiếu thảo luận nhóm, thẻ tán thành/không tán thành, bút màu hoặc giấy A4 khi cần."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ........................................................................................................................",
-          "- ........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -680,7 +687,7 @@
               "- HS lắng nghe, chuẩn bị SGK, vở ghi."
             ],
             [
-              "2. Khám phá - Hoạt động 2: Khám phá sự phát triển của quê hương, đất nước (16 phút)Mục tiêu: HS nhận ra được sự phát triển của đất nước Việt Nam trên một số lĩnh vực qua tranh ảnh; biết chia sẻ thêm sự phát triển ở quê hương, đất nước mà em biết.Mục tiêu tích hợp NLS: HS biết trình bày ngắn gọn một hình ảnh về Tổ quốc trên thiết bị của GV; không nêu địa chỉ, tài khoản hoặc thông tin riêng tư khi chia sẻ."
+              "2. Khám phá - Hoạt động 2: Khám phá sự phát triển của quê hương, đất nước (16 phút)\nMục tiêu: HS nhận ra được sự phát triển của đất nước Việt Nam trên một số lĩnh vực qua tranh ảnh; biết chia sẻ thêm sự phát triển ở quê hương, đất nước mà em biết.\nMục tiêu tích hợp NLS: HS biết trình bày ngắn gọn một hình ảnh về Tổ quốc trên thiết bị của GV; không nêu địa chỉ, tài khoản hoặc thông tin riêng tư khi chia sẻ."
             ],
             [
               "- GV yêu cầu HS quan sát 6 bức ảnh trong SGK về sự phát triển của quê hương, đất nước. GV nêu câu hỏi: Em thấy điều gì thay đổi qua những bức ảnh này?",
@@ -749,7 +756,7 @@
               "- HS lắng nghe, sửa lại ý kiến nếu cần."
             ],
             [
-              "5. Vận dụng, chuẩn bị tiết sau (3 phút)Mục tiêu: HS chuẩn bị tình huống luyện tập, đóng vai ở tiết 3.Mục tiêu tích hợp AI: HS nhận biết AI/công cụ số có thể hỗ trợ gợi ý nội dung giới thiệu cảnh đẹp, di tích, văn hóa Việt Nam nhưng không thay thế hiểu biết và lời nói của học sinh."
+              "5. Vận dụng, chuẩn bị tiết sau (3 phút)\nMục tiêu: HS chuẩn bị tình huống luyện tập, đóng vai ở tiết 3.\nMục tiêu tích hợp AI: HS nhận biết AI/công cụ số có thể hỗ trợ gợi ý nội dung giới thiệu cảnh đẹp, di tích, văn hóa Việt Nam nhưng không thay thế hiểu biết và lời nói của học sinh."
             ],
             [
               "- GV giao nhiệm vụ: Về nhà, em suy nghĩ một lời khuyên dành cho bạn trong tình huống chưa thể hiện tình yêu Tổ quốc và chuẩn bị một nội dung ngắn để giới thiệu về đất nước, con người Việt Nam.",
@@ -765,7 +772,10 @@
             ]
           ]
         ],
-        "title": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM - SỐ TIẾT: 3 TIẾT"
+        "dieuchinh": [
+          "- ........................................................................................................................",
+          "- ........................................................................................................................"
+        ]
       }
     ]
   },
@@ -774,11 +784,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM",
+        "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 5: TỰ HÀO TỔ QUỐC VIỆT NAM (TIẾT 3)",
           "1. Năng lực đặc thù",
           "- Biết nhận xét, đưa ra lời khuyên trong các tình huống thể hiện hoặc chưa thể hiện tình yêu Tổ quốc.",
           "- Biết đóng vai hướng dẫn viên, giới thiệu ngắn gọn một cảnh đẹp, nét đẹp con người, truyền thống hoặc sự đổi mới của quê hương, đất nước.",
@@ -793,16 +801,17 @@
           "4. Tích hợp",
           "- Tích hợp QPAN: HS biết trân trọng lãnh thổ, biển đảo, Quốc kì, Quốc huy và các biểu tượng của đất nước; có ý thức giữ gìn danh dự quốc gia qua lời nói, việc làm phù hợp. Vị trí: Luyện tập - Bài tập 4.",
           "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết công nghệ/AI hỗ trợ quảng bá hình ảnh đất nước; khi sử dụng cần lựa chọn nội dung đúng, phù hợp. Vị trí: Vận dụng.",
-          "- Lưu ý: Mỗi hoạt động chỉ tích hợp một nội dung; không gộp QPAN và AI trong cùng một hoạt động; không tích hợp vào Khởi động."
+          "- Lưu ý: Mỗi hoạt động chỉ tích hợp một nội dung; không gộp QPAN và AI trong cùng một hoạt động; không tích hợp vào Khởi động.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2 & 6 - Trang 11 & 31 TLGDĐP Lớp 3 Trà Vinh): Tự hào về con người và danh nhân Trà Vinh - Nghệ sĩ nhân dân, soạn giả Viễn Châu (quê Đôn Châu, Duyên Hải, Trà Vinh) - người có cống hiến to lớn cho nghệ thuật đờn ca tài tử và sân khấu cải lương Nam Bộ.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M18): Nhận thức được hành động bảo vệ môi trường, nguồn nước là việc làm thiết thực thể hiện tình yêu quê hương đất nước."
         ],
         "dodung": [
           "- SGK, SGV, Vở bài tập Đạo đức 3; tranh ảnh trong SGK về Bài 2.",
           "- Máy tính, máy chiếu/ti vi; bài trình chiếu có các hình ảnh về cảnh đẹp, con người, sự phát triển của Việt Nam.",
           "- Phiếu thảo luận nhóm, thẻ tán thành/không tán thành, bút màu hoặc giấy A4 khi cần."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -849,7 +858,7 @@
               "- HS lắng nghe, bổ sung lời khuyên cho bạn."
             ],
             [
-              "3. Luyện tập - Bài tập 4: Đóng vai hướng dẫn viên du lịch giới thiệu về đất nước, con người Việt Nam (14 phút)Mục tiêu: HS biết giới thiệu ngắn gọn một cảnh đẹp, một nét đẹp của con người Việt Nam, một truyền thống lịch sử - văn hóa hoặc sự đổi mới của quê hương, đất nước.Mục tiêu tích hợp QPAN: HS biết trân trọng lãnh thổ, biển đảo, Quốc kì, Quốc huy và các biểu tượng của đất nước; có ý thức giữ gìn danh dự quốc gia qua lời nói, việc làm phù hợp."
+              "3. Luyện tập - Bài tập 4: Đóng vai hướng dẫn viên du lịch giới thiệu về đất nước, con người Việt Nam (14 phút)\nMục tiêu: HS biết giới thiệu ngắn gọn một cảnh đẹp, một nét đẹp của con người Việt Nam, một truyền thống lịch sử - văn hóa hoặc sự đổi mới của quê hương, đất nước.\nMục tiêu tích hợp QPAN: HS biết trân trọng lãnh thổ, biển đảo, Quốc kì, Quốc huy và các biểu tượng của đất nước; có ý thức giữ gìn danh dự quốc gia qua lời nói, việc làm phù hợp."
             ],
             [
               "- GV nêu yêu cầu: Các nhóm đóng vai hướng dẫn viên du lịch và giới thiệu một trong các nội dung: a) Một cảnh đẹp của quê hương, đất nước; b) Một vẻ đẹp của con người Việt Nam; c) Một truyền thống lịch sử, văn hóa; d) Sự đổi mới của quê hương em.",
@@ -880,7 +889,7 @@
               "- HS lắng nghe, rút kinh nghiệm, vỗ tay tuyên dương nhóm bạn."
             ],
             [
-              "4. Vận dụng (10 phút)Mục tiêu: HS biết chia sẻ việc đã làm, sẽ làm để thể hiện tình yêu Tổ quốc; biết sưu tầm câu ca dao, tục ngữ và viết đoạn văn ngắn về niềm tự hào là người Việt Nam.Mục tiêu tích hợp AI: HS nhận biết công nghệ/AI có thể hỗ trợ quảng bá hình ảnh đất nước hoặc gợi ý nội dung học tập, nhưng phải lựa chọn thông tin đúng, phù hợp và tự diễn đạt bằng lời của mình."
+              "4. Vận dụng (10 phút)\nMục tiêu: HS biết chia sẻ việc đã làm, sẽ làm để thể hiện tình yêu Tổ quốc; biết sưu tầm câu ca dao, tục ngữ và viết đoạn văn ngắn về niềm tự hào là người Việt Nam.\nMục tiêu tích hợp AI: HS nhận biết công nghệ/AI có thể hỗ trợ quảng bá hình ảnh đất nước hoặc gợi ý nội dung học tập, nhưng phải lựa chọn thông tin đúng, phù hợp và tự diễn đạt bằng lời của mình."
             ],
             [
               "- Bài vận dụng 1. GV yêu cầu HS lập bảng theo mẫu: Việc em đã làm - Việc em sẽ làm để thể hiện tình yêu Tổ quốc.",
@@ -893,6 +902,14 @@
             [
               "- Bài vận dụng 3. GV hướng dẫn HS viết đoạn văn ngắn 3-5 câu chia sẻ niềm tự hào được là người Việt Nam. GV gợi ý: Em tự hào vì điều gì? Em sẽ làm gì để thể hiện tình yêu Tổ quốc?",
               "- HS viết hoặc nói mẫu: “Em tự hào là người Việt Nam vì đất nước em có nhiều cảnh đẹp và con người chăm chỉ, nhân ái. Em yêu Quốc kì, yêu tiếng Việt và yêu quê hương của mình. Em sẽ học tập tốt, bảo vệ thiên nhiên và biết ơn những người có công với đất nước.”"
+            ],
+            [
+              "- GV gợi ý dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 2, 6 GDĐP 3 & Mã Mizuiku M6, M18): “Khi chia sẻ việc làm thể hiện tình yêu quê hương, các em có thể nêu tấm gương lao động nghệ thuật miệt mài của NSND - Soạn giả Viễn Châu quê ở Đôn Châu (Duyên Hải, Trà Vinh); đồng thời chia sẻ những việc làm thiết thực như tiết kiệm nước sạch và bảo vệ nguồn nước quê mình.”",
+              "- HS tự hào chia sẻ: Em noi gương Soạn giả Viễn Châu chăm chỉ học tập; ở nhà và ở trường, em luôn khóa chặt vòi nước sau khi dùng, cùng bạn nhặt rác quanh kênh rạch để thể hiện tình yêu quê hương Trà Vinh ạ."
+            ],
+            [
+              "- GV nhận xét, khen ngợi: Noi gương các danh nhân và chung tay bảo vệ nguồn nước sạch chính là những hành động đẹp làm rạng danh quê hương Trà Vinh.",
+              "- HS lắng nghe và quyết tâm thực hiện."
             ],
             [
               "- GV hỏi dẫn trước khi diễn giải tích hợp AI: Khi muốn dùng công nghệ/AI để tìm câu ca dao, hình ảnh minh họa hoặc gợi ý đoạn văn về Việt Nam, em cần chú ý điều gì để nội dung đúng và phù hợp?",
@@ -923,7 +940,9 @@
             ]
           ]
         ],
-        "title": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM"
+        "dieuchinh": [
+          "- ........................................................................................................................"
+        ]
       }
     ]
   },
@@ -932,17 +951,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
+        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG - SỐ TIẾT: 4 TIẾT",
         "topic": "CHỦ ĐỀ 2: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "yccd": [
-          "SỐ TIẾT: 4 TIẾT",
-          "TUẦN 6: QUAN TÂM HÀNG XÓM LÁNG GIỀNG (TIẾT 1)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của việc quan tâm đến hàng xóm láng giềng.",
           "- Biết vì sao phải quan tâm đến hàng xóm láng giềng.",
           "- Quan tâm đến hàng xóm láng giềng bằng những lời nói, việc làm phù hợp.",
           "- Đồng tình với những lời nói, việc làm tốt; không đồng tình với những lời nói, việc làm không tốt đối với hàng xóm láng giềng.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự giác tham gia hoạt động, lắng nghe hướng dẫn, tự điều chỉnh lời nói, việc làm cho phù hợp.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
           "3. PHẨM CHẤT",
@@ -962,10 +980,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, thực hành và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1036,7 +1052,10 @@
             ]
           ]
         ],
-        "title": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1045,17 +1064,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
+        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG - SỐ TIẾT: 4 TIẾT",
         "topic": "CHỦ ĐỀ 2: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "yccd": [
-          "SỐ TIẾT: 4 TIẾT",
-          "TUẦN 7: QUAN TÂM HÀNG XÓM LÁNG GIỀNG (TIẾT 2)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của việc quan tâm đến hàng xóm láng giềng.",
           "- Biết vì sao phải quan tâm đến hàng xóm láng giềng.",
           "- Quan tâm đến hàng xóm láng giềng bằng những lời nói, việc làm phù hợp.",
           "- Đồng tình với những lời nói, việc làm tốt; không đồng tình với những lời nói, việc làm không tốt đối với hàng xóm láng giềng.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự giác tham gia hoạt động, lắng nghe hướng dẫn, tự điều chỉnh lời nói, việc làm cho phù hợp.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
           "3. PHẨM CHẤT",
@@ -1064,7 +1082,9 @@
           "- Chăm chỉ: Tích cực tham gia học tập, thực hành, rèn luyện thói quen tốt.",
           "4. TÍCH HỢP",
           "- Tích hợp NLS 2.1.CB1a, 4.1.CB1b: HS biết lựa chọn cách liên hệ an toàn khi cần báo tin cho người lớn; không tự ý trả lời tin nhắn/nghe lời người lạ trên môi trường số.",
-          "- Tích hợp AI (Khung 3439) - 3.A2.2: Nhận biết công nghệ/AI có thể hỗ trợ cảnh báo, gọi trợ giúp trong khu dân cư nhưng HS cần ứng xử an toàn."
+          "- Tích hợp AI (Khung 3439) - 3.A2.2: Nhận biết công nghệ/AI có thể hỗ trợ cảnh báo, gọi trợ giúp trong khu dân cư nhưng HS cần ứng xử an toàn.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Hiểu được nét đẹp truyền thống tương thân tương ái, gắn bó, đoàn kết, tương trợ lẫn nhau giữa cộng đồng ba dân tộc Kinh - Khmer - Hoa sống chan hòa trên mảnh đất Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M25): Biết chia sẻ nguồn nước sinh hoạt khi láng giềng gặp khó khăn (hạn hán, ngập mặn); cùng nhau giữ gìn vệ sinh kênh mương chung của xóm ấp."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1075,10 +1095,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, thực hành và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1129,6 +1147,14 @@
               "- HS lắng nghe, nêu một lí do cần quan tâm hàng xóm."
             ],
             [
+              "- GV liên hệ tích hợp GDĐP Trà Vinh & Chia sẻ nguồn nước (Chủ đề 2 GDĐP 3 & Mã Mizuiku M10, M25): “Ở quê hương Trà Vinh, đồng bào các dân tộc Kinh, Khmer, Hoa cùng sinh sống hòa thuận, tối lửa tắt đèn có nhau. Vào mùa khô hạn hán hoặc xâm nhập mặn, bà con láng giềng đã thể hiện sự quan tâm, chia sẻ nguồn nước sinh hoạt như thế nào?”",
+              "- HS trả lời: Vào mùa khô hạn mặn, các gia đình có giếng khoan nước ngọt hoặc bể nước mưa thường chia sẻ từng can nước, thùng nước sạch cho hàng xóm cùng dùng; bà con trong xóm ấp còn cùng nhau nạo vét kênh mương, không xả rác bẩn ra nguồn nước chung ạ."
+            ],
+            [
+              "- GV biểu dương: Tinh thần sẻ chia dòng nước ngọt và tương trợ láng giềng là nét đẹp ấm áp tình người tiêu biểu của nhân dân tỉnh Trà Vinh. Các em hãy học tập và phát huy truyền thống quý báu này nhé.",
+              "- HS xúc động, thấm thía tinh thần đoàn kết, tương thân tương ái."
+            ],
+            [
               "3. Luyện tập - Nhận xét hành vi (13 phút)\nMục tiêu: HS nhận xét được hành vi đúng, chưa đúng trong quan hệ với hàng xóm.\nMục tiêu tích hợp: HS nhận biết công nghệ/AI có thể hỗ trợ cảnh báo, gọi trợ giúp trong khu dân cư nhưng HS cần ứng xử an toàn.\n*Cách tiến hành:"
             ],
             [
@@ -1153,7 +1179,10 @@
             ]
           ]
         ],
-        "title": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1162,17 +1191,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
+        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG - SỐ TIẾT: 4 TIẾT",
         "topic": "CHỦ ĐỀ 2: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "yccd": [
-          "SỐ TIẾT: 4 TIẾT",
-          "TUẦN 8: QUAN TÂM HÀNG XÓM LÁNG GIỀNG (TIẾT 3)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của việc quan tâm đến hàng xóm láng giềng.",
           "- Biết vì sao phải quan tâm đến hàng xóm láng giềng.",
           "- Quan tâm đến hàng xóm láng giềng bằng những lời nói, việc làm phù hợp.",
           "- Đồng tình với những lời nói, việc làm tốt; không đồng tình với những lời nói, việc làm không tốt đối với hàng xóm láng giềng.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự giác tham gia hoạt động, lắng nghe hướng dẫn, tự điều chỉnh lời nói, việc làm cho phù hợp.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
           "3. PHẨM CHẤT",
@@ -1192,10 +1220,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, thực hành và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1266,7 +1292,10 @@
             ]
           ]
         ],
-        "title": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1275,17 +1304,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
+        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG - SỐ TIẾT: 4 TIẾT",
         "topic": "CHỦ ĐỀ 2: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "yccd": [
-          "SỐ TIẾT: 4 TIẾT",
-          "TUẦN 9: QUAN TÂM HÀNG XÓM LÁNG GIỀNG (TIẾT 4)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của việc quan tâm đến hàng xóm láng giềng.",
           "- Biết vì sao phải quan tâm đến hàng xóm láng giềng.",
           "- Quan tâm đến hàng xóm láng giềng bằng những lời nói, việc làm phù hợp.",
           "- Đồng tình với những lời nói, việc làm tốt; không đồng tình với những lời nói, việc làm không tốt đối với hàng xóm láng giềng.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự giác tham gia hoạt động, lắng nghe hướng dẫn, tự điều chỉnh lời nói, việc làm cho phù hợp.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
           "3. PHẨM CHẤT",
@@ -1305,10 +1333,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, thực hành và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1383,7 +1409,10 @@
             ]
           ]
         ],
-        "title": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1392,8 +1421,8 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4",
-        "topic": "",
+        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG GIỮA HỌC KÌ I - SỐ TIẾT: 1 TIẾT",
+        "topic": "CHỦ ĐỀ: ÔN TẬP GIỮA HỌC KÌ I",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Hệ thống được một số nội dung đã học: chào cờ và hát Quốc ca, tự hào Tổ quốc Việt Nam, quan tâm hàng xóm láng giềng.",
@@ -1401,6 +1430,7 @@
           "- Biết lựa chọn cách ứng xử phù hợp, lịch sự, an toàn trong một số tình huống thực hành rèn kĩ năng.",
           "- Tự đánh giá được việc thực hiện lời nói, việc làm thể hiện tình yêu Tổ quốc và sự quan tâm đến người xung quanh.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Tự nhớ lại kiến thức đã học, hoàn thành phiếu ôn tập và tự điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Trao đổi nhóm, lắng nghe ý kiến bạn, trình bày nhận xét và góp ý bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống, lựa chọn cách xử lí phù hợp, biết kiểm chứng thông tin trước khi làm theo.",
           "3. PHẨM CHẤT",
@@ -1420,10 +1450,8 @@
           "- SGK, Vở bài tập Đạo đức; bút viết, thẻ màu hoặc bảng con.",
           "- Chuẩn bị chia sẻ một việc tốt em đã làm để thể hiện tình yêu Tổ quốc hoặc quan tâm đến người xung quanh."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1549,7 +1577,10 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1558,17 +1589,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: HAM HỌC HỎI",
+        "lessonTitle": "BÀI 4: HAM HỌC HỎI - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 3: HAM HỌC HỎI",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 11: HAM HỌC HỎI (TIẾT 1)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của ham học hỏi.",
           "- Nêu được lợi ích của ham học hỏi đối với lứa tuổi của mình.",
           "- Thực hiện được việc làm thể hiện sự ham học hỏi.",
           "- Biết bày tỏ ý kiến, nhận xét hành vi và đưa ra lời khuyên phù hợp trong tình huống học tập.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự giác tham gia hoạt động, lắng nghe hướng dẫn, tự điều chỉnh lời nói, việc làm cho phù hợp.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
           "3. PHẨM CHẤT",
@@ -1577,7 +1607,8 @@
           "- Nhân ái: Biết chia sẻ điều hay đã học được, hỗ trợ bạn cùng tiến bộ.",
           "4. TÍCH HỢP",
           "- Tích hợp NLS 1.1.CB1a, 3.1.CB1a: HS biết đặt câu hỏi học tập rõ ràng, tìm thông tin dưới sự hướng dẫn của GV và trình bày lại bằng lời của mình.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết sử dụng AI như công cụ hỗ trợ tìm kiếm tri thức chủ động, không sao chép máy móc."
+          "- Tích hợp AI (Khung 3439) - 3.A1.1: Biết sử dụng AI như công cụ hỗ trợ tìm kiếm tri thức chủ động, không sao chép máy móc.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 6: Nghệ sĩ nhân dân, soạn giả Viễn Châu - Trang 31 TLGDĐP Lớp 3 Trà Vinh): Học tập tấm gương say mê học hỏi, tự rèn luyện thành tài của Nghệ sĩ nhân dân, soạn giả Viễn Châu (Trà Vinh) - từ cậu bé nghèo tự học đàn kìm đến bậc thầy sáng tác âm nhạc dân tộc."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -1588,10 +1619,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, thực hành và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1638,6 +1667,14 @@
               "- HS lắng nghe, nêu lại một biểu hiện của ham học hỏi."
             ],
             [
+              "- GV kể chuyện tích hợp GDĐP Trà Vinh (Chủ đề 6 GDĐP 3 Trà Vinh): “Ở tỉnh Trà Vinh chúng ta có NSND - Soạn giả Viễn Châu là tấm gương sáng ngời về tinh thần ham học hỏi. Từ nhỏ ông đã say mê âm nhạc truyền thống, tự tìm tòi học các loại đàn cổ truyền và tích cực học hỏi các nghệ nhân đi trước để trở thành danh nhân văn hóa rạng danh quê hương. Tấm gương của bác Viễn Châu nhắc nhở chúng ta điều gì?”",
+              "- HS hào hứng trả lời: Nhắc nhở chúng em phải có tinh thần tự giác, chủ động tìm tòi, ham đọc sách và không ngừng học hỏi từ thầy cô, bạn bè xung quanh ạ."
+            ],
+            [
+              "- GV kết luận: Noi gương ham học hỏi của Soạn giả Viễn Châu, các em hãy luôn chăm ngoan, tích cực khám phá tri thức mới để xứng đáng là học sinh quê hương Trà Vinh.",
+              "- HS chăm chú lắng nghe và tự hứa nỗ lực rèn luyện."
+            ],
+            [
               "3. Khám phá - Hoạt động 2. Tìm hiểu lợi ích của ham học hỏi (15 phút)\nMục tiêu: HS nêu được lợi ích của ham học hỏi qua câu chuyện Nguyễn Hiền.\nMục tiêu tích hợp: HS biết sử dụng AI như công cụ hỗ trợ tìm kiếm tri thức chủ động, không sao chép máy móc.\n*Cách tiến hành:"
             ],
             [
@@ -1666,7 +1703,10 @@
             ]
           ]
         ],
-        "title": "BÀI 4: HAM HỌC HỎI"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1675,17 +1715,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: HAM HỌC HỎI",
+        "lessonTitle": "BÀI 4: HAM HỌC HỎI - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 3: HAM HỌC HỎI",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 12: HAM HỌC HỎI (TIẾT 2)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của ham học hỏi.",
           "- Nêu được lợi ích của ham học hỏi đối với lứa tuổi của mình.",
           "- Thực hiện được việc làm thể hiện sự ham học hỏi.",
           "- Biết bày tỏ ý kiến, nhận xét hành vi và đưa ra lời khuyên phù hợp trong tình huống học tập.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự giác tham gia hoạt động, lắng nghe hướng dẫn, tự điều chỉnh lời nói, việc làm cho phù hợp.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
           "3. PHẨM CHẤT",
@@ -1705,10 +1744,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, thực hành và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1783,7 +1820,10 @@
             ]
           ]
         ],
-        "title": "BÀI 4: HAM HỌC HỎI"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1792,17 +1832,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: HAM HỌC HỎI",
+        "lessonTitle": "BÀI 4: HAM HỌC HỎI - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 3: HAM HỌC HỎI",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 13: HAM HỌC HỎI (TIẾT 3)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của ham học hỏi.",
           "- Nêu được lợi ích của ham học hỏi đối với lứa tuổi của mình.",
           "- Thực hiện được việc làm thể hiện sự ham học hỏi.",
           "- Biết bày tỏ ý kiến, nhận xét hành vi và đưa ra lời khuyên phù hợp trong tình huống học tập.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự giác tham gia hoạt động, lắng nghe hướng dẫn, tự điều chỉnh lời nói, việc làm cho phù hợp.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, chia sẻ ý kiến, lắng nghe và phản hồi lịch sự với bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết nhận xét tình huống, lựa chọn cách ứng xử đúng, phù hợp với bản thân và môi trường xung quanh.",
           "3. PHẨM CHẤT",
@@ -1822,10 +1861,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, thực hành và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1904,7 +1941,10 @@
             ]
           ]
         ],
-        "title": "BÀI 4: HAM HỌC HỎI"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1913,16 +1953,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA",
+        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 4: GIỮ LỜI HỨA",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 14: GIỮ LỜI HỨA (TIẾT 1)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của việc giữ lời hứa qua câu chuyện, tranh và tình huống gần gũi.",
           "- Bước đầu biết liên hệ bản thân về lời hứa và việc thực hiện lời hứa.",
           "- Biết bày tỏ thái độ đồng tình với việc giữ đúng lời đã hứa.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự điều chỉnh lời nói, việc làm; tự nhắc bản thân thực hiện điều đã hứa.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, lắng nghe ý kiến của bạn và nói lời xin lỗi, lời giải thích lịch sự khi cần.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi đã hứa nhưng gặp khó khăn chưa thực hiện được.",
           "3. PHẨM CHẤT",
@@ -1942,10 +1981,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, xử lí tình huống và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2079,7 +2116,10 @@
             ]
           ]
         ],
-        "title": "BÀI 5: GIỮ LỜI HỨA"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2088,16 +2128,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA",
+        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 4: GIỮ LỜI HỨA",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 15: GIỮ LỜI HỨA (TIẾT 2)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được vì sao phải giữ lời hứa; hiểu giữ lời hứa giúp con người được tin tưởng, quý trọng.",
           "- Biết thảo luận những việc nên làm, nên tránh để giữ lời hứa.",
           "- Biết bày tỏ ý kiến đồng tình/không đồng tình về việc giữ lời hứa.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự điều chỉnh lời nói, việc làm; tự nhắc bản thân thực hiện điều đã hứa.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, lắng nghe ý kiến của bạn và nói lời xin lỗi, lời giải thích lịch sự khi cần.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi đã hứa nhưng gặp khó khăn chưa thực hiện được.",
           "3. PHẨM CHẤT",
@@ -2117,10 +2156,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, xử lí tình huống và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2242,7 +2279,10 @@
             ]
           ]
         ],
-        "title": "BÀI 5: GIỮ LỜI HỨA"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2251,16 +2291,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA",
+        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 4: GIỮ LỜI HỨA",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 16: GIỮ LỜI HỨA (TIẾT 3)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Biết nhận xét hành vi giữ lời hứa/chưa giữ lời hứa trong tranh.",
           "- Biết xử lí tình huống khi đã hứa nhưng gặp khó khăn không thể thực hiện đúng.",
           "- Biết chia sẻ, thực hiện việc giữ lời hứa trong cuộc sống hằng ngày.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự điều chỉnh lời nói, việc làm; tự nhắc bản thân thực hiện điều đã hứa.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận nhóm, lắng nghe ý kiến của bạn và nói lời xin lỗi, lời giải thích lịch sự khi cần.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi đã hứa nhưng gặp khó khăn chưa thực hiện được.",
           "3. PHẨM CHẤT",
@@ -2280,10 +2319,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai, xử lí tình huống và vận dụng sau bài học."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2413,7 +2450,10 @@
             ]
           ]
         ],
-        "title": "BÀI 5: GIỮ LỜI HỨA"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2422,8 +2462,8 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4",
-        "topic": "",
+        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG - SỐ TIẾT: 1 TIẾT",
+        "topic": "CHỦ ĐỀ: ÔN TẬP CUỐI HỌC KÌ I",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Hệ thống hóa được một số nội dung trọng tâm đã học trong học kì I: chào cờ và hát Quốc ca, tự hào Tổ quốc Việt Nam, quan tâm hàng xóm láng giềng, ham học hỏi, giữ lời hứa.",
@@ -2431,6 +2471,7 @@
           "- Biết tự đánh giá việc thực hiện hành vi đạo đức của bản thân trên tinh thần trung thực, tôn trọng bản thân và người khác.",
           "- Bước đầu biết phân biệt thông tin thật - giả do công cụ số/AI tạo ra; biết hỏi thầy cô, cha mẹ hoặc kiểm tra nguồn trước khi tin và chia sẻ.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Chủ động nhớ lại kiến thức đã học, tự đánh giá việc làm của bản thân và điều chỉnh hành vi phù hợp.",
           "- Giao tiếp và hợp tác: Thảo luận nhóm 2, nhóm 4; biết lắng nghe, trình bày ý kiến, nhận xét bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống đạo đức, lựa chọn cách xử lí phù hợp; biết kiểm chứng thông tin khi gặp nội dung chưa chắc đúng.",
           "3. PHẨM CHẤT",
@@ -2441,7 +2482,8 @@
           "- Chăm chỉ: Tích cực ôn tập, tham gia hoạt động nhóm và thực hành rèn kĩ năng đạo đức.",
           "4. TÍCH HỢP",
           "- Tích hợp QCN: HS biết tự đánh giá hành vi đạo đức trên tinh thần tôn trọng bản thân và người khác; được khuyến khích nói thật, trình bày ý kiến và sửa lỗi trong môi trường an toàn.",
-          "- Tích hợp AI (Khung 3439) - 3.B2.1: Biết phân biệt thông tin thật - giả do AI tạo ra; rèn sự trung thực và cảnh giác khi tiếp nhận thông tin."
+          "- Tích hợp AI (Khung 3439) - 3.B2.1: Biết phân biệt thông tin thật - giả do AI tạo ra; rèn sự trung thực và cảnh giác khi tiếp nhận thông tin.",
+          "- Gợi ý hoạt động: GV đưa ví dụ một thông tin/ảnh chưa chắc đúng; HS nêu cách hỏi lại người lớn hoặc kiểm tra nguồn."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -2452,11 +2494,8 @@
           "- SGK, Vở bài tập Đạo đức; bút chì, bút màu.",
           "- Tâm thế sẵn sàng tham gia thảo luận nhóm 2, nhóm 4; biết lắng nghe và trình bày ý kiến lịch sự."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Gợi ý hoạt động: GV đưa ví dụ một thông tin/ảnh chưa chắc đúng; HS nêu cách hỏi lại người lớn hoặc kiểm tra nguồn.",
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2617,7 +2656,10 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2626,17 +2668,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
+        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 5: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 18: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ (TIẾT 1)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của tích cực hoàn thành nhiệm vụ.",
           "- Nêu được vì sao phải tích cực hoàn thành nhiệm vụ.",
           "- Hoàn thành nhiệm vụ đúng kế hoạch, có chất lượng.",
           "- Nhắc nhở bạn bè tích cực hoàn thành nhiệm vụ.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết xác định việc cần làm, tự lập kế hoạch đơn giản và tự điều chỉnh khi thực hiện nhiệm vụ.",
           "- Giao tiếp và hợp tác: Biết trao đổi, phân công, lắng nghe và hỗ trợ bạn trong thảo luận nhóm 2, nhóm 4.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp khó khăn trong quá trình thực hiện nhiệm vụ.",
           "3. PHẨM CHẤT",
@@ -2654,10 +2695,8 @@
           "2. Học sinh",
           "- SGK, Vở bài tập Đạo đức 3; bút, thẻ bày tỏ ý kiến; tâm thế sẵn sàng thảo luận, chia sẻ và thực hành lập kế hoạch nhiệm vụ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2755,7 +2794,10 @@
             ]
           ]
         ],
-        "title": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2764,17 +2806,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
+        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 5: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 19: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ (TIẾT 2)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của tích cực hoàn thành nhiệm vụ.",
           "- Nêu được vì sao phải tích cực hoàn thành nhiệm vụ.",
           "- Hoàn thành nhiệm vụ đúng kế hoạch, có chất lượng.",
           "- Nhắc nhở bạn bè tích cực hoàn thành nhiệm vụ.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết xác định việc cần làm, tự lập kế hoạch đơn giản và tự điều chỉnh khi thực hiện nhiệm vụ.",
           "- Giao tiếp và hợp tác: Biết trao đổi, phân công, lắng nghe và hỗ trợ bạn trong thảo luận nhóm 2, nhóm 4.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp khó khăn trong quá trình thực hiện nhiệm vụ.",
           "3. PHẨM CHẤT",
@@ -2792,10 +2833,8 @@
           "2. Học sinh",
           "- SGK, Vở bài tập Đạo đức 3; bút, thẻ bày tỏ ý kiến; tâm thế sẵn sàng thảo luận, chia sẻ và thực hành lập kế hoạch nhiệm vụ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -2889,7 +2928,10 @@
             ]
           ]
         ],
-        "title": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2898,17 +2940,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
+        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ - SỐ TIẾT: 3 TIẾT",
         "topic": "CHỦ ĐỀ 5: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
         "yccd": [
-          "SỐ TIẾT: 3 TIẾT",
-          "TUẦN 20: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ (TIẾT 3)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện của tích cực hoàn thành nhiệm vụ.",
           "- Nêu được vì sao phải tích cực hoàn thành nhiệm vụ.",
           "- Hoàn thành nhiệm vụ đúng kế hoạch, có chất lượng.",
           "- Nhắc nhở bạn bè tích cực hoàn thành nhiệm vụ.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết xác định việc cần làm, tự lập kế hoạch đơn giản và tự điều chỉnh khi thực hiện nhiệm vụ.",
           "- Giao tiếp và hợp tác: Biết trao đổi, phân công, lắng nghe và hỗ trợ bạn trong thảo luận nhóm 2, nhóm 4.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp khó khăn trong quá trình thực hiện nhiệm vụ.",
           "3. PHẨM CHẤT",
@@ -2926,10 +2967,8 @@
           "2. Học sinh",
           "- SGK, Vở bài tập Đạo đức 3; bút, thẻ bày tỏ ý kiến; tâm thế sẵn sàng thảo luận, chia sẻ và thực hành lập kế hoạch nhiệm vụ."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3039,7 +3078,10 @@
             ]
           ]
         ],
-        "title": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3048,17 +3090,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
-          "SỐ TIẾT: 5 TIẾT",
-          "TUẦN 21: KHÁM PHÁ BẢN THÂN (TIẾT 1)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số điểm mạnh, điểm yếu của bản thân.",
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự nhận xét, tự điều chỉnh bản thân; chủ động thực hiện nhiệm vụ học tập, rèn luyện.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
           "3. PHẨM CHẤT",
@@ -3078,10 +3119,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; phiếu học tập nếu có.",
           "- Tâm thế sẵn sàng chia sẻ, lắng nghe, nhận xét tích cực về điểm mạnh, điểm yếu của bản thân và của bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3163,7 +3202,10 @@
             ]
           ]
         ],
-        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3172,17 +3214,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
-          "SỐ TIẾT: 5 TIẾT",
-          "TUẦN 22: KHÁM PHÁ BẢN THÂN (TIẾT 2)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số điểm mạnh, điểm yếu của bản thân.",
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự nhận xét, tự điều chỉnh bản thân; chủ động thực hiện nhiệm vụ học tập, rèn luyện.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
           "3. PHẨM CHẤT",
@@ -3202,10 +3243,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; phiếu học tập nếu có.",
           "- Tâm thế sẵn sàng chia sẻ, lắng nghe, nhận xét tích cực về điểm mạnh, điểm yếu của bản thân và của bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3287,7 +3326,10 @@
             ]
           ]
         ],
-        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3296,17 +3338,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
-          "SỐ TIẾT: 5 TIẾT",
-          "TUẦN 23: KHÁM PHÁ BẢN THÂN (TIẾT 3)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số điểm mạnh, điểm yếu của bản thân.",
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự nhận xét, tự điều chỉnh bản thân; chủ động thực hiện nhiệm vụ học tập, rèn luyện.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
           "3. PHẨM CHẤT",
@@ -3326,10 +3367,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; phiếu học tập nếu có.",
           "- Tâm thế sẵn sàng chia sẻ, lắng nghe, nhận xét tích cực về điểm mạnh, điểm yếu của bản thân và của bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3411,7 +3450,10 @@
             ]
           ]
         ],
-        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3420,17 +3462,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
-          "SỐ TIẾT: 5 TIẾT",
-          "TUẦN 23: KHÁM PHÁ BẢN THÂN (TIẾT 3)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số điểm mạnh, điểm yếu của bản thân.",
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự nhận xét, tự điều chỉnh bản thân; chủ động thực hiện nhiệm vụ học tập, rèn luyện.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
           "3. PHẨM CHẤT",
@@ -3450,10 +3491,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; phiếu học tập nếu có.",
           "- Tâm thế sẵn sàng chia sẻ, lắng nghe, nhận xét tích cực về điểm mạnh, điểm yếu của bản thân và của bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3535,7 +3574,10 @@
             ]
           ]
         ],
-        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3544,17 +3586,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
-          "SỐ TIẾT: 5 TIẾT",
-          "TUẦN 25: KHÁM PHÁ BẢN THÂN (TIẾT 5)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số điểm mạnh, điểm yếu của bản thân.",
           "- Nêu được vì sao phải biết điểm mạnh, điểm yếu của bản thân.",
           "- Thực hiện được một số cách đơn giản tự đánh giá điểm mạnh, điểm yếu của bản thân.",
           "- Rèn luyện để phát huy điểm mạnh, khắc phục điểm yếu của bản thân.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự nhận xét, tự điều chỉnh bản thân; chủ động thực hiện nhiệm vụ học tập, rèn luyện.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe ý kiến của bạn; trình bày điểm mạnh, điểm yếu và kế hoạch rèn luyện bằng lời nói phù hợp.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách phát huy điểm mạnh, khắc phục điểm yếu trong tình huống cụ thể.",
           "3. PHẨM CHẤT",
@@ -3574,10 +3615,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; phiếu học tập nếu có.",
           "- Tâm thế sẵn sàng chia sẻ, lắng nghe, nhận xét tích cực về điểm mạnh, điểm yếu của bản thân và của bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3655,7 +3694,10 @@
             ]
           ]
         ],
-        "title": "BÀI 7: KHÁM PHÁ BẢN THÂN"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3664,12 +3706,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4",
-        "topic": "",
+        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG - SỐ TIẾT: 1 TIẾT",
+        "topic": "CHỦ ĐỀ ÔN TẬP GIỮA HỌC KÌ II",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
+          "- Củng cố được một số nội dung đạo đức đã học ở học kì II: tích cực hoàn thành nhiệm vụ, biết khám phá bản thân, biết tự đánh giá và điều chỉnh hành vi phù hợp.",
           "- Biết phân tích tình huống đạo đức đơn giản, nêu cách ứng xử thể hiện sự trung thực, trách nhiệm, tôn trọng bản thân và tôn trọng người khác.",
+          "- Biết tự đánh giá việc thực hiện nhiệm vụ, điểm mạnh, điểm cần cố gắng của bản thân; mạnh dạn bày tỏ ý kiến và tìm sự hỗ trợ khi cần.",
+          "- Biết nhận ra gợi ý chưa phù hợp từ công cụ số/AI và nêu được cách hỏi lại thầy cô, cha mẹ hoặc người lớn đáng tin cậy trước khi làm theo.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết tự nhìn nhận việc làm của bản thân, tự điều chỉnh để hoàn thành nhiệm vụ và rèn luyện tốt hơn.",
           "- Giao tiếp và hợp tác: Biết thảo luận nhóm 2, nhóm 4; lắng nghe, trình bày ý kiến rõ ràng, nhận xét bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong tình huống đạo đức; biết kiểm chứng thông tin trước khi thực hiện.",
           "3. PHẨM CHẤT",
@@ -3678,7 +3724,8 @@
           "- Nhân ái: Biết tôn trọng sự khác biệt, động viên bạn, không chê bai khi bạn còn hạn chế hoặc chưa hoàn thành nhiệm vụ.",
           "4. TÍCH HỢP",
           "- Tích hợp QCN: HS biết quyền được bày tỏ ý kiến, được người lớn hướng dẫn và bảo vệ; khi gặp thông tin khó hiểu hoặc chưa phù hợp cần hỏi thầy cô, cha mẹ.",
-          "- Tích hợp AI (Khung 3439) - 3.A3.1: Biết trao đổi với người lớn để xác minh thông tin từ ứng dụng AI; không tự ý làm theo gợi ý chưa phù hợp."
+          "- Tích hợp AI (Khung 3439) - 3.A3.1: Biết trao đổi với người lớn để xác minh thông tin từ ứng dụng AI; không tự ý làm theo gợi ý chưa phù hợp.",
+          "- Gợi ý hoạt động: HS nêu một kết quả AI có thể sai và cách hỏi lại thầy cô, cha mẹ trước khi thực hiện."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -3689,13 +3736,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu.",
           "- Tâm thế sẵn sàng chia sẻ, thảo luận nhóm 2, nhóm 4, tự đánh giá và trình bày ý kiến trước lớp."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Biết tự đánh giá việc thực hiện nhiệm vụ, điểm mạnh, điểm cần cố gắng của bản thân; mạnh dạn bày tỏ ý kiến và tìm sự hỗ trợ khi cần.",
-          "- Biết nhận ra gợi ý chưa phù hợp từ công cụ số/AI và nêu được cách hỏi lại thầy cô, cha mẹ hoặc người lớn đáng tin cậy trước khi làm theo.",
-          "- Gợi ý hoạt động: HS nêu một kết quả AI có thể sai và cách hỏi lại thầy cô, cha mẹ trước khi thực hiện.",
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3704,7 +3746,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo tâm thế tích cực, giúp HS nhớ lại các bài đã học và chuẩn bị tham gia hoạt động ôn tập.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo tâm thế tích cực, giúp HS nhớ lại các bài đã học và chuẩn bị tham gia hoạt động ôn tập.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi “Ô cửa ôn tập”. GV nêu tên chủ đề/bài học, yêu cầu HS nói nhanh một việc làm đúng đã học.",
@@ -3723,7 +3765,7 @@
               "- HS trình bày trước lớp, lắng nghe GV giới thiệu nội dung tiết học."
             ],
             [
-              "2. Luyện tập - Hoạt động 1. Ôn tập qua tình huống quyền được bày tỏ ý kiến (12 phút)Mục tiêu: HS củng cố kiến thức đã học, biết tự đánh giá hành vi và bày tỏ ý kiến phù hợp trong tình huống đạo đức.Mục tiêu tích hợp: QCN: HS biết mình có quyền được bày tỏ ý kiến, được người lớn hướng dẫn và bảo vệ; biết nói thật, trình bày ý kiến, sửa lỗi trong môi trường an toàn.*Cách tiến hành:"
+              "2. Luyện tập - Hoạt động 1. Ôn tập qua tình huống quyền được bày tỏ ý kiến (12 phút)\nMục tiêu: HS củng cố kiến thức đã học, biết tự đánh giá hành vi và bày tỏ ý kiến phù hợp trong tình huống đạo đức.\nMục tiêu tích hợp: QCN: HS biết mình có quyền được bày tỏ ý kiến, được người lớn hướng dẫn và bảo vệ; biết nói thật, trình bày ý kiến, sửa lỗi trong môi trường an toàn.\n*Cách tiến hành:"
             ],
             [
               "- GV chia lớp thành nhóm 4, phát phiếu tình huống: “Trong nhóm, một bạn chưa hoàn thành nhiệm vụ trang trí bảng tin. Bạn lo sợ bị trách nên định nói rằng mình không được phân công.”",
@@ -3754,7 +3796,7 @@
               "- HS nhắc lại: “Em cần nói thật, trình bày rõ ràng, lễ phép và biết sửa lỗi.”"
             ],
             [
-              "3. Luyện tập - Hoạt động 2. Kiểm chứng thông tin từ công cụ số/AI (15 phút)Mục tiêu: HS biết nhận ra gợi ý chưa phù hợp từ công cụ số/AI và nêu được cách hỏi lại người lớn trước khi thực hiện.Mục tiêu tích hợp: AI (Khung 3439) - 3.A3.1: HS biết trao đổi với người lớn để xác minh thông tin từ ứng dụng AI; không tự ý làm theo gợi ý chưa phù hợp.*Cách tiến hành:"
+              "3. Luyện tập - Hoạt động 2. Kiểm chứng thông tin từ công cụ số/AI (15 phút)\nMục tiêu: HS biết nhận ra gợi ý chưa phù hợp từ công cụ số/AI và nêu được cách hỏi lại người lớn trước khi thực hiện.\nMục tiêu tích hợp: AI (Khung 3439) - 3.A3.1: HS biết trao đổi với người lớn để xác minh thông tin từ ứng dụng AI; không tự ý làm theo gợi ý chưa phù hợp.\n*Cách tiến hành:"
             ],
             [
               "- GV giới thiệu ngắn: “Một số công cụ như ChatGPT, Gemini, Copilot, Canva AI hoặc các ứng dụng học tập có thể gợi ý câu trả lời, ý tưởng, hình ảnh, kế hoạch học tập. Tuy nhiên, gợi ý của công cụ không phải lúc nào cũng đúng hoặc phù hợp với học sinh.”",
@@ -3789,7 +3831,7 @@
               "- HS ghi nhớ: “Em không tin ngay mọi gợi ý từ AI; em sẽ hỏi thầy cô, cha mẹ khi chưa chắc chắn.”"
             ],
             [
-              "4. Thực hành - Hoạt động 3. Xử lí tình huống đạo đức (10 phút)Mục tiêu: HS vận dụng kiến thức đã ôn để lựa chọn cách ứng xử phù hợp trong các tình huống học tập, sinh hoạt.*Cách tiến hành:"
+              "4. Thực hành - Hoạt động 3. Xử lí tình huống đạo đức (10 phút)\nMục tiêu: HS vận dụng kiến thức đã ôn để lựa chọn cách ứng xử phù hợp trong các tình huống học tập, sinh hoạt.\n*Cách tiến hành:"
             ],
             [
               "- GV chia lớp thành nhóm 4, phát thẻ tình huống: Tình huống 1: Em được phân công làm nhóm trưởng nhưng một bạn chưa hoàn thành phần việc. Tình huống 2: Em bị bạn nhận xét là đọc chậm. Tình huống 3: Em thấy thông tin trên mạng nói cách học nhanh nhưng em chưa hiểu có đúng không.",
@@ -3812,7 +3854,7 @@
               "- HS lắng nghe, ghi nhớ cách xử lí tình huống đạo đức."
             ],
             [
-              "5. Vận dụng (5 phút)Mục tiêu: HS tự đánh giá việc rèn luyện của bản thân và xây dựng một việc làm cụ thể sau tiết ôn tập.*Cách tiến hành:"
+              "5. Vận dụng (5 phút)\nMục tiêu: HS tự đánh giá việc rèn luyện của bản thân và xây dựng một việc làm cụ thể sau tiết ôn tập.\n*Cách tiến hành:"
             ],
             [
               "- GV phát phiếu “Em tự đánh giá” gồm 3 nội dung: Em đã tích cực hoàn thành nhiệm vụ chưa? Em đã biết phát huy điểm mạnh, khắc phục điểm yếu chưa? Khi gặp thông tin chưa rõ, em đã biết hỏi người lớn chưa?",
@@ -3832,7 +3874,10 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3841,17 +3886,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
+        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ - SỐ TIẾT: 4 TIẾT",
         "topic": "CHỦ ĐỀ 7: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "yccd": [
-          "SỐ TIẾT: 4 TIẾT",
-          "TUẦN 27: XỬ LÍ BẤT HÒA VỚI BẠN BÈ (TIẾT 1)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện bất hòa với bạn bè.",
           "- Nhận biết được lợi ích của việc xử lí bất hòa với bạn bè.",
           "- Thực hiện được một số cách đơn giản, phù hợp để xử lí bất hòa với bạn bè.",
           "- Sẵn sàng giúp bạn bè xử lí bất hòa với nhau.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết nhận diện cảm xúc khi xảy ra bất hòa; biết bình tĩnh, tự điều chỉnh lời nói và hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, thảo luận nhóm 2/nhóm 4, trình bày ý kiến, nhận xét và góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong các tình huống bất hòa với bạn bè; biết nhờ người lớn hỗ trợ khi cần.",
           "3. PHẨM CHẤT",
@@ -3866,10 +3910,8 @@
           "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
           "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -3975,7 +4017,10 @@
             ]
           ]
         ],
-        "title": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -3984,17 +4029,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
+        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ - SỐ TIẾT: 4 TIẾT",
         "topic": "CHỦ ĐỀ 7: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "yccd": [
-          "SỐ TIẾT: 4 TIẾT",
-          "TUẦN 28: XỬ LÍ BẤT HÒA VỚI BẠN BÈ (TIẾT 2)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện bất hòa với bạn bè.",
           "- Nhận biết được lợi ích của việc xử lí bất hòa với bạn bè.",
           "- Thực hiện được một số cách đơn giản, phù hợp để xử lí bất hòa với bạn bè.",
           "- Sẵn sàng giúp bạn bè xử lí bất hòa với nhau.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết nhận diện cảm xúc khi xảy ra bất hòa; biết bình tĩnh, tự điều chỉnh lời nói và hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, thảo luận nhóm 2/nhóm 4, trình bày ý kiến, nhận xét và góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong các tình huống bất hòa với bạn bè; biết nhờ người lớn hỗ trợ khi cần.",
           "3. PHẨM CHẤT",
@@ -4003,16 +4047,15 @@
           "- Trung thực: Biết nói sự thật một cách phù hợp; không bịa chuyện, nói xấu hoặc đổ lỗi cho bạn.",
           "4. TÍCH HỢP",
           "- Tích hợp NLS 2.3.CB1a, 3.1.CB1a: HS biết dùng lời nhắn tích cực để xin lỗi, hòa giải; không tạo, chia sẻ nội dung trêu chọc, xúc phạm hoặc gây hiểu lầm cho bạn.",
-          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hình thành thái độ sử dụng AI có đạo đức; không tạo nội dung gây chia rẽ, mất đoàn kết trong lớp."
+          "- Tích hợp AI (Khung 3439) - 3.B3.2: Hình thành thái độ sử dụng AI có đạo đức; không tạo nội dung gây chia rẽ, mất đoàn kết trong lớp.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2 & 8 - Trang 11 & 40 TLGDĐP Lớp 3 Trà Vinh): Vận dụng tinh thần hòa nhã, bao dung, tôn trọng phong tục, tập quán và sự khác biệt của bạn bè các dân tộc (Kinh, Khmer, Hoa) tại quê hương Trà Vinh; xây dựng tình bạn đoàn kết, gắn bó."
         ],
         "dodung": [
           "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
           "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4071,6 +4114,14 @@
               "- HS nhắc lại các bước xử lí bất hòa với bạn bè."
             ],
             [
+              "- GV liên hệ tích hợp GDĐP Trà Vinh (Chủ đề 2 & 8 GDĐP 3 Trà Vinh): “Trong trường lớp ở Trà Vinh, có nhiều bạn học sinh người dân tộc Kinh, Khmer, Hoa cùng chung lớp với phong tục đón Tết Chôl-Chnăm-Thmây hay văn hóa khác nhau. Khi có sự bất đồng ý kiến hoặc hiểu lầm trong sinh hoạt hằng ngày, các em cần ứng xử như thế nào để giữ vững tình bạn đoàn kết?”",
+              "- HS thảo luận và trả lời: Chúng em luôn tôn trọng sự khác biệt và phong tục của bạn bè; bình tĩnh lắng nghe, dùng lời nói nhẹ nhàng, chân thành để hòa giải, luôn yêu thương và giúp đỡ nhau cùng tiến bộ ạ."
+            ],
+            [
+              "- GV nhận xét và kết luận: Tôn trọng sự khác biệt, bao dung và hòa nhã chính là nét đẹp truyền thống ấm áp nghĩa tình của tuổi trẻ và thiếu nhi Trà Vinh.",
+              "- HS khắc sâu bài học và bắt tay thân ái với bạn bè."
+            ],
+            [
               "3. Khám phá - Hoạt động 4. Giúp bạn bè xử lí bất hòa (12 phút)\nMục tiêu: HS biết được cách giúp bạn bè xử lí bất hòa.\nMục tiêu tích hợp: AI 3.B3.2: HS hình thành thái độ sử dụng AI có đạo đức; không tạo nội dung gây chia rẽ, mất đoàn kết trong lớp.\n*Cách tiến hành:"
             ],
             [
@@ -4118,7 +4169,10 @@
             ]
           ]
         ],
-        "title": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4127,17 +4181,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
+        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ - SỐ TIẾT: 4 TIẾT",
         "topic": "CHỦ ĐỀ 7: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "yccd": [
-          "SỐ TIẾT: 4 TIẾT",
-          "TUẦN 29: XỬ LÍ BẤT HÒA VỚI BẠN BÈ (TIẾT 3)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện bất hòa với bạn bè.",
           "- Nhận biết được lợi ích của việc xử lí bất hòa với bạn bè.",
           "- Thực hiện được một số cách đơn giản, phù hợp để xử lí bất hòa với bạn bè.",
           "- Sẵn sàng giúp bạn bè xử lí bất hòa với nhau.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết nhận diện cảm xúc khi xảy ra bất hòa; biết bình tĩnh, tự điều chỉnh lời nói và hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, thảo luận nhóm 2/nhóm 4, trình bày ý kiến, nhận xét và góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong các tình huống bất hòa với bạn bè; biết nhờ người lớn hỗ trợ khi cần.",
           "3. PHẨM CHẤT",
@@ -4152,10 +4205,8 @@
           "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
           "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4261,7 +4312,10 @@
             ]
           ]
         ],
-        "title": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4270,17 +4324,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
+        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ - SỐ TIẾT: 4 TIẾT",
         "topic": "CHỦ ĐỀ 7: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "yccd": [
-          "SỐ TIẾT: 4 TIẾT",
-          "TUẦN 30: XỬ LÍ BẤT HÒA VỚI BẠN BÈ (TIẾT 4)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được một số biểu hiện bất hòa với bạn bè.",
           "- Nhận biết được lợi ích của việc xử lí bất hòa với bạn bè.",
           "- Thực hiện được một số cách đơn giản, phù hợp để xử lí bất hòa với bạn bè.",
           "- Sẵn sàng giúp bạn bè xử lí bất hòa với nhau.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết nhận diện cảm xúc khi xảy ra bất hòa; biết bình tĩnh, tự điều chỉnh lời nói và hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, thảo luận nhóm 2/nhóm 4, trình bày ý kiến, nhận xét và góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong các tình huống bất hòa với bạn bè; biết nhờ người lớn hỗ trợ khi cần.",
           "3. PHẨM CHẤT",
@@ -4295,10 +4348,8 @@
           "- Giáo viên: SGK, SGV, Vở bài tập Đạo đức 3; tranh SGK bài Xử lí bất hòa với bạn bè; thẻ bày tỏ ý kiến; phiếu thảo luận nhóm; máy tính, máy chiếu nếu có.",
           "- Học sinh: SGK, Vở bài tập Đạo đức 3; bút chì, bút màu; tâm thế sẵn sàng chia sẻ, thảo luận, đóng vai và lắng nghe bạn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4396,7 +4447,10 @@
             ]
           ]
         ],
-        "title": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4405,17 +4459,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: ĐI BỘ AN TOÀN",
+        "lessonTitle": "BÀI 9: ĐI BỘ AN TOÀN - SỐ TIẾT: 2 TIẾT",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY TẮC AN TOÀN GIAO THÔNG",
         "yccd": [
-          "SỐ TIẾT: 2 TIẾT",
-          "TUẦN 31: ĐI BỘ AN TOÀN (TIẾT 1)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được các quy tắc đi bộ an toàn.",
           "- Nêu được sự cần thiết phải tuân thủ quy tắc đi bộ an toàn.",
           "- Tuân thủ quy tắc an toàn khi đi bộ.",
           "- Đồng tình với những hành vi tuân thủ quy tắc đi bộ an toàn; không đồng tình với những hành vi vi phạm quy tắc đi bộ an toàn.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết quan sát, tự nhận xét việc đi bộ an toàn của bản thân và điều chỉnh hành vi khi tham gia giao thông.",
           "- Giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4; trình bày ý kiến, lắng nghe và nhận xét cách xử lí tình huống giao thông của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách đi bộ an toàn trong các tình huống quen thuộc; biết nhờ người lớn hỗ trợ khi cần qua đường.",
           "3. PHẨM CHẤT",
@@ -4424,7 +4477,8 @@
           "- Chăm chỉ: Tích cực tham gia các hoạt động thảo luận, luyện tập, thực hành và tuyên truyền đi bộ an toàn.",
           "4. TÍCH HỢP",
           "- Tích hợp QPAN: HS biết tuân thủ quy tắc đi bộ an toàn, chấp hành tín hiệu giao thông; góp phần giữ gìn trật tự, an toàn xã hội.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI hỗ trợ giao thông an toàn như nhận diện biển báo, vạch sang đường, người đi bộ."
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: Nhận biết AI hỗ trợ giao thông an toàn như nhận diện biển báo, vạch sang đường, người đi bộ.",
+          "- Gợi ý hoạt động: GV cho HS quan sát hình/video ngắn về vạch sang đường và hệ thống xe thông minh nhận diện người đi bộ."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4435,11 +4489,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu.",
           "- Tâm thế sẵn sàng quan sát tranh, thảo luận nhóm 2/nhóm 4, trình bày ý kiến và thực hành xử lí tình huống."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Gợi ý hoạt động: GV cho HS quan sát hình/video ngắn về vạch sang đường và hệ thống xe thông minh nhận diện người đi bộ.",
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4448,7 +4499,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú cho HS vào bài học và giúp HS có hiểu biết ban đầu về bài học mới.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú cho HS vào bài học và giúp HS có hiểu biết ban đầu về bài học mới.\n*Cách tiến hành:"
             ],
             [
               "- GV giới thiệu trò chơi “Đi theo đèn tín hiệu giao thông”; phổ biến luật chơi: Đèn xanh: đưa tay lên vai bạn phía trước thành một đoàn tàu và di chuyển nhanh; đèn vàng: vẫn để tay trên vai bạn phía trước và đi chậm lại; đèn đỏ: khoanh hai tay trước ngực và đứng lại.",
@@ -4467,7 +4518,7 @@
               "- HS lắng nghe, ghi nhớ tên bài học."
             ],
             [
-              "2. Khám phá - Hoạt động 1. Tìm hiểu các quy tắc an toàn khi đi bộ (15 phút)Mục tiêu: HS nêu được các quy tắc an toàn khi đi bộ.Mục tiêu tích hợp: Tích hợp QPAN - HS biết tuân thủ quy tắc đi bộ an toàn, chấp hành tín hiệu giao thông, góp phần giữ gìn trật tự, an toàn xã hội.*Cách tiến hành:"
+              "2. Khám phá - Hoạt động 1. Tìm hiểu các quy tắc an toàn khi đi bộ (15 phút)\nMục tiêu: HS nêu được các quy tắc an toàn khi đi bộ.\nMục tiêu tích hợp: Tích hợp QPAN - HS biết tuân thủ quy tắc đi bộ an toàn, chấp hành tín hiệu giao thông, góp phần giữ gìn trật tự, an toàn xã hội.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS quan sát tranh trong SGK và trả lời câu hỏi: “Việc đi bộ của các bạn đã đảm bảo an toàn chưa? Vì sao?”",
@@ -4502,7 +4553,7 @@
               "- HS lắng nghe, ghi nhớ các quy tắc an toàn khi đi bộ."
             ],
             [
-              "3. Khám phá - Hoạt động 2. Tìm hiểu sự cần thiết phải tuân thủ quy tắc an toàn khi đi bộ (12 phút)Mục tiêu: HS nêu được sự cần thiết phải tuân thủ các quy tắc an toàn khi đi bộ.Mục tiêu tích hợp: Tích hợp AI 3.C5.2 - HS nhận biết AI/công nghệ có thể hỗ trợ nhận diện nguy cơ giao thông, nhưng người đi bộ vẫn phải quan sát và tự bảo vệ mình.*Cách tiến hành:"
+              "3. Khám phá - Hoạt động 2. Tìm hiểu sự cần thiết phải tuân thủ quy tắc an toàn khi đi bộ (12 phút)\nMục tiêu: HS nêu được sự cần thiết phải tuân thủ các quy tắc an toàn khi đi bộ.\nMục tiêu tích hợp: Tích hợp AI 3.C5.2 - HS nhận biết AI/công nghệ có thể hỗ trợ nhận diện nguy cơ giao thông, nhưng người đi bộ vẫn phải quan sát và tự bảo vệ mình.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS quan sát tranh để mô tả hành vi của các bạn trong mỗi tranh và nêu hậu quả có thể xảy ra.",
@@ -4529,7 +4580,7 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của việc đi bộ an toàn."
             ],
             [
-              "4. Luyện tập - Bài tập 1. Bày tỏ ý kiến về hành vi trong tranh (10 phút)Mục tiêu: HS biết bày tỏ ý kiến, nhận xét hành vi tuân thủ/chưa tuân thủ quy tắc đi bộ an toàn.*Cách tiến hành:"
+              "4. Luyện tập - Bài tập 1. Bày tỏ ý kiến về hành vi trong tranh (10 phút)\nMục tiêu: HS biết bày tỏ ý kiến, nhận xét hành vi tuân thủ/chưa tuân thủ quy tắc đi bộ an toàn.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS quan sát các tranh ở Bài tập 1 và thảo luận nhóm 2: “Các bạn trong tranh đang làm gì? Bạn nào tuân thủ, bạn nào chưa tuân thủ quy tắc đi bộ an toàn? Vì sao?”",
@@ -4552,7 +4603,7 @@
               "- HS lắng nghe và ghi nhớ."
             ],
             [
-              "5. Vận dụng (3 phút)Mục tiêu: HS biết liên hệ việc đi bộ an toàn trong cuộc sống hằng ngày.*Cách tiến hành:"
+              "5. Vận dụng (3 phút)\nMục tiêu: HS biết liên hệ việc đi bộ an toàn trong cuộc sống hằng ngày.\n*Cách tiến hành:"
             ],
             [
               "- GV mời HS chia sẻ theo nhóm 2: “Em thường đi bộ trong trường hợp nào? Khi đó, em cần tuân thủ quy tắc an toàn nào?”",
@@ -4568,7 +4619,10 @@
             ]
           ]
         ],
-        "title": "BÀI 9: ĐI BỘ AN TOÀN"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4577,17 +4631,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: ĐI BỘ AN TOÀN",
+        "lessonTitle": "BÀI 9: ĐI BỘ AN TOÀN - SỐ TIẾT: 2 TIẾT",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY TẮC AN TOÀN GIAO THÔNG",
         "yccd": [
-          "SỐ TIẾT: 2 TIẾT",
-          "TUẦN 32: ĐI BỘ AN TOÀN (TIẾT 2)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được các quy tắc đi bộ an toàn.",
           "- Nêu được sự cần thiết phải tuân thủ quy tắc đi bộ an toàn.",
           "- Tuân thủ quy tắc an toàn khi đi bộ.",
           "- Đồng tình với những hành vi tuân thủ quy tắc đi bộ an toàn; không đồng tình với những hành vi vi phạm quy tắc đi bộ an toàn.",
           "2. NĂNG LỰC CHUNG",
+          "- Tự chủ và tự học: Biết quan sát, tự nhận xét việc đi bộ an toàn của bản thân và điều chỉnh hành vi khi tham gia giao thông.",
           "- Giao tiếp và hợp tác: Biết trao đổi nhóm 2, nhóm 4; trình bày ý kiến, lắng nghe và nhận xét cách xử lí tình huống giao thông của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách đi bộ an toàn trong các tình huống quen thuộc; biết nhờ người lớn hỗ trợ khi cần qua đường.",
           "3. PHẨM CHẤT",
@@ -4596,7 +4649,8 @@
           "- Chăm chỉ: Tích cực tham gia các hoạt động thảo luận, luyện tập, thực hành và tuyên truyền đi bộ an toàn.",
           "4. TÍCH HỢP",
           "- Tích hợp QCN: HS hiểu trẻ em có quyền được bảo vệ an toàn khi tham gia giao thông; biết lựa chọn hành vi an toàn, tránh đùa nghịch, chen lấn hoặc tự ý qua đường.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: Hiểu công nghệ hỗ trợ cảnh báo nguy hiểm nhưng mỗi người vẫn phải quan sát và tuân thủ quy tắc giao thông."
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: Hiểu công nghệ hỗ trợ cảnh báo nguy hiểm nhưng mỗi người vẫn phải quan sát và tuân thủ quy tắc giao thông.",
+          "- Gợi ý hoạt động: HS chọn hành vi an toàn/không an toàn khi đi bộ; GV nhắc không mải nhìn thiết bị khi qua đường."
         ],
         "dodung": [
           "1. Giáo viên",
@@ -4607,11 +4661,8 @@
           "- SGK, Vở bài tập Đạo đức 3; bút chì, bút màu.",
           "- Tâm thế sẵn sàng quan sát tranh, thảo luận nhóm 2/nhóm 4, trình bày ý kiến và thực hành xử lí tình huống."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Gợi ý hoạt động: HS chọn hành vi an toàn/không an toàn khi đi bộ; GV nhắc không mải nhìn thiết bị khi qua đường.",
-          "- ................................................................................................................................................",
-          "- ................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4620,7 +4671,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Giúp HS nhớ lại các quy tắc đi bộ an toàn đã học ở tiết trước.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Giúp HS nhớ lại các quy tắc đi bộ an toàn đã học ở tiết trước.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi nhanh “Đúng hay sai”: GV nêu một việc làm khi đi bộ, HS giơ thẻ xanh nếu đúng, thẻ đỏ nếu sai.",
@@ -4635,7 +4686,7 @@
               "- HS lắng nghe và chuẩn bị tham gia hoạt động luyện tập."
             ],
             [
-              "2. Luyện tập - Bài tập 2. Xử lí tình huống (18 phút)Mục tiêu: HS biết lựa chọn cách ứng xử an toàn trong một số tình huống khi đi bộ.Mục tiêu tích hợp: Tích hợp QCN - HS hiểu trẻ em có quyền được bảo vệ an toàn khi tham gia giao thông và cần biết tự bảo vệ mình, nhờ người lớn hỗ trợ khi cần.*Cách tiến hành:"
+              "2. Luyện tập - Bài tập 2. Xử lí tình huống (18 phút)\nMục tiêu: HS biết lựa chọn cách ứng xử an toàn trong một số tình huống khi đi bộ.\nMục tiêu tích hợp: Tích hợp QCN - HS hiểu trẻ em có quyền được bảo vệ an toàn khi tham gia giao thông và cần biết tự bảo vệ mình, nhờ người lớn hỗ trợ khi cần.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS quan sát tranh tình huống trong SGK, đọc lời thoại và xác định vấn đề cần xử lí.",
@@ -4670,7 +4721,7 @@
               "- HS lắng nghe, ghi nhớ cách xử lí tình huống khi đi bộ."
             ],
             [
-              "3. Vận dụng - Chia sẻ, tuyên truyền và thực hiện đi bộ an toàn (15 phút)Mục tiêu: HS vận dụng quy tắc đi bộ an toàn vào cuộc sống hằng ngày.Mục tiêu tích hợp: Tích hợp AI 3.C5.2 - HS hiểu công nghệ/AI có thể hỗ trợ cảnh báo nguy hiểm, nhưng không thay thế sự quan sát và quyết định an toàn của con người.*Cách tiến hành:"
+              "3. Vận dụng - Chia sẻ, tuyên truyền và thực hiện đi bộ an toàn (15 phút)\nMục tiêu: HS vận dụng quy tắc đi bộ an toàn vào cuộc sống hằng ngày.\nMục tiêu tích hợp: Tích hợp AI 3.C5.2 - HS hiểu công nghệ/AI có thể hỗ trợ cảnh báo nguy hiểm, nhưng không thay thế sự quan sát và quyết định an toàn của con người.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS quan sát phần Vận dụng trong SGK và nêu nhiệm vụ: “Em hãy chia sẻ quy tắc an toàn khi đi bộ mà em đã thực hiện; vẽ hoặc sưu tầm tranh để tuyên truyền với bạn bè, người thân.”",
@@ -4697,7 +4748,7 @@
               "- HS nhận nhiệm vụ, cam kết thực hiện: “Em sẽ đi bộ đúng quy tắc, nhắc bạn không chạy qua đường, không đùa nghịch khi đi bộ.”"
             ],
             [
-              "4. Tổng kết bài học - Định hướng đánh giá (7 phút)Mục tiêu: HS củng cố nội dung bài học và tự đánh giá việc thực hiện đi bộ an toàn.*Cách tiến hành:"
+              "4. Tổng kết bài học - Định hướng đánh giá (7 phút)\nMục tiêu: HS củng cố nội dung bài học và tự đánh giá việc thực hiện đi bộ an toàn.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS nêu 3 điều em học được qua bài học.",
@@ -4717,7 +4768,10 @@
             ]
           ]
         ],
-        "title": "BÀI 9: ĐI BỘ AN TOÀN"
+        "dieuchinh": [
+          "- ................................................................................................................................................",
+          "- ................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4726,11 +4780,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG",
+        "lessonTitle": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG - SỐ TIẾT: 2 TIẾT",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY TẮC AN TOÀN GIAO THÔNG",
         "yccd": [
-          "SỐ TIẾT: 2 TIẾT",
-          "TUẦN 33: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG (TIẾT 1)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Nêu được các quy tắc an toàn khi tham gia các phương tiện giao thông.",
           "- Nêu được sự cần thiết phải tuân thủ quy tắc an toàn khi tham gia các phương tiện giao thông.",
@@ -4746,16 +4798,16 @@
           "- Chăm chỉ: tích cực tham gia các hoạt động học tập, hoàn thành nhiệm vụ cá nhân và nhiệm vụ nhóm.",
           "4. TÍCH HỢP",
           "- Tích hợp QPAN: HS biết bảo vệ an toàn cá nhân khi đi xe máy, ô tô, xe buýt; đội mũ bảo hiểm, thắt dây an toàn, lên xuống xe đúng nơi quy định.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.3: Hiểu dù có AI/công nghệ hỗ trợ, con người vẫn phải tỉnh táo và chịu trách nhiệm về an toàn khi tham gia giao thông."
+          "- Tích hợp AI (Khung 3439) - 3.A1.3: Hiểu dù có AI/công nghệ hỗ trợ, con người vẫn phải tỉnh táo và chịu trách nhiệm về an toàn khi tham gia giao thông.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3 - TLGDĐP Lớp 3 Trà Vinh) & Tiết kiệm và bảo vệ nguồn nước (Mã Mizuiku M6, M18): Nắm vững quy tắc an toàn khi đi đò ngang, phà qua sông Cổ Chiên, sông Hậu tại Trà Vinh; luôn mặc áo phao; tuyệt đối không xả rác, túi nilon xuống dòng sông làm ô nhiễm nguồn nước và cản trở luồng lạch giao thông thủy."
         ],
         "dodung": [
           "- SGK, SGV, Vở bài tập Đạo đức 3.",
           "- Bộ tranh về chủ đề An toàn giao thông; tranh tình huống trong SGK.",
           "- Thẻ bày tỏ thái độ; phiếu thảo luận nhóm; máy tính, máy chiếu, bài giảng PowerPoint (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4764,7 +4816,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo hứng thú cho HS vào bài học và giúp HS có hiểu biết ban đầu về bài học mới.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú cho HS vào bài học và giúp HS có hiểu biết ban đầu về bài học mới.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức cho HS nghe/hát bài “An toàn giao thông” (sáng tác: Trần Thanh Tùng).",
@@ -4779,7 +4831,7 @@
               "- HS lắng nghe, ghi nhớ tên bài học."
             ],
             [
-              "2. Khám phá - Hoạt động 1. Tìm hiểu các quy tắc an toàn khi tham gia các phương tiện giao thông (17 phút)Mục tiêu: HS nêu được các quy tắc an toàn khi tham gia các phương tiện giao thông.Mục tiêu tích hợp: Tích hợp QPAN - HS biết bảo vệ an toàn cá nhân khi đi xe máy, ô tô, xe buýt; đội mũ bảo hiểm, thắt dây an toàn, lên xuống xe đúng nơi quy định."
+              "2. Khám phá - Hoạt động 1. Tìm hiểu các quy tắc an toàn khi tham gia các phương tiện giao thông (17 phút)\nMục tiêu: HS nêu được các quy tắc an toàn khi tham gia các phương tiện giao thông.\nMục tiêu tích hợp: Tích hợp QPAN - HS biết bảo vệ an toàn cá nhân khi đi xe máy, ô tô, xe buýt; đội mũ bảo hiểm, thắt dây an toàn, lên xuống xe đúng nơi quy định."
             ],
             [
               "- GV yêu cầu HS quan sát tranh tình huống trong SGK và trả lời câu hỏi: “Các bạn đã tuân thủ những quy tắc nào khi tham gia các phương tiện giao thông?”",
@@ -4814,7 +4866,15 @@
               "- HS lắng nghe và nhắc lại một số quy tắc an toàn."
             ],
             [
-              "3. Khám phá - Hoạt động 2. Tìm hiểu sự cần thiết phải tuân thủ quy tắc an toàn khi tham gia các phương tiện giao thông (15 phút)Mục tiêu: HS nêu được sự cần thiết phải tuân thủ các quy tắc an toàn khi tham gia phương tiện giao thông.Mục tiêu tích hợp: Tích hợp AI (Khung 3439) - 3.A1.3: HS hiểu dù có AI/công nghệ hỗ trợ, con người vẫn phải tỉnh táo và chịu trách nhiệm về an toàn khi tham gia giao thông."
+              "- GV mở rộng tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1, 3 GDĐP 3 & Mã Mizuiku M6, M18): “Tỉnh Trà Vinh có mạng lưới sông ngòi chằng chịt như sông Cổ Chiên, sông Hậu với nhiều bến phà, bến đò ngang. Khi đi đò, qua phà trên sông nước Trà Vinh, các em cần tuân thủ những quy tắc an toàn và bảo vệ môi trường nào?”",
+              "- HS trả lời: Khi đi đò qua sông, chúng em luôn mặc áo phao hoặc cầm dụng cụ nổi cứu sinh, ngồi ngay ngắn trật tự; chỉ lên xuống khi đò đã cập bến an toàn; tuyệt đối không vứt chai nhựa, túi nilon xuống dòng sông để bảo vệ nguồn nước trong lành và an toàn cho tàu thuyền qua lại ạ."
+            ],
+            [
+              "- GV biểu dương và kết luận: Tuân thủ quy tắc an toàn khi đi đò phà và giữ gìn dòng sông sạch sẽ là trách nhiệm của mỗi chúng ta để bảo vệ sự an toàn cho chính mình và giữ sạch đẹp các dòng sông quê hương Trà Vinh.",
+              "- HS lắng nghe, cam kết luôn thực hiện nghiêm túc quy tắc an toàn giao thông đường thủy."
+            ],
+            [
+              "3. Khám phá - Hoạt động 2. Tìm hiểu sự cần thiết phải tuân thủ quy tắc an toàn khi tham gia các phương tiện giao thông (15 phút)\nMục tiêu: HS nêu được sự cần thiết phải tuân thủ các quy tắc an toàn khi tham gia phương tiện giao thông.\nMục tiêu tích hợp: Tích hợp AI (Khung 3439) - 3.A1.3: HS hiểu dù có AI/công nghệ hỗ trợ, con người vẫn phải tỉnh táo và chịu trách nhiệm về an toàn khi tham gia giao thông."
             ],
             [
               "- GV yêu cầu HS quan sát tranh và mô tả hành vi của các bạn trong mỗi tranh, nêu hậu quả có thể xảy ra.",
@@ -4849,7 +4909,7 @@
               "- HS lắng nghe, ghi nhớ bài học."
             ],
             [
-              "4. Vận dụng - Củng cố (3 phút)Mục tiêu: HS nhắc lại được một số quy tắc an toàn cần thực hiện.*Cách tiến hành:"
+              "4. Vận dụng - Củng cố (3 phút)\nMục tiêu: HS nhắc lại được một số quy tắc an toàn cần thực hiện.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS nêu nhanh 3 quy tắc an toàn khi tham gia các phương tiện giao thông.",
@@ -4861,7 +4921,9 @@
             ]
           ]
         ],
-        "title": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG"
+        "dieuchinh": [
+          "................................................................................................................................................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4870,11 +4932,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG",
+        "lessonTitle": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG - SỐ TIẾT: 2 TIẾT",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY TẮC AN TOÀN GIAO THÔNG",
         "yccd": [
-          "SỐ TIẾT: 2 TIẾT",
-          "TUẦN 34: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG (TIẾT 2)",
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Củng cố được các quy tắc an toàn khi tham gia các phương tiện giao thông.",
           "- Biết bày tỏ thái độ đồng tình với hành vi tuân thủ quy tắc an toàn; không đồng tình với hành vi vi phạm quy tắc an toàn khi tham gia phương tiện giao thông.",
@@ -4897,9 +4957,8 @@
           "- Bộ tranh về chủ đề An toàn giao thông; tranh tình huống trong SGK.",
           "- Thẻ bày tỏ thái độ; phiếu thảo luận nhóm; máy tính, máy chiếu, bài giảng PowerPoint (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4908,7 +4967,7 @@
               "Hoạt động của HS"
             ],
             [
-              "1. Khởi động (5 phút)Mục tiêu: Tạo tâm thế tích cực, giúp HS nhớ lại quy tắc an toàn khi tham gia các phương tiện giao thông.*Cách tiến hành:"
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo tâm thế tích cực, giúp HS nhớ lại quy tắc an toàn khi tham gia các phương tiện giao thông.\n*Cách tiến hành:"
             ],
             [
               "- GV tổ chức trò chơi “Ai nhanh hơn”: GV nêu tên phương tiện, HS nêu nhanh một quy tắc an toàn tương ứng.",
@@ -4923,7 +4982,7 @@
               "- HS lắng nghe, chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
-              "2. Luyện tập - Bài tập 1. Bày tỏ ý kiến về hành vi trong tranh (14 phút)Mục tiêu: HS biết nhận xét hành vi tuân thủ/chưa tuân thủ quy tắc an toàn khi tham gia phương tiện giao thông.Mục tiêu tích hợp: Tích hợp QPAN - HS có ý thức giữ gìn trật tự, an toàn khi tham gia phương tiện giao thông; biết nhắc nhở bạn bè, người thân thực hiện đúng quy tắc."
+              "2. Luyện tập - Bài tập 1. Bày tỏ ý kiến về hành vi trong tranh (14 phút)\nMục tiêu: HS biết nhận xét hành vi tuân thủ/chưa tuân thủ quy tắc an toàn khi tham gia phương tiện giao thông.\nMục tiêu tích hợp: Tích hợp QPAN - HS có ý thức giữ gìn trật tự, an toàn khi tham gia phương tiện giao thông; biết nhắc nhở bạn bè, người thân thực hiện đúng quy tắc."
             ],
             [
               "- GV yêu cầu HS quan sát tranh trong SGK và trả lời: “Các bạn trong tranh đang làm gì? Bạn nào tuân thủ, bạn nào chưa tuân thủ quy tắc an toàn?”",
@@ -4962,7 +5021,7 @@
               "- HS lắng nghe và nhắc lại một hành vi an toàn mà mình sẽ thực hiện."
             ],
             [
-              "3. Luyện tập - Bài tập 2. Đưa lời khuyên cho bạn (12 phút)Mục tiêu: HS biết đưa lời khuyên phù hợp trong các tình huống tham gia phương tiện giao thông.Mục tiêu tích hợp: Tích hợp AI (Khung 3439) - 3.A1.3: HS nhận biết AI chỉ hỗ trợ cảnh báo, không thay thế quyết định an toàn của con người."
+              "3. Luyện tập - Bài tập 2. Đưa lời khuyên cho bạn (12 phút)\nMục tiêu: HS biết đưa lời khuyên phù hợp trong các tình huống tham gia phương tiện giao thông.\nMục tiêu tích hợp: Tích hợp AI (Khung 3439) - 3.A1.3: HS nhận biết AI chỉ hỗ trợ cảnh báo, không thay thế quyết định an toàn của con người."
             ],
             [
               "- GV yêu cầu HS quan sát tình huống 1, 2 trong SGK và thảo luận: “Em sẽ khuyên bạn điều gì?”",
@@ -4997,7 +5056,7 @@
               "- HS lắng nghe, ghi nhớ: “Em không phụ thuộc vào AI/công nghệ; em phải tự chọn hành vi an toàn.”"
             ],
             [
-              "4. Vận dụng (9 phút)Mục tiêu: HS vận dụng những điều đã học vào cuộc sống để đảm bảo an toàn khi tham gia các phương tiện giao thông.*Cách tiến hành:"
+              "4. Vận dụng (9 phút)\nMục tiêu: HS vận dụng những điều đã học vào cuộc sống để đảm bảo an toàn khi tham gia các phương tiện giao thông.\n*Cách tiến hành:"
             ],
             [
               "- GV yêu cầu HS quan sát phần Vận dụng trong SGK và chia sẻ: “Em đã tham gia các loại phương tiện giao thông nào? Em đã thực hiện những quy tắc an toàn nào?”",
@@ -5017,7 +5076,9 @@
             ]
           ]
         ],
-        "title": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG"
+        "dieuchinh": [
+          "................................................................................................................................................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -5026,8 +5087,8 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4",
-        "topic": "",
+        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG - SỐ TIẾT: 1 TIẾT",
+        "topic": "CHỦ ĐỀ ÔN TẬP HK II VÀ CUỐI NĂM",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
           "- Củng cố được những nội dung đạo đức đã học trong năm học: yêu Tổ quốc, quan tâm hàng xóm láng giềng, ham học hỏi, giữ lời hứa, tích cực hoàn thành nhiệm vụ, khám phá bản thân, xử lí bất hòa với bạn bè và tuân thủ quy tắc an toàn giao thông.",
@@ -5061,11 +5122,6 @@
           "1. Hoàn thành tốt: Nêu được những việc làm thể hiện yêu Tổ quốc, giữ gìn trật tự, an toàn trường học, khu dân cư và an toàn giao thông; nêu được quyền được bảo vệ an toàn, được học tập, vui chơi lành mạnh; tự đánh giá được việc thực hiện quyền và bổn phận của bản thân; tích cực thảo luận, trình bày và có cam kết rèn luyện cụ thể.",
           "2. Hoàn thành: Thực hiện được các yêu cầu của tiết ôn tập nhưng câu trả lời hoặc phần tự đánh giá còn chưa thật đầy đủ.",
           "3. Chưa hoàn thành: Chưa nêu được các hành vi đúng; chưa biết tự đánh giá việc thực hiện quyền và bổn phận hoặc còn ít tham gia hoạt động."
-        ],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -5179,7 +5235,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC 4"
+        "dieuchinh": [
+          "................................................................................................................................................................",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   }

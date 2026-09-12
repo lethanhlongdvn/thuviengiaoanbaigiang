@@ -14,10 +14,9 @@
     "sourceFile": "KHOA HỌC TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Quan sát và làm được thí nghiệm đơn giản để phát hiện ra một số tính chất của nước.",
           "- Nêu được một số tính chất của nước (không màu, không mùi, không vị, không có hình dạng nhất định, chảy từ cao xuống thấp, chảy lan ra khắp mọi phía, thấm qua một số vật và hòa tan một số chất).",
@@ -31,17 +30,15 @@
           "- Trách nhiệm: hợp tác trong nhóm, giữ gìn vệ sinh và an toàn khi làm thí nghiệm.",
           "- Yêu thiên nhiên: biết trân trọng, sử dụng nước tiết kiệm và hợp lý.",
           "4. Tích hợp",
-          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: Giáo dục học sinh có ý thức sử dụng nước vừa đủ, khóa vòi ngay sau khi dùng, báo người lớn khi phát hiện vòi rò rỉ; không xả rác, chất bẩn xuống cống, ao hồ, kênh rạch và biết cùng gia đình, nhà trường giữ gìn nguồn nước sạch."
+          "- Tích hợp tiết kiệm và bảo vệ nguồn nước: Giáo dục học sinh có ý thức sử dụng nước vừa đủ, khóa vòi ngay sau khi dùng, báo người lớn khi phát hiện vòi rò rỉ; không xả rác, chất bẩn xuống cống, ao hồ, kênh rạch và biết cùng gia đình, nhà trường giữ gìn nguồn nước sạch.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1: Địa hình, khí hậu tỉnh Trà Vinh - Trang 6 TLGDĐP Lớp 4 Trà Vinh): Nhận biết vai trò sống còn của nguồn nước ngọt đối với đời sống sinh hoạt, sản xuất nông nghiệp và nuôi trồng thủy sản tại tỉnh Trà Vinh; ứng phó với hiện tượng xâm nhập mặn vào mùa khô.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M1, M5): Nắm vững tính chất của nước và vai trò của nước sạch; hình thành ý thức sử dụng nước ngọt tiết kiệm, không lãng phí nguồn nước sinh hoạt gia đình."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, dụng cụ làm thí nghiệm 1,2,3,4, phiếu học tập",
           "- HS: sgk, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -333,13 +330,16 @@
             ]
           ]
         ],
-        "title": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù",
           "- Nêu được vai trò của nước trong đời sống, sản xuất và sinh hoạt.",
           "- Liên hệ thực tế ở gia đình và địa phương để minh chứng cho vai trò quan trọng của nước.",
@@ -358,7 +358,6 @@
           "- HS: sgk, vở ghi."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -488,6 +487,14 @@
               "- HS lắng nghe, đối chiếu với Phiếu học tập số 1 và nêu lại các vai trò chính của nước cùng trách nhiệm của con người khi sử dụng nước."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1 GDĐP 4 & Mã Mizuiku M1, M5): “Ở tỉnh Trà Vinh chúng ta, vào những tháng mùa khô thường xảy ra hiện tượng gì ảnh hưởng đến nguồn nước ngọt? Nước ngọt có vai trò quan trọng như thế nào đối với bà con nông dân và nuôi trồng thủy sản quê mình?”",
+              "- HS trả lời: Vào mùa khô ở Trà Vinh thường bị xâm nhập mặn, thiếu nước ngọt sinh hoạt; nước ngọt rất quý báu để tưới cây ăn trái, hoa màu và nuôi tôm cá, nên người dân luôn tiết kiệm từng giọt nước và tích trữ nước mưa ngọt vào lu khạp ạ."
+            ],
+            [
+              "- GV kết luận: Nước ngọt là tài nguyên quý giá của quê hương Trà Vinh. Các em cần có ý thức sử dụng nước thật tiết kiệm và chung tay giữ gìn các nguồn nước sạch quanh mình.",
+              "- HS chăm chú lắng nghe, tự giác cam kết sử dụng nước ngọt tiết kiệm mỗi ngày."
+            ],
+            [
               "3. LUYỆN TẬP (7 PHÚT):\n- Mục tiêu:\n- Học sinh củng cố kiến thức trọng tâm của bài học.\n- Rèn luyện năng lực vận dụng kiến thức vào thực tế.\n- Cách tiến hành:"
             ],
             [
@@ -524,7 +531,9 @@
             ]
           ]
         ],
-        "title": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):"
+        ]
       }
     ]
   },
@@ -533,10 +542,9 @@
     "sourceFile": "KHOA HỌC TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Quan sát và làm được thí nghiệm đơn giản để phát hiện ra sự chuyển thể của nước.",
           "- Nêu được nước có thể tồn tại ở thể rắn, thể lỏng, thể khí; sử dụng đúng các thuật ngữ: nóng chảy, đông đặc, bay hơi, ngưng tụ.",
@@ -550,17 +558,15 @@
           "- Trách nhiệm: Thực hiện đúng quy trình, giữ an toàn khi sử dụng nước nóng và bảo quản dụng cụ học tập.",
           "- Nhân ái: Biết hợp tác, hỗ trợ bạn trong quá trình làm việc nhóm.",
           "4. Tích hợp",
-          "- Tích hợp AI (4.D1.1): Tìm hiểu cách hệ thống AI thu thập, tổng hợp và phân tích dữ liệu về mây, gió, nhiệt độ, độ ẩm để hỗ trợ dự báo mưa, bão và những biến đổi thời tiết liên quan đến vòng tuần hoàn của nước; giáo dục học sinh biết theo dõi cảnh báo từ nguồn chính thống, không tự ý suy đoán hoặc chia sẻ thông tin chưa được kiểm chứng."
+          "- Tích hợp AI (4.D1.1): Tìm hiểu cách hệ thống AI thu thập, tổng hợp và phân tích dữ liệu về mây, gió, nhiệt độ, độ ẩm để hỗ trợ dự báo mưa, bão và những biến đổi thời tiết liên quan đến vòng tuần hoàn của nước; giáo dục học sinh biết theo dõi cảnh báo từ nguồn chính thống, không tự ý suy đoán hoặc chia sẻ thông tin chưa được kiểm chứng.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1: Địa hình, khí hậu tỉnh Trà Vinh - Trang 6 TLGDĐP Lớp 4 Trà Vinh): Hiểu được mối liên hệ giữa vòng tuần hoàn của nước với đặc điểm khí hậu 2 mùa mưa - khô rõ rệt của tỉnh Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M5, M15): Nắm vững vòng tuần hoàn của nước trong tự nhiên; có thói quen hứng trữ nước mưa hợp vệ sinh và sử dụng nước tiết kiệm để chủ động nguồn nước ngọt trong mùa khô hạn."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, video vòng tuần hoàn của nước, khay nước đá, cốc, đĩa, nước nóng, găng tay vải, hình ảnh SGK, Phiếu học tập số 1.",
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -719,36 +725,36 @@
             ]
           ]
         ],
-        "title": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Quan sát, đọc thông tin và mô tả được vòng tuần hoàn của nước trong tự nhiên.",
           "- Vẽ được sơ đồ, ghi chú đúng các giai đoạn và sử dụng mô hình để giải thích hiện tượng mưa.",
           "- Vận dụng kĩ năng gấp, cắt, ghép, vẽ, tạo hình để thiết kế mô hình vòng tuần hoàn của nước trong tự nhiên.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động đọc thông tin, hoàn thành Phiếu học tập và điều chỉnh sản phẩm theo tiêu chí.",
           "- Giao tiếp và hợp tác: Biết phân công nhiệm vụ, trao đổi ý tưởng, trình bày và tiếp nhận góp ý khi làm việc nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn vật liệu, sắp xếp các bộ phận và hoàn thiện mô hình phù hợp với yêu cầu.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực thực hiện nhiệm vụ học tập và hoàn thành sản phẩm.",
           "- Trách nhiệm: Sử dụng dụng cụ an toàn, tiết kiệm vật liệu và giữ vệ sinh khu vực học tập.",
           "- Nhân ái: Hợp tác, hỗ trợ và tôn trọng ý tưởng của các thành viên trong nhóm.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Tích hợp STEM: Sự chuyển thể của nước và vòng tuần hoàn của nước trong tự nhiên. Học sinh vận dụng kiến thức Khoa học để mô tả vòng tuần hoàn; vận dụng Mĩ thuật để tạo hình, làm nổi bật chi tiết trọng tâm; vận dụng Toán học trong gấp, cắt, ghép, bố trí kích thước và vị trí các bộ phận của mô hình; qua đó thiết kế, thử nghiệm, đánh giá và điều chỉnh sản phẩm."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, hình 6, hình 7, Phiếu học tập số 2, Phiếu học tập số 3, phiếu đánh giá, bìa cứng và một mô hình tham khảo.",
           "- HS theo nhóm 6: giấy màu, đất nặn, kéo, keo dán, bút màu, bút chì, xốp khổ khoảng 30 x 20 cm, màu nước và vật liệu tái sử dụng phù hợp."
         ],
         "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          "..............................................................................................................................",
-          "PHỤ LỤC: PHIẾU HỌC TẬP"
-        ],
         "tables": [
           [
             [
@@ -819,6 +825,14 @@
             [
               "- GV kết luận Hoạt động 1: Nước ở mặt đất, sông, hồ, biển bay hơi; hơi nước ngưng tụ tạo mây; giọt nước lớn dần rơi xuống thành mưa rồi trở về mặt đất. Quá trình lặp đi lặp lại tạo thành vòng tuần hoàn của nước trong tự nhiên.",
               "- HS lắng nghe, đối chiếu Phiếu học tập số 2 và mô tả lại vòng tuần hoàn theo đúng trình tự."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Vòng tuần hoàn của nước (Chủ đề 1 GDĐP 4 & Mã Mizuiku M5, M15): “Khí hậu Trà Vinh quê ta có 2 mùa mưa và mùa khô. Dựa vào vòng tuần hoàn của nước, các em hãy giải thích vì sao vào mùa mưa bà con Trà Vinh lại tích cực hứng nước mưa và việc tích trữ này có ý nghĩa gì?”",
+              "- HS trả lời: Nhờ nước bay hơi ngưng tụ tạo thành mưa, mang lại dòng nước ngọt trong lành; bà con Trà Vinh cọ rửa lu, bể sạch sẽ để hứng trữ nước mưa dùng cho suốt mùa khô hạn mặn kéo dài ạ."
+            ],
+            [
+              "- GV kết luận: Vòng tuần hoàn của nước mang lại nguồn nước mưa quý giá. Trữ nước mưa sạch và dùng nước tiết kiệm là nét văn hóa thích ứng thông minh của người dân Trà Vinh.",
+              "- HS lắng nghe và ghi nhớ thực hiện cùng gia đình."
             ],
             [
               "3. LUYỆN TẬP (21 PHÚT):\n- Mục tiêu:\n- Vận dụng kiến thức để đề xuất ý tưởng, thiết kế, chế tạo, giới thiệu và đánh giá mô hình vòng tuần hoàn của nước.\n- Rèn kĩ năng hợp tác, sử dụng dụng cụ an toàn, trình bày và phản hồi.\n- Mục tiêu tích hợp:\n- HS vận dụng kiến thức Khoa học, kĩ năng Mĩ thuật và Toán học để thực hiện quy trình STEM: xác định yêu cầu - đề xuất ý tưởng - lựa chọn vật liệu - chế tạo - kiểm tra - điều chỉnh - chia sẻ sản phẩm.\n- Cách tiến hành:"
@@ -908,37 +922,7 @@
               "- GV tổng kết bài học: Nước tồn tại ở ba thể, chuyển thể qua nóng chảy, đông đặc, bay hơi, ngưng tụ và liên tục tuần hoàn trong tự nhiên.",
               "- HS nhắc lại kiến thức trọng tâm và thu dọn dụng cụ, vệ sinh khu vực học tập."
             ]
-          ]
-        ],
-        "title": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN - SỐ TIẾT: 2"
-      },
-      {
-        "lessonTitle": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN",
-        "topic": "",
-        "yccd": [
-          "Nhóm: ............................................................    Lớp: ............................",
-          "PHIẾU HỌC TẬP SỐ 1",
-          "1. Nước có các thể nào? Lấy ví dụ cho mỗi thể.",
-          "..............................................................................................................................",
-          "2. Khi nào nước chuyển từ thể lỏng sang thể rắn? Hiện tượng đó gọi là gì?",
-          "3. Khi nào nước chuyển từ thể rắn sang thể lỏng? Hiện tượng đó gọi là gì?",
-          "4. Khi nào nước chuyển từ thể lỏng sang thể khí? Hiện tượng đó gọi là gì?",
-          "5. Khi nào nước chuyển từ thể khí sang thể lỏng? Hiện tượng đó gọi là gì?",
-          "PHIẾU HỌC TẬP SỐ 2",
-          "1. Hơi nước trong không khí có nguồn gốc từ đâu?",
-          "2. Mây được hình thành như thế nào?",
-          "3. Khi nào tạo ra mưa?",
-          "4. Những sự chuyển thể nào của nước diễn ra trong tự nhiên?",
-          "5. Vì sao gọi quá trình trên là vòng tuần hoàn của nước trong tự nhiên?",
-          "PHIẾU HỌC TẬP SỐ 3"
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "CÙNG VẼ Ý TƯỞNG CỦA NHÓM",
@@ -947,12 +931,53 @@
             ],
             [
               "Vẽ ý tưởng vào ô này:",
-              "Sông: .............................Núi: ...............................Mặt Trời: .........................Mây: ...............................Mưa: ...............................Nước: ..............................Khác: ..............................",
-              "1. ....................................................................................................2. ....................................................................................................3. ....................................................................................................4. ...................................................................................................."
+              "Sông: .............................\nNúi: ...............................\nMặt Trời: .........................\nMây: ...............................\nMưa: ...............................\nNước: ..............................\nKhác: ..............................",
+              "1. ................................................\n....................................................\n2. ................................................\n....................................................\n3. ................................................\n....................................................\n4. ................................................\n...................................................."
             ]
           ]
         ],
-        "title": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN"
+        "dieuchinh": [
+          "(nếu có):",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP",
+          "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN",
+          "Nhóm: ............................................................    Lớp: ............................",
+          "PHIẾU HỌC TẬP SỐ 1",
+          "1. Nước có các thể nào? Lấy ví dụ cho mỗi thể.",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "2. Khi nào nước chuyển từ thể lỏng sang thể rắn? Hiện tượng đó gọi là gì?",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "3. Khi nào nước chuyển từ thể rắn sang thể lỏng? Hiện tượng đó gọi là gì?",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "4. Khi nào nước chuyển từ thể lỏng sang thể khí? Hiện tượng đó gọi là gì?",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "5. Khi nào nước chuyển từ thể khí sang thể lỏng? Hiện tượng đó gọi là gì?",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "Nhóm: ............................................................    Lớp: ............................",
+          "PHIẾU HỌC TẬP SỐ 2",
+          "1. Hơi nước trong không khí có nguồn gốc từ đâu?",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "2. Mây được hình thành như thế nào?",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "3. Khi nào tạo ra mưa?",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "4. Những sự chuyển thể nào của nước diễn ra trong tự nhiên?",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "5. Vì sao gọi quá trình trên là vòng tuần hoàn của nước trong tự nhiên?",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "PHIẾU HỌC TẬP SỐ 3"
+        ]
       }
     ]
   },
@@ -961,10 +986,9 @@
     "sourceFile": "KHOA HỌC TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nêu được một số nguyên nhân gây ô nhiễm nguồn nước và nhận biết được các dấu hiệu của nguồn nước bị ô nhiễm.",
           "- Liên hệ thực tế ở gia đình, trường học và địa phương để chỉ ra biểu hiện, nguyên nhân gây ô nhiễm nguồn nước.",
@@ -979,17 +1003,15 @@
           "- Trách nhiệm: Có ý thức không xả rác, không đổ chất bẩn xuống nguồn nước; biết nhắc nhở người thân cùng bảo vệ môi trường nước.",
           "4. Tích hợp",
           "- Hoạt động 1 - Tích hợp AI (4.A1.1): Học sinh nhận biết robot, camera, cảm biến và hệ thống AI có thể tự động thu thập, so sánh dữ liệu như độ đục, màu, mùi, độ pH hoặc sự xuất hiện của chất bất thường để hỗ trợ phát hiện sớm nguy cơ ô nhiễm nguồn nước; hiểu AI chỉ là công cụ hỗ trợ, kết quả cần được con người kiểm tra và xử lí theo hướng dẫn của cơ quan chuyên môn.",
-          "- Hoạt động 2 - Tích hợp bảo vệ môi trường: Học sinh nhận biết tác hại của ô nhiễm nguồn nước đối với sức khỏe con người, động vật, thực vật và môi trường sống; hình thành ý thức không xả rác, nước thải, hóa chất, thuốc bảo vệ thực vật xuống ao, hồ, sông, suối, kênh rạch; biết tham gia những việc làm vừa sức để giữ gìn nguồn nước sạch."
+          "- Hoạt động 2 - Tích hợp bảo vệ môi trường: Học sinh nhận biết tác hại của ô nhiễm nguồn nước đối với sức khỏe con người, động vật, thực vật và môi trường sống; hình thành ý thức không xả rác, nước thải, hóa chất, thuốc bảo vệ thực vật xuống ao, hồ, sông, suối, kênh rạch; biết tham gia những việc làm vừa sức để giữ gìn nguồn nước sạch.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3 - Trang 6, 16 TLGDĐP Lớp 4 Trà Vinh): Nhận biết thực trạng ô nhiễm nguồn nước sông Cổ Chiên, sông Hậu và vùng ven biển Ba Động do rác thải nhựa, nước thải sinh hoạt và bao bì nông nghiệp.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M11, M13, M18): Nắm vững nguyên nhân ô nhiễm nước và các cách làm sạch nước; cam kết không xả rác thải bừa bãi ra sông rạch; tham gia bảo vệ nguồn nước quê hương."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, tranh hình 1, hình 2 trong SGK, hình ảnh hoặc video ngắn về nguồn nước sạch và nguồn nước bị ô nhiễm, Phiếu học tập số 1, số 2.",
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          ".............................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -1105,13 +1127,16 @@
             ]
           ]
         ],
-        "title": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       },
       {
-        "lessonTitle": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Giải thích được vì sao cần sử dụng tiết kiệm nước; xác định được việc nên làm và không nên làm khi sử dụng nước.",
           "- Trình bày và thực hiện được một số cách làm sạch nước phù hợp với mục đích sử dụng.",
@@ -1131,11 +1156,6 @@
           "- HS: SGK, vở ghi, thẻ Đúng - Sai, giấy A4, bút màu; vật liệu thực hành theo phân công của GV."
         ],
         "activities": [],
-        "dieuchinh": [
-          "..............................................................................................................................",
-          "..............................................................................................................................",
-          "PHỤ LỤC: PHIẾU HỌC TẬP"
-        ],
         "tables": [
           [
             [
@@ -1186,6 +1206,14 @@
             [
               "- GV kết luận Hoạt động 1: Tiết kiệm nước không phải là nhịn dùng nước mà là sử dụng đúng mục đích, vừa đủ, khóa vòi, sửa chỗ rò rỉ và tận dụng lại nước khi an toàn, phù hợp.",
               "- HS lắng nghe, nêu lại nguyên tắc sử dụng nước tiết kiệm và hoàn thiện phần đầu Phiếu học tập số 3."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1, 3 GDĐP 4 & Mã Mizuiku M6, M13, M18): “Ở tỉnh Trà Vinh chúng ta, những hành vi nào đang làm ô nhiễm nguồn nước sông Cổ Chiên và bãi biển Ba Động? Để có nguồn nước sinh hoạt sạch và bảo vệ dòng sông quê hương, các em cần làm gì?”",
+              "- HS trả lời: Việc vứt túi nilon, rác thải sinh hoạt và vỏ chai thuốc bảo vệ thực vật xuống sông rạch làm nước bị ô nhiễm nặng nề; chúng em không vứt rác xuống nguồn nước, dùng nước lọc/đun sôi và vận động gia đình xử lý nước thải đúng cách ạ."
+            ],
+            [
+              "- GV biểu dương: Bảo vệ nguồn nước sạch và dòng sông quê hương Trà Vinh chính là bảo vệ sức khỏe và tương lai của chính các em và cộng đồng.",
+              "- HS đồng thanh cam kết chung tay bảo vệ nguồn nước quê hương Trà Vinh."
             ],
             [
               "Hoạt động 2: Một số cách làm sạch nước (12 PHÚT)"
@@ -1245,44 +1273,7 @@
               "- GV kết luận hoạt động Luyện tập: Nguồn nước sạch được tạo ra và bảo vệ bằng nhiều công đoạn, nhiều việc làm; mỗi HS cần sử dụng nước tiết kiệm, lựa chọn cách làm sạch an toàn và chia sẻ thông tin có nguồn đáng tin cậy.",
               "- HS nêu một điều đã học được, một việc sẽ thực hiện và thu dọn dụng cụ học tập."
             ]
-          ]
-        ],
-        "title": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC - SỐ TIẾT: 2"
-      },
-      {
-        "lessonTitle": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC",
-        "topic": "",
-        "yccd": [
-          "Họ và tên/Nhóm: ............................................................    Lớp: ............................",
-          "PHIẾU HỌC TẬP SỐ 1: NGUYÊN NHÂN GÂY Ô NHIỄM NGUỒN NƯỚC",
-          "1. Ghi những dấu hiệu cho thấy nguồn nước bị ô nhiễm.",
-          "..............................................................................................................................",
-          "2. Nêu các nguyên nhân gây ô nhiễm nguồn nước trong hình 1.",
-          "3. Liên hệ một nguyên nhân gây ô nhiễm nguồn nước ở gia đình hoặc địa phương em.",
-          "4. Viết hai việc em có thể làm để hạn chế ô nhiễm nguồn nước.",
-          "PHIẾU HỌC TẬP SỐ 2: BẢO VỆ NGUỒN NƯỚC",
-          "1. Hoàn thành bảng sau:",
-          "2. Thông điệp bảo vệ nguồn nước của nhóm:",
-          "PHIẾU HỌC TẬP SỐ 3: TIẾT KIỆM VÀ LÀM SẠCH NƯỚC",
-          "1. Ghi N vào việc nên làm và K vào việc không nên làm khi sử dụng nước:",
-          "...... Khóa vòi khi xoa xà phòng.",
-          "...... Để vòi nước chảy trong khi đánh răng.",
-          "...... Dùng nước vừa đủ cho từng việc.",
-          "...... Báo người lớn khi thấy vòi nước bị rò rỉ.",
-          "...... Đổ nước bẩn xuống ao, hồ, kênh, rạch.",
-          "2. Ghi tác dụng của từng cách làm sạch nước:",
-          "3. Nguồn thông tin số em được GV giới thiệu hoặc đã đối chiếu:",
-          "Tên nguồn/cơ quan: .......................................................................................................",
-          "Thông tin chính: ..............................................................................................................",
-          "4. Việc em cam kết thực hiện trong tuần để tiết kiệm hoặc bảo vệ nguồn nước:"
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "NỘI DUNG",
@@ -1324,7 +1315,47 @@
             ]
           ]
         ],
-        "title": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC"
+        "dieuchinh": [
+          "(nếu có):",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP",
+          "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC",
+          "Họ và tên/Nhóm: ............................................................    Lớp: ............................",
+          "PHIẾU HỌC TẬP SỐ 1: NGUYÊN NHÂN GÂY Ô NHIỄM NGUỒN NƯỚC",
+          "1. Ghi những dấu hiệu cho thấy nguồn nước bị ô nhiễm.",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "2. Nêu các nguyên nhân gây ô nhiễm nguồn nước trong hình 1.",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "3. Liên hệ một nguyên nhân gây ô nhiễm nguồn nước ở gia đình hoặc địa phương em.",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "4. Viết hai việc em có thể làm để hạn chế ô nhiễm nguồn nước.",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "PHIẾU HỌC TẬP SỐ 2: BẢO VỆ NGUỒN NƯỚC",
+          "1. Hoàn thành bảng sau:",
+          "2. Thông điệp bảo vệ nguồn nước của nhóm:",
+          "..............................................................................................................................",
+          "..............................................................................................................................",
+          "Họ và tên/Nhóm: ............................................................    Lớp: ............................",
+          "PHIẾU HỌC TẬP SỐ 3: TIẾT KIỆM VÀ LÀM SẠCH NƯỚC",
+          "1. Ghi N vào việc nên làm và K vào việc không nên làm khi sử dụng nước:",
+          "...... Khóa vòi khi xoa xà phòng.",
+          "...... Để vòi nước chảy trong khi đánh răng.",
+          "...... Dùng nước vừa đủ cho từng việc.",
+          "...... Báo người lớn khi thấy vòi nước bị rò rỉ.",
+          "...... Đổ nước bẩn xuống ao, hồ, kênh, rạch.",
+          "2. Ghi tác dụng của từng cách làm sạch nước:",
+          "3. Nguồn thông tin số em được GV giới thiệu hoặc đã đối chiếu:",
+          "Tên nguồn/cơ quan: .......................................................................................................",
+          "Thông tin chính: ..............................................................................................................",
+          "4. Việc em cam kết thực hiện trong tuần để tiết kiệm hoặc bảo vệ nguồn nước:",
+          "..............................................................................................................................",
+          ".............................................................................................................................."
+        ]
       }
     ]
   },
@@ -1333,10 +1364,9 @@
     "sourceFile": "KHOA HỌC TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Quan sát và tiến hành được thí nghiệm đơn giản để phát hiện không khí có xung quanh mọi vật và có trong các chỗ rỗng bên trong vật.",
           "- Nêu được một số tính chất của không khí: không màu, không mùi, không vị, trong suốt, không có hình dạng nhất định; có thể bị nén lại hoặc giãn ra.",
@@ -1356,11 +1386,6 @@
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1468,13 +1493,17 @@
             ]
           ]
         ],
-        "title": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Kể được tên các thành phần chính của không khí: ni-tơ, ô-xi, khí các-bô-níc và một số chất khí khác.",
           "- Nhận biết được trong không khí còn có hơi nước, bụi và một số chất khác.",
@@ -1492,12 +1521,6 @@
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHỤ LỤC: PHIẾU HỌC TẬP"
-        ],
         "tables": [
           [
             [
@@ -1590,25 +1613,7 @@
               "- GV kết luận hoạt động Vận dụng: Không khí có trong nhiều chỗ rỗng của vật và có thành phần đa dạng; cần quan sát bằng chứng để giải thích chính xác.",
               "- HS lắng nghe, ghi nhớ và vận dụng khi quan sát các hiện tượng tương tự."
             ]
-          ]
-        ],
-        "title": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ - SỐ TIẾT: 2"
-      },
-      {
-        "lessonTitle": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ",
-        "topic": "",
-        "yccd": [
-          "Nhóm: ...............................................    Lớp: ........................",
-          "PHIẾU HỌC TẬP SỐ 1: KHÔNG KHÍ CÓ Ở ĐÂU?",
-          "PHIẾU HỌC TẬP SỐ 2: THÀNH PHẦN CỦA KHÔNG KHÍ"
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Thí nghiệm",
@@ -1658,7 +1663,17 @@
             ]
           ]
         ],
-        "title": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP",
+          "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ",
+          "Nhóm: ...............................................    Lớp: ........................",
+          "PHIẾU HỌC TẬP SỐ 1: KHÔNG KHÍ CÓ Ở ĐÂU?",
+          "PHIẾU HỌC TẬP SỐ 2: THÀNH PHẦN CỦA KHÔNG KHÍ"
+        ]
       }
     ]
   },
@@ -1667,10 +1682,9 @@
     "sourceFile": "KHOA HỌC TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Quan sát và làm thí nghiệm để giải thích được vai trò của không khí đối với sự cháy.",
           "- Trình bày được vai trò của không khí đối với sự sống của con người, động vật và thực vật.",
@@ -1691,11 +1705,6 @@
           "- HS: SGK, vở ghi, bút chì, bảng nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1783,13 +1792,17 @@
             ]
           ]
         ],
-        "title": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Giải thích được một số nguyên nhân gây ô nhiễm không khí và nêu được tác hại đối với sức khỏe, môi trường.",
           "- Nêu được sự cần thiết phải bảo vệ bầu không khí trong lành.",
@@ -1809,12 +1822,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHỤ LỤC: PHIẾU HỌC TẬP"
-        ],
         "tables": [
           [
             [
@@ -1915,25 +1922,7 @@
               "- GV kết luận hoạt động Vận dụng: Mỗi hành động nhỏ, được thực hiện thường xuyên, đều góp phần làm bầu không khí trong lành hơn.",
               "- HS ghi nhớ, thể hiện quyết tâm và chuẩn bị báo cáo việc đã làm ở tiết sau."
             ]
-          ]
-        ],
-        "title": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH - SỐ TIẾT: 2"
-      },
-      {
-        "lessonTitle": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH",
-        "topic": "",
-        "yccd": [
-          "Nhóm: ...............................................    Lớp: ........................",
-          "PHIẾU HỌC TẬP SỐ 1: KHÔNG KHÍ VÀ SỰ CHÁY",
-          "PHIẾU HỌC TẬP SỐ 2: BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH"
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Ngọn nến",
@@ -1968,7 +1957,17 @@
             ]
           ]
         ],
-        "title": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP",
+          "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH",
+          "Nhóm: ...............................................    Lớp: ........................",
+          "PHIẾU HỌC TẬP SỐ 1: KHÔNG KHÍ VÀ SỰ CHÁY",
+          "PHIẾU HỌC TẬP SỐ 2: BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH"
+        ]
       }
     ]
   },
@@ -1977,10 +1976,9 @@
     "sourceFile": "KHOA HỌC TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nhận biết được không khí chuyển động gây ra gió và giải thích được nguyên nhân làm không khí chuyển động.",
           "- Phân biệt được gió biển, gió đất; nhận xét và so sánh được mức độ mạnh của gió.",
@@ -1993,18 +1991,15 @@
           "- Chăm chỉ: Tích cực quan sát, thực hành và trình bày kết quả.",
           "- Trách nhiệm: Thực hiện đúng hướng dẫn an toàn, nghiêm túc theo dõi thông tin thời tiết.",
           "4. Tích hợp:",
-          "- AI (4.D1.1): Nêu được ví dụ sử dụng AI để dự báo hướng di chuyển của bão và hình dung “Trợ lí AI” thông báo tin bão khẩn cấp đến người dân."
+          "- AI (4.D1.1): Nêu được ví dụ sử dụng AI để dự báo hướng di chuyển của bão và hình dung “Trợ lí AI” thông báo tin bão khẩn cấp đến người dân.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3 - Trang 6, 16 TLGDĐP Lớp 4 Trà Vinh): Hiểu được tác động của bão, áp thấp nhiệt đới và triều cường dâng cao đối với các huyện, thị xã ven biển của tỉnh Trà Vinh (TX. Duyên Hải, huyện Duyên Hải, Cầu Ngang, Trà Cú).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M18): Kĩ năng bảo vệ, che đậy các dụng cụ trữ nước sạch (lu, khạp, bể ngầm) trước bão lũ; biết cách làm sạch và khử trùng nguồn nước sinh hoạt sau thiên tai bão lũ."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, chong chóng, hai lọ thủy tinh, nến do GV sử dụng, tranh/video về gió và bão, Phiếu học tập số 1.",
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2100,13 +2095,17 @@
             ]
           ]
         ],
-        "title": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Nêu và thực hiện được một số việc cần làm để phòng tránh bão, giảm rủi ro khi mưa bão, sấm sét.",
           "- Vận dụng kiến thức về không khí nóng bốc lên để đề xuất, chế tạo và thử nghiệm sản phẩm STEM “Đèn kéo quân”.",
@@ -2114,10 +2113,12 @@
           "2. Năng lực chung:",
           "- Tự chủ và tự học: Chủ động chuẩn bị vật liệu, thực hiện nhiệm vụ, tự đánh giá sản phẩm.",
           "- Giao tiếp và hợp tác: Biết phân công, hỗ trợ bạn và thống nhất phương án trong nhóm 6.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn vật liệu, thử nghiệm, phát hiện lỗi và điều chỉnh sản phẩm.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Kiên trì, cẩn thận khi thiết kế và chế tạo sản phẩm.",
           "- Trách nhiệm: Tuân thủ quy định an toàn, biết nghe hướng dẫn của người lớn và lực lượng chức năng khi có bão.",
           "4. Tích hợp:",
+          "- ANQP: Biết một số cách phòng tránh rủi ro khi mưa bão, sấm sét; nghe theo hướng dẫn của người lớn và lực lượng chức năng.",
           "- STEM: Vận dụng kiến thức Khoa học, Toán, Công nghệ và Mĩ thuật để thiết kế, chế tạo đèn kéo quân hoạt động bằng sự chuyển động của không khí nóng."
         ],
         "dodung": [
@@ -2125,13 +2126,6 @@
           "- HS: que tre, dây buộc, giấy nến/giấy mỏng, giấy bóng kính, giấy màu, kéo đầu tròn, keo dán, bút màu, dập ghim; vật liệu theo nhóm 6."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- ANQP: Biết một số cách phòng tránh rủi ro khi mưa bão, sấm sét; nghe theo hướng dẫn của người lớn và lực lượng chức năng.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHỤ LỤC: PHIẾU HỌC TẬP"
-        ],
         "tables": [
           [
             [
@@ -2180,6 +2174,14 @@
               "- HS lắng nghe, hoàn thiện phiếu và ghi nhớ các việc cần làm."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước trước bão lũ (Chủ đề 1, 3 GDĐP 4 & Mã Mizuiku M6, M18): “Vùng ven biển Trà Vinh như Duyên Hải, Ba Động khi có bão lớn đổ bộ kèm triều cường thường gây ngập mặn nguồn nước ngọt. Trước và sau bão, gia đình em cần làm gì để bảo vệ nguồn nước ăn uống an toàn?”",
+              "- HS trả lời: Trước khi bão đến, cần đậy thật kín nắp các lu khạp, bồn chứa nước mưa để nước bẩn và nước mặn không tràn vào; sau bão, cần kiểm tra nguồn nước, chỉ dùng nước đã lọc sạch và đun sôi kỹ để phòng tránh dịch bệnh ạ."
+            ],
+            [
+              "- GV kết luận: Chủ động bảo vệ nguồn nước ngọt sạch là kĩ năng ứng phó bão lũ vô cùng quan trọng đối với học sinh vùng sông nước ven biển Trà Vinh.",
+              "- HS lắng nghe và ghi nhớ các bước bảo vệ nguồn nước sạch gia đình."
+            ],
+            [
               "3. LUYỆN TẬP - VẬN DỤNG (18 PHÚT):\n- Mục tiêu:\n- Vận dụng kiến thức để đề xuất, chế tạo, thử nghiệm và đánh giá sản phẩm đèn kéo quân.\n- Mục tiêu tích hợp:\n- HS phối hợp kiến thức Khoa học, Toán, Công nghệ và Mĩ thuật; đo, cắt, dán, trang trí, thử nghiệm sản phẩm an toàn và điều chỉnh theo tiêu chí.\n*Cách tiến hành:"
             ],
             [
@@ -2220,25 +2222,7 @@
               "- GV kết luận hoạt động Chia sẻ - Đánh giá: Gió hình thành do không khí chuyển động; bão cần được phòng tránh chủ động; kiến thức khoa học có thể vận dụng để sáng tạo sản phẩm STEM.",
               "- HS tự đánh giá, ghi nhớ kiến thức và cam kết thực hiện đúng hướng dẫn an toàn khi có bão."
             ]
-          ]
-        ],
-        "title": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO - SỐ TIẾT: 2"
-      },
-      {
-        "lessonTitle": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO",
-        "topic": "",
-        "yccd": [
-          "Nhóm: ...............................................    Lớp: ........................",
-          "PHIẾU HỌC TẬP SỐ 1: GIÓ VÀ BÃO",
-          "PHIẾU HỌC TẬP SỐ 2: Ý TƯỞNG SẢN PHẨM STEM “ĐÈN KÉO QUÂN”"
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Khoa học.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
+          ],
           [
             [
               "Nội dung",
@@ -2292,7 +2276,17 @@
             ]
           ]
         ],
-        "title": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP",
+          "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO",
+          "Nhóm: ...............................................    Lớp: ........................",
+          "PHIẾU HỌC TẬP SỐ 1: GIÓ VÀ BÃO",
+          "PHIẾU HỌC TẬP SỐ 2: Ý TƯỞNG SẢN PHẨM STEM “ĐÈN KÉO QUÂN”"
+        ]
       }
     ]
   },
@@ -2301,10 +2295,9 @@
     "sourceFile": "KHOA HỌC TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: ÔN TẬP CHỦ ĐỀ CHẤT - SỐ TIẾT: 1",
+        "lessonTitle": "BÀI 7: ÔN TẬP CHỦ ĐỀ CHẤT - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Tóm tắt được những nội dung chính đã học về nước và không khí dưới dạng sơ đồ hoặc bảng hệ thống.",
           "- Vận dụng kiến thức về nước, không khí để giải thích và xử lí một số tình huống đơn giản trong cuộc sống.",
@@ -2323,11 +2316,6 @@
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2439,13 +2427,17 @@
             ]
           ]
         ],
-        "title": "BÀI 7: ÔN TẬP CHỦ ĐỀ CHẤT - SỐ TIẾT: 1"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nêu được ví dụ về vật phát sáng và vật được chiếu sáng.",
           "- Thực hiện được thí nghiệm để nhận biết điều kiện mắt nhìn thấy vật và sự truyền thẳng của ánh sáng trong không khí.",
@@ -2463,12 +2455,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 2: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG"
-        ],
         "tables": [
           [
             [
@@ -2626,7 +2612,15 @@
             ]
           ]
         ],
-        "title": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 7",
+          "PHIẾU HỌC TẬP SỐ 1: ÔN TẬP CHỦ ĐỀ CHẤT",
+          "PHIẾU HỌC TẬP SỐ 2: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG"
+        ]
       }
     ]
   },
@@ -2635,10 +2629,9 @@
     "sourceFile": "KHOA HỌC TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Thực hiện được thí nghiệm để nhận biết vật cho ánh sáng truyền qua và vật cản sáng.",
           "- Giải thích được nguyên nhân có bóng của vật và sự thay đổi kích thước bóng khi vị trí vật hoặc nguồn sáng thay đổi.",
@@ -2658,11 +2651,6 @@
           "- HS: SGK, vở ghi, bút chì, giấy A3, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2785,13 +2773,17 @@
             ]
           ]
         ],
-        "title": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nêu được vai trò của ánh sáng đối với sự sống và phát triển của thực vật, động vật.",
           "- Liên hệ được cách con người sử dụng ánh sáng đối với cây trồng và vật nuôi trong thực tế.",
@@ -2808,13 +2800,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 1: VẬT CHO ÁNH SÁNG TRUYỀN QUA VÀ VẬT CẢN SÁNG",
-          "PHIẾU HỌC TẬP SỐ 2: VAI TRÒ CỦA ÁNH SÁNG ĐỐI VỚI THỰC VẬT VÀ ĐỘNG VẬT"
-        ],
         "tables": [
           [
             [
@@ -2949,7 +2934,15 @@
             ]
           ]
         ],
-        "title": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 8",
+          "PHIẾU HỌC TẬP SỐ 1: VẬT CHO ÁNH SÁNG TRUYỀN QUA VÀ VẬT CẢN SÁNG",
+          "PHIẾU HỌC TẬP SỐ 2: VAI TRÒ CỦA ÁNH SÁNG ĐỐI VỚI THỰC VẬT VÀ ĐỘNG VẬT"
+        ]
       }
     ]
   },
@@ -2958,32 +2951,28 @@
     "sourceFile": "KHOA HỌC TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Nêu được vai trò của ánh sáng đối với đời sống và hoạt động của con người.",
           "- Biết tránh ánh sáng quá mạnh chiếu vào mắt, không đọc - viết nơi thiếu sáng; thực hiện tư thế ngồi và khoảng cách phù hợp để bảo vệ mắt.",
           "- Vận dụng kiến thức để sử dụng ánh sáng an toàn, hợp lí trong học tập và sinh hoạt.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Biết điều chỉnh thói quen sử dụng ánh sáng và tư thế học tập.",
           "- Giao tiếp và hợp tác: Biết trao đổi, nhận xét và hỗ trợ bạn thực hiện tư thế đúng.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn giải pháp chiếu sáng phù hợp cho từng tình huống.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực quan sát, thảo luận và thực hành tư thế học tập đúng.",
           "- Trách nhiệm: Có ý thức bảo vệ mắt, sử dụng điện và ánh sáng hợp lí.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- AI (4.A2.1): Trải nghiệm mô hình “Nhà thông minh” dùng AI và cảm biến ánh sáng để tự động điều chỉnh rèm hoặc đèn, góp phần bảo vệ thị lực và tiết kiệm điện."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, hình 6 - 8 SGK, mô phỏng/câu chuyện nhà thông minh, Phiếu học tập số 1.",
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3094,13 +3083,17 @@
             ]
           ]
         ],
-        "title": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Lấy được ví dụ hoặc thực hiện thí nghiệm để minh họa các vật phát ra âm thanh đều rung động.",
           "- Nêu được dẫn chứng cho thấy âm thanh có thể truyền qua chất khí, chất lỏng và chất rắn.",
@@ -3118,13 +3111,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 1: SỬ DỤNG ÁNH SÁNG AN TOÀN, HỢP LÍ",
-          "PHIẾU HỌC TẬP SỐ 2: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH"
-        ],
         "tables": [
           [
             [
@@ -3289,7 +3275,15 @@
             ]
           ]
         ],
-        "title": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 9",
+          "PHIẾU HỌC TẬP SỐ 1: SỬ DỤNG ÁNH SÁNG AN TOÀN, HỢP LÍ",
+          "PHIẾU HỌC TẬP SỐ 2: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH"
+        ]
       }
     ]
   },
@@ -3298,32 +3292,27 @@
     "sourceFile": "KHOA HỌC TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- So sánh được độ to của âm thanh khi lại gần hoặc ra xa nguồn âm.",
           "- Vận dụng được hiểu biết về sự truyền âm để giải thích một số tình huống đơn giản.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động dự đoán, kiểm chứng và tự điều chỉnh câu trả lời.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe và thống nhất kết quả trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách kiểm tra để xác định mối liên hệ giữa khoảng cách và độ to của âm.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực quan sát và tham gia thực hành.",
           "- Trách nhiệm: Giữ trật tự, sử dụng nguồn âm vừa phải để bảo vệ thính giác.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- AI (4.C2.1): Nhận biết AI có thể phân tích, nhận dạng và phân loại âm thanh; tìm hiểu ứng dụng phân loại tiếng kêu của động vật trong bảo tồn thiên nhiên."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, đồng hồ có tiếng tích tắc, hình 4 - 5 SGK, Phiếu học tập.",
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- AI (4.C2.1): Nhận biết AI có thể phân tích, nhận dạng và phân loại âm thanh; tìm hiểu ứng dụng phân loại tiếng kêu của động vật trong bảo tồn thiên nhiên.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3474,13 +3463,17 @@
             ]
           ]
         ],
-        "title": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Trình bày được một số vai trò của âm thanh trong cuộc sống.",
           "- Phân biệt được âm thanh có ích và tiếng ồn trong một số tình huống gần gũi.",
@@ -3501,13 +3494,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 1: KHOẢNG CÁCH VÀ ĐỘ TO CỦA ÂM THANH",
-          "PHIẾU HỌC TẬP SỐ 2: VAI TRÒ CỦA ÂM THANH"
-        ],
         "tables": [
           [
             [
@@ -3650,7 +3636,15 @@
             ]
           ]
         ],
-        "title": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 10",
+          "PHIẾU HỌC TẬP SỐ 1: KHOẢNG CÁCH VÀ ĐỘ TO CỦA ÂM THANH",
+          "PHIẾU HỌC TẬP SỐ 2: VAI TRÒ CỦA ÂM THANH"
+        ]
       }
     ]
   },
@@ -3659,10 +3653,9 @@
     "sourceFile": "KHOA HỌC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Trình bày được tác hại của tiếng ồn và một số biện pháp phòng, chống ô nhiễm tiếng ồn.",
           "- Đề xuất, lựa chọn được ý tưởng làm một nhạc cụ đơn giản có thể phát ra âm thanh.",
@@ -3680,11 +3673,6 @@
           "- HS: vật liệu tái sử dụng, kéo, keo dán, dây chun, ống hút, hộp giấy/hộp kim loại, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -3811,20 +3799,25 @@
             ]
           ]
         ],
-        "title": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3 - BÀI HỌC STEM: CHẾ TẠO NHẠC CỤ ĐƠN GIẢN - Ngày thực hiện: .................................................... (TIẾT 3)",
         "topic": "",
         "yccd": [
-          "BÀI HỌC STEM: CHẾ TẠO NHẠC CỤ ĐƠN GIẢN",
-          "Ngày thực hiện: .................................................... (TIẾT 3)",
           "1. Năng lực đặc thù:",
           "- Lựa chọn và sử dụng vật liệu, dụng cụ đúng cách, an toàn.",
           "- Làm được một nhạc cụ đơn giản và tạo ra âm thanh từ nhạc cụ đó.",
+          "- Trình bày, thử nghiệm, đánh giá và đề xuất điều chỉnh sản phẩm.",
           "2. Năng lực chung:",
           "- Tự chủ và tự học: Chủ động thực hiện phần việc được phân công.",
           "- Giao tiếp và hợp tác: Hỗ trợ nhau, trao đổi khi thử nghiệm.",
+          "- Giải quyết vấn đề và sáng tạo: Điều chỉnh cấu tạo để âm thanh rõ hơn.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Kiên trì hoàn thiện sản phẩm.",
           "- Trách nhiệm: Sử dụng dụng cụ an toàn, tiết kiệm vật liệu và giữ vệ sinh.",
@@ -3836,15 +3829,6 @@
           "- HS: bản thiết kế, vật liệu và dụng cụ đã chuẩn bị."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 2: TÁC HẠI VÀ BIỆN PHÁP PHÒNG, CHỐNG TIẾNG ỒN",
-          "PHIẾU SỐ 3: PHÁC THẢO NHẠC CỤ",
-          "PHIẾU SỐ 4: CHÚNG EM LÀM VIỆC NHÓM",
-          "PHIẾU SỐ 5: ĐÁNH GIÁ MÔ HÌNH NHẠC CỤ"
-        ],
         "tables": [
           [
             [
@@ -4001,7 +3985,17 @@
             ]
           ]
         ],
-        "title": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 11",
+          "PHIẾU HỌC TẬP SỐ 2: TÁC HẠI VÀ BIỆN PHÁP PHÒNG, CHỐNG TIẾNG ỒN",
+          "PHIẾU SỐ 3: PHÁC THẢO NHẠC CỤ",
+          "PHIẾU SỐ 4: CHÚNG EM LÀM VIỆC NHÓM",
+          "PHIẾU SỐ 5: ĐÁNH GIÁ MÔ HÌNH NHẠC CỤ"
+        ]
       }
     ]
   },
@@ -4010,10 +4004,9 @@
     "sourceFile": "KHOA HỌC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Trình bày được vật nóng hơn có nhiệt độ cao hơn, vật lạnh hơn có nhiệt độ thấp hơn.",
           "- Biết nhiệt kế là dụng cụ đo nhiệt độ.",
@@ -4034,11 +4027,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4165,13 +4153,17 @@
             ]
           ]
         ],
-        "title": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Nêu được nhiệt truyền từ vật có nhiệt độ cao hơn sang vật có nhiệt độ thấp hơn.",
           "- Vận dụng kiến thức về truyền nhiệt để giải thích, đề xuất cách làm vật nóng lên hoặc lạnh đi trong tình huống đơn giản.",
@@ -4190,12 +4182,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 1: ĐO NHIỆT ĐỘ",
-          "PHIẾU HỌC TẬP SỐ 2: SỰ TRUYỀN NHIỆT"
-        ],
         "tables": [
           [
             [
@@ -4382,7 +4368,14 @@
             ]
           ]
         ],
-        "title": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 12",
+          "PHIẾU HỌC TẬP SỐ 1: ĐO NHIỆT ĐỘ",
+          "PHIẾU HỌC TẬP SỐ 2: SỰ TRUYỀN NHIỆT"
+        ]
       }
     ]
   },
@@ -4391,33 +4384,28 @@
     "sourceFile": "KHOA HỌC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Thực hiện được thí nghiệm để nhận biết vật dẫn nhiệt tốt và vật dẫn nhiệt kém.",
           "- Vận dụng kiến thức về dẫn nhiệt để giải thích cấu tạo, công dụng của một số đồ dùng và hiện tượng trong cuộc sống.",
           "- Nhận biết được một số ứng dụng cảm biến nhiệt và AI trong cảnh báo nguy hiểm do nhiệt độ cao.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động quan sát, dự đoán, thực hiện thí nghiệm và tự điều chỉnh câu trả lời.",
           "- Giao tiếp và hợp tác: Biết phân công nhiệm vụ, trình bày kết quả và lắng nghe ý kiến của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn vật liệu phù hợp với mục đích dẫn nhiệt hoặc cách nhiệt.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực thực hành, quan sát và hoàn thành phiếu học tập.",
           "- Trách nhiệm: Thực hiện thí nghiệm an toàn, không tự ý chạm vào nước nóng hoặc vật nóng.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- AI (4.A2.1): Nhận biết AI có thể kết hợp với cảm biến nhiệt để phát hiện nhiệt độ bất thường, cảnh báo cháy rừng hoặc tự động ngắt thiết bị khi quá nóng; con người vẫn phải kiểm tra và thực hiện đúng quy tắc an toàn."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, cốc nước ấm, thìa kim loại/gỗ/nhựa, hình 1 - 4 SGK, Phiếu học tập.",
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- AI (4.A2.1): Nhận biết AI có thể kết hợp với cảm biến nhiệt để phát hiện nhiệt độ bất thường, cảnh báo cháy rừng hoặc tự động ngắt thiết bị khi quá nóng; con người vẫn phải kiểm tra và thực hiện đúng quy tắc an toàn.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4552,19 +4540,23 @@
             ]
           ]
         ],
-        "title": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM - SỐ TIẾT: 2 - BÀI HỌC STEM: BÌNH GIỮ NHIỆT - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "BÀI HỌC STEM: BÌNH GIỮ NHIỆT",
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Đề xuất, vẽ và lựa chọn được phương án chế tạo bình giữ nhiệt từ vật liệu đơn giản.",
           "- Chế tạo, thử nghiệm, đo và so sánh khả năng giữ nhiệt của sản phẩm.",
           "- Trình bày được cấu tạo, cách làm, tác dụng và đề xuất cải tiến bình giữ nhiệt.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động hoàn thành phần việc và điều chỉnh sản phẩm theo kết quả thử.",
           "- Giao tiếp và hợp tác: Biết phân công, hỗ trợ nhau và thống nhất phương án nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn vật liệu, thiết kế cấu tạo, thử nghiệm và cải tiến sản phẩm.",
           "3. Phẩm chất:",
@@ -4578,15 +4570,6 @@
           "- HS: giấy bạc, chai nhựa lớn, chai thủy tinh, bông/xốp/vải, băng keo, kéo, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "1. PHIẾU LUYỆN TẬP - VẬT DẪN NHIỆT",
-          "2. DANH MỤC VẬT LIỆU GỢI Ý",
-          "3. PHIẾU THIẾT KẾ BÌNH GIỮ NHIỆT",
-          "4. PHIẾU THỬ NGHIỆM VÀ ĐÁNH GIÁ"
-        ],
         "tables": [
           [
             [
@@ -4781,7 +4764,17 @@
             ]
           ]
         ],
-        "title": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 13",
+          "1. PHIẾU LUYỆN TẬP - VẬT DẪN NHIỆT",
+          "2. DANH MỤC VẬT LIỆU GỢI Ý",
+          "3. PHIẾU THIẾT KẾ BÌNH GIỮ NHIỆT",
+          "4. PHIẾU THỬ NGHIỆM VÀ ĐÁNH GIÁ"
+        ]
       }
     ]
   },
@@ -4790,32 +4783,27 @@
     "sourceFile": "KHOA HỌC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG - SỐ TIẾT: 1",
+        "lessonTitle": "BÀI 14: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Tóm tắt được những nội dung chính của chủ đề Năng lượng dưới dạng sơ đồ.",
           "- Vận dụng được kiến thức về ánh sáng, âm thanh và nhiệt để giải thích, xử lí một số tình huống đơn giản trong cuộc sống.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động nhớ lại kiến thức, tự hoàn thành nhiệm vụ và điều chỉnh câu trả lời.",
           "- Giao tiếp và hợp tác: Biết phân công nhiệm vụ, thảo luận và thống nhất câu trả lời trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn kiến thức phù hợp để giải thích hiện tượng thực tế.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực tham gia ôn tập và hoàn thành phiếu học tập.",
           "- Trách nhiệm: Trung thực khi tự đánh giá kết quả, biết sử dụng ánh sáng, âm thanh và nguồn nhiệt an toàn.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- AI (4.A1.2): So sánh giải thích của AI với kiến thức và kết quả quan sát thực tế về hiện tượng truyền nhiệt; biết kiểm chứng trước khi tin hoặc sử dụng thông tin do AI cung cấp."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, hình 1 - 3 SGK, bảng nhóm, Phiếu học tập số 1.",
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- AI (4.A1.2): So sánh giải thích của AI với kiến thức và kết quả quan sát thực tế về hiện tượng truyền nhiệt; biết kiểm chứng trước khi tin hoặc sử dụng thông tin do AI cung cấp.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -4935,13 +4923,17 @@
             ]
           ]
         ],
-        "title": "BÀI 14: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG - SỐ TIẾT: 1"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nêu được các yếu tố cần cho sự sống và phát triển của thực vật: nước, chất khoáng, không khí, ánh sáng và nhiệt độ thích hợp.",
           "- Quan sát, mô tả và dự đoán được kết quả của thí nghiệm về nhu cầu sống của cây.",
@@ -4959,12 +4951,6 @@
           "- HS: SGK, vở ghi, cây đã chuẩn bị theo hướng dẫn, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 2: ĐIỀU KIỆN SỐNG CỦA CÂY"
-        ],
         "tables": [
           [
             [
@@ -5140,7 +5126,15 @@
             ]
           ]
         ],
-        "title": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 14",
+          "PHIẾU HỌC TẬP SỐ 1: HỆ THỐNG KIẾN THỨC CHỦ ĐỀ NĂNG LƯỢNG",
+          "PHIẾU HỌC TẬP SỐ 2: ĐIỀU KIỆN SỐNG CỦA CÂY"
+        ]
       }
     ]
   },
@@ -5149,10 +5143,9 @@
     "sourceFile": "KHOA HỌC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Trình bày được vai trò của ánh sáng đối với sự phát triển của thực vật.",
           "- Trình bày được thực vật tự tổng hợp chất dinh dưỡng từ khí các-bô-níc và nước nhờ ánh sáng; thải ra khí ô-xi.",
@@ -5172,11 +5165,6 @@
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5280,13 +5268,17 @@
             ]
           ]
         ],
-        "title": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 3)",
           "1. Năng lực đặc thù:",
           "- Trình bày được thực vật thường xuyên trao đổi nước và chất khoáng với môi trường.",
           "- Vẽ được sơ đồ đơn giản về sự trao đổi nước, chất khoáng của thực vật.",
@@ -5306,13 +5298,6 @@
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 1: QUANG HỢP VÀ HÔ HẤP",
-          "PHIẾU HỌC TẬP SỐ 2: KẾ HOẠCH CHĂM SÓC CÂY 7 NGÀY"
-        ],
         "tables": [
           [
             [
@@ -5485,7 +5470,15 @@
             ]
           ]
         ],
-        "title": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 15",
+          "PHIẾU HỌC TẬP SỐ 1: QUANG HỢP VÀ HÔ HẤP",
+          "PHIẾU HỌC TẬP SỐ 2: KẾ HOẠCH CHĂM SÓC CÂY 7 NGÀY"
+        ]
       }
     ]
   },
@@ -5494,10 +5487,9 @@
     "sourceFile": "KHOA HỌC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Đưa ra được dẫn chứng cho thấy động vật cần thức ăn, nước, không khí, ánh sáng và nhiệt độ thích hợp để sống và phát triển.",
           "- Vận dụng kiến thức về nhu cầu sống của động vật để lựa chọn cách chăm sóc vật nuôi phù hợp.",
@@ -5516,11 +5508,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5624,13 +5611,17 @@
             ]
           ]
         ],
-        "title": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Trình bày được động vật không tự tổng hợp chất dinh dưỡng mà phải sử dụng thực vật hoặc động vật khác làm thức ăn.",
           "- Phân loại được một số động vật theo thức ăn: ăn thực vật, ăn động vật, ăn cả thực vật và động vật.",
@@ -5648,13 +5639,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP SỐ 1: NHU CẦU SỐNG CỦA ĐỘNG VẬT",
-          "PHIẾU HỌC TẬP SỐ 2: PHÂN LOẠI ĐỘNG VẬT THEO THỨC ĂN"
-        ],
         "tables": [
           [
             [
@@ -5804,7 +5788,15 @@
             ]
           ]
         ],
-        "title": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 16",
+          "PHIẾU HỌC TẬP SỐ 1: NHU CẦU SỐNG CỦA ĐỘNG VẬT",
+          "PHIẾU HỌC TẬP SỐ 2: PHÂN LOẠI ĐỘNG VẬT THEO THỨC ĂN"
+        ]
       }
     ]
   },
@@ -5813,10 +5805,9 @@
     "sourceFile": "KHOA HỌC TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 3)",
           "1. Năng lực đặc thù:",
           "- Hoàn thành được sơ đồ về sự trao đổi nước, không khí, thức ăn của động vật với môi trường.",
           "- Vận dụng kiến thức về sự trao đổi chất để giải thích một số hiện tượng và nêu điều kiện sống thích hợp cho động vật.",
@@ -5833,11 +5824,6 @@
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -5952,13 +5938,17 @@
             ]
           ]
         ],
-        "title": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Vận dụng được kiến thức về nhu cầu sống của thực vật và động vật để đề xuất việc làm chăm sóc phù hợp.",
           "- Giải thích được vì sao cần thực hiện từng việc làm chăm sóc cây trồng, vật nuôi.",
@@ -5977,11 +5967,6 @@
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6092,7 +6077,12 @@
             ]
           ]
         ],
-        "title": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -6101,29 +6091,27 @@
     "sourceFile": "KHOA HỌC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Lập được kế hoạch chăm sóc một cây trồng hoặc vật nuôi ở nhà.",
           "- Thực hiện và chia sẻ được một việc làm phù hợp để chăm sóc cây trồng hoặc vật nuôi.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động lập kế hoạch, theo dõi và điều chỉnh việc chăm sóc.",
           "- Giao tiếp và hợp tác: Biết trao đổi, phân công và phản hồi trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết xử lí tình huống cây héo, vật nuôi bỏ ăn hoặc khu vực chăm sóc mất vệ sinh.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Thực hiện nhiệm vụ đều đặn, đúng thời gian.",
           "- Trách nhiệm: Giữ vệ sinh, tiết kiệm nước và bảo đảm an toàn cho cây trồng, vật nuôi.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- Bảo vệ môi trường: Giữ sạch khu nuôi/trồng, tiết kiệm nước, thu gom rác và chất thải đúng nơi quy định, hạn chế sử dụng hóa chất."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, bảng kế hoạch SGK, Phiếu học tập số 1, thẻ tình huống.",
           "- HS: SGK, vở ghi, bút chì, hình ảnh việc chăm sóc ở gia đình (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Bảo vệ môi trường: Giữ sạch khu nuôi/trồng, tiết kiệm nước, thu gom rác và chất thải đúng nơi quy định, hạn chế sử dụng hóa chất."
-        ],
         "tables": [
           [
             [
@@ -6226,62 +6214,29 @@
             ]
           ]
         ],
-        "title": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):"
+        ]
       },
       {
-        "lessonTitle": "BÀI ÔN TẬP, ĐÁNH GIÁ HỌC KÌ I: MÔN KHOA HỌC 4 - SỐ TIẾT: 1",
+        "lessonTitle": "BÀI ÔN TẬP, ĐÁNH GIÁ HỌC KÌ I: MÔN KHOA HỌC 4 - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Hệ thống hóa kiến thức học kì I về chất, năng lượng, thực vật và động vật.",
+          "- Hoàn thành bài kiểm tra theo yêu cầu cần đạt, biết vận dụng kiến thức giải thích tình huống.",
           "2. Năng lực chung:",
           "- Tự chủ và tự học: Tự giác làm bài, phân bố thời gian hợp lí.",
           "- Giải quyết vấn đề: Đọc kĩ câu hỏi, lựa chọn kiến thức phù hợp.",
           "3. Phẩm chất:",
           "- Trung thực: Làm bài bằng năng lực của bản thân.",
-          "- Trách nhiệm: Thực hiện đúng nội quy kiểm tra.",
-          "- Câu 1. Nước có màu: A. Đỏ.  B. Xanh.  C. Trắng.  D. Trong suốt.",
-          "- Câu 2. Hòa đường vào nước thể hiện tính chất nào của nước? A. Chảy từ cao xuống thấp. B. Thấm qua một số vật. C. Hòa tan một số chất. D. Không có hình dạng nhất định.",
-          "- Câu 3. Nước đọng trên nắp vung khi nấu ăn là hiện tượng: A. Ngưng tụ. B. Bay hơi. C. Đông đặc. D. Nóng chảy.",
-          "- Câu 4. Nước có thể thấm qua: A. Tấm kim loại. B. Ni-lông. C. Vải bông. D. Cao su.",
-          "- Câu 5. Đâu là vật phát sáng? A. Mặt Trời. B. Mặt Trăng. C. Cái cây. D. Quyển sách.",
-          "- Câu 6. Bộ phận nào của ô tô làm bằng vật liệu cho ánh sáng truyền qua? A. Cửa kính. B. Bánh xe. C. Gương chiếu hậu. D. Khung xe.",
-          "- Câu 7. Vật phát ra âm thanh khi nào? A. Khi va chạm. B. Khi uốn cong. C. Khi nén. D. Khi rung động.",
-          "- Câu 8. Hai bạn nói chuyện trực tiếp; âm thanh chủ yếu truyền qua: A. Chất rắn. B. Chất lỏng. C. Chất khí. D. Chân không.",
-          "- Câu 9. Muốn biết một vật nóng hay lạnh, ta dựa vào: A. Khối lượng. B. Chất liệu. C. Nhiệt độ. D. Nguồn gốc.",
-          "- Câu 10. Trong nồi cơm điện, bộ phận dẫn nhiệt tốt là: A. Thân nhựa. B. Lòng nồi kim loại. C. Tay cầm. D. Dây điện bọc nhựa.",
-          "- Câu 11. Động vật nào ăn động vật khác? A. Dê. B. Thỏ. C. Sư tử. D. Ngựa.",
-          "- Câu 12. Trong quá trình trao đổi chất, động vật thải ra: A. Chất cặn bã. B. Nước tiểu. C. Khí các-bô-níc. D. Cả A, B, C."
+          "- Trách nhiệm: Thực hiện đúng nội quy kiểm tra."
         ],
         "dodung": [
           "- GV: đề kiểm tra, đáp án, ma trận, giấy kiểm tra.",
-          "- HS: bút viết, thước, đồ dùng học tập cần thiết.",
-          "- Câu 13. (1 điểm) Thực vật cần những yếu tố nào để sống và phát triển?",
-          "- Câu 14. (1 điểm) Dùng các từ: kim loại, dẫn nhiệt tốt, dẫn nhiệt kém, dẫn nhiệt để điền vào chỗ trống: Các ............ như bạc, đồng, nhôm, sắt là những vật ............; gỗ, nhựa, bông, xốp, thủy tinh là những vật ............; tính ............ của vật có nhiều ứng dụng trong cuộc sống.",
-          "- Câu 15. (2 điểm) Nêu các biện pháp phòng chống bão mà em biết.",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "..................................................................................................................................................",
-          "ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM",
-          "- Trắc nghiệm: 1-D; 2-C; 3-A; 4-C; 5-A; 6-A; 7-D; 8-C; 9-C; 10-B; 11-C; 12-D. Mỗi câu đúng 0,5 điểm.",
-          "- Câu 13: Nước, chất khoáng, không khí, ánh sáng và nhiệt độ thích hợp. Nêu đủ được 1,0 điểm.",
-          "- Câu 14: kim loại - dẫn nhiệt tốt - dẫn nhiệt kém - dẫn nhiệt. Mỗi ý đúng 0,25 điểm.",
-          "- Câu 15: Theo dõi dự báo; gia cố nhà cửa, cửa sổ; chặt tỉa cành nguy hiểm; neo đậu tàu thuyền; dự trữ lương thực, nước sạch; sơ tán khi có yêu cầu; không ra ngoài khi bão mạnh. Nêu đúng bốn ý được 2,0 điểm."
+          "- HS: bút viết, thước, đồ dùng học tập cần thiết."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "Họ và tên: ........................................................................ Lớp: ............",
-          "Trường: ................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6328,35 +6283,74 @@
             ],
             [
               "Chất: Nước, không khí",
-              "Câu 1, 4(1,0 điểm)",
-              "Câu 2, 3(1,0 điểm)",
-              "Câu 15(2,0 điểm)",
-              "5 câu4,0 điểm"
+              "Câu 1, 4\n(1,0 điểm)",
+              "Câu 2, 3\n(1,0 điểm)",
+              "Câu 15\n(2,0 điểm)",
+              "5 câu\n4,0 điểm"
             ],
             [
               "Năng lượng: Ánh sáng, âm thanh, nhiệt",
-              "Câu 5, 6, 7, 9, 10(2,5 điểm)",
-              "Câu 8, 14(1,5 điểm)",
+              "Câu 5, 6, 7, 9, 10\n(2,5 điểm)",
+              "Câu 8, 14\n(1,5 điểm)",
               "—",
-              "7 câu4,0 điểm"
+              "7 câu\n4,0 điểm"
             ],
             [
               "Thực vật và động vật",
-              "Câu 12, 13(1,5 điểm)",
-              "Câu 11(0,5 điểm)",
+              "Câu 12, 13\n(1,5 điểm)",
+              "Câu 11\n(0,5 điểm)",
               "—",
-              "3 câu2,0 điểm"
+              "3 câu\n2,0 điểm"
             ],
             [
               "Tổng",
-              "9 câu5,0 điểm",
-              "5 câu3,0 điểm",
-              "1 câu2,0 điểm",
-              "15 câu10 điểm"
+              "9 câu\n5,0 điểm",
+              "5 câu\n3,0 điểm",
+              "1 câu\n2,0 điểm",
+              "15 câu\n10 điểm"
             ]
           ]
         ],
-        "title": "BÀI ÔN TẬP, ĐÁNH GIÁ HỌC KÌ I: MÔN KHOA HỌC 4 - SỐ TIẾT: 1"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "MA TRẬN BÀI KIỂM TRA HỌC KÌ I - MÔN KHOA HỌC 4",
+          "BÀI KIỂM TRA HỌC KÌ I\nMÔN KHOA HỌC - LỚP 4",
+          "Họ và tên: ........................................................................ Lớp: ............",
+          "Trường: ................................................................................................",
+          "I. TRẮC NGHIỆM (6 điểm)",
+          "- Câu 1. Nước có màu: A. Đỏ.  B. Xanh.  C. Trắng.  D. Trong suốt.",
+          "- Câu 2. Hòa đường vào nước thể hiện tính chất nào của nước? A. Chảy từ cao xuống thấp. B. Thấm qua một số vật. C. Hòa tan một số chất. D. Không có hình dạng nhất định.",
+          "- Câu 3. Nước đọng trên nắp vung khi nấu ăn là hiện tượng: A. Ngưng tụ. B. Bay hơi. C. Đông đặc. D. Nóng chảy.",
+          "- Câu 4. Nước có thể thấm qua: A. Tấm kim loại. B. Ni-lông. C. Vải bông. D. Cao su.",
+          "- Câu 5. Đâu là vật phát sáng? A. Mặt Trời. B. Mặt Trăng. C. Cái cây. D. Quyển sách.",
+          "- Câu 6. Bộ phận nào của ô tô làm bằng vật liệu cho ánh sáng truyền qua? A. Cửa kính. B. Bánh xe. C. Gương chiếu hậu. D. Khung xe.",
+          "- Câu 7. Vật phát ra âm thanh khi nào? A. Khi va chạm. B. Khi uốn cong. C. Khi nén. D. Khi rung động.",
+          "- Câu 8. Hai bạn nói chuyện trực tiếp; âm thanh chủ yếu truyền qua: A. Chất rắn. B. Chất lỏng. C. Chất khí. D. Chân không.",
+          "- Câu 9. Muốn biết một vật nóng hay lạnh, ta dựa vào: A. Khối lượng. B. Chất liệu. C. Nhiệt độ. D. Nguồn gốc.",
+          "- Câu 10. Trong nồi cơm điện, bộ phận dẫn nhiệt tốt là: A. Thân nhựa. B. Lòng nồi kim loại. C. Tay cầm. D. Dây điện bọc nhựa.",
+          "- Câu 11. Động vật nào ăn động vật khác? A. Dê. B. Thỏ. C. Sư tử. D. Ngựa.",
+          "- Câu 12. Trong quá trình trao đổi chất, động vật thải ra: A. Chất cặn bã. B. Nước tiểu. C. Khí các-bô-níc. D. Cả A, B, C.",
+          "II. TỰ LUẬN (4 điểm)",
+          "- Câu 13. (1 điểm) Thực vật cần những yếu tố nào để sống và phát triển?",
+          "- Câu 14. (1 điểm) Dùng các từ: kim loại, dẫn nhiệt tốt, dẫn nhiệt kém, dẫn nhiệt để điền vào chỗ trống: Các ............ như bạc, đồng, nhôm, sắt là những vật ............; gỗ, nhựa, bông, xốp, thủy tinh là những vật ............; tính ............ của vật có nhiều ứng dụng trong cuộc sống.",
+          "- Câu 15. (2 điểm) Nêu các biện pháp phòng chống bão mà em biết.",
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          "..................................................................................................................................................",
+          "ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM",
+          "- Trắc nghiệm: 1-D; 2-C; 3-A; 4-C; 5-A; 6-A; 7-D; 8-C; 9-C; 10-B; 11-C; 12-D. Mỗi câu đúng 0,5 điểm.",
+          "- Câu 13: Nước, chất khoáng, không khí, ánh sáng và nhiệt độ thích hợp. Nêu đủ được 1,0 điểm.",
+          "- Câu 14: kim loại - dẫn nhiệt tốt - dẫn nhiệt kém - dẫn nhiệt. Mỗi ý đúng 0,25 điểm.",
+          "- Câu 15: Theo dõi dự báo; gia cố nhà cửa, cửa sổ; chặt tỉa cành nguy hiểm; neo đậu tàu thuyền; dự trữ lương thực, nước sạch; sơ tán khi có yêu cầu; không ra ngoài khi bão mạnh. Nêu đúng bốn ý được 2,0 điểm."
+        ]
       }
     ]
   },
@@ -6365,10 +6359,9 @@
     "sourceFile": "KHOA HỌC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 18: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT - SỐ TIẾT: 1",
+        "lessonTitle": "BÀI 18: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Tóm tắt được nội dung chính về nhu cầu sống và trao đổi chất của thực vật, động vật dưới dạng sơ đồ.",
           "- Vận dụng kiến thức để giải quyết một số tình huống chăm sóc cây trồng, vật nuôi.",
@@ -6387,11 +6380,6 @@
           "- HS: SGK, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6487,13 +6475,17 @@
             ]
           ]
         ],
-        "title": "BÀI 18: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT - SỐ TIẾT: 1"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nhận ra được nấm có hình dạng, kích thước, màu sắc và nơi sống rất khác nhau qua quan sát tranh ảnh hoặc video.",
           "- Nêu được một số quy tắc an toàn khi gặp nấm lạ hoặc thực phẩm bị mốc.",
@@ -6513,9 +6505,6 @@
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6614,7 +6603,10 @@
             ]
           ]
         ],
-        "title": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -6623,10 +6615,9 @@
     "sourceFile": "KHOA HỌC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Vẽ được sơ đồ hoặc sử dụng sơ đồ đã cho và ghi chú được tên một số bộ phận của nấm mũ.",
           "- Nhận biết được nấm không có màu xanh như phần lớn thực vật và nêu được vai trò phân hủy của nấm trong tự nhiên.",
@@ -6643,11 +6634,6 @@
           "- HS: SGK, vở ghi, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -6762,13 +6748,17 @@
             ]
           ]
         ],
-        "title": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nêu được tên và một số đặc điểm về hình dạng, màu sắc của một số nấm dùng làm thức ăn.",
           "- Nhận biết được nơi sống của một số nấm ăn và nêu được một số món ăn có sử dụng nấm.",
@@ -6787,13 +6777,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU HỌC TẬP 1: CÁC BỘ PHẬN CỦA NẤM MŨ",
-          "PHIẾU HỌC TẬP 2: NHẬN BIẾT NẤM ĂN"
-        ],
         "tables": [
           [
             [
@@ -6934,7 +6917,15 @@
             ]
           ]
         ],
-        "title": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 20",
+          "PHIẾU HỌC TẬP 1: CÁC BỘ PHẬN CỦA NẤM MŨ",
+          "PHIẾU HỌC TẬP 2: NHẬN BIẾT NẤM ĂN"
+        ]
       }
     ]
   },
@@ -6943,10 +6934,9 @@
     "sourceFile": "KHOA HỌC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Khám phá được lợi ích của nấm men trong chế biến thực phẩm thông qua quan sát hình, video hoặc thực hành.",
           "- Mô tả được một số bước cơ bản trong quy trình làm bánh mì và giải thích vai trò của nấm men.",
@@ -6965,11 +6955,6 @@
           "- HS: SGK, vở ghi; nguyên liệu theo phân công."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7084,13 +7069,17 @@
             ]
           ]
         ],
-        "title": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nhận biết được tác hại của một số nấm mốc gây hỏng thực phẩm qua quan sát tranh, ảnh hoặc thí nghiệm.",
           "- Nêu được một số nguyên nhân làm thực phẩm bị nấm mốc và một số cách bảo quản thực phẩm.",
@@ -7110,13 +7099,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU 1: QUAN SÁT SỰ THAY ĐỔI CỦA BỘT",
-          "PHIẾU 2: NGUYÊN NHÂN VÀ CÁCH BẢO QUẢN"
-        ],
         "tables": [
           [
             [
@@ -7282,7 +7264,15 @@
             ]
           ]
         ],
-        "title": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 21",
+          "PHIẾU 1: QUAN SÁT SỰ THAY ĐỔI CỦA BỘT",
+          "PHIẾU 2: NGUYÊN NHÂN VÀ CÁCH BẢO QUẢN"
+        ]
       }
     ]
   },
@@ -7291,33 +7281,28 @@
     "sourceFile": "KHOA HỌC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Vận dụng kiến thức về nguyên nhân gây hỏng thực phẩm để lựa chọn cách bảo quản phù hợp.",
           "- Nhận biết được một số nấm lạ, nấm độc và có ý thức không ăn nấm lạ để phòng tránh ngộ độc.",
           "- Biết cách xử lí an toàn khi phát hiện nấm lạ hoặc thực phẩm nghi bị mốc.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động quan sát, đọc thông tin và tự điều chỉnh hành vi.",
           "- Giao tiếp và hợp tác: Trao đổi nhóm, trình bày rõ ràng, lắng nghe phản hồi.",
           "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống để lựa chọn cách xử lí an toàn.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực hoàn thành nhiệm vụ.",
           "- Trách nhiệm: Không nếm thử nấm lạ; biết báo người lớn và nhắc nhở người thân.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- KNS: HS nhận biết nguy cơ ngộ độc do nấm lạ hoặc thực phẩm hỏng; biết quyền được bảo vệ sức khỏe và kĩ năng báo người lớn, từ chối ăn, xử lí tình huống an toàn."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, Hình 4 - 5 SGK, phiếu tình huống, tranh nấm độc.",
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- KNS: HS nhận biết nguy cơ ngộ độc do nấm lạ hoặc thực phẩm hỏng; biết quyền được bảo vệ sức khỏe và kĩ năng báo người lớn, từ chối ăn, xử lí tình huống an toàn.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7424,13 +7409,17 @@
             ]
           ]
         ],
-        "title": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 22: ÔN TẬP CHỦ ĐỀ NẤM - SỐ TIẾT: 1",
+        "lessonTitle": "BÀI 22: ÔN TẬP CHỦ ĐỀ NẤM - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Hệ thống được đặc điểm, bộ phận, nơi sống, ích lợi và tác hại của nấm.",
           "- Vận dụng kiến thức về nấm để bảo quản thực phẩm, phòng tránh nấm mốc và nấm độc.",
@@ -7449,12 +7438,6 @@
           "- HS: SGK, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU TÌNH HUỐNG AN TOÀN"
-        ],
         "tables": [
           [
             [
@@ -7604,7 +7587,15 @@
             ]
           ]
         ],
-        "title": "BÀI 22: ÔN TẬP CHỦ ĐỀ NẤM - SỐ TIẾT: 1"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 22",
+          "PHIẾU TÌNH HUỐNG AN TOÀN",
+          "PHIẾU ÔN TẬP CHỦ ĐỀ NẤM"
+        ]
       }
     ]
   },
@@ -7613,10 +7604,9 @@
     "sourceFile": "KHOA HỌC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nhận biết được các chất dinh dưỡng có trong thực phẩm và kể tên bốn nhóm chất dinh dưỡng.",
           "- Phân loại được một số thực phẩm theo nhóm chất dinh dưỡng có hàm lượng nổi bật.",
@@ -7635,11 +7625,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -7750,13 +7735,17 @@
             ]
           ]
         ],
-        "title": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Nhận biết được vai trò của bốn nhóm chất dinh dưỡng đối với sự phát triển và hoạt động của cơ thể.",
           "- Nêu được thực phẩm cung cấp năng lượng và vận dụng để lựa chọn thức ăn phù hợp.",
@@ -7773,13 +7762,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "PHIẾU 1: PHÂN LOẠI THỰC PHẨM",
-          "PHIẾU 2: VAI TRÒ CÁC NHÓM CHẤT"
-        ],
         "tables": [
           [
             [
@@ -7948,7 +7930,15 @@
             ]
           ]
         ],
-        "title": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "PHỤ LỤC: PHIẾU HỌC TẬP TUẦN 23",
+          "PHIẾU 1: PHÂN LOẠI THỰC PHẨM",
+          "PHIẾU 2: VAI TRÒ CÁC NHÓM CHẤT"
+        ]
       }
     ]
   },
@@ -7957,10 +7947,9 @@
     "sourceFile": "KHOA HỌC TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Trình bày được sự cần thiết phải ăn phối hợp nhiều loại thức ăn, ăn nhiều rau, quả và uống đủ nước mỗi ngày.",
           "- Nêu được ở mức độ đơn giản về chế độ ăn uống cân bằng.",
@@ -7968,23 +7957,19 @@
           "2. Năng lực chung:",
           "- Tự chủ và tự học: Chủ động quan sát bảng, đọc thông tin và tự liên hệ bữa ăn của bản thân.",
           "- Giao tiếp và hợp tác: Trao đổi nhóm đôi, nhóm 4, trình bày và phản hồi rõ ràng.",
+          "- Giải quyết vấn đề và sáng tạo: Phân tích thực đơn, phát hiện điểm chưa cân bằng và đề xuất cách điều chỉnh.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực quan sát, thảo luận và hoàn thành phiếu học tập.",
           "- Trách nhiệm: Có ý thức ăn đủ chất, lựa chọn thực phẩm phù hợp để chăm sóc sức khỏe.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- Quyền con người: HS nhận biết quyền được chăm sóc sức khỏe, được ăn uống đủ chất và được phát triển.",
+          "- AI 4.A1.2: HS biết AI có thể gợi ý thực đơn nhưng con người phải đối chiếu Tháp dinh dưỡng, hoàn cảnh gia đình và tự quyết định thực đơn phù hợp."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, bảng thực đơn, Hình 1 - 2 SGK, Phiếu học tập.",
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Quyền con người: HS nhận biết quyền được chăm sóc sức khỏe, được ăn uống đủ chất và được phát triển.",
-          "- AI 4.A1.2: HS biết AI có thể gợi ý thực đơn nhưng con người phải đối chiếu Tháp dinh dưỡng, hoàn cảnh gia đình và tự quyết định thực đơn phù hợp.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8118,13 +8103,17 @@
             ]
           ]
         ],
-        "title": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Nhận xét được bữa ăn cân bằng, lành mạnh dựa vào Tháp dinh dưỡng trẻ em.",
           "- Đề xuất được ý tưởng và phác thảo mô hình bữa ăn cân bằng.",
@@ -8132,6 +8121,7 @@
           "2. Năng lực chung:",
           "- Tự chủ và tự học: Chủ động đọc tiêu chí, lựa chọn vật liệu và hoàn thành phần việc.",
           "- Giao tiếp và hợp tác: Phân công nhiệm vụ, thống nhất ý tưởng và trình bày trước lớp.",
+          "- Giải quyết vấn đề và sáng tạo: Biết điều chỉnh ý tưởng để sản phẩm đáp ứng tiêu chí.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực chuẩn bị, phác thảo và hoàn thiện nhiệm vụ.",
           "- Trách nhiệm: Sử dụng dụng cụ an toàn, tiết kiệm vật liệu và giữ vệ sinh.",
@@ -8143,11 +8133,6 @@
           "- HS: SGK, thước, kéo, bút màu và vật liệu nhóm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8228,7 +8213,12 @@
             ]
           ]
         ],
-        "title": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8237,32 +8227,28 @@
     "sourceFile": "KHOA HỌC TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 3)",
           "1. Năng lực đặc thù:",
           "- Lập được một thực đơn cân bằng đơn giản cho một ngày hoặc một bữa ăn.",
+          "- Biết đối chiếu thực đơn với Tháp dinh dưỡng và điều chỉnh cho phù hợp.",
+          "- Trình bày, nhận xét được thực đơn của nhóm bằng lí lẽ rõ ràng.",
           "2. Năng lực chung:",
           "- Tự chủ và tự học: Chủ động nhập/ghi dữ liệu và kiểm tra kết quả.",
           "- Giao tiếp và hợp tác: Phân công, trao đổi và trình bày sản phẩm nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Điều chỉnh thực đơn theo tiêu chí dinh dưỡng và hoàn cảnh thực tế.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Hoàn thành thực đơn và phiếu đánh giá.",
           "- Trách nhiệm: Lựa chọn món ăn phù hợp, không lãng phí và bảo vệ thông tin cá nhân.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- NLS 5.2.CB1a: HS lập thực đơn cân bằng đơn giản bằng bảng hoặc phiếu số theo hướng dẫn của GV."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, Tháp dinh dưỡng, mẫu bảng/phiếu số, phiếu đánh giá.",
           "- HS: SGK, vở ghi, bút màu; thiết bị dùng chung theo hướng dẫn nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Trình bày, nhận xét được thực đơn của nhóm bằng lí lẽ rõ ràng.",
-          "- NLS 5.2.CB1a: HS lập thực đơn cân bằng đơn giản bằng bảng hoặc phiếu số theo hướng dẫn của GV.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8335,13 +8321,17 @@
             ]
           ]
         ],
-        "title": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nêu được dấu hiệu chính, nguyên nhân và cách phòng tránh bệnh thừa cân, béo phì.",
           "- Biết liên hệ thói quen ăn uống, vận động với nguy cơ thừa cân, béo phì.",
@@ -8350,16 +8340,14 @@
           "- Giao tiếp và hợp tác: Trao đổi nhóm, trình bày và lắng nghe ý kiến bạn.",
           "- Giải quyết vấn đề và sáng tạo: Phân tích nguyên nhân, đề xuất việc làm phù hợp.",
           "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực tham gia hoạt động."
+          "- Chăm chỉ: Tích cực tham gia hoạt động.",
+          "- Trách nhiệm: Có ý thức điều chỉnh ăn uống và vận động; không trêu chọc ngoại hình của bạn."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, Hình 1 - 2 SGK, Phiếu học tập, bảng theo dõi vận động.",
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8465,7 +8453,10 @@
             ]
           ]
         ],
-        "title": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8474,10 +8465,9 @@
     "sourceFile": "KHOA HỌC TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Nêu được dấu hiệu chính, nguyên nhân và cách phòng tránh suy dinh dưỡng thấp còi và thiếu máu thiếu sắt.",
           "- Biết lựa chọn thông tin đúng về dinh dưỡng từ học liệu số theo hướng dẫn.",
@@ -8496,11 +8486,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8606,13 +8591,17 @@
             ]
           ]
         ],
-        "title": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 3)",
           "1. Năng lực đặc thù:",
           "- Thực hiện được một số việc làm phòng tránh bệnh liên quan đến dinh dưỡng.",
           "- Xây dựng được kế hoạch ăn uống, vận động đơn giản và biết vận động người thân cùng thực hiện.",
@@ -8629,11 +8618,6 @@
           "- HS: SGK, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8735,7 +8719,12 @@
             ]
           ]
         ],
-        "title": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -8744,10 +8733,9 @@
     "sourceFile": "KHOA HỌC TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 26: THỰC PHẨM AN TOÀN - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 26: THỰC PHẨM AN TOÀN - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nhận biết được dấu hiệu của thực phẩm an toàn và không an toàn qua tranh, ảnh.",
           "- Nêu được tóm tắt thế nào là thực phẩm an toàn; biết liên hệ cách nuôi trồng, chế biến, bảo quản.",
@@ -8769,11 +8757,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -8891,13 +8874,17 @@
             ]
           ]
         ],
-        "title": "BÀI 26: THỰC PHẨM AN TOÀN - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 26: THỰC PHẨM AN TOÀN - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 26: THỰC PHẨM AN TOÀN - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Nêu được một số hậu quả của việc sử dụng thực phẩm không rõ nguồn gốc, không bảo đảm vệ sinh.",
           "- Vận dụng dấu hiệu an toàn để phân tích tình huống và đề xuất cách phòng tránh.",
@@ -8915,11 +8902,6 @@
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9025,7 +9007,12 @@
             ]
           ]
         ],
-        "title": "BÀI 26: THỰC PHẨM AN TOÀN - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9034,10 +9021,9 @@
     "sourceFile": "KHOA HỌC TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nêu được những việc nên và không nên làm để phòng tránh đuối nước.",
           "- Phán đoán được tình huống có nguy cơ dẫn đến đuối nước và đề xuất cách ứng xử an toàn.",
@@ -9050,18 +9036,15 @@
           "- Chăm chỉ: Tích cực quan sát, luyện tập tình huống.",
           "- Trách nhiệm: Bảo vệ an toàn cho bản thân, bạn bè; tuân thủ quy tắc khi ở gần nước.",
           "4. Tích hợp:",
-          "- AI 4.A2.1: HS nhận biết camera AI tại bể bơi có thể hỗ trợ phát hiện sớm người gặp nguy hiểm dưới nước để cảnh báo cứu nạn."
+          "- AI 4.A2.1: HS nhận biết camera AI tại bể bơi có thể hỗ trợ phát hiện sớm người gặp nguy hiểm dưới nước để cảnh báo cứu nạn.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1: Địa hình sông rạch tỉnh Trà Vinh - Trang 6 TLGDĐP Lớp 4 Trà Vinh): Nhận biết nguy cơ đuối nước cao do đặc điểm địa hình mạng lưới sông ngòi chằng chịt, kênh rạch sâu và vùng biển Ba Động tại tỉnh Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M16): Tuân thủ tuyệt đối các nguyên tắc an toàn khi tiếp xúc với nguồn nước sông ngòi, ao hồ, bãi biển; luôn mặc áo phao; không tắm sông một mình; bảo vệ các biển cảnh báo nước sâu nguy hiểm."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, Hình 1 - 2 SGK, video/hình camera AI bể bơi, thẻ tình huống.",
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9167,37 +9150,37 @@
             ]
           ]
         ],
-        "title": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Thực hành phán đoán tình huống, thuyết phục bạn tránh xa nguy cơ đuối nước.",
           "- Nêu và thực hiện được các nguyên tắc an toàn khi bơi hoặc tập bơi.",
           "- Tìm và chọn được thông tin/hình ảnh đáng tin cậy về an toàn khi bơi từ nguồn GV cung cấp.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động tìm hiểu, chọn thông tin và tự điều chỉnh hành vi.",
           "- Giao tiếp và hợp tác: Thảo luận, đóng vai, thuyết phục và phản hồi.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách ứng xử an toàn trong tình huống thực tế.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực thực hành.",
           "- Trách nhiệm: Không làm theo nội dung nguy hiểm trên mạng; tuân thủ hướng dẫn của người lớn.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- NLS 1.1.CB1a: HS tìm kiếm thông tin/hình ảnh về nguyên tắc an toàn khi bơi từ nguồn GV cung cấp.",
+          "- NLS 1.2.CB1a: HS biết chọn thông tin đáng tin cậy, không làm theo video thử thách hoặc hướng dẫn nguy hiểm trên mạng."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, Hình 3 - 5 SGK, bộ nguồn số an toàn do GV cung cấp, Phiếu cam kết.",
           "- HS: SGK, vở ghi, bút chì."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- NLS 1.1.CB1a: HS tìm kiếm thông tin/hình ảnh về nguyên tắc an toàn khi bơi từ nguồn GV cung cấp.",
-          "- NLS 1.2.CB1a: HS biết chọn thông tin đáng tin cậy, không làm theo video thử thách hoặc hướng dẫn nguy hiểm trên mạng.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9284,6 +9267,14 @@
               "- HS ghi nhớ."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & An toàn sông nước (Chủ đề 1 GDĐP 4 & Mã Mizuiku M16): “Ở quê hương Trà Vinh chúng ta có nhiều sông ngòi như sông Cổ Chiên, sông Hậu, ao hồ và bãi biển Ba Động. Để phòng tránh tai nạn đuối nước và giữ gìn an toàn cho bản thân, các em phải tuân thủ những quy tắc nào?”",
+              "- HS trả lời: Tuyệt đối không tự ý ra sông, kênh rạch, ao hồ bơi lội khi không có người lớn đi cùng; khi đi đò phà hoặc ra tắm biển Ba Động phải luôn mặc áo phao cứu sinh đúng cách; không xô đẩy bạn xuống nước và bảo vệ các biển báo vùng nước sâu ạ."
+            ],
+            [
+              "- GV kết luận: Nắm vững kĩ năng phòng tránh đuối nước là bảo vệ tính mạng cho chính mình và bạn bè trên vùng quê sông nước Trà Vinh thân yêu.",
+              "- HS ghi nhớ và đồng lòng thực hiện cam kết an toàn sông nước."
+            ],
+            [
               "3. LUYỆN TẬP (7 PHÚT):\n- Mục tiêu:\n- Củng cố quy tắc và cam kết hành động.\n*Cách tiến hành:"
             ],
             [
@@ -9311,7 +9302,12 @@
             ]
           ]
         ],
-        "title": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9320,21 +9316,22 @@
     "sourceFile": "KHOA HỌC TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Tóm tắt được các nội dung chính của chủ đề dưới dạng sơ đồ hoặc bảng hệ thống.",
           "- Vận dụng kiến thức để nhận xét việc làm phòng bệnh, sử dụng thực phẩm an toàn và phòng tránh đuối nước.",
           "- Biết tự đánh giá một số thói quen chăm sóc sức khỏe của bản thân.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động đọc sơ đồ, tự kiểm tra kiến thức và điều chỉnh thói quen.",
           "- Giao tiếp và hợp tác: Trao đổi, đặt câu hỏi, phản hồi lịch sự khi làm việc nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Phân tích tình huống, lựa chọn cách ứng xử có lợi cho sức khỏe.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực tham gia ôn tập và hoàn thành nhiệm vụ.",
           "- Trách nhiệm: Có ý thức bảo vệ sức khỏe bản thân, tôn trọng sức khỏe và sự riêng tư của người khác.",
           "4. Tích hợp:",
+          "- NLS 5.2.CB1a: HS sử dụng bảng/phiếu số đơn giản để hệ thống kiến thức và lập bảng nhắc việc chăm sóc sức khỏe cá nhân.",
           "- AI 4.B2.1: HS biết không cung cấp bí mật đời tư, thông tin sức khỏe cá nhân cho ứng dụng số; AI chỉ hỗ trợ, con người chịu trách nhiệm rèn luyện sức khỏe."
         ],
         "dodung": [
@@ -9342,12 +9339,6 @@
           "- HS: SGK, vở ghi, bút màu, thẻ A/B/C/D."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- NLS 5.2.CB1a: HS sử dụng bảng/phiếu số đơn giản để hệ thống kiến thức và lập bảng nhắc việc chăm sóc sức khỏe cá nhân.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9462,18 +9453,23 @@
             ]
           ]
         ],
-        "title": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Tự đánh giá được một số việc làm phòng bệnh và chăm sóc sức khỏe.",
           "- Đưa ra lời khuyên phù hợp trong các tình huống ăn uống, thực phẩm và phòng tránh đuối nước.",
           "- Xây dựng được cam kết thay đổi một thói quen chưa phù hợp.",
           "2. Năng lực chung:",
+          "- Tự chủ và tự học: Trung thực tự đánh giá, chủ động điều chỉnh hành vi.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, nhận xét và hỗ trợ bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn giải pháp khả thi trong tình huống thực tế.",
           "3. Phẩm chất:",
@@ -9487,9 +9483,6 @@
           "- HS: SGK, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9593,7 +9586,10 @@
             ]
           ]
         ],
-        "title": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9602,10 +9598,9 @@
     "sourceFile": "KHOA HỌC TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Nêu được mối liên hệ về thức ăn giữa các sinh vật thông qua chuỗi thức ăn.",
           "- Đọc và lập được sơ đồ đơn giản thể hiện sinh vật này là thức ăn của sinh vật khác.",
@@ -9626,11 +9621,6 @@
           "- HS: SGK, vở ghi, kéo, hồ dán, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9745,13 +9735,17 @@
             ]
           ]
         ],
-        "title": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Tìm và hoàn thành được các mắt xích còn thiếu trong chuỗi thức ăn.",
           "- Mô tả được nhiều chuỗi thức ăn trong một môi trường.",
@@ -9772,11 +9766,6 @@
           "- HS: SGK, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -9898,7 +9887,12 @@
             ]
           ]
         ],
-        "title": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -9907,13 +9901,13 @@
     "sourceFile": "KHOA HỌC TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 3)",
           "1. Năng lực đặc thù:",
           "- Mô tả được mối liên hệ thức ăn giữa các sinh vật trong một khu rừng.",
           "- Lập được danh sách sinh vật quanh nơi ở/trường học và xây dựng chuỗi thức ăn.",
+          "- Trình bày, kiểm tra và điều chỉnh sơ đồ chuỗi thức ăn.",
           "2. Năng lực chung:",
           "- Tự chủ và tự học: Chủ động quan sát, lập danh sách và hoàn thiện sản phẩm.",
           "- Giao tiếp và hợp tác: Làm việc nhóm, phân công và phản hồi.",
@@ -9921,19 +9915,16 @@
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực hoàn thiện sơ đồ.",
           "- Trách nhiệm: Quan sát sinh vật an toàn, không làm hại sinh vật.",
-          "4. Tích hợp:"
+          "4. Tích hợp:",
+          "- NLS 5.2.CB1a: HS xác định nhu cầu của cá nhân/nhóm và lựa chọn công cụ số đơn giản để lập danh sách, trình bày chuỗi thức ăn phục vụ tự học.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3 - Trang 8, 17 TLGDĐP Lớp 4 Trà Vinh): Nhận biết các chuỗi thức ăn đặc trưng trong hệ sinh thái rừng ngập mặn Duyên Hải và hệ sinh thái cồn nổi trên sông Cổ Chiên (Cồn Long Trị, Cồn Chim Trà Vinh).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M2, M18): Hiểu rằng nguồn nước sạch là môi trường sống quyết định sự sống còn của sinh vật mở đầu và các mắt xích trong chuỗi thức ăn thủy sinh; bảo vệ nguồn nước để duy trì cân bằng tự nhiên."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, hình 8 SGK, phiếu quan sát, thẻ sinh vật, mẫu sơ đồ số.",
           "- HS: SGK, vở ghi, bút màu; ảnh sinh vật quanh nhà/trường nếu có."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- NLS 5.2.CB1a: HS xác định nhu cầu của cá nhân/nhóm và lựa chọn công cụ số đơn giản để lập danh sách, trình bày chuỗi thức ăn phục vụ tự học.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10026,16 +10017,28 @@
             [
               "- GV kết luận: Quan sát, yêu quý và bảo vệ sinh vật là cách giữ cân bằng chuỗi thức ăn.",
               "- HS đọc thông điệp và cam kết thực hiện."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước trong chuỗi thức ăn (Chủ đề 1, 3 GDĐP 4 & Mã Mizuiku M2, M18): “Ở vùng rừng ngập mặn Duyên Hải và các cù lao cồn nổi Trà Vinh, nếu nguồn nước sông và biển bị ô nhiễm hóa chất, rác thải thì chuỗi thức ăn của các loài tôm, cua, cá, chim biển sẽ bị ảnh hưởng như thế nào?”",
+              "- HS trả lời: Nguồn nước bị ô nhiễm sẽ làm các loài rong tảo, vi sinh vật chết hàng loạt, dẫn đến tôm cá không có thức ăn và bị nhiễm độc, chuỗi thức ăn bị phá hủy nghiêm trọng ạ."
+            ],
+            [
+              "- GV kết luận: Nguồn nước trong lành là mạch sống nuôi dưỡng toàn bộ chuỗi thức ăn tự nhiên. Giữ sạch dòng nước quê hương Trà Vinh chính là bảo vệ đa dạng sinh học và sự sống muôn loài.",
+              "- HS chăm chú lắng nghe, có ý thức sâu sắc về việc bảo vệ nguồn nước quê hương."
             ]
           ]
         ],
-        "title": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Trình bày được thực vật cung cấp thức ăn trực tiếp hoặc gián tiếp cho con người và động vật.",
           "- Nêu được các bộ phận của thực vật dùng làm thức ăn.",
@@ -10055,11 +10058,6 @@
           "- HS: SGK, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10162,7 +10160,12 @@
             ]
           ]
         ],
-        "title": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10171,10 +10174,9 @@
     "sourceFile": "KHOA HỌC TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Giải thích được vì sao thực vật thường đứng đầu chuỗi thức ăn.",
           "- Mô tả và vẽ được một số chuỗi thức ăn có thực vật đứng đầu.",
@@ -10195,11 +10197,6 @@
           "- HS: SGK, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10310,13 +10307,17 @@
             ]
           ]
         ],
-        "title": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 3)",
           "1. Năng lực đặc thù:",
           "- Phân tích được tác động khi số lượng một mắt xích thay đổi.",
           "- Nêu được việc làm của con người có lợi hoặc có hại cho cân bằng chuỗi thức ăn.",
@@ -10336,11 +10337,6 @@
           "- HS: SGK, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10462,7 +10458,12 @@
             ]
           ]
         ],
-        "title": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10471,48 +10472,30 @@
     "sourceFile": "KHOA HỌC TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 31: ÔN TẬP CHỦ ĐỀ SINH VẬT VÀ MÔI TRƯỜNG - SỐ TIẾT: 1",
+        "lessonTitle": "BÀI 31: ÔN TẬP CHỦ ĐỀ SINH VẬT VÀ MÔI TRƯỜNG - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Củng cố mối liên hệ thức ăn giữa các sinh vật, vai trò của thực vật và cân bằng chuỗi thức ăn.",
           "- Vận dụng kiến thức để đề xuất sinh vật hạn chế muỗi trong góc vườn.",
           "- Phân biệt được việc nên và không nên làm để bảo vệ sinh vật và môi trường.",
           "2. Năng lực chung:",
-          "- Củng cố kiến thức về nấm, dinh dưỡng - sức khỏe, sinh vật và môi trường.",
-          "- Vận dụng kiến thức để trả lời câu hỏi và xử lí tình huống.",
-          "- Biết tự xác định nội dung còn yếu để tiếp tục ôn tập.",
+          "- Tự chủ và tự học: Chủ động hệ thống kiến thức, đọc tranh và tự điều chỉnh câu trả lời.",
           "- Giao tiếp và hợp tác: Thực hiện mảnh ghép, khăn phủ bàn và trình bày.",
           "- Giải quyết vấn đề và sáng tạo: Đề xuất giải pháp sinh học, ý tưởng công nghệ phù hợp.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực tham gia ôn tập.",
           "- Trách nhiệm: Có hành vi thân thiện với cây xanh, động vật.",
           "4. Tích hợp:",
-          "- Giao tiếp và hợp tác: Làm việc theo trạm, chia sẻ và hỗ trợ bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Phân tích câu hỏi nhiều mức, lựa chọn cách trình bày phù hợp.",
-          "- Chăm chỉ: Tích cực ôn tập.",
-          "- Trung thực: Làm bài và tự đánh giá đúng kết quả.",
-          "- AI 4.A3.1: HS hiểu AI tạo câu hỏi hoặc gợi ý có thể sai; con người phải dùng an toàn, kiểm tra và chịu trách nhiệm với đáp án."
+          "- NLS 1.2.CB1a: HS quan sát tranh/video, nhận biết thông tin chính và phân biệt thông tin phù hợp với nội dung bài học.",
+          "- AI 4.D1.1: HS thiết kế ý tưởng hệ thống AI bảo vệ hệ sinh thái địa phương.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS không bẻ cành, hái hoa, phá tổ chim; biết giữ gìn cảnh quan và yêu thiên nhiên."
         ],
         "dodung": [
           "- GV: máy tính, ti vi, sơ đồ SGK trang 119, hình góc vườn trang 120, phiếu mảnh ghép và khăn phủ bàn.",
-          "- HS: SGK, vở ghi, bút màu.",
-          "- GV: máy tính, ti vi, thẻ câu hỏi ba mức, phiếu trạm, Quizizz/Forms hoặc phiếu giấy đã kiểm duyệt.",
-          "- HS: SGK, VBT, vở ghi, bút."
+          "- HS: SGK, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- AI 4.D1.1: HS thiết kế ý tưởng hệ thống AI bảo vệ hệ sinh thái địa phương.",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: HS không bẻ cành, hái hoa, phá tổ chim; biết giữ gìn cảnh quan và yêu thiên nhiên.",
-          "............................................................................................................................................................",
-          "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3",
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
-          "- NLS 5.2.CB1a: HS dùng phiếu/công cụ số đơn giản để hệ thống và ghi kết quả ôn tập.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10637,7 +10620,38 @@
               "- GV nhận xét, kết thúc bài.",
               "- HS lắng nghe."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Củng cố kiến thức về nấm, dinh dưỡng - sức khỏe, sinh vật và môi trường.",
+          "- Vận dụng kiến thức để trả lời câu hỏi và xử lí tình huống.",
+          "- Biết tự xác định nội dung còn yếu để tiếp tục ôn tập.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Tự kiểm tra, ghi kết quả và điều chỉnh kiến thức.",
+          "- Giao tiếp và hợp tác: Làm việc theo trạm, chia sẻ và hỗ trợ bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Phân tích câu hỏi nhiều mức, lựa chọn cách trình bày phù hợp.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực ôn tập.",
+          "- Trung thực: Làm bài và tự đánh giá đúng kết quả.",
+          "4. Tích hợp:",
+          "- NLS 5.2.CB1a: HS dùng phiếu/công cụ số đơn giản để hệ thống và ghi kết quả ôn tập.",
+          "- AI 4.A3.1: HS hiểu AI tạo câu hỏi hoặc gợi ý có thể sai; con người phải dùng an toàn, kiểm tra và chịu trách nhiệm với đáp án."
+        ],
+        "dodung": [
+          "- GV: máy tính, ti vi, thẻ câu hỏi ba mức, phiếu trạm, Quizizz/Forms hoặc phiếu giấy đã kiểm duyệt.",
+          "- HS: SGK, VBT, vở ghi, bút."
+        ],
+        "activities": [],
+        "tables": [
           [
             [
               "HOẠT ĐỘNG CỦA GIÁO VIÊN",
@@ -10719,7 +10733,12 @@
             ]
           ]
         ],
-        "title": "BÀI 31: ÔN TẬP CHỦ ĐỀ SINH VẬT VÀ MÔI TRƯỜNG - SỐ TIẾT: 1"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10728,10 +10747,9 @@
     "sourceFile": "KHOA HỌC TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Củng cố và kết nối kiến thức ở ba chủ đề học kì II.",
           "- Giải thích được lựa chọn trong câu hỏi và tình huống thực tế.",
@@ -10751,11 +10769,6 @@
           "- HS: SGK, VBT, vở ghi, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10863,13 +10876,17 @@
             ]
           ]
         ],
-        "title": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 3)",
           "1. Năng lực đặc thù:",
           "- Luyện tập câu hỏi trắc nghiệm, nối, điền và tự luận ngắn.",
           "- Biết đọc kĩ yêu cầu, trình bày đáp án và tự kiểm tra.",
@@ -10887,11 +10904,6 @@
           "- HS: Vở, bút, SGK để đối chiếu sau khi làm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -10964,7 +10976,12 @@
             ]
           ]
         ],
-        "title": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -10973,10 +10990,9 @@
     "sourceFile": "KHOA HỌC TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI: TỔNG KẾT MÔN HỌC - SỐ TIẾT: 1",
+        "lessonTitle": "BÀI: TỔNG KẾT MÔN HỌC - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 1)",
           "1. Năng lực đặc thù:",
           "- Hệ thống và chia sẻ được một sản phẩm/kiến thức khoa học yêu thích trong năm.",
           "- Tự đánh giá được tiến bộ, điểm mạnh và mục tiêu học tập tiếp theo.",
@@ -10996,11 +11012,6 @@
           "- HS: Một sản phẩm khoa học yêu thích, vở, bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -11081,13 +11092,17 @@
             ]
           ]
         ],
-        "title": "BÀI: TỔNG KẾT MÔN HỌC - SỐ TIẾT: 1"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       },
       {
-        "lessonTitle": "BÀI: KIỂM TRA CUỐI HỌC KÌ II - SỐ TIẾT: 1",
+        "lessonTitle": "BÀI: KIỂM TRA CUỐI HỌC KÌ II - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Ngày thực hiện: .................................................... (TIẾT 2)",
           "1. Năng lực đặc thù:",
           "- Đánh giá mức độ đạt yêu cầu về nấm, dinh dưỡng - sức khỏe, thực phẩm an toàn, phòng tránh đuối nước và chuỗi thức ăn.",
           "- Biết đọc kĩ đề, trình bày bài sạch sẽ, hoàn thành trong thời gian quy định.",
@@ -11096,44 +11111,13 @@
           "- Giải quyết vấn đề: Vận dụng kiến thức để trả lời câu hỏi.",
           "3. Phẩm chất:",
           "- Trung thực: Không trao đổi, không sử dụng tài liệu khi chưa được phép.",
-          "- Trách nhiệm: Kiểm tra bài trước khi nộp.",
-          "Câu 1. Nấm nào sau đây có thể gây hỏng thực phẩm?",
-          "A. Nấm rơm.    B. Nấm kim châm.    C. Nấm mốc.    D. Nấm men.",
-          "Câu 2. Khi nhìn thấy nấm lạ mọc trong rừng, em nên làm gì?",
-          "A. Hái về ăn.    B. Không hái, không ăn và báo người lớn.    C. Nếm thử một ít.    D. Mang về lớp.",
-          "Câu 3. Nguyên nhân thường dẫn đến thừa cân, béo phì là gì?",
-          "A. Ăn nhiều rau.    B. Ăn quá nhiều chất bột đường, chất béo và ít vận động.    C. Uống đủ nước.    D. Ngủ đúng giờ.",
-          "Câu 4. Thực phẩm an toàn có đặc điểm nào?",
-          "A. Chỉ cần rửa sạch.    B. Mua ở chỗ quen là đủ.    C. Màu thật đẹp.    D. Tươi, rõ nguồn gốc, còn hạn sử dụng, chế biến hợp vệ sinh.",
-          "Câu 5. Dấu hiệu chính của suy dinh dưỡng thấp còi là gì?",
-          "A. Chiều cao và cân nặng thấp hơn chuẩn theo độ tuổi.    B. Cân nặng vượt chuẩn.    C. Ho, sốt.    D. Đau răng.",
-          "Câu 6. Điền sinh vật phù hợp vào chuỗi thức ăn: Lúa → .................... → .................... → Đại bàng.",
-          "Câu 7. Nối nhóm chất với vai trò phù hợp:"
+          "- Trách nhiệm: Kiểm tra bài trước khi nộp."
         ],
         "dodung": [
           "- GV: đề kiểm tra, đáp án - hướng dẫn chấm, đồng hồ, danh sách lớp.",
-          "- HS: Bút mực, bút chì, thước; không sử dụng tài liệu.",
-          "Câu 8. Vì sao cần ăn phối hợp nhiều loại thức ăn?",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "Câu 9. Nêu hai việc nên làm và hai việc không nên làm để phòng tránh đuối nước.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "Câu 10. Trong chuỗi cỏ → châu chấu → ếch → rắn, nếu số lượng ếch giảm mạnh thì châu chấu và rắn có thể thay đổi thế nào? Giải thích.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM"
+          "- HS: Bút mực, bút chì, thước; không sử dụng tài liệu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "ĐỀ KIỂM TRA CUỐI HỌC KÌ II - MÔN KHOA HỌC LỚP 4",
-          "NĂM HỌC 2025 - 2026 | Thời gian: 40 phút"
-        ],
         "tables": [
           [
             [
@@ -11176,7 +11160,7 @@
           ],
           [
             [
-              "TRƯỜNG: ........................................Lớp: 4......Họ và tên: ........................................",
+              "TRƯỜNG: ........................................\nLớp: 4......\nHọ và tên: ........................................",
               "ĐIỂM",
               "NHẬN XÉT CỦA GIÁO VIÊN"
             ]
@@ -11261,7 +11245,40 @@
             ]
           ]
         ],
-        "title": "BÀI: KIỂM TRA CUỐI HỌC KÌ II - SỐ TIẾT: 1"
+        "dieuchinh": [
+          "(nếu có):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "ĐỀ KIỂM TRA CUỐI HỌC KÌ II - MÔN KHOA HỌC LỚP 4",
+          "NĂM HỌC 2025 - 2026 | Thời gian: 40 phút",
+          "I. TRẮC NGHIỆM VÀ NỐI (6 ĐIỂM)",
+          "Câu 1. Nấm nào sau đây có thể gây hỏng thực phẩm?",
+          "A. Nấm rơm.    B. Nấm kim châm.    C. Nấm mốc.    D. Nấm men.",
+          "Câu 2. Khi nhìn thấy nấm lạ mọc trong rừng, em nên làm gì?",
+          "A. Hái về ăn.    B. Không hái, không ăn và báo người lớn.    C. Nếm thử một ít.    D. Mang về lớp.",
+          "Câu 3. Nguyên nhân thường dẫn đến thừa cân, béo phì là gì?",
+          "A. Ăn nhiều rau.    B. Ăn quá nhiều chất bột đường, chất béo và ít vận động.    C. Uống đủ nước.    D. Ngủ đúng giờ.",
+          "Câu 4. Thực phẩm an toàn có đặc điểm nào?",
+          "A. Chỉ cần rửa sạch.    B. Mua ở chỗ quen là đủ.    C. Màu thật đẹp.    D. Tươi, rõ nguồn gốc, còn hạn sử dụng, chế biến hợp vệ sinh.",
+          "Câu 5. Dấu hiệu chính của suy dinh dưỡng thấp còi là gì?",
+          "A. Chiều cao và cân nặng thấp hơn chuẩn theo độ tuổi.    B. Cân nặng vượt chuẩn.    C. Ho, sốt.    D. Đau răng.",
+          "Câu 6. Điền sinh vật phù hợp vào chuỗi thức ăn: Lúa → .................... → .................... → Đại bàng.",
+          "Câu 7. Nối nhóm chất với vai trò phù hợp:",
+          "II. TỰ LUẬN (4 ĐIỂM)",
+          "Câu 8. Vì sao cần ăn phối hợp nhiều loại thức ăn?",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "Câu 9. Nêu hai việc nên làm và hai việc không nên làm để phòng tránh đuối nước.",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "Câu 10. Trong chuỗi cỏ → châu chấu → ếch → rắn, nếu số lượng ếch giảm mạnh thì châu chấu và rắn có thể thay đổi thế nào? Giải thích.",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "ĐÁP ÁN VÀ HƯỚNG DẪN CHẤM"
+        ]
       }
     ]
   }

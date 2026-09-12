@@ -73,21 +73,39 @@ var KHBD_DATA = {
 
     var tableHtml = '';
     if (lesson.tables && lesson.tables.length > 0) {
-      var rows = lesson.tables[0];
-      tableHtml = '<table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem; font-size: 11pt;" border="1" bordercolor="#94a3b8"><thead><tr style="background: #f1f5f9; font-weight: 800; text-align: center;"><th style="padding: 0.45rem; width: 50%;">Hoạt động của giáo viên</th><th style="padding: 0.45rem; width: 50%;">Hoạt động của học sinh</th></tr></thead><tbody>';
-      rows.forEach(function(r) {
-        if (r.length >= 2) {
-          var isHeaderRow = r[0].indexOf('Khởi động') !== -1 || r[0].indexOf('Khám phá') !== -1 || r[0].indexOf('Luyện tập') !== -1 || r[0].indexOf('Vận dụng') !== -1;
-          var gvText = r[0].replace(/\n/g, '<br/>');
-          var hsText = r[1].replace(/\n/g, '<br/>');
-          var isTichHopRow = gvText.indexOf('[Tích hợp') !== -1 || gvText.indexOf('[GDĐP') !== -1 || hsText.indexOf('[Tích hợp') !== -1;
-          var bgStyle = isTichHopRow && highlightIntegration ? 'background: #faf5ff; border-left: 3px solid #a855f7;' : (isHeaderRow ? 'background: #f8fafc; font-weight: 700;' : '');
-          tableHtml += '<tr style="' + bgStyle + '"><td style="padding: 0.4rem; vertical-align: top;">' + gvText + '</td><td style="padding: 0.4rem; vertical-align: top;">' + hsText + '</td></tr>';
-        } else if (r.length === 1) {
-          tableHtml += '<tr style="background: #f8fafc; font-weight: 700;"><td colspan="2" style="padding: 0.4rem;">' + r[0] + '</td></tr>';
-        }
+      lesson.tables.forEach(function(rows) {
+        if (!rows || rows.length === 0) return;
+        tableHtml += '<table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem; margin-bottom: 0.8rem; font-size: 11pt;" border="1" bordercolor="#94a3b8"><thead><tr style="background: #f1f5f9; font-weight: 800; text-align: center;"><th style="padding: 0.45rem; width: 50%;">Hoạt động của giáo viên</th><th style="padding: 0.45rem; width: 50%;">Hoạt động của học sinh</th></tr></thead><tbody>';
+        rows.forEach(function(r) {
+          if (r.length >= 2) {
+            var isHeaderRow = r[0].indexOf('Khởi động') !== -1 || r[0].indexOf('Khám phá') !== -1 || r[0].indexOf('Luyện tập') !== -1 || r[0].indexOf('Vận dụng') !== -1;
+            var gvText = r[0].replace(/\n/g, '<br/>');
+            var hsText = r[1].replace(/\n/g, '<br/>');
+            var isTichHopRow = gvText.indexOf('[Tích hợp') !== -1 || gvText.indexOf('[GDĐP') !== -1 || hsText.indexOf('[Tích hợp') !== -1;
+            var bgStyle = isTichHopRow && highlightIntegration ? 'background: #faf5ff; border-left: 3px solid #a855f7;' : (isHeaderRow ? 'background: #f8fafc; font-weight: 700;' : '');
+            tableHtml += '<tr style="' + bgStyle + '"><td style="padding: 0.4rem; vertical-align: top;">' + gvText + '</td><td style="padding: 0.4rem; vertical-align: top;">' + hsText + '</td></tr>';
+          } else if (r.length === 1) {
+            tableHtml += '<tr style="background: #f8fafc; font-weight: 700;"><td colspan="2" style="padding: 0.4rem;">' + r[0].replace(/\n/g, '<br/>') + '</td></tr>';
+          }
+        });
+        tableHtml += '</tbody></table>';
       });
-      tableHtml += '</tbody></table>';
+    }
+
+    var actHtml = '';
+    if (lesson.activities && lesson.activities.length > 0) {
+      actHtml = lesson.activities.map(function(act) {
+        return '<p style="margin-bottom: 0.35rem; font-weight: 600; color: #1e3a8a;">' + act + '</p>';
+      }).join('');
+    }
+
+    var dieuchinhHtml = '';
+    if (lesson.dieuchinh && lesson.dieuchinh.length > 0) {
+      dieuchinhHtml = lesson.dieuchinh.map(function(dc) {
+        return '<p style="margin: 0.15rem 0; color: #475569;">' + dc + '</p>';
+      }).join('');
+    } else {
+      dieuchinhHtml = '<p style="font-style: italic; color: #64748b; margin: 0;">....................................................................................................................................................</p>';
     }
 
     return '<div class="lesson-plan-preview" style="font-family: Times New Roman, serif; font-size: 12pt; line-height: 1.45; color: #000; background: #fff; padding: 1.25rem; border: 1px solid #cbd5e1; border-radius: 4px;">' +
@@ -97,8 +115,8 @@ var KHBD_DATA = {
       '</div>' +
       '<div style="margin-bottom: 0.85rem;"><h4 style="font-size: 12.5pt; font-weight: 800; margin: 0 0 0.35rem 0; color: #991b1b;">I. YÊU CẦU CẦN ĐẠT</h4>' + (yccdHtml || '<p style="font-style: italic; color: #64748b;">(Đang cập nhật mục tiêu YCCĐ)</p>') + '</div>' +
       '<div style="margin-bottom: 0.85rem;"><h4 style="font-size: 12.5pt; font-weight: 800; margin: 0 0 0.35rem 0; color: #991b1b;">II. ĐỒ DÙNG DẠY HỌC</h4>' + (dodungHtml || '<p style="font-style: italic; color: #64748b;">(Đang cập nhật đồ dùng dạy học)</p>') + '</div>' +
-      '<div style="margin-bottom: 0.85rem;"><h4 style="font-size: 12.5pt; font-weight: 800; margin: 0 0 0.35rem 0; color: #991b1b;">III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU</h4>' + (tableHtml || '<p style="font-style: italic; color: #64748b;">(Đang cập nhật tiến trình hoạt động dạy học)</p>') + '</div>' +
-      '<div style="margin-bottom: 0.5rem;"><h4 style="font-size: 12.5pt; font-weight: 800; margin: 0 0 0.35rem 0; color: #991b1b;">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)</h4><p style="font-style: italic; color: #64748b; margin: 0;">....................................................................................................................................................</p></div>' +
+      '<div style="margin-bottom: 0.85rem;"><h4 style="font-size: 12.5pt; font-weight: 800; margin: 0 0 0.35rem 0; color: #991b1b;">III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU</h4>' + actHtml + (tableHtml || '<p style="font-style: italic; color: #64748b;">(Đang cập nhật tiến trình hoạt động dạy học)</p>') + '</div>' +
+      '<div style="margin-bottom: 0.5rem;"><h4 style="font-size: 12.5pt; font-weight: 800; margin: 0 0 0.35rem 0; color: #991b1b;">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ)</h4>' + dieuchinhHtml + '</div>' +
       '</div>';
   }
 };

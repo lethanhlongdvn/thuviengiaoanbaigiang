@@ -113,8 +113,7 @@
               "- HS ghi nhớ nhiệm vụ, chuẩn bị chia sẻ ở tiết sau."
             ]
           ]
-        ],
-        "title": "TIẾT 1"
+        ]
       }
     ]
   },
@@ -218,8 +217,7 @@
               "- HS ghi nhiệm vụ: Em sẽ quan sát cây ở nhà/trường, ghi tên cây, đặc điểm và lợi ích như làm đẹp, làm mát hoặc góp phần làm sạch không khí."
             ]
           ]
-        ],
-        "title": "TIẾT 2"
+        ]
       }
     ]
   },
@@ -331,8 +329,7 @@
               "- HS lắng nghe, ghi nhớ và thực hiện ở nhà, ở lớp."
             ]
           ]
-        ],
-        "title": "TIẾT 3"
+        ]
       }
     ]
   },
@@ -441,8 +438,7 @@
               "- HS lắng nghe và chuẩn bị bài."
             ]
           ]
-        ],
-        "title": "TIẾT 1"
+        ]
       }
     ]
   },
@@ -547,8 +543,7 @@
               "- HS lắng nghe, chuẩn bị bài."
             ]
           ]
-        ],
-        "title": "TIẾT 2"
+        ]
       }
     ]
   },
@@ -661,8 +656,7 @@
               "- HS lắng nghe, cam kết thực hiện việc làm bảo vệ cây cảnh."
             ]
           ]
-        ],
-        "title": "TIẾT 3"
+        ]
       }
     ]
   },
@@ -777,8 +771,7 @@
               "- HS lắng nghe, chuẩn bị bài và nhắc lại tên một vài dụng cụ: bình tưới, xẻng nhỏ, găng tay."
             ]
           ]
-        ],
-        "title": "Bài 3: VẬT LIỆU VÀ DỤNG CỤ TRỒNG HOA, CÂY CẢNH TRONG CHẬU (TIẾT 1)"
+        ]
       }
     ]
   },
@@ -889,8 +882,7 @@
               "- HS lắng nghe và chuẩn bị bài."
             ]
           ]
-        ],
-        "title": "Bài 3: VẬT LIỆU VÀ DỤNG CỤ TRỒNG HOA, CÂY CẢNH TRONG CHẬU (TIẾT 2)"
+        ]
       }
     ]
   },
@@ -1001,8 +993,7 @@
               "- HS nhận nhiệm vụ và ghi vào vở: quan sát, viết tên chậu/giá thể/dụng cụ và chuẩn bị chia sẻ ở tiết sau."
             ]
           ]
-        ],
-        "title": "Bài 3: VẬT LIỆU VÀ DỤNG CỤ TRỒNG HOA, CÂY CẢNH TRONG CHẬU (TIẾT 3)"
+        ]
       }
     ]
   },
@@ -1121,8 +1112,7 @@
               "- HS lắng nghe, ghi nhớ quy định chuẩn bị an toàn cho tiết thực hành."
             ]
           ]
-        ],
-        "title": "Bài 4: GIEO HẠT HOA, CÂY CẢNH TRONG CHẬU (TIẾT 1)"
+        ]
       }
     ]
   },
@@ -1253,8 +1243,7 @@
               "- HS nhận nhiệm vụ, thống nhất trong nhóm bạn phụ trách quan sát, bạn phụ trách ghi chép."
             ]
           ]
-        ],
-        "title": "Bài 4: GIEO HẠT HOA, CÂY CẢNH TRONG CHẬU (TIẾT 2)"
+        ]
       }
     ]
   },
@@ -1372,8 +1361,7 @@
               "- HS lắng nghe, ghi nhớ bài học và hoàn thiện phiếu theo dõi của nhóm."
             ]
           ]
-        ],
-        "title": "Bài 4: GIEO HẠT HOA, CÂY CẢNH TRONG CHẬU (TIẾT 3)"
+        ]
       }
     ]
   },
@@ -1500,8 +1488,7 @@
               "- HS lắng nghe, phân công trong nhóm: bạn chuẩn bị chậu, bạn chuẩn bị cây giống, bạn chuẩn bị giá thể, bạn chuẩn bị bình tưới hoặc găng tay."
             ]
           ]
-        ],
-        "title": "Bài 5: TRỒNG HOA, CÂY CẢNH TRONG CHẬU (TIẾT 1)"
+        ]
       }
     ]
   },
@@ -1515,7 +1502,14 @@
         "yccd": [
           "1. Năng lực đặc thù",
           "- Sử dụng được một số dụng cụ cần thiết để trồng hoa, cây cảnh trong chậu.",
-          "- Thực hiện được việc trồng hoa, cây cảnh trong chậu theo đúng quy trình, đảm bảo an toàn.",
+          "- Thực hiện được việc trồng hoa, cây cảnh trong chậu theo đúng quy trình, đảm bảo an toàn."
+        ],
+        "dodung": [
+          "- GV: SGK, kế hoạch bài dạy, máy tính/tivi, video/hình ảnh hệ thống tưới cây tự động, dụng cụ thực hành mẫu.",
+          "- HS: Cây giống khỏe mạnh, chậu, giá thể, bình tưới cây, xẻng nhỏ, găng tay làm vườn, khăn lau, túi đựng rác."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "2. Năng lực chung",
           "- Năng lực tự chủ và tự học: Chủ động chuẩn bị đồ dùng học tập, lắng nghe nhiệm vụ và tự kiểm tra kết quả thực hiện.",
           "- Năng lực giao tiếp và hợp tác: Biết trao đổi, phân công, hỗ trợ bạn trong hoạt động nhóm; trình bày ý kiến rõ ràng, lịch sự.",
@@ -1525,14 +1519,7 @@
           "- Trách nhiệm: Có ý thức sử dụng dụng cụ an toàn, tiết kiệm vật liệu, nước tưới; giữ vệ sinh nơi thực hành.",
           "- Nhân ái: Biết yêu thiên nhiên, trân trọng công sức lao động của người trồng và chăm sóc cây.",
           "4. Tích hợp",
-          "Tích hợp AI (4.A2.1): HS tìm hiểu hệ thống tưới cây tự động dựa trên cảm biến/AI; biết AI có thể gợi ý thời điểm tưới nhưng con người cần quan sát cây, đất và thời tiết để quyết định phù hợp."
-        ],
-        "dodung": [
-          "- GV: SGK, kế hoạch bài dạy, máy tính/tivi, video/hình ảnh hệ thống tưới cây tự động, dụng cụ thực hành mẫu.",
-          "- HS: Cây giống khỏe mạnh, chậu, giá thể, bình tưới cây, xẻng nhỏ, găng tay làm vườn, khăn lau, túi đựng rác."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "Tích hợp AI (4.A2.1): HS tìm hiểu hệ thống tưới cây tự động dựa trên cảm biến/AI; biết AI có thể gợi ý thời điểm tưới nhưng con người cần quan sát cây, đất và thời tiết để quyết định phù hợp.",
           "- ....................................................................................................................",
           "- ...................................................................................................................."
         ],
@@ -1635,8 +1622,7 @@
               "- HS ghi nhiệm vụ: Theo dõi chậu cây của nhóm, quan sát lá, thân, giá thể và chuẩn bị nhận xét sản phẩm ở tiết 3."
             ]
           ]
-        ],
-        "title": "Bài 5: TRỒNG HOA, CÂY CẢNH TRONG CHẬU (TIẾT 2)"
+        ]
       }
     ]
   },
@@ -1767,8 +1753,7 @@
               "- HS lắng nghe, nhắc lại bài học: Em biết quy trình trồng cây, biết đánh giá sản phẩm và biết chăm sóc cây sau khi trồng."
             ]
           ]
-        ],
-        "title": "Bài 5: TRỒNG HOA, CÂY CẢNH TRONG CHẬU (TIẾT 3)"
+        ]
       }
     ]
   },
@@ -1891,8 +1876,7 @@
               "- HS lắng nghe và chuẩn bị bài học tiếp theo."
             ]
           ]
-        ],
-        "title": "Bài 6: CHĂM SÓC HOA, CÂY CẢNH TRONG CHẬU (TIẾT 1)"
+        ]
       }
     ]
   },
@@ -2011,8 +1995,7 @@
               "- HS nhắc lại thông điệp: Em chăm sóc cây xanh đúng cách để bảo vệ môi trường xanh, sạch, đẹp."
             ]
           ]
-        ],
-        "title": "Bài 6: CHĂM SÓC HOA, CÂY CẢNH TRONG CHẬU (TIẾT 3)"
+        ]
       }
     ]
   },
@@ -2026,16 +2009,7 @@
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Mô tả được một số công việc chăm sóc hoa, cây cảnh trong chậu: tưới nước, bón phân, cắt tỉa, vệ sinh, bắt sâu.",
-          "- Biết lập bảng theo dõi việc chăm sóc cây theo ngày/tuần.",
-          "2. Năng lực chung:",
-          "- Tự chủ và tự học: chủ động quan sát, đọc yêu cầu, chuẩn bị và thực hiện nhiệm vụ học tập theo hướng dẫn.",
-          "- Giao tiếp và hợp tác: biết trao đổi nhóm, phân công nhiệm vụ, lắng nghe ý kiến bạn và cùng hoàn thành sản phẩm học tập.",
-          "- Giải quyết vấn đề và sáng tạo: biết nhận biết vấn đề khi chăm sóc cây và đề xuất cách xử lí phù hợp với điều kiện thực tế.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: tích cực quan sát, thực hành, ghi chép và chăm sóc hoa, cây cảnh trong chậu.",
-          "- Trách nhiệm: có ý thức bảo vệ cây xanh, giữ gìn dụng cụ, vệ sinh khu vực học tập và thực hành.",
-          "4. Tích hợp:",
-          "Tích hợp NLS 5.2.CB1a: HS lập bảng theo dõi việc tưới nước, bón phân, bắt sâu, cắt tỉa theo ngày/tuần; biết ghi thông tin ngắn gọn, rõ ràng để chăm sóc cây đúng hơn."
+          "- Biết lập bảng theo dõi việc chăm sóc cây theo ngày/tuần."
         ],
         "dodung": [
           "- GV: SGK, kế hoạch bài dạy, máy tính, tivi/máy chiếu, tranh/hình ảnh trong SGK, phiếu học tập, bảng theo dõi hoặc phiếu đánh giá phù hợp với tiết học.",
@@ -2043,7 +2017,16 @@
         ],
         "activities": [],
         "dieuchinh": [
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: chủ động quan sát, đọc yêu cầu, chuẩn bị và thực hiện nhiệm vụ học tập theo hướng dẫn.",
+          "- Giao tiếp và hợp tác: biết trao đổi nhóm, phân công nhiệm vụ, lắng nghe ý kiến bạn và cùng hoàn thành sản phẩm học tập.",
+          "- Giải quyết vấn đề và sáng tạo: biết nhận biết vấn đề khi chăm sóc cây và đề xuất cách xử lí phù hợp với điều kiện thực tế.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực quan sát, thực hành, ghi chép và chăm sóc hoa, cây cảnh trong chậu.",
+          "- Trách nhiệm: có ý thức bảo vệ cây xanh, giữ gìn dụng cụ, vệ sinh khu vực học tập và thực hành.",
           "- Yêu thiên nhiên: có hứng thú với việc trồng, chăm sóc và bảo vệ hoa, cây cảnh.",
+          "4. Tích hợp:",
+          "Tích hợp NLS 5.2.CB1a: HS lập bảng theo dõi việc tưới nước, bón phân, bắt sâu, cắt tỉa theo ngày/tuần; biết ghi thông tin ngắn gọn, rõ ràng để chăm sóc cây đúng hơn.",
           "......................................................................................................................",
           "......................................................................................................................"
         ],
@@ -2130,8 +2113,7 @@
               "- HS lắng nghe và chuẩn bị cho tiết thực hành, đánh giá và vận dụng."
             ]
           ]
-        ],
-        "title": "Bài 6: CHĂM SÓC HOA, CÂY CẢNH TRONG CHẬU (TIẾT 2)"
+        ]
       }
     ]
   },
@@ -2286,8 +2268,7 @@
               "Tưới phun sương, đặt nơi có ánh sáng"
             ]
           ]
-        ],
-        "title": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4"
+        ]
       }
     ]
   },
@@ -2414,8 +2395,7 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị bài sau."
             ]
           ]
-        ],
-        "title": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4"
+        ]
       }
     ]
   },
@@ -2530,8 +2510,7 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị cho tiết 2."
             ]
           ]
-        ],
-        "title": "Bài 7: GIỚI THIỆU BỘ LẮP GHÉP MÔ HÌNH KĨ THUẬT (TIẾT 1)"
+        ]
       }
     ]
   },
@@ -2545,7 +2524,14 @@
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Sử dụng được cờ-lê, tua-vít để lắp và tháo vít, tập lắp ghép được một số chi tiết theo mẫu.",
-          "- Thực hiện được quy trình lắp ghép mô hình đơn giản: lựa chọn chi tiết và dụng cụ, lắp ghép theo mẫu, giới thiệu và nhận xét sản phẩm, tháo và cất dọn đồ dùng.",
+          "- Thực hiện được quy trình lắp ghép mô hình đơn giản: lựa chọn chi tiết và dụng cụ, lắp ghép theo mẫu, giới thiệu và nhận xét sản phẩm, tháo và cất dọn đồ dùng."
+        ],
+        "dodung": [
+          "- GV: SGK, kế hoạch bài dạy, bộ lắp ghép mô hình kĩ thuật, máy tính, ti vi/máy chiếu, hình minh họa cách sử dụng cờ-lê và tua-vít, mẫu mô hình đơn giản.",
+          "- HS: SGK, vở ghi, bộ lắp ghép theo nhóm, khay đựng chi tiết, phiếu tự đánh giá sản phẩm."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: biết phân công người chọn chi tiết, người lắp, người kiểm tra, người giới thiệu sản phẩm; hỗ trợ bạn khi thao tác khó.",
           "- Giải quyết vấn đề và sáng tạo: phát hiện lỗi lắp ghép như vít lỏng, thanh lệch, thiếu chi tiết; đề xuất cách sửa để mô hình chắc chắn hơn.",
@@ -2554,14 +2540,7 @@
           "- Trách nhiệm: thực hiện an toàn, không đùa nghịch với dụng cụ, biết tháo và cất dọn chi tiết sau khi học.",
           "- Trung thực: nhận xét đúng sản phẩm của nhóm, báo cáo rõ chi tiết còn thiếu hoặc thao tác cần sửa.",
           "4. Tích hợp:",
-          "Tích hợp AI (4.C5.1): HS làm quen tư duy thuật toán qua việc lắp ghép theo thứ tự các bước; so sánh với cách AI/máy móc thực hiện nhiệm vụ theo quy trình đã được hướng dẫn."
-        ],
-        "dodung": [
-          "- GV: SGK, kế hoạch bài dạy, bộ lắp ghép mô hình kĩ thuật, máy tính, ti vi/máy chiếu, hình minh họa cách sử dụng cờ-lê và tua-vít, mẫu mô hình đơn giản.",
-          "- HS: SGK, vở ghi, bộ lắp ghép theo nhóm, khay đựng chi tiết, phiếu tự đánh giá sản phẩm."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "Tích hợp AI (4.C5.1): HS làm quen tư duy thuật toán qua việc lắp ghép theo thứ tự các bước; so sánh với cách AI/máy móc thực hiện nhiệm vụ theo quy trình đã được hướng dẫn.",
           ".................................................................................................................................",
           "................................................................................................................................."
         ],
@@ -2648,8 +2627,7 @@
               "- HS lắng nghe, ghi nhớ bài học và chuẩn bị cho bài lắp ghép mô hình tiếp theo."
             ]
           ]
-        ],
-        "title": "Bài 7: GIỚI THIỆU BỘ LẮP GHÉP MÔ HÌNH KĨ THUẬT (TIẾT 2)"
+        ]
       }
     ]
   },
@@ -2667,13 +2645,7 @@
           "- Biết kiểm tra số lượng chi tiết, dụng cụ và nêu yêu cầu sản phẩm trước khi thực hành lắp ghép.",
           "2. Năng lực chung:",
           "- Tự chủ và tự học: chủ động quan sát mẫu, đọc yêu cầu, ghi nhớ tên bộ phận và tự kiểm tra chi tiết cần dùng.",
-          "- Giao tiếp và hợp tác: biết thảo luận nhóm, phân công bạn kiểm tra chi tiết, lắng nghe và bổ sung ý kiến cho nhau.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: tích cực quan sát, gọi tên chi tiết, hoàn thành nhiệm vụ lựa chọn chi tiết và dụng cụ.",
-          "- Trách nhiệm: có ý thức giữ gìn chi tiết nhỏ, không làm thất lạc ốc-vít, vòng hãm và dụng cụ lắp ghép.",
-          "- Trung thực: báo cáo đúng số lượng chi tiết nhóm kiểm tra, không tự ý lấy hoặc giấu chi tiết của nhóm khác.",
-          "4. Tích hợp:",
-          "Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS quan sát video/hình ảnh mô hình bập bênh từ nguồn GV giới thiệu; nhận biết các bộ phận chính trước khi lắp và không tự ý truy cập nguồn lạ."
+          "- Giao tiếp và hợp tác: biết thảo luận nhóm, phân công bạn kiểm tra chi tiết, lắng nghe và bổ sung ý kiến cho nhau."
         ],
         "dodung": [
           "- GV: SGK, kế hoạch bài dạy, bộ lắp ghép mô hình kĩ thuật, tranh/hình ảnh mô hình bập bênh, máy tính, ti vi/máy chiếu, phiếu lựa chọn chi tiết.",
@@ -2681,6 +2653,12 @@
         ],
         "activities": [],
         "dieuchinh": [
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực quan sát, gọi tên chi tiết, hoàn thành nhiệm vụ lựa chọn chi tiết và dụng cụ.",
+          "- Trách nhiệm: có ý thức giữ gìn chi tiết nhỏ, không làm thất lạc ốc-vít, vòng hãm và dụng cụ lắp ghép.",
+          "- Trung thực: báo cáo đúng số lượng chi tiết nhóm kiểm tra, không tự ý lấy hoặc giấu chi tiết của nhóm khác.",
+          "4. Tích hợp:",
+          "Tích hợp NLS 1.1.CB1a, 1.2.CB1a: HS quan sát video/hình ảnh mô hình bập bênh từ nguồn GV giới thiệu; nhận biết các bộ phận chính trước khi lắp và không tự ý truy cập nguồn lạ.",
           ".................................................................................................................................",
           "................................................................................................................................."
         ],
@@ -2767,8 +2745,7 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ chuẩn bị cho tiết sau."
             ]
           ]
-        ],
-        "title": "Bài 8: LẮP GHÉP MÔ HÌNH BẬP BÊNH (TIẾT 1)"
+        ]
       }
     ]
   },
@@ -2784,14 +2761,7 @@
           "- Lắp ghép được mô hình bập bênh theo đúng hướng dẫn, đúng vị trí và bảo đảm mối ghép chắc chắn.",
           "- Giới thiệu, đánh giá được sản phẩm theo các tiêu chí: đủ bộ phận, mối ghép đúng vị trí, thanh đòn và ghế ngồi quay quanh trục.",
           "- Nêu được ý tưởng sáng tạo kiểu bập bênh khác với sản phẩm mẫu.",
-          "2. Năng lực chung:",
-          "- Giao tiếp và hợp tác: biết phân công nhiệm vụ trong nhóm, hỗ trợ bạn khi thao tác khó, cùng đánh giá sản phẩm.",
-          "- Giải quyết vấn đề và sáng tạo: phát hiện lỗi như vít lỏng, thanh lệch, trục kẹt và đề xuất cách sửa để mô hình hoạt động tốt hơn.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: kiên trì thao tác, không bỏ cuộc khi lắp ghép chưa thành công.",
-          "- Trách nhiệm: thực hiện an toàn, không đùa nghịch với dụng cụ, biết tháo và cất dọn chi tiết sau khi học.",
-          "- Trung thực: nhận xét đúng sản phẩm của nhóm, báo cáo rõ chi tiết còn thiếu hoặc thao tác cần sửa.",
-          "4. Tích hợp:"
+          "2. Năng lực chung:"
         ],
         "dodung": [
           "- GV: SGK, kế hoạch bài dạy, bộ lắp ghép mô hình kĩ thuật, hình minh họa các bước lắp bập bênh, phiếu đánh giá sản phẩm, máy tính, ti vi/máy chiếu.",
@@ -2799,6 +2769,13 @@
         ],
         "activities": [],
         "dieuchinh": [
+          "- Giao tiếp và hợp tác: biết phân công nhiệm vụ trong nhóm, hỗ trợ bạn khi thao tác khó, cùng đánh giá sản phẩm.",
+          "- Giải quyết vấn đề và sáng tạo: phát hiện lỗi như vít lỏng, thanh lệch, trục kẹt và đề xuất cách sửa để mô hình hoạt động tốt hơn.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: kiên trì thao tác, không bỏ cuộc khi lắp ghép chưa thành công.",
+          "- Trách nhiệm: thực hiện an toàn, không đùa nghịch với dụng cụ, biết tháo và cất dọn chi tiết sau khi học.",
+          "- Trung thực: nhận xét đúng sản phẩm của nhóm, báo cáo rõ chi tiết còn thiếu hoặc thao tác cần sửa.",
+          "4. Tích hợp:",
           ".................................................................................................................................",
           "................................................................................................................................."
         ],
@@ -2904,8 +2881,7 @@
               "- HS tháo mô hình, cất chi tiết đúng nhóm, vệ sinh khu vực học tập và hoàn thành bài học."
             ]
           ]
-        ],
-        "title": "Bài 8: LẮP GHÉP MÔ HÌNH BẬP BÊNH (TIẾT 2)"
+        ]
       }
     ]
   },
@@ -3022,8 +2998,7 @@
               "- HS ghi nhiệm vụ và chuẩn bị cho tiết thực hành lắp ghép theo quy trình."
             ]
           ]
-        ],
-        "title": "Bài 9: LẮP GHÉP MÔ HÌNH RÔ-BỐT (TIẾT 1)"
+        ]
       }
     ]
   },
@@ -3040,11 +3015,7 @@
           "- Thực hiện được một số bước lắp ghép mô hình rô-bốt theo quy trình, bảo đảm an toàn.",
           "2. Năng lực chung:",
           "- Tự chủ và tự học: thực hiện nhiệm vụ theo hình hướng dẫn, biết tự kiểm tra sau từng bước.",
-          "- Giao tiếp và hợp tác: phối hợp với bạn trong nhóm để lắp ghép, hỗ trợ nhau khi thao tác khó.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: kiên trì thực hành, không bỏ cuộc khi thao tác khó.",
-          "- Trách nhiệm: sử dụng cờ-lê, tua-vít, ốc-vít, vòng hãm đúng cách và thu dọn gọn gàng.",
-          "4. Tích hợp:"
+          "- Giao tiếp và hợp tác: phối hợp với bạn trong nhóm để lắp ghép, hỗ trợ nhau khi thao tác khó."
         ],
         "dodung": [
           "- GV: SGK, kế hoạch bài dạy, bộ lắp ghép mô hình kĩ thuật lớp 4, máy tính/tivi/máy chiếu, tranh/hình ảnh trong SGK, phiếu học tập, phiếu đánh giá sản phẩm.",
@@ -3052,6 +3023,10 @@
         ],
         "activities": [],
         "dieuchinh": [
+          "3. Phẩm chất:",
+          "- Chăm chỉ: kiên trì thực hành, không bỏ cuộc khi thao tác khó.",
+          "- Trách nhiệm: sử dụng cờ-lê, tua-vít, ốc-vít, vòng hãm đúng cách và thu dọn gọn gàng.",
+          "4. Tích hợp:",
           "- NLS 3.1.CB1a: HS quan sát sơ đồ/hình ảnh hướng dẫn lắp rô-bốt trên học liệu số do GV cung cấp; biết làm theo thứ tự các bước và kiểm tra sản phẩm an toàn.",
           "......................................................................................................................",
           "......................................................................................................................"
@@ -3143,8 +3118,7 @@
               "- HS thu dọn chi tiết, cất sản phẩm và dụng cụ gọn gàng theo quy định."
             ]
           ]
-        ],
-        "title": "Bài 9: LẮP GHÉP MÔ HÌNH RÔ-BỐT (TIẾT 2)"
+        ]
       }
     ]
   },
@@ -3156,14 +3130,7 @@
         "lessonTitle": "Bài 9: LẮP GHÉP MÔ HÌNH RÔ-BỐT (TIẾT 3)",
         "topic": "",
         "yccd": [
-          "1. Năng lực đặc thù:",
-          "2. Năng lực chung:",
-          "- Tự chủ và tự học: tự kiểm tra sản phẩm, hoàn thiện nhiệm vụ theo tiêu chí.",
-          "- Giao tiếp và hợp tác: giới thiệu sản phẩm, nhận xét sản phẩm của nhóm bạn bằng lời nói lịch sự, rõ ràng.",
-          "- Giải quyết vấn đề và sáng tạo: đề xuất được ý tưởng cải tiến, lựa chọn chi tiết có lí do và bảo đảm an toàn.",
-          "3. Phẩm chất:",
-          "- Trách nhiệm: đánh giá trung thực, bảo quản chi tiết, dụng cụ và giữ vệ sinh khu vực học tập.",
-          "4. Tích hợp:"
+          "1. Năng lực đặc thù:"
         ],
         "dodung": [
           "- GV: SGK, kế hoạch bài dạy, bộ lắp ghép mô hình kĩ thuật lớp 4, máy tính/tivi/máy chiếu, tranh/hình ảnh trong SGK, phiếu học tập, phiếu đánh giá sản phẩm.",
@@ -3172,6 +3139,13 @@
         "activities": [],
         "dieuchinh": [
           "- Vận dụng kiến thức để đề xuất ý tưởng sáng tạo mô hình rô-bốt khác phù hợp với số lượng chi tiết hiện có.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: tự kiểm tra sản phẩm, hoàn thiện nhiệm vụ theo tiêu chí.",
+          "- Giao tiếp và hợp tác: giới thiệu sản phẩm, nhận xét sản phẩm của nhóm bạn bằng lời nói lịch sự, rõ ràng.",
+          "- Giải quyết vấn đề và sáng tạo: đề xuất được ý tưởng cải tiến, lựa chọn chi tiết có lí do và bảo đảm an toàn.",
+          "3. Phẩm chất:",
+          "- Trách nhiệm: đánh giá trung thực, bảo quản chi tiết, dụng cụ và giữ vệ sinh khu vực học tập.",
+          "4. Tích hợp:",
           "- NLS 3.1.CB1a, 3.2.CB1a: HS quan sát mẫu rô-bốt từ học liệu số/AI đã kiểm duyệt, biết sáng tạo chi tiết nhưng vẫn đảm bảo đúng quy trình, an toàn và trình bày sản phẩm rõ ràng.",
           "......................................................................................................................",
           "......................................................................................................................"
@@ -3266,8 +3240,7 @@
               "- HS thu dọn, sắp xếp chi tiết và dụng cụ gọn gàng theo nhóm."
             ]
           ]
-        ],
-        "title": "Bài 9: LẮP GHÉP MÔ HÌNH RÔ-BỐT (TIẾT 3)"
+        ]
       }
     ]
   },
@@ -3390,8 +3363,7 @@
               "- HS trả lời: Em sẽ tìm hiểu cùng người lớn hoặc theo hướng dẫn của cô, không tự ý truy cập nguồn lạ."
             ]
           ]
-        ],
-        "title": "Bài 10: ĐỒ CHƠI DÂN GIAN (TIẾT 1)"
+        ]
       }
     ]
   },
@@ -3506,8 +3478,7 @@
               "- HS trả lời: Em sẽ xin phép người thân trước khi chụp ảnh/quay video và chỉ nộp theo hướng dẫn của cô."
             ]
           ]
-        ],
-        "title": "Bài 10: ĐỒ CHƠI DÂN GIAN (TIẾT 2)"
+        ]
       }
     ]
   },
@@ -3518,15 +3489,8 @@
       {
         "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
         "topic": "",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Công nghệ theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Công nghệ.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
+        "yccd": [],
+        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -3535,8 +3499,7 @@
               "TUẦN 30: CHỦ ĐỀ: LÀM ĐỒ CHƠI DÂN GIAN"
             ]
           ]
-        ],
-        "title": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4"
+        ]
       },
       {
         "lessonTitle": "Tiết 1: Tìm hiểu đèn lồng và chuẩn bị vật liệu",
@@ -3666,8 +3629,7 @@
               "- HS ghi nhớ nhiệm vụ và cất sản phẩm vào túi/hộp theo hướng dẫn."
             ]
           ]
-        ],
-        "title": "Tiết 1: Tìm hiểu đèn lồng và chuẩn bị vật liệu"
+        ]
       }
     ]
   },
@@ -3678,15 +3640,8 @@
       {
         "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
         "topic": "",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Công nghệ theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Công nghệ.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
+        "yccd": [],
+        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -3695,8 +3650,7 @@
               "TUẦN 31: CHỦ ĐỀ: LÀM ĐỒ CHƠI DÂN GIAN"
             ]
           ]
-        ],
-        "title": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4"
+        ]
       },
       {
         "lessonTitle": "Tiết 2: Thực hành làm và giới thiệu sản phẩm đèn lồng",
@@ -3706,13 +3660,7 @@
           "- Làm được chiếc đèn lồng đồ chơi theo đúng các bước đã hướng dẫn.",
           "- Biết giới thiệu, đánh giá sản phẩm theo tiêu chí: lồng đèn tròn đều, cân đối, quai xách phù hợp, trang trí đẹp, đèn chắc chắn.",
           "- Tính toán được chi phí đơn giản để làm một chiếc đèn lồng đồ chơi tự làm.",
-          "2. Năng lực chung:",
-          "- Giao tiếp và hợp tác: biết trình bày sản phẩm, nhận xét sản phẩm của bạn và tiếp thu góp ý.",
-          "- Giải quyết vấn đề và sáng tạo: biết chọn lọc ý tưởng trang trí phù hợp, vận dụng vật liệu sẵn có để làm sản phẩm đẹp và an toàn.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: kiên trì hoàn thiện sản phẩm, trang trí cẩn thận, đẹp mắt.",
-          "- Trách nhiệm: giữ an toàn khi sử dụng kéo, băng dính; bảo quản sản phẩm, dụng cụ và vệ sinh lớp học sau khi thực hành.",
-          "4. Tích hợp: Tích hợp AI (4.A1.2) và NLS 5.2.CB1a: GV có thể cho HS tham khảo mẫu trang trí đèn lồng do AI gợi ý đã kiểm duyệt; HS tự chọn lọc ý tưởng, tự tay làm sản phẩm và ghi/chụp lại quy trình bằng bảng hoặc tranh đơn giản."
+          "2. Năng lực chung:"
         ],
         "dodung": [
           "- GV: Mẫu đèn lồng đã làm ở tiết trước, tranh/hình ảnh các bước hoàn thiện đèn lồng, phiếu đánh giá sản phẩm, bảng tính chi phí, mẫu trang trí do AI gợi ý đã kiểm duyệt.",
@@ -3720,6 +3668,12 @@
         ],
         "activities": [],
         "dieuchinh": [
+          "- Giao tiếp và hợp tác: biết trình bày sản phẩm, nhận xét sản phẩm của bạn và tiếp thu góp ý.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn lọc ý tưởng trang trí phù hợp, vận dụng vật liệu sẵn có để làm sản phẩm đẹp và an toàn.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: kiên trì hoàn thiện sản phẩm, trang trí cẩn thận, đẹp mắt.",
+          "- Trách nhiệm: giữ an toàn khi sử dụng kéo, băng dính; bảo quản sản phẩm, dụng cụ và vệ sinh lớp học sau khi thực hành.",
+          "4. Tích hợp: Tích hợp AI (4.A1.2) và NLS 5.2.CB1a: GV có thể cho HS tham khảo mẫu trang trí đèn lồng do AI gợi ý đã kiểm duyệt; HS tự chọn lọc ý tưởng, tự tay làm sản phẩm và ghi/chụp lại quy trình bằng bảng hoặc tranh đơn giản.",
           "- .............................................................................................................................",
           "- ............................................................................................................................."
         ],
@@ -3818,8 +3772,7 @@
               "- HS lắng nghe, nêu cảm nhận và cất sản phẩm cẩn thận."
             ]
           ]
-        ],
-        "title": "Tiết 2: Thực hành làm và giới thiệu sản phẩm đèn lồng"
+        ]
       }
     ]
   },
@@ -3830,15 +3783,8 @@
       {
         "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
         "topic": "",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Công nghệ theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Công nghệ.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
+        "yccd": [],
+        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -3847,8 +3793,7 @@
               "TUẦN 32: CHỦ ĐỀ: LÀM ĐỒ CHƠI DÂN GIAN"
             ]
           ]
-        ],
-        "title": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4"
+        ]
       },
       {
         "lessonTitle": "Tiết 1: Tìm hiểu nguyên lí và chuẩn bị làm chuồn chuồn thăng bằng",
@@ -3978,8 +3923,7 @@
               "- HS cất sản phẩm vào túi/hộp, ghi nhớ nhiệm vụ chuẩn bị."
             ]
           ]
-        ],
-        "title": "Tiết 1: Tìm hiểu nguyên lí và chuẩn bị làm chuồn chuồn thăng bằng"
+        ]
       }
     ]
   },
@@ -3990,15 +3934,8 @@
       {
         "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
         "topic": "",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Công nghệ theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Công nghệ.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
+        "yccd": [],
+        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -4007,21 +3944,14 @@
               "TUẦN 33: CHỦ ĐỀ: LÀM ĐỒ CHƠI DÂN GIAN"
             ]
           ]
-        ],
-        "title": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4"
+        ]
       },
       {
         "lessonTitle": "Tiết 2: Thực hành, thử nghiệm và đánh giá chuồn chuồn thăng bằng",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
-          "- Làm được chuồn chuồn thăng bằng theo hướng dẫn.",
-          "2. Năng lực chung:",
-          "- Giao tiếp và hợp tác: trình bày cách làm, nhận xét sản phẩm của bạn lịch sự, rõ ràng.",
-          "- Giải quyết vấn đề và sáng tạo: thay đổi kích thước, vị trí gắn đất nặn hoặc vật liệu để sản phẩm giữ thăng bằng tốt hơn.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: kiên trì thử nghiệm, sửa sản phẩm khi chưa thăng bằng.",
-          "- Trách nhiệm: giữ gìn sản phẩm, bảo quản dụng cụ và thu dọn sạch sẽ sau khi thực hành."
+          "- Làm được chuồn chuồn thăng bằng theo hướng dẫn."
         ],
         "dodung": [
           "- GV: Mẫu chuồn chuồn thăng bằng, tranh/hình ảnh các bước hoàn thiện sản phẩm, phiếu đánh giá, học liệu số/AI đã kiểm duyệt về chuồn chuồn thăng bằng.",
@@ -4030,6 +3960,12 @@
         "activities": [],
         "dieuchinh": [
           "- Biết giới thiệu, đánh giá sản phẩm theo các tiêu chí: đủ bộ phận, chắc chắn, trang trí đẹp, thăng bằng được.",
+          "2. Năng lực chung:",
+          "- Giao tiếp và hợp tác: trình bày cách làm, nhận xét sản phẩm của bạn lịch sự, rõ ràng.",
+          "- Giải quyết vấn đề và sáng tạo: thay đổi kích thước, vị trí gắn đất nặn hoặc vật liệu để sản phẩm giữ thăng bằng tốt hơn.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: kiên trì thử nghiệm, sửa sản phẩm khi chưa thăng bằng.",
+          "- Trách nhiệm: giữ gìn sản phẩm, bảo quản dụng cụ và thu dọn sạch sẽ sau khi thực hành.",
           "- .............................................................................................................................",
           "- ............................................................................................................................."
         ],
@@ -4139,8 +4075,7 @@
               "- HS ghi nhớ nhiệm vụ và cất sản phẩm cẩn thận."
             ]
           ]
-        ],
-        "title": "Tiết 2: Thực hành, thử nghiệm và đánh giá chuồn chuồn thăng bằng"
+        ]
       }
     ]
   },
@@ -4151,15 +4086,8 @@
       {
         "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
         "topic": "",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Công nghệ theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Công nghệ.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
+        "yccd": [],
+        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -4168,8 +4096,7 @@
               "TUẦN 34: ÔN TẬP, KIỂM TRA"
             ]
           ]
-        ],
-        "title": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4"
+        ]
       },
       {
         "lessonTitle": "Tiết 1: Ôn tập",
@@ -4305,8 +4232,7 @@
               "Chuẩn bị vật liệu – làm theo bước – trang trí – đánh giá; dùng kéo an toàn, tiết kiệm vật liệu."
             ]
           ]
-        ],
-        "title": "Tiết 1: Ôn tập"
+        ]
       }
     ]
   },
@@ -4317,15 +4243,8 @@
       {
         "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
         "topic": "",
-        "yccd": [
-          "1. Năng lực đặc thù: Ôn tập, củng cố và phát triển năng lực môn Công nghệ theo yêu cầu cần đạt của chương trình.",
-          "2. Năng lực chung: Tự chủ và tự học; Giao tiếp và hợp tác trong các hoạt động học tập.",
-          "3. Phẩm chất: Chăm chỉ, trách nhiệm, tự tin hoàn thành nhiệm vụ học tập."
-        ],
-        "dodung": [
-          "- GV: SGK, máy tính, bài giảng điện tử môn Công nghệ.",
-          "- HS: SGK, vở ghi, đồ dùng học tập."
-        ],
+        "yccd": [],
+        "dodung": [],
         "activities": [],
         "dieuchinh": [],
         "tables": [
@@ -4334,8 +4253,7 @@
               "TUẦN 35: ÔN TẬP, KIỂM TRA"
             ]
           ]
-        ],
-        "title": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4"
+        ]
       },
       {
         "lessonTitle": "Tiết 2: Kiểm tra",
@@ -4401,7 +4319,9 @@
           "B. Cánh càng nặng càng tốt.",
           "C. Chỉ cần trang trí thật nhiều màu.",
           "D. Dùng dây buộc thật chặt vào bàn.",
+          "Câu 8. Khi tự rà soát bài kiểm tra trước khi nộp, em nên kiểm tra điều gì?",
           "A. Đã làm đủ câu, ghi họ tên, trình bày rõ ràng.",
+          "B. Bài của bạn bên cạnh.",
           "C. Đáp án trên mạng.",
           "D. Chỉ kiểm tra câu trắc nghiệm, bỏ qua tự luận.",
           "B. TỰ LUẬN (6 điểm)",
@@ -4482,6 +4402,11 @@
             [
               "- GV nhận xét chung về ý thức làm bài: chuẩn bị, trung thực, giữ trật tự, trình bày bài sạch đẹp.",
               "- HS lắng nghe, tự rút kinh nghiệm cho các bài kiểm tra sau."
+            ]
+          ],
+          [
+            [
+              "BỘ ĐỀ KIỂM TRA ĐỊNH KÌ MÔN CÔNG NGHỆ LỚP 4Tuần 35 – Thời gian: 35 phútNăm học: 2025 – 2026"
             ]
           ],
           [
@@ -4604,14 +4529,13 @@
               "1,5"
             ]
           ]
-        ],
-        "title": "Tiết 2: Kiểm tra"
+        ]
       }
     ]
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA) {
+  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {

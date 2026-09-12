@@ -14,10 +14,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 1)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được địa chỉ quê hương (xã/phường, tỉnh/thành phố nơi sinh sống).",
           "- Bước đầu nhận biết và trình bày được vẻ đẹp của thiên nhiên, con người quê hương.",
@@ -30,6 +29,8 @@
           "- Trách nhiệm: Có ý thức giữ gìn cảnh quan, bảo vệ và góp phần xây dựng quê hương.",
           "- Chăm chỉ: Tích cực tìm hiểu, sưu tầm tư liệu, hình ảnh về quê hương.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1: Trà Vinh quê hương em - Trang 5 TLGDĐP Lớp 2 Trà Vinh): Tự hào về vẻ đẹp cảnh sắc thiên nhiên và con người quê hương Trà Vinh (dòng sông Cổ Chiên hiền hòa, rặng dừa xanh, danh thắng Ao Bà Om cổ kính).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M1): Cảm nhận vẻ đẹp thanh bình của dòng sông, bến nước quê hương; bồi dưỡng ý thức giữ sạch nguồn nước mát lành.",
           "- Tích hợp năng lực số 1.1.CB1a: Xác định được nhu cầu thông tin, tìm kiếm thông tin thông qua tìm kiếm đơn giản trong môi trường số.",
           "- Giáo dục QPAN: Giáo dục HS ý thức bảo vệ chủ quyền, toàn vẹn lãnh thổ; yêu quý biển đảo quê hương.",
           "- Giáo dục lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng tình yêu quê hương, ý thức trách nhiệm xây dựng quê hương giàu đẹp."
@@ -39,10 +40,6 @@
           "2. HS: SGK, tranh hoặc ảnh sưu tầm về quê hương (nếu có)."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -71,7 +68,7 @@
               "Hoạt động 1: Giới thiệu địa chỉ quê hương\n*Mục tiêu:\n- HS biết giới thiệu được địa chỉ quê hương của mình.\n- Rèn kĩ năng trình bày, lắng nghe và nhận xét bạn.\n*Mục tiêu tích hợp: HS biết xác định thông tin cần tìm, quan sát cách GV dùng từ khóa đơn giản để tìm hình ảnh quê hương trên Google Images; biết kiểm tra tên địa phương, nguồn đăng và thực hiện quy tắc an toàn khi tìm kiếm.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát tranh trong SGK, đặt câu hỏi gợi ý:\n\n+ Các bạn trong tranh đang làm gì?\n+ Địa chỉ quê hương của các bạn ở đâu?\n+ Hãy giới thiệu về địa chỉ quê hương em.\n- GV nhắc HS chỉ nêu tên địa phương phù hợp, không nêu số nhà hoặc thông tin riêng tư của gia đình.",
+              "- GV yêu cầu HS quan sát tranh trong SGK, đặt câu hỏi gợi ý:\n+ Các bạn trong tranh đang làm gì?\n+ Địa chỉ quê hương của các bạn ở đâu?\n+ Hãy giới thiệu về địa chỉ quê hương em.\n- GV nhắc HS chỉ nêu tên địa phương phù hợp, không nêu số nhà hoặc thông tin riêng tư của gia đình.",
               "- HS quan sát tranh, lắng nghe câu hỏi.\n- HS trả lời: Các bạn đang giới thiệu quê hương của mình.\n- HS nêu địa chỉ quê hương của các bạn theo thông tin trong tranh.\n- HS lần lượt giới thiệu địa chỉ quê hương của mình; các bạn khác lắng nghe, nhận xét và bổ sung."
             ],
             [
@@ -98,12 +95,20 @@
               "Hoạt động 2: Khám phá vẻ đẹp thiên nhiên quê hương của em\n*Mục tiêu:\n- HS nhận biết được vẻ đẹp của thiên nhiên quê hương mình; bước đầu có ý thức quan sát, cảm nhận và tự hào về cảnh đẹp quê hương.\n*Mục tiêu tích hợp: HS nhận biết Trường Sa là biển đảo của Việt Nam; hình thành tình yêu quê hương, lòng biết ơn các chiến sĩ hải quân và ý thức trân trọng, bảo vệ biển đảo quê hương.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát tranh trong SGK và trả lời câu hỏi:\n\n\n+ Các bức tranh vẽ cảnh gì?\n+ Nêu nhận xét của em khi quan sát các bức tranh đó.\n- GV lần lượt gợi ý HS nhận biết: cao nguyên đá, biển, sông nước, ruộng đồng, thành phố và hải đảo Trường Sa.",
+              "- GV yêu cầu HS quan sát tranh trong SGK và trả lời câu hỏi:\n+ Các bức tranh vẽ cảnh gì?\n+ Nêu nhận xét của em khi quan sát các bức tranh đó.\n- GV lần lượt gợi ý HS nhận biết: cao nguyên đá, biển, sông nước, ruộng đồng, thành phố và hải đảo Trường Sa.",
               "- HS quan sát tranh, trả lời câu hỏi và chia sẻ cảm nhận của mình.\n- HS nêu được mỗi tranh thể hiện một vẻ đẹp khác nhau của quê hương Việt Nam: hùng vĩ, rộng lớn, êm đềm, bát ngát, hiện đại và thiêng liêng."
             ],
             [
               "- GV yêu cầu HS giới thiệu về cảnh đẹp quê hương em.\n- GV gợi ý: Quê em có...; cảnh đó đẹp ở...; em cảm thấy...",
               "- HS giới thiệu cảnh đẹp quê hương qua lời nói hoặc tranh vẽ của mình.\n- HS nói thành câu rõ ý, thể hiện cảm xúc tự hào."
+            ],
+            [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 1 GDĐP 2 & Mã Mizuiku M1): “Ở quê hương Trà Vinh chúng ta có những cảnh đẹp thiên nhiên sông nước và danh thắng nào nổi tiếng?”",
+              "- HS tự hào trả lời: Quê hương Trà Vinh có danh thắng Ao Bà Om rợp mát bóng cây sao cổ thụ, dòng sông Cổ Chiên mênh mông bồi đắp phù sa, rặng dừa xanh và bãi biển Ba Động ạ."
+            ],
+            [
+              "- GV chốt ý: Vẻ đẹp hiền hòa của sông nước và thiên nhiên Trà Vinh nuôi dưỡng tâm hồn chúng ta; các em hãy cùng nhau giữ gìn cho dòng sông, mặt hồ quê hương luôn trong xanh, không bị rác thải làm ô nhiễm nhé.",
+              "- HS lắng nghe, tự hào và thêm yêu quê hương Trà Vinh."
             ],
             [
               "- GV cho HS thảo luận nhóm: Chia sẻ với các bạn trong nhóm những bức tranh, ảnh và cảm nhận của em về vẻ đẹp quê hương; sau đó cử đại diện nhóm trình bày trước lớp.\n- GV giao nhiệm vụ cụ thể: mỗi bạn giới thiệu một hình ảnh; nhóm chọn một hình ảnh tiêu biểu và thống nhất lời trình bày.",
@@ -125,7 +130,7 @@
               "Hoạt động 3: Khám phá vẻ đẹp con người quê hương em\n*Mục tiêu:\n- HS nhận biết và giới thiệu được vẻ đẹp của con người quê hương mình.\n*Mục tiêu tích hợp: HS biết trân trọng những phẩm chất tốt đẹp của con người quê hương; hình thành tình yêu quê hương và ý thức góp phần xây dựng quê hương giàu đẹp bằng những việc làm phù hợp.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc đoạn văn, quan sát tranh trong SGK. GV đặt câu hỏi: “Người dân quê hương Nam như thế nào?”\n\n- GV hướng dẫn HS tìm các từ ngữ thể hiện vẻ đẹp con người: yêu thương, giúp đỡ lẫn nhau, hiếu học, cần cù, thân thiện.",
+              "- GV yêu cầu HS đọc đoạn văn, quan sát tranh trong SGK. GV đặt câu hỏi: “Người dân quê hương Nam như thế nào?”\n- GV hướng dẫn HS tìm các từ ngữ thể hiện vẻ đẹp con người: yêu thương, giúp đỡ lẫn nhau, hiếu học, cần cù, thân thiện.",
               "- HS quan sát, đọc đoạn văn, trả lời câu hỏi.\n- HS nêu: Người dân quê hương Nam yêu thương, giúp đỡ lẫn nhau; hiếu học, cần cù và thân thiện."
             ],
             [
@@ -169,7 +174,11 @@
             ]
           ]
         ],
-        "title": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -178,13 +187,13 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 2)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 2",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hành nêu được địa chỉ quê hương của mình.",
           "- Thực hành chia sẻ những hiểu biết về vẻ đẹp của thiên nhiên và con người ở quê hương mình.",
+          "- Biết phát triển bản thân, điều chỉnh hành vi phù hợp với môi trường sống.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Chủ động tìm hiểu, chia sẻ về quê hương.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, hợp tác khi làm việc nhóm.",
@@ -194,18 +203,14 @@
           "- Trách nhiệm: Có ý thức giữ gìn, bảo vệ và phát triển quê hương.",
           "- Chăm chỉ: Tích cực học tập, rèn luyện.",
           "4. Tích hợp",
-          "- Tích hợp AI - YCCĐ 2.A1.1: HS biết dùng công cụ có hỗ trợ AI để tìm kiếm hình ảnh, thông tin đẹp về quê hương mình dưới sự hướng dẫn của GV."
+          "- Tích hợp AI - YCCĐ 2.A1.1: HS biết dùng công cụ có hỗ trợ AI để tìm kiếm hình ảnh, thông tin đẹp về quê hương mình dưới sự hướng dẫn của GV.",
+          "- Bảo vệ môi trường: HS biết trân trọng vẻ đẹp thiên nhiên quê hương; thực hiện giữ vệ sinh, không xả rác và bảo vệ cảnh quan khi tham quan, sinh hoạt tại địa phương."
         ],
         "dodung": [
           "1. GV: Bộ tranh về quê hương em; máy tính, máy chiếu/tivi; hình ảnh SGK đã cắt đúng từng nhiệm vụ; công cụ tìm kiếm giọng nói dùng bằng tài khoản của GV.",
           "2. HS: SGK, vở bài tập Đạo đức 2, tranh ảnh đã sưu tầm (nếu có), giấy vẽ và bút màu."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Bảo vệ môi trường: HS biết trân trọng vẻ đẹp thiên nhiên quê hương; thực hiện giữ vệ sinh, không xả rác và bảo vệ cảnh quan khi tham quan, sinh hoạt tại địa phương.",
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -234,7 +239,7 @@
               "Hoạt động 1: Cùng bạn giới thiệu về vẻ đẹp quê hương em\n*Mục tiêu:\n- HS thực hành giới thiệu được địa chỉ, cảnh đẹp và con người quê hương; biết lắng nghe, trao đổi và bổ sung cho bạn.\n*Mục tiêu tích hợp: HS biết quan sát cách GV sử dụng tìm kiếm giọng nói để tìm ảnh “Cảnh đẹp quê hương Việt Nam” hoặc tên địa phương; hiểu kết quả do công cụ có hỗ trợ AI đưa ra cần được kiểm tra và không cung cấp thông tin cá nhân.\n*Cách tiến hành:"
             ],
             [
-              "- GV hướng dẫn HS thảo luận nhóm theo gợi ý:\n\n+ Quê em ở đâu?\n+ Quê em có cảnh đẹp gì?\n+ Con người quê hương em như thế nào?\n- GV hướng dẫn mỗi bạn lần lượt chia sẻ, bạn nghe đặt một câu hỏi hoặc bổ sung một ý.",
+              "- GV hướng dẫn HS thảo luận nhóm theo gợi ý:\n+ Quê em ở đâu?\n+ Quê em có cảnh đẹp gì?\n+ Con người quê hương em như thế nào?\n- GV hướng dẫn mỗi bạn lần lượt chia sẻ, bạn nghe đặt một câu hỏi hoặc bổ sung một ý.",
               "- HS thảo luận nhóm, trao đổi và kể cho nhau nghe về quê hương.\n- HS lần lượt giới thiệu; các bạn lắng nghe, đặt câu hỏi và bổ sung."
             ],
             [
@@ -253,7 +258,7 @@
               "Hoạt động 2: Đưa ra lời khuyên cho bạn\n*Mục tiêu:\n- HS nhận biết được lời nói chưa phù hợp và đưa ra lời khuyên đúng đắn, thân thiện.\n- Rèn kĩ năng quan tâm, chia sẻ, hợp tác và đóng vai trong tình huống gần gũi.\n*Cách tiến hành:"
             ],
             [
-              "- GV trình chiếu tranh BT2, nêu yêu cầu: “Quan sát 2 bức tranh, em sẽ khuyên bạn điều gì?”\n\n- GV gợi ý HS chú ý lời nói và nét mặt của từng bạn trong tranh.",
+              "- GV trình chiếu tranh BT2, nêu yêu cầu: “Quan sát 2 bức tranh, em sẽ khuyên bạn điều gì?”\n- GV gợi ý HS chú ý lời nói và nét mặt của từng bạn trong tranh.",
               "- HS quan sát tranh, suy nghĩ cá nhân.\n- HS xác định vấn đề của từng bạn và dự kiến lời khuyên phù hợp."
             ],
             [
@@ -284,7 +289,7 @@
               "3. VẬN DỤNG\n*Mục tiêu:\n- Hướng dẫn HS vận dụng những điều đã học vào thực tiễn cuộc sống.\n*Mục tiêu tích hợp: HS biết thể hiện tình yêu quê hương bằng việc trân trọng cảnh đẹp, giữ vệ sinh, không xả rác, không bẻ cành hái hoa và bảo vệ cảnh quan khi tham quan, sinh hoạt tại địa phương.\n*Cách tiến hành:"
             ],
             [
-              "- Yêu cầu 1: Sưu tầm tranh, ảnh về vẻ đẹp thiên nhiên, con người quê hương em.\n\n- GV yêu cầu HS về nhà sưu tầm.\n- GV hướng dẫn HS ghi lại tên địa điểm hoặc nguồn tranh ảnh nếu có.",
+              "- Yêu cầu 1: Sưu tầm tranh, ảnh về vẻ đẹp thiên nhiên, con người quê hương em.\n- GV yêu cầu HS về nhà sưu tầm.\n- GV hướng dẫn HS ghi lại tên địa điểm hoặc nguồn tranh ảnh nếu có.",
               "- HS lắng nghe, ghi nhớ thực hiện nhiệm vụ.\n- HS dự kiến tranh, ảnh sẽ sưu tầm và nhờ người thân hỗ trợ."
             ],
             [
@@ -296,7 +301,7 @@
               "- HS trả lời câu hỏi, nêu những việc làm bảo vệ cảnh quan và môi trường quê hương.\n- HS chọn một hành động đưa vào tranh hoặc nói lời cam kết: Em sẽ bỏ rác đúng nơi; em không bẻ cành, hái hoa; em sẽ chăm sóc cây xanh..."
             ],
             [
-              "- Thông điệp: GV gọi HS đọc thông điệp trong SGK cho cả lớp nghe.\n\n- GV hướng dẫn HS đọc rõ ràng, thể hiện tình cảm.",
+              "- Thông điệp: GV gọi HS đọc thông điệp trong SGK cho cả lớp nghe.\n- GV hướng dẫn HS đọc rõ ràng, thể hiện tình cảm.",
               "- HS đọc lại và ghi nhớ thông điệp: “Tình quê ấm áp, thân thương/ Theo em trên mọi nẻo đường em đi.”\n- HS nêu điều em hiểu từ thông điệp."
             ],
             [
@@ -317,7 +322,11 @@
             ]
           ]
         ],
-        "title": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -326,13 +335,13 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3 - Thời gian thực hiện: ... (TIẾT 1)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 3",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được những việc làm thiết thực, phù hợp với lứa tuổi để thể hiện tình yêu quê hương.",
           "- Bước đầu nhận biết được vẻ đẹp của thiên nhiên và con người ở quê hương mình.",
+          "- Biết phát triển bản thân, điều chỉnh hành vi đúng đắn.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Biết tự tìm hiểu, quan sát, rút ra bài học từ thực tế cuộc sống ở quê hương.",
           "- Giao tiếp và hợp tác: Biết chia sẻ cảm nhận, cùng bạn thảo luận, hợp tác trong các hoạt động học tập.",
@@ -342,15 +351,16 @@
           "- Trách nhiệm: Có ý thức giữ gìn, bảo vệ cảnh quan và con người quê hương.",
           "- Chăm chỉ: Tích cực tham gia các việc làm phù hợp để thể hiện tình yêu quê hương.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Truyền thống đoàn kết các dân tộc ở tỉnh Trà Vinh - Trang 11 TLGDĐP Lớp 2 Trà Vinh): Thể hiện tình yêu quê hương qua tinh thần đoàn kết, gắn bó keo sơn giữa 3 dân tộc Kinh, Khmer, Hoa.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M7): Hành động cụ thể thể hiện tình yêu quê hương: không vứt rác, túi nilon xuống dòng sông Cổ Chiên, kênh rạch để giữ sạch nguồn nước quê nhà.",
           "- Tích hợp AI - YCCĐ 2.A1.1: HS biết dùng công cụ có hỗ trợ AI để tìm kiếm hình ảnh, thông tin đẹp về quê hương dưới sự hướng dẫn của GV; biết kiểm tra kết quả và không cung cấp thông tin cá nhân."
         ],
         "dodung": [
           "1. GV: Bộ tranh về quê hương em; máy tính, tivi/máy chiếu; bài hát “Màu xanh quê hương”; các hình ảnh SGK đã cắt đúng nội dung; công cụ tìm kiếm giọng nói dùng bằng tài khoản của GV.",
           "2. HS: SGK, vở bài tập Đạo đức 2."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -491,6 +501,14 @@
               "- HS quan sát thao tác của GV và nhận xét kết quả tìm kiếm."
             ],
             [
+              "- GV hỏi dẫn tích hợp GDĐP Trà Vinh & Bảo vệ nguồn nước (Chủ đề 2 GDĐP 2 & Mã Mizuiku M6, M7): “Để thể hiện tình yêu với mảnh đất quê hương Trà Vinh, các em cần làm những việc làm cụ thể nào đối với bạn bè và môi trường xung quanh?”",
+              "- HS trả lời: Luôn đoàn kết, yêu thương, giúp đỡ các bạn người Kinh, Khmer, Hoa trong lớp; không vứt túi nilon, rác thải xuống bờ sông, kênh rạch quanh nhà ạ."
+            ],
+            [
+              "- GV kết luận: Tình yêu quê hương bắt đầu từ những việc làm giản dị: đoàn kết với bạn bè và chung tay bảo vệ nguồn nước trong sạch cho quê hương Trà Vinh.",
+              "- HS lắng nghe và ghi nhớ thực hiện."
+            ],
+            [
               "- GV yêu cầu HS nêu lại ba nguyên tắc: đọc rõ từ khóa - kiểm tra kết quả - không cung cấp thông tin cá nhân.",
               "- HS nêu cách xử lí khi công cụ nghe sai hoặc cho kết quả chưa đúng; nhắc lại quy tắc an toàn."
             ],
@@ -554,7 +572,10 @@
             ]
           ]
         ],
-        "title": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "........................................................................................................................"
+        ]
       }
     ]
   },
@@ -563,10 +584,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3 - Thời gian thực hiện: ... (TIẾT 2)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 4",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được những việc làm thiết thực, phù hợp với lứa tuổi để thể hiện tình yêu quê hương.",
           "- Nhận biết bước đầu vẻ đẹp của thiên nhiên và con người quê hương.",
@@ -574,6 +594,7 @@
           "- Tự chủ, tự học: Chủ động tham gia và hoàn thành nhiệm vụ.",
           "- Giao tiếp, hợp tác: Biết chia sẻ, phối hợp trong nhóm.",
           "- Giải quyết vấn đề, sáng tạo: Đưa ra ý tưởng, cách làm mới mẻ trong học tập và đời sống.",
+          "- Phát triển bản thân, điều chỉnh hành vi: Biết nhận ra đúng - sai để tự sửa đổi.",
           "3. Phẩm chất",
           "- Yêu nước: Tự hào, yêu quê hương, đất nước.",
           "- Trách nhiệm: Thực hiện tốt nhiệm vụ trong lớp, trong nhóm.",
@@ -585,9 +606,8 @@
           "1. GV: Bộ tranh về quê hương em; máy tính, tivi/máy chiếu; các hình ảnh SGK đã cắt đúng nội dung; phiếu hoặc thẻ phân vai.",
           "2. HS: SGK, vở bài tập Đạo đức 2."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -752,7 +772,10 @@
             ]
           ]
         ],
-        "title": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "........................................................................................................................"
+        ]
       }
     ]
   },
@@ -761,10 +784,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3",
+        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3 - Thời gian thực hiện: ... (TIẾT 3)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 5",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được việc làm thiết thực, phù hợp với lứa tuổi để thể hiện tình yêu quê hương.",
           "- Bước đầu nhận biết được vẻ đẹp của thiên nhiên và con người ở quê hương mình.",
@@ -772,20 +794,20 @@
           "- Tự chủ, tự học: Chủ động tham gia và hoàn thành nhiệm vụ.",
           "- Giao tiếp, hợp tác: Biết chia sẻ, phối hợp trong nhóm.",
           "- Giải quyết vấn đề, sáng tạo: Đưa ra ý tưởng, cách làm mới mẻ trong học tập và đời sống.",
+          "- Phát triển bản thân, điều chỉnh hành vi: Biết nhận ra đúng - sai để tự sửa đổi.",
           "3. Phẩm chất",
           "- Yêu nước: Tự hào, yêu quê hương, đất nước.",
           "- Trách nhiệm: Thực hiện tốt nhiệm vụ trong lớp, trong nhóm.",
           "- Chăm chỉ: Cần cù học tập và tham gia hoạt động.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Giáo dục QPAN: Giáo dục HS tình yêu quê hương, đất nước, tự hào về dân tộc Việt Nam; biết giữ gìn quê hương xanh - sạch - đẹp, giữ gìn an ninh, trật tự nơi ở là góp phần bảo vệ Tổ quốc."
         ],
         "dodung": [
           "1. GV: SGK, SGV, Vở bài tập Đạo đức 2; bộ tranh về quê hương em; bài hát “Màu xanh quê hương”; máy tính, tivi/máy chiếu; cây học tập và giấy ghi lời khuyên.",
           "2. HS: SGK, Vở bài tập Đạo đức 2; bút, giấy ghi lời khuyên."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Giáo dục QPAN: Giáo dục HS tình yêu quê hương, đất nước, tự hào về dân tộc Việt Nam; biết giữ gìn quê hương xanh - sạch - đẹp, giữ gìn an ninh, trật tự nơi ở là góp phần bảo vệ Tổ quốc.",
-          "........................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -947,7 +969,10 @@
             ]
           ]
         ],
-        "title": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "........................................................................................................................"
+        ]
       }
     ]
   },
@@ -956,14 +981,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO VÀ YÊU QUÝ BẠN BÈ - TUẦN 6",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện của sự kính trọng thầy giáo, cô giáo.",
           "- Thể hiện được hành động và lời nói kính trọng thầy giáo, cô giáo trong học tập và sinh hoạt hằng ngày.",
+          "- Biết điều chỉnh hành vi, thái độ phù hợp để thể hiện sự kính trọng với thầy cô.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự điều chỉnh hành vi, lời nói của bản thân cho phù hợp.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động học tập và sinh hoạt.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử, lời nói phù hợp trong các tình huống cần thể hiện sự kính trọng với thầy cô.",
           "3. Phẩm chất",
@@ -971,17 +997,15 @@
           "- Trách nhiệm: Có ý thức trong học tập, rèn luyện để thể hiện sự kính trọng.",
           "- Chăm chỉ: Siêng năng học tập, làm việc tốt để bày tỏ lòng kính trọng thầy cô.",
           "4. Tích hợp",
+          "- Quyền trẻ em: HS có quyền được học tập và được tôn trọng trong mối quan hệ với thầy cô; đồng thời có bổn phận kính trọng, biết ơn thầy giáo, cô giáo.",
           "- Tích hợp AI - YCCĐ 2.A1.2: HS hiểu AI có thể hỗ trợ thầy cô giảng bài nhưng tình cảm, sự quan tâm và động viên của thầy cô là điều AI không thể thay thế."
         ],
         "dodung": [
           "1. GV: SGK, SGV, bộ tranh bài học; máy tính, tivi/máy chiếu; bài hát “Bông hồng tặng cô”; hình ảnh SGK đã cắt đúng nội dung từng nhiệm vụ; mẫu thiệp đơn giản.",
           "2. HS: SGK, vở bài tập Đạo đức 2, giấy màu, bút màu, kéo và hồ dán an toàn."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Quyền trẻ em: HS có quyền được học tập và được tôn trọng trong mối quan hệ với thầy cô; đồng thời có bổn phận kính trọng, biết ơn thầy giáo, cô giáo.",
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1134,7 +1158,11 @@
             ]
           ]
         ],
-        "title": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1143,14 +1171,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO VÀ YÊU QUÝ BẠN BÈ - TUẦN 7",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện của sự kính trọng thầy giáo, cô giáo.",
           "- Thể hiện được hành động và lời nói kính trọng thầy giáo, cô giáo trong học tập và sinh hoạt hằng ngày.",
+          "- Biết điều chỉnh hành vi, thái độ phù hợp để thể hiện sự kính trọng với thầy cô.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự điều chỉnh hành vi, lời nói của bản thân cho phù hợp.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ, phối hợp cùng bạn trong hoạt động học tập và sinh hoạt.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử, lời nói phù hợp trong các tình huống cần thể hiện sự kính trọng với thầy cô.",
           "3. Phẩm chất",
@@ -1158,16 +1187,15 @@
           "- Trách nhiệm: Có ý thức trong học tập, rèn luyện để thể hiện sự kính trọng.",
           "- Chăm chỉ: Siêng năng học tập, làm việc tốt để bày tỏ lòng kính trọng thầy cô.",
           "4. Tích hợp",
+          "- Giáo dục đạo đức, lối sống: HS biết cư xử đúng mực, lễ phép với thầy cô; biết nói lời hay, làm việc tốt và xây dựng môi trường học tập thân thiện, đoàn kết.",
           "- Tích hợp năng lực số 2.5.CB1a: HS phân biệt được chuẩn mực hành vi đơn giản và biết sử dụng lời nói lễ phép, lịch sự khi nhắn tin hoặc gọi video chúc mừng thầy cô qua ứng dụng liên lạc dưới sự hướng dẫn của người lớn."
         ],
         "dodung": [
           "1. GV: SGK, SGV, bộ tranh bài học; máy tính, tivi/máy chiếu; hình ảnh SGK đã cắt đúng nội dung; mẫu tin nhắn/lời chúc lịch sự; mẫu thiệp đơn giản.",
           "2. HS: SGK, vở bài tập Đạo đức 2, thiệp đã làm ở tiết 1 (nếu có)."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Giáo dục đạo đức, lối sống: HS biết cư xử đúng mực, lễ phép với thầy cô; biết nói lời hay, làm việc tốt và xây dựng môi trường học tập thân thiện, đoàn kết.",
-          "................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1292,7 +1320,10 @@
             ]
           ]
         ],
-        "title": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1301,14 +1332,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: YÊU QUÝ BẠN BÈ - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 4: YÊU QUÝ BẠN BÈ - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO VÀ YÊU QUÝ BẠN BÈ - TUẦN 8",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện của tình bạn; biết thế nào là yêu quý và tôn trọng bạn bè.",
           "- Thực hiện được lời nói và hành động thể hiện sự yêu thương, giúp đỡ và đoàn kết với bạn trong lớp.",
+          "- Biết điều chỉnh hành vi khi giao tiếp với bạn; biết xin lỗi, cảm ơn và tha thứ đúng lúc.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự điều chỉnh hành vi khi giao tiếp với bạn, chủ động nhận lỗi và sửa lỗi.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ và cùng làm việc nhóm với bạn một cách hòa thuận.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp khi xảy ra mâu thuẫn nhỏ với bạn.",
           "3. Phẩm chất",
@@ -1316,17 +1348,15 @@
           "- Trách nhiệm: Có ý thức giữ gìn tình bạn, cư xử đúng mực trong lớp.",
           "- Chăm chỉ: Tích cực tham gia hoạt động cùng bạn, hỗ trợ bạn khi cần.",
           "4. Tích hợp",
+          "- Giáo dục đạo đức, lối sống: HS biết chia sẻ, không ích kỉ; biết xin lỗi, cảm ơn và tha thứ để giữ gìn tình bạn đẹp.",
           "- Tích hợp AI - YCCĐ 2.A3.1: HS nhận thức cần duy trì thái độ lịch sự khi tương tác với công nghệ để AI học được điều tích cực; biết dùng lời nói phù hợp, không xúc phạm và không cung cấp thông tin cá nhân."
         ],
         "dodung": [
           "1. GV: SGK, SGV, VBT Đạo đức 2; máy tính, tivi/máy chiếu; bài hát “Lớp chúng ta đoàn kết”; hình SGK được cắt đúng nội dung từng nhiệm vụ; thẻ/phiếu hình lá, hoa, quả để làm “Cây tình bạn”.",
           "2. HS: SGK, VBT Đạo đức 2, bút viết, bút màu."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "- Giáo dục đạo đức, lối sống: HS biết chia sẻ, không ích kỉ; biết xin lỗi, cảm ơn và tha thứ để giữ gìn tình bạn đẹp.",
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1475,7 +1505,11 @@
             ]
           ]
         ],
-        "title": "BÀI 4: YÊU QUÝ BẠN BÈ - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1484,15 +1518,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: YÊU QUÝ BẠN BÈ - SỐ TIẾT: 2",
+        "lessonTitle": "BÀI 4: YÊU QUÝ BẠN BÈ - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO VÀ YÊU QUÝ BẠN BÈ - TUẦN 9",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện của sự yêu quý bạn bè.",
           "- Thực hiện được hành động và lời nói thể hiện sự yêu quý, quan tâm, chia sẻ và giúp đỡ bạn bè.",
           "- Biết lựa chọn cách ứng xử phù hợp trong các tình huống bạn gặp khó khăn, có niềm vui hoặc chuyện buồn.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động điều chỉnh lời nói, hành động của bản thân trong quan hệ với bạn bè.",
           "- Giao tiếp và hợp tác: Biết trao đổi, phân công và phối hợp khi thảo luận, đóng vai.",
           "- Giải quyết vấn đề và sáng tạo: Biết đề xuất cách giúp đỡ bạn phù hợp, an toàn và khả thi.",
           "3. Phẩm chất",
@@ -1500,6 +1534,7 @@
           "- Trách nhiệm: Thực hiện việc làm đã cam kết, tôn trọng và bảo vệ bạn.",
           "- Chăm chỉ: Tích cực tham gia hoạt động nhóm, rèn luyện cách ứng xử đẹp.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Truyền thống đoàn kết các dân tộc ở tỉnh Trà Vinh - Trang 11 TLGDĐP Lớp 2 Trà Vinh): Phát huy truyền thống tương thân tương ái, gắn bó chan hòa giữa các bạn học sinh thuộc các dân tộc Kinh - Khmer - Hoa ở trường lớp Trà Vinh.",
           "- Giáo dục lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thương, đoàn kết, chia sẻ niềm vui và nỗi buồn với bạn bè; rèn lối sống nhân ái, nghĩa tình.",
           "- Quyền trẻ em và giáo dục nhân ái: Mọi bạn nhỏ đều có quyền được quan tâm, hỗ trợ khi gặp khó khăn; HS biết chia sẻ, quyên góp phù hợp để giúp bạn có hoàn cảnh khó khăn hoặc chịu ảnh hưởng bởi thiên tai."
         ],
@@ -1507,10 +1542,8 @@
           "1. GV: SGK, SGV, VBT Đạo đức 2; máy tính, tivi/máy chiếu; bài hát “Lớp chúng ta đoàn kết”; hình SGK được cắt đúng từng nhiệm vụ; thẻ tán thành/không tán thành; bảng kế hoạch giúp bạn.",
           "2. HS: SGK, VBT Đạo đức 2, thẻ ý kiến, bút viết."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -1611,6 +1644,14 @@
               "- HS lắng nghe, nêu các nguyên tắc: tự nguyện, đúng nhu cầu, đồ dùng an toàn, giữ kín thông tin riêng tư và nhờ người lớn hỗ trợ."
             ],
             [
+              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Chủ đề 2 GDĐP 2): “Ở trường lớp quê hương Trà Vinh chúng ta có nhiều bạn học sinh người Kinh, Khmer, Hoa cùng học chung một lớp. Các em thể hiện tình cảm yêu quý bạn bè như thế nào?”",
+              "- HS trả lời: Thân thiện, hòa đồng, chia sẻ đồ dùng học tập; giúp đỡ bạn khi gặp bài khó; tôn trọng tiếng nói và nét văn hóa truyền thống của bạn ạ."
+            ],
+            [
+              "- GV biểu dương: Tinh thần đoàn kết, yêu thương gắn bó keo sơn giữa các dân tộc là truyền thống quý báu ngàn đời của con người Trà Vinh chúng ta.",
+              "- HS vui vẻ đồng lòng cùng giữ gìn tình bạn đẹp."
+            ],
+            [
               "- GV nhận xét, kết luận: Yêu quý bạn bè là sẵn sàng giúp đỡ khi bạn gặp khó khăn, kể cả những người bạn xung quanh mình; cách giúp cần phù hợp, an toàn và tôn trọng.",
               "- HS ghi nhớ, lựa chọn một cách giúp đỡ vừa sức và phù hợp với lứa tuổi."
             ],
@@ -1654,7 +1695,11 @@
             ]
           ]
         ],
-        "title": "BÀI 4: YÊU QUÝ BẠN BÈ - SỐ TIẾT: 2"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1663,13 +1708,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC LỚP 2",
+        "lessonTitle": "THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ I - Thời gian thực hiện: ... (1 tiết)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận biết và thể hiện được tình cảm yêu mến quê hương, kính trọng thầy cô, đoàn kết và yêu quý bạn bè.",
           "- Biết bày tỏ cảm xúc, lựa chọn lời nói và thực hiện hành vi đạo đức phù hợp trong học tập, sinh hoạt hằng ngày.",
+          "- Biết phân biệt hành vi đúng - sai, tốt - chưa tốt qua các tình huống đạo đức gần gũi; bước đầu tự điều chỉnh hành vi của bản thân.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự nhận xét, điều chỉnh hành vi và chủ động thực hiện việc làm phù hợp.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, chia sẻ, phối hợp cùng bạn trong hoạt động nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp, đề xuất việc làm cụ thể trong các tình huống gần gũi.",
           "3. Phẩm chất",
@@ -1683,10 +1730,6 @@
           "2. HS: SGK Đạo đức 2, vở, bút màu, giấy A4; hình ảnh hoặc câu chuyện nhỏ về quê hương, thầy cô, bạn bè hay việc tốt đã làm."
         ],
         "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................................",
-          "................................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1801,7 +1844,11 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC LỚP 2"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................................",
+          "................................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1810,10 +1857,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 1)",
+        "lessonTitle": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 3: QUÝ TRỌNG THỜI GIAN",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện của việc quý trọng thời gian.",
           "- Nêu được vì sao phải quý trọng thời gian.",
@@ -1827,6 +1873,7 @@
           "- Trách nhiệm: Biết sắp xếp công việc hợp lí, hoàn thành nhiệm vụ đúng thời hạn, không làm lãng phí thời gian của bản thân và người khác.",
           "- Trung thực: Thực hiện đúng kế hoạch đã đặt ra, không viện lí do để trì hoãn hoặc né tránh công việc.",
           "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 6: Giáo sư Phạm Văn Bạch - Trang 35 TLGDĐP Lớp 2 Trà Vinh): Noi theo tấm gương Giáo sư Phạm Văn Bạch - người con ưu tú quê hương Trà Vinh luôn quý trọng thời gian, say mê học tập và nghiên cứu để cống hiến cho đất nước.",
           "- Lý tưởng cách mạng, đạo đức, lối sống: Sử dụng thời gian hợp lí, khoa học là biểu hiện của lối sống kỉ luật, có trách nhiệm và chăm chỉ; biết quý trọng từng phút giây để học tập, rèn luyện và làm việc có ích."
         ],
         "dodung": [
@@ -1834,11 +1881,6 @@
           "2. HS: SGK Đạo đức 2, vở bài tập, bảng con hoặc thẻ bày tỏ thái độ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -1932,6 +1974,18 @@
               "- HS lắng nghe, trao đổi và nêu được mối liên hệ giữa quý trọng thời gian với chăm chỉ, kỉ luật, trách nhiệm.\n- HS tự chọn một việc cụ thể: giảm thời gian xem ti vi, chuẩn bị sách vở từ tối, làm bài đúng giờ, không đi học muộn; nêu cách theo dõi việc thực hiện."
             ],
             [
+              "- GV giới thiệu tích hợp Giáo dục địa phương Trà Vinh (Chủ đề 6 GDĐP 2): Chiếu ảnh chân dung và giới thiệu: “Quê hương Trà Vinh chúng ta rất tự hào về Giáo sư Phạm Văn Bạch (quê ở Trà Cú, Trà Vinh). Từ thuở nhỏ, bác luôn quý trọng từng giờ, từng phút, lập thời gian biểu khoa học, chăm chỉ đọc sách và học tập không ngừng nghỉ, sau này trở thành một nhà hoạt động cách mạng và nhà luật học xuất sắc của đất nước.”",
+              "- HS chăm chú theo dõi, khâm phục tấm gương danh nhân quê hương."
+            ],
+            [
+              "- GV hỏi: “Học tập tấm gương bác Phạm Văn Bạch, em sẽ sử dụng thời gian học tập và sinh hoạt mỗi ngày như thế nào?”",
+              "- HS trả lời: Em sẽ không la cà, mải chơi điện thoại; đi học đúng giờ; học bài và làm việc nhà đúng thời gian quy định ạ."
+            ],
+            [
+              "- GV khen ngợi: Biết quý trọng thời gian từ hôm nay sẽ giúp các em trở thành những người có ích cho quê hương Trà Vinh sau này.",
+              "- HS đồng thanh cam kết thực hiện thời gian biểu hợp lí."
+            ],
+            [
               "4. VẬN DỤNG TRẢI NGHIỆM (2 phút)\n*Mục tiêu:\n- Ghi nhớ, khắc sâu nội dung bài và bước đầu vận dụng vào cuộc sống hằng ngày.\n*Cách tiến hành:"
             ],
             [
@@ -1944,7 +1998,12 @@
             ]
           ]
         ],
-        "title": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -1953,15 +2012,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 2)",
+        "lessonTitle": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 3: QUÝ TRỌNG THỜI GIAN",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận xét được hậu quả có thể xảy ra khi sử dụng thời gian chưa hợp lí.",
           "- Biết đưa ra lời khuyên phù hợp cho bạn trong một số tình huống gần gũi.",
           "- Thực hiện được việc sử dụng thời gian hợp lí; bước đầu lập và thực hiện thời gian biểu trong một tuần.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự đánh giá, sắp xếp và điều chỉnh thời gian học tập, vui chơi, nghỉ ngơi, giúp việc nhà.",
           "- Giao tiếp và hợp tác: Biết thảo luận, lắng nghe, đưa ra lời khuyên lịch sự và phối hợp cùng bạn.",
           "- Giải quyết vấn đề và sáng tạo: Dự đoán hậu quả, đề xuất giải pháp và vận dụng công cụ hỗ trợ nhắc việc phù hợp.",
           "3. Phẩm chất",
@@ -1969,19 +2028,14 @@
           "- Trách nhiệm: Biết quý trọng thời gian của bản thân và người khác; thực hiện việc đã được giao.",
           "- Trung thực: Lập thời gian biểu phù hợp với thực tế và cố gắng thực hiện đúng kế hoạch.",
           "4. Tích hợp",
-          "- Năng lực số 1.3.CB1a: Nhận biết được nơi để sắp xếp dữ liệu, thông tin một cách đơn giản trong môi trường có cấu trúc; nhận diện ứng dụng Lịch hoặc đồng hồ số có thể hỗ trợ sắp xếp công việc."
+          "- Năng lực số 1.3.CB1a: Nhận biết được nơi để sắp xếp dữ liệu, thông tin một cách đơn giản trong môi trường có cấu trúc; nhận diện ứng dụng Lịch hoặc đồng hồ số có thể hỗ trợ sắp xếp công việc.",
+          "- AI - YCCĐ 2.A2.1: Nhận biết một số ứng dụng AI/trợ lí ảo, thiết bị thông minh có thể hỗ trợ nhắc việc hoặc tiết kiệm thời gian; hiểu con người vẫn phải tự kiểm tra, chủ động thực hiện và không phụ thuộc vào công nghệ."
         ],
         "dodung": [
           "1. GV: Tranh SGK được cắt theo từng nhiệm vụ; mẫu thời gian biểu; hình giao diện ứng dụng Lịch; video/hình ảnh robot hút bụi, loa thông minh hoặc lời nhắc của trợ lí ảo; máy tính, máy chiếu.",
           "2. HS: SGK Đạo đức 2, vở bài tập, bút chì, bút màu; kết quả theo dõi việc làm đúng giờ từ tiết 1."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- AI - YCCĐ 2.A2.1: Nhận biết một số ứng dụng AI/trợ lí ảo, thiết bị thông minh có thể hỗ trợ nhắc việc hoặc tiết kiệm thời gian; hiểu con người vẫn phải tự kiểm tra, chủ động thực hiện và không phụ thuộc vào công nghệ.",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2049,7 +2103,12 @@
             ]
           ]
         ],
-        "title": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2058,10 +2117,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 1)",
+        "lessonTitle": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 4: NHẬN LỖI VÀ SỬA LỖI",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện của nhận lỗi, sửa lỗi.",
           "- Nêu được vì sao phải nhận lỗi, sửa lỗi.",
@@ -2083,11 +2141,6 @@
           "2. HS: SGK Đạo đức 2, vở bài tập, bảng con hoặc thẻ bày tỏ thái độ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2215,7 +2268,12 @@
             ]
           ]
         ],
-        "title": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2224,10 +2282,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 2)",
+        "lessonTitle": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 4: NHẬN LỖI VÀ SỬA LỖI",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố được một số biểu hiện và ý nghĩa của việc nhận lỗi, sửa lỗi.",
           "- Thực hành nói lời xin lỗi và lựa chọn cách sửa lỗi phù hợp trong các tình huống gần gũi.",
@@ -2235,6 +2292,7 @@
           "2. Năng lực chung",
           "- Tự chủ và tự học: Biết tự đánh giá hành vi, tiếp nhận phản hồi và chủ động sửa lỗi để tiến bộ.",
           "- Giao tiếp và hợp tác: Biết thảo luận, phân vai, thực hành lời xin lỗi chân thành và nhận xét bạn bằng lời nói lịch sự.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, đề xuất cách khắc phục hậu quả và điều chỉnh hành vi phù hợp.",
           "3. Phẩm chất",
           "- Trung thực: Dám nhận lỗi, nói đúng sự việc và không đổ lỗi cho người khác.",
           "- Trách nhiệm: Thực hiện hành động sửa sai và rút kinh nghiệm sau mỗi lỗi.",
@@ -2248,11 +2306,6 @@
           "2. HS: SGK Đạo đức 2, vở bài tập, thẻ bày tỏ thái độ; câu chuyện hoặc việc làm đã chuẩn bị từ tiết 1."
         ],
         "activities": [],
-        "dieuchinh": [
-          "............................................................................................................................................................",
-          "............................................................................................................................................................",
-          "............................................................................................................................................................"
-        ],
         "tables": [
           [
             [
@@ -2419,7 +2472,12 @@
             ]
           ]
         ],
-        "title": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................",
+          "............................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -2428,16 +2486,16 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 1)",
+        "lessonTitle": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 5: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN VÀ GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện của việc biết bảo quản đồ dùng cá nhân.",
           "- Nêu được vì sao phải bảo quản đồ dùng cá nhân.",
           "- Thực hiện được việc bảo quản đồ dùng cá nhân.",
           "- Nhắc nhở bạn bè, người thân bảo quản đồ dùng cá nhân.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tích cực tham gia học tập, biết tự kiểm tra và điều chỉnh cách sử dụng đồ dùng của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, giúp đỡ nhau trong học tập; cùng nhóm hoàn thành nhiệm vụ theo sự hướng dẫn của GV.",
           "- Giải quyết vấn đề và sáng tạo: Biết quan sát, phân tích tình huống và đề xuất cách bảo quản đồ dùng cá nhân phù hợp.",
           "3. Phẩm chất",
@@ -2445,16 +2503,14 @@
           "- Chăm chỉ: Tích cực sắp xếp, vệ sinh đồ dùng ở nhà và ở trường.",
           "- Trung thực: Thật thà khi tự đánh giá cách bảo quản đồ dùng của bản thân và nhận xét bạn.",
           "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục HS ý thức trách nhiệm, sống khoa học; biết giữ gìn, sắp xếp và bảo quản đồ dùng cá nhân gọn gàng, sạch sẽ."
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục HS ý thức trách nhiệm, sống khoa học; biết giữ gìn, sắp xếp và bảo quản đồ dùng cá nhân gọn gàng, sạch sẽ.",
+          "- Giáo dục tiết kiệm: HS biết trân trọng công sức của cha mẹ, sử dụng đồ dùng cá nhân đúng cách, tránh hư hỏng và lãng phí."
         ],
         "dodung": [
           "1. GV: Tranh SGK được cắt theo từng nhiệm vụ; câu chuyện, tình huống về giữ gìn đồ dùng cá nhân; bộ tranh về ý thức trách nhiệm theo Thông tư 43/2020/TT-BGDĐT; máy tính, máy chiếu; thẻ tên đồ dùng.",
           "2. HS: SGK Đạo đức 2, vở bài tập; một đồ dùng cá nhân nhỏ để thực hành sắp xếp, bảo quản."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giáo dục tiết kiệm: HS biết trân trọng công sức của cha mẹ, sử dụng đồ dùng cá nhân đúng cách, tránh hư hỏng và lãng phí."
-        ],
         "tables": [
           [
             [
@@ -2582,7 +2638,9 @@
             ]
           ]
         ],
-        "title": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................"
+        ]
       }
     ]
   },
@@ -2591,32 +2649,30 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 2)",
+        "lessonTitle": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 5: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN VÀ GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố được một số biểu hiện và ý nghĩa của việc biết bảo quản đồ dùng cá nhân.",
           "- Thực hiện được việc bảo quản đồ dùng cá nhân trong những tình huống gần gũi.",
           "- Biết đưa ra lời khuyên phù hợp và nhắc nhở bạn bè, người thân bảo quản đồ dùng cá nhân.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự đánh giá thói quen sử dụng đồ dùng và chủ động điều chỉnh.",
           "- Giao tiếp và hợp tác: Biết thảo luận, bày tỏ thái độ, đưa ra lời khuyên lịch sự và tiếp nhận góp ý.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách bảo quản đồ dùng thông thường và đồ dùng số an toàn.",
           "3. Phẩm chất",
           "- Chăm chỉ: Thường xuyên vệ sinh, sắp xếp đồ dùng.",
           "- Trách nhiệm: Giữ gìn đồ dùng của bản thân, nhắc nhở người khác bằng lời nói phù hợp.",
+          "- Tiết kiệm: Sử dụng đồ dùng đúng mục đích, bền lâu, tránh lãng phí.",
           "4. Tích hợp",
-          "- Năng lực số 4.1.CB1a: Nhận biết được cách bảo vệ nội dung số và sử dụng thiết bị số an toàn một cách đơn giản; hình thành ý thức bảo quản máy tính, máy tính bảng và tệp tin học tập như tài sản cá nhân."
+          "- Năng lực số 4.1.CB1a: Nhận biết được cách bảo vệ nội dung số và sử dụng thiết bị số an toàn một cách đơn giản; hình thành ý thức bảo quản máy tính, máy tính bảng và tệp tin học tập như tài sản cá nhân.",
+          "- AI - YCCĐ 2.A2.1: HS nhận biết một số thiết bị thông minh/thiết bị có ứng dụng AI trong gia đình và hình thành ý thức bảo quản, sử dụng đúng mục đích, không làm ướt hoặc bấm tùy tiện."
         ],
         "dodung": [
           "1. GV: Tranh SGK được cắt theo từng nhiệm vụ; thẻ mặt cười - mặt mếu; phiếu học tập; hình minh họa máy tính bảng và một số thiết bị thông minh; máy tính, máy chiếu.",
           "2. HS: SGK Đạo đức 2, vở bài tập; bút màu; phiếu học tập."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Tiết kiệm: Sử dụng đồ dùng đúng mục đích, bền lâu, tránh lãng phí.",
-          "- AI - YCCĐ 2.A2.1: HS nhận biết một số thiết bị thông minh/thiết bị có ứng dụng AI trong gia đình và hình thành ý thức bảo quản, sử dụng đúng mục đích, không làm ướt hoặc bấm tùy tiện."
-        ],
         "tables": [
           [
             [
@@ -2736,7 +2792,9 @@
             ]
           ]
         ],
-        "title": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................"
+        ]
       }
     ]
   },
@@ -2745,33 +2803,32 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 1)",
+        "lessonTitle": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 5: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN VÀ GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số biểu hiện của việc biết bảo quản đồ dùng gia đình.",
           "- Nêu được vì sao phải bảo quản đồ dùng gia đình.",
           "- Thực hiện được một số việc làm phù hợp để bảo quản đồ dùng gia đình.",
           "- Biết nhắc nhở bạn bè, người thân bảo quản đồ dùng gia đình.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, tự nhận xét cách sử dụng đồ dùng trong gia đình và điều chỉnh việc làm của bản thân.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phân công nhiệm vụ và cùng nhóm thống nhất cách bảo quản đồ dùng.",
           "- Giải quyết vấn đề và sáng tạo: Biết phân tích tình huống, lựa chọn cách bảo quản phù hợp với từng loại đồ dùng gia đình.",
           "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức giữ gìn, sắp xếp và sử dụng đồ dùng chung của gia đình đúng cách.",
           "- Chăm chỉ: Tích cực tham gia những việc nhà vừa sức như lau chùi, sắp xếp, vệ sinh đồ dùng.",
+          "- Tiết kiệm: Biết sử dụng đồ dùng bền lâu, hạn chế hư hỏng, lãng phí điện năng và tài nguyên.",
           "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục HS ý thức giữ gìn, sắp xếp và bảo quản đồ dùng gia đình gọn gàng, ngăn nắp; biết trân trọng công sức lao động và sử dụng đồ dùng chung tiết kiệm, có trách nhiệm."
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M24): Có ý thức bảo quản các đồ dùng, thiết bị chứa nước trong gia đình (van vòi nước, xô chậu, lu/bể chứa nước mưa); sử dụng tiết kiệm và không để rò rỉ nước sạch.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục HS ý thức giữ gìn, sắp xếp và bảo quản đồ dùng gia đình gọn gàng, ngăn nắp; biết trân trọng công sức lao động và sử dụng đồ dùng chung tiết kiệm, có trách nhiệm.",
+          "- Bảo vệ môi trường, tiết kiệm năng lượng: HS biết tắt thiết bị điện khi không sử dụng, đóng cửa tủ lạnh, cửa phòng điều hòa đúng lúc và bảo quản đồ dùng bền lâu để tránh lãng phí điện năng, nguyên liệu và tài nguyên của gia đình."
         ],
         "dodung": [
           "1. GV: Tranh SGK được cắt theo từng nhiệm vụ; bài hát “Cái quạt máy”; thẻ mặt cười - mặt mếu; bộ tranh về ý thức trách nhiệm theo Thông tư 43/2020/TT-BGDĐT; máy tính, máy chiếu.",
           "2. HS: SGK Đạo đức 2, vở bài tập; bút màu; một số hình ảnh hoặc câu chuyện ngắn về việc giữ gìn đồ dùng trong gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Tiết kiệm: Biết sử dụng đồ dùng bền lâu, hạn chế hư hỏng, lãng phí điện năng và tài nguyên.",
-          "- Bảo vệ môi trường, tiết kiệm năng lượng: HS biết tắt thiết bị điện khi không sử dụng, đóng cửa tủ lạnh, cửa phòng điều hòa đúng lúc và bảo quản đồ dùng bền lâu để tránh lãng phí điện năng, nguyên liệu và tài nguyên của gia đình."
-        ],
         "tables": [
           [
             [
@@ -2867,6 +2924,14 @@
               "- HS nhận biết những hành vi gây lãng phí điện, nước và tài nguyên.\n- HS nêu tác hại: tốn tiền, làm đồ dùng nhanh hỏng và tăng rác thải.\n- HS cam kết thực hiện một việc tiết kiệm năng lượng phù hợp với lứa tuổi."
             ],
             [
+              "- GV hỏi dẫn tích hợp Tiết kiệm và bảo vệ nguồn nước (Mã HĐ Mizuiku M10, M24): “Trong gia đình em, có những đồ dùng nào chứa nước và dẫn nước? Em cần bảo quản chúng như thế nào để không thất thoát, lãng phí nước sạch?”",
+              "- HS trả lời: Có vòi nước, vòi hoa sen, xô chậu, téc nước và lu nước mưa; khi dùng xong phải vặn nhẹ nhàng và khóa chặt vòi; đậy kín nắp lu nước mưa để giữ sạch nguồn nước ạ."
+            ],
+            [
+              "- GV kết luận: Bảo quản tốt các đồ dùng chứa nước giúp gia đình luôn có nguồn nước sạch để sử dụng và góp phần tiết kiệm tài nguyên nước cho xã hội.",
+              "- HS lắng nghe và thực hiện bảo quản tại gia đình."
+            ],
+            [
               "3. LUYỆN TẬP (6 phút)\n*Mục tiêu:\n- Củng cố kiến thức đã học; biết bày tỏ thái độ trước việc làm đúng, chưa đúng trong bảo quản đồ dùng gia đình.\n*Cách tiến hành:"
             ],
             [
@@ -2909,7 +2974,9 @@
             ]
           ]
         ],
-        "title": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................"
+        ]
       }
     ]
   },
@@ -2918,31 +2985,29 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 2)",
+        "lessonTitle": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 5: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN VÀ GIA ĐÌNH",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố được một số biểu hiện và ý nghĩa của việc biết bảo quản đồ dùng gia đình.",
           "- Thực hiện được việc bảo quản đồ dùng gia đình trong những tình huống gần gũi.",
           "- Biết đưa ra lời khuyên phù hợp và nhắc nhở bạn bè, người thân cùng bảo quản đồ dùng gia đình.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự đánh giá việc giữ gìn đồ dùng ở nhà và chủ động điều chỉnh thói quen chưa phù hợp.",
           "- Giao tiếp và hợp tác: Biết trao đổi, đưa ra lời khuyên lịch sự, thực hành đóng vai và tiếp nhận góp ý của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp khi gặp hành vi làm hỏng, sử dụng sai hoặc chưa biết bảo quản đồ dùng gia đình.",
           "3. Phẩm chất",
           "- Trách nhiệm: Chủ động giữ gìn tài sản chung và nhắc nhở người khác bằng lời nói phù hợp.",
           "- Chăm chỉ: Tích cực tham gia những việc nhà vừa sức để vệ sinh, sắp xếp đồ dùng.",
-          "4. Tích hợp"
+          "- Tiết kiệm: Biết sử dụng thiết bị và đồ dùng đúng mục đích, hạn chế hư hỏng, lãng phí.",
+          "4. Tích hợp",
+          "- AI - YCCĐ 2.A2.1: HS nhận biết một số thiết bị thông minh hoặc thiết bị có ứng dụng AI trong gia đình; biết các thiết bị này có thể hỗ trợ sinh hoạt nhưng cần được bảo quản, sử dụng đúng mục đích, có sự hướng dẫn của người lớn và không bấm tùy tiện."
         ],
         "dodung": [
           "1. GV: Tranh SGK được cắt theo từng nhiệm vụ; thẻ tình huống; hình ảnh một số thiết bị thông minh trong gia đình; phiếu tự đánh giá; máy tính, máy chiếu.",
           "2. HS: SGK Đạo đức 2, vở bài tập; bút màu; hình ảnh hoặc câu chuyện đã sưu tầm về việc bảo quản đồ dùng gia đình."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Tiết kiệm: Biết sử dụng thiết bị và đồ dùng đúng mục đích, hạn chế hư hỏng, lãng phí.",
-          "- AI - YCCĐ 2.A2.1: HS nhận biết một số thiết bị thông minh hoặc thiết bị có ứng dụng AI trong gia đình; biết các thiết bị này có thể hỗ trợ sinh hoạt nhưng cần được bảo quản, sử dụng đúng mục đích, có sự hướng dẫn của người lớn và không bấm tùy tiện."
-        ],
         "tables": [
           [
             [
@@ -3031,7 +3096,9 @@
             ]
           ]
         ],
-        "title": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................"
+        ]
       }
     ]
   },
@@ -3040,7 +3107,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC LỚP 2",
+        "lessonTitle": "ÔN TẬP TỔNG HỢP - Thời gian thực hiện: ... (1 tiết)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3049,21 +3116,19 @@
           "- Thực hiện được một số việc làm phù hợp để bảo quản đồ dùng gia đình.",
           "- Biết nhắc nhở bạn bè, người thân cùng quý trọng thời gian và bảo quản đồ dùng bằng lời nói lịch sự, phù hợp.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự đánh giá việc sử dụng thời gian, giữ gìn đồ dùng của bản thân và chủ động điều chỉnh thói quen chưa phù hợp.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, chia sẻ kinh nghiệm, nhận xét và góp ý cho bạn bằng lời nói lịch sự.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn, đề xuất cách sử dụng thời gian và bảo quản đồ dùng phù hợp trong những tình huống gần gũi.",
           "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức sử dụng thời gian hợp lí, giữ gìn đồ dùng cá nhân và đồ dùng gia đình; biết nhắc nhở người khác cùng thực hiện.",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động ôn tập, thực hành và chủ động hoàn thành nhiệm vụ."
+          "- Chăm chỉ: Tích cực tham gia các hoạt động ôn tập, thực hành và chủ động hoàn thành nhiệm vụ.",
+          "- Tiết kiệm: Biết sử dụng đồ dùng đúng mục đích, bảo quản để dùng bền lâu và tránh lãng phí."
         ],
         "dodung": [
           "1. GV: SGK Đạo đức 2; thẻ tình huống; phiếu tự đánh giá; giấy khổ lớn, bút dạ; máy tính, máy chiếu và bài hát phù hợp với hoạt động khởi động.",
           "2. HS: SGK Đạo đức 2, vở bài tập; bút màu; chuẩn bị một việc làm thực tế về quý trọng thời gian hoặc bảo quản đồ dùng để chia sẻ trước lớp."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Tiết kiệm: Biết sử dụng đồ dùng đúng mục đích, bảo quản để dùng bền lâu và tránh lãng phí.",
-          "...................................................................................................................."
-        ],
         "tables": [
           [
             [
@@ -3170,7 +3235,10 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY MÔN ĐẠO ĐỨC LỚP 2"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................................................",
+          "...................................................................................................................."
+        ]
       }
     ]
   },
@@ -3179,14 +3247,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 1)",
+        "lessonTitle": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết và phân biệt được cảm xúc tích cực và cảm xúc tiêu cực.",
           "- Nêu được ảnh hưởng của các loại cảm xúc đối với bản thân và những người xung quanh.",
+          "- Bước đầu biết nhận diện, gọi tên và điều chỉnh cảm xúc trong những tình huống gần gũi.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự nhận thức cảm xúc, tự điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết chia sẻ cảm xúc, lắng nghe và ứng xử phù hợp với người khác.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng hiểu biết về cảm xúc để dự đoán và xử lí tình huống trong học tập, cuộc sống.",
           "3. Phẩm chất",
@@ -3194,6 +3263,7 @@
           "- Trách nhiệm: Biết chịu trách nhiệm về cảm xúc, hành vi của mình và tôn trọng cảm xúc của người khác.",
           "- Nhân ái: Biết lắng nghe, đồng cảm, không cười chê hoặc làm tổn thương bạn.",
           "4. Tích hợp",
+          "- Quyền con người: HS có quyền được bộc lộ và được tôn trọng cảm xúc; có quyền được bảo vệ khỏi trêu chọc, cô lập, bắt nạt học đường.",
           "- Năng lực số 2.6.CB1a: HS biết lựa chọn biểu tượng cảm xúc (Emoji) hoặc ảnh đại diện (Avatar) thân thiện để thể hiện và lan tỏa cảm xúc tích cực trên môi trường số."
         ],
         "dodung": [
@@ -3201,9 +3271,6 @@
           "2. HS: SGK Đạo đức 2, vở bài tập; bút màu; một số thẻ mặt cười, mặt buồn hoặc biểu tượng cảm xúc."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Quyền con người: HS có quyền được bộc lộ và được tôn trọng cảm xúc; có quyền được bảo vệ khỏi trêu chọc, cô lập, bắt nạt học đường."
-        ],
         "tables": [
           [
             [
@@ -3347,7 +3414,9 @@
             ]
           ]
         ],
-        "title": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................"
+        ]
       }
     ]
   },
@@ -3356,31 +3425,30 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 2)",
+        "lessonTitle": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết và phân biệt được cảm xúc tích cực và cảm xúc tiêu cực.",
           "- Nêu được ảnh hưởng của các loại cảm xúc đối với bản thân và những người xung quanh.",
+          "- Biết thể hiện cảm xúc phù hợp, bước đầu điều chỉnh cảm xúc và hành vi trong tình huống cụ thể.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Biết tự nhận thức cảm xúc, tự điều chỉnh hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết chia sẻ cảm xúc, lắng nghe, đóng vai và ứng xử phù hợp với người khác.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng hiểu biết về cảm xúc để xử lí tình huống trong học tập, cuộc sống.",
           "3. Phẩm chất",
           "- Trách nhiệm: Biết chịu trách nhiệm về lời nói, hành vi khi thể hiện cảm xúc.",
           "- Nhân ái: Biết đồng cảm, động viên, không cười chê hoặc làm tổn thương người khác.",
           "- Chăm chỉ: Tích cực tham gia trò chơi, thảo luận và thực hành đóng vai.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Giáo dục đạo đức, lối sống: HS biết thể hiện cảm xúc phù hợp, tôn trọng người khác, kiềm chế cảm xúc tiêu cực và hình thành cách ứng xử văn minh, hòa thuận.",
+          "- AI – YCCĐ 2.A1.1: HS nhận ra AI/robot có thể mô phỏng biểu hiện cảm xúc nhưng không có cảm xúc thật; từ đó trân trọng sự đồng cảm và quan tâm chân thành giữa con người với con người."
         ],
         "dodung": [
           "1. GV: Nhạc bài hát “Niềm vui của em”; tranh SGK được cắt theo từng nhiệm vụ; thẻ tình huống, thẻ cảm xúc; video ngắn về robot mô phỏng cảm xúc; máy tính, máy chiếu.",
           "2. HS: SGK Đạo đức 2, vở bài tập; thẻ mặt cười, mặt buồn; chuẩn bị một tình huống cảm xúc để chia sẻ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Giáo dục đạo đức, lối sống: HS biết thể hiện cảm xúc phù hợp, tôn trọng người khác, kiềm chế cảm xúc tiêu cực và hình thành cách ứng xử văn minh, hòa thuận.",
-          "- AI – YCCĐ 2.A1.1: HS nhận ra AI/robot có thể mô phỏng biểu hiện cảm xúc nhưng không có cảm xúc thật; từ đó trân trọng sự đồng cảm và quan tâm chân thành giữa con người với con người."
-        ],
         "tables": [
           [
             [
@@ -3531,7 +3599,9 @@
             ]
           ]
         ],
-        "title": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................"
+        ]
       }
     ]
   },
@@ -3540,14 +3610,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 1)",
+        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số cách kiềm chế cảm xúc tiêu cực.",
           "- Thực hiện được việc kiềm chế cảm xúc tiêu cực phù hợp trong những tình huống gần gũi.",
+          "- Biết phát triển bản thân, điều chỉnh cảm xúc và hành vi.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động thực hiện, hoàn thành nhiệm vụ học tập; biết tự nhận diện và điều chỉnh cảm xúc.",
           "- Giao tiếp và hợp tác: Biết trao đổi, lắng nghe, phối hợp với bạn khi thảo luận và chia sẻ.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức để phân tích tình huống, lựa chọn cách kiềm chế cảm xúc phù hợp.",
           "3. Phẩm chất",
@@ -3555,6 +3626,7 @@
           "- Trung thực: Chia sẻ đúng cảm xúc, trải nghiệm của bản thân và tôn trọng sự thật.",
           "- Nhân ái: Biết lắng nghe, không chế giễu cảm xúc của bạn và sẵn sàng tìm người hỗ trợ.",
           "4. Tích hợp",
+          "- Quyền con người: HS có quyền được chăm sóc sức khỏe tinh thần, bày tỏ cảm xúc, ý kiến và tìm kiếm sự hỗ trợ từ người lớn tin cậy; biết tôn trọng cảm xúc, quyền riêng tư và an toàn của bạn.",
           "- Năng lực số 4.3.CB1a: HS nhận biết cách đơn giản để tránh rủi ro, đe dọa đến sức khỏe thể chất và tinh thần khi sử dụng công nghệ số; biết rời khỏi màn hình và báo người lớn khi gặp nội dung tiêu cực hoặc bị bắt nạt trên môi trường số."
         ],
         "dodung": [
@@ -3562,9 +3634,6 @@
           "2. HS: SGK Đạo đức 2, vở bài tập; bút, giấy nháp."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Quyền con người: HS có quyền được chăm sóc sức khỏe tinh thần, bày tỏ cảm xúc, ý kiến và tìm kiếm sự hỗ trợ từ người lớn tin cậy; biết tôn trọng cảm xúc, quyền riêng tư và an toàn của bạn."
-        ],
         "tables": [
           [
             [
@@ -3716,7 +3785,9 @@
             ]
           ]
         ],
-        "title": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................................"
+        ]
       }
     ]
   },
@@ -3725,31 +3796,30 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 2)",
+        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được cách kiềm chế cảm xúc tiêu cực.",
           "- Thực hiện được việc kiềm chế cảm xúc tiêu cực phù hợp qua các tình huống.",
+          "- Biết điều chỉnh hành vi, ứng xử văn minh và tìm sự hỗ trợ khi cần.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động thực hành cách điều chỉnh cảm xúc, hoàn thành nhiệm vụ cá nhân.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, phân công và đóng vai cùng bạn.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn, giải thích và thực hành cách ứng xử phù hợp trong tình huống.",
           "3. Phẩm chất",
           "- Trách nhiệm: Biết chịu trách nhiệm về lời nói, hành động; chủ động sửa cách ứng xử chưa phù hợp.",
           "- Nhân ái: Không trêu chọc, không cô lập bạn; biết đồng cảm, động viên và giúp đỡ.",
           "- Trung thực: Chia sẻ đúng suy nghĩ, cảm xúc và nhận xét tình huống khách quan.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS rèn cách ứng xử văn minh, biết kiềm chế cảm xúc; không trêu chọc, không cô lập bạn; biết tìm sự hỗ trợ để xây dựng tập thể đoàn kết.",
+          "- AI – YCCĐ 2.B1.1: HS giữ thái độ công bằng, không để thông tin thiên kiến hoặc lời gợi ý thiếu căn cứ từ AI làm ảnh hưởng cảm xúc và cách đối xử với người khác."
         ],
         "dodung": [
           "1. GV: Tranh SGK được cắt theo từng nhiệm vụ; thẻ mặt cười/mặt mếu; phiếu tình huống; một ví dụ lời gợi ý do AI tạo; máy tính, máy chiếu.",
           "2. HS: SGK Đạo đức 2, VBT, bút, giấy nháp."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Lý tưởng cách mạng, đạo đức, lối sống: HS rèn cách ứng xử văn minh, biết kiềm chế cảm xúc; không trêu chọc, không cô lập bạn; biết tìm sự hỗ trợ để xây dựng tập thể đoàn kết.",
-          "- AI – YCCĐ 2.B1.1: HS giữ thái độ công bằng, không để thông tin thiên kiến hoặc lời gợi ý thiếu căn cứ từ AI làm ảnh hưởng cảm xúc và cách đối xử với người khác."
-        ],
         "tables": [
           [
             [
@@ -3889,7 +3959,9 @@
             ]
           ]
         ],
-        "title": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................................"
+        ]
       }
     ]
   },
@@ -3898,13 +3970,13 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 3)",
+        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 3) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được cách kiềm chế cảm xúc tiêu cực.",
           "- Thực hiện được việc kiềm chế cảm xúc tiêu cực phù hợp qua hoạt động đóng vai và xử lí tình huống.",
+          "- Biết phát triển bản thân, điều chỉnh cảm xúc và hành vi trong cuộc sống hằng ngày.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Chủ động lựa chọn, thực hành cách kiềm chế cảm xúc và tự đánh giá hành vi của bản thân.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi, phân công và phối hợp với bạn khi đóng vai.",
@@ -3913,16 +3985,14 @@
           "- Trách nhiệm: Biết chịu trách nhiệm về lời nói, hành động; chủ động tìm sự hỗ trợ khi cần.",
           "- Nhân ái: Biết tôn trọng, cảm thông, chia sẻ; không trêu chọc hoặc cô lập bạn.",
           "- Trung thực: Chia sẻ đúng cảm xúc và thực hiện vai diễn nghiêm túc, phù hợp.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: HS rèn ứng xử văn minh, biết kiềm chế cảm xúc, tôn trọng bạn bè, không trêu chọc hoặc cô lập bạn; biết tìm sự hỗ trợ để xây dựng tập thể đoàn kết."
         ],
         "dodung": [
           "1. GV: Tranh SGK được cắt theo từng nhiệm vụ; phiếu tình huống; nhạc thư giãn; mẫu sổ nhật kí cảm xúc; máy tính, máy chiếu.",
           "2. HS: SGK Đạo đức 2, VBT, bút, giấy nháp."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Lý tưởng cách mạng, đạo đức, lối sống: HS rèn ứng xử văn minh, biết kiềm chế cảm xúc, tôn trọng bạn bè, không trêu chọc hoặc cô lập bạn; biết tìm sự hỗ trợ để xây dựng tập thể đoàn kết."
-        ],
         "tables": [
           [
             [
@@ -4039,7 +4109,9 @@
             ]
           ]
         ],
-        "title": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 3)"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................................"
+        ]
       }
     ]
   },
@@ -4048,14 +4120,14 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 1)",
+        "lessonTitle": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số tình huống cần tìm kiếm sự hỗ trợ khi ở nhà.",
           "- Nêu được vì sao phải tìm kiếm sự hỗ trợ khi ở nhà.",
           "- Bước đầu thực hiện được việc tìm kiếm sự hỗ trợ phù hợp, an toàn khi ở nhà.",
+          "- Thông qua các hoạt động, rèn năng lực điều chỉnh hành vi và phát triển bản thân.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự nhận biết khi nào cần giúp đỡ; chủ động tìm người hỗ trợ để bảo đảm an toàn.",
           "- Giao tiếp và hợp tác: Biết trình bày rõ ràng, lễ phép khi nhờ hỗ trợ; biết lắng nghe và trao đổi với bạn.",
@@ -4063,17 +4135,15 @@
           "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức giữ an toàn cho bản thân, báo người lớn khi gặp nguy cơ hoặc khó khăn.",
           "- Nhân ái: Biết quan tâm, giúp đỡ người thân, bạn bè; cư xử nhẹ nhàng và tôn trọng khi giao tiếp.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Quyền con người: Trẻ em có quyền được bảo vệ, được an toàn, được lắng nghe và được người lớn hỗ trợ khi gặp khó khăn, nguy hiểm.",
+          "- Kĩ năng phòng chống xâm hại: Khi có người làm em khó chịu, chạm vào cơ thể hoặc yêu cầu giữ bí mật khiến em lo sợ, HS biết nói “không”, rời khỏi nơi nguy hiểm và báo ngay với người lớn tin cậy."
         ],
         "dodung": [
           "1. Giáo viên: Tranh SGK được cắt theo từng nhiệm vụ; thẻ tình huống; phiếu “Người em tin cậy”; máy tính, máy chiếu.",
           "2. Học sinh: SGK Đạo đức 2, vở, bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Quyền con người: Trẻ em có quyền được bảo vệ, được an toàn, được lắng nghe và được người lớn hỗ trợ khi gặp khó khăn, nguy hiểm.",
-          "- Kĩ năng phòng chống xâm hại: Khi có người làm em khó chịu, chạm vào cơ thể hoặc yêu cầu giữ bí mật khiến em lo sợ, HS biết nói “không”, rời khỏi nơi nguy hiểm và báo ngay với người lớn tin cậy."
-        ],
         "tables": [
           [
             [
@@ -4189,7 +4259,9 @@
             ]
           ]
         ],
-        "title": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................"
+        ]
       }
     ]
   },
@@ -4198,10 +4270,9 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 2)",
+        "lessonTitle": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số tình huống cần tìm kiếm sự hỗ trợ khi ở nhà.",
           "- Thực hiện được việc tìm kiếm sự hỗ trợ phù hợp, an toàn khi ở nhà.",
@@ -4222,7 +4293,6 @@
           "2. Học sinh: SGK Đạo đức 2, giấy nháp, bút."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4342,7 +4412,9 @@
             ]
           ]
         ],
-        "title": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ): ................................................"
+        ]
       }
     ]
   },
@@ -4351,7 +4423,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY – TUẦN 27",
+        "lessonTitle": "THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ II – MÔN ĐẠO ĐỨC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4359,6 +4431,7 @@
           "- Thực hành được một số cách kiềm chế cảm xúc tiêu cực phù hợp với lứa tuổi trong các tình huống đơn giản.",
           "- Biết lựa chọn và thực hành cách tìm kiếm sự hỗ trợ khi ở nhà: nói rõ vấn đề, nhờ đúng người và biết gọi hỗ trợ khi khẩn cấp.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự nhận diện cảm xúc, điều chỉnh hành vi và hoàn thành nhiệm vụ thực hành.",
           "- Giao tiếp và hợp tác: Biết chia sẻ, lắng nghe, đóng vai và phản hồi lịch sự trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết chọn cách ứng xử phù hợp với tình huống và đề xuất giải pháp an toàn khi cần hỗ trợ.",
           "3. Phẩm chất",
@@ -4374,11 +4447,8 @@
           "2. Học sinh:",
           "- SGK, vở ghi, bút; chuẩn bị tinh thần tham gia hoạt động nhóm và đóng vai."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................................",
-          "................................................................................................................................................",
-          "................................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -4513,7 +4583,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY – TUẦN 27"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "................................................................................................................................................"
+        ]
       }
     ]
   },
@@ -4522,14 +4597,14 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 1)",
+        "lessonTitle": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số tình huống cần tìm kiếm sự hỗ trợ khi ở trường.",
           "- Nêu được vì sao cần tìm kiếm sự hỗ trợ khi ở trường.",
           "- Thực hiện được việc tìm kiếm sự hỗ trợ khi ở trường bằng những cách phù hợp: nói trực tiếp, nhờ bạn báo thầy cô hoặc tìm người lớn đáng tin cậy.",
+          "- Rèn năng lực điều chỉnh hành vi, phát triển bản thân; hình thành kĩ năng tự bảo vệ và biết tìm đúng người để nhờ hỗ trợ.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự nhận biết khó khăn của bản thân, chủ động nhờ hỗ trợ; hoàn thành nhiệm vụ học tập phù hợp.",
           "- Giao tiếp và hợp tác: Biết trình bày rõ sự việc; lắng nghe, phối hợp với thầy cô, bạn bè khi cần giúp đỡ.",
@@ -4538,6 +4613,7 @@
           "- Trách nhiệm: Có ý thức bảo vệ bản thân và bạn bè; hợp tác nhóm, thực hiện đúng hướng dẫn của thầy cô.",
           "- Nhân ái: Biết quan tâm, giúp đỡ bạn; sẵn sàng chia sẻ và hỗ trợ người khác khi gặp khó khăn.",
           "4. Tích hợp",
+          "- Quyền con người: HS có quyền được an toàn, được bảo vệ khỏi bạo lực, bắt nạt; được chăm sóc sức khỏe; được học tập trong môi trường an toàn, thân thiện; được lắng nghe và trợ giúp khi gặp khó khăn ở trường.",
           "- Năng lực số 5.2.CB1a: HS nhận ra một số công cụ số và giải pháp công nghệ đơn giản tại trường như loa thông báo, chuông báo, camera giám sát, điện thoại nội bộ hoặc màn hình hướng dẫn có thể hỗ trợ bảo đảm an toàn và giúp tìm kiếm sự hỗ trợ kịp thời."
         ],
         "dodung": [
@@ -4545,9 +4621,6 @@
           "2. Học sinh: SGK Đạo đức 2, vở ghi, bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Quyền con người: HS có quyền được an toàn, được bảo vệ khỏi bạo lực, bắt nạt; được chăm sóc sức khỏe; được học tập trong môi trường an toàn, thân thiện; được lắng nghe và trợ giúp khi gặp khó khăn ở trường."
-        ],
         "tables": [
           [
             [
@@ -4655,7 +4728,9 @@
             ]
           ]
         ],
-        "title": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -4664,14 +4739,14 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 2)",
+        "lessonTitle": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số tình huống cần tìm kiếm sự hỗ trợ khi ở trường.",
           "- Nêu được vì sao cần tìm kiếm sự hỗ trợ khi ở trường.",
           "- Thực hiện được việc tìm kiếm sự hỗ trợ khi ở trường; biết lựa chọn cách nhờ hỗ trợ phù hợp theo tình huống.",
+          "- Rèn năng lực điều chỉnh hành vi, phát triển bản thân và hình thành kĩ năng tự bảo vệ.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự nhận ra mình cần hỗ trợ; chủ động tìm thông tin hoặc nhờ người phù hợp để giải quyết khó khăn.",
           "- Giao tiếp và hợp tác: Biết trao đổi, thảo luận; phối hợp với bạn bè, thầy cô trong xử lí tình huống.",
@@ -4687,7 +4762,6 @@
           "2. Học sinh: SGK Đạo đức 2, vở ghi, bút màu hoặc giấy nhỏ để viết lời nhờ hỗ trợ."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -4799,7 +4873,9 @@
             ]
           ]
         ],
-        "title": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -4808,14 +4884,14 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 13: TÌM KIẾM SỰ HỖ TRỢ Ở NƠI CÔNG CỘNG",
+        "lessonTitle": "BÀI 13: TÌM KIẾM SỰ HỖ TRỢ Ở NƠI CÔNG CỘNG - Thời gian thực hiện: 1 tiết",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được một số tình huống cần tìm kiếm sự hỗ trợ ở nơi công cộng như bị lạc, hỏng xe, gặp người lạ theo dõi, bị ngã hoặc cần hỏi đường.",
           "- Nêu được vì sao phải tìm kiếm sự hỗ trợ ở nơi công cộng.",
           "- Thực hiện được việc tìm kiếm sự hỗ trợ ở nơi công cộng bằng cách bình tĩnh, tìm đúng người đáng tin cậy và nói rõ nhu cầu của mình.",
+          "- Rèn năng lực điều chỉnh hành vi, phát triển bản thân và kĩ năng tự bảo vệ.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Nhận ra khó khăn của bản thân, chủ động tìm người hỗ trợ; ghi nhớ thông tin liên lạc cần thiết.",
           "- Giao tiếp và hợp tác: Biết nói lời đề nghị lịch sự, rõ ràng; lắng nghe hướng dẫn và phối hợp với người hỗ trợ.",
@@ -4825,16 +4901,14 @@
           "- Nhân ái: Sẵn sàng giúp đỡ bạn khi gặp khó khăn; biết cảm ơn người hỗ trợ; cư xử lễ phép, tôn trọng mọi người.",
           "4. Tích hợp",
           "- Quyền con người và kĩ năng tự bảo vệ: HS hiểu quyền được bảo vệ an toàn, quyền được trợ giúp khi gặp nguy hiểm hoặc khó khăn; biết không nhận quà, không đi theo người lạ và tìm đúng người, đơn vị có trách nhiệm để nhờ hỗ trợ.",
-          "- Năng lực số 1.1.CB1a: HS xác định được thông tin liên lạc cần tìm khi bị lạc hoặc gặp sự cố như số điện thoại người thân, số khẩn cấp hoặc địa chỉ điểm hỗ trợ; thực hiện tìm kiếm đơn giản dưới sự hướng dẫn của người lớn, không chia sẻ thông tin riêng với người lạ."
+          "- Năng lực số 1.1.CB1a: HS xác định được thông tin liên lạc cần tìm khi bị lạc hoặc gặp sự cố như số điện thoại người thân, số khẩn cấp hoặc địa chỉ điểm hỗ trợ; thực hiện tìm kiếm đơn giản dưới sự hướng dẫn của người lớn, không chia sẻ thông tin riêng với người lạ.",
+          "- AI - YCCĐ 2.D1.1: HS hình thành ý tưởng về “Trạm hỗ trợ thông minh” dùng AI ở nơi công cộng để chỉ đường, kết nối người bị lạc với bảo vệ hoặc người thân; hiểu AI chỉ hỗ trợ và vẫn cần người lớn kiểm tra, bảo đảm an toàn."
         ],
         "dodung": [
           "1. Giáo viên: SGK, SGV, VBT Đạo đức 2; tranh SGK được cắt theo từng nhiệm vụ; hộp quà và thẻ câu hỏi; phiếu xử lí tình huống; máy tính, máy chiếu.",
           "2. Học sinh: SGK Đạo đức 2, vở ghi, bút màu, giấy nhỏ."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- AI - YCCĐ 2.D1.1: HS hình thành ý tưởng về “Trạm hỗ trợ thông minh” dùng AI ở nơi công cộng để chỉ đường, kết nối người bị lạc với bảo vệ hoặc người thân; hiểu AI chỉ hỗ trợ và vẫn cần người lớn kiểm tra, bảo đảm an toàn."
-        ],
         "tables": [
           [
             [
@@ -4961,7 +5035,9 @@
             ]
           ]
         ],
-        "title": "BÀI 13: TÌM KIẾM SỰ HỖ TRỢ Ở NƠI CÔNG CỘNG"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -4970,31 +5046,30 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1)",
+        "lessonTitle": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được một số quy định cần tuân thủ ở nơi công cộng.",
           "- Nhận biết được một số địa điểm công cộng quen thuộc và đặc điểm của địa điểm công cộng.",
           "- Giải thích được vì sao cần tuân thủ quy định ở nơi công cộng: giữ an toàn, trật tự, vệ sinh và tôn trọng người khác.",
           "- Thực hiện được một số hành vi phù hợp khi ở nơi công cộng: xếp hàng, giữ trật tự, giữ vệ sinh và bảo vệ tài sản chung.",
+          "- Rèn năng lực phát triển bản thân và điều chỉnh hành vi để trở thành người văn minh nơi công cộng.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự quan sát, tự nêu quy định và tự điều chỉnh hành vi khi đến nơi công cộng.",
           "- Giao tiếp và hợp tác: Biết lắng nghe, trao đổi trong nhóm đôi, nhóm bốn và thống nhất câu trả lời.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách ứng xử phù hợp trong từng tình huống ở nơi công cộng.",
           "3. Phẩm chất",
           "- Trách nhiệm: Có ý thức thực hiện và nhắc nhở nhau tuân thủ nội quy nơi công cộng.",
           "- Trung thực: Nói thật, báo đúng sự việc khi làm rơi đồ, gặp sự cố hoặc cần nhờ người lớn giúp đỡ.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Quyền con người: Trẻ em có quyền được bảo vệ, được an toàn và được tham gia các hoạt động ở nơi công cộng; đồng thời cần tôn trọng quyền của người khác bằng cách tuân thủ nội quy, giữ trật tự, giữ vệ sinh và bảo vệ tài sản chung."
         ],
         "dodung": [
           "1. Giáo viên: SGK, SGV, VBT Đạo đức 2; tranh SGK được cắt theo từng nhiệm vụ; câu chuyện “Em bé và bông hồng”; phiếu thảo luận; máy tính, máy chiếu.",
           "2. Học sinh: SGK Đạo đức 2, VBT, vở ghi, bút."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Quyền con người: Trẻ em có quyền được bảo vệ, được an toàn và được tham gia các hoạt động ở nơi công cộng; đồng thời cần tôn trọng quyền của người khác bằng cách tuân thủ nội quy, giữ trật tự, giữ vệ sinh và bảo vệ tài sản chung."
-        ],
         "tables": [
           [
             [
@@ -5098,7 +5173,9 @@
             ]
           ]
         ],
-        "title": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -5107,14 +5184,14 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2)",
+        "lessonTitle": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố, khắc sâu kiến thức về quy định nơi công cộng.",
           "- Nêu được quy định phù hợp tại một số địa điểm công cộng cụ thể.",
           "- Xử lí được một số tình huống liên quan đến việc tuân thủ quy định nơi công cộng.",
+          "- Vận dụng nội dung bài học vào cuộc sống; rèn năng lực phát triển bản thân và điều chỉnh hành vi phù hợp hoàn cảnh.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Tự nhắc mình tuân thủ quy định; hoàn thành nhiệm vụ học tập và nhiệm vụ tìm hiểu ở nhà.",
           "- Giao tiếp và hợp tác: Trao đổi, thống nhất phương án trong nhóm đôi, nhóm bốn và góp ý lịch sự.",
@@ -5131,7 +5208,6 @@
           "2. Học sinh: SGK Đạo đức 2, VBT, bút chì, bút màu."
         ],
         "activities": [],
-        "dieuchinh": [],
         "tables": [
           [
             [
@@ -5227,7 +5303,9 @@
             ]
           ]
         ],
-        "title": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -5236,33 +5314,33 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1)",
+        "lessonTitle": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nêu được vì sao cần tuân thủ quy định nơi công cộng.",
           "- Nêu được một số quy định cần tuân thủ ở một số nơi công cộng quen thuộc như thư viện, công viên, xe buýt và khu tham quan.",
           "- Thực hiện được các hành vi phù hợp để tuân thủ quy định nơi công cộng: xếp hàng, giữ trật tự, giữ vệ sinh và bảo vệ tài sản chung.",
           "- Đồng tình với lời nói, hành động tuân thủ quy định nơi công cộng; không đồng tình với lời nói, hành động vi phạm quy định nơi công cộng.",
+          "- Rèn năng lực điều chỉnh hành vi, phát triển bản thân: biết tự nhắc nhở, biết sửa sai và tham gia các hoạt động xã hội phù hợp.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát, đọc tranh, nêu ý kiến và tự điều chỉnh hành vi theo quy định nơi công cộng.",
           "- Giao tiếp và hợp tác: Trao đổi, lắng nghe, tôn trọng ý kiến bạn; phối hợp nhóm để hoàn thành nhiệm vụ.",
           "- Giải quyết vấn đề và sáng tạo: Nhận diện tình huống, lựa chọn cách ứng xử phù hợp và đề xuất cách nhắc nhở văn minh.",
           "3. Phẩm chất",
           "- Trách nhiệm: Tự giác tuân thủ quy định nơi công cộng; biết nhắc mình và nhắc bạn đúng cách.",
+          "- Tôn trọng kỉ luật: Chấp hành nội quy, quy định chung; không làm ảnh hưởng đến người khác.",
           "- Yêu nước: Giữ gìn, bảo vệ cảnh quan, di tích; ứng xử văn minh, góp phần xây dựng hình ảnh đẹp của học sinh.",
-          "4. Tích hợp"
+          "4. Tích hợp",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 3: Thắng cảnh Ao Bà Om - Trang 17 TLGDĐP Lớp 2 Trà Vinh): Tuân thủ nội quy khi đến tham quan các danh lam thắng cảnh, di tích lịch sử ở Trà Vinh (danh thắng Ao Bà Om, chùa Âng, chùa Hang); không viết vẽ bậy lên thân cây cổ thụ, không xả rác bừa bãi.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng tình yêu quê hương, niềm tự hào dân tộc; rèn lối sống văn minh, kỉ luật; biết bảo vệ môi trường, tài sản chung, di tích và cảnh quan nơi công cộng.",
+          "- An toàn giao thông và văn minh nơi công cộng: HS biết xếp hàng khi lên, xuống xe; ngồi đúng chỗ, giữ trật tự, không xả rác trên phương tiện công cộng; đi theo sự hướng dẫn của người phụ trách và không viết, vẽ lên khu di tích."
         ],
         "dodung": [
           "1. Giáo viên: SGK, SGV, VBT Đạo đức 2; tranh SGK được cắt đúng từng nhiệm vụ; nhạc bài hát “Ra chơi vườn hoa”; phiếu thảo luận; máy tính, máy chiếu.",
           "2. Học sinh: SGK Đạo đức 2, VBT, vở ghi, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Tôn trọng kỉ luật: Chấp hành nội quy, quy định chung; không làm ảnh hưởng đến người khác.",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Bồi dưỡng tình yêu quê hương, niềm tự hào dân tộc; rèn lối sống văn minh, kỉ luật; biết bảo vệ môi trường, tài sản chung, di tích và cảnh quan nơi công cộng.",
-          "- An toàn giao thông và văn minh nơi công cộng: HS biết xếp hàng khi lên, xuống xe; ngồi đúng chỗ, giữ trật tự, không xả rác trên phương tiện công cộng; đi theo sự hướng dẫn của người phụ trách và không viết, vẽ lên khu di tích."
-        ],
         "tables": [
           [
             [
@@ -5350,6 +5428,14 @@
               "- HS lắng nghe, hiểu việc giữ gìn di tích, cảnh quan, môi trường và tài sản chung là biểu hiện của tình yêu quê hương, trách nhiệm và lối sống văn minh.\n- HS nêu cam kết: Không viết vẽ lên di tích, không xả rác, không phá đồ chung; biết xin lỗi, sửa sai và nhắc bạn nhẹ nhàng."
             ],
             [
+              "- GV hỏi dẫn tích hợp Giáo dục địa phương Trà Vinh (Chủ đề 3 GDĐP 2): “Khi cùng người thân đến tham quan danh thắng Ao Bà Om hoặc các ngôi chùa cổ kính ở Trà Vinh, các em cần tuân thủ những quy định nơi công cộng nào?”",
+              "- HS trả lời: Đi nhẹ, nói khẽ, cởi mũ nón; không leo trèo, khắc tên lên thân các cây cổ thụ quanh ao; bỏ rác đúng nơi quy định, không vứt rác xuống lòng ao hồ ạ."
+            ],
+            [
+              "- GV biểu dương: Tuân thủ quy định nơi công cộng chính là thể hiện nét đẹp văn minh, lòng tự hào và trách nhiệm giữ gìn danh lam thắng cảnh của người dân quê hương Trà Vinh.",
+              "- HS lắng nghe và cam kết thực hiện đúng nội quy."
+            ],
+            [
               "- GV kết luận: Tuân thủ quy định nơi công cộng là trách nhiệm của mỗi người; việc làm đúng giúp mọi người an toàn, thoải mái và tôn trọng nhau.",
               "- HS lắng nghe, nhắc lại kết luận và ghi nhớ."
             ],
@@ -5374,7 +5460,9 @@
             ]
           ]
         ],
-        "title": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1)"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -5383,21 +5471,24 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2)",
+        "lessonTitle": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được các hành vi phù hợp để tuân thủ quy định nơi công cộng trong các tình huống cụ thể.",
           "- Đồng tình với lời nói, hành động tuân thủ quy định nơi công cộng; không đồng tình với lời nói, hành động vi phạm quy định nơi công cộng.",
           "- Vận dụng kiến thức để xử lí tình huống: biết nhắc nhở, xin lỗi, cảm ơn và lựa chọn cách ứng xử văn minh.",
+          "- Rèn năng lực điều chỉnh hành vi, phát triển bản thân và tham gia các hoạt động xã hội phù hợp.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự đọc tình huống, tự đánh giá hành vi và tự điều chỉnh cách ứng xử.",
           "- Giao tiếp và hợp tác: Hợp tác khi thảo luận, đóng vai; biết lắng nghe và phản hồi tôn trọng.",
           "- Giải quyết vấn đề và sáng tạo: Đề xuất cách xử lí hợp lí trong tình huống; biết nhắc nhở văn minh.",
           "3. Phẩm chất",
           "- Trách nhiệm: Tự giác chấp hành quy định nơi công cộng; không làm ảnh hưởng người khác.",
           "- Trung thực: Nói thật, nhận lỗi khi vi phạm; biết sửa sai và rút kinh nghiệm.",
+          "- Tôn trọng pháp luật: Thực hiện nội quy, quy định chung; ứng xử đúng mực nơi công cộng.",
           "4. Tích hợp",
+          "- Giáo dục ứng xử văn minh: HS biết xếp hàng, giữ trật tự, nói lời lịch sự, biết xin lỗi và cảm ơn; tự giác sửa sai, không làm ảnh hưởng đến quyền lợi và sự an toàn của người khác.",
           "- AI – YCCĐ 2.D1.1: HS nhận biết AI có thể hỗ trợ giám sát việc tuân thủ quy định nơi công cộng như camera thông minh phát hiện dấu hiệu chen lấn, xả rác hoặc vi phạm giao thông; hiểu AI chỉ hỗ trợ, con người vẫn phải tự giác và chịu trách nhiệm về hành vi."
         ],
         "dodung": [
@@ -5405,10 +5496,6 @@
           "2. Học sinh: SGK Đạo đức 2, VBT, bút, bảng con."
         ],
         "activities": [],
-        "dieuchinh": [
-          "- Tôn trọng pháp luật: Thực hiện nội quy, quy định chung; ứng xử đúng mực nơi công cộng.",
-          "- Giáo dục ứng xử văn minh: HS biết xếp hàng, giữ trật tự, nói lời lịch sự, biết xin lỗi và cảm ơn; tự giác sửa sai, không làm ảnh hưởng đến quyền lợi và sự an toàn của người khác."
-        ],
         "tables": [
           [
             [
@@ -5535,7 +5622,9 @@
             ]
           ]
         ],
-        "title": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2)"
+        "dieuchinh": [
+          "(NẾU CÓ): ........................................................................"
+        ]
       }
     ]
   },
@@ -5544,13 +5633,15 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH BÀI DẠY – TUẦN 35",
+        "lessonTitle": "THỰC HÀNH KĨ NĂNG CUỐI NĂM – MÔN ĐẠO ĐỨC LỚP 2",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
           "- Nhận thức đạo đức: Nêu được khi nào cần tìm kiếm sự hỗ trợ ở trường và nơi công cộng; nêu được một số quy định nơi công cộng và lí do cần tuân thủ.",
           "- Hành vi đạo đức: Thực hiện được cách nhờ hỗ trợ đúng người, đúng cách, lịch sự và an toàn; biết tuân thủ quy định nơi công cộng trong các tình huống cụ thể.",
+          "- Điều chỉnh hành vi: Biết từ chối, tránh xa tình huống không an toàn và tìm người đáng tin cậy; biết tự nhắc mình, nhắc bạn sửa sai và thực hiện đúng quy định.",
           "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự nhận biết khó khăn, chủ động tìm người hỗ trợ; tự đánh giá và điều chỉnh hành vi khi tham gia các hoạt động ở trường và nơi công cộng.",
           "- Giao tiếp và hợp tác: Trình bày nhu cầu rõ ràng, lễ phép; biết lắng nghe, phối hợp, đóng vai và phản hồi lịch sự trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách xử lí phù hợp trong tình huống bị lạc, cần giúp đỡ, gặp người lạ hoặc ở nơi đông người; đề xuất được cách ứng xử an toàn, văn minh.",
           "3. Phẩm chất",
@@ -5567,11 +5658,8 @@
           "2. Học sinh:",
           "- SGK, vở ghi, bút; thẻ Đúng – Sai hoặc bảng con; chuẩn bị tinh thần tham gia hoạt động nhóm và đóng vai."
         ],
-        "activities": [],
-        "dieuchinh": [
-          "................................................................................................................................",
-          "................................................................................................................................",
-          "................................................................................................................................"
+        "activities": [
+          "III. CÁC HOẠT ĐỘNG DẠY HỌC"
         ],
         "tables": [
           [
@@ -5731,7 +5819,12 @@
             ]
           ]
         ],
-        "title": "KẾ HOẠCH BÀI DẠY – TUẦN 35"
+        "dieuchinh": [
+          "(NẾU CÓ):",
+          "................................................................................................................................",
+          "................................................................................................................................",
+          "................................................................................................................................"
+        ]
       }
     ]
   }
