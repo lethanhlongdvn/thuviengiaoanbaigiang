@@ -5679,6 +5679,18 @@ function renderIntegratedLessonSheetContent(les) {
 
   var daySessionInfo = les.dayName ? (`<p style="font-size: 11pt; font-weight: bold; color: #1e40af; margin-bottom: 4pt;">${les.dayName} • Buổi ${les.session || 'Sáng'} • ${les.periodSlot ? ('Tiết ' + les.periodSlot) : ''}</p>`) : '';
 
+  var previewWeek = (les.week) || (integrationState.startWeek && integrationState.endWeek && String(integrationState.startWeek) !== String(integrationState.endWeek) ? (integrationState.startWeek + ' - ' + integrationState.endWeek) : integrationState.startWeek) || 1;
+
+  var subjName = les.subjectName || (integrationState.subjectKey ? IntegrationService.getSubjectDisplayName(integrationState.subjectKey) : '') || (les.subjectKey ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || 'Lịch sử và Địa lí';
+
+  var rawTitle = les.lessonTitle || les.title || 'BÀI DẠY';
+  var cleanLessonTitle = rawTitle
+    .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
+    .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
+    .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
+    .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
+    .trim();
+
   return `
     <div style="text-align: center; margin-bottom: 15pt;">
       <table style="width: 100%; border-collapse: collapse; margin-bottom: 10pt;">
@@ -5689,15 +5701,15 @@ function renderIntegratedLessonSheetContent(les) {
           </td>
           <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
             <p style="margin:0;"><strong>NĂM HỌC: ${integrationState.schoolYear || '2026 - 2027'}</strong></p>
-            <p style="margin:2pt 0 0 0;">${integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Khối ' + (les.grade || integrationState.grade) + ' • ')}Tuần: <strong>${les.week || 1}</strong></p>
+            <p style="margin:2pt 0 0 0;">${integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Khối ' + (les.grade || integrationState.grade) + ' • ')}Tuần: <strong>${previewWeek}</strong></p>
           </td>
         </tr>
       </table>
 
       ${daySessionInfo}
       <h2 style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase;">KẾ HOẠCH BÀI DẠY</h2>
-      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0;">MÔN: ${(les.subjectName || (integrationState.subjectKey ? IntegrationService.getSubjectDisplayName(integrationState.subjectKey) : '') || 'MÔN HỌC').toUpperCase()}</p>
-      <p style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0;">${les.lessonTitle || les.title || 'BÀI DẠY'}</p>
+      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0;">MÔN: ${subjName.toUpperCase()}</p>
+      <p style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0;">${cleanLessonTitle}</p>
       ${les.period ? ('<p style="font-style: italic; margin: 2pt 0 0 0;">(' + les.period + ')</p>') : ''}
     </div>
 

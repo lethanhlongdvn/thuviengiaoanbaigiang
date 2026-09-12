@@ -1286,7 +1286,7 @@
     "sourceFile": "LSĐL TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 4 - BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 1)",
+        "lessonTitle": "BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1. ĐẤT NƯỚC VÀ CON NGƯỜI VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1418,7 +1418,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 4 - BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 2)",
+        "lessonTitle": "BÀI 3. BIỂN, ĐẢO VIỆT NAM (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1. ĐẤT NƯỚC VÀ CON NGƯỜI VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4006,7 +4006,7 @@
     "sourceFile": "LSĐL TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 13 - BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC - (Tiết 3)",
+        "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC - (Tiết 3)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4155,7 +4155,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 13 - BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC - (Tiết 4)",
+        "lessonTitle": "BÀI 10. TRIỀU TRẦN XÂY DỰNG ĐẤT NƯỚC VÀ KHÁNG CHIẾN CHỐNG QUÂN MÔNG - NGUYÊN XÂM LƯỢC - (Tiết 4)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4481,7 +4481,7 @@
     "sourceFile": "LSĐL TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 15 - BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 1)",
+        "lessonTitle": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 1)",
         "topic": "CHỦ ĐỀ: CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4687,7 +4687,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 15 - BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 2)",
+        "lessonTitle": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 2)",
         "topic": "CHỦ ĐỀ: CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4875,7 +4875,7 @@
     "sourceFile": "LSĐL TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 16 - BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 3)",
+        "lessonTitle": "BÀI 12. KHỞI NGHĨA LAM SƠN VÀ TRIỀU HẬU LÊ (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5076,7 +5076,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 16 - BÀI 13. TRIỀU NGUYỄN (TIẾT 1)",
+        "lessonTitle": "BÀI 13. TRIỀU NGUYỄN (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5272,7 +5272,7 @@
     "sourceFile": "LSĐL TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 17 - BÀI 13. TRIỀU NGUYỄN (TIẾT 2)",
+        "lessonTitle": "BÀI 13. TRIỀU NGUYỄN (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5480,7 +5480,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 17 - BÀI 13. TRIỀU NGUYỄN (TIẾT 3)",
+        "lessonTitle": "BÀI 13. TRIỀU NGUYỄN (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5870,7 +5870,7 @@
     "sourceFile": "LSĐL TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 19 - BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 2)",
+        "lessonTitle": "BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6052,7 +6052,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 19 - BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 1)",
+        "lessonTitle": "BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6311,7 +6311,7 @@
     "sourceFile": "LSĐL TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 20 - BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 2)",
+        "lessonTitle": "BÀI 15. CHIẾN DỊCH ĐIỆN BIÊN PHỦ NĂM 1954 (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6488,7 +6488,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 20 - BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 1)",
+        "lessonTitle": "BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6703,7 +6703,7 @@
     "sourceFile": "LSĐL TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 21 - BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 2)",
+        "lessonTitle": "BÀI 16. CHIẾN DỊCH HỒ CHÍ MINH NĂM 1975 (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6916,7 +6916,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 21 - BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 1)",
+        "lessonTitle": "BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7154,7 +7154,7 @@
     "sourceFile": "LSĐL TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 22 - BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 2)",
+        "lessonTitle": "BÀI 17. ĐẤT NƯỚC ĐỔI MỚI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7390,7 +7390,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 22 - BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 1)",
+        "lessonTitle": "BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7619,7 +7619,7 @@
     "sourceFile": "LSĐL TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 23 - BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 2)",
+        "lessonTitle": "BÀI 18. NƯỚC CỘNG HÒA NHÂN DÂN TRUNG HOA (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7833,7 +7833,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 23 - BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 1)",
+        "lessonTitle": "BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8034,7 +8034,7 @@
     "sourceFile": "LSĐL TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 24 - BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 2)",
+        "lessonTitle": "BÀI 19. NƯỚC CỘNG HOÀ DÂN CHỦ NHÂN DÂN LÀO (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8199,7 +8199,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 24 - BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 1)",
+        "lessonTitle": "BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8405,7 +8405,7 @@
     "sourceFile": "LSĐL TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 25 - BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 2)",
+        "lessonTitle": "BÀI 20. VƯƠNG QUỐC CAM-PU-CHIA (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8566,7 +8566,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 25 - BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 1)",
+        "lessonTitle": "BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8743,7 +8743,7 @@
     "sourceFile": "LSĐL TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 26 - BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 2)",
+        "lessonTitle": "BÀI 21. HIỆP HỘI CÁC QUỐC GIA ĐÔNG NAM Á (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4. CÁC NƯỚC LÁNG GIỀNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8886,7 +8886,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 26 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 1)",
+        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9074,7 +9074,7 @@
     "sourceFile": "LSĐL TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 27 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 2)",
+        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9264,7 +9264,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 27 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 3)",
+        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 3)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9426,7 +9426,7 @@
     "sourceFile": "LSĐL TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 28 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 4)",
+        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 4)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9585,7 +9585,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 28 - BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 5)",
+        "lessonTitle": "BÀI 22. CÁC CHÂU LỤC VÀ ĐẠI DƯƠNG TRÊN THẾ GIỚI (TIẾT 5)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9750,7 +9750,7 @@
     "sourceFile": "LSĐL TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 29 - BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 1)",
+        "lessonTitle": "BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9914,7 +9914,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 29 - BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 2)",
+        "lessonTitle": "BÀI 23. DÂN SỐ VÀ CÁC CHỦNG TỘC CHÍNH TRÊN THẾ GIỚI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10076,7 +10076,7 @@
     "sourceFile": "LSĐL TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 30 - BÀI 24. VĂN MINH AI CẬP (TIẾT 1)",
+        "lessonTitle": "BÀI 24. VĂN MINH AI CẬP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10248,7 +10248,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 30 - BÀI 24. VĂN MINH AI CẬP (TIẾT 2)",
+        "lessonTitle": "BÀI 24. VĂN MINH AI CẬP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10434,7 +10434,7 @@
     "sourceFile": "LSĐL TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 31 - BÀI 25. VĂN MINH HY LẠP (TIẾT 1)",
+        "lessonTitle": "BÀI 25. VĂN MINH HY LẠP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10576,7 +10576,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 31 - BÀI 25. VĂN MINH HY LẠP (TIẾT 2)",
+        "lessonTitle": "BÀI 25. VĂN MINH HY LẠP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5. TÌM HIỂU THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10712,7 +10712,7 @@
     "sourceFile": "LSĐL TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 32 - BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 1)",
+        "lessonTitle": "BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10854,7 +10854,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 32 - BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 2)",
+        "lessonTitle": "BÀI 26. XÂY DỰNG THẾ GIỚI XANH – SẠCH – ĐẸP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10990,7 +10990,7 @@
     "sourceFile": "LSĐL TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 33 - BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 1)",
+        "lessonTitle": "BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11176,7 +11176,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN: 33 - BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 2)",
+        "lessonTitle": "BÀI 27. XÂY DỰNG THẾ GIỚI HÒA BÌNH (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11346,7 +11346,7 @@
     "sourceFile": "LSĐL TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 34 - BÀI 28. ÔN TẬP (TIẾT 1)",
+        "lessonTitle": "BÀI 28. ÔN TẬP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11476,7 +11476,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN: 34 - BÀI 28. ÔN TẬP (TIẾT 2)",
+        "lessonTitle": "BÀI 28. ÔN TẬP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11602,7 +11602,7 @@
     "sourceFile": "LSĐL TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 35 - BÀI 28. ÔN TẬP (TIẾT 3)",
+        "lessonTitle": "BÀI 28. ÔN TẬP (TIẾT 3)",
         "topic": "CHỦ ĐỀ 6. CHUNG TAY XÂY DỰNG THẾ GIỚI",
         "yccd": [
           "1. Năng lực đặc thù",

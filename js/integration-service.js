@@ -1808,7 +1808,11 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     if (Array.isArray(lessonsOrWeeks)) {
       if (lessonsOrWeeks.length > 0 && lessonsOrWeeks[0].lessons) {
         lessonsOrWeeks.forEach(function(w) {
-          (w.lessons || []).forEach(function(l) { lessons.push(l); });
+          (w.lessons || []).forEach(function(l) {
+            if (!l.week) l.week = w.week;
+            if (!l.subjectName && meta.subjectName) l.subjectName = meta.subjectName;
+            lessons.push(l);
+          });
         });
       } else {
         lessons = lessonsOrWeeks;
@@ -2165,6 +2169,23 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         });
       }
 
+      var weekText = '';
+      if (meta.startWeek && meta.endWeek && String(meta.startWeek) !== String(meta.endWeek)) {
+        weekText = meta.startWeek + ' - ' + meta.endWeek;
+      } else if (meta.startWeek) {
+        weekText = meta.startWeek;
+      } else if (les.week) {
+        weekText = les.week;
+      } else if (meta.weekNum) {
+        weekText = meta.weekNum;
+      } else if (meta.filename) {
+        var mWeek = meta.filename.match(/Tuan[_\s]*(\d+)(?:[-_](\d+))?/i);
+        if (mWeek) {
+          weekText = mWeek[2] ? (mWeek[1] + ' - ' + mWeek[2]) : mWeek[1];
+        }
+      }
+      if (!weekText) weekText = '1';
+
       var headerBlock = '';
       if (!isTimetableDoc && lIdx === 0) {
         headerBlock = `
@@ -2176,20 +2197,45 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               </td>
               <td style="width: 50%; text-align: right;">
                 <p><b>NĂM HỌC: ${schoolYear}</b></p>
-                <p>${className ? ('<b>' + className + '</b> • ') : ('Khối: <b>' + (les.grade || grade) + '</b> • ')}Tuần: <b>${les.week || 1}</b></p>
+                <p>${className ? ('<b>' + className + '</b> • ') : ('Khối: <b>' + (les.grade || grade) + '</b> • ')}Tuần: <b>${weekText}</b></p>
               </td>
             </tr>
           </table>
         `;
       }
 
+      var subjName = les.subjectName || meta.subjectName || (les.subjectKey ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || (meta.subjectKey ? IntegrationService.getSubjectDisplayName(meta.subjectKey) : '') || '';
+      if (!subjName) {
+        var checkStr = (meta.filename || '') + ' ' + (les.sourceFile || '') + ' ' + (meta.title || '');
+        if (/lich_su_dia_ly|LSĐL|Lịch sử/i.test(checkStr)) subjName = 'Lịch sử và Địa lí';
+        else if (/toan/i.test(checkStr)) subjName = 'Toán';
+        else if (/tieng_viet|TV/i.test(checkStr)) subjName = 'Tiếng Việt';
+        else if (/khoa_hoc/i.test(checkStr)) subjName = 'Khoa học';
+        else if (/dao_duc/i.test(checkStr)) subjName = 'Đạo đức';
+        else if (/tin_hoc/i.test(checkStr)) subjName = 'Tin học';
+        else if (/cong_nghe/i.test(checkStr)) subjName = 'Công nghệ';
+        else if (/hdtn/i.test(checkStr)) subjName = 'Hoạt động trải nghiệm';
+        else if (/am_nhac/i.test(checkStr)) subjName = 'Âm nhạc';
+        else if (/my_thuat/i.test(checkStr)) subjName = 'Mĩ thuật';
+        else if (/gd_the_chat/i.test(checkStr)) subjName = 'Giáo dục thể chất';
+        else subjName = 'Lịch sử và Địa lí';
+      }
+
+      var rawTitle = les.lessonTitle || les.title || 'BÀI DẠY';
+      var cleanLessonTitle = rawTitle
+        .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
+        .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
+        .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
+        .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
+        .trim();
+
       docHtml += `
         <div class="title-box">
           ${headerBlock}
           ${daySessionInfo}
           <h2>KẾ HOẠCH BÀI DẠY</h2>
-          <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: ${(les.subjectName || les.subjectKey || 'MÔN HỌC').toUpperCase()}</p>
-          <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt; color: #1e3a8a;">${les.lessonTitle || les.title || 'BÀI DẠY'}</p>
+          <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: ${subjName.toUpperCase()}</p>
+          <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt; color: #1e3a8a;">${cleanLessonTitle}</p>
           ${les.period ? ('<p style="font-style: italic; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
         </div>
 
