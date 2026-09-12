@@ -726,7 +726,7 @@ var IntegrationService = {
 
   ensureAllSubjectsLoadedForGrade: async function(grade) {
     var g = parseInt(grade) || 5;
-    var subjs = ['toan', 'tieng_viet', 'dao_duc', 'hdtn'];
+    var subjs = ['toan', 'tieng_viet', 'dao_duc', 'hdtn', 'gdtc', 'am_nhac'];
     if (g <= 3) {
       subjs.push('tnxh');
       if (g === 3) subjs.push('cong_nghe');
@@ -2090,8 +2090,10 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       if (!Array.isArray(r) || r.length < 2) return false;
       var c0 = (r[0] || '').toLowerCase().trim();
       var c1 = (r[1] || '').toLowerCase().trim();
-      return (c0.includes('giáo viên') || c0.includes('gv') || c0.includes('dạy học') || c0.includes('thầy')) &&
-             (c1.includes('học sinh') || c1.includes('hs') || c1.includes('trò') || c1.includes('luyện tập'));
+      var c2 = (r[2] || '').toLowerCase().trim();
+      return ((c0.includes('giáo viên') || c0.includes('gv') || c0.includes('dạy học') || c0.includes('thầy')) &&
+             (c1.includes('học sinh') || c1.includes('hs') || c1.includes('trò') || c1.includes('luyện tập'))) ||
+             (c0.includes('nội dung') && (c1.includes('định lượng') || c2.includes('giáo viên')));
     };
 
     lessons.forEach(function(les, lIdx) {
@@ -2158,80 +2160,133 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       if (les.tables && les.tables.length > 0) {
         les.tables.forEach(function(tableRows) {
           if (!tableRows || tableRows.length === 0) return;
+          var has4Cols = tableRows.some(function(row) { return Array.isArray(row) && row.length === 4; });
           var rowsHtml = '';
           for (var rIdx = 0; rIdx < tableRows.length; rIdx++) {
             var r = tableRows[rIdx];
             if (!Array.isArray(r)) continue;
             if (rIdx === 0 && isHeaderRow(r)) continue;
 
-            if (r.length >= 2) {
-              var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
-              var gvText = (r[0] || '')
-                .replace(/<!--.*?-->/g, '')
-                .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
-                .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
-                .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
-                .replace(/^\[Tích hợp\]\s*/i, '')
-                .replace(/\(Tích hợp\)/gi, '')
-                .replace(/\s{2,}/g, ' ')
-                .trim();
-              var hsText = (r[1] || '')
-                .replace(/<!--.*?-->/g, '')
-                .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
-                .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
-                .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
-                .replace(/^\[Tích hợp\]\s*/i, '')
-                .replace(/\(Tích hợp\)/gi, '')
-                .replace(/\s{2,}/g, ' ')
-                .trim();
-              var gvCol = gvText.replace(/\n/g, '<br/>');
-              var hsCol = hsText.replace(/\n/g, '<br/>');
+            if (has4Cols) {
+              if (r.length >= 4) {
+                var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+                var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
+                var c1 = (r[1] || '').trim().replace(/\n/g, '<br/>');
+                var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
+                var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
+                var cellStyle = isTichHop ? 'color: #7030a0;' : '';
 
-              var cellStyle = isTichHop ? 'color: #7030a0;' : '';
+                rowsHtml += `
+                  <tr>
+                    <td style="width: 30%; vertical-align: top; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
+                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${c0}</div>
+                    </td>
+                    <td style="width: 15%; vertical-align: top; text-align: center; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
+                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${c1}</div>
+                    </td>
+                    <td style="width: 30%; vertical-align: top; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
+                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${c2}</div>
+                    </td>
+                    <td style="width: 25%; vertical-align: top; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
+                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${c3}</div>
+                    </td>
+                  </tr>
+                `;
+              } else if (r.length === 1) {
+                var rawHeader = r[0] || '';
+                var cleanHeader = rawHeader.replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').trim();
+                rowsHtml += `<tr><td colspan="4" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
+              } else if (r.length === 2) {
+                rowsHtml += `<tr><td colspan="2" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${(r[0]||'').replace(/\n/g, '<br/>')}</div></td><td colspan="2" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${(r[1]||'').replace(/\n/g, '<br/>')}</div></td></tr>`;
+              }
+            } else {
+              if (r.length >= 2) {
+                var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+                var gvText = (r[0] || '')
+                  .replace(/<!--.*?-->/g, '')
+                  .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                  .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+                  .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                  .replace(/^\[Tích hợp\]\s*/i, '')
+                  .replace(/\(Tích hợp\)/gi, '')
+                  .replace(/\s{2,}/g, ' ')
+                  .trim();
+                var hsText = (r[1] || '')
+                  .replace(/<!--.*?-->/g, '')
+                  .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                  .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+                  .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                  .replace(/^\[Tích hợp\]\s*/i, '')
+                  .replace(/\(Tích hợp\)/gi, '')
+                  .replace(/\s{2,}/g, ' ')
+                  .trim();
+                var gvCol = gvText.replace(/\n/g, '<br/>');
+                var hsCol = hsText.replace(/\n/g, '<br/>');
 
-              rowsHtml += `
-                <tr>
-                  <td style="width: 50%; vertical-align: top; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
-                    <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${gvCol}</div>
-                  </td>
-                  <td style="width: 50%; vertical-align: top; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
-                    <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${hsCol}</div>
-                  </td>
-                </tr>
-              `;
-            } else if (r.length === 1) {
-              var rawHeader = r[0] || '';
-              var nextRow = tableRows[rIdx + 1];
-              var isNextRowTichHop = Array.isArray(nextRow) && nextRow.length >= 2 && ((nextRow[0] || '').indexOf('[Tích hợp') !== -1 || (nextRow[1] || '').indexOf('[Tích hợp') !== -1 || (nextRow[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (nextRow[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1);
-              var isTichHopHeader = isNextRowTichHop || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('(Tích hợp)') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1;
-              var cleanHeader = rawHeader
-                .replace(/<!--.*?-->/g, '')
-                .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
-                .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
-                .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
-                .replace(/^\[Tích hợp\]\s*/i, '')
-                .replace(/\(Tích hợp\)/gi, '')
-                .replace(/\s{2,}/g, ' ')
-                .trim();
-              var headerColorStyle = isTichHopHeader ? 'color: #7030a0;' : '';
-              rowsHtml += `<tr><td colspan="2" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${headerColorStyle}"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
+                var cellStyle = isTichHop ? 'color: #7030a0;' : '';
+
+                rowsHtml += `
+                  <tr>
+                    <td style="width: 50%; vertical-align: top; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
+                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${gvCol}</div>
+                    </td>
+                    <td style="width: 50%; vertical-align: top; padding: 3pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${cellStyle}">
+                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${hsCol}</div>
+                    </td>
+                  </tr>
+                `;
+              } else if (r.length === 1) {
+                var rawHeader = r[0] || '';
+                var nextRow = tableRows[rIdx + 1];
+                var isNextRowTichHop = Array.isArray(nextRow) && nextRow.length >= 2 && ((nextRow[0] || '').indexOf('[Tích hợp') !== -1 || (nextRow[1] || '').indexOf('[Tích hợp') !== -1 || (nextRow[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (nextRow[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1);
+                var isTichHopHeader = isNextRowTichHop || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('(Tích hợp)') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1;
+                var cleanHeader = rawHeader
+                  .replace(/<!--.*?-->/g, '')
+                  .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                  .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+                  .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+                  .replace(/^\[Tích hợp\]\s*/i, '')
+                  .replace(/\(Tích hợp\)/gi, '')
+                  .replace(/\s{2,}/g, ' ')
+                  .trim();
+                var headerColorStyle = isTichHopHeader ? 'color: #7030a0;' : '';
+                rowsHtml += `<tr><td colspan="2" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${headerColorStyle}"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
+              }
             }
           }
 
           if (rowsHtml) {
-            actTablesHtml += `
-              <table class="table-activity">
-                <thead>
-                  <tr>
-                    <th style="width: 50%;">Hoạt động của giáo viên</th>
-                    <th style="width: 50%;">Hoạt động của học sinh</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  ${rowsHtml}
-                </tbody>
-              </table>
-            `;
+            if (has4Cols) {
+              actTablesHtml += `
+                <table class="table-activity">
+                  <thead>
+                    <tr>
+                      <th style="width: 30%;">Nội dung</th>
+                      <th style="width: 15%;">Định lượng</th>
+                      <th style="width: 30%;">Hoạt động của giáo viên</th>
+                      <th style="width: 25%;">Hoạt động của học sinh</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${rowsHtml}
+                  </tbody>
+                </table>
+              `;
+            } else {
+              actTablesHtml += `
+                <table class="table-activity">
+                  <thead>
+                    <tr>
+                      <th style="width: 50%;">Hoạt động của giáo viên</th>
+                      <th style="width: 50%;">Hoạt động của học sinh</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${rowsHtml}
+                  </tbody>
+                </table>
+              `;
+            }
           }
         });
       }
@@ -2282,9 +2337,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         else if (/tin_hoc/i.test(checkStr)) subjName = 'Tin học';
         else if (/cong_nghe/i.test(checkStr)) subjName = 'Công nghệ';
         else if (/hdtn/i.test(checkStr)) subjName = 'Hoạt động trải nghiệm';
-        else if (/am_nhac/i.test(checkStr)) subjName = 'Âm nhạc';
+        else if (/am_nhac|âm nhạc/i.test(checkStr)) subjName = 'Âm nhạc';
         else if (/my_thuat/i.test(checkStr)) subjName = 'Mĩ thuật';
-        else if (/gd_the_chat/i.test(checkStr)) subjName = 'Giáo dục thể chất';
+        else if (/gdtc|gd_the_chat|thể chất/i.test(checkStr)) subjName = 'Giáo dục thể chất';
         else subjName = 'Lịch sử và Địa lí';
       }
 

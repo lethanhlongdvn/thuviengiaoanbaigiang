@@ -75,20 +75,42 @@ var KHBD_DATA = {
     if (lesson.tables && lesson.tables.length > 0) {
       lesson.tables.forEach(function(rows) {
         if (!rows || rows.length === 0) return;
-        tableHtml += '<table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem; margin-bottom: 0.8rem; font-size: 11pt;" border="1" bordercolor="#94a3b8"><thead><tr style="background: #f1f5f9; font-weight: 800; text-align: center;"><th style="padding: 0.45rem; width: 50%;">Hoạt động của giáo viên</th><th style="padding: 0.45rem; width: 50%;">Hoạt động của học sinh</th></tr></thead><tbody>';
-        rows.forEach(function(r) {
-          if (r.length >= 2) {
-            var isHeaderRow = r[0].indexOf('Khởi động') !== -1 || r[0].indexOf('Khám phá') !== -1 || r[0].indexOf('Luyện tập') !== -1 || r[0].indexOf('Vận dụng') !== -1;
-            var gvText = r[0].replace(/\n/g, '<br/>');
-            var hsText = r[1].replace(/\n/g, '<br/>');
-            var isTichHopRow = gvText.indexOf('[Tích hợp') !== -1 || gvText.indexOf('[GDĐP') !== -1 || hsText.indexOf('[Tích hợp') !== -1;
-            var bgStyle = isTichHopRow && highlightIntegration ? 'background: #faf5ff; border-left: 3px solid #a855f7;' : (isHeaderRow ? 'background: #f8fafc; font-weight: 700;' : '');
-            tableHtml += '<tr style="' + bgStyle + '"><td style="padding: 0.4rem; vertical-align: top;">' + gvText + '</td><td style="padding: 0.4rem; vertical-align: top;">' + hsText + '</td></tr>';
-          } else if (r.length === 1) {
-            tableHtml += '<tr style="background: #f8fafc; font-weight: 700;"><td colspan="2" style="padding: 0.4rem;">' + r[0].replace(/\n/g, '<br/>') + '</td></tr>';
-          }
-        });
-        tableHtml += '</tbody></table>';
+        var has4Cols = rows.some(function(r) { return Array.isArray(r) && r.length === 4; });
+        if (has4Cols) {
+          tableHtml += '<table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem; margin-bottom: 0.8rem; font-size: 11pt;" border="1" bordercolor="#94a3b8"><thead><tr style="background: #f1f5f9; font-weight: 800; text-align: center;"><th style="padding: 0.45rem; width: 30%;">Nội dung</th><th style="padding: 0.45rem; width: 15%;">Định lượng</th><th style="padding: 0.45rem; width: 30%;">Hoạt động của giáo viên</th><th style="padding: 0.45rem; width: 25%;">Hoạt động của học sinh</th></tr></thead><tbody>';
+          rows.forEach(function(r) {
+            if (r.length >= 4) {
+              var isHeaderRow = r[0].indexOf('Khởi động') !== -1 || r[0].indexOf('Khám phá') !== -1 || r[0].indexOf('Luyện tập') !== -1 || r[0].indexOf('Vận dụng') !== -1;
+              var c0 = r[0].replace(/\n/g, '<br/>');
+              var c1 = r[1].replace(/\n/g, '<br/>');
+              var c2 = r[2].replace(/\n/g, '<br/>');
+              var c3 = r[3].replace(/\n/g, '<br/>');
+              var isTichHopRow = c0.indexOf('[Tích hợp') !== -1 || c2.indexOf('[Tích hợp') !== -1 || c3.indexOf('[Tích hợp') !== -1;
+              var bgStyle = isTichHopRow && highlightIntegration ? 'background: #faf5ff; border-left: 3px solid #a855f7;' : (isHeaderRow ? 'background: #f8fafc; font-weight: 700;' : '');
+              tableHtml += '<tr style="' + bgStyle + '"><td style="padding: 0.4rem; vertical-align: top;">' + c0 + '</td><td style="padding: 0.4rem; vertical-align: top; text-align: center;">' + c1 + '</td><td style="padding: 0.4rem; vertical-align: top;">' + c2 + '</td><td style="padding: 0.4rem; vertical-align: top;">' + c3 + '</td></tr>';
+            } else if (r.length === 1) {
+              tableHtml += '<tr style="background: #f8fafc; font-weight: 700;"><td colspan="4" style="padding: 0.4rem;">' + r[0].replace(/\n/g, '<br/>') + '</td></tr>';
+            } else if (r.length === 2) {
+              tableHtml += '<tr style="background: #f8fafc; font-weight: 700;"><td colspan="2" style="padding: 0.4rem;">' + r[0].replace(/\n/g, '<br/>') + '</td><td colspan="2" style="padding: 0.4rem;">' + r[1].replace(/\n/g, '<br/>') + '</td></tr>';
+            }
+          });
+          tableHtml += '</tbody></table>';
+        } else {
+          tableHtml += '<table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem; margin-bottom: 0.8rem; font-size: 11pt;" border="1" bordercolor="#94a3b8"><thead><tr style="background: #f1f5f9; font-weight: 800; text-align: center;"><th style="padding: 0.45rem; width: 50%;">Hoạt động của giáo viên</th><th style="padding: 0.45rem; width: 50%;">Hoạt động của học sinh</th></tr></thead><tbody>';
+          rows.forEach(function(r) {
+            if (r.length >= 2) {
+              var isHeaderRow = r[0].indexOf('Khởi động') !== -1 || r[0].indexOf('Khám phá') !== -1 || r[0].indexOf('Luyện tập') !== -1 || r[0].indexOf('Vận dụng') !== -1;
+              var gvText = r[0].replace(/\n/g, '<br/>');
+              var hsText = r[1].replace(/\n/g, '<br/>');
+              var isTichHopRow = gvText.indexOf('[Tích hợp') !== -1 || gvText.indexOf('[GDĐP') !== -1 || hsText.indexOf('[Tích hợp') !== -1;
+              var bgStyle = isTichHopRow && highlightIntegration ? 'background: #faf5ff; border-left: 3px solid #a855f7;' : (isHeaderRow ? 'background: #f8fafc; font-weight: 700;' : '');
+              tableHtml += '<tr style="' + bgStyle + '"><td style="padding: 0.4rem; vertical-align: top;">' + gvText + '</td><td style="padding: 0.4rem; vertical-align: top;">' + hsText + '</td></tr>';
+            } else if (r.length === 1) {
+              tableHtml += '<tr style="background: #f8fafc; font-weight: 700;"><td colspan="2" style="padding: 0.4rem;">' + r[0].replace(/\n/g, '<br/>') + '</td></tr>';
+            }
+          });
+          tableHtml += '</tbody></table>';
+        }
       });
     }
 
@@ -108,8 +130,16 @@ var KHBD_DATA = {
       dieuchinhHtml = '<p style="font-style: italic; color: #64748b; margin: 0;">....................................................................................................................................................</p>';
     }
 
+    var rawTitle = lesson.lessonTitle || 'KẾ HOẠCH BÀI DẠY';
+    var cleanLessonTitle = rawTitle
+      .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
+      .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
+      .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
+      .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
+      .trim();
+
     return '<div class="lesson-plan-preview" style="font-family: Times New Roman, serif; font-size: 12pt; line-height: 1.45; color: #000; background: #fff; padding: 1.25rem; border: 1px solid #cbd5e1; border-radius: 4px;">' +
-      '<div style="text-align: center; margin-bottom: 1rem;"><h3 style="font-size: 14pt; font-weight: 800; margin: 0; text-transform: uppercase;">' + (lesson.lessonTitle || 'KẾ HOẠCH BÀI DẠY') + '</h3>' +
+      '<div style="text-align: center; margin-bottom: 1rem;"><h3 style="font-size: 14pt; font-weight: 800; margin: 0; text-transform: uppercase;">' + (cleanLessonTitle || 'KẾ HOẠCH BÀI DẠY') + '</h3>' +
       (lesson.topic ? '<p style="font-weight: 700; font-size: 12pt; margin: 0.25rem 0 0 0; color: #1e3a8a;">' + lesson.topic + '</p>' : '') +
       (weekNum ? '<p style="font-style: italic; margin: 0.15rem 0 0 0; color: #475569;">(Tuần ' + weekNum + ')</p>' : '') +
       '</div>' +
