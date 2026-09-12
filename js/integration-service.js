@@ -1947,10 +1947,24 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         <title>${meta.title || 'Kế hoạch bài dạy'}</title>
         <style>
           @page {
-            size: A4;
-            margin: 20mm 20mm 20mm 25mm;
-            mso-header-margin: 10mm;
-            mso-footer-margin: 10mm;
+            size: 21.0cm 29.7cm;
+            margin: 2.0cm 1.25cm 2.0cm 2.54cm;
+            mso-page-orientation: portrait;
+            mso-header-margin: 1.0cm;
+            mso-footer-margin: 1.0cm;
+            mso-gutter-margin: 0cm;
+          }
+          @page WordSection1 {
+            size: 21.0cm 29.7cm;
+            margin: 2.0cm 1.25cm 2.0cm 2.54cm;
+            mso-page-orientation: portrait;
+            mso-header-margin: 1.0cm;
+            mso-footer-margin: 1.0cm;
+            mso-gutter-margin: 0cm;
+            mso-paper-source: 0;
+          }
+          div.WordSection1 {
+            page: WordSection1;
           }
           body {
             font-family: 'Times New Roman', serif;
@@ -2065,6 +2079,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         </style>
       </head>
       <body>
+        <div class="WordSection1">
     `;
 
     if (meta.tkbCoverHtml) {
@@ -2314,7 +2329,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       `;
     });
 
-    docHtml += '</body></html>';
+    docHtml += '</div></body></html>';
     return docHtml;
   },
 

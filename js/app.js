@@ -4614,7 +4614,7 @@ async function triggerExportPlanSummaryWord() {
   <meta charset="utf-8">
   <title>Kế hoạch tích hợp</title>
   <style>
-    @page { size: A4; margin: 20mm 20mm 20mm 25mm; }
+    @page { size: A4 portrait; margin: 2.0cm 1.25cm 2.0cm 2.54cm; }
     body { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.35; color: #000; }
     table { width: 100%; border-collapse: collapse; margin: 6pt 0; }
     th, td { border: 1pt solid #000; padding: 6pt; vertical-align: top; }
@@ -5783,7 +5783,7 @@ function printIntegratedLessonSheet() {
     return;
   }
   win.document.open();
-  win.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>In Kế hoạch bài dạy</title><style>@page{size:A4;margin:20mm 20mm 20mm 25mm;}body{font-family:"Times New Roman",serif;font-size:13pt;line-height:1.35;color:#000;padding:20px;background:#fff;}table{width:100%;border-collapse:collapse;margin:6pt 0;}th,td{border:1pt solid #000;padding:6pt;vertical-align:top;}p{margin:3pt 0;}h1,h2,h3,h4{margin:6pt 0;}</style></head><body>' + sheet.innerHTML + '</body></html>');
+  win.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>In Kế hoạch bài dạy</title><style>@page{size:A4 portrait;margin:2.0cm 1.25cm 2.0cm 2.54cm;}body{font-family:"Times New Roman",serif;font-size:13pt;line-height:1.25;color:#000;padding:20px;background:#fff;}table{width:100%;border-collapse:collapse;margin:4pt 0;}th,td{border:1pt solid #000;padding:4pt 6pt;vertical-align:top;}p{margin:0;margin-top:0;margin-bottom:0;}h1,h2,h3,h4{margin:4pt 0;}</style></head><body>' + sheet.innerHTML + '</body></html>');
   win.document.close();
   setTimeout(function() {
     win.focus();
