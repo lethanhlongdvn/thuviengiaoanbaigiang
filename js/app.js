@@ -44,6 +44,20 @@ var integrationState = {
   activeTimetableWeekIndex: 0,
   activeTimetableLessonIndex: 0,
   timetableRole: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_timetable_role') : '') || 'gvcn', // 'gvcn' | 'gvbm'
+  gvbmAssignments: (function() {
+    if (typeof localStorage !== 'undefined') {
+      try {
+        var saved = localStorage.getItem('tvth_gvbm_assignments');
+        if (saved) return JSON.parse(saved);
+      } catch(e) {}
+    }
+    return [
+      { id: 1, grade: 4, subjectKey: 'am_nhac', classes: '4A, 4B, 4C, 4D', periodsPerWeek: 4 },
+      { id: 2, grade: 5, subjectKey: 'am_nhac', classes: '5A, 5B, 5C', periodsPerWeek: 3 },
+      { id: 3, grade: 3, subjectKey: 'cong_nghe', classes: '3A, 3B, 3C', periodsPerWeek: 3 },
+      { id: 4, grade: 2, subjectKey: 'gdtc', classes: '2A, 2B', periodsPerWeek: 4 }
+    ];
+  })(),
   gvbmConfig: {
     teacherName: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_gvbm_teacher_name') : '') || '',
     department: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_gvbm_department') : '') || 'Tổ Chuyên biệt / Bộ môn',
@@ -51,6 +65,15 @@ var integrationState = {
     schoolYear: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_gvbm_school_year') : '') || '2026 - 2027',
     subjectKey: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_gvbm_subject') : '') || 'am_nhac',
     isMultiSubject: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_gvbm_multi_subj') === 'true' : false),
+    assignedSubjects: (function() {
+      if (typeof localStorage !== 'undefined') {
+        try {
+          var saved = localStorage.getItem('tvth_gvbm_assigned_subjects');
+          if (saved) return JSON.parse(saved);
+        } catch(e) {}
+      }
+      return ['am_nhac', 'cong_nghe', 'gdtc', 'dao_duc'];
+    })(),
     schedule: (function() {
       if (typeof localStorage !== 'undefined') {
         try {
@@ -63,8 +86,18 @@ var integrationState = {
   }
 };
 
+function isGvbmRole(role) {
+  return role === 'gvbm' || role === 'gvbm_multi' || role === 'gvbm_single';
+}
+
+function isGvbmMultiRole(role, cfg) {
+  return role === 'gvbm_multi' || (role === 'gvbm' && cfg && cfg.isMultiSubject);
+}
+
 if (typeof window !== "undefined") {
   window.integrationState = integrationState;
+  window.isGvbmRole = isGvbmRole;
+  window.isGvbmMultiRole = isGvbmMultiRole;
 }
 
 // ==========================================
@@ -153,7 +186,13 @@ function initApplication() {
   if (searchStr.indexOf("mode=timetable") !== -1 || hashStr.indexOf("timetable") !== -1) {
     integrationState.exportMode = "timetable";
   }
-  if (searchStr.indexOf("role=gvbm") !== -1 || hashStr.indexOf("gvbm") !== -1) {
+  if (searchStr.indexOf("role=gvbm_multi") !== -1 || searchStr.indexOf("role=damon") !== -1 || hashStr.indexOf("gvbm_multi") !== -1 || hashStr.indexOf("damon") !== -1) {
+    integrationState.timetableRole = "gvbm";
+    if (integrationState.gvbmConfig) integrationState.gvbmConfig.isMultiSubject = true;
+  } else if (searchStr.indexOf("role=gvbm_single") !== -1 || hashStr.indexOf("gvbm_single") !== -1) {
+    integrationState.timetableRole = "gvbm";
+    if (integrationState.gvbmConfig) integrationState.gvbmConfig.isMultiSubject = false;
+  } else if (searchStr.indexOf("role=gvbm") !== -1 || hashStr.indexOf("gvbm") !== -1) {
     integrationState.timetableRole = "gvbm";
   } else if (searchStr.indexOf("role=gvcn") !== -1 || hashStr.indexOf("gvcn") !== -1) {
     integrationState.timetableRole = "gvcn";
@@ -3181,6 +3220,10 @@ if (typeof window !== "undefined") {
   window.closeGvbmScheduleModal = typeof closeGvbmScheduleModal !== "undefined" ? closeGvbmScheduleModal : null;
   window.saveGvbmScheduleFromModal = typeof saveGvbmScheduleFromModal !== "undefined" ? saveGvbmScheduleFromModal : null;
   window.resetGvbmScheduleToDefault = typeof resetGvbmScheduleToDefault !== "undefined" ? resetGvbmScheduleToDefault : null;
+  window.loadSampleGvbmMultiSchedule = typeof loadSampleGvbmMultiSchedule !== "undefined" ? loadSampleGvbmMultiSchedule : null;
+  window.toggleGvbmAssignedSubject = typeof toggleGvbmAssignedSubject !== "undefined" ? toggleGvbmAssignedSubject : null;
+  window.fillModalWithMultiSample = typeof fillModalWithMultiSample !== "undefined" ? fillModalWithMultiSample : null;
+  window.fillModalWithSingleSample = typeof fillModalWithSingleSample !== "undefined" ? fillModalWithSingleSample : null;
   window.clearGvbmScheduleInModal = typeof clearGvbmScheduleInModal !== "undefined" ? clearGvbmScheduleInModal : null;
   window.fillSampleGvbmScheduleInModal = typeof fillSampleGvbmScheduleInModal !== "undefined" ? fillSampleGvbmScheduleInModal : null;
   window.handleGvbmScheduleFileUpload = typeof handleGvbmScheduleFileUpload !== "undefined" ? handleGvbmScheduleFileUpload : null;
@@ -3231,12 +3274,10 @@ function renderAiIntegrationView(container) {
   }
 
   var isTimetableMode = (integrationState.exportMode === 'timetable');
-  var isGvbm = isTimetableMode && (integrationState.timetableRole === 'gvbm');
-  var gvbmSubj = (integrationState.gvbmConfig && integrationState.gvbmConfig.subjectKey) || 'am_nhac';
-  var gvbmSchedule = (integrationState.gvbmConfig && integrationState.gvbmConfig.schedule) || (typeof IntegrationService !== 'undefined' && IntegrationService.getDefaultTeacherSchedule ? IntegrationService.getDefaultTeacherSchedule(gvbmSubj) : []);
-  var gvbmSlotsCount = typeof getGvbmTotalSlots === 'function' ? getGvbmTotalSlots(gvbmSchedule) : 0;
-  var gvbmGradesCovered = typeof getGvbmGradesCovered === 'function' ? getGvbmGradesCovered(gvbmSchedule) : [];
-  var gvbmGradesStr = gvbmGradesCovered.length > 0 ? ('Khối ' + gvbmGradesCovered.join(', ')) : '';
+  var isGvbm = isTimetableMode && (integrationState.timetableRole === 'gvbm' || integrationState.timetableRole === 'gvbm_multi' || integrationState.timetableRole === 'gvbm_single');
+  var assignments = integrationState.gvbmAssignments || [];
+  var totalAssignedPeriods = 0;
+  assignments.forEach(function(a){ totalAssignedPeriods += (parseInt(a.periodsPerWeek) || 1); });
 
   var sWeek = integrationState.startWeek || 1;
   var eWeek = integrationState.endWeek || sWeek;
@@ -3251,7 +3292,7 @@ function renderAiIntegrationView(container) {
         <div>
           <div>Bước 1: Thiết lập & Tải tài liệu</div>
           <div style="font-size: 0.75rem; font-weight: normal; color: var(--text-muted);">
-            ${isTimetableMode ? (isGvbm ? 'Thiết lập Lịch dạy Bộ môn Đa Khối' : 'Chọn Khối, TKB & Tùy chọn Tích hợp') : 'Chọn Khối, Môn & Tùy chọn Tích hợp'}
+            ${isTimetableMode ? (isGvbm ? 'Phân công Giảng dạy Chuyên môn Đa Khối' : 'Chọn Khối, TKB & Tùy chọn Tích hợp') : 'Chọn Khối, Môn & Tùy chọn Tích hợp'}
           </div>
         </div>
       </div>
@@ -3269,7 +3310,7 @@ function renderAiIntegrationView(container) {
         <div>
           <div>Bước 3: Chèn vào KHBD & Xuất Word</div>
           <div style="font-size: 0.75rem; font-weight: normal; color: var(--text-muted);">
-            ${isTimetableMode ? (isGvbm ? 'Tải file Word bộ môn từng tuần theo TKB' : 'Tải file Word từng tuần theo TKB') : 'Tải file Word chuẩn CV 2345'}
+            ${isTimetableMode ? (isGvbm ? 'Tải file Word bộ môn từng tuần theo phân công' : 'Tải file Word từng tuần theo TKB') : 'Tải file Word chuẩn CV 2345'}
           </div>
         </div>
       </div>
@@ -3307,90 +3348,124 @@ function renderAiIntegrationView(container) {
             <div style="font-size: 0.74rem; font-weight: 800; color: #0369a1; text-transform: uppercase; margin-bottom: 0.4rem; display: flex; align-items: center; justify-content: space-between;">
               <span><i class="fa-solid fa-user-gear"></i> ĐỐI TƯỢNG GIÁO VIÊN:</span>
               <span style="font-size: 0.7rem; color: #0284c7; font-weight: 700;">
-                <i class="fa-solid fa-circle-info"></i> ${isGvbm ? 'Dạy Đa Khối / Đa Môn' : 'Dạy Theo Lớp Chủ Nhiệm'}
+                <i class="fa-solid fa-circle-info"></i> ${isGvbm ? 'Phân Công Giảng Dạy Đa Khối / Đa Môn' : 'Dạy Theo Lớp Chủ Nhiệm'}
               </span>
             </div>
             
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem;">
               <button type="button" class="btn btn-sm ${!isGvbm ? 'btn-primary' : 'btn-outline'}" 
-                      style="${!isGvbm ? 'background: #0284c7; border-color: #0284c7; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(2,132,199,0.3); font-size: 0.75rem;' : 'background: #fff; color: #334155; font-weight: 600; border-color: #cbd5e1; font-size: 0.75rem;'}" 
+                      style="${!isGvbm ? 'background: #0284c7; border-color: #0284c7; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(2,132,199,0.3); font-size: 0.76rem;' : 'background: #fff; color: #334155; font-weight: 600; border-color: #cbd5e1; font-size: 0.76rem;'}" 
                       onclick="setIntegrationTimetableRole('gvcn')">
                 <i class="fa-solid fa-chalkboard-user"></i> GV Chủ nhiệm
+                <div style="font-size: 0.62rem; font-weight: normal; opacity: 0.9; margin-top: 1px;">Theo Lớp • Đa Môn</div>
               </button>
               <button type="button" class="btn btn-sm ${isGvbm ? 'btn-primary' : 'btn-outline'}" 
-                      style="${isGvbm ? 'background: #0284c7; border-color: #0284c7; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(2,132,199,0.3); font-size: 0.75rem;' : 'background: #fff; color: #334155; font-weight: 600; border-color: #cbd5e1; font-size: 0.75rem;'}" 
+                      style="${isGvbm ? 'background: #0284c7; border-color: #0284c7; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(2,132,199,0.3); font-size: 0.76rem;' : 'background: #fff; color: #334155; font-weight: 600; border-color: #cbd5e1; font-size: 0.76rem;'}" 
                       onclick="setIntegrationTimetableRole('gvbm')">
-                <i class="fa-solid fa-user-tie"></i> GV Bộ môn (Đa Khối)
+                <i class="fa-solid fa-user-tie"></i> GV Bộ môn
+                <div style="font-size: 0.62rem; font-weight: normal; opacity: 0.9; margin-top: 1px;">Đa Khối • Đa Lớp</div>
               </button>
             </div>
           </div>
         ` : ''}
 
         ${isGvbm ? `
-          <!-- GIAO DIỆN DÀNH CHO GIÁO VIÊN BỘ MÔN (ĐA KHỐI / ĐA MÔN) -->
-          <!-- 1. MÔN HỌC CHUYÊN TRÁCH -->
+          <!-- 1. BẢNG PHÂN CÔNG GIẢNG DẠY GV BỘ MÔN (ĐA KHỐI / ĐA MÔN) -->
           <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); padding: 0.75rem; margin-bottom: 0.85rem;">
-            <div class="form-group" style="margin-bottom: 0.45rem;">
-              <label for="gvbmSubjectSelect" style="font-weight: 700; font-size: 0.82rem; color: #334155; display: flex; align-items: center; justify-content: space-between;">
-                <span><i class="fa-solid fa-bookmark" style="color: #db2777;"></i> 1. Môn chuyên trách chính:</span>
-                <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(Áp dụng toàn bộ lịch)</span>
-              </label>
-              <select id="gvbmSubjectSelect" class="form-select" style="font-size: 0.82rem; font-weight: 700;" onchange="onGvbmSubjectChange(this.value)">
-                <option value="am_nhac" ${gvbmSubj === 'am_nhac' ? 'selected' : ''}>Âm nhạc</option>
-                <option value="my_thuat" ${gvbmSubj === 'my_thuat' ? 'selected' : ''}>Mĩ thuật</option>
-                <option value="tin_hoc" ${gvbmSubj === 'tin_hoc' ? 'selected' : ''}>Tin học</option>
-                <option value="tieng_anh" ${gvbmSubj === 'tieng_anh' ? 'selected' : ''}>Tiếng Anh / Ngoại ngữ 1</option>
-                <option value="gdtc" ${gvbmSubj === 'gdtc' ? 'selected' : ''}>Giáo dục thể chất</option>
-                <option value="cong_nghe" ${gvbmSubj === 'cong_nghe' ? 'selected' : ''}>Công nghệ</option>
-                <option value="dao_duc" ${gvbmSubj === 'dao_duc' ? 'selected' : ''}>Đạo đức</option>
-                <option value="khoa_hoc" ${gvbmSubj === 'khoa_hoc' ? 'selected' : ''}>Khoa học</option>
-                <option value="lich_su_dia_ly" ${gvbmSubj === 'lich_su_dia_ly' ? 'selected' : ''}>Lịch sử và Địa lí</option>
-                <option value="toan" ${gvbmSubj === 'toan' ? 'selected' : ''}>Toán</option>
-                <option value="tieng_viet" ${gvbmSubj === 'tieng_viet' ? 'selected' : ''}>Tiếng Việt</option>
-                <option value="hdtn" ${gvbmSubj === 'hdtn' ? 'selected' : ''}>Hoạt động trải nghiệm</option>
-              </select>
-            </div>
-            <div style="display: flex; align-items: center; gap: 0.45rem; padding-top: 2px;">
-              <input type="checkbox" id="gvbmMultiSubjCheck" style="width: 16px; height: 16px; accent-color: #db2777; cursor: pointer;" ${integrationState.gvbmConfig.isMultiSubject ? 'checked' : ''} onchange="toggleGvbmMultiSubject(this.checked)">
-              <label for="gvbmMultiSubjCheck" style="font-size: 0.76rem; font-weight: 600; color: #475569; margin: 0; cursor: pointer;">
-                Dạy nhiều môn (Kiêm nhiệm thêm môn khác)
-              </label>
-            </div>
-          </div>
-
-          <!-- 2. LỊCH LÊN LỚP / TKB BỘ MÔN (ĐA KHỐI) -->
-          <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); padding: 0.75rem; margin-bottom: 0.85rem;">
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
               <span style="font-size: 0.8rem; font-weight: 800; color: #1e293b;">
-                <i class="fa-solid fa-table-cells" style="color: #0284c7;"></i> 2. Lịch Dạy / TKB Bộ Môn:
+                <i class="fa-solid fa-table-list" style="color: #0284c7;"></i> 1. Phân Công Chuyên Môn / Giảng Dạy:
               </span>
-              <span style="font-size: 0.72rem; color: #16a34a; font-weight: 700; background: #f0fdf4; padding: 2px 6px; border-radius: 4px; border: 1px solid #bbf7d0;">
-                ${gvbmSlotsCount} tiết/tuần
+              <span id="gvbmTotalPeriodsBadge" style="font-size: 0.72rem; color: #16a34a; font-weight: 700; background: #f0fdf4; padding: 2px 6px; border-radius: 4px; border: 1px solid #bbf7d0;">
+                ${totalAssignedPeriods} tiết/tuần (${assignments.length} môn)
               </span>
             </div>
 
-            <div style="font-size: 0.72rem; color: #64748b; margin-bottom: 0.5rem; line-height: 1.35;">
-              <i class="fa-solid fa-circle-check" style="color: #16a34a;"></i> ${gvbmGradesStr ? ('Phân công dạy: <b>' + gvbmGradesStr + '</b>') : 'Chưa nhập lịch dạy'}
+            <div style="font-size: 0.72rem; color: #64748b; margin-bottom: 0.55rem; line-height: 1.35;">
+              <i class="fa-solid fa-circle-check" style="color: #16a34a;"></i> Mỗi môn dạy nhiều lớp trong khối sẽ xuất <strong>1 KHBD chuẩn</strong> (kèm danh sách lớp), không bị trùng lặp.
             </div>
 
-            <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
-              <button type="button" class="btn btn-sm btn-primary" style="font-size: 0.75rem; flex: 1; white-space: nowrap; background: #0284c7; border-color: #0284c7;" onclick="openGvbmScheduleModal()">
-                <i class="fa-solid fa-pen-to-square"></i> Xem & Sửa Lịch Lên Lớp
-              </button>
-              <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.75rem; flex: 1; white-space: nowrap;" onclick="document.getElementById('integGvbmFileInput').click()">
-                <i class="fa-solid fa-file-arrow-up" style="color: #10b981;"></i> Nạp File Lịch Dạy
-              </button>
-              <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.75rem; color: #dc2626; border-color: #fca5a5;" onclick="resetGvbmScheduleToDefault()" title="Khôi phục lịch mẫu chuẩn 18 tiết">
-                <i class="fa-solid fa-rotate-left"></i>
-              </button>
+            <!-- BẢNG CÁC HÀNG PHÂN CÔNG -->
+            <div style="overflow-x: auto; margin-bottom: 0.6rem;">
+              <table style="width: 100%; border-collapse: collapse; font-size: 0.75rem;">
+                <thead>
+                  <tr style="background: #e2e8f0; color: #334155; font-weight: 700;">
+                    <th style="padding: 4px; border: 1px solid #cbd5e1; width: 28px; text-align: center;">STT</th>
+                    <th style="padding: 4px; border: 1px solid #cbd5e1; width: 80px; text-align: center;">Khối</th>
+                    <th style="padding: 4px; border: 1px solid #cbd5e1; text-align: left;">Môn học</th>
+                    <th style="padding: 4px; border: 1px solid #cbd5e1; text-align: left;">Lớp phụ trách</th>
+                    <th style="padding: 4px; border: 1px solid #cbd5e1; width: 45px; text-align: center;">Tiết/T</th>
+                    <th style="padding: 4px; border: 1px solid #cbd5e1; width: 32px; text-align: center;">Xóa</th>
+                  </tr>
+                </thead>
+                <tbody id="gvbmAssignmentsTableBody">
+                  ${assignments.map(function(item, idx) {
+                    var availSubjs = getAvailableSubjectsForGrade(item.grade);
+                    return `
+                      <tr>
+                        <td style="padding: 3px; border: 1px solid #cbd5e1; text-align: center; font-weight: bold; background: #f1f5f9;">
+                          ${idx + 1}
+                        </td>
+                        <td style="padding: 3px; border: 1px solid #cbd5e1;">
+                          <select class="form-select" style="font-size: 0.73rem; padding: 2px 4px; font-weight: bold; height: auto;" onchange="updateGvbmAssignmentRow('${item.id}', 'grade', this.value)">
+                            <option value="1" ${item.grade === 1 ? 'selected' : ''}>Khối 1</option>
+                            <option value="2" ${item.grade === 2 ? 'selected' : ''}>Khối 2</option>
+                            <option value="3" ${item.grade === 3 ? 'selected' : ''}>Khối 3</option>
+                            <option value="4" ${item.grade === 4 ? 'selected' : ''}>Khối 4</option>
+                            <option value="5" ${item.grade === 5 ? 'selected' : ''}>Khối 5</option>
+                          </select>
+                        </td>
+                        <td style="padding: 3px; border: 1px solid #cbd5e1;">
+                          <select class="form-select" style="font-size: 0.73rem; padding: 2px 4px; font-weight: bold; height: auto;" onchange="updateGvbmAssignmentRow('${item.id}', 'subjectKey', this.value)">
+                            ${availSubjs.map(function(s) {
+                              return `<option value="${s.key}" ${s.key === item.subjectKey ? 'selected' : ''}>${s.name}</option>`;
+                            }).join('')}
+                          </select>
+                        </td>
+                        <td style="padding: 3px; border: 1px solid #cbd5e1;">
+                          <input type="text" class="form-control" style="font-size: 0.73rem; padding: 2px 6px; font-weight: 600;" value="${item.classes || ''}" placeholder="VD: 4A, 4B, 4C" onchange="updateGvbmAssignmentRow('${item.id}', 'classes', this.value)">
+                        </td>
+                        <td style="padding: 3px; border: 1px solid #cbd5e1; text-align: center;">
+                          <input type="number" min="1" max="30" class="form-control" style="font-size: 0.73rem; padding: 2px 2px; text-align: center; font-weight: bold;" value="${item.periodsPerWeek || 1}" onchange="updateGvbmAssignmentRow('${item.id}', 'periodsPerWeek', this.value)">
+                        </td>
+                        <td style="padding: 3px; border: 1px solid #cbd5e1; text-align: center;">
+                          <button type="button" style="background: none; border: none; color: #ef4444; cursor: pointer; padding: 2px 4px;" onclick="removeGvbmAssignmentRow('${item.id}')" title="Xóa hàng này">
+                            <i class="fa-solid fa-trash-can"></i>
+                          </button>
+                        </td>
+                      </tr>
+                    `;
+                  }).join('')}
+                </tbody>
+              </table>
             </div>
-            <input type="file" id="integGvbmFileInput" accept=".xlsx,.xls,.docx,.doc,.csv,.txt,.json" style="display: none;" onchange="handleGvbmScheduleFileUpload(this)">
+
+            <!-- THANH THAO TÁC THÊM HÀNG & MẪU NHANH -->
+            <div style="display: flex; gap: 0.35rem; align-items: center; flex-wrap: wrap;">
+              <button type="button" class="btn btn-sm btn-primary" style="font-size: 0.74rem; background: #0284c7; border-color: #0284c7; padding: 3px 8px;" onclick="addGvbmAssignmentRow()">
+                <i class="fa-solid fa-plus"></i> Thêm Hàng Mới
+              </button>
+              <div style="display: flex; gap: 0.25rem; margin-left: auto;">
+                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('multi')" title="Mẫu GV dạy đa môn: Âm nhạc + Mĩ thuật + Công nghệ + GDTC">
+                  Mẫu Đa Môn
+                </button>
+                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('music')" title="Mẫu GV chuyên Âm nhạc Khối 1 - 5">
+                  Mẫu Âm Nhạc
+                </button>
+                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('pe')" title="Mẫu GV chuyên GD Thể chất Khối 1 - 5">
+                  Mẫu GDTC
+                </button>
+                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('tech')" title="Mẫu GV chuyên Tin - Công nghệ">
+                  Mẫu Tin-CN
+                </button>
+              </div>
+            </div>
           </div>
 
-          <!-- 3. THÔNG TIN GIÁO VIÊN BỘ MÔN -->
+          <!-- 2. THÔNG TIN GIÁO VIÊN BỘ MÔN (IN TRÊN BÌA KHBD) -->
           <div style="background: #f8fafc; border: 1px solid #e2e8f0; border-radius: var(--radius-sm); padding: 0.75rem; margin-bottom: 0.85rem;">
             <div style="font-size: 0.78rem; font-weight: 800; color: #1e293b; margin-bottom: 0.45rem; display: flex; align-items: center; justify-content: space-between;">
-              <span><i class="fa-solid fa-user-pen" style="color: #0284c7;"></i> Thông tin Giáo viên Bộ môn:</span>
+              <span><i class="fa-solid fa-user-pen" style="color: #0284c7;"></i> Thông tin Giáo viên & Năm học:</span>
               <span style="font-size: 0.7rem; color: #64748b; font-weight: normal;">(In trên bìa KHBD)</span>
             </div>
             <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem; margin-bottom: 0.45rem;">
@@ -3746,7 +3821,7 @@ function renderIntegrationRightColumnContent() {
   }
   if (step === 3) {
     if (isTimetableMode && integrationState.timetableAppliedWeeks && integrationState.timetableAppliedWeeks.length > 0) {
-      if (integrationState.timetableRole === 'gvbm') {
+      if (isGvbmRole(integrationState.timetableRole)) {
         return renderIntegrationGvbmFinalPreviewHtml();
       }
       return renderIntegrationTimetableFinalPreviewHtml();
@@ -4503,6 +4578,168 @@ function onGvbmFieldChange(field, val) {
   } catch (e) {}
 }
 
+function getAvailableSubjectsForGrade(grade) {
+  var g = parseInt(grade) || 5;
+  var list = [
+    { key: 'am_nhac', name: 'Âm nhạc' },
+    { key: 'my_thuat', name: 'Mĩ thuật' },
+    { key: 'gdtc', name: 'Giáo dục thể chất' },
+    { key: 'dao_duc', name: 'Đạo đức' },
+    { key: 'tieng_anh', name: 'Tiếng Anh' },
+    { key: 'tin_hoc', name: 'Tin học' }
+  ];
+  if (g >= 3) {
+    list.push({ key: 'cong_nghe', name: 'Công nghệ' });
+  }
+  if (g <= 3) {
+    list.push({ key: 'tnxh', name: 'Tự nhiên & Xã hội' });
+  } else {
+    list.push({ key: 'khoa_hoc', name: 'Khoa học' });
+    list.push({ key: 'lich_su_dia_ly', name: 'Lịch sử & Địa lí' });
+  }
+  list.push({ key: 'hdtn', name: 'Hoạt động trải nghiệm' });
+  list.push({ key: 'toan', name: 'Toán' });
+  list.push({ key: 'tieng_viet', name: 'Tiếng Việt' });
+  return list;
+}
+
+function addGvbmAssignmentRow() {
+  if (!integrationState.gvbmAssignments) {
+    integrationState.gvbmAssignments = [];
+  }
+  var newId = Date.now();
+  var nextGrade = 4;
+  var existingGrades = integrationState.gvbmAssignments.map(function(a){ return a.grade; });
+  for (var g = 1; g <= 5; g++) {
+    if (!existingGrades.includes(g)) { nextGrade = g; break; }
+  }
+  integrationState.gvbmAssignments.push({
+    id: newId,
+    grade: nextGrade,
+    subjectKey: 'am_nhac',
+    classes: nextGrade + 'A, ' + nextGrade + 'B',
+    periodsPerWeek: 2
+  });
+  try {
+    localStorage.setItem('tvth_gvbm_assignments', JSON.stringify(integrationState.gvbmAssignments));
+  } catch(e){}
+  
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  showToast('Đã thêm 1 hàng phân công chuyên môn mới!', 'info');
+}
+
+function removeGvbmAssignmentRow(id) {
+  if (!integrationState.gvbmAssignments) return;
+  if (integrationState.gvbmAssignments.length <= 1) {
+    showToast('Cần giữ lại ít nhất 1 hàng phân công giảng dạy!', 'warning');
+    return;
+  }
+  integrationState.gvbmAssignments = integrationState.gvbmAssignments.filter(function(item) {
+    return String(item.id) !== String(id);
+  });
+  try {
+    localStorage.setItem('tvth_gvbm_assignments', JSON.stringify(integrationState.gvbmAssignments));
+  } catch(e){}
+
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  showToast('Đã xóa hàng phân công!', 'info');
+}
+
+function updateGvbmAssignmentRow(id, field, value) {
+  if (!integrationState.gvbmAssignments) return;
+  var item = integrationState.gvbmAssignments.find(function(it) {
+    return String(it.id) === String(id);
+  });
+  if (!item) return;
+
+  if (field === 'grade') {
+    item.grade = parseInt(value) || 1;
+    var subjs = getAvailableSubjectsForGrade(item.grade);
+    if (!subjs.some(function(s){ return s.key === item.subjectKey; })) {
+      item.subjectKey = subjs[0].key;
+    }
+  } else if (field === 'subjectKey') {
+    item.subjectKey = value;
+  } else if (field === 'classes') {
+    item.classes = value;
+  } else if (field === 'periodsPerWeek') {
+    item.periodsPerWeek = parseInt(value) || 1;
+  }
+
+  try {
+    localStorage.setItem('tvth_gvbm_assignments', JSON.stringify(integrationState.gvbmAssignments));
+  } catch(e){}
+
+  if (field === 'grade') {
+    var container = document.getElementById('content-container');
+    if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+      renderAiIntegrationView(container);
+    }
+  } else {
+    var badge = document.getElementById('gvbmTotalPeriodsBadge');
+    if (badge) {
+      var totalP = 0;
+      integrationState.gvbmAssignments.forEach(function(a){ totalP += (parseInt(a.periodsPerWeek) || 1); });
+      badge.textContent = totalP + ' tiết/tuần (' + integrationState.gvbmAssignments.length + ' môn)';
+    }
+  }
+}
+
+function loadSampleGvbmAssignments(presetType) {
+  var preset = [];
+  if (presetType === 'music') {
+    preset = [
+      { id: 1, grade: 1, subjectKey: 'am_nhac', classes: '1A, 1B, 1C', periodsPerWeek: 3 },
+      { id: 2, grade: 2, subjectKey: 'am_nhac', classes: '2A, 2B, 2C', periodsPerWeek: 3 },
+      { id: 3, grade: 3, subjectKey: 'am_nhac', classes: '3A, 3B, 3C', periodsPerWeek: 3 },
+      { id: 4, grade: 4, subjectKey: 'am_nhac', classes: '4A, 4B, 4C, 4D', periodsPerWeek: 4 },
+      { id: 5, grade: 5, subjectKey: 'am_nhac', classes: '5A, 5B, 5C, 5D', periodsPerWeek: 4 }
+    ];
+  } else if (presetType === 'pe') {
+    preset = [
+      { id: 1, grade: 1, subjectKey: 'gdtc', classes: '1A, 1B', periodsPerWeek: 4 },
+      { id: 2, grade: 2, subjectKey: 'gdtc', classes: '2A, 2B', periodsPerWeek: 4 },
+      { id: 3, grade: 3, subjectKey: 'gdtc', classes: '3A, 3B', periodsPerWeek: 4 },
+      { id: 4, grade: 4, subjectKey: 'gdtc', classes: '4A, 4B', periodsPerWeek: 4 },
+      { id: 5, grade: 5, subjectKey: 'gdtc', classes: '5A, 5B', periodsPerWeek: 4 }
+    ];
+  } else if (presetType === 'tech') {
+    preset = [
+      { id: 1, grade: 3, subjectKey: 'cong_nghe', classes: '3A, 3B, 3C', periodsPerWeek: 3 },
+      { id: 2, grade: 4, subjectKey: 'cong_nghe', classes: '4A, 4B, 4C', periodsPerWeek: 3 },
+      { id: 3, grade: 5, subjectKey: 'cong_nghe', classes: '5A, 5B, 5C', periodsPerWeek: 3 },
+      { id: 4, grade: 3, subjectKey: 'tin_hoc', classes: '3A, 3B, 3C', periodsPerWeek: 3 },
+      { id: 5, grade: 4, subjectKey: 'tin_hoc', classes: '4A, 4B, 4C', periodsPerWeek: 3 },
+      { id: 6, grade: 5, subjectKey: 'tin_hoc', classes: '5A, 5B, 5C', periodsPerWeek: 3 }
+    ];
+  } else {
+    preset = [
+      { id: 1, grade: 4, subjectKey: 'am_nhac', classes: '4A, 4B, 4C, 4D', periodsPerWeek: 4 },
+      { id: 2, grade: 5, subjectKey: 'am_nhac', classes: '5A, 5B, 5C', periodsPerWeek: 3 },
+      { id: 3, grade: 3, subjectKey: 'cong_nghe', classes: '3A, 3B, 3C', periodsPerWeek: 3 },
+      { id: 4, grade: 2, subjectKey: 'gdtc', classes: '2A, 2B', periodsPerWeek: 4 },
+      { id: 5, grade: 1, subjectKey: 'my_thuat', classes: '1A, 1B, 1C', periodsPerWeek: 3 }
+    ];
+  }
+
+  integrationState.gvbmAssignments = preset;
+  try {
+    localStorage.setItem('tvth_gvbm_assignments', JSON.stringify(preset));
+  } catch(e){}
+
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  showToast('Đã nạp mẫu phân công chuyên môn thành công!', 'success');
+}
+
 function getGvbmTotalSlots(schedule) {
   if (!Array.isArray(schedule)) return 0;
   var count = 0;
@@ -4819,7 +5056,7 @@ function saveGvbmScheduleFromModal() {
 
   closeGvbmScheduleModal();
 
-  if (integrationState.activeStep === 3 && integrationState.exportMode === 'timetable' && integrationState.timetableRole === 'gvbm') {
+  if (integrationState.activeStep === 3 && integrationState.exportMode === 'timetable' && isGvbmRole(integrationState.timetableRole)) {
     triggerPreviewOriginalKhbd();
   } else {
     var container = document.getElementById('content-container');
@@ -4887,7 +5124,7 @@ function resetGvbmScheduleToDefault() {
 
   closeGvbmScheduleModal();
 
-  if (integrationState.activeStep === 3 && integrationState.exportMode === 'timetable' && integrationState.timetableRole === 'gvbm') {
+  if (integrationState.activeStep === 3 && integrationState.exportMode === 'timetable' && isGvbmRole(integrationState.timetableRole)) {
     triggerPreviewOriginalKhbd();
   } else {
     var container = document.getElementById('content-container');
@@ -4965,7 +5202,7 @@ async function handleGvbmScheduleFileUpload(input) {
 
 async function triggerPreviewOriginalKhbd() {
   var isTimetableMode = (integrationState.exportMode === 'timetable');
-  var isGvbm = isTimetableMode && (integrationState.timetableRole === 'gvbm');
+  var isGvbm = isTimetableMode && isGvbmRole(integrationState.timetableRole);
   var grade = integrationState.grade || 5;
   var sWeek = integrationState.startWeek || 1;
   var eWeek = integrationState.endWeek || sWeek;
@@ -4983,11 +5220,22 @@ async function triggerPreviewOriginalKhbd() {
       for (var w = sWeek; w <= eWeek; w++) {
         var weeklyPlan;
         if (isGvbm) {
-          weeklyPlan = await IntegrationService.buildWeeklyPlanByTeacherSchedule(
-            integrationState.gvbmConfig,
+          var cfg = integrationState.gvbmConfig || {};
+          var gvbmMeta = {
+            role: 'gvbm',
+            isAssignmentMode: true,
+            week: w,
+            schoolName: cfg.schoolName || integrationState.schoolName,
+            teacherName: cfg.teacherName || integrationState.teacherName,
+            schoolYear: cfg.schoolYear || integrationState.schoolYear,
+            department: cfg.department || 'Tổ Chuyên biệt / Bộ môn'
+          };
+          weeklyPlan = await IntegrationService.buildWeeklyPlanByAssignments(
+            integrationState.gvbmAssignments,
             w,
             null,
-            false
+            false,
+            gvbmMeta
           );
         } else {
           weeklyPlan = await IntegrationService.buildWeeklyPlanByTimetable(
@@ -5073,7 +5321,7 @@ async function triggerPreviewOriginalKhbd() {
 
 async function triggerDirectFastExport() {
   var isTimetableMode = (integrationState.exportMode === 'timetable');
-  var isGvbm = isTimetableMode && (integrationState.timetableRole === 'gvbm');
+  var isGvbm = isTimetableMode && isGvbmRole(integrationState.timetableRole);
   var grade = integrationState.grade || 5;
   var sWeek = integrationState.startWeek || 1;
   var eWeek = integrationState.endWeek || sWeek;
@@ -5092,23 +5340,25 @@ async function triggerDirectFastExport() {
       for (var w = sWeek; w <= eWeek; w++) {
         var weeklyPlan, resW;
         if (isGvbm) {
-          weeklyPlan = await IntegrationService.buildWeeklyPlanByTeacherSchedule(
-            integrationState.gvbmConfig,
-            w,
-            null,
-            false
-          );
           var cfg = integrationState.gvbmConfig || {};
-          var teacherSubj = IntegrationService.getSubjectDisplayName(cfg.subjectKey || 'am_nhac');
-          resW = await IntegrationService.exportWeekByTimetableWord(weeklyPlan, {
+          var gvbmMeta = {
             role: 'gvbm',
+            isAssignmentMode: true,
             week: w,
             schoolName: cfg.schoolName || integrationState.schoolName,
             teacherName: cfg.teacherName || integrationState.teacherName,
             schoolYear: cfg.schoolYear || integrationState.schoolYear,
-            department: cfg.department,
-            filename: 'KHBD_Tuan_' + w + '_GVBM_' + teacherSubj.replace(/[\s\/]+/g, '_') + '_Theo_TKB.doc'
-          });
+            department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
+            filename: 'KHBD_Tuan_' + w + '_GV_BoMon.doc'
+          };
+          weeklyPlan = await IntegrationService.buildWeeklyPlanByAssignments(
+            integrationState.gvbmAssignments,
+            w,
+            null,
+            false,
+            gvbmMeta
+          );
+          resW = await IntegrationService.exportWeekByTimetableWord(weeklyPlan, gvbmMeta);
         } else {
           weeklyPlan = await IntegrationService.buildWeeklyPlanByTimetable(
             grade, 
@@ -5297,15 +5547,37 @@ async function syncAppliedLessonsFromPlan() {
         }
       });
 
+      var isGvbm = isGvbmRole(integrationState.timetableRole);
       var weeklyResults = [];
       for (var w = sWeek; w <= eWeek; w++) {
-        var wPlan = await IntegrationService.buildWeeklyPlanByTimetable(
-          grade, 
-          w, 
-          integrationState.customTimetable, 
-          integratedMap, 
-          integrationState.overwriteLegacy !== false
-        );
+        var wPlan;
+        if (isGvbm) {
+          var cfg = integrationState.gvbmConfig || {};
+          var gvbmMeta = {
+            role: 'gvbm',
+            isAssignmentMode: true,
+            week: w,
+            schoolName: cfg.schoolName || integrationState.schoolName,
+            teacherName: cfg.teacherName || integrationState.teacherName,
+            schoolYear: cfg.schoolYear || integrationState.schoolYear,
+            department: cfg.department || 'Tổ Chuyên biệt / Bộ môn'
+          };
+          wPlan = await IntegrationService.buildWeeklyPlanByAssignments(
+            integrationState.gvbmAssignments,
+            w,
+            integratedMap,
+            integrationState.overwriteLegacy !== false,
+            gvbmMeta
+          );
+        } else {
+          wPlan = await IntegrationService.buildWeeklyPlanByTimetable(
+            grade, 
+            w, 
+            integrationState.customTimetable, 
+            integratedMap, 
+            integrationState.overwriteLegacy !== false
+          );
+        }
         weeklyResults.push(wPlan);
       }
       integrationState.timetableAppliedWeeks = weeklyResults;
@@ -6060,16 +6332,27 @@ async function triggerApplyAndPreviewIntegration() {
         }
       });
 
-      var isGvbm = (integrationState.timetableRole === 'gvbm');
+      var isGvbm = isGvbmRole(integrationState.timetableRole);
       var weeklyResults = [];
       for (var w = sWeek; w <= eWeek; w++) {
         var wPlan;
         if (isGvbm) {
-          wPlan = await IntegrationService.buildWeeklyPlanByTeacherSchedule(
-            integrationState.gvbmConfig,
+          var cfg = integrationState.gvbmConfig || {};
+          var gvbmMeta = {
+            role: 'gvbm',
+            isAssignmentMode: true,
+            week: w,
+            schoolName: cfg.schoolName || integrationState.schoolName,
+            teacherName: cfg.teacherName || integrationState.teacherName,
+            schoolYear: cfg.schoolYear || integrationState.schoolYear,
+            department: cfg.department || 'Tổ Chuyên biệt / Bộ môn'
+          };
+          wPlan = await IntegrationService.buildWeeklyPlanByAssignments(
+            integrationState.gvbmAssignments,
             w,
             integratedMap,
-            integrationState.overwriteLegacy !== false
+            integrationState.overwriteLegacy !== false,
+            gvbmMeta
           );
         } else {
           wPlan = await IntegrationService.buildWeeklyPlanByTimetable(
@@ -6224,10 +6507,10 @@ function renderIntegrationGvbmFinalPreviewHtml() {
       <div>
         <div style="font-size: 0.75rem; font-weight: 800; color: #0284c7; text-transform: uppercase; display: flex; align-items: center; gap: 0.4rem;">
           <i class="fa-solid fa-user-tie"></i> 
-          GIÁO VIÊN BỘ MÔN (ĐA KHỐI) • XEM TRƯỚC THEO LỊCH DẠY
+          GIÁO VIÊN BỘ MÔN (ĐA KHỐI • ĐA MÔN) • XEM TRƯỚC THEO PHÂN CÔNG GIẢNG DẠY
         </div>
         <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin: 0.2rem 0;">
-          Môn ${subjName} • Tuần ${curWeekData.week} (${lessons.length} tiết lên lớp)
+          Kế hoạch bài dạy Tuần ${curWeekData.week} (${lessons.length} Kế hoạch bài dạy • Không trùng lặp)
         </h3>
         <div style="font-size: 0.8rem; color: var(--text-muted);">
           Giáo viên: <strong style="color: #0284c7;">${cfg.teacherName || '.................................................'}</strong>
@@ -6239,15 +6522,26 @@ function renderIntegrationGvbmFinalPreviewHtml() {
 
       <div style="display: flex; gap: 0.5rem; align-items: center;">
         <button class="btn btn-outline" style="font-size: 0.82rem;" onclick="resetIntegrationToSetup()">
-          <i class="fa-solid fa-arrow-left"></i> Quay lại chọn tuần
+          <i class="fa-solid fa-arrow-left"></i> Quay lại cấu hình
         </button>
         <button class="btn btn-outline" style="font-size: 0.82rem;" onclick="printIntegratedLessonSheet()" title="In bài dạy đang xem ra giấy">
           <i class="fa-solid fa-print"></i> In bài này
         </button>
-        <button class="btn btn-primary" style="background: linear-gradient(135deg, #0284c7, #0ea5e9); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.35); padding: 0.65rem 1.25rem;" onclick="triggerDirectFastExport()">
+        <button class="btn btn-primary" style="background: linear-gradient(135deg, #0284c7, #0ea5e9); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(2, 132, 199, 0.35); padding: 0.65rem 1.25rem;" onclick="${isOrig ? 'triggerDirectFastExport()' : 'triggerExportAllTimetableWeeksWord()'}">
           <i class="fa-solid fa-file-word"></i> TẢI ${weeks.length > 1 ? (weeks.length + ' FILE WORD BỘ MÔN (1 FILE/TUẦN)') : 'FILE WORD TUẦN NÀY'}
         </button>
       </div>
+    </div>
+
+    <!-- KHUNG TÓM TẮT PHÂN CÔNG TUẦN NÀY -->
+    <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 6px; padding: 0.55rem 0.85rem; margin-bottom: 0.85rem; font-size: 0.78rem; color: #0369a1; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
+      <div>
+        <i class="fa-solid fa-circle-check" style="color: #0284c7;"></i>
+        <strong>Nguyên tắc xuất chuẩn:</strong> 1 Môn dạy nhiều lớp cùng khối xuất đúng <strong>1 Kế hoạch bài dạy</strong> kèm danh sách tất cả các lớp phụ trách. File Word kèm Bảng phân công chuyên môn chính thức chuẩn CV 2345.
+      </div>
+      <span style="font-weight: 800; color: #0284c7; background: #fff; border: 1px solid #bae6fd; padding: 2px 8px; border-radius: 12px; font-size: 0.75rem;">
+        Tổng cộng: ${lessons.length} Kế hoạch bài dạy
+      </span>
     </div>
 
     <!-- THANH CHỌN TUẦN -->
@@ -6265,23 +6559,25 @@ function renderIntegrationGvbmFinalPreviewHtml() {
       </div>
     ` : ''}
 
-    <!-- THANH ĐIỀU HƯỚNG TỪNG TIẾT CỦA GIÁO VIÊN BỘ MÔN (CÓ BADGE KHỐI & LỚP) -->
+    <!-- THANH ĐIỀU HƯỚNG TỪNG BÀI DẠY CỦA GIÁO VIÊN BỘ MÔN (CÓ BADGE KHỐI & LỚP) -->
     <div style="display: flex; gap: 0.35rem; overflow-x: auto; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 1px dashed var(--border-color);">
       ${lessons.map(function(les, idx) {
         var isAct = idx === lIdx;
         var actBtnBg = 'background: #0284c7; border-color: #0284c7; color: white;';
         var gColor = gradeColors[les.grade] || '#64748b';
-        var clsLabel = les.className ? ('Lớp ' + les.className) : ('Khối ' + les.grade);
+        var sName = les.subjectName || IntegrationService.getSubjectDisplayName(les.subjectKey || 'am_nhac');
+        var clsLabel = les.classes ? ('Lớp ' + les.classes) : (les.className || ('Khối ' + les.grade));
 
         return `
           <button class="btn btn-sm ${isAct ? 'btn-primary' : 'btn-outline'}" 
-                  style="font-size: 0.74rem; white-space: nowrap; display: inline-flex; align-items: center; gap: 4px; ${isAct ? actBtnBg : ''}" 
-                  onclick="switchTimetablePreviewLesson(${idx})">
-            <span style="background: ${isAct ? 'rgba(255,255,255,0.25)' : gColor}; color: white; padding: 1px 4px; border-radius: 3px; font-size: 0.65rem; font-weight: 800;">
+                  style="font-size: 0.74rem; white-space: nowrap; display: inline-flex; align-items: center; gap: 5px; padding: 4px 8px; ${isAct ? actBtnBg : ''}" 
+                  onclick="switchTimetablePreviewLesson(${idx})"
+                  title="${sName} - Khối ${les.grade} (${clsLabel})">
+            <span style="background: ${isAct ? 'rgba(255,255,255,0.25)' : gColor}; color: white; padding: 1px 5px; border-radius: 3px; font-size: 0.65rem; font-weight: 800;">
               K${les.grade}
             </span>
-            <span><strong>${clsLabel}</strong></span>
-            <span style="opacity: 0.85;">(${les.dayName || ('T' + les.week)} - T${les.periodSlot || (idx+1)})</span>
+            <span><strong>${sName}</strong></span>
+            <span style="opacity: 0.85; font-size: 0.7rem;">(${clsLabel})</span>
           </button>
         `;
       }).join('')}
@@ -6411,7 +6707,7 @@ async function triggerExportAllTimetableWeeksWord() {
     return;
   }
 
-  var isGvbm = (integrationState.timetableRole === 'gvbm');
+  var isGvbm = isGvbmRole(integrationState.timetableRole);
   var cfg = integrationState.gvbmConfig || {};
   var anyAborted = false;
 
@@ -6420,15 +6716,15 @@ async function triggerExportAllTimetableWeeksWord() {
     var filename, resW;
 
     if (isGvbm) {
-      var teacherSubj = IntegrationService.getSubjectDisplayName(cfg.subjectKey || 'am_nhac');
-      filename = 'KHBD_Tuan_' + wData.week + '_GVBM_' + teacherSubj.replace(/[\s\/]+/g, '_') + '_TKB_TichHop.doc';
+      filename = 'KHBD_Tuan_' + wData.week + '_GV_BoMon_TichHop.doc';
       resW = await IntegrationService.exportWeekByTimetableWord(wData, {
         role: 'gvbm',
+        isAssignmentMode: true,
         week: wData.week,
         schoolName: cfg.schoolName || integrationState.schoolName,
         teacherName: cfg.teacherName || integrationState.teacherName,
         schoolYear: cfg.schoolYear || integrationState.schoolYear,
-        department: cfg.department,
+        department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
         filename: filename
       });
     } else {
@@ -6674,7 +6970,7 @@ function renderIntegratedLessonSheetContent(les) {
     });
   }
 
-  var isGvbm = (integrationState.timetableRole === 'gvbm');
+  var isGvbm = isGvbmRole(integrationState.timetableRole);
   var gvbmCfg = integrationState.gvbmConfig || {};
 
   var schoolDisp = (isGvbm ? gvbmCfg.schoolName : integrationState.schoolName) || 'TRƯỜNG TIỂU HỌC .................................';
@@ -6705,14 +7001,14 @@ function renderIntegratedLessonSheetContent(les) {
           </td>
           <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
             <p style="margin:0;"><strong>NĂM HỌC: ${yearDisp}</strong></p>
-            <p style="margin:2pt 0 0 0;">${les.className ? ('<b>Lớp: ' + les.className + '</b> (Khối ' + (les.grade || '') + ') • ') : (integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Khối ' + (les.grade || integrationState.grade) + ' • '))}Tuần: <strong>${previewWeek}</strong></p>
+            <p style="margin:2pt 0 0 0;">${les.classes ? ('<b>Khối ' + (les.grade || '') + '</b> (Các lớp: ' + les.classes + ') • ') : (les.className ? ('<b>Lớp: ' + les.className + '</b> (Khối ' + (les.grade || '') + ') • ') : (integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Khối ' + (les.grade || integrationState.grade) + ' • ')))}Tuần: <strong>${previewWeek}</strong></p>
           </td>
         </tr>
       </table>
 
       ${daySessionInfo}
       <h2 style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase;">KẾ HOẠCH BÀI DẠY</h2>
-      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0;">MÔN: ${subjName.toUpperCase()}${les.className ? (' - LỚP ' + les.className) : ''}</p>
+      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0;">MÔN: ${subjName.toUpperCase()}${les.grade ? (' - KHỐI ' + les.grade) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' - ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '')}</p>
       <p style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0;">${cleanLessonTitle}</p>
       ${les.period ? ('<p style="font-style: italic; margin: 2pt 0 0 0;">(' + les.period + ')</p>') : ''}
     </div>
