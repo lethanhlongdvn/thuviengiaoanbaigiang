@@ -16,7 +16,10 @@ yarn-debug.log*
 yarn-error.log*
 .temp/
 .tmp/
-chrome_temp_profile/
+chrome_temp_profile*/
+*.doc
+*.docx
+*.doc1.doc
 *_tree.json
 *_raw.json
 real_drive_cache.json

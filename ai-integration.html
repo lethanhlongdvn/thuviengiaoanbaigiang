@@ -106,9 +106,23 @@
     /* BỐ CỤC LƯỚI KHÔNG GIAN RỘNG */
     .ai-layout-container {
       display: grid !important;
-      grid-template-columns: 420px 1fr !important;
+      grid-template-columns: 420px minmax(0, 1fr) !important;
       gap: 1.5rem !important;
       align-items: start !important;
+      max-width: 100% !important;
+    }
+
+    #integOutputContainer {
+      min-width: 0 !important;
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+      box-sizing: border-box !important;
+    }
+
+    .integrated-doc-sheet {
+      max-width: 100% !important;
+      box-sizing: border-box !important;
+      overflow-x: auto !important;
     }
 
     @media (max-width: 1180px) {

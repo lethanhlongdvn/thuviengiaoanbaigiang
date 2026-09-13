@@ -1088,6 +1088,321 @@ var IntegrationService = {
     };
   },
 
+  /**
+   * Trích xuất Khối lớp (1..5) từ tên lớp học linh hoạt
+   * VD: "3A" -> 3, "Lớp 4B" -> 4, "5/2" -> 5, "Khối 2" -> 2, "1A2" -> 1
+   */
+  parseClassGrade: function(className) {
+    if (!className || typeof className !== 'string') return 1;
+    var str = className.trim();
+    var m = str.match(/(?:kh[ốo]i|l[ớo]p|k)?\s*([1-5])/i);
+    if (m && m[1]) {
+      var g = parseInt(m[1], 10);
+      if (g >= 1 && g <= 5) return g;
+    }
+    return 1;
+  },
+
+  /**
+   * Chuẩn hóa dữ liệu 1 ô thời khóa biểu GVBM
+   * Hỗ trợ dạng chuỗi ("4A", "4A:am_nhac") hoặc object ({ className: "4A", subjectKey: "am_nhac" })
+   */
+  normalizeGvbmSlot: function(slotRaw, defaultSubjectKey) {
+    if (!slotRaw) return null;
+    if (typeof slotRaw === 'string') {
+      var str = slotRaw.trim();
+      if (!str || str === '-' || str === '—') return null;
+      if (str.includes(':')) {
+        var parts = str.split(':');
+        return { className: parts[0].trim(), subjectKey: this.normalizeSubjectKey(parts[1].trim()) };
+      }
+      return { className: str, subjectKey: this.normalizeSubjectKey(defaultSubjectKey || 'am_nhac') };
+    }
+    if (typeof slotRaw === 'object' && slotRaw.className) {
+      var cStr = slotRaw.className.trim();
+      if (!cStr || cStr === '-' || cStr === '—') return null;
+      return {
+        className: cStr,
+        subjectKey: this.normalizeSubjectKey(slotRaw.subjectKey || defaultSubjectKey || 'am_nhac')
+      };
+    }
+    return null;
+  },
+
+  /**
+   * Thời khóa biểu mẫu mặc định dành cho Giáo viên Bộ môn (18 tiết/tuần, trải đều Khối 1 - 5)
+   */
+  getDefaultTeacherSchedule: function(primarySubjectKey) {
+    var sKey = primarySubjectKey || 'am_nhac';
+    return [
+      { dayNum: 2, day: 'Thứ Hai', morning: ['4A', '4B', '3A', '3B'], afternoon: ['1A', '1B', ''] },
+      { dayNum: 3, day: 'Thứ Ba',  morning: ['5A', '5B', '2A', '2B'], afternoon: ['1C', '2C', ''] },
+      { dayNum: 4, day: 'Thứ Tư',  morning: ['3C', '4C', '5C', ''],   afternoon: ['', '', ''] },
+      { dayNum: 5, day: 'Thứ Năm', morning: ['1A', '2A', '3A', '4A'], afternoon: ['5A', '', ''] },
+      { dayNum: 6, day: 'Thứ Sáu', morning: ['1B', '2B', '3B', '4B'], afternoon: ['5B', '', ''] }
+    ];
+  },
+
+  /**
+   * Xếp toàn bộ bài dạy trong tuần cho GIÁO VIÊN BỘ MÔN (Đa khối / Đa môn) theo Lịch lên lớp
+   */
+  buildWeeklyPlanByTeacherSchedule: async function(gvbmConfig, weekNumber, integratedMap, overwriteLegacy) {
+    var cfg = gvbmConfig || {};
+    var wNum = parseInt(weekNumber) || 1;
+    var schedule = (cfg.schedule && Array.isArray(cfg.schedule) && cfg.schedule.length > 0) ? 
+                   cfg.schedule : this.getDefaultTeacherSchedule(cfg.subjectKey);
+    var primarySubject = cfg.subjectKey || 'am_nhac';
+    var shouldClean = (overwriteLegacy !== false);
+
+    var khbdDataObj = (typeof window !== 'undefined' && window.KHBD_DATA) ? window.KHBD_DATA : (typeof KHBD_DATA !== 'undefined' ? KHBD_DATA : null);
+
+    // 1. Quét toàn bộ các tiết dạy trong tuần
+    var allSlots = [];
+    schedule.forEach(function(dayItem) {
+      var dayName = dayItem.day || ('Thứ ' + dayItem.dayNum);
+      (dayItem.morning || []).forEach(function(sRaw, mIdx) {
+        var norm = IntegrationService.normalizeGvbmSlot(sRaw, primarySubject);
+        if (norm && norm.className) {
+          var grade = IntegrationService.parseClassGrade(norm.className);
+          allSlots.push({
+            dayName: dayName,
+            dayNum: dayItem.dayNum,
+            session: 'Sáng',
+            periodSlot: mIdx + 1,
+            className: norm.className,
+            subjectKey: norm.subjectKey,
+            grade: grade
+          });
+        }
+      });
+      (dayItem.afternoon || []).forEach(function(sRaw, aIdx) {
+        var norm = IntegrationService.normalizeGvbmSlot(sRaw, primarySubject);
+        if (norm && norm.className) {
+          var grade = IntegrationService.parseClassGrade(norm.className);
+          allSlots.push({
+            dayName: dayName,
+            dayNum: dayItem.dayNum,
+            session: 'Chiều',
+            periodSlot: aIdx + 1,
+            className: norm.className,
+            subjectKey: norm.subjectKey,
+            grade: grade
+          });
+        }
+      });
+    });
+
+    // 2. Tìm tất cả các cặp (grade, subjectKey) duy nhất và tải dữ liệu KHBD tương ứng
+    var uniquePairs = {};
+    allSlots.forEach(function(slot) {
+      var key = slot.grade + '_' + slot.subjectKey;
+      uniquePairs[key] = { grade: slot.grade, subjectKey: slot.subjectKey };
+    });
+
+    var unitsCache = {};
+    for (var pKey in uniquePairs) {
+      var pair = uniquePairs[pKey];
+      await this.ensureSubjectLoaded(pair.grade, pair.subjectKey);
+      var weekData = khbdDataObj ? khbdDataObj.getWeekPlan(pair.grade, pair.subjectKey, wNum) : null;
+      var rawLessons = (weekData && weekData.lessons) ? weekData.lessons : [];
+      unitsCache[pKey] = this.unpackWeeklyLessons(rawLessons, pair.subjectKey, wNum, pair.grade);
+    }
+
+    // 3. Phân bổ bài học cho từng tiết theo tiến độ của từng lớp trong tuần
+    var classPeriodCounter = {};
+    var weeklyOrderedLessons = [];
+    var globalPeriodCounter = 1;
+
+    for (var i = 0; i < allSlots.length; i++) {
+      var slot = allSlots[i];
+      var cacheKey = slot.grade + '_' + slot.subjectKey;
+      var availableUnits = unitsCache[cacheKey] || [];
+
+      var classKey = slot.grade + '_' + slot.className.toUpperCase().replace(/\s+/g, '') + '_' + slot.subjectKey;
+      var curClassUnitIdx = classPeriodCounter[classKey] || 0;
+      classPeriodCounter[classKey] = curClassUnitIdx + 1;
+
+      var unit = (availableUnits.length > 0) ? 
+                 (availableUnits[curClassUnitIdx] || availableUnits[curClassUnitIdx % availableUnits.length]) : null;
+
+      var lessonItem = null;
+      var dispSubj = IntegrationService.getSubjectDisplayName(slot.subjectKey);
+
+      if (unit && unit.lesson) {
+        var baseLesson = unit.lesson;
+        // Kiểm tra tích hợp nếu có
+        var matchInteg = null;
+        if (integratedMap) {
+          matchInteg = integratedMap[slot.grade + '_' + slot.subjectKey + '_' + wNum + '_' + (unit.rawIndex || 0)] ||
+                       integratedMap[slot.subjectKey + '_' + wNum + '_' + (unit.rawIndex || 0)];
+        }
+        lessonItem = matchInteg ? 
+          IntegrationService.injectIntegrationIntoLesson(baseLesson, matchInteg, shouldClean) : 
+          (shouldClean ? IntegrationService.cleanLegacyIntegrationFromLesson(baseLesson) : JSON.parse(JSON.stringify(baseLesson)));
+
+        lessonItem.lessonTitle = baseLesson.lessonTitle || baseLesson.title || dispSubj;
+        if (unit.isDouble) {
+          lessonItem.period = 'Tiết ' + slot.periodSlot + ' (Tiết ' + unit.part + ')';
+        } else {
+          lessonItem.period = 'Tiết ' + slot.periodSlot;
+        }
+      } else {
+        // Fallback bài dạy chuẩn mực CV 2345
+        var clsNameClean = slot.className.toLowerCase().includes('lớp') ? slot.className : ('Lớp ' + slot.className);
+        lessonItem = {
+          title: dispSubj + ' - ' + clsNameClean + ' (Tuần ' + wNum + ')',
+          lessonTitle: dispSubj + ' - ' + clsNameClean + ' (Tuần ' + wNum + ')',
+          period: 'Tiết ' + slot.periodSlot,
+          yccd: [
+            '1. Năng lực đặc thù: Hình thành, rèn luyện và phát triển các năng lực môn ' + dispSubj + ' cho học sinh ' + clsNameClean + ' theo yêu cầu cần đạt của Chương trình GDPT 2018.',
+            '2. Năng lực chung: Tự chủ và tự học; Tự tin trao đổi, hợp tác nhóm; Giải quyết vấn đề sáng tạo.',
+            '3. Phẩm chất: Chăm chỉ rèn luyện, trung thực, có tinh thần trách nhiệm và yêu thích môn học.'
+          ],
+          dodung: [
+            '1. Giáo viên: SGK ' + dispSubj + ' Khối ' + slot.grade + ', thiết bị dạy học số, bài giảng điện tử, đồ dùng trực quan phù hợp bài dạy.',
+            '2. Học sinh: SGK, vở bài tập, đồ dùng học tập môn ' + dispSubj + '.'
+          ],
+          tables: [[
+            ['* Khởi động (3 - 5 phút): Tạo hứng thú, liên hệ thực tế hoặc kết nối kiến thức bài học.'],
+            ['GV tổ chức trò chơi/hoạt động khởi động, khơi gợi nội dung bài học.', 'HS nhiệt tình tham gia, tạo tâm thế hào hứng bước vào tiết học.'],
+            ['* Khám phá / Luyện tập (22 - 25 phút): Thực hiện các hoạt động hình thành kiến thức và rèn luyện kĩ năng.'],
+            ['GV hướng dẫn mẫu, tổ chức các hoạt động nhóm/cá nhân, quan sát và hỗ trợ HS thực hành.', 'HS theo dõi, tích cực thực hành, chia sẻ kết quả và trao đổi cùng bạn.'],
+            ['* Vận dụng (3 - 5 phút): Củng cố, đánh giá và định hướng rèn luyện.'],
+            ['GV nhận xét tiết dạy, tuyên dương các cá nhân/nhóm tích cực, dặn dò HS ôn luyện.', 'HS lắng nghe, ghi nhớ và vận dụng kiến thức, kĩ năng vào đời sống.']
+          ]]
+        };
+      }
+
+      lessonItem.globalPeriod = globalPeriodCounter++;
+      lessonItem.dayName = slot.dayName;
+      lessonItem.dayNum = slot.dayNum;
+      lessonItem.session = slot.session;
+      lessonItem.periodSlot = slot.periodSlot;
+      lessonItem.className = slot.className;
+      lessonItem.grade = slot.grade;
+      lessonItem.subjectKey = slot.subjectKey;
+      lessonItem.subjectName = dispSubj;
+      lessonItem.week = wNum;
+      lessonItem.teacherName = cfg.teacherName || '';
+
+      weeklyOrderedLessons.push(lessonItem);
+    }
+
+    return {
+      role: 'gvbm',
+      week: wNum,
+      gvbmConfig: cfg,
+      schedule: schedule,
+      lessons: weeklyOrderedLessons,
+      totalSlots: weeklyOrderedLessons.length
+    };
+  },
+
+  /**
+   * Tạo trang bìa Bảng Thời khóa biểu cá nhân của Giáo viên Bộ môn
+   */
+  buildTeacherTkbCoverHtml: function(weeklyPlanResult, metadata) {
+    var meta = metadata || {};
+    var gvbmConfig = weeklyPlanResult.gvbmConfig || meta.gvbmConfig || {};
+    var schedule = weeklyPlanResult.schedule || gvbmConfig.schedule || this.getDefaultTeacherSchedule(gvbmConfig.subjectKey);
+    var weekNum = weeklyPlanResult.week || meta.week || 1;
+    var schoolName = meta.schoolName || gvbmConfig.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
+    var teacherName = meta.teacherName || gvbmConfig.teacherName || 'Giáo viên Bộ môn';
+    var schoolYear = meta.schoolYear || gvbmConfig.schoolYear || '2026 - 2027';
+    var department = meta.department || gvbmConfig.department || 'Tổ Chuyên biệt / Bộ môn';
+    var subjectDisplayName = gvbmConfig.isMultiSubject ? 'Đa môn (Theo phân công)' : IntegrationService.getSubjectDisplayName(gvbmConfig.subjectKey || 'am_nhac');
+
+    var tkbTableRows = '';
+    // Buổi Sáng (4 tiết)
+    for (var slot = 0; slot < 4; slot++) {
+      tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Sáng)</td>';
+      schedule.forEach(function(day) {
+        var sRaw = (day.morning && day.morning[slot]) || '';
+        var norm = IntegrationService.normalizeGvbmSlot(sRaw, gvbmConfig.subjectKey);
+        var cellText = '';
+        if (norm && norm.className) {
+          var clsDisp = norm.className.toLowerCase().includes('lớp') ? norm.className : ('Lớp ' + norm.className);
+          cellText = '<b>' + clsDisp + '</b>';
+          if (gvbmConfig.isMultiSubject && norm.subjectKey) {
+            cellText += '<br/><span style="font-size: 9.5pt; color: #475569;">(' + IntegrationService.getSubjectDisplayName(norm.subjectKey) + ')</span>';
+          }
+        } else {
+          cellText = '<span style="color: #94a3b8;">-</span>';
+        }
+        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + cellText + '</td>';
+      });
+      tkbTableRows += '</tr>';
+    }
+
+    // Buổi Chiều (3 tiết)
+    for (var slot = 0; slot < 3; slot++) {
+      tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Chiều)</td>';
+      schedule.forEach(function(day) {
+        var sRaw = (day.afternoon && day.afternoon[slot]) || '';
+        var norm = IntegrationService.normalizeGvbmSlot(sRaw, gvbmConfig.subjectKey);
+        var cellText = '';
+        if (norm && norm.className) {
+          var clsDisp = norm.className.toLowerCase().includes('lớp') ? norm.className : ('Lớp ' + norm.className);
+          cellText = '<b>' + clsDisp + '</b>';
+          if (gvbmConfig.isMultiSubject && norm.subjectKey) {
+            cellText += '<br/><span style="font-size: 9.5pt; color: #475569;">(' + IntegrationService.getSubjectDisplayName(norm.subjectKey) + ')</span>';
+          }
+        } else {
+          cellText = '<span style="color: #94a3b8;">-</span>';
+        }
+        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + cellText + '</td>';
+      });
+      tkbTableRows += '</tr>';
+    }
+
+    return `
+      <div style="text-align: center; margin-bottom: 20pt;">
+        <table style="width: 100%; border-collapse: collapse; border: none; margin-bottom: 12pt;">
+          <tr>
+            <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
+              <p style="margin: 0;"><b>${schoolName}</b></p>
+              <p style="margin: 2pt 0 0 0;">Tổ chuyên môn: <b>${department}</b></p>
+              <p style="margin: 2pt 0 0 0;">Giáo viên: <b>${teacherName}</b></p>
+            </td>
+            <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
+              <p style="margin: 0;"><b>NĂM HỌC: ${schoolYear}</b></p>
+              <p style="margin: 2pt 0 0 0;">Môn dạy: <b>${subjectDisplayName}</b></p>
+              <p style="margin: 2pt 0 0 0;"><b>KẾ HOẠCH BÀI DẠY TUẦN ${weekNum}</b></p>
+            </td>
+          </tr>
+        </table>
+
+        <h2 style="font-size: 15pt; font-weight: bold; text-transform: uppercase; margin: 10pt 0 4pt 0;">
+          KẾ HOẠCH BÀI DẠY TUẦN ${weekNum}
+        </h2>
+        <p style="font-size: 12pt; font-weight: bold; color: #1e3a8a; margin: 0 0 4pt 0;">
+          (GIÁO VIÊN BỘ MÔN CHUYÊN TRÁCH - GIẢNG DẠY ĐA KHỐI LỚP)
+        </p>
+        <p style="font-size: 11pt; font-style: italic; margin: 0 0 15pt 0;">(Sắp xếp theo Lịch báo giảng và Thời khóa biểu lên lớp)</p>
+
+        <h3 style="font-size: 12.5pt; font-weight: bold; text-align: left; text-transform: uppercase; margin: 10pt 0 4pt 0;">
+          LỊCH LÊN LỚP TUẦN ${weekNum}:
+        </h3>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 15pt; font-size: 11pt;">
+          <thead>
+            <tr style="background: #e2e8f0; font-weight: bold; text-align: center;">
+              <th style="border: 1pt solid #000; padding: 5pt; width: 15%;">Tiết</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Hai</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Ba</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Tư</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Năm</th>
+              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Sáu</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${tkbTableRows}
+          </tbody>
+        </table>
+      </div>
+      <div style="page-break-before: always;"></div>
+    `;
+  },
+
 
   // =========================================================================
   // 6. AI PHÂN TÍCH TÍCH HỢP TÀI LIỆU
@@ -1800,7 +2115,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var startWeek = meta.startWeek || 1;
     var endWeek = meta.endWeek || startWeek;
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
-    var teacherName = meta.teacherName || 'Lê Thành Long';
+    var teacherName = meta.teacherName || '';
     var schoolYear = meta.schoolYear || '2026 - 2027';
     var className = meta.className || '';
 
@@ -1840,82 +2155,92 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
    */
   exportWeekByTimetableWord: async function(weeklyPlanResult, metadata) {
     var meta = metadata || {};
+    var isGvbm = (weeklyPlanResult.role === 'gvbm' || meta.role === 'gvbm');
     var grade = weeklyPlanResult.grade || meta.grade || 5;
     var weekNum = weeklyPlanResult.week || meta.week || 1;
-    var timetable = weeklyPlanResult.timetable || meta.timetable || this.getDefaultTimetable(grade);
     var lessons = weeklyPlanResult.lessons || [];
-    var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
-    var teacherName = meta.teacherName || 'Lê Thành Long';
-    var schoolYear = meta.schoolYear || '2026 - 2027';
+    var schoolName = meta.schoolName || (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.schoolName) || 'TRƯỜNG TIỂU HỌC .................................';
+    var teacherName = meta.teacherName || (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.teacherName) || '';
+    var schoolYear = meta.schoolYear || (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.schoolYear) || '2026 - 2027';
     var className = meta.className || '';
 
-    // Xây dựng Bảng Thời Khóa Biểu Tuần định dạng Word
-    var tkbTableRows = '';
-    
-    // Buổi Sáng
-    for (var slot = 0; slot < 4; slot++) {
-      tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Sáng)</td>';
-      timetable.forEach(function(day) {
-        var sKey = (day.morning && day.morning[slot]) || '';
-        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + (sKey ? IntegrationService.getSubjectDisplayName(sKey) : '') + '</td>';
-      });
-      tkbTableRows += '</tr>';
-    }
+    var tkbCoverHtml = '';
+    if (isGvbm) {
+      tkbCoverHtml = this.buildTeacherTkbCoverHtml(weeklyPlanResult, meta);
+    } else {
+      var timetable = weeklyPlanResult.timetable || meta.timetable || this.getDefaultTimetable(grade);
+      // Xây dựng Bảng Thời Khóa Biểu Tuần định dạng Word cho GVCN
+      var tkbTableRows = '';
+      
+      // Buổi Sáng
+      for (var slot = 0; slot < 4; slot++) {
+        tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Sáng)</td>';
+        timetable.forEach(function(day) {
+          var sKey = (day.morning && day.morning[slot]) || '';
+          tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + (sKey ? IntegrationService.getSubjectDisplayName(sKey) : '') + '</td>';
+        });
+        tkbTableRows += '</tr>';
+      }
 
-    // Buổi Chiều
-    for (var slot = 0; slot < 3; slot++) {
-      tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Chiều)</td>';
-      timetable.forEach(function(day) {
-        var sKey = (day.afternoon && day.afternoon[slot]) || '';
-        tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + (sKey ? IntegrationService.getSubjectDisplayName(sKey) : '') + '</td>';
-      });
-      tkbTableRows += '</tr>';
-    }
+      // Buổi Chiều
+      for (var slot = 0; slot < 3; slot++) {
+        tkbTableRows += '<tr><td style="font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt; background: #f8fafc;">Tiết ' + (slot + 1) + ' (Chiều)</td>';
+        timetable.forEach(function(day) {
+          var sKey = (day.afternoon && day.afternoon[slot]) || '';
+          tkbTableRows += '<td style="border: 1pt solid #000; padding: 4pt; text-align: center;">' + (sKey ? IntegrationService.getSubjectDisplayName(sKey) : '') + '</td>';
+        });
+        tkbTableRows += '</tr>';
+      }
 
-    var tkbCoverHtml = `
-      <div style="text-align: center; margin-bottom: 20pt;">
-        <table style="width: 100%; border-collapse: collapse; border: none; margin-bottom: 12pt;">
-          <tr>
-            <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
-              <p style="margin: 0;"><b>${schoolName}</b></p>
-              <p style="margin: 2pt 0 0 0;">Giáo viên: <b>${teacherName}</b></p>
-            </td>
-            <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
-              <p style="margin: 0;"><b>NĂM HỌC: ${schoolYear}</b></p>
-              <p style="margin: 2pt 0 0 0;">${className ? ('<b>' + className + '</b> • ') : ('Khối <b>' + grade + '</b> • ')}<b>TUẦN ${weekNum}</b></p>
-            </td>
-          </tr>
-        </table>
-
-        <h2 style="font-size: 15pt; font-weight: bold; text-transform: uppercase; margin: 10pt 0 4pt 0;">
-          KẾ HOẠCH BÀI DẠY TUẦN ${weekNum}
-        </h2>
-        <p style="font-size: 12pt; font-style: italic; margin: 0 0 15pt 0;">(Sắp xếp tuần tự theo Thời khóa biểu giảng dạy)</p>
-
-        <h3 style="font-size: 12.5pt; font-weight: bold; text-align: left; text-transform: uppercase; margin: 10pt 0 4pt 0;">
-          THỜI KHÓA BIỂU TUẦN ${weekNum}:
-        </h3>
-        <table style="width: 100%; border-collapse: collapse; margin-bottom: 15pt; font-size: 11pt;">
-          <thead>
-            <tr style="background: #e2e8f0; font-weight: bold; text-align: center;">
-              <th style="border: 1pt solid #000; padding: 5pt; width: 15%;">Tiết</th>
-              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Hai</th>
-              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Ba</th>
-              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Tư</th>
-              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Năm</th>
-              <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Sáu</th>
+      tkbCoverHtml = `
+        <div style="text-align: center; margin-bottom: 20pt;">
+          <table style="width: 100%; border-collapse: collapse; border: none; margin-bottom: 12pt;">
+            <tr>
+              <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
+                <p style="margin: 0;"><b>${schoolName}</b></p>
+                <p style="margin: 2pt 0 0 0;">Giáo viên: <b>${teacherName}</b></p>
+              </td>
+              <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
+                <p style="margin: 0;"><b>NĂM HỌC: ${schoolYear}</b></p>
+                <p style="margin: 2pt 0 0 0;">${className ? ('<b>' + className + '</b> • ') : ('Khối <b>' + grade + '</b> • ')}<b>TUẦN ${weekNum}</b></p>
+              </td>
             </tr>
-          </thead>
-          <tbody>
-            ${tkbTableRows}
-          </tbody>
-        </table>
-      </div>
-      <div style="page-break-before: always;"></div>
-    `;
+          </table>
+
+          <h2 style="font-size: 15pt; font-weight: bold; text-transform: uppercase; margin: 10pt 0 4pt 0;">
+            KẾ HOẠCH BÀI DẠY TUẦN ${weekNum}
+          </h2>
+          <p style="font-size: 12pt; font-style: italic; margin: 0 0 15pt 0;">(Sắp xếp tuần tự theo Thời khóa biểu giảng dạy)</p>
+
+          <h3 style="font-size: 12.5pt; font-weight: bold; text-align: left; text-transform: uppercase; margin: 10pt 0 4pt 0;">
+            THỜI KHÓA BIỂU TUẦN ${weekNum}:
+          </h3>
+          <table style="width: 100%; border-collapse: collapse; margin-bottom: 15pt; font-size: 11pt;">
+            <thead>
+              <tr style="background: #e2e8f0; font-weight: bold; text-align: center;">
+                <th style="border: 1pt solid #000; padding: 5pt; width: 15%;">Tiết</th>
+                <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Hai</th>
+                <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Ba</th>
+                <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Tư</th>
+                <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Năm</th>
+                <th style="border: 1pt solid #000; padding: 5pt; width: 17%;">Thứ Sáu</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${tkbTableRows}
+            </tbody>
+          </table>
+        </div>
+        <div style="page-break-before: always;"></div>
+      `;
+    }
+
+    var docTitle = isGvbm ? 
+      ('Kế hoạch bài dạy Tuần ' + weekNum + ' - Giáo viên Bộ môn (Theo Thời khóa biểu)') :
+      ('Kế hoạch bài dạy Tuần ' + weekNum + ' - ' + (className || ('Khối ' + grade)) + ' (Theo Thời khóa biểu)');
 
     var docHtml = this.generateWordHtmlStructure(lessons, {
-      title: 'Kế hoạch bài dạy Tuần ' + weekNum + ' - ' + (className || ('Khối ' + grade)) + ' (Theo Thời khóa biểu)',
+      title: docTitle,
       schoolName: schoolName,
       teacherName: teacherName,
       schoolYear: schoolYear,
@@ -1923,16 +2248,20 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       grade: grade,
       weekNum: weekNum,
       isTimetableDoc: true,
+      role: isGvbm ? 'gvbm' : 'gvcn',
       tkbCoverHtml: tkbCoverHtml
     });
 
-    var filename = meta.filename || ('KHBD_Tuan_' + weekNum + '_Lop_' + grade + '_Theo_TKB.doc');
+    var defaultFilename = isGvbm ? 
+      ('KHBD_Tuan_' + weekNum + '_GVBM_Theo_TKB.doc') : 
+      ('KHBD_Tuan_' + weekNum + '_Lop_' + grade + '_Theo_TKB.doc');
+    var filename = meta.filename || defaultFilename;
     return await this.downloadWordBlob(docHtml, filename);
   },
 
   generateWordHtmlStructure: function(lessons, meta) {
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
-    var teacherName = meta.teacherName || 'Lê Thành Long';
+    var teacherName = meta.teacherName || '';
     var schoolYear = meta.schoolYear || '2026 - 2027';
     var className = meta.className || '';
     var grade = meta.grade || 5;
@@ -2101,7 +2430,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         docHtml += '<div class="page-break"></div>';
       }
 
-      var daySessionInfo = les.dayName ? ('<p style="font-weight: bold; color: #1e40af; font-size: 12pt; margin-bottom: 4pt;">' + les.dayName + ' • Buổi ' + les.session + ' • ' + (les.periodSlot ? ('Tiết ' + les.periodSlot) : '') + '</p>') : '';
+      var clsInfo = les.className ? (' • ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '';
+      var daySessionInfo = les.dayName ? ('<p style="font-weight: bold; color: #1e40af; font-size: 12pt; margin-bottom: 4pt;">' + les.dayName + ' • Buổi ' + les.session + ' • ' + (les.periodSlot ? ('Tiết ' + les.periodSlot) : '') + clsInfo + '</p>') : '';
 
       var isDouble = (les.periodSlot && les.periodSlot.toString().includes('-')) || (les.period && (les.period.toLowerCase().includes('2 tiết') || les.period.toLowerCase().includes('tiết đôi')));
       var durationDefault = isDouble ? '70 phút' : '35 phút';
@@ -2356,7 +2686,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           ${headerBlock}
           ${daySessionInfo}
           <h2>KẾ HOẠCH BÀI DẠY</h2>
-          <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: ${subjName.toUpperCase()}</p>
+          <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: ${subjName.toUpperCase()}${(meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : ''}${les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : ''}</p>
           <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt; color: #1e3a8a;">${cleanLessonTitle}</p>
           ${les.period ? ('<p style="font-style: italic; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
         </div>
