@@ -6997,7 +6997,8 @@ function renderIntegratedLessonSheetContent(les) {
         <tr>
           <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
             <p style="margin:0;"><strong>${schoolDisp}</strong></p>
-            <p style="margin:2pt 0 0 0;">${isGvbm && gvbmCfg.department ? ('Tổ: <strong>' + gvbmCfg.department + '</strong> • ') : ''}Giáo viên: <strong>${teacherDisp || '.................................................'}</strong></p>
+            ${isGvbm && gvbmCfg.department ? `<p style="margin:2pt 0 0 0;">Tổ: <strong>${gvbmCfg.department}</strong></p>` : ''}
+            <p style="margin:2pt 0 0 0;">Giáo viên: <strong>${teacherDisp || '.................................................'}</strong></p>
           </td>
           <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
             <p style="margin:0;"><strong>NĂM HỌC: ${yearDisp}</strong></p>
