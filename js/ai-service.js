@@ -696,16 +696,184 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
       } catch (e) {}
     }
 
-    // Tìm dấu ngoặc nhọn đầu và cuối
-    var start = t.indexOf("{");
-    var end = t.lastIndexOf("}");
-    if (start !== -1 && end > start) {
+    // Tìm dấu ngoặc nhọn đầu và cuối (Object)
+    var startObj = t.indexOf("{");
+    var endObj = t.lastIndexOf("}");
+    if (startObj !== -1 && endObj > startObj) {
       try {
-        return JSON.parse(t.substring(start, end + 1));
+        return JSON.parse(t.substring(startObj, endObj + 1));
+      } catch (e) {}
+    }
+
+    // Tìm dấu ngoặc vuông đầu và cuối (Array)
+    var startArr = t.indexOf("[");
+    var endArr = t.lastIndexOf("]");
+    if (startArr !== -1 && endArr > startArr) {
+      try {
+        return JSON.parse(t.substring(startArr, endArr + 1));
       } catch (e) {}
     }
 
     return null;
+  },
+
+  /**
+   * Lấy tên hiển thị tiếng Việt của dạng tật
+   */
+  getDisabilityTypeName: function(typeKey) {
+    var map = {
+      'tri_tue': 'Khuyết tật trí tuệ',
+      'khiem_thinh': 'Khiếm thính (Nghe kém)',
+      'khiem_thi': 'Khiếm thị (Nhìn kém)',
+      'van_dong': 'Khuyết tật vận động',
+      'tu_ky': 'Rối loạn phổ tự kỉ',
+      'hoc_tap': 'Khó khăn học tập đặc thù',
+      'khac': 'Khuyết tật khác'
+    };
+    return map[typeKey] || 'Khuyết tật học tập';
+  },
+
+  /**
+   * Xử lý một nhóm (chunk) bài dạy gửi cho Gemini để biên soạn lại YCCĐ cho học sinh khuyết tật
+   */
+  _processDisabilityChunkWithGemini: async function(chunkLessons, disabilityConfig, apiKey) {
+    if (!chunkLessons || !chunkLessons.length) return chunkLessons;
+
+    var rate = parseInt(disabilityConfig.cognitiveRate, 10) || 50;
+    var typeName = disabilityConfig.disabilityTypeName || this.getDisabilityTypeName(disabilityConfig.disabilityType) || 'Khuyết tật học tập';
+    var notes = (disabilityConfig.notes || '').trim();
+
+    var itemsToSend = chunkLessons.map(function(les, index) {
+      var title = (les.lessonTitle || les.title || ('Bài học ' + (index + 1))).trim();
+      var subj = les.subjectName || les.subject || (typeof IntegrationService !== 'undefined' && IntegrationService.getSubjectDisplayName ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || '';
+      
+      // Lọc YCCĐ đặc thù / cốt lõi từ bài dạy
+      var rawYccd = les.yccd || [];
+      if (typeof rawYccd === 'string') rawYccd = rawYccd.split('\n');
+      var specificYccd = [];
+      var inDacThu = false;
+      for (var i = 0; i < rawYccd.length; i++) {
+        var line = (rawYccd[i] || '').trim();
+        if (/học sinh khuyết tật/i.test(line)) continue;
+        if (/1\.\s*(năng\s*lực\s*đặc\s*thù|kiến\s*thức)/i.test(line)) { inDacThu = true; continue; }
+        if (/2\.\s*(năng\s*lực\s*chung|phẩm\s*chất)|3\.\s*phẩm\s*chất|4\.\s*tích\s*hợp/i.test(line)) { inDacThu = false; break; }
+        if (inDacThu && line) specificYccd.push(line);
+      }
+      if (specificYccd.length === 0) {
+        specificYccd = rawYccd.filter(function(l) {
+          return l && !/học sinh khuyết tật|tự chủ|giao tiếp|giải quyết|chăm chỉ|yêu nước|nhân ái|trách nhiệm|trung thực/i.test(l);
+        }).slice(0, 4);
+      }
+
+      return {
+        id: index,
+        title: title,
+        subject: subj,
+        originalYccd: specificYccd.length ? specificYccd : [(les.topic || title)]
+      };
+    });
+
+    var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Giáo dục Đặc biệt / Giáo dục Hòa nhập học sinh khuyết tật (Chương trình GDPT 2018, chuẩn Công văn 2345/BGDĐT-GDTH).
+
+NHIỆM VỤ:
+Dưới đây là danh sách các bài dạy kèm YÊU CẦU CẦN ĐẠT (YCCĐ) GỐC của từng bài.
+Dựa vào YCCĐ GỐC của TỪNG BÀI DẠY, hãy biên soạn lại đúng 01 câu YCCĐ phân hóa vừa sức, chuẩn mực sư phạm dành riêng cho học sinh khuyết tật học hòa nhập trong lớp.
+
+THÔNG TIN HỌC SINH KHUYẾT TẬT:
+- Dạng tật: ${typeName}
+- Tỉ lệ nhận thức / đáp ứng: khoảng ${rate}% so với chuẩn chung của học sinh trong lớp
+${notes ? ('- Ghi chú đặc thù từ giáo viên: ' + notes) : ''}
+
+DANH SÁCH BÀI DẠY VÀ YCCĐ GỐC:
+${JSON.stringify(itemsToSend, null, 2)}
+
+QUY TẮC SƯ PHẠM BẮT BUỘC (CHUẨN CÔNG VĂN 2345):
+1. BÁM SÁT TUYỆT ĐỐI NỘI DUNG VÀ YCCĐ GỐC CỦA BÀI HỌC ĐÓ:
+   - Câu YCCĐ viết lại PHẢI gắn chặt với đối tượng tri thức, bài tập, câu chuyện, tác phẩm, khái niệm, phép tính hoặc nội dung cụ thể của bài học đó (ví dụ: bài học về phân số thì ghi rõ phân số, bài học về câu chuyện/bài thơ nào thì ghi rõ tên bài đọc đó, bài học về ô nhiễm đất/nước thì nêu rõ thành phần đất/nước...).
+   - TUYỆT ĐỐI KHÔNG viết chung chung, rập khuôn, sáo rỗng như "tiếp thu kiến thức vừa sức", "thực hiện phép tính đơn giản", "hoàn thành bài tập cơ bản", "đọc bài theo hướng dẫn".
+2. HẠ BẬC THANG NHẬN THỨC BLOOM THEO TỈ LỆ NHẬN THỨC (${rate}%):
+   - Mức ~30%: Chuyển từ vận dụng/thông hiểu xuống mức bước đầu làm quen, nhận biết qua trực quan vật thật/tranh ảnh, lắng nghe và nhắc lại được 1-2 từ ngữ, số lượng, hình ảnh hoặc hành vi đơn giản nhất của bài.
+   - Mức ~50%: Nhận biết, đọc/viết hoặc thực hiện được bài tập/thao tác cơ bản nhất của bài thông qua đồ dùng trực quan, que tính, thẻ học tập hoặc gợi ý của giáo viên.
+   - Mức ~70%: Hoàn thành các bài tập mức độ nhận biết và thông hiểu của bài học, bước đầu thực hiện vận dụng đơn giản khi có bạn hoặc giáo viên hỗ trợ.
+3. PHÙ HỢP VỚI DẠNG TẬT (${typeName}):
+   - Đưa phương pháp hỗ trợ và đồ dùng trực quan phù hợp (dùng que tính/trực quan cho khuyết tật trí tuệ; khẩu hình rõ, tranh ảnh cho khiếm thính; lời nói tỉ mỉ, mô hình xúc giác cho khiếm thị; hỗ trợ thao tác cho khuyết tật vận động; tạo môi trường học tập an toàn, khích lệ kiên nhẫn cho tự kỉ...).
+4. ĐỊNH DẠNG ĐẦU RA CHO MỖI BÀI:
+   Phải bắt đầu chính xác bằng:
+   "- Đối với học sinh khuyết tật: [Nội dung YCCĐ cụ thể đã hạ mức độ bám sát bài học]."
+   LƯU Ý ĐẶC BIỆT: Câu văn kết thúc tự nhiên, cô đọng; TUYỆT ĐỐI KHÔNG thêm cụm từ mở ngoặc rập khuôn như "(dưới sự gợi ý, hướng dẫn trực quan của giáo viên và sự hỗ trợ của bạn cùng nhóm)" vào cuối câu.
+
+HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm mã markdown \`\`\`json):
+[
+  {
+    "id": 0,
+    "disabilityYccd": "- Đối với học sinh khuyết tật: ..."
+  }
+]`;
+
+    var rawResponse = await this.callGeminiApi(apiKey, prompt, { temperature: 0.3, maxTokens: 4000 });
+    var parsed = this.parseJsonSafely(rawResponse);
+    if (Array.isArray(parsed)) {
+      parsed.forEach(function(item) {
+        var idx = item.id;
+        if (typeof idx === 'number' && chunkLessons[idx] && item.disabilityYccd) {
+          var cleaned = item.disabilityYccd.trim()
+            .replace(/\s*\((?:dưới sự gợi ý|dưới sự hướng dẫn|dưới sự trợ giúp|có sự hỗ trợ của bạn cùng nhóm|sự hỗ trợ của bạn).*?\)/gi, '')
+            .replace(/[;\s]+$/, '')
+            .trim();
+          if (!cleaned.endsWith('.')) cleaned += '.';
+          chunkLessons[idx].disabilityYccdAI = cleaned;
+        }
+      });
+    }
+    return chunkLessons;
+  },
+
+  /**
+   * Gửi danh sách bài dạy cho Gemini AI để biên soạn YCCĐ phân hóa cho học sinh khuyết tật
+   * Tự động chia nhóm (batching) tối ưu tốc độ và quota API
+   */
+  adaptDisabilityYccdBatch: async function(lessons, disabilityConfig, apiKey) {
+    if (!lessons || !lessons.length || !disabilityConfig || !disabilityConfig.enabled) {
+      return lessons;
+    }
+
+    var key = apiKey;
+    if (!key && typeof IntegrationService !== 'undefined' && IntegrationService.getGeminiApiKey) {
+      key = IntegrationService.getGeminiApiKey();
+    }
+    if (!key && typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) {
+      key = window.CONFIG.DEFAULT_GEMINI_API_KEY;
+    }
+    if (!key) {
+      throw new Error('Chưa có Gemini API Key để kết nối AI');
+    }
+
+    var self = this;
+    var CHUNK_SIZE = 20;
+    var chunks = [];
+    for (var i = 0; i < lessons.length; i += CHUNK_SIZE) {
+      chunks.push(lessons.slice(i, i + CHUNK_SIZE));
+    }
+
+    for (var c = 0; c < chunks.length; c++) {
+      try {
+        await self._processDisabilityChunkWithGemini(chunks[c], disabilityConfig, key);
+      } catch (chunkErr) {
+        console.warn('Lỗi xử lý batch bài dạy khuyết tật nhóm ' + (c + 1) + ':', chunkErr);
+      }
+    }
+
+    return lessons;
+  },
+
+  /**
+   * Biên soạn YCCĐ cho một bài dạy đơn lẻ bằng Gemini AI
+   */
+  adaptSingleLessonDisability: async function(lesson, disabilityConfig, apiKey) {
+    if (!lesson) return '';
+    var list = [lesson];
+    await this.adaptDisabilityYccdBatch(list, disabilityConfig, apiKey);
+    return lesson.disabilityYccdAI || '';
   },
 
   /**
@@ -2272,4 +2440,12 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
   }
 };
 
-window.AIService = AIService;
+if (typeof window !== 'undefined') {
+  window.AIService = AIService;
+}
+if (typeof global !== 'undefined') {
+  global.AIService = AIService;
+}
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = AIService;
+}

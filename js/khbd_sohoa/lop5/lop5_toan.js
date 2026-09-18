@@ -1418,7 +1418,7 @@
     "sourceFile": "TOÁN TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 1",
+        "lessonTitle": "BÀI 6. CỘNG, TRỪ HAI PHÂN SỐ KHÁC MẪU SỐ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1622,7 +1622,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 2",
+        "lessonTitle": "BÀI 6. CỘNG, TRỪ HAI PHÂN SỐ KHÁC MẪU SỐ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1791,7 +1791,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 1",
+        "lessonTitle": "BÀI 7. HỖN SỐ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1971,7 +1971,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 2",
+        "lessonTitle": "BÀI 7. HỖN SỐ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG",
         "yccd": [
           "1. Năng lực đặc thù",

@@ -131,12 +131,17 @@ var KHBD_DATA = {
     }
 
     var rawTitle = lesson.lessonTitle || 'KẾ HOẠCH BÀI DẠY';
-    var cleanLessonTitle = rawTitle
-      .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
-      .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
-      .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
-      .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
-      .trim();
+    var cleanLessonTitle = (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle)
+      ? IntegrationService.cleanLessonTitle(rawTitle)
+      : rawTitle
+        .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
+        .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
+        .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
+        .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
+        .replace(/[\s\-–—•·]*[\-–—]\s*(?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:[^\-–—\(\)]*(?:đến[^\-–—\(\)]*)?/gi, ' ')
+        .replace(/\s*\((?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:[^\)]*\)/gi, ' ')
+        .replace(/[\s\-–—•·]*(?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:\s*[.\s_…/–\-]*(?:\(.*\))?/gi, ' ')
+        .trim();
 
     return '<div class="lesson-plan-preview" style="font-family: Times New Roman, serif; font-size: 12pt; line-height: 1.45; color: #000; background: #fff; padding: 1.25rem; border: 1px solid #cbd5e1; border-radius: 4px;">' +
       '<div style="text-align: center; margin-bottom: 1rem;"><h3 style="font-size: 14pt; font-weight: 800; margin: 0; text-transform: uppercase;">' + (cleanLessonTitle || 'KẾ HOẠCH BÀI DẠY') + '</h3>' +

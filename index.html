@@ -58,15 +58,9 @@
 
       <!-- Nút AI nhanh & Menu Toggle Mobile -->
       <div class="header-actions-box">
-        <button class="btn btn-ai-header" id="btn-header-ai-timetable" onclick="window.open('ai-integration.html?mode=timetable', '_blank')" style="background: linear-gradient(135deg, #1e40af, #3b82f6); border: none; margin-right: 0.35rem; box-shadow: 0 4px 12px rgba(30, 64, 175, 0.35);" title="Mở Xuất KHBD Theo Thời Khóa Biểu trong tab mới">
-          <i class="fa-solid fa-calendar-days"></i>
-          <span>Xuất KHBD Theo TKB</span>
-          <span style="background: #10b981; color: white; font-size: 0.62rem; padding: 2px 6px; border-radius: 9999px; margin-left: 4px; font-weight: 800;">HOT</span>
-          <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.65rem; margin-left: 4px; opacity: 0.85;"></i>
-        </button>
-        <button class="btn btn-ai-header" id="btn-header-ai-integration" onclick="window.open('ai-integration.html', '_blank')" style="background: linear-gradient(135deg, #db2777, #ec4899); border: none; margin-right: 0.35rem; box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);" title="Mở Trợ Lý AI Tích Hợp Giáo Án trong tab mới rộng rãi">
+        <button class="btn btn-ai-header" id="btn-header-ai-integration" onclick="window.open('ai-integration.html', '_blank')" style="background: linear-gradient(135deg, #db2777, #ec4899); border: none; margin-right: 0.35rem; box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);" title="Mở Xuất KHBD Có Tích Hợp trong tab mới">
           <i class="fa-solid fa-layer-group"></i>
-          <span>AI Tích Hợp Giáo Án</span>
+          <span>Xuất KHBD Có Tích Hợp</span>
           <span style="background: #ef4444; color: white; font-size: 0.62rem; padding: 2px 6px; border-radius: 9999px; margin-left: 4px; font-weight: 800; animation: pulse 1.5s infinite;">MỚI</span>
           <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.65rem; margin-left: 4px; opacity: 0.85;"></i>
         </button>
@@ -103,36 +97,11 @@
         <div class="sidebar-section-title" style="margin-top: 0.75rem;">DANH MỤC TÀI LIỆU</div>
         <div id="sidebar-docs-nav"></div>
 
-        <div class="sidebar-section-title" style="margin-top: 0.75rem;">CÔNG CỤ THÔNG MINH</div>
-        <li class="tree-item" data-view="ai-timetable" id="nav-ai-timetable">
-          <div class="tree-row" onclick="window.open('ai-integration.html?mode=timetable&role=gvcn', '_blank')" style="cursor: pointer;" title="Xuất Kế hoạch bài dạy theo Thời khóa biểu của lớp (GVCN)">
-            <a href="ai-integration.html?mode=timetable&role=gvcn" target="_blank" onclick="event.preventDefault(); window.open('ai-integration.html?mode=timetable&role=gvcn', '_blank');">
-              <i class="fa-solid fa-chalkboard-user" style="color: #2563eb;"></i>
-              <span style="font-size: 0.84rem; font-weight: 600;">TKB GV Chủ Nhiệm</span>
-            </a>
-            <span class="tree-badge" style="background: linear-gradient(135deg, #1e40af, #3b82f6); color: white; font-weight: 800; font-size: 0.62rem; padding: 0.15rem 0.4rem; display: flex; align-items: center; gap: 3px; flex-shrink: 0;">
-              Theo Lớp <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.58rem;"></i>
-            </span>
-          </div>
-        </li>
-
-        <li class="tree-item" data-view="ai-timetable-gvbm" id="nav-ai-timetable-gvbm">
-          <div class="tree-row" onclick="window.open('ai-integration.html?mode=timetable&role=gvbm', '_blank')" style="cursor: pointer;" title="Xuất Kế hoạch bài dạy theo Lịch dạy GV Bộ Môn (Đa khối: Âm nhạc, Mĩ thuật, Tin học, Tiếng Anh, GDTC...)">
-            <a href="ai-integration.html?mode=timetable&role=gvbm" target="_blank" onclick="event.preventDefault(); window.open('ai-integration.html?mode=timetable&role=gvbm', '_blank');">
-              <i class="fa-solid fa-user-tie" style="color: #0284c7;"></i>
-              <span style="font-size: 0.84rem; font-weight: 600;">TKB GV Bộ Môn</span>
-            </a>
-            <span class="tree-badge" style="background: linear-gradient(135deg, #0284c7, #0ea5e9); color: white; font-weight: 800; font-size: 0.62rem; padding: 0.15rem 0.4rem; display: flex; align-items: center; gap: 3px; flex-shrink: 0;">
-              Đa Khối <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.58rem;"></i>
-            </span>
-          </div>
-        </li>
-
         <li class="tree-item" data-view="ai-integration" id="nav-ai-integration">
-          <div class="tree-row" onclick="window.open('ai-integration.html', '_blank')" style="cursor: pointer;" title="Mở Trợ lý AI Tích hợp Giáo án trong tab mới">
+          <div class="tree-row" onclick="window.open('ai-integration.html', '_blank')" style="cursor: pointer;" title="Mở Xuất KHBD Có Tích Hợp trong tab mới">
             <a href="ai-integration.html" target="_blank" onclick="event.preventDefault(); window.open('ai-integration.html', '_blank');">
               <i class="fa-solid fa-layer-group" style="color: #ec4899;"></i>
-              <span style="font-size: 0.84rem; font-weight: 600;">AI Tích Hợp Giáo Án</span>
+              <span style="font-size: 0.84rem; font-weight: 600;">Xuất KHBD Có Tích Hợp</span>
             </a>
             <span class="tree-badge" style="background: linear-gradient(135deg, #ec4899, #f43f5e); color: white; font-weight: 800; font-size: 0.62rem; padding: 0.15rem 0.4rem; display: flex; align-items: center; gap: 3px; flex-shrink: 0;">
               CV 2345 <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.58rem;"></i>
@@ -523,17 +492,22 @@
   <script src="js/sgk/lop1/tnxh-1.js" defer></script>
   <script src="js/sgk/lop1/tieng-anh-1.js" defer></script>
 
+  <!-- Thư viện xử lý bảng tính Excel & Nén tệp -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" defer></script>
+
   <!-- Kho Kế Hoạch Bài Dạy (KHBD) Số Hóa Chuẩn 100% CV 2345 -->
   <script src="js/khbd_sohoa/khbd-registry.js" defer></script>
-  <script src="js/integration-service.js" defer></script>
+  <script src="js/academic-calendar.js?v=20260916_a4" defer></script>
+  <script src="js/integration-service.js?v=20260916_a4" defer></script>
 
   <!-- Scripts Logic -->
-  <script src="js/config.js" defer></script>
-  <script src="js/data.js" defer></script>
-  <script src="js/auth.js" defer></script>
-  <script src="js/drive-service.js" defer></script>
-  <script src="js/ai-service.js" defer></script>
-  <script src="js/toolkit.js" defer></script>
-  <script src="js/app.js" defer></script>
+  <script src="js/config.js?v=20260916_a4" defer></script>
+  <script src="js/data.js?v=20260916_a4" defer></script>
+  <script src="js/auth.js?v=20260916_a4" defer></script>
+  <script src="js/drive-service.js?v=20260916_a4" defer></script>
+  <script src="js/ai-service.js?v=20260916_a4" defer></script>
+  <script src="js/toolkit.js?v=20260916_a4" defer></script>
+  <script src="js/app.js?v=20260916_a4" defer></script>
 </body>
 </html>

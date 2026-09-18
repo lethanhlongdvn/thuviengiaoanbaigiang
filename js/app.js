@@ -44,6 +44,20 @@ var integrationState = {
   activeTimetableWeekIndex: 0,
   activeTimetableLessonIndex: 0,
   timetableRole: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_timetable_role') : '') || 'gvcn', // 'gvcn' | 'gvbm'
+  disabilitySupport: {
+    enabled: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_disability_enabled') === 'true' : false),
+    cognitiveRate: (typeof localStorage !== 'undefined' ? (parseInt(localStorage.getItem('tvth_disability_rate')) || 50) : 50),
+    disabilityType: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type') || 'tri_tue') : 'tri_tue'),
+    disabilityTypeName: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type_name') || 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)') : 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)'),
+    notes: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_notes') || '') : '')
+  },
+  approvalConfig: {
+    enabled: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_approval_enabled') === 'true' : false),
+    leaderRole: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_approval_leader_role') || 'Tổ trưởng') : 'Tổ trưởng'),
+    leaderName: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_approval_leader_name') || '') : ''),
+    adminRole: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_approval_admin_role') || 'Hiệu trưởng') : 'Hiệu trưởng'),
+    adminName: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_approval_admin_name') || '') : '')
+  },
   gvbmAssignments: (function() {
     if (typeof localStorage !== 'undefined') {
       try {
@@ -479,7 +493,7 @@ function updateBreadcrumb() {
     khbd: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Kế Hoạch Bài Dạy (KHBD)</li>',
     weekly: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Tổng Hợp Theo Tuần</li>',
     "ai-exam": '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Trợ Lý AI Ra Đề</li>',
-    "ai-integration": '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">AI Tích Hợp Giáo Án (CV 2345)</li>',
+    "ai-integration": '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Xuất KHBD Có Tích Hợp (CV 2345)</li>',
     toolkit: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Tiện Ích Giảng Dạy</li>',
     settings: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Cấu Hình & Quản Trị</li>',
     search: '<li><a href="javascript:void(0)" onclick="navigateTo(\'home\')"><i class="fa-solid fa-house"></i> Trang Chủ</a></li> <li><i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i></li> <li class="active">Kết Quả Tìm Kiếm</li>'
@@ -588,8 +602,8 @@ function renderHomeView(container) {
         <button class="btn btn-outline" style="color: #ffffff; border-color: rgba(255,255,255,0.4);" onclick="navigateTo('weekly')">
           <i class="fa-solid fa-table-columns" style="color: #fb923c;"></i> Xem Theo Tuần Học
         </button>
-        <button class="btn btn-ai-header" onclick="window.open('ai-integration.html', '_blank')" style="background: linear-gradient(135deg, #db2777, #ec4899); border: none; box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);" title="Mở Trợ Lý AI Tích Hợp Giáo Án trong tab mới rộng rãi">
-          <i class="fa-solid fa-layer-group"></i> AI Tích Hợp Giáo Án
+        <button class="btn btn-ai-header" onclick="window.open('ai-integration.html', '_blank')" style="background: linear-gradient(135deg, #db2777, #ec4899); border: none; box-shadow: 0 4px 12px rgba(219, 39, 119, 0.35);" title="Mở Xuất KHBD Có Tích Hợp trong tab mới rộng rãi">
+          <i class="fa-solid fa-layer-group"></i> Xuất KHBD Có Tích Hợp
           <span style="background: #ef4444; color: white; font-size: 0.62rem; padding: 2px 6px; border-radius: 9999px; margin-left: 4px; font-weight: 800;">MỚI</span>
           <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.65rem; margin-left: 4px; opacity: 0.85;"></i>
         </button>
@@ -2415,6 +2429,7 @@ function renderSettingsView(container) {
   var isAdmin = session.role === "admin";
   var pins = AuthService.getValidPins();
   var apiKey = localStorage.getItem("tvth_gemini_api_key") || "";
+  var calConfig = (window.AcademicCalendar && AcademicCalendar.getConfig()) || { startDate: '2026-09-07', tetBreakStartWeek: 21, tetBreakWeeks: 2, totalStudyWeeks: 35 };
 
   container.innerHTML = `
     <div class="section-header">
@@ -2485,6 +2500,64 @@ function renderSettingsView(container) {
         <button class="btn btn-outline" style="width: 100%; margin-top: 0.5rem;" onclick="syncDriveData(true)">
           <i class="fa-solid fa-rotate-right"></i> Đồng bộ lại từ Google Drive
         </button>
+      </div>
+
+      <!-- Cài Đặt Thời Gian Năm Học (Kế thừa chuẩn EduRobot) -->
+      <div class="ai-ctrl-box">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.65rem;">
+          <h3 style="font-size: 1.05rem; font-weight: 800; color: #1e40af; margin: 0; display: flex; align-items: center; gap: 0.5rem;">
+            <i class="fa-solid fa-calendar-days" style="color: #2563eb;"></i> Cài Đặt Thời Gian Năm Học
+          </h3>
+          <span style="font-size: 0.72rem; font-weight: 700; background: #dbeafe; color: #1e40af; padding: 2px 8px; border-radius: 999px;">
+            35 Tuần Thực Học
+          </span>
+        </div>
+        <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 0.85rem;">
+          Tự động phân bổ lịch 35 tuần, tính chính xác ngày cho từng bài dạy và bảng Thời khóa biểu khi xuất Word.
+        </p>
+
+        <div class="form-group">
+          <label style="font-size: 0.78rem; font-weight: 700; color: #334155;">
+            🚩 Ngày bắt đầu Tuần 1 (Thứ Hai):
+          </label>
+          <input type="date" id="adminCalendarStartDate" class="form-control" value="${calConfig.startDate}" onchange="updateAdminCalendarPreview()" ${!isAdmin ? 'disabled' : ''}>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem; margin-bottom: 0.75rem;">
+          <div class="form-group" style="margin-bottom: 0;">
+            <label style="font-size: 0.78rem; font-weight: 700; color: #334155;">
+              🧧 Tuần nghỉ Tết:
+            </label>
+            <input type="number" id="adminCalendarTetStart" class="form-control" min="1" max="35" value="${calConfig.tetBreakStartWeek}" onchange="updateAdminCalendarPreview()" ${!isAdmin ? 'disabled' : ''}>
+            <small style="font-size: 0.68rem; color: var(--text-muted);">Sau tuần này sẽ nghỉ Tết</small>
+          </div>
+          <div class="form-group" style="margin-bottom: 0;">
+            <label style="font-size: 0.78rem; font-weight: 700; color: #334155;">
+              🌴 Số tuần nghỉ:
+            </label>
+            <input type="number" id="adminCalendarTetWeeks" class="form-control" min="1" max="4" value="${calConfig.tetBreakWeeks}" onchange="updateAdminCalendarPreview()" ${!isAdmin ? 'disabled' : ''}>
+            <small style="font-size: 0.68rem; color: var(--text-muted);">Mặc định 2 tuần</small>
+          </div>
+        </div>
+
+        <!-- Khung Xem Trước Thời Gian Thực (Live Preview) -->
+        <div id="adminCalendarPreviewBox" style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: var(--radius-sm); padding: 0.65rem 0.85rem; margin-bottom: 0.85rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+            <span style="font-size: 0.75rem; font-weight: 700; color: #1e40af;">Hôm nay hệ thống tính là:</span>
+            <span id="adminCalendarCurrentBadge" style="background: #2563eb; color: #fff; font-weight: 800; font-size: 0.72rem; padding: 2px 8px; border-radius: 999px;">
+              Đang tính...
+            </span>
+          </div>
+          <div id="adminCalendarWeek1Preview" style="font-size: 0.72rem; color: #1e3a8a; line-height: 1.45;">
+            Đang tải dữ liệu tuần...
+          </div>
+        </div>
+
+        ${isAdmin ? `
+          <button class="btn btn-primary" style="width: 100%;" onclick="saveAdminCalendarConfig()">
+            <i class="fa-solid fa-floppy-disk"></i> Lưu Cài Đặt Thời Gian Năm Học
+          </button>
+        ` : ''}
       </div>
 
       <div class="ai-ctrl-box" style="grid-column: 1 / -1;">
@@ -2648,6 +2721,76 @@ function renderSettingsView(container) {
       </div>
     </div>
   `;
+
+  setTimeout(updateAdminCalendarPreview, 50);
+}
+
+function updateAdminCalendarPreview() {
+  var startInput = document.getElementById('adminCalendarStartDate');
+  var tetStartInput = document.getElementById('adminCalendarTetStart');
+  var tetWeeksInput = document.getElementById('adminCalendarTetWeeks');
+  if (!startInput || !window.AcademicCalendar) return;
+
+  var tempConfig = {
+    startDate: startInput.value || '2026-09-07',
+    tetBreakStartWeek: parseInt(tetStartInput?.value, 10) || 21,
+    tetBreakWeeks: parseInt(tetWeeksInput?.value, 10) || 2,
+    totalStudyWeeks: 35
+  };
+
+  var tempCal = Object.assign(Object.create(AcademicCalendar), {
+    config: tempConfig
+  });
+
+  var cur = tempCal.calculateCurrentWeek();
+  var w1 = tempCal.getWeekRange(1);
+  var w20 = tempCal.getWeekRange(20);
+  var w21 = tempCal.getWeekRange(21);
+  var w35 = tempCal.getWeekRange(35);
+
+  var badge = document.getElementById('adminCalendarCurrentBadge');
+  if (badge) {
+    if (cur.isTetHoliday) {
+      badge.textContent = 'Nghỉ Tết (Tuần ' + cur.currentWeek + ')';
+      badge.style.background = '#d97706';
+    } else {
+      badge.textContent = cur.currentPeriod + ' • Tuần ' + cur.currentWeek;
+      badge.style.background = '#2563eb';
+    }
+  }
+
+  var w1Prev = document.getElementById('adminCalendarWeek1Preview');
+  if (w1Prev) {
+    w1Prev.innerHTML = `
+      <div>• <b>Tuần 1 (Bắt đầu):</b> ${w1.label}</div>
+      <div>• <b>Học kỳ 1 (Tuần 1 - 20):</b> Kết thúc ${w20.endFormatted}</div>
+      <div>• <b>Học kỳ 2 (Tuần 21 - 35):</b> Bắt đầu ${w21.startFormatted} • Kết thúc ${w35.endFormatted}</div>
+    `;
+  }
+}
+
+function saveAdminCalendarConfig() {
+  var startInput = document.getElementById('adminCalendarStartDate');
+  var tetStartInput = document.getElementById('adminCalendarTetStart');
+  var tetWeeksInput = document.getElementById('adminCalendarTetWeeks');
+  if (!startInput || !window.AcademicCalendar) return;
+
+  var startDate = startInput.value.trim();
+  if (!startDate) {
+    showToast('Vui lòng chọn ngày bắt đầu năm học (Thứ Hai Tuần 1)!', 'error');
+    return;
+  }
+
+  var newCfg = {
+    startDate: startDate,
+    tetBreakStartWeek: parseInt(tetStartInput.value, 10) || 21,
+    tetBreakWeeks: parseInt(tetWeeksInput.value, 10) || 2,
+    totalStudyWeeks: 35
+  };
+
+  AcademicCalendar.saveConfig(newCfg);
+  showToast('Đã lưu cấu hình thời gian năm học thành công!', 'success');
+  updateAdminCalendarPreview();
 }
 
 async function handleAdminChangePassword() {
@@ -3188,6 +3331,18 @@ if (typeof window !== "undefined") {
   window.handleIntegrationFileInput = typeof handleIntegrationFileInput !== "undefined" ? handleIntegrationFileInput : null;
   window.removeUploadedIntegrationFile = typeof removeUploadedIntegrationFile !== "undefined" ? removeUploadedIntegrationFile : null;
   window.clearAllUploadedIntegrationDocs = typeof clearAllUploadedIntegrationDocs !== "undefined" ? clearAllUploadedIntegrationDocs : null;
+  window.setIntegrationRoleAndMode = typeof setIntegrationRoleAndMode !== "undefined" ? setIntegrationRoleAndMode : null;
+  window.toggleDisabilitySupport = typeof toggleDisabilitySupport !== "undefined" ? toggleDisabilitySupport : null;
+  window.setDisabilityCognitiveRate = typeof setDisabilityCognitiveRate !== "undefined" ? setDisabilityCognitiveRate : null;
+  window.setDisabilityType = typeof setDisabilityType !== "undefined" ? setDisabilityType : null;
+  window.setDisabilityNotes = typeof setDisabilityNotes !== "undefined" ? setDisabilityNotes : null;
+  window.getSampleDisabilityText = typeof getSampleDisabilityText !== "undefined" ? getSampleDisabilityText : null;
+  window.getSampleLessonName = typeof getSampleLessonName !== "undefined" ? getSampleLessonName : null;
+  window.setCustomDisabilityText = typeof setCustomDisabilityText !== "undefined" ? setCustomDisabilityText : null;
+  window.resetDisabilityToAuto = typeof resetDisabilityToAuto !== "undefined" ? resetDisabilityToAuto : null;
+  window.generateAiSampleDisabilityYccd = typeof generateAiSampleDisabilityYccd !== "undefined" ? generateAiSampleDisabilityYccd : null;
+  window.applyQuickChatPrompt = typeof applyQuickChatPrompt !== "undefined" ? applyQuickChatPrompt : null;
+  window.clearIntegrationPasteText = typeof clearIntegrationPasteText !== "undefined" ? clearIntegrationPasteText : null;
   window.onIntegrationPasteTextInput = typeof onIntegrationPasteTextInput !== "undefined" ? onIntegrationPasteTextInput : null;
   window.triggerAnalyzeIntegrationPlan = typeof triggerAnalyzeIntegrationPlan !== "undefined" ? triggerAnalyzeIntegrationPlan : null;
   window.onPlanCellEdit = typeof onPlanCellEdit !== "undefined" ? onPlanCellEdit : null;
@@ -3230,6 +3385,7 @@ if (typeof window !== "undefined") {
   window.onModalGvbmMultiToggle = typeof onModalGvbmMultiToggle !== "undefined" ? onModalGvbmMultiToggle : null;
   window.updateModalGvbmSlotCount = typeof updateModalGvbmSlotCount !== "undefined" ? updateModalGvbmSlotCount : null;
   window.renderIntegrationGvbmFinalPreviewHtml = typeof renderIntegrationGvbmFinalPreviewHtml !== "undefined" ? renderIntegrationGvbmFinalPreviewHtml : null;
+  window.downloadTimetableTemplate = typeof downloadTimetableTemplate !== "undefined" ? downloadTimetableTemplate : null;
 }
 
 /* ==========================================================================
@@ -3283,8 +3439,25 @@ function renderAiIntegrationView(container) {
   var eWeek = integrationState.endWeek || sWeek;
   var countWeeks = eWeek - sWeek + 1;
   var step = integrationState.activeStep || 1;
+  var ds = integrationState.disabilitySupport || {
+    enabled: false,
+    cognitiveRate: 50,
+    disabilityType: 'tri_tue',
+    disabilityTypeName: 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)',
+    notes: ''
+  };
+  var ap = integrationState.approvalConfig || {
+    enabled: false,
+    leaderRole: 'Tổ trưởng',
+    leaderName: '',
+    adminRole: 'Hiệu trưởng',
+    adminName: ''
+  };
+
+  var SHOW_EXTRA_INTEGRATION_DOCS = false; // Tạm ẩn chức năng nạp tài liệu tích hợp chuyên đề theo yêu cầu để hoàn thiện sau
 
   container.innerHTML = `
+    ${SHOW_EXTRA_INTEGRATION_DOCS ? `
     <!-- STEPPER TIẾN TRÌNH 3 BƯỚC -->
     <div class="stepper-header">
       <div class="step-item ${step >= 1 ? (step === 1 ? 'active' : 'completed') : ''}">
@@ -3315,59 +3488,41 @@ function renderAiIntegrationView(container) {
         </div>
       </div>
     </div>
+    ` : ''}
 
     <div class="ai-layout-container">
       
       <!-- CỘT ĐIỀU KHIỂN BÊN TRÁI -->
       <div class="ai-ctrl-box" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm);">
         
-        <!-- CHUYỂN ĐỔI 2 CHẾ ĐỘ XUẤT -->
-        <div style="margin-bottom: 1.15rem;">
-          <div style="font-size: 0.76rem; font-weight: 800; color: #475569; text-transform: uppercase; margin-bottom: 0.45rem; display: flex; align-items: center; justify-content: space-between;">
-            <span><i class="fa-solid fa-sliders"></i> CHẾ ĐỘ SOẠN & XUẤT GIÁO ÁN</span>
-            <span style="color: #16a34a; font-size: 0.72rem;"><i class="fa-solid fa-circle-check"></i> Chuẩn CV 2345</span>
+        <!-- LỰA CHỌN ĐỐI TƯỢNG VÀ HÌNH THỨC XUẤT KHBD -->
+        <div style="margin-bottom: 1.15rem; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); padding: 0.65rem;">
+          <div style="font-size: 0.76rem; font-weight: 800; color: #1e293b; text-transform: uppercase; margin-bottom: 0.5rem; display: flex; align-items: center; justify-content: space-between;">
+            <span><i class="fa-solid fa-users-gear" style="color: #db2777;"></i> ĐỐI TƯỢNG & HÌNH THỨC XUẤT KHBD:</span>
+            <span style="color: #16a34a; font-size: 0.72rem;"><i class="fa-solid fa-circle-check"></i> CV 2345</span>
           </div>
           
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem; background: #f1f5f9; padding: 4px; border-radius: 8px;">
-            <button type="button" class="btn btn-sm ${!isTimetableMode ? 'btn-primary' : 'btn-outline'}" 
-                    style="${!isTimetableMode ? 'background: #db2777; border-color: #db2777; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(219,39,119,0.3);' : 'background: #fff; color: #475569; font-weight: 600; border-color: #cbd5e1;'}" 
-                    onclick="setIntegrationExportMode('subject')">
-              <i class="fa-solid fa-book-open"></i> Theo Từng Môn
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem; margin-bottom: 0.45rem;">
+            <button type="button" class="btn btn-sm ${isTimetableMode && !isGvbm ? 'btn-primary' : 'btn-outline'}" 
+                    style="${isTimetableMode && !isGvbm ? 'background: #1e40af; border-color: #1e40af; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(30,64,175,0.3); font-size: 0.76rem; padding: 0.45rem 0.3rem;' : 'background: #fff; color: #334155; font-weight: 600; border-color: #cbd5e1; font-size: 0.76rem; padding: 0.45rem 0.3rem;'}" 
+                    onclick="setIntegrationRoleAndMode('timetable', 'gvcn')" title="Xuất KHBD theo Thời khóa biểu của lớp (GVCN dạy 1 lớp, ghép đa môn)">
+              <i class="fa-solid fa-chalkboard-user"></i> GVCN (Dạy 1 Lớp)
+              <div style="font-size: 0.63rem; font-weight: normal; opacity: 0.95; margin-top: 2px;">Theo Lớp • Ghép Đa Môn</div>
             </button>
-            <button type="button" class="btn btn-sm ${isTimetableMode ? 'btn-primary' : 'btn-outline'}" 
-                    style="${isTimetableMode ? 'background: #db2777; border-color: #db2777; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(219,39,119,0.3);' : 'background: #fff; color: #475569; font-weight: 600; border-color: #cbd5e1;'}" 
-                    onclick="setIntegrationExportMode('timetable')">
-              <i class="fa-solid fa-calendar-days"></i> Theo Thời Khóa Biểu
+            <button type="button" class="btn btn-sm ${isTimetableMode && isGvbm ? 'btn-primary' : 'btn-outline'}" 
+                    style="${isTimetableMode && isGvbm ? 'background: #0284c7; border-color: #0284c7; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(2,132,199,0.3); font-size: 0.76rem; padding: 0.45rem 0.3rem;' : 'background: #fff; color: #334155; font-weight: 600; border-color: #cbd5e1; font-size: 0.76rem; padding: 0.45rem 0.3rem;'}" 
+                    onclick="setIntegrationRoleAndMode('timetable', 'gvbm')" title="Xuất KHBD theo Lịch dạy GV Bộ Môn (1 môn nhiều khối HOẶC nhiều khối nhiều môn)">
+              <i class="fa-solid fa-user-tie"></i> GV Bộ Môn (Đa Khối)
+              <div style="font-size: 0.63rem; font-weight: normal; opacity: 0.95; margin-top: 2px;">1 Môn Nhiều Khối • Đa Môn</div>
             </button>
           </div>
-        </div>
 
-        <!-- NẾU CHẾ ĐỘ THỜI KHÓA BIỂU: CHỌN ĐỐI TƯỢNG GVCN HOẶC GVBM -->
-        ${isTimetableMode ? `
-          <div style="margin-bottom: 1.15rem; background: #e0f2fe; padding: 0.55rem 0.65rem; border-radius: var(--radius-sm); border: 1px solid #bae6fd;">
-            <div style="font-size: 0.74rem; font-weight: 800; color: #0369a1; text-transform: uppercase; margin-bottom: 0.4rem; display: flex; align-items: center; justify-content: space-between;">
-              <span><i class="fa-solid fa-user-gear"></i> ĐỐI TƯỢNG GIÁO VIÊN:</span>
-              <span style="font-size: 0.7rem; color: #0284c7; font-weight: 700;">
-                <i class="fa-solid fa-circle-info"></i> ${isGvbm ? 'Phân Công Giảng Dạy Đa Khối / Đa Môn' : 'Dạy Theo Lớp Chủ Nhiệm'}
-              </span>
-            </div>
-            
-            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem;">
-              <button type="button" class="btn btn-sm ${!isGvbm ? 'btn-primary' : 'btn-outline'}" 
-                      style="${!isGvbm ? 'background: #0284c7; border-color: #0284c7; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(2,132,199,0.3); font-size: 0.76rem;' : 'background: #fff; color: #334155; font-weight: 600; border-color: #cbd5e1; font-size: 0.76rem;'}" 
-                      onclick="setIntegrationTimetableRole('gvcn')">
-                <i class="fa-solid fa-chalkboard-user"></i> GV Chủ nhiệm
-                <div style="font-size: 0.62rem; font-weight: normal; opacity: 0.9; margin-top: 1px;">Theo Lớp • Đa Môn</div>
-              </button>
-              <button type="button" class="btn btn-sm ${isGvbm ? 'btn-primary' : 'btn-outline'}" 
-                      style="${isGvbm ? 'background: #0284c7; border-color: #0284c7; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(2,132,199,0.3); font-size: 0.76rem;' : 'background: #fff; color: #334155; font-weight: 600; border-color: #cbd5e1; font-size: 0.76rem;'}" 
-                      onclick="setIntegrationTimetableRole('gvbm')">
-                <i class="fa-solid fa-user-tie"></i> GV Bộ môn
-                <div style="font-size: 0.62rem; font-weight: normal; opacity: 0.9; margin-top: 1px;">Đa Khối • Đa Lớp</div>
-              </button>
-            </div>
-          </div>
-        ` : ''}
+          <button type="button" class="btn btn-sm ${!isTimetableMode ? 'btn-primary' : 'btn-outline'}" 
+                  style="width: 100%; ${!isTimetableMode ? 'background: #db2777; border-color: #db2777; color: #fff; font-weight: 800; box-shadow: 0 2px 6px rgba(219,39,119,0.3); font-size: 0.76rem;' : 'background: #fff; color: #475569; font-weight: 600; border-color: #cbd5e1; font-size: 0.76rem;'}" 
+                  onclick="setIntegrationRoleAndMode('subject')">
+            <i class="fa-solid fa-book-open"></i> Soạn & Xuất Riêng Theo Từng Môn Học
+          </button>
+        </div>
 
         ${isGvbm ? `
           <!-- 1. BẢNG PHÂN CÔNG GIẢNG DẠY GV BỘ MÔN (ĐA KHỐI / ĐA MÔN) -->
@@ -3441,22 +3596,23 @@ function renderAiIntegrationView(container) {
             </div>
 
             <!-- THANH THAO TÁC THÊM HÀNG & MẪU NHANH -->
-            <div style="display: flex; gap: 0.35rem; align-items: center; flex-wrap: wrap;">
+            <div style="display: flex; gap: 0.35rem; align-items: center; flex-wrap: wrap; margin-top: 0.35rem; padding-top: 0.35rem; border-top: 1px dashed #cbd5e1;">
               <button type="button" class="btn btn-sm btn-primary" style="font-size: 0.74rem; background: #0284c7; border-color: #0284c7; padding: 3px 8px;" onclick="addGvbmAssignmentRow()">
                 <i class="fa-solid fa-plus"></i> Thêm Hàng Mới
               </button>
-              <div style="display: flex; gap: 0.25rem; margin-left: auto;">
-                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('multi')" title="Mẫu GV dạy đa môn: Âm nhạc + Mĩ thuật + Công nghệ + GDTC">
-                  Mẫu Đa Môn
+              <div style="display: flex; gap: 0.25rem; margin-left: auto; flex-wrap: wrap; align-items: center;">
+                <span style="font-size: 0.68rem; color: #64748b; font-weight: 600;">Mẫu nhanh:</span>
+                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px; font-weight: 700; color: #0284c7; border-color: #7dd3fc; background: #f0f9ff;" onclick="loadSampleGvbmAssignments('multi')" title="Mẫu dạy Nhiều khối & Nhiều môn (Âm nhạc + Mĩ thuật + Công nghệ + GDTC qua Khối 1-5)">
+                  <i class="fa-solid fa-layer-group"></i> Nhiều Khối Nhiều Môn
                 </button>
-                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('music')" title="Mẫu GV chuyên Âm nhạc Khối 1 - 5">
-                  Mẫu Âm Nhạc
+                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('music')" title="Mẫu dạy 1 môn chuyên Âm nhạc xuyên suốt Khối 1 - 5">
+                  1 Môn: Âm Nhạc (1-5)
                 </button>
-                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('pe')" title="Mẫu GV chuyên GD Thể chất Khối 1 - 5">
-                  Mẫu GDTC
+                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('pe')" title="Mẫu dạy 1 môn chuyên GDTC xuyên suốt Khối 1 - 5">
+                  1 Môn: GDTC (1-5)
                 </button>
-                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('tech')" title="Mẫu GV chuyên Tin - Công nghệ">
-                  Mẫu Tin-CN
+                <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 2px 6px;" onclick="loadSampleGvbmAssignments('tech')" title="Mẫu dạy Tin - Công nghệ Khối 3 - 5">
+                  Tin - CN (3-5)
                 </button>
               </div>
             </div>
@@ -3519,21 +3675,28 @@ function renderAiIntegrationView(container) {
           <!-- NẾU CHẾ ĐỘ THỜI KHÓA BIỂU: KHU VỰC TÙY CHỈNH & TẢI TKB -->
           ${isTimetableMode ? `
             <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); padding: 0.75rem; margin-bottom: 0.85rem;">
-              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem; flex-wrap: wrap; gap: 0.4rem;">
                 <span style="font-size: 0.8rem; font-weight: 800; color: #1e293b;">
                   <i class="fa-solid fa-table-cells" style="color: #db2777;"></i> 2. Thời Khóa Biểu Khối ${curGrade}:
                 </span>
-                <span style="font-size: 0.72rem; color: #16a34a; font-weight: 700; background: #f0fdf4; padding: 2px 6px; border-radius: 4px; border: 1px solid #bbf7d0;">
-                  ${integrationState.customTimetableName ? integrationState.customTimetableName : 'Chuẩn Bộ GD&ĐT'}
-                </span>
+                <button type="button" class="btn btn-sm" style="font-size: 0.74rem; padding: 3px 9px; background: #f0fdf4; color: #16a34a; border: 1px solid #86efac; font-weight: 700; border-radius: 4px; display: inline-flex; align-items: center; gap: 5px; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.background='#dcfce7'; this.style.borderColor='#4ade80';" onmouseout="this.style.background='#f0fdf4'; this.style.borderColor='#86efac';" onclick="downloadTimetableTemplate(${curGrade})" title="Tải tệp Excel mẫu TKB (có nút xổ xuống chọn môn học) để nhập và tải lên">
+                  <i class="fa-solid fa-file-arrow-down" style="color: #16a34a;"></i> Tải mẫu TKB (.xlsx)
+                </button>
               </div>
+
+              ${integrationState.customTimetableName ? `
+                <div style="font-size: 0.73rem; color: #15803d; background: #dcfce7; border: 1px solid #bbf7d0; border-radius: 4px; padding: 3px 8px; margin-bottom: 0.45rem; display: flex; align-items: center; gap: 5px;">
+                  <i class="fa-solid fa-circle-check" style="color: #16a34a;"></i>
+                  <span>Đang áp dụng: <strong>${integrationState.customTimetableName}</strong></span>
+                </div>
+              ` : ''}
 
               <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
                 <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.75rem; flex: 1; white-space: nowrap;" onclick="openTimetableEditorModal()">
                   <i class="fa-solid fa-pen-to-square"></i> Xem & Sửa TKB
                 </button>
                 <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.75rem; flex: 1; white-space: nowrap;" onclick="document.getElementById('integTkbFileInput').click()">
-                  <i class="fa-solid fa-file-excel" style="color: #10b981;"></i> Tải TKB (.xlsx, .docx, .csv)
+                  <i class="fa-solid fa-file-arrow-up" style="color: #10b981;"></i> Tải lên TKB (.xlsx, .docx, .csv)
                 </button>
                 ${integrationState.customTimetable ? `
                   <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.75rem; color: #dc2626; border-color: #fca5a5;" onclick="resetTimetableToDefault()" title="Trở về TKB chuẩn Bộ">
@@ -3625,34 +3788,221 @@ function renderAiIntegrationView(container) {
           </div>
         </div>
 
-        <!-- KHU VỰC CÁC NÚT HÀNH ĐỘNG CHÍNH -->
-        <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 0.85rem;">
-          ${integrationState.uploadedDocText ? `
-            <!-- NÚT AI KHI CÓ TÀI LIỆU TÍCH HỢP -->
-            <button id="btnStartIntegAnalyze" class="btn btn-primary" style="width: 100%; padding: 0.8rem; font-size: 0.92rem; font-weight: 800; background: linear-gradient(135deg, #db2777, #ec4899); box-shadow: 0 4px 14px rgba(219, 39, 119, 0.35); border: none;" onclick="triggerAnalyzeIntegrationPlan()">
-              <i class="fa-solid fa-wand-magic-sparkles"></i> BƯỚC 1: AI LẬP KẾ HOẠCH TÍCH HỢP ${isTimetableMode ? '& GHÉP TKB' : ''}
-            </button>
-          ` : ''}
+        <!-- 4. GIÁO DỤC HÒA NHẬP (HỌC SINH KHUYẾT TẬT) - TÁCH BIỆT ĐỘC LẬP -->
+        <div style="background: ${ds.enabled ? '#faf5ff' : '#f8fafc'}; border: 1.5px solid ${ds.enabled ? '#c084fc' : '#e2e8f0'}; border-radius: var(--radius-sm); padding: 0.75rem; margin-bottom: 0.85rem; transition: all 0.25s ease;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <label style="font-weight: 800; font-size: 0.82rem; color: ${ds.enabled ? '#6b21a8' : '#334155'}; margin: 0; display: flex; align-items: center; gap: 0.35rem; cursor: pointer;" onclick="toggleDisabilitySupport()">
+              <span style="font-size: 1rem;">♿</span> 4. Giáo Dục Hòa Nhập (HS Khuyết Tật)
+            </label>
+            <!-- TOGGLE SWITCH BẬT / TẮT -->
+            <div style="display: flex; align-items: center; gap: 0.4rem;">
+              <span style="font-size: 0.7rem; font-weight: 800; color: ${ds.enabled ? '#7e22ce' : '#94a3b8'};">
+                ${ds.enabled ? 'ĐANG BẬT' : 'TẮT'}
+              </span>
+              <label class="switch-toggle" style="position: relative; display: inline-block; width: 38px; height: 20px; margin: 0; cursor: pointer;">
+                <input type="checkbox" id="disabilityToggleInput" ${ds.enabled ? 'checked' : ''} onchange="toggleDisabilitySupport(this.checked)" style="opacity: 0; width: 0; height: 0;">
+                <span class="switch-slider" style="position: absolute; cursor: pointer; inset: 0; background-color: ${ds.enabled ? '#9333ea' : '#cbd5e1'}; transition: .3s; border-radius: 20px;">
+                  <span style="position: absolute; content: ''; height: 14px; width: 14px; left: ${ds.enabled ? '20px' : '3px'}; bottom: 3px; background-color: white; transition: .3s; border-radius: 50%; display: block; box-shadow: 0 1px 3px rgba(0,0,0,0.3);"></span>
+                </span>
+              </label>
+            </div>
+          </div>
 
-          <!-- CỤM NÚT: XEM TRƯỚC GỐC & XUẤT NHANH GỐC -->
-          <div style="display: flex; flex-direction: column; gap: 0.45rem;">
-            <button id="btnPreviewOriginalKhbd" type="button" class="btn btn-outline" style="width: 100%; padding: 0.75rem 1rem; font-size: 0.88rem; font-weight: 800; border: 2px solid ${isGvbm ? '#0284c7' : '#2563eb'}; color: ${isGvbm ? '#0369a1' : '#1e40af'}; background: #eff6ff; display: flex; align-items: center; justify-content: center; gap: 0.5rem; transition: all 0.2s;" onclick="triggerPreviewOriginalKhbd()">
-              ${isTimetableMode ? (isGvbm ? ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB BỘ MÔN (' + countWeeks + ' TUẦN)') : ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB LỚP (' + countWeeks + ' TUẦN)')) : ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC KHBD GỐC (' + countWeeks + ' TUẦN)')}
-            </button>
-            <button id="btnDirectFastExport" class="btn btn-primary" style="width: 100%; padding: 0.8rem 1rem; font-size: 0.88rem; font-weight: 800; background: ${isGvbm ? 'linear-gradient(135deg, #0284c7, #0369a1)' : 'linear-gradient(135deg, #1e40af, #3b82f6)'}; box-shadow: 0 4px 14px rgba(30, 64, 175, 0.35); border: none; display: flex; align-items: center; justify-content: center; gap: 0.5rem;" onclick="triggerDirectFastExport()">
-              ${isTimetableMode ? (isGvbm ? ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH THEO TKB BỘ MÔN (' + countWeeks + ' Tuần • 1 File/Tuần)') : ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH THEO TKB LỚP (' + countWeeks + ' Tuần • 1 File/Tuần)')) : ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH KHBD GỐC (' + countWeeks + ' Tuần • Chuẩn CV 2345)')}
-            </button>
-          </div>
-          <div style="font-size: 0.74rem; color: #64748b; text-align: center; line-height: 1.35;">
-            <i class="fa-solid fa-circle-info" style="color: #2563eb;"></i> Bấm <b>Xem trước</b> để duyệt giáo án trên màn hình, hoặc bấm <b>Xuất nhanh</b> để tải file Word về máy.
-          </div>
+          ${!ds.enabled ? `
+            <div style="font-size: 0.71rem; color: #94a3b8; margin-top: 0.35rem; line-height: 1.35;">
+              Bật để tự động thêm mục tiêu dạy học phân hóa cho học sinh khuyết tật vào cuối phần <strong>I. Yêu cầu cần đạt</strong> (không bắt buộc có tài liệu tích hợp).
+            </div>
+          ` : `
+            <div style="margin-top: 0.65rem; padding-top: 0.55rem; border-top: 1px dashed #d8b4fe;">
+              
+              <!-- CHỌN TỈ LỆ NHẬN THỨC -->
+              <div style="margin-bottom: 0.55rem;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.3rem;">
+                  <span style="font-size: 0.74rem; font-weight: 700; color: #581c87;">
+                    Tỉ lệ nhận thức / tiếp thu:
+                  </span>
+                  <span id="disabilityRateBadge" style="font-size: 0.76rem; font-weight: 800; background: #7e22ce; color: #fff; padding: 1px 7px; border-radius: 999px;">
+                    ${ds.cognitiveRate || 50}%
+                  </span>
+                </div>
+
+                <!-- CÁC NÚT PRESET BẤM NHANH -->
+                <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.25rem; margin-bottom: 0.4rem;">
+                  ${[30, 40, 50, 60, 70].map(function(r) {
+                    var isActive = (ds.cognitiveRate === r);
+                    return `
+                      <button type="button" class="btn btn-sm disability-preset-btn ${isActive ? 'btn-primary' : 'btn-outline'}" 
+                              data-rate="${r}"
+                              style="font-size: 0.72rem; padding: 0.25rem 0.15rem; font-weight: 800; ${isActive ? 'background: #7030a0; border-color: #7030a0; color: #fff;' : 'background: #fff; border-color: #cbd5e1; color: #475569;'}" 
+                              onclick="setDisabilityCognitiveRate(${r})">
+                        ${r}%
+                      </button>
+                    `;
+                  }).join('')}
+                </div>
+
+                <!-- THANH TRƯỢT SLIDER -->
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 0.68rem; color: #6b21a8; font-weight: 600;">10%</span>
+                  <input type="range" id="disabilityRateRange" min="10" max="90" step="5" value="${ds.cognitiveRate || 50}" 
+                         style="flex: 1; accent-color: #7e22ce; cursor: pointer; height: 5px;" 
+                         oninput="setDisabilityCognitiveRate(this.value)">
+                  <span style="font-size: 0.68rem; color: #6b21a8; font-weight: 600;">90%</span>
+                </div>
+              </div>
+
+              <!-- CHỌN DẠNG KHUYẾT TẬT -->
+              <div style="margin-bottom: 0.55rem;">
+                <label style="font-size: 0.73rem; font-weight: 700; color: #581c87; margin-bottom: 0.25rem; display: block;">
+                  Dạng khuyết tật / Hỗ trợ:
+                </label>
+                <select id="disabilityTypeSelect" class="form-select" style="font-size: 0.76rem; padding: 0.35rem 0.5rem; font-weight: 600; border-color: #d8b4fe;" onchange="setDisabilityType(this.value, this.options[this.selectedIndex].text)">
+                  <option value="tri_tue" ${ds.disabilityType === 'tri_tue' ? 'selected' : ''}>Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)</option>
+                  <option value="van_dong" ${ds.disabilityType === 'van_dong' ? 'selected' : ''}>Khuyết tật vận động (Hạn chế viết, thao tác)</option>
+                  <option value="nghe_noi" ${ds.disabilityType === 'nghe_noi' ? 'selected' : ''}>Khuyết tật nghe - nói (Giao tiếp hạn chế)</option>
+                  <option value="nhin" ${ds.disabilityType === 'nhin' ? 'selected' : ''}>Khuyết tật nhìn (Thị lực kém, cần cỡ chữ lớn)</option>
+                  <option value="tu_ki" ${ds.disabilityType === 'tu_ki' ? 'selected' : ''}>Tự kỉ / Tăng động giảm chú ý (ADHD)</option>
+                  <option value="khac" ${ds.disabilityType === 'khac' ? 'selected' : ''}>Khuyết tật khác / Học sinh hòa nhập chung</option>
+                </select>
+              </div>
+
+              <!-- GHI CHÚ RIÊNG CỦA GIÁO VIÊN -->
+              <div style="margin-bottom: 0.55rem;">
+                <label style="font-size: 0.73rem; font-weight: 700; color: #581c87; margin-bottom: 0.25rem; display: block;">
+                  Đặc điểm riêng của học sinh (Tùy chọn):
+                </label>
+                <input type="text" id="disabilityNotesInput" class="form-control" style="font-size: 0.76rem; padding: 0.35rem 0.5rem; border-color: #d8b4fe;" 
+                       placeholder="VD: Em Nam cần bạn kèm cặp, hỗ trợ đồ dùng trực quan..." 
+                       value="${ds.notes || ''}" 
+                       oninput="setDisabilityNotes(this.value)">
+              </div>
+
+              <!-- LIVE PREVIEW CÂU YCCD SẼ XUẤT -->
+              <div>
+                <div style="font-size: 0.7rem; font-weight: 800; color: #6b21a8; margin-bottom: 0.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.3rem;">
+                  <span><i class="fa-solid fa-wand-magic-sparkles" style="color: #7e22ce;"></i> AI soạn YCCĐ bám sát bài học & học sinh:</span>
+                  <span id="disabilitySampleLessonName" style="font-size: 0.68rem; font-weight: 700; color: #6b21a8; background: #faf5ff; border: 1px solid #d8b4fe; padding: 0.1rem 0.4rem; border-radius: 4px; max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${getSampleLessonName()}">
+                    ${getSampleLessonName()}
+                  </span>
+                </div>
+                <div style="position: relative;">
+                  <textarea id="disabilitySampleBox" 
+                            class="form-control" 
+                            rows="3" 
+                            style="font-size: 0.76rem; line-height: 1.45; color: #7030a0; font-weight: 600; background: #ffffff; border: 1px solid #d8b4fe; border-radius: 6px; padding: 0.45rem 0.6rem; resize: vertical;"
+                            oninput="setCustomDisabilityText(this.value)"
+                            title="Thầy cô có thể trực tiếp chỉnh sửa câu này theo ý muốn">${getSampleDisabilityText()}</textarea>
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.35rem; flex-wrap: wrap; gap: 0.35rem;">
+                    <span style="font-size: 0.68rem; color: #64748b; font-style: italic;">
+                      💡 Thầy cô có thể chỉnh sửa trực tiếp hoặc yêu cầu Gemini AI phân tích YCCĐ gốc để soạn câu riêng biệt.
+                    </span>
+                    <div style="display: flex; align-items: center; gap: 0.35rem;">
+                      <button type="button" id="btnAiSampleDisability" class="btn btn-sm" style="font-size: 0.68rem; padding: 0.18rem 0.55rem; color: #fff; background: linear-gradient(135deg, #7c3aed, #a855f7); border: none; font-weight: 700; border-radius: 4px; box-shadow: 0 1px 3px rgba(124,58,237,0.25);" onclick="generateAiSampleDisabilityYccd()" title="Gửi YCCĐ gốc của bài này cho Gemini AI để soạn riêng câu bám sát">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Gemini AI Soạn bám sát bài
+                      </button>
+                      <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 0.18rem 0.45rem; color: #6b21a8; border-color: #d8b4fe; background: #fff;" onclick="resetDisabilityToAuto()" title="Khôi phục lại câu mẫu tự động">
+                        <i class="fa-solid fa-rotate-left"></i> Khôi phục
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          `}
         </div>
 
-        <!-- 4. KHU VỰC TẢI LÊN TÀI LIỆU TÍCH HỢP (TÙY CHỌN) -->
+        <!-- 5. KÈM KHUNG DUYỆT GIÁO ÁN (TỔ TRƯỞNG & BAN GIÁM HIỆU) -->
+        <div style="background: ${ap.enabled ? '#f0fdfa' : '#f8fafc'}; border: 1.5px solid ${ap.enabled ? '#5eead4' : '#e2e8f0'}; border-radius: var(--radius-sm); padding: 0.75rem; margin-bottom: 0.85rem; transition: all 0.25s ease;">
+          <div style="display: flex; justify-content: space-between; align-items: center;">
+            <label style="font-weight: 800; font-size: 0.82rem; color: ${ap.enabled ? '#0f766e' : '#334155'}; margin: 0; display: flex; align-items: center; gap: 0.35rem; cursor: pointer;" onclick="toggleApprovalSupport()">
+              <i class="fa-solid fa-stamp" style="color: ${ap.enabled ? '#0d9488' : '#64748b'}; font-size: 0.95rem;"></i> 5. Kèm Khung Duyệt Giáo Án
+            </label>
+            <!-- TOGGLE SWITCH BẬT / TẮT -->
+            <div style="display: flex; align-items: center; gap: 0.4rem;">
+              <span style="font-size: 0.7rem; font-weight: 800; color: ${ap.enabled ? '#0f766e' : '#94a3b8'};">
+                ${ap.enabled ? 'ĐANG BẬT' : 'TẮT'}
+              </span>
+              <label class="switch-toggle" style="position: relative; display: inline-block; width: 38px; height: 20px; margin: 0; cursor: pointer;">
+                <input type="checkbox" id="approvalToggleInput" ${ap.enabled ? 'checked' : ''} onchange="toggleApprovalSupport(this.checked)" style="opacity: 0; width: 0; height: 0;">
+                <span class="switch-slider" style="position: absolute; cursor: pointer; inset: 0; background-color: ${ap.enabled ? '#0d9488' : '#cbd5e1'}; transition: .3s; border-radius: 20px;">
+                  <span style="position: absolute; content: ''; height: 14px; width: 14px; left: ${ap.enabled ? '20px' : '3px'}; bottom: 3px; background-color: white; transition: .3s; border-radius: 50%; display: block; box-shadow: 0 1px 3px rgba(0,0,0,0.3);"></span>
+                </span>
+              </label>
+            </div>
+          </div>
+
+          ${!ap.enabled ? `
+            <div style="font-size: 0.71rem; color: #94a3b8; margin-top: 0.35rem; line-height: 1.35;">
+              Bật để chèn thêm trang ký duyệt (Tổ trưởng & Ban Giám hiệu duyệt) vào cuối file Word theo đúng biểu mẫu trường.
+            </div>
+          ` : `
+            <div style="margin-top: 0.65rem; padding-top: 0.55rem; border-top: 1px dashed #99f6e4;">
+              
+              <!-- PHẦN 1: TỔ CHUYÊN MÔN -->
+              <div style="margin-bottom: 0.55rem; background: #ffffff; border: 1px solid #ccfbf1; border-radius: 6px; padding: 0.5rem;">
+                <div style="font-size: 0.73rem; font-weight: 800; color: #0f766e; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.3rem;">
+                  <i class="fa-solid fa-user-check"></i> TỔ CHUYÊN MÔN:
+                </div>
+                <div style="display: grid; grid-template-columns: 105px 1fr; gap: 0.4rem; align-items: center;">
+                  <div>
+                    <label style="font-size: 0.68rem; color: #64748b; font-weight: 700; display: block; margin-bottom: 2px;">Chức vụ:</label>
+                    <select id="approvalLeaderRoleSelect" class="form-select" style="font-size: 0.76rem; padding: 0.35rem 0.45rem; font-weight: 700; border-color: #99f6e4;" onchange="setApprovalField('leaderRole', this.value)">
+                      <option value="Tổ trưởng" ${ap.leaderRole === 'Tổ trưởng' ? 'selected' : ''}>Tổ trưởng</option>
+                      <option value="P.Tổ trưởng" ${ap.leaderRole === 'P.Tổ trưởng' ? 'selected' : ''}>P.Tổ trưởng</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label style="font-size: 0.68rem; color: #64748b; font-weight: 700; display: block; margin-bottom: 2px;">Tên Tổ trưởng / P.Tổ trưởng:</label>
+                    <input type="text" id="approvalLeaderNameInput" class="form-control" style="font-size: 0.76rem; padding: 0.35rem 0.5rem; border-color: #99f6e4; font-weight: 600;" 
+                           placeholder="VD: Nguyễn Văn A" 
+                           value="${ap.leaderName || ''}" 
+                           oninput="setApprovalField('leaderName', this.value)">
+                  </div>
+                </div>
+              </div>
+
+              <!-- PHẦN 2: BAN GIÁM HIỆU -->
+              <div style="margin-bottom: 0.55rem; background: #ffffff; border: 1px solid #ccfbf1; border-radius: 6px; padding: 0.5rem;">
+                <div style="font-size: 0.73rem; font-weight: 800; color: #0f766e; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.3rem;">
+                  <i class="fa-solid fa-award"></i> BAN GIÁM HIỆU:
+                </div>
+                <div style="display: grid; grid-template-columns: 105px 1fr; gap: 0.4rem; align-items: center;">
+                  <div>
+                    <label style="font-size: 0.68rem; color: #64748b; font-weight: 700; display: block; margin-bottom: 2px;">Chức vụ:</label>
+                    <select id="approvalAdminRoleSelect" class="form-select" style="font-size: 0.76rem; padding: 0.35rem 0.45rem; font-weight: 700; border-color: #99f6e4;" onchange="setApprovalField('adminRole', this.value)">
+                      <option value="Hiệu trưởng" ${ap.adminRole === 'Hiệu trưởng' ? 'selected' : ''}>Hiệu trưởng</option>
+                      <option value="P.Hiệu trưởng" ${ap.adminRole === 'P.Hiệu trưởng' ? 'selected' : ''}>P.Hiệu trưởng</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label style="font-size: 0.68rem; color: #64748b; font-weight: 700; display: block; margin-bottom: 2px;">Tên BGH (HT / P.Hiệu trưởng):</label>
+                    <input type="text" id="approvalAdminNameInput" class="form-control" style="font-size: 0.76rem; padding: 0.35rem 0.5rem; border-color: #99f6e4; font-weight: 600;" 
+                           placeholder="VD: Trần Thị B" 
+                           value="${ap.adminName || ''}" 
+                           oninput="setApprovalField('adminName', this.value)">
+                  </div>
+                </div>
+              </div>
+
+              <!-- GHI CHÚ TỰ ĐỘNG LƯU & PREVIEW -->
+              <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.68rem; color: #0f766e; background: #ccfbf1; padding: 0.3rem 0.55rem; border-radius: 4px;">
+                <span><i class="fa-solid fa-floppy-disk"></i> Tự động ghi nhớ cho các tuần sau</span>
+                <span id="approvalPreviewBadge" style="font-weight: 700; max-width: 250px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                  ${(ap.leaderRole || 'Tổ trưởng')}: ${ap.leaderName || '...'} • ${(ap.adminRole || 'Hiệu trưởng')}: ${ap.adminName || '...'}
+                </span>
+              </div>
+
+            </div>
+          `}
+        </div>
+
+        <!-- 6. KHU VỰC TẢI LÊN TÀI LIỆU TÍCH HỢP (TẠM ẨN ĐỂ HOÀN THIỆN SAU) -->
+        ${SHOW_EXTRA_INTEGRATION_DOCS ? `
         <div class="form-group" style="margin-bottom: 0.85rem; border-top: 1px dashed #cbd5e1; padding-top: 0.85rem;">
           <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.4rem;">
             <label style="font-weight: 700; font-size: 0.82rem; color: #334155; margin: 0;">
-              ${isTimetableMode ? '4. Tích Hợp Thêm Chuyên Đề Mới Vào TKB' : '4. Tài Liệu Tích Hợp Thêm'} <span style="font-weight: normal; color: #64748b;">(Tùy chọn)</span>:
+              ${isTimetableMode ? '5. Tích Hợp Thêm Chuyên Đề Mới Vào TKB' : '5. Tài Liệu Tích Hợp Chuyên Đề'} <span style="font-weight: normal; color: #64748b;">(Tùy chọn)</span>:
             </label>
             ${integrationState.uploadedDocText ? `
               <span style="font-size: 0.72rem; color: #16a34a; font-weight: 700;">
@@ -3671,7 +4021,7 @@ function renderAiIntegrationView(container) {
               <i class="fa-solid fa-cloud-arrow-up"></i> Tải Tệp (.docx, .pdf, .txt)
             </button>
             <button type="button" class="upload-tab-btn ${integrationState.inputMethod === 'paste' ? 'active' : ''}" onclick="setIntegrationInputMethod('paste')">
-              <i class="fa-solid fa-paste"></i> Dán Văn Bản
+              <i class="fa-solid fa-comments"></i> 💬 Chat Lệnh / Dán Văn Bản
             </button>
           </div>
 
@@ -3719,20 +4069,86 @@ function renderAiIntegrationView(container) {
             <input type="file" id="integFileInput" multiple accept=".docx,.pdf,.txt,.md" style="display: none;" onchange="handleIntegrationFileInput(this)">
           </div>
 
-          <!-- TAB 2: DÁN VĂN BẢN TRỰC TIẾP -->
+          <!-- TAB 2: CHAT LỆNH SƯ PHẠM & DÁN VĂN BẢN TRỰC TIẾP -->
           <div id="integPasteTabContent" style="display: ${integrationState.inputMethod === 'paste' ? 'block' : 'none'};">
-            <textarea id="integPasteTextArea" class="form-control" rows="4" placeholder="Dán toàn bộ văn bản hướng dẫn, tài liệu chuyên đề mới hoặc chỉ đạo của Bộ/Sở/Trường tại đây..." style="font-size: 0.8rem; line-height: 1.45;" oninput="onIntegrationPasteTextInput(this.value)">${integrationState.uploadedDocText || ''}</textarea>
-            <div style="display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--text-muted); margin-top: 0.25rem;">
-              <span>Dữ liệu này sẽ được AI nghiên cứu để lập kế hoạch</span>
-              <span id="pasteWordCountBadge">${integrationState.uploadedWordCount || 0} từ</span>
+            <div style="background: linear-gradient(135deg, #fdf2f8 0%, #eff6ff 100%); border: 1px solid #fbcfe8; border-radius: 8px; padding: 0.75rem; margin-bottom: 0.5rem;">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+                <span style="font-size: 0.78rem; font-weight: 800; color: #9d174d; display: flex; align-items: center; gap: 0.35rem;">
+                  <i class="fa-solid fa-robot" style="color: #db2777;"></i> Ô Chat & Lệnh Sư Phạm Cho AI:
+                </span>
+                <span id="pasteWordCountBadge" style="font-size: 0.7rem; color: #64748b; font-weight: 700; background: #ffffff; padding: 2px 6px; border-radius: 4px; border: 1px solid #e2e8f0;">
+                  ${integrationState.uploadedWordCount || 0} từ
+                </span>
+              </div>
+              
+              <textarea id="integPasteTextArea" class="form-control" rows="4" 
+                        placeholder="💬 Nhập yêu cầu sư phạm cho AI hoặc dán văn bản chỉ đạo...&#10;Ví dụ: Lồng ghép giáo dục bảo vệ môi trường, tiết kiệm tài nguyên nước và thích ứng biến đổi khí hậu vào bài học..." 
+                        style="font-size: 0.8rem; line-height: 1.45; border-radius: 6px; border-color: #f472b6; background: #ffffff; box-shadow: inset 0 1px 3px rgba(0,0,0,0.05);" 
+                        oninput="onIntegrationPasteTextInput(this.value)" 
+                        onkeydown="if(event.ctrlKey && event.key === 'Enter') { event.preventDefault(); triggerAnalyzeIntegrationPlan(); }">${integrationState.uploadedDocText || ''}</textarea>
+              
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.45rem; flex-wrap: wrap; gap: 0.35rem;">
+                <div style="font-size: 0.7rem; color: #64748b;">
+                  <i class="fa-solid fa-keyboard" style="color: #db2777;"></i> Phím tắt <strong>Ctrl + Enter</strong> để gửi lệnh
+                </div>
+                <div style="display: flex; gap: 0.3rem;">
+                  ${integrationState.uploadedDocText ? `
+                    <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.7rem; padding: 2px 7px; color: #dc2626; border-color: #fca5a5; background: #fff;" onclick="clearIntegrationPasteText()" title="Xóa nội dung ô chat">
+                      <i class="fa-solid fa-eraser"></i> Xóa
+                    </button>
+                  ` : ''}
+                  <button type="button" class="btn btn-sm btn-primary" style="font-size: 0.74rem; padding: 3px 10px; background: linear-gradient(135deg, #db2777, #ec4899); border: none; font-weight: 800; box-shadow: 0 2px 8px rgba(219,39,119,0.3);" onclick="triggerAnalyzeIntegrationPlan()" title="Gửi câu lệnh này cho AI phân tích ngay">
+                    <i class="fa-solid fa-paper-plane"></i> Gửi Lệnh Cho AI
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- CÁC CHIP GỢI Ý LỆNH MẪU (CLICK LÀ CHỌN NGAY) -->
+            <div style="margin-top: 0.55rem;">
+              <div style="font-size: 0.73rem; font-weight: 800; color: #475569; margin-bottom: 0.35rem; display: flex; align-items: center; gap: 0.35rem;">
+                <i class="fa-solid fa-wand-magic-sparkles" style="color: #db2777;"></i> Gợi ý câu lệnh mẫu (Bấm là chọn ngay):
+              </div>
+              <div style="display: flex; flex-direction: column; gap: 0.35rem;">
+                <button type="button" class="quick-prompt-chip" onclick="applyQuickChatPrompt('disability_50')" style="text-align: left; background: #ffffff; border: 1px solid #d8b4fe; border-radius: 6px; padding: 0.4rem 0.55rem; font-size: 0.74rem; cursor: pointer; transition: all 0.2s; color: #1e293b; display: flex; align-items: flex-start; gap: 0.4rem;" onmouseover="this.style.borderColor='#7030a0'; this.style.background='#faf5ff';" onmouseout="this.style.borderColor='#d8b4fe'; this.style.background='#ffffff';">
+                  <span style="font-size: 0.95rem; line-height: 1;">♿</span>
+                  <div>
+                    <strong style="color: #7030a0;">Bật nhanh HS khuyết tật (Nhận thức ~50%):</strong>
+                    <div style="color: #64748b; font-size: 0.7rem; margin-top: 1px; line-height: 1.3;">Kích hoạt Mục 4 với tỉ lệ 50%, tự động thêm mục tiêu phân hóa cho em vào cuối phần YCCĐ.</div>
+                  </div>
+                </button>
+
+                <button type="button" class="quick-prompt-chip" onclick="applyQuickChatPrompt('disability_30')" style="text-align: left; background: #ffffff; border: 1px solid #bae6fd; border-radius: 6px; padding: 0.4rem 0.55rem; font-size: 0.74rem; cursor: pointer; transition: all 0.2s; color: #1e293b; display: flex; align-items: flex-start; gap: 0.4rem;" onmouseover="this.style.borderColor='#0284c7'; this.style.background='#f0f9ff';" onmouseout="this.style.borderColor='#bae6fd'; this.style.background='#ffffff';">
+                  <span style="font-size: 0.95rem; line-height: 1;">♿</span>
+                  <div>
+                    <strong style="color: #0284c7;">Bật nhanh HS hòa nhập (Nhận thức ~30%):</strong>
+                    <div style="color: #64748b; font-size: 0.7rem; margin-top: 1px; line-height: 1.3;">Kích hoạt Mục 4 với tỉ lệ 30%, tinh giản mục tiêu bài học vừa sức nhất cho học sinh.</div>
+                  </div>
+                </button>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.3rem;">
+                  <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.7rem; padding: 0.35rem 0.4rem; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: #fff;" onclick="applyQuickChatPrompt('ai')" title="Tích hợp Giáo dục Trí tuệ nhân tạo (AI)">
+                    🤖 GD Trí tuệ nhân tạo (AI)
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.7rem; padding: 0.35rem 0.4rem; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: #fff;" onclick="applyQuickChatPrompt('kns_water')" title="Tích hợp Kỹ năng sống & Phòng đuối nước">
+                    🛡️ KNS & Phòng đuối nước
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.7rem; padding: 0.35rem 0.4rem; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: #fff;" onclick="applyQuickChatPrompt('environment')" title="Tích hợp Bảo vệ môi trường">
+                    🌿 Bảo vệ môi trường
+                  </button>
+                  <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.7rem; padding: 0.35rem 0.4rem; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: #fff;" onclick="applyQuickChatPrompt('local')" title="Tích hợp Giáo dục Địa phương">
+                    🏛️ Giáo dục Địa phương
+                  </button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- 5. GHI CHÚ / YÊU CẦU ĐẶC BIỆT CHO AI (CHỈ KHI CÓ TÀI LIỆU) -->
+        <!-- 6. GHI CHÚ / YÊU CẦU ĐẶC BIỆT CHO AI (CHỈ KHI CÓ TÀI LIỆU) -->
         ${integrationState.uploadedDocText ? `
           <div class="form-group" style="margin-bottom: 0.85rem;">
-            <label for="integUserNotes" style="font-weight: 700; font-size: 0.82rem; color: #334155;">5. Yêu cầu chi tiết cho AI (Tùy chọn):</label>
+            <label for="integUserNotes" style="font-weight: 700; font-size: 0.82rem; color: #334155;">6. Yêu cầu chi tiết cho AI (Tùy chọn):</label>
             <textarea id="integUserNotes" class="form-control" rows="2" placeholder="Ví dụ: Tích hợp sâu vào hoạt động Vận dụng, tạo câu hỏi thực tế địa phương..." oninput="integrationState.userNotes = this.value">${integrationState.userNotes || ''}</textarea>
           </div>
 
@@ -3743,6 +4159,48 @@ function renderAiIntegrationView(container) {
             </label>
           </div>
         ` : ''}
+
+        ${integrationState.uploadedDocText ? `
+          <!-- NÚT AI KHI CÓ TÀI LIỆU TÍCH HỢP -->
+          <button id="btnStartIntegAnalyze" class="btn btn-primary" style="width: 100%; padding: 0.8rem; font-size: 0.92rem; font-weight: 800; background: linear-gradient(135deg, #db2777, #ec4899); box-shadow: 0 4px 14px rgba(219, 39, 119, 0.35); border: none;" onclick="triggerAnalyzeIntegrationPlan()">
+            <i class="fa-solid fa-wand-magic-sparkles"></i> BƯỚC 1: AI LẬP KẾ HOẠCH TÍCH HỢP ${isTimetableMode ? '& GHÉP TKB' : ''}
+          </button>
+        ` : ''}
+        ` : ''}
+
+        <!-- KHU VỰC CÁC NÚT HÀNH ĐỘNG CHÍNH -->
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; margin-bottom: 0.85rem;">
+
+          <!-- CỤM NÚT: XEM TRƯỚC GỐC & XUẤT NHANH GỐC -->
+          <div style="display: flex; flex-direction: column; gap: 0.45rem;">
+            ${(function() {
+              var disBadge = (ds && ds.enabled) ? (' • ♿ ' + (ds.cognitiveRate || 50) + '%') : '';
+              var previewLabel = isTimetableMode ? 
+                (isGvbm ? ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB BỘ MÔN (' + countWeeks + ' TUẦN' + disBadge + ')') : ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB LỚP (' + countWeeks + ' TUẦN' + disBadge + ')')) : 
+                ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC KHBD GỐC (' + countWeeks + ' TUẦN' + disBadge + ')');
+              var exportLabel = isTimetableMode ? 
+                (isGvbm ? ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH THEO TKB BỘ MÔN (' + countWeeks + ' Tuần' + disBadge + ')') : ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH THEO TKB LỚP (' + countWeeks + ' Tuần' + disBadge + ')')) : 
+                ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH KHBD GỐC (' + countWeeks + ' Tuần' + disBadge + ')');
+              return `
+                <button id="btnPreviewOriginalKhbd" type="button" class="btn btn-outline" style="width: 100%; padding: 0.75rem 1rem; font-size: 0.88rem; font-weight: 800; border: 2px solid ${isGvbm ? '#0284c7' : '#2563eb'}; color: ${isGvbm ? '#0369a1' : '#1e40af'}; background: #eff6ff; display: flex; align-items: center; justify-content: center; gap: 0.5rem; transition: all 0.2s;" onclick="triggerPreviewOriginalKhbd()">
+                  ${previewLabel}
+                </button>
+                <button id="btnDirectFastExport" class="btn btn-primary" style="width: 100%; padding: 0.8rem 1rem; font-size: 0.88rem; font-weight: 800; background: ${isGvbm ? 'linear-gradient(135deg, #0284c7, #0369a1)' : 'linear-gradient(135deg, #1e40af, #3b82f6)'}; box-shadow: 0 4px 14px rgba(30, 64, 175, 0.35); border: none; display: flex; align-items: center; justify-content: center; gap: 0.5rem;" onclick="triggerDirectFastExport()">
+                  ${exportLabel}
+                </button>
+              `;
+            })()}
+          </div>
+          <div style="font-size: 0.74rem; color: #64748b; text-align: center; line-height: 1.35;">
+            ${(ds && ds.enabled) ? `
+              <span style="color: #7030a0; font-weight: 700;">
+                <i class="fa-solid fa-circle-check" style="color: #7030a0;"></i> Đang bật mục tiêu phân hóa cho học sinh khuyết tật (${ds.cognitiveRate}%). Toàn bộ KHBD xuất ra sẽ có nội dung này ở cuối mục I.
+              </span>
+            ` : `
+              <i class="fa-solid fa-circle-info" style="color: #2563eb;"></i> Bấm <b>Xem trước</b> để duyệt giáo án trên màn hình, hoặc bấm <b>Xuất nhanh</b> để tải file Word về máy.
+            `}
+          </div>
+        </div>
 
       </div>
 
@@ -3765,10 +4223,15 @@ function renderAiIntegrationView(container) {
         <div id="integTkbModalBody" style="padding: 1.25rem; overflow-y: auto; flex: 1;">
           <!-- Render form thời khóa biểu -->
         </div>
-        <div style="background: #f8fafc; border-top: 1px solid #e2e8f0; padding: 0.85rem 1.25rem; display: flex; justify-content: space-between; align-items: center;">
-          <button type="button" class="btn btn-outline" style="font-size: 0.82rem;" onclick="resetTimetableToDefault()">
-            <i class="fa-solid fa-rotate-left"></i> Khôi phục TKB chuẩn Bộ
-          </button>
+        <div style="background: #f8fafc; border-top: 1px solid #e2e8f0; padding: 0.85rem 1.25rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 0.5rem;">
+          <div style="display: flex; gap: 0.4rem; flex-wrap: wrap;">
+            <button type="button" class="btn btn-outline" style="font-size: 0.82rem;" onclick="resetTimetableToDefault()">
+              <i class="fa-solid fa-rotate-left"></i> Khôi phục TKB chuẩn Bộ
+            </button>
+            <button type="button" class="btn btn-outline" style="font-size: 0.82rem; color: #16a34a; border-color: #86efac; background: #f0fdf4;" onclick="downloadTimetableTemplate()">
+              <i class="fa-solid fa-file-arrow-down"></i> Tải mẫu Excel (.xlsx)
+            </button>
+          </div>
           <div style="display: flex; gap: 0.5rem;">
             <button type="button" class="btn btn-outline" style="font-size: 0.82rem;" onclick="closeTimetableEditorModal()">Hủy bỏ</button>
             <button type="button" class="btn btn-primary" style="font-size: 0.82rem; background: #db2777; border-color: #db2777;" onclick="saveCustomTimetableFromModal()">
@@ -3834,49 +4297,17 @@ function renderIntegrationRightColumnContent() {
 }
 
 function renderIntegrationIdleStateHtml() {
-  var isTimetableMode = (integrationState.exportMode === 'timetable');
-  var curGrade = integrationState.grade || 5;
-
   return `
-    <div style="text-align: center; padding: 3rem 1.5rem; color: var(--text-muted);">
-      <div style="width: 84px; height: 84px; border-radius: 50%; background: #fdf2f8; color: #db2777; display: inline-flex; align-items: center; justify-content: center; font-size: 2.75rem; margin-bottom: 1.25rem; box-shadow: 0 4px 16px rgba(219, 39, 119, 0.2);">
-        <i class="fa-solid ${isTimetableMode ? 'fa-calendar-week' : 'fa-wand-magic-sparkles'}"></i>
+    <div style="text-align: center; padding: 4.5rem 1.5rem; display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 480px; cursor: pointer;" onclick="triggerPreviewOriginalKhbd()" title="Bấm để xem trước Kế hoạch bài dạy">
+      <div style="width: 84px; height: 84px; border-radius: 50%; background: #eff6ff; color: #2563eb; display: inline-flex; align-items: center; justify-content: center; font-size: 2.75rem; margin-bottom: 1.25rem; box-shadow: 0 4px 18px rgba(37, 99, 235, 0.2); transition: transform 0.2s;" onmouseover="this.style.transform='scale(1.08)'" onmouseout="this.style.transform='scale(1)'">
+        <i class="fa-solid fa-eye"></i>
       </div>
-      <h3 style="color: var(--text-color); font-weight: 800; font-size: 1.35rem; margin-bottom: 0.65rem;">
-        ${isTimetableMode ? 'Soạn & Xuất Kế Hoạch Bài Dạy Theo Thời Khóa Biểu' : 'Trợ Lý AI Tích Hợp Giáo Án Theo Môn (Chuẩn CV 2345)'}
-      </h3>
-      <p style="font-size: 0.92rem; max-width: 620px; margin: 0 auto 1.75rem; line-height: 1.6;">
-        ${isTimetableMode ? `
-          Hệ thống tự động ghép toàn bộ bài dạy các môn trong tuần (Toán, Tiếng Việt, Khoa học/TNXH, LS&ĐL, Đạo đức, HĐTN, Công nghệ...) theo đúng thứ tự <strong>Thứ Hai &rarr; Thứ Sáu, Tiết 1 &rarr; 4/5</strong>. 
-          Xuất riêng <strong>1 file Word (.doc) cho mỗi tuần</strong> có kèm Bìa Thời Khóa Biểu chuẩn chỉ.
-        ` : `
-          Chọn môn học và tuần cần xuất ➔ <strong>Xuất nhanh KHBD gốc chuẩn CV 2345</strong> chỉ với 1 click, hoặc tải lên văn bản hướng dẫn mới để AI lập <strong>Kế hoạch tích hợp chi tiết từng tiết</strong> trước khi xuất.
-        `}
-      </p>
-
-      <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; max-width: 720px; margin: 0 auto; text-align: left;">
-        <div style="background: #eff6ff; border: 1px solid #bfdbfe; border-radius: var(--radius-sm); padding: 1rem; cursor: pointer; transition: all 0.2s;" onclick="triggerPreviewOriginalKhbd()" title="Bấm để xem trước giáo án ngay">
-          <div style="font-weight: 800; color: #1e40af; font-size: 0.85rem; margin-bottom: 0.35rem; display: flex; justify-content: space-between; align-items: center;">
-            <span><i class="fa-solid fa-eye"></i> 1. Xem Trước & Xuất Gốc</span>
-            <span style="font-size: 0.72rem; color: #2563eb; font-weight: 700;">Xem ngay &rarr;</span>
-          </div>
-          <p style="font-size: 0.78rem; color: #64748b; margin: 0; line-height: 1.45;">Bấm để xem trước toàn bộ lời văn giáo án trên màn hình, hoặc xuất nhanh file Word chuẩn CV 2345.</p>
-        </div>
-        <div style="background: #fdf4ff; border: 1px solid #f0abfc; border-radius: var(--radius-sm); padding: 1rem; cursor: pointer;" onclick="document.getElementById('integFileInput') ? document.getElementById('integFileInput').click() : null" title="Bấm để nạp tệp tài liệu tích hợp">
-          <div style="font-weight: 800; color: #9333ea; font-size: 0.85rem; margin-bottom: 0.35rem; display: flex; justify-content: space-between; align-items: center;">
-            <span><i class="fa-solid fa-robot"></i> 2. AI Nghiên Cứu & Góp Ý</span>
-            <span style="font-size: 0.72rem; color: #9333ea; font-weight: 700;">Nạp tệp &rarr;</span>
-          </div>
-          <p style="font-size: 0.78rem; color: #64748b; margin: 0; line-height: 1.45;">Tải tài liệu chỉ đạo mới (Word/PDF/TXT), AI lập kế hoạch chi tiết từng tiết cho giáo viên duyệt và chỉnh sửa.</p>
-        </div>
-        <div style="background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 1rem; cursor: pointer;" onclick="${isTimetableMode ? 'triggerPreviewOriginalKhbd()' : 'setIntegrationExportMode(\'timetable\')'}" title="${isTimetableMode ? 'Bấm để xem trước giáo án TKB' : 'Chuyển sang chế độ Thời khóa biểu'}">
-          <div style="font-weight: 800; color: #16a34a; font-size: 0.85rem; margin-bottom: 0.35rem; display: flex; justify-content: space-between; align-items: center;">
-            <span><i class="fa-solid fa-calendar-check"></i> 3. Chuẩn Hóa Theo TKB</span>
-            <span style="font-size: 0.72rem; color: #16a34a; font-weight: 700;">${isTimetableMode ? 'Xem ngay &rarr;' : 'Chuyển chế độ &rarr;'}</span>
-          </div>
-          <p style="font-size: 0.78rem; color: #64748b; margin: 0; line-height: 1.45;">Tự động sắp xếp tuần tự các môn theo TKB của lớp, xuất từng file Word riêng cho từng tuần hoàn chỉnh.</p>
-        </div>
-      </div>
+      <h2 style="color: #1e40af; font-weight: 900; font-size: 2rem; letter-spacing: 1.5px; margin: 0 0 1.25rem 0; text-transform: uppercase;">
+        XEM TRƯỚC
+      </h2>
+      <button type="button" class="btn btn-primary" style="padding: 0.75rem 2.25rem; font-size: 0.95rem; font-weight: 800; background: linear-gradient(135deg, #1e40af, #3b82f6); border: none; border-radius: 8px; box-shadow: 0 4px 14px rgba(30, 64, 175, 0.35); display: inline-flex; align-items: center; gap: 0.55rem; cursor: pointer; transition: all 0.2s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+        <i class="fa-solid fa-eye"></i> Bấm để Xem Trước Giáo Án
+      </button>
     </div>
   `;
 }
@@ -3885,6 +4316,351 @@ function renderIntegrationIdleStateHtml() {
 function setIntegrationExportMode(mode) {
   integrationState.exportMode = mode;
   integrationState.activeStep = 1;
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+}
+
+var QUICK_CHAT_PROMPTS = {
+  disability_50: 'Lớp tôi có 1 học sinh khuyết tật, tỉ lệ nhận thức khoảng 50%, dựa vào yêu cầu cần đạt của bài học bạn hãy soạn lại yêu cầu cần đạt cho em đó và ghi xuống cuối yêu cầu cần đạt nội dung "- Đối với học sinh khuyết tật: ..."',
+  disability_30: 'Lớp tôi có 1 học sinh khuyết tật học hòa nhập, tỉ lệ nhận thức khoảng 30%, dựa vào yêu cầu cần đạt của bài học bạn hãy tinh giản yêu cầu vừa sức cho em đó và ghi xuống cuối yêu cầu cần đạt nội dung "- Đối với học sinh khuyết tật: ..."',
+  ai: 'Tích hợp Khung nội dung Giáo dục Trí tuệ nhân tạo (AI) và Kỹ năng số tiểu học theo định hướng Công văn của Bộ GD&ĐT.',
+  kns_water: 'Tích hợp Chuyên đề Giáo dục Kỹ năng sống, Kỹ năng tự phục vụ và Phòng chống tai nạn thương tích, đuối nước cho học sinh tiểu học.',
+  environment: 'Tích hợp Giáo dục Bảo vệ môi trường, tiết kiệm tài nguyên nước, năng lượng và thích ứng biến đổi khí hậu.',
+  local: 'Tích hợp Giáo dục Địa phương, bồi dưỡng tình yêu quê hương, nét đẹp truyền thống và các di sản văn hóa tại địa phương.'
+};
+
+function setIntegrationRoleAndMode(mode, role) {
+  integrationState.exportMode = mode;
+  if (role) {
+    integrationState.timetableRole = role;
+    try {
+      localStorage.setItem('tvth_timetable_role', role);
+    } catch (e) {}
+  }
+  integrationState.activeStep = 1;
+  integrationState.timetableAppliedWeeks = null;
+  integrationState.appliedLessons = null;
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+}
+
+function toggleDisabilitySupport(enabled) {
+  if (typeof enabled === 'undefined') {
+    integrationState.disabilitySupport.enabled = !integrationState.disabilitySupport.enabled;
+  } else {
+    integrationState.disabilitySupport.enabled = !!enabled;
+  }
+  try {
+    localStorage.setItem('tvth_disability_enabled', integrationState.disabilitySupport.enabled ? 'true' : 'false');
+  } catch (e) {}
+
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  if (integrationState.disabilitySupport.enabled) {
+    showToast('Đã BẬT hỗ trợ YCCĐ học sinh khuyết tật (' + (integrationState.disabilitySupport.cognitiveRate || 50) + '%)', 'success');
+  } else {
+    showToast('Đã TẮT hỗ trợ học sinh khuyết tật', 'info');
+  }
+}
+
+function setDisabilityCognitiveRate(rate) {
+  rate = parseInt(rate, 10);
+  if (isNaN(rate) || rate < 10) rate = 10;
+  if (rate > 90) rate = 90;
+  integrationState.disabilitySupport.cognitiveRate = rate;
+  try {
+    localStorage.setItem('tvth_disability_rate', rate);
+  } catch (e) {}
+
+  var slider = document.getElementById('disabilityRateRange');
+  if (slider) slider.value = rate;
+  var badge = document.getElementById('disabilityRateBadge');
+  if (badge) badge.textContent = rate + '%';
+  updateDisabilitySampleUi();
+
+  var btns = document.querySelectorAll('.disability-preset-btn');
+  btns.forEach(function(b) {
+    var bRate = parseInt(b.getAttribute('data-rate'), 10);
+    if (bRate === rate) {
+      b.classList.remove('btn-outline');
+      b.classList.add('btn-primary');
+      b.style.background = '#7030a0';
+      b.style.borderColor = '#7030a0';
+      b.style.color = '#fff';
+    } else {
+      b.classList.remove('btn-primary');
+      b.classList.add('btn-outline');
+      b.style.background = '#fff';
+      b.style.borderColor = '#cbd5e1';
+      b.style.color = '#475569';
+    }
+  });
+}
+
+function setDisabilityType(typeKey, typeName) {
+  integrationState.disabilitySupport.disabilityType = typeKey;
+  if (typeName) {
+    integrationState.disabilitySupport.disabilityTypeName = typeName;
+  }
+  try {
+    localStorage.setItem('tvth_disability_type', typeKey);
+    if (typeName) localStorage.setItem('tvth_disability_type_name', typeName);
+  } catch (e) {}
+
+  updateDisabilitySampleUi();
+}
+
+function setDisabilityNotes(notes) {
+  integrationState.disabilitySupport.notes = notes || '';
+  try {
+    localStorage.setItem('tvth_disability_notes', integrationState.disabilitySupport.notes);
+  } catch (e) {}
+
+  updateDisabilitySampleUi();
+}
+
+function updateDisabilitySampleUi() {
+  var sampleBox = document.getElementById('disabilitySampleBox');
+  if (sampleBox) {
+    var txt = getSampleDisabilityText();
+    if (sampleBox.tagName === 'TEXTAREA' || sampleBox.tagName === 'INPUT') {
+      sampleBox.value = txt;
+    } else {
+      sampleBox.textContent = txt;
+    }
+  }
+  var sampleNameBadge = document.getElementById('disabilitySampleLessonName');
+  if (sampleNameBadge) {
+    sampleNameBadge.textContent = getSampleLessonName();
+    sampleNameBadge.title = getSampleLessonName();
+  }
+}
+
+function setCustomDisabilityText(val) {
+  if (!integrationState.disabilitySupport) integrationState.disabilitySupport = {};
+  integrationState.disabilitySupport.customText = val;
+}
+
+function resetDisabilityToAuto() {
+  if (integrationState.disabilitySupport) {
+    integrationState.disabilitySupport.customText = '';
+  }
+  updateDisabilitySampleUi();
+  showToast('Đã khôi phục câu YCCĐ tự động theo bài dạy!', 'info');
+}
+
+async function generateAiSampleDisabilityYccd() {
+  var ds = (typeof integrationState !== 'undefined' && integrationState.disabilitySupport) || {};
+  var btn = document.getElementById('btnAiSampleDisability');
+  var sampleBox = document.getElementById('disabilitySampleBox');
+
+  var apiKey = (typeof IntegrationService !== 'undefined' && IntegrationService.getGeminiApiKey) ? IntegrationService.getGeminiApiKey() : '';
+  if (!apiKey) {
+    showToast('Vui lòng nhập Gemini API Key để kết nối AI phân tích bài dạy!', 'warning');
+    if (typeof openGeminiApiKeyModal === 'function') {
+      openGeminiApiKeyModal();
+    }
+    return;
+  }
+
+  var originalBtnHtml = btn ? btn.innerHTML : '';
+  if (btn) {
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang gửi YCCĐ...';
+  }
+
+  try {
+    var realLesson = getSampleRealLesson();
+    var aiLine = '';
+
+    if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.adaptSingleLessonDisability === 'function') {
+      aiLine = await IntegrationService.adaptSingleLessonDisability(realLesson, ds);
+    } else {
+      var aiServiceObj = (typeof AIService !== 'undefined' ? AIService : (typeof window !== 'undefined' ? window.AIService : null));
+      if (aiServiceObj && typeof aiServiceObj.adaptSingleLessonDisability === 'function') {
+        aiLine = await aiServiceObj.adaptSingleLessonDisability(realLesson, ds, apiKey);
+      } else if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.generateDisabilityYccd === 'function') {
+        aiLine = IntegrationService.generateDisabilityYccd(realLesson, ds);
+      }
+    }
+
+    if (aiLine) {
+      setCustomDisabilityText(aiLine);
+      if (sampleBox) {
+        sampleBox.value = aiLine;
+      }
+      showToast('✨ Gemini AI đã phân tích YCCĐ bài và soạn mục tiêu riêng thành công!', 'success');
+    } else {
+      showToast('AI chưa trả về kết quả phù hợp, vui lòng thử lại.', 'warning');
+    }
+  } catch (err) {
+    console.error('Lỗi gọi Gemini AI soạn mẫu YCCĐ khuyết tật:', err);
+    // Tự động khôi phục câu bám sát bằng bộ quy tắc ngoại tuyến
+    if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.generateDisabilityYccd === 'function') {
+      var fallbackLine = IntegrationService.generateDisabilityYccd(getSampleRealLesson(), ds);
+      if (fallbackLine) {
+        setCustomDisabilityText(fallbackLine);
+        if (sampleBox) sampleBox.value = fallbackLine;
+      }
+    }
+    showToast('Lỗi kết nối Gemini AI (' + (err.message || 'Lỗi mạng') + '), đã áp dụng câu phân hóa dự phòng!', 'warning');
+  } finally {
+    if (btn) {
+      btn.disabled = false;
+      btn.innerHTML = originalBtnHtml;
+    }
+  }
+}
+
+function toggleApprovalSupport(enabled) {
+  if (typeof enabled === 'undefined') {
+    integrationState.approvalConfig.enabled = !integrationState.approvalConfig.enabled;
+  } else {
+    integrationState.approvalConfig.enabled = !!enabled;
+  }
+  try {
+    localStorage.setItem('tvth_approval_enabled', integrationState.approvalConfig.enabled ? 'true' : 'false');
+  } catch (e) {}
+
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  if (integrationState.approvalConfig.enabled) {
+    showToast('Đã BẬT kèm khung ký duyệt giáo án', 'success');
+  } else {
+    showToast('Đã TẮT kèm khung ký duyệt', 'info');
+  }
+}
+
+function setApprovalField(field, value) {
+  if (!integrationState.approvalConfig) {
+    integrationState.approvalConfig = {
+      enabled: true,
+      leaderRole: 'Tổ trưởng',
+      leaderName: '',
+      adminRole: 'Hiệu trưởng',
+      adminName: ''
+    };
+  }
+  integrationState.approvalConfig[field] = value || '';
+  try {
+    if (field === 'leaderRole') localStorage.setItem('tvth_approval_leader_role', value);
+    else if (field === 'leaderName') localStorage.setItem('tvth_approval_leader_name', value);
+    else if (field === 'adminRole') localStorage.setItem('tvth_approval_admin_role', value);
+    else if (field === 'adminName') localStorage.setItem('tvth_approval_admin_name', value);
+  } catch (e) {}
+
+  var badge = document.getElementById('approvalPreviewBadge');
+  if (badge) {
+    var ap = integrationState.approvalConfig;
+    var tLeader = (ap.leaderRole || 'Tổ trưởng') + ': ' + (ap.leaderName || '...');
+    var tAdmin = (ap.adminRole || 'Hiệu trưởng') + ': ' + (ap.adminName || '...');
+    badge.textContent = tLeader + ' • ' + tAdmin;
+  }
+}
+
+function getSampleRealLesson() {
+  var ds = (typeof integrationState !== 'undefined' && integrationState.disabilitySupport) || {};
+  var curGrade = (typeof integrationState !== 'undefined' && integrationState.grade) || (document.getElementById('gradeSelect') ? parseInt(document.getElementById('gradeSelect').value, 10) : 5) || 5;
+  var curSubj = (typeof integrationState !== 'undefined' && integrationState.subjectKey) || 'toan';
+  var curWeek = (typeof integrationState !== 'undefined' && integrationState.startWeek) || 1;
+
+  var realLesson = null;
+  if (typeof window.KHBD_DATA !== 'undefined' && typeof window.KHBD_DATA.getWeekRangePlan === 'function') {
+    try {
+      var wp = window.KHBD_DATA.getWeekRangePlan(curGrade, curSubj, curWeek, curWeek);
+      if (wp && wp[0] && wp[0].lessons && wp[0].lessons[0]) {
+        realLesson = JSON.parse(JSON.stringify(wp[0].lessons[0]));
+        realLesson.subjectKey = curSubj;
+      }
+    } catch(e) {}
+  }
+
+  if (!realLesson) {
+    realLesson = {
+      title: 'BÀI 1: ÔN TẬP SỐ TỰ NHIÊN',
+      subjectKey: curSubj,
+      lessonTitle: 'BÀI 1: ÔN TẬP SỐ TỰ NHIÊN (TIẾT 1)',
+      yccd: [
+        '1. Năng lực đặc thù',
+        '- Đọc, viết được số tự nhiên; viết được số tự nhiên thành tổng các số hạng theo hàng.',
+        '- Vận dụng được việc đọc, viết số tự nhiên để giải quyết một số tình huống thực tế.'
+      ]
+    };
+  }
+  realLesson.subjectKey = curSubj;
+  return realLesson;
+}
+
+function getSampleLessonName() {
+  var les = getSampleRealLesson();
+  var subName = '';
+  if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.getSubjectDisplayName === 'function') {
+    subName = IntegrationService.getSubjectDisplayName(les.subjectKey || 'toan');
+  }
+  var title = les.lessonTitle || les.title || 'Bài học mẫu';
+  return (subName ? (subName + ' - ') : '') + title;
+}
+
+function getSampleDisabilityText() {
+  var ds = (typeof integrationState !== 'undefined' && integrationState.disabilitySupport) || {};
+  if (ds.customText) {
+    return ds.customText;
+  }
+  var rate = ds.cognitiveRate || 50;
+  var realLesson = getSampleRealLesson();
+
+  if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.generateDisabilityYccd === 'function') {
+    return IntegrationService.generateDisabilityYccd(realLesson, ds);
+  }
+
+  return '- Đối với học sinh khuyết tật: Nhận biết các nội dung cơ bản vừa sức (' + rate + '% so với chuẩn chung); tích cực tham gia hoạt động học tập cùng bạn' + (ds.notes ? ' (' + ds.notes + ')' : '') + '.';
+}
+
+function applyQuickChatPrompt(promptKey) {
+  if (promptKey === 'disability_50' || promptKey === 'disability_30') {
+    var rate = promptKey === 'disability_30' ? 30 : 50;
+    integrationState.disabilitySupport.enabled = true;
+    integrationState.disabilitySupport.cognitiveRate = rate;
+    try {
+      localStorage.setItem('tvth_disability_enabled', 'true');
+      localStorage.setItem('tvth_disability_rate', rate);
+    } catch(e) {}
+    var container = document.getElementById('content-container');
+    if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+      renderAiIntegrationView(container);
+    }
+    showToast('Đã kích hoạt hỗ trợ Học sinh khuyết tật (' + rate + '%) ở Mục 4!', 'success');
+    return;
+  }
+  var promptText = QUICK_CHAT_PROMPTS[promptKey] || promptKey;
+  integrationState.inputMethod = 'paste';
+  integrationState.uploadedDocText = promptText;
+  integrationState.uploadedDocName = 'Lệnh sư phạm AI';
+  var wordCount = promptText.trim() ? promptText.trim().split(/\s+/).length : 0;
+  integrationState.uploadedWordCount = wordCount;
+
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  showToast('Đã nạp câu lệnh chat cho AI! Bấm "Gửi Lệnh Cho AI" hoặc "AI Lập Kế Hoạch" để bắt đầu.', 'success');
+}
+
+function clearIntegrationPasteText() {
+  integrationState.uploadedDocText = '';
+  integrationState.uploadedWordCount = 0;
+  var textarea = document.getElementById('integPasteTextArea');
+  if (textarea) textarea.value = '';
+  var badge = document.getElementById('pasteWordCountBadge');
+  if (badge) badge.textContent = '0 từ';
   var container = document.getElementById('content-container');
   if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
     renderAiIntegrationView(container);
@@ -4445,6 +5221,67 @@ function resetTimetableToDefault() {
     }
   }
   showToast('Đã khôi phục Thời khóa biểu chuẩn Bộ GD&ĐT!', 'info');
+}
+
+async function downloadTimetableTemplate(grade) {
+  var curGrade = parseInt(grade) || integrationState.grade || 5;
+  showToast('Đang tạo tệp mẫu Thời khóa biểu Khối ' + curGrade + '...', 'info');
+
+  try {
+    // 1. Tự động nạp XLSX nếu chưa có
+    if (typeof XLSX === 'undefined') {
+      await new Promise(function(resolve, reject) {
+        var script = document.createElement('script');
+        script.src = 'https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js';
+        script.onload = resolve;
+        script.onerror = function() { reject(new Error('Không thể tải thư viện xuất Excel.')); };
+        document.head.appendChild(script);
+      });
+    }
+
+    // 2. Tự động nạp JSZip để tạo nút xổ xuống (Data Validation Dropdown)
+    if (typeof JSZip === 'undefined') {
+      try {
+        await new Promise(function(resolve) {
+          var script = document.createElement('script');
+          script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js';
+          script.onload = resolve;
+          script.onerror = function() { resolve(); };
+          document.head.appendChild(script);
+        });
+      } catch (e) {
+        console.warn('JSZip load error:', e);
+      }
+    }
+
+    var meta = {
+      grade: curGrade,
+      schoolName: integrationState.schoolName || '',
+      schoolYear: integrationState.schoolYear || '2026 - 2027',
+      className: integrationState.className || ('Lớp ' + curGrade + 'A'),
+      teacherName: integrationState.teacherName || '',
+      timetable: integrationState.customTimetable || null
+    };
+
+    var blob = await IntegrationService.exportTimetableTemplate(curGrade, meta);
+    var fileName = 'Mau_Thoi_Khoa_Bieu_Khoi_' + curGrade + '.xlsx';
+
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = fileName;
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function() {
+      if (a.parentNode) a.parentNode.removeChild(a);
+      URL.revokeObjectURL(url);
+    }, 300);
+
+    showToast('Đã tải xuống thành công mẫu TKB Khối ' + curGrade + ' (có nút xổ xuống chọn môn)!', 'success');
+  } catch (err) {
+    console.error('Download timetable template error:', err);
+    showToast(err.message || 'Lỗi khi tạo tệp mẫu Thời khóa biểu', 'danger');
+  }
 }
 
 async function handleTimetableFileUpload(input) {
@@ -5228,7 +6065,8 @@ async function triggerPreviewOriginalKhbd() {
             schoolName: cfg.schoolName || integrationState.schoolName,
             teacherName: cfg.teacherName || integrationState.teacherName,
             schoolYear: cfg.schoolYear || integrationState.schoolYear,
-            department: cfg.department || 'Tổ Chuyên biệt / Bộ môn'
+            department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
+            disabilitySupport: integrationState.disabilitySupport
           };
           weeklyPlan = await IntegrationService.buildWeeklyPlanByAssignments(
             integrationState.gvbmAssignments,
@@ -5243,7 +6081,8 @@ async function triggerPreviewOriginalKhbd() {
             w, 
             integrationState.customTimetable, 
             null, 
-            false
+            false,
+            { disabilitySupport: integrationState.disabilitySupport }
           );
         }
         weeksList.push(weeklyPlan);
@@ -5265,6 +6104,7 @@ async function triggerPreviewOriginalKhbd() {
       }
 
       var flatLessons = [];
+      var disSupport = integrationState.disabilitySupport;
       weeksPlan.forEach(function(wItem) {
         (wItem.lessons || []).forEach(function(l, lIdx) {
           var copy = JSON.parse(JSON.stringify(l));
@@ -5285,6 +6125,10 @@ async function triggerPreviewOriginalKhbd() {
         });
       });
 
+      if (disSupport && disSupport.enabled) {
+        await IntegrationService.adaptLessonsDisabilityWithGemini(flatLessons, disSupport);
+      }
+
       if (flatLessons.length === 0) {
         throw new Error('Chưa tìm thấy dữ liệu bài dạy chi tiết cho Khối ' + grade + ' - Môn ' + subj + ' (Tuần ' + sWeek + ' - ' + eWeek + ')');
       }
@@ -5299,7 +6143,8 @@ async function triggerPreviewOriginalKhbd() {
     if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
       renderAiIntegrationView(container);
     }
-    showToast('Đang xem trước Kế hoạch bài dạy gốc (' + count + ' tuần • Chuẩn CV 2345)', 'info');
+    var disNote = (integrationState.disabilitySupport && integrationState.disabilitySupport.enabled) ? (' • Kèm YCCĐ Khuyết Tật ' + (integrationState.disabilitySupport.cognitiveRate || 50) + '%') : '';
+    showToast('Đang xem trước Kế hoạch bài dạy (' + count + ' tuần • Chuẩn CV 2345' + disNote + ')', 'info');
 
   } catch (err) {
     console.error('Preview original error:', err);
@@ -5308,9 +6153,10 @@ async function triggerPreviewOriginalKhbd() {
     if (btn) {
       btn.disabled = false;
       var countWeeks = (integrationState.endWeek || integrationState.startWeek) - integrationState.startWeek + 1;
+      var disBadge = (integrationState.disabilitySupport && integrationState.disabilitySupport.enabled) ? (' • ♿ ' + (integrationState.disabilitySupport.cognitiveRate || 50) + '%') : '';
       btn.innerHTML = isTimetableMode ?
-        (isGvbm ? ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB BỘ MÔN (' + countWeeks + ' TUẦN)') : ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB (' + countWeeks + ' TUẦN)')) :
-        ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC KHBD GỐC (' + countWeeks + ' TUẦN)');
+        (isGvbm ? ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB BỘ MÔN (' + countWeeks + ' TUẦN' + disBadge + ')') : ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB LỚP (' + countWeeks + ' TUẦN' + disBadge + ')')) :
+        ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC KHBD GỐC (' + countWeeks + ' TUẦN' + disBadge + ')');
     }
   }
 }
@@ -5341,15 +6187,18 @@ async function triggerDirectFastExport() {
         var weeklyPlan, resW;
         if (isGvbm) {
           var cfg = integrationState.gvbmConfig || {};
+          var gvbmTeacher = cfg.teacherName || integrationState.teacherName || '';
           var gvbmMeta = {
             role: 'gvbm',
             isAssignmentMode: true,
             week: w,
             schoolName: cfg.schoolName || integrationState.schoolName,
-            teacherName: cfg.teacherName || integrationState.teacherName,
+            teacherName: gvbmTeacher,
             schoolYear: cfg.schoolYear || integrationState.schoolYear,
             department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
-            filename: 'KHBD_Tuan_' + w + '_GV_BoMon.doc'
+            disabilitySupport: integrationState.disabilitySupport,
+            approvalConfig: integrationState.approvalConfig,
+            filename: IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + w + '_GV_BoMon.doc', gvbmTeacher)
           };
           weeklyPlan = await IntegrationService.buildWeeklyPlanByAssignments(
             integrationState.gvbmAssignments,
@@ -5365,17 +6214,21 @@ async function triggerDirectFastExport() {
             w, 
             integrationState.customTimetable, 
             null, 
-            false
+            false,
+            { disabilitySupport: integrationState.disabilitySupport }
           );
 
+          var gvcnTeacher = integrationState.teacherName || '';
           resW = await IntegrationService.exportWeekByTimetableWord(weeklyPlan, {
             grade: grade,
             week: w,
             schoolName: integrationState.schoolName,
-            teacherName: integrationState.teacherName,
+            teacherName: gvcnTeacher,
             schoolYear: integrationState.schoolYear,
             className: integrationState.className,
-            filename: 'KHBD_Tuan_' + w + '_Lop_' + grade + '_Theo_TKB.doc'
+            disabilitySupport: integrationState.disabilitySupport,
+            approvalConfig: integrationState.approvalConfig,
+            filename: IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + w + '_Lop_' + grade + '_Theo_TKB.doc', gvcnTeacher)
           });
         }
 
@@ -5405,6 +6258,18 @@ async function triggerDirectFastExport() {
         throw new Error('Chưa tìm thấy dữ liệu giáo án số hóa cho Khối ' + grade + ' - Môn ' + subj);
       }
 
+      var disSupport = integrationState.disabilitySupport;
+      if (disSupport && disSupport.enabled) {
+        weeksPlan = JSON.parse(JSON.stringify(weeksPlan));
+        var allPlanLessons = [];
+        weeksPlan.forEach(function(wItem) {
+          (wItem.lessons || []).forEach(function(l) {
+            allPlanLessons.push(l);
+          });
+        });
+        await IntegrationService.adaptLessonsDisabilityWithGemini(allPlanLessons, disSupport);
+      }
+
       var saveResult = await IntegrationService.exportToWord(weeksPlan, {
         grade: grade,
         subjectName: IntegrationService.getSubjectDisplayName(subj),
@@ -5414,7 +6279,9 @@ async function triggerDirectFastExport() {
         teacherName: integrationState.teacherName,
         schoolYear: integrationState.schoolYear,
         className: integrationState.className,
-        filename: 'KHBD_Lop' + grade + '_' + subj.toUpperCase() + '_Tuan' + sWeek + '-' + eWeek + '_CV2345.doc'
+        disabilitySupport: disSupport,
+        approvalConfig: integrationState.approvalConfig,
+        filename: IntegrationService.appendTeacherNameToFilename('KHBD_Lop' + grade + '_' + subj.toUpperCase() + '_Tuan' + sWeek + '-' + eWeek + '_CV2345.doc', integrationState.teacherName)
       });
 
       if (saveResult && saveResult.aborted) {
@@ -5433,9 +6300,10 @@ async function triggerDirectFastExport() {
     if (btn) {
       btn.disabled = false;
       var countWeeks = (integrationState.endWeek || integrationState.startWeek) - integrationState.startWeek + 1;
+      var disBadge = (integrationState.disabilitySupport && integrationState.disabilitySupport.enabled) ? (' • ♿ ' + (integrationState.disabilitySupport.cognitiveRate || 50) + '%') : '';
       btn.innerHTML = isTimetableMode ? 
-        ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH THEO TKB (' + countWeeks + ' Tuần • 1 File/Tuần)') :
-        ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH KHBD GỐC (' + countWeeks + ' Tuần • Chuẩn CV 2345)');
+        (isGvbm ? ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH THEO TKB BỘ MÔN (' + countWeeks + ' Tuần' + disBadge + ')') : ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH THEO TKB LỚP (' + countWeeks + ' Tuần' + disBadge + ')')) :
+        ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH KHBD GỐC (' + countWeeks + ' Tuần' + disBadge + ')');
     }
   }
 }
@@ -5681,15 +6549,27 @@ async function triggerExportPlanSummaryWord() {
   if (!sheet) return;
   var plan = integrationState.analyzedPlan || {};
   var docTitleClean = (plan.docTitle || 'Tich_Hop').replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
-  var filename = 'Ke_Hoach_Tich_Hop_' + (plan.grade || 5) + '_' + (plan.subjectKey || 'TKB') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.doc';
+  var basePlanFile = 'Ke_Hoach_Tich_Hop_' + (plan.grade || 5) + '_' + (plan.subjectKey || 'TKB') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.doc';
+  var filename = (typeof IntegrationService !== 'undefined' && IntegrationService.appendTeacherNameToFilename)
+    ? IntegrationService.appendTeacherNameToFilename(basePlanFile, integrationState.teacherName)
+    : basePlanFile;
   
   var html = `<!DOCTYPE html>
 <html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
 <head>
   <meta charset="utf-8">
   <title>Kế hoạch tích hợp</title>
+  <!--[if gte mso 9]>
+  <xml>
+    <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>100</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+    </w:WordDocument>
+  </xml>
+  <![endif]-->
   <style>
-    @page { size: A4 portrait; margin: 2.0cm 1.25cm 2.0cm 2.54cm; }
+    @page { size: 21.0cm 29.7cm; margin: 2.0cm 1.5cm 2.0cm 2.5cm; mso-page-orientation: portrait; }
     body { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.35; color: #000; }
     table { width: 100%; border-collapse: collapse; margin: 6pt 0; }
     th, td { border: 1pt solid #000; padding: 6pt; vertical-align: top; }
@@ -6345,7 +7225,8 @@ async function triggerApplyAndPreviewIntegration() {
             schoolName: cfg.schoolName || integrationState.schoolName,
             teacherName: cfg.teacherName || integrationState.teacherName,
             schoolYear: cfg.schoolYear || integrationState.schoolYear,
-            department: cfg.department || 'Tổ Chuyên biệt / Bộ môn'
+            department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
+            disabilitySupport: integrationState.disabilitySupport
           };
           wPlan = await IntegrationService.buildWeeklyPlanByAssignments(
             integrationState.gvbmAssignments,
@@ -6360,7 +7241,8 @@ async function triggerApplyAndPreviewIntegration() {
             w, 
             integrationState.customTimetable, 
             integratedMap, 
-            integrationState.overwriteLegacy !== false
+            integrationState.overwriteLegacy !== false,
+            { disabilitySupport: integrationState.disabilitySupport }
           );
         }
         weeklyResults.push(wPlan);
@@ -6472,7 +7354,7 @@ function renderIntegrationFinalPreviewHtml() {
 
     <!-- SHEET XEM TRƯỚC GIÁO ÁN CHUẨN IN -->
     <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 750px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #0f172a;">
-      ${renderIntegratedLessonSheetContent(currentLesson)}
+      ${renderIntegratedLessonSheetContent(currentLesson, activeIdx === lessons.length - 1)}
     </div>
   `;
 }
@@ -6510,7 +7392,7 @@ function renderIntegrationGvbmFinalPreviewHtml() {
           GIÁO VIÊN BỘ MÔN (ĐA KHỐI • ĐA MÔN) • XEM TRƯỚC THEO PHÂN CÔNG GIẢNG DẠY
         </div>
         <h3 style="font-size: 1.15rem; font-weight: 800; color: var(--text-color); margin: 0.2rem 0;">
-          Kế hoạch bài dạy Tuần ${curWeekData.week} (${lessons.length} Kế hoạch bài dạy • Không trùng lặp)
+          Kế hoạch bài dạy Tuần ${curWeekData.week} (${(curWeekData.assignments && curWeekData.assignments.length) || (cfg.assignments && cfg.assignments.length) || 1} môn phân công • ${lessons.length} KHBD theo tiết)
         </h3>
         <div style="font-size: 0.8rem; color: var(--text-muted);">
           Giáo viên: <strong style="color: #0284c7;">${cfg.teacherName || '.................................................'}</strong>
@@ -6537,10 +7419,10 @@ function renderIntegrationGvbmFinalPreviewHtml() {
     <div style="background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 6px; padding: 0.55rem 0.85rem; margin-bottom: 0.85rem; font-size: 0.78rem; color: #0369a1; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.5rem;">
       <div>
         <i class="fa-solid fa-circle-check" style="color: #0284c7;"></i>
-        <strong>Nguyên tắc xuất chuẩn:</strong> 1 Môn dạy nhiều lớp cùng khối xuất đúng <strong>1 Kế hoạch bài dạy</strong> kèm danh sách tất cả các lớp phụ trách. File Word kèm Bảng phân công chuyên môn chính thức chuẩn CV 2345.
+        <strong>Nguyên tắc xuất chuẩn:</strong> 1 Môn dạy nhiều lớp cùng khối xuất đúng <strong>1 Kế hoạch bài dạy theo từng tiết học</strong> kèm danh sách tất cả các lớp phụ trách. File Word kèm Bảng phân công chuyên môn chính thức chuẩn CV 2345.
       </div>
       <span style="font-weight: 800; color: #0284c7; background: #fff; border: 1px solid #bae6fd; padding: 2px 8px; border-radius: 12px; font-size: 0.75rem;">
-        Tổng cộng: ${lessons.length} Kế hoạch bài dạy
+        ${(curWeekData.assignments && curWeekData.assignments.length) || (cfg.assignments && cfg.assignments.length) || 1} môn phân công • ${lessons.length} KHBD theo tiết
       </span>
     </div>
 
@@ -6559,7 +7441,7 @@ function renderIntegrationGvbmFinalPreviewHtml() {
       </div>
     ` : ''}
 
-    <!-- THANH ĐIỀU HƯỚNG TỪNG BÀI DẠY CỦA GIÁO VIÊN BỘ MÔN (CÓ BADGE KHỐI & LỚP) -->
+    <!-- THANH ĐIỀU HƯỚNG TỪNG BÀI DẠY CỦA GIÁO VIÊN BỘ MÔN (CÓ BADGE KHỐI, TIẾT & LỚP) -->
     <div style="display: flex; gap: 0.35rem; overflow-x: auto; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 1px dashed var(--border-color);">
       ${lessons.map(function(les, idx) {
         var isAct = idx === lIdx;
@@ -6567,16 +7449,20 @@ function renderIntegrationGvbmFinalPreviewHtml() {
         var gColor = gradeColors[les.grade] || '#64748b';
         var sName = les.subjectName || IntegrationService.getSubjectDisplayName(les.subjectKey || 'am_nhac');
         var clsLabel = les.classes ? ('Lớp ' + les.classes) : (les.className || ('Khối ' + les.grade));
+        var rawT = les.lessonTitle || les.title || '';
+        var cleanT = (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle) ? IntegrationService.cleanLessonTitle(rawT) : rawT;
+        var periodBadge = les.period ? (String(les.period).indexOf('Tiết') !== -1 ? les.period.split('(')[0].trim() : ('Tiết ' + les.period)) : '';
 
         return `
           <button class="btn btn-sm ${isAct ? 'btn-primary' : 'btn-outline'}" 
-                  style="font-size: 0.74rem; white-space: nowrap; display: inline-flex; align-items: center; gap: 5px; padding: 4px 8px; ${isAct ? actBtnBg : ''}" 
+                  style="font-size: 0.74rem; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px; padding: 4px 9px; ${isAct ? actBtnBg : ''}" 
                   onclick="switchTimetablePreviewLesson(${idx})"
-                  title="${sName} - Khối ${les.grade} (${clsLabel})">
+                  title="${sName} - Khối ${les.grade} (${clsLabel}) ${periodBadge ? ' • ' + periodBadge : ''}${cleanT ? ' - ' + cleanT : ''}">
             <span style="background: ${isAct ? 'rgba(255,255,255,0.25)' : gColor}; color: white; padding: 1px 5px; border-radius: 3px; font-size: 0.65rem; font-weight: 800;">
               K${les.grade}
             </span>
             <span><strong>${sName}</strong></span>
+            ${periodBadge ? `<span style="background: ${isAct ? 'rgba(255,255,255,0.25)' : '#e0f2fe'}; color: ${isAct ? '#ffffff' : '#0369a1'}; padding: 1px 6px; border-radius: 10px; font-size: 0.68rem; font-weight: 800; border: 1px solid ${isAct ? 'rgba(255,255,255,0.4)' : '#bae6fd'};">${periodBadge}</span>` : ''}
             <span style="opacity: 0.85; font-size: 0.7rem;">(${clsLabel})</span>
           </button>
         `;
@@ -6585,7 +7471,7 @@ function renderIntegrationGvbmFinalPreviewHtml() {
 
     <!-- SHEET XEM TRƯỚC GIÁO ÁN CHUẨN IN CỦA GIÁO VIÊN BỘ MÔN -->
     <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 750px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #0f172a;">
-      ${renderIntegratedLessonSheetContent(currentLesson)}
+      ${renderIntegratedLessonSheetContent(currentLesson, lIdx === lessons.length - 1)}
     </div>
   `;
 }
@@ -6678,7 +7564,7 @@ function renderIntegrationTimetableFinalPreviewHtml() {
 
     <!-- SHEET XEM TRƯỚC GIÁO ÁN CHUẨN IN -->
     <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 750px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #0f172a;">
-      ${renderIntegratedLessonSheetContent(currentLesson)}
+      ${renderIntegratedLessonSheetContent(currentLesson, lIdx === lessons.length - 1)}
     </div>
   `;
 }
@@ -6716,26 +7602,32 @@ async function triggerExportAllTimetableWeeksWord() {
     var filename, resW;
 
     if (isGvbm) {
-      filename = 'KHBD_Tuan_' + wData.week + '_GV_BoMon_TichHop.doc';
+      var gvbmTeacher = cfg.teacherName || integrationState.teacherName || '';
+      filename = IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + wData.week + '_GV_BoMon_TichHop.doc', gvbmTeacher);
       resW = await IntegrationService.exportWeekByTimetableWord(wData, {
         role: 'gvbm',
         isAssignmentMode: true,
         week: wData.week,
         schoolName: cfg.schoolName || integrationState.schoolName,
-        teacherName: cfg.teacherName || integrationState.teacherName,
+        teacherName: gvbmTeacher,
         schoolYear: cfg.schoolYear || integrationState.schoolYear,
         department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
+        disabilitySupport: integrationState.disabilitySupport,
+        approvalConfig: integrationState.approvalConfig,
         filename: filename
       });
     } else {
-      filename = 'KHBD_Tuan_' + wData.week + '_Lop_' + (wData.grade || 5) + '_TKB_TichHop.doc';
+      var gvcnTeacher = integrationState.teacherName || '';
+      filename = IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + wData.week + '_Lop_' + (wData.grade || 5) + '_TKB_TichHop.doc', gvcnTeacher);
       resW = await IntegrationService.exportWeekByTimetableWord(wData, {
         grade: wData.grade,
         week: wData.week,
         schoolName: integrationState.schoolName,
-        teacherName: integrationState.teacherName,
+        teacherName: gvcnTeacher,
         schoolYear: integrationState.schoolYear,
         className: integrationState.className,
+        disabilitySupport: integrationState.disabilitySupport,
+        approvalConfig: integrationState.approvalConfig,
         filename: filename
       });
     }
@@ -6754,7 +7646,7 @@ async function triggerExportAllTimetableWeeksWord() {
   }
 }
 
-function renderIntegratedLessonSheetContent(les) {
+function renderIntegratedLessonSheetContent(les, isLastLesson) {
   if (!les) {
     return '<div style="text-align: center; padding: 2rem;">Chưa có dữ liệu bài dạy.</div>';
   }
@@ -6764,6 +7656,10 @@ function renderIntegratedLessonSheetContent(les) {
   }
   if (!les || (!les.title && !les.lessonTitle)) {
     return '<div style="text-align: center; padding: 2rem;">Chưa có dữ liệu bài dạy.</div>';
+  }
+  if (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle) {
+    if (les.title) les.title = IntegrationService.cleanLessonTitle(les.title);
+    if (les.lessonTitle) les.lessonTitle = IntegrationService.cleanLessonTitle(les.lessonTitle);
   }
   if (!les.title && les.lessonTitle) {
     les.title = les.lessonTitle;
@@ -6775,16 +7671,41 @@ function renderIntegratedLessonSheetContent(les) {
   var isDouble = (les.periodSlot && les.periodSlot.toString().includes('-')) || (les.period && (les.period.toLowerCase().includes('2 tiết') || les.period.toLowerCase().includes('tiết đôi')));
   var durationDefault = isDouble ? '70 phút' : '35 phút';
 
+  var currentWeekNum = (les.week) || (integrationState.startWeek) || (integrationState.activeTimetableWeekIndex ? (integrationState.activeTimetableWeekIndex + 1) : 1);
+  var lessonDateInfo = (window.AcademicCalendar && les.dayName) ? AcademicCalendar.getDayDate(currentWeekNum, les.dayName) : null;
+  var dateStr = lessonDateInfo ? lessonDateInfo.formatted : '';
+  var durationWithDate = dateStr ? (durationDefault + ' (ngày ' + dateStr + ')') : durationDefault;
+
   var yccdHtml = (les.yccd || []).map(function(line) {
     if (typeof line !== 'string') return '';
     var cleanLine = line;
-    if (/^thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]*(?:\(.*\))?$/i.test(line)) {
-      cleanLine = 'Thời gian thực hiện: ' + durationDefault;
-    } else if (/^thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]+/i.test(line)) {
-      cleanLine = line.replace(/:\s*[.\s_]+/, ': ' + durationDefault + ' ');
+    if (/^[\s\-–—*•]*thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]*(?:\(.*\))?$/i.test(line)) {
+      cleanLine = 'Thời gian thực hiện: ' + durationWithDate;
+    } else if (/^[\s\-–—*•]*thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]+/i.test(line)) {
+      cleanLine = line.replace(/:\s*[.\s_]+/, ': ' + durationWithDate + ' ');
+    } else if (/^[\s\-–—*•]*ngày\s*thực\s*hiện\s*:\s*[.\s_]+$/i.test(line)) {
+      cleanLine = 'Ngày thực hiện: ' + (dateStr || '....................................');
+    } else if (/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i.test(line)) {
+      cleanLine = line.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + (dateStr || '....................................'));
     }
 
+    var isKhuyetTat = /học sinh khuyết tật/i.test(cleanLine);
     var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+    if (isKhuyetTat) {
+      var displayLine = cleanLine
+        .replace(/<!--.*?-->/g, '')
+        .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
+        .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
+        .replace(/^\[Tích hợp\]\s*/i, '')
+        .replace(/\(Tích hợp\)/gi, '')
+        .replace(/[ \t]{2,}/g, ' ')
+        .trim();
+      if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
+        displayLine = '- ' + displayLine;
+      }
+      return `<p style="margin: 0; margin-top: 3px; margin-bottom: 2px; color: #7030a0; font-weight: 700; line-height: 1.35;">${displayLine}</p>`;
+    }
     if (isTichHop) {
       var displayLine = cleanLine
         .replace(/<!--.*?-->/g, '')
@@ -6977,19 +7898,77 @@ function renderIntegratedLessonSheetContent(les) {
   var teacherDisp = (isGvbm ? gvbmCfg.teacherName : integrationState.teacherName) || '';
   var yearDisp = (isGvbm ? gvbmCfg.schoolYear : integrationState.schoolYear) || '2026 - 2027';
 
-  var daySessionInfo = les.dayName ? (`<p style="font-size: 11pt; font-weight: bold; color: #1e40af; margin-bottom: 4pt;">${les.dayName} • Buổi ${les.session || 'Sáng'} • ${les.periodSlot ? ('Tiết ' + les.periodSlot) : ''}${les.className ? (' • Lớp ' + les.className) : ''}</p>`) : '';
+  var approvalPreviewHtml = '';
+  var ap = (typeof integrationState !== 'undefined' && integrationState.approvalConfig) || null;
+  if (isLastLesson && ap && ap.enabled) {
+    var leaderRoleTitle = (ap.leaderRole === 'P.Tổ trưởng' || (ap.leaderRole && ap.leaderRole.indexOf('Phó') !== -1)) 
+      ? 'PHÓ TỔ TRƯỞNG CHUYÊN MÔN' 
+      : 'TỔ TRƯỞNG CHUYÊN MÔN';
+    var leaderSignName = (ap.leaderName && ap.leaderName.trim()) ? ap.leaderName.trim() : '……………………………….';
+
+    var adminRoleTitle = (ap.adminRole === 'P.Hiệu trưởng' || (ap.adminRole && ap.adminRole.indexOf('Phó') !== -1))
+      ? 'PHÓ HIỆU TRƯỞNG'
+      : 'HIỆU TRƯỞNG';
+    var adminSignName = (ap.adminName && ap.adminName.trim()) ? ap.adminName.trim() : '……………………………..';
+
+    approvalPreviewHtml = `
+      <div class="approval-preview-box" style="margin-top: 30pt; padding-top: 18pt; border-top: 2px dashed #0d9488;">
+        <div style="font-size: 10pt; font-weight: 800; color: #0f766e; text-align: center; margin-bottom: 12pt; text-transform: uppercase; letter-spacing: 0.5px;">
+          <i class="fa-solid fa-stamp"></i> KHUNG DUYỆT GIÁO ÁN (ĐÓNG KHUNG THEO MẪU • XUẤT THÀNH 1 TRANG RIÊNG TRONG FILE WORD)
+        </div>
+        <table style="width: 100%; border-collapse: collapse; border: 2px solid #000000; font-family: 'Times New Roman', serif;">
+          <tr>
+            <td style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
+              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0;">GIÁO VIÊN SOẠN</p>
+              <div style="height: 75px;"></div>
+              <p style="font-size: 13pt; font-weight: bold; margin: 0;">${teacherDisp || '………………………'}</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
+              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0;">${leaderRoleTitle}</p>
+              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0;">DUYỆT</p>
+              <div style="height: 80px;"></div>
+              <p style="font-size: 13pt; font-weight: bold; margin: 0;">${leaderSignName}</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
+              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0;">BAN GIÁM HIỆU</p>
+              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0;">DUYỆT</p>
+              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0;">${adminRoleTitle}</p>
+              <div style="height: 85px;"></div>
+              <p style="font-size: 13pt; font-weight: bold; margin: 0;">${adminSignName}</p>
+            </td>
+          </tr>
+        </table>
+      </div>
+    `;
+  }
 
   var previewWeek = (les.week) || (integrationState.startWeek && integrationState.endWeek && String(integrationState.startWeek) !== String(integrationState.endWeek) ? (integrationState.startWeek + ' - ' + integrationState.endWeek) : integrationState.startWeek) || 1;
+  var previewWeekNum = parseInt(previewWeek, 10) || 1;
+  var previewDateInfo = (window.AcademicCalendar && les.dayName) ? AcademicCalendar.getDayDate(previewWeekNum, les.dayName) : null;
+  var previewDateStr = previewDateInfo ? previewDateInfo.formatted : '';
+  var dayHeaderTitle = les.dayName ? (les.dayName + (previewDateStr ? (', ngày ' + previewDateStr) : '')) : '';
+
+  var daySessionInfo = dayHeaderTitle ? (`<p style="font-size: 11pt; font-weight: bold; color: #1e40af; margin-bottom: 4pt;">${dayHeaderTitle} • Buổi ${les.session || 'Sáng'} • ${les.periodSlot ? ('Tiết ' + les.periodSlot) : ''}${les.className ? (' • Lớp ' + les.className) : ''}</p>`) : '';
 
   var subjName = les.subjectName || (integrationState.subjectKey ? IntegrationService.getSubjectDisplayName(integrationState.subjectKey) : '') || (les.subjectKey ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || 'Lịch sử và Địa lí';
 
   var rawTitle = les.lessonTitle || les.title || 'BÀI DẠY';
-  var cleanLessonTitle = rawTitle
-    .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
-    .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
-    .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
-    .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
-    .trim();
+  var cleanLessonTitle = (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle)
+    ? IntegrationService.cleanLessonTitle(rawTitle)
+    : rawTitle
+        .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
+        .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
+        .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
+        .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
+        .trim();
+
+  if (previewDateStr && /ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i.test(cleanLessonTitle)) {
+    cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + previewDateStr);
+  }
 
   return `
     <div style="text-align: center; margin-bottom: 15pt;">
@@ -7034,6 +8013,7 @@ function renderIntegratedLessonSheetContent(les) {
       <p>.................................................................................................................................................</p>
       <p>.................................................................................................................................................</p>
     </div>
+    ${approvalPreviewHtml}
   `;
 }
 
@@ -7052,14 +8032,19 @@ async function triggerExportIntegrationWord() {
   }
 
   var plan = integrationState.analyzedPlan || {};
-  var docTitleClean = (plan.docTitle || 'Tich_Hop').replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
-  var filename = 'KHBD_Lop' + (plan.grade || 5) + '_' + (plan.subjectKey || 'mon') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.doc';
+  var baseDocFile = 'KHBD_Lop' + (plan.grade || 5) + '_' + (plan.subjectKey || 'mon') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.doc';
+  var filename = (typeof IntegrationService !== 'undefined' && IntegrationService.appendTeacherNameToFilename)
+    ? IntegrationService.appendTeacherNameToFilename(baseDocFile, integrationState.teacherName)
+    : baseDocFile;
 
   var saveResult = await IntegrationService.exportToWord(integrationState.appliedLessons, {
     grade: plan.grade,
     subjectName: plan.subjectName,
     startWeek: plan.startWeek,
     endWeek: plan.endWeek,
+    teacherName: integrationState.teacherName,
+    schoolName: integrationState.schoolName,
+    approvalConfig: integrationState.approvalConfig,
     filename: filename
   });
 
@@ -7084,7 +8069,7 @@ function printIntegratedLessonSheet() {
     return;
   }
   win.document.open();
-  win.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>In Kế hoạch bài dạy</title><style>@page{size:A4 portrait;margin:2.0cm 1.25cm 2.0cm 2.54cm;}body{font-family:"Times New Roman",serif;font-size:13pt;line-height:1.25;color:#000;padding:20px;background:#fff;}table{width:100%;border-collapse:collapse;margin:4pt 0;}th,td{border:1pt solid #000;padding:4pt 6pt;vertical-align:top;}p{margin:0;margin-top:0;margin-bottom:0;}h1,h2,h3,h4{margin:4pt 0;}</style></head><body>' + sheet.innerHTML + '</body></html>');
+  win.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>In Kế hoạch bài dạy</title><style>@page{size:A4 portrait;margin:2.0cm 1.5cm 2.0cm 2.5cm;}body{font-family:"Times New Roman",serif;font-size:13pt;line-height:1.25;color:#000;padding:20px;background:#fff;}table{width:100%;border-collapse:collapse;margin:4pt 0;}th,td{border:1pt solid #000;padding:4pt 6pt;vertical-align:top;}p{margin:0;margin-top:0;margin-bottom:0;}h1,h2,h3,h4{margin:4pt 0;}</style></head><body>' + sheet.innerHTML + '</body></html>');
   win.document.close();
   setTimeout(function() {
     win.focus();
