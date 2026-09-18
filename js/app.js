@@ -4323,8 +4323,8 @@ function setIntegrationExportMode(mode) {
 }
 
 var QUICK_CHAT_PROMPTS = {
-  disability_50: 'Lớp tôi có 1 học sinh khuyết tật, tỉ lệ nhận thức khoảng 50%, dựa vào yêu cầu cần đạt của bài học bạn hãy soạn lại yêu cầu cần đạt cho em đó và ghi xuống cuối yêu cầu cần đạt nội dung "- Đối với học sinh khuyết tật: ..."',
-  disability_30: 'Lớp tôi có 1 học sinh khuyết tật học hòa nhập, tỉ lệ nhận thức khoảng 30%, dựa vào yêu cầu cần đạt của bài học bạn hãy tinh giản yêu cầu vừa sức cho em đó và ghi xuống cuối yêu cầu cần đạt nội dung "- Đối với học sinh khuyết tật: ..."',
+  disability_50: 'Lớp tôi có 1 học sinh khuyết tật học hòa nhập, tỉ lệ nhận thức khoảng 50%. Dựa vào YCCĐ của bài học, hãy biên soạn lại 01 câu YCCĐ phân hóa vừa sức cho em: diễn đạt tự nhiên, cụ thể theo bài học, đa dạng hóa biện pháp hỗ trợ (bạn cùng bàn, đồ dùng học tập, bảng con...), tuyệt đối không lặp từ "đơn giản", ghi xuống cuối YCCĐ theo mẫu: "- Đối với học sinh khuyết tật: ..."',
+  disability_30: 'Lớp tôi có 1 học sinh khuyết tật học hòa nhập, tỉ lệ nhận thức khoảng 30%. Dựa vào YCCĐ của bài học, hãy tinh giản yêu cầu vừa sức cho em: tập trung tri giác trực quan, thao tác cụ thể cùng bạn, tránh rập khuôn và lặp từ ngữ, ghi xuống cuối YCCĐ theo mẫu: "- Đối với học sinh khuyết tật: ..."',
   ai: 'Tích hợp Khung nội dung Giáo dục Trí tuệ nhân tạo (AI) và Kỹ năng số tiểu học theo định hướng Công văn của Bộ GD&ĐT.',
   kns_water: 'Tích hợp Chuyên đề Giáo dục Kỹ năng sống, Kỹ năng tự phục vụ và Phòng chống tai nạn thương tích, đuối nước cho học sinh tiểu học.',
   environment: 'Tích hợp Giáo dục Bảo vệ môi trường, tiết kiệm tài nguyên nước, năng lượng và thích ứng biến đổi khí hậu.',
@@ -4501,15 +4501,7 @@ async function generateAiSampleDisabilityYccd() {
     }
   } catch (err) {
     console.error('Lỗi gọi Gemini AI soạn mẫu YCCĐ khuyết tật:', err);
-    // Tự động khôi phục câu bám sát bằng bộ quy tắc ngoại tuyến
-    if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.generateDisabilityYccd === 'function') {
-      var fallbackLine = IntegrationService.generateDisabilityYccd(getSampleRealLesson(), ds);
-      if (fallbackLine) {
-        setCustomDisabilityText(fallbackLine);
-        if (sampleBox) sampleBox.value = fallbackLine;
-      }
-    }
-    showToast('Lỗi kết nối Gemini AI (' + (err.message || 'Lỗi mạng') + '), đã áp dụng câu phân hóa dự phòng!', 'warning');
+    showToast('Lỗi kết nối Gemini AI: ' + (err.message || 'Không thể kết nối máy chủ AI') + '. Vui lòng kiểm tra kết nối mạng hoặc API key.', 'danger');
   } finally {
     if (btn) {
       btn.disabled = false;
@@ -4614,14 +4606,11 @@ function getSampleDisabilityText() {
   if (ds.customText) {
     return ds.customText;
   }
-  var rate = ds.cognitiveRate || 50;
   var realLesson = getSampleRealLesson();
-
-  if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.generateDisabilityYccd === 'function') {
-    return IntegrationService.generateDisabilityYccd(realLesson, ds);
+  if (realLesson && realLesson.disabilityYccdAI) {
+    return realLesson.disabilityYccdAI;
   }
-
-  return '- Đối với học sinh khuyết tật: Nhận biết các nội dung cơ bản vừa sức (' + rate + '% so với chuẩn chung); tích cực tham gia hoạt động học tập cùng bạn' + (ds.notes ? ' (' + ds.notes + ')' : '') + '.';
+  return '(YCCĐ sẽ được Gemini AI tự động phân tích và biên soạn riêng cho từng bài khi Xem trước hoặc Xuất file. Bấm nút "Nhờ Gemini AI soạn lại" bên dưới để xem thử.)';
 }
 
 function applyQuickChatPrompt(promptKey) {
@@ -7690,6 +7679,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     }
 
     var isKhuyetTat = /học sinh khuyết tật/i.test(cleanLine);
+    var isDieuChinhHeader = /^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*hòa\s*nhập/i.test(cleanLine);
+    if (isDieuChinhHeader && !isKhuyetTat) {
+      return '';
+    }
     var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
     if (isKhuyetTat) {
       var displayLine = cleanLine
@@ -7699,12 +7692,13 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
         .replace(/^\[Tích hợp\]\s*/i, '')
         .replace(/\(Tích hợp\)/gi, '')
+        .replace(/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*hòa\s*nhập\s*[:.-]?\s*/gi, '')
         .replace(/[ \t]{2,}/g, ' ')
         .trim();
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 0; margin-top: 3px; margin-bottom: 2px; color: #7030a0; font-weight: 700; line-height: 1.35;">${displayLine}</p>`;
+      return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #7030a0; line-height: 1.35;">5. Điều chỉnh đối với học sinh hòa nhập:</p><p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #7030a0; font-weight: 700; line-height: 1.35;">${displayLine}</p>`;
     }
     if (isTichHop) {
       var displayLine = cleanLine

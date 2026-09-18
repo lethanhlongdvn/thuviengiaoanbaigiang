@@ -638,7 +638,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
    */
   callGeminiApi: async function(apiKey, prompt, options) {
     var opt = options || {};
-    var models = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-2.5-flash-lite", "gemini-2.5-pro", "gemini-3.5-flash"];
+    var models = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-flash-lite-latest", "gemini-3.5-flash", "gemini-3.1-flash-lite", "gemini-2.5-pro"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -653,14 +653,20 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
           genConfig.thinkingConfig = { thinkingBudget: 0 };
         }
 
-        var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`, {
+        var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
+        var timeoutId = controller ? setTimeout(function() { controller.abort(); }, 30000) : null;
+        var fetchOpts = {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
             contents: [{ parts: [{ text: prompt }] }],
             generationConfig: genConfig
           })
-        });
+        };
+        if (controller) fetchOpts.signal = controller.signal;
+
+        var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`, fetchOpts);
+        if (timeoutId) clearTimeout(timeoutId);
 
         if (response.ok) {
           var data = await response.json();
@@ -671,7 +677,8 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
           lastError = errJson.error?.message || response.statusText;
         }
       } catch (e) {
-        lastError = e.message;
+        if (timeoutId) clearTimeout(timeoutId);
+        lastError = (e.name === 'AbortError') ? 'Quá thời gian kết nối AI (30s)' : e.message;
       }
     }
 
@@ -722,15 +729,68 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
    */
   getDisabilityTypeName: function(typeKey) {
     var map = {
-      'tri_tue': 'Khuyết tật trí tuệ',
-      'khiem_thinh': 'Khiếm thính (Nghe kém)',
-      'khiem_thi': 'Khiếm thị (Nhìn kém)',
-      'van_dong': 'Khuyết tật vận động',
-      'tu_ky': 'Rối loạn phổ tự kỉ',
+      'tri_tue': 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)',
+      'van_dong': 'Khuyết tật vận động (Hạn chế viết, thao tác)',
+      'nghe_noi': 'Khuyết tật nghe - nói (Giao tiếp hạn chế)',
+      'khiem_thinh': 'Khuyết tật nghe - nói (Khiếm thính)',
+      'nhin': 'Khuyết tật nhìn (Thị lực kém, cần cỡ chữ lớn)',
+      'khiem_thi': 'Khuyết tật nhìn (Khiếm thị)',
+      'tu_ky': 'Rối loạn phổ tự kỉ (Tương tác hạn chế)',
       'hoc_tap': 'Khó khăn học tập đặc thù',
-      'khac': 'Khuyết tật khác'
+      'khac': 'Khuyết tật khác / Học sinh hòa nhập chung'
     };
     return map[typeKey] || 'Khuyết tật học tập';
+  },
+
+  /**
+   * Hướng dẫn sư phạm phân hóa riêng cho từng dạng tật theo Thông tư 03/2018/TT-BGDĐT và CV 2345
+   */
+  getDisabilityGuidance: function(disabilityType, rate, notes) {
+    var type = disabilityType || 'tri_tue';
+    var r = parseInt(rate, 10) || 50;
+    var guide = '';
+
+    if (type === 'van_dong') {
+      guide = `DẠNG TẬT: Khuyết tật vận động (Hạn chế viết, vẽ, thao tác chân tay)
+- NGUYÊN TẮC SƯ PHẠM ĐẶC BIỆT QUAN TRỌNG: Khả năng nhận thức, tư duy và trí tuệ của học sinh hoàn toàn bình thường. TUYỆT ĐỐI KHÔNG hạ thấp yêu cầu nhận thức bài học xuống mức cảm tính của trẻ nhỏ.
+- ĐIỀU CHỈNH PHƯƠNG THỨC THỰC HIỆN & THỜI GIAN:
+  + Cho phép học sinh trả lời miệng, chọn thẻ chữ/thẻ số hoặc chỉ vào bảng phụ thay vì phải viết đoạn văn dài hay vẽ hình phức tạp.
+  + Gia hạn thêm thời gian làm bài; đối với phần viết chỉ yêu cầu hoàn thành câu ngắn hoặc cụm từ khóa trọng tâm.
+  + Trong các hoạt động thực hành, thí nghiệm (Toán, Khoa học, Mỹ thuật, Thủ công): Học sinh tham gia cùng nhóm bạn; bạn cùng nhóm hỗ trợ các thao tác cầm nắm, vận động phức tạp; học sinh thực hiện phần việc quan sát, trả lời hoặc thao tác vừa sức.`;
+    } else if (type === 'nghe_noi' || type === 'khiem_thinh') {
+      guide = `DẠNG TẬT: Khuyết tật nghe - nói (Khiếm thính, khó phát âm, giao tiếp hạn chế)
+- NGUYÊN TẮC SƯ PHẠM: Tăng cường tối đa kênh thị giác trực quan (hình ảnh, sơ đồ, thẻ chữ in sẵn, cử chỉ/ngôn ngữ cơ thể).
+- ĐIỀU CHỈNH PHƯƠNG THỨC:
+  + Cho phép học sinh thể hiện sự hiểu biết bằng hành động: chỉ vào tranh, nối thẻ từ, viết hoặc vẽ câu trả lời ra bảng con/phiếu học tập, gật đầu hoặc chọn đáp án trực quan thay vì bắt buộc phát biểu hoặc đọc to trước lớp.
+  + Khuyến khích sự kiên nhẫn, tạo không khí giao tiếp cởi mở, thân thiện trong nhóm bạn.`;
+    } else if (type === 'nhin' || type === 'khiem_thi') {
+      guide = `DẠNG TẬT: Khuyết tật nhìn (Thị lực kém, khiếm thị)
+- NGUYÊN TẮC SƯ PHẠM: Tăng cường tối đa kênh thính giác (chú ý lắng nghe cô giáo hướng dẫn và bạn đọc mẫu) và xúc giác (sờ chạm vật thật, mô hình nổi).
+- ĐIỀU CHỈNH PHƯƠNG THỨC:
+  + Sử dụng phiếu học tập in chữ to, hình ảnh phóng to có độ tương phản cao; ngồi ở vị trí đủ ánh sáng và gần bảng.
+  + Cho phép học sinh tiếp thu và trả lời qua lời nói, mô tả bằng lời thay vì yêu cầu quan sát chi tiết nhỏ trên tranh.`;
+    } else if (type === 'tu_ky') {
+      guide = `DẠNG TẬT: Rối loạn phổ tự kỉ (Hạn chế tương tác xã hội, nhạy cảm môi trường)
+- NGUYÊN TẮC SƯ PHẠM: Tạo không gian học tập ổn định, chia nhỏ nhiệm vụ thành từng bước rõ ràng kèm hình ảnh trực quan.
+- ĐIỀU CHỈNH: Cho phép học sinh hoàn thành nhiệm vụ cá nhân vừa sức, khích lệ từng tiến bộ nhỏ, tránh tạo áp lực biểu đạt trước đám đông.`;
+    } else if (type === 'khac') {
+      guide = `DẠNG TẬT: Khuyết tật khác / Học sinh học hòa nhập chung
+- NGUYÊN TẮC SƯ PHẠM: Tạo điều kiện hòa nhập tích cực, phân công nhiệm vụ vừa sức theo sở trường của học sinh.
+- ĐIỀU CHỈNH: Giao bài tập ở mức độ nhận biết và thực hành cơ bản; luôn có bạn cùng bàn hỗ trợ, khích lệ và đồng hành.`;
+    } else {
+      // tri_tue
+      guide = `DẠNG TẬT: Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn) - Mức độ nhận thức ước tính khoảng ${r}% so với chuẩn chung của lớp
+- NGUYÊN TẮC SƯ PHẠM: Tinh giản khối lượng kiến thức; chuyển đổi mục tiêu từ mức độ phân tích, suy luận, vận dụng trừu tượng sang mức độ NHẬN BIẾT TRỰC QUAN và LÀM QUEN với sự hỗ trợ của đồ dùng trực quan, vật thật.
+- BÁM SÁT TRỌNG TÂM CỦA TỪNG BỘ MÔN:
+  + Môn Toán: Thao tác trên que tính, thẻ số, bảng gài để nhận biết số hoặc thực hiện phép tính nhận biết cơ bản (bài tập 1); ghi kết quả vào bảng con cùng bạn.
+  + Môn Tiếng Việt: Đọc trơn tên bài và 1-2 câu ngắn; chỉ đúng tranh nhân vật chính; nhìn mẫu chép lại từ ngữ hoặc câu ngắn trên phiếu học tập.
+  + Môn Khoa học / Lịch sử & Địa lý / TNXH: Quan sát tranh ảnh phóng to hoặc mẫu vật thật; chỉ đúng hình ảnh và nhắc lại từ ngữ trọng tâm của bài.`;
+    }
+
+    if (notes && notes.trim()) {
+      guide += `\n- LƯU Ý ĐẶC THÙ TỪ GIÁO VIÊN ĐỨNG LỚP: ${notes.trim()}`;
+    }
+    return guide;
   },
 
   /**
@@ -742,6 +802,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
     var rate = parseInt(disabilityConfig.cognitiveRate, 10) || 50;
     var typeName = disabilityConfig.disabilityTypeName || this.getDisabilityTypeName(disabilityConfig.disabilityType) || 'Khuyết tật học tập';
     var notes = (disabilityConfig.notes || '').trim();
+    var guidance = this.getDisabilityGuidance(disabilityConfig.disabilityType, rate, notes);
 
     var itemsToSend = chunkLessons.map(function(les, index) {
       var title = (les.lessonTitle || les.title || ('Bài học ' + (index + 1))).trim();
@@ -773,34 +834,28 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON (Không kèm markdown code
       };
     });
 
-    var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Giáo dục Đặc biệt / Giáo dục Hòa nhập học sinh khuyết tật (Chương trình GDPT 2018, chuẩn Công văn 2345/BGDĐT-GDTH).
+    var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Giáo dục Hòa nhập (Chương trình GDPT 2018, Thông tư 03/2018/TT-BGDĐT, chuẩn Công văn 2345/BGDĐT-GDTH).
 
 NHIỆM VỤ:
 Dưới đây là danh sách các bài dạy kèm YÊU CẦU CẦN ĐẠT (YCCĐ) GỐC của từng bài.
-Dựa vào YCCĐ GỐC của TỪNG BÀI DẠY, hãy biên soạn lại đúng 01 câu YCCĐ phân hóa vừa sức, chuẩn mực sư phạm dành riêng cho học sinh khuyết tật học hòa nhập trong lớp.
+Dựa vào YCCĐ GỐC của TỪNG BÀI DẠY, hãy biên soạn lại đúng 01 câu YCCĐ phân hóa vừa sức, cá nhân hóa, tự nhiên và chuẩn mực sư phạm dành riêng cho học sinh khuyết tật học hòa nhập trong lớp.
 
 THÔNG TIN HỌC SINH KHUYẾT TẬT:
 - Dạng tật: ${typeName}
-- Tỉ lệ nhận thức / đáp ứng: khoảng ${rate}% so với chuẩn chung của học sinh trong lớp
+- Mức độ nhận thức / đáp ứng: khoảng ${rate}% so với chuẩn chung của lớp
 ${notes ? ('- Ghi chú đặc thù từ giáo viên: ' + notes) : ''}
+
+HƯỚNG DẪN ĐIỀU CHỈNH SƯ PHẠM DÀNH RIÊNG CHO DẠNG TẬT NÀY:
+${guidance}
 
 DANH SÁCH BÀI DẠY VÀ YCCĐ GỐC:
 ${JSON.stringify(itemsToSend, null, 2)}
 
-QUY TẮC SƯ PHẠM BẮT BUỘC (CHUẨN CÔNG VĂN 2345):
-1. BÁM SÁT TUYỆT ĐỐI NỘI DUNG VÀ YCCĐ GỐC CỦA BÀI HỌC ĐÓ:
-   - Câu YCCĐ viết lại PHẢI gắn chặt với đối tượng tri thức, bài tập, câu chuyện, tác phẩm, khái niệm, phép tính hoặc nội dung cụ thể của bài học đó (ví dụ: bài học về phân số thì ghi rõ phân số, bài học về câu chuyện/bài thơ nào thì ghi rõ tên bài đọc đó, bài học về ô nhiễm đất/nước thì nêu rõ thành phần đất/nước...).
-   - TUYỆT ĐỐI KHÔNG viết chung chung, rập khuôn, sáo rỗng như "tiếp thu kiến thức vừa sức", "thực hiện phép tính đơn giản", "hoàn thành bài tập cơ bản", "đọc bài theo hướng dẫn".
-2. HẠ BẬC THANG NHẬN THỨC BLOOM THEO TỈ LỆ NHẬN THỨC (${rate}%):
-   - Mức ~30%: Chuyển từ vận dụng/thông hiểu xuống mức bước đầu làm quen, nhận biết qua trực quan vật thật/tranh ảnh, lắng nghe và nhắc lại được 1-2 từ ngữ, số lượng, hình ảnh hoặc hành vi đơn giản nhất của bài.
-   - Mức ~50%: Nhận biết, đọc/viết hoặc thực hiện được bài tập/thao tác cơ bản nhất của bài thông qua đồ dùng trực quan, que tính, thẻ học tập hoặc gợi ý của giáo viên.
-   - Mức ~70%: Hoàn thành các bài tập mức độ nhận biết và thông hiểu của bài học, bước đầu thực hiện vận dụng đơn giản khi có bạn hoặc giáo viên hỗ trợ.
-3. PHÙ HỢP VỚI DẠNG TẬT (${typeName}):
-   - Đưa phương pháp hỗ trợ và đồ dùng trực quan phù hợp (dùng que tính/trực quan cho khuyết tật trí tuệ; khẩu hình rõ, tranh ảnh cho khiếm thính; lời nói tỉ mỉ, mô hình xúc giác cho khiếm thị; hỗ trợ thao tác cho khuyết tật vận động; tạo môi trường học tập an toàn, khích lệ kiên nhẫn cho tự kỉ...).
-4. ĐỊNH DẠNG ĐẦU RA CHO MỖI BÀI:
-   Phải bắt đầu chính xác bằng:
-   "- Đối với học sinh khuyết tật: [Nội dung YCCĐ cụ thể đã hạ mức độ bám sát bài học]."
-   LƯU Ý ĐẶC BIỆT: Câu văn kết thúc tự nhiên, cô đọng; TUYỆT ĐỐI KHÔNG thêm cụm từ mở ngoặc rập khuôn như "(dưới sự gợi ý, hướng dẫn trực quan của giáo viên và sự hỗ trợ của bạn cùng nhóm)" vào cuối câu.
+QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM (CÔNG VĂN 2345):
+1. VĂN PHONG SƯ PHẠM: Ấm áp, chuẩn mực, mang tính khích lệ, tôn trọng sự tiến bộ của học sinh. Tuyệt đối KHÔNG dùng các từ tiêu cực hoặc hạ thấp năng lực học sinh.
+2. DÙNG CÁC ĐỘNG TỪ SƯ PHẠM TÍCH CỰC & VỪA SỨC: "Bước đầu nhận biết...", "Quan sát tranh và chỉ đúng...", "Thao tác trên đồ dùng học tập để...", "Tham gia cùng bạn thực hiện...", "Trả lời miệng hoặc chọn thẻ chữ/thẻ số để...", "Hoàn thành phần việc vừa sức...".
+3. CÂU VĂN HOÀN CHỈNH & TỰ NHIÊN: Câu văn phải hoàn chỉnh ngữ pháp, diễn đạt tự nhiên, mạch lạc, kết thúc bằng dấu chấm. TUYỆT ĐỐI KHÔNG để các cụm từ hỗ trợ trong dấu ngoặc đơn.
+4. BẮT ĐẦU CHÍNH XÁC BẰNG: "- Đối với học sinh khuyết tật: [Nội dung YCCĐ cụ thể, bám sát bài học]."
 
 HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm mã markdown \`\`\`json):
 [
@@ -810,21 +865,31 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
   }
 ]`;
 
-    var rawResponse = await this.callGeminiApi(apiKey, prompt, { temperature: 0.3, maxTokens: 4000 });
+    var rawResponse = await this.callGeminiApi(apiKey, prompt, { temperature: 0.4, maxTokens: 4000 });
     var parsed = this.parseJsonSafely(rawResponse);
-    if (Array.isArray(parsed)) {
-      parsed.forEach(function(item) {
-        var idx = item.id;
-        if (typeof idx === 'number' && chunkLessons[idx] && item.disabilityYccd) {
-          var cleaned = item.disabilityYccd.trim()
-            .replace(/\s*\((?:dưới sự gợi ý|dưới sự hướng dẫn|dưới sự trợ giúp|có sự hỗ trợ của bạn cùng nhóm|sự hỗ trợ của bạn).*?\)/gi, '')
-            .replace(/[;\s]+$/, '')
-            .trim();
-          if (!cleaned.endsWith('.')) cleaned += '.';
-          chunkLessons[idx].disabilityYccdAI = cleaned;
-        }
-      });
+    if (!Array.isArray(parsed) || parsed.length === 0) {
+      throw new Error('AI không trả về kết quả mảng JSON hợp lệ cho danh sách bài dạy.');
     }
+
+    parsed.forEach(function(item) {
+      var idx = item.id;
+      if (typeof idx === 'number' && chunkLessons[idx] && item.disabilityYccd) {
+        var cleaned = item.disabilityYccd.trim()
+          .replace(/[;\s]+$/, '')
+          .trim();
+        if (!cleaned.endsWith('.')) cleaned += '.';
+        chunkLessons[idx].disabilityYccdAI = cleaned;
+      }
+    });
+
+    var missingCount = 0;
+    chunkLessons.forEach(function(les) {
+      if (!les.disabilityYccdAI) missingCount++;
+    });
+    if (missingCount === chunkLessons.length) {
+      throw new Error('AI không tạo được nội dung YCCĐ cho nhóm bài dạy này.');
+    }
+
     return chunkLessons;
   },
 
@@ -849,18 +914,15 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     }
 
     var self = this;
-    var CHUNK_SIZE = 20;
+    var CHUNK_SIZE = 10;
     var chunks = [];
     for (var i = 0; i < lessons.length; i += CHUNK_SIZE) {
       chunks.push(lessons.slice(i, i + CHUNK_SIZE));
     }
 
     for (var c = 0; c < chunks.length; c++) {
-      try {
-        await self._processDisabilityChunkWithGemini(chunks[c], disabilityConfig, key);
-      } catch (chunkErr) {
-        console.warn('Lỗi xử lý batch bài dạy khuyết tật nhóm ' + (c + 1) + ':', chunkErr);
-      }
+      // Khi có lỗi, ném lỗi ra ngoài để hệ thống báo lỗi kết nối rõ ràng thay vì nuốt lỗi
+      await self._processDisabilityChunkWithGemini(chunks[c], disabilityConfig, key);
     }
 
     return lessons;
