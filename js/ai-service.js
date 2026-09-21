@@ -1892,7 +1892,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       </html>
     `;
 
-    this.downloadWordBlob(docHtml, `De_Kiem_Tra_${examData.subjectName}_Lop_${examData.grade}_KNTT_2025_2026.doc`);
+    this.downloadWordBlob(docHtml, `De_Kiem_Tra_${examData.subjectName}_Lop_${examData.grade}_KNTT_2025_2026.docx`);
   },
 
   /**
@@ -2434,24 +2434,32 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       </html>
     `;
 
-    this.downloadWordBlob(docHtml, `De_Kiem_Tra_Tieng_Viet_Lop_${exam.grade}_KNTT_2025_2026.doc`);
+    var fn = `De_Kiem_Tra_Tieng_Viet_Lop_${exam.grade}_KNTT_2025_2026.docx`;
+    this.downloadWordBlob(docHtml, fn);
     return docHtml;
   },
 
   downloadWordBlob: async function(docHtml, filename) {
+    if (typeof IntegrationService !== 'undefined' && IntegrationService.downloadWordBlob) {
+      return await IntegrationService.downloadWordBlob(docHtml, filename);
+    }
     if (typeof document === "undefined" || typeof Blob === "undefined") {
       return { success: false };
     }
-    var blob = new Blob([docHtml], { type: "application/msword;charset=utf-8" });
+    var finalFilename = filename || 'De_Kiem_Tra.docx';
+    if (finalFilename.toLowerCase().endsWith('.doc')) {
+      finalFilename = finalFilename.slice(0, -4) + '.docx';
+    }
+    var blob = new Blob(['\ufeff' + docHtml], { type: "application/vnd.openxmlformats-officedocument.wordprocessingml.document;charset=utf-8" });
 
     // 1. Mở Hộp thoại Lưu File (Save As) của hệ điều hành
     if (typeof window !== "undefined" && typeof window.showSaveFilePicker === "function") {
       try {
         var pickerOpts = {
-          suggestedName: filename,
+          suggestedName: finalFilename,
           types: [{
-            description: "Tài liệu Microsoft Word (.doc)",
-            accept: { "application/msword": [".doc"] }
+            description: "Tài liệu Microsoft Word (.docx)",
+            accept: { "application/vnd.openxmlformats-officedocument.wordprocessingml.document": [".docx"] }
           }]
         };
         var handle = await window.showSaveFilePicker(pickerOpts);

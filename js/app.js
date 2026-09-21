@@ -1568,7 +1568,7 @@ function renderExamOutput(exam, container) {
         <div style="display: flex; gap: 0.45rem; align-items: center;">
           ${sourceBadgeHtml}
           <button class="btn btn-sm btn-primary" style="background: #16a34a; border-color: #16a34a;" onclick="AIService.exportToWord(currentExamData)">
-            <i class="fa-solid fa-file-word"></i> Xuất File Word (.doc)
+            <i class="fa-solid fa-file-word"></i> Xuất File Word (.docx)
           </button>
           <button class="btn btn-sm btn-outline" onclick="window.print()">
             <i class="fa-solid fa-print"></i> In Đề
@@ -2039,7 +2039,7 @@ function renderExamOutput(exam, container) {
       <div style="display: flex; gap: 0.45rem; align-items: center;">
         ${sourceBadgeHtml}
         <button class="btn btn-sm btn-primary" style="background: #16a34a; border-color: #16a34a;" onclick="AIService.exportToWord(currentExamData)">
-          <i class="fa-solid fa-file-word"></i> Xuất File Word (.doc)
+          <i class="fa-solid fa-file-word"></i> Xuất File Word (.docx)
         </button>
         <button class="btn btn-sm btn-outline" onclick="window.print()">
           <i class="fa-solid fa-print"></i> In Đề
@@ -6187,7 +6187,7 @@ async function triggerDirectFastExport() {
             department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
             disabilitySupport: integrationState.disabilitySupport,
             approvalConfig: integrationState.approvalConfig,
-            filename: IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + w + '_GV_BoMon.doc', gvbmTeacher)
+            filename: IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + w + '_GV_BoMon.docx', gvbmTeacher)
           };
           weeklyPlan = await IntegrationService.buildWeeklyPlanByAssignments(
             integrationState.gvbmAssignments,
@@ -6217,7 +6217,7 @@ async function triggerDirectFastExport() {
             className: integrationState.className,
             disabilitySupport: integrationState.disabilitySupport,
             approvalConfig: integrationState.approvalConfig,
-            filename: IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + w + '_Lop_' + grade + '_Theo_TKB.doc', gvcnTeacher)
+            filename: IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + w + '_Lop_' + grade + '_Theo_TKB.docx', gvcnTeacher)
           });
         }
 
@@ -6270,7 +6270,7 @@ async function triggerDirectFastExport() {
         className: integrationState.className,
         disabilitySupport: disSupport,
         approvalConfig: integrationState.approvalConfig,
-        filename: IntegrationService.appendTeacherNameToFilename('KHBD_Lop' + grade + '_' + subj.toUpperCase() + '_Tuan' + sWeek + '-' + eWeek + '_CV2345.doc', integrationState.teacherName)
+        filename: IntegrationService.appendTeacherNameToFilename('KHBD_Lop' + grade + '_' + subj.toUpperCase() + '_Tuan' + sWeek + '-' + eWeek + '_CV2345.docx', integrationState.teacherName)
       });
 
       if (saveResult && saveResult.aborted) {
@@ -6538,7 +6538,7 @@ async function triggerExportPlanSummaryWord() {
   if (!sheet) return;
   var plan = integrationState.analyzedPlan || {};
   var docTitleClean = (plan.docTitle || 'Tich_Hop').replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
-  var basePlanFile = 'Ke_Hoach_Tich_Hop_' + (plan.grade || 5) + '_' + (plan.subjectKey || 'TKB') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.doc';
+  var basePlanFile = 'Ke_Hoach_Tich_Hop_' + (plan.grade || 5) + '_' + (plan.subjectKey || 'TKB') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.docx';
   var filename = (typeof IntegrationService !== 'undefined' && IntegrationService.appendTeacherNameToFilename)
     ? IntegrationService.appendTeacherNameToFilename(basePlanFile, integrationState.teacherName)
     : basePlanFile;
@@ -6558,7 +6558,7 @@ async function triggerExportPlanSummaryWord() {
   </xml>
   <![endif]-->
   <style>
-    @page { size: 21.0cm 29.7cm; margin: 2.0cm 1.5cm 2.0cm 2.5cm; mso-page-orientation: portrait; }
+    @page { size: 21.0cm 29.7cm; margin: 1.5cm 1.5cm 1.5cm 2.0cm; mso-page-orientation: portrait; }
     body { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.35; color: #000; }
     table { width: 100%; border-collapse: collapse; margin: 6pt 0; }
     th, td { border: 1pt solid #000; padding: 6pt; vertical-align: top; }
@@ -6571,8 +6571,7 @@ async function triggerExportPlanSummaryWord() {
 </body>
 </html>`;
 
-  var blob = new Blob(['\ufeff' + html], { type: 'application/msword;charset=utf-8' });
-  await IntegrationService.saveWordBlob(blob, filename);
+  await IntegrationService.downloadWordBlob(html, filename);
 }
 
 // BƯỚC 2: RENDER BẢNG KẾ HOẠCH CHI TIẾT & TRANG WORD XEM TRƯỚC
@@ -6746,8 +6745,8 @@ function renderIntegrationPlanReviewHtml(plan) {
           <button class="btn btn-sm btn-outline" style="font-size: 0.76rem; background: ${isInlineEditing ? '#fdf2f8' : '#fff'}; color: ${isInlineEditing ? '#db2777' : '#475569'}; border-color: ${isInlineEditing ? '#fbcfe8' : '#cbd5e1'};" onclick="toggleStep2InlineEditCurrentLesson('${activeLessonId}')" title="Sửa lời văn AI của bài này">
             <i class="fa-solid fa-pen-to-square"></i> ${isInlineEditing ? 'Đóng ô sửa' : 'Sửa nhanh bài này'}
           </button>
-          <button class="btn btn-sm btn-primary" style="font-size: 0.76rem; background: #1e40af; border-color: #1e40af;" onclick="${isTimetableMode ? 'triggerExportAllTimetableWeeksWord()' : 'triggerExportIntegrationWord()'}" title="Tải file Word (.doc) về máy ngay">
-            <i class="fa-solid fa-file-word"></i> Tải file Word (.doc)
+          <button class="btn btn-sm btn-primary" style="font-size: 0.76rem; background: #1e40af; border-color: #1e40af;" onclick="${isTimetableMode ? 'triggerExportAllTimetableWeeksWord()' : 'triggerExportIntegrationWord()'}" title="Tải file Word (.docx) về máy ngay">
+            <i class="fa-solid fa-file-word"></i> Tải file Word (.docx)
           </button>
         </div>
       </div>
@@ -6831,7 +6830,7 @@ function renderIntegrationPlanReviewHtml(plan) {
             <i class="fa-solid fa-print"></i> In kế hoạch này
           </button>
           <button class="btn btn-sm btn-primary" style="font-size: 0.76rem; background: #1e40af; border-color: #1e40af;" onclick="triggerExportPlanSummaryWord()" title="Tải file Word bảng kế hoạch về máy">
-            <i class="fa-solid fa-file-word"></i> Tải file Word Kế hoạch (.doc)
+            <i class="fa-solid fa-file-word"></i> Tải file Word Kế hoạch (.docx)
           </button>
         </div>
       </div>
@@ -7312,7 +7311,7 @@ function renderIntegrationFinalPreviewHtml() {
             <i class="fa-solid fa-print"></i> In bài này
           </button>
           <button class="btn btn-primary" style="background: linear-gradient(135deg, #1e40af, #3b82f6); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(30, 64, 175, 0.35); padding: 0.65rem 1.25rem;" onclick="triggerDirectFastExport()">
-            <i class="fa-solid fa-file-word"></i> TẢI FILE WORD GỐC (.DOC)
+            <i class="fa-solid fa-file-word"></i> TẢI FILE WORD GỐC (.DOCX)
           </button>
         ` : `
           <button class="btn btn-outline" style="font-size: 0.82rem;" onclick="resetIntegrationToPlanStep()">
@@ -7322,7 +7321,7 @@ function renderIntegrationFinalPreviewHtml() {
             <i class="fa-solid fa-print"></i> In bài này
           </button>
           <button class="btn btn-primary" style="background: linear-gradient(135deg, #1e40af, #3b82f6); border: none; font-weight: 800; box-shadow: 0 4px 12px rgba(30, 64, 175, 0.35); padding: 0.65rem 1.25rem;" onclick="triggerExportIntegrationWord()">
-            <i class="fa-solid fa-file-word"></i> TẢI FILE WORD (.DOC)
+            <i class="fa-solid fa-file-word"></i> TẢI FILE WORD (.DOCX)
           </button>
         `}
       </div>
@@ -7592,7 +7591,7 @@ async function triggerExportAllTimetableWeeksWord() {
 
     if (isGvbm) {
       var gvbmTeacher = cfg.teacherName || integrationState.teacherName || '';
-      filename = IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + wData.week + '_GV_BoMon_TichHop.doc', gvbmTeacher);
+      filename = IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + wData.week + '_GV_BoMon_TichHop.docx', gvbmTeacher);
       resW = await IntegrationService.exportWeekByTimetableWord(wData, {
         role: 'gvbm',
         isAssignmentMode: true,
@@ -7607,7 +7606,7 @@ async function triggerExportAllTimetableWeeksWord() {
       });
     } else {
       var gvcnTeacher = integrationState.teacherName || '';
-      filename = IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + wData.week + '_Lop_' + (wData.grade || 5) + '_TKB_TichHop.doc', gvcnTeacher);
+      filename = IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + wData.week + '_Lop_' + (wData.grade || 5) + '_TKB_TichHop.docx', gvcnTeacher);
       resW = await IntegrationService.exportWeekByTimetableWord(wData, {
         grade: wData.grade,
         week: wData.week,
@@ -8026,7 +8025,8 @@ async function triggerExportIntegrationWord() {
   }
 
   var plan = integrationState.analyzedPlan || {};
-  var baseDocFile = 'KHBD_Lop' + (plan.grade || 5) + '_' + (plan.subjectKey || 'mon') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.doc';
+  var docTitleClean = (plan.docTitle || 'Tich_Hop').replace(/[^a-zA-Z0-9_\u00C0-\u1EF9]/g, '_');
+  var baseDocFile = 'KHBD_Lop' + (plan.grade || 5) + '_' + (plan.subjectKey || 'mon') + '_Tuan' + (plan.startWeek || 1) + '-' + (plan.endWeek || 1) + '_' + docTitleClean + '.docx';
   var filename = (typeof IntegrationService !== 'undefined' && IntegrationService.appendTeacherNameToFilename)
     ? IntegrationService.appendTeacherNameToFilename(baseDocFile, integrationState.teacherName)
     : baseDocFile;

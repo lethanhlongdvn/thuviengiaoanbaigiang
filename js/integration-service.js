@@ -3216,14 +3216,14 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
    * Gắn tên giáo viên vào cuối tên file (trước phần mở rộng .doc/.docx) nếu chưa có
    */
   appendTeacherNameToFilename: function(filename, teacherName) {
-    if (!filename) filename = 'KHBD.doc';
-    var ext = '.doc';
+    if (!filename) filename = 'KHBD.docx';
+    var ext = '.docx';
     var baseName = filename;
     if (baseName.toLowerCase().endsWith('.docx')) {
       ext = '.docx';
       baseName = baseName.slice(0, -5);
     } else if (baseName.toLowerCase().endsWith('.doc')) {
-      ext = '.doc';
+      ext = '.docx';
       baseName = baseName.slice(0, -4);
     }
 
@@ -3289,7 +3289,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       approvalConfig: meta.approvalConfig || (typeof integrationState !== 'undefined' && integrationState.approvalConfig)
     });
 
-    var filename = meta.filename || ('KHBD_Lop' + grade + '_' + subjectName + '_Tuan' + startWeek + '-' + endWeek + '.doc');
+    var filename = meta.filename || ('KHBD_Lop' + grade + '_' + subjectName + '_Tuan' + startWeek + '-' + endWeek + '.docx');
     filename = this.appendTeacherNameToFilename(filename, teacherName);
     return await this.downloadWordBlob(docHtml, filename);
   },
@@ -3447,9 +3447,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
     var isMulti = isGvbm && (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.isMultiSubject);
     var defaultFilename = isGvbm ? 
-      (isAssignmentMode ? ('KHBD_Tuan_' + weekNum + '_GV_BoMon.doc') :
-       (isMulti ? ('KHBD_Tuan_' + weekNum + '_GV_DaMon_Theo_TKB.doc') : ('KHBD_Tuan_' + weekNum + '_GVBM_Theo_TKB.doc'))) : 
-      ('KHBD_Tuan_' + weekNum + '_Lop_' + grade + '_Theo_TKB.doc');
+      (isAssignmentMode ? ('KHBD_Tuan_' + weekNum + '_GV_BoMon.docx') :
+       (isMulti ? ('KHBD_Tuan_' + weekNum + '_GV_DaMon_Theo_TKB.docx') : ('KHBD_Tuan_' + weekNum + '_GVBM_Theo_TKB.docx'))) : 
+      ('KHBD_Tuan_' + weekNum + '_Lop_' + grade + '_Theo_TKB.docx');
     var filename = meta.filename || defaultFilename;
     var effectiveTeacherName = this.getEffectiveTeacherName(meta, weeklyPlanResult);
     filename = this.appendTeacherNameToFilename(filename, effectiveTeacherName);
@@ -4143,25 +4143,98 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     return docHtml;
   },
 
+  /**
+   * Tạo tệp .docx chuẩn OpenXML (dùng JSZip & altChunk)
+   */
+  createDocxBlobFromHtml: async function(docHtml) {
+    var jszipObj = (typeof JSZip !== 'undefined') ? JSZip : ((typeof window !== 'undefined' && window.JSZip) ? window.JSZip : null);
+    if (jszipObj) {
+      try {
+        var zip = new jszipObj();
+
+        // 1. _rels/.rels
+        zip.file('_rels/.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
+          '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">\n' +
+          '  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>\n' +
+          '</Relationships>');
+
+        // 2. [Content_Types].xml
+        zip.file('[Content_Types].xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
+          '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">\n' +
+          '  <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>\n' +
+          '  <Default Extension="xml" ContentType="application/xml"/>\n' +
+          '  <Default Extension="html" ContentType="text/html"/>\n' +
+          '  <Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>\n' +
+          '</Types>');
+
+        // 3. word/_rels/document.xml.rels
+        zip.file('word/_rels/document.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
+          '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">\n' +
+          '  <Relationship Id="htmlChunk" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/aFChunk" Target="content.html"/>\n' +
+          '</Relationships>');
+
+        // 4. word/document.xml
+        // Trang A4 (11906 x 16838 dxa), Căn lề chuẩn: Trên 1.5cm (851 dxa), Phải 1.5cm (851 dxa), Dưới 1.5cm (851 dxa), Trái 2.0cm (1134 dxa)
+        zip.file('word/document.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
+          '<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">\n' +
+          '  <w:body>\n' +
+          '    <w:altChunk r:id="htmlChunk"/>\n' +
+          '    <w:sectPr>\n' +
+          '      <w:pgSz w:w="11906" w:h="16838"/>\n' +
+          '      <w:pgMar w:top="851" w:right="851" w:bottom="851" w:left="1134" w:header="708" w:footer="708" w:gutter="0"/>\n' +
+          '    </w:sectPr>\n' +
+          '  </w:body>\n' +
+          '</w:document>');
+
+        // 5. word/content.html
+        var fullHtml = docHtml.includes('<meta charset=') ? docHtml : ('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>' + docHtml + '</body></html>');
+        zip.file('word/content.html', '\ufeff' + fullHtml);
+
+        var docxBlob = await zip.generateAsync({
+          type: 'blob',
+          mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+          compression: 'DEFLATE',
+          compressionOptions: { level: 6 }
+        });
+
+        return { blob: docxBlob, isDocx: true };
+      } catch (err) {
+        console.warn('Lỗi tạo .docx qua JSZip, chuyển sang fallback blob:', err);
+      }
+    }
+    // Fallback: Mime application/vnd.openxmlformats-officedocument.wordprocessingml.document
+    var fallbackBlob = new Blob(['\ufeff' + docHtml], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document;charset=utf-8' });
+    return { blob: fallbackBlob, isDocx: false };
+  },
+
   downloadWordBlob: async function(docHtml, filename) {
     if (typeof Blob === 'undefined') return { success: false, error: 'Blob not supported' };
-    var blob = new Blob(['\ufeff' + docHtml], { type: 'application/msword;charset=utf-8' });
+
+    var finalFilename = filename || 'KHBD.docx';
+    if (finalFilename.toLowerCase().endsWith('.doc')) {
+      finalFilename = finalFilename.slice(0, -4) + '.docx';
+    } else if (!finalFilename.toLowerCase().endsWith('.docx')) {
+      finalFilename += '.docx';
+    }
+
+    var result = await this.createDocxBlobFromHtml(docHtml);
+    var blob = result.blob;
 
     // 1. Mở Hộp thoại Lưu File (Save As dialog) chuẩn Windows / Hệ điều hành thông qua File System Access API
     if (typeof window !== 'undefined' && typeof window.showSaveFilePicker === 'function') {
       try {
         var pickerOpts = {
-          suggestedName: filename,
+          suggestedName: finalFilename,
           types: [{
-            description: 'Tài liệu Microsoft Word (.doc)',
-            accept: { 'application/msword': ['.doc'] }
+            description: 'Tài liệu Microsoft Word (.docx)',
+            accept: { 'application/vnd.openxmlformats-officedocument.wordprocessingml.document': ['.docx'] }
           }]
         };
         var handle = await window.showSaveFilePicker(pickerOpts);
         var writable = await handle.createWritable();
         await writable.write(blob);
         await writable.close();
-        return { success: true, method: 'picker', filename: filename };
+        return { success: true, method: 'picker', filename: finalFilename };
       } catch (err) {
         // Nếu người dùng bấm "Hủy / Cancel" trên hộp thoại Lưu của Windows
         if (err && (err.name === 'AbortError' || err.code === 20)) {
@@ -4174,8 +4247,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
     // 2. Hỗ trợ trình duyệt cũ IE / Edge Legacy
     if (typeof window !== 'undefined' && window.navigator && window.navigator.msSaveOrOpenBlob) {
-      window.navigator.msSaveOrOpenBlob(blob, filename);
-      return { success: true, method: 'msSave', filename: filename };
+      window.navigator.msSaveOrOpenBlob(blob, finalFilename);
+      return { success: true, method: 'msSave', filename: finalFilename };
     }
 
     // 3. Chuẩn HTML5 download qua thẻ <a> (tải thẳng vào thư mục Downloads của máy tính)
@@ -4183,7 +4256,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var url = URL.createObjectURL(blob);
       var downloadLink = document.createElement('a');
       downloadLink.href = url;
-      downloadLink.download = filename;
+      downloadLink.download = finalFilename;
       downloadLink.style.display = 'none';
       document.body.appendChild(downloadLink);
       downloadLink.click();
@@ -4193,9 +4266,62 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         }
         URL.revokeObjectURL(url);
       }, 1500);
-      return { success: true, method: 'direct', filename: filename };
+      return { success: true, method: 'direct', filename: finalFilename };
     }
 
+    return { success: false, error: 'No download mechanism available' };
+  },
+
+  saveWordBlob: async function(docHtmlOrBlob, filename) {
+    if (typeof docHtmlOrBlob === 'string') {
+      return await this.downloadWordBlob(docHtmlOrBlob, filename);
+    }
+    var finalFilename = filename || 'KHBD.docx';
+    if (finalFilename.toLowerCase().endsWith('.doc')) {
+      finalFilename = finalFilename.slice(0, -4) + '.docx';
+    } else if (!finalFilename.toLowerCase().endsWith('.docx')) {
+      finalFilename += '.docx';
+    }
+    if (typeof window !== 'undefined' && typeof window.showSaveFilePicker === 'function') {
+      try {
+        var pickerOpts = {
+          suggestedName: finalFilename,
+          types: [{
+            description: 'Tài liệu Microsoft Word (.docx)',
+            accept: { 'application/vnd.openxmlformats-officedocument.wordprocessingml.document': ['.docx'] }
+          }]
+        };
+        var handle = await window.showSaveFilePicker(pickerOpts);
+        var writable = await handle.createWritable();
+        await writable.write(docHtmlOrBlob);
+        await writable.close();
+        return { success: true, method: 'picker', filename: finalFilename };
+      } catch (err) {
+        if (err && (err.name === 'AbortError' || err.code === 20)) {
+          return { success: false, aborted: true };
+        }
+      }
+    }
+    if (typeof window !== 'undefined' && window.navigator && window.navigator.msSaveOrOpenBlob) {
+      window.navigator.msSaveOrOpenBlob(docHtmlOrBlob, finalFilename);
+      return { success: true, method: 'msSave', filename: finalFilename };
+    }
+    if (typeof document !== 'undefined') {
+      var url = URL.createObjectURL(docHtmlOrBlob);
+      var downloadLink = document.createElement('a');
+      downloadLink.href = url;
+      downloadLink.download = finalFilename;
+      downloadLink.style.display = 'none';
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      setTimeout(function() {
+        if (downloadLink.parentNode) {
+          downloadLink.parentNode.removeChild(downloadLink);
+        }
+        URL.revokeObjectURL(url);
+      }, 1500);
+      return { success: true, method: 'direct', filename: finalFilename };
+    }
     return { success: false, error: 'No download mechanism available' };
   }
 };
