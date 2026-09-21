@@ -14,7 +14,7 @@
     "sourceFile": "TNXH TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 1",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -149,7 +149,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 1: CÁC THẾ HỆ TRONG GIA ĐÌNH - TIẾT 2",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -266,7 +266,7 @@
     "sourceFile": "TNXH TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 1",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -559,7 +559,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 2: NGHỀ NGHIỆP CỦA NGƯỜI LỚN TRONG GIA ĐÌNH - TIẾT 2",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -838,7 +838,7 @@
     "sourceFile": "TNXH TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 1",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -991,7 +991,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 3: PHÒNG TRÁNH NGỘ ĐỘC KHI Ở NHÀ - TIẾT 2",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1144,7 +1144,7 @@
     "sourceFile": "TNXH TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 1",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1297,7 +1297,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 4: GIỮ SẠCH NHÀ Ở - TIẾT 2",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1442,7 +1442,7 @@
     "sourceFile": "TNXH TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 1",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1567,7 +1567,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 2",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1717,7 +1717,7 @@
     "sourceFile": "TNXH TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 3 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 5: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH - TIẾT 3",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1854,7 +1854,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 1",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2007,7 +2007,7 @@
     "sourceFile": "TNXH TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 6: CHÀO ĐÓN NGÀY KHAI GIẢNG - TIẾT 2",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2146,7 +2146,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 1",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2273,7 +2273,7 @@
     "sourceFile": "TNXH TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 7: NGÀY HỘI ĐỌC SÁCH CỦA CHÚNG EM - TIẾT 2",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2376,7 +2376,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 1",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2493,7 +2493,7 @@
     "sourceFile": "TNXH TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 8: AN TOÀN KHI Ở TRƯỜNG - TIẾT 2",
         "topic": "CHỦ ĐỀ: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2605,7 +2605,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 9: GIỮ VỆ SINH TRƯỜNG HỌC - TIẾT 1: GIỮ VỆ SINH TRƯỜNG HỌC - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 9: GIỮ VỆ SINH TRƯỜNG HỌC - TIẾT 1: GIỮ VỆ SINH TRƯỜNG HỌC",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2799,7 +2799,7 @@
     "sourceFile": "TNXH TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: GIỮ VỆ SINH TRƯỜNG HỌC - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 9: GIỮ VỆ SINH TRƯỜNG HỌC - TIẾT 2",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3022,7 +3022,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 1",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3218,7 +3218,7 @@
     "sourceFile": "TNXH TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 2",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3423,7 +3423,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………………………… - ………………………………………………………………………………………………………………………… - BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 3 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 10: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC - TIẾT 3",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3637,7 +3637,7 @@
     "sourceFile": "TNXH TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 1 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 1",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3788,7 +3788,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 2 - Thời gian thực hiện: 35 phút",
+        "lessonTitle": "BÀI 11: HOẠT ĐỘNG MUA BÁN HÀNG HÓA - TIẾT 2",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4236,7 +4236,7 @@
         ]
       },
       {
-        "lessonTitle": "……………………………………………………………………………………………………………………………………………………………… - ……………………………………………………………………………………………………………………………………………………………… - Tự nhiên – xã hội - BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 1)",
+        "lessonTitle": "Tự nhiên – xã hội - BÀI 13. HOẠT ĐỘNG GIAO THÔNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "Sau bài học, HS có khả năng:",
@@ -4831,7 +4831,7 @@
         ]
       },
       {
-        "lessonTitle": "……………………………………………………………………………………………………………………………………………………………… - ……………………………………………………………………………………………………………………………………………………………… - Tự nhiên – xã hội - BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 1)",
+        "lessonTitle": "Tự nhiên – xã hội - BÀI 14. CÙNG THAM GIA GIAO THÔNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5319,7 +5319,7 @@
         ]
       },
       {
-        "lessonTitle": "……………………………………………………………………………………………………………………………………………………………… - ……………………………………………………………………………………………………………………………………………………………… - Tự nhiên và xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ: CỘNG ĐỒNG ĐỊA PHƯƠNG (Tiết 1)",
+        "lessonTitle": "Tự nhiên và xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ: CỘNG ĐỒNG ĐỊA PHƯƠNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5631,7 +5631,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………… - ………………………………………………………………………………………………………… - Tự nhiên và Xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 3)",
+        "lessonTitle": "Tự nhiên và Xã hội - BÀI 15. ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5991,7 +5991,7 @@
         ]
       },
       {
-        "lessonTitle": "………………………………………………………………………………………………………… - ………………………………………………………………………………………………………… - TỰ NHIÊN VÀ XÃ HỘI - BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 2)",
+        "lessonTitle": "TỰ NHIÊN VÀ XÃ HỘI - BÀI 16: THỰC VẬT SỐNG Ở ĐÂU? (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -8811,7 +8811,7 @@
     "sourceFile": "TNXH TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 24 - BÀI 21. TÌM HIỂU CƠ QUAN VẬN ĐỘNG (TIẾT 2) - BÀI HỌC STEM: CƠ QUAN VẬN ĐỘNG",
+        "lessonTitle": "TUẦN 24 - BÀI 21. TÌM HIỂU CƠ QUAN VẬN ĐỘNG (TIẾT 2) - BÀI HỌC STEM: CƠ QUAN VẬN ĐỘNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9031,7 +9031,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 24 - BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 1)",
+        "lessonTitle": "TUẦN 24 - BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9206,7 +9206,7 @@
     "sourceFile": "TNXH TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 25 - BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 2)",
+        "lessonTitle": "TUẦN 25 - BÀI 22. CHĂM SÓC, BẢO VỆ CƠ QUAN VẬN ĐỘNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9416,7 +9416,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 25 - BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 1)",
+        "lessonTitle": "TUẦN 25 - BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9599,7 +9599,7 @@
     "sourceFile": "TNXH TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 26 - BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 2)",
+        "lessonTitle": "TUẦN 26 - BÀI 23. TÌM HIỂU CƠ QUAN HÔ HẤP (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9789,7 +9789,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 26 - BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 1)",
+        "lessonTitle": "TUẦN 26 - BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9986,7 +9986,7 @@
     "sourceFile": "TNXH TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 27 - BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 2)\nBÀI HỌC STEM: BẢO VỆ CƠ QUAN HÔ HẤP",
+        "lessonTitle": "TUẦN 27 - BÀI 24. CHĂM SÓC, BẢO VỆ CƠ QUAN HÔ HẤP (TIẾT 2)\nBÀI HỌC STEM: BẢO VỆ CƠ QUAN HÔ HẤP",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10207,7 +10207,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 27 - BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)",
+        "lessonTitle": "TUẦN 27 - BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10426,7 +10426,7 @@
     "sourceFile": "TNXH TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 28 - BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2)",
+        "lessonTitle": "TUẦN 28 - BÀI 25. TÌM HIỂU CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10597,7 +10597,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 28 - BÀI 26. CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)",
+        "lessonTitle": "TUẦN 28 - BÀI 26. CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10763,7 +10763,7 @@
     "sourceFile": "TNXH TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 29 - BÀI 26: CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2) - Thời gian thực hiện: ngày ...... tháng ...... năm ......",
+        "lessonTitle": "TUẦN 29 - BÀI 26: CHĂM SÓC, BẢO VỆ CƠ QUAN BÀI TIẾT NƯỚC TIỂU (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10940,7 +10940,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: TỰ NHIÊN VÀ XÃ HỘI LỚP 2 - TUẦN 29 - BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 1) - Thời gian thực hiện: ngày ...... tháng ...... năm ......",
+        "lessonTitle": "TUẦN 29 - BÀI 27: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

@@ -6818,7 +6818,7 @@
     "sourceFile": "TOÁN TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 23. NHÂN, CHIA SỐ THẬP PHÂN VỚI 10; 100; 1000; ... HOẶC VỚI 0,1; 0,01; 0,001; ... (TIẾT 1)",
+        "lessonTitle": "BÀI 23. NHÂN, CHIA SỐ THẬP PHÂN VỚI 10; 100; 1000; HOẶC VỚI 0,1; 0,01; 0,001; (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6970,7 +6970,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 23. NHÂN, CHIA SỐ THẬP PHÂN VỚI 10; 100; 1000; ... HOẶC VỚI 0,1; 0,01; 0,001; ... (TIẾT 2)",
+        "lessonTitle": "BÀI 23. NHÂN, CHIA SỐ THẬP PHÂN VỚI 10; 100; 1000; HOẶC VỚI 0,1; 0,01; 0,001; (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

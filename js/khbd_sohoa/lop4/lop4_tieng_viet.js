@@ -14,7 +14,7 @@
     "sourceFile": "TV TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: ĐIỀU KÌ DIỆU - TIẾT 1: ĐỌC: ĐIỀU KÌ DIỆU - Thời gian thực hiện: ....",
+        "lessonTitle": "BÀI 1: ĐIỀU KÌ DIỆU - TIẾT 1: ĐỌC: ĐIỀU KÌ DIỆU",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -212,7 +212,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 1: ĐIỀU KÌ DIỆU - TIẾT 2: LUYỆN TỪ VÀ CÂU: DANH TỪ - Thời gian thực hiện: ....",
+        "lessonTitle": "BÀI 1: ĐIỀU KÌ DIỆU - TIẾT 2: LUYỆN TỪ VÀ CÂU: DANH TỪ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -369,7 +369,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 1: ĐIỀU KÌ DIỆU - TIẾT 3: VIẾT: TÌM HIỂU ĐOẠN VĂN VÀ CÂU CHỦ ĐỀ - Thời gian thực hiện: ....",
+        "lessonTitle": "BÀI 1: ĐIỀU KÌ DIỆU - TIẾT 3: VIẾT: TÌM HIỂU ĐOẠN VĂN VÀ CÂU CHỦ ĐỀ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -549,7 +549,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 2: THI NHẠC - TIẾT 1 - 2: ĐỌC: THI NHẠC - Thời gian thực hiện: ....",
+        "lessonTitle": "BÀI 2: THI NHẠC - TIẾT 1 - 2: ĐỌC: THI NHẠC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -779,7 +779,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 2: THI NHẠC - TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT ĐOẠN VĂN NÊU Ý KIẾN - Thời gian thực hiện: ....",
+        "lessonTitle": "BÀI 2: THI NHẠC - TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT ĐOẠN VĂN NÊU Ý KIẾN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -944,7 +944,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 2: THI NHẠC - TIẾT 4: NÓI VÀ NGHE: TÔI VÀ BẠN - Thời gian thực hiện: ....",
+        "lessonTitle": "BÀI 2: THI NHẠC - TIẾT 4: NÓI VÀ NGHE: TÔI VÀ BẠN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1100,7 +1100,7 @@
     "sourceFile": "TV TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 3: ANH EM SINH ĐÔI - TIẾT 1: ĐỌC: ANH EM SINH ĐÔI - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 3: ANH EM SINH ĐÔI - TIẾT 1: ĐỌC: ANH EM SINH ĐÔI",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1288,7 +1288,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 3: ANH EM SINH ĐÔI - TIẾT 2: LUYỆN TỪ VÀ CÂU: DANH TỪ CHUNG, DANH TỪ RIÊNG - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 3: ANH EM SINH ĐÔI - TIẾT 2: LUYỆN TỪ VÀ CÂU: DANH TỪ CHUNG, DANH TỪ RIÊNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1441,7 +1441,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 3: ANH EM SINH ĐÔI - TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN NÊU Ý KIẾN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 3: ANH EM SINH ĐÔI - TIẾT 3: VIẾT: TÌM Ý CHO ĐOẠN VĂN NÊU Ý KIẾN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1570,7 +1570,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 4: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN - TIẾT 1 - 2: ĐỌC: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 4: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN - TIẾT 1 - 2: ĐỌC: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1773,7 +1773,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 4: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN - TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN NÊU Ý KIẾN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 4: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN - TIẾT 3: VIẾT: VIẾT ĐOẠN VĂN NÊU Ý KIẾN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1886,7 +1886,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 4: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN - TIẾT 4: ĐỌC MỞ RỘNG - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 4: CÔNG CHÚA VÀ NGƯỜI DẪN CHUYỆN - TIẾT 4: ĐỌC MỞ RỘNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2009,7 +2009,7 @@
     "sourceFile": "TV TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 5: THẰN LẰN XANH VÀ TẮC KÈ - TIẾT 1: ĐỌC: THẰN LẰN XANH VÀ TẮC KÈ - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 5: THẰN LẰN XANH VÀ TẮC KÈ - TIẾT 1: ĐỌC: THẰN LẰN XANH VÀ TẮC KÈ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2172,7 +2172,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 5: THẰN LẰN XANH VÀ TẮC KÈ - TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ DANH TỪ - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 5: THẰN LẰN XANH VÀ TẮC KÈ - TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ DANH TỪ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2310,7 +2310,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 5: THẰN LẰN XANH VÀ TẮC KÈ - TIẾT 3: VIẾT: TRẢ BÀI VIẾT ĐOẠN VĂN NÊU Ý KIẾN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 5: THẰN LẰN XANH VÀ TẮC KÈ - TIẾT 3: VIẾT: TRẢ BÀI VIẾT ĐOẠN VĂN NÊU Ý KIẾN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2436,7 +2436,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 6: NGHỆ SĨ TRỐNG - TIẾT 1 - 2: ĐỌC: NGHỆ SĨ TRỐNG - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 6: NGHỆ SĨ TRỐNG - TIẾT 1 - 2: ĐỌC: NGHỆ SĨ TRỐNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2641,7 +2641,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 6: NGHỆ SĨ TRỐNG - TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÁO CÁO THẢO LUẬN NHÓM - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 6: NGHỆ SĨ TRỐNG - TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÁO CÁO THẢO LUẬN NHÓM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2767,7 +2767,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 6: NGHỆ SĨ TRỐNG - TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN BỐN ANH TÀI - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 6: NGHỆ SĨ TRỐNG - TIẾT 4: NÓI VÀ NGHE: KỂ CHUYỆN BỐN ANH TÀI",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2903,7 +2903,7 @@
     "sourceFile": "TV TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 7: NHỮNG BỨC CHÂN DUNG - TIẾT 1: ĐỌC: NHỮNG BỨC CHÂN DUNG - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 7: NHỮNG BỨC CHÂN DUNG - TIẾT 1: ĐỌC: NHỮNG BỨC CHÂN DUNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3055,7 +3055,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 7: NHỮNG BỨC CHÂN DUNG - TIẾT 2: LUYỆN TỪ VÀ CÂU: QUY TẮC VIẾT TÊN CƠ QUAN, TỔ CHỨC - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 7: NHỮNG BỨC CHÂN DUNG - TIẾT 2: LUYỆN TỪ VÀ CÂU: QUY TẮC VIẾT TÊN CƠ QUAN, TỔ CHỨC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3203,7 +3203,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 7: NHỮNG BỨC CHÂN DUNG - TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÁO CÁO THẢO LUẬN NHÓM - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 7: NHỮNG BỨC CHÂN DUNG - TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÁO CÁO THẢO LUẬN NHÓM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3327,7 +3327,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 8: ĐÒ NGANG - TIẾT 1 - 2: ĐỌC: ĐÒ NGANG - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 8: ĐÒ NGANG - TIẾT 1 - 2: ĐỌC: ĐÒ NGANG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3503,7 +3503,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 8: ĐÒ NGANG - TIẾT 3: VIẾT: VIẾT BÁO CÁO THẢO LUẬN NHÓM - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 8: ĐÒ NGANG - TIẾT 3: VIẾT: VIẾT BÁO CÁO THẢO LUẬN NHÓM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3619,7 +3619,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 8: ĐÒ NGANG - TIẾT 4: ĐỌC MỞ RỘNG - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 8: ĐÒ NGANG - TIẾT 4: ĐỌC MỞ RỘNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3738,7 +3738,7 @@
     "sourceFile": "TV TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 9: BẦU TRỜI TRONG QUẢ TRỨNG - TIẾT 1: ĐỌC: BẦU TRỜI TRONG QUẢ TRỨNG - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 9: BẦU TRỜI TRONG QUẢ TRỨNG - TIẾT 1: ĐỌC: BẦU TRỜI TRONG QUẢ TRỨNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3912,7 +3912,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 9: BẦU TRỜI TRONG QUẢ TRỨNG - TIẾT 2: LUYỆN TỪ VÀ CÂU: ĐỘNG TỪ - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 9: BẦU TRỜI TRONG QUẢ TRỨNG - TIẾT 2: LUYỆN TỪ VÀ CÂU: ĐỘNG TỪ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4049,7 +4049,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 9: BẦU TRỜI TRONG QUẢ TRỨNG - TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 9: BẦU TRỜI TRONG QUẢ TRỨNG - TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4174,7 +4174,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 10: TIẾNG NÓI CỦA CỎ CÂY - TIẾT 1 - 2: ĐỌC: TIẾNG NÓI CỦA CỎ CÂY - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 10: TIẾNG NÓI CỦA CỎ CÂY - TIẾT 1 - 2: ĐỌC: TIẾNG NÓI CỦA CỎ CÂY",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4363,7 +4363,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 10: TIẾNG NÓI CỦA CỎ CÂY - TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 10: TIẾNG NÓI CỦA CỎ CÂY - TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4476,7 +4476,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 10: TIẾNG NÓI CỦA CỎ CÂY - TIẾT 4: NÓI VÀ NGHE: TRẢI NGHIỆM ĐÁNG NHỚ - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 10: TIẾNG NÓI CỦA CỎ CÂY - TIẾT 4: NÓI VÀ NGHE: TRẢI NGHIỆM ĐÁNG NHỚ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4599,7 +4599,7 @@
     "sourceFile": "TV TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 11: TẬP LÀM VĂN - TIẾT 1: ĐỌC: TẬP LÀM VĂN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 11: TẬP LÀM VĂN - TIẾT 1: ĐỌC: TẬP LÀM VĂN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4763,7 +4763,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 11: TẬP LÀM VĂN - TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐỘNG TỪ - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 11: TẬP LÀM VĂN - TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐỘNG TỪ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4887,7 +4887,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 11: TẬP LÀM VĂN - TIẾT 3: VIẾT: VIẾT BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 11: TẬP LÀM VĂN - TIẾT 3: VIẾT: VIẾT BÀI VĂN THUẬT LẠI MỘT SỰ VIỆC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4998,7 +4998,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 12: NHÀ PHÁT MINH 6 TUỔI - TIẾT 1 - 2: ĐỌC: NHÀ PHÁT MINH 6 TUỔI - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 12: NHÀ PHÁT MINH 6 TUỔI - TIẾT 1 - 2: ĐỌC: NHÀ PHÁT MINH 6 TUỔI",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5175,7 +5175,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 12: NHÀ PHÁT MINH 6 TUỔI - TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 12: NHÀ PHÁT MINH 6 TUỔI - TIẾT 3: VIẾT: TÌM HIỂU CÁCH VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5310,7 +5310,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 12: NHÀ PHÁT MINH 6 TUỔI - TIẾT 4: ĐỌC MỞ RỘNG - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 12: NHÀ PHÁT MINH 6 TUỔI - TIẾT 4: ĐỌC MỞ RỘNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5438,7 +5438,7 @@
     "sourceFile": "TV TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 13: CON VẸT XANH - TIẾT 1: ĐỌC: CON VẸT XANH - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 13: CON VẸT XANH - TIẾT 1: ĐỌC: CON VẸT XANH",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5602,7 +5602,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 13: CON VẸT XANH - TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐỘNG TỪ - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 13: CON VẸT XANH - TIẾT 2: LUYỆN TỪ VÀ CÂU: LUYỆN TẬP VỀ ĐỘNG TỪ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5732,7 +5732,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 13: CON VẸT XANH - TIẾT 3: VIẾT: LUYỆN VIẾT MỞ BÀI, KẾT BÀI CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 13: CON VẸT XANH - TIẾT 3: VIẾT: LUYỆN VIẾT MỞ BÀI, KẾT BÀI CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5855,7 +5855,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 14: CHÂN TRỜI CUỐI PHỐ - TIẾT 1 - 2: ĐỌC: CHÂN TRỜI CUỐI PHỐ - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 14: CHÂN TRỜI CUỐI PHỐ - TIẾT 1 - 2: ĐỌC: CHÂN TRỜI CUỐI PHỐ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6042,7 +6042,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 14: CHÂN TRỜI CUỐI PHỐ - TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 14: CHÂN TRỜI CUỐI PHỐ - TIẾT 3: VIẾT: LẬP DÀN Ý CHO BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6172,7 +6172,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 14: CHÂN TRỜI CUỐI PHỐ - TIẾT 4: NÓI VÀ NGHE: VIỆC LÀM CÓ ÍCH - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 14: CHÂN TRỜI CUỐI PHỐ - TIẾT 4: NÓI VÀ NGHE: VIỆC LÀM CÓ ÍCH",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6304,7 +6304,7 @@
     "sourceFile": "TV TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 15: GẶT CHỮ TRÊN NON (3 tiết) - TIẾT 1 - 2: ĐỌC - GẶT CHỮ TRÊN NON; LUYỆN TỪ VÀ CÂU: CÁCH DÙNG VÀ CÔNG DỤNG CỦA TỪ ĐIỂN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 15: GẶT CHỮ TRÊN NON (3 tiết) - TIẾT 1 - 2: ĐỌC - GẶT CHỮ TRÊN NON; LUYỆN TỪ VÀ CÂU: CÁCH DÙNG VÀ CÔNG DỤNG CỦA TỪ ĐIỂN",
         "topic": "CHỦ ĐIỂM: TRẢI NGHIỆM VÀ KHÁM PHÁ",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6493,7 +6493,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 15: GẶT CHỮ TRÊN NON (3 tiết) - TIẾT 3: VIẾT - VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 15: GẶT CHỮ TRÊN NON (3 tiết) - TIẾT 3: VIẾT - VIẾT BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6608,7 +6608,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 16: TRƯỚC NGÀY XA QUÊ (4 tiết) - TIẾT 1 - 2: ĐỌC - TRƯỚC NGÀY XA QUÊ - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 16: TRƯỚC NGÀY XA QUÊ (4 tiết) - TIẾT 1 - 2: ĐỌC - TRƯỚC NGÀY XA QUÊ",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6779,7 +6779,7 @@
         ]
       },
       {
-        "lessonTitle": "Bài 16: TRƯỚC NGÀY XA QUÊ (4 tiết) - TIẾT 3 - 4: VIẾT - TRẢ BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN; ĐỌC MỞ RỘNG - Thời gian thực hiện: ....",
+        "lessonTitle": "Bài 16: TRƯỚC NGÀY XA QUÊ (4 tiết) - TIẾT 3 - 4: VIẾT - TRẢ BÀI VĂN KỂ LẠI MỘT CÂU CHUYỆN; ĐỌC MỞ RỘNG",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",

@@ -2100,7 +2100,7 @@
     "sourceFile": "KHBD GDTC LỚP 1.docx",
     "lessons": [
       {
-        "lessonTitle": ".. /0/20.. - Bài 5: VẬN ĐỘNG PHỐI HỢP CỦA CƠ THỂ - BÀI TẬP PHÁT TRIỂN NĂNG LỰC PHỐI HỢP VẬN ĐỘNG - CỦA CƠ THỂ (tiết 1) (Tiết 37)",
+        "lessonTitle": "/0/20.. - Bài 5: VẬN ĐỘNG PHỐI HỢP CỦA CƠ THỂ - BÀI TẬP PHÁT TRIỂN NĂNG LỰC PHỐI HỢP VẬN ĐỘNG - CỦA CƠ THỂ (tiết 1) (Tiết 37)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",

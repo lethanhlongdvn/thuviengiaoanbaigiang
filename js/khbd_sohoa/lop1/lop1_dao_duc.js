@@ -14,7 +14,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 1: EM GIỮ SẠCH ĐÔI TAY - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 1: EM GIỮ SẠCH ĐÔI TAY - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -150,7 +150,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 2: EM GIỮ SẠCH RĂNG MIỆNG - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 2: EM GIỮ SẠCH RĂNG MIỆNG - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -287,7 +287,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 3: EM TẮM, GỘI SẠCH SẼ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 3: EM TẮM, GỘI SẠCH SẼ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -410,7 +410,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 4: EM GIỮ TRANG PHỤC GỌN GÀNG, SẠCH SẼ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 4: EM GIỮ TRANG PHỤC GỌN GÀNG, SẠCH SẼ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -547,7 +547,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 1 - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 1 - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -676,7 +676,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 2 - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 5: GIA ĐÌNH CỦA EM - TIẾT 2 - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -784,7 +784,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 6: LỄ PHÉP, VÂNG LỜI ÔNG BÀ, CHA MẸ, ANH CHỊ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 6: LỄ PHÉP, VÂNG LỜI ÔNG BÀ, CHA MẸ, ANH CHỊ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -912,7 +912,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 7: QUAN TÂM, CHĂM SÓC ÔNG BÀ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 7: QUAN TÂM, CHĂM SÓC ÔNG BÀ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1031,7 +1031,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ I - Thời lượng: 01 tiết",
+        "lessonTitle": "THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ I - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1144,7 +1144,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 8: QUAN TÂM, CHĂM SÓC CHA MẸ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 8: QUAN TÂM, CHĂM SÓC CHA MẸ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1271,7 +1271,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 9: CHĂM SÓC, GIÚP ĐỠ EM NHỎ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 9: CHĂM SÓC, GIÚP ĐỠ EM NHỎ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1393,7 +1393,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 10: ĐI HỌC ĐÚNG GIỜ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 10: ĐI HỌC ĐÚNG GIỜ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1534,7 +1534,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1653,7 +1653,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 11: HỌC BÀI VÀ LÀM BÀI ĐẦY ĐỦ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1772,7 +1772,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 13: GIỮ GÌN TÀI SẢN CỦA TRƯỜNG, LỚP - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 13: GIỮ GÌN TÀI SẢN CỦA TRƯỜNG, LỚP - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1882,7 +1882,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 14: GIỮ VỆ SINH TRƯỜNG, LỚP - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 14: GIỮ VỆ SINH TRƯỜNG, LỚP - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1992,7 +1992,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 15: GỌN GÀNG, NGĂN NẮP - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 15: GỌN GÀNG, NGĂN NẮP - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2106,7 +2106,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - ÔN TẬP - ĐÁNH GIÁ CUỐI HỌC KÌ I - Thời lượng: 01 tiết",
+        "lessonTitle": "ÔN TẬP - ĐÁNH GIÁ CUỐI HỌC KÌ I - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2227,7 +2227,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 16: HỌC TẬP, SINH HOẠT ĐÚNG GIỜ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 16: HỌC TẬP, SINH HOẠT ĐÚNG GIỜ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2350,7 +2350,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 17: TỰ GIÁC HỌC TẬP - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 17: TỰ GIÁC HỌC TẬP - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2490,7 +2490,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 18: TỰ GIÁC THAM GIA CÁC HOẠT ĐỘNG Ở TRƯỜNG - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 18: TỰ GIÁC THAM GIA CÁC HOẠT ĐỘNG Ở TRƯỜNG - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2605,7 +2605,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 19: TỰ GIÁC LÀM VIỆC NHÀ - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 19: TỰ GIÁC LÀM VIỆC NHÀ - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2720,7 +2720,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 20: KHÔNG NÓI DỐI - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 20: KHÔNG NÓI DỐI - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2844,7 +2844,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 21: KHÔNG TỰ Ý LẤY VÀ SỬ DỤNG ĐỒ CỦA NGƯỜI KHÁC - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 21: KHÔNG TỰ Ý LẤY VÀ SỬ DỤNG ĐỒ CỦA NGƯỜI KHÁC - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2975,7 +2975,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 22: NHẶT ĐƯỢC CỦA RƠI TRẢ LẠI NGƯỜI ĐÁNH MẤT - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 22: NHẶT ĐƯỢC CỦA RƠI TRẢ LẠI NGƯỜI ĐÁNH MẤT - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3110,7 +3110,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 23: BIẾT NHẬN LỖI - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 23: BIẾT NHẬN LỖI - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3245,7 +3245,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ II - Thời lượng: 01 tiết",
+        "lessonTitle": "THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ II - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3371,7 +3371,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 24: PHÒNG, TRÁNH TAI NẠN GIAO THÔNG - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 24: PHÒNG, TRÁNH TAI NẠN GIAO THÔNG - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3520,7 +3520,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: ĐẠO ĐỨC - LỚP 1 - BỘ SÁCH: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG - BÀI 25: PHÒNG, TRÁNH ĐUỐI NƯỚC - Thời lượng: 01 tiết",
+        "lessonTitle": "BÀI 25: PHÒNG, TRÁNH ĐUỐI NƯỚC - Thời lượng: 01 tiết",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

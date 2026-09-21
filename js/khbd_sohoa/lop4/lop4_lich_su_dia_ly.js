@@ -8882,7 +8882,7 @@
     "sourceFile": "LSĐL TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 34 - BÀI 27: ÔN TẬP (TIẾT 1)",
+        "lessonTitle": "BÀI 27: ÔN TẬP (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8996,7 +8996,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN 34 - BÀI 27: ÔN TẬP (TIẾT 2)",
+        "lessonTitle": "BÀI 27: ÔN TẬP (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

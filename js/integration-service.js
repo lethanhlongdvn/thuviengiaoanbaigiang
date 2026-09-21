@@ -860,6 +860,12 @@ var IntegrationService = {
       .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
       .trim();
 
+    // Loại bỏ các đoạn chấm lửng/gạch ngang thừa ở đầu (placeholder từ file mẫu)
+    t = t.replace(/^(?:[.…\s_–—-]{3,}\s*[-–—:]*\s*)+/g, '');
+
+    // Loại bỏ tiền tố (X tiết) ở đầu
+    t = t.replace(/^\s*\(\d+\s*tiết\)\s*[-–—\s]*/gi, '');
+
     // Loại bỏ tiền tố rác kiểu "MÔN: ... LỚP ... BỘ SÁCH: ... - " nếu có
     t = t.replace(/^MÔN:\s*[^–—-]+[-–—]\s*(?:LỚP\s*\d+\s*[-–—]\s*)?(?:BỘ SÁCH:[^–—-]+[-–—]\s*)?/i, '').trim();
 
@@ -873,10 +879,16 @@ var IntegrationService = {
       }
     }
 
+    // Loại bỏ "SỐ TIẾT: X [TIẾT]"
+    t = t.replace(/[\s\-–—•·]*[-–—]?\s*SỐ\s*TIẾT\s*:\s*\d+\s*(?:TIẾT)?/gi, ' ');
+
     // Loại bỏ các cụm rác dạng "- Thời gian thực hiện: ...", "(Thời gian thực hiện: ...)", "- Ngày thực hiện: ..."
-    t = t.replace(/[\s\-–—•·]*[\-–—]\s*(?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:[^\-–—\(\)]*(?:đến[^\-–—\(\)]*)?/gi, ' ');
+    t = t.replace(/[\s\-–—•·]*[-–—]?\s*(?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:[^\-–—\(\)\n]*(?:đến[^\-–—\(\)\n]*)?/gi, ' ');
     t = t.replace(/\s*\((?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:[^\)]*\)/gi, ' ');
     t = t.replace(/[\s\-–—•·]*(?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:\s*[.\s_…/–\-]*(?:\(.*\))?/gi, ' ');
+
+    // Loại bỏ chuỗi chấm lửng thừa ở bất kỳ vị trí nào
+    t = t.replace(/[-–—]?\s*[.…]{3,}\s*[-–—]?/g, ' ');
 
     // Loại bỏ tiền tố/hậu tố toàn dấu chấm hoặc gạch ngang thừa
     t = t.replace(/\s*[\-–—]+\s*[\-–—]+\s*/g, ' - ');
@@ -3471,7 +3483,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         <style>
           @page {
             size: 21.0cm 29.7cm;
-            margin: 2.0cm 1.5cm 2.0cm 2.5cm;
+            margin: 1.5cm 1.5cm 1.5cm 2.0cm;
             mso-page-orientation: portrait;
             mso-header-margin: 1.0cm;
             mso-footer-margin: 1.0cm;
@@ -3479,7 +3491,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           }
           @page WordSection1 {
             size: 21.0cm 29.7cm;
-            margin: 2.0cm 1.5cm 2.0cm 2.5cm;
+            margin: 1.5cm 1.5cm 1.5cm 2.0cm;
             mso-page-orientation: portrait;
             mso-header-margin: 1.0cm;
             mso-footer-margin: 1.0cm;
@@ -3488,7 +3500,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           }
           @page WordSection2 {
             size: 21.0cm 29.7cm;
-            margin: 2.0cm 1.5cm 2.0cm 2.5cm;
+            margin: 1.5cm 1.5cm 1.5cm 2.0cm;
             mso-page-orientation: portrait;
             mso-header-margin: 1.0cm;
             mso-footer-margin: 1.0cm;
@@ -3578,7 +3590,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           .table-activity th {
             border: 1pt solid #000000;
             padding: 4pt 6pt;
-            background-color: #f2f2f2;
+            background-color: #1F4E79;
+            color: #ffffff;
             font-weight: bold;
             text-align: center;
             margin: 0pt;
@@ -3707,9 +3720,14 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
     var disSupport = (meta && meta.disabilitySupport) || (typeof integrationState !== 'undefined' && integrationState.disabilitySupport);
 
+    var isContinuousMode = !isTimetableDoc;
     lessons.forEach(function(les, lIdx) {
       if (lIdx > 0 || meta.tkbCoverHtml) {
-        docHtml += '<div class="page-break"></div>';
+        if (isContinuousMode) {
+          docHtml += '<div style="margin-top: 16pt; margin-bottom: 8pt; border-top: 1pt dashed #b0b0b0; padding-top: 8pt;"></div>';
+        } else {
+          docHtml += '<div class="page-break"></div>';
+        }
       }
 
       if (disSupport && disSupport.enabled) {
@@ -3734,10 +3752,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var yccdContent = (les.yccd || []).map(function(line) {
         if (typeof line !== 'string') return '';
         var cleanLine = line;
-        if (/^[\s\-–—*•]*thời\s*gian\s*thực\s*hiện\s*:/i.test(line)) {
-          cleanLine = 'Thời gian thực hiện: ' + durationWithDate;
-        } else if (/^[\s\-–—*•]*ngày\s*thực\s*hiện\s*:/i.test(line)) {
-          cleanLine = 'Ngày thực hiện: ' + (dateStr || '....................................');
+        // Bỏ dòng Số tiết thực hiện / Thời gian thực hiện / Ngày thực hiện / Tiêu đề giáo án khỏi YCCD
+        if (/^[\s\-–—*•]*(?:số\s*tiết|thời\s*gian|ngày)\s*thực\s*hiện/i.test(cleanLine)) {
+          return '';
+        }
+        if (/^[\s\-–—*•]*(?:kế\s*hoạch\s*bài\s*dạy|bài\s*học\s*tiết\s*\d+)/i.test(cleanLine)) {
+          return '';
         }
 
         var isKhuyetTat = /học sinh khuyết tật/i.test(cleanLine);
@@ -3745,7 +3765,11 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         if (isDieuChinhHeader && !isKhuyetTat) {
           return '';
         }
-        var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+        var isTichHopHeaderGroup = /^\d+\.\s*(?:tích\s*hợp|năng\s*lực\s*số)/i.test(cleanLine);
+        if (isTichHopHeaderGroup) {
+          return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; font-weight: bold; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt;">' + cleanLine + '</p>';
+        }
+        var isTichHop = /tích\s*hợp|năng\s*lực\s*số/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
         if (isKhuyetTat) {
           var displayLine = cleanLine
             .replace(/<!--.*?-->/g, '')
@@ -3760,8 +3784,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
             displayLine = '- ' + displayLine;
           }
-          return '<p style="margin: 0pt; margin-top: 5pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 5pt; mso-para-margin-bottom: 2pt; font-weight: bold; color: #7030a0;">5. Điều chỉnh đối với học sinh hòa nhập:</p>' +
-                 '<p style="margin: 0pt; margin-top: 2pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 2pt; mso-para-margin-bottom: 2pt; color: #7030a0;"><strong>' + displayLine + '</strong></p>';
+          return '<p style="margin: 0pt; margin-top: 5pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 5pt; mso-para-margin-bottom: 2pt; font-weight: bold; color: #C00000;">5. Điều chỉnh đối với học sinh hòa nhập:</p>' +
+                 '<p style="margin: 0pt; margin-top: 2pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 2pt; mso-para-margin-bottom: 2pt; color: #C00000;"><strong>' + displayLine + '</strong></p>';
         }
         if (isTichHop) {
           var displayLine = cleanLine
@@ -3776,7 +3800,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
             displayLine = '- ' + displayLine;
           }
-          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; color: #7030a0;">' + displayLine + '</p>';
+          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; color: #C00000;">' + displayLine + '</p>';
         }
         return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">' + cleanLine + '</p>';
       }).join('');
@@ -3798,7 +3822,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
             displayLine = '- ' + displayLine;
           }
-          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; color: #7030a0;">' + displayLine + '</p>';
+          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; color: #C00000;">' + displayLine + '</p>';
         }
         return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">' + line + '</p>';
       }).join('');
@@ -3816,12 +3840,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
             if (has4Cols) {
               if (r.length >= 4) {
-                var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+                var isTichHop = /tích\s*hợp|năng\s*lực\s*số/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số/i.test(r[2] || '') || /tích\s*hợp|năng\s*lực\s*số/i.test(r[3] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
                 var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
                 var c1 = (r[1] || '').trim().replace(/\n/g, '<br/>');
                 var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
                 var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
-                var cellStyle = isTichHop ? 'color: #7030a0;' : '';
+                var cellStyle = isTichHop ? 'color: #C00000;' : '';
 
                 rowsHtml += `
                   <tr>
@@ -3842,13 +3866,16 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               } else if (r.length === 1) {
                 var rawHeader = r[0] || '';
                 var cleanHeader = rawHeader.replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').trim();
-                rowsHtml += `<tr><td colspan="4" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
+                var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
+                var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
+                var rowBgColor = isTietRow ? '#FFF2CC' : (isActivityRow ? '#D9EAF7' : '#f8fafc');
+                rowsHtml += `<tr><td colspan="4" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: ${rowBgColor}; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
               } else if (r.length === 2) {
                 rowsHtml += `<tr><td colspan="2" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${(r[0]||'').replace(/\n/g, '<br/>')}</div></td><td colspan="2" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${(r[1]||'').replace(/\n/g, '<br/>')}</div></td></tr>`;
               }
             } else {
               if (r.length >= 2) {
-                var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+                var isTichHop = /tích\s*hợp|năng\s*lực\s*số/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số/i.test(r[1] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
                 var gvText = (r[0] || '')
                   .replace(/<!--.*?-->/g, '')
                   .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
@@ -3870,7 +3897,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 var gvCol = gvText.replace(/\n/g, '<br/>');
                 var hsCol = hsText.replace(/\n/g, '<br/>');
 
-                var cellStyle = isTichHop ? 'color: #7030a0;' : '';
+                var cellStyle = isTichHop ? 'color: #C00000;' : '';
 
                 rowsHtml += `
                   <tr>
@@ -3885,8 +3912,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               } else if (r.length === 1) {
                 var rawHeader = r[0] || '';
                 var nextRow = tableRows[rIdx + 1];
-                var isNextRowTichHop = Array.isArray(nextRow) && nextRow.length >= 2 && ((nextRow[0] || '').indexOf('[Tích hợp') !== -1 || (nextRow[1] || '').indexOf('[Tích hợp') !== -1 || (nextRow[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (nextRow[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1);
-                var isTichHopHeader = isNextRowTichHop || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('(Tích hợp)') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1;
+                var isNextRowTichHop = Array.isArray(nextRow) && nextRow.length >= 2 && (/tích\s*hợp|năng\s*lực\s*số/i.test(nextRow[0] || '') || /tích\s*hợp|năng\s*lực\s*số/i.test(nextRow[1] || '') || (nextRow[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (nextRow[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1);
+                var isTichHopHeader = isNextRowTichHop || /tích\s*hợp|năng\s*lực\s*số/i.test(rawHeader) || rawHeader.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
                 var cleanHeader = rawHeader
                   .replace(/<!--.*?-->/g, '')
                   .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
@@ -3896,8 +3923,11 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   .replace(/\(Tích hợp\)/gi, '')
                   .replace(/\s{2,}/g, ' ')
                   .trim();
-                var headerColorStyle = isTichHopHeader ? 'color: #7030a0;' : '';
-                rowsHtml += `<tr><td colspan="2" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${headerColorStyle}"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
+                var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
+                var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
+                var rowBgColor = isTietRow ? '#FFF2CC' : (isActivityRow ? '#D9EAF7' : '#f8fafc');
+                var headerColorStyle = isTichHopHeader ? 'color: #C00000;' : '';
+                rowsHtml += `<tr><td colspan="2" style="padding: 3pt 5pt; border: 1pt solid #000; background-color: ${rowBgColor}; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; ${headerColorStyle}"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; line-height: 1.25;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
               }
             }
           }
@@ -3908,10 +3938,10 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 <table class="table-activity">
                   <thead>
                     <tr>
-                      <th style="width: 30%;">Nội dung</th>
-                      <th style="width: 15%;">Định lượng</th>
-                      <th style="width: 30%;">Hoạt động của giáo viên</th>
-                      <th style="width: 25%;">Hoạt động của học sinh</th>
+                      <th style="width: 30%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">NỘI DUNG</th>
+                      <th style="width: 15%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">ĐỊNH LƯỢNG</th>
+                      <th style="width: 30%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">HOẠT ĐỘNG CỦA GIÁO VIÊN</th>
+                      <th style="width: 25%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">HOẠT ĐỘNG CỦA HỌC SINH</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -3924,8 +3954,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 <table class="table-activity">
                   <thead>
                     <tr>
-                      <th style="width: 50%;">Hoạt động của giáo viên</th>
-                      <th style="width: 50%;">Hoạt động của học sinh</th>
+                      <th style="width: 50%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">HOẠT ĐỘNG CỦA GIÁO VIÊN</th>
+                      <th style="width: 50%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">HOẠT ĐỘNG CỦA HỌC SINH</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -3997,16 +4027,28 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + dateStr);
       }
 
-      docHtml += `
-        <div class="title-box">
-          ${headerBlock}
-          ${daySessionInfo}
-          <h2>KẾ HOẠCH BÀI DẠY</h2>
-          <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: ${subjName.toUpperCase()}${(meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')}</p>
-          <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt; color: #1e3a8a;">${cleanLessonTitle}</p>
-          ${les.period ? ('<p style="font-style: italic; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
-        </div>
+      if (lIdx === 0 || !isContinuousMode) {
+        docHtml += `
+          <div class="title-box">
+            ${headerBlock}
+            ${daySessionInfo}
+            <h2>KẾ HOẠCH BÀI DẠY</h2>
+            <p style="font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0;">MÔN: ${subjName.toUpperCase()}${(meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')}</p>
+            <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt; color: #1e3a8a;">${cleanLessonTitle}</p>
+            ${les.period ? ('<p style="font-style: italic; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
+          </div>
+        `;
+      } else {
+        docHtml += `
+          <div class="title-box" style="margin-top: 14pt; margin-bottom: 6pt;">
+            ${daySessionInfo}
+            <p style="font-size: 14pt; font-weight: bold; margin-top: 4pt; color: #1e3a8a;">${cleanLessonTitle}</p>
+            ${les.period ? ('<p style="font-style: italic; margin-top: 2pt;">(' + les.period + ')</p>') : ''}
+          </div>
+        `;
+      }
 
+      docHtml += `
         <div class="section-title">I. YÊU CẦU CẦN ĐẠT:</div>
         <div style="margin-left: 10pt;">
           ${yccdContent || '<p>Theo quy định của chương trình môn học.</p>'}

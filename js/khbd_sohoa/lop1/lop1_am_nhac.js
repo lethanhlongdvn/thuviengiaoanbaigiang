@@ -14,7 +14,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 1-4-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "* NỘI DUNG - - Thường thức âm nhạc “Âm thanh kỳ diệu”",
+        "lessonTitle": "* NỘI DUNG - Thường thức âm nhạc “Âm thanh kỳ diệu”",
         "topic": "CHỦ ĐỀ 1: ÂM THANH KÌ DIỆU (4 tiết)",
         "yccd": [
           "- Học sinh cảm nhận được âm thanh, cảnh đẹp và hình ảnh các bạn nhỏ cùng vui chơi trong rừng hoa.",
@@ -599,7 +599,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 5-8-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Hát: Tổ quốc ta - - Vận dụng sáng tạo: Cao - thấp",
+        "lessonTitle": "Hát: Tổ quốc ta - Vận dụng sáng tạo: Cao - thấp",
         "topic": "CHỦ ĐỀ 2: VIỆT NAM YÊU THƯƠNG (4 tiết)",
         "yccd": [
           "- Nói được tên bài hát, bước đầu hát rõ lời ca, hát với giọng tự nhiên đúng theo giai điệu của bài hát “Tổ quốc ta”.",
@@ -883,7 +883,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 5-8-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Nghe nhạc: Bài hát: QUỐC CA - - Ôn tập nhạc cụ: TRỐNG CON",
+        "lessonTitle": "Nghe nhạc: Bài hát: QUỐC CA - Ôn tập nhạc cụ: TRỐNG CON",
         "topic": "CHỦ ĐỀ 2: VIỆT NAM YÊU THƯƠNG (4 tiết)",
         "yccd": [
           "- Cảm nhận được không khí trang nghiêm khi chào cờ và nghe bài hát Quốc ca.",
@@ -1155,7 +1155,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 9-12-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "* NỘI DUNG - - Hát: Lớp một thân yêu",
+        "lessonTitle": "* NỘI DUNG - Hát: Lớp một thân yêu",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG THÂN YÊU (4 tiết)",
         "yccd": [
           "- Biết giúp đỡ bạn bè khi gặp khó khăn trong học tập.",
@@ -1601,7 +1601,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 13-18-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Chủ đề 4: VÒNG TAY BẠN BÈ (6 Tiết) - - Hát: Chào người bạn mới đến",
+        "lessonTitle": "Chủ đề 4: VÒNG TAY BẠN BÈ (6 Tiết) - Hát: Chào người bạn mới đến",
         "topic": "I. YÊU CẦU CẦN ĐẠT CẢ CHỦ ĐỀ:",
         "yccd": [
           "- Học sinh bước đầu nhớ được tên, hát rõ lời ca và đúng theo giai điệu bài hát Chào người bạn mới đến.",
@@ -2228,7 +2228,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 19-22-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Học hát và ôn tập: Xúc xắc xúc xẻ - - Đọc nhạc: Những người bạn của Đô-Rê-Mi",
+        "lessonTitle": "Học hát và ôn tập: Xúc xắc xúc xẻ - Đọc nhạc: Những người bạn của Đô-Rê-Mi",
         "topic": "CHỦ ĐỀ 5: NHỊP ĐIỆU MÙA XUÂN (4 tiết)",
         "yccd": [
           "- Học sinh cảm nhận được không khí vui tươi và hiểu được ý nghĩa tốt đẹp của ngày Tết cổ truyền thông qua nội dung của bài hát.",
@@ -2668,7 +2668,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 23-26-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Học hát và ôn tập bài hát: Gà gáy - - Nhạc cụ thanh phách",
+        "lessonTitle": "Học hát và ôn tập bài hát: Gà gáy - Nhạc cụ thanh phách",
         "topic": "CHỦ ĐỀ 1: NƠI EM Ở",
         "yccd": [
           "- Học sinh bước đầu nhớ được tên, hát rõ lời ca và đúng theo giai điệu bài hát Gà gáy (dân ca Cống Khao). Biết hát kết hợp nhạc đệm.",
@@ -3019,7 +3019,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 27-30-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "* NỘI DUNG - - Học hát: Cây Gia Đình",
+        "lessonTitle": "* NỘI DUNG - Học hát: Cây Gia Đình",
         "topic": "CHỦ ĐỀ: GIA ĐÌNH (4 tiết)",
         "yccd": [
           "- Nêu được tên bài hát và tác giả, hát đúng giai điệu, lời ca các bài hát.",
@@ -3066,7 +3066,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 27-30-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "3. Luyện tập thực hành - a. Mục tiêu: - - Học sinh biết hát kết hợp vận động sắm vai các nhân vật trong bài hát.",
+        "lessonTitle": "3. Luyện tập thực hành - a. Mục tiêu: - Học sinh biết hát kết hợp vận động sắm vai các nhân vật trong bài hát.",
         "topic": "GIÁO DỤC ĐỊA PHƯƠNG - CHỦ ĐỀ 5: HỒ HOÀN KIẾM",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -3140,7 +3140,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 27-30-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "a. Mục tiêu: - - Học sinh biết hát kết hợp vận động minh họa nhịp nhàng theo lời ca. - - Học sinh nhận biết các nốt nhạc Đô - Rê - Mi - Pha - Son và bước đầu đọc đúng cao độ, trường độ.",
+        "lessonTitle": "a. Mục tiêu: - Học sinh biết hát kết hợp vận động minh họa nhịp nhàng theo lời ca. - Học sinh nhận biết các nốt nhạc Đô - Rê - Mi - Pha - Son và bước đầu đọc đúng cao độ, trường độ.",
         "topic": "GIÁO DỤC ĐỊA PHƯƠNG - CHỦ ĐỀ 8: NGHỀ LÀM NÓN LÁ Ở LÀNG CHUÔNG",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -3260,7 +3260,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 31-35-lop 1.docx",
     "lessons": [
       {
-        "lessonTitle": "Học hát và ôn tập bài hát: Ngôi sao lấp lánh - - Nhạc cụ Traiengo",
+        "lessonTitle": "Học hát và ôn tập bài hát: Ngôi sao lấp lánh - Nhạc cụ Traiengo",
         "topic": "CHỦ ĐỀ 8: VUI ĐÓN HÈ (5 tiết)",
         "yccd": [
           "- Biết đôi nét về tác giả Tô Đông Hải.",

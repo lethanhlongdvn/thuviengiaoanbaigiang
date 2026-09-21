@@ -17,7 +17,6 @@
         "lessonTitle": "Bài 1: Tự nhiên và công nghệ (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Phân biệt được đối tượng tự nhiên và sản phẩm công nghệ ở mức độ đơn giản.",
           "- Gọi tên được một số đối tượng trong tranh và trong lớp học; bước đầu nêu được đối tượng nào do con người làm ra, đối tượng nào có sẵn trong tự nhiên.",
@@ -168,7 +167,6 @@
         "lessonTitle": "Bài 1: Tự nhiên và công nghệ (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tác dụng của một số sản phẩm công nghệ trong gia đình như ti vi, tủ lạnh, máy thu thanh, quạt điện, bóng đèn điện.",
           "- Biết kể tên và nêu tác dụng của một số sản phẩm công nghệ quen thuộc ở nhà, ở trường.",
@@ -318,7 +316,6 @@
         "lessonTitle": "Bài 2: Sử dụng đèn học (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tác dụng của đèn học đối với việc học tập và bảo vệ mắt.",
           "- Nhận biết được một số loại đèn học thông dụng qua hình dạng, màu sắc và cách sử dụng.",
@@ -469,7 +466,6 @@
         "lessonTitle": "Bài 2: Sử dụng đèn học (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "2. Năng lực chung",
           "- Năng lực giao tiếp và hợp tác: Trao đổi với bạn về các bước sử dụng đèn học và tình huống mất an toàn.",
@@ -617,7 +613,6 @@
         "lessonTitle": "Bài 3: Sử dụng quạt điện (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tác dụng của quạt điện là tạo ra gió, giúp làm mát trong sinh hoạt hằng ngày.",
           "- Nhận biết được một số loại quạt điện thông dụng như quạt hộp, quạt trần, quạt bàn, quạt treo tường.",
@@ -767,7 +762,6 @@
         "lessonTitle": "Bài 3: Sử dụng quạt điện (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "2. Năng lực chung",
           "- Năng lực tự chủ và tự học: Tự quan sát tranh, sắp xếp các bước sử dụng quạt điện và ghi nhớ quy tắc an toàn.",
@@ -917,7 +911,6 @@
         "lessonTitle": "Bài 4: Sử dụng máy thu thanh (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tác dụng của máy thu thanh là dùng để nghe các chương trình phát thanh.",
           "- Nhận biết được một số nội dung chương trình phát thanh phù hợp như tin tức, thông tin giải trí và một số chương trình giáo dục.",
@@ -1068,7 +1061,6 @@
         "lessonTitle": "Bài 4: Sử dụng máy thu thanh (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Mô tả được mối quan hệ đơn giản giữa đài phát thanh và máy thu thanh dựa vào sơ đồ khối.",
           "- Nêu được đài phát thanh là nơi sản xuất chương trình phát thanh và phát tín hiệu truyền thanh qua ăng ten.",
@@ -1221,7 +1213,6 @@
         "lessonTitle": "Bài 4: Sử dụng máy thu thanh (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Kể tên được một số chương trình phát thanh phù hợp với lứa tuổi học sinh trên đài phát thanh.",
           "- Nêu được nội dung chính của một số chương trình phát thanh như ca nhạc thiếu nhi, thiếu nhi, đọc truyện dài kì, giáo dục từ xa.",
@@ -1375,7 +1366,6 @@
         "lessonTitle": "Bài 4: Sử dụng máy thu thanh (Tiết 4)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "2. Năng lực chung",
           "- Năng lực tự chủ và tự học: Tự quan sát Hình 4, nêu thứ tự các bước sử dụng máy thu thanh và ghi nhớ quy tắc bảo quản thiết bị.",
@@ -1526,7 +1516,6 @@
         "lessonTitle": "Bài 5: Sử dụng máy thu hình (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Trình bày được tác dụng của máy thu hình trong gia đình.",
           "- Nêu được máy thu hình dùng để xem các chương trình truyền hình như tin tức, giải trí, giáo dục.",
@@ -1678,7 +1667,6 @@
         "lessonTitle": "Bài 5: Sử dụng máy thu hình (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Kể được tên và nêu được nội dung của một số kênh truyền hình phổ biến, phù hợp với HS.",
           "- Nhận biết được chương trình, quảng cáo hoặc nội dung không phù hợp lứa tuổi và biết dừng xem.",
@@ -1831,7 +1819,6 @@
         "lessonTitle": "Bài 5: Sử dụng máy thu hình (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "2. Năng lực chung",
           "- Năng lực tự chủ và tự học: Tự quan sát Hình 4, Hình 5 và thực hiện nhiệm vụ chọn cách sử dụng ti vi đúng.",
@@ -1982,7 +1969,6 @@
         "lessonTitle": "Bài 5: Sử dụng máy thu hình - Bài học STEM: Cẩm nang sử dụng máy thu hình (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Đề xuất được ý tưởng, hình thức, nội dung và cách làm cẩm nang sử dụng máy thu hình.",
           "- Lựa chọn được dụng cụ, vật liệu đơn giản để làm cẩm nang sử dụng máy thu hình.",
@@ -2183,7 +2169,6 @@
         "lessonTitle": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được một số tình huống không an toàn khi sử dụng sản phẩm công nghệ trong gia đình.",
           "- Nêu được nguy hiểm có thể xảy ra trong các tình huống như bỏng, điện giật, đứt tay, rò rỉ khí ga.",
@@ -2337,7 +2322,6 @@
         "lessonTitle": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được một số lưu ý khi sử dụng sản phẩm công nghệ trong gia đình để đảm bảo an toàn.",
           "- Biết lựa chọn hành vi sử dụng thiết bị điện, thiết bị số đúng cách và tiết kiệm năng lượng.",
@@ -2491,7 +2475,6 @@
         "lessonTitle": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được một số sự cố không an toàn như cháy, khói, điện giật, bị vật sắc nhọn cắt hoặc đâm.",
           "- Nêu được cách xử lí ban đầu phù hợp khi gặp sự cố không an toàn trong gia đình.",
@@ -2646,7 +2629,6 @@
         "lessonTitle": "Bài 6: An toàn với môi trường công nghệ trong gia đình (Tiết 4)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được một số việc làm thể hiện thói quen sử dụng sản phẩm công nghệ an toàn, tiết kiệm trong gia đình.",
           "- Biết tự đánh giá thói quen sử dụng thiết bị công nghệ của bản thân bằng bảng kiểm đơn giản.",
@@ -3119,7 +3101,6 @@
         "lessonTitle": "Bài 7: Dụng cụ và vật liệu làm thủ công (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Kể được tên một số vật liệu, dụng cụ đơn giản để làm thủ công.",
           "- Phân biệt được vật liệu và dụng cụ trong hoạt động làm thủ công.",
@@ -3286,7 +3267,6 @@
         "lessonTitle": "Bài 7: Dụng cụ và vật liệu làm thủ công (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Lựa chọn được vật liệu làm thủ công phù hợp, đúng yêu cầu.",
           "- Nhận biết được một số tính chất của vật liệu như mềm, cứng, thấm nước, không thấm nước.",
@@ -3457,7 +3437,6 @@
         "lessonTitle": "Bài 8. Làm đồ dùng học tập (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được tên và tác dụng của một số đồ dùng học tập quen thuộc như bút chì, thước kẻ, tẩy, hộp bút, vở, cặp sách.",
           "- Nhận biết được một số đồ dùng học tập có thể làm từ giấy, bìa, nhựa, gỗ hoặc vật liệu thủ công phù hợp.",
@@ -3609,7 +3588,6 @@
         "lessonTitle": "Bài 8. Làm đồ dùng học tập (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Lựa chọn được vật liệu và dụng cụ phù hợp để làm thước kẻ theo yêu cầu.",
           "- Thực hành được một số bước làm thước kẻ: tạo hình, tạo khung, chia vạch, hoàn thiện sản phẩm.",
@@ -3788,7 +3766,6 @@
         "lessonTitle": "Bài 9. Làm biển báo giao thông (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nêu được ý nghĩa của một số biển báo giao thông quen thuộc như biển cấm, biển báo nguy hiểm, biển chỉ dẫn.",
           "- Nhận biết được hình dạng, màu sắc và ý nghĩa của biển báo cấm đi ngược chiều để chuẩn bị làm mô hình.",
@@ -3941,7 +3918,6 @@
         "lessonTitle": "Bài 9. Làm biển báo giao thông (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Lựa chọn được vật liệu phù hợp, tiết kiệm để làm mô hình biển báo giao thông.",
           "- Thực hành được một số bước làm biển báo cấm đi ngược chiều: tạo biển báo, làm cột, làm đế, gắn và kiểm tra sản phẩm.",
@@ -4093,7 +4069,6 @@
         "lessonTitle": "Bài 9. Làm biển báo giao thông (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Hoàn thiện, trưng bày và giới thiệu được mô hình biển báo giao thông đã làm.",
           "- Nêu được ý nghĩa của biển báo và biết cam kết chấp hành biển báo khi tham gia giao thông.",
@@ -4246,7 +4221,6 @@
         "lessonTitle": "Bài 9. Làm biển báo giao thông (Tiết 4)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Hoàn thiện, giới thiệu được mô hình biển báo giao thông và nêu được ý nghĩa của biển báo đã làm.",
           "- Biết lựa chọn vật liệu sẵn có để làm thêm biển báo giao thông có hình dạng khác như hình tam giác, hình tròn, hình chữ nhật.",
@@ -4398,7 +4372,6 @@
         "lessonTitle": "Bài 10. Làm đồ chơi (Tiết 1)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được một số đồ chơi dân gian và đồ chơi hiện đại gần gũi với HS.",
           "- Nêu được tên, đặc điểm, vật liệu và cách chơi an toàn của một số đồ chơi.",
@@ -4551,7 +4524,6 @@
         "lessonTitle": "Bài 10. Làm đồ chơi (Tiết 2)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Nhận biết được các bộ phận chính và yêu cầu của sản phẩm xe đồ chơi đơn giản.",
           "- Lựa chọn được vật liệu, dụng cụ phù hợp để làm xe đồ chơi.",
@@ -4703,7 +4675,6 @@
         "lessonTitle": "Bài 10. Làm đồ chơi (Tiết 3)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Thực hành lắp ghép, thử chuyển động hoặc cách chơi của xe đồ chơi theo sản phẩm đã làm.",
           "2. Năng lực chung",
@@ -4853,7 +4824,6 @@
         "lessonTitle": "Bài 10. Làm đồ chơi (Tiết 4)",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút 1 tiết",
           "1. Năng lực đặc thù",
           "- Hoàn thiện và giới thiệu được sản phẩm đồ chơi đơn giản theo tiêu chí đã học.",
           "- Biết lập bảng tính chi phí làm xe đồ chơi theo các bước: liệt kê vật liệu, tìm giá tiền, tính tiền từng loại và tính tổng chi phí.",

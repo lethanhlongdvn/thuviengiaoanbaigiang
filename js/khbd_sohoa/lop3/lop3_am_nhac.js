@@ -14,7 +14,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 1-4-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "NỘI DUNG - - Hát: Múa lân",
+        "lessonTitle": "NỘI DUNG - Hát: Múa lân",
         "topic": "CHỦ ĐỀ 1: LỄ HỘI ÂM THANH (4 tiết)",
         "yccd": [
           "- Nhớ được tên bài hát, tên tác giả",
@@ -219,7 +219,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 5-8-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "NỘI DUNG - - Hát: Quốc ca Việt Nam",
+        "lessonTitle": "NỘI DUNG - Hát: Quốc ca Việt Nam",
         "topic": "CHỦ ĐỀ 2: EM YÊU TỔ QUỐC VIỆT NAM (4 Tiết)",
         "yccd": [
           "- HS biết bài hát Quốc ca Việt Nam do nhạc sĩ Văn Cao sáng tác, hát đúng giai điệu và lời ca của bài Quốc ca Việt Nam; biết hát với nhạc đệm, kết hợp vỗ tay theo phách và thể hiện được theo tính chất hành khúc.",
@@ -763,7 +763,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 13-18-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "NỘI DUNG: - - Tiết 13. - Học bài hát Khúc nhạc trên nương xa",
+        "lessonTitle": "NỘI DUNG: - Tiết 13. - Học bài hát Khúc nhạc trên nương xa",
         "topic": "I. YÊU CẦU CẦN ĐẠT CHUNG CẢ CHỦ ĐỀ",
         "yccd": [
           "- Hát đúng giai điệu, thuộc lời ca.",
@@ -1399,7 +1399,7 @@
     "sourceFile": "Giao_an_tich_hop-tuan 22-26-lop3.docx",
     "lessons": [
       {
-        "lessonTitle": "NỘI DUNG - - HS hát đúng giai điệu, lời ca và thể hiện được theo tính chất vui tươi của bài hát Đẹp mãi tuổi thơ. - - HS cảm nhận được tính chất nhịp nhàng của giai điệu, hiểu được ý nghĩa nội dung và biết vận động cơ thể theo nhịp điệu bài hát Ước mơ hồng.",
+        "lessonTitle": "NỘI DUNG - HS hát đúng giai điệu, lời ca và thể hiện được theo tính chất vui tươi của bài hát Đẹp mãi tuổi thơ. - HS cảm nhận được tính chất nhịp nhàng của giai điệu, hiểu được ý nghĩa nội dung và biết vận động cơ thể theo nhịp điệu bài hát Ước mơ hồng.",
         "topic": "CHỦ ĐỀ 6: ĐẸP MÃI TUỔI THƠ",
         "yccd": [
           "- HS nêu được tên bài hát và tên tác giả của bài hát.",

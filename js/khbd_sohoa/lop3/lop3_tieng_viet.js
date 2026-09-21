@@ -1,9 +1,3 @@
-/**
- * KHO KẾ HOẠCH BÀI DẠY SỐ HÓA - KHỐI 3 - MÔN TIẾNG VIỆT
- * Bộ sách: Kết nối tri thức với cuộc sống (KNTT) - Chuẩn Công văn 2345/BGDĐT
- * Thư viện Bài giảng & KHBD Tiểu học - Thầy Lê Thành Long
- */
-
 (function() {
   var grade = 3;
   var subjectId = "tieng_viet";
@@ -9431,14 +9425,9 @@
     "sourceFile": "TV TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tiết 1 (Tuần 13)",
-        "topic": "",
+        "lessonTitle": "BÀI 24: BẠN NHỎ TRONG NHÀ - Tiết 4: Luyện tập - Viết đoạn văn tả đồ vật",
+        "topic": "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Cảm nhận tình cảm gia đình ấm áp, anh chị em yêu thương, nhường nhịn, đùm bọc lẫn nhau trong các gia đình ở quê hương Trà Vinh.",
         "yccd": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 3",
-          "Tuần 13 - Chủ đề 3: MÁI NHÀ YÊU THƯƠNG",
-          "Bài 23: TÔI YÊU EM TÔI - Bài 24: BẠN NHỎ TRONG NHÀ",
-          "BÀI 23: TÔI YÊU EM TÔI",
-          "Tiết 1, 2: Đọc - Tôi yêu em tôi; Nói và nghe - Tình cảm anh chị em",
           "1. Năng lực đặc thù:",
           "- Đọc đúng, rõ ràng bài thơ Tôi yêu em tôi; biết nghỉ hơi giữa các dòng thơ và đọc với giọng thể hiện tình cảm của bạn nhỏ đối với em gái.",
           "- Hiểu được vẻ đáng yêu của em gái qua cảm nhận của nhân vật “tôi”; nhận biết tình cảm anh chị em trong gia đình qua hình ảnh, từ ngữ trong bài thơ.",
@@ -10921,14 +10910,9 @@
     "sourceFile": "TV TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tiết 1 (Tuần 15)",
-        "topic": "",
+        "lessonTitle": "BÀI 28: CON ĐƯỜNG CỦA BÉ - TIẾT 4 (35 phút)",
+        "topic": "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Mở rộng vốn hiểu biết về các nghề nghiệp truyền thống đáng tự hào ở Trà Vinh: nghề dệt chiếu Cà Hom, Hàm Tân; nghề làm bánh tét Trà Cuôn; nghề đánh bắt thủy hải sản ở vùng biển Duyên Hải.",
         "yccd": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 3",
-          "Tuần 15 - Chủ đề 4: CỘNG ĐỒNG GẮN BÓ",
-          "Bài 27: NHỮNG CHIẾC ÁO ẤM - Bài 28: CON ĐƯỜNG CỦA BÉ",
-          "BÀI 27: NHỮNG CHIẾC ÁO ẤM",
-          "Tiết 1, 2: Đọc - Những chiếc áo ấm; Nói và nghe - Thêm sức thêm tài",
           "1. Năng lực đặc thù:",
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Những chiếc áo ấm; biết nghỉ hơi ở chỗ có dấu câu, bước đầu thể hiện ngữ điệu khi đọc lời nói của nhân vật.",
           "- Nhận biết được các nhân vật, hành động, việc làm và sự đóng góp phù hợp với khả năng của mỗi nhân vật vào công việc chung.",
@@ -11618,14 +11602,9 @@
     "sourceFile": "TV TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tiết 1 (Tuần 16)",
-        "topic": "",
+        "lessonTitle": "BÀI 30: NHỮNG NGỌN HẢI ĐĂNG - TIẾT 4 (35 phút)",
+        "topic": "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 3: Khu du lịch biển Ba Động - Trang 16 TLGDĐP Lớp 3 Trà Vinh): Giới thiệu ngọn hải đăng Ba Động (thị xã Duyên Hải, Trà Vinh) sừng sững bên bờ biển Đông, ngày đêm soi sáng dẫn đường cho tàu thuyền ngư dân ra khơi vào lộng an toàn.",
         "yccd": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 3",
-          "Tuần 16 - Chủ đề 4: CỘNG ĐỒNG GẮN BÓ",
-          "Bài 29: NGÔI NHÀ TRONG CỎ - Bài 30: NHỮNG NGỌN HẢI ĐĂNG",
-          "BÀI 29: NGÔI NHÀ TRONG CỎ",
-          "Tiết 1, 2: Đọc - Ngôi nhà trong cỏ; Nói và nghe - Kể chuyện Hàng xóm của tắc kè",
           "1. Năng lực đặc thù:",
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bộ câu chuyện Ngôi nhà trong cỏ; biết nghỉ hơi ở chỗ có dấu câu, bước đầu thể hiện tâm trạng, cảm xúc của nhân vật qua giọng đọc.",
           "- Nhận biết được các sự việc xảy ra trong câu chuyện gắn với thời gian, địa điểm cụ thể; hiểu suy nghĩ, cảm xúc của nhân vật dựa vào hành động, việc làm.",
@@ -14541,14 +14520,9 @@
     "sourceFile": "TV TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tiết 1 (Tuần 20)",
-        "topic": "",
+        "lessonTitle": "BÀI 4: NHỮNG CÁI TÊN ĐÁNG YÊU - TIẾT 4 (35 phút)",
+        "topic": "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 - Trang 7 TLGDĐP Lớp 3 Trà Vinh): Liên hệ đặc điểm khí hậu 2 mùa mưa - khô của tỉnh Trà Vinh; những khó khăn của người dân vùng đồng bằng ven biển khi gặp nắng hạn kéo dài và xâm nhập mặn.",
         "yccd": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 3",
-          "Tuần 20 - Chủ đề 1: NHỮNG SẮC MÀU THIÊN NHIÊN",
-          "Bài 3: CÓC KIỆN TRỜI - Bài 4: NHỮNG CÁI TÊN ĐÁNG YÊU",
-          "BÀI 3: CÓC KIỆN TRỜI",
-          "Tiết 1, 2: Đọc - Cóc kiện trời; Nói và nghe - Kể chuyện Cóc kiện trời",
           "1. Năng lực đặc thù:",
           "- Đọc đúng, rõ ràng từ ngữ, câu, đoạn và toàn bộ câu chuyện Cóc kiện trời; biết phân biệt lời kể và lời nhân vật.",
           "- Nhận biết được các sự việc diễn ra trong câu chuyện; hiểu đặc điểm của nhân vật qua hành động, lời nói.",
@@ -17459,14 +17433,9 @@
     "sourceFile": "TV TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tiết 1 (Tuần 24)",
-        "topic": "",
+        "lessonTitle": "BÀI 12: TAY TRÁI VÀ TAY PHẢI - Tiết 4: Luyện tập - Viết đoạn văn nêu lí do thích hoặc không thích một nhân vật trong câu chuyện đã đọc, đã nghe",
+        "topic": "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 8: Tết Chôl-Chnăm-Thmây ở Trà Vinh - Trang 40 TLGDĐP Lớp 3 Trà Vinh): Giới thiệu không khí rộn ràng đón mừng năm mới Chôl-Chnăm-Thmây của đồng bào Khmer Trà Vinh với phong tục đắp núi cát, múa rô-băm, múa lâm-thôn và lời chúc tốt lành.",
         "yccd": [
-          "KẾ HOẠCH BÀI DẠY MÔN TIẾNG VIỆT LỚP 3",
-          "Tuần 24 - Chủ đề: BÀI HỌC TỪ CUỘC SỐNG",
-          "Bài 11: CHUYỆN BÊN CỬA SỔ - Bài 12: TAY TRÁI VÀ TAY PHẢI",
-          "BÀI 11: CHUYỆN BÊN CỬA SỔ",
-          "Tiết 1, 2: Đọc - Chuyện bên cửa sổ; Nói và nghe - Kể chuyện Cậu bé đánh giày",
           "1. Năng lực đặc thù:",
           "- Đọc đúng từ ngữ, câu, đoạn và toàn bài Chuyện bên cửa sổ; biết ngắt nghỉ hơi, đọc lời nhân vật và giọng kể phù hợp với tâm trạng nhân vật.",
           "- Nhận biết trình tự sự việc, hiểu việc làm, suy nghĩ, cảm xúc của cậu bé; nêu được chi tiết thể hiện sự ân hận và sự thay đổi nhận thức của nhân vật.",
@@ -27788,7 +27757,7 @@
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
+  if (typeof window !== 'undefined' && window.KHBD_DATA) {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {

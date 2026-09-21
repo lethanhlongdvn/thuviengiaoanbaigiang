@@ -14,7 +14,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 1-4- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "NỘI DUNG: - - Lí thuyết âm nhạc: Một số kí hiệu ghi nhạc",
+        "lessonTitle": "NỘI DUNG: - Lí thuyết âm nhạc: Một số kí hiệu ghi nhạc",
         "topic": "CHỦ ĐỀ 1: ÂM THANH NGÀY MỚI (4 tiết)",
         "yccd": [
           "- Nhận biết và nêu được các kí hiệu về khuông nhạc, dòng kẻ phụ, khoá Son và vị trí 7 nốt nhạc trên khuông.",
@@ -312,7 +312,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 5-8- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "NỘI DUNG - - Hát: Chim sáo",
+        "lessonTitle": "NỘI DUNG - Hát: Chim sáo",
         "topic": "CHỦ ĐỀ 2: GIAI ĐIỆU QUÊ HƯƠNG (4 Tiết)",
         "yccd": [
           "- Hát đúng giai điệu và lời ca bài Chim sáo (dân ca Khmer), biết hát với nhạc đệm, kết hợp vỗ tay theo nhịp, phách và vận động phụ họa theo nhịp điệu của bài hát, biết hát cá nhân và biết hát hòa giọng cùng nhóm.",
@@ -638,7 +638,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 9-12- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "ÔN ĐỌC NHẠC: BÀI SỐ 2 - HỌC HÁT BÀI: NẾU EM LÀ...",
+        "lessonTitle": "ÔN ĐỌC NHẠC: BÀI SỐ 2 - HỌC HÁT BÀI: NẾU EM LÀ",
         "topic": "a. Mục tiêu: Tạo tâm thế thoải mái, vui tươi trước khi vào bài học mới và ôn lại chủ đề cũ.",
         "yccd": [
           "- HS nhớ được tên bài hát, đôi nét về tác giả, nội dung của bài hát.",
@@ -701,7 +701,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 9-12- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "ÔN BÀI HÁT: NẾU EM LÀ... - NGHE NHẠC: ĐIỀU MONG ƯỚC TẶNG THẦY",
+        "lessonTitle": "ÔN BÀI HÁT: NẾU EM LÀ NGHE NHẠC: ĐIỀU MONG ƯỚC TẶNG THẦY",
         "topic": "- Nhớ tên chủ đề đang học.",
         "yccd": [
           "- HS nhớ được tên bài hát, đôi nét về tác giả, nội dung của bài nghe nhạc.",
@@ -819,7 +819,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 13-18- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "NỘI DUNG: - - Hát: Tết là tết - - Nhạc cụ: Thể hiện nhạc cụ gõ hoặc nhạc cụ giai điệu",
+        "lessonTitle": "NỘI DUNG: - Hát: Tết là tết - Nhạc cụ: Thể hiện nhạc cụ gõ hoặc nhạc cụ giai điệu",
         "topic": "CHỦ ĐỀ 4: VUI ĐÓN TẾT (4 tiết)",
         "yccd": [
           "- Hát đúng giai điệu và lời ca, thể hiện được tính chất vui tươi bài hát Tết là tết. Biết biểu diễn bài hát với hình thức phù hợp và sáng tạo.",
@@ -1223,7 +1223,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 19-22- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "NỘI DUNG - - Lí thuyết âm nhạc: Dấu lặng",
+        "lessonTitle": "NỘI DUNG - Lí thuyết âm nhạc: Dấu lặng",
         "topic": "a. Mục tiêu: Giúp HS khởi động, tạo hứng thú và kết nối vào bài học về chủ đề thiên nhiên tươi đẹp.",
         "yccd": [
           "- HS nhận biết được kí hiệu các dấu lặng.",
@@ -1501,7 +1501,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 23-26- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "Hát: Tình bạn tuổi thơ - - Nhạc cụ: Thể hiện nhạc cụ giai điệu.",
+        "lessonTitle": "Hát: Tình bạn tuổi thơ - Nhạc cụ: Thể hiện nhạc cụ giai điệu.",
         "topic": "CHỦ ĐỀ 7: TÌNH BẠN TUỔI THƠ (4 tiết)",
         "yccd": [
           "- HS nhớ tên bài hát và tên tác giả, hát đúng cao độ, trường độ, bước đầu thể hiện được tính chất hơi nhanh – vui tươi của bài hát.",
@@ -1793,7 +1793,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 27-30- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "Lý thuyết âm nhạc: Ôn tập - - Hát: Miền quê em",
+        "lessonTitle": "Lý thuyết âm nhạc: Ôn tập - Hát: Miền quê em",
         "topic": "CHỦ ĐỀ 7: ÂM NHẠC NƯỚC NGOÀI (4 tiết)",
         "yccd": [
           "- Hát đúng giai điệu, lời ca bài hát Miền quê em. Biết thể hiện tính chất nhịp nhàng của bài hát. Biết hát kết hợp gõ đệm/ vận động cơ thể, …",
@@ -2110,7 +2110,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 31-35- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "I. NỘI DUNG: (4 tiết) - - Hát: Em yêu mùa hè quê em.",
+        "lessonTitle": "I. NỘI DUNG: (4 tiết) - Hát: Em yêu mùa hè quê em.",
         "topic": "CHỦ ĐỀ 8: CHÀO MÙA HÈ (5 tiết)",
         "yccd": [
           "- Hs nhớ được tên bài hát, tác giả.",

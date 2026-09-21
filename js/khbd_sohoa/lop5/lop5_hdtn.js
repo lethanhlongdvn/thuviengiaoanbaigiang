@@ -1,9 +1,3 @@
-/**
- * KHO KẾ HOẠCH BÀI DẠY SỐ HÓA - KHỐI 5 - MÔN HOẠT ĐỘNG TRẢI NGHIỆM
- * Bộ sách: Kết nối tri thức với cuộc sống (KNTT) - Chuẩn Công văn 2345/BGDĐT
- * Thư viện Bài giảng & KHBD Tiểu học - Thầy Lê Thành Long
- */
-
 (function() {
   var grade = 5;
   var subjectId = "hdtn";
@@ -14,7 +8,7 @@
     "sourceFile": "HĐTN TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO NĂM HỌC MỚI - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO NĂM HỌC MỚI",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -131,7 +125,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHÚNG MÌNH ĐÃ LỚN - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHÚNG MÌNH ĐÃ LỚN",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -286,7 +280,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: BẬC THANG TRƯỞNG THÀNH - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: BẬC THANG TRƯỞNG THÀNH",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -424,7 +418,7 @@
     "sourceFile": "HĐTN TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI CÂU LẠC BỘ - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI CÂU LẠC BỘ",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS tham gia nghiêm túc, tích cực ngày hội câu lạc bộ học sinh của trường; biết quan sát, cổ vũ văn minh và giữ đúng nền nếp.",
@@ -511,7 +505,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỪNG BƯỚC TRƯỞNG THÀNH - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỪNG BƯỚC TRƯỞNG THÀNH",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS giới thiệu được với bạn về những thay đổi tích cực của bản thân thông qua sản phẩm, tư liệu hoặc kỉ vật từ lớp 1 đến lớp 4.",
@@ -629,7 +623,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TỪNG BƯỚC TRƯỞNG THÀNH - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TỪNG BƯỚC TRƯỞNG THÀNH",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận xét được hoạt động của bản thân, tổ, lớp trong tuần 2 và nêu được phương hướng rèn luyện tuần 3.",
@@ -782,7 +776,7 @@
     "sourceFile": "HĐTN TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NIỀM VUI NHÂN ĐÔI, NỖI BUỒN CHIA NỬA - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NIỀM VUI NHÂN ĐÔI, NỖI BUỒN CHIA NỬA",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS tham gia nghiêm túc, tích cực chương trình kể chuyện hoặc nghe kể chuyện về chủ đề “Niềm vui nhân đôi, nỗi buồn chia nửa”.",
@@ -873,7 +867,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÂN BẰNG CẢM XÚC - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÂN BẰNG CẢM XÚC",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận diện được một số cảm xúc tích cực, cảm xúc tiêu cực và nêu được lí do cần cân bằng cảm xúc.",
@@ -995,7 +989,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ CÂN BẰNG CẢM XÚC - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ CÂN BẰNG CẢM XÚC",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận xét được hoạt động của bản thân, tổ, lớp trong tuần 3 và nêu được phương hướng rèn luyện tuần 4.",
@@ -1156,7 +1150,7 @@
     "sourceFile": "HĐTN TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SỰ TRƯỞNG THÀNH CỦA HỌC SINH LỚP 5 - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SỰ TRƯỞNG THÀNH CỦA HỌC SINH LỚP 5",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS tham gia nghiêm túc, tích cực chương trình giao lưu, chia sẻ về sự trưởng thành của học sinh lớp 5 dưới mái trường tiểu học.",
@@ -1247,7 +1241,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THỂ HIỆN CẢM XÚC PHÙ HỢP - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THỂ HIỆN CẢM XÚC PHÙ HỢP",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận diện được những cách thể hiện cảm xúc chưa phù hợp trong một số tình huống cụ thể.",
@@ -1365,7 +1359,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ THỂ HIỆN CẢM XÚC PHÙ HỢP - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ THỂ HIỆN CẢM XÚC PHÙ HỢP",
         "topic": "CHỦ ĐỀ 1: EM LỚN LÊN MỖI NGÀY",
         "yccd": [
           "- HS nhận xét được hoạt động của bản thân, tổ, lớp trong tuần 4 và nêu được phương hướng rèn luyện tuần 5.",
@@ -1526,7 +1520,7 @@
     "sourceFile": "HĐTN TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: VUI TRUNG THU CÙNG BẠN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: VUI TRUNG THU CÙNG BẠN",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo chủ đề Vui Trung thu cùng bạn.",
@@ -1634,7 +1628,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC VẤN ĐỀ NẢY SINH TRONG MỐI QUAN HỆ BẠN BÈ VÀ CÁCH GIẢI QUYẾT - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC VẤN ĐỀ NẢY SINH TRONG MỐI QUAN HỆ BẠN BÈ VÀ CÁCH GIẢI QUYẾT",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS nhận diện được những vấn đề tồn tại trong mối quan hệ bạn bè.",
@@ -1771,7 +1765,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: THỰC HÀNH GIẢI QUYẾT CÁC VẤN ĐỀ NẢY SINH TRONG TÌNH BẠN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: THỰC HÀNH GIẢI QUYẾT CÁC VẤN ĐỀ NẢY SINH TRONG TÌNH BẠN",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS chia sẻ phản hồi sau tiết Hoạt động trải nghiệm trước.",
@@ -1931,7 +1925,7 @@
     "sourceFile": "HĐTN TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SẮC BÚT ĐỒNG HÀNH CÙNG EM - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SẮC BÚT ĐỒNG HÀNH CÙNG EM",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động Sinh hoạt dưới cờ theo chủ đề Sắc bút đồng hành cùng em.",
@@ -2030,7 +2024,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VẤN ĐỀ NẢY SINH GIỮA BẠN BÈ TRONG HỌC TẬP VÀ RÈN LUYỆN - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VẤN ĐỀ NẢY SINH GIỮA BẠN BÈ TRONG HỌC TẬP VÀ RÈN LUYỆN",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS nhận diện được những vấn đề thường nảy sinh giữa bạn bè trong học tập, rèn luyện.",
@@ -2164,7 +2158,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: HỢP TÁC ĐỂ THỰC HIỆN SẢN PHẨM CHUNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: HỢP TÁC ĐỂ THỰC HIỆN SẢN PHẨM CHUNG",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS chia sẻ phản hồi sau tiết Hoạt động trải nghiệm trước.",
@@ -2333,7 +2327,7 @@
     "sourceFile": "HĐTN TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI TRAO ĐỔI SÁCH - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: NGÀY HỘI TRAO ĐỔI SÁCH",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS tham gia nghiêm túc Ngày hội trao đổi sách theo kế hoạch của nhà trường.",
@@ -2437,7 +2431,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TÌNH BẠN - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TÌNH BẠN",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS đề xuất và thực hiện được các việc làm giúp giữ gìn, nuôi dưỡng tình bạn.",
@@ -2579,7 +2573,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: NUÔI DƯỠNG TÌNH BẠN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: NUÔI DƯỠNG TÌNH BẠN",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS chia sẻ được phản hồi sau tiết Hoạt động trải nghiệm trước.",
@@ -2753,7 +2747,7 @@
     "sourceFile": "HĐTN TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TRÒ CHUYỆN VỀ CHỦ ĐỀ “KHOA HỌC SÁNG TẠO” - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TRÒ CHUYỆN VỀ CHỦ ĐỀ “KHOA HỌC SÁNG TẠO”",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS tham gia nghiêm túc buổi trò chuyện về chủ đề “Khoa học sáng tạo” theo kế hoạch của nhà trường.",
@@ -2852,7 +2846,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KẾ HOẠCH HOẠT ĐỘNG “CÙNG LÀM NÊN KỈ NIỆM” - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: KẾ HOẠCH HOẠT ĐỘNG “CÙNG LÀM NÊN KỈ NIỆM”",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS cùng lập kế hoạch cụ thể cho chuỗi hoạt động “Cùng làm nên kỉ niệm”.",
@@ -2981,7 +2975,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CÙNG LÀM NÊN KỈ NIỆM - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CÙNG LÀM NÊN KỈ NIỆM",
         "topic": "CHỦ ĐỀ 2: GIỮ GÌN TÌNH BẠN",
         "yccd": [
           "- HS chia sẻ phản hồi sau tiết Hoạt động trải nghiệm trước.",
@@ -3139,7 +3133,7 @@
     "sourceFile": "HĐTN TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: PHÁT ĐỘNG TỔ CHỨC SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: PHÁT ĐỘNG TỔ CHỨC SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động phát động tổ chức sự kiện về truyền thống tôn sư trọng đạo của nhà trường.",
@@ -3239,7 +3233,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỰ KIỆN VỀ TRUYỀN THỐNG TÔN SƯ TRỌNG ĐẠO",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS chủ động thảo luận, đề xuất các hoạt động mình có thể tham gia tổ chức trong chuỗi sự kiện về truyền thống tôn sư trọng đạo.",
@@ -3377,7 +3371,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: GIỚI THIỆU VỀ TRUYỀN THỐNG NHÀ TRƯỜNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: GIỚI THIỆU VỀ TRUYỀN THỐNG NHÀ TRƯỜNG",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS chia sẻ phản hồi sau tiết Hoạt động giáo dục theo chủ đề và kiểm tra tiến độ thực hiện kế hoạch sự kiện.",
@@ -3551,7 +3545,7 @@
     "sourceFile": "HĐTN TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CÁC TRUYỆN TRUYỀN CẢM HỨNG CỦA NHÀ TRƯỜNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CÁC TRUYỆN TRUYỀN CẢM HỨNG CỦA NHÀ TRƯỜNG",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động giới thiệu truyền thống của nhà trường thông qua những bài viết, câu chuyện truyền cảm hứng.",
@@ -3651,7 +3645,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÂM SỰ THẦY - TRÒ - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÂM SỰ THẦY - TRÒ",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tạo được cảm xúc ấm áp, tin cậy giữa thầy và trò.",
@@ -3801,7 +3795,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TÂM SỰ THẦY - TRÒ - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CỦNG CỐ, CHIA SẺ VÀ VẬN DỤNG CHỦ ĐỀ TÂM SỰ THẦY - TRÒ",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS phản hồi kết quả vận dụng sau tiết HĐTN trước; xác định được các vấn đề thường nảy sinh trong mối quan hệ thầy trò.",
@@ -3975,7 +3969,7 @@
     "sourceFile": "HĐTN TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: VĂN NGHỆ VỀ CHỦ ĐỀ “TÌNH THẦY TRÒ” - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: VĂN NGHỆ VỀ CHỦ ĐỀ “TÌNH THẦY TRÒ”",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tham gia nghiêm túc hoạt động văn nghệ, tiểu phẩm, đọc thơ về chủ đề tình thầy trò theo kế hoạch của nhà trường.",
@@ -4071,7 +4065,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VUN ĐẮP TÌNH THẦY TRÒ - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: VUN ĐẮP TÌNH THẦY TRÒ",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS đề xuất và thực hiện được các việc làm giúp giữ gìn, nuôi dưỡng tình thầy trò.",
@@ -4207,7 +4201,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: SẢN PHẨM TRI ÂN THẦY CÔ - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: SẢN PHẨM TRI ÂN THẦY CÔ",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS chia sẻ được phản hồi sau tiết Hoạt động trải nghiệm trước.",
@@ -4372,7 +4366,7 @@
     "sourceFile": "HĐTN TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: LỄ KỈ NIỆM NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: LỄ KỈ NIỆM NGÀY NHÀ GIÁO VIỆT NAM 20-11",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tham gia nghiêm túc Lễ kỉ niệm ngày Nhà giáo Việt Nam 20-11 theo kế hoạch của nhà trường.",
@@ -4468,7 +4462,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUẨN BỊ CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHUẨN BỊ CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS tổng kết được việc tham gia tổ chức sự kiện về truyền thống tôn sư trọng đạo.",
@@ -4591,7 +4585,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
         "topic": "CHỦ ĐỀ 3: TÔN SƯ TRỌNG ĐẠO",
         "yccd": [
           "- HS chung tay tổ chức được một ngày hội chúc mừng thầy cô trong phạm vi lớp học.",
@@ -4760,7 +4754,7 @@
     "sourceFile": "HĐTN TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4849,7 +4843,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5016,7 +5010,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5201,7 +5195,7 @@
     "sourceFile": "HĐTN TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5274,7 +5268,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5387,7 +5381,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5492,7 +5486,7 @@
     "sourceFile": "HĐTN TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5576,7 +5570,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5691,7 +5685,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5851,7 +5845,7 @@
     "sourceFile": "HĐTN TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5931,7 +5925,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6040,7 +6034,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "topic": "CHỦ ĐỀ 4: QUẢN LÍ CHI TIÊU VÀ LẬP KẾ HOẠCH KINH DOANH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6197,7 +6191,7 @@
     "sourceFile": "HĐTN TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6281,7 +6275,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6390,7 +6384,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6554,7 +6548,7 @@
     "sourceFile": "HĐTN TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6642,7 +6636,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6772,7 +6766,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6921,7 +6915,7 @@
     "sourceFile": "HĐTN TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7005,7 +6999,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7123,7 +7117,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7264,7 +7258,7 @@
     "sourceFile": "HĐTN TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7348,7 +7342,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7466,7 +7460,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: GIA ĐÌNH ĐẦM ẤM",
         "topic": "CHỦ ĐỀ 5: GIA ĐÌNH ĐẦM ẤM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7630,7 +7624,7 @@
     "sourceFile": "HĐTN TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ - RÈN LUYỆN SỨC KHỎE - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ - RÈN LUYỆN SỨC KHỎE",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7711,7 +7705,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - NHẬN DIỆN CÁC MÔI TRƯỜNG HỌC TẬP MỚI - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - NHẬN DIỆN CÁC MÔI TRƯỜNG HỌC TẬP MỚI",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7822,7 +7816,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP - TRẢI NGHIỆM MÔI TRƯỜNG HỌC TẬP MỚI - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP - TRẢI NGHIỆM MÔI TRƯỜNG HỌC TẬP MỚI",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7942,7 +7936,7 @@
     "sourceFile": "HĐTN TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: RÈN LUYỆN THỂ CHẤT VÀ TINH THẦN ĐỂ THÍCH ỨNG VỚI CUỘC SỐNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: RÈN LUYỆN THỂ CHẤT VÀ TINH THẦN ĐỂ THÍCH ỨNG VỚI CUỘC SỐNG",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8027,7 +8021,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC ĐỨC TÍNH CẦN THIẾT TRONG MÔI TRƯỜNG HỌC TẬP MỚI - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CÁC ĐỨC TÍNH CẦN THIẾT TRONG MÔI TRƯỜNG HỌC TẬP MỚI",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8150,7 +8144,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: RÈN LUYỆN ĐỨC TÍNH CẦN THIẾT ĐỂ THÍCH ỨNG VỚI MÔI TRƯỜNG HỌC TẬP MỚI - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: RÈN LUYỆN ĐỨC TÍNH CẦN THIẾT ĐỂ THÍCH ỨNG VỚI MÔI TRƯỜNG HỌC TẬP MỚI",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8287,7 +8281,7 @@
     "sourceFile": "HĐTN TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: KỈ NIỆM NGÀY QUỐC TẾ PHỤ NỮ 8-3 - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: KỈ NIỆM NGÀY QUỐC TẾ PHỤ NỮ 8-3",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8376,7 +8370,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8498,7 +8492,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: ỨNG XỬ THEO QUY TẮC TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: ỨNG XỬ THEO QUY TẮC TỰ CHỦ VÀ ĐẢM BẢO AN TOÀN KHI GIAO TIẾP TRÊN MẠNG",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8631,7 +8625,7 @@
     "sourceFile": "HĐTN TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TỰ BẢO VỆ BẢN THÂN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TỰ BẢO VỆ BẢN THÂN",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8719,7 +8713,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGUYÊN NHÂN VÀ CÁCH PHÒNG CHỐNG HOẢ HOẠN - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NGUYÊN NHÂN VÀ CÁCH PHÒNG CHỐNG HOẢ HOẠN",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8837,7 +8831,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: THỰC HÀNH THOÁT HIỂM - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: THỰC HÀNH THOÁT HIỂM",
         "topic": "CHỦ ĐỀ 6: SỐNG AN TOÀN VÀ TỰ CHỦ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8973,7 +8967,7 @@
     "sourceFile": "HĐTN TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: LỄ HỘI TRUYỀN THỐNG ĐỊA PHƯƠNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: LỄ HỘI TRUYỀN THỐNG ĐỊA PHƯƠNG",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9061,7 +9055,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA LỄ HỘI TRUYỀN THỐNG Ở ĐỊA PHƯƠNG - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA LỄ HỘI TRUYỀN THỐNG Ở ĐỊA PHƯƠNG",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9175,7 +9169,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: TÁI HIỆN LỄ HỘI TRUYỀN THỐNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: TÁI HIỆN LỄ HỘI TRUYỀN THỐNG",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9307,7 +9301,7 @@
     "sourceFile": "HĐTN TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: THAM GIA HOẠT ĐỘNG XÃ HỘI Ở ĐỊA PHƯƠNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: THAM GIA HOẠT ĐỘNG XÃ HỘI Ở ĐỊA PHƯƠNG",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9391,7 +9385,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA HOẠT ĐỘNG XÃ HỘI - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9505,7 +9499,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CHUNG TAY VÌ CỘNG ĐỒNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CHUNG TAY VÌ CỘNG ĐỒNG",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9619,7 +9613,7 @@
     "sourceFile": "HĐTN TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GƯƠNG NGƯỜI TỐT, VIỆC TỐT - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: GƯƠNG NGƯỜI TỐT, VIỆC TỐT",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9703,7 +9697,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÂN THIỆN VỚI NGƯỜI XUNG QUANH - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÂN THIỆN VỚI NGƯỜI XUNG QUANH",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9821,7 +9815,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: ĐÁNH GIÁ VIỆC THAM GIA HOẠT ĐỘNG XÃ HỘI - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: ĐÁNH GIÁ VIỆC THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG XÃ HỘI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9958,7 +9952,7 @@
     "sourceFile": "HĐTN TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: BÌNH ẢNH QUÊ HƯƠNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: BÌNH ẢNH QUÊ HƯƠNG",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10042,7 +10036,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ HÀO VỀ CẢNH QUAN THIÊN NHIÊN CỦA QUÊ HƯƠNG, ĐẤT NƯỚC - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ HÀO VỀ CẢNH QUAN THIÊN NHIÊN CỦA QUÊ HƯƠNG, ĐẤT NƯỚC",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10158,7 +10152,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: VIỆT NAM TRONG MẮT EM - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: VIỆT NAM TRONG MẮT EM",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10295,7 +10289,7 @@
     "sourceFile": "HĐTN TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: BẢO TỒN CẢNH QUAN THIÊN NHIÊN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10419,7 +10413,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIỆN PHÁP BẢO TỒN CẢNH QUAN THIÊN NHIÊN - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: BIỆN PHÁP BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10597,7 +10591,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: TUYÊN TRUYỀN VỀ VIỆC BẢO TỒN CẢNH QUAN THIÊN NHIÊN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: TUYÊN TRUYỀN VỀ VIỆC BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10794,7 +10788,7 @@
     "sourceFile": "HĐTN TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SẢN PHẨM TUYÊN TRUYỀN BẢO TỒN CẢNH QUAN THIÊN NHIÊN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: SẢN PHẨM TUYÊN TRUYỀN BẢO TỒN CẢNH QUAN THIÊN NHIÊN",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10910,7 +10904,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LẬP KẾ HOẠCH KHẢO SÁT THỰC TRẠNG MÔI TRƯỜNG QUANH EM - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LẬP KẾ HOẠCH KHẢO SÁT THỰC TRẠNG MÔI TRƯỜNG QUANH EM",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11088,7 +11082,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CHÚNG TÔI LÊN TIẾNG VÌ MÔI TRƯỜNG - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CHÚNG TÔI LÊN TIẾNG VÌ MÔI TRƯỜNG",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11301,7 +11295,7 @@
     "sourceFile": "HĐTN TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TỰ HÀO QUÊ HƯƠNG EM",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11422,7 +11416,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TỰ HÀO QUÊ HƯƠNG EM",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11601,7 +11595,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: TỰ HÀO QUÊ HƯƠNG EM",
         "topic": "CHỦ ĐỀ 8: TỰ HÀO QUÊ HƯƠNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11818,7 +11812,7 @@
     "sourceFile": "HĐTN TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11935,7 +11929,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12109,7 +12103,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12326,7 +12320,7 @@
     "sourceFile": "HĐTN TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12443,7 +12437,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12613,7 +12607,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12803,7 +12797,7 @@
     "sourceFile": "HĐTN TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12920,7 +12914,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13082,7 +13076,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13272,7 +13266,7 @@
     "sourceFile": "HĐTN TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13389,7 +13383,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13555,7 +13549,7 @@
         ]
       },
       {
-        "lessonTitle": "Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: ƯỚC MƠ NGHỀ NGHIỆP",
         "topic": "CHỦ ĐỀ 9: ƯỚC MƠ NGHỀ NGHIỆP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13747,7 +13741,7 @@
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
+  if (typeof window !== 'undefined' && window.KHBD_DATA) {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {

@@ -2099,7 +2099,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 13 - BÀI 5. SỬ DỤNG ĐIỆN THOẠI (Tiết 1)",
+        "lessonTitle": "BÀI 5. SỬ DỤNG ĐIỆN THOẠI (Tiết 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2248,7 +2248,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 14 - BÀI 5. SỬ DỤNG ĐIỆN THOẠI (Tiết 2)",
+        "lessonTitle": "BÀI 5. SỬ DỤNG ĐIỆN THOẠI (Tiết 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2407,7 +2407,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 15 - BÀI 5. SỬ DỤNG ĐIỆN THOẠI (Tiết 3)",
+        "lessonTitle": "BÀI 5. SỬ DỤNG ĐIỆN THOẠI (Tiết 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2547,7 +2547,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 16 - BÀI 5. SỬ DỤNG ĐIỆN THOẠI (Tiết 4)",
+        "lessonTitle": "BÀI 5. SỬ DỤNG ĐIỆN THOẠI (Tiết 4)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2680,7 +2680,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 17 - ÔN TẬP CUỐI HỌC KÌ I",
+        "lessonTitle": "ÔN TẬP CUỐI HỌC KÌ I",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2974,7 +2974,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 19 - BÀI 6. SỬ DỤNG TỦ LẠNH (Tiết 1)",
+        "lessonTitle": "BÀI 6. SỬ DỤNG TỦ LẠNH (Tiết 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3130,7 +3130,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 20 - BÀI 6. SỬ DỤNG TỦ LẠNH (Tiết 2)",
+        "lessonTitle": "BÀI 6. SỬ DỤNG TỦ LẠNH (Tiết 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3275,7 +3275,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 21 - BÀI 6. SỬ DỤNG TỦ LẠNH (Tiết 3)",
+        "lessonTitle": "BÀI 6. SỬ DỤNG TỦ LẠNH (Tiết 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3406,7 +3406,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 22 - BÀI 7. LẮP RÁP MÔ HÌNH XE ĐIỆN CHẠY BẰNG PIN (Tiết 1)",
+        "lessonTitle": "BÀI 7. LẮP RÁP MÔ HÌNH XE ĐIỆN CHẠY BẰNG PIN (Tiết 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3552,7 +3552,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 23 - BÀI 7. LẮP RÁP MÔ HÌNH XE ĐIỆN CHẠY BẰNG PIN (Tiết 2)",
+        "lessonTitle": "BÀI 7. LẮP RÁP MÔ HÌNH XE ĐIỆN CHẠY BẰNG PIN (Tiết 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3685,7 +3685,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 24 - BÀI 7. LẮP RÁP MÔ HÌNH XE ĐIỆN CHẠY BẰNG PIN (Tiết 3)",
+        "lessonTitle": "BÀI 7. LẮP RÁP MÔ HÌNH XE ĐIỆN CHẠY BẰNG PIN (Tiết 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4039,7 +4039,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 26 - BÀI 8. MÔ HÌNH MÁY PHÁT ĐIỆN GIÓ (Tiết 1)",
+        "lessonTitle": "BÀI 8. MÔ HÌNH MÁY PHÁT ĐIỆN GIÓ (Tiết 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4170,7 +4170,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 27 - BÀI 8. MÔ HÌNH MÁY PHÁT ĐIỆN GIÓ (Tiết 2)",
+        "lessonTitle": "BÀI 8. MÔ HÌNH MÁY PHÁT ĐIỆN GIÓ (Tiết 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4292,7 +4292,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 28 - BÀI 8. MÔ HÌNH MÁY PHÁT ĐIỆN GIÓ (Tiết 3)",
+        "lessonTitle": "BÀI 8. MÔ HÌNH MÁY PHÁT ĐIỆN GIÓ (Tiết 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4668,7 +4668,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 30 - BÀI 9. MÔ HÌNH ĐIỆN MẶT TRỜI (Tiết 1)",
+        "lessonTitle": "BÀI 9. MÔ HÌNH ĐIỆN MẶT TRỜI (Tiết 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4791,7 +4791,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 31 - BÀI 9. MÔ HÌNH ĐIỆN MẶT TRỜI (Tiết 2)",
+        "lessonTitle": "BÀI 9. MÔ HÌNH ĐIỆN MẶT TRỜI (Tiết 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4922,7 +4922,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 32 - BÀI 9. MÔ HÌNH ĐIỆN MẶT TRỜI (Tiết 3)",
+        "lessonTitle": "BÀI 9. MÔ HÌNH ĐIỆN MẶT TRỜI (Tiết 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5041,7 +5041,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 33 - BÀI 9. MÔ HÌNH ĐIỆN MẶT TRỜI (Tiết 4)",
+        "lessonTitle": "BÀI 9. MÔ HÌNH ĐIỆN MẶT TRỜI (Tiết 4)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5154,7 +5154,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 34 - ÔN TẬP CUỐI NĂM",
+        "lessonTitle": "ÔN TẬP CUỐI NĂM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

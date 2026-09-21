@@ -138,9 +138,17 @@ var KHBD_DATA = {
         .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
         .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
         .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
-        .replace(/[\s\-–—•·]*[\-–—]\s*(?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:[^\-–—\(\)]*(?:đến[^\-–—\(\)]*)?/gi, ' ')
+        .replace(/^(?:[.…\s_–—-]{3,}\s*[-–—:]*\s*)+/g, '')
+        .replace(/^\s*\(\d+\s*tiết\)\s*[-–—\s]*/gi, '')
+        .replace(/^MÔN:\s*[^–—-]+[-–—]\s*(?:LỚP\s*\d+\s*[-–—]\s*)?(?:BỘ SÁCH:[^–—-]+[-–—]\s*)?/i, '')
+        .replace(/[\s\-–—•·]*[-–—]?\s*SỐ\s*TIẾT\s*:\s*\d+\s*(?:TIẾT)?/gi, ' ')
+        .replace(/[\s\-–—•·]*[-–—]?\s*(?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:[^\-–—\(\)\n]*(?:đến[^\-–—\(\)\n]*)?/gi, ' ')
         .replace(/\s*\((?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:[^\)]*\)/gi, ' ')
         .replace(/[\s\-–—•·]*(?:Thời\s*gian|Ngày)\s*thực\s*hiện\s*:\s*[.\s_…/–\-]*(?:\(.*\))?/gi, ' ')
+        .replace(/[-–—]?\s*[.…]{3,}\s*[-–—]?/g, ' ')
+        .replace(/\s*[\-–—]+\s*[\-–—]+\s*/g, ' - ')
+        .replace(/\s*[\-–—]+\s*$/g, '')
+        .replace(/^\s*[\-–—]+\s*/g, '')
         .trim();
 
     return '<div class="lesson-plan-preview" style="font-family: Times New Roman, serif; font-size: 12pt; line-height: 1.45; color: #000; background: #fff; padding: 1.25rem; border: 1px solid #cbd5e1; border-radius: 4px;">' +

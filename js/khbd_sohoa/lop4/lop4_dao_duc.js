@@ -1016,7 +1016,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 9: THỰC HÀNH KỸ NĂNG GIỮA HỌC KỲ I",
+        "lessonTitle": "THỰC HÀNH KỸ NĂNG GIỮA HỌC KỲ I",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3485,7 +3485,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 26: THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ II",
+        "lessonTitle": "THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ II",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

@@ -14,7 +14,7 @@
     "sourceFile": "KHOA HỌC TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -337,7 +337,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 1: TÍNH CHẤT CỦA NƯỚC VÀ NƯỚC VỚI CUỘC SỐNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -542,7 +542,7 @@
     "sourceFile": "KHOA HỌC TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -732,7 +732,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 2: SỰ CHUYỂN THỂ CỦA NƯỚC VÀ VÒNG TUẦN HOÀN CỦA NƯỚC TRONG TỰ NHIÊN (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -986,7 +986,7 @@
     "sourceFile": "KHOA HỌC TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1134,7 +1134,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 3: SỰ Ô NHIỄM VÀ BẢO VỆ NGUỒN NƯỚC. MỘT SỐ CÁCH LÀM SẠCH NƯỚC (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1364,7 +1364,7 @@
     "sourceFile": "KHOA HỌC TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1501,7 +1501,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 4: KHÔNG KHÍ CÓ Ở ĐÂU? TÍNH CHẤT VÀ THÀNH PHẦN CỦA KHÔNG KHÍ (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1682,7 +1682,7 @@
     "sourceFile": "KHOA HỌC TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1800,7 +1800,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 5: VAI TRÒ CỦA KHÔNG KHÍ VÀ BẢO VỆ BẦU KHÔNG KHÍ TRONG LÀNH (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -1976,7 +1976,7 @@
     "sourceFile": "KHOA HỌC TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2103,7 +2103,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 6: GIÓ, BÃO VÀ PHÒNG CHỐNG BÃO (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2295,7 +2295,7 @@
     "sourceFile": "KHOA HỌC TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: ÔN TẬP CHỦ ĐỀ CHẤT - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 7: ÔN TẬP CHỦ ĐỀ CHẤT (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2435,7 +2435,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2629,7 +2629,7 @@
     "sourceFile": "KHOA HỌC TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 8: ÁNH SÁNG VÀ SỰ TRUYỀN ÁNH SÁNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2781,7 +2781,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -2951,7 +2951,7 @@
     "sourceFile": "KHOA HỌC TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 9: VAI TRÒ CỦA ÁNH SÁNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3091,7 +3091,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3292,7 +3292,7 @@
     "sourceFile": "KHOA HỌC TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 10: ÂM THANH VÀ SỰ TRUYỀN ÂM THANH (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3471,7 +3471,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3653,7 +3653,7 @@
     "sourceFile": "KHOA HỌC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -3807,7 +3807,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - SỐ TIẾT: 3 - BÀI HỌC STEM: CHẾ TẠO NHẠC CỤ ĐƠN GIẢN - Ngày thực hiện: .................................................... (TIẾT 3)",
+        "lessonTitle": "BÀI 11: ÂM THANH TRONG CUỘC SỐNG - BÀI HỌC STEM: CHẾ TẠO NHẠC CỤ ĐƠN GIẢN (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4004,7 +4004,7 @@
     "sourceFile": "KHOA HỌC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4161,7 +4161,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 12: NHIỆT ĐỘ VÀ SỰ TRUYỀN NHIỆT (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4384,7 +4384,7 @@
     "sourceFile": "KHOA HỌC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4548,7 +4548,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM - SỐ TIẾT: 2 - BÀI HỌC STEM: BÌNH GIỮ NHIỆT - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 13: VẬT DẪN NHIỆT TỐT, VẬT DẪN NHIỆT KÉM - BÀI HỌC STEM: BÌNH GIỮ NHIỆT (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4783,7 +4783,7 @@
     "sourceFile": "KHOA HỌC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 14: ÔN TẬP CHỦ ĐỀ NĂNG LƯỢNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -4931,7 +4931,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5143,7 +5143,7 @@
     "sourceFile": "KHOA HỌC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5276,7 +5276,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
+        "lessonTitle": "BÀI 15: THỰC VẬT CẦN GÌ ĐỂ SỐNG? (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5487,7 +5487,7 @@
     "sourceFile": "KHOA HỌC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5619,7 +5619,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5805,7 +5805,7 @@
     "sourceFile": "KHOA HỌC TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
+        "lessonTitle": "BÀI 16: ĐỘNG VẬT CẦN GÌ ĐỂ SỐNG? (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -5946,7 +5946,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6091,7 +6091,7 @@
     "sourceFile": "KHOA HỌC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 17: CHĂM SÓC CÂY TRỒNG, VẬT NUÔI (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6219,7 +6219,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI ÔN TẬP, ĐÁNH GIÁ HỌC KÌ I: MÔN KHOA HỌC 4 - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI ÔN TẬP, ĐÁNH GIÁ HỌC KÌ I: MÔN KHOA HỌC 4 (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6359,7 +6359,7 @@
     "sourceFile": "KHOA HỌC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 18: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 18: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6483,7 +6483,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6615,7 +6615,7 @@
     "sourceFile": "KHOA HỌC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 19: ĐẶC ĐIỂM CHUNG CỦA NẤM (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6756,7 +6756,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -6934,7 +6934,7 @@
     "sourceFile": "KHOA HỌC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 20: NẤM ĂN VÀ NẤM TRONG CHẾ BIẾN THỰC PHẨM (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7077,7 +7077,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7281,7 +7281,7 @@
     "sourceFile": "KHOA HỌC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 21: NẤM GÂY HỎNG THỰC PHẨM VÀ NẤM ĐỘC (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7417,7 +7417,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 22: ÔN TẬP CHỦ ĐỀ NẤM - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 22: ÔN TẬP CHỦ ĐỀ NẤM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7604,7 +7604,7 @@
     "sourceFile": "KHOA HỌC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7743,7 +7743,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 23: VAI TRÒ CỦA CHẤT DINH DƯỠNG ĐỐI VỚI CƠ THỂ (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7947,7 +7947,7 @@
     "sourceFile": "KHOA HỌC TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8111,7 +8111,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8227,7 +8227,7 @@
     "sourceFile": "KHOA HỌC TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
+        "lessonTitle": "BÀI 24: CHẾ ĐỘ ĂN UỐNG CÂN BẰNG (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8329,7 +8329,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8465,7 +8465,7 @@
     "sourceFile": "KHOA HỌC TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8599,7 +8599,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
+        "lessonTitle": "BÀI 25: MỘT SỐ BỆNH LIÊN QUAN ĐẾN DINH DƯỠNG (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8733,7 +8733,7 @@
     "sourceFile": "KHOA HỌC TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 26: THỰC PHẨM AN TOÀN - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 26: THỰC PHẨM AN TOÀN (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8882,7 +8882,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 26: THỰC PHẨM AN TOÀN - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 26: THỰC PHẨM AN TOÀN (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9021,7 +9021,7 @@
     "sourceFile": "KHOA HỌC TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9158,7 +9158,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 27: PHÒNG TRÁNH ĐUỐI NƯỚC (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9316,7 +9316,7 @@
     "sourceFile": "KHOA HỌC TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9461,7 +9461,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE - SỐ TIẾT: 2 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 28: ÔN TẬP VỀ CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9598,7 +9598,7 @@
     "sourceFile": "KHOA HỌC TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9743,7 +9743,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9901,7 +9901,7 @@
     "sourceFile": "KHOA HỌC TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
+        "lessonTitle": "BÀI 29: CHUỖI THỨC ĂN TRONG TỰ NHIÊN (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10036,7 +10036,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10174,7 +10174,7 @@
     "sourceFile": "KHOA HỌC TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10315,7 +10315,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
+        "lessonTitle": "BÀI 30: VAI TRÒ CỦA THỰC VẬT TRONG CHUỖI THỨC ĂN (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10472,7 +10472,7 @@
     "sourceFile": "KHOA HỌC TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 31: ÔN TẬP CHỦ ĐỀ SINH VẬT VÀ MÔI TRƯỜNG - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI 31: ÔN TẬP CHỦ ĐỀ SINH VẬT VÀ MÔI TRƯỜNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10628,7 +10628,7 @@
         ]
       },
       {
-        "lessonTitle": "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10747,7 +10747,7 @@
     "sourceFile": "KHOA HỌC TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10884,7 +10884,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM - SỐ TIẾT: 3 - Ngày thực hiện: .................................................... (TIẾT 3)",
+        "lessonTitle": "BÀI: ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10990,7 +10990,7 @@
     "sourceFile": "KHOA HỌC TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI: TỔNG KẾT MÔN HỌC - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 1)",
+        "lessonTitle": "BÀI: TỔNG KẾT MÔN HỌC (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -11100,7 +11100,7 @@
         ]
       },
       {
-        "lessonTitle": "BÀI: KIỂM TRA CUỐI HỌC KÌ II - SỐ TIẾT: 1 - Ngày thực hiện: .................................................... (TIẾT 2)",
+        "lessonTitle": "BÀI: KIỂM TRA CUỐI HỌC KÌ II (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",

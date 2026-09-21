@@ -300,7 +300,7 @@
     "sourceFile": "TNXH TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 2: BÀI 1: HỌ HÀNG VÀ NHỮNG NGÀY KỈ NIỆM CỦA GIA ĐÌNH (TIẾT 3)",
+        "lessonTitle": "BÀI 1: HỌ HÀNG VÀ NHỮNG NGÀY KỈ NIỆM CỦA GIA ĐÌNH (TIẾT 3)",
         "topic": "CHỦ ĐỀ 1: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -639,7 +639,7 @@
     "sourceFile": "TNXH TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 3: BÀI 2: PHÒNG TRÁNH HOẢ HOẠN KHI Ở NHÀ (TIẾT 2)",
+        "lessonTitle": "BÀI 2: PHÒNG TRÁNH HOẢ HOẠN KHI Ở NHÀ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -963,7 +963,7 @@
     "sourceFile": "TNXH TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 4: BÀI 3: VỆ SINH XUNG QUANH NHÀ (TIẾT 2)",
+        "lessonTitle": "BÀI 3: VỆ SINH XUNG QUANH NHÀ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1363,7 +1363,7 @@
     "sourceFile": "TNXH TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 5: BÀI 4: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH (TIẾT 2)",
+        "lessonTitle": "BÀI 4: ÔN TẬP CHỦ ĐỀ GIA ĐÌNH (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1814,7 +1814,7 @@
     "sourceFile": "TNXH TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 6: BÀI 5: HOẠT ĐỘNG KẾT NỐI VỚI CỘNG ĐỒNG (TIẾT 2)",
+        "lessonTitle": "BÀI 5: HOẠT ĐỘNG KẾT NỐI VỚI CỘNG ĐỒNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2250,7 +2250,7 @@
     "sourceFile": "TNXH TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 7: BÀI 6: TRUYỀN THỐNG TRƯỜNG EM (TIẾT 2)",
+        "lessonTitle": "BÀI 6: TRUYỀN THỐNG TRƯỜNG EM (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2572,7 +2572,7 @@
     "sourceFile": "TNXH TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 8: BÀI 7: GIỮ AN TOÀN VÀ VỆ SINH Ở TRƯỜNG (TIẾT 2)",
+        "lessonTitle": "BÀI 7: GIỮ AN TOÀN VÀ VỆ SINH Ở TRƯỜNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2888,7 +2888,7 @@
     "sourceFile": "TNXH TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 9: BÀI 8: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC (TIẾT 1)",
+        "lessonTitle": "BÀI 8: ÔN TẬP CHỦ ĐỀ TRƯỜNG HỌC (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: TRƯỜNG HỌC",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3232,7 +3232,7 @@
     "sourceFile": "TNXH TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 10: BÀI 9: HOẠT ĐỘNG SẢN XUẤT NÔNG NGHIỆP (TIẾT 1)",
+        "lessonTitle": "BÀI 9: HOẠT ĐỘNG SẢN XUẤT NÔNG NGHIỆP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3624,7 +3624,7 @@
     "sourceFile": "TNXH TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 11: BÀI 9: HOẠT ĐỘNG SẢN XUẤT NÔNG NGHIỆP (TIẾT 3)",
+        "lessonTitle": "BÀI 9: HOẠT ĐỘNG SẢN XUẤT NÔNG NGHIỆP (TIẾT 3)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3955,7 +3955,7 @@
     "sourceFile": "TNXH TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 12: BÀI 10: HOẠT ĐỘNG SẢN XUẤT THỦ CÔNG VÀ CÔNG NGHIỆP (TIẾT 2)",
+        "lessonTitle": "BÀI 10: HOẠT ĐỘNG SẢN XUẤT THỦ CÔNG VÀ CÔNG NGHIỆP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4281,7 +4281,7 @@
     "sourceFile": "TNXH TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 13: BÀI 11: DI TÍCH LỊCH SỬ – VĂN HOÁ VÀ CẢNH QUAN THIÊN NHIÊN (TIẾT 1)",
+        "lessonTitle": "BÀI 11: DI TÍCH LỊCH SỬ – VĂN HOÁ VÀ CẢNH QUAN THIÊN NHIÊN (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4693,7 +4693,7 @@
     "sourceFile": "TNXH TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 14: BÀI 12: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 1)",
+        "lessonTitle": "BÀI 12: ÔN TẬP CHỦ ĐỀ CỘNG ĐỒNG ĐỊA PHƯƠNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: CỘNG ĐỒNG ĐỊA PHƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5067,7 +5067,7 @@
     "sourceFile": "TNXH TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 15: BÀI 13: MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 1)",
+        "lessonTitle": "BÀI 13: MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5301,7 +5301,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN 15: BÀI 13: MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 2)",
+        "lessonTitle": "BÀI 13: MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5696,7 +5696,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN 16: BÀI 14: CHỨC NĂNG MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 1)",
+        "lessonTitle": "BÀI 14: CHỨC NĂNG MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5888,7 +5888,7 @@
     "sourceFile": "TNXH TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 17: BÀI 14: CHỨC NĂNG MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 2)",
+        "lessonTitle": "BÀI 14: CHỨC NĂNG MỘT SỐ BỘ PHẬN CỦA THỰC VẬT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6058,7 +6058,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN 17: ÔN TẬP CUỐI HỌC KÌ I",
+        "lessonTitle": "ÔN TẬP CUỐI HỌC KÌ I",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6249,7 +6249,7 @@
     "sourceFile": "TNXH TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 18: KIỂM TRA CUỐI HỌC KÌ I",
+        "lessonTitle": "KIỂM TRA CUỐI HỌC KÌ I",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6627,7 +6627,7 @@
     "sourceFile": "TNXH TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 19: BÀI 15: MỘT SỐ BỘ PHẬN CỦA ĐỘNG VẬT VÀ CHỨC NĂNG CỦA CHÚNG (TIẾT 2)",
+        "lessonTitle": "BÀI 15: MỘT SỐ BỘ PHẬN CỦA ĐỘNG VẬT VÀ CHỨC NĂNG CỦA CHÚNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6974,7 +6974,7 @@
     "sourceFile": "TNXH TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 20: BÀI 16: SỬ DỤNG HỢP LÍ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)",
+        "lessonTitle": "BÀI 16: SỬ DỤNG HỢP LÍ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7414,7 +7414,7 @@
     "sourceFile": "TNXH TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 21: BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)",
+        "lessonTitle": "BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7577,7 +7577,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN 21: BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 2)",
+        "lessonTitle": "BÀI 17: ÔN TẬP CHỦ ĐỀ THỰC VẬT VÀ ĐỘNG VẬT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: THỰC VẬT VÀ ĐỘNG VẬT",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7730,7 +7730,7 @@
     "sourceFile": "TNXH TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 22: BÀI 18: CƠ QUAN TIÊU HÓA (TIẾT 1)",
+        "lessonTitle": "BÀI 18: CƠ QUAN TIÊU HÓA (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7896,7 +7896,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN 22: BÀI 18: CƠ QUAN TIÊU HÓA (TIẾT 2 - BÀI HỌC STEM)",
+        "lessonTitle": "BÀI 18: CƠ QUAN TIÊU HÓA (TIẾT 2 - BÀI HỌC STEM)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8096,7 +8096,7 @@
     "sourceFile": "TNXH TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 23: BÀI 19: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TIÊU HOÁ (TIẾT 1)",
+        "lessonTitle": "BÀI 19: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TIÊU HOÁ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8260,7 +8260,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 23: BÀI 19: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TIÊU HOÁ (TIẾT 2)",
+        "lessonTitle": "BÀI 19: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TIÊU HOÁ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8440,7 +8440,7 @@
     "sourceFile": "TNXH TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 24: BÀI 20: CƠ QUAN TUẦN HOÀN (TIẾT 1)",
+        "lessonTitle": "BÀI 20: CƠ QUAN TUẦN HOÀN (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8604,7 +8604,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN 24: BÀI 20: CƠ QUAN TUẦN HOÀN (TIẾT 2)",
+        "lessonTitle": "BÀI 20: CƠ QUAN TUẦN HOÀN (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8793,7 +8793,7 @@
     "sourceFile": "TNXH TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 25: BÀI 21: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TUẦN HOÀN (TIẾT 1)",
+        "lessonTitle": "BÀI 21: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TUẦN HOÀN (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8956,7 +8956,7 @@
         ]
       },
       {
-        "lessonTitle": "TUẦN 25: BÀI 21: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TUẦN HOÀN (TIẾT 2)",
+        "lessonTitle": "BÀI 21: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN TUẦN HOÀN (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9144,7 +9144,7 @@
     "sourceFile": "TNXH TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 26: BÀI 22: CƠ QUAN THẦN KINH (TIẾT 1)",
+        "lessonTitle": "BÀI 22: CƠ QUAN THẦN KINH (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9315,7 +9315,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 26: BÀI 22: CƠ QUAN THẦN KINH (TIẾT 2)",
+        "lessonTitle": "BÀI 22: CƠ QUAN THẦN KINH (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9496,7 +9496,7 @@
     "sourceFile": "TNXH TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 27: BÀI 23: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN THẦN KINH (TIẾT 1)",
+        "lessonTitle": "BÀI 23: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN THẦN KINH (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9640,7 +9640,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 27: BÀI 23: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN THẦN KINH (TIẾT 2)",
+        "lessonTitle": "BÀI 23: CHĂM SÓC VÀ BẢO VỆ CƠ QUAN THẦN KINH (TIẾT 2)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9791,7 +9791,7 @@
     "sourceFile": "TNXH TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 28: BÀI 24: THU THẬP THÔNG TIN VỀ CÁC CHẤT VÀ HOẠT ĐỘNG CÓ HẠI CHO SỨC KHỎE (1 TIẾT)",
+        "lessonTitle": "BÀI 24: THU THẬP THÔNG TIN VỀ CÁC CHẤT VÀ HOẠT ĐỘNG CÓ HẠI CHO SỨC KHỎE (1 TIẾT)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9930,7 +9930,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 28: BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (1 TIẾT)",
+        "lessonTitle": "BÀI 25: ÔN TẬP CHỦ ĐỀ CON NGƯỜI VÀ SỨC KHỎE (1 TIẾT)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10094,7 +10094,7 @@
     "sourceFile": "TNXH TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 29: BÀI 26: XÁC ĐỊNH CÁC PHƯƠNG TRONG KHÔNG GIAN (TIẾT 1)",
+        "lessonTitle": "BÀI 26: XÁC ĐỊNH CÁC PHƯƠNG TRONG KHÔNG GIAN (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10256,7 +10256,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 29: BÀI 26: XÁC ĐỊNH CÁC PHƯƠNG TRONG KHÔNG GIAN (TIẾT 2)",
+        "lessonTitle": "BÀI 26: XÁC ĐỊNH CÁC PHƯƠNG TRONG KHÔNG GIAN (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10435,7 +10435,7 @@
     "sourceFile": "TNXH TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 30: BÀI 27: TRÁI ĐẤT VÀ CÁC ĐỚI KHÍ HẬU (TIẾT 1)",
+        "lessonTitle": "BÀI 27: TRÁI ĐẤT VÀ CÁC ĐỚI KHÍ HẬU (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10588,7 +10588,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 30: BÀI 27: TRÁI ĐẤT VÀ CÁC ĐỚI KHÍ HẬU (TIẾT 2)",
+        "lessonTitle": "BÀI 27: TRÁI ĐẤT VÀ CÁC ĐỚI KHÍ HẬU (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10744,7 +10744,7 @@
     "sourceFile": "TNXH TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 31: BÀI 28: BỀ MẶT TRÁI ĐẤT (TIẾT 1)",
+        "lessonTitle": "BÀI 28: BỀ MẶT TRÁI ĐẤT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10879,7 +10879,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 31: BÀI 28: BỀ MẶT TRÁI ĐẤT (TIẾT 2 - BÀI HỌC STEM)",
+        "lessonTitle": "BÀI 28: BỀ MẶT TRÁI ĐẤT (TIẾT 2 - BÀI HỌC STEM)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11031,7 +11031,7 @@
     "sourceFile": "TNXH TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 32: BÀI 28: BỀ MẶT TRÁI ĐẤT (TIẾT 3)",
+        "lessonTitle": "BÀI 28: BỀ MẶT TRÁI ĐẤT (TIẾT 3)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11160,7 +11160,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 32: BÀI 29: MẶT TRỜI, TRÁI ĐẤT, MẶT TRĂNG (TIẾT 1)",
+        "lessonTitle": "BÀI 29: MẶT TRỜI, TRÁI ĐẤT, MẶT TRĂNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11319,7 +11319,7 @@
     "sourceFile": "TNXH TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 33: BÀI 29: MẶT TRỜI, TRÁI ĐẤT, MẶT TRĂNG (TIẾT 2 - BÀI HỌC STEM)",
+        "lessonTitle": "BÀI 29: MẶT TRỜI, TRÁI ĐẤT, MẶT TRĂNG (TIẾT 2 - BÀI HỌC STEM)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11457,7 +11457,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 33: BÀI 30: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 1)",
+        "lessonTitle": "BÀI 30: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11616,7 +11616,7 @@
     "sourceFile": "TNXH TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 34: BÀI 30: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 2)",
+        "lessonTitle": "BÀI 30: ÔN TẬP CHỦ ĐỀ TRÁI ĐẤT VÀ BẦU TRỜI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11754,7 +11754,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 34: ÔN TẬP CUỐI HỌC KÌ II (1 TIẾT)",
+        "lessonTitle": "ÔN TẬP CUỐI HỌC KÌ II (1 TIẾT)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11891,7 +11891,7 @@
     "sourceFile": "TNXH TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 35: ÔN TẬP CUỐI HỌC KÌ II (1 TIẾT)",
+        "lessonTitle": "ÔN TẬP CUỐI HỌC KÌ II (1 TIẾT)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12018,7 +12018,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 35: KIỂM TRA CUỐI HỌC KÌ II (1 TIẾT)",
+        "lessonTitle": "KIỂM TRA CUỐI HỌC KÌ II (1 TIẾT)",
         "topic": "CHỦ ĐỀ 6: TRÁI ĐẤT VÀ BẦU TRỜI",
         "yccd": [
           "1. Năng lực đặc thù",

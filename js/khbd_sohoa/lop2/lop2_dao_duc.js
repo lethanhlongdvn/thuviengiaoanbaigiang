@@ -14,7 +14,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 1)",
+        "lessonTitle": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM (TIẾT 1)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 1",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -187,7 +187,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 2)",
+        "lessonTitle": "BÀI 1: VẺ ĐẸP QUÊ HƯƠNG EM (TIẾT 2)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 2",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -335,7 +335,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3 - Thời gian thực hiện: ... (TIẾT 1)",
+        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 3",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -584,7 +584,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3 - Thời gian thực hiện: ... (TIẾT 2)",
+        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 4",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -784,7 +784,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG - SỐ TIẾT: 3 - Thời gian thực hiện: ... (TIẾT 3)",
+        "lessonTitle": "BÀI 2: EM YÊU QUÊ HƯƠNG (TIẾT 3)",
         "topic": "CHỦ ĐỀ: QUÊ HƯƠNG EM - TUẦN 5",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -981,7 +981,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 1)",
+        "lessonTitle": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO VÀ YÊU QUÝ BẠN BÈ - TUẦN 6",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1171,7 +1171,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 2)",
+        "lessonTitle": "BÀI 3: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO VÀ YÊU QUÝ BẠN BÈ - TUẦN 7",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1332,7 +1332,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: YÊU QUÝ BẠN BÈ - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 1)",
+        "lessonTitle": "BÀI 4: YÊU QUÝ BẠN BÈ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO VÀ YÊU QUÝ BẠN BÈ - TUẦN 8",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1518,7 +1518,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: YÊU QUÝ BẠN BÈ - SỐ TIẾT: 2 - Thời gian thực hiện: ... (TIẾT 2)",
+        "lessonTitle": "BÀI 4: YÊU QUÝ BẠN BÈ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: KÍNH TRỌNG THẦY GIÁO, CÔ GIÁO VÀ YÊU QUÝ BẠN BÈ - TUẦN 9",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1708,7 +1708,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ I - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "THỰC HÀNH KĨ NĂNG GIỮA HỌC KÌ I (1 tiết)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1857,7 +1857,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 3: QUÝ TRỌNG THỜI GIAN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2012,7 +2012,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 5: QUÝ TRỌNG THỜI GIAN (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 3: QUÝ TRỌNG THỜI GIAN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2117,7 +2117,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 4: NHẬN LỖI VÀ SỬA LỖI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2282,7 +2282,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 6: NHẬN LỖI VÀ SỬA LỖI (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 4: NHẬN LỖI VÀ SỬA LỖI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2486,7 +2486,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 5: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN VÀ GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2649,7 +2649,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 7: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 5: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN VÀ GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2803,7 +2803,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 5: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN VÀ GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2985,7 +2985,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 8: BẢO QUẢN ĐỒ DÙNG GIA ĐÌNH (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 5: BẢO QUẢN ĐỒ DÙNG CÁ NHÂN VÀ GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3107,7 +3107,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "ÔN TẬP TỔNG HỢP - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "ÔN TẬP TỔNG HỢP (1 tiết)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3247,7 +3247,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3425,7 +3425,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 9: CẢM XÚC CỦA EM (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3610,7 +3610,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3796,7 +3796,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3970,7 +3970,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 3) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 10: KIỀM CHẾ CẢM XÚC TIÊU CỰC (TIẾT 3) (1 tiết)",
         "topic": "CHỦ ĐỀ 6: THỂ HIỆN CẢM XÚC BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4120,7 +4120,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4270,7 +4270,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 11: TÌM KIẾM SỰ HỖ TRỢ KHI Ở NHÀ (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4597,7 +4597,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4739,7 +4739,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 12: TÌM KIẾM SỰ HỖ TRỢ KHI Ở TRƯỜNG (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4884,7 +4884,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 13: TÌM KIẾM SỰ HỖ TRỢ Ở NƠI CÔNG CỘNG - Thời gian thực hiện: 1 tiết",
+        "lessonTitle": "BÀI 13: TÌM KIẾM SỰ HỖ TRỢ Ở NƠI CÔNG CỘNG",
         "topic": "CHỦ ĐỀ 7: TÌM KIẾM SỰ HỖ TRỢ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5046,7 +5046,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5184,7 +5184,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 14: TÌM HIỂU QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5314,7 +5314,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 1) (1 tiết)",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5471,7 +5471,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2) - Thời gian thực hiện: ... (1 tiết)",
+        "lessonTitle": "BÀI 15: EM TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG (TIẾT 2) (1 tiết)",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY ĐỊNH NƠI CÔNG CỘNG",
         "yccd": [
           "1. Năng lực đặc thù",

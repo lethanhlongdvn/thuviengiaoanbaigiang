@@ -1,9 +1,3 @@
-/**
- * KHO KẾ HOẠCH BÀI DẠY SỐ HÓA - KHỐI 3 - MÔN HOẠT ĐỘNG TRẢI NGHIỆM
- * Bộ sách: Kết nối tri thức với cuộc sống (KNTT) - Chuẩn Công văn 2345/BGDĐT
- * Thư viện Bài giảng & KHBD Tiểu học - Thầy Lê Thành Long
- */
-
 (function() {
   var grade = 3;
   var subjectId = "hdtn";
@@ -5684,14 +5678,9 @@
     "sourceFile": "HĐTN TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tiết 1 (Tuần 13)",
-        "topic": "",
+        "lessonTitle": "BÀI 13: TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP – ĐÔI TAY KHÉO LÉO - TIẾT 1: SINH HOẠT DƯỚI CỜ – TỰ PHỤC VỤ BẢN THÂN",
+        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
         "yccd": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-          "BÀI 13: TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP – ĐÔI TAY KHÉO LÉO",
-          "TUẦN 13",
-          "TIẾT 1: SINH HOẠT DƯỚI CỜ – TỰ PHỤC VỤ BẢN THÂN",
           "1. Năng lực đặc thù",
           "- HS tham gia xem vở kịch vui “Đồ đạc chạy trốn” và chia sẻ được cảm nhận của mình về vở kịch.",
           "- HS nhận ra sự cần thiết của việc tự phục vụ bản thân, biết để đồ dùng đúng chỗ sau khi sử dụng.",
@@ -6439,14 +6428,9 @@
     "sourceFile": "HĐTN TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tiết 1 (Tuần 15)",
-        "topic": "",
+        "lessonTitle": "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA - TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY THÀNH LẬP QUÂN ĐỘI NHÂN DÂN VIỆT NAM 22/12",
+        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
         "yccd": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-          "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA",
-          "TUẦN 15",
-          "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY THÀNH LẬP QUÂN ĐỘI NHÂN DÂN VIỆT NAM 22/12",
           "1. Năng lực đặc thù",
           "- HS tham gia hoạt động chào mừng Ngày thành lập Quân đội nhân dân Việt Nam 22/12 với thái độ nghiêm túc, tự hào.",
           "- HS biết học tập tác phong ngăn nắp, gọn gàng, kỉ luật của chú bộ đội qua hoạt động “Giữ nhà đẹp, giữ lớp xinh”.",
@@ -9629,14 +9613,9 @@
     "sourceFile": "HĐTN TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tiết 1 (Tuần 23)",
-        "topic": "",
+        "lessonTitle": "BÀI 23: BÊN MÂM CƠM – QUY TẮC ỨNG XỬ KHI ĂN UỐNG - TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY QUỐC TẾ PHỤ NỮ 8 – 3",
+        "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
         "yccd": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
-          "BÀI 23: BÊN MÂM CƠM – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
-          "TUẦN 23",
-          "TIẾT 1: SINH HOẠT DƯỚI CỜ – CHÀO MỪNG NGÀY QUỐC TẾ PHỤ NỮ 8 – 3",
           "1. Năng lực đặc thù",
           "- HS tham gia biểu diễn hoặc theo dõi văn nghệ theo chủ đề “Bà và mẹ”.",
           "- HS biết lắng nghe, chia sẻ kỉ niệm với bà, mẹ qua những bữa cơm gia đình.",
@@ -12301,14 +12280,9 @@
     "sourceFile": "HĐTN TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tiết 1 (Tuần 30)",
-        "topic": "",
+        "lessonTitle": "BÀI 30: MÔI TRƯỜNG KÊU CỨU - BẢNG THÔNG TIN MÔI TRƯỜNG - TIẾT 1: SINH HOẠT DƯỚI CỜ - PHÓNG VIÊN MÔI TRƯỜNG NHÍ",
+        "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
         "yccd": [
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
-          "BÀI 30: MÔI TRƯỜNG KÊU CỨU - BẢNG THÔNG TIN MÔI TRƯỜNG",
-          "TUẦN 30",
-          "TIẾT 1: SINH HOẠT DƯỚI CỜ - PHÓNG VIÊN MÔI TRƯỜNG NHÍ",
           "1. Năng lực đặc thù",
           "- HS nghe và hiểu được cách thành lập nhóm “phóng viên môi trường nhí”.",
           "- HS biết đăng kí, cổ vũ và tham gia hoạt động tập thể về bảo vệ môi trường.",
@@ -14494,7 +14468,7 @@
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
+  if (typeof window !== 'undefined' && window.KHBD_DATA) {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {

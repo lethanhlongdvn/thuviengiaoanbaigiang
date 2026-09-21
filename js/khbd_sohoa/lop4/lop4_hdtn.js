@@ -14,7 +14,7 @@
     "sourceFile": "HĐTN TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO NĂM HỌC MỚI - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO NĂM HỌC MỚI",
         "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -135,7 +135,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: EM TỰ HÀO VỀ BẢN THÂN - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: EM TỰ HÀO VỀ BẢN THÂN",
         "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: TỰ HÀO THỂ HIỆN KHẢ NĂNG CỦA BẢN THÂN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: TỰ HÀO THỂ HIỆN KHẢ NĂNG CỦA BẢN THÂN",
         "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -431,7 +431,7 @@
     "sourceFile": "HĐTN TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CÂU LẠC BỘ CỦA EM - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CÂU LẠC BỘ CỦA EM",
         "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -546,7 +546,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VIỆC LÀM ĐÁNG TỰ HÀO CỦA BẢN THÂN - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: NHỮNG VIỆC LÀM ĐÁNG TỰ HÀO CỦA BẢN THÂN",
         "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -698,7 +698,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: NIỀM TỰ HÀO TRONG TIM - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: NIỀM TỰ HÀO TRONG TIM",
         "topic": "CHỦ ĐỀ 1: NHẬN DIỆN BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3251,7 +3251,7 @@
     "sourceFile": "HĐTN TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: MÁI TRƯỜNG THÂN YÊU - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: MÁI TRƯỜNG THÂN YÊU",
         "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3375,7 +3375,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TRƯỜNG HỌC XANH, SẠCH, ĐẸP - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: GIỮ GÌN TRƯỜNG HỌC XANH, SẠCH, ĐẸP",
         "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3512,7 +3512,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: HÀNH ĐỘNG GIỮ GÌN TRƯỜNG HỌC XANH, SẠCH, ĐẸP - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: HÀNH ĐỘNG GIỮ GÌN TRƯỜNG HỌC XANH, SẠCH, ĐẸP",
         "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3678,7 +3678,7 @@
     "sourceFile": "HĐTN TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: ĐỘI VIÊN CÙNG TIẾN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: ĐỘI VIÊN CÙNG TIẾN",
         "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3785,7 +3785,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÌNH BẠN - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: TÌNH BẠN",
         "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3921,7 +3921,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CAM KẾT TÌNH BẠN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CAM KẾT TÌNH BẠN",
         "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4085,7 +4085,7 @@
     "sourceFile": "HĐTN TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
         "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4175,7 +4175,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÔNG ĐIỆP YÊU THƯƠNG - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: THÔNG ĐIỆP YÊU THƯƠNG",
         "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4294,7 +4294,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: TỔ CHỨC HOẠT ĐỘNG CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11 - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: TỔ CHỨC HOẠT ĐỘNG CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
         "topic": "CHỦ ĐỀ 3: YÊU TRƯỜNG, MẾN LỚP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4423,7 +4423,7 @@
     "sourceFile": "HĐTN TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TỰ HỌC - TỰ LÀM - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: TỰ HỌC - TỰ LÀM",
         "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4527,7 +4527,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHỦ ĐỘNG LẬP KẾ HOẠCH - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHỦ ĐỘNG LẬP KẾ HOẠCH",
         "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4646,7 +4646,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: CHỦ ĐỘNG THỰC HIỆN NHIỆM VỤ ĐỌC SÁCH - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: CHỦ ĐỘNG THỰC HIỆN NHIỆM VỤ ĐỌC SÁCH",
         "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4776,7 +4776,7 @@
     "sourceFile": "HĐTN TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "SINH HOẠT DƯỚI CỜ: KẾ HOẠCH HOẠT ĐỘNG TẠI THƯ VIỆN - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT DƯỚI CỜ: KẾ HOẠCH HOẠT ĐỘNG TẠI THƯ VIỆN",
         "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4872,7 +4872,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LUYỆN TẬP GIỚI THIỆU SÁCH - Thời gian thực hiện: ...",
+        "lessonTitle": "HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: LUYỆN TẬP GIỚI THIỆU SÁCH",
         "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4987,7 +4987,7 @@
         ]
       },
       {
-        "lessonTitle": "SINH HOẠT LỚP: HỢP TÁC THỰC HIỆN NHIỆM VỤ - Thời gian thực hiện: ...",
+        "lessonTitle": "SINH HOẠT LỚP: HỢP TÁC THỰC HIỆN NHIỆM VỤ",
         "topic": "CHỦ ĐỀ 4: TỰ LỰC THỰC HIỆN NHIỆM VỤ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6195,7 +6195,7 @@
     "sourceFile": "HĐTN TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 18 - TIẾT 1\nSINH HOẠT DƯỚI CỜ: BIẾT ƠN NGƯỜI THÂN",
+        "lessonTitle": "TIẾT 1\nSINH HOẠT DƯỚI CỜ: BIẾT ƠN NGƯỜI THÂN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6264,7 +6264,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 18 - TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ĐỒNG HÀNH BÊN NHAU",
+        "lessonTitle": "TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: ĐỒNG HÀNH BÊN NHAU",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6354,7 +6354,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 18 - TIẾT 3\nSINH HOẠT LỚP: NHỮNG KHOẢNH KHẮC HẠNH PHÚC",
+        "lessonTitle": "TIẾT 3\nSINH HOẠT LỚP: NHỮNG KHOẢNH KHẮC HẠNH PHÚC",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6471,7 +6471,7 @@
     "sourceFile": "HĐTN TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 19 - TIẾT 1\nSINH HOẠT DƯỚI CỜ: ĐÓN TẾT BÊN NGƯỜI THÂN",
+        "lessonTitle": "TIẾT 1\nSINH HOẠT DƯỚI CỜ: ĐÓN TẾT BÊN NGƯỜI THÂN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6546,7 +6546,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 19 - TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỬ DỤNG TIỀN TIẾT KIỆM CÁ NHÂN",
+        "lessonTitle": "TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: SỬ DỤNG TIỀN TIẾT KIỆM CÁ NHÂN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6645,7 +6645,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 19 - TIẾT 3\nSINH HOẠT LỚP: LỰA CHỌN CHI TIÊU “CẦN, MUỐN VÀ CÓ THỂ”",
+        "lessonTitle": "TIẾT 3\nSINH HOẠT LỚP: LỰA CHỌN CHI TIÊU “CẦN, MUỐN VÀ CÓ THỂ”",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6758,7 +6758,7 @@
     "sourceFile": "HĐTN TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 20 - TIẾT 1\nSINH HOẠT DƯỚI CỜ: CHÀO XUÂN MỚI",
+        "lessonTitle": "TIẾT 1\nSINH HOẠT DƯỚI CỜ: CHÀO XUÂN MỚI",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6829,7 +6829,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 20 - TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHI TIÊU TIẾT KIỆM TRONG GIA ĐÌNH",
+        "lessonTitle": "TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: CHI TIÊU TIẾT KIỆM TRONG GIA ĐÌNH",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6923,7 +6923,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 20 - TIẾT 3\nSINH HOẠT LỚP: MUA SẮM THÔNG MINH",
+        "lessonTitle": "TIẾT 3\nSINH HOẠT LỚP: MUA SẮM THÔNG MINH",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7032,7 +7032,7 @@
     "sourceFile": "HĐTN TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 21 - TIẾT 1\nSINH HOẠT DƯỚI CỜ: KHỎE THỂ CHẤT - MẠNH TINH THẦN",
+        "lessonTitle": "TIẾT 1\nSINH HOẠT DƯỚI CỜ: KHỎE THỂ CHẤT - MẠNH TINH THẦN",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7099,7 +7099,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 21 - TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HÀNH VI XÂM HẠI TRẺ EM",
+        "lessonTitle": "TIẾT 2\nHOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ: HÀNH VI XÂM HẠI TRẺ EM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7198,7 +7198,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "TUẦN 21 - TIẾT 3\nSINH HOẠT LỚP: NHẬN DIỆN NGUY CƠ XÂM HẠI TRẺ EM",
+        "lessonTitle": "TIẾT 3\nSINH HOẠT LỚP: NHẬN DIỆN NGUY CƠ XÂM HẠI TRẺ EM",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

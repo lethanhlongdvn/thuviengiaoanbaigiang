@@ -4205,7 +4205,7 @@
     "sourceFile": "KHBD GDTC LỚP 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 28 - BÀI 1: CÁC ĐỘNG TÁC LÀM TĂNG KHẢ NĂNG ĐIỀU KHIỂN BÓNG (tiết 3)",
+        "lessonTitle": "BÀI 1: CÁC ĐỘNG TÁC LÀM TĂNG KHẢ NĂNG ĐIỀU KHIỂN BÓNG (tiết 3)",
         "topic": "CHỦ ĐỀ 4: MÔN THỂ THAO TỰ CHỌN (BÓNG RỔ) TIẾT 55",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4366,7 +4366,7 @@
     "sourceFile": "KHBD GDTC LỚP 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 29 - BÀI 2: ĐỘNG TÁC TẠI CHỖ DẪN BÓNG THEO HÌNH CHỮ V DẪN BÓNG VƯỢT CHƯỚNG NGẠI VẬT (tiết 2)",
+        "lessonTitle": "BÀI 2: ĐỘNG TÁC TẠI CHỖ DẪN BÓNG THEO HÌNH CHỮ V DẪN BÓNG VƯỢT CHƯỚNG NGẠI VẬT (tiết 2)",
         "topic": "CHỦ ĐỀ 4: MÔN THỂ THAO TỰ CHỌN (BÓNG RỔ) TIẾT 57",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4521,7 +4521,7 @@
     "sourceFile": "KHBD GDTC LỚP 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 30 - BÀI 2: ĐỘNG TÁC TẠI CHỖ DẪN BÓNG THEO HÌNH CHỮ V DẪN BÓNG VƯỢT CHƯỚNG NGẠI VẬT (tiết 4)",
+        "lessonTitle": "BÀI 2: ĐỘNG TÁC TẠI CHỖ DẪN BÓNG THEO HÌNH CHỮ V DẪN BÓNG VƯỢT CHƯỚNG NGẠI VẬT (tiết 4)",
         "topic": "CHỦ ĐỀ 4: MÔN THỂ THAO TỰ CHỌN (BÓNG RỔ) TIẾT 59",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4676,7 +4676,7 @@
     "sourceFile": "KHBD GDTC LỚP 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 31 - BÀI 3: ĐỘNG TÁC CHUYỀN, BẮT BÓNG BẬT ĐẤT BẰNG HAI TAY TRƯỚC NGỰC (tiết 2)",
+        "lessonTitle": "BÀI 3: ĐỘNG TÁC CHUYỀN, BẮT BÓNG BẬT ĐẤT BẰNG HAI TAY TRƯỚC NGỰC (tiết 2)",
         "topic": "CHỦ ĐỀ 4: MÔN THỂ THAO TỰ CHỌN (BÓNG RỔ) TIẾT 61",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4831,7 +4831,7 @@
     "sourceFile": "KHBD GDTC LỚP 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 32 - BÀI 4: ĐỘNG TÁC NÉM NÉM RỔ BẰNG MỘT TAY TRÊN VAI (Tiết 1)",
+        "lessonTitle": "BÀI 4: ĐỘNG TÁC NÉM NÉM RỔ BẰNG MỘT TAY TRÊN VAI (Tiết 1)",
         "topic": "CHỦ ĐỀ 4: MÔN THỂ THAO TỰ CHỌN (BÓNG RỔ) TIẾT 63",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4987,7 +4987,7 @@
     "sourceFile": "KHBD GDTC LỚP 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 33 - BÀI 4: ĐỘNG TÁC NÉM NÉM RỔ BẰNG MỘT TAY TRÊN VAI (Tiết 3)",
+        "lessonTitle": "BÀI 4: ĐỘNG TÁC NÉM NÉM RỔ BẰNG MỘT TAY TRÊN VAI (Tiết 3)",
         "topic": "CHỦ ĐỀ 4: MÔN THỂ THAO TỰ CHỌN (BÓNG RỔ) TIẾT 65",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -5138,7 +5138,7 @@
     "sourceFile": "KHBD GDTC LỚP 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN: 34 - BÀI 4: ĐỘNG TÁC NÉM NÉM RỔ BẰNG MỘT TAY TRÊN VAI - (Tiết 5)",
+        "lessonTitle": "BÀI 4: ĐỘNG TÁC NÉM NÉM RỔ BẰNG MỘT TAY TRÊN VAI - (Tiết 5)",
         "topic": "CHỦ ĐỀ 4: MÔN THỂ THAO TỰ CHỌN (BÓNG RỔ) TIẾT 67",
         "yccd": [
           "1.1. Năng lực đặc thù",

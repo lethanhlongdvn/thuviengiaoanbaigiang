@@ -17,7 +17,6 @@
         "lessonTitle": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 100 – TIẾT 1: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Ôn tập, củng cố cách đọc, viết các số có hai chữ số theo cấu tạo chục và đơn vị.",
           "- Nhận biết, phân tích và viết được số có hai chữ số tương ứng với hình ảnh que tính, bảng số.",
@@ -205,7 +204,6 @@
         "lessonTitle": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 100 – TIẾT 2: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết và phân tích được số có hai chữ số theo chục và đơn vị.",
           "- Viết được số có hai chữ số dưới dạng phân tích, ví dụ 35 = 30 + 5.",
@@ -367,7 +365,6 @@
         "lessonTitle": "BÀI 1: ÔN TẬP CÁC SỐ ĐẾN 100 – TIẾT 3: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Làm quen với việc ước lượng số lượng theo nhóm chục.",
           "- Củng cố phân tích số có hai chữ số theo chục, đơn vị và tìm vị trí số trong bảng số đến 100.",
@@ -538,7 +535,6 @@
         "lessonTitle": "BÀI 2: TIA SỐ. SỐ LIỀN TRƯỚC, SỐ LIỀN SAU – TIẾT 1",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được tia số, biết viết số thích hợp trên tia số.",
           "- Nhận biết được số liền trước, số liền sau của một số.",
@@ -701,7 +697,6 @@
         "lessonTitle": "BÀI 2: TIA SỐ. SỐ LIỀN TRƯỚC, SỐ LIỀN SAU – TIẾT 2: BÀI HỌC STEM: TIA SỐ CỦA EM",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG – TUẦN 1",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Xác định được vị trí các số trên tia số; biết vận dụng tia số để tìm số liền trước, số liền sau.",
           "- Thiết kế được sản phẩm “Tia số của em” có vạch chia đều, ghi số đúng thứ tự và sử dụng được sản phẩm để học tập.",
@@ -880,7 +875,6 @@
         "lessonTitle": "BÀI 3. CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ – TIẾT 1: SỐ HẠNG, TỔNG",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được số hạng, tổng trong phép cộng.",
           "- Tính được tổng khi biết các số hạng.",
@@ -1037,7 +1031,6 @@
         "lessonTitle": "BÀI 3. CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ – TIẾT 2: SỐ BỊ TRỪ, SỐ TRỪ, HIỆU",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được số bị trừ, số trừ, hiệu trong phép trừ.",
           "- Tính được hiệu khi biết số bị trừ, số trừ.",
@@ -1190,7 +1183,6 @@
         "lessonTitle": "BÀI 3. CÁC THÀNH PHẦN CỦA PHÉP CỘNG, PHÉP TRỪ – TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ và so sánh các số.",
           "- Lập được phép tính phù hợp từ các số đã cho.",
@@ -1324,7 +1316,6 @@
         "lessonTitle": "BÀI 4. HƠN, KÉM NHAU BAO NHIÊU – TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về hơn, kém nhau bao nhiêu thông qua tranh hoặc đề bài.",
           "- Biết dùng phép trừ để giải bài toán hơn, kém nhau bao nhiêu.",
@@ -1485,7 +1476,6 @@
         "lessonTitle": "BÀI 4. HƠN, KÉM NHAU BAO NHIÊU – TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố kĩ năng giải bài toán về hơn, kém nhau bao nhiêu.",
           "- Biết tính toán với số đo độ dài có đơn vị xăng-ti-mét.",
@@ -1607,7 +1597,6 @@
         "lessonTitle": "BÀI 5. ÔN TẬP VỀ PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100 – TIẾT 1: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ (không nhớ) trong phạm vi 100.",
           "- Thực hiện cộng, trừ nhẩm trong các trường hợp đơn giản và với số tròn chục.",
@@ -1755,7 +1744,6 @@
         "lessonTitle": "BÀI 5. ÔN TẬP VỀ PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100 – TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ và so sánh được các số có hai chữ số.",
           "- Viết đúng cách đặt tính theo cột dọc.",
@@ -1891,7 +1879,6 @@
         "lessonTitle": "BÀI 5. ÔN TẬP VỀ PHÉP CỘNG, PHÉP TRỪ (KHÔNG NHỚ) TRONG PHẠM VI 100 – TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ và so sánh các số để tìm số lớn nhất, số bé nhất.",
           "- Giải và trình bày được bài giải của bài toán có lời văn.",
@@ -2025,7 +2012,6 @@
         "lessonTitle": "BÀI 6. LUYỆN TẬP CHUNG – TIẾT 1: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được số liền trước, số liền sau, số hạng, tổng.",
           "- Sắp xếp được bốn số theo thứ tự từ bé đến lớn và ngược lại.",
@@ -2161,7 +2147,6 @@
         "lessonTitle": "BÀI 6. LUYỆN TẬP CHUNG – TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ và so sánh các số.",
           "- Lập được các số có hai chữ số từ các chữ số đã cho; tìm được số lớn nhất, số bé nhất trong các số đã cho.",
@@ -2295,7 +2280,6 @@
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được phép cộng qua 10 trong phạm vi 20; biết tính bằng cách đếm tiếp hoặc tách số.",
           "- Biết tách số hạng thứ hai để thêm vào số hạng thứ nhất cho đủ 10 rồi cộng tiếp phần còn lại.",
@@ -2444,7 +2428,6 @@
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố cách cộng qua 10 bằng cách tách số và biết lựa chọn cách tính thuận tiện.",
           "- Hoàn thành bảng cộng qua 10, tính nhẩm các phép tính đơn giản trong phạm vi 20.",
@@ -2621,7 +2604,6 @@
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10 với số hạng 7, 8 và vận dụng để tính nhẩm nhanh.",
           "- Biết tách số để tính các phép cộng qua 10; hoàn thành bảng cộng và các bài luyện tập.",
@@ -2807,7 +2789,6 @@
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 4: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10 với các số hạng đã học.",
           "- Thực hiện được các phép cộng qua 10 bằng tính nhẩm, bảng cộng hoặc cách tách số.",
@@ -2953,7 +2934,6 @@
         "lessonTitle": "BÀI 7. PHÉP CỘNG (QUA 10) TRONG PHẠM VI 20 - TIẾT 5: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10 và biết vận dụng để tính nhẩm nhanh.",
           "- Tìm được các phép tính có kết quả bằng một số cho trước; nhận biết hai phép tính có cùng kết quả.",
@@ -3105,7 +3085,6 @@
         "lessonTitle": "BÀI 8. BẢNG CỘNG (QUA 10) - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hình thành được bảng cộng qua 10 qua việc hệ thống lại các phép cộng đã học thành một bảng.",
           "- Vận dụng bảng cộng qua 10 để tính nhẩm, giải bài tập và giải quyết tình huống toán học đơn giản.",
@@ -3262,7 +3241,6 @@
         "lessonTitle": "BÀI 8. BẢNG CỘNG (QUA 10) - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10 và biết vận dụng để tính nhẩm nhanh.",
           "- Tính được tổng khi biết hai số hạng; so sánh được hai vế có phép tính.",
@@ -3442,7 +3420,6 @@
         "lessonTitle": "BÀI 9. BÀI TOÁN VỀ THÊM, BỚT MỘT SỐ ĐƠN VỊ - TIẾT 1: GIẢI BÀI TOÁN VỀ THÊM MỘT SỐ ĐƠN VỊ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về thêm một số đơn vị.",
           "- Biết tóm tắt, chọn phép tính cộng và trình bày bài giải cho bài toán về thêm một số đơn vị.",
@@ -3591,7 +3568,6 @@
         "lessonTitle": "BÀI 9. BÀI TOÁN VỀ THÊM, BỚT MỘT SỐ ĐƠN VỊ - TIẾT 2: GIẢI BÀI TOÁN VỀ BỚT MỘT SỐ ĐƠN VỊ VÀ LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về bớt một số đơn vị.",
           "- Biết tóm tắt, chọn phép tính trừ và trình bày bài giải cho bài toán về bớt một số đơn vị.",
@@ -3762,7 +3738,6 @@
         "lessonTitle": "BÀI 10. LUYỆN TẬP CHUNG - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố bảng cộng qua 10, cách tính tổng và tính biểu thức đơn giản.",
           "- Củng cố kĩ năng giải và trình bày bài giải cho bài toán về thêm hoặc bớt một số đơn vị.",
@@ -3926,7 +3901,6 @@
         "lessonTitle": "BÀI 10. LUYỆN TẬP CHUNG - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố kĩ năng giải và trình bày bài giải cho bài toán về thêm hoặc bớt một số đơn vị có một bước tính.",
           "- Củng cố tính nhẩm phép cộng qua 10 và vận dụng vào bài tập có tranh, bảng số, tình huống thực tế.",
@@ -4083,7 +4057,6 @@
         "lessonTitle": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết ý nghĩa của phép trừ qua 10 trong phạm vi 20 thông qua tình huống có thật.",
           "- Biết thực hiện phép trừ dạng 11 trừ đi một số bằng cách đếm lùi hoặc tách số.",
@@ -4235,7 +4208,6 @@
         "lessonTitle": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết tính nhẩm phép trừ qua 10 trong phạm vi 20.",
           "- Thực hiện được các phép trừ dạng 12, 13 trừ đi một số.",
@@ -4404,7 +4376,6 @@
         "lessonTitle": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết tính nhẩm phép trừ qua 10 trong phạm vi 20.",
           "- Thực hiện được các phép trừ dạng 14, 15 trừ đi một số.",
@@ -4572,7 +4543,6 @@
         "lessonTitle": "BÀI 11. PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 4",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết tính nhẩm phép trừ qua 10 trong phạm vi 20.",
           "- Thực hiện được các phép trừ dạng 16, 17, 18 trừ đi một số.",
@@ -4736,7 +4706,6 @@
         "lessonTitle": "BÀI 11: PHÉP TRỪ (QUA 10) TRONG PHẠM VI 20 - TIẾT 5: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết tính nhẩm phép trừ qua 10 trong phạm vi 20; thực hiện được các phép trừ dạng 18, 19 trừ đi một số.",
           "- Củng cố mối quan hệ giữa phép cộng và phép trừ; vận dụng cách tính nhẩm phù hợp để tìm kết quả.",
@@ -4904,7 +4873,6 @@
         "lessonTitle": "BÀI 12: BẢNG TRỪ (QUA 10) - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hình thành bảng trừ qua 10 trong phạm vi 20; biết cách tìm kết quả phép trừ dựa vào bảng trừ.",
           "- Thực hiện được các phép trừ 11, 12, 13, ..., 18 trừ đi một số.",
@@ -5049,7 +5017,6 @@
         "lessonTitle": "BÀI 12: BẢNG TRỪ (QUA 10) - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được các phép trừ qua 10 trong phạm vi 20; củng cố bảng trừ qua 10.",
           "- Giải được bài toán có lời văn liên quan đến phép trừ qua 10 trong phạm vi 20.",
@@ -5193,7 +5160,6 @@
         "lessonTitle": "BÀI 13: BÀI TOÁN VỀ NHIỀU HƠN, ÍT HƠN MỘT SỐ ĐƠN VỊ - TIẾT 1: GIẢI BÀI TOÁN VỀ NHIỀU HƠN MỘT SỐ ĐƠN VỊ",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về nhiều hơn một số đơn vị.",
           "- Biết giải và trình bày bài giải bài toán về nhiều hơn một số đơn vị.",
@@ -5328,7 +5294,6 @@
         "lessonTitle": "BÀI 13: BÀI TOÁN VỀ NHIỀU HƠN, ÍT HƠN MỘT SỐ ĐƠN VỊ - TIẾT 2: GIẢI BÀI TOÁN VỀ ÍT HƠN MỘT SỐ ĐƠN VỊ + LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán về ít hơn một số đơn vị.",
           "- Biết giải và trình bày bài giải bài toán về ít hơn một số đơn vị.",

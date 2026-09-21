@@ -12692,7 +12692,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 21: THẢ DIỀU - Tiết 3: Viết – Chữ hoa L",
+        "lessonTitle": "BÀI 21: THẢ DIỀU - Tiết 3: Viết – Chữ hoa L",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12801,7 +12801,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 21: THẢ DIỀU - Tiết 4: Nói và nghe – Kể chuyện Chúng mình là bạn",
+        "lessonTitle": "BÀI 21: THẢ DIỀU - Tiết 4: Nói và nghe – Kể chuyện Chúng mình là bạn",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -12906,7 +12906,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 22: TỚ LÀ LÊ-GÔ - Tiết 1 - 2: Đọc",
+        "lessonTitle": "BÀI 22: TỚ LÀ LÊ-GÔ - Tiết 1 - 2: Đọc",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13092,7 +13092,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 22: TỚ LÀ LÊ-GÔ - Tiết 3: Viết – Nghe viết: Đồ chơi yêu thích",
+        "lessonTitle": "BÀI 22: TỚ LÀ LÊ-GÔ - Tiết 3: Viết – Nghe viết: Đồ chơi yêu thích",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13213,7 +13213,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 22: TỚ LÀ LÊ-GÔ - Tiết 4: Luyện từ và câu – Từ ngữ chỉ sự vật; Câu nêu đặc điểm",
+        "lessonTitle": "BÀI 22: TỚ LÀ LÊ-GÔ - Tiết 4: Luyện từ và câu – Từ ngữ chỉ sự vật; Câu nêu đặc điểm",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13322,7 +13322,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 22: TỚ LÀ LÊ-GÔ - Tiết 5 - 6: Luyện viết đoạn; Đọc mở rộng",
+        "lessonTitle": "BÀI 22: TỚ LÀ LÊ-GÔ - Tiết 5 - 6: Luyện viết đoạn; Đọc mở rộng",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13704,7 +13704,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 23: RỒNG RẮN LÊN MÂY - Tiết 3: Viết – Chữ hoa M",
+        "lessonTitle": "BÀI 23: RỒNG RẮN LÊN MÂY - Tiết 3: Viết – Chữ hoa M",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13833,7 +13833,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 23: RỒNG RẮN LÊN MÂY - Tiết 4: Nói và nghe – Búp bê biết khóc",
+        "lessonTitle": "BÀI 23: RỒNG RẮN LÊN MÂY - Tiết 4: Nói và nghe – Búp bê biết khóc",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -13942,7 +13942,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 24: NẶN ĐỒ CHƠI - Tiết 1 - 2: Đọc",
+        "lessonTitle": "BÀI 24: NẶN ĐỒ CHƠI - Tiết 1 - 2: Đọc",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -14133,7 +14133,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 24: NẶN ĐỒ CHƠI - Tiết 3: Viết – Nghe viết: Nặn đồ chơi; Phân biệt da/gia, l/x, uơn/uơng",
+        "lessonTitle": "BÀI 24: NẶN ĐỒ CHƠI - Tiết 3: Viết – Nghe viết: Nặn đồ chơi; Phân biệt da/gia, l/x, uơn/uơng",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -14254,7 +14254,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 24: NẶN ĐỒ CHƠI - Tiết 4: Luyện từ và câu – Từ ngữ về đồ chơi; Dấu phẩy",
+        "lessonTitle": "BÀI 24: NẶN ĐỒ CHƠI - Tiết 4: Luyện từ và câu – Từ ngữ về đồ chơi; Dấu phẩy",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -14359,7 +14359,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………… - …………………………………………………………………………………………………… - BÀI 24: NẶN ĐỒ CHƠI - Tiết 5 - 6: Luyện viết đoạn; Đọc mở rộng",
+        "lessonTitle": "BÀI 24: NẶN ĐỒ CHƠI - Tiết 5 - 6: Luyện viết đoạn; Đọc mở rộng",
         "topic": "Chủ đề 3: Niềm vui tuổi thơ",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -15896,7 +15896,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………………………………… - …………………………………………………………………………………………………………………………… - BÀI 27: MẸ - TIẾT 3: VIẾT – CHỮ HOA O",
+        "lessonTitle": "BÀI 27: MẸ - TIẾT 3: VIẾT – CHỮ HOA O",
         "topic": "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -16036,7 +16036,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………………………………… - …………………………………………………………………………………………………………………………… - BÀI 27: MẸ - TIẾT 4: NÓI VÀ NGHE – KỂ CHUYỆN SỰ TÍCH CÂY VÚ SỮA",
+        "lessonTitle": "BÀI 27: MẸ - TIẾT 4: NÓI VÀ NGHE – KỂ CHUYỆN SỰ TÍCH CÂY VÚ SỮA",
         "topic": "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -16161,7 +16161,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………………………………… - …………………………………………………………………………………………………………………………… - BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 1 - 2: ĐỌC",
+        "lessonTitle": "BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 1 - 2: ĐỌC",
         "topic": "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -16340,7 +16340,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………………………………… - …………………………………………………………………………………………………………………………… - BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 3: VIẾT – NGHE VIẾT: TRÒ CHƠI CỦA BỐ",
+        "lessonTitle": "BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 3: VIẾT – NGHE VIẾT: TRÒ CHƠI CỦA BỐ",
         "topic": "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -16469,7 +16469,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………………………………… - …………………………………………………………………………………………………………………………… - BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 4: LUYỆN TẬP – MỞ RỘNG VỐN TỪ VỀ TÌNH CẢM GIA ĐÌNH; DẤU CHẤM, DẤU CHẤM HỎI, DẤU CHẤM THAN",
+        "lessonTitle": "BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 4: LUYỆN TẬP – MỞ RỘNG VỐN TỪ VỀ TÌNH CẢM GIA ĐÌNH; DẤU CHẤM, DẤU CHẤM HỎI, DẤU CHẤM THAN",
         "topic": "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -16583,7 +16583,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………………………………… - …………………………………………………………………………………………………………………………… - BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 5: LUYỆN TẬP – VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM VỚI NGƯỜI THÂN",
+        "lessonTitle": "BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 5: LUYỆN TẬP – VIẾT ĐOẠN VĂN THỂ HIỆN TÌNH CẢM VỚI NGƯỜI THÂN",
         "topic": "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -16694,7 +16694,7 @@
         ]
       },
       {
-        "lessonTitle": "…………………………………………………………………………………………………………………………… - …………………………………………………………………………………………………………………………… - BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 6: ĐỌC MỞ RỘNG",
+        "lessonTitle": "BÀI 28: TRÒ CHƠI CỦA BỐ - TIẾT 6: ĐỌC MỞ RỘNG",
         "topic": "CHỦ ĐỀ 4: MÁI ẤM GIA ĐÌNH",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -18783,7 +18783,7 @@
         ]
       },
       {
-        "lessonTitle": "- Chưa có điều chỉnh. - ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1 - PHẦN I – ÔN TẬP - TIẾT 3 – 4",
+        "lessonTitle": "Chưa có điều chỉnh. - ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1 - PHẦN I – ÔN TẬP - TIẾT 3 – 4",
         "topic": "",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -18901,7 +18901,7 @@
         ]
       },
       {
-        "lessonTitle": "- Chưa có điều chỉnh. - ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1 - PHẦN I – ÔN TẬP - TIẾT 5 – 6",
+        "lessonTitle": "Chưa có điều chỉnh. - ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1 - PHẦN I – ÔN TẬP - TIẾT 5 – 6",
         "topic": "",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -19027,7 +19027,7 @@
         ]
       },
       {
-        "lessonTitle": "- Chưa có điều chỉnh. - ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1 - PHẦN I – ÔN TẬP - TIẾT 7 – 8",
+        "lessonTitle": "Chưa có điều chỉnh. - ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1 - PHẦN I – ÔN TẬP - TIẾT 7 – 8",
         "topic": "",
         "yccd": [
           "Sau bài học, HS sẽ:",
@@ -19153,7 +19153,7 @@
         ]
       },
       {
-        "lessonTitle": "- Chưa có điều chỉnh. - ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1 - PHẦN II – ĐÁNH GIÁ CUỐI HỌC KÌ 1 - TIẾT 9 – 10",
+        "lessonTitle": "Chưa có điều chỉnh. - ÔN TẬP VÀ ĐÁNH GIÁ CUỐI HỌC KÌ 1 - PHẦN II – ĐÁNH GIÁ CUỐI HỌC KÌ 1 - TIẾT 9 – 10",
         "topic": "",
         "yccd": [
           "Sau bài học, HS sẽ:",

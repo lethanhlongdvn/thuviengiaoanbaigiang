@@ -14,7 +14,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 1- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Lí thuyết âm nhạc: Trọng âm, phách, vạch nhịp, ô nhịp. - - Đọc nhạc: Bài số 1.",
+        "lessonTitle": "Lí thuyết âm nhạc: Trọng âm, phách, vạch nhịp, ô nhịp. - Đọc nhạc: Bài số 1.",
         "topic": "CHỦ ĐỀ 1: KHÚC CA NGÀY MỚI (4 tiết)",
         "yccd": [
           "- Biết khái niệm về trọng âm, phách, vạch nhịp, ô nhịp. Biết vận dụng lí thuyết âm nhạc với thực hành bài đọc nhạc số 1 và học hát.",
@@ -545,7 +545,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 3- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Lí thuyết âm nhạc: Nhịp 2/4 - - Đọc nhạc: Bài số 2",
+        "lessonTitle": "Lí thuyết âm nhạc: Nhịp 2/4 - Đọc nhạc: Bài số 2",
         "topic": "CHỦ ĐỀ 3: BAY VÀO TƯƠNG LAI (4 tiết)",
         "yccd": [
           "- Biết nhịp 2/4 gồm có 2 phách: phách thứ nhất là phách mạnh, phách thứ hai là phách nhẹ. Biết vận dụng lí thuyết vào thực hành đọc bài đọc nhạc số 2.",
@@ -661,7 +661,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 3- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "ÔN BÀI HÁT: BAY VÀO TƯƠNG LAI - - NGHE NHẠC: ĐƯỜNG ĐẾN TRƯỜNG VUI LẮM!",
+        "lessonTitle": "ÔN BÀI HÁT: BAY VÀO TƯƠNG LAI - NGHE NHẠC: ĐƯỜNG ĐẾN TRƯỜNG VUI LẮM!",
         "topic": "CHỦ ĐỀ 3: BAY VÀO TƯƠNG LAI (4 tiết)",
         "yccd": [
           "- Hát đúng giai điệu và lời ca của bài hát Bay vào tương lai. Biết hát kết hợp vận động theo nhịp điệu.",
@@ -741,7 +741,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 4- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "– Hát: Duyên dáng mùa xuân - – Nhạc cụ: Nhạc cụ thể hiện tiết tấu và nhạc cụ thể hiện giai điệu - – Thường thức âm nhạc: Câu chuyện về bản xô-nát Ánh trăng",
+        "lessonTitle": "Hát: Duyên dáng mùa xuân - Nhạc cụ: Nhạc cụ thể hiện tiết tấu và nhạc cụ thể hiện giai điệu - Thường thức âm nhạc: Câu chuyện về bản xô-nát Ánh trăng",
         "topic": "CHỦ ĐỀ 4: CHÀO MÙA XUÂN ĐẾN (6 TIẾT)",
         "yccd": [
           "– Hát đúng giai điệu và lời ca, thể hiện được tính chất nhịp nhàng, bay bổng của bài hát Duyên dáng mùa xuân.",
@@ -1048,7 +1048,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 5- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "(4 tiết) - - Thời gian thực hiện:…../……/…….đến……/……./…….. - - Lí thuyết âm nhạc: Nhịp 3/4",
+        "lessonTitle": "Lí thuyết âm nhạc: Nhịp 3/4",
         "topic": "CHỦ ĐỀ 5: THIÊN NHIÊN TƯƠI ĐẸP",
         "yccd": [
           "- Năng lực âm nhạc",
@@ -1130,7 +1130,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 5- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 20: - THƯỜNG THỨC ÂM NHẠC: NHẠC SĨ BÙI ĐÌNH THẢO VÀ BÀI HÁT SÁCH BÚT THÂN YÊU ƠI - - ÔN BÀI ĐỌC NHẠC SỐ 3",
+        "lessonTitle": "TIẾT 20: - THƯỜNG THỨC ÂM NHẠC: NHẠC SĨ BÙI ĐÌNH THẢO VÀ BÀI HÁT SÁCH BÚT THÂN YÊU ƠI - ÔN BÀI ĐỌC NHẠC SỐ 3",
         "topic": "CHỦ ĐỀ 5: THIÊN NHIÊN TƯƠI ĐẸP",
         "yccd": [
           "- Nêu được một số thông tin về sự nghiệp và một số bài hát thiếu nhi tiêu biểu của nhạc sĩ Bùi Đình Thảo.",
@@ -1247,7 +1247,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 5- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 22 - ÔN HÁT EM ĐI GIỮA BIỂN VÀNG - - TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG - SÁNG TẠO",
+        "lessonTitle": "TIẾT 22 - ÔN HÁT EM ĐI GIỮA BIỂN VÀNG - TỔ CHỨC HOẠT ĐỘNG VẬN DỤNG - SÁNG TẠO",
         "topic": "a. Mục tiêu: Giúp học sinh tự nhìn nhận lại kết quả học tập của mình và các bạn trong suốt chủ đề.",
         "yccd": [
           "- Hát được đúng giai điệu và lời ca bài hát Em đi giữa biển vàng, thể hiện được tính chất nhẹ nhàng, đằm thắm và duyên dáng của bài hát.",
@@ -1641,7 +1641,7 @@
     "sourceFile": "Giao_an_tich_hop-chu de 7- lop 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 29 - - ÔN BÀI HÁT: Đất nước tươi đẹp sao. - - THƯỜNG THỨC ÂM NHẠC: Giới thiệu nhạc cụ nước ngoài.",
+        "lessonTitle": "TIẾT 29 - ÔN BÀI HÁT: Đất nước tươi đẹp sao. - THƯỜNG THỨC ÂM NHẠC: Giới thiệu nhạc cụ nước ngoài.",
         "topic": "- Trình diễn nội dung đã học trong chủ đề với hình thức phù hợp.",
         "yccd": [
           "- Hát đúng giai điệu và lời ca. Thể hiện được tính chất vui, tha thiết của bài Đất nước tươi đẹp sao.",

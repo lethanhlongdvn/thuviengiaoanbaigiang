@@ -14,7 +14,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA - SỐ TIẾT: 2 TIẾT",
+        "lessonTitle": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -234,7 +234,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA - SỐ TIẾT: 2 TIẾT",
+        "lessonTitle": "BÀI 1: CHÀO CỜ VÀ HÁT QUỐC CA",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -498,7 +498,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM -  SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -642,7 +642,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -784,7 +784,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 2: TỰ HÀO TỔ QUỐC VIỆT NAM",
         "topic": "CHỦ ĐỀ 1: EM YÊU TỔ QUỐC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -951,7 +951,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG - SỐ TIẾT: 4 TIẾT",
+        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "topic": "CHỦ ĐỀ 2: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -1064,7 +1064,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG - SỐ TIẾT: 4 TIẾT",
+        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "topic": "CHỦ ĐỀ 2: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -1191,7 +1191,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG - SỐ TIẾT: 4 TIẾT",
+        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "topic": "CHỦ ĐỀ 2: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -1304,7 +1304,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG - SỐ TIẾT: 4 TIẾT",
+        "lessonTitle": "BÀI 3: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "topic": "CHỦ ĐỀ 2: QUAN TÂM HÀNG XÓM LÁNG GIỀNG",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -1421,7 +1421,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG GIỮA HỌC KÌ I - SỐ TIẾT: 1 TIẾT",
+        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG GIỮA HỌC KÌ I",
         "topic": "CHỦ ĐỀ: ÔN TẬP GIỮA HỌC KÌ I",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -1589,7 +1589,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: HAM HỌC HỎI - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 4: HAM HỌC HỎI",
         "topic": "CHỦ ĐỀ 3: HAM HỌC HỎI",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -1715,7 +1715,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: HAM HỌC HỎI - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 4: HAM HỌC HỎI",
         "topic": "CHỦ ĐỀ 3: HAM HỌC HỎI",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -1832,7 +1832,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 4: HAM HỌC HỎI - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 4: HAM HỌC HỎI",
         "topic": "CHỦ ĐỀ 3: HAM HỌC HỎI",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -1953,7 +1953,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA",
         "topic": "CHỦ ĐỀ 4: GIỮ LỜI HỨA",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -2128,7 +2128,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA",
         "topic": "CHỦ ĐỀ 4: GIỮ LỜI HỨA",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -2291,7 +2291,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 5: GIỮ LỜI HỨA",
         "topic": "CHỦ ĐỀ 4: GIỮ LỜI HỨA",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -2462,7 +2462,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG - SỐ TIẾT: 1 TIẾT",
+        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG",
         "topic": "CHỦ ĐỀ: ÔN TẬP CUỐI HỌC KÌ I",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -2668,7 +2668,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
         "topic": "CHỦ ĐỀ 5: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -2806,7 +2806,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
         "topic": "CHỦ ĐỀ 5: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -2940,7 +2940,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ - SỐ TIẾT: 3 TIẾT",
+        "lessonTitle": "BÀI 6: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
         "topic": "CHỦ ĐỀ 5: TÍCH CỰC HOÀN THÀNH NHIỆM VỤ",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -3090,7 +3090,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -3214,7 +3214,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -3338,7 +3338,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -3462,7 +3462,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -3586,7 +3586,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN - SỐ TIẾT: 5 TIẾT",
+        "lessonTitle": "BÀI 7: KHÁM PHÁ BẢN THÂN",
         "topic": "CHỦ ĐỀ 6: KHÁM PHÁ BẢN THÂN",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -3706,7 +3706,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG - SỐ TIẾT: 1 TIẾT",
+        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG",
         "topic": "CHỦ ĐỀ ÔN TẬP GIỮA HỌC KÌ II",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -3886,7 +3886,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ - SỐ TIẾT: 4 TIẾT",
+        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "topic": "CHỦ ĐỀ 7: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -4029,7 +4029,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ - SỐ TIẾT: 4 TIẾT",
+        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "topic": "CHỦ ĐỀ 7: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -4181,7 +4181,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ - SỐ TIẾT: 4 TIẾT",
+        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "topic": "CHỦ ĐỀ 7: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -4324,7 +4324,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ - SỐ TIẾT: 4 TIẾT",
+        "lessonTitle": "BÀI 8: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "topic": "CHỦ ĐỀ 7: XỬ LÍ BẤT HÒA VỚI BẠN BÈ",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -4459,7 +4459,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: ĐI BỘ AN TOÀN - SỐ TIẾT: 2 TIẾT",
+        "lessonTitle": "BÀI 9: ĐI BỘ AN TOÀN",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY TẮC AN TOÀN GIAO THÔNG",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -4631,7 +4631,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 9: ĐI BỘ AN TOÀN - SỐ TIẾT: 2 TIẾT",
+        "lessonTitle": "BÀI 9: ĐI BỘ AN TOÀN",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY TẮC AN TOÀN GIAO THÔNG",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -4780,7 +4780,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG - SỐ TIẾT: 2 TIẾT",
+        "lessonTitle": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY TẮC AN TOÀN GIAO THÔNG",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -4932,7 +4932,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG - SỐ TIẾT: 2 TIẾT",
+        "lessonTitle": "BÀI 10: AN TOÀN KHI THAM GIA CÁC PHƯƠNG TIỆN GIAO THÔNG",
         "topic": "CHỦ ĐỀ 8: TUÂN THỦ QUY TẮC AN TOÀN GIAO THÔNG",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",
@@ -5087,7 +5087,7 @@
     "sourceFile": "ĐẠO ĐỨC TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG - SỐ TIẾT: 1 TIẾT",
+        "lessonTitle": "BÀI: THỰC HÀNH RÈN KĨ NĂNG",
         "topic": "CHỦ ĐỀ ÔN TẬP HK II VÀ CUỐI NĂM",
         "yccd": [
           "1. NĂNG LỰC ĐẶC THÙ",

@@ -17,7 +17,6 @@
         "lessonTitle": "BÀI: TIẾT HỌC ĐẦU TIÊN",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Làm quen với các hoạt động chính khi học Toán lớp 1: quan sát, đếm, đọc - viết số, thực hành và trò chơi học tập.",
           "- Nhận biết các nhân vật đồng hành và một số đồ dùng học Toán 1.",
@@ -183,7 +182,6 @@
         "lessonTitle": "BÀI 1: CÁC SỐ 0, 1, 2, 3, 4, 5 - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đếm, đọc, viết được các số từ 0 đến 5.",
           "- Nhận biết được số lượng tương ứng với mỗi số từ 0 đến 5; hiểu số 0 biểu thị không có đối tượng nào.",
@@ -367,7 +365,6 @@
         "lessonTitle": "BÀI 1: CÁC SỐ 0, 1, 2, 3, 4, 5 - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đếm, đọc và nhận biết được các số từ 0 đến 5 qua tranh và dãy số.",
           "- Điền đúng số thích hợp vào từng nhóm đồ vật; sắp xếp được dãy số từ 0 đến 5 theo thứ tự.",
@@ -537,7 +534,6 @@
         "lessonTitle": "BÀI 1: CÁC SỐ 0, 1, 2, 3, 4, 5 - TIẾT 3 (LUYỆN TẬP)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đếm, đọc, viết và sử dụng được các số từ 0 đến 5 trong bài tập tranh.",
           "- Điền đúng số còn thiếu trong dãy số theo thứ tự tăng dần và giảm dần.",
@@ -705,7 +701,6 @@
         "lessonTitle": "BÀI 2: CÁC SỐ 6, 7, 8, 9, 10 - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đếm, đọc, viết được các số từ 6 đến 10.",
           "- Nhận biết được số lượng tương ứng với các số từ 6 đến 10.",
@@ -865,7 +860,6 @@
         "lessonTitle": "BÀI 2: CÁC SỐ 6, 7, 8, 9, 10 - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đếm, đọc và viết được các số từ 6 đến 10 trong các bài tập trực quan.",
           "- Điền được số thích hợp trong dãy số và nhận biết được đối tượng có số chân theo yêu cầu.",
@@ -1039,7 +1033,6 @@
         "lessonTitle": "BÀI 2: CÁC SỐ 6, 7, 8, 9, 10 - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đọc, đếm và viết được các số trong phạm vi 10.",
           "- Chọn được số thích hợp biểu thị số lượng của nhóm sự vật; biết đếm thêm để hoàn thành yêu cầu.",
@@ -1203,7 +1196,6 @@
         "lessonTitle": "BÀI 3: NHIỀU HƠN, ÍT HƠN, BẰNG NHAU - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết được quan hệ nhiều hơn, ít hơn, bằng nhau giữa hai nhóm đồ vật.",
           "- Sử dụng đúng các từ “nhiều hơn”, “ít hơn”, “bằng nhau” khi so sánh số lượng.",
@@ -1383,7 +1375,6 @@
         "lessonTitle": "BÀI 3: NHIỀU HƠN, ÍT HƠN, BẰNG NHAU - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Củng cố được biểu tượng nhiều hơn, ít hơn, bằng nhau qua thao tác ghép tương ứng.",
           "- So sánh được số lượng hai nhóm đồ vật trong các tình huống luyện tập.",
@@ -1408,8 +1399,7 @@
         "dieuchinh": [
           "........................................................................................................................................................................",
           "........................................................................................................................................................................",
-          "........................................................................................................................................................................",
-          "Căn cứ biên soạn: SGK Toán 1 - Tập một; SGV Toán 1 - Tập một; Kế hoạch dạy học Khối 1 do giáo viên cung cấp."
+          "........................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -1542,7 +1532,6 @@
         "lessonTitle": "BÀI 4: SO SÁNH SỐ - TIẾT 1: LỚN HƠN, DẤU >",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết được quan hệ lớn hơn và dấu >.",
           "- Đọc, viết được dấu >; sử dụng dấu > để so sánh hai số trong phạm vi 10.",
@@ -1725,7 +1714,6 @@
         "lessonTitle": "BÀI HỌC STEM: DỤNG CỤ SO SÁNH SỐ TRONG PHẠM VI 10 - TIẾT 1 (TIẾT 2 TRONG TUẦN 4)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết - Thay cho Bài 4: So sánh số - Tiết 2 theo KHGD    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- So sánh được hai số trong phạm vi 10 bằng các dấu >, <, =.",
           "- Mô tả được yêu cầu của dụng cụ so sánh số và thực hiện được một số thao tác đơn giản để tạo sản phẩm.",
@@ -1862,7 +1850,6 @@
         "lessonTitle": "BÀI HỌC STEM: DỤNG CỤ SO SÁNH SỐ TRONG PHẠM VI 10 - TIẾT 2 (TIẾT 3 TRONG TUẦN 4)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết - Thay cho Bài 4: So sánh số - Tiết 3 theo KHGD    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đề xuất và thực hiện được cách làm dụng cụ so sánh số bằng vật liệu đơn giản.",
           "- Sử dụng được dụng cụ để biểu diễn các dấu >, <, = khi so sánh hai số trong phạm vi 10.",
@@ -1887,8 +1874,7 @@
         "dieuchinh": [
           "........................................................................................................................................................................",
           "........................................................................................................................................................................",
-          "........................................................................................................................................................................",
-          "Căn cứ biên soạn: SGK Toán 1 - Tập một; SGV Toán 1 - Tập một; Kế hoạch dạy học Khối 1 do giáo viên cung cấp."
+          "........................................................................................................................................................................"
         ],
         "tables": [
           [
@@ -2017,7 +2003,6 @@
         "lessonTitle": "BÀI 4: SO SÁNH SỐ - TIẾT 4: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Sử dụng được các dấu >, <, = để so sánh hai số trong phạm vi 10.",
           "- Điền được số hoặc dấu thích hợp; xác định được nhóm có số lượng nhiều nhất.",
@@ -2177,7 +2162,6 @@
         "lessonTitle": "BÀI 5: MẤY VÀ MẤY - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết được cách gộp hai nhóm đồ vật để được một số lượng chung.",
           "- Nhận biết được cách tách một số thành hai nhóm; nói và viết được theo mẫu “... gồm ... và ...”.",
@@ -2325,7 +2309,6 @@
         "lessonTitle": "BÀI 5: MẤY VÀ MẤY - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết được một số có thể tách thành hai nhóm theo nhiều cách.",
           "- Nói và viết được các cách tách số theo mẫu “... gồm ... và ...”.",
@@ -2487,7 +2470,6 @@
         "lessonTitle": "BÀI 5: MẤY VÀ MẤY - TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Củng cố mối liên hệ giữa các số trong phạm vi 10.",
           "- Điền được số thích hợp khi gộp hai nhóm hoặc tách một số thành hai nhóm.",
@@ -2619,7 +2601,6 @@
         "lessonTitle": "BÀI 6: LUYỆN TẬP CHUNG - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đếm, đọc, viết được các số trong phạm vi 10.",
           "- Nhận biết số lượng đồ vật và điền đúng số tương ứng.",
@@ -2743,7 +2724,6 @@
         "lessonTitle": "BÀI 6: LUYỆN TẬP CHUNG - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Điền được số liền trước, số liền sau trong dãy số từ 0 đến 10.",
           "- Ghi đúng số lượng sự vật trong tranh.",
@@ -2873,7 +2853,6 @@
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH CÙNG THẺ HỌC TOÁN - TIẾT 1 (TIẾT 1 TRONG TUẦN 7)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Vận dụng đếm, đọc, viết, so sánh và sắp xếp các số trong phạm vi 10.",
           "- Nhận biết được yêu cầu của sản phẩm thẻ học Toán.",
@@ -2983,7 +2962,6 @@
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH CÙNG THẺ HỌC TOÁN - TIẾT 2 (TIẾT 2 TRONG TUẦN 7)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Đề xuất và thực hiện được cách làm thẻ học Toán bằng vật liệu đơn giản.",
           "- Sử dụng được thẻ để đếm, đọc, so sánh và sắp xếp số trong phạm vi 10.",
@@ -3091,7 +3069,6 @@
         "lessonTitle": "BÀI 7: HÌNH VUÔNG, HÌNH TRÒN, HÌNH TAM GIÁC, HÌNH CHỮ NHẬT - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận dạng và gọi đúng tên hình vuông, hình tròn, hình tam giác, hình chữ nhật qua vật thật và hình vẽ.",
           "- Phân loại được một số hình theo tên gọi.",
@@ -3245,7 +3222,6 @@
         "lessonTitle": "BÀI 7: HÌNH VUÔNG, HÌNH TRÒN, HÌNH TAM GIÁC, HÌNH CHỮ NHẬT - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Củng cố nhận dạng bốn hình phẳng qua hình rời, hình ghép và đồ vật.",
           "- Đếm được số hình theo từng loại trong tranh.",
@@ -3361,7 +3337,6 @@
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH TRANG TRÍ LỚP HỌC BẰNG CÁC HÌNH HÌNH HỌC - TIẾT 1 (TIẾT 2 TRONG TUẦN 8)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Vận dụng nhận biết hình vuông, hình tròn, hình tam giác, hình chữ nhật trong sản phẩm trang trí.",
           "- Nêu được yêu cầu và đề xuất ý tưởng cho sản phẩm trang trí lớp học.",
@@ -3472,7 +3447,6 @@
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH TRANG TRÍ LỚP HỌC BẰNG CÁC HÌNH HÌNH HỌC - TIẾT 2 (TIẾT 3 TRONG TUẦN 8)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Làm được sản phẩm trang trí lớp học từ các hình phẳng đã học.",
           "- Giới thiệu được hình dạng sử dụng trong sản phẩm.",
@@ -3583,7 +3557,6 @@
         "lessonTitle": "BÀI 9: LUYỆN TẬP CHUNG",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận dạng, gọi tên đúng các hình đã học qua đồ vật và hình vẽ.",
           "- Xếp, ghép được các hình theo yêu cầu.",
@@ -3699,7 +3672,6 @@
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 1: GỘP LẠI THÌ BẰNG MẤY?",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết ý nghĩa ban đầu của phép cộng là gộp hai nhóm lại.",
           "- Viết và đọc được phép cộng phù hợp với tranh.",
@@ -3815,7 +3787,6 @@
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Củng cố ý nghĩa phép cộng theo tình huống gộp lại.",
           "- Tính được các phép cộng trong phạm vi 6.",
@@ -3933,7 +3904,6 @@
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 3: THÊM VÀO THÌ BẰNG MẤY?",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết ý nghĩa phép cộng là thêm vào.",
           "- Tìm được kết quả phép cộng bằng cách đếm thêm.",
@@ -4049,7 +4019,6 @@
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 4: SỐ 0 TRONG PHÉP CỘNG",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết được đặc điểm của phép cộng với 0.",
           "- Thực hiện được phép cộng có một số hạng bằng 0.",
@@ -4180,7 +4149,6 @@
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 5: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Tính được phép cộng trong phạm vi 10.",
           "- Bước đầu nhận biết khi đổi chỗ hai số trong phép cộng thì kết quả không thay đổi qua các ví dụ cụ thể.",
@@ -4325,7 +4293,6 @@
         "lessonTitle": "BÀI 10: PHÉP CỘNG TRONG PHẠM VI 10 - TIẾT 6: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Củng cố cách tính cộng trong phạm vi 10 bằng đếm thêm và ghi nhớ bảng cộng.",
           "- Viết được phép cộng thích hợp với tranh và tình huống thực tế.",
@@ -4449,7 +4416,6 @@
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết được ý nghĩa của phép trừ qua tình huống “bớt đi” hoặc “tách ra”.",
           "- Viết và đọc được phép trừ phù hợp với tranh trong phạm vi 10.",
@@ -4560,7 +4526,6 @@
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép trừ trong phạm vi 10.",
           "- Viết được phép trừ phù hợp với tranh; giải thích được cách tính.",
@@ -4583,8 +4548,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
+          "........................................................................................................................................................"
         ],
         "tables": [
           [
@@ -4667,7 +4631,6 @@
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép trừ trong phạm vi 10.",
           "- Viết được phép trừ phù hợp với tranh; giải thích được cách tính.",
@@ -4792,7 +4755,6 @@
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 4: SỐ 0 TRONG PHÉP TRỪ",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết được số nào trừ 0 cũng bằng chính số đó; số nào trừ chính số đó bằng 0.",
           "- Thực hiện được phép trừ có số 0 trong phạm vi 10.",
@@ -4895,7 +4857,6 @@
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 5: BẢNG TRỪ",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Hình thành và sử dụng được một phần bảng trừ trong phạm vi 10.",
           "- Tính nhẩm được các phép trừ dựa vào quy luật và bảng trừ.",
@@ -4918,8 +4879,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
+          "........................................................................................................................................................"
         ],
         "tables": [
           [
@@ -4998,7 +4958,6 @@
         "lessonTitle": "BÀI 11: PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 6: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép trừ và biểu thức có hai dấu phép tính trong phạm vi 10.",
           "- Nêu được phép tính phù hợp với tình huống qua tranh.",
@@ -5086,7 +5045,6 @@
         "lessonTitle": "BÀI 12: BẢNG CỘNG, BẢNG TRỪ TRONG PHẠM VI 10 - TIẾT 1: BẢNG CỘNG",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết cấu tạo bảng cộng trong phạm vi 10.",
           "- Điền và sử dụng được bảng cộng để tìm kết quả phép tính.",
@@ -5177,7 +5135,6 @@
         "lessonTitle": "BÀI 12: BẢNG CỘNG, BẢNG TRỪ TRONG PHẠM VI 10 - TIẾT 2: BẢNG TRỪ",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết cấu tạo bảng trừ trong phạm vi 10.",
           "- Điền được kết quả còn thiếu và sử dụng bảng trừ để tính nhẩm.",
@@ -5200,8 +5157,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
+          "........................................................................................................................................................"
         ],
         "tables": [
           [
@@ -5275,7 +5231,6 @@
         "lessonTitle": "BÀI 12: BẢNG CỘNG, BẢNG TRỪ TRONG PHẠM VI 10 - TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Vận dụng bảng cộng, bảng trừ để tính nhẩm trong phạm vi 10.",
           "- Điền được số còn thiếu trong các phép tính.",
@@ -5359,7 +5314,6 @@
         "lessonTitle": "BÀI HỌC STEM: DỤNG CỤ TÍNH CỘNG, TÍNH TRỪ - TIẾT 1 (TIẾT 2 TRONG TUẦN 14)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Viết được các số theo thứ tự từ 0 đến 10 để tạo thành băng số.",
           "- Thực hiện được phép cộng, phép trừ trong phạm vi 10 bằng thao tác di chuyển thanh trượt.",
@@ -5446,7 +5400,6 @@
         "lessonTitle": "BÀI HỌC STEM: DỤNG CỤ TÍNH CỘNG, TÍNH TRỪ - TIẾT 2 (TIẾT 3 TRONG TUẦN 14)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Viết được các số theo thứ tự từ 0 đến 10 để tạo thành băng số.",
           "- Thực hiện được phép cộng, phép trừ trong phạm vi 10 bằng thao tác di chuyển thanh trượt.",
@@ -5539,7 +5492,6 @@
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH TÍNH NHẨM - TIẾT 1 (TIẾT 1 TRONG TUẦN 15)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Vận dụng được bảng cộng, bảng trừ trong phạm vi 10 để tính nhẩm.",
           "- Thiết kế và sử dụng được bộ thẻ/trò chơi tính nhẩm đơn giản.",
@@ -5621,7 +5573,6 @@
         "lessonTitle": "BÀI HỌC STEM: THỰC HÀNH TÍNH NHẨM - TIẾT 2 (TIẾT 2 TRONG TUẦN 15)",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Vận dụng được bảng cộng, bảng trừ trong phạm vi 10 để tính nhẩm.",
           "- Thiết kế và sử dụng được bộ thẻ/trò chơi tính nhẩm đơn giản.",
@@ -5703,7 +5654,6 @@
         "lessonTitle": "BÀI 14: KHỐI LẬP PHƯƠNG, KHỐI HỘP CHỮ NHẬT - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận dạng được khối lập phương và khối hộp chữ nhật qua vật thật và hình vẽ.",
           "- Đếm, xếp, ghép được một số khối lập phương theo mẫu.",
@@ -5804,7 +5754,6 @@
         "lessonTitle": "BÀI 15: VỊ TRÍ, ĐỊNH HƯỚNG TRONG KHÔNG GIAN - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết được các vị trí trước - sau, trên - dưới, ở giữa qua hình ảnh và vật thật.",
           "- Diễn đạt được vị trí của một vật/nhân vật so với vật/nhân vật khác.",
@@ -5921,7 +5870,6 @@
         "lessonTitle": "BÀI 15: VỊ TRÍ, ĐỊNH HƯỚNG TRONG KHÔNG GIAN - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận biết và sử dụng được từ chỉ vị trí phải - trái trong tình huống tranh.",
           "- Xác định được thứ tự, vị trí của các nhân vật hoặc đồ vật khi quan sát.",
@@ -6030,7 +5978,6 @@
         "lessonTitle": "BÀI 16: LUYỆN TẬP CHUNG",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Củng cố nhận biết khối lập phương, khối hộp chữ nhật và vị trí định hướng trong không gian.",
           "- Xác định được mặt trước, mặt trên, mặt bên; nhận biết hình ghép từ khối.",
@@ -6053,8 +6000,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
+          "........................................................................................................................................................"
         ],
         "tables": [
           [
@@ -6113,7 +6059,6 @@
         "lessonTitle": "BÀI 17: ÔN TẬP CÁC SỐ TRONG PHẠM VI 10 - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Ôn đọc, viết, đếm, phân tích, so sánh và sắp xếp các số trong phạm vi 10.",
           "- Thực hiện được bài tập nhận biết số qua tranh và dãy số.",
@@ -6197,7 +6142,6 @@
         "lessonTitle": "BÀI 17: ÔN TẬP CÁC SỐ TRONG PHẠM VI 10 - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Ôn đọc, viết, đếm, phân tích, so sánh và sắp xếp các số trong phạm vi 10.",
           "- Thực hiện được bài tập nhận biết số qua tranh và dãy số.",
@@ -6281,7 +6225,6 @@
         "lessonTitle": "BÀI 18: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Ôn tập và thực hiện được phép cộng, phép trừ trong phạm vi 10.",
           "- Tính nhẩm, so sánh kết quả và viết được phép tính thích hợp với tranh.",
@@ -6304,8 +6247,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
+          "........................................................................................................................................................"
         ],
         "tables": [
           [
@@ -6372,7 +6314,6 @@
         "lessonTitle": "BÀI 18: ÔN TẬP PHÉP CỘNG, PHÉP TRỪ TRONG PHẠM VI 10 - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Ôn tập và thực hiện được phép cộng, phép trừ trong phạm vi 10.",
           "- Tính nhẩm, so sánh kết quả và viết được phép tính thích hợp với tranh.",
@@ -6456,7 +6397,6 @@
         "lessonTitle": "BÀI 19: ÔN TẬP HÌNH HỌC",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Nhận dạng được hình vuông, hình tròn, hình tam giác, hình chữ nhật; khối lập phương và khối hộp chữ nhật.",
           "- Nhận biết quy luật sắp xếp hình; xếp ghép được hình theo mẫu.",
@@ -6536,7 +6476,6 @@
         "lessonTitle": "BÀI 20: ÔN TẬP CHUNG",
         "topic": "",
         "yccd": [
-          "Số tiết thực hiện: 01 tiết    -    Thời gian thực hiện: .........................",
           "1. Năng lực đặc thù",
           "- Củng cố số, phép cộng, phép trừ trong phạm vi 10 và một số nội dung hình học đã học.",
           "- Viết được phép tính phù hợp với tranh và tính đúng kết quả.",
@@ -6559,8 +6498,7 @@
         "activities": [],
         "dieuchinh": [
           "........................................................................................................................................................",
-          "........................................................................................................................................................",
-          "Nguồn xây dựng: SGK Toán 1, SGV Toán 1 - Bộ Kết nối tri thức với cuộc sống; Kế hoạch dạy học môn Toán lớp 1 đã cung cấp."
+          "........................................................................................................................................................"
         ],
         "tables": [
           [
@@ -6623,7 +6561,6 @@
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được các số từ 11 đến 20 thông qua nhóm một chục và các đơn vị.",
           "- Đọc, viết được các số từ 11 đến 20; bước đầu nêu được cấu tạo số gồm chục và đơn vị.",
@@ -6745,7 +6682,6 @@
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Đọc, viết và tìm được số còn thiếu trong dãy số từ 10 đến 20.",
           "- Vận dụng nhận biết số có hai chữ số để trả lời câu hỏi từ tranh và tham gia trò chơi học tập.",
@@ -6844,7 +6780,6 @@
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - CÁC SỐ TRÒN CHỤC - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết, đọc, viết được các số tròn chục từ 10 đến 90.",
           "- Biết mỗi số tròn chục gồm một số chục và 0 đơn vị; vận dụng đếm theo chục.",
@@ -6968,7 +6903,6 @@
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - CÁC SỐ ĐẾN 99 - TIẾT 4",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết cấu tạo số có hai chữ số trong phạm vi 99 theo chục và đơn vị.",
           "- Đọc, viết được một số có hai chữ số; biết đọc đúng trường hợp có chữ số hàng đơn vị là 1 hoặc 5.",
@@ -7090,7 +7024,6 @@
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 5",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Phân tích được số có hai chữ số thành số chục và số đơn vị.",
           "- Đọc, viết và nhận biết số có hai chữ số thông qua hình biểu diễn và tình huống.",
@@ -7197,7 +7130,6 @@
         "lessonTitle": "BÀI 21: SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 6",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố đọc, viết, phân tích và sắp xếp các số có hai chữ số trong phạm vi 99.",
           "- Vận dụng kiến thức vào bảng số và trò chơi học tập.",
@@ -7294,7 +7226,6 @@
         "lessonTitle": "BÀI 22: SO SÁNH SỐ CÓ HAI CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Biết so sánh hai số có hai chữ số bằng cách so sánh số chục trước, nếu số chục bằng nhau thì so sánh số đơn vị.",
           "- Sử dụng được dấu >, <, = khi so sánh số có hai chữ số; nhận biết số lớn hơn, số bé hơn.",
@@ -7416,7 +7347,6 @@
         "lessonTitle": "BÀI 22: SO SÁNH SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố so sánh số có hai chữ số; chọn được số lớn hơn, số bé hơn trong từng cặp.",
           "- Sắp xếp được ba số theo thứ tự từ bé đến lớn hoặc từ lớn đến bé.",
@@ -7519,7 +7449,6 @@
         "lessonTitle": "BÀI 22: SO SÁNH SỐ CÓ HAI CHỮ SỐ - LUYỆN TẬP - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố việc sử dụng dấu >, <, = khi so sánh số có hai chữ số.",
           "- Vận dụng so sánh số để giải quyết tình huống thực tế đơn giản.",
@@ -7620,7 +7549,6 @@
         "lessonTitle": "BÀI HỌC STEM: BẢNG CÁC SỐ TỪ 1 ĐẾN 100 - TIẾT 1 - THAY CHO BÀI 23 THEO KHGD",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Nhận biết được số 100; đọc, viết được số 100; nhận biết cấu trúc bảng các số từ 1 đến 100.",
           "- Đếm, điền được số còn thiếu và phát hiện quy luật đơn giản của hàng, cột trong bảng số.",
@@ -7739,7 +7667,6 @@
         "lessonTitle": "BÀI HỌC STEM: BẢNG CÁC SỐ TỪ 1 ĐẾN 100 - TIẾT 2 - TIẾP NỐI BÀI STEM THEO KHGD",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hành làm được bảng các số từ 1 đến 100 bằng vật liệu đơn giản; viết đúng vị trí các số.",
           "- Sử dụng bảng số để tìm, đọc và so sánh một số trong phạm vi 100.",
@@ -7850,7 +7777,6 @@
         "lessonTitle": "BÀI 24: LUYỆN TẬP CHUNG - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố đọc, viết, so sánh và sắp xếp các số trong phạm vi 100.",
           "- Tìm được số theo quy luật; vận dụng số có hai chữ số trong bài toán vui.",
@@ -9678,7 +9604,6 @@
         "lessonTitle": "BÀI 31: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa thực tế của phép trừ qua thao tác bớt đi.",
           "- Thực hiện được phép trừ số có hai chữ số cho số có một chữ số, không nhớ, bằng que tính và đặt tính theo cột dọc.",
@@ -9840,7 +9765,6 @@
         "lessonTitle": "BÀI 31: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép trừ số có hai chữ số cho số có một chữ số trong các bài luyện tập.",
           "- Biết nhận xét phép tính đúng, sai và giải thích được lỗi đặt tính hoặc lỗi tính.",
@@ -9969,7 +9893,6 @@
         "lessonTitle": "BÀI 31: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ MỘT CHỮ SỐ - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố phép trừ số có hai chữ số cho số có một chữ số qua tính nhẩm, tìm số và bài toán.",
           "- So sánh được kết quả phép tính với số cho trước; chọn đúng đối tượng theo điều kiện.",
@@ -10096,7 +10019,6 @@
         "lessonTitle": "BÀI 32: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Hiểu được ý nghĩa bớt đi của phép trừ số có hai chữ số cho số có hai chữ số.",
           "- Thực hiện được phép trừ không nhớ bằng que tính và đặt tính theo cột dọc.",
@@ -10228,7 +10150,6 @@
         "lessonTitle": "BÀI 32: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố thực hiện phép trừ số có hai chữ số cho số có hai chữ số.",
           "- Tính nhẩm các phép trừ số tròn chục; tìm số thích hợp và giải toán thực tế.",
@@ -10349,7 +10270,6 @@
         "lessonTitle": "BÀI 32: PHÉP TRỪ SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố phép trừ số có hai chữ số qua bài tập tính, nối và tình huống thực tế.",
           "- So sánh được kết quả phép tính và chọn đối tượng theo yêu cầu.",
@@ -10457,7 +10377,6 @@
         "lessonTitle": "BÀI HỌC STEM: MÔ HÌNH TÍNH HÀNG DỌC - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Thực hiện được phép cộng, phép trừ số có hai chữ số trong phạm vi 100 ở mức không nhớ.",
           "- Nhận biết nhu cầu tạo mô hình hỗ trợ đặt tính thẳng cột chục, cột đơn vị.",
@@ -10567,7 +10486,6 @@
         "lessonTitle": "BÀI HỌC STEM: MÔ HÌNH TÍNH HÀNG DỌC - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Làm được mô hình tính hàng dọc có cột chục, cột đơn vị và sử dụng được để tính phép cộng, phép trừ không nhớ.",
           "2. Năng lực chung",
@@ -10676,7 +10594,6 @@
         "lessonTitle": "BÀI 33: LUYỆN TẬP CHUNG - TIẾT 3",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố phép cộng, phép trừ số có hai chữ số không nhớ trong phạm vi 100.",
           "- Giải được bài toán thực tế bằng phép tính thích hợp; biết tìm quy luật đơn giản trong bài tập.",
@@ -10803,7 +10720,6 @@
         "lessonTitle": "BÀI 33: LUYỆN TẬP CHUNG - TIẾT 4",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Củng cố phép cộng, phép trừ số có hai chữ số không nhớ trong phạm vi 100.",
           "- Tìm được số thích hợp trong mảnh ghép và giải được bài toán trực quan.",
@@ -10931,7 +10847,6 @@
         "lessonTitle": "BÀI HỌC STEM: ĐỒNG HỒ TIỆN ÍCH - TIẾT 1",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Đọc được giờ đúng trên đồng hồ và nhận biết các bộ phận chính của đồng hồ.",
           "- Nêu được ích lợi của đồng hồ; xác định tiêu chí của sản phẩm đồng hồ tiện ích.",
@@ -11049,7 +10964,6 @@
         "lessonTitle": "BÀI HỌC STEM: ĐỒNG HỒ TIỆN ÍCH - TIẾT 2",
         "topic": "",
         "yccd": [
-          "Thời gian thực hiện: 35 phút 35 phút",
           "1. Năng lực đặc thù",
           "- Làm được mô hình đồng hồ có đủ 12 số đúng thứ tự và hai kim có thể xoay.",
           "- Sử dụng mô hình để đọc, đặt giờ đúng theo yêu cầu.",
