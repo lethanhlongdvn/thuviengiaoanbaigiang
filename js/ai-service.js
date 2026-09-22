@@ -1385,12 +1385,12 @@ Hãy soạn trọn bộ ĐỀ KIỂM TRA MÔN TIẾNG VIỆT LỚP ${grade} gồ
 - QUY TẮC CỐT LÕI VỀ NGỮ LIỆU PHẦN ĐỌC (CẤU HÌNH CỨNG SÁCH CTST - TUYỆT ĐỐI KHÔNG LẤY BÀI NGOÀI SÁCH):
   1. Toàn bộ ngữ liệu của Phần Đọc thành tiếng và Phần Đọc hiểu BẮT BUỘC lấy 100% từ các bài đọc trong Sách giáo khoa Tiếng Việt Lớp ${grade} - Bộ sách Chân trời sáng tạo (CTST) theo đúng phân phối chương trình của phạm vi học kỳ. TUYỆT ĐỐI KHÔNG tự sáng tác, KHÔNG lấy bài đọc ngoài sách giáo khoa.
   2. Phần Đọc thành tiếng (${oralScore.toFixed(1).replace('.', ',')} điểm):
-     * Cung cấp 3 đến 5 phiếu bài đọc thành tiếng trích từ các bài đọc trong SGK Tiếng Việt Chân trời sáng tạo Lớp ${grade}.
-     * YÊU CẦU ĐẶC BIỆT ĐỂ IN ĐỀ PHÁT CHO HỌC SINH ĐỌC TRỰC TIẾP:
-       - Trong MỖI phiếu bài đọc ("oralItems"), BẮT BUỘC xuất đầy đủ TOÀN VĂN ĐOẠN ĐỌC vào trường "passage" (khoảng ${grade === 1 ? '30-40' : grade === 2 ? '50-60' : grade === 3 ? '70-80' : grade === 4 ? '90-100' : '100-120'} chữ) trích chuẩn xác từ bài học trong SGK CTST để giáo viên in trực tiếp ra giấy cho học sinh cầm đọc, TUYỆT ĐỐI KHÔNG để trống!
-       - BẮT BUỘC xuất CÂU HỎI ĐỌC HIỂU vào trường "question" tương ứng với đoạn đọc để in ngay dưới đoạn đọc cho học sinh đọc và trả lời!
-       - BẮT BUỘC xuất GỢI Ý CÂU TRẢ LỜI ĐÚNG vào trường "answer" trong Hướng dẫn chấm để giáo viên chấm điểm.
-       - Ghi rõ: "title" (Tên bài trong SGK CTST), "bookVolume" (Tập 1 hoặc Tập 2), "page" (Trang sách SGK CTST).
+     * BẮT BUỘC cung cấp ĐÚNG 5 BÀI ĐỌC THÀNH TIẾNG (tương ứng 5 Phiếu đọc bốc thăm từ Phiếu 1 đến Phiếu 5 để in trên 5 trang A4 riêng biệt) trích từ các bài học trong SGK Tiếng Việt Chân trời sáng tạo Lớp ${grade} thuộc phạm vi học kỳ.
+     * YÊU CẦU ĐẶC BIỆT ĐỂ IN ĐỀ CHO HỌC SINH (5 BÀI TRÊN 5 TRANG A4):
+       - TUYỆT ĐỐI KHÔNG TRÍCH ĐOẠN NGẮN CỦN CỠN 30-50 từ. BẮT BUỘC cung cấp TOÀN VĂN CẢ BÀI ĐỌC HOÀN CHỈNH (đối với văn xuôi trích toàn bộ cả bài đọc hoặc trích đoạn lớn hoàn chỉnh từ 180 đến 300 từ; đối với bài thơ trích trọn vẹn toàn bộ tất cả các khổ thơ của bài thơ) trong trường "passage" để học sinh lớp ${grade} đọc đủ dung lượng.
+       - BẮT BUỘC cung cấp TOÀN BỘ HỆ THỐNG CÂU HỎI ĐỌC HIỂU CỦA BÀI ĐÓ TRONG SGK (từ 3 đến 5 câu hỏi tìm hiểu bài theo đúng SGK CTST) vào mảng "questions" (và chuỗi "question") để in đầy đủ vào phiếu đọc của học sinh.
+       - BẮT BUỘC cung cấp GỢI Ý CÂU TRẢ LỜI TƯƠNG ỨNG CHO TOÀN BỘ CÁC CÂU HỎI vào mảng "answers" (và chuỗi "answer") trong Hướng dẫn chấm.
+       - Ghi rõ: "title" (Tên bài đọc trong SGK CTST), "bookVolume" (Tập 1 hoặc Tập 2), "page" (Trang sách SGK CTST), "author" (Tác giả).
   3. Phần Đọc hiểu & Luyện từ và câu (${compScore.toFixed(1).replace('.', ',')} điểm):
      * Cung cấp 1 bài đọc/trích đoạn hoàn chỉnh trong SGK Tiếng Việt Lớp ${grade} - Chân trời sáng tạo (có tựa đề bài đọc trong SGK, tên tác giả, nội dung toàn văn bài văn/đoạn trích khoảng ${grade === 1 ? '40-60' : grade === 2 ? '80-110' : grade === 3 ? '150-180' : grade === 4 ? '200-250' : '250-300'} chữ). Tuyệt đối không lấy bài ngoài SGK CTST.
      * Hệ thống 8 câu hỏi (6 câu trắc nghiệm + 2 câu tự luận/đặt câu) theo ma trận 3 Mức độ (Mức 1 - Locate, Mức 2 - Interpret, Mức 3 - Reflect), phân bố hợp lý giữa Đọc hiểu văn bản và Luyện từ và câu/Kiến thức Tiếng Việt bám sát SGK Chân trời sáng tạo.
@@ -1443,16 +1443,29 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
     "totalScore": 10.0,
     "oralScore": ${oralScore},
     "oralMode": "sgk",
-    "oralGuideIntro": "Học sinh bốc thăm đọc thành tiếng một đoạn văn/thơ trong các bài sau (thời gian đọc không quá 1 phút) và trả lời câu hỏi đọc hiểu của giáo viên:",
+    "oralGuideIntro": "Học sinh bốc thăm 1 trong 5 phiếu sau, đọc thành tiếng bài văn/thơ (thời gian khoảng 1 - 1,5 phút) và trả lời câu hỏi đọc hiểu của giáo viên:",
     "oralItems": [
       {
-        "title": "Tên bài đọc trong SGK CTST Lớp ${grade}",
+        "sheetNum": 1,
+        "title": "Tên bài đọc 1 trong SGK CTST Lớp ${grade}",
         "bookVolume": "Tập 1",
         "page": "Trang ...",
         "author": "Tên tác giả",
-        "passage": "TOÀN VĂN ĐOẠN ĐỌC TRÍCH TỪ BÀI HỌC SGK CHÂN TRỜI SÁNG TẠO ĐỂ IN RA CHO HỌC SINH ĐỌC...",
-        "question": "Câu hỏi kiểm tra đọc hiểu của đoạn đọc trên dành cho học sinh",
-        "answer": "Gợi ý câu trả lời chuẩn xác của học sinh dành cho giáo viên chấm điểm"
+        "passage": "TOÀN VĂN CẢ BÀI ĐỌC HOÀN CHỈNH (HOẶC TRÍCH ĐOẠN LỚN 180-300 TỪ) TRONG SGK TIẾNG VIỆT CHÂN TRỜI SÁNG TẠO ĐỂ IN RA 1 TRANG A4 CHO HỌC SINH ĐỌC...",
+        "questions": [
+          "Câu hỏi 1 trong SGK tìm hiểu bài đọc...",
+          "Câu hỏi 2 trong SGK tìm hiểu bài đọc...",
+          "Câu hỏi 3 trong SGK tìm hiểu bài đọc...",
+          "Câu hỏi 4 trong SGK tìm hiểu bài đọc..."
+        ],
+        "question": "1. Câu hỏi 1...\n2. Câu hỏi 2...\n3. Câu hỏi 3...\n4. Câu hỏi 4...",
+        "answers": [
+          "Gợi ý câu trả lời 1...",
+          "Gợi ý câu trả lời 2...",
+          "Gợi ý câu trả lời 3...",
+          "Gợi ý câu trả lời 4..."
+        ],
+        "answer": "1. Trả lời 1...\n2. Trả lời 2...\n3. Trả lời 3...\n4. Trả lời 4..."
       }
     ],
     "comprehensionScore": ${compScore},
@@ -2934,6 +2947,106 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- ========================================== -->
         <!-- TRANG 1: PHIẾU KIỂM TRA ĐỌC (10 ĐIỂM)     -->
         <!-- ========================================== -->
+        <!-- ========================================================================= -->
+        <!-- PHẦN 1: 5 PHIẾU ĐỌC THÀNH TIẾNG (MỖI PHIẾU IN TRÊN 1 TRANG A4 RIÊNG BIỆT) -->
+        <!-- ========================================================================= -->
+        ${(rd.oralItems && rd.oralItems.length > 0) ? rd.oralItems.map(function(item, idx) {
+          var volPage = [];
+          if (item.bookVolume) volPage.push(item.bookVolume);
+          if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
+          var sourceInfo = volPage.length > 0 ? `SGK Tiếng Việt ${grade} - Chân trời sáng tạo (${volPage.join(' - ')})` : `SGK Tiếng Việt ${grade} - Chân trời sáng tạo`;
+
+          var qList = [];
+          if (Array.isArray(item.questions) && item.questions.length > 0) {
+            qList = item.questions;
+          } else if (item.question) {
+            qList = item.question.split(/\n+/).map(s => s.trim()).filter(Boolean);
+          }
+
+          return `
+            ${idx > 0 ? '<div class="page-break"></div>' : ''}
+            <!-- PHIẾU ĐỌC THÀNH TIẾNG SỐ ${idx + 1} (TRANG A4 RIÊNG BIỆT) -->
+            <table class="header-table">
+              <tr>
+                <td style="width: 50%; vertical-align: top;">
+                  <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
+                  Họ và tên HS: ...................................................<br>
+                  Lớp: ${grade}..... • Số báo danh: .........
+                </td>
+                <td style="width: 50%; text-align: right; vertical-align: top;">
+                  <i>Thứ….. ngày … tháng … năm 2026</i><br>
+                  <b>KIỂM TRA ĐỊNH KỲ ${exam.examTerm || 'HỌC KỲ I'}</b><br>
+                  <b>MÔN: TIẾNG VIỆT - LỚP ${grade}</b><br>
+                  <b style="font-size: 13pt; color: #b91c1c; text-transform: uppercase;">PHIẾU ĐỌC THÀNH TIẾNG SỐ ${idx + 1}</b>
+                </td>
+              </tr>
+            </table>
+
+            <div style="font-style: italic; font-size: 10.5pt; margin-bottom: 6px; color: #333;">
+              * Hướng dẫn: Học sinh đọc thành tiếng bài văn/thơ dưới đây (thời gian khoảng 1 - 1,5 phút) và trả lời câu hỏi đọc hiểu do giáo viên chỉ định:
+            </div>
+
+            <!-- KHUNG TOÀN VĂN CẢ BÀI ĐỌC HOÀN CHỈNH -->
+            <div style="border: 1.5px solid #000; padding: 10px 14px; margin-bottom: 10px; background-color: #ffffff;">
+              <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 2px;">
+                ${item.title}
+              </div>
+              <div style="text-align: center; font-style: italic; font-size: 10.5pt; margin-bottom: 8px;">
+                (${sourceInfo}${item.author ? ` • Tác giả: ${item.author}` : ''})
+              </div>
+              <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45; font-size: 12pt; white-space: pre-line;">
+                ${item.passage || item.content || `(Học sinh đọc cả bài "${item.title}")`}
+              </div>
+            </div>
+
+            <!-- HỆ THỐNG TOÀN BỘ CÂU HỎI ĐỌC HIỂU CỦA BÀI ĐÓ TRONG SGK -->
+            <div style="border: 1px dashed #444; padding: 8px 12px; margin-bottom: 10px; background-color: #fafafa;">
+              <div style="font-weight: bold; font-size: 11.5pt; margin-bottom: 4px; color: #1e3a8a;">
+                CÂU HỎI TÌM HIỂU BÀI (Học sinh trả lời câu hỏi do giáo viên chỉ định):
+              </div>
+              ${qList.length > 0 ? qList.map(function(qText, qIdx) {
+                var prefix = qText.trim().match(/^(Câu\s*\d+|\d+[\.\:])/i) ? '' : `Câu ${qIdx + 1}: `;
+                return `<div style="margin-bottom: 3px; font-size: 11pt; line-height: 1.35;"><b>${prefix}</b>${qText}</div>`;
+              }).join('') : `<div style="font-size: 11pt;"><b>Câu hỏi:</b> ${item.question || "Nêu nội dung chính hoặc bài học rút ra từ bài đọc trên."}</div>`}
+            </div>
+
+            <!-- KHUNG CHẤM ĐIỂM CỦA GIÁO VIÊN Ở CHÂN TRANG A4 -->
+            <table style="width: 100%; border-collapse: collapse; margin-top: 6px; font-size: 10.5pt;">
+              <tr>
+                <td style="border: 1px solid #000; padding: 4px 6px; width: 25%; text-align: center;">
+                  <b>1. Đọc đúng, lưu loát</b><br>(....../2,0 điểm)
+                </td>
+                <td style="border: 1px solid #000; padding: 4px 6px; width: 25%; text-align: center;">
+                  <b>2. Diễn cảm, ngắt nghỉ</b><br>(....../1,0 điểm)
+                </td>
+                <td style="border: 1px solid #000; padding: 4px 6px; width: 25%; text-align: center;">
+                  <b>3. Trả lời câu hỏi</b><br>(....../1,0 điểm)
+                </td>
+                <td style="border: 1px solid #000; padding: 4px 6px; width: 25%; text-align: center; font-weight: bold;">
+                  <b>TỔNG ĐIỂM ĐỌC TIẾNG</b><br>(....../${oralScoreStr} điểm)
+                </td>
+              </tr>
+              <tr>
+                <td colspan="3" style="border: 1px solid #000; padding: 6px 8px; height: 35px; vertical-align: top;">
+                  <b>Nhận xét:</b> .....................................................................................................................................................
+                </td>
+                <td style="border: 1px solid #000; padding: 6px 8px; text-align: center; vertical-align: top;">
+                  <b>Giáo viên chấm</b><br><i>(Ký, ghi họ tên)</i>
+                </td>
+              </tr>
+            </table>
+          `;
+        }).join('') : `
+          <div style="border: 1px solid #ccc; padding: 8px 12px; margin-bottom: 12px;">
+            <i>Chưa có dữ liệu bài đọc thành tiếng.</i>
+          </div>
+        `}
+
+        <!-- ========================================================================= -->
+        <!-- PHẦN 2: PHIẾU KIỂM TRA ĐỌC HIỂU (BẮT ĐẦU TRANG MỚI SAU 5 TRANG ĐỌC TIẾNG) -->
+        <!-- ========================================================================= -->
+        <div class="page-break"></div>
+
         <table class="header-table">
           <tr>
             <td style="width: 48%;">
@@ -2943,75 +3056,28 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             </td>
             <td style="width: 52%; text-align: right;">
               <i>Thứ….. ngày … tháng … năm 2026</i><br>
-              <b style="font-size: 13.5pt; text-transform: uppercase;">PHIẾU KIỂM TRA ĐỌC</b><br>
+              <b style="font-size: 13.5pt; text-transform: uppercase;">PHIẾU KIỂM TRA ĐỌC HIỂU</b><br>
               <b>MÔN: TIẾNG VIỆT - LỚP ${exam.grade}</b><br>
               <i>Thời gian làm bài: 35 - 40 phút</i>
             </td>
           </tr>
         </table>
 
-        <!-- KHUNG ĐÁNH GIÁ 3 Ô PHẦN ĐỌC -->
+        <!-- KHUNG ĐÁNH GIÁ PHẦN ĐỌC HIỂU -->
         <table class="eval-box">
           <tr>
-            <td style="width: 15%; text-align: center;"><b>Đọc tiếng</b></td>
-            <td style="width: 15%; text-align: center;"><b>Đọc hiểu</b></td>
-            <td style="width: 15%; text-align: center;"><b>Tổng điểm</b></td>
-            <td style="width: 35%; text-align: center;"><b>Nhận xét của giáo viên</b></td>
-            <td style="width: 20%; text-align: center;"><b>Chữ kí PHHS</b></td>
+            <td style="width: 25%; text-align: center;"><b>Điểm Đọc hiểu & LTVC</b></td>
+            <td style="width: 50%; text-align: center;"><b>Nhận xét của giáo viên</b></td>
+            <td style="width: 25%; text-align: center;"><b>Chữ kí PHHS</b></td>
           </tr>
           <tr>
-            <td style="height: 55px; text-align: center;">......... / ${oralScoreStr}đ</td>
-            <td style="text-align: center;">......... / ${compScoreStr}đ</td>
-            <td style="text-align: center; font-weight: bold; font-size: 13pt;">......... / 10đ</td>
+            <td style="height: 50px; text-align: center; font-weight: bold; font-size: 13pt;">......... / ${compScoreStr}đ</td>
             <td>&nbsp;</td>
             <td>&nbsp;</td>
           </tr>
         </table>
 
-        <!-- A. ĐỌC THÀNH TIẾNG -->
-        <div class="section-heading">A. PHẦN ĐỌC THÀNH TIẾNG (${oralScoreStr} điểm)</div>
-        <p style="margin: 0 0 6px 0; font-style: italic;">
-          ${rd.oralGuideIntro || "Học sinh bốc thăm đọc một đoạn văn/thơ trong các bài sau (thời gian không quá 1 phút) và trả lời câu hỏi do giáo viên nêu:"}
-        </p>
-
-        ${(rd.oralItems && rd.oralItems.length > 0) ? rd.oralItems.map(function(item, idx) {
-          var volPage = [];
-          if (item.bookVolume) volPage.push(item.bookVolume);
-          if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
-          var sourceInfo = volPage.length > 0 ? `SGK Tiếng Việt ${grade} - Chân trời sáng tạo (${volPage.join(' - ')})` : `SGK Tiếng Việt ${grade} - Chân trời sáng tạo`;
-          return `
-            <div style="border: 1.5px solid #000; padding: 8px 12px; margin-bottom: 12px; background-color: #ffffff;">
-              <table style="width: 100%; border: none; margin-bottom: 4px;">
-                <tr>
-                  <td style="font-weight: bold; font-size: 12pt; text-transform: uppercase;">
-                    PHIẾU ĐỌC SỐ ${idx + 1}: ${item.title}
-                  </td>
-                  <td style="text-align: right; font-style: italic; font-size: 10.5pt; color: #333;">
-                    ${sourceInfo}
-                  </td>
-                </tr>
-              </table>
-              ${item.author ? `<div style="text-align: right; font-style: italic; font-size: 10.5pt; margin-bottom: 4px;">Tác giả: ${item.author}</div>` : ''}
-              
-              <!-- TOÀN VĂN ĐOẠN ĐỌC CHO HỌC SINH ĐỌC THÀNH TIẾNG -->
-              <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.4; font-size: 12pt; margin: 4px 0 8px 0;">
-                ${item.passage || item.content || `(Học sinh đọc đoạn văn theo chỉ định trong bài "${item.title}")`}
-              </div>
-
-              <!-- CÂU HỎI ĐỌC HIỂU ĐỂ HỌC SINH TRẢ LỜI -->
-              <div style="border-top: 1px dotted #666; padding-top: 5px; font-size: 11.5pt;">
-                <b>* Câu hỏi đọc hiểu:</b> ${item.question || "Nêu nội dung hoặc bài học rút ra từ đoạn đọc trên."}
-              </div>
-            </div>
-          `;
-        }).join('') : `
-          <div style="border: 1px solid #ccc; padding: 8px 12px; margin-bottom: 12px;">
-            <i>Chưa có dữ liệu bài đọc thành tiếng.</i>
-          </div>
-        `}
-
-        <!-- B. ĐỌC HIỂU VÀ KIẾN THỨC TIẾNG VIỆT -->
-        <div class="section-heading">B. PHẦN ĐỌC HIỂU VÀ KIẾN THỨC TIẾNG VIỆT (${compScoreStr} điểm)</div>
+        <div class="section-heading">PHẦN ĐỌC HIỂU VÀ KIẾN THỨC TIẾNG VIỆT (${compScoreStr} điểm)</div>
         <p style="margin: 0 0 6px 0; font-style: italic;">Đọc thầm bài văn sau và hoàn thành các bài tập bên dưới:</p>
 
         <div class="reading-box">
@@ -3251,29 +3317,62 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         </p>
 
         <div style="font-weight: bold; margin: 8px 0 4px 0; color: #1e3a8a;">
-          DANH SÁCH CÂU HỎI VÀ GỢI Ý TRẢ LỜI DÀNH CHO GIÁO VIÊN:
+          DANH SÁCH TOÀN BỘ CÂU HỎI VÀ GỢI Ý TRẢ LỜI 5 PHIẾU ĐỌC THÀNH TIẾNG:
         </div>
         <table class="matrix-table" style="text-align: left;">
           <thead>
             <tr>
-              <th style="width: 25%; text-align: center;">Bài đọc</th>
-              <th style="width: 35%; text-align: center;">Câu hỏi giáo viên hỏi</th>
-              <th style="width: 40%; text-align: center;">Gợi ý câu trả lời chuẩn của học sinh</th>
+              <th style="width: 25%; text-align: center;">Phiếu / Bài đọc</th>
+              <th style="width: 35%; text-align: center;">Hệ thống câu hỏi trong SGK</th>
+              <th style="width: 40%; text-align: center;">Gợi ý câu trả lời chuẩn xác</th>
             </tr>
           </thead>
           <tbody>
-            ${(exam.teacherGuide?.oralGuide?.qaList || []).map(function(item, idx) {
-              return `
-                <tr>
-                  <td style="font-weight: bold; vertical-align: top;">
-                    ${idx + 1}. ${item.lessonTitle}<br>
-                    <span style="font-size: 10pt; font-weight: normal; color: #555;">${item.bookVolume || ''} ${item.page ? `(${item.page})` : ''}</span>
-                  </td>
-                  <td style="vertical-align: top;">${item.question}</td>
-                  <td style="vertical-align: top; color: #15803d;"><b>${item.answer}</b></td>
-                </tr>
-              `;
-            }).join('')}
+            ${(function() {
+              var list = (rd.oralItems && rd.oralItems.length > 0) ? rd.oralItems : (exam.teacherGuide?.oralGuide?.qaList || []);
+              return list.map(function(item, idx) {
+                var title = item.title || item.lessonTitle || `Bài đọc ${idx + 1}`;
+                var volPage = [];
+                if (item.bookVolume) volPage.push(item.bookVolume);
+                if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
+                var src = volPage.length > 0 ? `(${volPage.join(' - ')})` : '';
+
+                var qList = [];
+                if (Array.isArray(item.questions) && item.questions.length > 0) {
+                  qList = item.questions;
+                } else if (item.question) {
+                  qList = item.question.split(/\n+/).map(s => s.trim()).filter(Boolean);
+                }
+
+                var aList = [];
+                if (Array.isArray(item.answers) && item.answers.length > 0) {
+                  aList = item.answers;
+                } else if (item.answer) {
+                  aList = item.answer.split(/\n+/).map(s => s.trim()).filter(Boolean);
+                }
+
+                var qHtml = qList.map(function(qText, qIdx) {
+                  var prefix = qText.trim().match(/^(Câu\s*\d+|\d+[\.\:])/i) ? '' : `Câu ${qIdx + 1}: `;
+                  return `<div style="margin-bottom: 4px; line-height: 1.35;"><b>${prefix}</b>${qText}</div>`;
+                }).join('') || (item.question || '-');
+
+                var aHtml = aList.map(function(aText, aIdx) {
+                  var prefix = aText.trim().match(/^(Câu\s*\d+|\d+[\.\:]|Ý\s*\d+)/i) ? '' : `Gợi ý ${aIdx + 1}: `;
+                  return `<div style="margin-bottom: 4px; line-height: 1.35; color: #15803d;"><b>${prefix}</b>${aText}</div>`;
+                }).join('') || `<b>${item.answer || '-'}</b>`;
+
+                return `
+                  <tr>
+                    <td style="font-weight: bold; vertical-align: top;">
+                      Phiếu ${idx + 1}: ${title}<br>
+                      <span style="font-size: 9.5pt; font-weight: normal; color: #555;">${src}</span>
+                    </td>
+                    <td style="vertical-align: top; font-size: 10.5pt;">${qHtml}</td>
+                    <td style="vertical-align: top; font-size: 10.5pt;">${aHtml}</td>
+                  </tr>
+                `;
+              }).join('');
+            })()}
           </tbody>
         </table>
 

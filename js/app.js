@@ -1784,6 +1784,12 @@ function renderExamOutput(exam, container) {
               if (item.bookVolume) volPage.push(item.bookVolume);
               if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
               var sourceInfo = volPage.length > 0 ? ` (SGK Tiếng Việt ${exam.grade || 3} - Chân trời sáng tạo, ${volPage.join(' - ')})` : ` (SGK Tiếng Việt ${exam.grade || 3} - Chân trời sáng tạo)`;
+              var qList = [];
+              if (Array.isArray(item.questions) && item.questions.length > 0) {
+                qList = item.questions;
+              } else if (item.question) {
+                qList = item.question.split(/\n+/).map(s => s.trim()).filter(Boolean);
+              }
               return `
                 <div style="background: #ffffff; border: 1.5px solid #cbd5e1; border-radius: 6px; padding: 10px 14px; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
                   <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; border-bottom: 1px solid #f1f5f9; padding-bottom: 4px;">
@@ -1796,12 +1802,21 @@ function renderExamOutput(exam, container) {
                   </div>
                   ${item.author ? `<div style="text-align: right; font-style: italic; font-size: 9.5pt; color: #475569; margin-bottom: 4px;">Tác giả: ${item.author}</div>` : ''}
                   
-                  <div style="background: #fafafa; border: 1px dashed #cbd5e1; border-radius: 4px; padding: 8px 12px; margin: 6px 0; text-align: justify; text-indent: 1.5rem; line-height: 1.5; font-size: 11pt;">
-                    ${item.passage || item.content || `<i>(Học sinh đọc đoạn văn theo chỉ định trong bài "${item.title}")</i>`}
+                  <div style="background: #fafafa; border: 1px dashed #cbd5e1; border-radius: 4px; padding: 8px 12px; margin: 6px 0; text-align: justify; text-indent: 1.5rem; line-height: 1.5; font-size: 11pt; white-space: pre-line;">
+                    ${item.passage || item.content || `<i>(Học sinh đọc cả bài "${item.title}")</i>`}
                   </div>
 
                   <div style="margin-top: 6px; padding: 6px 10px; background: #f0fdf4; border-left: 3px solid #16a34a; border-radius: 2px; font-size: 10.5pt; color: #14532d;">
-                    <b>* Câu hỏi đọc hiểu:</b> ${item.question || "Nêu nội dung hoặc ý nghĩa chính của đoạn đọc trên."}
+                    <b>* Hệ thống câu hỏi tìm hiểu bài trong SGK (Giáo viên chọn 1 câu hỏi):</b>
+                    ${qList.length > 0 ? `
+                      <ul style="margin: 4px 0 0 18px; padding: 0;">
+                        ${qList.map(function(q) {
+                          return `<li style="margin-bottom: 2px;">${q}</li>`;
+                        }).join('')}
+                      </ul>
+                    ` : `
+                      <div style="margin-top: 2px;">${item.question || "Nêu nội dung hoặc ý nghĩa chính của đoạn đọc trên."}</div>
+                    `}
                   </div>
                 </div>
               `;
@@ -1984,7 +1999,7 @@ function renderExamOutput(exam, container) {
           MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}
         </div>
         <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
-          Bộ sách: Kết nối tri thức với cuộc sống • Năm học ${exam.schoolYear}
+          Bộ sách: ${exam.bookSeries || 'Chân trời sáng tạo'} • Năm học ${exam.schoolYear}
         </div>
 
         <div style="font-weight: bold; font-size: 13pt; margin: 10px 0 6px 0; color: #1e3a8a;">I. MA TRẬN 3 TẦNG DÒNG (SỐ CÂU - CÂU SỐ - SỐ ĐIỂM) PHẦN ĐỌC HIỂU (${(exam.readingExam?.comprehensionScore || 6.0).toFixed(1).replace('.', ',')} ĐIỂM)</div>
@@ -2072,30 +2087,63 @@ function renderExamOutput(exam, container) {
           ${exam.teacherGuide?.oralGuide?.criteria || "- Đọc đúng, rõ ràng, phát âm chuẩn.\n- Trả lời đúng câu hỏi đọc hiểu được 1,0 điểm."}
         </p>
 
-        <div style="font-weight: bold; margin: 8px 0 4px 0; color: #6b21a8;">
-          DANH SÁCH CÂU HỎI VÀ GỢI Ý TRẢ LỜI DÀNH CHO GIÁO VIÊN:
+        <div style="font-weight: bold; margin: 8px 0 4px 0; color: #1e3a8a;">
+          DANH SÁCH TOÀN BỘ CÂU HỎI VÀ GỢI Ý TRẢ LỜI 5 PHIẾU ĐỌC THÀNH TIẾNG:
         </div>
         <table style="width: 100%; border-collapse: collapse; margin-bottom: 14px;">
           <thead>
             <tr style="background: #f1f5f9; font-weight: bold;">
-              <th style="border: 1px solid #000; width: 25%; padding: 6px; text-align: center;">Bài đọc</th>
-              <th style="border: 1px solid #000; width: 35%; padding: 6px; text-align: center;">Câu hỏi giáo viên hỏi</th>
-              <th style="border: 1px solid #000; width: 40%; padding: 6px; text-align: center;">Gợi ý câu trả lời chuẩn của học sinh</th>
+              <th style="border: 1px solid #000; width: 25%; padding: 6px; text-align: center;">Phiếu / Bài đọc</th>
+              <th style="border: 1px solid #000; width: 35%; padding: 6px; text-align: center;">Hệ thống câu hỏi trong SGK</th>
+              <th style="border: 1px solid #000; width: 40%; padding: 6px; text-align: center;">Gợi ý câu trả lời chuẩn xác</th>
             </tr>
           </thead>
           <tbody>
-            ${(exam.teacherGuide?.oralGuide?.qaList || []).map(function(item, idx) {
-              return `
-                <tr>
-                  <td style="border: 1px solid #000; padding: 6px; font-weight: bold; vertical-align: top;">
-                    ${idx + 1}. ${item.lessonTitle}<br>
-                    <span style="font-size: 10pt; font-weight: normal; color: #555;">${item.bookVolume || ''} ${item.page ? `(${item.page})` : ''}</span>
-                  </td>
-                  <td style="border: 1px solid #000; padding: 6px; vertical-align: top;">${item.question}</td>
-                  <td style="border: 1px solid #000; padding: 6px; vertical-align: top; color: #15803d;"><b>${item.answer}</b></td>
-                </tr>
-              `;
-            }).join('')}
+            ${(function() {
+              var list = (rd.oralItems && rd.oralItems.length > 0) ? rd.oralItems : (exam.teacherGuide?.oralGuide?.qaList || []);
+              return list.map(function(item, idx) {
+                var title = item.title || item.lessonTitle || `Bài đọc ${idx + 1}`;
+                var volPage = [];
+                if (item.bookVolume) volPage.push(item.bookVolume);
+                if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
+                var source = volPage.join(' - ');
+
+                var qArr = [];
+                if (Array.isArray(item.questions) && item.questions.length > 0) {
+                  qArr = item.questions;
+                } else if (item.question) {
+                  qArr = item.question.split(/\n+/).map(s => s.trim()).filter(Boolean);
+                }
+
+                var aArr = [];
+                if (Array.isArray(item.answers) && item.answers.length > 0) {
+                  aArr = item.answers;
+                } else if (item.answer) {
+                  aArr = item.answer.split(/\n+/).map(s => s.trim()).filter(Boolean);
+                }
+
+                var qHtml = qArr.length > 0 ? qArr.map(function(q, qI) {
+                  var pfx = q.trim().match(/^(Câu\s*\d+|\d+[\.\:])/i) ? '' : `Câu ${qI + 1}: `;
+                  return `<div style="margin-bottom: 3px;"><b>${pfx}</b>${q}</div>`;
+                }).join('') : (item.question || 'Nêu nội dung bài đọc.');
+
+                var aHtml = aArr.length > 0 ? aArr.map(function(a, aI) {
+                  var pfx = a.trim().match(/^(Câu\s*\d+|\d+[\.\:]|Trả lời\s*\d+)/i) ? '' : `TL ${aI + 1}: `;
+                  return `<div style="margin-bottom: 3px;"><b>${pfx}</b>${a}</div>`;
+                }).join('') : `<b>${item.answer || 'Học sinh trả lời đúng trọng tâm nội dung bài đọc.'}</b>`;
+
+                return `
+                  <tr>
+                    <td style="border: 1px solid #000; padding: 6px; font-weight: bold; vertical-align: top;">
+                      Phiếu ${idx + 1}: ${title}<br>
+                      <span style="font-size: 10pt; font-weight: normal; color: #555;">${source}</span>
+                    </td>
+                    <td style="border: 1px solid #000; padding: 6px; vertical-align: top; font-size: 11pt;">${qHtml}</td>
+                    <td style="border: 1px solid #000; padding: 6px; vertical-align: top; color: #15803d; font-size: 11pt;">${aHtml}</td>
+                  </tr>
+                `;
+              }).join('');
+            })()}
           </tbody>
         </table>
 
