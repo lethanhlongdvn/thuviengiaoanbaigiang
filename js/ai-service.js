@@ -1340,11 +1340,11 @@ var AIService = {
     var schoolName = params.schoolName || "TRƯỜNG TIỂU HỌC .................................";
     var customPrompt = params.customPrompt || "";
 
-    // Xác định bộ sách: Cố định chuẩn Chân trời sáng tạo (CTST)
-    var bookSeries = 'ctst';
-    var seriesName = 'Chân trời sáng tạo (CTST)';
+    // Xác định bộ sách: Cả nước áp dụng thống nhất bộ sách Kết nối tri thức với cuộc sống (KNTT) từ năm học 2026 - 2027
+    var bookSeries = 'kntt';
+    var seriesName = 'Kết nối tri thức với cuộc sống (KNTT)';
 
-    // Tra cứu dữ liệu SGK số hóa theo bộ sách
+    // Tra cứu dữ liệu SGK số hóa theo bộ sách KNTT
     var sgkKey = (subjectId || '').toLowerCase().replace('lich_su_dia_ly', 'lich_su_dia_li');
     var sgkContext = "";
     if (typeof window !== 'undefined' && window.SGK_DATA && typeof window.SGK_DATA.getScopeContent === 'function') {
@@ -1354,7 +1354,7 @@ var AIService = {
         if (digest.length > 3000) {
           digest = digest.substring(0, 3000) + "\n...(và các bài học khác trong phạm vi)...";
         }
-        sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA SỐ HÓA [CHÂN TRỜI SÁNG TẠO (CTST)] THEO PHẠM VI RA ĐỀ:\n${digest}\n- YÊU CẦU: Các bài đọc, câu hỏi trắc nghiệm, luyện từ và câu PHẢI sử dụng chính xác các bài học, khái niệm và ngữ liệu của SGK Chân trời sáng tạo (CTST) được cung cấp ở trên.`;
+        sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA SỐ HÓA [KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT)] THEO PHẠM VI RA ĐỀ:\n${digest}\n- YÊU CẦU: Khung ma trận, các bài toán, câu hỏi trắc nghiệm, kiến thức Luyện từ và câu/Tập làm văn PHẢI bám sát phân phối chương trình của SGK Kết nối tri thức với cuộc sống (KNTT) được cung cấp ở trên.`;
       }
     }
 
@@ -1364,41 +1364,50 @@ var AIService = {
 
     // =========================================================================
     // PROMPT CHUYÊN BIỆT CHO MÔN TIẾNG VIỆT (CHUẨN TT27: 2 PHIẾU ĐỌC & VIẾT)
-    // CẤU HÌNH CỨNG 100% NGỮ LIỆU SÁCH CHÂN TRỜI SÁNG TẠO (CTST) - KHÔNG LẤY NGOÀI SÁCH
+    // BỘ SÁCH CHÍNH KHÓA: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) - ÁP DỤNG THỐNG NHẤT TOÀN QUỐC
+    // NGỮ LIỆU PHẦN ĐỌC: LẤY NGỮ LIỆU NGOÀI SGK KNTT (LẤY TƯƠNG TỰ TỪ BỘ CHÂN TRỜI SÁNG TẠO)
     // =========================================================================
     if (subjectId === "TIENG_VIET") {
       var oralScore = parseFloat(params.tvOralScore) || 4.0;
-      var oralMode = "sgk"; // Khóa cứng 100% SGK Chân trời sáng tạo
+      var oralMode = "sgk";
       var compScore = Math.round((10.0 - oralScore) * 10) / 10;
       var dictScore = (grade <= 3) ? (parseFloat(params.tvDictationScore) || 4.0) : 0;
       var tlvScore = (grade <= 3) ? Math.round((10.0 - dictScore) * 10) / 10 : 10.0;
       var essayGenre = params.tvEssayGenre || (grade >= 4 ? "Văn miêu tả cây cối / cảnh vật / người" : "Viết đoạn văn theo chủ điểm");
 
       prompt = `
-Bạn là Chuyên gia Đánh giá Giáo dục Tiểu học hàng đầu Việt Nam, am hiểu sâu sắc Chương trình GDPT 2018, Thông tư 27/2020/TT-BGDĐT, Khung đánh giá năng lực và Quy trình biên soạn câu hỏi của Chương trình SEA-PLM (Bộ GD&ĐT) và Bộ SGK CHÂN TRỜI SÁNG TẠO (CTST) môn Tiếng Việt.
+Bạn là Chuyên gia Đánh giá Giáo dục Tiểu học hàng đầu Việt Nam, am hiểu sâu sắc Chương trình GDPT 2018, Thông tư 27/2020/TT-BGDĐT, Khung đánh giá năng lực của Chương trình SEA-PLM (Bộ GD&ĐT) và Bộ SGK KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) - bộ sách giáo khoa chuẩn áp dụng thống nhất trên toàn quốc từ năm học 2026 - 2027.
 Hãy soạn trọn bộ ĐỀ KIỂM TRA MÔN TIẾNG VIỆT LỚP ${grade} gồm 2 PHIẾU RIÊNG BIỆT (ĐỀ ĐỌC 10đ & ĐỀ VIẾT 10đ), MA TRẬN 3 MỨC ĐỘ VÀ HƯỚNG DẪN MÃ HÓA (CODING GUIDE) THEO CHUẨN SEA-PLM với các thông số sau:
 
 - MÔN HỌC: Tiếng Việt - Lớp ${grade}
-- BỘ SÁCH: Chân trời sáng tạo (CTST) (Cấu hình cứng 100%)
-- PHẠM VI: ${scope}
+- BỘ SÁCH CHÍNH KHÓA THỐNG NHẤT TOÀN QUỐC: Kết nối tri thức với cuộc sống (KNTT)
+- PHẠM VI RA ĐỀ: ${scope}
 
-- QUY TẮC CỐT LÕI VỀ NGỮ LIỆU PHẦN ĐỌC (CẤU HÌNH CỨNG SÁCH CTST - TUYỆT ĐỐI KHÔNG LẤY BÀI NGOÀI SÁCH):
-  1. Toàn bộ ngữ liệu của Phần Đọc thành tiếng và Phần Đọc hiểu BẮT BUỘC lấy 100% từ các bài đọc trong Sách giáo khoa Tiếng Việt Lớp ${grade} - Bộ sách Chân trời sáng tạo (CTST) theo đúng phân phối chương trình của phạm vi học kỳ. TUYỆT ĐỐI KHÔNG tự sáng tác, KHÔNG lấy bài đọc ngoài sách giáo khoa.
-  2. Phần Đọc thành tiếng (${oralScore.toFixed(1).replace('.', ',')} điểm):
-     * BẮT BUỘC cung cấp ĐÚNG 5 BÀI ĐỌC THÀNH TIẾNG (tương ứng 5 Phiếu đọc bốc thăm từ Phiếu 1 đến Phiếu 5 để in trên 5 trang A4 riêng biệt) trích từ các bài học trong SGK Tiếng Việt Chân trời sáng tạo Lớp ${grade} thuộc phạm vi học kỳ.
+- QUY TẮC CỐT LÕI VỀ BỘ SÁCH VÀ NGỮ LIỆU ĐỌC (BẮT BUỘC TUÂN THỦ 100%):
+  1. CĂN CỨ CHƯƠNG TRÌNH & CHUẨN KIẾN THỨC KĨ NĂNG:
+     * Toàn bộ khung ma trận, phân phối chương trình, chủ điểm học tập, kiến thức Luyện từ và câu và thể loại Tập làm văn BẮT BUỘC BÁM SÁT THEO BỘ SÁCH KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) Lớp ${grade}.
+  2. NGUYÊN TẮC BẮT BUỘC VỀ NGỮ LIỆU PHẦN ĐỌC (LẤY NGỮ LIỆU NGOÀI SÁCH KNTT - LẤY TƯƠNG TỰ TỪ BỘ CHÂN TRỜI SÁNG TẠO):
+     * Theo đúng quy định chỉ đạo chuyên môn của Bộ GD&ĐT: Đề kiểm tra định kỳ phần ĐỌC BẮT BUỘC PHẢI LẤY NGỮ LIỆU BÊN NGOÀI SÁCH GIÁO KHOA CHÍNH KHÓA (NGOÀI SGK KNTT MÀ HỌC SINH ĐANG HỌC) nhằm đánh giá đúng năng lực đọc hiểu thực chất của học sinh, tuyệt đối tránh tình trạng dạy tủ, học vẹt, học sinh chỉ học thuộc lòng bài đọc trong sách giáo khoa chính khóa.
+     * Để ngữ liệu ngoài sách bảo đảm 100% chất lượng văn học, tính sư phạm mẫu mực, đúng tâm sinh lý lứa tuổi tiểu học, tương đương về chủ điểm, độ khó và dung lượng từ ngữ theo từng tuần/học kỳ của chương trình, HỆ THỐNG YÊU CẦU LẤY NGỮ LIỆU TƯƠNG TỰ TỪ BỘ SÁCH CHÂN TRỜI SÁNG TẠO (CTST) (vì đối với học sinh học bộ sách KNTT, các bài đọc trong sách CTST chính là ngữ liệu ngoài SGK chuẩn mực nhất!).
+  3. Phần Đọc thành tiếng (${oralScore.toFixed(1).replace('.', ',')} điểm):
+     * BẮT BUỘC cung cấp ĐÚNG 5 BÀI ĐỌC THÀNH TIẾNG (tương ứng 5 Phiếu đọc bốc thăm từ Phiếu 1 đến Phiếu 5 để in trên 5 trang A4 riêng biệt) lấy từ các bài đọc tương đương trong SGK Tiếng Việt Chân trời sáng tạo (CTST) Lớp ${grade} thuộc phạm vi học kỳ.
      * YÊU CẦU ĐẶC BIỆT ĐỂ IN ĐỀ CHO HỌC SINH (5 BÀI TRÊN 5 TRANG A4):
-       - TUYỆT ĐỐI KHÔNG TRÍCH ĐOẠN NGẮN CỦN CỠN 30-50 từ. BẮT BUỘC cung cấp TOÀN VĂN CẢ BÀI ĐỌC HOÀN CHỈNH (đối với văn xuôi trích toàn bộ cả bài đọc hoặc trích đoạn lớn hoàn chỉnh từ 180 đến 300 từ; đối với bài thơ trích trọn vẹn toàn bộ tất cả các khổ thơ của bài thơ) trong trường "passage" để học sinh lớp ${grade} đọc đủ dung lượng.
-       - BẮT BUỘC cung cấp TOÀN BỘ HỆ THỐNG CÂU HỎI ĐỌC HIỂU CỦA BÀI ĐÓ TRONG SGK (từ 3 đến 5 câu hỏi tìm hiểu bài theo đúng SGK CTST) vào mảng "questions" (và chuỗi "question") để in đầy đủ vào phiếu đọc của học sinh.
-       - BẮT BUỘC cung cấp GỢI Ý CÂU TRẢ LỜI TƯƠNG ỨNG CHO TOÀN BỘ CÁC CÂU HỎI vào mảng "answers" (và chuỗi "answer") trong Hướng dẫn chấm.
-       - Ghi rõ: "title" (Tên bài đọc trong SGK CTST), "bookVolume" (Tập 1 hoặc Tập 2), "page" (Trang sách SGK CTST), "author" (Tác giả).
-  3. Phần Đọc hiểu & Luyện từ và câu (${compScore.toFixed(1).replace('.', ',')} điểm):
-     * Cung cấp 1 bài đọc/trích đoạn hoàn chỉnh trong SGK Tiếng Việt Lớp ${grade} - Chân trời sáng tạo (có tựa đề bài đọc trong SGK, tên tác giả, nội dung toàn văn bài văn/đoạn trích khoảng ${grade === 1 ? '40-60' : grade === 2 ? '80-110' : grade === 3 ? '150-180' : grade === 4 ? '200-250' : '250-300'} chữ). Tuyệt đối không lấy bài ngoài SGK CTST.
-     * Hệ thống 8 câu hỏi (6 câu trắc nghiệm + 2 câu tự luận/đặt câu) theo ma trận 3 Mức độ (Mức 1 - Locate, Mức 2 - Interpret, Mức 3 - Reflect), phân bố hợp lý giữa Đọc hiểu văn bản và Luyện từ và câu/Kiến thức Tiếng Việt bám sát SGK Chân trời sáng tạo.
-     * QUY ĐỊNH THANG ĐIỂM TIỂU HỌC: Điểm của từng câu hỏi BẮT BUỘC chẵn bội số của 0,25 (thang điểm 0,25đ; 0,5đ; 0,75đ; 1,0đ; 1,25đ; 1,5đ...). Tuyệt đối không dùng điểm lẻ như 0,4đ hay 0,8đ.
+       - TUYỆT ĐỐI KHÔNG TRÍCH ĐOẠN NGẮN 30-50 từ. BẮT BUỘC cung cấp TOÀN VĂN CẢ BÀI ĐỌC HOÀN CHỈNH (văn xuôi từ 180 đến 300 từ; thơ trích trọn vẹn toàn bộ các khổ thơ) trong trường "passage" để học sinh lớp ${grade} đọc đủ dung lượng.
+       - BẮT BUỘC cung cấp TOÀN BỘ HỆ THỐNG CÂU HỎI ĐỌC HIỂU CỦA BÀI ĐÓ TRONG SGK CTST (từ 3 đến 5 câu hỏi) vào mảng "questions" (và chuỗi "question") để in đầy đủ vào phiếu đọc của học sinh.
+       - BẮT BUỘC cung cấp GỢI Ý CÂU TRẢ LỜI TƯƠNG ỨNG vào mảng "answers" (và chuỗi "answer") trong Hướng dẫn chấm.
+       - Ghi rõ: "title" (Tên bài đọc), "bookVolume", "page", "author", và "source": "Ngữ liệu ngoài SGK KNTT (Trích SGK Tiếng Việt ${grade} Chân trời sáng tạo)".
+  4. Phần Đọc hiểu & Luyện từ và câu (${compScore.toFixed(1).replace('.', ',')} điểm):
+     * Cung cấp 1 bài đọc hoàn chỉnh trích từ SGK Tiếng Việt Lớp ${grade} - Chân trời sáng tạo (CTST) (khoảng ${grade === 1 ? '40-60' : grade === 2 ? '80-110' : grade === 3 ? '150-180' : grade === 4 ? '200-250' : '250-300'} từ) có chủ điểm tương đồng với bài học KNTT. TUYỆT ĐỐI KHÔNG lấy bài đọc đã có trong SGK KNTT.
+     * Ghi rõ: Tên bài đọc, Tác giả, và "source": "Ngữ liệu đọc hiểu ngoài SGK KNTT (Trích SGK Tiếng Việt ${grade} Chân trời sáng tạo)".
+     * Hệ thống 8 câu hỏi (6 trắc nghiệm + 2 tự luận):
+       - Mạch Đọc hiểu văn bản: Đọc hiểu và phân tích văn bản đọc mới trích từ CTST.
+       - Mạch Luyện từ và câu: Bám sát chuẩn kiến thức Tiếng Việt của chương trình SGK KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) Lớp ${grade}.
+       - Thang điểm: BẮT BUỘC chẵn bội số của 0,25.
 
 - ĐỀ VIẾT (10,0 điểm):
-${grade <= 3 ? `  + Phần Chính tả Nghe - viết (${dictScore.toFixed(1).replace('.', ',')} điểm): Đoạn văn/thơ trích từ bài học SGK CTST Lớp ${grade} đúng chuẩn dung lượng (${grade === 1 ? '30-35 chữ' : grade === 2 ? '45-50 chữ' : '65-70 chữ'}).
-  + Phần Tập làm văn - Viết đoạn văn (${tlvScore.toFixed(1).replace('.', ',')} điểm): Đề bài yêu cầu viết đoạn văn (${grade <= 2 ? '3 đến 5 câu' : '5 đến 7 câu'}) theo đúng chủ điểm bài học SGK CTST kèm gợi ý dàn ý.` : `  + Phần Tập làm văn (10,0 điểm duy nhất): Viết một bài văn hoàn chỉnh đúng thể loại (${essayGenre}) bám sát chương trình SGK CTST kèm gợi ý dàn ý (Mở bài, Thân bài, Kết bài). Bắt buộc có Barem chấm chi tiết 10 điểm trong Hướng dẫn chấm.`}
+  + Bám sát chủ điểm, thể loại và phân phối chương trình của SGK KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) Lớp ${grade}.
+${grade <= 3 ? `  + Phần Chính tả Nghe - viết (${dictScore.toFixed(1).replace('.', ',')} điểm): Đoạn văn/thơ đúng chuẩn dung lượng (${grade === 1 ? '30-35 chữ' : grade === 2 ? '45-50 chữ' : '65-70 chữ'}) bám sát SGK KNTT Lớp ${grade}.
+  + Phần Tập làm văn - Viết đoạn văn (${tlvScore.toFixed(1).replace('.', ',')} điểm): Đề bài yêu cầu viết đoạn văn (${grade <= 2 ? '3 đến 5 câu' : '5 đến 7 câu'}) theo đúng chủ điểm bài học SGK KNTT kèm gợi ý dàn ý.` : `  + Phần Tập làm văn (10,0 điểm duy nhất): Viết một bài văn hoàn chỉnh đúng thể loại (${essayGenre}) bám sát chương trình SGK KNTT kèm gợi ý dàn ý (Mở bài, Thân bài, Kết bài). Bắt buộc có Barem chấm chi tiết 10 điểm trong Hướng dẫn chấm.`}
 ${sgkContext}
 ${customPrompt ? "- YÊU CẦU BỔ SUNG: " + customPrompt : ""}
 
@@ -1436,8 +1445,9 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
   "subjectName": "Tiếng Việt",
   "grade": ${grade},
   "duration": "${duration}",
-  "schoolYear": "2025 - 2026",
-  "bookSeries": "Chân trời sáng tạo (CTST)",
+  "schoolYear": "2026 - 2027",
+  "bookSeries": "Kết nối tri thức với cuộc sống (KNTT)",
+  "readingMaterialNote": "Ngữ liệu phần Đọc lấy tương đương từ bộ sách Chân trời sáng tạo (CTST) theo quy định lấy ngữ liệu ngoài SGK chính khóa KNTT của Bộ GD&ĐT",
   "scopeDesc": "${scope}",
   "readingExam": {
     "totalScore": 10.0,
@@ -1832,7 +1842,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
   "subjectName": "${subjectName}",
   "grade": ${grade},
   "duration": "${duration}",
-  "schoolYear": "2025 - 2026",
+  "schoolYear": "2026 - 2027",
   "bookSeries": "${seriesName}",
   "scopeDesc": "${scope}",
   "mcqTotalScore": ${(mcqPct / 10).toFixed(1)},
@@ -2808,7 +2818,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     `;
 
     var seriesSlug = (examData.bookSeries && examData.bookSeries.toLowerCase().includes("kết nối")) ? "KNTT" : "CTST";
-    return await this.downloadWordBlob(docHtml, `De_Kiem_Tra_${examData.subjectName}_Lop_${examData.grade}_${seriesSlug}_2025_2026.docx`);
+    return await this.downloadWordBlob(docHtml, `De_Kiem_Tra_${examData.subjectName}_Lop_${examData.grade}_${seriesSlug}_2026_2027.docx`);
   },
 
   /**
@@ -2954,7 +2964,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           var volPage = [];
           if (item.bookVolume) volPage.push(item.bookVolume);
           if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
-          var sourceInfo = volPage.length > 0 ? `SGK Tiếng Việt ${grade} - Chân trời sáng tạo (${volPage.join(' - ')})` : `SGK Tiếng Việt ${grade} - Chân trời sáng tạo`;
+          var sourceInfo = volPage.length > 0 ? `Ngữ liệu ngoài SGK KNTT - Trích SGK Tiếng Việt ${grade} Chân trời sáng tạo (${volPage.join(' - ')})` : `Ngữ liệu ngoài SGK KNTT - Trích SGK Tiếng Việt ${grade} Chân trời sáng tạo`;
 
           var qList = [];
           if (Array.isArray(item.questions) && item.questions.length > 0) {
@@ -3086,6 +3096,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           </div>
           <div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px;">
             ${rd.comprehensionReading?.author ? `Tác giả: ${rd.comprehensionReading.author}` : ''}
+            <br><span style="font-size: 9.5pt; color: #475569;">(Ngữ liệu đọc hiểu ngoài SGK chính khóa KNTT - Lấy tương đương từ bộ sách Chân trời sáng tạo)</span>
           </div>
           <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45;">
             ${rd.comprehensionReading?.passage || ""}
@@ -3235,7 +3246,10 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <div class="page-break"></div>
 
         <div class="title-bold-center">MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}</div>
-        <div class="subtitle-center">Bộ sách: Chân trời sáng tạo (CTST) • Năm học ${exam.schoolYear}</div>
+        <div class="subtitle-center" style="margin-bottom: 4px;">Bộ sách: ${exam.bookSeries || 'Kết nối tri thức với cuộc sống (KNTT)'} • Năm học ${exam.schoolYear || '2026 - 2027'}</div>
+        <div style="text-align: center; font-style: italic; font-size: 10.5pt; margin-bottom: 14px; color: #4b5563;">
+          (Ngữ liệu phần Đọc lấy tương đương từ bộ sách Chân trời sáng tạo theo quy định lấy ngữ liệu ngoài SGK chính khóa KNTT của Bộ GD&ĐT)
+        </div>
 
         <div class="section-heading">I. MA TRẬN NỘI DUNG VÀ MỨC ĐỘ NHẬN THỨC PHẦN ĐỌC HIỂU (${compScoreStr} ĐIỂM)</div>
         ${exam.threeTierMatrix ? AIService.renderThreeTierMatrixTable(exam.threeTierMatrix, { isWord: true }) : `
@@ -3669,7 +3683,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     `;
 
     var seriesSlug = (exam.bookSeries && exam.bookSeries.toLowerCase().includes("kết nối")) ? "KNTT" : "CTST";
-    var fn = `De_Kiem_Tra_Tieng_Viet_Lop_${exam.grade}_${seriesSlug}_2025_2026.docx`;
+    var fn = `De_Kiem_Tra_Tieng_Viet_Lop_${exam.grade}_${seriesSlug}_2026_2027.docx`;
     await this.downloadWordBlob(docHtml, fn);
     return docHtml;
   },

@@ -1037,12 +1037,12 @@ function renderAiExamView(container) {
       <!-- CỘT ĐIỀU KHIỂN BÊN TRÁI (FORM THU THẬP THÔNG SỐ) -->
       <div class="ai-ctrl-box" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm);">
         
-        <!-- THANH TRẠNG THÁI BỘ SÁCH CỐ ĐỊNH & TIÊU CHUẨN -->
+        <!-- THANH TRẠNG THÁI BỘ SÁCH THỐNG NHẤT TOÀN QUỐC (KNTT) -->
         <div style="font-size: 0.78rem; font-weight: 800; color: #1e3a8a; background: #eff6ff; border: 1px solid #bfdbfe; padding: 0.35rem 0.75rem; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
-          <span id="aiBookSeriesBadge"><i class="fa-solid fa-book-bookmark"></i> BỘ SÁCH: CHÂN TRỜI SÁNG TẠO (CTST)</span>
-          <span style="color: #16a34a;"><i class="fa-solid fa-circle-check"></i> Chuẩn TT 27 & SEA-PLM</span>
+          <span id="aiBookSeriesBadge"><i class="fa-solid fa-book-bookmark"></i> BỘ SÁCH THỐNG NHẤT: KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT)</span>
+          <span style="color: #16a34a;"><i class="fa-solid fa-circle-check"></i> Áp dụng từ 2026 - 2027</span>
         </div>
-        <input type="hidden" id="aiBookSeriesSelect" value="ctst">
+        <input type="hidden" id="aiBookSeriesSelect" value="kntt">
 
         <!-- 1. KHỐI LỚP & MÔN THI -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem;">
@@ -1103,24 +1103,24 @@ function renderAiExamView(container) {
               <div style="font-size: 0.78rem; font-weight: 700; color: #581c87; background: #faf5ff; border: 1px solid #e9d5ff; padding: 0.45rem 0.65rem; border-radius: 4px;">
                 <div style="display: flex; align-items: center; gap: 0.35rem; margin-bottom: 2px;">
                   <i class="fa-solid fa-book-bookmark" style="color: #9333ea;"></i>
-                  <span>Ngữ liệu Đọc thành tiếng: <b>Sách giáo khoa Tiếng Việt CTST</b></span>
+                  <span>Ngữ liệu Đọc thành tiếng: <b>Ngoài SGK KNTT (Lấy trọn vẹn từ bộ CTST)</b></span>
                 </div>
                 <div style="font-size: 0.72rem; color: #7e22ce; font-weight: normal; line-height: 1.35;">
-                  Xuất trực tiếp <b>toàn văn bài đọc & câu hỏi đọc hiểu</b> vào đề thi để in ra phát cho học sinh đọc.
+                  Xuất trọn vẹn <b>5 bài đọc hoàn chỉnh & toàn bộ câu hỏi SGK</b> (in trên đúng 5 trang A4 riêng biệt để học sinh bốc thăm).
                 </div>
               </div>
               <input type="hidden" id="tvOralModeSelect" value="sgk">
             </div>
 
-            <!-- NGỮ LIỆU ĐỌC HIỂU CẤU HÌNH CỨNG SGK CTST -->
+            <!-- NGỮ LIỆU ĐỌC HIỂU NGOÀI SÁCH KNTT -->
             <div class="form-group" style="margin-top: 0.45rem; margin-bottom: 0;">
               <div style="font-size: 0.78rem; font-weight: 700; color: #581c87; background: #fdf4ff; border: 1px solid #f0abfc; padding: 0.45rem 0.65rem; border-radius: 4px;">
                 <div style="display: flex; align-items: center; gap: 0.35rem; margin-bottom: 2px;">
                   <i class="fa-solid fa-book-open-reader" style="color: #c026d3;"></i>
-                  <span>Ngữ liệu Đọc hiểu: <b>Sách giáo khoa Tiếng Việt (Chân trời sáng tạo)</b></span>
+                  <span>Ngữ liệu Đọc hiểu: <b>Ngoài SGK KNTT (Lấy tương đương từ bộ CTST)</b></span>
                 </div>
                 <div style="font-size: 0.72rem; color: #7e22ce; font-weight: normal; line-height: 1.35;">
-                  Cấu hình cứng 100% ngữ liệu từ các bài đọc trong SGK CTST theo chương trình, không lấy bài ngoài sách.
+                  Thực hiện đúng chỉ đạo chuyên môn của Bộ GD&ĐT: Lấy ngữ liệu đọc hiểu ngoài SGK chính khóa KNTT để đánh giá năng lực đọc hiểu thực chất của học sinh.
                 </div>
               </div>
               <input type="hidden" id="tvReadingGenreSelect" value="sgk_art">
@@ -1405,7 +1405,7 @@ function onExamGradeChange(grade) {
     return `<option value="${s.id}">${s.name}</option>`;
   }).join('');
 
-  var series = document.getElementById("aiBookSeriesSelect")?.value || 'ctst';
+  var series = document.getElementById("aiBookSeriesSelect")?.value || 'kntt';
   updateExamSubjectFormState(select.value, grade);
   updateExamScopeOptions(grade, select.value, series);
 }
@@ -1413,7 +1413,7 @@ function onExamGradeChange(grade) {
 // Cập nhật phạm vi bài học khi đổi môn
 function onExamSubjectChange(subjectId) {
   var grade = document.getElementById("aiGradeSelect")?.value || 5;
-  var series = document.getElementById("aiBookSeriesSelect")?.value || 'ctst';
+  var series = document.getElementById("aiBookSeriesSelect")?.value || 'kntt';
   updateExamSubjectFormState(subjectId, grade);
   updateExamScopeOptions(grade, subjectId, series);
 }
@@ -1424,12 +1424,12 @@ function updateExamScopeOptions(grade, subjectId, series) {
   if (!scopeSelect) return;
 
   var currentSelectedVal = scopeSelect.value;
-  var currentSeries = series || document.getElementById("aiBookSeriesSelect")?.value || (window.SGK_DATA?.getActiveSeries ? window.SGK_DATA.getActiveSeries() : 'ctst');
+  var currentSeries = series || document.getElementById("aiBookSeriesSelect")?.value || (window.SGK_DATA?.getActiveSeries ? window.SGK_DATA.getActiveSeries() : 'kntt');
   var sgkKey = (subjectId || 'TOAN').toLowerCase().replace('lich_su_dia_ly', 'lich_su_dia_li');
   var book = (typeof window !== 'undefined' && window.SGK_DATA && typeof window.SGK_DATA.getBook === 'function') 
              ? window.SGK_DATA.getBook(grade, sgkKey, currentSeries) : null;
 
-  var seriesLabel = currentSeries === 'ctst' ? 'Chân trời sáng tạo (CTST)' : 'Kết nối tri thức (KNTT)';
+  var seriesLabel = currentSeries === 'ctst' ? 'Chân trời sáng tạo (CTST)' : 'Kết nối tri thức với cuộc sống (KNTT)';
 
   var html = `
     <optgroup label="Phạm vi định kỳ chuẩn (${seriesLabel})">
@@ -1566,7 +1566,7 @@ async function triggerAiGenerate() {
   var level3Percent = parseInt(document.getElementById("aiLevel3Pct")?.value) || 20;
 
   var isTv = (subjectId === "TIENG_VIET");
-  var series = document.getElementById("aiBookSeriesSelect")?.value || "ctst";
+  var series = document.getElementById("aiBookSeriesSelect")?.value || "kntt";
   var payload = {
     grade: grade,
     subjectId: subjectId,
@@ -1783,7 +1783,7 @@ function renderExamOutput(exam, container) {
               var volPage = [];
               if (item.bookVolume) volPage.push(item.bookVolume);
               if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
-              var sourceInfo = volPage.length > 0 ? ` (SGK Tiếng Việt ${exam.grade || 3} - Chân trời sáng tạo, ${volPage.join(' - ')})` : ` (SGK Tiếng Việt ${exam.grade || 3} - Chân trời sáng tạo)`;
+              var sourceInfo = volPage.length > 0 ? ` (Ngữ liệu ngoài SGK KNTT - Trích SGK TV ${exam.grade || 3} Chân trời sáng tạo, ${volPage.join(' - ')})` : ` (Ngữ liệu ngoài SGK KNTT - Trích SGK TV ${exam.grade || 3} Chân trời sáng tạo)`;
               var qList = [];
               if (Array.isArray(item.questions) && item.questions.length > 0) {
                 qList = item.questions;
@@ -1838,6 +1838,7 @@ function renderExamOutput(exam, container) {
           </div>
           <div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px; color: #555;">
             ${rd.comprehensionReading?.author ? `Tác giả: ${rd.comprehensionReading.author}` : ''}
+            <br><span style="font-size: 9.5pt; color: #475569;">(Ngữ liệu đọc hiểu ngoài SGK chính khóa KNTT - Lấy tương đương từ bộ sách Chân trời sáng tạo)</span>
           </div>
           <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45;">
             ${rd.comprehensionReading?.passage || ""}
@@ -1998,8 +1999,11 @@ function renderExamOutput(exam, container) {
         <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
           MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}
         </div>
-        <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
-          Bộ sách: ${exam.bookSeries || 'Chân trời sáng tạo'} • Năm học ${exam.schoolYear}
+        <div style="text-align: center; font-size: 12.5pt; margin-bottom: 4px;">
+          Bộ sách: ${exam.bookSeries || 'Kết nối tri thức với cuộc sống (KNTT)'} • Năm học ${exam.schoolYear || '2026 - 2027'}
+        </div>
+        <div style="text-align: center; font-style: italic; font-size: 10.5pt; margin-bottom: 14px; color: #4b5563;">
+          (Ngữ liệu phần Đọc lấy tương đương từ bộ sách Chân trời sáng tạo theo quy định lấy ngữ liệu ngoài SGK chính khóa KNTT của Bộ GD&ĐT)
         </div>
 
         <div style="font-weight: bold; font-size: 13pt; margin: 10px 0 6px 0; color: #1e3a8a;">I. MA TRẬN 3 TẦNG DÒNG (SỐ CÂU - CÂU SỐ - SỐ ĐIỂM) PHẦN ĐỌC HIỂU (${(exam.readingExam?.comprehensionScore || 6.0).toFixed(1).replace('.', ',')} ĐIỂM)</div>

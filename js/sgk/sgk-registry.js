@@ -16,19 +16,19 @@
   // Kho legacy để tương thích ngược hoàn toàn với code cũ
   const _legacyBooks = {};
 
-  let _activeSeries = 'ctst';
+  let _activeSeries = 'kntt';
 
   const SGKRegistry = {
     /**
      * Chuẩn hóa mã bộ sách ('kntt' | 'ctst')
      */
     _normalizeSeries: function(series) {
-      if (!series) return _activeSeries || 'ctst';
+      if (!series) return _activeSeries || 'kntt';
       const s = String(series).toLowerCase().trim().replace(/[-_]/g, '');
-      if (s.includes('kntt') || s.includes('ketnoi') || s.includes('ketnoitrithuc')) {
-        return 'kntt';
+      if (s.includes('ctst') || s.includes('chantroi') || s.includes('chantroisangtao')) {
+        return 'ctst';
       }
-      return 'ctst';
+      return 'kntt';
     },
 
     /**
