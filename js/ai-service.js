@@ -140,6 +140,14 @@ var AIService = {
         return res;
       });
 
+      // Lọc bỏ mạch kiến thức không có câu hỏi nào (chưa học / không ra đề)
+      var activeTvStrands = processedStrands.filter(function(st) {
+        return (st.total_score > 0) || (st.total_mcq.count > 0) || (st.total_essay.count > 0);
+      });
+      if (activeTvStrands.length > 0) {
+        processedStrands = activeTvStrands;
+      }
+
       var summary = {
         m1_mcq: { count: 0, score: 0 },
         m1_essay: { count: 0, score: 0 },
@@ -343,6 +351,14 @@ var AIService = {
       mcqs.forEach(function(q) { assignQuestionToStrand(q, false); });
       essays.forEach(function(e) { assignQuestionToStrand(e, true); });
 
+      // Lọc bỏ những mạch kiến thức / chủ đề không có câu hỏi nào (chưa học hoặc không kiểm tra trong đề này)
+      var activeStrands = strands.filter(function(st) {
+        return (st.total_score > 0) || (st.total_mcq.count > 0) || (st.total_essay.count > 0);
+      });
+      if (activeStrands.length > 0) {
+        strands = activeStrands;
+      }
+
       var summary = {
         m1_mcq: { count: 0, score: 0 },
         m1_essay: { count: 0, score: 0 },
@@ -452,7 +468,7 @@ var AIService = {
           </tr>
         </thead>
         <tbody>
-          ${m3.strands.map(function(st) {
+          ${(m3.strands || []).filter(function(st){ return (st.total_score > 0) || (st.total_mcq && st.total_mcq.count > 0) || (st.total_essay && st.total_essay.count > 0); }).map(function(st) {
             return `
               <tr>
                 <td rowspan="3" style="${borderStyle} padding: 6px; text-align: left; vertical-align: middle; font-weight: 500;">
@@ -1355,7 +1371,49 @@ var AIService = {
         if (digest.length > 3000) {
           digest = digest.substring(0, 3000) + "\n...(và các bài học khác trong phạm vi)...";
         }
-        sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA SỐ HÓA [KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT)] THEO PHẠM VI RA ĐỀ:\n${digest}\n- YÊU CẦU: Khung ma trận, các bài toán, câu hỏi trắc nghiệm, kiến thức Luyện từ và câu/Tập làm văn PHẢI bám sát phân phối chương trình của SGK Kết nối tri thức với cuộc sống (KNTT) được cung cấp ở trên.`;
+        if (subjectId === "TIENG_VIET") {
+          sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) DÙNG CHO PHẦN LUYỆN TỪ VÀ CÂU & VIẾT:\n${digest}\n- CHÚ Ý ĐẶC BIỆT: Khung phân phối chương trình KNTT trên ĐƯỢC CUNG CẤP ĐỂ BẠN XÂY DỰNG MA TRẬN VÀ RA CÂU HỎI LUYỆN TỪ VÀ CÂU, CHÍNH TẢ VÀ TẬP LÀM VĂN. TUYỆT ĐỐI KHÔNG LẤY CÁC BÀI ĐỌC CỦA KNTT CHO PHẦN ĐỌC! PHẦN ĐỌC BẮT BUỘC PHẢI LẤY 100% TỪ BỘ SÁCH CHÂN TRỜI SÁNG TẠO (CTST) ĐÃ SỐ HÓA Ở MỤC DƯỚI ĐÂY!`;
+        } else {
+          sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA SỐ HÓA [KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT)] THEO PHẠM VI RA ĐỀ:\n${digest}\n- YÊU CẦU: Khung ma trận, các bài toán, câu hỏi trắc nghiệm, kiến thức Luyện từ và câu/Tập làm văn PHẢI bám sát phân phối chương trình của SGK Kết nối tri thức với cuộc sống (KNTT) được cung cấp ở trên.`;
+        }
+      }
+    }
+
+    // Tra cứu danh mục bài đọc số hóa 100% chuẩn SGK Chân trời sáng tạo (CTST) cho môn Tiếng Việt
+    var ctstReadingContext = "";
+    if (subjectId === "TIENG_VIET") {
+      var sgkReg = (typeof window !== 'undefined' && window.SGK_DATA && typeof window.SGK_DATA.getScopeContent === 'function') ? window.SGK_DATA : (typeof window !== 'undefined' && window.SGK_REGISTRY && typeof window.SGK_REGISTRY.getScopeContent === 'function') ? window.SGK_REGISTRY : null;
+      if (sgkReg) {
+        var ctstScope = sgkReg.getScopeContent(grade, 'tieng_viet', scope, 'ctst');
+        if (ctstScope && ctstScope.found && ctstScope.lessons && ctstScope.lessons.length > 0) {
+          var seenTitles = {};
+          var listItems = [];
+          ctstScope.lessons.forEach(function(les) {
+            var r = les.reading;
+            var rTitle = (r && r.title) ? r.title.trim() : "";
+            if (rTitle && !seenTitles[rTitle.toLowerCase()]) {
+              seenTitles[rTitle.toLowerCase()] = true;
+              var pg = (r && r.pages) ? r.pages : (les.pages || "");
+              var wk = les.week ? `Tuần ${les.week}` : "";
+              var topic = les.topic ? `Chủ điểm: ${les.topic}` : "";
+              var details = [];
+              if (pg) details.push(`Trang ${pg}`);
+              if (wk) details.push(wk);
+              if (topic) details.push(topic);
+              var sampleQ = "";
+              if (les.sampleQuestions && les.sampleQuestions.length > 0) {
+                var docQ = les.sampleQuestions.find(function(sq){ return sq.section === 'doc_hieu' || sq.cognitive === 'locate'; });
+                if (docQ) {
+                  sampleQ = ` | Câu hỏi mẫu SGK: "${docQ.question}"`;
+                }
+              }
+              listItems.push(`     * "${rTitle}" (${details.join(', ')})${sampleQ}`);
+            }
+          });
+          if (listItems.length > 0) {
+            ctstReadingContext = `\n  5. DANH MỤC BÀI ĐỌC CHUẨN 100% TRONG SGK TIẾNG VIỆT LỚP ${grade} - BỘ CHÂN TRỜI SÁNG TẠO (CTST) ĐÃ SỐ HÓA:\n${listItems.join('\n')}\n     -> NGUYÊN TẮC BẮT BUỘC 100%:\n        - BẮT BUỘC CHỌN CẢ 5 BÀI ĐỌC THÀNH TIẾNG VÀ 1 BÀI ĐỌC HIỂU TỪ DANH MỤC SGK CHÂN TRỜI SÁNG TẠO Ở TRÊN!\n        - TUYỆT ĐỐI CẤM SỬ DỤNG TỰA BÀI ĐỌC CỦA SGK KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (như "Cánh đồng hoa", "Tuổi Ngựa", "Bến sông tuổi thơ", "Tiếng hạt nảy mầm", "Trước cổng trời", "Kỳ diệu rừng xanh",...).\n        - Ghi rõ đúng tên bài đọc, tác giả và số trang SGK Chân trời sáng tạo tương ứng.`;
+          }
+        }
       }
     }
 
@@ -1404,6 +1462,7 @@ Hãy soạn trọn bộ ĐỀ KIỂM TRA MÔN TIẾNG VIỆT LỚP ${grade} gồ
        - Mạch Đọc hiểu văn bản: Đọc hiểu và phân tích văn bản đọc mới trích từ CTST.
        - Mạch Luyện từ và câu: Bám sát chuẩn kiến thức Tiếng Việt của chương trình SGK KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) Lớp ${grade}.
        - Thang điểm: BẮT BUỘC chẵn bội số của 0,25.
+${ctstReadingContext}
 
 - ĐỀ VIẾT (10,0 điểm):
   + Bám sát chủ điểm, thể loại và phân phối chương trình của SGK KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) Lớp ${grade}.
@@ -1436,6 +1495,9 @@ ${customPrompt ? "- YÊU CẦU BỔ SUNG: " + customPrompt : ""}
    - "Mã 9": Bỏ trống không làm bài.
    - Cung cấp câu trả lời mẫu thực tế của học sinh ("sampleResponse") cho từng mã.
 6. SIÊU DỮ LIỆU CÂU HỎI (ITEM METADATA): Mỗi câu hỏi có object "metadata": { itemCode, context, contentDomain, cognitiveProcess, difficulty ("Dễ" | "Tương đối dễ" | "Tương đối khó" | "Khó"), itemType }.
+7. NGUYÊN TẮC BẮT BUỘC VỀ MA TRẬN (KHÔNG THỐNG KÊ NỘI DUNG CHƯA HỌC):
+   - CHỈ THỐNG KÊ CÁC MẠCH KIẾN THỨC / CHỦ ĐỀ CÓ CÂU HỎI TRONG ĐỀ KIỂM TRA NÀY VÀO BẢNG MA TRẬN.
+   - TUYỆT ĐỐI KHÔNG THỐNG KÊ CÁC CHỦ ĐỀ CHƯA HỌC HOẶC KHÔNG CÓ CÂU HỎI TRONG ĐỀ VÀO MA TRẬN (không tạo dòng trống 0 câu 0 điểm).
 
 HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có markdown block hoặc text bên ngoài JSON) có cấu trúc chuẩn như sau:
 {
@@ -1833,6 +1895,9 @@ ${mathFormattingRule}
    - "Mã 9": Bỏ trống không làm bài.
    - Bắt buộc cung cấp câu trả lời mẫu thực tế của học sinh ("sampleResponse") cho từng mã.
 6. BẢNG MÔ TẢ SIÊU DỮ LIỆU CÂU HỎI (seaplmMetadataTable): Bảng tổng hợp toàn bộ câu hỏi trong đề kiểm tra: itemCode, context, contentDomain, cognitiveProcess, difficulty ("Dễ" | "Trung bình" | "Khó"), itemType, score, maxCode.
+7. NGUYÊN TẮC BẮT BUỘC VỀ MA TRẬN (KHÔNG THỐNG KÊ NỘI DUNG CHƯA HỌC):
+   - CHỈ THỐNG KÊ CÁC CHỦ ĐỀ / MẠCH KIẾN THỨC ĐÃ HỌC VÀ CÓ CÂU HỎI TRONG ĐỀ THI NÀY VÀO BẢNG MA TRẬN.
+   - TUYỆT ĐỐI KHÔNG THỐNG KÊ CÁC CHỦ ĐỀ CHƯA HỌC HOẶC KHÔNG CÓ CÂU HỎI TRONG ĐỀ VÀO MA TRẬN (không tạo dòng trống 0 câu 0 điểm).
 
 HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm markdown code block hoặc text ngoài JSON) có cấu trúc chuẩn như sau:
 {
@@ -2364,9 +2429,10 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
     var m = examData.matrix || {};
     var s = m.summary || {};
-    var bookSeriesName = examData.bookSeries || (examData.seriesName || "Chân trời sáng tạo (CTST)");
+    var bookSeriesName = examData.bookSeries || (examData.seriesName || "Kết nối tri thức với cuộc sống (KNTT)");
     var mcqScoreStr = examData.mcqTotalScore ? examData.mcqTotalScore.toString().replace('.', ',') : "7,0";
     var essayScoreStr = examData.essayTotalScore ? examData.essayTotalScore.toString().replace('.', ',') : "3,0";
+    var WORD_PAGE_BREAK = '<br clear="all" style="page-break-before: always; mso-break-type: section-break;" /><p class="MsoNormal" style="page-break-before: always; margin: 0pt; mso-para-margin: 0pt; font-size: 1pt; line-height: 1pt; height: 1pt; mso-margin-top-alt: 0pt; mso-margin-bottom-alt: 0pt;">&nbsp;</p><div class="page-break" style="page-break-before: always; mso-break-type: section-break; clear: both;"></div>';
 
     var docHtml = `
       <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
@@ -2470,8 +2536,9 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             margin-bottom: 2px;
           }
           .page-break {
-            page-break-before: always;
-            mso-break-type: section-break;
+            page-break-before: always !important;
+            mso-break-type: section-break !important;
+            clear: both !important;
           }
         </style>
       </head>
@@ -2507,7 +2574,9 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             </tr>
           </thead>
           <tbody>
-            ${(m.topics || []).map(function(t) {
+            ${(m.topics || []).filter(function(t) {
+              return (t.total_mcq > 0) || (t.total_essay > 0) || (t.score > 0) || t.m1_mcq || t.m1_essay || t.m2_mcq || t.m2_essay || t.m3_mcq || t.m3_essay;
+            }).map(function(t) {
               return `
                 <tr>
                   <td style="text-align: left; font-weight: 500;">${t.topic}</td>
@@ -2557,7 +2626,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         `}
 
         <!-- PHẦN II: PHIẾU KIỂM TRA (ĐỀ HỌC SINH) -->
-        <div class="page-break"></div>
+        ${WORD_PAGE_BREAK}
 
         <table class="header-table">
           <tr>
@@ -2616,7 +2685,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         ` : ''}
 
         <!-- PHẦN III: HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN -->
-        <div class="page-break"></div>
+        ${WORD_PAGE_BREAK}
 
         <div class="title-bold-center">HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN MÔN ${examData.subjectName.toUpperCase()} LỚP ${examData.grade}</div>
         <div class="subtitle-center">Bộ sách: ${bookSeriesName} • Năm học ${examData.schoolYear}</div>
@@ -2659,7 +2728,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- ========================================================================= -->
         <!-- PHẦN IV: BẢNG ĐẶC TẢ SIÊU DỮ LIỆU CÂU HỎI THEO CHUẨN ĐÁNH GIÁ ĐÔNG NAM Á (SEA-PLM) -->
         <!-- ========================================================================= -->
-        <div class="page-break"></div>
+        ${WORD_PAGE_BREAK}
 
         <div class="title-bold-center">ĐẶC TẢ SIÊU DỮ LIỆU & HƯỚNG DẪN MÃ HÓA THEO CHUẨN SEA-PLM</div>
         <div class="subtitle-center">Chương trình Đánh giá kết quả học tập học sinh Tiểu học khu vực Đông Nam Á (Bộ GD&ĐT)</div>
@@ -2835,8 +2904,8 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     var wr = exam.writingExam || {};
     var oralScoreStr = (rd.oralScore || 4.0).toFixed(1).replace('.', ',');
     var compScoreStr = (rd.comprehensionScore || 6.0).toFixed(1).replace('.', ',');
-    var isSGK = (rd.oralMode !== "custom");
     var grade = exam.grade || 3;
+    var WORD_PAGE_BREAK = '<br clear="all" style="page-break-before: always; mso-break-type: section-break;" /><p class="MsoNormal" style="page-break-before: always; margin: 0pt; mso-para-margin: 0pt; font-size: 1pt; line-height: 1pt; height: 1pt; mso-margin-top-alt: 0pt; mso-margin-bottom-alt: 0pt;">&nbsp;</p><div class="page-break" style="page-break-before: always; mso-break-type: section-break; clear: both;"></div>';
 
     var docHtml = `
       <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
@@ -2949,8 +3018,9 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             margin-bottom: 2px;
           }
           .page-break {
-            page-break-before: always;
-            mso-break-type: section-break;
+            page-break-before: always !important;
+            mso-break-type: section-break !important;
+            clear: both !important;
           }
         </style>
       </head>
@@ -2971,7 +3041,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           }
 
           return `
-            ${idx > 0 ? '<div class="page-break"></div>' : ''}
+            ${idx > 0 ? WORD_PAGE_BREAK : ''}
             <!-- PHIẾU ĐỌC THÀNH TIẾNG SỐ ${idx + 1} (TRANG A4 RIÊNG BIỆT) -->
             <table class="header-table">
               <tr>
@@ -3050,7 +3120,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- ========================================================================= -->
         <!-- PHẦN 2: PHIẾU KIỂM TRA ĐỌC HIỂU (BẮT ĐẦU TRANG MỚI SAU 5 TRANG ĐỌC TIẾNG) -->
         <!-- ========================================================================= -->
-        <div class="page-break"></div>
+        ${WORD_PAGE_BREAK}
 
         <table class="header-table">
           <tr>
@@ -3116,7 +3186,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- ========================================== -->
         <!-- TRANG 2: PHIẾU KIỂM TRA VIẾT (10 ĐIỂM)    -->
         <!-- ========================================== -->
-        <div class="page-break"></div>
+        ${WORD_PAGE_BREAK}
 
         <table class="header-table">
           <tr>
@@ -3235,7 +3305,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- ========================================== -->
         <!-- TRANG 3: MA TRẬN ĐỀ KIỂM TRA TIẾNG VIỆT   -->
         <!-- ========================================== -->
-        <div class="page-break"></div>
+        ${WORD_PAGE_BREAK}
 
         <div class="title-bold-center">MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}</div>
         <div class="subtitle-center" style="margin-bottom: 14px;">Bộ sách: ${exam.bookSeries || 'Kết nối tri thức với cuộc sống (KNTT)'} • Năm học ${exam.schoolYear || '2026 - 2027'}</div>
@@ -3308,7 +3378,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- ========================================== -->
         <!-- TRANG 4: HƯỚNG DẪN CHẤM VÀ BAREM ĐIỂM     -->
         <!-- ========================================== -->
-        <div class="page-break"></div>
+        ${WORD_PAGE_BREAK}
 
         <div class="title-bold-center">HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN MÔN TIẾNG VIỆT LỚP ${exam.grade}</div>
         <div class="subtitle-center">Chuẩn đánh giá học sinh Tiểu học theo Thông tư 27/2020/TT-BGDĐT</div>
@@ -3458,7 +3528,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- ========================================================================= -->
         <!-- TRANG 5: ĐẶC TẢ SIÊU DỮ LIỆU & HƯỚNG DẪN MÃ HÓA THEO CHUẨN SEA-PLM        -->
         <!-- ========================================================================= -->
-        <div class="page-break"></div>
+        ${WORD_PAGE_BREAK}
 
         <div class="title-bold-center">ĐẶC TẢ SIÊU DỮ LIỆU & HƯỚNG DẪN MÃ HÓA THEO CHUẨN SEA-PLM</div>
         <div class="subtitle-center">Chương trình Đánh giá kết quả học tập học sinh Tiểu học khu vực Đông Nam Á (Bộ GD&ĐT)</div>
