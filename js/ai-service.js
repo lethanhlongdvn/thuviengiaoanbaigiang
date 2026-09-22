@@ -2818,7 +2818,8 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       </html>
     `;
 
-    var seriesSlug = (examData.bookSeries && examData.bookSeries.toLowerCase().includes("kết nối")) ? "KNTT" : "CTST";
+    var sLower = (examData.bookSeries || 'kntt').toLowerCase();
+    var seriesSlug = (sLower.includes("chân trời") || sLower === 'ctst') ? "CTST" : "KNTT";
     return await this.downloadWordBlob(docHtml, `De_Kiem_Tra_${examData.subjectName}_Lop_${examData.grade}_${seriesSlug}_2026_2027.docx`);
   },
 
@@ -3670,7 +3671,8 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       </html>
     `;
 
-    var seriesSlug = (exam.bookSeries && exam.bookSeries.toLowerCase().includes("kết nối")) ? "KNTT" : "CTST";
+    var sLower = (exam.bookSeries || 'kntt').toLowerCase();
+    var seriesSlug = (sLower.includes("chân trời") || sLower === 'ctst') ? "CTST" : "KNTT";
     var fn = `De_Kiem_Tra_Tieng_Viet_Lop_${exam.grade}_${seriesSlug}_2026_2027.docx`;
     await this.downloadWordBlob(docHtml, fn);
     return docHtml;
