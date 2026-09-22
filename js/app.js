@@ -1037,9 +1037,22 @@ function renderAiExamView(container) {
       <!-- CỘT ĐIỀU KHIỂN BÊN TRÁI (FORM THU THẬP THÔNG SỐ) -->
       <div class="ai-ctrl-box" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm);">
         
-        <div style="font-size: 0.76rem; font-weight: 800; color: #7c3aed; background: #f5f3ff; border: 1px solid #ddd6fe; padding: 0.3rem 0.75rem; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem;">
-          <span><i class="fa-solid fa-book-open"></i> SGK KẾT NỐI TRI THỨC 2026</span>
-          <span style="color: #16a34a;"><i class="fa-solid fa-circle-check"></i> Chuẩn TT 27</span>
+        <!-- THANH TRẠNG THÁI BỘ SÁCH & TIÊU CHUẨN -->
+        <div style="font-size: 0.76rem; font-weight: 800; color: #7c3aed; background: #f5f3ff; border: 1px solid #ddd6fe; padding: 0.3rem 0.75rem; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+          <span id="aiBookSeriesBadge"><i class="fa-solid fa-book-open"></i> BỘ SÁCH: CHÂN TRỜI SÁNG TẠO</span>
+          <span style="color: #16a34a;"><i class="fa-solid fa-circle-check"></i> Chuẩn TT 27 & SEA-PLM</span>
+        </div>
+
+        <!-- 0. CHỌN BỘ SÁCH GIÁO KHOA -->
+        <div class="form-group" style="margin-bottom: 0.65rem;">
+          <label for="aiBookSeriesSelect" style="font-weight: 700; font-size: 0.82rem; color: #1e3a8a; display: flex; align-items: center; justify-content: space-between;">
+            <span><i class="fa-solid fa-book-bookmark"></i> Bộ Sách Giáo Khoa:</span>
+            <span style="font-size: 0.72rem; color: #7c3aed; font-weight: 600;">(Đa Bộ Sách)</span>
+          </label>
+          <select id="aiBookSeriesSelect" class="form-select" style="font-weight: 700; border-color: #93c5fd; background-color: #f0f9ff;" onchange="onExamSeriesChange(this.value)">
+            <option value="ctst" selected>Chân trời sáng tạo (CTST - NXB Giáo dục VN)</option>
+            <option value="kntt">Kết nối tri thức với cuộc sống (KNTT - NXB Giáo dục VN)</option>
+          </select>
         </div>
 
         <!-- 1. KHỐI LỚP & MÔN THI -->
@@ -1074,9 +1087,9 @@ function renderAiExamView(container) {
             <option value="Kiểm tra Định kỳ Giữa Học Kỳ II (Tuần 19 - 27)">Giữa Học Kỳ II (Tuần 19 - 27)</option>
             <option value="Kiểm tra Định kỳ Cuối Năm / Cả Năm (Tuần 1 - 35)">Cuối Năm / Cả Năm (Tuần 1 - 35)</option>
             <option value="Theo Tuần ${selectedWeek}">Theo Tuần ${selectedWeek}</option>
-            <option value="custom">✏️ Tự gõ tên bài học SGK Kết nối tri thức...</option>
+            <option value="custom">✏️ Tự gõ tên bài học SGK Chân trời sáng tạo / KNTT...</option>
           </select>
-          <input type="text" id="aiCustomScopeInput" class="form-control" placeholder="Ví dụ: Bài 15 Luyện tập chung - Phép nhân và phép chia..." style="margin-top: 0.4rem; display: none;">
+          <input type="text" id="aiCustomScopeInput" class="form-control" placeholder="Ví dụ: Bài học, chủ điểm SGK hoặc ngữ liệu Vĩnh Long..." style="margin-top: 0.4rem; display: none;">
         </div>
 
         <!-- ========================================================= -->
@@ -1100,12 +1113,26 @@ function renderAiExamView(container) {
             <div class="form-group" style="margin-bottom: 0;">
               <label for="tvOralModeSelect" style="font-weight: 700; font-size: 0.78rem; color: #581c87;">• Chế độ Đọc thành tiếng:</label>
               <select id="tvOralModeSelect" class="form-select" style="font-size: 0.8rem;">
-                <option value="sgk" selected>📚 5 bài trong SGK KNTT (Bốc thăm, chỉ in Tên bài + Trang SGK)</option>
+                <option value="sgk" selected>📚 5 bài trong SGK đã chọn (Bốc thăm, chỉ in Tên bài + Trang SGK)</option>
                 <option value="custom">📄 1 bài đọc ngoài SGK tương tự (In toàn văn bài đọc vào đề)</option>
               </select>
               <p style="font-size: 0.71rem; color: #7e22ce; margin: 0.25rem 0 0 0; line-height: 1.3;">
                 <i class="fa-solid fa-circle-info"></i> <i>Câu hỏi & Gợi ý trả lời sẽ được in trong <b>Hướng Dẫn Chấm</b> để giáo viên hỏi học sinh.</i>
               </p>
+            </div>
+
+            <!-- ĐỊNH HƯỚNG NGỮ LIỆU ĐỌC HIỂU THEO CHUẨN SEA-PLM & ĐỊA PHƯƠNG VĨNH LONG -->
+            <div class="form-group" style="margin-top: 0.45rem; margin-bottom: 0;">
+              <label for="tvReadingGenreSelect" style="font-weight: 700; font-size: 0.78rem; color: #581c87;">• Định hướng Ngữ liệu Đọc hiểu (Chuẩn SEA-PLM):</label>
+              <select id="tvReadingGenreSelect" class="form-select" style="font-size: 0.8rem;" onchange="onTvReadingGenreChange(this.value)">
+                <option value="sgk_art" selected>📖 Văn bản nghệ thuật (Truyện, thơ theo chủ điểm SGK)</option>
+                <option value="vinh_long">🏛️ Văn bản thông tin thực tế / Địa phương Vĩnh Long (124 xã/phường)</option>
+                <option value="non_continuous">📊 Văn bản không liên tục / Hỗn hợp (Bảng biểu, sơ đồ chuẩn SEA-PLM)</option>
+                <option value="custom">✍️ Tự nhập ngữ liệu đọc hiểu tùy chỉnh...</option>
+              </select>
+              <div id="tvCustomReadingBox" style="display: none; margin-top: 0.35rem;">
+                <textarea id="tvCustomReadingInput" class="form-control" rows="3" placeholder="Dán bài đọc hiểu tùy chỉnh của Thầy/Cô vào đây..." style="font-size: 0.78rem;"></textarea>
+              </div>
             </div>
           </div>
 
@@ -1159,9 +1186,19 @@ function renderAiExamView(container) {
             </div>
           </div>
 
+          <!-- HÌNH THỨC CÂU TRẮC NGHIỆM (TÙY MÔN HỌC & ĐA DẠNG HÓA) -->
+          <div class="form-group" style="margin-bottom: 0.5rem;">
+            <label for="aiQuestionFormatSelect" style="font-weight: 700; font-size: 0.8rem;">6. Hình thức câu Trắc nghiệm:</label>
+            <select id="aiQuestionFormatSelect" class="form-select" style="font-size: 0.8rem;">
+              <option value="auto" selected>✨ Tự động theo môn (Toán: MCQ/tính toán; Khoa/Sử/Địa/Công nghệ: Đa dạng)</option>
+              <option value="diverse">🔀 Đa dạng hóa (4 lựa chọn, Đúng/Sai ☐, Nối cột A-B, Điền từ khuyết)</option>
+              <option value="mcq_only">📝 Chỉ trắc nghiệm 4 lựa chọn (A, B, C, D)</option>
+            </select>
+          </div>
+
           <!-- ĐỊNH HƯỚNG NỘI DUNG TỰ LUẬN -->
           <div class="form-group" style="margin-bottom: 0.5rem;">
-            <label for="aiEssayGuide" style="font-weight: 700; font-size: 0.8rem;">6. Định hướng nội dung Tự luận (Gợi ý cho AI):</label>
+            <label for="aiEssayGuide" style="font-weight: 700; font-size: 0.8rem;">7. Định hướng nội dung Tự luận (Gợi ý cho AI):</label>
             <textarea id="aiEssayGuide" class="form-control" rows="2" placeholder="Ví dụ: Bài 1 đặt tính rồi tính (4 phép tính), Bài 2 giải toán có lời văn 2 bước tính, Bài 3 tính bằng cách thuận tiện..." style="font-size: 0.8rem;"></textarea>
           </div>
 
@@ -1240,13 +1277,19 @@ function renderAiExamView(container) {
 
           <div class="form-group" style="margin-bottom: 0;">
             <label for="aiSchoolNameInput" style="font-weight: 700; font-size: 0.8rem;">Tên Trường Tiểu học:</label>
-            <input type="text" id="aiSchoolNameInput" class="form-control" placeholder="Trường Tiểu học .................">
+            <input type="text" id="aiSchoolNameInput" class="form-control" placeholder="Ví dụ: Trường Tiểu học Nguyễn Huệ (Vĩnh Long)...">
           </div>
         </div>
 
         <div class="form-group" style="margin-top: 0.5rem; margin-bottom: 0;">
-          <label for="aiCustomPrompt" style="font-weight: 700; font-size: 0.8rem;">Ghi chú / Yêu cầu đặc biệt cho AI (Tùy chọn):</label>
-          <input type="text" id="aiCustomPrompt" class="form-control" placeholder="Ví dụ: Đề vừa sức học sinh, câu hỏi trắc nghiệm có tình huống thực tế...">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+            <label for="aiCustomPrompt" style="font-weight: 700; font-size: 0.8rem; margin-bottom: 0;">Ghi chú / Yêu cầu đặc biệt cho AI (Tùy chọn):</label>
+            <label style="font-size: 0.74rem; color: #7c3aed; font-weight: 700; cursor: pointer; display: inline-flex; align-items: center; gap: 0.25rem; background: #f3e8ff; padding: 0.15rem 0.5rem; border-radius: 9999px; border: 1px solid #d8b4fe;" title="Tự động lồng ghép số liệu 124 xã/phường (NQ 202/2025/QH15), địa danh, nông sản và bối cảnh Vĩnh Long vào đề thi">
+              <input type="checkbox" id="aiVinhLongLocalCheck" style="cursor: pointer;" checked>
+              <span>🏛️ Bối cảnh Vĩnh Long (124 xã/phường)</span>
+            </label>
+          </div>
+          <input type="text" id="aiCustomPrompt" class="form-control" placeholder="Ví dụ: Đề vừa sức học sinh, câu hỏi trắc nghiệm có tình huống thực tế địa phương...">
         </div>
 
         <!-- NÚT BẮT ĐẦU SOẠN ĐỀ -->
@@ -1293,11 +1336,73 @@ function updateExamSubjectFormState(subjectId, grade) {
   if (isTv) {
     if (tvG123Box) tvG123Box.style.display = (g <= 3) ? "block" : "none";
     if (tvG45Box) tvG45Box.style.display = (g >= 4) ? "block" : "none";
+  } else {
+    // Tự động tối ưu cấu trúc đề theo đặc thù từng môn ("Tùy môn nữa nha bạn")
+    var mcqInp = document.getElementById("aiMcqCount");
+    var essayInp = document.getElementById("aiEssayCount");
+    var essayGuideInp = document.getElementById("aiEssayGuide");
+
+    if (subjectId === "TOAN") {
+      // Chuẩn thực tế môn Toán (50% TN - 50% TL: 5đ TN, 5đ TL như đề Lương Hòa A)
+      setExamScoreRatio(50);
+      if (mcqInp) mcqInp.value = 7; // 7 câu TN (hoặc 6-8 câu)
+      if (essayInp) essayInp.value = 2; // 2-3 câu TL (5 điểm)
+      if (essayGuideInp && !essayGuideInp.value) {
+        essayGuideInp.placeholder = "Ví dụ: Bài 1: Đặt tính rồi tính (4 phép tính); Bài 2: Giải toán có lời văn 2 bước tính (hình học / số thập phân / phân số)...";
+      }
+    } else if (subjectId === "CONG_NGHE") {
+      // Chuẩn môn Công nghệ (70% TN - 30% TL: 7 câu TN 7đ + 2 câu TL 3đ)
+      setExamScoreRatio(70);
+      if (mcqInp) mcqInp.value = 7;
+      if (essayInp) essayInp.value = 2;
+      if (essayGuideInp && !essayGuideInp.value) {
+        essayGuideInp.placeholder = "Ví dụ: Bài 1: Nêu quy trình/lưu ý an toàn; Bài 2: Đề xuất giải pháp/thực hành...";
+      }
+    } else if (subjectId === "KHOA_HOC" || subjectId === "LICH_SU_DIA_LY" || subjectId === "TIN_HOC") {
+      // Chuẩn Khoa học & Lịch sử - Địa lí (70% TN - 30% TL: 8 câu TN 7đ + 2 câu TL 3đ)
+      setExamScoreRatio(70);
+      if (mcqInp) mcqInp.value = 8;
+      if (essayInp) essayInp.value = 2;
+      if (essayGuideInp && !essayGuideInp.value) {
+        essayGuideInp.placeholder = "Ví dụ: Bài 1: Nêu ý nghĩa hoặc giải thích hiện tượng; Bài 2: Liên hệ thực tế bản thân/địa phương...";
+      }
+    } else {
+      // Các môn khác (Đạo đức, Hoạt động trải nghiệm...)
+      setExamScoreRatio(70);
+      if (mcqInp) mcqInp.value = 7;
+      if (essayInp) essayInp.value = 2;
+    }
   }
 }
 
 function onTvOralScoreChange(val) {
   // Có thể cập nhật nhãn nếu cần
+}
+
+// Xử lý chuyển đổi Bộ sách (Chân trời sáng tạo vs Kết nối tri thức)
+function onExamSeriesChange(series) {
+  if (typeof window !== 'undefined' && window.SGK_DATA && typeof window.SGK_DATA.setActiveSeries === 'function') {
+    window.SGK_DATA.setActiveSeries(series);
+  }
+  var badge = document.getElementById("aiBookSeriesBadge");
+  if (badge) {
+    badge.innerHTML = `<i class="fa-solid fa-book-open"></i> BỘ SÁCH: ${series === 'ctst' ? 'CHÂN TRỜI SÁNG TẠO' : 'KẾT NỐI TRI THỨC'}`;
+  }
+  var grade = document.getElementById("aiGradeSelect")?.value || 5;
+  var subject = document.getElementById("aiSubjectSelect")?.value || "TIENG_VIET";
+  updateExamScopeOptions(grade, subject, series);
+}
+
+// Xử lý thay đổi định hướng ngữ liệu Đọc hiểu SEA-PLM / Vĩnh Long
+function onTvReadingGenreChange(val) {
+  var customBox = document.getElementById("tvCustomReadingBox");
+  if (customBox) {
+    customBox.style.display = (val === "custom") ? "block" : "none";
+    if (val === "custom") {
+      var inp = document.getElementById("tvCustomReadingInput");
+      if (inp) inp.focus();
+    }
+  }
 }
 
 // Cập nhật danh sách môn khi đổi khối lớp
@@ -1309,29 +1414,34 @@ function onExamGradeChange(grade) {
     return `<option value="${s.id}">${s.name}</option>`;
   }).join('');
 
+  var series = document.getElementById("aiBookSeriesSelect")?.value || 'ctst';
   updateExamSubjectFormState(select.value, grade);
-  updateExamScopeOptions(grade, select.value);
+  updateExamScopeOptions(grade, select.value, series);
 }
 
 // Cập nhật phạm vi bài học khi đổi môn
 function onExamSubjectChange(subjectId) {
   var grade = document.getElementById("aiGradeSelect")?.value || 5;
+  var series = document.getElementById("aiBookSeriesSelect")?.value || 'ctst';
   updateExamSubjectFormState(subjectId, grade);
-  updateExamScopeOptions(grade, subjectId);
+  updateExamScopeOptions(grade, subjectId, series);
 }
 
-// Nạp danh sách chủ đề & bài học từ Kho Sách Giáo Khoa Số Hóa KNTT
-function updateExamScopeOptions(grade, subjectId) {
+// Nạp danh sách chủ đề & bài học từ Kho Sách Giáo Khoa Số Hóa (Đa bộ sách CTST & KNTT)
+function updateExamScopeOptions(grade, subjectId, series) {
   var scopeSelect = document.getElementById("aiScopePreset");
   if (!scopeSelect) return;
 
   var currentSelectedVal = scopeSelect.value;
+  var currentSeries = series || document.getElementById("aiBookSeriesSelect")?.value || (window.SGK_DATA?.getActiveSeries ? window.SGK_DATA.getActiveSeries() : 'ctst');
   var sgkKey = (subjectId || 'TOAN').toLowerCase().replace('lich_su_dia_ly', 'lich_su_dia_li');
   var book = (typeof window !== 'undefined' && window.SGK_DATA && typeof window.SGK_DATA.getBook === 'function') 
-             ? window.SGK_DATA.getBook(grade, sgkKey) : null;
+             ? window.SGK_DATA.getBook(grade, sgkKey, currentSeries) : null;
+
+  var seriesLabel = currentSeries === 'ctst' ? 'Chân trời sáng tạo (CTST)' : 'Kết nối tri thức (KNTT)';
 
   var html = `
-    <optgroup label="Phạm vi định kỳ chuẩn">
+    <optgroup label="Phạm vi định kỳ chuẩn (${seriesLabel})">
       <option value="Kiểm tra Định kỳ Cuối Học Kỳ I (Tuần 1 - 18)" selected>Cuối Học Kỳ I (Tuần 1 - 18)</option>
       <option value="Kiểm tra Định kỳ Giữa Học Kỳ I (Tuần 1 - 9)">Giữa Học Kỳ I (Tuần 1 - 9)</option>
       <option value="Kiểm tra Định kỳ Giữa Học Kỳ II (Tuần 19 - 27)">Giữa Học Kỳ II (Tuần 19 - 27)</option>
@@ -1340,9 +1450,19 @@ function updateExamScopeOptions(grade, subjectId) {
     </optgroup>
   `;
 
+  // Ngữ liệu đặc biệt địa phương Vĩnh Long cho môn Tiếng Việt
+  if (subjectId === "TIENG_VIET") {
+    html += `
+      <optgroup label="Ngữ liệu Địa phương Vĩnh Long (NQ 202/2025/QH15 - 124 xã/phường)">
+        <option value="Địa phương Vĩnh Long: 124 xã, phường sau sắp xếp (NQ 202/2025/QH15)">Địa phương Vĩnh Long: Văn bản thông tin 124 xã/phường</option>
+        <option value="Địa phương Vĩnh Long: Bảng tra cứu số liệu địa giới hành chính (Chuẩn SEA-PLM)">Địa phương Vĩnh Long: Bảng số liệu biểu bảng (SEA-PLM)</option>
+      </optgroup>
+    `;
+  }
+
   if (book && book.topics && book.topics.length > 0) {
     html += `
-      <optgroup label="Chủ đề / Chủ điểm SGK KNTT (${book.metadata?.bookName || ''})">
+      <optgroup label="Chủ đề / Chủ điểm SGK ${book.metadata?.bookName || seriesLabel}">
         ${book.topics.map(function(t) {
           return `<option value="${t.name}">${t.name} (Tuần ${t.weeks || ''})</option>`;
         }).join('')}
@@ -1352,8 +1472,8 @@ function updateExamScopeOptions(grade, subjectId) {
 
   if (book && book.lessons && book.lessons.length > 0) {
     html += `
-      <optgroup label="Từng bài học SGK số hóa (Khối ${grade})">
-        ${book.lessons.slice(0, 45).map(function(l) {
+      <optgroup label="Từng bài học SGK số hóa (Khối ${grade} - ${currentSeries.toUpperCase()})">
+        ${book.lessons.slice(0, 50).map(function(l) {
           return `<option value="${l.title}">Tuần ${l.week || 'N/A'}: ${l.title}</option>`;
         }).join('')}
       </optgroup>
@@ -1455,9 +1575,11 @@ async function triggerAiGenerate() {
   var level3Percent = parseInt(document.getElementById("aiLevel3Pct")?.value) || 20;
 
   var isTv = (subjectId === "TIENG_VIET");
+  var series = document.getElementById("aiBookSeriesSelect")?.value || "ctst";
   var payload = {
     grade: grade,
     subjectId: subjectId,
+    bookSeries: series,
     scope: scope,
     duration: duration,
     schoolName: schoolName,
@@ -1465,7 +1587,8 @@ async function triggerAiGenerate() {
     apiKey: apiKey,
     level1Percent: level1Percent,
     level2Percent: level2Percent,
-    level3Percent: level3Percent
+    level3Percent: level3Percent,
+    isVinhLongLocal: !!document.getElementById("aiVinhLongLocalCheck")?.checked
   };
 
   if (isTv) {
@@ -1474,11 +1597,15 @@ async function triggerAiGenerate() {
     var ratioVal = document.getElementById("tvWritingRatioSelect")?.value || "4-6";
     var dictScoreVal = parseFloat(ratioVal.split('-')[0]) || 4.0;
     var genreVal = document.getElementById("tvEssayGenreSelect")?.value || "Văn miêu tả cây cối";
+    var readingGenreVal = document.getElementById("tvReadingGenreSelect")?.value || "sgk_art";
+    var customReadingVal = document.getElementById("tvCustomReadingInput")?.value || "";
 
     payload.tvOralScore = oralScoreVal;
     payload.tvOralMode = oralModeVal;
     payload.tvDictationScore = dictScoreVal;
     payload.tvEssayGenre = genreVal;
+    payload.tvReadingGenre = readingGenreVal;
+    payload.tvCustomReading = customReadingVal;
   } else {
     var mcqCount = parseInt(document.getElementById("aiMcqCount")?.value) || 8;
     var essayCount = parseInt(document.getElementById("aiEssayCount")?.value);
@@ -1488,12 +1615,14 @@ async function triggerAiGenerate() {
     var sliderVal = parseInt(document.getElementById("aiScoreRatioSlider")?.value);
     var mcqPercent = !isNaN(sliderVal) ? sliderVal : 70;
     var essayPercent = 100 - mcqPercent;
+    var questionFormat = document.getElementById("aiQuestionFormatSelect")?.value || "auto";
 
     payload.mcqCount = mcqCount;
     payload.essayCount = essayCount;
     payload.essayGuide = essayGuide;
     payload.mcqPercent = mcqPercent;
     payload.essayPercent = essayPercent;
+    payload.questionFormat = questionFormat;
   }
 
   var outputEl = document.getElementById("aiOutputContainer");
@@ -1502,7 +1631,7 @@ async function triggerAiGenerate() {
   outputEl.innerHTML = `
     <div style="text-align: center; padding: 6rem 1rem;">
       <div class="spinner" style="border-top-color: #7c3aed; width: 44px; height: 44px; margin: 0 auto 1.5rem; border-width: 4px;"></div>
-      <h3 style="color: #7c3aed; font-weight: 800; font-size: 1.2rem; margin-bottom: 0.5rem;">AI đang phân tích chương trình SGK Kết nối tri thức...</h3>
+      <h3 style="color: #7c3aed; font-weight: 800; font-size: 1.2rem; margin-bottom: 0.5rem;">AI đang phân tích chương trình SGK ${series === 'ctst' ? 'Chân trời sáng tạo' : 'Kết nối tri thức'} & Khung Đọc hiểu SEA-PLM...</h3>
       <p style="color: var(--text-muted); font-size: 0.88rem; max-width: 450px; margin: 0 auto;">
         ${isTv ? 'Đang xây dựng Đề Đọc (Đọc tiếng + Đọc hiểu), Đề Viết (Chính tả + TLV), Ma trận Thông tư 27 và Barem chấm chi tiết...' : 'Đang xây dựng Ma trận 3 Mức độ, Đề kiểm tra và Barem chấm chuẩn Thông tư 27...'}
       </p>
@@ -1517,8 +1646,42 @@ async function triggerAiGenerate() {
       renderExamOutput(exam, outputEl);
       showToast("Đã soạn đề kiểm tra & ma trận thành công!", "success");
     } catch (err) {
-      console.error(err);
-      showToast("Có lỗi khi tạo đề, vui lòng thử lại!", "error");
+      console.error("Lỗi tạo đề AI:", err);
+      var rawMsg = err.message || "Không thể kết nối với Google Gemini API để tạo đề!";
+      var safeMsg = String(rawMsg).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+      showToast(rawMsg, "error", 7000);
+
+      outputEl.innerHTML = `
+        <div style="text-align: center; padding: 4rem 1.5rem; max-width: 580px; margin: 0 auto;">
+          <div style="width: 64px; height: 64px; border-radius: 50%; background: #fee2e2; color: #dc2626; display: flex; align-items: center; justify-content: center; font-size: 1.85rem; margin: 0 auto 1.25rem; box-shadow: 0 4px 14px rgba(220, 38, 38, 0.2);">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+          </div>
+          <h3 style="color: #991b1b; font-weight: 800; font-size: 1.25rem; margin-bottom: 0.65rem;">
+            Không Thể Kết Nối Với Google Gemini API
+          </h3>
+          <div style="background: #fff5f5; border: 1px solid #fecaca; border-radius: var(--radius-md); padding: 1.15rem 1.25rem; margin-bottom: 1.5rem; text-align: left; box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+            <div style="display: flex; align-items: flex-start; gap: 0.65rem; color: #b91c1c; font-size: 0.92rem; line-height: 1.5;">
+              <i class="fa-solid fa-circle-xmark" style="margin-top: 0.2rem; font-size: 1.15rem; flex-shrink: 0;"></i>
+              <div>
+                <strong>Chi tiết thông báo lỗi:</strong><br>
+                <span>${safeMsg}</span>
+              </div>
+            </div>
+            <div style="margin-top: 0.85rem; padding-top: 0.75rem; border-top: 1px dashed #fca5a5; font-size: 0.82rem; color: #6b7280; line-height: 1.5;">
+              <i class="fa-solid fa-circle-info" style="color: #7c3aed;"></i>
+              <em>Hệ thống hoạt động ở chế độ <strong>Trực tuyến 100%</strong> theo yêu cầu. Đề kiểm tra và ma trận chỉ được tạo khi có kết nối trực tiếp với Google Gemini AI.</em>
+            </div>
+          </div>
+          <div style="display: flex; gap: 0.75rem; justify-content: center; flex-wrap: wrap;">
+            <button class="btn btn-primary" onclick="openGeminiApiKeyModal()" style="background: linear-gradient(135deg, #7c3aed, #a855f7); border: none; font-weight: 700; padding: 0.65rem 1.25rem;">
+              <i class="fa-solid fa-key"></i> Cấu hình Gemini API Key
+            </button>
+            <button class="btn btn-outline" onclick="triggerAiGenerate()" style="border-color: #cbd5e1; font-weight: 600; padding: 0.65rem 1.25rem;">
+              <i class="fa-solid fa-rotate-right"></i> Thử tạo lại
+            </button>
+          </div>
+        </div>
+      `;
     }
   }, 500);
 }
@@ -1526,11 +1689,11 @@ async function triggerAiGenerate() {
 // Hiển thị kết quả đề thi dạng Tabs
 function renderExamOutput(exam, container) {
   if (!container || !exam) return;
+  if (typeof AIService !== 'undefined' && AIService.sanitizeAndBalanceExam) {
+    exam = AIService.sanitizeAndBalanceExam(exam);
+  }
 
-  var isAi = exam.source === 'ai';
-  var sourceBadgeHtml = isAi 
-    ? `<div style="display: inline-flex; align-items: center; gap: 0.35rem; background: #f3e8ff; color: #7c3aed; padding: 0.35rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 700; border: 1px solid #d8b4fe;" title="Đề thi được tạo trực tuyến bởi mô hình Google Gemini AI"><i class="fa-solid fa-brain"></i> ${exam.modelName ? `AI (${exam.modelName})` : `Google Gemini AI (Online)`}</div>`
-    : `<div style="display: inline-flex; align-items: center; gap: 0.35rem; background: #fef3c7; color: #b45309; padding: 0.35rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 700; border: 1px solid #fde68a;" title="Đề thi được tạo tự động từ Ngân hàng SGK Kết nối tri thức số hóa"><i class="fa-solid fa-database"></i> Ngân hàng SGK (Offline)</div>`;
+  var sourceBadgeHtml = `<div style="display: inline-flex; align-items: center; gap: 0.35rem; background: #f3e8ff; color: #7c3aed; padding: 0.35rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 700; border: 1px solid #d8b4fe;" title="Đề thi được tạo trực tuyến bởi mô hình Google Gemini AI"><i class="fa-solid fa-brain"></i> ${exam.modelName ? `AI (${exam.modelName})` : `Google Gemini AI (Online)`}</div>`;
 
   // =========================================================================
   // GIAO DIỆN HIỂN THỊ ĐẶC BIỆT CHO MÔN TIẾNG VIỆT (4 TABS: ĐỌC, VIẾT, MA TRẬN, ĐÁP ÁN)
@@ -1543,12 +1706,12 @@ function renderExamOutput(exam, container) {
     var isSGK = (rd.oralMode !== "custom");
     var grade = exam.grade || 3;
 
-    if (!["reading", "writing", "matrix", "rubric"].includes(currentExamActiveTab)) {
+    if (!["reading", "writing", "matrix", "rubric", "seaplm"].includes(currentExamActiveTab)) {
       currentExamActiveTab = "reading";
     }
 
     container.innerHTML = `
-      <!-- THANH ĐIỀU HƯỚNG 4 TABS TIẾNG VIỆT -->
+      <!-- THANH ĐIỀU HƯỚNG 5 TABS TIẾNG VIỆT -->
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.65rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem;">
         <div style="display: flex; gap: 0.35rem; background: #f1f5f9; padding: 0.25rem; border-radius: var(--radius-sm); align-items: center; flex-wrap: wrap;">
           <button class="btn btn-sm ${currentExamActiveTab === 'reading' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'reading' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('reading')">
@@ -1562,6 +1725,9 @@ function renderExamOutput(exam, container) {
           </button>
           <button class="btn btn-sm ${currentExamActiveTab === 'rubric' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'rubric' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('rubric')">
             <i class="fa-solid fa-square-check"></i> 4. Hướng Dẫn Chấm
+          </button>
+          <button class="btn btn-sm ${currentExamActiveTab === 'seaplm' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'seaplm' ? 'background: #0284c7;' : ''}" onclick="switchExamTab('seaplm')">
+            <i class="fa-solid fa-graduation-cap"></i> 5. Đặc Tả & Mã Hóa SEA-PLM
           </button>
         </div>
 
@@ -1577,7 +1743,7 @@ function renderExamOutput(exam, container) {
       </div>
 
       <!-- TAB 1: PHIẾU ĐỀ ĐỌC (HỌC SINH) -->
-      <div id="examTabContent_reading" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'reading' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+      <div id="examTabContent_reading" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'reading' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
         
         <!-- HEADER 2 CỘT -->
         <table style="width: 100%; border: none; margin-bottom: 12px;">
@@ -1668,6 +1834,9 @@ function renderExamOutput(exam, container) {
         <p style="margin: 6px 0 8px 0; font-style: italic; font-weight: bold;">Khoanh vào chữ cái trước câu trả lời đúng và hoàn thành các bài tập:</p>
 
         ${(rd.questions || []).map(function(q) {
+          if (typeof AIService !== 'undefined' && AIService.renderQuestionItem) {
+            return AIService.renderQuestionItem(q, false);
+          }
           if (q.type === 'mcq') {
             return `
               <div style="margin-bottom: 10px;" contenteditable="true">
@@ -1692,7 +1861,7 @@ function renderExamOutput(exam, container) {
       </div>
 
       <!-- TAB 2: PHIẾU ĐỀ VIẾT (HỌC SINH) -->
-      <div id="examTabContent_writing" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'writing' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+      <div id="examTabContent_writing" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'writing' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
         
         <!-- HEADER 2 CỘT -->
         <table style="width: 100%; border: none; margin-bottom: 12px;">
@@ -1820,7 +1989,12 @@ function renderExamOutput(exam, container) {
           Bộ sách: Kết nối tri thức với cuộc sống • Năm học ${exam.schoolYear}
         </div>
 
-        <div style="font-weight: bold; font-size: 13pt; margin: 10px 0 6px 0; color: #1e3a8a;">I. MA TRẬN NỘI DUNG VÀ MỨC ĐỘ NHẬN THỨC PHẦN ĐỌC (10 ĐIỂM)</div>
+        <div style="font-weight: bold; font-size: 13pt; margin: 10px 0 6px 0; color: #1e3a8a;">I. MA TRẬN 3 TẦNG DÒNG (SỐ CÂU - CÂU SỐ - SỐ ĐIỂM) PHẦN ĐỌC HIỂU (${(exam.readingExam?.comprehensionScore || 6.0).toFixed(1).replace('.', ',')} ĐIỂM)</div>
+        ${(exam.threeTierMatrix && typeof AIService !== 'undefined' && AIService.renderThreeTierMatrixTable) ? `
+          <div style="margin-bottom: 20px;">
+            ${AIService.renderThreeTierMatrixTable(exam.threeTierMatrix, { isWord: false, schoolYear: exam.schoolYear, grade: exam.grade, subjectName: "TIẾNG VIỆT (PHẦN ĐỌC HIỂU)" })}
+          </div>
+        ` : `
         <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px; text-align: center;">
           <thead>
             <tr style="background: #f1f5f9; font-weight: bold;">
@@ -1855,6 +2029,7 @@ function renderExamOutput(exam, container) {
             </tr>
           </tbody>
         </table>
+        `}
 
         <div style="font-weight: bold; font-size: 13pt; margin: 14px 0 6px 0; color: #1e3a8a;">II. MA TRẬN NỘI DUNG VÀ MỨC ĐỘ NHẬN THỨC PHẦN VIẾT (10 ĐIỂM)</div>
         <table style="width: 100%; border-collapse: collapse; margin-bottom: 16px; text-align: center;">
@@ -1885,7 +2060,7 @@ function renderExamOutput(exam, container) {
       </div>
 
       <!-- TAB 4: HƯỚNG DẪN CHẤM & ĐÁP ÁN TIẾNG VIỆT -->
-      <div id="examTabContent_rubric" style="display: ${currentExamActiveTab === 'rubric' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+      <div id="examTabContent_rubric" style="display: ${currentExamActiveTab === 'rubric' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
         <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
           HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN MÔN TIẾNG VIỆT LỚP ${exam.grade}
         </div>
@@ -2002,6 +2177,247 @@ function renderExamOutput(exam, container) {
           </table>
         `}
       </div>
+
+      <!-- TAB 5: ĐẶC TẢ SIÊU DỮ LIỆU & HƯỚNG DẪN MÃ HÓA CHUẨN ĐÔNG NAM Á (SEA-PLM) -->
+      <div id="examTabContent_seaplm" style="display: ${currentExamActiveTab === 'seaplm' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
+        
+        <!-- BANNER SEA-PLM -->
+        <div style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: #fff; padding: 1rem 1.25rem; border-radius: 6px; margin-bottom: 1.25rem; box-shadow: 0 4px 12px rgba(2,132,199,0.15);">
+          <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem;">
+            <div>
+              <div style="font-size: 0.82rem; letter-spacing: 0.05em; text-transform: uppercase; color: #bae6fd; font-weight: 700;">
+                <i class="fa-solid fa-earth-asia"></i> KHUNG ĐÁNH GIÁ NĂNG LỰC HỌC SINH TIỂU HỌC KHU VỰC ĐÔNG NAM Á (SEA-PLM)
+              </div>
+              <h3 style="margin: 0.25rem 0 0 0; font-size: 1.2rem; font-weight: 800; color: #ffffff;">
+                BẢNG ĐẶC TẢ SIÊU DỮ LIỆU CÂU HỎI & HƯỚNG DẪN MÃ HÓA (CODING GUIDE)
+              </h3>
+            </div>
+            <div style="background: rgba(255,255,255,0.18); padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; border: 1px solid rgba(255,255,255,0.3);">
+              <i class="fa-solid fa-certificate" style="color: #fef08a;"></i> Chuẩn Bộ Giáo dục và Đào tạo
+            </div>
+          </div>
+          <p style="margin: 0.6rem 0 0 0; font-size: 0.85rem; color: #f0f9ff; line-height: 1.4;">
+            Đề kiểm tra tuân thủ nghiêm ngặt <b>6 Nguyên tắc Biên soạn SEA-PLM</b>: Đặt trong 4 bối cảnh chân thực (Cá nhân, Xung quanh, Rộng hơn, Môn học); Trọng tâm đo lường đơn nhất; Trắc nghiệm 4 lựa chọn phản ánh lỗi tư duy học sinh (Misconceptions); Tự luận có hướng dẫn mã hóa chuẩn (Mã 2, Mã 1, Mã 0, Mã 9) kèm bài làm mẫu thực tế.
+          </p>
+        </div>
+
+        <!-- PHẦN 1: BẢNG MÔ TẢ SIÊU DỮ LIỆU CÂU HỎI (ITEM METADATA TABLE) -->
+        <div style="font-weight: bold; font-size: 13.5pt; margin-bottom: 8px; color: #0369a1; display: flex; align-items: center; gap: 0.4rem;">
+          <i class="fa-solid fa-table-list"></i> 1. BẢNG MÔ TẢ SIÊU DỮ LIỆU CÂU HỎI (ITEM METADATA TABLE)
+        </div>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 22px; font-size: 11pt;">
+          <thead>
+            <tr style="background: #e0f2fe; font-weight: bold; text-align: center; color: #0369a1;">
+              <th style="border: 1px solid #000; width: 14%; padding: 6px;">Mã câu hỏi</th>
+              <th style="border: 1px solid #000; width: 8%; padding: 6px;">Thứ tự</th>
+              <th style="border: 1px solid #000; width: 18%; padding: 6px;">Bối cảnh (Context)</th>
+              <th style="border: 1px solid #000; width: 18%; padding: 6px;">Miền nội dung</th>
+              <th style="border: 1px solid #000; width: 18%; padding: 6px;">Quá trình nhận thức</th>
+              <th style="border: 1px solid #000; width: 10%; padding: 6px;">Độ khó</th>
+              <th style="border: 1px solid #000; width: 8%; padding: 6px;">Điểm</th>
+              <th style="border: 1px solid #000; width: 6%; padding: 6px;">Mã tối đa</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${(function() {
+              var metaList = exam.seaplmMetadataTable ? JSON.parse(JSON.stringify(exam.seaplmMetadataTable)) : [];
+              if (!metaList || metaList.length === 0) {
+                var order = 1;
+                (exam.readingExam?.questions || []).forEach(function(q) {
+                  metaList.push({
+                    itemCode: q.itemCode || `TV${exam.grade}_RD_${String(q.num).padStart(2, '0')}`,
+                    order: order++,
+                    context: q.metadata?.context || "Môi trường xung quanh (Local community)",
+                    contentDomain: q.metadata?.contentDomain || (q.category === 'lang' ? 'Luyện từ và câu' : 'Đọc hiểu văn bản'),
+                    cognitiveProcess: q.metadata?.cognitiveProcess || (q.level === 'Mức 1' ? 'Xác định thông tin (Locate)' : q.level === 'Mức 2' ? 'Kết nối & Suy luận (Interpret)' : 'Phản hồi & Đánh giá (Reflect)'),
+                    difficulty: q.metadata?.difficulty || (q.level === 'Mức 1' ? 'Dễ' : q.level === 'Mức 2' ? 'Trung bình' : 'Khó'),
+                    itemType: q.type === 'mcq' ? "Trắc nghiệm (MCQ)" : "Tự luận ngắn",
+                    score: q.score || 0.5,
+                    maxCode: q.type === 'mcq' ? "Mã 1" : "Mã 2"
+                  });
+                });
+                if (exam.writingExam?.paragraphWriting) {
+                  metaList.push({
+                    itemCode: `TV${exam.grade}_WR_01`,
+                    order: order++,
+                    context: "Cá nhân (Personal)",
+                    contentDomain: "Kỹ năng Viết (Tập làm văn)",
+                    cognitiveProcess: "Vận dụng thực hành (Writing)",
+                    difficulty: "Trung bình",
+                    itemType: "Tự luận viết đoạn",
+                    score: exam.writingExam.paragraphWriting.score || 6.0,
+                    maxCode: "Mã 2"
+                  });
+                } else if (exam.writingExam?.essay) {
+                  metaList.push({
+                    itemCode: `TV${exam.grade}_WR_01`,
+                    order: order++,
+                    context: "Môi trường xung quanh (Local community)",
+                    contentDomain: "Kỹ năng Viết (Tập làm văn)",
+                    cognitiveProcess: "Vận dụng thực hành (Writing)",
+                    difficulty: "Khó",
+                    itemType: "Tự luận bài văn hoàn chỉnh",
+                    score: 10.0,
+                    maxCode: "Mã 2"
+                  });
+                }
+              }
+              return metaList.map(function(item) {
+                return `
+                  <tr>
+                    <td style="border: 1px solid #000; padding: 6px; font-weight: bold; text-align: center; color: #0369a1;">${item.itemCode || '-'}</td>
+                    <td style="border: 1px solid #000; padding: 6px; text-align: center;">Câu ${item.order || '-'}</td>
+                    <td style="border: 1px solid #000; padding: 6px;">${item.context || '-'}</td>
+                    <td style="border: 1px solid #000; padding: 6px;">${item.contentDomain || '-'}</td>
+                    <td style="border: 1px solid #000; padding: 6px;">${item.cognitiveProcess || '-'}</td>
+                    <td style="border: 1px solid #000; padding: 6px; text-align: center;">${item.difficulty || '-'}</td>
+                    <td style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold;">${item.score ? item.score.toString().replace('.', ',') : '-'}</td>
+                    <td style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; color: #16a34a;">${item.maxCode || 'Mã 1'}</td>
+                  </tr>
+                `;
+              }).join('');
+            })()}
+          </tbody>
+        </table>
+
+        <!-- PHẦN 2: PHÂN TÍCH CƠ SỞ PHƯƠNG ÁN ĐÚNG & PHƯƠNG ÁN NHIỄU -->
+        <div style="font-weight: bold; font-size: 13.5pt; margin-bottom: 8px; color: #0369a1; display: flex; align-items: center; gap: 0.4rem;">
+          <i class="fa-solid fa-brain"></i> 2. PHÂN TÍCH CƠ SỞ PHƯƠNG ÁN ĐÚNG & PHƯƠNG ÁN NHIỄU (DISTRACTOR RATIONALE)
+        </div>
+        <p style="margin: 0 0 10px 0; font-size: 11pt; color: #475569; font-style: italic;">
+          Phân tích nguyên nhân học sinh chọn nhầm các phương án nhiễu dựa trên lỗi tư duy, nhầm lẫn chi tiết đọc hiểu hoặc hiểu nhầm ngữ nghĩa từ vựng:
+        </p>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 22px; font-size: 11.5pt;">
+          <thead>
+            <tr style="background: #e0f2fe; font-weight: bold; text-align: center; color: #0369a1;">
+              <th style="border: 1px solid #000; width: 10%; padding: 6px;">Câu</th>
+              <th style="border: 1px solid #000; width: 8%; padding: 6px;">Đáp án</th>
+              <th style="border: 1px solid #000; width: 38%; padding: 6px;">Cơ sở phương án đúng</th>
+              <th style="border: 1px solid #000; width: 44%; padding: 6px;">Phân tích các phương án nhiễu & Lỗi sai của học sinh</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${(exam.readingExam?.questions || []).filter(function(q) { return q.type === 'mcq' || (q.options && q.options.length > 0); }).map(function(q) {
+              var dr = q.distractorRationale || {};
+              var correctText = dr.correct || q.explain || `Phương án ${q.ans} là chính xác.`;
+              var distText = [];
+              ['A', 'B', 'C', 'D'].forEach(function(opt) {
+                if (opt !== q.ans) {
+                  var reason = dr['distractor' + opt] || dr[opt];
+                  if (reason) {
+                    distText.push(`<b>Lựa chọn ${opt}:</b> ${reason}`);
+                  }
+                }
+              });
+              if (distText.length === 0) {
+                distText.push(`<b>Các lựa chọn còn lại:</b> Học sinh chọn nhầm do đọc lướt chi tiết hoặc nhầm khái niệm ngữ pháp.`);
+              }
+              return `
+                <tr>
+                  <td style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; vertical-align: top;">Câu ${q.num}</td>
+                  <td style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; color: #b91c1c; font-size: 13pt; vertical-align: top;">${q.ans}</td>
+                  <td style="border: 1px solid #000; padding: 8px; vertical-align: top; color: #15803d; line-height: 1.45;">${correctText}</td>
+                  <td style="border: 1px solid #000; padding: 8px; vertical-align: top; color: #334155; line-height: 1.45;">${distText.join('<br>')}</td>
+                </tr>
+              `;
+            }).join('')}
+          </tbody>
+        </table>
+
+        <!-- PHẦN 3: HƯỚNG DẪN MÃ HÓA CHI TIẾT (CODING GUIDE) THEO CHUẨN SEA-PLM -->
+        <div style="font-weight: bold; font-size: 13.5pt; margin-bottom: 8px; color: #0369a1; display: flex; align-items: center; gap: 0.4rem;">
+          <i class="fa-solid fa-list-check"></i> 3. HƯỚNG DẪN MÃ HÓA CHI TIẾT (CODING GUIDE) CHO CÂU TỰ LUẬN & TẬP LÀM VĂN
+        </div>
+
+        <!-- Câu tự luận đọc hiểu -->
+        ${(exam.readingExam?.questions || []).filter(function(q) { return q.type === 'constructed' || q.codingGuide; }).map(function(q) {
+          var cg = q.codingGuide || {
+            maxCode: "Mã 2",
+            codes: [
+              { code: "Mã 2", description: "Mức tối đa: Trả lời chính xác, trọn vẹn ý và câu văn gãy gọn.", sampleResponse: q.explain || "Học sinh trả lời đầy đủ ý." },
+              { code: "Mã 1", description: "Mức chưa tối đa: Trả lời đúng ý chính nhưng diễn đạt chưa trọn vẹn hoặc còn lỗi ngữ pháp.", sampleResponse: "Học sinh trả lời được một phần ý." },
+              { code: "Mã 0", description: "Mức không đạt: Trả lời sai hoàn toàn hoặc không liên quan.", sampleResponse: "Trả lời lạc đề hoặc vô nghĩa." },
+              { code: "Mã 9", description: "Bỏ trống không làm bài.", sampleResponse: "[Học sinh để giấy trắng]" }
+            ]
+          };
+          return `
+            <div style="margin-bottom: 16px;">
+              <div style="font-weight: bold; color: #1e3a8a; margin-bottom: 6px; font-size: 12.5pt;">
+                Câu ${q.num} (Tự luận Đọc hiểu): ${q.text}
+              </div>
+              <table style="width: 100%; border-collapse: collapse; font-size: 11.5pt;">
+                <thead>
+                  <tr style="background: #f8fafc; font-weight: bold;">
+                    <th style="border: 1px solid #000; width: 12%; padding: 6px; text-align: center;">Mã hóa</th>
+                    <th style="border: 1px solid #000; width: 48%; padding: 6px; text-align: center;">Tiêu chí đánh giá</th>
+                    <th style="border: 1px solid #000; width: 40%; padding: 6px; text-align: center;">Ví dụ bài làm mẫu của học sinh (Sample Response)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${(cg.codes || []).map(function(c) {
+                    var badgeColor = c.code === 'Mã 2' ? '#15803d' : c.code === 'Mã 1' ? '#0284c7' : c.code === 'Mã 0' ? '#b91c1c' : '#64748b';
+                    return `
+                      <tr>
+                        <td style="border: 1px solid #000; padding: 6px; text-align: center; vertical-align: top; font-weight: bold; color: ${badgeColor};">
+                          ${c.code}
+                        </td>
+                        <td style="border: 1px solid #000; padding: 6px; vertical-align: top;">${c.description}</td>
+                        <td style="border: 1px solid #000; padding: 6px; vertical-align: top; font-style: italic; color: #334155;">${c.sampleResponse || '-'}</td>
+                      </tr>
+                    `;
+                  }).join('')}
+                </tbody>
+              </table>
+            </div>
+          `;
+        }).join('')}
+
+        <!-- Phần Tập làm văn -->
+        ${(function() {
+          var wrItem = exam.writingExam?.paragraphWriting || exam.writingExam?.essay;
+          if (!wrItem) return '';
+          var cg = wrItem.codingGuide || {
+            maxCode: "Mã 2",
+            codes: [
+              { code: "Mã 2", description: "Mức tối đa: Bài viết đúng thể loại, đủ bố cục, diễn đạt sinh động, giàu cảm xúc, đúng chính tả ngữ pháp.", sampleResponse: "Học sinh viết thành văn mạch lạc, đúng yêu cầu đề bài." },
+              { code: "Mã 1", description: "Mức chưa tối đa: Bài viết đúng thể loại nhưng miêu tả/kể sơ sài hoặc mắc một số lỗi ngữ pháp, chính tả.", sampleResponse: "Học sinh viết được bài nhưng ý còn đơn giản, câu chưa mượt mà." },
+              { code: "Mã 0", description: "Mức không đạt: Lạc đề hoàn toàn hoặc chỉ viết được vài câu rời rạc.", sampleResponse: "Chỉ viết 1-2 câu không liên quan hoặc lạc sang chủ đề khác." },
+              { code: "Mã 9", description: "Bỏ trống không làm bài.", sampleResponse: "[Học sinh để giấy trắng]" }
+            ]
+          };
+          return `
+            <div style="margin-bottom: 16px;">
+              <div style="font-weight: bold; color: #1e3a8a; margin-bottom: 6px; font-size: 12.5pt;">
+                Phần Tập làm văn (${exam.grade <= 3 ? 'Viết đoạn văn' : 'Bài văn hoàn chỉnh'}): ${wrItem.prompt || 'Yêu cầu đề bài'}
+              </div>
+              <table style="width: 100%; border-collapse: collapse; font-size: 11.5pt;">
+                <thead>
+                  <tr style="background: #f8fafc; font-weight: bold;">
+                    <th style="border: 1px solid #000; width: 12%; padding: 6px; text-align: center;">Mã hóa</th>
+                    <th style="border: 1px solid #000; width: 48%; padding: 6px; text-align: center;">Tiêu chí đánh giá</th>
+                    <th style="border: 1px solid #000; width: 40%; padding: 6px; text-align: center;">Ví dụ bài làm mẫu của học sinh (Sample Response)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${(cg.codes || []).map(function(c) {
+                    var badgeColor = c.code === 'Mã 2' ? '#15803d' : c.code === 'Mã 1' ? '#0284c7' : c.code === 'Mã 0' ? '#b91c1c' : '#64748b';
+                    return `
+                      <tr>
+                        <td style="border: 1px solid #000; padding: 6px; text-align: center; vertical-align: top; font-weight: bold; color: ${badgeColor};">
+                          ${c.code}
+                        </td>
+                        <td style="border: 1px solid #000; padding: 6px; vertical-align: top;">${c.description}</td>
+                        <td style="border: 1px solid #000; padding: 6px; vertical-align: top; font-style: italic; color: #334155;">${c.sampleResponse || '-'}</td>
+                      </tr>
+                    `;
+                  }).join('')}
+                </tbody>
+              </table>
+            </div>
+          `;
+        })()}
+
+      </div>
     `;
     return;
   }
@@ -2013,8 +2429,9 @@ function renderExamOutput(exam, container) {
   var essayScoreStr = exam.essayTotalScore ? exam.essayTotalScore.toString().replace('.', ',') : "3,0";
   var m = exam.matrix || {};
   var s = m.summary || {};
+  var bookSeriesName = exam.bookSeries || (exam.seriesName || "Kết nối tri thức với cuộc sống");
 
-  if (!["exam", "matrix", "answers"].includes(currentExamActiveTab)) {
+  if (!["exam", "matrix", "answers", "seaplm"].includes(currentExamActiveTab)) {
     currentExamActiveTab = "exam";
   }
 
@@ -2022,8 +2439,8 @@ function renderExamOutput(exam, container) {
     <!-- THANH CÔNG CỤ ĐIỀU HƯỚNG VÀ XUẤT BẢN -->
     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.65rem; border-bottom: 1px solid var(--border-color); padding-bottom: 0.85rem;">
       
-      <!-- 3 TABS CHUYỂN ĐỔI -->
-      <div style="display: flex; gap: 0.35rem; background: #f1f5f9; padding: 0.25rem; border-radius: var(--radius-sm); align-items: center;">
+      <!-- 4 TABS CHUYỂN ĐỔI -->
+      <div style="display: flex; gap: 0.35rem; background: #f1f5f9; padding: 0.25rem; border-radius: var(--radius-sm); align-items: center; flex-wrap: wrap;">
         <button class="btn btn-sm ${currentExamActiveTab === 'exam' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'exam' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('exam')">
           <i class="fa-solid fa-file-lines"></i> 1. Phiếu Đề Thi
         </button>
@@ -2032,6 +2449,9 @@ function renderExamOutput(exam, container) {
         </button>
         <button class="btn btn-sm ${currentExamActiveTab === 'answers' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'answers' ? 'background: #7c3aed;' : ''}" onclick="switchExamTab('answers')">
           <i class="fa-solid fa-square-check"></i> 3. Hướng Dẫn Chấm
+        </button>
+        <button class="btn btn-sm ${currentExamActiveTab === 'seaplm' ? 'btn-primary' : 'btn-ghost'}" style="${currentExamActiveTab === 'seaplm' ? 'background: #0284c7;' : ''}" onclick="switchExamTab('seaplm')">
+          <i class="fa-solid fa-graduation-cap"></i> 4. Đặc Tả & Mã Hóa SEA-PLM
         </button>
       </div>
 
@@ -2048,7 +2468,7 @@ function renderExamOutput(exam, container) {
     </div>
 
     <!-- NỘI DUNG TAB 1: PHIẾU ĐỀ THI HỌC SINH -->
-    <div id="examTabContent_exam" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'exam' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+    <div id="examTabContent_exam" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'exam' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
       
       <!-- HEADER 2 CỘT -->
       <table style="width: 100%; border: none; margin-bottom: 12px;">
@@ -2084,9 +2504,14 @@ function renderExamOutput(exam, container) {
 
       <!-- PHẦN I: TRẮC NGHIỆM -->
       <div style="font-weight: bold; font-size: 13.5pt; margin: 12px 0 4px 0;">I. PHẦN TRẮC NGHIỆM (${mcqScoreStr} điểm)</div>
-      <p style="margin: 0 0 10px 0; font-style: italic;">Khoanh vào chữ cái đặt trước câu trả lời đúng:</p>
+      <p style="margin: 0 0 10px 0; font-style: italic;">
+        ${(exam.hasDiverseQuestions || (exam.multipleChoice || []).some(function(q){ return q.type && q.type !== 'mcq'; })) ? 'Khoanh vào chữ cái trước câu trả lời đúng hoặc thực hiện theo yêu cầu của từng câu hỏi:' : 'Khoanh vào chữ cái đặt trước câu trả lời đúng:'}
+      </p>
 
       ${(exam.multipleChoice || []).map(function(q) {
+        if (typeof AIService !== 'undefined' && AIService.renderQuestionItem) {
+          return AIService.renderQuestionItem(q, false);
+        }
         return `
           <div style="margin-bottom: 10px;" contenteditable="true">
             <b>Câu ${q.num}</b> (${q.score ? q.score.toString().replace('.', ',') : '0,5'} điểm - ${q.level || 'Mức 1'}): ${q.text}
@@ -2117,16 +2542,19 @@ function renderExamOutput(exam, container) {
       ` : ''}
     </div>
 
-    <!-- NỘI DUNG TAB 2: MA TRẬN ĐỀ THI THÔNG TƯ 27 -->
+    <!-- NỘI DUNG TAB 2: MA TRẬN ĐỀ THI THÔNG TƯ 27 (3 TẦNG DÒNG: SỐ CÂU - CÂU SỐ - SỐ ĐIỂM) -->
     <div id="examTabContent_matrix" style="display: ${currentExamActiveTab === 'matrix' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 12pt; line-height: 1.35; color: #000;">
       
       <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
-        MA TRẬN ĐỀ THI HỌC KÌ I MÔN ${exam.subjectName.toUpperCase()} LỚP ${exam.grade} - KẾT NỐI TRI THỨC
+        MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN ${exam.subjectName.toUpperCase()} LỚP ${exam.grade}
       </div>
       <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
-        NĂM HỌC ${exam.schoolYear}
+        Bộ sách: ${bookSeriesName.toUpperCase()} • Năm học ${exam.schoolYear}
       </div>
 
+      ${(exam.threeTierMatrix && typeof AIService !== 'undefined' && AIService.renderThreeTierMatrixTable) ? `
+        ${AIService.renderThreeTierMatrixTable(exam.threeTierMatrix, { isWord: false, schoolYear: exam.schoolYear, grade: exam.grade, subjectName: exam.subjectName })}
+      ` : `
       <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; text-align: center;">
         <thead>
           <tr style="background: #f1f5f9; font-weight: bold;">
@@ -2199,20 +2627,24 @@ function renderExamOutput(exam, container) {
           </tr>
         </tbody>
       </table>
+      `}
     </div>
 
     <!-- NỘI DUNG TAB 3: HƯỚNG DẪN CHẤM & ĐÁP ÁN -->
-    <div id="examTabContent_answers" style="display: ${currentExamActiveTab === 'answers' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000;">
+    <div id="examTabContent_answers" style="display: ${currentExamActiveTab === 'answers' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
       
       <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
         HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN MÔN ${exam.subjectName.toUpperCase()} LỚP ${exam.grade}
       </div>
       <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
-        Bộ sách: Kết nối tri thức với cuộc sống • Năm học ${exam.schoolYear}
+        Bộ sách: ${bookSeriesName} • Năm học ${exam.schoolYear}
       </div>
 
+      ${(typeof AIService !== 'undefined' && AIService.renderAnswersSection) ? `
+        ${AIService.renderAnswersSection(exam, false)}
+      ` : `
       <div style="font-weight: bold; font-size: 13.5pt; margin: 12px 0 6px 0;">I. PHẦN TRẮC NGHIỆM (${mcqScoreStr} điểm)</div>
-      <p style="margin: 0 0 8px 0; font-style: italic;">Mỗi câu trả lời đúng được ${exam.multipleChoice?.[0]?.score ? exam.multipleChoice[0].score.toString().replace('.', ',') : '0,5'} điểm.</p>
+      <p style="margin: 0 0 8px 0; font-style: italic;">${(typeof AIService !== 'undefined' && AIService.getMcqScoringGuide) ? AIService.getMcqScoringGuide(exam.multipleChoice) : 'Mỗi câu trả lời đúng được 0,5 điểm.'}</p>
 
       <table style="width: 100%; border-collapse: collapse; margin-bottom: 18px; text-align: center;">
         <tr style="background: #f1f5f9; font-weight: bold;">
@@ -2260,6 +2692,194 @@ function renderExamOutput(exam, container) {
           </tbody>
         </table>
       ` : ''}
+      `}
+
+    </div>
+
+    <!-- NỘI DUNG TAB 4: ĐẶC TẢ SIÊU DỮ LIỆU & MÃ HÓA CHUẨN ĐÔNG NAM Á (SEA-PLM) -->
+    <div id="examTabContent_seaplm" style="display: ${currentExamActiveTab === 'seaplm' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
+      
+      <!-- BANNER SEA-PLM -->
+      <div style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: #fff; padding: 1rem 1.25rem; border-radius: 6px; margin-bottom: 1.25rem; box-shadow: 0 4px 12px rgba(2,132,199,0.15);">
+        <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem;">
+          <div>
+            <div style="font-size: 0.82rem; letter-spacing: 0.05em; text-transform: uppercase; color: #bae6fd; font-weight: 700;">
+              <i class="fa-solid fa-earth-asia"></i> KHUNG ĐÁNH GIÁ NĂNG LỰC HỌC SINH TIỂU HỌC KHU VỰC ĐÔNG NAM Á (SEA-PLM)
+            </div>
+            <h3 style="margin: 0.25rem 0 0 0; font-size: 1.2rem; font-weight: 800; color: #ffffff;">
+              BẢNG ĐẶC TẢ SIÊU DỮ LIỆU CÂU HỎI & HƯỚNG DẪN MÃ HÓA (CODING GUIDE)
+            </h3>
+          </div>
+          <div style="background: rgba(255,255,255,0.18); padding: 0.4rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 700; border: 1px solid rgba(255,255,255,0.3);">
+            <i class="fa-solid fa-certificate" style="color: #fef08a;"></i> Chuẩn Bộ Giáo dục và Đào tạo
+          </div>
+        </div>
+        <p style="margin: 0.6rem 0 0 0; font-size: 0.85rem; color: #f0f9ff; line-height: 1.4;">
+          Đề kiểm tra tuân thủ nghiêm ngặt <b>6 Nguyên tắc Biên soạn SEA-PLM</b>: Đặt trong 4 bối cảnh chân thực (Cá nhân, Xung quanh, Rộng hơn, Môn học); Trọng tâm đo lường đơn nhất; Trắc nghiệm 4 lựa chọn phản ánh lỗi tư duy học sinh (Misconceptions); Tự luận có hướng dẫn mã hóa chuẩn (Mã 2, Mã 1, Mã 0, Mã 9) kèm bài làm mẫu thực tế.
+        </p>
+      </div>
+
+      <!-- PHẦN 1: BẢNG MÔ TẢ SIÊU DỮ LIỆU CÂU HỎI (ITEM METADATA TABLE) -->
+      <div style="font-weight: bold; font-size: 13.5pt; margin-bottom: 8px; color: #0369a1; display: flex; align-items: center; gap: 0.4rem;">
+        <i class="fa-solid fa-table-list"></i> 1. BẢNG MÔ TẢ SIÊU DỮ LIỆU CÂU HỎI (ITEM METADATA TABLE)
+      </div>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 22px; font-size: 11pt;">
+        <thead>
+          <tr style="background: #e0f2fe; font-weight: bold; text-align: center; color: #0369a1;">
+            <th style="border: 1px solid #000; width: 14%; padding: 6px;">Mã câu</th>
+            <th style="border: 1px solid #000; width: 8%; padding: 6px;">Thứ tự</th>
+            <th style="border: 1px solid #000; width: 18%; padding: 6px;">Bối cảnh (Context)</th>
+            <th style="border: 1px solid #000; width: 18%; padding: 6px;">Miền nội dung</th>
+            <th style="border: 1px solid #000; width: 18%; padding: 6px;">Quá trình nhận thức</th>
+            <th style="border: 1px solid #000; width: 10%; padding: 6px;">Độ khó</th>
+            <th style="border: 1px solid #000; width: 8%; padding: 6px;">Điểm</th>
+            <th style="border: 1px solid #000; width: 6%; padding: 6px;">Mã tối đa</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${(function() {
+            var metaList = exam.seaplmMetadataTable ? JSON.parse(JSON.stringify(exam.seaplmMetadataTable)) : [];
+            if (!metaList || metaList.length === 0) {
+              var order = 1;
+              (exam.multipleChoice || []).forEach(function(q) {
+                var ctx = q.metadata?.context || "Bối cảnh môn học (Academic)";
+                var dom = q.metadata?.contentDomain || "Kiến thức trọng tâm";
+                var cog = q.metadata?.cognitiveProcess || (q.level === 'Mức 1' ? 'Biết (Knowing)' : q.level === 'Mức 2' ? 'Áp dụng (Applying)' : 'Suy luận (Reasoning)');
+                metaList.push({
+                  itemCode: q.itemCode || `${(exam.subjectName || 'MON').substring(0,3).toUpperCase()}${exam.grade}_MCQ_${String(q.num).padStart(2, '0')}`,
+                  order: order++,
+                  context: ctx,
+                  contentDomain: dom,
+                  cognitiveProcess: cog,
+                  difficulty: q.metadata?.difficulty || (q.level === 'Mức 1' ? 'Dễ' : q.level === 'Mức 2' ? 'Trung bình' : 'Khó'),
+                  itemType: "Trắc nghiệm (MCQ)",
+                  score: q.score || 0.5,
+                  maxCode: "Mã 1"
+                });
+              });
+              (exam.essaySection || []).forEach(function(e) {
+                metaList.push({
+                  itemCode: e.itemCode || `${(exam.subjectName || 'MON').substring(0,3).toUpperCase()}${exam.grade}_CR_${String(e.num).padStart(2, '0')}`,
+                  order: order++,
+                  context: e.metadata?.context || "Môi trường xung quanh (Local community)",
+                  contentDomain: e.metadata?.contentDomain || "Vận dụng thực hành",
+                  cognitiveProcess: e.metadata?.cognitiveProcess || "Áp dụng / Suy luận",
+                  difficulty: e.metadata?.difficulty || "Trung bình - Khó",
+                  itemType: "Tự luận (Constructed Response)",
+                  score: e.score || 1.0,
+                  maxCode: (e.score && e.score >= 2) ? "Mã 2" : "Mã 1"
+                });
+              });
+            }
+            return metaList.map(function(item) {
+              return `
+                <tr>
+                  <td style="border: 1px solid #000; padding: 6px; font-weight: bold; text-align: center; color: #0369a1;">${item.itemCode || '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: center;">Câu ${item.order || '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px;">${item.context || '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px;">${item.contentDomain || '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px;">${item.cognitiveProcess || '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: center;">${item.difficulty || '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold;">${item.score ? item.score.toString().replace('.', ',') : '-'}</td>
+                  <td style="border: 1px solid #000; padding: 6px; text-align: center; font-weight: bold; color: #16a34a;">${item.maxCode || 'Mã 1'}</td>
+                </tr>
+              `;
+            }).join('');
+          })()}
+        </tbody>
+      </table>
+
+      <!-- PHẦN 2: PHÂN TÍCH CƠ SỞ PHƯƠNG ÁN ĐÚNG & PHƯƠNG ÁN NHIỄU -->
+      <div style="font-weight: bold; font-size: 13.5pt; margin-bottom: 8px; color: #0369a1; display: flex; align-items: center; gap: 0.4rem;">
+        <i class="fa-solid fa-brain"></i> 2. PHÂN TÍCH CƠ SỞ PHƯƠNG ÁN ĐÚNG & PHƯƠNG ÁN NHIỄU (DISTRACTOR RATIONALE)
+      </div>
+      <p style="margin: 0 0 10px 0; font-size: 11pt; color: #475569; font-style: italic;">
+        Phân tích cơ sở khoa học của phương án đúng và các lỗi tư duy/nhầm lẫn thường gặp (misconceptions) khiến học sinh chọn nhầm các phương án còn lại:
+      </p>
+      <table style="width: 100%; border-collapse: collapse; margin-bottom: 22px; font-size: 11.5pt;">
+        <thead>
+          <tr style="background: #e0f2fe; font-weight: bold; text-align: center; color: #0369a1;">
+            <th style="border: 1px solid #000; width: 10%; padding: 6px;">Câu</th>
+            <th style="border: 1px solid #000; width: 8%; padding: 6px;">Đáp án</th>
+            <th style="border: 1px solid #000; width: 38%; padding: 6px;">Cơ sở phương án đúng</th>
+            <th style="border: 1px solid #000; width: 44%; padding: 6px;">Phân tích các phương án nhiễu & Lỗi sai của học sinh</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${(exam.multipleChoice || []).map(function(q) {
+            var dr = q.distractorRationale || {};
+            var correctText = dr.correct || q.explain || `Phương án ${q.ans} là chính xác.`;
+            var distText = [];
+            ['A', 'B', 'C', 'D'].forEach(function(opt) {
+              if (opt !== q.ans) {
+                var reason = dr['distractor' + opt] || dr[opt];
+                if (reason) {
+                  distText.push(`<b>Lựa chọn ${opt}:</b> ${reason}`);
+                }
+              }
+            });
+            if (distText.length === 0) {
+              distText.push(`<b>Các lựa chọn còn lại:</b> Học sinh chọn nhầm do tính toán sai hoặc hiểu nhầm bản chất câu hỏi.`);
+            }
+            return `
+              <tr>
+                <td style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; vertical-align: top;">Câu ${q.num}</td>
+                <td style="border: 1px solid #000; padding: 8px; text-align: center; font-weight: bold; color: #b91c1c; font-size: 13pt; vertical-align: top;">${q.ans}</td>
+                <td style="border: 1px solid #000; padding: 8px; vertical-align: top; color: #15803d; line-height: 1.45;">${correctText}</td>
+                <td style="border: 1px solid #000; padding: 8px; vertical-align: top; color: #334155; line-height: 1.45;">${distText.join('<br>')}</td>
+              </tr>
+            `;
+          }).join('')}
+        </tbody>
+      </table>
+
+      <!-- PHẦN 3: HƯỚNG DẪN MÃ HÓA CHI TIẾT (CODING GUIDE) CHO CÂU TỰ LUẬN -->
+      ${(exam.essaySection && exam.essaySection.length > 0) ? `
+        <div style="font-weight: bold; font-size: 13.5pt; margin-bottom: 8px; color: #0369a1; display: flex; align-items: center; gap: 0.4rem;">
+          <i class="fa-solid fa-list-check"></i> 3. HƯỚNG DẪN MÃ HÓA CHI TIẾT (CODING GUIDE) CHO CÂU TỰ LUẬN
+        </div>
+        ${exam.essaySection.map(function(e) {
+          var cg = e.codingGuide || {
+            maxCode: "Mã 2",
+            codes: [
+              { code: "Mã 2", description: "Mức tối đa: Thực hiện đầy đủ các bước, lập luận đúng và cho kết quả chính xác.", sampleResponse: e.solution || "Học sinh hoàn thành đúng toàn bộ bài giải." },
+              { code: "Mã 1", description: "Mức chưa tối đa: Thực hiện đúng bước đầu hoặc tính toán đúng nhưng sai đơn vị / đáp số.", sampleResponse: "Học sinh làm đúng 1 phần bài làm." },
+              { code: "Mã 0", description: "Mức không đạt: Tính toán sai toàn bộ hoặc giải lạc đề.", sampleResponse: "Không đưa ra được kết quả hoặc câu trả lời vô nghĩa." },
+              { code: "Mã 9", description: "Bỏ trống không làm bài.", sampleResponse: "[Học sinh để giấy trắng]" }
+            ]
+          };
+          return `
+            <div style="margin-bottom: 16px;">
+              <div style="font-weight: bold; color: #1e3a8a; margin-bottom: 6px; font-size: 12.5pt;">
+                ${e.title || `Câu ${e.num}`}: ${e.text}
+              </div>
+              <table style="width: 100%; border-collapse: collapse; font-size: 11.5pt;">
+                <thead>
+                  <tr style="background: #f8fafc; font-weight: bold;">
+                    <th style="border: 1px solid #000; width: 12%; padding: 6px; text-align: center;">Mã hóa</th>
+                    <th style="border: 1px solid #000; width: 48%; padding: 6px; text-align: center;">Tiêu chí đánh giá</th>
+                    <th style="border: 1px solid #000; width: 40%; padding: 6px; text-align: center;">Ví dụ bài làm mẫu của học sinh (Sample Response)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${(cg.codes || []).map(function(c) {
+                    var badgeColor = c.code === 'Mã 2' ? '#15803d' : c.code === 'Mã 1' ? '#0284c7' : c.code === 'Mã 0' ? '#b91c1c' : '#64748b';
+                    return `
+                      <tr>
+                        <td style="border: 1px solid #000; padding: 6px; text-align: center; vertical-align: top; font-weight: bold; color: ${badgeColor};">
+                          ${c.code}
+                        </td>
+                        <td style="border: 1px solid #000; padding: 6px; vertical-align: top;">${c.description}</td>
+                        <td style="border: 1px solid #000; padding: 6px; vertical-align: top; font-style: italic; color: #334155;">${c.sampleResponse || '-'}</td>
+                      </tr>
+                    `;
+                  }).join('')}
+                </tbody>
+              </table>
+            </div>
+          `;
+        }).join('')}
+      ` : ''}
 
     </div>
   `;
@@ -2274,6 +2894,7 @@ function switchExamTab(tabName) {
   var elReading = document.getElementById("examTabContent_reading");
   var elWriting = document.getElementById("examTabContent_writing");
   var elRubric = document.getElementById("examTabContent_rubric");
+  var elSeaplm = document.getElementById("examTabContent_seaplm");
 
   if (elExam) elExam.style.display = (tabName === "exam" ? "block" : "none");
   if (elMatrix) elMatrix.style.display = (tabName === "matrix" ? "block" : "none");
@@ -2281,6 +2902,7 @@ function switchExamTab(tabName) {
   if (elReading) elReading.style.display = (tabName === "reading" ? "block" : "none");
   if (elWriting) elWriting.style.display = (tabName === "writing" ? "block" : "none");
   if (elRubric) elRubric.style.display = (tabName === "rubric" ? "block" : "none");
+  if (elSeaplm) elSeaplm.style.display = (tabName === "seaplm" ? "block" : "none");
 
   var container = document.getElementById("aiOutputContainer");
   if (container && currentExamData) {
@@ -6608,7 +7230,7 @@ function renderIntegrationPlanReviewHtml(plan) {
       <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
         <!-- BỘ 3 NÚT CHUYỂN CHẾ ĐỘ XEM TRANG WORD / BẢNG -->
         <div style="display: inline-flex; border: 1px solid #cbd5e1; border-radius: var(--radius-sm); overflow: hidden; background: #f8fafc; padding: 2px; gap: 2px;">
-          <button class="btn btn-sm" style="font-size: 0.78rem; font-weight: 700; border: none; padding: 0.35rem 0.75rem; border-radius: 4px; ${viewMode === 'word_lesson' ? 'background: #1e40af; color: #ffffff; box-shadow: 0 2px 6px rgba(30,64,175,0.25);' : 'background: transparent; color: #475569;'}" onclick="setStep2ViewMode('word_lesson')" title="Xem trực tiếp giáo án trên trang Word (A4) với chữ màu tím">
+          <button class="btn btn-sm" style="font-size: 0.78rem; font-weight: 700; border: none; padding: 0.35rem 0.75rem; border-radius: 4px; ${viewMode === 'word_lesson' ? 'background: #1e40af; color: #ffffff; box-shadow: 0 2px 6px rgba(30,64,175,0.25);' : 'background: transparent; color: #475569;'}" onclick="setStep2ViewMode('word_lesson')" title="Xem trực tiếp giáo án trên trang Word (A4) với chữ màu đỏ">
             <i class="fa-solid fa-file-word"></i> Trang Word Giáo Án
           </button>
           <button class="btn btn-sm" style="font-size: 0.78rem; font-weight: 700; border: none; padding: 0.35rem 0.75rem; border-radius: 4px; ${viewMode === 'word_plan' ? 'background: #1e40af; color: #ffffff; box-shadow: 0 2px 6px rgba(30,64,175,0.25);' : 'background: transparent; color: #475569;'}" onclick="setStep2ViewMode('word_plan')" title="Xem trang Word văn bản Kế hoạch tích hợp để trình ký">
@@ -6736,7 +7358,7 @@ function renderIntegrationPlanReviewHtml(plan) {
       <div style="display: flex; justify-content: space-between; align-items: center; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 0.55rem 0.85rem; margin-bottom: 0.85rem; flex-wrap: wrap; gap: 0.5rem;">
         <div style="font-size: 0.8rem; color: #166534; display: flex; align-items: center; gap: 0.4rem;">
           <i class="fa-solid fa-file-circle-check" style="font-size: 1rem; color: #16a34a;"></i>
-          <span>Trang Word: <strong>${curLesson.lessonTitle || curLesson.title || 'Bài dạy'}</strong> (Nội dung mới hiển thị <strong style="color: #7030a0;">chữ màu tím</strong>).</span>
+          <span>Trang Word: <strong>${curLesson.lessonTitle || curLesson.title || 'Bài dạy'}</strong> (Nội dung tích hợp mới hiển thị <strong style="color: #c00000;">chữ màu đỏ</strong>).</span>
         </div>
         <div style="display: flex; gap: 0.4rem; align-items: center;">
           <button class="btn btn-sm btn-outline" style="font-size: 0.76rem; background: #fff;" onclick="printIntegratedLessonSheet()" title="In bài dạy đang xem ra giấy">
@@ -6803,7 +7425,7 @@ function renderIntegrationPlanReviewHtml(plan) {
     }
 
     var sheetHtml = `
-      <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 700px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #0f172a;">
+      <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 700px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #0f172a; text-align: justify; text-justify: inter-ideograph;">
         ${renderIntegratedLessonSheetContent(curLesson)}
       </div>
     `;
@@ -6857,7 +7479,7 @@ function renderIntegrationPlanReviewHtml(plan) {
           <h2 style="font-size: 14pt; font-weight: bold; text-transform: uppercase; margin: 0 0 6px 0;">
             KẾ HOẠCH TÍCH HỢP NỘI DUNG GIÁO DỤC
           </h2>
-          <div style="font-size: 13pt; font-weight: bold; color: #7030a0; text-transform: uppercase;">
+          <div style="font-size: 13pt; font-weight: bold; color: #c00000; text-transform: uppercase;">
             CHUYÊN ĐỀ: ${plan.docTitle || 'TÀI LIỆU TÍCH HỢP MỚI'}
           </div>
           <div style="font-size: 12pt; font-style: italic; margin-top: 4px;">
@@ -6884,13 +7506,13 @@ function renderIntegrationPlanReviewHtml(plan) {
                   <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">${idx + 1}</td>
                   <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">Tuần ${s.week}</td>
                   <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">${s.period || '—'}</td>
-                  <td style="border: 1pt solid #000; padding: 6pt 6pt; font-weight: bold;">${s.title}</td>
-                  <td style="border: 1pt solid #000; padding: 6pt 6pt;">${s.targetPart || 'Hoạt động Vận dụng'}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 6pt; font-weight: bold; text-align: justify; text-justify: inter-ideograph;">${s.title}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 6pt; text-align: justify; text-justify: inter-ideograph;">${s.targetPart || 'Hoạt động Vận dụng'}</td>
                   <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">${s.level || 'Liên hệ'}</td>
-                  <td style="border: 1pt solid #000; padding: 6pt 6pt;">
+                  <td style="border: 1pt solid #000; padding: 6pt 6pt; text-align: justify; text-justify: inter-ideograph;">
                     ${s.integrationBrief || ''}
-                    ${s.yccdAddition ? ('<br><span style="color: #7030a0; font-weight: bold;">* YCCĐ mới:</span> <span style="color: #7030a0;">' + s.yccdAddition + '</span>') : ''}
-                    ${(s.activityAddition && s.activityAddition.teacherAct) ? ('<br><span style="color: #7030a0; font-weight: bold;">* Hoạt động:</span> <span style="color: #7030a0;">' + s.activityAddition.teacherAct + '</span>') : ''}
+                    ${s.yccdAddition ? ('<br><span style="color: #c00000; font-weight: bold;">* YCCĐ mới:</span> <span style="color: #c00000;">' + s.yccdAddition + '</span>') : ''}
+                    ${(s.activityAddition && s.activityAddition.teacherAct) ? ('<br><span style="color: #c00000; font-weight: bold;">* Hoạt động:</span> <span style="color: #c00000;">' + s.activityAddition.teacherAct + '</span>') : ''}
                   </td>
                 </tr>
               `;
@@ -7664,6 +8286,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var dateStr = lessonDateInfo ? lessonDateInfo.formatted : '';
   var durationWithDate = dateStr ? (durationDefault + ' (ngày ' + dateStr + ')') : durationDefault;
 
+  var inTichHopSection = false;
   var yccdHtml = (les.yccd || []).map(function(line) {
     if (typeof line !== 'string') return '';
     var cleanLine = line;
@@ -7682,7 +8305,17 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     if (isDieuChinhHeader && !isKhuyetTat) {
       return '';
     }
-    var isTichHop = cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+
+    var isTichHopHeaderGroup = /^4\.\s*tích\s*hợp/i.test(cleanLine.trim());
+    var isOtherHeaderGroup = /^[12356789]\.\s*/i.test(cleanLine.trim()) || /^[IVXLCDM]+\.\s*/i.test(cleanLine.trim());
+    if (isTichHopHeaderGroup) {
+      inTichHopSection = true;
+      return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify; text-justify: inter-ideograph;"><span style="color: #c00000; font-weight: bold;">${cleanLine}</span></p>`;
+    } else if (isOtherHeaderGroup) {
+      inTichHopSection = false;
+    }
+
+    var isTichHop = inTichHopSection || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(cleanLine);
     if (isKhuyetTat) {
       var displayLine = cleanLine
         .replace(/<!--.*?-->/g, '')
@@ -7697,7 +8330,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #7030a0; line-height: 1.35;">5. Điều chỉnh đối với học sinh hòa nhập:</p><p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #7030a0; font-weight: 700; line-height: 1.35;">${displayLine}</p>`;
+      return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify; text-justify: inter-ideograph;">5. Điều chỉnh đối với học sinh hòa nhập:</p><p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #c00000; font-weight: 700; line-height: 1.35; text-align: justify; text-justify: inter-ideograph;"><span style="color: #c00000;">${displayLine}</span></p>`;
     }
     if (isTichHop) {
       var displayLine = cleanLine
@@ -7712,15 +8345,15 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #7030a0; font-weight: 500; line-height: 1.25;">${displayLine}</p>`;
+      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #c00000; font-weight: 500; line-height: 1.25; text-align: justify; text-justify: inter-ideograph;"><span style="color: #c00000;">${displayLine}</span></p>`;
     }
-    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25;">${cleanLine}</p>`;
+    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; text-justify: inter-ideograph;">${cleanLine}</p>`;
   }).join('');
 
   var dodungList = les.dodung || les.teachingAids || [];
   var dodungHtml = dodungList.map(function(line) {
     if (typeof line !== 'string') return '';
-    var isTichHop = line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+    var isTichHop = line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(line);
     if (isTichHop) {
       var displayLine = line
         .replace(/<!--.*?-->/g, '')
@@ -7734,9 +8367,9 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #7030a0; font-weight: 500; line-height: 1.25;">${displayLine}</p>`;
+      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #c00000; font-weight: 500; line-height: 1.25; text-align: justify; text-justify: inter-ideograph;"><span style="color: #c00000;">${displayLine}</span></p>`;
     }
-    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25;">${line}</p>`;
+    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; text-justify: inter-ideograph;">${line}</p>`;
   }).join('');
 
   var isHeaderRow = function(r) {
@@ -7762,39 +8395,44 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
         if (has4Cols) {
           if (r.length >= 4) {
-            var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+            var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test((r[0]||'') + ' ' + (r[2]||'') + ' ' + (r[3]||''));
             var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
             var c1 = (r[1] || '').trim().replace(/\n/g, '<br/>');
             var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
             var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
-            var cellStyle = isTichHop ? 'color: #7030a0; font-weight: 500;' : '';
+            var cellStyle = isTichHop ? 'color: #c00000; font-weight: 500;' : '';
 
             rowsHtml += `
               <tr>
-                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0;">${c0}</div>
+                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${c0}</div>
                 </td>
                 <td style="width: 15%; vertical-align: top; text-align: center; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0;">${c1}</div>
+                  <div style="line-height: 1.25; margin: 0; text-align: center;">${c1}</div>
                 </td>
-                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0;">${c2}</div>
+                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${c2}</div>
                 </td>
-                <td style="width: 25%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0;">${c3}</div>
+                <td style="width: 25%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${c3}</div>
                 </td>
               </tr>
             `;
           } else if (r.length === 1) {
             var rawHeader = r[0] || '';
             var cleanHeader = rawHeader.replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').trim();
-            rowsHtml += `<tr><td colspan="4" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
+            var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
+            var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
+            var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
+            var cellHeaderColorStyle = isPureIntegration ? 'color: #c00000;' : '';
+            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
+            rowsHtml += `<tr><td colspan="4" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           } else if (r.length === 2) {
             rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${(r[0]||'').replace(/\n/g, '<br/>')}</div></td><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${(r[1]||'').replace(/\n/g, '<br/>')}</div></td></tr>`;
           }
         } else {
           if (r.length >= 2) {
-            var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+            var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test((r[0]||'') + ' ' + (r[1]||''));
             var gvText = (r[0] || '')
               .replace(/<!--.*?-->/g, '')
               .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
@@ -7816,23 +8454,20 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             var gvCol = gvText.replace(/\n/g, '<br/>');
             var hsCol = hsText.replace(/\n/g, '<br/>');
 
-            var cellStyle = isTichHop ? 'color: #7030a0; font-weight: 500;' : '';
+            var cellStyle = isTichHop ? 'color: #c00000; font-weight: 500;' : '';
 
             rowsHtml += `
               <tr>
-                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0;">${gvCol}</div>
+                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${gvCol}</div>
                 </td>
-                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0;">${hsCol}</div>
+                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${hsCol}</div>
                 </td>
               </tr>
             `;
           } else if (r.length === 1) {
             var rawHeader = r[0] || '';
-            var nextRow = tableRows[rIdx + 1];
-            var isNextRowTichHop = Array.isArray(nextRow) && nextRow.length >= 2 && ((nextRow[0] || '').indexOf('[Tích hợp') !== -1 || (nextRow[1] || '').indexOf('[Tích hợp') !== -1 || (nextRow[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (nextRow[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1);
-            var isTichHopHeader = isNextRowTichHop || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('(Tích hợp)') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1;
             var cleanHeader = rawHeader
               .replace(/<!--.*?-->/g, '')
               .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
@@ -7842,8 +8477,12 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
               .replace(/\(Tích hợp\)/gi, '')
               .replace(/\s{2,}/g, ' ')
               .trim();
-            var headerColorStyle = isTichHopHeader ? 'color: #7030a0;' : '';
-            rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; ${headerColorStyle}"><div style="line-height: 1.25; margin: 0;">${cleanHeader.replace(/\n/g, '<br/>')}</div></td></tr>`;
+            var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
+            var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
+            var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
+            var cellHeaderColorStyle = isPureIntegration ? 'color: #c00000;' : '';
+            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
+            rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           }
         }
       }
@@ -7987,24 +8626,24 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">I. YÊU CẦU CẦN ĐẠT:</div>
-    <div style="margin-left: 10pt;">
-      ${yccdHtml || '<p>Theo chuẩn chương trình môn học.</p>'}
+    <div style="margin-left: 10pt; text-align: justify; text-justify: inter-ideograph;">
+      ${yccdHtml || '<p style="text-align: justify; text-justify: inter-ideograph;">Theo chuẩn chương trình môn học.</p>'}
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">II. ĐỒ DÙNG DẠY HỌC:</div>
-    <div style="margin-left: 10pt;">
-      ${dodungHtml || '<p>1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>'}
+    <div style="margin-left: 10pt; text-align: justify; text-justify: inter-ideograph;">
+      ${dodungHtml || '<p style="text-align: justify; text-justify: inter-ideograph;">1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>'}
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:</div>
-    <div style="margin-left: 5pt;">
-      ${tablesHtml || '<p>Tiến trình hoạt động chuẩn theo KHBD số hóa.</p>'}
+    <div style="margin-left: 5pt; text-align: justify; text-justify: inter-ideograph;">
+      ${tablesHtml || '<p style="text-align: justify; text-justify: inter-ideograph;">Tiến trình hoạt động chuẩn theo KHBD số hóa.</p>'}
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):</div>
-    <div style="margin-left: 10pt;">
-      <p>.................................................................................................................................................</p>
-      <p>.................................................................................................................................................</p>
+    <div style="margin-left: 10pt; text-align: justify; text-justify: inter-ideograph;">
+      <p style="text-align: justify; text-justify: inter-ideograph;">.................................................................................................................................................</p>
+      <p style="text-align: justify; text-justify: inter-ideograph;">.................................................................................................................................................</p>
     </div>
     ${approvalPreviewHtml}
   `;

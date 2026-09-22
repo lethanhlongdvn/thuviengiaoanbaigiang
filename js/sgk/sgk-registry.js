@@ -1,14 +1,36 @@
 /**
- * SGK MASTER REGISTRY & RETRIEVAL SERVICE
+ * SGK MASTER REGISTRY & RETRIEVAL SERVICE (HỖ TRỢ ĐA BỘ SÁCH: KNTT & CTST)
  * Quản lý và cung cấp dữ liệu sách giáo khoa số hóa cho hệ thống Ra đề thi AI
+ * Chuẩn Chương trình GDPT 2018 & Thông tư 27/2020/TT-BGDĐT & Chuẩn SEA-PLM
  */
 
 (function(global) {
   'use strict';
 
-  const _books = {};
+  // Kho lưu trữ theo bộ sách: _seriesBooks[series][grade][subjectKey]
+  const _seriesBooks = {
+    kntt: {},
+    ctst: {}
+  };
+
+  // Kho legacy để tương thích ngược hoàn toàn với code cũ
+  const _legacyBooks = {};
+
+  let _activeSeries = 'kntt';
 
   const SGKRegistry = {
+    /**
+     * Chuẩn hóa mã bộ sách ('kntt' | 'ctst')
+     */
+    _normalizeSeries: function(series) {
+      if (!series) return _activeSeries || 'kntt';
+      const s = String(series).toLowerCase().trim().replace(/[-_]/g, '');
+      if (s.includes('ctst') || s.includes('chantroisangtao') || s.includes('chantroi')) {
+        return 'ctst';
+      }
+      return 'kntt';
+    },
+
     /**
      * Chuẩn hóa mã môn học
      */
@@ -20,50 +42,95 @@
     },
 
     /**
+     * Thiết lập bộ sách mặc định đang chọn trên giao diện
+     */
+    setActiveSeries: function(series) {
+      _activeSeries = this._normalizeSeries(series);
+      console.log(`[SGKRegistry] Đã chuyển bộ sách mặc định sang: ${_activeSeries.toUpperCase()}`);
+    },
+
+    /**
+     * Lấy bộ sách mặc định hiện tại
+     */
+    getActiveSeries: function() {
+      return _activeSeries;
+    },
+
+    /**
      * Đăng ký một cuốn sách giáo khoa vào kho
      * @param {number|string} grade Khối lớp (VD: 5)
      * @param {string} subjectId Mã môn (toan, tieng_viet, khoa_hoc, lich_su_dia_li, cong_nghe, tin_hoc, tieng_anh, tnxh)
      * @param {object} bookData Toàn bộ dữ liệu số hóa của sách
+     * @param {string} [bookSeries] Bộ sách ('kntt' hoặc 'ctst', mặc định tự phát hiện từ metadata)
      */
-    registerBook: function(grade, subjectId, bookData) {
+    registerBook: function(grade, subjectId, bookData, bookSeries) {
       const g = String(grade);
       const key = this._normalizeKey(subjectId);
-      if (!_books[g]) {
-        _books[g] = {};
+      const series = this._normalizeSeries(bookSeries || bookData.metadata?.bookSeries || (bookData.metadata?.bookName?.toLowerCase().includes('chân trời') ? 'ctst' : 'kntt'));
+
+      if (!_seriesBooks[series]) {
+        _seriesBooks[series] = {};
       }
-      _books[g][key] = bookData;
-      // Also alias original key if different
+      if (!_seriesBooks[series][g]) {
+        _seriesBooks[series][g] = {};
+      }
+      _seriesBooks[series][g][key] = bookData;
       if (subjectId !== key) {
-        _books[g][subjectId] = bookData;
+        _seriesBooks[series][g][subjectId] = bookData;
       }
-      console.log(`[SGKRegistry] Đã nạp dữ liệu SGK: Khối ${g} - Môn ${key} (${bookData.metadata?.bookName || ''})`);
+
+      // Giữ bản sao vào legacy books nếu là kntt hoặc chưa có môn này
+      if (!_legacyBooks[g]) _legacyBooks[g] = {};
+      if (series === 'kntt' || !_legacyBooks[g][key]) {
+        _legacyBooks[g][key] = bookData;
+        if (subjectId !== key) _legacyBooks[g][subjectId] = bookData;
+      }
+
+      console.log(`[SGKRegistry] Đã nạp dữ liệu SGK: [${series.toUpperCase()}] Khối ${g} - Môn ${key} (${bookData.metadata?.bookName || ''})`);
     },
 
     /**
      * Lấy dữ liệu cuốn sách đã đăng ký
+     * @param {number|string} grade Khối lớp
+     * @param {string} subjectId Mã môn
+     * @param {string} [bookSeries] Bộ sách ('kntt' hoặc 'ctst')
      */
-    getBook: function(grade, subjectId) {
+    getBook: function(grade, subjectId, bookSeries) {
       const g = String(grade);
-      if (!_books[g]) return null;
       const key = this._normalizeKey(subjectId);
-      return _books[g][key] || _books[g][subjectId] || null;
+      const series = this._normalizeSeries(bookSeries);
+
+      // Thử lấy đúng theo bộ sách yêu cầu
+      if (_seriesBooks[series] && _seriesBooks[series][g]) {
+        const book = _seriesBooks[series][g][key] || _seriesBooks[series][g][subjectId];
+        if (book) return book;
+      }
+
+      // Fallback sang legacy books nếu chưa có
+      if (_legacyBooks[g]) {
+        return _legacyBooks[g][key] || _legacyBooks[g][subjectId] || null;
+      }
+
+      return null;
     },
 
     /**
-     * Lấy danh sách các môn đã số hóa của một khối
+     * Lấy danh sách các môn đã số hóa của một khối theo bộ sách
      */
-    getRegisteredSubjects: function(grade) {
+    getRegisteredSubjects: function(grade, bookSeries) {
       const g = String(grade);
-      if (!_books[g]) return [];
+      const series = this._normalizeSeries(bookSeries);
+      const targetStore = (_seriesBooks[series] && _seriesBooks[series][g]) ? _seriesBooks[series][g] : (_legacyBooks[g] || {});
+      
       const seen = new Set();
       const result = [];
-      for (const subjKey of Object.keys(_books[g])) {
+      for (const subjKey of Object.keys(targetStore)) {
         const normKey = this._normalizeKey(subjKey);
         if (!seen.has(normKey)) {
           seen.add(normKey);
           result.push({
             subjectId: normKey,
-            metadata: _books[g][subjKey].metadata
+            metadata: targetStore[subjKey].metadata
           });
         }
       }
@@ -74,7 +141,8 @@
      * Lấy danh sách bài học / chủ đề theo điều kiện lọc
      */
     getLessons: function(grade, subjectId, options = {}) {
-      const book = this.getBook(grade, subjectId);
+      const series = options.bookSeries || options.series || _activeSeries;
+      const book = this.getBook(grade, subjectId, series);
       if (!book || !book.lessons) return [];
 
       let list = [...book.lessons];
@@ -103,12 +171,13 @@
      * Phân tích và truy xuất kiến thức trọng tâm cho phạm vi ra đề (Scope)
      * Dùng để truyền vào Prompt của AI hoặc offline fallback matrix
      */
-    getScopeContent: function(grade, subjectId, scopeQuery) {
-      const book = this.getBook(grade, subjectId);
+    getScopeContent: function(grade, subjectId, scopeQuery, bookSeries) {
+      const series = this._normalizeSeries(bookSeries);
+      const book = this.getBook(grade, subjectId, series);
       if (!book) {
         return {
           found: false,
-          summary: `Chưa có dữ liệu SGK số hóa cho Khối ${grade} môn ${subjectId}.`
+          summary: `Chưa có dữ liệu SGK số hóa cho Khối ${grade} môn ${subjectId} (${series.toUpperCase()}).`
         };
       }
 
@@ -152,9 +221,19 @@
       // Format knowledge digest for AI generator
       const lessonSummaries = matchedLessons.map(l => {
         let text = `- ${l.title} (Tuần ${l.week || 'N/A'}, ${l.topic || ''}): ${l.coreKnowledge || ''}`;
-        if (l.reading) text += ` | Đọc hiểu: "${l.reading.title}" (${l.reading.comprehensionFocus || ''})`;
-        if (l.languagePractice) text += ` | Luyện từ và câu: ${l.languagePractice.topic}`;
-        if (l.writing) text += ` | Tập làm văn: ${l.writing.topic}`;
+        if (l.reading) {
+          const rdTitle = typeof l.reading === 'string' ? l.reading : (l.reading.title || '');
+          const rdFocus = l.reading.comprehensionFocus || l.reading.summary || '';
+          text += ` | Đọc hiểu: "${rdTitle}" ${rdFocus ? `(${rdFocus})` : ''}`;
+        }
+        if (l.languagePractice) {
+          const lpTopic = typeof l.languagePractice === 'string' ? l.languagePractice : (l.languagePractice.topic || '');
+          text += ` | Luyện từ và câu: ${lpTopic}`;
+        }
+        if (l.writing) {
+          const wrTopic = typeof l.writing === 'string' ? l.writing : (l.writing.topic || '');
+          text += ` | Tập làm văn / Viết: ${wrTopic}`;
+        }
         if (l.vocabulary) text += ` | Từ vựng: ${l.vocabulary}`;
         if (l.sentencePatterns) text += ` | Mẫu câu: ${l.sentencePatterns}`;
         return text;
@@ -162,6 +241,7 @@
 
       return {
         found: true,
+        series: series,
         bookName: book.metadata?.bookName,
         totalMatchedLessons: matchedLessons.length,
         lessons: matchedLessons,
@@ -172,8 +252,8 @@
     /**
      * Lấy các câu hỏi mẫu đã số hóa
      */
-    getSampleQuestions: function(grade, subjectId, scopeQuery, level = null, type = null) {
-      const scopeData = this.getScopeContent(grade, subjectId, scopeQuery);
+    getSampleQuestions: function(grade, subjectId, scopeQuery, level = null, type = null, bookSeries = null) {
+      const scopeData = this.getScopeContent(grade, subjectId, scopeQuery, bookSeries);
       if (!scopeData.found) return [];
 
       let questions = [];
@@ -184,7 +264,8 @@
               ...q,
               lessonTitle: les.title,
               topic: les.topic,
-              week: les.week
+              week: les.week,
+              series: scopeData.series
             });
           });
         }
