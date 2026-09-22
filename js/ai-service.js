@@ -1955,8 +1955,8 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
 `;
     }
 
-    // Gọi Gemini API model mới nhất (Tự động chuyển đổi thông minh)
-    var models = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-flash-lite-latest", "gemini-3.5-flash", "gemini-2.0-flash", "gemini-2.5-pro"];
+    // Gọi Gemini API model mới nhất (Tự động chuyển đổi thông minh, ưu tiên thế hệ mới hạn mức cao)
+    var models = ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.6-flash", "gemini-2.5-flash", "gemini-flash-latest"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -2005,6 +2005,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
               parsed.mcqCount = parseInt(params.mcqCount) || 8;
               parsed.essayCount = parseInt(params.essayCount) || 2;
               parsed.bookSeries = params.bookSeries || parsed.bookSeries || 'ctst';
+              parsed.modelName = modelName;
               return parsed;
             }
           }
@@ -2032,7 +2033,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
    */
   callGeminiApi: async function(apiKey, prompt, options) {
     var opt = options || {};
-    var models = ["gemini-2.5-flash", "gemini-flash-latest", "gemini-flash-lite-latest", "gemini-3.5-flash", "gemini-3.1-flash-lite", "gemini-2.5-pro"];
+    var models = ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.6-flash", "gemini-2.5-flash", "gemini-flash-latest"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
