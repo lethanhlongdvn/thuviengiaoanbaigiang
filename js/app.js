@@ -1099,32 +1099,8 @@ function renderAiExamView(container) {
               </select>
             </div>
 
-            <div class="form-group" style="margin-bottom: 0;">
-              <div style="font-size: 0.78rem; font-weight: 700; color: #581c87; background: #faf5ff; border: 1px solid #e9d5ff; padding: 0.45rem 0.65rem; border-radius: 4px;">
-                <div style="display: flex; align-items: center; gap: 0.35rem; margin-bottom: 2px;">
-                  <i class="fa-solid fa-book-bookmark" style="color: #9333ea;"></i>
-                  <span>Ngữ liệu Đọc thành tiếng: <b>Ngoài SGK KNTT (Lấy trọn vẹn từ bộ CTST)</b></span>
-                </div>
-                <div style="font-size: 0.72rem; color: #7e22ce; font-weight: normal; line-height: 1.35;">
-                  Xuất trọn vẹn <b>5 bài đọc hoàn chỉnh & toàn bộ câu hỏi SGK</b> (in trên đúng 5 trang A4 riêng biệt để học sinh bốc thăm).
-                </div>
-              </div>
-              <input type="hidden" id="tvOralModeSelect" value="sgk">
-            </div>
-
-            <!-- NGỮ LIỆU ĐỌC HIỂU NGOÀI SÁCH KNTT -->
-            <div class="form-group" style="margin-top: 0.45rem; margin-bottom: 0;">
-              <div style="font-size: 0.78rem; font-weight: 700; color: #581c87; background: #fdf4ff; border: 1px solid #f0abfc; padding: 0.45rem 0.65rem; border-radius: 4px;">
-                <div style="display: flex; align-items: center; gap: 0.35rem; margin-bottom: 2px;">
-                  <i class="fa-solid fa-book-open-reader" style="color: #c026d3;"></i>
-                  <span>Ngữ liệu Đọc hiểu: <b>Ngoài SGK KNTT (Lấy tương đương từ bộ CTST)</b></span>
-                </div>
-                <div style="font-size: 0.72rem; color: #7e22ce; font-weight: normal; line-height: 1.35;">
-                  Thực hiện đúng chỉ đạo chuyên môn của Bộ GD&ĐT: Lấy ngữ liệu đọc hiểu ngoài SGK chính khóa KNTT để đánh giá năng lực đọc hiểu thực chất của học sinh.
-                </div>
-              </div>
-              <input type="hidden" id="tvReadingGenreSelect" value="sgk_art">
-            </div>
+            <input type="hidden" id="tvOralModeSelect" value="sgk">
+            <input type="hidden" id="tvReadingGenreSelect" value="sgk_art">
           </div>
 
           <div style="font-weight: 800; font-size: 0.82rem; color: #86198f; margin-bottom: 0.45rem; display: flex; align-items: center; gap: 0.35rem;">
@@ -1780,10 +1756,6 @@ function renderExamOutput(exam, container) {
         ${(rd.oralItems && rd.oralItems.length > 0) ? `
           <div style="margin-bottom: 14px; display: flex; flex-direction: column; gap: 10px;">
             ${rd.oralItems.map(function(item, idx) {
-              var volPage = [];
-              if (item.bookVolume) volPage.push(item.bookVolume);
-              if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
-              var sourceInfo = volPage.length > 0 ? ` (Ngữ liệu ngoài SGK KNTT - Trích SGK TV ${exam.grade || 3} Chân trời sáng tạo, ${volPage.join(' - ')})` : ` (Ngữ liệu ngoài SGK KNTT - Trích SGK TV ${exam.grade || 3} Chân trời sáng tạo)`;
               var qList = [];
               if (Array.isArray(item.questions) && item.questions.length > 0) {
                 qList = item.questions;
@@ -1796,11 +1768,8 @@ function renderExamOutput(exam, container) {
                     <span style="font-weight: bold; font-size: 11pt; color: #1e3a8a; text-transform: uppercase;">
                       Phiếu đọc ${idx + 1}: ${item.title}
                     </span>
-                    <span style="font-size: 9.5pt; color: #64748b; font-style: italic;">
-                      ${sourceInfo}
-                    </span>
+                    ${item.author ? `<span style="font-size: 9.5pt; color: #64748b; font-style: italic;">Tác giả: ${item.author}</span>` : ''}
                   </div>
-                  ${item.author ? `<div style="text-align: right; font-style: italic; font-size: 9.5pt; color: #475569; margin-bottom: 4px;">Tác giả: ${item.author}</div>` : ''}
                   
                   <div style="background: #fafafa; border: 1px dashed #cbd5e1; border-radius: 4px; padding: 8px 12px; margin: 6px 0; text-align: justify; text-indent: 1.5rem; line-height: 1.5; font-size: 11pt; white-space: pre-line;">
                     ${item.passage || item.content || `<i>(Học sinh đọc cả bài "${item.title}")</i>`}
@@ -1836,10 +1805,7 @@ function renderExamOutput(exam, container) {
           <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 2px;">
             ${rd.comprehensionReading?.title || "BÀI ĐỌC THẦM"}
           </div>
-          <div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px; color: #555;">
-            ${rd.comprehensionReading?.author ? `Tác giả: ${rd.comprehensionReading.author}` : ''}
-            <br><span style="font-size: 9.5pt; color: #475569;">(Ngữ liệu đọc hiểu ngoài SGK chính khóa KNTT - Lấy tương đương từ bộ sách Chân trời sáng tạo)</span>
-          </div>
+          ${rd.comprehensionReading?.author ? `<div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px; color: #555;">Tác giả: ${rd.comprehensionReading.author}</div>` : ''}
           <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45;">
             ${rd.comprehensionReading?.passage || ""}
           </div>
@@ -1999,11 +1965,8 @@ function renderExamOutput(exam, container) {
         <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
           MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}
         </div>
-        <div style="text-align: center; font-size: 12.5pt; margin-bottom: 4px;">
+        <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
           Bộ sách: ${exam.bookSeries || 'Kết nối tri thức với cuộc sống (KNTT)'} • Năm học ${exam.schoolYear || '2026 - 2027'}
-        </div>
-        <div style="text-align: center; font-style: italic; font-size: 10.5pt; margin-bottom: 14px; color: #4b5563;">
-          (Ngữ liệu phần Đọc lấy tương đương từ bộ sách Chân trời sáng tạo theo quy định lấy ngữ liệu ngoài SGK chính khóa KNTT của Bộ GD&ĐT)
         </div>
 
         <div style="font-weight: bold; font-size: 13pt; margin: 10px 0 6px 0; color: #1e3a8a;">I. MA TRẬN 3 TẦNG DÒNG (SỐ CÂU - CÂU SỐ - SỐ ĐIỂM) PHẦN ĐỌC HIỂU (${(exam.readingExam?.comprehensionScore || 6.0).toFixed(1).replace('.', ',')} ĐIỂM)</div>

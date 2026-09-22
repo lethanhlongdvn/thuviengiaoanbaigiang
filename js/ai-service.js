@@ -1396,10 +1396,10 @@ Hãy soạn trọn bộ ĐỀ KIỂM TRA MÔN TIẾNG VIỆT LỚP ${grade} gồ
        - TUYỆT ĐỐI KHÔNG TRÍCH ĐOẠN NGẮN 30-50 từ. BẮT BUỘC cung cấp TOÀN VĂN CẢ BÀI ĐỌC HOÀN CHỈNH (văn xuôi từ 180 đến 300 từ; thơ trích trọn vẹn toàn bộ các khổ thơ) trong trường "passage" để học sinh lớp ${grade} đọc đủ dung lượng.
        - BẮT BUỘC cung cấp TOÀN BỘ HỆ THỐNG CÂU HỎI ĐỌC HIỂU CỦA BÀI ĐÓ TRONG SGK CTST (từ 3 đến 5 câu hỏi) vào mảng "questions" (và chuỗi "question") để in đầy đủ vào phiếu đọc của học sinh.
        - BẮT BUỘC cung cấp GỢI Ý CÂU TRẢ LỜI TƯƠNG ỨNG vào mảng "answers" (và chuỗi "answer") trong Hướng dẫn chấm.
-       - Ghi rõ: "title" (Tên bài đọc), "bookVolume", "page", "author", và "source": "Ngữ liệu ngoài SGK KNTT (Trích SGK Tiếng Việt ${grade} Chân trời sáng tạo)".
+       - Ghi rõ: "title" (Tên bài đọc), "bookVolume", "page", "author".
   4. Phần Đọc hiểu & Luyện từ và câu (${compScore.toFixed(1).replace('.', ',')} điểm):
      * Cung cấp 1 bài đọc hoàn chỉnh trích từ SGK Tiếng Việt Lớp ${grade} - Chân trời sáng tạo (CTST) (khoảng ${grade === 1 ? '40-60' : grade === 2 ? '80-110' : grade === 3 ? '150-180' : grade === 4 ? '200-250' : '250-300'} từ) có chủ điểm tương đồng với bài học KNTT. TUYỆT ĐỐI KHÔNG lấy bài đọc đã có trong SGK KNTT.
-     * Ghi rõ: Tên bài đọc, Tác giả, và "source": "Ngữ liệu đọc hiểu ngoài SGK KNTT (Trích SGK Tiếng Việt ${grade} Chân trời sáng tạo)".
+     * Ghi rõ: Tên bài đọc, Tác giả.
      * Hệ thống 8 câu hỏi (6 trắc nghiệm + 2 tự luận):
        - Mạch Đọc hiểu văn bản: Đọc hiểu và phân tích văn bản đọc mới trích từ CTST.
        - Mạch Luyện từ và câu: Bám sát chuẩn kiến thức Tiếng Việt của chương trình SGK KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) Lớp ${grade}.
@@ -1448,7 +1448,6 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
   "duration": "${duration}",
   "schoolYear": "2026 - 2027",
   "bookSeries": "Kết nối tri thức với cuộc sống (KNTT)",
-  "readingMaterialNote": "Ngữ liệu phần Đọc lấy tương đương từ bộ sách Chân trời sáng tạo (CTST) theo quy định lấy ngữ liệu ngoài SGK chính khóa KNTT của Bộ GD&ĐT",
   "scopeDesc": "${scope}",
   "readingExam": {
     "totalScore": 10.0,
@@ -2963,11 +2962,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- PHẦN 1: 5 PHIẾU ĐỌC THÀNH TIẾNG (MỖI PHIẾU IN TRÊN 1 TRANG A4 RIÊNG BIỆT) -->
         <!-- ========================================================================= -->
         ${(rd.oralItems && rd.oralItems.length > 0) ? rd.oralItems.map(function(item, idx) {
-          var volPage = [];
-          if (item.bookVolume) volPage.push(item.bookVolume);
-          if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
-          var sourceInfo = volPage.length > 0 ? `Ngữ liệu ngoài SGK KNTT - Trích SGK Tiếng Việt ${grade} Chân trời sáng tạo (${volPage.join(' - ')})` : `Ngữ liệu ngoài SGK KNTT - Trích SGK Tiếng Việt ${grade} Chân trời sáng tạo`;
-
           var qList = [];
           if (Array.isArray(item.questions) && item.questions.length > 0) {
             qList = item.questions;
@@ -3003,9 +2997,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
               <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 2px;">
                 ${item.title}
               </div>
-              <div style="text-align: center; font-style: italic; font-size: 10.5pt; margin-bottom: 8px;">
-                (${sourceInfo}${item.author ? ` • Tác giả: ${item.author}` : ''})
-              </div>
+              ${item.author ? `<div style="text-align: center; font-style: italic; font-size: 10.5pt; margin-bottom: 8px;">Tác giả: ${item.author}</div>` : ''}
               <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45; font-size: 12pt; white-space: pre-line;">
                 ${item.passage || item.content || `(Học sinh đọc cả bài "${item.title}")`}
               </div>
@@ -3096,10 +3088,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 4px;">
             ${rd.comprehensionReading?.title || "BÀI ĐỌC THẦM"}
           </div>
-          <div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px;">
-            ${rd.comprehensionReading?.author ? `Tác giả: ${rd.comprehensionReading.author}` : ''}
-            <br><span style="font-size: 9.5pt; color: #475569;">(Ngữ liệu đọc hiểu ngoài SGK chính khóa KNTT - Lấy tương đương từ bộ sách Chân trời sáng tạo)</span>
-          </div>
+          ${rd.comprehensionReading?.author ? `<div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px;">Tác giả: ${rd.comprehensionReading.author}</div>` : ''}
           <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45;">
             ${rd.comprehensionReading?.passage || ""}
           </div>
@@ -3248,10 +3237,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <div class="page-break"></div>
 
         <div class="title-bold-center">MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}</div>
-        <div class="subtitle-center" style="margin-bottom: 4px;">Bộ sách: ${exam.bookSeries || 'Kết nối tri thức với cuộc sống (KNTT)'} • Năm học ${exam.schoolYear || '2026 - 2027'}</div>
-        <div style="text-align: center; font-style: italic; font-size: 10.5pt; margin-bottom: 14px; color: #4b5563;">
-          (Ngữ liệu phần Đọc lấy tương đương từ bộ sách Chân trời sáng tạo theo quy định lấy ngữ liệu ngoài SGK chính khóa KNTT của Bộ GD&ĐT)
-        </div>
+        <div class="subtitle-center" style="margin-bottom: 14px;">Bộ sách: ${exam.bookSeries || 'Kết nối tri thức với cuộc sống (KNTT)'} • Năm học ${exam.schoolYear || '2026 - 2027'}</div>
 
         <div class="section-heading">I. MA TRẬN NỘI DUNG VÀ MỨC ĐỘ NHẬN THỨC PHẦN ĐỌC HIỂU (${compScoreStr} ĐIỂM)</div>
         ${exam.threeTierMatrix ? AIService.renderThreeTierMatrixTable(exam.threeTierMatrix, { isWord: true }) : `
