@@ -8600,7 +8600,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var previewDateStr = previewDateInfo ? previewDateInfo.formatted : '';
   var dayHeaderTitle = les.dayName ? (les.dayName + (previewDateStr ? (', ngày ' + previewDateStr) : '')) : '';
 
-  var daySessionInfo = dayHeaderTitle ? (`<p style="font-size: 11pt; font-weight: bold; color: #1e40af; margin-bottom: 4pt;">${dayHeaderTitle} • Buổi ${les.session || 'Sáng'} • ${les.periodSlot ? ('Tiết ' + les.periodSlot) : ''}${les.className ? (' • Lớp ' + les.className) : ''}</p>`) : '';
+  var daySessionInfo = dayHeaderTitle ? (`<p align="center" style="font-size: 11pt; font-weight: bold; color: #1e40af; margin-bottom: 4pt; text-align: center;">${dayHeaderTitle} • Buổi ${les.session || 'Sáng'} • ${les.periodSlot ? ('Tiết ' + les.periodSlot) : ''}${les.className ? (' • Lớp ' + les.className) : ''}</p>`) : '';
 
   var subjName = les.subjectName || (integrationState.subjectKey ? IntegrationService.getSubjectDisplayName(integrationState.subjectKey) : '') || (les.subjectKey ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || 'Lịch sử và Địa lí';
 
@@ -8635,10 +8635,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       </table>
 
       ${daySessionInfo}
-      <h2 style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase; text-align: center;">KẾ HOẠCH BÀI DẠY</h2>
-      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0; text-align: center;">MÔN: ${subjName.toUpperCase()}${les.grade ? (' - KHỐI ' + les.grade) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' - ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '')}</p>
-      <p style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0; text-align: center;">${cleanLessonTitle}</p>
-      ${les.period ? ('<p style="font-style: italic; margin: 2pt 0 0 0; text-align: center;">(' + les.period + ')</p>') : ''}
+      <h2 align="center" style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase; text-align: center;">KẾ HOẠCH BÀI DẠY</h2>
+      <p align="center" style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0; text-align: center;">MÔN: ${subjName.toUpperCase()}${les.grade ? (' - KHỐI ' + les.grade) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' - ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '')}</p>
+      <p align="center" style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0; text-align: center;">${cleanLessonTitle}</p>
+      ${les.period ? ('<p align="center" style="font-style: italic; margin: 2pt 0 0 0; text-align: center;">(' + les.period + ')</p>') : ''}
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">I. YÊU CẦU CẦN ĐẠT:</div>

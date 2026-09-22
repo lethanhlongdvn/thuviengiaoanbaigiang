@@ -3621,6 +3621,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             margin-bottom: 6pt;
             font-family: 'Times New Roman', serif;
           }
+          .title-box p {
+            text-align: center;
+            font-family: 'Times New Roman', serif;
+            line-height: 1.0;
+            margin: 0pt;
+            mso-para-margin: 0pt;
+          }
           .title-box h2 {
             font-family: 'Times New Roman', serif;
             font-size: 14pt;
@@ -3833,7 +3840,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var dateStr = lessonDateInfo ? lessonDateInfo.formatted : '';
       var dayHeaderTitle = les.dayName ? (les.dayName + (dateStr ? (', ngày ' + dateStr) : '')) : '';
 
-      var daySessionInfo = dayHeaderTitle ? ('<p style="font-weight: bold; color: #1e40af; font-size: 12pt; margin-bottom: 4pt;">' + dayHeaderTitle + ' • Buổi ' + (les.session || 'Sáng') + ' • ' + (les.periodSlot ? ('Tiết ' + les.periodSlot) : '') + clsInfo + '</p>') : '';
+      var daySessionInfo = dayHeaderTitle ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-weight: bold; color: #1e40af; font-size: 12pt; margin-bottom: 4pt; text-align: center; line-height: 1.0; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 4pt;">' + dayHeaderTitle + ' • Buổi ' + (les.session || 'Sáng') + ' • ' + (les.periodSlot ? ('Tiết ' + les.periodSlot) : '') + clsInfo + '</p>') : '';
 
       var isDouble = (les.periodSlot && les.periodSlot.toString().includes('-')) || (les.period && (String(les.period).toLowerCase().includes('2 tiết') || String(les.period).toLowerCase().includes('tiết đôi')));
       var durationDefault = isDouble ? '70 phút' : '35 phút';
@@ -4100,13 +4107,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         headerBlock = `
           <table class="header-table">
             <tr>
-              <td style="width: 50%;">
-                <p><b>${schoolName}</b></p>
-                <p>Giáo viên: <b>${teacherName}</b></p>
+              <td style="width: 50%; text-align: left;" align="left">
+                <p style="text-align: left;" align="left"><b>${schoolName}</b></p>
+                <p style="text-align: left;" align="left">Giáo viên: <b>${teacherName}</b></p>
               </td>
-              <td style="width: 50%; text-align: right;">
-                <p><b>NĂM HỌC: ${schoolYear}</b></p>
-                <p>${className ? ('<b>' + className + '</b> • ') : ('Khối: <b>' + (les.grade || grade) + '</b> • ')}Tuần: <b>${weekText}</b></p>
+              <td style="width: 50%; text-align: right;" align="right">
+                <p style="text-align: right;" align="right"><b>NĂM HỌC: ${schoolYear}</b></p>
+                <p style="text-align: right;" align="right">${className ? ('<b>' + className + '</b> • ') : ('Khối: <b>' + (les.grade || grade) + '</b> • ')}Tuần: <b>${weekText}</b></p>
               </td>
             </tr>
           </table>
@@ -4139,21 +4146,21 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
       if (lIdx === 0 || !isContinuousMode) {
         docHtml += `
-          <div class="title-box">
+          <div class="title-box" style="text-align: center; font-family: 'Times New Roman', serif;">
             ${headerBlock}
             ${daySessionInfo}
-            <h2>KẾ HOẠCH BÀI DẠY</h2>
-            <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0; line-height: 1.0;">MÔN: ${subjName.toUpperCase()}${(meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')}</p>
-            <p style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
-            ${les.period ? ('<p style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; line-height: 1.0;">(' + les.period + ')</p>') : ''}
+            <h2 align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; text-align: center; margin: 0pt; line-height: 1.0;">KẾ HOẠCH BÀI DẠY</h2>
+            <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0; text-align: center; line-height: 1.0;">MÔN: ${subjName.toUpperCase()}${(meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')}</p>
+            <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
+            ${les.period ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + les.period + ')</p>') : ''}
           </div>
         `;
       } else {
         docHtml += `
-          <div class="title-box" style="margin-top: 10pt; margin-bottom: 4pt;">
+          <div class="title-box" style="margin-top: 10pt; margin-bottom: 4pt; text-align: center; font-family: 'Times New Roman', serif;">
             ${daySessionInfo}
-            <p style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
-            ${les.period ? ('<p style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; line-height: 1.0;">(' + les.period + ')</p>') : ''}
+            <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
+            ${les.period ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + les.period + ')</p>') : ''}
           </div>
         `;
       }
