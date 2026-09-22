@@ -1037,23 +1037,12 @@ function renderAiExamView(container) {
       <!-- CỘT ĐIỀU KHIỂN BÊN TRÁI (FORM THU THẬP THÔNG SỐ) -->
       <div class="ai-ctrl-box" style="background: #ffffff; border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 1.25rem; box-shadow: var(--shadow-sm);">
         
-        <!-- THANH TRẠNG THÁI BỘ SÁCH & TIÊU CHUẨN -->
-        <div style="font-size: 0.76rem; font-weight: 800; color: #7c3aed; background: #f5f3ff; border: 1px solid #ddd6fe; padding: 0.3rem 0.75rem; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
-          <span id="aiBookSeriesBadge"><i class="fa-solid fa-book-open"></i> BỘ SÁCH: CHÂN TRỜI SÁNG TẠO</span>
+        <!-- THANH TRẠNG THÁI BỘ SÁCH CỐ ĐỊNH & TIÊU CHUẨN -->
+        <div style="font-size: 0.78rem; font-weight: 800; color: #1e3a8a; background: #eff6ff; border: 1px solid #bfdbfe; padding: 0.35rem 0.75rem; border-radius: var(--radius-full); display: flex; align-items: center; justify-content: space-between; margin-bottom: 0.75rem;">
+          <span id="aiBookSeriesBadge"><i class="fa-solid fa-book-bookmark"></i> BỘ SÁCH: CHÂN TRỜI SÁNG TẠO (CTST)</span>
           <span style="color: #16a34a;"><i class="fa-solid fa-circle-check"></i> Chuẩn TT 27 & SEA-PLM</span>
         </div>
-
-        <!-- 0. CHỌN BỘ SÁCH GIÁO KHOA -->
-        <div class="form-group" style="margin-bottom: 0.65rem;">
-          <label for="aiBookSeriesSelect" style="font-weight: 700; font-size: 0.82rem; color: #1e3a8a; display: flex; align-items: center; justify-content: space-between;">
-            <span><i class="fa-solid fa-book-bookmark"></i> Bộ Sách Giáo Khoa:</span>
-            <span style="font-size: 0.72rem; color: #7c3aed; font-weight: 600;">(Đa Bộ Sách)</span>
-          </label>
-          <select id="aiBookSeriesSelect" class="form-select" style="font-weight: 700; border-color: #93c5fd; background-color: #f0f9ff;" onchange="onExamSeriesChange(this.value)">
-            <option value="ctst" selected>Chân trời sáng tạo (CTST - NXB Giáo dục VN)</option>
-            <option value="kntt">Kết nối tri thức với cuộc sống (KNTT - NXB Giáo dục VN)</option>
-          </select>
-        </div>
+        <input type="hidden" id="aiBookSeriesSelect" value="ctst">
 
         <!-- 1. KHỐI LỚP & MÔN THI -->
         <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.65rem;">
@@ -1111,28 +1100,30 @@ function renderAiExamView(container) {
             </div>
 
             <div class="form-group" style="margin-bottom: 0;">
-              <label for="tvOralModeSelect" style="font-weight: 700; font-size: 0.78rem; color: #581c87;">• Chế độ Đọc thành tiếng:</label>
-              <select id="tvOralModeSelect" class="form-select" style="font-size: 0.8rem;">
-                <option value="sgk" selected>📚 5 bài trong SGK đã chọn (Bốc thăm, chỉ in Tên bài + Trang SGK)</option>
-                <option value="custom">📄 1 bài đọc ngoài SGK tương tự (In toàn văn bài đọc vào đề)</option>
-              </select>
-              <p style="font-size: 0.71rem; color: #7e22ce; margin: 0.25rem 0 0 0; line-height: 1.3;">
-                <i class="fa-solid fa-circle-info"></i> <i>Câu hỏi & Gợi ý trả lời sẽ được in trong <b>Hướng Dẫn Chấm</b> để giáo viên hỏi học sinh.</i>
-              </p>
+              <div style="font-size: 0.78rem; font-weight: 700; color: #581c87; background: #faf5ff; border: 1px solid #e9d5ff; padding: 0.45rem 0.65rem; border-radius: 4px;">
+                <div style="display: flex; align-items: center; gap: 0.35rem; margin-bottom: 2px;">
+                  <i class="fa-solid fa-book-bookmark" style="color: #9333ea;"></i>
+                  <span>Ngữ liệu Đọc thành tiếng: <b>Sách giáo khoa Tiếng Việt CTST</b></span>
+                </div>
+                <div style="font-size: 0.72rem; color: #7e22ce; font-weight: normal; line-height: 1.35;">
+                  Xuất trực tiếp <b>toàn văn bài đọc & câu hỏi đọc hiểu</b> vào đề thi để in ra phát cho học sinh đọc.
+                </div>
+              </div>
+              <input type="hidden" id="tvOralModeSelect" value="sgk">
             </div>
 
-            <!-- ĐỊNH HƯỚNG NGỮ LIỆU ĐỌC HIỂU THEO CHUẨN SEA-PLM & ĐỊA PHƯƠNG VĨNH LONG -->
+            <!-- NGỮ LIỆU ĐỌC HIỂU CẤU HÌNH CỨNG SGK CTST -->
             <div class="form-group" style="margin-top: 0.45rem; margin-bottom: 0;">
-              <label for="tvReadingGenreSelect" style="font-weight: 700; font-size: 0.78rem; color: #581c87;">• Định hướng Ngữ liệu Đọc hiểu (Chuẩn SEA-PLM):</label>
-              <select id="tvReadingGenreSelect" class="form-select" style="font-size: 0.8rem;" onchange="onTvReadingGenreChange(this.value)">
-                <option value="sgk_art" selected>📖 Văn bản nghệ thuật (Truyện, thơ theo chủ điểm SGK)</option>
-                <option value="vinh_long">🏛️ Văn bản thông tin thực tế / Địa phương Vĩnh Long (124 xã/phường)</option>
-                <option value="non_continuous">📊 Văn bản không liên tục / Hỗn hợp (Bảng biểu, sơ đồ chuẩn SEA-PLM)</option>
-                <option value="custom">✍️ Tự nhập ngữ liệu đọc hiểu tùy chỉnh...</option>
-              </select>
-              <div id="tvCustomReadingBox" style="display: none; margin-top: 0.35rem;">
-                <textarea id="tvCustomReadingInput" class="form-control" rows="3" placeholder="Dán bài đọc hiểu tùy chỉnh của Thầy/Cô vào đây..." style="font-size: 0.78rem;"></textarea>
+              <div style="font-size: 0.78rem; font-weight: 700; color: #581c87; background: #fdf4ff; border: 1px solid #f0abfc; padding: 0.45rem 0.65rem; border-radius: 4px;">
+                <div style="display: flex; align-items: center; gap: 0.35rem; margin-bottom: 2px;">
+                  <i class="fa-solid fa-book-open-reader" style="color: #c026d3;"></i>
+                  <span>Ngữ liệu Đọc hiểu: <b>Sách giáo khoa Tiếng Việt (Chân trời sáng tạo)</b></span>
+                </div>
+                <div style="font-size: 0.72rem; color: #7e22ce; font-weight: normal; line-height: 1.35;">
+                  Cấu hình cứng 100% ngữ liệu từ các bài đọc trong SGK CTST theo chương trình, không lấy bài ngoài sách.
+                </div>
               </div>
+              <input type="hidden" id="tvReadingGenreSelect" value="sgk_art">
             </div>
           </div>
 
@@ -1786,32 +1777,39 @@ function renderExamOutput(exam, container) {
           ${rd.oralGuideIntro || "Học sinh bốc thăm đọc thành tiếng một đoạn trong các bài sau (thời gian không quá 1 phút) và trả lời câu hỏi do giáo viên nêu:"}
         </p>
 
-        ${isSGK ? `
-          <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 4px; padding: 8px 12px; margin-bottom: 14px;">
-            <table style="width: 100%; border-collapse: collapse;">
-              ${(rd.oralItems || []).map(function(item, idx) {
-                return `
-                  <tr style="border-bottom: 1px dashed #e2e8f0;">
-                    <td style="padding: 4px 6px; font-weight: bold; width: 14%; color: #7c3aed;">Phiếu ${idx + 1}:</td>
-                    <td style="padding: 4px 6px;">
-                      <b>${item.title}</b> <span style="color: #64748b; font-style: italic;">(${item.bookVolume || 'Tập 1'} - ${item.page || 'SGK KNTT'})</span>
-                    </td>
-                  </tr>
-                `;
-              }).join('')}
-            </table>
+        ${(rd.oralItems && rd.oralItems.length > 0) ? `
+          <div style="margin-bottom: 14px; display: flex; flex-direction: column; gap: 10px;">
+            ${rd.oralItems.map(function(item, idx) {
+              var volPage = [];
+              if (item.bookVolume) volPage.push(item.bookVolume);
+              if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
+              var sourceInfo = volPage.length > 0 ? ` (SGK Tiếng Việt ${exam.grade || 3} - Chân trời sáng tạo, ${volPage.join(' - ')})` : ` (SGK Tiếng Việt ${exam.grade || 3} - Chân trời sáng tạo)`;
+              return `
+                <div style="background: #ffffff; border: 1.5px solid #cbd5e1; border-radius: 6px; padding: 10px 14px; box-shadow: 0 1px 2px rgba(0,0,0,0.05);">
+                  <div style="display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 4px; border-bottom: 1px solid #f1f5f9; padding-bottom: 4px;">
+                    <span style="font-weight: bold; font-size: 11pt; color: #1e3a8a; text-transform: uppercase;">
+                      Phiếu đọc ${idx + 1}: ${item.title}
+                    </span>
+                    <span style="font-size: 9.5pt; color: #64748b; font-style: italic;">
+                      ${sourceInfo}
+                    </span>
+                  </div>
+                  ${item.author ? `<div style="text-align: right; font-style: italic; font-size: 9.5pt; color: #475569; margin-bottom: 4px;">Tác giả: ${item.author}</div>` : ''}
+                  
+                  <div style="background: #fafafa; border: 1px dashed #cbd5e1; border-radius: 4px; padding: 8px 12px; margin: 6px 0; text-align: justify; text-indent: 1.5rem; line-height: 1.5; font-size: 11pt;">
+                    ${item.passage || item.content || `<i>(Học sinh đọc đoạn văn theo chỉ định trong bài "${item.title}")</i>`}
+                  </div>
+
+                  <div style="margin-top: 6px; padding: 6px 10px; background: #f0fdf4; border-left: 3px solid #16a34a; border-radius: 2px; font-size: 10.5pt; color: #14532d;">
+                    <b>* Câu hỏi đọc hiểu:</b> ${item.question || "Nêu nội dung hoặc ý nghĩa chính của đoạn đọc trên."}
+                  </div>
+                </div>
+              `;
+            }).join('')}
           </div>
         ` : `
-          <div style="background: #fafafa; border: 1px solid #ccc; padding: 10px 14px; margin: 8px 0 14px 0; line-height: 1.45;">
-            <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 4px;">
-              ${rd.oralItems?.[0]?.title || "BÀI ĐỌC THÀNH TIẾNG"}
-            </div>
-            <div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px;">
-              ${rd.oralItems?.[0]?.author ? `Tác giả: ${rd.oralItems[0].author}` : ''}
-            </div>
-            <div style="text-align: justify; text-indent: 1.5rem;">
-              ${rd.oralItems?.[0]?.passage || ""}
-            </div>
+          <div style="background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 4px; padding: 8px 12px; margin-bottom: 14px;">
+            <i>Chưa có dữ liệu bài đọc thành tiếng.</i>
           </div>
         `}
 

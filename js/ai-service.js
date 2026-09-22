@@ -1340,9 +1340,9 @@ var AIService = {
     var schoolName = params.schoolName || "TRƯỜNG TIỂU HỌC .................................";
     var customPrompt = params.customPrompt || "";
 
-    // Xác định bộ sách được chọn
-    var bookSeries = params.bookSeries || 'ctst';
-    var seriesName = (bookSeries === 'ctst') ? 'Chân trời sáng tạo (CTST)' : 'Kết nối tri thức với cuộc sống (KNTT)';
+    // Xác định bộ sách: Cố định chuẩn Chân trời sáng tạo (CTST)
+    var bookSeries = 'ctst';
+    var seriesName = 'Chân trời sáng tạo (CTST)';
 
     // Tra cứu dữ liệu SGK số hóa theo bộ sách
     var sgkKey = (subjectId || '').toLowerCase().replace('lich_su_dia_ly', 'lich_su_dia_li');
@@ -1354,73 +1354,52 @@ var AIService = {
         if (digest.length > 3000) {
           digest = digest.substring(0, 3000) + "\n...(và các bài học khác trong phạm vi)...";
         }
-        sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA SỐ HÓA [${bookSeries.toUpperCase()} - ${seriesName}] THEO PHẠM VI RA ĐỀ:\n${digest}\n- YÊU CẦU: Các bài đọc, câu hỏi trắc nghiệm, luyện từ và câu PHẢI sử dụng chính xác các bài học, khái niệm và ngữ liệu của SGK ${seriesName} được cung cấp ở trên.`;
+        sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA SỐ HÓA [CHÂN TRỜI SÁNG TẠO (CTST)] THEO PHẠM VI RA ĐỀ:\n${digest}\n- YÊU CẦU: Các bài đọc, câu hỏi trắc nghiệm, luyện từ và câu PHẢI sử dụng chính xác các bài học, khái niệm và ngữ liệu của SGK Chân trời sáng tạo (CTST) được cung cấp ở trên.`;
       }
     }
 
-    // Tích hợp Ngữ liệu Đọc hiểu SEA-PLM & Địa phương Vĩnh Long mới (NQ 202/2025/QH15)
-    var readingGenre = params.tvReadingGenre || "sgk_art";
-    var customReading = params.tvCustomReading || "";
     var readingGenreContext = "";
-
-    var isVinhLong = (params.isVinhLongLocal === true) ||
-                     (readingGenre === "vinh_long") ||
-                     (scope && scope.toLowerCase().includes("vĩnh long")) ||
-                     (schoolName && schoolName.toLowerCase().includes("vĩnh long")) ||
-                     (customPrompt && customPrompt.toLowerCase().includes("vĩnh long"));
-
-    if (readingGenre === "vinh_long" || isVinhLong) {
-      readingGenreContext = `\n- YÊU CẦU ĐẶC BIỆT VỀ NGỮ LIỆU ĐỌC HIỂU ĐỊA PHƯƠNG VĨNH LONG (NQ 202/2025/QH15 & 124 XÃ/PHƯỜNG):
-  + Căn cứ Nghị quyết số 202/2025/QH15 của Quốc hội: Tỉnh Vĩnh Long vận hành mô hình chính quyền địa phương 2 cấp, HOÀN TOÀN KHÔNG CÒN CẤP HUYỆN, gồm 124 đơn vị hành chính cấp xã (19 phường đô thị và 105 xã nông thôn).
-  + Số liệu hành chính chuẩn: Diện tích tự nhiên 6.296,20 km², dân số 4.257.581 người, 124 xã/phường.
-  + QUY TẮC DÙNG TỪ ĐỊA PHƯƠNG (BẮT BUỘC):
-    * TUYỆT ĐỐI CẤM dùng từ "huyện" (cấm viết "huyện Tam Bình", "huyện Long Hồ", "huyện Trà Ôn"...). BẮT BUỘC gọi theo tên xã, phường hoặc tên vùng đất/địa danh (ví dụ: "xã Tam Bình", "vùng đất Tam Bình", "cù lao An Bình", "cù lao Lục Sỹ Thành", "xứ dừa", "vùng Duyên Hải"...).
-    * TUYỆT ĐỐI CẤM thêm chữ "mới" vào tên tỉnh (cấm viết "tỉnh Vĩnh Long mới", "Vĩnh Long mới"). Chỉ viết tự nhiên là "Vĩnh Long", "tỉnh Vĩnh Long" hoặc "quê hương Vĩnh Long".
-  + BẮT BUỘC soạn bài đọc thầm là VĂN BẢN THÔNG TIN THỰC TẾ hoặc bài văn miêu tả về diện mạo quê hương Vĩnh Long (124 xã/phường trù phú, cù lao An Bình, Lục Sỹ Thành, sông Tiền, sông Hậu, miệt vườn cây trái, vườn dừa và rừng ngập mặn Duyên Hải...).
-  + Hệ thống câu hỏi đọc hiểu tuân thủ 3 quá trình nhận thức SEA-PLM: Mức 1 (Locate số liệu/địa danh), Mức 2 (Interpret ý nghĩa phát triển/kinh tế), Mức 3 (Reflect liên hệ tự hào quê hương và hành động của học sinh).`;
-    } else if (readingGenre === "non_continuous") {
-      readingGenreContext = `\n- YÊU CẦU VĂN BẢN ĐỌC HIỂU DẠNG KHÔNG LIÊN TỤC (NON-CONTINUOUS) THEO CHUẨN QUỐC TẾ SEA-PLM:
-  + Văn bản đọc thầm phải có định dạng bảng biểu, thời khóa biểu, danh mục thông báo, bản đồ hoặc sơ đồ số liệu cụ thể.
-  + Câu hỏi đọc hiểu rèn luyện kỹ năng tra cứu bảng biểu, đối chiếu số liệu, suy luận quan hệ logic giữa các cột/hàng theo 3 quá trình nhận thức chuẩn SEA-PLM.`;
-    } else if (readingGenre === "custom" && customReading.trim()) {
-      readingGenreContext = `\n- NGỮ LIỆU ĐỌC HIỂU TÙY CHỈNH DO GIÁO VIÊN CUNG CẤP:\n"""\n${customReading.trim()}\n"""\n- YÊU CẦU: BẮT BUỘC sử dụng ngữ liệu trên cho phần Đọc hiểu và ra 8 câu hỏi chuẩn Thông tư 27 & SEA-PLM dựa trên văn bản này.`;
-    }
 
     var prompt = "";
 
     // =========================================================================
     // PROMPT CHUYÊN BIỆT CHO MÔN TIẾNG VIỆT (CHUẨN TT27: 2 PHIẾU ĐỌC & VIẾT)
+    // CẤU HÌNH CỨNG 100% NGỮ LIỆU SÁCH CHÂN TRỜI SÁNG TẠO (CTST) - KHÔNG LẤY NGOÀI SÁCH
     // =========================================================================
     if (subjectId === "TIENG_VIET") {
       var oralScore = parseFloat(params.tvOralScore) || 4.0;
-      var oralMode = params.tvOralMode || "sgk"; // "sgk" | "custom"
+      var oralMode = "sgk"; // Khóa cứng 100% SGK Chân trời sáng tạo
       var compScore = Math.round((10.0 - oralScore) * 10) / 10;
       var dictScore = (grade <= 3) ? (parseFloat(params.tvDictationScore) || 4.0) : 0;
       var tlvScore = (grade <= 3) ? Math.round((10.0 - dictScore) * 10) / 10 : 10.0;
       var essayGenre = params.tvEssayGenre || (grade >= 4 ? "Văn miêu tả cây cối / cảnh vật / người" : "Viết đoạn văn theo chủ điểm");
 
       prompt = `
-Bạn là Chuyên gia Đánh giá Giáo dục Tiểu học hàng đầu Việt Nam, am hiểu sâu sắc Chương trình GDPT 2018, Thông tư 27/2020/TT-BGDĐT, Khung đánh giá năng lực và Quy trình biên soạn câu hỏi của Chương trình SEA-PLM (Bộ GD&ĐT) và Bộ SGK ${seriesName.toUpperCase()} môn Tiếng Việt.
+Bạn là Chuyên gia Đánh giá Giáo dục Tiểu học hàng đầu Việt Nam, am hiểu sâu sắc Chương trình GDPT 2018, Thông tư 27/2020/TT-BGDĐT, Khung đánh giá năng lực và Quy trình biên soạn câu hỏi của Chương trình SEA-PLM (Bộ GD&ĐT) và Bộ SGK CHÂN TRỜI SÁNG TẠO (CTST) môn Tiếng Việt.
 Hãy soạn trọn bộ ĐỀ KIỂM TRA MÔN TIẾNG VIỆT LỚP ${grade} gồm 2 PHIẾU RIÊNG BIỆT (ĐỀ ĐỌC 10đ & ĐỀ VIẾT 10đ), MA TRẬN 3 MỨC ĐỘ VÀ HƯỚNG DẪN MÃ HÓA (CODING GUIDE) THEO CHUẨN SEA-PLM với các thông số sau:
 
 - MÔN HỌC: Tiếng Việt - Lớp ${grade}
-- BỘ SÁCH: ${seriesName}
+- BỘ SÁCH: Chân trời sáng tạo (CTST) (Cấu hình cứng 100%)
 - PHẠM VI: ${scope}
-- ĐỀ ĐỌC (10,0 điểm):
-  + Phần Đọc thành tiếng (${oralScore.toFixed(1).replace('.', ',')} điểm): Chế độ "${oralMode === 'sgk' ? `5 bài đọc trong SGK ${seriesName} (bốc thăm)` : '1 bài đọc ngoài SGK có cấu tạo tương tự'}".
-    * QUY TẮC CẦN TUÂN THỦ NGHIÊM NGẶT:
-      - Trong Phiếu Đề Đọc của học sinh: ${oralMode === 'sgk' ? `CHỈ in Tựa bài + Tập + Trang SGK ${bookSeries.toUpperCase()} (KHÔNG in bài đọc và KHÔNG in câu hỏi vào đề của học sinh).` : 'In đầy đủ TOÀN VĂN bài đọc vào đề cho học sinh đọc thành tiếng (KHÔNG in câu hỏi vào đề của học sinh).'}
-      - Trong Hướng dẫn chấm (dành cho Giáo viên): In đầy đủ Câu hỏi + Gợi ý trả lời cho từng bài đọc để giáo viên hỏi và chấm điểm học sinh.
-  + Phần Đọc hiểu & Luyện từ và câu (${compScore.toFixed(1).replace('.', ',')} điểm):
-    * Cung cấp 1 văn bản đọc thầm hoàn chỉnh (có tựa đề, nội dung truyện/bài văn khoảng ${grade === 1 ? '40-60' : grade === 2 ? '80-110' : grade === 3 ? '150-180' : grade === 4 ? '200-250' : '250-300'} chữ và tên tác giả).
-    * Hệ thống 8 câu hỏi (6 câu trắc nghiệm + 2 câu tự luận/đặt câu) theo ma trận 3 Mức độ (Mức 1 - Locate, Mức 2 - Interpret, Mức 3 - Reflect), phân bố giữa Đọc hiểu văn bản và Luyện từ và câu/Kiến thức Tiếng Việt bám sát SGK ${seriesName}.
-    * QUY ĐỊNH THANG ĐIỂM TIỂU HỌC: Điểm của từng câu hỏi BẮT BUỘC chẵn bội số của 0,25 (thang điểm 0,25đ; 0,5đ; 0,75đ; 1,0đ; 1,25đ; 1,5đ...). Tuyệt đối không dùng điểm lẻ như 0,4đ hay 0,8đ.
+
+- QUY TẮC CỐT LÕI VỀ NGỮ LIỆU PHẦN ĐỌC (CẤU HÌNH CỨNG SÁCH CTST - TUYỆT ĐỐI KHÔNG LẤY BÀI NGOÀI SÁCH):
+  1. Toàn bộ ngữ liệu của Phần Đọc thành tiếng và Phần Đọc hiểu BẮT BUỘC lấy 100% từ các bài đọc trong Sách giáo khoa Tiếng Việt Lớp ${grade} - Bộ sách Chân trời sáng tạo (CTST) theo đúng phân phối chương trình của phạm vi học kỳ. TUYỆT ĐỐI KHÔNG tự sáng tác, KHÔNG lấy bài đọc ngoài sách giáo khoa.
+  2. Phần Đọc thành tiếng (${oralScore.toFixed(1).replace('.', ',')} điểm):
+     * Cung cấp 3 đến 5 phiếu bài đọc thành tiếng trích từ các bài đọc trong SGK Tiếng Việt Chân trời sáng tạo Lớp ${grade}.
+     * YÊU CẦU ĐẶC BIỆT ĐỂ IN ĐỀ PHÁT CHO HỌC SINH ĐỌC TRỰC TIẾP:
+       - Trong MỖI phiếu bài đọc ("oralItems"), BẮT BUỘC xuất đầy đủ TOÀN VĂN ĐOẠN ĐỌC vào trường "passage" (khoảng ${grade === 1 ? '30-40' : grade === 2 ? '50-60' : grade === 3 ? '70-80' : grade === 4 ? '90-100' : '100-120'} chữ) trích chuẩn xác từ bài học trong SGK CTST để giáo viên in trực tiếp ra giấy cho học sinh cầm đọc, TUYỆT ĐỐI KHÔNG để trống!
+       - BẮT BUỘC xuất CÂU HỎI ĐỌC HIỂU vào trường "question" tương ứng với đoạn đọc để in ngay dưới đoạn đọc cho học sinh đọc và trả lời!
+       - BẮT BUỘC xuất GỢI Ý CÂU TRẢ LỜI ĐÚNG vào trường "answer" trong Hướng dẫn chấm để giáo viên chấm điểm.
+       - Ghi rõ: "title" (Tên bài trong SGK CTST), "bookVolume" (Tập 1 hoặc Tập 2), "page" (Trang sách SGK CTST).
+  3. Phần Đọc hiểu & Luyện từ và câu (${compScore.toFixed(1).replace('.', ',')} điểm):
+     * Cung cấp 1 bài đọc/trích đoạn hoàn chỉnh trong SGK Tiếng Việt Lớp ${grade} - Chân trời sáng tạo (có tựa đề bài đọc trong SGK, tên tác giả, nội dung toàn văn bài văn/đoạn trích khoảng ${grade === 1 ? '40-60' : grade === 2 ? '80-110' : grade === 3 ? '150-180' : grade === 4 ? '200-250' : '250-300'} chữ). Tuyệt đối không lấy bài ngoài SGK CTST.
+     * Hệ thống 8 câu hỏi (6 câu trắc nghiệm + 2 câu tự luận/đặt câu) theo ma trận 3 Mức độ (Mức 1 - Locate, Mức 2 - Interpret, Mức 3 - Reflect), phân bố hợp lý giữa Đọc hiểu văn bản và Luyện từ và câu/Kiến thức Tiếng Việt bám sát SGK Chân trời sáng tạo.
+     * QUY ĐỊNH THANG ĐIỂM TIỂU HỌC: Điểm của từng câu hỏi BẮT BUỘC chẵn bội số của 0,25 (thang điểm 0,25đ; 0,5đ; 0,75đ; 1,0đ; 1,25đ; 1,5đ...). Tuyệt đối không dùng điểm lẻ như 0,4đ hay 0,8đ.
 
 - ĐỀ VIẾT (10,0 điểm):
-${grade <= 3 ? `  + Phần Chính tả Nghe - viết (${dictScore.toFixed(1).replace('.', ',')} điểm): Đoạn văn/thơ đúng chuẩn dung lượng Lớp ${grade} (${grade === 1 ? '30-35 chữ' : grade === 2 ? '45-50 chữ' : '65-70 chữ'}).
-  + Phần Tập làm văn - Viết đoạn văn (${tlvScore.toFixed(1).replace('.', ',')} điểm): Đề bài yêu cầu viết đoạn văn (${grade <= 2 ? '3 đến 5 câu' : '5 đến 7 câu'}) theo chủ điểm đã học kèm gợi ý dàn ý.` : `  + Phần Tập làm văn (10,0 điểm duy nhất): Viết một bài văn hoàn chỉnh đúng thể loại (${essayGenre}) kèm gợi ý dàn ý (Mở bài, Thân bài, Kết bài). Bắt buộc có Barem chấm chi tiết 10 điểm trong Hướng dẫn chấm.`}
+${grade <= 3 ? `  + Phần Chính tả Nghe - viết (${dictScore.toFixed(1).replace('.', ',')} điểm): Đoạn văn/thơ trích từ bài học SGK CTST Lớp ${grade} đúng chuẩn dung lượng (${grade === 1 ? '30-35 chữ' : grade === 2 ? '45-50 chữ' : '65-70 chữ'}).
+  + Phần Tập làm văn - Viết đoạn văn (${tlvScore.toFixed(1).replace('.', ',')} điểm): Đề bài yêu cầu viết đoạn văn (${grade <= 2 ? '3 đến 5 câu' : '5 đến 7 câu'}) theo đúng chủ điểm bài học SGK CTST kèm gợi ý dàn ý.` : `  + Phần Tập làm văn (10,0 điểm duy nhất): Viết một bài văn hoàn chỉnh đúng thể loại (${essayGenre}) bám sát chương trình SGK CTST kèm gợi ý dàn ý (Mở bài, Thân bài, Kết bài). Bắt buộc có Barem chấm chi tiết 10 điểm trong Hướng dẫn chấm.`}
 ${sgkContext}
-${readingGenreContext}
 ${customPrompt ? "- YÊU CẦU BỔ SUNG: " + customPrompt : ""}
 
 ### QUY ĐỊNH PHÁP LÝ HÀNH CHÍNH QUỐC GIA (ÁP DỤNG TRÊN TOÀN QUỐC TỪ 01/7/2025 - BẮT BUỘC):
@@ -1458,28 +1437,29 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
   "grade": ${grade},
   "duration": "${duration}",
   "schoolYear": "2025 - 2026",
-  "bookSeries": "${seriesName}",
+  "bookSeries": "Chân trời sáng tạo (CTST)",
   "scopeDesc": "${scope}",
   "readingExam": {
     "totalScore": 10.0,
     "oralScore": ${oralScore},
-    "oralMode": "${oralMode}",
-    "oralGuideIntro": "Học sinh bốc thăm đọc thành tiếng một đoạn văn/thơ trong các bài sau (thời gian đọc không quá 1 phút) và trả lời câu hỏi của giáo viên:",
+    "oralMode": "sgk",
+    "oralGuideIntro": "Học sinh bốc thăm đọc thành tiếng một đoạn văn/thơ trong các bài sau (thời gian đọc không quá 1 phút) và trả lời câu hỏi đọc hiểu của giáo viên:",
     "oralItems": [
       {
-        "title": "Tên bài đọc 1",
+        "title": "Tên bài đọc trong SGK CTST Lớp ${grade}",
         "bookVolume": "Tập 1",
         "page": "Trang ...",
-        "passage": "${oralMode === 'custom' ? 'Toàn văn bài đọc ngoài SGK...' : ''}",
-        "question": "Câu hỏi kiểm tra đọc hiểu dành cho giáo viên hỏi học sinh",
-        "answer": "Gợi ý câu trả lời đúng của học sinh"
+        "author": "Tên tác giả",
+        "passage": "TOÀN VĂN ĐOẠN ĐỌC TRÍCH TỪ BÀI HỌC SGK CHÂN TRỜI SÁNG TẠO ĐỂ IN RA CHO HỌC SINH ĐỌC...",
+        "question": "Câu hỏi kiểm tra đọc hiểu của đoạn đọc trên dành cho học sinh",
+        "answer": "Gợi ý câu trả lời chuẩn xác của học sinh dành cho giáo viên chấm điểm"
       }
     ],
     "comprehensionScore": ${compScore},
     "comprehensionReading": {
-      "title": "Tên bài văn đọc thầm",
+      "title": "Tên bài đọc trong SGK CTST Lớp ${grade}",
       "author": "Tên tác giả",
-      "passage": "Nội dung toàn văn bài văn đọc thầm phong phú, giàu tính giáo dục..."
+      "passage": "Nội dung toàn văn bài đọc trích từ SGK Tiếng Việt Chân trời sáng tạo..."
     },
     "questions": [
       {
@@ -2360,7 +2340,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
     var m = examData.matrix || {};
     var s = m.summary || {};
-    var bookSeriesName = examData.bookSeries || (examData.seriesName || "Kết nối tri thức với cuộc sống");
+    var bookSeriesName = examData.bookSeries || (examData.seriesName || "Chân trời sáng tạo (CTST)");
     var mcqScoreStr = examData.mcqTotalScore ? examData.mcqTotalScore.toString().replace('.', ',') : "7,0";
     var essayScoreStr = examData.essayTotalScore ? examData.essayTotalScore.toString().replace('.', ',') : "3,0";
 
@@ -2814,7 +2794,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       </html>
     `;
 
-    var seriesSlug = (examData.bookSeries && examData.bookSeries.toLowerCase().includes("chân trời")) ? "CTST" : "KNTT";
+    var seriesSlug = (examData.bookSeries && examData.bookSeries.toLowerCase().includes("kết nối")) ? "KNTT" : "CTST";
     return await this.downloadWordBlob(docHtml, `De_Kiem_Tra_${examData.subjectName}_Lop_${examData.grade}_${seriesSlug}_2025_2026.docx`);
   },
 
@@ -2994,30 +2974,39 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           ${rd.oralGuideIntro || "Học sinh bốc thăm đọc một đoạn văn/thơ trong các bài sau (thời gian không quá 1 phút) và trả lời câu hỏi do giáo viên nêu:"}
         </p>
 
-        ${isSGK ? `
-          <table style="width: 100%; border-collapse: collapse; margin-bottom: 12px;">
-            ${(rd.oralItems || []).map(function(item, idx) {
-              return `
+        ${(rd.oralItems && rd.oralItems.length > 0) ? rd.oralItems.map(function(item, idx) {
+          var volPage = [];
+          if (item.bookVolume) volPage.push(item.bookVolume);
+          if (item.page) volPage.push(item.page.includes('Trang') ? item.page : `Trang ${item.page}`);
+          var sourceInfo = volPage.length > 0 ? `SGK Tiếng Việt ${grade} - Chân trời sáng tạo (${volPage.join(' - ')})` : `SGK Tiếng Việt ${grade} - Chân trời sáng tạo`;
+          return `
+            <div style="border: 1.5px solid #000; padding: 8px 12px; margin-bottom: 12px; background-color: #ffffff;">
+              <table style="width: 100%; border: none; margin-bottom: 4px;">
                 <tr>
-                  <td style="border: 1px solid #ccc; padding: 5px 8px; font-weight: bold; width: 12%; text-align: center;">Phiếu ${idx + 1}</td>
-                  <td style="border: 1px solid #ccc; padding: 5px 8px;">
-                    <b>${item.title}</b> <i>(${item.bookVolume || 'Tập 1'} - ${item.page || 'SGK KNTT'})</i>
+                  <td style="font-weight: bold; font-size: 12pt; text-transform: uppercase;">
+                    PHIẾU ĐỌC SỐ ${idx + 1}: ${item.title}
+                  </td>
+                  <td style="text-align: right; font-style: italic; font-size: 10.5pt; color: #333;">
+                    ${sourceInfo}
                   </td>
                 </tr>
-              `;
-            }).join('')}
-          </table>
-        ` : `
-          <div class="reading-box">
-            <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 4px;">
-              ${rd.oralItems?.[0]?.title || "BÀI ĐỌC THÀNH TIẾNG"}
+              </table>
+              ${item.author ? `<div style="text-align: right; font-style: italic; font-size: 10.5pt; margin-bottom: 4px;">Tác giả: ${item.author}</div>` : ''}
+              
+              <!-- TOÀN VĂN ĐOẠN ĐỌC CHO HỌC SINH ĐỌC THÀNH TIẾNG -->
+              <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.4; font-size: 12pt; margin: 4px 0 8px 0;">
+                ${item.passage || item.content || `(Học sinh đọc đoạn văn theo chỉ định trong bài "${item.title}")`}
+              </div>
+
+              <!-- CÂU HỎI ĐỌC HIỂU ĐỂ HỌC SINH TRẢ LỜI -->
+              <div style="border-top: 1px dotted #666; padding-top: 5px; font-size: 11.5pt;">
+                <b>* Câu hỏi đọc hiểu:</b> ${item.question || "Nêu nội dung hoặc bài học rút ra từ đoạn đọc trên."}
+              </div>
             </div>
-            <div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px;">
-              ${rd.oralItems?.[0]?.author ? `Tác giả: ${rd.oralItems[0].author}` : ''}
-            </div>
-            <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45;">
-              ${rd.oralItems?.[0]?.passage || ""}
-            </div>
+          `;
+        }).join('') : `
+          <div style="border: 1px solid #ccc; padding: 8px 12px; margin-bottom: 12px;">
+            <i>Chưa có dữ liệu bài đọc thành tiếng.</i>
           </div>
         `}
 
@@ -3180,7 +3169,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <div class="page-break"></div>
 
         <div class="title-bold-center">MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}</div>
-        <div class="subtitle-center">Bộ sách: Kết nối tri thức với cuộc sống • Năm học ${exam.schoolYear}</div>
+        <div class="subtitle-center">Bộ sách: Chân trời sáng tạo (CTST) • Năm học ${exam.schoolYear}</div>
 
         <div class="section-heading">I. MA TRẬN NỘI DUNG VÀ MỨC ĐỘ NHẬN THỨC PHẦN ĐỌC HIỂU (${compScoreStr} ĐIỂM)</div>
         ${exam.threeTierMatrix ? AIService.renderThreeTierMatrixTable(exam.threeTierMatrix, { isWord: true }) : `
@@ -3580,7 +3569,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       </html>
     `;
 
-    var seriesSlug = (exam.bookSeries && exam.bookSeries.toLowerCase().includes("chân trời")) ? "CTST" : "KNTT";
+    var seriesSlug = (exam.bookSeries && exam.bookSeries.toLowerCase().includes("kết nối")) ? "KNTT" : "CTST";
     var fn = `De_Kiem_Tra_Tieng_Viet_Lop_${exam.grade}_${seriesSlug}_2025_2026.docx`;
     await this.downloadWordBlob(docHtml, fn);
     return docHtml;
