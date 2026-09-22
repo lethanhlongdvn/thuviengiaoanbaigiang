@@ -23,15 +23,14 @@
       ]
     },
     topics: [
-      { id: 'lsdl4_cd1', name: 'Mở đầu: Phương tiện học tập Lịch sử và Địa lí', semester: 1, weeks: '1-2' },
-      { id: 'lsdl4_cd2', name: 'Chủ đề 1: Địa phương em (Tỉnh, Thành phố)', semester: 1, weeks: '3-6' },
-      { id: 'lsdl4_cd3', name: 'Chủ đề 2: Trung du và miền núi Bắc Bộ', semester: 1, weeks: '7-12' },
-      { id: 'lsdl4_cd4', name: 'Chủ đề 3: Đồng bằng Bắc Bộ', semester: 1, weeks: '13-17' },
-      { id: 'lsdl4_cd_on1', name: 'Ôn tập học kì 1', semester: 1, weeks: '18' },
-      { id: 'lsdl4_cd5', name: 'Chủ đề 4: Duyên hải miền Trung', semester: 2, weeks: '19-24' },
-      { id: 'lsdl4_cd6', name: 'Chủ đề 5: Tây Nguyên', semester: 2, weeks: '25-29' },
-      { id: 'lsdl4_cd7', name: 'Chủ đề 6: Nam Bộ', semester: 2, weeks: '30-34' },
-      { id: 'lsdl4_cd_on2', name: 'Ôn tập cuối năm', semester: 2, weeks: '35' }
+      { id: 'lsdl4_cd0', name: 'Mở đầu', semester: 1, weeks: '1-2' },
+      { id: 'lsdl4_cd1', name: 'Địa phương em', semester: 1, weeks: '3-4' },
+      { id: 'lsdl4_cd2', name: 'Trung du và miền núi phía Bắc', semester: 1, weeks: '5-8' },
+      { id: 'lsdl4_cd3', name: 'Đồng bằng Bắc Bộ', semester: 1, weeks: '9-16' },
+      { id: 'lsdl4_cd_on1', name: 'Ôn tập học kì 1', semester: 1, weeks: '16-17' },
+      { id: 'lsdl4_cd4', name: 'Bắc Trung Bộ và Nam Trung Bộ', semester: 2, weeks: '18-28' },
+      { id: 'lsdl4_cd5', name: 'Nam Bộ', semester: 2, weeks: '28-33' },
+      { id: 'lsdl4_cd_on2', name: 'Ôn tập cuối năm', semester: 2, weeks: '34-35' }
     ],
     lessons: [
       {
@@ -376,7 +375,7 @@
         id: 'lsdl4_b14',
         lessonNumber: 14,
         title: 'Bài 14. Ôn tập học kì I',
-        topic: 'Đồng bằng Bắc Bộ',
+        topic: 'Ôn tập học kì 1',
         semester: 1,
         week: 16,
         duration: '1 tiết',

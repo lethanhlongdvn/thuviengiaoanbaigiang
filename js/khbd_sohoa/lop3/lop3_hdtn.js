@@ -5692,13 +5692,13 @@
           "3. Phẩm chất",
           "- Chăm chỉ: tích cực tham gia hoạt động, quan sát và ghi nhớ thông điệp của vở kịch.",
           "- Trách nhiệm: biết tự phục vụ bản thân, giữ gìn đồ dùng cá nhân và đồ dùng chung.",
-          "- Nhân ái: biết trân trọng công sức của người thân, thầy cô khi giữ không gian sống, học tập gọn gàng.",
+          "- Nhân ái: biết trân trọng công sức của người thân, thầy cô khi giữ không gian sống, học tập gọn gàng."
+        ],
+        "dodd": [
           "- Sân trường hoặc hội trường; hệ thống âm thanh, micro; khu vực biểu diễn vở kịch vui “Đồ đạc chạy trốn”.",
           "- Một số đạo cụ: mũ, thẻ nhân vật đồ dùng, tủ, ghế, hộp, giỏ hoặc hình ảnh minh họa đồ dùng trong nhà.",
           "- Câu hỏi giao lưu sau vở kịch; bảng khẩu hiệu: “Dùng xong để đúng chỗ – luôn ngăn nắp, gọn gàng”."
         ],
-        "dodung": [],
-        "activities": [],
         "tables": [
           [
             [
@@ -5706,6 +5706,7 @@
               "Hoạt động của HS"
             ],
             [
+              "1. Trước hoạt động (8 phút)\nMục tiêu: HS chuẩn bị tâm thế tham gia sinh hoạt dưới cờ; biết nhiệm vụ khi xem vở kịch vui “Đồ đạc chạy trốn”.\n*Cách tiến hành:",
               "1. Trước hoạt động (8 phút)\nMục tiêu: HS chuẩn bị tâm thế tham gia sinh hoạt dưới cờ; biết nhiệm vụ khi xem vở kịch vui “Đồ đạc chạy trốn”.\n*Cách tiến hành:"
             ],
             [
@@ -5733,6 +5734,7 @@
               "- HS lắng nghe nhiệm vụ và chuẩn bị quan sát vở kịch."
             ],
             [
+              "2. Trong hoạt động (22 phút)\nMục tiêu: HS tham gia nghi thức chào cờ, xem vở kịch, trả lời câu hỏi và rút ra thông điệp tự phục vụ bản thân.\n*Cách tiến hành:",
               "2. Trong hoạt động (22 phút)\nMục tiêu: HS tham gia nghi thức chào cờ, xem vở kịch, trả lời câu hỏi và rút ra thông điệp tự phục vụ bản thân.\n*Cách tiến hành:"
             ],
             [
@@ -5764,6 +5766,7 @@
               "- HS đồng thanh đọc thông điệp và ghi nhớ cách tự phục vụ bản thân."
             ],
             [
+              "3. Sau hoạt động – Cam kết hành động (5 phút)\nMục tiêu: HS nêu được một việc cụ thể để tự phục vụ bản thân và giữ đồ dùng đúng vị trí.\n*Cách tiến hành:",
               "3. Sau hoạt động – Cam kết hành động (5 phút)\nMục tiêu: HS nêu được một việc cụ thể để tự phục vụ bản thân và giữ đồ dùng đúng vị trí.\n*Cách tiến hành:"
             ],
             [
@@ -5774,13 +5777,48 @@
               "- GV kết luận: Tự phục vụ bản thân bắt đầu từ những việc nhỏ. Khi biết để đồ dùng đúng chỗ, chúng ta tiết kiệm thời gian, giữ nhà cửa và lớp học gọn gàng hơn.",
               "- HS lắng nghe, ghi nhớ thông điệp của tiết Sinh hoạt dưới cờ."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 13: TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP – ĐÔI TAY KHÉO LÉO - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP",
+        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS sắp xếp được đồ dùng đúng chỗ sau khi sử dụng.",
+          "- HS biết biểu diễn tiểu phẩm tương tác, trao đổi để đưa ra cách sắp xếp đồ dùng phù hợp.",
+          "- HS thực hành sắp xếp một số đồ dùng cá nhân và đồ dùng chung của lớp gọn gàng, ngăn nắp.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: biết tự kiểm tra vị trí đồ dùng của mình, tự điều chỉnh khi sắp xếp chưa hợp lí.",
+          "- Giao tiếp và hợp tác: biết phân vai, thảo luận, góp ý, giúp bạn sắp xếp đồ dùng đúng chỗ.",
+          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn vật dụng chứa đồ như giá, kệ, tủ, hộp, giỏ, túi để sắp xếp gọn gàng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực tham gia tiểu phẩm, thảo luận và thực hành sắp xếp.",
+          "- Trách nhiệm: tự giác phục vụ bản thân, giữ đồ dùng của mình và của lớp đúng nơi quy định.",
+          "- Yêu lao động: trân trọng công việc sắp xếp, dọn dẹp và sản phẩm lao động của bản thân, của bạn.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Trân trọng đôi bàn tay khéo léo của người thợ thủ công, nghệ nhân các làng nghề truyền thống ở Trà Vinh (dệt chiếu Cà Hom, Hàm Tân; đan lát; làm bánh tét Trà Cuôn).",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M25): Dùng nước tiết kiệm và hiệu quả khi giặt khăn, lau chùi bàn ghế, đồ dùng học tập; không để vòi nước chảy tràn khi làm vệ sinh."
+        ],
+        "dodd": [
+          "- Thẻ từ nhỏ ghi các vị trí trong nhà; thẻ nhân vật đồ dùng; hộp, giỏ, túi, mắc áo, mô hình kệ hoặc hình ảnh minh họa.",
+          "- Một số đồ dùng cá nhân an toàn: sách, vở, bút, khăn, mũ, áo khoác, hộp bút, giày dép.",
+          "- Tranh SGK về tiểu phẩm “Chỗ ở của đồ đạc”, tranh dụng cụ sắp xếp và tranh thực hành sắp xếp đồ dùng."
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
+              "1. Khởi động: Chơi trò chơi “Đồ nào ở đâu?” (7 phút)\nMục tiêu: HS nhớ lại vị trí của đồ đạc trong nhà, tạo hứng thú để đi vào chủ đề tự sắp xếp đồ dùng ngăn nắp.\n*Cách tiến hành:",
               "1. Khởi động: Chơi trò chơi “Đồ nào ở đâu?” (7 phút)\nMục tiêu: HS nhớ lại vị trí của đồ đạc trong nhà, tạo hứng thú để đi vào chủ đề tự sắp xếp đồ dùng ngăn nắp.\n*Cách tiến hành:"
             ],
             [
@@ -5800,6 +5838,7 @@
               "- HS lắng nghe, chuẩn bị tham gia hoạt động tiểu phẩm tương tác."
             ],
             [
+              "2. Khám phá chủ đề: Biểu diễn tiểu phẩm tương tác “Chỗ ở của đồ đạc” (18 phút)\nMục tiêu: HS biết phân loại và sắp xếp đồ vật trong gia đình đúng chỗ sau khi sử dụng; biết cách dùng một vài vật dụng giúp cho lối sống ngăn nắp.\nMục tiêu tích hợp: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.\n*Cách tiến hành:",
               "2. Khám phá chủ đề: Biểu diễn tiểu phẩm tương tác “Chỗ ở của đồ đạc” (18 phút)\nMục tiêu: HS biết phân loại và sắp xếp đồ vật trong gia đình đúng chỗ sau khi sử dụng; biết cách dùng một vài vật dụng giúp cho lối sống ngăn nắp.\nMục tiêu tích hợp: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.\n*Cách tiến hành:"
             ],
             [
@@ -5831,6 +5870,7 @@
               "- HS lắng nghe, nêu lại: Em sẽ tự giác làm việc vừa sức, biết giữ gìn đồ dùng, trân trọng công sức của mình và của bạn khi sắp xếp lớp học, nhà cửa."
             ],
             [
+              "3. Mở rộng và tổng kết chủ đề: Thực hành sắp xếp đồ dùng cá nhân và của lớp (12 phút)\nMục tiêu: HS thực hiện hành động sắp xếp đồ đạc ngăn nắp, đúng chỗ quy định.\nMục tiêu tích hợp: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.\n*Cách tiến hành:",
               "3. Mở rộng và tổng kết chủ đề: Thực hành sắp xếp đồ dùng cá nhân và của lớp (12 phút)\nMục tiêu: HS thực hiện hành động sắp xếp đồ đạc ngăn nắp, đúng chỗ quy định.\nMục tiêu tích hợp: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.\n*Cách tiến hành:"
             ],
             [
@@ -5870,6 +5910,7 @@
               "- HS hào hứng thi đua rèn luyện đôi tay khéo léo và tiết kiệm nước."
             ],
             [
+              "4. Cam kết hành động (5 phút)\nMục tiêu: HS lựa chọn một việc làm cụ thể để sắp xếp đồ dùng của mình ở nhà hoặc ở lớp.\n*Cách tiến hành:",
               "4. Cam kết hành động (5 phút)\nMục tiêu: HS lựa chọn một việc làm cụ thể để sắp xếp đồ dùng của mình ở nhà hoặc ở lớp.\n*Cách tiến hành:"
             ],
             [
@@ -5880,13 +5921,46 @@
               "- GV nhắc HS quan sát nhà mình và lựa chọn một việc vừa sức để thực hiện, sau đó chia sẻ kết quả trong tiết Sinh hoạt lớp.",
               "- HS tiếp nhận nhiệm vụ, ghi nhớ sẽ thực hiện và chia sẻ lại với cô, với bạn."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 13: TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP – ĐÔI TAY KHÉO LÉO - TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: ĐÔI TAY KHÉO LÉO",
+        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS thực hiện phân loại và để đồ vật trong gia đình, ở lớp đúng chỗ đã quy định.",
+          "- HS chia sẻ được những việc đã làm ở nhà để sắp xếp đồ dùng gọn gàng, ngăn nắp.",
+          "- HS biết dán nhãn, xác định vị trí để đồ dùng của tổ em và cam kết tiếp tục giữ đồ dùng đúng chỗ.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: biết tự đánh giá việc sắp xếp đồ dùng của bản thân, tự điều chỉnh khi chưa gọn gàng.",
+          "- Giao tiếp và hợp tác: biết chia sẻ, khen bạn, phân công việc nhóm khi dán nhãn đồ dùng của tổ.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn nhãn, kí hiệu hoặc vị trí phù hợp để đồ dùng dễ tìm, dễ sử dụng.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: tích cực tham gia dán nhãn, sắp xếp đồ dùng và hoàn thành nhiệm vụ nhóm.",
+          "- Trách nhiệm: biết giữ gìn đồ dùng cá nhân, đồ dùng chung và không để lớp học bừa bộn.",
+          "- Trung thực: chia sẻ đúng việc mình đã làm ở nhà, biết tự nhận việc cần cố gắng hơn.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.",
+          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình."
+        ],
+        "dodd": [
+          "- Bảng tổng kết tuần 13, nội dung phương hướng tuần 14.",
+          "- Tờ bìa màu nhỏ, giấy nhãn, bút màu, kéo an toàn, keo dán hoặc băng dính trong.",
+          "- Một số hộp, giỏ, kệ, ngăn kéo hoặc vị trí trong lớp cần dán nhãn."
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí tích cực trước giờ sinh hoạt lớp; HS nhớ lại nhiệm vụ sắp xếp đồ dùng ở nhà đã thực hiện.\n*Cách tiến hành:",
               "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí tích cực trước giờ sinh hoạt lớp; HS nhớ lại nhiệm vụ sắp xếp đồ dùng ở nhà đã thực hiện.\n*Cách tiến hành:"
             ],
             [
@@ -5902,9 +5976,11 @@
               "- HS lắng nghe, chuẩn bị tham gia sinh hoạt lớp theo các nội dung GV nêu."
             ],
             [
+              "2. Hoạt động tổng kết tuần (10 phút)\nMục tiêu: HS nhìn lại kết quả thực hiện nền nếp, học tập, vệ sinh, hoạt động chủ đề trong tuần 13 và thống nhất nhiệm vụ tuần 14.\n*Cách tiến hành:",
               "2. Hoạt động tổng kết tuần (10 phút)\nMục tiêu: HS nhìn lại kết quả thực hiện nền nếp, học tập, vệ sinh, hoạt động chủ đề trong tuần 13 và thống nhất nhiệm vụ tuần 14.\n*Cách tiến hành:"
             ],
             [
+              "2.1. Tổng kết tuần 13 (6 phút)\nMục tiêu: HS nhận xét được những việc lớp đã thực hiện tốt trong tuần 13 và những việc cần điều chỉnh.\n*Cách tiến hành:",
               "2.1. Tổng kết tuần 13 (6 phút)\nMục tiêu: HS nhận xét được những việc lớp đã thực hiện tốt trong tuần 13 và những việc cần điều chỉnh.\n*Cách tiến hành:"
             ],
             [
@@ -5928,6 +6004,7 @@
               "- HS lắng nghe, vỗ tay chúc mừng bạn được tuyên dương và ghi nhớ điều bản thân cần cố gắng."
             ],
             [
+              "2.2. Phương hướng tuần 14 (4 phút)\nMục tiêu: HS biết nhiệm vụ trọng tâm của tuần 14 và đăng kí một việc cụ thể để học tập tốt, giữ nền nếp, chuẩn bị chủ đề Góc học tập đáng yêu.\n*Cách tiến hành:",
               "2.2. Phương hướng tuần 14 (4 phút)\nMục tiêu: HS biết nhiệm vụ trọng tâm của tuần 14 và đăng kí một việc cụ thể để học tập tốt, giữ nền nếp, chuẩn bị chủ đề Góc học tập đáng yêu.\n*Cách tiến hành:"
             ],
             [
@@ -5943,6 +6020,7 @@
               "- HS nhận nhiệm vụ theo tổ; nêu lại phần việc của tổ mình để thực hiện trong tuần tới."
             ],
             [
+              "3. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ về những việc em đã làm được ở nhà để sắp xếp đồ dùng gọn gàng, ngăn nắp (8 phút)\nMục tiêu: HS nói được về những việc em đã làm, các vật dụng em đã sử dụng để sắp xếp đồ đạc ngăn nắp.\nMục tiêu tích hợp: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.\n*Cách tiến hành:",
               "3. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ về những việc em đã làm được ở nhà để sắp xếp đồ dùng gọn gàng, ngăn nắp (8 phút)\nMục tiêu: HS nói được về những việc em đã làm, các vật dụng em đã sử dụng để sắp xếp đồ đạc ngăn nắp.\nMục tiêu tích hợp: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.\n*Cách tiến hành:"
             ],
             [
@@ -5974,6 +6052,7 @@
               "- HS lắng nghe, tự nhắc mình tiếp tục rèn đôi tay khéo léo."
             ],
             [
+              "4. Hoạt động nhóm: Dán nhãn, xác định vị trí để đồ dùng của tổ em (12 phút)\nMục tiêu: HS biết phân loại và sử dụng nhãn đánh dấu vị trí để đồ dùng đúng quy định.\nMục tiêu tích hợp: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.\n*Cách tiến hành:",
               "4. Hoạt động nhóm: Dán nhãn, xác định vị trí để đồ dùng của tổ em (12 phút)\nMục tiêu: HS biết phân loại và sử dụng nhãn đánh dấu vị trí để đồ dùng đúng quy định.\nMục tiêu tích hợp: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.\n*Cách tiến hành:"
             ],
             [
@@ -6005,6 +6084,7 @@
               "- HS lắng nghe, đồng thanh nhắc lại: “Dùng xong để đúng chỗ – luôn ngăn nắp, gọn gàng”."
             ],
             [
+              "5. Cam kết hành động (5 phút)\nMục tiêu: HS lựa chọn một việc tiếp tục thực hiện để phân loại và cất đồ dùng đúng nơi quy định.\n*Cách tiến hành:",
               "5. Cam kết hành động (5 phút)\nMục tiêu: HS lựa chọn một việc tiếp tục thực hiện để phân loại và cất đồ dùng đúng nơi quy định.\n*Cách tiến hành:"
             ],
             [
@@ -6018,58 +6098,6 @@
           ]
         ],
         "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-          "BÀI 13: TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP – ĐÔI TAY KHÉO LÉO",
-          "TUẦN 13",
-          "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP",
-          "1. Năng lực đặc thù",
-          "- HS sắp xếp được đồ dùng đúng chỗ sau khi sử dụng.",
-          "- HS biết biểu diễn tiểu phẩm tương tác, trao đổi để đưa ra cách sắp xếp đồ dùng phù hợp.",
-          "- HS thực hành sắp xếp một số đồ dùng cá nhân và đồ dùng chung của lớp gọn gàng, ngăn nắp.",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: biết tự kiểm tra vị trí đồ dùng của mình, tự điều chỉnh khi sắp xếp chưa hợp lí.",
-          "- Giao tiếp và hợp tác: biết phân vai, thảo luận, góp ý, giúp bạn sắp xếp đồ dùng đúng chỗ.",
-          "- Giải quyết vấn đề và sáng tạo: biết lựa chọn vật dụng chứa đồ như giá, kệ, tủ, hộp, giỏ, túi để sắp xếp gọn gàng.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực tham gia tiểu phẩm, thảo luận và thực hành sắp xếp.",
-          "- Trách nhiệm: tự giác phục vụ bản thân, giữ đồ dùng của mình và của lớp đúng nơi quy định.",
-          "- Yêu lao động: trân trọng công việc sắp xếp, dọn dẹp và sản phẩm lao động của bản thân, của bạn.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Trân trọng đôi bàn tay khéo léo của người thợ thủ công, nghệ nhân các làng nghề truyền thống ở Trà Vinh (dệt chiếu Cà Hom, Hàm Tân; đan lát; làm bánh tét Trà Cuôn).",
-          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M25): Dùng nước tiết kiệm và hiệu quả khi giặt khăn, lau chùi bàn ghế, đồ dùng học tập; không để vòi nước chảy tràn khi làm vệ sinh.",
-          "- Thẻ từ nhỏ ghi các vị trí trong nhà; thẻ nhân vật đồ dùng; hộp, giỏ, túi, mắc áo, mô hình kệ hoặc hình ảnh minh họa.",
-          "- Một số đồ dùng cá nhân an toàn: sách, vở, bút, khăn, mũ, áo khoác, hộp bút, giày dép.",
-          "- Tranh SGK về tiểu phẩm “Chỗ ở của đồ đạc”, tranh dụng cụ sắp xếp và tranh thực hành sắp xếp đồ dùng.",
-          "- ................................................................................................................................",
-          "- ................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-          "BÀI 13: TỰ SẮP XẾP ĐỒ DÙNG NGĂN NẮP – ĐÔI TAY KHÉO LÉO",
-          "TUẦN 13",
-          "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: ĐÔI TAY KHÉO LÉO",
-          "1. Năng lực đặc thù",
-          "- HS thực hiện phân loại và để đồ vật trong gia đình, ở lớp đúng chỗ đã quy định.",
-          "- HS chia sẻ được những việc đã làm ở nhà để sắp xếp đồ dùng gọn gàng, ngăn nắp.",
-          "- HS biết dán nhãn, xác định vị trí để đồ dùng của tổ em và cam kết tiếp tục giữ đồ dùng đúng chỗ.",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: biết tự đánh giá việc sắp xếp đồ dùng của bản thân, tự điều chỉnh khi chưa gọn gàng.",
-          "- Giao tiếp và hợp tác: biết chia sẻ, khen bạn, phân công việc nhóm khi dán nhãn đồ dùng của tổ.",
-          "- Giải quyết vấn đề và sáng tạo: biết chọn nhãn, kí hiệu hoặc vị trí phù hợp để đồ dùng dễ tìm, dễ sử dụng.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: tích cực tham gia dán nhãn, sắp xếp đồ dùng và hoàn thành nhiệm vụ nhóm.",
-          "- Trách nhiệm: biết giữ gìn đồ dùng cá nhân, đồ dùng chung và không để lớp học bừa bộn.",
-          "- Trung thực: chia sẻ đúng việc mình đã làm ở nhà, biết tự nhận việc cần cố gắng hơn.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý thức tự giác phục vụ bản thân, biết hoàn thành công việc vừa sức và trân trọng sản phẩm lao động của mình, của bạn.",
-          "- Tích hợp AI (Khung 3439) - 3.C5.1: HS hiểu AI có thể hỗ trợ gợi ý các bước thực hiện sản phẩm, nhưng sự khéo léo và cẩn thận cần được rèn bằng đôi tay của chính mình.",
-          "- Bảng tổng kết tuần 13, nội dung phương hướng tuần 14.",
-          "- Tờ bìa màu nhỏ, giấy nhãn, bút màu, kéo an toàn, keo dán hoặc băng dính trong.",
-          "- Một số hộp, giỏ, kệ, ngăn kéo hoặc vị trí trong lớp cần dán nhãn.",
           "- ................................................................................................................................",
           "- ................................................................................................................................"
         ]
@@ -6442,13 +6470,13 @@
           "3. Phẩm chất",
           "- Yêu nước: biết kính trọng, tự hào về chú bộ đội và truyền thống Quân đội nhân dân Việt Nam.",
           "- Chăm chỉ: tích cực tham gia hoạt động, thực hiện nhiệm vụ được giao.",
-          "- Trách nhiệm: giữ nền nếp, bảo quản đồ dùng chung, góp phần xây dựng lớp học sạch đẹp.",
+          "- Trách nhiệm: giữ nền nếp, bảo quản đồ dùng chung, góp phần xây dựng lớp học sạch đẹp."
+        ],
+        "dodd": [
           "- Sân trường hoặc hội trường; hệ thống âm thanh, micro; tranh ảnh hoặc tiết mục văn nghệ chào mừng ngày 22/12.",
           "- Hình ảnh minh họa hoạt động “Giữ nhà đẹp, giữ lớp xinh”, tác phong ngăn nắp của chú bộ đội.",
           "- Thẻ cam kết việc làm: xếp bàn ghế, xếp sách vở, giữ ngăn bàn sạch, nhặt rác đúng nơi quy định."
         ],
-        "dodung": [],
-        "activities": [],
         "tables": [
           [
             [
@@ -6456,6 +6484,7 @@
               "Hoạt động của HS"
             ],
             [
+              "1. Trước hoạt động (8 phút)\nMục tiêu: HS chuẩn bị tâm thế tham gia sinh hoạt dưới cờ; biết nhiệm vụ khi theo dõi hoạt động chào mừng ngày 22/12.\n*Cách tiến hành:",
               "1. Trước hoạt động (8 phút)\nMục tiêu: HS chuẩn bị tâm thế tham gia sinh hoạt dưới cờ; biết nhiệm vụ khi theo dõi hoạt động chào mừng ngày 22/12.\n*Cách tiến hành:"
             ],
             [
@@ -6479,6 +6508,7 @@
               "- HS quan sát và trả lời: Cô giáo đang dẫn chương trình; các bạn đang giới thiệu, biểu diễn hoặc giao lưu về chú bộ đội nhân ngày 22/12."
             ],
             [
+              "2. Trong hoạt động (22 phút)\nMục tiêu: HS tham gia nghi thức chào cờ, theo dõi hoạt động chào mừng ngày 22/12 và học tập tác phong ngăn nắp, gọn gàng của chú bộ đội.\n*Cách tiến hành:",
               "2. Trong hoạt động (22 phút)\nMục tiêu: HS tham gia nghi thức chào cờ, theo dõi hoạt động chào mừng ngày 22/12 và học tập tác phong ngăn nắp, gọn gàng của chú bộ đội.\n*Cách tiến hành:"
             ],
             [
@@ -6510,6 +6540,7 @@
               "- HS đồng thanh đọc khẩu hiệu và vỗ tay hưởng ứng."
             ],
             [
+              "3. Sau hoạt động – Cam kết hành động (5 phút)\nMục tiêu: HS nêu được một việc làm cụ thể để học tập tác phong chú bộ đội, giữ gìn nhà cửa và lớp học gọn gàng.\n*Cách tiến hành:",
               "3. Sau hoạt động – Cam kết hành động (5 phút)\nMục tiêu: HS nêu được một việc làm cụ thể để học tập tác phong chú bộ đội, giữ gìn nhà cửa và lớp học gọn gàng.\n*Cách tiến hành:"
             ],
             [
@@ -6524,13 +6555,48 @@
               "- GV kết luận: Tác phong ngăn nắp, kỉ luật của chú bộ đội là tấm gương để mỗi HS rèn luyện từ việc nhỏ trong lớp, trong nhà và trong sinh hoạt hằng ngày.",
               "- HS lắng nghe, ghi nhớ thông điệp của tiết Sinh hoạt dưới cờ."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NHÀ LÀ TỔ ẤM",
+        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS chia sẻ được góc yêu thích ở ngôi nhà của mình và những việc có thể làm để chăm sóc “tổ ấm”.",
+          "- HS biết thực hiện động tác minh họa, sắm vai thành viên gia đình để giới thiệu về ngôi nhà.",
+          "- HS lựa chọn được một việc vừa sức làm cùng người thân để nhà là nơi yêu thương, sạch đẹp, gọn gàng.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết thảo luận nhóm, sắm vai, lắng nghe và phản hồi lịch sự khi bạn chia sẻ về gia đình.",
+          "- Tự chủ và tự học: biết tự nhận nhiệm vụ phù hợp với sức của mình trong chăm sóc nhà cửa.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn cách sắp xếp, trang trí hoặc làm việc nhà phù hợp với điều kiện gia đình.",
+          "3. Phẩm chất",
+          "- Nhân ái: yêu thương, quan tâm đến người thân và không gian sống của gia đình.",
+          "- Chăm chỉ: tích cực tham gia đọc thơ, sắm vai, thảo luận và thực hiện việc nhà vừa sức.",
+          "- Trách nhiệm: biết chia sẻ việc nhà phù hợp lứa tuổi, giữ gìn nhà cửa sạch sẽ, gọn gàng.",
+          "4. Tích hợp",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền được yêu thương, chăm sóc trong gia đình và có bổn phận tham gia việc nhà vừa sức, phù hợp độ tuổi.",
+          "- Tích hợp AI (Khung 3439) - 3.A3.1: HS nhận thức AI có thể nhận diện sai người thân nếu ảnh bị mờ hoặc thiếu dữ liệu; biết cần kiểm chứng khi dùng công nghệ nhận diện hình ảnh như Google Photos, Face ID/Windows Hello hoặc ứng dụng gắn thẻ khuôn mặt.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Giúp đỡ cha mẹ chăm sóc tổ ấm gia đình bằng những việc làm vừa sức; giữ gìn nề nếp gia phong hiếu thảo, đầm ấm đặc trưng của cộng đồng các dân tộc tại quê hương Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M25): Tham gia dọn dẹp nhà cửa, tưới cây bằng nguồn nước tiết kiệm (tận dụng nước vo gạo, nước rửa rau); giữ sạch các lu, khạp trữ nước ngọt của gia đình."
+        ],
+        "dodd": [
+          "- Tranh SGK bài “Nhà là tổ ấm”; bài thơ “Tổ ấm”; thẻ việc nhà vừa sức.",
+          "- Bảng nhóm, bút màu; tranh ảnh về các hoạt động chăm sóc nhà cửa.",
+          "- Máy chiếu nếu có; hình minh họa về công nghệ nhận diện khuôn mặt/nhận diện ảnh để thảo luận an toàn."
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
+              "1. Khởi động: Đọc bài thơ “Tổ ấm” (8 phút)\nMục tiêu: HS gợi nhớ hình ảnh tổ ấm, tạo cảm xúc yêu thương gia đình và dẫn vào chủ đề “Nhà là tổ ấm”.\n*Cách tiến hành:",
               "1. Khởi động: Đọc bài thơ “Tổ ấm” (8 phút)\nMục tiêu: HS gợi nhớ hình ảnh tổ ấm, tạo cảm xúc yêu thương gia đình và dẫn vào chủ đề “Nhà là tổ ấm”.\n*Cách tiến hành:"
             ],
             [
@@ -6554,6 +6620,7 @@
               "- HS lắng nghe, chuẩn bị tham gia trò chơi chăm sóc tổ ấm."
             ],
             [
+              "2. Khám phá chủ đề: Chơi trò chơi “Chăm sóc tổ ấm” (15 phút)\nMục tiêu: HS sắm vai thành viên trong gia đình, thể hiện việc làm giúp ngôi nhà sạch đẹp.\nMục tiêu tích hợp: HS hiểu trẻ em có quyền được yêu thương, chăm sóc trong gia đình và có bổn phận tham gia việc nhà vừa sức, phù hợp độ tuổi.\n*Cách tiến hành:",
               "2. Khám phá chủ đề: Chơi trò chơi “Chăm sóc tổ ấm” (15 phút)\nMục tiêu: HS sắm vai thành viên trong gia đình, thể hiện việc làm giúp ngôi nhà sạch đẹp.\nMục tiêu tích hợp: HS hiểu trẻ em có quyền được yêu thương, chăm sóc trong gia đình và có bổn phận tham gia việc nhà vừa sức, phù hợp độ tuổi.\n*Cách tiến hành:"
             ],
             [
@@ -6589,6 +6656,7 @@
               "- HS lắng nghe, ghi nhớ nội dung bài học."
             ],
             [
+              "3. Mở rộng và tổng kết chủ đề: Lựa chọn việc em có thể làm cùng người thân để “nhà là tổ ấm” (9 phút)\nMục tiêu: HS lựa chọn một việc làm cụ thể, phù hợp với bản thân và người thân để chăm sóc ngôi nhà.\nMục tiêu tích hợp: HS nhận biết AI có thể nhận diện sai người thân hoặc nhầm hình ảnh gia đình nếu ảnh bị mờ, thiếu sáng, thiếu dữ liệu; biết kiểm chứng với người thân khi dùng công nghệ nhận diện hình ảnh.\n*Cách tiến hành:",
               "3. Mở rộng và tổng kết chủ đề: Lựa chọn việc em có thể làm cùng người thân để “nhà là tổ ấm” (9 phút)\nMục tiêu: HS lựa chọn một việc làm cụ thể, phù hợp với bản thân và người thân để chăm sóc ngôi nhà.\nMục tiêu tích hợp: HS nhận biết AI có thể nhận diện sai người thân hoặc nhầm hình ảnh gia đình nếu ảnh bị mờ, thiếu sáng, thiếu dữ liệu; biết kiểm chứng với người thân khi dùng công nghệ nhận diện hình ảnh.\n*Cách tiến hành:"
             ],
             [
@@ -6620,6 +6688,7 @@
               "- HS lắng nghe, tự giác ghi nhớ để phụ giúp gia đình mỗi ngày."
             ],
             [
+              "4. Cam kết hành động (3 phút)\nMục tiêu: HS cam kết một việc cụ thể sẽ làm cùng người thân để chăm sóc tổ ấm.\n*Cách tiến hành:",
               "4. Cam kết hành động (3 phút)\nMục tiêu: HS cam kết một việc cụ thể sẽ làm cùng người thân để chăm sóc tổ ấm.\n*Cách tiến hành:"
             ],
             [
@@ -6630,13 +6699,46 @@
               "- GV nhắc HS về nhà lựa chọn việc có thể làm an toàn, ghi nhớ cảm xúc của mình khi cùng người thân chăm sóc nhà cửa.",
               "- HS tiếp nhận nhiệm vụ và chuẩn bị chia sẻ kết quả trong tiết Sinh hoạt lớp."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA - TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: EM CHĂM SÓC NHÀ CỬA",
+        "topic": "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS chia sẻ được những việc đã làm hằng ngày để chăm sóc ngôi nhà của mình và cảm xúc khi làm các công việc đó.",
+          "- HS tham gia cuộc thi gấp chăn theo tác phong chú bộ đội, biết rèn thói quen gọn gàng, ngăn nắp.",
+          "- HS cam kết tiếp tục chăm sóc nhà cửa bằng những việc phù hợp, an toàn.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết chia sẻ thu hoạch, lắng nghe bạn, tham gia hoạt động nhóm tích cực.",
+          "- Tự chủ và tự học: biết tự đánh giá việc chăm sóc nhà cửa của bản thân và điều chỉnh thói quen hằng ngày.",
+          "- Giải quyết vấn đề và sáng tạo: biết tìm cách gấp, xếp, lau dọn gọn gàng, phù hợp với điều kiện gia đình.",
+          "3. Phẩm chất",
+          "- Nhân ái: biết yêu thương gia đình, chia sẻ việc nhà với người thân.",
+          "- Chăm chỉ: tích cực thực hiện việc nhà vừa sức, tham gia cuộc thi gấp chăn và hoạt động sinh hoạt lớp.",
+          "- Trách nhiệm: có ý thức giữ gìn nhà cửa sạch sẽ, gọn gàng, biết làm việc an toàn.",
+          "4. Tích hợp",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thương gia đình, tự giác làm việc nhà phù hợp, giữ gìn nhà cửa sạch sẽ và gọn gàng.",
+          "- Tích hợp QCN: HS hiểu trẻ em có quyền được sống trong gia đình yêu thương, an toàn; biết chia sẻ việc nhà phù hợp với lứa tuổi."
+        ],
+        "dodd": [
+          "- Bảng tổng kết tuần 15; nội dung phương hướng tuần 16.",
+          "- Một số chiếc chăn nhỏ hoặc khăn lớn sạch để luyện gấp; thẻ nhiệm vụ theo nhóm.",
+          "- Tranh SGK về các việc chăm sóc nhà cửa; phiếu cam kết việc làm ở nhà."
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí thân thiện trước giờ sinh hoạt lớp; HS sẵn sàng nhìn lại tuần học và chia sẻ việc chăm sóc nhà cửa.\n*Cách tiến hành:",
               "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí thân thiện trước giờ sinh hoạt lớp; HS sẵn sàng nhìn lại tuần học và chia sẻ việc chăm sóc nhà cửa.\n*Cách tiến hành:"
             ],
             [
@@ -6652,9 +6754,11 @@
               "- HS lắng nghe, chuẩn bị tham gia các hoạt động của tiết Sinh hoạt lớp."
             ],
             [
+              "2. Hoạt động tổng kết tuần (10 phút)\nMục tiêu: HS nhìn lại kết quả thực hiện nền nếp, học tập, vệ sinh, hoạt động chủ đề trong tuần 15 và thống nhất nhiệm vụ tuần 16.\n*Cách tiến hành:",
               "2. Hoạt động tổng kết tuần (10 phút)\nMục tiêu: HS nhìn lại kết quả thực hiện nền nếp, học tập, vệ sinh, hoạt động chủ đề trong tuần 15 và thống nhất nhiệm vụ tuần 16.\n*Cách tiến hành:"
             ],
             [
+              "2.1. Tổng kết tuần 15 (6 phút)\nMục tiêu: HS nhận xét được những việc lớp đã thực hiện tốt trong tuần 15 và những việc cần điều chỉnh.\n*Cách tiến hành:",
               "2.1. Tổng kết tuần 15 (6 phút)\nMục tiêu: HS nhận xét được những việc lớp đã thực hiện tốt trong tuần 15 và những việc cần điều chỉnh.\n*Cách tiến hành:"
             ],
             [
@@ -6678,6 +6782,7 @@
               "- HS lắng nghe, vỗ tay chúc mừng bạn được tuyên dương và ghi nhớ điều bản thân cần cố gắng."
             ],
             [
+              "2.2. Phương hướng tuần 16 (4 phút)\nMục tiêu: HS biết nhiệm vụ trọng tâm của tuần 16 và đăng kí một việc cụ thể để học tập tốt, giữ nền nếp, chuẩn bị chủ đề “Nhà sạch thì mát”.\n*Cách tiến hành:",
               "2.2. Phương hướng tuần 16 (4 phút)\nMục tiêu: HS biết nhiệm vụ trọng tâm của tuần 16 và đăng kí một việc cụ thể để học tập tốt, giữ nền nếp, chuẩn bị chủ đề “Nhà sạch thì mát”.\n*Cách tiến hành:"
             ],
             [
@@ -6693,6 +6798,7 @@
               "- HS nhận nhiệm vụ theo tổ; nêu lại phần việc của tổ mình để thực hiện trong tuần tới."
             ],
             [
+              "3. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ về việc em làm hằng ngày để chăm sóc ngôi nhà của mình (8 phút)\nMục tiêu: HS kể được những công việc đã làm, cách thực hiện và cảm xúc khi làm việc nhà.\nMục tiêu tích hợp: HS hiểu trẻ em có quyền được sống trong gia đình yêu thương, an toàn; biết chia sẻ việc nhà phù hợp với lứa tuổi.\n*Cách tiến hành:",
               "3. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ về việc em làm hằng ngày để chăm sóc ngôi nhà của mình (8 phút)\nMục tiêu: HS kể được những công việc đã làm, cách thực hiện và cảm xúc khi làm việc nhà.\nMục tiêu tích hợp: HS hiểu trẻ em có quyền được sống trong gia đình yêu thương, an toàn; biết chia sẻ việc nhà phù hợp với lứa tuổi.\n*Cách tiến hành:"
             ],
             [
@@ -6720,6 +6826,7 @@
               "- HS lắng nghe, tự nhắc mình tiếp tục thực hiện ở nhà."
             ],
             [
+              "4. Hoạt động nhóm: Tham gia cuộc thi gấp chăn theo tác phong chú bộ đội (12 phút)\nMục tiêu: HS rèn luyện tác phong gọn gàng, cẩn thận, kỉ luật khi thực hành gấp chăn theo nhóm.\nMục tiêu tích hợp: HS biết yêu thương gia đình, tự giác làm việc nhà phù hợp, giữ gìn nhà cửa sạch sẽ, gọn gàng; học tập tác phong kỉ luật, ngăn nắp của chú bộ đội.\n*Cách tiến hành:",
               "4. Hoạt động nhóm: Tham gia cuộc thi gấp chăn theo tác phong chú bộ đội (12 phút)\nMục tiêu: HS rèn luyện tác phong gọn gàng, cẩn thận, kỉ luật khi thực hành gấp chăn theo nhóm.\nMục tiêu tích hợp: HS biết yêu thương gia đình, tự giác làm việc nhà phù hợp, giữ gìn nhà cửa sạch sẽ, gọn gàng; học tập tác phong kỉ luật, ngăn nắp của chú bộ đội.\n*Cách tiến hành:"
             ],
             [
@@ -6751,6 +6858,7 @@
               "- HS lắng nghe nhận xét, vỗ tay chúc mừng nhóm bạn và rút kinh nghiệm cho bản thân."
             ],
             [
+              "5. Cam kết hành động (5 phút)\nMục tiêu: HS cam kết tiếp tục thực hiện việc nhà vừa sức, giữ nhà cửa sạch sẽ, gọn gàng.\n*Cách tiến hành:",
               "5. Cam kết hành động (5 phút)\nMục tiêu: HS cam kết tiếp tục thực hiện việc nhà vừa sức, giữ nhà cửa sạch sẽ, gọn gàng.\n*Cách tiến hành:"
             ],
             [
@@ -6764,58 +6872,6 @@
           ]
         ],
         "dieuchinh": [
-          "- ................................................................................................................................",
-          "- ................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-          "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA",
-          "TUẦN 15",
-          "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – NHÀ LÀ TỔ ẤM",
-          "1. Năng lực đặc thù",
-          "- HS chia sẻ được góc yêu thích ở ngôi nhà của mình và những việc có thể làm để chăm sóc “tổ ấm”.",
-          "- HS biết thực hiện động tác minh họa, sắm vai thành viên gia đình để giới thiệu về ngôi nhà.",
-          "- HS lựa chọn được một việc vừa sức làm cùng người thân để nhà là nơi yêu thương, sạch đẹp, gọn gàng.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết thảo luận nhóm, sắm vai, lắng nghe và phản hồi lịch sự khi bạn chia sẻ về gia đình.",
-          "- Tự chủ và tự học: biết tự nhận nhiệm vụ phù hợp với sức của mình trong chăm sóc nhà cửa.",
-          "- Giải quyết vấn đề và sáng tạo: biết chọn cách sắp xếp, trang trí hoặc làm việc nhà phù hợp với điều kiện gia đình.",
-          "3. Phẩm chất",
-          "- Nhân ái: yêu thương, quan tâm đến người thân và không gian sống của gia đình.",
-          "- Chăm chỉ: tích cực tham gia đọc thơ, sắm vai, thảo luận và thực hiện việc nhà vừa sức.",
-          "- Trách nhiệm: biết chia sẻ việc nhà phù hợp lứa tuổi, giữ gìn nhà cửa sạch sẽ, gọn gàng.",
-          "4. Tích hợp",
-          "- Tích hợp QCN: HS hiểu trẻ em có quyền được yêu thương, chăm sóc trong gia đình và có bổn phận tham gia việc nhà vừa sức, phù hợp độ tuổi.",
-          "- Tích hợp AI (Khung 3439) - 3.A3.1: HS nhận thức AI có thể nhận diện sai người thân nếu ảnh bị mờ hoặc thiếu dữ liệu; biết cần kiểm chứng khi dùng công nghệ nhận diện hình ảnh như Google Photos, Face ID/Windows Hello hoặc ứng dụng gắn thẻ khuôn mặt.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 2: Ấm áp tình người Trà Vinh - Trang 11 TLGDĐP Lớp 3 Trà Vinh): Giúp đỡ cha mẹ chăm sóc tổ ấm gia đình bằng những việc làm vừa sức; giữ gìn nề nếp gia phong hiếu thảo, đầm ấm đặc trưng của cộng đồng các dân tộc tại quê hương Trà Vinh.",
-          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M25): Tham gia dọn dẹp nhà cửa, tưới cây bằng nguồn nước tiết kiệm (tận dụng nước vo gạo, nước rửa rau); giữ sạch các lu, khạp trữ nước ngọt của gia đình.",
-          "- Tranh SGK bài “Nhà là tổ ấm”; bài thơ “Tổ ấm”; thẻ việc nhà vừa sức.",
-          "- Bảng nhóm, bút màu; tranh ảnh về các hoạt động chăm sóc nhà cửa.",
-          "- Máy chiếu nếu có; hình minh họa về công nghệ nhận diện khuôn mặt/nhận diện ảnh để thảo luận an toàn.",
-          "- ................................................................................................................................",
-          "- ................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 4: GIỮ GÌN NHÀ CỬA NGĂN NẮP, SẠCH ĐẸP",
-          "BÀI 15: NHÀ LÀ TỔ ẤM – EM CHĂM SÓC NHÀ CỬA",
-          "TUẦN 15",
-          "TIẾT 3: SINH HOẠT LỚP – SINH HOẠT THEO CHỦ ĐỀ: EM CHĂM SÓC NHÀ CỬA",
-          "1. Năng lực đặc thù",
-          "- HS chia sẻ được những việc đã làm hằng ngày để chăm sóc ngôi nhà của mình và cảm xúc khi làm các công việc đó.",
-          "- HS tham gia cuộc thi gấp chăn theo tác phong chú bộ đội, biết rèn thói quen gọn gàng, ngăn nắp.",
-          "- HS cam kết tiếp tục chăm sóc nhà cửa bằng những việc phù hợp, an toàn.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết chia sẻ thu hoạch, lắng nghe bạn, tham gia hoạt động nhóm tích cực.",
-          "- Tự chủ và tự học: biết tự đánh giá việc chăm sóc nhà cửa của bản thân và điều chỉnh thói quen hằng ngày.",
-          "- Giải quyết vấn đề và sáng tạo: biết tìm cách gấp, xếp, lau dọn gọn gàng, phù hợp với điều kiện gia đình.",
-          "3. Phẩm chất",
-          "- Nhân ái: biết yêu thương gia đình, chia sẻ việc nhà với người thân.",
-          "- Chăm chỉ: tích cực thực hiện việc nhà vừa sức, tham gia cuộc thi gấp chăn và hoạt động sinh hoạt lớp.",
-          "- Trách nhiệm: có ý thức giữ gìn nhà cửa sạch sẽ, gọn gàng, biết làm việc an toàn.",
-          "4. Tích hợp",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết yêu thương gia đình, tự giác làm việc nhà phù hợp, giữ gìn nhà cửa sạch sẽ và gọn gàng.",
-          "- Tích hợp QCN: HS hiểu trẻ em có quyền được sống trong gia đình yêu thương, an toàn; biết chia sẻ việc nhà phù hợp với lứa tuổi.",
-          "- Bảng tổng kết tuần 15; nội dung phương hướng tuần 16.",
-          "- Một số chiếc chăn nhỏ hoặc khăn lớn sạch để luyện gấp; thẻ nhiệm vụ theo nhóm.",
-          "- Tranh SGK về các việc chăm sóc nhà cửa; phiếu cam kết việc làm ở nhà.",
           "- ................................................................................................................................",
           "- ................................................................................................................................"
         ]
@@ -9627,13 +9683,13 @@
           "3. Phẩm chất",
           "- Nhân ái: yêu thương, biết ơn bà, mẹ và những người phụ nữ trong gia đình.",
           "- Trách nhiệm: biết phụ giúp việc vừa sức, ứng xử lễ phép khi ăn uống cùng gia đình.",
-          "- Chăm chỉ: tích cực tham gia hoạt động dưới cờ, mạnh dạn chia sẻ ý kiến.",
+          "- Chăm chỉ: tích cực tham gia hoạt động dưới cờ, mạnh dạn chia sẻ ý kiến."
+        ],
+        "dodd": [
           "- Sân trường hoặc hội trường; âm thanh, micro; tiết mục văn nghệ/đọc thơ/hoạt cảnh về bà và mẹ.",
           "- Tranh ảnh hoặc hình SGK về ngày 8 – 3; câu hỏi giao lưu về bữa cơm gia đình.",
           "- Hoa, thiệp hoặc thông điệp chúc mừng nếu có."
         ],
-        "dodung": [],
-        "activities": [],
         "tables": [
           [
             [
@@ -9641,6 +9697,7 @@
               "Hoạt động của HS"
             ],
             [
+              "1. Trước hoạt động (8 phút)\nMục tiêu: HS chuẩn bị tâm thế tham gia sinh hoạt dưới cờ; hiểu nhiệm vụ khi theo dõi chương trình chào mừng ngày 8 – 3.\n*Cách tiến hành:",
               "1. Trước hoạt động (8 phút)\nMục tiêu: HS chuẩn bị tâm thế tham gia sinh hoạt dưới cờ; hiểu nhiệm vụ khi theo dõi chương trình chào mừng ngày 8 – 3.\n*Cách tiến hành:"
             ],
             [
@@ -9664,6 +9721,7 @@
               "- HS quan sát và trả lời: Trên sân khấu, cô giáo giới thiệu chương trình, các bạn biểu diễn văn nghệ về chủ đề bà và mẹ; các bạn bên dưới ngồi xem và cổ vũ."
             ],
             [
+              "2. Trong hoạt động (22 phút)\nMục tiêu: HS tham gia nghi thức chào cờ, theo dõi văn nghệ và chia sẻ tình cảm với bà, mẹ qua bữa cơm gia đình.\n*Cách tiến hành:",
               "2. Trong hoạt động (22 phút)\nMục tiêu: HS tham gia nghi thức chào cờ, theo dõi văn nghệ và chia sẻ tình cảm với bà, mẹ qua bữa cơm gia đình.\n*Cách tiến hành:"
             ],
             [
@@ -9687,6 +9745,7 @@
               "- HS trả lời: Em có thể mời bà, mẹ ăn cơm, ăn uống gọn gàng, không kén chọn, biết cảm ơn người nấu ăn, phụ dọn bát sau bữa ăn."
             ],
             [
+              "3. Sau hoạt động – Cam kết hành động (5 phút)\nMục tiêu: HS nêu được một việc làm cụ thể để thể hiện tình yêu thương, biết ơn bà, mẹ trong sinh hoạt hằng ngày.\n*Cách tiến hành:",
               "3. Sau hoạt động – Cam kết hành động (5 phút)\nMục tiêu: HS nêu được một việc làm cụ thể để thể hiện tình yêu thương, biết ơn bà, mẹ trong sinh hoạt hằng ngày.\n*Cách tiến hành:"
             ],
             [
@@ -9697,13 +9756,46 @@
               "- GV kết luận: Lòng biết ơn bà, mẹ được thể hiện qua lời nói lễ phép, sự quan tâm và những việc làm nhỏ trong bữa cơm hằng ngày.",
               "- HS lắng nghe và chuẩn bị cho tiết hoạt động giáo dục theo chủ đề."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 23: BÊN MÂM CƠM – QUY TẮC ỨNG XỬ KHI ĂN UỐNG - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BÊN MÂM CƠM",
+        "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận biết được một số nguy cơ mất an toàn khi ăn uống trong bữa cơm gia đình.",
+          "- HS biết sắm vai, thảo luận và xây dựng quy tắc ứng xử trong ăn uống: trước bữa ăn, trong bữa ăn, sau bữa ăn.",
+          "- HS biết vận dụng quy tắc ăn uống an toàn, vệ sinh và lịch sự trong gia đình.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết thảo luận, phân vai, lắng nghe và đóng góp ý kiến trong nhóm.",
+          "- Tự chủ và tự học: biết tự nhìn lại thói quen ăn uống của mình và điều chỉnh hành vi chưa phù hợp.",
+          "- Giải quyết vấn đề và sáng tạo: biết xử lí tình huống nguy cơ mất an toàn khi ăn uống, đưa ra quy tắc phù hợp.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: thực hiện quy tắc vệ sinh, an toàn khi ăn uống và nhắc nhở người thân nhẹ nhàng.",
+          "- Nhân ái: biết quan tâm người thân trong bữa ăn, không làm ảnh hưởng đến người khác.",
+          "- Chăm chỉ: tích cực tham gia sắm vai, thảo luận và hoàn thành sản phẩm nhóm.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 4.1.CB1b: HS phân biệt được rủi ro và mối đe doạ đơn giản trong môi trường số khi tìm hiểu thông tin về an toàn ăn uống; biết chọn nội dung phù hợp và không làm theo hướng dẫn không an toàn.",
+          "- Tích hợp AI (Khung 3439) - 3.A1.2: Phân biệt việc dùng AI gợi ý thực đơn và việc em tự học kĩ năng nấu ăn/ứng xử; công cụ gợi ý: ChatGPT/Microsoft Copilot, Canva AI.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Giới thiệu những món ăn đặc sản truyền thống gắn liền với làng nghề quê hương Trà Vinh (bánh tét Trà Cuôn, bún nước lèo, cốm dẹp); trân trọng mồ hôi công sức của người lao động.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M24): Rửa tay bằng xà phòng dưới vòi nước chảy vừa đủ trước khi ăn cơm; uống nước đun sôi để nguội; sử dụng nguồn nước sạch an toàn trong chế biến thức ăn.",
+          "- Trong lớp học, bàn ghế kê thành dãy hoặc theo nhóm.",
+          "- Một số mũ/đạo cụ đơn giản để sắm vai bác sĩ, y tá, các con vật; giấy A1/A0, bút màu.",
+          "- Hình SGK về tiểu phẩm “Bác sĩ Ối đau quá”, xây dựng quy tắc ứng xử khi ăn uống."
+        ],
+        "dodd": [],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
+              "1. Khởi động: Chơi trò chơi “Nếu… thì…” (7 phút)\nMục tiêu: HS được dẫn vào chủ đề và suy nghĩ về những tình huống có nguy cơ mất an toàn vệ sinh thực phẩm trong bữa ăn.\n*Cách tiến hành:",
               "1. Khởi động: Chơi trò chơi “Nếu… thì…” (7 phút)\nMục tiêu: HS được dẫn vào chủ đề và suy nghĩ về những tình huống có nguy cơ mất an toàn vệ sinh thực phẩm trong bữa ăn.\n*Cách tiến hành:"
             ],
             [
@@ -9723,6 +9815,7 @@
               "- HS lắng nghe, chuẩn bị tham gia hoạt động sắm vai."
             ],
             [
+              "2. Khám phá chủ đề: Chia nhóm sắm vai các nhân vật trong tiểu phẩm “Bác sĩ Ối đau quá” (15 phút)\nMục tiêu: HS được nhắc nhở về các tình huống có nguy cơ mất an toàn khi ăn uống.\nMục tiêu tích hợp: HS biết nhận diện thông tin, lời khuyên an toàn khi ăn uống; không làm theo hướng dẫn ăn uống chưa được người lớn hoặc thầy cô kiểm chứng.\n*Cách tiến hành:",
               "2. Khám phá chủ đề: Chia nhóm sắm vai các nhân vật trong tiểu phẩm “Bác sĩ Ối đau quá” (15 phút)\nMục tiêu: HS được nhắc nhở về các tình huống có nguy cơ mất an toàn khi ăn uống.\nMục tiêu tích hợp: HS biết nhận diện thông tin, lời khuyên an toàn khi ăn uống; không làm theo hướng dẫn ăn uống chưa được người lớn hoặc thầy cô kiểm chứng.\n*Cách tiến hành:"
             ],
             [
@@ -9762,6 +9855,7 @@
               "- HS chăm chú lắng nghe và cam kết thực hiện đúng quy tắc ăn uống an toàn."
             ],
             [
+              "3. Mở rộng và tổng kết chủ đề: Xây dựng quy tắc ứng xử trong ăn uống (15 phút)\nMục tiêu: HS cùng đưa ra bí kíp để giữ vệ sinh, an toàn trong bữa ăn gia đình.\nMục tiêu tích hợp: HS phân biệt được AI chỉ là công cụ gợi ý thực đơn/món ăn; kĩ năng nấu ăn, giao tiếp và ứng xử trong bữa ăn cần do con người luyện tập.\n*Cách tiến hành:",
               "3. Mở rộng và tổng kết chủ đề: Xây dựng quy tắc ứng xử trong ăn uống (15 phút)\nMục tiêu: HS cùng đưa ra bí kíp để giữ vệ sinh, an toàn trong bữa ăn gia đình.\nMục tiêu tích hợp: HS phân biệt được AI chỉ là công cụ gợi ý thực đơn/món ăn; kĩ năng nấu ăn, giao tiếp và ứng xử trong bữa ăn cần do con người luyện tập.\n*Cách tiến hành:"
             ],
             [
@@ -9789,6 +9883,7 @@
               "- HS ghi nhớ các quy tắc và bổ sung vào sản phẩm nhóm."
             ],
             [
+              "4. Cam kết hành động (5 phút)\nMục tiêu: HS vận dụng quy tắc đã thống nhất vào bữa ăn gia đình.\n*Cách tiến hành:",
               "4. Cam kết hành động (5 phút)\nMục tiêu: HS vận dụng quy tắc đã thống nhất vào bữa ăn gia đình.\n*Cách tiến hành:"
             ],
             [
@@ -9799,16 +9894,48 @@
               "- GV cho HS quan sát hình SGK phần cam kết hành động và nêu một quy tắc sẽ thực hiện ở gia đình.",
               "- HS quan sát, nêu cam kết: Em sẽ rửa tay trước khi ăn, không cười đùa khi ăn, mời người lớn và phụ dọn bàn sau bữa ăn."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 23: BÊN MÂM CƠM – QUY TẮC ỨNG XỬ KHI ĂN UỐNG - TIẾT 3: SINH HOẠT LỚP – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
+        "topic": "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS chia sẻ được những điều đã làm được hoặc những khó khăn khi thực hiện quy tắc vệ sinh, an toàn khi ăn uống.",
+          "- HS biết thực hiện quy tắc ứng xử khi ăn uống ở trường và trong gia đình.",
+          "- HS xây dựng được khẩu hiệu vui để nhắc nhở việc đảm bảo an toàn khi ăn uống.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết chia sẻ, lắng nghe, góp ý nhẹ nhàng trong sinh hoạt lớp.",
+          "- Tự chủ và tự học: biết tự đánh giá thói quen ăn uống của mình và điều chỉnh hành vi.",
+          "- Giải quyết vấn đề và sáng tạo: biết viết khẩu hiệu, đề xuất cách nhắc nhở bạn bè ăn uống an toàn, lịch sự.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: thực hiện quy tắc ăn uống gọn gàng, lịch sự, an toàn ở trường và ở nhà.",
+          "- Nhân ái: biết cảm ơn người chuẩn bị bữa ăn, biết nhường nhịn và quan tâm bạn bè.",
+          "- Chăm chỉ: tích cực tham gia tổng kết tuần, chia sẻ và hoàn thành sản phẩm nhóm.",
+          "4. Tích hợp",
+          "- Tích hợp KNS: HS biết thực hiện quy tắc ứng xử khi ăn uống: ăn uống gọn gàng, lịch sự, không nói chuyện khi miệng còn thức ăn và biết cảm ơn người chuẩn bị bữa ăn.",
+          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết ứng xử lịch sự trong bữa ăn, biết mời, cảm ơn, nhường nhịn và trân trọng công sức chuẩn bị bữa cơm.",
+          "- Trong lớp học, có thể di chuyển đến nhà ăn/bếp ăn nếu điều kiện cho phép.",
+          "- Giấy bìa, bút màu, tranh minh họa quy tắc ăn uống.",
+          "- Hình SGK về chia sẻ quy tắc trong gia đình và thực hiện quy tắc ăn uống ở trường."
+        ],
+        "dodd": [],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
+              "1. Hoạt động tổng kết tuần (10 phút)\nMục tiêu: HS nhìn lại kết quả thực hiện nền nếp, học tập và việc rèn quy tắc ăn uống an toàn trong tuần 23.\n*Cách tiến hành:",
               "1. Hoạt động tổng kết tuần (10 phút)\nMục tiêu: HS nhìn lại kết quả thực hiện nền nếp, học tập và việc rèn quy tắc ăn uống an toàn trong tuần 23.\n*Cách tiến hành:"
             ],
             [
+              "1.1. Tổng kết tuần 23 (6 phút)\nMục tiêu: HS nhận xét được những việc lớp đã thực hiện tốt trong tuần 23 và những việc cần điều chỉnh.\n*Cách tiến hành:",
               "1.1. Tổng kết tuần 23 (6 phút)\nMục tiêu: HS nhận xét được những việc lớp đã thực hiện tốt trong tuần 23 và những việc cần điều chỉnh.\n*Cách tiến hành:"
             ],
             [
@@ -9832,6 +9959,7 @@
               "- HS lắng nghe, vỗ tay chúc mừng bạn được tuyên dương và ghi nhớ điều cần cố gắng."
             ],
             [
+              "1.2. Phương hướng tuần 24 (4 phút)\nMục tiêu: HS biết nhiệm vụ trọng tâm của tuần 24 và chuẩn bị cho nội dung ăn uống ngoài hàng quán.\n*Cách tiến hành:",
               "1.2. Phương hướng tuần 24 (4 phút)\nMục tiêu: HS biết nhiệm vụ trọng tâm của tuần 24 và chuẩn bị cho nội dung ăn uống ngoài hàng quán.\n*Cách tiến hành:"
             ],
             [
@@ -9843,6 +9971,7 @@
               "- HS nhận nhiệm vụ theo tổ và hứa cùng thực hiện."
             ],
             [
+              "2. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ về việc thực hiện quy tắc đảm bảo vệ sinh an toàn trong bữa ăn gia đình (8 phút)\nMục tiêu: HS chia sẻ thu hoạch của mình sau lần trải nghiệm trước.\n*Cách tiến hành:",
               "2. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ về việc thực hiện quy tắc đảm bảo vệ sinh an toàn trong bữa ăn gia đình (8 phút)\nMục tiêu: HS chia sẻ thu hoạch của mình sau lần trải nghiệm trước.\n*Cách tiến hành:"
             ],
             [
@@ -9862,6 +9991,7 @@
               "- HS lắng nghe, tự nhắc mình tiếp tục thực hiện."
             ],
             [
+              "3. Hoạt động nhóm: Thực hiện quy tắc ứng xử khi ăn uống ở trường (12 phút)\nMục tiêu: HS nhắc nhở những người xung quanh về việc quan tâm đến vệ sinh an toàn thực phẩm, thực hiện quy tắc ăn uống ở trường.\nMục tiêu tích hợp: HS biết ăn uống gọn gàng, lịch sự, không nói chuyện khi miệng còn thức ăn, biết cảm ơn và nhường nhịn trong bữa ăn.\n*Cách tiến hành:",
               "3. Hoạt động nhóm: Thực hiện quy tắc ứng xử khi ăn uống ở trường (12 phút)\nMục tiêu: HS nhắc nhở những người xung quanh về việc quan tâm đến vệ sinh an toàn thực phẩm, thực hiện quy tắc ăn uống ở trường.\nMục tiêu tích hợp: HS biết ăn uống gọn gàng, lịch sự, không nói chuyện khi miệng còn thức ăn, biết cảm ơn và nhường nhịn trong bữa ăn.\n*Cách tiến hành:"
             ],
             [
@@ -9889,6 +10019,7 @@
               "- HS ghi nhớ và tự nhắc mình thực hiện hằng ngày."
             ],
             [
+              "4. Cam kết hành động (5 phút)\nMục tiêu: HS tiếp tục thực hiện quy tắc đảm bảo vệ sinh an toàn khi ăn uống đã thống nhất cùng các bạn.\n*Cách tiến hành:",
               "4. Cam kết hành động (5 phút)\nMục tiêu: HS tiếp tục thực hiện quy tắc đảm bảo vệ sinh an toàn khi ăn uống đã thống nhất cùng các bạn.\n*Cách tiến hành:"
             ],
             [
@@ -9902,56 +10033,6 @@
           ]
         ],
         "dieuchinh": [
-          "- ................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
-          "BÀI 23: BÊN MÂM CƠM – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
-          "TUẦN 23",
-          "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ – BÊN MÂM CƠM",
-          "1. Năng lực đặc thù",
-          "- HS nhận biết được một số nguy cơ mất an toàn khi ăn uống trong bữa cơm gia đình.",
-          "- HS biết sắm vai, thảo luận và xây dựng quy tắc ứng xử trong ăn uống: trước bữa ăn, trong bữa ăn, sau bữa ăn.",
-          "- HS biết vận dụng quy tắc ăn uống an toàn, vệ sinh và lịch sự trong gia đình.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết thảo luận, phân vai, lắng nghe và đóng góp ý kiến trong nhóm.",
-          "- Tự chủ và tự học: biết tự nhìn lại thói quen ăn uống của mình và điều chỉnh hành vi chưa phù hợp.",
-          "- Giải quyết vấn đề và sáng tạo: biết xử lí tình huống nguy cơ mất an toàn khi ăn uống, đưa ra quy tắc phù hợp.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: thực hiện quy tắc vệ sinh, an toàn khi ăn uống và nhắc nhở người thân nhẹ nhàng.",
-          "- Nhân ái: biết quan tâm người thân trong bữa ăn, không làm ảnh hưởng đến người khác.",
-          "- Chăm chỉ: tích cực tham gia sắm vai, thảo luận và hoàn thành sản phẩm nhóm.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 4.1.CB1b: HS phân biệt được rủi ro và mối đe doạ đơn giản trong môi trường số khi tìm hiểu thông tin về an toàn ăn uống; biết chọn nội dung phù hợp và không làm theo hướng dẫn không an toàn.",
-          "- Tích hợp AI (Khung 3439) - 3.A1.2: Phân biệt việc dùng AI gợi ý thực đơn và việc em tự học kĩ năng nấu ăn/ứng xử; công cụ gợi ý: ChatGPT/Microsoft Copilot, Canva AI.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 7: Những làng nghề ở Trà Vinh - Trang 35 TLGDĐP Lớp 3 Trà Vinh): Giới thiệu những món ăn đặc sản truyền thống gắn liền với làng nghề quê hương Trà Vinh (bánh tét Trà Cuôn, bún nước lèo, cốm dẹp); trân trọng mồ hôi công sức của người lao động.",
-          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M10, M24): Rửa tay bằng xà phòng dưới vòi nước chảy vừa đủ trước khi ăn cơm; uống nước đun sôi để nguội; sử dụng nguồn nước sạch an toàn trong chế biến thức ăn.",
-          "- Trong lớp học, bàn ghế kê thành dãy hoặc theo nhóm.",
-          "- Một số mũ/đạo cụ đơn giản để sắm vai bác sĩ, y tá, các con vật; giấy A1/A0, bút màu.",
-          "- Hình SGK về tiểu phẩm “Bác sĩ Ối đau quá”, xây dựng quy tắc ứng xử khi ăn uống.",
-          "- ................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 6: ĂN UỐNG AN TOÀN, HỢP VỆ SINH",
-          "BÀI 23: BÊN MÂM CƠM – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
-          "TUẦN 23",
-          "TIẾT 3: SINH HOẠT LỚP – QUY TẮC ỨNG XỬ KHI ĂN UỐNG",
-          "1. Năng lực đặc thù",
-          "- HS chia sẻ được những điều đã làm được hoặc những khó khăn khi thực hiện quy tắc vệ sinh, an toàn khi ăn uống.",
-          "- HS biết thực hiện quy tắc ứng xử khi ăn uống ở trường và trong gia đình.",
-          "- HS xây dựng được khẩu hiệu vui để nhắc nhở việc đảm bảo an toàn khi ăn uống.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết chia sẻ, lắng nghe, góp ý nhẹ nhàng trong sinh hoạt lớp.",
-          "- Tự chủ và tự học: biết tự đánh giá thói quen ăn uống của mình và điều chỉnh hành vi.",
-          "- Giải quyết vấn đề và sáng tạo: biết viết khẩu hiệu, đề xuất cách nhắc nhở bạn bè ăn uống an toàn, lịch sự.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: thực hiện quy tắc ăn uống gọn gàng, lịch sự, an toàn ở trường và ở nhà.",
-          "- Nhân ái: biết cảm ơn người chuẩn bị bữa ăn, biết nhường nhịn và quan tâm bạn bè.",
-          "- Chăm chỉ: tích cực tham gia tổng kết tuần, chia sẻ và hoàn thành sản phẩm nhóm.",
-          "4. Tích hợp",
-          "- Tích hợp KNS: HS biết thực hiện quy tắc ứng xử khi ăn uống: ăn uống gọn gàng, lịch sự, không nói chuyện khi miệng còn thức ăn và biết cảm ơn người chuẩn bị bữa ăn.",
-          "- Tích hợp lý tưởng cách mạng, đạo đức, lối sống: HS biết ứng xử lịch sự trong bữa ăn, biết mời, cảm ơn, nhường nhịn và trân trọng công sức chuẩn bị bữa cơm.",
-          "- Trong lớp học, có thể di chuyển đến nhà ăn/bếp ăn nếu điều kiện cho phép.",
-          "- Giấy bìa, bút màu, tranh minh họa quy tắc ăn uống.",
-          "- Hình SGK về chia sẻ quy tắc trong gia đình và thực hiện quy tắc ăn uống ở trường.",
           "- ................................................................................................................................"
         ]
       }
@@ -12294,13 +12375,13 @@
           "3. Phẩm chất",
           "- Trách nhiệm: có ý thức giữ gìn môi trường lớp học, sân trường và nơi công cộng.",
           "- Nhân ái: biết quan tâm đến sức khỏe của mọi người khi môi trường bị ô nhiễm.",
-          "- Chăm chỉ: tích cực tham gia sinh hoạt dưới cờ và thực hiện nhiệm vụ được giao.",
+          "- Chăm chỉ: tích cực tham gia sinh hoạt dưới cờ và thực hiện nhiệm vụ được giao."
+        ],
+        "dodd": [
           "- Sân trường hoặc hội trường; âm thanh, micro, bảng tên chủ đề “Phóng viên môi trường nhí”.",
           "- Một số hình ảnh về môi trường sạch, môi trường bị ô nhiễm; thẻ đăng kí nhóm phóng viên.",
           "- Hình SGK về hoạt động “Phóng viên môi trường nhí”."
         ],
-        "dodung": [],
-        "activities": [],
         "tables": [
           [
             [
@@ -12308,6 +12389,7 @@
               "Hoạt động của HS"
             ],
             [
+              "1. Trước hoạt động (8 phút)\nMục tiêu: HS chuẩn bị tâm thế tham gia sinh hoạt dưới cờ; hiểu nhiệm vụ lắng nghe hướng dẫn thành lập nhóm phóng viên môi trường nhí.\n*Cách tiến hành:",
               "1. Trước hoạt động (8 phút)\nMục tiêu: HS chuẩn bị tâm thế tham gia sinh hoạt dưới cờ; hiểu nhiệm vụ lắng nghe hướng dẫn thành lập nhóm phóng viên môi trường nhí.\n*Cách tiến hành:"
             ],
             [
@@ -12327,6 +12409,7 @@
               "- HS lắng nghe nhiệm vụ và chuẩn bị theo dõi chương trình."
             ],
             [
+              "2. Trong hoạt động (22 phút)\nMục tiêu: HS tham gia nghi thức chào cờ, nghe hướng dẫn thành lập nhóm phóng viên môi trường nhí và biết đăng kí tham gia phù hợp.\n*Cách tiến hành:",
               "2. Trong hoạt động (22 phút)\nMục tiêu: HS tham gia nghi thức chào cờ, nghe hướng dẫn thành lập nhóm phóng viên môi trường nhí và biết đăng kí tham gia phù hợp.\n*Cách tiến hành:"
             ],
             [
@@ -12354,6 +12437,7 @@
               "- HS trả lời: Cần trung thực, quan sát cẩn thận, hỏi lịch sự, ghi chép rõ ràng, không tự ý đến nơi nguy hiểm."
             ],
             [
+              "3. Sau hoạt động - Cam kết hành động (5 phút)\nMục tiêu: HS nêu được một việc sẽ thực hiện để chuẩn bị làm phóng viên môi trường nhí trong tuần 30.\n*Cách tiến hành:",
               "3. Sau hoạt động - Cam kết hành động (5 phút)\nMục tiêu: HS nêu được một việc sẽ thực hiện để chuẩn bị làm phóng viên môi trường nhí trong tuần 30.\n*Cách tiến hành:"
             ],
             [
@@ -12364,13 +12448,47 @@
               "- GV kết luận: Phóng viên môi trường nhí cần quan sát trung thực, ghi chép rõ ràng và biết nhắc nhở mọi người cùng bảo vệ môi trường.",
               "- HS lắng nghe, ghi nhớ nhiệm vụ và chuẩn bị cho tiết hoạt động giáo dục theo chủ đề."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................",
+          "- ................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 30: MÔI TRƯỜNG KÊU CỨU - BẢNG THÔNG TIN MÔI TRƯỜNG - TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - MÔI TRƯỜNG KÊU CỨU",
+        "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS nhận biết được những biểu hiện của ô nhiễm môi trường trong vai trò “phóng viên môi trường nhí”.",
+          "- HS biết lựa chọn phương pháp khảo sát đơn giản: quan sát, ghi chép, phỏng vấn.",
+          "- HS lập được kế hoạch hành động ban đầu để tiếp tục khảo sát và cảnh báo về vấn đề môi trường.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết thảo luận, phân công nhiệm vụ và chia sẻ kết quả khảo sát trong nhóm.",
+          "- Tự chủ và tự học: biết quan sát môi trường xung quanh, ghi lại thông tin trung thực.",
+          "- Giải quyết vấn đề và sáng tạo: biết đề xuất cách phát hiện, cảnh báo và tuyên truyền về ô nhiễm môi trường.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: có ý thức quan sát, phát hiện và nhắc nhở việc bảo vệ môi trường.",
+          "- Trung thực: ghi chép kết quả khảo sát đúng với những điều đã quan sát được.",
+          "- Nhân ái: biết quan tâm đến sức khỏe của cộng đồng khi môi trường bị ô nhiễm.",
+          "4. Tích hợp",
+          "- Tích hợp AI (Khung 3439) - 3.C5.2: Biết AI và dữ liệu quan trắc hỗ trợ cảnh báo sớm ô nhiễm không khí, thiên tai để con người ứng phó; sử dụng công cụ cụ thể: IQAir AirVisual/PAM Air/Google Maps AQI dưới sự hướng dẫn của GV.",
+          "- Tích hợp NLS 5.2.CB1a: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn.",
+          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3: Các huyện thị ven biển Trà Vinh - TLGDĐP Lớp 3 Trà Vinh): Tìm hiểu thực trạng môi trường địa phương; có ý thức bảo vệ bờ biển Ba Động, dòng sông Cổ Chiên và các tuyến kênh rạch trên địa bàn tỉnh Trà Vinh.",
+          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M7, M18, M19): Đóng vai “phóng viên môi trường nhí” tuyên truyền không xả rác thải nhựa, vỏ bao bì thuốc bảo vệ thực vật xuống sông ngòi, kênh rạch nội đồng; chung tay bảo vệ nguồn nước trong sạch.",
+          "- Hình ảnh, tư liệu hoặc video ngắn về ô nhiễm môi trường.",
+          "- Phiếu khảo sát môi trường, bút viết, bảng nhóm.",
+          "- Hình SGK về dấu hiệu ô nhiễm, phương pháp khảo sát và phiếu khảo sát."
+        ],
+        "dodd": [],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
+              "1. Khởi động: Tìm hiểu và xác định những dấu hiệu cho thấy môi trường bị ô nhiễm (10 phút)\nMục tiêu: HS nhận biết một số dấu hiệu môi trường bị ô nhiễm qua tranh, ảnh, phim tư liệu ngắn và liên hệ thực tế địa phương.\n*Cách tiến hành:",
               "1. Khởi động: Tìm hiểu và xác định những dấu hiệu cho thấy môi trường bị ô nhiễm (10 phút)\nMục tiêu: HS nhận biết một số dấu hiệu môi trường bị ô nhiễm qua tranh, ảnh, phim tư liệu ngắn và liên hệ thực tế địa phương.\n*Cách tiến hành:"
             ],
             [
@@ -12398,6 +12516,7 @@
               "- HS lắng nghe và ghi nhớ nội dung."
             ],
             [
+              "2. Khám phá chủ đề: Khảo sát thực trạng môi trường trong vai trò “phóng viên môi trường nhí” (15 phút)\nMục tiêu: HS biết đăng kí, thảo luận phương pháp khảo sát và thực hành khảo sát đơn giản theo nhóm.\nMục tiêu tích hợp: HS nhận biết AI và dữ liệu quan trắc hỗ trợ cảnh báo sớm ô nhiễm; biết xem thông tin từ công cụ cụ thể như IQAir AirVisual/PAM Air/Google Maps AQI dưới sự hướng dẫn của GV.\n*Cách tiến hành:",
               "2. Khám phá chủ đề: Khảo sát thực trạng môi trường trong vai trò “phóng viên môi trường nhí” (15 phút)\nMục tiêu: HS biết đăng kí, thảo luận phương pháp khảo sát và thực hành khảo sát đơn giản theo nhóm.\nMục tiêu tích hợp: HS nhận biết AI và dữ liệu quan trắc hỗ trợ cảnh báo sớm ô nhiễm; biết xem thông tin từ công cụ cụ thể như IQAir AirVisual/PAM Air/Google Maps AQI dưới sự hướng dẫn của GV.\n*Cách tiến hành:"
             ],
             [
@@ -12445,6 +12564,7 @@
               "- HS nhiệt liệt hưởng ứng và quyết tâm bảo vệ nguồn nước."
             ],
             [
+              "3. Mở rộng và tổng kết chủ đề: Lập kế hoạch hành động của các phóng viên (8 phút)\nMục tiêu: HS lập được kế hoạch khảo sát, phỏng vấn và cảnh báo về ô nhiễm môi trường.\nMục tiêu tích hợp: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn.\n*Cách tiến hành:",
               "3. Mở rộng và tổng kết chủ đề: Lập kế hoạch hành động của các phóng viên (8 phút)\nMục tiêu: HS lập được kế hoạch khảo sát, phỏng vấn và cảnh báo về ô nhiễm môi trường.\nMục tiêu tích hợp: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn.\n*Cách tiến hành:"
             ],
             [
@@ -12468,6 +12588,7 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ của phóng viên môi trường nhí."
             ],
             [
+              "4. Cam kết hành động (5 phút)\nMục tiêu: HS cùng người thân tiếp tục quan sát môi trường xung quanh và ghi chép dấu hiệu ô nhiễm nếu có.\n*Cách tiến hành:",
               "4. Cam kết hành động (5 phút)\nMục tiêu: HS cùng người thân tiếp tục quan sát môi trường xung quanh và ghi chép dấu hiệu ô nhiễm nếu có.\n*Cách tiến hành:"
             ],
             [
@@ -12478,16 +12599,48 @@
               "- GV nhắc HS quan sát môi trường xung quanh, ghi chép lại nếu thấy có dấu hiệu ô nhiễm và cùng người thân phỏng vấn cô bác hàng xóm về ý thức bảo vệ môi trường.",
               "- HS cam kết thực hiện: Em sẽ quan sát quanh nhà, quanh đường đến trường và ghi lại những dấu hiệu ô nhiễm nếu có."
             ]
-          ],
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................",
+          "- ................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 30: MÔI TRƯỜNG KÊU CỨU - BẢNG THÔNG TIN MÔI TRƯỜNG - TIẾT 3: SINH HOẠT LỚP - BẢNG THÔNG TIN MÔI TRƯỜNG",
+        "topic": "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- HS làm được bảng Thông tin môi trường, qua đó nhắc nhở mọi người có ý thức bảo vệ môi trường.",
+          "- HS chia sẻ được công việc của phóng viên môi trường trong những ngày qua.",
+          "- HS biết trình bày kết quả khảo sát thực trạng môi trường bằng hình ảnh, chữ viết và thông điệp rõ ràng.",
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: biết thảo luận, phân công nhiệm vụ và đặt câu hỏi khi quan sát sản phẩm nhóm bạn.",
+          "- Tự chủ và tự học: biết tự nhìn lại việc đã làm, hoàn thiện sản phẩm theo góp ý.",
+          "- Giải quyết vấn đề và sáng tạo: biết chọn thông tin, hình ảnh, lời cảnh báo phù hợp để làm bảng thông tin.",
+          "3. Phẩm chất",
+          "- Trách nhiệm: có ý thức tuyên truyền, nhắc nhở mọi người bảo vệ môi trường.",
+          "- Chăm chỉ: tích cực hoàn thành nhiệm vụ nhóm, viết, vẽ và trình bày bảng thông tin.",
+          "- Trung thực: trình bày kết quả khảo sát đúng với thực tế đã quan sát.",
+          "4. Tích hợp",
+          "- Tích hợp NLS 3.1.CB1a: HS biết tạo bảng, tranh ghép hoặc poster số đơn giản để chia sẻ thông điệp bảo vệ môi trường; lựa chọn thông tin, hình ảnh phù hợp và trình bày an toàn.",
+          "- Trong lớp học, có thể di chuyển ra sân trường; giấy khổ to, bút màu, hồ dán.",
+          "- Phiếu khảo sát đã ghi chép; tranh ảnh, biểu tượng về ô nhiễm môi trường.",
+          "- Hình SGK về bảng Thông tin môi trường."
+        ],
+        "dodd": [],
+        "tables": [
           [
             [
               "Hoạt động của GV",
               "Hoạt động của HS"
             ],
             [
+              "1. Hoạt động tổng kết tuần (8 phút)\nMục tiêu: HS nhìn lại kết quả học tập, nền nếp và việc thực hiện nhiệm vụ phóng viên môi trường nhí trong tuần 30.\n*Cách tiến hành:",
               "1. Hoạt động tổng kết tuần (8 phút)\nMục tiêu: HS nhìn lại kết quả học tập, nền nếp và việc thực hiện nhiệm vụ phóng viên môi trường nhí trong tuần 30.\n*Cách tiến hành:"
             ],
             [
+              "1.1. Tổng kết tuần 30 (5 phút)\nMục tiêu: HS nhận xét được những việc lớp đã làm tốt và những việc cần cố gắng trong tuần 30.\n*Cách tiến hành:",
               "1.1. Tổng kết tuần 30 (5 phút)\nMục tiêu: HS nhận xét được những việc lớp đã làm tốt và những việc cần cố gắng trong tuần 30.\n*Cách tiến hành:"
             ],
             [
@@ -12507,6 +12660,7 @@
               "- HS lắng nghe, vỗ tay chúc mừng bạn được tuyên dương và ghi nhớ điều cần cố gắng."
             ],
             [
+              "1.2. Phương hướng tuần 31 (3 phút)\nMục tiêu: HS biết nhiệm vụ trọng tâm tuần 31 và tiếp tục hoàn thiện bảng thông tin, hành động vì môi trường xanh.\n*Cách tiến hành:",
               "1.2. Phương hướng tuần 31 (3 phút)\nMục tiêu: HS biết nhiệm vụ trọng tâm tuần 31 và tiếp tục hoàn thiện bảng thông tin, hành động vì môi trường xanh.\n*Cách tiến hành:"
             ],
             [
@@ -12518,6 +12672,7 @@
               "- HS nhận nhiệm vụ theo tổ và thống nhất khu vực sẽ tiếp tục theo dõi."
             ],
             [
+              "2. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ về công việc của phóng viên môi trường trong những ngày qua (8 phút)\nMục tiêu: HS chia sẻ được phát hiện, kinh nghiệm quan sát, ghi chép, phỏng vấn trong vai trò phóng viên môi trường nhí.\n*Cách tiến hành:",
               "2. Chia sẻ thu hoạch sau trải nghiệm: Chia sẻ về công việc của phóng viên môi trường trong những ngày qua (8 phút)\nMục tiêu: HS chia sẻ được phát hiện, kinh nghiệm quan sát, ghi chép, phỏng vấn trong vai trò phóng viên môi trường nhí.\n*Cách tiến hành:"
             ],
             [
@@ -12541,6 +12696,7 @@
               "- HS lắng nghe, ghi nhớ ý nghĩa của việc chia sẻ thu hoạch."
             ],
             [
+              "3. Hoạt động nhóm: Làm bảng Thông tin môi trường để thông báo về kết quả khảo sát thực trạng môi trường (15 phút)\nMục tiêu: HS biết phân công, viết, vẽ, gắn thông tin và đưa ra lời cảnh báo về tín hiệu kêu cứu của môi trường.\nMục tiêu tích hợp: HS biết tạo bảng, tranh ghép hoặc poster số đơn giản để chia sẻ thông điệp bảo vệ môi trường; lựa chọn thông tin, hình ảnh phù hợp và trình bày an toàn.\n*Cách tiến hành:",
               "3. Hoạt động nhóm: Làm bảng Thông tin môi trường để thông báo về kết quả khảo sát thực trạng môi trường (15 phút)\nMục tiêu: HS biết phân công, viết, vẽ, gắn thông tin và đưa ra lời cảnh báo về tín hiệu kêu cứu của môi trường.\nMục tiêu tích hợp: HS biết tạo bảng, tranh ghép hoặc poster số đơn giản để chia sẻ thông điệp bảo vệ môi trường; lựa chọn thông tin, hình ảnh phù hợp và trình bày an toàn.\n*Cách tiến hành:"
             ],
             [
@@ -12572,6 +12728,7 @@
               "- HS lắng nghe và tự hào về sản phẩm nhóm."
             ],
             [
+              "4. Cam kết hành động (5 phút)\nMục tiêu: HS tiếp tục thực hiện công việc của phóng viên môi trường nhí theo phân công của nhóm.\n*Cách tiến hành:",
               "4. Cam kết hành động (5 phút)\nMục tiêu: HS tiếp tục thực hiện công việc của phóng viên môi trường nhí theo phân công của nhóm.\n*Cách tiến hành:"
             ],
             [
@@ -12585,57 +12742,6 @@
           ]
         ],
         "dieuchinh": [
-          "- ................................................................................................................",
-          "- ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
-          "BÀI 30: MÔI TRƯỜNG KÊU CỨU - BẢNG THÔNG TIN MÔI TRƯỜNG",
-          "TUẦN 30",
-          "TIẾT 2: HOẠT ĐỘNG GIÁO DỤC THEO CHỦ ĐỀ - MÔI TRƯỜNG KÊU CỨU",
-          "1. Năng lực đặc thù",
-          "- HS nhận biết được những biểu hiện của ô nhiễm môi trường trong vai trò “phóng viên môi trường nhí”.",
-          "- HS biết lựa chọn phương pháp khảo sát đơn giản: quan sát, ghi chép, phỏng vấn.",
-          "- HS lập được kế hoạch hành động ban đầu để tiếp tục khảo sát và cảnh báo về vấn đề môi trường.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết thảo luận, phân công nhiệm vụ và chia sẻ kết quả khảo sát trong nhóm.",
-          "- Tự chủ và tự học: biết quan sát môi trường xung quanh, ghi lại thông tin trung thực.",
-          "- Giải quyết vấn đề và sáng tạo: biết đề xuất cách phát hiện, cảnh báo và tuyên truyền về ô nhiễm môi trường.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: có ý thức quan sát, phát hiện và nhắc nhở việc bảo vệ môi trường.",
-          "- Trung thực: ghi chép kết quả khảo sát đúng với những điều đã quan sát được.",
-          "- Nhân ái: biết quan tâm đến sức khỏe của cộng đồng khi môi trường bị ô nhiễm.",
-          "4. Tích hợp",
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: Biết AI và dữ liệu quan trắc hỗ trợ cảnh báo sớm ô nhiễm không khí, thiên tai để con người ứng phó; sử dụng công cụ cụ thể: IQAir AirVisual/PAM Air/Google Maps AQI dưới sự hướng dẫn của GV.",
-          "- Tích hợp NLS 5.2.CB1a: HS biết xử lí tình huống thực tế, tìm kiếm thông tin đơn giản khi cần hỗ trợ và chia sẻ kết quả học tập an toàn.",
-          "- Giáo dục địa phương tỉnh Trà Vinh (Chủ đề 1 & 3: Các huyện thị ven biển Trà Vinh - TLGDĐP Lớp 3 Trà Vinh): Tìm hiểu thực trạng môi trường địa phương; có ý thức bảo vệ bờ biển Ba Động, dòng sông Cổ Chiên và các tuyến kênh rạch trên địa bàn tỉnh Trà Vinh.",
-          "- Tiết kiệm và bảo vệ nguồn nước (QĐ 4670/QĐ-BGDĐT - Mã HĐ Mizuiku M6, M7, M18, M19): Đóng vai “phóng viên môi trường nhí” tuyên truyền không xả rác thải nhựa, vỏ bao bì thuốc bảo vệ thực vật xuống sông ngòi, kênh rạch nội đồng; chung tay bảo vệ nguồn nước trong sạch.",
-          "- Hình ảnh, tư liệu hoặc video ngắn về ô nhiễm môi trường.",
-          "- Phiếu khảo sát môi trường, bút viết, bảng nhóm.",
-          "- Hình SGK về dấu hiệu ô nhiễm, phương pháp khảo sát và phiếu khảo sát.",
-          "- ................................................................................................................",
-          "- ................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN HOẠT ĐỘNG TRẢI NGHIỆM LỚP 3",
-          "CHỦ ĐỀ 8: LÀM BẠN VỚI THIÊN NHIÊN",
-          "BÀI 30: MÔI TRƯỜNG KÊU CỨU - BẢNG THÔNG TIN MÔI TRƯỜNG",
-          "TUẦN 30",
-          "TIẾT 3: SINH HOẠT LỚP - BẢNG THÔNG TIN MÔI TRƯỜNG",
-          "1. Năng lực đặc thù",
-          "- HS làm được bảng Thông tin môi trường, qua đó nhắc nhở mọi người có ý thức bảo vệ môi trường.",
-          "- HS chia sẻ được công việc của phóng viên môi trường trong những ngày qua.",
-          "- HS biết trình bày kết quả khảo sát thực trạng môi trường bằng hình ảnh, chữ viết và thông điệp rõ ràng.",
-          "2. Năng lực chung",
-          "- Giao tiếp và hợp tác: biết thảo luận, phân công nhiệm vụ và đặt câu hỏi khi quan sát sản phẩm nhóm bạn.",
-          "- Tự chủ và tự học: biết tự nhìn lại việc đã làm, hoàn thiện sản phẩm theo góp ý.",
-          "- Giải quyết vấn đề và sáng tạo: biết chọn thông tin, hình ảnh, lời cảnh báo phù hợp để làm bảng thông tin.",
-          "3. Phẩm chất",
-          "- Trách nhiệm: có ý thức tuyên truyền, nhắc nhở mọi người bảo vệ môi trường.",
-          "- Chăm chỉ: tích cực hoàn thành nhiệm vụ nhóm, viết, vẽ và trình bày bảng thông tin.",
-          "- Trung thực: trình bày kết quả khảo sát đúng với thực tế đã quan sát.",
-          "4. Tích hợp",
-          "- Tích hợp NLS 3.1.CB1a: HS biết tạo bảng, tranh ghép hoặc poster số đơn giản để chia sẻ thông điệp bảo vệ môi trường; lựa chọn thông tin, hình ảnh phù hợp và trình bày an toàn.",
-          "- Trong lớp học, có thể di chuyển ra sân trường; giấy khổ to, bút màu, hồ dán.",
-          "- Phiếu khảo sát đã ghi chép; tranh ảnh, biểu tượng về ô nhiễm môi trường.",
-          "- Hình SGK về bảng Thông tin môi trường.",
           "- ................................................................................................................",
           "- ................................................................................................................"
         ]
@@ -14468,7 +14574,7 @@
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA) {
+  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {

@@ -2132,13 +2132,7 @@
             ]
           ]
         ]
-      }
-    ]
-  },
-  "4": {
-    "week": 4,
-    "sourceFile": "TOÁN TUẦN 4.docx",
-    "lessons": [
+      },
       {
         "lessonTitle": "BÀI 8. ÔN TẬP HÌNH HỌC VÀ ĐO LƯỜNG (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG",
@@ -2260,7 +2254,13 @@
             ]
           ]
         ]
-      },
+      }
+    ]
+  },
+  "4": {
+    "week": 4,
+    "sourceFile": "TOÁN TUẦN 4.docx",
+    "lessons": [
       {
         "lessonTitle": "BÀI 8. ÔN TẬP HÌNH HỌC VÀ ĐO LƯỜNG (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG",
@@ -2681,6 +2681,99 @@
             [
               "- GV nhận xét và chốt: Khi biểu thức có các thừa số chung, có thể vận dụng tính chất phân phối để tính nhanh, chính xác.",
               "- HS sửa bài và ghi nhớ cách tính thuận tiện."
+            ]
+          ]
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 10. KHÁI NIỆM SỐ THẬP PHÂN (TIẾT 1)",
+        "topic": "CHỦ ĐỀ 2: SỐ THẬP PHÂN",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết được khái niệm ban đầu về số thập phân; nhận biết phân số thập phân và cách viết dưới dạng số thập phân.",
+          "- Đọc, viết được các số thập phân đơn giản; nhận biết cấu tạo gồm phần nguyên, dấu phẩy và phần thập phân.",
+          "- Vận dụng giải các bài tập, bài toán thực tế liên quan đến số thập phân.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động, tích cực tìm hiểu nhận biết số thập phân; tự giác đọc, viết và kiểm tra kết quả bài làm.",
+          "- Giao tiếp và hợp tác: Trao đổi, thảo luận nhóm đôi, nhóm bốn để chia sẻ cách đọc, viết số thập phân và hoàn thành nhiệm vụ học tập.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức về phân số thập phân và số thập phân để giải quyết các tình huống thực tiễn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Ham học hỏi, tích cực tham gia các hoạt động học tập, hoàn thành tốt nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận, chính xác khi đọc, viết số thập phân; có ý thức giữ gìn vở sạch chữ đẹp.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: Nhận biết: Robot phẫu thuật cần độ chính xác đến hàng phần nghìn của số thập phân để đảm bảo an toàn tuyệt đối cho bệnh nhân."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK Toán 5 tập một; hình ảnh tia số, tranh vẽ khởi động và bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập/bảng phụ.",
+          "- Học sinh: SGK, vở Toán, bảng con, bút, thước kẻ."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí vui vẻ, phấn khởi trước giờ học; ôn lại các phân số thập phân có mẫu số là 10, 100, 1 000.\nCách tiến hành:"
+            ],
+            [
+              "- GV tổ chức trò chơi \"Đố bạn\": Yêu cầu mỗi nhóm cử đại diện đọc các phân số thập phân có mẫu số là 10, 100, 1 000 (ví dụ: 1/10; 3/10; 5/100; 12/1000).",
+              "- HS tham gia trò chơi theo nhóm, đại diện từng thành viên đọc nhanh các phân số thập phân đã tìm được."
+            ],
+            [
+              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Các phân số thập phân có thể viết dưới một dạng số mới rất tiện dụng trong đời sống và khoa học kĩ thuật, đó là số thập phân. Hôm nay chúng ta cùng học Bài 10: Khái niệm số thập phân (Tiết 1).",
+              "- HS lắng nghe, ghi vở tên bài học."
+            ],
+            [
+              "2. Khám phá (12 phút)\nMục tiêu: Nhận biết khái niệm ban đầu về số thập phân; biết cách viết và đọc các số thập phân đơn giản; nhận biết cấu tạo gồm phần nguyên và phần thập phân.\nCách tiến hành:"
+            ],
+            [
+              "- GV treo tranh/trình chiếu tình huống khám phá trong SGK: Rô-bốt, Mai và Nam quan sát chiếc thước đo có các vạch chia.",
+              "- HS quan sát tranh, đọc lời thoại của các bạn trong tình huống."
+            ],
+            [
+              "- GV hướng dẫn: 1 dm = 1/10 m, ta viết thành 0,1 m; đọc là: không phẩy một mét.\n- Tương tự: 1 cm = 1/100 m, viết là 0,01 m; đọc là: không phẩy không một mét.\n- 1 mm = 1/1000 m, viết là 0,001 m; đọc là: không phẩy không không một mét.",
+              "- HS quan sát, lắng nghe GV hướng dẫn và đồng thanh nhắc lại cách đọc, cách viết các số 0,1; 0,01; 0,001."
+            ],
+            [
+              "- GV giới thiệu: Các số 0,1; 0,01; 0,001; 0,5; 0,17; 9,17 được gọi là số thập phân.\n- GV hướng dẫn cấu tạo số thập phân: Mỗi số thập phân gồm hai phần: phần nguyên và phần thập phân, chúng được phân cách bởi dấu phẩy. Những chữ số ở bên trái dấu phẩy thuộc về phần nguyên; những chữ số ở bên phải dấu phẩy thuộc về phần thập phân (Ví dụ với số 9,17: phần nguyên là 9, phần thập phân gồm 1 và 7).",
+              "- HS chú ý lắng nghe, phân tích ví dụ số 9,17: phần nguyên là 9, phần thập phân gồm các chữ số 1 và 7. Vài HS nhắc lại kết luận theo SGK."
+            ],
+            [
+              "- Diễn giải tích hợp AI 5.A1.1: GV hướng dẫn HS liên hệ thực tế: Trong đời sống và y học hiện đại, các robot phẫu thuật điều khiển bằng trí tuệ nhân tạo (AI) phải đo đạc và thực hiện những đường mổ siêu nhỏ, yêu cầu độ chính xác đến hàng phần nghìn của milimét (số thập phân 0,001 mm). Nếu sai lệch dù chỉ một phần nghìn, tính mạng của bệnh nhân có thể gặp nguy hiểm. Vì vậy, số thập phân và độ chính xác của các hàng thập phân đóng vai trò sống còn trong công nghệ và y khoa.",
+              "- HS chăm chú lắng nghe, thảo luận về tầm quan trọng của độ chính xác số thập phân trong công nghệ AI và robot phẫu thuật."
+            ],
+            [
+              "3. Luyện tập, thực hành (13 phút)\nMục tiêu: Thực hành nêu số thập phân thích hợp trên tia số; đọc và viết các số thập phân; chuyển đổi số đo đại lượng dưới dạng số thập phân.\nCách tiến hành:"
+            ],
+            [
+              "- Bài 1a: GV mời 1 HS đọc yêu cầu bài 1a (Nêu số thập phân thích hợp với mỗi vạch của tia số). GV yêu cầu cả lớp quan sát tia số từ 0 đến 1 được chia làm 10 phần bằng nhau.\n- GV mời HS nêu kết quả.",
+              "- 1 HS đọc yêu cầu bài 1a. Cả lớp quan sát tia số và làm việc chung.\n- HS trả lời: Các số thập phân cần điền tiếp trên tia số lần lượt là: 0,4; 0,5; 0,6; 0,7.\n- HS khác nhận xét, đối chiếu bài làm."
+            ],
+            [
+              "- Bài 1b: GV yêu cầu HS đọc nối tiếp các số thập phân 0,4; 0,5; 0,04; 0,05 (theo mẫu).\n- GV nhận xét, tuyên dương HS đọc rõ ràng, chính xác.",
+              "- 4 HS đọc nối tiếp:\n+ 0,4 đọc là: Không phẩy bốn.\n+ 0,5 đọc là: Không phẩy năm.\n+ 0,04 đọc là: Không phẩy không bốn.\n+ 0,05 đọc là: Không phẩy không năm.\n- Cả lớp theo dõi, nhận xét."
+            ],
+            [
+              "- Bài 2a: GV hướng dẫn HS quan sát mẫu: 1 kg = 1/1000 tấn = 0,001 tấn. GV yêu cầu HS làm việc nhóm đôi đổi: 564 m = ? km.\n- Bài 2b: GV yêu cầu HS quan sát ví dụ mẫu và viết số đo đại lượng thích hợp: 3,2 m = ? mm; 4,5 kg = ? g.",
+              "- HS thảo luận nhóm đôi, thực hiện vào bảng con:\n+ 564 m = 564/1000 km = 0,564 km.\n+ 3,2 m = 3 200 mm; 4,5 kg = 4 500 g.\n- Đại diện nhóm nêu cách làm và kết quả. Lớp nhận xét, thống nhất."
+            ],
+            [
+              "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Củng cố cách viết số thập phân, xác định phần nguyên và phần thập phân; vận dụng kiến thức vào thực tế.\nCách tiến hành:"
+            ],
+            [
+              "- Bài 3: GV yêu cầu HS làm bài cá nhân: Nêu số thập phân thích hợp rồi cho biết phần nguyên, phần thập phân của số thập phân đó (ví dụ: 132 mm = ? cm; 165/100 m = ? m).\n- GV gọi đại diện HS trình bày và giải thích.",
+              "- HS làm việc cá nhân vào vở:\n+ 132 mm = 13,2 cm (phần nguyên là 13, phần thập phân là 2).\n+ 165/100 m = 1,65 m (phần nguyên là 1, phần thập phân gồm 6 và 5).\n- 2 HS trình bày trước lớp, giải thích cách xác định phần nguyên và phần thập phân."
+            ],
+            [
+              "- GV nhận xét tiết học, tuyên dương tinh thần học tập của lớp. Dặn dò HS ôn lại bài và chuẩn bị Tiết 2.",
+              "- HS lắng nghe, ghi nhớ và thực hiện."
             ]
           ]
         ]
@@ -4520,6 +4613,154 @@
             [
               "- GV chốt đáp án Bài 2 và nhắc HS trình bày đủ phép tính, đổi đơn vị và đáp số.",
               "- HS sửa bài và ghi nhớ cách giải toán có lời văn liên quan đến diện tích."
+            ]
+          ]
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 16. CÁC ĐƠN VỊ ĐO DIỆN TÍCH (TIẾT 1)",
+        "topic": "CHỦ ĐỀ 3: MỘT SỐ ĐƠN VỊ ĐO DIỆN TÍCH",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhắc lại và củng cố hệ thống các đơn vị đo diện tích đã học: km², ha, m², dm², cm², mm²; mối liên hệ giữa các đơn vị đo diện tích liền kề.",
+          "- Thực hiện được việc chuyển đổi giữa một số đơn vị đo diện tích đã học.",
+          "- Giải quyết được một số vấn đề thực tiễn gắn với số đo diện tích.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động thực hiện các bài tập đổi đơn vị diện tích; biết tự kiểm tra và sửa sai kết quả bài làm.",
+          "- Giao tiếp và hợp tác: Trao đổi, thảo luận cùng bạn để thống nhất kết quả giải bài toán và các mối liên hệ giữa các đơn vị đo diện tích.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng linh hoạt bảng đơn vị đo diện tích để giải các bài toán thực tiễn gắn với đời sống.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Ham học hỏi, tích cực tham gia phát biểu và làm bài tập.",
+          "- Trách nhiệm: Cẩn thận, chính xác khi thực hiện chuyển đổi đơn vị và trình bày bài giải.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: Robot nông nghiệp tích hợp AI tự động tính diện tích ruộng để phun thuốc trừ sâu chính xác đến từng cm², tránh lãng phí."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK Toán 5 tập một; bảng phụ/màn hình trình chiếu bảng các đơn vị đo diện tích; phiếu học tập khi cần.",
+          "- Học sinh: SGK, vở Toán, bảng con, bút, thước kẻ."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí vui vẻ, phấn khởi; nhắc lại và hệ thống hóa các đơn vị đo diện tích đã học.\nCách tiến hành:"
+            ],
+            [
+              "- GV yêu cầu HS quan sát hình ảnh và đọc thông tin trong SGK trang 56.\n- GV yêu cầu HS nhắc lại các đơn vị đo diện tích đã học từ lớn đến bé: km², ha, m², dm², cm², mm².\n- GV trình chiếu bảng tổng hợp các đơn vị đo diện tích và mối quan hệ giữa hai đơn vị đo liền nhau.",
+              "- HS quan sát hình ảnh, đọc thông tin SGK.\n- HS nêu tên các đơn vị đo diện tích: ki-lô-mét vuông, héc-ta, mét vuông, đề-xi-mét vuông, xăng-ti-mét vuông, mi-li-mét vuông.\n- HS nhắc lại: Mỗi đơn vị đo diện tích gấp 100 lần đơn vị bé hơn liền sau và bằng 1/100 đơn vị lớn hơn liền trước."
+            ],
+            [
+              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 1).",
+              "- HS lắng nghe, ghi tên bài vào vở."
+            ],
+            [
+              "2. Luyện tập, thực hành (22 phút)\nMục tiêu: Củng cố việc nhận biết và chuyển đổi giữa các đơn vị đo diện tích km², ha, m², dm², cm², mm²; giải quyết bài toán chọn số đo thích hợp.\nCách tiến hành:"
+            ],
+            [
+              "- Bài 1 (SGK trang 57): GV yêu cầu HS đọc đề bài: Chọn câu trả lời đúng.\n- GV cho HS quan sát hình ảnh bài tập trong SGK, suy nghĩ và chọn đáp án.\n- GV mời HS chia sẻ kết quả và giải thích lí do chọn.",
+              "- 1 HS đọc đề bài, cả lớp theo dõi hình ảnh trong SGK.\n- HS suy nghĩ, làm bài cá nhân và giơ thẻ chọn đáp án đúng: Đáp án D.\n- HS giải thích: Vì diện tích thực tế của địa danh/khu đất phù hợp với số đo có đơn vị tương ứng."
+            ],
+            [
+              "- Bài 2 (SGK trang 57): Số?\n- GV yêu cầu HS làm việc cá nhân vào vở, đổi các đơn vị đo diện tích:\na) 5 km² = ? ha; 12 km² = ? dm²; 6 dm² = ? cm²\nb) 600 ha = ? km²; 2 500 dm² = ? m²; 900 cm² = ? dm²\nc) 2 m² 5 dm² = ? dm²; 40 cm² 4 mm² = ? mm²; 615 dm² = ? m² ? dm²\n- GV cho 2 HS ngồi cạnh đổi vở chữa bài cho nhau.",
+              "- HS làm bài vào vở:\na) 5 km² = 500 ha; 12 km² = 1 200 000 000 dm²; 6 dm² = 600 cm²\nb) 600 ha = 6 km²; 2 500 dm² = 25 m²; 900 cm² = 9 dm²\nc) 2 m² 5 dm² = 205 dm²; 40 cm² 4 mm² = 4 004 mm²; 615 dm² = 6 m² 15 dm².\n- HS đổi vở kiểm tra, báo cáo kết quả trước lớp."
+            ],
+            [
+              "- Diễn giải tích hợp AI 5.A1.1: GV hướng dẫn HS quan sát việc ứng dụng các đơn vị đo diện tích nhỏ (cm², dm², m²) và đơn vị lớn (ha, km²) trong nông nghiệp công nghệ cao:\n+ Trong các cánh đồng thông minh hiện nay, các máy bay không người lái (drone) và robot nông nghiệp tích hợp trí tuệ nhân tạo (AI) có khả năng quét hình ảnh cánh đồng, tự động tính toán diện tích từng khoảnh ruộng, thậm chí diện tích tán lá từng gốc cây chính xác đến từng centimét vuông (cm²).\n+ Từ việc tính diện tích chính xác, AI điều khiển vòi phun lượng thuốc bảo vệ thực vật hoặc phân bón vừa đủ cho từng centimét vuông đó, giúp tiết kiệm chi phí, tránh lãng phí và bảo vệ môi trường đất, nước.",
+              "- HS lắng nghe, hào hứng tìm hiểu về cách AI và robot nông nghiệp ứng dụng đơn vị đo diện tích cm² để phun thuốc chính xác, bảo vệ môi trường."
+            ],
+            [
+              "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Củng cố kiến thức đã học; rèn kĩ năng ước lượng số đo diện tích đồ vật trong thực tế.\nCách tiến hành:"
+            ],
+            [
+              "- Bài 3 (SGK trang 57): GV yêu cầu HS đọc đề bài (Chọn câu trả lời đúng), thảo luận nhóm đôi thống nhất kết quả.\n- GV gọi đại diện HS trả lời.\n- GV mở rộng: Yêu cầu HS ước lượng diện tích mặt bàn học, bảng lớp, nền phòng học bằng các đơn vị đo m², dm² thích hợp.",
+              "- HS thảo luận nhóm đôi, chọn đáp án đúng và nêu trước lớp.\n- HS thực hành ước lượng: Diện tích mặt bàn khoảng 40 dm² (hoặc 0,4 m²); diện tích bảng lớp khoảng 3 m²; diện tích phòng học khoảng 48 m²."
+            ],
+            [
+              "- GV nhận xét tiết học, tuyên dương các nhóm học tập tích cực. Dặn dò HS chuẩn bị Tiết 2.",
+              "- HS lắng nghe và ghi nhớ."
+            ]
+          ]
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 16. CÁC ĐƠN VỊ ĐO DIỆN TÍCH (TIẾT 2)",
+        "topic": "CHỦ ĐỀ 3: MỘT SỐ ĐƠN VỊ ĐO DIỆN TÍCH",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Tiếp tục củng cố kĩ năng viết số đo diện tích dưới dạng số thập phân và chuyển đổi các đơn vị đo diện tích phức hợp.",
+          "- Vận dụng việc chuyển đổi các đơn vị đo diện tích để giải các bài toán thực tiễn liên quan đến diện tích căn hộ, khu đất, xây nhà, bồn hoa.",
+          "- Rèn luyện năng lực tư duy toán học, ước lượng và giải quyết vấn đề thực tế.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động làm bài tập, biết tính toán và viết số đo diện tích dưới dạng số thập phân.",
+          "- Giao tiếp và hợp tác: Tự tin trao đổi với bạn trong nhóm khi làm bài tập chọn số đo phù hợp và giải toán có lời văn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng linh hoạt các phép tính số thập phân và phân số để giải bài toán tính diện tích thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Hoàn thành đầy đủ các bài tập trong tiết học.",
+          "- Trách nhiệm: Có ý thức bảo vệ môi trường, yêu quý thiên nhiên và giữ gìn khuôn viên xanh sạch đẹp.",
+          "4. Tích hợp",
+          "- BVMT: Tính diện tích vườn cây, bồn hoa, khuôn viên xanh; giáo dục học sinh trồng, chăm sóc cây và giữ gìn cảnh quan môi trường sống."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập 1, bài 4 SGK trang 58, 59; máy tính, máy chiếu; phiếu học tập.",
+          "- Học sinh: SGK, vở Toán, bảng con, bút, thước kẻ."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí vui tươi; ôn lại kĩ năng viết số đo diện tích dưới dạng số thập phân.\nCách tiến hành:"
+            ],
+            [
+              "- GV yêu cầu HS ghi kết quả đổi đơn vị vào bảng con:\na) 4 m² 5 dm² = ... m²\nb) 7 cm² 10 mm² = ... cm²\nc) 14 km² 50 ha = ... km²\n- GV nhận xét kết quả bảng con, yêu cầu HS giải thích cách đổi.",
+              "- HS tính và ghi nhanh vào bảng con:\na) 4 m² 5 dm² = 4,05 m²\nb) 7 cm² 10 mm² = 7,1 cm²\nc) 14 km² 50 ha = 14,5 km² (hoặc 14,50 km²)\n- 2 HS giải thích cách đổi: Dựa vào quan hệ 1 m² = 100 dm² nên 5 dm² = 0,05 m²."
+            ],
+            [
+              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 2).",
+              "- HS lắng nghe, mở SGK trang 58."
+            ],
+            [
+              "2. Luyện tập, thực hành (22 phút)\nMục tiêu: Củng cố việc lựa chọn số đo diện tích phù hợp với đồ vật/địa danh; chuyển đổi các đơn vị đo diện tích sang số thập phân; giải bài toán tính diện tích thực tế.\nCách tiến hành:"
+            ],
+            [
+              "- Bài 1 (SGK trang 58): Chọn số đo phù hợp với diện tích của mỗi đồ vật, địa danh dưới đây.\n- GV mời HS quan sát hình ảnh trong SGK trang 58 (Mặt sàn căn hộ; Chiếc khăn mặt; Diện tích tỉnh Lạng Sơn).\n- GV gọi HS nêu kết quả nối ghép.",
+              "- HS quan sát tranh, suy nghĩ và nối ghép:\n+ Diện tích mặt sàn căn hộ: 94 m²\n+ Diện tích chiếc khăn mặt: 225 cm²\n+ Diện tích tỉnh Lạng Sơn: 8 310 km²\n- Lớp nhận xét, đồng tình."
+            ],
+            [
+              "- Bài 2 (SGK trang 58): Số?\n- GV yêu cầu HS làm bài theo nhóm 4, viết số đo diện tích dưới dạng số thập phân:\na) 30 dm² = ? m²; 271 mm² = ? dm²; 54 m² = ? ha\nb) 3 m² 7 dm² = ? m²; 8 cm² 10 mm² = ? cm²; 12 km² 50 ha = ? km²\n- GV theo dõi, hỗ trợ các nhóm gặp khó khăn.",
+              "- Các nhóm thảo luận, viết kết quả vào bảng nhóm:\na) 30 dm² = 0,3 m²; 271 mm² = 0,0271 dm²; 54 m² = 0,0054 ha\nb) 3 m² 7 dm² = 3,07 m²; 8 cm² 10 mm² = 8,1 cm²; 12 km² 50 ha = 12,5 km²\n- Đại diện nhóm trình bày, lớp nhận xét, đối chiếu kết quả."
+            ],
+            [
+              "- Bài 3 (SGK trang 59): Chọn câu trả lời đúng.\n- GV yêu cầu HS đọc kĩ đề bài về ô cửa sổ hình chữ nhật và các đáp án A, B, C, D.\n- GV mời HS giải thích cách tính diện tích ô cửa sổ.",
+              "- HS đọc đề bài, tính nhẩm diện tích ô cửa sổ:\n1 m × 3/5 m = 3/5 m² = 0,6 m² = 60 dm².\n- HS chọn Đáp án D (60 dm²)."
+            ],
+            [
+              "- Bài 4 (SGK trang 59): GV mời 1 HS đọc đề bài (Bác Tư có mảnh đất 1 ha; dành 1/10 diện tích xây nhà, phần còn lại trồng cây xanh và làm vườn; tính diện tích đất xây nhà theo m²).\n- Diễn giải tích hợp BVMT: GV cho HS nhận xét: Bác Tư chỉ dùng 1/10 diện tích (1 000 m²) để xây nhà, còn lại tới 9/10 diện tích (9 000 m²) bác dành để trồng cây xanh, vườn hoa và thảm cỏ xanh. GV giáo dục HS: Việc dành nhiều diện tích cho cây xanh, bồn hoa và khuôn viên giúp không khí trong lành, giảm nhiệt độ mùa hè, chống biến đổi khí hậu; các em cần tích cực tham gia trồng và chăm sóc cây xanh tại trường và gia đình.",
+              "- 1 HS đọc đề bài, lớp theo dõi.\n- HS giải bài toán vào vở:\nBài giải:\nĐổi: 1 ha = 10 000 m²\nDiện tích đất bác Tư dùng để xây nhà là:\n10 000 × 1/10 = 1 000 (m²)\nĐáp số: 1 000 m².\n- HS lắng nghe nội dung giáo dục bảo vệ môi trường, cam kết tích cực chăm sóc bồn hoa, cây xanh trong khuôn viên trường học."
+            ],
+            [
+              "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Củng cố nội dung bài học; rèn kĩ năng vận dụng đo đạc diện tích trong cuộc sống hằng ngày.\nCách tiến hành:"
+            ],
+            [
+              "- GV tổ chức trò chơi 'Nhà thiết kế xanh nhí': Yêu cầu HS nêu ý tưởng phân chia diện tích một khu vườn trường học gồm lối đi, bồn hoa, cây bóng mát sao cho hợp lí và thân thiện môi trường.\n- GV nhận xét tiết học, tuyên dương học sinh học tập tích cực, dặn dò chuẩn bị bài học tuần sau.",
+              "- HS sôi nổi nêu ý tưởng thiết kế khu vườn xanh: Dành phần lớn diện tích cho bồn hoa và cây xanh bóng mát, lối đi nhỏ lát gạch sạch sẽ.\n- HS lắng nghe, ghi nhớ nhiệm vụ về nhà."
             ]
           ]
         ]

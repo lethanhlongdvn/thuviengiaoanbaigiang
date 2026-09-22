@@ -568,7 +568,7 @@ var AIService = {
         var itemsHtml = items.map(function(item) {
           var itemText = typeof item === 'string' ? item : (item.text || "");
           if (isWord) {
-            return `<div style="margin-left: 20pt; line-height: 140%;">☐ ${itemText}</div>`;
+            return `<div style="margin: 0pt; margin-left: 20pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt; margin-top: 0pt; margin-bottom: 2pt;">☐ ${itemText}</div>`;
           } else {
             return `
               <div style="display: flex; align-items: flex-start; gap: 0.5rem; margin-bottom: 4px;">
@@ -579,9 +579,9 @@ var AIService = {
           }
         }).join('');
         return `
-          <div class="q-block" style="margin-bottom: 12px;" ${isWord ? '' : 'contenteditable="true"'}>
-            <div>${qTitle}</div>
-            <div style="padding-left: 1.25rem; margin-top: 5px;">
+          <div class="q-block" style="margin: 0pt; margin-top: 0pt; margin-bottom: 8pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;" ${isWord ? '' : 'contenteditable="true"'}>
+            <div style="line-height: 1.0; margin: 0pt; margin-bottom: 2pt;">${qTitle}</div>
+            <div style="padding-left: ${isWord ? '15pt' : '1.25rem'}; margin-top: 2pt; line-height: 1.0;">
               ${itemsHtml}
             </div>
           </div>
@@ -600,19 +600,19 @@ var AIService = {
         var textB = colB[i] ? (typeof colB[i] === 'string' ? colB[i] : `${colB[i].id || String.fromCharCode(65 + i)}. ${colB[i].text}`) : "";
         rowsHtml.push(`
           <tr>
-            <td style="border: 1px solid #000; padding: 5px 8px; width: 50%; text-align: left;">${textA}</td>
-            <td style="border: 1px solid #000; padding: 5px 8px; width: 50%; text-align: left;">${textB}</td>
+            <td style="border: 1px solid #000; padding: 4px 6px; width: 50%; text-align: left; line-height: 1.0; font-family: 'Times New Roman', serif;">${textA}</td>
+            <td style="border: 1px solid #000; padding: 4px 6px; width: 50%; text-align: left; line-height: 1.0; font-family: 'Times New Roman', serif;">${textB}</td>
           </tr>
         `);
       }
       return `
-        <div class="q-block" style="margin-bottom: 12px;" ${isWord ? '' : 'contenteditable="true"'}>
-          <div>${qTitle}</div>
-          <table style="width: 92%; border-collapse: collapse; margin: 6px auto; font-size: ${isWord ? '11pt' : '11.5pt'};">
+        <div class="q-block" style="margin: 0pt; margin-top: 0pt; margin-bottom: 8pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;" ${isWord ? '' : 'contenteditable="true"'}>
+          <div style="line-height: 1.0; margin: 0pt; margin-bottom: 2pt;">${qTitle}</div>
+          <table style="width: 92%; border-collapse: collapse; margin: 4pt auto; font-family: 'Times New Roman', serif; font-size: ${isWord ? '11pt' : '11.5pt'}; line-height: 1.0;">
             <thead>
               <tr style="${isWord ? 'background-color: #f2f2f2;' : 'background: #f1f5f9;'} font-weight: bold; text-align: center;">
-                <th style="border: 1px solid #000; padding: 5px 8px;">Cột A</th>
-                <th style="border: 1px solid #000; padding: 5px 8px;">Cột B</th>
+                <th style="border: 1px solid #000; padding: 4px 6px; line-height: 1.0;">Cột A</th>
+                <th style="border: 1px solid #000; padding: 4px 6px; line-height: 1.0;">Cột B</th>
               </tr>
             </thead>
             <tbody>
@@ -628,13 +628,13 @@ var AIService = {
       var wordBankText = "";
       if (q.wordBank) {
         var words = Array.isArray(q.wordBank) ? q.wordBank.join(', ') : q.wordBank;
-        wordBankText = `<div style="font-style: italic; color: #475569; margin-top: 4px;">(Từ cho sẵn: ${words})</div>`;
+        wordBankText = `<div style="font-style: italic; color: #475569; margin-top: 2pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 12pt;">(Từ cho sẵn: ${words})</div>`;
       }
       return `
-        <div class="q-block" style="margin-bottom: 12px;" ${isWord ? '' : 'contenteditable="true"'}>
-          <div>${qTitle}</div>
-          <div style="padding-left: 1.25rem; margin-top: 4px; line-height: 1.55;">
-            ${q.passage ? `<div>${q.passage}</div>` : ''}
+        <div class="q-block" style="margin: 0pt; margin-top: 0pt; margin-bottom: 8pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;" ${isWord ? '' : 'contenteditable="true"'}>
+          <div style="line-height: 1.0; margin: 0pt; margin-bottom: 2pt;">${qTitle}</div>
+          <div style="padding-left: ${isWord ? '15pt' : '1.25rem'}; margin-top: 2pt; line-height: 1.0;">
+            ${q.passage ? `<div style="line-height: 1.0; margin-bottom: 2pt;">${q.passage}</div>` : ''}
             ${wordBankText}
           </div>
         </div>
@@ -645,12 +645,12 @@ var AIService = {
     var options = q.options || [];
     if (isWord) {
       var optionsWordHtml = options.map(function(opt) {
-        return `<div style="margin-bottom: 2px;">${opt}</div>`;
+        return `<div style="margin: 0pt; margin-top: 0pt; margin-bottom: 2pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">${opt}</div>`;
       }).join('');
       return `
-        <div class="q-block" style="margin-bottom: 10px;">
-          <div>${qTitle}</div>
-          <div class="q-options" style="margin-left: 15pt; margin-top: 3px;">
+        <div class="q-block" style="margin: 0pt; margin-top: 0pt; margin-bottom: 8pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">
+          <div style="line-height: 1.0; margin: 0pt; margin-bottom: 2pt;">${qTitle}</div>
+          <div class="q-options" style="margin-left: 15pt; margin-top: 2pt; line-height: 1.0;">
             ${optionsWordHtml}
           </div>
         </div>
@@ -2449,46 +2449,73 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         </xml>
         <![endif]-->
         <style>
-          @page {
-            size: A4;
-            margin: 1.5cm 1.5cm 1.5cm 1.5cm;
-            mso-header-margin: 36pt;
-            mso-footer-margin: 36pt;
+          @page Section1 {
+            size: 21.0cm 29.7cm;
+            margin: 2.0cm 1.5cm 2.0cm 3.0cm;
+            mso-page-orientation: portrait;
+            mso-header-margin: 36.0pt;
+            mso-footer-margin: 36.0pt;
           }
+          div.Section1 { page: Section1; }
           body {
             font-family: 'Times New Roman', serif;
             font-size: 13pt;
-            line-height: 1.35;
+            line-height: 1.0;
+            mso-line-height-rule: exactly;
             color: #000;
             text-align: justify;
             text-justify: inter-ideograph;
+            margin: 0pt;
+            padding: 0pt;
           }
-          p {
+          p, p.MsoNormal, li {
+            font-family: 'Times New Roman', serif;
+            font-size: 13pt;
+            line-height: 1.0;
+            mso-line-height-rule: exactly;
+            margin: 0pt;
+            margin-top: 0pt;
+            margin-bottom: 0pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-top: 0pt;
+            mso-para-margin-bottom: 0pt;
             text-align: justify;
             text-justify: inter-ideograph;
           }
           .title-bold-center {
             text-align: center;
             font-weight: bold;
+            font-family: 'Times New Roman', serif;
             font-size: 14pt;
             text-transform: uppercase;
-            margin-bottom: 4px;
+            line-height: 1.0;
+            margin-top: 6pt;
+            margin-bottom: 4pt;
           }
           .subtitle-center {
             text-align: center;
+            font-family: 'Times New Roman', serif;
             font-size: 13pt;
-            margin-bottom: 12px;
+            line-height: 1.0;
+            margin-top: 0pt;
+            margin-bottom: 10pt;
+          }
+          table {
+            font-family: 'Times New Roman', serif;
           }
           table.matrix-table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 20px;
+            margin-bottom: 12pt;
+            font-family: 'Times New Roman', serif;
           }
           table.matrix-table th, table.matrix-table td {
             border: 1px solid #000;
-            padding: 5px 6px;
+            padding: 4px 5px;
             text-align: center;
             font-size: 11pt;
+            line-height: 1.0;
+            font-family: 'Times New Roman', serif;
           }
           table.matrix-table th {
             font-weight: bold;
@@ -2497,42 +2524,58 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           table.header-table {
             width: 100%;
             border: none;
-            margin-bottom: 12px;
+            margin-bottom: 10pt;
+            font-family: 'Times New Roman', serif;
           }
           table.header-table td {
             vertical-align: top;
             padding: 2px 4px;
+            font-size: 13pt;
+            line-height: 1.0;
+            font-family: 'Times New Roman', serif;
           }
           table.eval-box {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 18px;
+            margin-bottom: 12pt;
+            font-family: 'Times New Roman', serif;
           }
           table.eval-box td {
             border: 1px solid #000;
-            padding: 8px 10px;
-            font-size: 12pt;
+            padding: 6px 8px;
+            font-size: 13pt;
+            line-height: 1.0;
+            font-family: 'Times New Roman', serif;
           }
           .section-heading {
+            font-family: 'Times New Roman', serif;
             font-weight: bold;
-            font-size: 13.5pt;
-            margin-top: 14px;
-            margin-bottom: 6px;
+            font-size: 13pt;
+            line-height: 1.0;
+            margin-top: 10pt;
+            margin-bottom: 4pt;
             text-align: left;
           }
           .q-block {
-            margin-bottom: 10px;
+            margin-top: 0pt;
+            margin-bottom: 8pt;
+            line-height: 1.0;
+            font-family: 'Times New Roman', serif;
+            font-size: 13pt;
             text-align: justify;
             text-justify: inter-ideograph;
           }
           .q-options {
             margin-left: 20px;
-            margin-top: 4px;
+            margin-top: 2pt;
+            line-height: 1.0;
             text-align: left;
+            font-family: 'Times New Roman', serif;
+            font-size: 13pt;
           }
           .dotted-line {
             border-bottom: 1px dotted #555;
-            height: 24px;
+            height: 22px;
             margin-bottom: 2px;
           }
           .page-break {
@@ -2543,6 +2586,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         </style>
       </head>
       <body>
+        <div class="Section1">
 
         <!-- PHẦN I: MA TRẬN ĐỀ KIỂM TRA (3 TẦNG DÒNG CHUẨN THÔNG TƯ 27) -->
         <div class="title-bold-center">${(examData.threeTierMatrix && examData.threeTierMatrix.title) ? examData.threeTierMatrix.title : `MA TRẬN ĐỀ THI HỌC KÌ I MÔN ${examData.subjectName.toUpperCase()} LỚP ${examData.grade} - ${bookSeriesName.toUpperCase()}`}</div>
@@ -2883,6 +2927,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           }).join('')}
         ` : ''}
 
+        </div>
       </body>
       </html>
     `;
@@ -2922,46 +2967,73 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         </xml>
         <![endif]-->
         <style>
-          @page {
-            size: A4;
-            margin: 1.5cm 1.5cm 1.5cm 1.5cm;
-            mso-header-margin: 36pt;
-            mso-footer-margin: 36pt;
+          @page Section1 {
+            size: 21.0cm 29.7cm;
+            margin: 2.0cm 1.5cm 2.0cm 3.0cm;
+            mso-page-orientation: portrait;
+            mso-header-margin: 36.0pt;
+            mso-footer-margin: 36.0pt;
           }
+          div.Section1 { page: Section1; }
           body {
             font-family: 'Times New Roman', serif;
             font-size: 13pt;
-            line-height: 1.35;
+            line-height: 1.0;
+            mso-line-height-rule: exactly;
             color: #000;
             text-align: justify;
             text-justify: inter-ideograph;
+            margin: 0pt;
+            padding: 0pt;
           }
-          p {
+          p, p.MsoNormal, li {
+            font-family: 'Times New Roman', serif;
+            font-size: 13pt;
+            line-height: 1.0;
+            mso-line-height-rule: exactly;
+            margin: 0pt;
+            margin-top: 0pt;
+            margin-bottom: 0pt;
+            mso-para-margin: 0pt;
+            mso-para-margin-top: 0pt;
+            mso-para-margin-bottom: 0pt;
             text-align: justify;
             text-justify: inter-ideograph;
           }
           .title-bold-center {
             text-align: center;
+            font-family: 'Times New Roman', serif;
             font-weight: bold;
             font-size: 14pt;
             text-transform: uppercase;
-            margin-bottom: 4px;
+            line-height: 1.0;
+            margin-top: 6pt;
+            margin-bottom: 4pt;
           }
           .subtitle-center {
             text-align: center;
+            font-family: 'Times New Roman', serif;
             font-size: 13pt;
-            margin-bottom: 12px;
+            line-height: 1.0;
+            margin-top: 0pt;
+            margin-bottom: 10pt;
+          }
+          table {
+            font-family: 'Times New Roman', serif;
           }
           table.matrix-table {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 16px;
+            margin-bottom: 12pt;
+            font-family: 'Times New Roman', serif;
           }
           table.matrix-table th, table.matrix-table td {
             border: 1px solid #000;
-            padding: 5px 6px;
+            padding: 4px 5px;
             text-align: center;
             font-size: 11pt;
+            line-height: 1.0;
+            font-family: 'Times New Roman', serif;
           }
           table.matrix-table th {
             font-weight: bold;
@@ -2970,51 +3042,69 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           table.header-table {
             width: 100%;
             border: none;
-            margin-bottom: 10px;
+            margin-bottom: 10pt;
+            font-family: 'Times New Roman', serif;
           }
           table.header-table td {
             vertical-align: top;
             padding: 2px 4px;
+            font-size: 13pt;
+            line-height: 1.0;
+            font-family: 'Times New Roman', serif;
           }
           table.eval-box {
             width: 100%;
             border-collapse: collapse;
-            margin-bottom: 14px;
+            margin-bottom: 12pt;
+            font-family: 'Times New Roman', serif;
           }
           table.eval-box td {
             border: 1px solid #000;
             padding: 6px 8px;
-            font-size: 11.5pt;
+            font-size: 13pt;
+            line-height: 1.0;
+            font-family: 'Times New Roman', serif;
           }
           .section-heading {
+            font-family: 'Times New Roman', serif;
             font-weight: bold;
-            font-size: 13.5pt;
-            margin-top: 12px;
-            margin-bottom: 6px;
+            font-size: 13pt;
+            line-height: 1.0;
+            margin-top: 10pt;
+            margin-bottom: 4pt;
             text-align: left;
           }
           .reading-box {
             background: #fafafa;
             border: 1px solid #ccc;
-            padding: 10px 14px;
-            margin: 8px 0 14px 0;
-            line-height: 1.45;
+            padding: 8px 12px;
+            margin: 6pt 0 10pt 0;
+            line-height: 1.0;
+            font-family: 'Times New Roman', serif;
+            font-size: 13pt;
             text-align: justify;
             text-justify: inter-ideograph;
           }
           .q-block {
-            margin-bottom: 9px;
+            margin-top: 0pt;
+            margin-bottom: 8pt;
+            line-height: 1.0;
+            font-family: 'Times New Roman', serif;
+            font-size: 13pt;
             text-align: justify;
             text-justify: inter-ideograph;
           }
           .q-options {
             margin-left: 20px;
-            margin-top: 3px;
+            margin-top: 2pt;
+            line-height: 1.0;
             text-align: left;
+            font-family: 'Times New Roman', serif;
+            font-size: 13pt;
           }
           .dotted-line {
             border-bottom: 1px dotted #555;
-            height: 24px;
+            height: 22px;
             margin-bottom: 2px;
           }
           .page-break {
@@ -3025,6 +3115,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         </style>
       </head>
       <body>
+        <div class="Section1">
 
         <!-- ========================================== -->
         <!-- TRANG 1: PHIẾU KIỂM TRA ĐỌC (10 ĐIỂM)     -->
@@ -3064,25 +3155,25 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             </div>
 
             <!-- KHUNG TOÀN VĂN CẢ BÀI ĐỌC HOÀN CHỈNH -->
-            <div style="border: 1.5px solid #000; padding: 10px 14px; margin-bottom: 10px; background-color: #ffffff;">
-              <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 2px;">
+            <div style="border: 1.5px solid #000; padding: 8pt 12pt; margin-bottom: 8pt; background-color: #ffffff;">
+              <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 2pt; line-height: 1.0; font-family: 'Times New Roman', serif;">
                 ${item.title}
               </div>
-              ${item.author ? `<div style="text-align: center; font-style: italic; font-size: 10.5pt; margin-bottom: 8px;">Tác giả: ${item.author}</div>` : ''}
-              <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45; font-size: 12pt; white-space: pre-line;">
+              ${item.author ? `<div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 6pt; line-height: 1.0; font-family: 'Times New Roman', serif;">Tác giả: ${item.author}</div>` : ''}
+              <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt; white-space: pre-line;">
                 ${item.passage || item.content || `(Học sinh đọc cả bài "${item.title}")`}
               </div>
             </div>
 
             <!-- HỆ THỐNG TOÀN BỘ CÂU HỎI ĐỌC HIỂU CỦA BÀI ĐÓ TRONG SGK -->
-            <div style="border: 1px dashed #444; padding: 8px 12px; margin-bottom: 10px; background-color: #fafafa;">
-              <div style="font-weight: bold; font-size: 11.5pt; margin-bottom: 4px; color: #1e3a8a;">
+            <div style="border: 1px dashed #444; padding: 6pt 10pt; margin-bottom: 8pt; background-color: #fafafa;">
+              <div style="font-weight: bold; font-size: 12pt; margin-bottom: 3pt; color: #1e3a8a; line-height: 1.0; font-family: 'Times New Roman', serif;">
                 CÂU HỎI TÌM HIỂU BÀI (Học sinh trả lời câu hỏi do giáo viên chỉ định):
               </div>
               ${qList.length > 0 ? qList.map(function(qText, qIdx) {
                 var prefix = qText.trim().match(/^(Câu\s*\d+|\d+[\.\:])/i) ? '' : `Câu ${qIdx + 1}: `;
-                return `<div style="margin-bottom: 3px; font-size: 11pt; line-height: 1.35;"><b>${prefix}</b>${qText}</div>`;
-              }).join('') : `<div style="font-size: 11pt;"><b>Câu hỏi:</b> ${item.question || "Nêu nội dung chính hoặc bài học rút ra từ bài đọc trên."}</div>`}
+                return `<div style="margin: 0pt; margin-bottom: 2pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;"><b>${prefix}</b>${qText}</div>`;
+              }).join('') : `<div style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;"><b>Câu hỏi:</b> ${item.question || "Nêu nội dung chính hoặc bài học rút ra từ bài đọc trên."}</div>`}
             </div>
 
             <!-- KHUNG CHẤM ĐIỂM CỦA GIÁO VIÊN Ở CHÂN TRANG A4 -->
@@ -3153,27 +3244,27 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         </table>
 
         <div class="section-heading">PHẦN ĐỌC HIỂU VÀ KIẾN THỨC TIẾNG VIỆT (${compScoreStr} điểm)</div>
-        <p style="margin: 0 0 6px 0; font-style: italic;">Đọc thầm bài văn sau và hoàn thành các bài tập bên dưới:</p>
+        <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 4pt; font-style: italic; line-height: 1.0;">Đọc thầm bài văn sau và hoàn thành các bài tập bên dưới:</p>
 
         <div class="reading-box">
-          <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 4px;">
+          <div style="text-align: center; font-weight: bold; font-size: 13.5pt; text-transform: uppercase; margin-bottom: 2pt; line-height: 1.0; font-family: 'Times New Roman', serif;">
             ${rd.comprehensionReading?.title || "BÀI ĐỌC THẦM"}
           </div>
-          ${rd.comprehensionReading?.author ? `<div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 8px;">Tác giả: ${rd.comprehensionReading.author}</div>` : ''}
-          <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.45;">
+          ${rd.comprehensionReading?.author ? `<div style="text-align: center; font-style: italic; font-size: 11pt; margin-bottom: 6pt; line-height: 1.0; font-family: 'Times New Roman', serif;">Tác giả: ${rd.comprehensionReading.author}</div>` : ''}
+          <div style="text-align: justify; text-indent: 1.5rem; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">
             ${rd.comprehensionReading?.passage || ""}
           </div>
         </div>
 
-        <p style="margin: 6px 0 10px 0; font-style: italic; font-weight: bold;">Khoanh vào chữ cái trước câu trả lời đúng và thực hiện các yêu cầu:</p>
+        <p style="margin: 0pt; margin-top: 4pt; margin-bottom: 6pt; font-style: italic; font-weight: bold; line-height: 1.0;">Khoanh vào chữ cái trước câu trả lời đúng và thực hiện các yêu cầu:</p>
 
         ${(rd.questions || []).map(function(q) {
           if (q.type === 'mcq' || q.type === 'true_false' || q.type === 'matching' || q.type === 'fill_blank') {
             return AIService.renderQuestionItem(q, true);
           } else {
             return `
-              <div class="q-block" style="margin-top: 8px;">
-                <b>Câu ${q.num}</b> (${q.score ? q.score.toString().replace('.', ',') : '1,0'} điểm - ${q.level || 'Mức 2'}): ${q.text}
+              <div class="q-block" style="margin: 0pt; margin-top: 6pt; margin-bottom: 8pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">
+                <div style="line-height: 1.0; margin: 0pt; margin-bottom: 2pt;"><b>Câu ${q.num}</b> (${q.score ? q.score.toString().replace('.', ',') : '1,0'} điểm - ${q.level || 'Mức 2'}): ${q.text}</div>
                 <div style="margin-top: 4px;">
                   <div class="dotted-line"></div>
                   <div class="dotted-line"></div>
@@ -3244,13 +3335,13 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             Đề bài: ${wr.paragraphWriting?.prompt || "Viết đoạn văn ngắn theo chủ điểm đã học."}
           </p>
           ${(wr.paragraphWriting?.suggestions && wr.paragraphWriting.suggestions.length > 0) ? `
-            <div style="font-style: italic; margin-bottom: 8px; font-size: 11.5pt;">
+            <div style="font-style: italic; margin-bottom: 6pt; font-size: 13pt; line-height: 1.0; font-family: 'Times New Roman', serif;">
               Gợi ý:
-              ${wr.paragraphWriting.suggestions.map(function(s){ return `<div>- ${s}</div>`; }).join('')}
+              ${wr.paragraphWriting.suggestions.map(function(s){ return `<div style="margin: 0pt; line-height: 1.0;">- ${s}</div>`; }).join('')}
             </div>
           ` : ''}
 
-          <div style="margin-top: 10px;">
+          <div style="margin-top: 8px;">
             <div class="dotted-line"></div>
             <div class="dotted-line"></div>
             <div class="dotted-line"></div>
@@ -3269,20 +3360,20 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
               <td style="width: 25%; text-align: center;"><b>Chữ kí của PHHS</b></td>
             </tr>
             <tr>
-              <td style="height: 60px; text-align: center; font-weight: bold; font-size: 14pt;">......... / 10đ</td>
+              <td style="height: 55px; text-align: center; font-weight: bold; font-size: 13pt;">......... / 10đ</td>
               <td>&nbsp;</td>
               <td>&nbsp;</td>
             </tr>
           </table>
 
           <div class="section-heading">TẬP LÀM VĂN (10,0 điểm)</div>
-          <p style="margin: 0 0 8px 0; font-weight: bold; font-size: 13.5pt;">
+          <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 6pt; font-weight: bold; font-size: 13pt; line-height: 1.0; font-family: 'Times New Roman', serif;">
             Đề bài: ${wr.essay?.prompt || "Em hãy viết một bài văn hoàn chỉnh đúng thể loại đã học."}
           </p>
           ${(wr.essay?.suggestions && wr.essay.suggestions.length > 0) ? `
-            <div style="font-style: italic; margin-bottom: 12px; font-size: 12pt; background: #fdfdfd; border: 1px dashed #aaa; padding: 8px 12px;">
+            <div style="font-style: italic; margin-bottom: 8pt; font-size: 13pt; line-height: 1.0; font-family: 'Times New Roman', serif; background: #fdfdfd; border: 1px dashed #aaa; padding: 6pt 10pt;">
               <b>Gợi ý dàn ý:</b>
-              ${wr.essay.suggestions.map(function(s){ return `<div>- ${s}</div>`; }).join('')}
+              ${wr.essay.suggestions.map(function(s){ return `<div style="margin: 0pt; line-height: 1.0;">- ${s}</div>`; }).join('')}
             </div>
           ` : ''}
 
@@ -3385,7 +3476,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
         <!-- 1. HƯỚNG DẪN CHẤM ĐỌC THÀNH TIẾNG -->
         <div class="section-heading">A. HƯỚNG DẪN CHẤM ĐỌC THÀNH TIẾNG (${oralScoreStr} ĐIỂM)</div>
-        <p style="margin: 0 0 6px 0; font-size: 11.5pt; white-space: pre-line;">
+        <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 4pt; font-size: 13pt; line-height: 1.0; font-family: 'Times New Roman', serif; white-space: pre-line;">
           ${exam.teacherGuide?.oralGuide?.criteria || "- Đọc đúng, rõ ràng, phát âm chuẩn.\n- Trả lời đúng câu hỏi đọc hiểu được 1,0 điểm."}
         </p>
 
@@ -3475,8 +3566,8 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- 3. HƯỚNG DẪN CHẤM PHẦN VIẾT -->
         <div class="section-heading" style="margin-top: 14px;">C. HƯỚNG DẪN CHẤM PHẦN VIẾT (10 ĐIỂM)</div>
         ${grade <= 3 ? `
-          <div style="font-weight: bold; margin-bottom: 4px;">1. Chính tả (${(wr.dictation?.score || 4.0).toFixed(1).replace('.', ',')} điểm):</div>
-          <p style="margin: 0 0 8px 0; font-size: 11.5pt; white-space: pre-line;">
+          <div style="font-weight: bold; margin-bottom: 3pt; font-size: 13pt; line-height: 1.0; font-family: 'Times New Roman', serif;">1. Chính tả (${(wr.dictation?.score || 4.0).toFixed(1).replace('.', ',')} điểm):</div>
+          <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 4pt; font-size: 13pt; line-height: 1.0; font-family: 'Times New Roman', serif; white-space: pre-line;">
             ${exam.teacherGuide?.writingGuide?.dictationCriteria || "- Viết đúng mẫu chữ, độ đều nét, trình bày sạch: 1,0đ\n- Mỗi lỗi chính tả (âm đầu, vần, thanh, hoa): trừ 0,5đ"}
           </p>
 
@@ -3737,6 +3828,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           `;
         })()}
 
+        </div>
       </body>
       </html>
     `;
@@ -3784,7 +3876,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           '    <w:altChunk r:id="htmlChunk"/>\n' +
           '    <w:sectPr>\n' +
           '      <w:pgSz w:w="11906" w:h="16838"/>\n' +
-          '      <w:pgMar w:top="851" w:right="851" w:bottom="851" w:left="1134" w:header="708" w:footer="708" w:gutter="0"/>\n' +
+          '      <w:pgMar w:top="1134" w:right="851" w:bottom="1134" w:left="1701" w:header="720" w:footer="720" w:gutter="0"/>\n' +
           '    </w:sectPr>\n' +
           '  </w:body>\n' +
           '</w:document>');

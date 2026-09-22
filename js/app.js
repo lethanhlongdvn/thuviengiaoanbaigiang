@@ -7193,16 +7193,19 @@ async function triggerExportPlanSummaryWord() {
   </xml>
   <![endif]-->
   <style>
-    @page { size: 21.0cm 29.7cm; margin: 1.5cm 1.5cm 1.5cm 2.0cm; mso-page-orientation: portrait; }
-    body { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.35; color: #000; }
-    table { width: 100%; border-collapse: collapse; margin: 6pt 0; }
-    th, td { border: 1pt solid #000; padding: 6pt; vertical-align: top; }
-    p { margin: 3pt 0; }
-    h1, h2, h3, h4 { margin: 6pt 0; }
+    @page Section1 { size: 21.0cm 29.7cm; margin: 2.0cm 1.5cm 2.0cm 3.0cm; mso-page-orientation: portrait; mso-header-margin: 36.0pt; mso-footer-margin: 36.0pt; }
+    div.Section1 { page: Section1; }
+    body { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.0; mso-line-height-rule: exactly; color: #000; text-align: justify; text-justify: inter-ideograph; margin: 0pt; padding: 0pt; }
+    p, p.MsoNormal, li { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.0; mso-line-height-rule: exactly; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; text-align: justify; text-justify: inter-ideograph; }
+    table { width: 100%; border-collapse: collapse; margin: 6pt 0; font-family: "Times New Roman", serif; }
+    th, td { border: 1pt solid #000; padding: 4.5pt 6pt; vertical-align: top; font-size: 13pt; line-height: 1.0; font-family: "Times New Roman", serif; }
+    h1, h2, h3, h4 { font-family: "Times New Roman", serif; line-height: 1.0; margin: 6pt 0 4pt 0; }
   </style>
 </head>
 <body>
-  ${sheet.innerHTML}
+  <div class="Section1">
+    ${sheet.innerHTML}
+  </div>
 </body>
 </html>`;
 
@@ -8653,10 +8656,11 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       ${tablesHtml || '<p style="text-align: justify; text-justify: inter-ideograph;">Tiến trình hoạt động chuẩn theo KHBD số hóa.</p>'}
     </div>
 
-    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):</div>
-    <div style="margin-left: 10pt; text-align: justify; text-justify: inter-ideograph;">
-      <p style="text-align: justify; text-justify: inter-ideograph;">.................................................................................................................................................</p>
-      <p style="text-align: justify; text-justify: inter-ideograph;">.................................................................................................................................................</p>
+    <div style="font-weight: bold; text-transform: uppercase; margin-top: 10pt; margin-bottom: 4pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):</div>
+    <div style="margin-left: 10pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+      <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>
+      <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>
+      <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>
     </div>
     ${approvalPreviewHtml}
   `;
@@ -8715,7 +8719,7 @@ function printIntegratedLessonSheet() {
     return;
   }
   win.document.open();
-  win.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>In Kế hoạch bài dạy</title><style>@page{size:A4 portrait;margin:2.0cm 1.5cm 2.0cm 2.5cm;}body{font-family:"Times New Roman",serif;font-size:13pt;line-height:1.25;color:#000;padding:20px;background:#fff;}table{width:100%;border-collapse:collapse;margin:4pt 0;}th,td{border:1pt solid #000;padding:4pt 6pt;vertical-align:top;}p{margin:0;margin-top:0;margin-bottom:0;}h1,h2,h3,h4{margin:4pt 0;}</style></head><body>' + sheet.innerHTML + '</body></html>');
+  win.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>In Kế hoạch bài dạy</title><style>@page{size:A4 portrait;margin:2.0cm 1.5cm 2.0cm 3.0cm;}body{font-family:"Times New Roman",serif;font-size:13pt;line-height:1.0;color:#000;padding:20px;background:#fff;text-align:justify;text-justify:inter-ideograph;}table{width:100%;border-collapse:collapse;margin:4pt 0;font-family:"Times New Roman",serif;}th,td{border:1pt solid #000;padding:4pt 6pt;vertical-align:top;font-size:13pt;line-height:1.0;font-family:"Times New Roman",serif;}p{margin:0;margin-top:0;margin-bottom:0;line-height:1.0;text-align:justify;text-justify:inter-ideograph;}h1,h2,h3,h4{margin:4pt 0;line-height:1.0;font-family:"Times New Roman",serif;}</style></head><body>' + sheet.innerHTML + '</body></html>');
   win.document.close();
   setTimeout(function() {
     win.focus();

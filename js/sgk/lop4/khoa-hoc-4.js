@@ -23,13 +23,13 @@
       ]
     },
     topics: [
-      { id: 'kh4_cd1', name: 'Chủ đề 1: Chất (Nước và Không khí)', semester: 1, weeks: '1-8' },
-      { id: 'kh4_cd2', name: 'Chủ đề 2: Năng lượng (Ánh sáng, Âm thanh, Nhiệt)', semester: 1, weeks: '9-16' },
+      { id: 'kh4_cd1', name: 'Chủ đề 1: Chất', semester: 1, weeks: '1-8' },
+      { id: 'kh4_cd2', name: 'Chủ đề 2: Năng lượng', semester: 1, weeks: '9-16' },
       { id: 'kh4_cd_on1', name: 'Ôn tập học kì 1', semester: 1, weeks: '17-18' },
       { id: 'kh4_cd3', name: 'Chủ đề 3: Thực vật và động vật', semester: 2, weeks: '19-25' },
       { id: 'kh4_cd4', name: 'Chủ đề 4: Nấm', semester: 2, weeks: '26-27' },
-      { id: 'kh4_cd5', name: 'Chủ đề 5: Con người và sức khỏe (Dinh dưỡng và phòng bệnh)', semester: 2, weeks: '28-32' },
-      { id: 'kh4_cd6', name: 'Chủ đề 6: Sinh vật và môi trường (Chuỗi thức ăn)', semester: 2, weeks: '33-34' },
+      { id: 'kh4_cd5', name: 'Chủ đề 5: Con người và sức khỏe', semester: 2, weeks: '28-32' },
+      { id: 'kh4_cd6', name: 'Chủ đề 6: Sinh vật và môi trường', semester: 2, weeks: '33-34' },
       { id: 'kh4_cd_on2', name: 'Ôn tập cuối năm', semester: 2, weeks: '35' }
     ],
     lessons: [

@@ -7643,7 +7643,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "PHỤ LỤC - Trò chơi Ai thông minh hơn học sinh lớp 5? - GV hướng dẫn luật chơi.\n- GV sẽ đưa ra các câu hỏi liên quan đến 2 tiết học trước.\n- HS trả lời bằng cách viết đáp án vào bảng con. Nếu HS trả lời đúng sẽ được tham gia các câu hỏi tiếp theo.\n- Nếu HS trả lời sai sẽ phải dừng cuộc chơi và trở thành trọng tài giúp GV giám sát.\n- Những HS trả lời đúng tất cả các câu hỏi sẽ chiến thắng và nhận được phần thưởng từ GV.\n- Một số câu hỏi gợi ý:\nCâu 1. Con người trải qua mấy giai đoạn phát triển? (4 giai đoạn).\nCâu 2. Thức ăn chủ yếu của trẻ dưới 1 tuổi là gì? (sữa mẹ và thức ăn mềm).\nCâu 3. Giai đoạn tuổi vị thành niên trong khoảng bao nhiêu tuổi? (10 - 19 tuổi).\nCâu 4. Tuổi trưởng thành trong khoảng bao nhiêu tuổi? (20 - 60 tuổi).\nCâu 5. Tuổi già bắt đầu từ độ tuổi nào? (trên 60 tuổi). - BÀI 24: NAM VÀ NỮ (Tiết 1)",
+        "lessonTitle": "BÀI 24: NAM VÀ NỮ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 5: CON NGƯỜI VÀ SỨC KHỎE",
         "yccd": [
           "1. Năng lực đặc thù",

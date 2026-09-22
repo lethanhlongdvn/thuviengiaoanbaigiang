@@ -1,9 +1,3 @@
-/**
- * KHO KẾ HOẠCH BÀI DẠY SỐ HÓA - KHỐI 1 - MÔN TOÁN
- * Bộ sách: Kết nối tri thức với cuộc sống (KNTT) - Chuẩn Công văn 2345/BGDĐT
- * Thư viện Bài giảng & KHBD Tiểu học - Thầy Lê Thành Long
- */
-
 (function() {
   var grade = 1;
   var subjectId = "toan";
@@ -11405,6 +11399,187 @@
         "title": "Bài 35: CÁC NGÀY TRONG TUẦN (TIẾT 1)"
       },
       {
+        "lessonTitle": "Bài 35: CÁC NGÀY TRONG TUẦN (TIẾT 2) - LUYỆN TẬP",
+        "topic": "Chủ đề 9 - Thời gian, giờ và lịch",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Nhận biết, đọc đúng tên các ngày trong tuần.",
+          "- Xác định được ngày còn thiếu trong một dãy các ngày trong tuần.",
+          "- Đọc được thời khóa biểu đơn giản và trả lời được câu hỏi liên quan.",
+          "- Dựa vào sơ đồ, xác định được thứ tương ứng với một địa điểm trong hành trình.",
+          "- Vận dụng được kiến thức về các ngày trong tuần vào tình huống thực tế gần gũi.",
+          "2. Năng lực chung",
+          "- Năng lực tư duy và lập luận toán học: Biết quan sát, so sánh, sắp xếp thứ tự các ngày trong tuần.",
+          "- Năng lực giải quyết vấn đề: Biết dựa vào dữ kiện cho sẵn để tìm câu trả lời phù hợp.",
+          "- Năng lực giao tiếp và hợp tác: Biết trao đổi với bạn, trình bày kết quả, nhận xét bài làm của bạn trong hoạt động cá nhân, nhóm 2, nhóm 4.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, tự giác hoàn thành bài tập.",
+          "- Trung thực: Nêu đúng kết quả, mạnh dạn sửa sai khi có góp ý.",
+          "- Trách nhiệm: Có ý thức hợp tác với bạn, giữ trật tự và hoàn thành nhiệm vụ học tập."
+        ],
+        "dodd": [
+          "- 1. Học liệu: SGK, bảng con, vở.",
+          "- 2. Thiết bị: Máy tính, máy chiếu."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của GV",
+              "Hoạt động của HS"
+            ],
+            [
+              "1. Khởi động\nMục tiêu: Tạo không khí vui vẻ, ôn lại tên các ngày trong tuần.",
+              "1. Khởi động\nMục tiêu: Tạo không khí vui vẻ, ôn lại tên các ngày trong tuần."
+            ],
+            [
+              "- GV tổ chức cho HS hát hoặc chơi trò chơi “Kể nhanh các ngày trong tuần”.",
+              "- HS tham gia trò chơi."
+            ],
+            [
+              "- GV mời 1 HS kể tên các ngày trong tuần theo thứ tự.",
+              "- HS kể: Thứ Hai, Thứ Ba, Thứ Tư, Thứ Năm, Thứ Sáu, Thứ Bảy, Chủ Nhật."
+            ],
+            [
+              "- GV yêu cầu cả lớp nhận xét.",
+              "- HS nhận xét, bổ sung."
+            ],
+            [
+              "- GV nhận xét, tuyên dương và giới thiệu bài luyện tập.",
+              "- HS lắng nghe."
+            ],
+            [
+              "2. Luyện tập, thực hành\nMục tiêu: Củng cố cách đọc, sắp xếp các ngày trong tuần; biết đọc thời khóa biểu và xác định thứ trong hành trình.",
+              "2. Luyện tập, thực hành\nMục tiêu: Củng cố cách đọc, sắp xếp các ngày trong tuần; biết đọc thời khóa biểu và xác định thứ trong hành trình."
+            ],
+            [
+              "- Bài 1: Tìm đường về nhà.",
+              ""
+            ],
+            [
+              "- GV gọi HS nêu yêu cầu bài.",
+              "- HS nêu: Tìm ngày còn thiếu ở mỗi viên đá."
+            ],
+            [
+              "- GV chia lớp thành nhóm 2, yêu cầu HS quan sát đường đi của ốc sên và đọc các ngày đã có trên viên đá.",
+              "- HS làm việc nhóm 2."
+            ],
+            [
+              "- GV gợi ý: Sau Thứ Hai là ngày nào? Sau Thứ Tư là ngày nào?",
+              "- HS trả lời: Sau Thứ Hai là Thứ Ba; sau Thứ Tư là Thứ Năm."
+            ],
+            [
+              "- GV mời đại diện nhóm trình bày toàn bộ đường đi.",
+              "- HS trình bày: Thứ Hai – Thứ Ba – Thứ Tư – Thứ Năm – Thứ Sáu – Thứ Bảy – Chủ Nhật."
+            ],
+            [
+              "- GV gọi nhóm khác nhận xét.",
+              "- HS nhận xét, bổ sung."
+            ],
+            [
+              "- GV kết luận.",
+              "- HS lắng nghe."
+            ],
+            [
+              "- Bài 2: Xem thời khóa biểu của bạn Rô-bốt rồi trả lời.",
+              ""
+            ],
+            [
+              "- GV gọi 2 HS đọc yêu cầu bài.",
+              "- 2 HS đọc yêu cầu."
+            ],
+            [
+              "- GV hỏi: Rô-bốt học những môn gì trong ngày Thứ Ba?",
+              "- HS quan sát thời khóa biểu và trả lời: Lắp ghép hình, Máy tính, Bay."
+            ],
+            [
+              "- GV hỏi: Rô-bốt học Tiếng Việt vào những ngày nào trong tuần?",
+              "- HS trả lời: Thứ Hai, Thứ Tư, Thứ Sáu."
+            ],
+            [
+              "- GV chia lớp thành nhóm 4, yêu cầu HS trao đổi để thống nhất câu trả lời.",
+              "- HS làm việc nhóm 4."
+            ],
+            [
+              "- GV mời đại diện nhóm trình bày.",
+              "- HS trình bày kết quả trước lớp."
+            ],
+            [
+              "- GV gọi HS nhận xét.",
+              "- HS nhận xét, bổ sung."
+            ],
+            [
+              "- GV kết luận, chữa bài.",
+              "- HS lắng nghe."
+            ],
+            [
+              "- Bài 3: Bạn Rô-bốt đi du lịch.",
+              ""
+            ],
+            [
+              "- GV mời 2 HS đọc đề bài.",
+              "- 2 HS đọc đề bài."
+            ],
+            [
+              "- GV hỏi: Đề bài cho biết gì?",
+              "- HS trả lời: Rô-bốt đi du lịch qua các điểm 1 đến 7; mỗi ngày ở một nơi khác nhau; Thứ Hai Rô-bốt ở Cao Bằng."
+            ],
+            [
+              "- GV hỏi: Bài toán hỏi gì?",
+              "- HS trả lời: a) Thứ Ba, Rô-bốt ở đâu? b) Thứ mấy Rô-bốt ở Đà Nẵng? c) Rô-bốt kết thúc hành trình vào ngày nào trong tuần?"
+            ],
+            [
+              "- GV hướng dẫn HS quan sát hành trình theo thứ tự 1, 2, 3, 4, 5, 6, 7.",
+              "- HS quan sát hành trình trên bản đồ."
+            ],
+            [
+              "- GV chia lớp thành nhóm 2, yêu cầu HS thảo luận và trả lời từng câu hỏi.",
+              "- HS làm việc nhóm 2."
+            ],
+            [
+              "- GV mời đại diện một số nhóm trình bày câu a.",
+              "- HS trả lời: Thứ Ba, Rô-bốt ở Hà Nội."
+            ],
+            [
+              "- GV mời nhóm khác trình bày câu b.",
+              "- HS trả lời: Thứ Năm, Rô-bốt ở Đà Nẵng."
+            ],
+            [
+              "- GV mời nhóm khác trình bày câu c.",
+              "- HS trả lời: Rô-bốt kết thúc hành trình vào Chủ Nhật."
+            ],
+            [
+              "- GV kết luận, chốt đáp án.",
+              "- HS lắng nghe, ghi nhớ: Thứ Ba ở Hà Nội; Thứ Năm ở Đà Nẵng; kết thúc vào Chủ Nhật."
+            ],
+            [
+              "3. Vận dụng\nMục tiêu: Củng cố nội dung bài học, giúp HS vận dụng kiến thức về các ngày trong tuần vào thực tế.",
+              "3. Vận dụng\nMục tiêu: Củng cố nội dung bài học, giúp HS vận dụng kiến thức về các ngày trong tuần vào thực tế."
+            ],
+            [
+              "- GV yêu cầu HS nêu hôm nay là thứ mấy, ngày mai là thứ mấy, hôm qua là thứ mấy.",
+              "- HS trả lời theo thực tế."
+            ],
+            [
+              "- GV mời một số HS nói một việc em thường làm vào một ngày trong tuần.",
+              "- HS nêu: Thứ Hai em đi học; Thứ Bảy em giúp mẹ quét nhà; Chủ Nhật em đi chơi với gia đình,..."
+            ],
+            [
+              "- GV nhận xét chung giờ học.",
+              "- HS lắng nghe."
+            ],
+            [
+              "- GV dặn HS về nhà ôn lại các ngày trong tuần, chuẩn bị bài sau.",
+              "- HS lắng nghe, thực hiện."
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          ".............................................................................................................",
+          ".............................................................................................................",
+          "............................................................................................................."
+        ]
+      },
+      {
         "lessonTitle": "Bài 36: THỰC HÀNH XEM LỊCH VÀ GIỜ (TIẾT 1)",
         "topic": "",
         "yccd": [
@@ -13785,7 +13960,7 @@
   }
 };
 
-  if (typeof window !== 'undefined' && window.KHBD_DATA) {
+  if (typeof window !== 'undefined' && window.KHBD_DATA && typeof window.KHBD_DATA.registerSubject === 'function') {
     window.KHBD_DATA.registerSubject(grade, subjectId, subjectName, weeksData);
   } else {
     if (typeof window !== 'undefined') {

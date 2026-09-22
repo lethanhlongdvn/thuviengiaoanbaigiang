@@ -1,9 +1,3 @@
-/**
- * KHO KẾ HOẠCH BÀI DẠY SỐ HÓA - KHỐI 3 - MÔN CÔNG NGHỆ
- * Bộ sách: Kết nối tri thức với cuộc sống (KNTT) - Chuẩn Công văn 2345/BGDĐT
- * Thư viện Bài giảng & KHBD Tiểu học - Thầy Lê Thành Long
- */
-
 (function() {
   var grade = 3;
   var subjectId = "cong_nghe";
@@ -3755,6 +3749,70 @@
           ]
         ],
         "title": "Bài 8. Làm đồ dùng học tập (Tiết 2)"
+      }
+    ]
+  },
+  "25": {
+    "week": 25,
+    "sourceFile": "CÔNG NGHỆ TUẦN 25.docx",
+    "lessons": [
+      {
+        "lessonTitle": "Bài 8. Làm đồ dùng học tập (Tiết 3)",
+        "topic": "Làm đồ dùng học tập",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Hoàn thiện được sản phẩm thước kẻ thủ công đảm bảo đúng kích thước, chia vạch rõ ràng, chắc chắn và an toàn khi sử dụng.",
+          "- Trưng bày, giới thiệu và tự tin chia sẻ về sản phẩm thước kẻ của bản thân hoặc của nhóm trước lớp.",
+          "- Biết quan sát, nhận xét và tự đánh giá sản phẩm theo các tiêu chí đã đề ra (công dụng, độ chính xác, độ bền, tính thẩm mĩ).",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự kiểm tra, hoàn thiện sản phẩm của mình; biết lắng nghe ý kiến góp ý của thầy cô và bạn bè để hoàn thiện sản phẩm.",
+          "- Giao tiếp và hợp tác: Biết trao đổi, chia sẻ và hợp tác tích cực trong hoạt động trưng bày và đánh giá sản phẩm theo nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Biết đề xuất ý tưởng cải tiến sản phẩm đẹp hơn, bền hơn và tiện dụng hơn ở lần thực hành sau.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực hoàn thành sản phẩm đúng thời gian quy định.",
+          "- Trách nhiệm: Giữ gìn vệ sinh lớp học, thu dọn giấy vụn và cất dọn đồ dùng học tập sau khi làm việc.",
+          "4. Tích hợp",
+          "- Tích hợp STEM: HS hoàn thiện, trưng bày và giới thiệu đồ dùng học tập; vận dụng yêu cầu về công dụng, độ chắc chắn, thẩm mĩ và an toàn để cải tiến sản phẩm.",
+          "- Tích hợp NLS 5.2.CB1a: HS tự đánh giá sản phẩm bằng bảng tiêu chí đơn giản (sử dụng phiếu đánh giá hoặc Google Forms trên máy tính của GV)."
+        ],
+        "dodd": [
+          "1. Giáo viên:",
+          "- Máy tính, tivi/máy chiếu, bài giảng PowerPoint.",
+          "- Bảng tiêu chí đánh giá sản phẩm thước kẻ (hoặc biểu mẫu Google Forms trình chiếu cho cả lớp).",
+          "- Khu vực trưng bày sản phẩm (bàn trưng bày, giá đỡ hoặc bảng gắn sản phẩm).",
+          "2. Học sinh:",
+          "- Sản phẩm thước kẻ đang làm ở Tiết 2 cần hoàn thiện.",
+          "- Bút màu, giấy màu vụn, sticker trang trí, hồ dán, kéo an toàn.",
+          "- Vở bài tập Công nghệ 3."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút)\n- Mục tiêu: Tạo tâm thế hào hứng, kết nối vào tiết hoàn thiện và trưng bày sản phẩm.\n- Cách tiến hành:\n+ GV tổ chức cho HS hát và vận động theo bài hát \"Em yêu trường em\".\n+ GV hỏi: Ở tiết trước, các em đã thực hiện những bước nào để làm cây thước kẻ?\n+ GV nhận xét, biểu dương tinh thần chuẩn bị của HS và giới thiệu bài: Hôm nay chúng ta sẽ bước vào Tiết 3 để hoàn thiện, trưng bày và cùng nhau đánh giá sản phẩm thước kẻ của mình.",
+              "+ HS hát và thực hiện các động tác vận động vui nhộn theo bài hát.\n+ HS trả lời: Tiết trước chúng em đã cắt thân thước, dán giấy và chia các vạch xăng-ti-mét trên thước kẻ.\n+ HS lắng nghe và chuẩn bị sản phẩm để vào bài học mới."
+            ],
+            [
+              "2. Hoạt động 1: Hoàn thiện sản phẩm thước kẻ (12 phút)\n- Mục tiêu: HS rà soát, kiểm tra lại các vạch số, mép thước và trang trí hoàn thiện thước kẻ đảm bảo bền đẹp, an toàn.\n- Cách tiến hành:\n+ GV yêu cầu HS lấy sản phẩm thước kẻ ở Tiết 2 ra kiểm tra lại:\n  * Mép thước đã thẳng chưa?\n  * Các vạch chia xăng-ti-mét từ 0 đến 15 hoặc 20 đã rõ ràng, đều nhau chưa?\n  * Tên của em đã được ghi ở góc thước chưa?\n+ GV hướng dẫn HS trang trí thêm bằng bút màu, dán sticker hoặc bọc băng dính trong suốt để bảo vệ vạch thước không bị mờ và chống thấm nước.\n+ GV quan sát, đến từng bàn hỗ trợ các em còn lúng túng trong thao tác cắt tỉa hoặc dán viền.",
+              "+ HS đặt sản phẩm lên bàn và đối chiếu theo các câu hỏi gợi ý của GV.\n\n+ HS dùng thước mẫu kiểm tra lại độ chính xác của các vạch số.\n\n+ HS tiến hành dán băng dính trong suốt bảo vệ bề mặt thước, trang trí thêm họa tiết nhỏ yêu thích.\n\n+ HS kiểm tra độ chắc chắn của thước, làm sạch bề mặt và chuẩn bị trưng bày."
+            ],
+            [
+              "3. Hoạt động 2: Trưng bày và giới thiệu sản phẩm - Tích hợp STEM (10 phút)\n- Mục tiêu: Rèn luyện kĩ năng trình bày, giới thiệu sản phẩm trước tập thể; vận dụng kiến thức STEM để giải thích cấu tạo, công dụng của sản phẩm.\n- Cách tiến hành:\n+ GV chia lớp thành các nhóm (4-6 HS), hướng dẫn các nhóm sắp xếp sản phẩm của mình lên góc trưng bày của nhóm.\n+ GV mời đại diện một số nhóm hoặc cá nhân lên trước lớp giới thiệu sản phẩm:\n  * Tên sản phẩm, vật liệu chính làm nên cây thước (bìa các-tông, giấy cứng tái chế...).\n  * Cây thước dùng để làm gì trong học tập (đo độ dài, kẻ đoạn thẳng)?\n  * Điểm độc đáo, sáng tạo nhất trên cây thước của em là gì?\n+ GV khen ngợi sự sáng tạo và phong thái tự tin của các em.",
+              "+ Các nhóm mang sản phẩm lên vị trí quy định của nhóm, sắp xếp ngay ngắn, đẹp mắt.\n\n+ Đại diện học sinh tự tin giới thiệu sản phẩm:\n  * \"Thưa cô và các bạn, đây là cây thước kẻ em làm từ bìa hộp bánh tái chế. Thước có chiều dài 20 cm, các vạch chia cách đều nhau 1 cm.\"\n  * \"Em đã vẽ thêm hình chú gấu nhỏ ở đầu thước để cây thước trông sinh động hơn.\"\n  * \"Thước giúp em kẻ các đường thẳng ngay ngắn trong vở Toán và Mĩ thuật.\"\n+ Các bạn trong lớp lắng nghe, vỗ tay cổ vũ."
+            ],
+            [
+              "4. Hoạt động 3: Đánh giá sản phẩm và vận dụng - Tích hợp NLS 5.2.CB1a (8 phút)\n- Mục tiêu: HS biết tự đánh giá và đánh giá sản phẩm của bạn theo các tiêu chí đã học; biết đề xuất hướng cải tiến sản phẩm.\n- Cách tiến hành:\n+ GV trình chiếu Bảng tiêu chí đánh giá sản phẩm trên tivi/máy chiếu (hoặc giao diện Google Forms mẫu):\n  1. Đúng kích thước, mép thẳng: Đạt / Chưa đạt\n  2. Vạch chia rõ ràng, chính xác: Đạt / Chưa đạt\n  3. Chắc chắn, an toàn khi dùng: Đạt / Chưa đạt\n  4. Thẩm mĩ, sáng tạo: Đạt / Chưa đạt\n+ GV hướng dẫn HS quan sát sản phẩm của bạn trong nhóm, đối chiếu tiêu chí và bình chọn sản phẩm xuất sắc nhất của tổ.\n+ GV hỏi: Sau khi làm xong cây thước kẻ này, em muốn cải tiến điều gì ở lần sau?\n+ GV tổng kết, đánh giá chung tinh thần học tập của cả lớp, nhắc nhở giữ gìn sản phẩm để sử dụng trong các giờ học tiếp theo.",
+              "+ HS quan sát bảng tiêu chí trên màn hình máy chiếu, thảo luận nhóm đôi để nhận xét chéo sản phẩm của nhau.\n\n+ Đại diện các tổ bình chọn sản phẩm đẹp và chính xác nhất tổ mình.\n\n+ HS phát biểu ý kiến cải tiến: \"Lần sau em sẽ chọn tấm bìa dày hơn nữa để thước cứng cáp hơn\"; \"Em sẽ dùng bút dạ kim để nét vạch mảnh và chính xác hơn\".\n\n+ HS thu dọn giấy vụn, cất đồ dùng vào hộp và bảo quản cây thước vừa làm."
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................",
+          "- ................................................................................................................................"
+        ]
       }
     ]
   },

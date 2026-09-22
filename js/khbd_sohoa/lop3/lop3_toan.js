@@ -1,9 +1,3 @@
-/**
- * KHO KẾ HOẠCH BÀI DẠY SỐ HÓA - KHỐI 3 - MÔN TOÁN
- * Bộ sách: Kết nối tri thức với cuộc sống (KNTT) - Chuẩn Công văn 2345/BGDĐT
- * Thư viện Bài giảng & KHBD Tiểu học - Thầy Lê Thành Long
- */
-
 (function() {
   var grade = 3;
   var subjectId = "toan";
@@ -18366,6 +18360,151 @@
             ]
           ]
         ]
+      },
+      {
+        "lessonTitle": "ÔN TẬP VÀ KIỂM TRA CUỐI HỌC KÌ I",
+        "topic": "CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ I",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Ôn tập các mạch kiến thức: bảng nhân, bảng chia, phép nhân, phép chia, hình học, đo lường và biểu thức số.",
+          "- Tự đánh giá được mạch kiến thức còn sai nhiều để có kế hoạch luyện thêm.",
+          "- Hoàn thành được bài kiểm tra ôn tập cuối học kì I theo yêu cầu.",
+          "2. Năng lực chung:",
+          "- Tự chủ, tự học: tự làm bài ôn tập, xem kết quả và điều chỉnh cách học.",
+          "- Giao tiếp và hợp tác: trao đổi với bạn về lỗi sai thường gặp.",
+          "- Giải quyết vấn đề và sáng tạo: chọn cách ôn tập phù hợp với mạch kiến thức còn yếu.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: nghiêm túc ôn tập và làm bài kiểm tra.",
+          "- Trung thực: làm bài bằng năng lực của bản thân, không nhìn bài bạn.",
+          "- Trách nhiệm: ghi lại nội dung cần luyện thêm sau khi xem kết quả.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 5.2.CB1a: Trong giờ ôn tập cuối học kì I, GV tạo Google Forms tự kiểm theo từng mạch: bảng nhân, bảng chia, hình học, đo lường, biểu thức số. HS xem kết quả từng nhóm câu, khoanh mạch kiến thức còn sai nhiều và ghi 1 việc cần luyện thêm."
+        ],
+        "dodd": [
+          "- Kế hoạch bài dạy, đề ôn tập/kiểm tra cuối học kì I, bài giảng PowerPoint.",
+          "- Google Forms tự kiểm theo từng mạch kiến thức, phiếu tự đánh giá, vở ôn tập.",
+          "- Một số hình/bài ôn tập từ SGK trang 121.",
+          "III. HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động:\n- Mục tiêu: Tạo tâm thế ôn tập và nhắc lại các mạch kiến thức học kì I.\n*Cách tiến hành:",
+              "1. Khởi động:\n- Mục tiêu: Tạo tâm thế ôn tập và nhắc lại các mạch kiến thức học kì I.\n*Cách tiến hành:"
+            ],
+            [
+              "- GV tổ chức trò chơi “Bông hoa kiến thức”.",
+              "- HS chọn cánh hoa và trả lời câu hỏi."
+            ],
+            [
+              "- GV hỏi: Trong học kì I, em đã ôn những mạch kiến thức toán nào?",
+              "- HS trả lời: Bảng nhân, bảng chia, phép nhân, phép chia, hình học, đo lường, biểu thức số."
+            ],
+            [
+              "- GV nhận xét và dẫn dắt vào tiết ôn tập, kiểm tra cuối học kì I.",
+              "- HS lắng nghe."
+            ],
+            [
+              "2. Ôn tập - tự kiểm:\n- Mục tiêu: HS tự kiểm theo từng mạch kiến thức, phát hiện lỗi sai và luyện lại nội dung còn yếu.\n- Mục tiêu tích hợp NLS 5.2.CB1a: HS làm Google Forms tự kiểm, xem kết quả từng nhóm câu và ghi 1 việc cần luyện thêm.\n*Cách tiến hành:",
+              "2. Ôn tập - tự kiểm:\n- Mục tiêu: HS tự kiểm theo từng mạch kiến thức, phát hiện lỗi sai và luyện lại nội dung còn yếu.\n- Mục tiêu tích hợp NLS 5.2.CB1a: HS làm Google Forms tự kiểm, xem kết quả từng nhóm câu và ghi 1 việc cần luyện thêm.\n*Cách tiến hành:"
+            ],
+            [
+              "Bài ôn 1. Đặt tính rồi tính. (Làm việc cá nhân)",
+              "- HS quan sát hình trong SGK."
+            ],
+            [
+              "- GV yêu cầu HS đọc yêu cầu/đề bài.",
+              "- HS đọc: Đặt tính rồi tính."
+            ],
+            [
+              "- GV hỏi: Bài yêu cầu thực hiện phép tính gì?",
+              "- HS trả lời: Nhân số có hai hoặc ba chữ số với số có một chữ số."
+            ],
+            [
+              "- GV hỏi: Khi đặt tính, cần chú ý điều gì?",
+              "- HS trả lời: Viết thẳng hàng và nhân từ phải sang trái."
+            ],
+            [
+              "- GV yêu cầu HS làm nhanh vào bảng con.",
+              "- HS thực hiện theo yêu cầu của GV."
+            ],
+            [
+              "- GV mời HS trình bày kết quả, nhận xét bài bạn.",
+              "- HS trình bày: 72 × 3 = 216; 116 × 6 = 696; 106 × 8 = 848."
+            ],
+            [
+              "- GV kết luận: Cần đặt tính đúng và kiểm tra lại kết quả phép nhân.",
+              "- HS lắng nghe và sửa bài nếu cần."
+            ],
+            [
+              "Bài ôn 2. Tính và bài toán đo lường. (Làm việc nhóm 2)",
+              "- HS quan sát hình trong SGK."
+            ],
+            [
+              "- GV yêu cầu HS đọc yêu cầu/đề bài.",
+              "- HS đọc: Tính và tính độ dài đường gấp khúc ABCD."
+            ],
+            [
+              "- GV hỏi: Ba phép chia có kết quả nào?",
+              "- HS trả lời: 963 : 3 = 321; 265 : 5 = 53; 720 : 4 = 180."
+            ],
+            [
+              "- GV hỏi: Đường gấp khúc ABCD dài bao nhiêu?",
+              "- HS trả lời: 30 mm + 42 mm + 28 mm = 100 mm."
+            ],
+            [
+              "- GV yêu cầu HS làm nhóm 2, trình bày cách tính.",
+              "- HS thực hiện theo yêu cầu của GV."
+            ],
+            [
+              "- GV mời HS trình bày kết quả, nhận xét bài bạn.",
+              "- HS trình bày các kết quả phép chia và độ dài đường gấp khúc 100 mm."
+            ],
+            [
+              "- GV kết luận: Ôn tập cần kết hợp tính toán với đọc, cộng số đo trên hình.",
+              "- HS lắng nghe và sửa bài nếu cần."
+            ],
+            [
+              "- Tích hợp NLS: GV phát mã/đường dẫn Google Forms tự kiểm theo từng mạch kiến thức.",
+              "- HS mở Google Forms theo hướng dẫn của GV."
+            ],
+            [
+              "- GV yêu cầu HS làm phần tự kiểm gồm bảng nhân, bảng chia, hình học, đo lường và biểu thức số.",
+              "- HS làm bài tự kiểm trên Google Forms."
+            ],
+            [
+              "- GV hướng dẫn HS xem kết quả từng nhóm câu, khoanh mạch còn sai nhiều và ghi một việc cần luyện thêm.",
+              "- HS ghi: Em cần luyện thêm phép chia/hình học/biểu thức số..."
+            ],
+            [
+              "3. Kiểm tra - vận dụng:\n- Mục tiêu: HS hoàn thành bài kiểm tra ôn tập cuối học kì I và tự đánh giá sau bài làm.\n*Cách tiến hành:",
+              "3. Kiểm tra - vận dụng:\n- Mục tiêu: HS hoàn thành bài kiểm tra ôn tập cuối học kì I và tự đánh giá sau bài làm.\n*Cách tiến hành:"
+            ],
+            [
+              "- GV phát đề kiểm tra/phiếu ôn tập cuối học kì I, nhắc HS đọc kĩ đề trước khi làm.",
+              "- HS nhận đề, đọc kĩ yêu cầu."
+            ],
+            [
+              "- GV yêu cầu HS làm bài nghiêm túc, trình bày rõ ràng, đủ đơn vị và đáp số.",
+              "- HS làm bài cá nhân."
+            ],
+            [
+              "- GV thu bài, nhận xét thái độ làm bài và hướng dẫn HS tiếp tục ôn phần còn hạn chế.",
+              "- HS nộp bài và lắng nghe nhận xét."
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          ".......................................................................................................................................",
+          ".......................................................................................................................................",
+          "",
+          "",
+          ""
+        ]
       }
     ]
   },
@@ -31897,6 +32036,250 @@
       }
     ]
   },
+  "32": {
+    "week": 32,
+    "sourceFile": "TOÁN TUẦN 32.docx",
+    "lessons": [
+      {
+        "lessonTitle": "Bài 72: Luyện tập chung (Tiết 1) - Trang 103, 104",
+        "topic": "CHỦ ĐỀ 14: NHÂN, CHIA TRONG PHẠM VI 100 000",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Thực hiện được phép nhân, phép chia số có năm chữ số cho số có một chữ số trong phạm vi 100 000.",
+          "- Biết tính nhẩm các phép tính có liên quan đến các số tròn nghìn, tròn chục nghìn kết hợp thứ tự thực hiện biểu thức có dấu ngoặc.",
+          "- Vận dụng kiến thức đã học để giải các bài toán thực tế có hai bước tính.",
+          "2. Năng lực chung:",
+          "- Tự chủ, tự học: Chủ động làm các bài tập tính nhẩm, đặt tính và kiểm tra kết quả.",
+          "- Giao tiếp, hợp tác: Trao đổi với bạn cách tính nhẩm thuận tiện và cách tìm thứ tự thực hiện biểu thức.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn phương pháp tính nhanh, chính xác nhất.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực luyện tập, cẩn thận khi đặt tính và tính toán.",
+          "- Trách nhiệm: Giữ gìn vở sạch chữ đẹp, trình bày bài toán rõ ràng.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (Khung 3439) - 3.D1.1: Nêu được quy trình huấn luyện đơn giản của mô hình AI: GV liên hệ quy trình HS tính nhẩm và rèn luyện nhiều lần cũng tương tự như máy học AI được huấn luyện lặp đi lặp lại trên tập dữ liệu để tính toán chính xác."
+        ],
+        "dodd": [
+          "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint.",
+          "- Bảng phụ, phiếu bài tập hoặc trò chơi tiếp sức tính nhẩm."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút)\n- Mục tiêu: Tạo không khí vui vẻ, kích hoạt kiến thức nhân, chia phạm vi 100 000.\n- Cách tiến hành:\n+ GV tổ chức trò chơi \"Ai nhanh hơn\": GV đưa các phép tính tròn nghìn như: 2 000 x 3; 8 000 : 4; 10 000 x 5...\n+ GV nhận xét, khen ngợi và dẫn dắt vào bài mới.",
+              "+ HS hào hứng tham gia trả lời nhanh:\n2 000 x 3 = 6 000\n8 000 : 4 = 2 000\n10 000 x 5 = 50 000\n+ Lắng nghe GV giới thiệu bài."
+            ],
+            [
+              "2. Luyện tập - Bài 1: Tính nhẩm (10 phút)\n- Mục tiêu: Rèn kĩ năng tính nhẩm các số tròn nghìn, tròn chục nghìn có ngoặc và không ngoặc.\n- Cách tiến hành:\n+ GV chiếu bài tập 1 lên bảng:\na) 2 000 x 4 x 5; 36 000 : 6 : 2; 30 000 : 3 x 2\nb) 20 000 x (10 : 5); 80 000 : (2 x 4); 15 000 : (27 : 9)\n+ GV yêu cầu HS làm bài cá nhân vào vở, nhắc lại quy tắc thứ tự thực hiện phép tính.\n+ GV gọi HS lên bảng nêu cách nhẩm từng câu:\n  * 2 000 x 4 x 5 = 8 000 x 5 = 40 000\n  * 20 000 x (10 : 5) = 20 000 x 2 = 40 000\n+ Liên hệ AI: GV giới thiệu ngắn gọn quy trình máy học AI cũng ghi nhớ và thực hiện theo từng bước thuật toán được lặp lại nhiều lần.",
+              "+ HS đọc thầm đề bài trong SGK.\n+ HS làm việc cá nhân vào vở:\na) 2 000 x 4 x 5 = 40 000\n36 000 : 6 : 2 = 6 000 : 2 = 3 000\n30 000 : 3 x 2 = 10 000 x 2 = 20 000\nb) 20 000 x 2 = 40 000\n80 000 : 8 = 10 000\n15 000 : 3 = 5 000\n+ Đại diện HS đọc kết quả và giải thích cách tính.\n+ HS lắng nghe liên hệ thú vị về trí tuệ nhân tạo."
+            ],
+            [
+              "3. Luyện tập - Bài 2: Đ, S? (10 phút)\n- Mục tiêu: Giúp HS phát hiện lỗi sai trong phép nhân và phép chia số có năm chữ số.\n- Cách tiến hành:\n+ GV trình chiếu 4 phép tính: 26 325 x 3; 43 547 x 2; 62 408 : 8; 781 : 6.\n+ GV yêu cầu HS thảo luận nhóm đôi, tìm xem phép tính nào đúng (ghi Đ), sai (ghi S) và chỉ rõ lỗi sai ở đâu (sai do quên nhớ hay chia sót số dư).\n+ GV chốt kiến thức: Nhắc nhở HS chú ý bước nhân có nhớ và lượt chia có chữ số 0 ở thương.",
+              "+ HS thảo luận nhóm đôi, kiểm tra từng phép tính:\n  * 26 325 x 3 = 78 975 -> Đ\n  * 43 547 x 2 = 87 094 (sách ghi 86 094) -> S\n  * 62 408 : 8 = 7 801 (sách ghi 781 thiếu chữ số 0) -> S\n+ Đại diện các nhóm trả lời, giải thích nguyên nhân sai sót."
+            ],
+            [
+              "4. Luyện tập - Bài 3: Đặt tính rồi tính & Vận dụng (10 phút)\n- Mục tiêu: Thành thạo thao tác đặt tính nhân, chia số có năm chữ số và giải bài toán thực tế.\n- Cách tiến hành:\n+ GV cho HS làm bài đặt tính vào bảng con/vở: 15 214 x 4; 48 276 : 3.\n+ GV gọi 2 HS lên bảng thực hiện, lớp nhận xét.\n+ Củng cố, dặn dò HS về nhà ôn lại bảng nhân chia và chuẩn bị tiết 2.",
+              "+ HS thực hiện phép tính vào bảng con và vở:\n  15 214 x 4 = 60 856\n  48 276 : 3 = 16 092\n+ HS đối chiếu kết quả, sửa sai nếu có.\n+ Lắng nghe GV dặn dò."
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "Bài 72: Luyện tập chung (Tiết 2) - Trang 105, 106",
+        "topic": "CHỦ ĐỀ 14: NHÂN, CHIA TRONG PHẠM VI 100 000",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Củng cố kĩ năng thực hiện phép tính nhân, chia số có năm chữ số và so sánh giá trị các biểu thức.",
+          "- Vận dụng kiến thức giải bài toán Rô-bốt tìm đường và bài toán có lời văn liên quan đến thực tế.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Tự giác làm bài tập, tự kiểm tra và giải thích cách chọn đường đi cho Rô-bốt.",
+          "- Giải quyết vấn đề và sáng tạo: Biết phân tích dữ kiện đề bài, so sánh kết quả phép tính với số 8 000 để tìm đường đi chính xác.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, cẩn thận và hứng thú với môn Toán."
+        ],
+        "dodd": [
+          "- Bài giảng PowerPoint trò chơi \"Ong đi tìm mật\" và sơ đồ mê cung của Rô-bốt.",
+          "- SGK Toán 3 tập hai, phiếu học tập."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút)\n- Mục tiêu: Tạo hứng thú thông qua trò chơi khởi động \"Ong đi tìm mật\".\n- Cách tiến hành:\n+ GV trình chiếu trò chơi: Cho các chú ong mang phép tính: 20 000 : (2 x 5); 30 000 : 5 x 6; 2 000 x 4 x 3.\n+ HS chọn bông hoa có kết quả đúng tương ứng: 2 000; 36 000; 24 000.\n+ GV nhận xét, tuyên dương.",
+              "+ HS hào hứng tham gia trò chơi, tính nhẩm nhanh và chọn đúng bông hoa mật ngọt.\n+ HS chuyển sang bài học mới."
+            ],
+            [
+              "2. Luyện tập - Bài 1: Rô-bốt tìm đường vào lâu đài (12 phút)\n- Mục tiêu: Vận dụng tính giá trị biểu thức và so sánh số trong phạm vi 100 000.\n- Cách tiến hành:\n+ GV chiếu sơ đồ: Để đến lâu đài, Rô-bốt phải đi qua các đoạn đường có kết quả bé hơn 8 000.\n+ GV cho HS làm việc nhóm đôi: Tính từng phép tính trên các ngã rẽ và dùng bút chì vạch đường đi cho Rô-bốt.\n+ GV gọi đại diện nhóm lên bảng chỉ đường trên màn hình máy chiếu, giải thích lí do vì sao chọn lối đi đó.",
+              "+ HS quan sát sơ đồ trong SGK và bài chiếu của GV.\n+ HS tính toán các phép tính trên từng đoạn đường:\n  * 32 000 : 4 = 8 000 (không được đi vì bằng 8 000)\n  * 15 000 : 3 = 5 000 (< 8 000, đi được)\n  * 2 100 x 3 = 6 300 (< 8 000, đi được)...\n+ Đại diện nhóm lên bảng chỉ đường đi đến tòa lâu đài."
+            ],
+            [
+              "3. Luyện tập - Bài 2 & 3: Đặt tính rồi tính và Giải toán có lời văn (13 phút)\n- Mục tiêu: Rèn kĩ năng tính chia số có năm chữ số và giải bài toán bằng hai phép tính.\n- Cách tiến hành:\n+ Bài 2: GV yêu cầu HS đặt tính: 57 364 : 9; 48 560 : 5.\n+ GV cho 2 HS làm bảng lớp, nhắc nhở chú ý số dư.\n+ Bài 3: GV hướng dẫn HS phân tích đề bài toán thực tế (bài toán đóng gói sản phẩm hoặc tính số lượng hàng hóa trong kho).\n+ GV nhận xét, chữa bài chung cho cả lớp.",
+              "+ HS làm bài tập 2 vào vở:\n  57 364 : 9 = 6 373 (dư 7)\n  48 560 : 5 = 9 712\n+ HS tóm tắt và giải bài toán 3 vào vở, 1 HS lên bảng giải bài.\n+ Lớp đổi chéo vở kiểm tra kết quả."
+            ],
+            [
+              "4. Vận dụng, củng cố (5 phút)\n- Mục tiêu: Củng cố nội dung ôn tập nhân chia phạm vi 100 000.\n- Cách tiến hành:\n+ GV đố nhanh: \"Một số chia cho 6 được thương là 12 000, số đó là bao nhiêu?\"\n+ GV nhận xét giờ học, tuyên dương học sinh tích cực.",
+              "+ HS trả lời: Số đó là 12 000 x 6 = 72 000.\n+ HS lắng nghe nhận xét."
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "Bài 73: Thu thập, phân loại, ghi chép số liệu. Bảng số liệu (Tiết 1) - Trang 106, 107",
+        "topic": "CHỦ ĐỀ 15: LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Nhận biết được cách thu thập, phân loại, ghi chép số liệu thống kê trong một số tình huống đơn giản.",
+          "- Biết đếm và ghi chép số lượng các đối tượng theo tiêu chí phân loại cho trước (theo màu sắc, hình dạng, số lượng).",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Tự quan sát lớp học, đếm và ghi chép số liệu đồ dùng.",
+          "- Giao tiếp và hợp tác: Biết làm việc theo cặp, thảo luận để thống nhất số liệu đếm được.",
+          "3. Phẩm chất:",
+          "- Trung thực: Ghi chép đúng số liệu thực tế quan sát được.",
+          "- Trách nhiệm: Tham gia tích cực vào các hoạt động tập thể.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.3.CB1a: GV sử dụng Google Forms trình chiếu để HS chọn các phương án khảo sát và theo dõi biểu đồ thống kê kết quả trực quan."
+        ],
+        "dodd": [
+          "- Tranh ảnh minh họa hoạt động ném bóng vào rổ và kế hoạch nhỏ của lớp 3A.",
+          "- Máy tính kết nối Internet, máy chiếu, biểu mẫu Google Forms khảo sát nhanh."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút)\n- Mục tiêu: Kết nối thực tế vào bài học thu thập và phân loại số liệu.\n- Cách tiến hành:\n+ GV tổ chức trò chơi \"Gió thổi\": Thổi các bạn nữ đứng lên, thổi các bạn nam đứng lên; đếm số bạn nam và số bạn nữ của từng tổ.\n+ GV hỏi: Làm thế nào để biết tổ nào có nhiều bạn nữ nhất? -> Cần đếm và ghi chép lại.\n+ GV giới thiệu bài mới.",
+              "+ HS tham gia trò chơi hào hứng, thực hiện đứng lên theo hiệu lệnh.\n+ HS trả lời: Ta cần đếm số bạn và ghi lại vào bảng.\n+ HS mở SGK trang 106."
+            ],
+            [
+              "2. Khám phá: Thu thập, phân loại, ghi chép số liệu (12 phút)\n- Mục tiêu: HS nhận biết các bước thu thập, phân loại và ghi chép số liệu.\n- Cách tiến hành:\n+ GV chiếu tranh: Rô-bốt ghi chép kết quả ném bóng vào rổ của Nam, Việt, Mai.\n+ GV hỏi: Có mấy bạn tham gia ném bóng? Bạn Nam ném được mấy quả? Bạn Việt mấy quả? Bạn Mai mấy quả?\n+ GV hướng dẫn: Việc bạn Rô-bốt theo dõi từng quả bóng vào rổ và ghi lại số lượng gọi là thu thập và ghi chép số liệu.",
+              "+ HS quan sát hình ảnh Rô-bốt ghi chép.\n+ HS trả lời: Có 3 bạn tham gia ném bóng; Nam ném trúng 4 quả, Việt trúng 5 quả, Mai trúng 3 quả.\n+ HS nhắc lại: Thu thập, phân loại và ghi chép số liệu."
+            ],
+            [
+              "3. Hoạt động - Bài 1 & 2: Thực hành phân loại và đếm (13 phút)\n- Mục tiêu: Thực hành đếm, phân loại đồ dùng học tập và đồ vật trong lớp học.\n- Cách tiến hành:\n+ Bài 1: Cho HS quan sát đồ dùng các bạn lớp 3A quyên góp kế hoạch nhỏ (vở, bút, thước, tẩy). HS phân loại và đếm số lượng từng loại đồ dùng.\n+ Bài 2: GV chia nhóm quan sát phòng học: Đếm các đồ vật có dạng hình tròn (đồng hồ, mặt quạt...), hình tam giác, hình chữ nhật (bảng, cửa sổ).\n+ Tích hợp NLS: GV cho HS theo dõi màn hình Google Forms nơi GV nhập nhanh số liệu của từng nhóm, phần mềm tự động xuất biểu đồ hình cột minh họa trực quan.",
+              "+ HS làm bài 1: Đếm số lượng vở (18 quyển), bút (24 chiếc), thước kẻ (12 chiếc)...\n+ HS làm việc nhóm 4 thực hiện Bài 2: Ghi chép vào bảng nhóm số đồ vật dạng hình tròn, chữ nhật trong lớp.\n+ HS quan sát biểu đồ trên màn hình tivi và đối chiếu kết quả của nhóm mình."
+            ],
+            [
+              "4. Củng cố, dặn dò (5 phút)\n- Mục tiêu: Củng cố kĩ năng thu thập, ghi chép số liệu.\n- Cách tiến hành:\n+ GV hỏi: Hôm nay em đã học được kĩ năng gì? Thu thập số liệu giúp ích gì cho cuộc sống?\n+ Dặn dò HS chuẩn bị cho Tiết 2: Đọc và sử dụng bảng số liệu.",
+              "+ HS nêu lại: Hôm nay em học cách thu thập, phân loại và ghi chép số liệu.\n+ Lắng nghe GV dặn dò."
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "Bài 73: Thu thập, phân loại, ghi chép số liệu. Bảng số liệu (Tiết 2) - Trang 107, 108",
+        "topic": "CHỦ ĐỀ 15: LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Nhận biết được cấu trúc của một bảng số liệu đơn giản (hàng tiêu đề, các cột, các dòng thông tin).",
+          "- Biết đọc và giải thích được các thông tin, số liệu được trình bày trong bảng số liệu.",
+          "- Biết so sánh, tìm ra số lớn nhất, số bé nhất từ bảng số liệu thống kê.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Đọc hiểu thông tin trong bảng số liệu và trả lời câu hỏi.",
+          "- Giao tiếp, hợp tác: Trao đổi trong nhóm để cùng tìm ra thông tin theo yêu cầu.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, cẩn thận khi đọc số liệu đối chiếu giữa các hàng và cột.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.3.CB1a: GV hướng dẫn HS quan sát bảng số liệu trên trang tính Google Sheets hoặc máy chiếu, HS nêu được thông tin tương ứng ở các ô dữ liệu."
+        ],
+        "dodd": [
+          "- Bảng số liệu mẫu về các môn thể thao tham gia hội trại và bảng số liệu vật nuôi trong trang trại.",
+          "- Máy chiếu/tivi, bài giảng PowerPoint."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút)\n- Mục tiêu: Ôn tập lại kĩ năng phân loại số liệu và dẫn dắt vào bài mới.\n- Cách tiến hành:\n+ GV đưa ra câu hỏi: \"Nếu lớp ta có rất nhiều số liệu về chiều cao, cân nặng, sở thích... thì ghi vào đâu để dễ nhìn và so sánh nhất?\"\n+ GV kết luận: Cần sắp xếp vào BẢNG SỐ LIỆU và giới thiệu bài mới.",
+              "+ HS suy nghĩ và trả lời: Kẻ thành bảng, viết vào bảng số liệu.\n+ HS lắng nghe và ghi nhớ."
+            ],
+            [
+              "2. Khám phá: Làm quen với bảng số liệu (12 phút)\n- Mục tiêu: HS hiểu cấu tạo của bảng số liệu (hàng, cột, nội dung từng ô).\n- Cách tiến hành:\n+ GV chiếu bảng số liệu về số học sinh tham gia các môn thể thao trong ngày hội trại:\n  * Hàng thứ nhất: Ghi tên các môn thể thao (Kéo co, Chạy tiếp sức, Nhảy bao bố).\n  * Hàng thứ hai: Ghi số lượng học sinh tham gia.\n+ GV hỏi:\n  * Bảng số liệu gồm có mấy hàng? Hàng thứ nhất ghi gì? Hàng thứ hai ghi gì?\n  * Có bao nhiêu bạn tham gia môn Kéo co? Môn nào có nhiều bạn tham gia nhất?",
+              "+ HS quan sát bảng số liệu trên màn hình chiếu.\n+ HS trả lời:\n  * Bảng gồm có 2 hàng. Hàng 1 ghi tên các môn thể thao, hàng 2 ghi số học sinh.\n  * Có 15 bạn tham gia Kéo co.\n  * Môn Kéo co có nhiều bạn tham gia nhất, môn Nhảy bao bố có ít bạn nhất.\n+ HS hiểu được cách tra cứu thông tin theo từng cột."
+            ],
+            [
+              "3. Luyện tập - Bài 1: Đọc bảng số liệu trang trại (13 phút)\n- Mục tiêu: Vận dụng đọc bảng số liệu về vật nuôi trong một trang trại.\n- Cách tiến hành:\n+ GV yêu cầu HS quan sát bảng số liệu trong SGK về các loài vật nuôi: Bò (12 con), Dê (25 con), Cừu (18 con), Lợn (30 con).\n+ GV phát phiếu học tập cho các nhóm trả lời các câu hỏi:\n  a) Trang trại nuôi những con vật nào?\n  b) Mỗi loại có bao nhiêu con?\n  c) Con vật nào được nuôi nhiều nhất? Con vật nào ít nhất?\n+ GV gọi đại diện các nhóm lên trình bày, nhận xét.",
+              "+ HS làm việc nhóm đôi, thảo luận trả lời:\n  a) Trang trại nuôi Bò, Dê, Cừu, Lợn.\n  b) Bò: 12 con; Dê: 25 con; Cừu: 18 con; Lợn: 30 con.\n  c) Lợn được nuôi nhiều nhất (30 con); Bò được nuôi ít nhất (12 con).\n+ Các nhóm nhận xét, thống nhất câu trả lời."
+            ],
+            [
+              "4. Củng cố, dặn dò (5 phút)\n- Mục tiêu: Khắc sâu kĩ năng đọc bảng số liệu.\n- Cách tiến hành:\n+ GV chốt lại: Bảng số liệu giúp chúng ta nắm bắt thông tin nhanh chóng và dễ dàng so sánh.\n+ Dặn HS chuẩn bị Tiết 3: Hoàn thiện bảng số liệu.",
+              "+ HS lắng nghe, ghi nhớ cách xem bảng số liệu."
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
+      },
+      {
+        "lessonTitle": "Bài 73: Thu thập, phân loại, ghi chép số liệu. Bảng số liệu (Tiết 3) - Trang 108, 109",
+        "topic": "CHỦ ĐỀ 15: LÀM QUEN VỚI YẾU TỐ THỐNG KÊ, XÁC SUẤT",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Biết xử lí và điền thông tin còn thiếu vào bảng số liệu dựa trên các dữ kiện cho trước.",
+          "- Phân tích, tổng hợp số liệu để trả lời các câu hỏi nâng cao hơn (tính tổng, tính hiệu giữa các số liệu trong bảng).",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Tự đọc hiểu thông tin văn bản để hoàn thành bảng số liệu.",
+          "- Giải quyết vấn đề và sáng tạo: Biết kết hợp phép tính cộng, trừ với việc đọc số liệu.",
+          "3. Phẩm chất:",
+          "- Cẩn thận, chính xác, trung thực trong học tập.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.3.CB1a: GV cho HS hoàn thiện bảng số liệu trên máy chiếu hoặc Google Sheets do GV chuẩn bị sẵn, HS quan sát thao tác điền số và cập nhật kết quả tự động."
+        ],
+        "dodd": [
+          "- Bảng số liệu về giờ đọc sách của các bạn, nhiệt độ Sa Pa và số học sinh khối 3.",
+          "- Bài giảng PowerPoint, phiếu bài tập."
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút)\n- Mục tiêu: Kích hoạt tư duy phân tích số liệu.\n- Cách tiến hành:\n+ GV chiếu bảng số liệu về giờ đọc sách tuần qua của 4 bạn: Việt (5 giờ), Mai (7 giờ), Nam (4 giờ), Rô-bốt (6 giờ).\n+ GV hỏi nhanh: Ai đọc sách nhiều giờ nhất? Bạn Mai đọc nhiều hơn bạn Nam mấy giờ?\n+ GV dẫn dắt vào tiết học luyện tập hoàn thiện bảng số liệu.",
+              "+ HS trả lời nhanh:\n  * Bạn Mai đọc nhiều nhất (7 giờ).\n  * Mai đọc nhiều hơn Nam: 7 - 4 = 3 giờ.\n+ HS chuẩn bị sách vở vào bài mới."
+            ],
+            [
+              "2. Luyện tập - Bài 1: Hoàn thành bảng số liệu thời tiết Sa Pa (13 phút)\n- Mục tiêu: Biết đọc thông tin từ đoạn văn để điền vào bảng số liệu nhiệt độ.\n- Cách tiến hành:\n+ GV nêu tình huống: Rô-bốt đi du lịch Sa Pa trong 3 ngày. Nhiệt độ thấp nhất và cao nhất ghi lại như sau: Ngày 1 (7°C - 12°C); Ngày 2 (11°C - 19°C); Ngày 3 (9°C - 15°C).\n+ GV yêu cầu HS hoàn thành bảng số liệu có 2 hàng: Nhiệt độ thấp nhất và Nhiệt độ cao nhất trong 3 ngày.\n+ GV yêu cầu HS trả lời các câu hỏi: Ngày nào lạnh nhất? Sự chênh lệch nhiệt độ lớn nhất ở ngày nào?\n+ GV gọi HS lên bảng điền kết quả, cả lớp đối chiếu.",
+              "+ HS đọc kĩ đoạn thông tin trong SGK.\n+ HS vẽ và điền số liệu vào bảng trong vở:\n  * Ngày 1: Thấp nhất 7°C, cao nhất 12°C.\n  * Ngày 2: Thấp nhất 11°C, cao nhất 19°C.\n  * Ngày 3: Thấp nhất 9°C, cao nhất 15°C.\n+ HS trả lời: Ngày 1 có nhiệt độ thấp nhất (7°C), ngày 2 có chênh lệch lớn nhất (19 - 11 = 8°C)."
+            ],
+            [
+              "3. Luyện tập - Bài 2: Bảng số liệu học sinh khối lớp 3 (12 phút)\n- Mục tiêu: Rèn kĩ năng tính toán và điền số liệu còn thiếu vào bảng.\n- Cách tiến hành:\n+ GV chiếu bảng số liệu học sinh các lớp 3A, 3B, 3C (gồm số học sinh nam, số học sinh nữ và tổng số học sinh).\n+ GV hướng dẫn HS tính toán: Biết số học sinh nam và nữ thì tính tổng bằng phép cộng; biết tổng và số nam thì tìm số nữ bằng phép trừ.\n+ Tích hợp NLS: GV thao tác trực tiếp trên bảng tính Google Sheets để minh họa cách máy tính tự động tính tổng khi nhập dữ liệu.\n+ GV nhận xét, đánh giá kết quả làm bài của HS.",
+              "+ HS làm bài cá nhân vào vở, 1 HS lên bảng điền số liệu.\n  * Lớp 3A: 15 nam, 16 nữ -> Tổng: 31 học sinh.\n  * Lớp 3B: 14 nam, 15 nữ -> Tổng: 29 học sinh.\n  * Lớp 3C: 17 nam, 14 nữ -> Tổng: 31 học sinh.\n+ HS trả lời: Lớp 3A và 3C có nhiều hơn 30 học sinh. Tổng số học sinh cả khối là 91 học sinh."
+            ],
+            [
+              "4. Củng cố, dặn dò (5 phút)\n- Mục tiêu: Tổng kết toàn bộ bài học về bảng số liệu.\n- Cách tiến hành:\n+ GV nhận xét tiết học, khen ngợi các cá nhân và nhóm làm việc tốt.\n+ Dặn HS về nhà tập thu thập số liệu về các thành viên trong gia đình (tuổi, sở thích...).",
+              "+ HS lắng nghe, tự liên hệ thu thập số liệu gia đình ở nhà."
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          "- ................................................................................................................................"
+        ]
+      }
+    ]
+  },
   "33": {
     "week": 33,
     "sourceFile": "TOÁN TUẦN 33.docx",
@@ -34365,6 +34748,124 @@
               "- HS lắng nghe, ghi nhớ nhiệm vụ và tự đánh giá kết quả học tập của mình."
             ]
           ]
+        ]
+      },
+      {
+        "lessonTitle": "Kiểm tra cuối năm học",
+        "topic": "CHỦ ĐỀ 16: ÔN TẬP CUỐI NĂM",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Thực hiện bài kiểm tra cuối năm theo đúng yêu cầu, trình bày bài làm rõ ràng, sạch đẹp.",
+          "- Tự rà soát kết quả sau kiểm tra và nhận biết nội dung cần ôn tiếp trong hè.",
+          "- Vận dụng kiến thức số học, đo lường, hình học, bảng số liệu và xác suất đã học vào bài kiểm tra.",
+          "2. Năng lực chung:",
+          "- Tự chủ, tự học: tự đọc yêu cầu, tự làm bài và kiểm tra kết quả theo hướng dẫn.",
+          "- Giao tiếp, hợp tác: trao đổi với bạn khi làm nhóm 2, nhóm 4 và trình bày cách làm rõ ràng.",
+          "- Giải quyết vấn đề: lựa chọn cách tính, cách đọc bảng hoặc cách suy luận phù hợp.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực tham gia luyện tập, hoàn thành bài được giao.",
+          "- Trung thực: tự kiểm tra, sửa lỗi sai trong bài làm.",
+          "- Trách nhiệm: trình bày bài rõ ràng, giữ gìn đồ dùng học tập và làm việc đúng yêu cầu.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 1.3.CB1a: Sau kiểm tra cuối năm, GV tổng hợp kết quả theo mạch kiến thức trên Google Sheets; HS xem phần nhận xét cá nhân do GV phản hồi, xác định nội dung cần ôn tiếp trong hè."
+        ],
+        "dodd": [
+          "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint.",
+          "- Bảng con, phiếu học tập, đồ dùng trực quan phù hợp.",
+          "- Hình cắt từ SGK đúng nội dung bài, đặt đúng vị trí dưới câu lệnh của GV.",
+          "III. HOẠT ĐỘNG DẠY HỌC"
+        ],
+        "tables": [
+          [
+            [
+              "Hoạt động của giáo viên",
+              "Hoạt động của học sinh"
+            ],
+            [
+              "1. Khởi động (5 phút):\n- Mục tiêu: Ôn kiến thức liên quan và tạo tâm thế học tập.\n*Cách tiến hành:",
+              "1. Khởi động (5 phút):\n- Mục tiêu: Ôn kiến thức liên quan và tạo tâm thế học tập.\n*Cách tiến hành:"
+            ],
+            [
+              "- GV tổ chức trò chơi “Ô cửa kiến thức”, nêu 2 câu hỏi nhanh liên quan đến nội dung đã học ở tiết trước.",
+              "- HS tham gia trò chơi, trả lời nhanh câu hỏi GV nêu."
+            ],
+            [
+              "- GV nhận xét, khen HS trả lời đúng và nhắc HS đọc kĩ yêu cầu trước khi làm bài.",
+              "- HS lắng nghe, tự nhắc lại điều cần chú ý khi làm bài."
+            ],
+            [
+              "- GV giới thiệu bài học mới và ghi tên bài lên bảng.",
+              "- HS ghi tên bài, chuẩn bị SGK, vở, bảng con."
+            ],
+            [
+              "2. Khám phá - phổ biến yêu cầu kiểm tra (5 phút):\n- Mục tiêu: HS nắm yêu cầu, quy định làm bài kiểm tra và chuẩn bị tâm thế nghiêm túc.\n*Cách tiến hành:",
+              "2. Khám phá - phổ biến yêu cầu kiểm tra (5 phút):\n- Mục tiêu: HS nắm yêu cầu, quy định làm bài kiểm tra và chuẩn bị tâm thế nghiêm túc.\n*Cách tiến hành:"
+            ],
+            [
+              "- GV ổn định lớp, kiểm tra đồ dùng cần thiết: bút, thước, giấy nháp và nhắc HS cất tài liệu không được sử dụng.",
+              "- HS ổn định chỗ ngồi, chuẩn bị bút, thước, giấy nháp và cất tài liệu theo hướng dẫn."
+            ],
+            [
+              "- GV phổ biến thời gian làm bài, cách ghi họ tên, lớp, cách trình bày bài làm và quy định không trao đổi trong giờ kiểm tra.",
+              "- HS lắng nghe, nhắc lại: Em ghi đầy đủ thông tin, làm bài độc lập, đọc kĩ đề và trình bày rõ ràng."
+            ],
+            [
+              "- GV nhắc HS đọc toàn bộ đề trước, câu dễ làm trước, câu khó suy nghĩ sau và kiểm tra lại trước khi nộp bài.",
+              "- HS nêu: Em sẽ đọc kĩ từng câu, làm bài cẩn thận, ghi đơn vị đầy đủ và kiểm tra lại phép tính."
+            ],
+            [
+              "- GV kết luận: Kiểm tra giúp đánh giá mức độ đạt được sau một năm học và giúp HS biết nội dung cần ôn thêm.",
+              "- HS hiểu mục đích kiểm tra và sẵn sàng thực hiện bài làm nghiêm túc."
+            ],
+            [
+              "3. Luyện tập - thực hiện bài kiểm tra cuối năm (27 phút):\n- Mục tiêu: HS làm bài kiểm tra độc lập, trung thực; sau kiểm tra biết tự rà soát nội dung cần ôn tiếp.\n*Cách tiến hành:",
+              "3. Luyện tập - thực hiện bài kiểm tra cuối năm (27 phút):\n- Mục tiêu: HS làm bài kiểm tra độc lập, trung thực; sau kiểm tra biết tự rà soát nội dung cần ôn tiếp.\n*Cách tiến hành:"
+            ],
+            [
+              "- GV phát đề kiểm tra, yêu cầu HS đọc đề, làm bài cá nhân, không trao đổi và không nhìn bài bạn.",
+              "- HS nhận đề, đọc kĩ yêu cầu và làm bài kiểm tra cá nhân, nghiêm túc, trung thực."
+            ],
+            [
+              "- GV quan sát lớp, nhắc HS giữ trật tự, trình bày bài sạch đẹp và ghi đủ đơn vị đo, đơn vị tiền, câu trả lời trong bài giải.",
+              "- HS làm bài, trình bày rõ ràng, ghi đơn vị đầy đủ và tự kiểm tra từng câu trước khi nộp."
+            ],
+            [
+              "- GV nhắc thời gian còn lại để HS rà soát bài: kiểm tra phép tính, câu trả lời, đáp số, đơn vị và những câu còn bỏ trống.",
+              "- HS rà soát bài làm, sửa lỗi nếu phát hiện nhầm phép tính, thiếu đơn vị hoặc đọc sai yêu cầu."
+            ],
+            [
+              "- GV thu bài, nhận xét thái độ làm bài của HS và hướng dẫn cách xem phản hồi sau khi GV chấm bài.",
+              "- HS nộp bài đúng thời gian, lắng nghe nhận xét và chuẩn bị tự đánh giá sau khi được trả bài."
+            ],
+            [
+              "- GV lồng ghép NLS 1.3.CB1a: Sau khi chấm bài, GV nhập kết quả theo mạch kiến thức vào Google Sheets và phản hồi cá nhân cho HS.",
+              "- HS xem nhận xét cá nhân, xác định 2 nội dung cần ôn trong hè, ví dụ: đặt tính phép chia, đổi đơn vị đo, đọc bảng số liệu hoặc tính chu vi, diện tích."
+            ],
+            [
+              "- GV kết luận: Sau kiểm tra, HS cần nhìn lại lỗi sai để có kế hoạch ôn tập phù hợp trong hè.",
+              "- HS ghi nhớ việc tự rà soát, sửa lỗi và ôn tiếp những nội dung chưa vững."
+            ],
+            [
+              "4. Vận dụng - Trải nghiệm (3 phút):\n- Mục tiêu: Củng cố kiến thức trong tiết học và liên hệ thực tế.\n*Cách tiến hành:",
+              "4. Vận dụng - Trải nghiệm (3 phút):\n- Mục tiêu: Củng cố kiến thức trong tiết học và liên hệ thực tế.\n*Cách tiến hành:"
+            ],
+            [
+              "- GV hỏi: Hôm nay em đã ôn được những kiến thức nào?",
+              "- HS nêu: Em thực hiện bài kiểm tra cuối năm, tự rà soát bài làm và xác định nội dung cần ôn tiếp trong hè."
+            ],
+            [
+              "- GV yêu cầu HS nêu một lỗi thường gặp khi làm bài và cách sửa.",
+              "- HS nêu lỗi có thể gặp: đọc nhầm yêu cầu, quên đơn vị, tính sai thứ tự phép tính hoặc đọc sai hàng/cột; HS nêu cách sửa là đọc lại đề, kiểm tra phép tính và ghi đủ đơn vị."
+            ],
+            [
+              "- GV nhận xét tiết học, tuyên dương HS tích cực, dặn HS hoàn thành phần còn thiếu và chuẩn bị bài sau.",
+              "- HS lắng nghe, ghi nhớ nhiệm vụ và tự đánh giá kết quả học tập của mình."
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          ".......................................................................................................................................",
+          "......................................................................................................................................."
         ]
       }
     ]

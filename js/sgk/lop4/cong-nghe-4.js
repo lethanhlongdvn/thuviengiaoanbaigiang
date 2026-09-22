@@ -23,8 +23,12 @@
       ]
     },
     topics: [
-      { id: 'cn4_cd1', name: 'Phần 1: Công nghệ và đời sống (Hoa và cây cảnh trong đời sống)', semester: 1, weeks: '1-18' },
-      { id: 'cn4_cd2', name: 'Phần 2: Thủ công kĩ thuật (Lắp ghép mô hình kĩ thuật, đồ chơi dân gian)', semester: 2, weeks: '19-35' }
+      { id: 'cn4_cd1', name: 'HOA VÀ CÂY CẢNH TRONG ĐỜI SỐNG', semester: 1, weeks: '1-7' },
+      { id: 'cn4_cd2', name: 'TRỒNG HOA VÀ CÂY CẢNH TRONG CHẬU', semester: 1, weeks: '8-17' },
+      { id: 'cn4_cd_on1', name: 'Ôn tập và đánh giá học kì 1', semester: 1, weeks: '18' },
+      { id: 'cn4_cd3', name: 'LẮP GHÉP MÔ HÌNH KĨ THUẬT', semester: 2, weeks: '19-26' },
+      { id: 'cn4_cd4', name: 'LÀM ĐỒ CHƠI DÂN GIAN', semester: 2, weeks: '27-33' },
+      { id: 'cn4_cd_on2', name: 'Ôn tập và đánh giá cuối năm', semester: 2, weeks: '34-35' }
     ],
     lessons: [
       {
@@ -34,7 +38,7 @@
         topic: 'HOA VÀ CÂY CẢNH TRONG ĐỜI SỐNG',
         semester: 1,
         week: 1,
-        duration: 'Tiết 1: Trang trí cảnh quan',
+        duration: '3 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 1: Lợi ích của hoa, cây cảnh đối với đời sống".',
         sampleQuestions: [
           {
@@ -60,7 +64,7 @@
         topic: 'HOA VÀ CÂY CẢNH TRONG ĐỜI SỐNG',
         semester: 1,
         week: 4,
-        duration: 'Tiết 1: Hoa hồng; hoa đào',
+        duration: '4 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 2: Một số loại hoa, cây cảnh phổ biến".',
         sampleQuestions: [
           {
@@ -86,7 +90,7 @@
         topic: 'TRỒNG HOA VÀ CÂY CẢNH TRONG CHẬU',
         semester: 1,
         week: 7,
-        duration: 'Tiết 1: Vật liệu trồng hoa, cây cảnh trong chậu',
+        duration: '2 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 3: Vật liệu và dụng cụ trồng hoa, cây cảnh trong chậu".',
         sampleQuestions: [
           {
@@ -112,7 +116,7 @@
         topic: 'TRỒNG HOA VÀ CÂY CẢNH TRONG CHẬU',
         semester: 1,
         week: 10,
-        duration: 'Tiết 1: Tìm hiểu hạt giống và quy trình gieo hạt',
+        duration: '3 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 4: Gieo hạt hoa, cây cảnh trong chậu".',
         sampleQuestions: [
           {
@@ -138,7 +142,7 @@
         topic: 'TRỒNG HOA VÀ CÂY CẢNH TRONG CHẬU',
         semester: 1,
         week: 13,
-        duration: 'Tiết 1: Tìm hiểu quy trình trồng hoa, cây cảnh trong chậu',
+        duration: '3 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 5: Trồng hoa, cây cảnh trong chậu".',
         sampleQuestions: [
           {
@@ -164,7 +168,7 @@
         topic: 'TRỒNG HOA VÀ CÂY CẢNH TRONG CHẬU',
         semester: 1,
         week: 16,
-        duration: 'Tiết 1: Tìm hiểu nhu cầu chăm sóc hoa, cây cảnh',
+        duration: '2 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 6: Chăm sóc hoa, cây cảnh trong chậu".',
         sampleQuestions: [
           {
@@ -190,7 +194,7 @@
         topic: 'LẮP GHÉP MÔ HÌNH KĨ THUẬT',
         semester: 2,
         week: 21,
-        duration: 'Tiết 1: Tìm hiểu bộ lắp ghép mô hình kĩ thuật',
+        duration: '2 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 7: Giới thiệu bộ lắp ghép mô hình kĩ thuật".',
         sampleQuestions: [
           {
@@ -216,7 +220,7 @@
         topic: 'LẮP GHÉP MÔ HÌNH KĨ THUẬT',
         semester: 2,
         week: 23,
-        duration: 'Tiết 1: Tìm hiểu mô hình bập bênh',
+        duration: '3 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 8: Lắp ghép mô hình bập bênh".',
         sampleQuestions: [
           {
@@ -242,7 +246,7 @@
         topic: 'LẮP GHÉP MÔ HÌNH KĨ THUẬT',
         semester: 2,
         week: 25,
-        duration: 'Tiết 1: Tìm hiểu mô hình rô-bốt',
+        duration: '3 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 9: Lắp ghép mô hình rô-bốt".',
         sampleQuestions: [
           {
@@ -268,7 +272,7 @@
         topic: 'LÀM ĐỒ CHƠI DÂN GIAN',
         semester: 2,
         week: 28,
-        duration: 'Tiết 1: Tìm hiểu đồ chơi dân gian',
+        duration: '1 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 10: Đồ chơi dân gian".',
         sampleQuestions: [
           {
@@ -294,7 +298,7 @@
         topic: 'LÀM ĐỒ CHƠI DÂN GIAN',
         semester: 2,
         week: 30,
-        duration: 'Tiết 1: Tìm hiểu đèn lồng và chuẩn bị vật liệu',
+        duration: '3 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 11: Làm đèn lồng".',
         sampleQuestions: [
           {
@@ -320,7 +324,7 @@
         topic: 'LÀM ĐỒ CHƠI DÂN GIAN',
         semester: 2,
         week: 32,
-        duration: 'Tiết 1: Tìm hiểu nguyên lí và chuẩn bị làm chuồn chuồn thăng bằng',
+        duration: '3 tiết',
         coreKnowledge: 'Hiểu biết lợi ích, cách trồng chăm sóc hoa cây cảnh và thực hành quy trình kĩ thuật trong bài "Bài 12: Làm chuồn chuồn thăng bằng".',
         sampleQuestions: [
           {

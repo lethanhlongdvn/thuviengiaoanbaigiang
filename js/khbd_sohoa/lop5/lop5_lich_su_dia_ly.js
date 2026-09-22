@@ -5695,7 +5695,213 @@
     "sourceFile": "LSĐL TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "MA TRẬN ĐỀ KIỂM TRA CUỐI HỌC KÌ I - Môn: Lịch sử và Địa lí - Lớp 5 | Thời gian: 35 phút | Tổng điểm: 10 điểm - TRƯỜNG TIỂU HỌC: ĐỀ KIỂM TRA CUỐI HỌC KÌ I - Môn: Lịch sử và Địa lí - Lớp 5 - Thời gian làm bài: 35 phút | Tổng điểm: 10 điểm - Họ tên: Lớp: 5 Ngày: / /2025 - Điểm: Nhận xét: I. TRẮC NGHIỆM (4 điểm) - Khoanh vào chữ cái trước ý trả lời đúng nhất. - Câu 1. Việt Nam nằm ở khu vực nào? - A. Đông Bắc Á. B. Đông Nam Á. C. Nam Á. D. Tây Á. - Câu 2. Hai quần đảo thuộc chủ quyền của Việt Nam trên Biển Đông là: - A. Hoàng Sa và Trường Sa. B. Phú Quốc và Côn Đảo. C. Cô Tô và Cát Bà. D. Lý Sơn và Cồn Cỏ. - Câu 3. Nhà nước đầu tiên trên lãnh thổ Việt Nam là: - A. Âu Lạc. B. Chăm-pa. C. Văn Lang. D. Phù Nam. - Câu 4. Vua Lý Thái Tổ dời đô về Đại La và đổi tên là: - A. Thăng Long. B. Phú Xuân. C. Hoa Lư. D. Cổ Loa. - Câu 5. Nhân vật lịch sử gắn với chiến thắng Bạch Đằng thời Trần là: - A. Lê Lợi. B. Trần Quốc Tuấn. C. Nguyễn Trãi. D. Nguyễn Công Trứ. - Câu 6. Khởi nghĩa Lam Sơn do ai lãnh đạo? - A. Lê Lợi. B. Lê Lai. C. Nguyễn Huệ. D. Phan Đình Phùng. - Câu 7. Triều Nguyễn được thành lập vào năm nào? - A. 1010. B. 1802. C. 1858. D. 1945. - Câu 8. Di sản văn hóa tiêu biểu gắn với Triều Nguyễn là: - A. Thành Cổ Loa. B. Tháp Chăm Mỹ Sơn. C. Đền Hùng. D. Quần thể di tích Cố đô Huế. - II. TỰ LUẬN (6 điểm) - Câu 9. Nêu vai trò của biển, đảo đối với nước ta. Gợi ý: tài nguyên, giao thông, du lịch, quốc phòng - an ninh. (2 điểm) Câu 10. Kể lại một số nét chính về khởi nghĩa Lam Sơn. Gợi ý: người lãnh đạo, thời gian, địa điểm, kết quả, ý nghĩa. (2 điểm) ĐỀ KIỂM TRA CUỐI HỌC KÌ I (TIẾP THEO) - Câu 11. Hoàn thành bảng sau về một số nhân vật lịch sử tiêu biểu. (1 điểm) - Câu 12. Em cần làm gì để trân trọng lịch sử dân tộc và giữ gìn các di sản văn hóa? Viết 2 đến 3 việc làm cụ thể của bản thân. (1 điểm) - HẾT - ĐÁP ÁN VÀ BIỂU ĐIỂM - I. Trắc nghiệm (4 điểm): Mỗi câu đúng được 0,5 điểm. - II. Tự luận (6 điểm) - TUẦN: 18 - BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 1)",
+        "lessonTitle": "KIỂM TRA, ĐÁNH GIÁ - TUẦN: 18 - KIỂM TRA, ĐÁNH GIÁ CUỐI HỌC KÌ I (TIẾT 35)",
+        "topic": "CHỦ ĐỀ: KIỂM TRA, ĐÁNH GIÁ ĐỊNH KÌ",
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Đánh giá mức độ nắm vững kiến thức và kĩ năng Lịch sử và Địa lí học kì I: vị trí địa lí, thiên nhiên, biển đảo, dân cư Việt Nam; các quốc gia đầu tiên trên lãnh thổ Việt Nam; xây dựng và bảo vệ đất nước từ thời Bắc thuộc đến Triều Nguyễn.",
+          "- Nhận biết và lựa chọn đúng các thông tin lịch sử, địa lí cơ bản; trình bày được một số nét chính về nhân vật và sự kiện lịch sử tiêu biểu.",
+          "- Vận dụng kiến thức để giải thích vai trò của biển đảo và nêu việc làm cụ thể bảo vệ di sản văn hóa dân tộc.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự giác ôn tập, đọc kĩ đề bài, độc lập làm bài và phân bổ thời gian hợp lí.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức linh hoạt để trả lời câu hỏi trắc nghiệm và câu hỏi tự luận, hoàn thành bảng nhân vật lịch sử.",
+          "- Giao tiếp: Trình bày bài làm rõ ràng, sạch đẹp, đúng quy định kiểm tra.",
+          "3. Phẩm chất",
+          "- Trung thực: Làm bài độc lập, nghiêm túc, không sao chép.",
+          "- Chăm chỉ: Đọc kĩ đề, cẩn thận kiểm tra lại bài làm trước khi nộp.",
+          "- Trách nhiệm: Chấp hành nghiêm chỉnh quy chế kiểm tra, có ý thức giữ gìn truyền thống và di sản văn hóa.",
+          "4. Tích hợp",
+          "- Không tích hợp nội dung mới trong tiết kiểm tra, đánh giá."
+        ],
+        "dodung": [
+          "1. Giáo viên",
+          "- Đề kiểm tra cuối học kì I môn Lịch sử và Địa lí 5, ma trận và đáp án, biểu điểm.",
+          "- Giấy kiểm tra in sẵn, đồng hồ theo dõi thời gian.",
+          "2. Học sinh",
+          "- Bút viết, thước kẻ, giấy nháp theo quy định.",
+          "- Tâm thế nghiêm túc, sẵn sàng làm bài kiểm tra."
+        ],
+        "activities": [],
+        "tables": [
+          [
+            [
+              "Hoạt động của GV",
+              "Hoạt động của HS"
+            ],
+            [
+              "1. Khởi động, ổn định kiểm tra (3 phút)\nMục tiêu: Ổn định lớp, giúp HS nắm yêu cầu khi làm bài kiểm tra."
+            ],
+            [
+              "- GV ổn định tổ chức, nhắc nhở nội quy phòng kiểm tra.",
+              "- HS lắng nghe, chuẩn bị đồ dùng học tập theo yêu cầu."
+            ],
+            [
+              "- GV phổ biến mục đích, thời gian làm bài (35 phút) và quy định làm bài trung thực, độc lập.",
+              "- HS ghi nhớ quy định làm bài."
+            ],
+            [
+              "2. Phát đề và tổ chức kiểm tra (30 phút)\nMục tiêu: Học sinh làm bài kiểm tra độc lập, nghiêm túc, hoàn thành các phần trắc nghiệm và tự luận."
+            ],
+            [
+              "- GV phát đề kiểm tra cho từng học sinh.",
+              "- HS nhận đề, kiểm tra số trang, ghi đầy đủ họ tên, lớp vào bài làm."
+            ],
+            [
+              "- GV cho HS đọc lướt đề bài, giải đáp các thắc mắc chung về cách làm bài (không giải thích nội dung câu hỏi).",
+              "- HS đọc lướt đề, nêu thắc mắc (nếu có)."
+            ],
+            [
+              "- GV phát lệnh bắt đầu làm bài và theo dõi thời gian.",
+              "- HS tập trung làm bài độc lập: hoàn thành 8 câu trắc nghiệm và 4 câu tự luận."
+            ],
+            [
+              "- GV quan sát, bao quát lớp, nhắc nhở giữ trật tự và nhắc mốc thời gian còn 5 phút.",
+              "- HS kiểm tra lại toàn bộ câu trả lời, soát lỗi bài làm."
+            ],
+            [
+              "3. Thu bài và nhận xét (2 phút)\nMục tiêu: Thu bài nghiêm túc, đánh giá tinh thần làm bài của học sinh."
+            ],
+            [
+              "- Hết giờ, GV yêu cầu tất cả HS dừng bút và nộp bài theo dãy bàn.",
+              "- HS dừng bút, nộp bài cho GV theo hướng dẫn."
+            ],
+            [
+              "- GV đếm đủ số bài, nhận xét tinh thần, thái độ làm bài của học sinh trong giờ kiểm tra.",
+              "- HS lắng nghe nhận xét, chuẩn bị cho tiết học tiếp theo."
+            ]
+          ],
+          [
+            [
+              "Mạch nội dung",
+              "Yêu cầu đánh giá",
+              "Nhận biết",
+              "Thông hiểu",
+              "Vận dụng",
+              "Tổng điểm"
+            ],
+            [
+              "Đất nước và con người Việt Nam",
+              "Nhận biết vị trí, thiên nhiên, biển đảo, dân cư Việt Nam; nêu vai trò của biển, đảo đối với nước ta.",
+              "Câu 1, 2 (1,0đ)",
+              "Câu 9 (2,0đ)",
+              "",
+              "3,0đ"
+            ],
+            [
+              "Những quốc gia đầu tiên trên lãnh thổ Việt Nam",
+              "Nhận biết nét tiêu biểu của Văn Lang, Âu Lạc, Phù Nam, Chăm-pa.",
+              "Câu 3 (0,5đ)",
+              "",
+              "",
+              "0,5đ"
+            ],
+            [
+              "Xây dựng và bảo vệ đất nước Việt Nam",
+              "Nhận biết, trình bày sự kiện, nhân vật lịch sử tiêu biểu từ thời Bắc thuộc đến Triều Nguyễn.",
+              "Câu 4, 5, 6, 7, 8 (2,5đ)",
+              "Câu 10 (2,0đ)",
+              "Câu 11, 12 (2,0đ)",
+              "6,5đ"
+            ],
+            [
+              "Tổng",
+              "",
+              "4,0đ (40%)",
+              "4,0đ (40%)",
+              "2,0đ (20%)",
+              "10,0đ (100%)"
+            ]
+          ],
+          [
+            [
+              "Nhân vật lịch sử",
+              "Đóng góp tiêu biểu"
+            ],
+            [
+              "Lý Thái Tổ",
+              "Dời đô ra Đại La, đổi tên là Thăng Long (năm 1010)."
+            ],
+            [
+              "Trần Quốc Tuấn",
+              "Chỉ huy quân dân nhà Trần ba lần đánh thắng quân xâm lược Mông - Nguyên."
+            ],
+            [
+              "Lê Lợi",
+              "Lãnh đạo cuộc khởi nghĩa Lam Sơn thắng lợi, lập nên Triều Hậu Lê."
+            ],
+            [
+              "Nguyễn Công Trứ",
+              "Có công lớn trong công cuộc khai hoang, lập nên hai huyện Tiền Hải và Kim Sơn."
+            ]
+          ],
+          [
+            [
+              "Câu 1",
+              "Câu 2",
+              "Câu 3",
+              "Câu 4",
+              "Câu 5",
+              "Câu 6",
+              "Câu 7",
+              "Câu 8"
+            ],
+            [
+              "B",
+              "A",
+              "C",
+              "A",
+              "B",
+              "A",
+              "B",
+              "D"
+            ]
+          ]
+        ],
+        "dieuchinh": [
+          "................................................................................................................................................",
+          "................................................................................................................................................",
+          "PHỤ LỤC 1. MA TRẬN ĐỀ KIỂM TRA CUỐI HỌC KÌ I",
+          "Môn: Lịch sử và Địa lí 5 | Thời gian: 35 phút | Tổng điểm: 10 điểm",
+          "PHỤ LỤC 2. ĐỀ KIỂM TRA CUỐI HỌC KÌ I",
+          "TRƯỜNG TIỂU HỌC: ....................................................",
+          "Họ và tên: .................................................    Lớp: 5......",
+          "ĐỀ KIỂM TRA CUỐI HỌC KÌ I",
+          "MÔN: LỊCH SỬ VÀ ĐỊA LÍ 5",
+          "Thời gian làm bài: 35 phút | Tổng điểm: 10 điểm",
+          "I. TRẮC NGHIỆM (4 điểm) - Khoanh vào chữ cái trước ý trả lời đúng nhất.",
+          "Câu 1. Việt Nam nằm ở khu vực nào?",
+          "A. Đông Bắc Á.    B. Đông Nam Á.    C. Nam Á.    D. Tây Á.",
+          "Câu 2. Hai quần đảo thuộc chủ quyền của Việt Nam trên Biển Đông là:",
+          "A. Hoàng Sa và Trường Sa.    B. Phú Quốc và Côn Đảo.    C. Cô Tô và Cát Bà.    D. Lý Sơn và Cồn Cỏ.",
+          "Câu 3. Nhà nước đầu tiên trên lãnh thổ Việt Nam là:",
+          "A. Âu Lạc.    B. Chăm-pa.    C. Văn Lang.    D. Phù Nam.",
+          "Câu 4. Vua Lý Thái Tổ dời đô về Đại La và đổi tên là:",
+          "A. Thăng Long.    B. Phú Xuân.    C. Hoa Lư.    D. Cổ Loa.",
+          "Câu 5. Nhân vật lịch sử gắn với chiến thắng Bạch Đằng thời Trần là:",
+          "A. Lê Lợi.    B. Trần Quốc Tuấn.    C. Nguyễn Trãi.    D. Nguyễn Công Trứ.",
+          "Câu 6. Khởi nghĩa Lam Sơn do ai lãnh đạo?",
+          "A. Lê Lợi.    B. Lê Lai.    C. Nguyễn Huệ.    D. Phan Đình Phùng.",
+          "Câu 7. Triều Nguyễn được thành lập vào năm nào?",
+          "A. 1010.    B. 1802.    C. 1858.    D. 1945.",
+          "Câu 8. Di sản văn hóa tiêu biểu gắn với Triều Nguyễn là:",
+          "A. Thành Cổ Loa.    B. Tháp Chăm Mỹ Sơn.    C. Đền Hùng.    D. Quần thể di tích Cố đô Huế.",
+          "II. TỰ LUẬN (6 điểm)",
+          "Câu 9. Nêu vai trò của biển, đảo đối với nước ta. Gợi ý: tài nguyên, giao thông, du lịch, quốc phòng - an ninh. (2 điểm)",
+          "Câu 10. Kể lại một số nét chính về khởi nghĩa Lam Sơn. Gợi ý: người lãnh đạo, thời gian, địa điểm, kết quả, ý nghĩa. (2 điểm)",
+          "Câu 11. Hoàn thành bảng sau về một số nhân vật lịch sử tiêu biểu: Lý Thái Tổ, Trần Quốc Tuấn, Lê Lợi, Nguyễn Công Trứ. (1 điểm)",
+          "Câu 12. Em cần làm gì để trân trọng lịch sử dân tộc và giữ gìn các di sản văn hóa? Viết 2 đến 3 việc làm cụ thể của bản thân. (1 điểm)",
+          "--- HẾT ---",
+          "PHỤ LỤC 3. ĐÁP ÁN VÀ BIỂU ĐIỂM",
+          "I. Trắc nghiệm (4 điểm): Mỗi câu đúng được 0,5 điểm (Câu 1: B, 2: A, 3: C, 4: A, 5: B, 6: A, 7: B, 8: D).",
+          "II. Tự luận (6 điểm):",
+          "- Câu 9 (2 điểm): Nêu được biển, đảo có nhiều tài nguyên thủy sản, khoáng sản; giao thông hàng hải quốc tế; du lịch biển phát triển; vị trí chiến lược bảo vệ chủ quyền, quốc phòng - an ninh.",
+          "- Câu 10 (2 điểm): Lê Lợi lãnh đạo khởi nghĩa Lam Sơn (Thanh Hóa) năm 1418; trải qua 10 năm gian khổ với các danh tướng Nguyễn Trãi, Lê Lai; giành thắng lợi năm 1427; năm 1428 lên ngôi lập Triều Hậu Lê.",
+          "- Câu 11 (1 điểm): Mỗi nhân vật nêu đúng đóng góp tiêu biểu được 0,25 điểm.",
+          "- Câu 12 (1 điểm): Nêu 2 đến 3 việc làm thiết thực: chăm chỉ học tập lịch sử, giữ gìn và bảo vệ di tích di sản, không vẽ bậy xả rác, tuyên truyền giữ gìn bản sắc văn hóa."
+        ]
+      },
+      {
+        "lessonTitle": "BÀI 14. CÁCH MẠNG THÁNG TÁM NĂM 1945 (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3. XÂY DỰNG VÀ BẢO VỆ ĐẤT NƯỚC VIỆT NAM",
         "yccd": [
           "1. Năng lực đặc thù",
