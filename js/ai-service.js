@@ -1680,7 +1680,18 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
    - Miền 3: Đo lường (chiếm khoảng 15% - 20% tổng điểm đề)
    - Miền 4: Một số yếu tố Thống kê và Xác suất (chiếm khoảng 10% tổng điểm đề)
    (Đề thi BẮT BUỘC phải bao quát cân đối các mạch kiến thức trên theo đúng phạm vi học kì, không được chỉ ra duy nhất 1 mạch Số và phép tính).
-   - Quá trình nhận thức SEA-PLM: "Biết (Knowing)", "Áp dụng (Applying)", "Suy luận (Reasoning)".`;
+   - Quá trình nhận thức SEA-PLM: "Biết (Knowing)", "Áp dụng (Applying)", "Suy luận (Reasoning)".
+
+2. QUY TẮC BẮT BUỘC ĐA DẠNG HÓA CÂU HỎI MỞ ĐẦU & MỨC 1 (CHỐNG RẬP KHUÔN 100%):
+   - TUYỆT ĐỐI CẤM lặp lại cùng một khuôn mẫu quen thuộc như "Số thập phân gồm... được viết là:" cho Câu 1.
+   - BẮT BUỘC luân phiên đổi các dạng toán Mức 1 phong phú khác nhau cho Câu 1 và các câu nhận biết:
+     + Dạng A (Giá trị của chữ số theo hàng): Ví dụ "Chữ số 7 trong số thập phân 24,578 có giá trị là bao nhiêu?", "Giá trị của chữ số 5 trong số thập phân 12,35 là:..."
+     + Dạng B (Chuyển phân số thập phân thành số thập phân): Ví dụ "Phân số thập phân 8/100 (hoặc 345/10) được viết dưới dạng số thập phân là:..."
+     + Dạng C (Số thập phân bằng nhau): Ví dụ "Số thập phân nào dưới đây bằng với số 3,5?", "Bỏ các chữ số 0 ở tận cùng bên phải phần thập phân của số 12,400 ta được số nào?"
+     + Dạng D (Phần nguyên và phần thập phân / Hàng của chữ số): Ví dụ "Trong số thập phân 85,24; chữ số 2 thuộc hàng nào?", "Phần thập phân của số 34,567 là:..."
+     + Dạng E (Chuyển đổi hỗn số sang phân số hoặc số thập phân): Với các số liệu phong phú, sáng tạo (không lặp lại hỗn số 3 và 2/5).
+     + Dạng F (Đọc - viết số thập phân): Nếu dùng dạng đọc - viết, phải đổi cách đặt câu tự nhiên và số liệu sáng tạo.
+   - Mỗi câu hỏi trong đề phải có số liệu mới mẻ, tự nhiên, bài toán thực tế sinh động, tuyệt đối không sao chép đề bài cũ.`;
       } else if (subjectId === "KHOA_HOC") {
         subjectContentDomainsGuideline = `
 1. MIỀN NỘI DUNG VÀ QUÁ TRÌNH NHẬN THỨC MÔN KHOA HỌC CHUẨN GDPT 2018 & SEA-PLM:
@@ -1791,6 +1802,11 @@ ${mathFormattingRule}
      + TUYỆT ĐỐI CẤM dùng các từ: "huyện", "quận", "thị xã", "cấp huyện" (Ví dụ: CẤM viết "huyện...", "quận...", "thị xã...").
      + BẮT BUỘC chỉ dùng cấp xã/phường/thị trấn hoặc gọi theo tên địa danh, vùng miền tự nhiên (Ví dụ: "tại xã Tam Bình, tỉnh Vĩnh Long", "tại phường Bến Nghé, TP. Hồ Chí Minh", "tại xã Hòa Lạc, TP. Hà Nội", "vùng đất Tam Bình", "xứ dừa", "miệt vườn sông nước"...).
      + TUYỆT ĐỐI CẤM thêm chữ "mới" sau tên tỉnh/thành phố (ví dụ cấm viết "tỉnh Vĩnh Long mới", "Hà Nội mới"...).
+
+6. YÊU CẦU ĐỘC LẬP VÀ ĐA DẠNG HÓA GIỮA CÁC MÃ ĐỀ THI (CHỐNG TRÙNG LẶP & RẬP KHUÔN - BẮT BUỘC):
+   - Đề thi này là một MÃ ĐỀ ĐỘC LẬP (Mã phiên ngẫu nhiên: VARIANT_${Date.now().toString(36).toUpperCase()}_${Math.floor(Math.random() * 9000 + 1000)}).
+   - TUYỆT ĐỐI CẤM lặp lại các bài toán mẫu, các con số quen thuộc (như hỗn số 3 và 2/5, số thập phân gồm... được viết là...) hoặc sao chép nguyên xi cấu trúc câu chữ từ các đề thi khác.
+   - BẮT BUỘC sáng tạo số liệu mới mẻ, tự nhiên, bài toán thực tế sinh động, phù hợp lứa tuổi học sinh tiểu học.
 
 ### CÁC NGUYÊN TẮC BIÊN SOẠN THEO CHUẨN SEA-PLM (BỘ GIÁO DỤC VÀ ĐÀO TẠO):
 1. ĐẶT TRONG BỐI CẢNH CHÂN THỰC (AUTHENTIC CONTEXTS):
@@ -1939,7 +1955,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
       try {
         var genConfig = {
           responseMimeType: "application/json",
-          temperature: 0.2
+          temperature: 0.55
         };
         // Tắt thinking budget ở gemini-2.5-flash để tốc độ sinh JSON siêu tốc (1-2 giây)
         if (modelName.indexOf("2.5") !== -1) {
