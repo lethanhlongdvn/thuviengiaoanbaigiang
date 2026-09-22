@@ -1339,6 +1339,7 @@ var AIService = {
     var duration = params.duration || (grade <= 2 ? "Đọc: 35 phút | Viết: 35 phút" : "Đọc: 40 phút | Viết: 40 phút");
     var schoolName = params.schoolName || "TRƯỜNG TIỂU HỌC .................................";
     var customPrompt = params.customPrompt || "";
+    var isVinhLong = !!(params.isVinhLongLocal || params.isVinhLong);
 
     // Xác định bộ sách: Cả nước áp dụng thống nhất bộ sách Kết nối tri thức với cuộc sống (KNTT) từ năm học 2026 - 2027
     var bookSeries = 'kntt';
