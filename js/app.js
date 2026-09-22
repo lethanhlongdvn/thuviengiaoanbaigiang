@@ -8442,7 +8442,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
             var cellHeaderColorStyle = isPureIntegration ? 'color: #c00000;' : '';
             var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
-            rowsHtml += `<tr><td colspan="4" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
+            rowsHtml += `<tr><td colspan="4" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           } else if (r.length === 2) {
             rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${(r[0]||'').replace(/\n/g, '<br/>')}</div></td><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${(r[1]||'').replace(/\n/g, '<br/>')}</div></td></tr>`;
           }
@@ -8498,7 +8498,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
             var cellHeaderColorStyle = isPureIntegration ? 'color: #c00000;' : '';
             var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
-            rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
+            rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           }
         }
       }
@@ -8635,10 +8635,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       </table>
 
       ${daySessionInfo}
-      <h2 style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase;">KẾ HOẠCH BÀI DẠY</h2>
-      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0;">MÔN: ${subjName.toUpperCase()}${les.grade ? (' - KHỐI ' + les.grade) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' - ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '')}</p>
-      <p style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0;">${cleanLessonTitle}</p>
-      ${les.period ? ('<p style="font-style: italic; margin: 2pt 0 0 0;">(' + les.period + ')</p>') : ''}
+      <h2 style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase; text-align: center;">KẾ HOẠCH BÀI DẠY</h2>
+      <p style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0; text-align: center;">MÔN: ${subjName.toUpperCase()}${les.grade ? (' - KHỐI ' + les.grade) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' - ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '')}</p>
+      <p style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0; text-align: center;">${cleanLessonTitle}</p>
+      ${les.period ? ('<p style="font-style: italic; margin: 2pt 0 0 0; text-align: center;">(' + les.period + ')</p>') : ''}
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">I. YÊU CẦU CẦN ĐẠT:</div>
