@@ -26,17 +26,21 @@ var AIService = {
    */
   getMcqScoringGuide: function(mcqs) {
     if (!mcqs || !mcqs.length) return "Mỗi câu trả lời đúng được 0,5 điểm.";
-    var firstScore = parseFloat(mcqs[0].score) || 0.5;
+    function fmtScoreVal(v) {
+      var r = Math.round((parseFloat(v) || 0.5) * 4) / 4;
+      return r.toString().replace('.', ',');
+    }
+    var firstScore = Math.round((parseFloat(mcqs[0].score) || 0.5) * 4) / 4;
     var allSame = mcqs.every(function(q) {
-      return Math.abs((parseFloat(q.score) || 0.5) - firstScore) < 0.001;
+      var sc = Math.round((parseFloat(q.score) || 0.5) * 4) / 4;
+      return Math.abs(sc - firstScore) < 0.001;
     });
     if (allSame) {
-      return `Mỗi câu trả lời đúng được ${firstScore.toFixed(1).replace('.', ',')} điểm.`;
+      return `Mỗi câu trả lời đúng được ${fmtScoreVal(firstScore)} điểm.`;
     }
     var groups = {};
     mcqs.forEach(function(q) {
-      var scNum = parseFloat(q.score) || 0.5;
-      var sc = scNum.toFixed(1).replace('.', ',');
+      var sc = fmtScoreVal(q.score);
       if (!groups[sc]) groups[sc] = [];
       groups[sc].push(q.num);
     });
@@ -64,7 +68,7 @@ var AIService = {
 
     function fmtScore(num) {
       if (typeof num !== 'number' || isNaN(num) || num === 0) return 0;
-      return Math.round(num * 10) / 10;
+      return Math.round(num * 4) / 4;
     }
 
     if (isTv) {
@@ -755,12 +759,48 @@ var AIService = {
     exam.level2Percent = targetM2Pct;
     exam.level3Percent = targetM3Pct;
 
-    // 1. Nếu là Đề Tiếng Việt Đọc hiểu
+    // Helper phân bổ điểm toán học bảo đảm 100% từng câu là bội số của 0,25 (thang điểm 0,25; 0,5; 0,75; 1,0; 1,5; 2,0; 2,5...)
+    function assignScoresToCount(count, targetTotal, isMcq) {
+      if (count <= 0) return [];
+      var target = Math.round(targetTotal * 4) / 4;
+      if (count === 1) return [target];
+
+      // Nếu là trắc nghiệm và targetTotal có thể phân rã thành các câu 0.5đ và 1.0đ:
+      if (isMcq) {
+        var y = Math.round(2 * target - count); // số câu 1.0đ
+        var x = count - y; // số câu 0.5đ
+        if (x >= 0 && y >= 0 && Math.abs((x * 0.5 + y * 1.0) - target) < 0.001) {
+          var res = [];
+          for (var i = 0; i < x; i++) res.push(0.5);
+          for (var j = 0; j < y; j++) res.push(1.0);
+          return res;
+        }
+      }
+
+      // Phân bổ phần dư chẵn 0,25đ (Quarter-points partition):
+      var totalQuarters = Math.round(target * 4);
+      if (totalQuarters < count) {
+        var resSmall = [];
+        for (var s = 0; s < count; s++) resSmall.push(s < totalQuarters ? 0.25 : 0);
+        return resSmall;
+      }
+
+      var baseQuarters = Math.floor(totalQuarters / count);
+      var rem = totalQuarters % count;
+      var res = [];
+      for (var k = 0; k < count; k++) {
+        var qCount = baseQuarters + (k < rem ? 1 : 0);
+        res.push(qCount * 0.25);
+      }
+      return res;
+    }
+
+    // 1. Nếu là Đề Tiếng Việt Đọc hiểu (Điểm đọc hiểu thường là 6,0đ hoặc 7,0đ)
     if (exam.readingExam && Array.isArray(exam.readingExam.questions)) {
-      var compScore = parseFloat(exam.readingExam.comprehensionScore) || 6.0;
-      var tvTargetM1 = Math.round((compScore * targetM1Pct / 100) * 10) / 10;
-      var tvTargetM2 = Math.round((compScore * targetM2Pct / 100) * 10) / 10;
-      var tvTargetM3 = Math.round((compScore - tvTargetM1 - tvTargetM2) * 10) / 10;
+      var compScore = Math.round((parseFloat(exam.readingExam.comprehensionScore) || 6.0) * 4) / 4;
+      var tvTargetM1 = Math.round((compScore * targetM1Pct / 100) * 4) / 4;
+      var tvTargetM2 = Math.round((compScore * targetM2Pct / 100) * 4) / 4;
+      var tvTargetM3 = Math.round((compScore - tvTargetM1 - tvTargetM2) * 4) / 4;
 
       var tvQuestions = exam.readingExam.questions;
       var tvMcqs = [];
@@ -773,16 +813,17 @@ var AIService = {
 
       var tvEssayTarget = tvEssays.length > 0 ? (tvEssays.length * 1.0) : 0;
       if (tvEssayTarget > compScore - 2.0) tvEssayTarget = Math.max(1.0, compScore - tvMcqs.length * 0.5);
-      var tvMcqTarget = Math.round((compScore - tvEssayTarget) * 10) / 10;
+      tvEssayTarget = Math.round(tvEssayTarget * 4) / 4;
+      var tvMcqTarget = Math.round((compScore - tvEssayTarget) * 4) / 4;
 
       var tv_m1_mcq = Math.min(tvTargetM1, tvMcqTarget);
-      var tv_m1_essay = Math.round((tvTargetM1 - tv_m1_mcq) * 10) / 10;
+      var tv_m1_essay = Math.round((tvTargetM1 - tv_m1_mcq) * 4) / 4;
 
-      var tv_m3_essay = Math.min(tvTargetM3, Math.max(0, Math.round((tvEssayTarget - tv_m1_essay) * 10) / 10));
-      var tv_m3_mcq = Math.round((tvTargetM3 - tv_m3_essay) * 10) / 10;
+      var tv_m3_essay = Math.min(tvTargetM3, Math.max(0, Math.round((tvEssayTarget - tv_m1_essay) * 4) / 4));
+      var tv_m3_mcq = Math.round((tvTargetM3 - tv_m3_essay) * 4) / 4;
 
-      var tv_m2_mcq = Math.round((tvMcqTarget - tv_m1_mcq - tv_m3_mcq) * 10) / 10;
-      var tv_m2_essay = Math.round((tvEssayTarget - tv_m1_essay - tv_m3_essay) * 10) / 10;
+      var tv_m2_mcq = Math.round((tvMcqTarget - tv_m1_mcq - tv_m3_mcq) * 4) / 4;
+      var tv_m2_essay = Math.round((tvEssayTarget - tv_m1_essay - tv_m3_essay) * 4) / 4;
 
       function assignTv(list, buckets, isMcq) {
         if (!list.length || !buckets.length) return;
@@ -803,26 +844,7 @@ var AIService = {
 
         var idx = 0;
         buckets.forEach(function(b) {
-          var count = b.count;
-          var S = b.target;
-          var scores = [];
-          if (isMcq) {
-            var y = Math.round(2 * S - count);
-            var x = count - y;
-            if (x >= 0 && y >= 0) {
-              for (var i = 0; i < x; i++) scores.push(0.5);
-              for (var j = 0; j < y; j++) scores.push(1.0);
-            }
-          }
-          if (!scores.length) {
-            var each = Math.round((S / count) * 10) / 10;
-            var sSum = 0;
-            for (var k = 0; k < count - 1; k++) {
-              scores.push(each);
-              sSum += each;
-            }
-            scores.push(Math.round((S - sSum) * 10) / 10);
-          }
+          var scores = assignScoresToCount(b.count, b.target, isMcq);
           scores.forEach(function(sc) {
             if (idx < list.length) {
               list[idx].score = sc;
@@ -852,9 +874,9 @@ var AIService = {
     }
 
     // 2. Cho các môn chung (Toán, Khoa học, Lịch sử - Địa lí, Tin học, Công nghệ...)
-    var targetM1Score = Math.round((10.0 * targetM1Pct / 100) * 10) / 10;
-    var targetM2Score = Math.round((10.0 * targetM2Pct / 100) * 10) / 10;
-    var targetM3Score = Math.round((10.0 - targetM1Score - targetM2Score) * 10) / 10;
+    var targetM1Score = Math.round((10.0 * targetM1Pct / 100) * 4) / 4;
+    var targetM2Score = Math.round((10.0 * targetM2Pct / 100) * 4) / 4;
+    var targetM3Score = Math.round((10.0 - targetM1Score - targetM2Score) * 4) / 4;
 
     exam.targetLevel1Score = targetM1Score;
     exam.targetLevel2Score = targetM2Score;
@@ -878,45 +900,19 @@ var AIService = {
     } else if (essays.length === 0) {
       targetMcqScore = 10.0;
     } else {
-      targetMcqScore = Math.round((10.0 * mcqPct / 100) * 10) / 10;
-      targetEssayScore = Math.round((10.0 - targetMcqScore) * 10) / 10;
+      targetMcqScore = Math.round((10.0 * mcqPct / 100) * 4) / 4;
+      targetEssayScore = Math.round((10.0 - targetMcqScore) * 4) / 4;
     }
 
     // Phân bổ điểm cho từng mức độ giữa MCQ và Tự luận
     var m1_mcq = Math.min(targetM1Score, targetMcqScore);
-    var m1_essay = Math.round((targetM1Score - m1_mcq) * 10) / 10;
+    var m1_essay = Math.round((targetM1Score - m1_mcq) * 4) / 4;
 
-    var m3_essay = Math.min(targetM3Score, Math.max(0, Math.round((targetEssayScore - m1_essay) * 10) / 10));
-    var m3_mcq = Math.round((targetM3Score - m3_essay) * 10) / 10;
+    var m3_essay = Math.min(targetM3Score, Math.max(0, Math.round((targetEssayScore - m1_essay) * 4) / 4));
+    var m3_mcq = Math.round((targetM3Score - m3_essay) * 4) / 4;
 
-    var m2_mcq = Math.round((targetMcqScore - m1_mcq - m3_mcq) * 10) / 10;
-    var m2_essay = Math.round((targetEssayScore - m1_essay - m3_essay) * 10) / 10;
-
-    function assignScoresToCount(count, targetTotal, isMcq) {
-      if (count <= 0) return [];
-      if (count === 1) return [Math.round(targetTotal * 10) / 10];
-
-      if (isMcq) {
-        var y = Math.round(2 * targetTotal - count); // số câu 1.0đ
-        var x = count - y; // số câu 0.5đ
-        if (x >= 0 && y >= 0) {
-          var res = [];
-          for (var i = 0; i < x; i++) res.push(0.5);
-          for (var j = 0; j < y; j++) res.push(1.0);
-          return res;
-        }
-      }
-
-      var each = Math.round((targetTotal / count) * 10) / 10;
-      var res2 = [];
-      var sum2 = 0;
-      for (var k = 0; k < count - 1; k++) {
-        res2.push(each);
-        sum2 += each;
-      }
-      res2.push(Math.round((targetTotal - sum2) * 10) / 10);
-      return res2;
-    }
+    var m2_mcq = Math.round((targetMcqScore - m1_mcq - m3_mcq) * 4) / 4;
+    var m2_essay = Math.round((targetEssayScore - m1_essay - m3_essay) * 4) / 4;
 
     // 1. Phân bổ cho MCQ
     if (mcqs.length > 0) {
@@ -1200,24 +1196,29 @@ var AIService = {
       else m2Essay++;
     });
 
+    function fmtScoreStr(num) {
+      var r = Math.round((parseFloat(num) || 0) * 4) / 4;
+      return r.toString().replace('.', ',');
+    }
+
     s.m1_total_mcq = m1Mcq;
     s.m1_total_essay = m1Essay;
-    s.m1_score = (exam.targetLevel1Score !== undefined ? exam.targetLevel1Score : 4.0).toFixed(1).replace('.', ',');
+    s.m1_score = fmtScoreStr(exam.targetLevel1Score !== undefined ? exam.targetLevel1Score : 4.0);
     s.m1_pct = exam.level1Percent || 40;
 
     s.m2_total_mcq = m2Mcq;
     s.m2_total_essay = m2Essay;
-    s.m2_score = (exam.targetLevel2Score !== undefined ? exam.targetLevel2Score : 4.0).toFixed(1).replace('.', ',');
+    s.m2_score = fmtScoreStr(exam.targetLevel2Score !== undefined ? exam.targetLevel2Score : 4.0);
     s.m2_pct = exam.level2Percent || 40;
 
     s.m3_total_mcq = m3Mcq;
     s.m3_total_essay = m3Essay;
-    s.m3_score = (exam.targetLevel3Score !== undefined ? exam.targetLevel3Score : 2.0).toFixed(1).replace('.', ',');
+    s.m3_score = fmtScoreStr(exam.targetLevel3Score !== undefined ? exam.targetLevel3Score : 2.0);
     s.m3_pct = exam.level3Percent || 20;
 
     s.total_mcq_count = mcqs.length;
     s.total_essay_count = essays.length;
-    s.total_score = "10,0";
+    s.total_score = "10";
 
     // Đồng bộ từng dòng chủ đề trong matrix.topics nếu có
     if (exam.matrix.topics && Array.isArray(exam.matrix.topics)) {
@@ -1252,7 +1253,7 @@ var AIService = {
         if (rowMcqCount > 0 || rowEssayCount > 0) {
           top.total_mcq = rowMcqCount;
           top.total_essay = rowEssayCount;
-          top.score = (Math.round(rowScore * 10) / 10).toFixed(1).replace('.', ',');
+          top.score = (Math.round(rowScore * 4) / 4).toString().replace('.', ',');
         }
       });
     }
@@ -1413,6 +1414,7 @@ Hãy soạn trọn bộ ĐỀ KIỂM TRA MÔN TIẾNG VIỆT LỚP ${grade} gồ
   + Phần Đọc hiểu & Luyện từ và câu (${compScore.toFixed(1).replace('.', ',')} điểm):
     * Cung cấp 1 văn bản đọc thầm hoàn chỉnh (có tựa đề, nội dung truyện/bài văn khoảng ${grade === 1 ? '40-60' : grade === 2 ? '80-110' : grade === 3 ? '150-180' : grade === 4 ? '200-250' : '250-300'} chữ và tên tác giả).
     * Hệ thống 8 câu hỏi (6 câu trắc nghiệm + 2 câu tự luận/đặt câu) theo ma trận 3 Mức độ (Mức 1 - Locate, Mức 2 - Interpret, Mức 3 - Reflect), phân bố giữa Đọc hiểu văn bản và Luyện từ và câu/Kiến thức Tiếng Việt bám sát SGK ${seriesName}.
+    * QUY ĐỊNH THANG ĐIỂM TIỂU HỌC: Điểm của từng câu hỏi BẮT BUỘC chẵn bội số của 0,25 (thang điểm 0,25đ; 0,5đ; 0,75đ; 1,0đ; 1,25đ; 1,5đ...). Tuyệt đối không dùng điểm lẻ như 0,4đ hay 0,8đ.
 
 - ĐỀ VIẾT (10,0 điểm):
 ${grade <= 3 ? `  + Phần Chính tả Nghe - viết (${dictScore.toFixed(1).replace('.', ',')} điểm): Đoạn văn/thơ đúng chuẩn dung lượng Lớp ${grade} (${grade === 1 ? '30-35 chữ' : grade === 2 ? '45-50 chữ' : '65-70 chữ'}).
@@ -1782,11 +1784,14 @@ ${customPrompt ? "- YÊU CẦU BỔ SUNG: " + customPrompt : ""}
 ### QUY TẮC RÀNG BUỘC PHÂN BỔ ĐIỂM SỐ & MIỀN NỘI DUNG CHUẨN SEA-PLM (BẮT BUỘC):
 ${subjectContentDomainsGuideline}
 
-2. QUY TẮC ĐIỂM SỐ CHUẨN TIỂU HỌC:
-   - Điểm mỗi câu trắc nghiệm: CHỈ ĐƯỢC LÀ 0,5 ĐIỂM HOẶC 1,0 ĐIỂM (Tuyệt đối không được gán 1,5 điểm hoặc số lẻ khác cho câu trắc nghiệm).
-   - Tổng điểm toàn bộ ${mcqCount} câu trắc nghiệm PHẢI CHÍNH XÁC bằng ${(mcqPct / 10).toFixed(1)} điểm. Bạn phải tự tính toán số lượng câu 0,5đ và 1,0đ sao cho tổng vừa vặn ${(mcqPct / 10).toFixed(1)} điểm.
-   - Điểm mỗi câu tự luận: là 1,0 điểm, 1,5 điểm hoặc 2,0 điểm.
-   - Tổng điểm toàn bộ ${essayCount} câu tự luận PHẢI CHÍNH XÁC bằng ${(essayPct / 10).toFixed(1)} điểm.
+2. QUY ĐỊNH BẮT BUỘC VỀ THANG ĐIỂM TIỂU HỌC (CHẴN BỘI SỐ CỦA 0,25 - THANG ĐIỂM 0,25; 0,5; 0,75; 1,0; 1,5; 2,0; 2,5...):
+   - ĐIỂM CỦA MỌI CÂU HỎI (TRẮC NGHIỆM VÀ TỰ LUẬN) BẮT BUỘC PHẢI LÀ BỘI SỐ CỦA 0,25:
+     Chỉ được dùng các mức điểm sau: 0,25 điểm; 0,5 điểm; 0,75 điểm; 1,0 điểm; 1,25 điểm; 1,5 điểm; 1,75 điểm; 2,0 điểm; 2,25 điểm; 2,5 điểm; 2,75 điểm; 3,0 điểm...
+   - TUYỆT ĐỐI CẤM các điểm số lẻ khác như 0,1; 0,2; 0,3; 0,4; 0,6; 0,7; 0,8; 0,9; 1,2; 1,4; 1,6; 1,8; 2,4...
+   - Điểm mỗi câu trắc nghiệm thường là: 0,25đ; 0,5đ; 0,75đ hoặc 1,0đ.
+   - Điểm mỗi câu tự luận (hoặc từng ý trong câu tự luận): 0,5đ; 0,75đ; 1,0đ; 1,25đ; 1,5đ; 2,0đ; 2,5đ; 3,0đ...
+   - Tổng điểm toàn bộ ${mcqCount} câu trắc nghiệm PHẢI CHÍNH XÁC bằng ${(mcqPct / 10).toFixed(1).replace('.', ',')} điểm.
+   - Tổng điểm toàn bộ ${essayCount} câu tự luận PHẢI CHÍNH XÁC bằng ${(essayPct / 10).toFixed(1).replace('.', ',')} điểm.
    - TỔNG ĐIỂM TOÀN BỘ ĐỀ THI BẮT BUỘC BẰNG ĐÚNG 10,0 ĐIỂM.
 
 3. QUY TẮC TỰ GIẢI LẠI & ĐỐI CHIẾU CHÉO ĐÁP ÁN (SELF-VERIFICATION & CONSISTENCY - BẮT BUỘC):
