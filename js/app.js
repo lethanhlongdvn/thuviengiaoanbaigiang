@@ -1710,7 +1710,7 @@ function renderExamOutput(exam, container) {
       </div>
 
       <!-- TAB 1: PHIẾU ĐỀ ĐỌC (HỌC SINH) -->
-      <div id="examTabContent_reading" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'reading' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
+      <div id="examTabContent_reading" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'reading' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
         
         <!-- HEADER 2 CỘT -->
         <table style="width: 100%; border: none; margin-bottom: 12px;">
@@ -1841,7 +1841,7 @@ function renderExamOutput(exam, container) {
       </div>
 
       <!-- TAB 2: PHIẾU ĐỀ VIẾT (HỌC SINH) -->
-      <div id="examTabContent_writing" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'writing' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
+      <div id="examTabContent_writing" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'writing' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
         
         <!-- HEADER 2 CỘT -->
         <table style="width: 100%; border: none; margin-bottom: 12px;">
@@ -2040,7 +2040,7 @@ function renderExamOutput(exam, container) {
       </div>
 
       <!-- TAB 4: HƯỚNG DẪN CHẤM & ĐÁP ÁN TIẾNG VIỆT -->
-      <div id="examTabContent_rubric" style="display: ${currentExamActiveTab === 'rubric' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
+      <div id="examTabContent_rubric" style="display: ${currentExamActiveTab === 'rubric' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
         <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
           HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN MÔN TIẾNG VIỆT LỚP ${exam.grade}
         </div>
@@ -2192,7 +2192,7 @@ function renderExamOutput(exam, container) {
       </div>
 
       <!-- TAB 5: ĐẶC TẢ SIÊU DỮ LIỆU & HƯỚNG DẪN MÃ HÓA CHUẨN ĐÔNG NAM Á (SEA-PLM) -->
-      <div id="examTabContent_seaplm" style="display: ${currentExamActiveTab === 'seaplm' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
+      <div id="examTabContent_seaplm" style="display: ${currentExamActiveTab === 'seaplm' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
         
         <!-- BANNER SEA-PLM -->
         <div style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: #fff; padding: 1rem 1.25rem; border-radius: 6px; margin-bottom: 1.25rem; box-shadow: 0 4px 12px rgba(2,132,199,0.15);">
@@ -2481,7 +2481,7 @@ function renderExamOutput(exam, container) {
     </div>
 
     <!-- NỘI DUNG TAB 1: PHIẾU ĐỀ THI HỌC SINH -->
-    <div id="examTabContent_exam" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'exam' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
+    <div id="examTabContent_exam" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'exam' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
       
       <!-- HEADER 2 CỘT -->
       <table style="width: 100%; border: none; margin-bottom: 12px;">
@@ -2644,7 +2644,7 @@ function renderExamOutput(exam, container) {
     </div>
 
     <!-- NỘI DUNG TAB 3: HƯỚNG DẪN CHẤM & ĐÁP ÁN -->
-    <div id="examTabContent_answers" style="display: ${currentExamActiveTab === 'answers' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
+    <div id="examTabContent_answers" style="display: ${currentExamActiveTab === 'answers' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
       
       <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
         HƯỚNG DẪN CHẤM VÀ ĐÁP ÁN MÔN ${exam.subjectName.toUpperCase()} LỚP ${exam.grade}
@@ -2710,7 +2710,7 @@ function renderExamOutput(exam, container) {
     </div>
 
     <!-- NỘI DUNG TAB 4: ĐẶC TẢ SIÊU DỮ LIỆU & MÃ HÓA CHUẨN ĐÔNG NAM Á (SEA-PLM) -->
-    <div id="examTabContent_seaplm" style="display: ${currentExamActiveTab === 'seaplm' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; text-justify: inter-ideograph;">
+    <div id="examTabContent_seaplm" style="display: ${currentExamActiveTab === 'seaplm' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
       
       <!-- BANNER SEA-PLM -->
       <div style="background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); color: #fff; padding: 1rem 1.25rem; border-radius: 6px; margin-bottom: 1.25rem; box-shadow: 0 4px 12px rgba(2,132,199,0.15);">
@@ -7195,8 +7195,8 @@ async function triggerExportPlanSummaryWord() {
   <style>
     @page Section1 { size: 21.0cm 29.7cm; margin: 2.0cm 1.5cm 2.0cm 3.0cm; mso-page-orientation: portrait; mso-header-margin: 36.0pt; mso-footer-margin: 36.0pt; }
     div.Section1 { page: Section1; }
-    body { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.0; mso-line-height-rule: exactly; color: #000; text-align: justify; text-justify: inter-ideograph; margin: 0pt; padding: 0pt; }
-    p, p.MsoNormal, li { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.0; mso-line-height-rule: exactly; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; text-align: justify; text-justify: inter-ideograph; }
+    body { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.0; mso-line-height-rule: exactly; color: #000; text-align: justify;  margin: 0pt; padding: 0pt; }
+    p, p.MsoNormal, li { font-family: "Times New Roman", serif; font-size: 13pt; line-height: 1.0; mso-line-height-rule: exactly; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; text-align: justify;  }
     table { width: 100%; border-collapse: collapse; margin: 6pt 0; font-family: "Times New Roman", serif; }
     th, td { border: 1pt solid #000; padding: 4.5pt 6pt; vertical-align: top; font-size: 13pt; line-height: 1.0; font-family: "Times New Roman", serif; }
     h1, h2, h3, h4 { font-family: "Times New Roman", serif; line-height: 1.0; margin: 6pt 0 4pt 0; }
@@ -7441,7 +7441,7 @@ function renderIntegrationPlanReviewHtml(plan) {
     }
 
     var sheetHtml = `
-      <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 700px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #0f172a; text-align: justify; text-justify: inter-ideograph;">
+      <div class="integrated-doc-sheet" style="background: #ffffff; border: 1px solid #cbd5e1; border-radius: var(--radius-md); padding: 2.5rem 3rem; box-shadow: 0 4px 25px rgba(0,0,0,0.06); max-height: 700px; overflow-y: auto; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #0f172a; text-align: justify; ">
         ${renderIntegratedLessonSheetContent(curLesson)}
       </div>
     `;
@@ -7522,10 +7522,10 @@ function renderIntegrationPlanReviewHtml(plan) {
                   <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">${idx + 1}</td>
                   <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">Tuần ${s.week}</td>
                   <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">${s.period || '—'}</td>
-                  <td style="border: 1pt solid #000; padding: 6pt 6pt; font-weight: bold; text-align: justify; text-justify: inter-ideograph;">${s.title}</td>
-                  <td style="border: 1pt solid #000; padding: 6pt 6pt; text-align: justify; text-justify: inter-ideograph;">${s.targetPart || 'Hoạt động Vận dụng'}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 6pt; font-weight: bold; text-align: justify; ">${s.title}</td>
+                  <td style="border: 1pt solid #000; padding: 6pt 6pt; text-align: justify; ">${s.targetPart || 'Hoạt động Vận dụng'}</td>
                   <td style="border: 1pt solid #000; padding: 6pt 4pt; text-align: center;">${s.level || 'Liên hệ'}</td>
-                  <td style="border: 1pt solid #000; padding: 6pt 6pt; text-align: justify; text-justify: inter-ideograph;">
+                  <td style="border: 1pt solid #000; padding: 6pt 6pt; text-align: justify; ">
                     ${s.integrationBrief || ''}
                     ${s.yccdAddition ? ('<br><span style="color: #c00000; font-weight: bold;">* YCCĐ mới:</span> <span style="color: #c00000;">' + s.yccdAddition + '</span>') : ''}
                     ${(s.activityAddition && s.activityAddition.teacherAct) ? ('<br><span style="color: #c00000; font-weight: bold;">* Hoạt động:</span> <span style="color: #c00000;">' + s.activityAddition.teacherAct + '</span>') : ''}
@@ -8326,7 +8326,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     var isOtherHeaderGroup = /^[12356789]\.\s*/i.test(cleanLine.trim()) || /^[IVXLCDM]+\.\s*/i.test(cleanLine.trim());
     if (isTichHopHeaderGroup) {
       inTichHopSection = true;
-      return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify; text-justify: inter-ideograph;"><span style="color: #c00000; font-weight: bold;">${cleanLine}</span></p>`;
+      return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify; "><span style="color: #c00000; font-weight: bold;">${cleanLine}</span></p>`;
     } else if (isOtherHeaderGroup) {
       inTichHopSection = false;
     }
@@ -8346,7 +8346,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify; text-justify: inter-ideograph;">5. Điều chỉnh đối với học sinh hòa nhập:</p><p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #c00000; font-weight: 700; line-height: 1.35; text-align: justify; text-justify: inter-ideograph;"><span style="color: #c00000;">${displayLine}</span></p>`;
+      return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify; ">5. Điều chỉnh đối với học sinh hòa nhập:</p><p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #c00000; font-weight: 700; line-height: 1.35; text-align: justify; "><span style="color: #c00000;">${displayLine}</span></p>`;
     }
     if (isTichHop) {
       var displayLine = cleanLine
@@ -8361,9 +8361,9 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #c00000; font-weight: 500; line-height: 1.25; text-align: justify; text-justify: inter-ideograph;"><span style="color: #c00000;">${displayLine}</span></p>`;
+      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #c00000; font-weight: 500; line-height: 1.25; text-align: justify; "><span style="color: #c00000;">${displayLine}</span></p>`;
     }
-    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; text-justify: inter-ideograph;">${cleanLine}</p>`;
+    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${cleanLine}</p>`;
   }).join('');
 
   var dodungList = les.dodung || les.teachingAids || [];
@@ -8383,9 +8383,9 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
         displayLine = '- ' + displayLine;
       }
-      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #c00000; font-weight: 500; line-height: 1.25; text-align: justify; text-justify: inter-ideograph;"><span style="color: #c00000;">${displayLine}</span></p>`;
+      return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #c00000; font-weight: 500; line-height: 1.25; text-align: justify; "><span style="color: #c00000;">${displayLine}</span></p>`;
     }
-    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; text-justify: inter-ideograph;">${line}</p>`;
+    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${line}</p>`;
   }).join('');
 
   var isHeaderRow = function(r) {
@@ -8420,17 +8420,17 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
             rowsHtml += `
               <tr>
-                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${c0}</div>
+                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${c0}</div>
                 </td>
                 <td style="width: 15%; vertical-align: top; text-align: center; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
                   <div style="line-height: 1.25; margin: 0; text-align: center;">${c1}</div>
                 </td>
-                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${c2}</div>
+                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${c2}</div>
                 </td>
-                <td style="width: 25%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${c3}</div>
+                <td style="width: 25%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${c3}</div>
                 </td>
               </tr>
             `;
@@ -8474,11 +8474,11 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
             rowsHtml += `
               <tr>
-                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${gvCol}</div>
+                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${gvCol}</div>
                 </td>
-                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; text-justify: inter-ideograph;">${hsCol}</div>
+                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${hsCol}</div>
                 </td>
               </tr>
             `;
@@ -8566,27 +8566,27 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         </div>
         <table style="width: 100%; border-collapse: collapse; border: 2px solid #000000; font-family: 'Times New Roman', serif;">
           <tr>
-            <td style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
-              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0;">GIÁO VIÊN SOẠN</p>
+            <td align="center" style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0; text-align: center;">GIÁO VIÊN SOẠN</p>
               <div style="height: 75px;"></div>
-              <p style="font-size: 13pt; font-weight: bold; margin: 0;">${teacherDisp || '………………………'}</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; margin: 0; text-align: center;">${teacherDisp || '………………………'}</p>
             </td>
           </tr>
           <tr>
-            <td style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
-              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0;">${leaderRoleTitle}</p>
-              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0;">DUYỆT</p>
+            <td align="center" style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0; text-align: center;">${leaderRoleTitle}</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0; text-align: center;">DUYỆT</p>
               <div style="height: 80px;"></div>
-              <p style="font-size: 13pt; font-weight: bold; margin: 0;">${leaderSignName}</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; margin: 0; text-align: center;">${leaderSignName}</p>
             </td>
           </tr>
           <tr>
-            <td style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
-              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0;">BAN GIÁM HIỆU</p>
-              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0;">DUYỆT</p>
-              <p style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0;">${adminRoleTitle}</p>
+            <td align="center" style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0; text-align: center;">BAN GIÁM HIỆU</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0; text-align: center;">DUYỆT</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0; text-align: center;">${adminRoleTitle}</p>
               <div style="height: 85px;"></div>
-              <p style="font-size: 13pt; font-weight: bold; margin: 0;">${adminSignName}</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; margin: 0; text-align: center;">${adminSignName}</p>
             </td>
           </tr>
         </table>
@@ -8642,18 +8642,18 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">I. YÊU CẦU CẦN ĐẠT:</div>
-    <div style="margin-left: 10pt; text-align: justify; text-justify: inter-ideograph;">
-      ${yccdHtml || '<p style="text-align: justify; text-justify: inter-ideograph;">Theo chuẩn chương trình môn học.</p>'}
+    <div style="margin-left: 10pt; text-align: justify; ">
+      ${yccdHtml || '<p style="text-align: justify; ">Theo chuẩn chương trình môn học.</p>'}
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">II. ĐỒ DÙNG DẠY HỌC:</div>
-    <div style="margin-left: 10pt; text-align: justify; text-justify: inter-ideograph;">
-      ${dodungHtml || '<p style="text-align: justify; text-justify: inter-ideograph;">1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>'}
+    <div style="margin-left: 10pt; text-align: justify; ">
+      ${dodungHtml || '<p style="text-align: justify; ">1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>'}
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:</div>
-    <div style="margin-left: 5pt; text-align: justify; text-justify: inter-ideograph;">
-      ${tablesHtml || '<p style="text-align: justify; text-justify: inter-ideograph;">Tiến trình hoạt động chuẩn theo KHBD số hóa.</p>'}
+    <div style="margin-left: 5pt; text-align: justify; ">
+      ${tablesHtml || '<p style="text-align: justify; ">Tiến trình hoạt động chuẩn theo KHBD số hóa.</p>'}
     </div>
 
     <div style="font-weight: bold; text-transform: uppercase; margin-top: 10pt; margin-bottom: 4pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):</div>
@@ -8719,7 +8719,7 @@ function printIntegratedLessonSheet() {
     return;
   }
   win.document.open();
-  win.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>In Kế hoạch bài dạy</title><style>@page{size:A4 portrait;margin:2.0cm 1.5cm 2.0cm 3.0cm;}body{font-family:"Times New Roman",serif;font-size:13pt;line-height:1.0;color:#000;padding:20px;background:#fff;text-align:justify;text-justify:inter-ideograph;}table{width:100%;border-collapse:collapse;margin:4pt 0;font-family:"Times New Roman",serif;}th,td{border:1pt solid #000;padding:4pt 6pt;vertical-align:top;font-size:13pt;line-height:1.0;font-family:"Times New Roman",serif;}p{margin:0;margin-top:0;margin-bottom:0;line-height:1.0;text-align:justify;text-justify:inter-ideograph;}h1,h2,h3,h4{margin:4pt 0;line-height:1.0;font-family:"Times New Roman",serif;}</style></head><body>' + sheet.innerHTML + '</body></html>');
+  win.document.write('<!DOCTYPE html><html><head><meta charset="utf-8"><title>In Kế hoạch bài dạy</title><style>@page{size:A4 portrait;margin:2.0cm 1.5cm 2.0cm 3.0cm;}body{font-family:"Times New Roman",serif;font-size:13pt;line-height:1.0;color:#000;padding:20px;background:#fff;text-align:justify;}table{width:100%;border-collapse:collapse;margin:4pt 0;font-family:"Times New Roman",serif;}th,td{border:1pt solid #000;padding:4pt 6pt;vertical-align:top;font-size:13pt;line-height:1.0;font-family:"Times New Roman",serif;}p{margin:0;margin-top:0;margin-bottom:0;line-height:1.0;text-align:justify;}h1,h2,h3,h4{margin:4pt 0;line-height:1.0;font-family:"Times New Roman",serif;}</style></head><body>' + sheet.innerHTML + '</body></html>');
   win.document.close();
   setTimeout(function() {
     win.focus();

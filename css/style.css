@@ -2730,12 +2730,10 @@ div[class*="netlify"] {
   box-shadow: 0 4px 15px rgba(0,0,0,0.06);
   transition: all 0.2s ease;
   text-align: justify;
-  text-justify: inter-ideograph;
 }
 
 .integrated-doc-sheet {
   text-align: justify;
-  text-justify: inter-ideograph;
 }
 
 .integrated-doc-sheet p,
@@ -2743,7 +2741,6 @@ div[class*="netlify"] {
 .exam-paper-sheet p,
 .exam-paper-sheet td {
   text-align: justify;
-  text-justify: inter-ideograph;
 }
 
 /* Bảo toàn các tiêu đề và căn giữa / căn phải đặc thù */
@@ -2782,17 +2779,14 @@ div[class*="netlify"] {
     color: #000 !important;
     font-size: 13pt !important;
     text-align: justify !important;
-    text-justify: inter-ideograph !important;
   }
   .exam-paper-sheet,
   .integrated-doc-sheet {
     text-align: justify !important;
-    text-justify: inter-ideograph !important;
   }
   .exam-paper-sheet p,
   .integrated-doc-sheet p {
     text-align: justify !important;
-    text-justify: inter-ideograph !important;
   }
   .app-sidebar,
   .main-header,

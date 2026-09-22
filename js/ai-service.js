@@ -2464,7 +2464,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             mso-line-height-rule: exactly;
             color: #000;
             text-align: justify;
-            text-justify: inter-ideograph;
             margin: 0pt;
             padding: 0pt;
           }
@@ -2480,7 +2479,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             mso-para-margin-top: 0pt;
             mso-para-margin-bottom: 0pt;
             text-align: justify;
-            text-justify: inter-ideograph;
           }
           .title-bold-center {
             text-align: center;
@@ -2563,7 +2561,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             font-family: 'Times New Roman', serif;
             font-size: 13pt;
             text-align: justify;
-            text-justify: inter-ideograph;
           }
           .q-options {
             margin-left: 20px;
@@ -2982,7 +2979,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             mso-line-height-rule: exactly;
             color: #000;
             text-align: justify;
-            text-justify: inter-ideograph;
             margin: 0pt;
             padding: 0pt;
           }
@@ -2998,7 +2994,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             mso-para-margin-top: 0pt;
             mso-para-margin-bottom: 0pt;
             text-align: justify;
-            text-justify: inter-ideograph;
           }
           .title-bold-center {
             text-align: center;
@@ -3083,7 +3078,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             font-family: 'Times New Roman', serif;
             font-size: 13pt;
             text-align: justify;
-            text-justify: inter-ideograph;
           }
           .q-block {
             margin-top: 0pt;
@@ -3092,7 +3086,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             font-family: 'Times New Roman', serif;
             font-size: 13pt;
             text-align: justify;
-            text-justify: inter-ideograph;
           }
           .q-options {
             margin-left: 20px;
@@ -3865,11 +3858,76 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           '  <Default Extension="xml" ContentType="application/xml"/>\n' +
           '  <Default Extension="html" ContentType="text/html"/>\n' +
           '  <Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>\n' +
+          '  <Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>\n' +
+          '  <Override PartName="/word/fontTable.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml"/>\n' +
           '</Types>');
         zip.file('word/_rels/document.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
           '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">\n' +
           '  <Relationship Id="htmlChunk" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/aFChunk" Target="content.html"/>\n' +
+          '  <Relationship Id="rIdStyles" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>\n' +
+          '  <Relationship Id="rIdFontTable" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml"/>\n' +
           '</Relationships>');
+        var stylesXml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
+          '<w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">\n' +
+          '  <w:docDefaults>\n' +
+          '    <w:rPrDefault>\n' +
+          '      <w:rPr>\n' +
+          '        <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" w:cs="Times New Roman"/>\n' +
+          '        <w:sz w:val="26"/>\n' +
+          '        <w:szCs w:val="26"/>\n' +
+          '        <w:lang w:val="vi-VN"/>\n' +
+          '      </w:rPr>\n' +
+          '    </w:rPrDefault>\n' +
+          '    <w:pPrDefault>\n' +
+          '      <w:pPr>\n' +
+          '        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>\n' +
+          '      </w:pPr>\n' +
+          '    </w:pPrDefault>\n' +
+          '  </w:docDefaults>\n' +
+          '  <w:style w:type="paragraph" w:default="1" w:styleId="Normal">\n' +
+          '    <w:name w:val="Normal"/>\n' +
+          '    <w:qFormat/>\n' +
+          '    <w:rPr>\n' +
+          '      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" w:cs="Times New Roman"/>\n' +
+          '      <w:sz w:val="26"/>\n' +
+          '      <w:szCs w:val="26"/>\n' +
+          '    </w:rPr>\n' +
+          '  </w:style>\n' +
+          '  <w:style w:type="table" w:default="1" w:styleId="TableNormal">\n' +
+          '    <w:name w:val="Normal Table"/>\n' +
+          '    <w:uiPriority w:val="99"/>\n' +
+          '    <w:semiHidden/>\n' +
+          '    <w:unhideWhenUsed/>\n' +
+          '    <w:rPr>\n' +
+          '      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" w:cs="Times New Roman"/>\n' +
+          '      <w:sz w:val="26"/>\n' +
+          '      <w:szCs w:val="26"/>\n' +
+          '    </w:rPr>\n' +
+          '    <w:tblPr/>\n' +
+          '  </w:style>\n' +
+          '  <w:style w:type="table" w:styleId="TableGrid">\n' +
+          '    <w:name w:val="Table Grid"/>\n' +
+          '    <w:basedOn w:val="TableNormal"/>\n' +
+          '    <w:uiPriority w:val="39"/>\n' +
+          '    <w:rPr>\n' +
+          '      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" w:cs="Times New Roman"/>\n' +
+          '      <w:sz w:val="26"/>\n' +
+          '      <w:szCs w:val="26"/>\n' +
+          '    </w:rPr>\n' +
+          '  </w:style>\n' +
+          '</w:styles>';
+        zip.file('word/styles.xml', stylesXml);
+        var fontTableXml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
+          '<w:fonts xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">\n' +
+          '  <w:font w:name="Times New Roman">\n' +
+          '    <w:panose1 w:val="02020603050405020304"/>\n' +
+          '    <w:charset w:val="00"/>\n' +
+          '    <w:family w:val="roman"/>\n' +
+          '    <w:pitch w:val="variable"/>\n' +
+          '    <w:sig w:usb0="E0002EFF" w:usb1="C000785B" w:usb2="00000009" w:usb3="00000000" w:csb0="000001FF" w:csb1="00000000"/>\n' +
+          '  </w:font>\n' +
+          '</w:fonts>';
+        zip.file('word/fontTable.xml', fontTableXml);
         zip.file('word/document.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
           '<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">\n' +
           '  <w:body>\n' +
@@ -3880,7 +3938,8 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           '    </w:sectPr>\n' +
           '  </w:body>\n' +
           '</w:document>');
-        var fullHtml = docHtml.includes('<meta charset=') ? docHtml : ('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>' + docHtml + '</body></html>');
+        var cleanDocHtml = (docHtml || '').replace(/text-justify\s*:\s*inter-ideograph\s*;?/gi, '');
+        var fullHtml = cleanDocHtml.includes('<meta charset=') ? cleanDocHtml : ('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>' + cleanDocHtml + '</body></html>');
         zip.file('word/content.html', '\ufeff' + fullHtml);
 
         blob = await zip.generateAsync({

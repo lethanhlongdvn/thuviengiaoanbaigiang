@@ -3483,6 +3483,26 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     return '<span>' + formattedText + '</span>';
   },
 
+  /**
+   * Định dạng nội dung ô bảng thành các đoạn <p> chuẩn Times New Roman 13pt
+   * Thay thế triệt để các ngắt dòng <br/> (vốn bị Word nhập thành Soft Break Shift+Enter gây lỗi giãn dòng hai biên)
+   */
+  formatCellParagraphs: function(rawText, isTichHop, align) {
+    if (!rawText) return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + (align || 'justify') + ';">&nbsp;</p>';
+    var textAlign = align || 'justify';
+    var cellStyle = isTichHop ? 'color: #C00000;' : '';
+    var str = String(rawText).trim();
+    var lines = str.split(/(?:\r?\n|<br\s*\/?>)/i);
+    var pList = [];
+    for (var i = 0; i < lines.length; i++) {
+      var line = lines[i].trim();
+      if (!line) continue;
+      var inner = cellStyle ? ('<span style="' + cellStyle + '">' + line + '</span>') : line;
+      pList.push('<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + '; ' + cellStyle + '">' + inner + '</p>');
+    }
+    return pList.length > 0 ? pList.join('') : '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + ';">&nbsp;</p>';
+  },
+
   generateWordHtmlStructure: function(lessons, meta) {
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = meta.teacherName || '';
@@ -3549,7 +3569,6 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             margin: 0;
             padding: 0;
             text-align: justify;
-            text-justify: inter-ideograph;
           }
           p, p.MsoNormal, li {
             font-family: 'Times New Roman', serif;
@@ -3565,7 +3584,6 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             line-height: 1.0;
             mso-line-height-rule: exactly;
             text-align: justify;
-            text-justify: inter-ideograph;
           }
           h1, h2, h3, h4, h5, h6 {
             font-family: 'Times New Roman', serif;
@@ -3667,7 +3685,6 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             mso-margin-bottom-alt: 0pt;
             line-height: 1.0;
             text-align: justify;
-            text-justify: inter-ideograph;
           }
           .table-activity td div, .table-activity td p {
             font-family: 'Times New Roman', serif;
@@ -3682,7 +3699,6 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             mso-margin-bottom-alt: 0pt;
             line-height: 1.0;
             text-align: justify;
-            text-justify: inter-ideograph;
           }
           .tkb-table {
             width: 100%;
@@ -3869,8 +3885,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+')) {
             displayLine = '- ' + displayLine;
           }
-          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; font-weight: bold; color: #C00000; text-align: justify; text-justify: inter-ideograph;"><span style="color: #C00000;">5. Điều chỉnh đối với học sinh hòa nhập:</span></p>' +
-                 '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; color: #C00000; text-align: justify; text-justify: inter-ideograph;"><span style="color: #C00000;"><strong>' + displayLine + '</strong></span></p>';
+          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">5. Điều chỉnh đối với học sinh hòa nhập:</span></p>' +
+                 '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; color: #C00000; text-align: justify;"><span style="color: #C00000;"><strong>' + displayLine + '</strong></span></p>';
         }
         if (isTichHop) {
           var displayLine = cleanLine
@@ -3885,9 +3901,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*')) {
             displayLine = '- ' + displayLine;
           }
-          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; color: #C00000; text-align: justify; text-justify: inter-ideograph;"><span style="color: #C00000;">' + displayLine + '</span></p>';
+          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + displayLine + '</span></p>';
         }
-        return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph;">' + cleanLine + '</p>';
+        return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">' + cleanLine + '</p>';
       }).join('');
 
       var dodungList = les.dodung || les.teachingAids || [];
@@ -3907,9 +3923,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*')) {
             displayLine = '- ' + displayLine;
           }
-          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; color: #C00000; text-align: justify; text-justify: inter-ideograph;"><span style="color: #C00000;">' + displayLine + '</span></p>';
+          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + displayLine + '</span></p>';
         }
-        return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph;">' + line + '</p>';
+        return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">' + line + '</p>';
       }).join('');
 
       var actTablesHtml = '';
@@ -3926,25 +3942,30 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             if (has4Cols) {
               if (r.length >= 4) {
                 var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[2] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[3] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[2] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[3] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1;
-                var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
-                var c1 = (r[1] || '').trim().replace(/\n/g, '<br/>');
-                var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
-                var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
+                var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
+                var c1 = (r[1] || '').trim();
+                var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
+                var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
                 var cellStyle = isTichHop ? 'color: #C00000;' : '';
+
+                var c0Html = IntegrationService.formatCellParagraphs(c0, isTichHop, 'justify');
+                var c1Html = IntegrationService.formatCellParagraphs(c1, isTichHop, 'center');
+                var c2Html = IntegrationService.formatCellParagraphs(c2, isTichHop, 'justify');
+                var c3Html = IntegrationService.formatCellParagraphs(c3, isTichHop, 'justify');
 
                 rowsHtml += `
                   <tr>
-                    <td style="width: 30%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}"><span style="${cellStyle}">${c0}</span></div>
+                    <td style="width: 30%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                      ${c0Html}
                     </td>
                     <td style="width: 15%; vertical-align: top; text-align: center; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; ${cellStyle}">
-                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: center; ${cellStyle}"><span style="${cellStyle}">${c1}</span></div>
+                      ${c1Html}
                     </td>
-                    <td style="width: 30%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}"><span style="${cellStyle}">${c2}</span></div>
+                    <td style="width: 30%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                      ${c2Html}
                     </td>
-                    <td style="width: 25%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}"><span style="${cellStyle}">${c3}</span></div>
+                    <td style="width: 25%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                      ${c3Html}
                     </td>
                   </tr>
                 `;
@@ -3959,7 +3980,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 var formattedHeader = IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration);
                 rowsHtml += `<tr><td colspan="4" style="padding: 3.5pt 5pt; border: 1pt solid #000; background-color: ${rowBgColor}; font-weight: bold; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; text-align: left; ${cellHeaderColorStyle}"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
               } else if (r.length === 2) {
-                rowsHtml += `<tr><td colspan="2" style="padding: 3.5pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">${(r[0]||'').replace(/\n/g, '<br/>')}</div></td><td colspan="2" style="padding: 3.5pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">${(r[1]||'').replace(/\n/g, '<br/>')}</div></td></tr>`;
+                var c0Html = IntegrationService.formatCellParagraphs(r[0] || '', false, 'left');
+                var c1Html = IntegrationService.formatCellParagraphs(r[1] || '', false, 'left');
+                rowsHtml += `<tr><td colspan="2" style="padding: 3.5pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">${c0Html}</td><td colspan="2" style="padding: 3.5pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">${c1Html}</td></tr>`;
               }
             } else {
               if (r.length >= 2) {
@@ -3982,18 +4005,18 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   .replace(/\(Tích hợp\)/gi, '')
                   .replace(/\s{2,}/g, ' ')
                   .trim();
-                var gvCol = gvText.replace(/\n/g, '<br/>');
-                var hsCol = hsText.replace(/\n/g, '<br/>');
 
                 var cellStyle = isTichHop ? 'color: #C00000;' : '';
+                var gvHtml = IntegrationService.formatCellParagraphs(gvText, isTichHop, 'justify');
+                var hsHtml = IntegrationService.formatCellParagraphs(hsText, isTichHop, 'justify');
 
                 rowsHtml += `
                   <tr>
-                    <td style="width: 50%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}"><span style="${cellStyle}">${gvCol}</span></div>
+                    <td style="width: 50%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                      ${gvHtml}
                     </td>
-                    <td style="width: 50%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}">
-                      <div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; text-justify: inter-ideograph; ${cellStyle}"><span style="${cellStyle}">${hsCol}</span></div>
+                    <td style="width: 50%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                      ${hsHtml}
                     </td>
                   </tr>
                 `;
@@ -4185,42 +4208,42 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         <div class="approval-page" style="page-break-inside: avoid; margin-top: 0pt; font-family: 'Times New Roman', serif;">
           <table class="approval-table" style="width: 100%; border-collapse: collapse; border: 1.5pt solid #000000; mso-border-alt: solid black 1.5pt; page-break-inside: avoid; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;">
             <tr style="page-break-inside: avoid; mso-element: table-row;">
-              <td style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-                <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0;">GIÁO VIÊN SOẠN</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0;">${teacherName || '………………………'}</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
+              <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">GIÁO VIÊN SOẠN</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${teacherName || '………………………'}</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
               </td>
             </tr>
             <tr style="page-break-inside: avoid; mso-element: table-row;">
-              <td style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-                <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0;">${leaderRoleTitle}</p>
-                <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0;">DUYỆT</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0;">${leaderSignName}</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
+              <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${leaderRoleTitle}</p>
+                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">DUYỆT</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${leaderSignName}</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
               </td>
             </tr>
             <tr style="page-break-inside: avoid; mso-element: table-row;">
-              <td style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-                <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0;">BAN GIÁM HIỆU</p>
-                <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0;">DUYỆT</p>
-                <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0;">${adminRoleTitle}</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
-                <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0;">${adminSignName}</p>
-                <p style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt;">&nbsp;</p>
+              <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">BAN GIÁM HIỆU</p>
+                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">DUYỆT</p>
+                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">${adminRoleTitle}</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${adminSignName}</p>
+                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
               </td>
             </tr>
           </table>
@@ -4233,7 +4256,33 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   },
 
   /**
-   * Tạo tệp .docx chuẩn OpenXML (dùng JSZip & altChunk)
+   * Chuẩn hóa và làm sạch mã HTML trước khi đóng gói Word .docx
+   */
+  sanitizeHtmlForWordDocx: function(html) {
+    if (!html) return '';
+    // 1. Loại bỏ triệt để text-justify: inter-ideograph (ngăn Word giãn khoảng cách ký tự bất thường)
+    var cleaned = html.replace(/text-justify\s*:\s*inter-ideograph\s*;?/gi, '');
+
+    // 2. Chuyển đổi các ngắt dòng mềm <br/> trong ô bảng (td, th) thành đoạn <p> chuẩn
+    // Ngăn chặn 100% lỗi Word giãn cách từ ngữ dàn trải hai biên (lỗi căn chữ/giãn chữ khi có Shift+Enter)
+    cleaned = cleaned.replace(/(<(?:td|th)\b[^>]*>)([\s\S]*?)(<\/(?:td|th)>)/gi, function(match, openTag, body, closeTag) {
+      var cellOpen = openTag.replace(/text-justify\s*:\s*inter-ideograph\s*;?/gi, '');
+      var cellBody = body.replace(/text-justify\s*:\s*inter-ideograph\s*;?/gi, '');
+
+      if (/<br\s*\/?>/i.test(cellBody)) {
+        if (/<div\b/i.test(cellBody)) {
+          cellBody = cellBody.replace(/<div\b([^>]*)>/gi, '<p$1>').replace(/<\/div>/gi, '</p>');
+        }
+        cellBody = cellBody.replace(/<br\s*\/?>/gi, '</p><p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">');
+      }
+      return cellOpen + cellBody + closeTag;
+    });
+
+    return cleaned;
+  },
+
+  /**
+   * Tạo tệp .docx chuẩn OpenXML (dùng JSZip & altChunk có đầy đủ styles.xml và fontTable.xml chuẩn Times New Roman 13pt)
    */
   createDocxBlobFromHtml: async function(docHtml) {
     var jszipObj = (typeof JSZip !== 'undefined') ? JSZip : ((typeof window !== 'undefined' && window.JSZip) ? window.JSZip : null);
@@ -4254,15 +4303,84 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           '  <Default Extension="xml" ContentType="application/xml"/>\n' +
           '  <Default Extension="html" ContentType="text/html"/>\n' +
           '  <Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>\n' +
+          '  <Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>\n' +
+          '  <Override PartName="/word/fontTable.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml"/>\n' +
           '</Types>');
 
         // 3. word/_rels/document.xml.rels
         zip.file('word/_rels/document.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
           '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">\n' +
           '  <Relationship Id="htmlChunk" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/aFChunk" Target="content.html"/>\n' +
+          '  <Relationship Id="rIdStyles" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>\n' +
+          '  <Relationship Id="rIdFontTable" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml"/>\n' +
           '</Relationships>');
 
-        // 4. word/document.xml
+        // 4. word/styles.xml (Đảm bảo Word 100% nhận diện font Times New Roman 13pt cho toàn bộ bảng và văn bản)
+        var stylesXml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
+          '<w:styles xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">\n' +
+          '  <w:docDefaults>\n' +
+          '    <w:rPrDefault>\n' +
+          '      <w:rPr>\n' +
+          '        <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" w:cs="Times New Roman"/>\n' +
+          '        <w:sz w:val="26"/>\n' +
+          '        <w:szCs w:val="26"/>\n' +
+          '        <w:lang w:val="vi-VN"/>\n' +
+          '      </w:rPr>\n' +
+          '    </w:rPrDefault>\n' +
+          '    <w:pPrDefault>\n' +
+          '      <w:pPr>\n' +
+          '        <w:spacing w:after="0" w:line="240" w:lineRule="auto"/>\n' +
+          '      </w:pPr>\n' +
+          '    </w:pPrDefault>\n' +
+          '  </w:docDefaults>\n' +
+          '  <w:style w:type="paragraph" w:default="1" w:styleId="Normal">\n' +
+          '    <w:name w:val="Normal"/>\n' +
+          '    <w:qFormat/>\n' +
+          '    <w:rPr>\n' +
+          '      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" w:cs="Times New Roman"/>\n' +
+          '      <w:sz w:val="26"/>\n' +
+          '      <w:szCs w:val="26"/>\n' +
+          '    </w:rPr>\n' +
+          '  </w:style>\n' +
+          '  <w:style w:type="table" w:default="1" w:styleId="TableNormal">\n' +
+          '    <w:name w:val="Normal Table"/>\n' +
+          '    <w:uiPriority w:val="99"/>\n' +
+          '    <w:semiHidden/>\n' +
+          '    <w:unhideWhenUsed/>\n' +
+          '    <w:rPr>\n' +
+          '      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" w:cs="Times New Roman"/>\n' +
+          '      <w:sz w:val="26"/>\n' +
+          '      <w:szCs w:val="26"/>\n' +
+          '    </w:rPr>\n' +
+          '    <w:tblPr/>\n' +
+          '  </w:style>\n' +
+          '  <w:style w:type="table" w:styleId="TableGrid">\n' +
+          '    <w:name w:val="Table Grid"/>\n' +
+          '    <w:basedOn w:val="TableNormal"/>\n' +
+          '    <w:uiPriority w:val="39"/>\n' +
+          '    <w:rPr>\n' +
+          '      <w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:eastAsia="Times New Roman" w:cs="Times New Roman"/>\n' +
+          '      <w:sz w:val="26"/>\n' +
+          '      <w:szCs w:val="26"/>\n' +
+          '    </w:rPr>\n' +
+          '  </w:style>\n' +
+          '</w:styles>';
+        zip.file('word/styles.xml', stylesXml);
+
+        // 5. word/fontTable.xml
+        var fontTableXml = '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
+          '<w:fonts xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">\n' +
+          '  <w:font w:name="Times New Roman">\n' +
+          '    <w:panose1 w:val="02020603050405020304"/>\n' +
+          '    <w:charset w:val="00"/>\n' +
+          '    <w:family w:val="roman"/>\n' +
+          '    <w:pitch w:val="variable"/>\n' +
+          '    <w:sig w:usb0="E0002EFF" w:usb1="C000785B" w:usb2="00000009" w:usb3="00000000" w:csb0="000001FF" w:csb1="00000000"/>\n' +
+          '  </w:font>\n' +
+          '</w:fonts>';
+        zip.file('word/fontTable.xml', fontTableXml);
+
+        // 6. word/document.xml
         // Trang A4 (11906 x 16838 dxa), Căn lề chuẩn NĐ 30: Trên 2.0cm (1134 dxa), Phải 1.5cm (851 dxa), Dưới 2.0cm (1134 dxa), Trái 3.0cm (1701 dxa)
         zip.file('word/document.xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
           '<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">\n' +
@@ -4275,8 +4393,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           '  </w:body>\n' +
           '</w:document>');
 
-        // 5. word/content.html
-        var fullHtml = docHtml.includes('<meta charset=') ? docHtml : ('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>' + docHtml + '</body></html>');
+        // 7. word/content.html (đã làm sạch và chuẩn hóa font & paragraph)
+        var sanitizedHtml = this.sanitizeHtmlForWordDocx(docHtml);
+        var fullHtml = sanitizedHtml.includes('<meta charset=') ? sanitizedHtml : ('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>' + sanitizedHtml + '</body></html>');
         zip.file('word/content.html', '\ufeff' + fullHtml);
 
         var docxBlob = await zip.generateAsync({
