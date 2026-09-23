@@ -3505,17 +3505,37 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   },
 
   healLeakedYccd: function(les) {
-    if (!les || !Array.isArray(les.dieuchinh) || les.dieuchinh.length === 0) return les;
+    if (!les) return les;
+
+    // 1. Flatten multi-line strings in yccd
+    if (Array.isArray(les.yccd)) {
+      var flatYccd = [];
+      for (var k = 0; k < les.yccd.length; k++) {
+        var itm = les.yccd[k];
+        if (typeof itm === 'string') {
+          var subLines = itm.split(/\r?\n/);
+          for (var s = 0; s < subLines.length; s++) {
+            var subTrim = subLines[s].trim();
+            if (subTrim) flatYccd.push(subTrim);
+          }
+        } else if (itm) {
+          flatYccd.push(itm);
+        }
+      }
+      les.yccd = flatYccd;
+    }
+
+    // 2. Check and extract leaked YCCD from dieuchinh
+    if (!Array.isArray(les.dieuchinh) || les.dieuchinh.length === 0) return les;
     var dc = les.dieuchinh;
     var hasLeak = dc.some(function(line) {
-      return typeof line === 'string' && /Phẩm chất|Năng lực|Tích hợp|Giao tiếp|Tự chủ|Chăm chỉ|Trách nhiệm|Giải quyết vấn đề|Nhân ái|Trung thực|Yêu nước/i.test(line);
+      return typeof line === 'string' && /(?:1\.\s*Năng\s*lực|2\.\s*Năng\s*lực|3\.\s*Phẩm\s*chất|4\.\s*Tích\s*hợp|Phẩm chất|Năng lực|Tích hợp|Giao tiếp|Tự chủ|Chăm chỉ|Trách nhiệm|Giải quyết vấn đề|Nhân ái|Trung thực|Yêu nước)/i.test(line);
     });
     if (!hasLeak) return les;
 
     var yccd = Array.isArray(les.yccd) ? [...les.yccd] : [];
     var extractedYccd = [];
     var remainingDc = [];
-    var inYccdBlock = true;
 
     for (var i = 0; i < dc.length; i++) {
       var raw = dc[i];
@@ -3523,26 +3543,23 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var line = raw.trim();
       if (!line) continue;
 
-      if (/^\.{5,}/.test(line) || /^[-–—*•]?\s*\.{5,}/.test(line) || /^KẾ HOẠCH BÀI DẠY/i.test(line) || /^CHỦ ĐỀ \d+/i.test(line) || /^PHỤ LỤC/i.test(line)) {
-        inYccdBlock = false;
-      }
+      var isYccdLine = /(?:1\.\s*Năng\s*lực|2\.\s*Năng\s*lực|3\.\s*Phẩm\s*chất|4\.\s*Tích\s*hợp|Phẩm chất|Năng lực chung|Giao tiếp|Tự chủ|Chăm chỉ|Trách nhiệm|Giải quyết vấn đề|Nhân ái|Trung thực|Yêu nước|Tích hợp\s*:)/i.test(line);
+      var isMetaHeader = /^KẾ HOẠCH BÀI DẠY/i.test(line) || /^CHỦ ĐỀ \d+/i.test(line) || /^PHỤ LỤC/i.test(line) || /^MÔN\s+/i.test(line) || /^ÔN TẬP VÀ KIỂM TRA/i.test(line);
 
-      if (inYccdBlock) {
+      if (isYccdLine && !isMetaHeader) {
         extractedYccd.push(raw);
-      } else {
-        if (/^\.{5,}/.test(line) || /^[-–—*•]?\s*\.{5,}/.test(line)) {
-          remainingDc.push(raw);
-        }
+      } else if (/^\.{5,}/.test(line) || /^[-–—*•]?\s*\.{5,}/.test(line)) {
+        remainingDc.push(raw);
       }
     }
 
     if (extractedYccd.length > 0) {
       for (var j = 0; j < extractedYccd.length; j++) {
-        var itm = extractedYccd[j];
-        if (yccd.length > 0 && yccd[yccd.length - 1].trim() === itm.trim()) {
+        var itm2 = extractedYccd[j];
+        if (yccd.length > 0 && yccd[yccd.length - 1].trim() === itm2.trim()) {
           continue;
         }
-        yccd.push(itm);
+        yccd.push(itm2);
       }
       les.yccd = yccd;
       les.dieuchinh = remainingDc.length > 0 ? remainingDc : [

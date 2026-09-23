@@ -3487,21 +3487,6 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
-          [
-            [
-              "TUẦN 30: CHỦ ĐỀ: LÀM ĐỒ CHƠI DÂN GIAN"
-            ]
-          ]
-        ]
-      },
-      {
         "lessonTitle": "Tiết 1: Tìm hiểu đèn lồng và chuẩn bị vật liệu",
         "topic": "",
         "yccd": [
@@ -3638,21 +3623,6 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
-          [
-            [
-              "TUẦN 31: CHỦ ĐỀ: LÀM ĐỒ CHƠI DÂN GIAN"
-            ]
-          ]
-        ]
-      },
-      {
         "lessonTitle": "Tiết 2: Thực hành làm và giới thiệu sản phẩm đèn lồng",
         "topic": "",
         "yccd": [
@@ -3780,21 +3750,6 @@
     "week": 32,
     "sourceFile": "CÔNG NGHỆ TUẦN 32.docx",
     "lessons": [
-      {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
-          [
-            [
-              "TUẦN 32: CHỦ ĐỀ: LÀM ĐỒ CHƠI DÂN GIAN"
-            ]
-          ]
-        ]
-      },
       {
         "lessonTitle": "Tiết 1: Tìm hiểu nguyên lí và chuẩn bị làm chuồn chuồn thăng bằng",
         "topic": "",
@@ -3932,21 +3887,6 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
-          [
-            [
-              "TUẦN 33: CHỦ ĐỀ: LÀM ĐỒ CHƠI DÂN GIAN"
-            ]
-          ]
-        ]
-      },
-      {
         "lessonTitle": "Tiết 2: Thực hành, thử nghiệm và đánh giá chuồn chuồn thăng bằng",
         "topic": "",
         "yccd": [
@@ -4083,21 +4023,6 @@
     "week": 34,
     "sourceFile": "CÔNG NGHỆ TUẦN 34.docx",
     "lessons": [
-      {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
-          [
-            [
-              "TUẦN 34: ÔN TẬP, KIỂM TRA"
-            ]
-          ]
-        ]
-      },
       {
         "lessonTitle": "Tiết 1: Ôn tập",
         "topic": "",
@@ -4240,21 +4165,6 @@
     "week": 35,
     "sourceFile": "CÔNG NGHỆ TUẦN 35.docx",
     "lessons": [
-      {
-        "lessonTitle": "KẾ HOẠCH DẠY HỌC MÔN CÔNG NGHỆ 4",
-        "topic": "",
-        "yccd": [],
-        "dodung": [],
-        "activities": [],
-        "dieuchinh": [],
-        "tables": [
-          [
-            [
-              "TUẦN 35: ÔN TẬP, KIỂM TRA"
-            ]
-          ]
-        ]
-      },
       {
         "lessonTitle": "Tiết 2: Kiểm tra",
         "topic": "",

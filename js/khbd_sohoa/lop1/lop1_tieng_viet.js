@@ -30265,9 +30265,15 @@
         "lessonTitle": "TIẾNG VIỆT - LUYỆN TẬP TUẦN 27 (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Sau bài học,HS sẽ:",
-          "- Củng cố và nâng cao một số kiến thức , kĩ năng đã học trong các bài đọc,thông qua thực hành nhận biết và đọc những tiếng có vần khó vừa được học ; thực hành nói và viết sáng tạo về các bài đã học.",
-          "- Rèn cho HS kĩ năng viết,nhận biết câu."
+          "1. Năng lực đặc thù:",
+          "- Củng cố và nâng cao một số kiến thức, kĩ năng đã học trong các bài đọc, thông qua thực hành nhận biết và đọc những tiếng có vần khó vừa được học; thực hành nói và viết sáng tạo về các bài đã học.",
+          "- Rèn cho HS kĩ năng viết, nhận biết câu và phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Tự giác làm bài tập luyện tập, rà soát lỗi viết và tự sửa bài.",
+          "- Giao tiếp và hợp tác: Biết trao đổi bài với bạn cùng bàn, chia sẻ câu văn của mình.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực luyện đọc, luyện viết và hoàn thành bài tập.",
+          "- Trách nhiệm: Giữ gìn vở sạch chữ đẹp, rèn tính cẩn thận khi viết bài."
         ],
         "dodung": [
           "1.Học liệu: SGK,KHDH.Bộ đồ dùng dạy học TV.",
@@ -30297,9 +30303,15 @@
         "lessonTitle": "TIẾNG VIỆT - LUYỆN TẬP TUẦN 27 (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Sau bài học,HS sẽ:",
-          "- Củng cố và nâng cao một số kiến thức , kĩ năng đã học trong các bài đọc,thông qua thực hành nhận biết và đọc những tiếng có vần khó vừa được học ; thực hành nói và viết sáng tạo về các bài đã học.",
-          "- Rèn cho HS kĩ năng viết,nhận biết câu."
+          "1. Năng lực đặc thù:",
+          "- Củng cố và nâng cao một số kiến thức, kĩ năng đã học trong các bài đọc, thông qua thực hành nhận biết và đọc những tiếng có vần khó vừa được học; thực hành nói và viết sáng tạo về các bài đã học.",
+          "- Rèn cho HS kĩ năng viết, nhận biết câu và phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Tự giác làm bài tập luyện tập, rà soát lỗi viết và tự sửa bài.",
+          "- Giao tiếp và hợp tác: Biết trao đổi bài với bạn cùng bàn, chia sẻ câu văn của mình.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực luyện đọc, luyện viết và hoàn thành bài tập.",
+          "- Trách nhiệm: Giữ gìn vở sạch chữ đẹp, rèn tính cẩn thận khi viết bài."
         ],
         "dodung": [
           "1.Học liệu: SGK,KHDH.Bộ đồ dùng dạy học TV.",
@@ -31350,9 +31362,15 @@
         "lessonTitle": "TIẾNG VIỆT - LUYỆN TẬP TUẦN 28 (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "Sau bài học,HS sẽ:",
-          "- Củng cố và nâng cao một số kiến thức , kĩ năng đã học trong các bài đọc,thông qua thực hành nhận biết và đọc những tiếng có vần khó vừa được học ; thực hành nói và viết sáng tạo về các bài đã học.",
-          "- Rèn cho HS kĩ năng viết,nhận biết câu."
+          "1. Năng lực đặc thù:",
+          "- Củng cố và nâng cao một số kiến thức, kĩ năng đã học trong các bài đọc, thông qua thực hành nhận biết và đọc những tiếng có vần khó vừa được học; thực hành nói và viết sáng tạo về các bài đã học.",
+          "- Rèn cho HS kĩ năng viết, nhận biết câu và phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Tự giác làm bài tập luyện tập, rà soát lỗi viết và tự sửa bài.",
+          "- Giao tiếp và hợp tác: Biết trao đổi bài với bạn cùng bàn, chia sẻ câu văn của mình.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực luyện đọc, luyện viết và hoàn thành bài tập.",
+          "- Trách nhiệm: Giữ gìn vở sạch chữ đẹp, rèn tính cẩn thận khi viết bài."
         ],
         "dodung": [
           "1.Học liệu: SGK,KHDH.Bộ đồ dùng dạy học TV.",
@@ -31382,9 +31400,15 @@
         "lessonTitle": "TIẾNG VIỆT - LUYỆN TẬP TUẦN 28 (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "Sau bài học,HS sẽ:",
-          "- Củng cố và nâng cao một số kiến thức , kĩ năng đã học trong các bài đọc,thông qua thực hành nhận biết và đọc những tiếng có vần khó vừa được học ; thực hành nói và viết sáng tạo về các bài đã học.",
-          "- Rèn cho HS kĩ năng viết,nhận biết câu."
+          "1. Năng lực đặc thù:",
+          "- Củng cố và nâng cao một số kiến thức, kĩ năng đã học trong các bài đọc, thông qua thực hành nhận biết và đọc những tiếng có vần khó vừa được học; thực hành nói và viết sáng tạo về các bài đã học.",
+          "- Rèn cho HS kĩ năng viết, nhận biết câu và phát triển năng lực ngôn ngữ.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Tự giác làm bài tập luyện tập, rà soát lỗi viết và tự sửa bài.",
+          "- Giao tiếp và hợp tác: Biết trao đổi bài với bạn cùng bàn, chia sẻ câu văn của mình.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực luyện đọc, luyện viết và hoàn thành bài tập.",
+          "- Trách nhiệm: Giữ gìn vở sạch chữ đẹp, rèn tính cẩn thận khi viết bài."
         ],
         "dodung": [
           "1.Học liệu: SGK,KHDH.Bộ đồ dùng dạy học TV.",

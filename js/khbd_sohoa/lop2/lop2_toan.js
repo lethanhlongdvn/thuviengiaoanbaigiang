@@ -18721,12 +18721,15 @@
         "lessonTitle": "BÀI 9: TRẢI NGHIỆM THÀNH PHỐ HÌNH HỌC (2 TIẾT)",
         "topic": "",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- Nhận biết và thực hiện được việc cắt, ghép, tạo hình gắn với việc sử dụng bộ đồ dùng học tập cá nhân hoặc vật thật.",
           "- Giải quyết được một số vấn đề thực tiễn đơn giản liên quan đến hình khối đã học.",
           "- Nêu được những quy định khi tham gia giao thông qua việc thuyết minh sản phẩm “thành phố hình học”.",
+          "2. Năng lực chung:",
           "- Năng lực giao tiếp và hợp tác: Phối hợp hoạt động nhóm tạo sản phẩm; tự tin thuyết trình về ý tưởng và sản phẩm.",
           "- Năng lực giải quyết vấn đề và sáng tạo: Đề xuất ý tưởng, lựa chọn cách làm phù hợp; hoàn thiện sản phẩm theo tiêu chí.",
           "- Năng lực giải quyết vấn đề Toán học, năng lực sử dụng công cụ và phương tiện học Toán: Nhận biết đồ vật có dạng hình khối, sử dụng hình khối để tạo ra sản phẩm.",
+          "3. Phẩm chất:",
           "- Phẩm chất chăm chỉ, trách nhiệm: Tích cực tham gia hoạt động học tập; có trách nhiệm với nhiệm vụ được giao.",
           "4. Tích hợpBài học STEM: Trải nghiệm thành phố hình học; tích hợp Toán - Mĩ thuật - Tự nhiên và Xã hội - An toàn giao thông. HS vận dụng nhận biết hình khối để thiết kế sản phẩm, hợp tác nhóm, trình bày ý tưởng và nêu quy định giao thông trong mô hình thành phố."
         ],

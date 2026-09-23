@@ -18014,12 +18014,7 @@
           "- Trách nhiệm: sử dụng Google Sheets, AI minh họa dưới sự hướng dẫn của GV.",
           "4. Tích hợp:",
           "- Tích hợp NLS 1.3.CB1a: HS ghi kết quả cân hoặc ước lượng khối lượng vào Google Sheets mẫu, so sánh với kết quả cân thực tế và đánh dấu mức chênh lệch; HS nêu nguyên nhân sai lệch như đặt vật chưa cân, đọc sai đơn vị gam hoặc ghi nhầm số liệu.",
-          "- Tích hợp AI (Khung 3439) - 3.B2.1: Nhận biết sản phẩm do AI tạo ra có thể không đúng sự thật. Gợi ý hoạt động: So sánh một kết quả tính toán phức tạp do AI làm sai và yêu cầu HS phát hiện lỗi.",
-          "1. Năng lực đặc thù:",
-          "- Ôn tập các mạch kiến thức: bảng nhân, bảng chia, phép nhân, phép chia, hình học, đo lường và biểu thức số.",
-          "- Tự đánh giá được mạch kiến thức còn sai nhiều để có kế hoạch luyện thêm.",
-          "- Hoàn thành được bài kiểm tra ôn tập cuối học kì I theo yêu cầu.",
-          "2. Năng lực chung:"
+          "- Tích hợp AI (Khung 3439) - 3.B2.1: Nhận biết sản phẩm do AI tạo ra có thể không đúng sự thật. Gợi ý hoạt động: So sánh một kết quả tính toán phức tạp do AI làm sai và yêu cầu HS phát hiện lỗi."
         ],
         "dodung": [
           "- Kế hoạch bài dạy, SGK Toán 3 tập một, bài giảng PowerPoint.",
@@ -18031,21 +18026,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          ".......................................................................................................................................",
-          ".......................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3",
-          "CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ I",
-          "ÔN TẬP VÀ KIỂM TRA CUỐI HỌC KÌ I",
-          "- Giao tiếp và hợp tác: trao đổi với bạn về lỗi sai thường gặp.",
-          "- Giải quyết vấn đề và sáng tạo: chọn cách ôn tập phù hợp với mạch kiến thức còn yếu.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: nghiêm túc ôn tập và làm bài kiểm tra.",
-          "- Trung thực: làm bài bằng năng lực của bản thân, không nhìn bài bạn.",
-          "- Trách nhiệm: ghi lại nội dung cần luyện thêm sau khi xem kết quả.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 5.2.CB1a: Trong giờ ôn tập cuối học kì I, GV tạo Google Forms tự kiểm theo từng mạch: bảng nhân, bảng chia, hình học, đo lường, biểu thức số. HS xem kết quả từng nhóm câu, khoanh mạch kiến thức còn sai nhiều và ghi 1 việc cần luyện thêm.",
-          ".......................................................................................................................................",
-          "......................................................................................................................................."
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -19747,31 +19729,28 @@
         "lessonTitle": "Bài học STEM: ĐỒNG HỒ SỬ DỤNG SỐ LA MÃ (Tiết 2)",
         "topic": "CHỦ ĐỀ 8: CÁC SỐ ĐẾN 10 000",
         "yccd": [
-          "- Bìa/đĩa giấy, thước kẻ, kéo thủ công, bút màu, hồ dán, dập ghim hoặc ghim mũ.",
-          "- Phiếu học tập STEM, tiêu chí đánh giá sản phẩm, mẫu đồng hồ sử dụng số La Mã.",
-          "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint.",
-          "- Giao tiếp và hợp tác: thảo luận nhóm, phân công nhiệm vụ, giới thiệu sản phẩm.",
-          "- Tự chủ, tự học: lựa chọn vật liệu, thực hiện từng bước làm đồng hồ và tự kiểm tra sản phẩm.",
-          "2. Năng lực chung:",
-          "- Đọc giờ trên đồng hồ sử dụng số La Mã và sử dụng sản phẩm để luyện đọc giờ.",
-          "- Thực hành sử dụng vật liệu đơn giản để làm “Đồng hồ sử dụng số La Mã”.",
+          "1. Năng lực đặc thù:",
           "- Nhận biết được chữ số La Mã và viết được các số trong phạm vi 20 bằng cách sử dụng chữ số La Mã.",
-          "1. Năng lực đặc thù:"
+          "- Thực hành sử dụng vật liệu đơn giản để làm “Đồng hồ sử dụng số La Mã”.",
+          "- Đọc giờ trên đồng hồ sử dụng số La Mã và sử dụng sản phẩm để luyện đọc giờ.",
+          "2. Năng lực chung:",
+          "- Tự chủ, tự học: lựa chọn vật liệu, thực hiện từng bước làm đồng hồ và tự kiểm tra sản phẩm.",
+          "- Giao tiếp và hợp tác: thảo luận nhóm, phân công nhiệm vụ, giới thiệu sản phẩm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: khéo léo, kiên trì hoàn thiện sản phẩm đồng hồ số La Mã.",
+          "- Trách nhiệm: sử dụng vật liệu an toàn, tiết kiệm và dọn dẹp vệ sinh sau khi làm.",
+          "4. Tích hợp:",
+          "- Bài học STEM: Toán - Mĩ thuật - Công nghệ. Chế tạo đồng hồ số La Mã từ vật liệu tái chế."
         ],
         "dodung": [
-          "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI hỗ trợ nhận dạng ký hiệu đặc biệt nhưng cần kiểm chứng khi chữ viết mờ, lệch hoặc khó đọc.",
-          "- Tích hợp NLS 1.1.CB1a: HS dùng Canva for Education hoặc PowerPoint để đối chiếu bản phác thảo, kiểm tra vị trí các chữ số La Mã từ I đến XII trước khi làm sản phẩm thật.",
-          "- Bài học STEM: Đồng hồ sử dụng số La Mã. HS phối hợp kiến thức Toán và kĩ năng Mĩ thuật để làm đồ dùng học tập “Đồng hồ sử dụng số La Mã”.",
-          "4. Tích hợp:",
-          "- Trách nhiệm: sử dụng kéo, ghim, hồ dán an toàn và thu dọn sau khi làm việc nhóm.",
-          "- Trung thực: tự đánh giá sản phẩm theo tiêu chí, sửa lỗi số La Mã nếu có.",
-          "- Chăm chỉ: tích cực cắt, dán, trang trí và hoàn thiện sản phẩm.",
-          "3. Phẩm chất:"
+          "- Bìa/đĩa giấy, thước kẻ, kéo thủ công, bút màu, hồ dán, dập ghim hoặc ghim mũ.",
+          "- Phiếu học tập STEM, tiêu chí đánh giá sản phẩm, mẫu đồng hồ sử dụng số La Mã.",
+          "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint."
         ],
         "activities": [],
         "dieuchinh": [
-          ".......................................................................................................................................",
-          "......................................................................................................................................."
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [

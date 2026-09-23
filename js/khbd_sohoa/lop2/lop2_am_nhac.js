@@ -17,16 +17,23 @@
         "lessonTitle": "TIẾT 1: HỌC HÁT DÀN NHẠC TRONG VƯỜN - NHẠC VÀ LỜI: TÔ ĐÔNG HẢI",
         "topic": "CHỦ ĐỀ 1: SẮC MÀU ÂM THANH",
         "yccd": [
-          "1. Kiến thức:",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
           "-Biết đôi nét về tác giả Tô Đông Hải",
-          "-Biết bài hát Dàn nhạc trong vườn có giai điệu nhịp nhàng nói về một vườn thiên nhiên tuyệt đẹp.",
-          "2 .Năng lực",
+          "- 2 .Năng lực",
           "- Hát chuẩn xác, thuộc lời  bài hát: “Dàn nhạc trong vườn” đúng sắc thái. Thể hiện được bài hát với tính chất nhịp nhàng của nhịp 3/4",
           "- Hình thành cho học sinh một số kỹ năng hát ( hát rõ lời, đồng đều ,lấy hơi)",
           "- Biết hát kết hợp các hình thức gõ đệm theo phách.",
-          "3. Phẩm chất",
           "-Yêu thích môn âm nhạc.",
-          "- Góp phần giáo dục các em thêm gắn bó với thiên nhiên, loài vật"
+          "- Góp phần giáo dục các em thêm gắn bó với thiên nhiên, loài vật",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "-Biết bài hát Dàn nhạc trong vườn có giai điệu nhịp nhàng nói về một vườn thiên nhiên tuyệt đẹp."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -59,16 +66,23 @@
         "lessonTitle": "TIẾT 2 - ÔN TẬP BÀI HÁT: DÀN NHẠC TRONG VƯỜN - HĐ THƯỞNG THỨC ÂM NHẠC: ƯỚC MƠ CỦA BẠN ĐÔ",
         "topic": "CHỦ ĐỀ 1: SẮC MÀU ÂM THANH",
         "yccd": [
-          "1. Kiến thức:",
-          "-Biết nhớ lại bài hát Dàn nhạc trong vườn có giai điệu nhịp nhàng nói về một vườn thiên nhiên tuyệt đẹp.",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
           "-Hiểu nội dung câu chuyện",
-          "2 .Năng lực",
-          "- Hát được giai điệu, đúng lời ca bài hát: “Dàn nhạc trong vườn”",
+          "- 2 .Năng lực",
           "- Hát kết hợp vỗ tay theo nhịp, phách",
           "- Biết hát và vận động theo nhịp",
-          "3. Phẩm chất",
           "-Yêu thích môn âm nhạc.",
-          "- Cảm nhận được vẻ đẹp của âm thanh"
+          "- Cảm nhận được vẻ đẹp của âm thanh",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "-Biết nhớ lại bài hát Dàn nhạc trong vườn có giai điệu nhịp nhàng nói về một vườn thiên nhiên tuyệt đẹp.",
+          "- Hát được giai điệu, đúng lời ca bài hát: “Dàn nhạc trong vườn”"
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -101,14 +115,20 @@
         "lessonTitle": "TIẾT 3 - ĐỌC NHẠC BÀI SỐ 1",
         "topic": "CHỦ ĐỀ 1: SẮC MÀU ÂM THANH",
         "yccd": [
-          "1. Kiến thức:",
-          "– Nhớ tên các nốt trong bài đọc nhạc, đọc được cao độ và trường độ bài đọc nhạc số 1 với kí hiệu bàn tay. tay và đọc nhạc với nhạc đệm.",
-          "2 .Năng lực",
-          "–  Biết đọc nhạc và vận dụng gõ đệm theo nhịp 2/4.",
-          "– Cảm nhận được yếu tố mạnh, nhẹ qua thực hành gõ nhịp 2/4.",
-          "3. Phẩm chất",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
+          "- – Nhớ tên các nốt trong bài đọc nhạc, đọc được cao độ và trường độ bài đọc nhạc số 1 với kí hiệu bàn tay. tay và đọc nhạc với nhạc đệm.",
+          "- 2 .Năng lực",
+          "- –  Biết đọc nhạc và vận dụng gõ đệm theo nhịp 2/4.",
+          "- – Cảm nhận được yếu tố mạnh, nhẹ qua thực hành gõ nhịp 2/4.",
           "-Yêu thích môn âm nhạc.",
-          "- Cảm nhận được vẻ đẹp của âm thanh"
+          "- Cảm nhận được vẻ đẹp của âm thanh",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -141,16 +161,20 @@
         "lessonTitle": "TIẾT 4 - * ÔN TẬP: HÁT VÀ ĐỌC NHẠC - * VẬN DỤNG - SÁNG TẠO",
         "topic": "CHỦ ĐỀ 2: EM YÊU LÀN ĐIỆU DÂN CA",
         "yccd": [
-          "1. Kiến thức:",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
           "- Biết thêm một số động tác phụ họa cho bài hát",
-          "– Nhớ tên các lại nốt trong bài đọc nhạc, được ôn thêm với các hình thức",
-          "2 .Năng lực",
-          "- HS biểu diễn bài hát nhịp nhàng theo nhịp 3/4 kết hợp những ý tưởng sáng tạo của nhóm và cá nhân.",
-          "– Thể hiện bài đọc nhạc kết hợp được với nhạc cụ đệm, nhạc baet và vận động.",
-          "– Vận dụng được yếu tố mạnh – nhẹ trong thể hiện bài hát, bài đọc nhạc và trò chơi với tiết tấu.",
-          "3. Phẩm chất",
+          "- – Nhớ tên các lại nốt trong bài đọc nhạc, được ôn thêm với các hình thức",
+          "- 2 .Năng lực",
+          "- – Thể hiện bài đọc nhạc kết hợp được với nhạc cụ đệm, nhạc baet và vận động.",
+          "- – Vận dụng được yếu tố mạnh – nhẹ trong thể hiện bài hát, bài đọc nhạc và trò chơi với tiết tấu.",
           "-Yêu thích môn âm nhạc.",
-          "- Cảm nhận được vẻ đẹp của âm thanh"
+          "- Cảm nhận được vẻ đẹp của âm thanh",
+          "2. Năng lực chung:",
+          "- HS biểu diễn bài hát nhịp nhàng theo nhịp 3/4 kết hợp những ý tưởng sáng tạo của nhóm và cá nhân.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -183,16 +207,22 @@
         "lessonTitle": "TIẾT 5: HỌC HÁT: BÀI CON CHIM CHÍCH CHÒE - Theo bài Bắc kim thang-dân ca nam bộ - Lời mới: Việt Anh",
         "topic": "CHỦ ĐỀ 2: EM YÊU LÀN ĐIỆU DÂN CA",
         "yccd": [
-          "1. Kiến thức:",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
           "- HS biết bài hát con chim chích chòe được viết theo bài Bắc kim thang – Dân ca Nam Bộ, lời mới của tác giả Việt Anh.",
           "-Biết chim Chích Chòe là chim gì, vị trí vùng Nam bộ trên bản đồ",
-          "2. Năng lực:",
-          "- Hát đúng giai điệu, lời ca bài hát Con chim chích chòe.",
           "- Hình thành cho các em một số kĩ năng hát (lấy hơi, rõ lời, đồng đều)",
-          "– Biết hát kết hợp gõ đệm theo phách, theo hình tiết tấu 1.",
-          "3. Phẩm chất:",
+          "- – Biết hát kết hợp gõ đệm theo phách, theo hình tiết tấu 1.",
           "- Giáo dục học sinh biết yêu các bài hát dân ca.",
-          "- Yêu thích môn âm nhạc."
+          "- Yêu thích môn âm nhạc.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "- Hát đúng giai điệu, lời ca bài hát Con chim chích chòe."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -225,15 +255,21 @@
         "lessonTitle": "TIẾT 6: - ÔN TẬP BÀI HÁT CON CHIM CHÍCH CHÒE - NHẠC CỤ: GIỚI THIỆU NHẠC CỤ SONG LOAN.",
         "topic": "CHỦ ĐỀ 2: EM YÊU LÀN ĐIỆU DÂN CA",
         "yccd": [
-          "1. Kiến thức:",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
           "-Biết thêm được nhạc cụ gõ đệm Song loan.",
-          "2. Năng lực:",
-          "– Hát được giai điệu và đúng lời ca bài hát Con chim chích choè.",
-          "– Nhận biết được nhạc cụ gõ song loan. Biết sử dụng nhạc cụ để gõ đệm theo bài tập tiết tấu và bài hát Con chim chích choè.",
-          "– Biết biểu diễn với nhạc cụ gõ song loan để đệm theo tiết tấu và bài hát.",
-          "3. Phẩm chất:",
+          "- – Nhận biết được nhạc cụ gõ song loan. Biết sử dụng nhạc cụ để gõ đệm theo bài tập tiết tấu và bài hát Con chim chích choè.",
+          "- – Biết biểu diễn với nhạc cụ gõ song loan để đệm theo tiết tấu và bài hát.",
           "- Giáo dục học sinh biết yêu các bài hát dân ca, yêu thích các cụ dân tộc",
-          "- Yêu thích môn âm nhạc."
+          "- Yêu thích môn âm nhạc.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "- – Hát được giai điệu và đúng lời ca bài hát Con chim chích choè."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -266,18 +302,23 @@
         "lessonTitle": "TIẾT 7 - *Thường thức âm nhạc đàn bầu việt nam - * vận dụng - sáng tạo",
         "topic": "CHỦ ĐỀ 2: EM YÊU LÀN ĐIỆU DÂN CA",
         "yccd": [
-          "1. Kiến thức:",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
           "- Biết thêm được 1 nhạc cụ của Việt Nam là Đàn bầu.",
-          "– Biết về hình dáng, âm sắc của đàn bầu.",
-          "2. Năng lực:",
-          "– Nhận biết được đàn bầu là nhạc cụ dân tộc của Việt Nam.",
+          "- – Biết về hình dáng, âm sắc của đàn bầu.",
+          "- – Nhận biết được đàn bầu là nhạc cụ dân tộc của Việt Nam.",
           "-Chăm chú nghe và biểu hiện cảm xúc khi nghe tiếng đàn bầu qua bài Trống cơm (Dân ca quan họ Bắc Ninh).",
-          "– Nghe và nhận biết được âm thanh của đàn bầu qua bài Trống cơm.",
-          "– HS sử dụng song loan gõ đệm theo nhịp điệu bài Múa sạp.",
-          "3. Phẩm chất:",
+          "- – Nghe và nhận biết được âm thanh của đàn bầu qua bài Trống cơm.",
+          "- – HS sử dụng song loan gõ đệm theo nhịp điệu bài Múa sạp.",
           "- Giáo dục học sinh biết yêu nhacjcuj dân tộc.",
           "- Yêu thích môn âm nhạc.",
-          "– Cảm nhận được vẻ đẹp của âm thanh, giáo dục tình yêu đối với âm nhạc"
+          "- – Cảm nhận được vẻ đẹp của âm thanh, giáo dục tình yêu đối với âm nhạc",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -310,15 +351,21 @@
         "lessonTitle": "TIẾT 8 - LUYỆN TẬP VÀ BIỂU DIỄN",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
-          "1. Kiến thức:",
-          "– Nhớ tên bài hát Con chim chích choè, hát đúng giai điệu, lời ca và biết biểu diễn bài hát trước lớp.",
-          "2. Năng lực:",
-          "– Thực hành gõ đệm bằng nhạc cụ gõ song loan hoặc vỗ tay theo mẫu tiết tấu",
-          "3. Phẩm chất:",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
+          "- – Thực hành gõ đệm bằng nhạc cụ gõ song loan hoặc vỗ tay theo mẫu tiết tấu",
           "- Giáo dục học sinh biết điệu múa sạp của dân tộc Thái.",
           "- Yêu thích môn âm nhạc.",
-          "– Cảm nhận được vẻ đẹp của âm thanh, giáo dục tình yêu đối với âm nhạc",
-          "– HS hào hứng tham gia trò chơi nhảy sạp."
+          "- – Cảm nhận được vẻ đẹp của âm thanh, giáo dục tình yêu đối với âm nhạc",
+          "- – HS hào hứng tham gia trò chơi nhảy sạp.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "- – Nhớ tên bài hát Con chim chích choè, hát đúng giai điệu, lời ca và biết biểu diễn bài hát trước lớp."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -350,16 +397,22 @@
         "lessonTitle": "TIẾT 9 - HỌC HÁT BÀI: HỌC SINH LỚP 2 CHĂM NGOAN - NHẠC VÀ LỜI: HOÀNG LONG",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
-          "1. Kiến thức:",
-          "– Nêu được tên bài hát và tác giả, hát đúng giai điệu, lời ca bài hát Học sinh lớp Hai Chăm ngoan.",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
           "-Nêu được vài nét về tác giả.",
-          "2. Năng lực:",
-          "– Cảm nhận và thể hiện được bài hát với tính chất vui tươi, trong sáng với tốc độ hơi nhanh ở nhịp 2/4.",
-          "– Biết hát gõ đệm theo phách",
-          "3. Phẩm chất.",
+          "- – Cảm nhận và thể hiện được bài hát với tính chất vui tươi, trong sáng với tốc độ hơi nhanh ở nhịp 2/4.",
+          "- – Biết hát gõ đệm theo phách",
           "- Yêu thích môn âm nhạc.",
           "- Biết chăm ngoan nghe lời ông bà cha mẹ, thầy cô",
-          "– Cảm nhận được vẻ đẹp của âm thanh"
+          "- – Cảm nhận được vẻ đẹp của âm thanh",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "- – Nêu được tên bài hát và tác giả, hát đúng giai điệu, lời ca bài hát Học sinh lớp Hai Chăm ngoan."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -391,16 +444,22 @@
         "lessonTitle": "TIẾT 10 - * ÔN TẬP BÀI HÁT HỌC SINH LỚP HAI CHĂM NGOAN - * ĐỌC NHẠC BÀI SỐ 2",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
-          "1. Kiến thức:",
-          "– Nêu được tên bài hát và tác giả, hát đúng giai điệu, lời ca bài hát Học sinh lớp Hai Chăm ngoan.",
-          "2. Năng lực:",
-          "– Hát được giai điệu và đúng lời ca bài hát Học sinh lớp Hai chăm ngoan. Hát kết hợp vỗ tay theo nhịp/ phách.",
-          "– Đọc đúng cao độ, trường độ các nốt Đô – Rê – Mi – Pha – Son – La theo kí hiệu bàn tay và đọc được với nhạc đệm.",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
+          "- – Đọc đúng cao độ, trường độ các nốt Đô – Rê – Mi – Pha – Son – La theo kí hiệu bàn tay và đọc được với nhạc đệm.",
           "-Biết hát kết hợp với gõ đệm, hát kết hợp với vận động cơ thể.",
-          "3. Phẩm chất.",
           "- Yêu thích môn âm nhạc.",
           "- Biết chăm ngoan nghe lời ông bà cha mẹ, thầy cô",
-          "– Cảm nhận được vẻ đẹp của âm thanh."
+          "- – Cảm nhận được vẻ đẹp của âm thanh.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "- – Nêu được tên bài hát và tác giả, hát đúng giai điệu, lời ca bài hát Học sinh lớp Hai Chăm ngoan.",
+          "- – Hát được giai điệu và đúng lời ca bài hát Học sinh lớp Hai chăm ngoan. Hát kết hợp vỗ tay theo nhịp/ phách."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -432,15 +491,20 @@
         "lessonTitle": "TIẾT 11 - * ÔN TẬP ĐỌC NHẠC BÀI SỐ 2 - * NGHE NHẠC BÀI VUI ĐẾN TRƯỜNG",
         "topic": "CHỦ ĐỀ 3: MÁI TRƯỜNG EM YÊU",
         "yccd": [
-          "1. Kiến thức:",
-          "– Nêu được tên bài hát và tác giả bài nghe nhạc",
-          "2. Năng lực:",
-          "– Đọc được bài đọc nhạc theo kí hiệu bàn tay và kết hợp vận động cơ thể.",
-          "– Nêu được tên bài hát, tên tác giả. Cảm nhận tính chất vui tươi và biết vận động cơ thể theo nhịp điệu của bài hát.",
-          "3. Phẩm chất.",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
+          "- – Nêu được tên bài hát và tác giả bài nghe nhạc",
+          "- – Đọc được bài đọc nhạc theo kí hiệu bàn tay và kết hợp vận động cơ thể.",
+          "- – Nêu được tên bài hát, tên tác giả. Cảm nhận tính chất vui tươi và biết vận động cơ thể theo nhịp điệu của bài hát.",
           "- Yêu thích môn âm nhạc.",
           "- Biết chăm ngoan nghe lời ông bà cha mẹ, thầy cô",
-          "– Cảm nhận được niềm vui, tình cảm bạn bè, thầy cô dưới mái trường thân yêu"
+          "- – Cảm nhận được niềm vui, tình cảm bạn bè, thầy cô dưới mái trường thân yêu",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -472,15 +536,21 @@
         "lessonTitle": "TIẾT 12 - * ÔN TẬP: HÁT VÀ ĐỌC NHẠC - * VẬN DỤNG - SÁNG TẠO",
         "topic": "CHỦ ĐỀ 4: TUỔI THƠ",
         "yccd": [
-          "1. Kiến thức:",
-          "– Nhơ lại tên tác giả bài hát, nhớ giai điệu bài đọc nhạc đã học",
-          "2. Năng lực:",
-          "– HS biểu diễn bài hát và thể hiện cảm xúc phù hợp với nhịp điệu bài hát.",
-          "– Thể hiện bài đọc nhạc kết hợp được với nhạc baet và vận động.",
-          "– Thể hiện được cách hát ở nhịp nhanh – chậm bài hát Học sinh lớp Hai chăm ngoan theo ý thích.",
-          "3. Phẩm chất.",
+          "1. Năng lực đặc thù:",
+          "- 1. Kiến thức:",
+          "- – HS biểu diễn bài hát và thể hiện cảm xúc phù hợp với nhịp điệu bài hát.",
+          "- – Thể hiện bài đọc nhạc kết hợp được với nhạc baet và vận động.",
           "- Yêu thích môn âm nhạc.",
-          "– Cảm nhận được vẻ đẹp của âm thanh."
+          "- – Cảm nhận được vẻ đẹp của âm thanh.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "- – Nhơ lại tên tác giả bài hát, nhớ giai điệu bài đọc nhạc đã học",
+          "- – Thể hiện được cách hát ở nhịp nhanh – chậm bài hát Học sinh lớp Hai chăm ngoan theo ý thích."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -512,13 +582,17 @@
         "lessonTitle": "TIẾT 13: HỌC HÁT: BÀI CHÚ CHIM NHỎ DỄ THƯƠNG - NHẠC: PHÁP - LỜI VIỆT: HOÀNG ANH",
         "topic": "CHỦ ĐỀ 4: TUỔI THƠ",
         "yccd": [
-          "1.  Kiến thức:",
-          "– Hát đúng giai điệu, thuộc lời ca bài hát Chú chim nhỏ dễ thương.",
+          "1. Năng lực đặc thù:",
+          "- 1.  Kiến thức:",
           "-  Biết bài hát là nhạc của Pháp lời việt Hoàng Anh.",
-          "2. Năng lực",
-          "- Hát được giai điệu và lời ca của bài hát kết hợp gõ đệm theo phách.",
-          "3. Phẩm chất",
-          "- Qua bài hát giáo dục học sinh yêu thiên nhiên và biết bảo vệ các loài động vật."
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Qua bài hát giáo dục học sinh yêu thiên nhiên và biết bảo vệ các loài động vật.",
+          "4. Tích hợp:",
+          "- – Hát đúng giai điệu, thuộc lời ca bài hát Chú chim nhỏ dễ thương.",
+          "- Hát được giai điệu và lời ca của bài hát kết hợp gõ đệm theo phách."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -550,15 +624,19 @@
         "lessonTitle": "TIẾT 14 - NGHE NHẠC MÚA SƯ TỬ THẬT VUI - Nhạc và lời: Phạm Tuyên",
         "topic": "CHỦ ĐỀ 4: TUỔI THƠ",
         "yccd": [
-          "1.  Kiến thức:",
-          "– Biết thể hiện cảm xúc khi nghe nhạc, biết chút tiểu sử của nhạc sĩ Phạm Tuyên",
+          "1. Năng lực đặc thù:",
+          "- 1.  Kiến thức:",
+          "- – Biết thể hiện cảm xúc khi nghe nhạc, biết chút tiểu sử của nhạc sĩ Phạm Tuyên",
           "- Biết múa sư tử là trò chơi dân gian, biết nguồn gốc của múa lân.",
           "- Nhớ lại tác giả lời việt của bài hát chú chim nhỏ dễ thương.",
-          "2. Năng lực",
-          "– Hát đúng giai điệu và đúng lời ca kết hợp vận động cơ thể theo bài hát.",
-          "– Biết gõ đệm hoặc vận động cơ thể theo cảm xúc khi nghe bài hát Múa sư tử thật là vui.",
-          "3. Phẩm chất",
-          "- Qua bài hát giáo dục học sinh yêu thiên nhiên và biết bảo vệ các loài động vật."
+          "- – Biết gõ đệm hoặc vận động cơ thể theo cảm xúc khi nghe bài hát Múa sư tử thật là vui.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Qua bài hát giáo dục học sinh yêu thiên nhiên và biết bảo vệ các loài động vật.",
+          "4. Tích hợp:",
+          "- – Hát đúng giai điệu và đúng lời ca kết hợp vận động cơ thể theo bài hát."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -590,16 +668,20 @@
         "lessonTitle": "TIẾT 15 - NHẠC CỤ: DÙNG NHẠC CỤ GÕ THỂ HIỆN HÌNH TIẾT TẤU",
         "topic": "CHỦ ĐỀ 4: TUỔI THƠ",
         "yccd": [
-          "1.  Kiến thức:",
-          "– Biết thể hiện cảm xúc khi nghe nhạc, biết chút tiểu sử của nhạc sĩ Phạm Tuyên",
+          "1. Năng lực đặc thù:",
+          "- 1.  Kiến thức:",
+          "- – Biết thể hiện cảm xúc khi nghe nhạc, biết chút tiểu sử của nhạc sĩ Phạm Tuyên",
           "- Biết múa sư tử là trò chơi dân gian, biết nguồn gốc của múa lân.",
           "- Nhớ lại tác giả lời việt của bài hát chú chim nhỏ dễ thương.",
-          "2. Năng lực",
-          "– Thể hiện đúng theo hình tiết tấu với nhạc cụ trai-en-gô, Tem pơ rin",
-          "– Biết sử dụng một số cụ đã học đệm cho bài hát Chú chim nhỏ dễ thương.",
-          "– Biết sử dụng nhạc cụ đã học thể hiện đúng tiết tấu/ đệm cho bài",
-          "3. Phẩm chất",
-          "- Qua bài hát giáo dục học sinh yêu thiên nhiên và biết bảo vệ các loài động vật."
+          "- – Biết sử dụng một số cụ đã học đệm cho bài hát Chú chim nhỏ dễ thương.",
+          "- – Biết sử dụng nhạc cụ đã học thể hiện đúng tiết tấu/ đệm cho bài",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Qua bài hát giáo dục học sinh yêu thiên nhiên và biết bảo vệ các loài động vật.",
+          "4. Tích hợp:",
+          "- – Thể hiện đúng theo hình tiết tấu với nhạc cụ trai-en-gô, Tem pơ rin"
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -631,17 +713,20 @@
         "lessonTitle": "TIẾT 16/17 - ÔN TẬP CUỐI HK1",
         "topic": "CHỦ ĐỀ 4: TUỔI THƠ",
         "yccd": [
-          "1.  Kiến thức:",
-          "– Nhớ nội dung, tác giả 2 bài nghe nhạc",
+          "1. Năng lực đặc thù:",
+          "- 1.  Kiến thức:",
+          "- – Nhớ nội dung, tác giả 2 bài nghe nhạc",
           "- Nhớ lại các bài hát đã học của tác giả nào, nội dung, sắc thái từng bài",
-          "2. Năng lực",
-          "– Thể hiện đúng bài hát đã học với hình thức nhóm, cặp đôi…",
-          "– Biết thể hiện cảm xúc/ vận động cơ thể/ gõ đệm khi nghe bài hát.",
-          "– Thể hiện đúng hình tiết tấu đã học với nhạc cụ gõ.",
-          "– Đọc bài đọc nhạc kết hợp thực hiện kí hiệu bàn tay/ vận động cơ thể theo ý thích",
-          "3. Phẩm chất",
+          "- – Thể hiện đúng bài hát đã học với hình thức nhóm, cặp đôi…",
+          "- – Biết thể hiện cảm xúc/ vận động cơ thể/ gõ đệm khi nghe bài hát.",
+          "- – Thể hiện đúng hình tiết tấu đã học với nhạc cụ gõ.",
+          "- – Đọc bài đọc nhạc kết hợp thực hiện kí hiệu bàn tay/ vận động cơ thể theo ý thích",
+          "-Yêu âm nhac, quê hươnng, đất nước, trương học, thầy cô.",
+          "2. Năng lực chung:",
           "-Biết Lắng nghe ý kiến, chia sẻ và hợp tác cùng các bạn trong nhóm để hoàn thành nhiệm vụ được giao.",
-          "-Yêu âm nhac, quê hươnng, đất nước, trương học, thầy cô."
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -673,17 +758,20 @@
         "lessonTitle": "TIẾT 18 - KIỂM TRA ĐÁNH GIÁ CUỐI HK1",
         "topic": "CHỦ ĐỀ 4: TUỔI THƠ",
         "yccd": [
-          "1.  Kiến thức:",
-          "– Nhớ nội dung, tác giả 2 bài nghe nhạc",
+          "1. Năng lực đặc thù:",
+          "- 1.  Kiến thức:",
+          "- – Nhớ nội dung, tác giả 2 bài nghe nhạc",
           "- Nhớ lại các bài hát đã học của tác giả nào, nội dung, sắc thái từng bài",
-          "2. Năng lực",
-          "– Thể hiện đúng bài hát đã học với hình thức nhóm, cặp đôi…",
-          "– Biết thể hiện cảm xúc/ vận động cơ thể/ gõ đệm khi nghe bài hát.",
-          "– Thể hiện đúng hình tiết tấu đã học với nhạc cụ gõ.",
-          "– Đọc bài đọc nhạc kết hợp thực hiện kí hiệu bàn tay/ vận động cơ thể theo ý thích",
-          "3. Phẩm chất",
+          "- – Thể hiện đúng bài hát đã học với hình thức nhóm, cặp đôi…",
+          "- – Biết thể hiện cảm xúc/ vận động cơ thể/ gõ đệm khi nghe bài hát.",
+          "- – Thể hiện đúng hình tiết tấu đã học với nhạc cụ gõ.",
+          "- – Đọc bài đọc nhạc kết hợp thực hiện kí hiệu bàn tay/ vận động cơ thể theo ý thích",
+          "-Yêu âm nhac, quê hươnng, đất nước, trương học, thầy cô.",
+          "2. Năng lực chung:",
           "-Biết Lắng nghe ý kiến, chia sẻ và hợp tác cùng các bạn trong nhóm để hoàn thành nhiệm vụ được giao.",
-          "-Yêu âm nhac, quê hươnng, đất nước, trương học, thầy cô."
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "1. Giáo viên:",
@@ -715,7 +803,14 @@
         "lessonTitle": "TIẾT 1: - HÁT: - HOA LÁ MÙA XUÂN",
         "topic": "CHỦ ĐỀ 4: TUỔI THƠ",
         "yccd": [
-          "- Thực hiện được yêu cầu cần đạt của bài học theo chương trình Âm nhạc."
+          "1. Năng lực đặc thù:",
+          "- Thực hiện được yêu cầu cần đạt của bài học theo chương trình Âm nhạc.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -750,7 +845,14 @@
         "lessonTitle": "TIẾT 2: - ÔN TẬP BÀI HÁT: - HOA LÁ MÙA XUÂN",
         "topic": "CHỦ ĐỀ 4: TUỔI THƠ",
         "yccd": [
-          "- Thực hiện được yêu cầu cần đạt của bài học theo chương trình Âm nhạc."
+          "1. Năng lực đặc thù:",
+          "- Thực hiện được yêu cầu cần đạt của bài học theo chương trình Âm nhạc.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -789,8 +891,15 @@
         "lessonTitle": "TIẾT 3: - ÔN TẬP ĐỌC NHẠC: - BÀI SỐ 3",
         "topic": "CHỦ ĐỀ 4: TUỔI THƠ",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- Đọc đúng cao độ, trường độ bài đọc nhạc Số 3, biết đọc nhạc kết hợp vận động cơ thể.",
-          "- Nhớ tên bài hát và hiểu được sự ra đời của bài hát Chú voi con ở Bản Đôn của nhạc sĩ Phạm Tuyên."
+          "- Nhớ tên bài hát và hiểu được sự ra đời của bài hát Chú voi con ở Bản Đôn của nhạc sĩ Phạm Tuyên.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -829,18 +938,24 @@
         "lessonTitle": "TIẾT 4: - ÔN TẬP ĐỌC NHẠC: - BÀI SỐ 1",
         "topic": "- Biết vận dụng - sáng tạo với trò chơi âm nhạc theo chủ đề của bài học.",
         "yccd": [
-          "- HS biểu diễn bài hát kết hợp những ý tưởng sáng tạo của nhóm và cá nhân.",
+          "1. Năng lực đặc thù:",
           "- Thể hiện bài đọc nhạc kết hợp được với nhạc cụ đệm, nhạc beat và vận động.",
+          "- * Năng lực âm nhạc.",
+          "- Nhớ tên, cảm nhận được âm sắc và biết cách chơi nhạc cụ ma-ra-cát theo âm hình tiết tấu nhịp 3/4.",
+          "- * Năng lực chung.",
+          "- Tích cực tham gia và biết phối hợp trong làm việc nhóm trong các hoạt động học và biểu diễn bài hát.",
+          "- * Năng lực âm nhạc.",
+          "- Cảm nhận, thể hiện tình cảm yêu thương đối với người thân trong gia đình.",
+          "2. Năng lực chung:",
+          "- HS biểu diễn bài hát kết hợp những ý tưởng sáng tạo của nhóm và cá nhân.",
           "- Biết vận dụng - sáng tạo với trò chơi âm nhạc theo chủ đề của bài học.",
-          "* Năng lực âm nhạc.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
           "- Hát đúng bài hát Mẹ ơi có biết kết hợp vỗ đệm theo phách, nhịp và vận động cơ thể theo nhịp điệu âm nhạc; cảm nhận tình yêu thương gắn bó giữa mẹ và con qua giai điệu và nội dung lời ca của bài hát.",
           "- Biết lắng nghe và cảm nhận được tính chất âu yếm, thiết tha, tình cảm yêu thương của người mẹ dành cho con qua giai điệu, lời ca của bài hát Ru con - dân ca Nam Bộ.",
-          "- Nhớ tên, cảm nhận được âm sắc và biết cách chơi nhạc cụ ma-ra-cát theo âm hình tiết tấu nhịp 3/4.",
-          "- Phân biệt và thể hiện được cao - thấp trong câu hát, giai điệu âm nhạc.",
-          "* Năng lực chung.",
-          "- Tích cực tham gia và biết phối hợp trong làm việc nhóm trong các hoạt động học và biểu diễn bài hát.",
-          "* Năng lực âm nhạc.",
-          "- Cảm nhận, thể hiện tình cảm yêu thương đối với người thân trong gia đình."
+          "- Phân biệt và thể hiện được cao - thấp trong câu hát, giai điệu âm nhạc."
         ],
         "dodung": [
           "- Đàn phím điện tử, bài giảng điện tử, loa, file âm thanh, hình ảnh.",
@@ -893,7 +1008,15 @@
         "lessonTitle": "TIẾT 1: - HÁT: - MẸ ƠI CÓ BIẾT",
         "topic": "- Biết vận dụng - sáng tạo với trò chơi âm nhạc theo chủ đề của bài học.",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- HS hát với giọng tự nhiên, tư thế phù hợp, bước đầu hát đúng cao độ, trường độ, và rõ lời ca của bài hát.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
           "- Nghe, phân biệt và nhắc lại được câu hát với hai cao độ khác nhau."
         ],
         "dodung": [
@@ -933,9 +1056,17 @@
         "lessonTitle": "TIẾT 2: - ÔN TẬP BÀI HÁT: - MẸ ƠI CÓ BIẾT",
         "topic": "- Biết vận dụng - sáng tạo với trò chơi âm nhạc theo chủ đề của bài học.",
         "yccd": [
-          "- Nêu được tên bài hát, tác giả; hát thuộc và đúng theo giai điệu, bước đầu duy trì tốc độ và thể hiện được theo sắc thái mạnh nhẹ trong các câu hát.",
+          "1. Năng lực đặc thù:",
           "- Biết phối hợp nhịp nhàng khi thể hiện bài hát ở các hình thức: đồng ca, tốp ca, song ca, đơn ca.",
-          "- Biết lắng nghe, thể hiện cảm xúc được theo nội dung lời ca và tính chất thiết tha, nhịp nhàng của bài hát Ru con."
+          "- Biết lắng nghe, thể hiện cảm xúc được theo nội dung lời ca và tính chất thiết tha, nhịp nhàng của bài hát Ru con.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "- Nêu được tên bài hát, tác giả; hát thuộc và đúng theo giai điệu, bước đầu duy trì tốc độ và thể hiện được theo sắc thái mạnh nhẹ trong các câu hát."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -978,8 +1109,15 @@
         "lessonTitle": "TIẾT 3: - THƯỜNG THỨC ÂM NHẠC: - NHẠC CỤ MA-RA-CÁT (MARACAS)",
         "topic": "- Biết vận dụng - sáng tạo với trò chơi âm nhạc theo chủ đề của bài học.",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- Nói được tên, hiểu được cấu tạo chung và biết cách chơi và thể hiện được hình tiết tấu nhịp 3/4 với nhạc cụ ma-ra-cát.",
-          "- Cảm nhận và thể hiện được theo âm thanh cao - thấp khi nghe câu nhạc."
+          "- Cảm nhận và thể hiện được theo âm thanh cao - thấp khi nghe câu nhạc.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -1018,23 +1156,29 @@
         "lessonTitle": "TIẾT 4: - ÔN TẬP BÀI HÁT: - MẸ ƠI CÓ BIẾT",
         "topic": "CHỦ ĐỀ 7: NHỮNG CON VẬT QUANH EM (4 tiết)",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- Học sinh biểu diễn bài hát Mẹ ơi có biết kết hợp với các hình thức đã học phù hợp với tính chất và sắc thái âm nhạc.",
           "- Biết lắng nghe, điều chỉnh và phối hợp trong biểu diễn ở hình thức đồng ca, tốp ca, song ca, đơn ca.",
           "- Hiểu được tình yêu thương mà mẹ dành cho mình. Biết chia sẻ cảm xúc, tình yêu thương và thể hiện sự quan tâm của mình với mẹ và người thân trong gia đình từ những lời nói, hành động cụ thể.",
-          "* Năng lực âm nhạc:",
-          "- Nêu được tên bài hát và tác giả, hát đúng giai điệu, lời ca bài hát Trang trại vui vẻ, biết hát kết hợp với gõ đệm, hát kết hợp với vận động cơ thể.",
+          "- * Năng lực âm nhạc:",
           "- Nhớ tên các nốt nhạc, đọc đúng theo cao độ, trường độ, biết vỗ tay theo nhịp/ phách kết hợp với nhạc đệm hoặc kết hợp vận động cơ thể theo nhịp bài đọc nhạc số 4.",
           "- Biết lắng nghe và thể hiện vận động cơ thể phù hợp khi nghe bản nhạc Vũ khúc đàn gà con.",
           "- Biết thể hiện giọng hát, vỗ đệm khi hát, đọc nhạc và các trò chơi với tiết tấu âm nhạc.",
-          "* Năng lực chung:",
+          "- * Năng lực chung:",
           "- Tự tin và tích cực tham gia các hoạt động phối hợp với nhóm, cặp đôi, ...",
-          "* Phẩm chất:",
           "- Biết thể hiện yêu thương, bảo vệ các loài động vật.",
-          "III. ĐỒ DÙNG DẠY HỌC:",
+          "- III. ĐỒ DÙNG DẠY HỌC:",
           "- Đàn phím điện tử, bài giảng điện tử, loa, file âm thanh, hình ảnh.",
           "- SGK, SGV, Vở bài tập âm nhạc 2.",
           "- Nhạc cụ gõ (hoặc nhạc cụ tự chế).",
-          "IV. HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:"
+          "- IV. HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- * Phẩm chất:",
+          "4. Tích hợp:",
+          "- Nêu được tên bài hát và tác giả, hát đúng giai điệu, lời ca bài hát Trang trại vui vẻ, biết hát kết hợp với gõ đệm, hát kết hợp với vận động cơ thể."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -1081,7 +1225,14 @@
         "lessonTitle": "TIẾT 1: - HÁT: - TRANG TRẠI VUI VẺ",
         "topic": "CHỦ ĐỀ 7: NHỮNG CON VẬT QUANH EM (4 tiết)",
         "yccd": [
-          "- Thực hiện được yêu cầu cần đạt của bài học theo chương trình Âm nhạc."
+          "1. Năng lực đặc thù:",
+          "- Thực hiện được yêu cầu cần đạt của bài học theo chương trình Âm nhạc.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -1116,7 +1267,14 @@
         "lessonTitle": "TIẾT 2: - ÔN TẬP BÀI HÁT: - TRANG TRẠI VUI VẺ",
         "topic": "CHỦ ĐỀ 7: NHỮNG CON VẬT QUANH EM (4 tiết)",
         "yccd": [
-          "- Thực hiện được yêu cầu cần đạt của bài học theo chương trình Âm nhạc."
+          "1. Năng lực đặc thù:",
+          "- Thực hiện được yêu cầu cần đạt của bài học theo chương trình Âm nhạc.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -1159,7 +1317,15 @@
         "lessonTitle": "TIẾT 3: - ÔN TẬP ĐỌC NHẠC: - BÀI SỐ 4",
         "topic": "CHỦ ĐỀ 7: NHỮNG CON VẬT QUANH EM (4 tiết)",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- Đọc đúng cao độ, trường độ bài đọc nhạc Số 4, biết đọc nhạc kết hợp vận động cơ thể.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
           "- Biết lắng nghe và thể hiện vận động cơ thể theo tính chất vui tươi, sinh động của hình tượng những chú gà con tinh nghịch trong tác phẩm Vũ khúc đàn gà con; bước đầu biết cảm nhận tính chất âm nhạc và tưởng tượng ra hình ảnh những chú gà đáng yêu thông qua giai điệu và tiết tấu của tác phẩm."
         ],
         "dodung": [
@@ -1195,17 +1361,22 @@
         "lessonTitle": "TIẾT 4: - ÔN TẬP ĐỌC NHẠC: - BÀI SỐ 4",
         "topic": "CHỦ ĐỀ 7: NHỮNG CON VẬT QUANH EM (4 tiết)",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- Hát bài Trang trại vui vẻ ở các hình thức cá nhân, đôi bạn hoặc nhóm với các cách biểu diễn khác nhau theo ý tưởng của nhóm và cá nhân.",
           "- Thể hiện bài đọc nhạc kết hợp được với nhạc cụ đệm, nhạc beat và vận động.",
           "- Phân biệt và vận dụng được yếu tố nhanh - chậm qua trò chơi Vận động cùng kiến vàng và gấu nâu.",
-          "* Năng lực âm nhạc.",
+          "- * Năng lực âm nhạc.",
           "- Hát được bài Ngày hè vui, biết hát với nhạc đệm kết hợp gõ đệm, vận động cơ thể. Cảm nhận và thể hiện được tình cảm vui tươi của bài hát.",
           "- Dùng nhạc cụ thể hiện chính xác các mẫu tiết tấu và biết hát kết hợp gõ đệm theo bài Ngày hè vui.",
           "- Học sinh nhớ được tên bài hát, tên tác giả và nắm được nội dung của bài hát Mùa hè ước mong.",
           "- Biết chú ý lắng nghe và thể hiện được cảm xúc khi nghe hát.",
-          "* Năng lực chung.",
+          "- * Năng lực chung.",
           "- Tự tin, tích cực tham gia phối hợp trong các hoạt động với tập thể, nhóm, cá nhân trong hoạt động luyện tập và biểu diễn.",
-          "* Phẩm chất.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- * Phẩm chất.",
           "- Thể hiện tình yêu thiên nhiên, yêu cuộc sống tươi đẹp."
         ],
         "dodung": [
@@ -1259,7 +1430,16 @@
         "lessonTitle": "TIẾT 1: - HÁT: - NGÀY HÈ VUI",
         "topic": "CHỦ ĐỀ 7: NHỮNG CON VẬT QUANH EM (4 tiết)",
         "yccd": [
-          "Bước đầu hát được giai điệu và lời ca của bài hát, biết hát kết hợp với nhạc đệm và hát kết hợp vận động theo nhịp điệu."
+          "1. Năng lực đặc thù:",
+          "- Cảm nhận giai điệu, thể hiện đúng cao độ, trường độ và tham gia tích cực các hoạt động âm nhạc lớp 2.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
+          "- Bước đầu hát được giai điệu và lời ca của bài hát, biết hát kết hợp với nhạc đệm và hát kết hợp vận động theo nhịp điệu."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -1298,9 +1478,17 @@
         "lessonTitle": "TIẾT 2: - ÔN TẬP BÀI HÁT: - NGÀY HÈ VUI",
         "topic": "CHỦ ĐỀ 7: NHỮNG CON VẬT QUANH EM (4 tiết)",
         "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Biết dùng nhạc cụ gõ thể hiện các mẫu tiết tấu và đệm cho bài Ngày hè vui.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè.",
+          "4. Tích hợp:",
           "- Hát được giai điệu và đúng lời ca của bài hát Ngày hè vui.",
-          "- Biết vỗ tay, gõ đệm theo hình tiết tấu 1 và vận động phụ hoạ nhịp nhàng theo giai điệu bài hát Ngày hè vui.",
-          "- Biết dùng nhạc cụ gõ thể hiện các mẫu tiết tấu và đệm cho bài Ngày hè vui."
+          "- Biết vỗ tay, gõ đệm theo hình tiết tấu 1 và vận động phụ hoạ nhịp nhàng theo giai điệu bài hát Ngày hè vui."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -1339,8 +1527,15 @@
         "lessonTitle": "TIẾT 3: - NGHE NHẠC: - MÙA HÈ ƯỚC MONG",
         "topic": "CHỦ ĐỀ 7: NHỮNG CON VẬT QUANH EM (4 tiết)",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- Nhớ tên và tác giả bài hát Mùa hè ước mong, biết thể hiện được cảm xúc khi nghe bài hát.",
-          "- Tập biểu diễn bài hát Ngày hè vui một cách tự nhiên, vui tươi kết hợp với vận động cơ thể và vận động phụ hoạ."
+          "- Tập biểu diễn bài hát Ngày hè vui một cách tự nhiên, vui tươi kết hợp với vận động cơ thể và vận động phụ hoạ.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -1379,9 +1574,16 @@
         "lessonTitle": "TIẾT 4: - ÔN TẬP CUỐI NĂM",
         "topic": "- Nhớ tên và biểu diễn được các bài hát đã học ở các chủ đề theo các hình thức khác nhau.",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- Nhớ tên và biểu diễn được các bài hát đã học ở các chủ đề theo các hình thức khác nhau.",
           "- Đọc đúng bài tập đọc nhạc số 3, 4 theo kí hiệu bàn tay và kết hợp vận động cơ thể.",
-          "- Biết vỗ tay, gõ đệm theo mẫu tiết tấu."
+          "- Biết vỗ tay, gõ đệm theo mẫu tiết tấu.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, máy tính, loa.",
@@ -1412,7 +1614,12 @@
         "lessonTitle": "TIẾT 6: - KIỂM TRA CUỐI NĂM",
         "topic": "- Nhớ tên và biểu diễn được các bài hát đã học ở các chủ đề theo các hình thức khác nhau.",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- Biết tự lựa chọn và trình bày được nội dung mà mình yêu thích.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
           "- Biết nhận xét và đánh giá đồng đẳng về các phần trình diễn của bạn bè một cách khách quan và trung thực, biết chia sẻ, giúp đỡ và hợp tác với các bạn khi làm việc nhóm để cùng hoàn thành nhiệm vụ chung."
         ],
         "dodung": [
@@ -1453,8 +1660,15 @@
         "lessonTitle": "ÔN TẬP VÀ ĐÁNH GIÁ CUỐI NĂM",
         "topic": "- Nhớ tên và biểu diễn được các bài hát đã học ở các chủ đề theo các hình thức khác nhau.",
         "yccd": [
+          "1. Năng lực đặc thù:",
           "- HS ôn tập các bài hát, nhạc cụ đã học trong năm học.",
-          "- Đánh giá kết quả học tập môn Âm nhạc."
+          "- Đánh giá kết quả học tập môn Âm nhạc.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động luyện tập hát, đọc nhạc và hoàn thành nhiệm vụ được giao.",
+          "- Giao tiếp và hợp tác: Tự tin biểu diễn cùng bạn bè, biết lắng nghe và phối hợp trong nhóm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ, trách nhiệm: Tích cực tham gia các hoạt động học tập âm nhạc và bảo quản nhạc cụ.",
+          "- Nhân ái, yêu nước: Cảm nhận giai điệu tươi vui, bồi dưỡng tình yêu quê hương, đất nước và bạn bè."
         ],
         "dodung": [
           "- GV: Đàn organ, nhạc cụ gõ, loa.",

@@ -2814,12 +2814,25 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài học Tuần 18",
+        "lessonTitle": "ĐỀ KIỂM TRA ĐỊNH KÌ CUỐI HỌC KÌ I",
         "topic": "",
-        "yccd": [],
+        "yccd": [
+          "1. Năng lực đặc thù",
+          "- Đánh giá mức độ đạt chuẩn kiến thức, kĩ năng môn Công nghệ học kì I (vai trò của công nghệ, sáng chế, an toàn khi sử dụng điện thoại và sản phẩm công nghệ).",
+          "- Vận dụng kiến thức công nghệ để giải quyết tình huống thực tế trong bài kiểm tra.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự giác làm bài, kiểm soát thời gian và tự rà soát bài kiểm tra.",
+          "- Giải quyết vấn đề và sáng tạo: Lựa chọn đáp án chính xác, trình bày rõ ràng phần tự luận.",
+          "3. Phẩm chất",
+          "- Trung thực: Nghiêm túc làm bài, trung thực trong kiểm tra đánh giá.",
+          "- Trách nhiệm: Cẩn thận trong từng câu hỏi, có trách nhiệm với kết quả học tập của bản thân."
+        ],
         "dodung": [],
         "activities": [],
-        "dieuchinh": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ],
         "tables": [
           [
             [
@@ -5262,50 +5275,15 @@
         "lessonTitle": "ĐỀ KIỂM TRA ĐỊNH KÌ CUỐI NĂM HỌC",
         "topic": "",
         "yccd": [
-          "Khoanh tròn vào chữ cái trước câu trả lời đúng hoặc thực hiện theo yêu cầu.",
-          "Câu 1. Sản phẩm công nghệ có vai trò nào sau đây?",
-          "A. Chỉ dùng để trang trí trong lớp học.",
-          "B. Giúp đáp ứng nhu cầu đời sống, tăng năng suất lao động và cải thiện môi trường.",
-          "C. Chỉ làm con người mất thời gian.",
-          "D. Không liên quan đến đời sống.",
-          "Câu 2. Khi sử dụng điện thoại, việc làm nào an toàn và văn minh?",
-          "A. Tự ý chia sẻ mật khẩu của bạn.",
-          "B. Chụp ảnh người khác rồi đăng lên mạng khi chưa xin phép.",
-          "C. Dùng điện thoại đúng mục đích, đúng thời gian và bảo vệ thông tin cá nhân.",
-          "D. Mở mọi đường link lạ được gửi đến.",
-          "Câu 3. Để bảo quản thực phẩm trong tủ lạnh, em nên làm gì?",
-          "A. Để thức ăn nóng trực tiếp vào tủ lạnh.",
-          "B. Sắp xếp thực phẩm gọn gàng, đậy kín và vệ sinh tủ lạnh định kì.",
-          "C. Mở cửa tủ lạnh thật lâu.",
-          "D. Để lẫn thực phẩm sống và chín không che đậy.",
-          "Câu 4. Pin mặt trời có chức năng gì?",
-          "A. Biến đổi năng lượng ánh sáng mặt trời thành năng lượng điện.",
-          "B. Biến đổi điện thành gió.",
-          "C. Làm lạnh thực phẩm.",
-          "D. Làm bánh xe quay bằng tay.",
-          "Câu 5. Trong mô hình máy phát điện gió, bộ phận nào nhận tác động trực tiếp của gió để quay?",
-          "A. Cánh quạt.",
-          "B. Bánh xe.",
-          "C. Băng dính.",
-          "D. Tua-vít.",
-          "Câu 6. Khi lắp ráp mô hình kĩ thuật, việc làm nào thể hiện trách nhiệm?",
-          "A. Làm rơi chi tiết rồi bỏ mặc.",
-          "B. Tranh dụng cụ của nhóm khác.",
-          "C. Sử dụng dụng cụ an toàn, thu dọn sau khi thực hành.",
-          "D. Tự ý tháo ổ điện thật để thử.",
-          "Câu 7. Một sáng chế có vai trò gì đối với đời sống?",
-          "A. Góp phần tạo ra sản phẩm mới, cải tiến sản phẩm và thúc đẩy công nghệ phát triển.",
-          "B. Chỉ để ghi tên nhà sáng chế.",
-          "C. Không giúp ích gì cho con người.",
-          "D. Chỉ dùng trong bảo tàng.",
-          "Câu 8. Khi mô hình xe điện chạy bằng pin không hoạt động, em nên làm gì trước tiên?",
-          "A. Vứt bỏ mô hình.",
-          "B. Bình tĩnh kiểm tra pin, dây nối, công tắc, động cơ và bánh xe.",
-          "C. Đổ nước vào động cơ.",
-          "D. Kéo mạnh dây dẫn cho đến khi đứt.",
-          "Câu 9. Nối nội dung ở cột A với nội dung phù hợp ở cột B.",
-          "Câu 10. Điền từ thích hợp vào chỗ trống: Pin mặt trời hấp thụ .................. mặt trời và chuyển đổi năng lượng ánh sáng thành năng lượng .................. .",
-          "Câu 1: B; Câu 2: C; Câu 3: B; Câu 4: A; Câu 5: A; Câu 6: C; Câu 7: A; Câu 8: B; Câu 9: 1-b, 2-a, 3-c; Câu 10: ánh sáng, điện."
+          "1. Năng lực đặc thù",
+          "- Đánh giá mức độ đạt chuẩn kiến thức, kĩ năng môn Công nghệ cả năm học lớp 5.",
+          "- Vận dụng kiến thức, kĩ năng đã học để hoàn thành bài kiểm tra định kì cuối năm.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Tự giác, nghiêm túc hoàn thành bài kiểm tra đúng thời gian quy định.",
+          "- Giải quyết vấn đề và sáng tạo: Suy nghĩ độc lập, lựa chọn phương án trả lời chính xác.",
+          "3. Phẩm chất",
+          "- Trung thực: Làm bài trung thực, không quay cóp hoặc trao đổi trong giờ kiểm tra.",
+          "- Trách nhiệm: Có ý thức giữ gìn bài kiểm tra, kiểm tra kĩ trước khi nộp."
         ],
         "dodung": [
           "Câu 11. Nêu hai việc em cần làm để sử dụng điện thoại an toàn, văn minh.",
@@ -5323,7 +5301,10 @@
           "Câu 13: HS nêu được ý: tiết kiệm điện giúp giảm lãng phí, giảm chi phí, bảo vệ tài nguyên; năng lượng gió, mặt trời là năng lượng sạch, góp phần bảo vệ môi trường."
         ],
         "activities": [],
-        "dieuchinh": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ],
         "tables": [
           [
             [

@@ -13053,80 +13053,23 @@
     "sourceFile": "TOÁN TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 20",
+        "lessonTitle": "TIẾT 96: TÍNH CHẤT GIAO HOÁN VÀ KẾT HỢP CỦA PHÉP NHÂN (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Nắm được tính chất kết hợp của phép nhân.",
-          "- Vận dụng  được tính chất kết hợp của phép nhân vào giải các bài toán liên quan.",
+          "- Vận dụng được tính chất kết hợp của phép nhân vào giải các bài toán liên quan.",
           "2. Năng lực chung",
-          "1. Năng lực đặc thù:",
-          "- Củng cố tính chất giao hoán và tính chất kết hợp của phép nhân.",
-          "- Vận dụng vào giải các bài tập, bài toán thực tế.",
-          "2. Năng lực chung- Tự chủ và tự học: Chủ động vận dụng tính chất giao hoán, kết hợp; biết tự kiểm tra và sửa bài.- Giải quyết vấn đề và sáng tạo: Biết lựa chọn tính chất phù hợp để điền số, tính nhanh và giải ô chữ.- Giao tiếp và hợp tác: Trình bày rõ cách làm, trao đổi và thống nhất kết quả khi làm việc theo cặp, theo nhóm.",
-          "3. Phẩm chất- Chăm chỉ: Tích cực luyện tập, hoàn thành đầy đủ các nhiệm vụ.- Trung thực: Báo cáo đúng kết quả và tự giác sửa lỗi.- Trách nhiệm: Cẩn thận khi tính toán, hợp tác đúng vai trò và hoàn thành nhiệm vụ đúng thời gian.",
-          "1. Năng lực đặc thù:",
-          "- Thực hiện được phép nhân với 10, 100, 1 000,... và phép chia số tròn chục, tròn trăm, tròn nghìn,... cho 10, 100, 1 000,...",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: Chủ động quan sát ví dụ, rút ra quy tắc, tính nhẩm và tự kiểm tra kết quả.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phép nhân hoặc phép chia phù hợp để giải bài toán thực tế và giải thích cách tính nhẩm.",
-          "- Giao tiếp và hợp tác: Trình bày được quy tắc, trao đổi cách tính và hỗ trợ bạn khi làm việc theo cặp.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tính nhẩm và hoàn thành đầy đủ bài tập.",
-          "- Trung thực: Ghi đúng kết quả, không đoán đáp án khi chưa thực hiện phép tính.",
-          "- Trách nhiệm: Cẩn thận khi thêm hoặc bớt các chữ số 0 và kiểm tra đơn vị trong bài toán thực tế.",
-          "1. Năng lực đặc thù:",
-          "- Củng cố kĩ năng thực hiện phép nhân với 10, 100, 1 000,... và phép chia số tròn chục, tròn trăm, tròn nghìn,... cho 10, 100, 1 000,...",
-          "- Vận dụng vào giải các bài tập có liên quan.",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: Chủ động vận dụng quy tắc tính nhẩm, đổi đơn vị đo và tự kiểm tra kết quả.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính thuận tiện, phân tích dữ kiện và giải các bài toán thực tế có nhiều bước.",
-          "- Giao tiếp và hợp tác: Trình bày rõ cách tìm thành phần chưa biết, trao đổi cách tính và kiểm tra chéo bài làm của bạn.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, kiên trì hoàn thành các bài toán và phép tính.",
-          "- Trung thực: Ghi đúng số liệu, kết quả và chủ động sửa sai.",
-          "- Trách nhiệm: Cẩn thận khi đổi đơn vị, đếm số toa tàu, số khoảng cách và ghi đúng đáp số.",
-          "1. Năng lực đặc thù:",
-          "- Nắm được tính chất phân phối của phép nhân đối với phép cộng.",
-          "- Vận dụng được tính chất phân phối của phép nhân đối với phép cộng vào giải các bài toán liên quan.",
-          "2. Năng lực chung",
-          "- Tự chủ và tự học: Chủ động phân tích tình huống, thực hiện hai cách tính, so sánh kết quả và tự rút ra quy tắc.",
-          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng tính chất phân phối để biến đổi biểu thức, tính thuận tiện và giải bài toán thực tế.",
-          "- Giao tiếp và hợp tác: Trình bày được hai cách tính, giải thích mối quan hệ giữa các biểu thức và trao đổi với bạn để thống nhất kết quả.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực thực hiện các phép tính và bài toán vận dụng.",
-          "- Trung thực: Ghi đúng kết quả, nêu đúng cách làm và sửa bài khi có sai sót.",
-          "- Trách nhiệm: Cẩn thận khi sử dụng dấu ngoặc, dấu phép tính và kiểm tra lại sự bằng nhau của các biểu thức.",
+          "- Tự chủ và tự học: Chủ động quan sát mô hình, thực hiện phép tính, so sánh kết quả và tự điều chỉnh cách nhóm các thừa số khi tính chưa thuận tiện.",
           "- Giải quyết vấn đề và sáng tạo: Biết vận dụng tính chất kết hợp để thay đổi cách nhóm các thừa số, lựa chọn cách tính hợp lí và giải bài toán thực tế.",
           "- Giao tiếp và hợp tác: Trình bày được cách tính, giải thích vì sao hai biểu thức có giá trị bằng nhau; biết trao đổi, kiểm tra và thống nhất kết quả với bạn.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực quan sát, tính toán và hoàn thành đầy đủ các bài tập về tính chất kết hợp của phép nhân.",
           "- Trung thực: Ghi đúng kết quả, nêu đúng cách làm và chủ động sửa sai khi phát hiện nhầm lẫn trong quá trình tính.",
-          "- Trách nhiệm: Cẩn thận khi đặt dấu ngoặc, nhóm các thừa số và kiểm tra lại kết quả trước khi trình bày.",
-          "________________________________________",
-          "Toán (Tiết 97)",
-          "LUYỆN TẬP",
-          "________________________________________",
-          "Toán (Tiết 98)",
-          "NHÂN, CHIA VỚI 10, 100, 1 000,...",
-          "________________________________________",
-          "Toán (Tiết 99)",
-          "LUYỆN TẬP",
-          "________________________________________",
-          "Toán (Tiết 100)",
-          "TÍNH CHẤT PHÂN PHỐI CỦA PHÉP NHÂN ĐỐI VỚI PHÉP CỘNG",
-          "________________________________________"
+          "- Trách nhiệm: Cẩn thận khi đặt dấu ngoặc, nhóm các thừa số và kiểm tra lại kết quả trước khi trình bày."
         ],
         "dodung": [
           "- GV: Máy tính, ti vi, các khối lập phương nhỏ như SGK.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi, phiếu học tập.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi, phiếu học tập.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi.",
           "- HS: SGK, vở ghi."
         ],
         "activities": [],
@@ -13323,7 +13266,35 @@
               "- Nhận xét tiết học.",
               "- Tự đánh giá kết quả học tập và ghi nhớ cách nhóm các thừa số phù hợp."
             ]
-          ],
+          ]
+        ]
+      },
+      {
+        "lessonTitle": "TIẾT 97: LUYỆN TẬP",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Củng cố tính chất giao hoán và tính chất kết hợp của phép nhân.",
+          "- Vận dụng vào giải các bài tập, bài toán thực tế.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động vận dụng tính chất giao hoán, kết hợp; biết tự kiểm tra và sửa bài.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn tính chất phù hợp để điền số, tính nhanh và giải ô chữ.",
+          "- Giao tiếp và hợp tác: Trình bày rõ cách làm, trao đổi và thống nhất kết quả khi làm việc theo cặp, theo nhóm.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành đầy đủ các nhiệm vụ.",
+          "- Trung thực: Báo cáo đúng kết quả và tự giác sửa lỗi.",
+          "- Trách nhiệm: Cẩn thận khi tính toán, hợp tác đúng vai trò và hoàn thành nhiệm vụ đúng thời gian."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, phiếu học tập.",
+          "- HS: SGK, vở ghi."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
@@ -13489,7 +13460,34 @@
               "- Nhận xét tiết học.",
               "- Tự đánh giá mức độ vận dụng hai tính chất và ghi nhớ lỗi cần tránh."
             ]
-          ],
+          ]
+        ]
+      },
+      {
+        "lessonTitle": "TIẾT 98: NHÂN, CHIA VỚI 10, 100, 1 000,...",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Thực hiện được phép nhân với 10, 100, 1 000,... và phép chia số tròn chục, tròn trăm, tròn nghìn,... cho 10, 100, 1 000,...",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động quan sát ví dụ, rút ra quy tắc, tính nhẩm và tự kiểm tra kết quả.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phép nhân hoặc phép chia phù hợp để giải bài toán thực tế và giải thích cách tính nhẩm.",
+          "- Giao tiếp và hợp tác: Trình bày được quy tắc, trao đổi cách tính và hỗ trợ bạn khi làm việc theo cặp.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tính nhẩm và hoàn thành đầy đủ bài tập.",
+          "- Trung thực: Ghi đúng kết quả, không đoán đáp án khi chưa thực hiện phép tính.",
+          "- Trách nhiệm: Cẩn thận khi thêm hoặc bớt các chữ số 0 và kiểm tra đơn vị trong bài toán thực tế."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi.",
+          "- HS: SGK, vở ghi."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
@@ -13678,7 +13676,35 @@
               "- Nhận xét tiết học.",
               "- Tự đánh giá kết quả và ghi nhớ kiểm tra số chữ số 0 trước khi kết luận."
             ]
-          ],
+          ]
+        ]
+      },
+      {
+        "lessonTitle": "TIẾT 99: LUYỆN TẬP",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Củng cố kĩ năng thực hiện phép nhân với 10, 100, 1 000,... và phép chia số tròn chục, tròn trăm, tròn nghìn,... cho 10, 100, 1 000,...",
+          "- Vận dụng vào giải các bài tập có liên quan.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động vận dụng quy tắc tính nhẩm, đổi đơn vị đo và tự kiểm tra kết quả.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách tính thuận tiện, phân tích dữ kiện và giải các bài toán thực tế có nhiều bước.",
+          "- Giao tiếp và hợp tác: Trình bày rõ cách tìm thành phần chưa biết, trao đổi cách tính và kiểm tra chéo bài làm của bạn.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, kiên trì hoàn thành các bài toán và phép tính.",
+          "- Trung thực: Ghi đúng số liệu, kết quả và chủ động sửa sai.",
+          "- Trách nhiệm: Cẩn thận khi đổi đơn vị, đếm số toa tàu, số khoảng cách và ghi đúng đáp số."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, phiếu học tập.",
+          "- HS: SGK, vở ghi."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
@@ -13884,7 +13910,35 @@
               "- Nhận xét tiết học.",
               "- Tự đánh giá kết quả, hoàn thiện bài còn sai và ghi nhớ các quy tắc."
             ]
-          ],
+          ]
+        ]
+      },
+      {
+        "lessonTitle": "TIẾT 100: TÍNH CHẤT PHÂN PHỐI CỦA PHÉP NHÂN ĐỐI VỚI PHÉP CỘNG",
+        "topic": "",
+        "yccd": [
+          "1. Năng lực đặc thù:",
+          "- Nắm được tính chất phân phối của phép nhân đối với phép cộng.",
+          "- Vận dụng được tính chất phân phối của phép nhân đối với phép cộng vào giải các bài toán liên quan.",
+          "2. Năng lực chung",
+          "- Tự chủ và tự học: Chủ động phân tích tình huống, thực hiện hai cách tính, so sánh kết quả và tự rút ra quy tắc.",
+          "- Giải quyết vấn đề và sáng tạo: Biết vận dụng tính chất phân phối để biến đổi biểu thức, tính thuận tiện và giải bài toán thực tế.",
+          "- Giao tiếp và hợp tác: Trình bày được hai cách tính, giải thích mối quan hệ giữa các biểu thức và trao đổi với bạn để thống nhất kết quả.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực thực hiện các phép tính và bài toán vận dụng.",
+          "- Trung thực: Ghi đúng kết quả, nêu đúng cách làm và sửa bài khi có sai sót.",
+          "- Trách nhiệm: Cẩn thận khi sử dụng dấu ngoặc, dấu phép tính và kiểm tra lại sự bằng nhau của các biểu thức."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi.",
+          "- HS: SGK, vở ghi."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
+        ],
+        "tables": [
           [
             [
               "Hoạt động của GV",
@@ -25640,15 +25694,15 @@
         "lessonTitle": "BÀI 70: ÔN TẬP PHÉP TÍNH VỚI PHÂN SỐ (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "1) Năng lực đặc thù",
+          "1. Năng lực đặc thù",
           "- Thực hiện được phép nhân, phép chia phân số.",
           "- Tính được giá trị biểu thức các phân số.",
           "- Giải được bài toán thực tế liên quan tới phép nhân, phép chia phân số.",
-          "2) Năng lực chung",
+          "2. Năng lực chung",
           "- Tự chủ và tự học: Chủ động thực hiện phép nhân, phép chia phân số; tự rút gọn và kiểm tra thứ tự tính.",
           "- Giao tiếp và hợp tác: Trao đổi cách rút gọn, giải thích bài toán và thống nhất cách tính thuận tiện trong nhóm.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng linh hoạt phép nhân, phép chia và các tính chất để giải bài toán về tiền, diện tích và chu vi.",
-          "3) Phẩm chất",
+          "3. Phẩm chất",
           "- Chăm chỉ: Tích cực luyện tập, tính toán chính xác và trình bày đầy đủ các bước giải.",
           "- Trách nhiệm: Trung thực khi kiểm tra kết quả, hợp tác với bạn và tự giác sửa sai."
         ],
@@ -25819,20 +25873,20 @@
         "lessonTitle": "BÀI 71: ÔN TẬP HÌNH HỌC VÀ ĐO LƯỜNG (TIẾT 1)",
         "topic": "",
         "yccd": [
-          "1) Năng lực đặc thù",
+          "1. Năng lực đặc thù",
           "- Nhận biết và viết được tên góc nhọn, góc vuông, góc tù.",
           "- Nhận biết được khối lập phương.",
           "- Dùng được thước đo góc để xác định số đo của góc.",
           "- Chuyển đổi được các đơn vị đo khối lượng đã học.",
           "- Giải được bài toán thực tế liên quan đến các phép tính với số đo khối lượng.",
-          "2) Năng lực chung",
+          "2. Năng lực chung",
           "- Tự chủ và tự học: Chủ động nhận dạng góc, thực hành đo góc, đổi đơn vị khối lượng và tự kiểm tra kết quả.",
           "- Giao tiếp và hợp tác: Trao đổi cách gọi tên góc, sử dụng dụng cụ đo và trình bày cách giải bài toán khối lượng.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn dụng cụ, cách đổi đơn vị và cách đếm khối lập phương phù hợp với từng nhiệm vụ.",
-          "3) Phẩm chất",
+          "3. Phẩm chất",
           "- Chăm chỉ: Tích cực quan sát, đo, đổi đơn vị và tính toán cẩn thận.",
           "- Trách nhiệm: Sử dụng thước và thiết bị đúng mục đích, trung thực khi báo cáo số đo và kết quả Quizizz.",
-          "4) Tích hợp",
+          "4. Tích hợp",
           "- Tích hợp NLS 3.1.CB1a (Bài 1): HS dùng công cụ vẽ đơn giản để tạo sơ đồ góc theo đúng vị trí tương đối và trình bày sản phẩm theo hướng dẫn.",
           "- Tích hợp STEM (Bài 3): HS thực hành với bộ lắp ghép hình phẳng, tạo hình thoi và kiểm tra số đo các góc đối diện."
         ],
@@ -26052,14 +26106,14 @@
         "lessonTitle": "BÀI 71: ÔN TẬP HÌNH HỌC VÀ ĐO LƯỜNG (TIẾT 2)",
         "topic": "",
         "yccd": [
-          "1) Năng lực đặc thù",
+          "1. Năng lực đặc thù",
           "- Nhận biết được hình bình hành và nêu được đặc điểm của hình bình hành; chuyển đổi các đơn vị đo thời gian, diện tích đã học.",
           "- Giải được các bài toán thực tế liên quan đến các phép tính với số đo thời gian, diện tích.",
-          "2) Năng lực chung",
+          "2. Năng lực chung",
           "- Tự chủ và tự học: Chủ động nhận biết hình bình hành, thực hiện đổi đơn vị thời gian và diện tích; tự kiểm tra kết quả tính toán.",
           "- Giao tiếp và hợp tác: Trao đổi trong nhóm đôi về đặc điểm hình bình hành; trình bày rõ cách đổi đơn vị và giải bài toán lát nền.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách đổi đơn vị, tính tuổi – năm sinh, tính số viên gạch phù hợp với từng tình huống thực tế.",
-          "3) Phẩm chất",
+          "3. Phẩm chất",
           "- Chăm chỉ: Tích cực thực hành đổi đơn vị, quan sát hình và hoàn thành các bài toán đo lường cẩn thận.",
           "- Trách nhiệm: Trung thực khi tính toán, hợp tác nghiêm túc và tự giác kiểm tra đơn vị trong kết quả."
         ],
