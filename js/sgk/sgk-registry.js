@@ -219,25 +219,66 @@
       }
 
       // Format knowledge digest for AI generator
-      const lessonSummaries = matchedLessons.map(l => {
-        let text = `- ${l.title} (Tuần ${l.week || 'N/A'}, ${l.topic || ''}): ${l.coreKnowledge || ''}`;
-        if (l.reading) {
-          const rdTitle = typeof l.reading === 'string' ? l.reading : (l.reading.title || '');
-          const rdFocus = l.reading.comprehensionFocus || l.reading.summary || '';
-          text += ` | Đọc hiểu: "${rdTitle}" ${rdFocus ? `(${rdFocus})` : ''}`;
+      let lessonSummaries = "";
+      if (matchedLessons.length > 12) {
+        // Gom nhóm theo Chủ đề / Mạch nội dung để bao quát 100% các tuần/bài học trong phạm vi (chống bị cắt bớt)
+        const topicMap = new Map();
+        matchedLessons.forEach(l => {
+          let tName = l.topic || 'Chủ đề khác';
+          if (!topicMap.has(tName)) {
+            topicMap.set(tName, { topic: tName, weeks: new Set(), lessons: [] });
+          }
+          const grp = topicMap.get(tName);
+          if (l.week) grp.weeks.add(l.week);
+          grp.lessons.push(l);
+        });
+
+        const topicBlocks = [];
+        // Nếu là môn Toán, bổ sung định hướng khung 3 mạch kiến thức GDPT 2018
+        if (subjectId === 'toan') {
+          topicBlocks.push(`[KHUNG 3 MẠCH KIẾN THỨC MÔN TOÁN CHUẨN GDPT 2018 TRONG PHẠM VI RA ĐỀ]\n1. Số và phép tính (Số tự nhiên, phân số, số thập phân, tỉ số, tỉ số phần trăm; 4 phép tính, tính nhẩm, giải toán có lời văn)\n2. Hình học và Đo lường (Hình phẳng: tam giác, hình thang, hình tròn; Hình khối: hình hộp chữ nhật, hình lập phương; Chu vi, diện tích, thể tích; Đơn vị đo diện tích km²/ha, thể tích m³/dm³/cm³, thời gian; Toán chuyển động đều vận tốc, quãng đường, thời gian)\n3. Một số yếu tố Thống kê và Xác suất (Thu thập, kiểm đếm số liệu, đọc biểu đồ hình quạt tròn/cột; khả năng xảy ra của một sự kiện)`);
         }
-        if (l.languagePractice) {
-          const lpTopic = typeof l.languagePractice === 'string' ? l.languagePractice : (l.languagePractice.topic || '');
-          text += ` | Luyện từ và câu: ${lpTopic}`;
-        }
-        if (l.writing) {
-          const wrTopic = typeof l.writing === 'string' ? l.writing : (l.writing.topic || '');
-          text += ` | Tập làm văn / Viết: ${wrTopic}`;
-        }
-        if (l.vocabulary) text += ` | Từ vựng: ${l.vocabulary}`;
-        if (l.sentencePatterns) text += ` | Mẫu câu: ${l.sentencePatterns}`;
-        return text;
-      }).join('\n');
+
+        topicMap.forEach((grp, tName) => {
+          if (tName === 'Chủ đề/Mạch nội dung') return;
+          const wArr = Array.from(grp.weeks).sort((a, b) => a - b);
+          const wStr = wArr.length ? `Tuần ${wArr[0]}${wArr.length > 1 ? ` - ${wArr[wArr.length - 1]}` : ''}` : '';
+          const lessonTitles = grp.lessons.map(l => l.title).filter(t => t && t !== 'Tên bài học');
+          
+          let block = `• ${tName}${wStr ? ` (${wStr})` : ''}:\n  + Các bài học: ${lessonTitles.join('; ')}`;
+          
+          // Tổng hợp ngữ liệu đọc hiểu / LTVC / TLV nếu có (Tiếng Việt)
+          const readings = grp.lessons.map(l => l.reading ? (typeof l.reading === 'string' ? l.reading : l.reading.title) : null).filter(Boolean);
+          const lps = grp.lessons.map(l => l.languagePractice ? (typeof l.languagePractice === 'string' ? l.languagePractice : l.languagePractice.topic) : null).filter(Boolean);
+          const writings = grp.lessons.map(l => l.writing ? (typeof l.writing === 'string' ? l.writing : l.writing.topic) : null).filter(Boolean);
+          if (readings.length) block += `\n  + Đọc hiểu: ${readings.join(', ')}`;
+          if (lps.length) block += `\n  + Luyện từ & câu: ${lps.join(', ')}`;
+          if (writings.length) block += `\n  + Viết / TLV: ${writings.join(', ')}`;
+
+          topicBlocks.push(block);
+        });
+        lessonSummaries = topicBlocks.join('\n\n');
+      } else {
+        lessonSummaries = matchedLessons.map(l => {
+          let text = `- ${l.title} (Tuần ${l.week || 'N/A'}, ${l.topic || ''}): ${l.coreKnowledge || ''}`;
+          if (l.reading) {
+            const rdTitle = typeof l.reading === 'string' ? l.reading : (l.reading.title || '');
+            const rdFocus = l.reading.comprehensionFocus || l.reading.summary || '';
+            text += ` | Đọc hiểu: "${rdTitle}" ${rdFocus ? `(${rdFocus})` : ''}`;
+          }
+          if (l.languagePractice) {
+            const lpTopic = typeof l.languagePractice === 'string' ? l.languagePractice : (l.languagePractice.topic || '');
+            text += ` | Luyện từ và câu: ${lpTopic}`;
+          }
+          if (l.writing) {
+            const wrTopic = typeof l.writing === 'string' ? l.writing : (l.writing.topic || '');
+            text += ` | Tập làm văn / Viết: ${wrTopic}`;
+          }
+          if (l.vocabulary) text += ` | Từ vựng: ${l.vocabulary}`;
+          if (l.sentencePatterns) text += ` | Mẫu câu: ${l.sentencePatterns}`;
+          return text;
+        }).join('\n');
+      }
 
       return {
         found: true,

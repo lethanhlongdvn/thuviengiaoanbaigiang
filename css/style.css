@@ -2737,13 +2737,22 @@ div[class*="netlify"] {
 }
 
 .integrated-doc-sheet p,
-.integrated-doc-sheet td,
-.exam-paper-sheet p,
-.exam-paper-sheet td {
+.exam-paper-sheet p {
   text-align: justify;
 }
 
-/* Bảo toàn các tiêu đề và căn giữa / căn phải đặc thù */
+/* Bảo toàn căn trái, căn giữa và căn phải đặc thù */
+.integrated-doc-sheet .text-left,
+.exam-paper-sheet .text-left,
+.integrated-doc-sheet td[style*="text-align: left"],
+.exam-paper-sheet td[style*="text-align: left"],
+.integrated-doc-sheet .exam-header-table td,
+.exam-paper-sheet .exam-header-table td,
+.exam-header-table td {
+  text-align: left !important;
+  text-justify: auto !important;
+}
+
 .integrated-doc-sheet .text-center,
 .exam-paper-sheet .text-center,
 .integrated-doc-sheet td[style*="text-align: center"],
@@ -2787,6 +2796,12 @@ div[class*="netlify"] {
   .exam-paper-sheet p,
   .integrated-doc-sheet p {
     text-align: justify !important;
+  }
+  .exam-header-table td,
+  .exam-paper-sheet .exam-header-table td,
+  td[style*="text-align: left"] {
+    text-align: left !important;
+    text-justify: auto !important;
   }
   .app-sidebar,
   .main-header,

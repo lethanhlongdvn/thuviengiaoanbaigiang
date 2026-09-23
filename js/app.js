@@ -1078,7 +1078,7 @@ function renderAiExamView(container) {
             <option value="Theo Tuần ${selectedWeek}">Theo Tuần ${selectedWeek}</option>
             <option value="custom">✏️ Tự gõ tên bài học SGK Chân trời sáng tạo / KNTT...</option>
           </select>
-          <input type="text" id="aiCustomScopeInput" class="form-control" placeholder="Ví dụ: Bài học, chủ điểm SGK hoặc ngữ liệu Vĩnh Long..." style="margin-top: 0.4rem; display: none;">
+          <input type="text" id="aiCustomScopeInput" class="form-control" placeholder="Ví dụ: Bài học, chủ điểm SGK hoặc ngữ liệu Vĩnh Long..." style="margin-top: 0.4rem; display: none;" oninput="if(this.value.trim()) onExamScopePresetChange(this.value)">
         </div>
 
         <!-- ========================================================= -->
@@ -1460,12 +1460,29 @@ function updateExamScopeOptions(grade, subjectId, series) {
 // Xử lý chọn nhanh hoặc tự gõ bài học
 function onExamScopePresetChange(val) {
   var customInput = document.getElementById("aiCustomScopeInput");
-  if (!customInput) return;
-  if (val === "custom") {
-    customInput.style.display = "block";
-    customInput.focus();
-  } else {
-    customInput.style.display = "none";
+  if (customInput) {
+    if (val === "custom") {
+      customInput.style.display = "block";
+      customInput.focus();
+    } else {
+      customInput.style.display = "none";
+    }
+  }
+
+  // Tự động đồng bộ ngay học kỳ và tiêu đề đề thi nếu đã có đề hiển thị trên màn hình
+  if (currentExamData && typeof AIService !== 'undefined' && AIService.resolveExamTermInfo) {
+    var effectiveScope = (val === "custom" && customInput && customInput.value.trim()) ? customInput.value.trim() : val;
+    if (effectiveScope) {
+      var termInfo = AIService.resolveExamTermInfo(effectiveScope);
+      currentExamData.scopeDesc = effectiveScope;
+      currentExamData.scope = effectiveScope;
+      currentExamData.examTerm = termInfo.term;
+      currentExamData.examHeaderTitle = termInfo.headerTitle;
+      var container = document.getElementById("aiOutputContainer");
+      if (container) {
+        renderExamOutput(currentExamData, container);
+      }
+    }
   }
 }
 
@@ -1660,6 +1677,20 @@ function renderExamOutput(exam, container) {
     exam = AIService.sanitizeAndBalanceExam(exam);
   }
 
+  var currentScope = exam.scopeDesc || exam.scope || (typeof document !== 'undefined' ? (document.getElementById("aiCustomScopeInput")?.value || document.getElementById("aiScopePreset")?.value) : "") || "";
+  var termInfo = (typeof AIService !== 'undefined' && AIService.resolveExamTermInfo)
+    ? AIService.resolveExamTermInfo(currentScope)
+    : { term: "HỌC KÌ I", headerTitle: "ĐỀ KIỂM TRA HỌC KÌ I", matrixTitle: "HỌC KÌ I" };
+
+  var examTerm = exam.examTerm || termInfo.term;
+  if (termInfo.term === "HỌC KÌ II" && String(examTerm).includes("I") && !String(examTerm).includes("II")) {
+    examTerm = "HỌC KÌ II";
+  }
+  var examHeaderTitle = exam.examHeaderTitle || termInfo.headerTitle;
+  if (termInfo.term === "HỌC KÌ II" && String(examHeaderTitle).includes("HỌC KÌ I") && !String(examHeaderTitle).includes("HỌC KÌ II")) {
+    examHeaderTitle = "ĐỀ KIỂM TRA HỌC KÌ II";
+  }
+
   var sourceBadgeHtml = `<div style="display: inline-flex; align-items: center; gap: 0.35rem; background: #f3e8ff; color: #7c3aed; padding: 0.35rem 0.75rem; border-radius: 9999px; font-size: 0.8rem; font-weight: 700; border: 1px solid #d8b4fe;" title="Đề thi được tạo trực tuyến bởi mô hình Google Gemini AI"><i class="fa-solid fa-brain"></i> ${exam.modelName ? `AI (${exam.modelName})` : `Google Gemini AI (Online)`}</div>`;
 
   // =========================================================================
@@ -1713,16 +1744,17 @@ function renderExamOutput(exam, container) {
       <div id="examTabContent_reading" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'reading' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
         
         <!-- HEADER 2 CỘT -->
-        <table style="width: 100%; border: none; margin-bottom: 12px;">
+        <table class="exam-header-table" style="width: 100%; border: none; margin-bottom: 12px; font-family: 'Times New Roman', serif;">
           <tr>
-            <td style="width: 48%; vertical-align: top;">
+            <td style="width: 48%; vertical-align: top; text-align: left;">
               <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
               Họ và tên: ...................................................<br>
               Lớp: ${exam.grade}.....
             </td>
-            <td style="width: 52%; vertical-align: top; text-align: right;">
+            <td style="width: 52%; vertical-align: top; text-align: left;">
               <i>Thứ….. ngày … tháng … năm 2026</i><br>
-              <b style="font-size: 13.5pt; text-transform: uppercase;">PHIẾU KIỂM TRA ĐỌC</b><br>
+              <b>KIỂM TRA ĐỊNH KỲ ${examTerm}</b><br>
+              <b style="font-size: 13.5pt; text-transform: uppercase;" contenteditable="true" title="Bấm để chỉnh sửa tiêu đề nếu muốn">PHIẾU KIỂM TRA ĐỌC</b><br>
               <b>MÔN: TIẾNG VIỆT - LỚP ${exam.grade}</b><br>
               <i>Thời gian làm bài: 35 - 40 phút</i>
             </td>
@@ -1844,16 +1876,17 @@ function renderExamOutput(exam, container) {
       <div id="examTabContent_writing" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'writing' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
         
         <!-- HEADER 2 CỘT -->
-        <table style="width: 100%; border: none; margin-bottom: 12px;">
+        <table class="exam-header-table" style="width: 100%; border: none; margin-bottom: 12px; font-family: 'Times New Roman', serif;">
           <tr>
-            <td style="width: 48%; vertical-align: top;">
+            <td style="width: 48%; vertical-align: top; text-align: left;">
               <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
               Họ và tên: ...................................................<br>
               Lớp: ${exam.grade}.....
             </td>
-            <td style="width: 52%; vertical-align: top; text-align: right;">
+            <td style="width: 52%; vertical-align: top; text-align: left;">
               <i>Thứ….. ngày … tháng … năm 2026</i><br>
-              <b style="font-size: 13.5pt; text-transform: uppercase;">PHIẾU KIỂM TRA VIẾT</b><br>
+              <b>KIỂM TRA ĐỊNH KỲ ${examTerm}</b><br>
+              <b style="font-size: 13.5pt; text-transform: uppercase;" contenteditable="true" title="Bấm để chỉnh sửa tiêu đề nếu muốn">PHIẾU KIỂM TRA VIẾT</b><br>
               <b>MÔN: TIẾNG VIỆT - LỚP ${exam.grade}</b><br>
               <i>Thời gian làm bài: 35 - 40 phút</i>
             </td>
@@ -1962,8 +1995,8 @@ function renderExamOutput(exam, container) {
 
       <!-- TAB 3: MA TRẬN ĐỀ TIẾNG VIỆT (TT 27) -->
       <div id="examTabContent_matrix" style="display: ${currentExamActiveTab === 'matrix' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 12pt; line-height: 1.35; color: #000;">
-        <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
-          MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}
+        <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;" contenteditable="true" title="Bấm để chỉnh sửa nếu muốn">
+          MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ ${termInfo.matrixTitle} MÔN TIẾNG VIỆT LỚP ${exam.grade}
         </div>
         <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
           Bộ sách: ${exam.bookSeries || 'Kết nối tri thức với cuộc sống (KNTT)'} • Năm học ${exam.schoolYear || '2026 - 2027'}
@@ -2484,16 +2517,16 @@ function renderExamOutput(exam, container) {
     <div id="examTabContent_exam" class="exam-paper-sheet" style="display: ${currentExamActiveTab === 'exam' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.4; color: #000; text-align: justify; ">
       
       <!-- HEADER 2 CỘT -->
-      <table style="width: 100%; border: none; margin-bottom: 12px;">
+      <table class="exam-header-table" style="width: 100%; border: none; margin-bottom: 12px; font-family: 'Times New Roman', serif;">
         <tr>
-          <td style="width: 48%; vertical-align: top;">
+          <td style="width: 48%; vertical-align: top; text-align: left;">
             <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
-            Tên học sinh: ...................................................<br>
+            Họ và tên: ...................................................<br>
             Lớp: ${exam.grade}.....
           </td>
-          <td style="width: 52%; vertical-align: top; text-align: right;">
+          <td style="width: 52%; vertical-align: top; text-align: left;">
             <i>Thứ….. ngày … tháng … năm 2026</i><br>
-            <b style="font-size: 13.5pt; text-transform: uppercase;">ĐỀ KIỂM TRA HỌC KÌ I</b><br>
+            <b style="font-size: 13.5pt; text-transform: uppercase;" contenteditable="true" title="Bấm để chỉnh sửa tiêu đề nếu muốn">${examHeaderTitle}</b><br>
             <b>MÔN: ${exam.subjectName.toUpperCase()} - LỚP ${exam.grade}</b><br>
             <i>Thời gian làm bài: ${exam.duration}</i>
           </td>
@@ -2558,8 +2591,8 @@ function renderExamOutput(exam, container) {
     <!-- NỘI DUNG TAB 2: MA TRẬN ĐỀ THI THÔNG TƯ 27 (3 TẦNG DÒNG: SỐ CÂU - CÂU SỐ - SỐ ĐIỂM) -->
     <div id="examTabContent_matrix" style="display: ${currentExamActiveTab === 'matrix' ? 'block' : 'none'}; background: #fff; padding: 1.5rem; border: 1px solid #cbd5e1; border-radius: 4px; font-family: 'Times New Roman', serif; font-size: 12pt; line-height: 1.35; color: #000;">
       
-      <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;">
-        MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN ${exam.subjectName.toUpperCase()} LỚP ${exam.grade}
+      <div style="text-align: center; font-weight: bold; font-size: 14pt; text-transform: uppercase; margin-bottom: 4px;" contenteditable="true" title="Bấm để chỉnh sửa nếu muốn">
+        MA TRẬN ${examHeaderTitle} MÔN ${exam.subjectName.toUpperCase()} LỚP ${exam.grade}
       </div>
       <div style="text-align: center; font-size: 12.5pt; margin-bottom: 14px;">
         Bộ sách: ${bookSeriesName.toUpperCase()} • Năm học ${exam.schoolYear}
@@ -8628,7 +8661,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         <tr>
           <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
             <p style="margin:0;"><strong>${schoolDisp}</strong></p>
-            ${isGvbm && gvbmCfg.department ? `<p style="margin:2pt 0 0 0;">Tổ: <strong>${gvbmCfg.department}</strong></p>` : ''}
+            ${isGvbm && gvbmCfg.department ? `<p style="margin:2pt 0 0 0;">Tổ chuyên môn: <strong>${gvbmCfg.department}</strong></p>` : ''}
             <p style="margin:2pt 0 0 0;">Giáo viên: <strong>${teacherDisp || '.................................................'}</strong></p>
           </td>
           <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">

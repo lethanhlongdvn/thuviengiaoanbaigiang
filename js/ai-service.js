@@ -59,6 +59,85 @@ var AIService = {
   },
 
   /**
+   * Phân tích chính xác học kỳ và tiêu đề đề kiểm tra từ phạm vi ra đề (scope)
+   * Đảm bảo khi chọn Cuối năm / Cả năm / Tuần 1-35 / Học kỳ 2 thì luôn trả về HỌC KÌ II và ĐỀ KIỂM TRA HỌC KÌ II
+   */
+  resolveExamTermInfo: function(scope) {
+    var s = (scope || "").toLowerCase().trim();
+    
+    // Kiểm tra có phải học kỳ 2 / cả năm / cuối năm không
+    var isTerm2 = s.includes("kỳ 2") || s.includes("kì 2") || 
+                  s.includes("kỳ ii") || s.includes("kì ii") || 
+                  s.includes("hk2") || s.includes("hkii") || 
+                  s.includes("cả năm") || s.includes("cuối năm") || 
+                  s.includes("tập 2") || s.includes("tap 2") ||
+                  s.includes("tuần 1 - 35") || s.includes("tuần 1-35") || 
+                  s.includes("tuần 19 - 35") || s.includes("tuần 19-35") ||
+                  s.includes("tuần 19 - 27") || s.includes("tuần 19-27");
+                  
+    var isMid = s.includes("giữa") || s.includes("giua");
+    
+    // Kiểm tra tuần đơn lẻ (ví dụ: "Theo Tuần 25", "Tuần 20")
+    var singleWeekMatch = s.match(/^(?:theo\s+)?tuần\s*(\d+)$/i) || s.match(/\btuần\s*(\d+)\b(?!\s*[-–]\s*\d+)/i);
+    var weekNum = singleWeekMatch ? parseInt(singleWeekMatch[1] || singleWeekMatch[2], 10) : null;
+    if (weekNum !== null && !s.includes("cả năm") && !s.includes("cuối năm") && !s.includes("tuần 1 - 35")) {
+      if (weekNum > 18) {
+        isTerm2 = true;
+      }
+    } else {
+      weekNum = null;
+    }
+
+    if (isTerm2) {
+      if (isMid) {
+        return {
+          term: "HỌC KÌ II",
+          period: "GIỮA HỌC KÌ II",
+          headerTitle: "ĐỀ KIỂM TRA GIỮA HỌC KÌ II",
+          matrixTitle: "GIỮA HỌC KÌ II"
+        };
+      }
+      if (weekNum !== null) {
+        return {
+          term: "HỌC KÌ II",
+          period: `HỌC KÌ II (TUẦN ${weekNum})`,
+          headerTitle: `ĐỀ KIỂM TRA HỌC KÌ II (TUẦN ${weekNum})`,
+          matrixTitle: `HỌC KÌ II (TUẦN ${weekNum})`
+        };
+      }
+      return {
+        term: "HỌC KÌ II",
+        period: "HỌC KÌ II",
+        headerTitle: "ĐỀ KIỂM TRA HỌC KÌ II",
+        matrixTitle: "HỌC KÌ II"
+      };
+    } else {
+      if (isMid) {
+        return {
+          term: "HỌC KÌ I",
+          period: "GIỮA HỌC KÌ I",
+          headerTitle: "ĐỀ KIỂM TRA GIỮA HỌC KÌ I",
+          matrixTitle: "GIỮA HỌC KÌ I"
+        };
+      }
+      if (weekNum !== null) {
+        return {
+          term: "HỌC KÌ I",
+          period: `HỌC KÌ I (TUẦN ${weekNum})`,
+          headerTitle: `ĐỀ KIỂM TRA HỌC KÌ I (TUẦN ${weekNum})`,
+          matrixTitle: `HỌC KÌ I (TUẦN ${weekNum})`
+        };
+      }
+      return {
+        term: "HỌC KÌ I",
+        period: "HỌC KÌ I",
+        headerTitle: "ĐỀ KIỂM TRA HỌC KÌ I",
+        matrixTitle: "HỌC KÌ I"
+      };
+    }
+  },
+
+  /**
    * Tự động xây dựng và chuẩn hóa Ma trận 3 tầng dòng (Số câu - Câu số - Số điểm)
    * chuẩn 100% Thông tư 27/2020/TT-BGDĐT từ danh sách câu hỏi thực tế.
    */
@@ -190,9 +269,12 @@ var AIService = {
       var mcqPct = summary.grand_total > 0 ? Math.round((summary.total_mcq.score / summary.grand_total) * 100) : 50;
       var essayPct = Math.max(0, 100 - mcqPct);
 
+      var currentScope = exam.scopeDesc || exam.scope || (typeof document !== 'undefined' ? (document.getElementById("aiCustomScopeInput")?.value || document.getElementById("aiScopePreset")?.value) : "") || "";
+      var termInfo = this.resolveExamTermInfo(currentScope);
+
       return {
         isTiengVietReading: true,
-        title: `MA TRẬN ĐỀ KIỂM TRA MÔN TIẾNG VIỆT (ĐỌC HIỂU) LỚP ${exam.grade || 5}`,
+        title: `MA TRẬN ĐỀ KIỂM TRA ${termInfo.matrixTitle} MÔN TIẾNG VIỆT (ĐỌC HIỂU) LỚP ${exam.grade || 5}`,
         schoolYear: exam.schoolYear || "2025 - 2026",
         strands: processedStrands,
         summary: summary,
@@ -215,36 +297,66 @@ var AIService = {
       var grade = exam.grade || 5;
 
       var strandDefs = [];
-      if (exam.matrix?.topics && Array.isArray(exam.matrix.topics) && exam.matrix.topics.length >= 2) {
+      var isToan = subjectId === "TOAN";
+      var hasValidToanTopics = false;
+      if (isToan && exam.matrix?.topics && Array.isArray(exam.matrix.topics) && exam.matrix.topics.length >= 3) {
+        var allTopicsStr = exam.matrix.topics.map(function(t){ return (t.topic || "").toLowerCase(); }).join(" ");
+        var hasGeom = allTopicsStr.includes("hình học") || allTopicsStr.includes("đo lường");
+        var hasNum = allTopicsStr.includes("số") || allTopicsStr.includes("phép tính");
+        var hasStat = allTopicsStr.includes("thống kê") || allTopicsStr.includes("xác suất");
+        if (hasGeom && hasNum && hasStat) {
+          hasValidToanTopics = true;
+        }
+      }
+
+      if (isToan && !hasValidToanTopics) {
+        strandDefs = [
+          { key: "so_phep_tinh", name: "1. Số và phép tính", desc: "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn." },
+          { key: "hinh_hoc_do_luong", name: "2. Hình học và Đo lường", desc: "Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều." },
+          { key: "thong_ke_xac_suat", name: "3. Một số yếu tố Thống kê và Xác suất", desc: "Thu thập, phân loại số liệu; đọc và phân tích biểu đồ hình quạt tròn, bảng số liệu; khả năng xảy ra của một sự kiện." }
+        ];
+      } else if (exam.matrix?.topics && Array.isArray(exam.matrix.topics) && exam.matrix.topics.length >= 2) {
         strandDefs = exam.matrix.topics.map(function(t, idx) {
-          return { key: "strand_" + idx, name: t.topic, desc: "" };
+          var defaultDesc = "";
+          var tLower = (t.topic || "").toLowerCase();
+          if (tLower.includes("số") || tLower.includes("phép tính")) {
+            defaultDesc = "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn.";
+          } else if (tLower.includes("hình học") && tLower.includes("đo lường")) {
+            defaultDesc = "Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều.";
+          } else if (tLower.includes("hình học")) {
+            defaultDesc = "Hình phẳng, hình khối; chu vi, diện tích một số hình phẳng; nhận biết và thể tích một số hình khối.";
+          } else if (tLower.includes("đo lường")) {
+            defaultDesc = "Đơn vị đo diện tích, thể tích, khối lượng, thời gian; toán chuyển động đều.";
+          } else if (tLower.includes("thống kê") || tLower.includes("xác suất")) {
+            defaultDesc = "Thu thập, phân loại, đọc và phân tích bảng số liệu, biểu đồ hình quạt tròn; khả năng xảy ra của một sự kiện.";
+          }
+          return { key: "strand_" + idx, name: t.topic, desc: t.desc || defaultDesc };
         });
       } else if (subjectId === "TOAN") {
         strandDefs = [
-          { key: "so_phep_tinh", name: "Miền 1: Số và Phép tính", desc: "Số tự nhiên, phân số, số thập phân; 4 phép tính; vận dụng tính chất vào giải toán." },
-          { key: "hinh_hoc", name: "Miền 2: Hình học", desc: "Hình phẳng, chu vi, diện tích một số hình phẳng; hình khối; nhận biết và vẽ hình." },
-          { key: "do_luong", name: "Miền 3: Đo lường", desc: "Đơn vị đo diện tích, khối lượng, độ dài, thời gian và giải toán đo lường thực tế." },
-          { key: "thong_ke_xac_suat", name: "Miền 4: Thống kê và Xác suất", desc: "Thu thập, phân loại, đọc bảng số liệu thống kê; khả năng xảy ra của một sự kiện." }
+          { key: "so_phep_tinh", name: "1. Số và phép tính", desc: "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn." },
+          { key: "hinh_hoc_do_luong", name: "2. Hình học và Đo lường", desc: "Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều." },
+          { key: "thong_ke_xac_suat", name: "3. Một số yếu tố Thống kê và Xác suất", desc: "Thu thập, phân loại số liệu; đọc và phân tích biểu đồ hình quạt tròn, bảng số liệu; khả năng xảy ra của một sự kiện." }
         ];
       } else if (subjectId === "KHOA_HOC") {
         strandDefs = [
-          { key: "chat", name: "Chủ đề 1. Chất", desc: "Thành phần và vai trò của đất; ô nhiễm, xói mòn và bảo vệ đất; hỗn hợp, dung dịch; biến đổi trạng thái và biến đổi hóa học." },
-          { key: "sinh_vat", name: "Chủ đề 2. Thực vật và Động vật", desc: "Sự sinh sản ở thực vật có hoa; sự sinh sản và phát triển ở động vật." }
+          { key: "chat_nang_luong", name: "Chủ đề 1. Chất và Năng lượng", desc: "Thành phần và vai trò của đất, không khí, nước; hỗn hợp, dung dịch; năng lượng mặt trời, gió; biến đổi hóa học." },
+          { key: "sinh_vat_moi_truong", name: "Chủ đề 2. Thực vật, Động vật và Môi trường", desc: "Sự sinh sản ở thực vật có hoa; sự sinh sản và phát triển ở động vật; vi khuẩn, nấm; con người và sức khỏe." }
         ];
       } else if (subjectId === "LICH_SU_DIA_LY" || subjectId === "LS_DL") {
         strandDefs = [
-          { key: "dia_li", name: "Địa lí Việt Nam", desc: "Vị trí địa lí, lãnh thổ; thiên nhiên; biển đảo; dân cư và các dân tộc ở Việt Nam." },
-          { key: "lich_su", name: "Lịch sử Việt Nam", desc: "Nhà nước đầu tiên; các vương quốc cổ; đấu tranh độc lập thời Bắc thuộc; triều Lý, Trần, Hậu Lê, Nguyễn." }
+          { key: "dia_li", name: "Phân môn Địa lí", desc: "Vị trí địa lí, lãnh thổ; thiên nhiên; biển đảo; dân cư và hoạt động kinh tế Việt Nam." },
+          { key: "lich_su", name: "Phân môn Lịch sử", desc: "Các triều đại lịch sử; đấu tranh độc lập dân tộc; các nhân vật và sự kiện lịch sử tiêu biểu." }
         ];
       } else if (subjectId === "CONG_NGHE") {
         strandDefs = [
-          { key: "cn_doi_song", name: "Công nghệ và Đời sống", desc: "Công nghệ trong đời sống; sáng chế công nghệ; nhà sáng chế; sử dụng điện thoại, tủ lạnh an toàn, tiết kiệm." },
-          { key: "thiet_ke_cn", name: "Thiết kế và Đánh giá công nghệ", desc: "Thiết kế sản phẩm công nghệ; quy trình lựa chọn vật liệu và đánh giá sản phẩm." }
+          { key: "cn_doi_song", name: "Chủ đề 1. Công nghệ và Đời sống", desc: "Công nghệ trong đời sống; sáng chế công nghệ; nhà sáng chế; sử dụng thiết bị điện an toàn, tiết kiệm." },
+          { key: "thiet_ke_cn", name: "Chủ đề 2. Thiết kế và Đánh giá công nghệ", desc: "Thiết kế sản phẩm công nghệ; quy trình lựa chọn vật liệu và đánh giá sản phẩm." }
         ];
       } else if (subjectId === "TIN_HOC") {
         strandDefs = [
-          { key: "may_tinh", name: "Máy tính và em & Mạng Internet", desc: "Phần cứng, phần mềm, tổ chức tệp tin; tìm kiếm và chia sẻ thông tin an toàn trên môi trường số." },
-          { key: "ung_dung", name: "Ứng dụng tin học & Giải quyết vấn đề", desc: "Soạn thảo văn bản, bảng tính điện tử; xây dựng sơ đồ tư duy và tư duy thuật toán." }
+          { key: "may_tinh", name: "Chủ đề 1. Máy tính và em & Mạng Internet", desc: "Phần cứng, phần mềm, tổ chức tệp tin; tìm kiếm và chia sẻ thông tin an toàn trên môi trường số." },
+          { key: "ung_dung", name: "Chủ đề 2. Ứng dụng tin học & Giải quyết vấn đề", desc: "Soạn thảo văn bản, bảng tính điện tử; xây dựng sơ đồ tư duy và tư duy thuật toán." }
         ];
       } else {
         strandDefs = [
@@ -275,58 +387,134 @@ var AIService = {
         var domain = (q.metadata?.contentDomain || "").toLowerCase();
         var topic = (q.topic || "").toLowerCase();
 
-        var chosenIdx = 0;
-        var matched = false;
+        var chosenIdx = -1;
+
+        // 1. Đối chiếu theo tên mạch kiến thức trong danh sách strands
         for (var i = 0; i < strands.length; i++) {
           var sName = strands[i].name.toLowerCase();
-          var cleanName = sName.replace(/^(miền|chủ đề)\s*\d+[\s:.]*/i, '').trim();
-          if (cleanName && (domain.includes(cleanName) || topic.includes(cleanName) || cleanName.includes(domain) || cleanName.includes(topic))) {
-            chosenIdx = i;
-            matched = true;
-            break;
+          var cleanName = sName.replace(/^(miền|chủ đề|\d+[\s:.]*)\s*/i, '').trim();
+          if (cleanName) {
+            if (domain && (domain.includes(cleanName) || cleanName.includes(domain))) {
+              chosenIdx = i;
+              break;
+            }
+            if (topic && (topic.includes(cleanName) || cleanName.includes(topic))) {
+              chosenIdx = i;
+              break;
+            }
           }
         }
-        if (!matched && subjectId === "TOAN") {
+
+        // 2. Nhận diện ngữ nghĩa chuyên sâu cho môn Toán
+        if (chosenIdx === -1 && subjectId === "TOAN") {
           var isStat = text.includes("thống kê") || text.includes("xác suất") || text.includes("biểu đồ") ||
-                       text.includes("bảng số liệu") || text.includes("khả năng") || domain.includes("thống kê");
-          var isMeas = text.includes("đo lường") || text.includes("đơn vị đo") || text.includes("mét vuông") ||
-                       text.includes("m²") || text.includes("cm²") || text.includes("ha") || text.includes("dm²") ||
-                       text.includes("km²") || text.includes("khối lượng") || text.includes("kg") || text.includes("tạ") || text.includes("tấn") ||
-                       text.includes("thời gian") || text.includes("giờ") || text.includes("phút") || text.includes("giây") ||
-                       domain.includes("đo lường");
-          var isGeom = text.includes("hình") || text.includes("chu vi") || text.includes("diện tích") ||
-                       text.includes("đường kính") || text.includes("bán kính") || text.includes("thang") ||
-                       text.includes("tròn") || text.includes("tam giác") || text.includes("chữ nhật") || text.includes("vuông") ||
-                       domain.includes("hình học");
-          if (strands.length >= 4) {
-            if (isStat) chosenIdx = 3;
-            else if (isMeas) chosenIdx = 2;
-            else if (isGeom) chosenIdx = 1;
-            else chosenIdx = 0;
-            matched = true;
-          } else if (strands.length === 2) {
-            chosenIdx = (isGeom || isMeas) ? 1 : 0;
-            matched = true;
+                       text.includes("quạt tròn") || text.includes("bảng số liệu") || text.includes("bảng thống kê") ||
+                       text.includes("kiểm đếm") || text.includes("thu thập") || text.includes("dữ liệu") ||
+                       text.includes("khả năng") || text.includes("sự kiện") || text.includes("chắc chắn") ||
+                       text.includes("không thể") || text.includes("xúc xắc") || text.includes("đồng xu") ||
+                       text.includes("vòng quay") || text.includes("viên bi") ||
+                       domain.includes("thống kê") || domain.includes("xác suất");
+
+          var isGeomOrMeas = text.includes("hình") || text.includes("chu vi") || text.includes("diện tích") ||
+                             text.includes("thể tích") || text.includes("hộp chữ nhật") || text.includes("lập phương") ||
+                             text.includes("đường kính") || text.includes("bán kính") || text.includes("chiều cao") ||
+                             text.includes("đáy lớn") || text.includes("đáy bé") || text.includes("mặt đáy") ||
+                             text.includes("xung quanh") || text.includes("toàn phần") ||
+                             text.includes("thang") || text.includes("tròn") || text.includes("tam giác") ||
+                             text.includes("chữ nhật") || text.includes("vuông") ||
+                             text.includes("đo lường") || text.includes("đơn vị đo") || text.includes("mét vuông") ||
+                             text.includes("m²") || text.includes("cm²") || /(?:^|[\s\d])ha(?:$|[\s,\.])/i.test(text) || text.includes("héc-ta") ||
+                             text.includes("dm²") || text.includes("km²") || text.includes("m³") || text.includes("cm³") ||
+                             text.includes("dm³") || text.includes("lít") || text.includes("khối lượng") ||
+                             text.includes("kg") || text.includes("tạ") || text.includes("tấn") ||
+                             text.includes("thời gian") || text.includes("giờ") || text.includes("phút") || text.includes("giây") ||
+                             text.includes("vận tốc") || text.includes("quãng đường") || text.includes("chuyển động") ||
+                             text.includes("km/h") || text.includes("km/giờ") || text.includes("m/giây") ||
+                             text.includes("ngược dòng") || text.includes("xuôi dòng") ||
+                             domain.includes("hình học") || domain.includes("đo lường") || domain.includes("vận tốc");
+          var isGeomOnly = text.includes("hình") || text.includes("chu vi") || text.includes("diện tích") ||
+                           text.includes("thể tích") || text.includes("hộp chữ nhật") || text.includes("lập phương") ||
+                           text.includes("đường kính") || text.includes("bán kính") || text.includes("thang") ||
+                           text.includes("tròn") || text.includes("tam giác") || domain.includes("hình học");
+          var isMeasOnly = isGeomOrMeas && !isGeomOnly;
+
+          var statIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("thống kê") || s.name.toLowerCase().includes("xác suất"); });
+          var geomMeasIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("hình học") && s.name.toLowerCase().includes("đo lường"); });
+          var geomIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("hình học") && !s.name.toLowerCase().includes("đo lường"); });
+          var measIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("đo lường") && !s.name.toLowerCase().includes("hình học"); });
+          var numIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("số") || s.name.toLowerCase().includes("phép tính"); });
+
+          if (isStat && statIdx !== -1) {
+            chosenIdx = statIdx;
+          } else if (geomMeasIdx !== -1 && isGeomOrMeas) {
+            chosenIdx = geomMeasIdx;
+          } else if (geomIdx !== -1 && isGeomOnly) {
+            chosenIdx = geomIdx;
+          } else if (measIdx !== -1 && isMeasOnly) {
+            chosenIdx = measIdx;
+          } else if (geomIdx !== -1 && isGeomOrMeas) {
+            chosenIdx = geomIdx;
+          } else if (numIdx !== -1) {
+            chosenIdx = numIdx;
           }
         }
-        if (!matched && subjectId === "KHOA_HOC") {
+
+        // 3. Nhận diện ngữ nghĩa cho môn Khoa học & Lịch sử - Địa lí
+        if (chosenIdx === -1 && subjectId === "KHOA_HOC") {
           var isBio = text.includes("cây") || text.includes("hoa") || text.includes("hạt") ||
                       text.includes("nhụy") || text.includes("thụ phấn") || text.includes("thụ tinh") ||
                       text.includes("phôi") || text.includes("động vật") || text.includes("sinh sản") ||
-                      text.includes("trứng") || text.includes("ấu trùng") || domain.includes("thực vật") || domain.includes("động vật");
-          chosenIdx = isBio ? 1 : 0;
-          matched = true;
-        } else if (!matched && (subjectId === "LICH_SU_DIA_LY" || subjectId === "LS_DL")) {
+                      text.includes("trứng") || text.includes("ấu trùng") || text.includes("nấm") ||
+                      text.includes("vi khuẩn") || text.includes("sức khỏe") || domain.includes("thực vật") || domain.includes("động vật");
+          var bioIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("thực vật") || s.name.toLowerCase().includes("động vật") || s.name.toLowerCase().includes("sinh vật"); });
+          var matterIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("chất") || s.name.toLowerCase().includes("năng lượng"); });
+          chosenIdx = (isBio && bioIdx !== -1) ? bioIdx : (matterIdx !== -1 ? matterIdx : 0);
+        } else if (chosenIdx === -1 && (subjectId === "LICH_SU_DIA_LY" || subjectId === "LS_DL")) {
           var isHis = text.includes("nhà nước") || text.includes("vua") || text.includes("triều") ||
                       text.includes("khởi nghĩa") || text.includes("chiến thắng") || text.includes("thăng long") ||
                       text.includes("văn lang") || text.includes("âu lạc") || text.includes("chăm-pa") ||
                       text.includes("phù nam") || text.includes("lý") || text.includes("trần") ||
                       text.includes("nguyễn") || domain.includes("lịch sử");
-          chosenIdx = isHis ? 1 : 0;
-          matched = true;
+          var hisIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("lịch sử"); });
+          var geoIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("địa lí") || s.name.toLowerCase().includes("địa lý"); });
+          chosenIdx = (isHis && hisIdx !== -1) ? hisIdx : (geoIdx !== -1 ? geoIdx : 0);
         }
-        if (!matched) {
-          chosenIdx = (q.num % strands.length);
+
+        // 4. Phân bổ thông minh dự phòng cho môn Toán theo vị trí sư phạm nếu chưa khớp
+        if (chosenIdx === -1 && subjectId === "TOAN") {
+          var statIdx2 = strands.findIndex(function(s) { return s.name.toLowerCase().includes("thống kê") || s.name.toLowerCase().includes("xác suất"); });
+          var geomIdx2 = strands.findIndex(function(s) { return s.name.toLowerCase().includes("hình học") || s.name.toLowerCase().includes("đo lường"); });
+          var numIdx2 = strands.findIndex(function(s) { return s.name.toLowerCase().includes("số") || s.name.toLowerCase().includes("phép tính"); });
+
+          if (!isEssay) {
+            var qn = parseInt(q.num) || 1;
+            var mcqTotal = mcqs.length || 7;
+            var numLimit = Math.max(1, Math.round(mcqTotal * 0.45));
+            var geomLimit = Math.max(numLimit + 1, Math.round(mcqTotal * 0.85));
+
+            if (qn <= numLimit && numIdx2 !== -1) {
+              chosenIdx = numIdx2;
+            } else if (qn <= geomLimit && geomIdx2 !== -1) {
+              chosenIdx = geomIdx2;
+            } else if (statIdx2 !== -1) {
+              chosenIdx = statIdx2;
+            } else {
+              chosenIdx = (numIdx2 !== -1 ? numIdx2 : 0);
+            }
+          } else {
+            var en = parseInt(q.num) || 1;
+            if (en === 1 && geomIdx2 !== -1) {
+              chosenIdx = geomIdx2;
+            } else if (numIdx2 !== -1) {
+              chosenIdx = numIdx2;
+            } else {
+              chosenIdx = 0;
+            }
+          }
+        }
+
+        if (chosenIdx === -1) {
+          chosenIdx = (q.num ? (q.num % strands.length) : 0);
         }
 
         var st = strands[chosenIdx] || strands[0];
@@ -352,10 +540,21 @@ var AIService = {
       essays.forEach(function(e) { assignQuestionToStrand(e, true); });
 
       // Lọc bỏ những mạch kiến thức / chủ đề không có câu hỏi nào (chưa học hoặc không kiểm tra trong đề này)
+      // Riêng đề Toán định kỳ (Cuối năm, Cả năm, Học kỳ): Bắt buộc giữ đủ 3 mạch kiến thức chuẩn GDPT 2018
+      var examScopeStr = (exam.scopeDesc || exam.scope || "").toLowerCase();
+      var isPeriodicMath = subjectId === "TOAN" && (
+        examScopeStr.includes("cuối") ||
+        examScopeStr.includes("cả năm") ||
+        examScopeStr.includes("học kì") ||
+        examScopeStr.includes("học kỳ") ||
+        examScopeStr.includes("định kỳ") ||
+        examScopeStr.includes("định kì")
+      );
+
       var activeStrands = strands.filter(function(st) {
         return (st.total_score > 0) || (st.total_mcq.count > 0) || (st.total_essay.count > 0);
       });
-      if (activeStrands.length > 0) {
+      if (activeStrands.length > 0 && !isPeriodicMath) {
         strands = activeStrands;
       }
 
@@ -405,9 +604,12 @@ var AIService = {
         essayPct = 100 - mcqPct;
       }
 
+      var currentScope = exam.scopeDesc || exam.scope || (typeof document !== 'undefined' ? (document.getElementById("aiCustomScopeInput")?.value || document.getElementById("aiScopePreset")?.value) : "") || "";
+      var termInfo = this.resolveExamTermInfo(currentScope);
+
       return {
         isTiengVietReading: false,
-        title: `MA TRẬN ĐỀ KIỂM TRA MÔN ${exam.subjectName ? exam.subjectName.toUpperCase() : "TOÁN"} LỚP ${grade}`,
+        title: `MA TRẬN ĐỀ KIỂM TRA ${termInfo.matrixTitle} MÔN ${exam.subjectName ? exam.subjectName.toUpperCase() : "TOÁN"} LỚP ${grade}`,
         schoolYear: exam.schoolYear || "2025 - 2026",
         strands: strands,
         summary: summary,
@@ -1040,7 +1242,22 @@ var AIService = {
       if (params.essayPercent !== undefined) exam.essayPercent = parseInt(params.essayPercent);
       if (params.subjectId) exam.subjectId = params.subjectId;
       if (params.grade) exam.grade = parseInt(params.grade);
+      if (params.scope) {
+        exam.scope = params.scope;
+        if (!exam.scopeDesc) exam.scopeDesc = params.scope;
+      }
     }
+
+    var currentScope = exam.scopeDesc || exam.scope || (params && params.scope) || (typeof document !== 'undefined' ? (document.getElementById("aiCustomScopeInput")?.value || document.getElementById("aiScopePreset")?.value) : "") || "";
+    var termInfo = this.resolveExamTermInfo(currentScope);
+    
+    // Tự động gán và sửa lỗi nếu AI trả về sai học kỳ
+    if (!exam.examTerm || (termInfo.term === "HỌC KÌ II" && String(exam.examTerm).includes("I") && !String(exam.examTerm).includes("II"))) {
+      exam.examTerm = termInfo.term;
+    }
+    exam.examHeaderTitle = termInfo.headerTitle;
+    if (!exam.scope) exam.scope = currentScope;
+    if (!exam.scopeDesc) exam.scopeDesc = currentScope;
 
     // Helper khử lỗi escape tab LaTeX và tự động chuyển đổi mã LaTeX thô (\frac, m^2, \times...) sang chuẩn ký hiệu Tiểu học (3/4, m², ×...)
     function cleanLatexForElementary(str) {
@@ -1299,6 +1516,25 @@ var AIService = {
     if (!exam.matrix) exam.matrix = {};
     exam.matrix.threeTier = exam.threeTierMatrix;
 
+    // Đồng bộ lại exam.matrix.topics từ threeTierMatrix.strands để đảm bảo cả 2 cấu trúc hoàn toàn nhất quán
+    if (exam.threeTierMatrix && Array.isArray(exam.threeTierMatrix.strands) && exam.threeTierMatrix.strands.length > 0) {
+      exam.matrix.topics = exam.threeTierMatrix.strands.map(function(st) {
+        return {
+          topic: st.name,
+          desc: st.desc || "",
+          m1_mcq: st.m1_mcq.qNums.length ? ('Câu ' + st.m1_mcq.qNums.join(', ')) : '',
+          m1_essay: st.m1_essay.qNums.length ? ('Câu ' + st.m1_essay.qNums.join(', ') + ' (TL)') : '',
+          m2_mcq: st.m2_mcq.qNums.length ? ('Câu ' + st.m2_mcq.qNums.join(', ')) : '',
+          m2_essay: st.m2_essay.qNums.length ? ('Câu ' + st.m2_essay.qNums.join(', ') + ' (TL)') : '',
+          m3_mcq: st.m3_mcq.qNums.length ? ('Câu ' + st.m3_mcq.qNums.join(', ')) : '',
+          m3_essay: st.m3_essay.qNums.length ? ('Câu ' + st.m3_essay.qNums.join(', ') + ' (TL)') : '',
+          total_mcq: st.total_mcq.count,
+          total_essay: st.total_essay.count,
+          score: (st.total_score || 0).toString().replace('.', ',')
+        };
+      });
+    }
+
     return exam;
   },
 
@@ -1352,6 +1588,7 @@ var AIService = {
     var subInfo = this.EXAM_SUBJECTS[subjectId] || this.EXAM_SUBJECTS.TOAN;
     var subjectName = subInfo.name;
     var scope = params.scope || "Kiểm tra Định kỳ Cuối Học kỳ I";
+    var termInfo = this.resolveExamTermInfo(scope);
     var duration = params.duration || (grade <= 2 ? "Đọc: 35 phút | Viết: 35 phút" : "Đọc: 40 phút | Viết: 40 phút");
     var schoolName = params.schoolName || "TRƯỜNG TIỂU HỌC .................................";
     var customPrompt = params.customPrompt || "";
@@ -1368,8 +1605,8 @@ var AIService = {
       var scopeInfo = window.SGK_DATA.getScopeContent(grade, sgkKey, scope, bookSeries);
       if (scopeInfo && scopeInfo.found && scopeInfo.knowledgeDigest) {
         var digest = scopeInfo.knowledgeDigest;
-        if (digest.length > 3000) {
-          digest = digest.substring(0, 3000) + "\n...(và các bài học khác trong phạm vi)...";
+        if (digest.length > 12000) {
+          digest = digest.substring(0, 12000) + "\n...(và các bài học khác trong phạm vi)...";
         }
         if (subjectId === "TIENG_VIET") {
           sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) DÙNG CHO PHẦN LUYỆN TỪ VÀ CÂU & VIẾT:\n${digest}\n- CHÚ Ý ĐẶC BIỆT: Khung phân phối chương trình KNTT trên ĐƯỢC CUNG CẤP ĐỂ BẠN XÂY DỰNG MA TRẬN VÀ RA CÂU HỎI LUYỆN TỪ VÀ CÂU, CHÍNH TẢ VÀ TẬP LÀM VĂN. TUYỆT ĐỐI KHÔNG LẤY CÁC BÀI ĐỌC CỦA KNTT CHO PHẦN ĐỌC! PHẦN ĐỌC BẮT BUỘC PHẢI LẤY 100% TỪ BỘ SÁCH CHÂN TRỜI SÁNG TẠO (CTST) ĐÃ SỐ HÓA Ở MỤC DƯỚI ĐÂY!`;
@@ -1440,6 +1677,7 @@ Hãy soạn trọn bộ ĐỀ KIỂM TRA MÔN TIẾNG VIỆT LỚP ${grade} gồ
 
 - MÔN HỌC: Tiếng Việt - Lớp ${grade}
 - BỘ SÁCH CHÍNH KHÓA THỐNG NHẤT TOÀN QUỐC: Kết nối tri thức với cuộc sống (KNTT)
+- KỲ KIỂM TRA: ${termInfo.term} (${termInfo.headerTitle})
 - PHẠM VI RA ĐỀ: ${scope}
 
 - QUY TẮC CỐT LÕI VỀ BỘ SÁCH VÀ NGỮ LIỆU ĐỌC (BẮT BUỘC TUÂN THỦ 100%):
@@ -1503,8 +1741,8 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
 {
   "isTiengViet": true,
   "schoolName": "${schoolName}",
-  "examTitle": "ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${grade}",
-  "examTerm": "HỌC KÌ I",
+  "examTitle": "${termInfo.headerTitle} MÔN TIẾNG VIỆT LỚP ${grade}",
+  "examTerm": "${termInfo.term}",
   "subjectName": "Tiếng Việt",
   "grade": ${grade},
   "duration": "${duration}",
@@ -1686,6 +1924,20 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
       var m2Pct = parseInt(params.level2Percent) || 40;
       var m3Pct = parseInt(params.level3Percent) || 20;
 
+      // Phân bổ câu hỏi theo 3 mạch kiến thức chuẩn GDPT 2018 cho môn Toán
+      var mathMcqNum = 0, mathMcqGeom = 0, mathMcqStat = 0;
+      var mathEssayNum = 0, mathEssayGeom = 0;
+      if (subjectId === "TOAN") {
+        mathMcqNum = Math.max(1, Math.round(mcqCount * 0.45));
+        mathMcqGeom = Math.max(1, Math.round(mcqCount * 0.40));
+        mathMcqStat = Math.max(1, mcqCount - mathMcqNum - mathMcqGeom);
+        while (mathMcqNum + mathMcqGeom + mathMcqStat > mcqCount && mathMcqNum > 1) mathMcqNum--;
+        while (mathMcqNum + mathMcqGeom + mathMcqStat < mcqCount) mathMcqNum++;
+
+        mathEssayNum = essayCount > 1 ? Math.max(1, Math.floor(essayCount * 0.5)) : 1;
+        mathEssayGeom = essayCount > 1 ? (essayCount - mathEssayNum) : 0;
+      }
+
       // =========================================================================
       // ĐỊNH VỊ ĐỊA PHƯƠNG TOÀN DIỆN CHO TẤT CẢ CÁC MÔN (NQ 202/2025/QH15 & VĨNH LONG)
       // =========================================================================
@@ -1741,13 +1993,19 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
       var subjectContentDomainsGuideline = "";
       if (subjectId === "TOAN") {
         subjectContentDomainsGuideline = `
-1. PHÂN BỔ 4 MIỀN NỘI DUNG TOÁN HỌC TIỂU HỌC CHUẨN GDPT 2018 & SEA-PLM:
-   - Miền 1: Số và phép tính (chiếm khoảng 50% - 60% tổng điểm đề)
-   - Miền 2: Hình học (chiếm khoảng 15% - 20% tổng điểm đề)
-   - Miền 3: Đo lường (chiếm khoảng 15% - 20% tổng điểm đề)
-   - Miền 4: Một số yếu tố Thống kê và Xác suất (chiếm khoảng 10% tổng điểm đề)
-   (Đề thi BẮT BUỘC phải bao quát cân đối các mạch kiến thức trên theo đúng phạm vi học kì, không được chỉ ra duy nhất 1 mạch Số và phép tính).
-   - Quá trình nhận thức SEA-PLM: "Biết (Knowing)", "Áp dụng (Applying)", "Suy luận (Reasoning)".
+1. PHÂN BỔ 3 MẠCH KIẾN THỨC MÔN TOÁN TIỂU HỌC CHUẨN GDPT 2018 & THÔNG TƯ 27 (BẮT BUỘC 100%):
+   Đề thi gồm ${mcqCount} câu trắc nghiệm và ${essayCount} câu tự luận BẮT BUỘC PHÂN BỔ ĐẦY ĐỦ CẢ 3 MẠCH KIẾN THỨC CỐT LÕI:
+   - Mạch 1: "Số và phép tính" (chiếm ~50% tổng điểm: gồm ${mathMcqNum} câu TNKQ [từ Câu 1 đến Câu ${mathMcqNum}] và ${mathEssayNum} câu Tự luận).
+     Kiến thức: Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn.
+   - Mạch 2: "Hình học và Đo lường" (chiếm ~35% - 40% tổng điểm: gồm ${mathMcqGeom} câu TNKQ [từ Câu ${mathMcqNum + 1} đến Câu ${mathMcqNum + mathMcqGeom}] và ${mathEssayGeom} câu Tự luận).
+     Kiến thức: Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo diện tích (m², ha...), đo thể tích (m³, dm³...); toán chuyển động đều (vận tốc, quãng đường, thời gian).
+   - Mạch 3: "Một số yếu tố Thống kê và Xác suất" (chiếm ~10% - 15% tổng điểm: gồm ${mathMcqStat} câu TNKQ [từ Câu ${mathMcqNum + mathMcqGeom + 1} đến Câu ${mcqCount}]).
+     Kiến thức: Thu thập, phân loại, đọc và phân tích bảng số liệu, biểu đồ hình quạt tròn; khả năng xảy ra của một sự kiện (chắc chắn, có thể, không thể).
+   => NGUYÊN TẮC BẮT BUỘC CHO ĐỀ KIỂM TRA ĐỊNH KỲ (ĐẶC BIỆT LÀ ĐỀ CUỐI NĂM / CẢ NĂM / HỌC KỲ):
+      * Đề thi BẮT BUỘC PHẢI CÓ ĐỦ CẢ 3 MẠCH KIẾN THỨC TRÊN. TUYỆT ĐỐI KHÔNG ĐƯỢC CHỈ RA 1 MẠCH "Số và phép tính"!
+      * Toàn bộ ${mcqCount} câu trắc nghiệm và ${essayCount} câu tự luận PHẢI ĐƯỢC PHÂN BỔ ĐÚNG THEO SỐ LƯỢNG TỪNG MẠCH KIẾN THỨC Ở TRÊN.
+      * Trong mảng "multipleChoice" và "essaySection", mỗi câu hỏi PHẢI ghi rõ trường "metadata.contentDomain" đúng tên 1 trong 3 mạch: "Số và phép tính", "Hình học và Đo lường", hoặc "Một số yếu tố Thống kê và Xác suất".
+      * Trong "matrix.topics", BẮT BUỘC KHAI BÁO ĐỦ CẢ 3 DÒNG TƯƠNG ỨNG VỚI 3 MẠCH KIẾN THỨC NÀY.
 
 2. QUY TẮC BẮT BUỘC ĐA DẠNG HÓA CÂU HỎI MỞ ĐẦU & MỨC 1 (CHỐNG RẬP KHUÔN 100%):
    - TUYỆT ĐỐI CẤM lặp lại cùng một khuôn mẫu quen thuộc như "Số thập phân gồm... được viết là:" cho Câu 1.
@@ -1823,6 +2081,138 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
         formatInstruction = `- HÌNH THỨC CÂU HỎI TRẮC NGHIỆM: Môn ${subjectName} chủ yếu dùng trắc nghiệm 4 lựa chọn (MCQ A, B, C, D), có thể kết hợp 1 câu Đúng/Sai hoặc trắc nghiệm điền số nếu phù hợp.`;
       }
 
+      var matrixTopicsSchemaSample = "";
+      if (subjectId === "TOAN") {
+        matrixTopicsSchemaSample = `[
+      {
+        "topic": "1. Số và phép tính",
+        "desc": "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn.",
+        "m1_mcq": "Câu 1, 2",
+        "m1_essay": "",
+        "m2_mcq": "Câu 3",
+        "m2_essay": "",
+        "m3_mcq": "",
+        "m3_essay": "${mathEssayNum > 0 ? 'Câu ' + essayCount + ' (TL)' : ''}",
+        "total_mcq": ${mathMcqNum},
+        "total_essay": ${mathEssayNum},
+        "score": 5.0
+      },
+      {
+        "topic": "2. Hình học và Đo lường",
+        "desc": "Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều.",
+        "m1_mcq": "Câu ${mathMcqNum + 1}",
+        "m1_essay": "",
+        "m2_mcq": "Câu ${mathMcqNum + 2}",
+        "m2_essay": "Câu 1 (TL)",
+        "m3_mcq": "",
+        "m3_essay": "",
+        "total_mcq": ${mathMcqGeom},
+        "total_essay": ${mathEssayGeom},
+        "score": 4.0
+      },
+      {
+        "topic": "3. Một số yếu tố Thống kê và Xác suất",
+        "desc": "Thu thập, phân loại số liệu; đọc và phân tích biểu đồ hình quạt tròn, bảng số liệu; khả năng xảy ra của một sự kiện.",
+        "m1_mcq": "",
+        "m1_essay": "",
+        "m2_mcq": "Câu ${mcqCount}",
+        "m2_essay": "",
+        "m3_mcq": "",
+        "m3_essay": "",
+        "total_mcq": ${mathMcqStat},
+        "total_essay": 0,
+        "score": 1.0
+      }
+    ]`;
+      } else if (subjectId === "KHOA_HOC") {
+        matrixTopicsSchemaSample = `[
+      {
+        "topic": "Chủ đề 1. Chất và Năng lượng",
+        "desc": "Thành phần và vai trò của đất, không khí, nước; hỗn hợp, dung dịch; năng lượng mặt trời, gió; biến đổi hóa học.",
+        "m1_mcq": "Câu 1, 2",
+        "m1_essay": "",
+        "m2_mcq": "Câu 3, 4",
+        "m2_essay": "Câu 1 (TL)",
+        "m3_mcq": "",
+        "m3_essay": "",
+        "total_mcq": 4,
+        "total_essay": 1,
+        "score": 5.0
+      },
+      {
+        "topic": "Chủ đề 2. Thực vật, Động vật và Môi trường",
+        "desc": "Sự sinh sản ở thực vật có hoa; sự sinh sản và phát triển ở động vật; vi khuẩn, nấm; con người và sức khỏe.",
+        "m1_mcq": "Câu 5, 6",
+        "m1_essay": "",
+        "m2_mcq": "Câu 7, 8",
+        "m2_essay": "",
+        "m3_mcq": "",
+        "m3_essay": "Câu 2 (TL)",
+        "total_mcq": 4,
+        "total_essay": 1,
+        "score": 5.0
+      }
+    ]`;
+      } else if (subjectId === "LICH_SU_DIA_LY" || subjectId === "LS_DL") {
+        matrixTopicsSchemaSample = `[
+      {
+        "topic": "Phân môn Địa lí",
+        "desc": "Vị trí địa lí, lãnh thổ; thiên nhiên; biển đảo; dân cư và hoạt động kinh tế Việt Nam.",
+        "m1_mcq": "Câu 1, 2",
+        "m1_essay": "",
+        "m2_mcq": "Câu 3, 4",
+        "m2_essay": "Câu 1 (TL)",
+        "m3_mcq": "",
+        "m3_essay": "",
+        "total_mcq": 4,
+        "total_essay": 1,
+        "score": 5.0
+      },
+      {
+        "topic": "Phân môn Lịch sử",
+        "desc": "Các triều đại lịch sử; đấu tranh độc lập dân tộc; các nhân vật và sự kiện lịch sử tiêu biểu.",
+        "m1_mcq": "Câu 5, 6",
+        "m1_essay": "",
+        "m2_mcq": "Câu 7, 8",
+        "m2_essay": "",
+        "m3_mcq": "",
+        "m3_essay": "Câu 2 (TL)",
+        "total_mcq": 4,
+        "total_essay": 1,
+        "score": 5.0
+      }
+    ]`;
+      } else {
+        matrixTopicsSchemaSample = `[
+      {
+        "topic": "Chủ đề 1. Kiến thức trọng tâm phần 1",
+        "desc": "Nội dung kiến thức, kỹ năng phần thứ nhất theo phân phối chương trình.",
+        "m1_mcq": "Câu 1, 2",
+        "m1_essay": "",
+        "m2_mcq": "Câu 3",
+        "m2_essay": "Câu 1 (TL)",
+        "m3_mcq": "",
+        "m3_essay": "",
+        "total_mcq": 3,
+        "total_essay": 1,
+        "score": 5.0
+      },
+      {
+        "topic": "Chủ đề 2. Kiến thức trọng tâm phần 2",
+        "desc": "Nội dung kiến thức, kỹ năng phần thứ hai theo phân phối chương trình.",
+        "m1_mcq": "Câu 4, 5",
+        "m1_essay": "",
+        "m2_mcq": "Câu 6",
+        "m2_essay": "",
+        "m3_mcq": "Câu 7",
+        "m3_essay": "Câu 2 (TL)",
+        "total_mcq": 4,
+        "total_essay": 1,
+        "score": 5.0
+      }
+    ]`;
+      }
+
       prompt = `
 Bạn là Chuyên gia Đánh giá Giáo dục Tiểu học và Sư phạm hàng đầu Việt Nam, nắm vững Khung đánh giá và Quy trình biên soạn câu hỏi của Chương trình Đánh giá kết quả học tập của học sinh Tiểu học khu vực Đông Nam Á (SEA-PLM), Chương trình GDPT 2018, Thông tư 27/2020/TT-BGDĐT và Bộ sách giáo khoa ${seriesName}.
 Hãy soạn trọn bộ ĐỀ KIỂM TRA ĐỊNH KỲ TIỂU HỌC gồm MA TRẬN 3 MỨC ĐỘ, ĐỀ THI, HƯỚNG DẪN CHẤM CHI TIẾT VÀ BẢNG ĐẶC TẢ SIÊU DỮ LIỆU - MÃ HÓA CHUẨN SEA-PLM với các thông số sau:
@@ -1830,6 +2220,7 @@ Hãy soạn trọn bộ ĐỀ KIỂM TRA ĐỊNH KỲ TIỂU HỌC gồm MA TR�
 - MÔN HỌC: ${subjectName}
 - KHỐI LỚP: Lớp ${grade}
 - BỘ SÁCH GIÁO KHOA: ${seriesName}
+- KỲ KIỂM TRA: ${termInfo.term} (${termInfo.headerTitle})
 - PHẠM VI RA ĐỀ: ${scope}
 - THỜI GIAN LÀM BÀI: ${duration}
 - CẤU TRÚC ĐỀ:
@@ -1895,15 +2286,18 @@ ${mathFormattingRule}
    - "Mã 9": Bỏ trống không làm bài.
    - Bắt buộc cung cấp câu trả lời mẫu thực tế của học sinh ("sampleResponse") cho từng mã.
 6. BẢNG MÔ TẢ SIÊU DỮ LIỆU CÂU HỎI (seaplmMetadataTable): Bảng tổng hợp toàn bộ câu hỏi trong đề kiểm tra: itemCode, context, contentDomain, cognitiveProcess, difficulty ("Dễ" | "Trung bình" | "Khó"), itemType, score, maxCode.
-7. NGUYÊN TẮC BẮT BUỘC VỀ MA TRẬN (KHÔNG THỐNG KÊ NỘI DUNG CHƯA HỌC):
-   - CHỈ THỐNG KÊ CÁC CHỦ ĐỀ / MẠCH KIẾN THỨC ĐÃ HỌC VÀ CÓ CÂU HỎI TRONG ĐỀ THI NÀY VÀO BẢNG MA TRẬN.
-   - TUYỆT ĐỐI KHÔNG THỐNG KÊ CÁC CHỦ ĐỀ CHƯA HỌC HOẶC KHÔNG CÓ CÂU HỎI TRONG ĐỀ VÀO MA TRẬN (không tạo dòng trống 0 câu 0 điểm).
+7. NGUYÊN TẮC BẮT BUỘC VỀ MA TRẬN & ĐỘ BAO QUÁT NỘI DUNG ĐỀ THI:
+   - ĐỐI VỚI MÔN TOÁN: Đề kiểm tra định kỳ (đặc biệt là Giữa kì, Cuối kì, Cuối năm / Cả năm) BẮT BUỘC phải bao quát đầy đủ 3 mạch kiến thức của GDPT 2018: (1) Số và phép tính, (2) Hình học và Đo lường, (3) Một số yếu tố Thống kê và Xác suất.
+     * BẮT BUỘC có câu hỏi thực tế trong đề cho cả 3 mạch này theo đúng tỉ lệ số câu đã hướng dẫn ở trên.
+     * Bảng ma trận "matrix.topics" PHẢI KHAI BÁO ĐỦ CẢ 3 DÒNG tương ứng với 3 mạch này.
+     * TUYỆT ĐỐI CẤM ra đề kiểm tra cuối năm / cả năm mà chỉ có duy nhất mạch "Số và phép tính" hoặc bỏ quên mạch "Hình học và Đo lường", "Thống kê và Xác suất".
+   - Đối với các môn Khoa học, Lịch sử và Địa lí: Bắt buộc có đủ các chủ đề/phân môn chính tương ứng.
 
 HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm markdown code block hoặc text ngoài JSON) có cấu trúc chuẩn như sau:
 {
   "schoolName": "${schoolName}",
-  "examTitle": "ĐỀ KIỂM TRA ĐỊNH KỲ MÔN ${subjectName.toUpperCase()} LỚP ${grade}",
-  "examTerm": "HỌC KÌ I",
+  "examTitle": "${termInfo.headerTitle} MÔN ${subjectName.toUpperCase()} LỚP ${grade}",
+  "examTerm": "${termInfo.term}",
   "subjectName": "${subjectName}",
   "grade": ${grade},
   "duration": "${duration}",
@@ -1913,20 +2307,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
   "mcqTotalScore": ${(mcqPct / 10).toFixed(1)},
   "essayTotalScore": ${(essayPct / 10).toFixed(1)},
   "matrix": {
-    "topics": [
-      {
-        "topic": "Tên chủ đề/mạch kiến thức 1",
-        "m1_mcq": "Câu 1, 2",
-        "m1_essay": "",
-        "m2_mcq": "Câu 3",
-        "m2_essay": "",
-        "m3_mcq": "",
-        "m3_essay": "",
-        "total_mcq": 3,
-        "total_essay": 0,
-        "score": 1.5
-      }
-    ],
+    "topics": ${matrixTopicsSchemaSample},
     "summary": {
       "m1_total_mcq": 3,
       "m1_total_essay": 0,
@@ -1969,14 +2350,50 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         "distractorC": "Lý do học sinh chọn C: Nhầm lẫn khái niệm tương tự.",
         "distractorD": "Lý do học sinh chọn D: Đọc lướt hoặc nhầm chi tiết."
       }
-    }
+    }${subjectId === 'TOAN' ? `,
+    {
+      "num": ${mathMcqNum + 1},
+      "itemCode": "TOAN_${grade}_MCQ_${String(mathMcqNum + 1).padStart(2, '0')}",
+      "level": "Mức 2",
+      "score": 0.5,
+      "metadata": {
+        "context": "Môi trường xung quanh (Local community)",
+        "contentDomain": "Hình học và Đo lường",
+        "cognitiveProcess": "Áp dụng (Applying)",
+        "difficulty": "Trung bình",
+        "itemType": "Trắc nghiệm 4 lựa chọn (MCQ)"
+      },
+      "text": "Câu hỏi trắc nghiệm về hình học (tam giác, thang, tròn, hình khối...) hoặc đo lường, chuyển động...",
+      "options": ["A. Lựa chọn A", "B. Lựa chọn B", "C. Lựa chọn C", "D. Lựa chọn D"],
+      "ans": "B",
+      "explain": "Giải thích cách tính hình học/đo lường...",
+      "distractorRationale": { "correct": "Cơ sở phương án đúng B: ...", "distractorA": "...", "distractorB": "...", "distractorC": "...", "distractorD": "..." }
+    },
+    {
+      "num": ${mcqCount},
+      "itemCode": "TOAN_${grade}_MCQ_${String(mcqCount).padStart(2, '0')}",
+      "level": "Mức 2",
+      "score": 0.5,
+      "metadata": {
+        "context": "Môi trường rộng hơn (Wider world)",
+        "contentDomain": "Một số yếu tố Thống kê và Xác suất",
+        "cognitiveProcess": "Áp dụng (Applying)",
+        "difficulty": "Trung bình",
+        "itemType": "Trắc nghiệm 4 lựa chọn (MCQ)"
+      },
+      "text": "Câu hỏi trắc nghiệm về đọc biểu đồ hình quạt tròn, bảng số liệu hoặc xác suất sự kiện...",
+      "options": ["A. Lựa chọn A", "B. Lựa chọn B", "C. Lựa chọn C", "D. Lựa chọn D"],
+      "ans": "C",
+      "explain": "Giải thích cách đọc bảng/biểu đồ...",
+      "distractorRationale": { "correct": "Cơ sở phương án đúng C: ...", "distractorA": "...", "distractorB": "...", "distractorC": "...", "distractorD": "..." }
+    }` : ''}
   ],
   "essaySection": [
     {
       "num": 1,
       "itemCode": "${subjectId.substring(0, 4)}_${grade}_CR_01",
       "level": "Mức 2",
-      "score": 2.0,
+      "score": ${(essayCount > 1 ? 1.5 : (essayPct / 10)).toFixed(1)},
       "metadata": {
         "context": "Môi trường xung quanh (Local community)",
         "contentDomain": "${subjectId === 'TOAN' ? 'Hình học và Đo lường' : subjectId === 'KHOA_HOC' ? 'Thực vật và động vật' : (subjectId === 'LICH_SU_DIA_LY' || subjectId === 'LS_DL') ? 'Lịch sử dân tộc' : subjectId === 'CONG_NGHE' ? 'Thiết kế kĩ thuật' : 'Vận dụng kiến thức môn ' + subjectName}",
@@ -1984,12 +2401,12 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         "difficulty": "Trung bình",
         "itemType": "Tự luận / Trả lời ngắn"
       },
-      "title": "Câu 1 (2,0 điểm - Mức 2):",
-      "text": "Nội dung bài toán / câu hỏi tự luận gắn với bối cảnh chân thực...",
+      "title": "Câu 1 (${(essayCount > 1 ? 1.5 : (essayPct / 10)).toFixed(1).replace('.', ',')} điểm - Mức 2):",
+      "text": "${subjectId === 'TOAN' ? 'Bài toán tự luận về Hình học (chu vi, diện tích hình phẳng hoặc thể tích hình khối) hoặc Đo lường / chuyển động đều...' : 'Nội dung bài toán / câu hỏi tự luận gắn với bối cảnh chân thực...'}",
       "solution": "Lời giải chi tiết và đáp số...",
       "rubric": [
-        { "step": "Ý 1 / Phép tính 1 và câu lời giải thứ nhất...", "score": "1,0đ" },
-        { "step": "Ý 2 / Phép tính 2 và đáp số đúng...", "score": "1,0đ" }
+        { "step": "Ý 1 / Phép tính 1 và câu lời giải thứ nhất...", "score": "0,75đ" },
+        { "step": "Ý 2 / Phép tính 2 và đáp số đúng...", "score": "0,75đ" }
       ],
       "codingGuide": {
         "maxCode": "Mã 2",
@@ -2000,20 +2417,71 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
           { "code": "Mã 9", "description": "Bỏ trống không làm bài.", "sampleResponse": "[Để trống]" }
         ]
       }
-    }
+    }${subjectId === 'TOAN' && essayCount > 1 ? `,
+    {
+      "num": 2,
+      "itemCode": "TOAN_${grade}_CR_02",
+      "level": "Mức 3",
+      "score": ${(essayPct / 10 - 1.5).toFixed(1)},
+      "metadata": {
+        "context": "Cá nhân (Personal)",
+        "contentDomain": "Số và phép tính",
+        "cognitiveProcess": "Suy luận (Reasoning)",
+        "difficulty": "Khó",
+        "itemType": "Tự luận / Trả lời ngắn"
+      },
+      "title": "Câu 2 (${(essayPct / 10 - 1.5).toFixed(1).replace('.', ',')} điểm - Mức 3):",
+      "text": "Bài toán vận dụng giải toán có lời văn về tỉ số phần trăm, các phép tính hoặc bài toán suy luận thực tế...",
+      "solution": "Lời giải chi tiết và đáp số...",
+      "rubric": [
+        { "step": "Bước giải 1...", "score": "0,75đ" },
+        { "step": "Bước giải 2 và đáp số...", "score": "0,75đ" }
+      ],
+      "codingGuide": {
+        "maxCode": "Mã 2",
+        "codes": [
+          { "code": "Mã 2", "description": "Mức tối đa...", "sampleResponse": "..." },
+          { "code": "Mã 1", "description": "Mức chưa tối đa...", "sampleResponse": "..." },
+          { "code": "Mã 0", "description": "Mức không đạt...", "sampleResponse": "..." },
+          { "code": "Mã 9", "description": "Bỏ trống...", "sampleResponse": "[Để trống]" }
+        ]
+      }
+    }` : ''}
   ],
   "seaplmMetadataTable": [
     {
       "itemCode": "${subjectId.substring(0, 4)}_${grade}_MCQ_01",
       "order": 1,
       "context": "Cá nhân (Personal)",
-      "contentDomain": "Số và phép tính",
+      "contentDomain": "${subjectId === 'TOAN' ? 'Số và phép tính' : 'Kiến thức cốt lõi'}",
       "cognitiveProcess": "Biết (Knowing)",
       "difficulty": "Dễ",
       "itemType": "Trắc nghiệm 4 lựa chọn (MCQ)",
       "score": 0.5,
       "maxCode": "Mã 1"
-    }
+    }${subjectId === 'TOAN' ? `,
+    {
+      "itemCode": "TOAN_${grade}_MCQ_${String(mathMcqNum + 1).padStart(2, '0')}",
+      "order": ${mathMcqNum + 1},
+      "context": "Môi trường xung quanh (Local community)",
+      "contentDomain": "Hình học và Đo lường",
+      "cognitiveProcess": "Áp dụng (Applying)",
+      "difficulty": "Trung bình",
+      "itemType": "Trắc nghiệm 4 lựa chọn (MCQ)",
+      "score": 0.5,
+      "maxCode": "Mã 1"
+    },
+    {
+      "itemCode": "TOAN_${grade}_MCQ_${String(mcqCount).padStart(2, '0')}",
+      "order": ${mcqCount},
+      "context": "Môi trường rộng hơn (Wider world)",
+      "contentDomain": "Một số yếu tố Thống kê và Xác suất",
+      "cognitiveProcess": "Áp dụng (Applying)",
+      "difficulty": "Trung bình",
+      "itemType": "Trắc nghiệm 4 lựa chọn (MCQ)",
+      "score": 0.5,
+      "maxCode": "Mã 1"
+    }` : ''}
   ]
 }
 `;
@@ -2429,6 +2897,12 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
     var m = examData.matrix || {};
     var s = m.summary || {};
+    var currentScope = examData.scopeDesc || examData.scope || (typeof document !== 'undefined' ? (document.getElementById("aiCustomScopeInput")?.value || document.getElementById("aiScopePreset")?.value) : "") || "";
+    var termInfo = this.resolveExamTermInfo(currentScope);
+    var examHeaderTitle = examData.examHeaderTitle || termInfo.headerTitle;
+    if (termInfo.term === "HỌC KÌ II" && String(examHeaderTitle).includes("HỌC KÌ I") && !String(examHeaderTitle).includes("HỌC KÌ II")) {
+      examHeaderTitle = "ĐỀ KIỂM TRA HỌC KÌ II";
+    }
     var bookSeriesName = examData.bookSeries || (examData.seriesName || "Kết nối tri thức với cuộc sống (KNTT)");
     var mcqScoreStr = examData.mcqTotalScore ? examData.mcqTotalScore.toString().replace('.', ',') : "7,0";
     var essayScoreStr = examData.essayTotalScore ? examData.essayTotalScore.toString().replace('.', ',') : "3,0";
@@ -2531,6 +3005,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             font-size: 13pt;
             line-height: 1.0;
             font-family: 'Times New Roman', serif;
+            text-align: left;
           }
           table.eval-box {
             width: 100%;
@@ -2586,7 +3061,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <div class="Section1">
 
         <!-- PHẦN I: MA TRẬN ĐỀ KIỂM TRA (3 TẦNG DÒNG CHUẨN THÔNG TƯ 27) -->
-        <div class="title-bold-center">${(examData.threeTierMatrix && examData.threeTierMatrix.title) ? examData.threeTierMatrix.title : `MA TRẬN ĐỀ THI HỌC KÌ I MÔN ${examData.subjectName.toUpperCase()} LỚP ${examData.grade} - ${bookSeriesName.toUpperCase()}`}</div>
+        <div class="title-bold-center">${(examData.threeTierMatrix && examData.threeTierMatrix.title) ? examData.threeTierMatrix.title : `MA TRẬN ${examHeaderTitle} MÔN ${examData.subjectName.toUpperCase()} LỚP ${examData.grade} - ${bookSeriesName.toUpperCase()}`}</div>
         <div class="subtitle-center">NĂM HỌC ${examData.schoolYear}</div>
 
         ${examData.threeTierMatrix ? AIService.renderThreeTierMatrixTable(examData.threeTierMatrix, { isWord: true }) : `
@@ -2671,14 +3146,14 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
         <table class="header-table">
           <tr>
-            <td style="width: 48%;">
+            <td style="width: 48%; text-align: left;">
               <b>${examData.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
-              Tên học sinh: ...................................................<br>
+              Họ và tên: ...................................................<br>
               Lớp: ${examData.grade}.....
             </td>
-            <td style="width: 52%; text-align: right;">
+            <td style="width: 52%; text-align: left;">
               <i>Thứ….. ngày … tháng … năm 2026</i><br>
-              <b style="font-size: 13.5pt; text-transform: uppercase;">ĐỀ KIỂM TRA ĐỊNH KỲ</b><br>
+              <b style="font-size: 13.5pt; text-transform: uppercase;">${examHeaderTitle}</b><br>
               <b>MÔN: ${examData.subjectName.toUpperCase()} - LỚP ${examData.grade}</b><br>
               <i>Thời gian làm bài: ${examData.duration || "40 phút"}</i>
             </td>
@@ -2931,7 +3406,8 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
     var sLower = (examData.bookSeries || 'kntt').toLowerCase();
     var seriesSlug = (sLower.includes("chân trời") || sLower === 'ctst') ? "CTST" : "KNTT";
-    return await this.downloadWordBlob(docHtml, `De_Kiem_Tra_${examData.subjectName}_Lop_${examData.grade}_${seriesSlug}_2026_2027.docx`);
+    var termSlug = (examData.examTerm || termInfo.term || 'HK1').replace(/\s+/g, '_');
+    return await this.downloadWordBlob(docHtml, `De_Kiem_Tra_${termSlug}_${examData.subjectName}_Lop_${examData.grade}_${seriesSlug}_2026_2027.docx`);
   },
 
   /**
@@ -2941,6 +3417,12 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     if (!exam) return;
     if (this.sanitizeAndBalanceExam) {
       exam = this.sanitizeAndBalanceExam(exam);
+    }
+    var currentScope = exam.scopeDesc || exam.scope || (typeof document !== 'undefined' ? (document.getElementById("aiCustomScopeInput")?.value || document.getElementById("aiScopePreset")?.value) : "") || "";
+    var termInfo = this.resolveExamTermInfo(currentScope);
+    var examTerm = exam.examTerm || termInfo.term;
+    if (termInfo.term === "HỌC KÌ II" && String(examTerm).includes("I") && !String(examTerm).includes("II")) {
+      examTerm = "HỌC KÌ II";
     }
     var rd = exam.readingExam || {};
     var wr = exam.writingExam || {};
@@ -3046,6 +3528,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             font-size: 13pt;
             line-height: 1.0;
             font-family: 'Times New Roman', serif;
+            text-align: left;
           }
           table.eval-box {
             width: 100%;
@@ -3129,14 +3612,14 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             <!-- PHIẾU ĐỌC THÀNH TIẾNG SỐ ${idx + 1} (TRANG A4 RIÊNG BIỆT) -->
             <table class="header-table">
               <tr>
-                <td style="width: 50%; vertical-align: top;">
+                <td style="width: 50%; vertical-align: top; text-align: left;">
                   <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
                   Họ và tên HS: ...................................................<br>
                   Lớp: ${grade}..... • Số báo danh: .........
                 </td>
-                <td style="width: 50%; text-align: right; vertical-align: top;">
+                <td style="width: 50%; text-align: left; vertical-align: top;">
                   <i>Thứ….. ngày … tháng … năm 2026</i><br>
-                  <b>KIỂM TRA ĐỊNH KỲ ${exam.examTerm || 'HỌC KỲ I'}</b><br>
+                  <b>KIỂM TRA ĐỊNH KỲ ${examTerm}</b><br>
                   <b>MÔN: TIẾNG VIỆT - LỚP ${grade}</b><br>
                   <b style="font-size: 13pt; color: #b91c1c; text-transform: uppercase;">PHIẾU ĐỌC THÀNH TIẾNG SỐ ${idx + 1}</b>
                 </td>
@@ -3208,12 +3691,12 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
         <table class="header-table">
           <tr>
-            <td style="width: 48%;">
+            <td style="width: 48%; text-align: left;">
               <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
               Họ và tên: ...................................................<br>
               Lớp: ${exam.grade}.....
             </td>
-            <td style="width: 52%; text-align: right;">
+            <td style="width: 52%; text-align: left;">
               <i>Thứ….. ngày … tháng … năm 2026</i><br>
               <b style="font-size: 13.5pt; text-transform: uppercase;">PHIẾU KIỂM TRA ĐỌC HIỂU</b><br>
               <b>MÔN: TIẾNG VIỆT - LỚP ${exam.grade}</b><br>
@@ -3274,12 +3757,12 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
         <table class="header-table">
           <tr>
-            <td style="width: 48%;">
+            <td style="width: 48%; text-align: left;">
               <b>${exam.schoolName || "TRƯỜNG TIỂU HỌC ................................."}</b><br>
               Họ và tên: ...................................................<br>
               Lớp: ${exam.grade}.....
             </td>
-            <td style="width: 52%; text-align: right;">
+            <td style="width: 52%; text-align: left;">
               <i>Thứ….. ngày … tháng … năm 2026</i><br>
               <b style="font-size: 13.5pt; text-transform: uppercase;">PHIẾU KIỂM TRA VIẾT</b><br>
               <b>MÔN: TIẾNG VIỆT - LỚP ${exam.grade}</b><br>
@@ -3391,7 +3874,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         <!-- ========================================== -->
         ${WORD_PAGE_BREAK}
 
-        <div class="title-bold-center">MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ MÔN TIẾNG VIỆT LỚP ${exam.grade}</div>
+        <div class="title-bold-center">MA TRẬN ĐỀ KIỂM TRA ĐỊNH KỲ ${termInfo.matrixTitle} MÔN TIẾNG VIỆT LỚP ${exam.grade}</div>
         <div class="subtitle-center" style="margin-bottom: 14px;">Bộ sách: ${exam.bookSeries || 'Kết nối tri thức với cuộc sống (KNTT)'} • Năm học ${exam.schoolYear || '2026 - 2027'}</div>
 
         <div class="section-heading">I. MA TRẬN NỘI DUNG VÀ MỨC ĐỘ NHẬN THỨC PHẦN ĐỌC HIỂU (${compScoreStr} ĐIỂM)</div>
@@ -3828,7 +4311,8 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
     var sLower = (exam.bookSeries || 'kntt').toLowerCase();
     var seriesSlug = (sLower.includes("chân trời") || sLower === 'ctst') ? "CTST" : "KNTT";
-    var fn = `De_Kiem_Tra_Tieng_Viet_Lop_${exam.grade}_${seriesSlug}_2026_2027.docx`;
+    var termSlug = (examTerm || 'HK1').replace(/\s+/g, '_');
+    var fn = `De_Kiem_Tra_${termSlug}_Tieng_Viet_Lop_${exam.grade}_${seriesSlug}_2026_2027.docx`;
     await this.downloadWordBlob(docHtml, fn);
     return docHtml;
   },

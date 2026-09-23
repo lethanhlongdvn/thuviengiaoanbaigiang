@@ -2140,15 +2140,15 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       <div style="text-align: center; margin-bottom: 16pt; font-family: 'Times New Roman', serif;">
         <table style="width: 100%; border-collapse: collapse; border: none; margin-bottom: 10pt; font-family: 'Times New Roman', serif;">
           <tr>
-            <td style="width: 50%; vertical-align: top; text-align: left; font-size: 13pt; line-height: 1.0;">
-              <p style="margin: 0pt; line-height: 1.0;"><b>${schoolName}</b></p>
-              <p style="margin: 2pt 0 0 0; line-height: 1.0;">Tổ chuyên môn: <b>${department}</b></p>
-              <p style="margin: 2pt 0 0 0; line-height: 1.0;">Giáo viên: <b>${teacherName}</b></p>
+            <td style="width: 50%; vertical-align: top; text-align: left; font-size: 13pt;">
+              <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;"><b>${schoolName}</b></p>
+              ${department ? `<p style="margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">Tổ chuyên môn: <b>${department}</b></p>` : ''}
+              <p style="margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">Giáo viên: <b>${teacherName}</b></p>
             </td>
-            <td style="width: 50%; vertical-align: top; text-align: right; font-size: 13pt; line-height: 1.0;">
-              <p style="margin: 0pt; line-height: 1.0;"><b>NĂM HỌC: ${schoolYear}</b></p>
-              <p style="margin: 2pt 0 0 0; line-height: 1.0;">Môn dạy: <b>${subjectDisplayName}</b></p>
-              <p style="margin: 2pt 0 0 0; line-height: 1.0;"><b>KẾ HOẠCH BÀI DẠY TUẦN ${weekNum}</b></p>
+            <td style="width: 50%; vertical-align: top; text-align: right; font-size: 13pt;">
+              <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;"><b>NĂM HỌC: ${schoolYear}</b></p>
+              <p style="margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">Môn dạy: <b>${subjectDisplayName}</b></p>
+              <p style="margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;"><b>TUẦN ${weekNum}</b></p>
             </td>
           </tr>
         </table>
@@ -2250,26 +2250,36 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     var weekRangeInfo = (window.AcademicCalendar && AcademicCalendar.getWeekRange(weekNum)) || null;
     var weekRangeText = weekRangeInfo ? ('<div style="font-size: 11pt; font-weight: normal; margin-top: 3pt; text-transform: none; color: #334155;">(' + weekRangeInfo.label + ')</div>') : '';
 
+    var subjectNames = [];
+    assignments.forEach(function(item) {
+      var sKey = item.subjectKey || 'am_nhac';
+      var sName = IntegrationService.getSubjectDisplayName(sKey);
+      if (sName && !subjectNames.includes(sName)) subjectNames.push(sName);
+    });
+    var subjectDisplayName = subjectNames.length > 1 
+      ? ('Đa môn (' + subjectNames.join(', ') + ')') 
+      : (subjectNames[0] || '');
+
     return `
       <div style="text-align: center; margin-bottom: 16pt; font-family: 'Times New Roman', serif;">
         <table style="width: 100%; border-collapse: collapse; border: none; margin-bottom: 12pt; font-family: 'Times New Roman', serif;">
           <tr>
-            <td style="width: 50%; vertical-align: top; text-align: left; font-size: 13pt; line-height: 1.0;">
-              <p style="margin: 0pt; line-height: 1.0; font-weight: bold;">${schoolName.toUpperCase()}</p>
-              <p style="margin: 2pt 0 0 0; line-height: 1.0;">Tổ chuyên môn: <b>${department}</b></p>
-              <p style="margin: 2pt 0 0 0; line-height: 1.0;">Giáo viên giảng dạy: <b>${teacherName}</b></p>
+            <td style="width: 50%; vertical-align: top; text-align: left; font-size: 13pt;">
+              <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;"><b>${schoolName}</b></p>
+              ${department ? `<p style="margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">Tổ chuyên môn: <b>${department}</b></p>` : ''}
+              <p style="margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">Giáo viên: <b>${teacherName}</b></p>
             </td>
-            <td style="width: 50%; vertical-align: top; text-align: right; font-size: 13pt; line-height: 1.0;">
-              <p style="margin: 0pt; line-height: 1.0; font-weight: bold;">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</p>
-              <p style="margin: 2pt 0 0 0; line-height: 1.0; font-weight: bold; font-style: italic;">Độc lập - Tự do - Hạnh phúc</p>
-              <p style="margin: 4pt 0 0 0; line-height: 1.0;">Năm học: <b>${schoolYear}</b></p>
+            <td style="width: 50%; vertical-align: top; text-align: right; font-size: 13pt;">
+              <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;"><b>NĂM HỌC: ${schoolYear}</b></p>
+              ${subjectDisplayName ? `<p style="margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;">Môn dạy: <b>${subjectDisplayName}</b></p>` : ''}
+              <p style="margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; line-height: 1.0; font-family: 'Times New Roman', serif; font-size: 13pt;"><b>TUẦN ${weekNum}</b></p>
             </td>
           </tr>
         </table>
 
         <div style="margin: 10pt 0 8pt 0;">
           <h2 style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; margin: 0; line-height: 1.0; color: #000;">
-            KẾ HOẠCH BÀI DẠY - TUẦN ${weekNum}
+            KẾ HOẠCH BÀI DẠY TUẦN ${weekNum}
             ${weekRangeText}
           </h2>
           <p style="font-family: 'Times New Roman', serif; font-size: 12pt; font-style: italic; margin: 3pt 0 0 0; line-height: 1.0;">
@@ -2279,7 +2289,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 
         <div style="margin-top: 10pt; margin-bottom: 12pt;">
           <p style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-align: left; margin-bottom: 4pt; line-height: 1.0;">
-            I. BẢNG TỔNG HỢP PHÂN CÔNG GIẢNG DẠY TRONG TUẦN:
+            BẢNG TỔNG HỢP PHÂN CÔNG GIẢNG DẠY TRONG TUẦN:
           </p>
           <table class="tkb-table" style="width: 100%; border-collapse: collapse; font-family: 'Times New Roman', serif; font-size: 11pt; border: 1pt solid #000;">
             <thead>
@@ -2302,31 +2312,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
             </tbody>
           </table>
         </div>
-
-        <div style="margin-top: 12pt; margin-bottom: 20pt; font-family: 'Times New Roman', serif;">
-          <table style="width: 100%; border-collapse: collapse; border: none; font-family: 'Times New Roman', serif;">
-            <tr>
-              <td style="width: 50%; text-align: center; font-size: 13pt; vertical-align: top; line-height: 1.0;">
-                <p style="margin: 0pt; font-weight: bold; line-height: 1.0;">DUYỆT CỦA TỔ CHUYÊN MÔN</p>
-                <p style="margin: 2pt 0 0 0; font-style: italic; font-size: 11pt; line-height: 1.0;">(Ký và ghi rõ họ tên)</p>
-                <div style="height: 45pt;"></div>
-              </td>
-              <td style="width: 50%; text-align: center; font-size: 13pt; vertical-align: top; line-height: 1.0;">
-                <p style="margin: 0pt; font-style: italic; font-size: 12pt; line-height: 1.0;">Ngày ...... tháng ...... năm 20...</p>
-                <p style="margin: 2pt 0 0 0; font-weight: bold; line-height: 1.0;">GIÁO VIÊN GIẢNG DẠY</p>
-                <p style="margin: 2pt 0 0 0; font-style: italic; font-size: 11pt; line-height: 1.0;">(Ký và ghi rõ họ tên)</p>
-                <div style="height: 45pt;"></div>
-                <p style="margin: 0pt; font-weight: bold; line-height: 1.0;">${teacherName}</p>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-      <div style="page-break-before: always;"></div>
-      <div style="margin-bottom: 12pt;">
-        <h3 style="font-size: 13pt; font-weight: bold; text-align: left; text-transform: uppercase; margin: 0 0 8pt 0;">
-          II. KẾ HOẠCH BÀI DẠY CHI TIẾT CÁC MÔN (CHUẨN CÔNG VĂN 2345/BGDĐT-GDTH):
-        </h3>
       </div>
     `;
   },
@@ -3439,6 +3424,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       weekNum: weekNum,
       isTimetableDoc: true,
       role: isGvbm ? 'gvbm' : 'gvcn',
+      department: meta.department || (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.department) || (typeof integrationState !== 'undefined' && integrationState.gvbmConfig && integrationState.gvbmConfig.department) || '',
       tkbCoverHtml: tkbCoverHtml,
       disabilitySupport: meta.disabilitySupport || (weeklyPlanResult && weeklyPlanResult.metadata && weeklyPlanResult.metadata.disabilitySupport),
       approvalConfig: meta.approvalConfig || (weeklyPlanResult && weeklyPlanResult.metadata && weeklyPlanResult.metadata.approvalConfig) || (typeof integrationState !== 'undefined' && integrationState.approvalConfig)
@@ -3576,6 +3562,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var schoolYear = meta.schoolYear || '2026 - 2027';
     var className = meta.className || '';
     var grade = meta.grade || 5;
+    var department = meta.department || '';
     var isTimetableDoc = !!meta.isTimetableDoc;
 
     var docHtml = `
@@ -4173,16 +4160,18 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
       var headerBlock = '';
       if (lIdx === 0) {
+        var depText = department ? `<p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Tổ chuyên môn: <b>${department}</b></p>` : '';
         headerBlock = `
           <table class="header-table">
             <tr>
               <td style="width: 50%; text-align: left;" align="left">
-                <p style="text-align: left;" align="left"><b>${schoolName}</b></p>
-                <p style="text-align: left;" align="left">Giáo viên: <b>${teacherName}</b></p>
+                <p style="text-align: left; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left"><b>${schoolName}</b></p>
+                ${depText}
+                <p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Giáo viên: <b>${teacherName}</b></p>
               </td>
               <td style="width: 50%; text-align: right;" align="right">
-                <p style="text-align: right;" align="right"><b>NĂM HỌC: ${schoolYear}</b></p>
-                <p style="text-align: right;" align="right">${className ? ('<b>' + className + '</b> • ') : ('Khối: <b>' + (les.grade || grade) + '</b> • ')}Tuần: <b>${weekText}</b></p>
+                <p style="text-align: right; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="right"><b>NĂM HỌC: ${schoolYear}</b></p>
+                <p style="text-align: right; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="right">${(meta.role === 'gvbm' && les.classes) ? ('<b>' + (les.subjectName || IntegrationService.getSubjectDisplayName(les.subjectKey) || subjName) + '</b> • ') : (className ? ('<b>' + className + '</b> • ') : ('Khối: <b>' + (les.grade || grade) + '</b> • '))}Tuần: <b>${weekText}</b></p>
               </td>
             </tr>
           </table>
