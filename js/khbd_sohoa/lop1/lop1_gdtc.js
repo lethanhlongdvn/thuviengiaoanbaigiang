@@ -2295,7 +2295,8 @@
           "- Trung thực: Thực hiện đúng luật chơi, đúng hiệu lệnh; nhận xét kết quả luyện tập của bản thân và bạn một cách trung thực.",
           "- Trách nhiệm, nhân ái: Có trách nhiệm bảo đảm an toàn cho bản thân và bạn; đoàn kết, tôn trọng, giúp đỡ bạn tập chưa tốt.",
           "3. Tích hợp",
-          "- Tích hợp giáo dục quốc phòng và an ninh: Học sinh rèn ý thức tổ chức kỉ luật, chấp hành hiệu lệnh, phối hợp với bạn và bình tĩnh khi xử lí tình huống."
+          "- Tích hợp giáo dục quốc phòng và an ninh: Học sinh rèn ý thức tổ chức kỉ luật, chấp hành hiệu lệnh, phối hợp với bạn và bình tĩnh khi xử lí tình huống.",
+          "TUẦ N 21                                                            Ngày thực hiện:"
         ],
         "dodung": [
           "1. Địa điểm: Sân trường hoặc nhà thể chất.",
@@ -2333,10 +2334,8 @@
           ]
         ],
         "dieuchinh": [
-          "TUẦ N 21                                                            Ngày thực hiện:",
-          "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN Tiết 41",
-          "ÔN BÀI TẬP PHÁT TRIỂN NĂNG LỰC PHỐI HỢP",
-          "VẬN ĐỘNG CỦA CƠ THỂ (tiết 5)"
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ]
       }
     ]

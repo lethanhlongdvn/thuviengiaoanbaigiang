@@ -8302,6 +8302,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var dateStr = lessonDateInfo ? lessonDateInfo.formatted : '';
   var durationWithDate = dateStr ? (durationDefault + ' (ngày ' + dateStr + ')') : durationDefault;
 
+  if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.healLeakedYccd === 'function') {
+    IntegrationService.healLeakedYccd(les);
+  }
+
   var inTichHopSection = false;
   var yccdHtml = (les.yccd || []).map(function(line) {
     if (typeof line !== 'string') return '';

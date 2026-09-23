@@ -1424,7 +1424,14 @@
           "1. Năng lực đặc thù",
           "– Thực hiện được phép cộng, phép trừ hai phân số khác mẫu số hoặc một mẫu số chia hết cho mẫu số còn lại.",
           "– Vận dụng được phép cộng, phép trừ hai phân số để giải quyết một số tình huống thực tế đơn giản.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "– Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày kết quả và nhận xét bài làm của bạn.",
+          "– Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm phù hợp để giải quyết bài toán, giải thích được lí do chọn cách làm.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành bài tập được giao.",
+          "– Trách nhiệm: Cẩn thận khi tính toán, trình bày bài giải rõ ràng và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "– AI 5.C4.1: Sử dụng tư duy thuật toán “Tìm mẫu số chung“ để hiểu cách lập trình AI thực hiện các bước giải quyết vấn đề."
         ],
         "dodung": [
           "– SGK Toán 5 tập một; SGV Toán 5 tập một; phiếu học tập hoặc bảng phụ phù hợp với từng bài.",
@@ -1432,17 +1439,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "– Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày kết quả và nhận xét bài làm của bạn.",
-          "– Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm phù hợp để giải quyết bài toán, giải thích được lí do chọn cách làm.",
-          "3. Phẩm chất",
-          "– Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành bài tập được giao.",
-          "– Trách nhiệm: Cẩn thận khi tính toán, trình bày bài giải rõ ràng và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "– AI 5.C4.1: Sử dụng tư duy thuật toán “Tìm mẫu số chung“ để hiểu cách lập trình AI thực hiện các bước giải quyết vấn đề.",
           "– ....................................................................................................................................................",
-          "– ....................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY TOÁN 5 - TUẦN 3",
-          "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG"
+          "– ...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -1628,7 +1626,14 @@
           "1. Năng lực đặc thù",
           "– Thực hiện được phép cộng, phép trừ hai phân số khác mẫu số hoặc một mẫu số chia hết cho mẫu số còn lại.",
           "– Vận dụng được phép cộng, phép trừ hai phân số để giải quyết một số tình huống thực tế đơn giản.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "– Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày kết quả và nhận xét bài làm của bạn.",
+          "– Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm phù hợp để giải quyết bài toán, giải thích được lí do chọn cách làm.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành bài tập được giao.",
+          "– Trách nhiệm: Cẩn thận khi tính toán, trình bày bài giải rõ ràng và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "– Tiết kiệm và bảo vệ nguồn nước: Từ tình huống lượng nước trong bình, giáo dục học sinh sử dụng nước vừa đủ, khóa vòi sau khi dùng và không làm bẩn nguồn nước."
         ],
         "dodung": [
           "– SGK Toán 5 tập một; SGV Toán 5 tập một; phiếu học tập hoặc bảng phụ phù hợp với từng bài.",
@@ -1636,17 +1641,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "– Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày kết quả và nhận xét bài làm của bạn.",
-          "– Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm phù hợp để giải quyết bài toán, giải thích được lí do chọn cách làm.",
-          "3. Phẩm chất",
-          "– Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành bài tập được giao.",
-          "– Trách nhiệm: Cẩn thận khi tính toán, trình bày bài giải rõ ràng và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "– Tiết kiệm và bảo vệ nguồn nước: Từ tình huống lượng nước trong bình, giáo dục học sinh sử dụng nước vừa đủ, khóa vòi sau khi dùng và không làm bẩn nguồn nước.",
           "– ....................................................................................................................................................",
-          "– ....................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY TOÁN 5 - TUẦN 3",
-          "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG"
+          "– ...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -1797,7 +1793,14 @@
           "1. Năng lực đặc thù",
           "– Nhận biết được hỗn số; xác định được phần nguyên, phần phân số của hỗn số.",
           "– Viết được hỗn số thành phân số, viết được phân số thành hỗn số và vận dụng vào một số tình huống thực tế đơn giản.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "– Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày kết quả và nhận xét bài làm của bạn.",
+          "– Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm phù hợp để giải quyết bài toán, giải thích được lí do chọn cách làm.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành bài tập được giao.",
+          "– Trách nhiệm: Cẩn thận khi tính toán, trình bày bài giải rõ ràng và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "– AI 5.D2.1: Liên hệ: Việc cập nhật thêm hỗn số vào kho kiến thức giúp học sinh (và cả hệ thống AI) xử lý các số liệu đo lường thực tế tốt hơn."
         ],
         "dodung": [
           "– SGK Toán 5 tập một; SGV Toán 5 tập một; phiếu học tập hoặc bảng phụ phù hợp với từng bài.",
@@ -1805,17 +1808,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "– Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày kết quả và nhận xét bài làm của bạn.",
-          "– Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm phù hợp để giải quyết bài toán, giải thích được lí do chọn cách làm.",
-          "3. Phẩm chất",
-          "– Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành bài tập được giao.",
-          "– Trách nhiệm: Cẩn thận khi tính toán, trình bày bài giải rõ ràng và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "– AI 5.D2.1: Liên hệ: Việc cập nhật thêm hỗn số vào kho kiến thức giúp học sinh (và cả hệ thống AI) xử lý các số liệu đo lường thực tế tốt hơn.",
           "– ....................................................................................................................................................",
-          "– ....................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY TOÁN 5 - TUẦN 3",
-          "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG"
+          "– ...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -1977,7 +1971,14 @@
           "1. Năng lực đặc thù",
           "– Nhận biết được hỗn số; xác định được phần nguyên, phần phân số của hỗn số.",
           "– Viết được hỗn số thành phân số, viết được phân số thành hỗn số và vận dụng vào một số tình huống thực tế đơn giản.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "– Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày kết quả và nhận xét bài làm của bạn.",
+          "– Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm phù hợp để giải quyết bài toán, giải thích được lí do chọn cách làm.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành bài tập được giao.",
+          "– Trách nhiệm: Cẩn thận khi tính toán, trình bày bài giải rõ ràng và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "– Năng lực số 1.1.CB2b: Học sinh tra cứu một số thông tin thực tế có liên quan đến hỗn số để nhận biết cách dùng hỗn số trong đời sống."
         ],
         "dodung": [
           "– SGK Toán 5 tập một; SGV Toán 5 tập một; phiếu học tập hoặc bảng phụ phù hợp với từng bài.",
@@ -1985,13 +1986,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "– Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày kết quả và nhận xét bài làm của bạn.",
-          "– Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm phù hợp để giải quyết bài toán, giải thích được lí do chọn cách làm.",
-          "3. Phẩm chất",
-          "– Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành bài tập được giao.",
-          "– Trách nhiệm: Cẩn thận khi tính toán, trình bày bài giải rõ ràng và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "– Năng lực số 1.1.CB2b: Học sinh tra cứu một số thông tin thực tế có liên quan đến hỗn số để nhận biết cách dùng hỗn số trong đời sống.",
           "– ....................................................................................................................................................",
           "– ...................................................................................................................................................."
         ],
@@ -3510,7 +3504,14 @@
           "- Thể hiện được số đo diện tích bằng cách dùng số thập phân.",
           "- Vận dụng giải được các bài tập có liên quan đến viết số đo diện tích dưới dạng số thập phân.",
           "- Có cơ hội phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học, giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- BVMT: Khai thác số đo nồng độ bụi, chất lượng không khí hoặc lượng rác thải ở dạng số thập phân; giáo dục học sinh có ý thức bảo vệ môi trường sống."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -3518,13 +3519,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- BVMT: Khai thác số đo nồng độ bụi, chất lượng không khí hoặc lượng rác thải ở dạng số thập phân; giáo dục học sinh có ý thức bảo vệ môi trường sống.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -3650,7 +3644,12 @@
           "- Thể hiện được số đo dung tích bằng cách dùng số thập phân.",
           "- Vận dụng giải được các bài tập thực tế liên quan đến viết số đo đại lượng dưới dạng số thập phân.",
           "- Có cơ hội phát triển năng lực giải quyết vấn đề toán học, giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -3658,11 +3657,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -3756,7 +3750,14 @@
           "- Làm tròn được số thập phân đến số tự nhiên gần nhất.",
           "- Vận dụng làm tròn, ước lượng số thập phân trong giải các bài tập, bài toán thực tế đơn giản.",
           "- Có cơ hội phát triển năng lực giao tiếp toán học, tư duy và lập luận toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.2: Nhấn mạnh: AI có thể tự động làm tròn số liệu báo cáo, nhưng con người phải kiểm tra xem việc làm tròn đó có gây sai sót lớn không."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -3764,13 +3765,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.2: Nhấn mạnh: AI có thể tự động làm tròn số liệu báo cáo, nhưng con người phải kiểm tra xem việc làm tròn đó có gây sai sót lớn không.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -3872,7 +3866,14 @@
           "- Làm tròn được số thập phân đến hàng phần mười, hàng phần trăm.",
           "- Vận dụng làm tròn, ước lượng số đo đại lượng dưới dạng số thập phân trong giải bài tập thực tế.",
           "- Có cơ hội phát triển năng lực giải quyết vấn đề toán học và giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 1.2.CB2a: Đánh giá độ tin cậy của các thông tin giá cả đã được làm tròn trên website bán hàng."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -3880,13 +3881,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 1.2.CB2a: Đánh giá độ tin cậy của các thông tin giá cả đã được làm tròn trên website bán hàng.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -4004,7 +3998,14 @@
           "- Củng cố cách đọc, viết số thập phân, viết số đo đại lượng dưới dạng số thập phân và làm tròn số thập phân.",
           "- Vận dụng giải được các bài tập, bài toán thực tế liên quan đến số thập phân.",
           "- Có cơ hội phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học, giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.D2.1: Ví dụ: Hệ thống AI dự báo giá cả thị trường sẽ chính xác hơn khi liên tục được cập nhật các số thập phân về giá trị thực tế hàng giờ."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -4012,13 +4013,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.D2.1: Ví dụ: Hệ thống AI dự báo giá cả thị trường sẽ chính xác hơn khi liên tục được cập nhật các số thập phân về giá trị thực tế hàng giờ.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -4146,7 +4140,14 @@
           "- Hệ thống, củng cố kiến thức về số thập phân, so sánh số thập phân, viết số đo đại lượng dưới dạng số thập phân, làm tròn số thập phân.",
           "- Vận dụng giải các bài tập, bài toán thực tế liên quan đến các nội dung về số thập phân.",
           "- Thực hiện được trò chơi học tập nhằm củng cố cách đọc, so sánh số thập phân.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 4.2.CB2a: Tìm hiểu chính sách quyền riêng tư khi sử dụng các ứng dụng giải toán online."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -4154,16 +4155,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 4.2.CB2a: Tìm hiểu chính sách quyền riêng tư khi sử dụng các ứng dụng giải toán online.",
           "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "CHỦ ĐỀ 3: MỘT SỐ ĐƠN VỊ ĐO DIỆN TÍCH"
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -4271,7 +4264,14 @@
           "- Nhận biết được đơn vị đo diện tích ki-lô-mét vuông (km²); thực hiện được việc chuyển đổi giữa một số đơn vị đo diện tích.",
           "- Giải quyết được một số vấn đề thực tiễn gắn với số đo diện tích.",
           "- Có cơ hội phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học, giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A2.2: Tìm hiểu cách AI phân tích ảnh vệ tinh tính toán diện tích rừng (km²) bị mất để đưa ra cảnh báo cháy rừng kịp thời."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -4279,13 +4279,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A2.2: Tìm hiểu cách AI phân tích ảnh vệ tinh tính toán diện tích rừng (km²) bị mất để đưa ra cảnh báo cháy rừng kịp thời.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -4434,7 +4427,14 @@
           "- Nhận biết được đơn vị đo diện tích héc-ta (ha); thực hiện được việc chuyển đổi giữa một số đơn vị đo diện tích (km², ha, m²).",
           "- Giải quyết được một số vấn đề thực tiễn gắn với số đo diện tích.",
           "- Có cơ hội phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học, giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- BVMT: Dùng số liệu diện tích rừng, vườn quốc gia hoặc đất xanh để giáo dục học sinh ý thức bảo vệ tài nguyên thiên nhiên."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -4442,13 +4442,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- BVMT: Dùng số liệu diện tích rừng, vườn quốc gia hoặc đất xanh để giáo dục học sinh ý thức bảo vệ tài nguyên thiên nhiên.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -4779,7 +4772,14 @@
           "- Thực hành tính toán, đo lường và ước lượng được diện tích.",
           "- Vận dụng được việc thực hành tính toán, đo lường và ước lượng diện tích để giải quyết một số tình huống thực tế.",
           "- Có cơ hội phát triển năng lực tư duy và lập luận toán học, giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.C4.2: Sử dụng ứng dụng thước đo điện tử có tích hợp AI trên điện thoại để đo kích thước các đồ vật thực tế trong lớp học."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -4787,13 +4787,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.C4.2: Sử dụng ứng dụng thước đo điện tử có tích hợp AI trên điện thoại để đo kích thước các đồ vật thực tế trong lớp học.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -4919,7 +4912,14 @@
           "- Thực hành tính toán, đo lường và ước lượng được diện tích.",
           "- Vận dụng được việc thực hành tính toán, đo lường và ước lượng diện tích để giải quyết một số tình huống thực tế.",
           "- Có cơ hội phát triển năng lực tư duy và lập luận toán học, giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Tiết kiệm và bảo vệ nguồn nước: Khi thực hành đo đạc, vệ sinh lớp học hoặc chăm sóc cây, nhắc học sinh sử dụng nước hợp lí, không xả nước lãng phí."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -4927,13 +4927,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Tiết kiệm và bảo vệ nguồn nước: Khi thực hành đo đạc, vệ sinh lớp học hoặc chăm sóc cây, nhắc học sinh sử dụng nước hợp lí, không xả nước lãng phí.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -5047,7 +5040,14 @@
           "- Thực hiện được việc chuyển đổi giữa một số đơn vị đo diện tích đã học.",
           "- Giải quyết được một số vấn đề thực tiễn gắn với số đo diện tích.",
           "- Có cơ hội phát triển năng lực tư duy và lập luận toán học, năng lực giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.D1.1: HS thu thập số liệu diện tích nhà ở của các bạn trong nhóm để “huấn luyện“ một sơ đồ tư duy về không gian sống của lớp."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -5055,13 +5055,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.D1.1: HS thu thập số liệu diện tích nhà ở của các bạn trong nhóm để “huấn luyện“ một sơ đồ tư duy về không gian sống của lớp.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -5207,7 +5200,14 @@
           "- Thực hiện được việc chuyển đổi giữa một số đơn vị đo diện tích đã học.",
           "- Giải quyết được một số vấn đề thực tiễn gắn với số đo diện tích.",
           "- Có cơ hội phát triển năng lực tư duy và lập luận toán học, năng lực giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Đạo đức, lối sống: Qua bài toán diện tích nhà ở, khu sinh hoạt, giáo dục học sinh sống gọn gàng, sạch sẽ và biết giữ gìn không gian chung."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -5215,16 +5215,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Đạo đức, lối sống: Qua bài toán diện tích nhà ở, khu sinh hoạt, giáo dục học sinh sống gọn gàng, sạch sẽ và biết giữ gìn không gian chung.",
           "....................................................................................................................................................",
-          "....................................................................................................................................................",
-          "CHỦ ĐỀ 4: CÁC PHÉP TÍNH VỚI SỐ THẬP PHÂN"
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -5380,7 +5372,14 @@
           "- Thực hiện được phép cộng số thập phân.",
           "- Vận dụng được việc cộng số thập phân để giải quyết một số tình huống thực tế.",
           "- Có cơ hội phát triển năng lực tư duy và lập luận toán học, mô hình hoá toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: AI xử lý việc cộng hàng triệu giao dịch ngân hàng mỗi giây để đảm bảo tài khoản của khách hàng luôn chính xác tuyệt đối."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -5388,13 +5387,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: AI xử lý việc cộng hàng triệu giao dịch ngân hàng mỗi giây để đảm bảo tài khoản của khách hàng luôn chính xác tuyệt đối.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -5589,7 +5581,14 @@
           "- Thực hiện được phép cộng hai số thập phân.",
           "- Nhận biết và vận dụng được tính chất giao hoán, kết hợp của phép cộng các số thập phân trong tính toán.",
           "- Giải được bài toán thực tế liên quan đến phép cộng hai số thập phân.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 1.3.CB2b: Nhận biết nơi lưu trữ tệp tin bảng tính quản lý chi tiêu cá nhân trong máy tính."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -5597,13 +5596,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 1.3.CB2b: Nhận biết nơi lưu trữ tệp tin bảng tính quản lý chi tiêu cá nhân trong máy tính.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -5737,7 +5729,14 @@
           "- Thực hiện được phép trừ số thập phân.",
           "- Giải được một số bài toán thực tế liên quan đến phép trừ số thập phân.",
           "- Phát triển năng lực giao tiếp toán học, tư duy và giải quyết vấn đề thông qua các tình huống thực tiễn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: Ứng dụng AI quản lý kho: Tự động trừ số lượng hàng hóa (kg) khi có người mua để nhắc nhở nhân viên nhập hàng kịp thời."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -5745,13 +5744,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: Ứng dụng AI quản lý kho: Tự động trừ số lượng hàng hóa (kg) khi có người mua để nhắc nhở nhân viên nhập hàng kịp thời.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -5892,7 +5884,14 @@
           "- Thực hiện thành thạo phép trừ số thập phân.",
           "- Làm quen với bài toán tìm số thập phân chưa biết trong phép cộng, trừ số thập phân.",
           "- Giải quyết được các tình huống thực tế liên quan đến phép trừ số thập phân.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 2.1.CB2a: Chọn phương tiện giao tiếp số phù hợp để hỏi bạn cách thực hiện phép tính trừ."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -5900,13 +5899,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 2.1.CB2a: Chọn phương tiện giao tiếp số phù hợp để hỏi bạn cách thực hiện phép tính trừ.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -6036,7 +6028,14 @@
           "- Thực hiện được phép nhân một số thập phân với một số tự nhiên.",
           "- Giải được bài toán thực tế liên quan đến phép nhân một số thập phân với một số tự nhiên.",
           "- Nhận biết cách đặt tính và viết dấu phẩy ở tích khi nhân số thập phân.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: AI tính toán quãng đường tàu vũ trụ dựa trên vận tốc và thời gian (số thập phân) để hạ cánh chính xác xuống các hành tinh."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -6044,13 +6043,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: AI tính toán quãng đường tàu vũ trụ dựa trên vận tốc và thời gian (số thập phân) để hạ cánh chính xác xuống các hành tinh.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -6183,7 +6175,14 @@
           "- Thực hiện được phép nhân hai số thập phân.",
           "- Giải được bài toán thực tế liên quan đến phép nhân hai số thập phân.",
           "- Biết xác định vị trí dấu phẩy ở tích dựa vào số chữ số ở phần thập phân của các thừa số.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 3.4.CB2a: Xây dựng thuật toán từng bước để giải bài toán nhân quãng đường, vận tốc."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình bài tập SGK; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -6191,13 +6190,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 3.4.CB2a: Xây dựng thuật toán từng bước để giải bài toán nhân quãng đường, vận tốc.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -6344,7 +6336,14 @@
           "- Thực hiện được phép nhân số thập phân; nhận biết và vận dụng được tính chất giao hoán, kết hợp của phép nhân các số thập phân trong tính toán.",
           "- Giải được bài toán thực tế liên quan tới phép nhân số thập phân.",
           "- Trình bày được cách đặt tính, tính và giải thích kết quả hợp lí.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 3.4.CB2a: Xây dựng thuật toán từng bước để kiểm tra kết quả phép nhân số thập phân bằng bảng tính."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -6352,13 +6351,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 3.4.CB2a: Xây dựng thuật toán từng bước để kiểm tra kết quả phép nhân số thập phân bằng bảng tính.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -6492,7 +6484,14 @@
           "- Thực hiện được phép chia số thập phân cho một số tự nhiên.",
           "- Giải được một số bài toán thực tế liên quan đến phép chia số thập phân.",
           "- Nêu được các bước chia và biết đặt dấu phẩy đúng vị trí ở thương.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: Nhận biết ứng dụng AI trong tính toán phân chia diện tích luống cây theo dữ liệu nhập vào."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -6500,13 +6499,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: Nhận biết ứng dụng AI trong tính toán phân chia diện tích luống cây theo dữ liệu nhập vào.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -6636,7 +6628,14 @@
           "- Thực hiện được phép chia một số tự nhiên cho một số tự nhiên mà thương tìm được là một số thập phân.",
           "- Vận dụng được phép chia để giải bài toán thực tế.",
           "- Trình bày được phép chia khi còn dư bằng cách viết thêm chữ số 0 để chia tiếp.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 2.1.CB2a: Sử dụng máy tính cầm tay hoặc ứng dụng Calculator để kiểm tra kết quả phép chia sau khi đã tính tay."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -6644,13 +6643,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 2.1.CB2a: Sử dụng máy tính cầm tay hoặc ứng dụng Calculator để kiểm tra kết quả phép chia sau khi đã tính tay.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -6776,7 +6768,14 @@
           "- Thực hiện được phép chia một số tự nhiên cho một số thập phân.",
           "- Vận dụng tính chất nhân cả số bị chia và số chia với cùng một số khác 0 để đưa phép chia về dạng đã biết.",
           "- Giải được bài toán thực tế liên quan đến phép chia một số tự nhiên cho một số thập phân.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: Sử dụng trợ lí AI/ứng dụng mô phỏng để kiểm tra dữ liệu kích thước bể cá, từ đó liên hệ phép chia trong thực tế."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -6784,13 +6783,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: Sử dụng trợ lí AI/ứng dụng mô phỏng để kiểm tra dữ liệu kích thước bể cá, từ đó liên hệ phép chia trong thực tế.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -6920,7 +6912,14 @@
           "- Thực hiện được phép chia một số thập phân cho một số thập phân.",
           "- Củng cố phép chia số thập phân thông qua bài tập và tình huống thực tế.",
           "- Trình bày được lời giải bài toán thực tế có liên quan đến phép chia số thập phân.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 1.2.CB1a: Sử dụng Quizizz hoặc Google Forms để luyện tập, nhận phản hồi nhanh về kết quả phép chia số thập phân."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -6928,13 +6927,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 1.2.CB1a: Sử dụng Quizizz hoặc Google Forms để luyện tập, nhận phản hồi nhanh về kết quả phép chia số thập phân.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -7066,7 +7058,14 @@
           "- Thực hiện được nhân nhẩm một số thập phân với 10; 100; 1000; ... hoặc với 0,1; 0,01; 0,001; ... .",
           "- Nêu được quy tắc chuyển dấu phẩy khi nhân nhẩm số thập phân.",
           "- Vận dụng được quy tắc vào đổi đơn vị đo và giải bài toán thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.C4.1: Nhận biết quy tắc dịch chuyển dấu phẩy tương tự như các “lệnh” trong lập trình AI để dịch chuyển dữ liệu nhanh chóng."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -7074,13 +7073,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.C4.1: Nhận biết quy tắc dịch chuyển dấu phẩy tương tự như các “lệnh” trong lập trình AI để dịch chuyển dữ liệu nhanh chóng.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -7218,7 +7210,14 @@
           "- Thực hiện được chia nhẩm một số thập phân cho 10; 100; 1000; ... hoặc cho 0,1; 0,01; 0,001; ... .",
           "- Nêu được quy tắc chuyển dấu phẩy khi chia nhẩm số thập phân.",
           "- Vận dụng được quy tắc vào đổi đơn vị đo và giải bài toán thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 3.4.CB1a: Liệt kê các câu lệnh dịch chuyển dấu phẩy tương tự quy trình lập trình đơn giản."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -7226,13 +7225,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 3.4.CB1a: Liệt kê các câu lệnh dịch chuyển dấu phẩy tương tự quy trình lập trình đơn giản.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -7393,7 +7385,14 @@
           "- Củng cố thực hiện bốn phép tính với số thập phân.",
           "- Vận dụng được nhân, chia nhẩm số thập phân với 10; 100; 1 000 hoặc với 0,1; 0,01; 0,001.",
           "- Giải được bài toán thực tế liên quan đến số thập phân.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A3.1: Thực hành kiểm chứng kết quả phép tính số thập phân bằng cách hỏi Chatbot AI và đối chiếu với cách làm của mình."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -7401,13 +7400,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A3.1: Thực hành kiểm chứng kết quả phép tính số thập phân bằng cách hỏi Chatbot AI và đối chiếu với cách làm của mình.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -7541,7 +7533,14 @@
           "- Củng cố tính giá trị biểu thức, tính bằng cách thuận tiện với số thập phân.",
           "- Vận dụng tính diện tích hình chữ nhật và giải bài toán có lời văn.",
           "- Biết trình bày bài giải rõ ràng, kiểm tra kết quả hợp lí.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 5.2.CB2a: Lựa chọn các công cụ máy tính số phù hợp để kiểm tra kết quả bài làm."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -7549,13 +7548,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 5.2.CB2a: Lựa chọn các công cụ máy tính số phù hợp để kiểm tra kết quả bài làm.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -7689,7 +7681,12 @@
           "- Củng cố các phép tính với số thập phân qua bài tập tổng hợp.",
           "- Vận dụng kiến thức về số thập phân, hình học và đo lường vào tình huống thực tế.",
           "- Rèn kĩ năng đọc đề, phân tích dữ kiện và trình bày bài giải có lời văn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -7697,11 +7694,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -7860,7 +7852,14 @@
           "- Nhận biết được hình tam giác, các đỉnh, cạnh, góc của hình tam giác.",
           "- Nhận biết được một số dạng hình tam giác: tam giác nhọn, tam giác vuông, tam giác tù, tam giác đều.",
           "- Nhận biết được đáy, đường cao, chiều cao của hình tam giác; chỉ ra được đường cao ứng với đáy đã cho.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.C4.2: Sử dụng AutoDraw: HS vẽ phác thảo tam giác, AI sẽ nhận diện và gợi ý hình tam giác chuẩn để HS thực hành tính diện tích."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -7868,13 +7867,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.C4.2: Sử dụng AutoDraw: HS vẽ phác thảo tam giác, AI sẽ nhận diện và gợi ý hình tam giác chuẩn để HS thực hành tính diện tích.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -8083,7 +8075,14 @@
           "- Hình thành và nêu được quy tắc tính diện tích hình tam giác.",
           "- Vận dụng công thức S = a x h : 2 để tính diện tích hình tam giác khi biết độ dài đáy và chiều cao cùng đơn vị đo.",
           "- Giải quyết được bài toán thực tế đơn giản liên quan đến diện tích hình tam giác.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- BVMT: Tính diện tích bồn hoa, mảnh vườn hình tam giác; giáo dục học sinh yêu cây xanh, không hái hoa, bẻ cành."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -8091,13 +8090,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- BVMT: Tính diện tích bồn hoa, mảnh vườn hình tam giác; giáo dục học sinh yêu cây xanh, không hái hoa, bẻ cành.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -8278,7 +8270,12 @@
           "- Củng cố cách tính diện tích hình tam giác trong bảng số liệu.",
           "- Vẽ được đường cao tương ứng với đáy của hình tam giác trên lưới ô vuông.",
           "- Vận dụng công thức tính diện tích hình tam giác vào tình huống cắt ghép hình.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -8286,11 +8283,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -8416,7 +8408,12 @@
           "- Củng cố, vận dụng công thức tính diện tích hình tam giác trong bài toán có hình vẽ.",
           "- Biết phân tích hình trên lưới ô vuông để tính diện tích hình ghép từ các tam giác.",
           "- Trình bày được bài giải rõ ràng, đầy đủ đơn vị đo.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -8424,11 +8421,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -8506,7 +8498,14 @@
           "- Nhận biết được hình thang, hai cạnh đáy, hai cạnh bên của hình thang.",
           "- Nhận biết được đường cao và chiều cao của hình thang.",
           "- Nhận biết được hình thang vuông và kiểm tra được một số hình có phải là hình thang vuông hay không.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.C4.1: HS lập luận logic: “Nếu tứ giác có 2 cạnh đáy song song Thì là hình thang”, áp dụng tư duy này vào lập trình robot."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -8514,13 +8513,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.C4.1: HS lập luận logic: “Nếu tứ giác có 2 cạnh đáy song song Thì là hình thang”, áp dụng tư duy này vào lập trình robot.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -8759,7 +8751,14 @@
           "- Nắm được cách vẽ hình thang trên giấy kẻ ô vuông.",
           "- Vẽ được hình thang khi biết hai đáy; biết hoàn thiện hình vẽ để tạo được hình thang.",
           "- Vận dụng cách vẽ hình thang để vẽ theo mẫu và tạo hình trong tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 3.4.CB2a: Viết chuỗi logic: “Nếu có 2 cạnh đáy song song thì là hình thang”."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -8768,13 +8767,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 3.4.CB2a: Viết chuỗi logic: “Nếu có 2 cạnh đáy song song thì là hình thang”.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -8947,7 +8939,12 @@
           "- Hình thành được cách tính diện tích hình thang dựa vào diện tích của các hình đã học.",
           "- Nêu và ghi nhớ được quy tắc, công thức tính diện tích hình thang.",
           "- Vận dụng được công thức tính diện tích hình thang trong bài toán có hình vẽ và tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -8956,11 +8953,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -9129,7 +9121,12 @@
           "- Củng cố và tính được diện tích hình thang trong bảng số liệu, bài chọn đáp án và bài toán có hình vẽ.",
           "- Biết phân tích hình trên lưới ô vuông thành các hình đã học để tính diện tích.",
           "- Vận dụng diện tích hình thang vào tình huống thực tế liên quan đến mảnh đất.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -9138,11 +9135,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -9284,7 +9276,14 @@
           "- Nhận biết được đường tròn và phân biệt được đường tròn với hình tròn.",
           "- Biết dùng com pa để vẽ đường tròn khi biết tâm và bán kính cho trước.",
           "- Vận dụng việc vẽ đường tròn để tạo hình trang trí đơn giản.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: AI giúp thiết kế các ổ bi trong máy móc với độ tròn hoàn hảo để máy hoạt động êm ái, giảm thiểu tiếng ồn và hư hỏng."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -9293,13 +9292,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: AI giúp thiết kế các ổ bi trong máy móc với độ tròn hoàn hảo để máy hoạt động êm ái, giảm thiểu tiếng ồn và hư hỏng.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -9456,7 +9448,14 @@
           "- Nắm được cách tính chu vi hình tròn khi biết đường kính hoặc bán kính.",
           "- Vận dụng được công thức tính chu vi hình tròn vào các bảng số liệu và bài toán thực tế.",
           "- Biết giải thích ý nghĩa của chu vi hình tròn trong một số đồ vật quen thuộc.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- BVMT: Tính chu vi, diện tích bồn cây, hồ nước hoặc sân chơi hình tròn; giáo dục học sinh giữ gìn cảnh quan xanh - sạch - đẹp."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -9465,13 +9464,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- BVMT: Tính chu vi, diện tích bồn cây, hồ nước hoặc sân chơi hình tròn; giáo dục học sinh giữ gìn cảnh quan xanh - sạch - đẹp.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -9658,7 +9650,12 @@
           "- Luyện tập cách tính chu vi hình tròn.",
           "- Vận dụng được cách tính chu vi hình tròn trong một số tình huống thực tế.",
           "- Trình bày được bài giải rõ ràng, đúng phép tính và đúng đơn vị đo.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ; máy tính, màn hình trình chiếu.",
@@ -9666,11 +9663,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -9808,7 +9800,12 @@
           "- Hình thành và nêu được quy tắc tính diện tích hình tròn.",
           "- Vận dụng công thức S = 3,14 x r x r để tính diện tích hình tròn khi biết bán kính.",
           "- Giải quyết được một số bài toán thực tế liên quan đến diện tích hình tròn.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; hình tròn bằng giấy; bảng phụ, máy chiếu.",
@@ -9816,11 +9813,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -9981,7 +9973,12 @@
           "- Luyện tập cách tính chu vi và diện tích hình tròn.",
           "- Vận dụng được công thức chu vi, diện tích hình tròn trong một số tình huống thực tế.",
           "- Biết phân tích hình ghép có phần hình tròn để tính diện tích.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; thẻ A, B, C; bảng phụ, máy chiếu.",
@@ -9989,11 +9986,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -10119,7 +10111,14 @@
           "- Nhận diện và cắt dán được các hình để ghép thành ngôi nhà.",
           "- Vận dụng các hình đã học để tạo thêm bông hoa, con gà và chi tiết trang trí.",
           "- Sáng tạo thêm cho sản phẩm tạo hình của mình.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A2.1: Khẳng định AI có thể gợi ý mẫu lắp ghép, nhưng sự khéo léo và sáng tạo để tạo ra mô hình độc bản là của con người."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; mẫu sản phẩm; máy chiếu.",
@@ -10127,13 +10126,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A2.1: Khẳng định AI có thể gợi ý mẫu lắp ghép, nhưng sự khéo léo và sáng tạo để tạo ra mô hình độc bản là của con người.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -10243,14 +10235,7 @@
           "- Thực hiện được cắt dán để tạo thành các hình theo mẫu.",
           "- Xếp được các hình theo mẫu từ bộ trò chơi xếp hình.",
           "- Thực hiện được các bước gấp thuyền buồm và giới thiệu quy trình làm sản phẩm.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bộ trò chơi xếp hình hoặc Tangram; máy chiếu.",
-          "- Học sinh: Giấy màu, kéo, hồ dán, bộ xếp hình, thiết bị quay video ngắn khi GV cho phép."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
           "3. Phẩm chất",
@@ -10258,7 +10243,14 @@
           "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "4. Tích hợp",
           "- Năng lực số 3.1.CB2b: Quay video ngắn giới thiệu quy trình lắp ghép mô hình hình học của nhóm.",
-          "- STEM: Bài 6. Thực hành trải nghiệm cùng bộ lắp ghép hình Tangram.",
+          "- STEM: Bài 6. Thực hành trải nghiệm cùng bộ lắp ghép hình Tangram."
+        ],
+        "dodung": [
+          "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bộ trò chơi xếp hình hoặc Tangram; máy chiếu.",
+          "- Học sinh: Giấy màu, kéo, hồ dán, bộ xếp hình, thiết bị quay video ngắn khi GV cho phép."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -10386,7 +10378,14 @@
           "- Nhớ và vận dụng được các đặc điểm của hình tam giác, hình tròn trong thực hành vẽ, tính chu vi, tính diện tích trong một số tình huống.",
           "- Vẽ được hình tam giác và đường cao tương ứng; tính được diện tích hình tam giác.",
           "- Vận dụng được kiến thức chu vi hình tròn, diện tích hình tam giác vào bài toán thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.D2.1: Khi HS học thêm nhiều loại hình mới, kho dữ liệu hình học của HS được cập nhật để giải các bài toán thiết kế phức tạp hơn."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -10394,13 +10393,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.D2.1: Khi HS học thêm nhiều loại hình mới, kho dữ liệu hình học của HS được cập nhật để giải các bài toán thiết kế phức tạp hơn.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -10569,7 +10561,14 @@
           "- Vẽ được các hình theo mẫu cho trước trên lưới ô vuông.",
           "- Vận dụng được cách tính diện tích hình thang, hình tam giác, hình tròn trong một số tình huống.",
           "- Biết chia hình thành các hình quen thuộc hoặc lấy diện tích hình lớn trừ diện tích hình nhỏ để tính diện tích phần còn lại.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 2.2.CB1a: Thực hành chia sẻ ảnh chụp mô hình hình học lên Padlet để cả lớp cùng xem."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -10577,13 +10576,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 2.2.CB1a: Thực hành chia sẻ ảnh chụp mô hình hình học lên Padlet để cả lớp cùng xem.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -10732,7 +10724,12 @@
           "- Luyện tập cách tính chu vi hình tròn, diện tích hình thang, hình tam giác, hình tròn.",
           "- Vận dụng được cách tính diện tích các hình trong một số tình huống thực tế.",
           "- Biết so sánh diện tích các hình và tính diện tích hình ghép.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -10740,11 +10737,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -10885,7 +10877,14 @@
           "- Đọc, viết được số thập phân; nhận biết được cấu tạo và giá trị theo hàng của các chữ số trong một số thập phân.",
           "- Thực hiện được đổi đơn vị đo đại lượng ra số thập phân.",
           "- Vận dụng được kiến thức về số thập phân để giải quyết bài toán thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.D1.1: HS đóng vai “người dán nhãn dữ liệu”: Phân loại các số thập phân vào các nhóm (nhóm > 1, nhóm < 1) để “dạy” máy học phân loại."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -10893,13 +10892,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.D1.1: HS đóng vai “người dán nhãn dữ liệu”: Phân loại các số thập phân vào các nhóm (nhóm > 1, nhóm < 1) để “dạy” máy học phân loại.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -11032,7 +11024,14 @@
           "- So sánh, sắp xếp được thứ tự các số thập phân.",
           "- Biết được cách viết khác của số thập phân.",
           "- Vận dụng được kiến thức về số thập phân để giải quyết bài toán thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 5.2.CB2a: Tham gia trò chơi ôn tập Quizizz/Kahoot để tự đánh giá năng lực về số thập phân."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -11040,13 +11039,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 5.2.CB2a: Tham gia trò chơi ôn tập Quizizz/Kahoot để tự đánh giá năng lực về số thập phân.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -11181,7 +11173,12 @@
           "- Viết được số đo đại lượng dưới dạng số thập phân.",
           "- Làm tròn được số thập phân theo yêu cầu.",
           "- Vận dụng được kiến thức về số thập phân để giải quyết bài toán thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, phấn màu; máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -11189,11 +11186,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -11318,7 +11310,14 @@
           "- Thực hiện được phép cộng số thập phân.",
           "- Vận dụng được các tính chất của phép cộng số thập phân để thực hiện tính bằng cách thuận tiện.",
           "- Vận dụng được phép cộng số thập phân để giải quyết vấn đề thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.2: Thảo luận: Nếu AI tính sai hóa đơn tiền điện, con người phải phát hiện lỗi và chịu trách nhiệm xử lý."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, phấn màu; máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -11326,13 +11325,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.2: Thảo luận: Nếu AI tính sai hóa đơn tiền điện, con người phải phát hiện lỗi và chịu trách nhiệm xử lý.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -11473,7 +11465,14 @@
           "- Thực hiện được phép trừ số thập phân.",
           "- Thực hiện được phép trừ các số đo đại lượng là số thập phân.",
           "- Vận dụng được phép trừ số thập phân để giải quyết vấn đề thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 1.3.CB2a: Thực hành nhập liệu và quản lý kết quả phép tính trong thư mục tệp tin số."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, phấn màu; máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -11481,13 +11480,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 1.3.CB2a: Thực hành nhập liệu và quản lý kết quả phép tính trong thư mục tệp tin số.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -11628,7 +11620,12 @@
           "- Thực hiện được phép nhân số thập phân.",
           "- Vận dụng được các tính chất của phép nhân và quy tắc nhân một số với 0,1; 0,01; 0,001,... để dự đoán kết quả phép tính.",
           "- Vận dụng được phép nhân số thập phân để giải quyết vấn đề thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, phấn màu; máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -11636,11 +11633,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -11741,7 +11733,12 @@
           "- Thực hiện được phép chia số thập phân.",
           "- Tìm được thành phần chưa biết trong phép chia số thập phân.",
           "- Vận dụng được phép chia số thập phân để giải quyết vấn đề thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; bảng phụ, phấn màu; máy tính, màn hình trình chiếu; phiếu học tập khi cần.",
@@ -11749,11 +11746,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -11877,7 +11869,14 @@
           "- Xác định được đáy và đường cao của hình tam giác, hình thang.",
           "- Vẽ được một số hình phẳng theo mẫu trên lưới ô vuông.",
           "- Xác định được tâm, bán kính của hình tròn và vận dụng kiến thức hình phẳng vào tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.C4.2: Sử dụng Teachable Machine để dạy máy nhận diện và phân biệt giữa hình tam giác, hình thang và hình chữ nhật."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -11886,13 +11885,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.C4.2: Sử dụng Teachable Machine để dạy máy nhận diện và phân biệt giữa hình tam giác, hình thang và hình chữ nhật.",
           "........................................................................................................................"
         ],
         "tables": [
@@ -12021,7 +12013,14 @@
           "- Tính được diện tích của một số hình phẳng đã học.",
           "- Thực hiện được việc cắt ghép hình phẳng.",
           "- Vận dụng kiến thức về hình tam giác, hình thang, hình tròn vào tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 3.1.TC3a: Thiết kế sơ đồ tư duy (Mindmap) hệ thống hóa kiến thức các loại hình phẳng."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -12030,13 +12029,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 3.1.TC3a: Thiết kế sơ đồ tư duy (Mindmap) hệ thống hóa kiến thức các loại hình phẳng.",
           "........................................................................................................................"
         ],
         "tables": [
@@ -12156,7 +12148,14 @@
           "1. Năng lực đặc thù",
           "- Nhớ và vận dụng được cách tính diện tích hình tam giác, hình thang trong một số tình huống.",
           "- Giải được bài toán thực tế liên quan đến diện tích hình tam giác, hình thang.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A2.2: Ví dụ: AI giúp kiến trúc sư tính toán diện tích kính cần dùng cho tòa nhà xanh để tối ưu hóa ánh sáng và tiết kiệm năng lượng."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -12165,13 +12164,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A2.2: Ví dụ: AI giúp kiến trúc sư tính toán diện tích kính cần dùng cho tòa nhà xanh để tối ưu hóa ánh sáng và tiết kiệm năng lượng.",
           "........................................................................................................................"
         ],
         "tables": [
@@ -12291,7 +12283,14 @@
           "1. Năng lực đặc thù",
           "- Nhớ và vận dụng được cách tính chu vi, diện tích hình tròn trong một số tình huống.",
           "- Giải được bài toán thực tế liên quan đến chu vi, diện tích hình tròn và hình ghép.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- BVMT: Tính diện tích kính, mái che hoặc khu cây xanh; liên hệ sử dụng vật liệu hợp lí, tiết kiệm năng lượng và bảo vệ môi trường."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -12300,13 +12299,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- BVMT: Tính diện tích kính, mái che hoặc khu cây xanh; liên hệ sử dụng vật liệu hợp lí, tiết kiệm năng lượng và bảo vệ môi trường.",
           "........................................................................................................................"
         ],
         "tables": [
@@ -12419,7 +12411,12 @@
           "- Luyện tập cách tính chu vi hình tròn, diện tích hình thang, hình tam giác, hình tròn.",
           "- Vận dụng được cách tính diện tích các hình trong một số tình huống thực tế.",
           "- Biết chia hình phức hợp thành các hình đã học để tính diện tích.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -12428,11 +12425,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "........................................................................................................................"
         ],
         "tables": [
@@ -12555,7 +12547,14 @@
           "- Nắm được các đơn vị đo độ dài, diện tích, khối lượng và mối quan hệ giữa các đơn vị đo.",
           "- Đổi được một số đo độ dài, khối lượng, diện tích từ đơn vị này sang đơn vị khác.",
           "- Vận dụng được các đơn vị đo trong một số tình huống giải toán cụ thể.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: Nhận biết AI thay con người đo đạc trong các hầm mỏ sâu hoặc nơi có khí độc để đảm bảo an toàn cho các công nhân."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -12564,13 +12563,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: Nhận biết AI thay con người đo đạc trong các hầm mỏ sâu hoặc nơi có khí độc để đảm bảo an toàn cho các công nhân.",
           "........................................................................................................................",
           "........................................................................................................................"
         ],
@@ -12692,7 +12684,14 @@
           "- Nhớ được các đơn vị đo độ dài, diện tích, khối lượng, thời gian và mối quan hệ giữa các đơn vị đo.",
           "- Đổi được số đo đại lượng sang số thập phân thích hợp.",
           "- Vận dụng được kiến thức đo lường vào một số tình huống cụ thể.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 1.1.CB2b: Tìm kiếm và truy cập các website chuyển đổi đơn vị đo lường trực tuyến."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -12701,13 +12700,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 1.1.CB2b: Tìm kiếm và truy cập các website chuyển đổi đơn vị đo lường trực tuyến.",
           "........................................................................................................................",
           "........................................................................................................................"
         ],
@@ -12829,7 +12821,14 @@
           "- Ôn tập khái niệm hỗn số, cách chuyển hỗn số thành phân số và chuyển phân số thành số thập phân.",
           "- Thực hiện được phép cộng, trừ phân số khác mẫu số.",
           "- Vận dụng được các tính chất của phép tính với phân số để tính bằng cách thuận tiện và giải toán thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.D2.1: Tổng kết: Kiến thức toán học học kì I là “dữ liệu nguồn” giúp HS thông minh hơn và sẵn sàng cho các bài toán phức tạp hơn ở kì II."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -12838,13 +12837,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.D2.1: Tổng kết: Kiến thức toán học học kì I là “dữ liệu nguồn” giúp HS thông minh hơn và sẵn sàng cho các bài toán phức tạp hơn ở kì II.",
           "........................................................................................................................",
           "........................................................................................................................"
         ],
@@ -12974,7 +12966,14 @@
           "- Đọc, viết, so sánh và sắp xếp được các số thập phân.",
           "- Thực hiện được các phép tính cộng, trừ, nhân, chia số thập phân.",
           "- Vận dụng được kiến thức về hình tròn và bài toán chia đều trong tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 2.5.CB2a: Tuân thủ các quy tắc ứng xử văn minh khi bình luận bài làm của bạn trên mạng."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -12983,13 +12982,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 2.5.CB2a: Tuân thủ các quy tắc ứng xử văn minh khi bình luận bài làm của bạn trên mạng.",
           "........................................................................................................................",
           "........................................................................................................................"
         ],
@@ -13119,7 +13111,12 @@
           "- Ôn tập tổng hợp kiến thức về số thập phân, đơn vị đo diện tích, phép tính với số thập phân.",
           "- Vận dụng được cách tính diện tích hình tam giác, hình chữ nhật, hình thang, hình tròn.",
           "- Giải quyết được các bài toán tổng hợp có hình vẽ và biểu thức.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập một; hình ảnh bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -13128,11 +13125,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "........................................................................................................................",
           "........................................................................................................................"
         ],
@@ -13271,7 +13263,14 @@
           "1. Năng lực đặc thù",
           "- Nhận biết được tỉ số, tỉ số phần trăm của hai đại lượng cùng loại; đọc, viết được tỉ số, tỉ số phần trăm.",
           "- Vận dụng được việc nhận biết, đọc, viết tỉ số, tỉ số phần trăm để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.B1.1: Thảo luận: Nếu dữ liệu huấn luyện AI chỉ lấy từ một nhóm người, tỉ số phần trăm phản hồi sẽ không công bằng cho các nhóm khác."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -13279,13 +13278,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.B1.1: Thảo luận: Nếu dữ liệu huấn luyện AI chỉ lấy từ một nhóm người, tỉ số phần trăm phản hồi sẽ không công bằng cho các nhóm khác.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -13465,7 +13457,14 @@
           "1. Năng lực đặc thù",
           "- Viết được tỉ số, tỉ số phần trăm.",
           "- Vận dụng được việc đọc, viết tỉ số, tỉ số phần trăm để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- BVMT: Từ tỉ số, tỉ số phần trăm của xe điện, xe xăng hoặc rác tái chế, giáo dục học sinh lựa chọn hành vi thân thiện với môi trường."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -13473,13 +13472,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- BVMT: Từ tỉ số, tỉ số phần trăm của xe điện, xe xăng hoặc rác tái chế, giáo dục học sinh lựa chọn hành vi thân thiện với môi trường.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -13628,7 +13620,14 @@
           "1. Năng lực đặc thù",
           "- Nhận biết được tỉ lệ bản đồ, đọc được tỉ lệ trên bản đồ.",
           "- Vận dụng được việc nhận biết, đọc tỉ lệ bản đồ để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A2.2: Tìm hiểu cách AI trên Google Maps tính toán tỉ lệ khoảng cách và dự báo thời gian di chuyển chính xác dựa trên tình trạng giao thông."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -13636,13 +13635,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A2.2: Tìm hiểu cách AI trên Google Maps tính toán tỉ lệ khoảng cách và dự báo thời gian di chuyển chính xác dựa trên tình trạng giao thông.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -13814,7 +13806,14 @@
           "1. Năng lực đặc thù",
           "- Vận dụng được việc nhận biết, đọc tỉ lệ bản đồ để giải quyết tình huống thực tế.",
           "- Biết tính độ dài thật hoặc độ dài trên bản đồ khi biết tỉ lệ bản đồ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- QPAN: Khi đọc bản đồ và tính khoảng cách, giáo dục học sinh hiểu ý nghĩa của bản đồ Việt Nam, yêu quê hương và có ý thức bảo vệ chủ quyền lãnh thổ."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -13822,13 +13821,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- QPAN: Khi đọc bản đồ và tính khoảng cách, giáo dục học sinh hiểu ý nghĩa của bản đồ Việt Nam, yêu quê hương và có ý thức bảo vệ chủ quyền lãnh thổ.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -13977,7 +13969,14 @@
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán tìm hai số khi biết tổng và tỉ số của hai số; tìm được hai số khi biết tổng và tỉ số của hai số đó.",
           "- Vận dụng được việc tìm hai số khi biết tổng và tỉ số của hai số để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.C4.1: HS mô phỏng quy trình giải toán theo các bước (thuật toán) mà AI thực hiện để tìm ra đáp án nhanh và chính xác nhất."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -13985,13 +13984,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.C4.1: HS mô phỏng quy trình giải toán theo các bước (thuật toán) mà AI thực hiện để tìm ra đáp án nhanh và chính xác nhất.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -14173,7 +14165,14 @@
           "1. Năng lực đặc thù",
           "- Giải được bài toán tìm hai số khi biết tổng và tỉ số của hai số đó.",
           "- Vận dụng được việc tìm hai số khi biết tổng và tỉ số của hai số đó để giải quyết một số tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Đạo đức, lối sống: Qua bài toán góp sách, chia phần, giáo dục học sinh tinh thần công bằng, chia sẻ và hợp tác trong tập thể."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -14181,13 +14180,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Đạo đức, lối sống: Qua bài toán góp sách, chia phần, giáo dục học sinh tinh thần công bằng, chia sẻ và hợp tác trong tập thể.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -14328,7 +14320,14 @@
           "1. Năng lực đặc thù",
           "- Nhận biết được bài toán tìm hai số khi biết hiệu và tỉ số của hai số; tìm được hai số khi biết hiệu và tỉ số của hai số đó.",
           "- Vận dụng được việc tìm hai số khi biết hiệu và tỉ số của hai số đó để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.D1.1: Liên hệ: Để giải toán, AI cần “dữ liệu đầu vào“ là Hiệu và Tỉ số, tương tự như việc HS tóm tắt đề bài trước khi giải."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -14336,13 +14335,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.D1.1: Liên hệ: Để giải toán, AI cần “dữ liệu đầu vào“ là Hiệu và Tỉ số, tương tự như việc HS tóm tắt đề bài trước khi giải.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -14478,7 +14470,14 @@
           "1. Năng lực đặc thù",
           "- Giải được bài toán tìm hai số khi biết hiệu và tỉ số của hai số đó.",
           "- Vận dụng được việc tìm hai số khi biết hiệu và tỉ số của hai số đó để giải quyết một số tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- BVMT: Dùng tình huống phân loại rác, chăm sóc cây trồng hoặc vật nuôi để giáo dục học sinh ý thức bảo vệ môi trường sống."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -14486,13 +14485,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- BVMT: Dùng tình huống phân loại rác, chăm sóc cây trồng hoặc vật nuôi để giáo dục học sinh ý thức bảo vệ môi trường sống.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -14625,7 +14617,14 @@
           "1. Năng lực đặc thù",
           "- Tìm được tỉ số phần trăm của hai số.",
           "- Vận dụng được việc tìm tỉ số phần trăm của hai số để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A3.1: Sử dụng các ứng dụng học tập tích hợp AI (adaptive learning) để tự luyện tập các bài toán về tỉ số phần trăm theo mức độ cá nhân."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -14633,13 +14632,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A3.1: Sử dụng các ứng dụng học tập tích hợp AI (adaptive learning) để tự luyện tập các bài toán về tỉ số phần trăm theo mức độ cá nhân.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -14751,7 +14743,14 @@
           "1. Năng lực đặc thù",
           "- Tìm được tỉ số phần trăm của hai số.",
           "- Vận dụng được việc tìm tỉ số phần trăm của hai số để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Tiết kiệm và bảo vệ nguồn nước: Khai thác các bài toán về tỉ lệ nước tiết kiệm được hoặc tỉ lệ tham gia vệ sinh trường lớp để giáo dục học sinh sử dụng nước có trách nhiệm."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -14759,13 +14758,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Tiết kiệm và bảo vệ nguồn nước: Khai thác các bài toán về tỉ lệ nước tiết kiệm được hoặc tỉ lệ tham gia vệ sinh trường lớp để giáo dục học sinh sử dụng nước có trách nhiệm.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -14888,7 +14880,14 @@
           "1. Năng lực đặc thù",
           "- Tìm được giá trị phần trăm của một số.",
           "- Vận dụng được việc tìm giá trị phần trăm của một số để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A2.2: Ví dụ AI tính phần trăm lượng pin còn lại hoặc phần trăm hoàn thành nhiệm vụ của robot thám hiểm để thông báo cho con người."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; máy tính cầm tay; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -14896,13 +14895,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A2.2: Ví dụ AI tính phần trăm lượng pin còn lại hoặc phần trăm hoàn thành nhiệm vụ của robot thám hiểm để thông báo cho con người.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -15038,7 +15030,14 @@
           "1. Năng lực đặc thù",
           "- Tìm được giá trị phần trăm của một số trong các tình huống thực tế.",
           "- Vận dụng được kiến thức về phần trăm để giải bài toán về dinh dưỡng, lãi suất, sản xuất.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Tiết kiệm và bảo vệ nguồn nước: Tính lượng nước tiết kiệm được khi giảm 10%, 15% hoặc 20% lượng nước sử dụng hằng ngày."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; máy tính cầm tay; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -15046,13 +15045,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Tiết kiệm và bảo vệ nguồn nước: Tính lượng nước tiết kiệm được khi giảm 10%, 15% hoặc 20% lượng nước sử dụng hằng ngày.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -15193,7 +15185,14 @@
           "1. Năng lực đặc thù",
           "- Làm quen với việc sử dụng máy tính cầm tay để thực hiện các phép tính cộng, trừ, nhân, chia các số tự nhiên.",
           "- Sử dụng được máy tính cầm tay để kiểm tra kết quả tính toán và giải quyết một số tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Đạo đức, lối sống: Giáo dục học sinh sử dụng máy tính cầm tay đúng mục đích, trung thực trong học tập và không phụ thuộc hoàn toàn vào công cụ. STEM: Bài 12. Sử dụng máy tính cầm tay."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; máy tính cầm tay; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -15201,13 +15200,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Đạo đức, lối sống: Giáo dục học sinh sử dụng máy tính cầm tay đúng mục đích, trung thực trong học tập và không phụ thuộc hoàn toàn vào công cụ. STEM: Bài 12. Sử dụng máy tính cầm tay.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -15359,7 +15351,14 @@
           "1. Năng lực đặc thù",
           "- Sử dụng được máy tính cầm tay để thực hiện các phép tính cộng, trừ, nhân, chia các số tự nhiên, tính giá trị phần trăm của một số.",
           "- Vận dụng máy tính cầm tay để giải quyết các tình huống thực tế trong hội chợ.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Đạo đức, lối sống: Học sinh dùng máy tính để kiểm tra kết quả, biết tự chịu trách nhiệm với bài làm và không sao chép máy móc."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; máy tính cầm tay; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -15367,13 +15366,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Đạo đức, lối sống: Học sinh dùng máy tính để kiểm tra kết quả, biết tự chịu trách nhiệm với bài làm và không sao chép máy móc.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -15502,7 +15494,14 @@
           "1. Năng lực đặc thù",
           "- Viết được tỉ số phần trăm thích hợp; tính được tỉ số phần trăm của một số, độ dài trên bản đồ hoặc độ dài thật khi biết tỉ lệ bản đồ.",
           "- Giải được bài toán tìm hai số khi biết tổng và tỉ số của hai số đó.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.B3.1: Khi dùng máy tính/AI để tính tỉ số, HS cần hiểu lý do máy ra kết quả đó dựa trên thuật toán nào để đảm bảo tính minh bạch."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; máy tính cầm tay; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -15510,13 +15509,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.B3.1: Khi dùng máy tính/AI để tính tỉ số, HS cần hiểu lý do máy ra kết quả đó dựa trên thuật toán nào để đảm bảo tính minh bạch.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -15660,7 +15652,14 @@
           "- Tính được tỉ số phần trăm của hai số, giá trị phần trăm của một số.",
           "- Giải được bài toán tìm hai số khi biết hiệu và tỉ số của hai số đó.",
           "- Vận dụng kiến thức đã học để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 2.5.CB2b: Chọn chiến lược giao tiếp phù hợp khi thảo luận bài tập trong nhóm học tập số."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -15668,13 +15667,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 2.5.CB2b: Chọn chiến lược giao tiếp phù hợp khi thảo luận bài tập trong nhóm học tập số.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -15804,7 +15796,14 @@
           "- Nhận biết được các kích thước của hình hộp chữ nhật, hình lập phương.",
           "- Nhận biết được “thể tích” thông qua một số biểu tượng cụ thể.",
           "- Vận dụng được cách so sánh thể tích để giải quyết tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Tiết kiệm và bảo vệ nguồn nước: Liên hệ thể tích nước trong bể, chậu, bình; giáo dục học sinh không xả nước lãng phí và biết bảo quản nước sạch."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -15812,13 +15811,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Tiết kiệm và bảo vệ nguồn nước: Liên hệ thể tích nước trong bể, chậu, bình; giáo dục học sinh không xả nước lãng phí và biết bảo quản nước sạch.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -15971,7 +15963,14 @@
           "- Nhận biết được đơn vị đo thể tích xăng-ti-mét khối (cm³) và đề-xi-mét khối (dm³).",
           "- Thực hiện được việc chuyển đổi và tính toán với các số đo thể tích cm³, dm³.",
           "- Vận dụng được việc chuyển đổi số đo thể tích trong tình huống thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: AI tính toán thể tích linh kiện điện tử siêu nhỏ (cm³) để robot có thể lắp ráp điện thoại thông minh một cách chính xác tuyệt đối."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -15979,13 +15978,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: AI tính toán thể tích linh kiện điện tử siêu nhỏ (cm³) để robot có thể lắp ráp điện thoại thông minh một cách chính xác tuyệt đối.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -16122,7 +16114,14 @@
           "- Củng cố đơn vị đo thể tích cm³, dm³.",
           "- Thực hiện được tính toán và chuyển đổi với các số đo thể tích.",
           "- Giải quyết được một số vấn đề thực tiễn liên quan đến đo thể tích.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 1.3.CB2a: Sắp xếp dữ liệu các vật thể theo đơn vị thể tích vào thư mục có cấu trúc."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -16130,13 +16129,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 1.3.CB2a: Sắp xếp dữ liệu các vật thể theo đơn vị thể tích vào thư mục có cấu trúc.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -16262,7 +16254,14 @@
           "- Nhận biết được đơn vị đo thể tích mét khối (m³).",
           "- Thực hiện được việc chuyển đổi và tính toán với các số đo thể tích cm³, dm³, m³.",
           "- Giải quyết được một số vấn đề thực tiễn liên quan đến đo thể tích.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: AI hỗ trợ tính thể tích nước sạch cần cung cấp cho thành phố (m³) mỗi ngày dựa trên dữ liệu tiêu thụ thực tế để điều tiết hợp lý."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -16270,13 +16269,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: AI hỗ trợ tính thể tích nước sạch cần cung cấp cho thành phố (m³) mỗi ngày dựa trên dữ liệu tiêu thụ thực tế để điều tiết hợp lý.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -16419,7 +16411,14 @@
           "- Thực hiện được việc tính toán với các số đo thể tích (cm³, dm³, m³).",
           "- Giải quyết được một số vấn đề thực tế liên quan đến số đo thể tích.",
           "- Vận dụng kiến thức về mét khối để tính toán trong tình huống tiền nước sinh hoạt.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Tiết kiệm và bảo vệ nguồn nước: Tính thể tích bể chứa nước, lượng nước sinh hoạt; nhắc học sinh bảo vệ nguồn nước sạch trong gia đình và nhà trường."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -16427,13 +16426,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Tiết kiệm và bảo vệ nguồn nước: Tính thể tích bể chứa nước, lượng nước sinh hoạt; nhắc học sinh bảo vệ nguồn nước sạch trong gia đình và nhà trường.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -16567,7 +16559,14 @@
           "- Củng cố kiến thức đã học về các đơn vị đo thể tích.",
           "- Thực hiện được việc chuyển đổi giữa một số đơn vị đo thể tích đã học.",
           "- Giải quyết được một số vấn đề thực tế gắn với số đo thể tích.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.D2.1: Ví dụ AI ước lượng thể tích thức ăn cho vật nuôi chính xác hơn khi có thêm dữ liệu cập nhật về cân nặng và độ tuổi của con vật."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -16575,13 +16574,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.D2.1: Ví dụ AI ước lượng thể tích thức ăn cho vật nuôi chính xác hơn khi có thêm dữ liệu cập nhật về cân nặng và độ tuổi của con vật.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -16727,7 +16719,14 @@
           "- Củng cố và vận dụng kiến thức về thể tích và đơn vị đo thể tích.",
           "- Giải được bài toán liên quan đến số đo thể tích trong thực tế.",
           "- Phát triển năng lực giao tiếp toán học qua trao đổi bài giải.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 2.1.CB2a: Sử dụng phòng họp trực tuyến Google Meet để trao đổi bài giải về thể tích."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -16735,13 +16734,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 2.1.CB2a: Sử dụng phòng họp trực tuyến Google Meet để trao đổi bài giải về thể tích.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -16867,7 +16859,14 @@
           "- Nhận biết được hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ.",
           "- Vận dụng được việc nhận biết hình khai triển để giải quyết một số tình huống thực tế.",
           "- Phát triển năng lực sử dụng phương tiện, công cụ học toán và giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.C4.2: Sử dụng phần mềm mô phỏng 3D như GeoGebra 3D hoặc Tinkercad để xem AI/công cụ số tự động tạo ra các hình khai triển từ bản vẽ phẳng của các loại bao bì sản phẩm."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -16875,13 +16874,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.C4.2: Sử dụng phần mềm mô phỏng 3D như GeoGebra 3D hoặc Tinkercad để xem AI/công cụ số tự động tạo ra các hình khai triển từ bản vẽ phẳng của các loại bao bì sản phẩm.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -17030,7 +17022,14 @@
           "- Luyện tập, củng cố và ghi nhớ một số hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ.",
           "- Vận dụng được việc nhận biết hình khai triển để giải quyết một số tình huống thực tế.",
           "- Phát triển năng lực sử dụng phương tiện, công cụ học toán và giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 3.1.CB2a: Sử dụng phần mềm vẽ 3D đơn giản như Tinkercad hoặc GeoGebra 3D để quan sát hình khai triển của khối hộp."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -17038,13 +17037,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 3.1.CB2a: Sử dụng phần mềm vẽ 3D đơn giản như Tinkercad hoặc GeoGebra 3D để quan sát hình khai triển của khối hộp.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -17172,7 +17164,14 @@
           "- Tính được diện tích xung quanh của hình hộp chữ nhật.",
           "- Vận dụng được việc tính diện tích xung quanh của hình hộp chữ nhật để giải quyết tình huống thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.A2.2: AI giúp tính diện tích bề mặt tấm pin mặt trời cần lắp đặt để tối ưu hóa việc thu nhận năng lượng cho ngôi nhà thông minh."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -17180,13 +17179,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.A2.2: AI giúp tính diện tích bề mặt tấm pin mặt trời cần lắp đặt để tối ưu hóa việc thu nhận năng lượng cho ngôi nhà thông minh.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -17315,7 +17307,14 @@
           "- Tính được diện tích toàn phần của hình hộp chữ nhật.",
           "- Vận dụng được việc tính diện tích toàn phần của hình hộp chữ nhật để giải quyết tình huống thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- BVMT: Tính diện tích giấy bọc hộp hoặc vật liệu làm hộp; giáo dục học sinh tiết kiệm giấy, tái sử dụng bao bì và giảm rác thải."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -17323,13 +17322,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- BVMT: Tính diện tích giấy bọc hộp hoặc vật liệu làm hộp; giáo dục học sinh tiết kiệm giấy, tái sử dụng bao bì và giảm rác thải.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -17442,7 +17434,12 @@
           "- Tính được diện tích xung quanh, diện tích toàn phần của hình hộp chữ nhật.",
           "- Vận dụng được việc tính diện tích xung quanh, diện tích toàn phần của hình hộp chữ nhật để giải quyết tình huống thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -17450,11 +17447,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -17580,7 +17572,14 @@
           "- Tính được diện tích xung quanh, diện tích toàn phần của hình lập phương.",
           "- Vận dụng được việc tính diện tích xung quanh, diện tích toàn phần của hình lập phương để giải quyết tình huống thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- AI 5.D1.1: HS tạo “bộ dữ liệu“ bằng cách liệt kê diện tích 6 mặt bằng nhau để máy hiểu cấu trúc của hình lập phương."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -17588,13 +17587,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- AI 5.D1.1: HS tạo “bộ dữ liệu“ bằng cách liệt kê diện tích 6 mặt bằng nhau để máy hiểu cấu trúc của hình lập phương.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -17731,7 +17723,14 @@
           "- Vận dụng được việc tính diện tích xung quanh, diện tích toàn phần của hình lập phương để giải quyết tình huống thực tế.",
           "- Củng cố cách tính diện tích xung quanh và diện tích toàn phần của hình lập phương.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
+          "4. Tích hợp",
+          "- Năng lực số 3.1.CB2a: Tạo và chỉnh sửa hình ảnh khai triển 6 mặt của hình lập phương trên máy tính."
         ],
         "dodung": [
           "- Giáo viên: SGK Toán 5 tập hai; hình ảnh Khám phá và bài tập SGK đã cắt đúng vị trí; máy tính, màn hình trình chiếu; phiếu học tập, bảng phụ hoặc bảng nhóm khi cần.",
@@ -17739,13 +17738,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng kiến thức đã học để giải quyết bài tập và tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trách nhiệm: Cẩn thận khi đọc đề, quan sát hình, làm bài, trình bày và kiểm tra kết quả.",
-          "4. Tích hợp",
-          "- Năng lực số 3.1.CB2a: Tạo và chỉnh sửa hình ảnh khai triển 6 mặt của hình lập phương trên máy tính.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -17885,14 +17877,7 @@
           "- Thực hiện được việc tính thể tích của hình hộp chữ nhật.",
           "- Giải quyết được một số vấn đề thực tế liên quan đến đo thể tích.",
           "- Phát triển năng lực tư duy và lập luận toán học, năng lực quan sát, mô hình hoá và trí tưởng tượng hình học không gian.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- 1 cái thùng và những chiếc hộp dạng hình lập phương có thể tích 1 dm³.",
-          "- Tranh Khám phá và các bài tập trong SGK Toán 5 tập hai."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -17900,7 +17885,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "4. Tích hợp",
-          "- AI 5.A1.1: AI tính thể tích nhiên liệu cần thiết cho máy bay dựa trên kích thước bồn chứa để đảm bảo an toàn cho các chuyến bay dài.",
+          "- AI 5.A1.1: AI tính thể tích nhiên liệu cần thiết cho máy bay dựa trên kích thước bồn chứa để đảm bảo an toàn cho các chuyến bay dài."
+        ],
+        "dodung": [
+          "- 1 cái thùng và những chiếc hộp dạng hình lập phương có thể tích 1 dm³.",
+          "- Tranh Khám phá và các bài tập trong SGK Toán 5 tập hai."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -18052,14 +18044,7 @@
           "- Thực hiện được việc tính thể tích của hình hộp chữ nhật.",
           "- Giải quyết được một số vấn đề thực tế liên quan đến đo thể tích.",
           "- Phát triển năng lực tư duy và lập luận toán học, năng lực quan sát, mô hình hoá và trí tưởng tượng hình học không gian.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Bảng phụ vẽ hình bài 2 trang 53 SGK.",
-          "- Một số đồ vật hoặc hộp có dạng hình hộp chữ nhật."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -18067,7 +18052,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "4. Tích hợp",
-          "- Tiết kiệm và bảo vệ nguồn nước: Tính thể tích bể nước, thùng chứa nước; giáo dục học sinh sử dụng nước tiết kiệm và giữ gìn nguồn nước sạch.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Tính thể tích bể nước, thùng chứa nước; giáo dục học sinh sử dụng nước tiết kiệm và giữ gìn nguồn nước sạch."
+        ],
+        "dodung": [
+          "- Bảng phụ vẽ hình bài 2 trang 53 SGK.",
+          "- Một số đồ vật hoặc hộp có dạng hình hộp chữ nhật."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -18192,14 +18184,7 @@
           "- Thực hiện được việc tính thể tích của hình lập phương.",
           "- Giải quyết được một số vấn đề thực tế liên quan đến đo thể tích.",
           "- Phát triển năng lực tư duy và lập luận toán học, năng lực quan sát, mô hình hoá và trí tưởng tượng hình học không gian.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Một số đồ vật, hộp có dạng hình lập phương.",
-          "- Bảng phụ ghi nội dung bài 1 trang 55 SGK."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -18207,7 +18192,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "4. Tích hợp",
-          "- AI 5.A1.1: Tìm hiểu cách AI sắp xếp các kiện hàng hình lập phương vào thùng xe tải để tận dụng tối đa thể tích không gian chứa hàng.",
+          "- AI 5.A1.1: Tìm hiểu cách AI sắp xếp các kiện hàng hình lập phương vào thùng xe tải để tận dụng tối đa thể tích không gian chứa hàng."
+        ],
+        "dodung": [
+          "- Một số đồ vật, hộp có dạng hình lập phương.",
+          "- Bảng phụ ghi nội dung bài 1 trang 55 SGK."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -18355,14 +18347,7 @@
           "- Thực hiện được việc tính thể tích của hình hộp chữ nhật, hình lập phương.",
           "- Giải quyết được một số vấn đề thực tế liên quan đến đo thể tích.",
           "- Phát triển năng lực tư duy và lập luận toán học, năng lực quan sát, mô hình hoá và trí tưởng tượng hình học không gian.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Tranh bài 3, bài 4 trang 57 SGK.",
-          "- Bảng tính Google Sheets hoặc Excel để tổ chức dữ liệu thể tích."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -18370,7 +18355,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "4. Tích hợp",
-          "- Năng lực số 1.3.CB2a: Tổ chức bộ dữ liệu thể tích các khối rubik khác nhau vào bảng tính số.",
+          "- Năng lực số 1.3.CB2a: Tổ chức bộ dữ liệu thể tích các khối rubik khác nhau vào bảng tính số."
+        ],
+        "dodung": [
+          "- Tranh bài 3, bài 4 trang 57 SGK.",
+          "- Bảng tính Google Sheets hoặc Excel để tổ chức dữ liệu thể tích."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -18511,7 +18503,15 @@
           "- Tính toán, đo lường và ước lượng được thể tích của một số hình khối trong thực tế liên quan đến các hình đã học.",
           "- Vận dụng kiến thức về thể tích vào hoạt động thực hành, trải nghiệm.",
           "- Phát triển năng lực tư duy và lập luận toán học, năng lực giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- AI 5.C4.2: Trải nghiệm ứng dụng đo thể tích thực tế thông qua camera điện thoại có tích hợp công nghệ AI nhận diện không gian. STEM: Bài 14. Ngôi nhà nhỏ, tiện ích."
         ],
         "dodung": [
           "- Một số hộp có dạng hình hộp chữ nhật, hình lập phương.",
@@ -18520,14 +18520,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia các hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- AI 5.C4.2: Trải nghiệm ứng dụng đo thể tích thực tế thông qua camera điện thoại có tích hợp công nghệ AI nhận diện không gian. STEM: Bài 14. Ngôi nhà nhỏ, tiện ích.",
           "...................................................................................................................................................."
         ],
         "tables": [
@@ -18662,14 +18654,7 @@
           "- Nhận biết được hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ.",
           "- Thực hiện được việc tính diện tích xung quanh, diện tích toàn phần của hình hộp chữ nhật, hình lập phương và vận dụng vào tình huống thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, năng lực giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Bảng phụ ghi nội dung bài 2 trang 60 – SGK Toán 5 tập hai.",
-          "- Hình bài tập trong SGK Toán 5 tập hai."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -18678,6 +18663,15 @@
           "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "4. Tích hợp",
           "- AI 5.A1.2: HS nhận biết AI có thể hỗ trợ tính toán nhưng con người cần kiểm tra lại kết quả và chịu trách nhiệm với quyết định sử dụng kết quả đó."
+        ],
+        "dodung": [
+          "- Bảng phụ ghi nội dung bài 2 trang 60 – SGK Toán 5 tập hai.",
+          "- Hình bài tập trong SGK Toán 5 tập hai."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -18797,14 +18791,7 @@
           "- Nhận biết được hình khai triển của hình hộp chữ nhật.",
           "- Thực hiện được việc tính diện tích xung quanh, diện tích toàn phần, thể tích của hình hộp chữ nhật và hình lập phương.",
           "- Giải quyết được một số vấn đề thực tế gắn với số đo thể tích.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Bảng phụ ghi nội dung bài 2 trang 62 – SGK Toán 5 tập hai.",
-          "- Hình bài tập trong SGK Toán 5 tập hai."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -18813,6 +18800,15 @@
           "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "4. Tích hợp",
           "- BVMT: Luyện tập bằng các bài toán về bể nước, thùng chứa, hộp đựng; củng cố ý thức tiết kiệm vật liệu và bảo vệ môi trường."
+        ],
+        "dodung": [
+          "- Bảng phụ ghi nội dung bài 2 trang 62 – SGK Toán 5 tập hai.",
+          "- Hình bài tập trong SGK Toán 5 tập hai."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -18928,7 +18924,13 @@
           "- Nhận biết được hình khai triển của hình lập phương.",
           "- Thực hiện được việc tính diện tích toàn phần hình lập phương.",
           "- Giải quyết được một số vấn đề thực tế gắn với số đo thể tích.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống."
         ],
         "dodung": [
           "- Hộp đồ chơi như trong bài 4 trang 63 – SGK Toán 5 tập hai (nếu có).",
@@ -18936,12 +18938,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống."
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -19037,14 +19035,7 @@
           "- Biết khái niệm đơn vị đo thời gian, mối quan hệ giữa một số đơn vị đo thời gian đã học.",
           "- Củng cố kiến thức về năm nhuận, thế kỉ.",
           "- Thực hiện được việc chuyển đổi một số đơn vị đo thời gian.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Bảng phụ, phấn màu.",
-          "- Tranh Khám phá và hoạt động trong SGK Toán 5 tập hai."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -19053,6 +19044,15 @@
           "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "4. Tích hợp",
           "- AI 5.A1.1: Nhận biết AI giúp điều khiển tín hiệu đèn giao thông theo thời gian thực để giảm ùn tắc tại các ngã tư."
+        ],
+        "dodung": [
+          "- Bảng phụ, phấn màu.",
+          "- Tranh Khám phá và hoạt động trong SGK Toán 5 tập hai."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -19152,14 +19152,7 @@
           "- Thực hiện được việc chuyển đổi một số đơn vị đo thời gian đã học.",
           "- Vận dụng được việc chuyển đổi các số đo thời gian để giải quyết tình huống thực tế.",
           "- Phát triển năng lực giao tiếp toán học, năng lực tư duy và lập luận toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Bảng phụ, phấn màu.",
-          "- Hình bài tập trong SGK Toán 5 tập hai."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -19168,6 +19161,15 @@
           "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "4. Tích hợp",
           "- Năng lực số 1.1.CB2b: Truy cập dữ liệu giờ bay, giờ tàu chạy trên các ứng dụng vận tải trực tuyến để đọc hiểu thời gian khởi hành, thời gian đến."
+        ],
+        "dodung": [
+          "- Bảng phụ, phấn màu.",
+          "- Hình bài tập trong SGK Toán 5 tập hai."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -19261,7 +19263,15 @@
           "- Thực hiện được phép cộng số đo thời gian.",
           "- Vận dụng được việc cộng số đo thời gian để giải quyết một số vấn đề thực tế.",
           "- Phát triển năng lực giao tiếp toán học, năng lực tư duy và lập luận toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- AI 5.A3.1: Sử dụng trợ lí ảo (Siri, Google Assistant) để đặt lịch hẹn và yêu cầu máy tính khoảng thời gian còn lại đến giờ vào lớp."
         ],
         "dodung": [
           "- Bảng phụ, phấn màu.",
@@ -19270,14 +19280,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- AI 5.A3.1: Sử dụng trợ lí ảo (Siri, Google Assistant) để đặt lịch hẹn và yêu cầu máy tính khoảng thời gian còn lại đến giờ vào lớp.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -19423,7 +19425,15 @@
           "- Thực hiện được phép trừ số đo thời gian.",
           "- Vận dụng được việc trừ số đo thời gian để giải quyết một số vấn đề thực tế.",
           "- Phát triển năng lực giao tiếp toán học, năng lực tư duy và lập luận toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- Năng lực số 5.2.CB2a: Sử dụng ứng dụng đồng hồ bấm giờ và lịch kỹ thuật số để quản lý thời gian."
         ],
         "dodung": [
           "- Bảng phụ, phấn màu.",
@@ -19432,14 +19442,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- Năng lực số 5.2.CB2a: Sử dụng ứng dụng đồng hồ bấm giờ và lịch kỹ thuật số để quản lý thời gian.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -19585,7 +19587,15 @@
           "- Thực hiện được phép nhân số đo thời gian với một số.",
           "- Vận dụng được phép nhân số đo thời gian để giải quyết một số vấn đề thực tế.",
           "- Phát triển năng lực giao tiếp toán học, năng lực tư duy và lập luận toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- AI 5.A2.2: AI tính toán thời gian quay của các turbine gió để sản xuất điện năng hiệu quả nhất dựa trên vận tốc gió thay đổi liên tục."
         ],
         "dodung": [
           "- Bảng phụ, phấn màu.",
@@ -19594,14 +19604,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- AI 5.A2.2: AI tính toán thời gian quay của các turbine gió để sản xuất điện năng hiệu quả nhất dựa trên vận tốc gió thay đổi liên tục.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -19751,7 +19753,15 @@
           "- Thực hiện được phép chia số đo thời gian cho một số.",
           "- Vận dụng được phép chia số đo thời gian cho một số để giải quyết một số vấn đề thực tế.",
           "- Phát triển năng lực giao tiếp toán học, năng lực tư duy và lập luận toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- Năng lực số 3.1.CB2a: Thiết kế thời gian biểu cá nhân chi tiết bằng ứng dụng Google Calendar."
         ],
         "dodung": [
           "- Bảng phụ, phấn màu.",
@@ -19760,14 +19770,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- Năng lực số 3.1.CB2a: Thiết kế thời gian biểu cá nhân chi tiết bằng ứng dụng Google Calendar.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -19913,14 +19915,7 @@
           "- Thực hiện được phép nhân, phép chia số đo thời gian.",
           "- Vận dụng được việc nhân, chia số đo thời gian để giải quyết một số vấn đề thực tế.",
           "- Phát triển năng lực giao tiếp toán học, năng lực tư duy và lập luận toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- Bảng phụ, phấn màu.",
-          "- Hình bài tập trang 74, 75 – SGK Toán 5 tập hai."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và biết nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -19928,7 +19923,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "4. Tích hợp",
-          "- Không tích hợp trong tiết này theo KHDH; tập trung luyện tập, củng cố kiến thức nhân, chia số đo thời gian.",
+          "- Không tích hợp trong tiết này theo KHDH; tập trung luyện tập, củng cố kiến thức nhân, chia số đo thời gian."
+        ],
+        "dodung": [
+          "- Bảng phụ, phấn màu.",
+          "- Hình bài tập trang 74, 75 – SGK Toán 5 tập hai."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -20045,7 +20047,15 @@
           "- Biết khái niệm ban đầu về vận tốc, một số đơn vị đo vận tốc.",
           "- Tính được vận tốc của một chuyển động đều và vận dụng để giải quyết một số tình huống thực tế.",
           "- Phát triển năng lực giao tiếp toán học, năng lực tư duy và lập luận toán học, năng lực mô hình hoá toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- AI 5.A1.2: Phân tích xe tự lái: AI tính vận tốc để tránh vật cản, nhưng con người phải thiết lập các quy tắc an toàn và đạo đức."
         ],
         "dodung": [
           "- Bảng phụ, phấn màu.",
@@ -20054,14 +20064,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- AI 5.A1.2: Phân tích xe tự lái: AI tính vận tốc để tránh vật cản, nhưng con người phải thiết lập các quy tắc an toàn và đạo đức.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -20191,7 +20193,15 @@
           "- Thực hiện đổi đơn vị đo vận tốc km/h ra m/s và ngược lại.",
           "- Vận dụng đổi đơn vị đo vận tốc, tính vận tốc của một chuyển động đều để giải quyết một số vấn đề thực tế.",
           "- Phát triển năng lực giao tiếp toán học, năng lực tư duy và lập luận toán học, năng lực mô hình hoá toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- Đạo đức, lối sống: Qua bài toán vận tốc, giáo dục học sinh chấp hành luật giao thông, đi đúng tốc độ và bảo đảm an toàn cho bản thân, cộng đồng."
         ],
         "dodung": [
           "- Bảng phụ, phấn màu.",
@@ -20200,14 +20210,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- Đạo đức, lối sống: Qua bài toán vận tốc, giáo dục học sinh chấp hành luật giao thông, đi đúng tốc độ và bảo đảm an toàn cho bản thân, cộng đồng.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -20342,7 +20344,15 @@
           "- Biết cách tính quãng đường của một chuyển động đều.",
           "- Vận dụng cách tính quãng đường để giải các bài toán chuyển động đều, thực hành tính quãng đường theo các đơn vị đo khác nhau.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- AI 5.A1.1: AI trên các ứng dụng giao hàng tính toán quãng đường ngắn nhất và thời gian dự kiến để shipper giao hàng đến khách nhanh nhất."
         ],
         "dodung": [
           "- Bảng phụ, phấn màu.",
@@ -20351,14 +20361,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- AI 5.A1.1: AI trên các ứng dụng giao hàng tính toán quãng đường ngắn nhất và thời gian dự kiến để shipper giao hàng đến khách nhanh nhất.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -20496,7 +20498,15 @@
           "- Biết cách tính thời gian của một chuyển động đều.",
           "- Vận dụng cách tính thời gian để giải các bài toán chuyển động đều, thực hành tính thời gian theo các đơn vị đo khác nhau.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Tính quãng đường đến di tích lịch sử, cột mốc hoặc địa danh Việt Nam; giáo dục tình yêu quê hương, đất nước."
         ],
         "dodung": [
           "- Bảng phụ, phấn màu.",
@@ -20505,14 +20515,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Tính quãng đường đến di tích lịch sử, cột mốc hoặc địa danh Việt Nam; giáo dục tình yêu quê hương, đất nước.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -20650,7 +20652,13 @@
           "- Biết cách tính quãng đường, thời gian của một chuyển động đều.",
           "- Vận dụng cách tính quãng đường, thời gian để giải các bài toán chuyển động đều, thực hành tính quãng đường, thời gian theo các đơn vị đo khác nhau.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống."
         ],
         "dodung": [
           "- Bảng phụ có bảng Bài 1 trang 80 - SGK Toán 5 tập hai.",
@@ -20659,12 +20667,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -20793,7 +20795,15 @@
           "- Thực hành tính toán và ước lượng về vận tốc, quãng đường, thời gian trong chuyển động đều.",
           "- Vận dụng được cách tính quãng đường, vận tốc, thời gian để tính toán trong các bài toán thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học, năng lực mô hình hoá toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- Năng lực số 1.1.CB2a: HS xác định được nhu cầu thông tin, biết chọn từ khóa đơn giản và tìm tư liệu số phù hợp để giải quyết bài toán về vận tốc, quãng đường và thời gian."
         ],
         "dodung": [
           "- Phiếu bài tập ghi nội dung Bài 1, Bài 2 trang 82 - SGK Toán 5 tập hai.",
@@ -20802,14 +20812,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- Năng lực số 1.1.CB2a: HS xác định được nhu cầu thông tin, biết chọn từ khóa đơn giản và tìm tư liệu số phù hợp để giải quyết bài toán về vận tốc, quãng đường và thời gian.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -20948,7 +20950,13 @@
           "- Vận dụng được cách tính vận tốc, quãng đường, thời gian để giải các bài toán của chuyển động đều.",
           "- Biết lựa chọn cách tính phù hợp trong tình huống thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống."
         ],
         "dodung": [
           "- Bảng phụ có vẽ tranh theo Bài 1 trang 83 - SGK Toán 5 tập hai.",
@@ -20957,12 +20965,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -21069,7 +21071,13 @@
           "- Thực hành tính toán với các số đo thời gian, tính thời gian trong chuyển động đều.",
           "- Vận dụng kiến thức về chuyển động đều để đổi vận tốc sang đơn vị khác và giải bài toán có vật có chiều dài đáng kể.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống."
         ],
         "dodung": [
           "- Tranh vẽ Bài 4 trang 84 - SGK Toán 5 tập hai.",
@@ -21078,12 +21086,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -21206,7 +21208,13 @@
           "- Vận dụng được cách tính vận tốc, quãng đường, thời gian để giải các bài toán chuyển động đều mang tính thực tế.",
           "- Biết xác định đúng đại lượng cần tìm và đơn vị đo tương ứng.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống."
         ],
         "dodung": [
           "- Bảng phụ có vẽ tranh Bài 4 trang 85 - SGK Toán 5 tập hai.",
@@ -21215,12 +21223,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -21331,7 +21333,13 @@
           "- Củng cố cách tính quãng đường, vận tốc, thời gian trong chuyển động đều.",
           "- Vận dụng giải các bài toán chuyển động theo các đơn vị đo khác nhau.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học thông qua trò chơi học tập.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống."
         ],
         "dodung": [
           "- Bảng con, phấn hoặc bút viết bảng.",
@@ -21340,12 +21348,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -21490,7 +21492,15 @@
           "- Thực hiện được việc thu thập, phân loại, so sánh và sắp xếp các số liệu thống kê theo tiêu chí cho trước.",
           "- Vận dụng được việc thu thập, phân loại, sắp xếp số liệu để giải quyết một số vấn đề thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, quan sát, mô hình hóa toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- Đạo đức, lối sống: Khi thu thập số liệu, giáo dục học sinh ghi chép trung thực, tôn trọng dữ liệu thực tế và có trách nhiệm với kết quả trình bày."
         ],
         "dodung": [
           "- Bảng phụ, phấn màu, phiếu học tập.",
@@ -21499,14 +21509,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- Đạo đức, lối sống: Khi thu thập số liệu, giáo dục học sinh ghi chép trung thực, tôn trọng dữ liệu thực tế và có trách nhiệm với kết quả trình bày.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -21664,7 +21666,15 @@
           "- Nhận biết được biểu đồ hình quạt tròn; đọc được các số liệu trong biểu đồ hình quạt tròn.",
           "- Vận dụng việc đọc số liệu trong biểu đồ hình quạt tròn để giải quyết một số tình huống thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- AI 5.A2.2: Xem biểu đồ AI phân tích tỉ lệ sử dụng năng lượng sạch trên thế giới để hướng tới mục tiêu bảo vệ môi trường toàn cầu."
         ],
         "dodung": [
           "- Hình ảnh biểu đồ tranh, biểu đồ cột, biểu đồ hình quạt tròn.",
@@ -21673,14 +21683,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- AI 5.A2.2: Xem biểu đồ AI phân tích tỉ lệ sử dụng năng lượng sạch trên thế giới để hướng tới mục tiêu bảo vệ môi trường toàn cầu.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -21854,7 +21856,15 @@
           "- Đọc được số liệu và nêu được một số nhận xét đơn giản từ biểu đồ hình quạt tròn.",
           "- Vận dụng đọc số liệu từ biểu đồ hình quạt tròn để giải quyết các tình huống thực tế.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- BVMT: Biểu diễn tỉ lệ rác tái chế, rác hữu cơ hoặc rác khó phân hủy; giáo dục học sinh giảm rác thải nhựa."
         ],
         "dodung": [
           "- Các mẩu giấy nhỏ hình tròn, bút màu, bảng phụ.",
@@ -21863,14 +21873,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- BVMT: Biểu diễn tỉ lệ rác tái chế, rác hữu cơ hoặc rác khó phân hủy; giáo dục học sinh giảm rác thải nhựa.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -22033,7 +22035,15 @@
           "- Sử dụng được tỉ số để mô tả số lần lặp lại của một khả năng xảy ra so với tổng số lần thực hiện thí nghiệm trong trường hợp đơn giản.",
           "- Hiểu được một ứng dụng của yếu tố xác suất trong hoạt động lựa chọn.",
           "- Phát triển năng lực tư duy và lập luận toán học, quan sát, mô hình hóa toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- AI 5.B3.1: Thử nghiệm tung đồng xu và so sánh với kết quả dự đoán của AI để hiểu máy dựa trên cơ sở xác suất nào để ra quyết định."
         ],
         "dodung": [
           "- Đồng xu, xúc xắc, bảng phụ.",
@@ -22042,14 +22052,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- AI 5.B3.1: Thử nghiệm tung đồng xu và so sánh với kết quả dự đoán của AI để hiểu máy dựa trên cơ sở xác suất nào để ra quyết định.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -22223,7 +22225,15 @@
           "- Thực hành thu thập, phân tích, biểu diễn các số liệu thống kê.",
           "- Củng cố kĩ năng sử dụng tỉ số để mô tả số lần lặp lại của một khả năng xảy ra so với tổng số lần thực hiện thí nghiệm.",
           "- Phát triển năng lực tư duy và lập luận toán học, giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "- AI 5.D1.1: HS đóng vai “Kỹ sư dữ liệu”: Thu thập và sắp xếp dữ liệu rác thải trong trường để AI học cách nhận diện loại rác tái chế được."
         ],
         "dodung": [
           "- Xúc xắc, bảng phụ, phiếu ghi kết quả.",
@@ -22232,14 +22242,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách làm, trình bày rõ kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn cách giải phù hợp trong tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn trong nhóm, biết vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "- AI 5.D1.1: HS đóng vai “Kỹ sư dữ liệu”: Thu thập và sắp xếp dữ liệu rác thải trong trường để AI học cách nhận diện loại rác tái chế được.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -23220,7 +23222,15 @@
           "- Vận dụng được tính chất của các phép tính để tính nhanh, tính thuận tiện và kiểm tra kết quả.",
           "- Giải quyết được một số bài toán thực tế liên quan đến phép tính, tỉ số, tỉ số phần trăm theo nội dung bài học.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
+          "4. TÍCH HỢP",
+          "- AI 5.A1.1: Khẳng định AI là công cụ hỗ trợ tính toán tuyệt vời, giúp con người giải phóng khỏi những phép tính lặp lại nhàm chán."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK, máy chiếu, PowerPoint.",
@@ -23229,14 +23239,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
-          "4. TÍCH HỢP",
-          "- AI 5.A1.1: Khẳng định AI là công cụ hỗ trợ tính toán tuyệt vời, giúp con người giải phóng khỏi những phép tính lặp lại nhàm chán.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -23448,7 +23450,15 @@
           "- Vận dụng được tính chất của các phép tính để tính nhanh, tính thuận tiện và kiểm tra kết quả.",
           "- Giải quyết được một số bài toán thực tế liên quan đến phép tính, tỉ số, tỉ số phần trăm theo nội dung bài học.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
+          "4. TÍCH HỢP",
+          "- Năng lực số 1.3.CB2a: Tải bài làm lên không gian lưu trữ chung (Google Drive) để giáo viên chấm điểm."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK, máy chiếu, PowerPoint.",
@@ -23457,14 +23467,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
-          "4. TÍCH HỢP",
-          "- Năng lực số 1.3.CB2a: Tải bài làm lên không gian lưu trữ chung (Google Drive) để giáo viên chấm điểm.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -23684,7 +23686,13 @@
           "- Vận dụng được tính chất của các phép tính để tính nhanh, tính thuận tiện và kiểm tra kết quả.",
           "- Giải quyết được một số bài toán thực tế liên quan đến phép tính, tỉ số, tỉ số phần trăm theo nội dung bài học.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK, máy chiếu, PowerPoint.",
@@ -23692,12 +23700,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -23889,7 +23891,13 @@
           "- Vận dụng được tính chất của các phép tính để tính nhanh, tính thuận tiện và kiểm tra kết quả.",
           "- Giải quyết được một số bài toán thực tế liên quan đến phép tính, tỉ số, tỉ số phần trăm theo nội dung bài học.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK, máy chiếu, PowerPoint.",
@@ -23897,12 +23905,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -24122,7 +24124,15 @@
           "- Vận dụng được tính chất của các phép tính để tính nhanh, tính thuận tiện và kiểm tra kết quả.",
           "- Giải quyết được một số bài toán thực tế liên quan đến phép tính, tỉ số, tỉ số phần trăm theo nội dung bài học.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
+          "4. TÍCH HỢP",
+          "- AI 5.B1.1: Thảo luận về đạo đức AI: Đảm bảo tỉ lệ phần trăm hỗ trợ của AI phải công bằng cho mọi vùng miền, dân tộc khác nhau."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK, máy chiếu, PowerPoint.",
@@ -24131,14 +24141,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
-          "4. TÍCH HỢP",
-          "- AI 5.B1.1: Thảo luận về đạo đức AI: Đảm bảo tỉ lệ phần trăm hỗ trợ của AI phải công bằng cho mọi vùng miền, dân tộc khác nhau.",
           "....................................................................................................................................................",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
@@ -24364,14 +24366,7 @@
           "- Giải được các bài toán thực tế liên quan đến tỉ số phần trăm, giảm giá và lãi suất tiết kiệm.",
           "- Biết trình bày bài giải rõ ràng, kiểm tra kết quả bằng phép tính phù hợp.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 112, máy chiếu, PowerPoint, bảng nhóm.",
-          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
           "3. Phẩm chất",
@@ -24379,7 +24374,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "4. TÍCH HỢP",
-          "- Tiết kiệm và bảo vệ nguồn nước: Ôn tập bằng các bài toán về tỉ lệ nước tiết kiệm, tỉ lệ rác được phân loại hoặc tỉ lệ học sinh tham gia hoạt động xanh.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Ôn tập bằng các bài toán về tỉ lệ nước tiết kiệm, tỉ lệ rác được phân loại hoặc tỉ lệ học sinh tham gia hoạt động xanh."
+        ],
+        "dodung": [
+          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 112, máy chiếu, PowerPoint, bảng nhóm.",
+          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -24562,7 +24564,15 @@
           "- Vận dụng công thức để giải các bài toán thực tế có liên quan đến chu vi, diện tích các hình đã học.",
           "- Biết đọc hình vẽ, xác định dữ kiện và trình bày bài giải rõ ràng.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
+          "4. TÍCH HỢP",
+          "- AI 5.C4.2: Tìm hiểu cách AI phục dựng lại các hình khối kiến trúc cổ như tháp Chàm từ các mảnh vỡ và số liệu hình học còn sót lại."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 113 đến trang 118, máy chiếu, PowerPoint, thước, ê ke, compa, mô hình hình hộp chữ nhật, hình lập phương.",
@@ -24571,14 +24581,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
-          "4. TÍCH HỢP",
-          "- AI 5.C4.2: Tìm hiểu cách AI phục dựng lại các hình khối kiến trúc cổ như tháp Chàm từ các mảnh vỡ và số liệu hình học còn sót lại.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -24761,14 +24763,7 @@
           "- Phân tích được đề toán có lời văn, xác định được hình cần tính và dữ kiện cần sử dụng.",
           "- Trình bày được bài giải rõ ràng, biết kiểm tra đơn vị đo và kết quả.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 113 đến trang 118, máy chiếu, PowerPoint, thước, ê ke, compa, mô hình hình hộp chữ nhật, hình lập phương.",
-          "- HS: SGK, vở Toán, bảng con, bút, thước, ê ke, compa, máy tính cầm tay khi được GV cho phép."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
           "3. Phẩm chất",
@@ -24776,7 +24771,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "4. TÍCH HỢP",
-          "- BVMT: Dùng các bài toán về diện tích vườn trường, bồn hoa hoặc khu vui chơi xanh để giáo dục học sinh giữ gìn cảnh quan.",
+          "- BVMT: Dùng các bài toán về diện tích vườn trường, bồn hoa hoặc khu vui chơi xanh để giáo dục học sinh giữ gìn cảnh quan."
+        ],
+        "dodung": [
+          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 113 đến trang 118, máy chiếu, PowerPoint, thước, ê ke, compa, mô hình hình hộp chữ nhật, hình lập phương.",
+          "- HS: SGK, vở Toán, bảng con, bút, thước, ê ke, compa, máy tính cầm tay khi được GV cho phép."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -24959,7 +24961,13 @@
           "- Vận dụng công thức để giải các bài toán thực tế liên quan đến hình hộp chữ nhật, hình lập phương.",
           "- Biết phân tích hình vẽ, xác định kích thước, đơn vị đo và trình bày kết quả chính xác.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 113 đến trang 118, máy chiếu, PowerPoint, thước, ê ke, compa, mô hình hình hộp chữ nhật, hình lập phương.",
@@ -24967,12 +24975,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -25183,7 +25185,13 @@
           "- Vận dụng kiến thức hình học để giải các bài toán thực tế liên quan đến thể tích, mực nước và sự thay đổi kích thước hình.",
           "- Biết đọc hình vẽ, phân tích dữ kiện, trình bày bài giải và so sánh kết quả.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 113 đến trang 118, máy chiếu, PowerPoint, thước, ê ke, compa, mô hình hình hộp chữ nhật, hình lập phương.",
@@ -25191,12 +25199,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -25385,7 +25387,15 @@
           "- Thực hiện được các phép tính với số đo các đại lượng đã học.",
           "- Giải được bài toán thực tế liên quan đến phép tính với số đo thể tích.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
+          "4. TÍCH HỢP",
+          "- AI 5.A2.2: AI hỗ trợ đo lường mực nước biển dâng để cảnh báo sớm về biến đổi khí hậu trên toàn cầu thông qua các trạm quan trắc."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 119, máy chiếu, PowerPoint, bảng nhóm.",
@@ -25394,14 +25404,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
-          "4. TÍCH HỢP",
-          "- AI 5.A2.2: AI hỗ trợ đo lường mực nước biển dâng để cảnh báo sớm về biến đổi khí hậu trên toàn cầu thông qua các trạm quan trắc.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -25580,14 +25582,7 @@
           "- Thực hiện được các phép tính với số đo thời gian.",
           "- Giải được bài toán thực tế liên quan đến phép tính với số đo thời gian và dạng toán tổng - tỉ.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học, mô hình hóa toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 120, máy chiếu, PowerPoint, bảng nhóm.",
-          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
           "3. Phẩm chất",
@@ -25595,7 +25590,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "4. TÍCH HỢP",
-          "- Tiết kiệm và bảo vệ nguồn nước: Ôn đơn vị đo dung tích, thể tích bằng các tình huống về lượng nước sinh hoạt và nước tưới cây; nhắc học sinh dùng nước hợp lí.",
+          "- Tiết kiệm và bảo vệ nguồn nước: Ôn đơn vị đo dung tích, thể tích bằng các tình huống về lượng nước sinh hoạt và nước tưới cây; nhắc học sinh dùng nước hợp lí."
+        ],
+        "dodung": [
+          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 120, máy chiếu, PowerPoint, bảng nhóm.",
+          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -25810,7 +25812,15 @@
           "- Giải được các bài toán thực tế liên quan đến tìm vận tốc, quãng đường, thời gian của một chuyển động đều.",
           "- Biết đổi đơn vị đo quãng đường, thời gian cho phù hợp với đơn vị vận tốc cần tính.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
+          "4. TÍCH HỢP",
+          "- AI 5.A1.2: Nhấn mạnh: Xe tự lái dùng toán chuyển động, nhưng con người phải chịu trách nhiệm cuối cùng nếu có sự cố xảy ra."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 121, máy chiếu, PowerPoint, bảng nhóm.",
@@ -25819,14 +25829,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
-          "4. TÍCH HỢP",
-          "- AI 5.A1.2: Nhấn mạnh: Xe tự lái dùng toán chuyển động, nhưng con người phải chịu trách nhiệm cuối cùng nếu có sự cố xảy ra.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -26009,14 +26011,7 @@
           "- Giải được các bài toán thực tế liên quan đến tìm quãng đường, thời gian của một chuyển động đều.",
           "- Biết so sánh vận tốc sau khi đổi về cùng đơn vị đo.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 122, máy chiếu, PowerPoint, bảng nhóm.",
-          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
           "3. Phẩm chất",
@@ -26024,7 +26019,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "4. TÍCH HỢP",
-          "- Đạo đức, lối sống: Qua bài toán chuyển động đều, giáo dục học sinh tuân thủ luật giao thông, đi học đúng giờ và có trách nhiệm khi tham gia giao thông.",
+          "- Đạo đức, lối sống: Qua bài toán chuyển động đều, giáo dục học sinh tuân thủ luật giao thông, đi học đúng giờ và có trách nhiệm khi tham gia giao thông."
+        ],
+        "dodung": [
+          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 122, máy chiếu, PowerPoint, bảng nhóm.",
+          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -26207,7 +26209,15 @@
           "- Đọc, hoàn thành và nhận xét được bảng số liệu, biểu đồ trong một số tình huống thực tế.",
           "- Vận dụng kiến thức thống kê để giải quyết bài toán thực tế liên quan.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
+          "4. TÍCH HỢP",
+          "- AI 5.D2.1: Tổng kết: Càng có nhiều dữ liệu thống kê chính xác, các hệ thống AI càng phục vụ con người tốt hơn và thông minh hơn."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 123, 124, 125, máy chiếu, PowerPoint, bảng nhóm.",
@@ -26216,14 +26226,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
-          "4. TÍCH HỢP",
-          "- AI 5.D2.1: Tổng kết: Càng có nhiều dữ liệu thống kê chính xác, các hệ thống AI càng phục vụ con người tốt hơn và thông minh hơn.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -26428,14 +26430,7 @@
           "- Lựa chọn đúng các khả năng chắc chắn, có thể, không thể trong tình huống thực tế.",
           "- Đếm được số lần xuất hiện, số lần lặp lại của kết quả trong thí nghiệm đơn giản và viết được tỉ số so với tổng số lần thực hiện.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 126, 127, máy chiếu, PowerPoint, bảng nhóm.",
-          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
           "3. Phẩm chất",
@@ -26443,7 +26438,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "4. TÍCH HỢP",
-          "- Đạo đức, lối sống: Khi đọc bảng số liệu, biểu đồ và xác suất, giáo dục học sinh trung thực khi xử lí dữ liệu, không làm sai lệch kết quả.",
+          "- Đạo đức, lối sống: Khi đọc bảng số liệu, biểu đồ và xác suất, giáo dục học sinh trung thực khi xử lí dữ liệu, không làm sai lệch kết quả."
+        ],
+        "dodung": [
+          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 126, 127, máy chiếu, PowerPoint, bảng nhóm.",
+          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -26618,7 +26620,15 @@
           "- Đọc, viết được số tự nhiên theo cấu tạo thập phân; xác định được giá trị của chữ số trong một số.",
           "- Sắp xếp được các số tự nhiên và số thập phân theo thứ tự; nhận biết được phân số rút gọn.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
+          "4. TÍCH HỢP",
+          "- AI 5.A2.1: Khép lại chương trình: AI dù thông minh đến đâu vẫn chỉ là công cụ, trí tuệ và tấm lòng nhân văn của con người mới là yếu tố quyết định."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 128, 129, máy chiếu, PowerPoint, bảng nhóm.",
@@ -26627,14 +26637,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
-          "4. TÍCH HỢP",
-          "- AI 5.A2.1: Khép lại chương trình: AI dù thông minh đến đâu vẫn chỉ là công cụ, trí tuệ và tấm lòng nhân văn của con người mới là yếu tố quyết định.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -26837,14 +26839,7 @@
           "- Tính được giá trị biểu thức có và không có dấu ngoặc; vận dụng tính bằng cách thuận tiện.",
           "- Thực hiện được các phép tính với số đo thời gian.",
           "- Phát triển năng lực tư duy và lập luận toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 130, máy chiếu, PowerPoint, bảng nhóm.",
-          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
           "3. Phẩm chất",
@@ -26852,7 +26847,14 @@
           "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
           "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "4. TÍCH HỢP",
-          "- Lý tưởng cách mạng, đạo đức, lối sống: Chọn bài toán tổng hợp về địa danh Việt Nam, phong trào tiết kiệm hoặc hoạt động cộng đồng; giáo dục học sinh trách nhiệm, chăm học và trung thực.",
+          "- Lý tưởng cách mạng, đạo đức, lối sống: Chọn bài toán tổng hợp về địa danh Việt Nam, phong trào tiết kiệm hoặc hoạt động cộng đồng; giáo dục học sinh trách nhiệm, chăm học và trung thực."
+        ],
+        "dodung": [
+          "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 130, máy chiếu, PowerPoint, bảng nhóm.",
+          "- HS: SGK, vở Toán, bảng con, bút, thước, máy tính cầm tay khi được GV cho phép."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -27047,7 +27049,13 @@
           "- Tìm được tỉ số phần trăm, tính diện tích, chu vi, diện tích xung quanh, diện tích toàn phần và thể tích một số hình đã học.",
           "- Vận dụng được công thức về thời gian, quãng đường, vận tốc của một chuyển động đều.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 130, 131, 132, máy chiếu, PowerPoint, bảng nhóm.",
@@ -27055,12 +27063,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],
@@ -27267,7 +27269,13 @@
           "- Giải được bài toán thực tế liên quan đến hình học, tỉ số phần trăm, chuyển động đều và mật độ dân số.",
           "- Biết phân tích đề, lựa chọn cách giải phù hợp và trình bày bài giải rõ ràng.",
           "- Phát triển năng lực tư duy và lập luận toán học, mô hình hóa toán học, giao tiếp toán học và giải quyết vấn đề toán học.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
+          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
+          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
+          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống."
         ],
         "dodung": [
           "- GV: SGK, SGV Toán 5, bảng phụ, phiếu học tập, tranh SGK trang 132, 133, 134, máy chiếu, PowerPoint, bảng nhóm.",
@@ -27275,12 +27283,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách giải, trình bày rõ ràng kết quả và nhận xét bài làm của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Biết lựa chọn phương pháp giải phù hợp, vận dụng kiến thức vào tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, hoàn thành nhiệm vụ được giao.",
-          "- Trung thực: Trình bày đúng kết quả, tự kiểm tra và sửa sai khi cần.",
-          "- Trách nhiệm: Hợp tác với bạn, có ý thức vận dụng kiến thức vào học tập và đời sống.",
           "....................................................................................................................................................",
           "...................................................................................................................................................."
         ],

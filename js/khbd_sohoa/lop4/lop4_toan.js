@@ -28,7 +28,13 @@
           "2. Năng lực chung:",
           "- Tư duy và lập luận toán học: Phân tích cấu tạo số, so sánh và sắp xếp các số theo tiêu chí.",
           "- Giải quyết vấn đề: Vận dụng kiến thức số tự nhiên để xử lí tình huống thực tế.",
-          "- Giao tiếp và hợp tác: Thảo luận, trao đổi, chia sẻ ý kiến trong nhómM"
+          "- Giao tiếp và hợp tác: Thảo luận, trao đổi, chia sẻ ý kiến trong nhómM",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, chủ động hoàn thành bài tập.",
+          "- Trách nhiệm: Cẩn thận, chính xác khi viết số, so sánh số, giải bài toán; có tinh thần hợp tác, giúp đỡ bạn bè.",
+          "- Trung thực: Thừa nhận lỗi sai, cố gắng sửa chữa để tiến bộ.",
+          "4. Tích hợp:",
+          "- Tích hợp AI (4.A1.1): HS nhận biết AI hỗ trợ xử lí và sắp xếp lượng dữ liệu số khổng lồ nhanh hơn con người; so sánh tốc độ sắp xếp 10 số của con người với khả năng AI sắp xếp 100 000 số trong 1 giây."
         ],
         "dodung": [
           "- GV: SGK Toán 4, kế hoạch bài dạy, máy tính/ti vi, bảng phụ, phiếu học tập, thẻ số; tranh và bài tập SGK được cắt đúng nội dung.",
@@ -36,16 +42,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực tham gia hoạt động học tập, chủ động hoàn thành bài tập.",
-          "- Trách nhiệm: Cẩn thận, chính xác khi viết số, so sánh số, giải bài toán; có tinh thần hợp tác, giúp đỡ bạn bè.",
-          "- Trung thực: Thừa nhận lỗi sai, cố gắng sửa chữa để tiến bộ.",
-          "4. Tích hợp:",
-          "- Tích hợp AI (4.A1.1): HS nhận biết AI hỗ trợ xử lí và sắp xếp lượng dữ liệu số khổng lồ nhanh hơn con người; so sánh tốc độ sắp xếp 10 số của con người với khả năng AI sắp xếp 100 000 số trong 1 giây.",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 4 - TUẦN 1"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -4089,14 +4088,7 @@
           "- Nhận biết được số gần với số tròn trăm nghìn nào hơn thông qua tia số và giá trị chữ số hàng chục nghìn.",
           "- Vận dụng được cách làm tròn số vào giá tiền, số lượng phương tiện, dân số và một số tình huống thực tế đơn giản.",
           "- Đọc được bảng số liệu, giải thích được cách làm và kiểm tra kết quả làm tròn.",
-          "2. Năng lực chung:"
-        ],
-        "dodung": [
-          "- GV: SGK Toán 4, kế hoạch bài dạy, máy tính, ti vi, bài giảng điện tử, tia số, bảng phụ, phiếu học tập; tranh/bài tập SGK được cắt đúng nội dung.",
-          "- HS: SGK, vở ghi, bảng con, bút, thước, phiếu học tập và đồ dùng học tập cá nhân."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung:",
           "- Giao tiếp và hợp tác: Trao đổi nhóm đôi, trình bày cách làm tròn, lắng nghe và nhận xét cách giải thích của bạn.",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng làm tròn số để xử lí số liệu lớn, ước lượng và đưa ra nhận xét phù hợp.",
           "3. Phẩm chất:",
@@ -4104,7 +4096,14 @@
           "- Trách nhiệm: Cẩn thận khi xác định hàng, giữ nguyên hoặc tăng chữ số hàng trăm nghìn và thay các chữ số phía sau bằng 0.",
           "- Trung thực: Báo cáo đúng kết quả, chủ động kiểm tra lại và sửa lỗi khi nhận ra cách làm chưa chính xác.",
           "4. Tích hợp:",
-          "- Tích hợp AI (4.A3.1): HS hiểu rằng các dự báo do AI hỗ trợ như dự báo thời tiết, giá cả, lượng tiêu thụ hoặc nhu cầu thị trường thường được tạo ra từ dữ liệu đã thu thập và được trình bày dưới dạng ước lượng, xác suất hoặc giá trị gần đúng. HS biết phân biệt số liệu chính xác với số liệu đã làm tròn; không xem dự báo của AI là điều chắc chắn tuyệt đối; biết kiểm tra nguồn, đối chiếu với thông tin thực tế và sử dụng kết quả dự báo một cách có trách nhiệm.",
+          "- Tích hợp AI (4.A3.1): HS hiểu rằng các dự báo do AI hỗ trợ như dự báo thời tiết, giá cả, lượng tiêu thụ hoặc nhu cầu thị trường thường được tạo ra từ dữ liệu đã thu thập và được trình bày dưới dạng ước lượng, xác suất hoặc giá trị gần đúng. HS biết phân biệt số liệu chính xác với số liệu đã làm tròn; không xem dự báo của AI là điều chắc chắn tuyệt đối; biết kiểm tra nguồn, đối chiếu với thông tin thực tế và sử dụng kết quả dự báo một cách có trách nhiệm."
+        ],
+        "dodung": [
+          "- GV: SGK Toán 4, kế hoạch bài dạy, máy tính, ti vi, bài giảng điện tử, tia số, bảng phụ, phiếu học tập; tranh/bài tập SGK được cắt đúng nội dung.",
+          "- HS: SGK, vở ghi, bảng con, bút, thước, phiếu học tập và đồ dùng học tập cá nhân."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................"
@@ -4252,7 +4251,14 @@
           "2. Năng lực chung:",
           "- Tư duy và lập luận toán học: Quan sát cấu tạo số, phân tích theo số chữ số và giá trị từng hàng.",
           "- Giao tiếp và hợp tác: Trao đổi nhóm đôi, trình bày cách so sánh và nhận xét bài của bạn.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng cách so sánh số vào giá tiền, khoảng cách và số liệu thực tế."
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng cách so sánh số vào giá tiền, khoảng cách và số liệu thực tế.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ.",
+          "- Trách nhiệm: Cẩn thận khi đọc, viết và so sánh số.",
+          "- Trung thực: Tự giác làm bài, mạnh dạn sửa lỗi.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 5.2.CB1a: HS biết nhập, sắp xếp dãy số trên công cụ số, kiểm tra dữ liệu và đối chiếu kết quả với cách so sánh bằng tay.",
+          "- Tích hợp AI (4.A1.1): HS nhận biết AI có thể tìm kiếm, so sánh và sắp xếp dữ liệu nhanh; biết con người cần xác định tiêu chí và kiểm tra kết quả."
         ],
         "dodung": [
           "- GV: SGK Toán 4, kế hoạch bài dạy, máy tính/ti vi, bảng phụ, phiếu học tập, thẻ số; tranh và bài tập SGK được cắt đúng nội dung.",
@@ -4260,17 +4266,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực tham gia hoạt động, hoàn thành nhiệm vụ.",
-          "- Trách nhiệm: Cẩn thận khi đọc, viết và so sánh số.",
-          "- Trung thực: Tự giác làm bài, mạnh dạn sửa lỗi.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 5.2.CB1a: HS biết nhập, sắp xếp dãy số trên công cụ số, kiểm tra dữ liệu và đối chiếu kết quả với cách so sánh bằng tay.",
-          "- Tích hợp AI (4.A1.1): HS nhận biết AI có thể tìm kiếm, so sánh và sắp xếp dữ liệu nhanh; biết con người cần xác định tiêu chí và kiểm tra kết quả.",
           ".............................................................................................................................",
           ".............................................................................................................................",
-          ".............................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 4 - TUẦN 7"
+          "............................................................................................................................."
         ],
         "tables": [
           [
@@ -8481,7 +8479,9 @@
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách vẽ, vật liệu và cách trang trí phù hợp.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Tích cực, kiên trì thực hành.",
-          "- Trách nhiệm: Sử dụng thước, ê ke, kéo và keo dán an toàn; giữ gìn vệ sinh lớp học."
+          "- Trách nhiệm: Sử dụng thước, ê ke, kéo và keo dán an toàn; giữ gìn vệ sinh lớp học.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 3.1.CB1a, 5.2.CB1a: HS dùng công cụ vẽ đơn giản để tạo hai đường thẳng vuông góc, lưu, kiểm tra và trình bày sản phẩm theo hướng dẫn."
         ],
         "dodung": [
           "- GV: SGK Toán 4, kế hoạch bài dạy, máy tính, ti vi, bài giảng điện tử, bảng phụ, phiếu học tập; tranh/bài tập SGK được cắt đúng nội dung. Chuẩn bị thêm que gỗ, keo dán, dây buộc; công cụ vẽ đơn giản trên máy tính hoặc máy tính bảng.",
@@ -8489,12 +8489,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "4. Tích hợp:",
-          "- Tích hợp NLS 3.1.CB1a, 5.2.CB1a: HS dùng công cụ vẽ đơn giản để tạo hai đường thẳng vuông góc, lưu, kiểm tra và trình bày sản phẩm theo hướng dẫn.",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 4 - TUẦN 14"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -8592,7 +8589,14 @@
         "yccd": [
           "1. Năng lực đặc thù:",
           "- Thực hiện được việc vẽ đường thẳng đi qua một điểm và vuông góc với đường thẳng cho trước bằng thước thẳng và ê ke.",
-          "- Vẽ được bản thiết kế con diều theo số đo cho trước và tạo được khung diều có hai thanh tre vuông góc."
+          "- Vẽ được bản thiết kế con diều theo số đo cho trước và tạo được khung diều có hai thanh tre vuông góc.",
+          "2. Năng lực chung:",
+          "- Tự chủ và tự học: Chủ động đọc hướng dẫn, đo, vẽ và kiểm tra sản phẩm.",
+          "- Giao tiếp và hợp tác: Phân công, phối hợp với bạn trong quá trình thiết kế và làm diều.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Kiên trì thực hiện đúng quy trình.",
+          "- Trách nhiệm: Dùng dụng cụ an toàn, tiết kiệm vật liệu và hoàn thành nhiệm vụ của nhóm.",
+          "- Trung thực: Đo và báo cáo đúng kích thước, chủ động sửa sản phẩm chưa đạt."
         ],
         "dodung": [
           "- GV: SGK Toán 4, kế hoạch bài dạy, máy tính, ti vi, bài giảng điện tử, bảng phụ, phiếu học tập; tranh/bài tập SGK được cắt đúng nội dung. Chuẩn bị thêm hai thanh tre, giấy báo, cuộn dây, keo dán, bút màu và kéo an toàn.",
@@ -8600,17 +8604,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung:",
-          "- Tự chủ và tự học: Chủ động đọc hướng dẫn, đo, vẽ và kiểm tra sản phẩm.",
-          "- Giao tiếp và hợp tác: Phân công, phối hợp với bạn trong quá trình thiết kế và làm diều.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Kiên trì thực hiện đúng quy trình.",
-          "- Trách nhiệm: Dùng dụng cụ an toàn, tiết kiệm vật liệu và hoàn thành nhiệm vụ của nhóm.",
-          "- Trung thực: Đo và báo cáo đúng kích thước, chủ động sửa sản phẩm chưa đạt.",
           "................................................................................................................................................",
           "................................................................................................................................................",
-          "................................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN LỚP 4 - TUẦN 14"
+          "................................................................................................................................................"
         ],
         "tables": [
           [
@@ -12194,22 +12190,7 @@
           "- Trung thực: Ghi đúng kết quả thử nghiệm, nhận xét đúng mối quan hệ giữa các biểu thức và không thay đổi dữ liệu để làm sai lệch kết luận.",
           "- Trách nhiệm: Cẩn thận khi sử dụng tính chất giao hoán, kết hợp; kiểm tra lại biểu thức sau khi đổi chỗ hoặc nhóm thừa số và sử dụng công cụ số đúng hướng dẫn.",
           "4. Tích hợp:",
-          "- Tích hợp NLS 5.2.CB1a: HS dùng bảng tính hoặc công cụ số để thử các ví dụ về tính chất giao hoán của phép nhân và trình bày nhận xét."
-        ],
-        "dodung": [
-          "- GV: Máy tính, ti vi, phiếu bài 1.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi, phiếu bài 2.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi, phiếu bài 1.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi, phiếu bài 2.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi, phiếu bài 1.",
-          "- HS: SGK, vở ghi."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "- Tích hợp NLS 5.2.CB1a: HS dùng bảng tính hoặc công cụ số để thử các ví dụ về tính chất giao hoán của phép nhân và trình bày nhận xét.",
           "________________________________________",
           "Toán (Tiết 92)",
           "LUYỆN TẬP",
@@ -12232,6 +12213,23 @@
           "- Trách nhiệm: Cẩn thận khi tính toán, ghi đúng đơn vị và đáp số, kiểm tra lại kết quả trước khi trình bày hoặc nộp bài.",
           "Toán (Tiết 95)",
           "TÍNH CHẤT GIAO HOÁN VÀ KẾT HỢP CỦA PHÉP NHÂN."
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, phiếu bài 1.",
+          "- HS: SGK, vở ghi.",
+          "- GV: Máy tính, ti vi, phiếu bài 2.",
+          "- HS: SGK, vở ghi.",
+          "- GV: Máy tính, ti vi, phiếu bài 1.",
+          "- HS: SGK, vở ghi.",
+          "- GV: Máy tính, ti vi, phiếu bài 2.",
+          "- HS: SGK, vở ghi.",
+          "- GV: Máy tính, ti vi, phiếu bài 1.",
+          "- HS: SGK, vở ghi."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -13098,22 +13096,7 @@
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực thực hiện các phép tính và bài toán vận dụng.",
           "- Trung thực: Ghi đúng kết quả, nêu đúng cách làm và sửa bài khi có sai sót.",
-          "- Trách nhiệm: Cẩn thận khi sử dụng dấu ngoặc, dấu phép tính và kiểm tra lại sự bằng nhau của các biểu thức."
-        ],
-        "dodung": [
-          "- GV: Máy tính, ti vi, các khối lập phương nhỏ như SGK.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi, phiếu học tập.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi, phiếu học tập.",
-          "- HS: SGK, vở ghi.",
-          "- GV: Máy tính, ti vi.",
-          "- HS: SGK, vở ghi."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "- Trách nhiệm: Cẩn thận khi sử dụng dấu ngoặc, dấu phép tính và kiểm tra lại sự bằng nhau của các biểu thức.",
           "- Giải quyết vấn đề và sáng tạo: Biết vận dụng tính chất kết hợp để thay đổi cách nhóm các thừa số, lựa chọn cách tính hợp lí và giải bài toán thực tế.",
           "- Giao tiếp và hợp tác: Trình bày được cách tính, giải thích vì sao hai biểu thức có giá trị bằng nhau; biết trao đổi, kiểm tra và thống nhất kết quả với bạn.",
           "3. Phẩm chất",
@@ -13133,6 +13116,23 @@
           "Toán (Tiết 100)",
           "TÍNH CHẤT PHÂN PHỐI CỦA PHÉP NHÂN ĐỐI VỚI PHÉP CỘNG",
           "________________________________________"
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi, các khối lập phương nhỏ như SGK.",
+          "- HS: SGK, vở ghi.",
+          "- GV: Máy tính, ti vi, phiếu học tập.",
+          "- HS: SGK, vở ghi.",
+          "- GV: Máy tính, ti vi.",
+          "- HS: SGK, vở ghi.",
+          "- GV: Máy tính, ti vi, phiếu học tập.",
+          "- HS: SGK, vở ghi.",
+          "- GV: Máy tính, ti vi.",
+          "- HS: SGK, vở ghi."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -15367,7 +15367,12 @@
           "- Củng cố thực hiện cách nhân và chia với số có hai chữ số.",
           "2. Năng lực chung",
           "- Giải quyết vấn đề và sáng tạo: Vận dụng quan hệ thừa số – tích, số bị chia – số chia – thương – số dư để tìm số còn thiếu và giải bài toán thực tế.",
-          "- Giao tiếp và hợp tác: Trao đổi theo cặp, trình bày cách tính; sử dụng Quizizz để gửi đáp án và tiếp nhận phản hồi."
+          "- Giao tiếp và hợp tác: Trao đổi theo cặp, trình bày cách tính; sử dụng Quizizz để gửi đáp án và tiếp nhận phản hồi.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tính toán, đọc kĩ dữ kiện và kiên trì kiểm tra kết quả nhân, chia.",
+          "4. Tích hợp",
+          "- ……………………………………………………………",
+          "TOÁN 4 – TIẾT 109"
         ],
         "dodung": [
           "- GV: Máy tính, ti vi, phiếu bài tập 1, 2; mã/đường link hoặc mã QR Quizizz.",
@@ -15375,12 +15380,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tính toán, đọc kĩ dữ kiện và kiên trì kiểm tra kết quả nhân, chia.",
-          "4. Tích hợp",
-          "- ……………………………………………………………",
-          "- ……………………………………………………………",
-          "TOÁN 4 – TIẾT 109"
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -15529,13 +15530,7 @@
           "- Bước đầu vận dụng ước lượng để thực hiện kĩ thuật tính và kiểm tra tính hợp lí của kết quả.",
           "2. Năng lực chung",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách làm tròn thích hợp để ước lượng kết quả cộng, trừ, nhân, chia và đánh giá tính hợp lí của dự đoán.",
-          "- Giao tiếp và hợp tác: Thảo luận, đóng vai, trình bày cách ước lượng; phối hợp trong hoạt động STEM và trò chơi theo nhóm."
-        ],
-        "dodung": [
-          "- HS: SGK, vở ghi, bút; đồ dùng cho trò chơi."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "- Giao tiếp và hợp tác: Thảo luận, đóng vai, trình bày cách ước lượng; phối hợp trong hoạt động STEM và trò chơi theo nhóm.",
           "3. Phẩm chất",
           "- Chăm chỉ: Tích cực thực hành làm tròn, ước lượng và giải thích kết luận đúng – sai.",
           "- Trách nhiệm: Trung thực khi so sánh dự đoán với kết quả; nhận thức con người cần kiểm tra và quyết định trước gợi ý của AI.",
@@ -15543,8 +15538,15 @@
           "- Tích hợp STEM: HS thực hành làm tròn số, ước lượng kết quả và kiểm tra tính hợp lí trong các tình huống cộng, trừ, nhân, chia.",
           "- Tích hợp AI (4.A3.1): HS nhận biết dự đoán của AI chỉ mang tính xác suất, có thể sai lệch; con người cần kiểm tra dữ liệu, cân nhắc phương án dự phòng và đưa ra quyết định cuối cùng.",
           "- ……………………………………………………………",
-          "- ……………………………………………………………",
           "TOÁN 4 – TIẾT 110"
+        ],
+        "dodung": [
+          "- HS: SGK, vở ghi, bút; đồ dùng cho trò chơi."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -19272,7 +19274,13 @@
           "1. Năng lực đặc thù",
           "- Củng cố cách rút gọn phân số.",
           "- Bổ sung thêm trường hợp rút gọn để tìm thương của phép chia.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trình bày rõ cách rút gọn, giải thích vì sao hai phân số bằng nhau; trao đổi, nhận xét và hỗ trợ bạn trong hoạt động cặp đôi, nhóm.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng tính chất cơ bản của phân số để rút gọn ngay trong bước tính, nhận biết phân số tối giản và giải quyết tình huống chia phần.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, thực hiện phép rút gọn cẩn thận và hoàn thành đầy đủ các bài tập.",
+          "- Trách nhiệm: Kiểm tra đúng tử số, mẫu số và số chia chung; trung thực khi báo cáo kết quả, tự giác sửa sai.",
+          "TOÁN 4 – TIẾT 132"
         ],
         "dodung": [
           "- GV: máy tính, máy chiếu, webcam, thẻ xoay đáp án.",
@@ -19280,12 +19288,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trình bày rõ cách rút gọn, giải thích vì sao hai phân số bằng nhau; trao đổi, nhận xét và hỗ trợ bạn trong hoạt động cặp đôi, nhóm.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng tính chất cơ bản của phân số để rút gọn ngay trong bước tính, nhận biết phân số tối giản và giải quyết tình huống chia phần.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, thực hiện phép rút gọn cẩn thận và hoàn thành đầy đủ các bài tập.",
-          "- Trách nhiệm: Kiểm tra đúng tử số, mẫu số và số chia chung; trung thực khi báo cáo kết quả, tự giác sửa sai.",
-          "TOÁN 4 – TIẾT 132"
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -20172,7 +20176,15 @@
           "- Củng cố so sánh phân số: cùng mẫu số, khác mẫu số, so sánh phân số với 1.",
           "- Bổ sung và vận dụng so sánh hai phân số cùng tử số.",
           "- Vận dụng so sánh phân số để giải bài tập và bài toán thực tế.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "- Giao tiếp và hợp tác: Trình bày rõ căn cứ so sánh phân số cùng mẫu, khác mẫu, cùng tử và so với 1; trao đổi, nhận xét khi làm việc theo cặp hoặc trên Quizizz.",
+          "- Giải quyết vấn đề và sáng tạo: Vận dụng các quy tắc so sánh để xác định lượng ít nhất, suy luận thứ tự nặng – nhẹ và giải quyết tình huống thực tế.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực luyện tập, thực hiện phép quy đồng và so sánh cẩn thận, hoàn thành đầy đủ nhiệm vụ.",
+          "- Trách nhiệm: Trung thực khi chọn và gửi đáp án, kiểm tra kết quả trước khi nộp, tôn trọng lập luận của bạn.",
+          "4. Tích hợp:",
+          "…………………………………………………………………",
+          "TOÁN 4 – TIẾT 137"
         ],
         "dodung": [
           "- GV: Máy tính, TV/máy chiếu; ảnh/slide bài tập; bài Quizizz thiết kế sẵn cho Bài 4.",
@@ -20182,14 +20194,8 @@
           "(Mỗi hàng: 1 câu GV – 1 câu HS tương ứng; mỗi câu GV/HS đều có gạch đầu dòng (-); cột HS ghi kết quả cụ thể)"
         ],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: Trình bày rõ căn cứ so sánh phân số cùng mẫu, khác mẫu, cùng tử và so với 1; trao đổi, nhận xét khi làm việc theo cặp hoặc trên Quizizz.",
-          "- Giải quyết vấn đề và sáng tạo: Vận dụng các quy tắc so sánh để xác định lượng ít nhất, suy luận thứ tự nặng – nhẹ và giải quyết tình huống thực tế.",
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực luyện tập, thực hiện phép quy đồng và so sánh cẩn thận, hoàn thành đầy đủ nhiệm vụ.",
-          "- Trách nhiệm: Trung thực khi chọn và gửi đáp án, kiểm tra kết quả trước khi nộp, tôn trọng lập luận của bạn.",
-          "4. Tích hợp:",
-          "…………………………………………………………………",
-          "TOÁN 4 – TIẾT 137"
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -20782,7 +20788,9 @@
           "- Chăm chỉ: Tích cực thao tác, tính toán và trình bày phép cộng phân số cẩn thận.",
           "- Trách nhiệm: Ghi đúng tử số, mẫu số và đơn vị đo; sử dụng thiết bị đúng mục đích, kiểm tra đáp án trước khi gửi.",
           "4. Tích hợp:",
-          "- Tích hợp NLS 3.1.CB1a: HS sử dụng mô hình phân số trực quan trên công cụ số để minh họa phép cộng phân số cùng mẫu số, sau đó đối chiếu và trình bày lại bằng phép tính trên vở."
+          "- Tích hợp NLS 3.1.CB1a: HS sử dụng mô hình phân số trực quan trên công cụ số để minh họa phép cộng phân số cùng mẫu số, sau đó đối chiếu và trình bày lại bằng phép tính trên vở.",
+          "- Tích hợp AI (4.C4.1): HS nhận biết quy tắc “cùng mẫu số thì cộng các tử số và giữ nguyên mẫu số” có thể được mô tả thành các bước logic để máy tính thực hiện; biết kiểm tra điều kiện và kết quả trước khi sử dụng.",
+          "…………………………………………………………………"
         ],
         "dodung": [
           "- GV: Máy tính, ti vi; phiếu bài tập; băng giấy, bút màu, ca nước; chuẩn bị Quizizz cho Bài 3.",
@@ -20790,9 +20798,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Tích hợp AI (4.C4.1): HS nhận biết quy tắc “cùng mẫu số thì cộng các tử số và giữ nguyên mẫu số” có thể được mô tả thành các bước logic để máy tính thực hiện; biết kiểm tra điều kiện và kết quả trước khi sử dụng.",
-          "…………………………………………………………………",
-          "…………………………………………………………………"
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -23936,14 +23943,7 @@
           "1. Năng lực đặc thù",
           "- Ôn tập, củng cố về các phép tính với phân số.",
           "- Giải các bài toán có lời văn liên quan đến phép nhân, phép chia phân số và tìm phân số của một số.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: máy tính, máy chiếu, webcam, phiếu HT.",
-          "- HS: SGK, vở ghi, bảng con."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trình bày rõ quy tắc nhân, chia phân số; trao đổi cách giải bài toán quãng đường và diện tích.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn đúng phép tính, thứ tự thực hiện và vận dụng công cụ số để kiểm tra kết quả.",
           "3. Phẩm chất",
@@ -23952,6 +23952,15 @@
           "4. Tích hợp:",
           "-",
           "TOÁN 4 – TIẾT 160"
+        ],
+        "dodung": [
+          "- GV: máy tính, máy chiếu, webcam, phiếu HT.",
+          "- HS: SGK, vở ghi, bảng con."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -24297,7 +24306,13 @@
           "- Vận dụng giải được các bài toán thực tế liên quan đến phép nhân và phép chia phân số và tìm phân số của một số.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: Chủ động thực hiện phép nhân, phép chia phân số, tìm phân số của một số và tự kiểm tra kết quả.",
-          "- Giao tiếp và hợp tác: Trao đổi cách giải bài toán về đơn hàng, lượng nước, số ốc vít và bánh chưng; trình bày rõ cách làm."
+          "- Giao tiếp và hợp tác: Trao đổi cách giải bài toán về đơn hàng, lượng nước, số ốc vít và bánh chưng; trình bày rõ cách làm.",
+          "3. Phẩm chất",
+          "- Chăm chỉ: Tích cực tính toán, đọc kĩ dữ kiện và hoàn thành đầy đủ các bài tập.",
+          "- Trách nhiệm: Sử dụng thiết bị đúng mục đích, trung thực khi làm Quizizz và kiểm tra đơn vị, kết quả trước khi trình bày.",
+          "4. Tích hợp:",
+          "-",
+          "TOÁN 4 – TIẾT 162"
         ],
         "dodung": [
           "- GV: máy tính, ti vi.",
@@ -24305,12 +24320,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "- Chăm chỉ: Tích cực tính toán, đọc kĩ dữ kiện và hoàn thành đầy đủ các bài tập.",
-          "- Trách nhiệm: Sử dụng thiết bị đúng mục đích, trung thực khi làm Quizizz và kiểm tra đơn vị, kết quả trước khi trình bày.",
-          "4. Tích hợp:",
-          "-",
-          "TOÁN 4 – TIẾT 162"
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [
@@ -24723,14 +24734,7 @@
           "1. Năng lực đặc thù",
           "- Củng cố tính chất của dãy số tự nhiên; cách xác định số liền sau của một số tự nhiên; rèn kĩ năng làm tròn số đến hàng nghìn, hàng chục nghìn, hàng trăm nghìn.",
           "- Củng cố cách tìm số bé nhất, số lớn nhất trong các số đã cho; giải bài toán thực tế liên quan đến so sánh, sắp xếp thứ tự số tự nhiên.",
-          "2. Năng lực chung"
-        ],
-        "dodung": [
-          "- GV: Máy tính, ti vi; phiếu bài tập 3.",
-          "- HS: SGK, vở ghi; (nếu có) thiết bị tham gia Quizizz theo hướng dẫn của GV."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "2. Năng lực chung",
           "- Giao tiếp và hợp tác: Trao đổi cách so sánh khối lượng, giá tiền, số học sinh; trình bày quy tắc làm tròn số.",
           "- Giải quyết vấn đề và sáng tạo: Lựa chọn cách so sánh, làm tròn và sắp xếp phù hợp trong các tình huống thực tế.",
           "3. Phẩm chất",
@@ -24738,8 +24742,16 @@
           "- Trách nhiệm: Sử dụng Quizizz an toàn, trung thực; ghi đúng đơn vị người, ki-lô-gam và đồng.",
           "4. Tích hợp:",
           "…………………………………………………………………",
-          "…………………………………………………………………",
           "TOÁN 4 – TIẾT 164"
+        ],
+        "dodung": [
+          "- GV: Máy tính, ti vi; phiếu bài tập 3.",
+          "- HS: SGK, vở ghi; (nếu có) thiết bị tham gia Quizizz theo hướng dẫn của GV."
+        ],
+        "activities": [],
+        "dieuchinh": [
+          "....................................................................................................................................................",
+          "...................................................................................................................................................."
         ],
         "tables": [
           [

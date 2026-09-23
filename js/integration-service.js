@@ -3013,6 +3013,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   injectIntegrationIntoLesson: function(origLesson, suggestion, overwriteLegacy) {
     var shouldClean = (overwriteLegacy !== false);
     var lesson = shouldClean ? this.cleanLegacyIntegrationFromLesson(origLesson) : JSON.parse(JSON.stringify(origLesson));
+    this.healLeakedYccd(lesson);
 
     if (!lesson.yccd) lesson.yccd = [];
     if (suggestion.yccdAddition) {
@@ -3503,6 +3504,55 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     return pList.length > 0 ? pList.join('') : '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + ';">&nbsp;</p>';
   },
 
+  healLeakedYccd: function(les) {
+    if (!les || !Array.isArray(les.dieuchinh) || les.dieuchinh.length === 0) return les;
+    var dc = les.dieuchinh;
+    var hasLeak = dc.some(function(line) {
+      return typeof line === 'string' && /Phẩm chất|Năng lực|Tích hợp|Giao tiếp|Tự chủ|Chăm chỉ|Trách nhiệm|Giải quyết vấn đề|Nhân ái|Trung thực|Yêu nước/i.test(line);
+    });
+    if (!hasLeak) return les;
+
+    var yccd = Array.isArray(les.yccd) ? [...les.yccd] : [];
+    var extractedYccd = [];
+    var remainingDc = [];
+    var inYccdBlock = true;
+
+    for (var i = 0; i < dc.length; i++) {
+      var raw = dc[i];
+      if (typeof raw !== 'string') continue;
+      var line = raw.trim();
+      if (!line) continue;
+
+      if (/^\.{5,}/.test(line) || /^[-–—*•]?\s*\.{5,}/.test(line) || /^KẾ HOẠCH BÀI DẠY/i.test(line) || /^CHỦ ĐỀ \d+/i.test(line) || /^PHỤ LỤC/i.test(line)) {
+        inYccdBlock = false;
+      }
+
+      if (inYccdBlock) {
+        extractedYccd.push(raw);
+      } else {
+        if (/^\.{5,}/.test(line) || /^[-–—*•]?\s*\.{5,}/.test(line)) {
+          remainingDc.push(raw);
+        }
+      }
+    }
+
+    if (extractedYccd.length > 0) {
+      for (var j = 0; j < extractedYccd.length; j++) {
+        var itm = extractedYccd[j];
+        if (yccd.length > 0 && yccd[yccd.length - 1].trim() === itm.trim()) {
+          continue;
+        }
+        yccd.push(itm);
+      }
+      les.yccd = yccd;
+      les.dieuchinh = remainingDc.length > 0 ? remainingDc : [
+        "....................................................................................................................................................",
+        "...................................................................................................................................................."
+      ];
+    }
+    return les;
+  },
+
   generateWordHtmlStructure: function(lessons, meta) {
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = meta.teacherName || '';
@@ -3826,6 +3876,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           docHtml += '<br clear="all" style="page-break-before: always; mso-break-type: section-break;" /><p class="MsoNormal" style="page-break-before: always; margin: 0pt; mso-para-margin: 0pt; font-size: 1pt; line-height: 1pt; height: 1pt; mso-margin-top-alt: 0pt; mso-margin-bottom-alt: 0pt;">&nbsp;</p><div class="page-break" style="page-break-before: always; mso-break-type: section-break;"></div>';
         }
       }
+
+      IntegrationService.healLeakedYccd(les);
 
       if (disSupport && disSupport.enabled) {
         IntegrationService.injectDisabilityIntoLesson(les, disSupport);

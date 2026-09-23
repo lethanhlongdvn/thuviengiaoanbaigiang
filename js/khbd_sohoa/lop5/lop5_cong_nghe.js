@@ -1660,15 +1660,7 @@
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
-          "- Thiết kế kĩ thuật: Thiết kế được một sản phẩm thủ công kĩ thuật đơn giản theo hướng dẫn."
-        ],
-        "dodung": [
-          "- Máy tính, máy chiếu, SGK Công nghệ 5.",
-          "- Kéo, thước, bút, hồ dán, màu vẽ, giấy bìa.",
-          "- Phiếu đánh giá sản phẩm, khăn/bao rác nhỏ để HS thu dọn vật liệu thừa."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "- Thiết kế kĩ thuật: Thiết kế được một sản phẩm thủ công kĩ thuật đơn giản theo hướng dẫn.",
           "2. Năng lực chung",
           "- Tự chủ và tự học: HS tự chuẩn bị vật liệu, dụng cụ và tự thực hiện nhiệm vụ theo sự phân công, hướng dẫn.",
           "- Giải quyết vấn đề và sáng tạo: HS xác định được các bước để làm sản phẩm mẫu từ ý tưởng đã đề ra.",
@@ -1678,7 +1670,15 @@
           "- Trách nhiệm: HS hoàn thành nhiệm vụ cá nhân, giữ gìn vệ sinh lớp học, sử dụng vật liệu, dụng cụ an toàn.",
           "- Trung thực: HS thật thà, ngay thẳng trong việc đánh giá và tự đánh giá; mạnh dạn nói lên ý tưởng, suy nghĩ của mình.",
           "4. Tích hợp",
-          "- KNS: HS rèn kĩ năng lập kế hoạch, lựa chọn vật liệu, phân công nhiệm vụ và hợp tác khi làm sản phẩm theo bản phác thảo.",
+          "- KNS: HS rèn kĩ năng lập kế hoạch, lựa chọn vật liệu, phân công nhiệm vụ và hợp tác khi làm sản phẩm theo bản phác thảo."
+        ],
+        "dodung": [
+          "- Máy tính, máy chiếu, SGK Công nghệ 5.",
+          "- Kéo, thước, bút, hồ dán, màu vẽ, giấy bìa.",
+          "- Phiếu đánh giá sản phẩm, khăn/bao rác nhỏ để HS thu dọn vật liệu thừa."
+        ],
+        "activities": [],
+        "dieuchinh": [
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -1983,7 +1983,10 @@
           "- Tự chủ và tự học: HS tự tìm hiểu bài, tự nhận xét được kết quả học tập của mình và tự làm được những việc của mình theo sự phân công, hướng dẫn.",
           "- Giải quyết vấn đề và sáng tạo: HS xác định được các bước để làm sản phẩm mẫu từ ý tưởng mình đã đề ra.",
           "- Giao tiếp và hợp tác: HS phối hợp với bạn, trình bày cách làm sản phẩm và nhận xét kết quả của nhóm mình, nhóm bạn.",
-          "3. Phẩm chất"
+          "3. Phẩm chất",
+          "- Trách nhiệm: HS sử dụng dụng cụ an toàn, giữ vệ sinh, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "- Trung thực: HS thật thà, ngay thẳng trong việc đánh giá và tự đánh giá; mạnh dạn nói lên ý tưởng, suy nghĩ của mình.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "- Máy tính, máy chiếu, SGK Công nghệ 5, phiếu học tập.",
@@ -1992,9 +1995,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Trách nhiệm: HS sử dụng dụng cụ an toàn, giữ vệ sinh, hoàn thành nhiệm vụ cá nhân và nhóm.",
-          "- Trung thực: HS thật thà, ngay thẳng trong việc đánh giá và tự đánh giá; mạnh dạn nói lên ý tưởng, suy nghĩ của mình.",
-          "4. Tích hợp",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -2554,7 +2554,14 @@
           "– Thực hành lựa chọn cách giao tiếp phù hợp khi trả lời điện thoại.",
           "– Nêu được các lưu ý khi sử dụng điện thoại an toàn, tiết kiệm, hiệu quả và phù hợp với quy tắc giao tiếp.",
           "– Đóng vai xử lí một số tình huống thường gặp khi sử dụng điện thoại.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "– Giao tiếp và hợp tác: Hợp tác đóng vai, lắng nghe, nhận xét cách xử lí tình huống của bạn.",
+          "– Giải quyết vấn đề và sáng tạo: Biết lựa chọn lời nói, hành động phù hợp trong các tình huống giao tiếp qua điện thoại.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Tích cực luyện tập, đóng vai và chia sẻ kinh nghiệm sử dụng điện thoại.",
+          "– Trách nhiệm: Hình thành thói quen sử dụng điện thoại đúng mục đích, đúng thời gian, tôn trọng người khác khi giao tiếp.",
+          "4. Tích hợp",
+          "– Đạo đức, lối sống: HS hình thành thói quen sử dụng điện thoại đúng mục đích, đúng thời gian; không dùng điện thoại để trêu chọc, xúc phạm, phát tán hình ảnh hoặc thông tin của người khác; biết nói lời lịch sự khi gọi và trả lời điện thoại."
         ],
         "dodung": [
           "– SGK Công nghệ 5.",
@@ -2564,13 +2571,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "– Giao tiếp và hợp tác: Hợp tác đóng vai, lắng nghe, nhận xét cách xử lí tình huống của bạn.",
-          "– Giải quyết vấn đề và sáng tạo: Biết lựa chọn lời nói, hành động phù hợp trong các tình huống giao tiếp qua điện thoại.",
-          "3. Phẩm chất",
-          "– Chăm chỉ: Tích cực luyện tập, đóng vai và chia sẻ kinh nghiệm sử dụng điện thoại.",
-          "– Trách nhiệm: Hình thành thói quen sử dụng điện thoại đúng mục đích, đúng thời gian, tôn trọng người khác khi giao tiếp.",
-          "4. Tích hợp",
-          "– Đạo đức, lối sống: HS hình thành thói quen sử dụng điện thoại đúng mục đích, đúng thời gian; không dùng điện thoại để trêu chọc, xúc phạm, phát tán hình ảnh hoặc thông tin của người khác; biết nói lời lịch sự khi gọi và trả lời điện thoại.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -3139,7 +3139,12 @@
           "– Biết vận dụng kiến thức để lựa chọn thực phẩm nên và không nên để trong tủ lạnh.",
           "2. Năng lực chung",
           "– Giải quyết vấn đề và sáng tạo: Xử lí được tình huống khi được yêu cầu sắp xếp thực phẩm vào tủ lạnh.",
-          "– Giao tiếp và hợp tác: Trả lời, tương tác với GV, phối hợp với bạn để sắp xếp thẻ thực phẩm và trình bày kết quả."
+          "– Giao tiếp và hợp tác: Trả lời, tương tác với GV, phối hợp với bạn để sắp xếp thẻ thực phẩm và trình bày kết quả.",
+          "3. Phẩm chất",
+          "– Trách nhiệm: Có ý thức sắp xếp, bảo quản thực phẩm trong tủ lạnh đúng cách, an toàn, không lãng phí thực phẩm.",
+          "– Chăm chỉ: Tích cực tham gia hoạt động nhóm, luyện tập và vận dụng kiến thức vào đời sống.",
+          "4. Tích hợp",
+          "– Đạo đức, lối sống: HS có ý thức sử dụng thiết bị gia đình an toàn, tiết kiệm, không lãng phí thực phẩm; biết chia sẻ việc nhà phù hợp như sắp xếp thực phẩm, đóng cửa tủ lạnh cẩn thận, nhắc người thân dùng thực phẩm hợp lí."
         ],
         "dodung": [
           "– SGK Công nghệ 5.",
@@ -3149,11 +3154,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "– Trách nhiệm: Có ý thức sắp xếp, bảo quản thực phẩm trong tủ lạnh đúng cách, an toàn, không lãng phí thực phẩm.",
-          "– Chăm chỉ: Tích cực tham gia hoạt động nhóm, luyện tập và vận dụng kiến thức vào đời sống.",
-          "4. Tích hợp",
-          "– Đạo đức, lối sống: HS có ý thức sử dụng thiết bị gia đình an toàn, tiết kiệm, không lãng phí thực phẩm; biết chia sẻ việc nhà phù hợp như sắp xếp thực phẩm, đóng cửa tủ lạnh cẩn thận, nhắc người thân dùng thực phẩm hợp lí.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -3557,7 +3557,16 @@
         "yccd": [
           "1. Năng lực đặc thù",
           "– Nêu được quy trình lắp ráp mô hình xe điện chạy bằng pin.",
-          "– Lắp ráp được một số bộ phận của mô hình xe điện chạy bằng pin theo hướng dẫn."
+          "– Lắp ráp được một số bộ phận của mô hình xe điện chạy bằng pin theo hướng dẫn.",
+          "2. Năng lực chung",
+          "– Tự chủ và tự học: Tự tin khi tìm hiểu quy trình lắp ráp mô hình, khám phá bài học và tự nhận xét kết quả học tập của mình.",
+          "– Giao tiếp và hợp tác: Trình bày ý tưởng, phối hợp với bạn khi làm việc nhóm để hoàn thành nhiệm vụ thực hành.",
+          "– Giải quyết vấn đề và sáng tạo: Biết sắp xếp quy trình lắp ráp, xử lí khó khăn khi chi tiết chưa đúng vị trí.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Chuẩn bị bài trước khi đến lớp, hăng say thực hành và tìm tòi kiến thức để mở rộng hiểu biết.",
+          "– Trách nhiệm: Hoàn thành nhiệm vụ cá nhân, giữ gìn chi tiết lắp ghép, thực hiện tốt nhiệm vụ khi làm việc nhóm.",
+          "4. Tích hợp",
+          "– KNS: HS rèn kĩ năng thực hành an toàn, phối hợp nhóm, lắp ráp đúng quy trình, biết kiểm tra dây nối, công tắc, pin và các chi tiết của mô hình; biết phân công nhiệm vụ, lắng nghe bạn, giữ trật tự khi sử dụng dụng cụ, không nghịch pin hoặc dây điện, thu dọn chi tiết sau khi thực hành."
         ],
         "dodung": [
           "– SGK Công nghệ 5.",
@@ -3567,15 +3576,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "– Tự chủ và tự học: Tự tin khi tìm hiểu quy trình lắp ráp mô hình, khám phá bài học và tự nhận xét kết quả học tập của mình.",
-          "– Giao tiếp và hợp tác: Trình bày ý tưởng, phối hợp với bạn khi làm việc nhóm để hoàn thành nhiệm vụ thực hành.",
-          "– Giải quyết vấn đề và sáng tạo: Biết sắp xếp quy trình lắp ráp, xử lí khó khăn khi chi tiết chưa đúng vị trí.",
-          "3. Phẩm chất",
-          "– Chăm chỉ: Chuẩn bị bài trước khi đến lớp, hăng say thực hành và tìm tòi kiến thức để mở rộng hiểu biết.",
-          "– Trách nhiệm: Hoàn thành nhiệm vụ cá nhân, giữ gìn chi tiết lắp ghép, thực hiện tốt nhiệm vụ khi làm việc nhóm.",
-          "4. Tích hợp",
-          "– KNS: HS rèn kĩ năng thực hành an toàn, phối hợp nhóm, lắp ráp đúng quy trình, biết kiểm tra dây nối, công tắc, pin và các chi tiết của mô hình; biết phân công nhiệm vụ, lắng nghe bạn, giữ trật tự khi sử dụng dụng cụ, không nghịch pin hoặc dây điện, thu dọn chi tiết sau khi thực hành.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -3692,7 +3692,12 @@
           "– Kiểm tra được hoạt động của mô hình xe điện chạy bằng pin sau khi lắp ráp.",
           "– Nhận xét được sản phẩm theo một số tiêu chí đơn giản: đúng chi tiết, đúng công tắc, mô hình chạy được, xe chạy được trên sàn phẳng.",
           "– Biết liên hệ mô hình xe chạy bằng pin với một số phương tiện giao thông hiện đại có ứng dụng công nghệ mới.",
-          "2. Năng lực chung"
+          "2. Năng lực chung",
+          "– Giao tiếp và hợp tác: Phối hợp với bạn để kiểm tra, ghi nhận kết quả, trình bày sản phẩm trước lớp.",
+          "3. Phẩm chất",
+          "– Trách nhiệm: Sử dụng pin, công tắc, dây nối an toàn; giữ gìn sản phẩm, tôn trọng sản phẩm của nhóm bạn.",
+          "4. Tích hợp",
+          "– AI 5.A1.1: HS kết nối từ mô hình xe chạy bằng pin đến xe tự lái tích hợp AI; xem video cách AI giúp xe nhận diện và tránh chướng ngại vật trên đường. Công cụ AI sử dụng: video mô phỏng xe tự lái do GV chuẩn bị trên YouTube hoặc học liệu số; ChatGPT, Gemini hoặc Microsoft Copilot do GV thao tác để gợi ý ngắn gọn “AI giúp xe tự lái làm gì?”. Hướng dẫn HS: quan sát video, nêu điều AI có thể hỗ trợ, không nhầm mô hình xe chạy bằng pin đơn giản với xe tự lái thật; kiểm chứng thông tin bằng sự hướng dẫn của GV."
         ],
         "dodung": [
           "– SGK Công nghệ 5.",
@@ -3702,11 +3707,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "– Giao tiếp và hợp tác: Phối hợp với bạn để kiểm tra, ghi nhận kết quả, trình bày sản phẩm trước lớp.",
-          "3. Phẩm chất",
-          "– Trách nhiệm: Sử dụng pin, công tắc, dây nối an toàn; giữ gìn sản phẩm, tôn trọng sản phẩm của nhóm bạn.",
-          "4. Tích hợp",
-          "– AI 5.A1.1: HS kết nối từ mô hình xe chạy bằng pin đến xe tự lái tích hợp AI; xem video cách AI giúp xe nhận diện và tránh chướng ngại vật trên đường. Công cụ AI sử dụng: video mô phỏng xe tự lái do GV chuẩn bị trên YouTube hoặc học liệu số; ChatGPT, Gemini hoặc Microsoft Copilot do GV thao tác để gợi ý ngắn gọn “AI giúp xe tự lái làm gì?”. Hướng dẫn HS: quan sát video, nêu điều AI có thể hỗ trợ, không nhầm mô hình xe chạy bằng pin đơn giản với xe tự lái thật; kiểm chứng thông tin bằng sự hướng dẫn của GV.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -3815,7 +3815,18 @@
           "Môn: Công nghệ - Lớp 5",
           "1. Năng lực đặc thù",
           "– Vận dụng kiến thức toán học, khoa học và công nghệ để thiết kế, lắp ghép và thử nghiệm xe ô tô cánh quạt chạy bằng pin.",
-          "– Nêu được các bộ phận cơ bản của xe ô tô cánh quạt chạy bằng pin; mô tả được cách xe chuyển động nhờ lực đẩy của cánh quạt."
+          "– Nêu được các bộ phận cơ bản của xe ô tô cánh quạt chạy bằng pin; mô tả được cách xe chuyển động nhờ lực đẩy của cánh quạt.",
+          "2. Năng lực chung",
+          "– Tự chủ và tự học: Chủ động chuẩn bị vật liệu, quan sát mẫu, đề xuất ý tưởng và hoàn thành nhiệm vụ được phân công.",
+          "– Giao tiếp và hợp tác: Trao đổi, phân công nhiệm vụ, lắng nghe góp ý và phối hợp với bạn trong quá trình làm sản phẩm.",
+          "– Giải quyết vấn đề và sáng tạo: Phát hiện nguyên nhân khi xe chạy chậm, lệch hướng hoặc không chạy; đề xuất cách khắc phục phù hợp.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Tích cực tham gia hoạt động thực hành, kiên trì hoàn thiện sản phẩm.",
+          "– Trung thực: Đánh giá đúng kết quả làm việc của nhóm, không sao chép ý tưởng của nhóm khác.",
+          "– Trách nhiệm: Sử dụng dụng cụ an toàn, tiết kiệm vật liệu, giữ vệ sinh lớp học và thu gom rác sau thực hành.",
+          "4. Tích hợp",
+          "– STEM: HS vận dụng kiến thức liên môn Toán, Khoa học, Công nghệ để thiết kế, chế tạo, thử nghiệm và cải tiến xe ô tô cánh quạt chạy bằng pin.",
+          "– KNS: HS rèn kĩ năng hợp tác nhóm, giao tiếp, phân công nhiệm vụ, xử lí bất đồng khi làm việc nhóm, tự đánh giá và chia sẻ kinh nghiệm sau khi thử nghiệm sản phẩm."
         ],
         "dodung": [
           "1. Chuẩn bị của GV",
@@ -3827,17 +3838,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "– Tự chủ và tự học: Chủ động chuẩn bị vật liệu, quan sát mẫu, đề xuất ý tưởng và hoàn thành nhiệm vụ được phân công.",
-          "– Giao tiếp và hợp tác: Trao đổi, phân công nhiệm vụ, lắng nghe góp ý và phối hợp với bạn trong quá trình làm sản phẩm.",
-          "– Giải quyết vấn đề và sáng tạo: Phát hiện nguyên nhân khi xe chạy chậm, lệch hướng hoặc không chạy; đề xuất cách khắc phục phù hợp.",
-          "3. Phẩm chất",
-          "– Chăm chỉ: Tích cực tham gia hoạt động thực hành, kiên trì hoàn thiện sản phẩm.",
-          "– Trung thực: Đánh giá đúng kết quả làm việc của nhóm, không sao chép ý tưởng của nhóm khác.",
-          "– Trách nhiệm: Sử dụng dụng cụ an toàn, tiết kiệm vật liệu, giữ vệ sinh lớp học và thu gom rác sau thực hành.",
-          "4. Tích hợp",
-          "– STEM: HS vận dụng kiến thức liên môn Toán, Khoa học, Công nghệ để thiết kế, chế tạo, thử nghiệm và cải tiến xe ô tô cánh quạt chạy bằng pin.",
-          "– KNS: HS rèn kĩ năng hợp tác nhóm, giao tiếp, phân công nhiệm vụ, xử lí bất đồng khi làm việc nhóm, tự đánh giá và chia sẻ kinh nghiệm sau khi thử nghiệm sản phẩm.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................"
@@ -4301,7 +4301,13 @@
           "– Biết kiểm tra bước đầu các mối ghép, dây dẫn, đèn LED và khung giá đỡ.",
           "2. Năng lực chung",
           "– Tự chủ và tự học: Chủ động chuẩn bị chi tiết, vật liệu, dụng cụ và thực hiện theo quy trình.",
-          "– Giao tiếp và hợp tác: Phối hợp với bạn để lắp ráp mô hình đúng thứ tự, an toàn."
+          "– Giao tiếp và hợp tác: Phối hợp với bạn để lắp ráp mô hình đúng thứ tự, an toàn.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Kiên trì thực hành, cẩn thận trong từng thao tác lắp ghép.",
+          "– Trách nhiệm: Sử dụng chi tiết, dây dẫn, đèn LED an toàn; giữ gìn dụng cụ và thu dọn sau thực hành.",
+          "4. Tích hợp",
+          "– AI 5.A2.2: HS tìm hiểu cách AI tối ưu hóa việc đón gió và quản lí năng lượng sạch; thảo luận cách AI dự báo hướng gió để tua-bin hoạt động hiệu quả. Công cụ AI sử dụng: ChatGPT, Gemini hoặc Microsoft Copilot do GV thao tác; video/học liệu số về tua-bin gió thông minh; bản đồ thời tiết hoặc ứng dụng Windy/Google Earth để quan sát hướng gió. Hướng dẫn HS: quan sát minh họa, nêu ý chính bằng lời của mình, không tự truy cập trang lạ, không nhập thông tin cá nhân.",
+          "– BVMT: HS hiểu năng lượng gió là nguồn năng lượng sạch, góp phần giảm phát thải; biết tiết kiệm điện và ủng hộ sử dụng năng lượng tái tạo."
         ],
         "dodung": [
           "– SGK Công nghệ 5.",
@@ -4311,12 +4317,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "– Chăm chỉ: Kiên trì thực hành, cẩn thận trong từng thao tác lắp ghép.",
-          "– Trách nhiệm: Sử dụng chi tiết, dây dẫn, đèn LED an toàn; giữ gìn dụng cụ và thu dọn sau thực hành.",
-          "4. Tích hợp",
-          "– AI 5.A2.2: HS tìm hiểu cách AI tối ưu hóa việc đón gió và quản lí năng lượng sạch; thảo luận cách AI dự báo hướng gió để tua-bin hoạt động hiệu quả. Công cụ AI sử dụng: ChatGPT, Gemini hoặc Microsoft Copilot do GV thao tác; video/học liệu số về tua-bin gió thông minh; bản đồ thời tiết hoặc ứng dụng Windy/Google Earth để quan sát hướng gió. Hướng dẫn HS: quan sát minh họa, nêu ý chính bằng lời của mình, không tự truy cập trang lạ, không nhập thông tin cá nhân.",
-          "– BVMT: HS hiểu năng lượng gió là nguồn năng lượng sạch, góp phần giảm phát thải; biết tiết kiệm điện và ủng hộ sử dụng năng lượng tái tạo.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -4429,7 +4429,13 @@
           "– Trình bày được cấu tạo cơ bản, cách hoạt động và kết quả thử nghiệm của mô hình máy phát điện gió.",
           "2. Năng lực chung",
           "– Tự chủ và tự học: Chủ động chuẩn bị dụng cụ, vật liệu, quan sát mẫu, thực hiện nhiệm vụ được phân công và tự đánh giá kết quả học tập.",
-          "– Giao tiếp và hợp tác: Tự tin chia sẻ ý tưởng thiết kế, lắng nghe góp ý, trao đổi với bạn và phối hợp với nhóm khi lựa chọn vật liệu, lắp ráp, thử nghiệm, giới thiệu sản phẩm."
+          "– Giao tiếp và hợp tác: Tự tin chia sẻ ý tưởng thiết kế, lắng nghe góp ý, trao đổi với bạn và phối hợp với nhóm khi lựa chọn vật liệu, lắp ráp, thử nghiệm, giới thiệu sản phẩm.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Tích cực tham gia hoạt động thực hành, kiên trì hoàn thiện mô hình máy phát điện gió.",
+          "– Trung thực: Đánh giá đúng sản phẩm của nhóm, chia sẻ thật về lỗi đã gặp, cách khắc phục và không sao chép ý tưởng của nhóm khác.",
+          "– Trách nhiệm: Sử dụng dụng cụ an toàn, tiết kiệm vật liệu, giữ vệ sinh lớp học và hoàn thành nhiệm vụ được phân công.",
+          "4. Tích hợp",
+          "– KNS: HS rèn kĩ năng hợp tác nhóm, giao tiếp, phân công nhiệm vụ, lắng nghe góp ý, xử lí lỗi sản phẩm, tự đánh giá và chia sẻ kinh nghiệm sau khi thử nghiệm mô hình."
         ],
         "dodung": [
           "1. Chuẩn bị của GV",
@@ -4439,12 +4445,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "– Chăm chỉ: Tích cực tham gia hoạt động thực hành, kiên trì hoàn thiện mô hình máy phát điện gió.",
-          "– Trung thực: Đánh giá đúng sản phẩm của nhóm, chia sẻ thật về lỗi đã gặp, cách khắc phục và không sao chép ý tưởng của nhóm khác.",
-          "– Trách nhiệm: Sử dụng dụng cụ an toàn, tiết kiệm vật liệu, giữ vệ sinh lớp học và hoàn thành nhiệm vụ được phân công.",
-          "4. Tích hợp",
-          "– KNS: HS rèn kĩ năng hợp tác nhóm, giao tiếp, phân công nhiệm vụ, lắng nghe góp ý, xử lí lỗi sản phẩm, tự đánh giá và chia sẻ kinh nghiệm sau khi thử nghiệm mô hình.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................"
@@ -4927,7 +4927,14 @@
         "yccd": [
           "1. Năng lực đặc thù",
           "– Lắp ráp được mô hình điện mặt trời.",
-          "– Kiểm tra được hoạt động của mô hình với những độ sáng mặt trời khác nhau."
+          "– Kiểm tra được hoạt động của mô hình với những độ sáng mặt trời khác nhau.",
+          "2. Năng lực chung",
+          "– Tự chủ và tự học: Chủ động kiểm tra sản phẩm, ghi kết quả quan sát và hoàn thiện phiếu đánh giá.",
+          "– Giải quyết vấn đề và sáng tạo: Biết thử nghiệm mô hình trong các điều kiện ánh sáng khác nhau và nêu cách cải tiến.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Kiên trì thử nghiệm mô hình nhiều lần, cẩn thận khi ghi kết quả.",
+          "– Trách nhiệm: Sử dụng dụng cụ an toàn, bảo quản sản phẩm của nhóm, tôn trọng sản phẩm của bạn.",
+          "4. Tích hợp"
         ],
         "dodung": [
           "– SGK Công nghệ 5.",
@@ -4937,13 +4944,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "2. Năng lực chung",
-          "– Tự chủ và tự học: Chủ động kiểm tra sản phẩm, ghi kết quả quan sát và hoàn thiện phiếu đánh giá.",
-          "– Giải quyết vấn đề và sáng tạo: Biết thử nghiệm mô hình trong các điều kiện ánh sáng khác nhau và nêu cách cải tiến.",
-          "3. Phẩm chất",
-          "– Chăm chỉ: Kiên trì thử nghiệm mô hình nhiều lần, cẩn thận khi ghi kết quả.",
-          "– Trách nhiệm: Sử dụng dụng cụ an toàn, bảo quản sản phẩm của nhóm, tôn trọng sản phẩm của bạn.",
-          "4. Tích hợp",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -5049,7 +5049,13 @@
           "– Kiểm tra được hoạt động của mô hình với những độ sáng mặt trời khác nhau.",
           "– Giới thiệu, đánh giá và hoàn thiện sản phẩm theo tiêu chí đã xây dựng.",
           "2. Năng lực chung",
-          "– Tự chủ và tự học: Chủ động hoàn thiện sản phẩm, tự kiểm tra và tự đánh giá kết quả thực hành."
+          "– Tự chủ và tự học: Chủ động hoàn thiện sản phẩm, tự kiểm tra và tự đánh giá kết quả thực hành.",
+          "– Giải quyết vấn đề và sáng tạo: Đưa ra ý tưởng cải tiến mô hình điện mặt trời và vận dụng hiểu biết về năng lượng sạch.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Tích cực hoàn thiện mô hình, không bỏ cuộc khi sản phẩm chưa đạt yêu cầu.",
+          "– Trách nhiệm: Sử dụng vật liệu, dụng cụ an toàn, giữ gìn sản phẩm, có ý thức học tập và sáng tạo vì môi trường sống xanh.",
+          "4. Tích hợp",
+          "– Lý tưởng cách mạng, đạo đức, lối sống: HS có ý thức học tập, sáng tạo, yêu thích khoa học công nghệ; biết vận dụng hiểu biết về năng lượng sạch để góp phần xây dựng lối sống xanh, trách nhiệm, tiết kiệm và có ích cho cộng đồng."
         ],
         "dodung": [
           "– SGK Công nghệ 5.",
@@ -5059,12 +5065,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "– Giải quyết vấn đề và sáng tạo: Đưa ra ý tưởng cải tiến mô hình điện mặt trời và vận dụng hiểu biết về năng lượng sạch.",
-          "3. Phẩm chất",
-          "– Chăm chỉ: Tích cực hoàn thiện mô hình, không bỏ cuộc khi sản phẩm chưa đạt yêu cầu.",
-          "– Trách nhiệm: Sử dụng vật liệu, dụng cụ an toàn, giữ gìn sản phẩm, có ý thức học tập và sáng tạo vì môi trường sống xanh.",
-          "4. Tích hợp",
-          "– Lý tưởng cách mạng, đạo đức, lối sống: HS có ý thức học tập, sáng tạo, yêu thích khoa học công nghệ; biết vận dụng hiểu biết về năng lượng sạch để góp phần xây dựng lối sống xanh, trách nhiệm, tiết kiệm và có ích cho cộng đồng.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",
@@ -5163,7 +5163,13 @@
           "– Vận dụng kiến thức để trả lời câu hỏi ôn tập và tự đánh giá mức độ hiểu bài.",
           "2. Năng lực chung",
           "– Tự chủ và tự học: Chủ động tự ôn tập, tự kiểm tra mức độ nắm kiến thức.",
-          "– Giao tiếp và hợp tác: Trao đổi với bạn, cùng hệ thống hóa kiến thức theo nhóm."
+          "– Giao tiếp và hợp tác: Trao đổi với bạn, cùng hệ thống hóa kiến thức theo nhóm.",
+          "3. Phẩm chất",
+          "– Chăm chỉ: Tích cực ôn tập, hoàn thành nhiệm vụ cá nhân và nhóm.",
+          "– Trách nhiệm: Trung thực khi tự đánh giá kết quả học tập, biết chia sẻ nội dung cần ôn với bạn.",
+          "4. Tích hợp",
+          "– NLS 5.2.CB2a: HS thực hiện bài tập ôn tập, củng cố kiến thức về công nghệ và đời sống thông qua Quizizz hoặc Google Forms để tự đánh giá mức độ đạt được năng lực. Công cụ số sử dụng: Quizizz, Google Forms hoặc PowerPoint tương tác do GV chuẩn bị. Hướng dẫn HS: đăng nhập bằng tên nhóm/tên lớp theo hướng dẫn, không dùng biệt danh không phù hợp, đọc kĩ câu hỏi trước khi chọn đáp án, xem phản hồi để biết nội dung cần ôn lại.",
+          "– KNS: HS rèn kĩ năng tự đánh giá, hệ thống hóa kiến thức và chia sẻ nội dung cần ôn tập với bạn; biết lập kế hoạch ôn tập ngắn gọn, bình tĩnh khi làm bài kiểm tra cuối năm."
         ],
         "dodung": [
           "– SGK Công nghệ 5, vở ghi, phiếu ôn tập, bảng nhóm, bút dạ.",
@@ -5172,12 +5178,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất",
-          "– Chăm chỉ: Tích cực ôn tập, hoàn thành nhiệm vụ cá nhân và nhóm.",
-          "– Trách nhiệm: Trung thực khi tự đánh giá kết quả học tập, biết chia sẻ nội dung cần ôn với bạn.",
-          "4. Tích hợp",
-          "– NLS 5.2.CB2a: HS thực hiện bài tập ôn tập, củng cố kiến thức về công nghệ và đời sống thông qua Quizizz hoặc Google Forms để tự đánh giá mức độ đạt được năng lực. Công cụ số sử dụng: Quizizz, Google Forms hoặc PowerPoint tương tác do GV chuẩn bị. Hướng dẫn HS: đăng nhập bằng tên nhóm/tên lớp theo hướng dẫn, không dùng biệt danh không phù hợp, đọc kĩ câu hỏi trước khi chọn đáp án, xem phản hồi để biết nội dung cần ôn lại.",
-          "– KNS: HS rèn kĩ năng tự đánh giá, hệ thống hóa kiến thức và chia sẻ nội dung cần ôn tập với bạn; biết lập kế hoạch ôn tập ngắn gọn, bình tĩnh khi làm bài kiểm tra cuối năm.",
           "................................................................................................................................................",
           "................................................................................................................................................",
           "................................................................................................................................................",

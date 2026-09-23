@@ -807,7 +807,9 @@
           "- Năng lực giao tiếp và hợp tác: Thảo luận kết quả với bạn, nêu cách tìm hiệu/số bị trừ/số trừ và trình bày lời giải rõ ràng.",
           "3. Phẩm chất:",
           "- Chăm chỉ: Kiên trì luyện tập các phép trừ, phép cộng và bài toán có lời văn.",
-          "- Trách nhiệm: Cẩn thận khi tính toán, đặt tính đúng cột, sửa lỗi sau phản hồi của phiếu số."
+          "- Trách nhiệm: Cẩn thận khi tính toán, đặt tính đúng cột, sửa lỗi sau phản hồi của phiếu số.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 5.1.CB1a: GV dùng Liveworksheets tạo bài đặt tính cộng, trừ trong phạm vi 1 000 theo cột trăm, chục, đơn vị; HS điền kết quả từng hàng, đối chiếu phản hồi và sửa lỗi đặt tính lệch hàng, quên nhớ, quên mượn."
         ],
         "dodung": [
           "- Kế hoạch bài dạy, bài giảng PowerPoint.",
@@ -817,13 +819,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "4. Tích hợp:",
-          "- Tích hợp NLS 5.1.CB1a: GV dùng Liveworksheets tạo bài đặt tính cộng, trừ trong phạm vi 1 000 theo cột trăm, chục, đơn vị; HS điền kết quả từng hàng, đối chiếu phản hồi và sửa lỗi đặt tính lệch hàng, quên nhớ, quên mượn.",
           ".......................................................................................................................................",
           ".......................................................................................................................................",
-          ".......................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3",
-          "CHỦ ĐỀ 1: ÔN TẬP VÀ BỔ SUNG"
+          "......................................................................................................................................."
         ],
         "tables": [
           [
@@ -5372,7 +5370,13 @@
           "- Thực hành sử dụng vật liệu đơn giản để làm bảng nhân, chia tiện ích có thanh trượt.",
           "- Sử dụng bảng nhân, chia tiện ích để tìm nhanh kết quả các phép tính trong bảng nhân, chia 2, 3, 4,..., 9.",
           "2. Năng lực chung:",
-          "- Năng lực tự chủ, tự học: Chủ động chuẩn bị dụng cụ, thực hiện nhiệm vụ cá nhân và tự kiểm tra sản phẩm theo tiêu chí."
+          "- Năng lực tự chủ, tự học: Chủ động chuẩn bị dụng cụ, thực hiện nhiệm vụ cá nhân và tự kiểm tra sản phẩm theo tiêu chí.",
+          "- Năng lực giao tiếp và hợp tác: Thảo luận nhóm, phân công nhiệm vụ, giới thiệu sản phẩm và góp ý cho nhóm bạn.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực tham gia thiết kế, cắt, dán, thử nghiệm và hoàn thiện bảng nhân, chia tiện ích.",
+          "- Trách nhiệm: Sử dụng dụng cụ an toàn, giữ gìn vệ sinh lớp học, hoàn thành phần việc được giao trong nhóm.",
+          "4. Tích hợp:",
+          "- Bài học STEM: Bảng nhân, chia. HS vận dụng bảng nhân, chia 2, 3, 4,..., 9 và phối hợp kĩ năng cắt, dán, vẽ, lắp ghép để thiết kế bảng nhân, chia tiện ích; biết sử dụng sản phẩm để tìm nhanh kết quả phép nhân, phép chia."
         ],
         "dodung": [
           "- Kế hoạch bài dạy, bài giảng PowerPoint, phiếu học tập STEM, tiêu chí đánh giá sản phẩm.",
@@ -5382,17 +5386,9 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Năng lực giao tiếp và hợp tác: Thảo luận nhóm, phân công nhiệm vụ, giới thiệu sản phẩm và góp ý cho nhóm bạn.",
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực tham gia thiết kế, cắt, dán, thử nghiệm và hoàn thiện bảng nhân, chia tiện ích.",
-          "- Trách nhiệm: Sử dụng dụng cụ an toàn, giữ gìn vệ sinh lớp học, hoàn thành phần việc được giao trong nhóm.",
-          "4. Tích hợp:",
-          "- Bài học STEM: Bảng nhân, chia. HS vận dụng bảng nhân, chia 2, 3, 4,..., 9 và phối hợp kĩ năng cắt, dán, vẽ, lắp ghép để thiết kế bảng nhân, chia tiện ích; biết sử dụng sản phẩm để tìm nhanh kết quả phép nhân, phép chia.",
           ".......................................................................................................................................",
           ".......................................................................................................................................",
-          ".......................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3",
-          "CHỦ ĐỀ 2: BẢNG NHÂN, BẢNG CHIA"
+          "......................................................................................................................................."
         ],
         "tables": [
           [
@@ -8060,7 +8056,13 @@
           "- Vẽ được hình chữ nhật, hình vuông theo mẫu trên lưới ô vuông.",
           "2. Năng lực chung:",
           "- Tự chủ, tự học: Chuẩn bị dụng cụ vẽ, tự đọc yêu cầu và thực hành từng bước.",
-          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách vẽ, cách kiểm tra góc vuông bằng ê ke."
+          "- Giao tiếp và hợp tác: Trao đổi với bạn về cách vẽ, cách kiểm tra góc vuông bằng ê ke.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: Tích cực thực hành vẽ hình, chỉnh sửa nét vẽ cho đúng.",
+          "- Trách nhiệm: Cẩn thận khi dùng thước, ê ke, compa; giữ gìn đồ dùng học tập.",
+          "- Trung thực: Tự kiểm tra sản phẩm vẽ và sửa lỗi nếu vẽ chưa đúng yêu cầu.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 5.1.CB1a: GV dùng GeoGebra hoặc công cụ vẽ Shapes trong PowerPoint để hướng dẫn vẽ góc vuông, đường tròn, hình vuông, hình chữ nhật; HS đối chiếu sản phẩm vẽ với mẫu trên màn hình và tự chỉnh nét vẽ."
         ],
         "dodung": [
           "- Kế hoạch bài dạy, bài giảng PowerPoint.",
@@ -8070,12 +8072,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất:",
-          "- Chăm chỉ: Tích cực thực hành vẽ hình, chỉnh sửa nét vẽ cho đúng.",
-          "- Trách nhiệm: Cẩn thận khi dùng thước, ê ke, compa; giữ gìn đồ dùng học tập.",
-          "- Trung thực: Tự kiểm tra sản phẩm vẽ và sửa lỗi nếu vẽ chưa đúng yêu cầu.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 5.1.CB1a: GV dùng GeoGebra hoặc công cụ vẽ Shapes trong PowerPoint để hướng dẫn vẽ góc vuông, đường tròn, hình vuông, hình chữ nhật; HS đối chiếu sản phẩm vẽ với mẫu trên màn hình và tự chỉnh nét vẽ.",
           "......................................................................................................................................."
         ],
         "tables": [
@@ -8225,15 +8221,7 @@
           "1. Năng lực đặc thù:",
           "- Thực hiện được việc vẽ một hình yêu thích từ những hình vuông hoặc hình chữ nhật trên giấy kẻ ô vuông.",
           "- Thực hiện được việc vẽ đường tròn bằng com-pa theo mẫu và vẽ trang trí bằng các đường tròn.",
-          "- Biết tô màu, trang trí hình vừa vẽ; trình bày được cách sắp xếp các hình trong sản phẩm."
-        ],
-        "dodung": [
-          "- Kế hoạch bài dạy, bài giảng PowerPoint.",
-          "- SGK Toán 3, giấy kẻ ô vuông, com-pa, bút chì, bút màu, thước kẻ.",
-          "- Máy tính, máy chiếu/bảng tương tác; PowerPoint có công cụ Shapes hoặc Canva for Education để tạo mẫu trang trí."
-        ],
-        "activities": [],
-        "dieuchinh": [
+          "- Biết tô màu, trang trí hình vừa vẽ; trình bày được cách sắp xếp các hình trong sản phẩm.",
           "2. Năng lực chung:",
           "- Năng lực tự chủ, tự học: Tự chuẩn bị giấy kẻ ô vuông, com-pa, bút chì, bút màu và hoàn thành sản phẩm theo yêu cầu.",
           "- Năng lực giải quyết vấn đề và sáng tạo: Biết lựa chọn, sắp xếp hình vuông, hình chữ nhật, đường tròn để tạo sản phẩm trang trí cân đối.",
@@ -8243,13 +8231,18 @@
           "- Trách nhiệm: Sử dụng com-pa, bút màu, thiết bị số đúng hướng dẫn; giữ gìn sản phẩm chung của nhóm.",
           "- Nhân ái: Tôn trọng ý tưởng trang trí của bạn, biết nhận xét nhẹ nhàng, phù hợp.",
           "4. Tích hợp:",
-          "- Tích hợp NLS 5.1.CB1a: HS dùng công cụ Shapes trong PowerPoint hoặc Canva for Education theo hướng dẫn của GV để sắp xếp đường tròn, hình vuông, hình chữ nhật thành mẫu trang trí; HS lưu sản phẩm nhóm và trình bày cách sử dụng hình.",
+          "- Tích hợp NLS 5.1.CB1a: HS dùng công cụ Shapes trong PowerPoint hoặc Canva for Education theo hướng dẫn của GV để sắp xếp đường tròn, hình vuông, hình chữ nhật thành mẫu trang trí; HS lưu sản phẩm nhóm và trình bày cách sử dụng hình."
+        ],
+        "dodung": [
+          "- Kế hoạch bài dạy, bài giảng PowerPoint.",
+          "- SGK Toán 3, giấy kẻ ô vuông, com-pa, bút chì, bút màu, thước kẻ.",
+          "- Máy tính, máy chiếu/bảng tương tác; PowerPoint có công cụ Shapes hoặc Canva for Education để tạo mẫu trang trí."
+        ],
+        "activities": [],
+        "dieuchinh": [
           ".......................................................................................................................................",
           ".......................................................................................................................................",
-          ".......................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3",
-          "TUẦN 9",
-          "CHỦ ĐỀ 3: LÀM QUEN VỚI HÌNH PHẲNG, HÌNH KHỐI"
+          "......................................................................................................................................."
         ],
         "tables": [
           [
@@ -17819,7 +17812,14 @@
           "- Trưng bày, giới thiệu được sản phẩm và chia sẻ mục đích sử dụng.",
           "2. Năng lực chung:",
           "- Tự chủ, tự học: chuẩn bị vật liệu, tự kiểm tra sản phẩm theo tiêu chí.",
-          "- Giao tiếp và hợp tác: thảo luận nhóm, phân công nhiệm vụ và góp ý sản phẩm."
+          "- Giao tiếp và hợp tác: thảo luận nhóm, phân công nhiệm vụ và góp ý sản phẩm.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: tích cực làm sản phẩm và hoàn thiện cân thăng bằng.",
+          "- Trung thực: tự đánh giá đúng sản phẩm và nêu thật khó khăn khi thực hiện.",
+          "- Trách nhiệm: sử dụng kéo, dây, cốc giấy an toàn và thu dọn đồ dùng sau hoạt động.",
+          "4. Tích hợp:",
+          "- Bài học STEM: Cân thăng bằng (KNTT – Bài 43-44: Ôn tập về hình học và đo lường – Ôn tập chung). HS giải quyết vấn đề liên quan đến gam, thực hành cân, ước lượng khối lượng và thiết kế đồ dùng học tập “Cân thăng bằng”.",
+          "- Tích hợp NLS 5.1.CB1a: Trong bài học STEM Cân thăng bằng tiết 2, GV dùng PowerPoint/GeoGebra mô phỏng cân thăng bằng; HS dự đoán cách làm cho cân cân bằng, đối chiếu với sản phẩm thật và giải thích kết quả."
         ],
         "dodung": [
           "- Kế hoạch bài dạy, SGK Toán 3 tập một, bài giảng PowerPoint.",
@@ -17828,17 +17828,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất:",
-          "- Chăm chỉ: tích cực làm sản phẩm và hoàn thiện cân thăng bằng.",
-          "- Trung thực: tự đánh giá đúng sản phẩm và nêu thật khó khăn khi thực hiện.",
-          "- Trách nhiệm: sử dụng kéo, dây, cốc giấy an toàn và thu dọn đồ dùng sau hoạt động.",
-          "4. Tích hợp:",
-          "- Bài học STEM: Cân thăng bằng (KNTT – Bài 43-44: Ôn tập về hình học và đo lường – Ôn tập chung). HS giải quyết vấn đề liên quan đến gam, thực hành cân, ước lượng khối lượng và thiết kế đồ dùng học tập “Cân thăng bằng”.",
-          "- Tích hợp NLS 5.1.CB1a: Trong bài học STEM Cân thăng bằng tiết 2, GV dùng PowerPoint/GeoGebra mô phỏng cân thăng bằng; HS dự đoán cách làm cho cân cân bằng, đối chiếu với sản phẩm thật và giải thích kết quả.",
           ".......................................................................................................................................",
-          ".......................................................................................................................................",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3",
-          "CHỦ ĐỀ 7: ÔN TẬP HỌC KÌ I"
+          "......................................................................................................................................."
         ],
         "tables": [
           [
@@ -19758,7 +19749,14 @@
         "yccd": [
           "- Bìa/đĩa giấy, thước kẻ, kéo thủ công, bút màu, hồ dán, dập ghim hoặc ghim mũ.",
           "- Phiếu học tập STEM, tiêu chí đánh giá sản phẩm, mẫu đồng hồ sử dụng số La Mã.",
-          "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint."
+          "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint.",
+          "- Giao tiếp và hợp tác: thảo luận nhóm, phân công nhiệm vụ, giới thiệu sản phẩm.",
+          "- Tự chủ, tự học: lựa chọn vật liệu, thực hiện từng bước làm đồng hồ và tự kiểm tra sản phẩm.",
+          "2. Năng lực chung:",
+          "- Đọc giờ trên đồng hồ sử dụng số La Mã và sử dụng sản phẩm để luyện đọc giờ.",
+          "- Thực hành sử dụng vật liệu đơn giản để làm “Đồng hồ sử dụng số La Mã”.",
+          "- Nhận biết được chữ số La Mã và viết được các số trong phạm vi 20 bằng cách sử dụng chữ số La Mã.",
+          "1. Năng lực đặc thù:"
         ],
         "dodung": [
           "- Tích hợp AI (Khung 3439) - 3.C5.2: HS nhận biết AI hỗ trợ nhận dạng ký hiệu đặc biệt nhưng cần kiểm chứng khi chữ viết mờ, lệch hoặc khó đọc.",
@@ -19772,18 +19770,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "- Giao tiếp và hợp tác: thảo luận nhóm, phân công nhiệm vụ, giới thiệu sản phẩm.",
-          "- Tự chủ, tự học: lựa chọn vật liệu, thực hiện từng bước làm đồng hồ và tự kiểm tra sản phẩm.",
-          "2. Năng lực chung:",
-          "- Đọc giờ trên đồng hồ sử dụng số La Mã và sử dụng sản phẩm để luyện đọc giờ.",
-          "- Thực hành sử dụng vật liệu đơn giản để làm “Đồng hồ sử dụng số La Mã”.",
-          "- Nhận biết được chữ số La Mã và viết được các số trong phạm vi 20 bằng cách sử dụng chữ số La Mã.",
-          "1. Năng lực đặc thù:",
           ".......................................................................................................................................",
-          ".......................................................................................................................................",
-          "TUẦN 20",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3",
-          "CHỦ ĐỀ 8: CÁC SỐ ĐẾN 10 000"
+          "......................................................................................................................................."
         ],
         "tables": [
           [
@@ -23098,7 +23086,9 @@
           "- Giải quyết vấn đề và sáng tạo: dùng phép cộng ngược để phát hiện lỗi mượn hoặc trừ nhầm hàng.",
           "3. Phẩm chất:",
           "- Chăm chỉ: luyện trừ có nhớ cẩn thận.",
-          "- Trung thực: sửa lỗi khi kết quả chưa khớp phép cộng ngược."
+          "- Trung thực: sửa lỗi khi kết quả chưa khớp phép cộng ngược.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 5.2.CB1a: Khi học phép trừ trong phạm vi 10 000, HS làm phiếu Liveworksheets có cột “kiểm tra bằng phép cộng ngược”; HS nhập kết quả, cộng hiệu với số trừ để đối chiếu số bị trừ và sửa lỗi mượn, đặt tính lệch hàng hoặc trừ nhầm hàng."
         ],
         "dodung": [
           "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint.",
@@ -23107,8 +23097,6 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "4. Tích hợp:",
-          "- Tích hợp NLS 5.2.CB1a: Khi học phép trừ trong phạm vi 10 000, HS làm phiếu Liveworksheets có cột “kiểm tra bằng phép cộng ngược”; HS nhập kết quả, cộng hiệu với số trừ để đối chiếu số bị trừ và sửa lỗi mượn, đặt tính lệch hàng hoặc trừ nhầm hàng.",
           ".......................................................................................................................................",
           "......................................................................................................................................."
         ],
@@ -23294,7 +23282,13 @@
           "- Biết kiểm tra và sửa lỗi mượn, trừ nhầm hàng, viết lệch cột.",
           "2. Năng lực chung:",
           "- Tự chủ, tự học: tự tính nhẩm, đặt tính và kiểm tra kết quả.",
-          "- Giao tiếp và hợp tác: trao đổi nhóm khi phát hiện lỗi trừ có nhớ."
+          "- Giao tiếp và hợp tác: trao đổi nhóm khi phát hiện lỗi trừ có nhớ.",
+          "3. Phẩm chất:",
+          "- Chăm chỉ: luyện tập đầy đủ các dạng phép trừ.",
+          "- Trung thực: tự đánh dấu lỗi và sửa bài sau phản hồi.",
+          "- Trách nhiệm: sử dụng Liveworksheets đúng mục đích học tập.",
+          "4. Tích hợp:",
+          "- Tích hợp NLS 5.2.CB1a: GV chọn 3-4 phép trừ trong phạm vi 10 000 có nhớ qua hàng chục, hàng trăm, hàng nghìn đưa vào Liveworksheets; HS đánh dấu hàng đã mượn, xem phản hồi rồi sửa lỗi cụ thể: quên mượn, mượn nhưng không bớt 1 ở hàng bên trái hoặc viết kết quả lệch cột."
         ],
         "dodung": [
           "- Kế hoạch bài dạy, SGK Toán 3 tập hai, bài giảng PowerPoint.",
@@ -23303,17 +23297,8 @@
         ],
         "activities": [],
         "dieuchinh": [
-          "3. Phẩm chất:",
-          "- Chăm chỉ: luyện tập đầy đủ các dạng phép trừ.",
-          "- Trung thực: tự đánh dấu lỗi và sửa bài sau phản hồi.",
-          "- Trách nhiệm: sử dụng Liveworksheets đúng mục đích học tập.",
-          "4. Tích hợp:",
-          "- Tích hợp NLS 5.2.CB1a: GV chọn 3-4 phép trừ trong phạm vi 10 000 có nhớ qua hàng chục, hàng trăm, hàng nghìn đưa vào Liveworksheets; HS đánh dấu hàng đã mượn, xem phản hồi rồi sửa lỗi cụ thể: quên mượn, mượn nhưng không bớt 1 ở hàng bên trái hoặc viết kết quả lệch cột.",
           ".......................................................................................................................................",
-          ".......................................................................................................................................",
-          "TUẦN 24",
-          "KẾ HOẠCH BÀI DẠY MÔN TOÁN 3",
-          "CHỦ ĐỀ 10: CỘNG, TRỪ, NHÂN, CHIA TRONG PHẠM VI 10 000"
+          "......................................................................................................................................."
         ],
         "tables": [
           [
