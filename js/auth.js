@@ -602,3 +602,17 @@ window.submitPinCode = submitPinCode;
 window.openAdminLoginModal = openAdminLoginModal;
 window.closeAdminLoginModal = closeAdminLoginModal;
 window.submitAdminLogin = submitAdminLogin;
+
+// Đồng bộ trạng thái đăng nhập, PIN và phân quyền tự động giữa các tab
+if (typeof window !== "undefined") {
+  window.addEventListener("storage", function(e) {
+    if (e.key === "tvth_user_session" || e.key === "tvth_admin_token" || e.key === "tvth_custom_pins" || e.key === "tvth_file_permissions") {
+      if (typeof AuthService !== "undefined" && typeof AuthService.updateAuthUI === "function") {
+        AuthService.updateAuthUI();
+      }
+      if (typeof refreshCurrentView === "function") {
+        refreshCurrentView();
+      }
+    }
+  });
+}

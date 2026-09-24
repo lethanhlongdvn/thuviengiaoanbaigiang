@@ -1,0 +1,23 @@
+# Netlify HTTP Cache & Security Headers
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+
+# HTML: Always revalidate to get latest app version immediately
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
+
+# CSS & JS: Browser can cache, but check with server
+/css/*
+  Cache-Control: public, max-age=86400
+
+/js/*
+  Cache-Control: public, max-age=86400
+
+# JSON data files
+/*.json
+  Cache-Control: public, max-age=3600

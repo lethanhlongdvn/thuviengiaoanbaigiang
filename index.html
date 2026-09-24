@@ -14,15 +14,42 @@
 
   <!-- Open Graph / Facebook / Zalo Share -->
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:site_name" content="Thư Viện Bài Giảng & KHBD Tiểu Học">
   <meta property="og:url" content="https://thuviengiaoanbaigiang.netlify.app/">
   <meta property="og:title" content="Thư Viện Bài Giảng Điện Tử & Giáo Án (KHBD) Tiểu Học Lớp 1-5">
-  <meta property="og:description" content="Tải miễn phí kho bài giảng PowerPoint và Kế hoạch bài dạy bản Word chuẩn CT 2018 (Cánh Diều, Kết Nối Tri Thức, Chân Trời Sáng Tạo).">
+  <meta property="og:description" content="Tải miễn phí kho bài giảng PowerPoint và Kế hoạch bài dạy bản Word chuẩn CT 2018 (Cánh Diều, Kết Nối Tri Thức, Chân Trời Sáng Tạo). Tích hợp Trợ Lý AI Ra Đề & Tích Hợp Giáo Án.">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Thư Viện Bài Giảng Điện Tử & Giáo Án (KHBD) Tiểu Học Lớp 1-5">
+  <meta name="twitter:description" content="Tải miễn phí kho bài giảng PowerPoint và Kế hoạch bài dạy bản Word chuẩn CT 2018. Tích hợp Trợ Lý AI Ra Đề.">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Thư Viện Bài Giảng & KHBD Tiểu Học",
+    "url": "https://thuviengiaoanbaigiang.netlify.app/",
+    "author": {
+      "@type": "Person",
+      "name": "Thầy Lê Thành Long"
+    },
+    "description": "Kho học liệu số giáo viên Tiểu học: Giáo án KHBD, bài giảng điện tử PowerPoint lớp 1-5 chuẩn GDPT 2018, Công văn 2345 và Thông tư 27.",
+    "inLanguage": "vi-VN"
+  }
+  </script>
   
   <!-- Google Fonts: Be Vietnam Pro -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700;800&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
   
+  <!-- Preconnect CDN -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
   <!-- FontAwesome Icons 6 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
@@ -453,74 +480,25 @@
   <!-- Vùng chứa thông báo Toast -->
   <div class="toast-container" id="toast-container"></div>
 
-  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 5 -->
+  <!-- Kho Sách Giáo Khoa Số Hóa (Tự động tải theo môn/khối - Lazy Loading) -->
   <script src="js/sgk/sgk-registry.js" defer></script>
-  <!-- Khung Đọc Hiểu & Viết SEA-PLM + Ngữ Liệu Địa Phương Vĩnh Long Mới -->
   <script src="js/sgk/seaplm-reading-framework.js" defer></script>
-  <!-- Kho Sách Giáo Khoa Số Hóa Chân Trời Sáng Tạo (CTST) -->
-  <script src="js/sgk/ctst/tieng-viet-5-ctst.js" defer></script>
-  <script src="js/sgk/ctst/tieng-viet-4-ctst.js" defer></script>
-  <script src="js/sgk/ctst/tieng-viet-3-ctst.js" defer></script>
-  <script src="js/sgk/ctst/tieng-viet-2-ctst.js" defer></script>
-  <script src="js/sgk/ctst/tieng-viet-1-ctst.js" defer></script>
-  <script src="js/sgk/lop5/toan-5.js" defer></script>
-  <script src="js/sgk/lop5/tieng-viet-5.js" defer></script>
-  <script src="js/sgk/lop5/khoa-hoc-5.js" defer></script>
-  <script src="js/sgk/lop5/lich-su-dia-li-5.js" defer></script>
-  <script src="js/sgk/lop5/cong-nghe-5.js" defer></script>
-  <script src="js/sgk/lop5/tin-hoc-5.js" defer></script>
-  <script src="js/sgk/lop5/tieng-anh-5.js" defer></script>
 
-  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 4 -->
-  <script src="js/sgk/lop4/toan-4.js" defer></script>
-  <script src="js/sgk/lop4/tieng-viet-4.js" defer></script>
-  <script src="js/sgk/lop4/khoa-hoc-4.js" defer></script>
-  <script src="js/sgk/lop4/lich-su-dia-li-4.js" defer></script>
-  <script src="js/sgk/lop4/cong-nghe-4.js" defer></script>
-  <script src="js/sgk/lop4/tin-hoc-4.js" defer></script>
-  <script src="js/sgk/lop4/tieng-anh-4.js" defer></script>
-  <script src="js/sgk/lop4/dao-duc-4.js" defer></script>
-  <script src="js/sgk/lop4/hoat-dong-trai-nghiem-4.js" defer></script>
-
-  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 3 -->
-  <script src="js/sgk/lop3/toan-3.js" defer></script>
-  <script src="js/sgk/lop3/tieng-viet-3.js" defer></script>
-  <script src="js/sgk/lop3/tnxh-3.js" defer></script>
-  <script src="js/sgk/lop3/cong-nghe-3.js" defer></script>
-  <script src="js/sgk/lop3/tin-hoc-3.js" defer></script>
-  <script src="js/sgk/lop3/tieng-anh-3.js" defer></script>
-
-  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 2 -->
-  <script src="js/sgk/lop2/toan-2.js" defer></script>
-  <script src="js/sgk/lop2/tieng-viet-2.js" defer></script>
-  <script src="js/sgk/lop2/tnxh-2.js" defer></script>
-  <script src="js/sgk/lop2/tieng-anh-2.js" defer></script>
-  <script src="js/sgk/lop2/dao-duc-2.js" defer></script>
-  <script src="js/sgk/lop2/hoat-dong-trai-nghiem-2.js" defer></script>
-
-  <!-- Kho Sách Giáo Khoa Số Hóa KNTT - Khối 1 -->
-  <script src="js/sgk/lop1/toan-1.js" defer></script>
-  <script src="js/sgk/lop1/tieng-viet-1.js" defer></script>
-  <script src="js/sgk/lop1/tnxh-1.js" defer></script>
-  <script src="js/sgk/lop1/tieng-anh-1.js" defer></script>
-
-  <!-- Thư viện xử lý bảng tính Excel & Nén tệp (Ưu tiên tệp nội bộ ngoại tuyến) -->
+  <!-- Thư viện xử lý bảng tính Excel & Nén tệp -->
   <script src="js/lib/jszip.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" defer></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js" defer></script>
 
-  <!-- Kho Kế Hoạch Bài Dạy (KHBD) Số Hóa Chuẩn 100% CV 2345 -->
-  <script src="js/khbd_sohoa/khbd-registry.js" defer></script>
-  <script src="js/academic-calendar.js?v=20260916_a4" defer></script>
-  <script src="js/integration-service.js?v=20260916_a4" defer></script>
-
-  <!-- Scripts Logic -->
-  <script src="js/config.js?v=20260916_a4" defer></script>
-  <script src="js/data.js?v=20260916_a4" defer></script>
-  <script src="js/auth.js?v=20260916_a4" defer></script>
-  <script src="js/drive-service.js?v=20260916_a4" defer></script>
-  <script src="js/ai-service.js?v=20260916_a4" defer></script>
-  <script src="js/toolkit.js?v=20260916_a4" defer></script>
-  <script src="js/app.js?v=20260916_a4" defer></script>
+  <!-- Scripts Logic & Modular Views -->
+  <!-- (KHBD registry, integration-service, academic-calendar chỉ dùng trên ai-integration.html — mở tab riêng) -->
+  <script src="js/config.js?v=20260924_v2" defer></script>
+  <script src="js/data.js?v=20260924_v2" defer></script>
+  <script src="js/auth.js?v=20260924_v2" defer></script>
+  <script src="js/drive-service.js?v=20260924_v2" defer></script>
+  <script src="js/ai-service.js?v=20260924_v2" defer></script>
+  <script src="js/toolkit.js?v=20260924_v2" defer></script>
+  <script src="js/app.js?v=20260924_v2" defer></script>
+  <script src="js/views/documents-view.js?v=20260924_v2" defer></script>
+  <script src="js/views/admin-settings-view.js?v=20260924_v2" defer></script>
+  <script src="js/views/ai-exam-view.js?v=20260924_v2" defer></script>
 </body>
 </html>

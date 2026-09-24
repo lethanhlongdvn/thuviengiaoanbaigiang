@@ -115,6 +115,114 @@
     },
 
     /**
+     * Kiểm tra xem cuốn sách đã được nạp vào bộ nhớ chưa
+     */
+    hasBook: function(grade, subjectId, bookSeries) {
+      const g = String(grade);
+      const key = this._normalizeKey(subjectId);
+      const series = this._normalizeSeries(bookSeries);
+      if (_seriesBooks[series] && _seriesBooks[series][g] && (_seriesBooks[series][g][key] || _seriesBooks[series][g][subjectId])) {
+        return true;
+      }
+      if (_legacyBooks[g] && (_legacyBooks[g][key] || _legacyBooks[g][subjectId])) {
+        return true;
+      }
+      return false;
+    },
+
+    _loadingPromises: {},
+
+    /**
+     * Tự động nạp động (lazy load) tệp sách giáo khoa tương ứng vào bộ nhớ
+     * @param {number|string} grade Khối lớp (1-5)
+     * @param {string} subjectId Mã môn (toan, tieng_viet, khoa_hoc, ...)
+     * @param {string} [bookSeries] Bộ sách ('kntt' hoặc 'ctst')
+     */
+    ensureBookLoaded: function(grade, subjectId, bookSeries) {
+      const g = parseInt(grade) || 5;
+      const key = this._normalizeKey(subjectId);
+      const series = this._normalizeSeries(bookSeries);
+
+      // 1. Nếu sách đã có trong RAM thì trả về ngay
+      if (this.hasBook(g, key, series)) {
+        return Promise.resolve(true);
+      }
+
+      if (typeof document === 'undefined') return Promise.resolve(true);
+
+      // 2. Xác định đường dẫn file tương ứng
+      let filePath = '';
+      if (series === 'ctst') {
+        filePath = 'js/sgk/ctst/tieng-viet-' + g + '-ctst.js';
+      } else {
+        const fileMap = {
+          'toan': 'toan-' + g + '.js',
+          'tieng_viet': 'tieng-viet-' + g + '.js',
+          'khoa_hoc': 'khoa-hoc-' + g + '.js',
+          'lich_su_dia_li': 'lich-su-dia-li-' + g + '.js',
+          'cong_nghe': 'cong-nghe-' + g + '.js',
+          'tin_hoc': 'tin-hoc-' + g + '.js',
+          'tieng_anh': 'tieng-anh-' + g + '.js',
+          'tnxh': 'tnxh-' + g + '.js',
+          'dao_duc': 'dao-duc-' + g + '.js',
+          'hoat_dong_trai_nghiem': 'hoat-dong-trai-nghiem-' + g + '.js',
+          'hdtn': 'hoat-dong-trai-nghiem-' + g + '.js'
+        };
+        const fname = fileMap[key];
+        if (!fname) return Promise.resolve(false);
+        filePath = 'js/sgk/lop' + g + '/' + fname;
+      }
+
+      if (!this._loadingPromises) this._loadingPromises = {};
+      if (this._loadingPromises[filePath]) {
+        return this._loadingPromises[filePath];
+      }
+
+      const self = this;
+      this._loadingPromises[filePath] = new Promise(function(resolve) {
+        if (self.hasBook(g, key, series)) {
+          delete self._loadingPromises[filePath];
+          resolve(true);
+          return;
+        }
+
+        const existing = document.querySelector('script[src="' + filePath + '"]');
+        if (existing) {
+          if (self.hasBook(g, key, series)) {
+            delete self._loadingPromises[filePath];
+            resolve(true);
+            return;
+          }
+          existing.addEventListener('load', function() {
+            delete self._loadingPromises[filePath];
+            resolve(true);
+          });
+          existing.addEventListener('error', function() {
+            delete self._loadingPromises[filePath];
+            resolve(false);
+          });
+          return;
+        }
+
+        const s = document.createElement('script');
+        s.src = filePath;
+        s.onload = function() {
+          delete self._loadingPromises[filePath];
+          console.log('[SGKRegistry] Đã nạp động thành công: ' + filePath);
+          resolve(true);
+        };
+        s.onerror = function(err) {
+          delete self._loadingPromises[filePath];
+          console.warn('[SGKRegistry] Không tìm thấy file SGK: ' + filePath);
+          resolve(false);
+        };
+        document.head.appendChild(s);
+      });
+
+      return this._loadingPromises[filePath];
+    },
+
+    /**
      * Lấy danh sách các môn đã số hóa của một khối theo bộ sách
      */
     getRegisteredSubjects: function(grade, bookSeries) {
@@ -183,30 +291,37 @@
 
       const q = (scopeQuery || '').trim().toLowerCase();
       let matchedLessons = [];
+      const validLessons = (book.lessons || []).filter(l => 
+        l && l.title && l.title !== 'Tên bài học' && l.topic !== 'Chủ đề/Mạch nội dung'
+      );
 
-      if (!q || q.includes('cả năm') || q.includes('toàn bộ')) {
-        matchedLessons = book.lessons;
-      } else if (q.includes('học kì 1') || q.includes('học kỳ 1') || q.includes('hki') || q.includes('hk1')) {
-        matchedLessons = book.lessons.filter(l => l.semester === 1);
-      } else if (q.includes('học kì 2') || q.includes('học kỳ 2') || q.includes('hkii') || q.includes('hk2')) {
-        matchedLessons = book.lessons.filter(l => l.semester === 2);
-      } else if (q.includes('giữa kì 1') || q.includes('giữa kỳ 1')) {
-        matchedLessons = book.lessons.filter(l => l.week >= 1 && l.week <= 9);
-      } else if (q.includes('cuối kì 1') || q.includes('cuối kỳ 1')) {
-        matchedLessons = book.lessons.filter(l => l.semester === 1);
-      } else if (q.includes('giữa kì 2') || q.includes('giữa kỳ 2')) {
-        matchedLessons = book.lessons.filter(l => l.week >= 19 && l.week <= 27);
-      } else if (q.includes('cuối kì 2') || q.includes('cuối kỳ 2') || q.includes('cuối năm')) {
-        matchedLessons = book.lessons.filter(l => l.semester === 2 || l.week >= 19);
-      } else {
-        // Search by week number or lesson/topic keywords
-        const weekMatch = q.match(/tuần\s*(\d+)(?:\s*-\s*(\d+)|\s*đến\s*(\d+))?/i);
-        if (weekMatch) {
-          const startW = parseInt(weekMatch[1], 10);
-          const endW = parseInt(weekMatch[2] || weekMatch[3] || weekMatch[1], 10);
-          matchedLessons = book.lessons.filter(l => l.week >= startW && l.week <= endW);
+      // 1. Kiểm tra dải tuần bằng Regex (Ví dụ: "Tuần 1 - 18", "Tuần 10 - 18", "Tuần 1 - 9", "Tuần 19 - 27", "Tuần 28 - 35", "Tuần 19 - 35")
+      const weekRangeMatch = q.match(/tuần\s*(\d+)\s*(?:-|–|đến)\s*(\d+)/i);
+      if (weekRangeMatch) {
+        const startW = parseInt(weekRangeMatch[1], 10);
+        const endW = parseInt(weekRangeMatch[2], 10);
+        matchedLessons = validLessons.filter(l => l.week >= startW && l.week <= endW);
+      } else if (q.includes('giữa kì 1') || q.includes('giữa kỳ 1') || q.includes('giữa hk1') || q.includes('giữa hki')) {
+        matchedLessons = validLessons.filter(l => l.week >= 1 && l.week <= 9);
+      } else if (q.includes('cuối kì 1') || q.includes('cuối kỳ 1') || q.includes('cuối hk1') || q.includes('cuối hki') || q.includes('học kì 1') || q.includes('học kỳ 1') || q.includes('hk1') || q.includes('hki')) {
+        matchedLessons = validLessons.filter(l => l.semester === 1 || (l.week >= 1 && l.week <= 18));
+      } else if (q.includes('giữa kì 2') || q.includes('giữa kỳ 2') || q.includes('giữa hk2') || q.includes('giữa hkii')) {
+        matchedLessons = validLessons.filter(l => l.week >= 19 && l.week <= 27);
+      } else if (q.includes('cuối năm') || q.includes('cuối kì 2') || q.includes('cuối kỳ 2') || q.includes('cuối hk2') || q.includes('cuối hkii') || q.includes('học kì 2') || q.includes('học kỳ 2') || q.includes('hk2') || q.includes('hkii')) {
+        matchedLessons = validLessons.filter(l => l.semester === 2 || (l.week >= 19 && l.week <= 35));
+      } else if (!q || q.includes('cả năm') || q.includes('toàn bộ')) {
+        if (subjectId && subjectId !== 'toan') {
+          matchedLessons = validLessons.filter(l => l.semester === 2 || (l.week >= 19 && l.week <= 35));
         } else {
-          matchedLessons = book.lessons.filter(l => 
+          matchedLessons = validLessons;
+        }
+      } else {
+        const singleWeekMatch = q.match(/tuần\s*(\d+)/i);
+        if (singleWeekMatch) {
+          const w = parseInt(singleWeekMatch[1], 10);
+          matchedLessons = validLessons.filter(l => l.week === w);
+        } else {
+          matchedLessons = validLessons.filter(l => 
             (l.title && l.title.toLowerCase().includes(q)) || 
             (l.topic && l.topic.toLowerCase().includes(q)) ||
             (l.coreKnowledge && l.coreKnowledge.toLowerCase().includes(q))
@@ -215,69 +330,50 @@
       }
 
       if (matchedLessons.length === 0) {
-        matchedLessons = book.lessons.slice(0, 10); // fallback first 10
+        matchedLessons = validLessons.slice(0, 15);
       }
 
-      // Format knowledge digest for AI generator
-      let lessonSummaries = "";
-      if (matchedLessons.length > 12) {
-        // Gom nhóm theo Chủ đề / Mạch nội dung để bao quát 100% các tuần/bài học trong phạm vi (chống bị cắt bớt)
-        const topicMap = new Map();
-        matchedLessons.forEach(l => {
-          let tName = l.topic || 'Chủ đề khác';
-          if (!topicMap.has(tName)) {
-            topicMap.set(tName, { topic: tName, weeks: new Set(), lessons: [] });
-          }
-          const grp = topicMap.get(tName);
-          if (l.week) grp.weeks.add(l.week);
-          grp.lessons.push(l);
-        });
-
-        const topicBlocks = [];
-        // Nếu là môn Toán, bổ sung định hướng khung 3 mạch kiến thức GDPT 2018
-        if (subjectId === 'toan') {
-          topicBlocks.push(`[KHUNG 3 MẠCH KIẾN THỨC MÔN TOÁN CHUẨN GDPT 2018 TRONG PHẠM VI RA ĐỀ]\n1. Số và phép tính (Số tự nhiên, phân số, số thập phân, tỉ số, tỉ số phần trăm; 4 phép tính, tính nhẩm, giải toán có lời văn)\n2. Hình học và Đo lường (Hình phẳng: tam giác, hình thang, hình tròn; Hình khối: hình hộp chữ nhật, hình lập phương; Chu vi, diện tích, thể tích; Đơn vị đo diện tích km²/ha, thể tích m³/dm³/cm³, thời gian; Toán chuyển động đều vận tốc, quãng đường, thời gian)\n3. Một số yếu tố Thống kê và Xác suất (Thu thập, kiểm đếm số liệu, đọc biểu đồ hình quạt tròn/cột; khả năng xảy ra của một sự kiện)`);
+      // Format knowledge digest for AI generator (Bảo đảm 100% đầy đủ chi tiết, không cắt xén để AI ra đề chuẩn xác)
+      let lessonSummaries = matchedLessons.map((l, idx) => {
+        let lines = [];
+        let weekTag = l.week ? `Tuần ${l.week}` : '';
+        let topicTag = l.topic ? `Chủ đề: ${l.topic}` : '';
+        let meta = [weekTag, topicTag].filter(Boolean).join(' | ');
+        lines.push(`• [Bài ${idx + 1}] ${l.title}${meta ? ` (${meta})` : ''}`);
+        
+        if (l.coreKnowledge) {
+          lines.push(`  + Kiến thức trọng tâm: ${l.coreKnowledge}`);
         }
+        if (l.reading) {
+          const rdTitle = typeof l.reading === 'string' ? l.reading : (l.reading.title || '');
+          const rdContent = typeof l.reading === 'object' ? (l.reading.coreContent || '') : '';
+          const rdFocus = typeof l.reading === 'object' ? (l.reading.comprehensionFocus || l.reading.summary || '') : '';
+          let rdStr = `  + Đọc hiểu: "${rdTitle}"`;
+          if (rdContent) rdStr += ` - Nội dung: ${rdContent}`;
+          if (rdFocus) rdStr += ` - Trọng tâm: ${rdFocus}`;
+          lines.push(rdStr);
+        }
+        if (l.languagePractice) {
+          const lpTopic = typeof l.languagePractice === 'string' ? l.languagePractice : (l.languagePractice.topic || '');
+          const lpSkills = typeof l.languagePractice === 'object' ? (l.languagePractice.skills || '') : '';
+          let lpStr = `  + Luyện từ và câu: ${lpTopic}`;
+          if (lpSkills) lpStr += ` (${lpSkills})`;
+          lines.push(lpStr);
+        }
+        if (l.writing) {
+          const wrTopic = typeof l.writing === 'string' ? l.writing : (l.writing.topic || '');
+          const wrSkills = typeof l.writing === 'object' ? (l.writing.skills || '') : '';
+          let wrStr = `  + Tập làm văn / Viết: ${wrTopic}`;
+          if (wrSkills) wrStr += ` (${wrSkills})`;
+          lines.push(wrStr);
+        }
+        if (l.vocabulary) lines.push(`  + Từ vựng: ${l.vocabulary}`);
+        if (l.sentencePatterns) lines.push(`  + Mẫu câu: ${l.sentencePatterns}`);
+        return lines.join('\n');
+      }).join('\n\n');
 
-        topicMap.forEach((grp, tName) => {
-          if (tName === 'Chủ đề/Mạch nội dung') return;
-          const wArr = Array.from(grp.weeks).sort((a, b) => a - b);
-          const wStr = wArr.length ? `Tuần ${wArr[0]}${wArr.length > 1 ? ` - ${wArr[wArr.length - 1]}` : ''}` : '';
-          const lessonTitles = grp.lessons.map(l => l.title).filter(t => t && t !== 'Tên bài học');
-          
-          let block = `• ${tName}${wStr ? ` (${wStr})` : ''}:\n  + Các bài học: ${lessonTitles.join('; ')}`;
-          
-          // Tổng hợp ngữ liệu đọc hiểu / LTVC / TLV nếu có (Tiếng Việt)
-          const readings = grp.lessons.map(l => l.reading ? (typeof l.reading === 'string' ? l.reading : l.reading.title) : null).filter(Boolean);
-          const lps = grp.lessons.map(l => l.languagePractice ? (typeof l.languagePractice === 'string' ? l.languagePractice : l.languagePractice.topic) : null).filter(Boolean);
-          const writings = grp.lessons.map(l => l.writing ? (typeof l.writing === 'string' ? l.writing : l.writing.topic) : null).filter(Boolean);
-          if (readings.length) block += `\n  + Đọc hiểu: ${readings.join(', ')}`;
-          if (lps.length) block += `\n  + Luyện từ & câu: ${lps.join(', ')}`;
-          if (writings.length) block += `\n  + Viết / TLV: ${writings.join(', ')}`;
-
-          topicBlocks.push(block);
-        });
-        lessonSummaries = topicBlocks.join('\n\n');
-      } else {
-        lessonSummaries = matchedLessons.map(l => {
-          let text = `- ${l.title} (Tuần ${l.week || 'N/A'}, ${l.topic || ''}): ${l.coreKnowledge || ''}`;
-          if (l.reading) {
-            const rdTitle = typeof l.reading === 'string' ? l.reading : (l.reading.title || '');
-            const rdFocus = l.reading.comprehensionFocus || l.reading.summary || '';
-            text += ` | Đọc hiểu: "${rdTitle}" ${rdFocus ? `(${rdFocus})` : ''}`;
-          }
-          if (l.languagePractice) {
-            const lpTopic = typeof l.languagePractice === 'string' ? l.languagePractice : (l.languagePractice.topic || '');
-            text += ` | Luyện từ và câu: ${lpTopic}`;
-          }
-          if (l.writing) {
-            const wrTopic = typeof l.writing === 'string' ? l.writing : (l.writing.topic || '');
-            text += ` | Tập làm văn / Viết: ${wrTopic}`;
-          }
-          if (l.vocabulary) text += ` | Từ vựng: ${l.vocabulary}`;
-          if (l.sentencePatterns) text += ` | Mẫu câu: ${l.sentencePatterns}`;
-          return text;
-        }).join('\n');
+      if (subjectId === 'toan') {
+        lessonSummaries = `[KHUNG 3 MẠCH KIẾN THỨC MÔN TOÁN CHUẨN GDPT 2018]\n1. Số và phép tính (Số tự nhiên, phân số, số thập phân, tỉ số, tỉ số phần trăm; 4 phép tính, tính nhẩm, giải toán có lời văn)\n2. Hình học và Đo lường (Hình phẳng: tam giác, hình thang, hình tròn; Hình khối: hình hộp chữ nhật, hình lập phương; Chu vi, diện tích, thể tích; Đơn vị đo diện tích km²/ha, thể tích m³/dm³/cm³, thời gian; Toán chuyển động đều)\n3. Một số yếu tố Thống kê và Xác suất (Thu thập, kiểm đếm số liệu, đọc biểu đồ hình quạt tròn/cột; khả năng xảy ra của một sự kiện)\n\n[CHI TIẾT TOÀN BỘ CÁC BÀI HỌC VÀ YÊU CẦU CẦN ĐẠT TRONG PHẠM VI RA ĐỀ (${matchedLessons.length} BÀI HỌC)]:\n` + lessonSummaries;
       }
 
       return {

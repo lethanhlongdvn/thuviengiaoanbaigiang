@@ -8,12 +8,23 @@
   <!-- SEO & Social Meta -->
   <meta name="description" content="Xuất Kế hoạch bài dạy (KHBD) Có Tích Hợp Tự Động chuẩn Công văn 2345/BGDĐT-GDTH cho 5 khối lớp Tiểu học. Tích hợp chuyên đề, dạy học phân hóa cho học sinh khuyết tật, hỗ trợ TKB GVCN và GV Bộ Môn.">
   <meta name="author" content="Thầy Lê Thành Long">
+  <link rel="canonical" href="https://thuviengiaoanbaigiang.netlify.app/ai-integration.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="vi_VN">
+  <meta property="og:site_name" content="Thư Viện Bài Giảng & KHBD Tiểu Học">
+  <meta property="og:url" content="https://thuviengiaoanbaigiang.netlify.app/ai-integration.html">
+  <meta property="og:title" content="Xuất KHBD Có Tích Hợp Tự Động (Chuẩn CV 2345) - Thầy Lê Thành Long">
+  <meta property="og:description" content="Xuất Kế hoạch bài dạy (KHBD) Có Tích Hợp Tự Động chuẩn Công văn 2345 cho 5 khối lớp Tiểu học. Tự động liên kết TKB, phân hóa học sinh khuyết tật và tích hợp STEM, GD Địa phương.">
   
   <!-- Google Fonts: Be Vietnam Pro & Nunito -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Nunito:wght@700;800&display=swap" rel="stylesheet">
   
+  <!-- Preconnect CDN -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+
   <!-- FontAwesome Icons 6 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   
@@ -285,73 +296,27 @@
   <div class="toast-container" id="toast-container"></div>
 
   <!-- Thư viện Đọc tài liệu phía Trình duyệt (Mammoth & PDF.js) -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js" defer></script>
 
-  <!-- Kho Kế Hoạch Bài Dạy (KHBD) Số Hóa Chuẩn 100% CV 2345 - Khối 5 -->
-  <script src="js/khbd_sohoa/khbd-registry.js"></script>
-  <script src="js/khbd_sohoa/lop5/lop5_toan.js"></script>
-  <script src="js/khbd_sohoa/lop5/lop5_tieng_viet.js"></script>
-  <script src="js/khbd_sohoa/lop5/lop5_khoa_hoc.js"></script>
-  <script src="js/khbd_sohoa/lop5/lop5_lich_su_dia_ly.js"></script>
-  <script src="js/khbd_sohoa/lop5/lop5_dao_duc.js"></script>
-  <script src="js/khbd_sohoa/lop5/lop5_hdtn.js"></script>
-  <script src="js/khbd_sohoa/lop5/lop5_cong_nghe.js"></script>
-  <script src="js/khbd_sohoa/lop5/lop5_gdtc.js"></script>
-  <script src="js/khbd_sohoa/lop5/lop5_am_nhac.js"></script>
-
-  <!-- Kho KHBD Khối 4 -->
-  <script src="js/khbd_sohoa/lop4/lop4_toan.js"></script>
-  <script src="js/khbd_sohoa/lop4/lop4_tieng_viet.js"></script>
-  <script src="js/khbd_sohoa/lop4/lop4_khoa_hoc.js"></script>
-  <script src="js/khbd_sohoa/lop4/lop4_lich_su_dia_ly.js"></script>
-  <script src="js/khbd_sohoa/lop4/lop4_dao_duc.js"></script>
-  <script src="js/khbd_sohoa/lop4/lop4_hdtn.js"></script>
-  <script src="js/khbd_sohoa/lop4/lop4_cong_nghe.js"></script>
-  <script src="js/khbd_sohoa/lop4/lop4_gdtc.js"></script>
-  <script src="js/khbd_sohoa/lop4/lop4_am_nhac.js"></script>
-
-  <!-- Kho KHBD Khối 3 -->
-  <script src="js/khbd_sohoa/lop3/lop3_toan.js"></script>
-  <script src="js/khbd_sohoa/lop3/lop3_tieng_viet.js"></script>
-  <script src="js/khbd_sohoa/lop3/lop3_tnxh.js"></script>
-  <script src="js/khbd_sohoa/lop3/lop3_dao_duc.js"></script>
-  <script src="js/khbd_sohoa/lop3/lop3_hdtn.js"></script>
-  <script src="js/khbd_sohoa/lop3/lop3_cong_nghe.js"></script>
-  <script src="js/khbd_sohoa/lop3/lop3_gdtc.js"></script>
-  <script src="js/khbd_sohoa/lop3/lop3_am_nhac.js"></script>
-
-  <!-- Kho KHBD Khối 2 -->
-  <script src="js/khbd_sohoa/lop2/lop2_toan.js"></script>
-  <script src="js/khbd_sohoa/lop2/lop2_tieng_viet.js"></script>
-  <script src="js/khbd_sohoa/lop2/lop2_tnxh.js"></script>
-  <script src="js/khbd_sohoa/lop2/lop2_dao_duc.js"></script>
-  <script src="js/khbd_sohoa/lop2/lop2_hdtn.js"></script>
-  <script src="js/khbd_sohoa/lop2/lop2_gdtc.js"></script>
-  <script src="js/khbd_sohoa/lop2/lop2_am_nhac.js"></script>
-
-  <!-- Kho KHBD Khối 1 -->
-  <script src="js/khbd_sohoa/lop1/lop1_toan.js"></script>
-  <script src="js/khbd_sohoa/lop1/lop1_tieng_viet.js"></script>
-  <script src="js/khbd_sohoa/lop1/lop1_tnxh.js"></script>
-  <script src="js/khbd_sohoa/lop1/lop1_dao_duc.js"></script>
-  <script src="js/khbd_sohoa/lop1/lop1_hdtn.js"></script>
-  <script src="js/khbd_sohoa/lop1/lop1_gdtc.js"></script>
-  <script src="js/khbd_sohoa/lop1/lop1_am_nhac.js"></script>
+  <!-- Kho Kế Hoạch Bài Dạy (KHBD) Số Hóa Chuẩn 100% CV 2345 (Tất cả có thuộc tính defer tải song song không chặn màn hình) -->
+  <!-- Kho Kế Hoạch Bài Dạy (KHBD) - Registry & Lazy Loading -->
+  <!-- Các file KHBD số hóa (lop1-5) được nạp tự động khi GV chọn Khối/Môn -->
+  <!-- thông qua IntegrationService.ensureSubjectLoaded() — không cần nhúng cứng -->
+  <script src="js/khbd_sohoa/khbd-registry.js" defer></script>
 
   <!-- Dịch vụ Tích hợp & Core Scripts -->
-  <script src="js/lib/jszip.min.js"></script>
-  <script src="js/academic-calendar.js?v=20260916_a4"></script>
-  <script src="js/integration-service.js?v=20260916_a4"></script>
-  <script src="js/config.js?v=20260916_a4"></script>
-  <script src="js/data.js?v=20260916_a4"></script>
-  <script src="js/auth.js?v=20260916_a4"></script>
-  <script src="js/drive-service.js?v=20260916_a4"></script>
-  <script src="js/ai-service.js?v=20260916_a4"></script>
-  <script src="js/toolkit.js?v=20260916_a4"></script>
-  <script src="js/app.js?v=20260916_a4"></script>
+  <script src="js/lib/jszip.min.js" defer></script>
+  <script src="js/academic-calendar.js?v=20260924_v2" defer></script>
+  <script src="js/integration-service.js?v=20260924_v2" defer></script>
+  <script src="js/config.js?v=20260924_v2" defer></script>
+  <script src="js/auth.js?v=20260924_v2" defer></script>
+  <script src="js/drive-service.js?v=20260924_v2" defer></script>
+  <script src="js/ai-service.js?v=20260924_v2" defer></script>
+  <script src="js/toolkit.js?v=20260924_v2" defer></script>
+  <script src="js/app.js?v=20260924_v2" defer></script>
+  <script src="js/views/ai-integration-view.js?v=20260924_v2" defer></script>
 
   <script>
     function ensureIntegrationRendered() {

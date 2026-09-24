@@ -7,15 +7,16 @@
 
 var AIService = {
   // 7 Môn thi chính thức định kỳ Tiểu học
+  // 7 Môn thi chính thức định kỳ Tiểu học theo Thông tư 27/2020/TT-BGDĐT
+  // Quy định: Lớp 1, 2, 3 chỉ kiểm tra Toán & Tiếng Việt. Lớp 4, 5 kiểm tra Toán, Tiếng Việt, Tiếng Anh, Tin học, Công nghệ, Khoa học, Lịch sử và Địa lý.
   EXAM_SUBJECTS: {
     TOAN: { id: "TOAN", name: "Toán", grades: [1, 2, 3, 4, 5], icon: "fa-calculator" },
     TIENG_VIET: { id: "TIENG_VIET", name: "Tiếng Việt", grades: [1, 2, 3, 4, 5], icon: "fa-book-open" },
-    TIENG_ANH: { id: "TIENG_ANH", name: "Tiếng Anh", grades: [1, 2, 3, 4, 5], icon: "fa-language" },
+    TIENG_ANH: { id: "TIENG_ANH", name: "Tiếng Anh", grades: [4, 5], icon: "fa-language" },
     KHOA_HOC: { id: "KHOA_HOC", name: "Khoa học", grades: [4, 5], icon: "fa-flask" },
-    TNXH: { id: "TNXH", name: "Tự nhiên và Xã hội", grades: [1, 2, 3], icon: "fa-leaf" },
     LICH_SU_DIA_LY: { id: "LICH_SU_DIA_LY", name: "Lịch sử và Địa lý", grades: [4, 5], icon: "fa-earth-americas" },
-    TIN_HOC: { id: "TIN_HOC", name: "Tin học", grades: [3, 4, 5], icon: "fa-laptop-code" },
-    CONG_NGHE: { id: "CONG_NGHE", name: "Công nghệ", grades: [3, 4, 5], icon: "fa-gears" }
+    TIN_HOC: { id: "TIN_HOC", name: "Tin học", grades: [4, 5], icon: "fa-laptop-code" },
+    CONG_NGHE: { id: "CONG_NGHE", name: "Công nghệ", grades: [4, 5], icon: "fa-gears" }
   },
 
   // LƯU Ý: Toàn bộ ngân hàng câu hỏi tĩnh/đề mẫu dự phòng đã được gỡ bỏ hoàn toàn theo yêu cầu.
@@ -73,6 +74,7 @@ var AIService = {
                   s.includes("tập 2") || s.includes("tap 2") ||
                   s.includes("tuần 1 - 35") || s.includes("tuần 1-35") || 
                   s.includes("tuần 19 - 35") || s.includes("tuần 19-35") ||
+                  s.includes("tuần 28 - 35") || s.includes("tuần 28-35") ||
                   s.includes("tuần 19 - 27") || s.includes("tuần 19-27");
                   
     var isMid = s.includes("giữa") || s.includes("giua");
@@ -107,9 +109,9 @@ var AIService = {
       }
       return {
         term: "HỌC KÌ II",
-        period: "HỌC KÌ II",
-        headerTitle: "ĐỀ KIỂM TRA HỌC KÌ II",
-        matrixTitle: "HỌC KÌ II"
+        period: "CUỐI HỌC KÌ II",
+        headerTitle: "ĐỀ KIỂM TRA CUỐI HỌC KÌ II",
+        matrixTitle: "CUỐI HỌC KÌ II"
       };
     } else {
       if (isMid) {
@@ -130,9 +132,9 @@ var AIService = {
       }
       return {
         term: "HỌC KÌ I",
-        period: "HỌC KÌ I",
-        headerTitle: "ĐỀ KIỂM TRA HỌC KÌ I",
-        matrixTitle: "HỌC KÌ I"
+        period: "CUỐI HỌC KÌ I",
+        headerTitle: "ĐỀ KIỂM TRA CUỐI HỌC KÌ I",
+        matrixTitle: "CUỐI HỌC KÌ I"
       };
     }
   },
@@ -1600,18 +1602,24 @@ var AIService = {
 
     // Tra cứu dữ liệu SGK số hóa theo bộ sách KNTT
     var sgkKey = (subjectId || '').toLowerCase().replace('lich_su_dia_ly', 'lich_su_dia_li');
+    var sgkRegObj = (typeof window !== 'undefined' && window.SGK_REGISTRY) ? window.SGK_REGISTRY : (typeof SGKRegistry !== 'undefined' ? SGKRegistry : null);
+    if (sgkRegObj && typeof sgkRegObj.ensureBookLoaded === 'function') {
+      await sgkRegObj.ensureBookLoaded(grade, sgkKey, bookSeries);
+      if (subjectId === "TIENG_VIET") {
+        await sgkRegObj.ensureBookLoaded(grade, 'tieng_viet', 'ctst');
+      }
+    }
+
     var sgkContext = "";
     if (typeof window !== 'undefined' && window.SGK_DATA && typeof window.SGK_DATA.getScopeContent === 'function') {
       var scopeInfo = window.SGK_DATA.getScopeContent(grade, sgkKey, scope, bookSeries);
       if (scopeInfo && scopeInfo.found && scopeInfo.knowledgeDigest) {
         var digest = scopeInfo.knowledgeDigest;
-        if (digest.length > 12000) {
-          digest = digest.substring(0, 12000) + "\n...(và các bài học khác trong phạm vi)...";
-        }
+        // KHÔNG CẮT XÉN DỮ LIỆU: Truyền trọn vẹn 100% nội dung chương trình SGK số hóa để AI ra đề chính xác, không suy luận bừa
         if (subjectId === "TIENG_VIET") {
-          sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) DÙNG CHO PHẦN LUYỆN TỪ VÀ CÂU & VIẾT:\n${digest}\n- CHÚ Ý ĐẶC BIỆT: Khung phân phối chương trình KNTT trên ĐƯỢC CUNG CẤP ĐỂ BẠN XÂY DỰNG MA TRẬN VÀ RA CÂU HỎI LUYỆN TỪ VÀ CÂU, CHÍNH TẢ VÀ TẬP LÀM VĂN. TUYỆT ĐỐI KHÔNG LẤY CÁC BÀI ĐỌC CỦA KNTT CHO PHẦN ĐỌC! PHẦN ĐỌC BẮT BUỘC PHẢI LẤY 100% TỪ BỘ SÁCH CHÂN TRỜI SÁNG TẠO (CTST) ĐÃ SỐ HÓA Ở MỤC DƯỚI ĐÂY!`;
+          sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT) TRONG PHẠM VI KIỂM TRA (DÙNG CHO LUYỆN TỪ VÀ CÂU, CHÍNH TẢ & VIẾT):\n${digest}\n- NGUYÊN TẮC BẮT BUỘC 100%:\n  + Toàn bộ kiến thức Luyện từ và câu, Chính tả và Viết đoạn/Bài văn BẮT BUỘC PHẢI BÁM SÁT 100% các bài học và tuần nằm trong khoảng thời gian kiểm tra ở trên. TUYỆT ĐỐI KHÔNG SUY LUẬN BỪA ngoài các tuần đã quy định.\n  + ĐỐI VỚI PHẦN ĐỌC: Tuân thủ quy định kiểm tra định kỳ lấy ngữ liệu ngoài SGK KNTT, BẮT BUỘC lấy ngữ liệu từ bộ sách Chân trời sáng tạo (CTST) được cung cấp ở mục dưới!`;
         } else {
-          sgkContext = `\n- NỘI DUNG SÁCH GIÁO KHOA SỐ HÓA [KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT)] THEO PHẠM VI RA ĐỀ:\n${digest}\n- YÊU CẦU: Khung ma trận, các bài toán, câu hỏi trắc nghiệm, kiến thức Luyện từ và câu/Tập làm văn PHẢI bám sát phân phối chương trình của SGK Kết nối tri thức với cuộc sống (KNTT) được cung cấp ở trên.`;
+          sgkContext = `\n- MẠCH KIẾN THỨC VÀ NỘI DUNG CHƯƠNG TRÌNH SGK SỐ HÓA [KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (KNTT)] NẰM TRONG KHOẢNG THỜI GIAN KIỂM TRA:\n${digest}\n- NGUYÊN TẮC BẢO ĐẢM NỘI DUNG CHUẨN XÁC 100% (CHỐNG SUY LUẬN BỪA):\n  + Toàn bộ ma trận, các câu hỏi trắc nghiệm và bài tập tự luận BẮT BUỘC PHẢI BÁM SÁT 100% mạch kiến thức và các bài học trong khoảng thời gian kiểm tra được cung cấp ở trên.\n  + TUYỆT ĐỐI KHÔNG tự suy luận bừa, KHÔNG lấy kiến thức của các tuần nằm ngoài phạm vi kiểm tra đã quy định (ví dụ: đề Giữa học kỳ 1 Tuần 1-9 tuyệt đối không lấy kiến thức Tuần 10 trở đi; đề Cuối học kỳ 1 Tuần 10-18 tuyệt đối không lấy kiến thức Học kỳ 2; v.v.).`;
         }
       }
     }
@@ -2565,7 +2573,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
    */
   callGeminiApi: async function(apiKey, prompt, options) {
     var opt = options || {};
-    var models = ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.6-flash", "gemini-2.5-flash", "gemini-flash-latest"];
+    var models = ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-2.5-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -2581,7 +2589,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         }
 
         var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
-        var timeoutId = controller ? setTimeout(function() { controller.abort(); }, 30000) : null;
+        var timeoutId = controller ? setTimeout(function() { controller.abort(); }, 8000) : null;
         var fetchOpts = {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -2677,41 +2685,86 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
     var r = parseInt(rate, 10) || 50;
     var guide = '';
 
+    // Phân mức nhận thức / đáp ứng theo tỉ lệ % (từ 30% đến 70%+)
+    var levelDescription = '';
+    if (r <= 40) {
+      levelDescription = `MỨC ĐỘ ĐÁP ỨNG: Khoảng ${r}% (Hạn chế nhiều / Mức độ nặng)
+  + Nguyên tắc giảm tải: Tinh giản tối đa; tập trung vào tri giác trực quan trực tiếp, nhận biết tối thiểu (chỉ tranh, gọi tên, đếm các số nhỏ) và làm quen với sự trợ giúp trực tiếp (cầm tay chỉ việc) của giáo viên hoặc đồ dùng trực quan cỡ lớn.
+  + Định lượng bài tập: Chỉ yêu cầu hoàn thành 1 câu hoặc 1 ý nhận biết cơ bản nhất của Bài 1; miễn hoàn toàn các bài giải toán, tính toán phức tạp hay đọc viết dài.`;
+    } else if (r >= 65) {
+      levelDescription = `MỨC ĐỘ ĐÁP ỨNG: Khoảng ${r}% (Mức độ nhẹ / Tiếp thu khá)
+  + Nguyên tắc phân hóa: Học sinh nắm được kiến thức cốt lõi (chuẩn Bloom mức 1 và một phần mức 2); tự thực hiện bài tập nhận biết và bước đầu thông hiểu cơ bản với sự gợi ý của bạn học.
+  + Định lượng bài tập: Hoàn thành khoảng ${r}% khối lượng bài tập cơ bản trong SGK (làm trọn vẹn Bài 1, Bài 2 dạng cơ bản và 1 câu đơn giản của bài toán 1 bước tính); rèn luyện tính tự giác, tự chủ.`;
+    } else {
+      levelDescription = `MỨC ĐỘ ĐÁP ỨNG: Khoảng ${r}% (Mức độ trung bình - Phổ biến nhất trong giáo dục hòa nhập)
+  + Nguyên tắc giảm tải: Hạ bậc chuẩn nhận thức từ thông hiểu, vận dụng xuống mức NHẬN BIẾT CƠ BẢN và LÀM THEO MẪU (Bloom mức 1) với đồ dùng trực quan và bạn kèm cặp.
+  + Định lượng bài tập: Hoàn thành khoảng ${r}% khối lượng bài tập nhận biết cơ bản trong SGK (Bài 1 hoặc Bài 2 dạng cơ bản theo mẫu); miễn các bài toán giải có lời văn 2-3 bước, tính thuận tiện hay nâng cao.`;
+    }
+
     if (type === 'van_dong') {
-      guide = `DẠNG TẬT: Khuyết tật vận động (Hạn chế viết, vẽ, thao tác chân tay)
-- NGUYÊN TẮC SƯ PHẠM ĐẶC BIỆT QUAN TRỌNG: Khả năng nhận thức, tư duy và trí tuệ của học sinh hoàn toàn bình thường. TUYỆT ĐỐI KHÔNG hạ thấp yêu cầu nhận thức bài học xuống mức cảm tính của trẻ nhỏ.
+      guide = `DẠNG TẬT: Khuyết tật vận động (Hạn chế vận động tay chân, khó cầm bút viết/vẽ hoặc thao tác thực hành)
+- ${levelDescription}
+- NGUYÊN TẮC SƯ PHẠM ĐẶC BIỆT: Khả năng nhận thức, tư duy và trí tuệ của học sinh HOÀN TOÀN BÌNH THƯỜNG. TUYỆT ĐỐI KHÔNG hạ thấp yêu cầu tư duy của bài học.
 - ĐIỀU CHỈNH PHƯƠNG THỨC THỰC HIỆN & THỜI GIAN:
-  + Cho phép học sinh trả lời miệng, chọn thẻ chữ/thẻ số hoặc chỉ vào bảng phụ thay vì phải viết đoạn văn dài hay vẽ hình phức tạp.
-  + Gia hạn thêm thời gian làm bài; đối với phần viết chỉ yêu cầu hoàn thành câu ngắn hoặc cụm từ khóa trọng tâm.
-  + Trong các hoạt động thực hành, thí nghiệm (Toán, Khoa học, Mỹ thuật, Thủ công): Học sinh tham gia cùng nhóm bạn; bạn cùng nhóm hỗ trợ các thao tác cầm nắm, vận động phức tạp; học sinh thực hiện phần việc quan sát, trả lời hoặc thao tác vừa sức.`;
+  + Cho phép học sinh trả lời miệng, chỉ bảng phụ, chọn thẻ chữ/thẻ số thay vì phải viết đoạn văn dài hay vẽ hình, kẻ bảng phức tạp.
+  + Giảm bớt khối lượng viết vẽ tương ứng mức độ vận động ${r}%; gia hạn thêm thời gian làm bài; phần viết chỉ yêu cầu hoàn thành câu ngắn hoặc từ khóa.
+  + Trong các hoạt động thực hành, thí nghiệm (Toán, Khoa học, Mỹ thuật, Thủ công): Học sinh tham gia cùng nhóm bạn; bạn cùng nhóm hỗ trợ các thao tác cầm nắm, vận động; học sinh thực hiện phần việc tư duy, quan sát, trả lời hoặc thao tác vừa sức.
+- YÊU CẦU 2 Ý BẮT BUỘC:
+  - Năng lực đặc thù: Đạt chuẩn kiến thức của bài học; điều chỉnh phương thức làm bài (trả lời miệng, chọn thẻ, giảm khối lượng viết/thao tác phù hợp mức vận động ${r}%).
+  - Phẩm chất, năng lực chung: Rèn luyện nghị lực vượt khó, tự tin thể hiện suy nghĩ và tích cực phối hợp cùng bạn bè trong nhóm.`;
     } else if (type === 'nghe_noi' || type === 'khiem_thinh') {
-      guide = `DẠNG TẬT: Khuyết tật nghe - nói (Khiếm thính, khó phát âm, giao tiếp hạn chế)
-- NGUYÊN TẮC SƯ PHẠM: Tăng cường tối đa kênh thị giác trực quan (hình ảnh, sơ đồ, thẻ chữ in sẵn, cử chỉ/ngôn ngữ cơ thể).
+      guide = `DẠNG TẬT: Khuyết tật nghe - nói (Khiếm thính, khó phát âm, hạn chế giao tiếp bằng lời)
+- ${levelDescription}
+- NGUYÊN TẮC SƯ PHẠM: Tối ưu hóa kênh thị giác trực quan (hình ảnh, sơ đồ, thẻ chữ/số in sẵn, khẩu hình, cử chỉ).
 - ĐIỀU CHỈNH PHƯƠNG THỨC:
-  + Cho phép học sinh thể hiện sự hiểu biết bằng hành động: chỉ vào tranh, nối thẻ từ, viết hoặc vẽ câu trả lời ra bảng con/phiếu học tập, gật đầu hoặc chọn đáp án trực quan thay vì bắt buộc phát biểu hoặc đọc to trước lớp.
-  + Khuyến khích sự kiên nhẫn, tạo không khí giao tiếp cởi mở, thân thiện trong nhóm bạn.`;
+  + Cho phép học sinh thể hiện sự hiểu bài bằng hành động: chỉ vào tranh, ghép/nối thẻ từ, viết hoặc vẽ câu trả lời ra bảng con/phiếu học tập, chọn đáp án trực quan thay vì bắt buộc phát biểu hoặc đọc to trước lớp.
+  + Với môn Tiếng Việt: Tập trung vào đọc hiểu qua tranh, nhìn chép từ ngữ trên phiếu; với môn Toán: thao tác trực quan trên thẻ số, bảng gài.
+- YÊU CẦU 2 Ý BẮT BUỘC:
+  - Năng lực đặc thù: Tiếp thu kiến thức qua kênh thị giác trực quan; thể hiện kết quả học tập bằng hành động chỉ tranh, viết bảng con hoặc chọn thẻ đáp án theo mức độ tiếp nhận ${r}%.
+  - Phẩm chất, năng lực chung: Tự tin giao tiếp qua cử chỉ/bảng con, cởi mở hòa nhập và kiên nhẫn hợp tác cùng bạn học.`;
     } else if (type === 'nhin' || type === 'khiem_thi') {
-      guide = `DẠNG TẬT: Khuyết tật nhìn (Thị lực kém, khiếm thị)
-- NGUYÊN TẮC SƯ PHẠM: Tăng cường tối đa kênh thính giác (chú ý lắng nghe cô giáo hướng dẫn và bạn đọc mẫu) và xúc giác (sờ chạm vật thật, mô hình nổi).
+      guide = `DẠNG TẬT: Khuyết tật nhìn (Thị lực kém, nhìn mờ, cần cỡ chữ lớn hoặc khiếm thị)
+- ${levelDescription}
+- NGUYÊN TẮC SƯ PHẠM: Tối ưu hóa kênh thính giác (lắng nghe cô giáo và bạn đọc mẫu) và xúc giác (sờ chạm vật thật, mô hình nổi, que tính).
 - ĐIỀU CHỈNH PHƯƠNG THỨC:
   + Sử dụng phiếu học tập in chữ to, hình ảnh phóng to có độ tương phản cao; ngồi ở vị trí đủ ánh sáng và gần bảng.
-  + Cho phép học sinh tiếp thu và trả lời qua lời nói, mô tả bằng lời thay vì yêu cầu quan sát chi tiết nhỏ trên tranh.`;
-    } else if (type === 'tu_ky') {
-      guide = `DẠNG TẬT: Rối loạn phổ tự kỉ (Hạn chế tương tác xã hội, nhạy cảm môi trường)
-- NGUYÊN TẮC SƯ PHẠM: Tạo không gian học tập ổn định, chia nhỏ nhiệm vụ thành từng bước rõ ràng kèm hình ảnh trực quan.
-- ĐIỀU CHỈNH: Cho phép học sinh hoàn thành nhiệm vụ cá nhân vừa sức, khích lệ từng tiến bộ nhỏ, tránh tạo áp lực biểu đạt trước đám đông.`;
-    } else if (type === 'khac') {
-      guide = `DẠNG TẬT: Khuyết tật khác / Học sinh học hòa nhập chung
-- NGUYÊN TẮC SƯ PHẠM: Tạo điều kiện hòa nhập tích cực, phân công nhiệm vụ vừa sức theo sở trường của học sinh.
-- ĐIỀU CHỈNH: Giao bài tập ở mức độ nhận biết và thực hành cơ bản; luôn có bạn cùng bàn hỗ trợ, khích lệ và đồng hành.`;
+  + Cho phép học sinh tiếp thu và trả lời qua lời nói, mô tả bằng lời thay vì yêu cầu quan sát chi tiết nhỏ trên tranh; không chấm lỗi trình bày chữ viết/hình vẽ.
+- YÊU CẦU 2 Ý BẮT BUỘC:
+  - Năng lực đặc thù: Tiếp thu bài học qua lời giảng và mô tả của GV/bạn kèm; thao tác trên vật thật, đồ dùng học tập kích thước lớn; trả lời miệng hoặc ghi bảng với chữ số cỡ to theo mức thị lực ${r}%.
+  - Phẩm chất, năng lực chung: Chăm chú lắng nghe, chủ động giao tiếp bằng lời nói và mạnh dạn hợp tác cùng bạn học.`;
+    } else if (type === 'tu_ki' || type === 'tu_ky') {
+      guide = `DẠNG TẬT: Rối loạn phổ tự kỉ / Tăng động giảm chú ý (ADHD) (Hạn chế tương tác xã hội, nhạy cảm môi trường, dễ mất tập trung)
+- ${levelDescription}
+- NGUYÊN TẮC SƯ PHẠM: Tạo không gian học tập ổn định, chia nhỏ nhiệm vụ thành từng bước rõ ràng kèm hình ảnh trực quan (Visual schedule).
+- ĐIỀU CHỈNH PHƯƠNG THỨC:
+  + Cho phép học sinh hoàn thành nhiệm vụ cá nhân vừa sức, khích lệ từng tiến bộ nhỏ, tránh tạo áp lực biểu đạt trước đám đông.
+  + Khi học sinh mất tập trung hoặc quá tải, cho phép nghỉ ngắn hoặc đổi sang thao tác với đồ dùng học tập trực quan.
+- YÊU CẦU 2 Ý BẮT BUỘC:
+  - Năng lực đặc thù: Tiếp nhận nhiệm vụ học tập qua hướng dẫn từng bước kèm hình ảnh trực quan; hoàn thành nhiệm vụ cá nhân vừa sức theo mức đáp ứng ${r}% (nhận biết và làm 1-2 bài tập cơ bản), không gây áp lực biểu đạt trước lớp.
+  - Phẩm chất, năng lực chung: Giữ tâm lý vui vẻ, ổn định cảm xúc, từng bước làm quen và hòa nhập cùng bạn cùng bàn.`;
+    } else if (type === 'khac' || type === 'hoc_tap') {
+      guide = `DẠNG TẬT: Khó khăn học tập đặc thù / Khuyết tật khác / Học sinh hòa nhập chung
+- ${levelDescription}
+- NGUYÊN TẮC SƯ PHẠM: Tạo điều kiện hòa nhập tích cực, phân công nhiệm vụ vừa sức theo sở trường của học sinh; có bạn cùng bàn hỗ trợ (mô hình đôi bạn cùng tiến).
+- ĐIỀU CHỈNH PHƯƠNG THỨC: Giao bài tập ở mức độ nhận biết và thực hành cơ bản; tinh giản các bài tập suy luận trừu tượng hoặc yêu cầu tốc độ nhanh.
+- YÊU CẦU 2 Ý BẮT BUỘC:
+  - Năng lực đặc thù: Nắm được kiến thức cốt lõi của bài học; hoàn thành khoảng ${r}% khối lượng bài tập nhận biết cơ bản với sự hỗ trợ của đồ dùng trực quan hoặc bạn học; giảm tải các bài suy luận phức tạp.
+  - Phẩm chất, năng lực chung: Tự tin, không nản lòng, có ý thức hoàn thành bài tập vừa sức và hòa nhập cùng tập thể lớp.`;
     } else {
       // tri_tue
-      guide = `DẠNG TẬT: Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn) - Mức độ nhận thức ước tính khoảng ${r}% so với chuẩn chung của lớp
-- NGUYÊN TẮC SƯ PHẠM: Tinh giản khối lượng kiến thức; chuyển đổi mục tiêu từ mức độ phân tích, suy luận, vận dụng trừu tượng sang mức độ NHẬN BIẾT TRỰC QUAN và LÀM QUEN với sự hỗ trợ của đồ dùng trực quan, vật thật.
-- BÁM SÁT TRỌNG TÂM CỦA TỪNG BỘ MÔN:
-  + Môn Toán: Thao tác trên que tính, thẻ số, bảng gài để nhận biết số hoặc thực hiện phép tính nhận biết cơ bản (bài tập 1); ghi kết quả vào bảng con cùng bạn.
-  + Môn Tiếng Việt: Đọc trơn tên bài và 1-2 câu ngắn; chỉ đúng tranh nhân vật chính; nhìn mẫu chép lại từ ngữ hoặc câu ngắn trên phiếu học tập.
-  + Môn Khoa học / Lịch sử & Địa lý / TNXH: Quan sát tranh ảnh phóng to hoặc mẫu vật thật; chỉ đúng hình ảnh và nhắc lại từ ngữ trọng tâm của bài.`;
+      guide = `DẠNG TẬT: Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)
+- ${levelDescription}
+- NGUYÊN TẮC ĐỊNH LƯỢNG & GIẢM TẢI ${r}% THEO CHUẨN CV 2345:
+  + Hạ bậc chuẩn nhận thức: Chuyển đổi từ mức độ thông hiểu, vận dụng, suy luận trừu tượng sang mức độ NHẬN BIẾT CƠ BẢN, THAO TÁC TRỰC QUAN và LÀM THEO MẪU với sự trợ giúp của giáo viên, bạn học hoặc đồ dùng học tập trực quan.
+  + Giới hạn phạm vi kiến thức & bài tập cụ thể: Chỉ yêu cầu học sinh làm quen với các số nhỏ, phép tính đơn giản; hoàn thành khoảng ${r}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 dạng cơ bản theo mẫu).
+  + Nêu rõ phần giảm tải: Tuyên bố rõ ràng KHÔNG bắt buộc học sinh phải làm các bài toán giải có lời văn nhiều bước tính, bài tính thuận tiện/tính nhanh hay các bài tập nâng cao.
+- BÁM SÁT ĐẶC THÙ BỘ MÔN:
+  + Môn Toán: Giới hạn rõ phạm vi số (số có 3-4 chữ số / số tròn trăm, tròn nghìn); phép tính đơn giản (không nhớ hoặc nhớ 1 lần trong phạm vi nhỏ); phân số cơ bản (phân số cùng mẫu số / phân số thập phân có mẫu 10, 100); chỉ định rõ hoàn thành khoảng ${r}% bài tập nhận biết ở Bài 1 hoặc Bài 2; không yêu cầu giải toán có lời văn 2-3 bước hay tính thuận tiện.
+  + Môn Tiếng Việt: Đọc trơn tên bài và 1-2 câu ngắn nhất; trả lời câu hỏi nhận biết trực quan trực tiếp; nhìn chép từ ngữ hoặc câu ngắn trên phiếu; không yêu cầu viết đoạn văn dài hay phân tích.
+  + Môn Khoa học, Lịch sử - Địa lý, TNXH, Đạo đức, Công nghệ: Nhận diện, chỉ đúng hình ảnh trực quan và nhắc lại 1-2 từ khóa cốt lõi của bài.
+- YÊU CẦU 2 Ý BẮT BUỘC:
+  - Năng lực đặc thù: [Kiến thức cốt lõi bám sát bài, giới hạn phạm vi, hoàn thành khoảng ${r}% bài tập cơ bản Bài 1/Bài 2 theo mẫu, nêu rõ nội dung giảm tải không bắt buộc].
+  - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và nỗ lực hoàn thành nhiệm vụ vừa sức].`;
     }
 
     if (notes && notes.trim()) {
@@ -2765,7 +2818,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
 
 NHIỆM VỤ:
 Dưới đây là danh sách các bài dạy kèm YÊU CẦU CẦN ĐẠT (YCCĐ) GỐC của từng bài.
-Dựa vào YCCĐ GỐC của TỪNG BÀI DẠY, hãy biên soạn lại đúng 01 câu YCCĐ phân hóa vừa sức, cá nhân hóa, tự nhiên và chuẩn mực sư phạm dành riêng cho học sinh khuyết tật học hòa nhập trong lớp.
+Dựa vào YCCĐ GỐC của TỪNG BÀI DẠY, hãy biên soạn lại nội dung YCCĐ phân hóa chi tiết, định lượng cụ thể theo mức nhận thức ${rate}% (chuẩn Thông tư 03 và CV 2345) dành riêng cho học sinh khuyết tật học hòa nhập trong lớp.
 
 THÔNG TIN HỌC SINH KHUYẾT TẬT:
 - Dạng tật: ${typeName}
@@ -2778,17 +2831,19 @@ ${guidance}
 DANH SÁCH BÀI DẠY VÀ YCCĐ GỐC:
 ${JSON.stringify(itemsToSend, null, 2)}
 
-QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM (CÔNG VĂN 2345):
-1. VĂN PHONG SƯ PHẠM: Ấm áp, chuẩn mực, mang tính khích lệ, tôn trọng sự tiến bộ của học sinh. Tuyệt đối KHÔNG dùng các từ tiêu cực hoặc hạ thấp năng lực học sinh.
-2. DÙNG CÁC ĐỘNG TỪ SƯ PHẠM TÍCH CỰC & VỪA SỨC: "Bước đầu nhận biết...", "Quan sát tranh và chỉ đúng...", "Thao tác trên đồ dùng học tập để...", "Tham gia cùng bạn thực hiện...", "Trả lời miệng hoặc chọn thẻ chữ/thẻ số để...", "Hoàn thành phần việc vừa sức...".
-3. CÂU VĂN HOÀN CHỈNH & TỰ NHIÊN: Câu văn phải hoàn chỉnh ngữ pháp, diễn đạt tự nhiên, mạch lạc, kết thúc bằng dấu chấm. TUYỆT ĐỐI KHÔNG để các cụm từ hỗ trợ trong dấu ngoặc đơn.
-4. BẮT ĐẦU CHÍNH XÁC BẰNG: "- Đối với học sinh khuyết tật: [Nội dung YCCĐ cụ thể, bám sát bài học]."
+QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHI TIẾT & ĐO LƯỜNG ĐƯỢC - CÁCH 2):
+1. VĂN PHONG SƯ PHẠM: Chuẩn mực, ấm áp, khích lệ sự hòa nhập và tiến bộ của học sinh.
+2. CẤU TRÚC BẮT BUỘC CHO MỖI BÀI DẠY PHẢI CÓ ĐỦ 2 GẠCH ĐẦU DÒNG (PHÂN TÁCH BẰNG DẤU XUỐNG DÒNG \\n):
+   - Năng lực đặc thù: [Chỉ rõ kiến thức cốt lõi bám sát bài, giới hạn phạm vi số/kiến thức cụ thể (ví dụ môn Toán: số có bao nhiêu chữ số, phép tính cụ thể nào...), định lượng rõ hoàn thành khoảng ${rate}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 theo mẫu), và loại trừ rõ phần giảm tải không bắt buộc làm (không yêu cầu giải toán có lời văn 2-3 bước tính hay bài tính thuận tiện, bài nâng cao)].
+   - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và có ý thức nỗ lực hoàn thành nhiệm vụ vừa sức].
+3. ĐỊNH DẠNG XUẤT RA CHÍNH XÁC:
+   "- Năng lực đặc thù: [Nội dung chi tiết định lượng bám sát bài]...\\n- Phẩm chất, năng lực chung: [Nội dung hòa nhập, tự tin, hợp tác]..."
 
 HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm mã markdown \`\`\`json):
 [
   {
     "id": 0,
-    "disabilityYccd": "- Đối với học sinh khuyết tật: ..."
+    "disabilityYccd": "- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ..."
   }
 ]`;
 
@@ -2804,7 +2859,6 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         var cleaned = item.disabilityYccd.trim()
           .replace(/[;\s]+$/, '')
           .trim();
-        if (!cleaned.endsWith('.')) cleaned += '.';
         chunkLessons[idx].disabilityYccdAI = cleaned;
       }
     });
@@ -2813,8 +2867,8 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     chunkLessons.forEach(function(les) {
       if (!les.disabilityYccdAI) missingCount++;
     });
-    if (missingCount === chunkLessons.length) {
-      throw new Error('AI không tạo được nội dung YCCĐ cho nhóm bài dạy này.');
+    if (missingCount > 0) {
+      throw new Error('Gemini AI chưa hoàn thành đủ bài dạy trong nhóm (thiếu ' + missingCount + ' bài). Chế độ ngoại tuyến đã bị tắt hoàn toàn, vui lòng thử lại!');
     }
 
     return chunkLessons;

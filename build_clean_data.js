@@ -200,9 +200,7 @@ for (const [folderId, node] of Object.entries(khbdTree.tree)) {
         subjectId: subjectId,
         size: f.size || '1.2 MB',
         folderPath: node.path || node.folder.name,
-        updatedAt: f.updatedAt || '23/08/2026',
-        previewUrl: f.previewUrl || `https://drive.google.com/file/d/${f.id}/preview`,
-        downloadUrl: f.downloadUrl || `https://drive.google.com/uc?export=download&id=${f.id}`
+        updatedAt: f.updatedAt || '23/08/2026'
       };
 
       allFiles.push(item);
@@ -231,9 +229,7 @@ for (const [folderId, node] of Object.entries(bgTree.tree)) {
         subjectId: subjectId,
         size: f.size || '5.5 MB',
         folderPath: node.path || node.folder.name,
-        updatedAt: f.updatedAt || '23/08/2026',
-        previewUrl: f.previewUrl || `https://drive.google.com/file/d/${f.id}/preview`,
-        downloadUrl: f.downloadUrl || `https://drive.google.com/uc?export=download&id=${f.id}`
+        updatedAt: f.updatedAt || '23/08/2026'
       };
 
       allFiles.push(item);
@@ -267,24 +263,36 @@ const GRADES_CONFIG = [
   { grade: 5, name: "Khối 5", color: "#8b5cf6", bg: "#f5f3ff", totalWeeks: 35 }
 ];
 
+// =============================================
+// TỐI ƯU HÓA: Compact JSON, loại bỏ cây thư mục không sử dụng (khbdTree, bgTree, tree)
+// URL preview/download được sinh động từ file ID trong frontend (tiết kiệm ~30% dung lượng mỗi mục)
+// khbdList và pptxList dùng lazy getter thay vì nhân bản dữ liệu từ allFiles
+// =============================================
+
 const output = `/**
  * DATA STORE & LIVE CACHE TỪ 2 KHO GOOGLE DRIVE THỰC TẾ
  * Thầy Lê Thành Long - ${khbdList.length} KHBD + ${pptxList.length} Bài giảng điện tử (Tổng cộng ${allFiles.length} tệp tin)
+ * Phiên bản tối ưu: Compact JSON, không chứa cây thư mục (dùng mảng phẳng allFiles)
  */
 
-var SUBJECTS_CONFIG = ${JSON.stringify(subjectsMap, null, 2)};
+var SUBJECTS_CONFIG = ${JSON.stringify(subjectsMap)};
 
-var GRADES_CONFIG = ${JSON.stringify(GRADES_CONFIG, null, 2)};
+var GRADES_CONFIG = ${JSON.stringify(GRADES_CONFIG)};
 
 var DATABASE = {
   khbdRootId: "1QfjzwxW68pIDgZ4PfDxg71GQZCC0f3o7",
   bgRootId: "1X7iIKONrOBCclAC3qbTwcT3LaZrsDKaK",
-  khbdTree: ${JSON.stringify(khbdTree.tree, null, 2)},
-  bgTree: ${JSON.stringify(bgTree.tree, null, 2)},
-  tree: ${JSON.stringify({ ...khbdTree.tree, ...bgTree.tree }, null, 2)},
-  allFiles: ${JSON.stringify(allFiles, null, 2)},
-  khbdList: ${JSON.stringify(khbdList, null, 2)},
-  pptxList: ${JSON.stringify(pptxList, null, 2)}
+  allFiles: ${JSON.stringify(allFiles)},
+  _khbdCache: null,
+  _pptxCache: null,
+  get khbdList() {
+    if (!this._khbdCache) this._khbdCache = this.allFiles.filter(function(f) { return f.type === 'KHBD'; });
+    return this._khbdCache;
+  },
+  get pptxList() {
+    if (!this._pptxCache) this._pptxCache = this.allFiles.filter(function(f) { return f.type === 'PPTX'; });
+    return this._pptxCache;
+  }
 };
 
 if (typeof window !== 'undefined') {
@@ -300,4 +308,6 @@ if (typeof global !== 'undefined') {
 `;
 
 fs.writeFileSync('js/data.js', output, 'utf8');
-console.log(`Clean js/data.js generated successfully! KHBD: ${khbdList.length}, PPTX: ${pptxList.length}, Total: ${allFiles.length}`);
+const newSize = fs.statSync('js/data.js').size;
+console.log(`✅ Optimized js/data.js generated! KHBD: ${khbdList.length}, PPTX: ${pptxList.length}, Total: ${allFiles.length}`);
+console.log(`📦 New size: ${(newSize / 1024).toFixed(1)} KB (${(newSize / 1024 / 1024).toFixed(2)} MB)`);
