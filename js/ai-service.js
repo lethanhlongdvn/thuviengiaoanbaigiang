@@ -140,6 +140,477 @@ var AIService = {
   },
 
   /**
+   * CẤU HÌNH CỨNG MA TRẬN & MẠCH KIẾN THỨC CHUẨN 100% THEO CHƯƠNG TRÌNH SGK KNTT
+   * Phân chia chuẩn xác từng môn học, từng khối lớp và từng giai đoạn kiểm tra định kỳ (Thông tư 27)
+   */
+  getMasterExamMatrixConfig: function(grade, subjectId, scope) {
+    var g = parseInt(grade) || 5;
+    var sub = (subjectId || "TOAN").toUpperCase().replace("LICH_SU_DIA_LY", "LS_DL");
+    var termInfo = this.resolveExamTermInfo(scope);
+    var isTerm2 = termInfo.term === "HỌC KÌ II";
+    var isMid = termInfo.period.includes("GIỮA");
+
+    // 1. MÔN TOÁN (LỚP 1 - 5): Chuẩn 3 mạch kiến thức của CT GDPT 2018
+    if (sub === "TOAN") {
+      var numDesc = "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn.";
+      var geomDesc = "Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều.";
+      var statDesc = "Thu thập, phân loại số liệu; đọc và phân tích biểu đồ hình quạt tròn, bảng số liệu; khả năng xảy ra của một sự kiện.";
+
+      if (g <= 2) {
+        numDesc = isTerm2 ? "Các số trong phạm vi 100 (lớp 1) hoặc phạm vi 1000 (lớp 2); phép cộng, phép trừ có nhớ; phép nhân, chia (bảng 2, 5); giải toán 1 bước tính." : "Các số trong phạm vi 10, 20 (lớp 1) hoặc phạm vi 100 (lớp 2); phép cộng, phép trừ; so sánh số.";
+        geomDesc = isTerm2 ? "Hình vuông, tròn, tam giác, chữ nhật; điểm, đoạn thẳng, đường thẳng; đơn vị đo cm, dm, m, km; xem đồng hồ, lịch." : "Hình phẳng cơ bản; nhận biết vị trí, định hướng không gian; độ dài đoạn thẳng cm.";
+        statDesc = "Thu thập, phân loại, kiểm đếm số liệu đơn giản; khả năng xảy ra của sự kiện (chắc chắn, có thể, không thể).";
+      } else if (g === 3 || g === 4) {
+        numDesc = isTerm2 ? (g === 3 ? "Các số đến 100 000; 4 phép tính; tính nhẩm, giá trị biểu thức, giải toán." : "Phân số, các phép tính với phân số; dấu hiệu chia hết; tìm hai số khi biết tổng/hiệu và tỉ số.") : (g === 3 ? "Các số đến 10 000; bảng nhân, bảng chia 6, 7, 8, 9; làm quen biểu thức." : "Số có nhiều chữ số; 4 phép tính với số tự nhiên; tính chất giao hoán, kết hợp, phân phối; giải toán tìm số trung bình cộng, tìm hai số khi biết tổng và hiệu.");
+        geomDesc = isTerm2 ? (g === 3 ? "Hình tròn, tâm, bán kính, đường kính; chu vi, diện tích hình chữ nhật, hình vuông; đơn vị đo ml, g, kg, nhiệt độ." : "Hình bình hành, hình thoi; diện tích hình bình hành, hình thoi; đơn vị đo diện tích dm², m², mm²; đơn vị đo thời gian thế kỉ.") : (g === 3 ? "Góc vuông, không vuông; đỉnh, cạnh; hình chữ nhật, hình vuông; đơn vị đo mm, cm, dm, m, km." : "Góc nhọn, tù, bẹt; hai đường thẳng vuông góc, song song; đơn vị đo yến, tạ, tấn, giây, thế kỉ.");
+        statDesc = "Thu thập, phân loại, sắp xếp số liệu; đọc bảng số liệu, biểu đồ tranh, biểu đồ cột; khả năng xảy ra của một sự kiện.";
+      } else if (g === 5) {
+        numDesc = isTerm2 ? "Số thập phân, 4 phép tính với số thập phân; tỉ số phần trăm và các bài toán về tỉ số phần trăm; tính giá trị biểu thức và giải toán có lời văn." : "Ôn tập phân số; số thập phân, hàng của số thập phân; cộng, trừ, nhân, chia số thập phân; tính giá trị biểu thức và giải toán có lời văn.";
+        geomDesc = isTerm2 ? "Hình tròn, chu vi và diện tích hình tròn; hình hộp chữ nhật, hình lập phương: diện tích xung quanh, toàn phần, thể tích (cm³, dm³, m³); toán chuyển động đều (vận tốc, quãng đường, thời gian)." : "Hình tam giác, hình thang: nhận biết các yếu tố và tính diện tích; đơn vị đo diện tích ha, km²; giải toán liên quan đến diện tích.";
+        statDesc = isTerm2 ? "Thu thập, phân loại số liệu; đọc và phân tích bảng số liệu, biểu đồ hình quạt tròn; khả năng xảy ra của một sự kiện trong thực tế." : "Thu thập, phân loại số liệu; đọc và hoàn thiện bảng số liệu thống kê; biểu đồ cột, số liệu trung bình.";
+      }
+
+      return [
+        {
+          key: "so_phep_tinh",
+          topic: "1. Số và phép tính",
+          desc: numDesc,
+          domainKeywords: ["số", "phép tính", "phân số", "thập phân", "tỉ số", "phần trăm", "cộng", "trừ", "nhân", "chia", "giá trị biểu thức", "đặt tính", "tính nhẩm", "tìm x", "giải toán"],
+          targetRatio: 0.50
+        },
+        {
+          key: "hinh_hoc_do_luong",
+          topic: "2. Hình học và Đo lường",
+          desc: geomDesc,
+          domainKeywords: ["hình", "chu vi", "diện tích", "thể tích", "tam giác", "thang", "tròn", "hộp chữ nhật", "lập phương", "bán kính", "đường kính", "chiều cao", "vận tốc", "quãng đường", "thời gian", "chuyển động", "đơn vị đo", "ha", "m²", "cm²", "m³", "dm³", "lít"],
+          targetRatio: 0.35
+        },
+        {
+          key: "thong_ke_xac_suat",
+          topic: "3. Một số yếu tố Thống kê và Xác suất",
+          desc: statDesc,
+          domainKeywords: ["thống kê", "xác suất", "biểu đồ", "quạt tròn", "bảng số liệu", "kiểm đếm", "khả năng", "sự kiện", "chắc chắn", "có thể", "không thể", "xúc xắc", "đồng xu"],
+          targetRatio: 0.15
+        }
+      ];
+    }
+
+    // 2. MÔN KHOA HỌC (LỚP 4, LỚP 5)
+    if (sub === "KHOA_HOC") {
+      if (g === 5) {
+        if (!isTerm2) {
+          // HK1 Lớp 5
+          return [
+            {
+              key: "kh5_chat",
+              topic: "Chủ đề 1. Chất",
+              desc: "Thành phần và vai trò của đất đối với cây trồng; ô nhiễm, xói mòn và bảo vệ môi trường đất; hỗn hợp và dung dịch; đặc điểm chất rắn, lỏng, khí và biến đổi trạng thái; sự biến đổi hoá học của chất (Bài 1 - 6).",
+              domainKeywords: ["chất", "đất", "thành phần của đất", "vai trò của đất", "ô nhiễm đất", "xói mòn", "bảo vệ đất", "hỗn hợp", "dung dịch", "trạng thái", "rắn", "lỏng", "khí", "biến đổi trạng thái", "biến đổi hoá học", "biến đổi hóa học"],
+              targetRatio: 0.35
+            },
+            {
+              key: "kh5_nang_luong",
+              topic: "Chủ đề 2. Năng lượng",
+              desc: "Vai trò của năng lượng; sử dụng năng lượng điện; mạch điện đơn giản, vật dẫn điện và vật cách điện; năng lượng chất đốt; sử dụng năng lượng mặt trời, gió, nước chảy (Bài 7 - 12).",
+              domainKeywords: ["năng lượng", "vai trò năng lượng", "điện", "sử dụng điện", "mạch điện", "pin", "dây dẫn", "bóng đèn", "vật dẫn điện", "vật cách điện", "chất đốt", "than đá", "dầu mỏ", "khí đốt", "năng lượng mặt trời", "năng lượng gió", "nước chảy"],
+              targetRatio: 0.35
+            },
+            {
+              key: "kh5_thuc_vat_dong_vat",
+              topic: "Chủ đề 3. Thực vật và động vật",
+              desc: "Sinh sản của thực vật có hoa; sự phát triển của cây con; sinh sản của động vật; vòng đời và sự phát triển của động vật (Bài 13 - 16).",
+              domainKeywords: ["thực vật có hoa", "hoa", "nhị", "nhụy", "thụ phấn", "thụ tinh", "quả", "hạt", "cây con", "nảy mầm", "phát triển của cây", "sinh sản của động vật", "thụ tinh động vật", "đẻ trứng", "đẻ con", "vòng đời", "sâu", "bướm", "ấu trùng", "nòng nọc", "ếch"],
+              targetRatio: 0.30
+            }
+          ];
+        } else if (isMid) {
+          // Giữa HK2 Lớp 5
+          return [
+            {
+              key: "kh5_thuc_vat_dong_vat_on",
+              topic: "Chủ đề 3. Thực vật và động vật (Ôn tập)",
+              desc: "Củng cố kiến thức sinh sản của thực vật có hoa, hạt nảy mầm và vòng đời phát triển của động vật (Bài 17).",
+              domainKeywords: ["thực vật", "động vật", "hoa", "hạt", "thụ phấn", "vòng đời", "đẻ trứng", "đẻ con", "biến thái"],
+              targetRatio: 0.30
+            },
+            {
+              key: "kh5_vi_khuan",
+              topic: "Chủ đề 4. Vi khuẩn",
+              desc: "Vi khuẩn xung quanh chúng ta; vi khuẩn có ích trong chế biến thực phẩm; vi khuẩn gây bệnh ở người và cách phòng tránh (Bài 18 - 21).",
+              domainKeywords: ["vi khuẩn", "kính hiển vi", "vi sinh vật", "lên men", "chế biến thực phẩm", "sữa chua", "muối dưa", "vi khuẩn có ích", "vi khuẩn gây bệnh", "tiêu chảy", "rửa tay", "xà phòng", "thức ăn ôi thiu", "bảo quản thực phẩm"],
+              targetRatio: 0.35
+            },
+            {
+              key: "kh5_con_nguoi_suc_khoe",
+              topic: "Chủ đề 5. Con người và sức khỏe",
+              desc: "Sự hình thành cơ thể người; các giai đoạn phát triển chính của con người; nam và nữ; chăm sóc sức khỏe tuổi dậy thì (Bài 22 - 25).",
+              domainKeywords: ["con người", "cơ thể người", "thụ tinh", "trứng", "tinh trùng", "thai nhi", "giai đoạn phát triển", "tuổi dậy thì", "dậy thì", "nam và nữ", "mụn trứng cá", "tuyến mồ hôi", "chiều cao", "vệ sinh tuổi dậy thì"],
+              targetRatio: 0.35
+            }
+          ];
+        } else {
+          // Cuối HK2 / Cuối năm Lớp 5 (Chuẩn 4 chủ đề SGK KNTT bao quát 100%)
+          return [
+            {
+              key: "kh5_thuc_vat_dong_vat",
+              topic: "Chủ đề 3. Thực vật và động vật",
+              desc: "Sinh sản của thực vật có hoa, sự phát triển của hạt mọc thành cây; sinh sản và vòng đời phát triển của động vật (Bài 13 - 17).",
+              domainKeywords: ["thực vật có hoa", "nhị", "nhụy", "thụ phấn", "thụ tinh hoa", "hạt mọc thành cây", "bộ phận của hạt", "nảy mầm", "sinh sản động vật", "đẻ trứng", "đẻ con", "vòng đời của bướm", "vòng đời của ếch", "vòng đời động vật", "ấu trùng"],
+              targetRatio: 0.20
+            },
+            {
+              key: "kh5_vi_khuan",
+              topic: "Chủ đề 4. Vi khuẩn",
+              desc: "Đặc điểm, kích thước vi khuẩn; vi khuẩn có ích trong chế biến thực phẩm (muối dưa, làm sữa chua); vi khuẩn gây bệnh ở người và biện pháp phòng tránh, bảo quản thực phẩm (Bài 18 - 21).",
+              domainKeywords: ["vi khuẩn", "kính hiển vi", "vi sinh vật", "lên men", "chế biến thực phẩm", "sữa chua", "muối dưa", "vi khuẩn có ích", "vi khuẩn gây bệnh", "phòng bệnh do vi khuẩn", "rửa tay", "xà phòng", "thức ăn ôi thiu", "bảo quản thực phẩm", "tủ lạnh", "đun sôi"],
+              targetRatio: 0.25
+            },
+            {
+              key: "kh5_con_nguoi_suc_khoe",
+              topic: "Chủ đề 5. Con người và sức khỏe",
+              desc: "Sự hình thành cơ thể người; các giai đoạn phát triển chính của con người; nam và nữ; chăm sóc sức khỏe tuổi dậy thì; phòng tránh bị xâm hại (Bài 22 - 27).",
+              domainKeywords: ["cơ thể người", "thụ tinh", "trứng và tinh trùng", "thai nhi", "giai đoạn phát triển", "tuổi dậy thì", "dậy thì", "nam và nữ", "mụn trứng cá", "tuyến mồ hôi", "vệ sinh cá nhân", "phòng tránh bị xâm hại", "xâm hại", "quy tắc đồ lót", "vùng riêng tư", "an toàn cơ thể"],
+              targetRatio: 0.25
+            },
+            {
+              key: "kh5_sinh_vat_moi_truong",
+              topic: "Chủ đề 6. Sinh vật và môi trường",
+              desc: "Chức năng của môi trường đối với sinh vật; tác động của con người đến môi trường và một số biện pháp bảo vệ môi trường, bảo vệ nguồn nước sạch và ứng phó hạn mặn (Bài 28 - 30).",
+              domainKeywords: ["sinh vật và môi trường", "chức năng của môi trường", "cung cấp tài nguyên", "nơi chứa rác thải", "tác động của con người", "bảo vệ môi trường", "ô nhiễm môi trường", "rác thải", "nguồn nước", "nước sạch", "nước mặn", "xâm nhập mặn", "hạn mặn", "trữ nước ngọt", "trồng cây", "dòng sông quê hương"],
+              targetRatio: 0.30
+            }
+          ];
+        }
+      } else if (g === 4) {
+        if (!isTerm2) {
+          // HK1 Lớp 4
+          return [
+            {
+              key: "kh4_chat",
+              topic: "Chủ đề 1. Chất",
+              desc: "Tính chất của nước, sự chuyển thể và vòng tuần hoàn của nước; sự ô nhiễm và bảo vệ nguồn nước; tính chất và thành phần không khí; vai trò của không khí và gió bão (Bài 1 - 7).",
+              domainKeywords: ["chất", "nước", "tính chất của nước", "chuyển thể của nước", "vòng tuần hoàn của nước", "bảo vệ nguồn nước", "làm sạch nước", "không khí", "tính chất không khí", "thành phần không khí", "ôxi", "vai trò không khí", "gió", "bão", "phòng chống bão"],
+              targetRatio: 0.40
+            },
+            {
+              key: "kh4_nang_luong",
+              topic: "Chủ đề 2. Năng lượng",
+              desc: "Ánh sáng và sự truyền ánh sáng, vai trò của ánh sáng; âm thanh và sự truyền âm thanh; nhiệt độ, sự truyền nhiệt và vật dẫn nhiệt (Bài 8 - 14).",
+              domainKeywords: ["năng lượng", "ánh sáng", "truyền ánh sáng", "bóng tối", "vai trò ánh sáng", "âm thanh", "truyền âm thanh", "rung động", "nhiệt độ", "nhiệt kế", "sự truyền nhiệt", "vật dẫn nhiệt tốt", "vật dẫn nhiệt kém"],
+              targetRatio: 0.35
+            },
+            {
+              key: "kh4_thuc_vat_dong_vat",
+              topic: "Chủ đề 3. Thực vật và động vật",
+              desc: "Nhu cầu sống của thực vật; nhu cầu sống của động vật; chăm sóc cây trồng và vật nuôi (Bài 15 - 18).",
+              domainKeywords: ["thực vật", "động vật", "nhu cầu sống của thực vật", "nước", "chất khoáng", "quang hợp", "nhu cầu sống của động vật", "thức ăn", "chăm sóc cây trồng", "chăm sóc vật nuôi"],
+              targetRatio: 0.25
+            }
+          ];
+        } else {
+          // Cuối HK2 Lớp 4
+          return [
+            {
+              key: "kh4_nam",
+              topic: "Chủ đề 4. Nấm",
+              desc: "Đặc điểm chung của nấm; nấm ăn và nấm trong chế biến thực phẩm; nấm gây hỏng thực phẩm và nấm độc (Bài 19 - 22).",
+              domainKeywords: ["nấm", "đặc điểm của nấm", "mũ nấm", "thân nấm", "chân nấm", "nấm rơm", "nấm mộc nhĩ", "nấm hương", "nấm men", "nấm mốc", "hỏng thực phẩm", "nấm độc", "ngộ độc nấm"],
+              targetRatio: 0.30
+            },
+            {
+              key: "kh4_con_nguoi_suc_khoe",
+              topic: "Chủ đề 5. Con người và sức khỏe",
+              desc: "Vai trò của chất dinh dưỡng đối với cơ thể; chế độ ăn uống cân bằng; một số bệnh liên quan đến dinh dưỡng; thực phẩm an toàn; phòng tránh đuối nước (Bài 23 - 28).",
+              domainKeywords: ["chất dinh dưỡng", "chất bột đường", "chất đạm", "chất béo", "vitamin", "chất khoáng", "ăn uống cân bằng", "tháp dinh dưỡng", "béo phì", "suy dinh dưỡng", "thiếu máu", "thực phẩm an toàn", "phòng tránh đuối nước", "đuối nước"],
+              targetRatio: 0.40
+            },
+            {
+              key: "kh4_sinh_vat_moi_truong",
+              topic: "Chủ đề 6. Sinh vật và môi trường",
+              desc: "Chuỗi thức ăn trong tự nhiên; vai trò của thực vật trong chuỗi thức ăn; mối quan hệ dinh dưỡng giữa các loài sinh vật (Bài 29 - 31).",
+              domainKeywords: ["sinh vật và môi trường", "chuỗi thức ăn", "mắt xích", "sinh vật sản xuất", "sinh vật tiêu thụ", "vai trò của thực vật", "cỏ", "thỏ", "cáo", "mối quan hệ dinh dưỡng"],
+              targetRatio: 0.30
+            }
+          ];
+        }
+      }
+    }
+
+    // 3. MÔN LỊCH SỬ VÀ ĐỊA LÍ (LỚP 4, LỚP 5)
+    if (sub === "LICH_SU_DIA_LY" || sub === "LS_DL") {
+      if (g === 5) {
+        if (!isTerm2) {
+          // HK1 Lớp 5
+          return [
+            {
+              key: "lsdl5_dat_nuoc_con_nguoi",
+              topic: "Chủ đề 1. Đất nước và con người Việt Nam",
+              desc: "Vị trí địa lí, lãnh thổ, đơn vị hành chính, Quốc kì, Quốc huy, Quốc ca; thiên nhiên, biển đảo, dân cư và các dân tộc Việt Nam (Bài 1 - 4).",
+              domainKeywords: ["vị trí địa lí", "lãnh thổ", "quốc kì", "quốc huy", "quốc ca", "thiên nhiên việt nam", "địa hình", "khí hậu", "sông ngòi", "biển đảo", "hoàng sa", "trường sa", "dân cư", "dân tộc", "kinh", "bản đồ"],
+              targetRatio: 0.35
+            },
+            {
+              key: "lsdl5_quoc_gia_dau_tien",
+              topic: "Chủ đề 2. Những quốc gia đầu tiên trên lãnh thổ Việt Nam",
+              desc: "Nhà nước Văn Lang, Nhà nước Âu Lạc; Vương quốc Phù Nam; Vương quốc Chăm-pa (Bài 5 - 7).",
+              domainKeywords: ["văn lang", "âu lạc", "hùng vương", "an dương vương", "thành cổ loa", "trống đồng đông sơn", "phù nam", "chăm-pa", "óc eo", "tháp chàm", "quốc gia đầu tiên"],
+              targetRatio: 0.30
+            },
+            {
+              key: "lsdl5_xay_dung_bao_ve",
+              topic: "Chủ đề 3. Xây dựng và bảo vệ đất nước (Thế kỉ X - 1945)",
+              desc: "Đấu tranh thời Bắc thuộc; Triều Lý và định đô Thăng Long; Triều Trần và kháng chiến chống Mông - Nguyên; Khởi nghĩa Lam Sơn và Triều Hậu Lê; Triều Nguyễn; Cách mạng tháng Tám năm 1945 (Bài 8 - 14).",
+              domainKeywords: ["bắc thuộc", "khởi nghĩa hai bà trưng", "ngô quyền", "bạch đằng", "triều lý", "lý thái tổ", "dời đô", "thăng long", "lý thường kiệt", "triều trần", "trần hưng đạo", "mông - nguyên", "hội nghị diên hồng", "lam sơn", "lê lợi", "nguyễn trãi", "hậu lê", "triều nguyễn", "cách mạng tháng tám", "bác hồ", "tuyên ngôn độc lập"],
+              targetRatio: 0.35
+            }
+          ];
+        } else {
+          // Cuối HK2 Lớp 5
+          return [
+            {
+              key: "lsdl5_bao_ve_doi_moi",
+              topic: "Chủ đề 3. Bảo vệ đất nước và Đất nước Đổi mới (1945 đến nay)",
+              desc: "Chiến dịch Điện Biên Phủ năm 1954; Chiến dịch Hồ Chí Minh lịch sử năm 1975 giải phóng miền Nam, thống nhất đất nước; Công cuộc Đổi mới đất nước từ 1986 đến nay (Bài 15 - 17).",
+              domainKeywords: ["điện biên phủ", "1954", "chiến thắng điện biên phủ", "đại tướng võ nguyên giáp", "chiến dịch hồ chí minh", "1975", "giải phóng miền nam", "thống nhất đất nước", "đổi mới", "đất nước đổi mới", "công nghiệp hóa", "hiện đại hóa"],
+              targetRatio: 0.35
+            },
+            {
+              key: "lsdl5_cac_nuoc_lang_gieng",
+              topic: "Chủ đề 4. Các nước láng giềng",
+              desc: "Nước Cộng hòa Nhân dân Trung Hoa; Nước CHDCND Lào; Vương quốc Cam-pu-chia; Hiệp hội các quốc gia Đông Nam Á (ASEAN) (Bài 18 - 21).",
+              domainKeywords: ["trung quốc", "bắc kinh", "vạn lí trường thành", "lào", "viêng chăn", "luông-pha-bang", "cam-pu-chia", "phnôm phênh", "ăng-co vát", "asean", "hiệp hội các quốc gia đông nam á", "đông nam á", "láng giềng"],
+              targetRatio: 0.35
+            },
+            {
+              key: "lsdl5_the_gioi_chung_tay",
+              topic: "Chủ đề 5 & 6. Tìm hiểu thế giới và Chung tay xây dựng thế giới",
+              desc: "Các châu lục và đại dương trên thế giới; dân số và các chủng tộc; nền văn minh Ai Cập và Hy Lạp cổ đại; xây dựng thế giới xanh - sạch - đẹp và thế giới hòa bình (Bài 22 - 28).",
+              domainKeywords: ["châu lục", "đại dương", "châu á", "châu âu", "châu phi", "châu mĩ", "châu đại dương", "châu nam cực", "thái bình dương", "ấn độ dương", "đại tây dương", "bắc băng dương", "dân số thế giới", "chủng tộc", "ai cập", "kim tự tháp", "hy lạp", "thế giới xanh", "hòa bình"],
+              targetRatio: 0.30
+            }
+          ];
+        }
+      } else if (g === 4) {
+        if (!isTerm2) {
+          // HK1 Lớp 4
+          return [
+            {
+              key: "lsdl4_dia_phuong",
+              topic: "Chủ đề 1. Địa phương em",
+              desc: "Vị trí địa lí, tự nhiên, dân cư, lịch sử và văn hóa truyền thống của địa phương em (Bài 1 - 3).",
+              domainKeywords: ["địa phương em", "tỉnh", "thành phố", "vị trí địa lí", "thiên nhiên địa phương", "lịch sử địa phương", "truyền thống văn hóa"],
+              targetRatio: 0.30
+            },
+            {
+              key: "lsdl4_trung_du_mien_nui_bac_bo",
+              topic: "Chủ đề 2. Trung du và miền núi Bắc Bộ",
+              desc: "Thiên nhiên, dân cư và hoạt động sản xuất; Đền Hùng và Lễ giỗ Tổ Hùng Vương; Chiến dịch Điện Biên Phủ (Bài 4 - 7).",
+              domainKeywords: ["trung du và miền núi bắc bộ", "hoàng liên sơn", "fansipan", "ruộng bậc thang", "thủy điện hòa bình", "đền hùng", "giỗ tổ hùng vương", "phú thọ"],
+              targetRatio: 0.35
+            },
+            {
+              key: "lsdl4_dong_bang_bac_bo",
+              topic: "Chủ đề 3. Đồng bằng Bắc Bộ",
+              desc: "Thiên nhiên và con người; làng quê truyền thống; Thăng Long - Hà Nội; Văn Miếu - Quốc Tử Giám (Bài 8 - 11).",
+              domainKeywords: ["đồng bằng bắc bộ", "sông hồng", "đê sông hồng", "hà nội", "thăng long", "văn miếu", "quốc tử giám", "làng quê bắc bộ"],
+              targetRatio: 0.35
+            }
+          ];
+        } else {
+          // Cuối HK2 Lớp 4
+          return [
+            {
+              key: "lsdl4_duyen_hai_mientrung",
+              topic: "Chủ đề 4. Vùng Duyên hải miền Trung",
+              desc: "Thiên nhiên và dân cư vùng Duyên hải miền Trung; Cố đô Huế; Phố cổ Hội An (Bài 12 - 16).",
+              domainKeywords: ["duyên hải miền trung", "bờ biển miền trung", "cố đô huế", "sông hương", "kinh thành huế", "phố cổ hội an", "quảng nam", "di sản"],
+              targetRatio: 0.35
+            },
+            {
+              key: "lsdl4_tay_nguyen",
+              topic: "Chủ đề 5. Vùng Tây Nguyên",
+              desc: "Thiên nhiên, cao nguyên xếp tầng; Không gian văn hóa Cồng chiêng Tây Nguyên; Lễ hội cồng chiêng (Bài 17 - 20).",
+              domainKeywords: ["tây nguyên", "cao nguyên", "đất đỏ badan", "cà phê", "cồng chiêng tây nguyên", "nhà rông", "lễ hội đâm trâu", "lễ hội cồng chiêng"],
+              targetRatio: 0.30
+            },
+            {
+              key: "lsdl4_nam_bo",
+              topic: "Chủ đề 6. Vùng Nam Bộ",
+              desc: "Thiên nhiên vùng đất Nam Bộ; Thành phố Hồ Chí Minh; Địa đạo Củ Chi (Bài 21 - 25).",
+              domainKeywords: ["nam bộ", "đồng bằng sông cửu long", "sông đồng nai", "thành phố hồ chí minh", "sài gòn", "địa đạo củ chi", "chợ nổi", "miền tây"],
+              targetRatio: 0.35
+            }
+          ];
+        }
+      }
+    }
+
+    // 4. MÔN CÔNG NGHỆ (LỚP 4, LỚP 5)
+    if (sub === "CONG_NGHE") {
+      if (g === 5) {
+        if (!isTerm2) {
+          return [
+            {
+              key: "cn5_doi_song_sang_che",
+              topic: "Chủ đề 1. Công nghệ và đời sống & Nhà sáng chế",
+              desc: "Vai trò của công nghệ đối với đời sống con người; các nhà sáng chế tiêu biểu và phát minh của họ (Bài 1, 2).",
+              domainKeywords: ["công nghệ", "vai trò công nghệ", "nhà sáng chế", "sáng chế", "ê-đi-xơn", "phát minh", "bóng đèn", "sản phẩm công nghệ"],
+              targetRatio: 0.35
+            },
+            {
+              key: "cn5_thiet_ke",
+              topic: "Chủ đề 2. Thiết kế và đánh giá sản phẩm công nghệ",
+              desc: "Tìm hiểu quy trình thiết kế; thực hành thiết kế sản phẩm công nghệ đơn giản (Bài 3, 4).",
+              domainKeywords: ["thiết kế", "tìm hiểu thiết kế", "thiết kế sản phẩm", "quy trình thiết kế", "bản vẽ", "vật liệu thiết kế", "đánh giá sản phẩm"],
+              targetRatio: 0.35
+            },
+            {
+              key: "cn5_su_dung_dien_thoai",
+              topic: "Chủ đề 3. Sử dụng công nghệ an toàn (Điện thoại)",
+              desc: "Tác dụng của điện thoại; cách sử dụng điện thoại thông minh an toàn, tiết kiệm và có văn hóa (Bài 5).",
+              domainKeywords: ["điện thoại", "sử dụng điện thoại", "điện thoại thông minh", "an toàn điện thoại", "tiết kiệm pin", "văn hóa sử dụng điện thoại"],
+              targetRatio: 0.30
+            }
+          ];
+        } else {
+          return [
+            {
+              key: "cn5_su_dung_tu_lanh",
+              topic: "Chủ đề 1. Công nghệ trong gia đình (Sử dụng tủ lạnh)",
+              desc: "Cấu tạo và công dụng của tủ lạnh; cách sử dụng, bảo quản thực phẩm trong tủ lạnh an toàn và tiết kiệm điện (Bài 6).",
+              domainKeywords: ["tủ lạnh", "sử dụng tủ lạnh", "ngăn đá", "ngăn mát", "bảo quản thực phẩm", "tiết kiệm điện tủ lạnh", "vệ sinh tủ lạnh"],
+              targetRatio: 0.35
+            },
+            {
+              key: "cn5_lap_rap_xe_dien",
+              topic: "Chủ đề 2. Lắp ráp mô hình kĩ thuật (Mô hình xe điện)",
+              desc: "Các bộ phận, chi tiết và quy trình lắp ráp mô hình xe điện chạy bằng pin (Bài 7).",
+              domainKeywords: ["mô hình xe điện", "xe điện chạy bằng pin", "pin", "động cơ", "bánh xe", "trục xe", "lắp ráp mô hình", "quy trình lắp ráp"],
+              targetRatio: 0.35
+            },
+            {
+              key: "cn5_nang_luong_tai_tao",
+              topic: "Chủ đề 3. Mô hình năng lượng tái tạo (Điện gió & Điện mặt trời)",
+              desc: "Cấu tạo và quy trình lắp ráp mô hình máy phát điện gió; mô hình điện mặt trời (Bài 8, 9).",
+              domainKeywords: ["máy phát điện gió", "điện gió", "mô hình điện mặt trời", "tấm pin mặt trời", "năng lượng tái tạo", "cánh quạt", "tiết kiệm năng lượng"],
+              targetRatio: 0.30
+            }
+          ];
+        }
+      } else if (g === 4) {
+        if (!isTerm2) {
+          return [
+            {
+              key: "cn4_hoa_cay_canh",
+              topic: "Chủ đề 1. Hoa và cây cảnh trong đời sống",
+              desc: "Lợi ích của hoa và cây cảnh; nhận biết một số loại hoa, cây cảnh phổ biến (Bài 1, 2).",
+              domainKeywords: ["hoa", "cây cảnh", "lợi ích của hoa", "làm đẹp không gian", "thanh lọc không khí", "hoa hồng", "hoa đào", "hoa mai"],
+              targetRatio: 0.50
+            },
+            {
+              key: "cn4_trong_cham_soc_chau",
+              topic: "Chủ đề 2. Trồng và chăm sóc hoa, cây cảnh trong chậu",
+              desc: "Dụng cụ, vật liệu trồng hoa; quy trình gieo hạt, trồng cây con và chăm sóc hoa, cây cảnh trong chậu (Bài 3 - 5).",
+              domainKeywords: ["trồng hoa trong chậu", "chậu cây", "giá thể", "gieo hạt", "tưới nước", "bón phân", "chăm sóc cây cảnh"],
+              targetRatio: 0.50
+            }
+          ];
+        } else {
+          return [
+            {
+              key: "cn4_lap_ghep_mo_hinh",
+              topic: "Chủ đề 3. Lắp ghép mô hình kĩ thuật",
+              desc: "Bộ chi tiết và dụng cụ lắp ghép; quy trình lắp ghép các mô hình kĩ thuật đơn giản (Bài 6, 7).",
+              domainKeywords: ["lắp ghép mô hình", "chi tiết kĩ thuật", "bảng mẫu", "ốc vít", "cờ lê", "tua vít", "bập bênh", "xe tải"],
+              targetRatio: 0.50
+            },
+            {
+              key: "cn4_do_choi_dan_gian",
+              topic: "Chủ đề 4. Làm đồ chơi dân gian",
+              desc: "Dụng cụ, vật liệu và quy trình làm đồ chơi dân gian: chong chóng, đèn lồng, diều giấy (Bài 8 - 10).",
+              domainKeywords: ["đồ chơi dân gian", "chong chóng", "đèn lồng", "diều giấy", "gấp giấy", "tre", "keo dán", "thủ công"],
+              targetRatio: 0.50
+            }
+          ];
+        }
+      }
+    }
+
+    // 5. MÔN TIN HỌC (LỚP 3, LỚP 4, LỚP 5)
+    if (sub === "TIN_HOC") {
+      if (g === 5) {
+        if (!isTerm2) {
+          return [
+            {
+              key: "tin5_may_tinh_internet",
+              topic: "Chủ đề A & B. Máy tính và em & Mạng Internet",
+              desc: "Khả năng của máy tính; tìm kiếm thông tin trên website và độ tin cậy của thông tin (Bài 1, 2).",
+              domainKeywords: ["máy tính và em", "mạng internet", "website", "tìm kiếm thông tin", "từ khóa", "độ tin cậy của thông tin", "trình duyệt web"],
+              targetRatio: 0.35
+            },
+            {
+              key: "tin5_cay_thu_muc_ban_quyen",
+              topic: "Chủ đề C & D. Cây thư mục & Bản quyền nội dung thông tin",
+              desc: "Cây thư mục, tổ chức và quản lí tệp tin; tôn trọng bản quyền nội dung thông tin trên môi trường số (Bài 3 - 5).",
+              domainKeywords: ["cây thư mục", "thư mục", "tệp tin", "quản lí tệp", "bản quyền", "bản quyền thông tin", "sở hữu trí tuệ", "đạo đức số"],
+              targetRatio: 0.35
+            },
+            {
+              key: "tin5_ung_dung_tin_hoc",
+              topic: "Chủ đề E. Ứng dụng tin học (Soạn thảo & Đồ họa)",
+              desc: "Định dạng kí tự và bố trí hình ảnh trong văn bản; làm quen với phần mềm đồ họa (Bài 6 - 8A).",
+              domainKeywords: ["ứng dụng tin học", "soạn thảo văn bản", "định dạng kí tự", "chèn hình ảnh", "bố trí văn bản", "phần mềm đồ họa", "vẽ", "tạo hình"],
+              targetRatio: 0.30
+            }
+          ];
+        } else {
+          return [
+            {
+              key: "tin5_do_hoa_san_pham_so",
+              topic: "Chủ đề E. Ứng dụng tin học (Sử dụng phần mềm đồ họa)",
+              desc: "Sử dụng phần mềm đồ họa tạo sản phẩm số, thiết kế thiệp, áp phích đơn giản (Bài 9A).",
+              domainKeywords: ["phần mềm đồ họa", "sản phẩm số", "thiết kế thiệp", "áp phích", "vẽ tranh", "chỉnh sửa hình ảnh", "xuất tệp ảnh"],
+              targetRatio: 0.30
+            },
+            {
+              key: "tin5_tuan_tu_lap",
+              topic: "Chủ đề F. Giải quyết vấn đề với máy tính (Cấu trúc tuần tự & Lặp)",
+              desc: "Cấu trúc tuần tự trong thuật toán; cấu trúc lặp và thực hành lệnh lặp trong môi trường lập trình trực quan (Bài 10 - 12).",
+              domainKeywords: ["cấu trúc tuần tự", "thuật toán", "cấu trúc lặp", "lệnh lặp", "vòng lặp", "lặp lại", "scratch", "khối lệnh", "nhân vật"],
+              targetRatio: 0.35
+            },
+            {
+              key: "tin5_re_nhanh_bien_kich_ban",
+              topic: "Chủ đề F. Lập trình trực quan (Rẽ nhánh, Biến & Kịch bản)",
+              desc: "Cấu trúc rẽ nhánh; sử dụng biến và biểu thức trong chương trình; xây dựng chương trình theo kịch bản (Bài 13 - 16).",
+              domainKeywords: ["cấu trúc rẽ nhánh", "nếu... thì", "điều kiện", "biến", "biến nhớ", "biểu thức", "phép toán", "kịch bản", "chương trình", "lập trình trực quan"],
+              targetRatio: 0.35
+            }
+          ];
+        }
+      }
+    }
+
+    // Default fallback
+    return [
+      {
+        key: "strand_1",
+        topic: "Chủ đề 1. Kiến thức và kĩ năng trọng tâm phần 1",
+        desc: "Các mạch kiến thức cốt lõi theo phân phối chương trình SGK.",
+        domainKeywords: ["phần 1", "kiến thức 1"],
+        targetRatio: 0.50
+      },
+      {
+        key: "strand_2",
+        topic: "Chủ đề 2. Kiến thức và kĩ năng trọng tâm phần 2",
+        desc: "Các mạch kiến thức vận dụng và liên hệ thực tế theo phân phối chương trình SGK.",
+        domainKeywords: ["phần 2", "kiến thức 2"],
+        targetRatio: 0.50
+      }
+    ];
+  },
+
+  /**
    * Tự động xây dựng và chuẩn hóa Ma trận 3 tầng dòng (Số câu - Câu số - Số điểm)
    * chuẩn 100% Thông tư 27/2020/TT-BGDĐT từ danh sách câu hỏi thực tế.
    */
@@ -297,81 +768,26 @@ var AIService = {
       var essays = exam.essaySection || [];
       var subjectId = (exam.subjectId || "").toUpperCase();
       var grade = exam.grade || 5;
+      var scope = exam.scopeDesc || exam.scope || (typeof document !== 'undefined' ? (document.getElementById("aiCustomScopeInput")?.value || document.getElementById("aiScopePreset")?.value) : "") || "";
 
-      var strandDefs = [];
-      var isToan = subjectId === "TOAN";
-      var hasValidToanTopics = false;
-      if (isToan && exam.matrix?.topics && Array.isArray(exam.matrix.topics) && exam.matrix.topics.length >= 3) {
-        var allTopicsStr = exam.matrix.topics.map(function(t){ return (t.topic || "").toLowerCase(); }).join(" ");
-        var hasGeom = allTopicsStr.includes("hình học") || allTopicsStr.includes("đo lường");
-        var hasNum = allTopicsStr.includes("số") || allTopicsStr.includes("phép tính");
-        var hasStat = allTopicsStr.includes("thống kê") || allTopicsStr.includes("xác suất");
-        if (hasGeom && hasNum && hasStat) {
-          hasValidToanTopics = true;
-        }
-      }
-
-      if (isToan && !hasValidToanTopics) {
-        strandDefs = [
-          { key: "so_phep_tinh", name: "1. Số và phép tính", desc: "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn." },
-          { key: "hinh_hoc_do_luong", name: "2. Hình học và Đo lường", desc: "Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều." },
-          { key: "thong_ke_xac_suat", name: "3. Một số yếu tố Thống kê và Xác suất", desc: "Thu thập, phân loại số liệu; đọc và phân tích biểu đồ hình quạt tròn, bảng số liệu; khả năng xảy ra của một sự kiện." }
-        ];
-      } else if (exam.matrix?.topics && Array.isArray(exam.matrix.topics) && exam.matrix.topics.length >= 2) {
-        strandDefs = exam.matrix.topics.map(function(t, idx) {
-          var defaultDesc = "";
-          var tLower = (t.topic || "").toLowerCase();
-          if (tLower.includes("số") || tLower.includes("phép tính")) {
-            defaultDesc = "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn.";
-          } else if (tLower.includes("hình học") && tLower.includes("đo lường")) {
-            defaultDesc = "Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều.";
-          } else if (tLower.includes("hình học")) {
-            defaultDesc = "Hình phẳng, hình khối; chu vi, diện tích một số hình phẳng; nhận biết và thể tích một số hình khối.";
-          } else if (tLower.includes("đo lường")) {
-            defaultDesc = "Đơn vị đo diện tích, thể tích, khối lượng, thời gian; toán chuyển động đều.";
-          } else if (tLower.includes("thống kê") || tLower.includes("xác suất")) {
-            defaultDesc = "Thu thập, phân loại, đọc và phân tích bảng số liệu, biểu đồ hình quạt tròn; khả năng xảy ra của một sự kiện.";
-          }
-          return { key: "strand_" + idx, name: t.topic, desc: t.desc || defaultDesc };
-        });
-      } else if (subjectId === "TOAN") {
-        strandDefs = [
-          { key: "so_phep_tinh", name: "1. Số và phép tính", desc: "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn." },
-          { key: "hinh_hoc_do_luong", name: "2. Hình học và Đo lường", desc: "Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều." },
-          { key: "thong_ke_xac_suat", name: "3. Một số yếu tố Thống kê và Xác suất", desc: "Thu thập, phân loại số liệu; đọc và phân tích biểu đồ hình quạt tròn, bảng số liệu; khả năng xảy ra của một sự kiện." }
-        ];
-      } else if (subjectId === "KHOA_HOC") {
-        strandDefs = [
-          { key: "chat_nang_luong", name: "Chủ đề 1. Chất và Năng lượng", desc: "Thành phần và vai trò của đất, không khí, nước; hỗn hợp, dung dịch; năng lượng mặt trời, gió; biến đổi hóa học." },
-          { key: "sinh_vat_moi_truong", name: "Chủ đề 2. Thực vật, Động vật và Môi trường", desc: "Sự sinh sản ở thực vật có hoa; sự sinh sản và phát triển ở động vật; vi khuẩn, nấm; con người và sức khỏe." }
-        ];
-      } else if (subjectId === "LICH_SU_DIA_LY" || subjectId === "LS_DL") {
-        strandDefs = [
-          { key: "dia_li", name: "Phân môn Địa lí", desc: "Vị trí địa lí, lãnh thổ; thiên nhiên; biển đảo; dân cư và hoạt động kinh tế Việt Nam." },
-          { key: "lich_su", name: "Phân môn Lịch sử", desc: "Các triều đại lịch sử; đấu tranh độc lập dân tộc; các nhân vật và sự kiện lịch sử tiêu biểu." }
-        ];
-      } else if (subjectId === "CONG_NGHE") {
-        strandDefs = [
-          { key: "cn_doi_song", name: "Chủ đề 1. Công nghệ và Đời sống", desc: "Công nghệ trong đời sống; sáng chế công nghệ; nhà sáng chế; sử dụng thiết bị điện an toàn, tiết kiệm." },
-          { key: "thiet_ke_cn", name: "Chủ đề 2. Thiết kế và Đánh giá công nghệ", desc: "Thiết kế sản phẩm công nghệ; quy trình lựa chọn vật liệu và đánh giá sản phẩm." }
-        ];
-      } else if (subjectId === "TIN_HOC") {
-        strandDefs = [
-          { key: "may_tinh", name: "Chủ đề 1. Máy tính và em & Mạng Internet", desc: "Phần cứng, phần mềm, tổ chức tệp tin; tìm kiếm và chia sẻ thông tin an toàn trên môi trường số." },
-          { key: "ung_dung", name: "Chủ đề 2. Ứng dụng tin học & Giải quyết vấn đề", desc: "Soạn thảo văn bản, bảng tính điện tử; xây dựng sơ đồ tư duy và tư duy thuật toán." }
-        ];
-      } else {
-        strandDefs = [
-          { key: "strand_1", name: "Chủ đề 1", desc: "Các mạch kiến thức và kỹ năng trọng tâm phần 1" },
-          { key: "strand_2", name: "Chủ đề 2", desc: "Các mạch kiến thức và kỹ năng trọng tâm phần 2" }
-        ];
-      }
+      // 1. CẤU HÌNH CỨNG MẠCH KIẾN THỨC & CHỦ ĐỀ CHUẨN 100% THEO CHƯƠNG TRÌNH SGK KNTT
+      var masterConfig = this.getMasterExamMatrixConfig(grade, subjectId, scope);
+      var strandDefs = masterConfig.map(function(c) {
+        return {
+          key: c.key,
+          name: c.topic,
+          desc: c.desc,
+          domainKeywords: c.domainKeywords || [],
+          targetRatio: c.targetRatio || (1.0 / masterConfig.length)
+        };
+      });
 
       var strands = strandDefs.map(function(d) {
         return {
           name: d.name,
           desc: d.desc,
           key: d.key,
+          domainKeywords: d.domainKeywords || [],
           m1_mcq: { count: 0, qNums: [], score: 0 },
           m1_essay: { count: 0, qNums: [], score: 0 },
           m2_mcq: { count: 0, qNums: [], score: 0 },
@@ -386,16 +802,18 @@ var AIService = {
 
       function assignQuestionToStrand(q, isEssay) {
         var text = (q.text || "").toLowerCase();
-        var domain = (q.metadata?.contentDomain || "").toLowerCase();
+        var domain = (q.metadata?.contentDomain || q.contentDomain || "").toLowerCase();
         var topic = (q.topic || "").toLowerCase();
+        var qFull = text + " " + (q.options ? q.options.join(" ") : "") + " " + (q.explain || "") + " " + (q.guide || "") + " " + domain + " " + topic;
+        qFull = qFull.toLowerCase();
 
         var chosenIdx = -1;
 
-        // 1. Đối chiếu theo tên mạch kiến thức trong danh sách strands
+        // 1. Đối chiếu trực tiếp theo tên chủ đề / domain
         for (var i = 0; i < strands.length; i++) {
           var sName = strands[i].name.toLowerCase();
           var cleanName = sName.replace(/^(miền|chủ đề|\d+[\s:.]*)\s*/i, '').trim();
-          if (cleanName) {
+          if (cleanName && cleanName.length >= 3) {
             if (domain && (domain.includes(cleanName) || cleanName.includes(domain))) {
               chosenIdx = i;
               break;
@@ -407,117 +825,44 @@ var AIService = {
           }
         }
 
-        // 2. Nhận diện ngữ nghĩa chuyên sâu cho môn Toán
-        if (chosenIdx === -1 && subjectId === "TOAN") {
-          var isStat = text.includes("thống kê") || text.includes("xác suất") || text.includes("biểu đồ") ||
-                       text.includes("quạt tròn") || text.includes("bảng số liệu") || text.includes("bảng thống kê") ||
-                       text.includes("kiểm đếm") || text.includes("thu thập") || text.includes("dữ liệu") ||
-                       text.includes("khả năng") || text.includes("sự kiện") || text.includes("chắc chắn") ||
-                       text.includes("không thể") || text.includes("xúc xắc") || text.includes("đồng xu") ||
-                       text.includes("vòng quay") || text.includes("viên bi") ||
-                       domain.includes("thống kê") || domain.includes("xác suất");
-
-          var isGeomOrMeas = text.includes("hình") || text.includes("chu vi") || text.includes("diện tích") ||
-                             text.includes("thể tích") || text.includes("hộp chữ nhật") || text.includes("lập phương") ||
-                             text.includes("đường kính") || text.includes("bán kính") || text.includes("chiều cao") ||
-                             text.includes("đáy lớn") || text.includes("đáy bé") || text.includes("mặt đáy") ||
-                             text.includes("xung quanh") || text.includes("toàn phần") ||
-                             text.includes("thang") || text.includes("tròn") || text.includes("tam giác") ||
-                             text.includes("chữ nhật") || text.includes("vuông") ||
-                             text.includes("đo lường") || text.includes("đơn vị đo") || text.includes("mét vuông") ||
-                             text.includes("m²") || text.includes("cm²") || /(?:^|[\s\d])ha(?:$|[\s,\.])/i.test(text) || text.includes("héc-ta") ||
-                             text.includes("dm²") || text.includes("km²") || text.includes("m³") || text.includes("cm³") ||
-                             text.includes("dm³") || text.includes("lít") || text.includes("khối lượng") ||
-                             text.includes("kg") || text.includes("tạ") || text.includes("tấn") ||
-                             text.includes("thời gian") || text.includes("giờ") || text.includes("phút") || text.includes("giây") ||
-                             text.includes("vận tốc") || text.includes("quãng đường") || text.includes("chuyển động") ||
-                             text.includes("km/h") || text.includes("km/giờ") || text.includes("m/giây") ||
-                             text.includes("ngược dòng") || text.includes("xuôi dòng") ||
-                             domain.includes("hình học") || domain.includes("đo lường") || domain.includes("vận tốc");
-          var isGeomOnly = text.includes("hình") || text.includes("chu vi") || text.includes("diện tích") ||
-                           text.includes("thể tích") || text.includes("hộp chữ nhật") || text.includes("lập phương") ||
-                           text.includes("đường kính") || text.includes("bán kính") || text.includes("thang") ||
-                           text.includes("tròn") || text.includes("tam giác") || domain.includes("hình học");
-          var isMeasOnly = isGeomOrMeas && !isGeomOnly;
-
-          var statIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("thống kê") || s.name.toLowerCase().includes("xác suất"); });
-          var geomMeasIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("hình học") && s.name.toLowerCase().includes("đo lường"); });
-          var geomIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("hình học") && !s.name.toLowerCase().includes("đo lường"); });
-          var measIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("đo lường") && !s.name.toLowerCase().includes("hình học"); });
-          var numIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("số") || s.name.toLowerCase().includes("phép tính"); });
-
-          if (isStat && statIdx !== -1) {
-            chosenIdx = statIdx;
-          } else if (geomMeasIdx !== -1 && isGeomOrMeas) {
-            chosenIdx = geomMeasIdx;
-          } else if (geomIdx !== -1 && isGeomOnly) {
-            chosenIdx = geomIdx;
-          } else if (measIdx !== -1 && isMeasOnly) {
-            chosenIdx = measIdx;
-          } else if (geomIdx !== -1 && isGeomOrMeas) {
-            chosenIdx = geomIdx;
-          } else if (numIdx !== -1) {
-            chosenIdx = numIdx;
+        // 2. Chấm điểm tương đồng ngữ nghĩa bằng từ khóa nhận diện chuyên sâu (domainKeywords)
+        if (chosenIdx === -1) {
+          var bestScore = 0;
+          var bestIdx = -1;
+          for (var i = 0; i < strands.length; i++) {
+            var kws = strands[i].domainKeywords || [];
+            var matchCount = 0;
+            for (var k = 0; k < kws.length; k++) {
+              var kw = kws[k].toLowerCase();
+              if (kw && qFull.includes(kw)) {
+                matchCount += (domain.includes(kw) ? 5 : (text.includes(kw) ? 2 : 1));
+              }
+            }
+            if (matchCount > bestScore) {
+              bestScore = matchCount;
+              bestIdx = i;
+            }
+          }
+          if (bestIdx !== -1 && bestScore > 0) {
+            chosenIdx = bestIdx;
           }
         }
 
-        // 3. Nhận diện ngữ nghĩa cho môn Khoa học & Lịch sử - Địa lí
-        if (chosenIdx === -1 && subjectId === "KHOA_HOC") {
-          var isBio = text.includes("cây") || text.includes("hoa") || text.includes("hạt") ||
-                      text.includes("nhụy") || text.includes("thụ phấn") || text.includes("thụ tinh") ||
-                      text.includes("phôi") || text.includes("động vật") || text.includes("sinh sản") ||
-                      text.includes("trứng") || text.includes("ấu trùng") || text.includes("nấm") ||
-                      text.includes("vi khuẩn") || text.includes("sức khỏe") || domain.includes("thực vật") || domain.includes("động vật");
-          var bioIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("thực vật") || s.name.toLowerCase().includes("động vật") || s.name.toLowerCase().includes("sinh vật"); });
-          var matterIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("chất") || s.name.toLowerCase().includes("năng lượng"); });
-          chosenIdx = (isBio && bioIdx !== -1) ? bioIdx : (matterIdx !== -1 ? matterIdx : 0);
-        } else if (chosenIdx === -1 && (subjectId === "LICH_SU_DIA_LY" || subjectId === "LS_DL")) {
-          var isHis = text.includes("nhà nước") || text.includes("vua") || text.includes("triều") ||
-                      text.includes("khởi nghĩa") || text.includes("chiến thắng") || text.includes("thăng long") ||
-                      text.includes("văn lang") || text.includes("âu lạc") || text.includes("chăm-pa") ||
-                      text.includes("phù nam") || text.includes("lý") || text.includes("trần") ||
-                      text.includes("nguyễn") || domain.includes("lịch sử");
-          var hisIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("lịch sử"); });
-          var geoIdx = strands.findIndex(function(s) { return s.name.toLowerCase().includes("địa lí") || s.name.toLowerCase().includes("địa lý"); });
-          chosenIdx = (isHis && hisIdx !== -1) ? hisIdx : (geoIdx !== -1 ? geoIdx : 0);
-        }
-
-        // 4. Phân bổ thông minh dự phòng cho môn Toán theo vị trí sư phạm nếu chưa khớp
-        if (chosenIdx === -1 && subjectId === "TOAN") {
-          var statIdx2 = strands.findIndex(function(s) { return s.name.toLowerCase().includes("thống kê") || s.name.toLowerCase().includes("xác suất"); });
-          var geomIdx2 = strands.findIndex(function(s) { return s.name.toLowerCase().includes("hình học") || s.name.toLowerCase().includes("đo lường"); });
-          var numIdx2 = strands.findIndex(function(s) { return s.name.toLowerCase().includes("số") || s.name.toLowerCase().includes("phép tính"); });
-
-          if (!isEssay) {
+        // 3. Fallback sư phạm nếu câu hỏi chưa khớp
+        if (chosenIdx === -1) {
+          if (subjectId === "TOAN") {
             var qn = parseInt(q.num) || 1;
-            var mcqTotal = mcqs.length || 7;
-            var numLimit = Math.max(1, Math.round(mcqTotal * 0.45));
-            var geomLimit = Math.max(numLimit + 1, Math.round(mcqTotal * 0.85));
-
-            if (qn <= numLimit && numIdx2 !== -1) {
-              chosenIdx = numIdx2;
-            } else if (qn <= geomLimit && geomIdx2 !== -1) {
-              chosenIdx = geomIdx2;
-            } else if (statIdx2 !== -1) {
-              chosenIdx = statIdx2;
+            if (isEssay) {
+              chosenIdx = strands.length > 1 ? 1 : 0;
             } else {
-              chosenIdx = (numIdx2 !== -1 ? numIdx2 : 0);
+              chosenIdx = qn <= Math.round(mcqs.length * 0.5) ? 0 : (strands.length > 2 && qn === mcqs.length ? 2 : 1);
             }
           } else {
-            var en = parseInt(q.num) || 1;
-            if (en === 1 && geomIdx2 !== -1) {
-              chosenIdx = geomIdx2;
-            } else if (numIdx2 !== -1) {
-              chosenIdx = numIdx2;
-            } else {
-              chosenIdx = 0;
-            }
+            chosenIdx = q.num ? ((parseInt(q.num) - 1) % strands.length) : 0;
           }
         }
 
-        if (chosenIdx === -1) {
-          chosenIdx = (q.num ? (q.num % strands.length) : 0);
-        }
+        if (chosenIdx < 0 || chosenIdx >= strands.length) chosenIdx = 0;
 
         var st = strands[chosenIdx] || strands[0];
         var lvl = String(q.level || "").toLowerCase();
@@ -536,6 +881,12 @@ var AIService = {
         totalTarget.score = fmtScore(totalTarget.score + sc);
 
         st.total_score = fmtScore(st.total_score + sc);
+
+        // ĐỒNG BỘ 100% CONTENT DOMAIN CỦA CÂU HỎI THEO ĐÚNG CHỦ ĐỀ ĐƯỢC PHÂN BỔ
+        q.metadata = q.metadata || {};
+        var cleanStrandName = st.name.replace(/^(chủ đề|\d+[\s:.]*)\s*/i, '').trim();
+        q.metadata.contentDomain = cleanStrandName || st.name;
+        q.contentDomain = q.metadata.contentDomain;
       }
 
       mcqs.forEach(function(q) { assignQuestionToStrand(q, false); });
@@ -609,9 +960,11 @@ var AIService = {
       var currentScope = exam.scopeDesc || exam.scope || (typeof document !== 'undefined' ? (document.getElementById("aiCustomScopeInput")?.value || document.getElementById("aiScopePreset")?.value) : "") || "";
       var termInfo = this.resolveExamTermInfo(currentScope);
 
+      var subName = (exam.subjectName || (this.EXAM_SUBJECTS[subjectId] ? this.EXAM_SUBJECTS[subjectId].name : "") || "TOÁN").toUpperCase();
+
       return {
         isTiengVietReading: false,
-        title: `MA TRẬN ĐỀ KIỂM TRA ${termInfo.matrixTitle} MÔN ${exam.subjectName ? exam.subjectName.toUpperCase() : "TOÁN"} LỚP ${grade}`,
+        title: `MA TRẬN ĐỀ KIỂM TRA ${termInfo.matrixTitle} MÔN ${subName} LỚP ${grade}`,
         schoolYear: exam.schoolYear || "2025 - 2026",
         strands: strands,
         summary: summary,
@@ -1998,18 +2351,25 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
       // =========================================================================
       // MIỀN NỘI DUNG VÀ QUÁ TRÌNH NHẬN THỨC CHUẨN SEA-PLM TỪNG MÔN HỌC
       // =========================================================================
+      // LẤY CẤU HÌNH CỨNG MA TRẬN CHUẨN 100% SGK KNTT THEO MÔN, KHỐI LỚP VÀ GIAI ĐOẠN KIỂM TRA
+      var masterStrands = this.getMasterExamMatrixConfig(grade, subjectId, scope);
+
+      var strandListText = masterStrands.map(function(s, idx) {
+        return `   ${idx + 1}. "${s.topic}" (${s.desc})`;
+      }).join('\n');
+
       var subjectContentDomainsGuideline = "";
       if (subjectId === "TOAN") {
         subjectContentDomainsGuideline = `
 1. PHÂN BỔ 3 MẠCH KIẾN THỨC MÔN TOÁN TIỂU HỌC CHUẨN GDPT 2018 & THÔNG TƯ 27 (BẮT BUỘC 100%):
    Đề thi gồm ${mcqCount} câu trắc nghiệm và ${essayCount} câu tự luận BẮT BUỘC PHÂN BỔ ĐẦY ĐỦ CẢ 3 MẠCH KIẾN THỨC CỐT LÕI:
    - Mạch 1: "Số và phép tính" (chiếm ~50% tổng điểm: gồm ${mathMcqNum} câu TNKQ [từ Câu 1 đến Câu ${mathMcqNum}] và ${mathEssayNum} câu Tự luận).
-     Kiến thức: Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn.
+     Kiến thức: ${masterStrands[0] ? masterStrands[0].desc : "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn."}
    - Mạch 2: "Hình học và Đo lường" (chiếm ~35% - 40% tổng điểm: gồm ${mathMcqGeom} câu TNKQ [từ Câu ${mathMcqNum + 1} đến Câu ${mathMcqNum + mathMcqGeom}] và ${mathEssayGeom} câu Tự luận).
-     Kiến thức: Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo diện tích (m², ha...), đo thể tích (m³, dm³...); toán chuyển động đều (vận tốc, quãng đường, thời gian).
+     Kiến thức: ${masterStrands[1] ? masterStrands[1].desc : "Hình phẳng, hình khối; chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều."}
    - Mạch 3: "Một số yếu tố Thống kê và Xác suất" (chiếm ~10% - 15% tổng điểm: gồm ${mathMcqStat} câu TNKQ [từ Câu ${mathMcqNum + mathMcqGeom + 1} đến Câu ${mcqCount}]).
-     Kiến thức: Thu thập, phân loại, đọc và phân tích bảng số liệu, biểu đồ hình quạt tròn; khả năng xảy ra của một sự kiện (chắc chắn, có thể, không thể).
-   => NGUYÊN TẮC BẮT BUỘC CHO ĐỀ KIỂM TRA ĐỊNH KỲ (ĐẶC BIỆT LÀ ĐỀ CUỐI NĂM / CẢ NĂM / HỌC KỲ):
+     Kiến thức: ${masterStrands[2] ? masterStrands[2].desc : "Thu thập, phân loại số liệu; đọc và phân tích biểu đồ hình quạt tròn, bảng số liệu; khả năng xảy ra của một sự kiện."}
+   => NGUYÊN TẮC BẮT BUỘC CHO ĐỀ KIỂM TRA ĐỊNH KỲ:
       * Đề thi BẮT BUỘC PHẢI CÓ ĐỦ CẢ 3 MẠCH KIẾN THỨC TRÊN. TUYỆT ĐỐI KHÔNG ĐƯỢC CHỈ RA 1 MẠCH "Số và phép tính"!
       * Toàn bộ ${mcqCount} câu trắc nghiệm và ${essayCount} câu tự luận PHẢI ĐƯỢC PHÂN BỔ ĐÚNG THEO SỐ LƯỢNG TỪNG MẠCH KIẾN THỨC Ở TRÊN.
       * Trong mảng "multipleChoice" và "essaySection", mỗi câu hỏi PHẢI ghi rõ trường "metadata.contentDomain" đúng tên 1 trong 3 mạch: "Số và phép tính", "Hình học và Đo lường", hoặc "Một số yếu tố Thống kê và Xác suất".
@@ -2025,42 +2385,21 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
      + Dạng E (Chuyển đổi hỗn số sang phân số hoặc số thập phân): Với các số liệu phong phú, sáng tạo (không lặp lại hỗn số 3 và 2/5).
      + Dạng F (Đọc - viết số thập phân): Nếu dùng dạng đọc - viết, phải đổi cách đặt câu tự nhiên và số liệu sáng tạo.
    - Mỗi câu hỏi trong đề phải có số liệu mới mẻ, tự nhiên, bài toán thực tế sinh động, tuyệt đối không sao chép đề bài cũ.`;
-      } else if (subjectId === "KHOA_HOC") {
-        subjectContentDomainsGuideline = `
-1. MIỀN NỘI DUNG VÀ QUÁ TRÌNH NHẬN THỨC MÔN KHOA HỌC CHUẨN GDPT 2018 & SEA-PLM:
-   - Miền nội dung: Chất và năng lượng; Thực vật và động vật; Nấm, vi khuẩn, virus (lớp 5); Con người và sức khỏe; Trái Đất và bầu trời (bao quát cân đối theo phạm vi học kì).
-   - Quá trình nhận thức SEA-PLM:
-     + "Biết kiến thức khoa học (Knowing)": Nhận biết khái niệm, tính chất, sự vật hiện tượng khoa học tự nhiên.
-     + "Áp dụng kiến thức (Applying)": Vận dụng kiến thức khoa học giải thích các sự vật hiện tượng, sử dụng hợp lí trong đời sống hàng ngày.
-     + "Lập luận & Tư duy khoa học (Reasoning)": Phân tích nguyên nhân, dự đoán kết quả, đề xuất giải pháp bảo vệ môi trường, sức khỏe, tiết kiệm năng lượng.`;
-      } else if (subjectId === "LICH_SU_DIA_LY" || subjectId === "LS_DL") {
-        subjectContentDomainsGuideline = `
-1. MIỀN NỘI DUNG VÀ QUÁ TRÌNH NHẬN THỨC MÔN LỊCH SỬ VÀ ĐỊA LÍ CHUẨN GDPT 2018 & SEA-PLM:
-   - Miền nội dung:
-     + Địa lí: Vị trí địa lí, địa hình, khí hậu, sông ngòi, đất đai, dân cư, kinh tế, biển đảo quê hương.
-     + Lịch sử: Các mốc lịch sử, sự kiện lịch sử trọng đại, các nhân vật lịch sử tiêu biểu của dân tộc và địa phương, văn hóa truyền thống.
-   - Quá trình nhận thức SEA-PLM:
-     + "Xác định thông tin (Locate/Identify)": Xác định vị trí địa lí, sự kiện, mốc thời gian, nhân vật lịch sử trên bản đồ/lược đồ/tư liệu.
-     + "Kết nối & Giải thích (Connect/Explain)": Giải thích mối quan hệ giữa điều kiện tự nhiên với đời sống dân cư; nguyên nhân - ý nghĩa của các sự kiện lịch sử.
-     + "Đánh giá & Liên hệ (Reflect/Evaluate)": Bày tỏ tình cảm tự hào, lòng biết ơn đối với tiền nhân và trách nhiệm của học sinh đối với quê hương, đất nước.`;
-      } else if (subjectId === "CONG_NGHE") {
-        subjectContentDomainsGuideline = `
-1. MIỀN NỘI DUNG VÀ QUÁ TRÌNH NHẬN THỨC MÔN CÔNG NGHỆ CHUẨN GDPT 2018 & SEA-PLM:
-   - Miền nội dung: Công nghệ và đời sống; Thủ công kĩ thuật / Thiết kế kĩ thuật; Sử dụng thiết bị công nghệ an toàn, tiết kiệm.
-   - Quá trình nhận thức SEA-PLM:
-     + "Nhận biết (Knowing)": Nhận biết vai trò của công nghệ, các bộ phận, chức năng thiết bị, quy trình kĩ thuật.
-     + "Áp dụng (Applying)": Vận dụng quy trình sử dụng an toàn thiết bị gia đình, chăm sóc hoa kiểng/cây cảnh.
-     + "Đánh giá & Sáng tạo (Evaluating)": Đề xuất giải pháp sử dụng thông minh, tiết kiệm năng lượng, đánh giá sản phẩm công nghệ.`;
-      } else if (subjectId === "TIN_HOC") {
-        subjectContentDomainsGuideline = `
-1. MIỀN NỘI DUNG VÀ QUÁ TRÌNH NHẬN THỨC MÔN TIN HỌC CHUẨN GDPT 2018 & SEA-PLM:
-   - Miền nội dung: Máy tính và em; Mạng máy tính và Internet; Ứng dụng tin học trong học tập; Đạo đức, pháp luật và văn hóa trong môi trường số; Giải quyết vấn đề với sự trợ giúp của máy tính.
-   - Quá trình nhận thức SEA-PLM: "Biết (Knowing)", "Áp dụng (Applying)", "Tư duy máy tính & Giải quyết vấn đề (Problem solving)".`;
       } else {
         subjectContentDomainsGuideline = `
-1. MIỀN NỘI DUNG VÀ QUÁ TRÌNH NHẬN THỨC CHUẨN GDPT 2018 & SEA-PLM:
-   - Bám sát các mạch kiến thức cốt lõi của môn học theo phân phối chương trình SGK.
-   - Quá trình nhận thức: "Biết (Knowing)", "Áp dụng (Applying)", "Vận dụng thực tế & Đánh giá (Reasoning/Reflect)".`;
+1. CẤU HÌNH CỨNG CÁC CHỦ ĐỀ & MẠCH KIẾN THỨC CHUẨN 100% SGK KẾT NỐI TRI THỨC VỚI CUỘC SỐNG (BẮT BUỘC TUÂN THỦ TUYỆT ĐỐI):
+   Đề kiểm tra ${termInfo.headerTitle} Lớp ${grade} môn ${subjectName} BẮT BUỘC PHẢI BAO QUÁT ĐẦY ĐỦ VÀ PHÂN BỔ CÂU HỎI VÀO CÁC CHỦ ĐỀ CỐT LÕI SAU:
+${strandListText}
+   => NGUYÊN TẮC BẮT BUỘC 100% (CHỐNG SUY LUẬN BỪA & CHỐNG BỎ SÓT CHỦ ĐỀ):
+      * Đề thi BẮT BUỘC PHẢI CÓ CÂU HỎI CHO TẤT CẢ CÁC CHỦ ĐỀ TRÊN. TUYỆT ĐỐI CẤM BỎ SÓT BẤT KỲ CHỦ ĐỀ NÀO!
+      * TUYỆT ĐỐI CẤM tự ý gom gộp tùy tiện (như gom nhiều chủ đề thành 1 chủ đề) hoặc đặt tên chủ đề sai lệch so với danh sách chuẩn ở trên.
+      * Trong mảng "multipleChoice" và "essaySection", mỗi câu hỏi BẮT BUỘC PHẢI ghi rõ trường "metadata.contentDomain" CHÍNH XÁC là tên của 1 trong các chủ đề trên (ví dụ: "${masterStrands[0] ? masterStrands[0].topic.replace(/^(chủ đề|\d+[\s:.]*)\s*/i, '').trim() : 'Kiến thức cốt lõi'}").
+      * Bảng ma trận "matrix.topics" BẮT BUỘC KHAI BÁO ĐỦ ${masterStrands.length} DÒNG tương ứng với ${masterStrands.length} chủ đề trên.
+
+2. QUÁ TRÌNH NHẬN THỨC SEA-PLM:
+   - "Biết (Knowing)": Nhận biết khái niệm, kiến thức cơ bản theo SGK.
+   - "Áp dụng (Applying)": Vận dụng kiến thức giải thích hiện tượng, tình huống thực tế đời sống.
+   - "Vận dụng / Lập luận (Reasoning/Evaluating)": Phân tích, đánh giá, đề xuất giải pháp thực tiễn thiết thực.`;
       }
 
       var mathFormattingRule = "";
@@ -2083,18 +2422,19 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
   + Đối với môn ${subjectName}: BẮT BUỘC phối hợp đa dạng 4 hình thức trắc nghiệm sau trong số ${mcqCount} câu trắc nghiệm:
     1. Trắc nghiệm 4 lựa chọn (type: "mcq", options: ["A. ...", "B. ...", "C. ...", "D. ..."], ans: "A"): Các câu hỏi kiểm tra kiến thức cốt lõi.
     2. Trắc nghiệm Đúng/Sai (type: "true_false", text: "Đúng ghi Đ, sai ghi S vào ô trống ☐:", items: [{ "text": "nhận định 1...", "ans": "Đ" }, { "text": "nhận định 2...", "ans": "S" }]).
-    3. Trắc nghiệm Ghép đôi / Nối cột (type: "matching", text: "Ghép ý ở Cột A với Cột B cho phù hợp:", columnA: [{ "id": "1", "text": "..." }, { "id": "2", "text": "..." }], columnB: [{ "id": "A", "text": "..." }, { "id": "B", "text": "..." }], pairs: "1 - B; 2 - A").
+    3. Trắc nghiệm Ghép đôi / Nối cột (type: "matching", text: "Ghép ý ở Cột A với Cột B cho phù hợp:", columnA: [{ "id": "1", "text": "..." }, { "id": "2", "text": "..." }, { "id": "3", "text": "..." }, { "id": "4", "text": "..." }], columnB: [{ "id": "A", "text": "..." }, { "id": "B", "text": "..." }, { "id": "C", "text": "..." }, { "id": "D", "text": "..." }], pairs: "1 - B; 2 - A; 3 - D; 4 - C"): Số lượng ý hai cột A và B BẮT BUỘC PHẢI BẰNG NHAU (4 nối 4).
     4. Trắc nghiệm Điền khuyết (type: "fill_blank", text: "Điền từ trong ngoặc đơn thích hợp vào chỗ chấm:", passage: "Đoạn văn có các chỗ chấm ……", wordBank: ["từ 1", "từ 2"], blanks: ["từ 1", "từ 2"]).`;
       } else {
         formatInstruction = `- HÌNH THỨC CÂU HỎI TRẮC NGHIỆM: Môn ${subjectName} chủ yếu dùng trắc nghiệm 4 lựa chọn (MCQ A, B, C, D), có thể kết hợp 1 câu Đúng/Sai hoặc trắc nghiệm điền số nếu phù hợp.`;
       }
 
+      // Xây dựng matrixTopicsSchemaSample động 100% theo masterStrands
       var matrixTopicsSchemaSample = "";
       if (subjectId === "TOAN") {
         matrixTopicsSchemaSample = `[
       {
         "topic": "1. Số và phép tính",
-        "desc": "Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn.",
+        "desc": "${masterStrands[0] ? masterStrands[0].desc : 'Số tự nhiên, phân số, số thập phân; tỉ số phần trăm; 4 phép tính; tính giá trị biểu thức và giải toán có lời văn.'}",
         "m1_mcq": "Câu 1, 2",
         "m1_essay": "",
         "m2_mcq": "Câu 3",
@@ -2107,7 +2447,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
       },
       {
         "topic": "2. Hình học và Đo lường",
-        "desc": "Hình phẳng (tam giác, thang, tròn), hình khối (hộp chữ nhật, lập phương); chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều.",
+        "desc": "${masterStrands[1] ? masterStrands[1].desc : 'Hình phẳng, hình khối; chu vi, diện tích, thể tích; đơn vị đo, toán chuyển động đều.'}",
         "m1_mcq": "Câu ${mathMcqNum + 1}",
         "m1_essay": "",
         "m2_mcq": "Câu ${mathMcqNum + 2}",
@@ -2120,7 +2460,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
       },
       {
         "topic": "3. Một số yếu tố Thống kê và Xác suất",
-        "desc": "Thu thập, phân loại số liệu; đọc và phân tích biểu đồ hình quạt tròn, bảng số liệu; khả năng xảy ra của một sự kiện.",
+        "desc": "${masterStrands[2] ? masterStrands[2].desc : 'Thu thập, phân loại số liệu; đọc và phân tích biểu đồ hình quạt tròn, bảng số liệu; khả năng xảy ra của một sự kiện.'}",
         "m1_mcq": "",
         "m1_essay": "",
         "m2_mcq": "Câu ${mcqCount}",
@@ -2132,93 +2472,28 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không có mar
         "score": 1.0
       }
     ]`;
-      } else if (subjectId === "KHOA_HOC") {
-        matrixTopicsSchemaSample = `[
-      {
-        "topic": "Chủ đề 1. Chất và Năng lượng",
-        "desc": "Thành phần và vai trò của đất, không khí, nước; hỗn hợp, dung dịch; năng lượng mặt trời, gió; biến đổi hóa học.",
-        "m1_mcq": "Câu 1, 2",
-        "m1_essay": "",
-        "m2_mcq": "Câu 3, 4",
-        "m2_essay": "Câu 1 (TL)",
-        "m3_mcq": "",
-        "m3_essay": "",
-        "total_mcq": 4,
-        "total_essay": 1,
-        "score": 5.0
-      },
-      {
-        "topic": "Chủ đề 2. Thực vật, Động vật và Môi trường",
-        "desc": "Sự sinh sản ở thực vật có hoa; sự sinh sản và phát triển ở động vật; vi khuẩn, nấm; con người và sức khỏe.",
-        "m1_mcq": "Câu 5, 6",
-        "m1_essay": "",
-        "m2_mcq": "Câu 7, 8",
-        "m2_essay": "",
-        "m3_mcq": "",
-        "m3_essay": "Câu 2 (TL)",
-        "total_mcq": 4,
-        "total_essay": 1,
-        "score": 5.0
-      }
-    ]`;
-      } else if (subjectId === "LICH_SU_DIA_LY" || subjectId === "LS_DL") {
-        matrixTopicsSchemaSample = `[
-      {
-        "topic": "Phân môn Địa lí",
-        "desc": "Vị trí địa lí, lãnh thổ; thiên nhiên; biển đảo; dân cư và hoạt động kinh tế Việt Nam.",
-        "m1_mcq": "Câu 1, 2",
-        "m1_essay": "",
-        "m2_mcq": "Câu 3, 4",
-        "m2_essay": "Câu 1 (TL)",
-        "m3_mcq": "",
-        "m3_essay": "",
-        "total_mcq": 4,
-        "total_essay": 1,
-        "score": 5.0
-      },
-      {
-        "topic": "Phân môn Lịch sử",
-        "desc": "Các triều đại lịch sử; đấu tranh độc lập dân tộc; các nhân vật và sự kiện lịch sử tiêu biểu.",
-        "m1_mcq": "Câu 5, 6",
-        "m1_essay": "",
-        "m2_mcq": "Câu 7, 8",
-        "m2_essay": "",
-        "m3_mcq": "",
-        "m3_essay": "Câu 2 (TL)",
-        "total_mcq": 4,
-        "total_essay": 1,
-        "score": 5.0
-      }
-    ]`;
       } else {
-        matrixTopicsSchemaSample = `[
-      {
-        "topic": "Chủ đề 1. Kiến thức trọng tâm phần 1",
-        "desc": "Nội dung kiến thức, kỹ năng phần thứ nhất theo phân phối chương trình.",
-        "m1_mcq": "Câu 1, 2",
-        "m1_essay": "",
-        "m2_mcq": "Câu 3",
-        "m2_essay": "Câu 1 (TL)",
-        "m3_mcq": "",
-        "m3_essay": "",
-        "total_mcq": 3,
-        "total_essay": 1,
-        "score": 5.0
-      },
-      {
-        "topic": "Chủ đề 2. Kiến thức trọng tâm phần 2",
-        "desc": "Nội dung kiến thức, kỹ năng phần thứ hai theo phân phối chương trình.",
-        "m1_mcq": "Câu 4, 5",
-        "m1_essay": "",
-        "m2_mcq": "Câu 6",
-        "m2_essay": "",
-        "m3_mcq": "Câu 7",
-        "m3_essay": "Câu 2 (TL)",
-        "total_mcq": 4,
-        "total_essay": 1,
-        "score": 5.0
-      }
-    ]`;
+        var defaultStrandCount = masterStrands.length || 3;
+        var avgMcq = Math.max(1, Math.floor(mcqCount / defaultStrandCount));
+        matrixTopicsSchemaSample = JSON.stringify(masterStrands.map(function(s, idx) {
+          var isLast = idx === masterStrands.length - 1;
+          var mcqsForStrand = isLast ? (mcqCount - avgMcq * (masterStrands.length - 1)) : avgMcq;
+          var essaysForStrand = isLast ? essayCount : 0;
+          var targetScore = parseFloat(((mcqsForStrand * (mcqPct / 10 / mcqCount)) + (essaysForStrand * (essayPct / 10 / (essayCount || 1)))).toFixed(1));
+          return {
+            topic: s.topic,
+            desc: s.desc,
+            m1_mcq: idx === 0 ? "Câu 1, 2" : "Câu ...",
+            m1_essay: "",
+            m2_mcq: idx === 0 ? "Câu 3" : "Câu ...",
+            m2_essay: isLast ? "Câu 1 (TL)" : "",
+            m3_mcq: "",
+            m3_essay: isLast && essayCount > 1 ? "Câu 2 (TL)" : "",
+            total_mcq: mcqsForStrand,
+            total_essay: essaysForStrand,
+            score: targetScore
+          };
+        }), null, 4);
       }
 
       prompt = `
@@ -2342,7 +2617,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
       "score": 0.5,
       "metadata": {
         "context": "Cá nhân (Personal)",
-        "contentDomain": "${subjectId === 'TOAN' ? 'Số và phép tính' : subjectId === 'KHOA_HOC' ? 'Chất và năng lượng' : (subjectId === 'LICH_SU_DIA_LY' || subjectId === 'LS_DL') ? 'Địa lí tự nhiên' : subjectId === 'CONG_NGHE' ? 'Công nghệ và đời sống' : 'Kiến thức trọng tâm'}",
+        "contentDomain": "${masterStrands[0] ? masterStrands[0].topic.replace(/^(chủ đề|\d+[\s:.]*)\s*/i, '').trim() : (subjectId === 'TOAN' ? 'Số và phép tính' : 'Kiến thức trọng tâm')}",
         "cognitiveProcess": "Biết (Knowing)",
         "difficulty": "Dễ",
         "itemType": "Trắc nghiệm 4 lựa chọn (MCQ)"
@@ -2404,7 +2679,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
       "score": ${(essayCount > 1 ? 1.5 : (essayPct / 10)).toFixed(1)},
       "metadata": {
         "context": "Môi trường xung quanh (Local community)",
-        "contentDomain": "${subjectId === 'TOAN' ? 'Hình học và Đo lường' : subjectId === 'KHOA_HOC' ? 'Thực vật và động vật' : (subjectId === 'LICH_SU_DIA_LY' || subjectId === 'LS_DL') ? 'Lịch sử dân tộc' : subjectId === 'CONG_NGHE' ? 'Thiết kế kĩ thuật' : 'Vận dụng kiến thức môn ' + subjectName}",
+        "contentDomain": "${masterStrands.length > 1 ? masterStrands[masterStrands.length - 1].topic.replace(/^(chủ đề|\d+[\s:.]*)\s*/i, '').trim() : (subjectId === 'TOAN' ? 'Hình học và Đo lường' : 'Vận dụng kiến thức môn ' + subjectName)}",
         "cognitiveProcess": "Áp dụng (Applying)",
         "difficulty": "Trung bình",
         "itemType": "Tự luận / Trả lời ngắn"
@@ -2413,8 +2688,8 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
       "text": "${subjectId === 'TOAN' ? 'Bài toán tự luận về Hình học (chu vi, diện tích hình phẳng hoặc thể tích hình khối) hoặc Đo lường / chuyển động đều...' : 'Nội dung bài toán / câu hỏi tự luận gắn với bối cảnh chân thực...'}",
       "solution": "Lời giải chi tiết và đáp số...",
       "rubric": [
-        { "step": "Ý 1 / Phép tính 1 và câu lời giải thứ nhất...", "score": "0,75đ" },
-        { "step": "Ý 2 / Phép tính 2 và đáp số đúng...", "score": "0,75đ" }
+        { "step": "Ý 1 / Phép tính 1 và câu lời giải thứ nhất...", "score": "${(essayCount > 1 ? 0.75 : 0.5).toString().replace('.', ',')}đ" },
+        { "step": "Ý 2 / Phép tính 2 và đáp số đúng...", "score": "${(essayCount > 1 ? 0.75 : 0.5).toString().replace('.', ',')}đ" }
       ],
       "codingGuide": {
         "maxCode": "Mã 2",
@@ -2461,7 +2736,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
       "itemCode": "${subjectId.substring(0, 4)}_${grade}_MCQ_01",
       "order": 1,
       "context": "Cá nhân (Personal)",
-      "contentDomain": "${subjectId === 'TOAN' ? 'Số và phép tính' : 'Kiến thức cốt lõi'}",
+      "contentDomain": "${masterStrands[0] ? masterStrands[0].topic.replace(/^(chủ đề|\d+[\s:.]*)\s*/i, '').trim() : (subjectId === 'TOAN' ? 'Số và phép tính' : 'Kiến thức cốt lõi')}",
       "cognitiveProcess": "Biết (Knowing)",
       "difficulty": "Dễ",
       "itemType": "Trắc nghiệm 4 lựa chọn (MCQ)",
