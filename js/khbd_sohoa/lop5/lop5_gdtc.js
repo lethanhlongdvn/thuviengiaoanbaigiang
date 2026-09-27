@@ -4223,7 +4223,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 32",
+        "lessonTitle": "Bài 2: Bài tập rèn luyện kĩ năng lộn xuôi (tiết 2)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -4763,7 +4763,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 36",
+        "lessonTitle": "SƠ KẾT HỌC KÌ I (Tiết 36)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -4875,7 +4875,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 37",
+        "lessonTitle": "Bài 2: Bài tập rèn luyện kĩ năng lộn xuôi (tiết 5)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -5013,7 +5013,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 38",
+        "lessonTitle": "Bài 2: Bài tập rèn luyện kĩ năng lộn xuôi (tiết 6)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -5157,7 +5157,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 39",
+        "lessonTitle": "Bài 3: Bài tập rèn luyện kĩ năng leo (tiết 1)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -5289,7 +5289,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 40",
+        "lessonTitle": "Bài 3: Bài tập rèn luyện kĩ năng leo (tiết 2)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -5428,7 +5428,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài 2: Bài 3: Bài tập rèn luyện kĩ năng leo. (Tiết 3)",
+        "lessonTitle": "Bài 3: Bài tập rèn luyện kĩ năng leo (tiết 3)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -5556,7 +5556,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 42",
+        "lessonTitle": "Bài 3: Bài tập rèn luyện kĩ năng leo (tiết 4)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -5690,7 +5690,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 43",
+        "lessonTitle": "Bài 3: Bài tập rèn luyện kĩ năng leo (tiết 5)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -5818,7 +5818,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 44",
+        "lessonTitle": "Bài 3: Bài tập rèn luyện kĩ năng leo (tiết 6)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -5946,7 +5946,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 45",
+        "lessonTitle": "Bài 4: Bài tập rèn luyện kĩ năng trèo (tiết 1)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -6074,7 +6074,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 46",
+        "lessonTitle": "Bài 4: Bài tập rèn luyện kĩ năng trèo (tiết 2)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -6208,7 +6208,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 47",
+        "lessonTitle": "Bài 4: Bài tập rèn luyện kĩ năng trèo (tiết 3)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -6336,7 +6336,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 48",
+        "lessonTitle": "Bài 4: Bài tập rèn luyện kĩ năng trèo (tiết 4)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -6472,7 +6472,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 49",
+        "lessonTitle": "Bài 4: Bài tập rèn luyện kĩ năng trèo (tiết 5)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -6600,7 +6600,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 50",
+        "lessonTitle": "Bài 4: Bài tập rèn luyện kĩ năng trèo (tiết 6)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -6736,7 +6736,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 51",
+        "lessonTitle": "Bài 1: Dẫn bóng thay đổi tốc độ, dẫn bóng theo đường vòng (tiết 1)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -6870,7 +6870,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 52",
+        "lessonTitle": "Bài 1: Dẫn bóng thay đổi tốc độ, dẫn bóng theo đường vòng (tiết 2)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -7010,7 +7010,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 53",
+        "lessonTitle": "Bài 1: Dẫn bóng thay đổi tốc độ, dẫn bóng theo đường vòng (tiết 3)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -7144,7 +7144,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 54",
+        "lessonTitle": "Bài 1: Dẫn bóng thay đổi tốc độ, dẫn bóng theo đường vòng (tiết 4)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -7284,7 +7284,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 55",
+        "lessonTitle": "Bài 1: Dẫn bóng thay đổi tốc độ, dẫn bóng theo đường vòng (tiết 5)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -7418,7 +7418,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 56",
+        "lessonTitle": "Bài 1: Dẫn bóng thay đổi tốc độ, dẫn bóng theo đường vòng (tiết 6)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -7558,7 +7558,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 57",
+        "lessonTitle": "Bài 2: Động tác chuyền, bắt bóng bằng hai tay trên cao (tiết 1)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -7692,7 +7692,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 58",
+        "lessonTitle": "Bài 2: Động tác chuyền, bắt bóng bằng hai tay trên cao (tiết 2)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -7832,7 +7832,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 59",
+        "lessonTitle": "Bài 2: Động tác chuyền, bắt bóng bằng hai tay trên cao (tiết 3)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -7965,7 +7965,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 60",
+        "lessonTitle": "Bài 2: Động tác chuyền, bắt bóng bằng hai tay trên cao (tiết 4)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -8104,7 +8104,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 61",
+        "lessonTitle": "Bài 3: Động tác hai bước ném rổ bằng một tay trên vai (tiết 1)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -8232,7 +8232,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 62",
+        "lessonTitle": "Bài 3: Động tác hai bước ném rổ bằng một tay trên vai (tiết 2)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -8366,7 +8366,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 63",
+        "lessonTitle": "Bài 3: Động tác hai bước ném rổ bằng một tay trên vai (tiết 3)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -8494,7 +8494,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 64",
+        "lessonTitle": "Bài 3: Động tác hai bước ném rổ bằng một tay trên vai (tiết 4)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -8628,7 +8628,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 65",
+        "lessonTitle": "Bài 3: Động tác hai bước ném rổ bằng một tay trên vai (tiết 5)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -8756,7 +8756,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 66",
+        "lessonTitle": "Bài 3: Động tác hai bước ném rổ bằng một tay trên vai (tiết 6)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -8892,7 +8892,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 67",
+        "lessonTitle": "Bài 3: Động tác hai bước ném rổ bằng một tay trên vai (tiết 7)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -9020,7 +9020,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 68",
+        "lessonTitle": "Bài 3: Động tác hai bước ném rổ bằng một tay trên vai (tiết 8)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -9156,7 +9156,7 @@
     "sourceFile": "KHBD GDTC LỚP 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 69",
+        "lessonTitle": "ÔN TẬP VÀ ĐÁNH GIÁ HỌC KÌ II (Tiết 69)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",
@@ -9284,7 +9284,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 70",
+        "lessonTitle": "TỔNG KẾT NĂM HỌC. (Tiết 70)",
         "topic": "CHỦ ĐỀ: MÔN THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1. Kiến thức, kỹ năng:",

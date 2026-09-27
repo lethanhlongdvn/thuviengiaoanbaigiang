@@ -4167,7 +4167,7 @@ function renderIntegrationGvbmFinalPreviewHtml() {
         var sName = les.subjectName || IntegrationService.getSubjectDisplayName(les.subjectKey || 'am_nhac');
         var clsLabel = les.classes ? ('Lớp ' + les.classes) : (les.className || ('Khối ' + les.grade));
         var rawT = les.lessonTitle || les.title || '';
-        var cleanT = (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle) ? IntegrationService.cleanLessonTitle(rawT) : rawT;
+        var cleanT = (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle) ? IntegrationService.cleanLessonTitle(rawT, les, sName) : rawT;
         var periodBadge = les.period ? (String(les.period).indexOf('Tiết') !== -1 ? les.period.split('(')[0].trim() : ('Tiết ' + les.period)) : '';
 
         return `
@@ -4375,8 +4375,8 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     return '<div style="text-align: center; padding: 2rem;">Chưa có dữ liệu bài dạy.</div>';
   }
   if (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle) {
-    if (les.title) les.title = IntegrationService.cleanLessonTitle(les.title);
-    if (les.lessonTitle) les.lessonTitle = IntegrationService.cleanLessonTitle(les.lessonTitle);
+    if (les.title) les.title = IntegrationService.cleanLessonTitle(les.title, les, les.subjectName);
+    if (les.lessonTitle) les.lessonTitle = IntegrationService.cleanLessonTitle(les.lessonTitle, les, les.subjectName);
   }
   if (!les.title && les.lessonTitle) {
     les.title = les.lessonTitle;
@@ -4718,13 +4718,19 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
   var rawTitle = les.lessonTitle || les.title || 'BÀI DẠY';
   var cleanLessonTitle = (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle)
-    ? IntegrationService.cleanLessonTitle(rawTitle)
+    ? IntegrationService.cleanLessonTitle(rawTitle, les, subjName)
     : rawTitle
         .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
         .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
         .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
         .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
         .trim();
+
+  // Phòng hộ đa tầng: tuyệt đối không để tiêu đề bài trùng trơ trọi tên môn học
+  if (cleanLessonTitle && cleanLessonTitle.trim().toUpperCase() === subjName.trim().toUpperCase()) {
+    if (les.topic) cleanLessonTitle = les.topic;
+    else if (les.period) cleanLessonTitle = subjName + ' (' + les.period + ')';
+  }
 
   if (previewDateStr && /ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i.test(cleanLessonTitle)) {
     cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + previewDateStr);

@@ -14,7 +14,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "BÀI 1: LỢI ÍCH CỦA HOA, CÂY CẢNH ĐỐI VỚI ĐỜI SỐNG (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -122,7 +122,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 2",
+        "lessonTitle": "BÀI 1: LỢI ÍCH CỦA HOA, CÂY CẢNH ĐỐI VỚI ĐỜI SỐNG (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -226,7 +226,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 3",
+        "lessonTitle": "BÀI 1: LỢI ÍCH CỦA HOA, CÂY CẢNH ĐỐI VỚI ĐỜI SỐNG (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -338,7 +338,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "BÀI 2: MỘT SỐ LOẠI HOA, CÂY CẢNH PHỔ BIẾN (TIẾT 1)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -447,7 +447,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 2",
+        "lessonTitle": "BÀI 2: MỘT SỐ LOẠI HOA, CÂY CẢNH PHỔ BIẾN (TIẾT 2)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -552,7 +552,7 @@
     "sourceFile": "CÔNG NGHỆ TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 3",
+        "lessonTitle": "BÀI 2: MỘT SỐ LOẠI HOA, CÂY CẢNH PHỔ BIẾN (TIẾT 3)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",

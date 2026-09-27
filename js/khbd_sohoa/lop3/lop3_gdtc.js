@@ -2138,7 +2138,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 37",
+        "lessonTitle": "BÀI 3: BÀI TẬP PHỐI HỢP DI CHUYỂN VƯỢT QUA CHƯỚNG NGẠI VẬT TRÊN ĐỊA HÌNH (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -2255,7 +2255,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 38",
+        "lessonTitle": "BÀI 3: BÀI TẬP PHỐI HỢP DI CHUYỂN VƯỢT QUA CHƯỚNG NGẠI VẬT TRÊN ĐỊA HÌNH (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -2378,7 +2378,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 39",
+        "lessonTitle": "BÀI 3: BÀI TẬP PHỐI HỢP DI CHUYỂN VƯỢT QUA CHƯỚNG NGẠI VẬT TRÊN ĐỊA HÌNH (Tiết 3)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -2495,7 +2495,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 40",
+        "lessonTitle": "BÀI 3: BÀI TẬP PHỐI HỢP DI CHUYỂN VƯỢT QUA CHƯỚNG NGẠI VẬT TRÊN ĐỊA HÌNH (Tiết 4)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -2618,7 +2618,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 41",
+        "lessonTitle": "BÀI 3: BÀI TẬP PHỐI HỢP DI CHUYỂN VƯỢT QUA CHƯỚNG NGẠI VẬT TRÊN ĐỊA HÌNH (Tiết 5)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -2735,7 +2735,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 42",
+        "lessonTitle": "BÀI 3: BÀI TẬP PHỐI HỢP DI CHUYỂN VƯỢT QUA CHƯỚNG NGẠI VẬT TRÊN ĐỊA HÌNH (Tiết 6)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -2858,7 +2858,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 43",
+        "lessonTitle": "BÀI 4: BÀI TẬP TẠI CHỖ TUNG - BẮT BÓNG BẰNG HAI TAY (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -2981,7 +2981,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 44",
+        "lessonTitle": "BÀI 4: BÀI TẬP TẠI CHỖ TUNG - BẮT BÓNG BẰNG HAI TAY (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -3110,7 +3110,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 45",
+        "lessonTitle": "BÀI 4: BÀI TẬP TẠI CHỖ TUNG - BẮT BÓNG BẰNG HAI TAY (Tiết 3)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -3233,7 +3233,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 46",
+        "lessonTitle": "BÀI 4: BÀI TẬP TẠI CHỖ TUNG - BẮT BÓNG BẰNG HAI TAY (Tiết 4)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -3362,7 +3362,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 47",
+        "lessonTitle": "BÀI 5: BÀI TẬP DI CHUYỂN TUNG - BẮT BÓNG BẰNG HAI TAY (Tiết 1)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -3485,7 +3485,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 48",
+        "lessonTitle": "BÀI 5: BÀI TẬP DI CHUYỂN TUNG - BẮT BÓNG BẰNG HAI TAY (Tiết 2)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -3614,7 +3614,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 49",
+        "lessonTitle": "BÀI 5: BÀI TẬP DI CHUYỂN TUNG - BẮT BÓNG BẰNG HAI TAY (Tiết 3)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -3737,7 +3737,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 50",
+        "lessonTitle": "BÀI 5: BÀI TẬP DI CHUYỂN TUNG - BẮT BÓNG BẰNG HAI TAY (Tiết 4)",
         "topic": "CHỦ ĐỀ 3: TƯ THẾ VÀ KĨ NĂNG VẬN ĐỘNG CƠ BẢN",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -3866,7 +3866,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 51",
+        "lessonTitle": "BÀI 1: BÀI TẬP BỔ TRỢ VỚI BÓNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -3989,7 +3989,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 52",
+        "lessonTitle": "BÀI 1: BÀI TẬP BỔ TRỢ VỚI BÓNG (Tiết 2)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4118,7 +4118,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 53",
+        "lessonTitle": "BÀI 1: BÀI TẬP BỔ TRỢ VỚI BÓNG (Tiết 3)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4241,7 +4241,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 54",
+        "lessonTitle": "BÀI 1: BÀI TẬP BỔ TRỢ VỚI BÓNG (Tiết 4)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4370,7 +4370,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 55",
+        "lessonTitle": "BÀI 2: ĐỘNG TÁC DẪN BÓNG THEO HƯỚNG THẲNG, DẪN BÓNG ĐỔI HƯỚNG (Tiết 1)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4493,7 +4493,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 56",
+        "lessonTitle": "BÀI 2: ĐỘNG TÁC DẪN BÓNG THEO HƯỚNG THẲNG, DẪN BÓNG ĐỔI HƯỚNG (Tiết 2)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4622,7 +4622,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 57",
+        "lessonTitle": "BÀI 2: ĐỘNG TÁC DẪN BÓNG THEO HƯỚNG THẲNG, DẪN BÓNG ĐỔI HƯỚNG (Tiết 3)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4745,7 +4745,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 58",
+        "lessonTitle": "BÀI 2: ĐỘNG TÁC DẪN BÓNG THEO HƯỚNG THẲNG, DẪN BÓNG ĐỔI HƯỚNG (Tiết 4)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4875,7 +4875,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "TRƯỚC NGỰC (Tiết 1 )",
+        "lessonTitle": "BÀI 3: ĐỘNG TÁC CHUYỀN BÓNG BẰNG HAI TAY (Tiết 1)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -4999,7 +4999,7 @@
         ]
       },
       {
-        "lessonTitle": "TRƯỚC NGỰC (Tiết 2 )",
+        "lessonTitle": "BÀI 3: ĐỘNG TÁC CHUYỀN BÓNG BẰNG HAI TAY (Tiết 2)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -5129,7 +5129,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "TRƯỚC NGỰC (Tiết 3 )",
+        "lessonTitle": "BÀI 3: ĐỘNG TÁC CHUYỀN BÓNG BẰNG HAI TAY (Tiết 3)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -5253,7 +5253,7 @@
         ]
       },
       {
-        "lessonTitle": "TRƯỚC NGỰC (Tiết 4 )",
+        "lessonTitle": "BÀI 3: ĐỘNG TÁC CHUYỀN BÓNG BẰNG HAI TAY (Tiết 4)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -5383,7 +5383,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "TRƯỚC NGỰC (Tiết 5 )",
+        "lessonTitle": "BÀI 3: ĐỘNG TÁC CHUYỀN BÓNG BẰNG HAI TAY (Tiết 5)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -5506,7 +5506,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 64",
+        "lessonTitle": "BÀI 4: BÀI TẬP PHỐI HỢP DẪN BÓNG - NÉM RỔ BẰNG HAI TAY TRƯỚC NGỰC (Tiết 1)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -5629,7 +5629,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 65",
+        "lessonTitle": "BÀI 4: BÀI TẬP PHỐI HỢP DẪN BÓNG - NÉM RỔ BẰNG HAI TAY TRƯỚC NGỰC (Tiết 2)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -5746,7 +5746,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 66",
+        "lessonTitle": "BÀI 4: BÀI TẬP PHỐI HỢP DẪN BÓNG - NÉM RỔ BẰNG HAI TAY TRƯỚC NGỰC (Tiết 3)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -5869,7 +5869,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 67",
+        "lessonTitle": "BÀI 4: BÀI TẬP PHỐI HỢP DẪN BÓNG - NÉM RỔ BẰNG HAI TAY TRƯỚC NGỰC (Tiết 4)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -5986,7 +5986,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 68",
+        "lessonTitle": "BÀI 4: BÀI TẬP PHỐI HỢP DẪN BÓNG - NÉM RỔ BẰNG HAI TAY TRƯỚC NGỰC (Tiết 5)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -6110,7 +6110,7 @@
     "sourceFile": "KHBD GDTC LỚP 3.docx",
     "lessons": [
       {
-        "lessonTitle": "Bài: Ôn bài tập phối hợp dẫn bóng - ném rổ bằng hai tay trước ngực",
+        "lessonTitle": "ĐÁNH GIÁ CUỐI HỌC KÌ II (Tiết 69)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",
@@ -6227,7 +6227,7 @@
         ]
       },
       {
-        "lessonTitle": "Tiết 70",
+        "lessonTitle": "TỔNG KẾT MÔN HỌC (Tiết 70)",
         "topic": "CHỦ ĐỀ 4: THỂ THAO TỰ CHỌN - MÔN BÓNG RỔ",
         "yccd": [
           "1.1. Năng lực đặc thù",

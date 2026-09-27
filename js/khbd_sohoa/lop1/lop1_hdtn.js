@@ -14,7 +14,7 @@
     "sourceFile": "HĐTN TUẦN 1.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 1: SINH HOẠT DƯỚI CỜ: LỄ KHAI GIẢNG",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -97,7 +97,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 1: BÀI 1: LÀM QUEN VỚI BẠN MỚI",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -227,7 +227,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 1: SINH HOẠT LỚP: SƠ KẾT TUẦN 1 - PHƯƠNG HƯỚNG TUẦN 2",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -388,7 +388,7 @@
     "sourceFile": "HĐTN TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 2: SINH HOẠT DƯỚI CỜ: TÌM HIỂU NỘI QUY NHÀ TRƯỜNG",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -471,7 +471,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 2: BÀI 2: NHỮNG VIỆC NÊN LÀM TRONG GIỜ HỌC, GIỜ CHƠI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -601,7 +601,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 2: SINH HOẠT SAO: SƠ KẾT TUẦN 2 - PHƯƠNG HƯỚNG TUẦN 3",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -758,7 +758,7 @@
     "sourceFile": "HĐTN TUẦN 3.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 3: SINH HOẠT DƯỚI CỜ: NÓI LỜI HAY - LÀM VIỆC TỐT",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -841,7 +841,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 3: BÀI 2: NHỮNG VIỆC NÊN LÀM TRONG GIỜ HỌC, GIỜ CHƠI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -952,7 +952,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 3: SINH HOẠT LỚP: LÀM QUEN VỚI SINH HOẠT SAO NHI ĐỒNG",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1121,7 +1121,7 @@
     "sourceFile": "HĐTN TUẦN 4.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 4: SINH HOẠT DƯỚI CỜ: VUI TRUNG THU",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1196,7 +1196,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 4: BÀI 2: NHỮNG VIỆC NÊN LÀM TRONG GIỜ HỌC, GIỜ CHƠI (TIẾT 3)",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1302,7 +1302,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 4: SINH HOẠT LỚP: VUI TRUNG THU",
         "topic": "CHỦ ĐỀ 1: CHÀO NĂM HỌC MỚI",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1459,7 +1459,7 @@
     "sourceFile": "HĐTN TUẦN 5.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 5: SINH HOẠT DƯỚI CỜ: SAO NHI ĐỒNG CHĂM NGOAN",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1538,7 +1538,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 5: BÀI 3: CẢM XÚC CỦA EM",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1673,7 +1673,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 5: SINH HOẠT LỚP: SƠ KẾT TUẦN 5 - PHƯƠNG HƯỚNG TUẦN 6",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1834,7 +1834,7 @@
     "sourceFile": "HĐTN TUẦN 6.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 6 - SINH HOẠT DƯỚI CỜ: HOẠT ĐỘNG NHÂN ĐẠO",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1918,7 +1918,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 6 - BÀI 4: YÊU THƯƠNG CON NGƯỜI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2021,7 +2021,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 6 - SINH HOẠT SAO: SƠ KẾT TUẦN 6 - PHƯƠNG HƯỚNG TUẦN 7",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2172,7 +2172,7 @@
     "sourceFile": "HĐTN TUẦN 7.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 7 - SINH HOẠT DƯỚI CỜ: THỬ LÀM CA SĨ CHÀO MỪNG NGÀY PHỤ NỮ VIỆT NAM 20-10",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2256,7 +2256,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 7 - BÀI 4: YÊU THƯƠNG CON NGƯỜI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2359,7 +2359,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 7 - SINH HOẠT LỚP: SƠ KẾT TUẦN 7 - PHƯƠNG HƯỚNG TUẦN 8",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2514,7 +2514,7 @@
     "sourceFile": "HĐTN TUẦN 8.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 8 - SINH HOẠT DƯỚI CỜ: TUYÊN DƯƠNG TẤM GƯƠNG NHI ĐỒNG CHĂM NGOAN",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2598,7 +2598,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 8 - BÀI 4: YÊU THƯƠNG CON NGƯỜI (TIẾT 3)",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2707,7 +2707,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 8 - SINH HOẠT SAO: SƠ KẾT TUẦN 8 - PHƯƠNG HƯỚNG TUẦN 9",
         "topic": "CHỦ ĐỀ 2: EM BIẾT YÊU THƯƠNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2852,7 +2852,7 @@
     "sourceFile": "HĐTN TUẦN 9.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 9 - SINH HOẠT DƯỚI CỜ: TÌM HIỂU TRUYỀN THỐNG NHÀ TRƯỜNG",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -2936,7 +2936,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 9 - BÀI 5: THÂN THIỆN VỚI BẠN BÈ",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3058,7 +3058,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 9 - SINH HOẠT LỚP: SƠ KẾT TUẦN 9 - PHƯƠNG HƯỚNG TUẦN 10",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3203,7 +3203,7 @@
     "sourceFile": "HĐTN TUẦN 10.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 10 - SINH HOẠT DƯỚI CỜ: LỄ PHÁT ĐỘNG THI ĐUA THỰC HIỆN NĂM ĐIỀU BÁC HỒ DẠY",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3287,7 +3287,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 10 - BÀI 6: THỰC HIỆN NĂM ĐIỀU BÁC HỒ DẠY",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3418,7 +3418,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 10 - SINH HOẠT SAO: SƠ KẾT TUẦN 10 - PHƯƠNG HƯỚNG TUẦN 11",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3573,7 +3573,7 @@
     "sourceFile": "HĐTN TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 11 - SINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY NHÀ GIÁO VIỆT NAM 20-11",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3657,7 +3657,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 11 - BÀI 7: KÍNH YÊU THẦY CÔ (TIẾT 1)",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3760,7 +3760,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 11 - SINH HOẠT LỚP: SƠ KẾT TUẦN 11 - PHƯƠNG HƯỚNG TUẦN 12",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3915,7 +3915,7 @@
     "sourceFile": "HĐTN TUẦN 12.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 12 - SINH HOẠT DƯỚI CỜ: TRƯNG BÀY VÀ GIỚI THIỆU SẢN PHẨM Ở “GÓC TRI ÂN” THẦY CÔ",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -3999,7 +3999,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 12 - BÀI 7: KÍNH YÊU THẦY CÔ (TIẾT 2)",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4103,7 +4103,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 12 - SINH HOẠT SAO: SƠ KẾT TUẦN 12 - PHƯƠNG HƯỚNG TUẦN 13",
         "topic": "CHỦ ĐỀ 3: TRUYỀN THỐNG TRƯỜNG EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4248,7 +4248,7 @@
     "sourceFile": "HĐTN TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 13 - SINH HOẠT DƯỚI CỜ: TÌM HIỂU QUYỀN VÀ BỔN PHẬN CỦA TRẺ EM",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4336,7 +4336,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 13 - BÀI 8: AN TOÀN KHI VUI CHƠI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4444,7 +4444,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 13 - SINH HOẠT LỚP: SƠ KẾT TUẦN 13 - PHƯƠNG HƯỚNG TUẦN 14",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4589,7 +4589,7 @@
     "sourceFile": "HĐTN TUẦN 14.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 14 - SINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY THÀNH LẬP QUÂN ĐỘI NHÂN DÂN VIỆT NAM 22-12",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4673,7 +4673,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 14 - BÀI 8: AN TOÀN KHI VUI CHƠI (TIẾT 2)",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4787,7 +4787,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 14 - SINH HOẠT SAO: SƠ KẾT TUẦN 14 - PHƯƠNG HƯỚNG TUẦN 15",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -4932,7 +4932,7 @@
     "sourceFile": "HĐTN TUẦN 15.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 15 - SINH HOẠT DƯỚI CỜ: DIỄN ĐÀN PHÒNG CHỐNG BẠO LỰC HỌC ĐƯỜNG",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5013,7 +5013,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 15 - BÀI 9: PHÒNG TRÁNH BỊ BẮT NẠT",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5145,7 +5145,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 15 - SINH HOẠT LỚP: SƠ KẾT TUẦN 15 - PHƯƠNG HƯỚNG TUẦN 16",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5279,7 +5279,7 @@
     "sourceFile": "HĐTN TUẦN 16.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 16 - SINH HOẠT DƯỚI CỜ: AN TOÀN CHO NỤ CƯỜI TRẺ THƠ",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5360,7 +5360,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 16 - BÀI 10: SỬ DỤNG ĐỒ DÙNG AN TOÀN TRONG GIA ĐÌNH",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5479,7 +5479,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 16 - SINH HOẠT SAO: SƠ KẾT TUẦN 16 - PHƯƠNG HƯỚNG TUẦN 17",
         "topic": "CHỦ ĐỀ 4: AN TOÀN CHO EM",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5617,7 +5617,7 @@
     "sourceFile": "HĐTN TUẦN 17.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 17 - SINH HOẠT DƯỚI CỜ: GIAO LƯU \"NÉT ĐẸP TUỔI THƠ\"",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5698,7 +5698,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 17 - BÀI 11: CHÂN DUNG CỦA EM",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5814,7 +5814,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 17 - SINH HOẠT LỚP: SƠ KẾT TUẦN 17 - PHƯƠNG HƯỚNG TUẦN 18",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -5952,7 +5952,7 @@
     "sourceFile": "HĐTN TUẦN 18.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 18 - SINH HOẠT DƯỚI CỜ: NGÀY HỘI VÌ SỨC KHỎE HỌC ĐƯỜNG",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6033,7 +6033,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 18 - BÀI 12: GIỮ VỆ SINH CÁ NHÂN",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6158,7 +6158,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 18 - SINH HOẠT SAO: SƠ KẾT TUẦN 18 - PHƯƠNG HƯỚNG TUẦN 19",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6296,7 +6296,7 @@
     "sourceFile": "HĐTN TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 19 - SINH HOẠT DƯỚI CỜ: VỆ SINH AN TOÀN THỰC PHẨM",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6377,7 +6377,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 19 - BÀI 13: ĂN UỐNG HỢP LÍ",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6488,7 +6488,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 19 - SINH HOẠT LỚP: SƠ KẾT TUẦN 19 - PHƯƠNG HƯỚNG TUẦN 20",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6626,7 +6626,7 @@
     "sourceFile": "HĐTN TUẦN 20.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 20 - SINH HOẠT DƯỚI CỜ: NGÀY HỘI TRÌNH DIỄN THỜI TRANG",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6707,7 +6707,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 20 - BÀI 14: SỬ DỤNG TRANG PHỤC HẰNG NGÀY",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6816,7 +6816,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 20 - SINH HOẠT SAO: SƠ KẾT TUẦN 20 - PHƯƠNG HƯỚNG TUẦN 21",
         "topic": "CHỦ ĐỀ 5: EM QUÝ TRỌNG BẢN THÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -6954,7 +6954,7 @@
     "sourceFile": "HĐTN TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 21 - SINH HOẠT DƯỚI CỜ: ỦNG HỘ \"TẾT YÊU THƯƠNG\"",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7035,7 +7035,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 21 - BÀI 15: SẮP XẾP NHÀ CỬA GỌN GÀNG ĐÓN TẾT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7140,7 +7140,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 21 - SINH HOẠT LỚP: SƠ KẾT TUẦN 21 - PHƯƠNG HƯỚNG TUẦN 22",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7278,7 +7278,7 @@
     "sourceFile": "HĐTN TUẦN 22.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 22 - SINH HOẠT DƯỚI CỜ: HỘI CHỢ XUÂN",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7359,7 +7359,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 22 - BÀI 15: SẮP XẾP NHÀ CỬA GỌN GÀNG ĐÓN TẾT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7453,7 +7453,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 22 - SINH HOẠT SAO: SƠ KẾT TUẦN 22 - PHƯƠNG HƯỚNG TUẦN 23",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7591,7 +7591,7 @@
     "sourceFile": "HĐTN TUẦN 23.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 23 - SINH HOẠT DƯỚI CỜ: GIAO LƯU \"ĐÓN TẾT CỔ TRUYỀN DÂN TỘC\"",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7672,7 +7672,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 23 - BÀI 16: ỨNG XỬ KHI ĐƯỢC NHẬN QUÀ NGÀY TẾT (TIẾT 1)",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7787,7 +7787,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 23 - SINH HOẠT LỚP: SƠ KẾT TUẦN 23 - PHƯƠNG HƯỚNG TUẦN 24",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -7921,7 +7921,7 @@
     "sourceFile": "HĐTN TUẦN 24.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 24 - SINH HOẠT DƯỚI CỜ: VUI CHƠI NGÀY TẾT",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8002,7 +8002,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 24 - BÀI 16: ỨNG XỬ KHI ĐƯỢC NHẬN QUÀ NGÀY TẾT (TIẾT 2)",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8107,7 +8107,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 24 - SINH HOẠT SAO: SƠ KẾT TUẦN 24 - PHƯƠNG HƯỚNG TUẦN 25",
         "topic": "CHỦ ĐỀ 6: VUI ĐÓN MÙA XUÂN",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8241,7 +8241,7 @@
     "sourceFile": "HĐTN TUẦN 25.docx",
     "lessons": [
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 25 - SINH HOẠT DƯỚI CỜ: TRÒ CHƠI SINH HOẠT CỘNG ĐỒNG",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8322,7 +8322,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 25 - BÀI 17: HÀNG XÓM NHÀ EM (TIẾT 1)",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8437,7 +8437,7 @@
         ]
       },
       {
-        "lessonTitle": "MÔN: HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 25 - SINH HOẠT LỚP: SƠ KẾT TUẦN 25 - PHƯƠNG HƯỚNG TUẦN 26",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8575,7 +8575,7 @@
     "sourceFile": "HĐTN TUẦN 26.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 26 - SINH HOẠT DƯỚI CỜ: CHÀO MỪNG NGÀY QUỐC TẾ PHỤ NỮ 8-3",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8656,7 +8656,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 26 - BÀI 17: HÀNG XÓM NHÀ EM (TIẾT 2)",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8766,7 +8766,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 26 - SINH HOẠT LỚP: SƠ KẾT TUẦN 26 - PHƯƠNG HƯỚNG TUẦN 27",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8903,7 +8903,7 @@
     "sourceFile": "HĐTN TUẦN 27.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 27 - SINH HOẠT DƯỚI CỜ: EM LÀM KẾ HOẠCH NHỎ",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -8984,7 +8984,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 27 - BÀI 18: EM THAM GIA CÁC HOẠT ĐỘNG XÃ HỘI (TIẾT 1)",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9094,7 +9094,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 27 - SINH HOẠT LỚP: SƠ KẾT TUẦN 27 - PHƯƠNG HƯỚNG TUẦN 28",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9231,7 +9231,7 @@
     "sourceFile": "HĐTN TUẦN 28.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 28 - SINH HOẠT DƯỚI CỜ: TUỔI NHỎ LÀM VIỆC NHỎ - NUÔI HEO ĐẤT GIÚP BẠN ĐẾN TRƯỜNG",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9312,7 +9312,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 28 - BÀI 18: EM THAM GIA CÁC HOẠT ĐỘNG XÃ HỘI (TIẾP)",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9422,7 +9422,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 28 - SINH HOẠT SAO: SƠ KẾT TUẦN 28 - PHƯƠNG HƯỚNG TUẦN 29",
         "topic": "CHỦ ĐỀ 7: THAM GIA HOẠT ĐỘNG CỘNG ĐỒNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9559,7 +9559,7 @@
     "sourceFile": "HĐTN TUẦN 29.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 29 - SINH HOẠT DƯỚI CỜ: CHĂM SÓC VƯỜN CÂY NHÀ TRƯỜNG",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9650,7 +9650,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 29 - BÀI 19: THIÊN NHIÊN TƯƠI ĐẸP QUÊ EM (TIẾT 1)",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9760,7 +9760,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 29 - SINH HOẠT LỚP: SƠ KẾT TUẦN 29 - PHƯƠNG HƯỚNG TUẦN 30",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9907,7 +9907,7 @@
     "sourceFile": "HĐTN TUẦN 30.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 30 - SINH HOẠT DƯỚI CỜ: EM TẬP LÀM HƯỚNG DẪN VIÊN DU LỊCH",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -9988,7 +9988,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 30 - BÀI 19: THIÊN NHIÊN TƯƠI ĐẸP QUÊ EM (TIẾP)",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10098,7 +10098,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 30 - SINH HOẠT SAO: SƠ KẾT TUẦN 30 - PHƯƠNG HƯỚNG TUẦN 31",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10235,7 +10235,7 @@
     "sourceFile": "HĐTN TUẦN 31.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 31 - SINH HOẠT DƯỚI CỜ: HÁT CA NGỢI CẢNH ĐẸP QUÊ HƯƠNG",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10326,7 +10326,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 31 - BÀI 20: EM BẢO VỆ CẢNH QUAN THIÊN NHIÊN (TIẾT 1)",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10445,7 +10445,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 31 - SINH HOẠT LỚP: SƠ KẾT TUẦN 31 - PHƯƠNG HƯỚNG TUẦN 32",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10592,7 +10592,7 @@
     "sourceFile": "HĐTN TUẦN 32.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 32 - SINH HOẠT DƯỚI CỜ: NGÀY HỘI SÁCH TRƯỜNG EM",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10673,7 +10673,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 32 - BÀI 20: EM BẢO VỆ CẢNH QUAN THIÊN NHIÊN (TIẾT 2)",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10793,7 +10793,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 32 - SINH HOẠT SAO: SƠ KẾT TUẦN 32 - PHƯƠNG HƯỚNG TUẦN 33",
         "topic": "CHỦ ĐỀ 8: QUÊ HƯƠNG TƯƠI ĐẸP",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -10940,7 +10940,7 @@
     "sourceFile": "HĐTN TUẦN 33.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 33 - SINH HOẠT DƯỚI CỜ: THÂN THIỆN VỚI MÔI TRƯỜNG",
         "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11031,7 +11031,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 33 - BÀI 21: GIỮ GÌN MÔI TRƯỜNG SẠCH, ĐẸP (TIẾT 1)",
         "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11141,7 +11141,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 33 - SINH HOẠT LỚP: SƠ KẾT TUẦN 33 - PHƯƠNG HƯỚNG TUẦN 34",
         "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11288,7 +11288,7 @@
     "sourceFile": "HĐTN TUẦN 34.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 34 - SINH HOẠT DƯỚI CỜ: MỪNG SINH NHẬT BÁC HỒ, MỪNG ĐỘI TA TRƯỞNG THÀNH",
         "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11379,7 +11379,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 34 - BÀI 21: GIỮ GÌN MÔI TRƯỜNG SẠCH, ĐẸP (TIẾT 2)",
         "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11498,7 +11498,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 34 - SINH HOẠT SAO: SƠ KẾT TUẦN 34 - PHƯƠNG HƯỚNG TUẦN 35",
         "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11645,7 +11645,7 @@
     "sourceFile": "HĐTN TUẦN 35.docx",
     "lessons": [
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 35 - SINH HOẠT DƯỚI CỜ: LỄ TỔNG KẾT NĂM HỌC",
         "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11726,7 +11726,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 35 - BÀI 21: GIỮ GÌN MÔI TRƯỜNG SẠCH, ĐẸP (TIẾT 3)",
         "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -11836,7 +11836,7 @@
         ]
       },
       {
-        "lessonTitle": "HOẠT ĐỘNG TRẢI NGHIỆM",
+        "lessonTitle": "TUẦN 35 - SINH HOẠT LỚP - TỔNG KẾT NĂM HỌC: SƠ KẾT TUẦN 35 - PHƯƠNG HƯỚNG TUẦN HÈ",
         "topic": "CHỦ ĐỀ 9: EM BẢO VỆ MÔI TRƯỜNG",
         "yccd": [
           "1. Năng lực đặc thù",

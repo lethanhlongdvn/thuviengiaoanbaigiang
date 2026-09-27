@@ -12144,7 +12144,7 @@
     "sourceFile": "TOÁN TUẦN 19.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 19",
+        "lessonTitle": "BÀI: NHÂN VỚI SỐ CÓ MỘT CHỮ SỐ (TIẾT 91)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -14131,7 +14131,7 @@
     "sourceFile": "TOÁN TUẦN 21.docx",
     "lessons": [
       {
-        "lessonTitle": "TUẦN 21",
+        "lessonTitle": "LUYỆN TẬP (TIẾT 101)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",

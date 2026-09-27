@@ -52,7 +52,7 @@ var KHBD_DATA = {
     return list;
   },
 
-  renderLessonPreviewHtml: function(lesson, weekNum, highlightIntegration) {
+  renderLessonPreviewHtml: function(lesson, weekNum, highlightIntegration, subjectName) {
     if (!lesson) return '<p>Không tìm thấy nội dung giáo án bài học.</p>';
 
     var yccdHtml = (lesson.yccd || []).map(function(line) {
@@ -132,7 +132,7 @@ var KHBD_DATA = {
 
     var rawTitle = lesson.lessonTitle || 'KẾ HOẠCH BÀI DẠY';
     var cleanLessonTitle = (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle)
-      ? IntegrationService.cleanLessonTitle(rawTitle)
+      ? IntegrationService.cleanLessonTitle(rawTitle, lesson, subjectName)
       : rawTitle
         .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
         .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
@@ -150,6 +150,11 @@ var KHBD_DATA = {
         .replace(/\s*[\-–—]+\s*$/g, '')
         .replace(/^\s*[\-–—]+\s*/g, '')
         .trim();
+
+    if (!cleanLessonTitle || /^(?:TUẦN\s*\d+|TIẾT\s*\d+|BÀI\s*DẠY)$/i.test(cleanLessonTitle)) {
+      if (lesson.topic) cleanLessonTitle = lesson.topic;
+      else if (lesson.period) cleanLessonTitle = 'BÀI DẠY (' + lesson.period + ')';
+    }
 
     return '<div class="lesson-plan-preview" style="font-family: Times New Roman, serif; font-size: 12pt; line-height: 1.45; color: #000; background: #fff; padding: 1.25rem; border: 1px solid #cbd5e1; border-radius: 4px;">' +
       '<div style="text-align: center; margin-bottom: 1rem;"><h3 style="font-size: 14pt; font-weight: 800; margin: 0; text-transform: uppercase;">' + (cleanLessonTitle || 'KẾ HOẠCH BÀI DẠY') + '</h3>' +

@@ -1210,7 +1210,7 @@
     "sourceFile": "Giao_an_tich_hop- tuan 13-18- lơp 4.docx",
     "lessons": [
       {
-        "lessonTitle": "Tiết 18",
+        "lessonTitle": "ĐÁNH GIÁ CUỐI HỌC KÌ I - BIỂU DIỄN MỘT SỐ BÀI HÁT ĐÃ HỌC (TIẾT 18)",
         "topic": "- Nội dung: Thảo luận nhóm thống nhất hình tiết tấu, thực hành đệm hát và tổng kết chủ đề.",
         "yccd": [
           "1. Năng lực đặc thù:",

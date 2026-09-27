@@ -883,9 +883,12 @@ var IntegrationService = {
   /**
    * Làm sạch tiêu đề bài dạy: loại bỏ tiền tố Tuần, chuỗi rác điều chỉnh sau bài dạy, dấu chấm lửng...
    */
-  cleanLessonTitle: function(rawTitle) {
-    if (!rawTitle || typeof rawTitle !== 'string') return 'BÀI DẠY';
-    var t = rawTitle
+  cleanLessonTitle: function(rawTitle, lessonObj, subjectName) {
+    if ((!rawTitle || typeof rawTitle !== 'string') && lessonObj) {
+      rawTitle = lessonObj.lessonTitle || lessonObj.title || '';
+    }
+    var t = (rawTitle && typeof rawTitle === 'string') ? rawTitle : '';
+    t = t
       .replace(/^TUẦN\s*:\s*\d+\s*[-–—:]\s*/i, '')
       .replace(/^TUẦN\s+\d+\s*[-–—:]\s*/i, '')
       .replace(/^Tuần\s*:\s*\d+\s*[-–—:]\s*/i, '')
@@ -927,9 +930,38 @@ var IntegrationService = {
     t = t.replace(/\s*[\-–—]+\s*$/g, '');
     t = t.replace(/^\s*[\-–—]+\s*/g, '');
     t = t.replace(/^[.\s_–—-]{3,}\s*/, '');
-    t = t.replace(/\s{2,}/g, ' ');
+    t = t.replace(/\s{2,}/g, ' ').trim();
 
-    return t.trim() || 'BÀI DẠY';
+    // KIỂM TRA TIÊU ĐỀ RỖNG / GENERIC / TRÙNG TÊN MÔN VÀ TỰ ĐỘNG BÙ ĐẮP THÔNG MINH
+    var normT = t.replace(/[\s\-_–—:]+/g, ' ').toUpperCase().trim();
+    var normSubj = (subjectName || '').replace(/[\s\-_–—:]+/g, ' ').toUpperCase().trim();
+
+    var isGeneric = !normT ||
+      normT === 'BÀI DẠY' ||
+      normT === 'KẾ HOẠCH BÀI DẠY' ||
+      normT === 'GIÁO ÁN' ||
+      /^(?:TUẦN\s*\d+|TIẾT\s*\d+)$/i.test(t) ||
+      (normSubj && normT === normSubj) ||
+      /^(?:TIẾNG VIỆT|TOÁN|ĐẠO ĐỨC|KHOA HỌC|LỊCH SỬ VÀ ĐỊA LÍ|ÂM NHẠC|CÔNG NGHỆ|HĐTN|HOẠT ĐỘNG TRẢI NGHIỆM|GDTC|GIÁO DỤC THỂ CHẤT|TỰ NHIÊN VÀ XÃ HỘI|TNXH)\s*$/i.test(t);
+
+    if (isGeneric && lessonObj) {
+      var fallbackTopic = (lessonObj.topic || '').trim();
+      var fallbackPeriod = (lessonObj.period || '').trim();
+      var tPeriodMatch = t.match(/tiết\s*\d+/i);
+      var effectivePeriod = fallbackPeriod || (tPeriodMatch ? tPeriodMatch[0] : '');
+
+      if (fallbackTopic) {
+        if (effectivePeriod && !fallbackTopic.toLowerCase().includes(effectivePeriod.toLowerCase())) {
+          return fallbackTopic + ' (' + effectivePeriod + ')';
+        }
+        return fallbackTopic;
+      }
+      if (effectivePeriod) {
+        return (subjectName || 'BÀI DẠY') + ' (' + effectivePeriod + ')';
+      }
+    }
+
+    return t || 'BÀI DẠY';
   },
 
 
@@ -2051,7 +2083,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           lessonItem.week = wNum;
           lessonItem.periodsPerWeek = periods;
           var rawT = baseLesson.lessonTitle || baseLesson.title || dispSubj;
-          lessonItem.lessonTitle = IntegrationService.cleanLessonTitle(rawT);
+          lessonItem.lessonTitle = IntegrationService.cleanLessonTitle(rawT, baseLesson, dispSubj);
 
           if (units.length > 1) {
             lessonItem.period = 'Tiết ' + (uIdx + 1) + (unit.isDouble ? (' (Phần ' + unit.part + ')') : '');
@@ -4432,7 +4464,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       }
 
       var rawTitle = les.lessonTitle || les.title || 'BÀI DẠY';
-      var cleanLessonTitle = IntegrationService.cleanLessonTitle(rawTitle);
+      var cleanLessonTitle = IntegrationService.cleanLessonTitle(rawTitle, les, subjName);
+
+      // Phòng hộ đa tầng: tuyệt đối không để tiêu đề bài trùng trơ trọi tên môn học
+      if (cleanLessonTitle && cleanLessonTitle.trim().toUpperCase() === subjName.trim().toUpperCase()) {
+        if (les.topic) cleanLessonTitle = les.topic;
+        else if (les.period) cleanLessonTitle = subjName + ' (' + les.period + ')';
+      }
 
       if (dateStr && /ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i.test(cleanLessonTitle)) {
         cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + dateStr);

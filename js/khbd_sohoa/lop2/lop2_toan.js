@@ -7492,7 +7492,7 @@
         "title": "BÀI 18. LUYỆN TẬP CHUNG"
       },
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "BÀI 19. PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7715,7 +7715,7 @@
         "title": "TIẾT 1"
       },
       {
-        "lessonTitle": "TIẾT 2: LUYỆN TẬP",
+        "lessonTitle": "BÀI 19. PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ - TIẾT 2: LUYỆN TẬP",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -7927,7 +7927,7 @@
         "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 3: LUYỆN TẬP",
+        "lessonTitle": "BÀI 19. PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ MỘT CHỮ SỐ - TIẾT 3: LUYỆN TẬP",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8146,7 +8146,7 @@
         "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "BÀI 20. PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ - TIẾT 1",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8360,7 +8360,7 @@
     "sourceFile": "TOÁN TUẦN 11.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 2: LUYỆN TẬP",
+        "lessonTitle": "BÀI 20. PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ - TIẾT 2: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8592,7 +8592,7 @@
         "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 3: LUYỆN TẬP",
+        "lessonTitle": "BÀI 20. PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ - TIẾT 3: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -8801,7 +8801,7 @@
         "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 4: LUYỆN TẬP",
+        "lessonTitle": "BÀI 20. PHÉP CỘNG (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ VỚI SỐ CÓ HAI CHỮ SỐ - TIẾT 4: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9005,7 +9005,7 @@
         "title": "TIẾT 4: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "BÀI 21. LUYỆN TẬP CHUNG - TIẾT 1",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -9230,7 +9230,7 @@
         "title": "TIẾT 1"
       },
       {
-        "lessonTitle": "TIẾT 2",
+        "lessonTitle": "BÀI 21. LUYỆN TẬP CHUNG - TIẾT 2",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10521,7 +10521,7 @@
     "sourceFile": "TOÁN TUẦN 13.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾT 2: LUYỆN TẬP",
+        "lessonTitle": "BÀI 23. PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 2: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10695,7 +10695,7 @@
         "title": "TIẾT 2: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 3: LUYỆN TẬP",
+        "lessonTitle": "BÀI 23. PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 3: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -10845,7 +10845,7 @@
         "title": "TIẾT 3: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 4: LUYỆN TẬP",
+        "lessonTitle": "BÀI 23. PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 4: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -11001,7 +11001,7 @@
         "title": "TIẾT 4: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 5: LUYỆN TẬP",
+        "lessonTitle": "BÀI 23. PHÉP TRỪ (CÓ NHỚ) SỐ CÓ HAI CHỮ SỐ CHO SỐ CÓ HAI CHỮ SỐ - TIẾT 5: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -11159,7 +11159,7 @@
         "title": "TIẾT 5: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "BÀI 24. LUYỆN TẬP CHUNG - TIẾT 1",
         "topic": "CHỦ ĐỀ 4: PHÉP CỘNG, PHÉP TRỪ CÓ NHỚ TRONG PHẠM VI 100",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -12464,7 +12464,7 @@
         "title": "TIẾT 2: VẼ ĐOẠN THẲNG"
       },
       {
-        "lessonTitle": "TIẾT 1: LUYỆN TẬP",
+        "lessonTitle": "BÀI 28. LUYỆN TẬP CHUNG - TIẾT 1: LUYỆN TẬP",
         "topic": "CHỦ ĐỀ 5: LÀM QUEN VỚI HÌNH PHẲNG",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -12632,7 +12632,7 @@
         "title": "TIẾT 1: LUYỆN TẬP"
       },
       {
-        "lessonTitle": "TIẾT 1",
+        "lessonTitle": "BÀI 29. NGÀY - GIỜ, GIỜ - PHÚT - TIẾT 1",
         "topic": "CHỦ ĐỀ 6: NGÀY - GIỜ, GIỜ - PHÚT, NGÀY - THÁNG",
         "yccd": [
           "1. Năng lực đặc thù:",
@@ -12802,7 +12802,7 @@
         "title": "TIẾT 1"
       },
       {
-        "lessonTitle": "TIẾT 2",
+        "lessonTitle": "BÀI 29. NGÀY - GIỜ, GIỜ - PHÚT - TIẾT 2",
         "topic": "CHỦ ĐỀ 6: NGÀY - GIỜ, GIỜ - PHÚT, NGÀY - THÁNG",
         "yccd": [
           "1. Năng lực đặc thù:",

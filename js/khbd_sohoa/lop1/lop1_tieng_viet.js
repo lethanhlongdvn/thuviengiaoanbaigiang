@@ -534,7 +534,7 @@
     "sourceFile": "TV TUẦN 2.docx",
     "lessons": [
       {
-        "lessonTitle": "TIẾNG VIỆT",
+        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 1: A, a (TIẾT 13 + 14)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -766,7 +766,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT",
+        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 2: B, b, DẤU HUYỀN (TIẾT 15 + 16)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1002,7 +1002,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT",
+        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - LUYỆN TẬP: LUYỆN ĐỌC, VIẾT BÀI 1, 2",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1101,7 +1101,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT",
+        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 3: C, c, DẤU SẮC (TIẾT 17 + 18)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1337,7 +1337,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT",
+        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 4: E, e, Ê, ê (TIẾT 19 + 20)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1573,7 +1573,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT",
+        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - LUYỆN TẬP: LUYỆN ĐỌC, VIẾT BÀI 3, 4",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
@@ -1672,7 +1672,7 @@
         ]
       },
       {
-        "lessonTitle": "TIẾNG VIỆT",
+        "lessonTitle": "TIẾNG VIỆT - TUẦN 2 - BÀI 5: ÔN TẬP VÀ KỂ CHUYỆN (TIẾT 21 + 22)",
         "topic": "",
         "yccd": [
           "1. Năng lực đặc thù",
