@@ -52,7 +52,7 @@
               "- HS lắng nghe luật chơi và chuẩn bị tham gia trò chơi theo điều khiển của GV."
             ],
             [
-              "- GV chiếu hình 1 trong SGK và nêu tình huống: Ở vùng cao nguyên đá, cây ngô được trồng trong các khe đất mà không trồng được trên đá.",
+              "- GV chiếu hình 1 trong SGK và nêu tình huống: Ở vùng cao nguyên đá, cây ngô được trồng trong các khe đất mà không trồng được trên đá.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 1, nhận biết cây ngô được trồng trong khe đất ở vùng cao nguyên đá."
             ],
             [
@@ -79,7 +79,7 @@
               "- HS đọc thông tin, nêu: Trong đất có không khí, nước, chất khoáng, mùn và một số thành phần khác."
             ],
             [
-              "- GV giới thiệu thí nghiệm 1: chuẩn bị 1 đĩa chứa ít đất, 1 cốc thủy tinh chứa nước, găng tay; nhắc HS làm việc nhóm 6 và giữ an toàn khi thực hành.",
+              "- GV giới thiệu thí nghiệm 1: chuẩn bị 1 đĩa chứa ít đất, 1 cốc thủy tinh chứa nước, găng tay; nhắc HS làm việc nhóm 6 và giữ an toàn khi thực hành.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát dụng cụ, nhắc lại tên dụng cụ và lắng nghe yêu cầu làm việc nhóm 6."
             ],
             [
@@ -102,7 +102,7 @@
               "2.2. Tìm hiểu thành phần nước có trong đất\nMục tiêu hoạt động: Nhận biết được trong đất có nước thông qua quan sát thí nghiệm đun ống nghiệm chứa đất.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS quan sát hình 3 hoặc video thí nghiệm, yêu cầu HS mô tả ống nghiệm chứa đất trước khi đun, khi đun và sau khi đun.",
+              "- GV tổ chức cho HS quan sát hình 3 hoặc video thí nghiệm, yêu cầu HS mô tả ống nghiệm chứa đất trước khi đun, khi đun và sau khi đun.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3 hoặc video thí nghiệm, chú ý sự khác nhau giữa ống nghiệm trước khi đun và sau khi đun."
             ],
             [
@@ -129,7 +129,7 @@
               "2.3. Tìm hiểu các thành phần chính của đất\nMục tiêu hoạt động: Nhận biết được thành phần của đất gồm chất khoáng, mùn, nước, không khí và một số thành phần khác.\n*Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình 4 và đọc thông tin về thành phần của đất trong SGK.",
+              "- GV cho HS quan sát hình 4 và đọc thông tin về thành phần của đất trong SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 4 và đọc thông tin trong SGK."
             ],
             [
@@ -145,7 +145,7 @@
               "- HS trả lời: Chất khoáng chiếm tỉ lệ nhiều; mùn và một số thành phần khác cũng có trong đất."
             ],
             [
-              "- GV cho HS quan sát hình 5, yêu cầu HS kể tên một số loại đất và nhận xét sự khác nhau về màu sắc, độ mịn, độ tơi của đất.",
+              "- GV cho HS quan sát hình 5, yêu cầu HS kể tên một số loại đất và nhận xét sự khác nhau về màu sắc, độ mịn, độ tơi của đất.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 5, kể tên đất cát, đất thịt, đất sét và nêu mỗi loại đất có màu sắc, độ mịn, độ tơi khác nhau."
             ],
             [
@@ -279,7 +279,7 @@
               "- HS đọc khung thông tin và xác định đất cung cấp chất cần thiết cho cây trồng."
             ],
             [
-              "- GV yêu cầu HS làm việc nhóm đôi, quan sát bộ rễ cây và thông tin ở hình 6; trả lời câu hỏi: Rễ cây lấy những gì từ đất?",
+              "- GV yêu cầu HS làm việc nhóm đôi, quan sát bộ rễ cây và thông tin ở hình 6; trả lời câu hỏi: Rễ cây lấy những gì từ đất?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 6, thảo luận nhóm đôi và trả lời: Rễ cây lấy chất khoáng, mùn, nước, không khí từ đất."
             ],
             [
@@ -310,7 +310,7 @@
               "- HS lập sơ đồ tư duy hoặc ghi các ý chính theo gợi ý của GV."
             ],
             [
-              "- GV cho HS đọc thông tin “Em có biết?” và quan sát hình 7, hình 8 để nhận biết mỗi vùng miền có loại đất khác nhau phù hợp với cây trồng khác nhau.",
+              "- GV cho HS đọc thông tin “Em có biết?” và quan sát hình 7, hình 8 để nhận biết mỗi vùng miền có loại đất khác nhau phù hợp với cây trồng khác nhau.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin “Em có biết?”, quan sát hình 7, hình 8 và nhận xét đất ở các vùng khác nhau phù hợp với các cây trồng khác nhau."
             ],
             [
@@ -329,7 +329,7 @@
               "4. Vận dụng: Hoạt động làm tăng vai trò của đất (12 phút)\nMục tiêu hoạt động: Trình bày được một số hoạt động làm thay đổi thành phần đất và tác dụng của các hoạt động đó đối với cây trồng.\n*Cách tiến hành:"
             ],
             [
-              "- GV cho HS thảo luận nhóm 2, quan sát việc làm của máy móc và con người trong hai bức tranh ở hình 9.",
+              "- GV cho HS thảo luận nhóm 2, quan sát việc làm của máy móc và con người trong hai bức tranh ở hình 9.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 9a, 9b, thảo luận nhóm 2 và ghi kết quả vào phiếu học tập."
             ],
             [
@@ -356,11 +356,11 @@
               "5. Tổng kết - vận dụng trải nghiệm (5 phút)\nMục tiêu hoạt động: Hệ thống hóa kiến thức bài học và vận dụng để chăm sóc, bảo vệ đất trồng cây.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc mục “Em đã học” và nêu lại hai nội dung chính của bài học.",
+              "- GV yêu cầu HS đọc mục “Em đã học” và nêu lại hai nội dung chính của bài học.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc mục “Em đã học”, nêu: thành phần của đất gồm chất khoáng, mùn, nước, không khí; đất giữ cho cây đứng vững và cung cấp chất cần thiết cho cây."
             ],
             [
-              "- GV yêu cầu HS đọc mục “Em có thể”, giải thích tác dụng của việc xới đất và vun đất vào gốc cây trồng.",
+              "- GV yêu cầu HS đọc mục “Em có thể”, giải thích tác dụng của việc xới đất và vun đất vào gốc cây trồng.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_1/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc mục “Em có thể”, giải thích: xới đất giúp đất tơi xốp, thoáng khí; vun đất giúp gốc cây vững hơn."
             ],
             [
@@ -466,7 +466,7 @@
               "- Đại diện nhóm báo cáo tranh ảnh, tư liệu đã sưu tầm về ô nhiễm đất."
             ],
             [
-              "- GV giao nhiệm vụ nhóm 4: Quan sát hình 1, thảo luận và cho biết các nguyên nhân gây ô nhiễm đất; nguyên nhân nào do con người gây ra.",
+              "- GV giao nhiệm vụ nhóm 4: Quan sát hình 1, thảo luận và cho biết các nguyên nhân gây ô nhiễm đất; nguyên nhân nào do con người gây ra.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_2/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 1, thảo luận và nêu: hình 1a rác thải sinh hoạt, hình 1b núi lửa phun trào, hình 1c nước thải chưa xử lí, hình 1d sử dụng thuốc bảo vệ thực vật."
             ],
             [
@@ -481,7 +481,7 @@
               "2.2. Tìm hiểu tác hại của ô nhiễm đất\nMục tiêu hoạt động: Nêu được một số tác hại của ô nhiễm đất đối với thực vật, động vật và sức khỏe con người.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 2 và đọc nội dung bóng nói trong hình.",
+              "- GV yêu cầu HS quan sát hình 2 và đọc nội dung bóng nói trong hình.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_2/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 2, đọc bóng nói và xác định thông tin chính: đất bị ô nhiễm ảnh hưởng đến nguồn nước ngầm."
             ],
             [
@@ -508,11 +508,11 @@
               "2.3. Tìm hiểu biện pháp phòng chống ô nhiễm đất\nMục tiêu hoạt động: Nêu được một số biện pháp phòng chống ô nhiễm đất và biết vận dụng công cụ số để thiết kế poster tuyên truyền.\nMục tiêu tích hợp: HS sử dụng Canva hoặc PowerPoint để thiết kế poster số kêu gọi biện pháp bảo vệ môi trường đất tại địa phương.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc nhóm, quan sát hình 3a, 3b và nêu biện pháp phòng chống ô nhiễm đất thể hiện trong mỗi hình.",
+              "- GV yêu cầu HS làm việc nhóm, quan sát hình 3a, 3b và nêu biện pháp phòng chống ô nhiễm đất thể hiện trong mỗi hình.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_2/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3a, 3b và nêu: tái chế phế liệu; dùng thuốc đúng liều lượng, đúng thời điểm, đúng cách."
             ],
             [
-              "- GV tiếp tục cho HS quan sát hình 3c, 3d và nêu thêm biện pháp phòng chống ô nhiễm đất.",
+              "- GV tiếp tục cho HS quan sát hình 3c, 3d và nêu thêm biện pháp phòng chống ô nhiễm đất.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_2/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3c, 3d và nêu: xử lí chất thải công nghiệp trước khi đưa ra môi trường; ngăn chặn xâm nhập mặn."
             ],
             [
@@ -666,7 +666,7 @@
               "- Đại diện nhóm báo cáo tranh ảnh, tư liệu đã chuẩn bị."
             ],
             [
-              "- GV giao nhiệm vụ nhóm 4: Quan sát hình 4, thảo luận và cho biết nguyên nhân gây xói mòn đất; nguyên nhân nào do con người gây ra.",
+              "- GV giao nhiệm vụ nhóm 4: Quan sát hình 4, thảo luận và cho biết nguyên nhân gây xói mòn đất; nguyên nhân nào do con người gây ra.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_2/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 4, nêu: hình 4a do nước chảy, hình 4b do độ dốc của đất, hình 4c do gió, hình 4d do con người chặt phá rừng."
             ],
             [
@@ -708,7 +708,7 @@
               "2.3. Tìm hiểu biện pháp phòng chống xói mòn đất\nMục tiêu hoạt động: Nêu được ý nghĩa của một số biện pháp phòng chống xói mòn đất.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 5 và nêu tên từng biện pháp phòng chống xói mòn đất.",
+              "- GV yêu cầu HS quan sát hình 5 và nêu tên từng biện pháp phòng chống xói mòn đất.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_2/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 5, nêu tên biện pháp: trồng cây gây rừng, trồng thảm cỏ, xây bờ kè."
             ],
             [
@@ -743,7 +743,7 @@
               "- HS phân tích: tán cây giảm lực rơi của mưa, rễ cây giữ đất, lá mục tạo mùn, đất tơi xốp và thấm nước tốt hơn."
             ],
             [
-              "- GV cho HS quan sát thêm hình 6 trong mục “Em có biết?” để nhận biết xói mòn đất do gió ở dải đất cát ven biển miền Trung.",
+              "- GV cho HS quan sát thêm hình 6 trong mục “Em có biết?” để nhận biết xói mòn đất do gió ở dải đất cát ven biển miền Trung.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_2/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 6, nhận biết ở vùng cát ven biển miền Trung có thể xảy ra xói mòn đất do gió."
             ],
             [
@@ -860,7 +860,7 @@
               "2. Khám phá: Bảo vệ môi trường đất (18 phút) - 2.1. Tìm hiểu ý nghĩa của một số hoạt động bảo vệ môi trường đất\nMục tiêu hoạt động: Nêu được ý nghĩa của một số hoạt động bảo vệ môi trường đất qua hình 7.\n*Cách tiến hành:"
             ],
             [
-              "- GV nêu nhiệm vụ: Quan sát hình 7 và cho biết mỗi hoạt động trong hình có ý nghĩa gì đối với việc bảo vệ môi trường đất.",
+              "- GV nêu nhiệm vụ: Quan sát hình 7 và cho biết mỗi hoạt động trong hình có ý nghĩa gì đối với việc bảo vệ môi trường đất.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_3/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 7, xác định hình 7a là phân loại rác và hình 7b là tuyên truyền bảo vệ môi trường đất."
             ],
             [
@@ -968,7 +968,7 @@
               "4. Vận dụng - Trải nghiệm (4 phút)\nMục tiêu hoạt động: Vận dụng kiến thức đã học để chọn việc làm cụ thể bảo vệ môi trường đất ở gia đình và chia sẻ với người xung quanh.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc mục “Em có thể” trong SGK và nêu hai việc có thể thực hiện sau bài học.",
+              "- GV yêu cầu HS đọc mục “Em có thể” trong SGK và nêu hai việc có thể thực hiện sau bài học.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_3/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc mục “Em có thể” và nêu: chia sẻ về trồng cây gây rừng, thực hiện phân loại rác thải sinh hoạt."
             ],
             [
@@ -995,7 +995,7 @@
               "5. Tổng kết (3 phút)\nMục tiêu hoạt động: Củng cố nội dung đã học về ô nhiễm đất, xói mòn đất và bảo vệ môi trường đất.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS tổng kết bài học theo nội dung mục “Em đã học”.",
+              "- GV tổ chức cho HS tổng kết bài học theo nội dung mục “Em đã học”.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_3/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc mục “Em đã học”, nêu lại các ý chính."
             ],
             [
@@ -1095,7 +1095,7 @@
               "- Đại diện nhóm báo cáo dụng cụ đã chuẩn bị."
             ],
             [
-              "- GV giao nhiệm vụ: Quan sát hình 1 và hình 2, tiến hành thí nghiệm theo nhóm, ghi hiện tượng và kết luận vào phiếu thí nghiệm.",
+              "- GV giao nhiệm vụ: Quan sát hình 1 và hình 2, tiến hành thí nghiệm theo nhóm, ghi hiện tượng và kết luận vào phiếu thí nghiệm.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_3/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 1, hình 2, phân công nhiệm vụ và chuẩn bị làm thí nghiệm."
             ],
             [
@@ -1130,7 +1130,7 @@
               "- HS nhận nhiệm vụ, mỗi cá nhân ghi ý kiến trước khi trao đổi nhóm."
             ],
             [
-              "- GV yêu cầu các nhóm quan sát hình 3, thảo luận và cho biết hỗn hợp nào là dung dịch; giải thích vì sao.",
+              "- GV yêu cầu các nhóm quan sát hình 3, thảo luận và cho biết hỗn hợp nào là dung dịch; giải thích vì sao.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_3/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3 và thảo luận: hình 3c, 3d là dung dịch."
             ],
             [
@@ -1180,11 +1180,11 @@
               "4. Vận dụng - Trải nghiệm (3 phút)\nMục tiêu hoạt động: Tìm hiểu tác dụng của nước muối 0,9% và chuẩn bị dùng công cụ số để ghi lại các bước tách muối khỏi nước.\nMục tiêu tích hợp: HS sử dụng Camera trên điện thoại hoặc máy tính bảng chụp các bước tách muối khỏi nước; dùng Markup hoặc PowerPoint để chú thích từng bước thực hiện.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát mục “Em có biết?” về nước muối 0,9% và nêu một tác dụng của nước muối trong cuộc sống.",
+              "- GV yêu cầu HS quan sát mục “Em có biết?” về nước muối 0,9% và nêu một tác dụng của nước muối trong cuộc sống.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_3/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát mục “Em có biết?” và nêu: nước muối 0,9% dùng để làm sạch vết thương, súc miệng, rửa mũi."
             ],
             [
-              "- GV giới thiệu nhiệm vụ chuẩn bị cho tiết học sau: tìm hiểu cách tách muối ra khỏi dung dịch muối bằng cách làm bay hơi nước.",
+              "- GV giới thiệu nhiệm vụ chuẩn bị cho tiết học sau: tìm hiểu cách tách muối ra khỏi dung dịch muối bằng cách làm bay hơi nước.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_3/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 5, biết tiết sau sẽ tìm hiểu cách tách muối khỏi dung dịch muối."
             ],
             [
@@ -1279,15 +1279,15 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, gợi lại kiến thức về hỗn hợp, dung dịch và liên hệ quy trình làm muối biển.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS đọc nhanh “Vè hỗn hợp” hoặc nhắc lại các ví dụ về hỗn hợp, dung dịch đã học ở tiết trước.",
+              "- GV tổ chức cho HS đọc nhanh “Vè hỗn hợp” hoặc nhắc lại các ví dụ về hỗn hợp, dung dịch đã học ở tiết trước.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS tham gia đọc vè, nêu ví dụ: nước muối, nước đường, hỗn hợp muối và đường, hỗn hợp cát và nước."
             ],
             [
-              "- GV hỏi: Nước biển có vị mặn, vậy người dân làm cách nào để thu được muối từ nước biển?",
+              "- GV hỏi: Nước biển có vị mặn, vậy người dân làm cách nào để thu được muối từ nước biển?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS dự đoán: dẫn nước biển vào ruộng muối, phơi nắng, nước bay hơi, muối còn lại."
             ],
             [
-              "- GV chiếu hoặc nêu quy trình làm muối biển: dẫn nước biển vào giếng, đưa vào ruộng phơi, để nước bay hơi, thu muối kết tinh.",
+              "- GV chiếu hoặc nêu quy trình làm muối biển: dẫn nước biển vào giếng, đưa vào ruộng phơi, để nước bay hơi, thu muối kết tinh.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe, sắp xếp lại các công đoạn của quy trình làm muối biển."
             ],
             [
@@ -1310,11 +1310,11 @@
               "- HS lắng nghe và nhắc lại nhiệm vụ: tách muối ra khỏi dung dịch muối."
             ],
             [
-              "- GV giới thiệu tiêu chí: thu được muối, sử dụng dụng cụ đơn giản để làm nước bay hơi, thao tác an toàn, trình bày được cách làm và giải thích hiện tượng.",
+              "- GV giới thiệu tiêu chí: thu được muối, sử dụng dụng cụ đơn giản để làm nước bay hơi, thao tác an toàn, trình bày được cách làm và giải thích hiện tượng.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS ghi nhớ tiêu chí: có sản phẩm, an toàn, giải thích được hiện tượng."
             ],
             [
-              "- GV cho HS quan sát hình thí nghiệm tách muối trong SGK và nêu tên dụng cụ cần dùng.",
+              "- GV cho HS quan sát hình thí nghiệm tách muối trong SGK và nêu tên dụng cụ cần dùng.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát, nêu: dung dịch muối, bát sứ, kiềng, lưới tản nhiệt, nguồn nhiệt, khăn lau."
             ],
             [
@@ -1399,7 +1399,7 @@
               "- HS nhận xét, góp ý lịch sự cho nhóm bạn."
             ],
             [
-              "- GV đặt câu hỏi vận dụng: Cách làm muối từ nước biển ngoài thực tế giống và khác thí nghiệm của chúng ta ở điểm nào?",
+              "- GV đặt câu hỏi vận dụng: Cách làm muối từ nước biển ngoài thực tế giống và khác thí nghiệm của chúng ta ở điểm nào?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: giống là đều làm nước bay hơi để thu muối; khác là ngoài thực tế dùng ruộng muối và ánh nắng mặt trời."
             ],
             [
@@ -1455,7 +1455,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Giúp HS hứng thú để bắt đầu vào bài học thông qua câu chuyện ngụ ngôn Chú quạ thông minh của Ê-dốp.\n*Cách tiến hành:"
             ],
             [
-              "- GV kể chuyện hoặc cho HS quan sát video Chú quạ thông minh và hỏi: Theo em, con quạ có thể uống nước được không? Vì sao?",
+              "- GV kể chuyện hoặc cho HS quan sát video Chú quạ thông minh và hỏi: Theo em, con quạ có thể uống nước được không? Vì sao?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV kể chuyện hoặc quan sát video nếu có và trả lời: Con quạ uống được nước vì khi thả những viên sỏi vào bình thì nước trong bình dâng lên."
             ],
             [
@@ -1473,7 +1473,7 @@
               "2.1. Phân biệt được ba trạng thái của chất\nMục tiêu: Phân biệt được ba trạng thái của chất.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin, thảo luận nhóm 4 và sắp xếp các chất vào bảng nhóm theo gợi ý trong SGK.",
+              "- GV yêu cầu HS đọc thông tin, thảo luận nhóm 4 và sắp xếp các chất vào bảng nhóm theo gợi ý trong SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS đọc thông tin; cả lớp lắng nghe, đọc thầm và thảo luận nhóm 4 để sắp xếp các chất đã cho vào các cột trong bảng."
             ],
             [
@@ -1500,15 +1500,15 @@
               "- HS ổn định nhóm, nhận nhiệm vụ theo trạm, chuẩn bị phiếu học tập và phân công bạn quan sát, ghi chép, trình bày."
             ],
             [
-              "- GV giao nhiệm vụ cho nhóm 1 và nhóm 4: quan sát phần không khí trong bơm tiêm và trong bóng bay ở hình 2 để trả lời: Chất ở trạng thái khí có hình dạng xác định hay có hình dạng của vật chứa nó? Quan sát vị trí của ruột bơm tiêm ở hình 3 để trả lời: Chất ở trạng thái khí chiếm khoảng không gian xác định hay không xác định?",
+              "- GV giao nhiệm vụ cho nhóm 1 và nhóm 4: quan sát phần không khí trong bơm tiêm và trong bóng bay ở hình 2 để trả lời: Chất ở trạng thái khí có hình dạng xác định hay có hình dạng của vật chứa nó? Quan sát vị trí của ruột bơm tiêm ở hình 3 để trả lời: Chất ở trạng thái khí chiếm khoảng không gian xác định hay không xác định?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm 1 và nhóm 4 quan sát hình 2, hình 3, thảo luận và ghi kết quả: Trạng thái khí không có hình dạng xác định, có hình dạng của vật chứa và chiếm khoảng không gian không xác định."
             ],
             [
-              "- GV giao nhiệm vụ cho nhóm 2 và nhóm 5: quan sát hình dạng của nước khi thay đổi vật chứa ở hình 4 để trả lời: Chất ở trạng thái lỏng có hình dạng xác định hay có hình dạng của vật chứa nó? So sánh số mi-li-lít nước trong ống đong và bình tam giác để trả lời: Chất ở trạng thái lỏng chiếm khoảng không gian xác định hay không xác định?",
+              "- GV giao nhiệm vụ cho nhóm 2 và nhóm 5: quan sát hình dạng của nước khi thay đổi vật chứa ở hình 4 để trả lời: Chất ở trạng thái lỏng có hình dạng xác định hay có hình dạng của vật chứa nó? So sánh số mi-li-lít nước trong ống đong và bình tam giác để trả lời: Chất ở trạng thái lỏng chiếm khoảng không gian xác định hay không xác định?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm 2 và nhóm 5 quan sát hình 4, thảo luận và ghi kết quả: Trạng thái lỏng không có hình dạng xác định, có hình dạng của vật chứa và chiếm khoảng không gian xác định."
             ],
             [
-              "- GV giao nhiệm vụ cho nhóm 3 và nhóm 6: đọc thông tin, quan sát hình 5 để nhận xét đặc điểm về hình dạng của chất ở trạng thái rắn; tiếp tục quan sát mực nước trước và sau khi thả viên đá ở hình 6 để trả lời: Chất ở trạng thái rắn chiếm khoảng không gian xác định hay không xác định?",
+              "- GV giao nhiệm vụ cho nhóm 3 và nhóm 6: đọc thông tin, quan sát hình 5 để nhận xét đặc điểm về hình dạng của chất ở trạng thái rắn; tiếp tục quan sát mực nước trước và sau khi thả viên đá ở hình 6 để trả lời: Chất ở trạng thái rắn chiếm khoảng không gian xác định hay không xác định?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm 3 và nhóm 6 quan sát hình 5, hình 6, thảo luận và ghi kết quả: Trạng thái rắn có hình dạng xác định và chiếm khoảng không gian xác định."
             ],
             [
@@ -1531,7 +1531,7 @@
               "3. Luyện tập (4 phút)\nMục tiêu: HS vận dụng được đặc điểm của chất ở trạng thái rắn có hình dạng xác định để giải thích việc sử dụng các hình đồng dạng trong trò chơi xếp hình.\n*Cách tiến hành:"
             ],
             [
-              "- GV đưa ra câu hỏi: Người ta đã vận dụng đặc điểm nào của chất ở trạng thái rắn trong trò chơi xếp hình ở hình 7?",
+              "- GV đưa ra câu hỏi: Người ta đã vận dụng đặc điểm nào của chất ở trạng thái rắn trong trò chơi xếp hình ở hình 7?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS suy nghĩ, dựa vào kiến thức về đặc điểm của chất rắn để trả lời: Người ta đã vận dụng đặc điểm chất rắn có hình dạng xác định trong trò chơi xếp gỗ."
             ],
             [
@@ -1542,7 +1542,7 @@
               "4. Vận dụng (3 phút)\nMục tiêu: HS vận dụng được đặc điểm của chất ở trạng thái rắn chiếm khoảng không gian xác định để giải thích việc nước trong bình dâng lên.\n*Cách tiến hành:"
             ],
             [
-              "- GV nêu câu hỏi: Con quạ trong hoạt động mở đầu đã làm gì để nước dâng lên trong bình? Lượng nước dâng lên thể hiện rõ đặc điểm nào của chất ở trạng thái rắn?",
+              "- GV nêu câu hỏi: Con quạ trong hoạt động mở đầu đã làm gì để nước dâng lên trong bình? Lượng nước dâng lên thể hiện rõ đặc điểm nào của chất ở trạng thái rắn?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_4/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS suy nghĩ trả lời: Để mực nước trong bình dâng lên, con quạ đã gắp sỏi cho vào bình chứa nước. Lượng nước dâng lên thể hiện rõ chất ở trạng thái rắn chiếm khoảng không gian xác định."
             ],
             [
@@ -1625,7 +1625,7 @@
               "2. Khám phá: Sự biến đổi trạng thái của chất (18 phút)\nMục tiêu: HS trình bày được ví dụ về sự biến đổi trạng thái của chất.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 8, đọc thí nghiệm tìm hiểu sự biến đổi trạng thái của nến.",
+              "- GV yêu cầu HS quan sát hình 8, đọc thí nghiệm tìm hiểu sự biến đổi trạng thái của nến.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_5/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát: nến vụn được đun nóng chuyển thành chất lỏng, khi để nguội lại đông lại."
             ],
             [
@@ -1637,7 +1637,7 @@
               "- HS trả lời: Nến lỏng chuyển lại thành nến rắn."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin về cồn và quan sát hình 9.",
+              "- GV yêu cầu HS đọc thông tin về cồn và quan sát hình 9.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_5/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: cồn là chất lỏng, dễ bay hơi ở nhiệt độ phòng; ô-xi trong bình chuyển thành khí để bệnh nhân hít thở."
             ],
             [
@@ -1652,7 +1652,7 @@
               "3. Luyện tập (9 phút)\nMục tiêu: HS giải thích được hiện tượng biến đổi trạng thái trong một số tình huống.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 10, đọc thông tin về băng ở Bắc Cực và trả lời câu hỏi.",
+              "- GV yêu cầu HS quan sát hình 10, đọc thông tin về băng ở Bắc Cực và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_5/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Nhiệt độ tăng làm băng tan; gấu Bắc Cực có thể mất nơi sống."
             ],
             [
@@ -1770,7 +1770,7 @@
               "2. Khám phá: Nhận biết biến đổi hóa học (18 phút)\nMục tiêu: HS nhận biết được một số dấu hiệu của sự biến đổi hóa học.\nMục tiêu tích hợp: NLS 1.1.CB2a: HS biết xem video thí nghiệm an toàn từ YouTube Kids hoặc học liệu NXB Giáo dục và chọn lọc thông tin phù hợp để hỗ trợ bài học.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 2, nhận xét màu sắc, hình dạng mẩu giấy trước và sau khi đốt.",
+              "- GV yêu cầu HS quan sát hình 2, nhận xét màu sắc, hình dạng mẩu giấy trước và sau khi đốt.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_5/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát: giấy trắng bị cháy thành tro đen, không còn hình dạng ban đầu."
             ],
             [
@@ -1797,7 +1797,7 @@
               "3. Luyện tập (9 phút)\nMục tiêu: HS phân biệt được biến đổi hóa học với một số biến đổi khác.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 4, hình 5, nêu trường hợp nào là biến đổi hóa học và giải thích.",
+              "- GV yêu cầu HS quan sát hình 4, hình 5, nêu trường hợp nào là biến đổi hóa học và giải thích.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_5/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Thanh củi cháy chuyển màu đen là biến đổi hóa học; xi măng trộn cát khô chưa phải; nước bay hơi là biến đổi trạng thái; nến nóng chảy là biến đổi trạng thái."
             ],
             [
@@ -2073,7 +2073,7 @@
               "- HS làm việc nhóm; mỗi thành viên lần lượt kết nối ý tưởng trung tâm với ý tưởng của cá nhân để mô tả ý tưởng thông qua hình ảnh, biểu tượng hoặc một vài kí tự ngắn gọn."
             ],
             [
-              "- GV tổ chức hoạt động theo nhóm; đưa ra câu hỏi gợi ý để các nhóm lập sơ đồ.",
+              "- GV tổ chức hoạt động theo nhóm; đưa ra câu hỏi gợi ý để các nhóm lập sơ đồ.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_6/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 1, đọc các nhánh kiến thức chính: đất, hỗn hợp - dung dịch, sự biến đổi của chất; thảo luận để hoàn thiện sơ đồ của nhóm."
             ],
             [
@@ -2092,7 +2092,7 @@
               "2.2. Hoạt động 2: Vận dụng kiến thức chủ đề Chất vào tình huống thực tế\nMục tiêu: Vận dụng được kiến thức của chủ đề để giải thích cũng như xử lí một số tình huống đơn giản trong cuộc sống.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS chơi trò chơi Thực khách thông thái. Các nhóm cử đại diện lên chọn một trong số thực đơn của nhà hàng. Mỗi thực đơn có 1 món khai vị, 1 món chính và 1 món tráng miệng. Mỗi món ăn là một phần kiến thức trong chủ đề Chất. GV lồng các bài tập ở các câu 2, 3, 4 SGK và các nội dung kiến thức đã học ở chủ đề này vào thực đơn để HS có thể nói được nhiều nhất các nội dung đã học (GV có thể tham khảo “menu thực đơn” ở Phụ lục).",
+              "- GV tổ chức cho HS chơi trò chơi Thực khách thông thái. Các nhóm cử đại diện lên chọn một trong số thực đơn của nhà hàng. Mỗi thực đơn có 1 món khai vị, 1 món chính và 1 món tráng miệng. Mỗi món ăn là một phần kiến thức trong chủ đề Chất. GV lồng các bài tập ở các câu 2, 3, 4 SGK và các nội dung kiến thức đã học ở chủ đề này vào thực đơn để HS có thể nói được nhiều nhất các nội dung đã học (GV có thể tham khảo “menu thực đơn” ở Phụ lục).\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_6/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS tham gia trò chơi theo hướng dẫn của GV.\n- HS chia các nhóm, đại diện nhóm lên nhận menu thực đơn và dựa vào kiến thức đã học và yêu cầu của GV để cùng nhau chuẩn bị bài thuyết trình về các “món ăn” trong menu của nhóm."
             ],
             [
@@ -2219,7 +2219,7 @@
               "- HS lắng nghe, ghi nhớ: nguồn năng lượng là vật hoặc hiện tượng cung cấp năng lượng cho hoạt động, sự sống hoặc sự phát triển."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 1 trong SGK, nêu tên nguồn năng lượng cung cấp cho hoạt động của con người, động vật, thực vật, máy móc ở mỗi hình.",
+              "- GV yêu cầu HS quan sát hình 1 trong SGK, nêu tên nguồn năng lượng cung cấp cho hoạt động của con người, động vật, thực vật, máy móc ở mỗi hình.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_7/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các đối tượng trong hình 1: ruộng rau, xe máy, trâu, chong chóng, nồi cơm điện, cọn nước; chuẩn bị trả lời theo từng hình."
             ],
             [
@@ -2339,7 +2339,7 @@
               "- Cá nhân HS đọc thông tin và trả lời:\n+ Con người sử dụng năng lượng lấy từ thức ăn, đồ uống để sống, phát triển và vận động.\n+ Năng lượng con người sử dụng được lấy từ tự nhiên hoặc do con người tạo ra."
             ],
             [
-              "- GV tổ chức cho HS làm việc nhóm 4, quan sát hình 2 trong SGK, cho biết các máy móc, phương tiện trong hình sử dụng nguồn năng lượng nào và sử dụng vào việc gì ở mỗi hình.",
+              "- GV tổ chức cho HS làm việc nhóm 4, quan sát hình 2 trong SGK, cho biết các máy móc, phương tiện trong hình sử dụng nguồn năng lượng nào và sử dụng vào việc gì ở mỗi hình.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_7/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 2, thảo luận nhóm 4 và xác định nguồn năng lượng, việc sử dụng trong từng hình."
             ],
             [
@@ -2366,7 +2366,7 @@
               "- HS nhận xét, bổ sung: xăng cho xe máy, pin cho điều khiển, ắc-quy cho xe đạp điện, nước chảy trong một số thiết bị hoặc hoạt động."
             ],
             [
-              "- GV yêu cầu cá nhân HS đọc mục “Em có biết?” và trả lời: Ngoài những nguồn năng lượng thông dụng, con người đang hướng tới khai thác và sử dụng thêm những nguồn năng lượng nào có sẵn trong tự nhiên?",
+              "- GV yêu cầu cá nhân HS đọc mục “Em có biết?” và trả lời: Ngoài những nguồn năng lượng thông dụng, con người đang hướng tới khai thác và sử dụng thêm những nguồn năng lượng nào có sẵn trong tự nhiên?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_7/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin “Em có biết?” và trả lời: Con người đang hướng tới khai thác thêm năng lượng thủy triều, năng lượng sinh khối thu được từ quá trình phân hủy thực vật, gỗ, rơm, rác và chất thải."
             ],
             [
@@ -2385,7 +2385,7 @@
               "3. Luyện tập (5 phút)\nMục tiêu: HS vận dụng kiến thức đã học để giải thích tình huống đạp xe trong thực tế.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS đọc câu hỏi luyện tập trong SGK: Khi đạp xe nhanh trong khoảng 30 phút, em cảm thấy thế nào? Nguồn năng lượng nào làm cho xe đạp chuyển động? Năng lượng của em được lấy từ đâu?",
+              "- GV tổ chức cho HS đọc câu hỏi luyện tập trong SGK: Khi đạp xe nhanh trong khoảng 30 phút, em cảm thấy thế nào? Nguồn năng lượng nào làm cho xe đạp chuyển động? Năng lượng của em được lấy từ đâu?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_7/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi, suy nghĩ và trả lời: Khi đạp xe nhanh trong khoảng 30 phút, em cảm thấy mệt, mất sức. Em là nguồn cung cấp năng lượng cho xe đạp chuyển động. Năng lượng của em được lấy từ thức ăn và nước uống hằng ngày."
             ],
             [
@@ -2404,7 +2404,7 @@
               "- HS trả lời: Em biết năng lượng mặt trời, gió, nước chảy, điện, xăng dầu, chất đốt, thức ăn, nước uống, năng lượng thủy triều, sinh khối. Con người sử dụng năng lượng để sống, vận động, thắp sáng, đun nấu, vui chơi, chạy máy móc, sản xuất và giao thông."
             ],
             [
-              "- GV yêu cầu HS đọc phần “Em đã học” trong SGK để hệ thống kiến thức trọng tâm.",
+              "- GV yêu cầu HS đọc phần “Em đã học” trong SGK để hệ thống kiến thức trọng tâm.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_7/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc phần “Em đã học” và ghi nhớ: con người, động vật, thực vật cần năng lượng để sống và hoạt động; một số nguồn năng lượng thường dùng là điện, chất đốt, gió, Mặt Trời, nước chảy, lương thực, thực phẩm; con người dùng năng lượng để thắp sáng, đun nấu, vui chơi, chạy máy móc và phương tiện giao thông."
             ],
             [
@@ -2540,7 +2540,7 @@
               "- HS lắng nghe, ghi nhớ vai trò của điện trong đời sống hằng ngày."
             ],
             [
-              "- GV dẫn dắt: Điện được sử dụng rất nhiều trong cuộc sống hằng ngày. Vậy điện được lấy từ đâu? GV yêu cầu HS quan sát hình 1 SGK và đọc chú thích để mô tả sự truyền điện từ nơi sản xuất đến nơi tiêu thụ.",
+              "- GV dẫn dắt: Điện được sử dụng rất nhiều trong cuộc sống hằng ngày. Vậy điện được lấy từ đâu? GV yêu cầu HS quan sát hình 1 SGK và đọc chú thích để mô tả sự truyền điện từ nơi sản xuất đến nơi tiêu thụ.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_8/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 1, đọc chú thích: nhà máy điện, trạm biến thế tăng áp, đường dây cao thế, trạm biến thế hạ áp, nơi sử dụng điện; chuẩn bị mô tả đường truyền điện."
             ],
             [
@@ -2555,7 +2555,7 @@
               "2.2. Hoạt động 2: Nhận biết việc nên làm và không nên làm để an toàn khi sử dụng điện\nMục tiêu: HS chỉ ra được những việc nên làm, không nên làm; trường hợp sử dụng điện an toàn và không an toàn.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức làm việc nhóm: yêu cầu HS quan sát hình 2, 3, 4 trong SGK và thực hiện nhiệm vụ: chỉ ra việc nên làm, không nên làm; trường hợp sử dụng điện an toàn và không an toàn; giải thích vì sao.",
+              "- GV tổ chức làm việc nhóm: yêu cầu HS quan sát hình 2, 3, 4 trong SGK và thực hiện nhiệm vụ: chỉ ra việc nên làm, không nên làm; trường hợp sử dụng điện an toàn và không an toàn; giải thích vì sao.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_8/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm trưởng tổ chức cho các bạn quan sát hình, cá nhân nêu ý kiến, sau đó nhóm thống nhất câu trả lời và chuẩn bị giải thích trước lớp."
             ],
             [
@@ -2563,7 +2563,7 @@
               "- HS phân loại: Hình 2c là an toàn vì khi sửa điện trên đường dây cần mặc đồ bảo hộ và có thiết bị bảo đảm an toàn; hình 2a, 2b, 2d là không an toàn vì thả diều, phơi quần áo gần đường dây điện, bám hoặc trèo vào trạm biến thế rất nguy hiểm."
             ],
             [
-              "- GV yêu cầu HS tiếp tục quan sát hình 3, 4 để xác định trường hợp sử dụng điện an toàn và không an toàn trong gia đình.",
+              "- GV yêu cầu HS tiếp tục quan sát hình 3, 4 để xác định trường hợp sử dụng điện an toàn và không an toàn trong gia đình.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_8/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3, 4 và nêu: Hình 3a an toàn vì dùng nắp nhựa bịt lỗ cắm điện ở chỗ thấp; Hình 4b an toàn vì đứng trên ghế khô để ngắt cầu dao khi nước tràn vào nhà; Hình 3b, 3c, 4a không an toàn vì đè dây điện dưới thảm, cầm vào dây điện để rút phích cắm, dùng nhiều thiết bị cùng cắm vào một ổ."
             ],
             [
@@ -2601,7 +2601,7 @@
               "4. Vận dụng (5 phút)\nMục tiêu: HS vận dụng kiến thức để nhận biết biển cảnh báo an toàn điện và chuẩn bị bảng cảnh báo an toàn khi sử dụng điện.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc mục “Em có biết?” và cho biết: Để cảnh báo mọi người về an toàn điện ở nơi công cộng, người ta đã sử dụng các biển báo nào?",
+              "- GV yêu cầu HS đọc mục “Em có biết?” và cho biết: Để cảnh báo mọi người về an toàn điện ở nơi công cộng, người ta đã sử dụng các biển báo nào?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_8/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc mục “Em có biết?” và nêu tên các biển cảnh báo: Cấm mở điện; Nguy hiểm, nguy cơ điện giật, cấm lại gần; Cấm trèo, điện áp cao nguy hiểm chết người; Cấm vào, điện áp cao nguy hiểm chết người."
             ],
             [
@@ -2679,7 +2679,7 @@
               "- Cá nhân HS đọc thông tin và trả lời: Cần tiết kiệm điện vì than đá, dầu mỏ, khí tự nhiên dùng để sản xuất điện cần nhiều năm hình thành và đang dần cạn kiệt; tiết kiệm điện giúp giảm chi phí, bảo vệ môi trường và bảo đảm nguồn điện cho mọi người."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 6 và nêu những việc cần làm để tiết kiệm năng lượng điện.",
+              "- GV yêu cầu HS quan sát hình 6 và nêu những việc cần làm để tiết kiệm năng lượng điện.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_8/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 6, đọc chú thích ở mỗi hình và chuẩn bị nêu những việc cần làm."
             ],
             [
@@ -2721,7 +2721,7 @@
               "3. Luyện tập (5 phút)\nMục tiêu: HS vận dụng kiến thức đã học để giải thích tình huống sử dụng điện trong thực tế.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS thảo luận theo câu hỏi trong SGK: Vì sao nên bật bình nóng lạnh trước khi tắm khoảng 15 phút và tắt trước khi tắm? Vì sao không nên là quần áo trong phòng có bật máy điều hòa nhiệt độ?",
+              "- GV tổ chức cho HS thảo luận theo câu hỏi trong SGK: Vì sao nên bật bình nóng lạnh trước khi tắm khoảng 15 phút và tắt trước khi tắm? Vì sao không nên là quần áo trong phòng có bật máy điều hòa nhiệt độ?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_8/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi, thảo luận và chuẩn bị giải thích bằng kiến thức đã học."
             ],
             [
@@ -2744,7 +2744,7 @@
               "- Một số HS sắm vai tuyên truyền về cách sử dụng điện an toàn, tiết kiệm; HS khác lắng nghe, nhận xét và bổ sung ý kiến."
             ],
             [
-              "- GV yêu cầu HS đọc mục “Em đã học”, củng cố các quy tắc sử dụng điện an toàn và tiết kiệm.",
+              "- GV yêu cầu HS đọc mục “Em đã học”, củng cố các quy tắc sử dụng điện an toàn và tiết kiệm.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_8/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc mục “Em đã học”: để an toàn khi sử dụng điện cần tuân thủ biển báo an toàn điện, không chơi hoặc đến gần đường dây dẫn điện, trạm biến áp, không chạm tay vào chỗ hở của đường dây điện, lỗ ở ổ cắm điện; cần tiết kiệm điện bằng cách tắt thiết bị khi không sử dụng, dùng đèn tiết kiệm điện, chỉ sử dụng quạt điện và máy điều hòa khi cần thiết, không mở tủ lạnh quá lâu."
             ],
             [
@@ -2817,7 +2817,7 @@
               "2. Khám phá (15 phút)\nMục tiêu: HS mô tả được cấu tạo của đèn pin, cấu tạo và hoạt động của mạch điện thắp sáng đơn giản.\nMục tiêu tích hợp: Tích hợp NLS 4.3.CB2a: HS sử dụng mô phỏng PhET Circuit Construction Kit để quan sát mạch điện đơn giản trong môi trường số an toàn trước khi đối chiếu với hình SGK và mô hình thật.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu cá nhân HS đọc khung thông tin trong SGK, quan sát hình 1 và thực hiện nhiệm vụ: chỉ cực dương, cực âm trên pin; xác định các bộ phận bên trong đèn pin.",
+              "- GV yêu cầu cá nhân HS đọc khung thông tin trong SGK, quan sát hình 1 và thực hiện nhiệm vụ: chỉ cực dương, cực âm trên pin; xác định các bộ phận bên trong đèn pin.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_9/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình 1 và nêu: pin có cực dương, cực âm; đèn pin gồm bóng đèn, công tắc, pin và dây dẫn điện."
             ],
             [
@@ -2833,11 +2833,11 @@
               "- HS lắng nghe và nêu được: mô phỏng giúp quan sát, thử sai an toàn; khi làm thí nghiệm thật vẫn phải dùng pin học tập, làm theo hướng dẫn của GV."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 2, hình 3 và nêu: mạch điện thắp sáng đơn giản gồm những bộ phận nào; điểm khác nhau giữa mạch điện hình 3a và 3b.",
+              "- GV yêu cầu HS quan sát hình 2, hình 3 và nêu: mạch điện thắp sáng đơn giản gồm những bộ phận nào; điểm khác nhau giữa mạch điện hình 3a và 3b.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_9/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 2, hình 3; nêu: mạch điện gồm pin, bóng đèn điện, công tắc (khóa K) và dây dẫn điện; hình 3a khóa K đóng, hình 3b khóa K mở."
             ],
             [
-              "- GV tổ chức cho HS thảo luận nhóm: chỉ trên hình 3a, 3b và mô tả cấu tạo, hoạt động của mạch điện thắp sáng.",
+              "- GV tổ chức cho HS thảo luận nhóm: chỉ trên hình 3a, 3b và mô tả cấu tạo, hoạt động của mạch điện thắp sáng.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_9/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thảo luận và trình bày: Khi khóa K đóng, dòng điện từ cực dương của pin chạy trong dây dẫn qua bóng đèn, qua khóa K tới cực âm của pin làm đèn phát sáng; khi khóa K mở, dòng điện không qua được khoảng trống nên bóng đèn không sáng."
             ],
             [
@@ -2856,7 +2856,7 @@
               "- HS trả lời: Hình 3a đèn sáng vì khóa K đóng tạo mạch kín, dòng điện chạy qua bóng đèn; hình 3b đèn không sáng vì khóa K mở làm mạch hở, dòng điện không chạy qua bóng đèn."
             ],
             [
-              "- GV yêu cầu HS quan sát mạch điện ở hình 4, nêu hiện tượng, giải thích lí do đèn không sáng và đề xuất cách làm cho đèn sáng.",
+              "- GV yêu cầu HS quan sát mạch điện ở hình 4, nêu hiện tượng, giải thích lí do đèn không sáng và đề xuất cách làm cho đèn sáng.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_9/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 4, nêu: đèn không sáng vì dây dẫn chưa nối kín với bóng đèn/công tắc, mạch điện còn hở; để đèn sáng cần nối lại dây dẫn đúng vị trí để tạo mạch kín."
             ],
             [
@@ -3285,7 +3285,7 @@
               "2.1. Hoạt động 1: Tìm hiểu một số nguồn năng lượng chất đốt\nMục tiêu: HS nêu được một số nguồn năng lượng chất đốt như than, dầu mỏ, khí tự nhiên, khí sinh học.\nMục tiêu tích hợp: Tích hợp NLS 1.1.CB2a: HS biết sử dụng Google Search hoặc Microsoft Edge theo hướng dẫn để tìm hình ảnh về bếp gas, bếp than, xăng dầu và đọc thông tin an toàn, tiết kiệm từ nguồn phù hợp.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát và đọc thông tin ở hình 1 SGK, sau đó nêu tên các nguồn năng lượng chất đốt được giới thiệu trong hình.",
+              "- GV yêu cầu HS quan sát và đọc thông tin ở hình 1 SGK, sau đó nêu tên các nguồn năng lượng chất đốt được giới thiệu trong hình.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_10/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 1, đọc thông tin và nêu: than, dầu mỏ, khí tự nhiên, khí sinh học là các nguồn năng lượng chất đốt."
             ],
             [
@@ -3308,7 +3308,7 @@
               "2.2. Hoạt động 2: Tìm hiểu vai trò của năng lượng chất đốt trong đời sống và sản xuất\nMục tiêu: HS trình bày được vai trò của một số nguồn năng lượng chất đốt trong đời sống và sản xuất.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 2 SGK, cho biết con người, máy móc, dụng cụ và phương tiện giao thông trong hình sử dụng loại chất đốt nào.",
+              "- GV yêu cầu HS quan sát hình 2 SGK, cho biết con người, máy móc, dụng cụ và phương tiện giao thông trong hình sử dụng loại chất đốt nào.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_10/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Cá nhân HS quan sát các đối tượng trong hình 2: máy bay, bếp ga, tàu thủy, đống lửa, xe lu, máy cấy lúa; chuẩn bị nêu loại chất đốt tương ứng."
             ],
             [
@@ -3535,7 +3535,7 @@
               "- HS đọc thông tin và trả lời: Khi cháy, chất đốt sinh ra khí các-bô-níc, nhiều khí và chất độc khác; các khí này làm ô nhiễm không khí, có hại cho con người, động vật, thực vật; sử dụng không đúng cách có thể gây cháy, nổ, ô nhiễm môi trường."
             ],
             [
-              "- GV tổ chức cho HS làm việc theo nhóm: Quan sát hình 3, cho biết trường hợp nào có thể gây nguy hiểm cho con người, trường hợp nào gây ô nhiễm môi trường và đề xuất biện pháp phòng tránh.",
+              "- GV tổ chức cho HS làm việc theo nhóm: Quan sát hình 3, cho biết trường hợp nào có thể gây nguy hiểm cho con người, trường hợp nào gây ô nhiễm môi trường và đề xuất biện pháp phòng tránh.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_11/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc theo nhóm: cá nhân quan sát hình 3, thảo luận để xác định hiện tượng, tác hại và biện pháp phòng tránh."
             ],
             [
@@ -3562,7 +3562,7 @@
               "- HS nối tiếp kể: củi, rơm, than, ga, dầu, khí sinh học,..."
             ],
             [
-              "- GV yêu cầu cá nhân HS đọc mục “Em có biết?” về bếp ga và trả lời: Khi sử dụng bếp ga, những nguyên nhân nào có thể gây cháy, nổ? Muốn phòng chống cháy, nổ, chúng ta cần lưu ý điều gì?",
+              "- GV yêu cầu cá nhân HS đọc mục “Em có biết?” về bếp ga và trả lời: Khi sử dụng bếp ga, những nguyên nhân nào có thể gây cháy, nổ? Muốn phòng chống cháy, nổ, chúng ta cần lưu ý điều gì?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_11/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin và trả lời: Ga rò rỉ gặp nhiệt độ cao hoặc tia lửa có thể gây cháy nổ; cần kiểm tra bếp, khóa van sau khi nấu, không làm bệ bếp bằng vật liệu dễ cháy, đặt bình ga cách bếp khoảng 150 cm."
             ],
             [
@@ -3570,7 +3570,7 @@
               "- HS thảo luận nhóm đôi, lựa chọn nguồn chất đốt và nêu cách dùng an toàn: dùng bếp ga phải kiểm tra dây dẫn, khóa van; dùng bếp củi, bếp than phải để nơi thoáng, tránh vật dễ cháy, không dùng trong phòng kín."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 4, cho biết trường hợp nào gây lãng phí chất đốt, trường hợp nào tránh được lãng phí chất đốt và giải thích vì sao.",
+              "- GV yêu cầu HS quan sát hình 4, cho biết trường hợp nào gây lãng phí chất đốt, trường hợp nào tránh được lãng phí chất đốt và giải thích vì sao.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_11/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 4 và thảo luận: hình 4a tránh lãng phí vì bếp củi cải tiến tập trung nhiệt vào đáy nồi; hình 4b gây lãng phí vì củi cháy ra ngoài bếp; hình 4c gây lãng phí vì tắc đường làm xe vẫn nổ máy, tốn xăng."
             ],
             [
@@ -3585,7 +3585,7 @@
               "3. Luyện tập (5 phút)\nMục tiêu: HS vận dụng kiến thức đã học vào các tình huống thực tế về phòng chống cháy nổ, ô nhiễm và tiết kiệm chất đốt.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS thảo luận theo các câu hỏi trong SGK: Vì sao không sử dụng bếp than, củi để sưởi ấm trong phòng kín? Điều chỉnh ngọn lửa ở bếp ga khi đun nấu có tác dụng gì? Việc đi bộ, đi xe đạp hoặc đi phương tiện công cộng chạy bằng điện trong thành phố mang lại lợi ích gì?",
+              "- GV tổ chức cho HS thảo luận theo các câu hỏi trong SGK: Vì sao không sử dụng bếp than, củi để sưởi ấm trong phòng kín? Điều chỉnh ngọn lửa ở bếp ga khi đun nấu có tác dụng gì? Việc đi bộ, đi xe đạp hoặc đi phương tiện công cộng chạy bằng điện trong thành phố mang lại lợi ích gì?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_11/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi, liên hệ trải nghiệm của bản thân, gia đình và chuẩn bị trả lời."
             ],
             [
@@ -3600,7 +3600,7 @@
               "4. Vận dụng (5 phút)\nMục tiêu: HS liên hệ thực tế, đọc thông tin mở rộng và cam kết sử dụng năng lượng chất đốt an toàn, tiết kiệm.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS đọc mục “Em có biết?” về bếp Hoàng Cầm và mở rộng: bếp Hoàng Cầm giúp che khói, tiết kiệm nhiên liệu, nấu ăn nhanh chín, góp phần bảo vệ bộ đội trong chiến tranh.",
+              "- GV tổ chức cho HS đọc mục “Em có biết?” về bếp Hoàng Cầm và mở rộng: bếp Hoàng Cầm giúp che khói, tiết kiệm nhiên liệu, nấu ăn nhanh chín, góp phần bảo vệ bộ đội trong chiến tranh.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_11/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, lắng nghe, nêu được bếp Hoàng Cầm là một sáng tạo độc đáo, giúp che khói và tiết kiệm nhiên liệu."
             ],
             [
@@ -3674,11 +3674,11 @@
               "2.1. Hoạt động 1: Tìm hiểu việc sử dụng năng lượng mặt trời trong cuộc sống\nMục tiêu: HS nêu được những việc sử dụng năng lượng mặt trời trong cuộc sống.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu cá nhân HS đọc khung thông tin và quan sát hình 1, trả lời: Năng lượng trong thức ăn, than đá, dầu mỏ, khí đốt tự nhiên bắt nguồn từ đâu? Có thể sử dụng năng lượng mặt trời như thế nào để sản xuất điện?",
+              "- GV yêu cầu cá nhân HS đọc khung thông tin và quan sát hình 1, trả lời: Năng lượng trong thức ăn, than đá, dầu mỏ, khí đốt tự nhiên bắt nguồn từ đâu? Có thể sử dụng năng lượng mặt trời như thế nào để sản xuất điện?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_11/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình 1 và trả lời: Năng lượng trong thức ăn, than đá, dầu mỏ, khí đốt tự nhiên đều bắt nguồn từ năng lượng mặt trời; năng lượng mặt trời có thể dùng để đun sôi nước chạy tua-bin máy phát điện hoặc biến đổi trực tiếp thành điện năng nhờ pin mặt trời."
             ],
             [
-              "- GV tổ chức cho HS hoạt động nhóm: Quan sát hình 2 và cho biết con người sử dụng năng lượng mặt trời vào những việc gì trong cuộc sống.",
+              "- GV tổ chức cho HS hoạt động nhóm: Quan sát hình 2 và cho biết con người sử dụng năng lượng mặt trời vào những việc gì trong cuộc sống.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_11/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc nhóm: cá nhân quan sát hình 2, nêu ý kiến trong nhóm; nhóm thống nhất câu trả lời."
             ],
             [
@@ -3693,7 +3693,7 @@
               "2.2. Hoạt động 2: Tìm hiểu điện được tạo ra từ năng lượng mặt trời\nMục tiêu: HS nêu được việc sử dụng năng lượng điện được tạo ra từ năng lượng mặt trời và ưu điểm của nguồn năng lượng này.\nMục tiêu tích hợp: Tích hợp NLS 1.1.CB2b: HS dùng Google Earth hoặc bản đồ số để tìm một khu điện mặt trời ở Việt Nam, nhận biết vị trí có nhiều nắng thuận lợi cho khai thác năng lượng mặt trời.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS làm việc nhóm: Quan sát hình 3, cho biết năng lượng điện được tạo ra từ năng lượng mặt trời được sử dụng vào những việc gì.",
+              "- GV tổ chức cho HS làm việc nhóm: Quan sát hình 3, cho biết năng lượng điện được tạo ra từ năng lượng mặt trời được sử dụng vào những việc gì.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_11/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc nhóm, quan sát hình 3 và nêu: điện từ năng lượng mặt trời được sử dụng để bơm nước, làm sáng đèn đường, cung cấp điện cho ca-me-ra giám sát hành trình trên đường cao tốc."
             ],
             [
@@ -3891,7 +3891,7 @@
               "2.1. Hoạt động 1: Tìm hiểu việc sử dụng năng lượng gió trong cuộc sống\nMục tiêu: HS kể được những việc con người sử dụng năng lượng gió trong cuộc sống.\nMục tiêu tích hợp: Tích hợp AI 5.A2.2: HS quan sát bản đồ gió trên Windy hoặc Google Weather để biết công cụ số có thể dự báo hướng gió, tốc độ gió hỗ trợ sản xuất năng lượng tái tạo.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS làm việc nhóm: Yêu cầu HS quan sát hình 4 và cho biết con người sử dụng năng lượng gió vào những việc gì trong cuộc sống.",
+              "- GV tổ chức cho HS làm việc nhóm: Yêu cầu HS quan sát hình 4 và cho biết con người sử dụng năng lượng gió vào những việc gì trong cuộc sống.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_12/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm trưởng tổ chức cho các bạn quan sát hình 4; cá nhân nêu ý kiến, sau đó nhóm thống nhất câu trả lời."
             ],
             [
@@ -3952,7 +3952,7 @@
               "4. Vận dụng (5 phút)\nMục tiêu: HS củng cố kiến thức về năng lượng gió và chuẩn bị cho hoạt động STEM mô hình thuyền buồm.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc mục “Em đã học”, nhấn mạnh phần năng lượng gió và giới thiệu thêm thông tin về cối xay gió trong mục “Em có biết?”.",
+              "- GV yêu cầu HS đọc mục “Em đã học”, nhấn mạnh phần năng lượng gió và giới thiệu thêm thông tin về cối xay gió trong mục “Em có biết?”.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_12/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc, nêu được: năng lượng gió làm quay tua-bin phát điện, giúp thuyền buồm chạy xuôi chiều gió, thả diều, rê thóc; cối xay gió là máy chạy bằng sức gió."
             ],
             [
@@ -4000,7 +4000,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: HS tạo tâm thế học tập, nhớ lại kiến thức về năng lượng gió và xác định nhiệm vụ STEM: làm mô hình thuyền buồm.\n*Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình thuyền buồm trong SGK và hỏi: Thuyền buồm di chuyển được nhờ nguồn năng lượng nào?",
+              "- GV cho HS quan sát hình thuyền buồm trong SGK và hỏi: Thuyền buồm di chuyển được nhờ nguồn năng lượng nào?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_12/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát, trả lời: Thuyền buồm di chuyển được nhờ năng lượng gió tác động vào cánh buồm."
             ],
             [
@@ -4234,7 +4234,7 @@
               "2.1. Hoạt động 1: Hệ thống hoá kiến thức chủ đề Năng lượng\nMục tiêu: HS tóm tắt được các nội dung chính đã học dưới dạng sơ đồ.\nMục tiêu tích hợp: Tích hợp NLS 3.1.CB2a: HS dùng PowerPoint SmartArt hoặc Canva Mind Map lập sơ đồ ôn tập chủ đề Năng lượng.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 1 trong SGK, đọc các nhánh kiến thức và xác định các nguồn năng lượng đã học.",
+              "- GV yêu cầu HS quan sát hình 1 trong SGK, đọc các nhánh kiến thức và xác định các nguồn năng lượng đã học.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_13/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 1, đọc các nhánh: năng lượng điện, năng lượng chất đốt, năng lượng mặt trời, năng lượng gió, năng lượng nước chảy."
             ],
             [
@@ -4257,7 +4257,7 @@
               "2.2. Hoạt động 2: Vận dụng kiến thức về năng lượng điện vào tình huống thực tế\nMục tiêu: HS giải thích được nguy cơ mất an toàn điện và nêu được biện pháp phòng tránh.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 2 trong SGK, mô tả hoạt động trong từng hình, nêu tác hại có thể xảy ra và đề xuất biện pháp phòng tránh.",
+              "- GV yêu cầu HS quan sát hình 2 trong SGK, mô tả hoạt động trong từng hình, nêu tác hại có thể xảy ra và đề xuất biện pháp phòng tránh.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_13/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm trưởng tổ chức cho các bạn quan sát hình, thảo luận và hoàn thành phiếu học tập theo các cột: hình, hoạt động, tác hại, biện pháp phòng tránh."
             ],
             [
@@ -4328,7 +4328,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: HS nêu được tên một số hoa, chức năng của hoa và hiểu biết ban đầu về sinh sản ở thực vật có hoa.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức trò chơi “Ong tìm mật”: GV lần lượt đưa các hình hoa quen thuộc và yêu cầu HS đoán tên cây có hoa trong hình.",
+              "- GV tổ chức trò chơi “Ong tìm mật”: GV lần lượt đưa các hình hoa quen thuộc và yêu cầu HS đoán tên cây có hoa trong hình.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_13/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe cách chơi, quan sát hình hoa và tham gia trả lời theo đội. HS có thể nêu: hoa đu đủ, hoa mướp, hoa sen, hoa hướng dương."
             ],
             [
@@ -4350,7 +4350,7 @@
               "2.1. Hoạt động 1: Xác định cơ quan sinh sản của thực vật có hoa\nMục tiêu: HS xác định được hoa là cơ quan sinh sản của thực vật có hoa.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 2 về sự hình thành cây cà chua con từ cây cà chua mẹ và trả lời: Cơ quan sinh sản của cây cà chua là gì? Bộ phận nào của quả hình thành nên cây cà chua con?",
+              "- GV yêu cầu HS quan sát hình 2 về sự hình thành cây cà chua con từ cây cà chua mẹ và trả lời: Cơ quan sinh sản của cây cà chua là gì? Bộ phận nào của quả hình thành nên cây cà chua con?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_13/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 2 và trả lời: Hoa là cơ quan sinh sản của cây cà chua; hạt nằm trong quả hình thành nên cây cà chua con."
             ],
             [
@@ -4373,11 +4373,11 @@
               "- HS làm việc cá nhân đọc khung thông tin, sau đó trả lời:\n+ Hoa gồm đài, cánh, nhị và nhuỵ hoa.\n+ Hoa đơn tính là hoa chỉ có nhị hoặc nhuỵ trên một hoa.\n+ Hoa lưỡng tính là hoa có cả nhị và nhuỵ trên cùng một bông hoa."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 3, cho biết hoa bí ngô và hoa bưởi, hoa nào là hoa lưỡng tính, hoa nào là hoa đơn tính.",
+              "- GV yêu cầu HS quan sát hình 3, cho biết hoa bí ngô và hoa bưởi, hoa nào là hoa lưỡng tính, hoa nào là hoa đơn tính.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_13/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3, nêu: hoa bưởi là hoa lưỡng tính vì có cả nhị và nhuỵ; hoa bí ngô cái và hoa bí ngô đực là hoa đơn tính vì chỉ có nhuỵ hoặc chỉ có nhị."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 4, chỉ và nói tên các bộ phận của nhị hoa, nhuỵ hoa.",
+              "- GV yêu cầu HS quan sát hình 4, chỉ và nói tên các bộ phận của nhị hoa, nhuỵ hoa.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_13/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 4 và nêu: nhị hoa gồm bao phấn, chỉ nhị; nhuỵ hoa gồm đầu nhuỵ, vòi nhuỵ, bầu nhuỵ và noãn."
             ],
             [
@@ -4392,7 +4392,7 @@
               "3. Luyện tập (7 phút)\nMục tiêu: HS củng cố kiến thức về các bộ phận của hoa qua sơ đồ.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc cá nhân rồi thảo luận nhóm: chỉ trên hình 5 và nói tên các bộ phận của hoa.",
+              "- GV yêu cầu HS làm việc cá nhân rồi thảo luận nhóm: chỉ trên hình 5 và nói tên các bộ phận của hoa.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_13/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 5, chỉ và nêu tên các bộ phận của hoa theo số ghi trên sơ đồ; nhóm thống nhất câu trả lời trước khi trình bày."
             ],
             [
@@ -4554,7 +4554,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: HS dựa vào sơ đồ nêu được vai trò của nhị và nhuỵ trong quá trình thụ phấn, thụ tinh, tạo hạt và quả.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS quan sát hình 6, đọc khung thông tin, làm việc cá nhân rồi thảo luận nhóm 4 để hoàn thành Phiếu học tập số 2.",
+              "- GV tổ chức cho HS quan sát hình 6, đọc khung thông tin, làm việc cá nhân rồi thảo luận nhóm 4 để hoàn thành Phiếu học tập số 2.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_14/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 6, đọc thông tin về bầu nhuỵ, noãn, hạt phấn, ống phấn; thảo luận nhóm để ghi chú các bộ phận và hoàn thành phiếu."
             ],
             [
@@ -4573,7 +4573,7 @@
               "3. Luyện tập (10 phút)\nMục tiêu: HS vận dụng được kiến thức về sự thụ phấn, thụ tinh, tạo quả và hạt để giải thích một số hiện tượng tự nhiên.\nMục tiêu tích hợp: Tích hợp AI 5.C4.2: HS dùng Google Teachable Machine hoặc Google Lens nhận diện hình ảnh hoa, quả, hạt; sau đó kiểm tra lại bằng kiến thức SGK.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS quan sát hình 7 về sự phát triển tiếp theo của hoa trong hai trường hợp: hoa được thụ phấn, thụ tinh và hoa không được thụ phấn, thụ tinh.",
+              "- GV tổ chức cho HS quan sát hình 7 về sự phát triển tiếp theo của hoa trong hai trường hợp: hoa được thụ phấn, thụ tinh và hoa không được thụ phấn, thụ tinh.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_14/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 7, so sánh hai trường hợp và chuẩn bị giải thích vì sao có trường hợp tạo quả, có trường hợp hoa bị héo, không tạo quả."
             ],
             [
@@ -4581,7 +4581,7 @@
               "- HS trả lời: Nếu hoa được thụ phấn, thụ tinh thì bầu nhuỵ phát triển thành quả, noãn phát triển thành hạt; nếu hoa không được thụ phấn, thụ tinh thì quả và hạt không hình thành, hoa sẽ héo."
             ],
             [
-              "- GV tổ chức cho HS đọc mục “Em có biết?” và hỏi thêm: Vì sao vườn nhãn có nuôi ong có thể cho năng suất cao hơn vườn không nuôi ong?",
+              "- GV tổ chức cho HS đọc mục “Em có biết?” và hỏi thêm: Vì sao vườn nhãn có nuôi ong có thể cho năng suất cao hơn vườn không nuôi ong?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_14/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc mục “Em có biết?”, quan sát hình 8 và trả lời: Ong lấy mật hoa sẽ mang hạt phấn từ hoa này sang hoa khác, giúp hoa được thụ phấn nhiều hơn, tạo nhiều quả hơn."
             ],
             [
@@ -4668,7 +4668,7 @@
               "- HS nêu theo hiểu biết: cây con có thể mọc lên từ hạt, thân, rễ, lá; ví dụ cây đậu mọc từ hạt, cây rau lang mọc từ thân."
             ],
             [
-              "- GV giới thiệu bài, ghi bảng: Sự phát triển của cây con.",
+              "- GV giới thiệu bài, ghi bảng: Sự phát triển của cây con.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_14/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
@@ -4682,7 +4682,7 @@
               "- HS đọc thông tin và trả lời: Hạt thường gồm vỏ hạt, chất dinh dưỡng dự trữ và phôi (mầm cây)."
             ],
             [
-              "- GV yêu cầu HS hoạt động nhóm đôi, chỉ và nói với bạn về các bộ phận của hạt đậu trong hình 2; hỏi: Bộ phận nào của hạt sẽ mọc thành cây?",
+              "- GV yêu cầu HS hoạt động nhóm đôi, chỉ và nói với bạn về các bộ phận của hạt đậu trong hình 2; hỏi: Bộ phận nào của hạt sẽ mọc thành cây?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_14/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 2, chỉ và nói: hạt đậu gồm vỏ hạt, chất dinh dưỡng dự trữ và phôi. Phôi của hạt đậu sẽ mọc thành cây."
             ],
             [
@@ -4697,7 +4697,7 @@
               "2.2. Hoạt động 2: Tìm hiểu sự phát triển của cây con mọc lên từ hạt\nMục tiêu: HS sử dụng sơ đồ đã cho, ghi chú được một số giai đoạn phát triển chính của cây con mọc lên từ hạt và trình bày được sự lớn lên của cây con.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức HS làm việc cá nhân, sau đó thảo luận nhóm đôi: quan sát hình 3, đọc thông tin và nêu các giai đoạn phát triển chính của cây đậu mọc lên từ hạt.",
+              "- GV tổ chức HS làm việc cá nhân, sau đó thảo luận nhóm đôi: quan sát hình 3, đọc thông tin và nêu các giai đoạn phát triển chính của cây đậu mọc lên từ hạt.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_14/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3, đọc thông tin và chia sẻ trong nhóm đôi: các giai đoạn phát triển chính của cây đậu là nảy mầm, cây con, cây trưởng thành."
             ],
             [
@@ -4819,7 +4819,7 @@
               "2.1. Hoạt động 1: Cây con mọc lên từ rễ, thân, lá\nMục tiêu: HS nêu được ví dụ về cây con mọc ra từ thân, rễ, lá.\n*Cách tiến hành:"
             ],
             [
-              "– GV tổ chức cho cá nhân HS quan sát hình 4, sau đó thảo luận nhóm đôi hoặc nhóm 4, yêu cầu HS thực hiện nhiệm vụ 1.",
+              "– GV tổ chức cho cá nhân HS quan sát hình 4, sau đó thảo luận nhóm đôi hoặc nhóm 4, yêu cầu HS thực hiện nhiệm vụ 1.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_15/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "– HS làm việc cá nhân, tham gia nhóm đôi hoặc nhóm 4 thảo luận, chia sẻ câu trả lời. Đại diện nhóm trình bày, các nhóm khác lắng nghe, điều chỉnh, bổ sung (nếu có).\na) Cây khoai lang con mọc lên từ củ (rễ củ); b) Cây lá bỏng con mọc lên từ lá; c) Cây lan bạch chỉ con mọc lên từ thân."
             ],
             [
@@ -4838,7 +4838,7 @@
               "2.2. Hoạt động 2: Sự phát triển của cây dâu tây con mọc lên từ bộ phận cây mẹ\nMục tiêu: HS nêu được tên một số giai đoạn phát triển chính của cây dâu tây con mọc lên từ bộ phận của cây mẹ và trình bày được sự lớn lên của cây dâu tây con.\nMục tiêu tích hợp: Tích hợp AI 5.D2.1: HS biết chụp ảnh cây, lưu và sắp xếp ảnh theo thời gian để theo dõi sự phát triển của cây.\n*Cách tiến hành:"
             ],
             [
-              "– GV yêu cầu HS thực hiện nhiệm vụ 2 theo nhóm đôi hoặc nhóm 4 HS.",
+              "– GV yêu cầu HS thực hiện nhiệm vụ 2 theo nhóm đôi hoặc nhóm 4 HS.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_15/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "– HS làm việc cá nhân đọc thông tin, quan sát hình 6 trang 55 SGK và trả lời các câu hỏi, sau đó thảo luận chia sẻ trong nhóm.\n+ Các giai đoạn phát triển chính của cây dâu tây mọc lên từ thân cây mẹ bao gồm: giai đoạn nảy chồi (chồi mới và rễ mới mọc ra từ mắt thân); giai đoạn cây con (cây con phát triển ra nhiều lá, rễ mới, lớn lên) và giai đoạn cây trưởng thành (cây lớn, xuất hiện hoa và hình thành quả)."
             ],
             [
@@ -4909,14 +4909,14 @@
               "1. Khởi động (5 phút)\nMục tiêu: nhắc lại một số nội dung đã học ở tiết trước, tạo hứng thú cho HS.\n*Cách tiến hành:"
             ],
             [
-              "– GV tổ chức trò chơi ghép ô chữ: ghép bộ phận của cây với mô tả cho phù hợp.\n– Các tổ cử 2 đại diện lên tham gia trò chơi.\nGhép tên các bộ phận của cây ở cột 1 với các ví dụ cây con mọc lên ở cột 2 cho phù hợp.\nTên bộ phận\n1. Rễ\n2. Thân\n3. Lá\n4. Hạt\nVí dụ\na) Củ lạc mọc lên cây.\nb) Củ khoai tây nảy mầm tạo cây con.\nc) Cắt đoạn cành hồng cắm xuống đất mọc thành cây.\nd) Cuống lá cây sen đá mọc lên các cây con.\ne) Củ khoai lang có thể mọc mầm tạo cây con.\n– GV nhận xét, đánh giá, thưởng sao.\n– GV kết nối vào bài: Cây con có thể mọc lên từ hạt, rễ, thân, lá,… của cây mẹ. Hôm nay các em hãy thực hành trồng cây từ hạt và một số bộ phận của cây mẹ.\n– GV giới thiệu bài, ghi bảng.",
+              "– GV tổ chức trò chơi ghép ô chữ: ghép bộ phận của cây với mô tả cho phù hợp.\n– Các tổ cử 2 đại diện lên tham gia trò chơi.\nGhép tên các bộ phận của cây ở cột 1 với các ví dụ cây con mọc lên ở cột 2 cho phù hợp.\nTên bộ phận\n1. Rễ\n2. Thân\n3. Lá\n4. Hạt\nVí dụ\na) Củ lạc mọc lên cây.\nb) Củ khoai tây nảy mầm tạo cây con.\nc) Cắt đoạn cành hồng cắm xuống đất mọc thành cây.\nd) Cuống lá cây sen đá mọc lên các cây con.\ne) Củ khoai lang có thể mọc mầm tạo cây con.\n– GV nhận xét, đánh giá, thưởng sao.\n– GV kết nối vào bài: Cây con có thể mọc lên từ hạt, rễ, thân, lá,… của cây mẹ. Hôm nay các em hãy thực hành trồng cây từ hạt và một số bộ phận của cây mẹ.\n– GV giới thiệu bài, ghi bảng.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_15/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "– Cả lớp lắng nghe cách chơi.\n– Đại diện lên tham gia trò chơi.\nĐáp án: 1 – e; 2 – b, c; 3 – d; 4 – a.\n– HS lắng nghe, ghi tên bài."
             ],
             [
               "2. Thực hành: Trồng cây (25 phút)\nMục tiêu: HS trồng được cây từ hạt và thân.\n*Cách tiến hành:"
             ],
             [
-              "– GV tổ chức HS thực hành theo nhóm 4 đến 6 HS, tiến hành trồng cây bằng hạt và trồng cây bằng đoạn thân theo các bước mô tả. Có thể tiến hành trong vườn trường.\n+ GV phát dụng cụ, mẫu vật cho các nhóm.\n+ GV hướng dẫn các nhóm tiến hành theo các bước mô tả trong SGK.\n+ GV lưu ý về đảm bảo an toàn và vệ sinh cho các nhóm.",
+              "– GV tổ chức HS thực hành theo nhóm 4 đến 6 HS, tiến hành trồng cây bằng hạt và trồng cây bằng đoạn thân theo các bước mô tả. Có thể tiến hành trong vườn trường.\n+ GV phát dụng cụ, mẫu vật cho các nhóm.\n+ GV hướng dẫn các nhóm tiến hành theo các bước mô tả trong SGK.\n+ GV lưu ý về đảm bảo an toàn và vệ sinh cho các nhóm.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_15/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "– HS theo nhóm nhận các dụng cụ và mẫu vật.\n– Nhóm phân công nhiệm vụ và tiến hành trồng cây theo mô tả."
             ],
             [
@@ -5022,7 +5022,7 @@
               "2.1. Hoạt động 1: Động vật đẻ trứng và động vật đẻ con\nMục tiêu: Nêu được tên một số động vật đẻ trứng, đẻ con và các hình thức sinh sản của chúng qua quan sát tranh ảnh.\n*Cách tiến hành:"
             ],
             [
-              "– GV yêu cầu HS quan sát hình 2, cho biết tên động vật đẻ trứng và động vật đẻ con.",
+              "– GV yêu cầu HS quan sát hình 2, cho biết tên động vật đẻ trứng và động vật đẻ con.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_16/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "– HS lắng nghe nhiệm vụ.\n– HS quan sát hình và thực hiện nhiệm vụ."
             ],
             [
@@ -5034,7 +5034,7 @@
               "– HS lắng nghe, nhận xét và thống nhất đáp án."
             ],
             [
-              "– GV tiếp tục tổ chức HS hoạt động nhóm đôi hoặc nhóm 4, yêu cầu kể thêm tên các động vật đẻ trứng, động vật đẻ con mà em biết theo bảng gợi ý. Có thể sử dụng các bảng nhóm để HS viết vào.",
+              "– GV tiếp tục tổ chức HS hoạt động nhóm đôi hoặc nhóm 4, yêu cầu kể thêm tên các động vật đẻ trứng, động vật đẻ con mà em biết theo bảng gợi ý. Có thể sử dụng các bảng nhóm để HS viết vào.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_16/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "– HS trong nhóm ghi tên các động vật theo hai hình thức sinh sản."
             ],
             [
@@ -5064,7 +5064,7 @@
               "2.3. Hoạt động 3: Tìm hiểu sự sinh sản ở cá\nMục tiêu: HS đặt và trả lời được một số câu hỏi tìm hiểu về sự sinh sản ở cá.\n*Cách tiến hành:"
             ],
             [
-              "– GV tổ chức cho HS quan sát hình 3, đọc thông tin mô tả sinh sản ở cá, yêu cầu HS: chỉ và nói với bạn về sự sinh sản ở cá trong hình 3.",
+              "– GV tổ chức cho HS quan sát hình 3, đọc thông tin mô tả sinh sản ở cá, yêu cầu HS: chỉ và nói với bạn về sự sinh sản ở cá trong hình 3.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_16/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "– HS lắng nghe nhiệm vụ.\n– HS theo nhóm đôi chỉ và nói về sự sinh sản ở cá."
             ],
             [
@@ -5184,7 +5184,7 @@
               "2.1. Hoạt động 1: Sự sinh sản của động vật (tiếp)\nMục tiêu: HS đặt và trả lời được một số câu hỏi tìm hiểu về sự sinh sản ở bò.\n*Cách tiến hành:"
             ],
             [
-              "– GV tổ chức cho HS quan sát hình 4, đọc thông tin mô tả sinh sản ở bò, yêu cầu HS: Chỉ và nói với bạn về sự sinh sản ở bò trong hình 4.",
+              "– GV tổ chức cho HS quan sát hình 4, đọc thông tin mô tả sinh sản ở bò, yêu cầu HS: Chỉ và nói với bạn về sự sinh sản ở bò trong hình 4.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_16/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "– HS lắng nghe nhiệm vụ.\n– HS theo nhóm đôi chỉ và nói về sự sinh sản ở bò."
             ],
             [
@@ -5487,7 +5487,7 @@
               "2. Khám phá (17 phút)\n2.1. Vòng đời và sự phát triển của động vật đẻ con\nMục tiêu: HS nêu được tên các giai đoạn trong đời của chó và trình bày được sự lớn lên của chó con mới được sinh ra.\nMục tiêu tích hợp: Tích hợp AI 5.B3.1: HS dùng ảnh mẫu trong Google Lens để nhận diện giai đoạn vòng đời, thảo luận vì sao AI có thể nhầm nòng nọc với cá; biết kiểm chứng kết quả AI bằng kiến thức SGK.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS theo nhóm đôi quan sát hình 4, đọc thông tin về vòng đời của chó và thực hiện nhiệm vụ trang 62.",
+              "- GV tổ chức cho HS theo nhóm đôi quan sát hình 4, đọc thông tin về vòng đời của chó và thực hiện nhiệm vụ trang 62.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_17/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_17/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe nhiệm vụ.\n- HS làm việc cá nhân rồi thảo luận cặp đôi, thực hiện nhiệm vụ."
             ],
             [
@@ -5541,7 +5541,7 @@
               "- HS lắng nghe."
             ],
             [
-              "Hoạt động 2: Ô chữ bí mật\nMục tiêu: Vận dụng kiến thức đã học tìm hiểu và ghi chú được vòng đời của một số động vật.\n*Cách tiến hành:"
+              "Hoạt động 2: Ô chữ bí mật\nMục tiêu: Vận dụng kiến thức đã học tìm hiểu và ghi chú được vòng đời của một số động vật.\n*Cách tiến hành:\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_17/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />"
             ],
             [
               "- GV tổ chức HS chơi trò chơi ô chữ bí mật:",
@@ -5873,7 +5873,7 @@
               "- HS quan sát, cùng nhóm lựa chọn ảnh, sắp xếp ảnh vào đúng nhóm dữ liệu; HS giải thích được ảnh nào thuộc nhóm cây con, động vật đẻ trứng, động vật đẻ con hoặc vòng đời động vật; HS hiểu dữ liệu phải đúng và rõ thì AI mới xử lí chính xác."
             ],
             [
-              "- GV tổ chức HS theo nhóm 4, hoàn thiện sơ đồ tư duy về các nội dung chính đã học trong chủ đề theo Phiếu học tập số 1 và số 2. Một nửa lớp làm Phiếu học tập số 1, một nửa lớp làm Phiếu học tập số 2.",
+              "- GV tổ chức HS theo nhóm 4, hoàn thiện sơ đồ tư duy về các nội dung chính đã học trong chủ đề theo Phiếu học tập số 1 và số 2. Một nửa lớp làm Phiếu học tập số 1, một nửa lớp làm Phiếu học tập số 2.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_19/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc cá nhân rồi thảo luận nhóm, thực hiện nhiệm vụ hoàn thiện sơ đồ theo Phiếu học tập số 1 và số 2."
             ],
             [
@@ -5888,7 +5888,7 @@
               "Hoạt động 2: Ghi chú các giai đoạn phát triển của cây con (7 phút)\nMục tiêu: HS ghi chú được các giai đoạn phát triển của cây con mọc lên từ hạt và các bộ phận của cây mẹ.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS quan sát hình 2, yêu cầu HS thực hiện nhiệm vụ.",
+              "- GV tổ chức cho HS quan sát hình 2, yêu cầu HS thực hiện nhiệm vụ.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_19/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe nhiệm vụ."
             ],
             [
@@ -5907,7 +5907,7 @@
               "Hoạt động 3: Sắp xếp và trình bày vòng đời của ếch (8 phút)\nMục tiêu: HS sắp xếp và trình bày giai đoạn phát triển trong vòng đời của ếch.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 3 thực hiện nhiệm vụ.",
+              "- GV yêu cầu HS quan sát hình 3 thực hiện nhiệm vụ.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_19/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3 và đọc yêu cầu."
             ],
             [
@@ -5930,7 +5930,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nHoạt động 4: Đề xuất biện pháp hạn chế sự phát triển của muỗi\nMục tiêu: HS vận dụng kiến thức về vòng đời phát triển của động vật giải quyết được một số tình huống trong thực tiễn.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS thực hiện bài tập 4 SGK về muỗi và đề xuất biện pháp hạn chế sự phát triển của muỗi.",
+              "- GV yêu cầu HS thực hiện bài tập 4 SGK về muỗi và đề xuất biện pháp hạn chế sự phát triển của muỗi.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_19/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe nhiệm vụ, đọc SGK, tìm hiểu thực hiện nhiệm vụ."
             ],
             [
@@ -6240,7 +6240,7 @@
               "2. Khám phá (23 phút)\n2.1. Nơi sống của vi khuẩn\nHoạt động 1: Quan sát hình 4 đến hình 12 và nhận biết nơi vi khuẩn có thể sống\nMục tiêu: HS nhận biết một số nơi vi khuẩn sống qua quan sát tranh ảnh.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc nhóm đôi, quan sát từ hình 4 đến hình 12 và thực hiện theo yêu cầu của SGK.",
+              "- GV yêu cầu HS làm việc nhóm đôi, quan sát từ hình 4 đến hình 12 và thực hiện theo yêu cầu của SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_20/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_20/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Cá nhân HS quan sát từng hình đồ vật, từng nơi, hình phóng to vi khuẩn và nhận biết những nơi đó có chứa vi khuẩn; chia sẻ với bạn kết quả quan sát."
             ],
             [
@@ -6278,7 +6278,7 @@
               "3. Luyện tập (5 phút)\nHoạt động: Giải thích cách bảo quản thực phẩm trong tủ lạnh\nMục tiêu: HS giải thích được cách bảo quản thực phẩm trong tủ lạnh để tránh lây nhiễm vi khuẩn.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc cặp đôi, liên hệ thực tế từ gia đình mình, quan sát gợi ý hình 13 và thực hiện theo yêu cầu của SGK.",
+              "- GV yêu cầu HS làm việc cặp đôi, liên hệ thực tế từ gia đình mình, quan sát gợi ý hình 13 và thực hiện theo yêu cầu của SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_20/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thực hiện cá nhân, chia sẻ với các bạn, đưa ra một số ý kiến giải thích."
             ],
             [
@@ -6352,7 +6352,7 @@
               "- 2 - 3 HS chia sẻ: rau, củ, quả muối chua có vị chua dịu, giòn, thơm. HS trả lời theo ý hiểu của cá nhân: Do được muối nên có vị chua như vậy."
             ],
             [
-              "- GV cho HS xem video hoặc hình ảnh về muối chua rau, củ, quả và hỏi: Trong video có nhắc đến vi khuẩn nào?",
+              "- GV cho HS xem video hoặc hình ảnh về muối chua rau, củ, quả và hỏi: Trong video có nhắc đến vi khuẩn nào?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_20/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS xem video hoặc quan sát hình ảnh; HS trả lời: Vi khuẩn lactic."
             ],
             [
@@ -6386,7 +6386,7 @@
               "Hoạt động 2: Tìm hiểu các bước muối chua quả sung\nMục tiêu: HS trình bày được các bước muối chua rau, củ, quả và giải thích được cơ sở khoa học của một số bước.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS quan sát hình 2, đọc thông tin dưới mỗi hình và nêu các bước muối quả sung.",
+              "- GV tổ chức cho HS quan sát hình 2, đọc thông tin dưới mỗi hình và nêu các bước muối quả sung.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_20/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 2, đọc thông tin và nêu 3 bước muối quả sung như trong SGK."
             ],
             [
@@ -6870,11 +6870,11 @@
               "- Đại diện 4 tổ báo cáo tư liệu đã sưu tầm."
             ],
             [
-              "- GV tổ chức cho HS tìm hiểu bằng phương pháp trạm. Trạm 1: HS đọc khung thông tin 2, quan sát hình 5 và các thông tin khác để xác định dấu hiệu của bệnh tả.",
+              "- GV tổ chức cho HS tìm hiểu bằng phương pháp trạm. Trạm 1: HS đọc khung thông tin 2, quan sát hình 5 và các thông tin khác để xác định dấu hiệu của bệnh tả.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_22/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS di chuyển theo sơ đồ, đến trạm 1 đọc thông tin và quan sát tranh ảnh, rút ra dấu hiệu bệnh tả: nôn mửa liên tục, đi ngoài liên tục, khó kiềm chế, mất nước, mệt lả."
             ],
             [
-              "- GV giao nhiệm vụ Trạm 2: HS đọc khung thông tin để xác định nguyên nhân gây bệnh tả. Trạm 3: HS đọc tư liệu, quan sát hình 6 để xác định con đường lây truyền bệnh tả và kể thêm những việc làm tăng nguy cơ nhiễm bệnh.",
+              "- GV giao nhiệm vụ Trạm 2: HS đọc khung thông tin để xác định nguyên nhân gây bệnh tả. Trạm 3: HS đọc tư liệu, quan sát hình 6 để xác định con đường lây truyền bệnh tả và kể thêm những việc làm tăng nguy cơ nhiễm bệnh.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_22/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đến trạm 2 xác định nguyên nhân chính gây bệnh tả là do vi khuẩn; đến trạm 3 xác định con đường lây truyền: thức ăn, nước uống có chứa vi khuẩn tả; tay nhiễm vi khuẩn tiếp xúc với thức ăn; ruồi mang vi khuẩn tiếp xúc với thức ăn; chăm sóc người bệnh không đúng cách."
             ],
             [
@@ -7178,7 +7178,7 @@
               "- HS làm việc cá nhân, đọc khung thông tin và trả lời: Đối với gia đình, sinh sản tạo ra thế hệ mới, tiếp nối các thế hệ trong mỗi gia đình, dòng họ. Đối với xã hội, sinh sản tạo ra lực lượng lao động tiếp nối, góp phần xây dựng và phát triển xã hội."
             ],
             [
-              "- GV yêu cầu HS làm việc cặp đôi, quan sát hình 1, trả lời câu hỏi trong SGK: Gia đình An có mấy thế hệ? Sau 10 năm gia đình An có thêm mấy thành viên mới? Sự thay đổi đó do đâu?",
+              "- GV yêu cầu HS làm việc cặp đôi, quan sát hình 1, trả lời câu hỏi trong SGK: Gia đình An có mấy thế hệ? Sau 10 năm gia đình An có thêm mấy thành viên mới? Sự thay đổi đó do đâu?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_23/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc cặp đôi, quan sát hình 1, chia sẻ với bạn câu trả lời. HS nêu: Gia đình An có 3 thế hệ; sau 10 năm gia đình An có thêm 2 thành viên mới; sự thay đổi đó là do mẹ sinh ra em bé."
             ],
             [
@@ -7193,7 +7193,7 @@
               "- HS lắng nghe vấn đề học tập, chuẩn bị thảo luận."
             ],
             [
-              "- GV yêu cầu HS thảo luận nhóm, quan sát hình 2 và cho biết: Hình 2 có những ai? Họ đang làm gì? Việc làm đó có ý nghĩa gì?",
+              "- GV yêu cầu HS thảo luận nhóm, quan sát hình 2 và cho biết: Hình 2 có những ai? Họ đang làm gì? Việc làm đó có ý nghĩa gì?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_23/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát nội dung chú thích ở mỗi hình, chia sẻ trong nhóm, thống nhất ý kiến: Trẻ em học tập để rèn luyện, có kiến thức, kĩ năng, sau này thành người tốt; người nông dân trồng lúa và công nhân làm việc trong nhà máy để tạo ra lương thực, sản phẩm, góp phần xây dựng xã hội."
             ],
             [
@@ -7290,7 +7290,7 @@
               "- Cá nhân HS đọc thông tin, trả lời câu hỏi và trao đổi cặp đôi. HS nêu: Cơ thể người hình thành từ sự kết hợp giữa trứng của mẹ và tinh trùng của bố qua thụ tinh tạo thành hợp tử; hợp tử phát triển thành phôi, thai nhi và em bé."
             ],
             [
-              "- GV yêu cầu HS làm việc cặp đôi, sau đó chia sẻ trong nhóm 4 hoặc nhóm 6: quan sát hình 3 và thực hiện theo yêu cầu SGK; chỉ trên hình và nói về quá trình hình thành cơ thể người.",
+              "- GV yêu cầu HS làm việc cặp đôi, sau đó chia sẻ trong nhóm 4 hoặc nhóm 6: quan sát hình 3 và thực hiện theo yêu cầu SGK; chỉ trên hình và nói về quá trình hình thành cơ thể người.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_23/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm trưởng tổ chức cho các bạn làm việc: 2 bạn tạo thành cặp, quan sát hình 3, đọc thông tin, chỉ trên hình và nói về quá trình hình thành cơ thể người; các cặp chia sẻ trong nhóm."
             ],
             [
@@ -7302,14 +7302,14 @@
               "- HS lắng nghe, ghi nhớ kiến thức."
             ],
             [
-              "- GV mở rộng: Cho HS đọc mục “Em có biết?” về sự phát triển của thai nhi trong cơ thể mẹ; có thể cho HS xem video học liệu do GV chuẩn bị về sự phát triển thai nhi trong bụng mẹ.",
+              "- GV mở rộng: Cho HS đọc mục “Em có biết?” về sự phát triển của thai nhi trong cơ thể mẹ; có thể cho HS xem video học liệu do GV chuẩn bị về sự phát triển thai nhi trong bụng mẹ.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_23/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc mục “Em có biết?”, xem học liệu GV cung cấp; chia sẻ nhận xét về sự phát triển thai nhi từ 1 tháng đến 9 tháng hoặc điều em thấy thú vị nhất."
             ],
             [
               "3. Luyện tập (8 phút)\nHoạt động: Hoàn thành sơ đồ và trình bày quá trình hình thành cơ thể người\nMục tiêu: HS sử dụng được sơ đồ và một số thuật ngữ để trình bày quá trình hình thành cơ thể người.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS thực hiện nhiệm vụ theo kĩ thuật Khăn trải bàn, điền phiếu học tập cá nhân trước khi hoàn thành kết quả nhóm. GV yêu cầu HS quan sát sơ đồ gợi ý và sử dụng các từ/cụm từ: trứng, thai nhi, thụ tinh, phôi để hoàn thành sơ đồ.",
+              "- GV tổ chức cho HS thực hiện nhiệm vụ theo kĩ thuật Khăn trải bàn, điền phiếu học tập cá nhân trước khi hoàn thành kết quả nhóm. GV yêu cầu HS quan sát sơ đồ gợi ý và sử dụng các từ/cụm từ: trứng, thai nhi, thụ tinh, phôi để hoàn thành sơ đồ.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_23/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc cá nhân, thực hiện nhiệm vụ SGK và điền kết quả vào phiếu học tập."
             ],
             [
@@ -7411,7 +7411,7 @@
               "2. KHÁM PHÁ\n2.1. CÁC GIAI ĐOẠN PHÁT TRIỂN CỦA CON NGƯỜI (7 phút)\nMục tiêu: Xác định được tên gọi và độ tuổi các giai đoạn phát triển chính của con người.\n*Cách tiến hành:"
             ],
             [
-              "- GV gọi 1 HS đọc yêu cầu của SGK.\n- GV yêu cầu HS đọc thông tin, quan sát hình ảnh ở hình 1 và thực hiện theo yêu cầu.",
+              "- GV gọi 1 HS đọc yêu cầu của SGK.\n- GV yêu cầu HS đọc thông tin, quan sát hình ảnh ở hình 1 và thực hiện theo yêu cầu.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_24/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Cá nhân HS quan sát hình, dựa vào nội dung thông tin đã đọc nêu được 4 giai đoạn phát triển của con người."
             ],
             [
@@ -7422,7 +7422,7 @@
               "2.2. TUỔI ẤU THƠ (từ lúc mới sinh đến 9 tuổi) (8 phút)\nMục tiêu: Nêu được một số đặc điểm nổi bật ở các giai đoạn phát triển trong tuổi ấu thơ.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc nhóm 4 và thực hiện theo yêu cầu của SGK.\n- GV tổ chức trò chơi Chuyên gia trẻ nhỏ để HS chia sẻ kết quả thảo luận nhóm.",
+              "- GV yêu cầu HS làm việc nhóm 4 và thực hiện theo yêu cầu của SGK.\n- GV tổ chức trò chơi Chuyên gia trẻ nhỏ để HS chia sẻ kết quả thảo luận nhóm.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_24/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Cá nhân HS đọc thông tin tìm hiểu, chia sẻ trong nhóm và trả lời các câu hỏi."
             ],
             [
@@ -7448,7 +7448,7 @@
               "3.2. Ghép ô chữ về các giai đoạn phát triển trong tuổi ấu thơ với mô tả đặc điểm phù hợp dưới đây. (10 phút)\nMục tiêu: Củng cố về một số giai đoạn phát triển của tuổi ấu thơ.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc cá nhân để nối 2 cột và chia sẻ kết quả theo cặp đôi (hoặc nhóm).\n- GV tổ chức trò chơi Tiếp sức đồng đội để ghép ô chữ tương ứng hoặc sắp xếp lại các ô chữ đã bị xáo trộn.",
+              "- GV yêu cầu HS làm việc cá nhân để nối 2 cột và chia sẻ kết quả theo cặp đôi (hoặc nhóm).\n- GV tổ chức trò chơi Tiếp sức đồng đội để ghép ô chữ tương ứng hoặc sắp xếp lại các ô chữ đã bị xáo trộn.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_24/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS hoàn thành nhiệm vụ, chia sẻ với bạn.\n- HS chơi trò chơi:\n- 8 HS được đề cử chia làm 2 đội chơi.\n- HS nghe luật chơi và hỏi (nếu cần)."
             ],
             [
@@ -7511,7 +7511,7 @@
               "2.2. TUỔI VỊ THÀNH NIÊN (từ 10 đến 19 tuổi) - HĐ2\nMục tiêu: Nêu được một số thay đổi của nam và nữ ở tuổi dậy thì.\n*Cách tiến hành:"
             ],
             [
-              "- GV cho HS video đã sưu tầm về một số thay đổi của nam và nữ ở tuổi dậy thì.\n- GV yêu cầu HS đọc thông tin trong SGK, thảo luận nhóm 4 để tìm hiểu những sự thay đổi ở nam và nữ ở tuổi dậy thì và hoàn thành phiếu học tập.",
+              "- GV cho HS video đã sưu tầm về một số thay đổi của nam và nữ ở tuổi dậy thì.\n- GV yêu cầu HS đọc thông tin trong SGK, thảo luận nhóm 4 để tìm hiểu những sự thay đổi ở nam và nữ ở tuổi dậy thì và hoàn thành phiếu học tập.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_24/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS xem video.\n- HS làm việc nhóm 4, mỗi bạn lần lượt đưa ra ý kiến, thống nhất và hoàn thành phiếu học tập."
             ],
             [
@@ -7580,7 +7580,7 @@
               "2. KHÁM PHÁ\n2.1. TUỔI TRƯỞNG THÀNH (từ 20 đến 60 tuổi) (5 phút)\nMục tiêu: Nêu được một số đặc điểm nổi bật của con người ở giai đoạn tuổi trưởng thành.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc cá nhân, đọc khung thông tin và trả lời câu hỏi trong SGK, chia sẻ theo nhóm đôi.\n- GV mời một số nhóm trình bày kết quả trước lớp; HS ở dưới lắng nghe và nhận xét.",
+              "- GV yêu cầu HS làm việc cá nhân, đọc khung thông tin và trả lời câu hỏi trong SGK, chia sẻ theo nhóm đôi.\n- GV mời một số nhóm trình bày kết quả trước lớp; HS ở dưới lắng nghe và nhận xét.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_25/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS hoàn thành yêu cầu của SGK, chia sẻ câu trả lời theo nhóm đôi.\n- Đại diện 1 số HS trình bày kết quả trước lớp, HS khác nhận xét."
             ],
             [
@@ -7595,7 +7595,7 @@
               "- HS nghe và đoán.\n- HS trả lời: Con cháu mong muốn ông bà, bố mẹ dù tuổi già nhưng vẫn vui vẻ, khoẻ mạnh và sống có ích.\n- HS lắng nghe."
             ],
             [
-              "- GV gọi HS đọc yêu cầu trong SGK.\n- GV yêu cầu HS làm việc nhóm, liên hệ thực tế và thực hiện theo yêu cầu trong SGK.\n- GV tổ chức cho HS chia kẻ kết quả bằng trò chơi Nhanh như chớp.",
+              "- GV gọi HS đọc yêu cầu trong SGK.\n- GV yêu cầu HS làm việc nhóm, liên hệ thực tế và thực hiện theo yêu cầu trong SGK.\n- GV tổ chức cho HS chia kẻ kết quả bằng trò chơi Nhanh như chớp.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_25/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu trong SGK.\n- Các nhóm chia sẻ, hội ý để tìm ra nhiều đáp án về: đặc điểm của con người ở tuổi già; vai trò của người già trong gia đình và xã hội.\n- Luật chơi: Các đội thi đối kháng qua 2 câu hỏi đã thảo luận. Ở mỗi câu hỏi, các đội sẽ lần lượt đưa ra các đáp án nhanh. Mỗi đội chỉ có 10 giây trả lời và suy nghĩ ở mỗi lượt. Sau 10 giây, đội nào không đưa ra được đáp án mới và đúng sẽ bị loại. Đội giành chiến thắng nhiều lượt chơi hơn sẽ là đội thắng cuộc."
             ],
             [
@@ -7624,7 +7624,7 @@
               "4. VẬN DỤNG - TRẢI NGHIỆM\n4.1. Chia sẻ một số việc em có thể làm để thể hiện sự quan tâm, chăm sóc với những thành viên trong gia đình.\nMục tiêu: Liên hệ thực tế, nêu được một số việc bản thân có thể làm với những thành viên trong gia đình.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát tranh hoặc liên hệ và chia sẻ những hoạt động có thể làm để thể hiện sự quan tâm, chăm sóc với các thành viên trong gia đình với bạn cùng bàn.\n- GV tổ chức cho HS chia sẻ kết quả bằng hoạt động: chăm sóc Cây hạnh phúc.",
+              "- GV yêu cầu HS quan sát tranh hoặc liên hệ và chia sẻ những hoạt động có thể làm để thể hiện sự quan tâm, chăm sóc với các thành viên trong gia đình với bạn cùng bàn.\n- GV tổ chức cho HS chia sẻ kết quả bằng hoạt động: chăm sóc Cây hạnh phúc.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_25/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS chia sẻ với bạn cùng bàn theo yêu cầu.\n- Mỗi HS nhận 1 trái yêu thương để ghi 1 hoặc nhiều việc làm của mình thể hiện sự quan tâm, chăm sóc các thành viên trong gia đình.\n- HS gắn lên Cây hạnh phúc trên bảng."
             ],
             [
@@ -7707,7 +7707,7 @@
               "- Một số HS nhắc lại yêu cầu hoạt động 1."
             ],
             [
-              "+ Yêu cầu HS: Quan sát hình 1 và thực hiện theo nhiệm vụ trong SGK. Mỗi nhóm nhận 01 bộ thẻ chữ để trình bày kết quả của nhóm.",
+              "+ Yêu cầu HS: Quan sát hình 1 và thực hiện theo nhiệm vụ trong SGK. Mỗi nhóm nhận 01 bộ thẻ chữ để trình bày kết quả của nhóm.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_25/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc theo nhóm:\n+ Cá nhân HS quan sát, đọc thông tin các ô chữ, nhận ra ô màu gợi ý chỉ về đặc điểm sinh học của người, các ô chữ còn lại một số chỉ đặc điểm sinh học, một số chỉ đặc điểm xã hội. Chia sẻ trong nhóm kết quả làm việc.\n+ Nhóm thống nhất ý kiến và dán thẻ chữ vào bảng nhóm theo 2 cột: Đặc điểm sinh học của con người và Đặc điểm xã hội của con người."
             ],
             [
@@ -7753,7 +7753,7 @@
               "3. Luyện tập: Liệt kê và sắp xếp một số đặc điểm sinh học, đặc điểm xã hội của nam, nữ theo gợi ý (10 phút)\nMục tiêu: Củng cố về phân biệt được đặc điểm sinh học, đặc điểm xã hội của nam, của nữ.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu làm việc nhóm, sử dụng tất cả thẻ đặc điểm ở hoạt động khám phá để thực hiện theo yêu cầu Phiếu bài tập trang 86.",
+              "- GV yêu cầu làm việc nhóm, sử dụng tất cả thẻ đặc điểm ở hoạt động khám phá để thực hiện theo yêu cầu Phiếu bài tập trang 86.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_25/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm trưởng yêu cầu mỗi thành viên lần lượt chọn thẻ và thực hiện:\n+ Cá nhân chọn 1 thẻ, đưa ra ý kiến phân loại theo nội dung Phiếu bài tập. Các thành viên thực hiện cho đến khi hết thẻ.\n+ Nhóm thống nhất, hoàn thành Phiếu bài tập."
             ],
             [
@@ -7846,15 +7846,15 @@
               "- Một số HS nhắc lại yêu cầu hoạt động 1."
             ],
             [
-              "+ Yêu cầu HS: Quan sát từ hình 2 đến hình 4 và thực hiện theo nhiệm vụ trong SGK.",
+              "+ Yêu cầu HS: Quan sát từ hình 2 đến hình 4 và thực hiện theo nhiệm vụ trong SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_26/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm trưởng tổ chức cho các bạn:\n+ Cá nhân HS quan sát hình, đọc nội dung bóng nói, nhận ra tình huống đã thể hiện sự tôn trọng và chưa tôn trọng bạn cùng giới và khác giới. Chia sẻ kết quả trong nhóm.\n+ Nhóm thống nhất tình huống và ý kiến giải thích cho câu hỏi “Vì sao?”."
             ],
             [
-              "+ Hướng dẫn HS quan sát nét mặt, lời nói, hành vi của các bạn thể hiện sự tôn trọng và chưa tôn trọng bạn cùng giới và khác giới ở mỗi tình huống.",
+              "+ Hướng dẫn HS quan sát nét mặt, lời nói, hành vi của các bạn thể hiện sự tôn trọng và chưa tôn trọng bạn cùng giới và khác giới ở mỗi tình huống.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_26/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát, thảo luận theo hướng dẫn của GV."
             ],
             [
-              "- Tổ chức cho các nhóm chia sẻ kết quả trước lớp.",
+              "- Tổ chức cho các nhóm chia sẻ kết quả trước lớp.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_26/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 nhóm chia sẻ, các nhóm khác bổ sung ý kiến nêu được một số ý:\n+ Tình huống hình 2, một bạn nam trong lớp thể hiện chưa tôn trọng bạn nữ qua lời nói “Việc đấy là của con gái”, các bạn khác có ý thức và thực hiện công việc.\n+ Tình huống hình 3, bạn nam qua lời nói đã thể hiện sự tôn trọng những đặc điểm khác biệt, đặc điểm sinh ra đã có của bạn.\n+ Tình huống ở hình 4, bạn nữ đã thể hiện sự tôn trọng đặc điểm sinh học của bạn mình, đưa ra phương án phù hợp vì lợi ích bảo vệ sức khoẻ của bạn."
             ],
             [
@@ -7925,7 +7925,7 @@
               "Hoạt động 2: Quan sát hình 5 và cho biết các thành viên trong gia đình đã thể hiện sự tôn trọng nhau như thế nào.\nMục tiêu: Nêu được biểu hiện thể hiện sự tôn trọng giữa các thành viên trong gia đình.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức làm việc nhóm, quan sát hình 5 và thực hiện bài tập 2.",
+              "- GV tổ chức làm việc nhóm, quan sát hình 5 và thực hiện bài tập 2.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_26/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc theo nhóm:\n+ Cá nhân quan sát hình, đọc bóng nói, nhận ra thái độ, lời nói, việc làm của mỗi thành viên đều thể hiện sự tôn trọng các thành viên khác trong gia đình. Chia sẻ trong nhóm.\n+ Nhóm thống nhất ý kiến như: cả nhà đều vui vẻ cùng làm việc nhà, không có sự phân biệt việc dành cho nam hay nữ; lời nói của bố thể hiện quan tâm sức khoẻ của mẹ; lời nói của mẹ thể hiện sự tự nguyện, niềm vui cùng làm việc nhà,..."
             ],
             [
@@ -8025,11 +8025,11 @@
               "HĐ1. Xác định những việc cần làm để chăm sóc, bảo vệ sức khoẻ thể chất và tinh thần tuổi dậy thì\nMục tiêu: Xác định những việc cần làm để chăm sóc, bảo vệ sức khoẻ thể chất và tinh thần tuổi dậy thì.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức theo nhóm đôi, yêu cầu HS quan sát hình 1 đến hình 8 và thực hiện theo yêu cầu của SGK.",
+              "- GV tổ chức theo nhóm đôi, yêu cầu HS quan sát hình 1 đến hình 8 và thực hiện theo yêu cầu của SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_26/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Cá nhân HS quan sát nội dung hình, nội dung bóng nói, xác định những việc các bạn cần làm phù hợp với mỗi bối cảnh trong hình. 2 HS cùng bàn lần lượt chia sẻ kết quả quan sát hoặc chia sẻ trong nhóm lớn nếu cần."
             ],
             [
-              "- GV hướng dẫn HS tiếp tục quan sát hình 3 đến hình 8 để nêu việc các bạn cần làm nhằm chăm sóc, bảo vệ sức khoẻ thể chất và tinh thần tuổi dậy thì.",
+              "- GV hướng dẫn HS tiếp tục quan sát hình 3 đến hình 8 để nêu việc các bạn cần làm nhằm chăm sóc, bảo vệ sức khoẻ thể chất và tinh thần tuổi dậy thì.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_26/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS tiếp tục quan sát, trao đổi theo cặp đôi và chuẩn bị trình bày trước lớp."
             ],
             [
@@ -8158,7 +8158,7 @@
               "HĐ1. Nhận ra sự cần thiết phải giữ vệ sinh cơ thể từ việc phân tích một số tình huống\nMục tiêu: Nhận ra sự cần thiết phải giữ vệ sinh cơ thể từ việc phân tích một số tình huống.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức theo nhóm, yêu cầu HS quan sát tình huống từ hình 9 đến hình 11, chia sẻ nội dung tình huống và thực hiện theo yêu cầu của SGK. Trình bày kết quả vào Phiếu số 2.",
+              "- GV tổ chức theo nhóm, yêu cầu HS quan sát tình huống từ hình 9 đến hình 11, chia sẻ nội dung tình huống và thực hiện theo yêu cầu của SGK. Trình bày kết quả vào Phiếu số 2.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_27/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm trưởng tổ chức cho các bạn:\n+ Từng cặp đôi quan sát hình, nội dung bóng nói và chia sẻ ý kiến cùng nhau.\n+ Từng cặp chia sẻ trong nhóm, thống nhất ý kiến. Trình bày theo mẫu Phiếu số 2."
             ],
             [
@@ -8215,7 +8215,7 @@
               "HĐ1. Xác định những cách làm đúng để giữ vệ sinh cơ thể tuổi dậy thì\nMục tiêu: Xác định những cách làm đúng để giữ vệ sinh cơ thể tuổi dậy thì.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc nhóm đôi, quan sát hình 12, 13 và thực hiện theo yêu cầu của SGK.",
+              "- GV yêu cầu HS làm việc nhóm đôi, quan sát hình 12, 13 và thực hiện theo yêu cầu của SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_27/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Hai HS quan sát nội dung hình và lần lượt hỏi, trả lời: Dựa vào nội dung khung thông tin đã đọc, xác định những việc bạn chưa làm đúng, đề xuất cách làm đúng; chia sẻ trong nhóm lớn nếu cần."
             ],
             [
@@ -8737,11 +8737,11 @@
               "HĐ1. Nhận diện và nêu dấu hiệu của bạn an toàn và không an toàn\nMục tiêu: Nhận diện và nêu được dấu hiệu của bạn an toàn và không an toàn.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc cặp đôi, quan sát kĩ nội dung từng hình và thực hiện theo yêu cầu của SGK.",
+              "- GV yêu cầu HS làm việc cặp đôi, quan sát kĩ nội dung từng hình và thực hiện theo yêu cầu của SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_29/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Cá nhân HS quan sát nội dung hình, dựa vào nội dung thông tin đã đọc, đối chiếu với biểu cảm nét mặt, lời nói của các bạn trong mỗi hình, xác định những bạn nào đang an toàn và bạn nào đang bị xâm hại đến sự an toàn."
             ],
             [
-              "- GV hướng dẫn HS tiếp tục quan sát hình 3 và hình 4 để nhận diện tình huống an toàn và tình huống không an toàn.",
+              "- GV hướng dẫn HS tiếp tục quan sát hình 3 và hình 4 để nhận diện tình huống an toàn và tình huống không an toàn.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_29/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 2 HS cùng bàn lần lượt chia sẻ kết quả quan sát, thống nhất ý kiến hoặc chia sẻ trong nhóm lớn nếu cần."
             ],
             [
@@ -8889,7 +8889,7 @@
               "HĐ1. Xác định tình huống có nguy cơ dẫn đến bị xâm hại tình dục\nMục tiêu: Xác định được những tình huống có nguy cơ dẫn đến bị xâm hại tình dục.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc theo cặp, quan sát tình huống từ hình 5 đến hình 8, chia sẻ nội dung tình huống và thực hiện theo yêu cầu của SGK.",
+              "- GV yêu cầu HS làm việc theo cặp, quan sát tình huống từ hình 5 đến hình 8, chia sẻ nội dung tình huống và thực hiện theo yêu cầu của SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_29/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 2 HS quan sát hình ảnh, bóng nói và lần lượt chia sẻ nội dung tình huống, xác định tình huống nào có nguy cơ dẫn đến bị xâm hại tình dục, đưa ra ý kiến giải thích. HS có thể chia sẻ trong nhóm lớn nếu cần."
             ],
             [
@@ -9027,7 +9027,7 @@
               "HĐ1. Nhận diện bí mật có thể giữ kín và bí mật cần được chia sẻ\nMục tiêu: Nhận diện những sự việc, tình huống (điều khó nói/bí mật) an toàn hoặc tiềm ẩn nguy cơ không an toàn.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS:\n+ Làm việc cặp đôi, quan sát kĩ nội dung, bối cảnh trong từng hình và thực hiện theo yêu cầu của SGK.\n+ Chia sẻ kết quả trong nhóm và giải thích lí do vì sao sắp xếp như vậy.",
+              "- GV yêu cầu HS:\n+ Làm việc cặp đôi, quan sát kĩ nội dung, bối cảnh trong từng hình và thực hiện theo yêu cầu của SGK.\n+ Chia sẻ kết quả trong nhóm và giải thích lí do vì sao sắp xếp như vậy.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_30/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 2 HS cùng quan sát và chia sẻ nội dung hình, dựa vào nội dung thông tin đã đọc, phân loại tình huống vào 2 cột phù hợp.\n- HS chia sẻ kết quả làm việc cặp đôi trong nhóm. Nhóm thống nhất kết quả phân loại và ý kiến giải thích cho cách sắp xếp tình huống vào 2 cột."
             ],
             [
@@ -9171,7 +9171,7 @@
               "HĐ1 và HĐ2. Các bước đưa ra yêu cầu giúp đỡ khi gặp tình huống không an toàn hoặc nguy cơ bị xâm hại\nMục tiêu: Nêu được các bước đưa ra yêu cầu giúp đỡ khi gặp tình huống không an toàn hoặc nguy cơ bị xâm hại.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc nhóm, quan sát kĩ diễn biến câu chuyện ở các hình và thực hiện theo yêu cầu của SGK.",
+              "- GV yêu cầu HS làm việc nhóm, quan sát kĩ diễn biến câu chuyện ở các hình và thực hiện theo yêu cầu của SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_30/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm trưởng tổ chức cho các bạn:\n+ Cá nhân HS quan sát nội dung diễn biến trong các hình, bóng nói.\n+ HS dựa vào các ý chính mà bạn gái đã thực hiện từ hình 13a đến hình 13d, lần lượt trả lời câu hỏi trong SGK.\n+ Nhóm cùng nhau trao đổi thống nhất các bước."
             ],
             [
@@ -9194,7 +9194,7 @@
               "3. Luyện tập: Quan sát các tình huống ở hình 14, 15 và thảo luận nguy cơ, cách ứng phó (8 phút)\nMục tiêu: Xác định được nguy cơ và đề xuất cách ứng phó.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức tương tự HĐ khám phá, yêu cầu HS làm việc nhóm, quan sát kĩ diễn biến câu chuyện ở các hình và thực hiện theo yêu cầu của SGK.",
+              "- GV tổ chức tương tự HĐ khám phá, yêu cầu HS làm việc nhóm, quan sát kĩ diễn biến câu chuyện ở các hình và thực hiện theo yêu cầu của SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_30/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Nhóm HS cùng nhau trao đổi, làm rõ tình huống và thảo luận theo yêu cầu của SGK. Xác định các nguy cơ và đưa ra các cách ứng phó, yêu cầu giúp đỡ phù hợp với mỗi tình huống."
             ],
             [
@@ -9300,7 +9300,7 @@
               "Hoạt động 1: Chia sẻ Sơ đồ hệ thống kiến thức\nMục tiêu: Hệ thống hoá được kiến thức của chủ đề dưới dạng sơ đồ.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho cả lớp chia sẻ theo hình thức hội chợ:\n+ Yêu cầu các nhóm trưng bày Sơ đồ hệ thống kiến thức đã chuẩn bị tại các vị trí của nhóm mình.\n+ Cử người giới thiệu sản phẩm nhóm và tham quan, nhận xét các nhóm khác.",
+              "- GV tổ chức cho cả lớp chia sẻ theo hình thức hội chợ:\n+ Yêu cầu các nhóm trưng bày Sơ đồ hệ thống kiến thức đã chuẩn bị tại các vị trí của nhóm mình.\n+ Cử người giới thiệu sản phẩm nhóm và tham quan, nhận xét các nhóm khác.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_31/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Trưởng nhóm yêu cầu các bạn rà soát lại Sơ đồ hệ thống hoá kiến thức đã chuẩn bị của nhóm mình, phân công các bạn thực hiện:\n+ Treo sơ đồ của nhóm và 2 bạn đứng tại vị trí sơ đồ để trình bày với “khách tham quan” về nội dung nhóm mình đã tóm lược.\n+ Các bạn còn lại di chuyển tự do đến các điểm trưng bày, nghe nhóm bạn trình bày và đặt câu hỏi và chia sẻ ý kiến (nếu cần)."
             ],
             [
@@ -9311,7 +9311,7 @@
               "Hoạt động 2: Lựa chọn thông tin phù hợp với hình tương ứng\nMục tiêu: Củng cố kiến thức.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc cá nhân để hoàn thành yêu cầu 2 của SGK và chia sẻ trong nhóm.",
+              "- GV yêu cầu HS làm việc cá nhân để hoàn thành yêu cầu 2 của SGK và chia sẻ trong nhóm.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_31/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS hoàn thành nhiệm vụ, chia sẻ trong nhóm. Nhóm thống nhất kết quả."
             ],
             [
@@ -9333,7 +9333,7 @@
               "Hoạt động 3: Em sẽ làm gì trong tình huống cần ứng xử phù hợp\nMục tiêu: Vận dụng kiến thức về tôn trọng bạn cùng giới và khác giới, tìm kiếm sự giúp đỡ để đưa ra cách ứng xử phù hợp.\nMục tiêu tích hợp: HS nhận biết AI là công cụ hỗ trợ tham khảo khi ôn tập và xử lí tình huống về sức khoẻ, không thay thế ý kiến của thầy cô, cha mẹ hoặc nhân viên y tế.\nHS biết kiểm chứng thông tin AI đưa ra với SGK, học liệu chính thống; không nhập tên thật, hình ảnh, địa chỉ, số điện thoại lên công cụ AI.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc nhóm, quan sát tình huống ở 2 hình và thực hiện theo yêu cầu của SGK.",
+              "- GV yêu cầu HS làm việc nhóm, quan sát tình huống ở 2 hình và thực hiện theo yêu cầu của SGK.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_31/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thảo luận và đưa ra cách ứng xử cho tình huống."
             ],
             [
@@ -9442,7 +9442,7 @@
               "Hoạt động 1: Quan sát hình 1 và tìm hiểu các yếu tố môi trường cung cấp cho sinh vật\nMục tiêu: Trình bày được các chức năng của môi trường đối với đời sống của sinh vật: cung cấp thức ăn, nơi ở, các nhu cầu sống thiết yếu.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu cá nhân HS quan sát riêng hình 1, hỏi và nêu yêu cầu:",
+              "- GV yêu cầu cá nhân HS quan sát riêng hình 1, hỏi và nêu yêu cầu:\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_31/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 1, trả lời."
             ],
             [
@@ -9497,7 +9497,7 @@
               "- HS lắng nghe nhiệm vụ thảo luận."
             ],
             [
-              "- GV yêu cầu HS quan sát từ hình 2 đến hình 5, thực hiện nhiệm vụ trong nhóm:\n+ Kể tên những yếu tố của môi trường trong mỗi hình.\n+ Môi trường cung cấp những gì cho động vật, thực vật, con người sinh sống?",
+              "- GV yêu cầu HS quan sát từ hình 2 đến hình 5, thực hiện nhiệm vụ trong nhóm:\n+ Kể tên những yếu tố của môi trường trong mỗi hình.\n+ Môi trường cung cấp những gì cho động vật, thực vật, con người sinh sống?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_31/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Các nhóm thảo luận và viết kết quả vào mỗi góc của Khăn trải bàn: Cá nhân HS ghi tên yếu tố của môi trường, mặt giữa khăn trải bàn ghi nội dung kết luận chung của nhóm."
             ],
             [
@@ -9670,7 +9670,7 @@
               "2. Khám phá (22 phút): Môi trường bảo vệ sinh vật và con người\nMục tiêu: Trình bày được vai trò bảo vệ sinh vật, con người của môi trường. Nêu được vai trò của rừng đối với các loài động vật, con người.\nMục tiêu tích hợp: HS hiểu nước là điều kiện sống quan trọng của sinh vật và nhận ra việc bảo vệ ao, hồ, sông, suối là góp phần bảo vệ môi trường sống của con người, động vật, thực vật.\n*Cách tiến hành:"
             ],
             [
-              "- GV chia lớp làm 6 nhóm, sử dụng kĩ thuật Mảnh ghép, giao nhiệm vụ cho các nhóm:",
+              "- GV chia lớp làm 6 nhóm, sử dụng kĩ thuật Mảnh ghép, giao nhiệm vụ cho các nhóm:\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_32/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_32/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe nhiệm vụ."
             ],
             [
@@ -9863,7 +9863,7 @@
               "Hoạt động 1: Quan sát hình 12 đến hình 16 và tìm hiểu chất thải của sinh vật, con người\nMục tiêu: Trình bày được sinh vật thải những gì ra môi trường và các chất thải đó được phân huỷ nhờ đâu.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc nhóm bàn, quan sát từ hình 12 đến hình 16 thấy được những thứ mà sinh vật và con người thải ra, thảo luận các ý sau:",
+              "- GV yêu cầu HS làm việc nhóm bàn, quan sát từ hình 12 đến hình 16 thấy được những thứ mà sinh vật và con người thải ra, thảo luận các ý sau:\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_32/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_32/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thảo luận theo nhóm 2."
             ],
             [
@@ -10067,7 +10067,7 @@
               "1. Khởi động (7 phút): Quan sát hình 1 và dự đoán sự thay đổi của sinh vật khi rừng không còn\nMục tiêu: HS nêu được những thay đổi của các loài sinh vật khi môi trường rừng không còn.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu: Quan sát hình 1 hoặc video.",
+              "- GV yêu cầu: Quan sát hình 1 hoặc video.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_33/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Lớp quan sát tranh hoặc theo dõi video."
             ],
             [
@@ -10149,7 +10149,7 @@
               "- HS nêu tác hại hoặc ích lợi tương ứng với từng hình."
             ],
             [
-              "- Tổ chức cho HS báo cáo.\n- GV treo hình 2, yêu cầu HS báo cáo xong chọn dán nhãn cho từng hình:\n+ Hoạt động có tác động tiêu cực.\n+ Hoạt động có tác động tích cực.",
+              "- Tổ chức cho HS báo cáo.\n- GV treo hình 2, yêu cầu HS báo cáo xong chọn dán nhãn cho từng hình:\n+ Hoạt động có tác động tiêu cực.\n+ Hoạt động có tác động tích cực.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_33/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS chọn sticker dán nhãn lên hình:\n+ Tác động tiêu cực: Hình 2a, 2c, 2g, 2h.\n+ Tác động tích cực: Hình 2b, 2d, 2e.\n- Nhóm khác nhận xét, bổ sung ý kiến."
             ],
             [
@@ -10271,7 +10271,7 @@
               "- HS lắng nghe nhiệm vụ, thảo luận trong nhóm 6."
             ],
             [
-              "+ Quan sát kĩ mỗi hình nhỏ ở hình 3.\n+ Cho biết việc làm ở mỗi hình đó nhằm mục đích gì? Hoạt động đó có ý nghĩa gì với việc bảo vệ môi trường và tài nguyên thiên nhiên?",
+              "+ Quan sát kĩ mỗi hình nhỏ ở hình 3.\n+ Cho biết việc làm ở mỗi hình đó nhằm mục đích gì? Hoạt động đó có ý nghĩa gì với việc bảo vệ môi trường và tài nguyên thiên nhiên?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_33/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình rồi đưa ra kết luận:\n+ Hình 3a: Quy trình ủ phân hữu cơ từ rác thải khép kín giúp hạn chế rác thải, tái sử dụng rác thải, cải tạo đất trồng.\n+ Hình 3b: Kiểm lâm tuần tra rừng: quản lí, bảo vệ rừng khỏi việc bị chặt phá bừa bãi, phát hiện, ngăn chặn cháy rừng kịp thời.\n+ Hình 3c: Khu bảo tồn thiên nhiên cho phép giữ gìn các quần thể sinh vật, các hệ sinh thái.\n+ Hình 3d: Xử lí nước thải trước khi thải ra môi trường giúp xử lí các chất độc hại, vi khuẩn gây bệnh có thể gây ô nhiễm môi trường tự nhiên và sức khoẻ của con người.\n+ Hình 3e: Tắt điện khi không sử dụng giúp tiết kiệm điện, bảo vệ đồ điện, giảm chi phí, giảm lượng khí thải các-bô-níc."
             ],
             [
@@ -10556,7 +10556,7 @@
               "2. Luyện tập (12 phút): Hệ thống hóa kiến thức bằng sơ đồ tư duy\nMục tiêu:\n- HS trình bày được tóm tắt các nội dung chính trong chủ đề theo những hình thức khác nhau.\n- HS biết chia sẻ, bổ sung ví dụ về chức năng của môi trường và tác động của con người đến môi trường.\nMục tiêu tích hợp NLS 4.4.CB2a:\n- HS biết dùng Canva Mind Map hoặc PowerPoint SmartArt để hệ thống hóa kiến thức chủ đề Sinh vật và môi trường một cách trực quan.\n- HS rèn kĩ năng chọn thông tin, sắp xếp nhánh ý, trình bày sơ đồ số rõ ràng và chia sẻ sản phẩm học tập với bạn.\n*Cách tiến hành:"
             ],
             [
-              "- GV mời HS đọc nhiệm vụ, quan sát hình 1.\n- GV gắn bảng sơ đồ hình 1.\n- Tích hợp NLS 4.4.CB2a: GV hướng dẫn HS có thể sử dụng Canva Mind Map hoặc PowerPoint SmartArt để lập sơ đồ hệ thống hóa kiến thức chủ đề Sinh vật và môi trường. GV nhắc HS chọn từ khóa chính, chia nhánh rõ các nội dung: chức năng của môi trường, tác động tích cực, tác động tiêu cực và việc làm bảo vệ môi trường. HS biết dùng biểu tượng, màu sắc, mũi tên hợp lí để sản phẩm dễ đọc, không sao chép nguyên văn quá dài, qua đó rèn năng lực tổ chức thông tin trong môi trường số.",
+              "- GV mời HS đọc nhiệm vụ, quan sát hình 1.\n- GV gắn bảng sơ đồ hình 1.\n- Tích hợp NLS 4.4.CB2a: GV hướng dẫn HS có thể sử dụng Canva Mind Map hoặc PowerPoint SmartArt để lập sơ đồ hệ thống hóa kiến thức chủ đề Sinh vật và môi trường. GV nhắc HS chọn từ khóa chính, chia nhánh rõ các nội dung: chức năng của môi trường, tác động tích cực, tác động tiêu cực và việc làm bảo vệ môi trường. HS biết dùng biểu tượng, màu sắc, mũi tên hợp lí để sản phẩm dễ đọc, không sao chép nguyên văn quá dài, qua đó rèn năng lực tổ chức thông tin trong môi trường số.\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_34/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS đọc to.\n- HS quan sát sơ đồ hình 1.\n- HS lắng nghe hướng dẫn tích hợp, có thể lựa chọn Canva Mind Map hoặc PowerPoint SmartArt để hoàn thiện sơ đồ kiến thức theo khả năng của nhóm."
             ],
             [
@@ -10575,7 +10575,7 @@
               "3. Vận dụng - Trải nghiệm (16 phút): Xử lí rơm rạ sau thu hoạch và giải thích lợi ích của chèo thuyền bằng tay\nMục tiêu:\n- HS biết cách xử lí hoặc đề xuất được phương án xử lí sản phẩm phụ sau khi thu hoạch nông sản.\n- HS giải thích được lí do vì sao nên chèo thuyền bằng tay ở những nơi cần bảo tồn.\n*Cách tiến hành:"
             ],
             [
-              "- GV mời HS quan sát hình 2, hỏi: Người nông dân trong hình đang làm gì?\n- GV mời HS theo dõi 1 video ngắn.\n- Qua video và hiểu biết của mình, em thấy việc đốt rơm rạ sau thu hoạch gây ra những hậu quả gì đối với môi trường?",
+              "- GV mời HS quan sát hình 2, hỏi: Người nông dân trong hình đang làm gì?\n- GV mời HS theo dõi 1 video ngắn.\n- Qua video và hiểu biết của mình, em thấy việc đốt rơm rạ sau thu hoạch gây ra những hậu quả gì đối với môi trường?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_34/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 2, trả lời:\n+ Bác nông dân đang đốt rơm rạ sau khi thu hoạch.\n- HS nêu: Đốt rơm rạ ngay trên đồng ruộng có tác động đến:\n+ Môi trường không khí: gây ô nhiễm không khí, làm tăng khí độc trong không khí; tăng lượng lớn khí các-bô-níc làm tăng hiệu ứng nhà kính.\n+ Động vật, thực vật: tiêu diệt các vi sinh vật có ích trong đất; sâu bệnh phát triển nhiều hơn.\n+ Đất đai: lãng phí chất dinh dưỡng, làm thoái hoá đất, làm chai cứng đất.\n+ Sức khoẻ người dân: ngạt khói, mất an toàn giao thông vì khói che tầm nhìn người lái xe."
             ],
             [
@@ -10587,7 +10587,7 @@
               "- Đại diện 1, 2 nhóm HS trình bày, các nhóm khác nêu nhận xét, băn khoăn hoặc bổ sung ý kiến.\n+ Sử dụng rơm rạ làm phân bón ngay tại đồng ruộng nhờ phân vi sinh giúp phân huỷ nhanh rơm rạ thành các chất dinh dưỡng cho đất trồng trong vụ tiếp theo.\n+ Làm thức ăn cho gia súc.\n+ Dùng rơm rạ làm nấm, thức ăn chăn nuôi, sản xuất đồ gia dụng.\n- HS lắng nghe, ghi vở ý chính."
             ],
             [
-              "- GV mời HS lên giới thiệu về lễ hội chùa Hương.\n- Khen ngợi, giới thiệu thêm: Để đến được các chùa trong quần thể di tích chùa Hương, du khách phải đi đò trên dòng suối Yến với chiều dài khoảng 4 km.\n- Mời HS đọc nhiệm vụ 3.\n- GV yêu cầu HS quan sát hình 3 và tư liệu sưu tầm, trả lời câu hỏi:\n+ Chèo thuyền bằng tay có những lợi ích gì đối với môi trường?\n+ Dù lượng du khách rất đông nhưng vì sao không nên sử dụng thuyền chạy bằng động cơ xăng, dầu?",
+              "- GV mời HS lên giới thiệu về lễ hội chùa Hương.\n- Khen ngợi, giới thiệu thêm: Để đến được các chùa trong quần thể di tích chùa Hương, du khách phải đi đò trên dòng suối Yến với chiều dài khoảng 4 km.\n- Mời HS đọc nhiệm vụ 3.\n- GV yêu cầu HS quan sát hình 3 và tư liệu sưu tầm, trả lời câu hỏi:\n+ Chèo thuyền bằng tay có những lợi ích gì đối với môi trường?\n+ Dù lượng du khách rất đông nhưng vì sao không nên sử dụng thuyền chạy bằng động cơ xăng, dầu?\n<img src=\"assets/khbd_images/lop5/khoa_hoc/tuan_34/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS lên giới thiệu từ tư liệu và hình ảnh sưu tầm.\n- HS lắng nghe.\n- 1 HS đọc to, lớp theo dõi trong sách.\n- HS quan sát hình 3 và tư liệu, nêu ý kiến:\n+ Chèo thuyền bằng tay không thải dầu, khí thải ra môi trường, không gây ô nhiễm môi trường, không gây ra tiếng ồn làm ảnh hưởng đến các loài động vật hoang dã.\n+ Số lượng thuyền lớn, tập trung trong một thời gian ngắn nên nguy cơ ô nhiễm cao."
             ],
             [

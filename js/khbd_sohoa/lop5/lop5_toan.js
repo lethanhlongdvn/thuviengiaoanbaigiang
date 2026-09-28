@@ -69,7 +69,7 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: HS đọc, viết số tự nhiên; viết số thành tổng các số hạng theo hàng.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc đề bài và quan sát bảng mẫu trong SGK.",
+              "- Bài 1: GV yêu cầu HS đọc đề bài và quan sát bảng mẫu trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát bảng mẫu trong SGK."
             ],
             [
@@ -97,7 +97,7 @@
               "- HS sửa bài và ghi nhớ cách đọc, viết số tự nhiên."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc đề bài và nêu yêu cầu của bài.",
+              "- Bài 2: GV yêu cầu HS đọc đề bài và nêu yêu cầu của bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và nêu: Viết số thích hợp vào chỗ dấu hỏi."
             ],
             [
@@ -117,7 +117,7 @@
               "- HS sửa bài và nhắc lại cách xác định giá trị chữ số theo hàng."
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc đề bài, quan sát tình huống Rô-bốt viết ngày tháng năm thành một số tự nhiên.",
+              "- Bài 3: GV yêu cầu HS đọc đề bài, quan sát tình huống Rô-bốt viết ngày tháng năm thành một số tự nhiên.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát tình huống trong SGK."
             ],
             [
@@ -148,7 +148,7 @@
               "3. Vận dụng, trải nghiệm (10 phút)\nMục tiêu: HS vận dụng kiến thức về số chẵn liên tiếp và giá trị chữ số để giải quyết tình huống.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát hình ba chiếc mũ của Nam, Việt và Rô-bốt.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát hình ba chiếc mũ của Nam, Việt và Rô-bốt.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát hình trong SGK."
             ],
             [
@@ -241,7 +241,7 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: HS so sánh số tự nhiên, đọc bảng số liệu và làm tròn số.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc đề bài và quan sát các hình về độ cao đỉnh núi, giá tiền đồ chơi.",
+              "- Bài 1: GV yêu cầu HS đọc đề bài và quan sát các hình về độ cao đỉnh núi, giá tiền đồ chơi.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát các hình trong SGK."
             ],
             [
@@ -269,7 +269,7 @@
               "- HS sửa bài và ghi nhớ cách so sánh số tự nhiên."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc bảng thống kê số sản phẩm cửa hàng bán được trong các năm.",
+              "- Bài 2: GV yêu cầu HS đọc bảng thống kê số sản phẩm cửa hàng bán được trong các năm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bảng thống kê trong SGK."
             ],
             [
@@ -297,7 +297,7 @@
               "- HS sửa bài và ghi nhớ cách đọc bảng số liệu."
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc đề bài về doanh thu dự đoán và doanh thu thực tế của cửa hàng.",
+              "- Bài 3: GV yêu cầu HS đọc đề bài về doanh thu dự đoán và doanh thu thực tế của cửa hàng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài trong SGK."
             ],
             [
@@ -324,7 +324,7 @@
               "3. Vận dụng, trải nghiệm (10 phút)\nMục tiêu: HS vận dụng so sánh số và sắp xếp chữ số để tạo số theo yêu cầu.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát các thẻ số Rô-bốt lập được.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát các thẻ số Rô-bốt lập được.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát các thẻ số."
             ],
             [
@@ -414,7 +414,7 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: HS thực hiện các phép tính và nhận biết các biểu thức có giá trị bằng nhau.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc đề bài và nêu yêu cầu.",
+              "- Bài 1: GV yêu cầu HS đọc đề bài và nêu yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và nêu: Đặt tính rồi tính."
             ],
             [
@@ -438,7 +438,7 @@
               "- HS sửa bài và ghi nhớ cách kiểm tra kết quả."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc đề bài và quan sát các biểu thức trên các toa tàu.",
+              "- Bài 2: GV yêu cầu HS đọc đề bài và quan sát các biểu thức trên các toa tàu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát các biểu thức."
             ],
             [
@@ -465,7 +465,7 @@
               "3. Vận dụng, trải nghiệm (10 phút)\nMục tiêu: HS vận dụng phép tính và tính chất phép tính để giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc bài toán về giá tiền gói bim bim cua và gói bim bim mực.",
+              "- Bài 3: GV yêu cầu HS đọc bài toán về giá tiền gói bim bim cua và gói bim bim mực.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán trong SGK."
             ],
             [
@@ -493,7 +493,7 @@
               "- HS sửa bài và ghi đáp án: bim bim cua 11 000 đồng; bim bim mực 7 000 đồng."
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát bảng số liệu Rô-bốt đưa ra.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát bảng số liệu Rô-bốt đưa ra.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát bảng số liệu."
             ],
             [
@@ -578,7 +578,7 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: HS tính giá trị biểu thức, tìm chữ số thích hợp và tính bằng cách thuận tiện.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc đề bài và nêu yêu cầu.",
+              "- Bài 1: GV yêu cầu HS đọc đề bài và nêu yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và nêu: Tính giá trị của biểu thức."
             ],
             [
@@ -598,7 +598,7 @@
               "- HS sửa bài và ghi đáp án: a) 2 713; b) 2 000."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc đề bài và quan sát các phép tính có chữ số còn thiếu.",
+              "- Bài 2: GV yêu cầu HS đọc đề bài và quan sát các phép tính có chữ số còn thiếu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát các phép tính."
             ],
             [
@@ -622,7 +622,7 @@
               "- HS sửa bài và ghi nhớ cách tìm chữ số thích hợp."
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc đề bài và nêu yêu cầu.",
+              "- Bài 3: GV yêu cầu HS đọc đề bài và nêu yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và nêu: Tính bằng cách thuận tiện."
             ],
             [
@@ -649,7 +649,7 @@
               "3. Vận dụng, trải nghiệm (10 phút)\nMục tiêu: HS vận dụng phép tính với số tự nhiên để giải bài toán thực tế và kiểm tra kết quả bằng công cụ số.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát bốn bức tranh có giá tiền tương ứng.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát bốn bức tranh có giá tiền tương ứng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát bốn bức tranh."
             ],
             [
@@ -673,7 +673,7 @@
               "- HS sửa bài và ghi đáp án: 179 000 đồng."
             ],
             [
-              "- Bài 5: GV yêu cầu HS đọc bài toán về số gạo của bác Ba.",
+              "- Bài 5: GV yêu cầu HS đọc bài toán về số gạo của bác Ba.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán trong SGK."
             ],
             [
@@ -758,7 +758,7 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: HS viết phân số chỉ phần tô màu, rút gọn, quy đồng và chọn đáp án đúng.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc đề bài và quan sát phần đã tô màu ở Hình A, Hình B, Hình C.",
+              "- Bài 1: GV yêu cầu HS đọc đề bài và quan sát phần đã tô màu ở Hình A, Hình B, Hình C.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát các hình trong SGK."
             ],
             [
@@ -778,7 +778,7 @@
               "- HS sửa bài và ghi nhớ cách viết phân số qua hình vẽ."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc đề bài và quan sát các phân số cần điền số, rút gọn.",
+              "- Bài 2: GV yêu cầu HS đọc đề bài và quan sát các phân số cần điền số, rút gọn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát các phân số."
             ],
             [
@@ -802,7 +802,7 @@
               "- HS sửa bài và ghi nhớ cách rút gọn phân số."
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc đề bài và quan sát các lựa chọn.",
+              "- Bài 3: GV yêu cầu HS đọc đề bài và quan sát các lựa chọn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát các lựa chọn trong SGK."
             ],
             [
@@ -829,7 +829,7 @@
               "3. Vận dụng, trải nghiệm (10 phút)\nMục tiêu: HS quy đồng mẫu số và tính giá trị biểu thức phân số.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài và nêu yêu cầu.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài và nêu yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image22.png\" alt=\"image22.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và nêu: Quy đồng mẫu số các phân số."
             ],
             [
@@ -849,7 +849,7 @@
               "- HS sửa bài và ghi nhớ cách quy đồng mẫu số."
             ],
             [
-              "- Bài 5: GV yêu cầu HS đọc đề bài và quan sát biểu thức phân số.",
+              "- Bài 5: GV yêu cầu HS đọc đề bài và quan sát biểu thức phân số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_1/image23.png\" alt=\"image23.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát biểu thức."
             ],
             [
@@ -937,7 +937,7 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: HS so sánh, chọn đáp án đúng và sắp xếp các phân số theo thứ tự.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS nêu yêu cầu của bài.\n- GV hướng dẫn HS nhận xét từng cặp phân số trước khi làm bài.\n- GV gợi ý: Có thể đưa hai phân số về cùng mẫu số hoặc so sánh với số tự nhiên để điền dấu thích hợp.\n- GV yêu cầu HS làm bài cá nhân vào vở, sau đó đổi vở kiểm tra cho nhau.",
+              "- Bài 1: GV yêu cầu HS nêu yêu cầu của bài.\n- GV hướng dẫn HS nhận xét từng cặp phân số trước khi làm bài.\n- GV gợi ý: Có thể đưa hai phân số về cùng mẫu số hoặc so sánh với số tự nhiên để điền dấu thích hợp.\n- GV yêu cầu HS làm bài cá nhân vào vở, sau đó đổi vở kiểm tra cho nhau.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image24.png\" alt=\"image24.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Điền dấu >, <, = vào ô trống.\n- HS quan sát từng cặp phân số, chọn cách so sánh phù hợp.\n- HS làm bài cá nhân vào vở và đổi vở kiểm tra."
             ],
             [
@@ -949,7 +949,7 @@
               "- HS sửa bài vào vở.\n- HS ghi nhớ: Có thể so sánh phân số bằng cách quy đồng mẫu số, so sánh tử số hoặc so sánh với số tự nhiên."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc từng câu hỏi và các phương án trả lời.\n- GV hướng dẫn HS xác định yêu cầu của từng câu: so sánh phân số với 1, so sánh với phân số đã cho.\n- GV yêu cầu HS làm bài cá nhân, sau đó trao đổi nhóm đôi để thống nhất đáp án.",
+              "- Bài 2: GV yêu cầu HS đọc từng câu hỏi và các phương án trả lời.\n- GV hướng dẫn HS xác định yêu cầu của từng câu: so sánh phân số với 1, so sánh với phân số đã cho.\n- GV yêu cầu HS làm bài cá nhân, sau đó trao đổi nhóm đôi để thống nhất đáp án.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image25.png\" alt=\"image25.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và xác định yêu cầu: Chọn câu trả lời đúng.\n- HS làm bài vào vở.\n- HS trao đổi với bạn và chuẩn bị giải thích lựa chọn của mình."
             ],
             [
@@ -957,7 +957,7 @@
               "- HS trình bày:\n- a) Phân số lớn hơn 1 là . Chọn B.\n- b) Phân số bé hơn  là . Chọn D.\n- c) Phân số lớn hơn  là . Chọn B."
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc các phân số đã cho.\n- GV hướng dẫn HS nhận xét: Phân số  lớn hơn 1, các phân số còn lại bé hơn 1.\n- GV gợi ý HS quy đồng mẫu số các phân số còn lại để sắp xếp theo yêu cầu.\n- GV yêu cầu HS làm bài cá nhân rồi trao đổi cặp đôi.",
+              "- Bài 3: GV yêu cầu HS đọc các phân số đã cho.\n- GV hướng dẫn HS nhận xét: Phân số  lớn hơn 1, các phân số còn lại bé hơn 1.\n- GV gợi ý HS quy đồng mẫu số các phân số còn lại để sắp xếp theo yêu cầu.\n- GV yêu cầu HS làm bài cá nhân rồi trao đổi cặp đôi.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image26.png\" alt=\"image26.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc các phân số: ; ; ; .\n- HS nhận xét:  > 1; , ,  đều bé hơn 1.\n- HS quy đồng các phân số bé hơn 1 để so sánh."
             ],
             [
@@ -972,7 +972,7 @@
               "3. Vận dụng, trải nghiệm (10 phút)\nMục tiêu: HS vận dụng so sánh phân số để giải quyết tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát tranh về các môn thể thao.\n- GV hỏi: Bài toán cho biết gì?\n- GV hỏi: Bài toán yêu cầu tìm gì?\n- GV hướng dẫn HS xác định các phân số cần so sánh.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài và quan sát tranh về các môn thể thao.\n- GV hỏi: Bài toán cho biết gì?\n- GV hỏi: Bài toán yêu cầu tìm gì?\n- GV hướng dẫn HS xác định các phân số cần so sánh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image27.png\" alt=\"image27.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát tranh.\n- HS trả lời: Bài toán cho biết số HS khối 5 tham gia các môn thể thao bằng các phân số.\n- HS trả lời: Bài toán hỏi môn thể thao nào được HS khối 5 tham gia nhiều nhất.\n- HS nêu các phân số cần so sánh: ; ; ; ."
             ],
             [
@@ -988,7 +988,7 @@
               "- HS quan sát hình ảnh số trực quan.\n- HS đọc đúng phân số gắn với từng môn thể thao.\n- HS trình bày cách quy đồng và so sánh phân số.\n- HS ghi nhớ cách sử dụng hình ảnh số để hỗ trợ học toán."
             ],
             [
-              "- Bài 5: GV yêu cầu HS đọc yêu cầu “Đố em!”.\n- GV hỏi: Cần tìm số tự nhiên nào để  < ?/8 < ?\n- GV hướng dẫn HS đưa  về phân số có mẫu số 8 hoặc tìm phân số trung gian phù hợp.\n- GV yêu cầu HS thảo luận nhóm đôi để tìm số cần điền.",
+              "- Bài 5: GV yêu cầu HS đọc yêu cầu “Đố em!”.\n- GV hỏi: Cần tìm số tự nhiên nào để  < ?/8 < ?\n- GV hướng dẫn HS đưa  về phân số có mẫu số 8 hoặc tìm phân số trung gian phù hợp.\n- GV yêu cầu HS thảo luận nhóm đôi để tìm số cần điền.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image28.png\" alt=\"image28.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và xác định cần tìm tử số còn thiếu.\n- HS trao đổi nhóm đôi.\n- HS nhận thấy  <  và  < ."
             ],
             [
@@ -1039,7 +1039,7 @@
               "1. Khám phá (15 phút)\nMục tiêu: HS nhận biết được phân số thập phân qua hình ảnh trực quan; nêu được đặc điểm mẫu số của phân số thập phân.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình vẽ và đọc lời thoại trong SGK.",
+              "- GV yêu cầu HS quan sát hình vẽ và đọc lời thoại trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image29.png\" alt=\"image29.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình vẽ, đọc lời thoại và xác định phần đã tô màu ở mỗi hình."
             ],
             [
@@ -1062,7 +1062,7 @@
               "2. Hoạt động (10 phút)\nMục tiêu: HS nhận biết phân số thập phân và tìm được phân số thập phân thích hợp trên tia số.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS nêu yêu cầu của bài.\n- GV yêu cầu HS nhắc lại dấu hiệu nhận biết phân số thập phân: mẫu số là 10, 100, 1 000,...\n- GV yêu cầu HS tự làm bài vào vở.\n- GV tổ chức cho HS đổi vở kiểm tra kết quả.",
+              "- Bài 1: GV cho HS nêu yêu cầu của bài.\n- GV yêu cầu HS nhắc lại dấu hiệu nhận biết phân số thập phân: mẫu số là 10, 100, 1 000,...\n- GV yêu cầu HS tự làm bài vào vở.\n- GV tổ chức cho HS đổi vở kiểm tra kết quả.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image30.png\" alt=\"image30.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Tìm các phân số thập phân.\n- HS nhắc lại: Phân số thập phân có mẫu số là 10, 100, 1 000,...\n- HS làm bài cá nhân vào vở.\n- HS đổi vở kiểm tra bài cho bạn."
             ],
             [
@@ -1070,7 +1070,7 @@
               "- HS trình bày:\n- Các phân số thập phân là: ; ; ; ; .\n-  không phải là phân số thập phân vì mẫu số là 20.\n-  không phải là phân số thập phân vì mẫu số là 59."
             ],
             [
-              "- Bài 2: GV cho HS nêu yêu cầu của bài.\n- GV yêu cầu HS quan sát tia số ở câu a và xác định mỗi đoạn bằng .\n- GV yêu cầu HS quan sát tia số ở câu b và lưu ý mỗi vạch nhỏ biểu thị .\n- GV cho HS làm bài cá nhân vào vở.",
+              "- Bài 2: GV cho HS nêu yêu cầu của bài.\n- GV yêu cầu HS quan sát tia số ở câu a và xác định mỗi đoạn bằng .\n- GV yêu cầu HS quan sát tia số ở câu b và lưu ý mỗi vạch nhỏ biểu thị .\n- GV cho HS làm bài cá nhân vào vở.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image31.png\" alt=\"image31.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Tìm phân số thập phân thích hợp.\n- HS quan sát tia số và xác định vị trí các ô trống.\n- HS làm bài cá nhân vào vở."
             ],
             [
@@ -1081,7 +1081,7 @@
               "3. Luyện tập (10 phút)\nMục tiêu: HS viết được một số phân số thành phân số thập phân.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV nêu yêu cầu luyện tập.\n- GV hướng dẫn HS làm câu a rồi yêu cầu HS làm tiếp các câu còn lại.\n- GV hỏi: Muốn viết  thành phân số có mẫu số là 10, ta nhân cả tử số và mẫu số với số nào?\n- GV yêu cầu HS vận dụng tính chất cơ bản của phân số để làm bài.",
+              "- Bài 1: GV nêu yêu cầu luyện tập.\n- GV hướng dẫn HS làm câu a rồi yêu cầu HS làm tiếp các câu còn lại.\n- GV hỏi: Muốn viết  thành phân số có mẫu số là 10, ta nhân cả tử số và mẫu số với số nào?\n- GV yêu cầu HS vận dụng tính chất cơ bản của phân số để làm bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image32.png\" alt=\"image32.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và xác định yêu cầu: Viết phân số đã cho thành phân số thập phân.\n- HS trả lời: 5 × 2 = 10 nên nhân cả tử số và mẫu số của  với 2.\n- HS trình bày câu a và làm tiếp các câu còn lại."
             ],
             [
@@ -1092,7 +1092,7 @@
               "4. Vận dụng, trải nghiệm (5 phút)\nMục tiêu: HS vận dụng cách viết phân số thành phân số thập phân vào tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc các phân số đã cho.\n- GV yêu cầu HS viết mỗi phân số thành phân số thập phân.\n- GV gợi ý HS quan sát mẫu số của từng phân số để chọn cách nhân hoặc chia phù hợp.\n- GV cho HS làm bài cá nhân rồi trao đổi cặp đôi.",
+              "- Bài 2: GV yêu cầu HS đọc các phân số đã cho.\n- GV yêu cầu HS viết mỗi phân số thành phân số thập phân.\n- GV gợi ý HS quan sát mẫu số của từng phân số để chọn cách nhân hoặc chia phù hợp.\n- GV cho HS làm bài cá nhân rồi trao đổi cặp đôi.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image33.png\" alt=\"image33.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc các phân số: ; ; ; .\n- HS làm bài cá nhân vào vở.\n- HS trao đổi kết quả với bạn."
             ],
             [
@@ -1139,7 +1139,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Ôn lại cách cộng, trừ phân số và tạo hứng thú vào bài.\nCách tiến hành:"
             ],
             [
-              "- GV tổ chức trò chơi “Vượt chướng ngại vật”.\n- GV yêu cầu HS thực hiện các phép cộng, trừ phân số ở Bài 1 trang 16.\n- GV mời 2 - 4 HS làm bài trên bảng, các HS còn lại làm bài vào vở.\n- GV yêu cầu HS trình bày cách làm: quy đồng mẫu số rồi cộng hoặc trừ các phân số.",
+              "- GV tổ chức trò chơi “Vượt chướng ngại vật”.\n- GV yêu cầu HS thực hiện các phép cộng, trừ phân số ở Bài 1 trang 16.\n- GV mời 2 - 4 HS làm bài trên bảng, các HS còn lại làm bài vào vở.\n- GV yêu cầu HS trình bày cách làm: quy đồng mẫu số rồi cộng hoặc trừ các phân số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image34.png\" alt=\"image34.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS tham gia trò chơi và thực hiện phép tính vào vở.\n- 2 - 4 HS làm bài trên bảng.\n- HS trình bày cách cộng, trừ phân số: quy đồng mẫu số rồi cộng hoặc trừ tử số, giữ nguyên mẫu số."
             ],
             [
@@ -1154,11 +1154,11 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: HS thực hiện cộng, trừ phân số và tính giá trị biểu thức.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS tự làm bài vào vở.\n- GV lưu ý HS viết số tự nhiên dưới dạng phân số có mẫu số là 1 khi cần.\n- GV tổ chức cho HS đổi vở kiểm tra, chữa bài cho nhau.",
+              "- Bài 1: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS tự làm bài vào vở.\n- GV lưu ý HS viết số tự nhiên dưới dạng phân số có mẫu số là 1 khi cần.\n- GV tổ chức cho HS đổi vở kiểm tra, chữa bài cho nhau.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image34.png\" alt=\"image34.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Tính.\n- HS làm bài cá nhân vào vở.\n- HS trình bày:\n-  +  =  +  =  = .\n-  -  =  -  = .\n-  + 4 =  +  = .\n- 3 -  =  -  = ."
             ],
             [
-              "- Bài 2: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS nhắc lại thứ tự thực hiện phép tính trong biểu thức.\n- GV cho HS làm bài cá nhân rồi trao đổi cặp đôi.\n- GV yêu cầu HS trình bày rõ từng bước tính.",
+              "- Bài 2: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS nhắc lại thứ tự thực hiện phép tính trong biểu thức.\n- GV cho HS làm bài cá nhân rồi trao đổi cặp đôi.\n- GV yêu cầu HS trình bày rõ từng bước tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image35.png\" alt=\"image35.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Tính giá trị của biểu thức.\n- HS nhắc lại: Biểu thức có ngoặc thì thực hiện trong ngoặc trước; biểu thức chỉ có cộng, trừ thì thực hiện từ trái sang phải.\n- HS làm bài vào vở."
             ],
             [
@@ -1166,7 +1166,7 @@
               "- HS trình bày:\n- a)  +  -  =  +  -  =  = .\n- b)  - (2 + ) =  -  =  -  =  = ."
             ],
             [
-              "- Bài 3: GV trình chiếu đề bài về Nam và Việt chạy thi.\n- GV yêu cầu HS đọc bài, tìm hiểu bài toán: bài toán cho biết gì, hỏi gì.\n- GV hỏi: Muốn chọn câu trả lời đúng, trước hết cần thực hiện phép tính gì?\n- GV hướng dẫn HS so sánh quãng đường Nam và Việt chạy được rồi tìm phần Việt chạy nhiều hơn Nam.",
+              "- Bài 3: GV trình chiếu đề bài về Nam và Việt chạy thi.\n- GV yêu cầu HS đọc bài, tìm hiểu bài toán: bài toán cho biết gì, hỏi gì.\n- GV hỏi: Muốn chọn câu trả lời đúng, trước hết cần thực hiện phép tính gì?\n- GV hướng dẫn HS so sánh quãng đường Nam và Việt chạy được rồi tìm phần Việt chạy nhiều hơn Nam.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image36.png\" alt=\"image36.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài.\n- HS nêu: Nam chạy được  đoạn đường, Việt chạy được  đoạn đường.\n- HS trả lời: Cần so sánh  và ; sau đó lấy phân số lớn trừ phân số bé."
             ],
             [
@@ -1181,7 +1181,7 @@
               "3. Vận dụng, trải nghiệm (10 phút)\nMục tiêu: HS vận dụng cộng, trừ phân số để giải quyết bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc bài toán về thư viện.\n- GV yêu cầu HS tìm hiểu đề: bài toán cho biết gì, hỏi gì.\n- GV hỏi: Phân số chỉ số sách trong thư viện là bao nhiêu?\n- GV hỏi: Muốn tìm phân số chỉ số truyện thiếu nhi và tạp chí, em làm thế nào?",
+              "- Bài 4: GV yêu cầu HS đọc bài toán về thư viện.\n- GV yêu cầu HS tìm hiểu đề: bài toán cho biết gì, hỏi gì.\n- GV hỏi: Phân số chỉ số sách trong thư viện là bao nhiêu?\n- GV hỏi: Muốn tìm phân số chỉ số truyện thiếu nhi và tạp chí, em làm thế nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image37.png\" alt=\"image37.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài.\n- HS nêu: Thư viện có  số sách là sách giáo khoa,  số sách là sách tham khảo; còn lại là truyện thiếu nhi và tạp chí.\n- HS trả lời: Toàn bộ số sách là 1.\n- HS nêu cách làm: Lấy 1 trừ đi phân số chỉ sách giáo khoa và sách tham khảo."
             ],
             [
@@ -1240,7 +1240,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Ôn lại cách nhân, chia phân số và kết nối vào bài học.\nCách tiến hành:"
             ],
             [
-              "- GV tổ chức trò chơi “Đi tìm kho báu”.\n- GV yêu cầu HS thực hiện các phép nhân, chia phân số ở Bài 1 trang 17.\n- GV mời 2 - 4 HS làm bài trên bảng, các HS còn lại làm bài vào vở.\n- GV yêu cầu HS trình bày cách nhân, chia phân số.",
+              "- GV tổ chức trò chơi “Đi tìm kho báu”.\n- GV yêu cầu HS thực hiện các phép nhân, chia phân số ở Bài 1 trang 17.\n- GV mời 2 - 4 HS làm bài trên bảng, các HS còn lại làm bài vào vở.\n- GV yêu cầu HS trình bày cách nhân, chia phân số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image38.png\" alt=\"image38.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS tham gia trò chơi, làm bài vào vở.\n- 2 - 4 HS làm bài trên bảng.\n- HS nêu: Muốn nhân hai phân số, lấy tử số nhân tử số, mẫu số nhân mẫu số; muốn chia hai phân số, lấy phân số thứ nhất nhân với phân số đảo ngược của phân số thứ hai."
             ],
             [
@@ -1255,11 +1255,11 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: HS thực hiện nhân, chia phân số và tính giá trị biểu thức.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS tự làm bài vào vở.\n- GV nhắc HS rút gọn kết quả nếu có thể.\n- GV cho HS đổi vở kiểm tra, chữa bài cho nhau.",
+              "- Bài 1: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS tự làm bài vào vở.\n- GV nhắc HS rút gọn kết quả nếu có thể.\n- GV cho HS đổi vở kiểm tra, chữa bài cho nhau.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image38.png\" alt=\"image38.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Tính.\n- HS làm bài cá nhân vào vở.\n- HS trình bày:\n-  ×  =  = .\n-  :  =  ×  =  = .\n- 6 ×  =  = .\n-  : 4 =  ×  =  = ."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc bài toán về tấm biển quảng cáo hình vuông.\n- GV yêu cầu HS tìm hiểu bài: bài toán cho biết gì, hỏi gì.\n- GV hỏi: Muốn tính độ dài cạnh của tấm biển quảng cáo khi biết chu vi, em làm thế nào?\n- GV hỏi: Muốn tính diện tích tấm biển quảng cáo, em làm phép tính gì?",
+              "- Bài 2: GV yêu cầu HS đọc bài toán về tấm biển quảng cáo hình vuông.\n- GV yêu cầu HS tìm hiểu bài: bài toán cho biết gì, hỏi gì.\n- GV hỏi: Muốn tính độ dài cạnh của tấm biển quảng cáo khi biết chu vi, em làm thế nào?\n- GV hỏi: Muốn tính diện tích tấm biển quảng cáo, em làm phép tính gì?\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image39.png\" alt=\"image39.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài.\n- HS nêu: Sợi dây đèn gắn một vòng quanh tấm biển dài 18 m; tấm biển là hình vuông.\n- HS trả lời: Lấy chu vi chia cho 4 để tìm độ dài cạnh.\n- HS trả lời: Lấy độ dài cạnh nhân với chính nó để tìm diện tích."
             ],
             [
@@ -1267,7 +1267,7 @@
               "- HS trình bày:\n- Bài giải:\n- Độ dài cạnh của tấm biển quảng cáo là:\n- 18 : 4 =  (m)\n- Diện tích tấm biển quảng cáo là:\n-  ×  =  (m²)\n- Đáp số: a)  m; b)  m²."
             ],
             [
-              "- Bài 3: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS nhắc lại thứ tự thực hiện phép tính trong biểu thức.\n- GV cho HS làm bài cá nhân rồi đổi vở kiểm tra.",
+              "- Bài 3: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS nhắc lại thứ tự thực hiện phép tính trong biểu thức.\n- GV cho HS làm bài cá nhân rồi đổi vở kiểm tra.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image40.png\" alt=\"image40.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Tính giá trị của biểu thức.\n- HS nhắc lại: Biểu thức có ngoặc thì thực hiện trong ngoặc trước; nhân, chia thực hiện từ trái sang phải.\n- HS làm bài vào vở."
             ],
             [
@@ -1282,7 +1282,7 @@
               "3. Vận dụng, trải nghiệm (10 phút)\nMục tiêu: HS vận dụng nhân, chia phân số để giải bài toán diện tích và tính thuận tiện.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc bài toán về tấm kính hình chữ nhật.\n- GV yêu cầu HS quan sát hình vẽ và phân tích đề bài.\n- GV hỏi: Muốn tính diện tích mỗi phần tấm kính làm mặt bàn, trước hết cần tìm gì?\n- GV hỏi: Tấm kính được chia thành mấy phần bằng nhau theo chiều dài?",
+              "- Bài 4: GV yêu cầu HS đọc bài toán về tấm kính hình chữ nhật.\n- GV yêu cầu HS quan sát hình vẽ và phân tích đề bài.\n- GV hỏi: Muốn tính diện tích mỗi phần tấm kính làm mặt bàn, trước hết cần tìm gì?\n- GV hỏi: Tấm kính được chia thành mấy phần bằng nhau theo chiều dài?\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image41.png\" alt=\"image41.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát hình vẽ.\n- HS nêu: Tấm kính dài  m, rộng  m; chia thành 3 phần bằng nhau.\n- HS trả lời: Cần tìm chiều dài của mỗi phần tấm kính.\n- HS trả lời: Tấm kính được chia thành 3 phần bằng nhau."
             ],
             [
@@ -1290,7 +1290,7 @@
               "- HS trình bày:\n- Bài giải:\n- Chiều dài của một phần tấm kính là:\n-  : 3 =  (m)\n- Diện tích một phần tấm kính làm mặt bàn là:\n-  ×  =  =  (m²)\n- Đáp số:  m²."
             ],
             [
-              "- Bài 5: GV yêu cầu HS nêu yêu cầu của bài.\n- GV hướng dẫn HS sử dụng tính chất giao hoán, kết hợp của phép nhân để tính thuận tiện.\n- GV yêu cầu HS làm bài vào vở và trình bày rõ cách nhóm các thừa số.",
+              "- Bài 5: GV yêu cầu HS nêu yêu cầu của bài.\n- GV hướng dẫn HS sử dụng tính chất giao hoán, kết hợp của phép nhân để tính thuận tiện.\n- GV yêu cầu HS làm bài vào vở và trình bày rõ cách nhóm các thừa số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image42.png\" alt=\"image42.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Tính bằng cách thuận tiện.\n- HS làm bài:\n-  ×  ×  ×\n- = ( × ) × ( × )\n- = 1 ×\n- = ."
             ],
             [
@@ -1358,7 +1358,7 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: HS kiểm tra đúng sai, tính giá trị biểu thức và giải bài toán có lời văn.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc từng phép tính và viết Đ hoặc S vào vở.\n- GV gợi ý HS không chỉ ghi Đ/S mà cần kiểm tra phép tính ở từng câu.\n- GV tổ chức cho cả lớp báo cáo kết quả bằng thẻ Đ/S.\n- GV yêu cầu HS giải thích ngắn gọn lí do chọn Đ hoặc S.",
+              "- Bài 1: GV yêu cầu HS đọc từng phép tính và viết Đ hoặc S vào vở.\n- GV gợi ý HS không chỉ ghi Đ/S mà cần kiểm tra phép tính ở từng câu.\n- GV tổ chức cho cả lớp báo cáo kết quả bằng thẻ Đ/S.\n- GV yêu cầu HS giải thích ngắn gọn lí do chọn Đ hoặc S.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image43.png\" alt=\"image43.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và xác định yêu cầu: Viết Đ hoặc S.\n- HS làm bài cá nhân vào vở.\n- HS giơ thẻ báo cáo kết quả và giải thích."
             ],
             [
@@ -1366,7 +1366,7 @@
               "- HS trình bày:\n- a) Đ vì  -  =  -  =  = .\n- b) S vì  +  =  +  = , không bằng .\n- c) Đ vì  ×  =  = .\n- d) Đ vì  :  =  ×  =  = ."
             ],
             [
-              "- Bài 2: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS nhắc lại thứ tự thực hiện phép tính trong biểu thức có dấu ngoặc và biểu thức có nhân, chia.\n- GV cho HS làm bài cá nhân, sau đó đổi vở kiểm tra.",
+              "- Bài 2: GV yêu cầu HS nêu yêu cầu của bài.\n- GV yêu cầu HS nhắc lại thứ tự thực hiện phép tính trong biểu thức có dấu ngoặc và biểu thức có nhân, chia.\n- GV cho HS làm bài cá nhân, sau đó đổi vở kiểm tra.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image44.png\" alt=\"image44.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Tính giá trị của biểu thức.\n- HS nhắc lại thứ tự thực hiện phép tính.\n- HS làm bài cá nhân vào vở và đổi vở kiểm tra."
             ],
             [
@@ -1374,7 +1374,7 @@
               "- HS trình bày:\n- a)  × ( - ) =  × ( - ) =  ×  = .\n- b)  +  : 3 =  +  ×  =  +  =  +  = ."
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc bài toán về phong trào quyên góp sách.\n- GV hướng dẫn HS tóm tắt đề bài: Lớp 5A quyên góp 96 quyển sách; lớp 5B quyên góp bằng  số sách của lớp 5A.\n- GV hỏi: Muốn tính cả hai lớp quyên góp được bao nhiêu quyển sách, trước hết cần tìm gì?\n- GV hỏi: Tìm số quyển sách lớp 5B quyên góp bằng phép tính nào?",
+              "- Bài 3: GV yêu cầu HS đọc bài toán về phong trào quyên góp sách.\n- GV hướng dẫn HS tóm tắt đề bài: Lớp 5A quyên góp 96 quyển sách; lớp 5B quyên góp bằng  số sách của lớp 5A.\n- GV hỏi: Muốn tính cả hai lớp quyên góp được bao nhiêu quyển sách, trước hết cần tìm gì?\n- GV hỏi: Tìm số quyển sách lớp 5B quyên góp bằng phép tính nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image45.png\" alt=\"image45.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image22.png\" alt=\"image22.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài.\n- HS tóm tắt bài toán.\n- HS trả lời: Trước hết cần tìm số quyển sách lớp 5B quyên góp được.\n- HS trả lời: Lấy 96 × ."
             ],
             [
@@ -1389,11 +1389,11 @@
               "3. Vận dụng, trải nghiệm (10 phút)\nMục tiêu: HS vận dụng cách tính thuận tiện và giải quyết tình huống cắt băng giấy.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS nêu yêu cầu của bài.\n- GV gợi ý HS sử dụng tính chất phân phối của phép nhân đối với phép cộng để tính thuận tiện.\n- GV yêu cầu HS làm bài cá nhân vào vở.",
+              "- Bài 4: GV yêu cầu HS nêu yêu cầu của bài.\n- GV gợi ý HS sử dụng tính chất phân phối của phép nhân đối với phép cộng để tính thuận tiện.\n- GV yêu cầu HS làm bài cá nhân vào vở.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image46.png\" alt=\"image46.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image23.png\" alt=\"image23.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu yêu cầu: Tính bằng cách thuận tiện.\n- HS nhận thấy hai tích có thừa số chung là .\n- HS làm bài vào vở."
             ],
             [
-              "- Bài 5: GV yêu cầu HS đọc bóng nói, quan sát hình và trả lời câu hỏi.\n- GV hỏi: Phải làm gì?\n- GV hỏi: Đã biết gì?\n- GV yêu cầu HS thảo luận nhóm đôi để tìm cách làm.",
+              "- Bài 5: GV yêu cầu HS đọc bóng nói, quan sát hình và trả lời câu hỏi.\n- GV hỏi: Phải làm gì?\n- GV hỏi: Đã biết gì?\n- GV yêu cầu HS thảo luận nhóm đôi để tìm cách làm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image47.png\" alt=\"image47.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_2/image24.png\" alt=\"image24.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình.\n- HS trả lời: Cần lấy được đoạn băng giấy dài  m mà không dùng thước đo.\n- HS trả lời: Có băng giấy dài  m.\n- HS thảo luận nhóm đôi để tìm cách gấp, chia băng giấy."
             ],
             [
@@ -1487,7 +1487,7 @@
               "- HS nêu phép tính cần thực hiện:  + ."
             ],
             [
-              "- GV hướng dẫn HS nhận xét mẫu số của hai phân số trong phép tính.",
+              "- GV hướng dẫn HS nhận xét mẫu số của hai phân số trong phép tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nhận xét: Hai phân số có mẫu số khác nhau."
             ],
             [
@@ -1570,7 +1570,7 @@
               "- a)  +  =  +  = .\n-     +  =  +  = .\n-     +  =  +  = .\n- b)  -  =  -  = .\n-     -  =  -  = .\n-     -  =  -  = ."
             ],
             [
-              "- GV nhận xét và chốt kết quả đúng.",
+              "- GV nhận xét và chốt kết quả đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -1613,7 +1613,7 @@
               "- HS nêu cách làm: Viết phép tính cộng hoặc trừ phân số, quy đồng mẫu số rồi thực hiện."
             ],
             [
-              "- GV nhận xét tiết học.",
+              "- GV nhận xét tiết học.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe và ghi nhớ bài học."
             ]
           ]
@@ -1681,7 +1681,7 @@
               "- HS đổi vở, kiểm tra và sửa bài."
             ],
             [
-              "- GV mời HS trình bày từng phép tính.",
+              "- GV mời HS trình bày từng phép tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- a)  +  =  +  = .\n- b)  +  =  +  = .\n- c)  -  =  -  = .\n- d)  -  =  -  =  -  = ."
             ],
             [
@@ -1737,7 +1737,7 @@
               "- HS đọc mẫu."
             ],
             [
-              "- GV hỏi: Muốn cộng hoặc trừ một số tự nhiên với một phân số, ta làm thế nào?",
+              "- GV hỏi: Muốn cộng hoặc trừ một số tự nhiên với một phân số, ta làm thế nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: Viết số tự nhiên thành phân số có mẫu số bằng mẫu số của phân số kia rồi thực hiện phép tính."
             ],
             [
@@ -1760,7 +1760,7 @@
               "- HS đọc đề bài và quan sát tranh."
             ],
             [
-              "- GV hỏi: Bài toán cho biết gì?",
+              "- GV hỏi: Bài toán cho biết gì?\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Có 5 chiếc bánh chia đều cho 6 người."
             ],
             [
@@ -1848,7 +1848,7 @@
               "- HS mô tả: Mỗi bạn nhận một cái bánh, cái bánh còn lại chia đều thành 4 phần."
             ],
             [
-              "- GV giới thiệu cách viết gọn: 1 và 1/4 viết là hỗn số.",
+              "- GV giới thiệu cách viết gọn: 1 và 1/4 viết là hỗn số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát: 1 và  viết gọn là 1 ."
             ],
             [
@@ -1907,7 +1907,7 @@
               "- a) Hỗn số: 3 . Đọc là: Ba và bảy phần mười.\n- b) Hỗn số: 1 . Đọc là: Một và năm phần tám."
             ],
             [
-              "- GV nhận xét và chốt kết quả đúng.",
+              "- GV nhận xét và chốt kết quả đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -1931,7 +1931,7 @@
               ""
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc mẫu.",
+              "- Bài 3: GV yêu cầu HS đọc mẫu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc mẫu."
             ],
             [
@@ -2026,7 +2026,7 @@
               "- HS xác định các vạch còn thiếu."
             ],
             [
-              "- GV mời HS trình bày kết quả và giải thích.",
+              "- GV mời HS trình bày kết quả và giải thích.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Vạch thứ nhất cần điền là 6 .\n- Vạch thứ hai cần điền là 6 ."
             ],
             [
@@ -2070,7 +2070,7 @@
               "- 5  = .\n- 1  = .\n- 3  = .\n- 4  = ."
             ],
             [
-              "- GV nhận xét và chốt cách làm.",
+              "- GV nhận xét và chốt cách làm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -2101,7 +2101,7 @@
               "- HS đọc đề bài."
             ],
             [
-              "- GV hỏi: Bài toán cho biết gì?",
+              "- GV hỏi: Bài toán cho biết gì?\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Có 23 phong kẹo, mỗi phong có 10 viên kẹo; chia đều số kẹo cho 10 bạn."
             ],
             [
@@ -2176,7 +2176,7 @@
               "2. Thực hành, luyện tập (22 phút)\nMục tiêu: Củng cố đổi đơn vị đo khối lượng; nhận biết góc; xác định đường thẳng song song, vuông góc.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc đề bài, quan sát các phép đổi đơn vị đo khối lượng trong SGK.",
+              "- Bài 1: GV yêu cầu HS đọc đề bài, quan sát các phép đổi đơn vị đo khối lượng trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, xác định các đơn vị cần đổi: yến, tạ, tấn, ki-lô-gam."
             ],
             [
@@ -2192,7 +2192,7 @@
               "- HS sửa bài và ghi nhớ cách đổi đơn vị đo khối lượng."
             ],
             [
-              "- Bài 2: GV yêu cầu HS quan sát hình vẽ các góc trong SGK, đọc yêu cầu câu a, b.",
+              "- Bài 2: GV yêu cầu HS quan sát hình vẽ các góc trong SGK, đọc yêu cầu câu a, b.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, nhận biết các góc và chuẩn bị thước đo góc để kiểm tra."
             ],
             [
@@ -2212,7 +2212,7 @@
               "- HS trình bày: Trong các góc đã cho có 2 góc vuông, 2 góc nhọn, 3 góc tù.\n- Một số góc có thể kiểm tra bằng thước đo góc: góc 60° là góc nhọn; góc 90° là góc vuông; góc 120° là góc tù."
             ],
             [
-              "- Bài 3: GV yêu cầu HS quan sát bức tranh Rô-bốt đã vẽ bằng các đường thẳng.",
+              "- Bài 3: GV yêu cầu HS quan sát bức tranh Rô-bốt đã vẽ bằng các đường thẳng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, tìm các đường thẳng song song và đường thẳng vuông góc."
             ],
             [
@@ -2231,7 +2231,7 @@
               "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng đổi đơn vị đo khối lượng và tìm phân số của một số vào tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài, gạch chân dữ kiện đã cho và yêu cầu cần tìm.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài, gạch chân dữ kiện đã cho và yêu cầu cần tìm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_3/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Bác Năm thu hoạch 1 tấn 250 kg cam; cam loại I chiếm ba phần mười tổng số cam; tính số ki-lô-gam cam mỗi loại."
             ],
             [
@@ -2304,7 +2304,7 @@
               "2. Thực hành, luyện tập (22 phút)\nMục tiêu: Củng cố đổi đơn vị đo thời gian; nhận biết đường thẳng song song, vuông góc; thực hành vẽ hình.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc đề bài, xác định các phép đổi đơn vị đo thời gian.",
+              "- Bài 1: GV yêu cầu HS đọc đề bài, xác định các phép đổi đơn vị đo thời gian.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và nêu các đơn vị cần đổi: giờ, phút, giây, thế kỉ, năm."
             ],
             [
@@ -2324,7 +2324,7 @@
               "- HS thực hành kiểm tra bằng GeoGebra Geometry hoặc ê-ke, sau đó nêu kết luận bằng kiến thức hình học."
             ],
             [
-              "- Bài 2: GV yêu cầu HS quan sát các bức tranh, tìm các cặp đường thẳng vuông góc và song song trong các đường màu đỏ.",
+              "- Bài 2: GV yêu cầu HS quan sát các bức tranh, tìm các cặp đường thẳng vuông góc và song song trong các đường màu đỏ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát từng tranh và trao đổi nhóm đôi."
             ],
             [
@@ -2332,7 +2332,7 @@
               "- HS trình bày: Ở cửa sổ và xích đu có các đường màu đỏ song song; ở bức tường và hàng rào có các đường màu đỏ vuông góc; ở hàng rào còn có các đường màu đỏ song song."
             ],
             [
-              "- Bài 3: GV yêu cầu HS quan sát tranh mẫu và đọc yêu cầu vẽ một bức tranh tương tự vào vở.",
+              "- Bài 3: GV yêu cầu HS quan sát tranh mẫu và đọc yêu cầu vẽ một bức tranh tương tự vào vở.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, nhận ra tranh được tạo bởi các đường thẳng song song, vuông góc và các đoạn thẳng."
             ],
             [
@@ -2347,7 +2347,7 @@
               "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng diện tích hình chữ nhật để giải quyết tình huống chia đất thành các ô bằng nhau.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài, quan sát hình mảnh đất và nêu dữ kiện.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài, quan sát hình mảnh đất và nêu dữ kiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Mảnh đất hình chữ nhật dài 12 m, rộng 7 m, chia đều thành 7 ô đất."
             ],
             [
@@ -2414,7 +2414,7 @@
               "2. Thực hành, luyện tập (22 phút)\nMục tiêu: Ôn tập giá trị chữ số, so sánh số, phân số thập phân và các phép tính với số tự nhiên.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc yêu cầu, làm từng câu trắc nghiệm và giải thích lí do chọn.",
+              "- Bài 1: GV yêu cầu HS đọc yêu cầu, làm từng câu trắc nghiệm và giải thích lí do chọn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, tự làm bài rồi trao đổi với bạn."
             ],
             [
@@ -2430,7 +2430,7 @@
               "- HS trình bày:\na) Chọn D. 60 000.\nb) Chọn C. 110 200.\nc) Chọn A.  là phân số bé nhất.\nd) Chọn B.  = 1 ."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc đề, thực hiện các phép tính với số tự nhiên vào vở.",
+              "- Bài 2: GV yêu cầu HS đọc đề, thực hiện các phép tính với số tự nhiên vào vở.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image11.jpg\" alt=\"image11.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm bài cá nhân, đặt tính hoặc tính theo cách phù hợp."
             ],
             [
@@ -2445,7 +2445,7 @@
               "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng phép tính với số tự nhiên để giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc đề bài và phần bài giải có ô trống trong SGK.",
+              "- Bài 3: GV yêu cầu HS đọc đề bài và phần bài giải có ô trống trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image12.jpg\" alt=\"image12.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Một bút bi giá 4 500 đồng, một quyển vở giá 7 000 đồng, Nam mua 2 bút bi và 7 quyển vở, đưa 100 000 đồng."
             ],
             [
@@ -2457,7 +2457,7 @@
               "- HS trình bày:\nSố tiền Nam mua 2 bút bi là: 4 500 × 2 = 9 000 (đồng).\nSố tiền Nam mua 7 quyển vở là: 7 000 × 7 = 49 000 (đồng).\nSố tiền Nam mua bút bi và vở là: 9 000 + 49 000 = 58 000 (đồng).\nSố tiền cô bán hàng trả lại Nam là: 100 000 - 58 000 = 42 000 (đồng).\nĐáp số: 42 000 đồng."
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài về sân trường hình chữ nhật, xác định dạng toán.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài về sân trường hình chữ nhật, xác định dạng toán.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image13.jpg\" alt=\"image13.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, nhận biết bài toán tìm hai số khi biết tổng và hiệu, sau đó tính diện tích hình chữ nhật."
             ],
             [
@@ -2520,7 +2520,7 @@
               "2. Thực hành, luyện tập (22 phút)\nMục tiêu: Củng cố tính phân số, tính giá trị biểu thức và viết số đo đại lượng dưới dạng phân số thập phân.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc đề bài, làm các phép tính với phân số.",
+              "- Bài 1: GV yêu cầu HS đọc đề bài, làm các phép tính với phân số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image14.jpg\" alt=\"image14.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm bài cá nhân vào vở, sau đó đổi vở kiểm tra kết quả."
             ],
             [
@@ -2532,7 +2532,7 @@
               "- HS sửa bài và ghi nhớ quy tắc tính."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc đề bài và nêu thứ tự thực hiện phép tính trong biểu thức.",
+              "- Bài 2: GV yêu cầu HS đọc đề bài và nêu thứ tự thực hiện phép tính trong biểu thức.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image15.jpg\" alt=\"image15.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, nêu: Thực hiện trong ngoặc trước; nhân, chia trước; cộng, trừ sau."
             ],
             [
@@ -2540,7 +2540,7 @@
               "- HS trình bày:\na) 35 700 : 50 + 68 × 46 = 714 + 3 128 = 3 842.\nb)  × (6 : ) -  =  ×  -  = 3 -  = ."
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc yêu cầu viết số đo đại lượng dưới dạng phân số thập phân thích hợp.",
+              "- Bài 3: GV yêu cầu HS đọc yêu cầu viết số đo đại lượng dưới dạng phân số thập phân thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image16.jpg\" alt=\"image16.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, xác định đơn vị cần đổi ở từng câu."
             ],
             [
@@ -2559,7 +2559,7 @@
               "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng cách tính trung bình cộng để giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài, xác định số xe và số học sinh trên mỗi loại xe.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài, xác định số xe và số học sinh trên mỗi loại xe.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image17.jpg\" alt=\"image17.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Có 6 xe, mỗi xe chở 35 học sinh và 9 xe, mỗi xe chở 40 học sinh."
             ],
             [
@@ -2622,7 +2622,7 @@
               "2. Thực hành, luyện tập (22 phút)\nMục tiêu: Củng cố ước lượng kết quả phép tính; giải toán thực tế liên quan đến số tự nhiên, phân số.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV yêu cầu HS đọc đề bài, ước lượng kết quả từng phép tính.",
+              "- Bài 1: GV yêu cầu HS đọc đề bài, ước lượng kết quả từng phép tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image18.jpg\" alt=\"image18.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, làm tròn các số rồi ước lượng kết quả."
             ],
             [
@@ -2634,7 +2634,7 @@
               "- HS trình bày: a) 12 020 - 6 915 khoảng 5 nghìn; b) 36 070 + 23 950 khoảng 6 chục nghìn; c) 598 600 - 101 500 khoảng 5 trăm nghìn; d) 4 180 300 + 3 990 700 khoảng 8 triệu."
             ],
             [
-              "- Bài 2: GV yêu cầu HS đọc đề bài về Trạng Trình Nguyễn Bỉnh Khiêm và xác định điều cần tìm.",
+              "- Bài 2: GV yêu cầu HS đọc đề bài về Trạng Trình Nguyễn Bỉnh Khiêm và xác định điều cần tìm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image19.jpg\" alt=\"image19.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, xác định: Trạng Trình Nguyễn Bỉnh Khiêm sinh năm 1491; cần tìm từ năm nay còn bao nhiêu năm nữa kỉ niệm 600 năm ngày sinh."
             ],
             [
@@ -2646,7 +2646,7 @@
               "- HS trình bày:\nNăm kỉ niệm 600 năm ngày sinh Trạng Trình Nguyễn Bỉnh Khiêm là: 1491 + 600 = 2091.\nTừ năm 2024 đến năm kỉ niệm 600 năm ngày sinh là: 2091 - 2024 = 67 (năm).\nĐáp số: 67 năm."
             ],
             [
-              "- Bài 3: GV yêu cầu HS đọc đề bài, xác định số trứng gà ban đầu và số trứng bán ở mỗi lần.",
+              "- Bài 3: GV yêu cầu HS đọc đề bài, xác định số trứng gà ban đầu và số trứng bán ở mỗi lần.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image20.jpg\" alt=\"image20.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Có 120 quả trứng gà; lần thứ nhất bán một phần tám số trứng; lần thứ hai bán hai phần bảy số trứng còn lại."
             ],
             [
@@ -2661,7 +2661,7 @@
               "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng tính chất phép tính để tính bằng cách thuận tiện.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV yêu cầu HS đọc đề bài, quan sát hai biểu thức và tìm cách tính thuận tiện.",
+              "- Bài 4: GV yêu cầu HS đọc đề bài, quan sát hai biểu thức và tìm cách tính thuận tiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/image21.jpg\" alt=\"image21.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, nhận ra có thể vận dụng tính chất phân phối của phép nhân đối với phép cộng."
             ],
             [
@@ -2721,11 +2721,11 @@
               "- HS tham gia trò chơi theo nhóm, đại diện từng thành viên đọc nhanh các phân số thập phân đã tìm được."
             ],
             [
-              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Các phân số thập phân có thể viết dưới một dạng số mới rất tiện dụng trong đời sống và khoa học kĩ thuật, đó là số thập phân. Hôm nay chúng ta cùng học Bài 10: Khái niệm số thập phân (Tiết 1).",
+              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Các phân số thập phân có thể viết dưới một dạng số mới rất tiện dụng trong đời sống và khoa học kĩ thuật, đó là số thập phân. Hôm nay chúng ta cùng học Bài 10: Khái niệm số thập phân (Tiết 1).\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe, ghi vở tên bài học."
             ],
             [
-              "2. Khám phá (12 phút)\nMục tiêu: Nhận biết khái niệm ban đầu về số thập phân; biết cách viết và đọc các số thập phân đơn giản; nhận biết cấu tạo gồm phần nguyên và phần thập phân.\nCách tiến hành:"
+              "2. Khám phá (12 phút)\nMục tiêu: Nhận biết khái niệm ban đầu về số thập phân; biết cách viết và đọc các số thập phân đơn giản; nhận biết cấu tạo gồm phần nguyên và phần thập phân.\nCách tiến hành:\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />"
             ],
             [
               "- GV treo tranh/trình chiếu tình huống khám phá trong SGK: Rô-bốt, Mai và Nam quan sát chiếc thước đo có các vạch chia.",
@@ -2755,14 +2755,14 @@
               "- 4 HS đọc nối tiếp:\n+ 0,4 đọc là: Không phẩy bốn.\n+ 0,5 đọc là: Không phẩy năm.\n+ 0,04 đọc là: Không phẩy không bốn.\n+ 0,05 đọc là: Không phẩy không năm.\n- Cả lớp theo dõi, nhận xét."
             ],
             [
-              "- Bài 2a: GV hướng dẫn HS quan sát mẫu: 1 kg = 1/1000 tấn = 0,001 tấn. GV yêu cầu HS làm việc nhóm đôi đổi: 564 m = ? km.\n- Bài 2b: GV yêu cầu HS quan sát ví dụ mẫu và viết số đo đại lượng thích hợp: 3,2 m = ? mm; 4,5 kg = ? g.",
+              "- Bài 2a: GV hướng dẫn HS quan sát mẫu: 1 kg = 1/1000 tấn = 0,001 tấn. GV yêu cầu HS làm việc nhóm đôi đổi: 564 m = ? km.\n- Bài 2b: GV yêu cầu HS quan sát ví dụ mẫu và viết số đo đại lượng thích hợp: 3,2 m = ? mm; 4,5 kg = ? g.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thảo luận nhóm đôi, thực hiện vào bảng con:\n+ 564 m = 564/1000 km = 0,564 km.\n+ 3,2 m = 3 200 mm; 4,5 kg = 4 500 g.\n- Đại diện nhóm nêu cách làm và kết quả. Lớp nhận xét, thống nhất."
             ],
             [
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Củng cố cách viết số thập phân, xác định phần nguyên và phần thập phân; vận dụng kiến thức vào thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 3: GV yêu cầu HS làm bài cá nhân: Nêu số thập phân thích hợp rồi cho biết phần nguyên, phần thập phân của số thập phân đó (ví dụ: 132 mm = ? cm; 165/100 m = ? m).\n- GV gọi đại diện HS trình bày và giải thích.",
+              "- Bài 3: GV yêu cầu HS làm bài cá nhân: Nêu số thập phân thích hợp rồi cho biết phần nguyên, phần thập phân của số thập phân đó (ví dụ: 132 mm = ? cm; 165/100 m = ? m).\n- GV gọi đại diện HS trình bày và giải thích.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc cá nhân vào vở:\n+ 132 mm = 13,2 cm (phần nguyên là 13, phần thập phân là 2).\n+ 165/100 m = 1,65 m (phần nguyên là 1, phần thập phân gồm 6 và 5).\n- 2 HS trình bày trước lớp, giải thích cách xác định phần nguyên và phần thập phân."
             ],
             [
@@ -2826,7 +2826,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Hình thành cách nhận biết hàng của số thập phân, đọc và viết số thập phân theo cấu tạo hàng.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát mô hình các tấm ô vuông trong SGK.",
+              "- GV yêu cầu HS quan sát mô hình các tấm ô vuông trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình và nhận biết 2 đơn vị, 3 phần mười, 8 phần trăm."
             ],
             [
@@ -2849,7 +2849,7 @@
               "3. Thực hành, luyện tập (18 phút)\nMục tiêu: Luyện đọc, viết số thập phân; xác định phần nguyên, phần thập phân và chuyển phân số thập phân thành số thập phân.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát bảng mẫu trong SGK.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát bảng mẫu trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, nêu yêu cầu: Viết và đọc số thập phân theo mẫu."
             ],
             [
@@ -2877,7 +2877,7 @@
               "- HS quan sát thao tác mẫu.\n- HS nêu số liệu tìm được hoặc số liệu GV cung cấp.\n- HS đọc số thập phân và nói số đó biểu thị điều gì trong thực tế."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài, xác định phần nguyên, phần thập phân của từng số rồi đọc số thập phân.",
+              "- Bài 2: GV cho HS đọc đề bài, xác định phần nguyên, phần thập phân của từng số rồi đọc số thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, xác định yêu cầu của câu a và câu b."
             ],
             [
@@ -2897,7 +2897,7 @@
               "- HS sửa bài và ghi nhớ cách đọc phần thập phân có chữ số 0."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề, quan sát mẫu và chuyển phân số thập phân thành số thập phân.",
+              "- Bài 3: GV cho HS đọc đề, quan sát mẫu và chuyển phân số thập phân thành số thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát mẫu và nêu cách chuyển phân số thập phân thành số thập phân."
             ],
             [
@@ -2972,7 +2972,7 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: Củng cố chọn số thập phân theo cách đọc, chuyển phân số thành phân số thập phân và số thập phân.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát các thẻ cà rốt ghi số thập phân.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát các thẻ cà rốt ghi số thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và xác định yêu cầu: Chọn số thập phân thích hợp với cách đọc."
             ],
             [
@@ -2992,7 +2992,7 @@
               "- HS sửa bài và ghi nhớ cách đọc số thập phân."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề, tìm số thích hợp để chuyển mỗi phân số thành phân số thập phân.",
+              "- Bài 2: GV cho HS đọc đề, tìm số thích hợp để chuyển mỗi phân số thành phân số thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, xác định mẫu số cần chuyển thành 100 hoặc 1 000."
             ],
             [
@@ -3012,7 +3012,7 @@
               "- HS sửa bài và ghi nhớ cách chuyển phân số thành phân số thập phân."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề, chuyển phân số thập phân thành số thập phân rồi đọc số thập phân đó.",
+              "- Bài 3: GV cho HS đọc đề, chuyển phân số thập phân thành số thập phân rồi đọc số thập phân đó.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát các phân số trong khung."
             ],
             [
@@ -3035,7 +3035,7 @@
               "3. Vận dụng - trải nghiệm (10 phút)\nMục tiêu: Lập được các số thập phân từ các chữ số đã cho theo điều kiện phần nguyên và phần thập phân.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV cho HS đọc đề, xác định các thẻ số và điều kiện lập số.",
+              "- Bài 4: GV cho HS đọc đề, xác định các thẻ số và điều kiện lập số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Từ bốn thẻ 7, 0, 2 và dấu phẩy, lập các số thập phân có phần nguyên gồm một chữ số, phần thập phân gồm hai chữ số."
             ],
             [
@@ -3105,7 +3105,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Hình thành quy tắc so sánh hai số thập phân qua tình huống độ dài các cây cầu.\nCách tiến hành:"
             ],
             [
-              "- GV nêu tình huống xác định cây cầu nào dài nhất, dẫn ra cần so sánh số thập phân là số đo chiều dài của mỗi cây cầu.",
+              "- GV nêu tình huống xác định cây cầu nào dài nhất, dẫn ra cần so sánh số thập phân là số đo chiều dài của mỗi cây cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tình huống và nhận biết cần so sánh các số đo độ dài."
             ],
             [
@@ -3128,7 +3128,7 @@
               "3. Thực hành, luyện tập (18 phút)\nMục tiêu: Củng cố so sánh hai số thập phân, sắp xếp số thập phân theo thứ tự từ bé đến lớn và chọn kết quả đúng.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và so sánh từng cặp số thập phân.",
+              "- Bài 1: GV cho HS đọc đề bài và so sánh từng cặp số thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, nêu yêu cầu: So sánh hai số thập phân."
             ],
             [
@@ -3156,7 +3156,7 @@
               "- HS trao đổi nhóm đôi.\n- HS nêu: Cần so sánh dữ liệu cùng loại, cùng đơn vị và theo tiêu chí rõ ràng.\n- HS liên hệ với quy tắc so sánh số thập phân trong bài."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề và sắp xếp các số 3,604; 2,875; 2,857; 3,106 theo thứ tự từ bé đến lớn.",
+              "- Bài 2: GV cho HS đọc đề và sắp xếp các số 3,604; 2,875; 2,857; 3,106 theo thứ tự từ bé đến lớn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, xác định yêu cầu sắp xếp từ bé đến lớn."
             ],
             [
@@ -3176,7 +3176,7 @@
               "- HS sửa bài vào vở."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề, quan sát ba chiếc cân và chọn chiếc cân bị sai.",
+              "- Bài 3: GV cho HS đọc đề, quan sát ba chiếc cân và chọn chiếc cân bị sai.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát hình và xác định yêu cầu chọn đáp án đúng."
             ],
             [
@@ -3253,7 +3253,7 @@
               "2. Thực hành, luyện tập (25 phút)\nMục tiêu: Củng cố số thập phân bằng nhau, thêm hoặc bỏ chữ số 0 tận cùng bên phải phần thập phân; giải toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS quan sát ví dụ 0,7 = 0,70, đọc nhận xét của Rô-bốt và tìm chữ số thích hợp.",
+              "- Bài 1: GV cho HS quan sát ví dụ 0,7 = 0,70, đọc nhận xét của Rô-bốt và tìm chữ số thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc ví dụ, nhận ra có thể thêm hoặc bỏ chữ số 0 ở tận cùng bên phải phần thập phân mà giá trị số không đổi."
             ],
             [
@@ -3281,7 +3281,7 @@
               "- HS quan sát thao tác mẫu.\n- HS nêu cách tạo bảng và nhập số liệu.\n- HS thực hành hoặc mô tả lại các bước tạo bảng trên phần mềm soạn thảo văn bản."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề, thực hiện thêm hoặc bỏ chữ số 0 ở tận cùng bên phải phần thập phân.",
+              "- Bài 2: GV cho HS đọc đề, thực hiện thêm hoặc bỏ chữ số 0 ở tận cùng bên phải phần thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, xác định yêu cầu của câu a và câu b."
             ],
             [
@@ -3301,7 +3301,7 @@
               "- HS sửa bài và ghi nhớ cách thêm, bỏ chữ số 0."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề, xác định cân nặng của ba bạn Mì, Núi, Páo và điều kiện bài toán.",
+              "- Bài 3: GV cho HS đọc đề, xác định cân nặng của ba bạn Mì, Núi, Páo và điều kiện bài toán.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, nêu: Núi nặng nhất, Páo nhẹ nhất; các số đo là 31,9 kg; 32,5 kg; 34,7 kg."
             ],
             [
@@ -3321,7 +3321,7 @@
               "- HS sửa bài và ghi nhớ cách dùng so sánh số thập phân để giải bài toán thực tế."
             ],
             [
-              "- Bài 4: GV cho HS đọc đề, xác định điều kiện “lớn hơn 1,036 và bé hơn 2”.",
+              "- Bài 4: GV cho HS đọc đề, xác định điều kiện “lớn hơn 1,036 và bé hơn 2”.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, so sánh từng số ghi trên cá với 1,036 và 2."
             ],
             [
@@ -3398,7 +3398,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Hình thành cách viết số đo độ dài, khối lượng dưới dạng số thập phân.\nCách tiến hành:"
             ],
             [
-              "- GV nêu tình huống trong SGK về tính độ dài đoạn đường cô Sen và cân nặng của hộp sữa, dẫn ra nhu cầu cần viết số đo độ dài, khối lượng dưới dạng số thập phân.",
+              "- GV nêu tình huống trong SGK về tính độ dài đoạn đường cô Sen và cân nặng của hộp sữa, dẫn ra nhu cầu cần viết số đo độ dài, khối lượng dưới dạng số thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình và nhận biết cần viết các số đo như 2 m 15 cm, 1 kg 250 g, 275 g, 125 m dưới dạng số thập phân."
             ],
             [
@@ -3425,7 +3425,7 @@
               "3. Thực hành, luyện tập (18 phút)\nMục tiêu: Luyện viết số đo độ dài, khối lượng dưới dạng số thập phân và so sánh độ dài thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài, tìm số thập phân thích hợp cho từng số đo độ dài.",
+              "- Bài 1: GV cho HS đọc đề bài, tìm số thập phân thích hợp cho từng số đo độ dài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, xác định các đơn vị đo độ dài cần đổi."
             ],
             [
@@ -3445,7 +3445,7 @@
               "- HS sửa bài và ghi nhớ cách đổi số đo độ dài."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài, tìm số thập phân thích hợp cho từng số đo khối lượng.",
+              "- Bài 2: GV cho HS đọc đề bài, tìm số thập phân thích hợp cho từng số đo khối lượng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, xác định mối quan hệ: 1 kg = 1 000 g; 1 tấn = 1 000 kg; 1 tấn = 10 tạ."
             ],
             [
@@ -3468,7 +3468,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng viết số đo độ dài dưới dạng số thập phân để so sánh hai đoạn đường.\nCách tiến hành:"
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài, quan sát tranh đường đi từ A đến B và từ A đến C.",
+              "- Bài 3: GV cho HS đọc đề bài, quan sát tranh đường đi từ A đến B và từ A đến C.\n<img src=\"assets/khbd_images/lop5/toan/tuan_5/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát hình: AB = 1,2 km; AC = 1 km 75 m."
             ],
             [
@@ -3547,7 +3547,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: HS nhận biết cách viết số đo diện tích dưới dạng số thập phân.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình ảnh, bóng nói trong câu chuyện ở SGK để nhận ra “nhu cầu” cần viết số đo diện tích dưới dạng số thập phân.",
+              "- GV yêu cầu HS quan sát hình ảnh, bóng nói trong câu chuyện ở SGK để nhận ra “nhu cầu” cần viết số đo diện tích dưới dạng số thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh, bóng nói trong SGK và nêu nhu cầu cần viết số đo diện tích dưới dạng số thập phân."
             ],
             [
@@ -3570,7 +3570,7 @@
               "3. Luyện tập (18 phút)\nMục tiêu: HS thực hành viết số đo diện tích dưới dạng số thập phân và so sánh số đo diện tích.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát các câu trong SGK.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát các câu trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Tìm số thập phân thích hợp."
             ],
             [
@@ -3590,7 +3590,7 @@
               "- HS sửa bài và ghi nhớ cách viết số đo diện tích dưới dạng số thập phân."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài, quan sát hình A và hình B.",
+              "- Bài 2: GV cho HS đọc đề bài, quan sát hình A và hình B.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát hình trong SGK."
             ],
             [
@@ -3610,7 +3610,7 @@
               "- HS sửa bài vào vở."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài, quan sát bảng cân nặng và câu hỏi trong SGK.",
+              "- Bài 3: GV cho HS đọc đề bài, quan sát bảng cân nặng và câu hỏi trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát bảng số liệu."
             ],
             [
@@ -3685,7 +3685,7 @@
               "2. Luyện tập (20 phút)\nMục tiêu: HS viết số đo dung tích dưới dạng số thập phân và sắp xếp các số thập phân.\nCách tiến hành:"
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài và quan sát các số đo dung tích trong SGK.",
+              "- Bài 3: GV cho HS đọc đề bài và quan sát các số đo dung tích trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và nêu yêu cầu: Tìm số thập phân thích hợp; sắp xếp số thập phân."
             ],
             [
@@ -3716,7 +3716,7 @@
               "3. Vận dụng - trải nghiệm (10 phút)\nMục tiêu: HS vận dụng viết số đo diện tích dưới dạng số thập phân để giải quyết tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV cho HS đọc đề bài, quan sát tranh và các thông tin về bức tranh, bức tường.",
+              "- Bài 4: GV cho HS đọc đề bài, quan sát tranh và các thông tin về bức tranh, bức tường.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát tranh trong SGK."
             ],
             [
@@ -3789,7 +3789,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: HS biết cách làm tròn số thập phân đến số tự nhiên gần nhất.\nCách tiến hành:"
             ],
             [
-              "- GV nêu theo SGV: Từ câu chuyện “cân sức khoẻ” qua hình ảnh, bóng nói, HS nhận biết số cân nặng khoảng 31 kg và 32 kg là số đo được làm tròn của số 31,2 kg và 31,75 kg.",
+              "- GV nêu theo SGV: Từ câu chuyện “cân sức khoẻ” qua hình ảnh, bóng nói, HS nhận biết số cân nặng khoảng 31 kg và 32 kg là số đo được làm tròn của số 31,2 kg và 31,75 kg.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh, bóng nói và nhận biết 31,2 kg làm tròn được khoảng 31 kg; 31,75 kg làm tròn được khoảng 32 kg."
             ],
             [
@@ -3812,7 +3812,7 @@
               "3. Hoạt động - luyện tập (18 phút)\nMục tiêu: HS vận dụng làm tròn số thập phân đến số tự nhiên gần nhất.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc yêu cầu và quan sát các số thập phân trong SGK.",
+              "- Bài 1: GV cho HS đọc yêu cầu và quan sát các số thập phân trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Làm tròn các số thập phân đến số tự nhiên gần nhất."
             ],
             [
@@ -3832,7 +3832,7 @@
               "- HS sửa bài và ghi nhớ quy tắc."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài và quan sát bảng chiều cao, cân nặng trong SGK.",
+              "- Bài 2: GV cho HS đọc đề bài và quan sát bảng chiều cao, cân nặng trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát bảng số liệu."
             ],
             [
@@ -3905,7 +3905,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: HS biết cách làm tròn số thập phân đến hàng phần mười, hàng phần trăm.\nCách tiến hành:"
             ],
             [
-              "- GV nêu theo SGV: Từ câu chuyện mua bán, qua hình ảnh, bóng nói đưa tới việc làm tròn số thập phân đến hàng phần mười, hàng phần trăm theo quy tắc như trong SGK.",
+              "- GV nêu theo SGV: Từ câu chuyện mua bán, qua hình ảnh, bóng nói đưa tới việc làm tròn số thập phân đến hàng phần mười, hàng phần trăm theo quy tắc như trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh, bóng nói trong SGK và nhận ra nhu cầu làm tròn số thập phân đến hàng phần mười, hàng phần trăm."
             ],
             [
@@ -3928,7 +3928,7 @@
               "3. Hoạt động - luyện tập (18 phút)\nMục tiêu: HS thực hành làm tròn số thập phân đến hàng phần mười, hàng phần trăm.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc bảng ví dụ và yêu cầu trong SGK.",
+              "- GV cho HS đọc bảng ví dụ và yêu cầu trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát bảng."
             ],
             [
@@ -3948,7 +3948,7 @@
               "- HS sửa bài và ghi nhớ cách làm tròn."
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và nêu yêu cầu.",
+              "- Bài 1: GV cho HS đọc đề bài và nêu yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Làm tròn các số thập phân."
             ],
             [
@@ -3964,7 +3964,7 @@
               "- HS sửa bài vào vở."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài, quan sát màn hình ti vi và thông tin về số Pi trong SGK.",
+              "- Bài 2: GV cho HS đọc đề bài, quan sát màn hình ti vi và thông tin về số Pi trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát hình trong SGK."
             ],
             [
@@ -4037,7 +4037,7 @@
               "2. Luyện tập (25 phút)\nMục tiêu: HS củng cố đọc, viết số thập phân, đổi số đo đại lượng và làm tròn số thập phân.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát bảng trong SGK.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát bảng trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Nêu số thập phân thích hợp."
             ],
             [
@@ -4061,7 +4061,7 @@
               "- HS quan sát bảng tính, trả lời và liên hệ vai trò của dữ liệu thập phân đối với dự báo của AI."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài và nêu yêu cầu từng câu.",
+              "- Bài 2: GV cho HS đọc đề bài và nêu yêu cầu từng câu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Tìm số thập phân thích hợp; đổi số đo có hai đơn vị thành một đơn vị."
             ],
             [
@@ -4081,7 +4081,7 @@
               "- HS sửa bài vào vở."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài, quan sát bảng cân nặng chất lỏng trong SGK.",
+              "- Bài 3: GV cho HS đọc đề bài, quan sát bảng cân nặng chất lỏng trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát bảng."
             ],
             [
@@ -4104,7 +4104,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: HS vận dụng hiểu biết về số thập phân để lập số thập phân bé hơn 1.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV cho HS đọc đề bài và quan sát các thẻ số trong SGK.",
+              "- Bài 4: GV cho HS đọc đề bài và quan sát các thẻ số trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_6/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Từ năm thẻ 5; 1; 7; 0; dấu phẩy, hãy lập tất cả các số thập phân bé hơn 1."
             ],
             [
@@ -4187,7 +4187,7 @@
               "2. Luyện tập (25 phút)\nMục tiêu: Củng cố so sánh, sắp xếp số thập phân; biết chọn kết quả đúng và tham gia trò chơi học tập.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát các số thập phân trong SGK.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát các số thập phân trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Sắp xếp các số thập phân 3,527; 3,571; 2,752; 3,275 theo thứ tự."
             ],
             [
@@ -4207,7 +4207,7 @@
               "- HS sửa bài và ghi nhớ cách sắp xếp số thập phân."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài, quan sát tranh các ô tô chở hàng.",
+              "- Bài 2: GV cho HS đọc đề bài, quan sát tranh các ô tô chở hàng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát các số đo khối lượng hàng hóa trên mỗi ô tô."
             ],
             [
@@ -4238,7 +4238,7 @@
               "3. Vận dụng - trải nghiệm (10 phút)\nMục tiêu: Vận dụng kiến thức so sánh số thập phân qua trò chơi học tập.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc cách chơi trò chơi “Cầu thang - cầu trượt” trong SGK.",
+              "- GV cho HS đọc cách chơi trò chơi “Cầu thang - cầu trượt” trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc cách chơi và quan sát bảng trò chơi trong SGK."
             ],
             [
@@ -4307,7 +4307,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Nhận biết đơn vị đo diện tích ki-lô-mét vuông và mối quan hệ 1 km² = 1 000 000 m².\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trong SGK.",
+              "- GV cho HS quan sát tranh Khám phá trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh Khám phá trong SGK."
             ],
             [
@@ -4346,7 +4346,7 @@
               "3. Hoạt động (15 phút)\nMục tiêu: Củng cố cách đọc, viết và chuyển đổi đơn vị ki-lô-mét vuông.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát bảng trong SGK.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát bảng trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Hoàn thành bảng sau."
             ],
             [
@@ -4366,7 +4366,7 @@
               "- HS sửa bài và ghi nhớ cách đọc, viết số đo diện tích với đơn vị km²."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài và quan sát các phép đổi đơn vị.",
+              "- Bài 2: GV cho HS đọc đề bài và quan sát các phép đổi đơn vị.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và xác định yêu cầu: Viết số thích hợp vào ô trống."
             ],
             [
@@ -4386,7 +4386,7 @@
               "- HS sửa bài và ghi nhớ cách đổi đơn vị."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài, quan sát hình ba mảnh đất A, B, C.",
+              "- Bài 3: GV cho HS đọc đề bài, quan sát hình ba mảnh đất A, B, C.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát hình vẽ trong SGK."
             ],
             [
@@ -4470,7 +4470,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Nhận biết đơn vị héc-ta và mối quan hệ 1 ha = 10 000 m²; 1 km² = 100 ha.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trong SGK.",
+              "- GV cho HS quan sát tranh Khám phá trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh Khám phá trong SGK."
             ],
             [
@@ -4509,7 +4509,7 @@
               "3. Hoạt động (15 phút)\nMục tiêu: Củng cố cách so sánh, lựa chọn số đo diện tích phù hợp và chuyển đổi giữa km², ha.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát các địa danh, số đo diện tích trong SGK.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát các địa danh, số đo diện tích trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Chọn số đo phù hợp với diện tích của mỗi địa danh."
             ],
             [
@@ -4529,7 +4529,7 @@
               "- HS sửa bài và ghi nhớ cách chọn đơn vị đo diện tích phù hợp."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài và quan sát các phép đổi đơn vị.",
+              "- Bài 2: GV cho HS đọc đề bài và quan sát các phép đổi đơn vị.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và xác định yêu cầu: Viết số thích hợp vào ô trống."
             ],
             [
@@ -4580,7 +4580,7 @@
               "- HS nêu: Cần bảo vệ rừng để giữ môi trường sống, bảo vệ động vật, giảm thiên tai và giữ không khí trong lành."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài toán có lời văn.",
+              "- Bài 2: GV cho HS đọc đề bài toán có lời văn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Người ta vừa xây dựng một nhà máy xử lí rác thải trên một khu đất hình vuông cạnh 200 m. Hỏi khu đất đó có diện tích là bao nhiêu héc-ta?"
             ],
             [
@@ -4648,11 +4648,11 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí vui vẻ, phấn khởi; nhắc lại và hệ thống hóa các đơn vị đo diện tích đã học.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình ảnh và đọc thông tin trong SGK trang 56.\n- GV yêu cầu HS nhắc lại các đơn vị đo diện tích đã học từ lớn đến bé: km², ha, m², dm², cm², mm².\n- GV trình chiếu bảng tổng hợp các đơn vị đo diện tích và mối quan hệ giữa hai đơn vị đo liền nhau.",
+              "- GV yêu cầu HS quan sát hình ảnh và đọc thông tin trong SGK trang 56.\n- GV yêu cầu HS nhắc lại các đơn vị đo diện tích đã học từ lớn đến bé: km², ha, m², dm², cm², mm².\n- GV trình chiếu bảng tổng hợp các đơn vị đo diện tích và mối quan hệ giữa hai đơn vị đo liền nhau.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh, đọc thông tin SGK.\n- HS nêu tên các đơn vị đo diện tích: ki-lô-mét vuông, héc-ta, mét vuông, đề-xi-mét vuông, xăng-ti-mét vuông, mi-li-mét vuông.\n- HS nhắc lại: Mỗi đơn vị đo diện tích gấp 100 lần đơn vị bé hơn liền sau và bằng 1/100 đơn vị lớn hơn liền trước."
             ],
             [
-              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 1).",
+              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 1).\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
@@ -4674,7 +4674,7 @@
               "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Củng cố kiến thức đã học; rèn kĩ năng ước lượng số đo diện tích đồ vật trong thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 3 (SGK trang 57): GV yêu cầu HS đọc đề bài (Chọn câu trả lời đúng), thảo luận nhóm đôi thống nhất kết quả.\n- GV gọi đại diện HS trả lời.\n- GV mở rộng: Yêu cầu HS ước lượng diện tích mặt bàn học, bảng lớp, nền phòng học bằng các đơn vị đo m², dm² thích hợp.",
+              "- Bài 3 (SGK trang 57): GV yêu cầu HS đọc đề bài (Chọn câu trả lời đúng), thảo luận nhóm đôi thống nhất kết quả.\n- GV gọi đại diện HS trả lời.\n- GV mở rộng: Yêu cầu HS ước lượng diện tích mặt bàn học, bảng lớp, nền phòng học bằng các đơn vị đo m², dm² thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thảo luận nhóm đôi, chọn đáp án đúng và nêu trước lớp.\n- HS thực hành ước lượng: Diện tích mặt bàn khoảng 40 dm² (hoặc 0,4 m²); diện tích bảng lớp khoảng 3 m²; diện tích phòng học khoảng 48 m²."
             ],
             [
@@ -4726,7 +4726,7 @@
               "- HS tính và ghi nhanh vào bảng con:\na) 4 m² 5 dm² = 4,05 m²\nb) 7 cm² 10 mm² = 7,1 cm²\nc) 14 km² 50 ha = 14,5 km² (hoặc 14,50 km²)\n- 2 HS giải thích cách đổi: Dựa vào quan hệ 1 m² = 100 dm² nên 5 dm² = 0,05 m²."
             ],
             [
-              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 2).",
+              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 2).\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe, mở SGK trang 58."
             ],
             [
@@ -4741,7 +4741,7 @@
               "- Các nhóm thảo luận, viết kết quả vào bảng nhóm:\na) 30 dm² = 0,3 m²; 271 mm² = 0,0271 dm²; 54 m² = 0,0054 ha\nb) 3 m² 7 dm² = 3,07 m²; 8 cm² 10 mm² = 8,1 cm²; 12 km² 50 ha = 12,5 km²\n- Đại diện nhóm trình bày, lớp nhận xét, đối chiếu kết quả."
             ],
             [
-              "- Bài 3 (SGK trang 59): Chọn câu trả lời đúng.\n- GV yêu cầu HS đọc kĩ đề bài về ô cửa sổ hình chữ nhật và các đáp án A, B, C, D.\n- GV mời HS giải thích cách tính diện tích ô cửa sổ.",
+              "- Bài 3 (SGK trang 59): Chọn câu trả lời đúng.\n- GV yêu cầu HS đọc kĩ đề bài về ô cửa sổ hình chữ nhật và các đáp án A, B, C, D.\n- GV mời HS giải thích cách tính diện tích ô cửa sổ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, tính nhẩm diện tích ô cửa sổ:\n1 m × 3/5 m = 3/5 m² = 0,6 m² = 60 dm².\n- HS chọn Đáp án D (60 dm²)."
             ],
             [
@@ -4819,7 +4819,7 @@
               "2. Vận dụng - trải nghiệm (30 phút)\nMục tiêu: Thực hành đo, tính diện tích mặt sàn phòng học và ước tính chi phí lát gạch.\nCách tiến hành:"
             ],
             [
-              "- Hoạt động 1: GV cho HS đọc yêu cầu a, b trong SGK.",
+              "- Hoạt động 1: GV cho HS đọc yêu cầu a, b trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: đo và tính diện tích mặt sàn phòng học; tính số tiền mua gạch lát mặt sàn."
             ],
             [
@@ -4867,7 +4867,7 @@
               "- HS ghi nhớ cách ước tính số hộp gạch và số tiền mua gạch."
             ],
             [
-              "- Hoạt động 2: GV cho HS đọc yêu cầu tính chi phí lát gạch cho các phòng học trong trường.",
+              "- Hoạt động 2: GV cho HS đọc yêu cầu tính chi phí lát gạch cho các phòng học trong trường.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Hoạt động 2 trong SGK."
             ],
             [
@@ -4955,7 +4955,7 @@
               "2. Vận dụng - trải nghiệm (30 phút)\nMục tiêu: Thực hành tính diện tích gỗ và chi phí làm giá sách theo bản thiết kế.\nCách tiến hành:"
             ],
             [
-              "- Hoạt động 1: GV cho HS đọc yêu cầu và quan sát bảng số lượng tấm gỗ trong SGK.",
+              "- Hoạt động 1: GV cho HS đọc yêu cầu và quan sát bảng số lượng tấm gỗ trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Tính số tiền mua gỗ để làm chiếc tủ theo bản thiết kế."
             ],
             [
@@ -4983,7 +4983,7 @@
               "- HS sửa bài và ghi nhớ cách tính chi phí theo diện tích."
             ],
             [
-              "- Hoạt động 2: GV cho HS đọc yêu cầu thiết kế tủ sách của lớp.",
+              "- Hoạt động 2: GV cho HS đọc yêu cầu thiết kế tủ sách của lớp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Hoạt động 2 trong SGK."
             ],
             [
@@ -5083,7 +5083,7 @@
               "2. Luyện tập (20 phút)\nMục tiêu: Củng cố chọn đơn vị đo phù hợp và chuyển đổi số đo diện tích sang héc-ta.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát tranh trường học của Mai.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát tranh trường học của Mai.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Chọn số đo phù hợp với diện tích trường học của Mai."
             ],
             [
@@ -5103,7 +5103,7 @@
               "- HS sửa bài và ghi nhớ cách chọn đơn vị diện tích phù hợp."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài.",
+              "- Bài 2: GV cho HS đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Viết các số đo dưới đây theo đơn vị héc-ta."
             ],
             [
@@ -5130,7 +5130,7 @@
               "3. Vận dụng - trải nghiệm (15 phút)\nMục tiêu: Vận dụng chuyển đổi đơn vị diện tích vào bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 3: GV cho HS đọc bài toán về khu vui chơi và khu cắm trại.",
+              "- Bài 3: GV cho HS đọc bài toán về khu vui chơi và khu cắm trại.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán trong SGK."
             ],
             [
@@ -5154,7 +5154,7 @@
               "- HS sửa bài và ghi nhớ cách giải."
             ],
             [
-              "- Bài 4: GV cho HS đọc đề bài và quan sát hình mảnh đất được chia thành các ô.",
+              "- Bài 4: GV cho HS đọc đề bài và quan sát hình mảnh đất được chia thành các ô.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát hình trong SGK."
             ],
             [
@@ -5239,7 +5239,7 @@
               "2. Luyện tập (20 phút)\nMục tiêu: Củng cố chọn số đo phù hợp, chuyển đổi đơn vị và so sánh số đo diện tích.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát bức tranh Rô-bốt vừa vẽ.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát bức tranh Rô-bốt vừa vẽ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Chọn số đo phù hợp với diện tích của bức tranh Rô-bốt vừa vẽ."
             ],
             [
@@ -5259,7 +5259,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài.",
+              "- Bài 2: GV cho HS đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Viết các số đo sau theo đơn vị mét vuông."
             ],
             [
@@ -5279,7 +5279,7 @@
               "- HS sửa bài và ghi nhớ cách đổi."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài so sánh số đo diện tích.",
+              "- Bài 3: GV cho HS đọc đề bài so sánh số đo diện tích.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát hai phép so sánh trong SGK."
             ],
             [
@@ -5302,7 +5302,7 @@
               "3. Vận dụng - trải nghiệm (15 phút)\nMục tiêu: Giải bài toán thực tế liên quan đến diện tích, chi phí và diện tích kính.\nCách tiến hành:"
             ],
             [
-              "- Bài 4: GV cho HS đọc bài toán về lát sàn phòng khách.",
+              "- Bài 4: GV cho HS đọc bài toán về lát sàn phòng khách.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán trong SGK."
             ],
             [
@@ -5334,7 +5334,7 @@
               "- HS nêu: Giữ không gian sạch sẽ giúp học tập, sinh hoạt an toàn, thoải mái và tôn trọng mọi người."
             ],
             [
-              "- Bài 5: GV cho HS đọc bài toán về tấm kính.",
+              "- Bài 5: GV cho HS đọc bài toán về tấm kính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán: Người ta cắt một tấm kính hình chữ nhật thành 5 tấm kính giống nhau để đóng khung ảnh."
             ],
             [
@@ -5427,7 +5427,7 @@
               "2. Khám phá - Hình thành kiến thức (20 phút)\nMục tiêu: Biết cách đặt tính và thực hiện phép cộng hai số thập phân.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc tình huống Khám phá trang 65 SGK.",
+              "- GV cho HS đọc tình huống Khám phá trang 65 SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tình huống về việc uốn dây đồng."
             ],
             [
@@ -5463,7 +5463,7 @@
               "- HS trả lời: Cách cộng giống cộng số tự nhiên, nhưng phải đặt dấu phẩy thẳng cột và viết dấu phẩy ở tổng."
             ],
             [
-              "- GV cho HS nêu ví dụ 2: 24,5 + 3,84.",
+              "- GV cho HS nêu ví dụ 2: 24,5 + 3,84.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu ví dụ 2 trong SGK."
             ],
             [
@@ -5494,7 +5494,7 @@
               "3. Luyện tập (12 phút)\nMục tiêu: Thực hành đặt tính, nhận biết đúng sai khi cộng số thập phân.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và quan sát các phép tính trong SGK.",
+              "- Bài 1: GV cho HS đọc đề bài và quan sát các phép tính trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài: Đặt tính rồi tính."
             ],
             [
@@ -5514,7 +5514,7 @@
               "- HS sửa bài và nêu lại quy tắc cộng hai số thập phân."
             ],
             [
-              "- Bài 2: GV cho HS đọc yêu cầu và quan sát ba phép tính đặt tính trong SGK.",
+              "- Bài 2: GV cho HS đọc yêu cầu và quan sát ba phép tính đặt tính trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Đúng hay sai?"
             ],
             [
@@ -5537,7 +5537,7 @@
               "4. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng phép cộng số thập phân để giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài về quả dưa hấu và quả mít.",
+              "- Bài 3: GV cho HS đọc đề bài về quả dưa hấu và quả mít.\n<img src=\"assets/khbd_images/lop5/toan/tuan_8/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán trong SGK."
             ],
             [
@@ -5624,7 +5624,7 @@
               "2. Luyện tập (30 phút)\nMục tiêu: Củng cố cách cộng hai số thập phân, vận dụng tính chất giao hoán, kết hợp và giải toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài, quan sát các phép tính trong SGK.",
+              "- Bài 1: GV cho HS đọc đề bài, quan sát các phép tính trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Đặt tính rồi tính."
             ],
             [
@@ -5644,7 +5644,7 @@
               "- HS sửa bài và ghi nhớ."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài, nêu yêu cầu của từng phần a, b.",
+              "- Bài 2: GV cho HS đọc đề bài, nêu yêu cầu của từng phần a, b.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Điền dấu thích hợp và tính bằng cách thuận tiện."
             ],
             [
@@ -5664,7 +5664,7 @@
               "- HS sửa bài và nêu lại tính chất đã dùng."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài, quan sát hình trong SGK.",
+              "- Bài 3: GV cho HS đọc đề bài, quan sát hình trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán về số lít sữa dê chú Sơn thu được trong hai ngày."
             ],
             [
@@ -5688,7 +5688,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 4: GV cho HS đọc đề bài.",
+              "- Bài 4: GV cho HS đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán về sân trường hình chữ nhật."
             ],
             [
@@ -5772,7 +5772,7 @@
               "2. Khám phá (15 phút)Mục tiêu: Hình thành thuật toán thực hiện phép trừ số thập phân.Cách tiến hành:"
             ],
             [
-              "- GV giới thiệu tình huống: Nam đang thực hiện phần thi nhảy xa của mình, Mai và Rô-bốt là khán giả. GV gọi HS đọc lời thoại của Mai và Rô-bốt để tìm hiểu dữ kiện của bài toán.",
+              "- GV giới thiệu tình huống: Nam đang thực hiện phần thi nhảy xa của mình, Mai và Rô-bốt là khán giả. GV gọi HS đọc lời thoại của Mai và Rô-bốt để tìm hiểu dữ kiện của bài toán.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc lời thoại và nêu: Thành tích nhảy xa năm ngoái của Nam là 4,16 m; thành tích nhảy xa năm nay là 4,43 m."
             ],
             [
@@ -5792,7 +5792,7 @@
               "- HS quan sát, nhận xét: Đặt tính sao cho các chữ số ở cùng hàng thẳng cột; trừ như trừ số tự nhiên; viết dấu phẩy ở hiệu thẳng cột với dấu phẩy của số bị trừ và số trừ."
             ],
             [
-              "- GV nêu tiếp ví dụ trong SGK: 63,49 - 1,8.- GV hướng dẫn HS đặt tính rồi tính tương tự, lưu ý có thể viết 1,8 thành 1,80 để dễ thực hiện phép trừ.",
+              "- GV nêu tiếp ví dụ trong SGK: 63,49 - 1,8.- GV hướng dẫn HS đặt tính rồi tính tương tự, lưu ý có thể viết 1,8 thành 1,80 để dễ thực hiện phép trừ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đặt tính và tính: 63,49 - 1,80 = 61,69.- HS nêu kết quả: 63,49 - 1,8 = 61,69."
             ],
             [
@@ -5803,7 +5803,7 @@
               "3. Hoạt động (17 phút)\nMục tiêu: Củng cố cách đặt tính, nhận xét phép tính và giải bài toán thực tế liên quan đến phép trừ số thập phân.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và nêu yêu cầu.",
+              "- Bài 1: GV cho HS đọc đề bài và nêu yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Đặt tính rồi tính."
             ],
             [
@@ -5819,7 +5819,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 2: GV cho HS đọc yêu cầu Đ, S và quan sát từng phép tính đã đặt.",
+              "- Bài 2: GV cho HS đọc yêu cầu Đ, S và quan sát từng phép tính đã đặt.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát bài trong SGK."
             ],
             [
@@ -5839,7 +5839,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài, quan sát hình trong SGK.",
+              "- Bài 3: GV cho HS đọc đề bài, quan sát hình trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán về lượng nước mơ và nước dâu."
             ],
             [
@@ -5927,7 +5927,7 @@
               "2. Luyện tập (32 phút)\nMục tiêu: Luyện đặt tính trừ, tìm số chưa biết và giải toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và nêu yêu cầu.",
+              "- Bài 1: GV cho HS đọc đề bài và nêu yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Đặt tính rồi tính."
             ],
             [
@@ -5943,7 +5943,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài và xác định thành phần chưa biết trong từng phép tính.",
+              "- Bài 2: GV cho HS đọc đề bài và xác định thành phần chưa biết trong từng phép tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Tìm số thích hợp thay cho dấu hỏi."
             ],
             [
@@ -5963,7 +5963,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 3: GV cho HS đọc đề bài và quan sát hình vẽ chiếc cọc trong SGK.",
+              "- Bài 3: GV cho HS đọc đề bài và quan sát hình vẽ chiếc cọc trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán và quan sát hình."
             ],
             [
@@ -5987,7 +5987,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 4: GV cho HS đọc yêu cầu và quan sát các cân trong SGK.",
+              "- Bài 4: GV cho HS đọc yêu cầu và quan sát các cân trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát hình các rô-bốt."
             ],
             [
@@ -6071,7 +6071,7 @@
               "2. Khám phá (15 phút)Mục tiêu: Hình thành cách nhân một số thập phân với một số tự nhiên.Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình vẽ rồi dẫn ra câu chuyện trong thực tế: Các bạn đang đứng quan sát tòa nhà cao tầng và được biết tòa nhà có 8 tầng, mỗi tầng cao 3,2 m. Hỏi tòa nhà đó cao bao nhiêu mét?- GV có thể cho 2 HS đọc lời thoại của Mai và Nam trong SGK để dẫn ra tình huống.",
+              "- GV cho HS quan sát hình vẽ rồi dẫn ra câu chuyện trong thực tế: Các bạn đang đứng quan sát tòa nhà cao tầng và được biết tòa nhà có 8 tầng, mỗi tầng cao 3,2 m. Hỏi tòa nhà đó cao bao nhiêu mét?- GV có thể cho 2 HS đọc lời thoại của Mai và Nam trong SGK để dẫn ra tình huống.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc lời thoại và nêu dữ kiện: Tòa nhà có 8 tầng, mỗi tầng cao 3,2 m."
             ],
             [
@@ -6087,7 +6087,7 @@
               "- HS theo dõi và thực hiện: 32 × 8 = 256 (dm); 256 dm = 25,6 m.- HS nêu kết quả: Tòa nhà cao 25,6 m."
             ],
             [
-              "- GV hướng dẫn HS đặt tính rồi tính như trong SGK.- GV cho HS nhận xét sự giống nhau, khác nhau của hai phép nhân 32 × 8 và 3,2 × 8.",
+              "- GV hướng dẫn HS đặt tính rồi tính như trong SGK.- GV cho HS nhận xét sự giống nhau, khác nhau của hai phép nhân 32 × 8 và 3,2 × 8.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát cách đặt tính.- HS nhận xét: Đặt tính và nhân giống nhau; chỉ khác ở chỗ tích của phép nhân số thập phân có dấu phẩy."
             ],
             [
@@ -6098,7 +6098,7 @@
               "- HS nêu quy tắc: Đặt tính và nhân như nhân các số tự nhiên; đếm xem phần thập phân của số thập phân có bao nhiêu chữ số rồi dùng dấu phẩy tách ở tích ra bấy nhiêu chữ số kể từ phải sang trái.\nMục tiêu: Củng cố phép nhân số thập phân với số tự nhiên và giải toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài, nêu yêu cầu.",
+              "- Bài 1: GV cho HS đọc đề bài, nêu yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Đặt tính rồi tính."
             ],
             [
@@ -6114,7 +6114,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 2: GV cho HS đọc yêu cầu, quan sát từng phép tính sai trong SGK.",
+              "- Bài 2: GV cho HS đọc yêu cầu, quan sát từng phép tính sai trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Tìm lỗi sai rồi sửa lại cho đúng."
             ],
             [
@@ -6134,7 +6134,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 3: GV cho HS đọc bài toán và quan sát hình trong SGK.",
+              "- Bài 3: GV cho HS đọc bài toán và quan sát hình trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán: Mỗi cốc có 0,25 l nước cam, mỗi bạn uống một cốc, hỏi 3 bạn uống bao nhiêu lít nước cam."
             ],
             [
@@ -6218,7 +6218,7 @@
               "2. Khám phá (15 phút)Mục tiêu: Hình thành cách nhân một số thập phân với một số thập phân.Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình vẽ rồi dẫn ra câu chuyện trong thực tế: Trong dịp các bạn tới thăm nhà của Nam, Mai hỏi: Đây là phòng của cậu à? Phòng này rộng thế? Việt hỏi: Phòng này có diện tích bao nhiêu mét vuông vậy Nam? Nam trả lời: Phòng này có chiều dài 4,3 m, chiều rộng 3,6 m.- GV có thể cho 3 HS đóng vai đọc lời thoại của Mai, Việt và Nam trong SGK để dẫn ra tình huống.",
+              "- GV cho HS quan sát hình vẽ rồi dẫn ra câu chuyện trong thực tế: Trong dịp các bạn tới thăm nhà của Nam, Mai hỏi: Đây là phòng của cậu à? Phòng này rộng thế? Việt hỏi: Phòng này có diện tích bao nhiêu mét vuông vậy Nam? Nam trả lời: Phòng này có chiều dài 4,3 m, chiều rộng 3,6 m.- GV có thể cho 3 HS đóng vai đọc lời thoại của Mai, Việt và Nam trong SGK để dẫn ra tình huống.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc lời thoại và nêu dữ kiện: Phòng có chiều dài 4,3 m, chiều rộng 3,6 m."
             ],
             [
@@ -6238,7 +6238,7 @@
               "- HS quan sát cách đặt tính và cách viết dấu phẩy ở tích.- HS nêu: Nhân như nhân các số tự nhiên rồi đếm tổng số chữ số ở phần thập phân của hai thừa số để đặt dấu phẩy ở tích."
             ],
             [
-              "- GV nêu phép nhân trong SGK: 6,8 × 0,52, rồi để HS tự đặt tính và tính.- GV lưu ý: Chỉ khác với phép nhân trên là nhân với số thập phân có hai chữ số ở phần thập phân.",
+              "- GV nêu phép nhân trong SGK: 6,8 × 0,52, rồi để HS tự đặt tính và tính.- GV lưu ý: Chỉ khác với phép nhân trên là nhân với số thập phân có hai chữ số ở phần thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS tự đặt tính và tính 6,8 × 0,52.- HS nhận xét: 6,8 có một chữ số ở phần thập phân; 0,52 có hai chữ số ở phần thập phân; tích cần có ba chữ số ở phần thập phân."
             ],
             [
@@ -6249,7 +6249,7 @@
               "3. Hoạt động (17 phút)\nMục tiêu: Củng cố cách nhân hai số thập phân và giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 1: GV cho HS đọc đề bài và nêu yêu cầu.",
+              "- Bài 1: GV cho HS đọc đề bài và nêu yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Đặt tính rồi tính."
             ],
             [
@@ -6265,7 +6265,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 2: GV cho HS đọc đề bài: Biết 64 × 57 = 3 648, không thực hiện tính, hãy tìm các tích.",
+              "- Bài 2: GV cho HS đọc đề bài: Biết 64 × 57 = 3 648, không thực hiện tính, hãy tìm các tích.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image22.png\" alt=\"image22.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và quan sát các phép tính."
             ],
             [
@@ -6285,7 +6285,7 @@
               "- HS sửa bài."
             ],
             [
-              "- Bài 3: GV cho HS đọc bài toán và quan sát hình đường cao tốc trong SGK.",
+              "- Bài 3: GV cho HS đọc bài toán và quan sát hình đường cao tốc trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_9/image23.png\" alt=\"image23.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài toán: Mỗi giờ ô tô đi được 84,5 km, hỏi trong 1,2 giờ ô tô đi được bao nhiêu ki-lô-mét."
             ],
             [
@@ -6374,7 +6374,7 @@
               "Bài 1. Đặt tính rồi tính"
             ],
             [
-              "- GV cho HS đọc đề bài.",
+              "- GV cho HS đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, xác định yêu cầu của bài."
             ],
             [
@@ -6401,7 +6401,7 @@
               "- HS đọc đề bài, xác định yêu cầu của bài."
             ],
             [
-              "- GV hỏi: Có thể vận dụng tính chất nào của phép nhân để làm bài thuận tiện?",
+              "- GV hỏi: Có thể vận dụng tính chất nào của phép nhân để làm bài thuận tiện?\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: vận dụng tính chất giao hoán, kết hợp của phép nhân."
             ],
             [
@@ -6428,7 +6428,7 @@
               "- HS trả lời: biết 1 kg thóc được 0,64 kg gạo; hỏi 50 kg thóc được bao nhiêu ki-lô-gam gạo; cần nhân 0,64 với 50."
             ],
             [
-              "- GV cho HS làm bài vào vở; lưu ý HS viết đầy đủ bài giải.",
+              "- GV cho HS làm bài vào vở; lưu ý HS viết đầy đủ bài giải.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
@@ -6455,7 +6455,7 @@
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
-              "- GV cho HS trình bày kết quả.",
+              "- GV cho HS trình bày kết quả.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trình bày cách làm và kết quả; HS khác nhận xét, bổ sung."
             ],
             [
@@ -6519,7 +6519,7 @@
               "2. Khám phá\nMục tiêu: Thực hiện được phép chia số thập phân cho một số tự nhiên qua tình huống chia diện tích mảnh vườn.\nCách tiến hành:"
             ],
             [
-              "- GV giới thiệu tình huống: Mai và Rô-bốt đến thăm một vườn ươm cây giống và nói chuyện với kĩ sư.\n- GV có thể gọi HS đọc lời thoại của kĩ sư, Mai và Rô-bốt để tìm hiểu các dữ kiện của bài toán: diện tích mảnh vườn, số phần mảnh vườn được chia thành.",
+              "- GV giới thiệu tình huống: Mai và Rô-bốt đến thăm một vườn ươm cây giống và nói chuyện với kĩ sư.\n- GV có thể gọi HS đọc lời thoại của kĩ sư, Mai và Rô-bốt để tìm hiểu các dữ kiện của bài toán: diện tích mảnh vườn, số phần mảnh vườn được chia thành.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc lời thoại và nêu dữ kiện: diện tích mảnh vườn là 92,8 m²; mảnh vườn được chia thành 4 phần bằng nhau."
             ],
             [
@@ -6549,7 +6549,7 @@
               "- HS đọc đề bài, xác định yêu cầu của bài."
             ],
             [
-              "- GV hỏi: Khi chia số thập phân cho số tự nhiên, khi nào viết dấu phẩy vào thương?",
+              "- GV hỏi: Khi chia số thập phân cho số tự nhiên, khi nào viết dấu phẩy vào thương?\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: viết dấu phẩy vào thương sau khi chia xong phần nguyên và trước khi hạ chữ số ở phần thập phân để chia tiếp."
             ],
             [
@@ -6576,7 +6576,7 @@
               "- HS trả lời: số bị chia giảm đi 10 lần, 100 lần thì thương cũng giảm tương ứng."
             ],
             [
-              "- GV cho HS làm bài vào vở, bảng con hoặc phiếu học tập.",
+              "- GV cho HS làm bài vào vở, bảng con hoặc phiếu học tập.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
@@ -6603,7 +6603,7 @@
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
-              "- GV cho HS trình bày kết quả.",
+              "- GV cho HS trình bày kết quả.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trình bày cách làm và kết quả; HS khác nhận xét, bổ sung."
             ],
             [
@@ -6663,7 +6663,7 @@
               "2. Khám phá\nMục tiêu: Hình thành cách chia một số tự nhiên cho một số tự nhiên mà thương tìm được là một số thập phân.\nCách tiến hành:"
             ],
             [
-              "- GV giới thiệu tình huống: Mai và Rô-bốt đến thăm một xưởng may và nói chuyện với nhà thiết kế thời trang.\n- GV gọi HS đọc lời thoại của nhà thiết kế thời trang và Mai để tìm hiểu dữ kiện: số mét vải và số bộ quần áo may được.",
+              "- GV giới thiệu tình huống: Mai và Rô-bốt đến thăm một xưởng may và nói chuyện với nhà thiết kế thời trang.\n- GV gọi HS đọc lời thoại của nhà thiết kế thời trang và Mai để tìm hiểu dữ kiện: số mét vải và số bộ quần áo may được.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc lời thoại và nêu: có 26 m vải may được 8 bộ quần áo như nhau.\n- HS nêu câu hỏi của bài toán: mỗi bộ quần áo cần bao nhiêu mét vải?"
             ],
             [
@@ -6689,7 +6689,7 @@
               "- HS đọc đề bài, xác định yêu cầu của bài."
             ],
             [
-              "- GV hỏi: Khi phép chia còn dư, em cần làm gì để chia tiếp?",
+              "- GV hỏi: Khi phép chia còn dư, em cần làm gì để chia tiếp?\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: viết dấu phẩy vào thương, viết thêm chữ số 0 vào bên phải số dư rồi chia tiếp."
             ],
             [
@@ -6716,7 +6716,7 @@
               "- HS trả lời: có thể tính hoặc nhẩm để nối mỗi phép chia với thương thích hợp."
             ],
             [
-              "- GV cho HS làm bài vào vở, bảng con hoặc phiếu học tập.",
+              "- GV cho HS làm bài vào vở, bảng con hoặc phiếu học tập.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
@@ -6743,7 +6743,7 @@
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
-              "- GV cho HS trình bày kết quả.",
+              "- GV cho HS trình bày kết quả.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trình bày cách làm và kết quả; HS khác nhận xét, bổ sung."
             ],
             [
@@ -6803,7 +6803,7 @@
               "2. Khám phá\nMục tiêu: Hình thành cách chia một số tự nhiên cho một số thập phân qua tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "- Mở đầu, GV cho HS thực hiện hai phép tính 4,5 : 9 và (4,5 x 10) : (9 x 10).\n- GV yêu cầu HS nhận xét về số bị chia, số chia và thương của hai phép tính.",
+              "- Mở đầu, GV cho HS thực hiện hai phép tính 4,5 : 9 và (4,5 x 10) : (9 x 10).\n- GV yêu cầu HS nhận xét về số bị chia, số chia và thương của hai phép tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS tính: 4,5 : 9 = 0,5; (4,5 x 10) : (9 x 10) = 45 : 90 = 0,5.\n- HS nhận xét: khi nhân số bị chia và số chia với cùng một số khác 0 thì thương không thay đổi."
             ],
             [
@@ -6833,7 +6833,7 @@
               "- HS đọc đề bài, xác định yêu cầu của bài."
             ],
             [
-              "- GV hỏi: Muốn chia một số tự nhiên cho một số thập phân, em xử lí số chia như thế nào?",
+              "- GV hỏi: Muốn chia một số tự nhiên cho một số thập phân, em xử lí số chia như thế nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: chuyển dấu phẩy của số chia sang phải để số chia thành số tự nhiên, đồng thời thêm chữ số 0 vào bên phải số bị chia nếu cần."
             ],
             [
@@ -6860,7 +6860,7 @@
               "- HS trả lời: lấy 15 chia cho 0,75."
             ],
             [
-              "- GV cho HS làm bài vào vở; HS có thể đặt tính vào giấy nháp rồi ghi lời giải.",
+              "- GV cho HS làm bài vào vở; HS có thể đặt tính vào giấy nháp rồi ghi lời giải.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
@@ -6887,7 +6887,7 @@
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
-              "- GV cho HS trình bày kết quả.",
+              "- GV cho HS trình bày kết quả.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trình bày cách làm và kết quả; HS khác nhận xét, bổ sung."
             ],
             [
@@ -6947,11 +6947,11 @@
               "2. Khám phá\nMục tiêu: Hình thành cách chia một số thập phân cho một số thập phân.\nCách tiến hành:"
             ],
             [
-              "- GV giới thiệu tình huống khám phá: Rô-bốt đang nhào bột mì với nước để làm bánh.\n- GV gọi HS đọc lời thoại của Rô-bốt, đồng thời nêu bài toán đố trong SGK và yêu cầu HS nêu dữ kiện, câu hỏi của bài toán.",
+              "- GV giới thiệu tình huống khám phá: Rô-bốt đang nhào bột mì với nước để làm bánh.\n- GV gọi HS đọc lời thoại của Rô-bốt, đồng thời nêu bài toán đố trong SGK và yêu cầu HS nêu dữ kiện, câu hỏi của bài toán.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc lời thoại, nêu dữ kiện: nhồi 2,48 kg bột mì cần 1,6 l nước.\n- HS nêu câu hỏi: mỗi lít nước nhồi với bao nhiêu ki-lô-gam bột mì?"
             ],
             [
-              "- GV viết phép tính 2,48 : 1,6 = ? (kg) và giới thiệu đây là phép chia một số thập phân cho một số thập phân.\n- GV đặt câu hỏi gợi ý: Không thực hiện phép chia, kết quả của 2,48 : 1,6 và (2,48 x 10) : (1,6 x 10) có giống nhau không?",
+              "- GV viết phép tính 2,48 : 1,6 = ? (kg) và giới thiệu đây là phép chia một số thập phân cho một số thập phân.\n- GV đặt câu hỏi gợi ý: Không thực hiện phép chia, kết quả của 2,48 : 1,6 và (2,48 x 10) : (1,6 x 10) có giống nhau không?\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu phép tính: 2,48 : 1,6 = ? (kg).\n- HS nhận xét: hai thương bằng nhau vì nhân số bị chia và số chia với cùng 10 thì thương không thay đổi."
             ],
             [
@@ -6973,7 +6973,7 @@
               "- HS trả lời: chuyển số chia thành số tự nhiên bằng cách chuyển dấu phẩy sang phải; chuyển dấu phẩy ở số bị chia tương ứng."
             ],
             [
-              "- GV cho HS làm bài vào vở, bảng con hoặc phiếu học tập.",
+              "- GV cho HS làm bài vào vở, bảng con hoặc phiếu học tập.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
@@ -7000,7 +7000,7 @@
               "- HS làm bài cá nhân; một số HS làm bảng con hoặc bảng nhóm."
             ],
             [
-              "- GV cho HS trình bày kết quả.",
+              "- GV cho HS trình bày kết quả.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trình bày cách làm và kết quả; HS khác nhận xét, bổ sung."
             ],
             [
@@ -7027,7 +7027,7 @@
               "- HS trình bày cách làm và kết quả; HS khác nhận xét, bổ sung."
             ],
             [
-              "- GV nhận xét, sửa sai nếu có và chốt đáp án.",
+              "- GV nhận xét, sửa sai nếu có và chốt đáp án.\n<img src=\"assets/khbd_images/lop5/toan/tuan_10/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "Bài giải\nChiều dài của mặt sàn nhà kính là:\n292,8 : 9,6 = 30,5 (m)\nĐáp số: 30,5 m."
             ],
             [
@@ -7093,7 +7093,7 @@
               "2. Khám phá\nMục tiêu: Hình thành quy tắc nhân số thập phân với 10; 100; 1000; ... và với 0,1; 0,01; 0,001; ... .\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc lời thoại, quan sát tranh/hình ảnh trong SGK và nêu dữ kiện cụ thể.",
+              "- GV cho HS đọc lời thoại, quan sát tranh/hình ảnh trong SGK và nêu dữ kiện cụ thể.\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: Tấm bạt hình chữ nhật có chiều dài 27,86 m, chiều rộng 10 m; cần tính diện tích tấm bạt.\n- HS nêu phép tính: 27,86 x 10."
             ],
             [
@@ -7109,7 +7109,7 @@
               "- HS nhắc lại chốt câu a: Nhân với 10; 100; 1 000; ... thì chuyển dấu phẩy sang phải một; hai; ba; ... chữ số."
             ],
             [
-              "- GV cho HS đọc tiếp câu b, quan sát tranh/hình ảnh trong SGK và nêu dữ kiện cụ thể.",
+              "- GV cho HS đọc tiếp câu b, quan sát tranh/hình ảnh trong SGK và nêu dữ kiện cụ thể.\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: Câu b xét các phép nhân với 0,1; 0,01; 0,001; cụ thể có phép tính 15,23 x 0,1 và 79,6 x 0,01.\n- HS nêu: 15,23 x 0,1 là lấy một phần mười của 15,23; 79,6 x 0,01 là lấy một phần trăm của 79,6."
             ],
             [
@@ -7127,7 +7127,7 @@
               "Bài 1. Tính nhẩm"
             ],
             [
-              "- GV cho HS đọc đề bài.",
+              "- GV cho HS đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, xác định yêu cầu của bài.\n- HS quan sát hình Bài 1, đọc các phép tính nhẩm về nhân số thập phân với 10; 100; 1 000 và 0,1; 0,01; 0,001."
             ],
             [
@@ -7245,7 +7245,7 @@
               "2. Khám phá\nMục tiêu: Hình thành quy tắc chia số thập phân cho 10; 100; 1000; ... và cho 0,1; 0,01; 0,001; ... .\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc lời thoại, quan sát tranh/hình ảnh trong SGK và nêu dữ kiện cụ thể.",
+              "- GV cho HS đọc lời thoại, quan sát tranh/hình ảnh trong SGK và nêu dữ kiện cụ thể.\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: Có 0,3 l giấm được chia đều vào 10 ống nghiệm; cần tìm mỗi ống được bao nhiêu lít giấm.\n- HS nêu phép tính: 0,3 : 10."
             ],
             [
@@ -7261,7 +7261,7 @@
               "- HS nhắc lại chốt câu a: Chia cho 10; 100; 1 000; ... thì chuyển dấu phẩy sang trái một; hai; ba; ... chữ số."
             ],
             [
-              "- GV cho HS đọc tiếp câu b, quan sát tranh/hình ảnh trong SGK và nêu dữ kiện cụ thể.",
+              "- GV cho HS đọc tiếp câu b, quan sát tranh/hình ảnh trong SGK và nêu dữ kiện cụ thể.\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: Câu b xét các phép chia cho 0,1; 0,01; 0,001; cụ thể có phép tính 36,5 : 0,1 và 86,4 : 0,001.\n- HS nêu: 36,5 : 0,1 là tìm số lần 0,1 có trong 36,5; 86,4 : 0,001 là tìm số lần 0,001 có trong 86,4."
             ],
             [
@@ -7279,7 +7279,7 @@
               "Bài 1. Tính nhẩm"
             ],
             [
-              "- GV cho HS đọc đề bài.",
+              "- GV cho HS đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, xác định yêu cầu của bài.\n- HS quan sát hình Bài 1, đọc các phép tính nhẩm về chia số thập phân cho 10; 100; 1 000 và 0,1; 0,01; 0,001."
             ],
             [
@@ -7423,7 +7423,7 @@
               "Bài 1. Tính"
             ],
             [
-              "- GV cho HS đọc đề bài.",
+              "- GV cho HS đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, xác định yêu cầu của bài.\n- HS quan sát hình Bài 1, đọc bốn phép tính: 4,98 + 15,7; 52 - 4,91; 0,73 x 6,5; 104,89 : 8,5."
             ],
             [
@@ -7571,7 +7571,7 @@
               "Bài 1. Tính giá trị của biểu thức"
             ],
             [
-              "- GV cho HS đọc đề bài.",
+              "- GV cho HS đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, xác định yêu cầu của bài.\n- HS quan sát hình Bài 1, đọc hai biểu thức cần tính giá trị."
             ],
             [
@@ -7717,7 +7717,7 @@
               "Bài 1. Số?"
             ],
             [
-              "- GV cho HS đọc đề bài.",
+              "- GV cho HS đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_11/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, xác định yêu cầu của bài.\n- HS quan sát hình Bài 1, đọc yêu cầu tìm số còn thiếu trong hai phép tính."
             ],
             [
@@ -7895,7 +7895,7 @@
               "2. Khám pháMục tiêu: Nhận biết hình tam giác, đáy, đường cao và chiều cao của hình tam giác.Cách tiến hành:"
             ],
             [
-              "Câu a. Hình tam giác\n- GV cho HS đọc lời thoại và quan sát tranh Khám phá câu a.",
+              "Câu a. Hình tam giác\n- GV cho HS đọc lời thoại và quan sát tranh Khám phá câu a.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc lời thoại: Tớ gấp thuyền có hai cánh buồm này; cánh buồm bên trái có hai cạnh vuông góc; cánh buồm bên phải có ba góc nhọn."
             ],
             [
@@ -7939,7 +7939,7 @@
               "- HS ghi nhớ câu chốt: Hình tam giác có 3 cạnh, 3 đỉnh, 3 góc; có các dạng thường gặp là tam giác nhọn, tam giác vuông, tam giác tù và tam giác đều."
             ],
             [
-              "Câu b. Đáy và đường cao của hình tam giác\n- GV cho HS đọc nội dung và quan sát hình Khám phá câu b.",
+              "Câu b. Đáy và đường cao của hình tam giác\n- GV cho HS đọc nội dung và quan sát hình Khám phá câu b.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: AH vuông góc với BC. BC là đáy, AH là đường cao. Độ dài AH là chiều cao."
             ],
             [
@@ -7978,7 +7978,7 @@
               "3. Luyện tập - Thực hànhMục tiêu: Nhận biết dạng tam giác, xác định đáy - đường cao và tìm hình tam giác trong tranh.Cách tiến hành:"
             ],
             [
-              "Bài 1. Mỗi đồ vật dưới đây có dạng hình tam giác gì?\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Mỗi đồ vật dưới đây có dạng hình tam giác gì?\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Mỗi đồ vật dưới đây có dạng hình tam giác gì?"
             ],
             [
@@ -8002,7 +8002,7 @@
               "- HS ghi nhớ: hình tam giác đều là trường hợp đặc biệt của hình tam giác nhọn."
             ],
             [
-              "Bài 2. Chỉ ra đáy và đường cao tương ứng trong mỗi hình tam giác.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Chỉ ra đáy và đường cao tương ứng trong mỗi hình tam giác.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Hãy chỉ ra đáy và đường cao tương ứng được vẽ trong mỗi hình tam giác."
             ],
             [
@@ -8026,7 +8026,7 @@
               "- HS ghi nhớ: một hình tam giác có thể có nhiều cách chọn đáy và đường cao tương ứng."
             ],
             [
-              "Bài 3. Tìm các hình tam giác trong bức tranh.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Tìm các hình tam giác trong bức tranh.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Trong bức tranh bên, em hãy tìm các hình tam giác và cho biết mỗi hình tam giác đó có dạng hình tam giác gì."
             ],
             [
@@ -8118,7 +8118,7 @@
               "2. Khám pháMục tiêu: Rút ra quy tắc và công thức tính diện tích hình tam giác.Cách tiến hành:"
             ],
             [
-              "Câu a. Tình huống thực tế\n- GV cho HS đọc lời thoại và quan sát tranh kim tự tháp.",
+              "Câu a. Tình huống thực tế\n- GV cho HS đọc lời thoại và quan sát tranh kim tự tháp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc lời thoại: Mỗi mặt bên của kim tự tháp có dạng hình tam giác với diện tích khoảng 3 000 mét vuông; làm thế nào để tính được diện tích hình tam giác?"
             ],
             [
@@ -8134,7 +8134,7 @@
               "- HS ghi nhớ câu chốt a: Để tính diện tích hình tam giác, ta cần biết độ dài đáy và chiều cao tương ứng."
             ],
             [
-              "Câu b. Cách tính diện tích hình tam giác\n- GV cho HS đọc các bước ghép hình và quan sát hình chữ nhật NMCB.",
+              "Câu b. Cách tính diện tích hình tam giác\n- GV cho HS đọc các bước ghép hình và quan sát hình chữ nhật NMCB.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: cho hai tấm bìa hình tam giác giống nhau, cắt theo đường cao rồi ghép thành hình chữ nhật."
             ],
             [
@@ -8173,7 +8173,7 @@
               "3. Luyện tập - Thực hànhMục tiêu: Tính được diện tích hình tam giác và chọn đáp án đúng.Cách tiến hành:"
             ],
             [
-              "Bài 1. Tính diện tích của hình tam giác.\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Tính diện tích của hình tam giác.\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tính diện tích của hình tam giác, biết độ dài đáy và chiều cao."
             ],
             [
@@ -8197,7 +8197,7 @@
               "- HS sửa bài và ghi nhớ cách tính."
             ],
             [
-              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Diện tích của hình tam giác có độ dài đáy 2 dm và chiều cao 20 cm là bao nhiêu?"
             ],
             [
@@ -8221,7 +8221,7 @@
               "- HS ghi nhớ: đổi đơn vị trước khi áp dụng công thức."
             ],
             [
-              "Bài 3. Tính diện tích tấm kính hình tam giác vuông.\n- GV cho HS đọc đề Bài 3 và quan sát hình.",
+              "Bài 3. Tính diện tích tấm kính hình tam giác vuông.\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tính diện tích của tấm kính có dạng hình tam giác vuông như hình."
             ],
             [
@@ -8307,7 +8307,7 @@
               "2. Luyện tập - Thực hànhMục tiêu: Hoàn thành bảng, vẽ đường cao và giải bài toán cắt ghép hình.Cách tiến hành:"
             ],
             [
-              "Bài 1. Hoàn thành bảng.\n- GV cho HS đọc đề Bài 1 và quan sát bảng.",
+              "Bài 1. Hoàn thành bảng.\n- GV cho HS đọc đề Bài 1 và quan sát bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Hoàn thành bảng sau."
             ],
             [
@@ -8331,7 +8331,7 @@
               "- HS chốt đáp án: 15 cm²; 25 dm²; 8 m²; 100 cm²."
             ],
             [
-              "Bài 2. Vẽ đường cao ứng với đáy BC.\n- GV cho HS đọc đề Bài 2 và quan sát hình trên lưới ô vuông.",
+              "Bài 2. Vẽ đường cao ứng với đáy BC.\n- GV cho HS đọc đề Bài 2 và quan sát hình trên lưới ô vuông.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Vẽ các hình tam giác sau vào vở, sau đó vẽ đường cao ứng với đáy BC của mỗi hình tam giác đó."
             ],
             [
@@ -8355,7 +8355,7 @@
               "- HS ghi nhớ: khi đáy nằm ngang, đường cao thường là đoạn thẳng vuông góc với đáy."
             ],
             [
-              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 3 và quan sát hình 1, hình 2.",
+              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 3 và quan sát hình 1, hình 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Mai tô màu một tờ giấy hình vuông cạnh 12 cm, cắt theo vạch chia và ghép thành con cá; hỏi diện tích hình tam giác là đuôi cá."
             ],
             [
@@ -8445,7 +8445,7 @@
               "2. Luyện tập - Thực hànhMục tiêu: Vận dụng kiến thức để giải bài toán Đố em.Cách tiến hành:"
             ],
             [
-              "Bài 4. Đố em - Tính diện tích cây thông.\n- GV cho HS đọc đề Bài 4 và quan sát hình cây thông trên lưới ô vuông.",
+              "Bài 4. Đố em - Tính diện tích cây thông.\n- GV cho HS đọc đề Bài 4 và quan sát hình cây thông trên lưới ô vuông.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Diện tích cây thông trong hình vẽ bên là bao nhiêu xăng-ti-mét vuông?"
             ],
             [
@@ -8541,7 +8541,7 @@
               "2. Khám pháMục tiêu: Nhận biết hình thang, đáy, cạnh bên, đường cao của hình thang.Cách tiến hành:"
             ],
             [
-              "Câu a. Hình thang\n- GV cho HS đọc lời thoại và quan sát tranh Khám phá câu a.",
+              "Câu a. Hình thang\n- GV cho HS đọc lời thoại và quan sát tranh Khám phá câu a.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc lời thoại: Một ô kính có dạng hình tam giác tù, ô kính còn lại có dạng hình thang."
             ],
             [
@@ -8565,7 +8565,7 @@
               "- HS ghi nhớ câu chốt a: Hình thang có một cặp cạnh đối diện song song; hai cạnh song song đó gọi là hai đáy."
             ],
             [
-              "Câu b. Đường cao của hình thang\n- GV cho HS quan sát hình đường cao của hình thang.",
+              "Câu b. Đường cao của hình thang\n- GV cho HS quan sát hình đường cao của hình thang.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình."
             ],
             [
@@ -8600,7 +8600,7 @@
               "3. Luyện tập - Thực hànhMục tiêu: Nhận biết hình thang, hình thang vuông và thực hành vẽ hình thang.Cách tiến hành:"
             ],
             [
-              "Bài 1. Trong các hình dưới đây, hình nào là hình thang?\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Trong các hình dưới đây, hình nào là hình thang?\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Trong các hình dưới đây, hình nào là hình thang?"
             ],
             [
@@ -8624,7 +8624,7 @@
               "- HS ghi nhớ: hình thang có một cặp cạnh đối diện song song."
             ],
             [
-              "Bài 2. Tìm thêm hình ảnh thực tế có dạng hình thang.\n- GV cho HS đọc đề Bài 2 và quan sát các hình ảnh trong SGK.",
+              "Bài 2. Tìm thêm hình ảnh thực tế có dạng hình thang.\n- GV cho HS đọc đề Bài 2 và quan sát các hình ảnh trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Dưới đây là một số hình ảnh thực tế có dạng hình thang. Em hãy tìm thêm một số hình ảnh thực tế có dạng hình thang."
             ],
             [
@@ -8648,7 +8648,7 @@
               "- HS ghi nhớ: khi quan sát đồ vật thực tế, cần chú ý cặp cạnh đối diện song song để nhận dạng hình thang."
             ],
             [
-              "Bài 3. Hình thang vuông.\n- GV cho HS đọc đề Bài 3 và quan sát hình chong chóng, hình thang vuông ABCD.",
+              "Bài 3. Hình thang vuông.\n- GV cho HS đọc đề Bài 3 và quan sát hình chong chóng, hình thang vuông ABCD.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -8672,7 +8672,7 @@
               "- HS ghi nhớ: cạnh bên vuông góc với hai đáy chính là một đường cao của hình thang vuông."
             ],
             [
-              "Hoạt động vẽ hình thang\n- GV cho HS đọc yêu cầu vẽ hình thang và quan sát tranh Khám phá “Vẽ hình thang”.",
+              "Hoạt động vẽ hình thang\n- GV cho HS đọc yêu cầu vẽ hình thang và quan sát tranh Khám phá “Vẽ hình thang”.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát tranh."
             ],
             [
@@ -8696,7 +8696,7 @@
               "- HS ghi nhớ: hình thang có hai đáy là hai cạnh đối diện song song."
             ],
             [
-              "Bài 1, Bài 2 phần Hoạt động vẽ hình thang\n- GV cho HS đọc đề Bài 1 và Bài 2.",
+              "Bài 1, Bài 2 phần Hoạt động vẽ hình thang\n- GV cho HS đọc đề Bài 1 và Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_12/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Vẽ hình thang MNPQ với MN và QP là hai đáy; hoàn thiện hình vẽ ở Bài 2."
             ],
             [
@@ -8799,7 +8799,7 @@
               "2. Khám phá\nMục tiêu: Biết các bước vẽ hình thang với hai đáy cho trước.Cách tiến hành:"
             ],
             [
-              "Câu a. Tình huống vẽ cái thang- GV cho HS quan sát tranh Khám phá câu a và mời HS đóng vai đọc lời thoại.",
+              "Câu a. Tình huống vẽ cái thang- GV cho HS quan sát tranh Khám phá câu a và mời HS đóng vai đọc lời thoại.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đóng vai Mai, Việt, Rô-bốt đọc lời thoại trong SGK."
             ],
             [
@@ -8838,7 +8838,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Vẽ được hình thang và hoàn thiện hình vẽ tạo thành hình thang.Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát Bài 1 và Bài 2 trong SGK.",
+              "- GV cho HS quan sát Bài 1 và Bài 2 trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1 và Bài 2 để thực hành vẽ hình thang."
             ],
             [
@@ -8889,7 +8889,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng cách vẽ hình thang để vẽ theo mẫu và sáng tạo hình vẽ.Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát Bài 3 và Bài 4 trong SGK.",
+              "- GV cho HS quan sát Bài 3 và Bài 4 trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 3, Bài 4 và chuẩn bị thực hành vẽ theo mẫu."
             ],
             [
@@ -8989,7 +8989,7 @@
               "2. Khám phá\nMục tiêu: Rút ra quy tắc và công thức tính diện tích hình thang.Cách tiến hành:"
             ],
             [
-              "Câu a. Diện tích hình thang- GV cho HS sử dụng hai hình thang bằng nhau đã chuẩn bị, thảo luận nhóm 4 trong 2 phút để tìm cách tính diện tích hình thang.",
+              "Câu a. Diện tích hình thang- GV cho HS sử dụng hai hình thang bằng nhau đã chuẩn bị, thảo luận nhóm 4 trong 2 phút để tìm cách tính diện tích hình thang.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lấy hai hình thang bằng nhau, thảo luận nhóm 4 và thử cắt ghép hoặc chia hình thang thành các hình đã học."
             ],
             [
@@ -9028,7 +9028,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tính được diện tích hình thang khi biết hai đáy và chiều cao.Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát các bài tập trong SGK.",
+              "- GV cho HS quan sát các bài tập trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1, Bài 2 và Bài 3 trong SGK."
             ],
             [
@@ -9167,7 +9167,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Hoàn thành bảng, chọn đáp án đúng và tính diện tích hình ghép.Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát Bài 1, Bài 2, Bài 3 và Bài 4 trong SGK.",
+              "- GV cho HS quan sát Bài 1, Bài 2, Bài 3 và Bài 4 trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các bài luyện tập trang 104 SGK."
             ],
             [
@@ -9332,7 +9332,7 @@
               "2. Khám phá\nMục tiêu: Phân biệt hình tròn - đường tròn và biết cách vẽ đường tròn.Cách tiến hành:"
             ],
             [
-              "Câu a. Đường tròn- GV cho HS quan sát tranh Khám phá trang 105 SGK và mời 2 HS đóng vai đọc tình huống.",
+              "Câu a. Đường tròn- GV cho HS quan sát tranh Khám phá trang 105 SGK và mời 2 HS đóng vai đọc tình huống.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đóng vai đọc tình huống trong SGK."
             ],
             [
@@ -9383,7 +9383,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Vẽ được đường tròn theo bán kính cho trước.Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát Bài 1 và Bài 2 trong SGK.",
+              "- GV cho HS quan sát Bài 1 và Bài 2 trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1 và Bài 2 trang 106 SGK."
             ],
             [
@@ -9500,7 +9500,7 @@
               "2. Khám phá\nMục tiêu: Rút ra cách tính chu vi hình tròn theo đường kính hoặc bán kính.Cách tiến hành:"
             ],
             [
-              "Câu a. Chu vi hình tròn- GV cho HS quan sát tranh phần a trang 107 SGK và mời HS đóng vai đọc đoạn đối thoại ở Vương quốc hình tròn.",
+              "Câu a. Chu vi hình tròn- GV cho HS quan sát tranh phần a trang 107 SGK và mời HS đóng vai đọc đoạn đối thoại ở Vương quốc hình tròn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đóng vai Mai, Nam, Việt, Rô-bốt đọc đoạn đối thoại."
             ],
             [
@@ -9551,7 +9551,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tính được chu vi hình tròn theo đường kính hoặc bán kính.Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát các bài tập trang 108 SGK.",
+              "- GV cho HS quan sát các bài tập trang 108 SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_13/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1, Bài 2 và Bài 3 trang 108 SGK."
             ],
             [
@@ -9691,7 +9691,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính chu vi hình tròn và vận dụng vào bài toán thực tế."
             ],
             [
-              "Bài 1. Hình nào có chu vi lớn nhất?\n- GV cho HS đọc đề Bài 1 và quan sát ba hình trong SGK.",
+              "Bài 1. Hình nào có chu vi lớn nhất?\n- GV cho HS đọc đề Bài 1 và quan sát ba hình trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình vẽ."
             ],
             [
@@ -9711,7 +9711,7 @@
               "- HS ghi nhớ cách so sánh chu vi các hình."
             ],
             [
-              "Bài 2. Bờm uốn sợi dây thép thành cái khung gồm một hình tròn đường kính d và hai thanh làm tay cán, mỗi thanh dài b.\n- GV cho HS đọc đề Bài 2 và quan sát hình vẽ.",
+              "Bài 2. Bờm uốn sợi dây thép thành cái khung gồm một hình tròn đường kính d và hai thanh làm tay cán, mỗi thanh dài b.\n- GV cho HS đọc đề Bài 2 và quan sát hình vẽ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát hình vẽ."
             ],
             [
@@ -9735,7 +9735,7 @@
               "- HS ghi nhớ: Khi tính độ dài dây tạo hình ghép, cần tính từng phần rồi cộng lại."
             ],
             [
-              "Bài 3. Một sợi dây quấn quanh gốc cây 3 vòng rồi còn thừa 2,8 m.\n- GV cho HS đọc đề Bài 3 và xác định dữ kiện.",
+              "Bài 3. Một sợi dây quấn quanh gốc cây 3 vòng rồi còn thừa 2,8 m.\n- GV cho HS đọc đề Bài 3 và xác định dữ kiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3 và xác định dữ kiện."
             ],
             [
@@ -9755,7 +9755,7 @@
               "- HS sửa bài và ghi nhớ cách đổi đơn vị đo."
             ],
             [
-              "Bài 4. Chú rùa vàng và chú rùa nâu bò trên hai đường khác nhau.\n- GV cho HS đọc đề Bài 4 và quan sát hình vẽ.",
+              "Bài 4. Chú rùa vàng và chú rùa nâu bò trên hai đường khác nhau.\n- GV cho HS đọc đề Bài 4 và quan sát hình vẽ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát hình vẽ."
             ],
             [
@@ -9841,7 +9841,7 @@
               "2. Khám phá\nMục tiêu: Rút ra quy tắc và công thức tính diện tích hình tròn."
             ],
             [
-              "Câu a. Diện tích hình tròn\n- GV cho HS đọc nội dung Khám phá câu a và quan sát hình trong SGK.",
+              "Câu a. Diện tích hình tròn\n- GV cho HS đọc nội dung Khám phá câu a và quan sát hình trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc nội dung Khám phá câu a và quan sát hình trong SGK."
             ],
             [
@@ -9869,7 +9869,7 @@
               "- HS ghi nhớ: S = 3,14 x r x r, trong đó S là diện tích hình tròn, r là bán kính hình tròn."
             ],
             [
-              "Câu b. Ví dụ\n- GV cho HS đọc ví dụ ở câu b và quan sát công thức tính diện tích hình tròn.",
+              "Câu b. Ví dụ\n- GV cho HS đọc ví dụ ở câu b và quan sát công thức tính diện tích hình tròn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc ví dụ: Tính diện tích hình tròn có bán kính 10 cm."
             ],
             [
@@ -9892,7 +9892,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tính diện tích hình tròn theo bán kính và giải bài toán thực tế."
             ],
             [
-              "Bài 1. Hoàn thành bảng.\n- GV cho HS đọc đề Bài 1 và quan sát bảng.",
+              "Bài 1. Hoàn thành bảng.\n- GV cho HS đọc đề Bài 1 và quan sát bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và quan sát bảng."
             ],
             [
@@ -9916,7 +9916,7 @@
               "- HS sửa bài và ghi nhớ cách tính."
             ],
             [
-              "Bài 2. Bãi thả khí cầu có dạng hình tròn bán kính 200 m.\n- GV cho HS đọc đề Bài 2 và quan sát hình bãi thả khí cầu.",
+              "Bài 2. Bãi thả khí cầu có dạng hình tròn bán kính 200 m.\n- GV cho HS đọc đề Bài 2 và quan sát hình bãi thả khí cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát hình minh họa."
             ],
             [
@@ -9936,7 +9936,7 @@
               "- HS ghi nhớ cách vận dụng công thức vào tình huống thực tế."
             ],
             [
-              "Bài 3. Tìm diện tích một tấm thảm hình tròn có đường kính 20 dm.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Tìm diện tích một tấm thảm hình tròn có đường kính 20 dm.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -9999,7 +9999,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Củng cố nhanh công thức chu vi và diện tích hình tròn."
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc yêu cầu Bài 1 và quan sát nội dung SGK.",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc yêu cầu Bài 1 và quan sát nội dung SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Bài 1 và chuẩn bị thẻ A, B, C."
             ],
             [
@@ -10026,7 +10026,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Giải bài toán thực tế về diện tích hình tròn và hình ghép."
             ],
             [
-              "Bài 2. Một vùng sa mạc có 1 000 thửa ruộng hình tròn bán kính 50 m.\n- GV cho HS đọc đề Bài 2 và quan sát hình thửa ruộng hình tròn.",
+              "Bài 2. Một vùng sa mạc có 1 000 thửa ruộng hình tròn bán kính 50 m.\n- GV cho HS đọc đề Bài 2 và quan sát hình thửa ruộng hình tròn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát hình ảnh thửa ruộng hình tròn."
             ],
             [
@@ -10046,7 +10046,7 @@
               "- HS sửa bài và ghi nhớ."
             ],
             [
-              "Bài 3. Một sân vận động có mô hình gồm hình chữ nhật và hai nửa hình tròn.\n- GV cho HS đọc đề Bài 3 và quan sát hình sân vận động.",
+              "Bài 3. Một sân vận động có mô hình gồm hình chữ nhật và hai nửa hình tròn.\n- GV cho HS đọc đề Bài 3 và quan sát hình sân vận động.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3 và quan sát mô hình sân vận động."
             ],
             [
@@ -10070,7 +10070,7 @@
               "- HS ghi nhớ cách phân tích hình ghép."
             ],
             [
-              "Bài 4. Một giếng nước gồm miệng giếng hình tròn và phần thành giếng.\n- GV cho HS đọc đề Bài 4 và quan sát hình giếng nước.",
+              "Bài 4. Một giếng nước gồm miệng giếng hình tròn và phần thành giếng.\n- GV cho HS đọc đề Bài 4 và quan sát hình giếng nước.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát hình vẽ."
             ],
             [
@@ -10154,7 +10154,7 @@
               "2. Thực hành và trải nghiệm\nMục tiêu: Cắt dán, lắp ghép các hình để tạo sản phẩm ngôi nhà và chi tiết trang trí."
             ],
             [
-              "Hoạt động 1. Làm nhà\n- GV cho HS đọc yêu cầu Hoạt động 1 và quan sát hình mẫu.",
+              "Hoạt động 1. Làm nhà\n- GV cho HS đọc yêu cầu Hoạt động 1 và quan sát hình mẫu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình mẫu Bài 1 trong SGK."
             ],
             [
@@ -10174,7 +10174,7 @@
               "- HS nhận hỗ trợ khi cần và tiếp tục hoàn thiện sản phẩm."
             ],
             [
-              "Hoạt động 2. Trồng hoa, nuôi gà\n- GV cho HS đọc yêu cầu Hoạt động 2 và quan sát hình mẫu.",
+              "Hoạt động 2. Trồng hoa, nuôi gà\n- GV cho HS đọc yêu cầu Hoạt động 2 và quan sát hình mẫu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình mẫu Bài 2 trong SGK."
             ],
             [
@@ -10279,7 +10279,7 @@
               "2. Thực hành và trải nghiệm\nMục tiêu: Cắt dán, xếp hình, gấp thuyền buồm và giới thiệu quy trình thực hiện."
             ],
             [
-              "Hoạt động 1. Khởi động - Cắt và dán tạo hình theo mẫu\n- GV cho HS đọc yêu cầu Hoạt động 1 và quan sát hình mẫu.",
+              "Hoạt động 1. Khởi động - Cắt và dán tạo hình theo mẫu\n- GV cho HS đọc yêu cầu Hoạt động 1 và quan sát hình mẫu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình mẫu Bài 1 trong SGK."
             ],
             [
@@ -10295,7 +10295,7 @@
               "- HS nêu cách tạo hình: xác định hình cần dùng, vẽ trên giấy màu, cắt theo đường viền rồi dán vào vị trí phù hợp."
             ],
             [
-              "Hoạt động 2. Tăng tốc - Xếp hình theo mẫu\n- GV cho HS đọc yêu cầu Hoạt động 2 và quan sát bộ xếp hình.",
+              "Hoạt động 2. Tăng tốc - Xếp hình theo mẫu\n- GV cho HS đọc yêu cầu Hoạt động 2 và quan sát bộ xếp hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nhận bộ trò chơi xếp hình hoặc bộ Tangram của nhóm."
             ],
             [
@@ -10323,7 +10323,7 @@
               "- HS ghi nhớ quy trình: quan sát mẫu, chọn mảnh, ghép thử, điều chỉnh và hoàn thiện."
             ],
             [
-              "Hoạt động 3. Mình cùng về đích - Gấp thuyền buồm\n- GV cho HS đọc yêu cầu Hoạt động 3 và quan sát quy trình gấp thuyền buồm.",
+              "Hoạt động 3. Mình cùng về đích - Gấp thuyền buồm\n- GV cho HS đọc yêu cầu Hoạt động 3 và quan sát quy trình gấp thuyền buồm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_14/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát quy trình gấp thuyền buồm trong SGK."
             ],
             [
@@ -10424,7 +10424,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Vẽ hình, tính diện tích tam giác và tính chu vi hình tròn trong tình huống thực tế."
             ],
             [
-              "Bài 1. Vẽ hình tam giác, vẽ đường cao và tính diện tích hình tam giác.",
+              "Bài 1. Vẽ hình tam giác, vẽ đường cao và tính diện tích hình tam giác.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và quan sát hình trên lưới ô vuông."
             ],
             [
@@ -10456,7 +10456,7 @@
               "- HS ghi nhớ công thức S = a x h : 2."
             ],
             [
-              "Bài 2. Chọn câu trả lời đúng.",
+              "Bài 2. Chọn câu trả lời đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát hình tròn trong SGK."
             ],
             [
@@ -10492,7 +10492,7 @@
               "- HS ghi nhớ mối quan hệ giữa bán kính và chu vi hình tròn."
             ],
             [
-              "Bài 3. Tính chu vi cái ao.",
+              "Bài 3. Tính chu vi cái ao.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3 và quan sát hình cái ao nửa hình tròn."
             ],
             [
@@ -10531,7 +10531,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức để nhận xét một tình huống hình học."
             ],
             [
-              "Bài 4. Bạn Rô-bốt nói đúng hay sai?",
+              "Bài 4. Bạn Rô-bốt nói đúng hay sai?\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát ba hình chữ nhật có điểm E thay đổi trên AB."
             ],
             [
@@ -10603,7 +10603,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Vẽ hình theo mẫu, tính diện tích hình thang, hình tam giác, hình tròn và hình ghép."
             ],
             [
-              "Bài 1. Vẽ hình và tính diện tích hình thang ABCD.",
+              "Bài 1. Vẽ hình và tính diện tích hình thang ABCD.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và quan sát các hình trên lưới ô vuông."
             ],
             [
@@ -10631,7 +10631,7 @@
               "- HS ghi nhớ công thức tính diện tích hình thang."
             ],
             [
-              "Bài 2. Tính diện tích mảnh đất.",
+              "Bài 2. Tính diện tích mảnh đất.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát hình mảnh đất trong SGK."
             ],
             [
@@ -10655,7 +10655,7 @@
               "- HS ghi nhớ cách chia hình để tính diện tích."
             ],
             [
-              "Bài 3. Tính diện tích mảnh đất.",
+              "Bài 3. Tính diện tích mảnh đất.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3 và quan sát hình mảnh đất."
             ],
             [
@@ -10694,7 +10694,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Tính diện tích phần còn lại bằng cách lấy diện tích hình lớn trừ hình nhỏ."
             ],
             [
-              "Bài 4. Chọn câu trả lời đúng.",
+              "Bài 4. Chọn câu trả lời đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát hình vuông có hình tròn bên trong."
             ],
             [
@@ -10749,7 +10749,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Ôn nhanh mối quan hệ giữa bán kính, đường kính và chu vi hình tròn."
             ],
             [
-              "- GV tổ chức trò chơi “Đúng - Sai” với hình tròn màu xanh và hình tròn màu đỏ ở Bài 4.",
+              "- GV tổ chức trò chơi “Đúng - Sai” với hình tròn màu xanh và hình tròn màu đỏ ở Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hai hình tròn, chuẩn bị giơ thẻ Đúng hoặc Sai."
             ],
             [
@@ -10768,7 +10768,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Hoàn thành bài tập tính diện tích và so sánh diện tích các hình."
             ],
             [
-              "Bài 1. Cho hình vuông ABCD, tính và so sánh diện tích.",
+              "Bài 1. Cho hình vuông ABCD, tính và so sánh diện tích.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và quan sát hình trong SGK."
             ],
             [
@@ -10792,7 +10792,7 @@
               "- HS ghi nhớ cách so sánh diện tích tam giác khi có chung chiều cao."
             ],
             [
-              "Bài 2. Hình nào có diện tích bé nhất, hình nào có diện tích lớn nhất?",
+              "Bài 2. Hình nào có diện tích bé nhất, hình nào có diện tích lớn nhất?\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát ba hình Việt nặn bằng đất sét."
             ],
             [
@@ -10823,7 +10823,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tính diện tích hình ghép trong tình huống thực tế."
             ],
             [
-              "Bài 3. Tìm số thập phân thích hợp.",
+              "Bài 3. Tìm số thập phân thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3 và quan sát ba mảnh vải của Rô-bốt."
             ],
             [
@@ -10919,7 +10919,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Đọc số thập phân, viết số đo dưới dạng số thập phân và xác định hàng của chữ số."
             ],
             [
-              "Bài 1. Chọn số thập phân thích hợp với cách đọc số thập phân đó.",
+              "Bài 1. Chọn số thập phân thích hợp với cách đọc số thập phân đó.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và quan sát các thẻ số, thẻ cách đọc."
             ],
             [
@@ -10935,7 +10935,7 @@
               "- HS trả lời: Đọc phần nguyên, đọc “phẩy”, rồi đọc phần thập phân."
             ],
             [
-              "Bài 2. Viết số đo dưới dạng số thập phân.",
+              "Bài 2. Viết số đo dưới dạng số thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát các đơn vị đo."
             ],
             [
@@ -10955,7 +10955,7 @@
               "- HS ghi nhớ cách đổi đơn vị đo."
             ],
             [
-              "Bài 3. Đúng, sai?",
+              "Bài 3. Đúng, sai?\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -10994,7 +10994,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng số thập phân vào số đo chiều cao."
             ],
             [
-              "Bài 4. Nêu số thập phân thích hợp với số đo chiều cao.",
+              "Bài 4. Nêu số thập phân thích hợp với số đo chiều cao.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát hình đo chiều cao."
             ],
             [
@@ -11066,7 +11066,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: So sánh số thập phân và nhận xét cách so sánh sai."
             ],
             [
-              "Bài 1. Điền dấu >, <, = thích hợp.",
+              "Bài 1. Điền dấu >, <, = thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và quan sát các cặp số thập phân."
             ],
             [
@@ -11086,7 +11086,7 @@
               "- HS trả lời: Vì có thể bỏ chữ số 0 tận cùng ở phần thập phân mà giá trị số thập phân không đổi."
             ],
             [
-              "Bài 2. Nhận xét cách so sánh của Việt.",
+              "Bài 2. Nhận xét cách so sánh của Việt.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát hình Việt so sánh 17,1 và 9,725."
             ],
             [
@@ -11121,7 +11121,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Sắp xếp số đo thực tế và tìm kí tự thích hợp tạo số thập phân."
             ],
             [
-              "Bài 3. Sắp xếp cân nặng các loại quả.",
+              "Bài 3. Sắp xếp cân nặng các loại quả.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3 và quan sát cân nặng các loại quả Rô-bốt mua."
             ],
             [
@@ -11137,7 +11137,7 @@
               "- HS trả lời: Mua dưa hấu nhiều nhất, mua nho ít nhất."
             ],
             [
-              "Bài 4. Thay một kí tự vào dấu ? để được một số lớn hơn 2 nhưng bé hơn 3.",
+              "Bài 4. Thay một kí tự vào dấu ? để được một số lớn hơn 2 nhưng bé hơn 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_15/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát các kí tự Rô-bốt gợi ý."
             ],
             [
@@ -11217,7 +11217,7 @@
               "2. Luyện tập - Thực hànhMục tiêu: Viết số đo đại lượng dưới dạng số thập phân, đọc số đo trên cân và làm tròn số thập phân.Cách tiến hành:"
             ],
             [
-              "Bài 1. Viết số thích hợp vào ô trống.",
+              "Bài 1. Viết số thích hợp vào ô trống.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và quan sát các số đo đại lượng."
             ],
             [
@@ -11241,7 +11241,7 @@
               "- HS ghi nhớ cách viết số đo đại lượng dưới dạng số thập phân."
             ],
             [
-              "Bài 2. Đọc số đo trên cân.",
+              "Bài 2. Đọc số đo trên cân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát hình cân."
             ],
             [
@@ -11257,7 +11257,7 @@
               "- HS ghi nhớ: 1 kg = 1 000 g; 500 g = 0,5 kg; 600 g = 0,6 kg."
             ],
             [
-              "Bài 3. Làm tròn số thập phân đến hàng phần trăm.",
+              "Bài 3. Làm tròn số thập phân đến hàng phần trăm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -11280,7 +11280,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)Mục tiêu: Vận dụng làm tròn số thập phân trong tình huống thực tế.Cách tiến hành:"
             ],
             [
-              "Bài 4. Làm tròn kỉ lục điền kinh.",
+              "Bài 4. Làm tròn kỉ lục điền kinh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát bảng số liệu."
             ],
             [
@@ -11352,7 +11352,7 @@
               "2. Luyện tập - Thực hànhMục tiêu: Thực hiện cộng số thập phân và vận dụng tính chất phép cộng để tính thuận tiện.Cách tiến hành:"
             ],
             [
-              "Bài 1. Đặt tính rồi tính.",
+              "Bài 1. Đặt tính rồi tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1."
             ],
             [
@@ -11372,7 +11372,7 @@
               "- HS ghi nhớ cách cộng số thập phân."
             ],
             [
-              "Bài 2. Tính bằng cách thuận tiện.",
+              "Bài 2. Tính bằng cách thuận tiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2."
             ],
             [
@@ -11396,7 +11396,7 @@
               "- HS ghi nhớ cách tính thuận tiện."
             ],
             [
-              "Bài 3. Giải ô chữ.",
+              "Bài 3. Giải ô chữ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3 và quan sát ô chữ."
             ],
             [
@@ -11423,7 +11423,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)Mục tiêu: Vận dụng phép cộng số thập phân vào tình huống thực tế.Cách tiến hành:"
             ],
             [
-              "Bài 4. Giải bài toán về chiều cao.",
+              "Bài 4. Giải bài toán về chiều cao.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4."
             ],
             [
@@ -11507,7 +11507,7 @@
               "2. Luyện tập - Thực hànhMục tiêu: Thực hiện phép trừ số thập phân và giải quyết bài toán thực tế.Cách tiến hành:"
             ],
             [
-              "Bài 1. Đặt tính rồi tính.",
+              "Bài 1. Đặt tính rồi tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1."
             ],
             [
@@ -11527,7 +11527,7 @@
               "- HS ghi nhớ cách trừ số thập phân."
             ],
             [
-              "Bài 2. Tìm số thích hợp.",
+              "Bài 2. Tìm số thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát sơ đồ."
             ],
             [
@@ -11547,7 +11547,7 @@
               "- HS trả lời: Hai cách tính cho cùng kết quả vì 2 - 0,01 = 1,99 và 4 - 0,2 = 3,8."
             ],
             [
-              "Bài 3. Giải bài toán về giấy vụn.",
+              "Bài 3. Giải bài toán về giấy vụn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -11567,7 +11567,7 @@
               "- HS ghi nhớ cách so sánh và trừ số thập phân."
             ],
             [
-              "Bài 4. Tìm cân nặng của cáo và thỏ.",
+              "Bài 4. Tìm cân nặng của cáo và thỏ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát hình cân."
             ],
             [
@@ -11586,7 +11586,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)Mục tiêu: Lập số thập phân theo yêu cầu và thực hành quản lí kết quả trên tệp tin số.Cách tiến hành:"
             ],
             [
-              "Bài 5. Sử dụng các tấm thẻ để lập số thập phân.",
+              "Bài 5. Sử dụng các tấm thẻ để lập số thập phân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 5."
             ],
             [
@@ -11660,7 +11660,7 @@
               "2. Luyện tập - Thực hànhMục tiêu: Thực hiện phép nhân số thập phân và dự đoán kết quả dựa vào phép tính đã biết.Cách tiến hành:"
             ],
             [
-              "Bài 1. Đặt tính rồi tính.",
+              "Bài 1. Đặt tính rồi tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1."
             ],
             [
@@ -11680,7 +11680,7 @@
               "- HS ghi nhớ cách nhân số thập phân."
             ],
             [
-              "Bài 2. Dựa vào phép tính đã biết để tìm kết quả.",
+              "Bài 2. Dựa vào phép tính đã biết để tìm kết quả.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2."
             ],
             [
@@ -11707,7 +11707,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)Mục tiêu: Vận dụng phép nhân số thập phân qua trò chơi.Cách tiến hành:"
             ],
             [
-              "Trò chơi. Tính nhanh - Giành ô.",
+              "Trò chơi. Tính nhanh - Giành ô.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc luật chơi và quan sát bàn chơi."
             ],
             [
@@ -11773,7 +11773,7 @@
               "2. Luyện tập - Thực hànhMục tiêu: Thực hiện phép chia số thập phân, tìm thành phần chưa biết trong phép chia và giải toán.Cách tiến hành:"
             ],
             [
-              "Bài 1. Đặt tính rồi tính.",
+              "Bài 1. Đặt tính rồi tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1."
             ],
             [
@@ -11793,7 +11793,7 @@
               "- HS ghi nhớ cách chia số thập phân."
             ],
             [
-              "Bài 2. Tìm số thích hợp trong bảng.",
+              "Bài 2. Tìm số thích hợp trong bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát bảng."
             ],
             [
@@ -11820,7 +11820,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)Mục tiêu: Vận dụng phép chia số thập phân vào tình huống thực tế.Cách tiến hành:"
             ],
             [
-              "Bài 3. Giải bài toán cắt dây kim tuyến.",
+              "Bài 3. Giải bài toán cắt dây kim tuyến.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3 và quan sát tranh."
             ],
             [
@@ -11836,7 +11836,7 @@
               "- HS trả lời: Lớp 5A có thể cắt được nhiều nhất 10 sợi dây kim tuyến dài 1,2 m."
             ],
             [
-              "Bài 4. Giải bài toán chia nấm vào hộp.",
+              "Bài 4. Giải bài toán chia nấm vào hộp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_16/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát tranh."
             ],
             [
@@ -11908,7 +11908,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Nhận dạng hình phẳng, xác định đáy - đường cao và vẽ hình theo mẫu.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Rô-bốt phác họa một số nhân vật bằng các hình cơ bản.\n- GV cho HS đọc đề Bài 1 và quan sát hình.",
+              "Bài 1. Rô-bốt phác họa một số nhân vật bằng các hình cơ bản.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Rô-bốt phác họa một số nhân vật bằng các hình cơ bản như dưới đây."
             ],
             [
@@ -11936,7 +11936,7 @@
               "- HS quan sát và nêu: Máy nhận diện hình dựa vào đặc điểm hình dạng.\n- HS ghi nhớ: AI hỗ trợ phân loại hình nhưng HS phải biết kiểm tra đặc điểm của từng hình."
             ],
             [
-              "Bài 2. Chỉ ra đáy và đường cao tương ứng trong mỗi hình tam giác.\n- GV cho HS đọc đề Bài 2 và quan sát các hình tam giác.",
+              "Bài 2. Chỉ ra đáy và đường cao tương ứng trong mỗi hình tam giác.\n- GV cho HS đọc đề Bài 2 và quan sát các hình tam giác.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Hãy chỉ ra đáy và đường cao tương ứng trong mỗi hình tam giác dưới đây."
             ],
             [
@@ -11960,7 +11960,7 @@
               "- HS ghi nhớ: Một hình tam giác có thể có nhiều cách chọn đáy và đường cao tương ứng."
             ],
             [
-              "Bài 3. Vẽ các hình bình hành và các hình thoi.\n- GV cho HS đọc đề Bài 3 và quan sát hình mẫu trên lưới ô vuông.",
+              "Bài 3. Vẽ các hình bình hành và các hình thoi.\n- GV cho HS đọc đề Bài 3 và quan sát hình mẫu trên lưới ô vuông.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Vẽ các hình bình hành và các hình thoi theo mẫu; tô màu xanh vào các hình bình hành đã vẽ."
             ],
             [
@@ -11983,7 +11983,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức về hình tròn để giải quyết tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 4. Xác định bộ phát sóng mà Rô-bốt nhận được.\n- GV cho HS đọc đề Bài 4 và quan sát sơ đồ.",
+              "Bài 4. Xác định bộ phát sóng mà Rô-bốt nhận được.\n- GV cho HS đọc đề Bài 4 và quan sát sơ đồ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Mỗi bộ phát sóng có thể truyền sóng trong một khu vực như hình; hỏi Rô-bốt ở vị trí E nhận được sóng từ bộ phát sóng nào."
             ],
             [
@@ -12052,7 +12052,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính diện tích hình tam giác, hình thang và xử lí tình huống cắt ghép hình.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính diện tích mỗi hình tam giác.\n- GV cho HS đọc đề Bài 1 và quan sát hình trên lưới ô vuông.",
+              "Bài 1. Tính diện tích mỗi hình tam giác.\n- GV cho HS đọc đề Bài 1 và quan sát hình trên lưới ô vuông.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tính diện tích mỗi hình tam giác dưới đây."
             ],
             [
@@ -12076,7 +12076,7 @@
               "- HS sửa bài và ghi nhớ cách xác định đáy, chiều cao trên lưới ô vuông."
             ],
             [
-              "Bài 2. Cắt hai hình tam giác vuông từ một tờ giấy hình chữ nhật.\n- GV cho HS đọc đề Bài 2 và quan sát hình.",
+              "Bài 2. Cắt hai hình tam giác vuông từ một tờ giấy hình chữ nhật.\n- GV cho HS đọc đề Bài 2 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Mai cắt ra hai hình tam giác vuông từ một tờ giấy hình chữ nhật như hình."
             ],
             [
@@ -12107,7 +12107,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng chu vi, diện tích hình tròn vào tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Sợi dây chun buộc miệng bình.\n- GV cho HS đọc đề Bài 3 và quan sát hình.",
+              "Bài 3. Sợi dây chun buộc miệng bình.\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Rô-bốt có sợi dây chun dài 15,85 cm; hỏi có thể buộc kín miệng bình hình tròn bán kính 5 cm hay không."
             ],
             [
@@ -12123,7 +12123,7 @@
               "- HS kết luận: Vì 31,7 cm > 31,4 cm nên Rô-bốt có thể dùng sợi dây chun đó để buộc kín miệng bình."
             ],
             [
-              "Bài 4. Tính diện tích mặt hồ bán nguyệt.\n- GV cho HS đọc đề Bài 4 và quan sát hình.",
+              "Bài 4. Tính diện tích mặt hồ bán nguyệt.\n- GV cho HS đọc đề Bài 4 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Một mặt hồ có dạng là một nửa hình tròn, bán kính 60 m; hỏi diện tích mặt hồ là bao nhiêu mét vuông."
             ],
             [
@@ -12187,7 +12187,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính diện tích hình tam giác, hình thang và tìm độ dài đáy khi biết diện tích, chiều cao.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình tam giác ABC.",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình tam giác ABC.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Diện tích của hình tam giác ABC là bao nhiêu?"
             ],
             [
@@ -12207,7 +12207,7 @@
               "- HS liên hệ: Khi biết diện tích kính, người thiết kế có thể chuẩn bị vật liệu phù hợp.\n- HS hiểu: Toán học giúp kiểm tra kết quả do công cụ số hỗ trợ."
             ],
             [
-              "Bài 2. Đúng hay sai?\n- GV cho HS đọc đề Bài 2 và quan sát hình thang MNPQ.",
+              "Bài 2. Đúng hay sai?\n- GV cho HS đọc đề Bài 2 và quan sát hình thang MNPQ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Diện tích hình thang MNPQ là 850 cm² hay 425 cm²?"
             ],
             [
@@ -12223,7 +12223,7 @@
               "- HS ghi nhớ công thức tính diện tích hình thang."
             ],
             [
-              "Bài 3. Tính diện tích phần đất hiến và phần đất còn lại.\n- GV cho HS đọc đề Bài 3 và quan sát hình.",
+              "Bài 3. Tính diện tích phần đất hiến và phần đất còn lại.\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Mảnh đất của bác Tư dạng hình thang vuông, hiến phần đất hình tam giác BKC để mở rộng đường."
             ],
             [
@@ -12247,7 +12247,7 @@
               "- HS sửa bài và ghi nhớ cách tính diện tích hình ghép."
             ],
             [
-              "Bài 4. Tính độ dài đáy NP của hình tam giác.\n- GV cho HS đọc đề Bài 4 và quan sát hình.",
+              "Bài 4. Tính độ dài đáy NP của hình tam giác.\n- GV cho HS đọc đề Bài 4 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Mảnh tôn hình tam giác MNP có diện tích 72 dm² và chiều cao 9 dm; tính độ dài đáy NP."
             ],
             [
@@ -12322,7 +12322,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính chu vi, diện tích hình tròn và giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Một tấm thảm hình tròn có bán kính 3 dm; chọn chu vi và diện tích đúng."
             ],
             [
@@ -12338,7 +12338,7 @@
               "- HS trình bày: a) Chọn B. 18,84 dm; b) Chọn C. 28,26 dm²."
             ],
             [
-              "Bài 2. Bánh xe lăn 1 000 vòng.\n- GV cho HS đọc đề Bài 2 và quan sát hình.",
+              "Bài 2. Bánh xe lăn 1 000 vòng.\n- GV cho HS đọc đề Bài 2 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Bánh xe lăn tay có đường kính 50 cm; hỏi người đi xe đi được bao nhiêu mét nếu bánh xe lăn 1 000 vòng."
             ],
             [
@@ -12358,7 +12358,7 @@
               "- HS nêu việc làm: dùng vật liệu hợp lí, không lãng phí giấy, nhựa, nước; chăm sóc cây xanh.\n- HS hiểu: Tính toán chính xác giúp bảo vệ môi trường và tiết kiệm tài nguyên."
             ],
             [
-              "Bài 3. Tính diện tích mặt bàn hình tròn.\n- GV cho HS đọc đề Bài 3 và quan sát hình.",
+              "Bài 3. Tính diện tích mặt bàn hình tròn.\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Mai đo được đường kính mặt bàn hình tròn là 1,4 m; tính diện tích mặt bàn."
             ],
             [
@@ -12374,7 +12374,7 @@
               "- HS trình bày: Bán kính mặt bàn là 1,4 : 2 = 0,7 (m). Diện tích mặt bàn là 3,14 x 0,7 x 0,7 = 1,5386 (m²). Đáp số: 1,5386 m²."
             ],
             [
-              "Bài 4. Tính diện tích phần màu đỏ của biển báo.\n- GV cho HS đọc đề Bài 4 và quan sát hình biển báo.",
+              "Bài 4. Tính diện tích phần màu đỏ của biển báo.\n- GV cho HS đọc đề Bài 4 và quan sát hình biển báo.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Biển báo cấm đi ngược chiều là hình tròn bán kính 35 cm; phần hình chữ nhật màu trắng dài 50 cm, rộng 12 cm; tính diện tích phần màu đỏ."
             ],
             [
@@ -12448,7 +12448,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính diện tích hình ghép, so sánh diện tích hai tam giác và giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính diện tích mảnh bìa hình tứ giác ABCD.\n- GV cho HS đọc đề Bài 1 và quan sát hình.",
+              "Bài 1. Tính diện tích mảnh bìa hình tứ giác ABCD.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tính diện tích mảnh bìa hình tứ giác ABCD; biết các góc đỉnh A và đỉnh C là góc vuông."
             ],
             [
@@ -12472,7 +12472,7 @@
               "- HS ghi nhớ cách chia hình và cộng diện tích."
             ],
             [
-              "Bài 2. Đúng hay sai?\n- GV cho HS đọc đề Bài 2 và quan sát hình tam giác ABC.",
+              "Bài 2. Đúng hay sai?\n- GV cho HS đọc đề Bài 2 và quan sát hình tam giác ABC.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Cho hình tam giác ABC và M là trung điểm của cạnh BC; so sánh diện tích hai tam giác ABM và ACM."
             ],
             [
@@ -12488,7 +12488,7 @@
               "- HS kết luận: a) Sai; b) Đúng. Diện tích tam giác ABM bằng diện tích tam giác ACM vì hai tam giác có chung chiều cao và đáy bằng nhau."
             ],
             [
-              "Bài 3. Tính số thóc thu hoạch được.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Tính số thóc thu hoạch được.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Thửa ruộng hình thang có hai đáy 56 m và 34 m, chiều cao 20 m; cứ 100 m² thu được 70 kg thóc; hỏi thu được bao nhiêu tấn thóc."
             ],
             [
@@ -12511,7 +12511,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng cách tính diện tích hình ghép có hình tròn.\nCách tiến hành:"
             ],
             [
-              "Bài 4. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 4 và quan sát hình bồn hoa.",
+              "Bài 4. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 4 và quan sát hình bồn hoa.\n<img src=\"assets/khbd_images/lop5/toan/tuan_17/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Một bồn hoa có hình dạng và kích thước như hình vẽ; chọn diện tích của bồn hoa."
             ],
             [
@@ -12591,7 +12591,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Đổi số đo độ dài, khối lượng, diện tích và thực hiện tính toán với số đo đại lượng.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Số?\n- GV cho HS đọc đề Bài 1 và quan sát các ô cần điền số.",
+              "Bài 1. Số?\n- GV cho HS đọc đề Bài 1 và quan sát các ô cần điền số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Số?"
             ],
             [
@@ -12623,7 +12623,7 @@
               "- HS lắng nghe và nêu: AI giúp con người đo đạc ở nơi nguy hiểm.\n- HS ghi nhớ: Số đo cần chính xác để bảo đảm an toàn cho công nhân."
             ],
             [
-              "Bài 2. Tính.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Tính.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tính."
             ],
             [
@@ -12646,7 +12646,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng đổi đơn vị đo diện tích vào tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Diện tích Hồ Gươm.\n- GV cho HS đọc đề Bài 3 và quan sát hình Hồ Gươm.",
+              "Bài 3. Diện tích Hồ Gươm.\n- GV cho HS đọc đề Bài 3 và quan sát hình Hồ Gươm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Diện tích của Hồ Gươm khoảng 0,12 km². Hỏi diện tích đó khoảng bao nhiêu héc-ta, bao nhiêu mét vuông?"
             ],
             [
@@ -12658,7 +12658,7 @@
               "- HS trình bày: 0,12 km² = 12 ha = 120 000 m². Vậy diện tích Hồ Gươm khoảng 12 ha hay 120 000 m²."
             ],
             [
-              "Bài 4. Tính diện tích khu đất.\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Tính diện tích khu đất.\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Khu đất hình chữ nhật có chiều dài 300 m, chiều rộng bằng 1/3 chiều dài; hỏi diện tích khu đất là bao nhiêu mét vuông, bao nhiêu héc-ta?"
             ],
             [
@@ -12728,7 +12728,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Viết số đo đại lượng dưới dạng số thập phân và giải toán có số đo đại lượng.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tìm số thập phân thích hợp.\n- GV cho HS đọc đề Bài 1 và quan sát các ô trống.",
+              "Bài 1. Tìm số thập phân thích hợp.\n- GV cho HS đọc đề Bài 1 và quan sát các ô trống.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tìm số thập phân thích hợp."
             ],
             [
@@ -12760,7 +12760,7 @@
               "- HS quan sát thao tác của GV.\n- HS nêu: Cần gõ từ khóa ngắn gọn như “đổi mét sang ki-lô-mét”, chọn kết quả phù hợp và kiểm tra lại.\n- HS ghi nhớ: Công cụ số chỉ hỗ trợ, HS phải biết cách kiểm chứng kết quả."
             ],
             [
-              "Bài 2. Tính độ dài đường đi.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Tính độ dài đường đi.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Đường từ nhà Hùng đến trường gồm đoạn xuống dốc dài 650 m và đoạn lên dốc dài gấp đôi đoạn xuống dốc; hỏi đường từ nhà Hùng đến trường dài bao nhiêu ki-lô-mét?"
             ],
             [
@@ -12772,7 +12772,7 @@
               "- HS trình bày: Đoạn đường lên dốc dài 650 x 2 = 1 300 (m). Đường từ nhà Hùng đến trường dài 650 + 1 300 = 1 950 (m) = 1,95 km. Đáp số: 1,95 km."
             ],
             [
-              "Bài 3. Tính diện tích khu vui chơi và dịch vụ.\n- GV cho HS đọc đề Bài 3 và quan sát hình minh họa.",
+              "Bài 3. Tính diện tích khu vui chơi và dịch vụ.\n- GV cho HS đọc đề Bài 3 và quan sát hình minh họa.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Một khu sinh thái có diện tích 128 ha; trong đó 7/8 diện tích là rừng đặc chủng, còn lại là khu vui chơi và dịch vụ."
             ],
             [
@@ -12795,7 +12795,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Củng cố mối quan hệ giữa các đơn vị đo thời gian.\nCách tiến hành:"
             ],
             [
-              "Bài 4. Số?\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Số?\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Số?"
             ],
             [
@@ -12865,7 +12865,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Viết, đọc hỗn số, chuyển hỗn số, chuyển phân số sang số thập phân và thực hiện tính với phân số.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Viết, đọc hỗn số; chuyển hỗn số và phân số.\n- GV cho HS đọc đề Bài 1 và quan sát hình.",
+              "Bài 1. Viết, đọc hỗn số; chuyển hỗn số và phân số.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Viết rồi đọc hỗn số; chuyển các hỗn số thành phân số; chuyển các phân số thành số thập phân."
             ],
             [
@@ -12897,7 +12897,7 @@
               "- HS lắng nghe và nêu: Muốn học tốt bài mới cần có kiến thức cũ vững chắc.\n- HS ghi nhớ: Ôn tập giúp em thông minh hơn và sẵn sàng học kiến thức mới."
             ],
             [
-              "Bài 2. Tính.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Tính.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tính."
             ],
             [
@@ -12913,7 +12913,7 @@
               "- HS trình bày: 5/7 + 3/4 = 41/28; 4/9 + 2/7 = 46/63; 4/5 - 2/3 = 2/15; 5/9 - 3/8 = 13/72."
             ],
             [
-              "Bài 3. Tính bằng cách thuận tiện.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Tính bằng cách thuận tiện.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tính bằng cách thuận tiện."
             ],
             [
@@ -12936,7 +12936,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng phân số vào tình huống thu gom giấy vụn.\nCách tiến hành:"
             ],
             [
-              "Bài 4. Tính số cuốn vở tái chế.\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Tính số cuốn vở tái chế.\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Lớp 5A thu gom 45 kg giấy vụn, lớp 5B bằng 2/3 số giấy vụn của lớp 5A, lớp 5C ít hơn lớp 5B 15 kg; 1 kg giấy vụn làm được 15 cuốn vở tái chế."
             ],
             [
@@ -13010,7 +13010,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Viết, đọc, so sánh, sắp xếp số thập phân và thực hiện phép tính với số thập phân.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Số?\n- GV cho HS đọc đề Bài 1 và quan sát bảng.",
+              "Bài 1. Số?\n- GV cho HS đọc đề Bài 1 và quan sát bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: a) Số? b) Nêu cách đọc các số thập phân."
             ],
             [
@@ -13030,7 +13030,7 @@
               "- HS đọc: 35,471 là ba mươi lăm phẩy bốn trăm bảy mươi mốt; 24,607 là hai mươi tư phẩy sáu trăm linh bảy; 0,026 là không phẩy không trăm hai mươi sáu; 5,004 là năm phẩy không trăm linh bốn."
             ],
             [
-              "Bài 2. So sánh và sắp xếp số thập phân.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. So sánh và sắp xếp số thập phân.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Điền dấu >, <, = và sắp xếp các số theo thứ tự từ bé đến lớn."
             ],
             [
@@ -13050,7 +13050,7 @@
               "- HS nêu ví dụ bình luận văn minh: “Bạn làm đúng bước đổi đơn vị, nhưng phần đặt dấu phẩy cần kiểm tra lại.”\n- HS ghi nhớ quy tắc ứng xử văn minh khi học tập trực tuyến."
             ],
             [
-              "Bài 3. Đặt tính rồi tính.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Đặt tính rồi tính.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Đặt tính rồi tính."
             ],
             [
@@ -13069,7 +13069,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức hình tròn và phép chia vào tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 4. Số?\n- GV cho HS đọc đề Bài 4 và quan sát hình.",
+              "Bài 4. Số?\n- GV cho HS đọc đề Bài 4 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Cho hình tam giác vuông ABC và hình tròn tâm O với kích thước như hình vẽ."
             ],
             [
@@ -13085,7 +13085,7 @@
               "- HS trình bày: Diện tích tam giác vuông ABC là 6 x 8 : 2 = 24 cm²; diện tích hình tròn tâm O là 3,14 x 5 x 5 = 78,5 cm²; chu vi hình tròn tâm O là 3,14 x 10 = 31,4 cm."
             ],
             [
-              "Bài 5. Tính số ki-lô-gam đường và số tiền.\n- GV cho HS đọc đề Bài 5.",
+              "Bài 5. Tính số ki-lô-gam đường và số tiền.\n- GV cho HS đọc đề Bài 5.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Có 6 kg đường chia đều vào 12 túi; hỏi 8 túi có bao nhiêu ki-lô-gam đường và mua 10 túi hết bao nhiêu tiền nếu 1 kg giá 17 000 đồng."
             ],
             [
@@ -13149,7 +13149,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Làm bài tập trắc nghiệm, tính diện tích hình và tính giá trị biểu thức.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Chọn câu trả lời đúng."
             ],
             [
@@ -13165,7 +13165,7 @@
               "- HS trình bày: a) Chọn C. 35,206; b) Chọn C. 2,081."
             ],
             [
-              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2 và quan sát các hình.",
+              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2 và quan sát các hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Chọn câu trả lời đúng."
             ],
             [
@@ -13185,7 +13185,7 @@
               "- HS trình bày: a) Chọn C. 10,52; b) Chọn B. Hình 2."
             ],
             [
-              "Bài 3. Tính diện tích và chu vi.\n- GV cho HS đọc đề Bài 3 và quan sát hình thang vuông ABCD.",
+              "Bài 3. Tính diện tích và chu vi.\n- GV cho HS đọc đề Bài 3 và quan sát hình thang vuông ABCD.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Hình thang vuông ABCD có đáy lớn hơn đáy bé 40 cm, chiều cao bằng trung bình cộng của hai đáy và bằng 80 cm; BE vuông góc với CD."
             ],
             [
@@ -13205,7 +13205,7 @@
               "- HS trình bày: Diện tích tam giác BCE là 80 x 40 : 2 = 1 600 (cm²). Đáy bé là (160 - 40) : 2 = 60 (cm). Chu vi hình chữ nhật ABED là (80 + 60) x 2 = 280 (cm). Đáp số: a) 1 600 cm²; b) 280 cm."
             ],
             [
-              "Bài 4. Tính giá trị của biểu thức.\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Tính giá trị của biểu thức.\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tính giá trị của biểu thức."
             ],
             [
@@ -13224,7 +13224,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tổng hợp kiến thức hình thang và hình tròn.\nCách tiến hành:"
             ],
             [
-              "Bài 5. Tính chu vi hình tròn và diện tích phần đã tô màu.\n- GV cho HS đọc đề Bài 5 và quan sát hình.",
+              "Bài 5. Tính chu vi hình tròn và diện tích phần đã tô màu.\n- GV cho HS đọc đề Bài 5 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_18/image22.png\" alt=\"image22.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Rô-bốt vẽ hình thang ABCD và hình tròn tâm O; biết AB = 16 cm, CD = 28 cm, AD = 5/7 CD."
             ],
             [
@@ -13291,7 +13291,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; gợi tình huống nhận biết tỉ số trong thực tế.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trang 4 và đọc các bóng nói.",
+              "- GV cho HS quan sát tranh Khám phá trang 4 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc bóng nói."
             ],
             [
@@ -13330,7 +13330,7 @@
               "- HS ghi nhớ câu chốt: Muốn viết tỉ số của hai đại lượng cùng loại, viết số thứ nhất trước, số thứ hai sau."
             ],
             [
-              "Câu b. Tỉ số phần trăm\n\n- GV cho HS đọc ý b trang 5 và quan sát bảng khảo sát.",
+              "Câu b. Tỉ số phần trăm\n\n- GV cho HS đọc ý b trang 5 và quan sát bảng khảo sát.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc ý b và quan sát bảng."
             ],
             [
@@ -13365,7 +13365,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Viết được tỉ số của hai số trong bảng và trong tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Hoàn thành bảng bên (theo mẫu).\n\n- GV cho HS đọc đề Bài 1 và quan sát bảng.",
+              "Bài 1. Hoàn thành bảng bên (theo mẫu).\n\n- GV cho HS đọc đề Bài 1 và quan sát bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát bảng."
             ],
             [
@@ -13416,7 +13416,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Củng cố cách đọc, viết tỉ số phần trăm và liên hệ tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Chọn bông hoa ghi số ứng với số phần trăm ghi trên mỗi con ong.\n\n- GV cho HS đọc yêu cầu Bài 3 và quan sát tranh.",
+              "Bài 3. Chọn bông hoa ghi số ứng với số phần trăm ghi trên mỗi con ong.\n\n- GV cho HS đọc yêu cầu Bài 3 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát tranh."
             ],
             [
@@ -13500,7 +13500,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Viết tỉ số, tỉ số phần trăm và giải quyết các tình huống liên quan.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n\n- GV cho HS đọc đề Bài 1 và quan sát tranh.",
+              "Bài 1. Chọn câu trả lời đúng.\n\n- GV cho HS đọc đề Bài 1 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -13559,7 +13559,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tỉ số phần trăm để đánh giá thông tin thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Đúng hay sai?\n\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Đúng hay sai?\n\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề."
             ],
             [
@@ -13648,7 +13648,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Gợi hứng thú học tập; nhận biết bản đồ và tỉ lệ bản đồ trong thực tế.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát bản đồ khu vực của Thành phố Hồ Chí Minh trong SGK.",
+              "- GV cho HS quan sát bản đồ khu vực của Thành phố Hồ Chí Minh trong SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bản đồ."
             ],
             [
@@ -13714,7 +13714,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Vận dụng tỉ lệ bản đồ để tính độ dài thật và độ dài trên bản đồ.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Bản đồ Công viên Khu đô thị Hòa Bình.\n\n- GV cho HS quan sát bản đồ Bài 1.",
+              "Bài 1. Bản đồ Công viên Khu đô thị Hòa Bình.\n\n- GV cho HS quan sát bản đồ Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bản đồ."
             ],
             [
@@ -13738,7 +13738,7 @@
               "- HS ghi đáp số: 60 m."
             ],
             [
-              "Bài 1b.\n\n- GV cho HS đọc ý b.",
+              "Bài 1b.\n\n- GV cho HS đọc ý b.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc ý b."
             ],
             [
@@ -13761,7 +13761,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tỉ lệ bản đồ vào tình huống tính quãng đường.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Chặng đua xe đạp xuyên Việt.\n\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Chặng đua xe đạp xuyên Việt.\n\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề."
             ],
             [
@@ -13849,7 +13849,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính độ dài thật và độ dài trên bản đồ trong các tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính khoảng cách thực tế.\n\n- GV cho HS đọc đề Bài 1 và quan sát tranh đoàn tàu.",
+              "Bài 1. Tính khoảng cách thực tế.\n\n- GV cho HS đọc đề Bài 1 và quan sát tranh đoàn tàu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -13884,7 +13884,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tỉ lệ bản đồ để tính đoạn thẳng trên bản đồ và thực hành đo vẽ.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Tính độ dài trên bản đồ.\n\n- GV cho HS đọc đề Bài 2 và quan sát tranh.",
+              "Bài 2. Tính độ dài trên bản đồ.\n\n- GV cho HS đọc đề Bài 2 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -13997,7 +13997,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Gợi tình huống có tổng và tỉ số của hai số.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trang 12 và đọc các bóng nói.",
+              "- GV cho HS quan sát tranh Khám phá trang 12 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc bóng nói."
             ],
             [
@@ -14079,7 +14079,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Giải bài toán tìm hai số khi biết tổng và tỉ số bằng sơ đồ đoạn thẳng.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Trên bãi cỏ có 49 con bò sữa...\n\n- GV cho HS đọc đề Bài 1 và quan sát tranh.",
+              "Bài 1. Trên bãi cỏ có 49 con bò sữa...\n\n- GV cho HS đọc đề Bài 1 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -14110,7 +14110,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng dạng toán vào tình huống tiền bán hàng.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Trong một ngày, một cửa hàng đã bán hàng...\n\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Trong một ngày, một cửa hàng đã bán hàng...\n\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_19/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề."
             ],
             [
@@ -14208,7 +14208,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Giải bài toán tìm hai số khi biết tổng và tỉ số; trình bày được bài giải có sơ đồ.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Đường từ nhà đến trường.\n- GV cho HS đọc đề Bài 1 và quan sát tranh.",
+              "Bài 1. Đường từ nhà đến trường.\n- GV cho HS đọc đề Bài 1 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -14232,7 +14232,7 @@
               "- HS thảo luận nhóm 2 và nêu: Cần chia việc rõ ràng, không tranh phần hơn, biết hỗ trợ bạn làm chậm.\n- HS liên hệ: Khi vẽ sơ đồ và chia phần, em cần tôn trọng kết quả chung của nhóm.\n- HS nêu cách nhận xét bạn: Em đồng ý với cách làm của bạn; bạn cần sửa ở bước tính tổng số phần.\n- HS ghi nhớ: Công bằng, hợp tác và chia sẻ giúp nhóm học tập hiệu quả hơn."
             ],
             [
-              "Bài 2. Gian hàng siêu thị điện máy.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Gian hàng siêu thị điện máy.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề."
             ],
             [
@@ -14252,7 +14252,7 @@
               "- HS trình bày bài giải:\nBài giải\nTổng số phần bằng nhau là:\n3 + 1 = 4 (phần)\nSố ti vi 75 inch là:\n36 : 4 = 9 (chiếc)\nSố ti vi 55 inch là:\n36 – 9 = 27 (chiếc)\nĐáp số: 75 inch: 9 chiếc; 55 inch: 27 chiếc."
             ],
             [
-              "Bài 3. Trại chăn nuôi gà và vịt.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.",
+              "Bài 3. Trại chăn nuôi gà và vịt.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -14272,7 +14272,7 @@
               "- HS trình bày bài giải:\nBài giải\nTổng số phần bằng nhau là:\n7 + 10 = 17 (phần)\nSố gà là:\n34 000 : 17 × 7 = 14 000 (con)\nSố vịt là:\n34 000 – 14 000 = 20 000 (con)\nSố gà ít hơn số vịt là:\n20 000 – 14 000 = 6 000 (con)\nĐáp số: 6 000 con."
             ],
             [
-              "Bài 4. Mảnh đất dạng hình chữ nhật.\n- GV cho HS đọc đề Bài 4 và quan sát hình.",
+              "Bài 4. Mảnh đất dạng hình chữ nhật.\n- GV cho HS đọc đề Bài 4 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -14348,7 +14348,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Gợi tình huống có hiệu và tỉ số của hai số.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trang 15 và đọc các bóng nói.",
+              "- GV cho HS quan sát tranh Khám phá trang 15 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc bóng nói."
             ],
             [
@@ -14410,7 +14410,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Hoàn thành bảng và giải bài toán tìm hai số khi biết hiệu và tỉ số.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Số ?\n- GV cho HS đọc bảng Bài 1.",
+              "Bài 1. Số ?\n- GV cho HS đọc bảng Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bảng."
             ],
             [
@@ -14437,7 +14437,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng dạng toán vào tình huống cuộc thi cờ vua.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Cuộc thi đấu cờ vua.\n- GV cho HS đọc đề Bài 2 và quan sát tranh.",
+              "Bài 2. Cuộc thi đấu cờ vua.\n- GV cho HS đọc đề Bài 2 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -14513,7 +14513,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Giải các bài toán tìm hai số khi biết hiệu và tỉ số trong nhiều tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Phân loại rác thải.\n- GV cho HS đọc đề Bài 1 và quan sát tranh.",
+              "Bài 1. Phân loại rác thải.\n- GV cho HS đọc đề Bài 1 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -14537,7 +14537,7 @@
               "- HS thảo luận nhóm 4 và nêu cách phân loại rác.\n- HS trả lời: Phân loại rác giúp dễ thu gom, tái chế và giữ môi trường sạch đẹp.\n- HS nêu việc làm: bỏ rác đúng thùng, tái sử dụng giấy, không xả rác bừa bãi, nhắc bạn giữ vệ sinh lớp học.\n- HS ghi nhớ: Em cần thực hiện phân loại rác hằng ngày."
             ],
             [
-              "Bài 2. Mảnh đất hình chữ nhật.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Mảnh đất hình chữ nhật.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề."
             ],
             [
@@ -14557,7 +14557,7 @@
               "- HS trình bày bài giải:\nBài giải\nHiệu số phần bằng nhau là:\n3 – 2 = 1 (phần)\nChiều dài mảnh đất đó là:\n10 × 3 = 30 (m)\nChiều rộng mảnh đất đó là:\n30 – 10 = 20 (m)\nChu vi mảnh đất đó là:\n(30 + 20) × 2 = 100 (m)\nDiện tích mảnh đất đó là:\n30 × 20 = 600 (m²)\nĐáp số: Chu vi: 100 m; diện tích: 600 m²."
             ],
             [
-              "Bài 3. Thu hoạch cá tra.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.",
+              "Bài 3. Thu hoạch cá tra.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -14584,7 +14584,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng dạng toán vào bài toán tuổi.\nCách tiến hành:"
             ],
             [
-              "Bài 4. Bài toán tuổi.\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Bài toán tuổi.\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề."
             ],
             [
@@ -14645,7 +14645,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Gợi tình huống cần tìm tỉ số phần trăm của hai số.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trang 18 và đọc các bóng nói.",
+              "- GV cho HS quan sát tranh Khám phá trang 18 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc bóng nói."
             ],
             [
@@ -14691,7 +14691,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tìm tỉ số phần trăm của hai số theo mẫu và giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tìm tỉ số phần trăm của hai số.\n- GV cho HS đọc đề Bài 1 và quan sát mẫu.",
+              "Bài 1. Tìm tỉ số phần trăm của hai số.\n- GV cho HS đọc đề Bài 1 và quan sát mẫu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát mẫu."
             ],
             [
@@ -14714,7 +14714,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tìm tỉ số phần trăm trong tình huống đội tình nguyện.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Đội tình nguyện tuyên truyền và bảo vệ môi trường.\n- GV cho HS đọc đề Bài 2 và quan sát tranh.",
+              "Bài 2. Đội tình nguyện tuyên truyền và bảo vệ môi trường.\n- GV cho HS đọc đề Bài 2 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -14786,7 +14786,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính được tỉ số phần trăm của hai số và vận dụng trong bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tìm tỉ số phần trăm của hai số.\n- GV cho HS đọc đề Bài 1 và quan sát mẫu.",
+              "Bài 1. Tìm tỉ số phần trăm của hai số.\n- GV cho HS đọc đề Bài 1 và quan sát mẫu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát mẫu."
             ],
             [
@@ -14802,7 +14802,7 @@
               "- HS ghi nhớ: Thường chỉ lấy đến bốn chữ số ở phần thập phân trước khi viết %."
             ],
             [
-              "Bài 2. Tính theo mẫu.\n- GV cho HS đọc đề Bài 2 và quan sát mẫu.",
+              "Bài 2. Tính theo mẫu.\n- GV cho HS đọc đề Bài 2 và quan sát mẫu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát mẫu."
             ],
             [
@@ -14825,7 +14825,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tỉ số phần trăm để đọc số liệu và biểu đồ.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Hưởng ứng Tết trồng cây.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Hưởng ứng Tết trồng cây.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề."
             ],
             [
@@ -14845,7 +14845,7 @@
               "- HS trình bày kết quả: a)  =  = 60%; b) 690 : 600 = 1,15; 1,15 × 100 : 100 = 115%; 115% – 100% = 15%."
             ],
             [
-              "Bài 4. Biểu đồ sở thích môn thể thao.\n- GV cho HS đọc đề Bài 4 và quan sát biểu đồ.",
+              "Bài 4. Biểu đồ sở thích môn thể thao.\n- GV cho HS đọc đề Bài 4 và quan sát biểu đồ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_20/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát biểu đồ."
             ],
             [
@@ -14927,7 +14927,7 @@
               "2. Khám phá\nMục tiêu: Biết cách tìm giá trị phần trăm của một số.\nCách tiến hành:"
             ],
             [
-              "Câu a. Quan sát tranh Khám phá\n- GV cho HS quan sát tranh Khám phá trang 21 và đọc các bóng nói.",
+              "Câu a. Quan sát tranh Khám phá\n- GV cho HS quan sát tranh Khám phá trang 21 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh phần Khám phá trang 21 và đọc các bóng nói."
             ],
             [
@@ -14974,7 +14974,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tìm giá trị phần trăm của một số trong các phép tính đơn giản.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tìm giá trị phần trăm của một số.\n- GV cho HS đọc đề Bài 1 và quan sát các câu a, b, c.",
+              "Bài 1. Tìm giá trị phần trăm của một số.\n- GV cho HS đọc đề Bài 1 và quan sát các câu a, b, c.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát các câu a, b, c."
             ],
             [
@@ -14997,7 +14997,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tính giá trị phần trăm trong tình huống mua hàng giảm giá.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Tính số tiền được giảm giá.\n- GV cho HS đọc đề Bài 2 và quan sát tranh.",
+              "Bài 2. Tính số tiền được giảm giá.\n- GV cho HS đọc đề Bài 2 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -15073,7 +15073,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính giá trị phần trăm của một số và trình bày bài giải rõ ràng.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính số gam đạm trong thực phẩm.\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Tính số gam đạm trong thực phẩm.\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1."
             ],
             [
@@ -15097,7 +15097,7 @@
               "- HS ghi đáp số: thịt bò: 45 g; cá chép: 34 g; thịt lợn nạc: 57 g đạm."
             ],
             [
-              "Bài 2. Đội đồng diễn thể dục.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Đội đồng diễn thể dục.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2."
             ],
             [
@@ -15128,7 +15128,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng giải bài toán lãi suất và sản xuất.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Tính tiền lãi tiết kiệm.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Tính tiền lãi tiết kiệm.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -15152,7 +15152,7 @@
               "- HS ghi đáp số: a) 2 590 000 đồng; b) 37 590 000 đồng."
             ],
             [
-              "Bài 4. Số bộ quần áo đồng phục đã may.\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Số bộ quần áo đồng phục đã may.\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4."
             ],
             [
@@ -15232,7 +15232,7 @@
               "2. Khám phá\nMục tiêu: Nhận biết các phím cơ bản và cách thực hiện phép tính bằng máy tính cầm tay.\nCách tiến hành:"
             ],
             [
-              "Câu a. Quan sát tranh Khám phá\n- GV cho HS quan sát hình ảnh trang 23 và đọc các bóng nói.",
+              "Câu a. Quan sát tranh Khám phá\n- GV cho HS quan sát hình ảnh trang 23 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trang 23 và đọc các bóng nói."
             ],
             [
@@ -15260,7 +15260,7 @@
               "- HS nêu lại tên một số phím vừa được giới thiệu; HS chia sẻ trong nhóm, được bạn nhận xét và nghe GV nhận xét."
             ],
             [
-              "Câu c. Thực hiện các phép tính bằng máy tính cầm tay\n- GV hướng dẫn HS bật máy tính, bấm các phím để thực hiện phép tính 128 + 136 và xem kết quả trên màn hình máy tính.",
+              "Câu c. Thực hiện các phép tính bằng máy tính cầm tay\n- GV hướng dẫn HS bật máy tính, bấm các phím để thực hiện phép tính 128 + 136 và xem kết quả trên màn hình máy tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát cách bật máy, cách bấm phím và xem kết quả trên màn hình máy tính."
             ],
             [
@@ -15279,7 +15279,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Sử dụng máy tính cầm tay để thực hiện phép tính và kiểm tra kết quả.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn cách bấm máy tính cầm tay phù hợp.\n- GV cho HS đọc yêu cầu Bài 1 và quan sát các cách bấm máy.",
+              "Bài 1. Chọn cách bấm máy tính cầm tay phù hợp.\n- GV cho HS đọc yêu cầu Bài 1 và quan sát các cách bấm máy.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát các cách bấm máy."
             ],
             [
@@ -15299,7 +15299,7 @@
               "- HS sửa bài và ghi nhớ cần bấm đúng thứ tự phím."
             ],
             [
-              "Bài 2. Thực hiện các phép tính và kiểm tra kết quả.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Thực hiện các phép tính và kiểm tra kết quả.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2."
             ],
             [
@@ -15322,7 +15322,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Nhận biết thứ tự thực hiện phép tính qua kết quả máy tính.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Tính giá trị biểu thức 5 + 2 × 3.\n- GV cho HS đọc đề Bài 3 và quan sát cách bấm máy.",
+              "Bài 3. Tính giá trị biểu thức 5 + 2 × 3.\n- GV cho HS đọc đề Bài 3 và quan sát cách bấm máy.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát cách bấm máy."
             ],
             [
@@ -15394,7 +15394,7 @@
               "2. Thực hành - Trải nghiệm\nMục tiêu: Sử dụng máy tính cầm tay để tính tiền trong từng trường hợp.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc 5 dòng đầu trang 27 trong SGK hoặc quan sát nội dung được trình chiếu trên bảng.",
+              "- GV cho HS đọc 5 dòng đầu trang 27 trong SGK hoặc quan sát nội dung được trình chiếu trên bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc 5 dòng đầu trang 27 và quan sát tranh tình huống hội chợ."
             ],
             [
@@ -15406,7 +15406,7 @@
               "- HS chuẩn bị sử dụng máy tính cầm tay để giải quyết từng hoạt động."
             ],
             [
-              "Hoạt động 1. Tính số tiền cô Hường cần trả.\n- GV cho HS đọc yêu cầu Hoạt động 1.",
+              "Hoạt động 1. Tính số tiền cô Hường cần trả.\n- GV cho HS đọc yêu cầu Hoạt động 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Hoạt động 1."
             ],
             [
@@ -15426,7 +15426,7 @@
               "- HS ghi đáp số: 175 000 đồng."
             ],
             [
-              "Hoạt động 2. Tính số tiền thầy Hải cần trả.\n- GV cho HS đọc yêu cầu Hoạt động 2.",
+              "Hoạt động 2. Tính số tiền thầy Hải cần trả.\n- GV cho HS đọc yêu cầu Hoạt động 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Hoạt động 2."
             ],
             [
@@ -15453,7 +15453,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Tính giá tiền vòng còn lại và số tiền quyên góp.\nCách tiến hành:"
             ],
             [
-              "Hoạt động 3. Tính giá mỗi chiếc vòng còn lại.\n- GV cho HS đọc yêu cầu Hoạt động 3.",
+              "Hoạt động 3. Tính giá mỗi chiếc vòng còn lại.\n- GV cho HS đọc yêu cầu Hoạt động 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Hoạt động 3."
             ],
             [
@@ -15469,7 +15469,7 @@
               "- HS trình bày kết quả: 100 – 7 – 18 = 75 (chiếc); 3 000 000 : 75 = 40 000 (đồng)."
             ],
             [
-              "Hoạt động 4. Tính số tiền quyên góp được.\n- GV cho HS đọc yêu cầu Hoạt động 4.",
+              "Hoạt động 4. Tính số tiền quyên góp được.\n- GV cho HS đọc yêu cầu Hoạt động 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Hoạt động 4."
             ],
             [
@@ -15537,7 +15537,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Viết tỉ số phần trăm, tính theo tỉ lệ bản đồ và giải bài toán tổng - tỉ.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn cách viết tỉ số phần trăm thích hợp.\n- GV cho HS đọc đề Bài 1 và quan sát hình các chiếc xe.",
+              "Bài 1. Chọn cách viết tỉ số phần trăm thích hợp.\n- GV cho HS đọc đề Bài 1 và quan sát hình các chiếc xe.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình các chiếc xe."
             ],
             [
@@ -15561,7 +15561,7 @@
               "- HS sửa bài và ghi nhớ cách đổi tỉ số thành tỉ số phần trăm."
             ],
             [
-              "Bài 2. Số?\n- GV cho HS đọc đề Bài 2 và quan sát bảng.",
+              "Bài 2. Số?\n- GV cho HS đọc đề Bài 2 và quan sát bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát bảng."
             ],
             [
@@ -15592,7 +15592,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Giải bài toán tổng - tỉ và bài toán giảm giá.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Thỏ và rùa hái nấm.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.",
+              "Bài 3. Thỏ và rùa hái nấm.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -15612,7 +15612,7 @@
               "- HS trình bày kết quả: Vẽ sơ đồ; Tổng số phần bằng nhau là: 2 + 5 = 7 (phần); Số nấm thỏ hái được là: 84 : 7 × 2 = 24 (cây); Số nấm rùa hái được là: 84 – 24 = 60 (cây) hay 84 : 7 × 5 = 60 (cây)."
             ],
             [
-              "Bài 4. Tính tiền giảm giá chiếc ti vi.\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Tính tiền giảm giá chiếc ti vi.\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_21/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4."
             ],
             [
@@ -15695,7 +15695,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính tỉ số phần trăm của hai số và tìm giá trị phần trăm của một số.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính tỉ số phần trăm của hai số.\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Tính tỉ số phần trăm của hai số.\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tính tỉ số phần trăm của hai số."
             ],
             [
@@ -15715,7 +15715,7 @@
               "- HS sửa bài và ghi nhớ cách tính tỉ số phần trăm của hai số."
             ],
             [
-              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát các câu a, b, c, d."
             ],
             [
@@ -15742,7 +15742,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức phần trăm và dạng toán tìm hai số khi biết hiệu và tỉ số.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Bài toán về táo bị sâu.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.",
+              "Bài 3. Bài toán về táo bị sâu.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -15766,7 +15766,7 @@
               "- HS ghi đáp số: a) 5%; b) 76 kg táo không bị sâu."
             ],
             [
-              "Bài 4. Bài toán về số kẹo của Mai và Mi.\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Bài toán về số kẹo của Mai và Mi.\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4."
             ],
             [
@@ -15839,7 +15839,7 @@
               "2. Khám phá\nMục tiêu: Nhận biết hình hộp chữ nhật, hình lập phương và thể tích của một hình.\nCách tiến hành:"
             ],
             [
-              "Câu a. Hình hộp chữ nhật, hình lập phương\n- GV cho HS quan sát tranh Khám phá trang 30, 31 và đọc lời thoại.",
+              "Câu a. Hình hộp chữ nhật, hình lập phương\n- GV cho HS quan sát tranh Khám phá trang 30, 31 và đọc lời thoại.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh Khám phá và đọc lời thoại."
             ],
             [
@@ -15855,7 +15855,7 @@
               "- HS thực hành đo theo nhóm và nêu chiều dài, chiều rộng, chiều cao hoặc cạnh của hình lập phương."
             ],
             [
-              "Câu b. Thể tích của một hình\n- GV cho HS quan sát các hình trong Khám phá trang 31.",
+              "Câu b. Thể tích của một hình\n- GV cho HS quan sát các hình trong Khám phá trang 31.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các hình trong SGK."
             ],
             [
@@ -15886,7 +15886,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Nhận biết và so sánh thể tích các hình được ghép từ hình lập phương nhỏ.\nCách tiến hành:"
             ],
             [
-              "Bài tập. Quan sát hình vẽ rồi trả lời câu hỏi.\n- GV cho HS đọc đề và quan sát hình.",
+              "Bài tập. Quan sát hình vẽ rồi trả lời câu hỏi.\n- GV cho HS đọc đề và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -15913,7 +15913,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng so sánh thể tích trong tình huống xếp ghép hình.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình.",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -15933,7 +15933,7 @@
               "- HS ghi nhớ kết quả đúng là A."
             ],
             [
-              "Bài 2. Rô-bốt có một hình lập phương lớn gồm 8 hình lập phương nhỏ cạnh 1 cm.\n- GV cho HS đọc đề Bài 2 và quan sát hình.",
+              "Bài 2. Rô-bốt có một hình lập phương lớn gồm 8 hình lập phương nhỏ cạnh 1 cm.\n- GV cho HS đọc đề Bài 2 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -16006,7 +16006,7 @@
               "2. Khám phá\nMục tiêu: Nhận biết cm³, dm³ và mối quan hệ giữa hai đơn vị.\nCách tiến hành:"
             ],
             [
-              "Câu a. Xăng-ti-mét khối\n- GV cho HS quan sát tranh Khám phá trang 33 và đọc lời thoại.",
+              "Câu a. Xăng-ti-mét khối\n- GV cho HS quan sát tranh Khám phá trang 33 và đọc lời thoại.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc lời thoại."
             ],
             [
@@ -16041,7 +16041,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Đọc, viết và chuyển đổi đơn vị cm³, dm³.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Hoàn thành bảng bên (theo mẫu).\n- GV cho HS đọc đề Bài 1 và quan sát bảng.",
+              "Bài 1. Hoàn thành bảng bên (theo mẫu).\n- GV cho HS đọc đề Bài 1 và quan sát bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát bảng."
             ],
             [
@@ -16061,7 +16061,7 @@
               "- HS sửa bài và ghi nhớ cách đọc, viết cm³, dm³."
             ],
             [
-              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2 và quan sát các hình lập phương.",
+              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2 và quan sát các hình lập phương.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -16084,7 +16084,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Chuyển đổi giữa dm³ và cm³.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Số ?\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Số ?\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -16157,7 +16157,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính toán và chuyển đổi số đo thể tích.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính.\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Tính.\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1."
             ],
             [
@@ -16177,7 +16177,7 @@
               "- HS sửa bài và ghi nhớ cách tính."
             ],
             [
-              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2."
             ],
             [
@@ -16204,7 +16204,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Chọn số đo thể tích phù hợp và giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Chọn số đo thể tích phù hợp với mỗi đồ vật dưới đây.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.",
+              "Bài 3. Chọn số đo thể tích phù hợp với mỗi đồ vật dưới đây.\n- GV cho HS đọc đề Bài 3 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -16224,7 +16224,7 @@
               "- HS ghi nhớ cần ước lượng kích thước đồ vật trước khi chọn đơn vị đo."
             ],
             [
-              "Bài 4. Bài toán đổ nước vào ô làm đá.\n- GV cho HS đọc đề Bài 4 và quan sát tranh.",
+              "Bài 4. Bài toán đổ nước vào ô làm đá.\n- GV cho HS đọc đề Bài 4 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -16297,7 +16297,7 @@
               "2. Khám phá\nMục tiêu: Nhận biết mét khối và mối quan hệ giữa m³, dm³, cm³.\nCách tiến hành:"
             ],
             [
-              "Câu a. Mét khối\n- GV cho HS quan sát tranh Khám phá trang 35 và đọc phần hội thoại.",
+              "Câu a. Mét khối\n- GV cho HS quan sát tranh Khám phá trang 35 và đọc phần hội thoại.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc phần hội thoại."
             ],
             [
@@ -16324,7 +16324,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Đọc số đo thể tích và đổi đơn vị đo thể tích.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Đọc số đo thể tích mỗi bể dưới đây.\n- GV cho HS đọc đề Bài 1 và quan sát các bể.",
+              "Bài 1. Đọc số đo thể tích mỗi bể dưới đây.\n- GV cho HS đọc đề Bài 1 và quan sát các bể.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát các bể."
             ],
             [
@@ -16344,7 +16344,7 @@
               "- HS ghi nhớ cách đọc số đo mét khối."
             ],
             [
-              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2."
             ],
             [
@@ -16371,7 +16371,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tính phần thể tích còn trống trong thùng xe.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Bài toán về thể tích thùng xe.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Bài toán về thể tích thùng xe.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_22/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -16454,7 +16454,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Tính toán, chọn số đo thể tích phù hợp và giải quyết bài toán tiền nước sinh hoạt.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn số đo thể tích phù hợp cho mỗi chiếc hộp dưới đây.\n- GV cho HS đọc đề Bài 1 và quan sát hình.",
+              "Bài 1. Chọn số đo thể tích phù hợp cho mỗi chiếc hộp dưới đây.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -16474,7 +16474,7 @@
               "- HS ghi nhớ cách chọn đơn vị đo thể tích phù hợp với đồ vật."
             ],
             [
-              "Bài 2. Viết các số đo theo đơn vị yêu cầu.\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Viết các số đo theo đơn vị yêu cầu.\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2."
             ],
             [
@@ -16502,7 +16502,7 @@
               "- HS quan sát bảng giá nước ở Bài 4.\n- HS nêu: Dùng nước tiết kiệm giúp giảm tiền nước và bảo vệ nguồn nước sạch.\n- HS trao đổi nhóm đôi và nêu việc làm: khóa vòi nước, không làm bẩn nguồn nước, dùng nước vừa đủ.\n- HS ghi nhớ trách nhiệm tiết kiệm và bảo vệ nguồn nước trong gia đình, nhà trường."
             ],
             [
-              "Bài 3. Tính.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Tính.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -16525,7 +16525,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng số đo thể tích để tính tiền nước sinh hoạt.\nCách tiến hành:"
             ],
             [
-              "Bài 4. Bài toán tiền nước sinh hoạt.\n- GV cho HS đọc đề Bài 4 và quan sát bảng giá nước.",
+              "Bài 4. Bài toán tiền nước sinh hoạt.\n- GV cho HS đọc đề Bài 4 và quan sát bảng giá nước.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát bảng giá nước."
             ],
             [
@@ -16602,7 +16602,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Đọc, viết số đo thể tích; chọn đơn vị phù hợp; đổi đơn vị đo thể tích.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Hoàn thành bảng sau.\n- GV cho HS đọc đề Bài 1 và quan sát bảng.",
+              "Bài 1. Hoàn thành bảng sau.\n- GV cho HS đọc đề Bài 1 và quan sát bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát bảng."
             ],
             [
@@ -16622,7 +16622,7 @@
               "- HS sửa bài và ghi nhớ cách đọc, viết số đo thể tích."
             ],
             [
-              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2 và quan sát tranh.",
+              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -16646,7 +16646,7 @@
               "- HS quan sát công cụ ChatGPT/Copilot hoặc bảng Google Sheets GV trình chiếu.\n- HS nêu: Dữ liệu càng đầy đủ thì kết quả ước lượng càng phù hợp.\n- HS thảo luận nhóm 4 về việc cần chọn đơn vị đo đúng khi ước lượng thể tích.\n- HS ghi nhớ: Không phụ thuộc hoàn toàn vào AI; cần kiểm tra bằng kiến thức đã học."
             ],
             [
-              "Bài 3. Số ?\n- GV cho HS đọc đề Bài 3 và quan sát hình.",
+              "Bài 3. Số ?\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -16666,7 +16666,7 @@
               "- HS ghi nhớ cách đếm theo tầng hoặc theo lớp để tránh sót hình."
             ],
             [
-              "Bài 4. Số ?\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Số ?\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4."
             ],
             [
@@ -16689,7 +16689,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng thể tích để suy luận số hộp có thể xếp vào thùng.\nCách tiến hành:"
             ],
             [
-              "Bài 5. Số ?\n- GV cho HS đọc đề Bài 5 và quan sát hình.",
+              "Bài 5. Số ?\n- GV cho HS đọc đề Bài 5 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -16758,7 +16758,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: So sánh thể tích và giải bài toán trung bình thể tích nước sinh hoạt.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát các hình.",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát các hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát các hình."
             ],
             [
@@ -16778,7 +16778,7 @@
               "- HS ghi nhớ kết quả đúng là B."
             ],
             [
-              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2.",
+              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2."
             ],
             [
@@ -16805,7 +16805,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng so sánh đơn vị thể tích và tính phần nước còn lại trong bể.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Bài toán ba hộp màu xanh, đỏ, vàng.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Bài toán ba hộp màu xanh, đỏ, vàng.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -16825,7 +16825,7 @@
               "- HS ghi nhớ cần so sánh sau khi chú ý đơn vị đo."
             ],
             [
-              "Bài 4. Bể nước ngầm của một tòa nhà.\n- GV cho HS đọc đề Bài 4.",
+              "Bài 4. Bể nước ngầm của một tòa nhà.\n- GV cho HS đọc đề Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4."
             ],
             [
@@ -16898,7 +16898,7 @@
               "2. Khám phá\nMục tiêu: Nhận biết hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ.\nCách tiến hành:"
             ],
             [
-              "Câu a. Quan sát tranh và nhận biết tình huống\n- GV cho HS quan sát tranh Khám phá trang 40 và đọc các bóng nói.",
+              "Câu a. Quan sát tranh và nhận biết tình huống\n- GV cho HS quan sát tranh Khám phá trang 40 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc các bóng nói."
             ],
             [
@@ -16929,7 +16929,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Nhận biết hình khai triển phù hợp với hình khối.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tìm miếng bìa là hình khai triển thích hợp với mỗi chiếc đèn lồng.\n- GV cho HS đọc đề Bài 1 và quan sát hình.",
+              "Bài 1. Tìm miếng bìa là hình khai triển thích hợp với mỗi chiếc đèn lồng.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -16949,7 +16949,7 @@
               "- HS ghi nhớ cách nhận biết hình khai triển phù hợp với từng hình khối."
             ],
             [
-              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2 và quan sát hình.",
+              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -16969,7 +16969,7 @@
               "- HS ghi nhớ kết quả đúng là C."
             ],
             [
-              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 3.",
+              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3."
             ],
             [
@@ -16992,7 +16992,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng màu sắc các mặt để chọn hình lập phương phù hợp.\nCách tiến hành:"
             ],
             [
-              "Bài 4. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 4 và quan sát tấm bìa.",
+              "Bài 4. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 4 và quan sát tấm bìa.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tấm bìa."
             ],
             [
@@ -17061,7 +17061,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Nhận biết hình khai triển của hình trụ và hình lập phương.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình.",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17088,7 +17088,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Thực hành chọn, kiểm tra và vận dụng hình khai triển.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Chọn một hình khai triển và làm theo từng bước để gấp được một hình lập phương.\n- GV cho HS đọc đề Bài 2 và quan sát các hình khai triển.",
+              "Bài 2. Chọn một hình khai triển và làm theo từng bước để gấp được một hình lập phương.\n- GV cho HS đọc đề Bài 2 và quan sát các hình khai triển.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát các hình khai triển."
             ],
             [
@@ -17108,7 +17108,7 @@
               "- HS ghi nhớ hình khai triển có thể gấp được thành hình lập phương."
             ],
             [
-              "Bài 3. Kiểm tra hình khai triển của hình lập phương.\n- GV cho HS đọc đề Bài 3 và quan sát các hình.",
+              "Bài 3. Kiểm tra hình khai triển của hình lập phương.\n- GV cho HS đọc đề Bài 3 và quan sát các hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát các hình."
             ],
             [
@@ -17128,7 +17128,7 @@
               "- HS ghi nhớ kết quả đúng là hình thứ ba."
             ],
             [
-              "Bài 4. Cắt đi hình chữ nhật nào để phần còn lại là hình khai triển của một hình hộp chữ nhật?\n- GV cho HS đọc đề Bài 4 và quan sát hình.",
+              "Bài 4. Cắt đi hình chữ nhật nào để phần còn lại là hình khai triển của một hình hộp chữ nhật?\n- GV cho HS đọc đề Bài 4 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_23/image22.png\" alt=\"image22.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17207,7 +17207,7 @@
               "2. Khám phá\nMục tiêu: Nhận biết diện tích xung quanh và cách tính diện tích xung quanh của hình hộp chữ nhật.\nCách tiến hành:"
             ],
             [
-              "Câu a. Quan sát tranh và nhận biết diện tích xung quanh\n- GV cho HS quan sát tranh Khám phá trang 44 và đọc các bóng nói.",
+              "Câu a. Quan sát tranh và nhận biết diện tích xung quanh\n- GV cho HS quan sát tranh Khám phá trang 44 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc các bóng nói."
             ],
             [
@@ -17246,7 +17246,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tính diện tích xung quanh của hình hộp chữ nhật.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính diện tích xung quanh của hình hộp chữ nhật.\n- GV cho HS đọc đề Bài 1 và quan sát yêu cầu.",
+              "Bài 1. Tính diện tích xung quanh của hình hộp chữ nhật.\n- GV cho HS đọc đề Bài 1 và quan sát yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và quan sát yêu cầu."
             ],
             [
@@ -17273,7 +17273,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng cách tính diện tích xung quanh để giải quyết tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Bể bơi hình hộp chữ nhật.\n- GV cho HS đọc đề Bài 2 và quan sát yêu cầu.",
+              "Bài 2. Bể bơi hình hộp chữ nhật.\n- GV cho HS đọc đề Bài 2 và quan sát yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và quan sát yêu cầu."
             ],
             [
@@ -17346,7 +17346,7 @@
               "2. Khám phá\nMục tiêu: Nhận biết diện tích toàn phần và cách tính diện tích toàn phần của hình hộp chữ nhật.\nCách tiến hành:"
             ],
             [
-              "Câu a. Quan sát tranh và nhận biết diện tích toàn phần\n- GV cho HS quan sát tranh Khám phá trang 45 và đọc các bóng nói.",
+              "Câu a. Quan sát tranh và nhận biết diện tích toàn phần\n- GV cho HS quan sát tranh Khám phá trang 45 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc các bóng nói."
             ],
             [
@@ -17377,7 +17377,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tính diện tích toàn phần của hình hộp chữ nhật.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính diện tích toàn phần của mỗi hình hộp chữ nhật dưới đây.\n- GV cho HS đọc đề Bài 1 và quan sát các hình.",
+              "Bài 1. Tính diện tích toàn phần của mỗi hình hộp chữ nhật dưới đây.\n- GV cho HS đọc đề Bài 1 và quan sát các hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát các hình."
             ],
             [
@@ -17404,7 +17404,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng cách tính diện tích toàn phần để so sánh các hình hộp.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2 và quan sát các hộp.",
+              "Bài 2. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 2 và quan sát các hộp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát các hộp."
             ],
             [
@@ -17475,7 +17475,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Củng cố tính diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính diện tích xung quanh của mỗi hình hộp chữ nhật dưới đây.\n- GV cho HS đọc đề Bài 1 và quan sát hình.",
+              "Bài 1. Tính diện tích xung quanh của mỗi hình hộp chữ nhật dưới đây.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17495,7 +17495,7 @@
               "- HS đối chiếu và sửa bài nếu cần."
             ],
             [
-              "Bài 2. Tính diện tích kính được sử dụng để làm các bể cá.\n- GV cho HS đọc đề Bài 2 và quan sát các bể cá.",
+              "Bài 2. Tính diện tích kính được sử dụng để làm các bể cá.\n- GV cho HS đọc đề Bài 2 và quan sát các bể cá.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát các bể cá."
             ],
             [
@@ -17522,7 +17522,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức để giải quyết tình huống khuôn bánh và so sánh diện tích các hình.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Khuôn bánh chưng.\n- GV cho HS đọc đề Bài 3 và quan sát hình.",
+              "Bài 3. Khuôn bánh chưng.\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17542,7 +17542,7 @@
               "- HS ghi nhớ: Thanh gỗ 55 cm không đủ để làm khuôn bánh chưng."
             ],
             [
-              "Bài 4. So sánh diện tích các hình hộp chữ nhật.\n- GV cho HS đọc đề Bài 4 và quan sát hình.",
+              "Bài 4. So sánh diện tích các hình hộp chữ nhật.\n- GV cho HS đọc đề Bài 4 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17615,7 +17615,7 @@
               "2. Khám phá\nMục tiêu: Nhận biết diện tích xung quanh, diện tích toàn phần và cách tính của hình lập phương.\nCách tiến hành:"
             ],
             [
-              "Câu a. Diện tích xung quanh của hình lập phương\n- GV cho HS quan sát tranh Khám phá trang 48 và đọc các bóng nói.",
+              "Câu a. Diện tích xung quanh của hình lập phương\n- GV cho HS quan sát tranh Khám phá trang 48 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc các bóng nói."
             ],
             [
@@ -17635,7 +17635,7 @@
               "- HS ghi nhớ: Muốn tính diện tích xung quanh của hình lập phương, ta lấy diện tích một mặt nhân với 4."
             ],
             [
-              "Câu b. Diện tích toàn phần của hình lập phương\n- GV cho HS quan sát tranh mục b trang 49 và đọc các bóng nói.",
+              "Câu b. Diện tích toàn phần của hình lập phương\n- GV cho HS quan sát tranh mục b trang 49 và đọc các bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh mục b và đọc các bóng nói."
             ],
             [
@@ -17662,7 +17662,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tính diện tích xung quanh và diện tích toàn phần của hình lập phương.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính diện tích xung quanh, diện tích toàn phần của hình lập phương.\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Tính diện tích xung quanh, diện tích toàn phần của hình lập phương.\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1."
             ],
             [
@@ -17689,7 +17689,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng tính diện tích toàn phần trong tình huống quấn giấy bóng.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Quấn bánh bằng giấy bóng.\n- GV cho HS đọc đề Bài 2 và quan sát hình.",
+              "Bài 2. Quấn bánh bằng giấy bóng.\n- GV cho HS đọc đề Bài 2 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17766,7 +17766,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Vận dụng công thức tính diện tích toàn phần và diện tích xung quanh của hình lập phương.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính diện tích các mảnh nhựa màu.\n- GV cho HS đọc đề Bài 1 và quan sát hình.",
+              "Bài 1. Tính diện tích các mảnh nhựa màu.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17790,7 +17790,7 @@
               "- HS quan sát GV thao tác trên PowerPoint hoặc Canva.\n- HS thực hành/quan sát cách sao chép 6 hình vuông bằng nhau.\n- HS nêu: Hình lập phương có 6 mặt là các hình vuông bằng nhau nên hình khai triển phải gồm 6 hình vuông bằng nhau.\n- HS ghi nhớ cách tạo, chỉnh sửa và lưu hình ảnh học tập trên máy tính."
             ],
             [
-              "Bài 2. Phủ kem cho chiếc bánh hình lập phương.\n- GV cho HS đọc đề Bài 2 và quan sát hình.",
+              "Bài 2. Phủ kem cho chiếc bánh hình lập phương.\n- GV cho HS đọc đề Bài 2 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17817,7 +17817,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng diện tích xung quanh và toàn phần của hình lập phương trong tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Trang trí chậu cây.\n- GV cho HS đọc đề Bài 3 và quan sát hình.",
+              "Bài 3. Trang trí chậu cây.\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17841,7 +17841,7 @@
               "- HS ghi đáp số: 40 000 đồng."
             ],
             [
-              "Bài 4. Nhận xét của Mai có đúng không?\n- GV cho HS đọc đề Bài 4 và quan sát hình.",
+              "Bài 4. Nhận xét của Mai có đúng không?\n- GV cho HS đọc đề Bài 4 và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_24/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -17920,7 +17920,7 @@
               "2. Khám phá\nMục tiêu: Hình thành cách tính thể tích hình hộp chữ nhật; nêu được công thức V = a × b × c.\nMục tiêu tích hợp: HS nhận biết AI có thể tính thể tích nhiên liệu cần thiết cho máy bay dựa trên kích thước bồn chứa để đảm bảo an toàn cho các chuyến bay dài.\nCách tiến hành:"
             ],
             [
-              "Câu a. Quan sát tranh và khám phá cách tính\n- GV cho HS quan sát tranh, đọc đoạn hội thoại trong phần Khám phá trang 51 SGK.",
+              "Câu a. Quan sát tranh và khám phá cách tính\n- GV cho HS quan sát tranh, đọc đoạn hội thoại trong phần Khám phá trang 51 SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, đọc đoạn hội thoại và nhận biết hình hộp chữ nhật được xếp từ các hình lập phương 1 dm³."
             ],
             [
@@ -17967,7 +17967,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tính được thể tích hình hộp chữ nhật và vận dụng công thức trong các bài tập.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính thể tích hình hộp chữ nhật.\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Tính thể tích hình hộp chữ nhật.\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề."
             ],
             [
@@ -17987,7 +17987,7 @@
               "- HS ghi đáp án: 240 cm³."
             ],
             [
-              "Bài 2. Tính thể tích bể cá.\n- GV cho HS đọc đề và quan sát hình Bài 2.",
+              "Bài 2. Tính thể tích bể cá.\n- GV cho HS đọc đề và quan sát hình Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -18010,7 +18010,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng cách tính thể tích để giải quyết tình huống ghép các khối hộp.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Số ?\n- GV cho HS đọc đề và quan sát hình Bài 3.",
+              "Bài 3. Số ?\n- GV cho HS đọc đề và quan sát hình Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -18087,7 +18087,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Củng cố tính thể tích hình hộp chữ nhật và tính thể tích khối hình ghép.\nMục tiêu tích hợp: HS biết vận dụng tính thể tích bể nước, thùng chứa nước để sử dụng nước tiết kiệm và giữ gìn nguồn nước sạch.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề và quan sát hình Bài 1.",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề và quan sát hình Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -18107,7 +18107,7 @@
               "- HS ghi đáp án: C. 32 khối."
             ],
             [
-              "Bài 2. Tính thể tích khối gỗ.\n- GV cho HS đọc yêu cầu và quan sát hình Bài 2.",
+              "Bài 2. Tính thể tích khối gỗ.\n- GV cho HS đọc yêu cầu và quan sát hình Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát hình."
             ],
             [
@@ -18150,7 +18150,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng thể tích hình hộp chữ nhật để tính thể tích vật chiếm chỗ trong bể nước.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Tính thể tích tảng đá.\n- GV cho HS đọc đề và quan sát hình Bài 3.",
+              "Bài 3. Tính thể tích tảng đá.\n- GV cho HS đọc đề và quan sát hình Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -18227,7 +18227,7 @@
               "2. Khám phá\nMục tiêu: Hình thành cách tính thể tích hình lập phương và công thức V = a × a × a.\nMục tiêu tích hợp: HS nhận biết AI có thể hỗ trợ sắp xếp các kiện hàng hình lập phương vào thùng xe tải để tận dụng tối đa thể tích không gian chứa hàng.\nCách tiến hành:"
             ],
             [
-              "Câu a. Quan sát tranh và nhận biết cách tính\n- GV cho HS quan sát tranh, đọc bóng nói trong phần Khám phá trang 54 SGK.",
+              "Câu a. Quan sát tranh và nhận biết cách tính\n- GV cho HS quan sát tranh, đọc bóng nói trong phần Khám phá trang 54 SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, đọc bóng nói và nhận biết hình lập phương chứa các hình lập phương nhỏ."
             ],
             [
@@ -18270,7 +18270,7 @@
               "3. Luyện tập - Thực hành\nMục tiêu: Tính thể tích hình lập phương khi biết độ dài cạnh.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Số ?\n- GV cho HS đọc yêu cầu và quan sát bảng Bài 1.",
+              "Bài 1. Số ?\n- GV cho HS đọc yêu cầu và quan sát bảng Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát bảng."
             ],
             [
@@ -18290,7 +18290,7 @@
               "- HS ghi đáp án: 1 000 cm³; 15,625 dm³; 0,064 m³."
             ],
             [
-              "Bài 2. Tính thể tích chiếc bánh và phần bánh còn lại.\n- GV cho HS đọc đề và quan sát tranh Bài 2.",
+              "Bài 2. Tính thể tích chiếc bánh và phần bánh còn lại.\n- GV cho HS đọc đề và quan sát tranh Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh."
             ],
             [
@@ -18313,7 +18313,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng thể tích hình lập phương để giải quyết bài toán chọn đáp án.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề và quan sát hình Bài 3.",
+              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề và quan sát hình Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -18390,7 +18390,7 @@
               "2. Luyện tập - Thực hành\nMục tiêu: Củng cố công thức tính thể tích hình lập phương và vận dụng trong bảng số liệu.\nMục tiêu tích hợp: HS biết tổ chức bộ dữ liệu thể tích các khối ru-bích, khối lập phương khác nhau vào bảng tính số.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1.",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề."
             ],
             [
@@ -18410,7 +18410,7 @@
               "- HS ghi đáp án: D."
             ],
             [
-              "Bài 2. Hoàn thành bảng.\n- GV cho HS đọc yêu cầu và quan sát bảng Bài 2.",
+              "Bài 2. Hoàn thành bảng.\n- GV cho HS đọc yêu cầu và quan sát bảng Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát bảng."
             ],
             [
@@ -18453,7 +18453,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức về thể tích để giải quyết các tình huống hình khối thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Ghép thành hình lập phương.\n- GV cho HS đọc đề, quan sát các hình A, B, C.",
+              "Bài 3. Ghép thành hình lập phương.\n- GV cho HS đọc đề, quan sát các hình A, B, C.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -18473,7 +18473,7 @@
               "- HS ghi đáp án: 512 cm³."
             ],
             [
-              "Bài 4. Tháp chất lỏng.\n- GV cho HS đọc đề và quan sát hình vẽ Bài 4.",
+              "Bài 4. Tháp chất lỏng.\n- GV cho HS đọc đề và quan sát hình vẽ Bài 4.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình."
             ],
             [
@@ -18551,7 +18551,7 @@
               "2. Thực hành - Trải nghiệm\nMục tiêu: Tính toán, đo lường và ước lượng thể tích một số hình khối trong thực tế.\nMục tiêu tích hợp: HS được trải nghiệm ứng dụng đo thể tích/kích thước thực tế qua camera điện thoại có tích hợp AI nhận diện không gian; liên hệ STEM Bài 14. Ngôi nhà nhỏ, tiện ích.\nCách tiến hành:"
             ],
             [
-              "Hoạt động 1. Ước lượng số hộp có thể xếp vào thùng.\n- GV cho HS đọc tình huống Hoạt động 1 và quan sát hình trang 58 SGK.",
+              "Hoạt động 1. Ước lượng số hộp có thể xếp vào thùng.\n- GV cho HS đọc tình huống Hoạt động 1 và quan sát hình trang 58 SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tình huống và quan sát hình."
             ],
             [
@@ -18571,7 +18571,7 @@
               "- HS lắng nghe, điều chỉnh cách ước lượng nếu cần."
             ],
             [
-              "Hoạt động 2. Ước lượng thể tích phòng học.\n- GV cho HS đọc yêu cầu Hoạt động 2 và quan sát hình trang 58 SGK.",
+              "Hoạt động 2. Ước lượng thể tích phòng học.\n- GV cho HS đọc yêu cầu Hoạt động 2 và quan sát hình trang 58 SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát hình."
             ],
             [
@@ -18618,7 +18618,7 @@
               "3. Trò chơi - Vận dụng (10 phút)\nMục tiêu: Củng cố ước lượng và tính thể tích qua trò chơi Đường đua.\nCách tiến hành:"
             ],
             [
-              "Trò chơi Đường đua.\n- GV cho HS đọc và quan sát cách chơi trò chơi trong trang 59 SGK.",
+              "Trò chơi Đường đua.\n- GV cho HS đọc và quan sát cách chơi trò chơi trong trang 59 SGK.\n<img src=\"assets/khbd_images/lop5/toan/tuan_25/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc và quan sát cách chơi."
             ],
             [
@@ -18698,7 +18698,7 @@
               "2. Luyện tập - Thực hành (25 phút)\nMục tiêu: Nhận biết hình khai triển; tính diện tích xung quanh, diện tích toàn phần của hình lập phương và vận dụng giải toán thực tế.\nMục tiêu tích hợp: HS biết kiểm tra kết quả tính toán do công cụ số/AI gợi ý, không phụ thuộc máy móc.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n- GV hỏi: Mai có thể gấp hình khai triển ở trên thành chiếc hộp nào?",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình.\n- GV hỏi: Mai có thể gấp hình khai triển ở trên thành chiếc hộp nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình.\n- HS trả lời theo quan sát ban đầu."
             ],
             [
@@ -18714,7 +18714,7 @@
               "- HS ghi nhớ cách nhận biết hình khai triển phù hợp."
             ],
             [
-              "Bài 2. Hoàn thành bảng sau.\n- GV cho HS đọc yêu cầu Bài 2 và quan sát bảng.\n- GV hỏi: Bảng yêu cầu tính những đại lượng nào?",
+              "Bài 2. Hoàn thành bảng sau.\n- GV cho HS đọc yêu cầu Bài 2 và quan sát bảng.\n- GV hỏi: Bảng yêu cầu tính những đại lượng nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát bảng.\n- HS trả lời: Bảng yêu cầu tính diện tích xung quanh và diện tích toàn phần."
             ],
             [
@@ -18749,7 +18749,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức diện tích, thể tích vào giải quyết tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Nam làm một chiếc hộp từ hình khai triển dưới đây.\n- GV cho HS đọc đề Bài 3 và quan sát hình khai triển.\n- GV hỏi: Chiếc hộp có dạng hình gì? Mỗi ô vuông có cạnh bao nhiêu xăng-ti-mét?",
+              "Bài 3. Nam làm một chiếc hộp từ hình khai triển dưới đây.\n- GV cho HS đọc đề Bài 3 và quan sát hình khai triển.\n- GV hỏi: Chiếc hộp có dạng hình gì? Mỗi ô vuông có cạnh bao nhiêu xăng-ti-mét?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình.\n- HS trả lời: Chiếc hộp có dạng hình hộp chữ nhật; mỗi ô vuông có cạnh 1 cm."
             ],
             [
@@ -18765,7 +18765,7 @@
               "- HS ghi nhớ cách xác định kích thước từ hình khai triển."
             ],
             [
-              "Bài 4. Viết có một chiếc hộp gỗ...\n- GV cho HS đọc đề Bài 4 và quan sát tranh.\n- GV hỏi: Phần sơn màu nâu là phần nào của chiếc hộp?",
+              "Bài 4. Viết có một chiếc hộp gỗ...\n- GV cho HS đọc đề Bài 4 và quan sát tranh.\n- GV hỏi: Phần sơn màu nâu là phần nào của chiếc hộp?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh.\n- HS trả lời: Phần sơn màu nâu là diện tích xung quanh của chiếc hộp."
             ],
             [
@@ -18831,7 +18831,7 @@
               "2. Luyện tập - Thực hành (25 phút)\nMục tiêu: Nhận biết hình khai triển và tính thể tích các hình khối.\nMục tiêu tích hợp: HS biết liên hệ bài toán vật liệu, bể nước, thùng chứa với ý thức tiết kiệm và bảo vệ môi trường.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát bốn hình khai triển.\n- GV hỏi: Hình nào đủ các mặt và có kích thước phù hợp để gấp thành hình hộp chữ nhật?",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát bốn hình khai triển.\n- GV hỏi: Hình nào đủ các mặt và có kích thước phù hợp để gấp thành hình hộp chữ nhật?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình.\n- HS trả lời theo nhận xét ban đầu."
             ],
             [
@@ -18847,7 +18847,7 @@
               "- HS ghi nhớ cách kiểm tra hình khai triển."
             ],
             [
-              "Bài 2. Tính thể tích của mỗi hình dưới đây.\n- GV cho HS đọc yêu cầu Bài 2 và quan sát hình.\n- GV hỏi: Mỗi hình có những kích thước nào?",
+              "Bài 2. Tính thể tích của mỗi hình dưới đây.\n- GV cho HS đọc yêu cầu Bài 2 và quan sát hình.\n- GV hỏi: Mỗi hình có những kích thước nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát hình.\n- HS trả lời các kích thước được cho trong hình."
             ],
             [
@@ -18882,7 +18882,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức để giải quyết các bài toán thực tế về lát gạch và xếp hàng lên xe tải.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Một bể bơi dạng hình hộp chữ nhật...\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n- GV hỏi: Phần cần lát gạch gồm những phần nào của bể bơi?",
+              "Bài 3. Một bể bơi dạng hình hộp chữ nhật...\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n- GV hỏi: Phần cần lát gạch gồm những phần nào của bể bơi?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình.\n- HS trả lời: Phần cần lát gạch là đáy và xung quanh bể bơi."
             ],
             [
@@ -18894,7 +18894,7 @@
               "- HS trình bày: Diện tích phần được lát gạch chính là diện tích xung quanh và diện tích đáy dưới của bể bơi, hay diện tích phần được lát gạch là: (25 + 8) × 2 × 1,4 + 25 × 8 = 292,4 (m²)."
             ],
             [
-              "Bài 4. Chú Tư xếp các hộp đựng loa lên xe tải...\n- GV cho HS đọc đề Bài 4 và quan sát tranh.\n- GV hỏi: Muốn biết chú Tư có xếp được 64 hộp hay không, cần so sánh những thể tích nào?",
+              "Bài 4. Chú Tư xếp các hộp đựng loa lên xe tải...\n- GV cho HS đọc đề Bài 4 và quan sát tranh.\n- GV hỏi: Muốn biết chú Tư có xếp được 64 hộp hay không, cần so sánh những thể tích nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh.\n- HS trả lời: Cần so sánh thể tích thùng xe với tổng thể tích 64 hộp đựng loa."
             ],
             [
@@ -18962,7 +18962,7 @@
               "2. Luyện tập - Thực hành (25 phút)\nMục tiêu: Nhận biết hình khai triển và tính diện tích toàn phần hình lập phương.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình khai triển.\n- GV hỏi: Khi gấp hình lập phương, các mặt đối diện cần ở vị trí như thế nào?",
+              "Bài 1. Chọn câu trả lời đúng.\n- GV cho HS đọc đề Bài 1 và quan sát hình khai triển.\n- GV hỏi: Khi gấp hình lập phương, các mặt đối diện cần ở vị trí như thế nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình.\n- HS trả lời: Các mặt đối diện phải được sắp xếp đúng vị trí khi gấp hình."
             ],
             [
@@ -18978,7 +18978,7 @@
               "- HS ghi nhớ cách xác định các mặt đối diện."
             ],
             [
-              "Bài 2. Chú Nhân vừa hoàn thành mô hình quả bóng...\n- GV cho HS đọc đề Bài 2 và quan sát tranh.\n- GV hỏi: Chiếc hộp cần làm có dạng hình gì? Cạnh của hộp dài bao nhiêu?",
+              "Bài 2. Chú Nhân vừa hoàn thành mô hình quả bóng...\n- GV cho HS đọc đề Bài 2 và quan sát tranh.\n- GV hỏi: Chiếc hộp cần làm có dạng hình gì? Cạnh của hộp dài bao nhiêu?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh.\n- HS trả lời: Chiếc hộp có dạng hình lập phương, cạnh 2,5 dm."
             ],
             [
@@ -18997,7 +18997,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng kiến thức thể tích để giải quyết bài toán khối gỗ và lượng nước trong hộp.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Bác thợ mộc có một khối gỗ...\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n- GV hỏi: Có thể tính thể tích phần gỗ dùng làm ghế bằng cách nào?",
+              "Bài 3. Bác thợ mộc có một khối gỗ...\n- GV cho HS đọc đề Bài 3 và quan sát hình.\n- GV hỏi: Có thể tính thể tích phần gỗ dùng làm ghế bằng cách nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình.\n- HS trả lời: Lấy thể tích khối gỗ ban đầu trừ thể tích phần gỗ dùng làm đế đỡ chậu cây."
             ],
             [
@@ -19009,7 +19009,7 @@
               "- HS trình bày: Thể tích của khối gỗ ban đầu là: 5 × 3 × 3 = 45 (dm³). Thể tích của phần gỗ dùng làm đế đỡ chậu cây là: 2 × 2 × 2 = 8 (dm³). Thể tích của phần gỗ dùng làm ghế là: 45 – 8 = 37 (dm³)."
             ],
             [
-              "Bài 4. Số ?\n- GV cho HS đọc đề Bài 4 và quan sát hai hình.\n- GV hỏi: Lượng nước trong hộp ở hình 1 và hình 2 có thay đổi không?",
+              "Bài 4. Số ?\n- GV cho HS đọc đề Bài 4 và quan sát hai hình.\n- GV hỏi: Lượng nước trong hộp ở hình 1 và hình 2 có thay đổi không?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hình.\n- HS trả lời: Lượng nước trong hộp không thay đổi."
             ],
             [
@@ -19075,7 +19075,7 @@
               "2. Khám phá (15 phút)\nMục tiêu: Nhận biết mối quan hệ giữa các đơn vị đo thời gian; biết số ngày trong các tháng và năm nhuận.\nMục tiêu tích hợp: HS liên hệ đơn vị giây, phút, giờ với việc AI điều khiển tín hiệu đèn giao thông theo thời gian thực.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trang 64 và đọc tình huống.\n- GV hỏi: Các bạn trong tranh đang nói đến những đơn vị đo thời gian nào?",
+              "- GV cho HS quan sát tranh Khám phá trang 64 và đọc tình huống.\n- GV hỏi: Các bạn trong tranh đang nói đến những đơn vị đo thời gian nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc tình huống.\n- HS trả lời: Các bạn nói đến ngày, tháng, năm và các đơn vị đo thời gian khác."
             ],
             [
@@ -19114,7 +19114,7 @@
               "3. Luyện tập - Thực hành (15 phút)\nMục tiêu: Xác định thế kỉ của các sự kiện lịch sử và đổi số đo thời gian.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Dưới đây là năm xảy ra các sự kiện trong lịch sử Việt Nam.\n- GV cho HS đọc yêu cầu Bài 1 và quan sát các hình ảnh sự kiện lịch sử.\n- GV hỏi: Bài yêu cầu xác định điều gì?",
+              "Bài 1. Dưới đây là năm xảy ra các sự kiện trong lịch sử Việt Nam.\n- GV cho HS đọc yêu cầu Bài 1 và quan sát các hình ảnh sự kiện lịch sử.\n- GV hỏi: Bài yêu cầu xác định điều gì?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát hình.\n- HS trả lời: Bài yêu cầu cho biết mỗi sự kiện xảy ra vào thế kỉ nào."
             ],
             [
@@ -19126,7 +19126,7 @@
               "- HS trình bày: Hai Bà Trưng phất cờ khởi nghĩa năm 40 – thuộc thế kỉ I. Đinh Bộ Lĩnh lên ngôi Hoàng Đế năm 968 – thuộc thế kỉ X. Vua Lý Công Uẩn dời đô từ Hoa Lư về Thăng Long năm 1010 – thuộc thế kỉ XI. Hội nghị Diên Hồng năm 1284 – thuộc thế kỉ XIII. Chiến thắng Điện Biên Phủ năm 1954 – thuộc thế kỉ XX. Giải phóng miền Nam thống nhất đất nước năm 1975 – thuộc thế kỉ XX."
             ],
             [
-              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2 và quan sát mẫu.\n- GV hỏi: Muốn đổi phút sang giờ hoặc giây sang phút, em làm thế nào?",
+              "Bài 2. Số ?\n- GV cho HS đọc đề Bài 2 và quan sát mẫu.\n- GV hỏi: Muốn đổi phút sang giờ hoặc giây sang phút, em làm thế nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát mẫu.\n- HS trả lời: Dựa vào mối quan hệ 1 giờ = 60 phút, 1 phút = 60 giây."
             ],
             [
@@ -19192,7 +19192,7 @@
               "2. Luyện tập - Thực hành (25 phút)\nMục tiêu: Chuyển đổi số đo thời gian dạng phân số, số thập phân.\nMục tiêu tích hợp: HS biết đọc dữ liệu thời gian trên ứng dụng vận tải trực tuyến và kiểm tra thông tin trước khi sử dụng.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Số ?\n- GV cho HS đọc yêu cầu Bài 1 và quan sát các phép đổi.\n- GV hỏi: Bài có những dạng đổi đơn vị nào?",
+              "Bài 1. Số ?\n- GV cho HS đọc yêu cầu Bài 1 và quan sát các phép đổi.\n- GV hỏi: Bài có những dạng đổi đơn vị nào?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và quan sát bài.\n- HS trả lời: Đổi giờ sang phút, phút sang giây, phút giây sang phút, giờ phút sang giờ."
             ],
             [
@@ -19227,7 +19227,7 @@
               "3. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng đổi đơn vị thời gian để so sánh thời gian quay của các con quay.\nCách tiến hành:"
             ],
             [
-              "Bài 2. Thời gian con quay của mỗi bạn Việt, Nam và Rô-bốt...\n- GV cho HS đọc đề Bài 2 và quan sát bảng.\n- GV hỏi: Muốn biết con quay của bạn nào quay lâu nhất, cần làm gì?",
+              "Bài 2. Thời gian con quay của mỗi bạn Việt, Nam và Rô-bốt...\n- GV cho HS đọc đề Bài 2 và quan sát bảng.\n- GV hỏi: Muốn biết con quay của bạn nào quay lâu nhất, cần làm gì?\n<img src=\"assets/khbd_images/lop5/toan/tuan_26/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát bảng.\n- HS trả lời: Cần đổi các số đo thời gian về cùng một đơn vị rồi so sánh."
             ],
             [
@@ -19305,7 +19305,7 @@
               "2. Khám phá (12 phút)Mục tiêu: Biết cách đặt tính và thực hiện phép cộng số đo thời gian.Mục tiêu tích hợp: HS nhận biết có thể dùng trợ lí ảo để hỗ trợ quản lí thời gian nhưng cần biết tự tính và kiểm chứng kết quả.Cách tiến hành:"
             ],
             [
-              "- GV cho HS đọc tình huống Khám phá trang 67 - SGK Toán 5 tập hai, quan sát tranh và thảo luận nhóm 4 để trả lời câu hỏi: Phim sẽ kết thúc lúc mấy giờ?",
+              "- GV cho HS đọc tình huống Khám phá trang 67 - SGK Toán 5 tập hai, quan sát tranh và thảo luận nhóm 4 để trả lời câu hỏi: Phim sẽ kết thúc lúc mấy giờ?\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tình huống, quan sát tranh và thảo luận nhóm 4."
             ],
             [
@@ -19352,7 +19352,7 @@
               "3. Luyện tập - Thực hành (15 phút)\nMục tiêu: Cộng số đo thời gian trong các trường hợp đơn giản và có chuyển đổi đơn vị.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1, quan sát các phép tính và xác định yêu cầu.",
+              "Bài 1. GV cho HS đọc đề Bài 1, quan sát các phép tính và xác định yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, xác định yêu cầu: Tính và chọn câu trả lời đúng."
             ],
             [
@@ -19372,7 +19372,7 @@
               "- HS sửa bài và ghi nhớ cách cộng số đo thời gian."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2, quan sát mẫu và nêu điểm khác của phép cộng so với Bài 1.",
+              "Bài 2. GV cho HS đọc đề Bài 2, quan sát mẫu và nêu điểm khác của phép cộng so với Bài 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát mẫu và nêu: Kết quả ở đơn vị phút có thể lớn hơn 60 phút."
             ],
             [
@@ -19395,7 +19395,7 @@
               "4. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng cộng số đo thời gian để xác định thời điểm kết thúc hoạt động.\nCách tiến hành:"
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3 và xác định dữ kiện của bài toán.",
+              "Bài 3. GV cho HS đọc đề Bài 3 và xác định dữ kiện của bài toán.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Ô tô đến trường lúc 8 giờ; thời gian đi đến Lăng Bác và tham quan là 1 giờ 30 phút; thời gian quay về là 50 phút."
             ],
             [
@@ -19467,7 +19467,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Biết cách đặt tính và thực hiện phép trừ số đo thời gian.\nMục tiêu tích hợp: HS biết liên hệ việc trừ số đo thời gian với quản lí lịch học và sử dụng công cụ đồng hồ/lịch số.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc tình huống Khám phá trang 68 - SGK Toán 5 tập hai, quan sát tranh và thảo luận nhóm 4 để trả lời câu hỏi: Bao lâu nữa mới có thể quan sát được nhật thực?",
+              "- GV cho HS đọc tình huống Khám phá trang 68 - SGK Toán 5 tập hai, quan sát tranh và thảo luận nhóm 4 để trả lời câu hỏi: Bao lâu nữa mới có thể quan sát được nhật thực?\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tình huống, quan sát tranh và thảo luận nhóm 4."
             ],
             [
@@ -19514,7 +19514,7 @@
               "3. Luyện tập - Thực hành (15 phút)\nMục tiêu: Trừ số đo thời gian trong các trường hợp đơn giản và có chuyển đổi đơn vị.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.",
+              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và xác định yêu cầu: Tính và chọn câu trả lời đúng."
             ],
             [
@@ -19534,7 +19534,7 @@
               "- HS sửa bài và ghi nhớ cách trừ số đo thời gian."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2, quan sát mẫu và nêu cách thực hiện khi phải chuyển đổi đơn vị.",
+              "Bài 2. GV cho HS đọc đề Bài 2, quan sát mẫu và nêu cách thực hiện khi phải chuyển đổi đơn vị.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát mẫu và nêu cách chuyển đổi 1 phút = 60 giây khi cần."
             ],
             [
@@ -19557,7 +19557,7 @@
               "4. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng cộng, trừ số đo thời gian để xác định thời gian tại các thành phố.\nCách tiến hành:"
             ],
             [
-              "Bài tập Luyện tập. GV cho HS đọc bảng thời gian tại Hà Nội, Xin-ga-po, Pa-ri và Niu Oóc.",
+              "Bài tập Luyện tập. GV cho HS đọc bảng thời gian tại Hà Nội, Xin-ga-po, Pa-ri và Niu Oóc.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bảng thời gian và nêu dữ kiện về từng thành phố."
             ],
             [
@@ -19629,7 +19629,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Biết cách nhân số đo thời gian với một số.\nMục tiêu tích hợp: HS liên hệ cách nhân số đo thời gian với việc AI tính toán thời gian vận hành trong thực tế.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc tình huống Khám phá trang 71 - SGK Toán 5 tập hai, quan sát tranh và thảo luận nhóm 4 để trả lời câu hỏi: Mỗi lượt đu quay quay trong bao lâu?",
+              "- GV cho HS đọc tình huống Khám phá trang 71 - SGK Toán 5 tập hai, quan sát tranh và thảo luận nhóm 4 để trả lời câu hỏi: Mỗi lượt đu quay quay trong bao lâu?\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tình huống, quan sát tranh và thảo luận nhóm 4."
             ],
             [
@@ -19680,7 +19680,7 @@
               "3. Luyện tập - Thực hành (15 phút)\nMục tiêu: Nhân số đo thời gian với một số trong các trường hợp đơn giản và có chuyển đổi đơn vị.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.",
+              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và xác định yêu cầu: Tính."
             ],
             [
@@ -19700,7 +19700,7 @@
               "- HS sửa bài và ghi nhớ."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2, quan sát mẫu và nêu điểm cần chú ý.",
+              "Bài 2. GV cho HS đọc đề Bài 2, quan sát mẫu và nêu điểm cần chú ý.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát mẫu và nêu: Kết quả phút có thể lớn hơn 60 phút."
             ],
             [
@@ -19723,7 +19723,7 @@
               "4. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng nhân số đo thời gian để giải quyết tình huống xem video hướng dẫn.\nCách tiến hành:"
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh.",
+              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Mai đã xem đi xem lại video hướng dẫn 5 lần, mỗi lần 4,25 phút."
             ],
             [
@@ -19795,7 +19795,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Biết cách chia số đo thời gian cho một số.\nMục tiêu tích hợp: HS biết dùng lịch số để chia thời gian cho các hoạt động hợp lí trong ngày.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc tình huống Khám phá trang 73 - SGK Toán 5 tập hai, quan sát tranh và thảo luận nhóm 4 để trả lời câu hỏi: Trung bình mỗi bạn trong nhóm chạy hết bao lâu?",
+              "- GV cho HS đọc tình huống Khám phá trang 73 - SGK Toán 5 tập hai, quan sát tranh và thảo luận nhóm 4 để trả lời câu hỏi: Trung bình mỗi bạn trong nhóm chạy hết bao lâu?\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tình huống, quan sát tranh và thảo luận nhóm 4."
             ],
             [
@@ -19846,7 +19846,7 @@
               "3. Luyện tập - Thực hành (15 phút)\nMục tiêu: Chia số đo thời gian cho một số trong các trường hợp đơn giản và có chuyển đổi đơn vị.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.",
+              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và xác định yêu cầu: Tính."
             ],
             [
@@ -19866,7 +19866,7 @@
               "- HS sửa bài và ghi nhớ."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2, quan sát mẫu và nêu cách xử lí khi có số dư.",
+              "Bài 2. GV cho HS đọc đề Bài 2, quan sát mẫu và nêu cách xử lí khi có số dư.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát mẫu và nêu: Nếu còn số dư thì chuyển sang đơn vị nhỏ hơn để chia tiếp."
             ],
             [
@@ -19885,7 +19885,7 @@
               "4. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng chia số đo thời gian để tìm thời gian trung bình trong tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh.",
+              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Rô-bốt nướng 3 mẻ bánh hết 46,5 phút."
             ],
             [
@@ -19956,7 +19956,7 @@
               "2. Luyện tập - Thực hành (20 phút)\nMục tiêu: Thực hiện các phép nhân, chia số đo thời gian và chọn đáp án đúng.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.",
+              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và xác định yêu cầu: Tính."
             ],
             [
@@ -19991,7 +19991,7 @@
               "3. Vận dụng - trải nghiệm (15 phút)\nMục tiêu: Vận dụng nhân, chia số đo thời gian vào tình huống làm hộp bút và đường đi của kiến.\nCách tiến hành:"
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh hộp bút.",
+              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh hộp bút.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu dữ kiện: Buổi sáng Rô-bốt làm 2 hộp bút từ 8 giờ 10 phút đến 10 giờ 20 phút; buổi chiều làm 1 hộp bút từ 14 giờ đến 15 giờ 5 phút."
             ],
             [
@@ -20007,7 +20007,7 @@
               "- HS ghi nhớ cách giải dạng toán trung bình thời gian."
             ],
             [
-              "Bài 4. GV cho HS đọc đề Bài 4 và quan sát sơ đồ đường đi của kiến.",
+              "Bài 4. GV cho HS đọc đề Bài 4 và quan sát sơ đồ đường đi của kiến.\n<img src=\"assets/khbd_images/lop5/toan/tuan_27/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát sơ đồ."
             ],
             [
@@ -20089,7 +20089,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Nhận biết khái niệm vận tốc và cách tính vận tốc của một chuyển động đều.\nMục tiêu tích hợp: HS nhận biết AI có thể tính vận tốc rất nhanh nhưng con người cần đặt quy tắc an toàn và kiểm tra kết quả.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trang 76, đọc tình huống và chia sẻ hiểu biết về tốc độ di chuyển của chuột túi và chim én.",
+              "- GV cho HS quan sát tranh Khám phá trang 76, đọc tình huống và chia sẻ hiểu biết về tốc độ di chuyển của chuột túi và chim én.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, đọc tình huống và nêu: Chim én bay được 210 km trong 2 giờ; chuột túi chạy được 70 m trong 5 giây."
             ],
             [
@@ -20132,7 +20132,7 @@
               "3. Luyện tập - Thực hành (15 phút)\nMục tiêu: Tính vận tốc của một chuyển động đều theo đơn vị km/h và m/s.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1 và quan sát tranh đường cao tốc.",
+              "Bài 1. GV cho HS đọc đề Bài 1 và quan sát tranh đường cao tốc.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát tranh và nêu: Ô tô đi quãng đường 180 km trong 2 giờ."
             ],
             [
@@ -20152,7 +20152,7 @@
               "- HS ghi nhớ ý nghĩa của số đo vận tốc."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2 và xác định dữ kiện.",
+              "Bài 2. GV cho HS đọc đề Bài 2 và xác định dữ kiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Quãng đường 500 m; thời gian 1 phút 40 giây."
             ],
             [
@@ -20235,7 +20235,7 @@
               "2. Luyện tập - Thực hành (22 phút)\nMục tiêu: Đổi đơn vị đo vận tốc, tính vận tốc và giải bài toán thực tế.\nMục tiêu tích hợp: HS nhận biết việc tính đúng vận tốc giúp tham gia giao thông an toàn.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1, quan sát mẫu và nêu cách đổi km/h sang m/s.",
+              "Bài 1. GV cho HS đọc đề Bài 1, quan sát mẫu và nêu cách đổi km/h sang m/s.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát mẫu và nêu: 72 km/h = 72 000 : 3 600 = 20 m/s."
             ],
             [
@@ -20255,7 +20255,7 @@
               "- HS ghi nhớ cách đổi đơn vị vận tốc."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2 và xác định yêu cầu.",
+              "Bài 2. GV cho HS đọc đề Bài 2 và xác định yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Đà điểu chạy được 5,25 km trong 5 phút, cần tính vận tốc theo đơn vị m/s."
             ],
             [
@@ -20275,7 +20275,7 @@
               "- HS sửa bài và ghi nhớ."
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3 và nêu dữ kiện.",
+              "Bài 3. GV cho HS đọc đề Bài 3 và nêu dữ kiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Bác Nùng đi bộ 45 phút, lên xe buýt lúc 6 giờ 30 phút + 45 phút, đến nơi lúc 7 giờ 45 phút; quãng đường xe buýt là 15 km."
             ],
             [
@@ -20314,7 +20314,7 @@
               "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: So sánh vận tốc và vận dụng kiến thức vào tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 4. GV cho HS đọc đề Bài 4 và xác định yêu cầu chọn câu trả lời đúng.",
+              "Bài 4. GV cho HS đọc đề Bài 4 và xác định yêu cầu chọn câu trả lời đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Cần so sánh vận tốc của xe màu đỏ, xe màu đen và xe màu trắng."
             ],
             [
@@ -20386,7 +20386,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Biết cách tính quãng đường của một chuyển động đều.\nMục tiêu tích hợp: HS nhận biết AI trong ứng dụng giao hàng có thể hỗ trợ tính quãng đường nhưng cần biết công thức để kiểm tra.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trang 78, đóng vai Nam, Mai, Rô-bốt và đọc thoại theo bóng nói.",
+              "- GV cho HS quan sát tranh Khám phá trang 78, đóng vai Nam, Mai, Rô-bốt và đọc thoại theo bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, đọc thoại và nêu vấn đề: Cần tính quãng đường ô tô đi được trong 2 giờ với vận tốc 65 km/h."
             ],
             [
@@ -20425,7 +20425,7 @@
               "3. Luyện tập - Thực hành (15 phút)\nMục tiêu: Tính quãng đường trong các tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.",
+              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Tàu biển đi với vận tốc 33,7 km/h trong 4 giờ."
             ],
             [
@@ -20445,7 +20445,7 @@
               "- HS ghi nhớ cách tính quãng đường."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2 và nêu dữ kiện.",
+              "Bài 2. GV cho HS đọc đề Bài 2 và nêu dữ kiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Chim cắt bay với vận tốc 108 m/s trong 15 giây."
             ],
             [
@@ -20468,7 +20468,7 @@
               "4. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng công thức tính quãng đường để giải bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh chú Luân đi xe máy.",
+              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh chú Luân đi xe máy.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Chú Luân đi từ 7 giờ đến 10 giờ, vận tốc trung bình 55 km/h."
             ],
             [
@@ -20540,7 +20540,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Biết cách tính thời gian của một chuyển động đều.\nMục tiêu tích hợp: HS liên hệ việc tính thời gian di chuyển đến các địa danh Việt Nam, hình thành tình yêu quê hương, đất nước.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát tranh Khám phá trang 79, đóng vai Việt, Rô-bốt, chú lái xe và đọc thoại theo bóng nói.",
+              "- GV cho HS quan sát tranh Khám phá trang 79, đóng vai Việt, Rô-bốt, chú lái xe và đọc thoại theo bóng nói.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, đọc thoại và nêu vấn đề: Cần tính thời gian đi 120 km với vận tốc 60 km/h."
             ],
             [
@@ -20579,7 +20579,7 @@
               "3. Luyện tập - Thực hành (15 phút)\nMục tiêu: Tính thời gian trong các tình huống thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1 và quan sát tranh thầy Nam trở lại điểm trường.",
+              "Bài 1. GV cho HS đọc đề Bài 1 và quan sát tranh thầy Nam trở lại điểm trường.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Quãng đường 9 km, vận tốc 1,5 km/h."
             ],
             [
@@ -20599,7 +20599,7 @@
               "- HS sửa bài và ghi nhớ cách tính thời gian."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2 và nêu dữ kiện.",
+              "Bài 2. GV cho HS đọc đề Bài 2 và nêu dữ kiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Quãng đường 600 m, vận tốc 24 m/s."
             ],
             [
@@ -20622,7 +20622,7 @@
               "4. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Vận dụng tính thời gian và chọn đáp án đúng trong bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3 và xác định yêu cầu chọn câu trả lời đúng.",
+              "Bài 3. GV cho HS đọc đề Bài 3 và xác định yêu cầu chọn câu trả lời đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu dữ kiện: Quãng đường 75 km; đi xuôi dòng 30 km/h, ngược dòng 25 km/h."
             ],
             [
@@ -20696,7 +20696,7 @@
               "2. Luyện tập - Thực hành (25 phút)\nMục tiêu: Luyện tập tính quãng đường, thời gian và vận dụng bảng số liệu.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1 và quan sát bảng.",
+              "Bài 1. GV cho HS đọc đề Bài 1 và quan sát bảng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát bảng và nêu các đại lượng s, v, t."
             ],
             [
@@ -20716,7 +20716,7 @@
               "- HS sửa bài và ghi nhớ."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2 và nêu dữ kiện.",
+              "Bài 2. GV cho HS đọc đề Bài 2 và nêu dữ kiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Vận tốc 30 000 km/h, thời gian 14 giờ."
             ],
             [
@@ -20736,7 +20736,7 @@
               "- HS ghi nhớ công thức s = v × t."
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát sơ đồ xe tải giao hàng.",
+              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát sơ đồ xe tải giao hàng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_28/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát sơ đồ và nêu: Xe đi qua A, B, C, D rồi quay lại A; vận tốc 45 km/h; mỗi điểm dừng 15 phút."
             ],
             [
@@ -20841,7 +20841,7 @@
               "2. Thực hành - trải nghiệm (30 phút)\nMục tiêu: Thực hành đo thời gian, tính vận tốc và ước lượng quãng đường trong chuyển động đều.\nMục tiêu tích hợp: HS biết xác định nhu cầu thông tin, chọn từ khóa và tìm tư liệu số phù hợp khi cần giải quyết bài toán về vận tốc, quãng đường, thời gian.\nCách tiến hành:"
             ],
             [
-              "Hoạt động 1. GV cho HS đọc yêu cầu Bài 1 và quan sát bảng 1.",
+              "Hoạt động 1. GV cho HS đọc yêu cầu Bài 1 và quan sát bảng 1.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Ghi lại thời gian đi bộ quãng đường 40 m của mỗi bạn vào bảng 1."
             ],
             [
@@ -20865,7 +20865,7 @@
               "- HS lắng nghe, điều chỉnh cách đo và cách ghi số liệu."
             ],
             [
-              "Hoạt động 2. GV cho HS đọc yêu cầu Bài 2 và quan sát bảng 2.",
+              "Hoạt động 2. GV cho HS đọc yêu cầu Bài 2 và quan sát bảng 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Ghi lại thời gian đi bộ một vòng quanh sân của mỗi bạn vào bảng 2."
             ],
             [
@@ -20889,7 +20889,7 @@
               "- HS nhận xét kết quả của nhóm và của bạn."
             ],
             [
-              "Hoạt động 3. GV cho HS đọc yêu cầu Bài 3a, 3b.",
+              "Hoạt động 3. GV cho HS đọc yêu cầu Bài 3a, 3b.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: a) Tính vận tốc đi bộ của mỗi bạn ở bảng 1, làm tròn đến một chữ số ở phần thập phân; b) Dựa vào bảng 2 và vận tốc vừa tính, ước lượng chu vi sân trường."
             ],
             [
@@ -20990,7 +20990,7 @@
               "2. Thực hành - luyện tập (30 phút)\nMục tiêu: Giải bài toán thực tế liên quan đến quãng đường, vận tốc, thời gian.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề và quan sát tranh hai con đường từ trường em đến trường bạn.",
+              "Bài 1. GV cho HS đọc đề và quan sát tranh hai con đường từ trường em đến trường bạn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát tranh và xác định: Đường thứ nhất dài 180 km, vận tốc 80 km/h; đường thứ hai dài 160 km, vận tốc 50 km/h."
             ],
             [
@@ -21010,7 +21010,7 @@
               "- HS ghi nhớ cần tính thời gian để so sánh."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2.",
+              "Bài 2. GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Cô giáo chọn con đường thứ nhất; sau khi đi 1 giờ với đúng vận tốc dự định thì dừng nghỉ."
             ],
             [
@@ -21030,7 +21030,7 @@
               "- HS ghi nhớ cách vẽ sơ đồ hỗ trợ giải toán."
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3.",
+              "Bài 3. GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Sau khi nghỉ ngơi, xe đi quãng đường còn lại hết 1 giờ 36 phút; tính vận tốc trung bình theo đơn vị km/h."
             ],
             [
@@ -21115,7 +21115,7 @@
               "2. Luyện tập - Thực hành (25 phút)\nMục tiêu: Thực hiện tính số đo thời gian, đổi đơn vị vận tốc và giải bài toán chuyển động đều.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu tính.",
+              "Bài 1. GV cho HS đọc đề Bài 1 và xác định yêu cầu tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Cần thực hiện cộng, trừ, nhân, chia số đo thời gian."
             ],
             [
@@ -21135,7 +21135,7 @@
               "- HS sửa bài và ghi nhớ."
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2.",
+              "Bài 2. GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và nêu: Đổi 24 km/h và 207 km/h sang m/s."
             ],
             [
@@ -21155,7 +21155,7 @@
               "- HS ghi nhớ."
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh con tàu.",
+              "Bài 3. GV cho HS đọc đề Bài 3 và quan sát tranh con tàu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Bến B cách bến A 115 km; tàu đi với vận tốc 22 km/h; hỏi sau 3 giờ 30 phút còn cách bến B bao nhiêu ki-lô-mét."
             ],
             [
@@ -21178,7 +21178,7 @@
               "3. Vận dụng - trải nghiệm (10 phút)\nMục tiêu: Vận dụng kiến thức để giải bài toán vật có chiều dài đáng kể.\nCách tiến hành:"
             ],
             [
-              "Bài 4. GV cho HS đọc đề Bài 4 và quan sát tranh đoàn tàu vào đường hầm.",
+              "Bài 4. GV cho HS đọc đề Bài 4 và quan sát tranh đoàn tàu vào đường hầm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát tranh: Đoàn tàu dài 200 m, đi với vận tốc 20 m/s."
             ],
             [
@@ -21237,7 +21237,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Ôn công thức tính vận tốc qua một bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV cho HS đọc đề khởi động.",
+              "Bài 1. GV cho HS đọc đề khởi động.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Cô Trang đi được 6 km trong 30 phút, tính vận tốc theo đơn vị km/h."
             ],
             [
@@ -21252,7 +21252,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Giải các bài toán thực tế liên quan đến thời gian, vận tốc và thời điểm đến đích.\nCách tiến hành:"
             ],
             [
-              "Bài 2. GV cho HS đọc đề Bài 2.",
+              "Bài 2. GV cho HS đọc đề Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Công ty lâu đời nhất thế giới thành lập năm 578, chấm dứt hoạt động năm 2006; bạn Tí nói hoạt động hơn 14 thế kỉ."
             ],
             [
@@ -21272,7 +21272,7 @@
               "- HS ghi nhớ cách so sánh thời gian."
             ],
             [
-              "Bài 3. GV cho HS đọc đề Bài 3.",
+              "Bài 3. GV cho HS đọc đề Bài 3.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Xe tải đi quãng đường 56 km với vận tốc 16 km/h, rời bến lúc 5 giờ sáng."
             ],
             [
@@ -21292,7 +21292,7 @@
               "- HS ghi nhớ cách tính thời điểm đến đích."
             ],
             [
-              "Bài 4. GV cho HS đọc đề Bài 4 và quan sát tranh.",
+              "Bài 4. GV cho HS đọc đề Bài 4 và quan sát tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Chú bộ đội đặc công xuất phát lúc 4 giờ sáng, chạy 6,5 km với vận tốc 13 km/h, sau đó bơi 2,7 km trong 1 giờ 30 phút."
             ],
             [
@@ -21373,7 +21373,7 @@
               "2. Luyện tập - Thực hành - Trải nghiệm (30 phút)\nMục tiêu: Vận dụng kiến thức để trả lời câu hỏi về vận tốc, quãng đường, thời gian trong trò chơi học tập.\nCách tiến hành:"
             ],
             [
-              "Câu 1. GV cho HS đọc Bài 1 trang 85 và chọn đáp án đúng.",
+              "Câu 1. GV cho HS đọc Bài 1 trang 85 và chọn đáp án đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Tắc-xi bay vòng quanh thành phố theo đường tròn bán kính 5 km, vận tốc 60 km/h; hỏi hoàn thành chuyến bay trong bao lâu."
             ],
             [
@@ -21389,7 +21389,7 @@
               "- HS trình bày: 31,4 : 60 ≈ 0,52 giờ ≈ 31 phút. Chọn B. Khoảng 30 phút."
             ],
             [
-              "Câu 2. GV cho HS đọc Bài 2a trang 86.",
+              "Câu 2. GV cho HS đọc Bài 2a trang 86.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Tí đi bộ với vận tốc 1 m/s; sau đúng 4 phút Tí và cún con gặp nhau; hỏi Tí đã đi được bao nhiêu mét."
             ],
             [
@@ -21421,7 +21421,7 @@
               "- HS trình bày: 3 × 240 = 720 (m). Chọn C. 720 m."
             ],
             [
-              "Câu 4. GV cho HS đọc Bài 3a trang 86 và quan sát sơ đồ.",
+              "Câu 4. GV cho HS đọc Bài 3a trang 86 và quan sát sơ đồ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_29/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát sơ đồ hai anh em chạy qua bãi cỏ, bãi cát."
             ],
             [
@@ -21534,7 +21534,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Biết cách đọc bảng số liệu và nhận biết việc phân loại số liệu theo tiêu chí cho trước.\nMục tiêu tích hợp: HS ghi chép số liệu trung thực, tôn trọng dữ liệu thực tế và có trách nhiệm khi trình bày kết quả.\nCách tiến hành:"
             ],
             [
-              "Câu a. Thu thập và phân loại số liệu\n- GV cho HS quan sát tranh Khám phá trang 87, đọc tình huống Rô-bốt cân và phân loại thanh long.",
+              "Câu a. Thu thập và phân loại số liệu\n- GV cho HS quan sát tranh Khám phá trang 87, đọc tình huống Rô-bốt cân và phân loại thanh long.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, đọc tình huống và nhận biết Rô-bốt phân loại thanh long theo cân nặng."
             ],
             [
@@ -21577,7 +21577,7 @@
               "3. Luyện tập - Thực hành (18 phút)\nMục tiêu: Thu thập, phân loại và hoàn thành bảng số liệu theo tiêu chí cho trước.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Dựa vào dãy số liệu, hãy hoàn thành bảng dưới đây.\n- GV cho HS đọc đề và quan sát dãy số liệu về thành tích nhảy xa.",
+              "Bài 1. Dựa vào dãy số liệu, hãy hoàn thành bảng dưới đây.\n- GV cho HS đọc đề và quan sát dãy số liệu về thành tích nhảy xa.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát dãy số liệu và bảng phân loại."
             ],
             [
@@ -21605,7 +21605,7 @@
               "- HS sửa bài và ghi nhớ cách phân loại số liệu theo khoảng."
             ],
             [
-              "Bài 2. Hoàn thành bảng số liệu và trả lời câu hỏi.\n- GV cho HS đọc đề Bài 2 và quan sát phần thông tin khảo sát của Mai.",
+              "Bài 2. Hoàn thành bảng số liệu và trả lời câu hỏi.\n- GV cho HS đọc đề Bài 2 và quan sát phần thông tin khảo sát của Mai.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát dãy số liệu và bảng đánh giá mức độ hài lòng."
             ],
             [
@@ -21636,7 +21636,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Vận dụng phân loại số liệu vào tình huống thuê giày múa.\nCách tiến hành:"
             ],
             [
-              "Bài tập Luyện tập.\n- GV cho HS đọc tình huống tổ 1 cần thuê giày múa và quan sát bảng quy đổi cỡ giày.",
+              "Bài tập Luyện tập.\n- GV cho HS đọc tình huống tổ 1 cần thuê giày múa và quan sát bảng quy đổi cỡ giày.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tình huống, quan sát bảng quy đổi cỡ giày."
             ],
             [
@@ -21708,7 +21708,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Nhận biết, đọc và mô tả số liệu trên biểu đồ hình quạt tròn.\nMục tiêu tích hợp: HS nhận biết biểu đồ do công cụ số/AI tạo ra cần được đọc hiểu và kiểm chứng bằng kiến thức toán học.\nCách tiến hành:"
             ],
             [
-              "Câu a. Nhận biết biểu đồ hình quạt tròn\n- GV cho HS quan sát tranh Khám phá trang 90 và đọc các bóng nói trong tranh.",
+              "Câu a. Nhận biết biểu đồ hình quạt tròn\n- GV cho HS quan sát tranh Khám phá trang 90 và đọc các bóng nói trong tranh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và đọc các bóng nói."
             ],
             [
@@ -21759,7 +21759,7 @@
               "3. Luyện tập - Thực hành (18 phút)\nMục tiêu: Đọc số liệu và trả lời câu hỏi từ biểu đồ hình quạt tròn.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Đọc biểu đồ hoạt động dã ngoại.\n- GV cho HS đọc đề Bài 1 và quan sát biểu đồ.",
+              "Bài 1. Đọc biểu đồ hoạt động dã ngoại.\n- GV cho HS đọc đề Bài 1 và quan sát biểu đồ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát biểu đồ."
             ],
             [
@@ -21791,7 +21791,7 @@
               "- HS sửa bài, ghi nhớ cách đọc biểu đồ."
             ],
             [
-              "Bài 2. Đọc tỉ số phần trăm học sinh mang đồ vật.\n- GV cho HS đọc đề Bài 2 và quan sát biểu đồ cùng chú giải.",
+              "Bài 2. Đọc tỉ số phần trăm học sinh mang đồ vật.\n- GV cho HS đọc đề Bài 2 và quan sát biểu đồ cùng chú giải.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát biểu đồ và chú giải."
             ],
             [
@@ -21826,7 +21826,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Nhận dạng biểu đồ hình quạt tròn phù hợp với bảng số liệu.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề, quan sát bảng số liệu và hai biểu đồ A, B.",
+              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề, quan sát bảng số liệu và hai biểu đồ A, B.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát bảng số liệu và biểu đồ."
             ],
             [
@@ -21898,7 +21898,7 @@
               "2. Luyện tập - Thực hành (25 phút)\nMục tiêu: Đọc biểu đồ hình quạt tròn, nêu nhận xét và giải quyết bài toán theo biểu đồ.\nMục tiêu tích hợp: HS biết dùng biểu đồ để phân tích tỉ lệ rác, từ đó hình thành ý thức giảm rác thải nhựa.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Quan sát biểu đồ tỉ số phần trăm dân số các châu lục.\n- GV cho HS đọc đề Bài 1 và quan sát biểu đồ.",
+              "Bài 1. Quan sát biểu đồ tỉ số phần trăm dân số các châu lục.\n- GV cho HS đọc đề Bài 1 và quan sát biểu đồ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát biểu đồ."
             ],
             [
@@ -21926,7 +21926,7 @@
               "- HS sửa bài và ghi nhớ cách đọc số liệu trên biểu đồ."
             ],
             [
-              "Bài 2. Đọc biểu đồ hoạt động yêu thích trong ngày cuối tuần.\n- GV cho HS đọc đề Bài 2 và quan sát biểu đồ.",
+              "Bài 2. Đọc biểu đồ hoạt động yêu thích trong ngày cuối tuần.\n- GV cho HS đọc đề Bài 2 và quan sát biểu đồ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát tranh và biểu đồ."
             ],
             [
@@ -21977,7 +21977,7 @@
               "3. Vận dụng - trải nghiệm (10 phút)\nMục tiêu: Vận dụng biểu đồ để so sánh, nhận xét và lựa chọn đáp án đúng.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Đọc biểu đồ số sách đã mượn.\n- GV cho HS đọc đề Bài 3 và quan sát hai biểu đồ tuần thứ nhất, tuần thứ hai.",
+              "Bài 3. Đọc biểu đồ số sách đã mượn.\n- GV cho HS đọc đề Bài 3 và quan sát hai biểu đồ tuần thứ nhất, tuần thứ hai.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát hai biểu đồ."
             ],
             [
@@ -22001,7 +22001,7 @@
               "- HS ghi nhớ: Cần so sánh cùng loại dữ liệu ở hai biểu đồ."
             ],
             [
-              "Bài 4. Chọn số áo cỡ M.\n- GV cho HS đọc đề Bài 4, quan sát biểu đồ và các đáp án.",
+              "Bài 4. Chọn số áo cỡ M.\n- GV cho HS đọc đề Bài 4, quan sát biểu đồ và các đáp án.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát biểu đồ và các đáp án."
             ],
             [
@@ -22077,7 +22077,7 @@
               "2. Khám phá (12 phút)\nMục tiêu: Biết dùng tỉ số để mô tả số lần lặp lại của một khả năng so với tổng số lần thực hiện.\nMục tiêu tích hợp: HS biết AI có thể dự đoán theo xác suất nhưng cần thực nghiệm, ghi kết quả và kiểm chứng bằng số liệu.\nCách tiến hành:"
             ],
             [
-              "Câu a. Đọc bảng kết quả thực nghiệm\n- GV cho HS quan sát tranh Khám phá trang 94 và đọc tình huống Rô-bốt tung đồng xu trước mỗi trận bóng.",
+              "Câu a. Đọc bảng kết quả thực nghiệm\n- GV cho HS quan sát tranh Khám phá trang 94 và đọc tình huống Rô-bốt tung đồng xu trước mỗi trận bóng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, đọc tình huống và bảng kết quả."
             ],
             [
@@ -22128,7 +22128,7 @@
               "3. Luyện tập - Thực hành (18 phút)\nMục tiêu: Viết tỉ số mô tả số lần lặp lại của mỗi khả năng trong các thí nghiệm đơn giản.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Viết tỉ số từ kết quả lấy tất.\n- GV cho HS đọc đề Bài 1 và quan sát bảng kết quả lấy tất của Mi.",
+              "Bài 1. Viết tỉ số từ kết quả lấy tất.\n- GV cho HS đọc đề Bài 1 và quan sát bảng kết quả lấy tất của Mi.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát tranh và bảng số liệu."
             ],
             [
@@ -22160,7 +22160,7 @@
               "- HS sửa bài và ghi nhớ cách viết tỉ số."
             ],
             [
-              "Bài 2. Viết tỉ số từ kết quả quay chọn màu áo.\n- GV cho HS đọc đề Bài 2 và quan sát bảng kết quả quay của lớp 5A.",
+              "Bài 2. Viết tỉ số từ kết quả quay chọn màu áo.\n- GV cho HS đọc đề Bài 2 và quan sát bảng kết quả quay của lớp 5A.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát hình và bảng kết quả."
             ],
             [
@@ -22191,7 +22191,7 @@
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Thực hiện thí nghiệm gieo xúc xắc và viết tỉ số từ kết quả thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài tập Luyện tập.\n- GV cho HS đọc tình huống Mai gieo xúc xắc 9 lần và nêu nhiệm vụ.",
+              "Bài tập Luyện tập.\n- GV cho HS đọc tình huống Mai gieo xúc xắc 9 lần và nêu nhiệm vụ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tình huống và xác định nhiệm vụ."
             ],
             [
@@ -22267,7 +22267,7 @@
               "2. Vận dụng - trải nghiệm (30 phút)\nMục tiêu: Thực hành thu thập, phân tích và biểu diễn số liệu qua các tình huống thực tế.\nMục tiêu tích hợp: HS biết thu thập, sắp xếp dữ liệu về đồ vật/rác thải, từ đó hiểu dữ liệu có thể giúp AI nhận diện và phân loại đối tượng.\nCách tiến hành:"
             ],
             [
-              "Hoạt động 1. Dùng xúc xắc chia nhóm nhiệm vụ.\n- GV cho HS đọc yêu cầu Hoạt động 1 và quan sát bảng phân công nhiệm vụ theo mặt xúc xắc.",
+              "Hoạt động 1. Dùng xúc xắc chia nhóm nhiệm vụ.\n- GV cho HS đọc yêu cầu Hoạt động 1 và quan sát bảng phân công nhiệm vụ theo mặt xúc xắc.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, quan sát bảng phân công nhiệm vụ."
             ],
             [
@@ -22295,7 +22295,7 @@
               "- HS ghi nhớ: Khi thực hành thống kê, phải ghi trung thực kết quả thực tế."
             ],
             [
-              "Hoạt động 2. Dự án “Đổi đồ cũ lấy cây xanh”.\n- GV cho HS đọc yêu cầu Hoạt động 2 và quan sát bảng đổi đồ vật lấy cây.",
+              "Hoạt động 2. Dự án “Đổi đồ cũ lấy cây xanh”.\n- GV cho HS đọc yêu cầu Hoạt động 2 và quan sát bảng đổi đồ vật lấy cây.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image22.png\" alt=\"image22.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, quan sát bảng đổi đồ vật lấy cây."
             ],
             [
@@ -22342,7 +22342,7 @@
               "3. Mở rộng - củng cố (5 phút)\nMục tiêu: Củng cố quy trình thu thập, phân loại, phân tích và biểu diễn số liệu.\nCách tiến hành:"
             ],
             [
-              "Hoạt động 3. Khảo sát điều nhớ nhất ở trường tiểu học.\n- GV giới thiệu tình huống khảo sát: Điều gì khiến em nhớ nhất ở trường tiểu học?",
+              "Hoạt động 3. Khảo sát điều nhớ nhất ở trường tiểu học.\n- GV giới thiệu tình huống khảo sát: Điều gì khiến em nhớ nhất ở trường tiểu học?\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image23.png\" alt=\"image23.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bảng khảo sát và nêu các yếu tố: Khuôn viên trường học, bạn bè, thầy cô, thư viện của trường, khác."
             ],
             [
@@ -22358,7 +22358,7 @@
               "- HS trả lời: Có thể hoàn thành bảng số liệu, vẽ biểu đồ cột hoặc biểu đồ hình quạt tròn nếu phù hợp."
             ],
             [
-              "Hoạt động 4. Khảo sát mức độ hài lòng với trường học.\n- GV giới thiệu bảng quy ước điểm từ 1 đến 5 và yêu cầu hoàn thành bảng số liệu.",
+              "Hoạt động 4. Khảo sát mức độ hài lòng với trường học.\n- GV giới thiệu bảng quy ước điểm từ 1 đến 5 và yêu cầu hoàn thành bảng số liệu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_30/image24.png\" alt=\"image24.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bảng quy ước điểm và nêu cách ghi kết quả khảo sát."
             ],
             [
@@ -22438,7 +22438,7 @@
               "2. Luyện tập - Thực hành (30 phút)\nMục tiêu: Hiểu nhiệm vụ khảo sát, thu thập, ghi bảng và phân tích số liệu thực tế.\nMục tiêu tích hợp: HS biết phân tích số liệu về khuôn viên, cây xanh, rác thải để đề xuất việc làm bảo vệ môi trường trong trường học.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Hãy thu thập và biểu diễn các số liệu vào bảng.\n- GV cho HS đọc đề, quan sát Bài 1 trang 98, đọc tình huống: “Điều gì khiến em nhớ nhất ở trường tiểu học?”.",
+              "Bài 1. Hãy thu thập và biểu diễn các số liệu vào bảng.\n- GV cho HS đọc đề, quan sát Bài 1 trang 98, đọc tình huống: “Điều gì khiến em nhớ nhất ở trường tiểu học?”.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc tình huống và nêu: Cần khảo sát các lựa chọn: khuôn viên trường học, bạn bè, thầy cô, thư viện của trường và khác."
             ],
             [
@@ -22486,7 +22486,7 @@
               "- HS nêu: Chúng em sẽ tưới cây đúng lịch, nhặt rác ở bồn cây, bỏ chai nhựa vào thùng tái chế và giữ khuôn viên trường sạch đẹp."
             ],
             [
-              "Bài 2. Khảo sát mức độ hài lòng của mỗi bạn trong nhóm với trường của chúng mình.\n- GV cho HS đọc đề, quan sát Bài 2 trang 99, đọc quy ước điểm.",
+              "Bài 2. Khảo sát mức độ hài lòng của mỗi bạn trong nhóm với trường của chúng mình.\n- GV cho HS đọc đề, quan sát Bài 2 trang 99, đọc quy ước điểm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình và đọc: 5 điểm là rất hài lòng, 4 điểm là hài lòng, 3 điểm là bình thường, 2 điểm là không hài lòng ở một số điểm, 1 điểm là không hài lòng."
             ],
             [
@@ -22599,7 +22599,7 @@
               "- HS ghi nhớ cách đọc biểu đồ, tính phần trăm và viết tỉ số."
             ],
             [
-              "Bài 1. Biểu đồ cho biết tỉ số phần trăm các loại xe đang gửi trong bãi đỗ xe.\n- GV cho HS đọc đề và quan sát biểu đồ.",
+              "Bài 1. Biểu đồ cho biết tỉ số phần trăm các loại xe đang gửi trong bãi đỗ xe.\n- GV cho HS đọc đề và quan sát biểu đồ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát biểu đồ và chú giải: xe ô tô 10%, xe máy 75%, xe đạp 15%."
             ],
             [
@@ -22619,11 +22619,11 @@
               "- HS sửa bài: a) Xe máy. b) 10%. c) 45 chiếc xe đạp."
             ],
             [
-              "Bài 2. Viết tỉ số mô tả số lần lặp lại của khả năng “lấy được 2 chiếc tất khác nhau”.\n- GV cho HS đọc đề, đọc tình huống và quan sát bảng kiểm đếm.",
+              "Bài 2. Viết tỉ số mô tả số lần lặp lại của khả năng “lấy được 2 chiếc tất khác nhau”.\n- GV cho HS đọc đề, đọc tình huống và quan sát bảng kiểm đếm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Rô-bốt lấy 2 chiếc tất mỗi buổi sáng trong tháng 4 và ghi lại số lần lấy được hai chiếc tất giống nhau, khác nhau."
             ],
             [
-              "- GV cho HS quan sát tiếp hình minh họa Rô-bốt lấy tất ở ngăn tủ.",
+              "- GV cho HS quan sát tiếp hình minh họa Rô-bốt lấy tất ở ngăn tủ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, nhận biết Rô-bốt lấy 2 chiếc tất bất kì không nhìn vào ngăn tủ."
             ],
             [
@@ -22643,7 +22643,7 @@
               "- HS ghi nhớ cách viết tỉ số trong thí nghiệm."
             ],
             [
-              "Bài 3. Thực hành với 4 chiếc tất đã tô màu.\n- GV cho HS đọc đề, quan sát hình 4 chiếc tất.",
+              "Bài 3. Thực hành với 4 chiếc tất đã tô màu.\n- GV cho HS đọc đề, quan sát hình 4 chiếc tất.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát: Có 2 chiếc tất màu đỏ và 2 chiếc tất màu vàng."
             ],
             [
@@ -22671,7 +22671,7 @@
               "- HS sửa bài, ghi nhớ: Kết quả thực hành có thể khác nhau nhưng phải ghi trung thực."
             ],
             [
-              "Bài 4. Chọn câu trả lời đúng.\n- GV cho HS đọc đề và quan sát biểu đồ thời gian hoạt động trong ngày thứ Sáu của Rô-bốt.",
+              "Bài 4. Chọn câu trả lời đúng.\n- GV cho HS đọc đề và quan sát biểu đồ thời gian hoạt động trong ngày thứ Sáu của Rô-bốt.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát biểu đồ gồm các phần: giải trí và thư giãn, ngủ, học tập và đọc sách, khác."
             ],
             [
@@ -22773,7 +22773,7 @@
               "- HS nêu cách kiểm chứng: tách số thành từng lớp, đọc từ trái sang phải, kiểm tra giá trị chữ số theo hàng rồi mới kết luận."
             ],
             [
-              "Bài 1. Đọc số tiền điện, nêu giá trị chữ số 3 và làm tròn đến hàng nghìn.\n- GV cho HS đọc đề và quan sát bảng số liệu.",
+              "Bài 1. Đọc số tiền điện, nêu giá trị chữ số 3 và làm tròn đến hàng nghìn.\n- GV cho HS đọc đề và quan sát bảng số liệu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề và quan sát bảng tiền điện tháng Hai của ba công ty."
             ],
             [
@@ -22793,7 +22793,7 @@
               "- HS sửa bài, ghi nhớ cách xác định hàng và làm tròn đến hàng nghìn."
             ],
             [
-              "Bài 2. Viết mỗi số thành tổng; tìm số hạng còn thiếu.\n- GV cho HS đọc đề, đọc yêu cầu Bài 2.",
+              "Bài 2. Viết mỗi số thành tổng; tìm số hạng còn thiếu.\n- GV cho HS đọc đề, đọc yêu cầu Bài 2.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Viết số thành tổng theo mẫu và điền số còn thiếu để được tổng đúng."
             ],
             [
@@ -22809,7 +22809,7 @@
               "- HS sửa bài và ghi nhớ cách phân tích số theo hàng."
             ],
             [
-              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề, đọc yêu cầu và các phương án.",
+              "Bài 3. Chọn câu trả lời đúng.\n- GV cho HS đọc đề, đọc yêu cầu và các phương án.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Chọn dãy tạo thành bốn số tự nhiên liên tiếp và bốn số lẻ liên tiếp."
             ],
             [
@@ -22825,7 +22825,7 @@
               "- HS sửa bài, ghi đáp án: a) B; b) C."
             ],
             [
-              "Bài 4. So sánh số dân một số nước Đông Nam Á.\n- GV cho HS đọc đề và số liệu.",
+              "Bài 4. So sánh số dân một số nước Đông Nam Á.\n- GV cho HS đọc đề và số liệu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc số liệu: Việt Nam 98 500 000 người; Xin-ga-po 5 700 000 người; In-đô-nê-xi-a 275 100 000 người; Phi-líp-pin 110 200 000 người."
             ],
             [
@@ -22841,7 +22841,7 @@
               "- HS sửa bài và ghi nhớ: So sánh số dân chính là so sánh các số tự nhiên tương ứng."
             ],
             [
-              "Bài 5. Số?\n- GV cho HS đọc đề, đọc các câu hỏi về số tự nhiên bé nhất, số lớn nhất có bảy chữ số khác nhau, số bé nhất có sáu chữ số khác nhau và số liền sau.",
+              "Bài 5. Số?\n- GV cho HS đọc đề, đọc các câu hỏi về số tự nhiên bé nhất, số lớn nhất có bảy chữ số khác nhau, số bé nhất có sáu chữ số khác nhau và số liền sau.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và xác định mỗi câu hỏi cần tìm một số cụ thể."
             ],
             [
@@ -22939,7 +22939,7 @@
               "- HS thực hiện: Vào Kahoot theo hướng dẫn, chọn đáp án, ghi lại câu sai vào vở và sửa bằng phép tính đúng."
             ],
             [
-              "Bài 1. Viết rồi đọc phân số hoặc hỗn số chỉ phần đã tô màu.\n- GV cho HS đọc đề và quan sát các hình.",
+              "Bài 1. Viết rồi đọc phân số hoặc hỗn số chỉ phần đã tô màu.\n- GV cho HS đọc đề và quan sát các hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, quan sát Hình 1, Hình 2 ở câu a và b."
             ],
             [
@@ -22959,7 +22959,7 @@
               "- HS sửa bài và đọc lại các kết quả."
             ],
             [
-              "Bài 2. Rút gọn các phân số.\n- GV cho HS đọc đề và nêu cách rút gọn.",
+              "Bài 2. Rút gọn các phân số.\n- GV cho HS đọc đề và nêu cách rút gọn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề: Rút gọn các phân số , , ."
             ],
             [
@@ -22975,7 +22975,7 @@
               "- HS kiểm tra và sửa bài."
             ],
             [
-              "Bài 3. Quy đồng mẫu số các phân số.\n- GV cho HS đọc đề.",
+              "Bài 3. Quy đồng mẫu số các phân số.\n- GV cho HS đọc đề.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: a)  và ; b) ,  và ."
             ],
             [
@@ -22991,7 +22991,7 @@
               "- HS sửa bài và ghi nhớ chọn mẫu số chung thuận tiện."
             ],
             [
-              "Bài 4. So sánh thời gian hoàn thành giải khối ru-bích.\n- GV cho HS đọc đề, đọc tình huống và quan sát hình.",
+              "Bài 4. So sánh thời gian hoàn thành giải khối ru-bích.\n- GV cho HS đọc đề, đọc tình huống và quan sát hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Mai:  giờ; Việt:  giờ; Nam:  giờ; Rô-bốt:  giờ."
             ],
             [
@@ -23015,7 +23015,7 @@
               "- HS sửa bài, ghi nhớ: Thời gian ít hơn thì hoàn thành sớm hơn."
             ],
             [
-              "Bài 5. Chọn câu trả lời đúng.\n- GV cho HS đọc đề.",
+              "Bài 5. Chọn câu trả lời đúng.\n- GV cho HS đọc đề.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Phân số thập phân  viết thành hỗn số là gì?"
             ],
             [
@@ -23106,7 +23106,7 @@
               "- HS ghi nhớ cách đổi và so sánh số thập phân."
             ],
             [
-              "Bài 1. Viết các phân số thập phân thành số thập phân. Đọc các số thập phân đó.\n- GV cho HS đọc đề.",
+              "Bài 1. Viết các phân số thập phân thành số thập phân. Đọc các số thập phân đó.\n- GV cho HS đọc đề.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc các phân số: , , , ."
             ],
             [
@@ -23122,7 +23122,7 @@
               "- HS sửa bài và đọc lại các số thập phân."
             ],
             [
-              "Bài 2. Viết các phân số sau dưới dạng số thập phân.\n- GV cho HS đọc đề.",
+              "Bài 2. Viết các phân số sau dưới dạng số thập phân.\n- GV cho HS đọc đề.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: , , , ."
             ],
             [
@@ -23138,7 +23138,7 @@
               "- HS sửa bài, ghi nhớ có thể dùng phép chia để đổi phân số thành số thập phân."
             ],
             [
-              "Bài 3. Điền dấu >, <, =.\n- GV cho HS đọc đề và quan sát các cặp số.",
+              "Bài 3. Điền dấu >, <, =.\n- GV cho HS đọc đề và quan sát các cặp số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc các cặp số thập phân cần so sánh."
             ],
             [
@@ -23154,7 +23154,7 @@
               "- HS sửa bài, ghi nhớ có thể viết thêm chữ số 0 ở tận cùng bên phải phần thập phân để so sánh thuận lợi."
             ],
             [
-              "Bài 4. Sắp xếp số đo diện tích theo thứ tự từ bé đến lớn.\n- GV cho HS đọc đề.",
+              "Bài 4. Sắp xếp số đo diện tích theo thứ tự từ bé đến lớn.\n- GV cho HS đọc đề.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: 71,5 m²; 69,83 m²; 71,09 m²; 68,93 m²."
             ],
             [
@@ -23170,7 +23170,7 @@
               "- HS sửa bài và ghi nhớ giữ đúng đơn vị m² khi viết kết quả."
             ],
             [
-              "Bài 5. Số?\n- GV cho HS đọc đề bài về sản lượng cá của công ty Thanh Long.",
+              "Bài 5. Số?\n- GV cho HS đọc đề bài về sản lượng cá của công ty Thanh Long.\n<img src=\"assets/khbd_images/lop5/toan/tuan_31/image22.png\" alt=\"image22.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Tháng Ba gấp rưỡi tháng Hai; tháng Tư bằng 60% tháng Ba."
             ],
             [
@@ -23272,7 +23272,7 @@
               "HS đọc tên bài: Bài 1 yêu cầu tính các phép cộng, phép trừ với số tự nhiên, số thập phân và phân số."
             ],
             [
-              "- GV cho HS quan sát Bài 1 trang 107, đọc yêu cầu: “Tính”.",
+              "- GV cho HS quan sát Bài 1 trang 107, đọc yêu cầu: “Tính”.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1 trang 107 và đọc yêu cầu: Tính."
             ],
             [
@@ -23308,7 +23308,7 @@
               "HS đọc tên bài: Bài 2 yêu cầu điền số hoặc chữ thích hợp vào các khung để hoàn thành tính chất của phép cộng, phép trừ."
             ],
             [
-              "- GV cho HS quan sát Bài 2 trang 107 và đọc yêu cầu.",
+              "- GV cho HS quan sát Bài 2 trang 107 và đọc yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 2 trang 107, đọc yêu cầu và nhận biết các khung cần điền."
             ],
             [
@@ -23340,7 +23340,7 @@
               "HS đọc tên bài: Bài 3 yêu cầu tính bằng cách thuận tiện."
             ],
             [
-              "- GV cho HS quan sát Bài 3 trang 107 và đọc yêu cầu.",
+              "- GV cho HS quan sát Bài 3 trang 107 và đọc yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 3 trang 107, đọc yêu cầu: Tính bằng cách thuận tiện."
             ],
             [
@@ -23372,7 +23372,7 @@
               "HS đọc tên bài: Bài 4 là bài toán thực tế liên quan đến phép cộng, phép trừ số thập phân."
             ],
             [
-              "- GV cho HS quan sát Bài 4 trang 107, đọc tình huống Rô-bốt nối hai cây gậy.",
+              "- GV cho HS quan sát Bài 4 trang 107, đọc tình huống Rô-bốt nối hai cây gậy.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 4 trang 107, đọc đề và nhận biết đoạn MN là phần chồng lên nhau khi nối hai cây gậy."
             ],
             [
@@ -23500,7 +23500,7 @@
               "HS đọc tên bài: Bài 1 yêu cầu tính rồi thử lại theo mẫu."
             ],
             [
-              "- GV cho HS quan sát Bài 1 trang 108, đọc mẫu và yêu cầu của bài.",
+              "- GV cho HS quan sát Bài 1 trang 108, đọc mẫu và yêu cầu của bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1 trang 108, đọc mẫu và nêu cách thử lại phép cộng, phép trừ."
             ],
             [
@@ -23536,7 +23536,7 @@
               "HS đọc tên bài: Bài 2 yêu cầu tính giá trị của biểu thức."
             ],
             [
-              "- GV cho HS quan sát Bài 2 trang 108 và đọc yêu cầu.",
+              "- GV cho HS quan sát Bài 2 trang 108 và đọc yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 2 trang 108, đọc yêu cầu: Tính giá trị của biểu thức."
             ],
             [
@@ -23572,7 +23572,7 @@
               "HS đọc tên bài: Bài 3 là bài toán tìm hai số khi biết tổng và hiệu."
             ],
             [
-              "- GV cho HS quan sát Bài 3 trang 108, đọc tình huống khi chuyển về nhà mới.",
+              "- GV cho HS quan sát Bài 3 trang 108, đọc tình huống khi chuyển về nhà mới.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 3 trang 108, đọc đề và gạch chân các dữ kiện quan trọng."
             ],
             [
@@ -23608,7 +23608,7 @@
               "HS đọc tên bài: Bài 4 là bài toán thực tế liên quan đến phép cộng, phép trừ phân số."
             ],
             [
-              "- GV cho HS quan sát Bài 4 trang 108 và đọc đề bài.",
+              "- GV cho HS quan sát Bài 4 trang 108 và đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 4 trang 108, đọc đề và nêu dữ kiện: Mai ăn một phần tám cái bánh, bố ăn một phần tư cái bánh."
             ],
             [
@@ -23733,7 +23733,7 @@
               "HS đọc tên bài: Bài 1 yêu cầu tính các phép nhân, chia với số tự nhiên, số thập phân và phân số."
             ],
             [
-              "- GV cho HS quan sát Bài 1 trang 109, đọc yêu cầu: “Tính”.",
+              "- GV cho HS quan sát Bài 1 trang 109, đọc yêu cầu: “Tính”.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1 trang 109 và đọc yêu cầu: Tính."
             ],
             [
@@ -23769,7 +23769,7 @@
               "HS đọc tên bài: Bài 2 yêu cầu điền số hoặc chữ thích hợp vào các khung."
             ],
             [
-              "- GV cho HS quan sát Bài 2 trang 109 và đọc yêu cầu.",
+              "- GV cho HS quan sát Bài 2 trang 109 và đọc yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 2 trang 109, đọc yêu cầu và nhận biết các khung cần điền."
             ],
             [
@@ -23801,7 +23801,7 @@
               "HS đọc tên bài: Bài 3 yêu cầu tính bằng cách thuận tiện."
             ],
             [
-              "- GV cho HS quan sát Bài 3 trang 109 và đọc yêu cầu.",
+              "- GV cho HS quan sát Bài 3 trang 109 và đọc yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 3 trang 109, đọc yêu cầu: Tính bằng cách thuận tiện."
             ],
             [
@@ -23833,7 +23833,7 @@
               "HS đọc tên bài: Bài 4 là bài toán thực tế về tính trung bình cộng."
             ],
             [
-              "- GV cho HS quan sát Bài 4 trang 109 và đọc đề bài.",
+              "- GV cho HS quan sát Bài 4 trang 109 và đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 4 trang 109, đọc đề và nêu dữ kiện về số vở, giá tiền từng loại vở."
             ],
             [
@@ -23938,7 +23938,7 @@
               "HS đọc tên bài: Bài 1 yêu cầu tính rồi thử lại theo mẫu."
             ],
             [
-              "- GV cho HS quan sát Bài 1 trang 110, đọc mẫu và yêu cầu.",
+              "- GV cho HS quan sát Bài 1 trang 110, đọc mẫu và yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1 trang 110, đọc mẫu về phép chia hết và phép chia có dư."
             ],
             [
@@ -23970,7 +23970,7 @@
               "HS đọc tên bài: Bài 2 yêu cầu tính nhẩm."
             ],
             [
-              "- GV cho HS quan sát Bài 2 trang 110 và đọc yêu cầu.",
+              "- GV cho HS quan sát Bài 2 trang 110 và đọc yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 2 trang 110, đọc yêu cầu: Tính nhẩm."
             ],
             [
@@ -24002,7 +24002,7 @@
               "HS đọc tên bài: Bài 3 yêu cầu tính giá trị của biểu thức."
             ],
             [
-              "- GV cho HS quan sát Bài 3 trang 110 và đọc yêu cầu.",
+              "- GV cho HS quan sát Bài 3 trang 110 và đọc yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 3 trang 110, đọc yêu cầu: Tính giá trị của biểu thức."
             ],
             [
@@ -24034,7 +24034,7 @@
               "HS đọc tên bài: Bài 4 là bài toán thực tế liên quan đến phép chia."
             ],
             [
-              "- GV cho HS quan sát Bài 4 trang 110 và đọc đề bài.",
+              "- GV cho HS quan sát Bài 4 trang 110 và đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 4 trang 110, đọc đề và nêu dữ kiện: may một quần hết 2,06 m vải, may một áo hết 1,54 m vải, có 200 m vải."
             ],
             [
@@ -24066,7 +24066,7 @@
               "HS đọc tên bài: Bài 5 yêu cầu chọn đáp án đúng."
             ],
             [
-              "- GV cho HS quan sát Bài 5 trang 110 và đọc yêu cầu.",
+              "- GV cho HS quan sát Bài 5 trang 110 và đọc yêu cầu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 5 trang 110, đọc yêu cầu và các phương án A, B, C."
             ],
             [
@@ -24174,7 +24174,7 @@
               "HS đọc tên bài: Bài 1 yêu cầu chọn câu trả lời đúng về tỉ số."
             ],
             [
-              "- GV cho HS quan sát Bài 1 trang 111 và đọc tình huống lớp 5A chọn phương án đi tham quan.",
+              "- GV cho HS quan sát Bài 1 trang 111 và đọc tình huống lớp 5A chọn phương án đi tham quan.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1 trang 111, đọc tình huống và các phương án A, B, C, D."
             ],
             [
@@ -24206,7 +24206,7 @@
               "HS đọc tên bài: Bài 2 là bài toán tìm hai số khi biết tổng và tỉ số của hai số đó."
             ],
             [
-              "- GV cho HS quan sát Bài 2 trang 111 và đọc đề bài.",
+              "- GV cho HS quan sát Bài 2 trang 111 và đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 2 trang 111, đọc đề và nêu dữ kiện: tổng số sách là 126 quyển, số sách lớp 5A bằng năm phần tư số sách lớp 5B."
             ],
             [
@@ -24242,7 +24242,7 @@
               "HS đọc tên bài: Bài 3 vận dụng tỉ lệ bản đồ để tìm độ dài thật."
             ],
             [
-              "- GV cho HS quan sát Bài 3 trang 111 và đọc đề bài.",
+              "- GV cho HS quan sát Bài 3 trang 111 và đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 3 trang 111, đọc đề và nêu tỉ lệ bản đồ là 1 : 3 000."
             ],
             [
@@ -24278,7 +24278,7 @@
               "HS đọc tên bài: Bài 4 là bài toán tìm hai số khi biết hiệu và tỉ số của hai số đó."
             ],
             [
-              "- GV cho HS quan sát Bài 4 trang 112 và đọc đề bài.",
+              "- GV cho HS quan sát Bài 4 trang 112 và đọc đề bài.\n<img src=\"assets/khbd_images/lop5/toan/tuan_32/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 4 trang 112, đọc đề và nêu dữ kiện: Việt gấp ít hơn Mai 11 ngôi sao, số ngôi sao của Việt bằng bốn phần năm số ngôi sao của Mai."
             ],
             [
@@ -24410,7 +24410,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Củng cố cách tìm tỉ số phần trăm của hai số, tìm giá trị phần trăm của một số và giải bài toán thực tế.\nMục tiêu tích hợp: HS biết dùng tỉ số phần trăm để nhận xét việc tiết kiệm nước, giảm lãng phí và hình thành ý thức bảo vệ nguồn nước.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tìm tỉ số phần trăm thích hợp.",
+              "Bài 1. Tìm tỉ số phần trăm thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 1 và xác định nhiệm vụ: tìm tỉ số phần trăm thích hợp để điền vào các ô trống."
             ],
             [
@@ -24446,7 +24446,7 @@
               "- HS lắng nghe và nêu: Em cần khóa vòi nước sau khi dùng, dùng nước vừa đủ, nhắc bạn không xả nước lãng phí và ghi số liệu trung thực khi khảo sát."
             ],
             [
-              "Bài 2. Bài toán hồng treo gió.",
+              "Bài 2. Bài toán hồng treo gió.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 2 và xác định đây là bài toán tìm tỉ số phần trăm của phần nước mất đi so với lượng hồng tươi ban đầu."
             ],
             [
@@ -24478,7 +24478,7 @@
               "- HS sửa bài, nhắc lại cách tìm phần trăm còn lại."
             ],
             [
-              "Bài 3. Bài toán giảm giá.",
+              "Bài 3. Bài toán giảm giá.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 3 và nêu đây là bài toán tìm số tiền sau khi giảm giá."
             ],
             [
@@ -24510,7 +24510,7 @@
               "- HS sửa bài và ghi nhớ cách tính tiền sau khi giảm giá."
             ],
             [
-              "Bài 4. Chọn câu trả lời đúng.",
+              "Bài 4. Chọn câu trả lời đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định cần tính tiền lãi sau hai năm để chọn đáp án đúng."
             ],
             [
@@ -24609,7 +24609,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn tập công thức tính chu vi, diện tích hình chữ nhật, hình vuông, hình tam giác, hình thang, hình tròn và vận dụng vào bài toán thực tế.\nMục tiêu tích hợp: HS nhận biết AI có thể hỗ trợ phân tích hình ảnh, phục dựng hình dạng từ dữ liệu hình học nhưng con người cần kiểm chứng bằng công thức toán học.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Hoàn thành công thức tính chu vi, diện tích hình chữ nhật, hình vuông.",
+              "Bài 1. Hoàn thành công thức tính chu vi, diện tích hình chữ nhật, hình vuông.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 1 và xác định nhiệm vụ: hoàn thành công thức, sau đó vận dụng tính diện tích hai mảnh vườn."
             ],
             [
@@ -24645,7 +24645,7 @@
               "- HS lắng nghe và nêu: AI có thể hỗ trợ nhận dạng hình, nhưng em cần tự kiểm tra bằng công thức đã học và kết quả trong SGK."
             ],
             [
-              "Bài 2. Hoàn thành công thức tính diện tích hình tam giác, hình thang.",
+              "Bài 2. Hoàn thành công thức tính diện tích hình tam giác, hình thang.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 2 và xác định nhiệm vụ: điền công thức, sau đó tính diện tích trên hình vẽ."
             ],
             [
@@ -24677,7 +24677,7 @@
               "- HS sửa bài và ghi nhớ công thức tính diện tích hình tam giác, hình thang."
             ],
             [
-              "Bài 3. Hoàn thành công thức tính chu vi, diện tích hình tròn.",
+              "Bài 3. Hoàn thành công thức tính chu vi, diện tích hình tròn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 3 và xác định nhiệm vụ: điền công thức, sau đó tính chu vi và diện tích đĩa sứ hình tròn."
             ],
             [
@@ -24709,7 +24709,7 @@
               "- HS sửa bài, ghi nhớ cần xác định bán kính trước khi áp dụng công thức."
             ],
             [
-              "Bài 4. Tính chu vi hình tròn và diện tích phần bìa còn lại.",
+              "Bài 4. Tính chu vi hình tròn và diện tích phần bìa còn lại.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định đây là bài toán vận dụng công thức hình vuông, hình tròn."
             ],
             [
@@ -24807,7 +24807,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Vận dụng công thức tính chu vi, diện tích vào bài toán sân bóng rổ, hộp không nắp, khu đất và hình ghép.\nMục tiêu tích hợp: HS biết liên hệ việc tính diện tích với xây dựng, chăm sóc không gian xanh và giữ gìn cảnh quan trường lớp.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính chu vi, diện tích sân bóng rổ và hình tròn giữa sân.",
+              "Bài 1. Tính chu vi, diện tích sân bóng rổ và hình tròn giữa sân.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 1 và xác định nhiệm vụ: quan sát hình sân bóng rổ để tính chu vi, diện tích các hình."
             ],
             [
@@ -24839,7 +24839,7 @@
               "- HS sửa bài và ghi nhớ cần đổi đường kính sang bán kính khi tính diện tích hình tròn."
             ],
             [
-              "Bài 2. Tính diện tích miếng bìa làm thành hộp không nắp.",
+              "Bài 2. Tính diện tích miếng bìa làm thành hộp không nắp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 2 và xác định nhiệm vụ: tính diện tích phần bìa còn lại sau khi cắt bốn hình vuông ở bốn góc."
             ],
             [
@@ -24871,7 +24871,7 @@
               "- HS sửa bài, ghi nhớ cách tính diện tích phần còn lại."
             ],
             [
-              "Bài 3. Tính diện tích khu đất hình thang và phần đất mở rộng.",
+              "Bài 3. Tính diện tích khu đất hình thang và phần đất mở rộng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 3 và xác định bài toán có hình thang vuông, hình chữ nhật và phần đất mở rộng."
             ],
             [
@@ -24907,7 +24907,7 @@
               "- HS lắng nghe và nêu: Em giữ vệ sinh bồn hoa, không giẫm lên cỏ, tưới cây vừa đủ nước, không xả rác ở khu vực cây xanh."
             ],
             [
-              "Bài 4. Bài toán hình ghép.",
+              "Bài 4. Bài toán hình ghép.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định cần tìm chu vi hình B và diện tích hình A."
             ],
             [
@@ -25003,7 +25003,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Củng cố công thức tính diện tích xung quanh, diện tích toàn phần, thể tích hình hộp chữ nhật, hình lập phương và vận dụng vào bài toán thực tế.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Hoàn thành công thức tính diện tích và thể tích hình hộp chữ nhật, hình lập phương.",
+              "Bài 1. Hoàn thành công thức tính diện tích và thể tích hình hộp chữ nhật, hình lập phương.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 1 và xác định nhiệm vụ: hoàn thành các công thức trong bảng."
             ],
             [
@@ -25035,7 +25035,7 @@
               "- HS sửa bài và nhắc lại cách ghi đơn vị diện tích, thể tích."
             ],
             [
-              "Bài 2. Tính diện tích xung quanh và diện tích toàn phần.",
+              "Bài 2. Tính diện tích xung quanh và diện tích toàn phần.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 2 và xác định nhiệm vụ: tính diện tích xung quanh, diện tích toàn phần của thùng hàng và khối ru-bích."
             ],
             [
@@ -25067,7 +25067,7 @@
               "- HS sửa bài, kiểm tra lại đơn vị đo trong từng câu."
             ],
             [
-              "Bài 3. So sánh diện tích xung quanh, diện tích toàn phần của hai khối gỗ.",
+              "Bài 3. So sánh diện tích xung quanh, diện tích toàn phần của hai khối gỗ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 3 và xác định nhiệm vụ: tính diện tích xung quanh mỗi khối gỗ, sau đó so sánh diện tích toàn phần."
             ],
             [
@@ -25099,7 +25099,7 @@
               "- HS sửa bài và ghi nhớ cần tính đủ các mặt khi so sánh diện tích toàn phần."
             ],
             [
-              "Bài 4. Tính diện tích cần quét vôi.",
+              "Bài 4. Tính diện tích cần quét vôi.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định nhiệm vụ: tính diện tích tường, trần cần quét vôi sau khi trừ diện tích các cửa."
             ],
             [
@@ -25227,7 +25227,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Củng cố hình khai triển, thể tích, diện tích và giải các bài toán thực tế liên quan đến hình hộp chữ nhật, hình lập phương.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tính diện tích xung quanh, diện tích toàn phần và thể tích hình lập phương.",
+              "Bài 1. Tính diện tích xung quanh, diện tích toàn phần và thể tích hình lập phương.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 1 và xác định nhiệm vụ: từ hình khai triển A gấp thành hình lập phương B, tính diện tích và thể tích hình B."
             ],
             [
@@ -25259,7 +25259,7 @@
               "- HS sửa bài và ghi nhớ công thức hình lập phương."
             ],
             [
-              "Bài 2. So sánh khối lượng hai khối đá.",
+              "Bài 2. So sánh khối lượng hai khối đá.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 2 và xác định nhiệm vụ: tính thể tích hai khối đá rồi so sánh khối lượng."
             ],
             [
@@ -25291,7 +25291,7 @@
               "- HS sửa bài, ghi nhớ cần đổi 0,88 tấn thành 880 kg."
             ],
             [
-              "Bài 3. Tính thể tích bể cá và thể tích viên đá cảnh.",
+              "Bài 3. Tính thể tích bể cá và thể tích viên đá cảnh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 3 và xác định nhiệm vụ: tính thể tích bể cá, sau đó tìm thể tích viên đá dựa vào mực nước dâng lên."
             ],
             [
@@ -25327,7 +25327,7 @@
               "- HS sửa bài, ghi nhớ thể tích vật thả vào nước bằng phần thể tích nước dâng lên."
             ],
             [
-              "Bài 4. So sánh diện tích toàn phần và thể tích khi tăng cạnh hình lập phương.",
+              "Bài 4. So sánh diện tích toàn phần và thể tích khi tăng cạnh hình lập phương.\n<img src=\"assets/khbd_images/lop5/toan/tuan_33/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định nhiệm vụ: tìm số lần tăng của diện tích toàn phần và thể tích khi cạnh tăng 2 lần."
             ],
             [
@@ -25432,7 +25432,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn cách đổi đơn vị đo độ dài, khối lượng, diện tích, thể tích và giải toán có lời văn về thể tích.\nMục tiêu tích hợp: HS nhận biết AI có thể hỗ trợ đo lường, theo dõi mực nước biển dâng và cảnh báo sớm biến đổi khí hậu nhưng con người cần kiểm chứng số liệu đo.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tìm số tự nhiên hoặc số thập phân thích hợp.",
+              "Bài 1. Tìm số tự nhiên hoặc số thập phân thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1, xác định nhiệm vụ: đổi các số đo độ dài, khối lượng về đơn vị thích hợp."
             ],
             [
@@ -25464,7 +25464,7 @@
               "- HS sửa bài và ghi nhớ cách đổi đơn vị đo độ dài, khối lượng."
             ],
             [
-              "Bài 2. Tìm số tự nhiên hoặc số thập phân thích hợp.",
+              "Bài 2. Tìm số tự nhiên hoặc số thập phân thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2, xác định nhiệm vụ: đổi số đo diện tích và thể tích."
             ],
             [
@@ -25496,7 +25496,7 @@
               "- HS sửa bài và ghi nhớ: diện tích gấp 100 lần; thể tích gấp 1 000 lần giữa hai đơn vị liền kề."
             ],
             [
-              "Bài 3. Bể cá của nhà Nam.",
+              "Bài 3. Bể cá của nhà Nam.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 3 và xác định đây là bài toán tính thể tích hình hộp chữ nhật rồi tìm 90% thể tích."
             ],
             [
@@ -25532,7 +25532,7 @@
               "- HS lắng nghe và nêu: Em cần ghi đúng đơn vị đo, kiểm tra lại số liệu, không phụ thuộc hoàn toàn vào AI và biết dùng kiến thức toán để kiểm chứng kết quả."
             ],
             [
-              "Bài 4. Bài toán bể bơi chứa nước.",
+              "Bài 4. Bài toán bể bơi chứa nước.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định đây là bài toán tìm phần nước còn phải hút đi."
             ],
             [
@@ -25626,7 +25626,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn đổi đơn vị thời gian, thực hiện phép tính với số đo thời gian và giải toán thực tế.\nMục tiêu tích hợp: HS liên hệ việc đo dung tích, thể tích, thời gian dùng nước để hình thành thói quen sử dụng nước hợp lí, không lãng phí.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Số?",
+              "Bài 1. Số?\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và xác định nhiệm vụ: đổi số đo thời gian."
             ],
             [
@@ -25658,7 +25658,7 @@
               "- HS sửa bài, ghi nhớ cách đổi đơn vị đo thời gian."
             ],
             [
-              "Bài 2. Tìm số tự nhiên hoặc số thập phân thích hợp.",
+              "Bài 2. Tìm số tự nhiên hoặc số thập phân thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2, xác định nhiệm vụ: đổi các số đo thời gian có phân số, số thập phân."
             ],
             [
@@ -25690,7 +25690,7 @@
               "- HS sửa bài và ghi nhớ cách đổi số đo thời gian sang số thập phân."
             ],
             [
-              "Bài 3. Tính.",
+              "Bài 3. Tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3 và xác định nhiệm vụ: cộng, trừ, nhân, chia số đo thời gian."
             ],
             [
@@ -25722,7 +25722,7 @@
               "- HS sửa bài và ghi nhớ cách tính với số đo thời gian."
             ],
             [
-              "Bài 4. Bài toán đoàn tàu.",
+              "Bài 4. Bài toán đoàn tàu.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định cần tính thời gian đoàn tàu đi từ ga Hà Nội đến ga Sài Gòn."
             ],
             [
@@ -25758,7 +25758,7 @@
               "- HS lắng nghe và nêu: Em sẽ khóa vòi nước sau khi dùng, dùng nước vừa đủ, không nghịch nước và có thể ghi thời gian dùng nước để tự nhắc mình tiết kiệm."
             ],
             [
-              "Bài 5. Đố em.",
+              "Bài 5. Đố em.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 5 và xác định đây là bài toán tìm thời điểm bằng sơ đồ tổng - tỉ."
             ],
             [
@@ -25857,7 +25857,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn công thức chuyển động đều, đổi đơn vị đo và giải bài toán tìm vận tốc, thời gian, quãng đường.\nMục tiêu tích hợp: HS hiểu xe tự lái dùng dữ liệu chuyển động và AI để hỗ trợ lái xe, nhưng con người vẫn cần tuân thủ luật giao thông và chịu trách nhiệm khi sử dụng công nghệ.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Bài toán Việt chạy quãng đường 360 m.",
+              "Bài 1. Bài toán Việt chạy quãng đường 360 m.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và xác định nhiệm vụ: tính vận tốc chạy của Việt theo km/h và m/s."
             ],
             [
@@ -25889,7 +25889,7 @@
               "- HS sửa bài và ghi nhớ cách đổi đơn vị trước khi tính vận tốc."
             ],
             [
-              "Bài 2. Bài toán đi xe máy qua đường hầm.",
+              "Bài 2. Bài toán đi xe máy qua đường hầm.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 2 và xác định cần tìm vận tốc của người đi xe máy."
             ],
             [
@@ -25925,7 +25925,7 @@
               "- HS lắng nghe và nêu: Xe tự lái có thể dùng AI để tính vận tốc, nhưng con người vẫn phải tuân thủ luật giao thông, kiểm tra thông tin và chịu trách nhiệm khi sử dụng công nghệ."
             ],
             [
-              "Bài 3. Bài toán ô tô đi Hà Nội - Thanh Hoá.",
+              "Bài 3. Bài toán ô tô đi Hà Nội - Thanh Hoá.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 3 và xác định cần tìm thời điểm ô tô đến Thanh Hoá."
             ],
             [
@@ -25957,7 +25957,7 @@
               "- HS sửa bài và ghi nhớ cách tìm thời điểm đến."
             ],
             [
-              "Bài 4. Bài toán ô tô đi tham quan.",
+              "Bài 4. Bài toán ô tô đi tham quan.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định cần tìm quãng đường từ trường đến địa điểm tham quan."
             ],
             [
@@ -26055,7 +26055,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Luyện tập so sánh vận tốc, tìm quãng đường, thời gian và giải bài toán thực tế về chuyển động đều.\nMục tiêu tích hợp: HS biết liên hệ bài toán chuyển động với việc đi đường an toàn, đúng giờ, tuân thủ luật giao thông và có trách nhiệm với bản thân, cộng đồng.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.",
+              "Bài 1. Chọn câu trả lời đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và xác định nhiệm vụ: so sánh vận tốc của hai bạn."
             ],
             [
@@ -26087,7 +26087,7 @@
               "- HS sửa bài và ghi nhớ cần đổi vận tốc về cùng đơn vị trước khi so sánh."
             ],
             [
-              "Bài 2. Bài toán Việt đi bộ và đi xe máy về nhà.",
+              "Bài 2. Bài toán Việt đi bộ và đi xe máy về nhà.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 2 và xác định cần tìm quãng đường Việt còn phải đi xe máy."
             ],
             [
@@ -26119,7 +26119,7 @@
               "- HS sửa bài và ghi nhớ cách tìm phần quãng đường còn lại."
             ],
             [
-              "Bài 3. Bài toán tàu thuỷ đi từ bến A đến bến B.",
+              "Bài 3. Bài toán tàu thuỷ đi từ bến A đến bến B.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 3 và xác định cần tìm thời điểm tàu khởi hành."
             ],
             [
@@ -26155,7 +26155,7 @@
               "- HS lắng nghe và nêu: Em đi học đúng giờ, đội mũ bảo hiểm khi ngồi xe máy, không vượt đèn đỏ, đi đúng phần đường và không đùa giỡn trên đường."
             ],
             [
-              "Bài 4. Bài toán đoàn tàu qua cầu Long Biên.",
+              "Bài 4. Bài toán đoàn tàu qua cầu Long Biên.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định cần tìm chiều dài đoàn tàu."
             ],
             [
@@ -26254,7 +26254,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn cách thu thập, phân loại, sắp xếp số liệu; hoàn thành bảng số liệu, đọc biểu đồ cột và biểu đồ hình quạt tròn.\nMục tiêu tích hợp: HS hiểu dữ liệu thống kê càng chính xác thì các hệ thống AI càng phân tích và hỗ trợ con người tốt hơn; khi xử lí số liệu cần trung thực, cẩn thận.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Mai, Việt và Mai cắt giấy được một số hình phẳng đã học rồi tô màu các hình đó.",
+              "Bài 1. Mai, Việt và Mai cắt giấy được một số hình phẳng đã học rồi tô màu các hình đó.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và xác định nhiệm vụ: quan sát biểu đồ, phân loại số hình theo màu, hình dạng, hình dạng và màu."
             ],
             [
@@ -26290,7 +26290,7 @@
               "- HS sửa bài và ghi nhớ cách phân loại số liệu theo một hoặc nhiều tiêu chí."
             ],
             [
-              "Bài 2. Máy tái chế rác phân loại rác thải.",
+              "Bài 2. Máy tái chế rác phân loại rác thải.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 2 và xác định nhiệm vụ: hoàn thành bảng cân nặng rác và sắp xếp theo thứ tự từ lớn đến bé."
             ],
             [
@@ -26326,11 +26326,11 @@
               "- HS lắng nghe và nêu: Em cần đếm đúng, ghi đúng số liệu, kiểm tra lại bảng, không làm sai lệch dữ liệu để AI hoặc người đọc có kết quả chính xác."
             ],
             [
-              "Bài 3. Diện tích trồng cà phê của bốn tỉnh.",
+              "Bài 3. Diện tích trồng cà phê của bốn tỉnh.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 3 và xác định nhiệm vụ: hoàn thành bảng từ dữ kiện và biểu đồ cột, nhận xét số liệu và tính trung bình."
             ],
             [
-              "- GV cho HS quan sát tiếp biểu đồ cột của Bài 3 trang 125.",
+              "- GV cho HS quan sát tiếp biểu đồ cột của Bài 3 trang 125.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát biểu đồ cột thể hiện diện tích trồng cà phê của bốn tỉnh Quảng Ngãi, Gia Lai, Đắk Lắk, Lâm Đồng."
             ],
             [
@@ -26366,7 +26366,7 @@
               "- HS sửa bài, ghi nhớ cách đọc biểu đồ cột, hoàn thành bảng và tính trung bình cộng."
             ],
             [
-              "Bài 4. Khảo sát khán giả theo dõi giải Vô địch bóng đá thế giới.",
+              "Bài 4. Khảo sát khán giả theo dõi giải Vô địch bóng đá thế giới.\n<img src=\"assets/khbd_images/lop5/toan/tuan_34/image22.png\" alt=\"image22.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên Bài 4 và xác định nhiệm vụ: hoàn thành bảng số khán giả và tìm tỉ số phần trăm theo biểu đồ hình quạt tròn."
             ],
             [
@@ -26474,7 +26474,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn khả năng xảy ra của sự kiện và tỉ số số lần xuất hiện trong thí nghiệm xác suất.\nMục tiêu tích hợp: HS biết trung thực khi ghi kết quả thí nghiệm, không tự ý sửa số liệu để kết quả đẹp hơn hoặc theo ý muốn.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn đáp án đúng.",
+              "Bài 1. Chọn đáp án đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 1 và xác định nhiệm vụ: chọn khả năng xảy ra khi gieo hai xúc xắc."
             ],
             [
@@ -26506,7 +26506,7 @@
               "- HS sửa bài và ghi nhớ cách phân biệt chắc chắn, có thể, không thể."
             ],
             [
-              "Bài 2. Nêu các khả năng về màu của 3 quả bóng được lấy ra.",
+              "Bài 2. Nêu các khả năng về màu của 3 quả bóng được lấy ra.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 2 và xác định hộp có 2 bóng đỏ, 3 bóng xanh; Rô-bốt lấy ra cùng lúc 3 quả bóng."
             ],
             [
@@ -26534,7 +26534,7 @@
               "- HS sửa bài và ghi nhớ cách liệt kê khả năng."
             ],
             [
-              "Bài 3. Viết gieo xúc xắc nhiều lần rồi ghi lại kết quả.",
+              "Bài 3. Viết gieo xúc xắc nhiều lần rồi ghi lại kết quả.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 3, quan sát bảng ghi kết quả số lần xuất hiện của các mặt xúc xắc."
             ],
             [
@@ -26562,7 +26562,7 @@
               "- HS sửa bài theo đáp án SGV và ghi nhớ khi đọc bảng cần đếm cẩn thận từng vạch."
             ],
             [
-              "Bài 4. Gieo đồng thời hai đồng xu 25 lần.",
+              "Bài 4. Gieo đồng thời hai đồng xu 25 lần.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 và quan sát bảng ghi số lần lặp lại của các khả năng."
             ],
             [
@@ -26665,7 +26665,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn đọc, viết số, giá trị chữ số, sắp xếp số tự nhiên, phân số rút gọn và so sánh số thập phân.\nMục tiêu tích hợp: HS biết AI có thể hỗ trợ kiểm tra kết quả nhưng cần tự hiểu cách làm, tự kiểm chứng và sử dụng công cụ với tinh thần trách nhiệm.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Hoàn thành bảng sau.",
+              "Bài 1. Hoàn thành bảng sau.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1 trang 128, đọc yêu cầu và xác định cần viết số, đọc số, nêu giá trị chữ số 2."
             ],
             [
@@ -26697,7 +26697,7 @@
               "- HS sửa bài và ghi nhớ: cùng là chữ số 2 nhưng ở hàng khác nhau thì có giá trị khác nhau."
             ],
             [
-              "Bài 2. Sắp xếp các số theo thứ tự từ bé đến lớn.",
+              "Bài 2. Sắp xếp các số theo thứ tự từ bé đến lớn.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 2 và nêu các số cần sắp xếp: 67 245; 67 425; 67 524; 65 742."
             ],
             [
@@ -26721,7 +26721,7 @@
               "- HS sửa bài và ghi nhớ cách sắp xếp số tự nhiên."
             ],
             [
-              "Bài 3. Chọn câu trả lời đúng.",
+              "Bài 3. Chọn câu trả lời đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các hình và các phân số ở Bài 3 trang 128."
             ],
             [
@@ -26753,7 +26753,7 @@
               "- HS sửa bài và ghi nhớ cách nhận biết phân số rút gọn."
             ],
             [
-              "Bài 4. Viết số thập phân và đổi số đo.",
+              "Bài 4. Viết số thập phân và đổi số đo.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề Bài 4 trang 129, xác định câu a viết số thập phân và câu b đổi số đo."
             ],
             [
@@ -26781,7 +26781,7 @@
               "- HS sửa bài và ghi nhớ cách viết số thập phân, đổi số đo."
             ],
             [
-              "Bài 5. Sắp xếp số thập phân và chọn đáp án đúng.",
+              "Bài 5. Sắp xếp số thập phân và chọn đáp án đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 5 trang 129, đọc dãy số thập phân và tình huống chiều cao ba rô-bốt."
             ],
             [
@@ -26883,7 +26883,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn đặt tính, tính giá trị biểu thức, tính bằng cách thuận tiện và tính với số đo thời gian.\nMục tiêu tích hợp: HS hình thành thói quen làm bài trung thực, trình bày rõ ràng, biết liên hệ phép tính với các hoạt động tiết kiệm và việc làm có ích cho cộng đồng.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Đặt tính rồi tính.",
+              "Bài 1. Đặt tính rồi tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 trang 130 và xác định đây là các phép tính với số tự nhiên."
             ],
             [
@@ -26911,7 +26911,7 @@
               "- HS sửa bài và ghi nhớ cách thực hiện phép tính với số tự nhiên."
             ],
             [
-              "Bài 2. Đặt tính rồi tính.",
+              "Bài 2. Đặt tính rồi tính.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 2 và xác định đây là các phép tính với số thập phân."
             ],
             [
@@ -26939,7 +26939,7 @@
               "- HS sửa bài và ghi nhớ cách tính với số thập phân."
             ],
             [
-              "Bài 3. Tính giá trị của biểu thức.",
+              "Bài 3. Tính giá trị của biểu thức.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 3, xác định biểu thức có số tự nhiên, số thập phân và phân số."
             ],
             [
@@ -26967,7 +26967,7 @@
               "- HS sửa bài và ghi nhớ thứ tự thực hiện phép tính."
             ],
             [
-              "Bài 4. Tính bằng cách thuận tiện.",
+              "Bài 4. Tính bằng cách thuận tiện.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 4 và xác định cần vận dụng tính chất của phép tính để tính nhanh."
             ],
             [
@@ -26995,7 +26995,7 @@
               "- HS sửa bài và ghi nhớ cách vận dụng tính chất giao hoán, kết hợp, phân phối."
             ],
             [
-              "Bài 5. Tính với số đo thời gian.",
+              "Bài 5. Tính với số đo thời gian.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 5 trang 130 và xác định các phép tính với giờ, phút."
             ],
             [
@@ -27091,7 +27091,7 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn chuyển đổi đơn vị đo, tỉ số phần trăm, hình học và chuyển động đều.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Chọn câu trả lời đúng.",
+              "Bài 1. Chọn câu trả lời đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 trang 130, xác định cần chọn số thập phân thích hợp khi đổi đơn vị đo."
             ],
             [
@@ -27123,7 +27123,7 @@
               "- HS sửa bài và ghi nhớ cách đổi số đo."
             ],
             [
-              "Bài 2. Chọn câu trả lời đúng.",
+              "Bài 2. Chọn câu trả lời đúng.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 2 trang 131, xác định bài toán về tỉ số phần trăm và tiền gửi tiết kiệm."
             ],
             [
@@ -27155,7 +27155,7 @@
               "- HS sửa bài và ghi nhớ cách tìm tỉ số phần trăm."
             ],
             [
-              "Bài 3. Nam cắt giấy màu được 3 hình.",
+              "Bài 3. Nam cắt giấy màu được 3 hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image17.png\" alt=\"image17.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 3 trang 131, đọc số đo của hình tam giác, hình thang và hình tròn."
             ],
             [
@@ -27187,7 +27187,7 @@
               "- HS sửa bài và ghi nhớ công thức tính diện tích, chu vi."
             ],
             [
-              "Bài 4. Khối gỗ hình lập phương và khối gỗ hình hộp chữ nhật.",
+              "Bài 4. Khối gỗ hình lập phương và khối gỗ hình hộp chữ nhật.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image18.png\" alt=\"image18.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 4, quan sát hình và các kích thước đã cho."
             ],
             [
@@ -27199,7 +27199,7 @@
               "- HS trả lời: Khối hộp chữ nhật N có chiều dài 10 cm, chiều rộng 3 cm, chiều cao 4 cm."
             ],
             [
-              "- GV hướng dẫn HS tính diện tích xung quanh, diện tích toàn phần và thể tích của hai hình.",
+              "- GV hướng dẫn HS tính diện tích xung quanh, diện tích toàn phần và thể tích của hai hình.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image19.png\" alt=\"image19.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu công thức: Sxq hình lập phương = 4a²; Stp = 6a²; V = a × a × a; Sxq hình hộp chữ nhật = chu vi đáy × chiều cao; Stp = Sxq + 2 × diện tích đáy; V = dài × rộng × cao."
             ],
             [
@@ -27215,7 +27215,7 @@
               "- HS sửa bài và ghi nhớ công thức tính hình lập phương, hình hộp chữ nhật."
             ],
             [
-              "Bài 5. Tìm số tự nhiên hoặc số thập phân thích hợp.",
+              "Bài 5. Tìm số tự nhiên hoặc số thập phân thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image20.png\" alt=\"image20.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 5 trang 132, quan sát ba con vật và các dữ kiện s, v, t."
             ],
             [
@@ -27311,11 +27311,11 @@
               "2. Luyện tập - Thực hành (27 phút)\nMục tiêu: Ôn đọc biểu đồ, giải bài toán hình hộp chữ nhật, chuyển động đều và mật độ dân số.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Thống kê số huy chương của Đoàn Việt Nam tại Sea Games 31.",
+              "Bài 1. Thống kê số huy chương của Đoàn Việt Nam tại Sea Games 31.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image21.png\" alt=\"image21.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 trang 132, quan sát bảng thống kê số HCV, HCB, HCĐ của bốn môn."
             ],
             [
-              "- GV cho HS quan sát tiếp biểu đồ cột và biểu đồ hình quạt tròn ở trang 133.",
+              "- GV cho HS quan sát tiếp biểu đồ cột và biểu đồ hình quạt tròn ở trang 133.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image22.png\" alt=\"image22.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát biểu đồ cột về số HCV của bốn môn và biểu đồ hình quạt tròn của môn Wushu."
             ],
             [
@@ -27347,7 +27347,7 @@
               "- HS sửa bài và ghi nhớ cách đọc biểu đồ."
             ],
             [
-              "Bài 2. Bể cá dạng hình hộp chữ nhật.",
+              "Bài 2. Bể cá dạng hình hộp chữ nhật.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image23.png\" alt=\"image23.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 2 trang 134, quan sát hình bể cá và xác định dữ kiện."
             ],
             [
@@ -27375,7 +27375,7 @@
               "- HS sửa bài và ghi nhớ cách giải bài toán hình hộp chữ nhật kết hợp tỉ số phần trăm."
             ],
             [
-              "Bài 3. Bài toán xe buýt và taxi.",
+              "Bài 3. Bài toán xe buýt và taxi.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image24.png\" alt=\"image24.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 3 trang 134, xác định dữ kiện về thời gian và vận tốc taxi."
             ],
             [
@@ -27403,7 +27403,7 @@
               "- HS sửa bài và ghi nhớ cách phân tích bài toán chuyển động đều."
             ],
             [
-              "Bài 4. Bài toán mật độ dân số.",
+              "Bài 4. Bài toán mật độ dân số.\n<img src=\"assets/khbd_images/lop5/toan/tuan_35/image25.png\" alt=\"image25.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 4 trang 134 và xác định cần tìm số dân tăng thêm."
             ],
             [

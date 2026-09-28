@@ -4752,6 +4752,27 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           '  </w:body>\n' +
           '</w:document>');
         var cleanDocHtml = (docHtml || '').replace(/text-justify\s*:\s*inter-ideograph\s*;?/gi, '');
+        if (cleanDocHtml.indexOf('<img') !== -1) {
+          cleanDocHtml = cleanDocHtml.replace(/<img\b([^>]*)>/gi, function(fullTag, attrs) {
+            var newAttrs = attrs;
+            if (!/\bwidth\s*=/i.test(newAttrs)) {
+              newAttrs = ' width="306"' + newAttrs;
+            } else {
+              newAttrs = newAttrs.replace(/\bwidth\s*=\s*["']?(\d+)["']?/i, function(m, w) {
+                return (parseInt(w) > 350) ? 'width="306"' : m;
+              });
+            }
+            if (/\bstyle\s*=\s*["']([^"']*)["']/i.test(newAttrs)) {
+              newAttrs = newAttrs.replace(/\bstyle\s*=\s*["']([^"']*)["']/i, function(m, s) {
+                var cleanStyle = s.replace(/(?:^|;)\s*(?:max-|min-)?width\s*:\s*[^;]+/gi, '').replace(/^;\s*/, '').trim();
+                return 'style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto; ' + cleanStyle + '"';
+              });
+            } else {
+              newAttrs += ' style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto;"';
+            }
+            return '<img' + newAttrs + '>';
+          });
+        }
         var fullHtml = cleanDocHtml.includes('<meta charset=') ? cleanDocHtml : ('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>' + cleanDocHtml + '</body></html>');
         zip.file('word/content.html', '\ufeff' + fullHtml);
 

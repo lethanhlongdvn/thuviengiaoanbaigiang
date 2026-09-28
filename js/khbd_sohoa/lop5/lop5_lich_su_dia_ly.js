@@ -53,7 +53,7 @@
               "+ HS quan sát hình 1, 2 trong SGK."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_1/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ HS nhận biết hình 1 là Cột cờ Lũng Cú; hình 2 là Mũi Cà Mau."
             ],
             [
@@ -83,7 +83,7 @@
               "+ HS chỉ vị trí Việt Nam trên bản đồ và nêu: Việt Nam nằm ở khu vực Đông Nam Á, thuộc châu Á."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_1/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ HS quan sát bản đồ, nhận diện lãnh thổ đất liền, vùng biển, đảo và quần đảo của Việt Nam."
             ],
             [
@@ -134,7 +134,7 @@
               "+ HS quan sát hình 4 và chuẩn bị trả lời."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_1/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ HS đọc các ô thông tin: thiên nhiên nhiệt đới ẩm gió mùa; cây trồng, vật nuôi vùng nhiệt đới; giao thông vận tải biển, xuất khẩu, nhập khẩu; nhiều thiên tai, đặc biệt là bão."
             ],
             [
@@ -285,7 +285,7 @@
               "+ HS trả lời: Vùng đất gồm toàn bộ phần đất liền và các đảo, quần đảo của Việt Nam trên Biển Đông."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_1/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ HS quan sát bản đồ để nhận biết phần đất liền, vùng biển, một số đảo và quần đảo của Việt Nam."
             ],
             [
@@ -348,7 +348,7 @@
               "+ HS trả lời: Quốc kì hình chữ nhật, nền đỏ, ở giữa có ngôi sao vàng năm cánh."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_1/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ HS quan sát Quốc kì nước Cộng hoà xã hội chủ nghĩa Việt Nam."
             ],
             [
@@ -360,7 +360,7 @@
               "+ HS trả lời: Quốc huy hình tròn, nền đỏ, ở giữa có ngôi sao vàng năm cánh, xung quanh có bông lúa, dưới có nửa bánh xe và dòng chữ “Cộng hoà xã hội chủ nghĩa Việt Nam”."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_1/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ HS quan sát Quốc huy nước Cộng hoà xã hội chủ nghĩa Việt Nam."
             ],
             [
@@ -376,7 +376,7 @@
               "+ HS đọc thông tin “Em có biết?” và lắng nghe GV giới thiệu."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_1/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ HS nhận biết Tiến quân ca do nhạc sĩ Văn Cao sáng tác vào năm 1944 và được chọn làm Quốc ca."
             ],
             [
@@ -403,7 +403,7 @@
               "+ HS lắng nghe nhiệm vụ luyện tập."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_1/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ HS đọc yêu cầu luyện tập và vận dụng trong SGK."
             ],
             [
@@ -486,7 +486,7 @@
               "- HS lắng nghe nhiệm vụ, đọc thầm các câu hát."
             ],
             [
-              "“Bạn ơi hãy đến quê hương chúng tôi\nNgắm mặt biển xanh xa tít chân trời\nNghe sóng vỗ dạt dào biển cả\nVút phi lao gió thổi trên bờ”.\n\nChia sẻ thêm những điều em biết về thiên nhiên Việt Nam.",
+              "“Bạn ơi hãy đến quê hương chúng tôi\nNgắm mặt biển xanh xa tít chân trời\nNghe sóng vỗ dạt dào biển cả\nVút phi lao gió thổi trên bờ”.\n\nChia sẻ thêm những điều em biết về thiên nhiên Việt Nam.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_2/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trao đổi theo cặp đôi, chỉ ra các từ ngữ thể hiện cảnh thiên nhiên Việt Nam: mặt biển xanh, sóng vỗ, biển cả, phi lao, gió thổi.\n- HS chia sẻ thêm hiểu biết của bản thân về thiên nhiên Việt Nam."
             ],
             [
@@ -508,7 +508,7 @@
               "- HS hình thành nhóm 5 - 6 HS/nhóm và nhận nhiệm vụ."
             ],
             [
-              "+ Các nhóm có số lẻ đóng vai làm chuyên gia địa hình. Nhiệm vụ: Đọc thông tin và quan sát hình 1, hãy:",
+              "+ Các nhóm có số lẻ đóng vai làm chuyên gia địa hình. Nhiệm vụ: Đọc thông tin và quan sát hình 1, hãy:\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_2/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ Nhóm số lẻ nhận vai chuyên gia địa hình, đọc thông tin và quan sát hình 1."
             ],
             [
@@ -563,7 +563,7 @@
               "2.2. Khoáng sản"
             ],
             [
-              "+ Các nhóm có số chẵn đóng vai làm chuyên gia khoáng sản. Nhiệm vụ: Đọc thông tin và quan sát các hình 1, 2, hãy:",
+              "+ Các nhóm có số chẵn đóng vai làm chuyên gia khoáng sản. Nhiệm vụ: Đọc thông tin và quan sát các hình 1, 2, hãy:\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_2/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "+ Nhóm số chẵn nhận vai chuyên gia khoáng sản, đọc thông tin và quan sát hình 1, 2."
             ],
             [
@@ -715,7 +715,7 @@
               "2.1. Khí hậu"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin, bảng nhiệt độ trung bình của Hà Nội và Thành phố Hồ Chí Minh, quan sát các hình 3, 4 để thực hiện nhiệm vụ:",
+              "- GV yêu cầu HS đọc thông tin, bảng nhiệt độ trung bình của Hà Nội và Thành phố Hồ Chí Minh, quan sát các hình 3, 4 để thực hiện nhiệm vụ:\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_2/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bảng nhiệt độ và hình 3, 4."
             ],
             [
@@ -802,7 +802,7 @@
               "2.2. Sông, hồ"
             ],
             [
-              "- GV yêu cầu HS: Đọc thông tin và quan sát các hình 5, 6, hãy:",
+              "- GV yêu cầu HS: Đọc thông tin và quan sát các hình 5, 6, hãy:\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_2/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin và quan sát hình 5, 6."
             ],
             [
@@ -967,7 +967,7 @@
               "2.1. Đất"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin và quan sát các hình 7, 8 để thực hiện nhiệm vụ:",
+              "- GV yêu cầu HS đọc thông tin và quan sát các hình 7, 8 để thực hiện nhiệm vụ:\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_3/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin và quan sát hình 7, 8."
             ],
             [
@@ -1014,7 +1014,7 @@
               "2.2. Rừng"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin, quan sát các hình 9, 10 và thực hiện nhiệm vụ:",
+              "- GV yêu cầu HS đọc thông tin, quan sát các hình 9, 10 và thực hiện nhiệm vụ:\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_3/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin và quan sát hình 9, 10."
             ],
             [
@@ -1130,7 +1130,7 @@
               "2. Khám phá: Tìm hiểu một số biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai (23 phút)\nMục tiêu: Đưa ra được một số biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin, quan sát hình 11 và dựa vào hiểu biết của bản thân, nêu một số biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.",
+              "- GV yêu cầu HS đọc thông tin, quan sát hình 11 và dựa vào hiểu biết của bản thân, nêu một số biện pháp bảo vệ tài nguyên thiên nhiên và phòng, chống thiên tai.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_3/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình 11 và suy nghĩ cá nhân."
             ],
             [
@@ -1205,7 +1205,7 @@
               "3. Luyện tập (7 phút)\nMục tiêu: Hoàn thành bảng thông tin về vai trò của thiên nhiên Việt Nam đối với đời sống và hoạt động sản xuất của con người.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS làm việc cá nhân thực hiện nhiệm vụ phần Luyện tập: Hoàn thành bảng thông tin về vai trò của thiên nhiên Việt Nam đối với đời sống và hoạt động sản xuất của con người theo gợi ý dưới đây.",
+              "- GV yêu cầu HS làm việc cá nhân thực hiện nhiệm vụ phần Luyện tập: Hoàn thành bảng thông tin về vai trò của thiên nhiên Việt Nam đối với đời sống và hoạt động sản xuất của con người theo gợi ý dưới đây.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_3/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc cá nhân, hoàn thành bảng Luyện tập trong SHS."
             ],
             [
@@ -1323,7 +1323,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; giúp HS liên hệ kiến thức thực tế về biển, đảo Việt Nam.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình 1 trong SGK và hỏi: Hình 1 là đảo thuộc quần đảo Trường Sa của nước ta. Hãy kể tên một số đảo, quần đảo khác của Việt Nam mà em biết.",
+              "- GV cho HS quan sát hình 1 trong SGK và hỏi: Hình 1 là đảo thuộc quần đảo Trường Sa của nước ta. Hãy kể tên một số đảo, quần đảo khác của Việt Nam mà em biết.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_4/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình và nêu: đảo Phú Quốc, đảo Lý Sơn, đảo Cồn Cỏ, quần đảo Hoàng Sa, quần đảo Trường Sa,..."
             ],
             [
@@ -1341,7 +1341,7 @@
               "2.1. Tìm hiểu vị trí địa lí của vùng biển, một số đảo, quần đảo lớn của Việt Nam\nMục tiêu: HS xác định được vị trí địa lí của vùng biển, một số đảo, quần đảo lớn của Việt Nam trên bản đồ hoặc lược đồ.\nCách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ: Đọc thông tin trong SGK, quan sát hình 2, hình 3, hình 4 và bản đồ Việt Nam, em hãy xác định vị trí địa lí của vùng biển, một số đảo, quần đảo lớn của Việt Nam.",
+              "- GV giao nhiệm vụ: Đọc thông tin trong SGK, quan sát hình 2, hình 3, hình 4 và bản đồ Việt Nam, em hãy xác định vị trí địa lí của vùng biển, một số đảo, quần đảo lớn của Việt Nam.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_4/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình ảnh và bản đồ; xác định vùng biển Việt Nam là một phần của Biển Đông; nêu được một số đảo, quần đảo lớn như Phú Quốc, Lý Sơn, Cồn Cỏ, Côn Đảo, Hoàng Sa, Trường Sa."
             ],
             [
@@ -1471,7 +1471,7 @@
               "2.1. Tìm hiểu công cuộc bảo vệ chủ quyền biển, đảo trong lịch sử\nMục tiêu: HS nêu được một số hoạt động bảo vệ chủ quyền biển, đảo thời các chúa Nguyễn, Triều Nguyễn và thời Pháp thuộc.\nCách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ nhóm 4: Đọc thông tin trong SGK, quan sát hình 5, hình 6 và tư liệu, hãy trình bày những hoạt động chính trong công cuộc bảo vệ chủ quyền của Việt Nam ở Biển Đông qua các thời kì.",
+              "- GV giao nhiệm vụ nhóm 4: Đọc thông tin trong SGK, quan sát hình 5, hình 6 và tư liệu, hãy trình bày những hoạt động chính trong công cuộc bảo vệ chủ quyền của Việt Nam ở Biển Đông qua các thời kì.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_4/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình và thảo luận nhóm 4; ghi ý chính về đội Hoàng Sa, hoạt động của Triều Nguyễn, bia chủ quyền thời Pháp thuộc."
             ],
             [
@@ -1483,7 +1483,7 @@
               "- HS trả lời: Các đội viên phải vượt biển xa, gặp sóng gió, thiếu thốn, nguy hiểm đến tính mạng nhưng vẫn hoàn thành nhiệm vụ."
             ],
             [
-              "- GV cho HS quan sát tư liệu Đại Nam thực lục và hình 6, hỏi: Tư liệu và bia chủ quyền chứng minh điều gì?",
+              "- GV cho HS quan sát tư liệu Đại Nam thực lục và hình 6, hỏi: Tư liệu và bia chủ quyền chứng minh điều gì?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_4/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: Tư liệu và bia chủ quyền cho thấy Việt Nam đã có hoạt động quản lí, đo đạc, cắm mốc, dựng bia và thực thi chủ quyền ở Hoàng Sa, Trường Sa qua các thời kì."
             ],
             [
@@ -1502,7 +1502,7 @@
               "2.2. Tìm hiểu hoạt động bảo vệ biển, đảo hiện nay và kể chuyện về biển, đảo Việt Nam\nMục tiêu: HS nêu được một số hoạt động hiện nay nhằm bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông; kể được một câu chuyện hoặc bài thơ, bài hát về biển, đảo.\nCách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ nhóm 6: Đọc thông tin trong SGK, quan sát hình 7, hình 8, hãy nêu một số hoạt động hiện nay của Nhà nước và nhân dân ta trong bảo vệ chủ quyền biển, đảo.",
+              "- GV giao nhiệm vụ nhóm 6: Đọc thông tin trong SGK, quan sát hình 7, hình 8, hãy nêu một số hoạt động hiện nay của Nhà nước và nhân dân ta trong bảo vệ chủ quyền biển, đảo.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_4/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 7, hình 8, thảo luận nhóm 6 và nêu: xây dựng trường học, trạm y tế trên đảo; đưa dân ra sinh sống; thành lập đơn vị hành chính; tuần tra bảo vệ biển đảo; phát triển kinh tế biển; hợp tác theo luật pháp quốc tế."
             ],
             [
@@ -1529,7 +1529,7 @@
               "3. Luyện tập (8 phút)\nMục tiêu: HS củng cố kiến thức về những hoạt động chính trong công cuộc bảo vệ chủ quyền biển, đảo Việt Nam.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát yêu cầu luyện tập trong SGK: Hoàn thành bảng về những hoạt động chính trong công cuộc bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông.",
+              "- GV yêu cầu HS quan sát yêu cầu luyện tập trong SGK: Hoàn thành bảng về những hoạt động chính trong công cuộc bảo vệ chủ quyền, các quyền và lợi ích hợp pháp của Việt Nam ở Biển Đông.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_4/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát yêu cầu và chuẩn bị kẻ bảng vào vở."
             ],
             [
@@ -1634,7 +1634,7 @@
               "- HS về nhóm, nhận nhiệm vụ và phân công nhiệm vụ trong nhóm."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin và quan sát bảng số dân các nước Đông Nam Á năm 2024.",
+              "- GV yêu cầu HS đọc thông tin và quan sát bảng số dân các nước Đông Nam Á năm 2024.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_5/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bảng số liệu và chú ý đơn vị “triệu người”."
             ],
             [
@@ -1689,7 +1689,7 @@
               "- HS làm việc theo nhóm đôi, đọc thông tin và quan sát biểu đồ số dân Việt Nam giai đoạn 1999 - 2024."
             ],
             [
-              "- GV yêu cầu: Cho biết số dân của nước ta năm 2024 tăng khoảng bao nhiêu triệu người so với năm 1999.",
+              "- GV yêu cầu: Cho biết số dân của nước ta năm 2024 tăng khoảng bao nhiêu triệu người so với năm 1999.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_5/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS xác định nhiệm vụ: cần so sánh số dân năm 2024 với số dân năm 1999 trên biểu đồ."
             ],
             [
@@ -1834,7 +1834,7 @@
               "- HS về nhóm, nhận nhiệm vụ và phân công nhiệm vụ trong nhóm."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin và quan sát hình 2.",
+              "- GV yêu cầu HS đọc thông tin và quan sát hình 2.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_5/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bản đồ phân bố dân cư Việt Nam năm 2024 và chú giải."
             ],
             [
@@ -1862,7 +1862,7 @@
               "- HS liên hệ và trả lời theo địa phương mình đang sống."
             ],
             [
-              "- GV phát Phiếu học tập cho các nhóm, yêu cầu HS hoàn thành bảng về khu vực đông dân, thưa dân và nêu hậu quả của việc phân bố dân cư chưa hợp lí.",
+              "- GV phát Phiếu học tập cho các nhóm, yêu cầu HS hoàn thành bảng về khu vực đông dân, thưa dân và nêu hậu quả của việc phân bố dân cư chưa hợp lí.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_5/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nhận Phiếu học tập, thảo luận nhóm và ghi kết quả vào phiếu theo yêu cầu."
             ],
             [
@@ -1982,11 +1982,11 @@
               "- HS nhận phiếu, ổn định nhóm, phân công bạn đọc thông tin, bạn quan sát bản đồ, bạn ghi kết quả, bạn trình bày."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 3 và quan sát Hình 2. Bản đồ phân bố dân cư Việt Nam năm 2024.",
+              "- GV yêu cầu HS đọc thông tin mục 3 và quan sát Hình 2. Bản đồ phân bố dân cư Việt Nam năm 2024.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_6/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bản đồ và chú giải mật độ dân số."
             ],
             [
-              "- GV yêu cầu HS hoàn thành Phiếu học tập: xác định khu vực đông dân, khu vực thưa dân và nêu nhận xét.",
+              "- GV yêu cầu HS hoàn thành Phiếu học tập: xác định khu vực đông dân, khu vực thưa dân và nêu nhận xét.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_6/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thảo luận nhóm, hoàn thành bảng trong Phiếu học tập và thống nhất nhận xét."
             ],
             [
@@ -2026,7 +2026,7 @@
               "- HS lắng nghe, liên hệ từ phân bố dân cư đến cộng đồng các dân tộc Việt Nam ở nhiều vùng miền."
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Đoàn kết dân tộc trong phong trào Cần vương”.",
+              "- GV yêu cầu HS đọc câu chuyện “Đoàn kết dân tộc trong phong trào Cần vương”.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_6/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, xác định nhân vật, sự việc chính và việc làm thể hiện tinh thần đoàn kết."
             ],
             [
@@ -2038,7 +2038,7 @@
               "- HS trả lời: Đồng bào các dân tộc tận tình giúp đỡ, bảo vệ bí mật hành trình và tiếp tế lương thực, đồ dùng cần thiết."
             ],
             [
-              "- GV yêu cầu HS đọc thêm câu chuyện “Tình cảm yêu thương của đồng bào dân tộc ở Tân Trào đối với Bác Hồ”.",
+              "- GV yêu cầu HS đọc thêm câu chuyện “Tình cảm yêu thương của đồng bào dân tộc ở Tân Trào đối với Bác Hồ”.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_6/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện và xác định tình cảm, việc làm của đồng bào đối với Bác Hồ."
             ],
             [
@@ -2182,7 +2182,7 @@
               "- HS về nhóm, lắng nghe và nhận nhiệm vụ học tập."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục a và quan sát Hình 1.",
+              "- GV yêu cầu HS đọc thông tin mục a và quan sát Hình 1.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_6/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát Hình 1 và chuẩn bị câu trả lời."
             ],
             [
@@ -2245,7 +2245,7 @@
               "- HS về nhóm, đọc thông tin, quan sát hình và thống nhất câu trả lời."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục b và quan sát Hình 2, Hình 3.",
+              "- GV yêu cầu HS đọc thông tin mục b và quan sát Hình 2, Hình 3.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_6/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát Hình 2, Hình 3 và chuẩn bị câu trả lời."
             ],
             [
@@ -2375,7 +2375,7 @@
               "- HS nhận nhóm, phân công nhiệm vụ: đọc thông tin, quan sát hình, ghi ý kiến vào phiếu nhóm."
             ],
             [
-              "- GV yêu cầu: Đọc thông tin và quan sát các hình từ 4 đến 6, em hãy:",
+              "- GV yêu cầu: Đọc thông tin và quan sát các hình từ 4 đến 6, em hãy:\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_7/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "HS quan sát hình 4, 5, 6 trong cột GV và chuẩn bị trả lời câu hỏi."
             ],
             [
@@ -2411,7 +2411,7 @@
               "- HS trả lời: Cư dân còn biết đúc đồng làm đồ trang sức, công cụ lao động và vũ khí."
             ],
             [
-              "- GV cho HS đọc/kể lại câu chuyện Sơn Tinh, Thuỷ Tinh và hỏi: Đời sống kinh tế của cư dân Văn Lang, Âu Lạc được phản ánh như thế nào qua truyền thuyết đó?",
+              "- GV cho HS đọc/kể lại câu chuyện Sơn Tinh, Thuỷ Tinh và hỏi: Đời sống kinh tế của cư dân Văn Lang, Âu Lạc được phản ánh như thế nào qua truyền thuyết đó?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_7/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "HS đọc/kể chuyện, liên hệ với sản xuất nông nghiệp và việc phòng chống lũ lụt."
             ],
             [
@@ -2586,7 +2586,7 @@
               "- HS thảo luận nhóm, chọn câu chuyện Thánh Gióng hoặc Sự tích nỏ thần, phân vai người kể và người bổ sung chi tiết."
             ],
             [
-              "- GV gợi ý: HS có thể kể truyền thuyết Thánh Gióng hoặc Sự tích nỏ thần; sau khi kể xong, cả lớp trả lời câu hỏi: Câu chuyện đó để lại cho chúng ta bài học gì?",
+              "- GV gợi ý: HS có thể kể truyền thuyết Thánh Gióng hoặc Sự tích nỏ thần; sau khi kể xong, cả lớp trả lời câu hỏi: Câu chuyện đó để lại cho chúng ta bài học gì?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_7/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "HS quan sát câu chuyện trong SGK, thảo luận và chuẩn bị kể chuyện."
             ],
             [
@@ -2613,7 +2613,7 @@
               "3. Luyện tập (7 phút)\nMục tiêu: Củng cố kiến thức về Nhà nước Văn Lang, Nhà nước Âu Lạc và công cuộc đấu tranh chống ngoại xâm.\n*Cách tiến hành:"
             ],
             [
-              "- GV nêu Câu 1: Hoàn thành bảng (theo gợi ý dưới đây vào vở) về Nhà nước Văn Lang và Nhà nước Âu Lạc.",
+              "- GV nêu Câu 1: Hoàn thành bảng (theo gợi ý dưới đây vào vở) về Nhà nước Văn Lang và Nhà nước Âu Lạc.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_7/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bảng luyện tập trong SGK, kẻ bảng vào vở và hoàn thành các nội dung: Thời gian ra đời, Kinh đô, Người đứng đầu nhà nước."
             ],
             [
@@ -2709,7 +2709,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với nội dung tìm hiểu Vương quốc Phù Nam.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 1 trong SGK và nêu câu hỏi: Hình 1 là một trong những hiện vật tiêu biểu của Vương quốc Phù Nam. Hãy chia sẻ điều em biết về vương quốc này.",
+              "- GV yêu cầu HS quan sát hình 1 trong SGK và nêu câu hỏi: Hình 1 là một trong những hiện vật tiêu biểu của Vương quốc Phù Nam. Hãy chia sẻ điều em biết về vương quốc này.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_8/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, nêu hiểu biết ban đầu: Đây là hiện vật gốm; Vương quốc Phù Nam là một quốc gia cổ ở Nam Bộ Việt Nam."
             ],
             [
@@ -2724,7 +2724,7 @@
               "- HS nhận nhóm, phân công nhiệm vụ, đọc thông tin và quan sát hình trong SGK."
             ],
             [
-              "- GV yêu cầu: Đọc thông tin và quan sát hình 2, 3, em hãy:",
+              "- GV yêu cầu: Đọc thông tin và quan sát hình 2, 3, em hãy:\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_8/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 2, 3 trong cột GV và chuẩn bị trả lời."
             ],
             [
@@ -2748,11 +2748,11 @@
               "- HS trả lời: Truyền thuyết giúp em hiểu thêm cách người xưa lí giải sự ra đời của Vương quốc Phù Nam và vai trò của các nhân vật lập nước."
             ],
             [
-              "- GV yêu cầu HS quan sát các hình từ 4 đến 7 và nêu nhiệm vụ: Kể tên, mô tả một số hiện vật khảo cổ học của Vương quốc Phù Nam.",
+              "- GV yêu cầu HS quan sát các hình từ 4 đến 7 và nêu nhiệm vụ: Kể tên, mô tả một số hiện vật khảo cổ học của Vương quốc Phù Nam.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_8/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các hiện vật và ghi tên hiện vật vào vở."
             ],
             [
-              "- GV tiếp tục cho HS quan sát hình 6, 7 và hỏi: Các hiện vật này thuộc đời sống vật chất hay đời sống tinh thần của cư dân Phù Nam?",
+              "- GV tiếp tục cho HS quan sát hình 6, 7 và hỏi: Các hiện vật này thuộc đời sống vật chất hay đời sống tinh thần của cư dân Phù Nam?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_8/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 6, 7, thảo luận và chuẩn bị trả lời."
             ],
             [
@@ -2869,7 +2869,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với nội dung tìm hiểu Vương quốc Chăm-pa.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 1 và hỏi: Hình 1 là một tháp Chăm tiêu biểu của Vương quốc Chăm-pa. Hãy chia sẻ điều em biết về các đền tháp Chăm.",
+              "- GV yêu cầu HS quan sát hình 1 và hỏi: Hình 1 là một tháp Chăm tiêu biểu của Vương quốc Chăm-pa. Hãy chia sẻ điều em biết về các đền tháp Chăm.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_8/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát, chia sẻ: Đền tháp Chăm thường được xây bằng gạch, có kiến trúc độc đáo, hiện còn ở nhiều nơi miền Trung."
             ],
             [
@@ -2884,7 +2884,7 @@
               "- HS nhận nhiệm vụ nhóm, đọc thông tin, quan sát hình và ghi lại ý chính."
             ],
             [
-              "- GV yêu cầu: Đọc thông tin và quan sát hình 2, 3, em hãy:",
+              "- GV yêu cầu: Đọc thông tin và quan sát hình 2, 3, em hãy:\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_8/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bản đồ phân bố đền tháp Chăm và hình khu di tích Thánh địa Mỹ Sơn."
             ],
             [
@@ -2908,7 +2908,7 @@
               "- HS trả lời: Đền tháp Chăm-pa thường được xây bằng gạch kết hợp với đá sa thạch."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 4 và mô tả nét chính của Tháp Bánh Ít.",
+              "- GV yêu cầu HS quan sát hình 4 và mô tả nét chính của Tháp Bánh Ít.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_8/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 4, nhận xét về dáng tháp, chất liệu và cảnh quan xung quanh."
             ],
             [
@@ -3015,7 +3015,7 @@
               "2. Khám phá: Kể chuyện về đền tháp Chăm (25 phút)\nMục tiêu: Kể lại được một câu chuyện về đền tháp Chăm; biết rút ra ý nghĩa văn hóa từ câu chuyện.\nMục tiêu tích hợp: Tích hợp AI 5.C4.2: HS trải nghiệm tham quan ảo tích hợp AI để khám phá đền tháp Chăm-pa, biết đặt câu hỏi phù hợp và đối chiếu thông tin với SGK.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 2 và nêu nhiệm vụ: Đọc thông tin, em hãy kể một câu chuyện về đền tháp Chăm.\n- GV chia nhóm, giao nhiệm vụ cho mỗi nhóm chọn một câu chuyện, đọc kĩ, xác định nhân vật và sự việc chính.",
+              "- GV yêu cầu HS đọc thông tin mục 2 và nêu nhiệm vụ: Đọc thông tin, em hãy kể một câu chuyện về đền tháp Chăm.\n- GV chia nhóm, giao nhiệm vụ cho mỗi nhóm chọn một câu chuyện, đọc kĩ, xác định nhân vật và sự việc chính.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_9/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin trong SGK, lựa chọn một câu chuyện để kể.\n- HS thảo luận nhóm, phân công bạn kể chuyện, bạn nêu ý nghĩa câu chuyện."
             ],
             [
@@ -3027,7 +3027,7 @@
               "- HS trả lời: Vì ông có tài, giúp dân và được nhân dân kính trọng."
             ],
             [
-              "- GV yêu cầu HS đọc thêm câu chuyện Sự tích Tháp Bà Pô Na-ga.\n- Câu hỏi: Qua câu chuyện, nhân dân địa phương thể hiện tình cảm gì đối với nhân vật được thờ?",
+              "- GV yêu cầu HS đọc thêm câu chuyện Sự tích Tháp Bà Pô Na-ga.\n- Câu hỏi: Qua câu chuyện, nhân dân địa phương thể hiện tình cảm gì đối với nhân vật được thờ?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_9/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, quan sát hình và nêu ý chính.\n- HS trả lời: Nhân dân thể hiện lòng biết ơn, sự tôn kính đối với người đã giúp dân, dạy dân làm ăn."
             ],
             [
@@ -3093,7 +3093,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với nội dung đấu tranh giành độc lập thời kì Bắc thuộc.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc bốn câu thơ của Hồ Chí Minh trong bài thơ Lịch sử nước ta.\n- Câu hỏi: Những câu thơ nhắc đến sự kiện và nhân vật lịch sử nào?\n- GV nhận xét, dẫn dắt vào bài học.",
+              "- GV yêu cầu HS đọc bốn câu thơ của Hồ Chí Minh trong bài thơ Lịch sử nước ta.\n- Câu hỏi: Những câu thơ nhắc đến sự kiện và nhân vật lịch sử nào?\n- GV nhận xét, dẫn dắt vào bài học.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_9/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thơ.\n- HS trả lời: Câu thơ nhắc đến Hai Bà Trưng, Bà Triệu, Lý Bí, Ngô Quyền và các cuộc đấu tranh chống Bắc thuộc.\n- HS lắng nghe, ghi tên bài."
             ],
             [
@@ -3108,7 +3108,7 @@
               "- HS đọc nội dung mục 1.\n- HS trao đổi với bạn: Khởi nghĩa Hai Bà Trưng, khởi nghĩa Bà Triệu, khởi nghĩa Lý Bí - Triệu Quang Phục, khởi nghĩa Mai Thúc Loan, khởi nghĩa Phùng Hưng, khởi nghĩa Khúc Thừa Dụ, khởi nghĩa Ngô Quyền,..."
             ],
             [
-              "- GV chia lớp thành các nhóm 4.\n- GV phát phiếu/bảng gợi ý như SGV, yêu cầu HS thảo luận và nối các mốc thời gian tương ứng với tên các cuộc đấu tranh.\n- GV yêu cầu HS đọc từng mốc thời gian, đối chiếu với tên cuộc đấu tranh trong thẻ để hoàn thành nhiệm vụ.",
+              "- GV chia lớp thành các nhóm 4.\n- GV phát phiếu/bảng gợi ý như SGV, yêu cầu HS thảo luận và nối các mốc thời gian tương ứng với tên các cuộc đấu tranh.\n- GV yêu cầu HS đọc từng mốc thời gian, đối chiếu với tên cuộc đấu tranh trong thẻ để hoàn thành nhiệm vụ.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_9/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nhận phiếu học tập.\n- HS thảo luận nhóm, phân công bạn đọc mốc thời gian, bạn tìm tên cuộc đấu tranh, bạn ghi kết quả.\n- HS hoàn thành bảng theo nhóm."
             ],
             [
@@ -3223,7 +3223,7 @@
               "- HS đọc nội dung mục 2 trong SGK.\n- HS chọn một câu chuyện hoặc nhân vật để kể.\n- HS thảo luận nhóm, thống nhất nội dung cần trình bày."
             ],
             [
-              "- GV giới thiệu kênh hình cần khai thác.\n- Hình 1: Trưng Vương trừ giặc Hán tái hiện khí thế tiến công của nghĩa quân Hai Bà Trưng.\n- Hình 2: Đền thờ Lý Nam Đế giúp HS liên hệ câu chuyện Lý Bí và Nhà nước Vạn Xuân.\n- Hình 3: Tượng đài Ngô Quyền gợi nhắc chiến thắng Bạch Đằng năm 938.",
+              "- GV giới thiệu kênh hình cần khai thác.\n- Hình 1: Trưng Vương trừ giặc Hán tái hiện khí thế tiến công của nghĩa quân Hai Bà Trưng.\n- Hình 2: Đền thờ Lý Nam Đế giúp HS liên hệ câu chuyện Lý Bí và Nhà nước Vạn Xuân.\n- Hình 3: Tượng đài Ngô Quyền gợi nhắc chiến thắng Bạch Đằng năm 938.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_10/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các hình, đọc chú thích và liên hệ với nhân vật lịch sử tương ứng.\n- HS ghi nhớ: Hình 1 gắn với Hai Bà Trưng, hình 2 gắn với Lý Bí, hình 3 gắn với Ngô Quyền."
             ],
             [
@@ -3314,7 +3314,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với nội dung bài học về Triều Lý.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình Chùa Một Cột.\n- Câu hỏi: Hình 1 là công trình kiến trúc tiêu biểu của triều đại nào?\n- Câu hỏi: Em biết gì về Chùa Một Cột hoặc triều đại này?",
+              "- GV yêu cầu HS quan sát hình Chùa Một Cột.\n- Câu hỏi: Hình 1 là công trình kiến trúc tiêu biểu của triều đại nào?\n- Câu hỏi: Em biết gì về Chùa Một Cột hoặc triều đại này?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_10/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình.\n- HS trả lời: Chùa Một Cột là công trình kiến trúc tiêu biểu của Triều Lý.\n- HS chia sẻ hiểu biết cá nhân."
             ],
             [
@@ -3325,7 +3325,7 @@
               "2. Khám phá: Tìm hiểu Triều Lý định đô ở Thăng Long (25 phút)\nMục tiêu: Nêu được nội dung, ý nghĩa của Chiếu dời đô và đóng góp của Lý Công Uẩn đối với dân tộc.\nMục tiêu tích hợp: Tích hợp NLS 1.1.CB2b: HS tra cứu hình ảnh 360 độ hoặc hình ảnh số về chùa Một Cột, Hoàng thành Thăng Long; chọn thông tin ngắn gọn để giới thiệu di tích.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin, khai thác tư liệu và quan sát hình trong SGK.\n- GV giao nhiệm vụ nhóm 4: đọc tư liệu, trao đổi và trả lời các câu hỏi.",
+              "- GV yêu cầu HS đọc thông tin, khai thác tư liệu và quan sát hình trong SGK.\n- GV giao nhiệm vụ nhóm 4: đọc tư liệu, trao đổi và trả lời các câu hỏi.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_10/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình.\n- HS thảo luận nhóm 4, thư kí ghi ý chính."
             ],
             [
@@ -3337,7 +3337,7 @@
               "- HS trả lời: Việc dời đô thể hiện tầm nhìn sáng suốt của vua Lý Thái Tổ, mở ra thời kì phát triển mới của đất nước."
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện Vị vua sáng lập Triều Lý.\n- Câu hỏi: Lý Công Uẩn có những đóng góp nào đối với dân tộc?",
+              "- GV yêu cầu HS đọc câu chuyện Vị vua sáng lập Triều Lý.\n- Câu hỏi: Lý Công Uẩn có những đóng góp nào đối với dân tộc?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_10/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện.\n- HS trả lời: Lý Công Uẩn lập ra Triều Lý, dời đô về Đại La và đổi tên là Thăng Long; đặt nền móng cho sự phát triển lâu dài của đất nước."
             ],
             [
@@ -3453,7 +3453,7 @@
               "- HS lắng nghe, hoàn thiện nội dung vào vở."
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện Nguyễn Phi Ỷ Lan giúp vua trị nước.",
+              "- GV yêu cầu HS đọc câu chuyện Nguyễn Phi Ỷ Lan giúp vua trị nước.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_11/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, chú ý việc làm và đóng góp của Nguyên phi Ỷ Lan."
             ],
             [
@@ -3469,7 +3469,7 @@
               "- HS lắng nghe, ghi nhớ ý chính."
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện Lý Thường Kiệt và cuộc kháng chiến chống quân Tống.",
+              "- GV yêu cầu HS đọc câu chuyện Lý Thường Kiệt và cuộc kháng chiến chống quân Tống.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_11/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, chú ý vai trò của Lý Thường Kiệt trong cuộc kháng chiến."
             ],
             [
@@ -3617,7 +3617,7 @@
               "3. Luyện tập (25 phút)\nMục tiêu: Hoàn thành các nhiệm vụ luyện tập theo SGK; vẽ được sơ đồ tư duy và kể được câu chuyện về nhân vật lịch sử thời Lý.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc phần Luyện tập trong SGK.",
+              "- GV yêu cầu HS đọc phần Luyện tập trong SGK.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_11/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc phần Luyện tập trong SGK."
             ],
             [
@@ -3763,7 +3763,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với nội dung bài học về Triều Trần.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS đọc thầm đoạn thơ trong phần Khởi động của SGK.\n- GV nêu câu hỏi: Theo em, các câu thơ trên nói đến những đóng góp nào của Triều Trần đối với lịch sử dân tộc?",
+              "- GV tổ chức cho HS đọc thầm đoạn thơ trong phần Khởi động của SGK.\n- GV nêu câu hỏi: Theo em, các câu thơ trên nói đến những đóng góp nào của Triều Trần đối với lịch sử dân tộc?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_12/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thầm đoạn thơ trong SGK.\n- HS trả lời: Các câu thơ nói đến công lao của Triều Trần trong xây dựng đất nước và ba lần đánh thắng quân Mông - Nguyên."
             ],
             [
@@ -3809,7 +3809,7 @@
               "- HS lắng nghe, bổ sung ý vào vở và ghi nhớ nét chính về bộ máy nhà nước thời Trần."
             ],
             [
-              "- Nhóm 2 quan sát Hình 1, đọc đoạn thông tin khổ cuối và mục Em có biết trong SGK.\n- Quân đội nhà Trần được tổ chức như thế nào?",
+              "- Nhóm 2 quan sát Hình 1, đọc đoạn thông tin khổ cuối và mục Em có biết trong SGK.\n- Quân đội nhà Trần được tổ chức như thế nào?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_12/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_12/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Hình 1, đọc thông tin và mục Em có biết trong SGK.\n- Đại diện nhóm 2 trình bày: Quân đội nhà Trần được tổ chức quy củ, được rèn luyện thường xuyên và có nhiều tướng giỏi."
             ],
             [
@@ -3836,7 +3836,7 @@
               "2.2. Kể câu chuyện về một nhân vật lịch sử của Triều Trần và nêu đóng góp của nhân vật đó (10 phút)"
             ],
             [
-              "- Các em đọc các câu chuyện trong SGK: Trạng nguyên trẻ tuổi nhất Việt Nam và Người thầy lưu danh muôn đời.\n- Các em quan sát Hình 2 trong câu chuyện về Chu Văn An.\n- Em hãy chọn một câu chuyện và kể lại ngắn gọn trước lớp.\n- Nhân vật trong câu chuyện có đóng góp gì đối với lịch sử dân tộc?\n- Em học được gì từ nhân vật đó?",
+              "- Các em đọc các câu chuyện trong SGK: Trạng nguyên trẻ tuổi nhất Việt Nam và Người thầy lưu danh muôn đời.\n- Các em quan sát Hình 2 trong câu chuyện về Chu Văn An.\n- Em hãy chọn một câu chuyện và kể lại ngắn gọn trước lớp.\n- Nhân vật trong câu chuyện có đóng góp gì đối với lịch sử dân tộc?\n- Em học được gì từ nhân vật đó?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_12/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc các câu chuyện trong SGK.\n- HS kể ngắn gọn câu chuyện về Nguyễn Hiền hoặc Chu Văn An.\n- HS nêu: Nguyễn Hiền là trạng nguyên trẻ tuổi, thể hiện truyền thống hiếu học; Chu Văn An là người thầy mẫu mực, góp phần phát triển giáo dục thời Trần.\n- HS trả lời: Em học được tinh thần hiếu học, ý chí vươn lên, sự chính trực và trách nhiệm với đất nước."
             ],
             [
@@ -4057,7 +4057,7 @@
               "2.1. Tìm hiểu tinh thần đoàn kết và quyết tâm đánh giặc thời Trần (7 phút)"
             ],
             [
-              "- GV yêu cầu HS đọc lại thông tin mục 2 trong SGK, quan sát Hình 3 và trả lời: Hình 3 gắn với sự kiện nào trong cuộc kháng chiến chống quân Mông - Nguyên?\n- GV dán/trình chiếu Hình 3 dưới câu lệnh để HS khai thác tranh.",
+              "- GV yêu cầu HS đọc lại thông tin mục 2 trong SGK, quan sát Hình 3 và trả lời: Hình 3 gắn với sự kiện nào trong cuộc kháng chiến chống quân Mông - Nguyên?\n- GV dán/trình chiếu Hình 3 dưới câu lệnh để HS khai thác tranh.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_13/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Hình 3 và trả lời: Hình 3 gắn với Hội nghị Diên Hồng, nơi các bô lão thể hiện quyết tâm đồng lòng đánh giặc."
             ],
             [
@@ -4206,7 +4206,7 @@
               "2.1. Khai thác tư liệu, tranh ảnh về trận Bạch Đằng năm 1288 (12 phút)"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin trong SGK, quan sát Hình 4 và trả lời: Hình 4 là hiện vật gì? Hiện vật đó liên quan đến trận đánh nào?\n- GV dán/trình chiếu Hình 4 dưới câu lệnh để HS khai thác tư liệu.",
+              "- GV yêu cầu HS đọc thông tin trong SGK, quan sát Hình 4 và trả lời: Hình 4 là hiện vật gì? Hiện vật đó liên quan đến trận đánh nào?\n- GV dán/trình chiếu Hình 4 dưới câu lệnh để HS khai thác tư liệu.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_13/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Hình 4 và trả lời: Hình 4 là cọc Bạch Đằng năm 1288, liên quan đến chiến thắng Bạch Đằng trong kháng chiến chống quân Mông - Nguyên."
             ],
             [
@@ -4214,7 +4214,7 @@
               "- HS trả lời: Quân dân nhà Trần đã chuẩn bị trận địa cọc dưới lòng sông, lợi dụng thủy triều để làm thuyền giặc mắc cọc rồi phản công."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 5, xác định trên lược đồ đường rút lui của quân Nguyên, hướng tiến công của quân ta và vị trí bãi cọc ngầm.\n- GV dán/trình chiếu Hình 5 dưới câu lệnh để HS khai thác lược đồ.",
+              "- GV yêu cầu HS quan sát Hình 5, xác định trên lược đồ đường rút lui của quân Nguyên, hướng tiến công của quân ta và vị trí bãi cọc ngầm.\n- GV dán/trình chiếu Hình 5 dưới câu lệnh để HS khai thác lược đồ.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_13/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Hình 5, chỉ được đường rút lui của quân Nguyên, hướng tiến công của quân ta và vị trí bãi cọc ngầm trên lược đồ."
             ],
             [
@@ -4344,7 +4344,7 @@
               "2. Khám phá - Luyện tập: Hệ thống hoá kiến thức về đất nước Việt Nam và các quốc gia đầu tiên (27 phút)\nMục tiêu: HS hoàn thành được sơ đồ tư duy về Việt Nam; hoàn thành được bảng về một số nhà nước đầu tiên trên lãnh thổ Việt Nam.\nMục tiêu tích hợp AI 5.A3.1: HS dùng Quizizz hoặc Kahoot có hỗ trợ AI để củng cố kiến thức, đồng thời hiểu cần đọc kĩ câu hỏi và tự chọn đáp án.\nMục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS trung thực khi làm bài ôn tập, không sao chép đáp án của bạn.\nCách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ: Đọc Câu 1 trong SGK và vẽ sơ đồ tư duy thể hiện các nội dung: vị trí địa lí, phạm vi lãnh thổ và đơn vị hành chính, đặc điểm địa hình, đặc điểm khí hậu của Việt Nam.\n- GV yêu cầu HS làm việc cá nhân trong 5 phút, sau đó trao đổi nhóm đôi để bổ sung ý còn thiếu.",
+              "- GV giao nhiệm vụ: Đọc Câu 1 trong SGK và vẽ sơ đồ tư duy thể hiện các nội dung: vị trí địa lí, phạm vi lãnh thổ và đơn vị hành chính, đặc điểm địa hình, đặc điểm khí hậu của Việt Nam.\n- GV yêu cầu HS làm việc cá nhân trong 5 phút, sau đó trao đổi nhóm đôi để bổ sung ý còn thiếu.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_14/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Câu 1.\n- HS làm việc cá nhân, sau đó trao đổi nhóm đôi để hoàn thiện sơ đồ."
             ],
             [
@@ -4356,7 +4356,7 @@
               "- Đại diện nhóm trình bày, nhóm khác nhận xét.\n- HS lắng nghe, chỉnh sửa sơ đồ.\n- HS trả lời: Vì các yếu tố đó giúp hiểu đặc điểm thiên nhiên, đời sống, sản xuất và việc bảo vệ lãnh thổ của đất nước."
             ],
             [
-              "- GV giao nhiệm vụ Câu 2: Hoàn thành bảng về những quốc gia đầu tiên trên lãnh thổ Việt Nam.\n- GV nhắc HS quan sát kĩ các cột: tên nhà nước, địa bàn chủ yếu, hiện vật/công trình tiêu biểu.",
+              "- GV giao nhiệm vụ Câu 2: Hoàn thành bảng về những quốc gia đầu tiên trên lãnh thổ Việt Nam.\n- GV nhắc HS quan sát kĩ các cột: tên nhà nước, địa bàn chủ yếu, hiện vật/công trình tiêu biểu.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_14/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Câu 2 và hoàn thành bảng vào vở.\n- HS có thể hoàn thành bảng như sau:"
             ],
             [
@@ -4430,7 +4430,7 @@
               "2. Khám phá - Luyện tập: Ôn tập thời kì Bắc thuộc, Triều Lý, Triều Trần (27 phút)\nMục tiêu: HS hoàn thành bảng về các cuộc đấu tranh tiêu biểu thời Bắc thuộc; lựa chọn được thông tin phù hợp với Triều Lý và Triều Trần.\nMục tiêu tích hợp NLS 2.3.CB2a: HS tham gia trò chơi ôn tập trên Wordwall/Quizizz để củng cố kiến thức về các quốc gia đầu tiên và các triều đại phong kiến đã học.\nMục tiêu tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS hệ thống lại truyền thống dựng nước, giữ nước; bồi dưỡng lòng biết ơn cha ông.\nCách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ Câu 3: Hoàn thành bảng về các cuộc đấu tranh tiêu biểu thời Bắc thuộc.\n- GV yêu cầu HS làm việc nhóm 4, đọc tên cột trong bảng và thống nhất đáp án.",
+              "- GV giao nhiệm vụ Câu 3: Hoàn thành bảng về các cuộc đấu tranh tiêu biểu thời Bắc thuộc.\n- GV yêu cầu HS làm việc nhóm 4, đọc tên cột trong bảng và thống nhất đáp án.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_14/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Câu 3.\n- HS thảo luận nhóm 4 và hoàn thành bảng như sau:"
             ],
             [
@@ -4442,7 +4442,7 @@
               "- HS lắng nghe, sửa bảng nếu cần."
             ],
             [
-              "- GV giao nhiệm vụ Câu 4: Lựa chọn thông tin cho phù hợp với Triều Lý và Triều Trần, sau đó ghi kết quả vào vở.\n- GV yêu cầu HS làm việc cá nhân trước, sau đó trao đổi nhóm đôi để kiểm tra kết quả.",
+              "- GV giao nhiệm vụ Câu 4: Lựa chọn thông tin cho phù hợp với Triều Lý và Triều Trần, sau đó ghi kết quả vào vở.\n- GV yêu cầu HS làm việc cá nhân trước, sau đó trao đổi nhóm đôi để kiểm tra kết quả.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_14/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Câu 4 và làm việc cá nhân.\n- HS trao đổi nhóm đôi để thống nhất kết quả."
             ],
             [
@@ -4525,7 +4525,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; giúp HS liên hệ nhân vật Lê Lợi với khởi nghĩa Lam Sơn và Triều Hậu Lê.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS quan sát hình tượng đài anh hùng dân tộc Lê Lợi và hỏi: Hình trong SGK gợi cho em nhớ đến nhân vật lịch sử nào?",
+              "- GV tổ chức cho HS quan sát hình tượng đài anh hùng dân tộc Lê Lợi và hỏi: Hình trong SGK gợi cho em nhớ đến nhân vật lịch sử nào?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_15/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình và trả lời: Hình gợi nhớ đến anh hùng dân tộc Lê Lợi."
             ],
             [
@@ -4551,7 +4551,7 @@
               "2.1. Khái quát về khởi nghĩa Lam Sơn"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin trong SGK, quan sát kênh hình và đọc nhiệm vụ: Nêu một số nét chính về khởi nghĩa Lam Sơn.",
+              "- GV yêu cầu HS đọc thông tin trong SGK, quan sát kênh hình và đọc nhiệm vụ: Nêu một số nét chính về khởi nghĩa Lam Sơn.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_15/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình và xác định nhiệm vụ cần thực hiện."
             ],
             [
@@ -4606,7 +4606,7 @@
               "2.2. Kể câu chuyện về một nhân vật trong khởi nghĩa Lam Sơn"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Lê Lợi dựng cờ khởi nghĩa” trong SGK.",
+              "- GV yêu cầu HS đọc câu chuyện “Lê Lợi dựng cờ khởi nghĩa” trong SGK.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_15/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_15/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, chú ý hoàn cảnh Lê Lợi dựng cờ khởi nghĩa."
             ],
             [
@@ -4753,7 +4753,7 @@
               "2.1. Tìm hiểu vị trí và diễn biến trận Chi Lăng"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Trận Chi Lăng” và quan sát lược đồ trong SGK.",
+              "- GV yêu cầu HS đọc câu chuyện “Trận Chi Lăng” và quan sát lược đồ trong SGK.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_15/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, quan sát lược đồ và xác định các kí hiệu chính."
             ],
             [
@@ -4956,7 +4956,7 @@
               "- HS trả lời: Đất nước thịnh đạt nhất dưới thời vua Lê Thánh Tông."
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Lê Thánh Tông - nhà chính trị tài ba” và nêu việc làm tiêu biểu của vua Lê Thánh Tông.",
+              "- GV yêu cầu HS đọc câu chuyện “Lê Thánh Tông - nhà chính trị tài ba” và nêu việc làm tiêu biểu của vua Lê Thánh Tông.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_16/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện và nêu: Vua Lê Thánh Tông tiến hành cải cách nhiều lĩnh vực, chú trọng bảo vệ biên cương, ban hành Bộ luật Hồng Đức và coi trọng người tài."
             ],
             [
@@ -4964,7 +4964,7 @@
               "- HS trả lời: Văn học và khoa học đạt nhiều thành tựu với các tác gia tiêu biểu như Nguyễn Trãi, Ngô Sĩ Liên, Lương Thế Vinh."
             ],
             [
-              "- GV cho HS quan sát ô “Em có biết?” về Ngô Sĩ Liên và hỏi: Ngô Sĩ Liên có đóng góp gì?",
+              "- GV cho HS quan sát ô “Em có biết?” về Ngô Sĩ Liên và hỏi: Ngô Sĩ Liên có đóng góp gì?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_16/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Ngô Sĩ Liên là nhà sử học tiêu biểu, ghi lại lịch sử nước ta từ thời Hùng Vương đến Triều Hậu Lê."
             ],
             [
@@ -4979,7 +4979,7 @@
               "2.2. Kể câu chuyện về một nhân vật lịch sử tiêu biểu dưới Triều Hậu Lê"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Trạng Lường Lương Thế Vinh” và xác định nhân vật, phẩm chất, đóng góp của nhân vật.",
+              "- GV yêu cầu HS đọc câu chuyện “Trạng Lường Lương Thế Vinh” và xác định nhân vật, phẩm chất, đóng góp của nhân vật.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_16/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, xác định: Lương Thế Vinh là người thông minh, nhanh trí, giỏi tính toán, được gọi là Trạng Lường."
             ],
             [
@@ -5014,7 +5014,7 @@
               "3. Luyện tập (10 phút)\nMục tiêu: Hoàn thành bảng về đóng góp của một số nhân vật lịch sử tiêu biểu và kể lại câu chuyện đã sưu tầm.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc Câu 1 trong SGK: Hoàn thành bảng về đóng góp của một số nhân vật lịch sử tiêu biểu trong khởi nghĩa Lam Sơn và Triều Hậu Lê.",
+              "- GV yêu cầu HS đọc Câu 1 trong SGK: Hoàn thành bảng về đóng góp của một số nhân vật lịch sử tiêu biểu trong khởi nghĩa Lam Sơn và Triều Hậu Lê.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_16/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Câu 1 trong SGK."
             ],
             [
@@ -5120,7 +5120,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; giúp HS liên hệ hình ảnh Nhã nhạc cung đình Huế với Triều Nguyễn.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS quan sát hình 1 trong SGK và hỏi: Hoạt động trong hình gợi nhắc đến triều đại nào trong lịch sử dân tộc?",
+              "- GV tổ chức cho HS quan sát hình 1 trong SGK và hỏi: Hoạt động trong hình gợi nhắc đến triều đại nào trong lịch sử dân tộc?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_16/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình và trả lời: Hình 1 gợi nhắc đến Triều Nguyễn, vì đó là biểu diễn Nhã nhạc cung đình Huế."
             ],
             [
@@ -5142,7 +5142,7 @@
               "2.1. Triều Nguyễn buổi đầu xây dựng đất nước"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục a, quan sát hình trong SGK và thực hiện nhiệm vụ: Nêu sự thành lập Triều Nguyễn; trình bày một số việc làm của Triều Nguyễn để xây dựng đất nước.",
+              "- GV yêu cầu HS đọc thông tin mục a, quan sát hình trong SGK và thực hiện nhiệm vụ: Nêu sự thành lập Triều Nguyễn; trình bày một số việc làm của Triều Nguyễn để xây dựng đất nước.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_16/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình và xác định nhiệm vụ học tập."
             ],
             [
@@ -5193,7 +5193,7 @@
               "2.2. Kể chuyện về vua Minh Mạng"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Minh Mạng với sự nghiệp trị nước an dân” trong SGK và quan sát hình 2.",
+              "- GV yêu cầu HS đọc câu chuyện “Minh Mạng với sự nghiệp trị nước an dân” trong SGK và quan sát hình 2.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_16/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, quan sát hình 2 và xác định nhân vật chính là vua Minh Mạng."
             ],
             [
@@ -5340,7 +5340,7 @@
               "2.1. Công cuộc khai hoang dưới Triều Nguyễn"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục b, quan sát hình 3 trong SGK và thực hiện nhiệm vụ: Nêu kết quả của công cuộc khai hoang dưới Triều Nguyễn; kể chuyện về Nguyễn Công Trứ và nêu đóng góp của ông.",
+              "- GV yêu cầu HS đọc thông tin mục b, quan sát hình 3 trong SGK và thực hiện nhiệm vụ: Nêu kết quả của công cuộc khai hoang dưới Triều Nguyễn; kể chuyện về Nguyễn Công Trứ và nêu đóng góp của ông.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_17/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình 3 và xác định nhiệm vụ học tập."
             ],
             [
@@ -5360,7 +5360,7 @@
               "- HS trả lời: Nguyễn Công Trứ, Nguyễn Tri Phương là những nhân vật nổi bật trong công cuộc khai hoang."
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Nguyễn Công Trứ và công cuộc khai hoang lấn biển”.",
+              "- GV yêu cầu HS đọc câu chuyện “Nguyễn Công Trứ và công cuộc khai hoang lấn biển”.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_17/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, chú ý hoàn cảnh, việc làm và đóng góp của Nguyễn Công Trứ."
             ],
             [
@@ -5387,7 +5387,7 @@
               "2.2. Những đề nghị canh tân đất nước cuối thế kỉ XIX"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục c trong SGK và thực hiện nhiệm vụ: Nêu những đóng góp của Nguyễn Trường Tộ đối với lịch sử dân tộc.",
+              "- GV yêu cầu HS đọc thông tin mục c trong SGK và thực hiện nhiệm vụ: Nêu những đóng góp của Nguyễn Trường Tộ đối với lịch sử dân tộc.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_17/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin và xác định nhiệm vụ học tập."
             ],
             [
@@ -5399,7 +5399,7 @@
               "- HS trả lời: Họ đề xuất một số biện pháp cải cách để cứu nước, làm cho đất nước giàu mạnh và có thể chống ngoại xâm."
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Khát vọng canh tân đất nước” về Nguyễn Trường Tộ.",
+              "- GV yêu cầu HS đọc câu chuyện “Khát vọng canh tân đất nước” về Nguyễn Trường Tộ.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_17/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, chú ý những đề nghị canh tân của Nguyễn Trường Tộ."
             ],
             [
@@ -5545,7 +5545,7 @@
               "2.1. Phong trào Cần vương chống Pháp"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 2, quan sát hình 5, hình 6 và thực hiện nhiệm vụ: Cho biết những nét chính về phong trào Cần vương cuối thế kỉ XIX.",
+              "- GV yêu cầu HS đọc thông tin mục 2, quan sát hình 5, hình 6 và thực hiện nhiệm vụ: Cho biết những nét chính về phong trào Cần vương cuối thế kỉ XIX.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_17/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình vua Hàm Nghi, Tôn Thất Thuyết và xác định nhiệm vụ học tập."
             ],
             [
@@ -5584,7 +5584,7 @@
               "2.2. Phan Đình Phùng và cuộc khởi nghĩa Hương Khê"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Phan Đình Phùng và cuộc khởi nghĩa Hương Khê”.",
+              "- GV yêu cầu HS đọc câu chuyện “Phan Đình Phùng và cuộc khởi nghĩa Hương Khê”.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_17/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, chú ý nhân vật, căn cứ, lực lượng và ý nghĩa của cuộc khởi nghĩa."
             ],
             [
@@ -5627,7 +5627,7 @@
               "3. Luyện tập (8 phút)\nMục tiêu: Hệ thống hóa những nét chính về lịch sử Việt Nam dưới Triều Nguyễn và kể lại câu chuyện về một nhân vật lịch sử thời Nguyễn.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc Câu 1 trong SGK: Vẽ sơ đồ tư duy những nét chính về lịch sử Việt Nam dưới Triều Nguyễn.",
+              "- GV yêu cầu HS đọc Câu 1 trong SGK: Vẽ sơ đồ tư duy những nét chính về lịch sử Việt Nam dưới Triều Nguyễn.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_17/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Câu 1 trong SGK."
             ],
             [
@@ -6135,7 +6135,7 @@
               "2.1. Kể chuyện về Võ Nguyên Giáp và Đội Việt Nam Tuyên truyền Giải phóng quân"
             ],
             [
-              "- GV giao nhiệm vụ: HS quan sát hình 3, đọc câu chuyện “Thành lập Đội Việt Nam Tuyên truyền Giải phóng quân” và khai thác tranh, tư liệu có trong SGK.\n- GV yêu cầu HS xác định nhân vật lịch sử, thời gian, địa điểm và ý nghĩa của sự kiện.",
+              "- GV giao nhiệm vụ: HS quan sát hình 3, đọc câu chuyện “Thành lập Đội Việt Nam Tuyên truyền Giải phóng quân” và khai thác tranh, tư liệu có trong SGK.\n- GV yêu cầu HS xác định nhân vật lịch sử, thời gian, địa điểm và ý nghĩa của sự kiện.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3, đọc câu chuyện, xác định nhân vật lịch sử là Võ Nguyên Giáp và sự kiện thành lập Đội Việt Nam Tuyên truyền Giải phóng quân.\n- HS gạch ý chính trong câu chuyện để chuẩn bị thảo luận."
             ],
             [
@@ -6158,7 +6158,7 @@
               "2.2. Kể chuyện về Kim Đồng"
             ],
             [
-              "- GV giao nhiệm vụ: HS đọc câu chuyện “Người đội viên mưu trí, dũng cảm”, quan sát hình 4 và khai thác tư liệu có trong sách.\n- GV yêu cầu HS chú ý tên thật, quê hương, nhiệm vụ và chi tiết thể hiện sự mưu trí, dũng cảm của Kim Đồng.",
+              "- GV giao nhiệm vụ: HS đọc câu chuyện “Người đội viên mưu trí, dũng cảm”, quan sát hình 4 và khai thác tư liệu có trong sách.\n- GV yêu cầu HS chú ý tên thật, quê hương, nhiệm vụ và chi tiết thể hiện sự mưu trí, dũng cảm của Kim Đồng.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, quan sát hình 4 và xác định nhân vật chính là Kim Đồng.\n- HS gạch chân các chi tiết: tên thật Nông Văn Dền, quê Cao Bằng, nhiệm vụ liên lạc, canh gác, đưa đón cán bộ, đánh lạc hướng địch."
             ],
             [
@@ -6299,7 +6299,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, gợi nhớ hiểu biết ban đầu về chiến thắng Điện Biên Phủ và kết nối vào nội dung bài học.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS đọc hai câu thơ trong SGK: “Chín năm làm một Điện Biên / Nên vành hoa đỏ, nên thiên sử vàng”.",
+              "- GV tổ chức cho HS đọc hai câu thơ trong SGK: “Chín năm làm một Điện Biên / Nên vành hoa đỏ, nên thiên sử vàng”.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc hai câu thơ, chú ý các từ ngữ “Điện Biên”, “vành hoa đỏ”, “thiên sử vàng”."
             ],
             [
@@ -6329,7 +6329,7 @@
               "2.1. Khai thác lược đồ chiến dịch Điện Biên Phủ"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin trong SGK và quan sát hình 1. GV giao nhiệm vụ nhóm đôi: xác định vị trí Điện Biên Phủ, các phân khu và một số hướng tiến công của quân ta trên lược đồ.",
+              "- GV yêu cầu HS đọc thông tin trong SGK và quan sát hình 1. GV giao nhiệm vụ nhóm đôi: xác định vị trí Điện Biên Phủ, các phân khu và một số hướng tiến công của quân ta trên lược đồ.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình 1, làm việc nhóm đôi và chỉ được trên lược đồ: Điện Biên Phủ ở vùng Tây Bắc; tập đoàn cứ điểm gồm phân khu Bắc, phân khu Trung tâm, phân khu Nam."
             ],
             [
@@ -6345,7 +6345,7 @@
               "- HS trả lời: Đây là tập đoàn cứ điểm lớn, nhiều vị trí phòng thủ, được bố trí thành các phân khu để bảo vệ khu trung tâm Mường Thanh."
             ],
             [
-              "- GV cho HS quan sát ô “Em có biết?” và hỏi: Vì sao Điện Biên Phủ được xem là vị trí chiến lược quan trọng?",
+              "- GV cho HS quan sát ô “Em có biết?” và hỏi: Vì sao Điện Biên Phủ được xem là vị trí chiến lược quan trọng?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Vì Điện Biên Phủ là thung lũng lòng chảo ở Tây Bắc, gần biên giới Lào, có vị trí quan trọng ở khu vực Đông Nam Á."
             ],
             [
@@ -6399,7 +6399,7 @@
               "2.3. Khai thác tranh, tư liệu về kéo pháo và bắt sống tướng Đờ Ca-xtơ-ri"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Kéo pháo ở Điện Biên Phủ”, quan sát hình 3 và thảo luận nhóm 6. Nhiệm vụ: xác định nhân vật, việc làm, khó khăn và ý nghĩa của việc kéo pháo.",
+              "- GV yêu cầu HS đọc câu chuyện “Kéo pháo ở Điện Biên Phủ”, quan sát hình 3 và thảo luận nhóm 6. Nhiệm vụ: xác định nhân vật, việc làm, khó khăn và ý nghĩa của việc kéo pháo.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tư liệu, quan sát hình 3, thảo luận nhóm 6 và phân công người ghi ý, người trình bày."
             ],
             [
@@ -6415,7 +6415,7 @@
               "- HS trả lời: Vì bộ đội ta không quản gian khổ, chấp hành nhiệm vụ, sẵn sàng hi sinh để đưa pháo vào vị trí thuận lợi, góp phần bảo đảm thắng lợi của chiến dịch."
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Chuyện bắt sống tướng Đờ Ca-xtơ-ri”, quan sát hình 4 và trả lời nhóm đôi: Hình ảnh cho thấy kết quả gì của chiến dịch?",
+              "- GV yêu cầu HS đọc câu chuyện “Chuyện bắt sống tướng Đờ Ca-xtơ-ri”, quan sát hình 4 và trả lời nhóm đôi: Hình ảnh cho thấy kết quả gì của chiến dịch?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_19/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tư liệu, quan sát hình 4 và trả lời: Hình ảnh cho thấy tướng Đờ Ca-xtơ-ri và các sĩ quan Pháp đầu hàng quân đội Việt Nam chiều 7 - 5 - 1954."
             ],
             [
@@ -6579,7 +6579,7 @@
               "2.1. Kể chuyện về Bế Văn Đàn"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin trong SGK, quan sát tư liệu câu chuyện “Bế Văn Đàn lấy thân mình làm giá súng” và thảo luận nhóm 4.",
+              "- GV yêu cầu HS đọc thông tin trong SGK, quan sát tư liệu câu chuyện “Bế Văn Đàn lấy thân mình làm giá súng” và thảo luận nhóm 4.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_20/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tư liệu, quan sát hình và thảo luận nhóm 4."
             ],
             [
@@ -6602,7 +6602,7 @@
               "2.2. Kể chuyện về Phan Đình Giót"
             ],
             [
-              "- GV yêu cầu HS đọc tư liệu câu chuyện “Phan Đình Giót lấy thân mình lấp lỗ châu mai” và thảo luận nhóm 6.",
+              "- GV yêu cầu HS đọc tư liệu câu chuyện “Phan Đình Giót lấy thân mình lấp lỗ châu mai” và thảo luận nhóm 6.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_20/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tư liệu, quan sát tranh, thảo luận nhóm 6 để xác định nhân vật, sự kiện và hành động tiêu biểu."
             ],
             [
@@ -6644,7 +6644,7 @@
               "3. Luyện tập (8 phút)\nMục tiêu: Củng cố kĩ năng kể chuyện lịch sử và nêu cảm nghĩ về tấm gương anh hùng trong chiến dịch Điện Biên Phủ.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc phần Luyện tập trong SGK.",
+              "- GV yêu cầu HS đọc phần Luyện tập trong SGK.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_20/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Kể lại một câu chuyện về chiến dịch Điện Biên Phủ; nêu cảm nghĩ về những tấm gương anh hùng trong chiến dịch Điện Biên Phủ."
             ],
             [
@@ -6671,7 +6671,7 @@
               "4. Vận dụng - Trải nghiệm (7 phút)\nMục tiêu: Vận dụng kiến thức để sưu tầm, giới thiệu tư liệu về chiến dịch Điện Biên Phủ và liên hệ trách nhiệm học tập, rèn luyện.\nTích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS biết ơn các anh hùng liệt sĩ, sống trách nhiệm, chăm học để góp phần xây dựng đất nước.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc nhiệm vụ Vận dụng trong SGK: Sưu tầm ảnh, tranh hoặc thơ, bài hát nói về chiến dịch Điện Biên Phủ và chia sẻ với bạn.",
+              "- GV yêu cầu HS đọc nhiệm vụ Vận dụng trong SGK: Sưu tầm ảnh, tranh hoặc thơ, bài hát nói về chiến dịch Điện Biên Phủ và chia sẻ với bạn.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_20/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc nhiệm vụ Vận dụng và xác định sản phẩm cần sưu tầm."
             ],
             [
@@ -6790,7 +6790,7 @@
               "2.2. Khai thác tranh ảnh, lược đồ và kể lại diễn biến chính của chiến dịch"
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 1 trong SGK và trả lời: Bức ảnh ghi lại cảnh gì? Em thấy chi tiết nào nổi bật nhất trong ảnh?\nHình 1. Quân ta tiến vào Dinh Độc Lập ngày 30 - 4 - 1975",
+              "- GV yêu cầu HS quan sát Hình 1 trong SGK và trả lời: Bức ảnh ghi lại cảnh gì? Em thấy chi tiết nào nổi bật nhất trong ảnh?\nHình 1. Quân ta tiến vào Dinh Độc Lập ngày 30 - 4 - 1975\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_20/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát và trả lời: Hình 1 ghi lại cảnh quân ta tiến vào Dinh Độc Lập ngày 30 - 4 - 1975; chi tiết nổi bật là xe tăng của Quân Giải phóng tiến qua cổng Dinh Độc Lập."
             ],
             [
@@ -6798,7 +6798,7 @@
               "- HS trả lời: Dinh Độc Lập là nơi chính quyền Sài Gòn đặt bộ máy lãnh đạo; quân ta tiến vào Dinh Độc Lập chứng tỏ chính quyền Sài Gòn đã hoàn toàn sụp đổ."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 2, đọc bảng chú giải trên lược đồ và trả lời: Lược đồ thể hiện nội dung gì?\nHình 2. Lược đồ Chiến dịch Hồ Chí Minh",
+              "- GV yêu cầu HS quan sát Hình 2, đọc bảng chú giải trên lược đồ và trả lời: Lược đồ thể hiện nội dung gì?\nHình 2. Lược đồ Chiến dịch Hồ Chí Minh\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_20/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát và trả lời: Lược đồ thể hiện các hướng tấn công của Quân Giải phóng vào Sài Gòn trong Chiến dịch Hồ Chí Minh."
             ],
             [
@@ -6974,7 +6974,7 @@
               "2.1. Kể chuyện Phi đội Quyết thắng tấn công sân bay Tân Sơn Nhất"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện trong SGK, quan sát Hình 3 và trả lời: Hình 3 giới thiệu những ai?\nHình 3. Phi đội Quyết thắng tại sân bay Thành Sơn",
+              "- GV yêu cầu HS đọc câu chuyện trong SGK, quan sát Hình 3 và trả lời: Hình 3 giới thiệu những ai?\nHình 3. Phi đội Quyết thắng tại sân bay Thành Sơn\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_21/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_21/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình và trả lời: Hình 3 giới thiệu Phi đội Quyết thắng tại sân bay Thành Sơn, gồm các phi công tham gia nhiệm vụ tấn công sân bay Tân Sơn Nhất."
             ],
             [
@@ -7163,7 +7163,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, giúp HS nhận biết sự khác nhau giữa đời sống mua bán thời bao cấp và đời sống hiện nay.\n*Cách tiến hành:"
             ],
             [
-              "- GV tổ chức cho HS quan sát hình 1 và hình 2 trong SGK, yêu cầu HS nêu nhanh nội dung từng hình.",
+              "- GV tổ chức cho HS quan sát hình 1 và hình 2 trong SGK, yêu cầu HS nêu nhanh nội dung từng hình.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_21/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và trả lời: Hình 1 là một cảnh mua hàng thời bao cấp; hình 2 là một góc không gian mua sắm tại siêu thị ngày nay."
             ],
             [
@@ -7213,7 +7213,7 @@
               "- HS trả lời: Các từ ngữ như sổ mua lương thực, tem, phiếu, phân phối, định mức, xếp hàng cho thấy hàng hóa được mua theo chế độ bao cấp."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 3 và hỏi: Sổ mua lương thực dùng để làm gì? Vì sao sổ này quan trọng với mỗi gia đình thời bao cấp?",
+              "- GV yêu cầu HS quan sát hình 3 và hỏi: Sổ mua lương thực dùng để làm gì? Vì sao sổ này quan trọng với mỗi gia đình thời bao cấp?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_21/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Sổ mua lương thực dùng để mua gạo theo tiêu chuẩn hằng tháng; sổ rất quan trọng vì gia đình muốn mua lương thực phải có sổ."
             ],
             [
@@ -7221,7 +7221,7 @@
               "- HS trả lời: Gia đình có thể gặp khó khăn khi mua gạo hoặc lương thực theo tiêu chuẩn, vì thời đó sổ rất quan trọng để được phân phối lương thực."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 4 và hỏi: Tem mua thực phẩm cho biết điều gì về cách mua bán hàng hóa thời bao cấp?",
+              "- GV yêu cầu HS quan sát hình 4 và hỏi: Tem mua thực phẩm cho biết điều gì về cách mua bán hàng hóa thời bao cấp?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_21/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Tem mua thực phẩm cho biết người dân được mua một lượng thực phẩm theo định mức; hàng hóa không được mua tự do như hiện nay."
             ],
             [
@@ -7229,7 +7229,7 @@
               "- HS trả lời: Vì người dân chỉ mua được hàng theo định mức ghi trên tem, phiếu; có tiền chưa chắc mua được nhiều hàng theo nhu cầu."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 5 và hỏi: Các vật dụng trong hình là gì? Những đồ vật đó cho em biết điều gì về đời sống sinh hoạt thời bao cấp?",
+              "- GV yêu cầu HS quan sát hình 5 và hỏi: Các vật dụng trong hình là gì? Những đồ vật đó cho em biết điều gì về đời sống sinh hoạt thời bao cấp?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_21/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Đó là đèn dầu, ti vi đen trắng, quạt con cóc; các đồ vật cho thấy đời sống còn giản dị, thiếu thốn, đồ dùng chưa hiện đại như ngày nay."
             ],
             [
@@ -7260,7 +7260,7 @@
               "2.2. Kể chuyện về thời bao cấp ở Việt Nam"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Xem truyền hình thời bao cấp” trong SGK, quan sát tranh/tư liệu đi kèm và thảo luận nhóm 6.",
+              "- GV yêu cầu HS đọc câu chuyện “Xem truyền hình thời bao cấp” trong SGK, quan sát tranh/tư liệu đi kèm và thảo luận nhóm 6.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_21/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, quan sát tư liệu và thảo luận nhóm 6."
             ],
             [
@@ -7443,7 +7443,7 @@
               "- HS trả lời: Vì từ năm 1986, đất nước bước vào thời kì Đổi mới, mở ra sự chuyển biến về kinh tế, xã hội và đời sống nhân dân."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 6 và hỏi: Việc gạo Việt Nam được đưa xuống tàu để xuất khẩu cho thấy thành tựu gì của đất nước?",
+              "- GV yêu cầu HS quan sát hình 6 và hỏi: Việc gạo Việt Nam được đưa xuống tàu để xuất khẩu cho thấy thành tựu gì của đất nước?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_22/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Cho thấy nông nghiệp phát triển; Việt Nam từ chỗ thiếu lương thực đã sản xuất đủ dùng và xuất khẩu gạo."
             ],
             [
@@ -7459,7 +7459,7 @@
               "- HS trả lời: Cần có nhà máy, máy móc hiện đại, vốn đầu tư, kĩ sư, công nhân lành nghề, khoa học - công nghệ và thị trường tiêu thụ."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 8 và hỏi: Một góc Thành phố Hồ Chí Minh ngày nay cho thấy sự thay đổi nào của đất nước?",
+              "- GV yêu cầu HS quan sát hình 8 và hỏi: Một góc Thành phố Hồ Chí Minh ngày nay cho thấy sự thay đổi nào của đất nước?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_22/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Cho thấy đô thị hiện đại hơn, có nhiều nhà cao tầng, cầu đường, công trình mới; đời sống đô thị phát triển."
             ],
             [
@@ -7467,7 +7467,7 @@
               "- HS trả lời: Hình 8 cho thấy đô thị hiện đại, phát triển; hình 1 cho thấy đời sống mua bán thời bao cấp còn thiếu thốn, hàng hóa chưa phong phú."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 9 và hỏi: Máy tính do Việt Nam sản xuất thể hiện thành tựu nào?",
+              "- GV yêu cầu HS quan sát hình 9 và hỏi: Máy tính do Việt Nam sản xuất thể hiện thành tựu nào?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_22/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Thể hiện sự phát triển của khoa học - công nghệ và năng lực sản xuất sản phẩm công nghệ trong nước."
             ],
             [
@@ -7653,7 +7653,7 @@
               "- HS trả lời: Trung Quốc tiếp giáp với nước ta ở phía bắc."
             ],
             [
-              "- GV chốt và dẫn vào bài: Trung Quốc là một nước láng giềng lớn của Việt Nam. Bài học hôm nay giúp các em tìm hiểu vị trí địa lí, tự nhiên, dân cư và một số nét tiêu biểu của đất nước này.\nHình 1. Gấu trúc",
+              "- GV chốt và dẫn vào bài: Trung Quốc là một nước láng giềng lớn của Việt Nam. Bài học hôm nay giúp các em tìm hiểu vị trí địa lí, tự nhiên, dân cư và một số nét tiêu biểu của đất nước này.\nHình 1. Gấu trúc\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_22/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe và ghi tên bài."
             ],
             [
@@ -7667,7 +7667,7 @@
               "- HS lắng nghe, ghi nhớ tên đầy đủ của Trung Quốc."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 1 và quan sát hình 2: Bản đồ Trung Quốc trong châu Á.\nHình 2. Bản đồ Trung Quốc trong châu Á",
+              "- GV yêu cầu HS đọc thông tin mục 1 và quan sát hình 2: Bản đồ Trung Quốc trong châu Á.\nHình 2. Bản đồ Trung Quốc trong châu Á\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_22/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bản đồ, chú ý tên nước, vị trí Trung Quốc, các biển và các nước tiếp giáp."
             ],
             [
@@ -7706,7 +7706,7 @@
               "2.2. Đặc điểm tự nhiên"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 2 và quan sát hình 3: Bản đồ tự nhiên Trung Quốc.\nHình 3. Bản đồ tự nhiên Trung Quốc",
+              "- GV yêu cầu HS đọc thông tin mục 2 và quan sát hình 3: Bản đồ tự nhiên Trung Quốc.\nHình 3. Bản đồ tự nhiên Trung Quốc\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_22/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bản đồ tự nhiên, chú ý địa hình, sông, hoang mạc, đồng bằng và các màu thể hiện độ cao."
             ],
             [
@@ -7894,7 +7894,7 @@
               "- HS đọc thông tin, quan sát tranh ảnh và xác định tên các công trình tiêu biểu."
             ],
             [
-              "- GV cho HS quan sát hình 4 và hỏi: Hình 4 giới thiệu công trình hoặc di sản nào của Trung Quốc?\nHình 4. Tượng binh sĩ bằng đất nung trong lăng mộ Tần Thuỷ Hoàng",
+              "- GV cho HS quan sát hình 4 và hỏi: Hình 4 giới thiệu công trình hoặc di sản nào của Trung Quốc?\nHình 4. Tượng binh sĩ bằng đất nung trong lăng mộ Tần Thuỷ Hoàng\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_23/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Hình 4 giới thiệu tượng binh sĩ bằng đất nung trong lăng mộ Tần Thuỷ Hoàng."
             ],
             [
@@ -7902,7 +7902,7 @@
               "- HS trả lời: Có rất nhiều tượng, tư thế khác nhau, khuôn mặt sinh động như người thật."
             ],
             [
-              "- GV cho HS quan sát hình 5 và hỏi: Vạn Lý Trường Thành được xây dựng nhằm mục đích gì?\nHình 5. Một đoạn Vạn Lý Trường Thành",
+              "- GV cho HS quan sát hình 5 và hỏi: Vạn Lý Trường Thành được xây dựng nhằm mục đích gì?\nHình 5. Một đoạn Vạn Lý Trường Thành\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_23/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Vạn Lý Trường Thành được xây dựng để ngăn chặn những cuộc tấn công từ bên ngoài vào Trung Quốc."
             ],
             [
@@ -7910,7 +7910,7 @@
               "- HS trả lời: Công trình rất dài, xây dựng qua nhiều triều đại, có quy mô lớn và gắn với nhiều câu chuyện lịch sử."
             ],
             [
-              "- GV cho HS quan sát hình 6 và hỏi: Cố cung Bắc Kinh là công trình gì?\nHình 6. Cố cung Bắc Kinh",
+              "- GV cho HS quan sát hình 6 và hỏi: Cố cung Bắc Kinh là công trình gì?\nHình 6. Cố cung Bắc Kinh\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_23/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Cố cung Bắc Kinh là hoàng cung của hai triều đại Minh và Thanh ở Trung Quốc."
             ],
             [
@@ -8106,7 +8106,7 @@
               "2.1. Tìm hiểu vị trí địa lí của Lào"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin trong SGK và quan sát hình 1: Bản đồ tự nhiên Lào.",
+              "- GV yêu cầu HS đọc thông tin trong SGK và quan sát hình 1: Bản đồ tự nhiên Lào.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_23/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bản đồ, chú ý phần chú giải, tên các quốc gia tiếp giáp và vị trí nước Lào."
             ],
             [
@@ -8317,7 +8317,7 @@
               "- HS dựa vào câu hỏi gợi ý để thảo luận, chọn ý chính, không chép nguyên văn dài trong SGK."
             ],
             [
-              "- GV yêu cầu nhóm tìm hiểu Cánh đồng Chum quan sát hình 2 và trả lời: Cánh đồng Chum là loại di tích gì? Có khoảng bao nhiêu chum? Các chum có đặc điểm gì?",
+              "- GV yêu cầu nhóm tìm hiểu Cánh đồng Chum quan sát hình 2 và trả lời: Cánh đồng Chum là loại di tích gì? Có khoảng bao nhiêu chum? Các chum có đặc điểm gì?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_24/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Cánh đồng Chum là di tích khảo cổ học ở cao nguyên Xiêng Khoảng; có khoảng 2 000 chiếc chum; các chum bằng đá, có hình dạng và kích thước khác nhau."
             ],
             [
@@ -8325,7 +8325,7 @@
               "- HS trả lời: Vì đây là di sản văn hoá, gắn với lịch sử và sự sáng tạo của người xưa; nếu không bảo vệ thì hiện vật có thể bị hư hại, mất giá trị."
             ],
             [
-              "- GV yêu cầu nhóm tìm hiểu Cố đô Luông Pha-băng quan sát hình 3 và trả lời: Luông Pha-băng có công trình tiêu biểu nào? Chùa Xiêng Thông có điểm gì nổi bật?",
+              "- GV yêu cầu nhóm tìm hiểu Cố đô Luông Pha-băng quan sát hình 3 và trả lời: Luông Pha-băng có công trình tiêu biểu nào? Chùa Xiêng Thông có điểm gì nổi bật?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_24/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Luông Pha-băng có nhiều công trình cổ, tiêu biểu là chùa Xiêng Thông; chùa có kiến trúc đẹp, lưu giữ tượng Phật, phù điêu, hoa văn dát vàng và thể hiện văn hoá Phật giáo Lào."
             ],
             [
@@ -8333,7 +8333,7 @@
               "- HS trả lời: Em nên giới thiệu tên công trình, địa điểm, thời gian hoặc lịch sử hình thành, đặc điểm kiến trúc, giá trị văn hoá và điều em ấn tượng."
             ],
             [
-              "- GV yêu cầu nhóm tìm hiểu Thạt Luổng quan sát hình 4 và trả lời: Thạt Luổng được xây dựng vào khoảng thời gian nào? Vì sao công trình này được xem là biểu tượng của Lào?",
+              "- GV yêu cầu nhóm tìm hiểu Thạt Luổng quan sát hình 4 và trả lời: Thạt Luổng được xây dựng vào khoảng thời gian nào? Vì sao công trình này được xem là biểu tượng của Lào?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_24/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Thạt Luổng được xây dựng vào thế kỉ XVI; đây là công trình kiến trúc tôn giáo nổi tiếng ở Viêng Chăn, có tháp chính dát vàng, là biểu tượng văn hoá tiêu biểu của Lào."
             ],
             [
@@ -8447,7 +8447,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; kết nối hình ảnh Quốc kì Cam-pu-chia với nội dung bài học.\n*Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình 1 trong SGK và hỏi: Trên Quốc kì Cam-pu-chia có hình công trình kiến trúc nào?",
+              "- GV yêu cầu HS quan sát hình 1 trong SGK và hỏi: Trên Quốc kì Cam-pu-chia có hình công trình kiến trúc nào?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_24/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình và trả lời: Trên Quốc kì Cam-pu-chia có hình đền Ăng-co Vát."
             ],
             [
@@ -8469,7 +8469,7 @@
               "2.1. Vị trí địa lí"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 1 và quan sát hình 2: Hãy xác định vị trí địa lí của Cam-pu-chia trên bản đồ.",
+              "- GV yêu cầu HS đọc thông tin mục 1 và quan sát hình 2: Hãy xác định vị trí địa lí của Cam-pu-chia trên bản đồ.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_24/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình 2 và xác định Cam-pu-chia trên bản đồ."
             ],
             [
@@ -8671,7 +8671,7 @@
               "- HS đọc thông tin, quan sát hình và trả lời: Ăng-co Vát, Ăng-co Thom, Tượng đài hữu nghị Việt Nam - Cam-pu-chia."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 3 và hỏi: Ăng-co Vát được xây dựng vào thời gian nào? Công trình này có điểm gì nổi bật?",
+              "- GV yêu cầu HS quan sát hình 3 và hỏi: Ăng-co Vát được xây dựng vào thời gian nào? Công trình này có điểm gì nổi bật?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_25/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 3 và trả lời: Ăng-co Vát được xây dựng từ đầu thế kỉ XII; là quần thể đền tháp nổi tiếng, biểu tượng của đất nước Cam-pu-chia."
             ],
             [
@@ -8683,7 +8683,7 @@
               "- HS trả lời: Vì đây là công trình kiến trúc đồ sộ, nổi tiếng thế giới, thể hiện tài năng, sức sáng tạo của người Khơ-me và còn xuất hiện trên Quốc kì Cam-pu-chia."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 4 và hỏi: Đền Bay-on thuộc quần thể nào? Em nhìn thấy đặc điểm nổi bật nào ở mặt chính đền Bay-on?",
+              "- GV yêu cầu HS quan sát hình 4 và hỏi: Đền Bay-on thuộc quần thể nào? Em nhìn thấy đặc điểm nổi bật nào ở mặt chính đền Bay-on?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_25/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 4 và trả lời: Đền Bay-on thuộc Ăng-co Thom; nổi bật với các tháp và những gương mặt khổng lồ quay về nhiều hướng."
             ],
             [
@@ -8691,7 +8691,7 @@
               "- HS trả lời: Gợi cảm nhận về sự tinh xảo, độc đáo, kì vĩ và sáng tạo trong nghệ thuật kiến trúc, điêu khắc."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 5 và hỏi: Tượng đài hữu nghị Việt Nam - Cam-pu-chia được xây dựng để thể hiện điều gì?",
+              "- GV yêu cầu HS quan sát hình 5 và hỏi: Tượng đài hữu nghị Việt Nam - Cam-pu-chia được xây dựng để thể hiện điều gì?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_25/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 5 và trả lời: Công trình thể hiện tình đoàn kết, hữu nghị giữa hai nước Việt Nam và Cam-pu-chia."
             ],
             [
@@ -8815,7 +8815,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, kết nối với sự kiện văn hoá - thể thao của khu vực Đông Nam Á."
             ],
             [
-              "- GV yêu cầu HS quan sát hình 1 và hỏi: Đây là biểu tượng của sự kiện nào? Sự kiện này thường có sự tham gia của các quốc gia ở khu vực nào?",
+              "- GV yêu cầu HS quan sát hình 1 và hỏi: Đây là biểu tượng của sự kiện nào? Sự kiện này thường có sự tham gia của các quốc gia ở khu vực nào?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_25/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình 1 và trả lời: Đây là biểu tượng SEA Games 31 tổ chức tại Việt Nam; sự kiện có các quốc gia trong khu vực Đông Nam Á tham gia."
             ],
             [
@@ -8834,7 +8834,7 @@
               "2. Khám phá (25 phút)\nMục tiêu: Xác định được vị trí Đông Nam Á, kể tên các nước trong khu vực; nêu được sự ra đời, mục tiêu của ASEAN.\nMục tiêu tích hợp: HS biết trao đổi ý nghĩa cờ ASEAN và mục tiêu hợp tác ASEAN qua Padlet/phần mềm nhắn tin nhóm; thực hiện quy tắc ứng xử lịch sự, tích cực trên môi trường số."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 1, quan sát hình 2 và xác định khu vực Đông Nam Á trên bản đồ.",
+              "- GV yêu cầu HS đọc thông tin mục 1, quan sát hình 2 và xác định khu vực Đông Nam Á trên bản đồ.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_25/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình 2 và xác định khu vực Đông Nam Á trên lược đồ."
             ],
             [
@@ -8862,7 +8862,7 @@
               "- HS lắng nghe, hoàn thiện nội dung vào vở."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 2a và quan sát hình 3; hỏi: ASEAN được thành lập vào thời gian nào, ở đâu?",
+              "- GV yêu cầu HS đọc thông tin mục 2a và quan sát hình 3; hỏi: ASEAN được thành lập vào thời gian nào, ở đâu?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_25/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình 3 và trả lời: ASEAN được thành lập ngày 8 - 8 - 1967 tại Băng Cốc, Thái Lan."
             ],
             [
@@ -9007,7 +9007,7 @@
               "2. Khám phá (25 phút)\nMục tiêu: Nêu được ý nghĩa của việc Việt Nam gia nhập ASEAN; bước đầu nhận biết vai trò, đóng góp của Việt Nam trong ASEAN.\nMục tiêu tích hợp: HS thảo luận được chatbot AI cần dữ liệu đa dạng để phục vụ công bằng người dân các nước ASEAN; biết đối chiếu thông tin AI với SGK."
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục 2b, quan sát hình 4 và cho biết: Việt Nam gia nhập ASEAN vào ngày, tháng, năm nào?",
+              "- GV yêu cầu HS đọc thông tin mục 2b, quan sát hình 4 và cho biết: Việt Nam gia nhập ASEAN vào ngày, tháng, năm nào?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_26/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình 4 và trả lời: Việt Nam chính thức gia nhập ASEAN ngày 28 - 7 - 1995."
             ],
             [
@@ -9158,7 +9158,7 @@
               "2.1. Khái quát chung về các châu lục trên thế giới"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin SGK, quan sát Hình 1 và bảng “Diện tích của các châu lục trên thế giới”.",
+              "- GV yêu cầu HS đọc thông tin SGK, quan sát Hình 1 và bảng “Diện tích của các châu lục trên thế giới”.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_26/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bản đồ các châu lục và bảng số liệu."
             ],
             [
@@ -9193,7 +9193,7 @@
               "2.2. Đặc điểm tự nhiên của một số châu lục: châu Á, châu Âu, châu Phi"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin phần Châu Á, quan sát Hình 2 và mục Em có biết về đỉnh Ê-vơ-rét, hồ Bai-can.",
+              "- GV yêu cầu HS đọc thông tin phần Châu Á, quan sát Hình 2 và mục Em có biết về đỉnh Ê-vơ-rét, hồ Bai-can.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_26/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_26/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_26/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_26/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_26/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin và quan sát hình ảnh dãy Hi-ma-lay-a."
             ],
             [
@@ -9342,7 +9342,7 @@
               "2.1. Đặc điểm tự nhiên của châu Mỹ, châu Đại Dương, châu Nam Cực"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin phần Châu Mỹ, quan sát Hình 7 và mục Em có biết về rừng A-ma-dôn.",
+              "- GV yêu cầu HS đọc thông tin phần Châu Mỹ, quan sát Hình 7 và mục Em có biết về rừng A-ma-dôn.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_27/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_27/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_27/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_27/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin và quan sát hình rừng A-ma-dôn."
             ],
             [
@@ -9534,7 +9534,7 @@
               "2.1. Hệ thống hoá đặc điểm tự nhiên các châu lục và đại dương"
             ],
             [
-              "- GV yêu cầu HS quan sát lược đồ các châu lục và đại dương trên thế giới, nhắc lại vị trí các châu lục đã học.",
+              "- GV yêu cầu HS quan sát lược đồ các châu lục và đại dương trên thế giới, nhắc lại vị trí các châu lục đã học.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_27/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát lược đồ, xác định vị trí châu Á, châu Âu, châu Phi, châu Mỹ, châu Đại Dương, châu Nam Cực."
             ],
             [
@@ -9695,7 +9695,7 @@
               "2.1. Các đại dương trên thế giới"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục “Các đại dương trên thế giới”, quan sát Hình 1 và xác định các đại dương trên lược đồ.",
+              "- GV yêu cầu HS đọc thông tin mục “Các đại dương trên thế giới”, quan sát Hình 1 và xác định các đại dương trên lược đồ.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_28/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát lược đồ và xác định vị trí các đại dương."
             ],
             [
@@ -9730,7 +9730,7 @@
               "2.2. So sánh diện tích và độ sâu trung bình của các đại dương"
             ],
             [
-              "- GV yêu cầu HS đọc Bảng 2, làm việc nhóm 4 để so sánh diện tích và độ sâu trung bình của các đại dương.",
+              "- GV yêu cầu HS đọc Bảng 2, làm việc nhóm 4 để so sánh diện tích và độ sâu trung bình của các đại dương.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_28/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc nhóm 4, đọc bảng số liệu, trao đổi và hoàn thành bảng so sánh."
             ],
             [
@@ -9877,7 +9877,7 @@
               "2.2. Đề xuất thông điệp bảo vệ Trái Đất"
             ],
             [
-              "- GV yêu cầu HS quan sát lại các hình ảnh đã học về rừng A-ma-dôn, hoang mạc, châu Nam Cực, đại dương và nêu những vấn đề môi trường có thể xảy ra.",
+              "- GV yêu cầu HS quan sát lại các hình ảnh đã học về rừng A-ma-dôn, hoang mạc, châu Nam Cực, đại dương và nêu những vấn đề môi trường có thể xảy ra.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_28/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: Chặt phá rừng, cháy rừng, băng tan, hạn hán, thiếu nước, rác thải nhựa trên biển, ô nhiễm nguồn nước, suy giảm sinh vật biển."
             ],
             [
@@ -10020,7 +10020,7 @@
               "2.1. Dân số thế giới"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin trong SGK và quan sát bảng “Số dân các châu lục năm 2024”.",
+              "- GV yêu cầu HS đọc thông tin trong SGK và quan sát bảng “Số dân các châu lục năm 2024”.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_29/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bảng số liệu về dân số các châu lục."
             ],
             [
@@ -10059,7 +10059,7 @@
               "2.2. Đặc điểm ngoại hình của các chủng tộc chính"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục a, quan sát Hình 1 “Các chủng tộc chính trên thế giới”. GV nêu nhiệm vụ: Kể tên các chủng tộc chính và mô tả một số đặc điểm ngoại hình.",
+              "- GV yêu cầu HS đọc thông tin mục a, quan sát Hình 1 “Các chủng tộc chính trên thế giới”. GV nêu nhiệm vụ: Kể tên các chủng tộc chính và mô tả một số đặc điểm ngoại hình.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_29/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát Hình 1 và chuẩn bị câu trả lời."
             ],
             [
@@ -10180,7 +10180,7 @@
               "2.1. Sự phân bố của các chủng tộc"
             ],
             [
-              "- GV yêu cầu HS đọc thông tin mục b, quan sát Hình 2 “Bản đồ phân bố các chủng tộc chính trên thế giới”. GV nêu nhiệm vụ: Trình bày sự phân bố chủ yếu của từng chủng tộc.",
+              "- GV yêu cầu HS đọc thông tin mục b, quan sát Hình 2 “Bản đồ phân bố các chủng tộc chính trên thế giới”. GV nêu nhiệm vụ: Trình bày sự phân bố chủ yếu của từng chủng tộc.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_29/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát bản đồ và xác định chú giải màu trên bản đồ."
             ],
             [
@@ -10324,7 +10324,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập, huy động hiểu biết ban đầu của HS về thành tựu văn minh Ai Cập cổ đại."
             ],
             [
-              "- GV yêu cầu HS quan sát Hình 1 và cho biết: Đây là công trình, hình tượng nổi tiếng nào? Thuộc nền văn minh nào?",
+              "- GV yêu cầu HS quan sát Hình 1 và cho biết: Đây là công trình, hình tượng nổi tiếng nào? Thuộc nền văn minh nào?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_30/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát và trả lời: Đây là kim tự tháp và tượng Nhân sư ở Ghi-da, thuộc văn minh Ai Cập cổ đại."
             ],
             [
@@ -10346,7 +10346,7 @@
               "2.1. Vị trí địa lí của Ai Cập hiện nay"
             ],
             [
-              "- GV giao nhiệm vụ: Đọc thông tin SGK, quan sát Hình 2 “Lược đồ Ai Cập ngày nay”, thảo luận nhóm đôi và xác định vị trí địa lí của Ai Cập.",
+              "- GV giao nhiệm vụ: Đọc thông tin SGK, quan sát Hình 2 “Lược đồ Ai Cập ngày nay”, thảo luận nhóm đôi và xác định vị trí địa lí của Ai Cập.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_30/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát lược đồ, thảo luận nhóm đôi và xác định vị trí của Ai Cập."
             ],
             [
@@ -10514,7 +10514,7 @@
               "2.1. Chuyện kể về kim tự tháp Kê-ốp"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Xây dựng kim tự tháp Kê-ốp” trong SGK, quan sát Hình 3 và gạch dưới các thông tin quan trọng.",
+              "- GV yêu cầu HS đọc câu chuyện “Xây dựng kim tự tháp Kê-ốp” trong SGK, quan sát Hình 3 và gạch dưới các thông tin quan trọng.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_30/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, quan sát Hình 3, gạch dưới thông tin về kích thước, vật liệu, cách vận chuyển đá và công sức xây dựng kim tự tháp."
             ],
             [
@@ -10557,7 +10557,7 @@
               "2.2. Chuyện kể về pha-ra-ông và Nữ hoàng Cờ-lê-ô-pát"
             ],
             [
-              "- GV yêu cầu HS đọc câu chuyện “Nữ hoàng Cờ-lê-ô-pát”, quan sát Hình 4 và nêu nhân vật được giới thiệu trong câu chuyện.",
+              "- GV yêu cầu HS đọc câu chuyện “Nữ hoàng Cờ-lê-ô-pát”, quan sát Hình 4 và nêu nhân vật được giới thiệu trong câu chuyện.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_30/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện, quan sát Hình 4 và trả lời: Nhân vật được giới thiệu là Nữ hoàng Cờ-lê-ô-pát, pha-ra-ông cuối cùng của Ai Cập cổ đại."
             ],
             [
@@ -10676,7 +10676,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; giúp HS nhận biết bước đầu một số biểu tượng của văn minh Hy Lạp cổ đại.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình minh họa đền Pác-tê-nông và biểu tượng Thế vận hội, yêu cầu HS nêu những chi tiết quan sát được.",
+              "- GV cho HS quan sát hình minh họa đền Pác-tê-nông và biểu tượng Thế vận hội, yêu cầu HS nêu những chi tiết quan sát được.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_31/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình; nêu: có công trình đền cổ với nhiều cột đá, có biểu tượng Thế vận hội; liên hệ đến Hy Lạp."
             ],
             [
@@ -10698,7 +10698,7 @@
               "2.1. Vị trí địa lí của Hy Lạp (10 phút)\nMục tiêu: HS khai thác lược đồ để xác định vị trí địa lí của Hy Lạp và bước đầu nhận xét điều kiện tự nhiên ảnh hưởng đến cư dân Hy Lạp cổ đại.\nCách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ nhóm đôi: Đọc thông tin, quan sát lược đồ vị trí Hy Lạp và xác định Hy Lạp nằm ở khu vực nào của châu Âu.",
+              "- GV giao nhiệm vụ nhóm đôi: Đọc thông tin, quan sát lược đồ vị trí Hy Lạp và xác định Hy Lạp nằm ở khu vực nào của châu Âu.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_31/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thảo luận nhóm đôi; xác định Hy Lạp nằm ở phía đông nam châu Âu, gần Địa Trung Hải và biển Ê-giê."
             ],
             [
@@ -10721,7 +10721,7 @@
               "2.2. Một số thành tựu tiêu biểu của văn minh Hy Lạp (15 phút)\nMục tiêu: HS kể tên, mô tả được một số thành tựu tiêu biểu và hiểu vai trò sáng tạo của con người.\nCách tiến hành:\nMục tiêu tích hợp: HS nhận biết AI có thể hỗ trợ tạo sản phẩm theo phong cách Hy Lạp cổ đại nhưng ý tưởng sáng tạo, cảm xúc và trách nhiệm sử dụng sản phẩm thuộc về con người."
             ],
             [
-              "- GV giao nhiệm vụ nhóm 4: Quan sát hình, đọc thông tin, kể tên các thành tựu tiêu biểu của văn minh Hy Lạp và hoàn thành bảng trong cột HS.",
+              "- GV giao nhiệm vụ nhóm 4: Quan sát hình, đọc thông tin, kể tên các thành tựu tiêu biểu của văn minh Hy Lạp và hoàn thành bảng trong cột HS.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_31/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc nhóm 4; phân công mỗi bạn tìm hiểu một thành tựu và ghi ngắn gọn vào bảng."
             ],
             [
@@ -10836,7 +10836,7 @@
               "2.1. Thiết kế thẻ thông tin số giới thiệu thành tựu văn minh Hy Lạp (15 phút)\nMục tiêu: HS biết sử dụng Canva/PowerPoint để tạo thẻ thông tin số ngắn gọn, rõ ràng.\nCách tiến hành:\nMục tiêu tích hợp: HS biết sử dụng Canva/PowerPoint tạo thẻ thông tin số, chèn hình ảnh phù hợp, ghi chú thích/nguồn tư liệu và trình bày thông tin ngắn gọn, chính xác."
             ],
             [
-              "- GV cho HS quan sát mẫu thẻ thông tin số và yêu cầu HS nhận xét các thành phần cần có của một thẻ thông tin.",
+              "- GV cho HS quan sát mẫu thẻ thông tin số và yêu cầu HS nhận xét các thành phần cần có của một thẻ thông tin.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_31/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát mẫu; nêu thẻ cần có tiêu đề, hình ảnh, thông tin chính, ý nghĩa, nguồn tư liệu/chú thích."
             ],
             [
@@ -10954,7 +10954,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Gợi hứng thú học tập; giúp HS bước đầu nhận biết tác động của hiện tượng Trái Đất nóng lên đối với thiên nhiên và đời sống con người.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình 1: Băng tan ở Bắc Cực và yêu cầu HS nêu những gì quan sát được trong hình.",
+              "- GV cho HS quan sát hình 1: Băng tan ở Bắc Cực và yêu cầu HS nêu những gì quan sát được trong hình.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_32/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình; nêu: có băng, nước, gấu trắng Bắc Cực; băng đang tan, môi trường sống của gấu bị thu hẹp."
             ],
             [
@@ -11003,7 +11003,7 @@
               "2.2. Một số vấn đề môi trường trên thế giới (14 phút)\nMục tiêu: HS kể tên, trình bày biểu hiện và tác động của một số vấn đề môi trường; biết khai thác tranh ảnh, bảng thông tin và liên hệ vai trò của công nghệ số trong bảo vệ môi trường.\nCách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ nhóm 4: Đọc thông tin mục 2, quan sát các hình 2, 3, 4, 5 và bảng “Một số vấn đề môi trường trên thế giới”; hoàn thành phiếu học tập trong cột HS.",
+              "- GV giao nhiệm vụ nhóm 4: Đọc thông tin mục 2, quan sát các hình 2, 3, 4, 5 và bảng “Một số vấn đề môi trường trên thế giới”; hoàn thành phiếu học tập trong cột HS.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_32/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc nhóm 4; mỗi bạn phụ trách một vấn đề môi trường rồi trao đổi, thống nhất kết quả chung."
             ],
             [
@@ -11023,7 +11023,7 @@
               "- HS lắng nghe, điều chỉnh phiếu học tập và ghi nhớ các vấn đề môi trường chính."
             ],
             [
-              "- Tích hợp NLS 4.4.CB2a: GV hướng dẫn HS liên hệ vai trò của công nghệ số trong bảo vệ môi trường. GV nêu tình huống: “Nếu có hệ thống cảm biến, camera vệ tinh hoặc ứng dụng cảnh báo sớm, con người có thể phát hiện cháy rừng, lũ lụt, ô nhiễm nước nhanh hơn không?”. GV giải thích: công nghệ số có thể hỗ trợ cảnh báo cháy rừng qua ảnh vệ tinh, theo dõi chất lượng không khí và nước bằng cảm biến, lập bản đồ vùng ngập lụt, kết nối lực lượng thu gom rác, đồng thời giúp người dân nhận thông tin cảnh báo kịp thời. GV nhấn mạnh HS cần biết sử dụng thông tin số đúng cách: xem nguồn tin chính thống, không chia sẻ hình ảnh sai sự thật, dùng thiết bị số để lan tỏa hành động bảo vệ môi trường.",
+              "- Tích hợp NLS 4.4.CB2a: GV hướng dẫn HS liên hệ vai trò của công nghệ số trong bảo vệ môi trường. GV nêu tình huống: “Nếu có hệ thống cảm biến, camera vệ tinh hoặc ứng dụng cảnh báo sớm, con người có thể phát hiện cháy rừng, lũ lụt, ô nhiễm nước nhanh hơn không?”. GV giải thích: công nghệ số có thể hỗ trợ cảnh báo cháy rừng qua ảnh vệ tinh, theo dõi chất lượng không khí và nước bằng cảm biến, lập bản đồ vùng ngập lụt, kết nối lực lượng thu gom rác, đồng thời giúp người dân nhận thông tin cảnh báo kịp thời. GV nhấn mạnh HS cần biết sử dụng thông tin số đúng cách: xem nguồn tin chính thống, không chia sẻ hình ảnh sai sự thật, dùng thiết bị số để lan tỏa hành động bảo vệ môi trường.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_32/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Công nghệ số giúp phát hiện sớm nguy cơ môi trường, thông báo nhanh cho người dân, hỗ trợ thu gom rác và theo dõi ô nhiễm. HS nêu thêm: Khi xem thông tin môi trường trên mạng cần chọn nguồn đáng tin cậy, không chia sẻ tin chưa kiểm chứng và có thể dùng mạng xã hội để kêu gọi không xả rác, tiết kiệm điện, tiết kiệm nước."
             ],
             [
@@ -11114,7 +11114,7 @@
               "2.1. Biện pháp xây dựng thế giới xanh – sạch – đẹp (14 phút)\nMục tiêu: HS nêu được một số biện pháp bảo vệ môi trường và hiểu vai trò hỗ trợ của AI trong bảo vệ môi trường.\nCách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ: Đọc thông tin mục 3, quan sát hình 6 và cho biết có những biện pháp nào để xây dựng thế giới xanh – sạch – đẹp.",
+              "- GV giao nhiệm vụ: Đọc thông tin mục 3, quan sát hình 6 và cho biết có những biện pháp nào để xây dựng thế giới xanh – sạch – đẹp.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_32/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thông tin, quan sát hình và nêu: giáo dục ý thức bảo vệ môi trường; trồng rừng và bảo vệ rừng; khai thác và sử dụng tài nguyên tiết kiệm, hiệu quả; giữ gìn và bảo vệ môi trường sống; lựa chọn và thực hiện lối sống xanh."
             ],
             [
@@ -11246,7 +11246,7 @@
               "- HS chia sẻ: Trẻ em cần được sống an toàn, được vui chơi, học tập, không phải chịu chiến tranh hay bạo lực."
             ],
             [
-              "- GV mời 2 - 3 HS chia sẻ, nhận xét và dẫn dắt vào bài học: nhân loại luôn mong ước và nỗ lực xây dựng một thế giới hòa bình.",
+              "- GV mời 2 - 3 HS chia sẻ, nhận xét và dẫn dắt vào bài học: nhân loại luôn mong ước và nỗ lực xây dựng một thế giới hòa bình.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_33/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe GV dẫn dắt vào bài."
             ],
             [
@@ -11265,7 +11265,7 @@
               "- HS nêu: Chim bồ câu ngậm cành ô liu báo hiệu sự sống trở lại, niềm hi vọng và hòa bình."
             ],
             [
-              "- GV hỏi mở rộng: Ngoài chim bồ câu, em còn biết biểu tượng hoặc việc làm nào thể hiện mong ước hòa bình?",
+              "- GV hỏi mở rộng: Ngoài chim bồ câu, em còn biết biểu tượng hoặc việc làm nào thể hiện mong ước hòa bình?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_33/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS có thể nêu: bắt tay hữu nghị, lá cờ trắng, thông điệp yêu hòa bình, hoạt động giúp đỡ người gặp nạn."
             ],
             [
@@ -11297,7 +11297,7 @@
               "- HS nêu: Năm vòng tròn tượng trưng cho sự kết nối các châu lục."
             ],
             [
-              "- GV hỏi mở rộng: Vì sao thể thao có thể góp phần kết nối các quốc gia và xây dựng hòa bình?",
+              "- GV hỏi mở rộng: Vì sao thể thao có thể góp phần kết nối các quốc gia và xây dựng hòa bình?\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_33/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Thể thao giúp con người hiểu nhau, tôn trọng luật chơi, hợp tác và giảm căng thẳng giữa các quốc gia."
             ],
             [
@@ -11313,7 +11313,7 @@
               "- HS nêu: Khi con người biết giúp đỡ nhau lúc khó khăn, mối quan hệ giữa các dân tộc trở nên tốt đẹp hơn, từ đó góp phần giảm xung đột và xây dựng hòa bình."
             ],
             [
-              "- GV mời đại diện nhóm trình bày và nhận xét.",
+              "- GV mời đại diện nhóm trình bày và nhận xét.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_33/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Đại diện nhóm trình bày, nhóm khác nhận xét, bổ sung."
             ],
             [
@@ -11449,7 +11449,7 @@
               "- HS nêu: Những hoạt động này giúp con người hiểu nhau hơn, tôn trọng sự khác biệt, giảm xung đột và tăng tình đoàn kết."
             ],
             [
-              "- GV mời đại diện nhóm trình bày, nhóm khác nhận xét.",
+              "- GV mời đại diện nhóm trình bày, nhóm khác nhận xét.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_33/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- Đại diện nhóm trình bày, nhóm khác bổ sung."
             ],
             [
@@ -11512,7 +11512,7 @@
               "- HS có thể chọn hình ảnh: chim bồ câu, Trái Đất, các bạn nhỏ nắm tay nhau, cây xanh, lá cờ hòa bình."
             ],
             [
-              "- GV mời 2 - 3 HS chia sẻ ý tưởng trước lớp.",
+              "- GV mời 2 - 3 HS chia sẻ ý tưởng trước lớp.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_33/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu thông điệp: “Hãy yêu thương và tôn trọng nhau”, “Không bạo lực, không chiến tranh”, “Trẻ em cần hòa bình để học tập và vui chơi”."
             ],
             [
@@ -11604,7 +11604,7 @@
               "2. Luyện tập: Hệ thống kiến thức lịch sử Việt Nam (17 phút)\nMục tiêu: HS hoàn thành Câu 1, Câu 2 trong SGK; biết trình bày kiến thức bằng bảng và trục thời gian.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc Câu 1, Câu 2 và quan sát hình bài tập trong SGK.",
+              "- GV cho HS đọc Câu 1, Câu 2 và quan sát hình bài tập trong SGK.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_34/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, quan sát bảng và trục thời gian."
             ],
             [
@@ -11733,7 +11733,7 @@
               "2. Luyện tập: Kể chuyện về nhân vật và sự kiện lịch sử (15 phút)\nMục tiêu: HS hoàn thành Câu 4, Câu 5; biết kể theo trình tự rõ ràng, có cảm nghĩ cá nhân.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc Câu 4, Câu 5 và quan sát hình bài tập trong SGK.",
+              "- GV cho HS đọc Câu 4, Câu 5 và quan sát hình bài tập trong SGK.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_34/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: chọn và kể lại câu chuyện về một nhân vật lịch sử; chọn và kể lại một sự kiện lịch sử nổi bật."
             ],
             [
@@ -11859,7 +11859,7 @@
               "2. Luyện tập: Viết đoạn văn về một châu lục (15 phút)\nMục tiêu: HS hoàn thành Câu 7; biết mô tả đặc điểm tự nhiên của một châu lục theo cấu trúc gợi ý.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc Câu 7 và quan sát phần gợi ý trong SGK.",
+              "- GV cho HS đọc Câu 7 và quan sát phần gợi ý trong SGK.\n<img src=\"assets/khbd_images/lop5/lich_su_dia_ly/tuan_35/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Viết một đoạn văn mô tả đặc điểm tự nhiên của một châu lục mà em yêu thích."
             ],
             [

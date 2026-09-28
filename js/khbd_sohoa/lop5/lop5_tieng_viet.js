@@ -66,7 +66,7 @@
               "- HS quan sát tranh chủ điểm, nêu nội dung tranh theo cảm nhận."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 - 2 HS nêu: Tranh vẽ các bạn nhỏ đang chơi trốn tìm. Một bạn nam úp mặt vào thân cây, các bạn khác chạy khắp các hướng để tìm chỗ trốn. Vẻ mặt các bạn đều vui vẻ, hồn nhiên."
             ],
             [
@@ -113,7 +113,7 @@
               "- HS nghe GV đọc mẫu, theo dõi văn bản trong SGK."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát văn bản trang đầu của bài đọc, chú ý tranh minh họa và phần mở đầu câu chuyện."
             ],
             [
@@ -148,7 +148,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (15 phút)\nMục tiêu: HS trả lời đầy đủ các câu hỏi đọc hiểu trong SGK; biết dựa vào chi tiết, lời nói, hành động của nhân vật để nêu suy nghĩ và cảm nhận của mình.\nMục tiêu tích hợp: HS biết cảm nhận vẻ đẹp của suối, đồng cỏ, tiếng gió trong bài đọc; hình thành tình yêu quê hương, ý thức giữ gìn cảnh quan và biết chơi hòa đồng, nhường nhịn, tôn trọng bạn bè.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát phần tiếp theo của bài đọc và phần câu hỏi đọc hiểu."
             ],
             [
@@ -204,7 +204,7 @@
               "- 2 - 3 đại diện HS phát biểu trước lớp."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đối chiếu lại 4 câu hỏi trong SGK, kiểm tra câu trả lời đã đầy đủ và đúng trọng tâm chưa."
             ],
             [
@@ -323,7 +323,7 @@
               "- HS đọc yêu cầu bài tập và nêu nhiệm vụ cần làm."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình bài tập, đối chiếu cột A và cột B."
             ],
             [
@@ -355,7 +355,7 @@
               "- HS nhận phiếu học tập theo vòng chơi của nhóm."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát yêu cầu 4 vòng chơi trong SGK."
             ],
             [
@@ -492,7 +492,7 @@
               "- HS đọc theo lượt đọc 2, chú ý vị trí của chi tiết sáng tạo A, B trong bài văn."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình SGK, xác định bài văn, chi tiết sáng tạo A, B và các câu hỏi a, b, c, d."
             ],
             [
@@ -535,7 +535,7 @@
               "- 1 HS đọc yêu cầu và đoạn văn theo hướng dẫn của GV."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 2, Bài 3 và phần Ghi nhớ trong SGK."
             ],
             [
@@ -610,7 +610,7 @@
               "- HS ghi vào vở để thực hiện ở nhà."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát phần Vận dụng - Củng cố trong SGK, đối chiếu hai nhiệm vụ về nhà."
             ],
             [
@@ -676,7 +676,7 @@
               "- HS kể lại trò chơi nghe tiếng gió của Bống và các bạn.\n- HS trả lời: Trò chơi rất thú vị vì các bạn được vui chơi, được tưởng tượng, được lắng nghe âm thanh của thiên nhiên và cùng nhau chia sẻ cảm xúc.\n- HS suy nghĩ, trả lời câu hỏi của GV."
             ],
             [
-              "- GV giao nhiệm vụ đã nêu ở phần Khởi động (SGK, trang 13): Trao đổi với bạn: Em có thể làm gì để góp phần làm cho khu phố hay thôn xóm của em thêm sạch đẹp?",
+              "- GV giao nhiệm vụ đã nêu ở phần Khởi động (SGK, trang 13): Trao đổi với bạn: Em có thể làm gì để góp phần làm cho khu phố hay thôn xóm của em thêm sạch đẹp?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trao đổi nhóm 4 về những việc đã hoặc sẽ làm để góp phần làm khu phố hay thôn xóm thêm sạch đẹp."
             ],
             [
@@ -699,7 +699,7 @@
               "- HS nghe đọc, nhìn vào sách và đọc theo các câu/nhân vật/những thông tin, chi tiết thấy thú vị nhất hoặc gây ấn tượng với mình."
             ],
             [
-              "- GV đọc diễn cảm với ngữ điệu chung: chậm rãi, tình cảm; nhấn giọng ở những từ ngữ thể hiện tâm trạng, cảm xúc của nhân vật trong câu chuyện (thở dài, rủ nhau, giấu những giọt nước mắt,...). Có thể mời 2 - 3 HS đọc nối tiếp các đoạn.",
+              "- GV đọc diễn cảm với ngữ điệu chung: chậm rãi, tình cảm; nhấn giọng ở những từ ngữ thể hiện tâm trạng, cảm xúc của nhân vật trong câu chuyện (thở dài, rủ nhau, giấu những giọt nước mắt,...). Có thể mời 2 - 3 HS đọc nối tiếp các đoạn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc theo yêu cầu và nhận xét cách đọc của bạn."
             ],
             [
@@ -770,7 +770,7 @@
               "- HS trao đổi nhóm, thống nhất câu trả lời.\n- Đại diện 2 - 3 nhóm phát biểu ý kiến."
             ],
             [
-              "- GV nhận xét và chốt câu trả lời: Trên đồng cỏ, các bạn đang vui chơi, vỗ trống, múa hát... Các bạn nghe nói đồng cỏ có nguy cơ trở thành bãi rác.",
+              "- GV nhận xét và chốt câu trả lời: Trên đồng cỏ, các bạn đang vui chơi, vỗ trống, múa hát... Các bạn nghe nói đồng cỏ có nguy cơ trở thành bãi rác.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe, ghi nhớ nội dung GV chốt."
             ],
             [
@@ -869,7 +869,7 @@
               "- HS quan sát bài tập trong SGK."
             ],
             [
-              "- GV hướng dẫn HS lần lượt làm các bài tập.",
+              "- GV hướng dẫn HS lần lượt làm các bài tập.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 1, bài 2."
             ],
             [
@@ -1003,7 +1003,7 @@
               "- HS đọc theo yêu cầu và nhận xét cách đọc của bạn."
             ],
             [
-              "- GV chốt: Đóng vai nhân vật để kể lại câu chuyện là một cách kể chuyện sáng tạo.",
+              "- GV chốt: Đóng vai nhân vật để kể lại câu chuyện là một cách kể chuyện sáng tạo.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe, ghi nhớ nội dung GV chốt."
             ],
             [
@@ -1180,7 +1180,7 @@
               "- HS đọc theo yêu cầu và nhận xét cách đọc của bạn."
             ],
             [
-              "- GV hướng dẫn HS làm việc cá nhân: Nhớ lại hoặc đọc lại câu chuyện về thế giới tuổi thơ em đã chuẩn bị; viết phiếu đọc sách theo mẫu trong sách; khuyến khích HS sáng tạo.",
+              "- GV hướng dẫn HS làm việc cá nhân: Nhớ lại hoặc đọc lại câu chuyện về thế giới tuổi thơ em đã chuẩn bị; viết phiếu đọc sách theo mẫu trong sách; khuyến khích HS sáng tạo.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_1/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc theo yêu cầu và nhận xét cách đọc của bạn."
             ],
             [
@@ -1332,7 +1332,7 @@
               "2. Khám phá: Hoạt động luyện đọc (15 phút)\nMục tiêu: HS đọc đúng, đọc diễn cảm bài thơ; biết ngắt nhịp, nhấn giọng phù hợp với lời mẹ và lời bạn nhỏ.\nCách tiến hành:"
             ],
             [
-              "- GV đọc mẫu toàn bài thơ Tuổi Ngựa với giọng tha thiết, hồn nhiên; lời mẹ đọc nhẹ nhàng, lời bạn nhỏ đọc hào hứng, giàu tưởng tượng.",
+              "- GV đọc mẫu toàn bài thơ Tuổi Ngựa với giọng tha thiết, hồn nhiên; lời mẹ đọc nhẹ nhàng, lời bạn nhỏ đọc hào hứng, giàu tưởng tượng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi văn bản trong SGK."
             ],
             [
@@ -1340,7 +1340,7 @@
               "- HS quan sát tranh minh họa, bước đầu hình dung không gian bài thơ."
             ],
             [
-              "- GV hướng dẫn HS chia đoạn để luyện đọc:",
+              "- GV hướng dẫn HS chia đoạn để luyện đọc:\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đánh dấu 4 đoạn luyện đọc trong SGK và chuẩn bị đọc nối tiếp."
             ],
             [
@@ -1581,7 +1581,7 @@
               "2. Khám phá: Hình thành kiến thức mới (10 phút)\nMục tiêu: HS bước đầu nhận biết đại từ qua các ví dụ thay thế, hỏi và xưng hô.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc tên bài Đại từ và quan sát các bài tập trong SGK.",
+              "- GV yêu cầu HS đọc tên bài Đại từ và quan sát các bài tập trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tên bài, quan sát bài tập trong SGK."
             ],
             [
@@ -1648,7 +1648,7 @@
               "- HS ghi nhớ: ai, đâu, nào là các đại từ nghi vấn trong những ngữ liệu vừa học."
             ],
             [
-              "Bài 3. Đọc câu chuyện dưới đây và trả lời câu hỏi.",
+              "Bài 3. Đọc câu chuyện dưới đây và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -1806,7 +1806,7 @@
               "2. Khám phá: Tìm hiểu yêu cầu đề bài (8 phút)\nMục tiêu: HS đọc đúng yêu cầu đề bài, xác định được nhiệm vụ viết và lựa chọn đề phù hợp.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thầm phần Viết trong SGK.",
+              "- GV yêu cầu HS đọc thầm phần Viết trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thầm phần Viết trong SGK."
             ],
             [
@@ -1825,7 +1825,7 @@
               "3. Luyện tập: Lập dàn ý (25 phút)\nMục tiêu: HS lập được dàn ý bài văn kể chuyện sáng tạo theo gợi ý trong SGK; biết trao đổi, góp ý để hoàn thiện dàn ý.\nMục tiêu tích hợp: HS hiểu AI/robot thám hiểm có thể hỗ trợ con người khám phá vùng xa xôi, nguy hiểm nhưng ý tưởng, cảm xúc và trách nhiệm sáng tạo bài viết vẫn thuộc về con người.\nCách tiến hành:"
             ],
             [
-              "1. Chuẩn bị",
+              "1. Chuẩn bị\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -1953,7 +1953,7 @@
               "1. Khởi động (7 phút)\nMục tiêu: Nhận ra dấu hiệu liên quan tới nội dung bài học; nêu được những ý kiến, cảm xúc của bản thân về điều tự hào ở quê hương hoặc nơi mình sinh sống.\nCách tiến hành:"
             ],
             [
-              "- GV nêu câu hỏi khởi động trong SGK: Em yêu thích, tự hào về điều gì ở quê hương hoặc nơi mình sinh sống?",
+              "- GV nêu câu hỏi khởi động trong SGK: Em yêu thích, tự hào về điều gì ở quê hương hoặc nơi mình sinh sống?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Em yêu thích và tự hào về cảnh đẹp, dòng sông, con đường, mái trường, món ăn, người thân hoặc kỉ niệm tuổi thơ ở quê hương/nơi mình sinh sống."
             ],
             [
@@ -1984,7 +1984,7 @@
               "- HS luyện đọc đúng các từ: lững lờ, nghiêng nghiêng, tụ năm tụ bảy, mắm đồng, nước ròng, nước lớn, phù sa, cù lao, cá bống sao, cá bống lau."
             ],
             [
-              "- GV hướng dẫn HS luyện đọc câu dài, câu giàu hình ảnh, ví dụ:",
+              "- GV hướng dẫn HS luyện đọc câu dài, câu giàu hình ảnh, ví dụ:\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS luyện đọc câu dài, biết ngắt nghỉ hợp lí."
             ],
             [
@@ -2241,7 +2241,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Nhớ lại yêu cầu viết ở tiết trước và đọc một số đoạn văn minh họa để chuẩn bị viết bài văn hoàn chỉnh.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS nhắc lại đề bài đã chọn và dàn ý đã lập ở tiết trước.",
+              "- GV yêu cầu HS nhắc lại đề bài đã chọn và dàn ý đã lập ở tiết trước.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nhắc lại đề bài đã chọn và dàn ý đã lập ở tiết trước."
             ],
             [
@@ -2257,7 +2257,7 @@
               "- HS nêu nhận xét về cách sáng tạo trong đoạn văn minh họa."
             ],
             [
-              "2. Luyện tập: Viết bài văn (25 phút)\nMục tiêu: HS viết bài văn kể chuyện sáng tạo dựa trên dàn ý đã lập, biết triển khai ý thành đoạn văn hoàn chỉnh.\nCách tiến hành:"
+              "2. Luyện tập: Viết bài văn (25 phút)\nMục tiêu: HS viết bài văn kể chuyện sáng tạo dựa trên dàn ý đã lập, biết triển khai ý thành đoạn văn hoàn chỉnh.\nCách tiến hành:\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />"
             ],
             [
               "Viết bài",
@@ -2389,7 +2389,7 @@
               "2. Hình thành kiến thức và thực hành nói nghe (27 phút)\nMục tiêu: Trên cơ sở đã đọc hoặc nghe một câu chuyện nào đó, HS biết tìm ra những chi tiết thú vị trong câu chuyện và thảo luận với bạn về những chi tiết thú vị đó.\nMục tiêu tích hợp: HS thực hành quyền được bày tỏ ý kiến, được lắng nghe; biết tôn trọng ý kiến khác biệt khi trao đổi về câu chuyện yêu thích.\nCách tiến hành:"
             ],
             [
-              "Chuẩn bị",
+              "Chuẩn bị\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -2405,7 +2405,7 @@
               "- HS dựa vào sơ đồ gợi ý trong SGK để chuẩn bị phần nói."
             ],
             [
-              "Thảo luận lớp hoặc nhóm",
+              "Thảo luận lớp hoặc nhóm\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_2/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -2544,7 +2544,7 @@
               "2. Khám phá: Hoạt động luyện đọc (15 phút)\nMục tiêu: HS đọc đúng, đọc diễn cảm bài thơ; biết ngắt nhịp, nhấn giọng phù hợp và hiểu nghĩa một số từ khó.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát tranh minh họa và đọc thầm tên bài thơ trong SGK.",
+              "- GV yêu cầu HS quan sát tranh minh họa và đọc thầm tên bài thơ trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, đọc thầm tên bài thơ và nêu nhận xét ban đầu về lớp học trong tranh."
             ],
             [
@@ -2591,7 +2591,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (20 phút)\nMục tiêu: HS trả lời được các câu hỏi đọc hiểu; hiểu tình cảm của cô giáo, các bạn học sinh và ý nghĩa của bài thơ.\nMục tiêu tích hợp: HS biết nâng niu sự sống, chăm sóc cây xanh, yêu thương bạn có hoàn cảnh đặc biệt; biết sử dụng nước tiết kiệm khi chăm sóc cây.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thầm lại bài thơ và quan sát các câu hỏi đọc hiểu trong SGK.",
+              "- GV yêu cầu HS đọc thầm lại bài thơ và quan sát các câu hỏi đọc hiểu trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thầm bài thơ, quan sát câu hỏi và chuẩn bị trả lời."
             ],
             [
@@ -2805,7 +2805,7 @@
               "3. Luyện tập (25 phút)\nMục tiêu: HS làm đúng các bài tập về đại từ, biết giải thích cách dùng đại từ trong ngữ cảnh.\nMục tiêu tích hợp: HS biết dùng video/học liệu số về quá trình hạt nảy mầm từ kênh giáo dục tin cậy, không tùy tiện xem hoặc chia sẻ nguồn thiếu kiểm chứng.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Tìm các từ dùng để xưng hô trong mỗi đoạn dưới đây. Nhận xét về thái độ của người nói qua các từ đó.",
+              "Bài 1. Tìm các từ dùng để xưng hô trong mỗi đoạn dưới đây. Nhận xét về thái độ của người nói qua các từ đó.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -2825,7 +2825,7 @@
               "- HS lắng nghe, ghi nhớ khi giao tiếp cần dùng từ xưng hô lịch sự, nhã nhặn, phù hợp với hoàn cảnh."
             ],
             [
-              "Bài 2. Chọn các đại từ thay thế thích hợp với mỗi bông hoa và cho biết chúng được dùng để thay thế cho từ ngữ nào.",
+              "Bài 2. Chọn các đại từ thay thế thích hợp với mỗi bông hoa và cho biết chúng được dùng để thay thế cho từ ngữ nào.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -2941,7 +2941,7 @@
               "2. Khám phá: Nghe nhận xét chung (8 phút)\nMục tiêu: HS nắm được ưu điểm chung và lỗi thường gặp trong bài viết của lớp.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát nội dung trong SGK.",
+              "- GV yêu cầu HS quan sát nội dung trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát phần Đánh giá, chỉnh sửa bài văn kể chuyện sáng tạo trong SGK."
             ],
             [
@@ -3114,7 +3114,7 @@
               "2. Khám phá: Hoạt động luyện đọc (25 phút)\nMục tiêu: HS đọc đúng, đọc diễn cảm câu chuyện; biết đọc lời kể và lời nhân vật phù hợp.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát tranh minh họa, đọc thầm tên bài và dự đoán nội dung câu chuyện.",
+              "- GV yêu cầu HS quan sát tranh minh họa, đọc thầm tên bài và dự đoán nội dung câu chuyện.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, nêu dự đoán: Câu chuyện có thể kể về một trận bóng đá và một bạn nhỏ được xem là ngôi sao sân cỏ."
             ],
             [
@@ -3154,7 +3154,7 @@
               "- HS lắng nghe, nhắc lại nghĩa từ bằng lời của mình."
             ],
             [
-              "- GV cho HS đọc thầm lại đoạn cuối để chú ý sự thay đổi trong suy nghĩ của nhân vật Việt.",
+              "- GV cho HS đọc thầm lại đoạn cuối để chú ý sự thay đổi trong suy nghĩ của nhân vật Việt.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thầm đoạn cuối, chuẩn bị tìm hiểu nội dung."
             ],
             [
@@ -3365,7 +3365,7 @@
               "2. Khám phá: Đọc báo cáo và trả lời câu hỏi (25 phút)\nMục tiêu: HS nhận biết nội dung, người nhận, người viết, bố cục và cách trình bày của bản báo cáo công việc.\nMục tiêu tích hợp: HS biết liên hệ công nghệ VAR/AI hỗ trợ trọng tài trong thể thao, từ đó hiểu báo cáo cần trung thực, chính xác, công bằng.\nCách tiến hành:"
             ],
             [
-              "1. Đọc bản báo cáo dưới đây và trả lời câu hỏi.",
+              "1. Đọc bản báo cáo dưới đây và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -3409,7 +3409,7 @@
               "- HS trình bày:\n- Phần đầu: quốc hiệu, tiêu ngữ; địa điểm và thời gian viết báo cáo.\n- Phần chính: tên báo cáo, người nhận báo cáo, nội dung báo cáo gồm kết quả học tập, vệ sinh, các hoạt động của tổ và cách khắc phục hạn chế.\n- Phần cuối: chức vụ, chữ kí, họ và tên người viết báo cáo."
             ],
             [
-              "d. Nhận xét về cách trình bày của từng phần trong báo cáo.",
+              "d. Nhận xét về cách trình bày của từng phần trong báo cáo.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -3532,7 +3532,7 @@
               "2. Khám phá: Đọc yêu cầu và mẫu phiếu đọc sách (8 phút)\nMục tiêu: HS hiểu nhiệm vụ đọc mở rộng và cách ghi phiếu đọc sách.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc các yêu cầu trong SGK và quan sát mẫu Phiếu đọc sách.",
+              "- GV yêu cầu HS đọc các yêu cầu trong SGK và quan sát mẫu Phiếu đọc sách.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_3/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, quan sát mẫu Phiếu đọc sách."
             ],
             [
@@ -3663,7 +3663,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; giúp HS dự đoán nội dung bài đọc dựa vào nhan đề và tranh minh hoạ.\nCách tiến hành:"
             ],
             [
-              "- GV mời 1 HS đọc yêu cầu khởi động: Dựa vào nhan đề và tranh minh hoạ, hãy đoán nội dung câu chuyện.",
+              "- GV mời 1 HS đọc yêu cầu khởi động: Dựa vào nhan đề và tranh minh hoạ, hãy đoán nội dung câu chuyện.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS đọc yêu cầu; cả lớp quan sát nhan đề và tranh minh hoạ."
             ],
             [
@@ -3682,7 +3682,7 @@
               "2. Khám phá: Đọc văn bản (15 phút)\nMục tiêu: Đọc đúng, đọc diễn cảm văn bản; hiểu nghĩa từ khó và bước đầu nắm nội dung câu chuyện.\nCách tiến hành:"
             ],
             [
-              "- GV đọc cả bài, đọc diễn cảm, nhấn giọng ở những từ ngữ thể hiện cảm xúc, tâm trạng của nhân vật.",
+              "- GV đọc cả bài, đọc diễn cảm, nhấn giọng ở những từ ngữ thể hiện cảm xúc, tâm trạng của nhân vật.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi văn bản trong SGK."
             ],
             [
@@ -3880,7 +3880,7 @@
               "2. Luyện tập (27 phút)\nMục tiêu: Thực hành nhận biết và sử dụng đại từ trong câu, đoạn văn.\nMục tiêu tích hợp: HS biết chụp ảnh món đồ yêu thích và lưu vào thư mục số có tên rõ ràng khi thực hiện nhiệm vụ học tập.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình bài tập trong SGK.",
+              "- GV cho HS quan sát hình bài tập trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát nội dung bài tập."
             ],
             [
@@ -4007,7 +4007,7 @@
               "2. Khám phá: Chuẩn bị viết báo cáo (12 phút)\nMục tiêu: HS nắm đề bài, xác định vai viết, chuẩn bị số liệu và thông tin cần báo cáo.\nMục tiêu tích hợp: HS hiểu AI có thể hỗ trợ nhận diện, phân loại đồ vật nhưng con người vẫn cần chọn lọc dữ liệu và kiểm tra kết quả.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc hai đề trong SGK và quan sát mẫu báo cáo.",
+              "- GV cho HS đọc hai đề trong SGK và quan sát mẫu báo cáo.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài và xác định có thể chọn Đề 1 hoặc Đề 2."
             ],
             [
@@ -4019,7 +4019,7 @@
               "- HS ghi các nhóm nội dung: những việc hoàn thành tốt; những việc chưa hoàn thành và lí do; kết quả vượt trội; sai sót cần khắc phục; thành viên tích cực; thành viên cần cố gắng."
             ],
             [
-              "- GV cho HS quan sát tiếp phần mẫu báo cáo và câu hỏi đọc soát.",
+              "- GV cho HS quan sát tiếp phần mẫu báo cáo và câu hỏi đọc soát.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát mẫu báo cáo của chi đội và các câu hỏi dùng để đọc soát."
             ],
             [
@@ -4135,7 +4135,7 @@
               "2. Khởi động (5 phút)\nMục tiêu: Khơi gợi trí tưởng tượng của HS về một hành tinh ngoài Trái Đất.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc yêu cầu khởi động: Tưởng tượng em đến một hành tinh ngoài Trái Đất, em sẽ thấy những gì?",
+              "- GV mời HS đọc yêu cầu khởi động: Tưởng tượng em đến một hành tinh ngoài Trái Đất, em sẽ thấy những gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS đọc yêu cầu; HS suy nghĩ cá nhân."
             ],
             [
@@ -4150,7 +4150,7 @@
               "3. Khám phá: Đọc văn bản (18 phút)\nMục tiêu: Đọc đúng, đọc diễn cảm văn bản; hiểu từ khó và nắm nội dung chính của câu chuyện.\nCách tiến hành:"
             ],
             [
-              "- GV đọc cả bài, đọc diễn cảm, nhấn giọng ở những từ ngữ thể hiện cảm xúc của nhân vật.",
+              "- GV đọc cả bài, đọc diễn cảm, nhấn giọng ở những từ ngữ thể hiện cảm xúc của nhân vật.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi văn bản trong SGK."
             ],
             [
@@ -4280,7 +4280,7 @@
               "- 2 HS đọc nối tiếp; cả lớp đọc thầm theo và góp ý."
             ],
             [
-              "- GV cho HS quan sát các bài luyện tập theo văn bản đọc trong SGK.",
+              "- GV cho HS quan sát các bài luyện tập theo văn bản đọc trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bài tập 1, 2, 3."
             ],
             [
@@ -4380,7 +4380,7 @@
               "2. Đánh giá báo cáo (15 phút)\nMục tiêu: HS nhận ra ưu điểm, hạn chế trong báo cáo của mình.\nMục tiêu tích hợp: HS biết dùng PowerPoint để trình bày ý tưởng kể chuyện sáng tạo về thế giới tương lai theo hướng an toàn, rõ ràng.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát phần Đánh giá, chỉnh sửa báo cáo công việc trong SGK.",
+              "- GV cho HS quan sát phần Đánh giá, chỉnh sửa báo cáo công việc trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các tiêu chí cần nghe nhận xét và chỉnh sửa."
             ],
             [
@@ -4491,7 +4491,7 @@
               "2. Chuẩn bị (10 phút)\nMục tiêu: HS chuẩn bị được nội dung giới thiệu về một nơi vui chơi.\nMục tiêu tích hợp: HS biết thực hiện quyền được bày tỏ ý kiến, đồng thời lắng nghe và tôn trọng ý kiến khác biệt của bạn.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc yêu cầu: Giới thiệu về một nơi vui chơi mà em đã đến hoặc muốn đến.",
+              "- GV cho HS đọc yêu cầu: Giới thiệu về một nơi vui chơi mà em đã đến hoặc muốn đến.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_4/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, xác định nhiệm vụ nói và nghe."
             ],
             [
@@ -4649,7 +4649,7 @@
               "2. Khám phá: Luyện đọc (15 phút)\nMục tiêu: HS đọc đúng, đọc diễn cảm bài thơ; biết ngắt nhịp, nhấn giọng phù hợp với hình ảnh thơ.\nCách tiến hành:"
             ],
             [
-              "- GV đọc mẫu toàn bài thơ, giọng đọc chậm rãi, tha thiết, thể hiện cảm xúc ngỡ ngàng trước vẻ đẹp hoang sơ, trong lành của thiên nhiên vùng núi cao. GV nhắc HS đọc thầm theo để tìm hình ảnh gây ấn tượng nhất.\nGV có thể mời 3 HS đọc nối tiếp các khổ thơ trước khi luyện đọc sâu; trước khi đọc, GV nhắc HS vừa nghe vừa nhìn vào SGK để tự chọn hình ảnh, cảnh vật gây ấn tượng nhất với mình.",
+              "- GV đọc mẫu toàn bài thơ, giọng đọc chậm rãi, tha thiết, thể hiện cảm xúc ngỡ ngàng trước vẻ đẹp hoang sơ, trong lành của thiên nhiên vùng núi cao. GV nhắc HS đọc thầm theo để tìm hình ảnh gây ấn tượng nhất.\nGV có thể mời 3 HS đọc nối tiếp các khổ thơ trước khi luyện đọc sâu; trước khi đọc, GV nhắc HS vừa nghe vừa nhìn vào SGK để tự chọn hình ảnh, cảnh vật gây ấn tượng nhất với mình.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi văn bản trong SGK, đánh dấu những hình ảnh thơ em thích."
             ],
             [
@@ -4680,7 +4680,7 @@
               "- HS lắng nghe, ghi nhớ nghĩa từ; có thể đặt câu ngắn với một từ vừa học."
             ],
             [
-              "Câu 1. Dựa vào khổ thơ thứ nhất, hãy miêu tả khung cảnh “cổng trời” theo hình dung của em.",
+              "Câu 1. Dựa vào khổ thơ thứ nhất, hãy miêu tả khung cảnh “cổng trời” theo hình dung của em.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi, đọc lại khổ thơ thứ nhất, suy nghĩ cá nhân; cột HS chưa ghi đáp án ở dòng câu hỏi."
             ],
             [
@@ -4803,7 +4803,7 @@
               "2. Khám phá: Hình thành khái niệm về từ đồng nghĩa (12 phút)\nMục tiêu: HS nhận biết từ đồng nghĩa qua ngữ liệu; phân biệt nghĩa giống nhau và gần giống nhau.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Đọc 2 đoạn văn và trả lời câu hỏi: a) Những từ in đậm trong đoạn văn nào có nghĩa giống nhau? b) Những từ in đậm trong đoạn văn nào có nghĩa gần giống nhau? Nêu nét nghĩa khác nhau giữa chúng.",
+              "Bài 1. Đọc 2 đoạn văn và trả lời câu hỏi: a) Những từ in đậm trong đoạn văn nào có nghĩa giống nhau? b) Những từ in đậm trong đoạn văn nào có nghĩa gần giống nhau? Nêu nét nghĩa khác nhau giữa chúng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, quan sát ngữ liệu, chưa ghi đáp án ngay ở dòng đề bài."
             ],
             [
@@ -4838,7 +4838,7 @@
               "3. Luyện tập (18 phút)\nMục tiêu: HS vận dụng kiến thức để nhận diện từ đồng nghĩa trong thành ngữ và lựa chọn từ phù hợp trong đoạn văn.\nCách tiến hành:"
             ],
             [
-              "Bài 3. Những thành ngữ nào dưới đây chứa các từ đồng nghĩa? Đó là những từ nào?",
+              "Bài 3. Những thành ngữ nào dưới đây chứa các từ đồng nghĩa? Đó là những từ nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, quan sát các thành ngữ và chưa ghi đáp án ngay ở dòng đề bài."
             ],
             [
@@ -4937,7 +4937,7 @@
               "2. Khám phá: Nhận diện bài văn tả phong cảnh (20 phút)\nMục tiêu: HS đọc bài văn mẫu, xác định đối tượng miêu tả, bố cục và trình tự miêu tả.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Đọc bài văn Đà Lạt và trả lời câu hỏi.",
+              "Bài 1. Đọc bài văn Đà Lạt và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, quan sát bài văn mẫu, chưa ghi đáp án ở dòng đề bài."
             ],
             [
@@ -4965,7 +4965,7 @@
               "HS trả lời: Mở bài là câu đầu: giới thiệu khái quát Đà Lạt là thành phố ngàn hoa, nổi tiếng với hồ trong xanh và thông mơ màng.\nThân bài gồm các đoạn tiếp theo: tả đặc điểm khí hậu, thác Cam Ly, suối Vàng, rừng thông, bầu trời, hồ nước, vườn rau và vườn hoa.\nKết bài là câu cuối: nêu cảm nhận, ca ngợi Đà Lạt là chốn “bồng lai tiên cảnh”.\nHS nêu thêm: Thân bài có 4 đoạn: đoạn 1 tả bao quát độ cao, khí hậu, cảnh đẹp; đoạn 2 tả thác Cam Ly, suối Vàng, rừng thông; đoạn 3 tả bầu trời và hồ nước; đoạn 4 tả vườn hoa, vườn rau và hương hoa lá."
             ],
             [
-              "Câu c. Trong phần thân bài, phong cảnh được tả theo trình tự nào? Tìm từ ngữ được sử dụng để làm nổi bật vẻ đẹp của phong cảnh.",
+              "Câu c. Trong phần thân bài, phong cảnh được tả theo trình tự nào? Tìm từ ngữ được sử dụng để làm nổi bật vẻ đẹp của phong cảnh.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi, quan sát sơ đồ trong SGK, chuẩn bị câu trả lời."
             ],
             [
@@ -5074,7 +5074,7 @@
               "HS trả lời: Chúng ta cần trồng cây, không chặt phá rừng, không vứt rác bừa bãi, không săn bắt thú rừng, tiết kiệm giấy, nhắc người lớn bảo vệ cây xanh và nguồn nước."
             ],
             [
-              "- GV hướng dẫn HS quan sát tranh minh họa bài đọc và giới thiệu: Bài Kì diệu rừng xanh đưa chúng ta đến với một khu rừng đầy màu sắc, âm thanh, cây cối và muông thú.",
+              "- GV hướng dẫn HS quan sát tranh minh họa bài đọc và giới thiệu: Bài Kì diệu rừng xanh đưa chúng ta đến với một khu rừng đầy màu sắc, âm thanh, cây cối và muông thú.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh minh họa, nêu cảm nhận ban đầu về khu rừng trong tranh."
             ],
             [
@@ -5112,7 +5112,7 @@
               "- HS lắng nghe GV giải nghĩa từ; nêu thêm từ chưa hiểu, có thể tra từ điển hoặc dựa vào tranh minh họa, ngữ cảnh bài đọc để hiểu nghĩa."
             ],
             [
-              "Câu 1. Vì sao nhân vật “tôi” có cảm giác đi lạc vào kinh đô của vương quốc những người tí hon?",
+              "Câu 1. Vì sao nhân vật “tôi” có cảm giác đi lạc vào kinh đô của vương quốc những người tí hon?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi, đọc lại đoạn 1 và chuẩn bị câu trả lời."
             ],
             [
@@ -5160,7 +5160,7 @@
               "- HS đọc diễn cảm; cả lớp lắng nghe, nhận xét."
             ],
             [
-              "Luyện tập sau văn bản đọc - Bài 1. Trong bài Kì diệu rừng xanh, những sự vật nào của tự nhiên được quan sát và miêu tả?\nGV hướng dẫn HS kẻ bảng 3 cột: thực vật, động vật, hiện tượng tự nhiên; yêu cầu HS chỉ ghi sự vật có trong bài, không ghi những sự vật ngoài văn bản.",
+              "Luyện tập sau văn bản đọc - Bài 1. Trong bài Kì diệu rừng xanh, những sự vật nào của tự nhiên được quan sát và miêu tả?\nGV hướng dẫn HS kẻ bảng 3 cột: thực vật, động vật, hiện tượng tự nhiên; yêu cầu HS chỉ ghi sự vật có trong bài, không ghi những sự vật ngoài văn bản.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài tập, quan sát bảng phân loại: thực vật, động vật, hiện tượng tự nhiên."
             ],
             [
@@ -5243,7 +5243,7 @@
               "2. Khám phá: Tìm hiểu bài văn tả phong cảnh theo trình tự thời gian (20 phút)\nMục tiêu: HS đọc bài văn mẫu, xác định cảnh được tả, bố cục và trình tự miêu tả.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Đọc bài văn Bốn mùa trong ánh nước và trả lời câu hỏi.",
+              "Bài 1. Đọc bài văn Bốn mùa trong ánh nước và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, đọc thầm bài văn mẫu, chưa ghi đáp án ở dòng đề bài."
             ],
             [
@@ -5267,7 +5267,7 @@
               "HS trả lời: Mở bài là đoạn đầu, giới thiệu khái quát hồ Hoàn Kiếm là nơi quen thuộc, có cảnh đẹp lộng lẫy. Thân bài gồm các đoạn tả hồ Hoàn Kiếm theo các mùa: mùa hè, mùa đông, mùa xuân dịp Tết, mùa thu. Kết bài là đoạn cuối, nêu cảm nghĩ về hồ Hoàn Kiếm và cuộc sống gắn với nơi đây.\nHS bổ sung: Bài văn có 6 đoạn; mở bài giới thiệu tên cảnh vật và nhận xét bao quát; thân bài miêu tả cảnh hồ ở các mùa; kết bài khẳng định hồ Hoàn Kiếm in sâu trong tâm trí nhiều người."
             ],
             [
-              "Câu c. Trong phần thân bài, cảnh hồ Hoàn Kiếm được tả vào những thời gian nào? Những từ ngữ nào giúp em nhận biết như vậy?",
+              "Câu c. Trong phần thân bài, cảnh hồ Hoàn Kiếm được tả vào những thời gian nào? Những từ ngữ nào giúp em nhận biết như vậy?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi, tìm các từ ngữ chỉ thời gian trong thân bài."
             ],
             [
@@ -5377,7 +5377,7 @@
               "2. Khám phá và luyện tập: Đọc, viết phiếu đọc sách, trao đổi (28 phút)\nMục tiêu: HS đọc sách báo khoa học, ghi thông tin quan trọng và chia sẻ nội dung đã đọc với bạn.\nCách tiến hành:"
             ],
             [
-              "Bài 1. Đọc sách báo khoa học viết về động vật hoang dã.",
+              "Bài 1. Đọc sách báo khoa học viết về động vật hoang dã.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 1, quan sát gợi ý trong SGK, chưa ghi đáp án ngay ở dòng đề bài."
             ],
             [
@@ -5389,7 +5389,7 @@
               "- HS thực hành tra cứu theo hướng dẫn của GV; ghi tên nguồn, thông tin chính và tuân thủ nghi thức số khi trao đổi."
             ],
             [
-              "Bài 2. Viết phiếu đọc sách theo mẫu.",
+              "Bài 2. Viết phiếu đọc sách theo mẫu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_5/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 2, quan sát mẫu phiếu đọc sách."
             ],
             [
@@ -5493,7 +5493,7 @@
               "- HS trao đổi nhóm đôi và chuẩn bị ý kiến: Em bất ngờ vì trong hang có cả rừng; em thấy hang rất lớn; em muốn tìm hiểu vì sao hang được hình thành."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_6/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh, nhận xét về không gian trong hang: rộng lớn, có nước, có vách đá, ánh sáng và cảnh quan rất đặc biệt."
             ],
             [
@@ -5551,7 +5551,7 @@
               "- HS lắng nghe, giải nghĩa từ bằng lời của mình và đặt câu ngắn với một từ vừa học."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_6/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát phần câu hỏi và thông tin tham khảo trong SGK."
             ],
             [
@@ -5700,7 +5700,7 @@
               "3. Luyện tập (25 phút)\nMục tiêu: Hoàn thành các bài tập về từ đồng nghĩa trong SGK và viết đoạn văn có sử dụng từ đồng nghĩa.\nMục tiêu tích hợp: Rèn năng lực sử dụng công cụ số an toàn, có chọn lọc khi tham quan ảo để mở rộng vốn từ về cảnh hang động.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_6/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các bài tập trong SGK, đọc thầm yêu cầu từng bài."
             ],
             [
@@ -5838,7 +5838,7 @@
               "2. Khám phá: Tìm hiểu cách viết mở bài và kết bài (15 phút)\nMục tiêu: Phân biệt các cách mở bài, kết bài và nhận xét tác dụng của từng cách viết.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_6/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bài tập trong SGK, đọc thầm các đoạn mở bài và kết bài mẫu."
             ],
             [
@@ -5994,7 +5994,7 @@
               "- HS quan sát tranh, nêu nhận xét: nước biển xanh, nhiều hòn đảo nhấp nhô, có tàu du lịch, cảnh rộng lớn và thơ mộng."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_6/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh SGK, liên hệ hiểu biết cá nhân về vịnh Hạ Long."
             ],
             [
@@ -6048,7 +6048,7 @@
               "- HS lắng nghe, xác định bố cục để việc trả lời câu hỏi có trình tự và rõ ý hơn."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_6/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát câu hỏi đọc hiểu và phần luyện tập theo văn bản đọc trong SGK."
             ],
             [
@@ -6209,7 +6209,7 @@
               "2. Khám phá: Chuẩn bị quan sát (10 phút)\nMục tiêu: Biết xác định cảnh cần quan sát, cách quan sát và trình tự quan sát.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_6/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát yêu cầu và gợi ý trong SGK."
             ],
             [
@@ -6240,7 +6240,7 @@
               "3. Luyện tập: Quan sát và ghi chép (22 phút)\nMục tiêu: Ghi lại kết quả quan sát theo bảng gợi ý, biết dùng từ ngữ gợi tả cụ thể.\nMục tiêu tích hợp: Biết sưu tầm ảnh di sản thiên nhiên từ nguồn đáng tin cậy và ghi nguồn khi sử dụng.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_6/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh minh họa dòng suối trong SGK để thực hành ghi chép theo mẫu."
             ],
             [
@@ -6366,7 +6366,7 @@
               "2. Hoạt động nói và nghe: Chuẩn bị, thảo luận, đánh giá (30 phút)\nMục tiêu: Thảo luận được về việc bảo tồn động vật hoang dã; trình bày ý kiến rõ ràng, biết lắng nghe và tôn trọng ý kiến bạn.\nMục tiêu tích hợp: Rèn quyền được bày tỏ ý kiến, biết lắng nghe và tôn trọng ý kiến khác biệt khi trao đổi về chủ điểm những hòn đảo trên vịnh Hạ Long.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_6/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát yêu cầu thảo luận trong SGK và các gợi ý chuẩn bị."
             ],
             [
@@ -6494,7 +6494,7 @@
               "- HS quan sát tranh, nêu cảm nhận: Em thấy mầm cây nhỏ đang vươn lên, gợi sự sống mới, niềm vui và hi vọng."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_7/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh, liên hệ với trải nghiệm nhìn thấy hạt nảy mầm hoặc cây non trong đời sống."
             ],
             [
@@ -6548,7 +6548,7 @@
               "- HS quan sát hình bài tập, tìm thông tin trong bài thơ."
             ],
             [
-              "- GV mời HS trình bày câu trả lời, khuyến khích HS nói đủ các hình ảnh.",
+              "- GV mời HS trình bày câu trả lời, khuyến khích HS nói đủ các hình ảnh.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_7/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Cảnh vật mùa đông hiện ra qua mây hối hả bay, mưa phùn lất phất, lá vàng tuôn rơi rào rào, rừng thưa thớt chỉ còn cội với cành, thỏ phóng nhanh rồi nấp vào bụi vắng, tất cả rất im ắng.\n- HS nêu thêm: Cảnh vật như co mình lại trước cái rét; không gian yên ắng, tĩnh mịch, khiến sức sống của mầm non càng trở nên đáng quý."
             ],
             [
@@ -6686,7 +6686,7 @@
               "- HS quan sát hình, đọc câu thơ và suy nghĩ nghĩa của từ lưng."
             ],
             [
-              "- GV yêu cầu HS quan sát hình minh họa câu b trong SGK, đọc câu có từ lưng mẹ.",
+              "- GV yêu cầu HS quan sát hình minh họa câu b trong SGK, đọc câu có từ lưng mẹ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_7/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc câu văn và chuẩn bị trình bày."
             ],
             [
@@ -6694,7 +6694,7 @@
               "- HS trả lời: Lưng mẹ là nghĩa gốc, chỉ phần sau của thân người. Lưng trời, lưng núi là nghĩa chuyển, chỉ phần ở khoảng giữa hoặc phần sườn của sự vật được liên tưởng giống lưng người.\n- HS nêu thêm: Trong câu thơ “Tiếng trống thu không trên cái chòi của huyện nhỏ; từng tiếng một vang ra để gọi buổi chiều”, nếu có từ chỉ vị trí giữa, cần dựa vào ngữ cảnh để hiểu nghĩa chuyển chứ không đoán máy móc."
             ],
             [
-              "Bài 4. Chọn một trong hai từ ấm hoặc lạnh, đặt câu để phân biệt các nghĩa của từ đó.",
+              "Bài 4. Chọn một trong hai từ ấm hoặc lạnh, đặt câu để phân biệt các nghĩa của từ đó.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_7/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -6871,7 +6871,7 @@
               "- HS quan sát, trả lời: Núi có miệng ở trên đỉnh, có khói, có lửa hoặc dung nham phun ra; nhìn rất hùng vĩ nhưng cũng nguy hiểm.\n- HS nêu: Em thấy dung nham đỏ rực trào ra, khói bốc lên, núi lửa có thể gây nguy hiểm nhưng cũng rất kì thú."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_7/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh, nói hiểu biết ban đầu về núi lửa."
             ],
             [
@@ -6913,7 +6913,7 @@
               "- HS quan sát hình, đọc thầm văn bản, gạch chân thông tin quan trọng."
             ],
             [
-              "Câu 1. Những đặc điểm nào của núi lửa được miêu tả trong bài?",
+              "Câu 1. Những đặc điểm nào của núi lửa được miêu tả trong bài?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_7/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -6925,7 +6925,7 @@
               "- HS trả lời: Bài đọc miêu tả hình dáng núi lửa có thể là hình nón hoặc hình tròn thoai thoải; hoạt động là phun dung nham, tro bụi, khí nóng; tiếng động có khi nổ kinh hoàng, có khi rít khe khẽ; vị trí có thể trên mặt đất hoặc dưới đáy biển.\n- HS bổ sung: Một số núi lửa chỉ phun khói, khí hoặc các đám mây tro; có núi lửa hoạt động ngầm dưới nước biển."
             ],
             [
-              "Câu 2. Vì sao tác giả so sánh Trái Đất với củ hành?",
+              "Câu 2. Vì sao tác giả so sánh Trái Đất với củ hành?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_7/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -7154,7 +7154,7 @@
               "- HS quan sát mẫu phiếu, xác định các mục: tên bài/sách, tác giả/nguồn, nội dung chính, thông tin thú vị, cảm nghĩ hoặc câu hỏi muốn tìm hiểu thêm."
             ],
             [
-              "3. Luyện tập: Viết phiếu và chia sẻ (20 phút)\nMục tiêu: HS hoàn thành phiếu đọc sách và trao đổi với bạn về nội dung đã đọc.\nCách tiến hành:"
+              "3. Luyện tập: Viết phiếu và chia sẻ (20 phút)\nMục tiêu: HS hoàn thành phiếu đọc sách và trao đổi với bạn về nội dung đã đọc.\nCách tiến hành:\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_7/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />"
             ],
             [
               "- GV yêu cầu HS làm việc cá nhân: đọc lại ghi chú hoặc tài liệu đã chuẩn bị, hoàn thành phiếu đọc sách.\n- GV khuyến khích HS sáng tạo cách trình bày phiếu: có thể viết ngắn gọn theo ý chính, thêm hình minh họa nhỏ hoặc kí hiệu đánh dấu thông tin quan trọng.",
@@ -7247,7 +7247,7 @@
               "- HS quan sát, chia sẻ: Mặt trời có sức mạnh, đem ánh sáng và hơi ấm; cảnh bình minh rực rỡ, yên bình, làm em thấy vui và yêu thiên nhiên hơn."
             ],
             [
-              "- GV hướng dẫn HS quan sát tranh minh họa và đọc yêu cầu chia sẻ trong SGK; dẫn dắt: Bài đọc hôm nay đưa chúng ta đến với khoảnh khắc nhân vật “tôi” phát hiện vầng mặt trời trong tiếng chim sẻ rộn ràng.",
+              "- GV hướng dẫn HS quan sát tranh minh họa và đọc yêu cầu chia sẻ trong SGK; dẫn dắt: Bài đọc hôm nay đưa chúng ta đến với khoảnh khắc nhân vật “tôi” phát hiện vầng mặt trời trong tiếng chim sẻ rộn ràng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, lắng nghe và ghi tên bài."
             ],
             [
@@ -7285,7 +7285,7 @@
               "3. Luyện tập - Tìm hiểu bài (18 phút)\nMục tiêu: HS hiểu nội dung bài đọc, cảm nhận được vẻ đẹp của cảnh mặt trời mọc và cảm xúc của nhân vật “tôi”.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thầm lại bài và tìm những từ ngữ, hình ảnh cho thấy nhân vật “tôi” chú ý đến tiếng chim sẻ.",
+              "- GV yêu cầu HS đọc thầm lại bài và tìm những từ ngữ, hình ảnh cho thấy nhân vật “tôi” chú ý đến tiếng chim sẻ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thầm, gạch chân chi tiết: chim sẻ thi nhau cất tiếng hót; dàn đồng ca chim sẻ khi bổng, khi trầm, khi nhanh, khi chậm, xôn xao vòm không gian."
             ],
             [
@@ -7394,7 +7394,7 @@
               "2. Khám phá - Thực hành bài tập 1, 2 (15 phút)\nMục tiêu: HS xác định được nghĩa của từ trong ngữ cảnh cụ thể.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc yêu cầu Bài 1: Nêu nghĩa của từ hạt trong mỗi đoạn thơ; từ hạt trong đoạn thơ nào được dùng với nghĩa gốc?",
+              "- GV mời HS đọc yêu cầu Bài 1: Nêu nghĩa của từ hạt trong mỗi đoạn thơ; từ hạt trong đoạn thơ nào được dùng với nghĩa gốc?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, xác định từ cần tìm hiểu là từ “hạt”."
             ],
             [
@@ -7518,7 +7518,7 @@
               "2. Khám phá - Chuẩn bị viết (10 phút)\nMục tiêu: HS nắm chắc đề bài, cách trình bày và yêu cầu khi viết bài.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc yêu cầu: Chọn 1 trong 2 đề: tả cảnh ao hồ, sông suối ở quê hương/nơi sinh sống; hoặc tả cảnh biển đảo đã thấy tận mắt hoặc xem qua phim ảnh.",
+              "- GV cho HS đọc yêu cầu: Chọn 1 trong 2 đề: tả cảnh ao hồ, sông suối ở quê hương/nơi sinh sống; hoặc tả cảnh biển đảo đã thấy tận mắt hoặc xem qua phim ảnh.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, xác định đề mình chọn và phong cảnh sẽ tả."
             ],
             [
@@ -7620,7 +7620,7 @@
               "- HS xem video/hình ảnh, nêu cảm nhận: sa mạc rộng lớn, nắng nóng, nhiều cát, vừa khắc nghiệt vừa kì thú."
             ],
             [
-              "- GV mời 2 - 3 HS trình bày, sau đó hướng dẫn HS quan sát tranh minh họa trong SGK và dẫn vào bài đọc.",
+              "- GV mời 2 - 3 HS trình bày, sau đó hướng dẫn HS quan sát tranh minh họa trong SGK và dẫn vào bài đọc.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trình bày, quan sát tranh và lắng nghe GV giới thiệu bài."
             ],
             [
@@ -7662,7 +7662,7 @@
               "- HS nghe giải nghĩa từ, đặt câu ngắn với một từ vừa học. Ví dụ: Những cồn cát nối tiếp nhau dưới nắng vàng."
             ],
             [
-              "- Câu 1: Tìm những chi tiết miêu tả sự khắc nghiệt của thiên nhiên trên con đường dẫn đến sa mạc Xa-ha-ra và ở sa mạc Xa-ha-ra.",
+              "- Câu 1: Tìm những chi tiết miêu tả sự khắc nghiệt của thiên nhiên trên con đường dẫn đến sa mạc Xa-ha-ra và ở sa mạc Xa-ha-ra.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Trên đường đến Xa-ha-ra, những rặng đá xám xỉn màu rồi ngả sang đen rám hoặc đỏ quạch; không gian giống như sao Hỏa, gợi cảm giác hoang vu. Ở sa mạc, nắng như rải lửa, nắng sấy tóc người giòn tan; ngày nóng, đêm lại rất mát, thậm chí lạnh."
             ],
             [
@@ -7698,7 +7698,7 @@
               "- HS luyện đọc theo cặp; 2 - 3 HS thi đọc trước lớp, cả lớp nhận xét cách đọc và cảm xúc khi thể hiện văn bản."
             ],
             [
-              "- GV tổ chức luyện tập sau đọc: Tìm từ ngữ chỉ đặc điểm của sa mạc và từ trái nghĩa với chúng; xác định nghĩa của từ “tối”, “lạnh”; đặt câu với từ “thổi” theo hai nghĩa.",
+              "- GV tổ chức luyện tập sau đọc: Tìm từ ngữ chỉ đặc điểm của sa mạc và từ trái nghĩa với chúng; xác định nghĩa của từ “tối”, “lạnh”; đặt câu với từ “thổi” theo hai nghĩa.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thực hiện: hoang vu - sầm uất, nóng bức - mát lạnh, khô cằn - màu mỡ; đặt câu: “Em thổi bong bóng.” / “Gió thổi qua hàng cây.”"
             ],
             [
@@ -7771,7 +7771,7 @@
               "2. Khám phá - Đánh giá bài viết (12 phút)\nMục tiêu: HS biết dùng tiêu chí để tự đánh giá bài văn.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc các tiêu chí trong SGK: có đủ ba phần; sắp xếp nội dung theo trình tự hợp lí; dùng từ ngữ, so sánh, nhân hóa; bộc lộ suy nghĩ, cảm xúc; không mắc lỗi chính tả, diễn đạt, chữ viết sạch, rõ ràng.",
+              "- GV cho HS đọc các tiêu chí trong SGK: có đủ ba phần; sắp xếp nội dung theo trình tự hợp lí; dùng từ ngữ, so sánh, nhân hóa; bộc lộ suy nghĩ, cảm xúc; không mắc lỗi chính tả, diễn đạt, chữ viết sạch, rõ ràng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc tiêu chí và đối chiếu với bài viết của mình."
             ],
             [
@@ -7875,7 +7875,7 @@
               "2. Khám phá - Chuẩn bị bài nói (10 phút)\nMục tiêu: HS biết chuẩn bị thông tin, tranh ảnh và dàn ý nói.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS đọc yêu cầu: Giới thiệu một cảnh đẹp thiên nhiên của đất nước ta.\nGV hướng dẫn HS chuẩn bị: tên thắng cảnh, địa điểm, đặc điểm nổi bật, thông tin đặc sắc.",
+              "- GV cho HS đọc yêu cầu: Giới thiệu một cảnh đẹp thiên nhiên của đất nước ta.\nGV hướng dẫn HS chuẩn bị: tên thắng cảnh, địa điểm, đặc điểm nổi bật, thông tin đặc sắc.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_8/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, lựa chọn cảnh đẹp sẽ giới thiệu."
             ],
             [
@@ -7982,7 +7982,7 @@
               "2. Luyện đọc và đọc hiểu (15 phút)\nMục tiêu: HS chọn nhiệm vụ đọc phù hợp, đọc thành tiếng hoặc đọc hiểu và trả lời được câu hỏi.\nCách tiến hành:"
             ],
             [
-              "– GV nêu yêu cầu Bài tập 1: Chọn 1 trong 2 nhiệm vụ: đọc một truyện đã học và thực hiện yêu cầu đọc hiểu; hoặc đọc một bài thơ đã học và trả lời câu hỏi.\n– GV chiếu/cắt hình bài tập trong SGV/SGK và nhắc HS đọc kĩ từng lựa chọn trước khi thực hiện.\n– GV lưu ý: nếu chọn nhiệm vụ a, HS cần đọc rõ văn bản đã học và nêu nội dung chính; nếu chọn nhiệm vụ b, HS đọc bài thơ và trả lời câu hỏi dựa vào hình ảnh, chi tiết trong bài.",
+              "– GV nêu yêu cầu Bài tập 1: Chọn 1 trong 2 nhiệm vụ: đọc một truyện đã học và thực hiện yêu cầu đọc hiểu; hoặc đọc một bài thơ đã học và trả lời câu hỏi.\n– GV chiếu/cắt hình bài tập trong SGV/SGK và nhắc HS đọc kĩ từng lựa chọn trước khi thực hiện.\n– GV lưu ý: nếu chọn nhiệm vụ a, HS cần đọc rõ văn bản đã học và nêu nội dung chính; nếu chọn nhiệm vụ b, HS đọc bài thơ và trả lời câu hỏi dựa vào hình ảnh, chi tiết trong bài.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -8099,7 +8099,7 @@
               "2. Tìm và cảm nhận từ chỉ màu sắc (15 phút)\nMục tiêu: HS tìm được từ ngữ chỉ màu sắc trong câu văn và nhận xét được sắc thái biểu cảm của từ.\nCách tiến hành:"
             ],
             [
-              "– GV nêu yêu cầu Bài tập 4: Tìm từ ngữ chỉ màu sắc trong đoạn văn và nêu nhận xét về cách sử dụng từ ngữ chỉ màu sắc của nhà văn.\n– GV hướng dẫn HS quan sát bảng nghĩa một số từ chỉ màu vàng; yêu cầu HS đối chiếu nghĩa của từ với cảnh vật được miêu tả trong đoạn văn.\n– GV nhấn mạnh: cùng là màu vàng nhưng mỗi từ gợi một sắc độ và cảm giác riêng.",
+              "– GV nêu yêu cầu Bài tập 4: Tìm từ ngữ chỉ màu sắc trong đoạn văn và nêu nhận xét về cách sử dụng từ ngữ chỉ màu sắc của nhà văn.\n– GV hướng dẫn HS quan sát bảng nghĩa một số từ chỉ màu vàng; yêu cầu HS đối chiếu nghĩa của từ với cảnh vật được miêu tả trong đoạn văn.\n– GV nhấn mạnh: cùng là màu vàng nhưng mỗi từ gợi một sắc độ và cảm giác riêng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -8122,7 +8122,7 @@
               "3. Viết đoạn văn miêu tả màu xanh (15 phút)\nMục tiêu: HS vận dụng từ chỉ màu để viết đoạn văn ngắn miêu tả cảnh thiên nhiên.\nCách tiến hành:"
             ],
             [
-              "– GV nêu yêu cầu Bài tập 5: Viết đoạn văn 3 - 5 câu tả cảnh thiên nhiên, trong đó có ít nhất 2 từ ngữ chỉ màu xanh.\n– GV yêu cầu HS chọn cảnh trước, sau đó chọn từ chỉ màu xanh phù hợp với cảnh đã chọn, không liệt kê từ rời rạc.\n– GV nhắc HS viết thành đoạn có liên kết: câu mở giới thiệu cảnh, các câu sau tả màu sắc và cảm xúc.",
+              "– GV nêu yêu cầu Bài tập 5: Viết đoạn văn 3 - 5 câu tả cảnh thiên nhiên, trong đó có ít nhất 2 từ ngữ chỉ màu xanh.\n– GV yêu cầu HS chọn cảnh trước, sau đó chọn từ chỉ màu xanh phù hợp với cảnh đã chọn, không liệt kê từ rời rạc.\n– GV nhắc HS viết thành đoạn có liên kết: câu mở giới thiệu cảnh, các câu sau tả màu sắc và cảm xúc.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -8208,7 +8208,7 @@
               "2. Đọc thuộc lòng và trả lời câu hỏi (13 phút)\nMục tiêu: HS đọc thuộc lòng một đoạn thơ và trả lời được câu hỏi về nội dung, hình ảnh thơ.\nCách tiến hành:"
             ],
             [
-              "– GV nêu yêu cầu Bài tập 1: Đọc thuộc lòng đoạn thơ khoảng 100 chữ trong một bài thơ đã học và trả lời câu hỏi.\n– GV yêu cầu HS ghi rõ tên bài thơ, đoạn thơ đã chọn và câu hỏi đọc hiểu sẽ trả lời sau khi đọc thuộc lòng.\n– GV nhắc HS đọc thuộc lòng không chỉ đúng câu chữ mà còn thể hiện được cảm xúc, nhịp thơ.",
+              "– GV nêu yêu cầu Bài tập 1: Đọc thuộc lòng đoạn thơ khoảng 100 chữ trong một bài thơ đã học và trả lời câu hỏi.\n– GV yêu cầu HS ghi rõ tên bài thơ, đoạn thơ đã chọn và câu hỏi đọc hiểu sẽ trả lời sau khi đọc thuộc lòng.\n– GV nhắc HS đọc thuộc lòng không chỉ đúng câu chữ mà còn thể hiện được cảm xúc, nhịp thơ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -8250,7 +8250,7 @@
               "4. Đặt câu phân biệt nghĩa của từ (10 phút)\nMục tiêu: HS đặt được câu thể hiện nghĩa gốc, nghĩa chuyển của từ.\nCách tiến hành:"
             ],
             [
-              "– GV nêu yêu cầu Bài tập 3: Đặt câu để phân biệt nghĩa gốc và nghĩa chuyển của từ “lá”, “nụ”.\n– GV yêu cầu HS đặt mỗi từ ít nhất 2 câu: một câu dùng nghĩa gốc, một câu dùng nghĩa chuyển.\n– GV nhắc HS sau khi đặt câu phải giải thích ngắn gọn từ đó được dùng với nghĩa nào.",
+              "– GV nêu yêu cầu Bài tập 3: Đặt câu để phân biệt nghĩa gốc và nghĩa chuyển của từ “lá”, “nụ”.\n– GV yêu cầu HS đặt mỗi từ ít nhất 2 câu: một câu dùng nghĩa gốc, một câu dùng nghĩa chuyển.\n– GV nhắc HS sau khi đặt câu phải giải thích ngắn gọn từ đó được dùng với nghĩa nào.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -8324,7 +8324,7 @@
               "2. Ôn tập đại từ, từ ngữ thay thế (15 phút)\nMục tiêu: HS nhận biết đại từ, danh từ được dùng để xưng hô và thay thế trong văn bản.\nCách tiến hành:"
             ],
             [
-              "– GV nêu yêu cầu Bài tập 4: Đọc đoạn văn và trả lời: Từ “ở” ở vị trí nào được dùng để xưng hô? Trong đoạn văn, còn danh từ nào được dùng để xưng hô?\n– GV yêu cầu HS đọc cả đoạn trước khi trả lời, không chỉ nhìn riêng câu chứa từ “ở”.\n– GV gợi ý HS xác định người nói, người nghe và người/vật được nói đến để tìm đúng từ xưng hô.",
+              "– GV nêu yêu cầu Bài tập 4: Đọc đoạn văn và trả lời: Từ “ở” ở vị trí nào được dùng để xưng hô? Trong đoạn văn, còn danh từ nào được dùng để xưng hô?\n– GV yêu cầu HS đọc cả đoạn trước khi trả lời, không chỉ nhìn riêng câu chứa từ “ở”.\n– GV gợi ý HS xác định người nói, người nghe và người/vật được nói đến để tìm đúng từ xưng hô.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -8436,7 +8436,7 @@
               "2. Đọc hiểu văn bản mới (18 phút)\nMục tiêu: HS đọc hiểu câu chuyện mới, trả lời được câu hỏi về nhân vật, sự việc và tính cách nhân vật.\nCách tiến hành:"
             ],
             [
-              "– GV nêu yêu cầu Bài tập 1: Đọc câu chuyện “Tôi sống độc lập từ thuở bé” trong SGK và trả lời câu hỏi.\n– GV hướng dẫn HS đọc câu chuyện theo trình tự: đọc nhan đề, xác định nhân vật, tìm sự việc chính, tìm cảm xúc của chú dê út.\n– GV yêu cầu HS dùng bút chì gạch dưới các chi tiết thể hiện suy nghĩ của chú dê út.",
+              "– GV nêu yêu cầu Bài tập 1: Đọc câu chuyện “Tôi sống độc lập từ thuở bé” trong SGK và trả lời câu hỏi.\n– GV hướng dẫn HS đọc câu chuyện theo trình tự: đọc nhan đề, xác định nhân vật, tìm sự việc chính, tìm cảm xúc của chú dê út.\n– GV yêu cầu HS dùng bút chì gạch dưới các chi tiết thể hiện suy nghĩ của chú dê út.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -8565,7 +8565,7 @@
               "2. Kiểm tra đọc thành tiếng (25 phút)\nMục tiêu: Đánh giá kĩ năng đọc thành tiếng, tốc độ đọc, giọng đọc và khả năng trả lời câu hỏi trực tiếp.\nCách tiến hành:"
             ],
             [
-              "– GV chuẩn bị phiếu đọc, gọi HS theo thứ tự hoặc bốc thăm. Mỗi HS đọc đoạn văn/bài thơ phù hợp và trả lời 1 - 2 câu hỏi.\n– GV chuẩn bị danh sách văn bản/đoạn đọc; mỗi phiếu có tên văn bản, đoạn đọc, câu hỏi kiểm tra hiểu văn bản và tiêu chí đọc.\n– GV có thể dùng đề tham khảo trong SGV: đọc thành tiếng bài “Vườn mặt trời, quả mặt trăng” và trả lời câu hỏi về hình ảnh so sánh, cảm nhận của tác giả.",
+              "– GV chuẩn bị phiếu đọc, gọi HS theo thứ tự hoặc bốc thăm. Mỗi HS đọc đoạn văn/bài thơ phù hợp và trả lời 1 - 2 câu hỏi.\n– GV chuẩn bị danh sách văn bản/đoạn đọc; mỗi phiếu có tên văn bản, đoạn đọc, câu hỏi kiểm tra hiểu văn bản và tiêu chí đọc.\n– GV có thể dùng đề tham khảo trong SGV: đọc thành tiếng bài “Vườn mặt trời, quả mặt trăng” và trả lời câu hỏi về hình ảnh so sánh, cảm nhận của tác giả.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -8654,7 +8654,7 @@
               "2. Làm bài đọc hiểu (20 phút)\nMục tiêu: Đánh giá khả năng đọc hiểu văn bản mới, nhận diện chi tiết, nghĩa từ, biện pháp nghệ thuật và nội dung chính.\nCách tiến hành:"
             ],
             [
-              "– GV hướng dẫn HS đọc thầm văn bản kiểm tra, ví dụ văn bản “Cánh đồng vàng”, sau đó trả lời các câu hỏi trong đề.\n– GV có thể sử dụng văn bản tham khảo “Cánh đồng vàng”; HS đọc thầm và lần lượt làm các câu hỏi trắc nghiệm, tự luận ngắn.\n– GV nhắc HS với câu tự luận phải viết thành câu đầy đủ, không trả lời cụt lủn.",
+              "– GV hướng dẫn HS đọc thầm văn bản kiểm tra, ví dụ văn bản “Cánh đồng vàng”, sau đó trả lời các câu hỏi trong đề.\n– GV có thể sử dụng văn bản tham khảo “Cánh đồng vàng”; HS đọc thầm và lần lượt làm các câu hỏi trắc nghiệm, tự luận ngắn.\n– GV nhắc HS với câu tự luận phải viết thành câu đầy đủ, không trả lời cụt lủn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_9/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               ""
             ],
             [
@@ -8742,7 +8742,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Giúp HS hiểu chủ điểm mới Trên con đường học tập, tạo hứng thú với bài đọc Thư gửi các học sinh.\nCách tiến hành:"
             ],
             [
-              "- GV giới thiệu chủ điểm mới: Hôm nay, các em bước sang chủ điểm thứ ba: Trên con đường học tập. GV yêu cầu HS quan sát tranh chủ điểm và cho biết bức tranh nói với em điều gì về chủ điểm này.",
+              "- GV giới thiệu chủ điểm mới: Hôm nay, các em bước sang chủ điểm thứ ba: Trên con đường học tập. GV yêu cầu HS quan sát tranh chủ điểm và cho biết bức tranh nói với em điều gì về chủ điểm này.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh chủ điểm, nêu cảm nhận cá nhân về bức tranh."
             ],
             [
@@ -8769,7 +8769,7 @@
               "- HS nghe GV đọc mẫu, theo dõi bài đọc trong SGK."
             ],
             [
-              "- GV hướng dẫn HS quan sát văn bản và tranh minh hoạ trong SGK.",
+              "- GV hướng dẫn HS quan sát văn bản và tranh minh hoạ trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh minh hoạ, hình dung bối cảnh ngày khai trường đầu tiên của nước Việt Nam độc lập."
             ],
             [
@@ -8796,7 +8796,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (15 phút)\nMục tiêu: HS trả lời đầy đủ các câu hỏi đọc hiểu trong SGK; biết dựa vào chi tiết trong thư để hiểu tình cảm, mong muốn và niềm tin của Bác Hồ.\nMục tiêu tích hợp: HS liên hệ trách nhiệm của thế hệ trẻ trong giữ gìn thành quả độc lập; thực hiện lời Bác dạy, chăm học, chăm làm để góp phần xây dựng đất nước.\nCách tiến hành:"
             ],
             [
-              "- GV hướng dẫn HS thực hiện lần lượt các câu hỏi trong SGK: có thể làm việc cá nhân, trao đổi theo cặp/nhóm rồi trình bày trước lớp.",
+              "- GV hướng dẫn HS thực hiện lần lượt các câu hỏi trong SGK: có thể làm việc cá nhân, trao đổi theo cặp/nhóm rồi trình bày trước lớp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc lại đoạn đầu của bức thư, tìm câu văn trả lời câu hỏi."
             ],
             [
@@ -8944,7 +8944,7 @@
               "2. Khám phá: Bài tập 1 - Sắp xếp các bước tra cứu (8 phút)\nMục tiêu: HS nhận biết trình tự đúng khi tra cứu nghĩa của từ đọc trong từ điển.\nCách tiến hành:"
             ],
             [
-              "- GV mời 1 HS đọc câu lệnh bài tập 1 và các bước tra cứu nghĩa của từ đọc trong SGK.",
+              "- GV mời 1 HS đọc câu lệnh bài tập 1 và các bước tra cứu nghĩa của từ đọc trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS đọc yêu cầu; cả lớp theo dõi các bước trong SGK."
             ],
             [
@@ -8963,7 +8963,7 @@
               "3. Luyện tập: Bài tập 2 - Đọc thông tin trong mục từ (12 phút)\nMục tiêu: HS đọc được các thông tin về từ đọc trong trang minh hoạ từ điển: từ loại, nghĩa gốc, nghĩa chuyển và ví dụ sử dụng.\nCách tiến hành:"
             ],
             [
-              "- GV nêu yêu cầu bài tập 2; trình chiếu hình ảnh mục từ đọc trong SGK hoặc dán tranh phóng to lên bảng.",
+              "- GV nêu yêu cầu bài tập 2; trình chiếu hình ảnh mục từ đọc trong SGK hoặc dán tranh phóng to lên bảng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát mục từ đọc trong SGK, đọc các thông tin được chỉ dẫn."
             ],
             [
@@ -9086,7 +9086,7 @@
               "2. Khám phá: Bài tập 1 - Đọc đoạn văn và trả lời câu hỏi (20 phút)\nMục tiêu: HS nhận biết nội dung chính, bố cục và cách triển khai đặc điểm nhân vật trong đoạn văn mẫu.\nMục tiêu tích hợp: HS biết sử dụng chatbot AI để giải nghĩa từ khó khi cần, đồng thời đối chiếu với nguồn tin cậy, không phụ thuộc hoàn toàn vào kết quả do AI tạo ra.\nCách tiến hành:"
             ],
             [
-              "- GV mời 2 HS đọc đoạn văn trong SGK về nhân vật Mi-lô.",
+              "- GV mời 2 HS đọc đoạn văn trong SGK về nhân vật Mi-lô.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 2 HS đọc đoạn văn; cả lớp theo dõi SGK."
             ],
             [
@@ -9106,7 +9106,7 @@
               "- HS trả lời: Phần mở đầu là câu giới thiệu cuốn sách, tác giả, nhân vật Mi-lô và ấn tượng chung. Phần kết thúc là câu “Mi-lô đã trở thành tấm gương về lòng quyết tâm theo đuổi ước mơ.”, nêu nhận định tổng quan của người đọc về nhân vật."
             ],
             [
-              "- GV nêu yêu cầu câu c: Phần triển khai nói về những đặc điểm nào của nhân vật Mi-lô? Với mỗi đặc điểm, người viết đã đưa những dẫn chứng gì về hành động, suy nghĩ của nhân vật?",
+              "- GV nêu yêu cầu câu c: Phần triển khai nói về những đặc điểm nào của nhân vật Mi-lô? Với mỗi đặc điểm, người viết đã đưa những dẫn chứng gì về hành động, suy nghĩ của nhân vật?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc lại đoạn văn, trao đổi nhóm 4 và hoàn thành sơ đồ."
             ],
             [
@@ -9145,7 +9145,7 @@
               "- HS trình bày: Đoạn văn cần có 3 phần; chọn đặc điểm nổi bật của nhân vật; đưa dẫn chứng cụ thể từ cuốn sách; thể hiện tình cảm, cảm xúc của người đọc đối với nhân vật."
             ],
             [
-              "- GV nhận xét, ghi nhận những kết quả trao đổi hợp lí; mời 1 - 2 HS đọc phần Ghi nhớ trong SGK.",
+              "- GV nhận xét, ghi nhận những kết quả trao đổi hợp lí; mời 1 - 2 HS đọc phần Ghi nhớ trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 - 2 HS đọc Ghi nhớ; cả lớp đọc thầm và ghi nhớ cách viết đoạn văn."
             ],
             [
@@ -9156,7 +9156,7 @@
               "4. Vận dụng (5 phút)\nMục tiêu: HS biết chuẩn bị tư liệu cho hoạt động viết đoạn văn giới thiệu nhân vật ở bài sau.\nCách tiến hành:"
             ],
             [
-              "- GV hướng dẫn HS thực hiện dự án Sổ tay từ ngữ tiếng Việt của em: chọn một số từ ngữ trong các bài đọc đã học, tra cứu nghĩa và thông tin khác trong từ điển, sắp xếp theo thứ tự bảng chữ cái và trình bày đẹp.",
+              "- GV hướng dẫn HS thực hiện dự án Sổ tay từ ngữ tiếng Việt của em: chọn một số từ ngữ trong các bài đọc đã học, tra cứu nghĩa và thông tin khác trong từ điển, sắp xếp theo thứ tự bảng chữ cái và trình bày đẹp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS ghi nhớ cách thực hiện dự án Sổ tay từ ngữ tiếng Việt của em."
             ],
             [
@@ -9238,7 +9238,7 @@
               "2. Khám phá: Hoạt động luyện đọc (17 phút)\nMục tiêu: HS đọc đúng, rõ ràng văn bản Tấm gương tự học; biết đọc với giọng nhẹ nhàng, ngưỡng mộ và tự hào.\nCách tiến hành:"
             ],
             [
-              "- GV đọc mẫu toàn bài với giọng đọc nhẹ nhàng, tha thiết, tự hào; nếu trong lớp có HS đọc tốt, GV có thể mời 4 em đọc nối tiếp 4 đoạn trong bài.",
+              "- GV đọc mẫu toàn bài với giọng đọc nhẹ nhàng, tha thiết, tự hào; nếu trong lớp có HS đọc tốt, GV có thể mời 4 em đọc nối tiếp 4 đoạn trong bài.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi văn bản trong SGK."
             ],
             [
@@ -9250,7 +9250,7 @@
               "- HS luyện đọc từ khó theo hướng dẫn."
             ],
             [
-              "- GV chia bài đọc thành 4 đoạn tương ứng với các đoạn văn trong SGK; mời 4 HS đọc nối tiếp các đoạn trước lớp.",
+              "- GV chia bài đọc thành 4 đoạn tương ứng với các đoạn văn trong SGK; mời 4 HS đọc nối tiếp các đoạn trước lớp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 4 HS đọc nối tiếp các đoạn; lớp nhận xét về phát âm, ngắt nghỉ, giọng đọc."
             ],
             [
@@ -9265,7 +9265,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (30 phút)\nMục tiêu: HS trả lời đầy đủ 5 câu hỏi đọc hiểu trong SGK, hiểu Tạ Quang Bửu là tấm gương sáng về tự học, học suốt đời và học say mê.\nMục tiêu tích hợp: HS nhận thức quyền được học tập suốt đời và trách nhiệm sử dụng cơ hội học tập tích cực; biết học tập tinh thần tự học, vượt khó, kiên trì rèn luyện.\nCách tiến hành:"
             ],
             [
-              "- GV hướng dẫn HS thực hiện lần lượt các câu hỏi trong SGK.",
+              "- GV hướng dẫn HS thực hiện lần lượt các câu hỏi trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đoạn văn thứ nhất và trao đổi theo cặp."
             ],
             [
@@ -9356,7 +9356,7 @@
               "4. Luyện tập theo văn bản đọc (10 phút)\nMục tiêu: HS luyện tập nghĩa của các yếu tố Hán Việt đồng âm khác nghĩa qua các từ chính khách, chính phủ, chính khoá.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc yêu cầu bài tập 1: Dựa vào gợi ý, tìm nghĩa cho mỗi từ chính khách, chính phủ, chính khoá.",
+              "- GV mời HS đọc yêu cầu bài tập 1: Dựa vào gợi ý, tìm nghĩa cho mỗi từ chính khách, chính phủ, chính khoá.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image14.png\" alt=\"image14.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và tự làm bài."
             ],
             [
@@ -9440,7 +9440,7 @@
               "2. Khám phá: Chuẩn bị thông tin (8 phút)\nMục tiêu: HS xác định nhân vật, tên sách, tác giả và điều muốn giới thiệu về nhân vật.\nCách tiến hành:"
             ],
             [
-              "- GV mời 2 HS đọc đề bài và nêu yêu cầu: Viết đoạn văn giới thiệu một nhân vật trong cuốn sách em đã đọc.",
+              "- GV mời 2 HS đọc đề bài và nêu yêu cầu: Viết đoạn văn giới thiệu một nhân vật trong cuốn sách em đã đọc.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image15.png\" alt=\"image15.png\" style=\"max-width: 95%; height: auto;\" />",
               "- 2 HS đọc đề bài; cả lớp xác định nhiệm vụ."
             ],
             [
@@ -9578,7 +9578,7 @@
               "2. Khám phá: Đọc câu chuyện và viết phiếu đọc sách (15 phút)\nMục tiêu: HS đọc câu chuyện phù hợp chủ điểm và ghi chép phiếu đọc sách theo mẫu.\nCách tiến hành:"
             ],
             [
-              "- GV nêu yêu cầu đọc mở rộng: đọc câu chuyện về nhà trường, thầy cô, học sinh; nhắc HS đọc gợi ý trong SGK để biết câu chuyện của mình có phù hợp với chủ điểm hay không.",
+              "- GV nêu yêu cầu đọc mở rộng: đọc câu chuyện về nhà trường, thầy cô, học sinh; nhắc HS đọc gợi ý trong SGK để biết câu chuyện của mình có phù hợp với chủ điểm hay không.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_10/image16.png\" alt=\"image16.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu chuyện đã chuẩn bị hoặc đọc câu chuyện bạn chia sẻ."
             ],
             [
@@ -9692,7 +9692,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo tâm thế vào bài; khơi gợi trải nghiệm thực tế của HS.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc yêu cầu khởi động trong SGK: Kể về một hoạt động trải nghiệm em đã được tham gia ở trường. Sau trải nghiệm đó, em học thêm được điều gì?",
+              "- GV yêu cầu HS đọc yêu cầu khởi động trong SGK: Kể về một hoạt động trải nghiệm em đã được tham gia ở trường. Sau trải nghiệm đó, em học thêm được điều gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_11/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS đọc yêu cầu; cả lớp đọc thầm."
             ],
             [
@@ -9746,7 +9746,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (15 phút)\nMục tiêu: Trả lời đúng câu hỏi đọc hiểu; biết dựa vào chi tiết trong văn bản.\nMục tiêu tích hợp: HS hiểu giá trị của trải nghiệm thực tế; biết chủ động tham gia hoạt động, bày tỏ ý tưởng và phát triển năng lực sáng tạo.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát phần câu hỏi đọc hiểu trong SGK.",
+              "- GV cho HS quan sát phần câu hỏi đọc hiểu trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_11/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát câu hỏi đọc hiểu."
             ],
             [
@@ -9916,7 +9916,7 @@
               "2. Luyện tập: Bài 1 (7 phút)\nMục tiêu: HS sử dụng từ điển tiếng Việt để tra cứu nghĩa của từ.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát Bài 1 trong SGK.",
+              "- GV yêu cầu HS quan sát Bài 1 trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_11/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1."
             ],
             [
@@ -10076,7 +10076,7 @@
               "2. Khám phá: Xác định yêu cầu đề bài (8 phút)\nMục tiêu: HS đọc đề bài, xác định đúng nhiệm vụ viết.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát phần Viết trong SGK.",
+              "- GV yêu cầu HS quan sát phần Viết trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_11/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát đề bài và phần lưu ý."
             ],
             [
@@ -10206,7 +10206,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Gợi suy nghĩ của HS về nhan đề Khổ luyện thành tài.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc yêu cầu khởi động trong SGK: Nhan đề bài đọc Khổ luyện thành tài gợi cho em suy nghĩ gì?",
+              "- GV mời HS đọc yêu cầu khởi động trong SGK: Nhan đề bài đọc Khổ luyện thành tài gợi cho em suy nghĩ gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_11/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS đọc yêu cầu; cả lớp đọc thầm."
             ],
             [
@@ -10256,7 +10256,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (25 phút)\nMục tiêu: Trả lời các câu hỏi đọc hiểu trong SGK.\nMục tiêu tích hợp: HS hiểu đức tính kiên trì, tự giác, vượt khó và quyền được khích lệ trong học tập, luyện tập.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát phần câu hỏi đọc hiểu trong SGK.",
+              "- GV cho HS quan sát phần câu hỏi đọc hiểu trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_11/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát câu hỏi, bài tập."
             ],
             [
@@ -10466,7 +10466,7 @@
               "2. Khám phá: Bài 1 (8 phút)\nMục tiêu: HS nghe nhận xét chung và biết ưu điểm, lỗi thường gặp trong đoạn văn giới thiệu nhân vật.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát phần Đánh giá, chỉnh sửa đoạn văn trong SGK.",
+              "- GV yêu cầu HS quan sát phần Đánh giá, chỉnh sửa đoạn văn trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_11/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các tiêu chí đánh giá."
             ],
             [
@@ -10599,7 +10599,7 @@
               "2. Khám phá: Bài 1 - Chuẩn bị (10 phút)\nMục tiêu: HS biết chuẩn bị thông tin cần giới thiệu về cuốn sách.\nMục tiêu tích hợp: HS được bày tỏ sở thích đọc sách, đồng thời biết tôn trọng sở thích và ý kiến khác biệt của bạn.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát phần Nói và nghe trong SGK.",
+              "- GV yêu cầu HS quan sát phần Nói và nghe trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_11/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát yêu cầu Chuẩn bị, Trình bày, Đánh giá."
             ],
             [
@@ -10761,7 +10761,7 @@
               "2. Khám phá: Hoạt động luyện đọc (15 phút)\nMục tiêu: HS đọc đúng và diễn cảm bài thơ; biết nhấn giọng vào các từ ngữ thể hiện vẻ đẹp, sự kì diệu của thế giới trong trang sách; hiểu nghĩa từ xứ sở, nhân nghĩa.\nCách tiến hành:"
             ],
             [
-              "- GV đọc mẫu toàn bài thơ với giọng nhẹ nhàng, tha thiết; nhấn giọng ở các từ ngữ gợi hình ảnh đẹp và cảm xúc: thế giới diệu kì, sao lấp lánh, bảy sắc cầu vồng, câu hỏi tuổi thơ, ngọn lửa khát khao, bài học thiết tha.",
+              "- GV đọc mẫu toàn bài thơ với giọng nhẹ nhàng, tha thiết; nhấn giọng ở các từ ngữ gợi hình ảnh đẹp và cảm xúc: thế giới diệu kì, sao lấp lánh, bảy sắc cầu vồng, câu hỏi tuổi thơ, ngọn lửa khát khao, bài học thiết tha.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi văn bản trong SGK."
             ],
             [
@@ -11010,7 +11010,7 @@
               "2. Luyện tập: Bài 1 (7 phút)\nMục tiêu: HS nhận biết được công dụng của dấu gạch ngang trong hai câu cho sẵn.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Dấu gạch ngang trong các câu dưới đây được dùng để làm gì?",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Dấu gạch ngang trong các câu dưới đây được dùng để làm gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 1, quan sát hai câu trong SGK."
             ],
             [
@@ -11037,7 +11037,7 @@
               "3. Luyện tập: Bài 2 (9 phút)\nMục tiêu: HS nêu được đặc điểm về vị trí và công dụng của dấu gạch ngang trong mỗi trường hợp được nêu trong SGK.\nMục tiêu tích hợp: HS bước đầu biết lập thư mục/phiếu đọc sách số để lưu thông tin sách đã đọc; biết đặt tên tệp, thư mục rõ ràng, không đưa thông tin cá nhân không cần thiết vào sản phẩm số.\nCách tiến hành:"
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Nêu đặc điểm về vị trí và công dụng của dấu gạch ngang trong mỗi trường hợp dưới đây.",
+              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Nêu đặc điểm về vị trí và công dụng của dấu gạch ngang trong mỗi trường hợp dưới đây.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 2, quan sát các trường hợp a, b, c trong SGK."
             ],
             [
@@ -11068,7 +11068,7 @@
               "4. Luyện tập: Bài 3 (8 phút)\nMục tiêu: HS xác định được câu có dấu gạch ngang dùng để đánh dấu bộ phận chú thích, giải thích.\nCách tiến hành:"
             ],
             [
-              "- Bài 3. GV yêu cầu HS đọc đề bài trong SGK: Dấu gạch ngang trong câu nào dưới đây dùng để đánh dấu bộ phận chú thích, giải thích?",
+              "- Bài 3. GV yêu cầu HS đọc đề bài trong SGK: Dấu gạch ngang trong câu nào dưới đây dùng để đánh dấu bộ phận chú thích, giải thích?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 3 và đọc đoạn văn trong SGK."
             ],
             [
@@ -11095,7 +11095,7 @@
               "5. Vận dụng - Trải nghiệm: Bài 4 (6 phút)\nMục tiêu: HS viết được 2 - 3 câu về một danh nhân, trong đó có dùng dấu gạch ngang để đánh dấu bộ phận chú thích, giải thích.\nCách tiến hành:"
             ],
             [
-              "- Bài 4. GV yêu cầu HS đọc đề bài trong SGK: Viết 2 - 3 câu về một danh nhân, trong đó có dùng dấu gạch ngang để đánh dấu bộ phận chú thích, giải thích.",
+              "- Bài 4. GV yêu cầu HS đọc đề bài trong SGK: Viết 2 - 3 câu về một danh nhân, trong đó có dùng dấu gạch ngang để đánh dấu bộ phận chú thích, giải thích.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 4, xác định phải viết về một danh nhân và dùng dấu gạch ngang đúng công dụng."
             ],
             [
@@ -11175,7 +11175,7 @@
               "2. Khám phá: Bài 1 (10 phút)\nMục tiêu: HS đọc câu chuyện Không nên phá tổ chim và trả lời các câu hỏi a, b, c trong SGK.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV nêu yêu cầu: Đọc câu chuyện dưới đây và trao đổi với bạn.",
+              "- Bài 1. GV nêu yêu cầu: Đọc câu chuyện dưới đây và trao đổi với bạn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 1, quan sát câu chuyện Không nên phá tổ chim trong SGK."
             ],
             [
@@ -11258,7 +11258,7 @@
               "3. Luyện tập: Bài 2 (15 phút)\nMục tiêu: HS xác định nội dung, cấu trúc và từ ngữ thể hiện tình cảm, cảm xúc trong đoạn văn mẫu.\nCách tiến hành:"
             ],
             [
-              "- Bài 2. GV nêu yêu cầu: Đọc đoạn văn dưới đây và trả lời câu hỏi.",
+              "- Bài 2. GV nêu yêu cầu: Đọc đoạn văn dưới đây và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đoạn văn mẫu trong SGK."
             ],
             [
@@ -11442,7 +11442,7 @@
               "2. Khám phá: Hoạt động luyện đọc (25 phút)\nMục tiêu: HS đọc đúng, rõ ràng văn bản; biết đọc với giọng tâm tình, thể hiện tình cảm của tác giả qua từng chi tiết trong văn bản.\nCách tiến hành:"
             ],
             [
-              "- GV đọc mẫu toàn bài với giọng diễn cảm, tâm tình, tha thiết.",
+              "- GV đọc mẫu toàn bài với giọng diễn cảm, tâm tình, tha thiết.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi văn bản trong SGK."
             ],
             [
@@ -11732,7 +11732,7 @@
               "2. Khám phá: Chuẩn bị (10 phút)\nMục tiêu: HS đọc kĩ đề bài, xác định câu chuyện đã chọn và những việc cần chuẩn bị trước khi tìm ý.\nCách tiến hành:"
             ],
             [
-              "- Đề bài. GV yêu cầu HS đọc đề bài trong SGK: Viết đoạn văn thể hiện tình cảm, cảm xúc về một câu chuyện em đã đọc, đã nghe.",
+              "- Đề bài. GV yêu cầu HS đọc đề bài trong SGK: Viết đoạn văn thể hiện tình cảm, cảm xúc về một câu chuyện em đã đọc, đã nghe.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, xác định yêu cầu."
             ],
             [
@@ -11842,7 +11842,7 @@
               "4. Vận dụng - Trải nghiệm: Góp ý và chỉnh sửa (7 phút)\nMục tiêu: HS biết góp ý, chỉnh sửa ý dựa vào ba tiêu chí trong SGK.\nCách tiến hành:"
             ],
             [
-              "- Bài 3. GV yêu cầu HS đọc đề bài trong SGK: Góp ý và chỉnh sửa.",
+              "- Bài 3. GV yêu cầu HS đọc đề bài trong SGK: Góp ý và chỉnh sửa.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 3 và các tiêu chí góp ý trong SGK."
             ],
             [
@@ -11926,7 +11926,7 @@
               "2. Khám phá: Đọc câu chuyện và viết phiếu đọc sách (17 phút)\nMục tiêu: HS đọc câu chuyện phù hợp với yêu cầu và ghi được các thông tin cơ bản vào phiếu đọc sách.\nMục tiêu tích hợp: HS biết tạo poster số giới thiệu tủ sách lớp hoặc câu chuyện đã đọc; biết chọn hình ảnh phù hợp, ghi nguồn, không chia sẻ thông tin cá nhân và trình bày sản phẩm số bằng lời của mình.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Đọc câu chuyện kể về tấm gương học tập hoặc những đóng góp của một nhà khoa học.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Đọc câu chuyện kể về tấm gương học tập hoặc những đóng góp của một nhà khoa học.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image11.jpg\" alt=\"image11.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 1."
             ],
             [
@@ -11958,7 +11958,7 @@
               "- HS đọc và đánh dấu chi tiết quan trọng trong câu chuyện hoặc ghi nhanh vào nháp."
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Viết phiếu đọc sách theo mẫu.",
+              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Viết phiếu đọc sách theo mẫu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image12.jpg\" alt=\"image12.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 2 và quan sát mẫu phiếu."
             ],
             [
@@ -11989,7 +11989,7 @@
               "3. Luyện tập: Trao đổi với bạn về câu chuyện đã đọc (13 phút)\nMục tiêu: HS trao đổi được với bạn về câu chuyện đã đọc theo các gợi ý trong SGK.\nCách tiến hành:"
             ],
             [
-              "- Bài 3. GV yêu cầu HS đọc đề bài trong SGK: Trao đổi với bạn về câu chuyện đã đọc.",
+              "- Bài 3. GV yêu cầu HS đọc đề bài trong SGK: Trao đổi với bạn về câu chuyện đã đọc.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_12/image13.jpg\" alt=\"image13.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 3 và các gợi ý trong SGK."
             ],
             [
@@ -12077,7 +12077,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú đọc sách; giúp HS kết nối với trải nghiệm giới thiệu một quyển sách yêu thích.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc yêu cầu khởi động trong SGK: Giới thiệu với các bạn về một quyển sách mà em thích.",
+              "- GV yêu cầu HS đọc yêu cầu khởi động trong SGK: Giới thiệu với các bạn về một quyển sách mà em thích.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS đọc yêu cầu; cả lớp đọc thầm."
             ],
             [
@@ -12135,7 +12135,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (15 phút)\nMục tiêu: HS trả lời đầy đủ các câu hỏi trong SGK; biết dựa vào chi tiết trong văn bản để nêu thông tin, nhận xét và cảm nghĩ.\nMục tiêu tích hợp: HS biết yêu quý tình bạn, lòng nhân ái; biết tôn trọng sự khác biệt, không bắt nạt và bảo vệ bạn yếu thế trong tập thể.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài trong SGK: Nêu những thông tin em biết qua lời giới thiệu sách.",
+              "- Câu 1. GV yêu cầu HS đọc đề bài trong SGK: Nêu những thông tin em biết qua lời giới thiệu sách.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -12301,7 +12301,7 @@
               "2. Luyện tập (28 phút)\nMục tiêu: HS làm lần lượt các bài tập trong SGK theo đúng trình tự: đọc đề, GV hướng dẫn, HS làm việc, trình bày và GV kết luận.\nMục tiêu tích hợp: HS biết tra cứu thông tin từ nguồn tin cậy khi tìm hiểu tác giả, tác phẩm để giới thiệu sách.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Nêu công dụng của dấu gạch ngang trong mỗi trường hợp dưới đây.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Nêu công dụng của dấu gạch ngang trong mỗi trường hợp dưới đây.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -12321,7 +12321,7 @@
               "- HS lắng nghe, đối chiếu và sửa bài vào vở."
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Cần thêm dấu gạch ngang vào những vị trí nào trong đoạn văn dưới đây?",
+              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Cần thêm dấu gạch ngang vào những vị trí nào trong đoạn văn dưới đây?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -12428,7 +12428,7 @@
               "2. Luyện tập viết đoạn văn (25 phút)\nMục tiêu: HS viết đoạn văn theo đề bài, biết dùng ý đã chuẩn bị và thể hiện tình cảm, cảm xúc rõ ràng.\nMục tiêu tích hợp: HS hiểu vai trò của dữ liệu từ ngữ khi tìm hiểu/miêu tả nhân vật; biết AI chỉ hỗ trợ gợi ý, không viết thay cảm xúc cá nhân.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Dựa vào các ý đã tìm được trong hoạt động Viết ở Bài 22, viết đoạn văn theo yêu cầu của đề bài.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Dựa vào các ý đã tìm được trong hoạt động Viết ở Bài 22, viết đoạn văn theo yêu cầu của đề bài.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -12521,7 +12521,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo tâm thế vào bài; giúp HS liên hệ người truyền cảm hứng học tập cho bản thân.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc yêu cầu khởi động trong SGK: Trong việc học, ai là người truyền cảm hứng cho em nhiều nhất?",
+              "- GV yêu cầu HS đọc yêu cầu khởi động trong SGK: Trong việc học, ai là người truyền cảm hứng cho em nhiều nhất?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 HS đọc yêu cầu; cả lớp đọc thầm."
             ],
             [
@@ -12579,7 +12579,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (25 phút)\nMục tiêu: HS trả lời các câu hỏi đọc hiểu trong SGK; biết liên hệ với cách học của bản thân.\nMục tiêu tích hợp: HS cảm nhận tình yêu gia đình, biết quan tâm, chia sẻ; hiểu quyền trẻ em được sống trong tình yêu thương, được chăm sóc và được lắng nghe.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài trong SGK: Ở đoạn mở đầu câu chuyện, Phi-lít được giới thiệu như thế nào?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài trong SGK: Ở đoạn mở đầu câu chuyện, Phi-lít được giới thiệu như thế nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -12697,7 +12697,7 @@
               "5. Luyện tập theo văn bản đọc (15 phút)\nMục tiêu: HS luyện về đại từ xưng hô và thay thế; mở rộng vốn từ theo chủ điểm học tập.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Tìm đại từ xưng hô trong đoạn sau và cho biết chúng được dùng để chỉ ai.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Tìm đại từ xưng hô trong đoạn sau và cho biết chúng được dùng để chỉ ai.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -12800,7 +12800,7 @@
               "2. Luyện tập đánh giá, chỉnh sửa (28 phút)\nMục tiêu: HS thực hiện đúng các bước đánh giá, đọc soát, trao đổi và viết lại câu văn hay hơn.\nMục tiêu tích hợp: HS biết chia sẻ cảm nhận trên Padlet lớp học theo hướng dẫn, tôn trọng ý kiến khác biệt và phản hồi văn minh.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Nghe thầy cô giáo nhận xét chung.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Nghe thầy cô giáo nhận xét chung.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -12936,7 +12936,7 @@
               "- HS trả lời: Tự học là tự tìm hiểu kiến thức cần thiết cho mình, có thể không có sự hướng dẫn trực tiếp của người khác."
             ],
             [
-              "- GV giới thiệu yêu cầu thảo luận: Việc tự học đem đến cho chúng ta những lợi ích gì?",
+              "- GV giới thiệu yêu cầu thảo luận: Việc tự học đem đến cho chúng ta những lợi ích gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_13/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe, mở SGK phần Nói và nghe."
             ],
             [
@@ -13154,7 +13154,7 @@
               "2. Khám phá: Đọc văn bản (15 phút)\nMục tiêu: HS đọc đúng, đọc diễn cảm bài thơ; biết chia đoạn, luyện đọc từ khó, câu thơ cần nhấn giọng và hiểu nghĩa một số từ ngữ.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát bài đọc và tranh minh họa trong SGK.",
+              "- GV yêu cầu HS quan sát bài đọc và tranh minh họa trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bài đọc, tranh minh họa và nhận biết bài thơ viết về tiếng đàn ba-la-lai-ca trên sông Đà."
             ],
             [
@@ -13201,7 +13201,7 @@
               "3. Luyện tập: Trả lời câu hỏi (15 phút)\nMục tiêu: HS trả lời đúng các câu hỏi đọc hiểu, cảm nhận âm thanh tiếng đàn và vẻ đẹp đêm trăng trên công trường thủy điện sông Đà.\nMục tiêu tích hợp: HS biết tự hào về lao động xây dựng đất nước và tinh thần cống hiến của con người Việt Nam.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài trong SGK: Tiếng đàn ba-la-lai-ca được miêu tả thế nào qua 8 dòng thơ đầu?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài trong SGK: Tiếng đàn ba-la-lai-ca được miêu tả thế nào qua 8 dòng thơ đầu?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -13360,7 +13360,7 @@
               "2. Khám phá: Hình thành kiến thức (17 phút)\nMục tiêu: HS nhận biết từ ngữ được lặp lại và nêu được tác dụng của biện pháp điệp từ, điệp ngữ.\nMục tiêu tích hợp: HS biết nghe âm thanh nhạc cụ bằng học liệu số và chọn phương tiện phù hợp để cảm nhận bài thơ.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Đọc bài ca dao trong SGK và trả lời câu hỏi.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Đọc bài ca dao trong SGK và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -13380,7 +13380,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Từ nào được lặp lại trong câu tục ngữ Học ăn, học nói, học gói, học mở? Việc lặp lại từ đó có tác dụng gì?",
+              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Từ nào được lặp lại trong câu tục ngữ Học ăn, học nói, học gói, học mở? Việc lặp lại từ đó có tác dụng gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -13518,7 +13518,7 @@
               "2. Khám phá: Tìm hiểu đoạn văn mẫu (20 phút)\nMục tiêu: HS đọc đoạn văn mẫu và xác định được bố cục, nội dung, từ ngữ thể hiện tình cảm, cảm xúc.\nMục tiêu tích hợp: HS hiểu AI có thể hỗ trợ kĩ sư vận hành nhà máy thủy điện hiện đại an toàn, chính xác.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Đọc đoạn văn trong SGK và thực hiện các yêu cầu a, b, c.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Đọc đoạn văn trong SGK và thực hiện các yêu cầu a, b, c.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -13605,7 +13605,7 @@
               "3. Luyện tập: Trao đổi về điểm cần lưu ý (12 phút)\nMục tiêu: HS nêu được những điểm cần lưu ý khi viết đoạn văn thể hiện tình cảm, cảm xúc về một bài thơ.\nCách tiến hành:"
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Trao đổi về những điểm cần lưu ý khi viết đoạn văn thể hiện tình cảm, cảm xúc về một bài thơ.",
+              "- Bài 2. GV yêu cầu HS đọc đề bài trong SGK: Trao đổi về những điểm cần lưu ý khi viết đoạn văn thể hiện tình cảm, cảm xúc về một bài thơ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -13687,7 +13687,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: HS quan sát tranh, liên tưởng đến cuốn truyện, hình thành hứng thú vào bài đọc.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc yêu cầu khởi động: Những hình ảnh minh họa dưới đây có gì thú vị? Chúng giúp em liên tưởng đến cuốn truyện nào?",
+              "- GV yêu cầu HS đọc yêu cầu khởi động: Những hình ảnh minh họa dưới đây có gì thú vị? Chúng giúp em liên tưởng đến cuốn truyện nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu khởi động và quan sát tranh minh họa."
             ],
             [
@@ -13741,7 +13741,7 @@
               "3. Luyện tập: Trả lời câu hỏi (35 phút)\nMục tiêu: HS trả lời được câu hỏi đọc hiểu, nhận biết trí tưởng tượng phong phú, niềm đam mê và sự kiên trì của nhà văn Giô-an Rô-linh.\nMục tiêu tích hợp: HS biết sử dụng trí tưởng tượng theo hướng tích cực, tôn trọng sản phẩm sáng tạo của bạn.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài trong SGK: Những chi tiết nào cho biết ngay từ nhỏ, Giô-an Rô-linh đã có trí tưởng tượng rất phong phú?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài trong SGK: Những chi tiết nào cho biết ngay từ nhỏ, Giô-an Rô-linh đã có trí tưởng tượng rất phong phú?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -13859,7 +13859,7 @@
               "5. Luyện tập theo văn bản đọc (15 phút)\nMục tiêu: HS mở rộng vốn từ về trí tuệ, biết tìm nghĩa của từ và chọn từ phù hợp để hoàn thành câu.\nMục tiêu tích hợp: HS hiểu quyền được sáng tạo nghệ thuật và được trình bày ý tưởng cá nhân trong học tập.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Tìm nghĩa của các từ: mơ tưởng, liên tưởng, ý tưởng, tưởng tượng.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Tìm nghĩa của các từ: mơ tưởng, liên tưởng, ý tưởng, tưởng tượng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -13951,7 +13951,7 @@
               "2. Khám phá: Chuẩn bị tìm ý (12 phút)\nMục tiêu: HS đọc đề bài, lựa chọn bài thơ phù hợp và ghi lại điều mình yêu thích ở bài thơ.\nMục tiêu tích hợp: HS biết dùng công cụ AI tạo hình minh họa ý tưởng và nhận xét điểm phù hợp, chưa phù hợp.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Chọn 1 trong 2 đề dưới đây: Đề 1 viết về một bài thơ thuộc chủ điểm Thế giới tuổi thơ; Đề 2 viết về một bài thơ ca ngợi vẻ đẹp của thiên nhiên.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Chọn 1 trong 2 đề dưới đây: Đề 1 viết về một bài thơ thuộc chủ điểm Thế giới tuổi thơ; Đề 2 viết về một bài thơ ca ngợi vẻ đẹp của thiên nhiên.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -13971,7 +13971,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- GV hướng dẫn HS đọc bài thơ, ghi ngắn gọn những điều em yêu thích ở bài thơ.",
+              "- GV hướng dẫn HS đọc bài thơ, ghi ngắn gọn những điều em yêu thích ở bài thơ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image11.jpg\" alt=\"image11.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS ghi điều yêu thích: hình ảnh, nhân vật, cảnh vật, ý thơ, từ ngữ, nhịp điệu hoặc ý nghĩa của bài thơ."
             ],
             [
@@ -14077,7 +14077,7 @@
               "2. Khám phá: Đọc câu chuyện và viết phiếu đọc sách (20 phút)\nMục tiêu: HS đọc câu chuyện về một người làm việc trong lĩnh vực nghệ thuật và viết phiếu đọc sách theo mẫu.\nMục tiêu tích hợp: HS biết tìm hình ảnh minh họa thơ và ghi nguồn khi chia sẻ trong bài trình bày.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Đọc câu chuyện về một người làm việc trong lĩnh vực nghệ thuật.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài trong SGK: Đọc câu chuyện về một người làm việc trong lĩnh vực nghệ thuật.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_14/image12.jpg\" alt=\"image12.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -15112,7 +15112,7 @@
               "- 2 HS đọc bài cũ, cả lớp theo dõi và nhận xét."
             ],
             [
-              "- GV giao nhiệm vụ: làm việc theo nhóm theo yêu cầu khởi động trong SGK: Kể tên một phim hoạt hình em đã được xem. Nói những điều em thích trong bộ phim đó cho các bạn nghe.",
+              "- GV giao nhiệm vụ: làm việc theo nhóm theo yêu cầu khởi động trong SGK: Kể tên một phim hoạt hình em đã được xem. Nói những điều em thích trong bộ phim đó cho các bạn nghe.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu khởi động và trao đổi nhóm về một bộ phim hoạt hình đã xem."
             ],
             [
@@ -15178,7 +15178,7 @@
               "3. Luyện tập: Trả lời câu hỏi (15 phút)\nMục tiêu: HS trả lời đúng các câu hỏi đọc hiểu trong SGK, biết tìm thông tin và nêu nhận xét theo SGV.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Trong tờ quảng cáo trên, những thông tin dưới đây về bộ phim được giới thiệu như thế nào?}",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Trong tờ quảng cáo trên, những thông tin dưới đây về bộ phim được giới thiệu như thế nào?}\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -15333,7 +15333,7 @@
               "2. Khám phá: Nhận biết kết từ (15 phút)\nMục tiêu: HS nhận biết kết từ qua các từ in đậm trong đoạn văn.\nMục tiêu tích hợp: HS biết công cụ dựng hoạt hình là một ứng dụng của công nghệ số trong tạo chuyển động.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Các từ in đậm ở đoạn văn trong SHS được dùng để làm gì?}",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Các từ in đậm ở đoạn văn trong SHS được dùng để làm gì?}\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -15360,7 +15360,7 @@
               "3. Luyện tập: Thực hành về kết từ (25 phút)\nMục tiêu: HS chỉ ra cặp kết từ, tìm kết từ phù hợp và viết câu có kết từ.\nCách tiến hành:"
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Chỉ ra các từ nối được dùng thành cặp trong những câu ở bài tập 2.}",
+              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Chỉ ra các từ nối được dùng thành cặp trong những câu ở bài tập 2.}\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -15487,7 +15487,7 @@
               "2. Khám phá: Tìm hiểu đoạn văn mẫu (20 phút)\nMục tiêu: HS đọc đoạn văn mẫu, xác định nhân vật, các phần của đoạn văn và những chi tiết nhận biết nhân vật.\nMục tiêu tích hợp: HS bước đầu hiểu AI có thể học từ nhiều khung hình để giúp chuyển động hoạt hình mượt mà hơn, nhưng ý tưởng và cảm xúc vẫn do con người tạo ra.\nCách tiến hành:"
             ],
             [
-              "- Bài 1a. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Đoạn văn trên tập trung giới thiệu về nhân vật nào?}",
+              "- Bài 1a. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Đoạn văn trên tập trung giới thiệu về nhân vật nào?}\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1a và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -15539,7 +15539,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Bài 1d. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Những chi tiết nào trong đoạn văn giúp em nhận ra đây là nhân vật trong phim hoạt hình?}",
+              "- Bài 1d. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Những chi tiết nào trong đoạn văn giúp em nhận ra đây là nhân vật trong phim hoạt hình?}\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1d và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -15667,7 +15667,7 @@
               "- HS nhắc lại tên bài đọc trước và nêu cảm nghĩ ngắn gọn."
             ],
             [
-              "- GV giao nhiệm vụ: làm việc theo nhóm, trao đổi hoạt động khởi động: Quan sát tranh trong SHS và nêu suy nghĩ của em về các diễn viên trong tranh.",
+              "- GV giao nhiệm vụ: làm việc theo nhóm, trao đổi hoạt động khởi động: Quan sát tranh trong SHS và nêu suy nghĩ của em về các diễn viên trong tranh.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu khởi động và quan sát tranh trong SGK."
             ],
             [
@@ -15725,7 +15725,7 @@
               "3. Luyện tập: Trả lời câu hỏi (25 phút)\nMục tiêu: HS trả lời các câu hỏi đọc hiểu theo SGK và chốt đáp án theo SGV.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Nghệ thuật múa ba lê được giới thiệu như thế nào?}",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Nghệ thuật múa ba lê được giới thiệu như thế nào?}\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -15913,7 +15913,7 @@
               "- HS nêu: đoạn văn thường có mở đầu, triển khai, kết thúc; phần triển khai giới thiệu đặc điểm nổi bật của nhân vật."
             ],
             [
-              "- GV nêu đề bài: Viết đoạn văn giới thiệu một nhân vật trong bộ phim hoạt hình em đã được xem.",
+              "- GV nêu đề bài: Viết đoạn văn giới thiệu một nhân vật trong bộ phim hoạt hình em đã được xem.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, xác định nhiệm vụ cần chuẩn bị dàn ý."
             ],
             [
@@ -16050,7 +16050,7 @@
               "2. Khám phá: Tìm đọc một bài giới thiệu phim (12 phút)\nMục tiêu: HS biết cách tìm và đọc bài giới thiệu phim phù hợp.\nMục tiêu tích hợp: HS biết xem video tư liệu về múa ba lê, lựa chọn nguồn học liệu phù hợp và an toàn.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Tìm đọc một bài giới thiệu phim.}",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: {i:Tìm đọc một bài giới thiệu phim.}\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_16/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -16182,7 +16182,7 @@
               "- 2 HS đọc bài cũ, cả lớp theo dõi, nhận xét."
             ],
             [
-              "- GV yêu cầu HS đọc yêu cầu khởi động trong SGK: Trao đổi cùng bạn: Mỗi công trình kiến trúc dưới đây có điểm gì độc đáo?",
+              "- GV yêu cầu HS đọc yêu cầu khởi động trong SGK: Trao đổi cùng bạn: Mỗi công trình kiến trúc dưới đây có điểm gì độc đáo?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu khởi động, quan sát tranh và xác định nhiệm vụ trao đổi."
             ],
             [
@@ -16248,7 +16248,7 @@
               "3. Luyện tập: Trả lời câu hỏi (15 phút)\nMục tiêu: HS trả lời đúng các câu hỏi đọc hiểu trong SGK, biết tìm thông tin, tóm tắt bài đọc và nêu ý kiến cá nhân.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chùa Một Cột ở đâu và được xây dựng vào năm nào?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chùa Một Cột ở đâu và được xây dựng vào năm nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -16408,7 +16408,7 @@
               "2. Luyện tập: Bài 1 (12 phút)\nMục tiêu: HS chọn được từ ngữ ở cột A phù hợp với từ ngữ ở cột B để tạo câu và chỉ ra các kết từ trong mỗi câu.\nMục tiêu tích hợp: HS biết tra cứu hình ảnh 360 độ về kiến trúc chùa, ghi nhận thông tin chính theo hướng dẫn của GV.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn từ ngữ ở cột A phù hợp với từ ngữ ở cột B trong SHS để tạo câu. Chỉ ra các kết từ trong mỗi câu.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn từ ngữ ở cột A phù hợp với từ ngữ ở cột B trong SHS để tạo câu. Chỉ ra các kết từ trong mỗi câu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -16455,7 +16455,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Hoàn thiện câu a hoặc b dưới đây với mỗi kết từ cho sẵn.",
+              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Hoàn thiện câu a hoặc b dưới đây với mỗi kết từ cho sẵn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 3 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -16528,7 +16528,7 @@
               "1. Khởi động (3 phút)\nMục tiêu: HS nhớ lại dàn ý đã lập ở Bài 30 và xác định nhiệm vụ viết đoạn văn.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS lấy dàn ý đã lập trong hoạt động Viết ở Bài 30 và đọc lại đề bài trong SGK: Viết đoạn văn giới thiệu về một nhân vật trong bộ phim hoạt hình em đã được xem.",
+              "- GV yêu cầu HS lấy dàn ý đã lập trong hoạt động Viết ở Bài 30 và đọc lại đề bài trong SGK: Viết đoạn văn giới thiệu về một nhân vật trong bộ phim hoạt hình em đã được xem.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề bài, lấy dàn ý đã chuẩn bị và xác định yêu cầu viết đoạn văn."
             ],
             [
@@ -16644,7 +16644,7 @@
               "- 2 HS đọc bài cũ, trả lời câu hỏi; cả lớp lắng nghe, nhận xét."
             ],
             [
-              "- GV giới thiệu tên bài học và yêu cầu HS đọc yêu cầu khởi động trong SGK: Nêu nhận xét của em về gương mặt nhân vật chú Tễu trong các tiết mục múa rối nước.",
+              "- GV giới thiệu tên bài học và yêu cầu HS đọc yêu cầu khởi động trong SGK: Nêu nhận xét của em về gương mặt nhân vật chú Tễu trong các tiết mục múa rối nước.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu khởi động, quan sát hình nhân vật chú Tễu trong SGK."
             ],
             [
@@ -16694,7 +16694,7 @@
               "3. Luyện tập: Trả lời câu hỏi (30 phút)\nMục tiêu: HS trả lời đúng các câu hỏi đọc hiểu trong SGK, biết nêu lí do và giải thích ý nghĩa văn bản.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Ở cảnh 1, lí do anh Tễu tìm gặp ông quản là gì?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Ở cảnh 1, lí do anh Tễu tìm gặp ông quản là gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -16904,7 +16904,7 @@
               "3. Luyện tập: Đọc lại, đánh giá và chỉnh sửa (20 phút)\nMục tiêu: HS biết đọc soát, tự đánh giá và sửa lỗi theo gợi ý.\nMục tiêu tích hợp: HS tạo phiếu giới thiệu phim yêu thích bằng mẫu số, biết trình bày ngắn gọn, rõ thông tin.\nCách tiến hành:"
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc lại đoạn văn của em và nhận xét của thầy cô để biết bài viết đạt được những điểm nào dưới đây.",
+              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc lại đoạn văn của em và nhận xét của thầy cô để biết bài viết đạt được những điểm nào dưới đây.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -16997,14 +16997,14 @@
               "- HS lắng nghe, nhớ lại bộ phim yêu thích của mình."
             ],
             [
-              "- GV mời 1 HS đọc yêu cầu của tiết học trong SGK: Giới thiệu một bộ phim mà em yêu thích.",
+              "- GV mời 1 HS đọc yêu cầu của tiết học trong SGK: Giới thiệu một bộ phim mà em yêu thích.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, xác định nhiệm vụ nói và nghe."
             ],
             [
               "2. Khám phá: Chuẩn bị (10 phút)\nMục tiêu: HS biết chọn bộ phim, tìm thông tin, sắp xếp thông tin và chuẩn bị phương tiện hỗ trợ.\nMục tiêu tích hợp: HS biết được bày tỏ ý kiến về bộ phim yêu thích, đồng thời biết lắng nghe và tôn trọng ý kiến khác biệt của bạn.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chuẩn bị.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chuẩn bị.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_17/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17151,7 +17151,7 @@
               "2. Luyện tập: Ôn lại các chủ điểm đã học (12 phút)\nMục tiêu: HS nêu được tên 4 chủ điểm đã học và ý nghĩa của mỗi chủ điểm.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Kể tên 4 chủ điểm đã học ở học kì I và cho biết mỗi chủ điểm giúp em có thêm những hiểu biết gì về cuộc sống.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Kể tên 4 chủ điểm đã học ở học kì I và cho biết mỗi chủ điểm giúp em có thêm những hiểu biết gì về cuộc sống.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17174,7 +17174,7 @@
               "3. Luyện tập: Đọc lại bài đã học (10 phút)\nMục tiêu: HS đọc lại một văn bản đã học và trả lời được câu hỏi theo gợi ý trong SGK.\nCách tiến hành:"
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc một câu chuyện hoặc bài thơ trong các chủ điểm đã học và trả lời câu hỏi.",
+              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc một câu chuyện hoặc bài thơ trong các chủ điểm đã học và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17197,7 +17197,7 @@
               "4. Luyện tập: Ôn kết từ (10 phút)\nMục tiêu: HS tìm được kết từ phù hợp trong đoạn trích.\nCách tiến hành:"
             ],
             [
-              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Tìm kết từ phù hợp với mỗi bông hoa.",
+              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Tìm kết từ phù hợp với mỗi bông hoa.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 3 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17220,7 +17220,7 @@
               "5. Luyện tập: Ôn từ ngữ xưng hô (15 phút)\nMục tiêu: HS tìm được từ ngữ xưng hô của mèo con và từ dùng để xưng hô trong câu cho trước.\nCách tiến hành:"
             ],
             [
-              "- Bài 4. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc câu chuyện Chú mèo con nói nhiều và thực hiện yêu cầu.",
+              "- Bài 4. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc câu chuyện Chú mèo con nói nhiều và thực hiện yêu cầu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 4 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17289,7 +17289,7 @@
               "2. Luyện tập: Đọc lại bài đã học và nêu cảm nghĩ (10 phút)\nMục tiêu: HS đọc lại một bài đọc đã học và chia sẻ được cảm nghĩ của bản thân.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc một bài dưới đây và nói lên cảm nghĩ của em về bài đọc đó: Thư gửi các học sinh, Tấm gương tự học, Tranh làng Hồ, Một ngôi chùa độc đáo.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc một bài dưới đây và nói lên cảm nghĩ của em về bài đọc đó: Thư gửi các học sinh, Tấm gương tự học, Tranh làng Hồ, Một ngôi chùa độc đáo.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17312,7 +17312,7 @@
               "3. Luyện tập: Giải ô chữ (12 phút)\nMục tiêu: HS ôn tập các khái niệm tiếng Việt đã học qua trò chơi ô chữ.\nCách tiến hành:"
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Giải ô chữ: Ai giỏi tiếng Việt?",
+              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Giải ô chữ: Ai giỏi tiếng Việt?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17335,7 +17335,7 @@
               "4. Luyện tập: Ôn điệp từ, điệp ngữ (12 phút)\nMục tiêu: HS tìm được điệp từ, điệp ngữ và nêu được tác dụng.\nCách tiến hành:"
             ],
             [
-              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Thực hiện các yêu cầu: a. Tìm các điệp từ, điệp ngữ được sử dụng trong đoạn trích. b. Việc sử dụng các điệp từ, điệp ngữ trên có tác dụng gì?",
+              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Thực hiện các yêu cầu: a. Tìm các điệp từ, điệp ngữ được sử dụng trong đoạn trích. b. Việc sử dụng các điệp từ, điệp ngữ trên có tác dụng gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 3 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17358,7 +17358,7 @@
               "5. Luyện tập: Viết đoạn văn và trò chơi kết từ (18 phút)\nMục tiêu: HS viết được đoạn văn có sử dụng điệp từ, điệp ngữ; biết đặt câu với cặp kết từ nêu... thì... hoặc vì... nên....\nCách tiến hành:"
             ],
             [
-              "- Bài 4. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Viết một đoạn văn ngắn (4 - 5 câu) nói về một cảnh vật mà em quan sát được, trong đó có sử dụng điệp từ, điệp ngữ.",
+              "- Bài 4. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Viết một đoạn văn ngắn (4 - 5 câu) nói về một cảnh vật mà em quan sát được, trong đó có sử dụng điệp từ, điệp ngữ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 4 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17374,7 +17374,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Bài 5. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trò chơi: Đặt câu với cặp kết từ nêu... thì... hoặc vì... nên....",
+              "- Bài 5. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trò chơi: Đặt câu với cặp kết từ nêu... thì... hoặc vì... nên....\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 5 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17443,7 +17443,7 @@
               "2. Luyện tập: Trao đổi về cuốn sách (12 phút)\nMục tiêu: HS nói được về nội dung của một cuốn sách viết về một tấm gương học tập.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trao đổi với bạn về nội dung của cuốn sách viết về một tấm gương học tập.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trao đổi với bạn về nội dung của cuốn sách viết về một tấm gương học tập.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17466,7 +17466,7 @@
               "3. Luyện tập: Viết đoạn văn giới thiệu nhân vật (20 phút)\nMục tiêu: HS viết được đoạn văn giới thiệu về một nhân vật tài năng trong cuốn sách đã đọc.\nCách tiến hành:"
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Viết đoạn văn giới thiệu về một nhân vật tài năng trong cuốn sách em đã đọc.",
+              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Viết đoạn văn giới thiệu về một nhân vật tài năng trong cuốn sách em đã đọc.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image11.jpg\" alt=\"image11.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17485,7 +17485,7 @@
               "4. Luyện tập: Trao đổi, góp ý và chỉnh sửa (10 phút)\nMục tiêu: HS biết góp ý cho bạn và chỉnh sửa bài viết của mình.\nCách tiến hành:"
             ],
             [
-              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trao đổi với bạn để góp ý cho nhau rồi chỉnh sửa bài viết.",
+              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trao đổi với bạn để góp ý cho nhau rồi chỉnh sửa bài viết.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image12.jpg\" alt=\"image12.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 3 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17565,7 +17565,7 @@
               "2. Đọc thành tiếng và trả lời câu hỏi (15 phút)\nMục tiêu: HS đọc thành tiếng bài thơ và trả lời được câu hỏi miệng.\nCách tiến hành:"
             ],
             [
-              "- GV hướng dẫn cách thực hiện hoạt động kiểm tra đọc thành tiếng bài Bố đứng nhìn biển cả; GV giới thiệu sơ lược bài đọc và giải thích một số từ ngữ khó nếu HS không hiểu.",
+              "- GV hướng dẫn cách thực hiện hoạt động kiểm tra đọc thành tiếng bài Bố đứng nhìn biển cả; GV giới thiệu sơ lược bài đọc và giải thích một số từ ngữ khó nếu HS không hiểu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image13.jpg\" alt=\"image13.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe GV hướng dẫn, chuẩn bị đọc thành tiếng."
             ],
             [
@@ -17580,11 +17580,11 @@
               "3. Đọc hiểu văn bản (30 phút)\nMục tiêu: HS đọc hiểu văn bản Những điều thú vị về chim di cư và trả lời đúng các câu hỏi.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thầm bài Những điều thú vị về chim di cư và thực hiện các yêu cầu trong SGK.",
+              "- GV yêu cầu HS đọc thầm bài Những điều thú vị về chim di cư và thực hiện các yêu cầu trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image14.jpg\" alt=\"image14.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thầm văn bản, chú ý từ ngữ khó: di cư, tập tính, thiết bị GPS."
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Theo bài đọc, chim di cư có tập tính gì?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Theo bài đọc, chim di cư có tập tính gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image15.jpg\" alt=\"image15.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17600,7 +17600,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Câu 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Kể tên một số loài chim di cư.",
+              "- Câu 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Kể tên một số loài chim di cư.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image16.jpg\" alt=\"image16.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17616,7 +17616,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Câu 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Có mấy lí do khiến chim di cư? Đó là những lí do nào?",
+              "- Câu 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Có mấy lí do khiến chim di cư? Đó là những lí do nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image17.jpg\" alt=\"image17.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 3 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17632,7 +17632,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Câu 4. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Vì sao chim di cư bay rất xa nhưng vẫn tìm được đường về nhà?",
+              "- Câu 4. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Vì sao chim di cư bay rất xa nhưng vẫn tìm được đường về nhà?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image18.jpg\" alt=\"image18.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 4 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17648,7 +17648,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Câu 5. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trong câu “Như vậy, năng lượng, thức ăn và sự sinh sản chính là chìa khóa để các nhà khoa học giải mã hành vi thú vị này ở loài chim.”, “hành vi thú vị này” là hành vi nào? Chọn đáp án đúng.",
+              "- Câu 5. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trong câu “Như vậy, năng lượng, thức ăn và sự sinh sản chính là chìa khóa để các nhà khoa học giải mã hành vi thú vị này ở loài chim.”, “hành vi thú vị này” là hành vi nào? Chọn đáp án đúng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image19.jpg\" alt=\"image19.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 5 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17664,7 +17664,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Câu 6. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Lập sơ đồ cấu trúc bài đọc theo mô hình sau.",
+              "- Câu 6. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Lập sơ đồ cấu trúc bài đọc theo mô hình sau.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image20.jpg\" alt=\"image20.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 6 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17680,7 +17680,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Câu 7. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Những từ ngữ nào được dùng để đánh dấu việc trình bày các lí do chim di cư?",
+              "- Câu 7. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Những từ ngữ nào được dùng để đánh dấu việc trình bày các lí do chim di cư?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image21.jpg\" alt=\"image21.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 7 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17696,7 +17696,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Câu 8. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Dấu gạch ngang trong câu dưới đây được dùng để làm gì? Chọn đáp án đúng.",
+              "- Câu 8. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Dấu gạch ngang trong câu dưới đây được dùng để làm gì? Chọn đáp án đúng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image22.jpg\" alt=\"image22.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 8 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17712,7 +17712,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Câu 9. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Có thể dùng từ ngữ nào để thay thế cho từ nhà trong câu dưới đây?",
+              "- Câu 9. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Có thể dùng từ ngữ nào để thay thế cho từ nhà trong câu dưới đây?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image23.jpg\" alt=\"image23.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 9 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17728,7 +17728,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Câu 10. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Viết một câu về chim di cư, trong câu có sử dụng 1 kết từ.",
+              "- Câu 10. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Viết một câu về chim di cư, trong câu có sử dụng 1 kết từ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image24.jpg\" alt=\"image24.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 10 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -17747,7 +17747,7 @@
               "4. Viết (25 phút)\nMục tiêu: HS chọn một trong hai đề và viết đoạn văn/bài văn theo yêu cầu.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc phần B. Viết trong SGK và chọn 1 trong 2 đề.",
+              "- GV yêu cầu HS đọc phần B. Viết trong SGK và chọn 1 trong 2 đề.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_18/image25.jpg\" alt=\"image25.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc đề, chọn một đề phù hợp với khả năng của mình."
             ],
             [
@@ -17843,7 +17843,7 @@
               "2. Khám phá: Đọc văn bản (15 phút)\nMục tiêu: HS đọc đúng, đọc diễn cảm văn bản; biết ngắt nghỉ, nhấn giọng phù hợp; hiểu nghĩa từ khó trong bài.\nCách tiến hành:"
             ],
             [
-              "- GV đọc bài hoặc 4 HS đọc nối tiếp 4 đoạn. Đọc diễn cảm, nhấn giọng ở những từ ngữ gợi vẻ đẹp của thiên nhiên, hành động, việc làm của người đá và dân làng.",
+              "- GV đọc bài hoặc 4 HS đọc nối tiếp 4 đoạn. Đọc diễn cảm, nhấn giọng ở những từ ngữ gợi vẻ đẹp của thiên nhiên, hành động, việc làm của người đá và dân làng.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu hoặc đọc nối tiếp 4 đoạn, theo dõi bài trong SGK."
             ],
             [
@@ -17874,7 +17874,7 @@
               "3. Luyện tập: Trả lời câu hỏi (17 phút)\nMục tiêu: HS trả lời được các câu hỏi đọc hiểu, biết dựa vào chi tiết trong văn bản để nêu suy nghĩ.\nMục tiêu tích hợp: HS trân trọng vẻ đẹp kì diệu của thiên nhiên và mong muốn cuộc sống bình yên, tốt đẹp.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Mỏm đá trên đỉnh núi cao có gì đặc biệt? Mỏm đá được mọi vật yêu quý như thế nào?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Mỏm đá trên đỉnh núi cao có gì đặc biệt? Mỏm đá được mọi vật yêu quý như thế nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18029,7 +18029,7 @@
               "- HS lắng nghe, biết cách tra cứu tên gọi, từ khó hoặc địa danh liên quan đến bài học khi được GV cho phép."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc các câu sau và thực hiện yêu cầu.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc các câu sau và thực hiện yêu cầu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18072,14 +18072,14 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- GV cho HS đọc phần Ghi nhớ trong SGK.",
+              "- GV cho HS đọc phần Ghi nhớ trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- 1 - 2 HS đọc Ghi nhớ; cả lớp đọc thầm và ghi nhớ: câu đơn có một cụm chủ ngữ - vị ngữ; câu ghép có hai cụm chủ ngữ - vị ngữ ghép lại."
             ],
             [
               "4. Luyện tập: Tìm câu ghép và xác định các vế câu (12 phút)\nMục tiêu: HS tìm được câu ghép trong đoạn văn và xác định các vế câu trong mỗi câu ghép.\nCách tiến hành:"
             ],
             [
-              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Tìm câu ghép trong đoạn văn dưới đây và xác định các vế trong mỗi câu ghép.",
+              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Tìm câu ghép trong đoạn văn dưới đây và xác định các vế trong mỗi câu ghép.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 3 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18186,7 +18186,7 @@
               "- HS lắng nghe, biết dùng AI Search/hình ảnh 3D như công cụ hỗ trợ khám phá, không thay thế quan sát và cảm nhận của bản thân."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc bài văn dưới đây và thực hiện yêu cầu.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc bài văn dưới đây và thực hiện yêu cầu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18209,7 +18209,7 @@
               "3. Khám phá: Tìm đặc điểm của người được tả (14 phút)\nMục tiêu: HS tìm được đặc điểm của nhân vật Thắng và cách tác giả làm nổi bật nhân vật.\nCách tiến hành:"
             ],
             [
-              "- Câu c. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trong thân bài, đặc điểm của người được tả được thể hiện qua những phương diện nào?",
+              "- Câu c. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trong thân bài, đặc điểm của người được tả được thể hiện qua những phương diện nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu c và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18314,7 +18314,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: HS quan sát tranh và dự đoán nội dung bài đọc.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc câu hỏi khởi động: Nêu nội dung mỗi bức tranh dưới đây. Theo em, những bức tranh đó thể hiện điều gì?",
+              "- GV yêu cầu HS đọc câu hỏi khởi động: Nêu nội dung mỗi bức tranh dưới đây. Theo em, những bức tranh đó thể hiện điều gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi, quan sát 4 tranh trong SGK và trao đổi nhóm 2."
             ],
             [
@@ -18329,7 +18329,7 @@
               "2. Khám phá: Đọc văn bản (20 phút)\nMục tiêu: HS đọc đúng, đọc diễn cảm bài thơ; hiểu nghĩa một số từ ngữ khó trong bài.\nCách tiến hành:"
             ],
             [
-              "- GV đọc diễn cảm, nhấn giọng ở những từ ngữ, hình ảnh miêu tả sự vất vả trong công việc của người mẹ, từ ngữ thể hiện lời ru của mẹ dành cho con: vai mẹ gầy nhấp nhô làm gối, lưng đưa nôi tim hát thành lời,...",
+              "- GV đọc diễn cảm, nhấn giọng ở những từ ngữ, hình ảnh miêu tả sự vất vả trong công việc của người mẹ, từ ngữ thể hiện lời ru của mẹ dành cho con: vai mẹ gầy nhấp nhô làm gối, lưng đưa nôi tim hát thành lời,...\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi bài thơ trong SGK."
             ],
             [
@@ -18364,7 +18364,7 @@
               "- HS lắng nghe, liên hệ bản thân về những việc có thể làm để yêu thương và chia sẻ với mẹ, người thân."
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Bài thơ là lời ru ngọt ngào của người mẹ dành cho con. Những từ ngữ nào cho em biết điều đó?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Bài thơ là lời ru ngọt ngào của người mẹ dành cho con. Những từ ngữ nào cho em biết điều đó?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18455,7 +18455,7 @@
               "- HS học thuộc từng đoạn thơ, thi đọc thuộc lòng trước lớp."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trong đoạn thơ dưới đây, những từ nào được dùng để xưng hô?",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Trong đoạn thơ dưới đây, những từ nào được dùng để xưng hô?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image11.jpg\" alt=\"image11.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18543,7 +18543,7 @@
               "- HS lắng nghe, biết phân biệt sự hỗ trợ của AI với tình cảm thật của con người khi viết về mẹ, người thân."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Nêu những điểm khác nhau giữa các cách mở bài và kết bài dưới đây.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Nêu những điểm khác nhau giữa các cách mở bài và kết bài dưới đây.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image12.jpg\" alt=\"image12.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18664,7 +18664,7 @@
               "- HS lắng nghe, biết tạo poster số đơn giản, ghi nguồn hình ảnh và chia sẻ đúng nơi quy định."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc sách báo viết về người tốt, việc tốt.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc sách báo viết về người tốt, việc tốt.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_19/image13.jpg\" alt=\"image13.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18800,7 +18800,7 @@
               "2. Khám phá: Đọc văn bản (15 phút)\nMục tiêu: HS đọc đúng, đọc diễn cảm bài thơ; biết ngắt nhịp, nhấn giọng phù hợp; hiểu nghĩa một số từ ngữ trong bài.\nCách tiến hành:"
             ],
             [
-              "- GV đọc diễn cảm bài thơ, nhấn giọng ở những từ ngữ giàu sức gợi tả, gợi cảm.",
+              "- GV đọc diễn cảm bài thơ, nhấn giọng ở những từ ngữ giàu sức gợi tả, gợi cảm.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi bài thơ trong SGK."
             ],
             [
@@ -18839,7 +18839,7 @@
               "- HS lắng nghe, liên hệ: ăn hết suất, không làm rơi vãi cơm, biết giúp đỡ gia đình và trân trọng người nông dân."
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Ở khổ thơ thứ nhất, chi tiết nào cho thấy hạt gạo được kết tinh từ những tinh tuý của thiên nhiên?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Ở khổ thơ thứ nhất, chi tiết nào cho thấy hạt gạo được kết tinh từ những tinh tuý của thiên nhiên?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -18994,7 +18994,7 @@
               "- HS quan sát bảng tính mẫu, biết nhập dữ liệu theo cột và dùng dữ liệu để so sánh các hoạt động làm ra hạt gạo."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Tìm câu ghép trong các đoạn dưới đây và cho biết kết từ nào được dùng để nối các vế câu.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Tìm câu ghép trong các đoạn dưới đây và cho biết kết từ nào được dùng để nối các vế câu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19029,7 +19029,7 @@
               "3. Luyện tập: Chọn kết từ và viết đoạn văn (25 phút)\nMục tiêu: HS chọn được kết từ phù hợp và viết được đoạn văn có câu ghép theo yêu cầu.\nCách tiến hành:"
             ],
             [
-              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn kết từ thay cho mỗi bông hoa trong các câu ghép.",
+              "- Bài 3. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn kết từ thay cho mỗi bông hoa trong các câu ghép.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 3 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19128,7 +19128,7 @@
               "- HS lắng nghe, hiểu vai trò của quan sát trong học tập và trong đời sống; biết liên hệ việc quan sát để viết văn với quan sát trong sản xuất nông nghiệp."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chuẩn bị: chọn người để quan sát theo yêu cầu; chọn cách quan sát; làm phiếu ghi chép kết quả quan sát.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chuẩn bị: chọn người để quan sát theo yêu cầu; chọn cách quan sát; làm phiếu ghi chép kết quả quan sát.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19147,7 +19147,7 @@
               "3. Quan sát và ghi chép kết quả (15 phút)\nMục tiêu: HS biết quan sát ngoại hình, hoạt động, sở trường, sở thích và ghi lại kết quả quan sát.\nCách tiến hành:"
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Quan sát và ghi chép kết quả.",
+              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Quan sát và ghi chép kết quả.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19254,7 +19254,7 @@
               "2. Khám phá: Đọc văn bản (20 phút)\nMục tiêu: HS đọc đúng, đọc diễn cảm câu chuyện; biết ngắt nghỉ ở câu dài; đọc phù hợp với lời thoại nhân vật.\nCách tiến hành:"
             ],
             [
-              "- GV đọc cả bài, đọc diễn cảm, nhấn giọng ở những từ ngữ thể hiện tình tiết bất ngờ hoặc suy nghĩ nội tâm của nhân vật; giọng cô giáo ấm áp, giọng HS trong trẻo, hồn nhiên.",
+              "- GV đọc cả bài, đọc diễn cảm, nhấn giọng ở những từ ngữ thể hiện tình tiết bất ngờ hoặc suy nghĩ nội tâm của nhân vật; giọng cô giáo ấm áp, giọng HS trong trẻo, hồn nhiên.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi văn bản trong SGK."
             ],
             [
@@ -19293,7 +19293,7 @@
               "- HS lắng nghe, liên hệ cách ứng xử hằng ngày: chào hỏi lễ phép, cảm ơn, xin lỗi, giúp đỡ bạn, chúc mừng và động viên bạn đúng lúc."
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Lớp Tân có dự định gì trong buổi tổng kết năm học?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Lớp Tân có dự định gì trong buổi tổng kết năm học?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19388,7 +19388,7 @@
               "- HS luyện đọc theo cặp hoặc nhóm, biết đọc lời thoại phù hợp với nhân vật."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn nghĩa phù hợp với mỗi từ.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn nghĩa phù hợp với mỗi từ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19492,7 +19492,7 @@
               "- HS lắng nghe, biết viết lời nhắn số lịch sự, chân thành và sử dụng môi trường số an toàn, đúng mục đích."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Lập dàn ý cho một trong hai đề bài: Đề 1 viết bài văn tả một người thân trong gia đình em; Đề 2 viết bài văn tả một người đã để lại cho em những ấn tượng tốt đẹp.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Lập dàn ý cho một trong hai đề bài: Đề 1 viết bài văn tả một người thân trong gia đình em; Đề 2 viết bài văn tả một người đã để lại cho em những ấn tượng tốt đẹp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19583,7 +19583,7 @@
               "- HS lắng nghe, hiểu rằng ứng xử đẹp góp phần xây dựng môi trường học đường thân thiện và bảo vệ quyền của mỗi học sinh."
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chuẩn bị: tìm kiếm thông tin, nhớ lại trải nghiệm thực tế, dự kiến ý sẽ phát biểu về những ứng xử đẹp trong trường học.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chuẩn bị: tìm kiếm thông tin, nhớ lại trải nghiệm thực tế, dự kiến ý sẽ phát biểu về những ứng xử đẹp trong trường học.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_20/image11.jpg\" alt=\"image11.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19720,7 +19720,7 @@
               "2. Khám phá: Hoạt động luyện đọc (15 phút)\nMục tiêu: Đọc đúng, đọc diễn cảm bài đọc; biết ngắt nghỉ, nhấn giọng vào những từ ngữ chứa thông tin quan trọng.\nCách tiến hành:"
             ],
             [
-              "- GV đọc mẫu toàn bài. GV đọc diễn cảm, nhấn giọng ở những từ ngữ chứa thông tin quan trọng; giọng đọc phù hợp với tâm trạng của nhân vật Xu-di.",
+              "- GV đọc mẫu toàn bài. GV đọc diễn cảm, nhấn giọng ở những từ ngữ chứa thông tin quan trọng; giọng đọc phù hợp với tâm trạng của nhân vật Xu-di.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi bài trong SGK."
             ],
             [
@@ -19747,7 +19747,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (15 phút)\nMục tiêu: Trả lời đúng các câu hỏi đọc hiểu; hiểu ý nghĩa câu chuyện.\nMục tiêu tích hợp: Lý tưởng cách mạng, đạo đức, lối sống: Giáo dục lòng biết ơn, biết dùng việc làm đẹp để thể hiện tình cảm với người thân, thầy cô, bạn bè.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Ngày lễ nào trong năm được các bạn nhỏ mong chờ? Việc làm nào trong ngày đó khiến các bạn thấy thú vị?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Ngày lễ nào trong năm được các bạn nhỏ mong chờ? Việc làm nào trong ngày đó khiến các bạn thấy thú vị?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19901,7 +19901,7 @@
               "2. Luyện tập - thực hành (25 phút)\nMục tiêu: Xác định được cặp kết từ, cặp từ hô ứng và sử dụng đúng để tạo câu ghép.\nMục tiêu tích hợp: NLS: 2.2.CB2a - HS dùng phần mềm trình chiếu giới thiệu một loài hoa, biết trích dẫn hình ảnh.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Tìm cặp kết từ nối các vế câu trong mỗi câu ghép dưới đây.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Tìm cặp kết từ nối các vế câu trong mỗi câu ghép dưới đây.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -19917,7 +19917,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn cặp từ thay cho bông hoa.",
+              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn cặp từ thay cho bông hoa.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -20031,7 +20031,7 @@
               "2. Khám phá - nhận xét đoạn văn mẫu (12 phút)\nMục tiêu: Nhận biết cách chọn chi tiết, từ ngữ và hình ảnh để làm nổi bật đặc điểm của người được tả.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc các đoạn văn và trả lời câu hỏi.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc các đoạn văn và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -20051,7 +20051,7 @@
               "- HS lắng nghe, bổ sung hoặc sửa câu trả lời vào vở."
             ],
             [
-              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Dựa vào dàn ý trong hoạt động Viết ở Bài 4, viết đoạn văn tả một người thân trong gia đình em hoặc một người đã để lại cho em những ấn tượng tốt đẹp.",
+              "- Bài 2. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Dựa vào dàn ý trong hoạt động Viết ở Bài 4, viết đoạn văn tả một người thân trong gia đình em hoặc một người đã để lại cho em những ấn tượng tốt đẹp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 2 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -20142,7 +20142,7 @@
               "2. Khám phá: Hoạt động luyện đọc (20 phút)\nMục tiêu: Đọc đúng, đọc diễn cảm bài thơ; biết ngắt nghỉ theo dòng thơ và nhấn giọng ở những từ ngữ gợi cảm xúc.\nCách tiến hành:"
             ],
             [
-              "- GV đọc mẫu toàn bài với giọng tha thiết, xúc động; nhấn giọng ở những từ ngữ gợi tả sự vắng bố, khó khăn nơi biển đảo và lời nhắn gửi của bố.",
+              "- GV đọc mẫu toàn bài với giọng tha thiết, xúc động; nhấn giọng ở những từ ngữ gợi tả sự vắng bố, khó khăn nơi biển đảo và lời nhắn gửi của bố.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc mẫu, theo dõi bài thơ trong SGK."
             ],
             [
@@ -20169,7 +20169,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (25 phút)\nMục tiêu: Trả lời đúng các câu hỏi đọc hiểu; hiểu tình cảm của bạn nhỏ dành cho bố và tình yêu thương của bố.\nMục tiêu tích hợp: Lý tưởng cách mạng, đạo đức, lối sống: Rèn lòng hiếu thảo, biết tiếp nhận lời khuyên đúng đắn và sống có trách nhiệm với bản thân.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Ở khổ thơ thứ nhất, bạn nhỏ đã chia sẻ điều gì?",
+              "- Câu 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Ở khổ thơ thứ nhất, bạn nhỏ đã chia sẻ điều gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -20319,7 +20319,7 @@
               "2. Thực hành viết bài (25 phút)\nMục tiêu: Viết được bài văn tả người theo đề đã chọn, có bố cục rõ ràng và chi tiết tiêu biểu.\nMục tiêu tích hợp: AI: 5.A3.1 - Thực hành đặt câu hỏi với AI an toàn, biết không thay thế lời khuyên của gia đình và thầy cô.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn một trong hai đề dưới đây và viết bài văn theo yêu cầu của đề bài đã chọn.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Chọn một trong hai đề dưới đây và viết bài văn theo yêu cầu của đề bài đã chọn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -20416,7 +20416,7 @@
               "2. Đọc bài thơ và viết phiếu đọc sách (20 phút)\nMục tiêu: Biết đọc bài thơ, ghi phiếu đọc sách theo mẫu.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc bài thơ thể hiện vẻ đẹp cuộc sống.",
+              "- Bài 1. GV yêu cầu HS đọc đề bài/câu hỏi trong SGK: Đọc bài thơ thể hiện vẻ đẹp cuộc sống.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_21/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bài 1 và xác định yêu cầu cần thực hiện."
             ],
             [
@@ -21282,7 +21282,7 @@
               "2. Khám phá: Hoạt động đọc văn bản (20 phút)\nMục tiêu: Đọc đúng từ ngữ, câu, đoạn và cả văn bản; biết nhấn giọng phù hợp.\nMục tiêu tích hợp: HS biết trân trọng lễ hội truyền thống, tinh thần đoàn kết, khéo léo và trung thực trong hoạt động tập thể.\nCách tiến hành:"
             ],
             [
-              "- GV đọc cả bài, đọc diễn cảm, nhấn giọng ở những từ ngữ thể hiện những tình tiết bất ngờ hoặc không khí sôi nổi của lễ hội.",
+              "- GV đọc cả bài, đọc diễn cảm, nhấn giọng ở những từ ngữ thể hiện những tình tiết bất ngờ hoặc không khí sôi nổi của lễ hội.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc, theo dõi văn bản trong SGK."
             ],
             [
@@ -21329,7 +21329,7 @@
               "3. Luyện tập: Hoạt động trả lời câu hỏi (20 phút)\nMục tiêu: Trả lời được các câu hỏi đọc hiểu, hiểu cách thuật sự việc theo trình tự thời gian.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. Hội thổi cơm thi của làng Đồng Vân bắt nguồn từ đâu?",
+              "- Câu 1. Hội thổi cơm thi của làng Đồng Vân bắt nguồn từ đâu?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi 1, đọc thầm đoạn 1 và trao đổi nhóm 2."
             ],
             [
@@ -21450,7 +21450,7 @@
               "2. Khám phá và luyện tập (30 phút)\nMục tiêu: Nhận biết cách lặp từ ngữ để liên kết câu; thực hành xác định từ ngữ được lặp lại.\nMục tiêu tích hợp: HS biết sưu tầm, chỉnh sửa ảnh/văn bản để giới thiệu lễ hội địa phương đúng mục đích học tập.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. Đọc đoạn văn và trả lời câu hỏi. GV mời 1 - 2 HS đọc yêu cầu của bài tập, đọc cả đoạn văn và 2 câu hỏi dưới đoạn văn.",
+              "- Bài 1. Đọc đoạn văn và trả lời câu hỏi. GV mời 1 - 2 HS đọc yêu cầu của bài tập, đọc cả đoạn văn và 2 câu hỏi dưới đoạn văn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 1, đọc đoạn văn và câu hỏi."
             ],
             [
@@ -21482,7 +21482,7 @@
               "- HS đọc Ghi nhớ: Các câu trong đoạn văn có thể liên kết với nhau bằng cách lặp từ ngữ."
             ],
             [
-              "- Bài 3. Tìm từ ngữ được lặp lại để liên kết câu trong mỗi đoạn văn.",
+              "- Bài 3. Tìm từ ngữ được lặp lại để liên kết câu trong mỗi đoạn văn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 3 và 3 đoạn văn."
             ],
             [
@@ -21567,7 +21567,7 @@
               "2. Khám phá (25 phút)\nMục tiêu: Nhận biết cấu trúc và cách thể hiện tình cảm, cảm xúc trong đoạn văn mẫu.\nMục tiêu tích hợp: HS biết dùng AI Search tìm tư liệu lễ hội, sau đó đối chiếu nguồn và trình bày bằng lời của mình.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. Đọc đoạn văn và trả lời câu hỏi. GV hướng dẫn HS đọc đoạn văn thể hiện tình cảm, cảm xúc về Ngày hội văn hóa các dân tộc thiểu số ở Mộc Châu.",
+              "- Bài 1. Đọc đoạn văn và trả lời câu hỏi. GV hướng dẫn HS đọc đoạn văn thể hiện tình cảm, cảm xúc về Ngày hội văn hóa các dân tộc thiểu số ở Mộc Châu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 1, đọc thầm đoạn văn mẫu."
             ],
             [
@@ -21575,7 +21575,7 @@
               "- HS trả lời: Đoạn văn thể hiện tình cảm, cảm xúc của người viết về Ngày hội văn hóa các dân tộc thiểu số ở Mộc Châu. Người viết vô cùng hứng thú với sự kiện đó."
             ],
             [
-              "- Câu b. Chọn nội dung tương ứng với mỗi phần của đoạn văn. GV cho HS làm việc cá nhân, sau đó trao đổi theo cặp.",
+              "- Câu b. Chọn nội dung tương ứng với mỗi phần của đoạn văn. GV cho HS làm việc cá nhân, sau đó trao đổi theo cặp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trình bày: Mở đầu nêu tên sự việc, thời gian, địa điểm, ấn tượng chung; Triển khai nêu tình cảm, cảm xúc về những chi tiết nổi bật; Kết thúc nêu ý nghĩa sự việc, khẳng định lại tình cảm, cảm xúc."
             ],
             [
@@ -21666,7 +21666,7 @@
               "- HS nhắc lại bài Hội thổi cơm thi ở Đồng Vân và chia sẻ cảm nghĩ."
             ],
             [
-              "- GV giao nhiệm vụ: Trao đổi với bạn về một đồ uống mà em yêu thích: tên gọi, nguồn gốc, cách pha, hương vị,...",
+              "- GV giao nhiệm vụ: Trao đổi với bạn về một đồ uống mà em yêu thích: tên gọi, nguồn gốc, cách pha, hương vị,...\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trao đổi nhóm, nói về nước chè, nước cam, sữa, nước mía, nước dừa,..."
             ],
             [
@@ -21681,7 +21681,7 @@
               "2. Khám phá: Hoạt động đọc văn bản (20 phút)\nMục tiêu: Đọc đúng, đọc diễn cảm câu chuyện; hiểu nghĩa một số từ khó.\nMục tiêu tích hợp: HS biết quý trọng lao động, tri thức địa phương và sản vật quê hương.\nCách tiến hành:"
             ],
             [
-              "- GV đọc cả bài với giọng kể chuyện, thay đổi ngữ điệu khi đọc lời nói trực tiếp của các nhân vật.",
+              "- GV đọc cả bài với giọng kể chuyện, thay đổi ngữ điệu khi đọc lời nói trực tiếp của các nhân vật.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nghe GV đọc, theo dõi văn bản trong SGK."
             ],
             [
@@ -21720,7 +21720,7 @@
               "3. Luyện tập: Hoạt động trả lời câu hỏi (30 phút)\nMục tiêu: Hiểu nội dung câu chuyện, suy nghĩ và ước mơ của nhân vật Thào A Sùng.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. Thào A Sùng kể với bạn những gì về quê hương của cậu?",
+              "- Câu 1. Thào A Sùng kể với bạn những gì về quê hương của cậu?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi 1, làm việc cá nhân, sau đó trao đổi theo cặp."
             ],
             [
@@ -21838,7 +21838,7 @@
               "1. Chuẩn bị (10 phút)\nMục tiêu: Chọn được sự việc và xác định yêu cầu của đề bài.\nMục tiêu tích hợp: HS hiểu dữ liệu hình ảnh có thể giúp AI nhận diện giống chè, cây trồng địa phương nhưng cần sử dụng có trách nhiệm.\nCách tiến hành:"
             ],
             [
-              "- GV dành thời gian cho HS nêu những điều cần ghi nhớ về cách viết đoạn văn thể hiện tình cảm, cảm xúc về một sự việc.",
+              "- GV dành thời gian cho HS nêu những điều cần ghi nhớ về cách viết đoạn văn thể hiện tình cảm, cảm xúc về một sự việc.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nhắc lại: cần nêu sự việc, ấn tượng chung, tình cảm/cảm xúc về chi tiết nổi bật và ý nghĩa của sự việc."
             ],
             [
@@ -21923,7 +21923,7 @@
               "1. Đọc phiếu đọc sách trong SGK (10 phút)\nMục tiêu: Nhận biết các thông tin cần ghi vào phiếu đọc sách.\nMục tiêu tích hợp: HS biết dùng ứng dụng số đúng mục đích, có ý thức về đạo đức và tính công bằng của dữ liệu.\nCách tiến hành:"
             ],
             [
-              "- GV hướng dẫn HS đọc phiếu đọc sách và trả lời câu hỏi: Bạn Lâm Phong ghi chép những gì vào phiếu đọc sách?",
+              "- GV hướng dẫn HS đọc phiếu đọc sách và trả lời câu hỏi: Bạn Lâm Phong ghi chép những gì vào phiếu đọc sách?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_23/image11.jpg\" alt=\"image11.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc phiếu, trả lời: tên truyện, nội dung tác phẩm, điều ấn tượng nhất về tác phẩm, cảm nhận chung về tác phẩm."
             ],
             [
@@ -22093,7 +22093,7 @@
               "- HS lắng nghe, sửa và hoàn thiện câu trả lời."
             ],
             [
-              "- Câu 2. Dựa vào sơ đồ dưới đây, kể lại hành trình làm ra hạt cốm theo lời kể của gió.",
+              "- Câu 2. Dựa vào sơ đồ dưới đây, kể lại hành trình làm ra hạt cốm theo lời kể của gió.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_24/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi 2, quan sát sơ đồ, đọc lại khổ thơ 2 và 3, thảo luận nhóm 4 để kể theo trình tự."
             ],
             [
@@ -22207,7 +22207,7 @@
               "2. Khám phá và luyện tập (30 phút)\nMục tiêu: Nhận biết và thực hành dùng từ ngữ nối để liên kết các câu trong đoạn văn.\nMục tiêu tích hợp: HS biết dùng sơ đồ tư duy số để hệ thống quy trình làm cốm từ lời kể của gió.\nCách tiến hành:"
             ],
             [
-              "- Bài 1. Đọc đoạn văn và thực hiện yêu cầu.",
+              "- Bài 1. Đọc đoạn văn và thực hiện yêu cầu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_24/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 1, đọc thầm đoạn văn, làm việc cá nhân rồi thảo luận nhóm."
             ],
             [
@@ -22223,7 +22223,7 @@
               "- HS đọc yêu cầu bài 2, làm việc nhóm, ghi kết quả vào vở hoặc phiếu bài tập."
             ],
             [
-              "- GV cho HS trình bày kết quả và nhận xét.",
+              "- GV cho HS trình bày kết quả và nhận xét.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_24/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trình bày: Đầu tiên, người ta gặt lúa non về để tuốt và lấy hạt. Tiếp theo, họ đãi lúa qua nước để loại bỏ các hạt lép. Sau đó, hạt lúa được rang và giã thành cốm. Cuối cùng, người ta sàng sảy cốm thật kĩ và để trong những chiếc thúng nhỏ lót lá sen."
             ],
             [
@@ -22235,7 +22235,7 @@
               "- HS thực hiện theo hướng dẫn, nêu quy tắc sử dụng công cụ số an toàn khi học tập."
             ],
             [
-              "- Bài 3. Tìm các từ ngữ nối thay cho bông hoa để tạo sự liên kết giữa các câu.",
+              "- Bài 3. Tìm các từ ngữ nối thay cho bông hoa để tạo sự liên kết giữa các câu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_24/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu bài 3, thảo luận nhóm 4, lựa chọn từ ngữ nối phù hợp."
             ],
             [
@@ -22302,7 +22302,7 @@
               "1. Viết đoạn văn (25 phút)\nMục tiêu: Viết được đoạn văn theo yêu cầu của đề bài.\nMục tiêu tích hợp: HS biết sử dụng gợi ý từ AI/sơ đồ số có chọn lọc, không thay thế cảm xúc cá nhân.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc lại một trong những đề bài ở SGK và chọn đề phù hợp.",
+              "- GV yêu cầu HS đọc lại một trong những đề bài ở SGK và chọn đề phù hợp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_24/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc các đề bài, chọn một đề để viết đoạn văn."
             ],
             [
@@ -22439,7 +22439,7 @@
               "3. Luyện tập: Hoạt động trả lời câu hỏi (30 phút)\nMục tiêu: Trả lời được các câu hỏi đọc hiểu, nêu được ý nghĩa của bài đọc.\nCách tiến hành:"
             ],
             [
-              "- Câu 1. Hoa văn trên bộ trang phục cổ truyền của người Cơ-tu có những điểm gì độc đáo?",
+              "- Câu 1. Hoa văn trên bộ trang phục cổ truyền của người Cơ-tu có những điểm gì độc đáo?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_24/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi 1, đọc thầm đoạn 1, suy nghĩ cá nhân rồi làm việc nhóm."
             ],
             [
@@ -22510,7 +22510,7 @@
               "- HS luyện đọc theo cặp/nhóm."
             ],
             [
-              "- Bài 1. Tra từ điển để tìm nghĩa của mỗi từ: cổ truyền, cổ vật.",
+              "- Bài 1. Tra từ điển để tìm nghĩa của mỗi từ: cổ truyền, cổ vật.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_24/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trình bày: cổ truyền là từ xưa truyền lại, vốn có từ xưa; cổ vật là vật được chế tạo từ thời xa xưa, có giá trị văn hóa, nghệ thuật, lịch sử, ít nhất từ một trăm năm tuổi trở lên."
             ],
             [
@@ -22562,7 +22562,7 @@
               "1. Đánh giá bài viết (15 phút)\nMục tiêu: Nhận biết yêu cầu đánh giá đoạn văn và xác định ưu điểm, hạn chế của bài viết.\nMục tiêu tích hợp: HS nhận biết vai trò của phần mềm số trong phục dựng hoa văn truyền thống và bảo tồn văn hóa.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc yêu cầu bài 1 trong SGK.",
+              "- GV yêu cầu HS đọc yêu cầu bài 1 trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_24/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu, nghe GV nhận xét chung về bài làm."
             ],
             [
@@ -22637,7 +22637,7 @@
               "1. Chuẩn bị (10 phút)\nMục tiêu: Chuẩn bị nội dung giới thiệu về một địa điểm tham quan, du lịch.\nMục tiêu tích hợp: HS biết bày tỏ ý kiến và tôn trọng ý kiến khác biệt khi trao đổi.\nCách tiến hành:"
             ],
             [
-              "- GV hướng dẫn HS đọc kĩ một số gợi ý trong SGK.",
+              "- GV hướng dẫn HS đọc kĩ một số gợi ý trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_24/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Giới thiệu về một địa điểm tham quan, du lịch mà em biết."
             ],
             [
@@ -22726,7 +22726,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú, giúp HS chia sẻ những điều đã biết về Tây Nguyên và kết nối với bài đọc.\nCách tiến hành:"
             ],
             [
-              "- GV nêu tên bài học và giao nhiệm vụ: Chia sẻ những điều em biết về Tây Nguyên.",
+              "- GV nêu tên bài học và giao nhiệm vụ: Chia sẻ những điều em biết về Tây Nguyên.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image1.jpg\" alt=\"image1.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu khởi động trong SGK và xác định nhiệm vụ trao đổi."
             ],
             [
@@ -22920,7 +22920,7 @@
               "2. Khám phá và luyện tập (30 phút)\nMục tiêu: Nhận biết và thực hành dùng từ ngữ thay thế để liên kết câu.\nMục tiêu tích hợp: HS biết dùng công cụ số mô phỏng âm thanh đàn t'rưng, chọn phương tiện trình bày phù hợp.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát Bài 1 trong SGK.",
+              "- GV cho HS quan sát Bài 1 trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image2.jpg\" alt=\"image2.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát nội dung Bài 1 và đọc thầm đoạn văn."
             ],
             [
@@ -22944,7 +22944,7 @@
               "- HS thực hiện theo hướng dẫn của GV."
             ],
             [
-              "- GV cho HS quan sát Bài 2 và phần Ghi nhớ trong SGK.",
+              "- GV cho HS quan sát Bài 2 và phần Ghi nhớ trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image3.jpg\" alt=\"image3.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát, đọc thầm đoạn văn và phần Ghi nhớ."
             ],
             [
@@ -22984,7 +22984,7 @@
               "- HS lắng nghe, đối chiếu và sửa bài."
             ],
             [
-              "- GV cho HS quan sát Bài 4.",
+              "- GV cho HS quan sát Bài 4.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image4.jpg\" alt=\"image4.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát nội dung Bài 4 trong SGK."
             ],
             [
@@ -23072,7 +23072,7 @@
               "2. Khám phá (25 phút)\nMục tiêu: Nhận biết các mục và nội dung của một chương trình hoạt động.\nMục tiêu tích hợp: HS hiểu ứng dụng âm thanh/AI có thể mô phỏng nhạc cụ dân tộc và hỗ trợ nhận xét vẻ đẹp văn hóa Tây Nguyên nhưng cần dùng có trách nhiệm.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát bản chương trình “Tiết học biên cương” trong SGK.",
+              "- GV cho HS quan sát bản chương trình “Tiết học biên cương” trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image5.jpg\" alt=\"image5.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát và đọc thầm bản chương trình."
             ],
             [
@@ -23092,7 +23092,7 @@
               "- HS lắng nghe, đối chiếu và sửa bài."
             ],
             [
-              "- GV cho HS quan sát phần kế hoạch thực hiện và Ghi nhớ.",
+              "- GV cho HS quan sát phần kế hoạch thực hiện và Ghi nhớ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image6.jpg\" alt=\"image6.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bảng kế hoạch thực hiện và đọc Ghi nhớ."
             ],
             [
@@ -23179,7 +23179,7 @@
               "- HS lắng nghe và chuẩn bị đọc bài thơ."
             ],
             [
-              "- GV cho HS quan sát tranh minh họa bài đọc và nêu nhận xét hoặc cảm nhận của mình về những hình ảnh trong tranh.",
+              "- GV cho HS quan sát tranh minh họa bài đọc và nêu nhận xét hoặc cảm nhận của mình về những hình ảnh trong tranh.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image7.jpg\" alt=\"image7.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS nêu: tranh có xuồng, kênh rạch, bông sen, cánh đồng; cảnh vật bình dị, nên thơ."
             ],
             [
@@ -23217,7 +23217,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (25 phút)\nMục tiêu: Trả lời được các câu hỏi đọc hiểu và nêu cảm nhận riêng về bài thơ.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát phần câu hỏi đọc hiểu trong SGK.",
+              "- GV cho HS quan sát phần câu hỏi đọc hiểu trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image8.jpg\" alt=\"image8.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát và đọc thầm các câu hỏi."
             ],
             [
@@ -23374,7 +23374,7 @@
               "1. Chuẩn bị (10 phút)\nMục tiêu: Chọn được hoạt động, xác định mục đích, thời gian, địa điểm và nội dung cần chuẩn bị.\nMục tiêu tích hợp: HS biết dùng AI Search để tìm tư liệu nhưng phải kiểm chứng bằng nguồn chính thống.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát yêu cầu Viết trong SGK.",
+              "- GV cho HS quan sát yêu cầu Viết trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image9.jpg\" alt=\"image9.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Viết chương trình cho một trong những hoạt động đã cho."
             ],
             [
@@ -23458,7 +23458,7 @@
               "1. Đọc 2 - 3 bài ca dao (10 phút)\nMục tiêu: Đọc và nhận biết nội dung một số bài ca dao về di tích, lễ hội hoặc sản vật độc đáo ở địa phương.\nMục tiêu tích hợp: HS biết tìm hình ảnh, thông tin từ website chính thống của địa phương để bảo đảm độ chính xác.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát phần Đọc mở rộng trong SGK.",
+              "- GV cho HS quan sát phần Đọc mở rộng trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_25/image10.jpg\" alt=\"image10.jpg\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và các bài ca dao minh họa."
             ],
             [
@@ -23571,7 +23571,7 @@
               "- Đại diện nhóm trình bày: Xuồng ba lá là phương tiện gắn bó với người dân Nam Bộ, giúp đi lại, chở nông sản và sinh hoạt hằng ngày."
             ],
             [
-              "- GV yêu cầu HS quan sát tranh minh họa bài đọc Xuồng ba lá quê tôi và nêu điều em thấy trong tranh.",
+              "- GV yêu cầu HS quan sát tranh minh họa bài đọc Xuồng ba lá quê tôi và nêu điều em thấy trong tranh.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình và nêu: Tranh vẽ cảnh sông nước, có người chèo xuồng, có cây dừa, có hai bạn nhỏ đang nhìn chiếc xuồng."
             ],
             [
@@ -23625,7 +23625,7 @@
               "3. Trả lời câu hỏi (17 phút)\nMục tiêu: HS trả lời được các câu hỏi đọc hiểu; nắm được ý chính của mỗi đoạn và hiểu nội dung chính của bài đọc.\nMục tiêu tích hợp: HS biết trân trọng phương tiện lao động bình dị, gắn bó với đời sống người dân vùng sông nước; biết giữ gìn sông rạch, không vứt rác xuống kênh rạch, bảo vệ nguồn nước phục vụ đời sống.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát phần câu hỏi đọc hiểu trong SGK.",
+              "- GV yêu cầu HS quan sát phần câu hỏi đọc hiểu trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát phần câu hỏi đọc hiểu trong SGK, chuẩn bị trả lời từng câu."
             ],
             [
@@ -23776,7 +23776,7 @@
               "1. Bài 1: Xác định cách liên kết câu trong đoạn văn (15 phút)\nMục tiêu: HS xác định được cách các câu trong đoạn văn liên kết với nhau.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát Bài 1 trong SGK.",
+              "- GV yêu cầu HS quan sát Bài 1 trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 1 trong SGK, chuẩn bị đọc yêu cầu."
             ],
             [
@@ -23811,7 +23811,7 @@
               "2. Bài 2: Chọn từ ngữ thay cho bông hoa để liên kết các câu trong đoạn văn (12 phút)\nMục tiêu: HS chọn được từ ngữ phù hợp để liên kết các câu trong đoạn văn.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát Bài 2 và Bài 3 trong SGK.",
+              "- GV yêu cầu HS quan sát Bài 2 và Bài 3 trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát Bài 2 và Bài 3 trong SGK."
             ],
             [
@@ -23926,7 +23926,7 @@
               "2. Nghe thầy cô giáo nhận xét chung (8 phút)\nMục tiêu: HS biết lắng nghe nhận xét chung, nhận ra ưu điểm và hạn chế trong bài viết của mình.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát phần Viết trong SGK.",
+              "- GV yêu cầu HS quan sát phần Viết trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát phần Viết trong SGK, chú ý các mục đánh giá và chỉnh sửa."
             ],
             [
@@ -24063,7 +24063,7 @@
               "- HS nêu: Đất Mũi gợi cho em cảm giác đây là vùng đất ở cuối cùng phía Nam của Tổ quốc, có biển, rừng, cây cối xanh tươi."
             ],
             [
-              "- GV yêu cầu HS quan sát tranh minh họa bài đọc trong SGK và nêu những chi tiết nổi bật.",
+              "- GV yêu cầu HS quan sát tranh minh họa bài đọc trong SGK và nêu những chi tiết nổi bật.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh và nêu: Tranh có biển, rừng xanh, cột mốc, con đường ven biển; cảnh vật rộng lớn, tươi đẹp."
             ],
             [
@@ -24117,7 +24117,7 @@
               "3. Trả lời câu hỏi (35 phút)\nMục tiêu: HS nhận biết được vẻ đẹp của Đất Mũi thông qua các hình ảnh so sánh, nhân hoá; hiểu được điều tác giả muốn gửi gắm qua bài thơ.\nMục tiêu tích hợp: HS bồi dưỡng niềm tự hào về cực Nam Tổ quốc, có ý thức bảo vệ chủ quyền lãnh thổ, biển đảo và tài nguyên quốc gia.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát phần câu hỏi và bài tập theo văn bản đọc trong SGK.",
+              "- GV yêu cầu HS quan sát phần câu hỏi và bài tập theo văn bản đọc trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát phần câu hỏi và bài tập, chuẩn bị trả lời từng câu."
             ],
             [
@@ -24295,7 +24295,7 @@
               "1. Chuẩn bị (12 phút)\nMục tiêu: HS đọc và chọn một hoạt động phù hợp để viết chương trình; dự kiến những công việc cụ thể và lập nháp bảng kế hoạch thực hiện.\nMục tiêu tích hợp: HS biết dùng Google Maps xác định cực Nam Tổ quốc khi cần minh họa địa điểm, biết trích dẫn bản đồ, kiểm chứng thông tin và bảo vệ dữ liệu cá nhân.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát phần Viết chương trình hoạt động trong SGK.",
+              "- GV yêu cầu HS quan sát phần Viết chương trình hoạt động trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát yêu cầu viết chương trình hoạt động trong SGK."
             ],
             [
@@ -24438,7 +24438,7 @@
               "1. Chuẩn bị (10 phút)\nMục tiêu: HS xác định được sản vật cần giới thiệu và chuẩn bị nội dung theo gợi ý trong SHS.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát phần Nói và nghe trong SGK.",
+              "- GV yêu cầu HS quan sát phần Nói và nghe trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát yêu cầu và gợi ý trong SGK."
             ],
             [
@@ -24458,7 +24458,7 @@
               "- HS chuẩn bị tranh ảnh hoặc ghi nhớ chi tiết để trình bày sinh động hơn."
             ],
             [
-              "- GV yêu cầu HS quan sát thêm gợi ý về cách trình bày và trao đổi, góp ý trong SGK.",
+              "- GV yêu cầu HS quan sát thêm gợi ý về cách trình bày và trao đổi, góp ý trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_26/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát gợi ý: đóng vai hướng dẫn viên du lịch; kết hợp giọng nói, cử chỉ, tranh ảnh; lắng nghe bạn để ghi lại thông tin thú vị."
             ],
             [
@@ -24582,7 +24582,7 @@
               "2. Ôn tập về nhân vật và nội dung chính của câu chuyện (25 phút)\nMục tiêu: HS nhận biết nhân vật trong các câu chuyện đã học; nêu được nội dung chính của một câu chuyện.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 1. Dựa vào lời giới thiệu của mỗi nhân vật dưới đây, cho biết nhân vật đó là ai, xuất hiện trong câu chuyện nào đã học.",
+              "- GV mời HS đọc Bài 1. Dựa vào lời giới thiệu của mỗi nhân vật dưới đây, cho biết nhân vật đó là ai, xuất hiện trong câu chuyện nào đã học.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và quan sát các lời giới thiệu của 5 nhân vật trong SGK."
             ],
             [
@@ -24617,7 +24617,7 @@
               "3. Ôn tập về câu đơn, câu ghép, kết từ và cặp từ hô ứng (30 phút)\nMục tiêu: HS xác định được câu đơn, câu ghép; xác định các vế câu ghép; biết thêm kết từ, cặp từ hô ứng và vế câu phù hợp.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 3. Trong đoạn văn, câu nào là câu đơn, câu nào là câu ghép? Xác định các vế của những câu ghép vừa tìm được.",
+              "- GV mời HS đọc Bài 3. Trong đoạn văn, câu nào là câu đơn, câu nào là câu ghép? Xác định các vế của những câu ghép vừa tìm được.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 3, đọc lại đoạn văn và xác định yêu cầu của bài tập."
             ],
             [
@@ -24716,11 +24716,11 @@
               "2. Ôn tập các bài thơ đã học (15 phút)\nMục tiêu: HS nhận biết tên bài thơ qua các dòng thơ; nêu được hình ảnh yêu thích và đọc thuộc lòng 2 - 3 khổ thơ.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 1. Đọc những dòng thơ dưới đây và thực hiện yêu cầu.",
+              "- GV mời HS đọc Bài 1. Đọc những dòng thơ dưới đây và thực hiện yêu cầu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và các dòng thơ trong SGK."
             ],
             [
-              "- GV hướng dẫn Bước 1: Nói tên bài thơ. GV khuyến khích HS nói cả tên tác giả.",
+              "- GV hướng dẫn Bước 1: Nói tên bài thơ. GV khuyến khích HS nói cả tên tác giả.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thầm yêu cầu; mỗi em đọc một gợi ý rồi nói tên bài thơ, tên tác giả nếu nhớ."
             ],
             [
@@ -24743,11 +24743,11 @@
               "3. Đọc văn bản Quạt mo (25 phút)\nMục tiêu: HS đọc văn bản và trả lời được các câu hỏi về chi tiết, kỉ niệm, giấc mơ và tình cảm trong văn bản.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 2. Đọc văn bản dưới đây và trả lời câu hỏi. GV có thể hướng dẫn cách thực hiện, HS làm việc theo cặp hoặc theo nhóm, đọc văn bản và trả lời các câu hỏi.",
+              "- GV mời HS đọc Bài 2. Đọc văn bản dưới đây và trả lời câu hỏi. GV có thể hướng dẫn cách thực hiện, HS làm việc theo cặp hoặc theo nhóm, đọc văn bản và trả lời các câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 2, quan sát văn bản Quạt mo trong SGK."
             ],
             [
-              "- GV hướng dẫn Bước 1: Đọc văn bản. Mỗi HS tự đọc thầm văn bản và các câu hỏi.",
+              "- GV hướng dẫn Bước 1: Đọc văn bản. Mỗi HS tự đọc thầm văn bản và các câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS tự đọc thầm văn bản Quạt mo và các câu hỏi."
             ],
             [
@@ -24782,7 +24782,7 @@
               "4. Luyện tập qua trò chơi Tìm kho báu (15 phút)\nMục tiêu: HS đặt được câu ghép có kết từ hoặc cặp kết từ theo yêu cầu của trò chơi.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 3. Chơi trò chơi: Tìm kho báu.",
+              "- GV mời HS đọc Bài 3. Chơi trò chơi: Tìm kho báu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 3 và quan sát bàn cờ trò chơi trong SGK."
             ],
             [
@@ -24809,7 +24809,7 @@
               "5. Ôn tập biện pháp liên kết câu (25 phút)\nMục tiêu: HS tìm được từ ngữ liên kết câu, xác định biện pháp liên kết và chọn từ ngữ nối phù hợp.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 4. Tìm từ ngữ có tác dụng liên kết câu trong mỗi đoạn văn và cho biết biện pháp liên kết được sử dụng trong mỗi đoạn.",
+              "- GV mời HS đọc Bài 4. Tìm từ ngữ có tác dụng liên kết câu trong mỗi đoạn văn và cho biết biện pháp liên kết được sử dụng trong mỗi đoạn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 4, nhắc lại các biện pháp liên kết câu đã học: lặp, thay thế, nối."
             ],
             [
@@ -24892,7 +24892,7 @@
               "2. Nói và trao đổi về sự việc, cảm xúc (15 phút)\nMục tiêu: HS biết chọn một yêu cầu, chuẩn bị ý và trình bày miệng về sự việc, cảm xúc.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 1. Thực hiện 1 trong 2 yêu cầu.",
+              "- GV mời HS đọc Bài 1. Thực hiện 1 trong 2 yêu cầu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1, quan sát tranh và hai yêu cầu trong SGK."
             ],
             [
@@ -25005,7 +25005,7 @@
               "2. Đọc thành tiếng và trả lời câu hỏi (32 phút)\nMục tiêu: HS đọc thành tiếng bài thơ; trả lời được câu hỏi về nội dung bài thơ.\nCách tiến hành:"
             ],
             [
-              "- GV giới thiệu phần A. Đọc. Đọc thành tiếng và trả lời câu hỏi.",
+              "- GV giới thiệu phần A. Đọc. Đọc thành tiếng và trả lời câu hỏi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát bài thơ Mưa trong SGK."
             ],
             [
@@ -25091,11 +25091,11 @@
               "2. Đọc hiểu văn bản Mùa mật mới (25 phút)\nMục tiêu: HS đọc hiểu văn bản, trả lời câu hỏi, xác định câu đơn, câu ghép và liên kết câu.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc thầm văn bản Mùa mật mới.",
+              "- GV yêu cầu HS đọc thầm văn bản Mùa mật mới.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc thầm văn bản Mùa mật mới trong SGK."
             ],
             [
-              "- GV yêu cầu HS tiếp tục đọc phần Từ ngữ và các câu hỏi đọc hiểu.",
+              "- GV yêu cầu HS tiếp tục đọc phần Từ ngữ và các câu hỏi đọc hiểu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc phần Từ ngữ và các câu hỏi 1 - 6."
             ],
             [
@@ -25127,7 +25127,7 @@
               "- HS viết: Người bà trong câu chuyện rất hiền hậu, đảm đang và yêu thương con cháu. Bà luôn nghĩ cho gia đình, biết chia sẻ niềm vui với hàng xóm. Em rất yêu quý và kính trọng bà."
             ],
             [
-              "- GV yêu cầu HS đọc tiếp các câu hỏi 7 - 10 và phần B. Viết.",
+              "- GV yêu cầu HS đọc tiếp các câu hỏi 7 - 10 và phần B. Viết.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_27/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc các câu hỏi 7 - 10 và phần viết trong SGK."
             ],
             [
@@ -25227,7 +25227,7 @@
               "- HS quan sát tranh chủ điểm và nêu: Chủ điểm nói về truyền thống tốt đẹp của cha ông, về những việc thế hệ sau cần tiếp bước thế hệ trước."
             ],
             [
-              "- GV hướng dẫn HS chia sẻ những điều em biết về di tích Văn Miếu - Quốc Tử Giám ở Thủ đô Hà Nội.",
+              "- GV hướng dẫn HS chia sẻ những điều em biết về di tích Văn Miếu - Quốc Tử Giám ở Thủ đô Hà Nội.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS chia sẻ: Văn Miếu - Quốc Tử Giám là di tích lịch sử ở Hà Nội, gắn với truyền thống hiếu học và khoa cử của dân tộc."
             ],
             [
@@ -25250,7 +25250,7 @@
               "- HS luyện đọc đúng các từ: giếng Thiên Quang, hàng muỗm già, chứng tích."
             ],
             [
-              "- GV hướng dẫn HS đọc bảng thống kê theo trình tự cột ngang: Triều đại Lý/ Số khoa thi 6/ Số tiến sĩ 11/ Số trạng nguyên 0; Triều đại Trần/ Số khoa thi 14/ Số tiến sĩ 51/ Số trạng nguyên 9; Tổng cộng/ Số khoa thi 185/ Số tiến sĩ 2 896/ Số trạng nguyên 47.",
+              "- GV hướng dẫn HS đọc bảng thống kê theo trình tự cột ngang: Triều đại Lý/ Số khoa thi 6/ Số tiến sĩ 11/ Số trạng nguyên 0; Triều đại Trần/ Số khoa thi 14/ Số tiến sĩ 51/ Số trạng nguyên 9; Tổng cộng/ Số khoa thi 185/ Số tiến sĩ 2 896/ Số trạng nguyên 47.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc bảng thống kê theo trình tự cột ngang, đọc rõ tên triều đại và số liệu."
             ],
             [
@@ -25472,7 +25472,7 @@
               "2. Luyện tập: Hoạt động 1: Bài 1. Tìm đại từ nghi vấn trong các câu đố và giải đố (10 phút)\nMục tiêu: HS tìm được đại từ nghi vấn và giải được câu đố.\nCách tiến hành:"
             ],
             [
-              "- GV nêu yêu cầu của Bài 1. Tìm đại từ nghi vấn trong các câu đố dưới đây và giải đố.",
+              "- GV nêu yêu cầu của Bài 1. Tìm đại từ nghi vấn trong các câu đố dưới đây và giải đố.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và xác định yêu cầu: tìm đại từ nghi vấn, sau đó giải câu đố."
             ],
             [
@@ -25518,7 +25518,7 @@
               "2. Luyện tập: Hoạt động 3: Bài 3. Chọn kết từ thay cho bông hoa (10 phút)\nMục tiêu: HS chọn được kết từ phù hợp với quan hệ ý nghĩa trong câu.\nCách tiến hành:"
             ],
             [
-              "- GV nêu yêu cầu của Bài 3. Chọn kết từ mà, cho, như, tuy ... nhưng ... thay cho bông hoa.",
+              "- GV nêu yêu cầu của Bài 3. Chọn kết từ mà, cho, như, tuy ... nhưng ... thay cho bông hoa.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 3 và xác định yêu cầu bài tập."
             ],
             [
@@ -25621,7 +25621,7 @@
               "2. Khám phá: Hoạt động 1: Bài 1. Đọc đoạn văn và thực hiện yêu cầu (25 phút)\nMục tiêu: HS xác định được sự việc, ý kiến tán thành và các phần của đoạn văn mẫu.\nMục tiêu tích hợp: HS nhận biết dữ liệu thống kê, lí do và dẫn chứng là nguồn thông tin giúp AI học, phân tích và hỗ trợ tìm hiểu lịch sử.\nCách tiến hành:"
             ],
             [
-              "- GV nêu mục tiêu của tiết học và mời HS đọc Bài 1. Đọc đoạn văn dưới đây và thực hiện yêu cầu.",
+              "- GV nêu mục tiêu của tiết học và mời HS đọc Bài 1. Đọc đoạn văn dưới đây và thực hiện yêu cầu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và xác định nhiệm vụ: đọc đoạn văn, trả lời các câu hỏi a, b, c, d."
             ],
             [
@@ -25637,7 +25637,7 @@
               "- HS trả lời: Mở đầu: từ đầu đến tôi rất tán thành ý kiến này. Triển khai: tiếp theo đến nối kết quá khứ với hiện tại. Kết thúc: câu cuối cùng của đoạn văn."
             ],
             [
-              "- GV mời HS đọc Câu c. Chọn nội dung tương ứng với mỗi phần của đoạn văn.",
+              "- GV mời HS đọc Câu c. Chọn nội dung tương ứng với mỗi phần của đoạn văn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Mở đầu giới thiệu sự việc, nêu ý kiến tán thành; Triển khai trình bày lí do và dẫn chứng; Kết thúc khẳng định lại ý kiến tán thành về sự việc."
             ],
             [
@@ -25734,7 +25734,7 @@
               "- HS nêu: Bài đọc cho biết nước ta có truyền thống hiếu học và nền văn hiến lâu đời; em thích hình ảnh bia tiến sĩ ở Văn Miếu - Quốc Tử Giám."
             ],
             [
-              "- GV giao nhiệm vụ: HS trao đổi nhóm câu hỏi: Nhan đề bài đọc Người thầy của muôn đời gợi cho em suy nghĩ gì?",
+              "- GV giao nhiệm vụ: HS trao đổi nhóm câu hỏi: Nhan đề bài đọc Người thầy của muôn đời gợi cho em suy nghĩ gì?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trao đổi nhóm, nêu: Bài đọc sẽ nói về một người thầy mẫu mực được nhiều thế hệ học trò tôn vinh, kính trọng và noi gương."
             ],
             [
@@ -25915,7 +25915,7 @@
               "- HS đọc theo cặp hoặc nhóm 3, góp ý cho nhau về giọng đọc và ngắt nghỉ."
             ],
             [
-              "- GV mời HS đọc Bài 1. Tìm các câu ghép trong đoạn văn.",
+              "- GV mời HS đọc Bài 1. Tìm các câu ghép trong đoạn văn.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và làm việc cá nhân."
             ],
             [
@@ -26003,7 +26003,7 @@
               "- HS nêu: Cần giới thiệu sự việc, nêu ý kiến tán thành; trình bày lí do, dẫn chứng; kết thúc bằng cách khẳng định lại ý kiến hoặc nêu ý nghĩa."
             ],
             [
-              "- GV mời HS đọc yêu cầu đề bài: Chọn 1 trong 2 đề dưới đây: Đề 1: Viết đoạn văn nêu ý kiến tán thành việc lập Câu lạc bộ Đọc sách. Đề 2: Viết đoạn văn nêu ý kiến tán thành việc phát triển hoạt động thể dục, thể thao trong nhà trường.",
+              "- GV mời HS đọc yêu cầu đề bài: Chọn 1 trong 2 đề dưới đây: Đề 1: Viết đoạn văn nêu ý kiến tán thành việc lập Câu lạc bộ Đọc sách. Đề 2: Viết đoạn văn nêu ý kiến tán thành việc phát triển hoạt động thể dục, thể thao trong nhà trường.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và suy nghĩ lựa chọn Đề 1 hoặc Đề 2 phù hợp với khả năng của mình."
             ],
             [
@@ -26121,7 +26121,7 @@
               "2. Khám phá: Hoạt động 1: Bài 1. Đọc sách báo viết về một danh nhân của Việt Nam và viết phiếu đọc sách (17 phút)\nMục tiêu: HS đọc sách báo về danh nhân Việt Nam và ghi được phiếu đọc sách theo mẫu.\nMục tiêu tích hợp: HS biết dùng trợ lý ảo/từ điển số để tìm nghĩa từ Hán Việt cổ, đặt câu hỏi rõ ràng và kiểm chứng thông tin.\nCách tiến hành:"
             ],
             [
-              "- GV nêu yêu cầu đọc mở rộng theo 3 mục trong SGK.",
+              "- GV nêu yêu cầu đọc mở rộng theo 3 mục trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu Đọc mở rộng trong SGK."
             ],
             [
@@ -26133,7 +26133,7 @@
               "- HS đọc thầm, giữ trật tự, ghi thông tin vào phiếu đọc sách."
             ],
             [
-              "- GV yêu cầu HS viết phiếu đọc sách theo mẫu trong SGK; có thể viết thêm thông tin khác tuỳ theo nội dung sách báo đã đọc.",
+              "- GV yêu cầu HS viết phiếu đọc sách theo mẫu trong SGK; có thể viết thêm thông tin khác tuỳ theo nội dung sách báo đã đọc.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_28/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS viết phiếu đọc sách: tên sách báo, tác giả, ngày đọc, tên tuổi, tài năng, đóng góp nổi bật của danh nhân, suy nghĩ và mức độ yêu thích."
             ],
             [
@@ -26242,7 +26242,7 @@
               "2. Khám phá: Hoạt động đọc văn bản (12 phút)\nMục tiêu: HS đọc đúng và diễn cảm câu chuyện theo hình thức truyện tranh; biết điều chỉnh giọng đọc và ngữ điệu phù hợp với nhân vật, sự việc trong câu chuyện.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát tranh minh họa và chữ dưới tranh trong SGK.",
+              "- GV yêu cầu HS quan sát tranh minh họa và chữ dưới tranh trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, nhận ra bài đọc được trình bày theo hình thức truyện tranh, mỗi tranh có đoạn lời kể hoặc lời thoại."
             ],
             [
@@ -26281,7 +26281,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (18 phút)\nMục tiêu: HS trả lời được các câu hỏi về nội dung câu chuyện; nhận biết tinh thần yêu nước, tự tôn dân tộc và ý nguyện chữa bệnh cho người Nam của danh y Tuệ Tĩnh.\nMục tiêu tích hợp: HS biết trân trọng y đức, lòng nhân ái, tinh thần vì dân và tri thức y học dân tộc qua câu chuyện về danh y Tuệ Tĩnh.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc các câu hỏi cuối bài trong SGK.",
+              "- GV mời HS đọc các câu hỏi cuối bài trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc các câu hỏi cuối bài và xác định cần dựa vào các đoạn tranh để trả lời."
             ],
             [
@@ -26444,7 +26444,7 @@
               "2. Luyện tập: Hoạt động 1: Bài 1. Chọn từ thích hợp nhất trong các từ đồng nghĩa thay cho mỗi bông hoa (10 phút)\nMục tiêu: HS chọn được từ đồng nghĩa phù hợp nhất với ngữ cảnh trong đoạn văn.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 1. Chọn từ thích hợp nhất trong các từ đồng nghĩa (in nghiêng) thay cho mỗi bông hoa.",
+              "- GV mời HS đọc Bài 1. Chọn từ thích hợp nhất trong các từ đồng nghĩa (in nghiêng) thay cho mỗi bông hoa.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1."
             ],
             [
@@ -26522,7 +26522,7 @@
               "4. Luyện tập: Hoạt động 3: Bài 4. Tìm nghĩa của từ ăn và Bài 5. Viết đoạn văn nêu cảm nghĩ về danh y Tuệ Tĩnh (15 phút)\nMục tiêu: HS xác định được nghĩa của từ đa nghĩa; viết được đoạn văn ngắn có sử dụng một cặp từ đồng nghĩa.\nMục tiêu tích hợp: HS xem video 3D về cây thuốc Nam đúng mục đích học tập và biết bảo vệ thiết bị khi xem nội dung trên mạng.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 4. Từ ăn trong mỗi nhóm từ dưới đây mang nghĩa nào?",
+              "- GV mời HS đọc Bài 4. Từ ăn trong mỗi nhóm từ dưới đây mang nghĩa nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 4."
             ],
             [
@@ -26625,7 +26625,7 @@
               "2. Khám phá: Hoạt động xác định đề bài và yêu cầu đoạn văn (10 phút)\nMục tiêu: HS xác định được đề bài, yêu cầu cần đạt của đoạn văn nêu ý kiến tán thành một sự việc, hiện tượng.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc phần Viết trong SGK và hai đề bài.",
+              "- GV mời HS đọc phần Viết trong SGK và hai đề bài.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc hai đề: Đề 1 viết đoạn văn nêu ý kiến tán thành việc lập Câu lạc bộ Đọc sách; Đề 2 viết đoạn văn nêu ý kiến tán thành việc phát triển hoạt động thể dục, thể thao trong nhà trường."
             ],
             [
@@ -26733,7 +26733,7 @@
               "2. Khám phá: Hoạt động đọc văn bản (20 phút)\nMục tiêu: HS đọc đúng và diễn cảm bài Cụ Đồ Chiểu; biết điều chỉnh giọng đọc và ngữ điệu phù hợp với những tình tiết quan trọng về cuộc đời và sự nghiệp của Nguyễn Đình Chiểu.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát tranh minh họa và tên bài đọc trong SGK.",
+              "- GV yêu cầu HS quan sát tranh minh họa và tên bài đọc trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh minh họa, nêu: Tranh gợi hình ảnh Nguyễn Đình Chiểu đang suy nghĩ, sáng tác trong đêm."
             ],
             [
@@ -26768,7 +26768,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (35 phút)\nMục tiêu: HS trả lời được các câu hỏi về cuộc đời, sự nghiệp, nghị lực và chủ đề của bài đọc Cụ Đồ Chiểu.\nMục tiêu tích hợp: HS biết bồi dưỡng lòng yêu nước, nghị lực vượt khó, nhân cách thanh cao và tinh thần sống có ích qua tấm gương Nguyễn Đình Chiểu.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc các câu hỏi và yêu cầu luyện tập theo văn bản đọc trong SGK.",
+              "- GV mời HS đọc các câu hỏi và yêu cầu luyện tập theo văn bản đọc trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi cuối bài và xác định nhiệm vụ đọc hiểu."
             ],
             [
@@ -26935,7 +26935,7 @@
               "2. Luyện tập: Hoạt động 1: Nghe thầy cô nhận xét về bài làm (10 phút)\nMục tiêu: HS nhận ra ưu điểm và hạn chế trong bài viết số 1.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc phần Viết trong SGK.",
+              "- GV mời HS đọc phần Viết trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Nghe thầy cô nhận xét về bài làm; đọc lại bài làm và nhận xét để phát hiện lỗi; chỉnh sửa bài viết."
             ],
             [
@@ -27046,7 +27046,7 @@
               "2. Khám phá: Hoạt động chuẩn bị (10 phút)\nMục tiêu: HS chuẩn bị được nội dung giới thiệu về một hoạt động đền ơn đáp nghĩa người có công với đất nước.\nCách tiến hành:"
             ],
             [
-              "- GV nêu yêu cầu của hoạt động Nói và nghe: Giới thiệu về một hoạt động đền ơn đáp nghĩa người có công với đất nước.",
+              "- GV nêu yêu cầu của hoạt động Nói và nghe: Giới thiệu về một hoạt động đền ơn đáp nghĩa người có công với đất nước.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu và xác định nhiệm vụ nói."
             ],
             [
@@ -27058,7 +27058,7 @@
               "- HS nêu: dâng hương tại đài tưởng niệm; thăm hỏi gia đình thương binh, liệt sĩ; giúp đỡ người có công; chăm sóc nghĩa trang liệt sĩ."
             ],
             [
-              "- GV chiếu gợi ý về nội dung trình bày trong SGK, mời 1 HS đọc các gợi ý.",
+              "- GV chiếu gợi ý về nội dung trình bày trong SGK, mời 1 HS đọc các gợi ý.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_29/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc gợi ý: hoạt động muốn giới thiệu; thời gian, địa điểm, người tham gia; cảm nghĩ của em; tranh ảnh hoặc phương tiện hỗ trợ nếu cần."
             ],
             [
@@ -27180,7 +27180,7 @@
               "2. Khám phá: Hoạt động đọc văn bản (15 phút)\nMục tiêu: HS đọc đúng từ ngữ, câu, đoạn và toàn bộ văn bản; biết ngắt, nghỉ hơi sau dấu câu và nhấn vào những từ ngữ chứa thông tin quan trọng.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát ảnh và phần văn bản trong SGK.",
+              "- GV yêu cầu HS quan sát ảnh và phần văn bản trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát ảnh Trần Đại Nghĩa, đọc lướt văn bản và nhận biết đây là văn bản thông tin."
             ],
             [
@@ -27219,7 +27219,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (18 phút)\nMục tiêu: HS nhận biết được các thông tin, sự kiện chính trong cuộc đời của Anh hùng Lao động Trần Đại Nghĩa; hiểu điều tác giả muốn nói qua văn bản.\nMục tiêu tích hợp: HS biết trân trọng công lao của những người có đóng góp cho nền quốc phòng, khoa học; bồi dưỡng lí tưởng cống hiến, tinh thần sáng tạo và trách nhiệm với đất nước.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc các câu hỏi cuối bài trong SGK.",
+              "- GV mời HS đọc các câu hỏi cuối bài trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc các câu hỏi cuối bài và xác định cần dựa vào văn bản để trả lời."
             ],
             [
@@ -27389,7 +27389,7 @@
               "2. Luyện tập: Hoạt động 1: Bài 1. Tìm câu ghép trong mỗi đoạn văn (15 phút)\nMục tiêu: HS tìm được câu ghép trong các đoạn văn và bước đầu xác định được ranh giới giữa các vế câu ghép.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 1. Tìm câu ghép trong mỗi đoạn văn dưới đây.",
+              "- GV mời HS đọc Bài 1. Tìm câu ghép trong mỗi đoạn văn dưới đây.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và đọc hai đoạn văn a, b."
             ],
             [
@@ -27420,7 +27420,7 @@
               "3. Luyện tập: Hoạt động 2: Bài 2. Xếp các câu ghép tìm được ở bài tập 1 vào nhóm thích hợp (15 phút)\nMục tiêu: HS xếp được các câu ghép vào nhóm theo cách nối các vế câu ghép.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 2. Xếp các câu ghép tìm được ở bài tập 1 vào nhóm thích hợp.",
+              "- GV mời HS đọc Bài 2. Xếp các câu ghép tìm được ở bài tập 1 vào nhóm thích hợp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 2 và quan sát ba nhóm trong SGK."
             ],
             [
@@ -27542,7 +27542,7 @@
               "2. Luyện tập: Hoạt động 1: Bài 1. Viết đoạn văn theo đề bài đã chọn (22 phút)\nMục tiêu: HS viết được đoạn văn nêu ý kiến tán thành một sự việc, hiện tượng theo một trong hai đề bài.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc đề bài trong SGK.",
+              "- GV mời HS đọc đề bài trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Chọn 1 trong 2 đề dưới đây: Đề 1: Viết đoạn văn nêu ý kiến tán thành hoạt động ủng hộ, giúp đỡ các bạn học sinh vùng thiên tai. Đề 2: Viết đoạn văn nêu ý kiến tán thành phong trào trồng và bảo vệ cây xanh."
             ],
             [
@@ -27665,7 +27665,7 @@
               "2. Khám phá: Hoạt động đọc văn bản (20 phút)\nMục tiêu: HS đọc đúng và diễn cảm bài thơ; biết điều chỉnh giọng đọc và ngữ điệu phù hợp với tình huống được nói đến trong bài thơ.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát tranh minh họa và nhan đề bài thơ.",
+              "- GV yêu cầu HS quan sát tranh minh họa và nhan đề bài thơ.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, nêu: Tranh vẽ các anh bộ đội trở về làng, người dân vui mừng đón các anh."
             ],
             [
@@ -27700,7 +27700,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (25 phút)\nMục tiêu: HS hiểu được từ ngữ, hình ảnh thơ gợi tình cảm, cảm xúc của người dân dành cho các anh bộ đội; cảm nhận được tình quân dân thắm thiết trong những năm kháng chiến chống thực dân Pháp.\nMục tiêu tích hợp: HS biết trân trọng tình cảm quân dân, lòng biết ơn bộ đội và những người bảo vệ bình yên cho Tổ quốc.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc các câu hỏi trong SGK.",
+              "- GV mời HS đọc các câu hỏi trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc câu hỏi và xác định cần trả lời dựa vào bài thơ."
             ],
             [
@@ -27895,7 +27895,7 @@
               "2. Luyện tập: Hoạt động 1: Bài 1. Viết đoạn văn theo đề bài đã chọn (22 phút)\nMục tiêu: HS viết được đoạn văn thể hiện tình cảm, cảm xúc về một hoạt động vì cộng đồng của các chú bộ đội hoặc Ngày hội thể thao ở trường.\nCách tiến hành:"
             ],
             [
-              "- GV mời 2 - 3 HS đọc đề bài trong SGK.",
+              "- GV mời 2 - 3 HS đọc đề bài trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Chọn 1 trong 2 đề dưới đây: Đề 1: Viết đoạn văn thể hiện tình cảm, cảm xúc về một hoạt động vì cộng đồng của các chú bộ đội. Đề 2: Viết đoạn văn thể hiện tình cảm, cảm xúc về Ngày hội thể thao được tổ chức ở trường em."
             ],
             [
@@ -28013,7 +28013,7 @@
               "2. Luyện tập: Hoạt động 1: Bài 1. Đọc bài ca dao hoặc bài thơ về quê hương, đất nước (15 phút)\nMục tiêu: HS đọc được bài ca dao hoặc bài thơ viết về quê hương, đất nước theo một trong các chủ đề gợi ý.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 1. Đọc bài ca dao hoặc bài thơ về quê hương, đất nước theo một trong các chủ đề dưới đây.",
+              "- GV mời HS đọc Bài 1. Đọc bài ca dao hoặc bài thơ về quê hương, đất nước theo một trong các chủ đề dưới đây.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và các chủ đề: ca ngợi những người có công xây dựng quê hương, đất nước giàu đẹp; biết ơn những người có công bảo vệ Tổ quốc; bày tỏ tình yêu, niềm tự hào đối với vẻ đẹp của quê hương, đất nước."
             ],
             [
@@ -28021,7 +28021,7 @@
               "- HS đọc thầm bài đã chuẩn bị, đánh dấu câu thơ, câu ca dao yêu thích."
             ],
             [
-              "- GV cho HS xem gợi ý trong SGK để biết cách tìm và lựa chọn bài đọc phù hợp.",
+              "- GV cho HS xem gợi ý trong SGK để biết cách tìm và lựa chọn bài đọc phù hợp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_30/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát ví dụ trong SGK: ca dao về Thăng Long, đoạn thơ trong bài Quê hương của Tế Hanh."
             ],
             [
@@ -28143,7 +28143,7 @@
               "- HS trình bày: Em thích ngôi trường của em vì trường có lớp học sạch đẹp, sân chơi rộng và nhiều cây xanh."
             ],
             [
-              "- GV yêu cầu HS quan sát tranh minh họa bài đọc và nêu điều em thấy trong tranh.",
+              "- GV yêu cầu HS quan sát tranh minh họa bài đọc và nêu điều em thấy trong tranh.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_31/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, nêu: Tranh vẽ các bạn nhỏ đi học về, nhìn thấy một ngôi nhà đang xây với giàn giáo, cần cẩu và công nhân xây dựng."
             ],
             [
@@ -28341,7 +28341,7 @@
               "- HS đọc Bài 1, xác định yêu cầu: nêu điểm giống nhau về cách viết và cho biết đó có phải danh từ riêng không."
             ],
             [
-              "- GV trình chiếu/cắt hình SGK Bài 1, yêu cầu HS quan sát ngữ liệu.",
+              "- GV trình chiếu/cắt hình SGK Bài 1, yêu cầu HS quan sát ngữ liệu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_31/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình SGK Bài 1."
             ],
             [
@@ -28383,7 +28383,7 @@
               "- HS đọc Bài 3, xác định yêu cầu: tìm danh từ chung viết hoa và nêu tác dụng."
             ],
             [
-              "- GV trình chiếu/cắt hình SGK Bài 2, Bài 3, Bài 4 để HS quan sát ngữ liệu.",
+              "- GV trình chiếu/cắt hình SGK Bài 2, Bài 3, Bài 4 để HS quan sát ngữ liệu.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_31/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình SGK, đọc thầm các câu thơ, câu văn."
             ],
             [
@@ -28491,7 +28491,7 @@
               "- HS đọc: Viết bài văn tả một cảnh đẹp thiên nhiên nơi em ở."
             ],
             [
-              "- GV trình chiếu/cắt hình SGK phần Viết để HS quan sát yêu cầu và gợi ý.",
+              "- GV trình chiếu/cắt hình SGK phần Viết để HS quan sát yêu cầu và gợi ý.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_31/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình SGK phần Viết."
             ],
             [
@@ -28616,7 +28616,7 @@
               "- HS trình bày: Việt Nam có nhiều cảnh đẹp như vịnh Hạ Long, ruộng bậc thang, đồng lúa; người Việt Nam cần cù, yêu nước và mến khách."
             ],
             [
-              "- GV yêu cầu HS quan sát tranh minh họa bài đọc và nêu nội dung tranh.",
+              "- GV yêu cầu HS quan sát tranh minh họa bài đọc và nêu nội dung tranh.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_31/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, nêu: Tranh vẽ đồng lúa, núi non, dòng sông, đàn chim và cảnh thiên nhiên tươi đẹp của quê hương."
             ],
             [
@@ -28864,7 +28864,7 @@
               "- HS đọc Bài 1 và xác định yêu cầu viết bài văn."
             ],
             [
-              "- GV trình chiếu/cắt hình SGK phần Viết để HS quan sát đề bài và lưu ý.",
+              "- GV trình chiếu/cắt hình SGK phần Viết để HS quan sát đề bài và lưu ý.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_31/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình SGK phần Viết."
             ],
             [
@@ -28876,7 +28876,7 @@
               "- HS lắng nghe và ghi nhớ yêu cầu:\n+ Viết đủ 3 phần.\n+ Tả cảnh thiên nhiên cụ thể.\n+ Có từ ngữ gợi tả, so sánh, nhân hoá.\n+ Có tình cảm, cảm xúc riêng."
             ],
             [
-              "- GV cho HS đọc ví dụ trong SGK.",
+              "- GV cho HS đọc ví dụ trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_31/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc ví dụ về cảnh nơi ở mới dưới thung lũng."
             ],
             [
@@ -28964,7 +28964,7 @@
               "- HS nêu: Văn Miếu - Quốc Tử Giám, Bến Nhà Rồng, Quần thể di tích Cố đô Huế, Thành Cổ Loa, Địa đạo Củ Chi."
             ],
             [
-              "- GV cho HS quan sát tranh ảnh một số di tích lịch sử trong SGK.",
+              "- GV cho HS quan sát tranh ảnh một số di tích lịch sử trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_31/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh ảnh và gọi tên di tích."
             ],
             [
@@ -28987,7 +28987,7 @@
               "- HS nêu nguồn thông tin đã chuẩn bị: sách, báo, tranh ảnh, trang web do GV/cha mẹ hướng dẫn."
             ],
             [
-              "- GV chiếu các câu hỏi gợi ý trong SGK:\n+ Di tích lịch sử em chọn giới thiệu tên là gì, ở đâu?\n+ Di tích đó được xây dựng khi nào?\n+ Cảnh quan của di tích đó có gì đặc biệt?\n+ Các công trình ở đó gắn với sự kiện lịch sử, văn hoá nào?",
+              "- GV chiếu các câu hỏi gợi ý trong SGK:\n+ Di tích lịch sử em chọn giới thiệu tên là gì, ở đâu?\n+ Di tích đó được xây dựng khi nào?\n+ Cảnh quan của di tích đó có gì đặc biệt?\n+ Các công trình ở đó gắn với sự kiện lịch sử, văn hoá nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_31/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS chuẩn bị nội dung theo câu hỏi gợi ý:\n+ Tên di tích.\n+ Địa điểm.\n+ Thời gian xây dựng.\n+ Cảnh quan, công trình tiêu biểu.\n+ Sự kiện lịch sử, văn hoá liên quan."
             ],
             [
@@ -29113,7 +29113,7 @@
               "- HS đọc câu hỏi khởi động."
             ],
             [
-              "- GV yêu cầu HS quan sát hình chim bồ câu và trái đất trong bàn tay, trao đổi nhóm đôi.",
+              "- GV yêu cầu HS quan sát hình chim bồ câu và trái đất trong bàn tay, trao đổi nhóm đôi.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, trao đổi: Hình ảnh chim bồ câu gợi hòa bình; hình ảnh trái đất trong bàn tay gợi việc con người cần yêu quý, bảo vệ trái đất."
             ],
             [
@@ -29163,7 +29163,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (15 phút)\nMục tiêu: HS trả lời được các câu hỏi trong SGK, hiểu vẻ đẹp của trái đất hòa bình và mong ước của thiếu nhi về thế giới không chiến tranh.\nMục tiêu tích hợp: HS hiểu quyền được sống trong môi trường trong lành, hòa bình, an toàn; biết tôn trọng sự khác biệt và cùng bảo vệ Trái Đất xanh.\nCách tiến hành:"
             ],
             [
-              "Câu 1. GV mời HS đọc câu hỏi: Những hình ảnh ở khổ thơ đầu giúp chúng ta hình dung về một trái đất như thế nào?",
+              "Câu 1. GV mời HS đọc câu hỏi: Những hình ảnh ở khổ thơ đầu giúp chúng ta hình dung về một trái đất như thế nào?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Câu 1, đọc lại khổ thơ đầu."
             ],
             [
@@ -29310,7 +29310,7 @@
               "2. Khám phá: Hoạt động 1: Bài 1. Tìm tên người và tên địa lí trong đoạn văn (10 phút)\nMục tiêu: HS tìm được tên người và tên địa lí nước ngoài trong đoạn văn, xếp vào nhóm thích hợp.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV mời HS đọc yêu cầu: Tìm tên người và tên địa lí trong đoạn văn dưới đây và xếp vào nhóm thích hợp.",
+              "Bài 1. GV mời HS đọc yêu cầu: Tìm tên người và tên địa lí trong đoạn văn dưới đây và xếp vào nhóm thích hợp.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và xác định yêu cầu."
             ],
             [
@@ -29337,7 +29337,7 @@
               "3. Luyện tập: Hoạt động 2: Bài 2, Bài 3. Rút ra quy tắc viết tên riêng nước ngoài (15 phút)\nMục tiêu: HS phân nhóm tên riêng nước ngoài, trả lời câu hỏi để rút ra quy tắc viết tên người, tên địa lí nước ngoài.\nMục tiêu tích hợp: HS biết sử dụng công cụ số đúng mục đích, kiểm chứng cách viết tên riêng nước ngoài và bảo vệ dữ liệu cá nhân khi tìm hiểu thông tin môi trường.\nCách tiến hành:"
             ],
             [
-              "Bài 2. GV mời HS đọc yêu cầu: Từ kết quả ở bài tập 1, xếp tên người và tên địa lí nước ngoài vào 1 trong 2 nhóm.",
+              "Bài 2. GV mời HS đọc yêu cầu: Từ kết quả ở bài tập 1, xếp tên người và tên địa lí nước ngoài vào 1 trong 2 nhóm.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 2, xác định 2 nhóm cần xếp."
             ],
             [
@@ -29453,7 +29453,7 @@
               "2. Khám phá: Hoạt động 1: Bài 1. Chuẩn bị lập dàn ý (10 phút)\nMục tiêu: HS đọc đề bài, xác định người định tả, trình tự miêu tả và những đặc điểm cần ghi chép.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV mời HS đọc đề bài: Viết bài văn tả thầy giáo (cô giáo) mà em yêu quý.",
+              "Bài 1. GV mời HS đọc đề bài: Viết bài văn tả thầy giáo (cô giáo) mà em yêu quý.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và xác định đề bài."
             ],
             [
@@ -29562,7 +29562,7 @@
               "- HS đọc nhan đề và quan sát tranh minh họa."
             ],
             [
-              "- GV cho HS trao đổi nhóm, miêu tả tranh và dự đoán nội dung bài đọc.",
+              "- GV cho HS trao đổi nhóm, miêu tả tranh và dự đoán nội dung bài đọc.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trao đổi: Tranh vẽ một bé gái trong phòng bệnh, trên giường có nhiều con hạc giấy; ngoài cửa sổ có những con hạc giấy đủ màu như đang bay."
             ],
             [
@@ -29612,7 +29612,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (25 phút)\nMục tiêu: HS trả lời được các câu hỏi trong SGK, hiểu hậu quả của chiến tranh hạt nhân và khát vọng hòa bình của trẻ em.\nMục tiêu tích hợp: HS hình thành khát vọng hòa bình, biết phản đối chiến tranh, trân trọng cuộc sống yên bình và tình hữu nghị giữa các dân tộc.\nCách tiến hành:"
             ],
             [
-              "Câu 1. GV mời HS đọc câu hỏi: Những chi tiết nào trong bài đọc cho thấy hậu quả của việc chính phủ Mỹ ném hai quả bom nguyên tử xuống Nhật Bản?",
+              "Câu 1. GV mời HS đọc câu hỏi: Những chi tiết nào trong bài đọc cho thấy hậu quả của việc chính phủ Mỹ ném hai quả bom nguyên tử xuống Nhật Bản?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Câu 1, đọc lại đoạn 1."
             ],
             [
@@ -29718,7 +29718,7 @@
               "5. Luyện tập: Hoạt động luyện tập theo văn bản đọc (15 phút)\nMục tiêu: HS hiểu nghĩa của từ hòa bình, tìm từ đồng nghĩa và chọn từ thích hợp trong ngữ cảnh.\nCách tiến hành:"
             ],
             [
-              "Bài 1. GV mời HS đọc yêu cầu: Chọn nghĩa phù hợp với từ hòa bình trong đoạn trích.",
+              "Bài 1. GV mời HS đọc yêu cầu: Chọn nghĩa phù hợp với từ hòa bình trong đoạn trích.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1 và các phương án A, B, C."
             ],
             [
@@ -29742,7 +29742,7 @@
               "- HS trình bày đáp án, lớp nhận xét."
             ],
             [
-              "Bài 3. GV mời HS đọc yêu cầu: Chọn từ thích hợp nhất trong các từ đồng nghĩa thay cho bông hoa.",
+              "Bài 3. GV mời HS đọc yêu cầu: Chọn từ thích hợp nhất trong các từ đồng nghĩa thay cho bông hoa.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 3, làm việc cá nhân."
             ],
             [
@@ -29826,7 +29826,7 @@
               "- HS đọc Bài 1 và xác định yêu cầu."
             ],
             [
-              "- GV trình chiếu/cắt hình SGK phần Viết để HS quan sát đề bài và lưu ý.",
+              "- GV trình chiếu/cắt hình SGK phần Viết để HS quan sát đề bài và lưu ý.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình SGK phần Viết."
             ],
             [
@@ -29933,7 +29933,7 @@
               "- HS đọc Bài 1, xác định nội dung cần đọc."
             ],
             [
-              "- GV cho HS quan sát gợi ý trong SGK, nhắc HS chú ý tên sách báo, tác giả, nội dung chính hoặc thông tin chính.",
+              "- GV cho HS quan sát gợi ý trong SGK, nhắc HS chú ý tên sách báo, tác giả, nội dung chính hoặc thông tin chính.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_32/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát gợi ý trong SGK."
             ],
             [
@@ -30042,7 +30042,7 @@
               "- HS làm việc theo nhóm, đọc đoạn văn và trao đổi nội dung chính."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30065,7 +30065,7 @@
               "- HS nghe GV đọc mẫu, theo dõi bài trong SGK."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30100,7 +30100,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (15 phút)\nMục tiêu: HS trả lời được các câu hỏi đọc hiểu, nêu được ý nghĩa câu chuyện và biết liên hệ với trách nhiệm giúp đỡ người gặp khó khăn.\nMục tiêu tích hợp: HS hiểu quyền được bảo vệ an toàn của con người, biết trân trọng lòng dũng cảm, tinh thần trách nhiệm và những việc làm tốt âm thầm vì cộng đồng.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30261,7 +30261,7 @@
               "2. Luyện tập: Hoạt động 1: Bài 1. Tìm câu có sử dụng dấu gạch ngang, nêu công dụng của dấu gạch ngang (10 phút)\nMục tiêu: HS tìm được câu có sử dụng dấu gạch ngang và nêu được công dụng của dấu gạch ngang trong từng câu.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30288,11 +30288,11 @@
               "3. Luyện tập: Hoạt động 2: Bài 2. Chọn dấu gạch ngang hoặc dấu gạch nối thay cho mỗi bông hoa trong đoạn văn (10 phút)\nMục tiêu: HS chọn đúng dấu gạch ngang hoặc dấu gạch nối trong đoạn văn và giải thích được lí do lựa chọn.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30397,11 +30397,11 @@
               "2. Khám phá: Hoạt động 1: Bài 1. Đọc đoạn văn và thực hiện yêu cầu (20 phút)\nMục tiêu: HS đọc đoạn văn mẫu, xác định được sự việc bị phản đối, lí do, dẫn chứng và bố cục của đoạn văn.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30548,7 +30548,7 @@
               "- HS quan sát tranh, trao đổi nhóm đôi về nội dung bức tranh."
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30594,7 +30594,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (20 phút)\nMục tiêu: HS trả lời được các câu hỏi đọc hiểu, nêu được mục đích, cách tổ chức, sức lan tỏa và lợi ích của sự kiện Giờ Trái Đất.\nMục tiêu tích hợp: HS hình thành lối sống xanh, biết tiết kiệm điện, tiết kiệm nước và tham gia hành động nhỏ vì môi trường, cộng đồng.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30763,7 +30763,7 @@
               "2. Luyện tập: Hoạt động 1: Bài 1. Chuẩn bị (10 phút)\nMục tiêu: HS chọn được đề, lựa chọn sự việc, hiện tượng muốn bày tỏ ý kiến phản đối và biết tìm, ghi chép thông tin cần thiết.\nMục tiêu tích hợp: HS biết dùng công cụ số đúng mục đích, nhận biết tác động của công nghệ số và bảo vệ dữ liệu cá nhân khi tìm thông tin.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image11.png\" alt=\"image11.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30867,7 +30867,7 @@
               "2. Khám phá: Hoạt động 1: Chuẩn bị (10 phút)\nMục tiêu: HS chuẩn bị được nội dung thảo luận về những hoạt động của thiếu nhi vào kì nghỉ hè.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image12.png\" alt=\"image12.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30886,7 +30886,7 @@
               "3. Luyện tập: Hoạt động 2: Thảo luận (20 phút)\nMục tiêu: HS tham gia thảo luận, biết trình bày ý kiến, lắng nghe, đặt câu hỏi và phản hồi lịch sự.\nMục tiêu tích hợp: HS được bày tỏ ý kiến, biết lắng nghe và tôn trọng ý kiến khác biệt của bạn khi trao đổi về hoạt động hè.\nCách tiến hành:"
             ],
             [
-              "",
+              "\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_33/image13.png\" alt=\"image13.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu trong SGK và chuẩn bị thực hiện nhiệm vụ học tập."
             ],
             [
@@ -30977,7 +30977,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; giúp HS kết nối với chủ điểm Thế giới của chúng ta và bài đọc Điện thoại di động.\nCách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát hình minh họa và yêu cầu: Chia sẻ những điều em biết về điện thoại di động.",
+              "- GV cho HS quan sát hình minh họa và yêu cầu: Chia sẻ những điều em biết về điện thoại di động.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, chia sẻ trong nhóm: điện thoại di động có nhiều kiểu dáng, màu sắc, kích thước; dùng để gọi điện, nhắn tin, chụp ảnh, xem bản đồ, nghe nhạc, học tập,..."
             ],
             [
@@ -31019,7 +31019,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (15 phút)\nMục tiêu: HS trả lời đầy đủ các câu hỏi trong SGK; nắm được thông tin chính về điện thoại di động.\nMục tiêu tích hợp: HS nhận biết quyền riêng tư, quyền được an toàn thông tin cá nhân khi sử dụng điện thoại và môi trường mạng; biết sử dụng điện thoại đúng mục đích, không lệ thuộc thiết bị.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc các câu hỏi cuối bài trong SGK.",
+              "- GV yêu cầu HS đọc các câu hỏi cuối bài trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát phần câu hỏi và hình ảnh các mẫu điện thoại trong SGK."
             ],
             [
@@ -31145,7 +31145,7 @@
               "2. Luyện tập: Hoạt động 1: Bài 1. Tìm từ ngữ có tác dụng liên kết câu và xếp vào nhóm thích hợp (12 phút)\nMục tiêu: HS tìm được từ ngữ liên kết câu trong đoạn văn và xếp đúng nhóm.\nMục tiêu tích hợp: HS biết dùng công cụ số theo hướng dẫn của GV để tìm hiểu khái niệm trí tuệ nhân tạo; biết không tự ý cung cấp dữ liệu cá nhân khi tra cứu hoặc sử dụng điện thoại.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 1 và quan sát đoạn văn trong SGK.",
+              "- GV mời HS đọc Bài 1 và quan sát đoạn văn trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 1, xác định yêu cầu: tìm từ ngữ liên kết câu và xếp vào nhóm thích hợp."
             ],
             [
@@ -31168,7 +31168,7 @@
               "3. Luyện tập: Hoạt động 2: Bài 2. Sửa lỗi dùng từ ngữ liên kết câu (15 phút)\nMục tiêu: HS phát hiện lỗi liên kết câu và biết sửa lại cho phù hợp.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 2 và các đoạn văn a, b, c trong SGK.",
+              "- GV mời HS đọc Bài 2 và các đoạn văn a, b, c trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 2, xác định yêu cầu: tìm cách sửa những từ ngữ dùng không đúng để liên kết câu."
             ],
             [
@@ -31195,7 +31195,7 @@
               "4. Vận dụng - Trải nghiệm: Hoạt động 3: Bài 3. Viết đoạn văn có sử dụng cách liên kết câu đã học (13 phút)\nMục tiêu: HS viết được đoạn văn 3 - 4 câu về tác dụng của phương tiện thông tin hiện đại, có sử dụng ít nhất một cách liên kết câu đã học.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc Bài 3 trong SGK.",
+              "- GV mời HS đọc Bài 3 trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc Bài 3, nêu yêu cầu: viết đoạn văn 3 - 4 câu về tác dụng của phương tiện thông tin hiện đại đối với đời sống con người."
             ],
             [
@@ -31262,7 +31262,7 @@
               "2. Khám phá: Hoạt động 1. Tìm hiểu yêu cầu viết đoạn văn (8 phút)\nMục tiêu: HS xác định đúng đề bài, yêu cầu và những điểm cần chú ý khi viết.\nMục tiêu tích hợp: HS biết trao đổi về việc sử dụng trợ lí AI trên điện thoại an toàn, không chia sẻ dữ liệu cá nhân tùy tiện.\nCách tiến hành:"
             ],
             [
-              "- GV mời HS đọc yêu cầu phần Viết trong SGK.",
+              "- GV mời HS đọc yêu cầu phần Viết trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc: Chọn một trong hai đề, viết đoạn văn nêu ý kiến phản đối hiện tượng vứt rác bừa bãi hoặc chen lấn khi xếp hàng."
             ],
             [
@@ -31347,7 +31347,7 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo hứng thú học tập; giúp HS quan sát, so sánh hai kiểu thành phố và kết nối với bài đọc.\nCách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ: Làm việc theo nhóm, trả lời câu hỏi: Dưới đây là 2 bức tranh về thành phố. Em thích bức tranh nào? Vì sao?",
+              "- GV giao nhiệm vụ: Làm việc theo nhóm, trả lời câu hỏi: Dưới đây là 2 bức tranh về thành phố. Em thích bức tranh nào? Vì sao?\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image7.png\" alt=\"image7.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh, thảo luận: Em thích tranh 2 vì thành phố có nhiều cây xanh, có nhiều bóng mát; em không thích tranh 1 vì thành phố có nhiều nhà cao tầng, ít cây xanh."
             ],
             [
@@ -31393,7 +31393,7 @@
               "3. Luyện tập: Hoạt động đọc hiểu (30 phút)\nMục tiêu: HS trả lời đúng các câu hỏi đọc hiểu; nắm được đặc điểm của dự án Thành phố thông minh Mát-xđa.\nMục tiêu tích hợp: HS hiểu quyền được sống trong đô thị an toàn, sạch đẹp, thuận tiện; biết liên hệ việc tiết kiệm nước, xử lí nước thải, tái sử dụng nước và giảm ô nhiễm trong thành phố thông minh.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc các câu hỏi cuối bài trong SGK.",
+              "- GV yêu cầu HS đọc các câu hỏi cuối bài trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image8.png\" alt=\"image8.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các câu hỏi và chuẩn bị đọc thầm văn bản để trả lời."
             ],
             [
@@ -31527,7 +31527,7 @@
               "2. Luyện tập: Hoạt động 1. Nghe nhận xét và đọc lại bài làm (15 phút)\nMục tiêu: HS nhận biết ưu điểm, hạn chế chung và phát hiện lỗi trong bài viết của mình.\nMục tiêu tích hợp: HS biết hình dung thành phố mơ ước có cảm biến AI giúp giao thông thông suốt, hạn chế rác thải; biết chỉ dùng AI để tham khảo ý tưởng, không thay thế suy nghĩ của bản thân.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát phần gợi ý trong SGK.",
+              "- GV yêu cầu HS quan sát phần gợi ý trong SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image9.png\" alt=\"image9.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các tiêu chí: đoạn văn có đủ 3 phần, ý kiến phản đối rõ ràng, lí do xác đáng, dẫn chứng thuyết phục, dùng từ và viết câu đúng."
             ],
             [
@@ -31624,7 +31624,7 @@
               "2. Khám phá: Hoạt động 1. Đọc văn bản thông tin về vấn đề xử lí rác thải, viết phiếu đọc sách theo mẫu (20 phút)\nMục tiêu: HS đọc văn bản thông tin và hoàn thành phiếu đọc sách.\nMục tiêu tích hợp: HS biết sử dụng phần mềm số để thực hiện dự án Thành phố ước mơ, mô phỏng hoạt động tự động đúng mục đích học tập, có ghi nguồn và bảo vệ dữ liệu cá nhân.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS đọc Bài 1, Bài 2 trong phần Đọc mở rộng của SGK.",
+              "- GV yêu cầu HS đọc Bài 1, Bài 2 trong phần Đọc mở rộng của SGK.\n<img src=\"assets/khbd_images/lop5/tieng_viet/tuan_34/image10.png\" alt=\"image10.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS đọc yêu cầu: Đọc văn bản thông tin về vấn đề xử lí rác thải và viết phiếu đọc sách theo mẫu."
             ],
             [

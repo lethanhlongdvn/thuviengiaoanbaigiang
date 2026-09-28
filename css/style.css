@@ -2838,3 +2838,15 @@ div[class*="netlify"] {
   }
 }
 
+/* Chuẩn hóa hiển thị hình ảnh minh họa bài tập trong bảng KHBD cho toàn hệ thống */
+.table-activity img,
+.integrated-doc-sheet .table-activity img,
+.table-activity td img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 6px auto !important;
+  border-radius: 4px;
+}
+
+

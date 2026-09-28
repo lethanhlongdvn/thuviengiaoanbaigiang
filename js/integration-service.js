@@ -3731,11 +3731,43 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var textAlign = align || 'justify';
     var cellStyle = isTichHop ? 'color: #C00000;' : '';
     var str = String(rawText).trim();
-    var lines = str.split(/(?:\r?\n|<br\s*\/?>)/i);
+    var rawLines = str.split(/(?:\r?\n|<br\s*\/?>)/i);
+    var lines = [];
+    for (var r = 0; r < rawLines.length; r++) {
+      var item = rawLines[r].trim();
+      if (!item) continue;
+      if (/<img[^>]*>/i.test(item) && !/^<img[^>]*>$/i.test(item)) {
+        var subParts = item.split(/(<img[^>]*>)/i);
+        for (var sp = 0; sp < subParts.length; sp++) {
+          var trimmedSp = subParts[sp].trim();
+          if (trimmedSp) lines.push(trimmedSp);
+        }
+      } else {
+        lines.push(item);
+      }
+    }
     var pList = [];
     for (var i = 0; i < lines.length; i++) {
       var line = lines[i].trim();
       if (!line) continue;
+      if (/<img[^>]*>/i.test(line)) {
+        var normImg = line;
+        if (!/width\s*=/i.test(normImg)) {
+          normImg = normImg.replace(/<img\s+/i, '<img width="306" ');
+        }
+        if (!/width:\s*229/i.test(normImg)) {
+          if (/style=["'][^"']*["']/i.test(normImg)) {
+            normImg = normImg.replace(/style=["']([^"']*)["']/i, function(m, s) {
+              var cleanStyle = s.replace(/(?:^|;)\s*(?:max-|min-)?width\s*:\s*[^;]+/gi, '').replace(/^;\s*/, '').trim();
+              return 'style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto; ' + cleanStyle + '"';
+            });
+          } else {
+            normImg = normImg.replace(/<img\s+/i, '<img style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto;" ');
+          }
+        }
+        pList.push('<p align="center" style="margin: 4pt 0pt; text-align: center; line-height: 1.0; mso-para-margin: 4pt 0pt;">' + normImg + '</p>');
+        continue;
+      }
       var inner = cellStyle ? ('<span style="' + cellStyle + '">' + line + '</span>') : line;
       pList.push('<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + '; ' + cellStyle + '">' + inner + '</p>');
     }
@@ -4627,6 +4659,103 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var jszipObj = (typeof JSZip !== 'undefined') ? JSZip : ((typeof window !== 'undefined' && window.JSZip) ? window.JSZip : null);
     if (jszipObj) {
       try {
+        // Tự động chuyển đổi toàn bộ đường dẫn ảnh (assets/... hoặc url) thành Base64 Data URI để nhúng trực tiếp vào file Word
+        if (typeof docHtml === 'string' && docHtml.indexOf('<img') !== -1) {
+          try {
+            var imgRegex = /<img[^>]+src=["']([^"']+)["'][^>]*>/gi;
+            var match;
+            var urlsToFetch = [];
+            while ((match = imgRegex.exec(docHtml)) !== null) {
+              var url = match[1];
+              if (url && !url.startsWith('data:') && urlsToFetch.indexOf(url) === -1) {
+                urlsToFetch.push(url);
+              }
+            }
+            for (var u = 0; u < urlsToFetch.length; u++) {
+              var targetUrl = urlsToFetch[u];
+              try {
+                var b64Data = null;
+                if (typeof window !== 'undefined' && typeof window.fetch === 'function') {
+                  try {
+                    var response = await fetch(targetUrl);
+                    if (response.ok) {
+                      var blob = await response.blob();
+                      b64Data = await new Promise(function(resolve) {
+                        var reader = new FileReader();
+                        reader.onloadend = function() { resolve(reader.result); };
+                        reader.readAsDataURL(blob);
+                      });
+                    }
+                  } catch(fetchCatch) {}
+                  if (!b64Data && typeof document !== 'undefined') {
+                    try {
+                      b64Data = await new Promise(function(resolve) {
+                        var img = new Image();
+                        img.crossOrigin = 'Anonymous';
+                        img.onload = function() {
+                          try {
+                            var cvs = document.createElement('canvas');
+                            cvs.width = img.naturalWidth || img.width;
+                            cvs.height = img.naturalHeight || img.height;
+                            var ctx = cvs.getContext('2d');
+                            ctx.drawImage(img, 0, 0);
+                            resolve(cvs.toDataURL());
+                          } catch(err) {
+                            resolve(null);
+                          }
+                        };
+                        img.onerror = function() { resolve(null); };
+                        img.src = targetUrl;
+                      });
+                    } catch(cvsCatch) {}
+                  }
+                } else if (typeof require !== 'undefined') {
+                  var fs = require('fs');
+                  var path = require('path');
+                  var localPath = path.resolve(targetUrl);
+                  if (fs.existsSync(localPath)) {
+                    var ext = targetUrl.split('.').pop() || 'png';
+                    var buf = fs.readFileSync(localPath);
+                    b64Data = 'data:image/' + ext + ';base64,' + buf.toString('base64');
+                  }
+                }
+                if (b64Data) {
+                  docHtml = docHtml.split(targetUrl).join(b64Data);
+                }
+              } catch(fetchErr) {
+                console.warn('Could not embed image for Word export:', targetUrl, fetchErr);
+              }
+            }
+          } catch(imgErr) {
+            console.warn('Image embedding error:', imgErr);
+          }
+        }
+
+        // Chuẩn hóa kích thước toàn bộ ảnh trong file Word xuất ra cho toàn bộ hệ thống
+        // Đảm bảo mọi ảnh đều có width="306" và style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto;"
+        // Ngăn chặn 100% lỗi ảnh bị phóng to làm vỡ bảng và làm file phình to quá số trang chuẩn
+        if (typeof docHtml === 'string' && docHtml.indexOf('<img') !== -1) {
+          docHtml = docHtml.replace(/<img\b([^>]*)>/gi, function(fullTag, attrs) {
+            var newAttrs = attrs;
+            if (!/\bwidth\s*=/i.test(newAttrs)) {
+              newAttrs = ' width="306"' + newAttrs;
+            } else {
+              newAttrs = newAttrs.replace(/\bwidth\s*=\s*["']?(\d+)["']?/i, function(m, w) {
+                return (parseInt(w) > 350) ? 'width="306"' : m;
+              });
+            }
+            if (/\bstyle\s*=\s*["']([^"']*)["']/i.test(newAttrs)) {
+              newAttrs = newAttrs.replace(/\bstyle\s*=\s*["']([^"']*)["']/i, function(m, s) {
+                var cleanStyle = s.replace(/(?:^|;)\s*(?:max-|min-)?width\s*:\s*[^;]+/gi, '').replace(/^;\s*/, '').trim();
+                return 'style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto; ' + cleanStyle + '"';
+              });
+            } else {
+              newAttrs += ' style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto;"';
+            }
+            return '<img' + newAttrs + '>';
+          });
+        }
+
         var zip = new jszipObj();
 
         // 1. _rels/.rels
@@ -4737,12 +4866,17 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         var fullHtml = sanitizedHtml.includes('<meta charset=') ? sanitizedHtml : ('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>' + sanitizedHtml + '</body></html>');
         zip.file('word/content.html', '\ufeff' + fullHtml);
 
+        var genType = (typeof JSZip !== 'undefined' && JSZip.support && JSZip.support.blob) ? 'blob' : 'uint8array';
         var docxBlob = await zip.generateAsync({
-          type: 'blob',
+          type: genType,
           mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
           compression: 'DEFLATE',
           compressionOptions: { level: 6 }
         });
+
+        if (genType === 'uint8array' && typeof Blob !== 'undefined' && typeof window !== 'undefined' && window.showSaveFilePicker) {
+          docxBlob = new Blob([docxBlob], { type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' });
+        }
 
         return { blob: docxBlob, isDocx: true };
       } catch (err) {

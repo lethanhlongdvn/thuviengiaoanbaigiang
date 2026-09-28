@@ -87,7 +87,7 @@
               "- HS lắng nghe, ghi nhớ nội dung: cần kính phục, biết ơn người đã hi sinh, cống hiến cho quê hương, đất nước."
             ],
             [
-              "Nhiệm vụ 2: Quan sát ảnh và thực hiện yêu cầu\n- GV trình chiếu hình ảnh trong SGK, mục 1.b phần Khám phá để HS quan sát các nhân vật tiêu biểu.",
+              "Nhiệm vụ 2: Quan sát ảnh và thực hiện yêu cầu\n- GV trình chiếu hình ảnh trong SGK, mục 1.b phần Khám phá để HS quan sát các nhân vật tiêu biểu.\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_1/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, nhận biết tên nhân vật và chuẩn bị nêu đóng góp của từng nhân vật.\n- HS làm việc nhóm, mỗi nhóm tập trung vào một nhân vật hoặc một bức ảnh theo phân công."
             ],
             [
@@ -227,7 +227,7 @@
               "- HS làm việc nhóm đôi, đọc các trường hợp và quan sát tranh.\n- HS gạch chân hoặc ghi lại ý chính trong từng trường hợp."
             ],
             [
-              "Hình SGK: Tìm hiểu vì sao phải biết ơn người có công với quê hương, đất nước",
+              "Hình SGK: Tìm hiểu vì sao phải biết ơn người có công với quê hương, đất nước\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_2/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị trả lời theo nhiệm vụ GV giao."
             ],
             [
@@ -254,7 +254,7 @@
               "- HS làm việc nhóm 4, quan sát tranh để thực hiện yêu cầu.\n- HS phân công nhiệm vụ trong nhóm, ghi kết quả vào phiếu học tập hoặc vở nháp."
             ],
             [
-              "Hình SGK: Những việc cần làm để thể hiện lòng biết ơn người có công",
+              "Hình SGK: Những việc cần làm để thể hiện lòng biết ơn người có công\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_2/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị trả lời theo nhiệm vụ GV giao."
             ],
             [
@@ -378,7 +378,7 @@
               "- HS đọc yêu cầu bài tập.\n- HS làm việc cá nhân, đánh dấu vào các ý mình cho là đúng."
             ],
             [
-              "Hình SGK: Bài tập 1 - Lựa chọn người có công với quê hương, đất nước",
+              "Hình SGK: Bài tập 1 - Lựa chọn người có công với quê hương, đất nước\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_3/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -397,7 +397,7 @@
               "- HS đọc yêu cầu và các ý kiến trong SGK.\n- HS làm việc theo cặp, chuẩn bị cách nói đồng tình hoặc không đồng tình."
             ],
             [
-              "Hình SGK: Bài tập 2 - Ý kiến a, b",
+              "Hình SGK: Bài tập 2 - Ý kiến a, b\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_3/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -405,7 +405,7 @@
               "- HS nêu: “Ý kiến a: Đồng tình với Đạt, không đồng tình với An vì người có công không chỉ là anh hùng chống giặc mà còn là người góp phần xây dựng đất nước.”\n- HS nêu: “Ý kiến b: Đồng tình với Tình, không đồng tình với Thanh vì đền đáp nghĩa là trách nhiệm của mọi công dân, trong đó có HS bằng việc làm phù hợp.”"
             ],
             [
-              "Hình SGK: Bài tập 2 - Ý kiến c, d",
+              "Hình SGK: Bài tập 2 - Ý kiến c, d\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_3/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -420,7 +420,7 @@
               "- HS đọc bài tập, thảo luận nhóm đôi.\n- HS ghi đáp án vào vở hoặc phiếu học tập."
             ],
             [
-              "Hình SGK: Bài tập 3 - Lựa chọn việc làm thể hiện lòng biết ơn",
+              "Hình SGK: Bài tập 3 - Lựa chọn việc làm thể hiện lòng biết ơn\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_3/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -443,7 +443,7 @@
               "- HS đọc tình huống, thảo luận nhóm 4.\n- HS ghi kết quả thảo luận: việc làm đúng, chưa đúng và lời khuyên."
             ],
             [
-              "Hình SGK: Bài tập 4 - Trường hợp a",
+              "Hình SGK: Bài tập 4 - Trường hợp a\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_3/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -451,7 +451,7 @@
               "- HS nêu: “Thắng làm như vậy là chưa đúng vì viết thêm râu, tóc vào ảnh danh nhân là thiếu tôn trọng người có công và làm hỏng sách.”\n- HS đưa lời khuyên: “Thắng không nên vẽ bậy vào hình ảnh danh nhân; cần giữ gìn SGK sạch đẹp để tặng lại cho các em lớp sau.”"
             ],
             [
-              "Hình SGK: Bài tập 4 - Trường hợp b, c, d",
+              "Hình SGK: Bài tập 4 - Trường hợp b, c, d\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_3/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -540,7 +540,7 @@
               "- HS làm việc nhóm 4, đọc tình huống được giao.\n- HS phân công nhiệm vụ: bạn đọc tình huống, bạn ghi ý, bạn đóng vai, bạn trình bày."
             ],
             [
-              "Hình SGK: Bài tập 5 - Tình huống a, b",
+              "Hình SGK: Bài tập 5 - Tình huống a, b\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_4/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -552,7 +552,7 @@
               "- HS nêu: “Páo nên nói rằng đất nước đã hòa bình nhưng vẫn cần người lính bảo vệ biên cương, biển đảo, giữ bình yên cho nhân dân.”\n- HS bổ sung: “Mỗi ước mơ đều đáng quý nếu góp phần bảo vệ và xây dựng đất nước.”"
             ],
             [
-              "Hình SGK: Bài tập 5 - Tình huống c, d",
+              "Hình SGK: Bài tập 5 - Tình huống c, d\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_4/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -583,7 +583,7 @@
               "- Một số HS sắm vai MC phỏng vấn bạn.\n- HS trả lời: “Em sẽ học tập tốt, giữ gìn di tích lịch sử, tham gia hoạt động tri ân, kính trọng thương binh và gia đình chính sách.”"
             ],
             [
-              "Hình SGK: Vận dụng - Chia sẻ và sáng tạo sản phẩm tri ân",
+              "Hình SGK: Vận dụng - Chia sẻ và sáng tạo sản phẩm tri ân\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_4/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -667,7 +667,7 @@
               "- HS đọc yêu cầu, quan sát tranh và thảo luận nhóm 4.\n- HS phân công: bạn đọc tình huống, bạn quan sát tranh, bạn ghi ý chính, bạn trình bày."
             ],
             [
-              "Hình SGK: Khám phá 1 - Trường hợp a",
+              "Hình SGK: Khám phá 1 - Trường hợp a\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_5/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -675,7 +675,7 @@
               "- HS trả lời: “Trường hợp a nói về sự khác biệt ngoại hình. Minh động viên bạn Thái khi bạn tự ti vì cơ thể mập mạp.”\n- HS nêu: “Minh không chê bai mà khích lệ bạn tham gia chơi bóng, đó là biểu hiện tôn trọng sự khác biệt.”"
             ],
             [
-              "Hình SGK: Khám phá 1 - Trường hợp b, c, d",
+              "Hình SGK: Khám phá 1 - Trường hợp b, c, d\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_5/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -702,7 +702,7 @@
               "- HS đọc thầm câu chuyện.\n- HS đọc diễn cảm; các bạn theo dõi, lắng nghe."
             ],
             [
-              "Hình SGK: Khám phá 2 - Cây cọ nhí",
+              "Hình SGK: Khám phá 2 - Cây cọ nhí\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_5/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -816,7 +816,7 @@
               "- HS đọc yêu cầu, thảo luận nhóm 4.\n- HS ghi kết quả vào phiếu: tán thành hoặc không tán thành và lí do lựa chọn."
             ],
             [
-              "Hình SGK: Hoạt động 1 - Bài tập 1: Bày tỏ ý kiến",
+              "Hình SGK: Hoạt động 1 - Bài tập 1: Bày tỏ ý kiến\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_6/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -843,7 +843,7 @@
               "- HS đọc yêu cầu, quan sát các trường hợp trong SGK.\n- HS thảo luận nhóm đôi, ghi ý kiến nhận xét vào vở nháp."
             ],
             [
-              "Hình SGK: Hoạt động 2 - Bài tập 2: Nhận xét việc làm",
+              "Hình SGK: Hoạt động 2 - Bài tập 2: Nhận xét việc làm\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_6/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -870,7 +870,7 @@
               "- HS đọc tình huống, thảo luận nhóm.\n- HS phân vai: người kể tình huống, nhân vật chính, bạn đưa lời khuyên, người nhận xét."
             ],
             [
-              "Hình SGK: Hoạt động 3 - Bài tập 3: Đưa ra lời khuyên",
+              "Hình SGK: Hoạt động 3 - Bài tập 3: Đưa ra lời khuyên\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_6/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -962,7 +962,7 @@
               "- HS đọc tình huống trong SGK, phân vai, thống nhất cách xử lí.\n- HS chuẩn bị lời thoại ngắn, thể hiện thái độ tôn trọng, không chê bai sự khác biệt."
             ],
             [
-              "Hình SGK: Bài tập 4 - Xử lí tình huống",
+              "Hình SGK: Bài tập 4 - Xử lí tình huống\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_7/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1067,11 +1067,11 @@
               "- HS quan sát tranh, thảo luận nhóm đôi.\n- HS chuẩn bị nêu khó khăn của từng bạn trong tranh và liên hệ với bản thân."
             ],
             [
-              "Hình SGK: Hoạt động 1 - Tranh 1, 2",
+              "Hình SGK: Hoạt động 1 - Tranh 1, 2\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_8/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
-              "Hình SGK: Hoạt động 1 - Tranh 3, 4, 5",
+              "Hình SGK: Hoạt động 1 - Tranh 3, 4, 5\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_8/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1098,7 +1098,7 @@
               "- HS đọc thầm câu chuyện.\n- 1 HS đọc diễn cảm, các HS khác lắng nghe, theo dõi nội dung trong SGK."
             ],
             [
-              "Hình SGK: Câu chuyện Chăm ngoan, học giỏi - phần 1",
+              "Hình SGK: Câu chuyện Chăm ngoan, học giỏi - phần 1\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_8/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_8/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1325,7 +1325,7 @@
               "Hoạt động 1: Bài tập 1: Bày tỏ ý kiến (10 phút)"
             ],
             [
-              "Hình SGK: Bài tập 1 - Bày tỏ ý kiến",
+              "Hình SGK: Bài tập 1 - Bày tỏ ý kiến\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_10/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1336,7 +1336,7 @@
               "Hoạt động 2: Bài tập 2: Dự đoán điều có thế xảy ra (10 phút)\n*Mục tiêu tích hợp: Tích hợp AI 5.A1.1: HS xem video về robot cứu hộ AI vào vùng thiên tai, vùng nguy hiểm để nhận biết AI có thể làm việc nguy hiểm thay con người."
             ],
             [
-              "Hình SGK: Bài tập 2, 3",
+              "Hình SGK: Bài tập 2, 3\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_10/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1429,7 +1429,7 @@
               "Hoạt động 1: Bài tập 4: Nhận xét những việc làm cụ thể trong việc thể hiện sự vượt qua khó khăn (12 phút)"
             ],
             [
-              "Hình SGK: Bài tập 4",
+              "Hình SGK: Bài tập 4\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_11/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1440,7 +1440,7 @@
               "Hoạt động 2: Bài tập 5: Đưa ra lời tư vấn (13 phút)\n*Mục tiêu tích hợp: Tích hợp Lý tưởng cách mạng, đạo đức, lối sống: HS rèn ý chí, tinh thần tự học, biết đặt mục tiêu nhỏ, kiên trì thực hiện nhiệm vụ học tập và biết điều chỉnh cách làm khi gặp trở ngại."
             ],
             [
-              "Hình SGK: Bài tập 5",
+              "Hình SGK: Bài tập 5\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_11/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1530,7 +1530,7 @@
               "Hoạt động 1: Liên hệ bản thân (15 phút)"
             ],
             [
-              "Hình SGK: Vận dụng",
+              "Hình SGK: Vận dụng\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_12/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1627,7 +1627,7 @@
               "- HS quan sát tranh, trả lời câu hỏi và chuẩn bị bổ sung ý kiến trong nhóm."
             ],
             [
-              "Hình SGK: Nhận biết cái đúng, cái tốt cần bảo vệ - tranh 1, 2",
+              "Hình SGK: Nhận biết cái đúng, cái tốt cần bảo vệ - tranh 1, 2\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_13/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_13/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1666,7 +1666,7 @@
               "- HS đọc thầm, đọc diễn cảm trước lớp."
             ],
             [
-              "Hình SGK: Câu chuyện “Bảo vệ như thế là rất tốt”",
+              "Hình SGK: Câu chuyện “Bảo vệ như thế là rất tốt”\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_13/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1701,7 +1701,7 @@
               "- HS thực hiện thảo luận theo kĩ thuật khăn trải bàn, cùng trao đổi và thống nhất ý kiến."
             ],
             [
-              "Hình SGK: Một số cách đơn giản để bảo vệ cái đúng, cái tốt",
+              "Hình SGK: Một số cách đơn giản để bảo vệ cái đúng, cái tốt\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_13/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1816,7 +1816,7 @@
               "- HS lắng nghe, ghi nhớ."
             ],
             [
-              "Hình SGK: Bài tập 1 và Bài tập 2",
+              "Hình SGK: Bài tập 1 và Bài tập 2\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_14/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1858,11 +1858,11 @@
               "- HS thảo luận theo nhóm 4, trao đổi và thống nhất ý kiến."
             ],
             [
-              "Hình SGK: Bài tập 3 - trường hợp a, b, c",
+              "Hình SGK: Bài tập 3 - trường hợp a, b, c\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_14/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
-              "Hình SGK: Bài tập 3 - trường hợp d",
+              "Hình SGK: Bài tập 3 - trường hợp d\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_14/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1953,7 +1953,7 @@
               "- HS thực hiện nhiệm vụ phân vai và trình diễn tình huống, sau đó trình bày phương án xử lí:\n+ Tình huống 1: Nói với Dũng và Phong nên đi tìm người lớn để ngăn chặn, nhắc nhở việc làm sai của các bạn.\n+ Tình huống 2: Nói với các bạn rằng sở thích của Nhung rất có ích, giúp bảo vệ môi trường. Chúng ta không nên chế giễu, trêu chọc, mà cần học tập bạn.\n+ Tình huống 3: Nói với Nga rằng đó là tiền của bà bán nước đánh rơi, mình phải có trách nhiệm trả lại cho bà. Tham của rơi là điều không tốt."
             ],
             [
-              "Hình SGK: Bài tập 4 - Xử lí tình huống",
+              "Hình SGK: Bài tập 4 - Xử lí tình huống\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_15/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -1979,7 +1979,7 @@
               "- HS thực hiện nhiệm vụ và chia sẻ kết quả trước lớp với sản phẩm đã chuẩn bị ở nhà.\n- HS chia sẻ điều học hỏi được: mạnh dạn nói điều đúng, không sợ khó, biết ủng hộ việc tốt."
             ],
             [
-              "Hình SGK: Vận dụng - Bảo vệ cái đúng, cái tốt",
+              "Hình SGK: Vận dụng - Bảo vệ cái đúng, cái tốt\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_15/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2052,7 +2052,7 @@
               "- HS làm việc cá nhân (đọc trường hợp), thảo luận nhóm đôi, ghi kết quả vào giấy nháp để giải câu đố và trả lời câu hỏi:\n- Giải câu đố “Tôi là ai?”:\n+ Câu đố 1: Tôi là môi trường đất.\n+ Câu đố 2: Tôi là môi trường nước.\n+ Câu đố 3: Tôi là môi trường không khí.\n- Trả lời câu hỏi:\n+ Trong bức tranh có các loại môi trường sống chủ yếu là môi trường đất, môi trường nước và môi trường không khí.\n+ Ngoài ra, còn có các loại môi trường khác như môi trường sinh vật, môi trường tự nhiên, môi trường nhân tạo,..."
             ],
             [
-              "Hình SGK: Tìm hiểu các loại môi trường sống",
+              "Hình SGK: Tìm hiểu các loại môi trường sống\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_16/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2067,7 +2067,7 @@
               "- HS đọc thông tin cho cả lớp cùng nghe; đại diện 1, 2 nhóm trả lời câu hỏi. Các HS khác lắng nghe, nhận xét, bổ sung:\n+ Môi trường sống ở nước ta hiện nay đang gặp phải vấn đề ô nhiễm. Việc ô nhiễm môi trường gây tác hại xấu đến sức khoẻ con người.\n+ Phải bảo vệ môi trường sống vì đó là điều kiện tồn tại của con người.\n- HS xem phim và liên hệ đến tình hình môi trường hiện nay."
             ],
             [
-              "Hình SGK: Tìm hiểu vì sao phải bảo vệ môi trường sống",
+              "Hình SGK: Tìm hiểu vì sao phải bảo vệ môi trường sống\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_16/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2082,7 +2082,7 @@
               "- HS làm việc theo nhóm để thống nhất kết quả:\n+ Những việc cần làm để bảo vệ môi trường sống trong các tranh trên là:\nTranh 1: Trồng và chăm sóc cây xanh.\nTranh 2: Báo với người lớn về những nguy cơ cháy rừng.\nTranh 3: Dọn dẹp vệ sinh đường làng.\nTranh 4: Tuyên truyền trong cộng đồng về phân loại rác thải.\nTranh 5: Xử lí đúng chất thải để bảo vệ môi trường.\nTranh 6. Sử dụng túi đựng thân thiện với môi trường.\nTranh 7: Sử dụng đồ tái chế.\nTranh 8: Giữ gìn vệ sinh nơi công cộng."
             ],
             [
-              "Hình SGK: Những việc cần làm để bảo vệ môi trường sống - tranh 1 đến 6",
+              "Hình SGK: Những việc cần làm để bảo vệ môi trường sống - tranh 1 đến 6\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_16/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_16/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2177,7 +2177,7 @@
               "- Các nhóm lần lượt đưa ra mệnh đề “Nếu...” và “Thì...”. ví dụ:\nNếu đổ rác thải xuống sông thì sẽ làm ô nhiễm nguồn nước.\nNếu môi trường bị ô nhiễm thì con người sẽ bị nhiều bệnh tật.\nNếu bảo vệ động vật hoang dã thì môi trường sinh vật sẽ phong phú, đa dạng.\nNếu trồng cây thì sẽ có bóng mát."
             ],
             [
-              "Hình SGK: Luyện tập - Bài tập 1",
+              "Hình SGK: Luyện tập - Bài tập 1\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_17/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2188,7 +2188,7 @@
               "- HS làm việc theo nhóm, trả lời và nhận xét, bổ sung."
             ],
             [
-              "Hình SGK: Bài tập 1 và Bài tập 2",
+              "Hình SGK: Bài tập 1 và Bài tập 2\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_17/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2207,7 +2207,7 @@
               "- HS thảo luận để tìm đáp án ghi vào phiếu học tập:\n- Ý kiến a. Không đồng tình. Vì việc làm này gây ô nhiễm không khí cho khu dân cư, hạn chế tầm nhìn khi tham gia giao thông.\n- Ý kiến b. Đồng tình. Vì đây là việc làm giúp ngăn chặn hành vi gây ô nhiễm môi trường.\n- Ý kiến c. Đồng tình. Vì khói thuốc lá gây ảnh hưởng không tốt đến sức khoẻ của những người xung quanh và có thể gây cháy nổ khi tham gia giao thông."
             ],
             [
-              "Hình SGK: Bài tập 2 và Bài tập 3",
+              "Hình SGK: Bài tập 2 và Bài tập 3\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_17/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2407,7 +2407,7 @@
               "- HS cử đại diện để trình bày, các nhóm khác lắng nghe, bổ sung, phản biện."
             ],
             [
-              "Hình SGK: Bài tập 4 - Việc nên làm, không nên làm để bảo vệ môi trường sống",
+              "Hình SGK: Bài tập 4 - Việc nên làm, không nên làm để bảo vệ môi trường sống\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_19/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2442,7 +2442,7 @@
               "- HS trình diễn tình huống và trình bày phương án xử lí; các nhóm khác nhận xét, đánh giá, bổ sung cách xử lí khác."
             ],
             [
-              "Hình SGK: Bài tập 5 - Đóng vai xử lí tình huống",
+              "Hình SGK: Bài tập 5 - Đóng vai xử lí tình huống\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_19/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2556,7 +2556,7 @@
               "- HS lắng nghe, điều chỉnh việc làm chưa tốt và lựa chọn biện pháp khắc phục phù hợp."
             ],
             [
-              "Hình SGK: Vận dụng - Tự đánh giá, thuyết trình và điều tra môi trường",
+              "Hình SGK: Vận dụng - Tự đánh giá, thuyết trình và điều tra môi trường\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_20/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2689,7 +2689,7 @@
               "- Đại diện nhóm trình bày kết quả.\n- Các HS khác lắng nghe, nhận xét, bổ sung (nếu có)."
             ],
             [
-              "Hình SGK: Tìm hiểu các loại kế hoạch cá nhân - trường hợp a",
+              "Hình SGK: Tìm hiểu các loại kế hoạch cá nhân - trường hợp a\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_21/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_21/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2738,11 +2738,11 @@
               "- Các HS khác lắng nghe, nhận xét, bổ sung (nếu có)."
             ],
             [
-              "Hình SGK: Tìm hiểu vì sao phải lập kế hoạch cá nhân - câu chuyện “Một ngày làm việc của Bác”",
+              "Hình SGK: Tìm hiểu vì sao phải lập kế hoạch cá nhân - câu chuyện “Một ngày làm việc của Bác”\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_21/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
-              "Hình SGK: Câu chuyện và trường hợp bạn Hiên",
+              "Hình SGK: Câu chuyện và trường hợp bạn Hiên\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_21/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2847,7 +2847,7 @@
               "- HS làm việc cá nhân (đọc trường hợp), thảo luận nhóm, ghi kết quả thảo luận vào nháp."
             ],
             [
-              "Hình SGK: Tìm hiểu cách lập kế hoạch cá nhân - phần mở đầu",
+              "Hình SGK: Tìm hiểu cách lập kế hoạch cá nhân - phần mở đầu\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_22/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_22/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2885,7 +2885,7 @@
               "- HS làm việc cá nhân, suy nghĩ để lựa chọn ý kiến tán thành hoặc không tán thành và chuẩn bị giải thích lí do."
             ],
             [
-              "Hình SGK: Bài tập 1 và Bài tập 2",
+              "Hình SGK: Bài tập 1 và Bài tập 2\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_22/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2970,7 +2970,7 @@
               "- Lần lượt 2 HS cùng bàn thành 1 cặp đôi, thảo luận để đưa ra đáp án."
             ],
             [
-              "Hình SGK: Bài tập 2 và Bài tập 3 - phần a",
+              "Hình SGK: Bài tập 2 và Bài tập 3 - phần a\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_23/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -2989,7 +2989,7 @@
               "- HS làm việc theo nhóm 4, thảo luận để thống nhất ý kiến nhận xét."
             ],
             [
-              "Hình SGK: Bài tập 3 - phần b, c, d và Bài tập 4",
+              "Hình SGK: Bài tập 3 - phần b, c, d và Bài tập 4\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_23/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3023,7 +3023,7 @@
               "- HS thực hiện nhiệm vụ."
             ],
             [
-              "Hình SGK: Bài tập 5 và Vận dụng",
+              "Hình SGK: Bài tập 5 và Vận dụng\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_23/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3116,7 +3116,7 @@
               "- HS tham khảo kế hoạch của bạn Khang, tiến hành xác định mục tiêu và lập kế hoạch của bản thân."
             ],
             [
-              "Hình SGK: Vận dụng - lập kế hoạch và sưu tầm châm ngôn",
+              "Hình SGK: Vận dụng - lập kế hoạch và sưu tầm châm ngôn\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_24/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3226,7 +3226,7 @@
               "- HS thực hiện nhiệm vụ: làm việc cá nhân (quan sát tranh), thảo luận nhóm đôi để thực hiện yêu cầu, ghi kết quả vào nháp."
             ],
             [
-              "Hình SGK: Biểu hiện xâm hại trẻ em - tranh 1, 2",
+              "Hình SGK: Biểu hiện xâm hại trẻ em - tranh 1, 2\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_25/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_25/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3271,7 +3271,7 @@
               "Hoạt động 2: Bài tập 1: Bày tỏ ý kiến (6 phút)\nMục tiêu: HS biết bày tỏ ý kiến đồng tình hoặc không đồng tình về nội dung phòng, tránh xâm hại trẻ em.\n*Mục tiêu tích hợp: Tích hợp QCN: HS hiểu trẻ em có quyền được bảo vệ an toàn thân thể, danh dự và thông tin cá nhân.\n*Cách tiến hành:"
             ],
             [
-              "Hình SGK: Luyện tập - Bài tập 1, Bài tập 2",
+              "Hình SGK: Luyện tập - Bài tập 1, Bài tập 2\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_25/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3402,7 +3402,7 @@
               "Nhiệm vụ 2: Đọc trường hợp và trả lời câu hỏi (6 phút)"
             ],
             [
-              "Hình SGK: Tìm hiểu vì sao phải phòng tránh xâm hại và quy định của pháp luật",
+              "Hình SGK: Tìm hiểu vì sao phải phòng tránh xâm hại và quy định của pháp luật\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_26/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3679,7 +3679,7 @@
               "- HS làm việc cá nhân, quan sát tranh, suy nghĩ, viết câu trả lời vào nháp."
             ],
             [
-              "Hình SGK: Nhận diện nguy cơ bị xâm hại",
+              "Hình SGK: Nhận diện nguy cơ bị xâm hại\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_28/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3706,7 +3706,7 @@
               "- HS quan sát tranh, thảo luận nhóm đôi, ghi kết quả vào nháp để trả lời câu hỏi."
             ],
             [
-              "Hình SGK: Một số cách phòng, tránh xâm hại",
+              "Hình SGK: Một số cách phòng, tránh xâm hại\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_28/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3729,7 +3729,7 @@
               "- HS thực hiện nhiệm vụ: làm việc cá nhân, quan sát tranh, mô tả nội dung từng bức tranh, thảo luận nhóm đôi, ghi kết quả vào nháp/phiếu học tập."
             ],
             [
-              "Hình SGK: Cách ứng phó khi có nguy cơ bị xâm hại",
+              "Hình SGK: Cách ứng phó khi có nguy cơ bị xâm hại\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_28/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3820,11 +3820,11 @@
               "Hoạt động 1: Bài tập 3: Lựa chọn cách ứng phó khi có nguy cơ bị xâm hại (9 phút)\nMục tiêu: HS biết lựa chọn cách ứng phó phù hợp khi có nguy cơ bị xâm hại.\n*Cách tiến hành:"
             ],
             [
-              "Hình SGK: Luyện tập về phòng, tránh xâm hại",
+              "Hình SGK: Luyện tập về phòng, tránh xâm hại\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_29/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
-              "Hình SGK: Bài tập 3 và Bài tập 4",
+              "Hình SGK: Bài tập 3 và Bài tập 4\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_29/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3843,7 +3843,7 @@
               "Hoạt động 2: Bài tập 4: Xử lí tình huống (10 phút)\nMục tiêu: HS biết đưa ra phương án xử lí một số tình huống có liên quan đến phòng, tránh xâm hại.\n*Mục tiêu tích hợp: Tích hợp QCN: HS biết bảo vệ quyền riêng tư, danh dự và an toàn thân thể của bản thân, không tự ý chia sẻ thông tin cá nhân của bạn.\n*Cách tiến hành:"
             ],
             [
-              "Hình SGK: Bài tập 4, Bài tập 5",
+              "Hình SGK: Bài tập 4, Bài tập 5\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_29/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -3957,7 +3957,7 @@
               "1. Nêu những điều nên làm và không nên làm để phòng, tránh xâm hại (7 phút)\nMục tiêu: HS nêu được những việc nên làm, không nên làm để phòng, tránh xâm hại.\n*Mục tiêu tích hợp: Tích hợp Kĩ năng sống: HS thực hành nói “không” và tìm kiếm sự giúp đỡ khi gặp nguy cơ xâm hại.\n*Cách tiến hành:"
             ],
             [
-              "Hình SGK: Vận dụng - Phòng, tránh xâm hại",
+              "Hình SGK: Vận dụng - Phòng, tránh xâm hại\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_30/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -4068,11 +4068,11 @@
               "- HS thực hiện nhiệm vụ: làm việc cá nhân, quan sát tranh, mô tả nội dung từng bức tranh, thảo luận nhóm đôi về các biểu hiện của sử dụng tiền hợp lí, ghi kết quả vào nháp/phiếu học tập."
             ],
             [
-              "Hình SGK: Sử dụng tiền hợp lí - phần khởi động và tranh 1, 2",
+              "Hình SGK: Sử dụng tiền hợp lí - phần khởi động và tranh 1, 2\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_31/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
-              "Hình SGK: Biểu hiện sử dụng tiền hợp lí và thông tin Cô bé bán chè bưởi",
+              "Hình SGK: Biểu hiện sử dụng tiền hợp lí và thông tin Cô bé bán chè bưởi\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_31/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -4117,7 +4117,7 @@
               "- HS đọc thông tin, thảo luận nhóm đôi, ghi kết quả thảo luận vào nháp/phiếu học tập."
             ],
             [
-              "Hình SGK: Thông tin Cô bé bán chè bưởi",
+              "Hình SGK: Thông tin Cô bé bán chè bưởi\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_31/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -4252,7 +4252,7 @@
               "Hoạt động 1: Bài tập 1: Bày tỏ ý kiến (8 phút)\nMục tiêu: HS biết bày tỏ ý kiến đúng, sai về sử dụng tiền hợp lí.\n*Cách tiến hành:"
             ],
             [
-              "Hình SGK: Bài tập 1 - Bày tỏ ý kiến",
+              "Hình SGK: Bài tập 1 - Bày tỏ ý kiến\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_32/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -4279,7 +4279,7 @@
               "Hoạt động 2: Bài tập 2: Lựa chọn hành vi (10 phút)\nMục tiêu: HS biết phân loại hành vi nên làm và không nên làm để sử dụng tiền hợp lí.\n*Cách tiến hành:"
             ],
             [
-              "Hình SGK: Bài tập 2 - Lựa chọn hành vi",
+              "Hình SGK: Bài tập 2 - Lựa chọn hành vi\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_32/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -4376,7 +4376,7 @@
               "Hoạt động 1: Bài tập 3: Nhận xét hành vi (8 phút)\nMục tiêu: HS biết nhận xét cách sử dụng tiền trong các trường hợp cụ thể.\n*Cách tiến hành:"
             ],
             [
-              "Hình SGK: Bài tập 3 - Nhận xét hành vi",
+              "Hình SGK: Bài tập 3 - Nhận xét hành vi\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_33/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -4399,11 +4399,11 @@
               "Hoạt động 2: Bài tập 4: Xử lí tình huống (10 phút)\nMục tiêu: HS biết xử lí tình huống sử dụng tiền hợp lí.\n*Cách tiến hành:"
             ],
             [
-              "Hình SGK: Bài tập 4 - Xử lí tình huống",
+              "Hình SGK: Bài tập 4 - Xử lí tình huống\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_33/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
-              "Hình SGK: Bài tập 4, 5 - Xử lí tình huống và lời khuyên",
+              "Hình SGK: Bài tập 4, 5 - Xử lí tình huống và lời khuyên\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_33/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [
@@ -4527,7 +4527,7 @@
               "1. Thử tài chi tiêu (20 phút)"
             ],
             [
-              "Hình SGK: Vận dụng - Thử tài chi tiêu, lập bảng theo dõi chi tiêu",
+              "Hình SGK: Vận dụng - Thử tài chi tiêu, lập bảng theo dõi chi tiêu\n<img src=\"assets/khbd_images/lop5/dao_duc/tuan_34/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình ảnh trong SGK, đọc yêu cầu và chuẩn bị thực hiện nhiệm vụ GV giao."
             ],
             [

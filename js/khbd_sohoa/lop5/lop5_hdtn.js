@@ -4035,7 +4035,7 @@
               "Tham gia văn nghệ, tiểu phẩm, đọc thơ về chủ đề tình thầy trò"
             ],
             [
-              "- GV mời HS quan sát tranh SGK và hỏi: “Trên sân khấu đang diễn ra hoạt động gì? Hoạt động đó gợi cho em cảm xúc gì về thầy cô?”",
+              "- GV mời HS quan sát tranh SGK và hỏi: “Trên sân khấu đang diễn ra hoạt động gì? Hoạt động đó gợi cho em cảm xúc gì về thầy cô?”\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_11/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát và trả lời: Trên sân khấu có hoạt động văn nghệ, đọc thơ về tình thầy trò; em cảm thấy yêu quý, biết ơn, xúc động khi nghĩ đến thầy cô."
             ],
             [
@@ -4143,7 +4143,7 @@
               "Đề xuất những việc làm cụ thể để vun đắp tình thầy trò"
             ],
             [
-              "- GV mời HS quan sát sơ đồ gợi ý trong SGK và hỏi: “Trong sơ đồ có những việc làm nào giúp cô vui, giúp thầy trò hiểu nhau hơn?”",
+              "- GV mời HS quan sát sơ đồ gợi ý trong SGK và hỏi: “Trong sơ đồ có những việc làm nào giúp cô vui, giúp thầy trò hiểu nhau hơn?”\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_11/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát và trả lời: dọn dẹp bàn giáo viên và lớp học gọn gàng; cắm hoa đặt trên bàn cô; lập nhật kí chung của lớp; lập hòm thư tâm sự thầy trò; đặt câu hỏi, phỏng vấn cô; chia sẻ để cô hiểu mình."
             ],
             [
@@ -4173,7 +4173,7 @@
               "Thực hiện một số việc làm để vun đắp tình thầy trò"
             ],
             [
-              "- GV mời HS quan sát gợi ý trong SGK và nêu yêu cầu: “Hãy chọn một việc phù hợp để thực hiện ngay trong lớp.”",
+              "- GV mời HS quan sát gợi ý trong SGK và nêu yêu cầu: “Hãy chọn một việc phù hợp để thực hiện ngay trong lớp.”\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_11/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát, lựa chọn việc làm: lập hòm thư Tâm sự thầy trò, lập nhật kí chung của lớp hoặc bổ sung một việc làm khác phù hợp."
             ],
             [
@@ -4303,7 +4303,7 @@
               "Chia sẻ về kế hoạch và quá trình thực hiện sản phẩm tri ân thầy cô"
             ],
             [
-              "- GV mời HS quan sát gợi ý trong SGK và hỏi: “Khi chia sẻ về sản phẩm tri ân thầy cô, chúng ta cần nói những nội dung nào?”",
+              "- GV mời HS quan sát gợi ý trong SGK và hỏi: “Khi chia sẻ về sản phẩm tri ân thầy cô, chúng ta cần nói những nội dung nào?”\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_11/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: trình bày kế hoạch làm sản phẩm, quá trình thực hiện, cảm nghĩ khi tham gia làm sản phẩm, những phát hiện mới về thầy cô, kĩ năng mới học được."
             ],
             [
@@ -4329,7 +4329,7 @@
               "Làm sản phẩm tri ân thầy cô"
             ],
             [
-              "- GV mời HS quan sát hình gợi ý trong SGK và nêu yêu cầu: Tập hợp các sản phẩm đã chuẩn bị, hoàn thiện sản phẩm theo nhóm, trưng bày và giới thiệu trước lớp.",
+              "- GV mời HS quan sát hình gợi ý trong SGK và nêu yêu cầu: Tập hợp các sản phẩm đã chuẩn bị, hoàn thiện sản phẩm theo nhóm, trưng bày và giới thiệu trước lớp.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_11/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát, xác định nhiệm vụ: tập hợp sản phẩm, hoàn thiện chi tiết còn thiếu, trưng bày, giới thiệu sản phẩm và nêu cảm xúc của nhóm."
             ],
             [
@@ -4348,7 +4348,7 @@
               "Đánh giá kết quả tham gia làm sản phẩm tri ân thầy cô"
             ],
             [
-              "- GV mời HS quan sát phần đánh giá trong SGK và nêu yêu cầu: Các nhóm đánh giá, bình chọn sản phẩm đại diện lớp tham gia trưng bày vào Lễ kỉ niệm ngày Nhà giáo Việt Nam 20-11.",
+              "- GV mời HS quan sát phần đánh giá trong SGK và nêu yêu cầu: Các nhóm đánh giá, bình chọn sản phẩm đại diện lớp tham gia trưng bày vào Lễ kỉ niệm ngày Nhà giáo Việt Nam 20-11.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_11/image6.png\" alt=\"image6.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát, hiểu tiêu chí đánh giá: sản phẩm thể hiện lòng tri ân, có tính sáng tạo, phù hợp, sạch đẹp và có sự tham gia tích cực của nhóm."
             ],
             [
@@ -5257,7 +5257,7 @@
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoặc lắng nghe giới thiệu sách, hiểu ý nghĩa của việc bổ sung sách cho thư viện.\n* Cách tiến hành:"
             ],
             [
-              "- GV cùng HS lắng nghe phần giới thiệu chủ đề “Phát triển thư viện”.\n- GV nêu câu hỏi: “Thư viện có ích gì đối với học sinh?”",
+              "- GV cùng HS lắng nghe phần giới thiệu chủ đề “Phát triển thư viện”.\n- GV nêu câu hỏi: “Thư viện có ích gì đối với học sinh?”\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_14/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe phần giới thiệu chủ đề.\n- HS trả lời: Thư viện giúp học sinh có thêm sách để đọc, mở rộng hiểu biết, học tốt hơn, rèn thói quen đọc sách và chia sẻ sách với bạn."
             ],
             [
@@ -5339,7 +5339,7 @@
               "2. KHÁM PHÁ CHỦ ĐỀ\nMục tiêu: HS nêu được ý tưởng kinh doanh cá nhân và lí do lựa chọn ý tưởng đó.\n* Cách tiến hành:"
             ],
             [
-              "- GV đề nghị mỗi HS tưởng tượng và viết vào giấy một ý tưởng kinh doanh của mình.\n- GV mời HS chia sẻ với bạn cùng bàn về ý tưởng và lí do lựa chọn ý tưởng đó.",
+              "- GV đề nghị mỗi HS tưởng tượng và viết vào giấy một ý tưởng kinh doanh của mình.\n- GV mời HS chia sẻ với bạn cùng bàn về ý tưởng và lí do lựa chọn ý tưởng đó.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_14/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS suy nghĩ, viết ý tưởng như bán đồ dùng học tập, đồ ăn nhẹ an toàn, sản phẩm tái chế, thiệp handmade, cây nhỏ, móc khóa...\n- HS chia sẻ với bạn: Em chọn ý tưởng này vì em thích làm, có thể làm được và nghĩ nhiều bạn cần sản phẩm đó."
             ],
             [
@@ -5366,7 +5366,7 @@
               "3. MỞ RỘNG VÀ TỔNG KẾT - THỰC HÀNH\nMục tiêu: HS làm việc nhóm để thống nhất ý tưởng kinh doanh chung và bước đầu xây dựng phiếu khảo sát nhu cầu khách hàng.\n* Cách tiến hành:"
             ],
             [
-              "- GV đề nghị HS làm việc theo nhóm, phát cho mỗi nhóm một tờ giấy A3 và yêu cầu nhóm thảo luận để xác định ý tưởng kinh doanh của nhóm.\n- GV gợi ý các tiêu chí lựa chọn: sở thích, khả năng của nhóm; nhóm khách hàng đối tượng; khảo sát nhu cầu khách hàng; sản phẩm tương tự; giá thành; điểm khác biệt; mô tả sản phẩm; lí do lựa chọn sản phẩm.",
+              "- GV đề nghị HS làm việc theo nhóm, phát cho mỗi nhóm một tờ giấy A3 và yêu cầu nhóm thảo luận để xác định ý tưởng kinh doanh của nhóm.\n- GV gợi ý các tiêu chí lựa chọn: sở thích, khả năng của nhóm; nhóm khách hàng đối tượng; khảo sát nhu cầu khách hàng; sản phẩm tương tự; giá thành; điểm khác biệt; mô tả sản phẩm; lí do lựa chọn sản phẩm.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_14/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS làm việc theo nhóm, cùng nêu ý tưởng và ghi các sản phẩm khả thi.\n- HS thảo luận theo tiêu chí: nhóm mình có làm được không, khách hàng là ai, sản phẩm có an toàn không, giá bán có phù hợp không, sản phẩm có điểm gì khác biệt."
             ],
             [
@@ -5468,7 +5468,7 @@
               "4. THỰC HÀNH\nMục tiêu: HS biết sử dụng phiếu khảo sát, tổng hợp và phân tích kết quả khảo sát nhu cầu khách hàng.\n* Cách tiến hành:"
             ],
             [
-              "- GV mời HS tiến hành khảo sát các nhóm đối tượng khách hàng theo phiếu khảo sát mà nhóm đã xây dựng.\n- GV gợi ý đối tượng khảo sát: GV, cán bộ nhân viên nhà trường, HS cùng khối, HS khác khối, thành viên các câu lạc bộ trong trường.",
+              "- GV mời HS tiến hành khảo sát các nhóm đối tượng khách hàng theo phiếu khảo sát mà nhóm đã xây dựng.\n- GV gợi ý đối tượng khảo sát: GV, cán bộ nhân viên nhà trường, HS cùng khối, HS khác khối, thành viên các câu lạc bộ trong trường.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_14/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS sử dụng phiếu khảo sát của nhóm để hỏi khách hàng phù hợp.\n- HS thực hiện khảo sát lịch sự: chào hỏi, giới thiệu ngắn gọn, xin phép được hỏi, ghi đúng câu trả lời của người được khảo sát."
             ],
             [
@@ -5551,7 +5551,7 @@
               "2. TRONG GIỜ SINH HOẠT DƯỚI CỜ\nMục tiêu: HS tham gia hoạt động, hiểu ý nghĩa ngày thành lập Quân đội nhân dân Việt Nam 22-12.\n* Cách tiến hành:"
             ],
             [
-              "- GV cùng HS theo dõi chương trình chào mừng ngày thành lập Quân đội nhân dân Việt Nam 22-12.",
+              "- GV cùng HS theo dõi chương trình chào mừng ngày thành lập Quân đội nhân dân Việt Nam 22-12.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_15/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS chăm chú theo dõi chương trình, giữ trật tự và cổ vũ đúng lúc."
             ],
             [
@@ -5639,7 +5639,7 @@
               "2. KHÁM PHÁ: XÁC ĐỊNH VIỆC CẦN LÀM ĐỂ THỰC HIỆN KẾ HOẠCH KINH DOANH\nMục tiêu: HS nêu được các việc cần chuẩn bị và biết phân công nhiệm vụ trong nhóm.\n* Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình và đọc nhiệm vụ trong SGK.",
+              "- GV yêu cầu HS quan sát hình và đọc nhiệm vụ trong SGK.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_15/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, đọc yêu cầu và xác định nội dung cần thảo luận."
             ],
             [
@@ -5801,7 +5801,7 @@
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG\nMục tiêu: HS chia sẻ được kết quả tìm hiểu cách bán hàng hiệu quả.\n* Cách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát sơ đồ và chia sẻ cách bán hàng hiệu quả đã tìm hiểu.",
+              "- GV yêu cầu HS quan sát sơ đồ và chia sẻ cách bán hàng hiệu quả đã tìm hiểu.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_15/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát sơ đồ, chuẩn bị chia sẻ kết quả tìm hiểu."
             ],
             [
@@ -8350,7 +8350,7 @@
               "- HS thực hiện nghi lễ chào cờ nghiêm túc.\n- HS lắng nghe nội dung dẫn dắt và xác định chủ đề hoạt động."
             ],
             [
-              "- GV cho HS quan sát tranh trong SGK về hoạt động hát, múa, đọc thơ chào mừng ngày Quốc tế Phụ nữ 8-3.\n- GV nêu yêu cầu: Các em quan sát tranh và dự đoán các bạn đang thể hiện tình cảm gì qua hoạt động trên sân khấu.",
+              "- GV cho HS quan sát tranh trong SGK về hoạt động hát, múa, đọc thơ chào mừng ngày Quốc tế Phụ nữ 8-3.\n- GV nêu yêu cầu: Các em quan sát tranh và dự đoán các bạn đang thể hiện tình cảm gì qua hoạt động trên sân khấu.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_23/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh minh họa trong SGK.\n- HS nêu: các bạn đang hát, múa, đọc thơ để chúc mừng, bày tỏ lòng biết ơn và trân trọng đối với phụ nữ."
             ],
             [
@@ -8428,7 +8428,7 @@
               "- HS ngồi theo nhóm, nhận giấy A3.\n- HS lắng nghe cách chơi và phân công người viết, người trình bày trong nhóm."
             ],
             [
-              "- GV cho HS quan sát hình gợi ý trong SGK về lợi ích, tác hại khi học sinh sử dụng và giao tiếp trên mạng.\n- GV nêu yêu cầu: Các nhóm liệt kê lợi ích, tác hại đối với HS khi sử dụng và giao tiếp trên mạng; trình bày sáng tạo bằng cách chia cột hoặc vẽ hình đại diện cho Vùng sáng - Vùng tối.",
+              "- GV cho HS quan sát hình gợi ý trong SGK về lợi ích, tác hại khi học sinh sử dụng và giao tiếp trên mạng.\n- GV nêu yêu cầu: Các nhóm liệt kê lợi ích, tác hại đối với HS khi sử dụng và giao tiếp trên mạng; trình bày sáng tạo bằng cách chia cột hoặc vẽ hình đại diện cho Vùng sáng - Vùng tối.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_23/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình trong SGK.\n- HS thảo luận, ghi ra giấy: lợi ích như tìm kiếm thông tin, kết nối bạn bè; tác hại như mất tập trung, không kiểm soát thời gian, gặp nội dung không phù hợp."
             ],
             [
@@ -8446,7 +8446,7 @@
               "Tìm hiểu về tự chủ và đảm bảo an toàn khi giao tiếp trên mạng"
             ],
             [
-              "- GV hướng dẫn HS thực hành phỏng vấn nhanh hoặc phát phiếu khảo sát.\n- GV nêu gợi ý khảo sát: thời gian thường sử dụng mạng; cách quản lí thời gian sử dụng mạng; hoạt động thường tham gia trên mạng; việc đưa ảnh, thông tin cá nhân lên mạng; việc nhận lời mời kết bạn của người lạ.",
+              "- GV hướng dẫn HS thực hành phỏng vấn nhanh hoặc phát phiếu khảo sát.\n- GV nêu gợi ý khảo sát: thời gian thường sử dụng mạng; cách quản lí thời gian sử dụng mạng; hoạt động thường tham gia trên mạng; việc đưa ảnh, thông tin cá nhân lên mạng; việc nhận lời mời kết bạn của người lạ.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_23/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thực hành phỏng vấn nhanh hoặc điền phiếu khảo sát.\n- HS thu thập thông tin về việc tự chủ thời gian sử dụng mạng, lựa chọn hoạt động tham gia trên mạng và cách ứng xử để bảo vệ mình."
             ],
             [
@@ -8468,7 +8468,7 @@
               "Thiết kế bản Quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng"
             ],
             [
-              "- GV mời HS ngồi theo nhóm và phát cho mỗi nhóm một tờ giấy A3.\n- GV yêu cầu các nhóm thiết kế bản Quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng, có thể chia theo các mục: quản lí thời gian; lựa chọn hoạt động; bảo mật thông tin; ứng xử khi gặp vấn đề khó giải quyết.",
+              "- GV mời HS ngồi theo nhóm và phát cho mỗi nhóm một tờ giấy A3.\n- GV yêu cầu các nhóm thiết kế bản Quy tắc tự chủ và đảm bảo an toàn khi giao tiếp trên mạng, có thể chia theo các mục: quản lí thời gian; lựa chọn hoạt động; bảo mật thông tin; ứng xử khi gặp vấn đề khó giải quyết.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_23/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS ngồi theo nhóm, nhận giấy A3 và bút màu.\n- HS thảo luận, thống nhất nội dung cần đưa vào bản quy tắc."
             ],
             [
@@ -8599,7 +8599,7 @@
               "3.2. Thực hành - Xử lí các tình huống khi giao tiếp trên mạng (11 phút)"
             ],
             [
-              "- GV cho HS quan sát các tình huống trong SGK về giao tiếp trên mạng.\n- GV nêu yêu cầu: Các nhóm áp dụng quy tắc đã xây dựng để xử lí các tình huống và chuẩn bị sắm vai ngắn.",
+              "- GV cho HS quan sát các tình huống trong SGK về giao tiếp trên mạng.\n- GV nêu yêu cầu: Các nhóm áp dụng quy tắc đã xây dựng để xử lí các tình huống và chuẩn bị sắm vai ngắn.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_23/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát các tình huống trong SGK.\n- HS xác định tình huống: nhận tin nhắn kết bạn của người không quen; bị nói lời không hay trên mạng xã hội."
             ],
             [
@@ -10021,7 +10021,7 @@
               "- HS thực hiện nghi lễ chào cờ nghiêm túc.\n- HS lắng nghe và xác định nội dung buổi sinh hoạt dưới cờ."
             ],
             [
-              "- GV cho HS quan sát tranh trong SGK về hoạt động biểu diễn văn nghệ ca ngợi cảnh đẹp quê hương, đất nước.\n- GV nêu yêu cầu: Các em quan sát tranh và cho biết buổi biểu diễn đang ca ngợi điều gì; em thấy cảnh quan trên sân khấu gợi cho em cảm xúc gì.",
+              "- GV cho HS quan sát tranh trong SGK về hoạt động biểu diễn văn nghệ ca ngợi cảnh đẹp quê hương, đất nước.\n- GV nêu yêu cầu: Các em quan sát tranh và cho biết buổi biểu diễn đang ca ngợi điều gì; em thấy cảnh quan trên sân khấu gợi cho em cảm xúc gì.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_28/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát tranh minh họa trong SGK.\n- HS trả lời: buổi biểu diễn ca ngợi cảnh đẹp quê hương, đất nước; em thấy đẹp, bình yên, tự hào và muốn tìm hiểu thêm về quê hương."
             ],
             [
@@ -10106,7 +10106,7 @@
               "2. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Thể hiện cảm xúc và niềm tự hào về cảnh quan thiên nhiên (12 phút)\nMục tiêu: HS có cảm xúc tích cực, tự hào khi quan sát hình ảnh cảnh quan thiên nhiên và biết cách thể hiện cảm xúc, niềm tự hào đó.\n* Cách tiến hành:"
             ],
             [
-              "- GV cho HS xem phim hoặc một số hình ảnh về cảnh quan thiên nhiên của quê hương, đất nước.\n- GV yêu cầu HS quan sát tranh trong SGK và đọc các gợi ý chia sẻ: tên cảnh quan, cảm xúc khi ngắm nhìn, điều khiến em tự hào, cách thể hiện niềm tự hào.",
+              "- GV cho HS xem phim hoặc một số hình ảnh về cảnh quan thiên nhiên của quê hương, đất nước.\n- GV yêu cầu HS quan sát tranh trong SGK và đọc các gợi ý chia sẻ: tên cảnh quan, cảm xúc khi ngắm nhìn, điều khiến em tự hào, cách thể hiện niềm tự hào.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_28/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS xem phim/hình ảnh và quan sát tranh trong SGK.\n- HS nắm được nội dung cần chia sẻ theo gợi ý."
             ],
             [
@@ -10129,7 +10129,7 @@
               "3. KHÁM PHÁ - TRẢI NGHIỆM CHỦ ĐỀ: Tìm hiểu về nét đặc sắc của cảnh quan thiên nhiên Việt Nam (13 phút)\nMục tiêu: HS khám phá được nét đặc sắc của các cảnh quan tiêu biểu trên các miền đất nước, từ đó khơi dậy niềm tự hào đối với cảnh quan quê hương.\n* Cách tiến hành:"
             ],
             [
-              "- GV giao nhiệm vụ: Mỗi nhóm lựa chọn một cảnh quan thiên nhiên tiêu biểu cho một vùng miền đất nước: vùng núi và trung du Bắc Bộ, đồng bằng Bắc Bộ, duyên hải miền Trung, Tây Nguyên, Nam Bộ.\n- GV nêu gợi ý: vị trí của cảnh quan, nét đặc sắc của cảnh quan; có thể chọn Vịnh Hạ Long, cao nguyên đá Đồng Văn, rừng U Minh, bãi biển Mỹ Khê, ruộng bậc thang, sông nước Nam Bộ,...",
+              "- GV giao nhiệm vụ: Mỗi nhóm lựa chọn một cảnh quan thiên nhiên tiêu biểu cho một vùng miền đất nước: vùng núi và trung du Bắc Bộ, đồng bằng Bắc Bộ, duyên hải miền Trung, Tây Nguyên, Nam Bộ.\n- GV nêu gợi ý: vị trí của cảnh quan, nét đặc sắc của cảnh quan; có thể chọn Vịnh Hạ Long, cao nguyên đá Đồng Văn, rừng U Minh, bãi biển Mỹ Khê, ruộng bậc thang, sông nước Nam Bộ,...\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_28/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS lắng nghe nhiệm vụ.\n- Mỗi nhóm lựa chọn một cảnh quan thiên nhiên tiêu biểu để tìm hiểu."
             ],
             [
@@ -10241,7 +10241,7 @@
               "3. PHẢN HỒI KẾT QUẢ VẬN DỤNG: Giới thiệu cảnh quan thiên nhiên (10 phút)\nMục tiêu: HS giới thiệu được về cảnh quan thiên nhiên mà nhóm đã tìm hiểu.\n* Cách tiến hành:"
             ],
             [
-              "- GV cho HS quan sát phần “Việt Nam trong mắt em” trong SGK.",
+              "- GV cho HS quan sát phần “Việt Nam trong mắt em” trong SGK.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_28/image4.png\" alt=\"image4.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình SGK."
             ],
             [
@@ -10268,7 +10268,7 @@
               "- Các nhóm thảo luận, lựa chọn cảnh quan để tạo sản phẩm.\n- HS nêu ý tưởng sản phẩm của nhóm."
             ],
             [
-              "- GV hướng dẫn HS thảo luận để lên ý tưởng: cần thể hiện nét độc đáo nào của cảnh quan, cách thức thể hiện, vật liệu sử dụng, tên sản phẩm.\n- GV nhắc HS phân công nhiệm vụ: bạn vẽ nền, bạn cắt dán, bạn viết tên sản phẩm, bạn chuẩn bị phần thuyết minh.",
+              "- GV hướng dẫn HS thảo luận để lên ý tưởng: cần thể hiện nét độc đáo nào của cảnh quan, cách thức thể hiện, vật liệu sử dụng, tên sản phẩm.\n- GV nhắc HS phân công nhiệm vụ: bạn vẽ nền, bạn cắt dán, bạn viết tên sản phẩm, bạn chuẩn bị phần thuyết minh.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_28/image5.png\" alt=\"image5.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS thảo luận để lên ý tưởng sản phẩm.\n- HS phân công nhiệm vụ cụ thể trong nhóm."
             ],
             [
@@ -11380,7 +11380,7 @@
               "- HS quan sát hình, nhận ra hoạt động quét dọn, trồng cây, thu gom rác và giữ gìn cảnh quan."
             ],
             [
-              "- GV đưa hình SGK về hoạt động bảo vệ môi trường và hỏi: “Các bạn nhỏ trong hình đang làm gì để Trái Đất xanh hơn?”",
+              "- GV đưa hình SGK về hoạt động bảo vệ môi trường và hỏi: “Các bạn nhỏ trong hình đang làm gì để Trái Đất xanh hơn?”\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_31/image1.png\" alt=\"image1.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS trả lời: Các bạn đang tham gia hoạt động bảo vệ môi trường, chăm sóc cây xanh, giữ vệ sinh nơi công cộng."
             ],
             [
@@ -11500,7 +11500,7 @@
               "- HS quan sát, trả lời: Bảng tin giúp mọi người biết thực trạng môi trường và có cách khắc phục."
             ],
             [
-              "- GV đưa hình SGK về Bảng tin Môi trường/Ra-đi-ô Môi trường để HS liên hệ với sản phẩm nhóm.",
+              "- GV đưa hình SGK về Bảng tin Môi trường/Ra-đi-ô Môi trường để HS liên hệ với sản phẩm nhóm.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_31/image2.png\" alt=\"image2.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình, xác định cách trình bày thông tin rõ ràng, ngắn gọn."
             ],
             [
@@ -11770,7 +11770,7 @@
               "- HS viết: tiết kiệm nước, nhặt rác, chăm sóc cây, tái sử dụng giấy, bỏ rác đúng nơi."
             ],
             [
-              "- GV cho HS quan sát hình SGK “Mỗi hành động - một chiếc lá” để định hướng cách tạo khu rừng xanh.",
+              "- GV cho HS quan sát hình SGK “Mỗi hành động - một chiếc lá” để định hướng cách tạo khu rừng xanh.\n<img src=\"assets/khbd_images/lop5/hdtn/tuan_31/image3.png\" alt=\"image3.png\" style=\"max-width: 95%; height: auto;\" />",
               "- HS quan sát hình và thực hiện sản phẩm nhóm."
             ],
             [
