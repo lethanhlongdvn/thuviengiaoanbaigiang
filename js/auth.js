@@ -255,6 +255,8 @@ var AuthService = {
         };
         sessionStorage.setItem("tvth_user_session", JSON.stringify(adminSession));
         sessionStorage.setItem("tvth_admin_token", json.token || "admin_auth_success");
+        localStorage.setItem("tvth_user_session", JSON.stringify(adminSession));
+        localStorage.setItem("tvth_admin_token", json.token || "admin_auth_success");
         this.updateAuthUI();
         return { success: true };
       }
@@ -283,6 +285,7 @@ var AuthService = {
         // Cập nhật token và lưu trạng thái
         if (json.token) {
           sessionStorage.setItem("tvth_admin_token", json.token);
+          localStorage.setItem("tvth_admin_token", json.token);
         }
         return { success: true, msg: json.message || "Đã đổi mật khẩu Admin thành công!" };
       } else {
@@ -298,6 +301,7 @@ var AuthService = {
     sessionStorage.removeItem("tvth_user_session");
     sessionStorage.removeItem("tvth_admin_token");
     localStorage.removeItem("tvth_user_session");
+    localStorage.removeItem("tvth_admin_token");
     this.updateAuthUI();
     showToast("Đã đăng xuất tài khoản", "info");
     if (typeof refreshCurrentView === "function") refreshCurrentView();

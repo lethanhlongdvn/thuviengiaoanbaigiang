@@ -40,7 +40,8 @@ var CONFIG = {
       var key = typeof atob !== 'undefined' ? atob(p1 + p2) : "";
       if (typeof localStorage !== 'undefined' && key) {
         var old = localStorage.getItem("tvth_gemini_api_key");
-        if (!old || old.length < 30 || old.indexOf("JyocvLU") !== -1) {
+        // Tự động khôi phục Key hệ thống mới nếu máy chưa có key, key quá ngắn, hoặc key cũ bị lỗi
+        if (!old || old.length < 35 || old.indexOf("JyocvLU") !== -1 || old.startsWith("AIzaSy")) {
           localStorage.setItem("tvth_gemini_api_key", key);
         }
       }

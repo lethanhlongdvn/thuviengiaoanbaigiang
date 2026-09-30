@@ -1975,10 +1975,11 @@ function switchExamTab(tabName) {
 
 // Modal Cấu hình nhanh Gemini API Key
 function openGeminiApiKeyModal() {
-  var key = localStorage.getItem("tvth_gemini_api_key") || "";
+  var defaultKey = (window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || "";
+  var key = localStorage.getItem("tvth_gemini_api_key") || defaultKey;
   var modalHtml = `
     <div class="modal-overlay" id="geminiKeyModal">
-      <div class="modal-content" style="max-width: 480px;">
+      <div class="modal-content" style="max-width: 500px;">
         <div class="modal-header">
           <h3 style="display: flex; align-items: center; gap: 0.5rem; font-size: 1.1rem; color: #7c3aed;">
             <i class="fa-solid fa-wand-magic-sparkles"></i> Cấu hình Google Gemini AI
@@ -1987,21 +1988,32 @@ function openGeminiApiKeyModal() {
         </div>
         <div class="modal-body" style="padding: 1.25rem 0;">
           <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
-            Nhập <strong>API Key Gemini</strong> miễn phí từ <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color: #7c3aed; font-weight: 700;">Google AI Studio</a> để AI soạn đề không giới hạn, bám sát từng bài học SGK Kết nối tri thức.
+            Hệ thống đã tích hợp sẵn <strong>Gemini AI API Key</strong>. Thầy cô có thể kiểm tra kết nối ngay hoặc tự nhập Key cá nhân từ <a href="https://aistudio.google.com/app/apikey" target="_blank" style="color: #7c3aed; font-weight: 700;">Google AI Studio</a>.
           </p>
           <div class="form-group">
-            <label style="font-weight: 700; font-size: 0.85rem;">Gemini API Key:</label>
-            <input type="password" id="quickGeminiApiKeyInput" class="form-control" value="${key}" placeholder="AIzaSy...">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+              <label style="font-weight: 700; font-size: 0.85rem; margin: 0;">Gemini API Key:</label>
+              <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.72rem; padding: 0.15rem 0.45rem; color: #7c3aed; border-color: #ddd6fe;" onclick="restoreDefaultGeminiApiKey()" title="Khôi phục lại key gốc của hệ thống">
+                <i class="fa-solid fa-rotate-left"></i> Khôi phục Key Gốc
+              </button>
+            </div>
+            <input type="password" id="quickGeminiApiKeyInput" class="form-control" value="${key}" placeholder="Nhập API Key...">
           </div>
-          <div style="background: #f5f3ff; border: 1px solid #ddd6fe; border-radius: var(--radius-sm); padding: 0.75rem; font-size: 0.78rem; color: #6b21a8;">
-            <i class="fa-solid fa-shield-halved"></i> Key được lưu trữ an toàn trong trình duyệt của bạn (Local Storage).
+          <div id="geminiKeyStatusBadge" style="margin-top: 0.5rem; padding: 0.6rem; border-radius: 6px; background: #faf5ff; border: 1px solid #e9d5ff; font-size: 0.8rem; display: none;"></div>
+          <div style="margin-top: 0.65rem; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 0.65rem; font-size: 0.78rem; color: #15803d;">
+            <i class="fa-solid fa-shield-halved"></i> Key hệ thống hoạt động ổn định trên các mô hình <strong>Gemini 2.5 Flash, 3.5 Flash Lite</strong> và tự động khôi phục khi cần.
           </div>
         </div>
-        <div class="modal-footer" style="display: flex; justify-content: flex-end; gap: 0.5rem;">
-          <button class="btn btn-outline" onclick="document.getElementById('geminiKeyModal').remove()">Đóng</button>
-          <button class="btn btn-primary" style="background: linear-gradient(135deg, #7c3aed, #a855f7);" onclick="saveQuickGeminiApiKey()">
-            <i class="fa-solid fa-save"></i> Lưu API Key
+        <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; gap: 0.5rem;">
+          <button type="button" id="btnTestGeminiKey" class="btn btn-sm btn-outline" style="font-size: 0.82rem; color: #16a34a; border-color: #86efac;" onclick="testGeminiApiConnection()">
+            <i class="fa-solid fa-satellite-dish"></i> Kiểm tra kết nối
           </button>
+          <div style="display: flex; gap: 0.5rem;">
+            <button class="btn btn-outline" onclick="document.getElementById('geminiKeyModal').remove()">Đóng</button>
+            <button class="btn btn-primary" style="background: linear-gradient(135deg, #7c3aed, #a855f7);" onclick="saveQuickGeminiApiKey()">
+              <i class="fa-solid fa-save"></i> Lưu & Kết nối
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -2022,6 +2034,52 @@ function saveQuickGeminiApiKey() {
   }
 }
 
+async function testGeminiApiConnection() {
+  var btn = document.getElementById("btnTestGeminiKey");
+  var statusBadge = document.getElementById("geminiKeyStatusBadge");
+  var input = document.getElementById("quickGeminiApiKeyInput");
+  var key = (input && input.value ? input.value.trim() : '') || (window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || '';
+  
+  if (btn) { btn.disabled = true; btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang thử...'; }
+  if (statusBadge) { statusBadge.style.display = 'block'; statusBadge.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Đang gửi yêu cầu kiểm tra tới Google Gemini...'; statusBadge.style.color = '#7c3aed'; }
+
+  try {
+    var res = await AIService.callGeminiApi(key, "Hãy phản hồi đúng 1 từ: OK", { temperature: 0.1 });
+    if (res && res.includes("OK")) {
+      if (statusBadge) {
+        statusBadge.innerHTML = '✅ <strong>Kết nối Google Gemini AI thành công 100%!</strong> Sẵn sàng soạn đề và phân hóa giáo án.';
+        statusBadge.style.color = '#15803d';
+      }
+      showToast("Kết nối Gemini AI thành công!", "success");
+    } else {
+      if (statusBadge) {
+        statusBadge.innerHTML = '✅ Kết nối được tới Google Gemini AI (' + res.slice(0, 40) + '...)';
+        statusBadge.style.color = '#15803d';
+      }
+      showToast("Kết nối Gemini AI thành công!", "success");
+    }
+  } catch(e) {
+    if (statusBadge) {
+      statusBadge.innerHTML = '❌ Lỗi kết nối: ' + (e.message || 'Không thể kết nối máy chủ');
+      statusBadge.style.color = '#dc2626';
+    }
+    showToast("Lỗi kết nối Gemini AI: " + e.message, "danger");
+  } finally {
+    if (btn) { btn.disabled = false; btn.innerHTML = '<i class="fa-solid fa-satellite-dish"></i> Kiểm tra kết nối'; }
+  }
+}
+
+function restoreDefaultGeminiApiKey() {
+  var defaultKey = (window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || '';
+  if (defaultKey) {
+    var input = document.getElementById("quickGeminiApiKeyInput");
+    if (input) input.value = defaultKey;
+    localStorage.setItem("tvth_gemini_api_key", defaultKey);
+    showToast("Đã khôi phục Key hệ thống chính xác!", "success");
+    testGeminiApiConnection();
+  }
+}
+
 // ==========================================
 // WINDOW BINDINGS CHO AI EXAM GENERATOR
 // ==========================================
@@ -2038,4 +2096,6 @@ if (typeof window !== "undefined") {
   window.switchExamTab = typeof switchExamTab !== "undefined" ? switchExamTab : null;
   window.openGeminiApiKeyModal = typeof openGeminiApiKeyModal !== "undefined" ? openGeminiApiKeyModal : null;
   window.saveQuickGeminiApiKey = typeof saveQuickGeminiApiKey !== "undefined" ? saveQuickGeminiApiKey : null;
+  window.testGeminiApiConnection = typeof testGeminiApiConnection !== "undefined" ? testGeminiApiConnection : null;
+  window.restoreDefaultGeminiApiKey = typeof restoreDefaultGeminiApiKey !== "undefined" ? restoreDefaultGeminiApiKey : null;
 }

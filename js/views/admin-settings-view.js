@@ -382,9 +382,14 @@ function renderSettingsView(container) {
           <input type="password" id="geminiApiKeyInput" class="form-control" value="${apiKey}" placeholder="AIzaSy...">
         </div>
 
-        <button class="btn btn-primary" style="background: linear-gradient(135deg, #7c3aed, #c084fc);" onclick="saveGeminiApiKey()">
-          <i class="fa-solid fa-check"></i> Lưu API Key
-        </button>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button class="btn btn-primary" style="background: linear-gradient(135deg, #7c3aed, #c084fc);" onclick="saveGeminiApiKey()">
+            <i class="fa-solid fa-check"></i> Lưu API Key
+          </button>
+          <button type="button" class="btn btn-outline" style="color: #7c3aed; border-color: #ddd6fe;" onclick="restoreAdminGeminiApiKey()">
+            <i class="fa-solid fa-rotate-left"></i> Khôi phục Key Hệ Thống
+          </button>
+        </div>
       </div>
     </div>
   `;
@@ -599,6 +604,16 @@ function saveGeminiApiKey() {
   showToast("Đã lưu Gemini API Key thành công!", "success");
 }
 
+function restoreAdminGeminiApiKey() {
+  var defaultKey = (window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || '';
+  if (defaultKey) {
+    var input = document.getElementById("geminiApiKeyInput");
+    if (input) input.value = defaultKey;
+    localStorage.setItem("tvth_gemini_api_key", defaultKey);
+    showToast("Đã khôi phục Key hệ thống chính xác!", "success");
+  }
+}
+
 // ==========================================
 // WINDOW BINDINGS CHO ADMIN & SETTINGS VIEW
 // ==========================================
@@ -610,4 +625,5 @@ if (typeof window !== "undefined") {
   window.addNewPinCode = typeof addNewPinCode !== "undefined" ? addNewPinCode : null;
   window.copyPinShareMessage = typeof copyPinShareMessage !== "undefined" ? copyPinShareMessage : null;
   window.saveGeminiApiKey = typeof saveGeminiApiKey !== "undefined" ? saveGeminiApiKey : null;
+  window.restoreAdminGeminiApiKey = typeof restoreAdminGeminiApiKey !== "undefined" ? restoreAdminGeminiApiKey : null;
 }

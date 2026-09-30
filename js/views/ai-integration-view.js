@@ -38,13 +38,77 @@ var integrationState = {
   activeTimetableWeekIndex: 0,
   activeTimetableLessonIndex: 0,
   timetableRole: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_timetable_role') : '') || 'gvcn', // 'gvcn' | 'gvbm'
-  disabilitySupport: {
-    enabled: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_disability_enabled') === 'true' : false),
-    cognitiveRate: (typeof localStorage !== 'undefined' ? (parseInt(localStorage.getItem('tvth_disability_rate')) || 50) : 50),
-    disabilityType: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type') || 'tri_tue') : 'tri_tue'),
-    disabilityTypeName: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type_name') || 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)') : 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)'),
-    notes: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_notes') || '') : '')
-  },
+  disabilitySupport: (function() {
+    var enabled = (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_disability_enabled') === 'true' : false);
+    var count = 1;
+    if (typeof localStorage !== 'undefined') {
+      var c = parseInt(localStorage.getItem('tvth_disability_student_count'), 10);
+      if (c >= 1 && c <= 3) count = c;
+    }
+    var students = [
+      {
+        id: 1,
+        name: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_name_1') || '') : ''),
+        disabilityType: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type') || 'tri_tue') : 'tri_tue'),
+        disabilityTypeName: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type_name') || 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)') : 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)'),
+        cognitiveRate: (typeof localStorage !== 'undefined' ? (parseInt(localStorage.getItem('tvth_disability_rate')) || 50) : 50),
+        notes: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_notes') || '') : ''),
+        customText: ''
+      },
+      {
+        id: 2,
+        name: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_name_2') || '') : ''),
+        disabilityType: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type_2') || 'van_dong') : 'van_dong'),
+        disabilityTypeName: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type_name_2') || 'Khuyết tật vận động (Hạn chế viết, thao tác)') : 'Khuyết tật vận động (Hạn chế viết, thao tác)'),
+        cognitiveRate: (typeof localStorage !== 'undefined' ? (parseInt(localStorage.getItem('tvth_disability_rate_2')) || 60) : 60),
+        notes: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_notes_2') || '') : ''),
+        customText: ''
+      },
+      {
+        id: 3,
+        name: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_name_3') || '') : ''),
+        disabilityType: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type_3') || 'nhin') : 'nhin'),
+        disabilityTypeName: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_type_name_3') || 'Khuyết tật nhìn (Thị lực kém, cần cỡ chữ lớn)') : 'Khuyết tật nhìn (Thị lực kém, cần cỡ chữ lớn)'),
+        cognitiveRate: (typeof localStorage !== 'undefined' ? (parseInt(localStorage.getItem('tvth_disability_rate_3')) || 70) : 70),
+        notes: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_disability_notes_3') || '') : ''),
+        customText: ''
+      }
+    ];
+
+    if (typeof localStorage !== 'undefined') {
+      try {
+        var rawSaved = localStorage.getItem('tvth_disability_students');
+        if (rawSaved) {
+          var parsedList = JSON.parse(rawSaved);
+          if (Array.isArray(parsedList)) {
+            parsedList.slice(0, 3).forEach(function(item, idx) {
+              if (students[idx] && item) {
+                if (typeof item.name !== 'undefined') students[idx].name = item.name;
+                if (item.disabilityType) students[idx].disabilityType = item.disabilityType;
+                if (item.disabilityTypeName) students[idx].disabilityTypeName = item.disabilityTypeName;
+                if (item.cognitiveRate) students[idx].cognitiveRate = parseInt(item.cognitiveRate, 10) || 50;
+                if (typeof item.notes !== 'undefined') students[idx].notes = item.notes;
+                if (typeof item.customText !== 'undefined') students[idx].customText = item.customText;
+              }
+            });
+          }
+        }
+      } catch(e) {}
+    }
+
+    return {
+      enabled: enabled,
+      studentCount: count,
+      activeStudentIndex: 0,
+      students: students,
+      // Đồng bộ trường tương thích ngược với học sinh 1:
+      cognitiveRate: students[0].cognitiveRate,
+      disabilityType: students[0].disabilityType,
+      disabilityTypeName: students[0].disabilityTypeName,
+      notes: students[0].notes,
+      customText: students[0].customText || ''
+    };
+  })(),
   approvalConfig: {
     enabled: (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_approval_enabled') === 'true' : false),
     leaderRole: (typeof localStorage !== 'undefined' ? (localStorage.getItem('tvth_approval_leader_role') || 'Tổ trưởng') : 'Tổ trưởng'),
@@ -135,6 +199,22 @@ function getIntegrationSubjectsForGrade(grade) {
   return subjs;
 }
 
+function isGuestUser() {
+  try {
+    if (typeof AuthService !== 'undefined' && typeof AuthService.getSession === 'function') {
+      var session = AuthService.getSession();
+      return !session || session.role === 'guest';
+    }
+    var raw = (typeof sessionStorage !== 'undefined' && sessionStorage.getItem("tvth_user_session")) ||
+              (typeof localStorage !== 'undefined' && localStorage.getItem("tvth_user_session"));
+    if (raw) {
+      var s = JSON.parse(raw);
+      return !s || s.role === 'guest';
+    }
+  } catch (e) {}
+  return true;
+}
+
 function renderAiIntegrationView(container) {
   if (!integrationState._storageInitialized) {
     integrationState._storageInitialized = true;
@@ -159,13 +239,24 @@ function renderAiIntegrationView(container) {
   var eWeek = integrationState.endWeek || sWeek;
   var countWeeks = eWeek - sWeek + 1;
   var step = integrationState.activeStep || 1;
-  var ds = integrationState.disabilitySupport || {
+
+  var isGuest = isGuestUser();
+  if (isGuest && integrationState.disabilitySupport) {
+    integrationState.disabilitySupport.enabled = false;
+  }
+  var ds = isGuest ? {
     enabled: false,
     cognitiveRate: 50,
     disabilityType: 'tri_tue',
     disabilityTypeName: 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)',
     notes: ''
-  };
+  } : (integrationState.disabilitySupport || {
+    enabled: false,
+    cognitiveRate: 50,
+    disabilityType: 'tri_tue',
+    disabilityTypeName: 'Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)',
+    notes: ''
+  });
   var ap = integrationState.approvalConfig || {
     enabled: false,
     leaderRole: 'Tổ trưởng',
@@ -508,6 +599,7 @@ function renderAiIntegrationView(container) {
           </div>
         </div>
 
+        ${isGuest ? '' : `
         <!-- 4. GIÁO DỤC HÒA NHẬP (HỌC SINH KHUYẾT TẬT) - TÁCH BIỆT ĐỘC LẬP -->
         <div style="background: ${ds.enabled ? '#faf5ff' : '#f8fafc'}; border: 1.5px solid ${ds.enabled ? '#c084fc' : '#e2e8f0'}; border-radius: var(--radius-sm); padding: 0.75rem; margin-bottom: 0.85rem; transition: all 0.25s ease;">
           <div style="display: flex; justify-content: space-between; align-items: center;">
@@ -532,75 +624,154 @@ function renderAiIntegrationView(container) {
             <div style="font-size: 0.71rem; color: #94a3b8; margin-top: 0.35rem; line-height: 1.35;">
               Bật để tự động thêm mục tiêu dạy học phân hóa cho học sinh khuyết tật vào cuối phần <strong>I. Yêu cầu cần đạt</strong> (không bắt buộc có tài liệu tích hợp).
             </div>
-          ` : `
+          ` : (function() {
+            var stCount = ds.studentCount || 1;
+            var actIdx = ds.activeStudentIndex || 0;
+            if (actIdx >= stCount) actIdx = 0;
+            var stList = ds.students || [];
+            var curSt = stList[actIdx] || stList[0] || {};
+            var shortCurType = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName) ? IntegrationService.getDisabilityShortTypeName(curSt.disabilityType) : 'Khuyết tật';
+
+            return `
             <div style="margin-top: 0.65rem; padding-top: 0.55rem; border-top: 1px dashed #d8b4fe;">
               
-              <!-- CHỌN TỈ LỆ NHẬN THỨC -->
-              <div style="margin-bottom: 0.55rem;">
+              <!-- CHỌN SỐ LƯỢNG HỌC SINH HÒA NHẬP (1, 2, 3 HS) -->
+              <div style="margin-bottom: 0.65rem;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.3rem;">
                   <span style="font-size: 0.74rem; font-weight: 700; color: #581c87;">
-                    Tỉ lệ nhận thức / tiếp thu:
+                    Số lượng học sinh khuyết tật / hòa nhập:
                   </span>
-                  <span id="disabilityRateBadge" style="font-size: 0.76rem; font-weight: 800; background: #7e22ce; color: #fff; padding: 1px 7px; border-radius: 999px;">
-                    ${ds.cognitiveRate || 50}%
+                  <span style="font-size: 0.68rem; font-weight: 800; background: #f3e8ff; color: #6b21a8; padding: 1px 7px; border-radius: 999px; border: 1px solid #d8b4fe;">
+                    Tối đa 3 học sinh
                   </span>
                 </div>
-
-                <!-- CÁC NÚT PRESET BẤM NHANH -->
-                <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.25rem; margin-bottom: 0.4rem;">
-                  ${[30, 40, 50, 60, 70].map(function(r) {
-                    var isActive = (ds.cognitiveRate === r);
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.35rem;">
+                  ${[1, 2, 3].map(function(cnt) {
+                    var isSelected = (stCount === cnt);
+                    var icon = cnt === 1 ? 'fa-user' : (cnt === 2 ? 'fa-user-group' : 'fa-users');
                     return `
-                      <button type="button" class="btn btn-sm disability-preset-btn ${isActive ? 'btn-primary' : 'btn-outline'}" 
-                              data-rate="${r}"
-                              style="font-size: 0.72rem; padding: 0.25rem 0.15rem; font-weight: 800; ${isActive ? 'background: #7030a0; border-color: #7030a0; color: #fff;' : 'background: #fff; border-color: #cbd5e1; color: #475569;'}" 
-                              onclick="setDisabilityCognitiveRate(${r})">
-                        ${r}%
+                      <button type="button" class="btn btn-sm ${isSelected ? 'btn-primary' : 'btn-outline'}" 
+                              style="font-size: 0.73rem; padding: 0.28rem 0.2rem; font-weight: 800; ${isSelected ? 'background: #7030a0; border-color: #7030a0; color: #fff; box-shadow: 0 1px 3px rgba(112,48,160,0.3);' : 'background: #fff; border-color: #cbd5e1; color: #475569;'}" 
+                              onclick="setDisabilityStudentCount(${cnt})">
+                        <i class="fa-solid ${icon}"></i> ${cnt} Học sinh
                       </button>
                     `;
                   }).join('')}
                 </div>
+              </div>
 
-                <!-- THANH TRƯỢT SLIDER -->
-                <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <span style="font-size: 0.68rem; color: #6b21a8; font-weight: 600;">10%</span>
-                  <input type="range" id="disabilityRateRange" min="10" max="90" step="5" value="${ds.cognitiveRate || 50}" 
-                         style="flex: 1; accent-color: #7e22ce; cursor: pointer; height: 5px;" 
-                         oninput="setDisabilityCognitiveRate(this.value)">
-                  <span style="font-size: 0.68rem; color: #6b21a8; font-weight: 600;">90%</span>
+              <!-- TABS CHỌN HỌC SINH ĐỂ CẤU HÌNH (KHI CÓ TỪ 2 HỌC SINH TRỞ LÊN) -->
+              ${stCount > 1 ? `
+              <div style="display: flex; gap: 0.35rem; margin-bottom: 0.65rem; border-bottom: 1.5px solid #e9d5ff; padding-bottom: 0.45rem;">
+                ${stList.slice(0, stCount).map(function(s, idx) {
+                  var isAct = (actIdx === idx);
+                  var sNameLabel = s.name ? s.name : ('Học sinh ' + (idx + 1));
+                  var sTypeShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName) ? IntegrationService.getDisabilityShortTypeName(s.disabilityType) : 'Khuyết tật';
+                  return `
+                    <button type="button" class="btn btn-sm" 
+                            style="flex: 1; font-size: 0.72rem; padding: 0.3rem 0.2rem; font-weight: 800; border-radius: 6px; transition: all 0.2s; text-align: center; ${isAct ? 'background: #7e22ce; color: #fff; border: 1px solid #7e22ce; box-shadow: 0 2px 4px rgba(126,34,206,0.3);' : 'background: #f5f3ff; color: #6b21a8; border: 1px solid #d8b4fe;'}" 
+                            onclick="setDisabilityActiveTab(${idx})">
+                      <div style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                        <i class="fa-solid fa-user-tag"></i> HS ${idx + 1}: ${sNameLabel}
+                      </div>
+                      <div style="font-size: 0.64rem; font-weight: 600; opacity: ${isAct ? '0.95' : '0.8'}; margin-top: 1px;">
+                        ${sTypeShort} (${s.cognitiveRate}%)
+                      </div>
+                    </button>
+                  `;
+                }).join('')}
+              </div>
+              ` : ''}
+
+              <!-- KHUNG THIẾT LẬP CHI TIẾT CHO HỌC SINH ĐANG CHỌN (curSt) -->
+              <div style="background: #ffffff; border: 1px solid #e9d5ff; border-radius: 6px; padding: 0.65rem; margin-bottom: 0.65rem; box-shadow: 0 1px 3px rgba(0,0,0,0.03);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.45rem;">
+                  <span style="font-size: 0.75rem; font-weight: 800; color: #6b21a8; display: flex; align-items: center; gap: 0.3rem;">
+                    <i class="fa-solid fa-sliders" style="color: #7e22ce;"></i> Thiết lập Học sinh ${actIdx + 1}${curSt.name ? (' (' + curSt.name + ')') : ''}:
+                  </span>
+                  <span style="font-size: 0.68rem; font-weight: 700; color: #7e22ce; background: #faf5ff; border: 1px solid #d8b4fe; padding: 1px 6px; border-radius: 4px;">
+                    ${stCount > 1 ? ('Học sinh ' + (actIdx + 1) + ' / ' + stCount) : 'Học sinh hòa nhập'}
+                  </span>
+                </div>
+
+                <!-- TÊN HỌC SINH (TÙY CHỌN) -->
+                <div style="margin-bottom: 0.5rem;">
+                  <label style="font-size: 0.72rem; font-weight: 700; color: #581c87; margin-bottom: 0.2rem; display: block;">
+                    Họ và tên học sinh (Tùy chọn):
+                  </label>
+                  <input type="text" id="disabilityStudentNameInput" class="form-control" style="font-size: 0.76rem; padding: 0.32rem 0.5rem; border-color: #d8b4fe;" 
+                         placeholder="VD: Em Nam, Em Bình, Em Lan..." 
+                         value="${curSt.name || ''}" 
+                         oninput="setDisabilityStudentName(this.value)">
+                </div>
+
+                <!-- CHỌN DẠNG KHUYẾT TẬT -->
+                <div style="margin-bottom: 0.5rem;">
+                  <label style="font-size: 0.72rem; font-weight: 700; color: #581c87; margin-bottom: 0.2rem; display: block;">
+                    Dạng khuyết tật / Hỗ trợ:
+                  </label>
+                  <select id="disabilityTypeSelect" class="form-select" style="font-size: 0.76rem; padding: 0.32rem 0.5rem; font-weight: 600; border-color: #d8b4fe;" onchange="setDisabilityType(this.value, this.options[this.selectedIndex].text)">
+                    <option value="tri_tue" ${curSt.disabilityType === 'tri_tue' ? 'selected' : ''}>Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)</option>
+                    <option value="van_dong" ${curSt.disabilityType === 'van_dong' ? 'selected' : ''}>Khuyết tật vận động (Hạn chế viết, thao tác)</option>
+                    <option value="nghe_noi" ${curSt.disabilityType === 'nghe_noi' ? 'selected' : ''}>Khuyết tật nghe - nói (Giao tiếp hạn chế)</option>
+                    <option value="nhin" ${curSt.disabilityType === 'nhin' ? 'selected' : ''}>Khuyết tật nhìn (Thị lực kém, cần cỡ chữ lớn)</option>
+                    <option value="tu_ki" ${curSt.disabilityType === 'tu_ki' ? 'selected' : ''}>Tự kỉ / Tăng động giảm chú ý (ADHD)</option>
+                    <option value="khac" ${curSt.disabilityType === 'khac' ? 'selected' : ''}>Khuyết tật khác / Học sinh hòa nhập chung</option>
+                  </select>
+                </div>
+
+                <!-- CHỌN TỈ LỆ NHẬN THỨC -->
+                <div style="margin-bottom: 0.5rem;">
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                    <span style="font-size: 0.72rem; font-weight: 700; color: #581c87;">
+                      Tỉ lệ nhận thức / tiếp thu:
+                    </span>
+                    <span id="disabilityRateBadge" style="font-size: 0.75rem; font-weight: 800; background: #7e22ce; color: #fff; padding: 1px 7px; border-radius: 999px;">
+                      ${curSt.cognitiveRate || 50}%
+                    </span>
+                  </div>
+
+                  <!-- CÁC NÚT PRESET BẤM NHANH -->
+                  <div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 0.25rem; margin-bottom: 0.35rem;">
+                    ${[30, 40, 50, 60, 70].map(function(r) {
+                      var isActive = (curSt.cognitiveRate === r);
+                      return `
+                        <button type="button" class="btn btn-sm disability-preset-btn ${isActive ? 'btn-primary' : 'btn-outline'}" 
+                                data-rate="${r}"
+                                style="font-size: 0.72rem; padding: 0.22rem 0.15rem; font-weight: 800; ${isActive ? 'background: #7030a0; border-color: #7030a0; color: #fff;' : 'background: #fff; border-color: #cbd5e1; color: #475569;'}" 
+                                onclick="setDisabilityCognitiveRate(${r})">
+                          ${r}%
+                        </button>
+                      `;
+                    }).join('')}
+                  </div>
+
+                  <!-- THANH TRƯỢT SLIDER -->
+                  <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <span style="font-size: 0.68rem; color: #6b21a8; font-weight: 600;">10%</span>
+                    <input type="range" id="disabilityRateRange" min="10" max="90" step="5" value="${curSt.cognitiveRate || 50}" 
+                           style="flex: 1; accent-color: #7e22ce; cursor: pointer; height: 5px;" 
+                           oninput="setDisabilityCognitiveRate(this.value)">
+                    <span style="font-size: 0.68rem; color: #6b21a8; font-weight: 600;">90%</span>
+                  </div>
+                </div>
+
+                <!-- GHI CHÚ RIÊNG CỦA GIÁO VIÊN -->
+                <div>
+                  <label style="font-size: 0.72rem; font-weight: 700; color: #581c87; margin-bottom: 0.2rem; display: block;">
+                    Đặc điểm riêng của học sinh (Tùy chọn):
+                  </label>
+                  <input type="text" id="disabilityNotesInput" class="form-control" style="font-size: 0.76rem; padding: 0.32rem 0.5rem; border-color: #d8b4fe;" 
+                         placeholder="VD: Cần bạn kèm cặp, hỗ trợ đồ dùng trực quan..." 
+                         value="${curSt.notes || ''}" 
+                         oninput="setDisabilityNotes(this.value)">
                 </div>
               </div>
 
-              <!-- CHỌN DẠNG KHUYẾT TẬT -->
-              <div style="margin-bottom: 0.55rem;">
-                <label style="font-size: 0.73rem; font-weight: 700; color: #581c87; margin-bottom: 0.25rem; display: block;">
-                  Dạng khuyết tật / Hỗ trợ:
-                </label>
-                <select id="disabilityTypeSelect" class="form-select" style="font-size: 0.76rem; padding: 0.35rem 0.5rem; font-weight: 600; border-color: #d8b4fe;" onchange="setDisabilityType(this.value, this.options[this.selectedIndex].text)">
-                  <option value="tri_tue" ${ds.disabilityType === 'tri_tue' ? 'selected' : ''}>Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)</option>
-                  <option value="van_dong" ${ds.disabilityType === 'van_dong' ? 'selected' : ''}>Khuyết tật vận động (Hạn chế viết, thao tác)</option>
-                  <option value="nghe_noi" ${ds.disabilityType === 'nghe_noi' ? 'selected' : ''}>Khuyết tật nghe - nói (Giao tiếp hạn chế)</option>
-                  <option value="nhin" ${ds.disabilityType === 'nhin' ? 'selected' : ''}>Khuyết tật nhìn (Thị lực kém, cần cỡ chữ lớn)</option>
-                  <option value="tu_ki" ${ds.disabilityType === 'tu_ki' ? 'selected' : ''}>Tự kỉ / Tăng động giảm chú ý (ADHD)</option>
-                  <option value="khac" ${ds.disabilityType === 'khac' ? 'selected' : ''}>Khuyết tật khác / Học sinh hòa nhập chung</option>
-                </select>
-              </div>
-
-              <!-- GHI CHÚ RIÊNG CỦA GIÁO VIÊN -->
-              <div style="margin-bottom: 0.55rem;">
-                <label style="font-size: 0.73rem; font-weight: 700; color: #581c87; margin-bottom: 0.25rem; display: block;">
-                  Đặc điểm riêng của học sinh (Tùy chọn):
-                </label>
-                <input type="text" id="disabilityNotesInput" class="form-control" style="font-size: 0.76rem; padding: 0.35rem 0.5rem; border-color: #d8b4fe;" 
-                       placeholder="VD: Em Nam cần bạn kèm cặp, hỗ trợ đồ dùng trực quan..." 
-                       value="${ds.notes || ''}" 
-                       oninput="setDisabilityNotes(this.value)">
-              </div>
-
-              <!-- LIVE PREVIEW CÂU YCCD SẼ XUẤT -->
+              <!-- LIVE PREVIEW CÂU YCCD SẼ XUẤT CHO TẤT CẢ HỌC SINH -->
               <div>
                 <div style="font-size: 0.7rem; font-weight: 800; color: #6b21a8; margin-bottom: 0.25rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.3rem;">
-                  <span><i class="fa-solid fa-wand-magic-sparkles" style="color: #7e22ce;"></i> AI soạn YCCĐ bám sát bài học & học sinh:</span>
+                  <span><i class="fa-solid fa-wand-magic-sparkles" style="color: #7e22ce;"></i> AI soạn YCCĐ bám sát bài học (${stCount} học sinh):</span>
                   <span id="disabilitySampleLessonName" style="font-size: 0.68rem; font-weight: 700; color: #6b21a8; background: #faf5ff; border: 1px solid #d8b4fe; padding: 0.1rem 0.4rem; border-radius: 4px; max-width: 260px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;" title="${getSampleLessonName()}">
                     ${getSampleLessonName()}
                   </span>
@@ -608,16 +779,16 @@ function renderAiIntegrationView(container) {
                 <div style="position: relative;">
                   <textarea id="disabilitySampleBox" 
                             class="form-control" 
-                            rows="5" 
+                            rows="${stCount > 1 ? (stCount * 4 + 1) : 5}" 
                             style="font-size: 0.76rem; line-height: 1.45; color: #7030a0; font-weight: 600; background: #ffffff; border: 1px solid #d8b4fe; border-radius: 6px; padding: 0.45rem 0.6rem; resize: vertical;"
                             oninput="setCustomDisabilityText(this.value)"
                             title="Thầy cô có thể trực tiếp chỉnh sửa câu này theo ý muốn">${getSampleDisabilityText()}</textarea>
                   <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.35rem; flex-wrap: wrap; gap: 0.35rem;">
                     <span style="font-size: 0.68rem; color: #64748b; font-style: italic;">
-                      💡 Thầy cô có thể chỉnh sửa trực tiếp hoặc yêu cầu Gemini AI phân tích YCCĐ gốc để soạn câu riêng biệt.
+                      💡 Thầy cô có thể chỉnh sửa trực tiếp hoặc yêu cầu Gemini AI phân tích YCCĐ gốc để soạn câu riêng cho từng em.
                     </span>
                     <div style="display: flex; align-items: center; gap: 0.35rem;">
-                      <button type="button" id="btnAiSampleDisability" class="btn btn-sm" style="font-size: 0.68rem; padding: 0.18rem 0.55rem; color: #fff; background: linear-gradient(135deg, #7c3aed, #a855f7); border: none; font-weight: 700; border-radius: 4px; box-shadow: 0 1px 3px rgba(124,58,237,0.25);" onclick="generateAiSampleDisabilityYccd()" title="Gửi YCCĐ gốc của bài này cho Gemini AI để soạn riêng câu bám sát">
+                      <button type="button" id="btnAiSampleDisability" class="btn btn-sm" style="font-size: 0.68rem; padding: 0.18rem 0.55rem; color: #fff; background: linear-gradient(135deg, #7c3aed, #a855f7); border: none; font-weight: 700; border-radius: 4px; box-shadow: 0 1px 3px rgba(124,58,237,0.25);" onclick="generateAiSampleDisabilityYccd()" title="Gửi YCCĐ gốc của bài này cho Gemini AI để soạn riêng câu bám sát cho ${stCount} học sinh">
                         <i class="fa-solid fa-wand-magic-sparkles"></i> Gemini AI Soạn bám sát bài
                       </button>
                       <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.68rem; padding: 0.18rem 0.45rem; color: #6b21a8; border-color: #d8b4fe; background: #fff;" onclick="resetDisabilityToAuto()" title="Khôi phục lại câu mẫu tự động">
@@ -629,14 +800,16 @@ function renderAiIntegrationView(container) {
               </div>
 
             </div>
-          `}
+            `;
+          })()}
         </div>
+        `}
 
         <!-- 5. KÈM KHUNG DUYỆT GIÁO ÁN (TỔ TRƯỞNG & BAN GIÁM HIỆU) -->
         <div style="background: ${ap.enabled ? '#f0fdfa' : '#f8fafc'}; border: 1.5px solid ${ap.enabled ? '#5eead4' : '#e2e8f0'}; border-radius: var(--radius-sm); padding: 0.75rem; margin-bottom: 0.85rem; transition: all 0.25s ease;">
           <div style="display: flex; justify-content: space-between; align-items: center;">
             <label style="font-weight: 800; font-size: 0.82rem; color: ${ap.enabled ? '#0f766e' : '#334155'}; margin: 0; display: flex; align-items: center; gap: 0.35rem; cursor: pointer;" onclick="toggleApprovalSupport()">
-              <i class="fa-solid fa-stamp" style="color: ${ap.enabled ? '#0d9488' : '#64748b'}; font-size: 0.95rem;"></i> 5. Kèm Khung Duyệt Giáo Án
+              <i class="fa-solid fa-stamp" style="color: ${ap.enabled ? '#0d9488' : '#64748b'}; font-size: 0.95rem;"></i> ${isGuest ? '4.' : '5.'} Kèm Khung Duyệt Giáo Án
             </label>
             <!-- TOGGLE SWITCH BẬT / TẮT -->
             <div style="display: flex; align-items: center; gap: 0.4rem;">
@@ -830,6 +1003,7 @@ function renderAiIntegrationView(container) {
                 <i class="fa-solid fa-wand-magic-sparkles" style="color: #db2777;"></i> Gợi ý câu lệnh mẫu (Bấm là chọn ngay):
               </div>
               <div style="display: flex; flex-direction: column; gap: 0.35rem;">
+                ${isGuest ? '' : `
                 <button type="button" class="quick-prompt-chip" onclick="applyQuickChatPrompt('disability_50')" style="text-align: left; background: #ffffff; border: 1px solid #d8b4fe; border-radius: 6px; padding: 0.4rem 0.55rem; font-size: 0.74rem; cursor: pointer; transition: all 0.2s; color: #1e293b; display: flex; align-items: flex-start; gap: 0.4rem;" onmouseover="this.style.borderColor='#7030a0'; this.style.background='#faf5ff';" onmouseout="this.style.borderColor='#d8b4fe'; this.style.background='#ffffff';">
                   <span style="font-size: 0.95rem; line-height: 1;">♿</span>
                   <div>
@@ -845,6 +1019,7 @@ function renderAiIntegrationView(container) {
                     <div style="color: #64748b; font-size: 0.7rem; margin-top: 1px; line-height: 1.3;">Kích hoạt Mục 4 với tỉ lệ 30%, tinh giản mục tiêu bài học vừa sức nhất cho học sinh.</div>
                   </div>
                 </button>
+                `}
 
                 <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.3rem;">
                   <button type="button" class="btn btn-sm btn-outline" style="font-size: 0.7rem; padding: 0.35rem 0.4rem; text-align: left; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; background: #fff;" onclick="applyQuickChatPrompt('ai')" title="Tích hợp Giáo dục Trí tuệ nhân tạo (AI)">
@@ -894,7 +1069,8 @@ function renderAiIntegrationView(container) {
           <!-- CỤM NÚT: XEM TRƯỚC GỐC & XUẤT NHANH GỐC -->
           <div style="display: flex; flex-direction: column; gap: 0.45rem;">
             ${(function() {
-              var disBadge = (ds && ds.enabled) ? (' • ♿ ' + (ds.cognitiveRate || 50) + '%') : '';
+              var stCount = ds ? (ds.studentCount || 1) : 1;
+              var disBadge = (!isGuest && ds && ds.enabled) ? (' • ♿ ' + (stCount > 1 ? (stCount + ' HS hòa nhập') : ((ds.cognitiveRate || 50) + '%'))) : '';
               var previewLabel = isTimetableMode ? 
                 (isGvbm ? ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB BỘ MÔN (' + countWeeks + ' TUẦN' + disBadge + ')') : ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB LỚP (' + countWeeks + ' TUẦN' + disBadge + ')')) : 
                 ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC KHBD GỐC (' + countWeeks + ' TUẦN' + disBadge + ')');
@@ -912,11 +1088,19 @@ function renderAiIntegrationView(container) {
             })()}
           </div>
           <div style="font-size: 0.74rem; color: #64748b; text-align: center; line-height: 1.35;">
-            ${(ds && ds.enabled) ? `
+            ${(!isGuest && ds && ds.enabled) ? (function() {
+              var stCount = ds.studentCount || 1;
+              var stList = ds.students || [];
+              var stSummary = stList.slice(0, stCount).map(function(s, idx) {
+                var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName) ? IntegrationService.getDisabilityShortTypeName(s.disabilityType) : 'Khuyết tật';
+                return (s.name || ('HS ' + (idx + 1))) + ' (' + sShort + ' ' + (s.cognitiveRate || 50) + '%)';
+              }).join(', ');
+              return `
               <span style="color: #7030a0; font-weight: 700;">
-                <i class="fa-solid fa-circle-check" style="color: #7030a0;"></i> Đang bật mục tiêu phân hóa cho học sinh khuyết tật (${ds.cognitiveRate}%). Toàn bộ KHBD xuất ra sẽ có nội dung này ở cuối mục I.
+                <i class="fa-solid fa-circle-check" style="color: #7030a0;"></i> Đang bật mục tiêu phân hóa cho ${stCount} học sinh hòa nhập: ${stSummary}. Toàn bộ KHBD xuất ra sẽ có nội dung này ở cuối mục I.
               </span>
-            ` : `
+              `;
+            })() : `
               <i class="fa-solid fa-circle-info" style="color: #2563eb;"></i> Bấm <b>Xem trước</b> để duyệt giáo án trên màn hình, hoặc bấm <b>Xuất nhanh</b> để tải file Word về máy.
             `}
           </div>
@@ -1068,35 +1252,152 @@ function setIntegrationRoleAndMode(mode, role) {
   }
 }
 
+function saveDisabilityStateToStorage() {
+  var ds = (typeof integrationState !== 'undefined' && integrationState.disabilitySupport) || {};
+  try {
+    localStorage.setItem('tvth_disability_enabled', ds.enabled ? 'true' : 'false');
+    localStorage.setItem('tvth_disability_student_count', ds.studentCount || 1);
+    localStorage.setItem('tvth_disability_active_index', ds.activeStudentIndex || 0);
+    if (ds.students) {
+      localStorage.setItem('tvth_disability_students', JSON.stringify(ds.students));
+    }
+    var s0 = (ds.students && ds.students[0]) || {};
+    localStorage.setItem('tvth_disability_rate', s0.cognitiveRate || ds.cognitiveRate || 50);
+    localStorage.setItem('tvth_disability_type', s0.disabilityType || ds.disabilityType || 'tri_tue');
+    localStorage.setItem('tvth_disability_type_name', s0.disabilityTypeName || ds.disabilityTypeName || 'Khuyết tật trí tuệ');
+    localStorage.setItem('tvth_disability_notes', s0.notes || ds.notes || '');
+  } catch (e) {}
+}
+
 function toggleDisabilitySupport(enabled) {
+  if (isGuestUser()) {
+    showToast('Tính năng Giáo dục hòa nhập (HS khuyết tật) chỉ dành cho thành viên chính thức. Vui lòng đăng nhập!', 'warning');
+    return;
+  }
+  if (!integrationState.disabilitySupport) {
+    integrationState.disabilitySupport = { enabled: true, studentCount: 1, activeStudentIndex: 0 };
+  }
   if (typeof enabled === 'undefined') {
     integrationState.disabilitySupport.enabled = !integrationState.disabilitySupport.enabled;
   } else {
     integrationState.disabilitySupport.enabled = !!enabled;
   }
-  try {
-    localStorage.setItem('tvth_disability_enabled', integrationState.disabilitySupport.enabled ? 'true' : 'false');
-  } catch (e) {}
+  saveDisabilityStateToStorage();
 
   var container = document.getElementById('content-container');
   if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
     renderAiIntegrationView(container);
   }
   if (integrationState.disabilitySupport.enabled) {
-    showToast('Đã BẬT hỗ trợ YCCĐ học sinh khuyết tật (' + (integrationState.disabilitySupport.cognitiveRate || 50) + '%)', 'success');
+    var count = integrationState.disabilitySupport.studentCount || 1;
+    showToast('Đã BẬT hỗ trợ YCCĐ cho ' + count + ' học sinh hòa nhập', 'success');
   } else {
     showToast('Đã TẮT hỗ trợ học sinh khuyết tật', 'info');
   }
 }
 
+function setDisabilityStudentCount(count) {
+  if (isGuestUser()) {
+    showToast('Tính năng Giáo dục hòa nhập chỉ dành cho thành viên chính thức!', 'warning');
+    return;
+  }
+  count = parseInt(count, 10);
+  if (isNaN(count) || count < 1) count = 1;
+  if (count > 3) count = 3;
+
+  var ds = integrationState.disabilitySupport;
+  if (!ds) {
+    integrationState.disabilitySupport = { enabled: true };
+    ds = integrationState.disabilitySupport;
+  }
+  ds.studentCount = count;
+  ds.customText = '';
+  if (typeof ds.activeStudentIndex !== 'number' || ds.activeStudentIndex >= count) {
+    ds.activeStudentIndex = 0;
+  }
+  saveDisabilityStateToStorage();
+
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  updateDisabilitySampleUi();
+  showToast('Đã cấu hình ' + count + ' học sinh hòa nhập trong bài dạy', 'info');
+}
+
+function setDisabilityActiveTab(idx) {
+  idx = parseInt(idx, 10);
+  if (isNaN(idx) || idx < 0) idx = 0;
+  if (idx > 2) idx = 2;
+  var ds = integrationState.disabilitySupport;
+  if (!ds) return;
+  ds.activeStudentIndex = idx;
+  saveDisabilityStateToStorage();
+
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+}
+
+function setDisabilityStudentField(field, value) {
+  if (isGuestUser()) return;
+  var ds = integrationState.disabilitySupport;
+  if (!ds) return;
+  var idx = ds.activeStudentIndex || 0;
+  if (!ds.students) ds.students = [];
+  while (ds.students.length <= idx) {
+    ds.students.push({
+      id: ds.students.length + 1,
+      name: '',
+      disabilityType: 'tri_tue',
+      disabilityTypeName: 'Khuyết tật trí tuệ',
+      cognitiveRate: 50,
+      notes: ''
+    });
+  }
+  ds.students[idx][field] = value;
+  if (idx === 0) {
+    if (field === 'disabilityType') ds.disabilityType = value;
+    if (field === 'disabilityTypeName') ds.disabilityTypeName = value;
+    if (field === 'cognitiveRate') ds.cognitiveRate = value;
+    if (field === 'notes') ds.notes = value;
+  }
+  ds.customText = '';
+  saveDisabilityStateToStorage();
+  updateDisabilitySampleUi();
+}
+
+function setDisabilityStudentName(name) {
+  setDisabilityStudentField('name', (name || '').trim());
+}
+
 function setDisabilityCognitiveRate(rate) {
+  if (isGuestUser()) return;
   rate = parseInt(rate, 10);
   if (isNaN(rate) || rate < 10) rate = 10;
   if (rate > 90) rate = 90;
-  integrationState.disabilitySupport.cognitiveRate = rate;
-  try {
-    localStorage.setItem('tvth_disability_rate', rate);
-  } catch (e) {}
+
+  var ds = integrationState.disabilitySupport;
+  if (!ds) return;
+  var idx = ds.activeStudentIndex || 0;
+  if (!ds.students) ds.students = [];
+  while (ds.students.length <= idx) {
+    ds.students.push({
+      id: ds.students.length + 1,
+      name: '',
+      disabilityType: 'tri_tue',
+      disabilityTypeName: 'Khuyết tật trí tuệ',
+      cognitiveRate: 50,
+      notes: ''
+    });
+  }
+  ds.students[idx].cognitiveRate = rate;
+  if (idx === 0) {
+    ds.cognitiveRate = rate;
+  }
+  ds.customText = '';
+  saveDisabilityStateToStorage();
 
   var slider = document.getElementById('disabilityRateRange');
   if (slider) slider.value = rate;
@@ -1124,24 +1425,54 @@ function setDisabilityCognitiveRate(rate) {
 }
 
 function setDisabilityType(typeKey, typeName) {
-  integrationState.disabilitySupport.disabilityType = typeKey;
-  if (typeName) {
-    integrationState.disabilitySupport.disabilityTypeName = typeName;
+  if (isGuestUser()) return;
+  var ds = integrationState.disabilitySupport;
+  if (!ds) return;
+  var idx = ds.activeStudentIndex || 0;
+  if (!ds.students) ds.students = [];
+  while (ds.students.length <= idx) {
+    ds.students.push({
+      id: ds.students.length + 1,
+      name: '',
+      disabilityType: 'tri_tue',
+      disabilityTypeName: 'Khuyết tật trí tuệ',
+      cognitiveRate: 50,
+      notes: ''
+    });
   }
-  try {
-    localStorage.setItem('tvth_disability_type', typeKey);
-    if (typeName) localStorage.setItem('tvth_disability_type_name', typeName);
-  } catch (e) {}
-
+  ds.students[idx].disabilityType = typeKey;
+  if (typeName) ds.students[idx].disabilityTypeName = typeName;
+  if (idx === 0) {
+    ds.disabilityType = typeKey;
+    if (typeName) ds.disabilityTypeName = typeName;
+  }
+  ds.customText = '';
+  saveDisabilityStateToStorage();
   updateDisabilitySampleUi();
 }
 
 function setDisabilityNotes(notes) {
-  integrationState.disabilitySupport.notes = notes || '';
-  try {
-    localStorage.setItem('tvth_disability_notes', integrationState.disabilitySupport.notes);
-  } catch (e) {}
-
+  if (isGuestUser()) return;
+  var ds = integrationState.disabilitySupport;
+  if (!ds) return;
+  var idx = ds.activeStudentIndex || 0;
+  if (!ds.students) ds.students = [];
+  while (ds.students.length <= idx) {
+    ds.students.push({
+      id: ds.students.length + 1,
+      name: '',
+      disabilityType: 'tri_tue',
+      disabilityTypeName: 'Khuyết tật trí tuệ',
+      cognitiveRate: 50,
+      notes: ''
+    });
+  }
+  ds.students[idx].notes = notes || '';
+  if (idx === 0) {
+    ds.notes = notes || '';
+  }
+  ds.customText = '';
+  saveDisabilityStateToStorage();
   updateDisabilitySampleUi();
 }
 
@@ -1170,12 +1501,21 @@ function setCustomDisabilityText(val) {
 function resetDisabilityToAuto() {
   if (integrationState.disabilitySupport) {
     integrationState.disabilitySupport.customText = '';
+    if (integrationState.disabilitySupport.students) {
+      integrationState.disabilitySupport.students.forEach(function(s) {
+        if (s) s.customText = '';
+      });
+    }
   }
   updateDisabilitySampleUi();
   showToast('Đã khôi phục câu YCCĐ tự động theo bài dạy!', 'info');
 }
 
 async function generateAiSampleDisabilityYccd() {
+  if (isGuestUser()) {
+    showToast('Tính năng Giáo dục hòa nhập chỉ dành cho thành viên chính thức!', 'warning');
+    return;
+  }
   var ds = (typeof integrationState !== 'undefined' && integrationState.disabilitySupport) || {};
   var btn = document.getElementById('btnAiSampleDisability');
   var sampleBox = document.getElementById('disabilitySampleBox');
@@ -1328,18 +1668,32 @@ function getSampleDisabilityText() {
   if (realLesson && realLesson.disabilityYccdAI) {
     return realLesson.disabilityYccdAI;
   }
-  return '- Năng lực đặc thù: (Hệ thống chạy trực tuyến 100%. Vui lòng nhấn nút "Gemini AI Soạn bám sát bài" bên dưới để kết nối AI phân tích và biên soạn định lượng riêng cho bài này).\n- Phẩm chất, năng lực chung: Tự tin hòa nhập, hợp tác cùng bạn học và hoàn thành nhiệm vụ vừa sức.';
+  if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.getSmartDisabilityYccd === 'function') {
+    var generated = IntegrationService.getSmartDisabilityYccd(realLesson, ds);
+    if (generated) return generated;
+  }
+  return '- Năng lực đặc thù: (Hệ thống tự động biên soạn theo bài học. Vui lòng bấm "Gemini AI Soạn bám sát bài" bên dưới để kết nối AI phân tích).\n- Phẩm chất, năng lực chung: Tự tin hòa nhập, hợp tác cùng bạn học và hoàn thành nhiệm vụ vừa sức.';
 }
 
 function applyQuickChatPrompt(promptKey) {
   if (promptKey === 'disability_50' || promptKey === 'disability_30') {
+    if (isGuestUser()) {
+      showToast('Tính năng Giáo dục hòa nhập (HS khuyết tật) chỉ dành cho thành viên chính thức. Vui lòng đăng nhập!', 'warning');
+      return;
+    }
     var rate = promptKey === 'disability_30' ? 30 : 50;
+    if (!integrationState.disabilitySupport) {
+      integrationState.disabilitySupport = {};
+    }
     integrationState.disabilitySupport.enabled = true;
+    integrationState.disabilitySupport.studentCount = 1;
+    integrationState.disabilitySupport.activeStudentIndex = 0;
     integrationState.disabilitySupport.cognitiveRate = rate;
-    try {
-      localStorage.setItem('tvth_disability_enabled', 'true');
-      localStorage.setItem('tvth_disability_rate', rate);
-    } catch(e) {}
+    integrationState.disabilitySupport.customText = '';
+    if (integrationState.disabilitySupport.students && integrationState.disabilitySupport.students[0]) {
+      integrationState.disabilitySupport.students[0].cognitiveRate = rate;
+    }
+    saveDisabilityStateToStorage();
     var container = document.getElementById('content-container');
     if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
       renderAiIntegrationView(container);
@@ -2751,6 +3105,8 @@ async function triggerPreviewOriginalKhbd() {
   var sWeek = integrationState.startWeek || 1;
   var eWeek = integrationState.endWeek || sWeek;
   var count = eWeek - sWeek + 1;
+  var isGuest = isGuestUser();
+  var disSupport = isGuest ? { enabled: false } : integrationState.disabilitySupport;
 
   var btn = document.getElementById('btnPreviewOriginalKhbd');
   if (btn) {
@@ -2773,7 +3129,7 @@ async function triggerPreviewOriginalKhbd() {
             teacherName: cfg.teacherName || integrationState.teacherName,
             schoolYear: cfg.schoolYear || integrationState.schoolYear,
             department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
-            disabilitySupport: integrationState.disabilitySupport
+            disabilitySupport: disSupport
           };
           weeklyPlan = await IntegrationService.buildWeeklyPlanByAssignments(
             integrationState.gvbmAssignments,
@@ -2789,7 +3145,7 @@ async function triggerPreviewOriginalKhbd() {
             integrationState.customTimetable, 
             null, 
             false,
-            { disabilitySupport: integrationState.disabilitySupport }
+            { disabilitySupport: disSupport }
           );
         }
         weeksList.push(weeklyPlan);
@@ -2811,7 +3167,6 @@ async function triggerPreviewOriginalKhbd() {
       }
 
       var flatLessons = [];
-      var disSupport = integrationState.disabilitySupport;
       weeksPlan.forEach(function(wItem) {
         (wItem.lessons || []).forEach(function(l, lIdx) {
           var copy = JSON.parse(JSON.stringify(l));
@@ -2856,7 +3211,7 @@ async function triggerPreviewOriginalKhbd() {
     if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
       renderAiIntegrationView(container);
     }
-    var disNote = (integrationState.disabilitySupport && integrationState.disabilitySupport.enabled) ? (' • Kèm YCCĐ Khuyết Tật ' + (integrationState.disabilitySupport.cognitiveRate || 50) + '%') : '';
+    var disNote = (!isGuest && disSupport && disSupport.enabled) ? (' • Kèm YCCĐ Khuyết Tật ' + (disSupport.cognitiveRate || 50) + '%') : '';
     showToast('Đang xem trước Kế hoạch bài dạy (' + count + ' tuần • Chuẩn CV 2345' + disNote + ')', 'info');
 
   } catch (err) {
@@ -2866,7 +3221,7 @@ async function triggerPreviewOriginalKhbd() {
     if (btn) {
       btn.disabled = false;
       var countWeeks = (integrationState.endWeek || integrationState.startWeek) - integrationState.startWeek + 1;
-      var disBadge = (integrationState.disabilitySupport && integrationState.disabilitySupport.enabled) ? (' • ♿ ' + (integrationState.disabilitySupport.cognitiveRate || 50) + '%') : '';
+      var disBadge = (!isGuest && disSupport && disSupport.enabled) ? (' • ♿ ' + (disSupport.cognitiveRate || 50) + '%') : '';
       btn.innerHTML = isTimetableMode ?
         (isGvbm ? ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB BỘ MÔN (' + countWeeks + ' TUẦN' + disBadge + ')') : ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC THEO TKB LỚP (' + countWeeks + ' TUẦN' + disBadge + ')')) :
         ('<i class="fa-solid fa-eye"></i> XEM TRƯỚC KHBD GỐC (' + countWeeks + ' TUẦN' + disBadge + ')');
@@ -2885,6 +3240,8 @@ async function triggerDirectFastExport() {
   var sWeek = integrationState.startWeek || 1;
   var eWeek = integrationState.endWeek || sWeek;
   var count = eWeek - sWeek + 1;
+  var isGuest = isGuestUser();
+  var disSupport = isGuest ? { enabled: false } : integrationState.disabilitySupport;
 
   var btn = document.getElementById('btnDirectFastExport');
   if (btn) {
@@ -2909,7 +3266,7 @@ async function triggerDirectFastExport() {
             teacherName: gvbmTeacher,
             schoolYear: cfg.schoolYear || integrationState.schoolYear,
             department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
-            disabilitySupport: integrationState.disabilitySupport,
+            disabilitySupport: disSupport,
             approvalConfig: integrationState.approvalConfig,
             filename: IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + w + '_GV_BoMon.docx', gvbmTeacher)
           };
@@ -2928,7 +3285,7 @@ async function triggerDirectFastExport() {
             integrationState.customTimetable, 
             null, 
             false,
-            { disabilitySupport: integrationState.disabilitySupport }
+            { disabilitySupport: disSupport }
           );
 
           var gvcnTeacher = integrationState.teacherName || '';
@@ -2939,7 +3296,7 @@ async function triggerDirectFastExport() {
             teacherName: gvcnTeacher,
             schoolYear: integrationState.schoolYear,
             className: integrationState.className,
-            disabilitySupport: integrationState.disabilitySupport,
+            disabilitySupport: disSupport,
             approvalConfig: integrationState.approvalConfig,
             filename: IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + w + '_Lop_' + grade + '_Theo_TKB.docx', gvcnTeacher)
           });
@@ -2971,7 +3328,6 @@ async function triggerDirectFastExport() {
         throw new Error('Chưa tìm thấy dữ liệu giáo án số hóa cho Khối ' + grade + ' - Môn ' + subj);
       }
 
-      var disSupport = integrationState.disabilitySupport;
       if (disSupport && disSupport.enabled) {
         weeksPlan = JSON.parse(JSON.stringify(weeksPlan));
         var allPlanLessons = [];
@@ -3013,7 +3369,7 @@ async function triggerDirectFastExport() {
     if (btn) {
       btn.disabled = false;
       var countWeeks = (integrationState.endWeek || integrationState.startWeek) - integrationState.startWeek + 1;
-      var disBadge = (integrationState.disabilitySupport && integrationState.disabilitySupport.enabled) ? (' • ♿ ' + (integrationState.disabilitySupport.cognitiveRate || 50) + '%') : '';
+      var disBadge = (!isGuest && disSupport && disSupport.enabled) ? (' • ♿ ' + (disSupport.cognitiveRate || 50) + '%') : '';
       btn.innerHTML = isTimetableMode ? 
         (isGvbm ? ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH THEO TKB BỘ MÔN (' + countWeeks + ' Tuần' + disBadge + ')') : ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH THEO TKB LỚP (' + countWeeks + ' Tuần' + disBadge + ')')) :
         ('<i class="fa-solid fa-file-arrow-down"></i> XUẤT NHANH KHBD GỐC (' + countWeeks + ' Tuần' + disBadge + ')');
@@ -3930,6 +4286,8 @@ async function triggerApplyAndPreviewIntegration() {
       });
 
       var isGvbm = isGvbmRole(integrationState.timetableRole);
+      var isGuest = isGuestUser();
+      var disSupport = isGuest ? { enabled: false } : integrationState.disabilitySupport;
       var weeklyResults = [];
       for (var w = sWeek; w <= eWeek; w++) {
         var wPlan;
@@ -3943,7 +4301,7 @@ async function triggerApplyAndPreviewIntegration() {
             teacherName: cfg.teacherName || integrationState.teacherName,
             schoolYear: cfg.schoolYear || integrationState.schoolYear,
             department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
-            disabilitySupport: integrationState.disabilitySupport
+            disabilitySupport: disSupport
           };
           wPlan = await IntegrationService.buildWeeklyPlanByAssignments(
             integrationState.gvbmAssignments,
@@ -3959,7 +4317,7 @@ async function triggerApplyAndPreviewIntegration() {
             integrationState.customTimetable, 
             integratedMap, 
             integrationState.overwriteLegacy !== false,
-            { disabilitySupport: integrationState.disabilitySupport }
+            { disabilitySupport: disSupport }
           );
         }
         weeklyResults.push(wPlan);
@@ -4313,6 +4671,8 @@ async function triggerExportAllTimetableWeeksWord() {
   var isGvbm = isGvbmRole(integrationState.timetableRole);
   var cfg = integrationState.gvbmConfig || {};
   var anyAborted = false;
+  var isGuest = isGuestUser();
+  var disSupport = isGuest ? { enabled: false } : integrationState.disabilitySupport;
 
   for (var i = 0; i < weeks.length; i++) {
     var wData = weeks[i];
@@ -4329,7 +4689,7 @@ async function triggerExportAllTimetableWeeksWord() {
         teacherName: gvbmTeacher,
         schoolYear: cfg.schoolYear || integrationState.schoolYear,
         department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
-        disabilitySupport: integrationState.disabilitySupport,
+        disabilitySupport: disSupport,
         approvalConfig: integrationState.approvalConfig,
         filename: filename
       });
@@ -4343,7 +4703,7 @@ async function triggerExportAllTimetableWeeksWord() {
         teacherName: gvcnTeacher,
         schoolYear: integrationState.schoolYear,
         className: integrationState.className,
-        disabilitySupport: integrationState.disabilitySupport,
+        disabilitySupport: disSupport,
         approvalConfig: integrationState.approvalConfig,
         filename: filename
       });
@@ -4447,10 +4807,15 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       var parts = displayLine.split(/\r?\n|<br\s*\/?>/i).map(function(p) { return p.trim(); }).filter(Boolean);
       var htmlLines = parts.map(function(pLine) {
         if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(pLine)) return '';
+        var isSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh)/i.test(pLine);
+        if (isSubHeader) {
+          return `<p style="margin: 0; margin-top: 5px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">${pLine}</span></p>`;
+        }
         if (!pLine.startsWith('-') && !pLine.startsWith('+') && !pLine.startsWith('*')) {
           pLine = '- ' + pLine;
         }
-        return `<p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #c00000; font-weight: 500; line-height: 1.35; text-align: justify;"><span style="color: #c00000;">${pLine}</span></p>`;
+        var formattedPLine = pLine.replace(/^-\s*(Năng lực đặc thù|Phẩm chất,\s*năng lực chung)\s*:/i, '- <b>$1:</b>');
+        return `<p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #c00000; font-weight: 500; line-height: 1.35; text-align: justify;"><span style="color: #c00000;">${formattedPLine}</span></p>`;
       }).filter(Boolean).join('');
 
       var headerHtml = '';
@@ -4481,7 +4846,8 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var dodungList = les.dodung || les.teachingAids || [];
   var dodungHtml = dodungList.map(function(line) {
     if (typeof line !== 'string') return '';
-    var isTichHop = line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(line);
+    var isDisabilityDodung = /khuyết\s*tật|hòa\s*nhập|trợ\s*cụ\s*trực\s*quan|vật\s*thật|chữ\s*phóng\s*to/i.test(line);
+    var isTichHop = line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(line) || isDisabilityDodung;
     if (isTichHop) {
       var displayLine = line
         .replace(/<!--.*?-->/g, '')
@@ -4515,6 +4881,23 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     les.tables.forEach(function(tableRows) {
       if (!tableRows || tableRows.length === 0) return;
       var has4Cols = tableRows.some(function(row) { return Array.isArray(row) && row.length === 4; });
+      var formatPreviewCellContent = function(rawText, isCellRed) {
+        if (!rawText) return '';
+        var str = String(rawText);
+        var lines = str.split(/(?:\r?\n|<br\s*\/?>)/i);
+        var formattedLines = lines.map(function(ln) {
+          var trimmed = ln.trim();
+          if (!trimmed) return '';
+          var isLineDisability = /\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|\[HSHN\]/i.test(trimmed);
+          var isLineTichHop = /\[Tích\s*hợp\]|\(Tích\s*hợp\)|tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(trimmed);
+          if (isCellRed || isLineDisability || isLineTichHop) {
+            return '<span style="color: #c00000; font-weight: 500;"><font color="#c00000">' + trimmed + '</font></span>';
+          }
+          return trimmed;
+        });
+        return formattedLines.filter(function(x) { return x.length > 0; }).join('<br/>');
+      };
+
       var rowsHtml = '';
       for (var rIdx = 0; rIdx < tableRows.length; rIdx++) {
         var r = tableRows[rIdx];
@@ -4523,26 +4906,35 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
         if (has4Cols) {
           if (r.length >= 4) {
+            var isDisability = (typeof IntegrationService !== 'undefined' && IntegrationService.isDisabilityRow === 'function')
+              ? IntegrationService.isDisabilityRow(r)
+              : (!!r.isDisabilityRow || /\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test((r[0]||'') + ' ' + (r[2]||'') + ' ' + (r[3]||'')));
             var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test((r[0]||'') + ' ' + (r[2]||'') + ' ' + (r[3]||''));
-            var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
-            var c1 = (r[1] || '').trim().replace(/\n/g, '<br/>');
-            var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
-            var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim().replace(/\n/g, '<br/>');
-            var cellStyle = isTichHop ? 'color: #c00000; font-weight: 500;' : '';
+            var isRed = isTichHop || isDisability;
+            var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
+            var c1 = (r[1] || '').trim();
+            var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
+            var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
+
+            var c0Html = formatPreviewCellContent(c0, isRed);
+            var c1Html = formatPreviewCellContent(c1, isRed);
+            var c2Html = formatPreviewCellContent(c2, isRed);
+            var c3Html = formatPreviewCellContent(c3, isRed);
+            var cellStyle = isRed ? 'color: #c00000; font-weight: 500;' : '';
 
             rowsHtml += `
               <tr>
-                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${c0}</div>
+                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ${cellStyle}">${c0Html}</div>
                 </td>
                 <td style="width: 15%; vertical-align: top; text-align: center; padding: 4pt 6pt; border: 1pt solid #cbd5e1; ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: center;">${c1}</div>
+                  <div style="line-height: 1.25; margin: 0; text-align: center; ${cellStyle}">${c1Html}</div>
                 </td>
-                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${c2}</div>
+                <td style="width: 30%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ${cellStyle}">${c2Html}</div>
                 </td>
-                <td style="width: 25%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${c3}</div>
+                <td style="width: 25%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ${cellStyle}">${c3Html}</div>
                 </td>
               </tr>
             `;
@@ -4552,15 +4944,20 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
             var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
             var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
-            var cellHeaderColorStyle = isPureIntegration ? 'color: #c00000;' : '';
-            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
+            var isDisabilityHeader = !isTietRow && !isActivityRow && (/\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(cleanHeader));
+            var cellHeaderColorStyle = (isPureIntegration || isDisabilityHeader) ? 'color: #c00000;' : '';
+            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration || isDisabilityHeader) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
             rowsHtml += `<tr><td colspan="4" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           } else if (r.length === 2) {
             rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${(r[0]||'').replace(/\n/g, '<br/>')}</div></td><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${(r[1]||'').replace(/\n/g, '<br/>')}</div></td></tr>`;
           }
         } else {
           if (r.length >= 2) {
+            var isDisability = (typeof IntegrationService !== 'undefined' && IntegrationService.isDisabilityRow === 'function')
+              ? IntegrationService.isDisabilityRow(r)
+              : (!!r.isDisabilityRow || /\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test((r[0]||'') + ' ' + (r[1]||'')));
             var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test((r[0]||'') + ' ' + (r[1]||''));
+            var isRed = isTichHop || isDisability;
             var gvText = (r[0] || '')
               .replace(/<!--.*?-->/g, '')
               .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
@@ -4579,18 +4976,18 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
               .replace(/\(Tích hợp\)/gi, '')
               .replace(/\s{2,}/g, ' ')
               .trim();
-            var gvCol = gvText.replace(/\n/g, '<br/>');
-            var hsCol = hsText.replace(/\n/g, '<br/>');
 
-            var cellStyle = isTichHop ? 'color: #c00000; font-weight: 500;' : '';
+            var gvHtml = formatPreviewCellContent(gvText, isRed);
+            var hsHtml = formatPreviewCellContent(hsText, isRed);
+            var cellStyle = isRed ? 'color: #c00000; font-weight: 500;' : '';
 
             rowsHtml += `
               <tr>
-                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${gvCol}</div>
+                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ${cellStyle}">${gvHtml}</div>
                 </td>
-                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify;  ${cellStyle}">
-                  <div style="line-height: 1.25; margin: 0; text-align: justify; ">${hsCol}</div>
+                <td style="width: 50%; vertical-align: top; padding: 4pt 6pt; border: 1pt solid #cbd5e1; text-align: justify; ${cellStyle}">
+                  <div style="line-height: 1.25; margin: 0; text-align: justify; ${cellStyle}">${hsHtml}</div>
                 </td>
               </tr>
             `;
@@ -4608,8 +5005,9 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
             var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
             var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
-            var cellHeaderColorStyle = isPureIntegration ? 'color: #c00000;' : '';
-            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
+            var isDisabilityHeader = !isTietRow && !isActivityRow && (/\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(cleanHeader));
+            var cellHeaderColorStyle = (isPureIntegration || isDisabilityHeader) ? 'color: #c00000;' : '';
+            var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration || isDisabilityHeader) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
             rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           }
         }
@@ -4887,6 +5285,10 @@ if (typeof window !== "undefined") {
   window.clearAllUploadedIntegrationDocs = typeof clearAllUploadedIntegrationDocs !== "undefined" ? clearAllUploadedIntegrationDocs : null;
   window.setIntegrationRoleAndMode = typeof setIntegrationRoleAndMode !== "undefined" ? setIntegrationRoleAndMode : null;
   window.toggleDisabilitySupport = typeof toggleDisabilitySupport !== "undefined" ? toggleDisabilitySupport : null;
+  window.setDisabilityStudentCount = typeof setDisabilityStudentCount !== "undefined" ? setDisabilityStudentCount : null;
+  window.setDisabilityActiveTab = typeof setDisabilityActiveTab !== "undefined" ? setDisabilityActiveTab : null;
+  window.setDisabilityStudentName = typeof setDisabilityStudentName !== "undefined" ? setDisabilityStudentName : null;
+  window.setDisabilityStudentField = typeof setDisabilityStudentField !== "undefined" ? setDisabilityStudentField : null;
   window.setDisabilityCognitiveRate = typeof setDisabilityCognitiveRate !== "undefined" ? setDisabilityCognitiveRate : null;
   window.setDisabilityType = typeof setDisabilityType !== "undefined" ? setDisabilityType : null;
   window.setDisabilityNotes = typeof setDisabilityNotes !== "undefined" ? setDisabilityNotes : null;

@@ -1060,15 +1060,51 @@ var IntegrationService = {
     this._disabilityYccdCache = {};
   },
 
+  /**
+   * Chuẩn hóa và trích xuất danh sách học sinh khuyết tật từ cấu hình (Hỗ trợ 1 - 3 học sinh)
+   */
+  getDisabilityStudentsList: function(disabilityConfig) {
+    if (!disabilityConfig) return [];
+    var count = parseInt(disabilityConfig.studentCount, 10);
+    if (isNaN(count) || count < 1) count = 1;
+    if (count > 3) count = 3;
+
+    var rawList = Array.isArray(disabilityConfig.students) ? disabilityConfig.students : [];
+    var result = [];
+
+    for (var i = 0; i < count; i++) {
+      var s = rawList[i] || {};
+      var dType = s.disabilityType || (i === 0 ? (disabilityConfig.disabilityType || 'tri_tue') : (i === 1 ? 'van_dong' : 'nhin'));
+      var dTypeName = s.disabilityTypeName || this.getDisabilityTypeName(dType);
+      var dRate = parseInt(s.cognitiveRate, 10) || (i === 0 ? (parseInt(disabilityConfig.cognitiveRate, 10) || 50) : (i === 1 ? 60 : 70));
+      var dNotes = s.notes || (i === 0 ? (disabilityConfig.notes || '') : '');
+      var dName = (s.name || '').trim();
+      var dCustom = s.customText || (i === 0 ? (disabilityConfig.customText || '') : '');
+
+      result.push({
+        id: i + 1,
+        index: i,
+        name: dName,
+        disabilityType: dType,
+        disabilityTypeName: dTypeName,
+        cognitiveRate: dRate,
+        notes: dNotes,
+        customText: dCustom
+      });
+    }
+    return result;
+  },
+
   getDisabilityCacheKey: function(lesson, disabilityConfig) {
     if (!lesson) return '';
-    var rate = (disabilityConfig && disabilityConfig.cognitiveRate) || 50;
-    var type = (disabilityConfig && disabilityConfig.disabilityType) || 'tri_tue';
-    var notes = (disabilityConfig && disabilityConfig.notes) || '';
+    var students = this.getDisabilityStudentsList(disabilityConfig);
+    var stuKey = students.map(function(s) {
+      return s.disabilityType + '_' + s.cognitiveRate + '_' + (s.name || '') + '_' + (s.notes || '');
+    }).join('__');
     var seed = (disabilityConfig && disabilityConfig.variantSeed) || 0;
     var title = (lesson.lessonTitle || lesson.title || '').trim();
     var subj = lesson.subjectKey || lesson.subjectName || '';
-    return subj + '::' + title + '::' + type + '::' + rate + '::' + notes + '::' + seed;
+    return subj + '::' + title + '::' + stuKey + '::' + seed;
   },
 
   getDisabilityTypeName: function(typeKey) {
@@ -1090,12 +1126,14 @@ var IntegrationService = {
     return map[typeKey] || 'Khuyết tật học tập';
   },
 
-  getDisabilityGuidance: function(disabilityType, rate, notes) {
+  getDisabilityGuidance: function(disabilityType, rate, notes, subjectKey, grade) {
     if (typeof AIService !== 'undefined' && typeof AIService.getDisabilityGuidance === 'function') {
-      return AIService.getDisabilityGuidance(disabilityType, rate, notes);
+      return AIService.getDisabilityGuidance(disabilityType, rate, notes, subjectKey, grade);
     }
     var type = disabilityType || 'tri_tue';
     var r = parseInt(rate, 10) || 50;
+    var g = parseInt(grade, 10) || 5;
+    var sKey = (subjectKey || '').toLowerCase();
     var guide = '';
 
     var levelDescription = '';
@@ -1120,69 +1158,460 @@ var IntegrationService = {
 - ĐIỀU CHỈNH PHƯƠNG THỨC THỰC HIỆN & THỜI GIAN:
   + Cho phép học sinh trả lời miệng, chỉ bảng phụ, chọn thẻ chữ/thẻ số thay vì phải viết đoạn văn dài hay vẽ hình, kẻ bảng phức tạp.
   + Giảm bớt khối lượng viết vẽ tương ứng mức độ vận động ${r}%; gia hạn thêm thời gian làm bài; phần viết chỉ yêu cầu hoàn thành câu ngắn hoặc từ khóa.
-  + Trong các hoạt động thực hành, thí nghiệm (Toán, Khoa học, Mỹ thuật, Thủ công): Học sinh tham gia cùng nhóm bạn; bạn cùng nhóm hỗ trợ các thao tác cầm nắm, vận động; học sinh thực hiện phần việc tư duy, quan sát, trả lời hoặc thao tác vừa sức.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Đạt chuẩn kiến thức của bài học; điều chỉnh phương thức làm bài (trả lời miệng, chọn thẻ, giảm khối lượng viết/thao tác phù hợp mức vận động ${r}%).
-  - Phẩm chất, năng lực chung: Rèn luyện nghị lực vượt khó, tự tin thể hiện suy nghĩ và tích cực phối hợp cùng bạn bè trong nhóm.`;
+  + Trong các hoạt động thực hành, thí nghiệm (Toán, Khoa học, Mỹ thuật, Thủ công): Học sinh tham gia cùng nhóm bạn; bạn cùng nhóm hỗ trợ các thao tác cầm nắm, vận động; học sinh thực hiện phần việc tư duy, quan sát, trả lời hoặc thao tác vừa sức.`;
     } else if (type === 'nghe_noi' || type === 'khiem_thinh') {
       guide = `DẠNG TẬT: Khuyết tật nghe - nói (Khiếm thính, khó phát âm, hạn chế giao tiếp bằng lời)
 - ${levelDescription}
-- NGUYÊN TẮC SƯ PHẠM: Tối ưu hóa kênh thị giác trực quan (hình ảnh, sơ đồ, thẻ chữ/số in sẵn, khẩu hình, cử chỉ).
+- NGUYÊN TẮC SƯ PHẠM: Tối ưu hóa kênh thị giác trực quan (hình ảnh, sơ đồ, thẻ chữ/số in sẵn, khẩu hình, cử chỉ / kí hiệu ngôn ngữ).
 - ĐIỀU CHỈNH PHƯƠNG THỨC:
-  + Cho phép học sinh thể hiện sự hiểu bài bằng hành động: chỉ vào tranh, ghép/nối thẻ từ, viết hoặc vẽ câu trả lời ra bảng con/phiếu học tập, chọn đáp án trực quan thay vì bắt buộc phát biểu hoặc đọc to trước lớp.
-  + Với môn Tiếng Việt: Tập trung vào đọc hiểu qua tranh, nhìn chép từ ngữ trên phiếu; với môn Toán: thao tác trực quan trên thẻ số, bảng gài.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Tiếp thu kiến thức qua kênh thị giác trực quan; thể hiện kết quả học tập bằng hành động chỉ tranh, viết bảng con hoặc chọn thẻ đáp án theo mức độ tiếp nhận ${r}%.
-  - Phẩm chất, năng lực chung: Tự tin giao tiếp qua cử chỉ/bảng con, cởi mở hòa nhập và kiên nhẫn hợp tác cùng bạn học.`;
+  + Cho phép học sinh thể hiện sự hiểu bài bằng hành động: chỉ vào tranh, ghép/nối thẻ từ, viết hoặc vẽ câu trả lời ra bảng con/phiếu học tập, chọn thẻ Đ/S hoặc đáp án trực quan thay vì bắt buộc phát biểu hoặc đọc to trước lớp.
+  + Tương tác cùng bạn học bằng kí hiệu ngôn ngữ, cử chỉ; bạn cùng bàn chủ động hỗ trợ chia sẻ bài học.`;
     } else if (type === 'nhin' || type === 'khiem_thi') {
       guide = `DẠNG TẬT: Khuyết tật nhìn (Thị lực kém, nhìn mờ, cần cỡ chữ lớn hoặc khiếm thị)
 - ${levelDescription}
 - NGUYÊN TẮC SƯ PHẠM: Tối ưu hóa kênh thính giác (lắng nghe cô giáo và bạn đọc mẫu) và xúc giác (sờ chạm vật thật, mô hình nổi, que tính).
 - ĐIỀU CHỈNH PHƯƠNG THỨC:
   + Sử dụng phiếu học tập in chữ to, hình ảnh phóng to có độ tương phản cao; ngồi ở vị trí đủ ánh sáng và gần bảng.
-  + Cho phép học sinh tiếp thu và trả lời qua lời nói, mô tả bằng lời thay vì yêu cầu quan sát chi tiết nhỏ trên tranh; không chấm lỗi trình bày chữ viết/hình vẽ.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Tiếp thu bài học qua lời giảng và mô tả của GV/bạn kèm; thao tác trên vật thật, đồ dùng học tập kích thước lớn; trả lời miệng hoặc ghi bảng với chữ số cỡ to theo mức thị lực ${r}%.
-  - Phẩm chất, năng lực chung: Chăm chú lắng nghe, chủ động giao tiếp bằng lời nói và mạnh dạn hợp tác cùng bạn học.`;
+  + Cho phép học sinh tiếp thu và trả lời qua lời nói, mô tả bằng lời thay vì yêu cầu quan sát chi tiết nhỏ trên tranh; không chấm lỗi trình bày chữ viết/hình vẽ.`;
     } else if (type === 'tu_ki' || type === 'tu_ky') {
       guide = `DẠNG TẬT: Rối loạn phổ tự kỉ / Tăng động giảm chú ý (ADHD) (Hạn chế tương tác xã hội, nhạy cảm môi trường, dễ mất tập trung)
 - ${levelDescription}
 - NGUYÊN TẮC SƯ PHẠM: Tạo không gian học tập ổn định, chia nhỏ nhiệm vụ thành từng bước rõ ràng kèm hình ảnh trực quan (Visual schedule).
 - ĐIỀU CHỈNH PHƯƠNG THỨC:
   + Cho phép học sinh hoàn thành nhiệm vụ cá nhân vừa sức, khích lệ từng tiến bộ nhỏ, tránh tạo áp lực biểu đạt trước đám đông.
-  + Khi học sinh mất tập trung hoặc quá tải, cho phép nghỉ ngắn hoặc đổi sang thao tác với đồ dùng học tập trực quan.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Tiếp nhận nhiệm vụ học tập qua hướng dẫn từng bước kèm hình ảnh trực quan; hoàn thành nhiệm vụ cá nhân vừa sức theo mức đáp ứng ${r}% (nhận biết và làm 1-2 bài tập cơ bản), không gây áp lực biểu đạt trước lớp.
-  - Phẩm chất, năng lực chung: Giữ tâm lý vui vẻ, ổn định cảm xúc, từng bước làm quen và hòa nhập cùng bạn cùng bàn.`;
-    } else if (type === 'khac' || type === 'hoc_tap') {
-      guide = `DẠNG TẬT: Khó khăn học tập đặc thù / Khuyết tật khác / Học sinh hòa nhập chung
-- ${levelDescription}
-- NGUYÊN TẮC SƯ PHẠM: Tạo điều kiện hòa nhập tích cực, phân công nhiệm vụ vừa sức theo sở trường của học sinh; có bạn cùng bàn hỗ trợ (mô hình đôi bạn cùng tiến).
-- ĐIỀU CHỈNH PHƯƠNG THỨC: Giao bài tập ở mức độ nhận biết và thực hành cơ bản; tinh giản các bài tập suy luận trừu tượng hoặc yêu cầu tốc độ nhanh.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Nắm được kiến thức cốt lõi của bài học; hoàn thành khoảng ${r}% khối lượng bài tập nhận biết cơ bản với sự hỗ trợ của đồ dùng trực quan hoặc bạn học; giảm tải các bài suy luận phức tạp.
-  - Phẩm chất, năng lực chung: Tự tin, không nản lòng, có ý thức hoàn thành bài tập vừa sức và hòa nhập cùng tập thể lớp.`;
+  + Sử dụng thẻ cảm xúc (vui/buồn), khuyến khích hòa nhập tự nhiên cùng bạn cùng bàn.`;
     } else {
-      // tri_tue
-      guide = `DẠNG TẬT: Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)
+      guide = `DẠNG TẬT: Khuyết tật trí tuệ / Khó khăn học tập (Tiếp thu chậm, ghi nhớ ngắn hạn)
 - ${levelDescription}
 - NGUYÊN TẮC ĐỊNH LƯỢNG & GIẢM TẢI ${r}% THEO CHUẨN CV 2345:
-  + Hạ bậc chuẩn nhận thức: Chuyển đổi từ mức độ thông hiểu, vận dụng, suy luận trừu tượng sang mức độ NHẬN BIẾT CƠ BẢN, THAO TÁC TRỰC QUAN và LÀM THEO MẪU với sự trợ giúp của giáo viên, bạn học hoặc đồ dùng học tập trực quan.
+  + Hạ bậc chuẩn nhận thức: Chuyển đổi từ mức độ thông hiểu, vận dụng sang mức độ NHẬN BIẾT CƠ BẢN, THAO TÁC TRỰC QUAN và LÀM THEO MẪU với sự trợ giúp của giáo viên, bạn học hoặc đồ dùng học tập trực quan.
   + Giới hạn phạm vi kiến thức & bài tập cụ thể: Chỉ yêu cầu học sinh làm quen với các số nhỏ, phép tính đơn giản; hoàn thành khoảng ${r}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 dạng cơ bản theo mẫu).
-  + Nêu rõ phần giảm tải: Tuyên bố rõ ràng KHÔNG bắt buộc học sinh phải làm các bài toán giải có lời văn nhiều bước tính, bài tính thuận tiện/tính nhanh hay các bài tập nâng cao.
-- BÁM SÁT ĐẶC THÙ BỘ MÔN:
-  + Môn Toán: Giới hạn rõ phạm vi số (số có 3-4 chữ số / số tròn trăm, tròn nghìn); phép tính đơn giản (không nhớ hoặc nhớ 1 lần trong phạm vi nhỏ); phân số cơ bản (phân số cùng mẫu số / phân số thập phân có mẫu 10, 100); chỉ định rõ hoàn thành khoảng ${r}% bài tập nhận biết ở Bài 1 hoặc Bài 2; không yêu cầu giải toán có lời văn 2-3 bước hay tính thuận tiện.
-  + Môn Tiếng Việt: Đọc trơn tên bài và 1-2 câu ngắn nhất; trả lời câu hỏi nhận biết trực quan trực tiếp; nhìn chép từ ngữ hoặc câu ngắn trên phiếu; không yêu cầu viết đoạn văn dài hay phân tích.
-  + Môn Khoa học, Lịch sử - Địa lý, TNXH, Đạo đức, Công nghệ: Nhận diện, chỉ đúng hình ảnh trực quan và nhắc lại 1-2 từ khóa cốt lõi của bài.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: [Kiến thức cốt lõi bám sát bài, giới hạn phạm vi, hoàn thành khoảng ${r}% bài tập cơ bản Bài 1/Bài 2 theo mẫu, nêu rõ nội dung giảm tải không bắt buộc].
-  - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và nỗ lực hoàn thành nhiệm vụ vừa sức].`;
+  + Nêu rõ phần giảm tải: Tuyên bố rõ ràng KHÔNG bắt buộc học sinh phải làm các bài toán giải có lời văn nhiều bước tính, bài tính thuận tiện/tính nhanh hay các bài tập nâng cao.`;
     }
 
     if (notes && notes.trim()) {
-      guide += `\n- LƯU Ý ĐẶC THÙ TỪ GIÁO VIÊN ĐỨNG LỚP: ${notes.trim()}`;
+      guide += `\n\n- LƯU Ý ĐẶC THÙ TỪ GIÁO VIÊN ĐỨNG LỚP: ${notes.trim()}`;
     }
     return guide;
+  },
+
+  /**
+   * Tạo hoạt động phân hóa thông minh, vừa sức, bám sát môn học và khối lớp cho học sinh hòa nhập (Hỗ trợ 1 - 3 học sinh)
+   */
+  getSmartDisabilityActivities: function(lesson, disabilityConfig) {
+    var students = this.getDisabilityStudentsList(disabilityConfig);
+    if (!students || students.length === 0) {
+      students = [{
+        id: 1,
+        disabilityType: (disabilityConfig && disabilityConfig.disabilityType) || 'tri_tue',
+        cognitiveRate: (disabilityConfig && parseInt(disabilityConfig.cognitiveRate, 10)) || 50,
+        name: ''
+      }];
+    }
+    var grade = (lesson && (lesson.grade || (lesson.lessonTitle && lesson.lessonTitle.match(/lớp\s*(\d)/i) ? parseInt(lesson.lessonTitle.match(/lớp\s*(\d)/i)[1]) : 5))) || 5;
+    var subjKey = (lesson && (lesson.subjectKey || lesson.subjectName || '')).toLowerCase();
+    var self = this;
+
+    if (students.length === 1) {
+      var s0 = students[0];
+      var disType = s0.disabilityType || 'tri_tue';
+      var isKhiemThinh = (disType === 'khiem_thinh' || disType === 'nghe_noi');
+      var isKhiemThi = (disType === 'khiem_thi' || disType === 'nhin');
+      var isVanDong = (disType === 'van_dong');
+      var isTuKy = (disType === 'tu_ki' || disType === 'tu_ky');
+      var sName = s0.name ? (' (' + s0.name + ')') : '';
+
+      var kdTeacher = '';
+      var kdStudent = '';
+      var ltTeacher = '';
+      var ltStudent = '';
+      var vdTeacher = '';
+      var vdStudent = '';
+
+      // 1. Khởi động
+      if (isKhiemThinh) {
+        kdTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh/video, giao nhiệm vụ nhận biết trực quan bằng cử chỉ/ngôn ngữ kí hiệu.`;
+        kdStudent = `* HSHN${sName} quan sát tranh, vỗ tay và bày tỏ cảm xúc theo bài hát/trò chơi cùng bạn (bằng kí hiệu ngôn ngữ).`;
+      } else if (isKhiemThi) {
+        kdTeacher = `- GV hướng dẫn HSHN${sName} lắng nghe giai điệu/lời dẫn của bài hát khởi động, khích lệ em cùng hòa nhập với lớp.`;
+        kdStudent = `* HSHN${sName} chăm chú lắng nghe, hưởng ứng vỗ tay và nhắc lại từ khóa theo sự trợ giúp của bạn cùng bàn.`;
+      } else if (isVanDong) {
+        kdTeacher = `- GV tạo điều kiện cho HSHN${sName} tham gia khởi động tại chỗ, bạn cùng bàn hỗ trợ các vận động tay chân.`;
+        kdStudent = `* HSHN${sName} tham gia trò chơi khởi động cùng lớp theo khả năng vận động vừa sức.`;
+      } else {
+        kdTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh ảnh khởi động, đặt câu hỏi gợi ý đơn giản, khích lệ em tham gia.`;
+        kdStudent = `* HSHN${sName} quan sát tranh, lắng nghe và trả lời câu hỏi nhận biết đơn giản theo gợi ý của cô.`;
+      }
+
+      // 2. Luyện tập
+      if (subjKey.includes('toán') || subjKey === 'toan') {
+        if (isKhiemThinh) {
+          ltTeacher = `- GV HD HSHN${sName} quan sát bảng phụ/thẻ số trực quan để thực hiện các bài tập nhận biết cơ bản trên bảng con.`;
+          ltStudent = `* HSHN${sName} đưa thẻ Đ/S hoặc làm bài tập số tự nhiên đơn giản vào bảng con; bạn cùng bàn hỗ trợ bằng kí hiệu ngôn ngữ.`;
+        } else if (isVanDong) {
+          ltTeacher = `- GV hướng dẫn HSHN${sName} trả lời miệng hoặc chỉ đáp án trên bảng phụ, giảm khối lượng viết vẽ phức tạp.`;
+          ltStudent = `* HSHN${sName} tham gia tính toán miệng hoặc chọn thẻ số/thẻ kết quả đúng với sự hỗ trợ ghi chép của bạn cùng nhóm.`;
+        } else if (isKhiemThi) {
+          ltTeacher = `- GV dùng đồ dùng trực quan xúc giác (que tính, khối hộp, chữ số nổi phóng to) và đọc rõ yêu cầu bài tập cho HSHN${sName}.`;
+          ltStudent = `* HSHN${sName} lắng nghe cô đọc đề, thao tác trên đồ dùng trực quan kích thước lớn và nêu kết quả miệng.`;
+        } else {
+          ltTeacher = `- GV HD HSHN${sName} nhìn bảng mẫu/đồ dùng trực quan để làm quen và hoàn thành các bài tập nhận biết cơ bản Bài 1.`;
+          ltStudent = `* HSHN${sName} lần lượt làm bài tập nhận biết số tự nhiên cơ bản vào bảng con hoặc giơ thẻ Đúng/Sai (bạn cùng bàn kèm cặp).`;
+        }
+      } else if (subjKey.includes('tiếng việt') || subjKey === 'tieng_viet') {
+        if (isKhiemThinh) {
+          ltTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh minh họa, nhìn chép từ ngữ trọng tâm của bài vào bảng con/phiếu học tập.`;
+          ltStudent = `* HSHN${sName} quan sát tranh, ghép thẻ từ ngữ tương ứng hoặc nhìn chép từ ngữ ngắn vào bảng con (bạn kèm cặp).`;
+        } else {
+          ltTeacher = `- GV hướng dẫn HSHN${sName} đọc trơn tên bài và 1-2 câu ngắn nhất; gợi ý câu hỏi nhận biết trực quan trực tiếp.`;
+          ltStudent = `* HSHN${sName} đọc trơn câu ngắn theo hướng dẫn của cô; chỉ tranh trả lời câu hỏi và nhìn chép từ ngữ cốt lõi vào vở.`;
+        }
+      } else if (subjKey.includes('tự nhiên') || subjKey === 'tnxh' || subjKey.includes('khoa học') || subjKey === 'khoa_hoc' || subjKey.includes('lịch sử') || subjKey.includes('địa lí') || subjKey === 'lich_su_dia_ly') {
+        if (isKhiemThinh) {
+          ltTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh ảnh/mô hình/clip trực quan, chỉ các chi tiết/hình ảnh cốt lõi trên sơ đồ.`;
+          ltStudent = `* HSHN${sName} quan sát sơ đồ/clip, chỉ đúng các hình ảnh trọng tâm của bài học và thảo luận cùng bạn bằng cử chỉ.`;
+        } else {
+          ltTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh/mô hình, chỉ và gọi tên các sự vật/hiện tượng đơn giản của bài.`;
+          ltStudent = `* HSHN${sName} quan sát tranh ảnh, chỉ đúng vị trí trên sơ đồ và nhắc lại tên sự vật/hiện tượng theo hướng dẫn của cô.`;
+        }
+      } else {
+        ltTeacher = `- GV giao nhiệm vụ vừa sức và hướng dẫn HSHN${sName} thực hành thao tác cơ bản cùng nhóm bạn.`;
+        ltStudent = `* HSHN${sName} thực hiện nhiệm vụ cơ bản với sự đồng hành, giúp đỡ của bạn cùng bàn.`;
+      }
+
+      // 3. Vận dụng
+      if (isKhiemThinh) {
+        vdTeacher = `- GV hướng dẫn HSHN${sName} thảo luận cùng bạn (bằng ngôn ngữ kí hiệu/cử chỉ) và tham gia tự đánh giá tiết học.`;
+        vdStudent = `* HSHN${sName} thảo luận cùng bạn ngồi bên cạnh; tham gia đánh giá tiết học bằng thẻ cảm xúc (mặt cười / vui - không vui).`;
+      } else {
+        vdTeacher = `- GV hướng dẫn HSHN${sName} chia sẻ cảm nghĩ đơn giản về bài học và tổ chức đánh giá cuối tiết.`;
+        vdStudent = `* HSHN${sName} tham gia chia sẻ cùng bạn và cùng cả lớp đánh giá tiết học thông qua thẻ cảm xúc (vui - không vui).`;
+      }
+
+      return {
+        khoiDong: { teacherAct: kdTeacher, studentAct: kdStudent },
+        luyenTap: { teacherAct: ltTeacher, studentAct: ltStudent },
+        vanDung: { teacherAct: vdTeacher, studentAct: vdStudent }
+      };
+    }
+
+    // Trường hợp từ 2 đến 3 học sinh hòa nhập
+    var stuLabels = students.map(function(s, idx) {
+      return (s.name ? s.name : ('HS ' + (idx + 1))) + ' (' + self.getDisabilityShortTypeName(s.disabilityType) + ')';
+    }).join(', ');
+
+    return {
+      khoiDong: {
+        teacherAct: `- GV quan sát, bao quát và khích lệ các HSHN (${stuLabels}) cùng tham gia hoạt động khởi động; giao nhiệm vụ trực quan vừa sức cho từng em.`,
+        studentAct: `* Các HSHN hào hứng tham gia hoạt động khởi động theo khả năng và hòa nhập vui vẻ cùng các bạn trong lớp.`
+      },
+      luyenTap: {
+        teacherAct: `- GV phân công bạn cùng bàn kèm cặp và trực tiếp hướng dẫn từng HSHN (${stuLabels}) làm bài tập nhận biết cơ bản (Bài 1): hỗ trợ đồ dùng trực quan, thẻ chọn đáp án hoặc thao tác trên bảng con tùy theo dạng tật của từng em.`,
+        studentAct: `* Các HSHN nỗ lực hoàn thành bài tập nhận biết mức 1 theo khả năng với sự hỗ trợ của cô giáo và bạn cùng bàn.`
+      },
+      vanDung: {
+        teacherAct: `- GV hướng dẫn các HSHN (${stuLabels}) cùng tham gia hoạt động chia sẻ, khen ngợi sự nỗ lực tiến bộ của từng em.`,
+        studentAct: `* Các HSHN giơ thẻ cảm xúc (vui / không vui), tự tin chia sẻ cảm nhận và đón nhận sự động viên của thầy cô, bạn bè.`
+      }
+    };
+  },
+
+  /**
+   * Tạo mục tiêu YCCĐ (Năng lực đặc thù & Phẩm chất chung) cho 1 học sinh khuyết tật đơn lẻ
+   */
+  getSmartDisabilityYccdForStudent: function(lesson, student, subjectKey, grade) {
+    var disType = (student && student.disabilityType) || 'tri_tue';
+    var rate = (student && parseInt(student.cognitiveRate, 10)) || 50;
+    var subjKey = (subjectKey || (lesson && (lesson.subjectKey || lesson.subjectName || '')) || '').toLowerCase();
+
+    var isKhiemThinh = (disType === 'khiem_thinh' || disType === 'nghe_noi');
+    var isKhiemThi = (disType === 'khiem_thi' || disType === 'nhin');
+    var isVanDong = (disType === 'van_dong');
+    var isTuKy = (disType === 'tu_ki' || disType === 'tu_ky');
+
+    var dacThu = '';
+    var chung = '';
+
+    if (subjKey.includes('toan')) {
+      if (isKhiemThinh) {
+        dacThu = 'Đọc khẩu hình và quan sát tranh ảnh trực quan để nhận biết yêu cầu cơ bản của bài toán; thực hiện được phép tính hoặc bài tập nhận biết mức 1 trên bảng con (bạn cùng bàn hỗ trợ).';
+        chung = 'Tập trung chú ý theo dõi cử chỉ, khẩu hình của cô giáo; phối hợp tốt cùng bạn khi làm việc nhóm và giơ thẻ cảm xúc chia sẻ sau tiết học.';
+      } else if (isKhiemThi) {
+        dacThu = 'Lắng nghe lời giảng và sờ/cảm nhận que tính, hình khối trực quan để hiểu yêu cầu bài toán; hoàn thành bài tập nhận biết mức 1 theo hướng dẫn của giáo viên.';
+        chung = 'Lắng nghe tích cực, tự giác hoàn thành bài tập vừa sức và mạnh dạn nhờ bạn hỗ trợ khi cần.';
+      } else if (isVanDong) {
+        dacThu = 'Nhận biết được kiến thức cơ bản của bài học; chỉ tay, nối đáp án hoặc dùng thẻ số/thẻ Đúng-Sai để trả lời bài tập nhận biết mức 1.';
+        chung = 'Kiên trì, chủ động tham gia hoạt động và hoàn thành nhiệm vụ theo khả năng vận động của bản thân.';
+      } else if (isTuKy) {
+        dacThu = 'Quan sát lịch trình bài học và thẻ tranh trực quan; thực hiện được bài tập nhận biết đơn giản theo mẫu hướng dẫn của cô giáo.';
+        chung = 'Giữ bình tĩnh trong giờ học, hoàn thành nhiệm vụ cá nhân vừa sức và hợp tác thân thiện cùng bạn cùng bàn.';
+      } else {
+        dacThu = 'Nhận biết được kiến thức trọng tâm đơn giản của bài học; thực hiện được bài tập nhận biết cơ bản (Bài 1) trên bảng con với sự hướng dẫn của giáo viên và bạn cùng bàn.';
+        chung = 'Có ý thức tập trung học tập, hoàn thành nhiệm vụ vừa sức theo khả năng và hợp tác cùng bạn.';
+      }
+    } else if (subjKey.includes('tieng_viet') || subjKey.includes('tiếng việt')) {
+      if (isKhiemThinh) {
+        dacThu = 'Quan sát tranh ảnh minh họa và cử chỉ, khẩu hình của cô giáo để nhận biết nội dung/từ ngữ chính; viết lại được từ ngữ đơn giản vào bảng con.';
+        chung = 'Hào hứng tham gia tương tác bằng cử chỉ, thẻ hình ảnh và hợp tác thân thiện cùng bạn.';
+      } else if (isKhiemThi) {
+        dacThu = 'Lắng nghe giáo viên và bạn đọc mẫu để nhận biết nội dung chính của bài đọc; nhắc lại được 1 - 2 câu đơn giản bằng lời.';
+        chung = 'Tập trung lắng nghe, tự tin chia sẻ bằng lời nói và hòa nhập cùng các bạn.';
+      } else if (isVanDong) {
+        dacThu = 'Nhận biết được từ khóa hoặc nội dung chính qua tranh ảnh; trả lời miệng hoặc chỉ chọn thẻ chữ đúng thay vì phải viết dài.';
+        chung = 'Tích cực tham gia trả lời miệng, kiên trì và hợp tác cùng bạn cùng bàn.';
+      } else {
+        dacThu = 'Nhận biết được từ khóa, hình ảnh hoặc chi tiết chính trong bài đọc; đọc/viết lại được câu hoặc từ ngữ đơn giản theo hướng dẫn trực tiếp của giáo viên.';
+        chung = 'Tích cực lắng nghe, mạnh dạn trao đổi cùng bạn cùng bàn và có tinh thần tự giác trong học tập.';
+      }
+    } else if (subjKey.includes('tu_nhien_xa_hoi') || subjKey.includes('khoa_hoc') || subjKey.includes('lich_su_dia_ly') || subjKey.includes('lsđl')) {
+      if (isKhiemThinh) {
+        dacThu = 'Quan sát tranh ảnh, sơ đồ hoặc video trực quan để chỉ và gọi tên được các đối tượng/hiện tượng tự nhiên - xã hội chính trong bài học.';
+        chung = 'Tích cực quan sát, hào hứng khám phá bài học cùng nhóm bạn và chia sẻ cảm xúc sau hoạt động.';
+      } else if (isKhiemThi) {
+        dacThu = 'Lắng nghe mô tả và sờ mẫu vật thật/mô hình trực quan để nhận biết đối tượng trong bài học.';
+        chung = 'Hứng thú lắng nghe, tích cực tương tác cùng cô giáo và các bạn.';
+      } else if (isVanDong) {
+        dacThu = 'Quan sát tranh ảnh, video và chỉ chọn đáp án đúng trên bảng phụ về nội dung bài học.';
+        chung = 'Chủ động tham gia hoạt động nhóm và tự tin chia sẻ ý kiến theo khả năng.';
+      } else {
+        dacThu = 'Quan sát tranh ảnh, hiện vật trực quan để nhận biết và nêu được 1 - 2 đặc điểm cơ bản của bài học theo gợi mở của giáo viên.';
+        chung = 'Hứng thú tìm hiểu môi trường sống xung quanh, có ý thức giữ gìn vệ sinh và hợp tác tốt cùng bạn bè.';
+      }
+    } else if (subjKey.includes('dao_duc') || subjKey.includes('hdtn') || subjKey.includes('trai_nghiem')) {
+      dacThu = 'Quan sát tranh và nhận biết được hành vi đúng/sai đơn giản qua thẻ Đúng/Sai hoặc thẻ cảm xúc vui/buồn theo hướng dẫn của giáo viên.';
+      chung = 'Vui vẻ, tự tin hòa nhập cùng tập thể lớp, biết nói lời cảm ơn và yêu quý bạn bè.';
+    } else {
+      dacThu = 'Nhận biết được nhiệm vụ học tập cơ bản; tham gia thực hiện thao tác ban đầu theo mẫu và sự hỗ trợ của bạn cùng bàn.';
+      chung = 'Vui vẻ hòa nhập, có ý thức hoàn thành nhiệm vụ theo khả năng và tham gia các hoạt động chung của lớp.';
+    }
+
+    return {
+      dacThu: dacThu,
+      chung: chung
+    };
+  },
+
+  /**
+   * Tạo YCCĐ phân hóa 2 gạch đầu dòng bám sát môn học và dạng khuyết tật (Hỗ trợ 1 - 3 học sinh)
+   */
+  getSmartDisabilityYccd: function(lesson, disabilityConfig) {
+    var students = this.getDisabilityStudentsList(disabilityConfig);
+    if (!students || students.length === 0) {
+      students = [{
+        id: 1,
+        disabilityType: (disabilityConfig && disabilityConfig.disabilityType) || 'tri_tue',
+        cognitiveRate: (disabilityConfig && parseInt(disabilityConfig.cognitiveRate, 10)) || 50,
+        name: ''
+      }];
+    }
+
+    var grade = (lesson && (lesson.grade || (lesson.lessonTitle && lesson.lessonTitle.match(/lớp\s*(\d)/i) ? parseInt(lesson.lessonTitle.match(/lớp\s*(\d)/i)[1]) : 5))) || 5;
+    var subjKey = (lesson && (lesson.subjectKey || lesson.subjectName || '')).toLowerCase();
+
+    // Nếu chỉ có 1 học sinh và không có tên riêng: xuất đúng mẫu 2 gạch đầu dòng truyền thống
+    if (students.length === 1 && !students[0].name) {
+      var singleRes = this.getSmartDisabilityYccdForStudent(lesson, students[0], subjKey, grade);
+      return `5. Điều chỉnh đối với học sinh hòa nhập:\n- Năng lực đặc thù: ${singleRes.dacThu}\n- Phẩm chất, năng lực chung: ${singleRes.chung}`;
+    }
+
+    // Nếu có từ 2 học sinh trở lên (hoặc học sinh có tên riêng): xuất mục tiêu cho từng học sinh, mỗi học sinh đủ 2 gạch đầu dòng
+    var self = this;
+    var lines = ['5. Điều chỉnh đối với học sinh hòa nhập:'];
+    students.forEach(function(st, idx) {
+      var stRes = self.getSmartDisabilityYccdForStudent(lesson, st, subjKey, grade);
+      var shortType = self.getDisabilityShortTypeName(st.disabilityType);
+      var namePart = st.name ? (st.name + ' - ') : '';
+      var subHeader = `* Học sinh ${idx + 1}: ${shortType} (${namePart}Mức độ nhận thức ~${st.cognitiveRate}%):`;
+      lines.push(subHeader);
+      lines.push(`- Năng lực đặc thù: ${stRes.dacThu}`);
+      lines.push(`- Phẩm chất, năng lực chung: ${stRes.chung}`);
+    });
+
+    return lines.join('\n');
+  },
+
+  /**
+   * Lấy tên ngắn gọn của dạng khuyết tật để đưa lên tiêu đề giáo án
+   */
+  getDisabilityShortTypeName: function(typeKey) {
+    var map = {
+      'tri_tue': 'Khuyết tật trí tuệ',
+      'van_dong': 'Khuyết tật vận động',
+      'nghe_noi': 'Khiếm thính',
+      'khiem_thinh': 'Khiếm thính',
+      'nhin': 'Khiếm thị',
+      'khiem_thi': 'Khiếm thị',
+      'ngon_ngu': 'Khuyết tật ngôn ngữ',
+      'tu_ki': 'Tự kỉ',
+      'tu_ky': 'Tự kỉ',
+      'hoc_tap': 'Khó khăn học tập',
+      'adhd': 'Tăng động giảm chú ý (ADHD)'
+    };
+    return map[typeKey] || 'Học sinh hòa nhập';
+  },
+
+  /**
+   * Kiểm tra xem một hàng trong bảng hoạt động có phải là hoạt động HSHN hay không
+   */
+  isDisabilityRow: function(row) {
+    if (!row || !Array.isArray(row)) return false;
+    if (row.isDisabilityRow) return true;
+    var rowStr = row.join(' ');
+    return /\bHSHN\b/i.test(rowStr) || 
+           /-\s*GV\s+(?:HD|hướng\s*dẫn|hỗ\s*trợ)\s+HSHN\b/i.test(rowStr) || 
+           /\[HSHN\]/i.test(rowStr) || 
+           /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(rowStr) ||
+           /đối\s*với\s*học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(rowStr);
+  },
+
+  /**
+   * Tạo văn bản đồ dùng dạy học trực quan hỗ trợ cho học sinh hòa nhập (Hỗ trợ 1 - 3 học sinh)
+   */
+  getDisabilityDodungText: function(disabilityConfig, subjectKey, grade) {
+    var students = this.getDisabilityStudentsList(disabilityConfig);
+    if (!students || students.length === 0) {
+      students = [{
+        id: 1,
+        disabilityType: (disabilityConfig && disabilityConfig.disabilityType) || 'tri_tue',
+        name: ''
+      }];
+    }
+
+    var self = this;
+    var getDodungForType = function(disType) {
+      var isKhiemThinh = (disType === 'khiem_thinh' || disType === 'nghe_noi');
+      var isKhiemThi = (disType === 'khiem_thi' || disType === 'nhin');
+      var isVanDong = (disType === 'van_dong');
+      var isTuKy = (disType === 'tu_ki' || disType === 'tu_ky');
+
+      if (isKhiemThinh) {
+        return 'Thẻ Đúng/Sai, thẻ cảm xúc (vui - không vui), bảng con, thẻ từ ngữ/hình ảnh trực quan phóng to, phiếu học tập in sẵn.';
+      } else if (isKhiemThi) {
+        return 'Phiếu học tập in chữ số cỡ lớn tương phản cao, mô hình/vật thật kích thước lớn, thẻ cảm xúc, que tính trực quan.';
+      } else if (isVanDong) {
+        return 'Thẻ chọn đáp án, thẻ số/thẻ chữ in sẵn, thẻ cảm xúc, bảng phụ hỗ trợ chỉ tay.';
+      } else if (isTuKy) {
+        return 'Lịch biểu hình ảnh trực quan (Visual schedule), thẻ cảm xúc, đồ dùng học tập trực quan kích thích hứng thú, bảng con.';
+      } else {
+        return 'Bảng con, phấn/bút lông, thẻ Đúng/Sai, thẻ cảm xúc (vui - không vui), phiếu bài tập nhận biết có hình ảnh trực quan.';
+      }
+    };
+
+    if (students.length === 1 && !students[0].name) {
+      return '- Đối với học sinh hòa nhập: ' + getDodungForType(students[0].disabilityType);
+    }
+
+    return students.map(function(st, idx) {
+      var shortType = self.getDisabilityShortTypeName(st.disabilityType);
+      var namePart = st.name ? (' ' + st.name) : '';
+      return `- Đối với học sinh ${idx + 1}${namePart} (${shortType}): ` + getDodungForType(st.disabilityType);
+    }).join('\n');
+  },
+
+  /**
+   * Làm sạch triệt để mọi dòng hoạt động HSHN đã chèn vào bảng dạy học (Bảo đảm tính lũy đẳng)
+   */
+  cleanDisabilityFromTables: function(lesson) {
+    if (!lesson || !Array.isArray(lesson.tables)) return lesson;
+    lesson.tables = lesson.tables.map(function(tableRows) {
+      if (!Array.isArray(tableRows)) return tableRows;
+      return tableRows.filter(function(row) {
+        if (!Array.isArray(row)) return true;
+        var rowStr = row.join(' ');
+        if (/^\s*\*?\s*HSHN\b/i.test(rowStr) || /-\s*GV\s+(?:HD|hướng\s*dẫn)\s+HSHN\b/i.test(rowStr) || /\[HSHN\]/i.test(rowStr)) {
+          return false;
+        }
+        return true;
+      });
+    });
+    return lesson;
+  },
+
+  /**
+   * Chèn hoạt động dạy học phân hóa cho học sinh khuyết tật vào các bước dạy học trong bảng (Mục III)
+   */
+  injectDisabilityActivitiesIntoTables: function(lesson, disabilityConfig) {
+    if (!lesson || !Array.isArray(lesson.tables) || lesson.tables.length === 0) return lesson;
+    this.cleanDisabilityFromTables(lesson);
+    if (!disabilityConfig || !disabilityConfig.enabled) return lesson;
+
+    var acts = lesson.disabilityActivitiesAI || this.getSmartDisabilityActivities(lesson, disabilityConfig);
+    if (!acts) return lesson;
+
+    var tableRows = lesson.tables[0];
+    if (!Array.isArray(tableRows) || tableRows.length === 0) return lesson;
+    var has4Cols = tableRows.some(function(row) { return Array.isArray(row) && row.length === 4; });
+
+    // Tìm các vị trí chuyển tiếp trong bảng hoạt động
+    var kdIdx = -1, kpIdx = -1, ltIdx = -1, vdIdx = -1;
+    var bai1Idx = -1, bai2Idx = -1;
+
+    for (var i = 0; i < tableRows.length; i++) {
+      var r = tableRows[i];
+      if (!Array.isArray(r)) continue;
+      var rStr = r.join(' ').toLowerCase();
+      if (r.length === 1) {
+        if (/khởi\s*động|mở\s*đầu/i.test(rStr)) kdIdx = i;
+        else if (/khám\s*phá|kiến\s*thức\s*mới/i.test(rStr)) kpIdx = i;
+        else if (/luyện\s*tập|thực\s*hành/i.test(rStr)) ltIdx = i;
+        else if (/vận\s*dụng|trải\s*nghiệm|củng\s*cố|đánh\s*giá/i.test(rStr)) vdIdx = i;
+      }
+      if (/bài\s*1\b/i.test(rStr) && bai1Idx === -1) bai1Idx = i;
+      if (/bài\s*2\b/i.test(rStr) && bai2Idx === -1) bai2Idx = i;
+    }
+
+    function createRow(teacherText, studentText) {
+      var gv = (teacherText || '').trim();
+      var hs = (studentText || '').trim();
+      if (!gv.startsWith('-') && !gv.startsWith('*')) gv = '- ' + gv;
+      if (!hs.startsWith('*') && !hs.startsWith('-')) hs = '* ' + hs;
+      var row = has4Cols ? ['', '', gv, hs] : [gv, hs];
+      row.isDisabilityRow = true;
+      return row;
+    }
+
+    var newRows = [];
+    for (var rIdx = 0; rIdx < tableRows.length; rIdx++) {
+      newRows.push(tableRows[rIdx]);
+
+      // 1. Chèn HSHN ở cuối phần Khởi động
+      if (acts.khoiDong && ((kpIdx !== -1 && rIdx === kpIdx - 1) || (kpIdx === -1 && ltIdx !== -1 && rIdx === ltIdx - 1))) {
+        newRows.push(createRow(acts.khoiDong.teacherAct, acts.khoiDong.studentAct));
+      }
+
+      // 2. Chèn HSHN ở phần Khám phá (nếu có)
+      if (acts.khamPha && kpIdx !== -1 && ltIdx !== -1 && rIdx === ltIdx - 1 && kpIdx < ltIdx - 1) {
+        newRows.push(createRow(acts.khamPha.teacherAct, acts.khamPha.studentAct));
+      }
+
+      // 3. Chèn HSHN ở phần Luyện tập / Bài 1 hoặc Bài 2
+      if (acts.luyenTap && ((bai2Idx !== -1 && rIdx === bai2Idx - 1) || (bai1Idx !== -1 && bai2Idx === -1 && rIdx === bai1Idx + 1))) {
+        newRows.push(createRow(acts.luyenTap.teacherAct, acts.luyenTap.studentAct));
+      }
+    }
+
+    // Nếu không tìm thấy Bài 1 / Bài 2 cụ thể để chèn, chèn trước phần Vận dụng
+    var hasInsertedLt = newRows.some(function(r) { return r.join(' ').includes(acts.luyenTap.studentAct); });
+    if (!hasInsertedLt && acts.luyenTap) {
+      if (vdIdx !== -1) {
+        var insertPos = newRows.findIndex(function(r) { return r.length === 1 && /vận\s*dụng|trải\s*nghiệm/i.test(r[0]); });
+        if (insertPos !== -1) {
+          newRows.splice(insertPos, 0, createRow(acts.luyenTap.teacherAct, acts.luyenTap.studentAct));
+        } else {
+          newRows.push(createRow(acts.luyenTap.teacherAct, acts.luyenTap.studentAct));
+        }
+      } else {
+        newRows.push(createRow(acts.luyenTap.teacherAct, acts.luyenTap.studentAct));
+      }
+    }
+
+    // 4. Chèn HSHN ở phần Vận dụng / Đánh giá tiết học
+    if (acts.vanDung) {
+      newRows.push(createRow(acts.vanDung.teacherAct, acts.vanDung.studentAct));
+    }
+
+    lesson.tables[0] = newRows;
+    return lesson;
   },
 
   /**
@@ -1254,29 +1683,39 @@ var IntegrationService = {
       }
     }
 
-    // 3. Chèn vào mục I. YCCĐ của từng bài
+    // 3. Chèn vào mục I. YCCĐ và Mục III (Bảng tiến trình) của từng bài
     lessons.forEach(function(les) {
       self.injectDisabilityIntoLesson(les, disabilityConfig);
+      self.injectDisabilityActivitiesIntoTables(les, disabilityConfig);
     });
 
     return lessons;
   },
 
   /**
-   * Bộ xử lý nội bộ gửi batch bài dạy trực tiếp cho Gemini AI để biên soạn YCCĐ khuyết tật
+   * Bộ xử lý nội bộ gửi batch bài dạy trực tiếp cho Gemini AI để biên soạn YCCĐ khuyết tật (Hỗ trợ 1 - 3 học sinh)
    */
   _adaptDisabilityBatchInternal: async function(lessons, disabilityConfig, apiKey) {
     if (!lessons || !lessons.length) return lessons;
-    var rate = parseInt(disabilityConfig.cognitiveRate, 10) || 50;
-    var typeName = disabilityConfig.disabilityTypeName || (typeof AIService !== 'undefined' && AIService.getDisabilityTypeName ? AIService.getDisabilityTypeName(disabilityConfig.disabilityType) : '') || 'Khuyết tật học tập';
-    var notes = (disabilityConfig.notes || '').trim();
-    var guidance = (typeof AIService !== 'undefined' && AIService.getDisabilityGuidance)
-      ? AIService.getDisabilityGuidance(disabilityConfig.disabilityType, rate, notes)
-      : ('Dạng tật: ' + typeName + ', tỉ lệ nhận thức: ' + rate + '%. Hãy biên soạn YCCĐ chuẩn mực sư phạm, vừa sức theo CV 2345.');
+    var self = this;
+    var studentsList = this.getDisabilityStudentsList(disabilityConfig);
+    if (!studentsList.length) {
+      studentsList = [{
+        id: 1,
+        name: '',
+        disabilityType: disabilityConfig.disabilityType || 'tri_tue',
+        disabilityTypeName: disabilityConfig.disabilityTypeName || this.getDisabilityTypeName(disabilityConfig.disabilityType),
+        cognitiveRate: parseInt(disabilityConfig.cognitiveRate, 10) || 50,
+        notes: (disabilityConfig.notes || '').trim()
+      }];
+    }
+    var isMulti = (studentsList.length > 1);
 
     var itemsToSend = lessons.map(function(les, index) {
       var title = (les.lessonTitle || les.title || ('Bài học ' + (index + 1))).trim();
       var subj = les.subjectName || les.subject || (IntegrationService.getSubjectDisplayName ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || '';
+      var gr = les.grade || disabilityConfig.grade || 5;
+
       var rawYccd = les.yccd || [];
       if (typeof rawYccd === 'string') rawYccd = rawYccd.split('\n');
       var specificYccd = [];
@@ -1297,42 +1736,141 @@ var IntegrationService = {
         id: index,
         title: title,
         subject: subj,
+        subjectKey: les.subjectKey || '',
+        grade: gr,
         originalYccd: specificYccd.length ? specificYccd : [(les.topic || title)]
       };
     });
+
+    var sampleSubj = itemsToSend[0] ? itemsToSend[0].subjectKey : '';
+    var sampleGrade = itemsToSend[0] ? itemsToSend[0].grade : 5;
+
+    var studentInfoSections = studentsList.map(function(st, sIdx) {
+      var sGuide = (typeof AIService !== 'undefined' && AIService.getDisabilityGuidance)
+        ? AIService.getDisabilityGuidance(st.disabilityType, st.cognitiveRate, st.notes, sampleSubj, sampleGrade)
+        : self.getDisabilityGuidance(st.disabilityType, st.cognitiveRate, st.notes, sampleSubj, sampleGrade);
+      var titleStr = `HỌC SINH ${sIdx + 1}${st.name ? (' (' + st.name + ')') : ''}:`;
+      return `${titleStr}
+- Dạng tật: ${st.disabilityTypeName || self.getDisabilityTypeName(st.disabilityType)}
+- Mức độ nhận thức / tiếp thu: khoảng ${st.cognitiveRate}% so với chuẩn chung của lớp
+${st.notes ? ('- Ghi chú riêng từ giáo viên: ' + st.notes) : ''}
+- Hướng dẫn điều chỉnh sư phạm cho dạng tật này:
+${sGuide}`;
+    }).join('\n\n');
+
+    var promptRules = '';
+    var sampleJson = '';
+
+    if (!isMulti) {
+      var singleSt = studentsList[0];
+      promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHUẨN CV 2345):
+1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của học sinh; TUYỆT ĐỐI KHÔNG dùng mẫu câu rập khuôn, sáo rỗng.
+2. CẤU TRÚC YCCĐ (disabilityYccd) BẮT BUỘC ĐỦ 2 GẠCH ĐẦU DÒNG (PHÂN TÁCH BẰNG DẤU XUỐNG DÒNG \\n):
+   - Năng lực đặc thù: [Chỉ rõ kiến thức cốt lõi bám sát bài, môn học và khối lớp; giới hạn phạm vi số/kiến thức cụ thể (ví dụ môn Toán: số có bao nhiêu chữ số, phép tính cụ thể nào...), định lượng rõ hoàn thành khoảng ${singleSt.cognitiveRate}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 theo mẫu), và loại trừ rõ phần giảm tải không bắt buộc làm (không yêu cầu giải toán có lời văn 2-3 bước tính hay bài tính thuận tiện, bài nâng cao)].
+   - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và có ý thức nỗ lực hoàn thành nhiệm vụ vừa sức].
+3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể 1 dòng đồ dùng trực quan (ví dụ: "- Đối với học sinh hòa nhập: Thẻ cảm xúc, thẻ Đ/S, bảng con, phiếu học tập/tranh ảnh trực quan...").
+4. TIẾN TRÌNH HOẠT ĐỘNG (disabilityActivities): Phải nêu rõ hành động của GV và HS hòa nhập cho từng hoạt động, gắn sát kiến thức của bài học:
+   - khoiDong: { "teacherAct": "- GV hướng dẫn HSHN ...", "studentAct": "* HSHN ..." }
+   - luyenTap: { "teacherAct": "- GV HD HSHN làm bài tập ...", "studentAct": "* HSHN làm bài tập ... vào bảng con/giơ thẻ Đ/S..." } (Nêu bài tập số nhỏ cụ thể vừa sức cho em!)
+   - vanDung: { "teacherAct": "- GV hướng dẫn HSHN ...", "studentAct": "* HSHN cùng bạn chia sẻ và đánh giá tiết học bằng thẻ cảm xúc..." }`;
+
+      sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...",
+    "disabilityDodung": "- Đối với học sinh hòa nhập: Thẻ cảm xúc, thẻ Đ/S, bảng con, phiếu bài tập trực quan.",
+    "disabilityActivities": {
+      "khoiDong": {
+        "teacherAct": "- GV hướng dẫn HSHN quan sát tranh/bài hát khởi động, giao nhiệm vụ vừa sức.",
+        "studentAct": "* HSHN quan sát tranh, vỗ tay và nhắc lại từ khóa theo gợi ý của cô."
+      },
+      "luyenTap": {
+        "teacherAct": "- GV HD HSHN làm bài tập nhận biết cơ bản Bài 1 trên bảng con (bạn cùng bàn hỗ trợ).",
+        "studentAct": "* HSHN thực hiện bài tập nhận biết đơn giản vào bảng con với sự hỗ trợ của bạn cùng bàn."
+      },
+      "vanDung": {
+        "teacherAct": "- GV hướng dẫn HSHN tham gia chia sẻ và đánh giá tiết học.",
+        "studentAct": "* HSHN cùng bạn chia sẻ cảm nghĩ và tham gia đánh giá tiết học bằng thẻ cảm xúc."
+      }
+    }
+  }
+]`;
+    } else {
+      var stuHeadersExample = studentsList.map(function(st, sIdx) {
+        var sShort = self.getDisabilityShortTypeName(st.disabilityType);
+        var sName = st.name ? (st.name + ' - ') : '';
+        return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):
+- Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
+- Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
+      }).join('\n');
+
+      var dodungExample = studentsList.map(function(st, sIdx) {
+        var sShort = self.getDisabilityShortTypeName(st.disabilityType);
+        var sName = st.name ? (' ' + st.name) : '';
+        return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): [Đồ dùng trực quan phù hợp]`;
+      }).join('\n');
+
+      promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG CHO TỪNG HỌC SINH (${studentsList.length} HỌC SINH HÒA NHẬP):
+1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của từng em; TUYỆT ĐỐI KHÔNG rập khuôn.
+2. CẤU TRÚC YCCĐ (disabilityYccd): BẮT BUỘC BIÊN SOẠN RIÊNG CHO ĐỦ ${studentsList.length} HỌC SINH. Với MỖI HỌC SINH, xuất tiêu đề bắt đầu bằng dấu * và CHÍNH XÁC 2 GẠCH ĐẦU DÒNG (Năng lực đặc thù và Phẩm chất, năng lực chung):
+${stuHeadersExample}
+3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể đồ dùng trực quan cho từng em (phân tách bằng xuống dòng \\n):
+${dodungExample}
+4. TIẾN TRÌNH HOẠT ĐỘNG (disabilityActivities): Nêu rõ hành động của GV và các HSHN trong lớp gắn sát kiến thức của bài học:
+   - khoiDong: { "teacherAct": "- GV hướng dẫn các HSHN ...", "studentAct": "* Các HSHN ..." }
+   - luyenTap: { "teacherAct": "- GV HD từng HSHN làm bài tập nhận biết vừa sức ...", "studentAct": "* Các HSHN thực hiện bài tập theo khả năng ..." }
+   - vanDung: { "teacherAct": "- GV hướng dẫn các HSHN ...", "studentAct": "* Các HSHN cùng bạn chia sẻ và đánh giá tiết học bằng thẻ cảm xúc..." }`;
+
+      sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "${studentsList.map(function(st, sIdx) {
+      var sShort = self.getDisabilityShortTypeName(st.disabilityType);
+      var sName = st.name ? (st.name + ' - ') : '';
+      return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
+    }).join('\\n')}",
+    "disabilityDodung": "${studentsList.map(function(st, sIdx) {
+      var sShort = self.getDisabilityShortTypeName(st.disabilityType);
+      var sName = st.name ? (' ' + st.name) : '';
+      return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): ...`;
+    }).join('\\n')}",
+    "disabilityActivities": {
+      "khoiDong": {
+        "teacherAct": "- GV hướng dẫn các HSHN quan sát tranh/bài hát khởi động, giao nhiệm vụ vừa sức.",
+        "studentAct": "* Các HSHN quan sát tranh, vỗ tay và nhắc lại từ khóa theo gợi ý của cô."
+      },
+      "luyenTap": {
+        "teacherAct": "- GV HD từng HSHN làm bài tập nhận biết cơ bản Bài 1 trên bảng con (bạn cùng bàn hỗ trợ).",
+        "studentAct": "* Các HSHN thực hiện bài tập nhận biết đơn giản vào bảng con với sự hỗ trợ của bạn cùng bàn."
+      },
+      "vanDung": {
+        "teacherAct": "- GV hướng dẫn các HSHN tham gia chia sẻ và đánh giá tiết học.",
+        "studentAct": "* Các HSHN cùng bạn chia sẻ cảm nghĩ và tham gia đánh giá tiết học bằng thẻ cảm xúc."
+      }
+    }
+  }
+]`;
+    }
 
     var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Giáo dục Hòa nhập (Chương trình GDPT 2018, Thông tư 03/2018/TT-BGDĐT, chuẩn Công văn 2345/BGDĐT-GDTH).
 
 NHIỆM VỤ:
 Dưới đây là danh sách các bài dạy kèm YÊU CẦU CẦN ĐẠT (YCCĐ) GỐC của từng bài.
-Dựa vào YCCĐ GỐC của TỪNG BÀI DẠY, hãy biên soạn lại nội dung YCCĐ phân hóa chi tiết, định lượng cụ thể theo mức nhận thức ${rate}% (chuẩn Thông tư 03 và CV 2345) dành riêng cho học sinh khuyết tật học hòa nhập trong lớp.
+Dựa vào YCCĐ GỐC, đặc thù môn học và khối lớp của TỪNG BÀI DẠY, hãy biên soạn đồng bộ:
+1. YCCĐ phân hóa chi tiết, định lượng cụ thể theo mức nhận thức (chuẩn Thông tư 03 và CV 2345) dành cho học sinh khuyết tật học hòa nhập (${studentsList.length} học sinh).
+2. Thiết bị / Đồ dùng dạy học trực quan hỗ trợ riêng cho từng học sinh này.
+3. Hoạt động phân hóa cụ thể trong tiến trình dạy học (Khởi động, Luyện tập bài tập cơ bản, Vận dụng/Đánh giá) bám sát nội dung bài học, lời văn tự nhiên, ấm áp, tuyệt đối không dùng câu từ chung chung rập khuôn.
 
-THÔNG TIN HỌC SINH KHUYẾT TẬT:
-- Dạng tật: ${typeName}
-- Mức độ nhận thức / đáp ứng: khoảng ${rate}% so với chuẩn chung của lớp
-${notes ? ('- Ghi chú đặc thù từ giáo viên: ' + notes) : ''}
-
-HƯỚNG DẪN ĐIỀU CHỈNH SƯ PHẠM DÀNH RIÊNG CHO DẠNG TẬT NÀY:
-${guidance}
+THÔNG TIN DANH SÁCH HỌC SINH KHUYẾT TẬT TRONG LỚP (${studentsList.length} HỌC SINH):
+${studentInfoSections}
 
 DANH SÁCH BÀI DẠY VÀ YCCĐ GỐC:
 ${JSON.stringify(itemsToSend, null, 2)}
 
-QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHI TIẾT & ĐO LƯỜNG ĐƯỢC - CÁCH 2):
-1. VĂN PHONG SƯ PHẠM: Chuẩn mực, ấm áp, khích lệ sự hòa nhập và tiến bộ của học sinh.
-2. CẤU TRÚC BẮT BUỘC CHO MỖI BÀI DẠY PHẢI CÓ ĐỦ 2 GẠCH ĐẦU DÒNG (PHÂN TÁCH BẰNG DẤU XUỐNG DÒNG \\n):
-   - Năng lực đặc thù: [Chỉ rõ kiến thức cốt lõi bám sát bài, giới hạn phạm vi số/kiến thức cụ thể (ví dụ môn Toán: số có bao nhiêu chữ số, phép tính cụ thể nào...), định lượng rõ hoàn thành khoảng ${rate}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 theo mẫu), và loại trừ rõ phần giảm tải không bắt buộc làm (không yêu cầu giải toán có lời văn 2-3 bước tính hay bài tính thuận tiện, bài nâng cao)].
-   - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và có ý thức nỗ lực hoàn thành nhiệm vụ vừa sức].
-3. ĐỊNH DẠNG XUẤT RA CHÍNH XÁC:
-   "- Năng lực đặc thù: [Nội dung chi tiết định lượng bám sát bài]...\\n- Phẩm chất, năng lực chung: [Nội dung hòa nhập, tự tin, hợp tác]..."
+${promptRules}
 
 HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm mã markdown \`\`\`json):
-[
-  {
-    "id": 0,
-    "disabilityYccd": "- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ..."
-  }
-]`;
+${sampleJson}`;
 
     var rawResponse = '';
     if (typeof AIService !== 'undefined' && typeof AIService.callGeminiApi === 'function') {
@@ -1365,6 +1903,12 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           .replace(/[;\s]+$/, '')
           .trim();
         lessons[idx].disabilityYccdAI = cleaned;
+        if (item.disabilityDodung) {
+          lessons[idx].disabilityDodungAI = item.disabilityDodung.trim();
+        }
+        if (item.disabilityActivities) {
+          lessons[idx].disabilityActivitiesAI = item.disabilityActivities;
+        }
       }
     });
 
@@ -1384,7 +1928,9 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
    */
   callGeminiApiDirect: async function(apiKey, prompt, options) {
     var opt = options || {};
-    var models = ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.6-flash", "gemini-2.5-flash", "gemini-flash-latest"];
+    var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
+    var activeKey = (apiKey && apiKey.trim()) || defaultKey;
+    var models = ["gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-flash-latest", "gemini-3.6-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -1392,10 +1938,10 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       try {
         var genConfig = { temperature: typeof opt.temperature === 'number' ? opt.temperature : 0.3 };
         if (opt.maxTokens) genConfig.maxOutputTokens = opt.maxTokens;
-        if (modelName.indexOf("2.5") !== -1) genConfig.thinkingConfig = { thinkingBudget: 0 };
+        if (modelName.indexOf("2.5") !== -1 || modelName.indexOf("3.5") !== -1) genConfig.thinkingConfig = { thinkingBudget: 0 };
 
         var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
-        var timeoutId = controller ? setTimeout(function() { controller.abort(); }, 30000) : null;
+        var timeoutId = controller ? setTimeout(function() { controller.abort(); }, 35000) : null;
         var fetchOpts = {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -1406,7 +1952,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         };
         if (controller) fetchOpts.signal = controller.signal;
 
-        var response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/" + modelName + ":generateContent?key=" + apiKey, fetchOpts);
+        var response = await fetch("https://generativelanguage.googleapis.com/v1beta/models/" + modelName + ":generateContent?key=" + activeKey, fetchOpts);
         if (timeoutId) clearTimeout(timeoutId);
 
         if (response.ok) {
@@ -1416,10 +1962,17 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         } else {
           var errJson = await response.json().catch(function(){ return {}; });
           lastError = errJson.error?.message || response.statusText;
+          if (response.status === 400 && lastError && (lastError.includes("API key not valid") || lastError.includes("API_KEY_INVALID"))) {
+            if (activeKey !== defaultKey && defaultKey) {
+              console.warn("Khôi phục key hệ thống trong callGeminiApiDirect:", defaultKey);
+              if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
+              return await this.callGeminiApiDirect(defaultKey, prompt, options);
+            }
+          }
         }
       } catch (e) {
         if (timeoutId) clearTimeout(timeoutId);
-        lastError = (e.name === 'AbortError') ? 'Quá thời gian kết nối AI (30s)' : e.message;
+        lastError = (e.name === 'AbortError') ? 'Quá thời gian kết nối AI (35s)' : e.message;
       }
     }
     throw new Error(lastError || "Không thể kết nối Gemini API");
@@ -1433,6 +1986,23 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     var list = [lesson];
     await this.adaptLessonsDisabilityWithGemini(list, disabilityConfig);
     return lesson.disabilityYccdAI || '';
+  },
+
+  /**
+   * Xác thực và phân giải cấu hình hỗ trợ học sinh khuyết tật.
+   * Nếu người dùng là tài khoản Khách (Guest), tự động vô hiệu hóa để bảo vệ tính năng.
+   */
+  resolveDisabilitySupport: function(optSupport) {
+    try {
+      if (typeof AuthService !== 'undefined' && typeof AuthService.getSession === 'function') {
+        var s = AuthService.getSession();
+        if (!s || s.role === 'guest') {
+          return { enabled: false, cognitiveRate: 50, disabilityType: 'tri_tue', disabilityTypeName: '', notes: '' };
+        }
+      }
+    } catch(e) {}
+    var res = optSupport || (typeof integrationState !== 'undefined' && integrationState.disabilitySupport);
+    return res || { enabled: false, cognitiveRate: 50, disabilityType: 'tri_tue', disabilityTypeName: '', notes: '' };
   },
 
   /**
@@ -1452,6 +2022,9 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     // Tiêu đề Mục 5
     if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(l)) return true;
 
+    // Sub-header học sinh 1, 2, 3
+    if (/^\*\s*(?:học\s*sinh\s*\d+|đối\s*với\s*học\s*sinh\s*\d+)/i.test(l)) return true;
+
     // Từ khóa khuyết tật / hòa nhập
     if (/học\s*sinh\s*khuyết\s*tật|học\s*sinh\s*hòa\s*nhập|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập/i.test(l)) return true;
 
@@ -1469,8 +2042,21 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     if (!lesson) return lesson;
     var self = this;
     if (Array.isArray(lesson.yccd)) {
+      var inDisSection = false;
       lesson.yccd = lesson.yccd.filter(function(line) {
         if (typeof line !== 'string') return true;
+        var l = line.trim();
+        if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(l)) {
+          inDisSection = true;
+          return false;
+        }
+        if (inDisSection) {
+          if (/^[1-4]\.\s*/.test(l)) {
+            inDisSection = false;
+            return true;
+          }
+          return false;
+        }
         var subLines = line.split(/\r?\n/);
         for (var i = 0; i < subLines.length; i++) {
           if (self.isDisabilityLine(subLines[i])) return false;
@@ -1478,6 +2064,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
         return true;
       });
     }
+    this.cleanDisabilityFromTables(lesson);
     return lesson;
   },
 
@@ -1491,7 +2078,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       lesson.yccd = lesson.yccd ? [lesson.yccd] : [];
     }
 
-    // 1. Luôn làm sạch dòng khuyết tật cũ nếu có trước đó
+    // 1. Luôn làm sạch dòng khuyết tật cũ nếu có trước đó (cả YCCĐ và Bảng hoạt động)
     this.cleanDisabilityFromLesson(lesson);
 
     // 2. Nếu không bật cấu hình khuyết tật, dừng lại ngay sau khi đã làm sạch
@@ -1499,11 +2086,14 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       return lesson;
     }
 
-    // 3. Chỉ chèn khi có kết quả sinh từ Gemini AI
-    var disabilityLine = lesson.disabilityYccdAI;
+    // 3. Chèn kết quả sinh từ Gemini AI hoặc smart fallback 2 gạch đầu dòng bám sát môn học
+    var disabilityLine = lesson.disabilityYccdAI || this.getSmartDisabilityYccd(lesson, disabilityConfig);
     if (disabilityLine && typeof disabilityLine === 'string' && disabilityLine.trim()) {
       var cleanLine = disabilityLine.replace(/[;\s]+$/, '').trim();
       if (!cleanLine.endsWith('.')) cleanLine += '.';
+      if (!/^5\.\s*điều\s*chỉnh/i.test(cleanLine)) {
+        cleanLine = '5. Điều chỉnh đối với học sinh hòa nhập:\n' + cleanLine;
+      }
       lesson.yccd.push(cleanLine);
     }
 
@@ -1857,7 +2447,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     var weeklyOrderedLessons = [];
     var globalPeriodCounter = 1;
 
-    var disSupport = (opt && opt.disabilitySupport) || (typeof integrationState !== 'undefined' && integrationState.disabilitySupport);
+    var disSupport = IntegrationService.resolveDisabilitySupport(opt && opt.disabilitySupport);
 
     allSlots.forEach(function(slot, slotIndex) {
       if (skippedSlotIndices[slotIndex]) return;
@@ -2129,7 +2719,7 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
       }
     }
 
-    var disSupport = (metadata && metadata.disabilitySupport) || (typeof integrationState !== 'undefined' && integrationState.disabilitySupport);
+    var disSupport = IntegrationService.resolveDisabilitySupport(metadata && metadata.disabilitySupport);
     if (disSupport && disSupport.enabled) {
       await IntegrationService.adaptLessonsDisabilityWithGemini(weeklyOrderedLessons, disSupport);
     }
@@ -2690,17 +3280,14 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
   },
 
   getGeminiApiKey: function() {
+    var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
     if (typeof localStorage !== 'undefined') {
       var custom = localStorage.getItem('tvth_gemini_api_key');
-      if (custom && custom.trim()) return custom.trim();
+      if (custom && custom.trim() && custom.length >= 35 && !custom.startsWith('AIzaSy')) {
+        return custom.trim();
+      }
     }
-    if (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) {
-      return window.CONFIG.DEFAULT_GEMINI_API_KEY;
-    }
-    if (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) {
-      return CONFIG.DEFAULT_GEMINI_API_KEY;
-    }
-    return '';
+    return defaultKey;
   },
 
   extractDocumentKeywordsAndSummary: function(text, title) {
@@ -3001,9 +3588,16 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
     var levels = ['Liên hệ', 'Bộ phận', 'Toàn phần'];
 
     // Nhận diện yêu cầu dạy học phân hóa cho học sinh khuyết tật / hòa nhập
-    var disSupport = (typeof integrationState !== 'undefined' && integrationState.disabilitySupport) || null;
+    var disSupport = IntegrationService.resolveDisabilitySupport();
+    var isGuest = false;
+    try {
+      if (typeof AuthService !== 'undefined' && typeof AuthService.getSession === 'function') {
+        var s = AuthService.getSession();
+        if (!s || s.role === 'guest') isGuest = true;
+      }
+    } catch(e) {}
     var promptSource = ((docSummary && (docSummary.rawDocText || docSummary.fullSnippet || docSummary.topicName)) || '') + ' ' + (userNotes || '');
-    var isDisabilityRequested = (disSupport && disSupport.enabled) || /khuyết\s*tật|hòa\s*nhập|khuyet\s*tat|hoa\s*nhap/i.test(promptSource);
+    var isDisabilityRequested = !isGuest && ((disSupport && disSupport.enabled) || /khuyết\s*tật|hòa\s*nhập|khuyet\s*tat|hoa\s*nhap/i.test(promptSource));
     var cognitivePct = (disSupport && disSupport.enabled) ? (disSupport.cognitiveRate + '%') : '50%';
     var pctMatch = promptSource.match(/(\d{1,3})\s*%/);
     if (pctMatch && (!disSupport || !disSupport.enabled)) {
@@ -3396,7 +3990,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       });
     });
 
-    var disSupport = (plan && plan.disabilitySupport) || (typeof integrationState !== 'undefined' && integrationState.disabilitySupport);
+    var disSupport = IntegrationService.resolveDisabilitySupport(plan && plan.disabilitySupport);
     if (disSupport && disSupport.enabled) {
       await IntegrationService.adaptLessonsDisabilityWithGemini(finalLessons, disSupport);
     }
@@ -3507,7 +4101,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       }
     }
 
-    var disSupport = meta.disabilitySupport || (typeof integrationState !== 'undefined' && integrationState.disabilitySupport);
+    var disSupport = IntegrationService.resolveDisabilitySupport(meta.disabilitySupport);
     if (disSupport && disSupport.enabled) {
       await this.adaptLessonsDisabilityWithGemini(lessons, disSupport);
     }
@@ -3522,7 +4116,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       subjectName: subjectName,
       startWeek: startWeek,
       endWeek: endWeek,
-      disabilitySupport: meta.disabilitySupport,
+      disabilitySupport: disSupport,
       approvalConfig: meta.approvalConfig || (typeof integrationState !== 'undefined' && integrationState.approvalConfig)
     });
 
@@ -3540,7 +4134,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var grade = weeklyPlanResult.grade || meta.grade || 5;
     var weekNum = weeklyPlanResult.week || meta.week || 1;
     var lessons = weeklyPlanResult.lessons || [];
-    var disSupport = meta.disabilitySupport || (weeklyPlanResult && weeklyPlanResult.metadata && weeklyPlanResult.metadata.disabilitySupport) || (typeof integrationState !== 'undefined' && integrationState.disabilitySupport);
+    var disSupport = IntegrationService.resolveDisabilitySupport(meta.disabilitySupport || (weeklyPlanResult && weeklyPlanResult.metadata && weeklyPlanResult.metadata.disabilitySupport));
     if (disSupport && disSupport.enabled) {
       await this.adaptLessonsDisabilityWithGemini(lessons, disSupport);
     }
@@ -3678,7 +4272,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       role: isGvbm ? 'gvbm' : 'gvcn',
       department: meta.department || (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.department) || (typeof integrationState !== 'undefined' && integrationState.gvbmConfig && integrationState.gvbmConfig.department) || '',
       tkbCoverHtml: tkbCoverHtml,
-      disabilitySupport: meta.disabilitySupport || (weeklyPlanResult && weeklyPlanResult.metadata && weeklyPlanResult.metadata.disabilitySupport),
+      disabilitySupport: disSupport,
       approvalConfig: meta.approvalConfig || (weeklyPlanResult && weeklyPlanResult.metadata && weeklyPlanResult.metadata.approvalConfig) || (typeof integrationState !== 'undefined' && integrationState.approvalConfig)
     });
 
@@ -3768,8 +4362,10 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         pList.push('<p align="center" style="margin: 4pt 0pt; text-align: center; line-height: 1.0; mso-para-margin: 4pt 0pt;">' + normImg + '</p>');
         continue;
       }
-      var inner = cellStyle ? ('<span style="' + cellStyle + '">' + line + '</span>') : line;
-      pList.push('<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + '; ' + cellStyle + '">' + inner + '</p>');
+      var isLineDisability = /\bHSHN\b/i.test(line) || /\[HSHN\]/i.test(line) || /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(line);
+      var curLineStyle = (cellStyle || isLineDisability) ? 'color: #C00000;' : '';
+      var inner = curLineStyle ? ('<span style="' + curLineStyle + '"><font color="#C00000">' + line + '</font></span>') : line;
+      pList.push('<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + '; ' + curLineStyle + '">' + inner + '</p>');
     }
     return pList.length > 0 ? pList.join('') : '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + ';">&nbsp;</p>';
   },
@@ -4153,7 +4749,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
              (c0.includes('nội dung') && (c1.includes('định lượng') || c2.includes('giáo viên')));
     };
 
-    var disSupport = (meta && meta.disabilitySupport) || (typeof integrationState !== 'undefined' && integrationState.disabilitySupport);
+    var disSupport = IntegrationService.resolveDisabilitySupport(meta && meta.disabilitySupport);
 
     var isContinuousMode = !isTimetableDoc;
     lessons.forEach(function(les, lIdx) {
@@ -4169,6 +4765,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
       if (disSupport && disSupport.enabled) {
         IntegrationService.injectDisabilityIntoLesson(les, disSupport);
+        IntegrationService.injectDisabilityActivitiesIntoTables(les, disSupport);
+      } else {
+        IntegrationService.cleanDisabilityFromLesson(les);
       }
 
       var clsInfo = les.className ? (' • ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '';
@@ -4200,8 +4799,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         }
 
         var isKhuyetTat = IntegrationService.isDisabilityLine(cleanLine);
-        var isDieuChinhHeader = /^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(cleanLine);
-        if (isDieuChinhHeader) {
+        var isSingleLineDieuChinhHeader = !cleanLine.includes('\n') && /^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)[:.\s]*$/i.test(cleanLine);
+        if (isSingleLineDieuChinhHeader) {
           if (!hasRenderedDisabilityHeader) {
             hasRenderedDisabilityHeader = true;
             return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">5. Điều chỉnh đối với học sinh hòa nhập:</span></p>';
@@ -4237,7 +4836,15 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           var parts = displayLine.split(/\r?\n|<br\s*\/?>/i).map(function(p) { return p.trim(); }).filter(Boolean);
           var htmlLines = parts.map(function(pLine) {
             if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(pLine)) return '';
-            if (!pLine.startsWith('-') && !pLine.startsWith('+') && !pLine.startsWith('*')) {
+            var isStudentSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh)/i.test(pLine);
+            if (isStudentSubHeader) {
+              return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000; font-weight: bold;">' + pLine + '</span></p>';
+            }
+            if (/^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:/i.test(pLine)) {
+              pLine = pLine.replace(/^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:\s*/i, '- <b>Năng lực đặc thù:</b> ');
+            } else if (/^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(pLine)) {
+              pLine = pLine.replace(/^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:\s*/i, '- <b>Phẩm chất, năng lực chung:</b> ');
+            } else if (!pLine.startsWith('-') && !pLine.startsWith('+') && !pLine.startsWith('*')) {
               pLine = '- ' + pLine;
             }
             return '<p style="margin: 0pt; margin-top: 2pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 2pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + pLine + '</span></p>';
@@ -4269,9 +4876,23 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">' + cleanLine + '</p>';
       }).join('');
 
-      var dodungList = les.dodung || les.teachingAids || [];
+      var dodungList = Array.isArray(les.dodung) ? les.dodung.slice() : (Array.isArray(les.teachingAids) ? les.teachingAids.slice() : []);
+      if (disSupport && disSupport.enabled) {
+        var disDodungLine = les.disabilityDodungAI || IntegrationService.getDisabilityDodungText(disSupport, les.subjectKey, les.grade);
+        var hasDisDodung = dodungList.some(function(l) {
+          return typeof l === 'string' && (l.toLowerCase().includes('hòa nhập') || l.toLowerCase().includes('khuyết tật'));
+        });
+        if (!hasDisDodung && disDodungLine) {
+          var splitDodung = disDodungLine.split(/\r?\n/).map(function(s) { return s.trim(); }).filter(Boolean);
+          splitDodung.forEach(function(dLine) { dodungList.push(dLine); });
+        }
+      }
       var dodungContent = dodungList.map(function(line) {
         if (typeof line !== 'string') return '';
+        var isDisability = IntegrationService.isDisabilityLine(line) || line.toLowerCase().includes('học sinh hòa nhập') || line.toLowerCase().includes('khuyết tật');
+        if (isDisability) {
+          return '<p style="margin: 0pt; margin-top: 2pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 2pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + line + '</span></p>';
+        }
         var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(line) || line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
         if (isTichHop) {
           var displayLine = line
@@ -4305,16 +4926,18 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             if (has4Cols) {
               if (r.length >= 4) {
                 var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[2] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[3] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[2] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[3] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1;
+                var isDisability = IntegrationService.isDisabilityRow(r);
+                var isRed = isTichHop || isDisability;
                 var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
                 var c1 = (r[1] || '').trim();
                 var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
                 var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
-                var cellStyle = isTichHop ? 'color: #C00000;' : '';
+                var cellStyle = isRed ? 'color: #C00000;' : '';
 
-                var c0Html = IntegrationService.formatCellParagraphs(c0, isTichHop, 'justify');
-                var c1Html = IntegrationService.formatCellParagraphs(c1, isTichHop, 'center');
-                var c2Html = IntegrationService.formatCellParagraphs(c2, isTichHop, 'justify');
-                var c3Html = IntegrationService.formatCellParagraphs(c3, isTichHop, 'justify');
+                var c0Html = IntegrationService.formatCellParagraphs(c0, isRed, 'justify');
+                var c1Html = IntegrationService.formatCellParagraphs(c1, isRed, 'center');
+                var c2Html = IntegrationService.formatCellParagraphs(c2, isRed, 'justify');
+                var c3Html = IntegrationService.formatCellParagraphs(c3, isRed, 'justify');
 
                 rowsHtml += `
                   <tr>
@@ -4350,6 +4973,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             } else {
               if (r.length >= 2) {
                 var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[1] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1;
+                var isDisability = IntegrationService.isDisabilityRow(r);
+                var isRed = isTichHop || isDisability;
                 var gvText = (r[0] || '')
                   .replace(/<!--.*?-->/g, '')
                   .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
@@ -4369,9 +4994,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   .replace(/\s{2,}/g, ' ')
                   .trim();
 
-                var cellStyle = isTichHop ? 'color: #C00000;' : '';
-                var gvHtml = IntegrationService.formatCellParagraphs(gvText, isTichHop, 'justify');
-                var hsHtml = IntegrationService.formatCellParagraphs(hsText, isTichHop, 'justify');
+                var cellStyle = isRed ? 'color: #C00000;' : '';
+                var gvHtml = IntegrationService.formatCellParagraphs(gvText, isRed, 'justify');
+                var hsHtml = IntegrationService.formatCellParagraphs(hsText, isRed, 'justify');
 
                 rowsHtml += `
                   <tr>
@@ -4508,6 +5133,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + dateStr);
       }
 
+      var disSubTitle = '';
+      if (disSupport && disSupport.enabled) {
+        var disTypeName = IntegrationService.getDisabilityShortTypeName(disSupport.disabilityType);
+        disSubTitle = `<p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; font-style: italic; color: #C00000; margin: 2pt 0 0 0; text-align: center; line-height: 1.0;"><span style="color: #C00000;">(HỌC SINH ${disTypeName.toUpperCase()} HỌC HÒA NHẬP)</span></p>`;
+      }
+
       if (lIdx === 0 || !isContinuousMode) {
         docHtml += `
           <div class="title-box" style="text-align: center; font-family: 'Times New Roman', serif;">
@@ -4515,6 +5146,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             ${daySessionInfo}
             <h2 align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; text-align: center; margin: 0pt; line-height: 1.0;">KẾ HOẠCH BÀI DẠY</h2>
             <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0; text-align: center; line-height: 1.0;">MÔN: ${subjName.toUpperCase()}${(meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')}</p>
+            ${disSubTitle}
             <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
             ${les.period ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + les.period + ')</p>') : ''}
           </div>
@@ -4523,6 +5155,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         docHtml += `
           <div class="title-box" style="margin-top: 10pt; margin-bottom: 4pt; text-align: center; font-family: 'Times New Roman', serif;">
             ${daySessionInfo}
+            ${disSubTitle}
             <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
             ${les.period ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + les.period + ')</p>') : ''}
           </div>

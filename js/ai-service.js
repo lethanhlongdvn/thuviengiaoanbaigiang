@@ -2771,7 +2771,9 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
     }
 
     // Gọi Gemini API model mới nhất (Tự động chuyển đổi thông minh, ưu tiên thế hệ mới hạn mức cao)
-    var models = ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.1-flash-lite", "gemini-3.6-flash", "gemini-2.5-flash", "gemini-flash-latest"];
+    var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
+    var activeKey = (apiKey && apiKey.trim()) || defaultKey;
+    var models = ["gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-flash-latest", "gemini-3.6-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -2781,8 +2783,8 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
           responseMimeType: "application/json",
           temperature: 0.55
         };
-        // Tắt thinking budget ở gemini-2.5-flash để tốc độ sinh JSON siêu tốc (1-2 giây)
-        if (modelName.indexOf("2.5") !== -1) {
+        // Tắt thinking budget ở gemini-2.5-flash & 3.5 để tốc độ sinh JSON siêu tốc (1-2 giây)
+        if (modelName.indexOf("2.5") !== -1 || modelName.indexOf("3.5") !== -1) {
           genConfig.thinkingConfig = { thinkingBudget: 0 };
         }
 
@@ -2798,7 +2800,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         };
         if (controller) fetchOpts.signal = controller.signal;
 
-        var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`, fetchOpts);
+        var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${activeKey}`, fetchOpts);
         if (timeoutId) clearTimeout(timeoutId);
 
         if (response.ok) {
@@ -2827,14 +2829,25 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         } else {
           var errJson = await response.json().catch(function(){ return {}; });
           lastError = errJson.error?.message || response.statusText;
-          // Nếu API key sai, ngắt luôn không thử model khác
+          // Nếu API key sai và khác defaultKey, tự động khôi phục Key hệ thống
           if (response.status === 400 && lastError && (lastError.includes("API key not valid") || lastError.includes("API_KEY_INVALID"))) {
+            if (activeKey !== defaultKey && defaultKey) {
+              console.warn("API Key trong máy bị lỗi, tự động chuyển sang Key chuẩn hệ thống:", defaultKey);
+              if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
+              params.apiKey = defaultKey;
+              return await this.callGeminiAPI(defaultKey, params);
+            }
             throw new Error(lastError);
           }
         }
       } catch (e) {
         lastError = e.message;
         if (lastError && (lastError.includes("API key not valid") || lastError.includes("API_KEY_INVALID"))) {
+          if (activeKey !== defaultKey && defaultKey) {
+            if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
+            params.apiKey = defaultKey;
+            return await this.callGeminiAPI(defaultKey, params);
+          }
           throw e;
         }
       }
@@ -2848,7 +2861,9 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
    */
   callGeminiApi: async function(apiKey, prompt, options) {
     var opt = options || {};
-    var models = ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-3.6-flash", "gemini-2.5-flash"];
+    var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
+    var activeKey = (apiKey && apiKey.trim()) || defaultKey;
+    var models = ["gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-flash-latest", "gemini-3.6-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -2859,12 +2874,12 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         };
         if (opt.maxTokens) genConfig.maxOutputTokens = opt.maxTokens;
         if (opt.responseMimeType) genConfig.responseMimeType = opt.responseMimeType;
-        if (modelName.indexOf("2.5") !== -1) {
+        if (modelName.indexOf("2.5") !== -1 || modelName.indexOf("3.5") !== -1) {
           genConfig.thinkingConfig = { thinkingBudget: 0 };
         }
 
         var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
-        var timeoutId = controller ? setTimeout(function() { controller.abort(); }, 8000) : null;
+        var timeoutId = controller ? setTimeout(function() { controller.abort(); }, 35000) : null;
         var fetchOpts = {
           method: "POST",
           headers: { "Content-Type": "application/json" },
@@ -2875,7 +2890,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         };
         if (controller) fetchOpts.signal = controller.signal;
 
-        var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`, fetchOpts);
+        var response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${activeKey}`, fetchOpts);
         if (timeoutId) clearTimeout(timeoutId);
 
         if (response.ok) {
@@ -2885,10 +2900,18 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         } else {
           var errJson = await response.json().catch(function(){ return {}; });
           lastError = errJson.error?.message || response.statusText;
+          // Tự động khôi phục Key chuẩn nếu key cá nhân bị hỏng
+          if (response.status === 400 && lastError && (lastError.includes("API key not valid") || lastError.includes("API_KEY_INVALID"))) {
+            if (activeKey !== defaultKey && defaultKey) {
+              console.warn("API Key lưu trong máy không hợp lệ, tự động chuyển sang Key hệ thống chuẩn:", defaultKey);
+              if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
+              return await this.callGeminiApi(defaultKey, prompt, options);
+            }
+          }
         }
       } catch (e) {
         if (timeoutId) clearTimeout(timeoutId);
-        lastError = (e.name === 'AbortError') ? 'Quá thời gian kết nối AI (30s)' : e.message;
+        lastError = (e.name === 'AbortError') ? 'Quá thời gian kết nối AI (35s)' : e.message;
       }
     }
 
@@ -2946,6 +2969,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
       'nhin': 'Khuyết tật nhìn (Thị lực kém, cần cỡ chữ lớn)',
       'khiem_thi': 'Khuyết tật nhìn (Khiếm thị)',
       'tu_ky': 'Rối loạn phổ tự kỉ (Tương tác hạn chế)',
+      'tu_ki': 'Tự kỉ / Tăng động giảm chú ý (ADHD)',
       'hoc_tap': 'Khó khăn học tập đặc thù',
       'khac': 'Khuyết tật khác / Học sinh hòa nhập chung'
     };
@@ -2953,14 +2977,52 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
   },
 
   /**
-   * Hướng dẫn sư phạm phân hóa riêng cho từng dạng tật theo Thông tư 03/2018/TT-BGDĐT và CV 2345
+   * Chuẩn hóa và trích xuất danh sách học sinh khuyết tật từ cấu hình (Hỗ trợ 1 - 3 học sinh)
    */
-  getDisabilityGuidance: function(disabilityType, rate, notes) {
+  getDisabilityStudentsList: function(disabilityConfig) {
+    if (!disabilityConfig) return [];
+    var count = parseInt(disabilityConfig.studentCount, 10);
+    if (isNaN(count) || count < 1) count = 1;
+    if (count > 3) count = 3;
+
+    var rawList = Array.isArray(disabilityConfig.students) ? disabilityConfig.students : [];
+    var result = [];
+
+    for (var i = 0; i < count; i++) {
+      var s = rawList[i] || {};
+      var dType = s.disabilityType || (i === 0 ? (disabilityConfig.disabilityType || 'tri_tue') : (i === 1 ? 'van_dong' : 'nhin'));
+      var dTypeName = s.disabilityTypeName || this.getDisabilityTypeName(dType);
+      var dRate = parseInt(s.cognitiveRate, 10) || (i === 0 ? (parseInt(disabilityConfig.cognitiveRate, 10) || 50) : (i === 1 ? 60 : 70));
+      var dNotes = s.notes || (i === 0 ? (disabilityConfig.notes || '') : '');
+      var dName = (s.name || '').trim();
+      var dCustom = s.customText || (i === 0 ? (disabilityConfig.customText || '') : '');
+
+      result.push({
+        id: i + 1,
+        index: i,
+        name: dName,
+        disabilityType: dType,
+        disabilityTypeName: dTypeName,
+        cognitiveRate: dRate,
+        notes: dNotes,
+        customText: dCustom
+      });
+    }
+    return result;
+  },
+
+  /**
+   * Hướng dẫn sư phạm phân hóa riêng cho từng dạng tật theo Thông tư 03/2018/TT-BGDĐT và CV 2345
+   * Tùy biến sâu sát cho từng môn học và từng khối lớp tiểu học
+   */
+  getDisabilityGuidance: function(disabilityType, rate, notes, subjectKey, grade) {
     var type = disabilityType || 'tri_tue';
     var r = parseInt(rate, 10) || 50;
+    var g = parseInt(grade, 10) || 5;
+    var sKey = (subjectKey || '').toLowerCase();
     var guide = '';
 
-    // Phân mức nhận thức / đáp ứng theo tỉ lệ % (từ 30% đến 70%+)
+    // 1. Phân mức nhận thức / đáp ứng theo tỉ lệ %
     var levelDescription = '';
     if (r <= 40) {
       levelDescription = `MỨC ĐỘ ĐÁP ỨNG: Khoảng ${r}% (Hạn chế nhiều / Mức độ nặng)
@@ -2976,93 +3038,139 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
   + Định lượng bài tập: Hoàn thành khoảng ${r}% khối lượng bài tập nhận biết cơ bản trong SGK (Bài 1 hoặc Bài 2 dạng cơ bản theo mẫu); miễn các bài toán giải có lời văn 2-3 bước, tính thuận tiện hay nâng cao.`;
     }
 
+    // 2. Định hướng theo từng dạng tật
+    var typeGuide = '';
     if (type === 'van_dong') {
-      guide = `DẠNG TẬT: Khuyết tật vận động (Hạn chế vận động tay chân, khó cầm bút viết/vẽ hoặc thao tác thực hành)
+      typeGuide = `DẠNG TẬT: Khuyết tật vận động (Hạn chế vận động tay chân, khó cầm bút viết/vẽ hoặc thao tác thực hành)
 - ${levelDescription}
 - NGUYÊN TẮC SƯ PHẠM ĐẶC BIỆT: Khả năng nhận thức, tư duy và trí tuệ của học sinh HOÀN TOÀN BÌNH THƯỜNG. TUYỆT ĐỐI KHÔNG hạ thấp yêu cầu tư duy của bài học.
 - ĐIỀU CHỈNH PHƯƠNG THỨC THỰC HIỆN & THỜI GIAN:
   + Cho phép học sinh trả lời miệng, chỉ bảng phụ, chọn thẻ chữ/thẻ số thay vì phải viết đoạn văn dài hay vẽ hình, kẻ bảng phức tạp.
   + Giảm bớt khối lượng viết vẽ tương ứng mức độ vận động ${r}%; gia hạn thêm thời gian làm bài; phần viết chỉ yêu cầu hoàn thành câu ngắn hoặc từ khóa.
-  + Trong các hoạt động thực hành, thí nghiệm (Toán, Khoa học, Mỹ thuật, Thủ công): Học sinh tham gia cùng nhóm bạn; bạn cùng nhóm hỗ trợ các thao tác cầm nắm, vận động; học sinh thực hiện phần việc tư duy, quan sát, trả lời hoặc thao tác vừa sức.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Đạt chuẩn kiến thức của bài học; điều chỉnh phương thức làm bài (trả lời miệng, chọn thẻ, giảm khối lượng viết/thao tác phù hợp mức vận động ${r}%).
-  - Phẩm chất, năng lực chung: Rèn luyện nghị lực vượt khó, tự tin thể hiện suy nghĩ và tích cực phối hợp cùng bạn bè trong nhóm.`;
+  + Trong các hoạt động thực hành, thí nghiệm (Toán, Khoa học, Mỹ thuật, Thủ công): Học sinh tham gia cùng nhóm bạn; bạn cùng nhóm hỗ trợ các thao tác cầm nắm, vận động; học sinh thực hiện phần việc tư duy, quan sát, trả lời hoặc thao tác vừa sức.`;
     } else if (type === 'nghe_noi' || type === 'khiem_thinh') {
-      guide = `DẠNG TẬT: Khuyết tật nghe - nói (Khiếm thính, khó phát âm, hạn chế giao tiếp bằng lời)
+      typeGuide = `DẠNG TẬT: Khuyết tật nghe - nói (Khiếm thính, khó phát âm, hạn chế giao tiếp bằng lời)
 - ${levelDescription}
-- NGUYÊN TẮC SƯ PHẠM: Tối ưu hóa kênh thị giác trực quan (hình ảnh, sơ đồ, thẻ chữ/số in sẵn, khẩu hình, cử chỉ).
+- NGUYÊN TẮC SƯ PHẠM: Tối ưu hóa kênh thị giác trực quan (hình ảnh, sơ đồ, thẻ chữ/số in sẵn, khẩu hình, cử chỉ / kí hiệu ngôn ngữ).
 - ĐIỀU CHỈNH PHƯƠNG THỨC:
-  + Cho phép học sinh thể hiện sự hiểu bài bằng hành động: chỉ vào tranh, ghép/nối thẻ từ, viết hoặc vẽ câu trả lời ra bảng con/phiếu học tập, chọn đáp án trực quan thay vì bắt buộc phát biểu hoặc đọc to trước lớp.
-  + Với môn Tiếng Việt: Tập trung vào đọc hiểu qua tranh, nhìn chép từ ngữ trên phiếu; với môn Toán: thao tác trực quan trên thẻ số, bảng gài.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Tiếp thu kiến thức qua kênh thị giác trực quan; thể hiện kết quả học tập bằng hành động chỉ tranh, viết bảng con hoặc chọn thẻ đáp án theo mức độ tiếp nhận ${r}%.
-  - Phẩm chất, năng lực chung: Tự tin giao tiếp qua cử chỉ/bảng con, cởi mở hòa nhập và kiên nhẫn hợp tác cùng bạn học.`;
+  + Cho phép học sinh thể hiện sự hiểu bài bằng hành động: chỉ vào tranh, ghép/nối thẻ từ, viết hoặc vẽ câu trả lời ra bảng con/phiếu học tập, chọn thẻ Đ/S hoặc đáp án trực quan thay vì bắt buộc phát biểu hoặc đọc to trước lớp.
+  + Tương tác cùng bạn học bằng kí hiệu ngôn ngữ, cử chỉ; bạn cùng bàn chủ động hỗ trợ chia sẻ bài học.`;
     } else if (type === 'nhin' || type === 'khiem_thi') {
-      guide = `DẠNG TẬT: Khuyết tật nhìn (Thị lực kém, nhìn mờ, cần cỡ chữ lớn hoặc khiếm thị)
+      typeGuide = `DẠNG TẬT: Khuyết tật nhìn (Thị lực kém, nhìn mờ, cần cỡ chữ lớn hoặc khiếm thị)
 - ${levelDescription}
 - NGUYÊN TẮC SƯ PHẠM: Tối ưu hóa kênh thính giác (lắng nghe cô giáo và bạn đọc mẫu) và xúc giác (sờ chạm vật thật, mô hình nổi, que tính).
 - ĐIỀU CHỈNH PHƯƠNG THỨC:
   + Sử dụng phiếu học tập in chữ to, hình ảnh phóng to có độ tương phản cao; ngồi ở vị trí đủ ánh sáng và gần bảng.
-  + Cho phép học sinh tiếp thu và trả lời qua lời nói, mô tả bằng lời thay vì yêu cầu quan sát chi tiết nhỏ trên tranh; không chấm lỗi trình bày chữ viết/hình vẽ.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Tiếp thu bài học qua lời giảng và mô tả của GV/bạn kèm; thao tác trên vật thật, đồ dùng học tập kích thước lớn; trả lời miệng hoặc ghi bảng với chữ số cỡ to theo mức thị lực ${r}%.
-  - Phẩm chất, năng lực chung: Chăm chú lắng nghe, chủ động giao tiếp bằng lời nói và mạnh dạn hợp tác cùng bạn học.`;
+  + Cho phép học sinh tiếp thu và trả lời qua lời nói, mô tả bằng lời thay vì yêu cầu quan sát chi tiết nhỏ trên tranh; không chấm lỗi trình bày chữ viết/hình vẽ.`;
     } else if (type === 'tu_ki' || type === 'tu_ky') {
-      guide = `DẠNG TẬT: Rối loạn phổ tự kỉ / Tăng động giảm chú ý (ADHD) (Hạn chế tương tác xã hội, nhạy cảm môi trường, dễ mất tập trung)
+      typeGuide = `DẠNG TẬT: Rối loạn phổ tự kỉ / Tăng động giảm chú ý (ADHD) (Hạn chế tương tác xã hội, nhạy cảm môi trường, dễ mất tập trung)
 - ${levelDescription}
 - NGUYÊN TẮC SƯ PHẠM: Tạo không gian học tập ổn định, chia nhỏ nhiệm vụ thành từng bước rõ ràng kèm hình ảnh trực quan (Visual schedule).
 - ĐIỀU CHỈNH PHƯƠNG THỨC:
   + Cho phép học sinh hoàn thành nhiệm vụ cá nhân vừa sức, khích lệ từng tiến bộ nhỏ, tránh tạo áp lực biểu đạt trước đám đông.
-  + Khi học sinh mất tập trung hoặc quá tải, cho phép nghỉ ngắn hoặc đổi sang thao tác với đồ dùng học tập trực quan.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Tiếp nhận nhiệm vụ học tập qua hướng dẫn từng bước kèm hình ảnh trực quan; hoàn thành nhiệm vụ cá nhân vừa sức theo mức đáp ứng ${r}% (nhận biết và làm 1-2 bài tập cơ bản), không gây áp lực biểu đạt trước lớp.
-  - Phẩm chất, năng lực chung: Giữ tâm lý vui vẻ, ổn định cảm xúc, từng bước làm quen và hòa nhập cùng bạn cùng bàn.`;
-    } else if (type === 'khac' || type === 'hoc_tap') {
-      guide = `DẠNG TẬT: Khó khăn học tập đặc thù / Khuyết tật khác / Học sinh hòa nhập chung
-- ${levelDescription}
-- NGUYÊN TẮC SƯ PHẠM: Tạo điều kiện hòa nhập tích cực, phân công nhiệm vụ vừa sức theo sở trường của học sinh; có bạn cùng bàn hỗ trợ (mô hình đôi bạn cùng tiến).
-- ĐIỀU CHỈNH PHƯƠNG THỨC: Giao bài tập ở mức độ nhận biết và thực hành cơ bản; tinh giản các bài tập suy luận trừu tượng hoặc yêu cầu tốc độ nhanh.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: Nắm được kiến thức cốt lõi của bài học; hoàn thành khoảng ${r}% khối lượng bài tập nhận biết cơ bản với sự hỗ trợ của đồ dùng trực quan hoặc bạn học; giảm tải các bài suy luận phức tạp.
-  - Phẩm chất, năng lực chung: Tự tin, không nản lòng, có ý thức hoàn thành bài tập vừa sức và hòa nhập cùng tập thể lớp.`;
+  + Sử dụng thẻ cảm xúc (vui/buồn), khuyến khích hòa nhập tự nhiên cùng bạn cùng bàn.`;
     } else {
-      // tri_tue
-      guide = `DẠNG TẬT: Khuyết tật trí tuệ (Tiếp thu chậm, ghi nhớ ngắn hạn)
+      // tri_tue / hoc_tap / khac
+      typeGuide = `DẠNG TẬT: Khuyết tật trí tuệ / Khó khăn học tập (Tiếp thu chậm, ghi nhớ ngắn hạn)
 - ${levelDescription}
 - NGUYÊN TẮC ĐỊNH LƯỢNG & GIẢM TẢI ${r}% THEO CHUẨN CV 2345:
-  + Hạ bậc chuẩn nhận thức: Chuyển đổi từ mức độ thông hiểu, vận dụng, suy luận trừu tượng sang mức độ NHẬN BIẾT CƠ BẢN, THAO TÁC TRỰC QUAN và LÀM THEO MẪU với sự trợ giúp của giáo viên, bạn học hoặc đồ dùng học tập trực quan.
+  + Hạ bậc chuẩn nhận thức: Chuyển đổi từ mức độ thông hiểu, vận dụng sang mức độ NHẬN BIẾT CƠ BẢN, THAO TÁC TRỰC QUAN và LÀM THEO MẪU với sự trợ giúp của giáo viên, bạn học hoặc đồ dùng học tập trực quan.
   + Giới hạn phạm vi kiến thức & bài tập cụ thể: Chỉ yêu cầu học sinh làm quen với các số nhỏ, phép tính đơn giản; hoàn thành khoảng ${r}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 dạng cơ bản theo mẫu).
-  + Nêu rõ phần giảm tải: Tuyên bố rõ ràng KHÔNG bắt buộc học sinh phải làm các bài toán giải có lời văn nhiều bước tính, bài tính thuận tiện/tính nhanh hay các bài tập nâng cao.
-- BÁM SÁT ĐẶC THÙ BỘ MÔN:
-  + Môn Toán: Giới hạn rõ phạm vi số (số có 3-4 chữ số / số tròn trăm, tròn nghìn); phép tính đơn giản (không nhớ hoặc nhớ 1 lần trong phạm vi nhỏ); phân số cơ bản (phân số cùng mẫu số / phân số thập phân có mẫu 10, 100); chỉ định rõ hoàn thành khoảng ${r}% bài tập nhận biết ở Bài 1 hoặc Bài 2; không yêu cầu giải toán có lời văn 2-3 bước hay tính thuận tiện.
-  + Môn Tiếng Việt: Đọc trơn tên bài và 1-2 câu ngắn nhất; trả lời câu hỏi nhận biết trực quan trực tiếp; nhìn chép từ ngữ hoặc câu ngắn trên phiếu; không yêu cầu viết đoạn văn dài hay phân tích.
-  + Môn Khoa học, Lịch sử - Địa lý, TNXH, Đạo đức, Công nghệ: Nhận diện, chỉ đúng hình ảnh trực quan và nhắc lại 1-2 từ khóa cốt lõi của bài.
-- YÊU CẦU 2 Ý BẮT BUỘC:
-  - Năng lực đặc thù: [Kiến thức cốt lõi bám sát bài, giới hạn phạm vi, hoàn thành khoảng ${r}% bài tập cơ bản Bài 1/Bài 2 theo mẫu, nêu rõ nội dung giảm tải không bắt buộc].
-  - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và nỗ lực hoàn thành nhiệm vụ vừa sức].`;
+  + Nêu rõ phần giảm tải: Tuyên bố rõ ràng KHÔNG bắt buộc học sinh phải làm các bài toán giải có lời văn nhiều bước tính, bài tính thuận tiện/tính nhanh hay các bài tập nâng cao.`;
     }
 
+    // 3. Quy chuẩn sâu sát bám theo MÔN HỌC và KHỐI LỚP
+    var subjectGradeGuide = '';
+    if (sKey === 'toan' || sKey.includes('toan') || sKey.includes('toán')) {
+      if (g <= 2) {
+        subjectGradeGuide = `ĐẶC THÙ MÔN TOÁN KHỐI ${g} CHO HỌC SINH HÒA NHẬP:
+- Phạm vi kiến thức: Số trong phạm vi 10, 20 hoặc 100; đếm hình, que tính, khối lập phương trực quan.
+- Phép tính: Cộng, trừ không nhớ trong phạm vi nhỏ; làm quen cấu tạo số hoặc hình phẳng đơn giản.
+- Bài tập cụ thể: Hoàn thành 1-2 câu cơ bản của Bài 1 vào bảng con; miễn hoàn toàn bài toán có lời văn 2 bước tính hay dãy số tìm quy luật phức tạp.`;
+      } else if (g === 3) {
+        subjectGradeGuide = `ĐẶC THÙ MÔN TOÁN KHỐI 3 CHO HỌC SINH HÒA NHẬP:
+- Phạm vi kiến thức: Số tự nhiên trong phạm vi 1 000, 10 000; bảng nhân chia từ 2 đến 9 cơ bản; bảng đơn vị đo đơn giản (cm, m, g, kg, ml, l).
+- Phép tính: Cộng trừ có nhớ 1 lần trong phạm vi nhỏ, nhân chia 1 chữ số cơ bản; nhận biết góc, hình tròn, khối hộp trực quan.
+- Bài tập cụ thể: Làm Bài 1 hoặc Bài 2 theo mẫu trên bảng con hoặc chọn thẻ Đúng/Sai; miễn bài toán giải có lời văn 2 bước rút về đơn vị phức tạp hay bài tính giá trị biểu thức nhiều phép tính.`;
+      } else if (g === 4) {
+        subjectGradeGuide = `ĐẶC THÙ MÔN TOÁN KHỐI 4 CHO HỌC SINH HÒA NHẬP:
+- Phạm vi kiến thức: Đọc, viết số tự nhiên cơ bản; phân số cơ bản (nhận biết phân số qua hình vẽ tô màu trực quan, so sánh 2 phân số cùng mẫu số).
+- Phép tính: Đặt tính và tính phép tính cơ bản số tự nhiên; phân số cùng mẫu số đơn giản.
+- Bài tập cụ thể: Làm Bài 1 nhận biết trên bảng con, dùng thẻ Đ/S cho các nhận định đơn giản; miễn giải toán tìm hai số khi biết tổng và hiệu nhiều bước, miễn quy đồng mẫu số phức tạp và bài tính thuận tiện.`;
+      } else {
+        // Lớp 5
+        subjectGradeGuide = `ĐẶC THÙ MÔN TOÁN KHỐI 5 CHO HỌC SINH HÒA NHẬP:
+- Phạm vi kiến thức: Đọc viết số tự nhiên, phân số đơn giản, số thập phân cơ bản (hàng phần mười, hàng phần trăm); bảng đơn vị đo thời gian/độ dài/khối lượng dạng số tự nhiên từ lớn sang bé (VD: 1 ngày = 24 giờ, 1 giờ = 60 phút, 1 tuần = 7 ngày).
+- Bài tập cụ thể: Làm Bài 1 đưa thẻ Đúng/Sai với các bài tập số tự nhiên đơn giản; làm Bài 2 trên bảng con các phép đổi số nguyên (VD: 1 ngày = 24 giờ); bài tập nhóm có bạn hỗ trợ.
+- Giảm tải rõ ràng: Miễn giải toán có lời văn 2-3 bước tính (toán chuyển động đều, vận tốc, quãng đường, thời gian nâng cao), miễn đổi số thập phân phức tạp hay bài tính nhanh.`;
+      }
+    } else if (sKey === 'tieng_viet' || sKey.includes('tieng_viet') || sKey.includes('tiếng việt') || sKey === 'tv') {
+      if (g <= 2) {
+        subjectGradeGuide = `ĐẶC THÙ MÔN TIẾNG VIỆT KHỐI ${g} CHO HỌC SINH HÒA NHẬP:
+- Đọc: Nhận diện chữ cái, âm/vần đang học; đọc trơn từ ngữ đơn giản có kèm tranh minh họa; chỉ tranh nói từ ngữ tương ứng.
+- Viết: Nhìn chép từ ngữ 2-3 chữ vào bảng con hoặc phiếu bài tập in sẵn; tô chữ cái theo mẫu.
+- Nói và nghe: Trả lời 1 câu hỏi nhận biết trực quan rất ngắn (1-2 từ); không yêu cầu đọc đoạn văn dài hay viết chính tả tốc độ cao.`;
+      } else {
+        // Lớp 3, 4, 5
+        subjectGradeGuide = `ĐẶC THÙ MÔN TIẾNG VIỆT KHỐI ${g} CHO HỌC SINH HÒA NHẬP:
+- Đọc: Đọc trơn tên bài đọc và 1-2 câu ngắn nhất của bài; quan sát tranh minh họa chỉ đúng nhân vật/sự việc cốt lõi; trả lời câu hỏi nhận biết tường minh trực tiếp qua tranh.
+- Viết: Nhìn chép từ ngữ hoặc 1 câu ngắn cốt lõi của bài vào vở hoặc bảng con; bạn cùng bàn hướng dẫn.
+- Giảm tải rõ ràng: Miễn viết đoạn văn 4-5 câu hay bài văn miêu tả/kể chuyện hoàn chỉnh; miễn phân tích cấu tạo từ, từ loại, biện pháp tu từ hay ngữ pháp trừu tượng.`;
+      }
+    } else if (sKey === 'tnxh' || sKey.includes('tnxh') || sKey.includes('tự nhiên') || sKey.includes('tu_nhien')) {
+      subjectGradeGuide = `ĐẶC THÙ MÔN TỰ NHIÊN VÀ XÃ HỘI (KHỐI 1-3) CHO HỌC SINH HÒA NHẬP:
+- Nhận thức: Quan sát tranh ảnh, video clip, mô hình trực quan; chỉ và gọi tên được sự vật/hiện tượng cốt lõi (VD: Trái Đất, Mặt Trời, bộ phận cơ thể, cây cối, gia đình).
+- Thực hành: Thực hành nặn, vẽ, xé dán hoặc sắm vai đơn giản cùng nhóm bạn (VD: đóng vai Mặt Trời trong trò chơi); trả lời câu hỏi đơn giản theo gợi ý của giáo viên.`;
+    } else if (sKey === 'khoa_hoc' || sKey.includes('khoa_hoc') || sKey.includes('khoa học')) {
+      subjectGradeGuide = `ĐẶC THÙ MÔN KHOA HỌC (KHỐI 4-5) CHO HỌC SINH HÒA NHẬP:
+- Nhận thức: Quan sát vật thật, tranh ảnh, video thí nghiệm trực quan; chỉ và nêu tên được 1-2 hiện tượng tự nhiên hoặc bộ phận/đặc điểm cơ bản của bài học.
+- Thực hành: Tham gia thí nghiệm đơn giản với sự hỗ trợ của bạn cùng nhóm; không yêu cầu giải thích cơ chế khoa học sâu hay ghi nhớ chuỗi phản ứng.`;
+    } else if (sKey === 'lich_su_dia_ly' || sKey.includes('lsđl') || sKey.includes('lsdl') || sKey.includes('lich_su') || sKey.includes('lịch sử') || sKey.includes('địa lí')) {
+      subjectGradeGuide = `ĐẶC THÙ MÔN LỊCH SỬ VÀ ĐỊA LÍ (KHỐI 4-5) CHO HỌC SINH HÒA NHẬP:
+- Nhận thức: Quan sát lược đồ, bản đồ phóng to, hình ảnh trực quan; chỉ đúng vị trí địa lý hoặc nhận dạng đúng nhân vật/sự kiện lịch sử cốt lõi của bài.
+- Thực hành: Tham gia thảo luận nhóm, xem video tư liệu cùng bạn; không yêu cầu ghi nhớ niên đại chi tiết hay phân tích diễn biến chiến dịch phức tạp.`;
+    } else if (sKey === 'dao_duc' || sKey.includes('dao_duc') || sKey.includes('đạo đức')) {
+      subjectGradeGuide = `ĐẶC THÙ MÔN ĐẠO ĐỨC CHO HỌC SINH HÒA NHẬP:
+- Quan sát tranh tình huống, phân biệt hành vi đúng/sai bằng thẻ Đúng/Sai hoặc thẻ cảm xúc (mặt cười / mặt mếu); nêu được 1 việc làm tốt cụ thể, vừa sức trong cuộc sống hằng ngày.`;
+    } else if (sKey === 'hdtn' || sKey.includes('hdtn') || sKey.includes('trải nghiệm') || sKey.includes('trai_nghiem')) {
+      subjectGradeGuide = `ĐẶC THÙ HOẠT ĐỘNG TRẢI NGHIỆM CHO HỌC SINH HÒA NHẬP:
+- Tích cực tham gia trò chơi khởi động, sinh hoạt nhóm cùng các bạn; bày tỏ cảm xúc bằng cử chỉ hoặc thẻ cảm xúc; bạn cùng nhóm chủ động hỗ trợ hòa nhập.`;
+    } else {
+      subjectGradeGuide = `ĐẶC THÙ BỘ MÔN CHO HỌC SINH HÒA NHẬP:
+- Nhận biết trực quan qua vật thật/tranh ảnh; thực hành thao tác cơ bản nhất dưới sự làm mẫu của GV và bạn kèm cặp; tham gia hoạt động chung của lớp với tinh thần vui vẻ, hòa nhập.`;
+    }
+
+    guide = typeGuide + '\n\n' + subjectGradeGuide;
     if (notes && notes.trim()) {
-      guide += `\n- LƯU Ý ĐẶC THÙ TỪ GIÁO VIÊN ĐỨNG LỚP: ${notes.trim()}`;
+      guide += `\n\n- LƯU Ý ĐẶC THÙ TỪ GIÁO VIÊN ĐỨNG LỚP: ${notes.trim()}`;
     }
     return guide;
   },
 
   /**
-   * Xử lý một nhóm (chunk) bài dạy gửi cho Gemini để biên soạn lại YCCĐ cho học sinh khuyết tật
+   * Xử lý một nhóm (chunk) bài dạy gửi cho Gemini để biên soạn lại YCCĐ, đồ dùng và hoạt động cho học sinh khuyết tật (Hỗ trợ 1 - 3 học sinh)
    */
   _processDisabilityChunkWithGemini: async function(chunkLessons, disabilityConfig, apiKey) {
     if (!chunkLessons || !chunkLessons.length) return chunkLessons;
-
-    var rate = parseInt(disabilityConfig.cognitiveRate, 10) || 50;
-    var typeName = disabilityConfig.disabilityTypeName || this.getDisabilityTypeName(disabilityConfig.disabilityType) || 'Khuyết tật học tập';
-    var notes = (disabilityConfig.notes || '').trim();
-    var guidance = this.getDisabilityGuidance(disabilityConfig.disabilityType, rate, notes);
+    var self = this;
+    var studentsList = this.getDisabilityStudentsList(disabilityConfig);
+    if (!studentsList.length) {
+      studentsList = [{
+        id: 1,
+        name: '',
+        disabilityType: disabilityConfig.disabilityType || 'tri_tue',
+        disabilityTypeName: disabilityConfig.disabilityTypeName || this.getDisabilityTypeName(disabilityConfig.disabilityType),
+        cognitiveRate: parseInt(disabilityConfig.cognitiveRate, 10) || 50,
+        notes: (disabilityConfig.notes || '').trim()
+      }];
+    }
+    var isMulti = (studentsList.length > 1);
 
     var itemsToSend = chunkLessons.map(function(les, index) {
       var title = (les.lessonTitle || les.title || ('Bài học ' + (index + 1))).trim();
       var subj = les.subjectName || les.subject || (typeof IntegrationService !== 'undefined' && IntegrationService.getSubjectDisplayName ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || '';
-      
+      var gr = les.grade || disabilityConfig.grade || 5;
+
       // Lọc YCCĐ đặc thù / cốt lõi từ bài dạy
       var rawYccd = les.yccd || [];
       if (typeof rawYccd === 'string') rawYccd = rawYccd.split('\n');
@@ -3085,42 +3193,147 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         id: index,
         title: title,
         subject: subj,
+        subjectKey: les.subjectKey || '',
+        grade: gr,
         originalYccd: specificYccd.length ? specificYccd : [(les.topic || title)]
       };
     });
+
+    var sampleSubj = itemsToSend[0] ? itemsToSend[0].subjectKey : '';
+    var sampleGrade = itemsToSend[0] ? itemsToSend[0].grade : 5;
+
+    var studentInfoSections = studentsList.map(function(st, sIdx) {
+      var sGuide = self.getDisabilityGuidance(st.disabilityType, st.cognitiveRate, st.notes, sampleSubj, sampleGrade);
+      var titleStr = `HỌC SINH ${sIdx + 1}${st.name ? (' (' + st.name + ')') : ''}:`;
+      return `${titleStr}
+- Dạng tật: ${st.disabilityTypeName || self.getDisabilityTypeName(st.disabilityType)}
+- Mức độ nhận thức / tiếp thu: khoảng ${st.cognitiveRate}% so với chuẩn chung của lớp
+${st.notes ? ('- Ghi chú riêng từ giáo viên: ' + st.notes) : ''}
+- Hướng dẫn điều chỉnh sư phạm cho dạng tật này:
+${sGuide}`;
+    }).join('\n\n');
+
+    var promptRules = '';
+    var sampleJson = '';
+
+    if (!isMulti) {
+      var singleSt = studentsList[0];
+      promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHUẨN CV 2345):
+1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của học sinh; TUYỆT ĐỐI KHÔNG dùng mẫu câu rập khuôn, sáo rỗng.
+2. CẤU TRÚC YCCĐ (disabilityYccd) BẮT BUỘC ĐỦ 2 GẠCH ĐẦU DÒNG (PHÂN TÁCH BẰNG DẤU XUỐNG DÒNG \\n):
+   - Năng lực đặc thù: [Chỉ rõ kiến thức cốt lõi bám sát bài, môn học và khối lớp; giới hạn phạm vi số/kiến thức cụ thể (ví dụ môn Toán: số có bao nhiêu chữ số, phép tính cụ thể nào...), định lượng rõ hoàn thành khoảng ${singleSt.cognitiveRate}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 theo mẫu), và loại trừ rõ phần giảm tải không bắt buộc làm (không yêu cầu giải toán có lời văn 2-3 bước tính hay bài tính thuận tiện, bài nâng cao)].
+   - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và có ý thức nỗ lực hoàn thành nhiệm vụ vừa sức].
+3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể 1 dòng đồ dùng trực quan (ví dụ: "- Đối với học sinh hòa nhập: Thẻ cảm xúc, thẻ Đ/S, bảng con, phiếu học tập/tranh ảnh trực quan...").
+4. TIẾN TRÌNH HOẠT ĐỘNG (disabilityActivities): Phải nêu rõ hành động của GV và HS hòa nhập cho từng hoạt động, gắn sát kiến thức của bài học:
+   - khoiDong: { "teacherAct": "- GV hướng dẫn HSHN ...", "studentAct": "* HSHN ..." }
+   - luyenTap: { "teacherAct": "- GV HD HSHN làm bài tập ...", "studentAct": "* HSHN làm bài tập ... vào bảng con/giơ thẻ Đ/S..." } (Nêu bài tập số nhỏ cụ thể vừa sức cho em!)
+   - vanDung: { "teacherAct": "- GV hướng dẫn HSHN ...", "studentAct": "* HSHN cùng bạn chia sẻ và đánh giá tiết học bằng thẻ cảm xúc..." }`;
+
+      sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...",
+    "disabilityDodung": "- Đối với học sinh hòa nhập: Thẻ cảm xúc, thẻ Đ/S, bảng con, phiếu bài tập trực quan.",
+    "disabilityActivities": {
+      "khoiDong": {
+        "teacherAct": "- GV hướng dẫn HSHN quan sát tranh/bài hát khởi động, giao nhiệm vụ vừa sức.",
+        "studentAct": "* HSHN quan sát tranh, vỗ tay và nhắc lại từ khóa theo gợi ý của cô."
+      },
+      "luyenTap": {
+        "teacherAct": "- GV HD HSHN làm bài tập nhận biết cơ bản Bài 1 trên bảng con (bạn cùng bàn hỗ trợ).",
+        "studentAct": "* HSHN thực hiện bài tập nhận biết đơn giản vào bảng con với sự hỗ trợ của bạn cùng bàn."
+      },
+      "vanDung": {
+        "teacherAct": "- GV hướng dẫn HSHN tham gia chia sẻ và đánh giá tiết học.",
+        "studentAct": "* HSHN cùng bạn chia sẻ cảm nghĩ và tham gia đánh giá tiết học bằng thẻ cảm xúc."
+      }
+    }
+  }
+]`;
+    } else {
+      var stuHeadersExample = studentsList.map(function(st, sIdx) {
+        var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+          ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+          : (st.disabilityTypeName || 'HSHN');
+        var sName = st.name ? (st.name + ' - ') : '';
+        return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):
+- Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
+- Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
+      }).join('\n');
+
+      var dodungExample = studentsList.map(function(st, sIdx) {
+        var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+          ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+          : (st.disabilityTypeName || 'HSHN');
+        var sName = st.name ? (' ' + st.name) : '';
+        return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): [Đồ dùng trực quan phù hợp]`;
+      }).join('\n');
+
+      promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG CHO TỪNG HỌC SINH (${studentsList.length} HỌC SINH HÒA NHẬP):
+1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của từng em; TUYỆT ĐỐI KHÔNG rập khuôn.
+2. CẤU TRÚC YCCĐ (disabilityYccd): BẮT BUỘC BIÊN SOẠN RIÊNG CHO ĐỦ ${studentsList.length} HỌC SINH. Với MỖI HỌC SINH, xuất tiêu đề bắt đầu bằng dấu * và CHÍNH XÁC 2 GẠCH ĐẦU DÒNG (Năng lực đặc thù và Phẩm chất, năng lực chung):
+${stuHeadersExample}
+3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể đồ dùng trực quan cho từng em (phân tách bằng xuống dòng \\n):
+${dodungExample}
+4. TIẾN TRÌNH HOẠT ĐỘNG (disabilityActivities): Nêu rõ hành động của GV và các HSHN trong lớp gắn sát kiến thức của bài học:
+   - khoiDong: { "teacherAct": "- GV hướng dẫn các HSHN ...", "studentAct": "* Các HSHN ..." }
+   - luyenTap: { "teacherAct": "- GV HD từng HSHN làm bài tập nhận biết vừa sức ...", "studentAct": "* Các HSHN thực hiện bài tập theo khả năng ..." }
+   - vanDung: { "teacherAct": "- GV hướng dẫn các HSHN ...", "studentAct": "* Các HSHN cùng bạn chia sẻ và đánh giá tiết học bằng thẻ cảm xúc..." }`;
+
+      sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "${studentsList.map(function(st, sIdx) {
+      var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+        ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+        : (st.disabilityTypeName || 'HSHN');
+      var sName = st.name ? (st.name + ' - ') : '';
+      return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
+    }).join('\\n')}",
+    "disabilityDodung": "${studentsList.map(function(st, sIdx) {
+      var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+        ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+        : (st.disabilityTypeName || 'HSHN');
+      var sName = st.name ? (' ' + st.name) : '';
+      return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): ...`;
+    }).join('\\n')}",
+    "disabilityActivities": {
+      "khoiDong": {
+        "teacherAct": "- GV hướng dẫn các HSHN quan sát tranh/bài hát khởi động, giao nhiệm vụ vừa sức.",
+        "studentAct": "* Các HSHN quan sát tranh, vỗ tay và nhắc lại từ khóa theo gợi ý của cô."
+      },
+      "luyenTap": {
+        "teacherAct": "- GV HD từng HSHN làm bài tập nhận biết cơ bản Bài 1 trên bảng con (bạn cùng bàn hỗ trợ).",
+        "studentAct": "* Các HSHN thực hiện bài tập nhận biết đơn giản vào bảng con với sự hỗ trợ của bạn cùng bàn."
+      },
+      "vanDung": {
+        "teacherAct": "- GV hướng dẫn các HSHN tham gia chia sẻ và đánh giá tiết học.",
+        "studentAct": "* Các HSHN cùng bạn chia sẻ cảm nghĩ và tham gia đánh giá tiết học bằng thẻ cảm xúc."
+      }
+    }
+  }
+]`;
+    }
 
     var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Giáo dục Hòa nhập (Chương trình GDPT 2018, Thông tư 03/2018/TT-BGDĐT, chuẩn Công văn 2345/BGDĐT-GDTH).
 
 NHIỆM VỤ:
 Dưới đây là danh sách các bài dạy kèm YÊU CẦU CẦN ĐẠT (YCCĐ) GỐC của từng bài.
-Dựa vào YCCĐ GỐC của TỪNG BÀI DẠY, hãy biên soạn lại nội dung YCCĐ phân hóa chi tiết, định lượng cụ thể theo mức nhận thức ${rate}% (chuẩn Thông tư 03 và CV 2345) dành riêng cho học sinh khuyết tật học hòa nhập trong lớp.
+Dựa vào YCCĐ GỐC, đặc thù môn học và khối lớp của TỪNG BÀI DẠY, hãy biên soạn đồng bộ:
+1. YCCĐ phân hóa chi tiết, định lượng cụ thể theo mức nhận thức (chuẩn Thông tư 03 và CV 2345) dành cho học sinh khuyết tật học hòa nhập (${studentsList.length} học sinh).
+2. Thiết bị / Đồ dùng dạy học trực quan hỗ trợ riêng cho từng học sinh này.
+3. Hoạt động phân hóa cụ thể trong tiến trình dạy học (Khởi động, Luyện tập bài tập cơ bản, Vận dụng/Đánh giá) bám sát nội dung bài học, lời văn tự nhiên, ấm áp, tuyệt đối không dùng câu từ chung chung rập khuôn.
 
-THÔNG TIN HỌC SINH KHUYẾT TẬT:
-- Dạng tật: ${typeName}
-- Mức độ nhận thức / đáp ứng: khoảng ${rate}% so với chuẩn chung của lớp
-${notes ? ('- Ghi chú đặc thù từ giáo viên: ' + notes) : ''}
-
-HƯỚNG DẪN ĐIỀU CHỈNH SƯ PHẠM DÀNH RIÊNG CHO DẠNG TẬT NÀY:
-${guidance}
+THÔNG TIN DANH SÁCH HỌC SINH KHUYẾT TẬT TRONG LỚP (${studentsList.length} HỌC SINH):
+${studentInfoSections}
 
 DANH SÁCH BÀI DẠY VÀ YCCĐ GỐC:
 ${JSON.stringify(itemsToSend, null, 2)}
 
-QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHI TIẾT & ĐO LƯỜNG ĐƯỢC - CÁCH 2):
-1. VĂN PHONG SƯ PHẠM: Chuẩn mực, ấm áp, khích lệ sự hòa nhập và tiến bộ của học sinh.
-2. CẤU TRÚC BẮT BUỘC CHO MỖI BÀI DẠY PHẢI CÓ ĐỦ 2 GẠCH ĐẦU DÒNG (PHÂN TÁCH BẰNG DẤU XUỐNG DÒNG \\n):
-   - Năng lực đặc thù: [Chỉ rõ kiến thức cốt lõi bám sát bài, giới hạn phạm vi số/kiến thức cụ thể (ví dụ môn Toán: số có bao nhiêu chữ số, phép tính cụ thể nào...), định lượng rõ hoàn thành khoảng ${rate}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 theo mẫu), và loại trừ rõ phần giảm tải không bắt buộc làm (không yêu cầu giải toán có lời văn 2-3 bước tính hay bài tính thuận tiện, bài nâng cao)].
-   - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và có ý thức nỗ lực hoàn thành nhiệm vụ vừa sức].
-3. ĐỊNH DẠNG XUẤT RA CHÍNH XÁC:
-   "- Năng lực đặc thù: [Nội dung chi tiết định lượng bám sát bài]...\\n- Phẩm chất, năng lực chung: [Nội dung hòa nhập, tự tin, hợp tác]..."
+${promptRules}
 
 HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm mã markdown \`\`\`json):
-[
-  {
-    "id": 0,
-    "disabilityYccd": "- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ..."
-  }
-]`;
+${sampleJson}`;
 
     var rawResponse = await this.callGeminiApi(apiKey, prompt, { temperature: 0.4, maxTokens: 4000 });
     var parsed = this.parseJsonSafely(rawResponse);
@@ -3135,6 +3348,12 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
           .replace(/[;\s]+$/, '')
           .trim();
         chunkLessons[idx].disabilityYccdAI = cleaned;
+        if (item.disabilityDodung) {
+          chunkLessons[idx].disabilityDodungAI = item.disabilityDodung.trim();
+        }
+        if (item.disabilityActivities) {
+          chunkLessons[idx].disabilityActivitiesAI = item.disabilityActivities;
+        }
       }
     });
 

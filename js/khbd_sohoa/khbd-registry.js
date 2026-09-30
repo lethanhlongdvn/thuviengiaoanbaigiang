@@ -86,8 +86,11 @@ var KHBD_DATA = {
               var c2 = r[2].replace(/\n/g, '<br/>');
               var c3 = r[3].replace(/\n/g, '<br/>');
               var isTichHopRow = c0.indexOf('[Tích hợp') !== -1 || c2.indexOf('[Tích hợp') !== -1 || c3.indexOf('[Tích hợp') !== -1;
-              var bgStyle = isTichHopRow && highlightIntegration ? 'background: #faf5ff; border-left: 3px solid #a855f7;' : (isHeaderRow ? 'background: #f8fafc; font-weight: 700;' : '');
-              tableHtml += '<tr style="' + bgStyle + '"><td style="padding: 0.4rem; vertical-align: top;">' + c0 + '</td><td style="padding: 0.4rem; vertical-align: top; text-align: center;">' + c1 + '</td><td style="padding: 0.4rem; vertical-align: top;">' + c2 + '</td><td style="padding: 0.4rem; vertical-align: top;">' + c3 + '</td></tr>';
+              var isDisabilityRow = /\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(c0 + ' ' + c2 + ' ' + c3);
+              var isRed = isTichHopRow || isDisabilityRow;
+              var textStyle = isRed ? 'color: #c00000; font-weight: 500;' : '';
+              var bgStyle = isRed && highlightIntegration ? 'background: #faf5ff; border-left: 3px solid #a855f7;' : (isHeaderRow ? 'background: #f8fafc; font-weight: 700;' : '');
+              tableHtml += '<tr style="' + bgStyle + textStyle + '"><td style="padding: 0.4rem; vertical-align: top; ' + textStyle + '">' + c0 + '</td><td style="padding: 0.4rem; vertical-align: top; text-align: center; ' + textStyle + '">' + c1 + '</td><td style="padding: 0.4rem; vertical-align: top; ' + textStyle + '">' + c2 + '</td><td style="padding: 0.4rem; vertical-align: top; ' + textStyle + '">' + c3 + '</td></tr>';
             } else if (r.length === 1) {
               tableHtml += '<tr style="background: #f8fafc; font-weight: 700;"><td colspan="4" style="padding: 0.4rem;">' + r[0].replace(/\n/g, '<br/>') + '</td></tr>';
             } else if (r.length === 2) {
@@ -103,8 +106,11 @@ var KHBD_DATA = {
               var gvText = r[0].replace(/\n/g, '<br/>');
               var hsText = r[1].replace(/\n/g, '<br/>');
               var isTichHopRow = gvText.indexOf('[Tích hợp') !== -1 || gvText.indexOf('[GDĐP') !== -1 || hsText.indexOf('[Tích hợp') !== -1;
-              var bgStyle = isTichHopRow && highlightIntegration ? 'background: #faf5ff; border-left: 3px solid #a855f7;' : (isHeaderRow ? 'background: #f8fafc; font-weight: 700;' : '');
-              tableHtml += '<tr style="' + bgStyle + '"><td style="padding: 0.4rem; vertical-align: top;">' + gvText + '</td><td style="padding: 0.4rem; vertical-align: top;">' + hsText + '</td></tr>';
+              var isDisabilityRow = /\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(gvText + ' ' + hsText);
+              var isRed = isTichHopRow || isDisabilityRow;
+              var textStyle = isRed ? 'color: #c00000; font-weight: 500;' : '';
+              var bgStyle = isRed && highlightIntegration ? 'background: #faf5ff; border-left: 3px solid #a855f7;' : (isHeaderRow ? 'background: #f8fafc; font-weight: 700;' : '');
+              tableHtml += '<tr style="' + bgStyle + textStyle + '"><td style="padding: 0.4rem; vertical-align: top; ' + textStyle + '">' + gvText + '</td><td style="padding: 0.4rem; vertical-align: top; ' + textStyle + '">' + hsText + '</td></tr>';
             } else if (r.length === 1) {
               tableHtml += '<tr style="background: #f8fafc; font-weight: 700;"><td colspan="2" style="padding: 0.4rem;">' + r[0].replace(/\n/g, '<br/>') + '</td></tr>';
             }
