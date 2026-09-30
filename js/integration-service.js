@@ -1930,7 +1930,7 @@ ${sampleJson}`;
     var opt = options || {};
     var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
     var activeKey = (apiKey && apiKey.trim()) || defaultKey;
-    var models = ["gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-flash-latest", "gemini-3.6-flash"];
+    var models = ["gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-3.5-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -1938,7 +1938,7 @@ ${sampleJson}`;
       try {
         var genConfig = { temperature: typeof opt.temperature === 'number' ? opt.temperature : 0.3 };
         if (opt.maxTokens) genConfig.maxOutputTokens = opt.maxTokens;
-        if (modelName.indexOf("2.5") !== -1 || modelName.indexOf("3.5") !== -1) genConfig.thinkingConfig = { thinkingBudget: 0 };
+        if (modelName === "gemini-2.5-flash") genConfig.thinkingConfig = { thinkingBudget: 0 };
 
         var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
         var timeoutId = controller ? setTimeout(function() { controller.abort(); }, 35000) : null;
@@ -1962,17 +1962,19 @@ ${sampleJson}`;
         } else {
           var errJson = await response.json().catch(function(){ return {}; });
           lastError = errJson.error?.message || response.statusText;
-          if (response.status === 400 && lastError && (lastError.includes("API key not valid") || lastError.includes("API_KEY_INVALID"))) {
-            if (activeKey !== defaultKey && defaultKey) {
-              console.warn("Khôi phục key hệ thống trong callGeminiApiDirect:", defaultKey);
-              if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
-              return await this.callGeminiApiDirect(defaultKey, prompt, options);
-            }
+          if (activeKey !== defaultKey && defaultKey && (response.status === 400 || response.status === 401 || response.status === 403 || response.status === 429)) {
+            console.warn("Khôi phục key hệ thống trong callGeminiApiDirect:", defaultKey);
+            if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
+            return await this.callGeminiApiDirect(defaultKey, prompt, options);
           }
         }
       } catch (e) {
         if (timeoutId) clearTimeout(timeoutId);
         lastError = (e.name === 'AbortError') ? 'Quá thời gian kết nối AI (35s)' : e.message;
+        if (activeKey !== defaultKey && defaultKey) {
+          if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
+          return await this.callGeminiApiDirect(defaultKey, prompt, options);
+        }
       }
     }
     throw new Error(lastError || "Không thể kết nối Gemini API");
@@ -3283,7 +3285,7 @@ ${sampleJson}`;
     var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
     if (typeof localStorage !== 'undefined') {
       var custom = localStorage.getItem('tvth_gemini_api_key');
-      if (custom && custom.trim() && custom.length >= 35 && !custom.startsWith('AIzaSy')) {
+      if (custom && custom.trim() && custom.length >= 30 && custom.indexOf("JyocvLU") === -1) {
         return custom.trim();
       }
     }

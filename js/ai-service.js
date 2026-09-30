@@ -2773,7 +2773,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
     // Gọi Gemini API model mới nhất (Tự động chuyển đổi thông minh, ưu tiên thế hệ mới hạn mức cao)
     var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
     var activeKey = (apiKey && apiKey.trim()) || defaultKey;
-    var models = ["gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-flash-latest", "gemini-3.6-flash"];
+    var models = ["gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-3.5-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -2783,8 +2783,8 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
           responseMimeType: "application/json",
           temperature: 0.55
         };
-        // Tắt thinking budget ở gemini-2.5-flash & 3.5 để tốc độ sinh JSON siêu tốc (1-2 giây)
-        if (modelName.indexOf("2.5") !== -1 || modelName.indexOf("3.5") !== -1) {
+        // Tắt thinking budget ở gemini-2.5-flash để tốc độ sinh JSON siêu tốc (1-2 giây)
+        if (modelName === "gemini-2.5-flash") {
           genConfig.thinkingConfig = { thinkingBudget: 0 };
         }
 
@@ -2829,26 +2829,20 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         } else {
           var errJson = await response.json().catch(function(){ return {}; });
           lastError = errJson.error?.message || response.statusText;
-          // Nếu API key sai và khác defaultKey, tự động khôi phục Key hệ thống
-          if (response.status === 400 && lastError && (lastError.includes("API key not valid") || lastError.includes("API_KEY_INVALID"))) {
-            if (activeKey !== defaultKey && defaultKey) {
-              console.warn("API Key trong máy bị lỗi, tự động chuyển sang Key chuẩn hệ thống:", defaultKey);
-              if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
-              params.apiKey = defaultKey;
-              return await this.callGeminiAPI(defaultKey, params);
-            }
-            throw new Error(lastError);
-          }
-        }
-      } catch (e) {
-        lastError = e.message;
-        if (lastError && (lastError.includes("API key not valid") || lastError.includes("API_KEY_INVALID"))) {
-          if (activeKey !== defaultKey && defaultKey) {
+          // Nếu API key gặp lỗi (400, 401, 403, 429) và khác defaultKey, tự động khôi phục Key hệ thống
+          if (activeKey !== defaultKey && defaultKey && (response.status === 400 || response.status === 401 || response.status === 403 || response.status === 429)) {
+            console.warn("API Key trong máy bị lỗi, tự động chuyển sang Key chuẩn hệ thống:", defaultKey);
             if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
             params.apiKey = defaultKey;
             return await this.callGeminiAPI(defaultKey, params);
           }
-          throw e;
+        }
+      } catch (e) {
+        lastError = (e.name === 'AbortError') ? 'Quá thời gian kết nối AI (45s)' : e.message;
+        if (activeKey !== defaultKey && defaultKey) {
+          if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
+          params.apiKey = defaultKey;
+          return await this.callGeminiAPI(defaultKey, params);
         }
       }
     }
@@ -2863,7 +2857,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
     var opt = options || {};
     var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
     var activeKey = (apiKey && apiKey.trim()) || defaultKey;
-    var models = ["gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-flash-latest", "gemini-3.6-flash"];
+    var models = ["gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-3.5-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -2874,7 +2868,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         };
         if (opt.maxTokens) genConfig.maxOutputTokens = opt.maxTokens;
         if (opt.responseMimeType) genConfig.responseMimeType = opt.responseMimeType;
-        if (modelName.indexOf("2.5") !== -1 || modelName.indexOf("3.5") !== -1) {
+        if (modelName === "gemini-2.5-flash") {
           genConfig.thinkingConfig = { thinkingBudget: 0 };
         }
 
@@ -2900,18 +2894,20 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
         } else {
           var errJson = await response.json().catch(function(){ return {}; });
           lastError = errJson.error?.message || response.statusText;
-          // Tự động khôi phục Key chuẩn nếu key cá nhân bị hỏng
-          if (response.status === 400 && lastError && (lastError.includes("API key not valid") || lastError.includes("API_KEY_INVALID"))) {
-            if (activeKey !== defaultKey && defaultKey) {
-              console.warn("API Key lưu trong máy không hợp lệ, tự động chuyển sang Key hệ thống chuẩn:", defaultKey);
-              if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
-              return await this.callGeminiApi(defaultKey, prompt, options);
-            }
+          // Tự động khôi phục Key chuẩn nếu key cá nhân bị hỏng (400, 401, 403, 429)
+          if (activeKey !== defaultKey && defaultKey && (response.status === 400 || response.status === 401 || response.status === 403 || response.status === 429)) {
+            console.warn("API Key lưu trong máy không hợp lệ, tự động chuyển sang Key hệ thống chuẩn:", defaultKey);
+            if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
+            return await this.callGeminiApi(defaultKey, prompt, options);
           }
         }
       } catch (e) {
         if (timeoutId) clearTimeout(timeoutId);
         lastError = (e.name === 'AbortError') ? 'Quá thời gian kết nối AI (35s)' : e.message;
+        if (activeKey !== defaultKey && defaultKey) {
+          if (typeof localStorage !== 'undefined') localStorage.setItem("tvth_gemini_api_key", defaultKey);
+          return await this.callGeminiApi(defaultKey, prompt, options);
+        }
       }
     }
 

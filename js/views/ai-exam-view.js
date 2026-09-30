@@ -2001,7 +2001,7 @@ function openGeminiApiKeyModal() {
           </div>
           <div id="geminiKeyStatusBadge" style="margin-top: 0.5rem; padding: 0.6rem; border-radius: 6px; background: #faf5ff; border: 1px solid #e9d5ff; font-size: 0.8rem; display: none;"></div>
           <div style="margin-top: 0.65rem; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: var(--radius-sm); padding: 0.65rem; font-size: 0.78rem; color: #15803d;">
-            <i class="fa-solid fa-shield-halved"></i> Key hệ thống hoạt động ổn định trên các mô hình <strong>Gemini 2.5 Flash, 3.5 Flash Lite</strong> và tự động khôi phục khi cần.
+            <i class="fa-solid fa-shield-halved"></i> Hệ thống tự động tối ưu qua các mô hình <strong>Gemini Flash Lite, Gemini 3.5</strong> tốc độ cao và tự động dự phòng kết nối.
           </div>
         </div>
         <div class="modal-footer" style="display: flex; justify-content: space-between; align-items: center; gap: 0.5rem;">
