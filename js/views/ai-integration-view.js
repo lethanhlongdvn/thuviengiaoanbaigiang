@@ -3192,7 +3192,14 @@ async function triggerPreviewOriginalKhbd() {
           await IntegrationService.adaptLessonsDisabilityWithGemini(flatLessons, disSupport);
         } catch (e) {
           console.error('Lỗi phân hóa khuyết tật từ Gemini AI:', e);
-          showToast('⚠️ Không thể kết nối Gemini AI để phân hóa khuyết tật: ' + (e.message || 'Lỗi mạng hoặc API key') + '. Chế độ ngoại tuyến đã bị tắt hoàn toàn!', 'danger');
+          var errMsg = (e && e.message) || 'Lỗi mạng hoặc API key';
+          if (errMsg.indexOf('Không thể kết nối') === -1) {
+            errMsg = 'Không thể kết nối Gemini AI để phân hóa khuyết tật: ' + errMsg;
+          }
+          if (errMsg.indexOf('Chế độ ngoại tuyến đã bị tắt') === -1) {
+            errMsg += '. Chế độ ngoại tuyến đã bị tắt hoàn toàn!';
+          }
+          showToast('⚠️ ' + errMsg, 'danger');
           throw e;
         }
       }

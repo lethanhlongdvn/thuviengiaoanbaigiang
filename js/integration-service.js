@@ -1663,7 +1663,11 @@ var IntegrationService = {
         }
       } catch (aiErr) {
         console.error('Lỗi kết nối Gemini AI khi biên soạn YCCĐ khuyết tật:', aiErr);
-        throw new Error('Không thể kết nối với Google Gemini AI để biên soạn YCCĐ học sinh khuyết tật: ' + (aiErr.message || 'Lỗi mạng hoặc API key') + '. Chế độ ngoại tuyến đã bị tắt hoàn toàn!');
+        var innerMsg = (aiErr && aiErr.message) || 'Lỗi mạng hoặc API key';
+        if (innerMsg.indexOf('Không thể kết nối') !== -1) {
+          throw aiErr;
+        }
+        throw new Error('Không thể kết nối với Google Gemini AI để biên soạn YCCĐ học sinh khuyết tật: ' + innerMsg + '. Chế độ ngoại tuyến đã bị tắt hoàn toàn!');
       }
 
       // Đảm bảo 100% bài dạy đều đã được AI sinh kết quả trực tuyến thành công
@@ -1694,9 +1698,30 @@ var IntegrationService = {
 
   /**
    * Bộ xử lý nội bộ gửi batch bài dạy trực tiếp cho Gemini AI để biên soạn YCCĐ khuyết tật (Hỗ trợ 1 - 3 học sinh)
+   * Tự động chia nhóm nhỏ (batching) tối ưu tốc độ, chống tràn token (MAX_TOKENS) và ngắt kết nối
    */
   _adaptDisabilityBatchInternal: async function(lessons, disabilityConfig, apiKey) {
     if (!lessons || !lessons.length) return lessons;
+    var self = this;
+    var studentsList = this.getDisabilityStudentsList(disabilityConfig);
+    // Kích thước nhóm bài tối ưu: 2 bài nếu nhiều học sinh, 3 bài nếu 1 học sinh (chống tràn token & timeout)
+    var CHUNK_SIZE = (studentsList.length > 1) ? 2 : 3;
+    var chunks = [];
+    for (var i = 0; i < lessons.length; i += CHUNK_SIZE) {
+      chunks.push(lessons.slice(i, i + CHUNK_SIZE));
+    }
+
+    for (var c = 0; c < chunks.length; c++) {
+      await self._processDisabilityChunkInternal(chunks[c], disabilityConfig, apiKey);
+    }
+    return lessons;
+  },
+
+  /**
+   * Xử lý từng nhóm nhỏ bài dạy (2-3 bài) bằng Gemini AI trực tiếp
+   */
+  _processDisabilityChunkInternal: async function(chunkLessons, disabilityConfig, apiKey) {
+    if (!chunkLessons || !chunkLessons.length) return chunkLessons;
     var self = this;
     var studentsList = this.getDisabilityStudentsList(disabilityConfig);
     if (!studentsList.length) {
@@ -1711,7 +1736,7 @@ var IntegrationService = {
     }
     var isMulti = (studentsList.length > 1);
 
-    var itemsToSend = lessons.map(function(les, index) {
+    var itemsToSend = chunkLessons.map(function(les, index) {
       var title = (les.lessonTitle || les.title || ('Bài học ' + (index + 1))).trim();
       var subj = les.subjectName || les.subject || (IntegrationService.getSubjectDisplayName ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || '';
       var gr = les.grade || disabilityConfig.grade || 5;
@@ -1873,16 +1898,20 @@ HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm
 ${sampleJson}`;
 
     var rawResponse = '';
+    var apiOptions = { temperature: 0.4, maxTokens: 8192, responseMimeType: 'application/json' };
     if (typeof AIService !== 'undefined' && typeof AIService.callGeminiApi === 'function') {
-      rawResponse = await AIService.callGeminiApi(apiKey, prompt, { temperature: 0.4, maxTokens: 4000 });
+      rawResponse = await AIService.callGeminiApi(apiKey, prompt, apiOptions);
     } else {
-      rawResponse = await this.callGeminiApiDirect(apiKey, prompt, { temperature: 0.4, maxTokens: 4000 });
+      rawResponse = await this.callGeminiApiDirect(apiKey, prompt, apiOptions);
     }
 
-    var parsed = (typeof AIService !== 'undefined' && typeof AIService.parseJsonSafely === 'function') ? AIService.parseJsonSafely(rawResponse) : null;
+    var parsed = (typeof AIService !== 'undefined' && typeof AIService.parseJsonSafely === 'function')
+      ? AIService.parseJsonSafely(rawResponse)
+      : null;
+
     if (!parsed) {
       try {
-        var clean = rawResponse.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/, '').trim();
+        var clean = rawResponse.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/i, '').trim();
         parsed = JSON.parse(clean);
       } catch (e) {
         var s = rawResponse.indexOf("[");
@@ -1892,35 +1921,108 @@ ${sampleJson}`;
         }
       }
     }
-    if (!Array.isArray(parsed) || parsed.length === 0) {
+
+    var list = [];
+    if (Array.isArray(parsed)) {
+      list = parsed;
+    } else if (parsed && typeof parsed === 'object') {
+      if (Array.isArray(parsed.lessons)) list = parsed.lessons;
+      else if (Array.isArray(parsed.data)) list = parsed.data;
+      else if (Array.isArray(parsed.items)) list = parsed.items;
+      else if (Array.isArray(parsed.results)) list = parsed.results;
+      else if (parsed.disabilityYccd || parsed.id !== undefined) list = [parsed];
+      else {
+        var numKeys = Object.keys(parsed).filter(function(k) { return !isNaN(parseInt(k, 10)); });
+        if (numKeys.length > 0) {
+          list = numKeys.map(function(k) {
+            var it = parsed[k];
+            if (it && it.id === undefined) it.id = parseInt(k, 10);
+            return it;
+          });
+        }
+      }
+    }
+
+    if (!list || list.length === 0) {
+      list = self.extractDisabilityObjectsFromRaw(rawResponse);
+    }
+
+    if (!Array.isArray(list) || list.length === 0) {
       throw new Error('AI không trả về kết quả mảng JSON hợp lệ cho danh sách bài dạy.');
     }
 
-    parsed.forEach(function(item) {
-      var idx = item.id;
-      if (typeof idx === 'number' && lessons[idx] && item.disabilityYccd) {
-        var cleaned = item.disabilityYccd
+    list.forEach(function(item, itemIdx) {
+      if (!item) return;
+      var idx = (typeof item.id === 'number') ? item.id : parseInt(item.id, 10);
+      if (isNaN(idx) || !chunkLessons[idx]) {
+        if (typeof idx === 'number' && chunkLessons[idx - 1]) {
+          idx = idx - 1;
+        } else if (chunkLessons[itemIdx]) {
+          idx = itemIdx;
+        }
+      }
+      if (typeof idx === 'number' && chunkLessons[idx] && item.disabilityYccd) {
+        var cleaned = item.disabilityYccd.trim()
           .replace(/[;\s]+$/, '')
           .trim();
-        lessons[idx].disabilityYccdAI = cleaned;
+        chunkLessons[idx].disabilityYccdAI = cleaned;
         if (item.disabilityDodung) {
-          lessons[idx].disabilityDodungAI = item.disabilityDodung.trim();
+          chunkLessons[idx].disabilityDodungAI = item.disabilityDodung.trim();
         }
         if (item.disabilityActivities) {
-          lessons[idx].disabilityActivitiesAI = item.disabilityActivities;
+          chunkLessons[idx].disabilityActivitiesAI = item.disabilityActivities;
         }
       }
     });
 
+    // Nếu trong nhóm có bài bị sót, tự động thử lại riêng cho từng bài sót đó
+    var missingLessons = chunkLessons.filter(function(les) { return !les.disabilityYccdAI; });
+    if (missingLessons.length > 0 && chunkLessons.length > 1) {
+      for (var m = 0; m < missingLessons.length; m++) {
+        var mLes = missingLessons[m];
+        try {
+          await self._processDisabilityChunkInternal([mLes], disabilityConfig, apiKey);
+        } catch(subErr) {
+          console.warn('Không thể biên soạn lại riêng cho bài bị sót trong internal chunk:', mLes.title, subErr);
+        }
+      }
+    }
+
     var missingCount = 0;
-    lessons.forEach(function(les) {
+    chunkLessons.forEach(function(les) {
       if (!les.disabilityYccdAI) missingCount++;
     });
     if (missingCount > 0) {
       throw new Error('Gemini AI chưa hoàn thành đủ bài dạy trong nhóm (thiếu ' + missingCount + ' bài). Chế độ ngoại tuyến đã bị tắt hoàn toàn, vui lòng thử lại!');
     }
 
-    return lessons;
+    return chunkLessons;
+  },
+
+  /**
+   * Trích xuất các đối tượng bài dạy khuyết tật hợp lệ từ chuỗi văn bản nếu AI bị cắt ngắn hoặc định dạng lộn xộn
+   */
+  extractDisabilityObjectsFromRaw: function(text) {
+    if (!text) return [];
+    var results = [];
+    var regex = /\{[\s\S]*?"disabilityYccd"[\s\S]*?\}(?=\s*(?:,\s*\{|\]|$))/g;
+    var m;
+    while ((m = regex.exec(text)) !== null) {
+      try {
+        var obj = JSON.parse(m[0]);
+        if (obj && (obj.disabilityYccd || obj.id !== undefined)) {
+          results.push(obj);
+        }
+      } catch (e) {
+        try {
+          var trimmed = m[0].trim();
+          if (!trimmed.endsWith('}')) trimmed += '}';
+          var obj2 = JSON.parse(trimmed);
+          if (obj2 && (obj2.disabilityYccd || obj2.id !== undefined)) results.push(obj2);
+        } catch(e2) {}
+      }
+    }
+    return results;
   },
 
   /**
@@ -1938,6 +2040,7 @@ ${sampleJson}`;
       try {
         var genConfig = { temperature: typeof opt.temperature === 'number' ? opt.temperature : 0.3 };
         if (opt.maxTokens) genConfig.maxOutputTokens = opt.maxTokens;
+        if (opt.responseMimeType) genConfig.responseMimeType = opt.responseMimeType;
         if (modelName === "gemini-2.5-flash") genConfig.thinkingConfig = { thinkingBudget: 0 };
 
         var controller = typeof AbortController !== 'undefined' ? new AbortController() : null;

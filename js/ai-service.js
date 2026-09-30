@@ -2932,18 +2932,33 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
       } catch (e) {}
     }
 
-    // Tìm dấu ngoặc nhọn đầu và cuối (Object)
+    // Xóa tiền tố/hậu tố markdown nếu chưa hoàn thiện dấu đóng
+    var clean = t.replace(/^```json\s*/i, '').replace(/^```\s*/i, '').replace(/\s*```$/i, '').trim();
+    try {
+      return JSON.parse(clean);
+    } catch (e) {}
+
+    // Xác định vị trí ngoặc vuông (Array) và ngoặc nhọn (Object)
     var startObj = t.indexOf("{");
     var endObj = t.lastIndexOf("}");
+    var startArr = t.indexOf("[");
+    var endArr = t.lastIndexOf("]");
+
+    // Nếu cấu trúc là mảng JSON (dấu [ xuất hiện trước { hoặc không có {)
+    if (startArr !== -1 && endArr > startArr && (startObj === -1 || startArr < startObj)) {
+      try {
+        return JSON.parse(t.substring(startArr, endArr + 1));
+      } catch (e) {}
+    }
+
+    // Tìm dấu ngoặc nhọn đầu và cuối (Object)
     if (startObj !== -1 && endObj > startObj) {
       try {
         return JSON.parse(t.substring(startObj, endObj + 1));
       } catch (e) {}
     }
 
-    // Tìm dấu ngoặc vuông đầu và cuối (Array)
-    var startArr = t.indexOf("[");
-    var endArr = t.lastIndexOf("]");
+    // Thử lại dấu ngoặc vuông nếu trước đó Object thất bại
     if (startArr !== -1 && endArr > startArr) {
       try {
         return JSON.parse(t.substring(startArr, endArr + 1));
@@ -2951,6 +2966,32 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
     }
 
     return null;
+  },
+
+  /**
+   * Trích xuất các đối tượng bài dạy khuyết tật hợp lệ từ chuỗi văn bản nếu AI bị cắt ngắn hoặc định dạng lộn xộn
+   */
+  extractDisabilityObjectsFromRaw: function(text) {
+    if (!text) return [];
+    var results = [];
+    var regex = /\{[\s\S]*?"disabilityYccd"[\s\S]*?\}(?=\s*(?:,\s*\{|\]|$))/g;
+    var m;
+    while ((m = regex.exec(text)) !== null) {
+      try {
+        var obj = JSON.parse(m[0]);
+        if (obj && (obj.disabilityYccd || obj.id !== undefined)) {
+          results.push(obj);
+        }
+      } catch (e) {
+        try {
+          var trimmed = m[0].trim();
+          if (!trimmed.endsWith('}')) trimmed += '}';
+          var obj2 = JSON.parse(trimmed);
+          if (obj2 && (obj2.disabilityYccd || obj2.id !== undefined)) results.push(obj2);
+        } catch(e2) {}
+      }
+    }
+    return results;
   },
 
   /**
@@ -3331,14 +3372,52 @@ ${promptRules}
 HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm mã markdown \`\`\`json):
 ${sampleJson}`;
 
-    var rawResponse = await this.callGeminiApi(apiKey, prompt, { temperature: 0.4, maxTokens: 4000 });
+    var rawResponse = await this.callGeminiApi(apiKey, prompt, {
+      temperature: 0.4,
+      maxTokens: 8192,
+      responseMimeType: 'application/json'
+    });
+
     var parsed = this.parseJsonSafely(rawResponse);
-    if (!Array.isArray(parsed) || parsed.length === 0) {
+    var list = [];
+    if (Array.isArray(parsed)) {
+      list = parsed;
+    } else if (parsed && typeof parsed === 'object') {
+      if (Array.isArray(parsed.lessons)) list = parsed.lessons;
+      else if (Array.isArray(parsed.data)) list = parsed.data;
+      else if (Array.isArray(parsed.items)) list = parsed.items;
+      else if (Array.isArray(parsed.results)) list = parsed.results;
+      else if (parsed.disabilityYccd || parsed.id !== undefined) list = [parsed];
+      else {
+        var numKeys = Object.keys(parsed).filter(function(k) { return !isNaN(parseInt(k, 10)); });
+        if (numKeys.length > 0) {
+          list = numKeys.map(function(k) {
+            var it = parsed[k];
+            if (it && it.id === undefined) it.id = parseInt(k, 10);
+            return it;
+          });
+        }
+      }
+    }
+
+    if (!list || list.length === 0) {
+      list = this.extractDisabilityObjectsFromRaw(rawResponse);
+    }
+
+    if (!Array.isArray(list) || list.length === 0) {
       throw new Error('AI không trả về kết quả mảng JSON hợp lệ cho danh sách bài dạy.');
     }
 
-    parsed.forEach(function(item) {
-      var idx = item.id;
+    list.forEach(function(item, itemIdx) {
+      if (!item) return;
+      var idx = (typeof item.id === 'number') ? item.id : parseInt(item.id, 10);
+      if (isNaN(idx) || !chunkLessons[idx]) {
+        if (typeof idx === 'number' && chunkLessons[idx - 1]) {
+          idx = idx - 1;
+        } else if (chunkLessons[itemIdx]) {
+          idx = itemIdx;
+        }
+      }
       if (typeof idx === 'number' && chunkLessons[idx] && item.disabilityYccd) {
         var cleaned = item.disabilityYccd.trim()
           .replace(/[;\s]+$/, '')
@@ -3353,6 +3432,19 @@ ${sampleJson}`;
       }
     });
 
+    // Nếu trong nhóm có bài bị sót, tự động thử lại riêng cho từng bài sót đó
+    var missingLessons = chunkLessons.filter(function(les) { return !les.disabilityYccdAI; });
+    if (missingLessons.length > 0 && chunkLessons.length > 1) {
+      for (var m = 0; m < missingLessons.length; m++) {
+        var mLes = missingLessons[m];
+        try {
+          await self._processDisabilityChunkWithGemini([mLes], disabilityConfig, apiKey);
+        } catch(subErr) {
+          console.warn('Không thể biên soạn lại riêng cho bài bị sót:', mLes.title, subErr);
+        }
+      }
+    }
+
     var missingCount = 0;
     chunkLessons.forEach(function(les) {
       if (!les.disabilityYccdAI) missingCount++;
@@ -3366,7 +3458,7 @@ ${sampleJson}`;
 
   /**
    * Gửi danh sách bài dạy cho Gemini AI để biên soạn YCCĐ phân hóa cho học sinh khuyết tật
-   * Tự động chia nhóm (batching) tối ưu tốc độ và quota API
+   * Tự động chia nhóm nhỏ (batching) tối ưu tốc độ, chống tràn token (MAX_TOKENS) và ngắt kết nối
    */
   adaptDisabilityYccdBatch: async function(lessons, disabilityConfig, apiKey) {
     if (!lessons || !lessons.length || !disabilityConfig || !disabilityConfig.enabled) {
@@ -3385,7 +3477,12 @@ ${sampleJson}`;
     }
 
     var self = this;
-    var CHUNK_SIZE = 10;
+    var studentsList = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityStudentsList)
+      ? IntegrationService.getDisabilityStudentsList(disabilityConfig)
+      : (disabilityConfig.students || []);
+
+    // Kích thước nhóm bài tối ưu: 2 bài nếu nhiều học sinh, 3 bài nếu 1 học sinh (chống tràn token & timeout)
+    var CHUNK_SIZE = (studentsList.length > 1) ? 2 : 3;
     var chunks = [];
     for (var i = 0; i < lessons.length; i += CHUNK_SIZE) {
       chunks.push(lessons.slice(i, i + CHUNK_SIZE));
