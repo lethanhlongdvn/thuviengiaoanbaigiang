@@ -2721,11 +2721,11 @@
               "- HS tham gia trò chơi theo nhóm, đại diện từng thành viên đọc nhanh các phân số thập phân đã tìm được."
             ],
             [
-              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Các phân số thập phân có thể viết dưới một dạng số mới rất tiện dụng trong đời sống và khoa học kĩ thuật, đó là số thập phân. Hôm nay chúng ta cùng học Bài 10: Khái niệm số thập phân (Tiết 1).\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
+              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Các phân số thập phân có thể viết dưới một dạng số mới rất tiện dụng trong đời sống và khoa học kĩ thuật, đó là số thập phân. Hôm nay chúng ta cùng học Bài 10: Khái niệm số thập phân (Tiết 1).",
               "- HS lắng nghe, ghi vở tên bài học."
             ],
             [
-              "2. Khám phá (12 phút)\nMục tiêu: Nhận biết khái niệm ban đầu về số thập phân; biết cách viết và đọc các số thập phân đơn giản; nhận biết cấu tạo gồm phần nguyên và phần thập phân.\nCách tiến hành:\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />"
+              "2. Khám phá (12 phút)\nMục tiêu: Nhận biết khái niệm ban đầu về số thập phân; biết cách viết và đọc các số thập phân đơn giản; nhận biết cấu tạo gồm phần nguyên và phần thập phân.\nCách tiến hành:"
             ],
             [
               "- GV treo tranh/trình chiếu tình huống khám phá trong SGK: Rô-bốt, Mai và Nam quan sát chiếc thước đo có các vạch chia.",
@@ -2755,14 +2755,14 @@
               "- 4 HS đọc nối tiếp:\n+ 0,4 đọc là: Không phẩy bốn.\n+ 0,5 đọc là: Không phẩy năm.\n+ 0,04 đọc là: Không phẩy không bốn.\n+ 0,05 đọc là: Không phẩy không năm.\n- Cả lớp theo dõi, nhận xét."
             ],
             [
-              "- Bài 2a: GV hướng dẫn HS quan sát mẫu: 1 kg = 1/1000 tấn = 0,001 tấn. GV yêu cầu HS làm việc nhóm đôi đổi: 564 m = ? km.\n- Bài 2b: GV yêu cầu HS quan sát ví dụ mẫu và viết số đo đại lượng thích hợp: 3,2 m = ? mm; 4,5 kg = ? g.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
+              "- Bài 2a: GV hướng dẫn HS quan sát mẫu: 1 kg = 1/1000 tấn = 0,001 tấn. GV yêu cầu HS làm việc nhóm đôi đổi: 564 m = ? km.\n- Bài 2b: GV yêu cầu HS quan sát ví dụ mẫu và viết số đo đại lượng thích hợp: 3,2 m = ? mm; 4,5 kg = ? g.",
               "- HS thảo luận nhóm đôi, thực hiện vào bảng con:\n+ 564 m = 564/1000 km = 0,564 km.\n+ 3,2 m = 3 200 mm; 4,5 kg = 4 500 g.\n- Đại diện nhóm nêu cách làm và kết quả. Lớp nhận xét, thống nhất."
             ],
             [
               "4. Vận dụng - trải nghiệm (5 phút)\nMục tiêu: Củng cố cách viết số thập phân, xác định phần nguyên và phần thập phân; vận dụng kiến thức vào thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 3: GV yêu cầu HS làm bài cá nhân: Nêu số thập phân thích hợp rồi cho biết phần nguyên, phần thập phân của số thập phân đó (ví dụ: 132 mm = ? cm; 165/100 m = ? m).\n- GV gọi đại diện HS trình bày và giải thích.\n<img src=\"assets/khbd_images/lop5/toan/tuan_4/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
+              "- Bài 3: GV yêu cầu HS làm bài cá nhân: Nêu số thập phân thích hợp rồi cho biết phần nguyên, phần thập phân của số thập phân đó (ví dụ: 132 mm = ? cm; 165/100 m = ? m).\n- GV gọi đại diện HS trình bày và giải thích.",
               "- HS làm việc cá nhân vào vở:\n+ 132 mm = 13,2 cm (phần nguyên là 13, phần thập phân là 2).\n+ 165/100 m = 1,65 m (phần nguyên là 1, phần thập phân gồm 6 và 5).\n- 2 HS trình bày trước lớp, giải thích cách xác định phần nguyên và phần thập phân."
             ],
             [
@@ -4648,11 +4648,11 @@
               "1. Khởi động (5 phút)\nMục tiêu: Tạo không khí vui vẻ, phấn khởi; nhắc lại và hệ thống hóa các đơn vị đo diện tích đã học.\nCách tiến hành:"
             ],
             [
-              "- GV yêu cầu HS quan sát hình ảnh và đọc thông tin trong SGK trang 56.\n- GV yêu cầu HS nhắc lại các đơn vị đo diện tích đã học từ lớn đến bé: km², ha, m², dm², cm², mm².\n- GV trình chiếu bảng tổng hợp các đơn vị đo diện tích và mối quan hệ giữa hai đơn vị đo liền nhau.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
+              "- GV yêu cầu HS quan sát hình ảnh và đọc thông tin trong SGK trang 56.\n- GV yêu cầu HS nhắc lại các đơn vị đo diện tích đã học từ lớn đến bé: km², ha, m², dm², cm², mm².\n- GV trình chiếu bảng tổng hợp các đơn vị đo diện tích và mối quan hệ giữa hai đơn vị đo liền nhau.",
               "- HS quan sát hình ảnh, đọc thông tin SGK.\n- HS nêu tên các đơn vị đo diện tích: ki-lô-mét vuông, héc-ta, mét vuông, đề-xi-mét vuông, xăng-ti-mét vuông, mi-li-mét vuông.\n- HS nhắc lại: Mỗi đơn vị đo diện tích gấp 100 lần đơn vị bé hơn liền sau và bằng 1/100 đơn vị lớn hơn liền trước."
             ],
             [
-              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 1).\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
+              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 1).",
               "- HS lắng nghe, ghi tên bài vào vở."
             ],
             [
@@ -4674,7 +4674,7 @@
               "3. Vận dụng - trải nghiệm (8 phút)\nMục tiêu: Củng cố kiến thức đã học; rèn kĩ năng ước lượng số đo diện tích đồ vật trong thực tế.\nCách tiến hành:"
             ],
             [
-              "- Bài 3 (SGK trang 57): GV yêu cầu HS đọc đề bài (Chọn câu trả lời đúng), thảo luận nhóm đôi thống nhất kết quả.\n- GV gọi đại diện HS trả lời.\n- GV mở rộng: Yêu cầu HS ước lượng diện tích mặt bàn học, bảng lớp, nền phòng học bằng các đơn vị đo m², dm² thích hợp.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
+              "- Bài 3 (SGK trang 57): GV yêu cầu HS đọc đề bài (Chọn câu trả lời đúng), thảo luận nhóm đôi thống nhất kết quả.\n- GV gọi đại diện HS trả lời.\n- GV mở rộng: Yêu cầu HS ước lượng diện tích mặt bàn học, bảng lớp, nền phòng học bằng các đơn vị đo m², dm² thích hợp.",
               "- HS thảo luận nhóm đôi, chọn đáp án đúng và nêu trước lớp.\n- HS thực hành ước lượng: Diện tích mặt bàn khoảng 40 dm² (hoặc 0,4 m²); diện tích bảng lớp khoảng 3 m²; diện tích phòng học khoảng 48 m²."
             ],
             [
@@ -4726,7 +4726,7 @@
               "- HS tính và ghi nhanh vào bảng con:\na) 4 m² 5 dm² = 4,05 m²\nb) 7 cm² 10 mm² = 7,1 cm²\nc) 14 km² 50 ha = 14,5 km² (hoặc 14,50 km²)\n- 2 HS giải thích cách đổi: Dựa vào quan hệ 1 m² = 100 dm² nên 5 dm² = 0,05 m²."
             ],
             [
-              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 2).\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
+              "- GV nhận xét, tuyên dương và dẫn dắt vào bài mới: Bài 16. Các đơn vị đo diện tích (Tiết 2).",
               "- HS lắng nghe, mở SGK trang 58."
             ],
             [
@@ -4741,7 +4741,7 @@
               "- Các nhóm thảo luận, viết kết quả vào bảng nhóm:\na) 30 dm² = 0,3 m²; 271 mm² = 0,0271 dm²; 54 m² = 0,0054 ha\nb) 3 m² 7 dm² = 3,07 m²; 8 cm² 10 mm² = 8,1 cm²; 12 km² 50 ha = 12,5 km²\n- Đại diện nhóm trình bày, lớp nhận xét, đối chiếu kết quả."
             ],
             [
-              "- Bài 3 (SGK trang 59): Chọn câu trả lời đúng.\n- GV yêu cầu HS đọc kĩ đề bài về ô cửa sổ hình chữ nhật và các đáp án A, B, C, D.\n- GV mời HS giải thích cách tính diện tích ô cửa sổ.\n<img src=\"assets/khbd_images/lop5/toan/tuan_7/\" alt=\"\" style=\"max-width: 95%; height: auto;\" />",
+              "- Bài 3 (SGK trang 59): Chọn câu trả lời đúng.\n- GV yêu cầu HS đọc kĩ đề bài về ô cửa sổ hình chữ nhật và các đáp án A, B, C, D.\n- GV mời HS giải thích cách tính diện tích ô cửa sổ.",
               "- HS đọc đề bài, tính nhẩm diện tích ô cửa sổ:\n1 m × 3/5 m = 3/5 m² = 0,6 m² = 60 dm².\n- HS chọn Đáp án D (60 dm²)."
             ],
             [
