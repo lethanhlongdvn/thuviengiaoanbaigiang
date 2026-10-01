@@ -96,8 +96,12 @@ var integrationState = {
       } catch(e) {}
     }
 
+    var savedScope = (typeof localStorage !== 'undefined' ? localStorage.getItem('tvth_disability_scope') : '') || 'yccd_only';
+    if (savedScope !== 'both' && savedScope !== 'yccd_only') savedScope = 'yccd_only';
+
     return {
       enabled: enabled,
+      scope: savedScope,
       studentCount: count,
       activeStudentIndex: 0,
       students: students,
@@ -635,6 +639,40 @@ function renderAiIntegrationView(container) {
             return `
             <div style="margin-top: 0.65rem; padding-top: 0.55rem; border-top: 1px dashed #d8b4fe;">
               
+              <!-- LỰA CHỌN PHẠM VI TÍCH HỢP HSHN: CHỈ YCCD HOẶC CẢ 2 PHẦN -->
+              <div style="margin-bottom: 0.75rem; background: #ffffff; border: 1.5px solid #d8b4fe; border-radius: 8px; padding: 0.55rem 0.65rem; box-shadow: 0 1px 3px rgba(112,48,160,0.06);">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.35rem;">
+                  <span style="font-size: 0.74rem; font-weight: 800; color: #581c87; display: flex; align-items: center; gap: 0.3rem;">
+                    <i class="fa-solid fa-layer-group" style="color: #7e22ce;"></i> Phạm vi tích hợp vào giáo án:
+                  </span>
+                  <span style="font-size: 0.66rem; font-weight: 800; background: ${ds.scope !== 'both' ? '#dcfce7' : '#fef3c7'}; color: ${ds.scope !== 'both' ? '#15803d' : '#b45309'}; padding: 1px 6px; border-radius: 4px; border: 1px solid ${ds.scope !== 'both' ? '#86efac' : '#fde047'};">
+                    ${ds.scope !== 'both' ? 'Tối ưu tốc độ' : 'Toàn diện'}
+                  </span>
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.4rem;">
+                  <button type="button" class="btn btn-sm ${ds.scope !== 'both' ? 'btn-primary' : 'btn-outline'}" 
+                          style="font-size: 0.72rem; padding: 0.38rem 0.45rem; font-weight: 700; text-align: left; display: flex; flex-direction: column; gap: 2px; border-radius: 6px; ${ds.scope !== 'both' ? 'background: #7030a0; border-color: #7030a0; color: #fff; box-shadow: 0 1px 3px rgba(112,48,160,0.3);' : 'background: #fff; border-color: #cbd5e1; color: #475569;'}"
+                          onclick="setDisabilityScope('yccd_only')">
+                    <span style="font-weight: 800; display: flex; align-items: center; gap: 4px;">
+                      <i class="fa-solid fa-bullseye"></i> 1. Chỉ YCCĐ (Mục I)
+                    </span>
+                    <span style="font-size: 0.63rem; opacity: ${ds.scope !== 'both' ? '0.92' : '0.75'}; font-weight: normal; line-height: 1.25;">
+                      ⚡ Khuyên dùng • Rất nhanh, tránh ngắt Gemini
+                    </span>
+                  </button>
+                  <button type="button" class="btn btn-sm ${ds.scope === 'both' ? 'btn-primary' : 'btn-outline'}" 
+                          style="font-size: 0.72rem; padding: 0.38rem 0.45rem; font-weight: 700; text-align: left; display: flex; flex-direction: column; gap: 2px; border-radius: 6px; ${ds.scope === 'both' ? 'background: #7030a0; border-color: #7030a0; color: #fff; box-shadow: 0 1px 3px rgba(112,48,160,0.3);' : 'background: #fff; border-color: #cbd5e1; color: #475569;'}"
+                          onclick="setDisabilityScope('both')">
+                    <span style="font-weight: 800; display: flex; align-items: center; gap: 4px;">
+                      <i class="fa-solid fa-list-check"></i> 2. Cả YCCĐ & Hoạt động
+                    </span>
+                    <span style="font-size: 0.63rem; opacity: ${ds.scope === 'both' ? '0.92' : '0.75'}; font-weight: normal; line-height: 1.25;">
+                      📝 Mục I + Mục III • Dành cho thao giảng
+                    </span>
+                  </button>
+                </div>
+              </div>
+
               <!-- CHỌN SỐ LƯỢNG HỌC SINH HÒA NHẬP (1, 2, 3 HS) -->
               <div style="margin-bottom: 0.65rem;">
                 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.3rem;">
@@ -1095,9 +1133,10 @@ function renderAiIntegrationView(container) {
                 var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName) ? IntegrationService.getDisabilityShortTypeName(s.disabilityType) : 'Khuyết tật';
                 return (s.name || ('HS ' + (idx + 1))) + ' (' + sShort + ' ' + (s.cognitiveRate || 50) + '%)';
               }).join(', ');
+              var scopeText = (ds.scope === 'both') ? 'ở cuối mục I và bảng hoạt động mục III' : 'ở cuối mục I (chỉ YCCĐ)';
               return `
               <span style="color: #7030a0; font-weight: 700;">
-                <i class="fa-solid fa-circle-check" style="color: #7030a0;"></i> Đang bật mục tiêu phân hóa cho ${stCount} học sinh hòa nhập: ${stSummary}. Toàn bộ KHBD xuất ra sẽ có nội dung này ở cuối mục I.
+                <i class="fa-solid fa-circle-check" style="color: #7030a0;"></i> Đang bật mục tiêu phân hóa cho ${stCount} học sinh hòa nhập: ${stSummary}. Toàn bộ KHBD xuất ra sẽ có nội dung này ${scopeText}.
               </span>
               `;
             })() : `
@@ -1256,6 +1295,7 @@ function saveDisabilityStateToStorage() {
   var ds = (typeof integrationState !== 'undefined' && integrationState.disabilitySupport) || {};
   try {
     localStorage.setItem('tvth_disability_enabled', ds.enabled ? 'true' : 'false');
+    localStorage.setItem('tvth_disability_scope', ds.scope || 'yccd_only');
     localStorage.setItem('tvth_disability_student_count', ds.studentCount || 1);
     localStorage.setItem('tvth_disability_active_index', ds.activeStudentIndex || 0);
     if (ds.students) {
@@ -1275,7 +1315,7 @@ function toggleDisabilitySupport(enabled) {
     return;
   }
   if (!integrationState.disabilitySupport) {
-    integrationState.disabilitySupport = { enabled: true, studentCount: 1, activeStudentIndex: 0 };
+    integrationState.disabilitySupport = { enabled: true, scope: 'yccd_only', studentCount: 1, activeStudentIndex: 0 };
   }
   if (typeof enabled === 'undefined') {
     integrationState.disabilitySupport.enabled = !integrationState.disabilitySupport.enabled;
@@ -1290,9 +1330,33 @@ function toggleDisabilitySupport(enabled) {
   }
   if (integrationState.disabilitySupport.enabled) {
     var count = integrationState.disabilitySupport.studentCount || 1;
-    showToast('Đã BẬT hỗ trợ YCCĐ cho ' + count + ' học sinh hòa nhập', 'success');
+    var scopeName = (integrationState.disabilitySupport.scope === 'both') ? 'YCCĐ & Hoạt động' : 'chỉ YCCĐ';
+    showToast('Đã BẬT hỗ trợ HSHN cho ' + count + ' học sinh (' + scopeName + ')', 'success');
   } else {
     showToast('Đã TẮT hỗ trợ học sinh khuyết tật', 'info');
+  }
+}
+
+function setDisabilityScope(scope) {
+  if (isGuestUser()) {
+    showToast('Tính năng Giáo dục hòa nhập chỉ dành cho thành viên chính thức!', 'warning');
+    return;
+  }
+  if (!integrationState.disabilitySupport) {
+    integrationState.disabilitySupport = { enabled: true, studentCount: 1, activeStudentIndex: 0 };
+  }
+  if (scope !== 'both' && scope !== 'yccd_only') scope = 'yccd_only';
+  integrationState.disabilitySupport.scope = scope;
+  saveDisabilityStateToStorage();
+
+  var container = document.getElementById('content-container');
+  if (container && (currentView === 'ai-integration' || window.location.pathname.indexOf('ai-integration') !== -1)) {
+    renderAiIntegrationView(container);
+  }
+  if (scope === 'yccd_only') {
+    showToast('Đã chọn: Chỉ tích hợp HSHN ở Yêu cầu cần đạt (Tối ưu tốc độ, mượt mà)', 'success');
+  } else {
+    showToast('Đã chọn: Tích hợp HSHN cả Yêu cầu cần đạt và Hoạt động dạy học', 'info');
   }
 }
 
@@ -5292,6 +5356,7 @@ if (typeof window !== "undefined") {
   window.clearAllUploadedIntegrationDocs = typeof clearAllUploadedIntegrationDocs !== "undefined" ? clearAllUploadedIntegrationDocs : null;
   window.setIntegrationRoleAndMode = typeof setIntegrationRoleAndMode !== "undefined" ? setIntegrationRoleAndMode : null;
   window.toggleDisabilitySupport = typeof toggleDisabilitySupport !== "undefined" ? toggleDisabilitySupport : null;
+  window.setDisabilityScope = typeof setDisabilityScope !== "undefined" ? setDisabilityScope : null;
   window.setDisabilityStudentCount = typeof setDisabilityStudentCount !== "undefined" ? setDisabilityStudentCount : null;
   window.setDisabilityActiveTab = typeof setDisabilityActiveTab !== "undefined" ? setDisabilityActiveTab : null;
   window.setDisabilityStudentName = typeof setDisabilityStudentName !== "undefined" ? setDisabilityStudentName : null;

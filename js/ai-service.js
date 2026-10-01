@@ -3250,23 +3250,90 @@ ${st.notes ? ('- Ghi chú riêng từ giáo viên: ' + st.notes) : ''}
 ${sGuide}`;
     }).join('\n\n');
 
+    var isBoth = (disabilityConfig && disabilityConfig.scope === 'both');
     var promptRules = '';
     var sampleJson = '';
 
-    if (!isMulti) {
-      var singleSt = studentsList[0];
-      promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHUẨN CV 2345):
+    if (!isBoth) {
+      // CHẾ ĐỘ 1: CHỈ TÍCH HỢP YCCĐ (MỤC I) - GỌN NHẸ, TỐI ƯU TỐC ĐỘ, KHÔNG LO NGẮT GEMINI
+      if (!isMulti) {
+        var singleSt = studentsList[0];
+        promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHUẨN CV 2345):
+1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của học sinh; TUYỆT ĐỐI KHÔNG dùng mẫu câu rập khuôn, sáo rỗng.
+2. CẤU TRÚC YCCĐ (disabilityYccd) BẮT BUỘC ĐỦ 2 GẠCH ĐẦU DÒNG (PHÂN TÁCH BẰNG DẤU XUỐNG DÒNG \\n):
+   - Năng lực đặc thù: [Chỉ rõ kiến thức cốt lõi bám sát bài, môn học và khối lớp; giới hạn phạm vi số/kiến thức cụ thể (ví dụ môn Toán: số có bao nhiêu chữ số, phép tính cụ thể nào...), định lượng rõ hoàn thành khoảng ${singleSt.cognitiveRate}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 theo mẫu), và loại trừ rõ phần giảm tải không bắt buộc làm (không yêu cầu giải toán có lời văn 2-3 bước tính hay bài tính thuận tiện, bài nâng cao)].
+   - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và có ý thức nỗ lực hoàn thành nhiệm vụ vừa sức].
+3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể 1 dòng đồ dùng trực quan (ví dụ: "- Đối với học sinh hòa nhập: Thẻ cảm xúc, thẻ Đ/S, bảng con, phiếu học tập/tranh ảnh trực quan...").`;
+
+        sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...",
+    "disabilityDodung": "- Đối với học sinh hòa nhập: Thẻ cảm xúc, thẻ Đ/S, bảng con, phiếu bài tập trực quan."
+  }
+]`;
+      } else {
+        var stuHeadersExample = studentsList.map(function(st, sIdx) {
+          var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+            ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+            : (st.disabilityTypeName || 'HSHN');
+          var sName = st.name ? (st.name + ' - ') : '';
+          return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):
+- Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
+- Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
+        }).join('\n');
+
+        var dodungExample = studentsList.map(function(st, sIdx) {
+          var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+            ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+            : (st.disabilityTypeName || 'HSHN');
+          var sName = st.name ? (' ' + st.name) : '';
+          return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): [Đồ dùng trực quan phù hợp]`;
+        }).join('\n');
+
+        promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG CHO TỪNG HỌC SINH (${studentsList.length} HỌC SINH HÒA NHẬP):
+1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của từng em; TUYỆT ĐỐI KHÔNG rập khuôn.
+2. CẤU TRÚC YCCĐ (disabilityYccd): BẮT BUỘC BIÊN SOẠN RIÊNG CHO ĐỦ ${studentsList.length} HỌC SINH. Với MỖI HỌC SINH, xuất tiêu đề bắt đầu bằng dấu * và CHÍNH XÁC 2 GẠCH ĐẦU DÒNG (Năng lực đặc thù và Phẩm chất, năng lực chung):
+${stuHeadersExample}
+3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể đồ dùng trực quan cho từng em (phân tách bằng xuống dòng \\n):
+${dodungExample}`;
+
+        sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "${studentsList.map(function(st, sIdx) {
+      var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+        ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+        : (st.disabilityTypeName || 'HSHN');
+      var sName = st.name ? (st.name + ' - ') : '';
+      return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
+    }).join('\\n')}",
+    "disabilityDodung": "${studentsList.map(function(st, sIdx) {
+      var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+        ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+        : (st.disabilityTypeName || 'HSHN');
+      var sName = st.name ? (' ' + st.name) : '';
+      return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): ...`;
+    }).join('\\n')}"
+  }
+]`;
+      }
+    } else {
+      // CHẾ ĐỘ 2: TÍCH HỢP CẢ YCCĐ (MỤC I) LẪN HOẠT ĐỘNG (MỤC III)
+      if (!isMulti) {
+        var singleSt = studentsList[0];
+        promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHUẨN CV 2345):
 1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của học sinh; TUYỆT ĐỐI KHÔNG dùng mẫu câu rập khuôn, sáo rỗng.
 2. CẤU TRÚC YCCĐ (disabilityYccd) BẮT BUỘC ĐỦ 2 GẠCH ĐẦU DÒNG (PHÂN TÁCH BẰNG DẤU XUỐNG DÒNG \\n):
    - Năng lực đặc thù: [Chỉ rõ kiến thức cốt lõi bám sát bài, môn học và khối lớp; giới hạn phạm vi số/kiến thức cụ thể (ví dụ môn Toán: số có bao nhiêu chữ số, phép tính cụ thể nào...), định lượng rõ hoàn thành khoảng ${singleSt.cognitiveRate}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 theo mẫu), và loại trừ rõ phần giảm tải không bắt buộc làm (không yêu cầu giải toán có lời văn 2-3 bước tính hay bài tính thuận tiện, bài nâng cao)].
    - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và có ý thức nỗ lực hoàn thành nhiệm vụ vừa sức].
 3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể 1 dòng đồ dùng trực quan (ví dụ: "- Đối với học sinh hòa nhập: Thẻ cảm xúc, thẻ Đ/S, bảng con, phiếu học tập/tranh ảnh trực quan...").
-4. TIẾN TRÌNH HOẠT ĐỘNG (disabilityActivities): Phải nêu rõ hành động của GV và HS hòa nhập cho từng hoạt động, gắn sát kiến thức của bài học:
+4. TIẾN TRÌNH HOẠT ĐỘNG (disabilityActivities): Phải nêu rõ hành động của GV và HS hòa nhập cho từng hoạt động, gắn sát kiến thức của bài học (ngắn gọn, súc tích):
    - khoiDong: { "teacherAct": "- GV hướng dẫn HSHN ...", "studentAct": "* HSHN ..." }
    - luyenTap: { "teacherAct": "- GV HD HSHN làm bài tập ...", "studentAct": "* HSHN làm bài tập ... vào bảng con/giơ thẻ Đ/S..." } (Nêu bài tập số nhỏ cụ thể vừa sức cho em!)
    - vanDung: { "teacherAct": "- GV hướng dẫn HSHN ...", "studentAct": "* HSHN cùng bạn chia sẻ và đánh giá tiết học bằng thẻ cảm xúc..." }`;
 
-      sampleJson = `[
+        sampleJson = `[
   {
     "id": 0,
     "disabilityYccd": "- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...",
@@ -3287,37 +3354,37 @@ ${sGuide}`;
     }
   }
 ]`;
-    } else {
-      var stuHeadersExample = studentsList.map(function(st, sIdx) {
-        var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
-          ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
-          : (st.disabilityTypeName || 'HSHN');
-        var sName = st.name ? (st.name + ' - ') : '';
-        return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):
+      } else {
+        var stuHeadersExample = studentsList.map(function(st, sIdx) {
+          var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+            ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+            : (st.disabilityTypeName || 'HSHN');
+          var sName = st.name ? (st.name + ' - ') : '';
+          return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):
 - Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
 - Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
-      }).join('\n');
+        }).join('\n');
 
-      var dodungExample = studentsList.map(function(st, sIdx) {
-        var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
-          ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
-          : (st.disabilityTypeName || 'HSHN');
-        var sName = st.name ? (' ' + st.name) : '';
-        return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): [Đồ dùng trực quan phù hợp]`;
-      }).join('\n');
+        var dodungExample = studentsList.map(function(st, sIdx) {
+          var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
+            ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
+            : (st.disabilityTypeName || 'HSHN');
+          var sName = st.name ? (' ' + st.name) : '';
+          return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): [Đồ dùng trực quan phù hợp]`;
+        }).join('\n');
 
-      promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG CHO TỪNG HỌC SINH (${studentsList.length} HỌC SINH HÒA NHẬP):
+        promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG CHO TỪNG HỌC SINH (${studentsList.length} HỌC SINH HÒA NHẬP):
 1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của từng em; TUYỆT ĐỐI KHÔNG rập khuôn.
 2. CẤU TRÚC YCCĐ (disabilityYccd): BẮT BUỘC BIÊN SOẠN RIÊNG CHO ĐỦ ${studentsList.length} HỌC SINH. Với MỖI HỌC SINH, xuất tiêu đề bắt đầu bằng dấu * và CHÍNH XÁC 2 GẠCH ĐẦU DÒNG (Năng lực đặc thù và Phẩm chất, năng lực chung):
 ${stuHeadersExample}
 3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể đồ dùng trực quan cho từng em (phân tách bằng xuống dòng \\n):
 ${dodungExample}
-4. TIẾN TRÌNH HOẠT ĐỘNG (disabilityActivities): Nêu rõ hành động của GV và các HSHN trong lớp gắn sát kiến thức của bài học:
+4. TIẾN TRÌNH HOẠT ĐỘNG (disabilityActivities): Nêu rõ hành động của GV và các HSHN trong lớp gắn sát kiến thức của bài học (ngắn gọn, súc tích):
    - khoiDong: { "teacherAct": "- GV hướng dẫn các HSHN ...", "studentAct": "* Các HSHN ..." }
    - luyenTap: { "teacherAct": "- GV HD từng HSHN làm bài tập nhận biết vừa sức ...", "studentAct": "* Các HSHN thực hiện bài tập theo khả năng ..." }
    - vanDung: { "teacherAct": "- GV hướng dẫn các HSHN ...", "studentAct": "* Các HSHN cùng bạn chia sẻ và đánh giá tiết học bằng thẻ cảm xúc..." }`;
 
-      sampleJson = `[
+        sampleJson = `[
   {
     "id": 0,
     "disabilityYccd": "${studentsList.map(function(st, sIdx) {
@@ -3350,16 +3417,25 @@ ${dodungExample}
     }
   }
 ]`;
+      }
     }
 
-    var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Giáo dục Hòa nhập (Chương trình GDPT 2018, Thông tư 03/2018/TT-BGDĐT, chuẩn Công văn 2345/BGDĐT-GDTH).
-
-NHIỆM VỤ:
+    var taskDescription = (!isBoth)
+      ? `NHIỆM VỤ:
+Dưới đây là danh sách các bài dạy kèm YÊU CẦU CẦN ĐẠT (YCCĐ) GỐC của từng bài.
+Dựa vào YCCĐ GỐC, đặc thù môn học và khối lớp của TỪNG BÀI DẠY, hãy biên soạn:
+1. YCCĐ phân hóa chi tiết, định lượng cụ thể theo mức nhận thức (chuẩn Thông tư 03 và CV 2345) dành cho học sinh khuyết tật học hòa nhập (${studentsList.length} học sinh).
+2. Thiết bị / Đồ dùng dạy học trực quan hỗ trợ riêng cho từng học sinh này.`
+      : `NHIỆM VỤ:
 Dưới đây là danh sách các bài dạy kèm YÊU CẦU CẦN ĐẠT (YCCĐ) GỐC của từng bài.
 Dựa vào YCCĐ GỐC, đặc thù môn học và khối lớp của TỪNG BÀI DẠY, hãy biên soạn đồng bộ:
 1. YCCĐ phân hóa chi tiết, định lượng cụ thể theo mức nhận thức (chuẩn Thông tư 03 và CV 2345) dành cho học sinh khuyết tật học hòa nhập (${studentsList.length} học sinh).
 2. Thiết bị / Đồ dùng dạy học trực quan hỗ trợ riêng cho từng học sinh này.
-3. Hoạt động phân hóa cụ thể trong tiến trình dạy học (Khởi động, Luyện tập bài tập cơ bản, Vận dụng/Đánh giá) bám sát nội dung bài học, lời văn tự nhiên, ấm áp, tuyệt đối không dùng câu từ chung chung rập khuôn.
+3. Hoạt động phân hóa cụ thể trong tiến trình dạy học (Khởi động, Luyện tập bài tập cơ bản, Vận dụng/Đánh giá) bám sát nội dung bài học, lời văn tự nhiên, ấm áp, ngắn gọn súc tích.`;
+
+    var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Giáo dục Hòa nhập (Chương trình GDPT 2018, Thông tư 03/2018/TT-BGDĐT, chuẩn Công văn 2345/BGDĐT-GDTH).
+
+${taskDescription}
 
 THÔNG TIN DANH SÁCH HỌC SINH KHUYẾT TẬT TRONG LỚP (${studentsList.length} HỌC SINH):
 ${studentInfoSections}
@@ -3481,8 +3557,13 @@ ${sampleJson}`;
       ? IntegrationService.getDisabilityStudentsList(disabilityConfig)
       : (disabilityConfig.students || []);
 
-    // Kích thước nhóm bài tối ưu: 2 bài nếu nhiều học sinh, 3 bài nếu 1 học sinh (chống tràn token & timeout)
-    var CHUNK_SIZE = (studentsList.length > 1) ? 2 : 3;
+    var isBoth = (disabilityConfig && disabilityConfig.scope === 'both');
+    // Kích thước nhóm bài tối ưu:
+    // Nếu chỉ YCCĐ: 3 bài nếu nhiều HS, 4 bài nếu 1 HS (nhẹ, nhanh gấp đôi, tránh 429)
+    // Nếu cả 2 phần: 2 bài nếu nhiều HS, 3 bài nếu 1 HS (chống tràn token & timeout)
+    var CHUNK_SIZE = (!isBoth)
+      ? ((studentsList.length > 1) ? 3 : 4)
+      : ((studentsList.length > 1) ? 2 : 3);
     var chunks = [];
     for (var i = 0; i < lessons.length; i += CHUNK_SIZE) {
       chunks.push(lessons.slice(i, i + CHUNK_SIZE));
