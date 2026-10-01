@@ -5482,6 +5482,52 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   },
 
   /**
+   * Trích xuất kích thước gốc (width, height) từ chuỗi Base64 của ảnh (PNG, JPEG, GIF)
+   */
+  getImageDimensionsFromBase64: function(base64Data) {
+    try {
+      var raw = '';
+      if (typeof atob === 'function') {
+        raw = atob(base64Data.substring(0, 4000));
+      } else if (typeof Buffer !== 'undefined') {
+        raw = Buffer.from(base64Data.substring(0, 4000), 'base64').toString('binary');
+      }
+      if (!raw || raw.length < 24) return null;
+      // PNG (header 0x89504E47)
+      if (raw.charCodeAt(0) === 0x89 && raw.charCodeAt(1) === 0x50 && raw.charCodeAt(2) === 0x4E && raw.charCodeAt(3) === 0x47) {
+        var w = ((raw.charCodeAt(16) & 0xff) << 24) | ((raw.charCodeAt(17) & 0xff) << 16) | ((raw.charCodeAt(18) & 0xff) << 8) | (raw.charCodeAt(19) & 0xff);
+        var h = ((raw.charCodeAt(20) & 0xff) << 24) | ((raw.charCodeAt(21) & 0xff) << 16) | ((raw.charCodeAt(22) & 0xff) << 8) | (raw.charCodeAt(23) & 0xff);
+        return { width: (w >>> 0), height: (h >>> 0) };
+      }
+      // JPEG (header 0xFFD8)
+      if (raw.charCodeAt(0) === 0xFF && raw.charCodeAt(1) === 0xD8) {
+        var offset = 2;
+        while (offset < raw.length - 8) {
+          if (raw.charCodeAt(offset) === 0xFF) {
+            var marker = raw.charCodeAt(offset + 1);
+            if (marker === 0xC0 || marker === 0xC1 || marker === 0xC2) {
+              var h = (raw.charCodeAt(offset + 5) << 8) | raw.charCodeAt(offset + 6);
+              var w = (raw.charCodeAt(offset + 7) << 8) | raw.charCodeAt(offset + 8);
+              return { width: w, height: h };
+            }
+            var len = (raw.charCodeAt(offset + 2) << 8) | raw.charCodeAt(offset + 3);
+            offset += 2 + len;
+          } else {
+            offset++;
+          }
+        }
+      }
+      // GIF (header GIF87a / GIF89a)
+      if (raw.charCodeAt(0) === 0x47 && raw.charCodeAt(1) === 0x49 && raw.charCodeAt(2) === 0x46) {
+        var w = raw.charCodeAt(6) | (raw.charCodeAt(7) << 8);
+        var h = raw.charCodeAt(8) | (raw.charCodeAt(9) << 8);
+        return { width: w, height: h };
+      }
+    } catch(e) {}
+    return null;
+  },
+
+  /**
    * Tạo tệp .docx chuẩn OpenXML (dùng JSZip & altChunk có đầy đủ styles.xml và fontTable.xml chuẩn Times New Roman 13pt)
    */
   createDocxBlobFromHtml: async function(docHtml) {
@@ -5578,10 +5624,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   var extFromMime = mimeType.split('/')[1] || 'png';
                   if (extFromMime === 'jpeg') extFromMime = 'jpg';
                   var partName = 'word_img_' + (imgIndex++) + '.' + extFromMime;
+                  var dims = this.getImageDimensionsFromBase64(rawB64);
                   imgParts.push({
                     name: partName,
                     mime: mimeType,
-                    base64: rawB64
+                    base64: rawB64,
+                    dims: dims
                   });
                   docHtml = docHtml.split(targetUrl).join(partName);
                 }
@@ -5594,28 +5642,48 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           }
         }
 
-        // Chuẩn hóa kích thước toàn bộ ảnh trong file Word xuất ra cho toàn bộ hệ thống
-        // Đảm bảo mọi ảnh đều có width="306" và style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto;"
-        // Ngăn chặn 100% lỗi ảnh bị phóng to làm vỡ bảng và làm file phình to quá số trang chuẩn
+        // Chuẩn hóa kích thước toàn bộ ảnh trong file Word xuất ra theo đúng tỉ lệ gốc (aspect ratio)
+        // Microsoft Word khi mở HTML/MHTML altChunk KHÔNG hỗ trợ CSS height: auto;
+        // Do đó bắt buộc phải tính toán và đặt cả width lẫn height (pt & px) theo đúng tỉ lệ tự nhiên của ảnh,
+        // giúp ảnh hiển thị tỉ lệ chuẩn 1:1, không bao giờ bị méo mó, kéo dài (stretched) hay phình to vỡ bảng.
         if (typeof docHtml === 'string' && docHtml.indexOf('<img') !== -1) {
+          var imgDimsMap = {};
+          for (var p = 0; p < imgParts.length; p++) {
+            if (imgParts[p].dims) {
+              imgDimsMap[imgParts[p].name] = imgParts[p].dims;
+            }
+          }
+
           docHtml = docHtml.replace(/<img\b([^>]*)>/gi, function(fullTag, attrs) {
-            var newAttrs = attrs;
-            if (!/\bwidth\s*=/i.test(newAttrs)) {
-              newAttrs = ' width="306"' + newAttrs;
-            } else {
-              newAttrs = newAttrs.replace(/\bwidth\s*=\s*["']?(\d+)["']?/i, function(m, w) {
-                return (parseInt(w) > 350) ? 'width="306"' : m;
-              });
+            var srcMatch = attrs.match(/src=["']([^"']+)["']/i);
+            var src = srcMatch ? srcMatch[1] : '';
+            var dims = imgDimsMap[src];
+
+            var wPt = 225;
+            var hPt = 150;
+            var wPx = 300;
+            var hPx = 200;
+
+            if (dims && dims.width > 0 && dims.height > 0) {
+              if (dims.width > 300) {
+                wPt = 225;
+                hPt = Math.round(wPt * (dims.height / dims.width) * 10) / 10;
+                wPx = Math.round(wPt / 0.75);
+                hPx = Math.round(hPt / 0.75);
+              } else {
+                wPt = Math.round(dims.width * 0.75 * 10) / 10;
+                hPt = Math.round(dims.height * 0.75 * 10) / 10;
+                wPx = dims.width;
+                hPx = dims.height;
+              }
             }
-            if (/\bstyle\s*=\s*["']([^"']*)["']/i.test(newAttrs)) {
-              newAttrs = newAttrs.replace(/\bstyle\s*=\s*["']([^"']*)["']/i, function(m, s) {
-                var cleanStyle = s.replace(/(?:^|;)\s*(?:max-|min-)?width\s*:\s*[^;]+/gi, '').replace(/^;\s*/, '').trim();
-                return 'style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto; ' + cleanStyle + '"';
-              });
-            } else {
-              newAttrs += ' style="width: 229.5pt; max-width: 100%; height: auto; display: block; margin: 4pt auto;"';
-            }
-            return '<img' + newAttrs + '>';
+
+            var cleanAttrs = attrs
+              .replace(/\b(width|height)\s*=\s*["']?[^"'\s>]+["']?/gi, '')
+              .replace(/\bstyle\s*=\s*["'][^"']*["']/gi, '')
+              .trim();
+
+            return '<img src="' + src + '" width="' + wPx + '" height="' + hPx + '" style="width: ' + wPt + 'pt; height: ' + hPt + 'pt; max-width: 100%; display: block; margin: 4pt auto;" ' + cleanAttrs + '>';
           });
         }
 
