@@ -5488,7 +5488,11 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var jszipObj = (typeof JSZip !== 'undefined') ? JSZip : ((typeof window !== 'undefined' && window.JSZip) ? window.JSZip : null);
     if (jszipObj) {
       try {
-        // Tự động chuyển đổi toàn bộ đường dẫn ảnh (assets/... hoặc url) thành Base64 Data URI để nhúng trực tiếp vào file Word
+        // Trích xuất và đóng gói toàn bộ hình ảnh vào khối MHTML (multipart/related) chuẩn RFC 822
+        // Microsoft Word khi mở file docx qua altChunk KHÔNG hỗ trợ data: URI trong HTML thuần.
+        // Chỉ khi được đóng gói qua content.mht với Content-Location, Word mới chuyển đổi thành DrawingML và hiển thị hình ảnh hoàn hảo 100%.
+        var imgParts = [];
+        var imgIndex = 0;
         if (typeof docHtml === 'string' && docHtml.indexOf('<img') !== -1) {
           try {
             var imgRegex = /<img[^>]+src=["']([^"']+)["'][^>]*>/gi;
@@ -5496,60 +5500,90 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             var urlsToFetch = [];
             while ((match = imgRegex.exec(docHtml)) !== null) {
               var url = match[1];
-              if (url && !url.startsWith('data:') && urlsToFetch.indexOf(url) === -1) {
+              if (url && urlsToFetch.indexOf(url) === -1) {
                 urlsToFetch.push(url);
               }
             }
             for (var u = 0; u < urlsToFetch.length; u++) {
               var targetUrl = urlsToFetch[u];
               try {
-                var b64Data = null;
-                if (typeof window !== 'undefined' && typeof window.fetch === 'function') {
-                  try {
-                    var response = await fetch(targetUrl);
-                    if (response.ok) {
-                      var blob = await response.blob();
-                      b64Data = await new Promise(function(resolve) {
-                        var reader = new FileReader();
-                        reader.onloadend = function() { resolve(reader.result); };
-                        reader.readAsDataURL(blob);
-                      });
-                    }
-                  } catch(fetchCatch) {}
-                  if (!b64Data && typeof document !== 'undefined') {
+                var mimeType = 'image/png';
+                var rawB64 = null;
+
+                if (targetUrl.startsWith('data:image/')) {
+                  var dataParts = targetUrl.split(',');
+                  var meta = dataParts[0] || '';
+                  rawB64 = dataParts[1] || '';
+                  var mMatch = meta.match(/data:([^;]+)/);
+                  if (mMatch) mimeType = mMatch[1];
+                } else {
+                  if (typeof window !== 'undefined' && typeof window.fetch === 'function') {
                     try {
-                      b64Data = await new Promise(function(resolve) {
-                        var img = new Image();
-                        img.crossOrigin = 'Anonymous';
-                        img.onload = function() {
-                          try {
-                            var cvs = document.createElement('canvas');
-                            cvs.width = img.naturalWidth || img.width;
-                            cvs.height = img.naturalHeight || img.height;
-                            var ctx = cvs.getContext('2d');
-                            ctx.drawImage(img, 0, 0);
-                            resolve(cvs.toDataURL());
-                          } catch(err) {
-                            resolve(null);
-                          }
-                        };
-                        img.onerror = function() { resolve(null); };
-                        img.src = targetUrl;
-                      });
-                    } catch(cvsCatch) {}
-                  }
-                } else if (typeof require !== 'undefined') {
-                  var fs = require('fs');
-                  var path = require('path');
-                  var localPath = path.resolve(targetUrl);
-                  if (fs.existsSync(localPath)) {
-                    var ext = targetUrl.split('.').pop() || 'png';
-                    var buf = fs.readFileSync(localPath);
-                    b64Data = 'data:image/' + ext + ';base64,' + buf.toString('base64');
+                      var response = await fetch(targetUrl);
+                      if (response.ok) {
+                        var blob = await response.blob();
+                        if (blob.type) mimeType = blob.type;
+                        var dataUrl = await new Promise(function(resolve) {
+                          var reader = new FileReader();
+                          reader.onloadend = function() { resolve(reader.result); };
+                          reader.readAsDataURL(blob);
+                        });
+                        if (dataUrl && dataUrl.indexOf(',') !== -1) {
+                          rawB64 = dataUrl.split(',')[1];
+                        }
+                      }
+                    } catch(fetchCatch) {}
+
+                    if (!rawB64 && typeof document !== 'undefined') {
+                      try {
+                        var canvasDataUrl = await new Promise(function(resolve) {
+                          var img = new Image();
+                          img.crossOrigin = 'Anonymous';
+                          img.onload = function() {
+                            try {
+                              var cvs = document.createElement('canvas');
+                              cvs.width = img.naturalWidth || img.width;
+                              cvs.height = img.naturalHeight || img.height;
+                              var ctx = cvs.getContext('2d');
+                              ctx.drawImage(img, 0, 0);
+                              resolve(cvs.toDataURL());
+                            } catch(err) {
+                              resolve(null);
+                            }
+                          };
+                          img.onerror = function() { resolve(null); };
+                          img.src = targetUrl;
+                        });
+                        if (canvasDataUrl && canvasDataUrl.indexOf(',') !== -1) {
+                          rawB64 = canvasDataUrl.split(',')[1];
+                          var cMatch = canvasDataUrl.match(/data:([^;]+)/);
+                          if (cMatch) mimeType = cMatch[1];
+                        }
+                      } catch(cvsCatch) {}
+                    }
+                  } else if (typeof require !== 'undefined') {
+                    var fs = require('fs');
+                    var path = require('path');
+                    var localPath = path.resolve(targetUrl);
+                    if (fs.existsSync(localPath)) {
+                      var ext = targetUrl.split('.').pop() || 'png';
+                      mimeType = (ext === 'jpg' || ext === 'jpeg') ? 'image/jpeg' : ('image/' + ext);
+                      var buf = fs.readFileSync(localPath);
+                      rawB64 = buf.toString('base64');
+                    }
                   }
                 }
-                if (b64Data) {
-                  docHtml = docHtml.split(targetUrl).join(b64Data);
+
+                if (rawB64) {
+                  var extFromMime = mimeType.split('/')[1] || 'png';
+                  if (extFromMime === 'jpeg') extFromMime = 'jpg';
+                  var partName = 'word_img_' + (imgIndex++) + '.' + extFromMime;
+                  imgParts.push({
+                    name: partName,
+                    mime: mimeType,
+                    base64: rawB64
+                  });
+                  docHtml = docHtml.split(targetUrl).join(partName);
                 }
               } catch(fetchErr) {
                 console.warn('Could not embed image for Word export:', targetUrl, fetchErr);
@@ -5593,11 +5627,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           '  <Relationship Id="rId1" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument" Target="word/document.xml"/>\n' +
           '</Relationships>');
 
-        // 2. [Content_Types].xml
+        // 2. [Content_Types].xml (Hỗ trợ cả mht lẫn html)
         zip.file('[Content_Types].xml', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
           '<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">\n' +
           '  <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>\n' +
           '  <Default Extension="xml" ContentType="application/xml"/>\n' +
+          '  <Default Extension="mht" ContentType="message/rfc822"/>\n' +
           '  <Default Extension="html" ContentType="text/html"/>\n' +
           '  <Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>\n' +
           '  <Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>\n' +
@@ -5607,7 +5642,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         // 3. word/_rels/document.xml.rels
         zip.file('word/_rels/document.xml.rels', '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n' +
           '<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">\n' +
-          '  <Relationship Id="htmlChunk" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/aFChunk" Target="content.html"/>\n' +
+          '  <Relationship Id="htmlChunk" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/aFChunk" Target="content.mht"/>\n' +
           '  <Relationship Id="rIdStyles" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/styles" Target="styles.xml"/>\n' +
           '  <Relationship Id="rIdFontTable" Type="http://schemas.openxmlformats.org/officeDocument/2006/relationships/fontTable" Target="fontTable.xml"/>\n' +
           '</Relationships>');
@@ -5690,10 +5725,28 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           '  </w:body>\n' +
           '</w:document>');
 
-        // 7. word/content.html (đã làm sạch và chuẩn hóa font & paragraph)
+        // 7. word/content.mht (đóng gói MHTML RFC 822 chuẩn cho Microsoft Word)
         var sanitizedHtml = this.sanitizeHtmlForWordDocx(docHtml);
         var fullHtml = sanitizedHtml.includes('<meta charset=') ? sanitizedHtml : ('<!DOCTYPE html><html><head><meta charset="utf-8"></head><body>' + sanitizedHtml + '</body></html>');
-        zip.file('word/content.html', '\ufeff' + fullHtml);
+
+        var boundary = '----=_NextPart_WordDocx_MHT_01';
+        var mhtml = 'MIME-Version: 1.0\r\n';
+        mhtml += 'Content-Type: multipart/related; boundary="' + boundary + '"; type="text/html"\r\n\r\n';
+        mhtml += '--' + boundary + '\r\n';
+        mhtml += 'Content-Type: text/html; charset="utf-8"\r\n';
+        mhtml += 'Content-Transfer-Encoding: 8bit\r\n\r\n';
+        mhtml += fullHtml + '\r\n\r\n';
+
+        for (var p = 0; p < imgParts.length; p++) {
+          mhtml += '--' + boundary + '\r\n';
+          mhtml += 'Content-Type: ' + imgParts[p].mime + '\r\n';
+          mhtml += 'Content-Transfer-Encoding: base64\r\n';
+          mhtml += 'Content-Location: ' + imgParts[p].name + '\r\n\r\n';
+          mhtml += imgParts[p].base64 + '\r\n\r\n';
+        }
+        mhtml += '--' + boundary + '--\r\n';
+
+        zip.file('word/content.mht', mhtml);
 
         var genType = (typeof JSZip !== 'undefined' && JSZip.support && JSZip.support.blob) ? 'blob' : 'uint8array';
         var docxBlob = await zip.generateAsync({
