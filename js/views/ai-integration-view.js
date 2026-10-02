@@ -5013,7 +5013,8 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
   var inTichHopSection = false;
   var hasRenderedDisabilityHeader = false;
-  var yccdHtml = (les.yccd || []).map(function(line) {
+  var normalizedPreviewList = (typeof IntegrationService !== 'undefined' && IntegrationService.normalizeYccd) ? IntegrationService.normalizeYccd(les.yccd || []) : (les.yccd || []);
+  var yccdHtml = normalizedPreviewList.map(function(line) {
     if (typeof line !== 'string') return '';
     var cleanLine = line;
     if (/^[\s\-–—*•]*thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]*(?:\(.*\))?$/i.test(line)) {
@@ -5042,7 +5043,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     var isOtherHeaderGroup = /^[12356789]\.\s*/i.test(cleanLine.trim()) || /^[IVXLCDM]+\.\s*/i.test(cleanLine.trim());
     if (isTichHopHeaderGroup) {
       inTichHopSection = true;
-      return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify; "><span style="color: #c00000; font-weight: bold;">${cleanLine}</span></p>`;
+      return `<p style="margin: 0; margin-top: 4px; margin-bottom: 2px; font-weight: bold; line-height: 1.35; text-align: justify;">4. Tích hợp:</p>`;
     } else if (isOtherHeaderGroup) {
       inTichHopSection = false;
     }
