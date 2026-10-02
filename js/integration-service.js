@@ -2292,6 +2292,218 @@ ${sampleJson}`;
   },
 
   // =========================================================================
+  // 4b. TÍCH HỢP GIÁO DỤC ĐỊA PHƯƠNG (GDĐP) TỈNH TRÀ VINH (CHUẨN QĐ 2727/QĐ-BGDĐT)
+  // =========================================================================
+
+  /**
+   * Trích xuất hoặc lấy cấu hình Tích hợp GDĐP (Tỉnh Trà Vinh)
+   */
+  resolveGddpSupport: function(optGddp) {
+    var res = optGddp || (typeof integrationState !== 'undefined' && integrationState.gddpSupport);
+    if (!res) {
+      try {
+        var enabled = (typeof localStorage !== 'undefined' && localStorage.getItem('tvth_gddp_enabled') === 'true');
+        var scope = (typeof localStorage !== 'undefined' && localStorage.getItem('tvth_gddp_scope')) || 'both';
+        var province = (typeof localStorage !== 'undefined' && localStorage.getItem('tvth_gddp_province')) || 'Trà Vinh';
+        res = { enabled: enabled, scope: scope, province: province };
+      } catch(e) {}
+    }
+    if (!res) {
+      return { enabled: false, province: 'Trà Vinh', scope: 'both' };
+    }
+    if (!res.scope) res.scope = 'both';
+    if (!res.province) res.province = 'Trà Vinh';
+    return res;
+  },
+
+  /**
+   * Kiểm tra xem một dòng có phải là dòng tích hợp GDĐP hay không
+   */
+  isGddpLine: function(line) {
+    if (!line || typeof line !== 'string') return false;
+    var l = line.trim();
+    if (!l) return false;
+    if (/^\s*[1235]\.\s*/i.test(l)) return false;
+    return /tích\s*hợp\s*(?:giáo\s*dục\s*)?địa\s*phương|tích\s*hợp\s*gdđp/i.test(l);
+  },
+
+  /**
+   * Làm sạch mọi dòng/nội dung tích hợp GDĐP trong bảng hoạt động
+   */
+  cleanGddpFromTables: function(lesson) {
+    if (!lesson || !Array.isArray(lesson.tables)) return lesson;
+    lesson.tables = lesson.tables.map(function(tableRows) {
+      if (!Array.isArray(tableRows)) return tableRows;
+      return tableRows.filter(function(r) {
+        if (!Array.isArray(r)) return true;
+        if (r.isGddpRow) return false;
+        var rStr = r.join(' ');
+        return !(rStr.includes('Tích hợp Giáo dục địa phương (Trà Vinh)') || rStr.includes('Tích hợp GDĐP Trà Vinh'));
+      });
+    });
+    return lesson;
+  },
+
+  /**
+   * Làm sạch triệt để mọi dòng GDĐP khỏi bài dạy (Bảo đảm tính lũy đẳng)
+   */
+  cleanGddpFromLesson: function(lesson) {
+    if (!lesson) return lesson;
+    var self = this;
+    if (Array.isArray(lesson.yccd)) {
+      var newYccd = [];
+      lesson.yccd.forEach(function(item) {
+        if (typeof item !== 'string') {
+          newYccd.push(item);
+          return;
+        }
+        var subLines = item.split(/\r?\n/).map(function(s) { return s.trim(); }).filter(Boolean);
+        var filteredSub = subLines.filter(function(sub) {
+          return !self.isGddpLine(sub);
+        });
+        if (filteredSub.length === 1 && /^\d+\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp)[:.\s]*$/i.test(filteredSub[0])) {
+          return;
+        }
+        if (filteredSub.length > 0) {
+          newYccd.push(filteredSub.join('\n'));
+        }
+      });
+      lesson.yccd = newYccd;
+    }
+    this.cleanGddpFromTables(lesson);
+    return lesson;
+  },
+
+  /**
+   * Chèn nội dung GDĐP Trà Vinh vào YCCĐ bài dạy
+   */
+  injectGddpIntoLesson: function(lesson, gddpConfig) {
+    if (!lesson) return lesson;
+    if (!Array.isArray(lesson.yccd)) {
+      lesson.yccd = lesson.yccd ? [lesson.yccd] : [];
+    }
+
+    // 1. Luôn làm sạch GDĐP cũ trước (tính lũy đẳng)
+    this.cleanGddpFromLesson(lesson);
+
+    // 2. Nếu không bật cấu hình GDĐP -> dừng lại
+    var cfg = this.resolveGddpSupport(gddpConfig);
+    if (!cfg || !cfg.enabled) {
+      return lesson;
+    }
+
+    // 3. Tìm nội dung GDĐP Trà Vinh phù hợp từ GDDP_DATA
+    var gddpItem = (typeof GDDP_DATA !== 'undefined' && GDDP_DATA.getTraVinhGddpForLesson)
+      ? GDDP_DATA.getTraVinhGddpForLesson(lesson.grade, lesson.subjectKey, lesson.week, lesson.lessonTitle || lesson.title)
+      : null;
+
+    if (!gddpItem || !gddpItem.yccdText) return lesson;
+
+    var gddpLine = gddpItem.yccdText.trim();
+    if (!gddpLine.endsWith('.')) gddpLine += '.';
+
+    // 4. Chèn vào YCCD: Ưu tiên dưới mục 4. Tích hợp
+    var inserted = false;
+    for (var i = 0; i < lesson.yccd.length; i++) {
+      if (/^4\.\s*tích\s*hợp/i.test(lesson.yccd[i])) {
+        lesson.yccd.splice(i + 1, 0, gddpLine);
+        inserted = true;
+        break;
+      }
+    }
+
+    // Nếu chưa có "4. Tích hợp", tìm vị trí trước "5. Điều chỉnh..."
+    if (!inserted) {
+      var disIdx = -1;
+      for (var j = 0; j < lesson.yccd.length; j++) {
+        if (/^5\.\s*điều\s*chỉnh/i.test(lesson.yccd[j])) {
+          disIdx = j;
+          break;
+        }
+      }
+      if (disIdx !== -1) {
+        lesson.yccd.splice(disIdx, 0, '4. Tích hợp:\n' + gddpLine);
+      } else {
+        lesson.yccd.push('4. Tích hợp:\n' + gddpLine);
+      }
+    }
+
+    return lesson;
+  },
+
+  /**
+   * Chèn nội dung hoạt động GDĐP Trà Vinh vào Bảng hoạt động Mục III
+   */
+  injectGddpActivitiesIntoTables: function(lesson, gddpConfig) {
+    if (!lesson) return lesson;
+    var cfg = this.resolveGddpSupport(gddpConfig);
+    if (!cfg || !cfg.enabled || cfg.scope === 'yccd_only') {
+      this.cleanGddpFromTables(lesson);
+      return lesson;
+    }
+
+    if (!Array.isArray(lesson.tables) || lesson.tables.length === 0) return lesson;
+
+    this.cleanGddpFromTables(lesson);
+
+    var gddpItem = (typeof GDDP_DATA !== 'undefined' && GDDP_DATA.getTraVinhGddpForLesson)
+      ? GDDP_DATA.getTraVinhGddpForLesson(lesson.grade, lesson.subjectKey, lesson.week, lesson.lessonTitle || lesson.title)
+      : null;
+
+    if (!gddpItem) return lesson;
+
+    var targetTable = lesson.tables[lesson.tables.length - 1];
+    if (!Array.isArray(targetTable) || targetTable.length < 2) return lesson;
+
+    var has4Cols = targetTable.some(function(row) { return Array.isArray(row) && row.length === 4; });
+    var gvCell = '<p style="margin: 0pt; line-height: 1.15; font-family: \'Times New Roman\', serif; font-size: 13pt; color: #C00000; text-align: justify;"><span style="color: #C00000; font-weight: bold;">* Tích hợp Giáo dục địa phương (Trà Vinh):</span><br/><span style="color: #C00000;">' + gddpItem.teacherAct + '</span></p>';
+    var hsCell = '<p style="margin: 0pt; line-height: 1.15; font-family: \'Times New Roman\', serif; font-size: 13pt; color: #C00000; text-align: justify;"><span style="color: #C00000; font-weight: bold;">* Tích hợp GDĐP Trà Vinh:</span><br/><span style="color: #C00000;">' + gddpItem.studentAct + '</span></p>';
+
+    var gddpRow = has4Cols ? ['', '', gvCell, hsCell] : [gvCell, hsCell];
+    gddpRow.isGddpRow = true;
+
+    var insertPos = -1;
+    for (var r = 0; r < targetTable.length; r++) {
+      var rStr = (targetTable[r] || []).join(' ');
+      if (/vận\s*dụng|củng\s*cố|trải\s*nghiệm/i.test(rStr) && targetTable[r].length === 1) {
+        insertPos = r;
+        break;
+      }
+    }
+
+    if (insertPos !== -1) {
+      targetTable.splice(insertPos, 0, gddpRow);
+    } else {
+      targetTable.push(gddpRow);
+    }
+
+    return lesson;
+  },
+
+  /**
+   * Áp dụng hoặc làm sạch GDĐP cho một danh sách bài học
+   */
+  applyGddpToLessons: function(lessons, gddpConfig) {
+    if (!Array.isArray(lessons)) return lessons;
+    var self = this;
+    var cfg = this.resolveGddpSupport(gddpConfig);
+    lessons.forEach(function(les) {
+      if (cfg && cfg.enabled) {
+        self.injectGddpIntoLesson(les, cfg);
+        if (cfg.scope !== 'yccd_only') {
+          self.injectGddpActivitiesIntoTables(les, cfg);
+        } else {
+          self.cleanGddpFromTables(les);
+        }
+      } else {
+        self.cleanGddpFromLesson(les);
+        self.cleanGddpFromTables(les);
+      }
+    });
+    return lessons;
+  },
+
+  // =========================================================================
   // 5. GHÉP TUẦN TỰ TOÀN BỘ KHBD TRONG TUẦN THEO THỜI KHÓA BIỂU
   // =========================================================================
 
@@ -2653,12 +2865,16 @@ ${sampleJson}`;
       await IntegrationService.adaptLessonsDisabilityWithGemini(weeklyOrderedLessons, disSupport);
     }
 
+    var gddpSupport = IntegrationService.resolveGddpSupport(opt && opt.gddpSupport);
+    IntegrationService.applyGddpToLessons(weeklyOrderedLessons, gddpSupport);
+
     return {
       week: wNum,
       grade: g,
       timetable: timetable,
       lessons: weeklyOrderedLessons,
-      totalSlots: weeklyOrderedLessons.length
+      totalSlots: weeklyOrderedLessons.length,
+      metadata: opt
     };
   },
 
@@ -2914,6 +3130,9 @@ ${sampleJson}`;
     if (disSupport && disSupport.enabled) {
       await IntegrationService.adaptLessonsDisabilityWithGemini(weeklyOrderedLessons, disSupport);
     }
+
+    var gddpSupport = IntegrationService.resolveGddpSupport(metadata && metadata.gddpSupport);
+    IntegrationService.applyGddpToLessons(weeklyOrderedLessons, gddpSupport);
 
     return {
       role: 'gvbm',
@@ -4186,6 +4405,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       await IntegrationService.adaptLessonsDisabilityWithGemini(finalLessons, disSupport);
     }
 
+    var gddpSupport = IntegrationService.resolveGddpSupport(plan && plan.gddpSupport);
+    IntegrationService.applyGddpToLessons(finalLessons, gddpSupport);
+
     return finalLessons;
   },
 
@@ -4297,6 +4519,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       await this.adaptLessonsDisabilityWithGemini(lessons, disSupport);
     }
 
+    var gddpSupport = IntegrationService.resolveGddpSupport(meta.gddpSupport);
+    IntegrationService.applyGddpToLessons(lessons, gddpSupport);
+
     var docHtml = this.generateWordHtmlStructure(lessons, {
       title: 'Kế hoạch bài dạy ' + (className || ('Khối ' + grade)) + ' - Môn ' + subjectName + ' (Tuần ' + startWeek + ' - ' + endWeek + ')',
       schoolName: schoolName,
@@ -4308,6 +4533,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       startWeek: startWeek,
       endWeek: endWeek,
       disabilitySupport: disSupport,
+      gddpSupport: gddpSupport,
       approvalConfig: meta.approvalConfig || (typeof integrationState !== 'undefined' && integrationState.approvalConfig)
     });
 
@@ -4329,6 +4555,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     if (disSupport && disSupport.enabled) {
       await this.adaptLessonsDisabilityWithGemini(lessons, disSupport);
     }
+    var gddpSupport = IntegrationService.resolveGddpSupport(meta.gddpSupport || (weeklyPlanResult && weeklyPlanResult.metadata && weeklyPlanResult.metadata.gddpSupport));
+    IntegrationService.applyGddpToLessons(lessons, gddpSupport);
     var schoolName = meta.schoolName || (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.schoolName) || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = meta.teacherName || (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.teacherName) || '';
     var schoolYear = meta.schoolYear || (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.schoolYear) || '2026 - 2027';
@@ -4464,6 +4692,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       department: meta.department || (weeklyPlanResult.gvbmConfig && weeklyPlanResult.gvbmConfig.department) || (typeof integrationState !== 'undefined' && integrationState.gvbmConfig && integrationState.gvbmConfig.department) || '',
       tkbCoverHtml: tkbCoverHtml,
       disabilitySupport: disSupport,
+      gddpSupport: gddpSupport,
       approvalConfig: meta.approvalConfig || (weeklyPlanResult && weeklyPlanResult.metadata && weeklyPlanResult.metadata.approvalConfig) || (typeof integrationState !== 'undefined' && integrationState.approvalConfig)
     });
 
@@ -4484,17 +4713,17 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     if (isPureIntegration) {
       return '<span style="color: #C00000;">' + formattedText + '</span>';
     }
-    if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|nội\s*dung\s*tích\s*hợp/i.test(formattedText)) {
+    if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|nội\s*dung\s*tích\s*hợp|giáo\s*dục\s*địa\s*phương|gdđp|địa\s*phương|trà\s*vinh/i.test(formattedText)) {
       var lines = formattedText.split(/(<br\s*\/?>)/i);
       var result = lines.map(function(part) {
         if (/^<br\s*\/?>$/i.test(part)) return part;
-        if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|nội\s*dung\s*tích\s*hợp/i.test(part)) {
-          if (/^\s*(?:\*\s*)?(?:mục\s*tiêu\s*tích\s*hợp|tích\s*hợp|hoạt\s*động\s*tích\s*hợp)/i.test(part)) {
+        if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|nội\s*dung\s*tích\s*hợp|giáo\s*dục\s*địa\s*phương|gdđp|địa\s*phương|trà\s*vinh/i.test(part)) {
+          if (/^\s*(?:\*\s*)?(?:mục\s*tiêu\s*tích\s*hợp|tích\s*hợp|hoạt\s*động\s*tích\s*hợp|giáo\s*dục\s*địa\s*phương|gdđp)/i.test(part)) {
             return '<span style="color: #C00000;">' + part + '</span>';
           }
-          var subparts = part.split(/((?:mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai).*$)/i);
+          var subparts = part.split(/((?:mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|giáo\s*dục\s*địa\s*phương|gdđp|địa\s*phương|trà\s*vinh).*$)/i);
           return subparts.map(function(sp) {
-            if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai/i.test(sp)) {
+            if (/mục\s*tiêu\s*tích\s*hợp|tích\s*hợp\s*quyền|tích\s*hợp\s*năng\s*lực|tích\s*hợp\s*kns|tích\s*hợp\s*stem|tích\s*hợp\s*ai|giáo\s*dục\s*địa\s*phương|gdđp|địa\s*phương|trà\s*vinh/i.test(sp)) {
               return '<span style="color: #C00000;">' + sp + '</span>';
             }
             return '<span>' + sp + '</span>';
@@ -4941,6 +5170,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     };
 
     var disSupport = IntegrationService.resolveDisabilitySupport(meta && meta.disabilitySupport);
+    var gddpSupport = IntegrationService.resolveGddpSupport(meta && meta.gddpSupport);
 
     var isContinuousMode = !isTimetableDoc;
     lessons.forEach(function(les, lIdx) {
@@ -4964,6 +5194,18 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       } else {
         IntegrationService.cleanDisabilityFromTables(les);
         IntegrationService.cleanDisabilityFromLesson(les);
+      }
+
+      if (gddpSupport && gddpSupport.enabled) {
+        IntegrationService.injectGddpIntoLesson(les, gddpSupport);
+        if (gddpSupport.scope === 'both') {
+          IntegrationService.injectGddpActivitiesIntoTables(les, gddpSupport);
+        } else {
+          IntegrationService.cleanGddpFromTables(les);
+        }
+      } else {
+        IntegrationService.cleanGddpFromTables(les);
+        IntegrationService.cleanGddpFromLesson(les);
       }
 
       var clsInfo = les.className ? (' • ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '';
@@ -5016,7 +5258,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           inTichHopSection = false;
         }
 
-        var isTichHop = inTichHopSection || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1;
+        var isTichHop = inTichHopSection || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1;
         if (isKhuyetTat) {
           inTichHopSection = false;
           var displayLine = cleanLine
@@ -5089,7 +5331,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         if (isDisability) {
           return '<p style="margin: 0pt; margin-top: 2pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 2pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + line + '</span></p>';
         }
-        var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(line) || line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+        var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(line) || line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
         if (isTichHop) {
           var displayLine = line
             .replace(/<!--.*?-->/g, '')
@@ -5121,7 +5363,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
             if (has4Cols) {
               if (r.length >= 4) {
-                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[2] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[3] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[2] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[3] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1;
+                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[2] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[3] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[2] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[3] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1;
                 var isDisability = IntegrationService.isDisabilityRow(r);
                 var isRed = isTichHop || isDisability;
                 var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
@@ -5156,7 +5398,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 var cleanHeader = rawHeader.replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').trim();
                 var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
                 var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
-                var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
+                var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
                 var rowBgColor = isTietRow ? '#FFF2CC' : (isActivityRow ? '#D9EAF7' : '#f8fafc');
                 var cellHeaderColorStyle = isPureIntegration ? 'color: #C00000;' : '';
                 var formattedHeader = IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration);
@@ -5168,7 +5410,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               }
             } else {
               if (r.length >= 2) {
-                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người/i.test(r[1] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1;
+                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[1] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1;
                 var isDisability = IntegrationService.isDisabilityRow(r);
                 var isRed = isTichHop || isDisability;
                 var gvText = (r[0] || '')
@@ -5217,7 +5459,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   .trim();
                 var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
                 var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
-                var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
+                var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
                 var rowBgColor = isTietRow ? '#FFF2CC' : (isActivityRow ? '#D9EAF7' : '#f8fafc');
                 var cellHeaderColorStyle = isPureIntegration ? 'color: #C00000;' : '';
                 var formattedHeader = IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration);
