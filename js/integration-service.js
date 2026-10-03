@@ -904,6 +904,9 @@ var IntegrationService = {
     // Loại bỏ tiền tố rác kiểu "MÔN: ... LỚP ... BỘ SÁCH: ... - " nếu có
     t = t.replace(/^MÔN:\s*[^–—-]+[-–—]\s*(?:LỚP\s*\d+\s*[-–—]\s*)?(?:BỘ SÁCH:[^–—-]+[-–—]\s*)?/i, '').trim();
 
+    // Loại bỏ cụm ghi chú học sinh khuyết tật / hòa nhập nếu có dính vào tiêu đề
+    t = t.replace(/\(?[\s*•-]*HỌC\s*SINH\s*(?:KHUYẾT\s*TẬT|HÒA\s*NHẬP)[^\)\n]*\)?/gi, ' ');
+
     // Loại bỏ các đoạn văn bản rác footer hoặc điều chỉnh sau bài dạy bị dính vào đầu tiêu đề
     if (t.includes('Nội dung điều chỉnh') || t.includes('Hình thức tổ chức') || t.includes('Đồ dùng, học liệu')) {
       var matchAfter = t.match(/(?:BÀI|CHỦ ĐỀ|TIẾT|ÔN TẬP|KIỂM TRA)[\s\S]*/i);
@@ -5658,12 +5661,6 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + dateStr);
       }
 
-      var disSubTitle = '';
-      if (disSupport && disSupport.enabled) {
-        var disTypeName = IntegrationService.getDisabilityShortTypeName(disSupport.disabilityType);
-        disSubTitle = `<p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; font-style: italic; color: #C00000; margin: 2pt 0 0 0; text-align: center; line-height: 1.0;"><span style="color: #C00000;">(HỌC SINH ${disTypeName.toUpperCase()} HỌC HÒA NHẬP)</span></p>`;
-      }
-
       if (lIdx === 0 || !isContinuousMode) {
         docHtml += `
           <div class="title-box" style="text-align: center; font-family: 'Times New Roman', serif;">
@@ -5671,7 +5668,6 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             ${daySessionInfo}
             <h2 align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; text-align: center; margin: 0pt; line-height: 1.0;">KẾ HOẠCH BÀI DẠY</h2>
             <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0; text-align: center; line-height: 1.0;">MÔN: ${subjName.toUpperCase()}${(meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')}</p>
-            ${disSubTitle}
             <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
             ${les.period ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + les.period + ')</p>') : ''}
           </div>
@@ -5680,7 +5676,6 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         docHtml += `
           <div class="title-box" style="margin-top: 10pt; margin-bottom: 4pt; text-align: center; font-family: 'Times New Roman', serif;">
             ${daySessionInfo}
-            ${disSubTitle}
             <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
             ${les.period ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + les.period + ')</p>') : ''}
           </div>
