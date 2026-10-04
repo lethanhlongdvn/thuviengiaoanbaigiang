@@ -2262,16 +2262,20 @@ ${sampleJson}`;
       if (/^[\s\-–—*•]*(?:số\s*tiết|thời\s*gian|ngày)\s*thực\s*hiện/i.test(line)) return;
       if (/^[\s\-–—*•]*(?:kế\s*hoạch\s*bài\s*dạy|bài\s*học\s*tiết\s*\d+)/i.test(line)) return;
 
-      if (/^1\.\s*(?:năng\s*lực\s*đặc\s*thù|kiến\s*thức)/i.test(line)) {
-        curSec = 1; sec1Header = line.endsWith(':') ? line : (line + ':'); return;
+      // 1. Năng lực đặc thù (hỗ trợ cả "1. Năng lực đặc thù", "1.1. Năng lực đặc thù", "1. Kiến thức")
+      if (/^(?:1(?:\.1)?\.?|[-*•+–—]?)\s*(?:năng\s*lực\s*đặc\s*thù|kiến\s*thức)/i.test(line)) {
+        curSec = 1; sec1Header = '1. Năng lực đặc thù:'; return;
       }
-      if (/^2\.\s*(?:năng\s*lực\s*chung)/i.test(line)) {
-        curSec = 2; sec2Header = line.endsWith(':') ? line : (line + ':'); return;
+      // 2. Năng lực chung (hỗ trợ cả "2. Năng lực chung", "1.2. Năng lực chung")
+      if (/^(?:2|1\.2)\.?\s*(?:năng\s*lực\s*chung)/i.test(line) || /^[-*•+–—]?\s*năng\s*lực\s*chung\s*[:.-]?$/i.test(line)) {
+        curSec = 2; sec2Header = '2. Năng lực chung:'; return;
       }
-      if (/^3\.\s*(?:phẩm\s*chất)/i.test(line)) {
+      // 3. Phẩm chất (hỗ trợ cả "3. Phẩm chất", "2. Phẩm chất")
+      if (/^(?:3|2)\.?\s*(?:phẩm\s*chất)/i.test(line) || /^[-*•+–—]?\s*phẩm\s*chất\s*[:.-]?$/i.test(line)) {
         curSec = 3; sec3Header = '3. Phẩm chất:'; return;
       }
-      if (/^4\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)/i.test(line) || /^[\s*•\-–—]*tích\s*hợp\s*[:.-]?$/i.test(line)) {
+      // 4. Tích hợp (hỗ trợ cả "4. Tích hợp", "3. Tích hợp", "[Tích hợp]")
+      if (/^(?:4|3)\.?\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)/i.test(line) || /^[\s*•\-–—]*tích\s*hợp\s*[:.-]?$/i.test(line) || /^\[tích\s*hợp\]/i.test(line)) {
         curSec = 4; sec4Header = '4. Tích hợp:'; return;
       }
       if (/^5\.\s*điều\s*chỉnh/i.test(line) || self.isDisabilityLine(line)) {
@@ -2301,9 +2305,10 @@ ${sampleJson}`;
 
     var out = [];
     if (other.length) out = out.concat(other);
-    if (sec1.length || sec1Header) { out.push(sec1Header); out = out.concat(sec1); }
-    if (sec2.length || sec2Header) { out.push(sec2Header); out = out.concat(sec2); }
-    if (sec3.length || sec3Header) { out.push(sec3Header); out = out.concat(sec3); }
+    // Chỉ đưa tiêu đề khi mục đó THỰC SỰ CÓ NỘI DUNG, triệt tiêu hoàn toàn lỗi tiêu đề rỗng mồ côi
+    if (sec1.length) { out.push(sec1Header); out = out.concat(sec1); }
+    if (sec2.length) { out.push(sec2Header); out = out.concat(sec2); }
+    if (sec3.length) { out.push(sec3Header); out = out.concat(sec3); }
     if (sec4.length) { out.push(sec4Header); out = out.concat(sec4); }
     if (sec5.length) { out.push(sec5Header); out = out.concat(sec5); }
     return out;
@@ -2471,6 +2476,12 @@ ${sampleJson}`;
     // 1. Luôn làm sạch GDĐP cũ trước (tính lũy đẳng)
     this.cleanGddpFromLesson(lesson);
 
+    // Không tự động chèn fallback GDĐP di tích/sản vật vào môn Thể dục (GDTC) khi không có bài phù hợp
+    var sKey = (lesson.subjectKey || '').toLowerCase();
+    if (sKey === 'gdtc') {
+      return lesson;
+    }
+
     // 2. Nếu không bật cấu hình GDĐP -> dừng lại
     var cfg = this.resolveGddpSupport(gddpConfig);
     if (!cfg || !cfg.enabled) {
@@ -2487,10 +2498,10 @@ ${sampleJson}`;
     var gddpLine = gddpItem.yccdText.trim();
     if (!gddpLine.endsWith('.')) gddpLine += '.';
 
-    // 4. Chèn vào YCCD: Ưu tiên dưới mục 4. Tích hợp
+    // 4. Chèn vào YCCD: Ưu tiên dưới mục 4. Tích hợp hoặc 3. Tích hợp
     var inserted = false;
     for (var i = 0; i < lesson.yccd.length; i++) {
-      if (/^4\.\s*tích\s*hợp/i.test(lesson.yccd[i])) {
+      if (/^(?:4|3)\.\s*tích\s*hợp/i.test(lesson.yccd[i]) || /^\[tích\s*hợp\]/i.test(lesson.yccd[i])) {
         var insertPos = i + 1;
         while (insertPos < lesson.yccd.length && !/^[1-5]\.\s*/.test(lesson.yccd[insertPos])) {
           insertPos++;
@@ -2525,6 +2536,10 @@ ${sampleJson}`;
    */
   injectGddpActivitiesIntoTables: function(lesson, gddpConfig) {
     if (!lesson) return lesson;
+    if ((lesson.subjectKey || '').toLowerCase() === 'gdtc') {
+      this.cleanGddpFromTables(lesson);
+      return lesson;
+    }
     var cfg = this.resolveGddpSupport(gddpConfig);
     if (!cfg || !cfg.enabled || cfg.scope === 'yccd_only') {
       this.cleanGddpFromTables(lesson);

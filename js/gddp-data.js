@@ -2249,6 +2249,10 @@
         fallback = GDDP_FALLBACK_THEMES[sKey][g] || GDDP_FALLBACK_THEMES[sKey].default;
       }
       if (!fallback) {
+        // Môn GDTC (thể dục) nếu không có bài tích hợp chuyên biệt thì KHÔNG dùng fallback danh lam thắng cảnh / sản vật
+        if (sKey === 'gdtc') {
+          return null;
+        }
         fallback = GDDP_FALLBACK_THEMES.general.default;
       }
 
