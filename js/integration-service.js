@@ -1384,6 +1384,18 @@ var IntegrationService = {
     } else if (subjKey.includes('dao_duc') || subjKey.includes('hdtn') || subjKey.includes('trai_nghiem')) {
       dacThu = 'Quan sát tranh và nhận biết được hành vi đúng/sai đơn giản qua thẻ Đúng/Sai hoặc thẻ cảm xúc vui/buồn theo hướng dẫn của giáo viên.';
       chung = 'Vui vẻ, tự tin hòa nhập cùng tập thể lớp, biết nói lời cảm ơn và yêu quý bạn bè.';
+    } else if (subjKey.includes('mi_thuat') || subjKey.includes('mĩ thuật') || subjKey.includes('mỹ thuật')) {
+      dacThu = 'Nhận biết được màu sắc cơ bản hoặc hình ảnh trực quan trong bài học; tham gia vẽ nét đơn giản, tô màu hoặc xé dán sản phẩm vừa sức theo mẫu và bạn cùng bàn hỗ trợ.';
+      chung = 'Hào hứng tham gia hoạt động sáng tạo, có ý thức giữ gìn đồ dùng học tập và tự tin chia sẻ sản phẩm cùng bạn.';
+    } else if (subjKey.includes('am_nhac') || subjKey.includes('âm nhạc')) {
+      dacThu = 'Lắng nghe giai điệu bài hát; tham gia vỗ tay hoặc gõ đệm theo tiết tấu đơn giản cùng cô giáo và các bạn.';
+      chung = 'Vui tươi, hào hứng tham gia hoạt động văn nghệ và hòa nhập thân thiện cùng lớp.';
+    } else if (subjKey.includes('tin_hoc') || subjKey.includes('tin học') || subjKey.includes('cong_nghe') || subjKey.includes('công nghệ')) {
+      dacThu = 'Nhận biết được biểu tượng hoặc thiết bị trực quan cơ bản của bài học; thực hiện thao tác đơn giản theo mẫu hướng dẫn của giáo viên và bạn hỗ trợ.';
+      chung = 'Có ý thức giữ gìn an toàn thiết bị, trật tự và hợp tác tích cực cùng bạn cùng nhóm.';
+    } else if (subjKey.includes('gdtc') || subjKey.includes('thể chất') || subjKey.includes('the_duc')) {
+      dacThu = 'Quan sát động tác mẫu của giáo viên; thực hiện được động tác khởi động hoặc bài tập thể dục đơn giản vừa sức theo khả năng.';
+      chung = 'Tích cực rèn luyện thân thể, có ý thức kỷ luật và hòa đồng cùng bạn bè.';
     } else {
       dacThu = 'Nhận biết được nhiệm vụ học tập cơ bản; tham gia thực hiện thao tác ban đầu theo mẫu và sự hỗ trợ của bạn cùng bàn.';
       chung = 'Vui vẻ hòa nhập, có ý thức hoàn thành nhiệm vụ theo khả năng và tham gia các hoạt động chung của lớp.';
@@ -1430,6 +1442,45 @@ var IntegrationService = {
       lines.push(`- Năng lực đặc thù: ${stRes.dacThu}`);
       lines.push(`- Phẩm chất, năng lực chung: ${stRes.chung}`);
     });
+
+    return lines.join('\n');
+  },
+
+  /**
+   * Đảm bảo YCCĐ khuyết tật luôn đầy đủ cả 2 phần: Năng lực đặc thù và Phẩm chất, năng lực chung
+   * Tự động bổ sung nếu AI hoặc dữ liệu lưu trữ bị khuyết 1 trong 2 phần
+   */
+  ensureDisabilityYccdFull: function(text, lesson, disabilityConfig) {
+    if (!text || typeof text !== 'string') return text;
+    var trimmed = text.trim();
+    if (!trimmed) return trimmed;
+
+    var hasDacThu = /năng\s*lực\s*đặc\s*thù/i.test(trimmed);
+    var hasChung = /phẩm\s*chất[,\s]+năng\s*lực\s*chung/i.test(trimmed);
+
+    if (hasDacThu && hasChung) return trimmed;
+
+    var students = this.getDisabilityStudentsList(disabilityConfig);
+    var st0 = (students && students[0]) || { disabilityType: (disabilityConfig && disabilityConfig.disabilityType) || 'tri_tue', cognitiveRate: (disabilityConfig && parseInt(disabilityConfig.cognitiveRate, 10)) || 50 };
+    var grade = (lesson && (lesson.grade || 5)) || 5;
+    var subjKey = (lesson && (lesson.subjectKey || lesson.subjectName || '')).toLowerCase();
+    var smartRes = this.getSmartDisabilityYccdForStudent(lesson, st0, subjKey, grade);
+
+    var lines = trimmed.split(/\r?\n/).map(function(s) { return s.trim(); }).filter(Boolean);
+
+    if (!hasDacThu) {
+      var insertIdx = 0;
+      for (var i = 0; i < lines.length; i++) {
+        if (/^5\.\s*điều\s*chỉnh/i.test(lines[i]) || /^\*\s*học\s*sinh/i.test(lines[i])) {
+          insertIdx = i + 1;
+        }
+      }
+      lines.splice(insertIdx, 0, '- Năng lực đặc thù: ' + smartRes.dacThu);
+    }
+
+    if (!hasChung) {
+      lines.push('- Phẩm chất, năng lực chung: ' + smartRes.chung);
+    }
 
     return lines.join('\n');
   },
@@ -1651,8 +1702,10 @@ var IntegrationService = {
           cached = cached.replace(/[;\s]+$/, '').trim();
           if (!cached.endsWith('.')) cached += '.';
         }
-        les.disabilityYccdAI = cached;
-      } else if (!les.disabilityYccdAI) {
+        les.disabilityYccdAI = self.ensureDisabilityYccdFull(cached, les, disabilityConfig);
+      } else if (les.disabilityYccdAI) {
+        les.disabilityYccdAI = self.ensureDisabilityYccdFull(les.disabilityYccdAI, les, disabilityConfig);
+      } else {
         neededLessons.push(les);
       }
     });
@@ -2048,7 +2101,7 @@ ${sampleJson}`;
         var cleaned = item.disabilityYccd.trim()
           .replace(/[;\s]+$/, '')
           .trim();
-        chunkLessons[idx].disabilityYccdAI = cleaned;
+        chunkLessons[idx].disabilityYccdAI = self.ensureDisabilityYccdFull(cleaned, chunkLessons[idx], disabilityConfig);
         if (item.disabilityDodung) {
           chunkLessons[idx].disabilityDodungAI = item.disabilityDodung.trim();
         }
@@ -2262,28 +2315,70 @@ ${sampleJson}`;
       if (/^[\s\-–—*•]*(?:số\s*tiết|thời\s*gian|ngày)\s*thực\s*hiện/i.test(line)) return;
       if (/^[\s\-–—*•]*(?:kế\s*hoạch\s*bài\s*dạy|bài\s*học\s*tiết\s*\d+)/i.test(line)) return;
 
-      // 1. Năng lực đặc thù (hỗ trợ cả "1. Năng lực đặc thù", "1.1. Năng lực đặc thù", "1. Kiến thức")
-      if (/^(?:1(?:\.1)?\.?|[-*•+–—]?)\s*(?:năng\s*lực\s*đặc\s*thù|kiến\s*thức)/i.test(line)) {
-        curSec = 1; sec1Header = '1. Năng lực đặc thù:'; return;
-      }
-      // 2. Năng lực chung (hỗ trợ cả "2. Năng lực chung", "1.2. Năng lực chung")
-      if (/^(?:2|1\.2)\.?\s*(?:năng\s*lực\s*chung)/i.test(line) || /^[-*•+–—]?\s*năng\s*lực\s*chung\s*[:.-]?$/i.test(line)) {
-        curSec = 2; sec2Header = '2. Năng lực chung:'; return;
-      }
-      // 3. Phẩm chất (hỗ trợ cả "3. Phẩm chất", "2. Phẩm chất")
-      if (/^(?:3|2)\.?\s*(?:phẩm\s*chất)/i.test(line) || /^[-*•+–—]?\s*phẩm\s*chất\s*[:.-]?$/i.test(line)) {
-        curSec = 3; sec3Header = '3. Phẩm chất:'; return;
-      }
-      // 4. Tích hợp (hỗ trợ cả "4. Tích hợp", "3. Tích hợp", "[Tích hợp]")
-      if (/^(?:4|3)\.?\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)/i.test(line) || /^[\s*•\-–—]*tích\s*hợp\s*[:.-]?$/i.test(line) || /^\[tích\s*hợp\]/i.test(line)) {
-        curSec = 4; sec4Header = '4. Tích hợp:'; return;
-      }
-      if (/^5\.\s*điều\s*chỉnh/i.test(line) || self.isDisabilityLine(line)) {
+      // Tiêu đề Mục 5 (Điều chỉnh đối với học sinh hòa nhập)
+      if (/^5\.\s*điều\s*chỉnh/i.test(line)) {
         curSec = 5;
-        if (/^5\.\s*điều\s*chỉnh/i.test(line)) {
-          sec5Header = '5. Điều chỉnh đối với học sinh hòa nhập:'; return;
+        sec5Header = '5. Điều chỉnh đối với học sinh hòa nhập:';
+        return;
+      }
+
+      // Nếu đang ở Mục 5: giữ toàn bộ các dòng thuộc Mục 5 trừ khi gặp tiêu đề mục lớn khác (1., 2., 3., 4.)
+      if (curSec === 5) {
+        if (/^(?:[1-4]|1\.[12])\.?\s*(?:năng\s*lực|phẩm\s*chất|tích\s*hợp|kiến\s*thức)/i.test(line)) {
+          // Thoát khỏi Mục 5 để xuống xử lý mục 1..4 bên dưới
+        } else {
+          sec5.push(line);
+          return;
         }
+      }
+
+      // Nhận diện dòng khuyết tật độc lập (nếu chưa vào curSec 5)
+      if (/học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập/i.test(line) ||
+          /^\*\s*(?:học\s*sinh\s*\d+|đối\s*với\s*học\s*sinh\s*\d+)/i.test(line) ||
+          /^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(line)) {
+        curSec = 5;
         sec5.push(line);
+        return;
+      }
+
+      // 1. Năng lực đặc thù (hỗ trợ cả "1. Năng lực đặc thù", "1.1. Năng lực đặc thù", "1. Kiến thức", hoặc tiêu đề đứng độc lập không kèm nội dung)
+      var isSec1 = /^(?:1(?:\.1)?\.?)\s*(?:năng\s*lực\s*đặc\s*thù|kiến\s*thức)/i.test(line) ||
+                   /^[-*•+–—]?\s*(?:năng\s*lực\s*đặc\s*thù|kiến\s*thức)\s*[:.-]?$/i.test(line);
+      if (isSec1) {
+        curSec = 1; sec1Header = '1. Năng lực đặc thù:';
+        var mContent = line.replace(/^(?:1(?:\.1)?\.?)\s*(?:năng\s*lực\s*đặc\s*thù|kiến\s*thức)\s*[:.-]?\s*/i, '').trim();
+        if (mContent) sec1.push(mContent.startsWith('-') ? mContent : ('- ' + mContent));
+        return;
+      }
+
+      // 2. Năng lực chung (hỗ trợ cả "2. Năng lực chung", "1.2. Năng lực chung")
+      var isSec2 = /^(?:2|1\.2)\.?\s*(?:năng\s*lực\s*chung)/i.test(line) ||
+                   /^[-*•+–—]?\s*năng\s*lực\s*chung\s*[:.-]?$/i.test(line);
+      if (isSec2) {
+        curSec = 2; sec2Header = '2. Năng lực chung:';
+        var mContent2 = line.replace(/^(?:2|1\.2)\.?\s*(?:năng\s*lực\s*chung)\s*[:.-]?\s*/i, '').trim();
+        if (mContent2) sec2.push(mContent2.startsWith('-') ? mContent2 : ('- ' + mContent2));
+        return;
+      }
+
+      // 3. Phẩm chất (hỗ trợ cả "3. Phẩm chất", "2. Phẩm chất")
+      var isSec3 = /^(?:3|2)\.?\s*(?:phẩm\s*chất)/i.test(line) ||
+                   /^[-*•+–—]?\s*phẩm\s*chất\s*[:.-]?$/i.test(line);
+      if (isSec3) {
+        curSec = 3; sec3Header = '3. Phẩm chất:';
+        var mContent3 = line.replace(/^(?:3|2)\.?\s*(?:phẩm\s*chất)\s*[:.-]?\s*/i, '').trim();
+        if (mContent3) sec3.push(mContent3.startsWith('-') ? mContent3 : ('- ' + mContent3));
+        return;
+      }
+
+      // 4. Tích hợp (hỗ trợ cả "4. Tích hợp", "3. Tích hợp", "[Tích hợp]")
+      var isSec4 = /^(?:4|3)\.?\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)/i.test(line) ||
+                   /^[\s*•\-–—]*tích\s*hợp\s*[:.-]?$/i.test(line) ||
+                   /^\[tích\s*hợp\]/i.test(line);
+      if (isSec4) {
+        curSec = 4; sec4Header = '4. Tích hợp:';
+        var mContent4 = line.replace(/^(?:4|3)\.?\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)\s*[:.-]?\s*/i, '').replace(/^\[tích\s*hợp\]\s*/i, '').trim();
+        if (mContent4) sec4.push(mContent4.startsWith('-') ? mContent4 : ('- ' + mContent4));
         return;
       }
 
@@ -2319,26 +2414,37 @@ ${sampleJson}`;
     var self = this;
     if (Array.isArray(lesson.yccd)) {
       var inDisSection = false;
-      lesson.yccd = lesson.yccd.filter(function(line) {
-        if (typeof line !== 'string') return true;
-        var l = line.trim();
-        if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(l)) {
-          inDisSection = true;
-          return false;
+      var newYccd = [];
+      lesson.yccd.forEach(function(item) {
+        if (typeof item !== 'string') {
+          newYccd.push(item);
+          return;
         }
-        if (inDisSection) {
-          if (/^[1-4]\.\s*/.test(l)) {
-            inDisSection = false;
-            return true;
-          }
-          return false;
-        }
-        var subLines = line.split(/\r?\n/);
+        var subLines = item.split(/\r?\n/);
+        var filteredSubLines = [];
         for (var i = 0; i < subLines.length; i++) {
-          if (self.isDisabilityLine(subLines[i])) return false;
+          var sl = subLines[i].trim();
+          if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(sl)) {
+            inDisSection = true;
+            continue;
+          }
+          if (inDisSection) {
+            if (/^[1-4]\.\s*/.test(sl)) {
+              inDisSection = false;
+              filteredSubLines.push(subLines[i]);
+            }
+            continue;
+          }
+          if (/học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập|^\*\s*học\s*sinh\s*\d+/i.test(sl)) {
+            continue;
+          }
+          filteredSubLines.push(subLines[i]);
         }
-        return true;
+        if (filteredSubLines.length > 0) {
+          newYccd.push(filteredSubLines.join('\n'));
+        }
       });
+      lesson.yccd = newYccd;
     }
     this.cleanDisabilityFromTables(lesson);
     return lesson;
@@ -2365,6 +2471,7 @@ ${sampleJson}`;
     // 3. Chèn kết quả sinh từ Gemini AI hoặc smart fallback 2 gạch đầu dòng bám sát môn học
     var disabilityLine = lesson.disabilityYccdAI || this.getSmartDisabilityYccd(lesson, disabilityConfig);
     if (disabilityLine && typeof disabilityLine === 'string' && disabilityLine.trim()) {
+      disabilityLine = this.ensureDisabilityYccdFull(disabilityLine, lesson, disabilityConfig);
       var cleanLine = disabilityLine.replace(/[;\s]+$/, '').trim();
       if (!cleanLine.endsWith('.')) cleanLine += '.';
       if (!/^5\.\s*điều\s*chỉnh/i.test(cleanLine)) {
@@ -5329,6 +5436,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
       var inTichHopSection = false;
       var hasRenderedDisabilityHeader = false;
+      var inDisabilitySection = false;
       var normalizedYccdList = IntegrationService.normalizeYccd(les.yccd || []);
       var yccdContent = normalizedYccdList.map(function(line) {
         if (typeof line !== 'string') return '';
@@ -5341,9 +5449,10 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           return '';
         }
 
-        var isKhuyetTat = IntegrationService.isDisabilityLine(cleanLine);
         var isSingleLineDieuChinhHeader = !cleanLine.includes('\n') && /^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)[:.\s]*$/i.test(cleanLine);
         if (isSingleLineDieuChinhHeader) {
+          inDisabilitySection = true;
+          inTichHopSection = false;
           if (!hasRenderedDisabilityHeader) {
             hasRenderedDisabilityHeader = true;
             return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">5. Điều chỉnh đối với học sinh hòa nhập:</span></p>';
@@ -5355,6 +5464,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         var isTichHopHeaderGroup = /^\d+\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)/i.test(cleanLine) || /^[\s*•\-–—]*tích\s*hợp\s*[:.-]?$/i.test(cleanLine);
         if (isTichHopHeaderGroup) {
           inTichHopSection = true;
+          inDisabilitySection = false;
           return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">4. Tích hợp:</p>';
         }
 
@@ -5362,9 +5472,14 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         if (/^\d+\.\s*(?!tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)/i.test(cleanLine)) {
           inTichHopSection = false;
         }
+        if (/^[1-4]\.\s*/i.test(cleanLine)) {
+          inDisabilitySection = false;
+        }
 
+        var isKhuyetTat = inDisabilitySection || IntegrationService.isDisabilityLine(cleanLine);
         var isTichHop = inTichHopSection || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1;
         if (isKhuyetTat) {
+          inDisabilitySection = true;
           inTichHopSection = false;
           var displayLine = cleanLine
             .replace(/<!--.*?-->/g, '')

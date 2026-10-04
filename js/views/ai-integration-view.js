@@ -211,6 +211,7 @@ function getIntegrationSubjectsForGrade(grade) {
   }
   subjs.push({ key: 'gdtc', name: 'Giáo dục thể chất', icon: 'fa-person-running' });
   subjs.push({ key: 'am_nhac', name: 'Âm nhạc', icon: 'fa-music' });
+  subjs.push({ key: 'mi_thuat', name: 'Mĩ thuật', icon: 'fa-palette' });
   return subjs;
 }
 
@@ -1380,6 +1381,11 @@ function setIntegrationRoleAndMode(mode, role) {
     try {
       localStorage.setItem('tvth_timetable_role', role);
     } catch (e) {}
+  } else if (mode === 'subject') {
+    integrationState.timetableRole = 'gvcn';
+    try {
+      localStorage.setItem('tvth_timetable_role', 'gvcn');
+    } catch (e) {}
   }
   integrationState.activeStep = 1;
   integrationState.timetableAppliedWeeks = null;
@@ -2285,16 +2291,28 @@ function onIntegrationPasteTextInput(text) {
 function onIntegrationTeacherNameChange(val) {
   integrationState.teacherName = val;
   try { localStorage.setItem('tvth_teacher_name', val); } catch(e){}
+  if (integrationState.gvbmConfig) {
+    integrationState.gvbmConfig.teacherName = val;
+    try { localStorage.setItem('tvth_gvbm_teacher_name', val); } catch(e){}
+  }
 }
 
 function onIntegrationSchoolYearChange(val) {
   integrationState.schoolYear = val;
   try { localStorage.setItem('tvth_school_year', val); } catch(e){}
+  if (integrationState.gvbmConfig) {
+    integrationState.gvbmConfig.schoolYear = val;
+    try { localStorage.setItem('tvth_gvbm_school_year', val); } catch(e){}
+  }
 }
 
 function onIntegrationSchoolNameChange(val) {
   integrationState.schoolName = val;
   try { localStorage.setItem('tvth_school_name', val); } catch(e){}
+  if (integrationState.gvbmConfig) {
+    integrationState.gvbmConfig.schoolName = val;
+    try { localStorage.setItem('tvth_gvbm_school_name', val); } catch(e){}
+  }
 }
 
 function onIntegrationClassNameChange(val) {
@@ -2702,7 +2720,7 @@ function getAvailableSubjectsForGrade(grade) {
   var g = parseInt(grade) || 5;
   var list = [
     { key: 'am_nhac', name: 'Âm nhạc' },
-    { key: 'my_thuat', name: 'Mĩ thuật' },
+    { key: 'mi_thuat', name: 'Mĩ thuật' },
     { key: 'gdtc', name: 'Giáo dục thể chất' },
     { key: 'dao_duc', name: 'Đạo đức' },
     { key: 'tieng_anh', name: 'Tiếng Anh' },
@@ -2909,7 +2927,7 @@ function openGvbmScheduleModal() {
 
   var availableSubjects = [
     { key: 'am_nhac', name: 'Âm nhạc' },
-    { key: 'my_thuat', name: 'Mĩ thuật' },
+    { key: 'mi_thuat', name: 'Mĩ thuật' },
     { key: 'tin_hoc', name: 'Tin học' },
     { key: 'tieng_anh', name: 'Tiếng Anh' },
     { key: 'gdtc', name: 'Giáo dục thể chất' },
@@ -4931,15 +4949,15 @@ async function triggerExportAllTimetableWeeksWord() {
     var filename, resW;
 
     if (isGvbm) {
-      var gvbmTeacher = cfg.teacherName || integrationState.teacherName || '';
+      var gvbmTeacher = integrationState.teacherName || cfg.teacherName || '';
       filename = IntegrationService.appendTeacherNameToFilename('KHBD_Tuan_' + wData.week + '_GV_BoMon_TichHop.docx', gvbmTeacher);
       resW = await IntegrationService.exportWeekByTimetableWord(wData, {
         role: 'gvbm',
         isAssignmentMode: true,
         week: wData.week,
-        schoolName: cfg.schoolName || integrationState.schoolName,
+        schoolName: integrationState.schoolName || cfg.schoolName,
         teacherName: gvbmTeacher,
-        schoolYear: cfg.schoolYear || integrationState.schoolYear,
+        schoolYear: integrationState.schoolYear || cfg.schoolYear,
         department: cfg.department || 'Tổ Chuyên biệt / Bộ môn',
         disabilitySupport: disSupport,
         gddpSupport: gddpSupport,
@@ -5013,6 +5031,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
   var inTichHopSection = false;
   var hasRenderedDisabilityHeader = false;
+  var inDisabilitySection = false;
   var normalizedPreviewList = (typeof IntegrationService !== 'undefined' && IntegrationService.normalizeYccd) ? IntegrationService.normalizeYccd(les.yccd || []) : (les.yccd || []);
   var yccdHtml = normalizedPreviewList.map(function(line) {
     if (typeof line !== 'string') return '';
@@ -5027,11 +5046,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       cleanLine = line.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + (dateStr || '....................................'));
     }
 
-    var isKhuyetTat = (typeof IntegrationService !== 'undefined' && typeof IntegrationService.isDisabilityLine === 'function')
-      ? IntegrationService.isDisabilityLine(cleanLine)
-      : (/học sinh khuyết tật|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(cleanLine) || /^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:/i.test(cleanLine) || /^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(cleanLine));
     var isDieuChinhHeader = /^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(cleanLine);
     if (isDieuChinhHeader) {
+      inDisabilitySection = true;
+      inTichHopSection = false;
       if (!hasRenderedDisabilityHeader) {
         hasRenderedDisabilityHeader = true;
         return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">5. Điều chỉnh đối với học sinh hòa nhập:</span></p>`;
@@ -5043,13 +5061,21 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     var isOtherHeaderGroup = /^[12356789]\.\s*/i.test(cleanLine.trim()) || /^[IVXLCDM]+\.\s*/i.test(cleanLine.trim());
     if (isTichHopHeaderGroup) {
       inTichHopSection = true;
+      inDisabilitySection = false;
       return `<p style="margin: 0; margin-top: 4px; margin-bottom: 2px; font-weight: bold; line-height: 1.35; text-align: justify;">4. Tích hợp:</p>`;
     } else if (isOtherHeaderGroup) {
       inTichHopSection = false;
+      if (/^[1-4]\.\s*/i.test(cleanLine.trim())) inDisabilitySection = false;
     }
+
+    var isKhuyetTat = inDisabilitySection || ((typeof IntegrationService !== 'undefined' && typeof IntegrationService.isDisabilityLine === 'function')
+      ? IntegrationService.isDisabilityLine(cleanLine)
+      : (/học sinh khuyết tật|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(cleanLine) || /^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:/i.test(cleanLine) || /^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(cleanLine)));
 
     var isTichHop = inTichHopSection || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(cleanLine);
     if (isKhuyetTat) {
+      inDisabilitySection = true;
+      inTichHopSection = false;
       var displayLine = cleanLine
         .replace(/<!--.*?-->/g, '')
         .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
@@ -5069,7 +5095,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         if (!pLine.startsWith('-') && !pLine.startsWith('+') && !pLine.startsWith('*')) {
           pLine = '- ' + pLine;
         }
-        var formattedPLine = pLine.replace(/^-\s*(Năng lực đặc thù|Phẩm chất,\s*năng lực chung)\s*:/i, '- <b>$1:</b>');
+        var formattedPLine = pLine.replace(/^[-*•+–—]?\s*(năng\s*lực\s*đặc\s*thù|phẩm\s*chất[,\s]+năng\s*lực\s*chung)\s*:\s*/i, '- <b>$1:</b> ');
         return `<p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #c00000; font-weight: 500; line-height: 1.35; text-align: justify;"><span style="color: #c00000;">${formattedPLine}</span></p>`;
       }).filter(Boolean).join('');
 
@@ -5304,12 +5330,13 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     });
   }
 
-  var isGvbm = isGvbmRole(integrationState.timetableRole);
+  var isTimetableMode = (integrationState.exportMode === 'timetable');
+  var isGvbm = isTimetableMode && isGvbmRole(integrationState.timetableRole);
   var gvbmCfg = integrationState.gvbmConfig || {};
 
-  var schoolDisp = (isGvbm ? gvbmCfg.schoolName : integrationState.schoolName) || 'TRƯỜNG TIỂU HỌC .................................';
-  var teacherDisp = (isGvbm ? gvbmCfg.teacherName : integrationState.teacherName) || '';
-  var yearDisp = (isGvbm ? gvbmCfg.schoolYear : integrationState.schoolYear) || '2026 - 2027';
+  var schoolDisp = (isGvbm ? (gvbmCfg.schoolName || integrationState.schoolName) : (integrationState.schoolName || gvbmCfg.schoolName)) || 'TRƯỜNG TIỂU HỌC .................................';
+  var teacherDisp = (isGvbm ? (gvbmCfg.teacherName || integrationState.teacherName) : (integrationState.teacherName || gvbmCfg.teacherName)) || '';
+  var yearDisp = (isGvbm ? (gvbmCfg.schoolYear || integrationState.schoolYear) : (integrationState.schoolYear || gvbmCfg.schoolYear)) || '2026 - 2027';
 
   var approvalPreviewHtml = '';
   var ap = (typeof integrationState !== 'undefined' && integrationState.approvalConfig) || null;

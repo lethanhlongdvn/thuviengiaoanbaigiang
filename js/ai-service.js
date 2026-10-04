@@ -3172,6 +3172,19 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
     } else if (sKey === 'hdtn' || sKey.includes('hdtn') || sKey.includes('trải nghiệm') || sKey.includes('trai_nghiem')) {
       subjectGradeGuide = `ĐẶC THÙ HOẠT ĐỘNG TRẢI NGHIỆM CHO HỌC SINH HÒA NHẬP:
 - Tích cực tham gia trò chơi khởi động, sinh hoạt nhóm cùng các bạn; bày tỏ cảm xúc bằng cử chỉ hoặc thẻ cảm xúc; bạn cùng nhóm chủ động hỗ trợ hòa nhập.`;
+    } else if (sKey === 'mi_thuat' || sKey.includes('mi_thuat') || sKey.includes('mĩ thuật') || sKey.includes('mỹ thuật')) {
+      subjectGradeGuide = `ĐẶC THÙ MÔN MĨ THUẬT CHO HỌC SINH HÒA NHẬP:
+- Nhận thức: Quan sát tranh ảnh, nhận biết màu sắc hoặc hình khối đơn giản trong bài học.
+- Thực hành: Vẽ nét cơ bản, tô màu, nặn hoặc xé dán sản phẩm đơn giản theo mẫu; không yêu cầu phối màu phức tạp; bạn kèm hỗ trợ.`;
+    } else if (sKey === 'am_nhac' || sKey.includes('am_nhac') || sKey.includes('âm nhạc')) {
+      subjectGradeGuide = `ĐẶC THÙ MÔN ÂM NHẠC CHO HỌC SINH HÒA NHẬP:
+- Lắng nghe giai điệu; vỗ tay hoặc gõ đệm theo tiết tấu đơn giản; tham gia ca hát cùng tập thể với tinh thần vui tươi, tự tin.`;
+    } else if (sKey === 'tin_hoc' || sKey.includes('tin_hoc') || sKey.includes('tin học') || sKey.includes('cong_nghe') || sKey.includes('công nghệ')) {
+      subjectGradeGuide = `ĐẶC THÙ MÔN TIN HỌC / CÔNG NGHỆ CHO HỌC SINH HÒA NHẬP:
+- Nhận biết thiết bị/biểu tượng trực quan cơ bản; thực hiện thao tác đơn giản theo mẫu hướng dẫn; an toàn và hợp tác cùng bạn.`;
+    } else if (sKey === 'gdtc' || sKey.includes('gdtc') || sKey.includes('thể chất') || sKey.includes('the_duc')) {
+      subjectGradeGuide = `ĐẶC THÙ GIÁO DỤC THỂ CHẤT CHO HỌC SINH HÒA NHẬP:
+- Quan sát mẫu; thực hiện động tác khởi động hoặc bài tập thể dục đơn giản vừa sức theo khả năng vận động; rèn luyện tinh thần kỷ luật.`;
     } else {
       subjectGradeGuide = `ĐẶC THÙ BỘ MÔN CHO HỌC SINH HÒA NHẬP:
 - Nhận biết trực quan qua vật thật/tranh ảnh; thực hành thao tác cơ bản nhất dưới sự làm mẫu của GV và bạn kèm cặp; tham gia hoạt động chung của lớp với tinh thần vui vẻ, hòa nhập.`;
@@ -3498,6 +3511,9 @@ ${sampleJson}`;
         var cleaned = item.disabilityYccd.trim()
           .replace(/[;\s]+$/, '')
           .trim();
+        if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.ensureDisabilityYccdFull === 'function') {
+          cleaned = IntegrationService.ensureDisabilityYccdFull(cleaned, chunkLessons[idx], disabilityConfig);
+        }
         chunkLessons[idx].disabilityYccdAI = cleaned;
         if (item.disabilityDodung) {
           chunkLessons[idx].disabilityDodungAI = item.disabilityDodung.trim();
