@@ -1436,8 +1436,8 @@ var IntegrationService = {
     students.forEach(function(st, idx) {
       var stRes = self.getSmartDisabilityYccdForStudent(lesson, st, subjKey, grade);
       var shortType = self.getDisabilityShortTypeName(st.disabilityType);
-      var namePart = st.name ? (st.name + ' - ') : '';
-      var subHeader = `* Học sinh ${idx + 1}: ${shortType} (${namePart}Mức độ nhận thức ~${st.cognitiveRate}%):`;
+      var namePart = st.name ? (' (' + st.name + ')') : '';
+      var subHeader = `* Dạng ${idx + 1}: ${shortType}${namePart}`;
       lines.push(subHeader);
       lines.push(`- Năng lực đặc thù: ${stRes.dacThu}`);
       lines.push(`- Phẩm chất, năng lực chung: ${stRes.chung}`);
@@ -1455,6 +1455,11 @@ var IntegrationService = {
     var trimmed = text.trim();
     if (!trimmed) return trimmed;
 
+    // Chuẩn hóa tiêu đề học sinh khuyết tật sang định dạng Dạng 1, Dạng 2 theo chuẩn
+    trimmed = trimmed.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/gim, function(m, p1, p2) {
+      return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
+    });
+
     var hasDacThu = /năng\s*lực\s*đặc\s*thù/i.test(trimmed);
     var hasChung = /phẩm\s*chất[,\s]+năng\s*lực\s*chung/i.test(trimmed);
 
@@ -1471,7 +1476,7 @@ var IntegrationService = {
     if (!hasDacThu) {
       var insertIdx = 0;
       for (var i = 0; i < lines.length; i++) {
-        if (/^5\.\s*điều\s*chỉnh/i.test(lines[i]) || /^\*\s*học\s*sinh/i.test(lines[i])) {
+        if (/^5\.\s*điều\s*chỉnh/i.test(lines[i]) || /^\*\s*(?:học\s*sinh|dạng)/i.test(lines[i])) {
           insertIdx = i + 1;
         }
       }
@@ -1876,8 +1881,8 @@ ${sGuide}`;
       } else {
         var stuHeadersExample = studentsList.map(function(st, sIdx) {
           var sShort = self.getDisabilityShortTypeName(st.disabilityType);
-          var sName = st.name ? (st.name + ' - ') : '';
-          return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):
+          var sName = st.name ? (' (' + st.name + ')') : '';
+          return `* Dạng ${sIdx + 1}: ${sShort}${sName}
 - Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
 - Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
         }).join('\n');
@@ -1900,8 +1905,8 @@ ${dodungExample}`;
     "id": 0,
     "disabilityYccd": "${studentsList.map(function(st, sIdx) {
       var sShort = self.getDisabilityShortTypeName(st.disabilityType);
-      var sName = st.name ? (st.name + ' - ') : '';
-      return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
+      var sName = st.name ? (' (' + st.name + ')') : '';
+      return `* Dạng ${sIdx + 1}: ${sShort}${sName}\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
     }).join('\\n')}",
     "disabilityDodung": "${studentsList.map(function(st, sIdx) {
       var sShort = self.getDisabilityShortTypeName(st.disabilityType);
@@ -1950,8 +1955,8 @@ ${dodungExample}`;
       } else {
         var stuHeadersExample = studentsList.map(function(st, sIdx) {
           var sShort = self.getDisabilityShortTypeName(st.disabilityType);
-          var sName = st.name ? (st.name + ' - ') : '';
-          return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):
+          var sName = st.name ? (' (' + st.name + ')') : '';
+          return `* Dạng ${sIdx + 1}: ${sShort}${sName}
 - Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
 - Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
         }).join('\n');
@@ -1978,8 +1983,8 @@ ${dodungExample}
     "id": 0,
     "disabilityYccd": "${studentsList.map(function(st, sIdx) {
       var sShort = self.getDisabilityShortTypeName(st.disabilityType);
-      var sName = st.name ? (st.name + ' - ') : '';
-      return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
+      var sName = st.name ? (' (' + st.name + ')') : '';
+      return `* Dạng ${sIdx + 1}: ${sShort}${sName}\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
     }).join('\\n')}",
     "disabilityDodung": "${studentsList.map(function(st, sIdx) {
       var sShort = self.getDisabilityShortTypeName(st.disabilityType);
@@ -2269,8 +2274,8 @@ ${sampleJson}`;
     // Tiêu đề Mục 5
     if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(l)) return true;
 
-    // Sub-header học sinh 1, 2, 3
-    if (/^\*\s*(?:học\s*sinh\s*\d+|đối\s*với\s*học\s*sinh\s*\d+)/i.test(l)) return true;
+    // Sub-header học sinh 1, 2, 3 hoặc Dạng 1, 2, 3
+    if (/^\*\s*(?:học\s*sinh\s*\d+|đối\s*với\s*học\s*sinh\s*\d+|dạng\s*\d+)/i.test(l)) return true;
 
     // Từ khóa khuyết tật / hòa nhập
     if (/học\s*sinh\s*khuyết\s*tật|học\s*sinh\s*hòa\s*nhập|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập/i.test(l)) return true;
@@ -2334,7 +2339,7 @@ ${sampleJson}`;
 
       // Nhận diện dòng khuyết tật độc lập (nếu chưa vào curSec 5)
       if (/học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập/i.test(line) ||
-          /^\*\s*(?:học\s*sinh\s*\d+|đối\s*với\s*học\s*sinh\s*\d+)/i.test(line) ||
+          /^\*\s*(?:học\s*sinh\s*\d+|đối\s*với\s*học\s*sinh\s*\d+|dạng\s*\d+)/i.test(line) ||
           /^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(line)) {
         curSec = 5;
         sec5.push(line);
@@ -2435,7 +2440,7 @@ ${sampleJson}`;
             }
             continue;
           }
-          if (/học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập|^\*\s*học\s*sinh\s*\d+/i.test(sl)) {
+          if (/học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập|^\*\s*(?:học\s*sinh|dạng)\s*\d+/i.test(sl)) {
             continue;
           }
           filteredSubLines.push(subLines[i]);
@@ -4682,6 +4687,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       baseName = baseName.slice(0, -4);
     }
 
+    // Tự động loại bỏ cụm từ CV2345 khỏi tên file nếu có
+    baseName = baseName.replace(/_?CV2345/gi, '').replace(/CV2345_?/gi, '');
+
     var teacherSuffix = this.formatTeacherNameForFilename(teacherName);
     if (!teacherSuffix) return baseName + ext;
 
@@ -5494,7 +5502,11 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           var parts = displayLine.split(/\r?\n|<br\s*\/?>/i).map(function(p) { return p.trim(); }).filter(Boolean);
           var htmlLines = parts.map(function(pLine) {
             if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(pLine)) return '';
-            var isStudentSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh)/i.test(pLine);
+            // Chuẩn hóa tiêu đề học sinh khuyết tật sang định dạng Dạng 1, Dạng 2 theo chuẩn
+            pLine = pLine.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
+              return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
+            });
+            var isStudentSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh|dạng\s*\d+)/i.test(pLine);
             if (isStudentSubHeader) {
               return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000; font-weight: bold;">' + pLine + '</span></p>';
             }

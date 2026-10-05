@@ -3290,8 +3290,8 @@ ${sGuide}`;
           var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
             ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
             : (st.disabilityTypeName || 'HSHN');
-          var sName = st.name ? (st.name + ' - ') : '';
-          return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):
+          var sName = st.name ? (' (' + st.name + ')') : '';
+          return `* Dạng ${sIdx + 1}: ${sShort}${sName}
 - Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
 - Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
         }).join('\n');
@@ -3318,8 +3318,8 @@ ${dodungExample}`;
       var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
         ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
         : (st.disabilityTypeName || 'HSHN');
-      var sName = st.name ? (st.name + ' - ') : '';
-      return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
+      var sName = st.name ? (' (' + st.name + ')') : '';
+      return `* Dạng ${sIdx + 1}: ${sShort}${sName}\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
     }).join('\\n')}",
     "disabilityDodung": "${studentsList.map(function(st, sIdx) {
       var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
@@ -3372,8 +3372,8 @@ ${dodungExample}`;
           var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
             ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
             : (st.disabilityTypeName || 'HSHN');
-          var sName = st.name ? (st.name + ' - ') : '';
-          return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):
+          var sName = st.name ? (' (' + st.name + ')') : '';
+          return `* Dạng ${sIdx + 1}: ${sShort}${sName}
 - Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
 - Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
         }).join('\n');
@@ -3404,8 +3404,8 @@ ${dodungExample}
       var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)
         ? IntegrationService.getDisabilityShortTypeName(st.disabilityType)
         : (st.disabilityTypeName || 'HSHN');
-      var sName = st.name ? (st.name + ' - ') : '';
-      return `* Học sinh ${sIdx + 1}: ${sShort} (${sName}Mức độ nhận thức ~${st.cognitiveRate}%):\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
+      var sName = st.name ? (' (' + st.name + ')') : '';
+      return `* Dạng ${sIdx + 1}: ${sShort}${sName}\\n- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...`;
     }).join('\\n')}",
     "disabilityDodung": "${studentsList.map(function(st, sIdx) {
       var sShort = (typeof IntegrationService !== 'undefined' && IntegrationService.getDisabilityShortTypeName)

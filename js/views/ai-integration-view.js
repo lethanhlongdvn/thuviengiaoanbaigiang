@@ -3610,7 +3610,7 @@ async function triggerDirectFastExport() {
         disabilitySupport: disSupport,
         gddpSupport: gddpSupport,
         approvalConfig: integrationState.approvalConfig,
-        filename: IntegrationService.appendTeacherNameToFilename('KHBD_Lop' + grade + '_' + subj.toUpperCase() + '_Tuan' + sWeek + '-' + eWeek + '_CV2345.docx', integrationState.teacherName)
+        filename: IntegrationService.appendTeacherNameToFilename('KHBD_Lop' + grade + '_' + subj.toUpperCase() + '_Tuan' + sWeek + '-' + eWeek + '.docx', integrationState.teacherName)
       });
 
       if (saveResult && saveResult.aborted) {
@@ -5070,7 +5070,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
     var isKhuyetTat = inDisabilitySection || ((typeof IntegrationService !== 'undefined' && typeof IntegrationService.isDisabilityLine === 'function')
       ? IntegrationService.isDisabilityLine(cleanLine)
-      : (/học sinh khuyết tật|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(cleanLine) || /^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:/i.test(cleanLine) || /^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(cleanLine)));
+      : (/học sinh khuyết tật|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(cleanLine) || /^\*\s*(?:học\s*sinh\s*\d+|dạng\s*\d+)/i.test(cleanLine) || /^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:/i.test(cleanLine) || /^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(cleanLine)));
 
     var isTichHop = inTichHopSection || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(cleanLine);
     if (isKhuyetTat) {
@@ -5088,7 +5088,11 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       var parts = displayLine.split(/\r?\n|<br\s*\/?>/i).map(function(p) { return p.trim(); }).filter(Boolean);
       var htmlLines = parts.map(function(pLine) {
         if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(pLine)) return '';
-        var isSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh)/i.test(pLine);
+        // Chuẩn hóa tiêu đề học sinh khuyết tật sang định dạng Dạng 1, Dạng 2 theo chuẩn
+        pLine = pLine.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
+          return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
+        });
+        var isSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh|dạng\s*\d+)/i.test(pLine);
         if (isSubHeader) {
           return `<p style="margin: 0; margin-top: 5px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">${pLine}</span></p>`;
         }
