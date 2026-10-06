@@ -1071,11 +1071,11 @@ var IntegrationService = {
    */
   getDisabilityStudentsList: function(disabilityConfig) {
     if (!disabilityConfig) return [];
+    var rawList = Array.isArray(disabilityConfig.students) ? disabilityConfig.students : [];
     var count = parseInt(disabilityConfig.studentCount, 10);
-    if (isNaN(count) || count < 1) count = 1;
+    if (isNaN(count) || count < 1) count = rawList.length || 1;
     if (count > 3) count = 3;
 
-    var rawList = Array.isArray(disabilityConfig.students) ? disabilityConfig.students : [];
     var result = [];
 
     for (var i = 0; i < count; i++) {
@@ -1236,7 +1236,11 @@ var IntegrationService = {
       var vdStudent = '';
 
       // 1. Khởi động
-      if (isKhiemThinh) {
+      var isEn = (subjKey.includes('tiếng anh') || subjKey.includes('tieng_anh') || subjKey.includes('english'));
+      if (isEn) {
+        kdTeacher = `- T encourages inclusive student${sName} to listen to the warm-up song, join gestures and feel comfortable.`;
+        kdStudent = `* Student${sName} claps hands, responds to greetings and joins warm-up actions happily with classmates.`;
+      } else if (isKhiemThinh) {
         kdTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh/video, giao nhiệm vụ nhận biết trực quan bằng cử chỉ/ngôn ngữ kí hiệu.`;
         kdStudent = `* HSHN${sName} quan sát tranh, vỗ tay và bày tỏ cảm xúc theo bài hát/trò chơi cùng bạn (bằng kí hiệu ngôn ngữ).`;
       } else if (isKhiemThi) {
@@ -1281,16 +1285,16 @@ var IntegrationService = {
           ltTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh/mô hình, chỉ và gọi tên các sự vật/hiện tượng đơn giản của bài.`;
           ltStudent = `* HSHN${sName} quan sát tranh ảnh, chỉ đúng vị trí trên sơ đồ và nhắc lại tên sự vật/hiện tượng theo hướng dẫn của cô.`;
         }
-      } else if (subjKey.includes('tiếng anh') || subjKey.includes('tieng_anh') || subjKey.includes('english')) {
+      } else if (isEn) {
         if (isKhiemThinh) {
-          ltTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh/flashcard, chỉ đúng hình ảnh hoặc ghép thẻ từ tiếng Anh tương ứng.`;
-          ltStudent = `* HSHN${sName} quan sát flashcard, chỉ đúng tranh từ vựng và tham gia hoạt động nhóm cùng bạn bằng cử chỉ.`;
+          ltTeacher = `- T guides inclusive student${sName} to observe flashcards, point to corresponding pictures or match word cards.`;
+          ltStudent = `* Student${sName} observes flashcards, points to target words, and collaborates with partner using gestures.`;
         } else if (isKhiemThi) {
-          ltTeacher = `- GV mở audio rõ ràng và phát âm mẫu chậm rãi, hướng dẫn HSHN${sName} nhắc lại 1 - 2 từ vựng cơ bản.`;
-          ltStudent = `* HSHN${sName} chăm chú lắng nghe, nhắc lại từ vựng hoặc câu chào hỏi đơn giản theo cô và bạn bên cạnh.`;
+          ltTeacher = `- T plays audio clearly, models pronunciation slowly, and guides inclusive student${sName} to repeat 1 - 2 basic words.`;
+          ltStudent = `* Student${sName} listens attentively and repeats basic words or greetings with partner's help.`;
         } else {
-          ltTeacher = `- GV HD HSHN${sName} quan sát flashcard/tranh ảnh minh họa, nghe phát âm mẫu và chỉ/nhắc lại từ vựng cơ bản (Bài 1) với sự hỗ trợ của bạn cùng bàn.`;
-          ltStudent = `* HSHN${sName} nhìn tranh, chỉ hình hoặc phát âm từ vựng tiếng Anh quen thuộc vừa sức theo gợi ý của cô giáo.`;
+          ltTeacher = `- T guides inclusive student${sName} to look at flashcards/pictures, listen to pronunciation, and repeat basic words (Part 1) with peer support.`;
+          ltStudent = `* Student${sName} looks at pictures, points or pronounces familiar English words with partner's assistance.`;
         }
       } else {
         ltTeacher = `- GV giao nhiệm vụ vừa sức và hướng dẫn HSHN${sName} thực hành thao tác cơ bản cùng nhóm bạn.`;
@@ -1298,7 +1302,10 @@ var IntegrationService = {
       }
 
       // 3. Vận dụng
-      if (isKhiemThinh) {
+      if (isEn) {
+        vdTeacher = `- T encourages inclusive student${sName} to share feelings about the lesson and praises their effort.`;
+        vdStudent = `* Student${sName} shows emotion card (happy/sad) to share feelings and joins class assessment.`;
+      } else if (isKhiemThinh) {
         vdTeacher = `- GV hướng dẫn HSHN${sName} thảo luận cùng bạn (bằng ngôn ngữ kí hiệu/cử chỉ) và tham gia tự đánh giá tiết học.`;
         vdStudent = `* HSHN${sName} thảo luận cùng bạn ngồi bên cạnh; tham gia đánh giá tiết học bằng thẻ cảm xúc (mặt cười / vui - không vui).`;
       } else {
@@ -1314,6 +1321,27 @@ var IntegrationService = {
     }
 
     // Trường hợp từ 2 đến 3 học sinh hòa nhập
+    var isMultiEn = (subjKey.includes('tiếng anh') || subjKey.includes('tieng_anh') || subjKey.includes('english'));
+    if (isMultiEn) {
+      var stuLabelsEn = students.map(function(s, idx) {
+        return (s.name ? s.name : ('Student ' + (idx + 1))) + ' (' + (self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(s.disabilityType) : self.getDisabilityShortTypeName(s.disabilityType)) + ')';
+      }).join(', ');
+      return {
+        khoiDong: {
+          teacherAct: `- T observes and encourages inclusive students (${stuLabelsEn}) to join warm-up activities with suitable tasks.`,
+          studentAct: `* Inclusive students participate in warm-up activities happily according to their ability with friends.`
+        },
+        luyenTap: {
+          teacherAct: `- T guides each inclusive student (${stuLabelsEn}) with flashcards and peer support to do basic recognition exercise (Part 1).`,
+          studentAct: `* Inclusive students complete Level 1 recognition exercises with assistance from the teacher and partners.`
+        },
+        vanDung: {
+          teacherAct: `- T praises effort of inclusive students (${stuLabelsEn}) and invites them to share feelings.`,
+          studentAct: `* Inclusive students share feelings using emotion cards and receive praise from the class.`
+        }
+      };
+    }
+
     var stuLabels = students.map(function(s, idx) {
       return (s.name ? s.name : ('HS ' + (idx + 1))) + ' (' + self.getDisabilityShortTypeName(s.disabilityType) + ')';
     }).join(', ');
@@ -1412,20 +1440,20 @@ var IntegrationService = {
       chung = 'Tích cực rèn luyện thân thể, có ý thức kỷ luật và hòa đồng cùng bạn bè.';
     } else if (subjKey.includes('tieng_anh') || subjKey.includes('tiếng anh') || subjKey.includes('english')) {
       if (isKhiemThinh) {
-        dacThu = 'Quan sát tranh/flashcard minh họa và khẩu hình của giáo viên để nhận biết từ vựng; chỉ đúng tranh hoặc ghép thẻ từ tiếng Anh đơn giản.';
-        chung = 'Tự tin tham gia hoạt động lớp bằng cử chỉ, thẻ hình ảnh và hợp tác thân thiện cùng bạn cùng bàn.';
+        dacThu = 'Observe flashcards, illustrations and teacher\'s lip movements to recognize core vocabulary; point to correct pictures or match basic word cards.';
+        chung = 'Confidently participate in classroom activities using gestures and flashcards; cooperate well with peers.';
       } else if (isKhiemThi) {
-        dacThu = 'Lắng nghe audio hoặc giáo viên phát âm mẫu; nhắc lại được 1 - 2 từ vựng hoặc mẫu câu chào hỏi tiếng Anh đơn giản theo khả năng.';
-        chung = 'Tập trung lắng nghe, mạnh dạn phát âm và hào hứng tham gia giờ học.';
+        dacThu = 'Listen attentively to the audio or teacher\'s model pronunciation; repeat 1 - 2 basic English words or simple greetings within their ability.';
+        chung = 'Listen actively, boldly pronounce English words, and engage enthusiastically in the lesson.';
       } else if (isVanDong) {
-        dacThu = 'Nhận biết được từ vựng qua tranh ảnh; trả lời miệng hoặc chỉ vào tranh minh họa trên màn hình thay vì phải viết/nối từ vào vở.';
-        chung = 'Chủ động tham gia trả lời miệng, kiên trì và phối hợp tốt cùng bạn cùng bàn.';
+        dacThu = 'Recognize key words through pictures/slides; give verbal answers or point to illustrations instead of lengthy writing.';
+        chung = 'Actively participate in verbal answers, stay persistent, and work effectively with peer partners.';
       } else if (isTuKy) {
-        dacThu = 'Quan sát flashcard và cử chỉ hướng dẫn của giáo viên; chỉ tranh hoặc nhắc lại từ vựng quen thuộc (số đếm, màu sắc, lời chào) theo mẫu.';
-        chung = 'Giữ bình tĩnh trong giờ học, hoàn thành nhiệm vụ cá nhân vừa sức và hợp tác thân thiện cùng bạn.';
+        dacThu = 'Follow visual flashcards and teacher\'s guidance; point to pictures or repeat familiar words (numbers, colors, greetings) following the model.';
+        chung = 'Remain calm during class, accomplish adapted tasks, and interact pleasantly with desk-mates.';
       } else {
-        dacThu = 'Quan sát tranh/flashcard và nghe giáo viên phát âm; nhận biết và nhắc lại được từ vựng hoặc mẫu câu tiếng Anh cơ bản theo hướng dẫn của giáo viên và bạn cùng bàn hỗ trợ.';
-        chung = 'Hào hứng làm quen với môn Tiếng Anh, tự tin tham gia hoạt động nhóm và hoàn thành nhiệm vụ vừa sức.';
+        dacThu = 'Observe flashcards and listen to the teacher; recognize and repeat core English words or simple sentence structures with support from teacher and peers.';
+        chung = 'Enthusiastically engage in English learning, cooperate in group/pair activities, and complete manageable tasks.';
       }
     } else {
       dacThu = 'Nhận biết được nhiệm vụ học tập cơ bản; tham gia thực hiện thao tác ban đầu theo mẫu và sự hỗ trợ của bạn cùng bàn.';
@@ -1456,22 +1484,26 @@ var IntegrationService = {
     var subjKey = (lesson && (lesson.subjectKey || lesson.subjectName || '')).toLowerCase();
 
     // Nếu chỉ có 1 học sinh và không có tên riêng: xuất đúng mẫu 2 gạch đầu dòng truyền thống
+    var isEn = (subjKey.includes('tiếng anh') || subjKey.includes('tieng_anh') || subjKey.includes('english'));
     if (students.length === 1 && !students[0].name) {
       var singleRes = this.getSmartDisabilityYccdForStudent(lesson, students[0], subjKey, grade);
+      if (isEn) {
+        return `5. Adjustments for inclusive students (SEN):\n- Specific competences: ${singleRes.dacThu}\n- General competences & Qualities: ${singleRes.chung}`;
+      }
       return `5. Điều chỉnh đối với học sinh hòa nhập:\n- Năng lực đặc thù: ${singleRes.dacThu}\n- Phẩm chất, năng lực chung: ${singleRes.chung}`;
     }
 
     // Nếu có từ 2 học sinh trở lên (hoặc học sinh có tên riêng): xuất mục tiêu cho từng học sinh, mỗi học sinh đủ 2 gạch đầu dòng
     var self = this;
-    var lines = ['5. Điều chỉnh đối với học sinh hòa nhập:'];
+    var lines = [isEn ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:'];
     students.forEach(function(st, idx) {
       var stRes = self.getSmartDisabilityYccdForStudent(lesson, st, subjKey, grade);
-      var shortType = self.getDisabilityShortTypeName(st.disabilityType);
+      var shortType = isEn ? (self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(st.disabilityType) : self.getDisabilityShortTypeName(st.disabilityType)) : self.getDisabilityShortTypeName(st.disabilityType);
       var namePart = st.name ? (' (' + st.name + ')') : '';
-      var subHeader = `* Dạng ${idx + 1}: ${shortType}${namePart}`;
+      var subHeader = isEn ? `* Type ${idx + 1}: ${shortType}${namePart}` : `* Dạng ${idx + 1}: ${shortType}${namePart}`;
       lines.push(subHeader);
-      lines.push(`- Năng lực đặc thù: ${stRes.dacThu}`);
-      lines.push(`- Phẩm chất, năng lực chung: ${stRes.chung}`);
+      lines.push(isEn ? `- Specific competences: ${stRes.dacThu}` : `- Năng lực đặc thù: ${stRes.dacThu}`);
+      lines.push(isEn ? `- General competences & Qualities: ${stRes.chung}` : `- Phẩm chất, năng lực chung: ${stRes.chung}`);
     });
 
     return lines.join('\n');
@@ -1491,8 +1523,8 @@ var IntegrationService = {
       return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
     });
 
-    var hasDacThu = /năng\s*lực\s*đặc\s*thù/i.test(trimmed);
-    var hasChung = /phẩm\s*chất[,\s]+năng\s*lực\s*chung/i.test(trimmed);
+    var hasDacThu = /năng\s*lực\s*đặc\s*thù|specific\s*competence|knowledge/i.test(trimmed);
+    var hasChung = /phẩm\s*chất[,\s]+năng\s*lực\s*chung|general\s*competence|attitude|qualit/i.test(trimmed);
 
     if (hasDacThu && hasChung) return trimmed;
 
@@ -1500,6 +1532,7 @@ var IntegrationService = {
     var st0 = (students && students[0]) || { disabilityType: (disabilityConfig && disabilityConfig.disabilityType) || 'tri_tue', cognitiveRate: (disabilityConfig && parseInt(disabilityConfig.cognitiveRate, 10)) || 50 };
     var grade = (lesson && (lesson.grade || 5)) || 5;
     var subjKey = (lesson && (lesson.subjectKey || lesson.subjectName || '')).toLowerCase();
+    var isEn = (subjKey.includes('tiếng anh') || subjKey.includes('tieng_anh') || subjKey.includes('english'));
     var smartRes = this.getSmartDisabilityYccdForStudent(lesson, st0, subjKey, grade);
 
     var lines = trimmed.split(/\r?\n/).map(function(s) { return s.trim(); }).filter(Boolean);
@@ -1507,15 +1540,15 @@ var IntegrationService = {
     if (!hasDacThu) {
       var insertIdx = 0;
       for (var i = 0; i < lines.length; i++) {
-        if (/^5\.\s*điều\s*chỉnh/i.test(lines[i]) || /^\*\s*(?:học\s*sinh|dạng)/i.test(lines[i])) {
+        if (/^5\.\s*(?:điều\s*chỉnh|adjustment)/i.test(lines[i]) || /^\*\s*(?:học\s*sinh|dạng|type)/i.test(lines[i])) {
           insertIdx = i + 1;
         }
       }
-      lines.splice(insertIdx, 0, '- Năng lực đặc thù: ' + smartRes.dacThu);
+      lines.splice(insertIdx, 0, (isEn ? '- Specific competences: ' : '- Năng lực đặc thù: ') + smartRes.dacThu);
     }
 
     if (!hasChung) {
-      lines.push('- Phẩm chất, năng lực chung: ' + smartRes.chung);
+      lines.push((isEn ? '- General competences & Qualities: ' : '- Phẩm chất, năng lực chung: ') + smartRes.chung);
     }
 
     return lines.join('\n');
@@ -1541,6 +1574,39 @@ var IntegrationService = {
     return map[typeKey] || 'Học sinh hòa nhập';
   },
 
+  getDisabilityEnglishShortTypeName: function(typeKey) {
+    var map = {
+      'tri_tue': 'Intellectual Disability',
+      'van_dong': 'Physical Disability',
+      'nghe_noi': 'Hearing Impairment',
+      'khiem_thinh': 'Hearing Impairment',
+      'nhin': 'Visual Impairment',
+      'khiem_thi': 'Visual Impairment',
+      'ngon_ngu': 'Speech Impairment',
+      'tu_ki': 'Autism Spectrum / ADHD',
+      'tu_ky': 'Autism Spectrum',
+      'hoc_tap': 'Learning Difficulties',
+      'adhd': 'ADHD'
+    };
+    return map[typeKey] || 'SEN Student';
+  },
+
+  getDisabilityEnglishTypeName: function(typeKey) {
+    var map = {
+      'tri_tue': 'Intellectual Disability (Slow learner, short-term memory)',
+      'van_dong': 'Physical / Motor Disability (Limited writing, physical movement)',
+      'nghe_noi': 'Hearing / Speech Impairment',
+      'khiem_thinh': 'Hearing Impairment',
+      'nhin': 'Visual Impairment (Low vision, needs large text)',
+      'khiem_thi': 'Visual Impairment',
+      'tu_ki': 'Autism Spectrum / ADHD',
+      'tu_ky': 'Autism Spectrum Disorder',
+      'hoc_tap': 'Specific Learning Difficulties',
+      'khac': 'Special Educational Needs (SEN)'
+    };
+    return map[typeKey] || 'Special Educational Needs';
+  },
+
   /**
    * Kiểm tra xem một hàng trong bảng hoạt động có phải là hoạt động HSHN hay không
    */
@@ -1552,7 +1618,8 @@ var IntegrationService = {
            /-\s*GV\s+(?:HD|hướng\s*dẫn|hỗ\s*trợ)\s+HSHN\b/i.test(rowStr) || 
            /\[HSHN\]/i.test(rowStr) || 
            /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(rowStr) ||
-           /đối\s*với\s*học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(rowStr);
+           /đối\s*với\s*học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(rowStr) ||
+           /\bSEN\b|\binclusive\s+student/i.test(rowStr);
   },
 
   /**
@@ -1569,6 +1636,19 @@ var IntegrationService = {
     }
 
     var self = this;
+    var isEn = (subjectKey && (subjectKey.includes('tiếng anh') || subjectKey.includes('tieng_anh') || subjectKey.includes('english')));
+
+    if (isEn) {
+      if (students.length === 1 && !students[0].name) {
+        return '- For inclusive students: Flashcards, picture cards, emotion cards (happy/sad), mini-board, clear audio player, peer assistance.';
+      }
+      return students.map(function(st, idx) {
+        var shortType = self.getDisabilityEnglishShortTypeName(st.disabilityType);
+        var namePart = st.name ? (' ' + st.name) : '';
+        return `- For student ${idx + 1}${namePart} (${shortType}): Flashcards, picture cards, emotion cards (happy/sad), mini-board, clear audio player, peer assistance.`;
+      }).join('\n');
+    }
+
     var getDodungForType = function(disType) {
       var isKhiemThinh = (disType === 'khiem_thinh' || disType === 'nghe_noi');
       var isKhiemThi = (disType === 'khiem_thi' || disType === 'nhin');
@@ -1871,20 +1951,39 @@ var IntegrationService = {
       };
     });
 
-    var sampleSubj = itemsToSend[0] ? itemsToSend[0].subjectKey : '';
-    var sampleGrade = itemsToSend[0] ? itemsToSend[0].grade : 5;
+    var sampleSubj = (itemsToSend[0] ? itemsToSend[0].subjectKey : '') || (disabilityConfig && disabilityConfig.subjectKey) || '';
+    var isEnglishSubject = sampleSubj.includes('tieng_anh') ||
+      sampleSubj.includes('english') ||
+      (itemsToSend[0] && ((itemsToSend[0].subject || '') + ' ' + (itemsToSend[0].title || '')).toLowerCase().includes('tiếng anh')) ||
+      (itemsToSend[0] && /unit\s+\d+/i.test(itemsToSend[0].title || '')) ||
+      (chunkLessons && chunkLessons.some(function(l) {
+        var s = ((l.subjectKey || '') + ' ' + (l.subjectName || '') + ' ' + (l.subject || '') + ' ' + (l.lessonTitle || '') + ' ' + (l.title || '')).toLowerCase();
+        return s.includes('tieng_anh') || s.includes('tiếng anh') || s.includes('english') || /unit\s+\d+/i.test(s);
+      }));
+    var sampleGrade = itemsToSend[0] ? itemsToSend[0].grade : (disabilityConfig ? disabilityConfig.grade : 5);
 
     var studentInfoSections = studentsList.map(function(st, sIdx) {
       var sGuide = (typeof AIService !== 'undefined' && AIService.getDisabilityGuidance)
         ? AIService.getDisabilityGuidance(st.disabilityType, st.cognitiveRate, st.notes, sampleSubj, sampleGrade)
         : self.getDisabilityGuidance(st.disabilityType, st.cognitiveRate, st.notes, sampleSubj, sampleGrade);
-      var titleStr = `HỌC SINH ${sIdx + 1}${st.name ? (' (' + st.name + ')') : ''}:`;
-      return `${titleStr}
+      if (isEnglishSubject) {
+        var enTypeName = self.getDisabilityEnglishTypeName ? self.getDisabilityEnglishTypeName(st.disabilityType) : (st.disabilityTypeName || self.getDisabilityTypeName(st.disabilityType));
+        var titleStr = `STUDENT ${sIdx + 1}${st.name ? (' (' + st.name + ')') : ''}:`;
+        return `${titleStr}
+- Special Education Needs (SEN) / Disability type: ${enTypeName}
+- Cognitive / Reception capacity: approximately ${st.cognitiveRate}% compared to standard grade level
+${st.notes ? ('- Teacher notes: ' + st.notes) : ''}
+- Pedagogical adjustment guidelines:
+${sGuide}`;
+      } else {
+        var titleStr = `HỌC SINH ${sIdx + 1}${st.name ? (' (' + st.name + ')') : ''}:`;
+        return `${titleStr}
 - Dạng tật: ${st.disabilityTypeName || self.getDisabilityTypeName(st.disabilityType)}
 - Mức độ nhận thức / tiếp thu: khoảng ${st.cognitiveRate}% so với chuẩn chung của lớp
 ${st.notes ? ('- Ghi chú riêng từ giáo viên: ' + st.notes) : ''}
 - Hướng dẫn điều chỉnh sư phạm cho dạng tật này:
 ${sGuide}`;
+      }
     }).join('\n\n');
 
     var isBoth = (disabilityConfig && disabilityConfig.scope === 'both');
@@ -1895,43 +1994,100 @@ ${sGuide}`;
       // CHẾ ĐỘ 1: CHỈ TÍCH HỢP YCCĐ (MỤC I) - GỌN NHẸ, TỐI ƯU TỐC ĐỘ, KHÔNG LO NGẮT GEMINI
       if (!isMulti) {
         var singleSt = studentsList[0];
-        promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHUẨN CV 2345):
+        if (isEnglishSubject) {
+          promptRules = `MANDATORY PEDAGOGICAL RULES FOR INCLUSIVE EDUCATION (ENGLISH LESSON PLAN):
+1. LANGUAGE REQUIREMENT: Because this is an English lesson plan, ALL outputs (disabilityYccd and disabilityDodung) MUST BE 100% IN ENGLISH. DO NOT use Vietnamese.
+2. PEDAGOGICAL TONE: Encouraging, positive, inclusive, child-friendly, natural tone.
+3. STRUCTURE OF OBJECTIVES (disabilityYccd) MUST CONTAIN EXACTLY 2 BULLET POINTS (separated by a newline \\n):
+   - Specific competences: [State core knowledge aligned with the lesson and grade; limit content scope, target completing ~${singleSt.cognitiveRate}% of basic recognition tasks in textbook (e.g. Activity 1 or 2 with peer/teacher help); clearly exempt advanced tasks (e.g., no lengthy sentence composition, no complex grammar analysis)].
+   - General competences & Qualities: [Build confidence in pronunciation/participating in front of peers, active inclusion, peer cooperation (buddy support model), and effort to complete manageable tasks].
+4. TEACHING AIDS (disabilityDodung): Specify 1 concise line of visual teaching aids in English (e.g., "- For inclusive students: Flashcards, picture cards, emotion cards, mini-board, peer support.").`;
+
+          sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "- Specific competences: ...\\n- General competences & Qualities: ...",
+    "disabilityDodung": "- For inclusive students: Flashcards, picture cards, emotion cards, mini-board, peer support."
+  }
+]`;
+        } else {
+          promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHUẨN CV 2345):
 1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của học sinh; TUYỆT ĐỐI KHÔNG dùng mẫu câu rập khuôn, sáo rỗng.
 2. CẤU TRÚC YCCĐ (disabilityYccd) BẮT BUỘC ĐỦ 2 GẠCH ĐẦU DÒNG (PHÂN TÁCH BẰNG DẤU XUỐNG DÒNG \\n):
    - Năng lực đặc thù: [Chỉ rõ kiến thức cốt lõi bám sát bài, môn học và khối lớp; giới hạn phạm vi số/kiến thức cụ thể (ví dụ môn Toán: số có bao nhiêu chữ số, phép tính cụ thể nào...), định lượng rõ hoàn thành khoảng ${singleSt.cognitiveRate}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 theo mẫu), và loại trừ rõ phần giảm tải không bắt buộc làm (không yêu cầu giải toán có lời văn 2-3 bước tính hay bài tính thuận tiện, bài nâng cao)].
    - Phẩm chất, năng lực chung: [Rèn luyện tính tự tin phát âm/làm bài trước bạn, tích cực hòa nhập, hợp tác cùng bạn học (mô hình bạn kèm bạn / đôi bạn cùng tiến) và có ý thức nỗ lực hoàn thành nhiệm vụ vừa sức].
 3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể 1 dòng đồ dùng trực quan (ví dụ: "- Đối với học sinh hòa nhập: Thẻ cảm xúc, thẻ Đ/S, bảng con, phiếu học tập/tranh ảnh trực quan...").`;
 
-        sampleJson = `[
+          sampleJson = `[
   {
     "id": 0,
     "disabilityYccd": "- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...",
     "disabilityDodung": "- Đối với học sinh hòa nhập: Thẻ cảm xúc, thẻ Đ/S, bảng con, phiếu bài tập trực quan."
   }
 ]`;
+        }
       } else {
-        var stuHeadersExample = studentsList.map(function(st, sIdx) {
-          var sShort = self.getDisabilityShortTypeName(st.disabilityType);
-          var sName = st.name ? (' (' + st.name + ')') : '';
-          return `* Dạng ${sIdx + 1}: ${sShort}${sName}
+        if (isEnglishSubject) {
+          var stuHeadersExample = studentsList.map(function(st, sIdx) {
+            var sShort = self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(st.disabilityType) : self.getDisabilityShortTypeName(st.disabilityType);
+            var sName = st.name ? (' (' + st.name + ')') : '';
+            return `* Type ${sIdx + 1}: ${sShort}${sName}
+- Specific competences: [Core adapted objectives for this lesson and ${sShort}]
+- General competences & Qualities: [Confidence, social inclusion, peer cooperation]`;
+          }).join('\n');
+
+          var dodungExample = studentsList.map(function(st, sIdx) {
+            var sShort = self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(st.disabilityType) : self.getDisabilityShortTypeName(st.disabilityType);
+            var sName = st.name ? (' ' + st.name) : '';
+            return `- For student ${sIdx + 1}${sName} (${sShort}): [Adapted visual aids in English]`;
+          }).join('\n');
+
+          promptRules = `MANDATORY PEDAGOGICAL RULES FOR INCLUSIVE EDUCATION (${studentsList.length} INCLUSIVE STUDENTS - ENGLISH LESSON PLAN):
+1. LANGUAGE REQUIREMENT: Because this is an English lesson plan, ALL outputs (disabilityYccd and disabilityDodung) MUST BE 100% IN ENGLISH. DO NOT use Vietnamese.
+2. PEDAGOGICAL TONE: Encouraging, positive, inclusive, child-friendly, natural tone.
+3. STRUCTURE OF OBJECTIVES (disabilityYccd): MUST BE PREPARED FOR ALL ${studentsList.length} STUDENTS. For EACH student, output a header starting with * and EXACTLY 2 BULLET POINTS:
+${stuHeadersExample}
+4. TEACHING AIDS (disabilityDodung): Specify visual aids in English for each student (separated by newline \\n):
+${dodungExample}`;
+
+          sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "${studentsList.map(function(st, sIdx) {
+      var sShort = self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(st.disabilityType) : self.getDisabilityShortTypeName(st.disabilityType);
+      var sName = st.name ? (' (' + st.name + ')') : '';
+      return `* Type ${sIdx + 1}: ${sShort}${sName}\\n- Specific competences: ...\\n- General competences & Qualities: ...`;
+    }).join('\\n')}",
+    "disabilityDodung": "${studentsList.map(function(st, sIdx) {
+      var sShort = self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(st.disabilityType) : self.getDisabilityShortTypeName(st.disabilityType);
+      var sName = st.name ? (' ' + st.name) : '';
+      return `- For student ${sIdx + 1}${sName} (${sShort}): ...`;
+    }).join('\\n')}"
+  }
+]`;
+        } else {
+          var stuHeadersExample = studentsList.map(function(st, sIdx) {
+            var sShort = self.getDisabilityShortTypeName(st.disabilityType);
+            var sName = st.name ? (' (' + st.name + ')') : '';
+            return `* Dạng ${sIdx + 1}: ${sShort}${sName}
 - Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
 - Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
-        }).join('\n');
+          }).join('\n');
 
-        var dodungExample = studentsList.map(function(st, sIdx) {
-          var sShort = self.getDisabilityShortTypeName(st.disabilityType);
-          var sName = st.name ? (' ' + st.name) : '';
-          return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): [Đồ dùng trực quan phù hợp]`;
-        }).join('\n');
+          var dodungExample = studentsList.map(function(st, sIdx) {
+            var sShort = self.getDisabilityShortTypeName(st.disabilityType);
+            var sName = st.name ? (' ' + st.name) : '';
+            return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): [Đồ dùng trực quan phù hợp]`;
+          }).join('\n');
 
-        promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG CHO TỪNG HỌC SINH (${studentsList.length} HỌC SINH HÒA NHẬP):
+          promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG CHO TỪNG HỌC SINH (${studentsList.length} HỌC SINH HÒA NHẬP):
 1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của từng em; TUYỆT ĐỐI KHÔNG rập khuôn.
 2. CẤU TRÚC YCCĐ (disabilityYccd): BẮT BUỘC BIÊN SOẠN RIÊNG CHO ĐỦ ${studentsList.length} HỌC SINH. Với MỖI HỌC SINH, xuất tiêu đề bắt đầu bằng dấu * và CHÍNH XÁC 2 GẠCH ĐẦU DÒNG (Năng lực đặc thù và Phẩm chất, năng lực chung):
 ${stuHeadersExample}
 3. ĐỒ DÙNG DẠY HỌC (disabilityDodung): Nêu cụ thể đồ dùng trực quan cho từng em (phân tách bằng xuống dòng \\n):
 ${dodungExample}`;
 
-        sampleJson = `[
+          sampleJson = `[
   {
     "id": 0,
     "disabilityYccd": "${studentsList.map(function(st, sIdx) {
@@ -1946,12 +2102,48 @@ ${dodungExample}`;
     }).join('\\n')}"
   }
 ]`;
+        }
       }
     } else {
       // CHẾ ĐỘ 2: TÍCH HỢP CẢ YCCĐ (MỤC I) LẪN HOẠT ĐỘNG (MỤC III)
       if (!isMulti) {
         var singleSt = studentsList[0];
-        promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHUẨN CV 2345):
+        if (isEnglishSubject) {
+          promptRules = `MANDATORY PEDAGOGICAL RULES FOR INCLUSIVE EDUCATION (ENGLISH LESSON PLAN):
+1. LANGUAGE REQUIREMENT: Because this is an English lesson plan, ALL outputs (disabilityYccd, disabilityDodung, and disabilityActivities) MUST BE 100% IN ENGLISH. DO NOT use Vietnamese.
+2. PEDAGOGICAL TONE: Encouraging, positive, inclusive, child-friendly, natural tone.
+3. STRUCTURE OF OBJECTIVES (disabilityYccd) MUST CONTAIN EXACTLY 2 BULLET POINTS (separated by a newline \\n):
+   - Specific competences: [State core knowledge aligned with the lesson and grade; limit content scope, target completing ~${singleSt.cognitiveRate}% of basic recognition tasks in textbook; clearly exempt advanced tasks].
+   - General competences & Qualities: [Build confidence in pronunciation/participating in front of peers, active inclusion, peer cooperation, and effort to complete manageable tasks].
+4. TEACHING AIDS (disabilityDodung): Specify 1 concise line of visual teaching aids in English (e.g., "- For inclusive students: Flashcards, picture cards, emotion cards, mini-board, audio player, peer support.").
+5. PROCEDURAL ACTIVITIES (disabilityActivities): Must clearly state adapted Teacher's and Student's actions in English for each phase:
+   - khoiDong: { "teacherAct": "- Teacher guides inclusive student ...", "studentAct": "* Inclusive student ..." }
+   - luyenTap: { "teacherAct": "- Teacher helps inclusive student with basic practice ...", "studentAct": "* Inclusive student practices basic exercise on mini-board with peer help ..." }
+   - vanDung: { "teacherAct": "- Teacher invites inclusive student to participate in lesson wrap-up ...", "studentAct": "* Inclusive student shares feelings with emotion cards ..." }`;
+
+          sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "- Specific competences: ...\\n- General competences & Qualities: ...",
+    "disabilityDodung": "- For inclusive students: Flashcards, picture cards, emotion cards, mini-board, peer support.",
+    "disabilityActivities": {
+      "khoiDong": {
+        "teacherAct": "- Teacher guides inclusive student to observe warm-up pictures/chant and gives manageable prompts.",
+        "studentAct": "* Inclusive student observes illustrations, claps along, and repeats keywords prompted by teacher."
+      },
+      "luyenTap": {
+        "teacherAct": "- Teacher assists inclusive student with basic recognition task (Activity 1) on mini-board (desk-mate support).",
+        "studentAct": "* Inclusive student completes basic recognition task on mini-board with assistance from desk-mate."
+      },
+      "vanDung": {
+        "teacherAct": "- Teacher invites inclusive student to participate in lesson wrap-up and reflection.",
+        "studentAct": "* Inclusive student joins peers in sharing feelings and evaluates the lesson using emotion cards."
+      }
+    }
+  }
+]`;
+        } else {
+          promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG (CHUẨN CV 2345):
 1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của học sinh; TUYỆT ĐỐI KHÔNG dùng mẫu câu rập khuôn, sáo rỗng.
 2. CẤU TRÚC YCCĐ (disabilityYccd) BẮT BUỘC ĐỦ 2 GẠCH ĐẦU DÒNG (PHÂN TÁCH BẰNG DẤU XUỐNG DÒNG \\n):
    - Năng lực đặc thù: [Chỉ rõ kiến thức cốt lõi bám sát bài, môn học và khối lớp; giới hạn phạm vi số/kiến thức cụ thể (ví dụ môn Toán: số có bao nhiêu chữ số, phép tính cụ thể nào...), định lượng rõ hoàn thành khoảng ${singleSt.cognitiveRate}% khối lượng bài tập nhận biết cơ bản trong SGK (chỉ định rõ Bài 1 hoặc Bài 2 theo mẫu), và loại trừ rõ phần giảm tải không bắt buộc làm (không yêu cầu giải toán có lời văn 2-3 bước tính hay bài tính thuận tiện, bài nâng cao)].
@@ -1962,7 +2154,7 @@ ${dodungExample}`;
    - luyenTap: { "teacherAct": "- GV HD HSHN làm bài tập ...", "studentAct": "* HSHN làm bài tập ... vào bảng con/giơ thẻ Đ/S..." } (Nêu bài tập số nhỏ cụ thể vừa sức cho em!)
    - vanDung: { "teacherAct": "- GV hướng dẫn HSHN ...", "studentAct": "* HSHN cùng bạn chia sẻ và đánh giá tiết học bằng thẻ cảm xúc..." }`;
 
-        sampleJson = `[
+          sampleJson = `[
   {
     "id": 0,
     "disabilityYccd": "- Năng lực đặc thù: ...\\n- Phẩm chất, năng lực chung: ...",
@@ -1983,22 +2175,80 @@ ${dodungExample}`;
     }
   }
 ]`;
+        }
       } else {
-        var stuHeadersExample = studentsList.map(function(st, sIdx) {
-          var sShort = self.getDisabilityShortTypeName(st.disabilityType);
-          var sName = st.name ? (' (' + st.name + ')') : '';
-          return `* Dạng ${sIdx + 1}: ${sShort}${sName}
+        if (isEnglishSubject) {
+          var stuHeadersExample = studentsList.map(function(st, sIdx) {
+            var sShort = self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(st.disabilityType) : self.getDisabilityShortTypeName(st.disabilityType);
+            var sName = st.name ? (' (' + st.name + ')') : '';
+            return `* Type ${sIdx + 1}: ${sShort}${sName}
+- Specific competences: [Core adapted objectives for this lesson and ${sShort}]
+- General competences & Qualities: [Confidence, social inclusion, peer cooperation]`;
+          }).join('\n');
+
+          var dodungExample = studentsList.map(function(st, sIdx) {
+            var sShort = self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(st.disabilityType) : self.getDisabilityShortTypeName(st.disabilityType);
+            var sName = st.name ? (' ' + st.name) : '';
+            return `- For student ${sIdx + 1}${sName} (${sShort}): [Adapted visual aids in English]`;
+          }).join('\n');
+
+          promptRules = `MANDATORY PEDAGOGICAL RULES FOR INCLUSIVE EDUCATION (${studentsList.length} INCLUSIVE STUDENTS - ENGLISH LESSON PLAN):
+1. LANGUAGE REQUIREMENT: Because this is an English lesson plan, ALL outputs (disabilityYccd, disabilityDodung, and disabilityActivities) MUST BE 100% IN ENGLISH. DO NOT use Vietnamese.
+2. PEDAGOGICAL TONE: Encouraging, positive, inclusive, child-friendly, natural tone.
+3. STRUCTURE OF OBJECTIVES (disabilityYccd): MUST BE PREPARED FOR ALL ${studentsList.length} STUDENTS. For EACH student, output a header starting with * and EXACTLY 2 BULLET POINTS:
+${stuHeadersExample}
+4. TEACHING AIDS (disabilityDodung): Specify visual aids in English for each student (separated by newline \\n):
+${dodungExample}
+5. PROCEDURAL ACTIVITIES (disabilityActivities): Must clearly state adapted Teacher's and Students' actions in English for each phase:
+   - khoiDong: { "teacherAct": "- Teacher guides inclusive students ...", "studentAct": "* Inclusive students ..." }
+   - luyenTap: { "teacherAct": "- Teacher assists inclusive students with adapted practice ...", "studentAct": "* Inclusive students perform basic tasks according to individual ability ..." }
+   - vanDung: { "teacherAct": "- Teacher guides inclusive students to participate in lesson wrap-up ...", "studentAct": "* Inclusive students share feelings and reflect on the lesson using emotion cards..." }`;
+
+          sampleJson = `[
+  {
+    "id": 0,
+    "disabilityYccd": "${studentsList.map(function(st, sIdx) {
+      var sShort = self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(st.disabilityType) : self.getDisabilityShortTypeName(st.disabilityType);
+      var sName = st.name ? (' (' + st.name + ')') : '';
+      return `* Type ${sIdx + 1}: ${sShort}${sName}\\n- Specific competences: ...\\n- General competences & Qualities: ...`;
+    }).join('\\n')}",
+    "disabilityDodung": "${studentsList.map(function(st, sIdx) {
+      var sShort = self.getDisabilityEnglishShortTypeName ? self.getDisabilityEnglishShortTypeName(st.disabilityType) : self.getDisabilityShortTypeName(st.disabilityType);
+      var sName = st.name ? (' ' + st.name) : '';
+      return `- For student ${sIdx + 1}${sName} (${sShort}): ...`;
+    }).join('\\n')}",
+    "disabilityActivities": {
+      "khoiDong": {
+        "teacherAct": "- Teacher guides inclusive students to observe warm-up illustrations/chant, assigning manageable prompts.",
+        "studentAct": "* Inclusive students observe pictures, clap along, and repeat keywords prompted by teacher."
+      },
+      "luyenTap": {
+        "teacherAct": "- Teacher assists each inclusive student with basic recognition exercise (Activity 1) on mini-board (desk-mate support).",
+        "studentAct": "* Inclusive students complete basic recognition tasks on mini-board with peer partner assistance."
+      },
+      "vanDung": {
+        "teacherAct": "- Teacher guides inclusive students to join lesson wrap-up and reflection.",
+        "studentAct": "* Inclusive students join classmates in expressing feelings and evaluating the lesson using emotion cards."
+      }
+    }
+  }
+]`;
+        } else {
+          var stuHeadersExample = studentsList.map(function(st, sIdx) {
+            var sShort = self.getDisabilityShortTypeName(st.disabilityType);
+            var sName = st.name ? (' (' + st.name + ')') : '';
+            return `* Dạng ${sIdx + 1}: ${sShort}${sName}
 - Năng lực đặc thù: [Mục tiêu cốt lõi, giảm tải bám sát bài và dạng tật ${sShort}]
 - Phẩm chất, năng lực chung: [Rèn luyện tự tin, hòa nhập, hợp tác cùng bạn]`;
-        }).join('\n');
+          }).join('\n');
 
-        var dodungExample = studentsList.map(function(st, sIdx) {
-          var sShort = self.getDisabilityShortTypeName(st.disabilityType);
-          var sName = st.name ? (' ' + st.name) : '';
-          return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): [Đồ dùng trực quan phù hợp]`;
-        }).join('\n');
+          var dodungExample = studentsList.map(function(st, sIdx) {
+            var sShort = self.getDisabilityShortTypeName(st.disabilityType);
+            var sName = st.name ? (' ' + st.name) : '';
+            return `- Đối với học sinh ${sIdx + 1}${sName} (${sShort}): [Đồ dùng trực quan phù hợp]`;
+          }).join('\n');
 
-        promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG CHO TỪNG HỌC SINH (${studentsList.length} HỌC SINH HÒA NHẬP):
+          promptRules = `QUY TẮC BẮT BUỘC ĐẢM BẢO CHUẨN MỰC SƯ PHẠM ĐỊNH LƯỢNG CHO TỪNG HỌC SINH (${studentsList.length} HỌC SINH HÒA NHẬP):
 1. VĂN PHONG SƯ PHẠM: Tự nhiên, sinh động, khích lệ sự hòa nhập và tiến bộ của từng em; TUYỆT ĐỐI KHÔNG rập khuôn.
 2. CẤU TRÚC YCCĐ (disabilityYccd): BẮT BUỘC BIÊN SOẠN RIÊNG CHO ĐỦ ${studentsList.length} HỌC SINH. Với MỖI HỌC SINH, xuất tiêu đề bắt đầu bằng dấu * và CHÍNH XÁC 2 GẠCH ĐẦU DÒNG (Năng lực đặc thù và Phẩm chất, năng lực chung):
 ${stuHeadersExample}
@@ -2009,7 +2259,7 @@ ${dodungExample}
    - luyenTap: { "teacherAct": "- GV HD từng HSHN làm bài tập nhận biết vừa sức ...", "studentAct": "* Các HSHN thực hiện bài tập theo khả năng ..." }
    - vanDung: { "teacherAct": "- GV hướng dẫn các HSHN ...", "studentAct": "* Các HSHN cùng bạn chia sẻ và đánh giá tiết học bằng thẻ cảm xúc..." }`;
 
-        sampleJson = `[
+          sampleJson = `[
   {
     "id": 0,
     "disabilityYccd": "${studentsList.map(function(st, sIdx) {
@@ -2038,35 +2288,58 @@ ${dodungExample}
     }
   }
 ]`;
+        }
       }
     }
 
-    var taskDescription = (!isBoth)
-      ? `NHIỆM VỤ:
+    var taskDescription = '';
+    if (isEnglishSubject) {
+      taskDescription = (!isBoth)
+        ? `TASK:
+Below is the list of English lessons along with their original OBJECTIVES (YCCĐ).
+Based on the original objectives, grade level, and English subject pedagogical context:
+1. Formulate differentiated objectives (disabilityYccd) tailored to each inclusive student's cognitive rate (${studentsList.length} student(s)) strictly in ENGLISH.
+2. Specify adapted visual teaching aids (disabilityDodung) in ENGLISH.
+IMPORTANT: ALL outputs must be 100% in ENGLISH.`
+        : `TASK:
+Below is the list of English lessons along with their original OBJECTIVES (YCCĐ).
+Based on the original objectives, grade level, and English subject pedagogical context:
+1. Formulate differentiated objectives (disabilityYccd) tailored to each inclusive student's cognitive rate (${studentsList.length} student(s)) strictly in ENGLISH.
+2. Specify adapted visual teaching aids (disabilityDodung) in ENGLISH.
+3. Formulate adapted procedures (disabilityActivities: khoiDong, luyenTap, vanDung) with teacher and student actions strictly in ENGLISH.
+IMPORTANT: ALL outputs must be 100% in ENGLISH.`;
+    } else {
+      taskDescription = (!isBoth)
+        ? `NHIỆM VỤ:
 Dưới đây là danh sách các bài dạy kèm YÊU CẦU CẦN ĐẠT (YCCĐ) GỐC của từng bài.
 Dựa vào YCCĐ GỐC, đặc thù môn học và khối lớp của TỪNG BÀI DẠY, hãy biên soạn:
 1. YCCĐ phân hóa chi tiết, định lượng cụ thể theo mức nhận thức (chuẩn Thông tư 03 và CV 2345) dành cho học sinh khuyết tật học hòa nhập (${studentsList.length} học sinh).
 2. Thiết bị / Đồ dùng dạy học trực quan hỗ trợ riêng cho từng học sinh này.`
-      : `NHIỆM VỤ:
+        : `NHIỆM VỤ:
 Dưới đây là danh sách các bài dạy kèm YÊU CẦU CẦN ĐẠT (YCCĐ) GỐC của từng bài.
 Dựa vào YCCĐ GỐC, đặc thù môn học và khối lớp của TỪNG BÀI DẠY, hãy biên soạn đồng bộ:
 1. YCCĐ phân hóa chi tiết, định lượng cụ thể theo mức nhận thức (chuẩn Thông tư 03 và CV 2345) dành cho học sinh khuyết tật học hòa nhập (${studentsList.length} học sinh).
 2. Thiết bị / Đồ dùng dạy học trực quan hỗ trợ riêng cho từng học sinh này.
 3. Hoạt động phân hóa cụ thể trong tiến trình dạy học (Khởi động, Luyện tập bài tập cơ bản, Vận dụng/Đánh giá) bám sát nội dung bài học, lời văn tự nhiên, ấm áp, ngắn gọn súc tích.`;
+    }
 
-    var prompt = `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Giáo dục Hòa nhập (Chương trình GDPT 2018, Thông tư 03/2018/TT-BGDĐT, chuẩn Công văn 2345/BGDĐT-GDTH).
+    var systemRole = isEnglishSubject
+      ? `You are an expert Primary English Educator and Special Educational Needs (SEN / Inclusive Education) Specialist.`
+      : `Bạn là Chuyên gia Phương pháp Dạy học Tiểu học và Giáo dục Hòa nhập (Chương trình GDPT 2018, Thông tư 03/2018/TT-BGDĐT, chuẩn Công văn 2345/BGDĐT-GDTH).`;
+
+    var prompt = `${systemRole}
 
 ${taskDescription}
 
-THÔNG TIN DANH SÁCH HỌC SINH KHUYẾT TẬT TRONG LỚP (${studentsList.length} HỌC SINH):
+${isEnglishSubject ? 'INCLUSIVE STUDENTS INFORMATION (' + studentsList.length + ' STUDENT' + (studentsList.length > 1 ? 'S' : '') + '):' : 'THÔNG TIN DANH SÁCH HỌC SINH KHUYẾT TẬT TRONG LỚP (' + studentsList.length + ' HỌC SINH):'}
 ${studentInfoSections}
 
-DANH SÁCH BÀI DẠY VÀ YCCĐ GỐC:
+${isEnglishSubject ? 'LESSONS LIST AND ORIGINAL OBJECTIVES:' : 'DANH SÁCH BÀI DẠY VÀ YCCĐ GỐC:'}
 ${JSON.stringify(itemsToSend, null, 2)}
 
 ${promptRules}
 
-HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm mã markdown \`\`\`json):
+${isEnglishSubject ? 'RETURN PURE JSON ARRAY (without markdown ```json block):' : 'HÃY TRẢ VỀ KẾT QUẢ DƯỚI DẠNG MẢNG JSON THUẦN TÚY (không kèm mã markdown ```json):'}
 ${sampleJson}`;
 
     var rawResponse = '';
