@@ -864,12 +864,15 @@ var IntegrationService = {
 
   ensureAllSubjectsLoadedForGrade: async function(grade) {
     var g = parseInt(grade) || 5;
-    var subjs = ['toan', 'tieng_viet', 'dao_duc', 'hdtn', 'gdtc', 'am_nhac'];
+    var subjs = ['toan', 'tieng_viet', 'dao_duc', 'hdtn', 'gdtc', 'am_nhac', 'mi_thuat'];
     if (g <= 3) {
       subjs.push('tnxh');
       if (g === 3) subjs.push('cong_nghe');
     } else {
       subjs.push('khoa_hoc', 'lich_su_dia_ly', 'cong_nghe');
+    }
+    if (g >= 3) {
+      subjs.push('tieng_anh');
     }
 
     var self = this;
@@ -5396,8 +5399,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var c0 = (r[0] || '').toLowerCase().trim();
       var c1 = (r[1] || '').toLowerCase().trim();
       var c2 = (r[2] || '').toLowerCase().trim();
-      return ((c0.includes('giáo viên') || c0.includes('gv') || c0.includes('dạy học') || c0.includes('thầy')) &&
-             (c1.includes('học sinh') || c1.includes('hs') || c1.includes('trò') || c1.includes('luyện tập'))) ||
+      return ((c0.includes('giáo viên') || c0.includes('gv') || c0.includes('dạy học') || c0.includes('thầy') || c0.includes('teacher')) &&
+             (c1.includes('học sinh') || c1.includes('hs') || c1.includes('trò') || c1.includes('luyện tập') || c1.includes('student') || c1.includes('pupil'))) ||
              (c0.includes('nội dung') && (c1.includes('định lượng') || c2.includes('giáo viên')));
     };
 

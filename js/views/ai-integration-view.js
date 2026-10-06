@@ -208,6 +208,7 @@ function getIntegrationSubjectsForGrade(grade) {
   subjs.push({ key: 'hdtn', name: 'Hoạt động trải nghiệm', icon: 'fa-compass' });
   if (g >= 3) {
     subjs.push({ key: 'cong_nghe', name: 'Công nghệ', icon: 'fa-microchip' });
+    subjs.push({ key: 'tieng_anh', name: 'Tiếng Anh', icon: 'fa-language' });
   }
   subjs.push({ key: 'gdtc', name: 'Giáo dục thể chất', icon: 'fa-person-running' });
   subjs.push({ key: 'am_nhac', name: 'Âm nhạc', icon: 'fa-music' });
