@@ -2376,14 +2376,27 @@ ${sampleJson}`;
         return;
       }
 
+      // Nhận diện các tiểu mục Tích hợp (ANQP, AI, Năng lực số, STEM, GDĐP...)
+      var mTichHopSub = line.match(/^(?:[3-5]\.|\.)?\s*tích\s*hợp\s*(anqp|ai|năng\s*lực\s*số|stem|gdđp|quyền\s*con\s*người)(.*)$/i);
+      if (mTichHopSub) {
+        curSec = 4; sec4Header = '4. Tích hợp:';
+        var thType = mTichHopSub[1].trim();
+        if (/anqp/i.test(thType)) thType = 'ANQP';
+        else if (/ai/i.test(thType)) thType = 'AI';
+        else if (/năng\s*lực\s*số/i.test(thType)) thType = 'Năng lực số';
+        else if (/stem/i.test(thType)) thType = 'STEM';
+        else if (/gdđp/i.test(thType)) thType = 'GDĐP';
+        var thRest = mTichHopSub[2].trim().replace(/^[:.-]+\s*/, '');
+        sec4.push('- Tích hợp ' + thType + (thRest ? (': ' + thRest) : ':'));
+        return;
+      }
+
       // 4. Tích hợp (hỗ trợ cả "4. Tích hợp", "3. Tích hợp", "[Tích hợp]")
-      var isSec4 = /^(?:4|3)\.?\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)/i.test(line) ||
+      var isSec4 = /^(?:4|3)\.?\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp)\s*[:.-]?$/i.test(line) ||
                    /^[\s*•\-–—]*tích\s*hợp\s*[:.-]?$/i.test(line) ||
                    /^\[tích\s*hợp\]/i.test(line);
       if (isSec4) {
         curSec = 4; sec4Header = '4. Tích hợp:';
-        var mContent4 = line.replace(/^(?:4|3)\.?\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)\s*[:.-]?\s*/i, '').replace(/^\[tích\s*hợp\]\s*/i, '').trim();
-        if (mContent4) sec4.push(mContent4.startsWith('-') ? mContent4 : ('- ' + mContent4));
         return;
       }
 
@@ -5443,6 +5456,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var durationWithDate = dateStr ? (durationDefault + ' (ngày ' + dateStr + ')') : durationDefault;
 
       var inTichHopSection = false;
+      var hasRenderedTichHopHeader = false;
       var hasRenderedDisabilityHeader = false;
       var inDisabilitySection = false;
       var normalizedYccdList = IntegrationService.normalizeYccd(les.yccd || []);
@@ -5469,15 +5483,19 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         }
 
         // Nhận diện Tiêu đề nhóm Tích hợp (ví dụ: "4. Tích hợp", "4. Tích hợp giáo dục...")
-        var isTichHopHeaderGroup = /^\d+\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)/i.test(cleanLine) || /^[\s*•\-–—]*tích\s*hợp\s*[:.-]?$/i.test(cleanLine);
+        var isTichHopHeaderGroup = /^(?:4|3)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp)\s*[:.-]?$/i.test(cleanLine) || /^[\s*•\-–—]*tích\s*hợp\s*[:.-]?$/i.test(cleanLine);
         if (isTichHopHeaderGroup) {
           inTichHopSection = true;
           inDisabilitySection = false;
-          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">4. Tích hợp:</p>';
+          if (!hasRenderedTichHopHeader) {
+            hasRenderedTichHopHeader = true;
+            return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">4. Tích hợp:</p>';
+          }
+          return '';
         }
 
         // Nếu gặp tiêu đề nhóm khác (như 1., 2., 3., 5.) thì thoát khỏi section tích hợp
-        if (/^\d+\.\s*(?!tích\s*hợp|nội\s*dung\s*tích\s*hợp|năng\s*lực\s*số)/i.test(cleanLine)) {
+        if (/^[1-35]\.\s+(?:năng\s*lực|phẩm\s*chất|kiến\s*thức|điều\s*chỉnh)/i.test(cleanLine)) {
           inTichHopSection = false;
         }
         if (/^[1-4]\.\s*/i.test(cleanLine)) {
@@ -5538,10 +5556,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             .replace(/\(Tích hợp\)/gi, '')
             .replace(/\s{2,}/g, ' ')
             .trim();
-          if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*')) {
+          var isSubHeader = /^[-*•+–—]?\s*tích\s*hợp\s*(?:anqp|ai|năng\s*lực\s*số|stem|gdđp)/i.test(displayLine);
+          var isCodeBullet = /^\d+(?:\.[A-Z\d]+)+(?::|\b)/i.test(displayLine);
+          if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*') && !isCodeBullet) {
             displayLine = '- ' + displayLine;
           }
-          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + displayLine + '</span></p>';
+          var extraStyle = isSubHeader ? 'font-weight: bold; ' : '';
+          return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; color: #C00000; text-align: justify; ' + extraStyle + '"><span style="color: #C00000;">' + displayLine + '</span></p>';
         }
         return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">' + cleanLine + '</p>';
       }).join('');
