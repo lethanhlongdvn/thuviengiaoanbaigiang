@@ -1281,6 +1281,17 @@ var IntegrationService = {
           ltTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh/mô hình, chỉ và gọi tên các sự vật/hiện tượng đơn giản của bài.`;
           ltStudent = `* HSHN${sName} quan sát tranh ảnh, chỉ đúng vị trí trên sơ đồ và nhắc lại tên sự vật/hiện tượng theo hướng dẫn của cô.`;
         }
+      } else if (subjKey.includes('tiếng anh') || subjKey.includes('tieng_anh') || subjKey.includes('english')) {
+        if (isKhiemThinh) {
+          ltTeacher = `- GV hướng dẫn HSHN${sName} quan sát tranh/flashcard, chỉ đúng hình ảnh hoặc ghép thẻ từ tiếng Anh tương ứng.`;
+          ltStudent = `* HSHN${sName} quan sát flashcard, chỉ đúng tranh từ vựng và tham gia hoạt động nhóm cùng bạn bằng cử chỉ.`;
+        } else if (isKhiemThi) {
+          ltTeacher = `- GV mở audio rõ ràng và phát âm mẫu chậm rãi, hướng dẫn HSHN${sName} nhắc lại 1 - 2 từ vựng cơ bản.`;
+          ltStudent = `* HSHN${sName} chăm chú lắng nghe, nhắc lại từ vựng hoặc câu chào hỏi đơn giản theo cô và bạn bên cạnh.`;
+        } else {
+          ltTeacher = `- GV HD HSHN${sName} quan sát flashcard/tranh ảnh minh họa, nghe phát âm mẫu và chỉ/nhắc lại từ vựng cơ bản (Bài 1) với sự hỗ trợ của bạn cùng bàn.`;
+          ltStudent = `* HSHN${sName} nhìn tranh, chỉ hình hoặc phát âm từ vựng tiếng Anh quen thuộc vừa sức theo gợi ý của cô giáo.`;
+        }
       } else {
         ltTeacher = `- GV giao nhiệm vụ vừa sức và hướng dẫn HSHN${sName} thực hành thao tác cơ bản cùng nhóm bạn.`;
         ltStudent = `* HSHN${sName} thực hiện nhiệm vụ cơ bản với sự đồng hành, giúp đỡ của bạn cùng bàn.`;
@@ -1399,6 +1410,23 @@ var IntegrationService = {
     } else if (subjKey.includes('gdtc') || subjKey.includes('thể chất') || subjKey.includes('the_duc')) {
       dacThu = 'Quan sát động tác mẫu của giáo viên; thực hiện được động tác khởi động hoặc bài tập thể dục đơn giản vừa sức theo khả năng.';
       chung = 'Tích cực rèn luyện thân thể, có ý thức kỷ luật và hòa đồng cùng bạn bè.';
+    } else if (subjKey.includes('tieng_anh') || subjKey.includes('tiếng anh') || subjKey.includes('english')) {
+      if (isKhiemThinh) {
+        dacThu = 'Quan sát tranh/flashcard minh họa và khẩu hình của giáo viên để nhận biết từ vựng; chỉ đúng tranh hoặc ghép thẻ từ tiếng Anh đơn giản.';
+        chung = 'Tự tin tham gia hoạt động lớp bằng cử chỉ, thẻ hình ảnh và hợp tác thân thiện cùng bạn cùng bàn.';
+      } else if (isKhiemThi) {
+        dacThu = 'Lắng nghe audio hoặc giáo viên phát âm mẫu; nhắc lại được 1 - 2 từ vựng hoặc mẫu câu chào hỏi tiếng Anh đơn giản theo khả năng.';
+        chung = 'Tập trung lắng nghe, mạnh dạn phát âm và hào hứng tham gia giờ học.';
+      } else if (isVanDong) {
+        dacThu = 'Nhận biết được từ vựng qua tranh ảnh; trả lời miệng hoặc chỉ vào tranh minh họa trên màn hình thay vì phải viết/nối từ vào vở.';
+        chung = 'Chủ động tham gia trả lời miệng, kiên trì và phối hợp tốt cùng bạn cùng bàn.';
+      } else if (isTuKy) {
+        dacThu = 'Quan sát flashcard và cử chỉ hướng dẫn của giáo viên; chỉ tranh hoặc nhắc lại từ vựng quen thuộc (số đếm, màu sắc, lời chào) theo mẫu.';
+        chung = 'Giữ bình tĩnh trong giờ học, hoàn thành nhiệm vụ cá nhân vừa sức và hợp tác thân thiện cùng bạn.';
+      } else {
+        dacThu = 'Quan sát tranh/flashcard và nghe giáo viên phát âm; nhận biết và nhắc lại được từ vựng hoặc mẫu câu tiếng Anh cơ bản theo hướng dẫn của giáo viên và bạn cùng bàn hỗ trợ.';
+        chung = 'Hào hứng làm quen với môn Tiếng Anh, tự tin tham gia hoạt động nhóm và hoàn thành nhiệm vụ vừa sức.';
+      }
     } else {
       dacThu = 'Nhận biết được nhiệm vụ học tập cơ bản; tham gia thực hiện thao tác ban đầu theo mẫu và sự hỗ trợ của bạn cùng bàn.';
       chung = 'Vui vẻ hòa nhập, có ý thức hoàn thành nhiệm vụ theo khả năng và tham gia các hoạt động chung của lớp.';
