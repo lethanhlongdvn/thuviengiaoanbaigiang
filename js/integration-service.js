@@ -1203,6 +1203,28 @@ var IntegrationService = {
   },
 
   /**
+   * Nhận diện tự động bài dạy hoặc môn học có phải là môn Tiếng Anh hay không
+   */
+  isEnglishLesson: function(lesson, optSubjKey) {
+    var s = ((optSubjKey || '') + ' ' + (lesson && (lesson.subjectKey || lesson.subjectName || lesson.subject || ''))).toLowerCase();
+    if (s.includes('tieng_anh') || s.includes('tiếng anh') || s.includes('english')) return true;
+    if (lesson) {
+      var title = ((lesson.lessonTitle || lesson.title || '') + ' ' + (lesson.topic || '')).toLowerCase();
+      if (/english|unit\s+\d+|lesson\s+\d+|review\s+\d+|starter\b|programme/i.test(title)) return true;
+      if (Array.isArray(lesson.yccd) && lesson.yccd.some(function(y) { return /pupils will be able to|objectives\b/i.test(y); })) return true;
+      if (Array.isArray(lesson.activities) && lesson.activities.some(function(a) { return /warm-up|presentation|practice|production/i.test(a); })) return true;
+      if (Array.isArray(lesson.tables) && lesson.tables.some(function(tbl) {
+        return Array.isArray(tbl) && tbl.some(function(row) {
+          return Array.isArray(row) && row.some(function(cell) {
+            return /teacher's activities|pupils' activities|students' activities|warm-up/i.test(cell);
+          });
+        });
+      })) return true;
+    }
+    return false;
+  },
+
+  /**
    * Tạo hoạt động phân hóa thông minh, vừa sức, bám sát môn học và khối lớp cho học sinh hòa nhập (Hỗ trợ 1 - 3 học sinh)
    */
   getSmartDisabilityActivities: function(lesson, disabilityConfig) {
@@ -1218,6 +1240,8 @@ var IntegrationService = {
     var grade = (lesson && (lesson.grade || (lesson.lessonTitle && lesson.lessonTitle.match(/lớp\s*(\d)/i) ? parseInt(lesson.lessonTitle.match(/lớp\s*(\d)/i)[1]) : 5))) || 5;
     var subjKey = (lesson && (lesson.subjectKey || lesson.subjectName || '')).toLowerCase();
     var self = this;
+    var isEn = this.isEnglishLesson(lesson, subjKey);
+    if (isEn && (!subjKey || !subjKey.includes('tieng_anh'))) subjKey = 'tieng_anh';
 
     if (students.length === 1) {
       var s0 = students[0];
@@ -1369,6 +1393,8 @@ var IntegrationService = {
     var disType = (student && student.disabilityType) || 'tri_tue';
     var rate = (student && parseInt(student.cognitiveRate, 10)) || 50;
     var subjKey = (subjectKey || (lesson && (lesson.subjectKey || lesson.subjectName || '')) || '').toLowerCase();
+    var isEn = this.isEnglishLesson(lesson, subjKey);
+    if (isEn && (!subjKey || !subjKey.includes('tieng_anh'))) subjKey = 'tieng_anh';
 
     var isKhiemThinh = (disType === 'khiem_thinh' || disType === 'nghe_noi');
     var isKhiemThi = (disType === 'khiem_thi' || disType === 'nhin');
@@ -1482,9 +1508,8 @@ var IntegrationService = {
 
     var grade = (lesson && (lesson.grade || (lesson.lessonTitle && lesson.lessonTitle.match(/lớp\s*(\d)/i) ? parseInt(lesson.lessonTitle.match(/lớp\s*(\d)/i)[1]) : 5))) || 5;
     var subjKey = (lesson && (lesson.subjectKey || lesson.subjectName || '')).toLowerCase();
-
-    // Nếu chỉ có 1 học sinh và không có tên riêng: xuất đúng mẫu 2 gạch đầu dòng truyền thống
-    var isEn = (subjKey.includes('tiếng anh') || subjKey.includes('tieng_anh') || subjKey.includes('english'));
+    var isEn = this.isEnglishLesson(lesson, subjKey);
+    if (isEn && (!subjKey || !subjKey.includes('tieng_anh'))) subjKey = 'tieng_anh';
     if (students.length === 1 && !students[0].name) {
       var singleRes = this.getSmartDisabilityYccdForStudent(lesson, students[0], subjKey, grade);
       if (isEn) {
@@ -1532,7 +1557,8 @@ var IntegrationService = {
     var st0 = (students && students[0]) || { disabilityType: (disabilityConfig && disabilityConfig.disabilityType) || 'tri_tue', cognitiveRate: (disabilityConfig && parseInt(disabilityConfig.cognitiveRate, 10)) || 50 };
     var grade = (lesson && (lesson.grade || 5)) || 5;
     var subjKey = (lesson && (lesson.subjectKey || lesson.subjectName || '')).toLowerCase();
-    var isEn = (subjKey.includes('tiếng anh') || subjKey.includes('tieng_anh') || subjKey.includes('english'));
+    var isEn = this.isEnglishLesson(lesson, subjKey);
+    if (isEn && (!subjKey || !subjKey.includes('tieng_anh'))) subjKey = 'tieng_anh';
     var smartRes = this.getSmartDisabilityYccdForStudent(lesson, st0, subjKey, grade);
 
     var lines = trimmed.split(/\r?\n/).map(function(s) { return s.trim(); }).filter(Boolean);
@@ -1690,7 +1716,7 @@ var IntegrationService = {
         if (!Array.isArray(row)) return true;
         if (row.isDisabilityRow) return false;
         var rowStr = row.join(' ');
-        if (/^\s*\*?\s*HSHN\b/i.test(rowStr) || /-\s*GV\s+(?:HD|hướng\s*dẫn)\s+(?:các\s+)?HSHN\b/i.test(rowStr) || /\[HSHN\]/i.test(rowStr) || /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(rowStr)) {
+        if (/^\s*\*?\s*(?:HSHN|SEN)\b/i.test(rowStr) || /-\s*(?:GV|T)\s+(?:HD|hướng\s*dẫn|guides?|encourages?)\s+(?:các\s+)?(?:HSHN|inclusive\s+students?)\b/i.test(rowStr) || /\[(?:HSHN|SEN)\]/i.test(rowStr) || /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|\binclusive\s+students?\b|\bSEN\b/i.test(rowStr)) {
           return false;
         }
         return true;
@@ -1723,13 +1749,13 @@ var IntegrationService = {
       if (!Array.isArray(r)) continue;
       var rStr = r.join(' ').toLowerCase();
       if (r.length === 1) {
-        if (/khởi\s*động|mở\s*đầu/i.test(rStr)) kdIdx = i;
-        else if (/khám\s*phá|kiến\s*thức\s*mới/i.test(rStr)) kpIdx = i;
-        else if (/luyện\s*tập|thực\s*hành/i.test(rStr)) ltIdx = i;
-        else if (/vận\s*dụng|trải\s*nghiệm|củng\s*cố|đánh\s*giá/i.test(rStr)) vdIdx = i;
+        if (/khởi\s*động|mở\s*đầu|warm-up/i.test(rStr)) kdIdx = i;
+        else if (/khám\s*phá|kiến\s*thức\s*mới|exploration|presentation|knowledge/i.test(rStr)) kpIdx = i;
+        else if (/luyện\s*tập|thực\s*hành|practice/i.test(rStr)) ltIdx = i;
+        else if (/vận\s*dụng|trải\s*nghiệm|củng\s*cố|đánh\s*giá|wrap-up|production|fun\s*corner/i.test(rStr)) vdIdx = i;
       }
-      if (/bài\s*1\b/i.test(rStr) && bai1Idx === -1) bai1Idx = i;
-      if (/bài\s*2\b/i.test(rStr) && bai2Idx === -1) bai2Idx = i;
+      if (/bài\s*1\b|activity\s*1\b/i.test(rStr) && bai1Idx === -1) bai1Idx = i;
+      if (/bài\s*2\b|activity\s*2\b/i.test(rStr) && bai2Idx === -1) bai2Idx = i;
     }
 
     function createRow(teacherText, studentText) {
@@ -1766,7 +1792,7 @@ var IntegrationService = {
     var hasInsertedLt = newRows.some(function(r) { return r.join(' ').includes(acts.luyenTap.studentAct); });
     if (!hasInsertedLt && acts.luyenTap) {
       if (vdIdx !== -1) {
-        var insertPos = newRows.findIndex(function(r) { return r.length === 1 && /vận\s*dụng|trải\s*nghiệm/i.test(r[0]); });
+        var insertPos = newRows.findIndex(function(r) { return r.length === 1 && /vận\s*dụng|trải\s*nghiệm|wrap-up|production|fun\s*corner/i.test(r[0]); });
         if (insertPos !== -1) {
           newRows.splice(insertPos, 0, createRow(acts.luyenTap.teacherAct, acts.luyenTap.studentAct));
         } else {
@@ -2576,17 +2602,17 @@ ${sampleJson}`;
     if (/^\s*4\.\s*tích\s*hợp/i.test(l)) return false;
 
     // Tiêu đề Mục 5
-    if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(l)) return true;
+    if (/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students|\(sen\)))/i.test(l)) return true;
 
-    // Sub-header học sinh 1, 2, 3 hoặc Dạng 1, 2, 3
-    if (/^\*\s*(?:học\s*sinh\s*\d+|đối\s*với\s*học\s*sinh\s*\d+|dạng\s*\d+)/i.test(l)) return true;
+    // Sub-header học sinh 1, 2, 3 hoặc Dạng 1, 2, 3 hoặc Type 1, 2, 3
+    if (/^\*\s*(?:học\s*sinh\s*\d+|đối\s*với\s*học\s*sinh\s*\d+|dạng\s*\d+|student\s*\d+|type\s*\d+)/i.test(l)) return true;
 
     // Từ khóa khuyết tật / hòa nhập
-    if (/học\s*sinh\s*khuyết\s*tật|học\s*sinh\s*hòa\s*nhập|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập/i.test(l)) return true;
+    if (/học\s*sinh\s*khuyết\s*tật|học\s*sinh\s*hòa\s*nhập|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập|\bSEN\b|\binclusive\s+students?/i.test(l)) return true;
 
-    // Định dạng 2 gạch đầu dòng do AI phân hóa sinh ra
-    if (/^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:/i.test(l)) return true;
-    if (/^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(l)) return true;
+    // Định dạng 2 gạch đầu dòng do AI phân hóa sinh ra (Tiếng Việt & Tiếng Anh)
+    if (/^[-*•+–—]?\s*(?:năng\s*lực\s*đặc\s*thù|specific\s*competences?)\s*:/i.test(l)) return true;
+    if (/^[-*•+–—]?\s*(?:phẩm\s*chất[,\s]+năng\s*lực\s*chung|general\s*competences?\s*(?:&|and)?\s*qualit(?:y|ies)?)\s*:/i.test(l)) return true;
 
     return false;
   },
@@ -2746,7 +2772,7 @@ ${sampleJson}`;
         var filteredSubLines = [];
         for (var i = 0; i < subLines.length; i++) {
           var sl = subLines[i].trim();
-          if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(sl)) {
+          if (/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students|\(sen\)))/i.test(sl)) {
             inDisSection = true;
             continue;
           }
@@ -2757,7 +2783,7 @@ ${sampleJson}`;
             }
             continue;
           }
-          if (/học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập|^\*\s*(?:học\s*sinh|dạng)\s*\d+/i.test(sl)) {
+          if (/học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|giáo\s*dục\s*hòa\s*nhập|^\*\s*(?:học\s*sinh|dạng|type|student)\s*\d+|\bSEN\b|\binclusive\s+students?/i.test(sl)) {
             continue;
           }
           filteredSubLines.push(subLines[i]);
@@ -2796,8 +2822,9 @@ ${sampleJson}`;
       disabilityLine = this.ensureDisabilityYccdFull(disabilityLine, lesson, disabilityConfig);
       var cleanLine = disabilityLine.replace(/[;\s]+$/, '').trim();
       if (!cleanLine.endsWith('.')) cleanLine += '.';
-      if (!/^5\.\s*điều\s*chỉnh/i.test(cleanLine)) {
-        cleanLine = '5. Điều chỉnh đối với học sinh hòa nhập:\n' + cleanLine;
+      if (!/^5\.\s*(?:điều\s*chỉnh|adjustment)/i.test(cleanLine)) {
+        var isEn = this.isEnglishLesson(lesson, (disabilityConfig && disabilityConfig.subjectKey) || '');
+        cleanLine = (isEn ? '5. Adjustments for inclusive students (SEN):\n' : '5. Điều chỉnh đối với học sinh hòa nhập:\n') + cleanLine;
       }
       lesson.yccd.push(cleanLine);
     }
@@ -5718,6 +5745,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         }
       }
 
+      if (meta) {
+        if (!les.subjectKey && meta.subjectId) les.subjectKey = meta.subjectId;
+        if (!les.subjectKey && meta.subjectKey) les.subjectKey = meta.subjectKey;
+        if (!les.subjectKey && meta.subjectName && (meta.subjectName.toLowerCase().includes('tiếng anh') || meta.subjectName.toLowerCase().includes('english'))) les.subjectKey = 'tieng_anh';
+        if (!les.subjectName && meta.subjectName) les.subjectName = meta.subjectName;
+      }
+
       IntegrationService.healLeakedYccd(les);
 
       if (disSupport && disSupport.enabled) {
@@ -5775,13 +5809,15 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           return '';
         }
 
-        var isSingleLineDieuChinhHeader = !cleanLine.includes('\n') && /^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)[:.\s]*$/i.test(cleanLine);
+        var isEnSubject = IntegrationService.isEnglishLesson(les, meta && (meta.subjectKey || meta.subjectId || meta.subjectName)) || /unit\s+\d+|starter\b/i.test(cleanLine || '');
+        var isSingleLineDieuChinhHeader = !cleanLine.includes('\n') && /^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students|\(sen\)))[:.\s]*$/i.test(cleanLine);
         if (isSingleLineDieuChinhHeader) {
           inDisabilitySection = true;
           inTichHopSection = false;
           if (!hasRenderedDisabilityHeader) {
             hasRenderedDisabilityHeader = true;
-            return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">5. Điều chỉnh đối với học sinh hòa nhập:</span></p>';
+            var senHeaderText = isEnSubject ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
+            return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + senHeaderText + '</span></p>';
           }
           return '';
         }
@@ -5818,24 +5854,28 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
             .replace(/^\[Tích hợp\]\s*/i, '')
             .replace(/\(Tích hợp\)/gi, '')
-            .replace(/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)\s*[:.-]?\s*/gi, '')
+            .replace(/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students|\(sen\)))\s*[:.-]?\s*/gi, '')
             .trim();
 
           var parts = displayLine.split(/\r?\n|<br\s*\/?>/i).map(function(p) { return p.trim(); }).filter(Boolean);
           var htmlLines = parts.map(function(pLine) {
-            if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(pLine)) return '';
-            // Chuẩn hóa tiêu đề học sinh khuyết tật sang định dạng Dạng 1, Dạng 2 theo chuẩn
+            if (/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|adjustments?\s*for)/i.test(pLine)) return '';
+            // Chuẩn hóa tiêu đề học sinh khuyết tật sang định dạng Dạng 1, Dạng 2 hoặc Type 1, Type 2
             pLine = pLine.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
               return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
             });
-            var isStudentSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh|dạng\s*\d+)/i.test(pLine);
+            var isStudentSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh|dạng\s*\d+|type\s*\d+|student\s*\d+)/i.test(pLine);
             if (isStudentSubHeader) {
               return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000; font-weight: bold;">' + pLine + '</span></p>';
             }
             if (/^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:/i.test(pLine)) {
               pLine = pLine.replace(/^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:\s*/i, '- <b>Năng lực đặc thù:</b> ');
+            } else if (/^[-*•+–—]?\s*specific\s*competences?\s*:/i.test(pLine)) {
+              pLine = pLine.replace(/^[-*•+–—]?\s*specific\s*competences?\s*:\s*/i, '- <b>Specific competences:</b> ');
             } else if (/^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(pLine)) {
               pLine = pLine.replace(/^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:\s*/i, '- <b>Phẩm chất, năng lực chung:</b> ');
+            } else if (/^[-*•+–—]?\s*general\s*competences?\s*(?:&|and)?\s*qualit(?:y|ies)?\s*:/i.test(pLine)) {
+              pLine = pLine.replace(/^[-*•+–—]?\s*general\s*competences?\s*(?:&|and)?\s*qualit(?:y|ies)?\s*:\s*/i, '- <b>General competences & Qualities:</b> ');
             } else if (!pLine.startsWith('-') && !pLine.startsWith('+') && !pLine.startsWith('*')) {
               pLine = '- ' + pLine;
             }
@@ -5844,7 +5884,8 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
           var headerHtml = '';
           if (!hasRenderedDisabilityHeader) {
-            headerHtml = '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">5. Điều chỉnh đối với học sinh hòa nhập:</span></p>';
+            var senHeaderText = isEnSubject ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
+            headerHtml = '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + senHeaderText + '</span></p>';
             hasRenderedDisabilityHeader = true;
           }
 
