@@ -6048,8 +6048,22 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   var meta = dataParts[0] || '';
                   rawB64 = dataParts[1] || '';
                   var mMatch = meta.match(/data:([^;]+)/);
-                  if (mMatch) mimeType = mMatch[1];
-                } else {
+                } else if (typeof require === 'function') {
+                  try {
+                    var _fs = require('fs');
+                    var _cleanUrl = targetUrl.split('?')[0].split('#')[0];
+                    if (_fs.existsSync(_cleanUrl)) {
+                      var fileBuf = _fs.readFileSync(_cleanUrl);
+                      rawB64 = fileBuf.toString('base64');
+                      var ext = _cleanUrl.split('.').pop().toLowerCase();
+                      if (ext === 'jpg' || ext === 'jpeg') mimeType = 'image/jpeg';
+                      else if (ext === 'png') mimeType = 'image/png';
+                      else if (ext === 'gif') mimeType = 'image/gif';
+                      else if (ext === 'webp') mimeType = 'image/webp';
+                    }
+                  } catch(e) {}
+                }
+                if (!rawB64) {
                   if (typeof window !== 'undefined' && typeof window.fetch === 'function') {
                     try {
                       var response = await fetch(targetUrl);
