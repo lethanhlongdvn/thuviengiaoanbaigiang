@@ -2773,7 +2773,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
     // Gọi Gemini API model mới nhất (Tự động chuyển đổi thông minh, ưu tiên thế hệ mới hạn mức cao)
     var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
     var activeKey = (apiKey && apiKey.trim()) || defaultKey;
-    var models = ["gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-3.5-flash"];
+    var models = ["gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
@@ -2857,7 +2857,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
     var opt = options || {};
     var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
     var activeKey = (apiKey && apiKey.trim()) || defaultKey;
-    var models = ["gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-3.5-flash"];
+    var models = ["gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {
