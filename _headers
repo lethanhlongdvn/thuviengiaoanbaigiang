@@ -21,3 +21,10 @@
 # JSON data files
 /*.json
   Cache-Control: public, max-age=3600
+
+# Export Optimized Images
+/assets/khbd_images_export/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/assets/khbd_images_export/manifest.json
+  Cache-Control: public, max-age=3600, must-revalidate

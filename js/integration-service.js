@@ -815,14 +815,18 @@ var IntegrationService = {
     var g = parseInt(grade) || 5;
     var sId = (subjectId || 'toan').toLowerCase();
     
-    var khbdDataObj = (typeof window !== 'undefined' && window.KHBD_DATA) ? window.KHBD_DATA : (typeof KHBD_DATA !== 'undefined' ? KHBD_DATA : null);
-    if (khbdDataObj && khbdDataObj.isLoaded && khbdDataObj.isLoaded(g, sId)) {
-      return true;
-    }
+    var checkLoaded = function() {
+      var k = (typeof window !== 'undefined' && window.KHBD_DATA) ? window.KHBD_DATA : (typeof KHBD_DATA !== 'undefined' ? KHBD_DATA : null);
+      return k && k.isLoaded && k.isLoaded(g, sId);
+    };
+    if (checkLoaded()) return true;
     
     if (typeof document === 'undefined') return true;
 
+    var version = (typeof window !== 'undefined' && window.appVersion) ? window.appVersion : '1.0.0';
     var filePath = 'js/khbd_sohoa/lop' + g + '/lop' + g + '_' + sId + '.js';
+    var fullPath = filePath + '?v=' + version;
+    
     if (!this._loadingPromises) this._loadingPromises = {};
     if (this._loadingPromises[filePath]) {
       return this._loadingPromises[filePath];
@@ -834,26 +838,41 @@ var IntegrationService = {
       function finish(val) {
         if (done) return;
         done = true;
-        clearTimeout(timer);
         delete self._loadingPromises[filePath];
         resolve(val !== false);
       }
 
-      var timer = setTimeout(function() {
-        finish(true);
-      }, 3000);
+      var pollCount = 0;
+      var timer = setInterval(function() {
+        if (checkLoaded()) {
+           clearInterval(timer);
+           finish(true);
+        } else {
+           pollCount++;
+           if (pollCount > 100) { // timeout 10s
+              clearInterval(timer);
+              finish(false);
+           }
+        }
+      }, 100);
 
-      var existing = document.querySelector('script[src="' + filePath + '"]');
+      var existing = document.querySelector('script[src="' + filePath + '"]') || document.querySelector('script[src="' + fullPath + '"]');
       if (existing) {
-        finish(true);
-        return;
+        return; // Đợi setInterval kiểm tra
       }
 
+      var link = document.createElement('link');
+      link.rel = 'preload';
+      link.as = 'script';
+      link.href = fullPath;
+      document.head.appendChild(link);
+
       var s = document.createElement('script');
-      s.src = filePath;
-      s.onload = function() { finish(true); };
+      s.src = fullPath;
+      s.onload = function() { clearInterval(timer); finish(true); };
       s.onerror = function(err) {
-        console.warn('Không thể nạp tệp KHBD: ' + filePath, err);
+        console.warn('Không thể nạp tệp KHBD: ' + fullPath, err);
+        clearInterval(timer);
         finish(false);
       };
       document.head.appendChild(s);
@@ -6711,9 +6730,145 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   },
 
   /**
+   * Đọc 1 ảnh (data URI / file cục bộ Node / URL trình duyệt) -> { b64, mime }. Không ném lỗi: thất bại trả b64 = null.
+   */
+  _readImageAsBase64: async function(url) {
+    var mimeType = 'image/png';
+    var rawB64 = null;
+    try {
+
+        if (url.startsWith('data:image/')) {
+          var dataParts = url.split(',');
+          var meta = dataParts[0] || '';
+          rawB64 = dataParts[1] || '';
+          var mMatch = meta.match(/data:([^;]+)/);
+        } else if (typeof require === 'function') {
+          try {
+            var _fs = require('fs');
+            var _cleanUrl = url.split('?')[0].split('#')[0];
+            if (_fs.existsSync(_cleanUrl)) {
+              var fileBuf = _fs.readFileSync(_cleanUrl);
+              rawB64 = fileBuf.toString('base64');
+              var ext = _cleanUrl.split('.').pop().toLowerCase();
+              if (ext === 'jpg' || ext === 'jpeg') mimeType = 'image/jpeg';
+              else if (ext === 'png') mimeType = 'image/png';
+              else if (ext === 'gif') mimeType = 'image/gif';
+              else if (ext === 'webp') mimeType = 'image/webp';
+            }
+          } catch(e) {}
+        }
+        if (!rawB64) {
+          if (typeof window !== 'undefined' && typeof window.fetch === 'function') {
+            try {
+              var response = await fetch(url);
+              if (response.ok) {
+                var blob = await response.blob();
+                if (blob.type) mimeType = blob.type;
+                var dataUrl = await new Promise(function(resolve) {
+                  var reader = new FileReader();
+                  reader.onloadend = function() { resolve(reader.result); };
+                  reader.readAsDataURL(blob);
+                });
+                if (dataUrl && dataUrl.indexOf(',') !== -1) {
+                  rawB64 = dataUrl.split(',')[1];
+                }
+              }
+            } catch(fetchCatch) {}
+
+            if (!rawB64 && typeof document !== 'undefined') {
+              try {
+                var canvasDataUrl = await new Promise(function(resolve) {
+                  var img = new Image();
+                  img.crossOrigin = 'Anonymous';
+                  img.onload = function() {
+                    try {
+                      var cvs = document.createElement('canvas');
+                      cvs.width = img.naturalWidth || img.width;
+                      cvs.height = img.naturalHeight || img.height;
+                      var ctx = cvs.getContext('2d');
+                      ctx.drawImage(img, 0, 0);
+                      resolve(cvs.toDataURL());
+                    } catch(err) {
+                      resolve(null);
+                    }
+                  };
+                  img.onerror = function() { resolve(null); };
+                  img.src = url;
+                });
+                if (canvasDataUrl && canvasDataUrl.indexOf(',') !== -1) {
+                  rawB64 = canvasDataUrl.split(',')[1];
+                  var cMatch = canvasDataUrl.match(/data:([^;]+)/);
+                  if (cMatch) mimeType = cMatch[1];
+                }
+              } catch(cvsCatch) {}
+            }
+          } else if (typeof require !== 'undefined') {
+            var fs = require('fs');
+            var path = require('path');
+            var localPath = path.resolve(url);
+            if (fs.existsSync(localPath)) {
+              var ext = url.split('.').pop() || 'png';
+              mimeType = (ext === 'jpg' || ext === 'jpeg') ? 'image/jpeg' : ('image/' + ext);
+              var buf = fs.readFileSync(localPath);
+              rawB64 = buf.toString('base64');
+            }
+          }
+        }
+    } catch (e) {}
+    return { b64: rawB64, mime: mimeType };
+  },
+
+  _exportImageMap: null,
+  _exportImageMapPromise: null,
+
+  /**
+   * Nạp manifest bộ ảnh tối ưu cho xuất Word (assets/khbd_images_export/manifest.json).
+   * Thiếu manifest -> trả {} và hệ thống tự dùng ảnh gốc (an toàn, không ảnh hưởng tính đúng).
+   */
+  loadExportImageMap: function() {
+    if (this._exportImageMap) return Promise.resolve(this._exportImageMap);
+    if (this._exportImageMapPromise) return this._exportImageMapPromise;
+    var self = this;
+    this._exportImageMapPromise = (async function() {
+      var map = {};
+      try {
+        if (typeof window !== 'undefined' && typeof window.fetch === 'function') {
+          var resp = await fetch('assets/khbd_images_export/manifest.json', { cache: 'no-cache' });
+          if (resp.ok) map = await resp.json();
+        } else if (typeof require === 'function') {
+          var _fs = require('fs');
+          if (_fs.existsSync('assets/khbd_images_export/manifest.json')) {
+            map = JSON.parse(_fs.readFileSync('assets/khbd_images_export/manifest.json', 'utf8'));
+          }
+        }
+      } catch (e) { map = {}; }
+      self._exportImageMap = map || {};
+      self._exportImageMapPromise = null;
+      return self._exportImageMap;
+    })();
+    return this._exportImageMapPromise;
+  },
+
+  /**
+   * Đổi đường dẫn ảnh gốc (assets/khbd_images/...) sang ảnh tối ưu nếu có trong manifest; ngược lại giữ nguyên.
+   */
+  resolveExportImageUrl: function(url) {
+    var map = this._exportImageMap;
+    if (!map || !url || url.indexOf('data:') === 0) return url;
+    var clean = url.split('?')[0].split('#')[0];
+    var idx = clean.indexOf('assets/khbd_images/');
+    if (idx < 0) return url;
+    clean = clean.substring(idx);
+    var hit = map[clean];
+    if (!hit) { try { hit = map[decodeURI(clean)]; } catch (e) {} }
+    return hit || url;
+  },
+
+  /**
    * Tạo tệp .docx chuẩn OpenXML (dùng JSZip & altChunk có đầy đủ styles.xml và fontTable.xml chuẩn Times New Roman 13pt)
    */
   createDocxBlobFromHtml: async function(docHtml) {
+    await this.loadExportImageMap();
     var jszipObj = (typeof JSZip !== 'undefined') ? JSZip : ((typeof window !== 'undefined' && window.JSZip) ? window.JSZip : null);
     if (jszipObj) {
       try {
@@ -6736,86 +6891,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             for (var u = 0; u < urlsToFetch.length; u++) {
               var targetUrl = urlsToFetch[u];
               try {
-                var mimeType = 'image/png';
-                var rawB64 = null;
-
-                if (targetUrl.startsWith('data:image/')) {
-                  var dataParts = targetUrl.split(',');
-                  var meta = dataParts[0] || '';
-                  rawB64 = dataParts[1] || '';
-                  var mMatch = meta.match(/data:([^;]+)/);
-                } else if (typeof require === 'function') {
-                  try {
-                    var _fs = require('fs');
-                    var _cleanUrl = targetUrl.split('?')[0].split('#')[0];
-                    if (_fs.existsSync(_cleanUrl)) {
-                      var fileBuf = _fs.readFileSync(_cleanUrl);
-                      rawB64 = fileBuf.toString('base64');
-                      var ext = _cleanUrl.split('.').pop().toLowerCase();
-                      if (ext === 'jpg' || ext === 'jpeg') mimeType = 'image/jpeg';
-                      else if (ext === 'png') mimeType = 'image/png';
-                      else if (ext === 'gif') mimeType = 'image/gif';
-                      else if (ext === 'webp') mimeType = 'image/webp';
-                    }
-                  } catch(e) {}
+                var loadUrl = this.resolveExportImageUrl(targetUrl);
+                var loaded = await this._readImageAsBase64(loadUrl);
+                if (!loaded.b64 && loadUrl !== targetUrl) {
+                  loaded = await this._readImageAsBase64(targetUrl); // ảnh tối ưu lỗi/404 -> quay về ảnh gốc
                 }
-                if (!rawB64) {
-                  if (typeof window !== 'undefined' && typeof window.fetch === 'function') {
-                    try {
-                      var response = await fetch(targetUrl);
-                      if (response.ok) {
-                        var blob = await response.blob();
-                        if (blob.type) mimeType = blob.type;
-                        var dataUrl = await new Promise(function(resolve) {
-                          var reader = new FileReader();
-                          reader.onloadend = function() { resolve(reader.result); };
-                          reader.readAsDataURL(blob);
-                        });
-                        if (dataUrl && dataUrl.indexOf(',') !== -1) {
-                          rawB64 = dataUrl.split(',')[1];
-                        }
-                      }
-                    } catch(fetchCatch) {}
-
-                    if (!rawB64 && typeof document !== 'undefined') {
-                      try {
-                        var canvasDataUrl = await new Promise(function(resolve) {
-                          var img = new Image();
-                          img.crossOrigin = 'Anonymous';
-                          img.onload = function() {
-                            try {
-                              var cvs = document.createElement('canvas');
-                              cvs.width = img.naturalWidth || img.width;
-                              cvs.height = img.naturalHeight || img.height;
-                              var ctx = cvs.getContext('2d');
-                              ctx.drawImage(img, 0, 0);
-                              resolve(cvs.toDataURL());
-                            } catch(err) {
-                              resolve(null);
-                            }
-                          };
-                          img.onerror = function() { resolve(null); };
-                          img.src = targetUrl;
-                        });
-                        if (canvasDataUrl && canvasDataUrl.indexOf(',') !== -1) {
-                          rawB64 = canvasDataUrl.split(',')[1];
-                          var cMatch = canvasDataUrl.match(/data:([^;]+)/);
-                          if (cMatch) mimeType = cMatch[1];
-                        }
-                      } catch(cvsCatch) {}
-                    }
-                  } else if (typeof require !== 'undefined') {
-                    var fs = require('fs');
-                    var path = require('path');
-                    var localPath = path.resolve(targetUrl);
-                    if (fs.existsSync(localPath)) {
-                      var ext = targetUrl.split('.').pop() || 'png';
-                      mimeType = (ext === 'jpg' || ext === 'jpeg') ? 'image/jpeg' : ('image/' + ext);
-                      var buf = fs.readFileSync(localPath);
-                      rawB64 = buf.toString('base64');
-                    }
-                  }
-                }
+                var mimeType = loaded.mime;
+                var rawB64 = loaded.b64;
 
                 if (rawB64) {
                   var extFromMime = mimeType.split('/')[1] || 'png';
@@ -7018,7 +7100,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           type: genType,
           mimeType: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
           compression: 'DEFLATE',
-          compressionOptions: { level: 6 }
+          compressionOptions: { level: 1 }
         });
 
         if (genType === 'uint8array' && typeof Blob !== 'undefined' && typeof window !== 'undefined' && window.showSaveFilePicker) {
