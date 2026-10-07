@@ -33,7 +33,7 @@
           "- Show their knowledge about choosing healthy food.",
           "- Be willing to help friends.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc từ bằng giọng nói. GV cho HS nghe giọng đọc mẫu của các từ pasta, pizza, popcorn và nhận biết từ tương ứng với hình ảnh. Giáo dục sức khỏe: Nhận biết một số món ăn thường có trong bữa tiệc; hình thành thói quen ăn uống hợp lý, không lãng phí thức ăn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -55,7 +55,7 @@
               "1. WARM-UP (5 minutes)"
             ],
             [
-              "* Procedure:\n- To create a friendly and lively atmosphere in the classroom by greeting and introducing themselves.\n- To ask and answer questions about food items (in Vietnamese) correctly.\n- Greeting/ Ask and answer.\n- Pupils can greet and introduce themselves.\n- Pupils can ask and answer questions about food items (in Vietnamese) correctly.\n- Write “Hello, I’m _____.” on the board. Say “Hello, I’m _____.” Walk around the class, greet pupils. Encourage them to answer “Hello, I’m _____.”. \n- Show pupils some pictures/ slides of popular food items (cake, pizza, noodles, chicken, chips, …). \n- Ask pupils some questions about \nfood items in Vietnamese.\nE.g. \n1. Các em đã từng ăn món mì/ gà/ khoai tây chiên,… chưa?\n2. Các em có thích món mì/ gà/ khoai tây chiên,… không?\n3. Các em thường ăn món gì vào buổi tiệc sinh nhật?\n- Performance products: Pupils’ answers and interactions\n- Assessment tools: Observation; Questions & Answers\n\n* Key content/materials: - Speech bubble: \nHello, I’m _____.\n- Pictures/ slides of popular food items (cake, pizza, noodles, chicken, chips, …).",
+              "* Procedure:\n- To create a friendly and lively atmosphere in the classroom by greeting and introducing themselves.\n- To ask and answer questions about food items (in Vietnamese) correctly.\n- Greeting/ Ask and answer.\n- Pupils can greet and introduce themselves.\n- Pupils can ask and answer questions about food items (in Vietnamese) correctly.\n- Write “Hello, I’m _____.” on the board. Say “Hello, I’m _____.” Walk around the class, greet pupils. Encourage them to answer “Hello, I’m _____.”. \n- Show pupils some pictures/ slides of popular food items (cake, pizza, noodles, chicken, chips, …). \n- Ask pupils some questions about food items.\nE.g. \n1. Have you ever eaten noodles/ chicken/ chips,...?\n2. Do you like noodles/ chicken/ chips,...?\n3. What do you usually eat at a birthday party?\n- Performance products: Pupils’ answers and interactions\n- Assessment tools: Observation; Questions & Answers\n\n* Key content/materials: - Speech bubble: \nHello, I’m _____.\n- Pictures/ slides of popular food items (cake, pizza, noodles, chicken, chips, …).",
               "- Greet and introduce themselves. \n\n\n\n- Look at some pictures/ slides of popular food items.\n\n- Answer the teacher’s questions about food items."
             ],
             [
@@ -90,7 +90,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc từ bằng giọng nói. GV cho HS nghe giọng đọc mẫu của các từ pasta, pizza, popcorn và nhận biết từ tương ứng với hình ảnh. Giáo dục sức khỏe: Nhận biết một số món ăn thường có trong bữa tiệc; hình thành thói quen ăn uống hợp lý, không lãng phí thức ăn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -117,7 +117,7 @@
           "- Show their knowledge about choosing healthy food.",
           "- Be willing to help friends.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe âm thanh, quan sát hình pasta / pizza / popcorn và chọn hoặc tích vào hình phù hợp. NLS 4.2.CB1a: Bước đầu nhận biết thông tin cá nhân cần được bảo vệ khi sử dụng thiết bị số. GV nhắc HS không tự ý đăng ảnh, ngày sinh, địa điểm tổ chức sinh nhật hoặc thông tin gia đình lên mạng. Đạo đức: Biết chia sẻ đồ ăn, chờ đến lượt và cư xử lịch sự trong bữa tiệc sinh nhật."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -174,7 +174,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe âm thanh, quan sát hình pasta / pizza / popcorn và chọn hoặc tích vào hình phù hợp. NLS 4.2.CB1a: Bước đầu nhận biết thông tin cá nhân cần được bảo vệ khi sử dụng thiết bị số. GV nhắc HS không tự ý đăng ảnh, ngày sinh, địa điểm tổ chức sinh nhật hoặc thông tin gia đình lên mạng. Đạo đức: Biết chia sẻ đồ ăn, chờ đến lượt và cư xử lịch sự trong bữa tiệc sinh nhật.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -206,7 +206,7 @@
           "- Show their knowledge about choosing healthy food.",
           "- Willing to help friends.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và phản hồi phát âm những mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS nói mẫu “The popcorn is yummy.” / “The pizza is yummy.” / “The pasta is yummy.” và nghe công cụ hỗ trợ phát âm đọc lại câu mẫu. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có sự hướng dẫn của GV. HS nghe bài hát, quan sát hình và cùng lớp luyện mẫu câu. Giáo dục văn hóa – giao tiếp: Biết sử dụng lời nói tích cực khi nhận xét món ăn và thể hiện thái độ vui vẻ, lịch sự trong các buổi sinh nhật."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -263,7 +263,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và phản hồi phát âm những mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS nói mẫu “The popcorn is yummy.” / “The pizza is yummy.” / “The pasta is yummy.” và nghe công cụ hỗ trợ phát âm đọc lại câu mẫu. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có sự hướng dẫn của GV. HS nghe bài hát, quan sát hình và cùng lớp luyện mẫu câu. Giáo dục văn hóa – giao tiếp: Biết sử dụng lời nói tích cực khi nhận xét món ăn và thể hiện thái độ vui vẻ, lịch sự trong các buổi sinh nhật.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -287,7 +287,7 @@
           "- Show their love and interest in outdoor activities.",
           "- Participate in common tasks actively.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh. GV cho HS nghe giọng đọc mẫu của các từ kite, bike, kitten; HS nghe, chỉ vào tranh và nhắc lại. ATGT: Giáo dục HS đội mũ bảo hiểm, đi xe đạp ở khu vực an toàn và có người lớn hướng dẫn. Giáo dục yêu thương động vật: Biết chơi nhẹ nhàng, chăm sóc và không trêu chọc vật nuôi như mèo con."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -344,7 +344,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh. GV cho HS nghe giọng đọc mẫu của các từ kite, bike, kitten; HS nghe, chỉ vào tranh và nhắc lại. ATGT: Giáo dục HS đội mũ bảo hiểm, đi xe đạp ở khu vực an toàn và có người lớn hướng dẫn. Giáo dục yêu thương động vật: Biết chơi nhẹ nhàng, chăm sóc và không trêu chọc vật nuôi như mèo con.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -376,7 +376,7 @@
           "- Show their love and interest in outdoor activities.",
           "- Participate in common tasks actively.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe câu, quan sát hai hình và chọn/khoanh hình phù hợp. AI 2.A2: Nhận biết công cụ AI có thể tạo hoặc đọc câu mẫu từ hình ảnh. GV cho HS so sánh câu AI đọc với tranh để xác định nội dung đúng. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: ngồi đúng tư thế, giữ khoảng cách phù hợp với màn hình và làm theo hướng dẫn của GV."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -433,7 +433,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe câu, quan sát hai hình và chọn/khoanh hình phù hợp. AI 2.A2: Nhận biết công cụ AI có thể tạo hoặc đọc câu mẫu từ hình ảnh. GV cho HS so sánh câu AI đọc với tranh để xác định nội dung đúng. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: ngồi đúng tư thế, giữ khoảng cách phù hợp với màn hình và làm theo hướng dẫn của GV.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -458,7 +458,7 @@
           "- Show their love and interest in outdoor activities.",
           "- Participate in common tasks actively.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và phát âm mẫu câu hỏi – đáp đơn giản. Dưới sự hướng dẫn của GV, HS nghe mẫu Is he/she …? – Yes, he/she is. / No, he/she isn’t. rồi luyện nói theo tranh. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có sự hướng dẫn của GV: nghe câu hỏi, chọn tranh và trả lời theo lượt. Giáo dục kỹ năng sống: Khuyến khích vận động ngoài trời an toàn, biết chia sẻ đồ chơi và chờ đến lượt khi chơi cùng bạn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -508,7 +508,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và phát âm mẫu câu hỏi – đáp đơn giản. Dưới sự hướng dẫn của GV, HS nghe mẫu Is he/she …? – Yes, he/she is. / No, he/she isn’t. rồi luyện nói theo tranh. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có sự hướng dẫn của GV: nghe câu hỏi, chọn tranh và trả lời theo lượt. Giáo dục kỹ năng sống: Khuyến khích vận động ngoài trời an toàn, biết chia sẻ đồ chơi và chờ đến lượt khi chơi cùng bạn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -522,7 +522,7 @@
     "sourceFile": "E2_WEEK_4.docx",
     "lessons": [
       {
-        "lessonTitle": "Fun time 1 – Lesson 1 - Fun time – Part 1: Trò chơi, nghe – nói và ôn từ/âm đã học. (Period 7)",
+        "lessonTitle": "Fun time 1 – Lesson 1 - Fun time – Part 1: Games, listening – speaking and reviewing learned words and sounds. (Period 7)",
         "topic": "Fun time 1 – Lesson 1",
         "period": "Period 7",
         "yccd": [
@@ -537,7 +537,7 @@
           "- Study hard.",
           "- Play the games fairly.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: GV có thể dùng giọng đọc/hình ảnh AI đã kiểm tra trước để tạo một thử thách vui; HS so sánh với tranh, từ và mẫu câu đã học, không coi đầu ra AI là đáp án mặc định. NLS 2.4.CB1a: Tham gia trò chơi/học liệu số đơn giản theo nhóm, biết chờ lượt, chọn đáp án và phản hồi lịch sự. Giáo dục phẩm chất: Hợp tác, trung thực khi chơi và tôn trọng bạn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -586,7 +586,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: GV có thể dùng giọng đọc/hình ảnh AI đã kiểm tra trước để tạo một thử thách vui; HS so sánh với tranh, từ và mẫu câu đã học, không coi đầu ra AI là đáp án mặc định. NLS 2.4.CB1a: Tham gia trò chơi/học liệu số đơn giản theo nhóm, biết chờ lượt, chọn đáp án và phản hồi lịch sự. Giáo dục phẩm chất: Hợp tác, trung thực khi chơi và tôn trọng bạn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -594,7 +594,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Fun time 1 – Lesson 2 - Fun time – Part 2: Củng cố từ vựng, âm/chữ và mẫu câu qua hoạt động vui học. (Period 8)",
+        "lessonTitle": "Fun time 1 – Lesson 2 - Fun time – Part 2: Consolidating vocabulary, phonics and sentence patterns through fun learning activities. (Period 8)",
         "topic": "Fun time 1 – Lesson 2",
         "period": "Period 8",
         "yccd": [
@@ -610,7 +610,7 @@
           "- Study hard",
           "- Play the games fairly.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.2.CB1a: Quan sát, nghe và lựa chọn thông tin đơn giản trên học liệu số do GV kiểm soát; biết kiểm tra lại khi đáp án chưa khớp tranh/audio. AI 2.A1: Nhận biết AI có thể tạo giọng nói hoặc gợi ý câu trả lời nhưng đôi khi sai; HS cần hỏi GV/đối chiếu SGK trước khi sửa bài. Giáo dục an toàn số: Không cần tài khoản cá nhân, không nhập thông tin riêng tư."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -659,7 +659,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.2.CB1a: Quan sát, nghe và lựa chọn thông tin đơn giản trên học liệu số do GV kiểm soát; biết kiểm tra lại khi đáp án chưa khớp tranh/audio. AI 2.A1: Nhận biết AI có thể tạo giọng nói hoặc gợi ý câu trả lời nhưng đôi khi sai; HS cần hỏi GV/đối chiếu SGK trước khi sửa bài. Giáo dục an toàn số: Không cần tài khoản cá nhân, không nhập thông tin riêng tư.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -689,7 +689,7 @@
           "- Show their love for the beauty of nature and responsibility to protect it.",
           "- Study hard.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe và nhận diện các từ kite, bike, kitten; HS chỉ vào hình tương ứng và luyện âm /k/. Giáo dục an toàn: Nhắc HS đội mũ bảo hiểm và chơi/đi xe đạp ở khu vực an toàn, có người lớn hướng dẫn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -746,7 +746,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe và nhận diện các từ kite, bike, kitten; HS chỉ vào hình tương ứng và luyện âm /k/. Giáo dục an toàn: Nhắc HS đội mũ bảo hiểm và chơi/đi xe đạp ở khu vực an toàn, có người lớn hướng dẫn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -772,7 +772,7 @@
           "- Show their love for the beauty of nature and responsibility to protect it.",
           "- Study hard.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe, quan sát hình và chọn/circle đáp án đúng trong các cặp kite – bike và kitten – dog. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: ngồi đúng tư thế, giữ khoảng cách phù hợp với màn hình và chỉ thao tác khi GV hướng dẫn. Giáo dục yêu thương động vật: Biết chơi nhẹ nhàng với vật nuôi, không trêu chọc hoặc làm đau con vật."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -829,7 +829,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe, quan sát hình và chọn/circle đáp án đúng trong các cặp kite – bike và kitten – dog. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: ngồi đúng tư thế, giữ khoảng cách phù hợp với màn hình và chỉ thao tác khi GV hướng dẫn. Giáo dục yêu thương động vật: Biết chơi nhẹ nhàng với vật nuôi, không trêu chọc hoặc làm đau con vật.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -860,7 +860,7 @@
           "- Show their love for the beauty of nature and responsibility to protect it.",
           "- Study hard.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và phản hồi phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS nghe mẫu và luyện nói: “Let’s look at the sea!” / “Let’s look at the sail!” / “Let’s look at the sand!”. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe mẫu, quan sát tranh và lựa chọn từ phù hợp để hoàn thành câu “Let’s ____!”. Giáo dục môi trường: Hình thành ý thức giữ sạch bãi biển, không xả rác và biết bảo vệ cảnh quan thiên nhiên."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -917,7 +917,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và phản hồi phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS nghe mẫu và luyện nói: “Let’s look at the sea!” / “Let’s look at the sail!” / “Let’s look at the sand!”. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe mẫu, quan sát tranh và lựa chọn từ phù hợp để hoàn thành câu “Let’s ____!”. Giáo dục môi trường: Hình thành ý thức giữ sạch bãi biển, không xả rác và biết bảo vệ cảnh quan thiên nhiên.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -941,7 +941,7 @@
           "- Show their love for the beauty of nature and responsibility to protect it.",
           "- Study hard.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe và nhận diện các từ road, river, rainbow; HS chỉ vào tranh đúng và luyện âm /r/. ATGT: Nhận biết đường giao thông ở nông thôn; nhắc HS đi đúng phần đường, quan sát khi qua đường và đội mũ bảo hiểm khi ngồi trên xe máy/xe đạp điện."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -998,7 +998,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe và nhận diện các từ road, river, rainbow; HS chỉ vào tranh đúng và luyện âm /r/. ATGT: Nhận biết đường giao thông ở nông thôn; nhắc HS đi đúng phần đường, quan sát khi qua đường và đội mũ bảo hiểm khi ngồi trên xe máy/xe đạp điện.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1030,7 +1030,7 @@
           "- Show their love for the beauty of nature and the responsibility to protect it.",
           "- Study hard.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe câu có từ khóa road / river / rainbow rồi chọn hoặc khoanh hình tương ứng. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: chỉ chạm/chọn theo hướng dẫn, không tự mở nội dung lạ và giữ khoảng cách phù hợp với màn hình. Bảo vệ môi trường: Có ý thức giữ sạch sông, đường làng; không vứt rác xuống sông hoặc nơi công cộng."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1087,7 +1087,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe câu có từ khóa road / river / rainbow rồi chọn hoặc khoanh hình tương ứng. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: chỉ chạm/chọn theo hướng dẫn, không tự mở nội dung lạ và giữ khoảng cách phù hợp với màn hình. Bảo vệ môi trường: Có ý thức giữ sạch sông, đường làng; không vứt rác xuống sông hoặc nơi công cộng.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1112,7 +1112,7 @@
           "- Show their love for the beauty of nature and the responsibility to protect it.",
           "- Study hard.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện hỏi – đáp: “What can you see?” – “I can see a rainbow/river/road.” GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe câu hỏi, quan sát tranh và lựa chọn câu trả lời phù hợp. GDĐP – Giáo dục môi trường: Nhận biết vẻ đẹp của cảnh quan nông thôn quê hương; biết giữ gìn đường làng, sông ngòi và cảnh quan xanh – sạch – đẹp."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1169,7 +1169,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện hỏi – đáp: “What can you see?” – “I can see a rainbow/river/road.” GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe câu hỏi, quan sát tranh và lựa chọn câu trả lời phù hợp. GDĐP – Giáo dục môi trường: Nhận biết vẻ đẹp của cảnh quan nông thôn quê hương; biết giữ gìn đường làng, sông ngòi và cảnh quan xanh – sạch – đẹp.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1183,7 +1183,7 @@
     "sourceFile": "E2_WEEK_8.docx",
     "lessons": [
       {
-        "lessonTitle": "Review 1 – Phil and Sue - Nghe/đọc câu chuyện Phil and Sue; ôn âm, từ và mẫu câu của các Unit trước đó. (Period 15)",
+        "lessonTitle": "Review 1 – Phil and Sue - Listening and reading Phil and Sue story; reviewing phonics, vocabulary and sentence patterns. (Period 15)",
         "topic": "Review 1 – Phil and Sue",
         "period": "Period 15",
         "yccd": [
@@ -1199,7 +1199,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.B1: Nhận biết một câu trả lời/hình minh hoạ kiểu AI có thể không khớp câu chuyện; HS kiểm tra bằng tranh và nội dung SGK. NLS 1.2.CB1a: Tìm thông tin đơn giản trong câu chuyện/học liệu số để xác nhận đáp án. Giáo dục phẩm chất: Trung thực khi nêu điều mình nghe/đọc được."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1249,7 +1249,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.B1: Nhận biết một câu trả lời/hình minh hoạ kiểu AI có thể không khớp câu chuyện; HS kiểm tra bằng tranh và nội dung SGK. NLS 1.2.CB1a: Tìm thông tin đơn giản trong câu chuyện/học liệu số để xác nhận đáp án. Giáo dục phẩm chất: Trung thực khi nêu điều mình nghe/đọc được.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1257,7 +1257,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Review 1 – Self-check – Part 1 - Tự kiểm tra: nghe – chọn/đánh dấu, đọc – nối/hoàn thành theo nội dung đã học. (Period 16)",
+        "lessonTitle": "Review 1 – Self-check – Part 1 - Self-check: listening – ticking, reading – matching and completing based on learned content. (Period 16)",
         "topic": "Review 1 – Self-check – Part 1",
         "period": "Period 16",
         "yccd": [
@@ -1275,7 +1275,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác nghe – chọn – kiểm tra đáp án trên học liệu số dưới sự hướng dẫn của GV. AI 2.A2: So sánh một gợi ý AI đơn giản với đáp án dựa trên tranh/audio và sửa nếu sai. Giáo dục tự học: Tự đánh dấu nội dung đã làm tốt và nội dung cần luyện thêm."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1332,7 +1332,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác nghe – chọn – kiểm tra đáp án trên học liệu số dưới sự hướng dẫn của GV. AI 2.A2: So sánh một gợi ý AI đơn giản với đáp án dựa trên tranh/audio và sửa nếu sai. Giáo dục tự học: Tự đánh dấu nội dung đã làm tốt và nội dung cần luyện thêm.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1346,7 +1346,7 @@
     "sourceFile": "Review 1.docx & Unit 5.docx",
     "lessons": [
       {
-        "lessonTitle": "Review 1 – Self-check – Part 2 - Tự kiểm tra: củng cố đọc – viết và nói ngắn; tự nhận biết nội dung cần luyện thêm. (Period 17)",
+        "lessonTitle": "Review 1 – Self-check – Part 2 - Self-check: consolidating reading – writing and short speaking; self-assessing areas for further practice. (Period 17)",
         "topic": "Review 1 – Self-check – Part 2",
         "period": "Period 17",
         "yccd": [
@@ -1364,7 +1364,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ NLS 5.2.CB1a: Lựa chọn công cụ đơn giản phù hợp để ôn tập (audio, thẻ số, trò chơi số do GV cung cấp). AI 2.B1: Không sao chép câu trả lời AI; HS tự làm trước rồi mới dùng ví dụ AI để kiểm tra dưới sự hướng dẫn của GV. Giáo dục trung thực: Tự hoàn thành phần Self-check."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1419,7 +1419,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 5.2.CB1a: Lựa chọn công cụ đơn giản phù hợp để ôn tập (audio, thẻ số, trò chơi số do GV cung cấp). AI 2.B1: Không sao chép câu trả lời AI; HS tự làm trước rồi mới dùng ví dụ AI để kiểm tra dưới sự hướng dẫn của GV. Giáo dục trung thực: Tự hoàn thành phần Self-check.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1443,7 +1443,7 @@
           "- Be aware of and responsible for the activities in their classroom.",
           "- Listen carefully to the teacher’s explanation.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe và nhận diện các từ question, square, quiz; HS chỉ vào tranh đúng và luyện âm đầu của chữ Q, q. Đạo đức - nề nếp học đường: Biết giơ tay khi muốn trả lời, lắng nghe cô giáo và bạn, chờ đến lượt trong các hoạt động ở lớp."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1500,7 +1500,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe và nhận diện các từ question, square, quiz; HS chỉ vào tranh đúng và luyện âm đầu của chữ Q, q. Đạo đức - nề nếp học đường: Biết giơ tay khi muốn trả lời, lắng nghe cô giáo và bạn, chờ đến lượt trong các hoạt động ở lớp.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1532,7 +1532,7 @@
           "- Be aware of and responsible for the activities in their classroom.",
           "- Listen carefully to the teacher’s explanation.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe câu có từ khóa square / question / quiz rồi chọn hoặc đánh dấu hình tương ứng. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: chỉ chạm/chọn theo hướng dẫn, không tự mở nội dung lạ và giữ khoảng cách phù hợp với màn hình. Bảo vệ sức khỏe: Ngồi đúng tư thế, giữ khoảng cách phù hợp khi nhìn màn hình/bảng và cho mắt nghỉ sau hoạt động số."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1589,7 +1589,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe câu có từ khóa square / question / quiz rồi chọn hoặc đánh dấu hình tương ứng. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: chỉ chạm/chọn theo hướng dẫn, không tự mở nội dung lạ và giữ khoảng cách phù hợp với màn hình. Bảo vệ sức khỏe: Ngồi đúng tư thế, giữ khoảng cách phù hợp khi nhìn màn hình/bảng và cho mắt nghỉ sau hoạt động số.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1614,7 +1614,7 @@
           "- Be aware of and responsible for the activities in their classroom.",
           "- Listen carefully to the teacher’s explanation.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện hỏi - đáp: “What’s she doing?” - “She’s colouring a square.”; “What’s he doing?” - “He’s doing a quiz.” GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe câu hỏi, quan sát tranh và lựa chọn/nói câu trả lời phù hợp. Đạo đức: Hình thành tính trung thực khi làm quiz, không nhìn bài của bạn và biết động viên bạn trong hoạt động học tập."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1671,7 +1671,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện hỏi - đáp: “What’s she doing?” - “She’s colouring a square.”; “What’s he doing?” - “He’s doing a quiz.” GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe câu hỏi, quan sát tranh và lựa chọn/nói câu trả lời phù hợp. Đạo đức: Hình thành tính trung thực khi làm quiz, không nhìn bài của bạn và biết động viên bạn trong hoạt động học tập.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1702,7 +1702,7 @@
           "- Raise awareness of caring for and protecting the animals.",
           "- Evaluate abilities and participate in appropriate tasks for themselves and their friends.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe, nhận diện và chỉ vào đúng tranh các từ box, fox, ox; HS luyện chữ X, x và âm /ks/ ở cuối từ. Giáo dục trải nghiệm - an toàn: Nhận biết một số sự vật, con vật ở trang trại; không tự ý đến gần hoặc chạm vào vật nuôi lớn khi chưa có người lớn hướng dẫn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1759,7 +1759,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe, nhận diện và chỉ vào đúng tranh các từ box, fox, ox; HS luyện chữ X, x và âm /ks/ ở cuối từ. Giáo dục trải nghiệm - an toàn: Nhận biết một số sự vật, con vật ở trang trại; không tự ý đến gần hoặc chạm vào vật nuôi lớn khi chưa có người lớn hướng dẫn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1786,7 +1786,7 @@
           "- Raise awareness of caring for and protecting the animals.",
           "- Evaluate abilities and participate in appropriate tasks for themselves and their friends.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe các câu “I can see a box/fox/ox on the farm.” rồi chọn hoặc khoanh hình phù hợp. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: chỉ thao tác theo hướng dẫn, không tự mở nội dung lạ và biết dừng thiết bị khi hoạt động kết thúc. Bảo vệ môi trường: Biết giữ vệ sinh khu vực chăn nuôi, không vứt rác bừa bãi và có ý thức bảo vệ cây cối, vật nuôi."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1843,7 +1843,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe các câu “I can see a box/fox/ox on the farm.” rồi chọn hoặc khoanh hình phù hợp. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: chỉ thao tác theo hướng dẫn, không tự mở nội dung lạ và biết dừng thiết bị khi hoạt động kết thúc. Bảo vệ môi trường: Biết giữ vệ sinh khu vực chăn nuôi, không vứt rác bừa bãi và có ý thức bảo vệ cây cối, vật nuôi.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1875,7 +1875,7 @@
           "- Raise awareness of caring for and protecting the animals.",
           "- Evaluate abilities and participate in appropriate tasks for themselves and their friends.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện hỏi - đáp: “Is there a fox?” - “Yes, there is.”; “Is there an ox?” - “No, there isn’t.” GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản có hướng dẫn: nghe câu hỏi, quan sát tranh và lựa chọn/nói câu trả lời phù hợp. Giáo dục yêu thương động vật: Biết quan sát và chăm sóc vật nuôi phù hợp; không trêu chọc, đuổi bắt hoặc làm đau con vật."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1932,7 +1932,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện hỏi - đáp: “Is there a fox?” - “Yes, there is.”; “Is there an ox?” - “No, there isn’t.” GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản có hướng dẫn: nghe câu hỏi, quan sát tranh và lựa chọn/nói câu trả lời phù hợp. Giáo dục yêu thương động vật: Biết quan sát và chăm sóc vật nuôi phù hợp; không trêu chọc, đuổi bắt hoặc làm đau con vật.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1940,7 +1940,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Fun time 2 – Lesson 1 - Fun time – Part 1: Trò chơi, nghe – nói và ôn từ/âm đã học. (Period 24)",
+        "lessonTitle": "Fun time 2 – Lesson 1 - Fun time – Part 1: Games, listening – speaking and reviewing learned words and sounds. (Period 24)",
         "topic": "Fun time 2 – Lesson 1",
         "period": "Period 24",
         "yccd": [
@@ -1948,7 +1948,7 @@
           "By the end of the lesson, pupils will be able to:",
           "- spell and pronounce the words question, square, quiz, fox, ox and box; \n- recognize the words quiz, rainbow, square, box, road, fox, ox, sail and question while listening;",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: GV có thể dùng giọng đọc/hình ảnh AI đã kiểm tra trước để tạo một thử thách vui; HS so sánh với tranh, từ và mẫu câu đã học, không coi đầu ra AI là đáp án mặc định. NLS 2.4.CB1a: Tham gia trò chơi/học liệu số đơn giản theo nhóm, biết chờ lượt, chọn đáp án và phản hồi lịch sự. Giáo dục phẩm chất: Hợp tác, trung thực khi chơi và tôn trọng bạn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -1973,7 +1973,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: GV có thể dùng giọng đọc/hình ảnh AI đã kiểm tra trước để tạo một thử thách vui; HS so sánh với tranh, từ và mẫu câu đã học, không coi đầu ra AI là đáp án mặc định. NLS 2.4.CB1a: Tham gia trò chơi/học liệu số đơn giản theo nhóm, biết chờ lượt, chọn đáp án và phản hồi lịch sự. Giáo dục phẩm chất: Hợp tác, trung thực khi chơi và tôn trọng bạn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -1987,7 +1987,7 @@
     "sourceFile": "Fun time 2.docx & Unit 7.docx",
     "lessons": [
       {
-        "lessonTitle": "Fun time 2 – Lesson 2 - Fun time – Part 2: Củng cố từ vựng, âm/chữ và mẫu câu qua hoạt động vui học. (Period 25)",
+        "lessonTitle": "Fun time 2 – Lesson 2 - Fun time – Part 2: Consolidating vocabulary, phonics and sentence patterns through fun learning activities. (Period 25)",
         "topic": "Fun time 2 – Lesson 2",
         "period": "Period 25",
         "yccd": [
@@ -1995,7 +1995,7 @@
           "By the end of the lesson, pupils will be able to:",
           "- spell the words quiz, rainbow, square, box, fox, ox\n- write the words quiz, fox, box and question and complete the sentence structures:\nWhat’s he/she doing?  He’s/She’s _______.\nIs there a _______? Yes, there is./ No, there isn’t.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.2.CB1a: Quan sát, nghe và lựa chọn thông tin đơn giản trên học liệu số do GV kiểm soát; biết kiểm tra lại khi đáp án chưa khớp tranh/audio. AI 2.A1: Nhận biết AI có thể tạo giọng nói hoặc gợi ý câu trả lời nhưng đôi khi sai; HS cần hỏi GV/đối chiếu SGK trước khi sửa bài. Giáo dục an toàn số: Không cần tài khoản cá nhân, không nhập thông tin riêng tư."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2020,7 +2020,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.2.CB1a: Quan sát, nghe và lựa chọn thông tin đơn giản trên học liệu số do GV kiểm soát; biết kiểm tra lại khi đáp án chưa khớp tranh/audio. AI 2.A1: Nhận biết AI có thể tạo giọng nói hoặc gợi ý câu trả lời nhưng đôi khi sai; HS cần hỏi GV/đối chiếu SGK trước khi sửa bài. Giáo dục an toàn số: Không cần tài khoản cá nhân, không nhập thông tin riêng tư.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2045,7 +2045,7 @@
           "- Be aware of choosing healthy food and drink.",
           "- Feel confident in expressing their opinions.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe, nhận diện và chỉ vào đúng tranh các từ juice, jelly, jam; HS luyện chữ J, j và âm /dʒ/. Giáo dục sức khỏe: Nhận biết một số đồ ăn, thức uống quen thuộc; bước đầu hình thành thói quen ăn uống hợp lý và lựa chọn thực phẩm phù hợp."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2102,7 +2102,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe, nhận diện và chỉ vào đúng tranh các từ juice, jelly, jam; HS luyện chữ J, j và âm /dʒ/. Giáo dục sức khỏe: Nhận biết một số đồ ăn, thức uống quen thuộc; bước đầu hình thành thói quen ăn uống hợp lý và lựa chọn thực phẩm phù hợp.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2135,7 +2135,7 @@
           "- Be aware of choosing healthy food and drink.",
           "- Feel confident in expressing their opinions.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe các câu “I like jam/juice/jelly.” rồi chọn hoặc tích vào hình phù hợp; quan sát chữ và hoàn thành từ còn thiếu. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn và đúng mục đích: chỉ mở học liệu do GV cung cấp, không tự ý bấm vào quảng cáo hoặc liên kết lạ. Giáo dục tiết kiệm - chống lãng phí: Biết lấy lượng thức ăn, đồ uống vừa đủ và không bỏ thừa."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2192,7 +2192,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe các câu “I like jam/juice/jelly.” rồi chọn hoặc tích vào hình phù hợp; quan sát chữ và hoàn thành từ còn thiếu. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn và đúng mục đích: chỉ mở học liệu do GV cung cấp, không tự ý bấm vào quảng cáo hoặc liên kết lạ. Giáo dục tiết kiệm - chống lãng phí: Biết lấy lượng thức ăn, đồ uống vừa đủ và không bỏ thừa.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2218,7 +2218,7 @@
           "- Be aware of choosing healthy food and drink.",
           "- Feel confident in expressing their opinions.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu giao tiếp tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “Pass me the jam, please.” - “Here you are.” và thay thế bằng juice/jelly. GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản có hướng dẫn: nghe câu yêu cầu, quan sát tranh và lựa chọn/nói câu đáp phù hợp. Đạo đức - kỹ năng giao tiếp: Biết dùng từ “please”, nói lời cảm ơn và đưa đồ vật cho người khác một cách lịch sự trong bữa ăn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2275,7 +2275,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu giao tiếp tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “Pass me the jam, please.” - “Here you are.” và thay thế bằng juice/jelly. GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản có hướng dẫn: nghe câu yêu cầu, quan sát tranh và lựa chọn/nói câu đáp phù hợp. Đạo đức - kỹ năng giao tiếp: Biết dùng từ “please”, nói lời cảm ơn và đưa đồ vật cho người khác một cách lịch sự trong bữa ăn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2306,7 +2306,7 @@
           "- Show pride in what they can do and great respect for other people’s abilities.",
           "- Follow the teacher’s instructions actively.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe, nhận diện và chỉ vào đúng tranh các từ village, van, volleyball; HS luyện chữ V, v và âm /v/. GDĐP: Nhận biết một số hình ảnh quen thuộc của làng quê; hình thành tình yêu và ý thức giữ gìn cảnh quan nơi mình sống."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2363,7 +2363,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe, nhận diện và chỉ vào đúng tranh các từ village, van, volleyball; HS luyện chữ V, v và âm /v/. GDĐP: Nhận biết một số hình ảnh quen thuộc của làng quê; hình thành tình yêu và ý thức giữ gìn cảnh quan nơi mình sống.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2390,7 +2390,7 @@
           "- Show pride in what they can do and great respect for other people’s abilities.",
           "- Follow the teacher’s instructions actively.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe các câu “This is a van/village/volleyball.” rồi chọn hoặc khoanh hình phù hợp; quan sát tranh và hoàn thành các từ còn thiếu. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số đúng mục đích: chỉ thao tác trên học liệu do GV mở và dừng sử dụng thiết bị khi có yêu cầu. ATGT: Nhận biết van là phương tiện giao thông; biết ngồi ngay ngắn, thắt dây an toàn khi có và không đùa nghịch trên xe."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2447,7 +2447,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe các câu “This is a van/village/volleyball.” rồi chọn hoặc khoanh hình phù hợp; quan sát tranh và hoàn thành các từ còn thiếu. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số đúng mục đích: chỉ thao tác trên học liệu do GV mở và dừng sử dụng thiết bị khi có yêu cầu. ATGT: Nhận biết van là phương tiện giao thông; biết ngồi ngay ngắn, thắt dây an toàn khi có và không đùa nghịch trên xe.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2479,7 +2479,7 @@
           "- Show pride in what they can do and great respect for other people’s abilities.",
           "- Follow the teacher’s instructions actively.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu giao tiếp tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “Can you draw a van?” - “Yes, I can.” / “No, I can’t.” và thay thế bằng volleyball, football, village. GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 3.1.CB1a: Tạo nội dung số đơn giản dưới sự hướng dẫn của GV: sử dụng công cụ vẽ cơ bản để vẽ một đồ vật/cảnh vật quen thuộc và lưu sản phẩm đúng vị trí GV quy định. Đạo đức - kỹ năng hợp tác: Biết tôn trọng sản phẩm của bạn, khích lệ bạn và cùng giữ gìn đồ dùng học tập khi tham gia hoạt động vẽ."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2535,7 +2535,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu giao tiếp tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “Can you draw a van?” - “Yes, I can.” / “No, I can’t.” và thay thế bằng volleyball, football, village. GV có thể dùng công cụ đọc mẫu để HS nghe, nhắc lại và tự điều chỉnh phát âm. NLS 3.1.CB1a: Tạo nội dung số đơn giản dưới sự hướng dẫn của GV: sử dụng công cụ vẽ cơ bản để vẽ một đồ vật/cảnh vật quen thuộc và lưu sản phẩm đúng vị trí GV quy định. Đạo đức - kỹ năng hợp tác: Biết tôn trọng sản phẩm của bạn, khích lệ bạn và cùng giữ gìn đồ dùng học tập khi tham gia hoạt động vẽ.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2543,7 +2543,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Review 2 – Phil and Sue - Nghe/đọc câu chuyện Phil and Sue; ôn âm, từ và mẫu câu của các Unit trước đó. (Period 32)",
+        "lessonTitle": "Review 2 – Phil and Sue - Listening and reading Phil and Sue story; reviewing phonics, vocabulary and sentence patterns. (Period 32)",
         "topic": "Review 2 – Phil and Sue",
         "period": "Period 32",
         "yccd": [
@@ -2559,7 +2559,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.B1: Nhận biết một câu trả lời/hình minh hoạ kiểu AI có thể không khớp câu chuyện; HS kiểm tra bằng tranh và nội dung SGK. NLS 1.2.CB1a: Tìm thông tin đơn giản trong câu chuyện/học liệu số để xác nhận đáp án. Giáo dục phẩm chất: Trung thực khi nêu điều mình nghe/đọc được."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2609,7 +2609,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.B1: Nhận biết một câu trả lời/hình minh hoạ kiểu AI có thể không khớp câu chuyện; HS kiểm tra bằng tranh và nội dung SGK. NLS 1.2.CB1a: Tìm thông tin đơn giản trong câu chuyện/học liệu số để xác nhận đáp án. Giáo dục phẩm chất: Trung thực khi nêu điều mình nghe/đọc được.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2623,7 +2623,7 @@
     "sourceFile": "E2_WEEK_17.docx",
     "lessons": [
       {
-        "lessonTitle": "Review 2 – Self-check – Part 1 - Tự kiểm tra: nghe – chọn/đánh dấu, đọc – nối/hoàn thành theo nội dung đã học. (Period 33)",
+        "lessonTitle": "Review 2 – Self-check – Part 1 - Self-check: listening – ticking, reading – matching and completing based on learned content. (Period 33)",
         "topic": "Review 2 – Self-check – Part 1",
         "period": "Period 33",
         "yccd": [
@@ -2641,7 +2641,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác nghe – chọn – kiểm tra đáp án trên học liệu số dưới sự hướng dẫn của GV. AI 2.A2: So sánh một gợi ý AI đơn giản với đáp án dựa trên tranh/audio và sửa nếu sai. Giáo dục tự học: Tự đánh dấu nội dung đã làm tốt và nội dung cần luyện thêm."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2698,7 +2698,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác nghe – chọn – kiểm tra đáp án trên học liệu số dưới sự hướng dẫn của GV. AI 2.A2: So sánh một gợi ý AI đơn giản với đáp án dựa trên tranh/audio và sửa nếu sai. Giáo dục tự học: Tự đánh dấu nội dung đã làm tốt và nội dung cần luyện thêm.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2706,7 +2706,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Review 2 – Self-check – Part 2 - Tự kiểm tra: củng cố đọc – viết và nói ngắn; tự nhận biết nội dung cần luyện thêm. (Period 34)",
+        "lessonTitle": "Review 2 – Self-check – Part 2 - Self-check: consolidating reading – writing and short speaking; self-assessing areas for further practice. (Period 34)",
         "topic": "Review 2 – Self-check – Part 2",
         "period": "Period 34",
         "yccd": [
@@ -2724,7 +2724,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ NLS 5.2.CB1a: Lựa chọn công cụ đơn giản phù hợp để ôn tập (audio, thẻ số, trò chơi số do GV cung cấp). AI 2.B1: Không sao chép câu trả lời AI; HS tự làm trước rồi mới dùng ví dụ AI để kiểm tra dưới sự hướng dẫn của GV. Giáo dục trung thực: Tự hoàn thành phần Self-check."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2779,7 +2779,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 5.2.CB1a: Lựa chọn công cụ đơn giản phù hợp để ôn tập (audio, thẻ số, trò chơi số do GV cung cấp). AI 2.B1: Không sao chép câu trả lời AI; HS tự làm trước rồi mới dùng ví dụ AI để kiểm tra dưới sự hướng dẫn của GV. Giáo dục trung thực: Tự hoàn thành phần Self-check.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2793,7 +2793,7 @@
     "sourceFile": "Reserve_Period_1.docx & Unit 9.docx",
     "lessons": [
       {
-        "lessonTitle": "Reserve period 1 - Ôn tập củng cố học kì I (Period 35)",
+        "lessonTitle": "Reserve period 1 - Semester 1 Review and Consolidation (Period 35)",
         "topic": "Reserve period 1",
         "period": "Period 35",
         "yccd": [
@@ -2807,7 +2807,7 @@
           "- Communication and collaboration: Work in pairs and small groups to complete language stations.",
           "- Self-control and independent learning: Self-evaluate strengths and areas needing review.",
           "- Digital competence & AI literacy:",
-          "+ NLS 2.4.CB1a: Tham gia hoạt động số đơn giản do GV tổ chức nếu phù hợp. AI 2.A1: Nhắc lại nguyên tắc AI chỉ hỗ trợ; cần kiểm tra thông tin trước khi sử dụng. Giáo dục linh hoạt: Nội dung được điều chỉnh theo tình hình thực tế.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking.",
           "3. Attributes:",
           "- Diligence and responsibility: Complete revision tasks enthusiastically.",
           "- Love and interest in learning English."
@@ -2850,7 +2850,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 2.4.CB1a: Tham gia hoạt động số đơn giản do GV tổ chức nếu phù hợp. AI 2.A1: Nhắc lại nguyên tắc AI chỉ hỗ trợ; cần kiểm tra thông tin trước khi sử dụng. Giáo dục linh hoạt: Nội dung được điều chỉnh theo tình hình thực tế.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2874,7 +2874,7 @@
           "- Show their love and interest in food and toys.",
           "- Be willing to share their food and toys with their friends.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe, nhận diện và chỉ vào đúng tranh các từ yogurt, yams, yo-yos; HS luyện chữ Y, y và âm /j/. Giáo dục sức khỏe: Biết lựa chọn thực phẩm phù hợp, ăn uống hợp lý và không sử dụng thực phẩm khi chưa có sự đồng ý của người lớn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -2931,7 +2931,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe và phát âm từ vựng tiếng Anh thông qua công cụ đọc bằng giọng nói. GV cho HS nghe, nhận diện và chỉ vào đúng tranh các từ yogurt, yams, yo-yos; HS luyện chữ Y, y và âm /j/. Giáo dục sức khỏe: Biết lựa chọn thực phẩm phù hợp, ăn uống hợp lý và không sử dụng thực phẩm khi chưa có sự đồng ý của người lớn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -2963,7 +2963,7 @@
           "- Show their love and interest in food and toys.",
           "- Be willing to share their food and toys with their friends.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe các từ/câu có yo-yos, yams, yogurt rồi chọn hoặc tích vào hình phù hợp; quan sát tranh và hoàn thành từ còn thiếu. NLS 4.2.CB1a: Bước đầu nhận biết và bảo vệ thông tin cá nhân khi sử dụng thiết bị số. GV nhắc HS không tự ý bấm vào quảng cáo mua hàng, không nhập tên, địa chỉ, số điện thoại hoặc thông tin gia đình khi chưa được người lớn cho phép."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3020,7 +3020,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe các từ/câu có yo-yos, yams, yogurt rồi chọn hoặc tích vào hình phù hợp; quan sát tranh và hoàn thành từ còn thiếu. NLS 4.2.CB1a: Bước đầu nhận biết và bảo vệ thông tin cá nhân khi sử dụng thiết bị số. GV nhắc HS không tự ý bấm vào quảng cáo mua hàng, không nhập tên, địa chỉ, số điện thoại hoặc thông tin gia đình khi chưa được người lớn cho phép.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3045,7 +3045,7 @@
           "- Show their love and interest in food and toys.",
           "- Be willing to share their food and toys with their friends.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu giao tiếp tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “What do you want?” - “I want some yams.” và thay thế bằng yogurt, yo-yos. Kỹ năng sống/Đạo đức: Biết nói lời lịch sự khi mua hoặc nhận đồ; xếp hàng, lựa chọn vừa đủ và có ý thức tiết kiệm, tránh lãng phí."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3102,7 +3102,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu giao tiếp tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “What do you want?” - “I want some yams.” và thay thế bằng yogurt, yo-yos. Kỹ năng sống/Đạo đức: Biết nói lời lịch sự khi mua hoặc nhận đồ; xếp hàng, lựa chọn vừa đủ và có ý thức tiết kiệm, tránh lãng phí.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3132,7 +3132,7 @@
           "- Show their love for animals.",
           "- Raise awareness of caring for and protecting animals.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện hình ảnh và phát âm từ vựng tiếng Anh đơn giản. GV cho HS nghe từ mẫu và quan sát tranh để nhận diện zoo, zebra, zebu; HS luyện chữ Z, z và âm /z/. Giáo dục bảo vệ động vật: Biết yêu quý động vật, không trêu chọc, ném đồ ăn hoặc làm động vật sợ khi tham quan sở thú."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3189,7 +3189,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện hình ảnh và phát âm từ vựng tiếng Anh đơn giản. GV cho HS nghe từ mẫu và quan sát tranh để nhận diện zoo, zebra, zebu; HS luyện chữ Z, z và âm /z/. Giáo dục bảo vệ động vật: Biết yêu quý động vật, không trêu chọc, ném đồ ăn hoặc làm động vật sợ khi tham quan sở thú.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3215,7 +3215,7 @@
           "- Show their love for animals.",
           "- Raise awareness of caring for and protecting the animals.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe chant/câu có zoo, zebra, zebu rồi chọn hoặc khoanh hình phù hợp; quan sát tranh và hoàn thành từ còn thiếu. Kỹ năng sống: Biết xếp hàng, giữ trật tự và tuân theo biển chỉ dẫn khi tham quan nơi công cộng."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3272,7 +3272,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe chant/câu có zoo, zebra, zebu rồi chọn hoặc khoanh hình phù hợp; quan sát tranh và hoàn thành từ còn thiếu. Kỹ năng sống: Biết xếp hàng, giữ trật tự và tuân theo biển chỉ dẫn khi tham quan nơi công cộng.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3303,7 +3303,7 @@
           "- Show their love for animals.",
           "- Raise awareness of caring for and protecting the animals.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu giao tiếp tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “Do you like the zoo?” - “Yes, I do.” / “No, I don’t.” và thay thế bằng zebra, zebu khi phù hợp với tranh. Bảo vệ môi trường/đa dạng sinh học: Bước đầu hiểu động vật cần được bảo vệ và sống trong môi trường sạch, an toàn; không xả rác khi tham quan sở thú."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3360,7 +3360,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu giao tiếp tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “Do you like the zoo?” - “Yes, I do.” / “No, I don’t.” và thay thế bằng zebra, zebu khi phù hợp với tranh. Bảo vệ môi trường/đa dạng sinh học: Bước đầu hiểu động vật cần được bảo vệ và sống trong môi trường sạch, an toàn; không xả rác khi tham quan sở thú.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3368,7 +3368,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Fun time 3 – Lesson 1 - Fun time – Part 1: Trò chơi, nghe – nói và ôn từ/âm đã học. (Period 42)",
+        "lessonTitle": "Fun time 3 – Lesson 1 - Fun time – Part 1: Games, listening – speaking and reviewing learned words and sounds. (Period 42)",
         "topic": "Fun time 3 – Lesson 1",
         "period": "Period 42",
         "yccd": [
@@ -3383,7 +3383,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Play the games fair.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: GV có thể dùng giọng đọc/hình ảnh AI đã kiểm tra trước để tạo một thử thách vui; HS so sánh với tranh, từ và mẫu câu đã học, không coi đầu ra AI là đáp án mặc định. NLS 2.4.CB1a: Tham gia trò chơi/học liệu số đơn giản theo nhóm, biết chờ lượt, chọn đáp án và phản hồi lịch sự. Giáo dục phẩm chất: Hợp tác, trung thực khi chơi và tôn trọng bạn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3432,7 +3432,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: GV có thể dùng giọng đọc/hình ảnh AI đã kiểm tra trước để tạo một thử thách vui; HS so sánh với tranh, từ và mẫu câu đã học, không coi đầu ra AI là đáp án mặc định. NLS 2.4.CB1a: Tham gia trò chơi/học liệu số đơn giản theo nhóm, biết chờ lượt, chọn đáp án và phản hồi lịch sự. Giáo dục phẩm chất: Hợp tác, trung thực khi chơi và tôn trọng bạn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3446,7 +3446,7 @@
     "sourceFile": "Fun time 3.docx & Unit 11.docx",
     "lessons": [
       {
-        "lessonTitle": "Fun time 3 – Lesson 2 - Fun time – Part 2: Củng cố từ vựng, âm/chữ và mẫu câu qua hoạt động vui học. (Period 43)",
+        "lessonTitle": "Fun time 3 – Lesson 2 - Fun time – Part 2: Consolidating vocabulary, phonics and sentence patterns through fun learning activities. (Period 43)",
         "topic": "Fun time 3 – Lesson 2",
         "period": "Period 43",
         "yccd": [
@@ -3465,7 +3465,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Play the games fair.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.2.CB1a: Quan sát, nghe và lựa chọn thông tin đơn giản trên học liệu số do GV kiểm soát; biết kiểm tra lại khi đáp án chưa khớp tranh/audio. AI 2.A1: Nhận biết AI có thể tạo giọng nói hoặc gợi ý câu trả lời nhưng đôi khi sai; HS cần hỏi GV/đối chiếu SGK trước khi sửa bài. Giáo dục an toàn số: Không cần tài khoản cá nhân, không nhập thông tin riêng tư."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3514,7 +3514,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.2.CB1a: Quan sát, nghe và lựa chọn thông tin đơn giản trên học liệu số do GV kiểm soát; biết kiểm tra lại khi đáp án chưa khớp tranh/audio. AI 2.A1: Nhận biết AI có thể tạo giọng nói hoặc gợi ý câu trả lời nhưng đôi khi sai; HS cần hỏi GV/đối chiếu SGK trước khi sửa bài. Giáo dục an toàn số: Không cần tài khoản cá nhân, không nhập thông tin riêng tư.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3537,7 +3537,7 @@
           "- Be careful of doing outdoor activities to keep healthy and happy.",
           "- Show their knowledge about recognising information.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện hình ảnh và phát âm từ/cụm từ tiếng Anh đơn giản. GV cho HS nghe và quan sát tranh để nhận diện riding, driving, sliding; HS luyện chữ I, i và âm /aɪ/ trong các từ mục tiêu. ATGT/An toàn vui chơi: Biết đội mũ bảo hiểm khi đi xe đạp và tuân thủ quy tắc an toàn khi vui chơi ở sân chơi."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3594,7 +3594,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện hình ảnh và phát âm từ/cụm từ tiếng Anh đơn giản. GV cho HS nghe và quan sát tranh để nhận diện riding, driving, sliding; HS luyện chữ I, i và âm /aɪ/ trong các từ mục tiêu. ATGT/An toàn vui chơi: Biết đội mũ bảo hiểm khi đi xe đạp và tuân thủ quy tắc an toàn khi vui chơi ở sân chơi.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3627,7 +3627,7 @@
           "- Be careful of doing outdoor activities to keep healthy and happy.",
           "- Show their knowledge about recognising information.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe chant/câu có riding, driving, sliding rồi chọn/tích hình phù hợp; quan sát tranh và hoàn thành từ còn thiếu. Giáo dục thể chất: Khuyến khích vận động phù hợp, chơi đúng khu vực và biết chờ đến lượt khi sử dụng thiết bị ở sân chơi."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3684,7 +3684,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe chant/câu có riding, driving, sliding rồi chọn/tích hình phù hợp; quan sát tranh và hoàn thành từ còn thiếu. Giáo dục thể chất: Khuyến khích vận động phù hợp, chơi đúng khu vực và biết chờ đến lượt khi sử dụng thiết bị ở sân chơi.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3709,7 +3709,7 @@
           "- Be careful of doing outdoor activities to keep healthy and happy.",
           "- Show their knowledge about recognising information.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “They’re driving cars.” và thay thế bằng “They’re riding bikes.” / “They’re sliding.”. Kỹ năng sống: Biết hợp tác, chia sẻ không gian vui chơi và nhắc bạn thực hiện quy tắc an toàn ở sân chơi."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3766,7 +3766,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện mẫu “They’re driving cars.” và thay thế bằng “They’re riding bikes.” / “They’re sliding.”. Kỹ năng sống: Biết hợp tác, chia sẻ không gian vui chơi và nhắc bạn thực hiện quy tắc an toàn ở sân chơi.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3796,7 +3796,7 @@
           "- Show their love and interest in food and object.",
           "- Be confident in communication.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện hình ảnh và phát âm từ vựng tiếng Anh. GV cho HS nghe và nhận diện các từ cake, grapes, table; HS chỉ vào hình tương ứng và luyện âm A, a - /eɪ/. Giáo dục sức khỏe: Biết lựa chọn và sử dụng đồ ăn với lượng phù hợp; ưu tiên hoa quả và giữ vệ sinh trước khi ăn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3853,7 +3853,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện hình ảnh và phát âm từ vựng tiếng Anh. GV cho HS nghe và nhận diện các từ cake, grapes, table; HS chỉ vào hình tương ứng và luyện âm A, a - /eɪ/. Giáo dục sức khỏe: Biết lựa chọn và sử dụng đồ ăn với lượng phù hợp; ưu tiên hoa quả và giữ vệ sinh trước khi ăn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3879,7 +3879,7 @@
           "- Show their love and interest about food and object.",
           "- Be confident in communication.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe, quan sát hình và chọn/circle đáp án đúng; đối chiếu các từ cake, grapes, table với hình ảnh tương ứng. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: chỉ thao tác khi được hướng dẫn, ngồi đúng tư thế và giữ khoảng cách phù hợp với màn hình. Đạo đức - kỹ năng sống: Biết giữ trật tự, không làm rơi vãi thức ăn và không lãng phí đồ ăn khi ở quán ăn/café."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3936,7 +3936,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe, quan sát hình và chọn/circle đáp án đúng; đối chiếu các từ cake, grapes, table với hình ảnh tương ứng. NLS 4.1.CB1a: Bước đầu hình thành thói quen sử dụng thiết bị số an toàn: chỉ thao tác khi được hướng dẫn, ngồi đúng tư thế và giữ khoảng cách phù hợp với màn hình. Đạo đức - kỹ năng sống: Biết giữ trật tự, không làm rơi vãi thức ăn và không lãng phí đồ ăn khi ở quán ăn/café.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -3967,7 +3967,7 @@
           "- Show their love and interest about food and object.",
           "- Be confident in communication.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện các mẫu: “The cake is on the table.” / “The grapes are on the table.”. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe mẫu, quan sát tranh và nói câu phù hợp với đồ vật/thức ăn trong tranh. Giáo dục văn hóa giao tiếp: Biết nói nhỏ, lịch sự, chờ đến lượt và giữ vệ sinh bàn ăn khi ở nơi công cộng."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4024,7 +4024,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm các mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện các mẫu: “The cake is on the table.” / “The grapes are on the table.”. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe mẫu, quan sát tranh và nói câu phù hợp với đồ vật/thức ăn trong tranh. Giáo dục văn hóa giao tiếp: Biết nói nhỏ, lịch sự, chờ đến lượt và giữ vệ sinh bàn ăn khi ở nơi công cộng.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4032,7 +4032,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Review 3 – Phil and Sue - Nghe/đọc câu chuyện Phil and Sue; ôn âm, từ và mẫu câu của các Unit trước đó. (Period 50)",
+        "lessonTitle": "Review 3 – Phil and Sue - Listening and reading Phil and Sue story; reviewing phonics, vocabulary and sentence patterns. (Period 50)",
         "topic": "Review 3 – Phil and Sue",
         "period": "Period 50",
         "yccd": [
@@ -4048,7 +4048,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.B1: Nhận biết một câu trả lời/hình minh hoạ kiểu AI có thể không khớp câu chuyện; HS kiểm tra bằng tranh và nội dung SGK. NLS 1.2.CB1a: Tìm thông tin đơn giản trong câu chuyện/học liệu số để xác nhận đáp án. Giáo dục phẩm chất: Trung thực khi nêu điều mình nghe/đọc được."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4098,7 +4098,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.B1: Nhận biết một câu trả lời/hình minh hoạ kiểu AI có thể không khớp câu chuyện; HS kiểm tra bằng tranh và nội dung SGK. NLS 1.2.CB1a: Tìm thông tin đơn giản trong câu chuyện/học liệu số để xác nhận đáp án. Giáo dục phẩm chất: Trung thực khi nêu điều mình nghe/đọc được.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4112,7 +4112,7 @@
     "sourceFile": "E2_WEEK_26.docx",
     "lessons": [
       {
-        "lessonTitle": "Review 3 – Self-check – Part 1 - Tự kiểm tra: nghe – chọn/đánh dấu, đọc – nối/hoàn thành theo nội dung đã học. (Period 51)",
+        "lessonTitle": "Review 3 – Self-check – Part 1 - Self-check: listening – ticking, reading – matching and completing based on learned content. (Period 51)",
         "topic": "Review 3 – Self-check – Part 1",
         "period": "Period 51",
         "yccd": [
@@ -4130,7 +4130,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác nghe – chọn – kiểm tra đáp án trên học liệu số dưới sự hướng dẫn của GV. AI 2.A2: So sánh một gợi ý AI đơn giản với đáp án dựa trên tranh/audio và sửa nếu sai. Giáo dục tự học: Tự đánh dấu nội dung đã làm tốt và nội dung cần luyện thêm."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4187,7 +4187,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác nghe – chọn – kiểm tra đáp án trên học liệu số dưới sự hướng dẫn của GV. AI 2.A2: So sánh một gợi ý AI đơn giản với đáp án dựa trên tranh/audio và sửa nếu sai. Giáo dục tự học: Tự đánh dấu nội dung đã làm tốt và nội dung cần luyện thêm.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4195,7 +4195,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Review 3 – Self-check – Part 2 - Tự kiểm tra: củng cố đọc – viết và nói ngắn; tự nhận biết nội dung cần luyện thêm. (Period 52)",
+        "lessonTitle": "Review 3 – Self-check – Part 2 - Self-check: consolidating reading – writing and short speaking; self-assessing areas for further practice. (Period 52)",
         "topic": "Review 3 – Self-check – Part 2",
         "period": "Period 52",
         "yccd": [
@@ -4213,7 +4213,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ NLS 5.2.CB1a: Lựa chọn công cụ đơn giản phù hợp để ôn tập (audio, thẻ số, trò chơi số do GV cung cấp). AI 2.B1: Không sao chép câu trả lời AI; HS tự làm trước rồi mới dùng ví dụ AI để kiểm tra dưới sự hướng dẫn của GV. Giáo dục trung thực: Tự hoàn thành phần Self-check."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4268,7 +4268,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 5.2.CB1a: Lựa chọn công cụ đơn giản phù hợp để ôn tập (audio, thẻ số, trò chơi số do GV cung cấp). AI 2.B1: Không sao chép câu trả lời AI; HS tự làm trước rồi mới dùng ví dụ AI để kiểm tra dưới sự hướng dẫn của GV. Giáo dục trung thực: Tự hoàn thành phần Self-check.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4298,7 +4298,7 @@
           "- Recognize cardinal numbers.",
           "- Know how to use the numbers to count or answer about things around them.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện số và phát âm từ chỉ số đếm bằng tiếng Anh. GV cho HS nghe và nhận diện các số eleven, thirteen, fourteen, fifteen; HS đối chiếu từ với chữ số và luyện âm N, n - /n/. Tích hợp Toán học: Củng cố nhận biết, đọc và viết các số trong phạm vi 15; liên hệ phép cộng đơn giản qua hình ảnh trên bảng."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4355,7 +4355,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện số và phát âm từ chỉ số đếm bằng tiếng Anh. GV cho HS nghe và nhận diện các số eleven, thirteen, fourteen, fifteen; HS đối chiếu từ với chữ số và luyện âm N, n - /n/. Tích hợp Toán học: Củng cố nhận biết, đọc và viết các số trong phạm vi 15; liên hệ phép cộng đơn giản qua hình ảnh trên bảng.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4381,7 +4381,7 @@
           "- Recognize cardinal numbers.",
           "- Know how to use the numbers to count or answer about things around them.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe và chọn đúng chữ số; ghép số với từ tiếng Anh tương ứng trong Listen and tick / Write and say. Tích hợp Toán học: Đếm số lượng bóng và búp bê, sau đó chọn đáp án đúng cho câu hỏi “How many ...?” trong phạm vi 11-15."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4438,7 +4438,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe và chọn đúng chữ số; ghép số với từ tiếng Anh tương ứng trong Listen and tick / Write and say. Tích hợp Toán học: Đếm số lượng bóng và búp bê, sau đó chọn đáp án đúng cho câu hỏi “How many ...?” trong phạm vi 11-15.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4469,7 +4469,7 @@
           "- Recognize cardinal numbers.",
           "- Know how to use the numbers to count or answer about things around them.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm mẫu câu hỏi - đáp về số. Dưới sự hướng dẫn của GV, HS luyện: “What number is it?” - “It’s eleven/twelve/thirteen/fourteen/fifteen.”. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe mẫu, quan sát thẻ số và trả lời đúng số được hiển thị. Kỹ năng học tập: Rèn phản xạ nhận biết số, tự tin trả lời và biết chờ đến lượt khi tham gia trò chơi hỏi - đáp."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4526,7 +4526,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm mẫu câu hỏi - đáp về số. Dưới sự hướng dẫn của GV, HS luyện: “What number is it?” - “It’s eleven/twelve/thirteen/fourteen/fifteen.”. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe mẫu, quan sát thẻ số và trả lời đúng số được hiển thị. Kỹ năng học tập: Rèn phản xạ nhận biết số, tự tin trả lời và biết chờ đến lượt khi tham gia trò chơi hỏi - đáp.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4551,7 +4551,7 @@
           "- Know how to say about someone’s age.",
           "- Feel confident in expressing their opinions.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện và phát âm từ vựng về thành viên gia đình bằng tiếng Anh. GV cho HS nghe và nhận diện các từ sister, brother, grandmother; HS đối chiếu từ với tranh và luyện cụm chữ er. Giáo dục gia đình: Biết yêu thương, kính trọng và quan tâm đến anh, chị, em và ông bà trong gia đình."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4608,7 +4608,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nghe, nhận diện và phát âm từ vựng về thành viên gia đình bằng tiếng Anh. GV cho HS nghe và nhận diện các từ sister, brother, grandmother; HS đối chiếu từ với tranh và luyện cụm chữ er. Giáo dục gia đình: Biết yêu thương, kính trọng và quan tâm đến anh, chị, em và ông bà trong gia đình.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4641,7 +4641,7 @@
           "- Know how to say about someone’s age.",
           "- Feel confident in expressing their opinions.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe, quan sát tranh và chọn đúng nhân vật/độ tuổi trong hoạt động Listen and circle; sau đó hoàn thành Write and say với grandmother, brother, sister. Tích hợp Toán học: Củng cố nhận biết và đọc các số tuổi trong phạm vi 20, đặc biệt các số 16, 17, 18, 19, 20."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4698,7 +4698,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe, quan sát tranh và chọn đúng nhân vật/độ tuổi trong hoạt động Listen and circle; sau đó hoàn thành Write and say với grandmother, brother, sister. Tích hợp Toán học: Củng cố nhận biết và đọc các số tuổi trong phạm vi 20, đặc biệt các số 16, 17, 18, 19, 20.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4724,7 +4724,7 @@
           "- Know how to say about someone’s age.",
           "- Feel confident in expressing their opinions.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm mẫu câu hỏi - đáp về tuổi. HS luyện “How old is your brother?” - “He’s nineteen.” và thay thế bằng các độ tuổi phù hợp. NLS 4.2.CB1a: Nhận biết tuổi và hình ảnh người thân là thông tin cá nhân cần được sử dụng cẩn thận trên môi trường số. Không tự ý chia sẻ khi chưa được người lớn đồng ý."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4781,7 +4781,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nói và đối chiếu phát âm mẫu câu hỏi - đáp về tuổi. HS luyện “How old is your brother?” - “He’s nineteen.” và thay thế bằng các độ tuổi phù hợp. NLS 4.2.CB1a: Nhận biết tuổi và hình ảnh người thân là thông tin cá nhân cần được sử dụng cẩn thận trên môi trường số. Không tự ý chia sẻ khi chưa được người lớn đồng ý.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4795,7 +4795,7 @@
     "sourceFile": "E2_WEEK_30.docx",
     "lessons": [
       {
-        "lessonTitle": "Fun time 4 – Lesson 1 - Fun time – Part 1: Trò chơi, nghe – nói và ôn từ/âm đã học. (Period 59)",
+        "lessonTitle": "Fun time 4 – Lesson 1 - Fun time – Part 1: Games, listening – speaking and reviewing learned words and sounds. (Period 59)",
         "topic": "Fun time 4 – Lesson 1",
         "period": "Period 59",
         "yccd": [
@@ -4810,7 +4810,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Play the games fair.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: GV có thể dùng giọng đọc/hình ảnh AI đã kiểm tra trước để tạo một thử thách vui; HS so sánh với tranh, từ và mẫu câu đã học, không coi đầu ra AI là đáp án mặc định. NLS 2.4.CB1a: Tham gia trò chơi/học liệu số đơn giản theo nhóm, biết chờ lượt, chọn đáp án và phản hồi lịch sự. Giáo dục phẩm chất: Hợp tác, trung thực khi chơi và tôn trọng bạn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4859,7 +4859,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: GV có thể dùng giọng đọc/hình ảnh AI đã kiểm tra trước để tạo một thử thách vui; HS so sánh với tranh, từ và mẫu câu đã học, không coi đầu ra AI là đáp án mặc định. NLS 2.4.CB1a: Tham gia trò chơi/học liệu số đơn giản theo nhóm, biết chờ lượt, chọn đáp án và phản hồi lịch sự. Giáo dục phẩm chất: Hợp tác, trung thực khi chơi và tôn trọng bạn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4867,7 +4867,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Fun time 4 – Lesson 2 - Fun time – Part 2: Củng cố từ vựng, âm/chữ và mẫu câu qua hoạt động vui học. (Period 60)",
+        "lessonTitle": "Fun time 4 – Lesson 2 - Fun time – Part 2: Consolidating vocabulary, phonics and sentence patterns through fun learning activities. (Period 60)",
         "topic": "Fun time 4 – Lesson 2",
         "period": "Period 60",
         "yccd": [
@@ -4883,7 +4883,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Play the games fair.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.2.CB1a: Quan sát, nghe và lựa chọn thông tin đơn giản trên học liệu số do GV kiểm soát; biết kiểm tra lại khi đáp án chưa khớp tranh/audio. AI 2.A1: Nhận biết AI có thể tạo giọng nói hoặc gợi ý câu trả lời nhưng đôi khi sai; HS cần hỏi GV/đối chiếu SGK trước khi sửa bài. Giáo dục an toàn số: Không cần tài khoản cá nhân, không nhập thông tin riêng tư."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -4932,7 +4932,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.2.CB1a: Quan sát, nghe và lựa chọn thông tin đơn giản trên học liệu số do GV kiểm soát; biết kiểm tra lại khi đáp án chưa khớp tranh/audio. AI 2.A1: Nhận biết AI có thể tạo giọng nói hoặc gợi ý câu trả lời nhưng đôi khi sai; HS cần hỏi GV/đối chiếu SGK trước khi sửa bài. Giáo dục an toàn số: Không cần tài khoản cá nhân, không nhập thông tin riêng tư.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -4961,7 +4961,7 @@
           "- Show their interest in different clothes and their uniform.",
           "- Raise pupils’ awareness about wearing neat and clean clothes.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nhận diện hình ảnh và phát âm từ vựng về quần áo bằng tiếng Anh. GV cho HS quan sát hình và nghe công cụ đọc các từ shoes, shirts, shorts; HS chỉ đúng đồ vật và luyện âm /ʃ/ trong cụm chữ sh. Giáo dục kỹ năng sống: Biết giữ quần áo, giày dép sạch sẽ, gọn gàng và lựa chọn trang phục phù hợp với hoạt động, thời tiết."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -5018,7 +5018,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nhận diện hình ảnh và phát âm từ vựng về quần áo bằng tiếng Anh. GV cho HS quan sát hình và nghe công cụ đọc các từ shoes, shirts, shorts; HS chỉ đúng đồ vật và luyện âm /ʃ/ trong cụm chữ sh. Giáo dục kỹ năng sống: Biết giữ quần áo, giày dép sạch sẽ, gọn gàng và lựa chọn trang phục phù hợp với hoạt động, thời tiết.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -5044,7 +5044,7 @@
           "- Show their interest in different clothes and their uniform.",
           "- Raise pupils’ awareness about wearing neat and clean clothes.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe, quan sát và chọn đúng hình trong hoạt động Listen and tick; sau đó hoàn thành Write and say với các từ shirts, shoes, shorts. NLS 4.1.CB1a: Bước đầu nhận biết cách sử dụng thiết bị số an toàn khi xem hình ảnh hoặc học liệu về mua sắm: chỉ thao tác theo hướng dẫn, không tự ý bấm vào quảng cáo hay đường dẫn lạ."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -5101,7 +5101,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe, quan sát và chọn đúng hình trong hoạt động Listen and tick; sau đó hoàn thành Write and say với các từ shirts, shoes, shorts. NLS 4.1.CB1a: Bước đầu nhận biết cách sử dụng thiết bị số an toàn khi xem hình ảnh hoặc học liệu về mua sắm: chỉ thao tác theo hướng dẫn, không tự ý bấm vào quảng cáo hay đường dẫn lạ.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -5132,7 +5132,7 @@
           "- Show their interest in different clothes and their uniform.",
           "- Raise pupils’ awareness about wearing neat and clean clothes.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nghe - nói trong tình huống hỏi vị trí đồ vật. Dưới sự hướng dẫn của GV, HS luyện mẫu “Where are the shoes?” - “Over there.” và thay thế bằng shirts / shorts. NLS 4.2.CB1a: Nhận biết không tự ý cung cấp tên, địa chỉ, số điện thoại hoặc thông tin thanh toán khi xem nội dung mua sắm trên thiết bị số; cần hỏi người lớn khi gặp yêu cầu nhập thông tin."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -5189,7 +5189,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nghe - nói trong tình huống hỏi vị trí đồ vật. Dưới sự hướng dẫn của GV, HS luyện mẫu “Where are the shoes?” - “Over there.” và thay thế bằng shirts / shorts. NLS 4.2.CB1a: Nhận biết không tự ý cung cấp tên, địa chỉ, số điện thoại hoặc thông tin thanh toán khi xem nội dung mua sắm trên thiết bị số; cần hỏi người lớn khi gặp yêu cầu nhập thông tin.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -5213,7 +5213,7 @@
           "- Show their love and interest in joining in activities at the campsite.",
           "- Raise their awareness of doing outdoor activities.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A1: Nhận biết AI có thể hỗ trợ nhận diện hình ảnh và phát âm từ vựng tiếng Anh. GV cho HS quan sát hình ảnh cắm trại, nghe công cụ đọc mẫu và nhận diện các từ tent, teapot, blanket; HS luyện âm đầu /t/ trong tent, teapot. Giáo dục kỹ năng sống: Nhận biết một số đồ dùng cần thiết khi đi cắm trại và biết sắp xếp đồ dùng gọn gàng, đúng nơi. An toàn: Không tự ý đến gần bếp nướng, nước sôi hoặc nguồn lửa khi không có người lớn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -5270,7 +5270,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A1: Nhận biết AI có thể hỗ trợ nhận diện hình ảnh và phát âm từ vựng tiếng Anh. GV cho HS quan sát hình ảnh cắm trại, nghe công cụ đọc mẫu và nhận diện các từ tent, teapot, blanket; HS luyện âm đầu /t/ trong tent, teapot. Giáo dục kỹ năng sống: Nhận biết một số đồ dùng cần thiết khi đi cắm trại và biết sắp xếp đồ dùng gọn gàng, đúng nơi. An toàn: Không tự ý đến gần bếp nướng, nước sôi hoặc nguồn lửa khi không có người lớn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -5302,7 +5302,7 @@
           "- Show their love and interest in joining in activities at the campsite.",
           "- Raise their awareness of doing outdoor activities.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe và chọn/circle hình phù hợp với các từ và vị trí trong bài: tent, blanket, teapot; near, in, on. NLS 4.1.CB1a: Thực hiện quy tắc sử dụng thiết bị số an toàn: chỉ chạm/chọn theo hướng dẫn, không tự ý mở ứng dụng hoặc đường liên kết khác. Bảo vệ môi trường: Giữ khu cắm trại sạch sẽ, thu gom rác và không làm hư hại cây cối, hoa cỏ."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -5359,7 +5359,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác lựa chọn thông tin đơn giản trên học liệu số dưới sự hướng dẫn của GV. HS nghe và chọn/circle hình phù hợp với các từ và vị trí trong bài: tent, blanket, teapot; near, in, on. NLS 4.1.CB1a: Thực hiện quy tắc sử dụng thiết bị số an toàn: chỉ chạm/chọn theo hướng dẫn, không tự ý mở ứng dụng hoặc đường liên kết khác. Bảo vệ môi trường: Giữ khu cắm trại sạch sẽ, thu gom rác và không làm hư hại cây cối, hoa cỏ.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -5384,7 +5384,7 @@
           "- Show their love and interest in joining in activities at the campsite.",
           "- Raise their awareness of doing outdoor activities.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nghe - nói và phản hồi phát âm mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện hỏi - đáp: “Is the blanket near the tent?” - “No, it isn’t. It’s in the tent.”; thay thế với table, teapot, tent. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe mẫu, quan sát tranh và chọn câu trả lời phù hợp. Giáo dục an toàn khi cắm trại: Biết ở gần người lớn, không tự ý rời khu vực cắm trại và tuân thủ hướng dẫn an toàn."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -5441,7 +5441,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.A2: Nhận biết AI có thể hỗ trợ luyện nghe - nói và phản hồi phát âm mẫu câu tiếng Anh đơn giản. Dưới sự hướng dẫn của GV, HS luyện hỏi - đáp: “Is the blanket near the tent?” - “No, it isn’t. It’s in the tent.”; thay thế với table, teapot, tent. NLS 2.1.CB1a: Tham gia hoạt động giao tiếp số đơn giản trong môi trường học tập có hướng dẫn: nghe mẫu, quan sát tranh và chọn câu trả lời phù hợp. Giáo dục an toàn khi cắm trại: Biết ở gần người lớn, không tự ý rời khu vực cắm trại và tuân thủ hướng dẫn an toàn.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -5455,7 +5455,7 @@
     "sourceFile": "E2_WEEK_34.docx",
     "lessons": [
       {
-        "lessonTitle": "Review 4 – Phil and Sue - Nghe/đọc câu chuyện Phil and Sue; ôn âm, từ và mẫu câu của các Unit trước đó. (Period 67)",
+        "lessonTitle": "Review 4 – Phil and Sue - Listening and reading Phil and Sue story; reviewing phonics, vocabulary and sentence patterns. (Period 67)",
         "topic": "Review 4 – Phil and Sue",
         "period": "Period 67",
         "yccd": [
@@ -5471,7 +5471,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ AI 2.B1: Nhận biết một câu trả lời/hình minh hoạ kiểu AI có thể không khớp câu chuyện; HS kiểm tra bằng tranh và nội dung SGK. NLS 1.2.CB1a: Tìm thông tin đơn giản trong câu chuyện/học liệu số để xác nhận đáp án. Giáo dục phẩm chất: Trung thực khi nêu điều mình nghe/đọc được."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -5521,7 +5521,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: AI 2.B1: Nhận biết một câu trả lời/hình minh hoạ kiểu AI có thể không khớp câu chuyện; HS kiểm tra bằng tranh và nội dung SGK. NLS 1.2.CB1a: Tìm thông tin đơn giản trong câu chuyện/học liệu số để xác nhận đáp án. Giáo dục phẩm chất: Trung thực khi nêu điều mình nghe/đọc được.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -5529,7 +5529,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Review 4 – Self-check – Part 1 - Tự kiểm tra: nghe – chọn/đánh dấu, đọc – nối/hoàn thành theo nội dung đã học. (Period 68)",
+        "lessonTitle": "Review 4 – Self-check – Part 1 - Self-check: listening – ticking, reading – matching and completing based on learned content. (Period 68)",
         "topic": "Review 4 – Self-check – Part 1",
         "period": "Period 68",
         "yccd": [
@@ -5547,7 +5547,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ NLS 1.1.CB1a: Thực hiện thao tác nghe – chọn – kiểm tra đáp án trên học liệu số dưới sự hướng dẫn của GV. AI 2.A2: So sánh một gợi ý AI đơn giản với đáp án dựa trên tranh/audio và sửa nếu sai. Giáo dục tự học: Tự đánh dấu nội dung đã làm tốt và nội dung cần luyện thêm."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -5604,7 +5604,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 1.1.CB1a: Thực hiện thao tác nghe – chọn – kiểm tra đáp án trên học liệu số dưới sự hướng dẫn của GV. AI 2.A2: So sánh một gợi ý AI đơn giản với đáp án dựa trên tranh/audio và sửa nếu sai. Giáo dục tự học: Tự đánh dấu nội dung đã làm tốt và nội dung cần luyện thêm.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -5618,7 +5618,7 @@
     "sourceFile": "Review 4.docx & Reserve_Period_2.docx",
     "lessons": [
       {
-        "lessonTitle": "Review 4 – Self-check – Part 2 - Tự kiểm tra: củng cố đọc – viết và nói ngắn; tự nhận biết nội dung cần luyện thêm. (Period 69)",
+        "lessonTitle": "Review 4 – Self-check – Part 2 - Self-check: consolidating reading – writing and short speaking; self-assessing areas for further practice. (Period 69)",
         "topic": "Review 4 – Self-check – Part 2",
         "period": "Period 69",
         "yccd": [
@@ -5636,7 +5636,7 @@
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Make an effort to study hard in class.",
           "- Digital competence & AI literacy:",
-          "+ NLS 5.2.CB1a: Lựa chọn công cụ đơn giản phù hợp để ôn tập (audio, thẻ số, trò chơi số do GV cung cấp). AI 2.B1: Không sao chép câu trả lời AI; HS tự làm trước rồi mới dùng ví dụ AI để kiểm tra dưới sự hướng dẫn của GV. Giáo dục trung thực: Tự hoàn thành phần Self-check."
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -5691,7 +5691,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 5.2.CB1a: Lựa chọn công cụ đơn giản phù hợp để ôn tập (audio, thẻ số, trò chơi số do GV cung cấp). AI 2.B1: Không sao chép câu trả lời AI; HS tự làm trước rồi mới dùng ví dụ AI để kiểm tra dưới sự hướng dẫn của GV. Giáo dục trung thực: Tự hoàn thành phần Self-check.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]
@@ -5699,7 +5699,7 @@
         "dieuchinh": []
       },
       {
-        "lessonTitle": "Reserve period 2 - Ôn tập củng cố cuối năm học (Period 70)",
+        "lessonTitle": "Reserve period 2 - End-of-Year Review and Consolidation (Period 70)",
         "topic": "Reserve period 2",
         "period": "Period 70",
         "yccd": [
@@ -5711,7 +5711,7 @@
           "2. Competences:",
           "- Communication and collaboration: Participate enthusiastically in team games.",
           "- Digital competence & AI literacy:",
-          "+ NLS 2.4.CB1a: Tham gia hoạt động số đơn giản do GV tổ chức nếu phù hợp. AI 2.A1: Nhắc lại nguyên tắc AI chỉ hỗ trợ; cần kiểm tra thông tin trước khi sử dụng. Giáo dục linh hoạt: Nội dung được điều chỉnh theo tình hình thực tế.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB1a / AI 2.A1 – use teacher-provided digital audio/pictures to learn basic English and recognise that AI/digital voices assist listening and speaking.",
           "3. Attributes:",
           "- Pride and confidence in their progress throughout Grade 2."
         ],
@@ -5753,7 +5753,7 @@
               "DIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’)"
             ],
             [
-              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: NLS 2.4.CB1a: Tham gia hoạt động số đơn giản do GV tổ chức nếu phù hợp. AI 2.A1: Nhắc lại nguyên tắc AI chỉ hỗ trợ; cần kiểm tra thông tin trước khi sử dụng. Giáo dục linh hoạt: Nội dung được điều chỉnh theo tình hình thực tế.\nRemind pupils to practice basic digital-safety rules (sit properly, keep distance from screens, no personal data sharing).",
+              "Show 2–3 teacher-prepared digital audio/pictures from the lesson and one simple AI-style example for checking. Pupils choose Right/Wrong and verify with the textbook.\nIntegrated focus: Digital competence & AI literacy – use teacher-provided digital audio/pictures to practice English and check answers with the textbook/teacher.",
               "Digital/AI pupil action: Pupils observe/listen, choose Right/Wrong, correct one simple AI-style mistake and repeat one basic digital-safety rule."
             ]
           ]

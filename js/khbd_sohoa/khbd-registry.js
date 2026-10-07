@@ -106,7 +106,8 @@ var KHBD_DATA = {
           var th2 = isEnLesson ? "Teacher's Activities" : 'Hoạt động của giáo viên';
           var th3 = isEnLesson ? "Students' Activities" : 'Hoạt động của học sinh';
           tableHtml += '<table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem; margin-bottom: 0.8rem; font-size: 11pt;" border="1" bordercolor="#94a3b8"><thead><tr style="background: #f1f5f9; font-weight: 800; text-align: center;"><th style="padding: 0.45rem; width: 30%;">' + th0 + '</th><th style="padding: 0.45rem; width: 15%;">' + th1 + '</th><th style="padding: 0.45rem; width: 30%;">' + th2 + '</th><th style="padding: 0.45rem; width: 25%;">' + th3 + '</th></tr></thead><tbody>';
-          rows.forEach(function(r) {
+          rows.forEach(function(r, rIdx) {
+            if (rIdx === 0 && Array.isArray(r) && (/content|nội dung/i.test(r[0] || '') || /teacher|giáo viên/i.test(r[2] || ''))) return;
             if (r.length >= 4) {
               var isHeaderRow = r[0].indexOf('Khởi động') !== -1 || r[0].indexOf('Khám phá') !== -1 || r[0].indexOf('Luyện tập') !== -1 || r[0].indexOf('Vận dụng') !== -1 || /warm-up|presentation|practice|production/i.test(r[0]);
               var c0 = r[0].replace(/\n/g, '<br/>');
@@ -146,7 +147,8 @@ var KHBD_DATA = {
           var th0 = isEnLesson ? "Teacher's Activities" : 'Hoạt động của giáo viên';
           var th1 = isEnLesson ? "Students' Activities" : 'Hoạt động của học sinh';
           tableHtml += '<table style="width: 100%; border-collapse: collapse; margin-top: 0.5rem; margin-bottom: 0.8rem; font-size: 11pt;" border="1" bordercolor="#94a3b8"><thead><tr style="background: #f1f5f9; font-weight: 800; text-align: center;"><th style="padding: 0.45rem; width: 50%;">' + th0 + '</th><th style="padding: 0.45rem; width: 50%;">' + th1 + '</th></tr></thead><tbody>';
-          rows.forEach(function(r) {
+          rows.forEach(function(r, rIdx) {
+            if (rIdx === 0 && Array.isArray(r) && r.length >= 2 && /teacher|giáo viên/i.test(r[0]) && /student|pupil|học sinh/i.test(r[1])) return;
             if (r.length >= 2) {
               var isHeaderRow = r[0].indexOf('Khởi động') !== -1 || r[0].indexOf('Khám phá') !== -1 || r[0].indexOf('Luyện tập') !== -1 || r[0].indexOf('Vận dụng') !== -1 || /warm-up|presentation|practice|production/i.test(r[0]);
               var gvText = r[0].replace(/\n/g, '<br/>');

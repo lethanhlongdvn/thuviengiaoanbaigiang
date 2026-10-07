@@ -5041,13 +5041,22 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     les.lessonTitle = les.title;
   }
 
+  var subjKey = (les.subjectKey || (typeof integrationState !== 'undefined' && integrationState.subjectKey) || '').toLowerCase();
+  var isEnLesson = false;
+  if (typeof IntegrationService !== 'undefined' && IntegrationService.isEnglishLesson) {
+    isEnLesson = IntegrationService.isEnglishLesson(les, subjKey);
+  } else {
+    var checkStr = (subjKey + ' ' + (les.subjectName || '') + ' ' + (les.lessonTitle || les.title || '')).toLowerCase();
+    isEnLesson = checkStr.includes('tieng_anh') || checkStr.includes('tiếng anh') || checkStr.includes('english') || /unit\s+\d+|starter\b/i.test(checkStr);
+  }
+
   var isDouble = (les.periodSlot && les.periodSlot.toString().includes('-')) || (les.period && (les.period.toLowerCase().includes('2 tiết') || les.period.toLowerCase().includes('tiết đôi')));
-  var durationDefault = isDouble ? '70 phút' : '35 phút';
+  var durationDefault = isEnLesson ? (isDouble ? '70 minutes' : '35 minutes') : (isDouble ? '70 phút' : '35 phút');
 
   var currentWeekNum = (les.week) || (integrationState.startWeek) || (integrationState.activeTimetableWeekIndex ? (integrationState.activeTimetableWeekIndex + 1) : 1);
   var lessonDateInfo = (window.AcademicCalendar && les.dayName) ? AcademicCalendar.getDayDate(currentWeekNum, les.dayName) : null;
   var dateStr = lessonDateInfo ? lessonDateInfo.formatted : '';
-  var durationWithDate = dateStr ? (durationDefault + ' (ngày ' + dateStr + ')') : durationDefault;
+  var durationWithDate = dateStr ? (isEnLesson ? (durationDefault + ' (Date: ' + dateStr + ')') : (durationDefault + ' (ngày ' + dateStr + ')')) : durationDefault;
 
   if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.healLeakedYccd === 'function') {
     IntegrationService.healLeakedYccd(les);
@@ -5060,33 +5069,41 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var yccdHtml = normalizedPreviewList.map(function(line) {
     if (typeof line !== 'string') return '';
     var cleanLine = line;
+    if (isEnLesson) {
+      if (/^\s*(?:A\.|I\.)\s*OBJECTIVES\s*[:.-]?\s*$/i.test(cleanLine.trim())) return '';
+      if (typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
+        cleanLine = IntegrationService.translateVnToEnglish(cleanLine);
+      }
+    }
     if (/^[\s\-–—*•]*thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]*(?:\(.*\))?$/i.test(line)) {
-      cleanLine = 'Thời gian thực hiện: ' + durationWithDate;
+      cleanLine = isEnLesson ? ('Teaching time: ' + durationWithDate) : ('Thời gian thực hiện: ' + durationWithDate);
     } else if (/^[\s\-–—*•]*thời\s*gian\s*thực\s*hiện\s*:\s*[.\s_]+/i.test(line)) {
       cleanLine = line.replace(/:\s*[.\s_]+/, ': ' + durationWithDate + ' ');
     } else if (/^[\s\-–—*•]*ngày\s*thực\s*hiện\s*:\s*[.\s_]+$/i.test(line)) {
-      cleanLine = 'Ngày thực hiện: ' + (dateStr || '....................................');
+      cleanLine = isEnLesson ? ('Date: ' + (dateStr || '....................................')) : ('Ngày thực hiện: ' + (dateStr || '....................................'));
     } else if (/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i.test(line)) {
-      cleanLine = line.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + (dateStr || '....................................'));
+      cleanLine = line.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, isEnLesson ? ('Date: ' + (dateStr || '....................................')) : ('Ngày thực hiện: ' + (dateStr || '....................................')));
     }
 
-    var isDieuChinhHeader = /^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(cleanLine);
+    var isDieuChinhHeader = /^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments\s*for\s*inclusive\s*students)/i.test(cleanLine);
     if (isDieuChinhHeader) {
       inDisabilitySection = true;
       inTichHopSection = false;
       if (!hasRenderedDisabilityHeader) {
         hasRenderedDisabilityHeader = true;
-        return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">5. Điều chỉnh đối với học sinh hòa nhập:</span></p>`;
+        var disHeadTitle = isEnLesson ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
+        return `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">${disHeadTitle}</span></p>`;
       }
       return '';
     }
 
-    var isTichHopHeaderGroup = /^4\.\s*tích\s*hợp/i.test(cleanLine.trim());
+    var isTichHopHeaderGroup = /^4\.\s*(?:tích\s*hợp|integration)/i.test(cleanLine.trim());
     var isOtherHeaderGroup = /^[12356789]\.\s*/i.test(cleanLine.trim()) || /^[IVXLCDM]+\.\s*/i.test(cleanLine.trim());
     if (isTichHopHeaderGroup) {
       inTichHopSection = true;
       inDisabilitySection = false;
-      return `<p style="margin: 0; margin-top: 4px; margin-bottom: 2px; font-weight: bold; line-height: 1.35; text-align: justify;">4. Tích hợp:</p>`;
+      var intHeadTitle = isEnLesson ? '4. Integration:' : '4. Tích hợp:';
+      return `<p style="margin: 0; margin-top: 4px; margin-bottom: 2px; font-weight: bold; line-height: 1.35; text-align: justify;">${intHeadTitle}</p>`;
     } else if (isOtherHeaderGroup) {
       inTichHopSection = false;
       if (/^[1-4]\.\s*/i.test(cleanLine.trim())) inDisabilitySection = false;
@@ -5094,9 +5111,9 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
     var isKhuyetTat = inDisabilitySection || ((typeof IntegrationService !== 'undefined' && typeof IntegrationService.isDisabilityLine === 'function')
       ? IntegrationService.isDisabilityLine(cleanLine)
-      : (/học sinh khuyết tật|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)/i.test(cleanLine) || /^\*\s*(?:học\s*sinh\s*\d+|dạng\s*\d+)/i.test(cleanLine) || /^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:/i.test(cleanLine) || /^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(cleanLine)));
+      : (/học sinh khuyết tật|inclusive\s*students?|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments\s*for/i.test(cleanLine) || /^\*\s*(?:học\s*sinh\s*\d+|dạng\s*\d+|student\s*\d+|type\s*\d+)/i.test(cleanLine) || /^[-*•+–—]?\s*(?:năng\s*lực\s*đặc\s*thù|specific\s*competences?)\s*:/i.test(cleanLine) || /^[-*•+–—]?\s*(?:phẩm\s*chất[,\s]+năng\s*lực\s*chung|general\s*competences?)\s*:/i.test(cleanLine)));
 
-    var isTichHop = inTichHopSection || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(cleanLine);
+    var isTichHop = inTichHopSection || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('[Tích hợp mới]') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('[Integration') !== -1 || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital\s*competence|ai\s*literacy/i.test(cleanLine);
     if (isKhuyetTat) {
       inDisabilitySection = true;
       inTichHopSection = false;
@@ -5107,29 +5124,32 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
         .replace(/^\[Tích hợp\]\s*/i, '')
         .replace(/\(Tích hợp\)/gi, '')
-        .replace(/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)\s*[:.-]?\s*/gi, '')
+        .replace(/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments\s*for\s*inclusive\s*students(?:\s*\(SEN\))?)\s*[:.-]?\s*/gi, '')
         .trim();
       var parts = displayLine.split(/\r?\n|<br\s*\/?>/i).map(function(p) { return p.trim(); }).filter(Boolean);
       var htmlLines = parts.map(function(pLine) {
-        if (/^5\.\s*điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(pLine)) return '';
+        if (/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|adjustments\s*for\s*inclusive)/i.test(pLine)) return '';
         // Chuẩn hóa tiêu đề học sinh khuyết tật sang định dạng Dạng 1, Dạng 2 theo chuẩn
         pLine = pLine.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
           return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
         });
-        var isSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh|dạng\s*\d+)/i.test(pLine);
+        var isSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh|dạng\s*\d+|student\s*\d+|type\s*\d+)/i.test(pLine);
         if (isSubHeader) {
           return `<p style="margin: 0; margin-top: 5px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">${pLine}</span></p>`;
         }
         if (!pLine.startsWith('-') && !pLine.startsWith('+') && !pLine.startsWith('*')) {
           pLine = '- ' + pLine;
         }
-        var formattedPLine = pLine.replace(/^[-*•+–—]?\s*(năng\s*lực\s*đặc\s*thù|phẩm\s*chất[,\s]+năng\s*lực\s*chung)\s*:\s*/i, '- <b>$1:</b> ');
+        var formattedPLine = pLine
+          .replace(/^[-*•+–—]?\s*(năng\s*lực\s*đặc\s*thù|phẩm\s*chất[,\s]+năng\s*lực\s*chung)\s*:\s*/i, '- <b>$1:</b> ')
+          .replace(/^[-*•+–—]?\s*(specific\s*competences?|general\s*competences?\s*(?:&|and)\s*qualities?)\s*:\s*/i, '- <b>$1:</b> ');
         return `<p style="margin: 0; margin-top: 2px; margin-bottom: 2px; color: #c00000; font-weight: 500; line-height: 1.35; text-align: justify;"><span style="color: #c00000;">${formattedPLine}</span></p>`;
       }).filter(Boolean).join('');
 
       var headerHtml = '';
       if (!hasRenderedDisabilityHeader) {
-        headerHtml = `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">5. Điều chỉnh đối với học sinh hòa nhập:</span></p>`;
+        var disHeadTitle = isEnLesson ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
+        headerHtml = `<p style="margin: 0; margin-top: 6px; margin-bottom: 2px; font-weight: bold; color: #c00000; line-height: 1.35; text-align: justify;"><span style="color: #c00000; font-weight: bold;">${disHeadTitle}</span></p>`;
         hasRenderedDisabilityHeader = true;
       }
       return headerHtml + htmlLines;
@@ -5155,10 +5175,17 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var dodungList = les.dodung || les.teachingAids || [];
   var dodungHtml = dodungList.map(function(line) {
     if (typeof line !== 'string') return '';
-    var isDisabilityDodung = /khuyết\s*tật|hòa\s*nhập|trợ\s*cụ\s*trực\s*quan|vật\s*thật|chữ\s*phóng\s*to/i.test(line);
-    var isTichHop = line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(line) || isDisabilityDodung;
+    var cleanDodung = line.trim();
+    if (isEnLesson) {
+      if (/^\s*(?:B\.|II\.)\s*TEACHING\s*AIDS?\s*[:.-]?\s*$/i.test(cleanDodung)) return '';
+      if (typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
+        cleanDodung = IntegrationService.translateVnToEnglish(cleanDodung);
+      }
+    }
+    var isDisabilityDodung = /khuyết\s*tật|hòa\s*nhập|trợ\s*cụ\s*trực\s*quan|vật\s*thật|chữ\s*phóng\s*to|inclusive|special\s*needs/i.test(cleanDodung);
+    var isTichHop = cleanDodung.indexOf('[Tích hợp') !== -1 || cleanDodung.indexOf('[Tích hợp mới]') !== -1 || cleanDodung.indexOf('(Tích hợp)') !== -1 || cleanDodung.indexOf('[Integration') !== -1 || cleanDodung.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|ai/i.test(cleanDodung) || isDisabilityDodung;
     if (isTichHop) {
-      var displayLine = line
+      var displayLine = cleanDodung
         .replace(/<!--.*?-->/g, '')
         .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
         .replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '')
@@ -5172,7 +5199,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
       }
       return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; color: #c00000; font-weight: 500; line-height: 1.25; text-align: justify; "><span style="color: #c00000;">${displayLine}</span></p>`;
     }
-    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${line}</p>`;
+    return `<p style="margin: 0; margin-top: 0; margin-bottom: 0; line-height: 1.25; text-align: justify; ">${cleanDodung}</p>`;
   }).join('');
 
   var isHeaderRow = function(r) {
@@ -5180,9 +5207,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
     var c0 = (r[0] || '').toLowerCase().trim();
     var c1 = (r[1] || '').toLowerCase().trim();
     var c2 = (r[2] || '').toLowerCase().trim();
-    return ((c0.includes('giáo viên') || c0.includes('gv') || c0.includes('dạy học') || c0.includes('thầy')) &&
-           (c1.includes('học sinh') || c1.includes('hs') || c1.includes('trò') || c1.includes('luyện tập'))) ||
-           (c0.includes('nội dung') && (c1.includes('định lượng') || c2.includes('giáo viên')));
+    return ((c0.includes('giáo viên') || c0.includes('gv') || c0.includes('dạy học') || c0.includes('thầy') || c0.includes('teacher')) &&
+           (c1.includes('học sinh') || c1.includes('hs') || c1.includes('trò') || c1.includes('luyện tập') || c1.includes('student') || c1.includes('pupil'))) ||
+           (c0.includes('nội dung') && (c1.includes('định lượng') || c2.includes('giáo viên'))) ||
+           (c0.includes('content') && (c1.includes('timing') || c2.includes('teacher')));
   };
 
   var tablesHtml = '';
@@ -5225,6 +5253,13 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
             var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
 
+            if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
+              c0 = IntegrationService.translateVnToEnglish(c0);
+              c1 = IntegrationService.translateVnToEnglish(c1);
+              c2 = IntegrationService.translateVnToEnglish(c2);
+              c3 = IntegrationService.translateVnToEnglish(c3);
+            }
+
             var c0Html = formatPreviewCellContent(c0, isRed);
             var c1Html = formatPreviewCellContent(c1, isRed);
             var c2Html = formatPreviewCellContent(c2, isRed);
@@ -5250,22 +5285,31 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
           } else if (r.length === 1) {
             var rawHeader = r[0] || '';
             var cleanHeader = rawHeader.replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').trim();
-            var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
-            var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
-            var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
-            var isDisabilityHeader = !isTietRow && !isActivityRow && (/\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(cleanHeader));
+            if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
+              cleanHeader = IntegrationService.translateVnToEnglish(cleanHeader);
+            }
+            var isTietRow = /^tiết\s+\d+|period\s+\d+/i.test(cleanHeader);
+            var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|fun corner|wrap-up|game|activity)/i.test(cleanHeader);
+            var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh|digital|ai/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
+            var isDisabilityHeader = !isTietRow && !isActivityRow && (/\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|inclusive|sen\b/i.test(cleanHeader));
             var cellHeaderColorStyle = (isPureIntegration || isDisabilityHeader) ? 'color: #c00000;' : '';
             var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration || isDisabilityHeader) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
             rowsHtml += `<tr><td colspan="4" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
           } else if (r.length === 2) {
-            rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${(r[0]||'').replace(/\n/g, '<br/>')}</div></td><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${(r[1]||'').replace(/\n/g, '<br/>')}</div></td></tr>`;
+            var r0Text = r[0] || '';
+            var r1Text = r[1] || '';
+            if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
+              r0Text = IntegrationService.translateVnToEnglish(r0Text);
+              r1Text = IntegrationService.translateVnToEnglish(r1Text);
+            }
+            rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${r0Text.replace(/\n/g, '<br/>')}</div></td><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold;"><div style="line-height: 1.25; margin: 0;">${r1Text.replace(/\n/g, '<br/>')}</div></td></tr>`;
           }
         } else {
           if (r.length >= 2) {
             var isDisability = (typeof IntegrationService !== 'undefined' && IntegrationService.isDisabilityRow === 'function')
               ? IntegrationService.isDisabilityRow(r)
-              : (!!r.isDisabilityRow || /\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test((r[0]||'') + ' ' + (r[1]||'')));
-            var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test((r[0]||'') + ' ' + (r[1]||''));
+              : (!!r.isDisabilityRow || /\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|inclusive|sen\b/i.test((r[0]||'') + ' ' + (r[1]||'')));
+            var isTichHop = (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1 || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|ai/i.test((r[0]||'') + ' ' + (r[1]||''));
             var isRed = isTichHop || isDisability;
             var gvText = (r[0] || '')
               .replace(/<!--.*?-->/g, '')
@@ -5285,6 +5329,11 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
               .replace(/\(Tích hợp\)/gi, '')
               .replace(/\s{2,}/g, ' ')
               .trim();
+
+            if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
+              gvText = IntegrationService.translateVnToEnglish(gvText);
+              hsText = IntegrationService.translateVnToEnglish(hsText);
+            }
 
             var gvHtml = formatPreviewCellContent(gvText, isRed);
             var hsHtml = formatPreviewCellContent(hsText, isRed);
@@ -5311,10 +5360,13 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
               .replace(/\(Tích hợp\)/gi, '')
               .replace(/\s{2,}/g, ' ')
               .trim();
-            var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
-            var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
-            var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
-            var isDisabilityHeader = !isTietRow && !isActivityRow && (/\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh/i.test(cleanHeader));
+            if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
+              cleanHeader = IntegrationService.translateVnToEnglish(cleanHeader);
+            }
+            var isTietRow = /^tiết\s+\d+|period\s+\d+/i.test(cleanHeader);
+            var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|fun corner|wrap-up|game|activity)/i.test(cleanHeader);
+            var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh|digital|ai/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
+            var isDisabilityHeader = !isTietRow && !isActivityRow && (/\bHSHN\b|học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)|điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|inclusive|sen\b/i.test(cleanHeader));
             var cellHeaderColorStyle = (isPureIntegration || isDisabilityHeader) ? 'color: #c00000;' : '';
             var formattedHeader = (typeof IntegrationService !== 'undefined' && IntegrationService.formatHeaderContentWithIntegration) ? IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration || isDisabilityHeader) : ('<span>' + cleanHeader.replace(/\n/g, '<br/>') + '</span>');
             rowsHtml += `<tr><td colspan="2" style="padding: 4pt 6pt; border: 1pt solid #cbd5e1; background: #f8fafc; font-weight: bold; text-align: left; ${cellHeaderColorStyle}"><div style="line-height: 1.25; margin: 0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
@@ -5328,10 +5380,10 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             <table style="width: 100%; border-collapse: collapse; margin-top: 8pt; margin-bottom: 12pt;">
               <thead>
                 <tr style="background: #f1f5f9;">
-                  <th style="width: 30%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Nội dung</th>
-                  <th style="width: 15%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Định lượng</th>
-                  <th style="width: 30%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của giáo viên</th>
-                  <th style="width: 25%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của học sinh</th>
+                  <th style="width: 30%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">${isEnLesson ? 'Content' : 'Nội dung'}</th>
+                  <th style="width: 15%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">${isEnLesson ? 'Timing' : 'Định lượng'}</th>
+                  <th style="width: 30%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">${isEnLesson ? "Teacher's activities" : "Hoạt động của giáo viên"}</th>
+                  <th style="width: 25%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">${isEnLesson ? "Students' activities" : "Hoạt động của học sinh"}</th>
                 </tr>
               </thead>
               <tbody>
@@ -5344,8 +5396,8 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
             <table style="width: 100%; border-collapse: collapse; margin-top: 8pt; margin-bottom: 12pt;">
               <thead>
                 <tr style="background: #f1f5f9;">
-                  <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của giáo viên</th>
-                  <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">Hoạt động của học sinh</th>
+                  <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">${isEnLesson ? "Teacher's activities" : "Hoạt động của giáo viên"}</th>
+                  <th style="width: 50%; border: 1pt solid #cbd5e1; padding: 6pt; text-align: center; font-weight: bold;">${isEnLesson ? "Students' activities" : "Hoạt động của học sinh"}</th>
                 </tr>
               </thead>
               <tbody>
@@ -5370,24 +5422,24 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var ap = (typeof integrationState !== 'undefined' && integrationState.approvalConfig) || null;
   if (isLastLesson && ap && ap.enabled) {
     var leaderRoleTitle = (ap.leaderRole === 'P.Tổ trưởng' || (ap.leaderRole && ap.leaderRole.indexOf('Phó') !== -1)) 
-      ? 'PHÓ TỔ TRƯỞNG CHUYÊN MÔN' 
-      : 'TỔ TRƯỞNG CHUYÊN MÔN';
+      ? (isEnLesson ? 'VICE HEAD OF DEPARTMENT' : 'PHÓ TỔ TRƯỞNG CHUYÊN MÔN') 
+      : (isEnLesson ? 'HEAD OF DEPARTMENT' : 'TỔ TRƯỞNG CHUYÊN MÔN');
     var leaderSignName = (ap.leaderName && ap.leaderName.trim()) ? ap.leaderName.trim() : '……………………………….';
 
     var adminRoleTitle = (ap.adminRole === 'P.Hiệu trưởng' || (ap.adminRole && ap.adminRole.indexOf('Phó') !== -1))
-      ? 'PHÓ HIỆU TRƯỞNG'
-      : 'HIỆU TRƯỞNG';
+      ? (isEnLesson ? 'VICE PRINCIPAL' : 'PHÓ HIỆU TRƯỞNG')
+      : (isEnLesson ? 'PRINCIPAL' : 'HIỆU TRƯỞNG');
     var adminSignName = (ap.adminName && ap.adminName.trim()) ? ap.adminName.trim() : '……………………………..';
 
     approvalPreviewHtml = `
       <div class="approval-preview-box" style="margin-top: 30pt; padding-top: 18pt; border-top: 2px dashed #0d9488;">
         <div style="font-size: 10pt; font-weight: 800; color: #0f766e; text-align: center; margin-bottom: 12pt; text-transform: uppercase; letter-spacing: 0.5px;">
-          <i class="fa-solid fa-stamp"></i> KHUNG DUYỆT GIÁO ÁN (ĐÓNG KHUNG THEO MẪU • XUẤT THÀNH 1 TRANG RIÊNG TRONG FILE WORD)
+          <i class="fa-solid fa-stamp"></i> ${isEnLesson ? 'LESSON PLAN APPROVAL FRAME' : 'KHUNG DUYỆT GIÁO ÁN (ĐÓNG KHUNG THEO MẪU • XUẤT THÀNH 1 TRANG RIÊNG TRONG FILE WORD)'}
         </div>
         <table style="width: 100%; border-collapse: collapse; border: 2px solid #000000; font-family: 'Times New Roman', serif;">
           <tr>
             <td align="center" style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
-              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0; text-align: center;">GIÁO VIÊN SOẠN</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0; text-align: center;">${isEnLesson ? 'TEACHER' : 'GIÁO VIÊN SOẠN'}</p>
               <div style="height: 75px;"></div>
               <p align="center" style="font-size: 13pt; font-weight: bold; margin: 0; text-align: center;">${teacherDisp || '………………………'}</p>
             </td>
@@ -5395,15 +5447,15 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
           <tr>
             <td align="center" style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
               <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0; text-align: center;">${leaderRoleTitle}</p>
-              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0; text-align: center;">DUYỆT</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0; text-align: center;">${isEnLesson ? 'APPROVED' : 'DUYỆT'}</p>
               <div style="height: 80px;"></div>
               <p align="center" style="font-size: 13pt; font-weight: bold; margin: 0; text-align: center;">${leaderSignName}</p>
             </td>
           </tr>
           <tr>
             <td align="center" style="border: 1px solid #000000; text-align: center; vertical-align: top; padding: 14px 10px;">
-              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0; text-align: center;">BAN GIÁM HIỆU</p>
-              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0; text-align: center;">DUYỆT</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0; text-align: center;">${isEnLesson ? 'SCHOOL PRINCIPAL / BOARD' : 'BAN GIÁM HIỆU'}</p>
+              <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0; text-align: center;">${isEnLesson ? 'APPROVED' : 'DUYỆT'}</p>
               <p align="center" style="font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 3px 0 0 0; text-align: center;">${adminRoleTitle}</p>
               <div style="height: 85px;"></div>
               <p align="center" style="font-size: 13pt; font-weight: bold; margin: 0; text-align: center;">${adminSignName}</p>
@@ -5420,11 +5472,19 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
   var previewDateStr = previewDateInfo ? previewDateInfo.formatted : '';
   var dayHeaderTitle = les.dayName ? (les.dayName + (previewDateStr ? (', ngày ' + previewDateStr) : '')) : '';
 
-  var daySessionInfo = dayHeaderTitle ? (`<p align="center" style="font-size: 11pt; font-weight: bold; color: #1e40af; margin-bottom: 4pt; text-align: center;">${dayHeaderTitle} • Buổi ${les.session || 'Sáng'} • ${les.periodSlot ? ('Tiết ' + les.periodSlot) : ''}${les.className ? (' • Lớp ' + les.className) : ''}</p>`) : '';
+  var daySessionInfo = '';
+  if (dayHeaderTitle) {
+    var dayTitleDisp = isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish ? IntegrationService.translateVnToEnglish(dayHeaderTitle) : dayHeaderTitle;
+    var sessionDisp = isEnLesson ? (les.session === 'Chiều' ? 'Afternoon' : 'Morning') : (les.session || 'Sáng');
+    var periodSlotDisp = isEnLesson ? ('Period ' + les.periodSlot) : ('Tiết ' + les.periodSlot);
+    var classDisp = isEnLesson ? (les.className ? (' • Class ' + les.className.replace(/^lớp\s*/i, '')) : '') : (les.className ? (' • Lớp ' + les.className) : '');
+    daySessionInfo = `<p align="center" style="font-size: 11pt; font-weight: bold; color: #1e40af; margin-bottom: 4pt; text-align: center;">${dayTitleDisp} • ${sessionDisp} • ${les.periodSlot ? periodSlotDisp : ''}${classDisp}</p>`;
+  }
 
   var subjName = les.subjectName || (integrationState.subjectKey ? IntegrationService.getSubjectDisplayName(integrationState.subjectKey) : '') || (les.subjectKey ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || 'Lịch sử và Địa lí';
+  if (isEnLesson) subjName = 'English';
 
-  var rawTitle = les.lessonTitle || les.title || 'BÀI DẠY';
+  var rawTitle = les.lessonTitle || les.title || (isEnLesson ? 'LESSON' : 'BÀI DẠY');
   var cleanLessonTitle = (typeof IntegrationService !== 'undefined' && IntegrationService.cleanLessonTitle)
     ? IntegrationService.cleanLessonTitle(rawTitle, les, subjName)
     : rawTitle
@@ -5434,15 +5494,31 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         .replace(/^Tuần\s+\d+\s*[-–—:]\s*/i, '')
         .trim();
 
+  if (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish) {
+    cleanLessonTitle = IntegrationService.translateVnToEnglish(cleanLessonTitle);
+  }
+
   // Phòng hộ đa tầng: tuyệt đối không để tiêu đề bài trùng trơ trọi tên môn học
   if (cleanLessonTitle && cleanLessonTitle.trim().toUpperCase() === subjName.trim().toUpperCase()) {
-    if (les.topic) cleanLessonTitle = les.topic;
+    if (les.topic) cleanLessonTitle = isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish ? IntegrationService.translateVnToEnglish(les.topic) : les.topic;
     else if (les.period) cleanLessonTitle = subjName + ' (' + les.period + ')';
   }
 
   if (previewDateStr && /ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i.test(cleanLessonTitle)) {
-    cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + previewDateStr);
+    cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, isEnLesson ? ('Date: ' + previewDateStr) : ('Ngày thực hiện: ' + previewDateStr));
   }
+
+  // Deduplicate Period if already included in lesson title
+  var periodText = les.period ? (isEnLesson && typeof IntegrationService !== 'undefined' && IntegrationService.translateVnToEnglish ? IntegrationService.translateVnToEnglish(String(les.period)) : String(les.period)) : '';
+  if (periodText && cleanLessonTitle.toLowerCase().includes(periodText.toLowerCase())) {
+    periodText = '';
+  }
+
+  var titleHeader = isEnLesson ? 'LESSON PLAN' : 'KẾ HOẠCH BÀI DẠY';
+  var curGradeNum = les.grade || (integrationState && integrationState.grade) || 2;
+  var titleSubject = isEnLesson
+    ? ('SUBJECT: ENGLISH - GRADE ' + curGradeNum + (les.classes ? (' (Classes: ' + les.classes + ')') : (les.className ? (' (Class: ' + les.className.replace(/^lớp\s*/i, '') + ')') : '')))
+    : ('MÔN: ' + subjName.toUpperCase() + (les.grade ? (' - KHỐI ' + les.grade) : '') + (les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' - ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '')));
 
   return `
     <div style="text-align: center; margin-bottom: 15pt;">
@@ -5450,39 +5526,39 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
         <tr>
           <td style="width: 50%; vertical-align: top; text-align: left; font-size: 11pt;">
             <p style="margin:0;"><strong>${schoolDisp}</strong></p>
-            ${isGvbm && gvbmCfg.department ? `<p style="margin:2pt 0 0 0;">Tổ chuyên môn: <strong>${gvbmCfg.department}</strong></p>` : ''}
-            <p style="margin:2pt 0 0 0;">Giáo viên: <strong>${teacherDisp || '.................................................'}</strong></p>
+            ${isGvbm && gvbmCfg.department ? `<p style="margin:2pt 0 0 0;">${isEnLesson ? 'Department: ' : 'Tổ chuyên môn: '}<strong>${gvbmCfg.department}</strong></p>` : ''}
+            <p style="margin:2pt 0 0 0;">${isEnLesson ? 'Teacher: ' : 'Giáo viên: '}<strong>${teacherDisp || '.................................................'}</strong></p>
           </td>
           <td style="width: 50%; vertical-align: top; text-align: right; font-size: 11pt;">
-            <p style="margin:0;"><strong>NĂM HỌC: ${yearDisp}</strong></p>
-            <p style="margin:2pt 0 0 0;">${les.classes ? ('<b>Khối ' + (les.grade || '') + '</b> (Các lớp: ' + les.classes + ') • ') : (les.className ? ('<b>Lớp: ' + les.className + '</b> (Khối ' + (les.grade || '') + ') • ') : (integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Khối ' + (les.grade || integrationState.grade) + ' • ')))}Tuần: <strong>${previewWeek}</strong></p>
+            <p style="margin:0;"><strong>${isEnLesson ? 'SCHOOL YEAR: ' : 'NĂM HỌC: '}${yearDisp}</strong></p>
+            <p style="margin:2pt 0 0 0;">${isEnLesson ? (les.classes ? ('<b>Grade ' + (les.grade || '') + '</b> (Classes: ' + les.classes + ') • ') : (les.className ? ('<b>Class: ' + les.className.replace(/^lớp\s*/i, '') + '</b> (Grade ' + (les.grade || '') + ') • ') : (integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Grade ' + (les.grade || integrationState.grade) + ' • ')))) + 'Week: <strong>' + previewWeek + '</strong>' : (les.classes ? ('<b>Khối ' + (les.grade || '') + '</b> (Các lớp: ' + les.classes + ') • ') : (les.className ? ('<b>Lớp: ' + les.className + '</b> (Khối ' + (les.grade || '') + ') • ') : (integrationState.className ? ('<b>' + integrationState.className + '</b> • ') : ('Khối ' + (les.grade || integrationState.grade) + ' • ')))) + 'Tuần: <strong>' + previewWeek + '</strong>'}</p>
           </td>
         </tr>
       </table>
 
       ${daySessionInfo}
-      <h2 align="center" style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase; text-align: center;">KẾ HOẠCH BÀI DẠY</h2>
-      <p align="center" style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0; text-align: center;">MÔN: ${subjName.toUpperCase()}${les.grade ? (' - KHỐI ' + les.grade) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' - ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '')}</p>
+      <h2 align="center" style="font-size: 14pt; font-weight: bold; margin: 0; text-transform: uppercase; text-align: center;">${titleHeader}</h2>
+      <p align="center" style="font-size: 13pt; font-weight: bold; margin: 3pt 0 0 0; text-align: center;">${titleSubject}</p>
       <p align="center" style="font-size: 14pt; font-weight: bold; color: #1e3a8a; margin: 4pt 0 0 0; text-align: center;">${cleanLessonTitle}</p>
-      ${les.period ? ('<p align="center" style="font-style: italic; margin: 2pt 0 0 0; text-align: center;">(' + les.period + ')</p>') : ''}
+      ${periodText ? ('<p align="center" style="font-style: italic; margin: 2pt 0 0 0; text-align: center;">(' + periodText + ')</p>') : ''}
     </div>
 
-    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">I. YÊU CẦU CẦN ĐẠT:</div>
+    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">${isEnLesson ? 'A. OBJECTIVES:' : 'I. YÊU CẦU CẦN ĐẠT:'}</div>
     <div style="margin-left: 10pt; text-align: justify; ">
-      ${yccdHtml || '<p style="text-align: justify; ">Theo chuẩn chương trình môn học.</p>'}
+      ${yccdHtml || (isEnLesson ? '<p style="text-align: justify; ">According to the curriculum.</p>' : '<p style="text-align: justify; ">Theo chuẩn chương trình môn học.</p>')}
     </div>
 
-    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">II. ĐỒ DÙNG DẠY HỌC:</div>
+    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">${isEnLesson ? 'B. TEACHING AIDS:' : 'II. ĐỒ DÙNG DẠY HỌC:'}</div>
     <div style="margin-left: 10pt; text-align: justify; ">
-      ${dodungHtml || '<p style="text-align: justify; ">1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>'}
+      ${dodungHtml || (isEnLesson ? '<p style="text-align: justify; ">1. Teacher: Textbook, laptop, TV/projector.<br>2. Students: Textbooks, notebooks, school things.</p>' : '<p style="text-align: justify; ">1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>')}
     </div>
 
-    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:</div>
+    <div style="font-weight: bold; text-transform: uppercase; margin-top: 12pt; margin-bottom: 4pt;">${isEnLesson ? 'C. PROCEDURES:' : 'III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:'}</div>
     <div style="margin-left: 5pt; text-align: justify; ">
-      ${tablesHtml || '<p style="text-align: justify; ">Tiến trình hoạt động chuẩn theo KHBD số hóa.</p>'}
+      ${tablesHtml || (isEnLesson ? '<p style="text-align: justify; ">Follow the standard lesson procedure.</p>' : '<p style="text-align: justify; ">Tiến trình hoạt động chuẩn theo KHBD số hóa.</p>')}
     </div>
 
-    <div style="font-weight: bold; text-transform: uppercase; margin-top: 10pt; margin-bottom: 4pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):</div>
+    <div style="font-weight: bold; text-transform: uppercase; margin-top: 10pt; margin-bottom: 4pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">${isEnLesson ? 'D. ADJUSTMENTS (IF ANY):' : 'IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):'}</div>
     <div style="margin-left: 10pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
       <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>
       <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>

@@ -823,7 +823,7 @@ var IntegrationService = {
     
     if (typeof document === 'undefined') return true;
 
-    var version = (typeof window !== 'undefined' && window.appVersion) ? window.appVersion : '1.0.0';
+    var version = (typeof window !== 'undefined' && window.appVersion) ? window.appVersion : '20261008_v2';
     var filePath = 'js/khbd_sohoa/lop' + g + '/lop' + g + '_' + sId + '.js';
     var fullPath = filePath + '?v=' + version;
     
@@ -5534,10 +5534,24 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
          .replace(/DUYỆT/gi, 'APPROVED')
          .replace(/Phòng Y tế \(School Clinic\)/g, 'School Clinic')
          .replace(/Phòng Y tế/g, 'School Clinic')
-         .replace(/Tiếng Anh 5/g, 'English 5')
-         .replace(/Tiếng Anh 4/g, 'English 4')
-         .replace(/Tiếng Anh 3/g, 'English 3')
-         .replace(/Tiếng Anh/g, 'English')
+         .replace(/Tiếng\s*Anh\s*(\d)/gi, 'English $1')
+         .replace(/Tiếng\s*Anh/gi, 'English')
+         .replace(/Khối\s*(\d+)/gi, 'Grade $1')
+         .replace(/Lớp\s*([0-9A-Za-z]+)/gi, 'Class $1')
+         .replace(/Tuần\s*(\d+)/gi, 'Week $1')
+         .replace(/Năm\s*học/gi, 'School Year')
+         .replace(/Kế\s*hoạch\s*bài\s*dạy/gi, 'Lesson Plan')
+         .replace(/Yêu\s*cầu\s*cần\s*đạt/gi, 'Objectives')
+         .replace(/Đồ\s*dùng\s*dạy\s*học/gi, 'Teaching aids')
+         .replace(/Hoạt\s*động\s*của\s*giáo\s*viên/gi, "Teacher's activities")
+         .replace(/Hoạt\s*động\s*của\s*học\s*sinh/gi, "Students' activities")
+         .replace(/Các\s*hoạt\s*động\s*dạy\s*học\s*chủ\s*yếu/gi, 'Procedures')
+         .replace(/Điều\s*chỉnh\s*sau\s*bài\s*dạy(?:\s*\(nếu\s*có\))?/gi, 'Adjustments (if any)')
+         .replace(/Thời\s*gian\s*thực\s*hiện/gi, 'Teaching time')
+         .replace(/Ngày\s*thực\s*hiện/gi, 'Date')
+         .replace(/Tổ\s*chuyên\s*môn/gi, 'Department')
+         .replace(/Tiến\s*trình\s*hoạt\s*động\s*chuẩn\s*theo\s*KHBD\s*số\s*hóa/gi, 'Follow standard lesson procedure')
+         .replace(/Theo\s*chuẩn\s*chương\s*trình\s*môn\s*học/gi, 'According to curriculum standards')
          .replace(/50\.000đ\s*–\s*60\.000đ/g, '50,000 VND - 60,000 VND')
          .replace(/55\.000đ/g, '55,000 VND');
 
