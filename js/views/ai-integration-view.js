@@ -1951,6 +1951,19 @@ function clearIntegrationPasteText() {
 
 function onIntegrationGradeChange(grade) {
   integrationState.grade = parseInt(grade) || 5;
+
+  // Tự động đồng bộ hóa tên lớp / khối với khối mới được chọn (tránh lưu vết nhầm KHỐI 3 sang KHỐI 4, 5)
+  if (integrationState.className) {
+    var matchGrade = integrationState.className.match(/(?:khối|lớp)\s*(\d)/i);
+    if (matchGrade && parseInt(matchGrade[1], 10) !== integrationState.grade) {
+      integrationState.className = integrationState.className.replace(
+        new RegExp('(khối|lớp)\\s*' + matchGrade[1], 'gi'),
+        '$1 ' + integrationState.grade
+      );
+      try { localStorage.setItem('tvth_class_name', integrationState.className); } catch(e){}
+    }
+  }
+
   var subjs = getIntegrationSubjectsForGrade(integrationState.grade);
   var subjSelect = document.getElementById('integSubjectSelect');
   if (subjSelect) {
@@ -3599,6 +3612,14 @@ async function triggerDirectFastExport() {
         await IntegrationService.adaptLessonsDisabilityWithGemini(allPlanLessons, disSupport);
       }
 
+      var expClassName = integrationState.className;
+      if (expClassName) {
+        var matchGrade = expClassName.match(/(?:khối|lớp)\s*(\d)/i);
+        if (matchGrade && parseInt(matchGrade[1], 10) !== parseInt(grade, 10)) {
+          expClassName = expClassName.replace(new RegExp('(khối|lớp)\\s*' + matchGrade[1], 'gi'), '$1 ' + grade);
+        }
+      }
+
       var saveResult = await IntegrationService.exportToWord(weeksPlan, {
         grade: grade,
         subjectName: IntegrationService.getSubjectDisplayName(subj),
@@ -3607,7 +3628,7 @@ async function triggerDirectFastExport() {
         schoolName: integrationState.schoolName,
         teacherName: integrationState.teacherName,
         schoolYear: integrationState.schoolYear,
-        className: integrationState.className,
+        className: expClassName,
         disabilitySupport: disSupport,
         gddpSupport: gddpSupport,
         approvalConfig: integrationState.approvalConfig,

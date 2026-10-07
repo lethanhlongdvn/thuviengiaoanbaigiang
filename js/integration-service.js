@@ -5072,6 +5072,14 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var schoolYear = meta.schoolYear || '2026 - 2027';
     var className = meta.className || '';
 
+    // Khắc phục triệt để lỗi lệch khối: Nếu className chứa thông tin khối/lớp cũ (ví dụ "KHỐI 3" khi đang xuất Khối 4/5)
+    if (className) {
+      var matchGrade = className.match(/(?:khối|lớp)\s*(\d)/i);
+      if (matchGrade && parseInt(matchGrade[1], 10) !== parseInt(grade, 10)) {
+        className = className.replace(new RegExp('(khối|lớp)\\s*' + matchGrade[1], 'gi'), '$1 ' + grade);
+      }
+    }
+
     var lessons = [];
     if (Array.isArray(lessonsOrWeeks)) {
       if (lessonsOrWeeks.length > 0 && lessonsOrWeeks[0].lessons) {
@@ -5433,8 +5441,16 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = meta.teacherName || '';
     var schoolYear = meta.schoolYear || '2026 - 2027';
-    var className = meta.className || '';
     var grade = meta.grade || 5;
+    var className = meta.className || '';
+
+    // Khắc phục triệt để lỗi lệch khối: Nếu className chứa thông tin khối/lớp cũ (ví dụ "KHỐI 3" khi đang xuất Khối 4/5)
+    if (className) {
+      var matchGrade = className.match(/(?:khối|lớp)\s*(\d)/i);
+      if (matchGrade && parseInt(matchGrade[1], 10) !== parseInt(grade, 10)) {
+        className = className.replace(new RegExp('(khối|lớp)\\s*' + matchGrade[1], 'gi'), '$1 ' + grade);
+      }
+    }
     var department = meta.department || '';
     var isTimetableDoc = !!meta.isTimetableDoc;
 
@@ -6139,7 +6155,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               <td style="width: 50%; text-align: left;" align="left">
                 <p style="text-align: left; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left"><b>${schoolName}</b></p>
                 ${depText}
-                <p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Giáo viên: <b>${teacherName}</b></p>
+                <p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Giáo viên: <b>${teacherName || '.................................'}</b></p>
               </td>
               <td style="width: 50%; text-align: right;" align="right">
                 <p style="text-align: right; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="right"><b>NĂM HỌC: ${schoolYear}</b></p>
