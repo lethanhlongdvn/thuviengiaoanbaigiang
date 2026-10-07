@@ -890,7 +890,7 @@ var IntegrationService = {
     } else {
       subjs.push('khoa_hoc', 'lich_su_dia_ly', 'cong_nghe');
     }
-    if (g >= 3) {
+    if (g >= 2) {
       subjs.push('tieng_anh');
     }
 
@@ -5382,8 +5382,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         pList.push('<p align="center" style="margin: 4pt 0pt; text-align: center; line-height: 1.0; mso-para-margin: 4pt 0pt;">' + normImg + '</p>');
         continue;
       }
-      var isLineDisability = /\bHSHN\b/i.test(line) || /\[HSHN\]/i.test(line) || /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(line);
-      var curLineStyle = (cellStyle || isLineDisability) ? 'color: #C00000;' : '';
+      var isLineDisability = /\b(?:HSHN|SEN)\b/i.test(line) || /\[(?:HSHN|SEN)\]/i.test(line) || /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(line) || /inclusive\s*student/i.test(line);
+      var isLineTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(line) || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || line.indexOf('[Tích hợp') !== -1;
+      var curLineStyle = (cellStyle || isLineDisability || isLineTichHop) ? 'color: #C00000;' : '';
       var inner = curLineStyle ? ('<span style="' + curLineStyle + '"><font color="#C00000">' + line + '</font></span>') : line;
       pList.push('<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + '; ' + curLineStyle + '">' + inner + '</p>');
     }
@@ -6007,6 +6008,25 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var hasRenderedDisabilityHeader = false;
       var inDisabilitySection = false;
       var normalizedYccdList = IntegrationService.normalizeYccd(les.yccd || []);
+      
+      var maxHeaderNum = 0;
+      normalizedYccdList.forEach(function(l) {
+        if (typeof l === 'string') {
+          var m = l.trim().match(/^(\d+)\.\s/);
+          if (m) {
+            var num = parseInt(m[1]);
+            if (num < 4 && num > maxHeaderNum) maxHeaderNum = num;
+          }
+        }
+      });
+      var tichHopNum = maxHeaderNum + 1;
+      var hasTichHop = normalizedYccdList.some(function(l) { 
+        if (typeof l !== 'string') return false;
+        var clean = l.trim();
+        return /^(?:4|3)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|integration)\s*[:.-]?$/i.test(clean) || /^[\s*•\-–—]*(?:tích\s*hợp|integration)\s*[:.-]?$/i.test(clean); 
+      });
+      var senNum = hasTichHop ? (tichHopNum + 1) : tichHopNum;
+
       var yccdContent = normalizedYccdList.map(function(line) {
         if (typeof line !== 'string') return '';
         var cleanLine = line.trim();
@@ -6025,33 +6045,33 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           return '';
         }
 
-        var isSingleLineDieuChinhHeader = !cleanLine.includes('\n') && /^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students(?:\s*\(sen\))?|\(sen\)))[:.\s]*$/i.test(cleanLine);
+        var isSingleLineDieuChinhHeader = !cleanLine.includes('\n') && /^\d+\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students(?:\s*\(sen\))?|\(sen\)))[:.\s]*$/i.test(cleanLine);
         if (isSingleLineDieuChinhHeader) {
           inDisabilitySection = true;
           inTichHopSection = false;
           if (!hasRenderedDisabilityHeader) {
             hasRenderedDisabilityHeader = true;
-            var senHeaderText = isEnLesson ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
+            var senHeaderText = isEnLesson ? senNum + '. Adjustments for inclusive students (SEN):' : senNum + '. Điều chỉnh đối với học sinh hòa nhập:';
             return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + senHeaderText + '</span></p>';
           }
           return '';
         }
 
         // Nhận diện Tiêu đề nhóm Tích hợp (ví dụ: "4. Tích hợp", "4. Integration")
-        var isTichHopHeaderGroup = /^(?:4|3)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|integration)\s*[:.-]?$/i.test(cleanLine) || /^[\s*•\-–—]*(?:tích\s*hợp|integration)\s*[:.-]?$/i.test(cleanLine);
+        var isTichHopHeaderGroup = /^(?:\d+)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|integration)\s*[:.-]?$/i.test(cleanLine) || /^[\s*•\-–—]*(?:tích\s*hợp|integration)\s*[:.-]?$/i.test(cleanLine);
         if (isTichHopHeaderGroup) {
           inTichHopSection = true;
           inDisabilitySection = false;
           if (!hasRenderedTichHopHeader) {
             hasRenderedTichHopHeader = true;
-            var tichHopHeader = isEnLesson ? '4. Integration:' : '4. Tích hợp:';
+            var tichHopHeader = isEnLesson ? tichHopNum + '. Integration:' : tichHopNum + '. Tích hợp:';
             return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">' + tichHopHeader + '</p>';
           }
           return '';
         }
 
         // Nếu gặp tiêu đề nhóm khác (như 1., 2., 3., 5.) thì thoát khỏi section tích hợp
-        if (/^[1-35]\.\s+(?:năng\s*lực|phẩm\s*chất|kiến\s*thức|điều\s*chỉnh|competence|qualit|knowledge|adjustment)/i.test(cleanLine)) {
+        if (/^\d+\.\s+(?:năng\s*lực|phẩm\s*chất|kiến\s*thức|điều\s*chỉnh|competence|qualit|knowledge|adjustment)/i.test(cleanLine)) {
           inTichHopSection = false;
         }
         if (/^[1-4]\.\s*/i.test(cleanLine)) {
@@ -6110,7 +6130,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
           var headerHtml = '';
           if (!hasRenderedDisabilityHeader) {
-            var senHeaderText = isEnLesson ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
+            var senHeaderText = isEnLesson ? senNum + '. Adjustments for inclusive students (SEN):' : senNum + '. Điều chỉnh đối với học sinh hòa nhập:';
             headerHtml = '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + senHeaderText + '</span></p>';
             hasRenderedDisabilityHeader = true;
           }
@@ -6200,7 +6220,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               if (r.length >= 4) {
                 var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[2] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[3] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[2] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[3] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1;
                 var isDisability = IntegrationService.isDisabilityRow(r);
-                var isRed = isTichHop || isDisability;
+                var isRed = false; // Disable whole-cell red coloring
                 var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
                 var c1 = (r[1] || '').trim();
                 var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
@@ -6211,25 +6231,24 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   c2 = IntegrationService.translateVnToEnglish(c2);
                   c3 = IntegrationService.translateVnToEnglish(c3);
                 }
-                var cellStyle = isRed ? 'color: #C00000;' : '';
 
-                var c0Html = IntegrationService.formatCellParagraphs(c0, isRed, 'justify');
-                var c1Html = IntegrationService.formatCellParagraphs(c1, isRed, 'center');
-                var c2Html = IntegrationService.formatCellParagraphs(c2, isRed, 'justify');
-                var c3Html = IntegrationService.formatCellParagraphs(c3, isRed, 'justify');
+                var c0Html = IntegrationService.formatCellParagraphs(c0, false, 'justify');
+                var c1Html = IntegrationService.formatCellParagraphs(c1, false, 'center');
+                var c2Html = IntegrationService.formatCellParagraphs(c2, false, 'justify');
+                var c3Html = IntegrationService.formatCellParagraphs(c3, false, 'justify');
 
                 rowsHtml += `
                   <tr>
-                    <td style="width: 30%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                    <td style="width: 30%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">
                       ${c0Html}
                     </td>
-                    <td style="width: 15%; vertical-align: top; text-align: center; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; ${cellStyle}">
+                    <td style="width: 15%; vertical-align: top; text-align: center; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
                       ${c1Html}
                     </td>
-                    <td style="width: 30%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                    <td style="width: 30%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">
                       ${c2Html}
                     </td>
-                    <td style="width: 25%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                    <td style="width: 25%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">
                       ${c3Html}
                     </td>
                   </tr>
@@ -6252,9 +6271,6 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               }
             } else {
               if (r.length >= 2) {
-                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[1] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1;
-                var isDisability = IntegrationService.isDisabilityRow(r);
-                var isRed = isTichHop || isDisability;
                 var gvText = (r[0] || '')
                   .replace(/<!--.*?-->/g, '')
                   .replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '')
@@ -6279,16 +6295,15 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   hsText = IntegrationService.translateVnToEnglish(hsText);
                 }
 
-                var cellStyle = isRed ? 'color: #C00000;' : '';
-                var gvHtml = IntegrationService.formatCellParagraphs(gvText, isRed, 'justify');
-                var hsHtml = IntegrationService.formatCellParagraphs(hsText, isRed, 'justify');
+                var gvHtml = IntegrationService.formatCellParagraphs(gvText, false, 'justify');
+                var hsHtml = IntegrationService.formatCellParagraphs(hsText, false, 'justify');
 
                 rowsHtml += `
                   <tr>
-                    <td style="width: 50%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                    <td style="width: 50%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">
                       ${gvHtml}
                     </td>
-                    <td style="width: 50%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify; ${cellStyle}">
+                    <td style="width: 50%; vertical-align: top; padding: 3.5pt 5pt; border: 1pt solid #000; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">
                       ${hsHtml}
                     </td>
                   </tr>
@@ -6459,6 +6474,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         : ('MÔN: ' + subjName.toUpperCase() + ((meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : '') + (les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')));
 
       var periodText = les.period ? (isEnLesson ? IntegrationService.translateVnToEnglish(String(les.period)) : String(les.period)) : '';
+      if (periodText && cleanLessonTitle.toLowerCase().includes(periodText.toLowerCase())) {
+        periodText = '';
+      }
 
       if (lIdx === 0 || !isContinuousMode) {
         docHtml += `
