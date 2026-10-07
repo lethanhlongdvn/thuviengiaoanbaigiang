@@ -973,7 +973,7 @@ HÃY TRẢ VỀ DUY NHẤT MỘT ĐỐI TƯỢNG JSON HỢP LỆ (Không kèm ma
     var opt = options || {};
     var defaultKey = (typeof window !== 'undefined' && window.CONFIG && window.CONFIG.DEFAULT_GEMINI_API_KEY) || (typeof CONFIG !== 'undefined' && CONFIG.DEFAULT_GEMINI_API_KEY) || '';
     var activeKey = (apiKey && apiKey.trim()) || defaultKey;
-    var models = ["gemini-2.5-flash", "gemini-3.1-flash-lite", "gemini-3.5-flash"];
+    var models = ["gemini-flash-lite-latest", "gemini-3.1-flash-lite", "gemini-3.5-flash-lite", "gemini-2.5-flash", "gemini-3.5-flash"];
     var lastError = null;
 
     for (var m = 0; m < models.length; m++) {

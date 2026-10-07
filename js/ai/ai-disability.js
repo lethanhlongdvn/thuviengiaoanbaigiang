@@ -325,11 +325,14 @@ extractDisabilityObjectsFromRaw: function(text) {
     var isEnglishSubject = sampleSubj.includes('tieng_anh') ||
       sampleSubj.includes('english') ||
       (itemsToSend[0] && ((itemsToSend[0].subject || '') + ' ' + (itemsToSend[0].title || '')).toLowerCase().includes('tiếng anh')) ||
-      (itemsToSend[0] && /unit\s+\d+/i.test(itemsToSend[0].title || '')) ||
+      (itemsToSend[0] && /unit\s+\d+|starter\b|review\s+\d+|short\s+story|fun\s+time/i.test(itemsToSend[0].title || '')) ||
+      (typeof IntegrationService !== 'undefined' && typeof IntegrationService.isEnglishLesson === 'function' && chunkLessons.some(function(l) { return IntegrationService.isEnglishLesson(l, sampleSubj); })) ||
       (chunkLessons && chunkLessons.some(function(l) {
         var s = ((l.subjectKey || '') + ' ' + (l.subjectName || '') + ' ' + (l.subject || '') + ' ' + (l.lessonTitle || '') + ' ' + (l.title || '')).toLowerCase();
-        return s.includes('tieng_anh') || s.includes('tiếng anh') || s.includes('english') || /unit\s+\d+/i.test(s);
+        var yStr = (Array.isArray(l.yccd) ? l.yccd.join(' ') : (l.yccd || '')).toLowerCase();
+        return s.includes('tieng_anh') || s.includes('tiếng anh') || s.includes('english') || /unit\s+\d+|starter\b|review\s+\d+|short\s+story|fun\s+time/i.test(s) || /objectives|pupils will be able to/i.test(yStr);
       }));
+    if (isEnglishSubject && (!sampleSubj || !sampleSubj.includes('tieng_anh'))) sampleSubj = 'tieng_anh';
     var sampleGrade = itemsToSend[0] ? itemsToSend[0].grade : (disabilityConfig ? disabilityConfig.grade : 5);
 
     var studentInfoSections = studentsList.map(function(st, sIdx) {

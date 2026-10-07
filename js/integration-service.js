@@ -1733,7 +1733,11 @@ var IntegrationService = {
     this.cleanDisabilityFromTables(lesson);
     if (!disabilityConfig || !disabilityConfig.enabled || disabilityConfig.scope === 'yccd_only') return lesson;
 
-    var acts = lesson.disabilityActivitiesAI || this.getSmartDisabilityActivities(lesson, disabilityConfig);
+    // Yêu cầu bắt buộc do Gemini API sinh ra (chế độ offline đã tắt)
+    var acts = lesson.disabilityActivitiesAI;
+    if (!acts && disabilityConfig.allowOfflineFallback) {
+      acts = this.getSmartDisabilityActivities(lesson, disabilityConfig);
+    }
     if (!acts) return lesson;
 
     var tableRows = lesson.tables[0];
@@ -1981,11 +1985,14 @@ var IntegrationService = {
     var isEnglishSubject = sampleSubj.includes('tieng_anh') ||
       sampleSubj.includes('english') ||
       (itemsToSend[0] && ((itemsToSend[0].subject || '') + ' ' + (itemsToSend[0].title || '')).toLowerCase().includes('tiếng anh')) ||
-      (itemsToSend[0] && /unit\s+\d+/i.test(itemsToSend[0].title || '')) ||
+      (itemsToSend[0] && /unit\s+\d+|starter\b|review\s+\d+|short\s+story|fun\s+time/i.test(itemsToSend[0].title || '')) ||
+      (chunkLessons && chunkLessons.some(function(l) { return self.isEnglishLesson(l, sampleSubj); })) ||
       (chunkLessons && chunkLessons.some(function(l) {
         var s = ((l.subjectKey || '') + ' ' + (l.subjectName || '') + ' ' + (l.subject || '') + ' ' + (l.lessonTitle || '') + ' ' + (l.title || '')).toLowerCase();
-        return s.includes('tieng_anh') || s.includes('tiếng anh') || s.includes('english') || /unit\s+\d+/i.test(s);
+        var yStr = (Array.isArray(l.yccd) ? l.yccd.join(' ') : (l.yccd || '')).toLowerCase();
+        return s.includes('tieng_anh') || s.includes('tiếng anh') || s.includes('english') || /unit\s+\d+|starter\b|review\s+\d+|short\s+story|fun\s+time/i.test(s) || /objectives|pupils will be able to/i.test(yStr);
       }));
+    if (isEnglishSubject && (!sampleSubj || !sampleSubj.includes('tieng_anh'))) sampleSubj = 'tieng_anh';
     var sampleGrade = itemsToSend[0] ? itemsToSend[0].grade : (disabilityConfig ? disabilityConfig.grade : 5);
 
     var studentInfoSections = studentsList.map(function(st, sIdx) {
@@ -2816,8 +2823,11 @@ ${sampleJson}`;
       return lesson;
     }
 
-    // 3. Chèn kết quả sinh từ Gemini AI hoặc smart fallback 2 gạch đầu dòng bám sát môn học
-    var disabilityLine = lesson.disabilityYccdAI || this.getSmartDisabilityYccd(lesson, disabilityConfig);
+    // 3. Chèn kết quả sinh trực tiếp từ Gemini API (Chế độ offline đã bị tắt theo chuẩn bắt buộc API)
+    var disabilityLine = lesson.disabilityYccdAI;
+    if (!disabilityLine && disabilityConfig.allowOfflineFallback) {
+      disabilityLine = this.getSmartDisabilityYccd(lesson, disabilityConfig);
+    }
     if (disabilityLine && typeof disabilityLine === 'string' && disabilityLine.trim()) {
       disabilityLine = this.ensureDisabilityYccdFull(disabilityLine, lesson, disabilityConfig);
       var cleanLine = disabilityLine.replace(/[;\s]+$/, '').trim();
@@ -5810,7 +5820,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         }
 
         var isEnSubject = IntegrationService.isEnglishLesson(les, meta && (meta.subjectKey || meta.subjectId || meta.subjectName)) || /unit\s+\d+|starter\b/i.test(cleanLine || '');
-        var isSingleLineDieuChinhHeader = !cleanLine.includes('\n') && /^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students|\(sen\)))[:.\s]*$/i.test(cleanLine);
+        var isSingleLineDieuChinhHeader = !cleanLine.includes('\n') && /^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students(?:\s*\(sen\))?|\(sen\)))[:.\s]*$/i.test(cleanLine);
         if (isSingleLineDieuChinhHeader) {
           inDisabilitySection = true;
           inTichHopSection = false;
@@ -5854,12 +5864,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             .replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '')
             .replace(/^\[Tích hợp\]\s*/i, '')
             .replace(/\(Tích hợp\)/gi, '')
-            .replace(/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students|\(sen\)))\s*[:.-]?\s*/gi, '')
+            .replace(/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students(?:\s*\(sen\))?|\(sen\)))\s*[:.-]?\s*/gi, '')
             .trim();
 
           var parts = displayLine.split(/\r?\n|<br\s*\/?>/i).map(function(p) { return p.trim(); }).filter(Boolean);
           var htmlLines = parts.map(function(pLine) {
-            if (/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|adjustments?\s*for)/i.test(pLine)) return '';
+            if (/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|adjustments?\s*(?:for|\(sen\)))/i.test(pLine)) return '';
+            pLine = pLine.replace(/^[-*•+–—]?\s*(?:\(sen\)|sen)\s*[:.-]?\s*/i, '');
             // Chuẩn hóa tiêu đề học sinh khuyết tật sang định dạng Dạng 1, Dạng 2 hoặc Type 1, Type 2
             pLine = pLine.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
               return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
