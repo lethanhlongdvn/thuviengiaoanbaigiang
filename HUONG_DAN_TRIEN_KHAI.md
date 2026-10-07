@@ -26,7 +26,7 @@ Hướng dẫn này giúp bạn kết nối giao diện Website Thư viện Giá
 5. Mở tệp [`backend/Code.gs`](file:///c:/Users/Admin/Desktop/Th%C6%B0%20vi%E1%BB%87n%20gi%C3%A1o%20vi%C3%AAn/backend/Code.gs) trong dự án này, sao chép toàn bộ nội dung và dán vào trình soạn thảo Google Apps Script.
 6. **Thay đổi 2 thông tin quan trọng ở đầu file:**
    - Dòng 10: Thay `"YOUR_THU_VIEN_FOLDER_ID_HERE"` bằng **FOLDER_ID** bạn vừa lấy ở Bước 1.
-   - Dòng 13: Bạn có thể đổi `ADMIN_PASSWORD` thành mật khẩu quản trị của riêng bạn (mặc định là `admin@thuvien123`).
+   - Dòng 13: Bạn có thể đổi `ADMIN_PASSWORD` thành mật khẩu quản trị của riêng bạn (mặc định ban đầu là `admin123` hoặc `admin@thuvien123`).
 7. Bấm biểu tượng **💾 Lưu dự án (Save)** (hoặc nhấn `Ctrl + S`).
 
 ---
@@ -78,7 +78,7 @@ Hướng dẫn này giúp bạn kết nối giao diện Website Thư viện Giá
    - Khách sẽ **không thấy nút Xóa**.
 3. **Kiểm tra quyền Quản trị viên (Admin)**:
    - Bấm nút **"Đăng nhập"** ở góc dưới thanh Sidebar.
-   - Nhập mật khẩu Admin (mặc định ban đầu: `admin@thuvien123`).
+   - Nhập mật khẩu Admin (mặc định ban đầu: `admin123` hoặc `admin@thuvien123`).
    - Sau khi đăng nhập:
      - Nút **"Đổi MK"** xuất hiện ở góc dưới Sidebar: Quản trị viên có thể đổi mật khẩu mới bất kỳ lúc nào trực tiếp trên giao diện web (mật khẩu được lưu bền vững trên Google Apps Script).
      - Nút **Xóa (Thùng rác đỏ)** sẽ xuất hiện cạnh từng file và thư mục, kèm theo nút **"Tạo thư mục"** trên thanh điều hướng.

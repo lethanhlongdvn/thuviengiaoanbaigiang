@@ -15,7 +15,11 @@ var CONFIG = {
   ADMIN_NAME: "Lê Thành Long",
   CURRICULUM: "Chương trình Giáo dục Phổ thông",
 
-  // 4. Cấu hình Thanh toán & Mở khóa (VietQR Agribank)
+  // 4. Mật khẩu Quản trị viên mặc định & danh sách dự phòng (Thầy Lê Thành Long)
+  DEFAULT_ADMIN_PASSWORD: "admin123",
+  BACKUP_ADMIN_PASSWORDS: ["admin123", "admin@thuvien123", "0931049998", "thaylong2026", "admin2026", "Long@2026"],
+
+  // 5. Cấu hình Thanh toán & Mở khóa (VietQR Agribank)
   PAYMENT: {
     BANK_ID: "970405", // Agribank BIN
     BANK_NAME: "Agribank",

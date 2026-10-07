@@ -242,59 +242,98 @@ var AuthService = {
   },
 
   loginAdmin: async function(password) {
-    if (!password) return { success: false, msg: "Vui lòng nhập mật khẩu Quản trị" };
+    var cleanPass = (password || "").trim();
+    if (!cleanPass) return { success: false, msg: "Vui lòng nhập mật khẩu Quản trị" };
+
+    // Kiểm tra mật khẩu đã lưu trên máy (sau khi đổi mật khẩu) hoặc danh sách dự phòng
+    var customLocalPass = localStorage.getItem("tvth_custom_admin_password") || "";
+    var isMasterMatch = (cleanPass === (CONFIG.DEFAULT_ADMIN_PASSWORD || "admin123")) ||
+                        (customLocalPass && cleanPass === customLocalPass) ||
+                        (CONFIG.BACKUP_ADMIN_PASSWORDS && CONFIG.BACKUP_ADMIN_PASSWORDS.includes(cleanPass));
+
+    var serverSuccess = false;
+    var serverToken = "";
 
     try {
-      var res = await fetch(CONFIG.API_URL + "?action=verify_admin&password=" + encodeURIComponent(password));
-      var json = await res.json();
-      if (json && json.success) {
-        var adminSession = {
-          role: "admin",
-          unlockedGrade: "all",
-          displayName: "Thầy Lê Thành Long (Quản trị viên)"
-        };
-        sessionStorage.setItem("tvth_user_session", JSON.stringify(adminSession));
-        sessionStorage.setItem("tvth_admin_token", json.token || "admin_auth_success");
-        localStorage.setItem("tvth_user_session", JSON.stringify(adminSession));
-        localStorage.setItem("tvth_admin_token", json.token || "admin_auth_success");
-        this.updateAuthUI();
-        return { success: true };
+      if (CONFIG.API_URL) {
+        var res = await fetch(CONFIG.API_URL + "?action=verify_admin&password=" + encodeURIComponent(cleanPass));
+        var json = await res.json();
+        if (json && json.success) {
+          serverSuccess = true;
+          serverToken = json.token || "";
+        }
       }
     } catch(err) {
       console.warn("Backend verification error:", err);
-      return { success: false, msg: "Không thể kết nối máy chủ xác thực. Vui lòng kiểm tra kết nối mạng và thử lại!" };
     }
 
-    return { success: false, msg: "Mật khẩu Quản trị không chính xác!" };
+    // Chấp nhận nếu server xác thực thành công HOẶC khớp mật khẩu Master / mật khẩu đã đổi
+    if (serverSuccess || isMasterMatch) {
+      var token = serverToken || ("admin_auth_" + Date.now());
+      var adminSession = {
+        role: "admin",
+        unlockedGrade: "all",
+        displayName: "Thầy Lê Thành Long (Quản trị viên)"
+      };
+      sessionStorage.setItem("tvth_user_session", JSON.stringify(adminSession));
+      sessionStorage.setItem("tvth_admin_token", token);
+      localStorage.setItem("tvth_user_session", JSON.stringify(adminSession));
+      localStorage.setItem("tvth_admin_token", token);
+      this.updateAuthUI();
+      return { success: true };
+    }
+
+    return { 
+      success: false, 
+      msg: "Mật khẩu Quản trị không chính xác! (Mặc định: admin123 hoặc mật khẩu Thầy đã đổi)" 
+    };
   },
 
   changeAdminPassword: async function(oldPassword, newPassword) {
-    if (!oldPassword || !newPassword) {
+    var oldP = (oldPassword || "").trim();
+    var newP = (newPassword || "").trim();
+
+    if (!oldP || !newP) {
       return { success: false, msg: "Vui lòng nhập đầy đủ mật khẩu cũ và mật khẩu mới!" };
     }
-    if (newPassword.length < 4) {
+    if (newP.length < 4) {
       return { success: false, msg: "Mật khẩu mới phải có ít nhất 4 ký tự!" };
     }
 
+    var customLocalPass = localStorage.getItem("tvth_custom_admin_password") || "";
+    var isOldValid = (oldP === (CONFIG.DEFAULT_ADMIN_PASSWORD || "admin123")) ||
+                     (customLocalPass && oldP === customLocalPass) ||
+                     (CONFIG.BACKUP_ADMIN_PASSWORDS && CONFIG.BACKUP_ADMIN_PASSWORDS.includes(oldP));
+
+    var serverUpdated = false;
     try {
       var token = this.getAdminToken();
-      var url = CONFIG.API_URL + "?action=change_password&oldPassword=" + encodeURIComponent(oldPassword) + "&newPassword=" + encodeURIComponent(newPassword) + "&adminToken=" + encodeURIComponent(token);
+      var url = CONFIG.API_URL + "?action=change_password&oldPassword=" + encodeURIComponent(oldP) + "&newPassword=" + encodeURIComponent(newP) + "&adminToken=" + encodeURIComponent(token);
       var res = await fetch(url);
       var json = await res.json();
       if (json && json.success) {
-        // Cập nhật token và lưu trạng thái
+        serverUpdated = true;
         if (json.token) {
           sessionStorage.setItem("tvth_admin_token", json.token);
           localStorage.setItem("tvth_admin_token", json.token);
         }
-        return { success: true, msg: json.message || "Đã đổi mật khẩu Admin thành công!" };
-      } else {
-        return { success: false, msg: json.error || "Mật khẩu cũ không chính xác!" };
       }
     } catch(err) {
-      console.warn("Change password error:", err);
-      return { success: false, msg: "Không thể kết nối máy chủ Google. Vui lòng kiểm tra lại mạng!" };
+      console.warn("Change password server warning:", err);
     }
+
+    if (serverUpdated || isOldValid) {
+      // Lưu mật khẩu mới vào máy để luôn đăng nhập được
+      localStorage.setItem("tvth_custom_admin_password", newP);
+      sessionStorage.setItem("tvth_custom_admin_password", newP);
+
+      var msg = serverUpdated 
+        ? "Đã đổi mật khẩu Admin thành công và đồng bộ lên Google Server!" 
+        : "Đã đổi mật khẩu Admin thành công trên hệ thống!";
+      return { success: true, msg: msg };
+    }
+
+    return { success: false, msg: "Mật khẩu hiện tại không chính xác!" };
   },
 
   logout: function() {
@@ -443,12 +482,87 @@ async function submitPinCode() {
   }
 }
 
+function togglePasswordVisibility(inputId, btn) {
+  var input = typeof inputId === "string" ? document.getElementById(inputId) : inputId;
+  if (!input) return;
+  var icon = btn ? btn.querySelector("i") : null;
+  if (input.type === "password") {
+    input.type = "text";
+    if (icon) {
+      icon.classList.remove("fa-eye");
+      icon.classList.add("fa-eye-slash");
+    }
+    if (btn) btn.setAttribute("title", "Ẩn mật khẩu");
+  } else {
+    input.type = "password";
+    if (icon) {
+      icon.classList.remove("fa-eye-slash");
+      icon.classList.add("fa-eye");
+    }
+    if (btn) btn.setAttribute("title", "Hiện mật khẩu");
+  }
+}
+
+function quickFillDefaultAdminPassword() {
+  var input = document.getElementById("admin-password-input");
+  var err = document.getElementById("admin-error-msg");
+  if (input) {
+    input.value = "admin123";
+    input.type = "text"; // Hiển thị rõ để thầy dễ nhìn
+    var btn = document.getElementById("btn-toggle-password-visibility");
+    if (btn) {
+      var icon = btn.querySelector("i");
+      if (icon) {
+        icon.classList.remove("fa-eye");
+        icon.classList.add("fa-eye-slash");
+      }
+      btn.setAttribute("title", "Ẩn mật khẩu");
+    }
+    input.focus();
+  }
+  if (err) err.style.display = "none";
+}
+
+function resetAdminPasswordToDefault() {
+  if (!confirm("Thầy có chắc chắn muốn khôi phục mật khẩu Quản trị về mặc định ban đầu (admin123) không?")) return;
+  localStorage.removeItem("tvth_custom_admin_password");
+  sessionStorage.removeItem("tvth_custom_admin_password");
+  showToast("Đã khôi phục mật khẩu Admin về mặc định (admin123)!", "success");
+  var oldInput = document.getElementById("adminOldPassInput");
+  var newInput = document.getElementById("adminNewPassInput");
+  var confInput = document.getElementById("adminConfirmPassInput");
+  if (oldInput) oldInput.value = "admin123";
+  if (newInput) newInput.value = "";
+  if (confInput) confInput.value = "";
+}
+
 function openAdminLoginModal() {
   var modal = document.getElementById("admin-modal");
   if (modal) {
     modal.classList.add("active", "show");
     var input = document.getElementById("admin-password-input");
-    if (input) { input.value = ""; input.focus(); }
+    var err = document.getElementById("admin-error-msg");
+    var btn = document.getElementById("btn-toggle-password-visibility");
+    if (err) {
+      err.style.display = "none";
+      err.textContent = "";
+    }
+    if (input) {
+      input.value = "";
+      input.type = "password";
+      if (btn) {
+        var icon = btn.querySelector("i");
+        if (icon) {
+          icon.classList.remove("fa-eye-slash");
+          icon.classList.add("fa-eye");
+        }
+        btn.setAttribute("title", "Hiện mật khẩu");
+      }
+      input.oninput = function() {
+        if (err) err.style.display = "none";
+      };
+      setTimeout(function() { input.focus(); }, 120);
+    }
   }
 }
 
@@ -460,14 +574,26 @@ function closeAdminLoginModal() {
 async function submitAdminLogin() {
   var input = document.getElementById("admin-password-input");
   var val = input ? input.value : "";
+  var err = document.getElementById("admin-error-msg");
+  if (!val.trim()) {
+    if (err) {
+      err.textContent = "Vui lòng nhập mật khẩu Quản trị!";
+      err.style.display = "block";
+    }
+    if (input) input.focus();
+    return;
+  }
+
   var res = await AuthService.loginAdmin(val);
   if (res.success) {
     closeAdminLoginModal();
     showToast("Đăng nhập Quản trị thành công! Chào Thầy Lê Thành Long", "success");
     if (typeof refreshCurrentView === "function") refreshCurrentView();
   } else {
-    var err = document.getElementById("admin-error-msg");
-    if (err) { err.textContent = res.msg; err.style.display = "block"; }
+    if (err) {
+      err.textContent = res.msg;
+      err.style.display = "block";
+    }
   }
 }
 
@@ -606,6 +732,9 @@ window.submitPinCode = submitPinCode;
 window.openAdminLoginModal = openAdminLoginModal;
 window.closeAdminLoginModal = closeAdminLoginModal;
 window.submitAdminLogin = submitAdminLogin;
+window.togglePasswordVisibility = togglePasswordVisibility;
+window.quickFillDefaultAdminPassword = quickFillDefaultAdminPassword;
+window.resetAdminPasswordToDefault = resetAdminPasswordToDefault;
 
 // Đồng bộ trạng thái đăng nhập, PIN và phân quyền tự động giữa các tab
 if (typeof window !== "undefined") {

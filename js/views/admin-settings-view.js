@@ -346,27 +346,47 @@ function renderSettingsView(container) {
           <i class="fa-solid fa-shield-halved" style="color: #dc2626;"></i> Đổi Mật Khẩu Quản Trị Viên (Admin)
         </h3>
         <p style="font-size: 0.78rem; color: var(--text-muted); margin-bottom: 1rem;">
-          Đổi mật khẩu tài khoản Thầy Lê Thành Long (đồng bộ lưu trữ an toàn trên máy chủ Google)
+          Đổi mật khẩu tài khoản Thầy Lê Thành Long (mật khẩu mặc định: <strong>admin123</strong>)
         </p>
 
         <div class="form-group">
           <label>Mật khẩu hiện tại:</label>
-          <input type="password" id="adminOldPassInput" class="form-control" placeholder="Nhập mật khẩu hiện tại...">
+          <div style="position: relative; display: flex; align-items: center;">
+            <input type="password" id="adminOldPassInput" class="form-control" placeholder="Nhập mật khẩu hiện tại (mặc định: admin123)..." style="padding-right: 2.6rem;">
+            <button type="button" class="btn-toggle-eye" onclick="togglePasswordVisibility('adminOldPassInput', this)" title="Hiện / Ẩn mật khẩu" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;">
+              <i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
         </div>
 
         <div class="form-group">
           <label>Mật khẩu mới:</label>
-          <input type="password" id="adminNewPassInput" class="form-control" placeholder="Nhập mật khẩu mới (ít nhất 4 ký tự)...">
+          <div style="position: relative; display: flex; align-items: center;">
+            <input type="password" id="adminNewPassInput" class="form-control" placeholder="Nhập mật khẩu mới (ít nhất 4 ký tự)..." style="padding-right: 2.6rem;">
+            <button type="button" class="btn-toggle-eye" onclick="togglePasswordVisibility('adminNewPassInput', this)" title="Hiện / Ẩn mật khẩu" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;">
+              <i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
         </div>
 
         <div class="form-group">
           <label>Xác nhận mật khẩu mới:</label>
-          <input type="password" id="adminConfirmPassInput" class="form-control" placeholder="Nhập lại mật khẩu mới...">
+          <div style="position: relative; display: flex; align-items: center;">
+            <input type="password" id="adminConfirmPassInput" class="form-control" placeholder="Nhập lại mật khẩu mới..." style="padding-right: 2.6rem;">
+            <button type="button" class="btn-toggle-eye" onclick="togglePasswordVisibility('adminConfirmPassInput', this)" title="Hiện / Ẩn mật khẩu" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;">
+              <i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
         </div>
 
-        <button class="btn btn-primary" id="btn-submit-change-pass" style="background: #dc2626; border-color: #dc2626;" onclick="handleAdminChangePassword()">
-          <i class="fa-solid fa-key"></i> Đổi Mật Khẩu
-        </button>
+        <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+          <button class="btn btn-primary" id="btn-submit-change-pass" style="background: #dc2626; border-color: #dc2626;" onclick="handleAdminChangePassword()">
+            <i class="fa-solid fa-key"></i> Đổi Mật Khẩu
+          </button>
+          <button type="button" class="btn btn-outline" style="color: #64748b; border-color: #cbd5e1;" onclick="resetAdminPasswordToDefault()" title="Khôi phục về mật khẩu gốc admin123">
+            <i class="fa-solid fa-rotate-left"></i> Khôi phục MK Mặc Định
+          </button>
+        </div>
       </div>
 
       <div class="ai-ctrl-box">
@@ -379,7 +399,12 @@ function renderSettingsView(container) {
 
         <div class="form-group">
           <label>Gemini API Key (Google AI Studio):</label>
-          <input type="password" id="geminiApiKeyInput" class="form-control" value="${apiKey}" placeholder="AIzaSy...">
+          <div style="position: relative; display: flex; align-items: center;">
+            <input type="password" id="geminiApiKeyInput" class="form-control" value="${apiKey}" placeholder="AIzaSy..." style="padding-right: 2.6rem;">
+            <button type="button" class="btn-toggle-eye" onclick="togglePasswordVisibility('geminiApiKeyInput', this)" title="Hiện / Ẩn Key" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;">
+              <i class="fa-solid fa-eye"></i>
+            </button>
+          </div>
         </div>
 
         <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
@@ -626,4 +651,5 @@ if (typeof window !== "undefined") {
   window.copyPinShareMessage = typeof copyPinShareMessage !== "undefined" ? copyPinShareMessage : null;
   window.saveGeminiApiKey = typeof saveGeminiApiKey !== "undefined" ? saveGeminiApiKey : null;
   window.restoreAdminGeminiApiKey = typeof restoreAdminGeminiApiKey !== "undefined" ? restoreAdminGeminiApiKey : null;
+  window.handleAdminChangePassword = typeof handleAdminChangePassword !== "undefined" ? handleAdminChangePassword : null;
 }

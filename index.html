@@ -454,14 +454,19 @@
         <div>
           <label style="display: block; font-weight: 600; font-size: 0.85rem; margin-bottom: 0.4rem;">Mật khẩu Quản trị:</label>
           <div style="position: relative; display: flex; align-items: center;">
-            <input type="password" id="admin-password-input" placeholder="Nhập mật khẩu Admin..." style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
-            <button type="button" id="btn-toggle-password-visibility" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;">
+            <input type="password" id="admin-password-input" placeholder="Nhập mật khẩu Admin..." onkeydown="if(event.key==='Enter') submitAdminLogin()" style="width: 100%; padding: 0.65rem 2.6rem 0.65rem 0.85rem; border: 1px solid var(--border-color); border-radius: var(--radius-md); font-size: 0.9rem; outline: none;">
+            <button type="button" id="btn-toggle-password-visibility" onclick="togglePasswordVisibility('admin-password-input', this)" title="Hiện / Ẩn mật khẩu" style="position: absolute; right: 0.75rem; background: none; border: none; color: var(--text-muted); cursor: pointer; font-size: 1rem; padding: 0.25rem;">
               <i class="fa-solid fa-eye"></i>
             </button>
           </div>
-          <small style="color: var(--text-muted); font-size: 0.76rem; display: block; margin-top: 0.35rem;">
-            Mật khẩu do Quản trị viên cấp riêng.
-          </small>
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 0.4rem; flex-wrap: wrap; gap: 0.3rem;">
+            <small style="color: var(--text-muted); font-size: 0.76rem;">
+              Mặc định ban đầu: <strong>admin123</strong>
+            </small>
+            <a href="javascript:void(0)" onclick="quickFillDefaultAdminPassword()" style="font-size: 0.75rem; color: #2563eb; text-decoration: underline; font-weight: 600;">
+              Điền nhanh admin123
+            </a>
+          </div>
         </div>
         <div class="pin-error-msg" id="admin-error-msg" style="display: none; color: #ef4444; font-size: 0.82rem; font-weight: 600; margin-top: 0.5rem;"></div>
       </div>
@@ -497,19 +502,19 @@
 
   <!-- Scripts Logic & Modular Views -->
   <!-- (KHBD registry, integration-service, academic-calendar chỉ dùng trên ai-integration.html — mở tab riêng) -->
-  <script src="js/config.js?v=20260930_v6" defer></script>
-  <script src="js/data.js?v=20260930_v6" defer></script>
-  <script src="js/auth.js?v=20260930_v6" defer></script>
-  <script src="js/drive-service.js?v=20260930_v6" defer></script>
+  <script src="js/config.js?v=20261007_v1" defer></script>
+  <script src="js/data.js?v=20261007_v1" defer></script>
+  <script src="js/auth.js?v=20261007_v1" defer></script>
+  <script src="js/drive-service.js?v=20261007_v1" defer></script>
   <!-- AI Modules chuyên biệt (Ma trận TT27, GD hòa nhập, Xuất Word & AI Service Facade) -->
   <script src="js/ai/ai-matrix.js?v=20261006_v1" defer></script>
   <script src="js/ai/ai-disability.js?v=20261006_v1" defer></script>
   <script src="js/ai/ai-export-word.js?v=20261006_v1" defer></script>
   <script src="js/ai-service.js?v=20261006_v1" defer></script>
-  <script src="js/toolkit.js?v=20260930_v6" defer></script>
-  <script src="js/app.js?v=20260930_v6" defer></script>
-  <script src="js/views/documents-view.js?v=20260930_v6" defer></script>
-  <script src="js/views/admin-settings-view.js?v=20260930_v6" defer></script>
-  <script src="js/views/ai-exam-view.js?v=20260930_v6" defer></script>
+  <script src="js/toolkit.js?v=20261007_v1" defer></script>
+  <script src="js/app.js?v=20261007_v1" defer></script>
+  <script src="js/views/documents-view.js?v=20261007_v1" defer></script>
+  <script src="js/views/admin-settings-view.js?v=20261007_v1" defer></script>
+  <script src="js/views/ai-exam-view.js?v=20261007_v1" defer></script>
 </body>
 </html>
