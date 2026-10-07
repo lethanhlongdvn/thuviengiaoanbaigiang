@@ -17,7 +17,7 @@
       {
         "lessonTitle": "INTRODUCTION: ENGLISH 5 PROGRAMME AND TEXTBOOK (Period 1)",
         "topic": "Introduction – English 5 Programme, Textbook & Classroom Rules",
-        "period": "Tiết 1",
+        "period": "Period 1",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of the lesson, pupils will be able to:",
@@ -29,7 +29,7 @@
           "- Communication and collaboration: confidently introduce oneself, greet peers and teacher, and cooperate in class routines.",
           "- Self-control & independent learning: prepare school things, books and keep tidy learning habits.",
           "- Digital competence & AI literacy:",
-          "  + Digital competence & AI literacy: AI 4.A2: Nhận biết công cụ AI/số chỉ là phương tiện hỗ trợ; kiểm tra thông tin với SGK, audio chính thức và GV.NLS 1.1.CB1a: Thao tác cơ bản với học liệu số do GV cung cấp.",
+          "  + Digital competence & AI literacy: AI 4.A2: Recognize that AI/digital tools are only supporting means; check information with textbooks, official audio, and teachers. NLS 1.1.CB1a: Perform basic operations with digital learning materials provided by teachers.",
           "3. Attributes:",
           "- Show enthusiasm, positive attitude, and love for learning English in Grade 5.",
           "- Respect classroom rules and cooperate pleasantly with classmates."
@@ -78,7 +78,7 @@
               "4. PRODUCTION & DIGITAL AWARENESS (6 minutes)"
             ],
             [
-              "- Organize a quick quiz about the English 5 book (e.g. How many units are there? Who is the boy from Britain?).\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Nhận biết công cụ AI/số chỉ là phương tiện hỗ trợ; kiểm tra thông tin với SGK, audio chính thức và GV.NLS 1.1.CB1a: Thao tác cơ bản với học liệu số do GV cung cấp.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "- Organize a quick quiz about the English 5 book (e.g. How many units are there? Who is the boy from Britain?).\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Recognize that AI/digital tools are only supporting means; check information with textbooks, official audio, and teachers. NLS 1.1.CB1a: Perform basic operations with digital learning materials provided by teachers.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Participate in the quiz in pairs.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -94,8 +94,8 @@
       },
       {
         "lessonTitle": "STARTER - Period 1 - A. Back to school (Period 2)",
-        "topic": "Starter – Personal information review - Ôn chào hỏi, giới thiệu bản thân và thông tin cá nhân ở mức an toàn.",
-        "period": "Tiết 2",
+        "topic": "Starter – Personal information review",
+        "period": "Period 2",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -108,7 +108,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform speaking and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Không công khai địa chỉ cụ thể, số điện thoại, mật khẩu hoặc dữ liệu cá nhân không cần thiết.Quyền trẻ em: Tôn trọng danh tính và quyền riêng tư.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Do not publicly disclose specific addresses, phone numbers, passwords, or unnecessary personal data. Child rights: Respect identity and privacy.",
           "3. Attributes",
           "- Show pride in the time back to school.",
           "- Show their love and interest in learning and playing."
@@ -139,7 +139,7 @@
               "1. WARM-UP & REVIEW (5 minutes)"
             ],
             [
-              "- Greet the class Hello. / Hi. I’m ____. How are you? and encourage pupils to respond and introduce themselves.* Game: Pass the ball. - Give a ball to a pupil and turn on the music. - Have that pupil pass the ball until the music stops. - The one who is keeping the ball will follow the teacher’s instructions. e.g.  Hello!/  Hi! My name’s (Trang)./ How are you? I’m fine, thanks. And you? I’m good. * Chat:- Talk to pupils about the series of Tiếng Anh 5 and show them the relevant online resources.- Tell pupils what they will learn in this lesson.",
+              "- Greet the class Hello. / Hi. I’m ____. How are you? and encourage pupils to respond and introduce themselves.* Game: Pass the ball. - Give a ball to a pupil and turn on the music. - Have that pupil pass the ball until the music stops. - The one who is keeping the ball will follow the teacher’s instructions. e.g.  Hello!/  Hi! My name’s (Trang)./ How are you? I’m fine, thanks. And you? I’m good. * Chat:- Talk to pupils about the series of English 5 and show them the relevant online resources.- Tell pupils what they will learn in this lesson.",
               "- Pupils respond and introduce themselves. - Pupils get a ball from the teacher. - Pupils listen to music and pass the ball to one another. - When the music stops, the one who is keeping the ball will follow the teacher’s instructions.- Pupils listen to the teacher."
             ],
             [
@@ -160,7 +160,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity and explain that they should write three sentences about their learning goals. Check comprehension. Step 2: Have pupils fill in the first blank together as an example. Ask them to read the sentence and elicit possible answers. Then have them write their answers in the gap. Step 3: Give pupils time to complete the sentences independently. Go around the classroom and offer help where necessary. Step 4: Get pupils to work in pairs to share their learning goals. Extension: Invite one or two pupils to read their learning goals aloud.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Không công khai địa chỉ cụ thể, số điện thoại, mật khẩu hoặc dữ liệu cá nhân không cần thiết.Quyền trẻ em: Tôn trọng danh tính và quyền riêng tư.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of the activity and explain that they should write three sentences about their learning goals. Check comprehension. Step 2: Have pupils fill in the first blank together as an example. Ask them to read the sentence and elicit possible answers. Then have them write their answers in the gap. Step 3: Give pupils time to complete the sentences independently. Go around the classroom and offer help where necessary. Step 4: Get pupils to work in pairs to share their learning goals. Extension: Invite one or two pupils to read their learning goals aloud.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Do not publicly disclose specific addresses, phone numbers, passwords, or unnecessary personal data. Child rights: Respect identity and privacy.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils fill in the first blank together as an example. Pupils read the sentence and elicit possible answers. Then pupils write their answers in the gap.- Pupils complete the sentences independently.- Pupils work in pairs to share their learning goals.- Pupils read their learning goals aloud.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -176,8 +176,8 @@
       },
       {
         "lessonTitle": "STARTER - Period 2 - B. Last summer (Period 3)",
-        "topic": "Starter – Activities and preferences review - Ôn từ/cụm từ quen thuộc về hoạt động, sở thích, trường học và thời gian rảnh.",
-        "period": "Tiết 3",
+        "topic": "Starter – Activities and preferences review",
+        "period": "Period 3",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -189,7 +189,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI có thể gợi ý/phân loại nội dung theo hình ảnh hoặc từ khóa nhưng có thể nhầm.NLS 1.2.CB1a: Đối chiếu đáp án số với tranh, ngữ cảnh và kiến thức đã học.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI can suggest/classify content based on images or keywords but may make mistakes. NLS 1.2.CB1a: Cross-check digital answers with pictures, contexts, and learned knowledge.",
           "3. Attributes",
           "- Show pride in where they went last summer.",
           "- Show their love and interest in the places they went to last summer."
@@ -241,7 +241,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the picture. Ask questions to help them identify the context (see Input). Step 2: Get pupils to read the speech bubbles and elicit possible answers. Step 3: Put pupils into groups of four to ask and answer questions about their last summers. Go around and offer support where necessary. Step 4: Invite a few groups to the front of the classroom to ask and answer questions about their last summers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI có thể gợi ý/phân loại nội dung theo hình ảnh hoặc từ khóa nhưng có thể nhầm.NLS 1.2.CB1a: Đối chiếu đáp án số với tranh, ngữ cảnh và kiến thức đã học.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the picture. Ask questions to help them identify the context (see Input). Step 2: Get pupils to read the speech bubbles and elicit possible answers. Step 3: Put pupils into groups of four to ask and answer questions about their last summers. Go around and offer support where necessary. Step 4: Invite a few groups to the front of the classroom to ask and answer questions about their last summers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI can suggest/classify content based on images or keywords but may make mistakes. NLS 1.2.CB1a: Cross-check digital answers with pictures, contexts, and learned knowledge.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture and identify the context.- Pupils read the speech bubbles and elicit possible answers.- Pupils work into groups of four to ask and answer questions about their last summers.- Groups of pupils come to the front of the classroom to ask and answer questions about their last summers.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -257,8 +257,8 @@
       },
       {
         "lessonTitle": "STARTER - Period 3 - C. Classroom instructions (Period 4)",
-        "topic": "Starter – Consolidation - Củng cố kiến thức lớp 4 qua nghe – nói – đọc – viết ngắn; chuẩn bị Unit 1.",
-        "period": "Tiết 4",
+        "topic": "Starter – Consolidation - C",
+        "period": "Period 4",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -270,7 +270,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.1.CB1a: Tham gia hoạt động tương tác số đơn giản do GV kiểm soát.AI 4.B2: Nhận biết và sửa một lỗi đơn giản trong câu trả lời kiểu AI.",
+          "+ Digital competence & AI literacy: NLS 2.1.CB1a: Participate in simple digital interactive activities controlled by teachers. AI 4.B2: Recognize and correct a simple error in an AI-style response.",
           "3. Attributes",
           "- Show pride in the instructions in classroom.",
           "- Show their love and interest in classroom instructions."
@@ -322,7 +322,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask each pupil to prepare three instructions.Step 2: Divide the class into two teams. Invite one pupil to the front to share their instructions. While giving each instruction, the pupil also acts out. The action may be the same or different from the instruction. The rest of the pupils listen and follow the given instructions. Step 3: Any pupils who cannot follow the instruction correctly will be out of the game. The team with more remaining players gets a star.Step 4: Keep going with other pupils. After five minutes, the team with more stars wins.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.1.CB1a: Tham gia hoạt động tương tác số đơn giản do GV kiểm soát.AI 4.B2: Nhận biết và sửa một lỗi đơn giản trong câu trả lời kiểu AI.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask each pupil to prepare three instructions.Step 2: Divide the class into two teams. Invite one pupil to the front to share their instructions. While giving each instruction, the pupil also acts out. The action may be the same or different from the instruction. The rest of the pupils listen and follow the given instructions. Step 3: Any pupils who cannot follow the instruction correctly will be out of the game. The team with more remaining players gets a star.Step 4: Keep going with other pupils. After five minutes, the team with more stars wins.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.1.CB1a: Participate in simple digital interactive activities controlled by teachers. AI 4.B2: Recognize and correct a simple error in an AI-style response.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Each pupil prepares three instructions.- Pupils work in two teams. One pupil comes to the front to share his / her instructions. While giving each instruction, the pupil also acts out. The rest of the pupils need to listen and follow the given instruction.- Any pupils who cannot follow the instruction correctly will be out of the game. The team with more remaining players gets a star.- Pupils continue playing the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -345,7 +345,7 @@
       {
         "lessonTitle": "UNIT 1: ALL ABOUT ME! - Lesson 1 - Period 1 (Period 5)",
         "topic": "Unit 1:All about me! - All about me! - Lesson 1(1, 2, 3)",
-        "period": "Tiết 5",
+        "period": "Period 5",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -359,7 +359,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Nhận biết AI hỗ trợ luyện nói theo mẫu giới thiệu tên, lớp và nơi sống; HS kiểm tra thông tin trước khi sử dụng.Quyền trẻ em: Tôn trọng danh tính và quyền riêng tư của bạn.",
+          "+ Digital competence & AI literacy: AI 4.A2: Recognize that AI supports speaking practice using name, class, and living place introduction patterns; students check information before use. Child rights: Respect peers' identity and privacy.",
           "3. Attributes",
           "- Show their pride in their personal information and where they live."
         ],
@@ -410,7 +410,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Have them look at the pictures and identify the character’s information in each picture. Check comprehension. Step 2: Have pupils look at the bubbles to understand how the sentence pattern is used. Have pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. Make sure pupils understand the structure and say it with the right pronunciation and intonation. Go around to observe and provide help. Step 3: Invite some pairs of pupils to practise asking and answering questions in front of the class. Praise them if they perform well.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Nhận biết AI hỗ trợ luyện nói theo mẫu giới thiệu tên, lớp và nơi sống; HS kiểm tra thông tin trước khi sử dụng.Quyền trẻ em: Tôn trọng danh tính và quyền riêng tư của bạn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Have them look at the pictures and identify the character’s information in each picture. Check comprehension. Step 2: Have pupils look at the bubbles to understand how the sentence pattern is used. Have pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. Make sure pupils understand the structure and say it with the right pronunciation and intonation. Go around to observe and provide help. Step 3: Invite some pairs of pupils to practise asking and answering questions in front of the class. Praise them if they perform well.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Recognize that AI supports speaking practice using name, class, and living place introduction patterns; students check information before use. Child rights: Respect peers' identity and privacy.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the character’s information in each picture.- Pupils look at the bubbles to understand how the sentence pattern is used. Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -427,7 +427,7 @@
       {
         "lessonTitle": "UNIT 1: ALL ABOUT ME! - Lesson 1 - Period 2 (Period 6)",
         "topic": "Unit 1:All about me! - All about me! - Lesson 1(4, 5, 6)",
-        "period": "Tiết 6",
+        "period": "Period 6",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -439,7 +439,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and intonation, listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Không công khai địa chỉ cụ thể, ngày sinh đầy đủ, số điện thoại hoặc mật khẩu khi giới thiệu bản thân trên môi trường số.GDĐP: Giới thiệu nơi sống ở mức city/countryside; trân trọng quê hương và cộng đồng.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Do not publicly disclose specific addresses, full date of birth, phone numbers, or passwords when introducing oneself in the digital environment. Local integration: Introduce living places at the city/countryside level; appreciate hometown and community.",
           "3. Attributes",
           "- Show their pride in their personal information and where they live."
         ],
@@ -490,7 +490,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the pictures to reinforce their understanding. Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the pronunciation and the melody. Step 3: Play the recording again, line by line, for pupils to listen and repeat. Correct their pronunciation where necessary. Introduce actions for pupils to do while they sing along with the recording. Step 4: Play the recording all the way through for pupils to sing along. Step 5: Put pupils into groups to make up their own actions for the song. Invite groups to the front of the class to perform, while the rest of the class sings and / or claps along. Encourage the class to praise or cheer the performers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Không công khai địa chỉ cụ thể, ngày sinh đầy đủ, số điện thoại hoặc mật khẩu khi giới thiệu bản thân trên môi trường số.GDĐP: Giới thiệu nơi sống ở mức city/countryside; trân trọng quê hương và cộng đồng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the pictures to reinforce their understanding. Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the pronunciation and the melody. Step 3: Play the recording again, line by line, for pupils to listen and repeat. Correct their pronunciation where necessary. Introduce actions for pupils to do while they sing along with the recording. Step 4: Play the recording all the way through for pupils to sing along. Step 5: Put pupils into groups to make up their own actions for the song. Invite groups to the front of the class to perform, while the rest of the class sings and / or claps along. Encourage the class to praise or cheer the performers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Do not publicly disclose specific addresses, full date of birth, phone numbers, or passwords when introducing oneself in the digital environment. Local integration: Introduce living places at the city/countryside level; appreciate hometown and community.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the title and lyrics of the song. Pupils point at the pictures to reinforce their understanding.- Pupils listen to the recording all the way through carefully to the pronunciation and the melody.- Pupils listen to the recording again, line by line, and repeat. Pupils do actions while they sing along with the recording.- Pupils listen to the recording all the way through and sing along.- Pupils work in groups to make up their own actions for the song. Pupils come to the front of the class to perform, while the rest of the class sings and / or claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -507,7 +507,7 @@
       {
         "lessonTitle": "UNIT 1: ALL ABOUT ME! - Lesson 2 - Period 3 (Period 7)",
         "topic": "Unit 1:All about me! - All about me! - Lesson 2(1, 2, 3)",
-        "period": "Tiết 7",
+        "period": "Period 7",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -521,7 +521,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI có thể gợi ý/phân loại nội dung theo sở thích (sport, colour, animal, food); HS tự quyết định sở thích của mình.Giáo dục sức khỏe: Lựa chọn hoạt động thể thao phù hợp và ăn uống cân bằng.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI can suggest/classify content based on preferences (sport, colour, animal, food); students decide their own preferences. Health education: Choose suitable sports activities and balanced diets.",
           "3. Attributes",
           "- Show their love and interest in sports, colours, animals and food."
         ],
@@ -572,7 +572,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Have them say the actions of the characters in the pictures. Ask questions to help pupils identify favourite things of the characters (see Input). Step 2: Elicit the missing words in the  speech bubbles and write them on the board. Get pupils to say the completed sentences. Step 3: Have pupils look at the bubbles to understand how the sentence pattern is used. Have pupils role-play to practise asking and answering questions about favourite things in pairs, using picture cues. Make sure pupils understand the structures and say them with the right pronunciation and intonation. Go around to observe and provide help. Step 4: Invite some pupils to practise asking and answering questions in front of the class. Praise them if they perform well. Extension (for advanced pupils): Have pupils ask and answer questions about their favourite things (sport / colour / food / animal / school subject / book …), using the structures and vocabulary learnt.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI có thể gợi ý/phân loại nội dung theo sở thích (sport, colour, animal, food); HS tự quyết định sở thích của mình.Giáo dục sức khỏe: Lựa chọn hoạt động thể thao phù hợp và ăn uống cân bằng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Have them say the actions of the characters in the pictures. Ask questions to help pupils identify favourite things of the characters (see Input). Step 2: Elicit the missing words in the  speech bubbles and write them on the board. Get pupils to say the completed sentences. Step 3: Have pupils look at the bubbles to understand how the sentence pattern is used. Have pupils role-play to practise asking and answering questions about favourite things in pairs, using picture cues. Make sure pupils understand the structures and say them with the right pronunciation and intonation. Go around to observe and provide help. Step 4: Invite some pupils to practise asking and answering questions in front of the class. Praise them if they perform well. Extension (for advanced pupils): Have pupils ask and answer questions about their favourite things (sport / colour / food / animal / school subject / book …), using the structures and vocabulary learnt.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI can suggest/classify content based on preferences (sport, colour, animal, food); students decide their own preferences. Health education: Choose suitable sports activities and balanced diets.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures. Pupils say the actions of the characters in the pictures. Pupils identify favourite things of the characters.- Pupils look at the  speech bubbles on the board and say the completed sentences.- Pupils look at the bubbles to understand how the sentence pattern is used. Pupils role-play to practise asking and answering questions about favourite things in pairs, using picture cues.- Pupils practise asking and answering questions in front of the class.- Pupils ask and answer questions about their favourite things (sport / colour / food / animal / school subject / book, …), using the structure and vocabulary learnt.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -589,7 +589,7 @@
       {
         "lessonTitle": "UNIT 1: ALL ABOUT ME! - Lesson 2 - Period 4 (Period 8)",
         "topic": "Unit 1:All about me! - All about me! - Lesson 2(4, 5, 6)",
-        "period": "Tiết 8",
+        "period": "Period 8",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -601,7 +601,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.4.CB2a: Hợp tác nhóm thực hiện khảo sát “Find someone who …” trên bảng/biểu mẫu số do GV quản lí.NLS 2.5.CB2a: Giao tiếp lịch sự, tôn trọng sự khác biệt về sở thích của bạn.",
+          "+ Digital competence & AI literacy: NLS 2.4.CB2a: Collaborate in groups to conduct the “Find someone who …” survey on digital boards/forms managed by teachers. NLS 2.5.CB2a: Communicate politely and respect differences in peers' preferences.",
           "3. Attributes",
           "- Show their love and interest in sports, colours, animals and food."
         ],
@@ -652,7 +652,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they are going to play Find someone who … using the language learnt in Lesson 2. Step 2: Divide the class into four teams. Give each team a task: e.g. Find someone who likes dolphins / table tennis / pink / sandwiches. The members of each team should walk around the classroom, ask their classmates questions e.g. What’s your favourite animal / colour / sport / food? to get information about their favourite things. When they find someone, they write the name in the blank provided. Ask them to find as many different pupils as possible. Step 3: Set time for pupils to play the game. Step 4: The team that finds the most pupils at the end of the game wins.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB2a: Hợp tác nhóm thực hiện khảo sát “Find someone who …” trên bảng/biểu mẫu số do GV quản lí.NLS 2.5.CB2a: Giao tiếp lịch sự, tôn trọng sự khác biệt về sở thích của bạn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they are going to play Find someone who … using the language learnt in Lesson 2. Step 2: Divide the class into four teams. Give each team a task: e.g. Find someone who likes dolphins / table tennis / pink / sandwiches. The members of each team should walk around the classroom, ask their classmates questions e.g. What’s your favourite animal / colour / sport / food? to get information about their favourite things. When they find someone, they write the name in the blank provided. Ask them to find as many different pupils as possible. Step 3: Set time for pupils to play the game. Step 4: The team that finds the most pupils at the end of the game wins.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB2a: Collaborate in groups to conduct the “Find someone who …” survey on digital boards/forms managed by teachers. NLS 2.5.CB2a: Communicate politely and respect differences in peers' preferences.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s instructions.- Pupils work in four teams. Pupils find someone, and write the name in the blank provided.- Pupils play the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -675,7 +675,7 @@
       {
         "lessonTitle": "UNIT 1: ALL ABOUT ME! - Lesson 3 - Period 5 (Period 9)",
         "topic": "Unit 1:All about me! - All about me! - Lesson 3(1, 2, 3)",
-        "period": "Tiết 9",
+        "period": "Period 9",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -686,7 +686,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Nhận biết AI hỗ trợ luyện nghe - phát âm các từ/câu trong bài như dolphin, tennis.AI 4.B2: Đối chiếu phản hồi AI với audio SGK, từ điển học tập và hướng dẫn của GV.",
+          "+ Digital competence & AI literacy: AI 4.A2: Recognize that AI supports listening and pronunciation practice for words/sentences in the lesson like dolphin, tennis. AI 4.B2: Cross-check AI feedback with textbook audio, study dictionaries, and teacher guidance.",
           "3. Attributes",
           "- Show their love and interest in sports, colours, animals and food."
         ],
@@ -737,7 +737,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check comprehension. Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to two-syllable words with the stress on the first syllable in the chant, e.g. pandas, dolphins, tennis and football, and the sentences containing those words. Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation, if necessary. Step 4: Play the recording all the way through for pupils to chant along. Encourage them to clap while chanting. Extension: Have pupils write their own chants by replacing the animal and sports in the chant and using their favourite ones. Ask pupils practise the new chants.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Nhận biết AI hỗ trợ luyện nghe - phát âm các từ/câu trong bài như dolphin, tennis.AI 4.B2: Đối chiếu phản hồi AI với audio SGK, từ điển học tập và hướng dẫn của GV.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check comprehension. Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to two-syllable words with the stress on the first syllable in the chant, e.g. pandas, dolphins, tennis and football, and the sentences containing those words. Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation, if necessary. Step 4: Play the recording all the way through for pupils to chant along. Encourage them to clap while chanting. Extension: Have pupils write their own chants by replacing the animal and sports in the chant and using their favourite ones. Ask pupils practise the new chants.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Recognize that AI supports listening and pronunciation practice for words/sentences in the lesson like dolphin, tennis. AI 4.B2: Cross-check AI feedback with textbook audio, study dictionaries, and teacher guidance.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the lyrics of the chant.- Pupils listen all the way through carefully to the rhythm and pronunciation.- Pupils listen to the recording, line by line, and repeat.- Pupils listen to the recording all the way through and chant along. Pupils clap while chanting.- Pupils write their own chants by replacing the animal and sports in the chant and using their favourite ones. Pupils practise the new chants.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -754,7 +754,7 @@
       {
         "lessonTitle": "UNIT 1: ALL ABOUT ME! - Lesson 3 - Period 6 (Period 10)",
         "topic": "Unit 1:All about me! - All about me! - Lesson 3(4, 5, 6)",
-        "period": "Tiết 10",
+        "period": "Period 10",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -766,7 +766,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế poster/slide số “My favourite things” bằng PowerPoint/Canva theo mẫu của bài.AI 4.A3: Chọn hình AI phù hợp để minh họa; không dùng hình làm lộ thông tin cá nhân.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital poster/slide titled “My favourite things” using PowerPoint/Canva following the lesson template. AI 4.A3: Choose appropriate AI images for illustration; do not use images that reveal personal information.",
           "3. Attributes",
           "- Show their love and interest in sports, colours, animals and food."
         ],
@@ -810,7 +810,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell pupils the goal of this activity: they are going to look at the gapped paragraph and complete it using their own information. Check comprehension.Step 2: Write the sentence with the first gap on the board: My name is ____. Read the sentence as a class. When you reach the gap, ask pupils to identify the information needed to complete the gap (their names) and encourage pupils to say the whole sentence (e.g. My name is Nam.). Give pupils time to complete the sentence. Read the sentence as a class.Step 3: Repeat Step 2 for the other sentences. Step 4: If time allows, invite a few pupils to read the sentences they have completed in front of the class. Have the class observe and praise their work.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế poster/slide số “My favourite things” bằng PowerPoint/Canva theo mẫu của bài.AI 4.A3: Chọn hình AI phù hợp để minh họa; không dùng hình làm lộ thông tin cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils the goal of this activity: they are going to look at the gapped paragraph and complete it using their own information. Check comprehension.Step 2: Write the sentence with the first gap on the board: My name is ____. Read the sentence as a class. When you reach the gap, ask pupils to identify the information needed to complete the gap (their names) and encourage pupils to say the whole sentence (e.g. My name is Nam.). Give pupils time to complete the sentence. Read the sentence as a class.Step 3: Repeat Step 2 for the other sentences. Step 4: If time allows, invite a few pupils to read the sentences they have completed in front of the class. Have the class observe and praise their work.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital poster/slide titled “My favourite things” using PowerPoint/Canva following the lesson template. AI 4.A3: Choose appropriate AI images for illustration; do not use images that reveal personal information.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils read the sentence as a class and identify the information needed to complete. Pupils complete the sentence. Then read the sentence as a class.- Pupils complete the other sentences.- A few pupils read the sentences they have completed in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -834,7 +834,7 @@
       {
         "lessonTitle": "UNIT 2: OUR HOMES - Lesson 1 - Period 1 (Period 11)",
         "topic": "Unit 2:Our homes - Our homes - Lesson 1(1, 2, 3)",
-        "period": "Tiết 11",
+        "period": "Period 11",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -847,7 +847,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI có thể hỗ trợ nhận diện/phân loại hình ảnh các kiểu nhà ở như house, flat, building, tower; HS kiểm tra lại với tranh và ngữ cảnh.GDĐP: Nhận biết một số kiểu nhà ở phổ biến tại địa phương; tôn trọng sự khác biệt về điều kiện sống.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI can support identifying/classifying images of housing types such as house, flat, building, tower; students recheck with pictures and context. Local integration: Recognize common housing types in the locality; respect differences in living conditions.",
           "3. Attributes",
           "- Show their pride in their personal information and where they live."
         ],
@@ -898,7 +898,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the picture. Ask questions to revise the relevant words (see Input).Step 2: Elicit pupils’ answers to the questions and write them on the board. Get pupils to say the completed sentences.Step 3: Put pupils into pairs to ask and answer questions about each home type in the illustration. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the classroom. They can use the pictures in relation to this section to ask and answer questions about their homes.Suggested answer:a. A: (points at King Tower)          Do you live in this tower?    B: No, I don’t. I live in a house in the countryside.b. A: (points at the house)           Do you live in that house?    B: Yes, I do. It’s my house.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI có thể hỗ trợ nhận diện/phân loại hình ảnh các kiểu nhà ở như house, flat, building, tower; HS kiểm tra lại với tranh và ngữ cảnh.GDĐP: Nhận biết một số kiểu nhà ở phổ biến tại địa phương; tôn trọng sự khác biệt về điều kiện sống.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the picture. Ask questions to revise the relevant words (see Input).Step 2: Elicit pupils’ answers to the questions and write them on the board. Get pupils to say the completed sentences.Step 3: Put pupils into pairs to ask and answer questions about each home type in the illustration. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the classroom. They can use the pictures in relation to this section to ask and answer questions about their homes.Suggested answer:a. A: (points at King Tower)          Do you live in this tower?    B: No, I don’t. I live in a house in the countryside.b. A: (points at the house)           Do you live in that house?    B: Yes, I do. It’s my house.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI can support identifying/classifying images of housing types such as house, flat, building, tower; students recheck with pictures and context. Local integration: Recognize common housing types in the locality; respect differences in living conditions.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture and identify the character’s information in the picture.- Pupils look at the bubbles to understand how the sentence pattern is used. - Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -915,7 +915,7 @@
       {
         "lessonTitle": "UNIT 2: OUR HOMES - Lesson 1 - Period 2 (Period 12)",
         "topic": "Unit 2:Our homes - Our homes - Lesson 1(4, 5, 6)",
-        "period": "Tiết 12",
+        "period": "Period 12",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -927,7 +927,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Không đăng ảnh mặt tiền nhà, số nhà hoặc vị trí có thể xác định nơi ở trên môi trường số.Đạo đức: Biết giữ gìn nhà ở sạch sẽ, gọn gàng và tôn trọng không gian sống của người khác.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Do not post photos of house facades, house numbers, or locations that can identify where you live in the digital environment. Ethics: Keep houses clean and tidy, and respect other people's living spaces.",
           "3. Attributes",
           "- Show their pride in their personal home and address."
         ],
@@ -971,7 +971,7 @@
               "3. ACTIVITY 2: PRACTICE (10 minutes)"
             ],
             [
-              "Step 1: Model Exchange 1 as an example. Have pupils read the question and answer, and guess the missing word in the question. Draw their attention to the picture, and explain that pupils should pay attention to the hand pointing at the house to decide the missing word to fill in the gap (this). For Exchanges 3 and 4, point at each picture in focus to elicit the words flat and building. Step 2: Give pupils time to do the task independently. Go around the classroom to offer help where necessary. Step 3: Get pupils to swap books with a partner to check their answers before checking as a class. Invite a pupil to write the answers on the board. Extension: Invite four pairs of pupils to act out the four completed exchanges in front of the class. Correct their pronunciation where necessary.\nStep 1: Draw pupils’ attention to the game input on the board. Introduce and explain how to play the game: The class is divided into groups A and B. Each member in Group A and B writes a question to guess the home type that his / her counterpart in the other group lives in. Their work should be written on paper slips and handed to the teacher when the time limit is over. After that, the teacher invites two groups at random to interact using the questions and answers. Step 2: Give pupils a time limit for the class to prepare for the game and go around the class to offer help where necessary. Step 3: When the time is over, nominate a pair from different groups to check their interaction. Have the counterpart group stand up at their places, make the guesses, and encourage the rest of pupils to cheer up whenever the guess is correct.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Không đăng ảnh mặt tiền nhà, số nhà hoặc vị trí có thể xác định nơi ở trên môi trường số.Đạo đức: Biết giữ gìn nhà ở sạch sẽ, gọn gàng và tôn trọng không gian sống của người khác.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Model Exchange 1 as an example. Have pupils read the question and answer, and guess the missing word in the question. Draw their attention to the picture, and explain that pupils should pay attention to the hand pointing at the house to decide the missing word to fill in the gap (this). For Exchanges 3 and 4, point at each picture in focus to elicit the words flat and building. Step 2: Give pupils time to do the task independently. Go around the classroom to offer help where necessary. Step 3: Get pupils to swap books with a partner to check their answers before checking as a class. Invite a pupil to write the answers on the board. Extension: Invite four pairs of pupils to act out the four completed exchanges in front of the class. Correct their pronunciation where necessary.\nStep 1: Draw pupils’ attention to the game input on the board. Introduce and explain how to play the game: The class is divided into groups A and B. Each member in Group A and B writes a question to guess the home type that his / her counterpart in the other group lives in. Their work should be written on paper slips and handed to the teacher when the time limit is over. After that, the teacher invites two groups at random to interact using the questions and answers. Step 2: Give pupils a time limit for the class to prepare for the game and go around the class to offer help where necessary. Step 3: When the time is over, nominate a pair from different groups to check their interaction. Have the counterpart group stand up at their places, make the guesses, and encourage the rest of pupils to cheer up whenever the guess is correct.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Do not post photos of house facades, house numbers, or locations that can identify where you live in the digital environment. Ethics: Keep houses clean and tidy, and respect other people's living spaces.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify personal information of the character in each picture. Pupils pay attention to the hand pointing at the house.- Pupils look at the four incomplete exchanges. Pupils read the question and answer and guess the missing word.- Pupils follow the teacher demonstrating the Exchange 1.- Pupils complete the exchanges individually. - Pupils swap books with a partner and check their answers before checking as a class.- Pairs of pupils read the completed exchanges aloud.\n- Pupils pay attention to the game input on the board.- Pupils work into groups A and B.- Pupils follow the teacher’s instructions.- Pupils prepare for the game.- Pupils play the game.- Pupils cheer up whenever the guess is correct.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -994,7 +994,7 @@
       {
         "lessonTitle": "UNIT 2: Our homes! - Lesson 2 - Period 3 (Period 13)",
         "topic": "Unit 2:Our homes - Our homes - Lesson 2(1, 2, 3)",
-        "period": "Tiết 13",
+        "period": "Period 13",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1008,7 +1008,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết AI/bản đồ số có thể hỗ trợ xác định khoảng cách và tìm địa điểm, nhưng cần dùng thông tin vị trí an toàn và có sự hướng dẫn của GV/người lớn.ATGT: Nhận biết quãng đường gần/xa từ nhà đến trường và lựa chọn cách đi lại an toàn.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI/digital maps can support distance determination and location finding, but require safe location information and guidance from teachers/adults. Traffic safety: Recognize short/long distances from home to school and choose safe ways to travel.",
           "3. Attributes",
           "- Show their pride in their personal information and where they live."
         ],
@@ -1059,7 +1059,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the pictures and elicit the addresses. Ask questions to help them identify the context (see Input).Step 2: Point at the ﬁrst building and elicit the question in the ﬁrst speech bubble Do you live in __? and the answer in the second speech bubble Yes, / No, ____. as an example. If the answer is No, then point at the question What’s your address? Write the sentences on the board. Get pupils to say the completed sentences. Repeat the same procedure with other pictures.Step 3: Give pupils time to work in pairs and take turns pointing at each picture to ask and answer using Do you live in ____? – Yes, / No, ____. and What’s your address? – ____. Step 4: Invite a few pairs to come to the front of the classroom and act out the exchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết AI/bản đồ số có thể hỗ trợ xác định khoảng cách và tìm địa điểm, nhưng cần dùng thông tin vị trí an toàn và có sự hướng dẫn của GV/người lớn.ATGT: Nhận biết quãng đường gần/xa từ nhà đến trường và lựa chọn cách đi lại an toàn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the pictures and elicit the addresses. Ask questions to help them identify the context (see Input).Step 2: Point at the ﬁrst building and elicit the question in the ﬁrst speech bubble Do you live in __? and the answer in the second speech bubble Yes, / No, ____. as an example. If the answer is No, then point at the question What’s your address? Write the sentences on the board. Get pupils to say the completed sentences. Repeat the same procedure with other pictures.Step 3: Give pupils time to work in pairs and take turns pointing at each picture to ask and answer using Do you live in ____? – Yes, / No, ____. and What’s your address? – ____. Step 4: Invite a few pairs to come to the front of the classroom and act out the exchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI/digital maps can support distance determination and location finding, but require safe location information and guidance from teachers/adults. Traffic safety: Recognize short/long distances from home to school and choose safe ways to travel.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the number and the name of the street.- Pupils look at the first building and elicit the missing words in speech bubbles on the board and say the completed sentences.- Pupils look at the bubbles to understand how the sentence pattern is used. - Pupils role-play to practise asking and answering questions about address, using picture cues.- Pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1076,7 +1076,7 @@
       {
         "lessonTitle": "UNIT 2: OUR HOMES - Lesson 2 - Period 4 (Period 14)",
         "topic": "Unit 2:Our homes - Our homes - Lesson 2(4, 5, 6)",
-        "period": "Tiết 14",
+        "period": "Period 14",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1088,7 +1088,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Bảo vệ dữ liệu vị trí: không chia sẻ công khai địa chỉ nhà, số nhà, vị trí trực tiếp hoặc khoảng cách di chuyển hằng ngày.NLS 1.1.CB2b: Tìm và đọc thông tin địa chỉ mẫu trên học liệu số do GV cung cấp.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Protect location data: do not publicly share home addresses, house numbers, live locations, or daily travel distances. NLS 1.1.CB2b: Find and read sample address information on digital learning materials provided by teachers.",
           "3. Attributes",
           "- Show their pride in their personal information and where they live."
         ],
@@ -1140,7 +1140,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the song lyrics and guess the missing words with the help of the picture. Give Number 1 as an example (building). Fill in the gap.Step 2: Repeat Step 1 for Number 2 (tower) and Number 3 (19).Step 3: Give a time limit for pupils to read and fill the gaps. Then play the recording again forthem to check the answers.Step 4: Play the recording again for pupils to listen and sing along before they practise singing the song.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Bảo vệ dữ liệu vị trí: không chia sẻ công khai địa chỉ nhà, số nhà, vị trí trực tiếp hoặc khoảng cách di chuyển hằng ngày.NLS 1.1.CB2b: Tìm và đọc thông tin địa chỉ mẫu trên học liệu số do GV cung cấp.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the song lyrics and guess the missing words with the help of the picture. Give Number 1 as an example (building). Fill in the gap.Step 2: Repeat Step 1 for Number 2 (tower) and Number 3 (19).Step 3: Give a time limit for pupils to read and fill the gaps. Then play the recording again forthem to check the answers.Step 4: Play the recording again for pupils to listen and sing along before they practise singing the song.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Protect location data: do not publicly share home addresses, house numbers, live locations, or daily travel distances. NLS 1.1.CB2b: Find and read sample address information on digital learning materials provided by teachers.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the song and guess the missing words.- Pupils follow the teacher's instructions. - Pupils work individually, listen and complete.- Pupils listen to the recording to check their answers again.- Pupils listen and sing along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1157,7 +1157,7 @@
       {
         "lessonTitle": "UNIT 2: OUR HOMES - Lesson 3 - Period 5 (Period 15)",
         "topic": "Unit 2:Our homes - Our homes - Lesson 3(1, 2, 3)",
-        "period": "Tiết 15",
+        "period": "Period 15",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1169,7 +1169,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Đối chiếu phát âm và cách đọc số trong địa chỉ (fifteen, sixteen...) từ công cụ AI với audio SGK và hướng dẫn của GV.Toán học: Đọc, nhận biết và sử dụng số nhà chính xác trong các địa chỉ mẫu.",
+          "+ Digital competence & AI literacy: AI 4.B2: Cross-check pronunciation and number readings in addresses (fifteen, sixteen...) from AI tools with textbook audio and teacher guidance. Mathematics: Read, recognize, and use house numbers accurately in sample addresses.",
           "3. Attributes",
           "- Show their pride in their personal home and address."
         ],
@@ -1221,7 +1221,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils look at the pictures and identify the addresses.Step 2: Get pupils to read the first verse of the chant and draw their attention to the numbers 15 (fif'teen) and 16 (six'teen). Check comprehension.Step 3: Play the recording of the first verse. Play the recording again, line by line, for pupils to listen and repeat. Draw their attention to the rhythm, word stress and pronunciation. Encourage them to clap and do actions while chanting.Step 4: Repeat Steps 2 and 3 for the second verse of the chant but draw their attention to the numbers 18 (eigh'teen) and 19 (nine'teen).Step 5: Play the recording all the way through for pupils to chant and clap their hands.Extension: Invite two groups of pupils to take turns chanting the questions and answers in the two verses, replacing fifteen, sixteen with thirteen and fourteen; eighteen, nineteen with fifteen and sixteen.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Đối chiếu phát âm và cách đọc số trong địa chỉ (fifteen, sixteen...) từ công cụ AI với audio SGK và hướng dẫn của GV.Toán học: Đọc, nhận biết và sử dụng số nhà chính xác trong các địa chỉ mẫu.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils look at the pictures and identify the addresses.Step 2: Get pupils to read the first verse of the chant and draw their attention to the numbers 15 (fif'teen) and 16 (six'teen). Check comprehension.Step 3: Play the recording of the first verse. Play the recording again, line by line, for pupils to listen and repeat. Draw their attention to the rhythm, word stress and pronunciation. Encourage them to clap and do actions while chanting.Step 4: Repeat Steps 2 and 3 for the second verse of the chant but draw their attention to the numbers 18 (eigh'teen) and 19 (nine'teen).Step 5: Play the recording all the way through for pupils to chant and clap their hands.Extension: Invite two groups of pupils to take turns chanting the questions and answers in the two verses, replacing fifteen, sixteen with thirteen and fourteen; eighteen, nineteen with fifteen and sixteen.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Cross-check pronunciation and number readings in addresses (fifteen, sixteen...) from AI tools with textbook audio and teacher guidance. Mathematics: Read, recognize, and use house numbers accurately in sample addresses.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the pictures and lyrics of the chant.- Pupils read the first verse of the chant.- Pupils listen to the recording of the first verse, line by line, and repeat. Pupils can clap and do actions while chanting.- Pupils do the same procedure with the second verse of the chant.- Pupils listen to the recording all the way through and chant along. Pupils clap while chanting.- Pupils work in two or more groups to take turns chanting with the replaced words in the two verses.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1238,7 +1238,7 @@
       {
         "lessonTitle": "UNIT 2: OUR HOMES - Lesson 3 - Period 6 (Period 16)",
         "topic": "Unit 2:Our homes - Our homes - Lesson 3(4, 5, 6)",
-        "period": "Tiết 16",
+        "period": "Period 16",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1250,7 +1250,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.4.CB2a: Hợp tác nhóm thực hiện “Home survey” bằng bảng/biểu mẫu số do GV quản lí với dữ liệu giả định.AI 4.A3: Chọn hình nhà ở do AI tạo/phù hợp để minh họa kết quả khảo sát; không dùng ảnh hoặc địa chỉ thật làm lộ vị trí cá nhân.",
+          "+ Digital competence & AI literacy: NLS 2.4.CB2a: Collaborate in groups to conduct a “Home survey” using digital boards/forms managed by teachers with hypothetical data. AI 4.A3: Choose AI-generated/suitable housing images to illustrate survey results; do not use real photos or addresses that reveal personal locations.",
           "3. Attributes",
           "- Show their knowledge about houses and addresses."
         ],
@@ -1293,7 +1293,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity and explain that they should read the questions and write the answers based on their personal information.Step 2: Give an example with Question 1. Invite a pupil to read Question 1 and write the answer on the board and read it aloud. Correct the spelling and pronunciation where necessary.Step 3: Give pupils time to do the writing task independently. Go around the classroom and offer help where necessary.Step 4: Get pupils to swap books with a partner and check their answers before checking as a class. If time allows, invite one or two pupils to stand up and read aloud their answers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB2a: Hợp tác nhóm thực hiện “Home survey” bằng bảng/biểu mẫu số do GV quản lí với dữ liệu giả định.AI 4.A3: Chọn hình nhà ở do AI tạo/phù hợp để minh họa kết quả khảo sát; không dùng ảnh hoặc địa chỉ thật làm lộ vị trí cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of the activity and explain that they should read the questions and write the answers based on their personal information.Step 2: Give an example with Question 1. Invite a pupil to read Question 1 and write the answer on the board and read it aloud. Correct the spelling and pronunciation where necessary.Step 3: Give pupils time to do the writing task independently. Go around the classroom and offer help where necessary.Step 4: Get pupils to swap books with a partner and check their answers before checking as a class. If time allows, invite one or two pupils to stand up and read aloud their answers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB2a: Collaborate in groups to conduct a “Home survey” using digital boards/forms managed by teachers with hypothetical data. AI 4.A3: Choose AI-generated/suitable housing images to illustrate survey results; do not use real photos or addresses that reveal personal locations.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils follow the teacher’s instructions.- Pupils do the task individually.- Pupils swap books with a partner and check their answers before checking as a class.- Pupils stand up and read aloud their answers.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1316,7 +1316,7 @@
       {
         "lessonTitle": "UNIT 3: MY FOREIGN FRIENDS - Lesson 1 - Period 1 (Period 17)",
         "topic": "Unit 3:My foreign friends - My foreign friends - Lesson 1(1, 2, 3)",
-        "period": "Tiết 17",
+        "period": "Period 17",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1330,7 +1330,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI có thể hỗ trợ nhận diện cờ, địa danh và gợi ý tên quốc gia/quốc tịch như Australian, Malaysian, American, Japanese; HS cần kiểm tra lại với SGK và nguồn đáng tin cậy.Giáo dục liên văn hóa: Tôn trọng sự khác biệt về quốc gia, ngôn ngữ và văn hóa; không gắn tính cách với quốc tịch.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI can support recognizing flags, landmarks, and suggesting country/nationality names like Australian, Malaysian, American, Japanese; students need to cross-check with textbooks and reliable sources. Intercultural education: Respect differences in countries, languages, and cultures; do not associate personality traits with nationalities.",
           "3. Attributes",
           "- Show their pride in where they come from and great respect for where someone comes from by asking and answering about nationality."
         ],
@@ -1382,7 +1382,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the picture. Ask questions to help them identify the context (see Input). Step 2: Point at the first character and elicit the question in the first speech bubble (e.g. What nationality is she?) and the answer in the second speech bubble (She’s Malaysian.) as an example. Then write the sentences on the board. Get pupils to say the completed sentences. Repeat the same procedure with other pictures. Step 3: Put pupils into pairs to ask and answer questions about the nationality of each character in the picture. Go around and offer support where necessary. Step 4: Invite a few pairs to the front of the classroom to ask and answer questions about someone’s nationality.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI có thể hỗ trợ nhận diện cờ, địa danh và gợi ý tên quốc gia/quốc tịch như Australian, Malaysian, American, Japanese; HS cần kiểm tra lại với SGK và nguồn đáng tin cậy.Giáo dục liên văn hóa: Tôn trọng sự khác biệt về quốc gia, ngôn ngữ và văn hóa; không gắn tính cách với quốc tịch.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the picture. Ask questions to help them identify the context (see Input). Step 2: Point at the first character and elicit the question in the first speech bubble (e.g. What nationality is she?) and the answer in the second speech bubble (She’s Malaysian.) as an example. Then write the sentences on the board. Get pupils to say the completed sentences. Repeat the same procedure with other pictures. Step 3: Put pupils into pairs to ask and answer questions about the nationality of each character in the picture. Go around and offer support where necessary. Step 4: Invite a few pairs to the front of the classroom to ask and answer questions about someone’s nationality.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI can support recognizing flags, landmarks, and suggesting country/nationality names like Australian, Malaysian, American, Japanese; students need to cross-check with textbooks and reliable sources. Intercultural education: Respect differences in countries, languages, and cultures; do not associate personality traits with nationalities.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture and identify the context.- Pupils follow the teacher demonstrating the example. Pupils say the completed sentences. Pupils follow the teacher’s instructions with other pictures.- Pupils work in pairs to ask and answer questions about the nationality of each character in the picture.- Pairs of pupils come to the front of the classroom to ask and answer questions about someone’s nationality.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1399,7 +1399,7 @@
       {
         "lessonTitle": "UNIT 3: MY FOREIGN FRIENDS - Lesson 1 - Period 2 (Period 18)",
         "topic": "Unit 3:My foreign friends - My foreign friends - Lesson 1(4, 5, 6)",
-        "period": "Tiết 18",
+        "period": "Period 18",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1411,7 +1411,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB2a: Tập kiểm chứng thông tin về tên nước, quốc tịch và biểu tượng văn hóa từ ít nhất hai nguồn học liệu số/website giáo dục do GV cung cấp.NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi và trả lời về quốc gia, quốc tịch; không chế giễu cách phát âm hoặc nền văn hóa của bạn.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB2a: Practice verifying information about country names, nationalities, and cultural symbols from at least two digital learning sources/educational websites provided by teachers. NLS 2.5.CB2a: Communicate politely when asking and answering about countries and nationalities; do not mock peers' pronunciation or cultures.",
           "3. Attributes",
           "- Show their pride in where they come from and great respect for where someone comes from by asking and answering about nationality."
         ],
@@ -1463,7 +1463,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the pictures to say what they see. Step 2: Have pupils read and listen to the song, draw their attention to the pronunciation, rhythm and melody. Step 3: Play the recording again and let them listen to and practise singing the song, line by line, while doing actions or clapping their hands when they hear the keywords such as British, Britain, land, see in the first verse and Australian, Australia, land, see in the second verse. Step 4: Ask pupils to listen to and sing the whole song while doing actions or clapping their hands. Go around the classroom and offer help where necessary. Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2a: Tập kiểm chứng thông tin về tên nước, quốc tịch và biểu tượng văn hóa từ ít nhất hai nguồn học liệu số/website giáo dục do GV cung cấp.NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi và trả lời về quốc gia, quốc tịch; không chế giễu cách phát âm hoặc nền văn hóa của bạn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the pictures to say what they see. Step 2: Have pupils read and listen to the song, draw their attention to the pronunciation, rhythm and melody. Step 3: Play the recording again and let them listen to and practise singing the song, line by line, while doing actions or clapping their hands when they hear the keywords such as British, Britain, land, see in the first verse and Australian, Australia, land, see in the second verse. Step 4: Ask pupils to listen to and sing the whole song while doing actions or clapping their hands. Go around the classroom and offer help where necessary. Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2a: Practice verifying information about country names, nationalities, and cultural symbols from at least two digital learning sources/educational websites provided by teachers. NLS 2.5.CB2a: Communicate politely when asking and answering about countries and nationalities; do not mock peers' pronunciation or cultures.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the title and lyrics of the song. Pupils point at the pictures to say what they see.- Pupils read and listen to the song, pay their attention to the pronunciation, rhythm and melody.- Pupils listen to the recording again and practise singing the song, line by line, while doing actions or clapping their hands.- Pupils listen to and sing the whole song while doing actions or clapping their hands.- Pupils come to the front of the class to sing the song. The class may sing along to reinforce the activity.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1480,7 +1480,7 @@
       {
         "lessonTitle": "UNIT 3: MY FOREIGN FRIENDS - Lesson 2 - Period 3 (Period 19)",
         "topic": "Unit 3:My foreign friends - My foreign friends - Lesson 2(1, 2, 3)",
-        "period": "Tiết 19",
+        "period": "Period 19",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1494,7 +1494,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Hiểu rằng AI không nên dùng để suy đoán tính cách của một người chỉ từ ảnh; HS mô tả tính cách dựa trên hành vi/ngữ cảnh trong bài: friendly, helpful, clever, active.Đạo đức: Dùng từ tích cực, tôn trọng khi nhận xét bạn bè; tránh gắn nhãn hoặc so sánh gây tổn thương.",
+          "+ Digital competence & AI literacy: AI 4.B2: Understand that AI should not be used to infer a person's personality solely from a photo; students describe personalities based on behaviors/contexts in the lesson: friendly, helpful, clever, active. Ethics: Use positive and respectful words when commenting on peers; avoid labeling or hurtful comparisons.",
           "3. Attributes",
           "- Raise their awareness of good personality."
         ],
@@ -1546,7 +1546,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the picture and elicit the personality of each character in the picture. Remind pupils that What’s he / she like? and - ___. are used to ask and answer questions about someone’s personality. Step 2: Give pupils time to work in pairs and take turns pointing and asking and answering questions about the personality of each character in the picture. Remind them to look at the activities the characters do. Step 3: Invite a few pairs to come to the front of the classroom and act out the exchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Hiểu rằng AI không nên dùng để suy đoán tính cách của một người chỉ từ ảnh; HS mô tả tính cách dựa trên hành vi/ngữ cảnh trong bài: friendly, helpful, clever, active.Đạo đức: Dùng từ tích cực, tôn trọng khi nhận xét bạn bè; tránh gắn nhãn hoặc so sánh gây tổn thương.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the picture and elicit the personality of each character in the picture. Remind pupils that What’s he / she like? and - ___. are used to ask and answer questions about someone’s personality. Step 2: Give pupils time to work in pairs and take turns pointing and asking and answering questions about the personality of each character in the picture. Remind them to look at the activities the characters do. Step 3: Invite a few pairs to come to the front of the classroom and act out the exchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Understand that AI should not be used to infer a person's personality solely from a photo; students describe personalities based on behaviors/contexts in the lesson: friendly, helpful, clever, active. Ethics: Use positive and respectful words when commenting on peers; avoid labeling or hurtful comparisons.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture and elicit the personality of each character in the picture. - Pupils work in pairs and take turns pointing and asking and answering questions about the personality of each character in the picture.- Pairs of pupils come to the front of the classroom and act out the exchanges.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1563,7 +1563,7 @@
       {
         "lessonTitle": "UNIT 3: MY FOREIGN FRIENDS - Lesson 2 - Period 4 (Period 20)",
         "topic": "Unit 3:My foreign friends - My foreign friends - Lesson 2(4, 5, 6)",
-        "period": "Tiết 20",
+        "period": "Period 20",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1575,7 +1575,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.5.CB2a: Thực hành viết/trao đổi câu mô tả bạn bè lịch sự trên môi trường số, ví dụ “He’s helpful.”, “She’s friendly.”Quyền trẻ em: Tôn trọng danh dự, hình ảnh và sự khác biệt của mỗi bạn; không đăng lời nhận xét tiêu cực về người khác.",
+          "+ Digital competence & AI literacy: NLS 2.5.CB2a: Practice writing/exchanging polite sentences describing friends in the digital environment, e.g., “He’s helpful.”, “She’s friendly.” Child rights: Respect everyone's honor, image, and differences; do not post negative comments about others.",
           "3. Attributes",
           "- Raise their awareness of good personality."
         ],
@@ -1627,7 +1627,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Divide the class into 8 - 10 groups. Give each group a piece of paper. Step 2: Write a word on the board (e.g. friendly) and ask the groups to write a sentence using the word within one minute. Remind the groups to make the sentence as long as possible. Step 3: After one minute, the groups hold up the sentences and say them aloud. The group with the longest sentences wins. Step 4: Play the game with another word.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.5.CB2a: Thực hành viết/trao đổi câu mô tả bạn bè lịch sự trên môi trường số, ví dụ “He’s helpful.”, “She’s friendly.”Quyền trẻ em: Tôn trọng danh dự, hình ảnh và sự khác biệt của mỗi bạn; không đăng lời nhận xét tiêu cực về người khác.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Divide the class into 8 - 10 groups. Give each group a piece of paper. Step 2: Write a word on the board (e.g. friendly) and ask the groups to write a sentence using the word within one minute. Remind the groups to make the sentence as long as possible. Step 3: After one minute, the groups hold up the sentences and say them aloud. The group with the longest sentences wins. Step 4: Play the game with another word.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.5.CB2a: Practice writing/exchanging polite sentences describing friends in the digital environment, e.g., “He’s helpful.”, “She’s friendly.” Child rights: Respect everyone's honor, image, and differences; do not post negative comments about others.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils work in groups. Each group holds a piece of paper.- Pupils look at the word on the board and write a sentence using the word within one minute. Pupils remember to make the sentence as long as possible.- Pupils say the sentences aloud.- Pupils continue playing the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1650,7 +1650,7 @@
       {
         "lessonTitle": "UNIT 3: MY FOREIGN FRIENDS - Lesson 3 - Period 5 (Period 21)",
         "topic": "Unit 3:My foreign friends - My foreign friends - Lesson 3(1, 2, 3)",
-        "period": "Tiết 21",
+        "period": "Period 21",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1662,7 +1662,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu như active, friendly; HS đối chiếu với audio SGK và hướng dẫn của GV.AI 4.B2: Biết phản hồi của AI có thể sai; nghe lại, so sánh và tự sửa dựa trên nguồn chuẩn.",
+          "+ Digital competence & AI literacy: AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences like active, friendly; students cross-check with textbook audio and teacher guidance. AI 4.B2: Know that AI feedback can be wrong; listen again, compare, and self-correct based on standard sources.",
           "3. Attributes",
           "- Raise their awareness of good personality."
         ],
@@ -1714,7 +1714,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils look at the picture and state activity the characters do and the words to show their personality. Step 2: Have pupils read the first verse of the chant and draw their attention to the stress of the words active and friendly as in words and in sentences. Check comprehension. Step 3: Play the recording of the first verse for pupils to listen. Play it again, line by line, for pupils to listen and repeat. Draw their attention to the rhythm, word stress and pronunciation. Encourage them to clap or do actions while chanting. Step 4: Repeat Steps 2 and 3 for the second verse of the chant. Draw pupils’ attention to the words helpful and clever to practice the word stress as in words and in sentences. Step 5: Play the recording all the way through for pupils to chant and clap their hands. Extension (For consolidation): Replace two adjectives in the chant with other adjectives which have the stress on the first syllable for example, happy, busy, quiet, tidy, gentle. Have pupils practice the new chant.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu như active, friendly; HS đối chiếu với audio SGK và hướng dẫn của GV.AI 4.B2: Biết phản hồi của AI có thể sai; nghe lại, so sánh và tự sửa dựa trên nguồn chuẩn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils look at the picture and state activity the characters do and the words to show their personality. Step 2: Have pupils read the first verse of the chant and draw their attention to the stress of the words active and friendly as in words and in sentences. Check comprehension. Step 3: Play the recording of the first verse for pupils to listen. Play it again, line by line, for pupils to listen and repeat. Draw their attention to the rhythm, word stress and pronunciation. Encourage them to clap or do actions while chanting. Step 4: Repeat Steps 2 and 3 for the second verse of the chant. Draw pupils’ attention to the words helpful and clever to practice the word stress as in words and in sentences. Step 5: Play the recording all the way through for pupils to chant and clap their hands. Extension (For consolidation): Replace two adjectives in the chant with other adjectives which have the stress on the first syllable for example, happy, busy, quiet, tidy, gentle. Have pupils practice the new chant.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences like active, friendly; students cross-check with textbook audio and teacher guidance. AI 4.B2: Know that AI feedback can be wrong; listen again, compare, and self-correct based on standard sources.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture and state activity the characters do and the words to show their personality.- Pupils read the first verse of the chant and pay attention to the stress of the words active and friendly as in words and in sentences.- Pupils listen to the recording of the first verse. Pupils listen to the recording again, line by line, and repeat. Pupils clap or do actions while chanting.- Pupils follow the teacher’s instructions.- Pupils listen to the recording all the way through to chant and clap their hands.- Pupils follow the teacher’s instructions and practice the new chant.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1731,7 +1731,7 @@
       {
         "lessonTitle": "UNIT 3: MY FOREIGN FRIENDS - Lesson 3 - Period 6 (Period 22)",
         "topic": "Unit 3:My foreign friends - My foreign friends - Lesson 3(4, 5, 6)",
-        "period": "Tiết 22",
+        "period": "Period 22",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1743,7 +1743,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế bảng/poster số “Countries and nationalities” bằng PowerPoint/Canva với tên nước, quốc tịch và hình minh họa phù hợp.AI 4.A3: Chọn lọc hình ảnh AI về quốc gia/văn hóa đúng, văn minh và không định kiến; kiểm tra lại trước khi đưa vào sản phẩm.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital table/poster titled “Countries and nationalities” using PowerPoint/Canva with country names, nationalities, and appropriate illustrations. AI 4.A3: Select accurate, civilized, and unbiased AI images regarding countries/cultures; check them before adding them to products.",
           "3. Attributes",
           "- Show their pride in where they come from and great respect for where someone comes from by asking and answering about nationality.",
           "- Raise their awareness of good personality."
@@ -1788,7 +1788,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity and explain that they should read and fill in the form with the information about a foreign friend. Check comprehension. Step 2: Have pupils fill in the first blank together as an example. Ask them to read the first line in the form and elicit possible answers. Then have them write the answer in the gap. Step 3: Give pupils time to complete the form independently. Go around the classroom and offer help where necessary. Step 4: Get pupils to swap their books with a partner and check their answers before checking as a class. Extension: Invite one or two pupils to read their completed form in front of the class.\nMy foreign friend’s name\nHis / Her age\nHis / Her nationality\nHis / Her appearance\nHis / Her personality\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế bảng/poster số “Countries and nationalities” bằng PowerPoint/Canva với tên nước, quốc tịch và hình minh họa phù hợp.AI 4.A3: Chọn lọc hình ảnh AI về quốc gia/văn hóa đúng, văn minh và không định kiến; kiểm tra lại trước khi đưa vào sản phẩm.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of the activity and explain that they should read and fill in the form with the information about a foreign friend. Check comprehension. Step 2: Have pupils fill in the first blank together as an example. Ask them to read the first line in the form and elicit possible answers. Then have them write the answer in the gap. Step 3: Give pupils time to complete the form independently. Go around the classroom and offer help where necessary. Step 4: Get pupils to swap their books with a partner and check their answers before checking as a class. Extension: Invite one or two pupils to read their completed form in front of the class.\nMy foreign friend’s name\nHis / Her age\nHis / Her nationality\nHis / Her appearance\nHis / Her personality\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital table/poster titled “Countries and nationalities” using PowerPoint/Canva with country names, nationalities, and appropriate illustrations. AI 4.A3: Select accurate, civilized, and unbiased AI images regarding countries/cultures; check them before adding them to products.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils fill in the first blank together as an example. Pupils read the first line in the form and elicit possible answers. Then pupils write the answer in the gap.- Pupils complete the form independently.- Pupils swap their books with a partner and check their answers before checking as a class.- Pupils read their completed form in front of the class.\nRosie\n10\nAustralian\nfair hair, tall\nfriendly and helpful\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1812,7 +1812,7 @@
       {
         "lessonTitle": "UNIT 4: OUR FREE-TIME ACTIVITIES - Lesson 1 - Period 1 (Period 23)",
         "topic": "Unit 4:Our free-timeactivities - Our free-time activities - Lesson 1(1, 2, 3)",
-        "period": "Tiết 23",
+        "period": "Period 23",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1826,7 +1826,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết hệ thống AI có thể gợi ý video, âm nhạc hoặc nội dung giải trí dựa trên sở thích; HS hiểu gợi ý AI không phải lúc nào cũng phù hợp và con người quyết định lựa chọn.Giáo dục sức khỏe: Khuyến khích lựa chọn hoạt động tự do cân bằng giữa vận động, đọc sách, âm nhạc và thời gian dùng thiết bị.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI systems can suggest videos, music, or entertainment content based on preferences; students understand that AI suggestions are not always suitable and humans make choices. Health education: Encourage a balanced choice of free-time activities among physical exercise, reading, music, and screen time.",
           "3. Attributes",
           "- Explore new interests and develop healthier and balanced lifestyle, then improve general well-being."
         ],
@@ -1878,7 +1878,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context (see Input). Step 2: Point at the first character and elicit the question in the first speech bubble (What do you like doing in your free time?). Using the boy who is surfing the Internet as the cue, elicit an answer to complete the second speech bubble (I like surfing the Internet.) as an example. Then write the question and answer on the board. Get pupils to say them. Repeat the same procedure with three other pictures. Step 3: Put pupils into pairs and have them practise asking and answering questions about what someone likes doing in their free time. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the class to ask and answer questions about what someone likes doing in their free time, using the picture cues. Praise pupils if they perform well. Extension: Invite some pairs of pupils to ask and answer questions about the real activities they like doing in their free time. For example, What do you like doing in your free time? – I like listening to music.; What do you like doing in your free time? – I like playing football.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết hệ thống AI có thể gợi ý video, âm nhạc hoặc nội dung giải trí dựa trên sở thích; HS hiểu gợi ý AI không phải lúc nào cũng phù hợp và con người quyết định lựa chọn.Giáo dục sức khỏe: Khuyến khích lựa chọn hoạt động tự do cân bằng giữa vận động, đọc sách, âm nhạc và thời gian dùng thiết bị.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context (see Input). Step 2: Point at the first character and elicit the question in the first speech bubble (What do you like doing in your free time?). Using the boy who is surfing the Internet as the cue, elicit an answer to complete the second speech bubble (I like surfing the Internet.) as an example. Then write the question and answer on the board. Get pupils to say them. Repeat the same procedure with three other pictures. Step 3: Put pupils into pairs and have them practise asking and answering questions about what someone likes doing in their free time. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the class to ask and answer questions about what someone likes doing in their free time, using the picture cues. Praise pupils if they perform well. Extension: Invite some pairs of pupils to ask and answer questions about the real activities they like doing in their free time. For example, What do you like doing in your free time? – I like listening to music.; What do you like doing in your free time? – I like playing football.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI systems can suggest videos, music, or entertainment content based on preferences; students understand that AI suggestions are not always suitable and humans make choices. Health education: Encourage a balanced choice of free-time activities among physical exercise, reading, music, and screen time.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and answer the questions.- Pupils look at the bubbles to understand how the sentence pattern is used. Pupils follow the teacher’s instruction.- Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.- Pairs of pupils ask and answer questions about the real activities they like doing in their free time.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1895,7 +1895,7 @@
       {
         "lessonTitle": "UNIT 4: OUR FREE-TIME ACTIVITIES - Lesson 1 - Period 2 (Period 24)",
         "topic": "Unit 4:Our free-timeactivities - Our free-time activities - Lesson 1(4, 5, 6)",
-        "period": "Tiết 24",
+        "period": "Period 24",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1907,7 +1907,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Không chia sẻ công khai lịch sinh hoạt, vị trí hoặc thông tin cá nhân khi nói về sở thích và hoạt động thời gian rảnh trên môi trường số.NLS 2.5.CB2a: Giao tiếp lịch sự khi trao đổi về sở thích; tôn trọng sự khác biệt và không chê bai hoạt động yêu thích của bạn.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Do not publicly share daily routines, locations, or personal information when talking about hobbies and free-time activities in the digital environment. NLS 2.5.CB2a: Communicate politely when discussing hobbies; respect differences and do not criticize peers' favorite activities.",
           "3. Attributes",
           "- Show their pride in their personal information and what they like doing in their free time."
         ],
@@ -1959,7 +1959,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they are going to play Who has more correct answers? in groups. They will discuss and make as many sentences as possible to answer the question (asked by the teacher) What do you like doing in your free time?. Step 2: The groups will write as many sentences as possible about their free-time activities within five minutes on their paper, e.g. In our free time, we like reading books. We like watering the flowers. We like surfing the Internet. The representative of each group will read aloud the sentences they have made in their group. The group that gets more correct sentences is the winner.Step 3: Have pupils work in groups of five or six. Set a time limit for them to discuss and write down their sentences on the paper.Step 4: Invite representatives of two groups to the front of the class to read their sentences aloud. Check answers together as a class and decide which group is the winner.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Không chia sẻ công khai lịch sinh hoạt, vị trí hoặc thông tin cá nhân khi nói về sở thích và hoạt động thời gian rảnh trên môi trường số.NLS 2.5.CB2a: Giao tiếp lịch sự khi trao đổi về sở thích; tôn trọng sự khác biệt và không chê bai hoạt động yêu thích của bạn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they are going to play Who has more correct answers? in groups. They will discuss and make as many sentences as possible to answer the question (asked by the teacher) What do you like doing in your free time?. Step 2: The groups will write as many sentences as possible about their free-time activities within five minutes on their paper, e.g. In our free time, we like reading books. We like watering the flowers. We like surfing the Internet. The representative of each group will read aloud the sentences they have made in their group. The group that gets more correct sentences is the winner.Step 3: Have pupils work in groups of five or six. Set a time limit for them to discuss and write down their sentences on the paper.Step 4: Invite representatives of two groups to the front of the class to read their sentences aloud. Check answers together as a class and decide which group is the winner.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Do not publicly share daily routines, locations, or personal information when talking about hobbies and free-time activities in the digital environment. NLS 2.5.CB2a: Communicate politely when discussing hobbies; respect differences and do not criticize peers' favorite activities.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils follow the teacher’s instructions.   - In groups, pupils discuss and make as many sentences as possible to answer the questions: “What do you like doing in your free time?”- The representative of each group read aloud their sentences in their group.- Work in groups of five or six to discuss and write down their sentences on the paper.- Representatives of two groups to the front of the class read their sentences aloud.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -1982,7 +1982,7 @@
       {
         "lessonTitle": "UNIT 4: OUR FREE-TIME ACTIVITIES - Lesson 2 - Period 3 (Period 25)",
         "topic": "Unit 4:Our free-timeactivities - Our free-time activities - Lesson 2(1, 2, 3)",
-        "period": "Tiết 25",
+        "period": "Period 25",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -1996,7 +1996,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Biết lựa chọn lịch/bảng theo dõi số đơn giản để ghi hoạt động cuối tuần và mức độ thường xuyên: always, usually, often, sometimes, rarely, never.Giáo dục kỹ năng sống: Biết sắp xếp thời gian học, vận động, nghỉ ngơi và giải trí hợp lý.",
+          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Know how to choose simple digital calendars/tracking tables to record weekend activities and frequencies: always, usually, often, sometimes, rarely, never. Life skills education: Know how to reasonably arrange study, exercise, rest, and entertainment time.",
           "3. Attributes",
           "- Explore new interests and develop a healthier and balanced lifestyle, then improve general well-being."
         ],
@@ -2047,7 +2047,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the picture and elicit the activity each character is doing in the picture. Use the questions What do you like doing in your free time? and What do you do at the weekend? to elicit the answers. Tell them to look at the activities the characters are doing to give their answers. Remind pupils that these structures are used to ask and answer questions about someone’s free-time activity.Step 2: Demonstrate the conversation with one pupil in front of the class using the two suggested questions.Step 3: Put pupils into pairs and encourage them to ask and answer questions about what someone likes doing in their free time and what someone does at the weekend. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the class to perform their conversations.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Biết lựa chọn lịch/bảng theo dõi số đơn giản để ghi hoạt động cuối tuần và mức độ thường xuyên: always, usually, often, sometimes, rarely, never.Giáo dục kỹ năng sống: Biết sắp xếp thời gian học, vận động, nghỉ ngơi và giải trí hợp lý.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the picture and elicit the activity each character is doing in the picture. Use the questions What do you like doing in your free time? and What do you do at the weekend? to elicit the answers. Tell them to look at the activities the characters are doing to give their answers. Remind pupils that these structures are used to ask and answer questions about someone’s free-time activity.Step 2: Demonstrate the conversation with one pupil in front of the class using the two suggested questions.Step 3: Put pupils into pairs and encourage them to ask and answer questions about what someone likes doing in their free time and what someone does at the weekend. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the class to perform their conversations.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Know how to choose simple digital calendars/tracking tables to record weekend activities and frequencies: always, usually, often, sometimes, rarely, never. Life skills education: Know how to reasonably arrange study, exercise, rest, and entertainment time.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture. Pupils say the actions of the characters in the pictures. Pupils identify the free-time activities of the characters.- Work in pairs, ask and answer questions about what someone does at the weekend.- Pupils follow the teacher’s instructions.- Pairs of pupils ask and answer questions about what someone likes doing in their free time and what someone does at the weekend.- Pairs of pupils come to the front and perform their conversations.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2064,7 +2064,7 @@
       {
         "lessonTitle": "UNIT 4: OUR FREE-TIME ACTIVITIES - Lesson 2 - Period 4 (Period 26)",
         "topic": "Unit 4:Our free-timeactivities - Our free-time activities - Lesson 2(4, 5, 6)",
-        "period": "Tiết 26",
+        "period": "Period 26",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2076,7 +2076,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Hiểu rằng AI có thể lặp lại hoặc ưu tiên một số nội dung giải trí; HS cần cân nhắc thời lượng, độ tuổi phù hợp và lợi ích sức khỏe trước khi làm theo gợi ý.NLS 4.1.CB2a: Thực hiện thói quen sử dụng thiết bị số lành mạnh: nghỉ mắt, giới hạn thời gian màn hình và không sử dụng thiết bị quá lâu.",
+          "+ Digital competence & AI literacy: AI 4.B2: Understand that AI can repeat or prioritize certain entertainment content; students need to consider duration, appropriate age, and health benefits before following suggestions. NLS 4.1.CB2a: Practice healthy digital device usage habits: rest eyes, limit screen time, and avoid using devices for too long.",
           "3. Attributes",
           "- Explore new interests and develop healthier and balanced lifestyle, then improve general well-being."
         ],
@@ -2127,7 +2127,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the gapped sentences. Encourage pupils to guess the missing words with the help of picture cues. Step 2: Play the recording all the way through for pupils to listen to the whole song. Then play the recording again for them to fill in the gaps with missing words. Step 3: Check answers as a class. Play the recording line by line for pupils to listen and repeat. Correct their pronunciation where necessary. Step 4: Play the recording all the way through for pupils to sing along and clap along with the recording.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Hiểu rằng AI có thể lặp lại hoặc ưu tiên một số nội dung giải trí; HS cần cân nhắc thời lượng, độ tuổi phù hợp và lợi ích sức khỏe trước khi làm theo gợi ý.NLS 4.1.CB2a: Thực hiện thói quen sử dụng thiết bị số lành mạnh: nghỉ mắt, giới hạn thời gian màn hình và không sử dụng thiết bị quá lâu.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the gapped sentences. Encourage pupils to guess the missing words with the help of picture cues. Step 2: Play the recording all the way through for pupils to listen to the whole song. Then play the recording again for them to fill in the gaps with missing words. Step 3: Check answers as a class. Play the recording line by line for pupils to listen and repeat. Correct their pronunciation where necessary. Step 4: Play the recording all the way through for pupils to sing along and clap along with the recording.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Understand that AI can repeat or prioritize certain entertainment content; students need to consider duration, appropriate age, and health benefits before following suggestions. NLS 4.1.CB2a: Practice healthy digital device usage habits: rest eyes, limit screen time, and avoid using devices for too long.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils guess the missing words with the help of picture cues.- Pupils listen all the way through carefully to the rhythm and pronunciation. Then listen to the recording again to fill in the gaps with missing words.- Pupils listen to the recording, line by line, and repeat.- Pupils listen to the recording all the way through and sing along. Pupils clap while singing.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2144,7 +2144,7 @@
       {
         "lessonTitle": "UNIT 4: OUR FREE-TIME ACTIVITIES - Lesson 3 - Period 5 (Period 27)",
         "topic": "Unit 4:Our free-timeactivities - Our free-time activities - Lesson 3(1, 2, 3)",
-        "period": "Tiết 27",
+        "period": "Period 27",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2156,7 +2156,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Phân loại và sắp xếp từ/cụm từ về hoạt động thời gian rảnh theo nhóm vận động, nghệ thuật, gia đình, trực tuyến; gắn với trạng từ chỉ tần suất.AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu như always, sometimes; HS đối chiếu với audio SGK và hướng dẫn của GV.",
+          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Classify and organize words/phrases about free-time activities into physical, artistic, family, and online groups; associate them with adverbs of frequency. AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences like always, sometimes; students cross-check with textbook audio and teacher guidance.",
           "3. Attributes",
           "- Explore new interests and develop healthier and balanced lifestyle, then improve general well-being."
         ],
@@ -2208,7 +2208,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check their comprehension. Step 2: Play the recording all the way through for pupils to listen to the whole chant. Encourage them to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to the words always and sometimes. Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation, if necessary. Step 4: Play the recording all the way through for pupils to chant to. Encourage them to clap along while chanting.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Phân loại và sắp xếp từ/cụm từ về hoạt động thời gian rảnh theo nhóm vận động, nghệ thuật, gia đình, trực tuyến; gắn với trạng từ chỉ tần suất.AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu như always, sometimes; HS đối chiếu với audio SGK và hướng dẫn của GV.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check their comprehension. Step 2: Play the recording all the way through for pupils to listen to the whole chant. Encourage them to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to the words always and sometimes. Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation, if necessary. Step 4: Play the recording all the way through for pupils to chant to. Encourage them to clap along while chanting.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Classify and organize words/phrases about free-time activities into physical, artistic, family, and online groups; associate them with adverbs of frequency. AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences like always, sometimes; students cross-check with textbook audio and teacher guidance.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the lyrics of the chant.- Pupils listen all the way through carefully to the rhythm and pronunciation.- Pupils listen to the recording, line by line, and repeat.- Pupils listen to the recording all the way through and chant along. Pupils clap while chanting.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2225,7 +2225,7 @@
       {
         "lessonTitle": "UNIT 4: OUR FREE-TIME ACTIVITIES - Lesson 3 - Period 6 (Period 28)",
         "topic": "Unit 4:Our free-timeactivities - Our free-time activities - Lesson 3(4, 5, 6)",
-        "period": "Tiết 28",
+        "period": "Period 28",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2237,7 +2237,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform speaking, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế bảng/poster số “My free-time activities” bằng PowerPoint/Canva với Activity - Frequency và câu mô tả ngắn.AI 4.A3: Chọn lọc hình ảnh AI phù hợp để minh họa sở thích; tránh hình ảnh nguy hiểm, không phù hợp lứa tuổi hoặc làm lộ thông tin cá nhân.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital table/poster titled “My free-time activities” using PowerPoint/Canva with Activity - Frequency and short descriptive sentences. AI 4.A3: Select appropriate AI images to illustrate hobbies; avoid dangerous, age-inappropriate images, or those revealing personal information.",
           "3. Attributes",
           "- Show their love and interest in leisure activities and entertainment."
         ],
@@ -2280,7 +2280,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Ask pupils to read the gapped letter and explain that they need to fill in the gaps with information about the boy in the pictures’ free-time activities. Check comprehension.Step 2: Have pupils complete the first, second and third gaps with names and an activity of their choice from the pictures. Ask them to read the sentences and elicit the names they chose (for Gaps 1 and 2) and the activity they chose (for Gap 3). Step 3: Give pupils time to complete the rest of the letter independently. Go around the classroom and offer help if necessary.Step  4:  Get  pupils  to  swap  their  books  with  a  partner  and check each other’s spelling before checking as a class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế bảng/poster số “My free-time activities” bằng PowerPoint/Canva với Activity - Frequency và câu mô tả ngắn.AI 4.A3: Chọn lọc hình ảnh AI phù hợp để minh họa sở thích; tránh hình ảnh nguy hiểm, không phù hợp lứa tuổi hoặc làm lộ thông tin cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to read the gapped letter and explain that they need to fill in the gaps with information about the boy in the pictures’ free-time activities. Check comprehension.Step 2: Have pupils complete the first, second and third gaps with names and an activity of their choice from the pictures. Ask them to read the sentences and elicit the names they chose (for Gaps 1 and 2) and the activity they chose (for Gap 3). Step 3: Give pupils time to complete the rest of the letter independently. Go around the classroom and offer help if necessary.Step  4:  Get  pupils  to  swap  their  books  with  a  partner  and check each other’s spelling before checking as a class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital table/poster titled “My free-time activities” using PowerPoint/Canva with Activity - Frequency and short descriptive sentences. AI 4.A3: Select appropriate AI images to illustrate hobbies; avoid dangerous, age-inappropriate images, or those revealing personal information.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils complete the first, second and third gaps with names and an activity of their choice from the pictures.- Pupils complete the rest of the letter independently.- Pupils swap  their  books  with  a  partner  and check each other’s spelling before checking as a class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2310,7 +2310,7 @@
       {
         "lessonTitle": "UNIT 5: MY FUTURE JOB - Lesson 1 - Period 1 (Period 29)",
         "topic": "Unit 5:My future job - My future job - Lesson 1(1, 2, 3)",
-        "period": "Tiết 29",
+        "period": "Period 29",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2323,7 +2323,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI có thể giới thiệu thông tin, hình ảnh và gợi ý nghề theo sở thích; AI chỉ hỗ trợ, con người quyết định nghề nghiệp.GDHN/Quyền trẻ em: Tôn trọng ước mơ nghề nghiệp; bước đầu liên hệ nghề với sở thích và khả năng.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI can introduce information, images, and suggest jobs based on preferences; AI only assists, humans decide on careers. Career guidance/Child rights: Respect career dreams; initially connect jobs with personal preferences and abilities.",
           "3. Attributes",
           "- Show their love and interest in a certain job in the future."
         ],
@@ -2374,7 +2374,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Direct pupils’ attention to the phrase Job fair in the picture. Have them guess the meaning of the phrase. Ask them what jobs they can find in the picture.Step 2: Read the question in the speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and guess what the answer should be. Give an example answer, e.g. I’d like to be a doctor. Get pupils to repeat the question and answer several times.Step 3: Have some pairs practise asking and answering questions about the jobs in the picture. Go around the classroom to observe and provide help.Step 4: Invite some pairs to practise asking the question and giving the answer in front of the class. Give corrections and feedback where necessary. Encourage them to talk about the jobs that they know and would like to do in the future.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI có thể giới thiệu thông tin, hình ảnh và gợi ý nghề theo sở thích; AI chỉ hỗ trợ, con người quyết định nghề nghiệp.GDHN/Quyền trẻ em: Tôn trọng ước mơ nghề nghiệp; bước đầu liên hệ nghề với sở thích và khả năng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Direct pupils’ attention to the phrase Job fair in the picture. Have them guess the meaning of the phrase. Ask them what jobs they can find in the picture.Step 2: Read the question in the speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and guess what the answer should be. Give an example answer, e.g. I’d like to be a doctor. Get pupils to repeat the question and answer several times.Step 3: Have some pairs practise asking and answering questions about the jobs in the picture. Go around the classroom to observe and provide help.Step 4: Invite some pairs to practise asking the question and giving the answer in front of the class. Give corrections and feedback where necessary. Encourage them to talk about the jobs that they know and would like to do in the future.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI can introduce information, images, and suggest jobs based on preferences; AI only assists, humans decide on careers. Career guidance/Child rights: Respect career dreams; initially connect jobs with personal preferences and abilities.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the phrase Job fair in the picture and guess the meaning of the phrase. Pupils answer what jobs thay can find in the picture.- Pupils look at the bubbles to understand how the sentence pattern is used. - Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2391,7 +2391,7 @@
       {
         "lessonTitle": "UNIT 5: MY FUTURE JOB - Lesson 1 - Period 2 (Period 30)",
         "topic": "Unit 5:My future job - My future job - Lesson 1(4, 5, 6)",
-        "period": "Tiết 30",
+        "period": "Period 30",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2403,7 +2403,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Tìm và chọn thông tin cơ bản về firefighter, reporter, gardener, writer, doctor từ học liệu số do GV cung cấp.NLS 4.1.CB2a: Dùng thiết bị đúng mục đích; không tự ý mở liên kết/quảng cáo lạ.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Find and select basic information about firefighter, reporter, gardener, writer, doctor from digital learning materials provided by teachers. NLS 4.1.CB2a: Use devices for the right purposes; do not arbitrarily open strange links/advertisements.",
           "3. Attributes",
           "- Show their interest in future jobs."
         ],
@@ -2454,7 +2454,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they will listen to the song and fill in the gaps in the lyrics and sing the song with the correct pronunciation, rhythm and melody. Step 2: Have pupils read the lyrics and guess the words to fill in the gaps with the help of the picture. Step 3: Have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary. Step 4: Play the recording and let them listen to and practise singing the song, line by line, until they feel confident. Then have pupils listen to and sing the whole song while clapping their hands. Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.Extension: Encourage pupils to change some of the words for jobs and sing the new version of the song.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Tìm và chọn thông tin cơ bản về firefighter, reporter, gardener, writer, doctor từ học liệu số do GV cung cấp.NLS 4.1.CB2a: Dùng thiết bị đúng mục đích; không tự ý mở liên kết/quảng cáo lạ.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they will listen to the song and fill in the gaps in the lyrics and sing the song with the correct pronunciation, rhythm and melody. Step 2: Have pupils read the lyrics and guess the words to fill in the gaps with the help of the picture. Step 3: Have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary. Step 4: Play the recording and let them listen to and practise singing the song, line by line, until they feel confident. Then have pupils listen to and sing the whole song while clapping their hands. Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.Extension: Encourage pupils to change some of the words for jobs and sing the new version of the song.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Find and select basic information about firefighter, reporter, gardener, writer, doctor from digital learning materials provided by teachers. NLS 4.1.CB2a: Use devices for the right purposes; do not arbitrarily open strange links/advertisements.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils follow the teacher’s instructions.- Pupils read the lyrics and guess the words to fill in the gaps with the help of the picture.- Pupils listen to the song and fill in the gaps.- Pupils listen to the recording and practise singing the song, line by line, until they feel confident. Pupils listen to and sing the whole song while clapping their hands.- A few groups of pupils sing the song in front of the class.- Pupils change some of the words for jobs and sing the new version of the song.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2471,7 +2471,7 @@
       {
         "lessonTitle": "UNIT 5: MY FUTURE JOB - Lesson 2 - Period 3 (Period 31)",
         "topic": "Unit 5:My future job - My future job - Lesson 2(1, 2, 3)",
-        "period": "Tiết 31",
+        "period": "Period 31",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2484,7 +2484,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Hiểu gợi ý nghề của AI có thể chưa phù hợp; cần cân nhắc sở thích, điểm mạnh và lời khuyên của người lớn.Bình đẳng giới: Mọi nghề đều dành cho cả nam và nữ; không gán nghề theo giới tính.",
+          "+ Digital competence & AI literacy: AI 4.B2: Understand that AI's career suggestions may not be suitable; consider personal preferences, strengths, and adults' advice. Gender equality: All jobs are for both males and females; do not assign jobs based on gender.",
           "3. Attributes",
           "- Show their love and interest in a certain job in the future."
         ],
@@ -2535,7 +2535,7 @@
               "4. ACTIVITY 3: LET’S TALK (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures and guess the jobs that the characters do. Read the question in the first speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and identify what the answer should be. Do the same with the other pair of speech bubbles.Step 2: Have pairs of pupils practise asking and answering the questions about the reasons why someone would like to be a certain job. Go around the classroom and provide support when necessary.Step 3: Invite a few pairs to practise asking and answering questions in front of the class. Give corrections and feedback where necessary.Extension: Encourage pupils to brainstorm some jobs they know, such as doctor, driver, pilot, policeman and farmer, and say the reasons why they would like to have such jobs, then talk in groups using the sentence patterns.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Hiểu gợi ý nghề của AI có thể chưa phù hợp; cần cân nhắc sở thích, điểm mạnh và lời khuyên của người lớn.Bình đẳng giới: Mọi nghề đều dành cho cả nam và nữ; không gán nghề theo giới tính.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures and guess the jobs that the characters do. Read the question in the first speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and identify what the answer should be. Do the same with the other pair of speech bubbles.Step 2: Have pairs of pupils practise asking and answering the questions about the reasons why someone would like to be a certain job. Go around the classroom and provide support when necessary.Step 3: Invite a few pairs to practise asking and answering questions in front of the class. Give corrections and feedback where necessary.Extension: Encourage pupils to brainstorm some jobs they know, such as doctor, driver, pilot, policeman and farmer, and say the reasons why they would like to have such jobs, then talk in groups using the sentence patterns.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Understand that AI's career suggestions may not be suitable; consider personal preferences, strengths, and adults' advice. Gender equality: All jobs are for both males and females; do not assign jobs based on gender.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and guess the jobs that the characters do. Pupils follow the teacher’s instruction. - Pairs of pupils practise asking and answering the questions about the reasons why someone would like to be a certain job.- Pupils practise asking and answering questions in front of the class.- Pupils brainstorm some jobs they know, such as doctor, driver, pilot, policeman and farmer, and say the reasons why they would like to have such jobs, then talk in groups using the sentence patterns.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2552,7 +2552,7 @@
       {
         "lessonTitle": "UNIT 5: MY FUTURE JOB - Lesson 2 - Period 4 (Period 32)",
         "topic": "Unit 5:My future job - My future job - Lesson 2(4, 5, 6)",
-        "period": "Tiết 32",
+        "period": "Period 32",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2564,7 +2564,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.5.CB2a: Giao tiếp lịch sự khi trao đổi trực tiếp hoặc trên môi trường số về ước mơ nghề nghiệp; biết tôn trọng lựa chọn khác nhau của bạn.Đạo đức: Nhận biết giá trị phục vụ cộng đồng của các nghề: help people, teach children, report the news, grow flowers, write stories.",
+          "+ Digital competence & AI literacy: NLS 2.5.CB2a: Communicate politely when discussing career dreams directly or in the digital environment; respect peers' different choices. Ethics: Recognize the community service value of jobs: help people, teach children, report the news, grow flowers, write stories.",
           "3. Attributes",
           "- Show their interest in a certain job in the future."
         ],
@@ -2615,7 +2615,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that two groups are going to play the game Job word bank within three minutes. Have the groups of five stand in two lines in front of the board. Give a piece of chalk to the pupils at the front of the lines. Ask What would you like to be in the future? and let them write a word for a job on the board. Encourage the first pupils to give the pieces of chalk to the next one of the line so that they continue to write words for jobs on the board.Step 2: When the time is up, count the jobs that have been written correctly by each group. Reward the group with more correctly written jobs.Step 3: Play the game again with some other groups.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.5.CB2a: Giao tiếp lịch sự khi trao đổi trực tiếp hoặc trên môi trường số về ước mơ nghề nghiệp; biết tôn trọng lựa chọn khác nhau của bạn.Đạo đức: Nhận biết giá trị phục vụ cộng đồng của các nghề: help people, teach children, report the news, grow flowers, write stories.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that two groups are going to play the game Job word bank within three minutes. Have the groups of five stand in two lines in front of the board. Give a piece of chalk to the pupils at the front of the lines. Ask What would you like to be in the future? and let them write a word for a job on the board. Encourage the first pupils to give the pieces of chalk to the next one of the line so that they continue to write words for jobs on the board.Step 2: When the time is up, count the jobs that have been written correctly by each group. Reward the group with more correctly written jobs.Step 3: Play the game again with some other groups.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.5.CB2a: Communicate politely when discussing career dreams directly or in the digital environment; respect peers' different choices. Ethics: Recognize the community service value of jobs: help people, teach children, report the news, grow flowers, write stories.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s instructions.- Pupils work in groups of five. Two groups stand in two lines in front of the board. Pupils write a word for a job to answer the question, then give the chalk to the next one of the line.     - Which group has more correct words will be the winner.- Praise the winner.- Pupils play the game again with some other groups.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2638,7 +2638,7 @@
       {
         "lessonTitle": "UNIT 5: MY FUTURE JOB - Lesson 3 - Period 5 (Period 33)",
         "topic": "Unit 5:My future job - My future job - Lesson 3(1, 2, 3)",
-        "period": "Tiết 33",
+        "period": "Period 33",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2650,7 +2650,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Phân loại và sắp xếp từ/cụm từ theo Job - Action/Reason, ví dụ teacher - teach children; gardener - grow flowers; writer - write stories.AI 4.A2: Nhận biết công cụ AI giọng nói có thể hỗ trợ nghe - luyện phát âm và trọng âm từ teacher, dentist; cần đối chiếu audio SGK/GV.",
+          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Classify and organize words/phrases by Job - Action/Reason, for example, teacher - teach children; gardener - grow flowers; writer - write stories. AI 4.A2: Recognize that voice AI tools can support listening and pronunciation/stress practice for teacher, dentist; cross-check with textbook audio/teacher guidance.",
           "3. Attributes",
           "- Show their interest in their future job."
         ],
@@ -2701,7 +2701,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils scan the first verse of the chant. Draw their attention to the words teacher and future.Step 2: Play the recording and ask pupils to listen and repeat the first verse, line by line. Show them how to chant and clap their handsStep 3: Play the recording of the entire verse again for pupils to do choral and individual repetition. Give corrections and feedback where necessary.Step 4: Repeat Steps 1 to 3 for the second verse of the chant. Draw pupils’ attention to the words dentist and future.Extension: Replace some jobs in the chant with words which have the stress on the first syllable, for example, doctor, farmer, driver and pilot. Have pupils adjust the last sentence of each verse and practise the new chant.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Phân loại và sắp xếp từ/cụm từ theo Job - Action/Reason, ví dụ teacher - teach children; gardener - grow flowers; writer - write stories.AI 4.A2: Nhận biết công cụ AI giọng nói có thể hỗ trợ nghe - luyện phát âm và trọng âm từ teacher, dentist; cần đối chiếu audio SGK/GV.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils scan the first verse of the chant. Draw their attention to the words teacher and future.Step 2: Play the recording and ask pupils to listen and repeat the first verse, line by line. Show them how to chant and clap their handsStep 3: Play the recording of the entire verse again for pupils to do choral and individual repetition. Give corrections and feedback where necessary.Step 4: Repeat Steps 1 to 3 for the second verse of the chant. Draw pupils’ attention to the words dentist and future.Extension: Replace some jobs in the chant with words which have the stress on the first syllable, for example, doctor, farmer, driver and pilot. Have pupils adjust the last sentence of each verse and practise the new chant.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Classify and organize words/phrases by Job - Action/Reason, for example, teacher - teach children; gardener - grow flowers; writer - write stories. AI 4.A2: Recognize that voice AI tools can support listening and pronunciation/stress practice for teacher, dentist; cross-check with textbook audio/teacher guidance.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils scan the first verse of the chant. Pupils pay attention to the words teacher and future.- Pupils listen to the recording and repeat the first verse, line by line.- Pupils listen to the recording of the entire verse again to do choral and individual repetition.- Pupils repeat Steps 1 to 3 for the second verse of the chant.- Pupils replace some jobs in the chant with words which have the stress on the first syllable. Pupils adjust the last sentence of each verse and practise the new chant.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2718,7 +2718,7 @@
       {
         "lessonTitle": "UNIT 5: MY FUTURE JOB - Lesson 3 - Period 6 (Period 34)",
         "topic": "Unit 5:My future job - My future job - Lesson 3(4, 5, 6)",
-        "period": "Tiết 34",
+        "period": "Period 34",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2730,7 +2730,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế bảng/poster số “Future jobs” theo mẫu Name - Future job - Reason bằng PowerPoint/Canva hoặc bảng số.AI 4.A3: Chọn lọc hình ảnh AI phù hợp, đa dạng giới tính và không định kiến để minh họa nghề nghiệp; HS tự kiểm tra nội dung trước khi trình bày.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital table/poster titled “Future jobs” following the Name - Future job - Reason template using PowerPoint/Canva or digital boards. AI 4.A3: Select appropriate, gender-diverse, and unbiased AI images to illustrate occupations; students self-check content before presentation.",
           "3. Attributes",
           "- Show their interests in their future jobs."
         ],
@@ -2773,7 +2773,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Ask pupils to read the rubrics and think about the jobs that they would like to do in the future.Step 2: Ask pupils to read the questions and use them as clues to complete the email. Tell pupils that they should write about 30 words. Step 3: Give pupils enough time to write their emails. Let pupils work in pairs or groups for cross checks. Go ground the class and give support when necessary. Step 4: Have some pupils read  their  completed  email  aloud.  Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế bảng/poster số “Future jobs” theo mẫu Name - Future job - Reason bằng PowerPoint/Canva hoặc bảng số.AI 4.A3: Chọn lọc hình ảnh AI phù hợp, đa dạng giới tính và không định kiến để minh họa nghề nghiệp; HS tự kiểm tra nội dung trước khi trình bày.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to read the rubrics and think about the jobs that they would like to do in the future.Step 2: Ask pupils to read the questions and use them as clues to complete the email. Tell pupils that they should write about 30 words. Step 3: Give pupils enough time to write their emails. Let pupils work in pairs or groups for cross checks. Go ground the class and give support when necessary. Step 4: Have some pupils read  their  completed  email  aloud.  Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital table/poster titled “Future jobs” following the Name - Future job - Reason template using PowerPoint/Canva or digital boards. AI 4.A3: Select appropriate, gender-diverse, and unbiased AI images to illustrate occupations; students self-check content before presentation.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the rubrics and think about the jobs that they would like to do in the future.- Pupils read the questions and use them as clues to complete the email.- Pupils write their emails. and work in pairs or groups for cross checks.- Pupils read  their  completed  email  aloud in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2796,8 +2796,8 @@
       },
       {
         "lessonTitle": "REVIEW 1 - Period 1 (Period 35)",
-        "topic": "Review 1 – Part 1 - Ôn từ vựng, mẫu câu và kỹ năng trọng tâm của Units 1–5; luyện nghe, nói, đọc, viết theo dạng bài tổng hợp.",
-        "period": "Tiết 35",
+        "topic": "Review 1 – Part 1",
+        "period": "Period 35",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2809,7 +2809,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Kiểm tra đáp án bằng SGK, tranh, văn bản hoặc audio chính thức.AI 4.B2: Nhận biết câu trả lời AI có thể sai; tìm và sửa ít nhất một lỗi có căn cứ.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Check answers using textbooks, pictures, texts, or official audio. AI 4.B2: Recognize that AI answers can be wrong; find and correct at least one substantiated error.",
           "3. Attributes",
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Be honest in the learning tasks."
@@ -2853,7 +2853,7 @@
               "3. ACTIVITY 2: PRACTICE (10 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the first picture. Get them to look at the bubble to identify the place shown in it. Check pupils’ comprehension. Step 2: Draw pupils’ attention to Question 1. Have pupils look at Lucy’s thought bubble to answer the question. Step 3: Repeat Steps 1 and 2 with the rest of the questions. Step 4: Have pupils work in pairs to role-play the four exchanges. Go around the classroom to monitor the activity. Extension: Invite pairs of pupils to role-play the target exchanges using their own information.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Kiểm tra đáp án bằng SGK, tranh, văn bản hoặc audio chính thức.AI 4.B2: Nhận biết câu trả lời AI có thể sai; tìm và sửa ít nhất một lỗi có căn cứ.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the first picture. Get them to look at the bubble to identify the place shown in it. Check pupils’ comprehension. Step 2: Draw pupils’ attention to Question 1. Have pupils look at Lucy’s thought bubble to answer the question. Step 3: Repeat Steps 1 and 2 with the rest of the questions. Step 4: Have pupils work in pairs to role-play the four exchanges. Go around the classroom to monitor the activity. Extension: Invite pairs of pupils to role-play the target exchanges using their own information.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Check answers using textbooks, pictures, texts, or official audio. AI 4.B2: Recognize that AI answers can be wrong; find and correct at least one substantiated error.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the first picture. Pupils look at the thought bubble to identify the place shown in it.- Pupils look at Lucy’s thought bubble to answer the question.- Pupils follow the teacher’s instructions.- Pupils work in pairs to role-play the four exchanges.- Pairs of pupils role-play the target exchanges using their own information.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2869,8 +2869,8 @@
       },
       {
         "lessonTitle": "REVIEW 1 - Period 2 (Period 36)",
-        "topic": "Review 1 – Part 2 - Ôn từ vựng, mẫu câu và kỹ năng trọng tâm của Units 1–5; luyện nghe, nói, đọc, viết theo dạng bài tổng hợp.",
-        "period": "Tiết 36",
+        "topic": "Review 1 – Part 2",
+        "period": "Period 36",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2882,7 +2882,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Kiểm tra đáp án bằng SGK, tranh, văn bản hoặc audio chính thức.AI 4.B2: Nhận biết câu trả lời AI có thể sai; tìm và sửa ít nhất một lỗi có căn cứ.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Check answers using textbooks, pictures, texts, or official audio. AI 4.B2: Recognize that AI answers can be wrong; find and correct at least one substantiated error.",
           "3. Attributes",
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Be honest in the learning tasks."
@@ -2933,7 +2933,7 @@
               "4. ACTIVITY 3: PRODUCTION (8 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of this activity: to read the writing prompts and complete the gapped passage. Tell pupils that they should write about themselves using about 30 words. Check comprehension.Step 2: Write the first gapped sentence on the board (My name is ___.). Read the sentence as a class. When you reach the gap, ask pupils to elicit the necessary information (a pupil’s name) and write it down to complete the sentence. Step 3: Repeat Step 2 for the second sentence. Then ask pupils to read the writing prompts and write the answers to complete the passage. Encourage them to write about 30 words.Step 4: If time allows, invite a few pupils to read the sentences they have completed / written aloud in front of the class. The class observes and praises their work.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Kiểm tra đáp án bằng SGK, tranh, văn bản hoặc audio chính thức.AI 4.B2: Nhận biết câu trả lời AI có thể sai; tìm và sửa ít nhất một lỗi có căn cứ.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of this activity: to read the writing prompts and complete the gapped passage. Tell pupils that they should write about themselves using about 30 words. Check comprehension.Step 2: Write the first gapped sentence on the board (My name is ___.). Read the sentence as a class. When you reach the gap, ask pupils to elicit the necessary information (a pupil’s name) and write it down to complete the sentence. Step 3: Repeat Step 2 for the second sentence. Then ask pupils to read the writing prompts and write the answers to complete the passage. Encourage them to write about 30 words.Step 4: If time allows, invite a few pupils to read the sentences they have completed / written aloud in front of the class. The class observes and praises their work.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Check answers using textbooks, pictures, texts, or official audio. AI 4.B2: Recognize that AI answers can be wrong; find and correct at least one substantiated error.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils look at the first gapped sentence on the board. Pupils read the sentence as a class. Pupils complete the sentence.- Pupils follow the teacher’s instructions. Pupils read the writing prompts and write the answers to complete the passage. Pupils write about 30 words.- Pupils read the sentences they have completed / written aloud in front of the class. The class observes and praises their work.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -2955,8 +2955,8 @@
     "lessons": [
       {
         "lessonTitle": "REVIEW 1 - Period 3 - Extension activities (Period 37)",
-        "topic": "Extension activities 1 - Vận dụng ngôn ngữ của Units 1–5 qua trò chơi, nhiệm vụ nhóm và sản phẩm ngắn.",
-        "period": "Tiết 37",
+        "topic": "Extension activities 1 - V",
+        "period": "Period 37",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -2968,7 +2968,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform speaking, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.4.CB1a; 3.1.CB1a: Hợp tác và tạo/chỉnh sửa sản phẩm số đơn giản theo mẫu GV.AI 4.A3: Chỉ sử dụng gợi ý AI sau khi kiểm tra độ chính xác, phù hợp và an toàn.",
+          "+ Digital competence & AI literacy: NLS 2.4.CB1a; 3.1.CB1a: Collaborate and create/edit simple digital products following teacher templates. AI 4.A3: Only use AI suggestions after checking accuracy, suitability, and safety.",
           "3. Attributes",
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Play games fair."
@@ -3019,7 +3019,7 @@
               "4. ACTIVITY 3: PRODUCTION (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils the goal of the activity: They need to have a conversation about the jobs they want to have in the future and say why they want these jobs.Step 2: Draw pupils’ attention to the picture and have them describe what they can see (see Input). Have pupils read the sentences in the speech bubbles aloud. Have pupils name as many jobs as they can and write them on the board.Step 3: Revise the questions and answers What would you like to be in the future? - I’d like to be a _____. and Why would you like to be a _____? - Because I’d like to _____. Write them on the board and invite four pupils to stand up and ask and answer the questions.Step 4: Put pupils into groups of four. Let them work together to take part in their conversations. Monitor and support pupils as necessary.Step 5: Have a few groups of pupils come to the front of the class and repeat their conversations.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB1a; 3.1.CB1a: Hợp tác và tạo/chỉnh sửa sản phẩm số đơn giản theo mẫu GV.AI 4.A3: Chỉ sử dụng gợi ý AI sau khi kiểm tra độ chính xác, phù hợp và an toàn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils the goal of the activity: They need to have a conversation about the jobs they want to have in the future and say why they want these jobs.Step 2: Draw pupils’ attention to the picture and have them describe what they can see (see Input). Have pupils read the sentences in the speech bubbles aloud. Have pupils name as many jobs as they can and write them on the board.Step 3: Revise the questions and answers What would you like to be in the future? - I’d like to be a _____. and Why would you like to be a _____? - Because I’d like to _____. Write them on the board and invite four pupils to stand up and ask and answer the questions.Step 4: Put pupils into groups of four. Let them work together to take part in their conversations. Monitor and support pupils as necessary.Step 5: Have a few groups of pupils come to the front of the class and repeat their conversations.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB1a; 3.1.CB1a: Collaborate and create/edit simple digital products following teacher templates. AI 4.A3: Only use AI suggestions after checking accuracy, suitability, and safety.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils look at the picture and describe what they can see. Pupils read the sentences in the speech bubbles aloud. Pupils name as many jobs as they can and write them on the board.- Pupils follow the teacher’s instructions. Pupils stand up and ask and answer the questions.- Pupils work in groups of four to take part in their conversations. - A few groups of pupils come to the front of the class and repeat their conversations.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3036,7 +3036,7 @@
       {
         "lessonTitle": "UNIT 6: OUR SCHOOL ROOMS - Lesson 1 - Period 1 (Period 38)",
         "topic": "Unit 6:Our school rooms - Our school rooms - Lesson 1(1, 2, 3)",
-        "period": "Tiết 38",
+        "period": "Period 38",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3049,7 +3049,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI/bản đồ số trong trường có thể hỗ trợ xác định vị trí phòng học và tầng: music room, computer room, library, art room.An toàn trường học: Đi đúng lối, bám tay vịn và không chạy nhảy khi lên xuống cầu thang.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI/digital maps in the school can support identifying classroom locations and floors: music room, computer room, library, art room. School safety: Walk in correct pathways, hold handrails, and do not run or jump when going up and down stairs.",
           "3. Attributes",
           "- Show their love and interest in school."
         ],
@@ -3100,7 +3100,7 @@
               "4. ACTIVITY 3: LET’S TALK (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the picture. Have them look at the pictures and identify the location of each room. Pupils can look back to Activity 2 if they need reminding of any of the vocabulary.Step 2: Have pupils look at the bubbles to understand how the sentence pattern is used. Have pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. Make sure pupils understand the structure and say it with the right pronunciation and intonation. Go around the classroom to observe and provide help.Step 3: Invite some pairs of pupils to practise asking and answering questions in front of the class. Praise them if they perform well.Extension: For more able classes, have pupils work in pairs to ask and answer about the locations of their school rooms.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI/bản đồ số trong trường có thể hỗ trợ xác định vị trí phòng học và tầng: music room, computer room, library, art room.An toàn trường học: Đi đúng lối, bám tay vịn và không chạy nhảy khi lên xuống cầu thang.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the picture. Have them look at the pictures and identify the location of each room. Pupils can look back to Activity 2 if they need reminding of any of the vocabulary.Step 2: Have pupils look at the bubbles to understand how the sentence pattern is used. Have pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. Make sure pupils understand the structure and say it with the right pronunciation and intonation. Go around the classroom to observe and provide help.Step 3: Invite some pairs of pupils to practise asking and answering questions in front of the class. Praise them if they perform well.Extension: For more able classes, have pupils work in pairs to ask and answer about the locations of their school rooms.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI/digital maps in the school can support identifying classroom locations and floors: music room, computer room, library, art room. School safety: Walk in correct pathways, hold handrails, and do not run or jump when going up and down stairs.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures. Pupils say the actions of the characters in the pictures. - Pupils look at the second speech bubble on the board and say the completed sentences.- Pupils look at the bubbles to understand how the sentence pattern is used. - Pupils role-play to practise asking and answering questions.- Pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3117,7 +3117,7 @@
       {
         "lessonTitle": "UNIT 6: OUR SCHOOL ROOMS - Lesson 1 - Period 2 (Period 39)",
         "topic": "Unit 6:Our school rooms - Our school rooms - Lesson 1(4, 5, 6)",
-        "period": "Tiết 39",
+        "period": "Period 39",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3129,7 +3129,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Tìm và chọn thông tin đúng về tên phòng và tầng từ sơ đồ/học liệu số do GV cung cấp.Đạo đức: Giữ trật tự, tôn trọng không gian học tập chung và chỉ dẫn của nhà trường.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Find and select correct information about room names and floors from diagrams/digital learning materials provided by teachers. Ethics: Keep quiet, respect shared learning spaces and school instructions.",
           "3. Attributes",
           "- Understanding the layout and function of different rooms in their school can help pupils develop their spatial awareness and memory skills.",
           "- Knowing their way around the school and recognizing different spaces can help pupils feel more comfortable and secure in their learning environment."
@@ -3181,7 +3181,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the pictures to reinforce their understanding.Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the pronunciation and the melody.Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation where necessary. Introduce actions for pupils to do while they sing along with the recording.Step 4: Play the recording all the way through for pupils to sing along and do action.Step 5: Put pupils into groups to make up their own actions for the song. Invite groups to the front of the class to perform, while the rest of the class sings and / or claps along. Encourage the class to praise or cheer the performers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Tìm và chọn thông tin đúng về tên phòng và tầng từ sơ đồ/học liệu số do GV cung cấp.Đạo đức: Giữ trật tự, tôn trọng không gian học tập chung và chỉ dẫn của nhà trường.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the pictures to reinforce their understanding.Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the pronunciation and the melody.Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation where necessary. Introduce actions for pupils to do while they sing along with the recording.Step 4: Play the recording all the way through for pupils to sing along and do action.Step 5: Put pupils into groups to make up their own actions for the song. Invite groups to the front of the class to perform, while the rest of the class sings and / or claps along. Encourage the class to praise or cheer the performers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Find and select correct information about room names and floors from diagrams/digital learning materials provided by teachers. Ethics: Keep quiet, respect shared learning spaces and school instructions.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the title and lyrics of the song. Pupils point at the pictures to reinforce their understanding.- Pupils listen to the recording all the way through, paying attention to the pronunciation and the melody.- Pupils listen to the recording, line by line, and repeat. Pupils do actions while they sing along with the recording.- Pupils listen to the recording all the way through and sing along and do action.- Pupils work in groups to make up their own actions for the song. Pupils come to the front of the class to perform, while the rest of the class sings and / or claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3198,7 +3198,7 @@
       {
         "lessonTitle": "UNIT 6: OUR SCHOOL ROOMS - Lesson 2 - Period 3 (Period 40)",
         "topic": "Unit 6:Our school rooms - Our school rooms - Lesson 2(1, 2, 3)",
-        "period": "Tiết 40",
+        "period": "Period 40",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3212,7 +3212,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết trợ lý AI/bản đồ số có thể gợi ý đường đi đến một phòng trong trường, nhưng cần đối chiếu biển chỉ dẫn và hướng dẫn của GV.Kỹ năng sống: Thực hành hỏi đường lịch sự: “Could you tell me the way to …, please?” và nói “Thank you.”",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI assistants/digital maps can suggest routes to a room in the school, but need to cross-check with signboards and teacher guidance. Life skills: Practice asking for directions politely: “Could you tell me the way to …, please?” and say “Thank you.”",
           "3. Attributes",
           "- Show their pride in their school and raise awareness about the location of different rooms in their school."
         ],
@@ -3263,7 +3263,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the picture, point to the locations of each of the school rooms and explain how to get there. Step 2: Tell pupils that they are going to ask and answer about the locations of and the directions to each of the rooms using Where’s ______? - ______. and Could you tell me the way to ________, please? - _____. Point out to pupils the red star and the sentence You are here. in the centre of the picture.Step 3: Give pupils time to work in pairs and take turns asking and answering questions about the locations and directions of the rooms using the picture cue and phrases learnt in both Lessons 1 and 2.Step 4: Invite a few pairs to come to the front of the classroom and act out the exchanges. Praise them if they perform well.Extension: Have pupils ask for and give directions to go to their own school rooms, using the structure and vocabulary learnt.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết trợ lý AI/bản đồ số có thể gợi ý đường đi đến một phòng trong trường, nhưng cần đối chiếu biển chỉ dẫn và hướng dẫn của GV.Kỹ năng sống: Thực hành hỏi đường lịch sự: “Could you tell me the way to …, please?” và nói “Thank you.”. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the picture, point to the locations of each of the school rooms and explain how to get there. Step 2: Tell pupils that they are going to ask and answer about the locations of and the directions to each of the rooms using Where’s ______? - ______. and Could you tell me the way to ________, please? - _____. Point out to pupils the red star and the sentence You are here. in the centre of the picture.Step 3: Give pupils time to work in pairs and take turns asking and answering questions about the locations and directions of the rooms using the picture cue and phrases learnt in both Lessons 1 and 2.Step 4: Invite a few pairs to come to the front of the classroom and act out the exchanges. Praise them if they perform well.Extension: Have pupils ask for and give directions to go to their own school rooms, using the structure and vocabulary learnt.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI assistants/digital maps can suggest routes to a room in the school, but need to cross-check with signboards and teacher guidance. Life skills: Practice asking for directions politely: “Could you tell me the way to …, please?” and say “Thank you.”. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the way to get the school rooms.- Pupils listen to the teacher’s instruction.-. Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue and phrases learnt. - Some pairs of pupils act out the exchanges in front of the class.- Pupils practise asking and answering questions about giving directions to their own school rooms.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3286,7 +3286,7 @@
       {
         "lessonTitle": "UNIT 6: OUR SCHOOL ROOMS - Lesson 2 - Period 4 (Period 41)",
         "topic": "Unit 6:Our school rooms - Our school rooms - Lesson 2(4, 5, 6)",
-        "period": "Tiết 41",
+        "period": "Period 41",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3298,7 +3298,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Không đăng công khai sơ đồ chi tiết lớp học, vị trí thường xuyên hoặc lộ trình cá nhân của HS lên mạng.PCCC - an toàn: Biết quan sát biển chỉ dẫn, lối ra và làm theo hướng dẫn của người lớn khi có tình huống khẩn cấp.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Do not publicly post detailed classroom diagrams, frequent locations, or personal student routes online. Fire prevention and safety: Know how to observe signboards, exits, and follow adult instructions during emergencies.",
           "3. Attributes",
           "- Show their pride in their school and raise awareness about the location of different rooms in their school."
         ],
@@ -3349,7 +3349,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they are going to play Memory game using the language learnt in Lessons 1 and 2.Step 2: Draw a map with school rooms on the board. Divide the class into two teams. Have pupils look at the school rooms on the map for 20 seconds, then cover the room names with paper / cards. Tell the teams to listen to the your question (e.g. Could you tell me the way to the library, please?), then ask one pupil in a team to give you directions while the other pupil in the same team follows the directions and opens the right card to find the room. If he / she finds the right room by following the directions, the team gets one point. If he / she doesn't end up at the right room, he / she covers the room name up again and it becomes the other team’s turn.Step 3: The teams take turns to play the game. Set a time limit for pupils to play the game. The team that has the most points at the end of the game wins.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Không đăng công khai sơ đồ chi tiết lớp học, vị trí thường xuyên hoặc lộ trình cá nhân của HS lên mạng.PCCC - an toàn: Biết quan sát biển chỉ dẫn, lối ra và làm theo hướng dẫn của người lớn khi có tình huống khẩn cấp.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they are going to play Memory game using the language learnt in Lessons 1 and 2.Step 2: Draw a map with school rooms on the board. Divide the class into two teams. Have pupils look at the school rooms on the map for 20 seconds, then cover the room names with paper / cards. Tell the teams to listen to the your question (e.g. Could you tell me the way to the library, please?), then ask one pupil in a team to give you directions while the other pupil in the same team follows the directions and opens the right card to find the room. If he / she finds the right room by following the directions, the team gets one point. If he / she doesn't end up at the right room, he / she covers the room name up again and it becomes the other team’s turn.Step 3: The teams take turns to play the game. Set a time limit for pupils to play the game. The team that has the most points at the end of the game wins.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Do not publicly post detailed classroom diagrams, frequent locations, or personal student routes online. Fire prevention and safety: Know how to observe signboards, exits, and follow adult instructions during emergencies.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils follow the teacher’s instructions.- Pupils play the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3366,7 +3366,7 @@
       {
         "lessonTitle": "UNIT 6: OUR SCHOOL ROOMS - Lesson 3 - Period 5 (Period 42)",
         "topic": "Unit 6:Our school rooms - Our school rooms - Lesson 3(1, 2, 3)",
-        "period": "Tiết 42",
+        "period": "Period 42",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3379,7 +3379,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: STEM: Đọc sơ đồ theo tầng và mô tả lộ trình bằng chuỗi bước: go upstairs/downstairs, go along the corridor, go past…, turn left/right.NLS 1.3.CB2a: Sắp xếp các bước chỉ đường theo đúng thứ tự để dễ theo dõi và kiểm tra.",
+          "+ Digital competence & AI literacy: STEM: Read floor diagrams and describe routes through a sequence of steps: go upstairs/downstairs, go along the corridor, go past…, turn left/right. NLS 1.3.CB2a: Arrange direction steps in the correct order for easy tracking and checking.",
           "3. Attributes",
           "- Show their pride in their school and raise awareness about the location of different rooms in their school."
         ],
@@ -3430,7 +3430,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check comprehension.Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to the two-syllable words with the stress on the second syllable in the chant, (upstairs, downstairs), and the sentences containing those words.Step 3: Play the recording again, line by line, for pupils to listen and repeat. Correct theirpronunciation if necessary.Step 4: Play the recording all the way through for pupils to chant along. Encourage them to clap while chanting.Extension: Divide the class into two or more groups to take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. STEM: Đọc sơ đồ theo tầng và mô tả lộ trình bằng chuỗi bước: go upstairs/downstairs, go along the corridor, go past…, turn left/right.NLS 1.3.CB2a: Sắp xếp các bước chỉ đường theo đúng thứ tự để dễ theo dõi và kiểm tra.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check comprehension.Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to the two-syllable words with the stress on the second syllable in the chant, (upstairs, downstairs), and the sentences containing those words.Step 3: Play the recording again, line by line, for pupils to listen and repeat. Correct theirpronunciation if necessary.Step 4: Play the recording all the way through for pupils to chant along. Encourage them to clap while chanting.Extension: Divide the class into two or more groups to take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. STEM: Read floor diagrams and describe routes through a sequence of steps: go upstairs/downstairs, go along the corridor, go past…, turn left/right. NLS 1.3.CB2a: Arrange direction steps in the correct order for easy tracking and checking.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the lyrics of the chant.- Pupils listen all the way through, paying attention  to the rhythm, pronunciation, and word stress.- Pupils listen to the recording again, line by line, and repeat.- Pupils listen to the recording all the way through and chant along. Pupils clap while chanting.- Pupils work in two or more groups to take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3447,7 +3447,7 @@
       {
         "lessonTitle": "UNIT 6: OUR SCHOOL ROOMS - Lesson 3 - Period 6 (Period 43)",
         "topic": "Unit 6:Our school rooms - Our school rooms - Lesson 3(4, 5, 6)",
-        "period": "Tiết 43",
+        "period": "Period 43",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3459,7 +3459,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế sơ đồ/poster số “My favourite school” bằng Canva/Google Slides, ghi tên phòng, tầng và đường đi đơn giản.AI 4.A3: Chọn lọc hình ảnh AI phù hợp để minh họa phòng học; HS kiểm tra tên phòng, vị trí và chỉnh sửa trước khi sử dụng.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital diagram/poster titled “My favourite school” using Canva/Google Slides, recording room names, floors, and simple directions. AI 4.A3: Select appropriate AI images to illustrate classrooms; students check room names, locations, and edit before use.",
           "3. Attributes",
           "- Show their knowledge about their schools."
         ],
@@ -3502,7 +3502,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of this activity: pupils are going to read the table and complete the gaps in it. Check comprehension.Step 2: Read the headings in the table as a class (School rooms / Where? / How to go there from your classroom?). Point to the example in each column and encourage pupils to complete the rest of the gaps.Step 3: Give pupils time to write. Go around the classroom to offer help if necessary.Step 4: If time allows, invite a few pupils to read aloud the words / phrases they have written in the table to the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế sơ đồ/poster số “My favourite school” bằng Canva/Google Slides, ghi tên phòng, tầng và đường đi đơn giản.AI 4.A3: Chọn lọc hình ảnh AI phù hợp để minh họa phòng học; HS kiểm tra tên phòng, vị trí và chỉnh sửa trước khi sử dụng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.\n<img src=\"assets/khbd_images/lop5/tieng_anh/tuan_11/image1.png\" alt=\"A gapped table about school rooms\" style=\"max-width: 95%; height: auto;\" />",
+              "Step 1: Tell the class the goal of this activity: pupils are going to read the table and complete the gaps in it. Check comprehension.Step 2: Read the headings in the table as a class (School rooms / Where? / How to go there from your classroom?). Point to the example in each column and encourage pupils to complete the rest of the gaps.Step 3: Give pupils time to write. Go around the classroom to offer help if necessary.Step 4: If time allows, invite a few pupils to read aloud the words / phrases they have written in the table to the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital diagram/poster titled “My favourite school” using Canva/Google Slides, recording room names, floors, and simple directions. AI 4.A3: Select appropriate AI images to illustrate classrooms; students check room names, locations, and edit before use.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.\n<img src=\"assets/khbd_images/lop5/tieng_anh/tuan_11/image1.png\" alt=\"A gapped table about school rooms\" style=\"max-width: 95%; height: auto;\" />",
               "- Pupils listen to the teacher’s explanation.- Pupils follow the teacher’s instructions.- Pupils complete the table based on their personal information from the guiding questions.- Pupils stand up and read aloud their answers.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3526,7 +3526,7 @@
       {
         "lessonTitle": "UNIT 7: OUR FAVOURITE SCHOOL ACTIVITIES - Lesson 1 - Period 1 (Period 44)",
         "topic": "Unit 7:Our favouriteschool activities - Our favourite school activities - Lesson 1(1, 2, 3)",
-        "period": "Tiết 44",
+        "period": "Period 44",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3539,7 +3539,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết hệ thống AI trong ứng dụng học tập có thể gợi ý hoạt động ở trường dựa trên dữ liệu sử dụng; HS hiểu gợi ý chỉ để tham khảo và tự quyết định hoạt động mình yêu thích.Quyền trẻ em/Đạo đức: Tôn trọng sở thích, năng lực và cách học khác nhau của bạn; không chê bai hoạt động bạn yêu thích.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI systems in learning apps can suggest school activities based on usage data; students understand that suggestions are for reference only and decide their favorite activities themselves. Child rights/Ethics: Respect peers' different hobbies, abilities, and learning styles; do not criticize peers' favorite activities.",
           "3. Attributes",
           "- Show their pride in their school and show their interest in their favourite school activities."
         ],
@@ -3590,7 +3590,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to each picture. Ask questions to revise the relevant phrase(see Input).Step 2: Elicit pupils’ own answers to the question and write them on the board. Get pupils to say the completed answers.Step 3: Put pupils into pairs to take turns asking and answering questions about someone’s favourite school activity in the pictures. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the classroom. They can use the pictures to take turns asking and answering questions about someone’s favourite school activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết hệ thống AI trong ứng dụng học tập có thể gợi ý hoạt động ở trường dựa trên dữ liệu sử dụng; HS hiểu gợi ý chỉ để tham khảo và tự quyết định hoạt động mình yêu thích.Quyền trẻ em/Đạo đức: Tôn trọng sở thích, năng lực và cách học khác nhau của bạn; không chê bai hoạt động bạn yêu thích.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to each picture. Ask questions to revise the relevant phrase(see Input).Step 2: Elicit pupils’ own answers to the question and write them on the board. Get pupils to say the completed answers.Step 3: Put pupils into pairs to take turns asking and answering questions about someone’s favourite school activity in the pictures. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the classroom. They can use the pictures to take turns asking and answering questions about someone’s favourite school activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI systems in learning apps can suggest school activities based on usage data; students understand that suggestions are for reference only and decide their favorite activities themselves. Child rights/Ethics: Respect peers' different hobbies, abilities, and learning styles; do not criticize peers' favorite activities.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the character’s information in each picture.- Pupils look at the bubbles to understand how the sentence pattern is used. - Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3613,7 +3613,7 @@
       {
         "lessonTitle": "UNIT 7: OUR FAVOURITE SCHOOL ACTIVITIES - Lesson 1 - Period 2 (Period 45)",
         "topic": "Unit 7:Our favouriteschool activities - Our favourite school activities - Lesson 1(4, 5, 6)",
-        "period": "Tiết 45",
+        "period": "Period 45",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3626,7 +3626,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi - đáp về hoạt động yêu thích; biết phản hồi tích cực và tôn trọng sự khác biệt trong lớp học trực tiếp hoặc trực tuyến.NLS 4.2.CB2b: Không đăng công khai ảnh, tên đầy đủ hoặc thông tin cá nhân của bạn khi chia sẻ sở thích học tập trên môi trường số.",
+          "+ Digital competence & AI literacy: NLS 2.5.CB2a: Communicate politely when asking and answering about favorite activities; give positive feedback and respect differences in direct or online classrooms. NLS 4.2.CB2b: Do not publicly post photos, full names, or personal information of peers when sharing learning hobbies in the digital environment.",
           "3. Attributes",
           "- Show their pride in their school and show their interest in their favourite school activities."
         ],
@@ -3677,7 +3677,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the song lyrics, look at the relevant picture and guess the missing words. Use Number 1 as an example (playing word puzzles). Fill in the gap.Step 2: Repeat Step 1 for Number 2. Tell pupils to pay attention to the answer before deciding the missing word in the question (he). For Number 3, ask pupils what the boy is doing to guess the missing phrase (doing projects).Step 3: Play the recording all the way through for pupils to listen to the whole song. Then play the recording again for them to fill in the gaps with the missing words.Step 4: Check answers together as a class. Play the recording line by line for pupils to listen and repeat. Correct their pronunciation where necessary.Step 5: Divide the class into two halves to take turns singing the questions and answer.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi - đáp về hoạt động yêu thích; biết phản hồi tích cực và tôn trọng sự khác biệt trong lớp học trực tiếp hoặc trực tuyến.NLS 4.2.CB2b: Không đăng công khai ảnh, tên đầy đủ hoặc thông tin cá nhân của bạn khi chia sẻ sở thích học tập trên môi trường số.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the song lyrics, look at the relevant picture and guess the missing words. Use Number 1 as an example (playing word puzzles). Fill in the gap.Step 2: Repeat Step 1 for Number 2. Tell pupils to pay attention to the answer before deciding the missing word in the question (he). For Number 3, ask pupils what the boy is doing to guess the missing phrase (doing projects).Step 3: Play the recording all the way through for pupils to listen to the whole song. Then play the recording again for them to fill in the gaps with the missing words.Step 4: Check answers together as a class. Play the recording line by line for pupils to listen and repeat. Correct their pronunciation where necessary.Step 5: Divide the class into two halves to take turns singing the questions and answer.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.5.CB2a: Communicate politely when asking and answering about favorite activities; give positive feedback and respect differences in direct or online classrooms. NLS 4.2.CB2b: Do not publicly post photos, full names, or personal information of peers when sharing learning hobbies in the digital environment.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the title and lyrics of the song. Pupils guess the missing words.- Pupils listen to the recording all the way through and complete the song.- Pupils listen to the recording, line by line, and repeat. Pupils can do actions while they sing along with the recording.- Each half of the class sings the questions, and the other half sings the answers, then switches roles.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3694,7 +3694,7 @@
       {
         "lessonTitle": "UNIT 7: OUR FAVOURITE SCHOOL ACTIVITIES - Lesson 2 - Period 3 (Period 46)",
         "topic": "Unit 7:Our favouriteschool activities - Our favourite school activities - Lesson 2(1, 2, 3)",
-        "period": "Tiết 46",
+        "period": "Period 46",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3703,7 +3703,7 @@
           "- correctly say the words and phrases and use Why does he / she like ____? – Because he / she thinks it’s ____. to ask and answer questions about why someone likes a school activity.",
           "- use Why does he / she like ___? – Because he / she thinks it’s _____. in a freer context.2. Competences- Critical thinking and creativity: learn how to ask and answer questions about personal information correctly and fluently. - Communication and collaboration: work in pairs and groups to complete the learning tasks.- Self-control & independent learning: perform pronunciation and speaking tasks.3. Attributes- Show their interest in school subjects when talking about school subjects and school activities.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Hiểu AI có thể suy đoán sai sở thích của một người từ dữ liệu hoặc hình ảnh; cần hỏi trực tiếp và kiểm chứng thay vì tin ngay vào kết luận của AI.Giáo dục kỹ năng sống: Biết nêu lí do hợp lí cho sở thích học tập: fun, good for group work, interesting, useful."
+          "+ Digital competence & AI literacy: AI 4.B2: Understand that AI can incorrectly guess a person's preferences from data or images; ask directly and verify instead of blindly believing AI conclusions. Life skills education: State reasonable reasons for learning preferences: fun, good for group work, interesting, useful."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -3752,7 +3752,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils look at the pictures and elicit what each pupil is doing. Use the picture of the boy doing a crossword puzzle as an example to make the question and answer: What school activity does he like? He likes playing games. Why does he like doing crossword puzzles?Because he thinks it’s fun. Step 2: Write the question and answer on the board and complete it. Divide the class into two halves and have them take turns asking and answering a few times before setting a time limit for the class to do the task in pairs.Step 3: Invite a few pairs to come to the front of the class and act out the exchanges.Extension: Turn the questions and answers into a personal exchange about a pupil’s  favourite school activity and why he / she likes a particular school activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Hiểu AI có thể suy đoán sai sở thích của một người từ dữ liệu hoặc hình ảnh; cần hỏi trực tiếp và kiểm chứng thay vì tin ngay vào kết luận của AI.Giáo dục kỹ năng sống: Biết nêu lí do hợp lí cho sở thích học tập: fun, good for group work, interesting, useful.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils look at the pictures and elicit what each pupil is doing. Use the picture of the boy doing a crossword puzzle as an example to make the question and answer: What school activity does he like? He likes playing games. Why does he like doing crossword puzzles?Because he thinks it’s fun. Step 2: Write the question and answer on the board and complete it. Divide the class into two halves and have them take turns asking and answering a few times before setting a time limit for the class to do the task in pairs.Step 3: Invite a few pairs to come to the front of the class and act out the exchanges.Extension: Turn the questions and answers into a personal exchange about a pupil’s  favourite school activity and why he / she likes a particular school activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Understand that AI can incorrectly guess a person's preferences from data or images; ask directly and verify instead of blindly believing AI conclusions. Life skills education: State reasonable reasons for learning preferences: fun, good for group work, interesting, useful.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the character’s information in each picture.- Pupils look at the bubbles to understand how the sentence pattern is used. Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3769,7 +3769,7 @@
       {
         "lessonTitle": "UNIT 7: OUR FAVOURITE SCHOOL ACTIVITIES - Lesson 2 - Period 4 (Period 47)",
         "topic": "Unit 7:Our favouriteschool activities - Our favourite school activities - Lesson 2(4, 5, 6)",
-        "period": "Tiết 47",
+        "period": "Period 47",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3782,7 +3782,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.4.CB2a: Hợp tác nhóm trên bảng/biểu mẫu số do GV quản lí để ghi School activity - Reason và cùng tạo câu đúng.NLS 5.2.CB2b: Biết lựa chọn bảng số hoặc sơ đồ đơn giản để tổ chức thông tin về hoạt động yêu thích và lí do.",
+          "+ Digital competence & AI literacy: NLS 2.4.CB2a: Collaborate in groups on digital boards/forms managed by teachers to record School activity - Reason and jointly create correct sentences. NLS 5.2.CB2b: Know how to choose digital tables or simple diagrams to organize information about favorite activities and reasons.",
           "3. Attributes",
           "- Show their love and interest in school activities."
         ],
@@ -3833,7 +3833,7 @@
               "4. ACTIVITY 3: LET’S PLAY. (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the game input on the board. Introduce and explain how to play the game: The class is divided into groups of 3 - 4. Pair up the groups, so that each group plays against another group.Each group member must select a school activity and say why his or her sister or brother likes it. The group that makes sentences faster and says them correctly will be the winners.Step 2: Give pupils a time limit to play the game and go around the class to offer help where necessary.Step 3: When the time is up, nominate pairs of groups to come to the board to check the answers. Encourage the rest of the pupils to cheer when they answer correctly.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB2a: Hợp tác nhóm trên bảng/biểu mẫu số do GV quản lí để ghi School activity - Reason và cùng tạo câu đúng.NLS 5.2.CB2b: Biết lựa chọn bảng số hoặc sơ đồ đơn giản để tổ chức thông tin về hoạt động yêu thích và lí do.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the game input on the board. Introduce and explain how to play the game: The class is divided into groups of 3 - 4. Pair up the groups, so that each group plays against another group.Each group member must select a school activity and say why his or her sister or brother likes it. The group that makes sentences faster and says them correctly will be the winners.Step 2: Give pupils a time limit to play the game and go around the class to offer help where necessary.Step 3: When the time is up, nominate pairs of groups to come to the board to check the answers. Encourage the rest of the pupils to cheer when they answer correctly.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB2a: Collaborate in groups on digital boards/forms managed by teachers to record School activity - Reason and jointly create correct sentences. NLS 5.2.CB2b: Know how to choose digital tables or simple diagrams to organize information about favorite activities and reasons.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures. Pupils say the actions of the characters in the pictures. - Pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -3850,7 +3850,7 @@
       {
         "lessonTitle": "UNIT 7: OUR FAVOURITE SCHOOL ACTIVITIES - Lesson 3 - Period 5 (Period 48)",
         "topic": "Unit 7:Our favouriteschool activities - Our favourite school activities - Lesson 3(1, 2, 3)",
-        "period": "Tiết 48",
+        "period": "Period 48",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3862,7 +3862,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Phân loại và sắp xếp từ/cụm từ theo Activity - Reason - Future goal; liên hệ nội dung đọc về Linh, Minh, Lucy và Bill.AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu như solving, reading; HS đối chiếu với audio SGK và hướng dẫn của GV.",
+          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Classify and organize words/phrases by Activity - Reason - Future goal; connect with the reading content about Linh, Minh, Lucy, and Bill. AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences like solving, reading; students cross-check with textbook audio and teacher guidance.",
           "3. Attributes",
           "- Explore their talents and critical think about skills they can get from each school activities"
         ],
@@ -3913,15 +3913,15 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils look at the pictures and identify the school activities.Step 2: Have pupils read the first verse of the chant and draw their attention to the words 'reading, 'dancing, 'drawing, 'painting. Check comprehension.Step 3: Play the recording of the first verse. Play the recording again, line by line, for pupils to listen and repeat. Draw their attention to the rhythm, word stress and pronunciation. Encourage them to clap and do actions while chanting.Step 4: Repeat Steps 2 and 3 for the second verse of the chant, but draw their attention to the words 'reading, 'singing, 'drawing, 'swimming.Step 5: Play the recording all the way through for pupils to chant and clap their hands.Extension: Replace 'reading, 'dancing, 'drawing, 'painting in the first verse of the chant with other gerunds which have the stress on the first syllable, for example, swimming, writing, talking and hiking. Have pupils do the same thing with the second verse and practise chanting the new one.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Phân loại và sắp xếp từ/cụm từ theo Activity - Reason - Future goal; liên hệ nội dung đọc về Linh, Minh, Lucy và Bill.AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu như solving, reading; HS đối chiếu với audio SGK và hướng dẫn của GV.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils look at the pictures and identify the school activities.Step 2: Have pupils read the first verse of the chant and draw their attention to the words 'reading, 'dancing, 'drawing, 'painting. Check comprehension.Step 3: Play the recording of the first verse. Play the recording again, line by line, for pupils to listen and repeat. Draw their attention to the rhythm, word stress and pronunciation. Encourage them to clap and do actions while chanting.Step 4: Repeat Steps 2 and 3 for the second verse of the chant, but draw their attention to the words 'reading, 'singing, 'drawing, 'swimming.Step 5: Play the recording all the way through for pupils to chant and clap their hands.Extension: Replace 'reading, 'dancing, 'drawing, 'painting in the first verse of the chant with other gerunds which have the stress on the first syllable, for example, swimming, writing, talking and hiking. Have pupils do the same thing with the second verse and practise chanting the new one.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Classify and organize words/phrases by Activity - Reason - Future goal; connect with the reading content about Linh, Minh, Lucy, and Bill. AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences like solving, reading; students cross-check with textbook audio and teacher guidance.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the lyrics of the chant.- Pupils read the first verse of the chant.- Pupils listen to the recording for the first verse, line by line, and repeat.- Pupils listen to the recording and clap and do the actions while chanting.- Pupils do the same with the second verse.-  Pupils listen all the way through to chant and clap. - Pupils work in two or more groups to replace 'reading, 'dancing, 'drawing, 'painting in the first verse of the chant with other gerunds which have the stress on the first syllable. Pupils do the same with the second verse of the chant and practice chanting the new chant.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
               "5. FUN CORNER AND WRAP-UP (7 minutes)"
             ],
             [
-              "GIÁO VIÊN",
-              "DUYỆT TỔ TRƯỞNG"
+              "TEACHER",
+              "HEAD OF DEPARTMENT"
             ]
           ]
         ],
@@ -3936,7 +3936,7 @@
       {
         "lessonTitle": "UNIT 7: OUR FAVOURITE SCHOOL ACTIVITIES - Lesson 3 - Period 6 (Period 49)",
         "topic": "Unit 7:Our favouriteschool activities - Our favourite school activities - Lesson 3(4, 5, 6)",
-        "period": "Tiết 49",
+        "period": "Period 49",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -3949,7 +3949,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế bảng/poster số “Our favourite school activities survey” bằng PowerPoint/Canva với Name - Favourite school activity - Reason.AI 4.A3: Chọn lọc hình ảnh/biểu tượng AI phù hợp để minh họa hoạt động; kiểm tra nội dung, tránh hình ảnh định kiến hoặc làm lộ thông tin cá nhân.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital table/poster titled “Our favourite school activities survey” using PowerPoint/Canva with Name - Favourite school activity - Reason. AI 4.A3: Select appropriate AI images/icons to illustrate activities; check content, avoid biased images or those revealing personal information.",
           "3. Attributes",
           "- Show their pride in their school and show their interest in their favourite school activities."
         ],
@@ -3992,7 +3992,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity and explain that they should read the guiding questions and complete the writing frame with their personal information. Tell pupils that they should write about 30 words. Check comprehension.Step 2: Use Sentence 1 as an example. Have pupils read the first sentence in the frame. Remind them of the question words in the first question before completing the sentence. Tell them to do the same with the rest of the sentences.Step 3: Give pupils time to do the writing task independently. Go around the classroom and offer help where necessary.Step 4: Get pupils to swap books with a partner and check their answers before checking as a class. Invite one or two pupils to stand up and read their sentences aloud.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế bảng/poster số “Our favourite school activities survey” bằng PowerPoint/Canva với Name - Favourite school activity - Reason.AI 4.A3: Chọn lọc hình ảnh/biểu tượng AI phù hợp để minh họa hoạt động; kiểm tra nội dung, tránh hình ảnh định kiến hoặc làm lộ thông tin cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of the activity and explain that they should read the guiding questions and complete the writing frame with their personal information. Tell pupils that they should write about 30 words. Check comprehension.Step 2: Use Sentence 1 as an example. Have pupils read the first sentence in the frame. Remind them of the question words in the first question before completing the sentence. Tell them to do the same with the rest of the sentences.Step 3: Give pupils time to do the writing task independently. Go around the classroom and offer help where necessary.Step 4: Get pupils to swap books with a partner and check their answers before checking as a class. Invite one or two pupils to stand up and read their sentences aloud.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital table/poster titled “Our favourite school activities survey” using PowerPoint/Canva with Name - Favourite school activity - Reason. AI 4.A3: Select appropriate AI images/icons to illustrate activities; check content, avoid biased images or those revealing personal information.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils read the first sentences in the frame and complete the sentences.- Pupils follow the teacher’s instructions and do the task independently.- Pupils swap books with a partner, then check answers as a class.- Pupils read aloud the sentences they have completed in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4016,7 +4016,7 @@
       {
         "lessonTitle": "UNIT 8: IN OUR CLASSROOM - Lesson 1 - Period 1 (Period 50)",
         "topic": "Unit 8:In our classroom - In our classroom - Lesson 1(1, 2, 3)",
-        "period": "Tiết 50",
+        "period": "Period 50",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4031,7 +4031,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI trong ứng dụng nhận diện hình ảnh có thể hỗ trợ nhận biết đồ dùng lớp học như maps, pencils, erasers, pictures, pens; HS kiểm tra lại kết quả bằng vật thật và ngữ cảnh.Giáo dục nếp sống: Giữ lớp học ngăn nắp, đặt đồ dùng đúng vị trí và có ý thức bảo quản tài sản chung.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI in image recognition apps can support identifying classroom supplies like maps, pencils, erasers, pictures, pens; students recheck results with real objects and context. Lifestyle education: Keep classrooms neat, put supplies in correct places, and consciously preserve shared property.",
           "3. Attributes",
           "- Show their pride in school things they have and great respect for other people’s school things by using appropriate gestures and intonation when asking and answering about school things."
         ],
@@ -4082,7 +4082,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context (see Input). Step 2: Put pupils into pairs and practise asking and answering questions about the locations of school things. Go around the classroom to offer support where necessary. Step 3: Invite a few pairs to the front of the class to ask and answer questions about the locations of school things, using the picture cues. Praise pupils if they perform well. Extension: Invite some pairs of pupils to ask and answer questions about real school things in the classroom. For example, Where are the fans? - They’re above the windows; Where’s the projector? - It’s in front of the screen.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI trong ứng dụng nhận diện hình ảnh có thể hỗ trợ nhận biết đồ dùng lớp học như maps, pencils, erasers, pictures, pens; HS kiểm tra lại kết quả bằng vật thật và ngữ cảnh.Giáo dục nếp sống: Giữ lớp học ngăn nắp, đặt đồ dùng đúng vị trí và có ý thức bảo quản tài sản chung.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context (see Input). Step 2: Put pupils into pairs and practise asking and answering questions about the locations of school things. Go around the classroom to offer support where necessary. Step 3: Invite a few pairs to the front of the class to ask and answer questions about the locations of school things, using the picture cues. Praise pupils if they perform well. Extension: Invite some pairs of pupils to ask and answer questions about real school things in the classroom. For example, Where are the fans? - They’re above the windows; Where’s the projector? - It’s in front of the screen.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI in image recognition apps can support identifying classroom supplies like maps, pencils, erasers, pictures, pens; students recheck results with real objects and context. Lifestyle education: Keep classrooms neat, put supplies in correct places, and consciously preserve shared property.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the context.- Pupils work in pairs and practise asking and answering questions about the locations of school things.- Pairs of pupils come to the front of the class to ask and answer questions about locations of school things, using the picture cues.- Pairs of pupils ask and answer questions about the real school things in the classroom.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4099,7 +4099,7 @@
       {
         "lessonTitle": "UNIT 8: IN OUR CLASSROOM - Lesson 1 - Period 2 (Period 51)",
         "topic": "Unit 8:In our classroom - In our classroom - Lesson 1(4, 5, 6)",
-        "period": "Tiết 51",
+        "period": "Period 51",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4111,7 +4111,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.1.CB2a: Thực hiện quy tắc sử dụng thiết bị số an toàn trong lớp: đặt thiết bị đúng chỗ, không làm rơi/va đập và không tự ý thay đổi cài đặt của thiết bị dùng chung.NLS 1.3.CB2a: Sắp xếp hình/nhãn đồ dùng lớp học theo vị trí trên sơ đồ số đơn giản để dễ quan sát và tìm lại.",
+          "+ Digital competence & AI literacy: NLS 4.1.CB2a: Follow safe digital device usage rules in class: place devices properly, avoid dropping/bumping, and do not arbitrarily change settings of shared devices. NLS 1.3.CB2a: Arrange classroom supply images/labels by position on simple digital diagrams for easy observation and retrieval.",
           "3. Attributes",
           "- Show their pride in school things they have and great respect for other people’s school things by using appropriate gestures and intonation when asking and answering about school things."
         ],
@@ -4162,7 +4162,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the locations of school things to reinforce their understanding. Step 2: Play the recording all the way through for pupils to listen to the whole song. Encourage them to listen carefully to the pronunciation, rhythm and melody. Step 3: Play the recording again, line by line, for pupils to listen and repeat. Correct their pronunciation where necessary. Step 4: Play the recording all the way through for pupils to sing along. Step 5: Play the recording again for pupils to sing and clap along with the recording. Extension: Invite some groups to the front of the class to perform while the rest of the class sings and / or claps along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.1.CB2a: Thực hiện quy tắc sử dụng thiết bị số an toàn trong lớp: đặt thiết bị đúng chỗ, không làm rơi/va đập và không tự ý thay đổi cài đặt của thiết bị dùng chung.NLS 1.3.CB2a: Sắp xếp hình/nhãn đồ dùng lớp học theo vị trí trên sơ đồ số đơn giản để dễ quan sát và tìm lại.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the locations of school things to reinforce their understanding. Step 2: Play the recording all the way through for pupils to listen to the whole song. Encourage them to listen carefully to the pronunciation, rhythm and melody. Step 3: Play the recording again, line by line, for pupils to listen and repeat. Correct their pronunciation where necessary. Step 4: Play the recording all the way through for pupils to sing along. Step 5: Play the recording again for pupils to sing and clap along with the recording. Extension: Invite some groups to the front of the class to perform while the rest of the class sings and / or claps along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.1.CB2a: Follow safe digital device usage rules in class: place devices properly, avoid dropping/bumping, and do not arbitrarily change settings of shared devices. NLS 1.3.CB2a: Arrange classroom supply images/labels by position on simple digital diagrams for easy observation and retrieval.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the title and lyrics of the song. Pupils point at the location of school things.- Pupils listen to the whole song. Pupils listen carefully to the pronunciation, rhythm and melody.- Pupils listen to the recording line by line and repeat.- Pupils listen to the recording all the way through and sing along.- Pupils listen to the recording again to sing and clap along.- Some groups come to the front of the class to perform while the rest of the class sings and / or claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4179,7 +4179,7 @@
       {
         "lessonTitle": "UNIT 8: IN OUR CLASSROOM - Lesson 2 - Period 3 (Period 52)",
         "topic": "Unit 8:In our classroom - In our classroom - Lesson 2(1, 2, 3)",
-        "period": "Tiết 52",
+        "period": "Period 52",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4192,7 +4192,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Hiểu AI có thể suy đoán sai chủ sở hữu của một đồ vật từ hình ảnh hoặc vị trí; cần hỏi trực tiếp bằng Whose ... is this? và kiểm chứng trước khi kết luận.Đạo đức: Tôn trọng đồ dùng cá nhân của bạn; không tự ý lấy hoặc sử dụng đồ vật khi chưa được đồng ý.",
+          "+ Digital competence & AI literacy: AI 4.B2: Understand that AI can incorrectly guess the owner of an object from images or locations; ask directly using Whose ... is this? and verify before concluding. Ethics: Respect peers' personal belongings; do not take or use objects without permission.",
           "3. Attributes",
           "- Show their pride in school things they have and great respect for other people’s school things by using appropriate gestures and intonation when asking and answering about school things."
         ],
@@ -4243,7 +4243,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context (see Input). Step 2: Put pupils into pairs and encourage them to ask and answer questions about possession. Go around the classroom to offer support where necessary. Step 3: Invite a few pairs to the front of the class to perform their conversations. Praise pupils if they perform well.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Hiểu AI có thể suy đoán sai chủ sở hữu của một đồ vật từ hình ảnh hoặc vị trí; cần hỏi trực tiếp bằng Whose ... is this? và kiểm chứng trước khi kết luận.Đạo đức: Tôn trọng đồ dùng cá nhân của bạn; không tự ý lấy hoặc sử dụng đồ vật khi chưa được đồng ý.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context (see Input). Step 2: Put pupils into pairs and encourage them to ask and answer questions about possession. Go around the classroom to offer support where necessary. Step 3: Invite a few pairs to the front of the class to perform their conversations. Praise pupils if they perform well.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Understand that AI can incorrectly guess the owner of an object from images or locations; ask directly using Whose ... is this? and verify before concluding. Ethics: Respect peers' personal belongings; do not take or use objects without permission.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures. Pupils answer the questions to identify the context.- Pupils work in pairs and ask and answer questions about possession.- Pairs of pupils come to the front of the class to perform their conversations.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4266,7 +4266,7 @@
       {
         "lessonTitle": "UNIT 8: IN OUR CLASSROOM - Lesson 2 - Period 4 (Period 53)",
         "topic": "Unit 8:In our classroom - In our classroom - Lesson 2(4, 5, 6)",
-        "period": "Tiết 53",
+        "period": "Period 53",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4278,7 +4278,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi - đáp về đồ dùng của bạn trong lớp hoặc trên môi trường số; dùng lời cảm ơn và phản hồi phù hợp.NLS 4.2.CB2b: Không đăng ảnh đồ dùng có tên, nhãn cá nhân hoặc thông tin nhận diện của bạn khác khi chưa được phép.",
+          "+ Digital competence & AI literacy: NLS 2.5.CB2a: Communicate politely when asking and answering about peers' supplies in class or in the digital environment; use appropriate thank-yous and responses. NLS 4.2.CB2b: Do not post photos of supplies with names, personal labels, or identifying information of other students without permission.",
           "3. Attributes",
           "- Show their pride in school things they have and great respect for other people’s school things by using appropriate gestures and intonation when asking and answering about school things."
         ],
@@ -4329,7 +4329,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they are going to play Whose pen is this? game in groups of four. Divide pupils into Team A and Team B. Team A holds one of the school things on the table and asks Whose (pen) is this? Team B answers It’s (Mai’s).Step 2: The teams take turns asking and answering about possession. The members of each group have to remember whose school things they are to answer the questions. Step 3: When a team gives a correct answer, they get one point. The winning team is the one that gets the most points.Step 4: Have pupils work in groups. Invite two groups to the front of the class to play the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi - đáp về đồ dùng của bạn trong lớp hoặc trên môi trường số; dùng lời cảm ơn và phản hồi phù hợp.NLS 4.2.CB2b: Không đăng ảnh đồ dùng có tên, nhãn cá nhân hoặc thông tin nhận diện của bạn khác khi chưa được phép.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they are going to play Whose pen is this? game in groups of four. Divide pupils into Team A and Team B. Team A holds one of the school things on the table and asks Whose (pen) is this? Team B answers It’s (Mai’s).Step 2: The teams take turns asking and answering about possession. The members of each group have to remember whose school things they are to answer the questions. Step 3: When a team gives a correct answer, they get one point. The winning team is the one that gets the most points.Step 4: Have pupils work in groups. Invite two groups to the front of the class to play the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.5.CB2a: Communicate politely when asking and answering about peers' supplies in class or in the digital environment; use appropriate thank-yous and responses. NLS 4.2.CB2b: Do not post photos of supplies with names, personal labels, or identifying information of other students without permission.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils work in two groups to take turns asking and answering about possession. The members of each group have to remember whose school things they are to answer the questions.- The team that gives a correct answer will get one point. - Pupils work in groups of two pairs. A group comes to the front of the class to play the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4346,7 +4346,7 @@
       {
         "lessonTitle": "UNIT 8: IN OUR CLASSROOM - Lesson 3 - Period 5 (Period 54)",
         "topic": "Unit 8:In our classroom - In our classroom - Lesson 3(1, 2, 3)",
-        "period": "Tiết 54",
+        "period": "Period 54",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4359,7 +4359,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Phân loại và tổ chức thông tin theo Object - Owner - Position khi đọc/viết về đồ dùng trong lớp và góc học tập.AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu có above, beside; HS đối chiếu với audio SGK và hướng dẫn của GV.",
+          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Classify and organize information by Object - Owner - Position when reading/writing about classroom supplies and study corners. AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences with above, beside; students cross-check with textbook audio and teacher guidance.",
           "3. Attributes",
           "- Show their pride in school things they have and great respect for other people’s school things by using appropriate gestures and intonation when asking and answering about school things."
         ],
@@ -4410,7 +4410,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check their comprehension. Step 2: Play the recording all the way through for pupils to listen to the whole chant. Encourage them to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to the words above and beside. Step 3: Play the recording line by line for pupils to listen and repeat. Correct their pronunciation if necessary. Step 4: Play the recording all the way through for pupils to chant to. Encourage them to clap along while chanting. Extension: Divide the class into two groups to take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Phân loại và tổ chức thông tin theo Object - Owner - Position khi đọc/viết về đồ dùng trong lớp và góc học tập.AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu có above, beside; HS đối chiếu với audio SGK và hướng dẫn của GV.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check their comprehension. Step 2: Play the recording all the way through for pupils to listen to the whole chant. Encourage them to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to the words above and beside. Step 3: Play the recording line by line for pupils to listen and repeat. Correct their pronunciation if necessary. Step 4: Play the recording all the way through for pupils to chant to. Encourage them to clap along while chanting. Extension: Divide the class into two groups to take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Classify and organize information by Object - Owner - Position when reading/writing about classroom supplies and study corners. AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences with above, beside; students cross-check with textbook audio and teacher guidance.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the lyrics of the chant.- Pupils listen to the whole chant. Pupils listen carefully to the rhythm and pronunciation. Pupils pay attention to the words above and beside.- Pupils listen to the recording line by line and repeat.- Pupils listen to the recording all the way through and chant. Pupils clap along while chanting.- Pupils work in two groups to take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4427,7 +4427,7 @@
       {
         "lessonTitle": "UNIT 8: IN OUR CLASSROOM - Lesson 3 - Period 6 (Period 55)",
         "topic": "Unit 8:In our classroom - In our classroom - Lesson 3(4, 5, 6)",
-        "period": "Tiết 55",
+        "period": "Period 55",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4439,7 +4439,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế poster/slide số “My friend’s study corner” bằng PowerPoint/Canva, ghi tên đồ vật và vị trí bằng câu ngắn đúng mẫu.AI 4.A3: Chọn lọc hình ảnh AI phù hợp để minh họa góc học tập; không sử dụng ảnh làm lộ tên đầy đủ, địa chỉ, lớp học hoặc thông tin cá nhân của bạn.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital poster/slide titled “My friend’s study corner” using PowerPoint/Canva, recording object names and positions using correct short sample sentences. AI 4.A3: Select appropriate AI images to illustrate study corners; do not use photos that reveal peers' full names, addresses, classes, or personal information.",
           "3. Attributes",
           "- Show their pride in school things they have and great respect for other people’s school things by using appropriate gestures and intonation when asking and answering about school things."
         ],
@@ -4482,7 +4482,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell pupils the goal of the activity. Explain that they have to read the four incomplete sentences and fill in the gaps with specific information about someone’s school things and their locations. Step 2: Have pupils do the first gapped sentence together as an example. Ask them to read the sentence and elicit the school things. Then have them write the answer, e.g. crayons in the gap. Step 3: Give pupils time to complete the sentences independently. Go around the classroom and offer help if necessary. Step 4: Get pupils to swap their books with a partner and check their answers before checking as a class. Extension: Invite a few pupils to read their completed texts in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế poster/slide số “My friend’s study corner” bằng PowerPoint/Canva, ghi tên đồ vật và vị trí bằng câu ngắn đúng mẫu.AI 4.A3: Chọn lọc hình ảnh AI phù hợp để minh họa góc học tập; không sử dụng ảnh làm lộ tên đầy đủ, địa chỉ, lớp học hoặc thông tin cá nhân của bạn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils the goal of the activity. Explain that they have to read the four incomplete sentences and fill in the gaps with specific information about someone’s school things and their locations. Step 2: Have pupils do the first gapped sentence together as an example. Ask them to read the sentence and elicit the school things. Then have them write the answer, e.g. crayons in the gap. Step 3: Give pupils time to complete the sentences independently. Go around the classroom and offer help if necessary. Step 4: Get pupils to swap their books with a partner and check their answers before checking as a class. Extension: Invite a few pupils to read their completed texts in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital poster/slide titled “My friend’s study corner” using PowerPoint/Canva, recording object names and positions using correct short sample sentences. AI 4.A3: Select appropriate AI images to illustrate study corners; do not use photos that reveal peers' full names, addresses, classes, or personal information.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s instruction.- Pupils do the first gapped sentence together as an example. Pupils read the sentence and elicit the school things. Then pupils write the answer in the gap.- Pupils complete the sentences independently.- Pupils swap their books with a partner and check their answers before checking as a class.- Pupils read their completed texts in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4506,7 +4506,7 @@
       {
         "lessonTitle": "UNIT 9: OUR OUTDOOR ACTIVITIES - Lesson 1 - Period 1 (Period 56)",
         "topic": "Unit 9:Our outdooractivities - Our outdoor activities - Lesson 1(1, 2, 3)",
-        "period": "Tiết 56",
+        "period": "Period 56",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4520,7 +4520,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI trong ứng dụng ảnh/bản đồ có thể hỗ trợ nhận diện một số địa điểm vui chơi ngoài trời như theatre, aquarium, campsite, funfair; HS cần đối chiếu với biển tên và ngữ cảnh thực tế.ATGT/Kỹ năng sống: Biết lựa chọn cách di chuyển an toàn và tuân thủ hướng dẫn của người lớn khi tham gia hoạt động ngoài trời.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI in photo/map apps can support identifying outdoor recreational spots like theatre, aquarium, campsite, funfair; students need to cross-check with signboards and real contexts. Traffic safety/Life skills: Know how to choose safe travel methods and follow adult instructions when participating in outdoor activities.",
           "3. Attributes",
           "- Show their love and interest in outdoor activities.",
           "- Show their knowledge of doing outdoor activities safely."
@@ -4572,15 +4572,15 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures and say the words they have learnt. Ask questions to help them identify the contexts (see Input). Step 2: Have pupils look at the first bubble. Read the question aloud and ask pupils to repeat it. Explain that they should fill in the gap with the places they have learnt. Ask them to look at the second bubble and identify what the answer should be (Yes, we were. / No, we weren’t.) and write it on the board. Get pupils to say the answer several times in chorus. Step 3: Set a time limit for pupils to work in pairs, point at the pictures, ask and answer Were you at the _____ yesterday? - Yes, we were. / No, we weren’t. Go around the classroom to observe and offer help where necessary. Step 4: Invite a few pairs to point at the pictures, ask and answer questions in front of the class. Praise them if they perform well. Step 5: For a more able class, have pupils ask and answer questions about where they were yesterday, using the structures learnt.Extension: Put pupils into pairs and have them take turns asking and answering with the target structure of the activity in a freer context.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI trong ứng dụng ảnh/bản đồ có thể hỗ trợ nhận diện một số địa điểm vui chơi ngoài trời như theatre, aquarium, campsite, funfair; HS cần đối chiếu với biển tên và ngữ cảnh thực tế.ATGT/Kỹ năng sống: Biết lựa chọn cách di chuyển an toàn và tuân thủ hướng dẫn của người lớn khi tham gia hoạt động ngoài trời.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures and say the words they have learnt. Ask questions to help them identify the contexts (see Input). Step 2: Have pupils look at the first bubble. Read the question aloud and ask pupils to repeat it. Explain that they should fill in the gap with the places they have learnt. Ask them to look at the second bubble and identify what the answer should be (Yes, we were. / No, we weren’t.) and write it on the board. Get pupils to say the answer several times in chorus. Step 3: Set a time limit for pupils to work in pairs, point at the pictures, ask and answer Were you at the _____ yesterday? - Yes, we were. / No, we weren’t. Go around the classroom to observe and offer help where necessary. Step 4: Invite a few pairs to point at the pictures, ask and answer questions in front of the class. Praise them if they perform well. Step 5: For a more able class, have pupils ask and answer questions about where they were yesterday, using the structures learnt.Extension: Put pupils into pairs and have them take turns asking and answering with the target structure of the activity in a freer context.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI in photo/map apps can support identifying outdoor recreational spots like theatre, aquarium, campsite, funfair; students need to cross-check with signboards and real contexts. Traffic safety/Life skills: Know how to choose safe travel methods and follow adult instructions when participating in outdoor activities.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture and identify the contexts.- Pupils follow the teacher’s instructions.- Pupils work in pairs, point at the pictures, ask and answer questions about where people in the pictures were in the past.- Pairs of pupils come to the front of the class to ask and answer the questions about where people in the pictures were in the past.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
               "5. FUN CORNER AND WRAP-UP (7 minutes)"
             ],
             [
-              "GIÁO VIÊN",
-              "DUYỆT TỔ TRƯỞNG"
+              "TEACHER",
+              "HEAD OF DEPARTMENT"
             ]
           ]
         ],
@@ -4595,7 +4595,7 @@
       {
         "lessonTitle": "UNIT 9: OUR OUTDOOR ACTIVITIES - Lesson 1 - Period 2 (Period 57)",
         "topic": "Unit 9:Our outdooractivities - Our outdoor activities - Lesson 1(4, 5, 6)",
-        "period": "Tiết 57",
+        "period": "Period 57",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4607,7 +4607,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Không công khai vị trí, thời gian đi chơi hoặc lịch trình cụ thể của bản thân/gia đình khi kể về hoạt động đã tham gia trên môi trường số.NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi - đáp Were you at ... yesterday?; tôn trọng trải nghiệm khác nhau của bạn.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Do not publicly disclose locations, outing times, or specific schedules of oneself/family when talking about participated activities in the digital environment. NLS 2.5.CB2a: Communicate politely when asking and answering Were you at ... yesterday?; respect peers' different experiences.",
           "3. Attributes",
           "- Show their love and interest in outdoor activities.",
           "- Show their knowledge of doing outdoor activities safely."
@@ -4660,7 +4660,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they are going to revise the target vocabulary items and structures they have learnt in Lesson 1. Explain how the game is played (in Input). Check comprehension. Step 2: Invite two groups (three pupils each) to the front of the class. Have them listen to the topic (At the campsite). The first member of the first group (a girl) tells the place where she and her friends were yesterday (e.g. We were at the campsite yesterday.) The second member (a boy) listens to the girl, repeats the information about the place where she and her friends were yesterday (e.g. They were at the campsite yesterday.) The third member (a girl) repeats the boy’s information and adds in the place she and her friends were yesterday (e.g. They were at the campsite yesterday. We were at the campsite, too). Check comprehension. Step 3: Divide the class in groups of three. Set a time limit for pupils to play the game. The group members discuss and decide the order of the speakers in the group. The game ends when all group members have done their roles. The group that says the most sentences in the shortest time will win the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Không công khai vị trí, thời gian đi chơi hoặc lịch trình cụ thể của bản thân/gia đình khi kể về hoạt động đã tham gia trên môi trường số.NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi - đáp Were you at ... yesterday?; tôn trọng trải nghiệm khác nhau của bạn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they are going to revise the target vocabulary items and structures they have learnt in Lesson 1. Explain how the game is played (in Input). Check comprehension. Step 2: Invite two groups (three pupils each) to the front of the class. Have them listen to the topic (At the campsite). The first member of the first group (a girl) tells the place where she and her friends were yesterday (e.g. We were at the campsite yesterday.) The second member (a boy) listens to the girl, repeats the information about the place where she and her friends were yesterday (e.g. They were at the campsite yesterday.) The third member (a girl) repeats the boy’s information and adds in the place she and her friends were yesterday (e.g. They were at the campsite yesterday. We were at the campsite, too). Check comprehension. Step 3: Divide the class in groups of three. Set a time limit for pupils to play the game. The group members discuss and decide the order of the speakers in the group. The game ends when all group members have done their roles. The group that says the most sentences in the shortest time will win the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Do not publicly disclose locations, outing times, or specific schedules of oneself/family when talking about participated activities in the digital environment. NLS 2.5.CB2a: Communicate politely when asking and answering Were you at ... yesterday?; respect peers' different experiences.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Two groups come to the front of the class. Pupils listen to the topic. Pupils follow the teacher’s instructions.- Pupils work in groups of three. Pupils play the game. Praise the winner.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4677,7 +4677,7 @@
       {
         "lessonTitle": "UNIT 9: OUR OUTDOOR ACTIVITIES - Lesson 2 - Period 3 (Period 58)",
         "topic": "Unit 9:Our outdooractivities - Our outdoor activities - Lesson 2(1, 2, 3)",
-        "period": "Tiết 58",
+        "period": "Period 58",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4691,7 +4691,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Hiểu AI có thể suy đoán sai hoạt động hoặc địa điểm từ một bức ảnh; cần hỏi, kiểm tra thông tin trước khi kết luận về việc người khác đã làm.Giáo dục thể chất: Khuyến khích các hoạt động ngoài trời lành mạnh, phù hợp lứa tuổi và điều kiện an toàn.",
+          "+ Digital competence & AI literacy: AI 4.B2: Understand that AI can incorrectly guess activities or locations from a photo; ask and check information before concluding what others have done. Physical education: Encourage healthy outdoor activities suitable for age and safety conditions.",
           "3. Attributes",
           "- Show their love and interest in doing free-time activities.",
           "- Be friendly when doing activities with their friends."
@@ -4743,7 +4743,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the pictures and identify the places and characters. Let pupils answer the questions such as Who can you see? Where are they? What are they doing? Remind them that the first exchange is used to ask and answer questions about where someone was yesterday and the second about activities someone did there.Step 2: Ask them to repeat the questions in chorus. Then point at each bubble and give an example answer for pupils to repeat in chorus (e.g. Where were you yesterday? – We were at the campsite?, What did you do there? We danced around the campfire.) Let pupils listen to and repeat the questions and the answers a few times, individually and in chorus. Step 3: Give pupils time to work in pairs and take turns asking and answering questions about where the characters were and what they did with the help of the picture cues. Remind them to use the verbs in the past tense. Step 4: Invite a few pairs to the front of the class and point at the pictures and act out the exchanges. Extension: Put pupils into pairs and have them point at each picture and take turns asking and answering with the target structure of the activity in a freer context.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Hiểu AI có thể suy đoán sai hoạt động hoặc địa điểm từ một bức ảnh; cần hỏi, kiểm tra thông tin trước khi kết luận về việc người khác đã làm.Giáo dục thể chất: Khuyến khích các hoạt động ngoài trời lành mạnh, phù hợp lứa tuổi và điều kiện an toàn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the pictures and identify the places and characters. Let pupils answer the questions such as Who can you see? Where are they? What are they doing? Remind them that the first exchange is used to ask and answer questions about where someone was yesterday and the second about activities someone did there.Step 2: Ask them to repeat the questions in chorus. Then point at each bubble and give an example answer for pupils to repeat in chorus (e.g. Where were you yesterday? – We were at the campsite?, What did you do there? We danced around the campfire.) Let pupils listen to and repeat the questions and the answers a few times, individually and in chorus. Step 3: Give pupils time to work in pairs and take turns asking and answering questions about where the characters were and what they did with the help of the picture cues. Remind them to use the verbs in the past tense. Step 4: Invite a few pairs to the front of the class and point at the pictures and act out the exchanges. Extension: Put pupils into pairs and have them point at each picture and take turns asking and answering with the target structure of the activity in a freer context.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Understand that AI can incorrectly guess activities or locations from a photo; ask and check information before concluding what others have done. Physical education: Encourage healthy outdoor activities suitable for age and safety conditions.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture, identify the places and characters and answer the questions. - Pupils listen to and repeat the questions and the answers a few times, individually and in chorus. - Pupils work in pairs and take turns pointing and asking and answering questions about where the characters were and what they did with the help of the picture cues.- Pairs of pupils come to the front of the classroom and act out the exchanges.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4760,7 +4760,7 @@
       {
         "lessonTitle": "UNIT 9: OUR OUTDOOR ACTIVITIES - Lesson 2 - Period 4 (Period 59)",
         "topic": "Unit 9:Our outdooractivities - Our outdoor activities - Lesson 2(4, 5, 6)",
-        "period": "Tiết 59",
+        "period": "Period 59",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4772,7 +4772,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Lựa chọn bảng/timeline số đơn giản để sắp xếp thông tin Where? - What did you do? theo đúng trình tự của một chuyến đi hoặc hoạt động ngoài trời.Bảo vệ môi trường: Giữ vệ sinh nơi công cộng, không xả rác, không làm hư hại cây cối và cảnh quan khi tham gia hoạt động ngoài trời.",
+          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Choose simple digital tables/timelines to organize Where? - What did you do? information in the correct sequence of a trip or outdoor activity. Environmental protection: Keep public places clean, do not litter, do not damage plants and landscapes when participating in outdoor activities.",
           "3. Attributes",
           "- Show their love and interest in doing free-time activities.",
           "- Be friendly when doing activities with their friends."
@@ -4824,7 +4824,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Remind them the questions and answers in the lyrics are used to talk about the places the children were and the activities they did in the past (yesterday). Remind them the similarity of the questions but the differences in the answers in two verses of the lyrics. Encourage them to point at the pictures to reinforce their understanding. Check comprehension.Step 2: Play the recording all the way through for pupils to listen carefully to the pronunciation and melody. Then play the recording line by line for them to listen and repeat. Correct their pronunciation where necessary. Step 3: Play the recording all the way through and have pupils sing and clap along. Step 4: Put pupils into two groups. One group sings the questions and the other group sings the answers. Extension: Invite a few groups to the front of the class to sing. Encourage them to use other words to replace the place in the second line (e.g. I was on the beach) and the activities in the fourth and fifth lines (e.g. I played football, I played football on the beach).\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Lựa chọn bảng/timeline số đơn giản để sắp xếp thông tin Where? - What did you do? theo đúng trình tự của một chuyến đi hoặc hoạt động ngoài trời.Bảo vệ môi trường: Giữ vệ sinh nơi công cộng, không xả rác, không làm hư hại cây cối và cảnh quan khi tham gia hoạt động ngoài trời.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Remind them the questions and answers in the lyrics are used to talk about the places the children were and the activities they did in the past (yesterday). Remind them the similarity of the questions but the differences in the answers in two verses of the lyrics. Encourage them to point at the pictures to reinforce their understanding. Check comprehension.Step 2: Play the recording all the way through for pupils to listen carefully to the pronunciation and melody. Then play the recording line by line for them to listen and repeat. Correct their pronunciation where necessary. Step 3: Play the recording all the way through and have pupils sing and clap along. Step 4: Put pupils into two groups. One group sings the questions and the other group sings the answers. Extension: Invite a few groups to the front of the class to sing. Encourage them to use other words to replace the place in the second line (e.g. I was on the beach) and the activities in the fourth and fifth lines (e.g. I played football, I played football on the beach).\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Choose simple digital tables/timelines to organize Where? - What did you do? information in the correct sequence of a trip or outdoor activity. Environmental protection: Keep public places clean, do not litter, do not damage plants and landscapes when participating in outdoor activities.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils work in groups. Each group holds a piece of paper.- Pupils look at the word on the board and write a sentence using the word within one minute. Pupils remember to make the sentence as long as possible.- Pupils say the sentences aloud. - Pupils continue playing the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4841,7 +4841,7 @@
       {
         "lessonTitle": "UNIT 9: OUR OUTDOOR ACTIVITIES - Lesson 3 - Period 5 (Period 60)",
         "topic": "Unit 9:Our outdooractivities - Our outdoor activities - Lesson 3(1, 2, 3)",
-        "period": "Tiết 60",
+        "period": "Period 60",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4853,7 +4853,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Phân loại và tổ chức thông tin đọc theo Place - Time - Activity, liên hệ đoạn đọc về các hoạt động ở Hyde Park.AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu như cinema, bakery; HS đối chiếu với audio SGK và hướng dẫn của GV.",
+          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Classify and organize reading information by Place - Time - Activity, connecting with the reading passage about activities in Hyde Park. AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences like cinema, bakery; students cross-check with textbook audio and teacher guidance.",
           "3. Attributes",
           "- Show their love and interest in doing free-time activities.",
           "- Be friendly when doing activities with their friends."
@@ -4905,7 +4905,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the first verse of the chant and draw their attention to the first stress on the words yesterday, cinema and interesting. Check comprehension.Step 2: Play the recording of the first verse for pupils to listen. Play the recording again, lineby line, for pupils to listen and repeat. Draw their attention to the stress of the words, the rhythm and pronunciation. Encourage them to clap while chanting.Step 3: Repeat Steps 1 and 2 for the second verse of the chant. Draw pupils’ attention to the first stress on the words yesterday and bakery. Check comprehension.Step 4: Play the recording all the way through for pupils to chant and clap.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Phân loại và tổ chức thông tin đọc theo Place - Time - Activity, liên hệ đoạn đọc về các hoạt động ở Hyde Park.AI 4.A2: Nhận biết AI có thể hỗ trợ luyện nghe - phát âm các từ/câu như cinema, bakery; HS đối chiếu với audio SGK và hướng dẫn của GV.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the first verse of the chant and draw their attention to the first stress on the words yesterday, cinema and interesting. Check comprehension.Step 2: Play the recording of the first verse for pupils to listen. Play the recording again, lineby line, for pupils to listen and repeat. Draw their attention to the stress of the words, the rhythm and pronunciation. Encourage them to clap while chanting.Step 3: Repeat Steps 1 and 2 for the second verse of the chant. Draw pupils’ attention to the first stress on the words yesterday and bakery. Check comprehension.Step 4: Play the recording all the way through for pupils to chant and clap.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Classify and organize reading information by Place - Time - Activity, connecting with the reading passage about activities in Hyde Park. AI 4.A2: Recognize that AI can support listening and pronunciation practice for words/sentences like cinema, bakery; students cross-check with textbook audio and teacher guidance.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the first verse of the chant and pay attention to the stress of the words yesterday, cinema and interesting.- Pupils listen to the recording of the first verse. Pupils listen to the recording again, line by line, and repeat. Pupils clap while chanting.- Pupils follow the teacher’s instructions.- Pupils listen to the recording all the way through to chant and clap their hands.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -4928,7 +4928,7 @@
       {
         "lessonTitle": "UNIT 9: OUR OUTDOOR ACTIVITIES - Lesson 3 - Period 6 (Period 61)",
         "topic": "Unit 9:Our outdooractivities - Our outdoor activities - Lesson 3(4, 5, 6)",
-        "period": "Tiết 61",
+        "period": "Period 61",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -4941,7 +4941,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế bảng/poster số “Our outdoor activities” bằng PowerPoint/Canva với Name - Where did you go? - What did you do there?.AI 4.A3: Chọn lọc hình ảnh AI phù hợp để minh họa hoạt động; tránh hình ảnh nguy hiểm, sai bối cảnh hoặc làm lộ khuôn mặt/vị trí cá nhân.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital table/poster titled “Our outdoor activities” using PowerPoint/Canva with Name - Where did you go? - What did you do there?. AI 4.A3: Select appropriate AI images to illustrate activities; avoid dangerous, out-of-context images, or those revealing personal faces/locations.",
           "3. Attributes",
           "- Show their love and interest in doing free-time activities.",
           "- Be friendly when doing activities with their friends."
@@ -4985,7 +4985,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity and explain that they should write a short text with the help of the picture cues and the first gapped sentence. Tell pupils that they should write about 30 words. Check comprehension.Step 2: Do the first gapped sentence together as an example. Have pupils read the sentenceand elicit the gap in the sentence. Then have them look at the picture and identify the placethey went to (campsite) and write the word in the gap (e.g. Last summer, we went to thecampsite.).Step 3: Give pupils time to look at the pictures and write the text independently. Go around and offer help if necessary. Step 4: Get pupils to swap their books with a partner and check their texts before checking as a class.Step 5: Invite one or two pupils to read their completed texts in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế bảng/poster số “Our outdoor activities” bằng PowerPoint/Canva với Name - Where did you go? - What did you do there?.AI 4.A3: Chọn lọc hình ảnh AI phù hợp để minh họa hoạt động; tránh hình ảnh nguy hiểm, sai bối cảnh hoặc làm lộ khuôn mặt/vị trí cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of the activity and explain that they should write a short text with the help of the picture cues and the first gapped sentence. Tell pupils that they should write about 30 words. Check comprehension.Step 2: Do the first gapped sentence together as an example. Have pupils read the sentenceand elicit the gap in the sentence. Then have them look at the picture and identify the placethey went to (campsite) and write the word in the gap (e.g. Last summer, we went to thecampsite.).Step 3: Give pupils time to look at the pictures and write the text independently. Go around and offer help if necessary. Step 4: Get pupils to swap their books with a partner and check their texts before checking as a class.Step 5: Invite one or two pupils to read their completed texts in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital table/poster titled “Our outdoor activities” using PowerPoint/Canva with Name - Where did you go? - What did you do there?. AI 4.A3: Select appropriate AI images to illustrate activities; avoid dangerous, out-of-context images, or those revealing personal faces/locations.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils do the first gapped sentence together as an example. Pupils read the sentence and elicit the gap in the sentence. Then pupils look at the picture, identify the place they went to and write the word in the gap.- Pupils look at the pictures and write the text independently.- Pupils swap their books with a partner and check their answers before checking as a class.- One or two pupils read their completed texts in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5009,7 +5009,7 @@
       {
         "lessonTitle": "UNIT 10: OUR SCHOOL TRIP - Lesson 1 - Period 1 (Period 62)",
         "topic": "Unit 10:Our school trip - Our school trip - Lesson 1(1, 2, 3)",
-        "period": "Tiết 62",
+        "period": "Period 62",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5023,7 +5023,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI trong ứng dụng ảnh/bản đồ có thể hỗ trợ nhận diện địa điểm tham quan; HS cần đối chiếu tên địa danh và nguồn chính thống.GDĐP/Văn hóa: Trân trọng cảnh quan, di sản và nét đẹp văn hóa tại điểm đến.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI in photo/map apps can support identifying tourist attractions; students need to cross-check place names and official sources. Local integration/Culture: Appreciate landscapes, heritage, and cultural beauties at destinations.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam.",
           "- Show their love and interest in school trips."
@@ -5075,7 +5075,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context (see Input).Step 2: Do the first picture together as an example. Elicit the missing words in the first speechbubble (e.g. Hoan Kiem Lake) and the second speech bubble (e.g. Yes, they did). Then writethe sentences on the board. Get pupils to say the completed sentences. Repeat the sameprocedure with the other pictures.Step 3: Put pupils into pairs to practise the exchanges. Go around and offer support where necessary.Step 4: Invite a few pairs to point at the pictures and ask and answer questions about their school trips.Extension: Put pupils into pairs to practise asking and answering questions about school trips pupils have / haven't been on to different places. Praise good performances.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI trong ứng dụng ảnh/bản đồ có thể hỗ trợ nhận diện địa điểm tham quan; HS cần đối chiếu tên địa danh và nguồn chính thống.GDĐP/Văn hóa: Trân trọng cảnh quan, di sản và nét đẹp văn hóa tại điểm đến.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context (see Input).Step 2: Do the first picture together as an example. Elicit the missing words in the first speechbubble (e.g. Hoan Kiem Lake) and the second speech bubble (e.g. Yes, they did). Then writethe sentences on the board. Get pupils to say the completed sentences. Repeat the sameprocedure with the other pictures.Step 3: Put pupils into pairs to practise the exchanges. Go around and offer support where necessary.Step 4: Invite a few pairs to point at the pictures and ask and answer questions about their school trips.Extension: Put pupils into pairs to practise asking and answering questions about school trips pupils have / haven't been on to different places. Praise good performances.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI in photo/map apps can support identifying tourist attractions; students need to cross-check place names and official sources. Local integration/Culture: Appreciate landscapes, heritage, and cultural beauties at destinations.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the context.-  Pupils follow the teacher demonstrating the example.- Pupils work in pairs to practise exchanges.- Pupils point at the pictures and ask and answer questions about their school trips.- Pairs of pupils practise asking and answering questions about school trips pupils have / haven't been on to different places.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5092,7 +5092,7 @@
       {
         "lessonTitle": "UNIT 10: OUR SCHOOL TRIP - Lesson 1 - Period 2 (Period 63)",
         "topic": "Unit 10:Our school trip - Our school trip - Lesson 1(4, 5, 6)",
-        "period": "Tiết 63",
+        "period": "Period 63",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5105,7 +5105,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Tìm và chọn thông tin cơ bản về điểm tham quan từ nguồn số tin cậy do GV cung cấp.NLS 4.2.CB2b: Không công khai thời gian, vị trí hoặc lộ trình cụ thể của chuyến đi.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Find and select basic information about tourist attractions from reliable digital sources provided by teachers. NLS 4.2.CB2b: Do not publicly disclose trip times, locations, or specific routes.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam.",
           "- Show their love and interest in school trips."
@@ -5157,7 +5157,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils the aim of the activity: They listen to the song and fill in the gaps in the lyrics and then sing it with the correct pronunciation, rhythm and melody.Step 2: Have pupils read the lyrics and guess the word(s) to fill in the gaps. For example, the verb watch is used to fill in the first gap because it is part of the phrase watch a film. Then have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary. Check answers as a class.Step 3: Play the recording and let pupils listen to and practise singing the song, line by line, until they feel confident. Then divide the class into two groups. One group sings the questions and the other sings the answers.Step 4: Invite a few groups to the front of the class to sing the song. The class may sing along and clap.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Tìm và chọn thông tin cơ bản về điểm tham quan từ nguồn số tin cậy do GV cung cấp.NLS 4.2.CB2b: Không công khai thời gian, vị trí hoặc lộ trình cụ thể của chuyến đi.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils the aim of the activity: They listen to the song and fill in the gaps in the lyrics and then sing it with the correct pronunciation, rhythm and melody.Step 2: Have pupils read the lyrics and guess the word(s) to fill in the gaps. For example, the verb watch is used to fill in the first gap because it is part of the phrase watch a film. Then have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary. Check answers as a class.Step 3: Play the recording and let pupils listen to and practise singing the song, line by line, until they feel confident. Then divide the class into two groups. One group sings the questions and the other sings the answers.Step 4: Invite a few groups to the front of the class to sing the song. The class may sing along and clap.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Find and select basic information about tourist attractions from reliable digital sources provided by teachers. NLS 4.2.CB2b: Do not publicly disclose trip times, locations, or specific routes.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s instructions.- Pupils read the lyrics and guess the word(s) to fill in the gaps.  Then pupils listen to the song and fill in the gaps. Pupils listen to the recording twice to fill in the gaps.- Pupils listen to and practise singing the song, line by line.- Pupils work in two groups. One group sings the questions and the other sings the answers.- A few groups come to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5174,7 +5174,7 @@
       {
         "lessonTitle": "UNIT 10: OUR SCHOOL TRIP - Lesson 2 - Period 3 (Period 64)",
         "topic": "Unit 10:Our school trip - Our school trip - Lesson 2(1, 2, 3)",
-        "period": "Tiết 64",
+        "period": "Period 64",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5189,7 +5189,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Hiểu AI có thể suy đoán sai địa điểm/hoạt động từ ảnh; cần kiểm tra thông tin trước khi kết luận.Bảo vệ môi trường: Tham quan văn minh, giữ gìn cảnh quan khi visit old buildings, plant trees, play games, walk around the lake.",
+          "+ Digital competence & AI literacy: AI 4.B2: Understand that AI can incorrectly guess locations/activities from photos; check information before concluding. Environmental protection: Visit civilly, preserve landscapes when visiting old buildings, planting trees, playing games, walking around the lake.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam.",
           "- Show their love and interest in school trips."
@@ -5241,7 +5241,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the picture and identify the places they went to and the activities they did. Ask questions such as Who can you see?, Where were they? and What did they do? Remind them that the first exchange is about the place someone went to and the second exchange is about the activities someone did on a school trip.Step 2: Give pupils time to work in pairs and take turns pointing at the pictures and acting out the exchanges with guided questions and answers. Remind them to use the past tense of the verbs in the answers.Step 3: Invite a few pairs to come to the front of the class, point at the pictures and act out the exchanges.Extension: Put pupils into pairs and have them take turns practising the target structures with different places and activities of their choosing. Go around and offer help where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Hiểu AI có thể suy đoán sai địa điểm/hoạt động từ ảnh; cần kiểm tra thông tin trước khi kết luận.Bảo vệ môi trường: Tham quan văn minh, giữ gìn cảnh quan khi visit old buildings, plant trees, play games, walk around the lake.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the picture and identify the places they went to and the activities they did. Ask questions such as Who can you see?, Where were they? and What did they do? Remind them that the first exchange is about the place someone went to and the second exchange is about the activities someone did on a school trip.Step 2: Give pupils time to work in pairs and take turns pointing at the pictures and acting out the exchanges with guided questions and answers. Remind them to use the past tense of the verbs in the answers.Step 3: Invite a few pairs to come to the front of the class, point at the pictures and act out the exchanges.Extension: Put pupils into pairs and have them take turns practising the target structures with different places and activities of their choosing. Go around and offer help where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Understand that AI can incorrectly guess locations/activities from photos; check information before concluding. Environmental protection: Visit civilly, preserve landscapes when visiting old buildings, planting trees, playing games, walking around the lake.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the places they went to and the activities they did. Pupils answer the questions to identify the context.- Pupils work in pairs and ask and take turns pointing at the pictures, acting out the exchanges with guided questions and answers.- Pairs of pupils come to the front of the class, pointing at the pictures and acting out the exchanges.- Pupils work in pairs and take turns practising the target structures with different places and activities of their choosing.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5264,7 +5264,7 @@
       {
         "lessonTitle": "UNIT 10: OUR SCHOOL TRIP - Lesson 2 - Period 4 (Period 65)",
         "topic": "Unit 10:Our school trip - Our school trip - Lesson 2(4, 5, 6)",
-        "period": "Tiết 65",
+        "period": "Period 65",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5278,7 +5278,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Dùng bảng/timeline số đơn giản để sắp xếp thông tin chuyến đi theo Place - Time - Activity.ATGT/Kỹ năng sống: Đi theo nhóm, tuân thủ hướng dẫn của GV và quy tắc an toàn khi tham quan.",
+          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Use simple digital tables/timelines to organize trip information by Place - Time - Activity. Traffic safety/Life skills: Travel in groups, follow teacher instructions and safety rules during visits.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam.",
           "- Show their love and interest in school trips."
@@ -5330,7 +5330,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they are going to revise the target vocabulary items and structuresthey have learnt in Lessons 1 and 2 through a game. Explain how the game is played. Checkcomprehension.Step 2: Hang four or six flash cards / pictures on the board. Invite two groups of pupils(three or four pupils each) to the front of the class. Give them a time limit to look at the flash cards / pictures, discuss and make notes about the place they went to and the activities they did.Step 3: Let the group members take turns to point at the flash cards / pictures and tell the class about the places they went to and the activities they did there. The group that says more correct sentences in the shortest time will win the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Dùng bảng/timeline số đơn giản để sắp xếp thông tin chuyến đi theo Place - Time - Activity.ATGT/Kỹ năng sống: Đi theo nhóm, tuân thủ hướng dẫn của GV và quy tắc an toàn khi tham quan.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they are going to revise the target vocabulary items and structuresthey have learnt in Lessons 1 and 2 through a game. Explain how the game is played. Checkcomprehension.Step 2: Hang four or six flash cards / pictures on the board. Invite two groups of pupils(three or four pupils each) to the front of the class. Give them a time limit to look at the flash cards / pictures, discuss and make notes about the place they went to and the activities they did.Step 3: Let the group members take turns to point at the flash cards / pictures and tell the class about the places they went to and the activities they did there. The group that says more correct sentences in the shortest time will win the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Use simple digital tables/timelines to organize trip information by Place - Time - Activity. Traffic safety/Life skills: Travel in groups, follow teacher instructions and safety rules during visits.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils look at theflash cards / pictures, discuss and make notes about the place they went to and the activities they did.- The group members take turns to point at the flashcards / pictures and tell the class about the places they went to and the activities they did there.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5347,7 +5347,7 @@
       {
         "lessonTitle": "UNIT 10: OUR SCHOOL TRIP - Lesson 3 - Period 5 (Period 66)",
         "topic": "Unit 10:Our school trip - Our school trip - Lesson 3(1, 2, 3)",
-        "period": "Tiết 66",
+        "period": "Period 66",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5359,7 +5359,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Tổ chức thông tin đọc về chuyến eco-tour theo morning - noon - afternoon - evening.AI 4.A2: AI hỗ trợ luyện nghe/phát âm November, December; HS đối chiếu với audio SGK.",
+          "+ Digital competence & AI literacy: NLS 1.3.CB2a: Organize reading information about eco-tours by morning - noon - afternoon - evening. AI 4.A2: AI supports listening/pronunciation practice for November, December; students cross-check with textbook audio.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam.",
           "- Show their love and interest in school trips."
@@ -5411,7 +5411,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the first verse of the chant and draw their attention to the second stress on the words November and December. Check comprehension.Step 2: Play the recording of the first verse for pupils to listen. Play it again, line by line, for pupils to listen and repeat. Draw their attention to how the stress sounds on the words November and December. Encourage them to clap while chanting.Step 3: Repeat Steps 1 and 2 for the second verse of the chant. Check comprehension.Step 4: Play the recording all the way through for pupils to chant and clap along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Tổ chức thông tin đọc về chuyến eco-tour theo morning - noon - afternoon - evening.AI 4.A2: AI hỗ trợ luyện nghe/phát âm November, December; HS đối chiếu với audio SGK.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the first verse of the chant and draw their attention to the second stress on the words November and December. Check comprehension.Step 2: Play the recording of the first verse for pupils to listen. Play it again, line by line, for pupils to listen and repeat. Draw their attention to how the stress sounds on the words November and December. Encourage them to clap while chanting.Step 3: Repeat Steps 1 and 2 for the second verse of the chant. Check comprehension.Step 4: Play the recording all the way through for pupils to chant and clap along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2a: Organize reading information about eco-tours by morning - noon - afternoon - evening. AI 4.A2: AI supports listening/pronunciation practice for November, December; students cross-check with textbook audio.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the first verse of the chant and pay their attention to the second stress on the words November and December.- Pupils listen to the recording of the first verse. Pupils listen again and repeat line by line.- Pupils follow the teacher’s instructions.- Pupils chant and clap along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5428,7 +5428,7 @@
       {
         "lessonTitle": "UNIT 10: OUR SCHOOL TRIP - Lesson 3 - Period 6 (Period 67)",
         "topic": "Unit 10:Our school trip - Our school trip - Lesson 3(4, 5, 6)",
-        "period": "Tiết 67",
+        "period": "Period 67",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5441,7 +5441,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế mind map số “A mind map of your trip” với Place - Morning - Noon - Afternoon - Evening.AI 4.A3: Chọn hình AI đúng địa danh, phù hợp văn hóa và không làm lộ thông tin cá nhân.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital mind map titled “A mind map of your trip” with Place - Morning - Noon - Afternoon - Evening. AI 4.A3: Choose AI images with correct locations, cultural suitability, and without revealing personal information.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam.",
           "- Show their love and interest in school trips."
@@ -5485,7 +5485,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity and explain that they should answer the suggested questions and use the writing frame to complete their text. Tell pupils that they should write about 30 words. Check comprehension.Step 2: Have pupils complete the first sentence together as an example. Ask them to answer the first question (Where did Mai’s class go on their last school trip?) and elicit the place (e.g. Ba Na Hills). Then have them complete the first sentence of the text (e.g. On Mai’s last school trip, they went to Ba Na Hills.).Step 3: Give pupils time to complete the text independently. Go around and offer help if necessary.Step 4: Get pupils to swap their books with a partner and check their answers beforechecking as a class.Extension: Invite one or two pupils to read their completed texts in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế mind map số “A mind map of your trip” với Place - Morning - Noon - Afternoon - Evening.AI 4.A3: Chọn hình AI đúng địa danh, phù hợp văn hóa và không làm lộ thông tin cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of the activity and explain that they should answer the suggested questions and use the writing frame to complete their text. Tell pupils that they should write about 30 words. Check comprehension.Step 2: Have pupils complete the first sentence together as an example. Ask them to answer the first question (Where did Mai’s class go on their last school trip?) and elicit the place (e.g. Ba Na Hills). Then have them complete the first sentence of the text (e.g. On Mai’s last school trip, they went to Ba Na Hills.).Step 3: Give pupils time to complete the text independently. Go around and offer help if necessary.Step 4: Get pupils to swap their books with a partner and check their answers beforechecking as a class.Extension: Invite one or two pupils to read their completed texts in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital mind map titled “A mind map of your trip” with Place - Morning - Noon - Afternoon - Evening. AI 4.A3: Choose AI images with correct locations, cultural suitability, and without revealing personal information.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils do the first sentence together as an example. Pupils answer the first question and elicit the place. Then pupils complete the first sentence of the text.- Pupils complete the text independently.- Pupils swap their books with a partner and check their answers beforechecking as a class.- One or two pupils read their completed texts in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5508,8 +5508,8 @@
       },
       {
         "lessonTitle": "REVIEW 2 - Period 1 (Period 68)",
-        "topic": "Review 2 – Part 1 - Ôn từ vựng, cấu trúc và bốn kỹ năng của Units 6–10; chữa lỗi thường gặp và chuẩn bị đánh giá.",
-        "period": "Tiết 68",
+        "topic": "Review 2 – Part 1",
+        "period": "Period 68",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5521,7 +5521,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Đối chiếu câu trả lời với nguồn học tập tin cậy.AI 4.B2: So sánh một đáp án kiểu AI với kiến thức đã học, phát hiện và sửa lỗi trước khi chấp nhận.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Cross-check answers with reliable learning sources. AI 4.B2: Compare an AI-style answer with learned knowledge, detect and correct errors before accepting.",
           "3. Attributes",
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Be honest in the learning tasks."
@@ -5565,7 +5565,7 @@
               "3. ACTIVITY 2: PRACTICE (10 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to Question 1. Get the class to read it in chorus. Have pupils look at the picture. Elicit the answer (e.g. She likes drawing pictures.) and give feedback. Then get pupils to role-play the exchange. Repeat the same procedure with the rest of the questions. (Questions 2, 3, 4)Step 2: Give pupils time to take it in turns to role-play the four exchanges. Go around theclassroom to offer support where necessary.Step 3: Invite a few pairs of pupils to stand up and take it in turns to role-play the targetexchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Đối chiếu câu trả lời với nguồn học tập tin cậy.AI 4.B2: So sánh một đáp án kiểu AI với kiến thức đã học, phát hiện và sửa lỗi trước khi chấp nhận.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to Question 1. Get the class to read it in chorus. Have pupils look at the picture. Elicit the answer (e.g. She likes drawing pictures.) and give feedback. Then get pupils to role-play the exchange. Repeat the same procedure with the rest of the questions. (Questions 2, 3, 4)Step 2: Give pupils time to take it in turns to role-play the four exchanges. Go around theclassroom to offer support where necessary.Step 3: Invite a few pairs of pupils to stand up and take it in turns to role-play the targetexchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Cross-check answers with reliable learning sources. AI 4.B2: Compare an AI-style answer with learned knowledge, detect and correct errors before accepting.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to Question 1. Pupils read it in chorus. Pupils role-play the exchange. Pupils follow the teacher’s instructions.- Pupils work in pairs to role-play the four exchanges.- Pairs of pupils stand up and take it in turns to role-play the target exchanges.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5587,8 +5587,8 @@
     "lessons": [
       {
         "lessonTitle": "REVIEW 2 - Period 2 (Period 69)",
-        "topic": "Review 2 – Part 2 - Ôn từ vựng, cấu trúc và bốn kỹ năng của Units 6–10; chữa lỗi thường gặp và chuẩn bị đánh giá.",
-        "period": "Tiết 69",
+        "topic": "Review 2 – Part 2",
+        "period": "Period 69",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5601,7 +5601,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Đối chiếu câu trả lời với nguồn học tập tin cậy.AI 4.B2: So sánh một đáp án kiểu AI với kiến thức đã học, phát hiện và sửa lỗi trước khi chấp nhận.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Cross-check answers with reliable learning sources. AI 4.B2: Compare an AI-style answer with learned knowledge, detect and correct errors before accepting.",
           "3. Attributes",
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Be honest in the learning tasks."
@@ -5652,7 +5652,7 @@
               "4. ACTIVITY 3: PRODUCTION (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to read the guiding questions. Tell pupils that they should write about 30 words. Check comprehension.Step 2: Have pupils do the first question together as an example. Ask them to read the question and elicit where they went the previous Sunday. Then have them write the first sentence, e.g. Last Sunday, I went to Hoan Kiem Lake…Step 3: Give pupils time to complete the paragraph independently. Go around theclassroom and offer help if necessary.Step 4: Get pupils to swap their writings with a partner, then invite a few pupils to read their writings in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Đối chiếu câu trả lời với nguồn học tập tin cậy.AI 4.B2: So sánh một đáp án kiểu AI với kiến thức đã học, phát hiện và sửa lỗi trước khi chấp nhận.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to read the guiding questions. Tell pupils that they should write about 30 words. Check comprehension.Step 2: Have pupils do the first question together as an example. Ask them to read the question and elicit where they went the previous Sunday. Then have them write the first sentence, e.g. Last Sunday, I went to Hoan Kiem Lake…Step 3: Give pupils time to complete the paragraph independently. Go around theclassroom and offer help if necessary.Step 4: Get pupils to swap their writings with a partner, then invite a few pupils to read their writings in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Cross-check answers with reliable learning sources. AI 4.B2: Compare an AI-style answer with learned knowledge, detect and correct errors before accepting.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the guiding questions. Pupils follow the teacher’s instructions.- Pupils do the first question together as an example. Pupils read the question and elicit where they went the previous Sunday and write the first sentence. - Pupils complete the paragraph independently.- Pupils swap their writings with a partner. - A few pupils read their writings in front of the class. The class observes and praises their work.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5668,8 +5668,8 @@
       },
       {
         "lessonTitle": "REVIEW 2 - Period 3 - Extension activities (Period 70)",
-        "topic": "Extension activities 2 - Hoàn thành các hoạt động mở rộng của Units 6–10; vận dụng nghe – nói – đọc – viết trong tình huống gần gũi.",
-        "period": "Tiết 70",
+        "topic": "Extension activities 2 - Ho",
+        "period": "Period 70",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5681,7 +5681,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform speaking, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.4.CB1a; 3.1.CB1a: Hợp tác trên bảng/slide số do GV quản lí và tạo sản phẩm đơn giản.AI 4.A3: Kiểm tra gợi ý AI trước khi sử dụng; con người quyết định nội dung cuối cùng.",
+          "+ Digital competence & AI literacy: NLS 2.4.CB1a; 3.1.CB1a: Collaborate on digital boards/slides managed by teachers and create simple products. AI 4.A3: Check AI suggestions before use; humans decide on the final content.",
           "3. Attributes",
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Play games fair."
@@ -5732,7 +5732,7 @@
               "4. ACTIVITY 3: PRODUCTION (8 minutes)"
             ],
             [
-              "Step 1: Play the game as a whole class. Divide pupils into four groups. Determine which group goes first, second, third and fourth. Step 2: Each group rolls the dice in turn. A member of each group moves the group’s counter forward by the number of spaces indicated by the dice. Step 3: When a counter lands on a space with a picture, ask the corresponding question below. If the group gives a correct answer, their counter stays on the space. If they do not give a correct answer, their counter must be moved back two spaces and their turn ends. Explain that there are some spaces with instructions such as Back to Start, Move ahead one space, Miss a turn, and Move ahead two spaces. When landing on these spaces, the instructions must be followed. Check comprehension.Step 4: The game continues until one or all groups reach the “Finish” space. Step 5: Write the questions on the board. Have pupils sit in groups of three or four and repeat Steps 1–4 to play again in their groups.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB1a; 3.1.CB1a: Hợp tác trên bảng/slide số do GV quản lí và tạo sản phẩm đơn giản.AI 4.A3: Kiểm tra gợi ý AI trước khi sử dụng; con người quyết định nội dung cuối cùng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Play the game as a whole class. Divide pupils into four groups. Determine which group goes first, second, third and fourth. Step 2: Each group rolls the dice in turn. A member of each group moves the group’s counter forward by the number of spaces indicated by the dice. Step 3: When a counter lands on a space with a picture, ask the corresponding question below. If the group gives a correct answer, their counter stays on the space. If they do not give a correct answer, their counter must be moved back two spaces and their turn ends. Explain that there are some spaces with instructions such as Back to Start, Move ahead one space, Miss a turn, and Move ahead two spaces. When landing on these spaces, the instructions must be followed. Check comprehension.Step 4: The game continues until one or all groups reach the “Finish” space. Step 5: Write the questions on the board. Have pupils sit in groups of three or four and repeat Steps 1–4 to play again in their groups.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB1a; 3.1.CB1a: Collaborate on digital boards/slides managed by teachers and create simple products. AI 4.A3: Check AI suggestions before use; humans decide on the final content.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils work in four groups.- Pupils follow the teacher’s instructions.- Pupils give the answers. - Pupils play the game. - Pupils look at the questions on the board. Pupils sit in groups of three or four and play the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5749,7 +5749,7 @@
       {
         "lessonTitle": "FIRST TERM TEST – PART 1 (Period 71)",
         "topic": "First Term Test – Part 1 (Units 1–10 Assessment)",
-        "period": "Tiết 71",
+        "period": "Period 71",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of the lesson, pupils will be able to:",
@@ -5760,7 +5760,7 @@
           "- Independent thinking: perform test items independently with self-confidence.",
           "- Academic integrity: show academic honesty; do not use unauthorized notes, AI tools, or digital assistance.",
           "- Digital competence & AI literacy:",
-          "  + Digital competence & AI literacy: NLS / AI – Liêm chính học thuật: HS làm bài độc lập; không sử dụng AI, tìm kiếm trực tuyến hoặc trợ giúp số không được phép trong bài kiểm tra chính thức.",
+          "  + Digital competence & AI literacy: NLS / AI - Academic integrity: Students work independently; do not use AI, online searches, or unauthorized digital assistance during official tests.",
           "3. Attributes:",
           "- Honesty, serious attitude, self-discipline and responsibility in assessment."
         ],
@@ -5809,7 +5809,7 @@
       {
         "lessonTitle": "FIRST TERM TEST – PART 2 (Period 72)",
         "topic": "First Term Test – Part 2 (Units 1–10 Assessment)",
-        "period": "Tiết 72",
+        "period": "Period 72",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of the lesson, pupils will be able to:",
@@ -5820,7 +5820,7 @@
           "- Independent thinking: perform test items independently with self-confidence.",
           "- Academic integrity: show academic honesty; do not use unauthorized notes, AI tools, or digital assistance.",
           "- Digital competence & AI literacy:",
-          "  + Digital competence & AI literacy: NLS / AI – Liêm chính học thuật: HS làm bài độc lập; không sử dụng AI, tìm kiếm trực tuyến hoặc trợ giúp số không được phép trong bài kiểm tra chính thức.",
+          "  + Digital competence & AI literacy: NLS / AI - Academic integrity: Students work independently; do not use AI, online searches, or unauthorized digital assistance during official tests.",
           "3. Attributes:",
           "- Honesty, serious attitude, self-discipline and responsibility in assessment."
         ],
@@ -5875,7 +5875,7 @@
       {
         "lessonTitle": "UNIT 11: FAMILY TIME - Lesson 1 - Period 1 (Period 73)",
         "topic": "Unit 11:Family time - Family time - Lesson 1(1, 2, 3)",
-        "period": "Tiết 73",
+        "period": "Period 73",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5890,7 +5890,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI trong ứng dụng ảnh có thể hỗ trợ nhận diện hoạt động gia đình như swim, take photos, collect seashells, walk on the beach; HS cần kiểm tra lại theo ngữ cảnh.Giáo dục gia đình: Trân trọng thời gian bên người thân và cùng tham gia các hoạt động lành mạnh.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI in photo apps can support identifying family activities like swim, take photos, collect seashells, walk on the beach; students need to recheck based on context. Family education: Appreciate time spent with relatives and participate in healthy activities together.",
           "3. Attributes",
           "- Show their love and interest in outdoor activities.",
           "- Raise their awareness of doing outdoor activities carefully."
@@ -5942,7 +5942,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context. Step 2: Put pupils into pairs and have them practise asking and answering questions about whether someone did something in the past. Go around the classroom to offer support where necessary.Step 3: Invite a few pairs to the front of the class to ask and answer questions about whether someone did something in the past using the picture cues. Praise pupils if they perform well.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI trong ứng dụng ảnh có thể hỗ trợ nhận diện hoạt động gia đình như swim, take photos, collect seashells, walk on the beach; HS cần kiểm tra lại theo ngữ cảnh.Giáo dục gia đình: Trân trọng thời gian bên người thân và cùng tham gia các hoạt động lành mạnh.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context. Step 2: Put pupils into pairs and have them practise asking and answering questions about whether someone did something in the past. Go around the classroom to offer support where necessary.Step 3: Invite a few pairs to the front of the class to ask and answer questions about whether someone did something in the past using the picture cues. Praise pupils if they perform well.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI in photo apps can support identifying family activities like swim, take photos, collect seashells, walk on the beach; students need to recheck based on context. Family education: Appreciate time spent with relatives and participate in healthy activities together.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the pictures and identify the context.-  Pupils work in pairs and practise asking and answering questions about whether someone did something in the past. - Pairs of pupils come to the front of the class to ask and answer questions about whether someone did something in the past using the picture cues. Pupils applaud if they perform well.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -5959,7 +5959,7 @@
       {
         "lessonTitle": "UNIT 11: FAMILY TIME - Lesson 1 - Period 2 (Period 74)",
         "topic": "Unit 11:Family time - Family time - Lesson 1(4, 5, 6)",
-        "period": "Tiết 74",
+        "period": "Period 74",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -5972,7 +5972,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Biết bảo vệ quyền riêng tư khi chia sẻ ảnh chuyến đi của gia đình: không đăng vị trí trực tiếp, lịch trình chi tiết hoặc ảnh người thân khi chưa được đồng ý.ATGT/Kỹ năng sống: Tuân thủ quy tắc an toàn khi đi biển, đi bộ và tham gia hoạt động ngoài trời cùng gia đình.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Know how to protect privacy when sharing family trip photos: do not post live locations, detailed schedules, or photos of relatives without consent. Traffic safety/Life skills: Follow safety rules when going to the beach, walking, and participating in outdoor activities with family.",
           "3. Attributes",
           "- Show their love and interest in outdoor activities.",
           "- Raise their awareness of doing outdoor activities carefully."
@@ -6023,7 +6023,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils the aim of the activity: They will listen to the song, fill in the gaps in the lyrics and sing it with the correct pronunciation, rhythm and melody.Step 2: Draw pupils’ attention to the gapped sentences. Encourage pupils to guess the missing words and complete the sentences.Step 3: Play the recording all the way through for pupils to listen to the whole song. Then play the recording again for them to fill in the gaps with the missing words.Step 4: Check answers together as a class. Play the recording line by line for pupils to listen and repeat. Correct their pronunciation where necessary.Step 5: Invite a few groups to the front of the class to sing the song. The rest of the class may sing along and clap to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Biết bảo vệ quyền riêng tư khi chia sẻ ảnh chuyến đi của gia đình: không đăng vị trí trực tiếp, lịch trình chi tiết hoặc ảnh người thân khi chưa được đồng ý.ATGT/Kỹ năng sống: Tuân thủ quy tắc an toàn khi đi biển, đi bộ và tham gia hoạt động ngoài trời cùng gia đình.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils the aim of the activity: They will listen to the song, fill in the gaps in the lyrics and sing it with the correct pronunciation, rhythm and melody.Step 2: Draw pupils’ attention to the gapped sentences. Encourage pupils to guess the missing words and complete the sentences.Step 3: Play the recording all the way through for pupils to listen to the whole song. Then play the recording again for them to fill in the gaps with the missing words.Step 4: Check answers together as a class. Play the recording line by line for pupils to listen and repeat. Correct their pronunciation where necessary.Step 5: Invite a few groups to the front of the class to sing the song. The rest of the class may sing along and clap to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Know how to protect privacy when sharing family trip photos: do not post live locations, detailed schedules, or photos of relatives without consent. Traffic safety/Life skills: Follow safety rules when going to the beach, walking, and participating in outdoor activities with family.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s instruction.- Pupils look at the gapped sentences. Pupils guess the missing words and complete the sentences.- Pupils listen to the whole song. Then pupils listen to the song again to fill in the gaps with missing words.- Pupils check answers together as a class. Pupils listen to the recording, line by line, and repeat.- Some groups come to the front of the class to sing the song while the rest of the class sings along and claps.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6040,7 +6040,7 @@
       {
         "lessonTitle": "UNIT 11: FAMILY TIME - Lesson 2 - Period 3 (Period 75)",
         "topic": "Unit 11:Family time - Family time - Lesson 2(1, 2, 3)",
-        "period": "Tiết 75",
+        "period": "Period 75",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6055,7 +6055,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết AI/bản đồ số có thể hỗ trợ tìm hiểu điểm đến như Ha Long, Nha Trang, Sydney, Singapore và gợi ý thông tin du lịch; cần đối chiếu nguồn tin cậy.GDĐP/Văn hóa: Tìm hiểu cảnh quan, món ăn và hoạt động du lịch phù hợp; có ý thức tôn trọng văn hóa tại điểm đến.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI/digital maps can support learning about destinations like Ha Long, Nha Trang, Sydney, Singapore and suggest travel information; cross-check reliable sources. Local integration/Culture: Learn about landscapes, dishes, and appropriate tourism activities; have a sense of respect for cultures at destinations.",
           "3. Attributes",
           "- Show their love and interest in outdoor activities.",
           "- Raise their awareness of doing outdoor activities carefully."
@@ -6106,7 +6106,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context. Step 2: Put pupils into pairs and encourage them to ask and answer questions about what someone did somewhere in the past using When did you go to ____? – ____. and What did your family do there? – ___. Go around the classroom to offer support where necessary.Step 3: Invite a few pairs to practise asking and answering questions about past activities. Praise pupils if they perform well.Extension: Invite some pairs of pupils to ask and answer questions about the real activities: when and what someone’s family did in the past. For example: When did you go to Nha Trang? – We went there last summer.; What did your family do there? – We swam in the sea and ate seafood.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết AI/bản đồ số có thể hỗ trợ tìm hiểu điểm đến như Ha Long, Nha Trang, Sydney, Singapore và gợi ý thông tin du lịch; cần đối chiếu nguồn tin cậy.GDĐP/Văn hóa: Tìm hiểu cảnh quan, món ăn và hoạt động du lịch phù hợp; có ý thức tôn trọng văn hóa tại điểm đến.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context. Step 2: Put pupils into pairs and encourage them to ask and answer questions about what someone did somewhere in the past using When did you go to ____? – ____. and What did your family do there? – ___. Go around the classroom to offer support where necessary.Step 3: Invite a few pairs to practise asking and answering questions about past activities. Praise pupils if they perform well.Extension: Invite some pairs of pupils to ask and answer questions about the real activities: when and what someone’s family did in the past. For example: When did you go to Nha Trang? – We went there last summer.; What did your family do there? – We swam in the sea and ate seafood.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI/digital maps can support learning about destinations like Ha Long, Nha Trang, Sydney, Singapore and suggest travel information; cross-check reliable sources. Local integration/Culture: Learn about landscapes, dishes, and appropriate tourism activities; have a sense of respect for cultures at destinations.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures. Pupils answer the questions to identify the context.- Pupils work in pairs and ask and answer questions about what someone did somewhere in the past.- A few pairs of pupils practise asking and answering questions about what someone did somewhere in the past using the picture cues. - Some pairs of pupils ask and answer questions about the real activities.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6123,7 +6123,7 @@
       {
         "lessonTitle": "UNIT 11: FAMILY TIME - Lesson 2 - Period 4 (Period 76)",
         "topic": "Unit 11:Family time - Family time - Lesson 2(4, 5, 6)",
-        "period": "Tiết 76",
+        "period": "Period 76",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6135,7 +6135,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.3.CB2b: Sắp xếp ảnh/thông tin chuyến đi theo thư mục hoặc bảng đơn giản: Place - When - What we did.Bảo vệ môi trường: Giữ gìn bãi biển, vịnh và điểm tham quan; không xả rác, không lấy sinh vật/vật tự nhiên làm quà lưu niệm.",
+          "+ Digital competence & AI literacy: NLS 1.3.CB2b: Organize trip photos/information into folders or simple tables: Place - When - What we did. Environmental protection: Preserve beaches, bays, and tourist spots; do not litter, do not take living organisms/natural objects as souvenirs.",
           "3. Attributes",
           "- Show their love and interest in outdoor activities.",
           "- Raise their awareness of doing outdoor activities carefully."
@@ -6186,7 +6186,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they are going to play the When and What game. Tell them they will need to use the past tense form of irregular verbs such as take, eat, buy, swim and go. Review these before playing if necessary.Step 2: Divide pupils into Team A and Team B and explain the rules: One pupil from Team A randomly selects a destination from a box the teacher is holding, for example, Lang Co Beach, and then another pupil from Team A makes up a question using it, such as When did your family go to Lang Co Beach? Team B provides one response, such as We went there last summer. Then, Team A asks another question, such as What did your family do at Lang Co Beach? Team B offers as many responses as possible, such as We took a boat trip. / We swam in the sea. / We ate seafood. / We took some photos. / We collected seashells.Step 3: Team A and Team B switch roles and repeat Step 2.Step 4: Set a time limit for them to play the game. When the time is up, the team that has provided more correct answers is the winner.Step 5: Invite a few groups to the front of the class to play the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2b: Sắp xếp ảnh/thông tin chuyến đi theo thư mục hoặc bảng đơn giản: Place - When - What we did.Bảo vệ môi trường: Giữ gìn bãi biển, vịnh và điểm tham quan; không xả rác, không lấy sinh vật/vật tự nhiên làm quà lưu niệm.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they are going to play the When and What game. Tell them they will need to use the past tense form of irregular verbs such as take, eat, buy, swim and go. Review these before playing if necessary.Step 2: Divide pupils into Team A and Team B and explain the rules: One pupil from Team A randomly selects a destination from a box the teacher is holding, for example, Lang Co Beach, and then another pupil from Team A makes up a question using it, such as When did your family go to Lang Co Beach? Team B provides one response, such as We went there last summer. Then, Team A asks another question, such as What did your family do at Lang Co Beach? Team B offers as many responses as possible, such as We took a boat trip. / We swam in the sea. / We ate seafood. / We took some photos. / We collected seashells.Step 3: Team A and Team B switch roles and repeat Step 2.Step 4: Set a time limit for them to play the game. When the time is up, the team that has provided more correct answers is the winner.Step 5: Invite a few groups to the front of the class to play the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.3.CB2b: Organize trip photos/information into folders or simple tables: Place - When - What we did. Environmental protection: Preserve beaches, bays, and tourist spots; do not litter, do not take living organisms/natural objects as souvenirs.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils follow the teacher’s instructions.- Team A and Team B switch roles. Pupils from two teams ask and answer the questions.- Pupils work in groups to play the game. Pupils praise the winner.- Groups come to the front of the class to play the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6209,7 +6209,7 @@
       {
         "lessonTitle": "UNIT 11: FAMILY TIME - Lesson 3 - Period 5 (Period 77)",
         "topic": "Unit 11:Family time - Family time - Lesson 3(1, 2, 3)",
-        "period": "Tiết 77",
+        "period": "Period 77",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6221,7 +6221,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Sử dụng công cụ AI/ghi âm để luyện trọng âm trong câu hỏi Wh- như “When did you go ...?” và “What did they do ...?”, sau đó đối chiếu với audio SGK.NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi - đáp, bình luận hoặc phản hồi về chuyến đi của bạn trên môi trường số.",
+          "+ Digital competence & AI literacy: AI 4.A2: Use AI/recording tools to practice stress in Wh- questions like “When did you go ...?” and “What did they do ...?”, then cross-check with textbook audio. NLS 2.5.CB2a: Communicate politely when asking and answering, commenting, or responding to peers' trips in the digital environment.",
           "3. Attributes",
           "- Show their love and interest in outdoor activities.",
           "- Raise their awareness of doing outdoor activities carefully."
@@ -6272,7 +6272,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check their comprehension.Step 2: Play the recording all the way through for pupils to listen to the whole chant. Encourage them to listen carefully to the rhythm, word stress and pronunciation. Draw pupils’ attention to the word stress in the Wh-questions.Step 3: Play the recording line by line while pupils listen and repeat. Correct their pronunciation, if necessary.Step 4: Play the recording all the way through for pupils to chant.Encourage them to clap along while chanting.Extension: Divide the class into two groups and have them take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Sử dụng công cụ AI/ghi âm để luyện trọng âm trong câu hỏi Wh- như “When did you go ...?” và “What did they do ...?”, sau đó đối chiếu với audio SGK.NLS 2.5.CB2a: Giao tiếp lịch sự khi hỏi - đáp, bình luận hoặc phản hồi về chuyến đi của bạn trên môi trường số.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check their comprehension.Step 2: Play the recording all the way through for pupils to listen to the whole chant. Encourage them to listen carefully to the rhythm, word stress and pronunciation. Draw pupils’ attention to the word stress in the Wh-questions.Step 3: Play the recording line by line while pupils listen and repeat. Correct their pronunciation, if necessary.Step 4: Play the recording all the way through for pupils to chant.Encourage them to clap along while chanting.Extension: Divide the class into two groups and have them take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Use AI/recording tools to practice stress in Wh- questions like “When did you go ...?” and “What did they do ...?”, then cross-check with textbook audio. NLS 2.5.CB2a: Communicate politely when asking and answering, commenting, or responding to peers' trips in the digital environment.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the lyrics of the chant. - Pupils listen to the whole chant. Pupils listen   carefully to the rhythm and pronunciation. Pupils look at the word stress in the questions.- Pupils listen to the recording line by line and repeat. - Pupils listen to the recording all the way through to chant. Pupils clap along while chanting.- Pupils work in two groups to take turns listening and repeating the chant, while the rest of the class claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6289,7 +6289,7 @@
       {
         "lessonTitle": "UNIT 11: FAMILY TIME - Lesson 3 - Period 6 (Period 78)",
         "topic": "Unit 11:Family time - Family time - Lesson 3(4, 5, 6)",
-        "period": "Tiết 78",
+        "period": "Period 78",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6301,7 +6301,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế “My photo journal” dạng poster/slide số với Place - When - Activities - Feelings.AI 4.A3: Chọn lọc hình ảnh AI phù hợp, văn minh; kiểm tra địa danh và tránh dùng ảnh làm lộ khuôn mặt, vị trí hoặc lịch trình thật của gia đình.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a “My photo journal” digital poster/slide with Place - When - Activities - Feelings. AI 4.A3: Select appropriate, civilized AI images; check locations and avoid using photos that reveal family members' faces, real locations, or schedules.",
           "3. Attributes",
           "- Show their love and interest in outdoor activities.",
           "- Raise their awareness of doing outdoor activities carefully."
@@ -6344,7 +6344,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Ask pupils to read the gapped sentences and fill in the gaps with information about someone’s family’s weekend trip. Tell pupils that the gaps in the paragraph focus on their activities the previous weekend, but that they don't have to use real information. Check comprehension.Step 2: Ask pupils to read the first sentence, then elicit where they went the previous weekend (for example, Sa Pa). Remind pupils that they can make up any answer they like. Then have them write the first sentence (Last weekend, my family went to Sa Pa.)Step 3: Give pupils time to complete the rest of the paragraph independently. Go around the classroom and offer help if necessary.Step 4: Get pupils to swap their books with a partner and check their spelling.Step 5: Invite a pupil to write his / her completed paragraph on the board or read it aloud in front of the class. Give corrections and feedback where necessary.Extension: In groups, have pupils share the activities that their family did last weekend (or on a recent trip if you prefer). Each group then uses the information to create a mind map about all the activities they and their families did. Then share with the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế “My photo journal” dạng poster/slide số với Place - When - Activities - Feelings.AI 4.A3: Chọn lọc hình ảnh AI phù hợp, văn minh; kiểm tra địa danh và tránh dùng ảnh làm lộ khuôn mặt, vị trí hoặc lịch trình thật của gia đình.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to read the gapped sentences and fill in the gaps with information about someone’s family’s weekend trip. Tell pupils that the gaps in the paragraph focus on their activities the previous weekend, but that they don't have to use real information. Check comprehension.Step 2: Ask pupils to read the first sentence, then elicit where they went the previous weekend (for example, Sa Pa). Remind pupils that they can make up any answer they like. Then have them write the first sentence (Last weekend, my family went to Sa Pa.)Step 3: Give pupils time to complete the rest of the paragraph independently. Go around the classroom and offer help if necessary.Step 4: Get pupils to swap their books with a partner and check their spelling.Step 5: Invite a pupil to write his / her completed paragraph on the board or read it aloud in front of the class. Give corrections and feedback where necessary.Extension: In groups, have pupils share the activities that their family did last weekend (or on a recent trip if you prefer). Each group then uses the information to create a mind map about all the activities they and their families did. Then share with the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a “My photo journal” digital poster/slide with Place - When - Activities - Feelings. AI 4.A3: Select appropriate, civilized AI images; check locations and avoid using photos that reveal family members' faces, real locations, or schedules.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the gapped sentences and fill in the gaps with information about someone’s family’s weekend trip. Pupils follow the teacher’s instructions.  - Pupils do the first gapped sentence. Pupils read the first sentence and elicit where they went the previous weekend. Then pupils write the first sentence.- Pupils complete the paragraph independently.- Pupils swap their books with a partner and check their spelling.- A few pupils read their completed paragraphs in front of the class.- In groups, pupils share the activities that their family did last weekend. Each group then uses the information to create a mind map about all the activities they and their families did. Then share with the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6368,7 +6368,7 @@
       {
         "lessonTitle": "UNIT 12: OUR TET HOLIDAY - Lesson 1 - Period 1 (Period 79)",
         "topic": "Unit 12:Our Tet holiday - Our Tet holiday - Lesson 1(1, 2, 3)",
-        "period": "Tiết 79",
+        "period": "Period 79",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6382,7 +6382,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI trong công cụ hình ảnh có thể hỗ trợ nhận diện một số đồ vật/hoạt động Tết như peach blossoms, roses, banh chung, spring rolls; HS cần đối chiếu với SGK và ngữ cảnh văn hóa.GDĐP/Văn hóa: Tìm hiểu ý nghĩa một số phong tục chuẩn bị Tết của gia đình và địa phương.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI in image tools can support identifying Tet objects/activities like peach blossoms, roses, banh chung, spring rolls; students need to cross-check with textbooks and cultural contexts. Local integration/Culture: Learn the meanings of family and local Tet preparation customs.",
           "3. Attributes",
           "- Show their interest in activities for Tet holiday."
         ],
@@ -6432,7 +6432,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Have them look at the pictures and identify the activity in each picture. Check comprehension.Step 2: Have pupils look at the bubbles to understand how the sentence pattern is used. Have pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. Make sure pupils understand the structure and say it with the right pronunciation and intonation. Go around to observe and provide help.Step 3: Invite some pairs of pupils to practise asking and answering questions in front of the class. Praise them if they perform well.Extension: In groups, have pupils brainstorm some more activities that people often do at Tet (for example: plant young trees, give lucky money, go to their hometown, wear new clothes, …), then ask and answer questions about Tet activities using the sentence pattern learnt in this lesson.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI trong công cụ hình ảnh có thể hỗ trợ nhận diện một số đồ vật/hoạt động Tết như peach blossoms, roses, banh chung, spring rolls; HS cần đối chiếu với SGK và ngữ cảnh văn hóa.GDĐP/Văn hóa: Tìm hiểu ý nghĩa một số phong tục chuẩn bị Tết của gia đình và địa phương.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Have them look at the pictures and identify the activity in each picture. Check comprehension.Step 2: Have pupils look at the bubbles to understand how the sentence pattern is used. Have pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. Make sure pupils understand the structure and say it with the right pronunciation and intonation. Go around to observe and provide help.Step 3: Invite some pairs of pupils to practise asking and answering questions in front of the class. Praise them if they perform well.Extension: In groups, have pupils brainstorm some more activities that people often do at Tet (for example: plant young trees, give lucky money, go to their hometown, wear new clothes, …), then ask and answer questions about Tet activities using the sentence pattern learnt in this lesson.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI in image tools can support identifying Tet objects/activities like peach blossoms, roses, banh chung, spring rolls; students need to cross-check with textbooks and cultural contexts. Local integration/Culture: Learn the meanings of family and local Tet preparation customs.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the activity in each picture.- Pupils look at the bubbles to understand how the sentence pattern is used. Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6449,7 +6449,7 @@
       {
         "lessonTitle": "UNIT 12: OUR TET HOLIDAY - Lesson 1 - Period 2 (Period 80)",
         "topic": "Unit 12:Our Tet holiday - Our Tet holiday - Lesson 1(4, 5, 6)",
-        "period": "Tiết 80",
+        "period": "Period 80",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6461,7 +6461,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB2b: Tập kiểm chứng thông tin đơn giản về phong tục Tết từ ít nhất hai nguồn giáo dục/chính thống trước khi sử dụng hoặc chia sẻ.Giáo dục gia đình: Biết chia sẻ việc nhà phù hợp như trang trí, mua sắm, chuẩn bị món ăn; tôn trọng sự phân công của gia đình.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB2b: Practice verifying simple information about Tet customs from at least two educational/official sources before use or sharing. Family education: Know how to share appropriate housework like decorating, shopping, preparing food; respect family task assignments.",
           "3. Attributes",
           "- Show their pride and love for the national traditional holiday ‘Tet’."
         ],
@@ -6511,7 +6511,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the pictures to reinforce their understanding.Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the pronunciation and the melody.Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation where necessary. Introduce actions for pupils to do while they sing along with the recording.Step 4: Play the recording all the way through for pupils to sing along with.Step 5: Put pupils into groups to make up their own actions for the song. Invite groups to the front of the class to perform, while the rest of the class sings and / or claps along. Encourage the class to praise or cheer the performers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2b: Tập kiểm chứng thông tin đơn giản về phong tục Tết từ ít nhất hai nguồn giáo dục/chính thống trước khi sử dụng hoặc chia sẻ.Giáo dục gia đình: Biết chia sẻ việc nhà phù hợp như trang trí, mua sắm, chuẩn bị món ăn; tôn trọng sự phân công của gia đình.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Encourage them to point at the pictures to reinforce their understanding.Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the pronunciation and the melody.Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation where necessary. Introduce actions for pupils to do while they sing along with the recording.Step 4: Play the recording all the way through for pupils to sing along with.Step 5: Put pupils into groups to make up their own actions for the song. Invite groups to the front of the class to perform, while the rest of the class sings and / or claps along. Encourage the class to praise or cheer the performers.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2b: Practice verifying simple information about Tet customs from at least two educational/official sources before use or sharing. Family education: Know how to share appropriate housework like decorating, shopping, preparing food; respect family task assignments.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the title and lyrics of the song. Pupils point at the pictures to reinforce their understanding.- Pupils listen to the recording all the way through carefully to the pronunciation and the melody.- Pupils listen to the recording, line by line, and repeat. Pupils do actions while they sing along with the recording.- Pupils listen to the recording all the way through and sing along with.- Pupils work in groups to make up their own actions for the song. Pupils come to the front of the class to perform, while the rest of the class sings and / or claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6534,7 +6534,7 @@
       {
         "lessonTitle": "UNIT 12: OUR TET HOLIDAY - Lesson 2 - Period 3 (Period 81)",
         "topic": "Unit 12:Our Tet holiday - Our Tet holiday - Lesson 2(1, 2, 3)",
-        "period": "Tiết 81",
+        "period": "Period 81",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6546,7 +6546,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết AI/bản đồ số có thể hỗ trợ tìm thông tin chung về flower festival, fireworks show, New Year party hoặc địa điểm thăm người thân; cần kiểm tra thời gian, địa điểm từ nguồn chính thức.GDĐP: Giới thiệu một hoạt động Tết tiêu biểu tại địa phương bằng ngôn ngữ đơn giản, phù hợp văn hóa.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI/digital maps can support finding general information about flower festivals, fireworks shows, New Year party locations, or visiting relatives; check times and locations from official sources. Local integration: Introduce a typical local Tet activity using simple, culturally appropriate language.",
           "3. Attributes",
           "- Show their pride in the traditional holiday in their country."
         ],
@@ -6596,7 +6596,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the pictures and elicit the activity in each picture. Tell them that they are going to ask and answer about Tet activities using Will you ____ for Tet? and Where will you go at Tet? Remind them to use the phrases they learnt in Lesson 1 such as decorate the house, do the shopping, buy a branch of peach blossoms, etc.Step 2: Give pupils time to work in pairs and take turns asking and answering questions about Tet activities using the picture cues and the phrases learnt in Lesson 1.Step 3: Invite a few pairs to come to the front of the classroom and act out the exchanges, using the structures learnt in Lesson 1 and Lesson 2 (Will you ____ for Tet? – ____. and Where will you go at Tet? – ____.). Praise them if they perform well.Extension: For more able classes, have pupils ask and answer questions about where they often go at Tet, using the structure and vocabulary learnt plus ideas of their own. Provide them with some more vocabulary if needed. For example: Where will you go at Tet? – I’ll go to a pagoda with my parents.Where will you go at Tet? – I’ll go to a book fair.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết AI/bản đồ số có thể hỗ trợ tìm thông tin chung về flower festival, fireworks show, New Year party hoặc địa điểm thăm người thân; cần kiểm tra thời gian, địa điểm từ nguồn chính thức.GDĐP: Giới thiệu một hoạt động Tết tiêu biểu tại địa phương bằng ngôn ngữ đơn giản, phù hợp văn hóa.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the pictures and elicit the activity in each picture. Tell them that they are going to ask and answer about Tet activities using Will you ____ for Tet? and Where will you go at Tet? Remind them to use the phrases they learnt in Lesson 1 such as decorate the house, do the shopping, buy a branch of peach blossoms, etc.Step 2: Give pupils time to work in pairs and take turns asking and answering questions about Tet activities using the picture cues and the phrases learnt in Lesson 1.Step 3: Invite a few pairs to come to the front of the classroom and act out the exchanges, using the structures learnt in Lesson 1 and Lesson 2 (Will you ____ for Tet? – ____. and Where will you go at Tet? – ____.). Praise them if they perform well.Extension: For more able classes, have pupils ask and answer questions about where they often go at Tet, using the structure and vocabulary learnt plus ideas of their own. Provide them with some more vocabulary if needed. For example: Where will you go at Tet? – I’ll go to a pagoda with my parents.Where will you go at Tet? – I’ll go to a book fair.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI/digital maps can support finding general information about flower festivals, fireworks shows, New Year party locations, or visiting relatives; check times and locations from official sources. Local integration: Introduce a typical local Tet activity using simple, culturally appropriate language.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and elicit the activity in each picture.- Pupils work in pairs and take turns asking and answering questions about Tet activities using the picture cues and the phrases learnt in Lesson 1. - Pairs of pupils come to the front of the classroom and act out the exchanges, using the structures learnt in Lesson 1 and Lesson 2.- Pupils ask and answer questions about where they often go at Tet, using the structure and vocabulary learnt plus ideas of their own.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6613,7 +6613,7 @@
       {
         "lessonTitle": "UNIT 12: OUR TET HOLIDAY - Lesson 2 - Period 4 (Period 82)",
         "topic": "Unit 12:Our Tet holiday - Our Tet holiday - Lesson 2(4, 5, 6)",
-        "period": "Tiết 82",
+        "period": "Period 82",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6624,7 +6624,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Không đăng công khai lịch đi chơi Tết, thời gian gia đình vắng nhà, vị trí trực tiếp hoặc thông tin riêng tư của người thân.ATGT/PCCC: Tuân thủ an toàn khi đi lễ hội, nơi đông người và xem pháo hoa; không tự ý sử dụng vật dễ cháy nổ.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Do not publicly post Tet outing schedules, family absence times, live locations, or relatives' private information. Traffic safety/Fire prevention: Follow safety rules when going to festivals, crowded places, and watching fireworks; do not arbitrarily use flammable or explosive objects.",
           "3. Attributes",
           "- Show their pride in the traditional holiday in their country."
         ],
@@ -6674,7 +6674,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they are going to play the game Board race using the language learnt in Lesson 2.Step 2: Divide the board into two columns for Groups 1 and 2. Divide the class into two teams. Give each team a task: each member of the team should take turns to run to the board and write about where he / she will go at Tet. Ask them to write as many sentences as possible. Use the illustration as an example to demonstrate how to play the game.Step 3: Set a time limit for pupils to play the game. The team that writes the most correct sentences within the time wins.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Không đăng công khai lịch đi chơi Tết, thời gian gia đình vắng nhà, vị trí trực tiếp hoặc thông tin riêng tư của người thân.ATGT/PCCC: Tuân thủ an toàn khi đi lễ hội, nơi đông người và xem pháo hoa; không tự ý sử dụng vật dễ cháy nổ.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they are going to play the game Board race using the language learnt in Lesson 2.Step 2: Divide the board into two columns for Groups 1 and 2. Divide the class into two teams. Give each team a task: each member of the team should take turns to run to the board and write about where he / she will go at Tet. Ask them to write as many sentences as possible. Use the illustration as an example to demonstrate how to play the game.Step 3: Set a time limit for pupils to play the game. The team that writes the most correct sentences within the time wins.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Do not publicly post Tet outing schedules, family absence times, live locations, or relatives' private information. Traffic safety/Fire prevention: Follow safety rules when going to festivals, crowded places, and watching fireworks; do not arbitrarily use flammable or explosive objects.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils follow the teacher’s instructions - Pupils work in two teams. Each member of the team should take turns to run to the board and write about where he / she will go at Tet. They write as manysentences as possible.- Pupils continue playing the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6691,7 +6691,7 @@
       {
         "lessonTitle": "UNIT 12: OUR TET HOLIDAY - Lesson 3 - Period 5 (Period 83)",
         "topic": "Unit 12:Our Tet holiday - Our Tet holiday - Lesson 3(1, 2, 3)",
-        "period": "Tiết 83",
+        "period": "Period 83",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6703,7 +6703,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: So sánh một mô tả ngắn về Tết do AI gợi ý với bài đọc/SGK; nhận ra chi tiết chưa chắc đúng và nêu lý do cần kiểm chứng.Bảo vệ môi trường: Giữ gìn cây, hoa ngày Tết; hạn chế rác nhựa, không bẻ cành hoặc xả rác tại lễ hội.",
+          "+ Digital competence & AI literacy: AI 4.B2: Compare a short description of Tet suggested by AI with reading texts/textbooks; realize that details are not necessarily correct and state the reasons for verification. Environmental protection: Preserve Tet trees and flowers; limit plastic waste, do not break branches or litter at festivals.",
           "3. Attributes",
           "- Show their pride in what someone will do at Tet."
         ],
@@ -6753,7 +6753,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check comprehension. Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to the stressed words in the sentences.Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation, if necessary.Step 4: Play the recording all the way through for pupils to chant along. Encourage them to clap while chanting.Extension: Divide the class into two or more groups to take turns listening to and repeating the chant, while the rest of the class claps along. Have pupils write their own chants by replacing the activities in the chant and using their own ones. Pay attention to the rhythm of the chant. Have pupils practise their new chants.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: So sánh một mô tả ngắn về Tết do AI gợi ý với bài đọc/SGK; nhận ra chi tiết chưa chắc đúng và nêu lý do cần kiểm chứng.Bảo vệ môi trường: Giữ gìn cây, hoa ngày Tết; hạn chế rác nhựa, không bẻ cành hoặc xả rác tại lễ hội.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the lyrics of the chant. Check comprehension. Step 2: Play the recording all the way through. Encourage pupils to listen carefully to the rhythm and pronunciation. Draw pupils’ attention to the stressed words in the sentences.Step 3: Play the recording, line by line, for pupils to listen and repeat. Correct their pronunciation, if necessary.Step 4: Play the recording all the way through for pupils to chant along. Encourage them to clap while chanting.Extension: Divide the class into two or more groups to take turns listening to and repeating the chant, while the rest of the class claps along. Have pupils write their own chants by replacing the activities in the chant and using their own ones. Pay attention to the rhythm of the chant. Have pupils practise their new chants.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Compare a short description of Tet suggested by AI with reading texts/textbooks; realize that details are not necessarily correct and state the reasons for verification. Environmental protection: Preserve Tet trees and flowers; limit plastic waste, do not break branches or litter at festivals.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils follow the teacher’s instructions.   - Pupils listen to the chant and pay attention to the stressed words in the sentences. - Pupils listen to the chant and repeat. - Pupils listen to the recording and chant along.- Two or more groups take turns listening to and repeating the chant, while the rest of the class claps along. Pupils write their own chants by replacing the activities in the chant and using their own ones.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6770,7 +6770,7 @@
       {
         "lessonTitle": "UNIT 12: OUR TET HOLIDAY - Lesson 3 - Period 6 (Period 84)",
         "topic": "Unit 12:Our Tet holiday - Our Tet holiday - Lesson 3(4, 5, 6)",
-        "period": "Tiết 84",
+        "period": "Period 84",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6782,7 +6782,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế poster/slide số “Our Tet activities” với các mục Preparation - Place - Activities - Wishes bằng Canva/Google Slides.AI 4.A3: Chọn lọc hình ảnh AI đúng nét văn hóa, lịch sự và phù hợp lứa tuổi; không dùng ảnh làm lộ danh tính, địa chỉ hoặc kế hoạch thật của gia đình.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital poster/slide titled “Our Tet activities” with Preparation - Place - Activities - Wishes sections using Canva/Google Slides. AI 4.A3: Select culturally accurate, polite, and age-appropriate AI images; do not use photos that reveal family identities, addresses, or real plans.",
           "3. Attributes",
           "- Show their pride in the traditional holiday in their country."
         ],
@@ -6824,7 +6824,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of this activity: they are going to look at the pictures and write sentences to complete the paragraph. Tell pupils that they should write about 40 words. Check comprehension.Step 2: Write the text prompts on the board. Read them as a class. When you reach the gap, ask pupils to point at the first picture (a man buying a branch of peach blossoms) and encourage pupils to say the name of the activity (buy a branch of peach blossoms). Elicit what pupils need to add before the activity (I will or I’ll). Give pupils time to write the answer. Read the sentence as a class.Step 3: Repeat Step 2 for the other picture. Encourage pupils to also write their own sentences about different Tet activities.Step 4: If time allows, invite a few pupils to read the sentences they have completed in front of the class. The class should observe and praise their work.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế poster/slide số “Our Tet activities” với các mục Preparation - Place - Activities - Wishes bằng Canva/Google Slides.AI 4.A3: Chọn lọc hình ảnh AI đúng nét văn hóa, lịch sự và phù hợp lứa tuổi; không dùng ảnh làm lộ danh tính, địa chỉ hoặc kế hoạch thật của gia đình.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of this activity: they are going to look at the pictures and write sentences to complete the paragraph. Tell pupils that they should write about 40 words. Check comprehension.Step 2: Write the text prompts on the board. Read them as a class. When you reach the gap, ask pupils to point at the first picture (a man buying a branch of peach blossoms) and encourage pupils to say the name of the activity (buy a branch of peach blossoms). Elicit what pupils need to add before the activity (I will or I’ll). Give pupils time to write the answer. Read the sentence as a class.Step 3: Repeat Step 2 for the other picture. Encourage pupils to also write their own sentences about different Tet activities.Step 4: If time allows, invite a few pupils to read the sentences they have completed in front of the class. The class should observe and praise their work.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital poster/slide titled “Our Tet activities” with Preparation - Place - Activities - Wishes sections using Canva/Google Slides. AI 4.A3: Select culturally accurate, polite, and age-appropriate AI images; do not use photos that reveal family identities, addresses, or real plans.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils look at the board and read the text prompts, point at the first picture and say the name of the activity. Then, write the answer in their books. Read aloud the sentence as a class.- Pupils do the same with other sentences. - Pupils follow the teacher’s instructions.- Pupils read the sentences they have completed in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6854,7 +6854,7 @@
       {
         "lessonTitle": "UNIT 13: OUR SPECIAL DAYS - Lesson 1 - Period 1 (Period 85)",
         "topic": "Unit 13:Our special days - Our special days - Lesson 1(1, 2, 3)",
-        "period": "Tiết 85",
+        "period": "Period 85",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6867,7 +6867,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI có thể hỗ trợ nhận diện một số ngày đặc biệt và hoạt động như Children’s Day, Teachers’ Day, Sports Day, Mid-Autumn Festival; cần đối chiếu SGK/nguồn tin cậy.Giáo dục văn hóa: Tôn trọng cách tổ chức khác nhau ở trường và cộng đồng.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI can support recognizing special days and activities like Children’s Day, Teachers’ Day, Sports Day, Mid-Autumn Festival; cross-check with textbooks/reliable sources. Cultural education: Respect different organization methods in schools and communities.",
           "3. Attributes",
           "- Enhance understandings of what people do on special occasions."
         ],
@@ -6917,7 +6917,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils look at the pictures. Draw their attention to the names of four special days and the activities characters will do on / at these days. Step 2: Do the first picture together as an example. Elicit the missing words in the question (e.g. on Children’s Day) and the answer (e.g. We’ll sing) and write them on the board. Get pupils to say the completed sentences.Step 3: Repeat Step 3 with the other pictures. Then put pupils into pairs to ask and answer questions about what the children will do at the other events. Go around the classroom to offer support where necessary.Extension: Put pupils into pairs to practise asking and answering questions about their own special days. Praise good performances.Suggested questions and answers:What will you do on Children’s Day? – We’ll go to the zoo.What will you do on Teachers’ Day? – We’ll sing and dance.What will you do on Sports Day? –We’ll play football and badminton.What will you do at Mid-Autumn Festival? – We’ll have a party.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI có thể hỗ trợ nhận diện một số ngày đặc biệt và hoạt động như Children’s Day, Teachers’ Day, Sports Day, Mid-Autumn Festival; cần đối chiếu SGK/nguồn tin cậy.Giáo dục văn hóa: Tôn trọng cách tổ chức khác nhau ở trường và cộng đồng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils look at the pictures. Draw their attention to the names of four special days and the activities characters will do on / at these days. Step 2: Do the first picture together as an example. Elicit the missing words in the question (e.g. on Children’s Day) and the answer (e.g. We’ll sing) and write them on the board. Get pupils to say the completed sentences.Step 3: Repeat Step 3 with the other pictures. Then put pupils into pairs to ask and answer questions about what the children will do at the other events. Go around the classroom to offer support where necessary.Extension: Put pupils into pairs to practise asking and answering questions about their own special days. Praise good performances.Suggested questions and answers:What will you do on Children’s Day? – We’ll go to the zoo.What will you do on Teachers’ Day? – We’ll sing and dance.What will you do on Sports Day? –We’ll play football and badminton.What will you do at Mid-Autumn Festival? – We’ll have a party.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI can support recognizing special days and activities like Children’s Day, Teachers’ Day, Sports Day, Mid-Autumn Festival; cross-check with textbooks/reliable sources. Cultural education: Respect different organization methods in schools and communities.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the character’s information in each picture.- Pupils look at the bubbles to understand how the sentence pattern is used. Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -6934,7 +6934,7 @@
       {
         "lessonTitle": "UNIT 13: OUR SPECIAL DAYS - Lesson 1 - Period 2 (Period 86)",
         "topic": "Unit 13:Our special days - Our special days - Lesson 1(4, 5, 6)",
-        "period": "Tiết 86",
+        "period": "Period 86",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -6945,7 +6945,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB2b: Kiểm chứng tên, thời điểm và hoạt động của ngày đặc biệt từ ít nhất hai nguồn giáo dục/chính thống trước khi sử dụng.NLS 2.5.CB2a: Giao tiếp lịch sự khi trao đổi kế hoạch; tôn trọng lựa chọn của người khác.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB2b: Verify names, times, and activities of special days from at least two educational/official sources before use. NLS 2.5.CB2a: Communicate politely when discussing plans; respect others' choices.",
           "3. Attributes",
           "- Show their pride in their personal information and what someone will do for a special day."
         ],
@@ -6995,7 +6995,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they should listen to the song and fill in the gaps in the lyrics and sing it with correct pronunciation, rhythm and melody. Step 2: Have pupils read the first verse of the lyrics and look at the picture underneath to guess the word(s) that can be used to fill in the gap in the answer (e.g. sing).Step 3: Play the recording of the first verse of the song and let pupils fill in the gap (e.g. sing). Then play it again for pupils to practise singing line by line, until they feel confident.Step 4: Repeat Steps 2 and 3 for the second verse. Go around the classroom and offer help if necessary or correct pronunciation, rhythm and melody.Step 5: Play the recording and let them listen and sing the whole song while clapping. Then invite a few groups to the front of the class to sing the song. The class may sing along and clap.Extension: Have pupils brainstorm some other activities to replace the ones in the last lines of the lyrics, for example, We’ll play the guitar and dance or We’ll play badminton and football (Gap 1), They’ll play the piano and sing or They’ll play some games and dance (Gap 2). Then let pupils sing the song with the new lyrics.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2b: Kiểm chứng tên, thời điểm và hoạt động của ngày đặc biệt từ ít nhất hai nguồn giáo dục/chính thống trước khi sử dụng.NLS 2.5.CB2a: Giao tiếp lịch sự khi trao đổi kế hoạch; tôn trọng lựa chọn của người khác.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they should listen to the song and fill in the gaps in the lyrics and sing it with correct pronunciation, rhythm and melody. Step 2: Have pupils read the first verse of the lyrics and look at the picture underneath to guess the word(s) that can be used to fill in the gap in the answer (e.g. sing).Step 3: Play the recording of the first verse of the song and let pupils fill in the gap (e.g. sing). Then play it again for pupils to practise singing line by line, until they feel confident.Step 4: Repeat Steps 2 and 3 for the second verse. Go around the classroom and offer help if necessary or correct pronunciation, rhythm and melody.Step 5: Play the recording and let them listen and sing the whole song while clapping. Then invite a few groups to the front of the class to sing the song. The class may sing along and clap.Extension: Have pupils brainstorm some other activities to replace the ones in the last lines of the lyrics, for example, We’ll play the guitar and dance or We’ll play badminton and football (Gap 1), They’ll play the piano and sing or They’ll play some games and dance (Gap 2). Then let pupils sing the song with the new lyrics.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2b: Verify names, times, and activities of special days from at least two educational/official sources before use. NLS 2.5.CB2a: Communicate politely when discussing plans; respect others' choices.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils follow the teacher’s instructions.   - In groups, pupils discuss and make as many sentences as possible to answer the questions: “What will you do on Children’s Day?”- The representative of each group comes to the front of the class and reads aloud their sentences.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7012,7 +7012,7 @@
       {
         "lessonTitle": "UNIT 13: OUR SPECIAL DAYS - Lesson 2 - Period 3 (Period 87)",
         "topic": "Unit 13:Our special days - Our special days - Lesson 2(1, 2, 3)",
-        "period": "Tiết 87",
+        "period": "Period 87",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7026,7 +7026,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết AI có thể gợi ý thực đơn theo nhóm food, drinks, fruits; con người cần chọn món phù hợp lứa tuổi, sức khỏe và điều kiện thực tế.Giáo dục sức khỏe: Khuyến khích thực đơn cân bằng, đủ nước, hạn chế đồ uống nhiều đường.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI can suggest menus by food, drinks, fruits groups; humans need to choose items suitable for age, health, and practical conditions. Health education: Encourage balanced menus, adequate hydration, and limits on sugary drinks.",
           "3. Attributes",
           "- Enhance understanding of different kinds of food and drinks at different styles of event."
         ],
@@ -7076,7 +7076,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures and identify the contexts (see Input). Have them point at the food and drinks and say aloud their names. You may use flashcards to learn vocabulary items.Step 2: Give pupils time to work in pairs and take turns asking and answering the question about food and drinks someone will have at two events. Go around the classroom to offer support.Step 3: Invite a few pairs to the front of the class to ask and answer questions about food and drinks someone will have at each party What food and drinks will you have at the party? – ____. Praise pupils if they perform well.Extension: Have pupils brainstorm some food and drinks they will have at their birthday parties (e.g. I’ll have cakes, sweets, fruit and milk at my birthday party.) Invite a few pupils to tell the class about them.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết AI có thể gợi ý thực đơn theo nhóm food, drinks, fruits; con người cần chọn món phù hợp lứa tuổi, sức khỏe và điều kiện thực tế.Giáo dục sức khỏe: Khuyến khích thực đơn cân bằng, đủ nước, hạn chế đồ uống nhiều đường.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures and identify the contexts (see Input). Have them point at the food and drinks and say aloud their names. You may use flashcards to learn vocabulary items.Step 2: Give pupils time to work in pairs and take turns asking and answering the question about food and drinks someone will have at two events. Go around the classroom to offer support.Step 3: Invite a few pairs to the front of the class to ask and answer questions about food and drinks someone will have at each party What food and drinks will you have at the party? – ____. Praise pupils if they perform well.Extension: Have pupils brainstorm some food and drinks they will have at their birthday parties (e.g. I’ll have cakes, sweets, fruit and milk at my birthday party.) Invite a few pupils to tell the class about them.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI can suggest menus by food, drinks, fruits groups; humans need to choose items suitable for age, health, and practical conditions. Health education: Encourage balanced menus, adequate hydration, and limits on sugary drinks.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures. Pupils say the names of food and drinks in the pictures. - Work in pairs, ask and answer questions about food and drinks omeone will have at two events.- Pairs of pupils ask and answer questions about food and drinks someone will have at each party using the picture cues.- Draw and write some food and drinks in a piece of paper about some food and drinks they will have at their birthday parties. Some pupils come to the front and share with their friends.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7093,7 +7093,7 @@
       {
         "lessonTitle": "UNIT 13: OUR SPECIAL DAYS - Lesson 2 - Period 4 (Period 88)",
         "topic": "Unit 13:Our special days - Our special days - Lesson 2(4, 5, 6)",
-        "period": "Tiết 88",
+        "period": "Period 88",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7105,7 +7105,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Không đăng công khai địa điểm, thời gian cụ thể, danh sách người tham dự hoặc ảnh có thông tin riêng tư khi chia sẻ về bữa tiệc.An toàn thực phẩm: Chọn thực phẩm hợp vệ sinh; báo người lớn khi có dị ứng.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Do not publicly post locations, specific times, attendee lists, or photos with private information when sharing about parties. Food safety: Choose hygienic food; inform adults when having allergies.",
           "3. Attributes",
           "- Enhance understanding of what people eat and drink on special occasions.",
           "- Express their preferences for food and drinks."
@@ -7156,7 +7156,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell the class that the game will be played in groups of three. Pupils in each group will discuss as many names of fruit, food and drinks as possible in the menufor their Children’s Day party (see Input). Then the representative of each group will show their menu and tell the class about it.Step 2: For the first round, invite two or three groups to the front of the class. Give each group a large piece of paper. Let them have a time limit to make a menu (including fruit, food and drinks). The representative of each groups shows the menu and tells the classabout it. The group that writes the most names of fruit, food or drinks in the shortest time will be given five points / stars. Step 3: For the second round, each group shows and tells the menu to the class. The group that says the most sentences about their menu with correct grammar will be given five points / stars. The group that has the most points / stars will win the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Không đăng công khai địa điểm, thời gian cụ thể, danh sách người tham dự hoặc ảnh có thông tin riêng tư khi chia sẻ về bữa tiệc.An toàn thực phẩm: Chọn thực phẩm hợp vệ sinh; báo người lớn khi có dị ứng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class that the game will be played in groups of three. Pupils in each group will discuss as many names of fruit, food and drinks as possible in the menufor their Children’s Day party (see Input). Then the representative of each group will show their menu and tell the class about it.Step 2: For the first round, invite two or three groups to the front of the class. Give each group a large piece of paper. Let them have a time limit to make a menu (including fruit, food and drinks). The representative of each groups shows the menu and tells the classabout it. The group that writes the most names of fruit, food or drinks in the shortest time will be given five points / stars. Step 3: For the second round, each group shows and tells the menu to the class. The group that says the most sentences about their menu with correct grammar will be given five points / stars. The group that has the most points / stars will win the game.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Do not publicly post locations, specific times, attendee lists, or photos with private information when sharing about parties. Food safety: Choose hygienic food; inform adults when having allergies.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- In groups, pupils discuss names of fruit, food and drink in the menu for their Children’s Day party.- Representatives show their menu and tell the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7179,7 +7179,7 @@
       {
         "lessonTitle": "UNIT 13: OUR SPECIAL DAYS - Lesson 3 - Period 5 (Period 89)",
         "topic": "Unit 13:Our special days - Our special days - Lesson 3(1, 2, 3)",
-        "period": "Tiết 89",
+        "period": "Period 89",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7192,7 +7192,7 @@
           "- Critical thinking and creativity: learn how to ask and answer questions about someone’s food and drinks at an event correctly and fluently.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: So sánh thực đơn do AI gợi ý với yêu cầu bài học; phát hiện món/hoạt động chưa phù hợp và giải thích vì sao cần con người kiểm tra.NLS 1.3.CB2a: Phân loại thông tin theo Food - Drinks - Fruits để hỗ trợ nói/viết.",
+          "+ Digital competence & AI literacy: AI 4.B2: Compare AI-suggested menus with lesson requirements; detect unsuitable items/activities and explain why human checking is needed. NLS 1.3.CB2a: Classify information by Food - Drinks - Fruits to support speaking/writing.",
           "3. Attributes",
           "- Enhance understanding of different kinds of food and drinks at different styles of events."
         ],
@@ -7242,7 +7242,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the lyrics of the chant. Then get them to look at the food and drinks on the table to reinforce their understanding. Check comprehension.Step 2: Play the recording all the way through for pupils to listen to the whole chant. draw their attention to the stressed words' pronunciation and rhythm. play it again line by line, for pupils to listen and repeat and encourage them to clap while chanting.Step 3: Invite a few groups to say the chant in front of the class. The rest of the class chant and clap along.Extension: Encourage pupils to make the chant of their own by replacing some food in the first verse (e.g. Grapes and mangoes. / We’ll have grapes. / We’ll have mangoes. We’ll have grapes and mangoes.) and drinks in the second verse (e.g. Fruit juice and milk. / We’ll have fruit juice. / We’ll have milk. / We’ll have fruit juice and milk.)\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: So sánh thực đơn do AI gợi ý với yêu cầu bài học; phát hiện món/hoạt động chưa phù hợp và giải thích vì sao cần con người kiểm tra.NLS 1.3.CB2a: Phân loại thông tin theo Food - Drinks - Fruits để hỗ trợ nói/viết.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the lyrics of the chant. Then get them to look at the food and drinks on the table to reinforce their understanding. Check comprehension.Step 2: Play the recording all the way through for pupils to listen to the whole chant. draw their attention to the stressed words' pronunciation and rhythm. play it again line by line, for pupils to listen and repeat and encourage them to clap while chanting.Step 3: Invite a few groups to say the chant in front of the class. The rest of the class chant and clap along.Extension: Encourage pupils to make the chant of their own by replacing some food in the first verse (e.g. Grapes and mangoes. / We’ll have grapes. / We’ll have mangoes. We’ll have grapes and mangoes.) and drinks in the second verse (e.g. Fruit juice and milk. / We’ll have fruit juice. / We’ll have milk. / We’ll have fruit juice and milk.)\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Compare AI-suggested menus with lesson requirements; detect unsuitable items/activities and explain why human checking is needed. NLS 1.3.CB2a: Classify information by Food - Drinks - Fruits to support speaking/writing.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the picture and name the food and drinks on the table.- Pupils pay attention to the lyrics of the chant, stressed words, pronunciation and rhythm.- Pupils listen all the way through carefully to the rhythm and pronunciation.- Pupils listen to the recording, line by line, and repeat.- Pupils listen to the recording all the way through and chant along. Pupils clap while chanting.- Pupils work in two or more groups to make the chant of their own by replacing some food in the first verse.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7259,7 +7259,7 @@
       {
         "lessonTitle": "UNIT 13: OUR SPECIAL DAYS - Lesson 3 - Period 6 (Period 90)",
         "topic": "Unit 13:Our special days - Our special days - Lesson 3(4, 5, 6)",
-        "period": "Tiết 90",
+        "period": "Period 90",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7274,7 +7274,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế menu/poster số “Our class party” theo các mục Food - Drinks - Fruits bằng Canva/Google Slides.AI 4.A3: Chọn lọc hình ảnh AI đúng nội dung, phù hợp lứa tuổi và văn hóa trước khi sử dụng.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital menu/poster titled “Our class party” following Food - Drinks - Fruits sections using Canva/Google Slides. AI 4.A3: Select content-accurate, age-appropriate, and culturally suitable AI images before use.",
           "3. Attributes",
           "- Enhance understanding of different kinds of food and drinks at different styles of events."
         ],
@@ -7316,7 +7316,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity. Explain that they should answer the suggested questions and use the gapped sentences (see Input) to write the text, using their own information. Tell pupils that they should write about 40 words. Check comprehension.Step 2: Have pupils do the first gapped sentence together as an example. Let them answer the first question and elicit the time of their birthday. Then have them fill in the gap of the first sentence (e.g. My birthday is in May.)Step 3: Give pupils time to write the text independently. Go around the classroom and offer help if necessary.Step 4: Get pupils to swap their books with a partner and check their writing before checking as a class.Extension: If time allows, invite one or two pupils to read their completed texts in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế menu/poster số “Our class party” theo các mục Food - Drinks - Fruits bằng Canva/Google Slides.AI 4.A3: Chọn lọc hình ảnh AI đúng nội dung, phù hợp lứa tuổi và văn hóa trước khi sử dụng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of the activity. Explain that they should answer the suggested questions and use the gapped sentences (see Input) to write the text, using their own information. Tell pupils that they should write about 40 words. Check comprehension.Step 2: Have pupils do the first gapped sentence together as an example. Let them answer the first question and elicit the time of their birthday. Then have them fill in the gap of the first sentence (e.g. My birthday is in May.)Step 3: Give pupils time to write the text independently. Go around the classroom and offer help if necessary.Step 4: Get pupils to swap their books with a partner and check their writing before checking as a class.Extension: If time allows, invite one or two pupils to read their completed texts in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital menu/poster titled “Our class party” following Food - Drinks - Fruits sections using Canva/Google Slides. AI 4.A3: Select content-accurate, age-appropriate, and culturally suitable AI images before use.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Read the suggested questions and answer in pairs.- Do the first gapped sentence.- Write the text individually (about 40 words). - Swap their books and check.- Check with the whole class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7340,7 +7340,7 @@
       {
         "lessonTitle": "UNIT 14: STAYING HEALTHY - Lesson 1 - Period 1 (Period 91)",
         "topic": "Unit 14:Staying healthy - Staying healthy - Lesson 1(1, 2, 3)",
-        "period": "Tiết 91",
+        "period": "Period 91",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7354,7 +7354,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI/thiết bị thông minh có thể hỗ trợ gợi ý một số thói quen lành mạnh như vận động, uống đủ nước và ăn đa dạng thực phẩm; không coi gợi ý AI là chẩn đoán sức khỏe.Giáo dục sức khỏe: Hình thành thói quen do morning exercise, play sports, drink fresh juice, eat healthy food phù hợp lứa tuổi.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI/smart devices can support suggesting healthy habits like exercising, drinking enough water, and eating diverse foods; do not consider AI suggestions as health diagnoses. Health education: Form age-appropriate habits like morning exercise, play sports, drink fresh juice, eat healthy food.",
           "3. Attributes",
           "- Raise their knowledge of using healthy food and drinks.",
           "- Show their awareness of doing morning exercise regularly."
@@ -7405,7 +7405,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context.Step 2: Point at the first picture and elicit the question (e.g. How does your sister stay healthy?) and an answer (She does morning exercise.). Then write the answer on the board. Repeat the same procedure with the other pictures. Get the pupils to say the four completed sentences. Step 3: Put pupils into pairs to ask and answer questions about how their family members or friends stay healthy. Go around and offer support where necessary.Step 4: Invite a few pairs to the front of the classroom to ask and answer questions about a family member’s lifestyle.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI/thiết bị thông minh có thể hỗ trợ gợi ý một số thói quen lành mạnh như vận động, uống đủ nước và ăn đa dạng thực phẩm; không coi gợi ý AI là chẩn đoán sức khỏe.Giáo dục sức khỏe: Hình thành thói quen do morning exercise, play sports, drink fresh juice, eat healthy food phù hợp lứa tuổi.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures. Ask questions to help them identify the context.Step 2: Point at the first picture and elicit the question (e.g. How does your sister stay healthy?) and an answer (She does morning exercise.). Then write the answer on the board. Repeat the same procedure with the other pictures. Get the pupils to say the four completed sentences. Step 3: Put pupils into pairs to ask and answer questions about how their family members or friends stay healthy. Go around and offer support where necessary.Step 4: Invite a few pairs to the front of the classroom to ask and answer questions about a family member’s lifestyle.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI/smart devices can support suggesting healthy habits like exercising, drinking enough water, and eating diverse foods; do not consider AI suggestions as health diagnoses. Health education: Form age-appropriate habits like morning exercise, play sports, drink fresh juice, eat healthy food.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the pictures and answer the questions to identify the context.- Pupils follow the teacher’s instructions. Then pupils look at the sentences on the board. Pupils say the completed sentences.-  Pupils work in pairs to ask and answer questions about how their family members or friends stay healthy. - A few pairs come to the front of the class to ask and answer questions about a family member’s lifestyle.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7422,7 +7422,7 @@
       {
         "lessonTitle": "UNIT 14: STAYING HEALTHY - Lesson 1 - Period 2 (Period 92)",
         "topic": "Unit 14:Staying healthy - Staying healthy - Lesson 1(4, 5, 6)",
-        "period": "Tiết 92",
+        "period": "Period 92",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7434,7 +7434,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB2b: Kiểm chứng thông tin về thói quen lành mạnh từ SGK, tài liệu giáo dục hoặc nguồn chính thống trước khi sử dụng.NLS 4.2.CB2b: Không chia sẻ công khai thông tin sức khỏe cá nhân, ảnh cơ thể hoặc dữ liệu riêng tư khi trao đổi trên môi trường số.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB2b: Verify information about healthy habits from textbooks, educational documents, or official sources before use. NLS 4.2.CB2b: Do not publicly share personal health information, body photos, or private data when communicating in the digital environment.",
           "3. Attributes",
           "- Raise their knowledge of using healthy food and drink.",
           "- Show their awareness of doing morning exercise regularly."
@@ -7487,7 +7487,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils the aim of the activity: They listen to the song,  fill in the gaps in the lyrics and sing it with the correct pronunciation, rhythm and melody.Step 2: Have pupils read the lyrics and guess the word(s) to fill in the gaps with the help of pictures. Step 3: Have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary.Step 4: Play the recording and let them listen to and practise singing the song, line by line, until they feel confident. Then have pupils listen to and sing the whole song while clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2b: Kiểm chứng thông tin về thói quen lành mạnh từ SGK, tài liệu giáo dục hoặc nguồn chính thống trước khi sử dụng.NLS 4.2.CB2b: Không chia sẻ công khai thông tin sức khỏe cá nhân, ảnh cơ thể hoặc dữ liệu riêng tư khi trao đổi trên môi trường số.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils the aim of the activity: They listen to the song,  fill in the gaps in the lyrics and sing it with the correct pronunciation, rhythm and melody.Step 2: Have pupils read the lyrics and guess the word(s) to fill in the gaps with the help of pictures. Step 3: Have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary.Step 4: Play the recording and let them listen to and practise singing the song, line by line, until they feel confident. Then have pupils listen to and sing the whole song while clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2b: Verify information about healthy habits from textbooks, educational documents, or official sources before use. NLS 4.2.CB2b: Do not publicly share personal health information, body photos, or private data when communicating in the digital environment.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils read the lyrics and guess the word(s) to fill in the gaps with the help of pictures. - Pupils listen to the song and fill in the gaps. - Pupils listen to the song and practise singing the song, line by line. Then pupils listen to and sing the whole song while clapping their hands.- A few groups come to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7510,7 +7510,7 @@
       {
         "lessonTitle": "UNIT 14: STAYING HEALTHY - Lesson 2 - Period 3 (Period 93)",
         "topic": "Unit 14:Staying healthy - Staying healthy - Lesson 2(1, 2, 3)",
-        "period": "Tiết 93",
+        "period": "Period 93",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7525,7 +7525,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết AI có thể hỗ trợ tổng hợp tần suất hoạt động từ bảng theo dõi đơn giản, nhưng người học cần kiểm tra dữ liệu trước khi kết luận.Toán học/STEM: Đếm và so sánh tần suất once/twice/three times a week/every day trong lịch hoạt động hằng tuần.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI can support synthesizing activity frequencies from simple tracking tables, but learners need to check data before concluding. Mathematics/STEM: Count and compare frequencies like once/twice/three times a week/every day in weekly activity schedules.",
           "3. Attributes",
           "- Raise their knowledge of using healthy food and drink.",
           "- Show their awareness of doing morning exercise regularly."
@@ -7578,7 +7578,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the pictures and elicit the activities. Remind pupils that How does your ____ stay healthy? – ____. and How often does your ____? – ____. are used to ask and answer questions about someone’s healthy habits and the frequency with which they do their healthy activity.Step 2: Give pupils time to work in pairs and take turns pointing at the pictures and asking and answering questions about the character’s habits. Step 3: Invite a few pairs to come to the front of the classroom and act out the exchanges. Extension: Turn the questions and answers into a personalised talk. Have pupils talk about what their family members do every day.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết AI có thể hỗ trợ tổng hợp tần suất hoạt động từ bảng theo dõi đơn giản, nhưng người học cần kiểm tra dữ liệu trước khi kết luận.Toán học/STEM: Đếm và so sánh tần suất once/twice/three times a week/every day trong lịch hoạt động hằng tuần.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the pictures and elicit the activities. Remind pupils that How does your ____ stay healthy? – ____. and How often does your ____? – ____. are used to ask and answer questions about someone’s healthy habits and the frequency with which they do their healthy activity.Step 2: Give pupils time to work in pairs and take turns pointing at the pictures and asking and answering questions about the character’s habits. Step 3: Invite a few pairs to come to the front of the classroom and act out the exchanges. Extension: Turn the questions and answers into a personalised talk. Have pupils talk about what their family members do every day.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI can support synthesizing activity frequencies from simple tracking tables, but learners need to check data before concluding. Mathematics/STEM: Count and compare frequencies like once/twice/three times a week/every day in weekly activity schedules.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and elicit the activities. Pupils listen to the teacher’s explanation.- Pupils work in pairs and take turns pointing at the pictures and asking and answering questions about the character’s habits.- A few pairs come to the front of the classroom and act out the exchanges.- Pupils talk about what their family members do every day.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7595,7 +7595,7 @@
       {
         "lessonTitle": "UNIT 14: STAYING HEALTHY - Lesson 2 - Period 4 (Period 94)",
         "topic": "Unit 14:Staying healthy - Staying healthy - Lesson 2(4, 5, 6)",
-        "period": "Tiết 94",
+        "period": "Period 94",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7607,7 +7607,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Lựa chọn bảng/lịch số đơn giản để ghi và theo dõi thói quen vận động, ăn uống theo tần suất.NLS 1.3.CB2a: Sắp xếp dữ liệu theo Activity - Frequency để dễ đọc, so sánh và tự điều chỉnh thói quen.",
+          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Choose simple digital tables/calendars to record and track exercise and eating habits by frequency. NLS 1.3.CB2a: Organize data by Activity - Frequency for easy reading, comparison, and self-adjustment of habits.",
           "3. Attributes",
           "- Raise their knowledge of using healthy food and drink.",
           "- Show their awareness of doing morning exercise regularly."
@@ -7660,7 +7660,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Invite two teams, A and B, to play the game. Tell the teams the rules, using the illustration as an example to demonstrate how it works. Team A asks a question using How often _____? Team B then picks a piece of paper with a number on it, and uses the number to answer the question. For example, the number one means once a week or once a month. If the question is asked correctly, Team A gets one point. If the answer is correct, Team B gets one point. If Team A fails to ask the question correctly, Team A does not get a point, and the teacher then asks the question correctly to Team B so that they can still earn a point. Then the teams swap roles – Team B asks and Team A answers. Step 2: After two minutes, the team with the most points wins.Step 3: The game continues with other teams.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Lựa chọn bảng/lịch số đơn giản để ghi và theo dõi thói quen vận động, ăn uống theo tần suất.NLS 1.3.CB2a: Sắp xếp dữ liệu theo Activity - Frequency để dễ đọc, so sánh và tự điều chỉnh thói quen.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Invite two teams, A and B, to play the game. Tell the teams the rules, using the illustration as an example to demonstrate how it works. Team A asks a question using How often _____? Team B then picks a piece of paper with a number on it, and uses the number to answer the question. For example, the number one means once a week or once a month. If the question is asked correctly, Team A gets one point. If the answer is correct, Team B gets one point. If Team A fails to ask the question correctly, Team A does not get a point, and the teacher then asks the question correctly to Team B so that they can still earn a point. Then the teams swap roles – Team B asks and Team A answers. Step 2: After two minutes, the team with the most points wins.Step 3: The game continues with other teams.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Choose simple digital tables/calendars to record and track exercise and eating habits by frequency. NLS 1.3.CB2a: Organize data by Activity - Frequency for easy reading, comparison, and self-adjustment of habits.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils work in two teams to play the game. Pupils listen to the rules. Pupils follow the teacher demonstrating the example.- Pupils praise the winner.- Pupils continue playing the game.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7677,7 +7677,7 @@
       {
         "lessonTitle": "UNIT 14: STAYING HEALTHY - Lesson 3 - Period 5 (Period 95)",
         "topic": "Unit 14:Staying healthy - Staying healthy - Lesson 3(1, 2, 3)",
-        "period": "Tiết 95",
+        "period": "Period 95",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7689,7 +7689,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: So sánh lời khuyên do AI gợi ý với nội dung SGK/nguồn đáng tin cậy; nhận ra không nên tự làm theo lời khuyên sức khỏe chưa được kiểm chứng.Kỹ năng sống: Biết hỏi người lớn đáng tin cậy khi gặp thông tin sức khỏe khó hiểu; duy trì vận động, nghỉ ngơi và ăn uống cân bằng.",
+          "+ Digital competence & AI literacy: AI 4.B2: Compare AI-suggested advice with textbook content/reliable sources; realize that unverified health advice should not be followed blindly. Life skills: Know how to ask trusted adults when encountering confusing health information; maintain physical activity, rest, and balanced diets.",
           "3. Attributes",
           "- Raise their knowledge of using healthy food and drink.",
           "- Show their awareness of doing morning exercise regularly."
@@ -7742,7 +7742,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the lyrics of the chant. Then get them to look at the pictures to reinforce their understanding. Check comprehension.Step 2: Play the recording all the way through for pupils to listen tothe whole chant. Encourage them to listen carefully to the stressed words. Play it again line by line, for pupils to listen and repeat. Draw their attention to the pronunciation and rhythm. Encourage them to clap while chanting.Step 3: Divide the class into two groups to take turns listening to and repeating the chant, while the rest of the class claps along.Extension: If time allows, invite a few groups to say the chant in front of the class. The rest of the class chant and clap along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: So sánh lời khuyên do AI gợi ý với nội dung SGK/nguồn đáng tin cậy; nhận ra không nên tự làm theo lời khuyên sức khỏe chưa được kiểm chứng.Kỹ năng sống: Biết hỏi người lớn đáng tin cậy khi gặp thông tin sức khỏe khó hiểu; duy trì vận động, nghỉ ngơi và ăn uống cân bằng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the lyrics of the chant. Then get them to look at the pictures to reinforce their understanding. Check comprehension.Step 2: Play the recording all the way through for pupils to listen tothe whole chant. Encourage them to listen carefully to the stressed words. Play it again line by line, for pupils to listen and repeat. Draw their attention to the pronunciation and rhythm. Encourage them to clap while chanting.Step 3: Divide the class into two groups to take turns listening to and repeating the chant, while the rest of the class claps along.Extension: If time allows, invite a few groups to say the chant in front of the class. The rest of the class chant and clap along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Compare AI-suggested advice with textbook content/reliable sources; realize that unverified health advice should not be followed blindly. Life skills: Know how to ask trusted adults when encountering confusing health information; maintain physical activity, rest, and balanced diets.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the lyrics of the chant. Pupils look at the picture to reinforce their understanding. - Pupils listen to the whole chant. Pupils listen   carefully to the stressed words. Pupils listen to the recording again line by line and repeat. Pupils clap while chanting.- Pupils work in two groups to take turns listening and repeating the chant, while the rest of the class claps along. - A few groups say the chant in front of the class. The rest of the class chant and clap along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7759,7 +7759,7 @@
       {
         "lessonTitle": "UNIT 14: STAYING HEALTHY - Lesson 3 - Period 6 (Period 96)",
         "topic": "Unit 14:Staying healthy - Staying healthy - Lesson 3(4, 5, 6)",
-        "period": "Tiết 96",
+        "period": "Period 96",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7771,7 +7771,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế poster/infographic số “My healthy lifestyle” theo các mục Healthy habit - Frequency bằng Canva/Google Slides.AI 4.A3: Chọn lọc hình ảnh AI minh họa thói quen lành mạnh, phù hợp lứa tuổi, không dùng hình ảnh làm lộ thông tin sức khỏe hoặc danh tính cá nhân.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital poster/infographic titled “My healthy lifestyle” following Healthy habit - Frequency sections using Canva/Google Slides. AI 4.A3: Select AI images illustrating healthy, age-appropriate habits without revealing health information or personal identities.",
           "3. Attributes",
           "- Raise their knowledge of using healthy food and drink.",
           "- Show their awareness of doing morning exercise regularly."
@@ -7816,7 +7816,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity – explain that they should read and complete the table before writing a paragraph about their healthy habits. Check comprehension. Step 2: Have pupils read the first row and elicit some activities they usually do to stay healthy and the frequency of these activities. Have them read the healthy habit in the second row and complete the first gap with their own answers. Step 3: Give pupils time to complete the table independently. Go around the classroom and offer help where necessary.Step 4: Have pupils use the information in the table to write about their healthy habits. Tell pupils that they should write about 40 words. Go around the classroom and offer help where necessary.Step 5: Have some pupils read their paragraphs aloud. Give feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế poster/infographic số “My healthy lifestyle” theo các mục Healthy habit - Frequency bằng Canva/Google Slides.AI 4.A3: Chọn lọc hình ảnh AI minh họa thói quen lành mạnh, phù hợp lứa tuổi, không dùng hình ảnh làm lộ thông tin sức khỏe hoặc danh tính cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.\n<img src=\"assets/khbd_images/lop5/tieng_anh/tuan_23/image1.png\" alt=\"A table with two columns about healthy habits\" style=\"max-width: 95%; height: auto;\" />",
+              "Step 1: Tell the class the goal of the activity – explain that they should read and complete the table before writing a paragraph about their healthy habits. Check comprehension. Step 2: Have pupils read the first row and elicit some activities they usually do to stay healthy and the frequency of these activities. Have them read the healthy habit in the second row and complete the first gap with their own answers. Step 3: Give pupils time to complete the table independently. Go around the classroom and offer help where necessary.Step 4: Have pupils use the information in the table to write about their healthy habits. Tell pupils that they should write about 40 words. Go around the classroom and offer help where necessary.Step 5: Have some pupils read their paragraphs aloud. Give feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital poster/infographic titled “My healthy lifestyle” following Healthy habit - Frequency sections using Canva/Google Slides. AI 4.A3: Select AI images illustrating healthy, age-appropriate habits without revealing health information or personal identities.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.\n<img src=\"assets/khbd_images/lop5/tieng_anh/tuan_23/image1.png\" alt=\"A table with two columns about healthy habits\" style=\"max-width: 95%; height: auto;\" />",
               "- Pupils listen to the teacher’s explanation. - Pupils read the first row and elicit some activities they usually do to stay healthy and the frequency of these activities. Then pupils read the healthy habit in the second row and complete the first gap with their own answers.- Pupils complete the table independently. - Pupils use the information in the table to write about their healthy habits.- Some pupils read their paragraphs aloud.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -7846,7 +7846,7 @@
       {
         "lessonTitle": "UNIT 15: OUR HEALTH - Lesson 1 - Period 1 (Period 97)",
         "topic": "Unit 15:Our health - Our health - Lesson 1(1, 2, 3)",
-        "period": "Tiết 97",
+        "period": "Period 97",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7860,7 +7860,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI có thể hỗ trợ nhận diện từ vựng sức khỏe qua hình ảnh/biểu tượng; không dùng AI để tự chẩn đoán.Giáo dục sức khỏe: Nhận biết headache, toothache, sore throat, stomach ache và biết báo người lớn khi không khỏe.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI can support recognizing health vocabulary through images/icons; do not use AI for self-diagnosis. Health education: Recognize headache, toothache, sore throat, stomach ache and know to inform adults when feeling unwell.",
           "3. Attributes",
           "- Raise their knowledge of health.",
           "- Show pupils how to take care of themselves and prevent common diseases."
@@ -7913,8 +7913,8 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the phrase Phòng Y tế (School Clinic) to guess the context of the picture. Ask them about the common health problems that the characters may have.Step 2: Read the question in the speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and guess what the answer should start with (I have a ____). Step 3: Have some pairs role-play by asking and answering questions about the health problems in the picture. Go around the classroom to observe and provide help.Step 4: Invite some pairs to role-play as a doctor and a pupil to ask and answer questions about common health problems in front of the class. Give corrections and feedback where necessary.\nExtension: Encourage pupils to brainstorm some other common health problems, then talk with each other using the sentence pattern they have learned in this lesson.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI có thể hỗ trợ nhận diện từ vựng sức khỏe qua hình ảnh/biểu tượng; không dùng AI để tự chẩn đoán.Giáo dục sức khỏe: Nhận biết headache, toothache, sore throat, stomach ache và biết báo người lớn khi không khỏe.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
-              "Pupils look at the phrase Phòng Y tế (School Clinic) to guess the context of the picture. Pupils answer the health problems that the characters may have. - Pupils repeat the question in the speech bubble. Pupils look at the second bubble and guess what the answer should be.Pupils work in pairs to role-play by asking and answering questions about the health problems in the picture.Some pairs role-play as a doctor and a pupil to ask and answer questions about health problems in front of the class. Then, pupils talk about the other health problems that they know.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
+              "Step 1: Draw pupils’ attention to the phrase School Clinic to guess the context of the picture. Ask them about the common health problems that the characters may have.Step 2: Read the question in the speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and guess what the answer should start with (I have a ____). Step 3: Have some pairs role-play by asking and answering questions about the health problems in the picture. Go around the classroom to observe and provide help.Step 4: Invite some pairs to role-play as a doctor and a pupil to ask and answer questions about common health problems in front of the class. Give corrections and feedback where necessary.\nExtension: Encourage pupils to brainstorm some other common health problems, then talk with each other using the sentence pattern they have learned in this lesson.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI can support recognizing health vocabulary through images/icons; do not use AI for self-diagnosis. Health education: Recognize headache, toothache, sore throat, stomach ache and know to inform adults when feeling unwell.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Pupils look at the phrase School Clinic to guess the context of the picture. Pupils answer the health problems that the characters may have. - Pupils repeat the question in the speech bubble. Pupils look at the second bubble and guess what the answer should be.Pupils work in pairs to role-play by asking and answering questions about the health problems in the picture.Some pairs role-play as a doctor and a pupil to ask and answer questions about health problems in front of the class. Then, pupils talk about the other health problems that they know.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
               "5. FUN CORNER AND WRAP-UP (7 minutes)"
@@ -7930,7 +7930,7 @@
       {
         "lessonTitle": "UNIT 15: OUR HEALTH - Lesson 1 - Period 2 (Period 98)",
         "topic": "Unit 15:Our health - Our health - Lesson 1(4, 5, 6)",
-        "period": "Tiết 98",
+        "period": "Period 98",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -7942,7 +7942,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB2b: Kiểm chứng lời khuyên sức khỏe từ SGK, giáo viên hoặc nguồn chính thống trước khi làm theo.NLS 4.2.CB2b: Không chia sẻ công khai triệu chứng, ảnh hoặc thông tin sức khỏe cá nhân.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB2b: Verify health advice from textbooks, teachers, or official sources before following. NLS 4.2.CB2b: Do not publicly share symptoms, photos, or personal health information.",
           "3. Attributes",
           "- Raise their knowledge of health.",
           "- Show pupils how to take care of themselves and prevent common diseases."
@@ -7987,7 +7987,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Activity 6. Let’s sing. (Track 44)\nStep 1: Have pupils read the lyrics to familiarise themselves with the language. Check comprehension and give feedback.Step 2: Have pupils listen to the entire song, drawing theirattention to the pronunciation, rhythm and melody.Step 3: Play the recording of the song once or twice for pupils to listen to and practise singing it, line by line.Step4:Whenpupilsfeelconfident and are familiar with the melody, ask them to sing the entire song while clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The rest of the class may sing along to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2b: Kiểm chứng lời khuyên sức khỏe từ SGK, giáo viên hoặc nguồn chính thống trước khi làm theo.NLS 4.2.CB2b: Không chia sẻ công khai triệu chứng, ảnh hoặc thông tin sức khỏe cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Activity 6. Let’s sing. (Track 44)\nStep 1: Have pupils read the lyrics to familiarise themselves with the language. Check comprehension and give feedback.Step 2: Have pupils listen to the entire song, drawing theirattention to the pronunciation, rhythm and melody.Step 3: Play the recording of the song once or twice for pupils to listen to and practise singing it, line by line.Step4:Whenpupilsfeelconfident and are familiar with the melody, ask them to sing the entire song while clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The rest of the class may sing along to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB2b: Verify health advice from textbooks, teachers, or official sources before following. NLS 4.2.CB2b: Do not publicly share symptoms, photos, or personal health information.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "Pupils read the lyrics to familiarise themselves with the language.Pupils listen to the entire song.Pupils listen to the song once or twice and practise singing it, line after line.Pupils sing the entire song while clapping their hands.A few groups come to the front of the class to sing the song. Pupils may sing along to reinforce the activity.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8004,7 +8004,7 @@
       {
         "lessonTitle": "UNIT 15: OUR HEALTH - Lesson 2 - Period 3 (Period 99)",
         "topic": "Unit 15:Our health - Our health - Lesson 2(1, 2, 3)",
-        "period": "Tiết 99",
+        "period": "Period 99",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8018,7 +8018,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết chatbot có thể gợi ý chăm sóc chung như nghỉ ngơi, uống nước ấm nhưng không thay thế bác sĩ/người lớn.Kỹ năng sống: Biết dùng go to the dentist, have a rest, drink warm water, take some medicine trong tình huống học tập; không tự ý dùng thuốc.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that chatbots can suggest general care like resting or drinking warm water but cannot replace doctors/adults. Life skills: Know how to use go to the dentist, have a rest, drink warm water, take some medicine in learning situations; do not take medicine arbitrarily.",
           "3. Attributes",
           "- Raise their knowledge of health.",
           "- Show pupils how to give advice about health problems."
@@ -8063,7 +8063,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Activity 3. Let’s talk.\nStep 1: Draw pupils’ attention to the pictures and guess the health problems that the characters have. Read the first speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second speech bubble and identify what the start of the answer should be (I have a). Do the same with the other pair of speech bubbles.Step 2: Have pairs of pupils practise asking about health problems and giving advice. Go\naround the class and provide support when necessary.Step 3: Invite a few pairs to practise the exchanges in front of the class. Make corrections and give feedback where necessary. Extension: If you didn’t do so earlier, encourage pupils to brainstorm some other common health problems that they may know, such as flu, a cold, a fever and backache, etc., then give their health advice for them.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết chatbot có thể gợi ý chăm sóc chung như nghỉ ngơi, uống nước ấm nhưng không thay thế bác sĩ/người lớn.Kỹ năng sống: Biết dùng go to the dentist, have a rest, drink warm water, take some medicine trong tình huống học tập; không tự ý dùng thuốc.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Activity 3. Let’s talk.\nStep 1: Draw pupils’ attention to the pictures and guess the health problems that the characters have. Read the first speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second speech bubble and identify what the start of the answer should be (I have a). Do the same with the other pair of speech bubbles.Step 2: Have pairs of pupils practise asking about health problems and giving advice. Go\naround the class and provide support when necessary.Step 3: Invite a few pairs to practise the exchanges in front of the class. Make corrections and give feedback where necessary. Extension: If you didn’t do so earlier, encourage pupils to brainstorm some other common health problems that they may know, such as flu, a cold, a fever and backache, etc., then give their health advice for them.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that chatbots can suggest general care like resting or drinking warm water but cannot replace doctors/adults. Life skills: Know how to use go to the dentist, have a rest, drink warm water, take some medicine in learning situations; do not take medicine arbitrarily.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "Pupils look at the pictures and guess the health problems that the characters have. Pupils repeat the advice in the first speech bubble and repeat. Pupils look at the second bubble and identify what the answer should be.Pairs of pupils practise advising and responding to\nadviceabouthealth problems.A few pairs practise advising and responding to advice about health problems in front of the class.Pupils brainstorm some other common health problems that they may know, then give their health advice for them.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8080,7 +8080,7 @@
       {
         "lessonTitle": "UNIT 15: OUR HEALTH - Lesson 2 - Period 4 (Period 100)",
         "topic": "Unit 15:Our health - Our health - Lesson 2(4, 5, 6)",
-        "period": "Tiết 100",
+        "period": "Period 100",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8092,7 +8092,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Chọn công cụ số đơn giản để ghép Health problem - Advice.NLS 1.3.CB2a: Sắp xếp thông tin theo Problem - Advice; không ghi dữ liệu sức khỏe thật.",
+          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Choose simple digital tools to match Health problem - Advice. NLS 1.3.CB2a: Organize information by Problem - Advice; do not record real health data.",
           "3. Attributes",
           "- Raise their knowledge of health.",
           "- Show pupils how to give advice about health problems."
@@ -8137,7 +8137,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Activity 6. Let’s play.\nStep 1: Tell pupils to form pairs and role-play as a doctor and a patient. Encourage them to ask for and give advice about health problems. Use the illustration as an example to demonstrate how to play the game. Give them three minutes to complete their role-plays. Go around the classroom and give support when necessary.Step 2: When the time is up, ask three pairs to perform in front of the class. Ask the class to vote for the best performance.Step 3: Reward the pair with the most votes.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Chọn công cụ số đơn giản để ghép Health problem - Advice.NLS 1.3.CB2a: Sắp xếp thông tin theo Problem - Advice; không ghi dữ liệu sức khỏe thật.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Activity 6. Let’s play.\nStep 1: Tell pupils to form pairs and role-play as a doctor and a patient. Encourage them to ask for and give advice about health problems. Use the illustration as an example to demonstrate how to play the game. Give them three minutes to complete their role-plays. Go around the classroom and give support when necessary.Step 2: When the time is up, ask three pairs to perform in front of the class. Ask the class to vote for the best performance.Step 3: Reward the pair with the most votes.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Choose simple digital tools to match Health problem - Advice. NLS 1.3.CB2a: Organize information by Problem - Advice; do not record real health data.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "Pupils listen to the teacher’s explanation. Pupils ask and give advice about health problems.Three pairs perform their roles in front of the class. The other pupils vote for the best performance. - Pupils praise the pair with the most votes.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8160,7 +8160,7 @@
       {
         "lessonTitle": "UNIT 15: OUR HEALTH - Lesson 3 - Period 5 (Period 101)",
         "topic": "Unit 15:Our health - Our health - Lesson 3(1, 2, 3)",
-        "period": "Tiết 101",
+        "period": "Period 101",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8172,7 +8172,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Giải thích cần kiểm tra lời khuyên AI vì cùng một triệu chứng có thể có nhiều nguyên nhân.Kỹ năng sống: Khi đau nhiều hoặc kéo dài, cần báo cha mẹ, giáo viên hoặc nhân viên y tế.",
+          "+ Digital competence & AI literacy: AI 4.B2: Explain the need to check AI advice because the same symptom can have multiple causes. Life skills: When pain is severe or prolonged, report to parents, teachers, or medical staff.",
           "3. Attributes",
           "- Raise their knowledge of health.",
           "- Show pupils how to take care of themselves and prevent common diseases.",
@@ -8226,7 +8226,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Activity 3. Let’s chant. (Track 50)\nStep 1: Have pupils scan the first verse of the chant. Draw their attention to the stress inWh-questions.Step 2: Play the first part of the recording and ask pupils to listen to and repeat the first verse, line by line. Show them how to chant and clap their hands.Step 3: Play the recording of the first verse again for pupils to do choral and individual repetition. Give corrections and feedback where necessary.Step 4: Repeat Steps 1 to 3 for the second verse of the chant. Draw pupils’ attention to the stress in Wh-questions.Extension: Replace some of the health problems in the chant with others, for example, a stomach ache, a sore throat, a cold, flu. Have pupils adjust the last sentence of each verse and practise the new chant.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Giải thích cần kiểm tra lời khuyên AI vì cùng một triệu chứng có thể có nhiều nguyên nhân.Kỹ năng sống: Khi đau nhiều hoặc kéo dài, cần báo cha mẹ, giáo viên hoặc nhân viên y tế.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Activity 3. Let’s chant. (Track 50)\nStep 1: Have pupils scan the first verse of the chant. Draw their attention to the stress inWh-questions.Step 2: Play the first part of the recording and ask pupils to listen to and repeat the first verse, line by line. Show them how to chant and clap their hands.Step 3: Play the recording of the first verse again for pupils to do choral and individual repetition. Give corrections and feedback where necessary.Step 4: Repeat Steps 1 to 3 for the second verse of the chant. Draw pupils’ attention to the stress in Wh-questions.Extension: Replace some of the health problems in the chant with others, for example, a stomach ache, a sore throat, a cold, flu. Have pupils adjust the last sentence of each verse and practise the new chant.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Explain the need to check AI advice because the same symptom can have multiple causes. Life skills: When pain is severe or prolonged, report to parents, teachers, or medical staff.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "Pupils scan the first verse of the chant. Pupils look at the stress in Wh-questions.Pupils listen to the first part of the recording and repeat the first verse, line by line.Pupils listen to the recording of the first verse again to do choral and individual repetition.Pupils follow the teacher’s instructions. Pupils look at the stress in Wh-questions.Pupils adjust the last sentence of each verse and practise the new chant.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8243,7 +8243,7 @@
       {
         "lessonTitle": "UNIT 15: OUR HEALTH - Lesson 3 - Period 6 (Period 102)",
         "topic": "Unit 15:Our health - Our health - Lesson 3(4, 5, 6)",
-        "period": "Tiết 102",
+        "period": "Period 102",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8255,7 +8255,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế bảng/poster số “Health problems and giving advice” bằng Canva/Google Slides.AI 4.A3: Chọn hình ảnh AI phù hợp lứa tuổi, không gây sợ hãi và không lộ thông tin sức khỏe cá nhân.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital table/poster titled “Health problems and giving advice” using Canva/Google Slides. AI 4.A3: Choose age-appropriate AI images that do not cause fear and do not reveal personal health information.",
           "3. Attributes",
           "- Raise their knowledge of health.",
           "- Show pupils how to take care of themselves and prevent common diseases.",
@@ -8293,7 +8293,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Activity 5. Let’s write.\nStep 1: Ask pupils to read the sentences about Minh, Linda and Linh’s health problems. Tell pupils that they need to give the characters advice. They should write about 40 words.Step 2: Give pupils enough time to write their advice. Let pupils work in pairs or groups to check each other’s work. Go around the classroom and give support when necessary.Step 3: Have some pupils read their advice aloud. Givecorrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế bảng/poster số “Health problems and giving advice” bằng Canva/Google Slides.AI 4.A3: Chọn hình ảnh AI phù hợp lứa tuổi, không gây sợ hãi và không lộ thông tin sức khỏe cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Activity 5. Let’s write.\nStep 1: Ask pupils to read the sentences about Minh, Linda and Linh’s health problems. Tell pupils that they need to give the characters advice. They should write about 40 words.Step 2: Give pupils enough time to write their advice. Let pupils work in pairs or groups to check each other’s work. Go around the classroom and give support when necessary.Step 3: Have some pupils read their advice aloud. Givecorrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital table/poster titled “Health problems and giving advice” using Canva/Google Slides. AI 4.A3: Choose age-appropriate AI images that do not cause fear and do not reveal personal health information.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "Pupils read the sentences about Minh’s, Linda’s and Linh’s health problems. Pupils listen to the teacher’s explanation.Pupils write their advice. Pupils work in pairs or groups for cross checks.Some pupils read their advice aloud.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8316,8 +8316,8 @@
       },
       {
         "lessonTitle": "REVIEW 3 - Period 1 (Period 103)",
-        "topic": "Review 3 – Part 1 - Ôn từ vựng, mẫu câu và kỹ năng trọng tâm của Units 11–15; luyện nghe, nói, đọc, viết theo dạng bài tổng hợp.",
-        "period": "Tiết 103",
+        "topic": "Review 3 – Part 1",
+        "period": "Period 103",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8329,7 +8329,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Kiểm tra đáp án bằng SGK, tranh, văn bản hoặc audio chính thức.AI 4.B2: Nhận biết câu trả lời AI có thể sai; tìm và sửa ít nhất một lỗi có căn cứ.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Check answers using textbooks, pictures, texts, or official audio. AI 4.B2: Recognize that AI answers can be wrong; find and correct at least one substantiated error.",
           "3. Attributes",
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Be honest in the learning tasks."
@@ -8374,7 +8374,7 @@
               "3. ACTIVITY 2: PRACTICE (10 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to Picture 1. Get them to look at the thought bubble and identify the activities (singing and dancing). Check pupils’ comprehension. Step 2: Draw pupils’ attention to the question that accompanies Picture 1 – What will we do on Children's Day? and have them read it. Have pupils use the activities in Linh’s thought bubble to answer the question.Step 3: Repeat Steps 1 and 2 with the rest of the questions.Step 4: Have pupils work in pairs to role-play the four exchanges. Go around the classroom to monitor the activity.Extension: Invite pairs of pupils to stand up and role-play one of the target exchanges, using their own information. Ask pupils to add or change some details in the questions if needed.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Kiểm tra đáp án bằng SGK, tranh, văn bản hoặc audio chính thức.AI 4.B2: Nhận biết câu trả lời AI có thể sai; tìm và sửa ít nhất một lỗi có căn cứ.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to Picture 1. Get them to look at the thought bubble and identify the activities (singing and dancing). Check pupils’ comprehension. Step 2: Draw pupils’ attention to the question that accompanies Picture 1 – What will we do on Children's Day? and have them read it. Have pupils use the activities in Linh’s thought bubble to answer the question.Step 3: Repeat Steps 1 and 2 with the rest of the questions.Step 4: Have pupils work in pairs to role-play the four exchanges. Go around the classroom to monitor the activity.Extension: Invite pairs of pupils to stand up and role-play one of the target exchanges, using their own information. Ask pupils to add or change some details in the questions if needed.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Check answers using textbooks, pictures, texts, or official audio. AI 4.B2: Recognize that AI answers can be wrong; find and correct at least one substantiated error.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the first picture. Pupils look at the bubble to identify the activity of the children shown in it.- Pupils look at Question 1. Pupils look at the bubble over Linh’s head to answer the question.- Pupils follow the teacher’s instructions with the rest of the questions.- Pupils work in pairs to role-play the four exchanges. - Pairs of pupils stand up and take it in turns to role-play the target exchanges.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8390,8 +8390,8 @@
       },
       {
         "lessonTitle": "REVIEW 3 - Period 2 (Period 104)",
-        "topic": "Review 3 – Part 2 - Ôn từ vựng, mẫu câu và kỹ năng trọng tâm của Units 11–15; luyện nghe, nói, đọc, viết theo dạng bài tổng hợp.",
-        "period": "Tiết 104",
+        "topic": "Review 3 – Part 2",
+        "period": "Period 104",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8403,7 +8403,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Kiểm tra đáp án bằng SGK, tranh, văn bản hoặc audio chính thức.AI 4.B2: Nhận biết câu trả lời AI có thể sai; tìm và sửa ít nhất một lỗi có căn cứ.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Check answers using textbooks, pictures, texts, or official audio. AI 4.B2: Recognize that AI answers can be wrong; find and correct at least one substantiated error.",
           "3. Attributes",
           "- Study hard to review the vocabulary and sentence patterns they have learnt.",
           "- Be honest in the learning tasks."
@@ -8455,15 +8455,15 @@
               "4. ACTIVITY 3: PRODUCTION (8 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of this activity: to read the questions and the word cue, and write about the last Mid-Autumn Festival. Tell pupils that they should write about 40 words. Check comprehension.Step 2: Read the first question as a class (When was the festival?). Tell pupils that they should answer this question to get information to complete the first sentence of the paragraph. Write the incomplete sentence on the board (The last Mid-Autumn Festival was ____.) and elicit what information is needed to finish the sentence (in followed by the month of the last Mid-Autumn Festival). Step 3: Ask pupils to read the other questions carefully and write their own answers to complete the passage.Step 4: If time allows, invite a few pupils to read their paragraphs to the class. Give feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Kiểm tra đáp án bằng SGK, tranh, văn bản hoặc audio chính thức.AI 4.B2: Nhận biết câu trả lời AI có thể sai; tìm và sửa ít nhất một lỗi có căn cứ.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of this activity: to read the questions and the word cue, and write about the last Mid-Autumn Festival. Tell pupils that they should write about 40 words. Check comprehension.Step 2: Read the first question as a class (When was the festival?). Tell pupils that they should answer this question to get information to complete the first sentence of the paragraph. Write the incomplete sentence on the board (The last Mid-Autumn Festival was ____.) and elicit what information is needed to finish the sentence (in followed by the month of the last Mid-Autumn Festival). Step 3: Ask pupils to read the other questions carefully and write their own answers to complete the passage.Step 4: If time allows, invite a few pupils to read their paragraphs to the class. Give feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Check answers using textbooks, pictures, texts, or official audio. AI 4.B2: Recognize that AI answers can be wrong; find and correct at least one substantiated error.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils follow the teacher’s explanation.- Pupils look at the first sentence with the gap on the board. Pupils read the sentence as a class. Pupils follow the teacher’s instructions.- Pupils follow the teacher’s instructions with the other questions.  Pupils read the questions carefully and write the answers to complete the lines in the passage.- A few pupils read the sentences they have completed/written aloud in front of the class. The class observes and praises their work.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
               "5. FUN CORNER AND WRAP-UP (7 minutes)"
             ],
             [
-              "GIÁO VIÊN",
-              "DUYỆT TỔ TRƯỞNG"
+              "TEACHER",
+              "HEAD OF DEPARTMENT"
             ]
           ]
         ],
@@ -8477,13 +8477,13 @@
     "lessons": [
       {
         "lessonTitle": "REVIEW 3 - Period 3 - Extension activities (Period 105)",
-        "topic": "Extension activities 3 - Vận dụng ngôn ngữ của Units 11–15 qua trò chơi, nhiệm vụ nhóm và sản phẩm ngắn.",
-        "period": "Tiết 105",
+        "topic": "Extension activities 3 - V",
+        "period": "Period 105",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.4.CB1a; 3.1.CB1a: Hợp tác và tạo/chỉnh sửa sản phẩm số đơn giản theo mẫu GV.AI 4.A3: Chỉ sử dụng gợi ý AI sau khi kiểm tra độ chính xác, phù hợp và an toàn."
+          "+ Digital competence & AI literacy: NLS 2.4.CB1a; 3.1.CB1a: Collaborate and create/edit simple digital products following teacher templates. AI 4.A3: Only use AI suggestions after checking accuracy, suitability, and safety."
         ],
         "dodung": [
           "B. TEACHING AIDS:",
@@ -8532,7 +8532,7 @@
               "4. ACTIVITY 3: PRODUCTION (5 minutes)"
             ],
             [
-              "Step 1: Tell the class that they are going to create a healthy breakfast and present it to the class. They need to think of four food and drink items to create the breakfast. Step 2: Draw pupils’ attention to the picture and have them identify the bowl and the blank spaces. Tell them they will need to write the food and drink items in the spaces. Have a pupil identify Ben and read his speech bubble aloud. Step 3: Ask pupils what they usually eat for breakfast. Make a list of their answers on the board. Ask Is this food/drink healthy? And allow pupils to respond. If they identify an unhealthy item, ask them for a healthy replacement.Step 4: Have pupils create their healthy breakfast by writing down the food and drink items. If time allows, encourage pupils to draw their breakfasts.  Step 5: Have pupils check their answers in pairs. Go around the classroom to check that the foods/drinks used are healthy and that the words are spelt correctly. Invite a few pupils to share their healthy breakfasts with the class. Model your own healthy breakfast if necessary, e.g. This is my healthy breakfast. I’d like to have bread, an egg and an apple. Put pupils into groups of four and have them present their healthy breakfasts to each other. Monitor and provide support if necessary. Extension: Have pupils create a healthy lunch and dinner and present them to the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB1a; 3.1.CB1a: Hợp tác và tạo/chỉnh sửa sản phẩm số đơn giản theo mẫu GV.AI 4.A3: Chỉ sử dụng gợi ý AI sau khi kiểm tra độ chính xác, phù hợp và an toàn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class that they are going to create a healthy breakfast and present it to the class. They need to think of four food and drink items to create the breakfast. Step 2: Draw pupils’ attention to the picture and have them identify the bowl and the blank spaces. Tell them they will need to write the food and drink items in the spaces. Have a pupil identify Ben and read his speech bubble aloud. Step 3: Ask pupils what they usually eat for breakfast. Make a list of their answers on the board. Ask Is this food/drink healthy? And allow pupils to respond. If they identify an unhealthy item, ask them for a healthy replacement.Step 4: Have pupils create their healthy breakfast by writing down the food and drink items. If time allows, encourage pupils to draw their breakfasts.  Step 5: Have pupils check their answers in pairs. Go around the classroom to check that the foods/drinks used are healthy and that the words are spelt correctly. Invite a few pupils to share their healthy breakfasts with the class. Model your own healthy breakfast if necessary, e.g. This is my healthy breakfast. I’d like to have bread, an egg and an apple. Put pupils into groups of four and have them present their healthy breakfasts to each other. Monitor and provide support if necessary. Extension: Have pupils create a healthy lunch and dinner and present them to the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB1a; 3.1.CB1a: Collaborate and create/edit simple digital products following teacher templates. AI 4.A3: Only use AI suggestions after checking accuracy, suitability, and safety.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils look at the picture, identify the bowl and the blank spaces. Pupils answer the questions.- Pupils listen and answer the questions.- Pupils write down the food and drink items.- Pupils work in pairs. A few pupils come to the front of the class and present their work to the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8549,7 +8549,7 @@
       {
         "lessonTitle": "UNIT 16: SEASONS AND THE WEATHER - Lesson 1 - Period 1 (Period 106)",
         "topic": "Unit 16:Seasons andthe weather - Seasons and the weather -Lesson 1(1, 2, 3)",
-        "period": "Tiết 106",
+        "period": "Period 106",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8563,7 +8563,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI/ứng dụng thời tiết có thể nhận diện biểu tượng và mô tả thời tiết từ hình ảnh; cần phân biệt dự báo với thời tiết thực tế.GDĐP - Môi trường: Liên hệ mùa và thời tiết ở địa phương; nhận biết sự khác nhau giữa các vùng khí hậu.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI/weather apps can recognize icons and describe weather from images; distinguish forecasts from actual weather. Local integration - Environment: Relate seasons and weather in the locality; recognize differences among climate regions.",
           "3. Attributes",
           "- Show their love and interest in the weather and seasons.",
           "- Express their knowledge about the weather of each season.",
@@ -8617,7 +8617,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to each picture. Ask questions to revise the relevant seasons and the weather concepts.Step 2: Elicit pupils’ answers to the questions and write them on the board. Get pupils to say the completed questions and answers.Step 3: Put pupils into pairs to take turns asking and answering questions about the weather in different seasons pointing at the pictures. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the classroom. They can use the pictures in relation to this section to take turns asking and answering questions about the weather in different seasons.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI/ứng dụng thời tiết có thể nhận diện biểu tượng và mô tả thời tiết từ hình ảnh; cần phân biệt dự báo với thời tiết thực tế.GDĐP - Môi trường: Liên hệ mùa và thời tiết ở địa phương; nhận biết sự khác nhau giữa các vùng khí hậu.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to each picture. Ask questions to revise the relevant seasons and the weather concepts.Step 2: Elicit pupils’ answers to the questions and write them on the board. Get pupils to say the completed questions and answers.Step 3: Put pupils into pairs to take turns asking and answering questions about the weather in different seasons pointing at the pictures. Go around the classroom to offer support where necessary.Step 4: Invite a few pairs to the front of the classroom. They can use the pictures in relation to this section to take turns asking and answering questions about the weather in different seasons.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI/weather apps can recognize icons and describe weather from images; distinguish forecasts from actual weather. Local integration - Environment: Relate seasons and weather in the locality; recognize differences among climate regions.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at each picture and answer the questions to revise the relevant seasons and the weather.- Pupils follow the teacher’s instructions. Pupils say the completed questions and answers.- Pupils work in pairs to take turns asking and answering questions about the weather in different seasons pointing at the pictures. - A few pairs come to the front of the classroom, take turns asking and answering questions about the weather in different seasons.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8634,7 +8634,7 @@
       {
         "lessonTitle": "UNIT 16: SEASONS AND THE WEATHER - Lesson 1 - Period 2 (Period 107)",
         "topic": "Unit 16:Seasons andthe weather - Seasons and the weather -Lesson 1(4, 5, 6)",
-        "period": "Tiết 107",
+        "period": "Period 107",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8646,7 +8646,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Tìm và đọc thông tin thời tiết đơn giản từ nguồn số phù hợp lứa tuổi; đối chiếu với quan sát thực tế trước khi kết luận.Kỹ năng sống: Chọn hoạt động ngoài trời phù hợp với nắng, mưa, nóng, lạnh; biết báo người lớn khi thời tiết bất lợi.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Find and read simple weather information from age-appropriate digital sources; cross-check with actual observations before concluding. Life skills: Choose outdoor activities suitable for sunshine, rain, heat, and cold; know to inform adults during unfavorable weather.",
           "3. Attributes",
           "- Show their love and interest in the weather and seasons.",
           "- Express their feelings about the weather of each season.",
@@ -8700,7 +8700,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the song lyrics and point at the relevant pictures.Step 2: Play the recording for them to listen to and become familiar with the melody and rhythm.Step 3: Play the recording again for pupils to listen and sing along before practising the song in teams or in pairs.Step 4: Put pupils into groups to practise singing the song and do actions.Step 5: Invite a few groups to the front of the class to take turns singing the questions and answers of the song. The rest of the class can clap along or do actions.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Tìm và đọc thông tin thời tiết đơn giản từ nguồn số phù hợp lứa tuổi; đối chiếu với quan sát thực tế trước khi kết luận.Kỹ năng sống: Chọn hoạt động ngoài trời phù hợp với nắng, mưa, nóng, lạnh; biết báo người lớn khi thời tiết bất lợi.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the song lyrics and point at the relevant pictures.Step 2: Play the recording for them to listen to and become familiar with the melody and rhythm.Step 3: Play the recording again for pupils to listen and sing along before practising the song in teams or in pairs.Step 4: Put pupils into groups to practise singing the song and do actions.Step 5: Invite a few groups to the front of the class to take turns singing the questions and answers of the song. The rest of the class can clap along or do actions.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Find and read simple weather information from age-appropriate digital sources; cross-check with actual observations before concluding. Life skills: Choose outdoor activities suitable for sunshine, rain, heat, and cold; know to inform adults during unfavorable weather.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the song lyrics and point at the relevant pictures.- Pupils listen to the recording.- Pupils listen to the recording again and sing along before practising the song in teams or in pairs.- Pupils work into teams to practise singing the song and do actions.- A few teams come to the front of the class to take turns singing the questions and answers of the song. The rest of the class can clap along or do actions.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8717,7 +8717,7 @@
       {
         "lessonTitle": "UNIT 16: SEASONS AND THE WEATHER - Lesson 2 - Period 3 (Period 108)",
         "topic": "Unit 16:Seasons andthe weather - Seasons and the weather -Lesson 2(1, 2, 3)",
-        "period": "Tiết 108",
+        "period": "Period 108",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8730,7 +8730,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết AI có thể gợi ý trang phục theo mùa/thời tiết nhưng người dùng cần tự kiểm tra điều kiện thực tế và lựa chọn phù hợp.Giáo dục sức khỏe: Mặc trang phục phù hợp thời tiết; chú ý giữ ấm khi lạnh và bảo vệ cơ thể khi trời nóng.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI can suggest clothing according to seasons/weather, but users need to self-check actual conditions and make appropriate choices. Health education: Wear weather-appropriate clothing; pay attention to keeping warm in the cold and protecting the body in the heat.",
           "3. Attributes",
           "- Show their love and interest in the weather and seasons.",
           "- Express their feelings about the weather of each season.",
@@ -8784,7 +8784,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the pictures and elicit the seasons and pieces of clothing. Encourage them to answer the questions What’s the weather like in Ha Noi in ____? and What do you usually wear in ____? Correct their answers where necessary. Remind pupils that these questions and responses are used to talk about the weather and clothing choices in different seasons in Ha Noi. Write the words to complete the questions and answers on the board. Divide the class into two groups, telling them to take turns asking and answering the questions in chorus.Step 2: Give pupils time to work in pairs and take turns pointing at each picture to ask and answer. Circulate around the classroom and provide assistance where necessary.Step 3: Invite a few pairs to come to the front of the class to take turns role-playing the exchanges. Extension: Invite a few pairs to take turns asking and answering about the weather and what they wear in different seasons in their own city / town / area.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết AI có thể gợi ý trang phục theo mùa/thời tiết nhưng người dùng cần tự kiểm tra điều kiện thực tế và lựa chọn phù hợp.Giáo dục sức khỏe: Mặc trang phục phù hợp thời tiết; chú ý giữ ấm khi lạnh và bảo vệ cơ thể khi trời nóng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the pictures and elicit the seasons and pieces of clothing. Encourage them to answer the questions What’s the weather like in Ha Noi in ____? and What do you usually wear in ____? Correct their answers where necessary. Remind pupils that these questions and responses are used to talk about the weather and clothing choices in different seasons in Ha Noi. Write the words to complete the questions and answers on the board. Divide the class into two groups, telling them to take turns asking and answering the questions in chorus.Step 2: Give pupils time to work in pairs and take turns pointing at each picture to ask and answer. Circulate around the classroom and provide assistance where necessary.Step 3: Invite a few pairs to come to the front of the class to take turns role-playing the exchanges. Extension: Invite a few pairs to take turns asking and answering about the weather and what they wear in different seasons in their own city / town / area.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI can suggest clothing according to seasons/weather, but users need to self-check actual conditions and make appropriate choices. Health education: Wear weather-appropriate clothing; pay attention to keeping warm in the cold and protecting the body in the heat.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and elicit the seasons and pieces of clothing. Pupils listen to the teacher’s explanation. Pupils take turns asking and answering the questions in chorus.- Pupils work in pairs and take turns pointing at each picture to ask and answer.- A few pairs come to the front of the class to take turns role-playing the exchanges. - A few pairs take turns asking and answering about the weather and what they wear in different seasons in their own city / town / area.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8807,7 +8807,7 @@
       {
         "lessonTitle": "UNIT 16: SEASONS AND THE WEATHER - Lesson 2 - Period 4 (Period 109)",
         "topic": "Unit 16:Seasons andthe weather - Seasons and the weather -Lesson 2(4, 5, 6)",
-        "period": "Tiết 109",
+        "period": "Period 109",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8819,7 +8819,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Sử dụng bảng/phiếu số đơn giản để ghép Season - Weather - Clothes và kiểm tra tính hợp lý của kết quả.NLS 4.2.CB2b: Không chia sẻ vị trí chính xác chỉ để hỏi thời tiết; ưu tiên nhập tên tỉnh/thành phố khi đủ dùng.",
+          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Use simple digital tables/forms to match Season - Weather - Clothes and check the rationality of results. NLS 4.2.CB2b: Do not share exact locations just to ask about the weather; prioritize entering province/city names when sufficient.",
           "3. Attributes",
           "- Show their love and interest in the weather and seasons.",
           "- Express their feelings about the weather of each season.",
@@ -8873,7 +8873,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the four pictures in Let’s talk on page 43 and the questions on the board. Introduce and explain how to play the game: The class is divided into pairs or teams A and B. The two team members must make the questions and answers about the weather for each season and what outfits people usually wear as fast as possible. Which team makes sentences faster and says them correctly will be the winners.Step 2: Give pupils a time limit to play the game and go around the class to offer help where necessary.Step 3: When the time limit is over, nominate pairs of teams to check the questions and answers. Have the teams stand up at their desk, make the sentences and encourage the rest of pupils to cheer up when the sentences are made and spoken correctly.Step 4: Invite a few teams to read aloud their sentences.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Sử dụng bảng/phiếu số đơn giản để ghép Season - Weather - Clothes và kiểm tra tính hợp lý của kết quả.NLS 4.2.CB2b: Không chia sẻ vị trí chính xác chỉ để hỏi thời tiết; ưu tiên nhập tên tỉnh/thành phố khi đủ dùng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the four pictures in Let’s talk on page 43 and the questions on the board. Introduce and explain how to play the game: The class is divided into pairs or teams A and B. The two team members must make the questions and answers about the weather for each season and what outfits people usually wear as fast as possible. Which team makes sentences faster and says them correctly will be the winners.Step 2: Give pupils a time limit to play the game and go around the class to offer help where necessary.Step 3: When the time limit is over, nominate pairs of teams to check the questions and answers. Have the teams stand up at their desk, make the sentences and encourage the rest of pupils to cheer up when the sentences are made and spoken correctly.Step 4: Invite a few teams to read aloud their sentences.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Use simple digital tables/forms to match Season - Weather - Clothes and check the rationality of results. NLS 4.2.CB2b: Do not share exact locations just to ask about the weather; prioritize entering province/city names when sufficient.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the four pictures in Let’s talk on page 43 and the question on the board. Pupils listen to the teacher’s explanation to play the game.- Pupils play the game.- Pairs of teams check the questions and answers. The teams stand up at their desk, make the sentences and the rest of pupils cheer up when the sentences are made and spoken correctly.- A few teams read aloud their sentences.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8890,7 +8890,7 @@
       {
         "lessonTitle": "UNIT 16: SEASONS AND THE WEATHER - Lesson 3 - Period 5 (Period 110)",
         "topic": "Unit 16:Seasons andthe weather - Seasons and the weather -Lesson 3(1, 2, 3)",
-        "period": "Tiết 110",
+        "period": "Period 110",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8902,7 +8902,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Giải thích vì sao dự báo/gợi ý của AI có thể chưa chính xác: dữ liệu thay đổi theo thời gian, địa điểm và điều kiện khí hậu.Địa lí - GDĐP: Nhận biết miền Bắc thường có bốn mùa; miền Nam có mùa khô và mùa mưa; liên hệ thời tiết nơi em sống.",
+          "+ Digital competence & AI literacy: AI 4.B2: Explain why AI forecasts/suggestions may not be accurate: data changes over time, location, and climate conditions. Geography - Local integration: Recognize that Northern Vietnam usually has four seasons; the Southern region has dry and rainy seasons; relate to the weather where you live.",
           "3. Attributes",
           "- Show their love and interest in the weather and seasons.",
           "- Express their feelings about the weather of each season.",
@@ -8956,7 +8956,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils look at the pictures and identify the seasons and the outfits that the children are wearing.Step 2: Have pupils read the first verse of the chant. Check comprehension.Step 3: Play the recording of the first verse for pupils to follow in their books. Play the recording again, line by line, for pupils to listen and repeat. Draw their attention to the pronunciation, word stress, rhythm, and intonation. Encourage them to clap and do actions while chanting.Step 4: Repeat Steps 2 and 3 for the second verse of the chant.Step 5: Play the recording all the way through for pupils to chant along and clap their hands in rhythm.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Giải thích vì sao dự báo/gợi ý của AI có thể chưa chính xác: dữ liệu thay đổi theo thời gian, địa điểm và điều kiện khí hậu.Địa lí - GDĐP: Nhận biết miền Bắc thường có bốn mùa; miền Nam có mùa khô và mùa mưa; liên hệ thời tiết nơi em sống.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils look at the pictures and identify the seasons and the outfits that the children are wearing.Step 2: Have pupils read the first verse of the chant. Check comprehension.Step 3: Play the recording of the first verse for pupils to follow in their books. Play the recording again, line by line, for pupils to listen and repeat. Draw their attention to the pronunciation, word stress, rhythm, and intonation. Encourage them to clap and do actions while chanting.Step 4: Repeat Steps 2 and 3 for the second verse of the chant.Step 5: Play the recording all the way through for pupils to chant along and clap their hands in rhythm.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Explain why AI forecasts/suggestions may not be accurate: data changes over time, location, and climate conditions. Geography - Local integration: Recognize that Northern Vietnam usually has four seasons; the Southern region has dry and rainy seasons; relate to the weather where you live.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the seasons and the outfits that the children are wearing.- Pupils read the first verse of the chant.- Pupils listen to the recording of the first verse to follow in their books. Pupils listen to the recording again, line by line, and repeat. Pupils clap and do actions while chanting.- Pupils follow the teacher’s instructions with the second verse of the chant.- Pupils listen to the recording all the way through to chant along and clap their hands in rhythm.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -8973,7 +8973,7 @@
       {
         "lessonTitle": "UNIT 16: SEASONS AND THE WEATHER - Lesson 3 - Period 6 (Period 111)",
         "topic": "Unit 16:Seasons andthe weather - Seasons and the weather -Lesson 3(4, 5, 6)",
-        "period": "Tiết 111",
+        "period": "Period 111",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -8986,7 +8986,7 @@
           "- Communication and collaboration: work in pairs and teams to complete the learning tasks",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế poster số “Seasons and the weather” bằng Canva/Google Slides với thông tin mùa, thời tiết và trang phục điển hình.AI 4.A3: Chọn hình ảnh AI phù hợp với mùa/thời tiết, kiểm tra chi tiết trước khi sử dụng và không đưa thông tin vị trí cá nhân vào sản phẩm.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a digital poster titled “Seasons and the weather” using Canva/Google Slides with information on seasons, weather, and typical clothing. AI 4.A3: Choose AI images suitable for seasons/weather, check details before use, and do not include personal location information in products.",
           "3. Attributes",
           "- Show their love and interest in the weather and seasons.",
           "- Express their feelings about the weather of each season.",
@@ -9032,7 +9032,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity and explain that they should answer the questions based on the true facts. Tell pupils that they should write about 30 words.Step 2: Give an example with Question 1: There are only two seasons in Can Tho: the dry season and the rainy season.Step 3: Give pupils time to do the writing task independently. Go around the classroom and offer help where necessary. Step 4: Get pupils to swap books with a partner and check their answers before checking as a class. Step 5: Invite one or two pupils to stand up and read aloud their paragraphs. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế poster số “Seasons and the weather” bằng Canva/Google Slides với thông tin mùa, thời tiết và trang phục điển hình.AI 4.A3: Chọn hình ảnh AI phù hợp với mùa/thời tiết, kiểm tra chi tiết trước khi sử dụng và không đưa thông tin vị trí cá nhân vào sản phẩm.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of the activity and explain that they should answer the questions based on the true facts. Tell pupils that they should write about 30 words.Step 2: Give an example with Question 1: There are only two seasons in Can Tho: the dry season and the rainy season.Step 3: Give pupils time to do the writing task independently. Go around the classroom and offer help where necessary. Step 4: Get pupils to swap books with a partner and check their answers before checking as a class. Step 5: Invite one or two pupils to stand up and read aloud their paragraphs. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a digital poster titled “Seasons and the weather” using Canva/Google Slides with information on seasons, weather, and typical clothing. AI 4.A3: Choose AI images suitable for seasons/weather, check details before use, and do not include personal location information in products.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation. - Pupils follow the teacher demonstrating Question 1.- Pupils do the writing task independently.- Pupils swap books with a partner and check their answers before checking as a class.- One or two pupils stand up and read aloud their paragraphs.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9056,7 +9056,7 @@
       {
         "lessonTitle": "UNIT 17: STORIES FOR CHILDREN - Lesson 1 - Period 1 (Period 112)",
         "topic": "Unit 17:Stories forchildren - Stories for children -Lesson 1(1, 2, 3)",
-        "period": "Tiết 112",
+        "period": "Period 112",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9069,7 +9069,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI có thể nhận diện nhân vật và bối cảnh trong tranh truyện, nhưng cần đối chiếu với nội dung truyện trước khi xác định nhân vật chính.Tiếng Việt - Đạo đức: Nhận diện nhân vật chính trong truyện; trao đổi về phẩm chất và bài học từ truyện thiếu nhi.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI can recognize characters and settings in story pictures, but need to cross-check with story content before identifying main characters. Vietnamese - Ethics: Identify main characters in stories; discuss qualities and lessons from children's stories.",
           "3. Attributes",
           "- Show their pride in school things they have and great respect for other people’s school things by using appropriate gestures and intonation when asking and answering about school things."
         ],
@@ -9121,15 +9121,15 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the picture. Ask questions to help them identify the main characters.Step 2: Point at some characters (e.g. the tortoise) and elicit the answer in the second speech bubble (They’re the tortoise and the hare.) as an example.Step 3: Put pupils into pairs to ask and answer questions about the characters in the stories. Go around and offer support where necessary.Step 4: Invite a few pairs to the front of the classroom to ask and answer questions about the main characters in a story.Extension: Have pupils brainstorm some other characters in pupils’s stories. For example, the little red hen, Totto-chan, Cinderella, the very hungry caterpillar.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI có thể nhận diện nhân vật và bối cảnh trong tranh truyện, nhưng cần đối chiếu với nội dung truyện trước khi xác định nhân vật chính.Tiếng Việt - Đạo đức: Nhận diện nhân vật chính trong truyện; trao đổi về phẩm chất và bài học từ truyện thiếu nhi.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the picture. Ask questions to help them identify the main characters.Step 2: Point at some characters (e.g. the tortoise) and elicit the answer in the second speech bubble (They’re the tortoise and the hare.) as an example.Step 3: Put pupils into pairs to ask and answer questions about the characters in the stories. Go around and offer support where necessary.Step 4: Invite a few pairs to the front of the classroom to ask and answer questions about the main characters in a story.Extension: Have pupils brainstorm some other characters in pupils’s stories. For example, the little red hen, Totto-chan, Cinderella, the very hungry caterpillar.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI can recognize characters and settings in story pictures, but need to cross-check with story content before identifying main characters. Vietnamese - Ethics: Identify main characters in stories; discuss qualities and lessons from children's stories.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture and identify the main characters.- Pupils follow the teacher demonstrating the example.-  Pupils work in pairs to ask and answer questions about the characters in the stories.- A few pairs come to the front of the classroom to ask and answer questions about the main characters in a story.- Pupils brainstorm some other characters in pupils' stories.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
               "5. FUN CORNER AND WRAP-UP (7 minutes)"
             ],
             [
-              "GIÁO VIÊNPhạm Thị Kiều Dung",
-              "DUYỆT TỔ TRƯỞNGNguyễn Văn Thưởng"
+              "TEACHER: Pham Thi Kieu Dung",
+              "HEAD OF DEPARTMENT: Nguyen Van Thuong"
             ]
           ]
         ],
@@ -9144,7 +9144,7 @@
       {
         "lessonTitle": "UNIT 17: STORIES FOR CHILDREN - Lesson 1 - Period 2 (Period 113)",
         "topic": "Unit 17:Stories forchildren - Stories for children -Lesson 1(4, 5, 6)",
-        "period": "Tiết 113",
+        "period": "Period 113",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9156,7 +9156,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Tìm truyện thiếu nhi ngắn trên nguồn số phù hợp lứa tuổi bằng từ khóa đơn giản; kiểm tra tên truyện, nhân vật và nguồn trước khi sử dụng.Văn hóa đọc: Hình thành thói quen đọc truyện phù hợp lứa tuổi; biết nêu nhân vật em thích và lý do bằng ngôn ngữ lịch sự.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Find short children's stories on age-appropriate digital sources using simple keywords; check story titles, characters, and sources before use. Reading culture: Form age-appropriate reading habits; state favorite characters and reasons using polite language.",
           "3. Attributes",
           "- Show their pride in school things they have and great respect for other people’s school things by using appropriate gestures and intonation when asking and answering about school things."
         ],
@@ -9208,7 +9208,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Divide the class into 8 or 10 groups. Each group pretends to be one character and prepares one or two sentences about the character. Use the illustration as an example to demonstrate how to play the game.Step 2: Each group reads the sentence aloud and the other groups guess what character it is. The groups raise their hands to get a turn to answer. The group with the correct answer gets one point.Step 3: After 4 minutes, the group with the most points is the winner.Step 4: Get pupils to play the game in pairs.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Tìm truyện thiếu nhi ngắn trên nguồn số phù hợp lứa tuổi bằng từ khóa đơn giản; kiểm tra tên truyện, nhân vật và nguồn trước khi sử dụng.Văn hóa đọc: Hình thành thói quen đọc truyện phù hợp lứa tuổi; biết nêu nhân vật em thích và lý do bằng ngôn ngữ lịch sự.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Divide the class into 8 or 10 groups. Each group pretends to be one character and prepares one or two sentences about the character. Use the illustration as an example to demonstrate how to play the game.Step 2: Each group reads the sentence aloud and the other groups guess what character it is. The groups raise their hands to get a turn to answer. The group with the correct answer gets one point.Step 3: After 4 minutes, the group with the most points is the winner.Step 4: Get pupils to play the game in pairs.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Find short children's stories on age-appropriate digital sources using simple keywords; check story titles, characters, and sources before use. Reading culture: Form age-appropriate reading habits; state favorite characters and reasons using polite language.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils work in 8 or 10 groups. Each group pretends to be one character and prepares one or two sentences about the character.- Pupils follow the teacher’s instructions.- Pupils play the game in pairs.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9225,7 +9225,7 @@
       {
         "lessonTitle": "UNIT 17: STORIES FOR CHILDREN - Lesson 2 - Period 3 (Period 114)",
         "topic": "Unit 17:Stories forchildren - Stories for children -Lesson 2(1, 2, 3)",
-        "period": "Tiết 114",
+        "period": "Period 114",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9238,7 +9238,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết AI có thể gợi ý từ/cụm từ mô tả hành động của nhân vật; HS lựa chọn và kiểm tra với tranh, ngữ cảnh và mẫu câu trong bài.Tiếng Việt: Phân biệt nhân vật và hành động; dùng trạng từ phù hợp để kể cách nhân vật thực hiện hành động.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI can suggest words/phrases describing character actions; students select and check with pictures, contexts, and sentence patterns in the lesson. Vietnamese: Distinguish characters and actions; use appropriate adverbs to narrate how characters perform actions.",
           "3. Attributes",
           "- Show their love and interest in reading books, especially Vietnamese fairy tales.",
           "- Recognise what the character is like."
@@ -9291,7 +9291,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to look at the picture and elicit the titles of the stories and the names of the main characters. Remind pupils that How did _____? and – He / She ___. are used to ask and answer questions about how someone did something.Step 2: Demonstrate the conversation with one pupil in front of the class using the three suggested question structures in the speech bubbles.Step 3: Give pupils time to work in pairs and take turns pointing at the pictures and asking and answering questions about a character in a story. Step 4: Invite a few pairs to come to the front of the classroom and act out the exchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết AI có thể gợi ý từ/cụm từ mô tả hành động của nhân vật; HS lựa chọn và kiểm tra với tranh, ngữ cảnh và mẫu câu trong bài.Tiếng Việt: Phân biệt nhân vật và hành động; dùng trạng từ phù hợp để kể cách nhân vật thực hiện hành động.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to look at the picture and elicit the titles of the stories and the names of the main characters. Remind pupils that How did _____? and – He / She ___. are used to ask and answer questions about how someone did something.Step 2: Demonstrate the conversation with one pupil in front of the class using the three suggested question structures in the speech bubbles.Step 3: Give pupils time to work in pairs and take turns pointing at the pictures and asking and answering questions about a character in a story. Step 4: Invite a few pairs to come to the front of the classroom and act out the exchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI can suggest words/phrases describing character actions; students select and check with pictures, contexts, and sentence patterns in the lesson. Vietnamese: Distinguish characters and actions; use appropriate adverbs to narrate how characters perform actions.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture and elicit the titles of the stories and the names of the main characters. Pupils follow the teacher’s explanation.- Pupils work in pairs and take turns pointing at the pictures. Pupils ask and answer questions about a character in a story.- A few pairs come to the front of the classroom and act out the exchanges.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9308,7 +9308,7 @@
       {
         "lessonTitle": "UNIT 17: STORIES FOR CHILDREN - Lesson 2 - Period 4 (Period 115)",
         "topic": "Unit 17:Stories forchildren - Stories for children -Lesson 2(4, 5, 6)",
-        "period": "Tiết 115",
+        "period": "Period 115",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9320,7 +9320,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.4.CB2a: Hợp tác trên bảng/slide số đơn giản để sắp xếp Character - Action - How; chỉ dùng tài khoản/lớp học số do giáo viên hướng dẫn.Đạo đức: Liên hệ bài học về chăm chỉ, kiên trì, khiêm tốn và biết giữ lời hứa qua các truyện quen thuộc.",
+          "+ Digital competence & AI literacy: NLS 2.4.CB2a: Collaborate on simple digital boards/slides to arrange Character - Action - How; only use digital accounts/classrooms guided by teachers. Ethics: Connect lessons on diligence, persistence, modesty, and keeping promises through familiar stories.",
           "3. Attributes",
           "- Show their love and interest in reading books, especially Vietnamese fairy tales.",
           "- Recognise what the character is like."
@@ -9373,7 +9373,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils the aim of the activity: They listen to the song and fill in the gaps in the lyrics and sing it with correct pronunciation, rhythm, and melody.Step 2: Have pupils read the lyrics and guess the word(s) to fill in the gaps with the help of picture.Step 3: Have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary.Step 4: Play the recording and let them listen to and practise singing the song, line by line, until they feel confident. Then have pupils listen to and sing the whole song while clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB2a: Hợp tác trên bảng/slide số đơn giản để sắp xếp Character - Action - How; chỉ dùng tài khoản/lớp học số do giáo viên hướng dẫn.Đạo đức: Liên hệ bài học về chăm chỉ, kiên trì, khiêm tốn và biết giữ lời hứa qua các truyện quen thuộc.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils the aim of the activity: They listen to the song and fill in the gaps in the lyrics and sing it with correct pronunciation, rhythm, and melody.Step 2: Have pupils read the lyrics and guess the word(s) to fill in the gaps with the help of picture.Step 3: Have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary.Step 4: Play the recording and let them listen to and practise singing the song, line by line, until they feel confident. Then have pupils listen to and sing the whole song while clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB2a: Collaborate on simple digital boards/slides to arrange Character - Action - How; only use digital accounts/classrooms guided by teachers. Ethics: Connect lessons on diligence, persistence, modesty, and keeping promises through familiar stories.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils read the lyrics and guess the word(s) to fill in the gaps with the help of picture.- Pupils listen to the song and fill in the gaps. - Pupils listen to the recording and practise singing the song, line by line. Then pupils listen to and sing the whole song while clapping their hands.- A few groups come to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9390,7 +9390,7 @@
       {
         "lessonTitle": "UNIT 17: STORIES FOR CHILDREN - Lesson 3 - Period 5 (Period 116)",
         "topic": "Unit 17:Stories forchildren - Stories for children -Lesson 3(1, 2, 3)",
-        "period": "Tiết 116",
+        "period": "Period 116",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9402,7 +9402,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Giải thích vì sao AI có thể nhầm hoặc thêm chi tiết khi tóm tắt truyện; biết kiểm chứng tên nhân vật, sự việc và kết quả bằng văn bản gốc.Tiếng Việt - Kỹ năng sống: Đọc hiểu truyện The Fox and the Crow; nhận biết trình tự sự việc và rút ra bài học về sự tỉnh táo, không nhẹ dạ trước lời nịnh.",
+          "+ Digital competence & AI literacy: AI 4.B2: Explain why AI may make mistakes or add details when summarizing stories; verify character names, events, and results using original texts. Vietnamese - Life skills: Read and understand the story The Fox and the Crow; recognize event sequences and draw lessons on alertness and not being gullible to flattery.",
           "3. Attributes",
           "- Show their love and interest in reading books, especially Vietnamese fairy tales.",
           "- Recognise what the character is like."
@@ -9455,7 +9455,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the lyrics of the chant. Then get them to look at the pictures to reinforce their understanding. Check comprehension.Step 2: Play the recording all the way through for pupils to listen tothe whole chant. Encourage them to listen carefully to the stressed words. Play it again line by line, for pupils to listen and repeat. Draw their attention to the pronunciation and rhythm. Encourage them to clap while chanting.Step 3: Divide the class into two groups to take turns listening to and repeating the chant, while the rest of the class claps along.Extension: If time allows, invite a few groups to say the chant in front of the class. The rest of the class chant and clap along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Giải thích vì sao AI có thể nhầm hoặc thêm chi tiết khi tóm tắt truyện; biết kiểm chứng tên nhân vật, sự việc và kết quả bằng văn bản gốc.Tiếng Việt - Kỹ năng sống: Đọc hiểu truyện The Fox and the Crow; nhận biết trình tự sự việc và rút ra bài học về sự tỉnh táo, không nhẹ dạ trước lời nịnh.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the lyrics of the chant. Then get them to look at the pictures to reinforce their understanding. Check comprehension.Step 2: Play the recording all the way through for pupils to listen tothe whole chant. Encourage them to listen carefully to the stressed words. Play it again line by line, for pupils to listen and repeat. Draw their attention to the pronunciation and rhythm. Encourage them to clap while chanting.Step 3: Divide the class into two groups to take turns listening to and repeating the chant, while the rest of the class claps along.Extension: If time allows, invite a few groups to say the chant in front of the class. The rest of the class chant and clap along.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Explain why AI may make mistakes or add details when summarizing stories; verify character names, events, and results using original texts. Vietnamese - Life skills: Read and understand the story The Fox and the Crow; recognize event sequences and draw lessons on alertness and not being gullible to flattery.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the lyrics of the chant. Then pupils look at the pictures to reinforce their understanding.- Pupils listen to the whole chant, paying attention to the stressed words. Pupils listen again and repeat line by line. Pupils clap while chanting.- Pupils work in two groups to take turns listening to and repeating the chant, while the rest of the class claps along.- A few groups chant in front of the class. The rest of the class chant and clap along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9478,7 +9478,7 @@
       {
         "lessonTitle": "UNIT 17: STORIES FOR CHILDREN - Lesson 3 - Period 6 (Period 117)",
         "topic": "Unit 17:Stories forchildren - Stories for children -Lesson 3(4, 5, 6)",
-        "period": "Tiết 117",
+        "period": "Period 117",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9490,7 +9490,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế Character Map hoặc 3-4 slide kể lại một truyện thiếu nhi bằng Canva/Google Slides theo mẫu Character - Actions - Words - Thoughts.AI 4.A3: Chọn hình ảnh AI minh họa phù hợp nội dung truyện, kiểm tra chi tiết nhân vật/bối cảnh và không sử dụng hình ảnh gây nhầm lẫn với nội dung gốc.Bản quyền số: Ưu tiên hình tự vẽ, kho hình được phép sử dụng hoặc ghi nguồn khi dùng hình ảnh/tư liệu số.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a Character Map or 3-4 slides retelling a children's story using Canva/Google Slides following the Character - Actions - Words - Thoughts template. AI 4.A3: Choose AI images illustrating story contents appropriately, check character/setting details, and avoid using images causing confusion with original contents. Digital copyright: Prioritize self-drawn images, permitted image repositories, or citation when using digital images/materials.",
           "3. Attributes",
           "- Show their love and interest in reading books, especially Vietnamese fairy tales.",
           "- Recognise what the character is like."
@@ -9535,7 +9535,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of the activity and explain that they have to complete the character map by writing at least four sentences about a character. Check comprehension.Step 2: Have pupils read the central box: Character and elicit some storybook characters to write about. Then have them write the answer in the blank.Step 3: Give pupils time to complete the rest of the character map independently. Go around the classroom and offer help where necessary.Step 4: Get pupils to swap their books with a partner and check their answers before checking as a class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế Character Map hoặc 3-4 slide kể lại một truyện thiếu nhi bằng Canva/Google Slides theo mẫu Character - Actions - Words - Thoughts.AI 4.A3: Chọn hình ảnh AI minh họa phù hợp nội dung truyện, kiểm tra chi tiết nhân vật/bối cảnh và không sử dụng hình ảnh gây nhầm lẫn với nội dung gốc.Bản quyền số: Ưu tiên hình tự vẽ, kho hình được phép sử dụng hoặc ghi nguồn khi dùng hình ảnh/tư liệu số.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of the activity and explain that they have to complete the character map by writing at least four sentences about a character. Check comprehension.Step 2: Have pupils read the central box: Character and elicit some storybook characters to write about. Then have them write the answer in the blank.Step 3: Give pupils time to complete the rest of the character map independently. Go around the classroom and offer help where necessary.Step 4: Get pupils to swap their books with a partner and check their answers before checking as a class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a Character Map or 3-4 slides retelling a children's story using Canva/Google Slides following the Character - Actions - Words - Thoughts template. AI 4.A3: Choose AI images illustrating story contents appropriately, check character/setting details, and avoid using images causing confusion with original contents. Digital copyright: Prioritize self-drawn images, permitted image repositories, or citation when using digital images/materials.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation. - Pupils read the central box: Character and elicit some characters to write about. Then pupils write the answer in the gap.- Pupils complete the table independently. - Pupils swap their books with a partner and check their answers before checking as a class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9559,7 +9559,7 @@
       {
         "lessonTitle": "UNIT 18: MEANS OF TRANSPORT - Lesson 1 - Period 1 (Period 118)",
         "topic": "Unit 18:Means oftransport - Means of transport -Lesson 1(1, 2, 3)",
-        "period": "Tiết 118",
+        "period": "Period 118",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9572,7 +9572,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI/công cụ tìm kiếm hình ảnh có thể gợi ý tên địa điểm; đối chiếu tên, thành phố và hình ảnh trong sách trước khi sử dụng.GDĐP - Địa lí: Nhận biết một số công trình tiêu biểu ở Việt Nam và thế giới; trân trọng cảnh quan, di sản.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI/image search tools can suggest place names; cross-check names, cities, and images in books before use. Local integration - Geography: Recognize typical architectural works in Vietnam and the world; appreciate landscapes and heritage.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam by using appropriate gestures and intonation when asking and answering questions about places someone wants to visit."
         ],
@@ -9624,7 +9624,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Direct pupils’ attention to the pictures of different places. Ask them to say what places they are.Step 2: Read the question in the speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and guess what the answer should be.Step 3: Have some pairs role-play by asking and answering questions about the places to visit in the pictures. Go around the classroom to observe and provide help.Step 4: Encourage pupils to brainstorm some places of interest, then talk with each other using the sentence patterns.Invite some pairs to role-play by asking and answering questions about places they want to visit in front of the class. Give corrections and feedback wherenecessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI/công cụ tìm kiếm hình ảnh có thể gợi ý tên địa điểm; đối chiếu tên, thành phố và hình ảnh trong sách trước khi sử dụng.GDĐP - Địa lí: Nhận biết một số công trình tiêu biểu ở Việt Nam và thế giới; trân trọng cảnh quan, di sản.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Direct pupils’ attention to the pictures of different places. Ask them to say what places they are.Step 2: Read the question in the speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and guess what the answer should be.Step 3: Have some pairs role-play by asking and answering questions about the places to visit in the pictures. Go around the classroom to observe and provide help.Step 4: Encourage pupils to brainstorm some places of interest, then talk with each other using the sentence patterns.Invite some pairs to role-play by asking and answering questions about places they want to visit in front of the class. Give corrections and feedback wherenecessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI/image search tools can suggest place names; cross-check names, cities, and images in books before use. Local integration - Geography: Recognize typical architectural works in Vietnam and the world; appreciate landscapes and heritage.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and identify the places.- Pupils read the question in the speech bubble and repeat it. Pupils look at the second bubble and guess what the answer should be.- Pupils work in pairs to role-play by asking and answering questions about places to visit in the picture.- Pupils brainstorm some places of interest, then talk with each other using the sentence patterns.Some pairs role-play by asking and answering questions about places they want to visit in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9641,7 +9641,7 @@
       {
         "lessonTitle": "UNIT 18: MEANS OF TRANSPORT - Lesson 1 - Period 2 (Period 119)",
         "topic": "Unit 18:Means oftransport - Means of transport -Lesson 1(4, 5, 6)",
-        "period": "Tiết 119",
+        "period": "Period 119",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9653,7 +9653,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Tìm thông tin cơ bản về địa điểm trên nguồn số phù hợp; dùng từ khóa đơn giản và kiểm tra tên, nguồn trước khi chia sẻ.Văn hóa - Du lịch: Hỏi đáp lịch sự về nơi muốn đến; có ý thức giữ gìn cảnh quan công cộng.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Find basic information about places on suitable digital sources; use simple keywords and check names, sources before sharing. Culture - Tourism: Ask and answer politely about places to visit; maintain public landscapes consciously.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam by using appropriate gestures and intonation when asking and answering questions about places someone wants to visit."
         ],
@@ -9705,7 +9705,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the lyrics to familiarise themselves with the language. Check comprehension and give feedback.Step 2: Have pupils listen to the whole song, drawing their attention to the pronunciation.Step 3: Play the recording of the song once or twice for pupils to listen and repeat, line by line.Step 4: When pupils feel confident and get familiar with the tune and melody, ask them to sing the whole song while clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along to reinforce the activity. Extension: Encourage pupils to replace some words for places to make a new version of the song, then try to sing it.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Tìm thông tin cơ bản về địa điểm trên nguồn số phù hợp; dùng từ khóa đơn giản và kiểm tra tên, nguồn trước khi chia sẻ.Văn hóa - Du lịch: Hỏi đáp lịch sự về nơi muốn đến; có ý thức giữ gìn cảnh quan công cộng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the lyrics to familiarise themselves with the language. Check comprehension and give feedback.Step 2: Have pupils listen to the whole song, drawing their attention to the pronunciation.Step 3: Play the recording of the song once or twice for pupils to listen and repeat, line by line.Step 4: When pupils feel confident and get familiar with the tune and melody, ask them to sing the whole song while clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along to reinforce the activity. Extension: Encourage pupils to replace some words for places to make a new version of the song, then try to sing it.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Find basic information about places on suitable digital sources; use simple keywords and check names, sources before sharing. Culture - Tourism: Ask and answer politely about places to visit; maintain public landscapes consciously.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the lyrics to familiarise themselves with the language.- Pupils listen to the whole song. Pupils pay attention to the pronunciation.- Pupils listen to the recording once or twice and repeat, line by line. - Pupils sing the whole song while clapping their hands.- A few groups come to the front of the class to sing the song. The class may sing along to reinforce the activity.- Pupils replace some words for places to make a new version of the song, then sing it.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9722,7 +9722,7 @@
       {
         "lessonTitle": "UNIT 18: MEANS OF TRANSPORT - Lesson 2 - Period 3 (Period 120)",
         "topic": "Unit 18:Means oftransport - Means of transport -Lesson 2(1, 2, 3)",
-        "period": "Tiết 120",
+        "period": "Period 120",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9736,7 +9736,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết AI/bản đồ số có thể gợi ý tuyến đường và phương tiện; đối chiếu khoảng cách, biển chỉ dẫn và hướng dẫn của người lớn.ATGT: Chọn phương tiện phù hợp; nhắc quy tắc cơ bản khi đi bộ, đi xe đạp và dùng phương tiện công cộng.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI/digital maps can suggest routes and means of transport; cross-check distances, signboards, and adult guidance. Traffic safety: Choose appropriate means of transport; remind basic rules when walking, cycling, and using public transport.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam by using appropriate gestures and intonation when asking and answering questions about places someone wants to visit."
         ],
@@ -9788,15 +9788,15 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Direct pupils’ attention to the pictures and say the places to visit and means of transport. Read the question in the first speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and identify what the answer should be. Do the same with the other pair of speech bubbles.Step 2: Have pairs of pupils practise asking and answering questions about places and means of transport to get there. Go around the class and provide support when necessary.Step 3: Invite a few pairs to practise asking and answering questions about places to visit and means of transport to get there. Encourage pupils to talk about different means of transport that they may know. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết AI/bản đồ số có thể gợi ý tuyến đường và phương tiện; đối chiếu khoảng cách, biển chỉ dẫn và hướng dẫn của người lớn.ATGT: Chọn phương tiện phù hợp; nhắc quy tắc cơ bản khi đi bộ, đi xe đạp và dùng phương tiện công cộng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Direct pupils’ attention to the pictures and say the places to visit and means of transport. Read the question in the first speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and identify what the answer should be. Do the same with the other pair of speech bubbles.Step 2: Have pairs of pupils practise asking and answering questions about places and means of transport to get there. Go around the class and provide support when necessary.Step 3: Invite a few pairs to practise asking and answering questions about places to visit and means of transport to get there. Encourage pupils to talk about different means of transport that they may know. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI/digital maps can suggest routes and means of transport; cross-check distances, signboards, and adult guidance. Traffic safety: Choose appropriate means of transport; remind basic rules when walking, cycling, and using public transport.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and say the places to visit and means of transport. Pupils listen to the question in the first speech bubble aloud and repeat it.   Pupils look at the second bubble and identify what the answer should be.- Pairs of pupils practise asking and answering questions about places and means of transport to get there.- A few pairs practise asking and answering questions about places to visit and means of transport to get there. Pupils talk about different means of transport that they may know.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
               "5. FUN CORNER AND WRAP-UP (7 minutes)"
             ],
             [
-              "GIÁO VIÊN",
-              "DUYỆT TỔ TRƯỞNG"
+              "TEACHER",
+              "HEAD OF DEPARTMENT"
             ]
           ]
         ],
@@ -9811,7 +9811,7 @@
       {
         "lessonTitle": "UNIT 18: MEANS OF TRANSPORT - Lesson 2 - Period 4 (Period 121)",
         "topic": "Unit 18:Means oftransport - Means of transport -Lesson 2(4, 5, 6)",
-        "period": "Tiết 121",
+        "period": "Period 121",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9823,7 +9823,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Không đăng công khai vị trí thời gian thực, địa chỉ nhà hoặc lộ trình cá nhân; dùng bản đồ số dưới hướng dẫn của người lớn.Môi trường - ATGT: Ưu tiên đi bộ, xe đạp, phương tiện công cộng khi phù hợp; di chuyển an toàn, tiết kiệm năng lượng.",
+          "+ Digital competence & AI literacy: NLS 4.2.CB2b: Do not publicly post real-time locations, home addresses, or personal routes; use digital maps under adult guidance. Environment - Traffic safety: Prioritize walking, cycling, and public transport when appropriate; travel safely and save energy.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam by using appropriate gestures and intonation when asking and answering questions about places someone wants to visit."
         ],
@@ -9875,7 +9875,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they are going to play the game Tic-Tac-Toe. Two pupils play at a time. One pupil is X, and the other is O. The pupils choose a square by saying a word and a sentence with that word, and put their mark in the corresponding square. The first pupil to write three marks in a vertical, horizontal or diagonal line is the winner.Step 2: Invite two pupils to play at a time.Step 3: Change the words in the grid and let pupils play the game several times if there is enough time.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Không đăng công khai vị trí thời gian thực, địa chỉ nhà hoặc lộ trình cá nhân; dùng bản đồ số dưới hướng dẫn của người lớn.Môi trường - ATGT: Ưu tiên đi bộ, xe đạp, phương tiện công cộng khi phù hợp; di chuyển an toàn, tiết kiệm năng lượng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they are going to play the game Tic-Tac-Toe. Two pupils play at a time. One pupil is X, and the other is O. The pupils choose a square by saying a word and a sentence with that word, and put their mark in the corresponding square. The first pupil to write three marks in a vertical, horizontal or diagonal line is the winner.Step 2: Invite two pupils to play at a time.Step 3: Change the words in the grid and let pupils play the game several times if there is enough time.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 4.2.CB2b: Do not publicly post real-time locations, home addresses, or personal routes; use digital maps under adult guidance. Environment - Traffic safety: Prioritize walking, cycling, and public transport when appropriate; travel safely and save energy.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Two pupils play at a time.- Pupils play the game with the changing of the words in the grid several times if there is enough time.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9892,7 +9892,7 @@
       {
         "lessonTitle": "UNIT 18: MEANS OF TRANSPORT - Lesson 3 - Period 5 (Period 122)",
         "topic": "Unit 18:Means oftransport - Means of transport -Lesson 3(1, 2, 3)",
-        "period": "Tiết 122",
+        "period": "Period 122",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9904,7 +9904,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Giải thích gợi ý tuyến đường/phương tiện của AI có thể sai hoặc đã thay đổi; kiểm chứng bằng bản đồ, biển chỉ dẫn và người lớn đáng tin cậy.Tiếng Việt - Địa lí: Đọc thư về Sydney; xác định địa điểm, phương tiện và trình tự chuyến đi.",
+          "+ Digital competence & AI literacy: AI 4.B2: Explain that AI route/transport suggestions may be wrong or changed; verify using maps, signboards, and trusted adults. Vietnamese - Geography: Read letters about Sydney; identify locations, means of transport, and trip sequences.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam by using appropriate gestures and intonation when asking and answering questions about places someone wants to visit."
         ],
@@ -9956,7 +9956,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils scan the first verse of the chant. Draw their attention to the rising intonation in the Yes/ No questions.Step 2: Play the recording and ask pupils to listen and repeat the first verse, line by line. Show them how to chant and use their fingers to draw a rising line in the air for the rising intonation.Step 3: Play the recording of the whole verse again for pupils to do choral and individual repetition. Give corrections and feedback where necessary.Step 4: Repeat Steps 1 to 3 for the second verse of the chant. Extension: Replace some places and means of transport in the chant. Have pupils practise the new chant.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Giải thích gợi ý tuyến đường/phương tiện của AI có thể sai hoặc đã thay đổi; kiểm chứng bằng bản đồ, biển chỉ dẫn và người lớn đáng tin cậy.Tiếng Việt - Địa lí: Đọc thư về Sydney; xác định địa điểm, phương tiện và trình tự chuyến đi.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils scan the first verse of the chant. Draw their attention to the rising intonation in the Yes/ No questions.Step 2: Play the recording and ask pupils to listen and repeat the first verse, line by line. Show them how to chant and use their fingers to draw a rising line in the air for the rising intonation.Step 3: Play the recording of the whole verse again for pupils to do choral and individual repetition. Give corrections and feedback where necessary.Step 4: Repeat Steps 1 to 3 for the second verse of the chant. Extension: Replace some places and means of transport in the chant. Have pupils practise the new chant.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Explain that AI route/transport suggestions may be wrong or changed; verify using maps, signboards, and trusted adults. Vietnamese - Geography: Read letters about Sydney; identify locations, means of transport, and trip sequences.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils scan the first verse of the chant. Pupils pay attention to the rising intonation in the Yes/ No questions.- Pupils listen to the recording and repeat the first verse, line by line.  Pupils use their fingers to draw a rising line in the air for the rising intonation.- Pupils listen to the recording of the whole verse again to do choral and individual repetition.- Pupils follow the teacher’s instructions with the second verse of the chant. - Pupils replace some places and means of transport in the chant, then practise the new chant.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -9973,7 +9973,7 @@
       {
         "lessonTitle": "UNIT 18: MEANS OF TRANSPORT - Lesson 3 - Period 6 (Period 123)",
         "topic": "Unit 18:Means oftransport - Means of transport -Lesson 3(4, 5, 6)",
-        "period": "Tiết 123",
+        "period": "Period 123",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -9985,7 +9985,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế poster/slide “Means of transport” hoặc “A morning trip” theo mẫu Place - How to get there; không đưa vị trí cá nhân nhạy cảm.AI 4.A3: Chọn hình/biểu tượng phương tiện do AI gợi ý, kiểm tra phù hợp thực tế và loại bỏ hình sai.Bản quyền số: Ưu tiên hình tự vẽ hoặc kho hình được phép sử dụng; ghi nguồn tư liệu số.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a poster/slide titled “Means of transport” or “A morning trip” following the Place - How to get there template; do not include sensitive personal locations. AI 4.A3: Choose vehicle images/icons suggested by AI, check practical suitability, and remove incorrect images. Digital copyright: Prioritize self-drawn images or permitted image repositories; cite digital material sources.",
           "3. Attributes",
           "- Show their pride in famous places of Viet Nam by using appropriate gestures and intonation when asking and answering questions about places someone wants to visit."
         ],
@@ -10029,7 +10029,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Ask pupils to talk about what they can see in the picture. Give them prompts such as Where are they? What are they doing? What is behind them? and What is outside the building? Tell pupils that they should write about 40 words.Step 2: Give pupils enough time to write their paragraphs. Let pupils work in pairs or groups for cross checks. Go ground the class and give support when necessary.Step 3: Have some pupils read their paragraphs aloud. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế poster/slide “Means of transport” hoặc “A morning trip” theo mẫu Place - How to get there; không đưa vị trí cá nhân nhạy cảm.AI 4.A3: Chọn hình/biểu tượng phương tiện do AI gợi ý, kiểm tra phù hợp thực tế và loại bỏ hình sai.Bản quyền số: Ưu tiên hình tự vẽ hoặc kho hình được phép sử dụng; ghi nguồn tư liệu số.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to talk about what they can see in the picture. Give them prompts such as Where are they? What are they doing? What is behind them? and What is outside the building? Tell pupils that they should write about 40 words.Step 2: Give pupils enough time to write their paragraphs. Let pupils work in pairs or groups for cross checks. Go ground the class and give support when necessary.Step 3: Have some pupils read their paragraphs aloud. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a poster/slide titled “Means of transport” or “A morning trip” following the Place - How to get there template; do not include sensitive personal locations. AI 4.A3: Choose vehicle images/icons suggested by AI, check practical suitability, and remove incorrect images. Digital copyright: Prioritize self-drawn images or permitted image repositories; cite digital material sources.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils talk about what they can see in the picture. Pupils listen to the teacher’s instruction.- Pupils write their paragraphs independently. Pupils work in pairs or groups for cross checks.- Some pupils read their paragraphs aloud.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10053,7 +10053,7 @@
       {
         "lessonTitle": "UNIT 19: PLACES OF INTEREST - Lesson 1 - Period 1 (Period 124)",
         "topic": "Unit 19:Places ofinterest - Places of interest -Lesson 1(1, 2, 3)",
-        "period": "Tiết 124",
+        "period": "Period 124",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10065,7 +10065,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI/công cụ nhận diện hình ảnh có thể gợi ý tên địa điểm và tính từ mô tả; đối chiếu với tên, hình ảnh và thông tin trong SGK trước khi sử dụng.Địa lí - Văn hóa: Nhận biết Ban Gioc Waterfall, Hoi An Old Town, Sydney Opera House, Petronas Twin Towers; hình thành ý thức trân trọng cảnh quan và di sản.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI/image recognition tools can suggest place names and descriptive adjectives; cross-check with names, images, and information in textbooks before use. Geography - Culture: Recognize Ban Gioc Waterfall, Hoi An Old Town, Sydney Opera House, Petronas Twin Towers; form an awareness of appreciating landscapes and heritage.",
           "3. Attributes",
           "- Gain appreciation for the diversity of human experiences and the value of preserving historical and cultural landmarks."
         ],
@@ -10117,7 +10117,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures and say their names. Ask questions to help them identify the context. Step 2: Have pupils point at the first picture and elicit the missing words in the question and answer in the speech bubbles and write them on the board (e.g. What do you think of Ban Gioc Waterfall? - I think it's beautiful.) Get pupils to say the completed dialogues. Repeat the same procedure with other pictures.Step 3: Put pupils into pairs to practise asking and answering questions about their opinion of a place, using picture cues. Go around to observe and provide help.Step 4: Invite a few pairs to ask and answer questions in front of the class. Praise when they perform well.Extension: Put pupils into pairs to practise asking and answering questions about their opinions of some places of interest. Praise good performances.Suggested questions and answers:What do you think of Ha Long Bay? – I think it's beautiful.What do you think of Dong Xuan Market? – I think it's exciting.What do you think of Hoan Kiem Lake? – I think it's peaceful.What do you think of Ba Na Hills? – I think it's fantastic.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI/công cụ nhận diện hình ảnh có thể gợi ý tên địa điểm và tính từ mô tả; đối chiếu với tên, hình ảnh và thông tin trong SGK trước khi sử dụng.Địa lí - Văn hóa: Nhận biết Ban Gioc Waterfall, Hoi An Old Town, Sydney Opera House, Petronas Twin Towers; hình thành ý thức trân trọng cảnh quan và di sản.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures and say their names. Ask questions to help them identify the context. Step 2: Have pupils point at the first picture and elicit the missing words in the question and answer in the speech bubbles and write them on the board (e.g. What do you think of Ban Gioc Waterfall? - I think it's beautiful.) Get pupils to say the completed dialogues. Repeat the same procedure with other pictures.Step 3: Put pupils into pairs to practise asking and answering questions about their opinion of a place, using picture cues. Go around to observe and provide help.Step 4: Invite a few pairs to ask and answer questions in front of the class. Praise when they perform well.Extension: Put pupils into pairs to practise asking and answering questions about their opinions of some places of interest. Praise good performances.Suggested questions and answers:What do you think of Ha Long Bay? – I think it's beautiful.What do you think of Dong Xuan Market? – I think it's exciting.What do you think of Hoan Kiem Lake? – I think it's peaceful.What do you think of Ba Na Hills? – I think it's fantastic.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI/image recognition tools can suggest place names and descriptive adjectives; cross-check with names, images, and information in textbooks before use. Geography - Culture: Recognize Ban Gioc Waterfall, Hoi An Old Town, Sydney Opera House, Petronas Twin Towers; form an awareness of appreciating landscapes and heritage.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and say the places- Pupils listen and repeat after teacher.- Pupils guess the answer at the second bubble.- Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10140,7 +10140,7 @@
       {
         "lessonTitle": "UNIT 19: Places of interest - Lesson 1 - Period 2 (Period 125)",
         "topic": "Unit 19:Places ofinterest - Places of interest -Lesson 1(4, 5, 6)",
-        "period": "Tiết 125",
+        "period": "Period 125",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10152,7 +10152,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Tìm thông tin cơ bản về điểm đến trên nguồn số phù hợp lứa tuổi bằng từ khóa đơn giản; kiểm tra tên địa điểm, quốc gia/thành phố và nguồn trước khi chia sẻ.Du lịch có trách nhiệm: Biết dùng lời nhận xét lịch sự về địa điểm; giữ vệ sinh, bảo vệ cảnh quan và tôn trọng quy định tại điểm tham quan.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Find basic information about destinations on age-appropriate digital sources using simple keywords; check place names, countries/cities, and sources before sharing. Responsible tourism: Know how to use polite comments about places; keep clean, protect landscapes, and respect regulations at tourist spots.",
           "3. Attributes",
           "- Develop a willingness to learn about new cultures and perspectives, challenging their own biases and assumptions.",
           "- Gain appreciation for the diversity of human experiences and the value of preserving historical and cultural landmarks."
@@ -10205,7 +10205,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Draw their attention to the words fantastic, exciting, peaceful and beautiful. Explain that they are used to show someone’s opinions of Ba Na Hills and Dau Go Cave. Check comprehension.Step 2: Play the recording all the way through for pupils just to listen. Encourage them to listen carefully to the pronunciation and melody. Then play it again line by line, for pupils to listen and repeat. Correct their pronunciation and or melody where necessary.Step 3: Put pupils into two groups. One group sings the questions and the other sings the answers.Step 4: Invite a few groups to the front of the class to sing the song. The rest of the class sing along and clap hands to encourage their classmates.Extension: Have pupils brainstorm some other places to replace Ba Na Hills and Dau Go Cave (e.g. What do you think of Nha Trang Beach? Nha Trang Beach is fantastic and exciting. What do you think of Ha Long Bay? Ha Long Bay is peaceful and beautiful.) Then let pupils sing the song with the new lyrics.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Tìm thông tin cơ bản về điểm đến trên nguồn số phù hợp lứa tuổi bằng từ khóa đơn giản; kiểm tra tên địa điểm, quốc gia/thành phố và nguồn trước khi chia sẻ.Du lịch có trách nhiệm: Biết dùng lời nhận xét lịch sự về địa điểm; giữ vệ sinh, bảo vệ cảnh quan và tôn trọng quy định tại điểm tham quan.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the title and lyrics of the song. Draw their attention to the words fantastic, exciting, peaceful and beautiful. Explain that they are used to show someone’s opinions of Ba Na Hills and Dau Go Cave. Check comprehension.Step 2: Play the recording all the way through for pupils just to listen. Encourage them to listen carefully to the pronunciation and melody. Then play it again line by line, for pupils to listen and repeat. Correct their pronunciation and or melody where necessary.Step 3: Put pupils into two groups. One group sings the questions and the other sings the answers.Step 4: Invite a few groups to the front of the class to sing the song. The rest of the class sing along and clap hands to encourage their classmates.Extension: Have pupils brainstorm some other places to replace Ba Na Hills and Dau Go Cave (e.g. What do you think of Nha Trang Beach? Nha Trang Beach is fantastic and exciting. What do you think of Ha Long Bay? Ha Long Bay is peaceful and beautiful.) Then let pupils sing the song with the new lyrics.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Find basic information about destinations on age-appropriate digital sources using simple keywords; check place names, countries/cities, and sources before sharing. Responsible tourism: Know how to use polite comments about places; keep clean, protect landscapes, and respect regulations at tourist spots.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils pay attention to the title and lyrics of the song. - Pupils listen to the recording all the way through carefully to the pronunciation and the melody.- Pupils listen to the recording, line by line, and repeat. Pupils do actions while they sing along with the recording.- Pupils listen to the recording all the way through and sing along.- Pupils work in groups to make up their own actions for the song. Pupils come to the front of the class to perform, while the rest of the class sings and / or claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10222,7 +10222,7 @@
       {
         "lessonTitle": "UNIT 19: PLACES OF INTEREST - Lesson 2 - Period 3 (Period 126)",
         "topic": "Unit 19:Places ofinterest - Places of interest -Lesson 2(1, 2, 3)",
-        "period": "Tiết 126",
+        "period": "Period 126",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10233,7 +10233,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: Biết AI/bản đồ số có thể ước tính khoảng cách giữa hai địa điểm nhưng kết quả có thể thay đổi theo điểm đầu, điểm cuối và tuyến đường; cần kiểm tra đơn vị km.Toán - Địa lí: Đọc sơ đồ tuyến đường, so sánh và ước lượng khoảng cách; vận dụng số đo ki-lô-mét trong các cặp địa điểm quen thuộc.",
+          "+ Digital competence & AI literacy: AI 4.A2: Know that AI/digital maps can estimate distances between two locations, but results may change according to starting points, endpoints, and routes; check km units. Math - Geography: Read route diagrams, compare and estimate distances; apply kilometre measurements in familiar pairs of locations.",
           "3. Attributes",
           "- Show their pride in their country and raise awareness about the distance of the places."
         ],
@@ -10285,7 +10285,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils point at the pictures and say the names of the places and distances (see Input).Step 2: Get pupils to look at the question and answer. Elicit the missing words in the speech bubbles and write them on the board. Get pupils to say the completed sentences.Draw their attention to the phrase from ___ to.Step 3: Give pupils time to work in pairs and take turns asking and answering about distance, using picture cues. Make sure pupils understand and say the structures with the right pronunciation and intonation. Go around to observe and provide help.Step 4: Invite a few pairs to the front of the class to ask and answer the question. Praise pupils if they perform well.Extension: For a more able class, have pupils ask and answer questions about the distances from their school to some other places such as the post office, the park, the zoo, … (e.g. How far is it from our school to the park? – It’s about three kilometers.)\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Biết AI/bản đồ số có thể ước tính khoảng cách giữa hai địa điểm nhưng kết quả có thể thay đổi theo điểm đầu, điểm cuối và tuyến đường; cần kiểm tra đơn vị km.Toán - Địa lí: Đọc sơ đồ tuyến đường, so sánh và ước lượng khoảng cách; vận dụng số đo ki-lô-mét trong các cặp địa điểm quen thuộc.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils point at the pictures and say the names of the places and distances (see Input).Step 2: Get pupils to look at the question and answer. Elicit the missing words in the speech bubbles and write them on the board. Get pupils to say the completed sentences.Draw their attention to the phrase from ___ to.Step 3: Give pupils time to work in pairs and take turns asking and answering about distance, using picture cues. Make sure pupils understand and say the structures with the right pronunciation and intonation. Go around to observe and provide help.Step 4: Invite a few pairs to the front of the class to ask and answer the question. Praise pupils if they perform well.Extension: For a more able class, have pupils ask and answer questions about the distances from their school to some other places such as the post office, the park, the zoo, … (e.g. How far is it from our school to the park? – It’s about three kilometers.)\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: Know that AI/digital maps can estimate distances between two locations, but results may change according to starting points, endpoints, and routes; check km units. Math - Geography: Read route diagrams, compare and estimate distances; apply kilometre measurements in familiar pairs of locations.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and the names of the places and distances.- Pupils look at the bubbles to understand how the sentence pattern is used. Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pupils work in pairs, practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10302,7 +10302,7 @@
       {
         "lessonTitle": "UNIT 19: PLACES OF INTEREST - Lesson 2 - Period 4 (Period 127)",
         "topic": "Unit 19:Places ofinterest - Places of interest -Lesson 2(4, 5, 6)",
-        "period": "Tiết 127",
+        "period": "Period 127",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10313,7 +10313,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Lựa chọn bản đồ số hoặc công cụ tính đơn giản để kiểm tra/so sánh khoảng cách; nhập đúng địa điểm và đọc đúng đơn vị trước khi kết luận.Toán học: Giải bài toán khoảng cách đơn giản theo sơ đồ; phân biệt “about” với số đo chính xác và trình bày kết quả bằng kilometres.",
+          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Choose digital maps or simple calculation tools to check/compare distances; enter correct locations and read correct units before concluding. Mathematics: Solve simple distance problems following diagrams; distinguish “about” from precise measurements and present results in kilometres.",
           "3. Attributes",
           "- Show their pride in their country and raise awareness about the distance of the places."
         ],
@@ -10365,7 +10365,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Invite two groups of pupils to play the game. Tell pupils the goal of the game and how to play it. Explain that the teacher gives some simple maths problems about the places and distances (see Input) which is popular to the pupils (e.g. from their school to the post office, the hospital or the park, …). The group that gives the correct answer first will win the game.Step 2: Give a time limit for pupils to play the game in groups. Go around the classroom to offer help where necessary.Extension: For a more able class, have a few pupils give maths problems for the classto solve.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Lựa chọn bản đồ số hoặc công cụ tính đơn giản để kiểm tra/so sánh khoảng cách; nhập đúng địa điểm và đọc đúng đơn vị trước khi kết luận.Toán học: Giải bài toán khoảng cách đơn giản theo sơ đồ; phân biệt “about” với số đo chính xác và trình bày kết quả bằng kilometres.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Invite two groups of pupils to play the game. Tell pupils the goal of the game and how to play it. Explain that the teacher gives some simple maths problems about the places and distances (see Input) which is popular to the pupils (e.g. from their school to the post office, the hospital or the park, …). The group that gives the correct answer first will win the game.Step 2: Give a time limit for pupils to play the game in groups. Go around the classroom to offer help where necessary.Extension: For a more able class, have a few pupils give maths problems for the classto solve.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Choose digital maps or simple calculation tools to check/compare distances; enter correct locations and read correct units before concluding. Mathematics: Solve simple distance problems following diagrams; distinguish “about” from precise measurements and present results in kilometres.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the instructions - Pupils listen to the math problems and the hints- Pupils work in pairs or group to solve math problems. - The group that gives the correct answer first will win the game.- Pupils work in two or more groups to find the answers.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10382,7 +10382,7 @@
       {
         "lessonTitle": "UNIT 19: PLACES OF INTERNET - Lesson 3 - Period 5 (Period 128)",
         "topic": "Unit 19:Places ofinterest - Places of interest -Lesson 3(1, 2, 3)",
-        "period": "Tiết 128",
+        "period": "Period 128",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10393,7 +10393,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Giải thích mô tả/đề xuất du lịch do AI tạo có thể thiếu hoặc sai thông tin; kiểm chứng tên nơi, khoảng cách, hoạt động và đặc điểm bằng văn bản/bản đồ đáng tin cậy.Tiếng Việt - Địa lí: Luyện ngữ điệu câu hỏi; đọc và khai thác thông tin về địa điểm, khoảng cách và hoạt động để nói ngắn gọn, mạch lạc.",
+          "+ Digital competence & AI literacy: AI 4.B2: Explain that AI-generated travel descriptions/proposals may lack or have incorrect information; verify place names, distances, activities, and characteristics using reliable texts/maps. Vietnamese - Geography: Practice question intonation; read and exploit information about locations, distances, and activities to speak concisely and coherently.",
           "3. Attributes",
           "- Gain appreciation for the diversity of human experiences and the value of preserving historical and cultural landmarks."
         ],
@@ -10445,15 +10445,15 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Have pupils read the lyrics of the chant. Draw their attention to the falling tune of the four questions. Then get them to look at the pictures to reinforce their understanding. Check comprehension.Step 2: Play the recording of the first verse for pupils to listen. Play it again, line by line, for pupils to listen and repeat. Draw their attention to the falling tune of thequestions (e.g What do you think of Da Lat? ↘ and How far is it from here? ↘), andthe rhythm and pronunciation. Encourage them to clap hands while chanting.Step 3: Repeat Step 2 with the second verse. Draw pupils’ attention to the intonation of the questions (What do you think of Ha Long? ↘ and How far is it from here? ↘). Correct their intonation if necessary.Step 4: Play the recording all the way through for pupils to chant and clap along. Then divide the class into two groups, one group chants the questions and the other the answers. Praise pupils when they perform well.Extension: Play the recording, pausing after each question and have pupils give theirown answers. For example: What do you think of Da Lat? - It’s peaceful and beautiful.How far is it from here? - It’s not near. It’s far. / What do you think of Ha Long? - It’s beautiful and exciting. How far is it from here? - It’s not far. It’s near. Check if they can give the correct answer. Correct their pronunciation where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Giải thích mô tả/đề xuất du lịch do AI tạo có thể thiếu hoặc sai thông tin; kiểm chứng tên nơi, khoảng cách, hoạt động và đặc điểm bằng văn bản/bản đồ đáng tin cậy.Tiếng Việt - Địa lí: Luyện ngữ điệu câu hỏi; đọc và khai thác thông tin về địa điểm, khoảng cách và hoạt động để nói ngắn gọn, mạch lạc.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read the lyrics of the chant. Draw their attention to the falling tune of the four questions. Then get them to look at the pictures to reinforce their understanding. Check comprehension.Step 2: Play the recording of the first verse for pupils to listen. Play it again, line by line, for pupils to listen and repeat. Draw their attention to the falling tune of thequestions (e.g What do you think of Da Lat? ↘ and How far is it from here? ↘), andthe rhythm and pronunciation. Encourage them to clap hands while chanting.Step 3: Repeat Step 2 with the second verse. Draw pupils’ attention to the intonation of the questions (What do you think of Ha Long? ↘ and How far is it from here? ↘). Correct their intonation if necessary.Step 4: Play the recording all the way through for pupils to chant and clap along. Then divide the class into two groups, one group chants the questions and the other the answers. Praise pupils when they perform well.Extension: Play the recording, pausing after each question and have pupils give theirown answers. For example: What do you think of Da Lat? - It’s peaceful and beautiful.How far is it from here? - It’s not near. It’s far. / What do you think of Ha Long? - It’s beautiful and exciting. How far is it from here? - It’s not far. It’s near. Check if they can give the correct answer. Correct their pronunciation where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Explain that AI-generated travel descriptions/proposals may lack or have incorrect information; verify place names, distances, activities, and characteristics using reliable texts/maps. Vietnamese - Geography: Practice question intonation; read and exploit information about locations, distances, and activities to speak concisely and coherently.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Read the lyrics and pay attention to the falling tune at the end.- Pupils listen to the recording, line by line, and repeat.- Pupils listen to the recording all the way through and chant along. Pupils clap while chanting.- Pupils work in two or more groups to take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
               "5. FUN CORNER AND WRAP-UP (7 minutes)"
             ],
             [
-              "GIÁO VIÊN",
-              "DUYỆT TỔ TRƯỞNG"
+              "TEACHER",
+              "HEAD OF DEPARTMENT"
             ]
           ]
         ],
@@ -10468,7 +10468,7 @@
       {
         "lessonTitle": "UNIT 19: PLACES OF INTEREST - Lesson 3 - Period 6 (Period 129)",
         "topic": "Unit 19:Places ofinterest - Places of interest -Lesson 3(4, 5, 6)",
-        "period": "Tiết 129",
+        "period": "Period 129",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10480,7 +10480,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế poster/slide “Places of interest” hoặc “My dream holiday” theo các mục Place - Where - Distance/How to get there - Activities.AI 4.A3: Chọn hình minh họa/gợi ý do AI tạo phù hợp với địa điểm; loại bỏ hình sai công trình, cảnh quan hoặc thông tin du lịch.Bản quyền số: Ưu tiên ảnh tự chụp, tự vẽ hoặc kho hình được phép sử dụng; ghi nguồn tư liệu và không công khai địa chỉ nhà/vị trí cá nhân.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a poster/slide titled “Places of interest” or “My dream holiday” following Place - Where - Distance/How to get there - Activities sections. AI 4.A3: Choose illustration/suggestion images generated by AI suitable for locations; remove incorrect buildings, landscapes, or travel information. Digital copyright: Prioritize self-taken photos, self-drawn images, or permitted image repositories; cite material sources and do not publicly disclose home addresses/personal locations.",
           "3. Attributes",
           "- Show their cultural comprehension, sense of identity and belonging."
         ],
@@ -10524,7 +10524,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Tell the class the goal of this activity. Explain that they should answer the suggested questions and use the gapped sentences (see Input) to write the text, using their own information. Check comprehension. Tell pupils that they should write about 30 words.Step 2: Do the first gapped sentence together as an example. Have pupils read the first gapped sentence. Draw their attention to the place they want to visit for their holiday. Then get them to answer the first question (e.g. It’s Ha Long Bay.). Give pupils time to write the sentence in their notebooks (e.g. I want to visit Ha Long Bay for my holiday).Step 3: Give pupils time to write the text independently. Go around the classroom and offer help if necessary.Step 4: Get pupils to swap their books with a partner and check their writing before checking as a class.Extension: Invite one pupil to read the complete text in front of the class. The class listens and praises their work.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế poster/slide “Places of interest” hoặc “My dream holiday” theo các mục Place - Where - Distance/How to get there - Activities.AI 4.A3: Chọn hình minh họa/gợi ý do AI tạo phù hợp với địa điểm; loại bỏ hình sai công trình, cảnh quan hoặc thông tin du lịch.Bản quyền số: Ưu tiên ảnh tự chụp, tự vẽ hoặc kho hình được phép sử dụng; ghi nguồn tư liệu và không công khai địa chỉ nhà/vị trí cá nhân.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell the class the goal of this activity. Explain that they should answer the suggested questions and use the gapped sentences (see Input) to write the text, using their own information. Check comprehension. Tell pupils that they should write about 30 words.Step 2: Do the first gapped sentence together as an example. Have pupils read the first gapped sentence. Draw their attention to the place they want to visit for their holiday. Then get them to answer the first question (e.g. It’s Ha Long Bay.). Give pupils time to write the sentence in their notebooks (e.g. I want to visit Ha Long Bay for my holiday).Step 3: Give pupils time to write the text independently. Go around the classroom and offer help if necessary.Step 4: Get pupils to swap their books with a partner and check their writing before checking as a class.Extension: Invite one pupil to read the complete text in front of the class. The class listens and praises their work.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a poster/slide titled “Places of interest” or “My dream holiday” following Place - Where - Distance/How to get there - Activities sections. AI 4.A3: Choose illustration/suggestion images generated by AI suitable for locations; remove incorrect buildings, landscapes, or travel information. Digital copyright: Prioritize self-taken photos, self-drawn images, or permitted image repositories; cite material sources and do not publicly disclose home addresses/personal locations.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils look at the board and read the sentence, point at the first picture and say the name of the activity. Then, write the answer in their books. Read aloud the sentence as a class.- Do the same with other sentences. - Pupils swap books with a partner, then check answers as a class.- Pupils read the sentences they have completed in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10548,7 +10548,7 @@
       {
         "lessonTitle": "UNIT 20: OUR SUMMER HOLIDAYS - Lesson 1 - Period 1 (Period 130)",
         "topic": "Unit 20:Our summerholidays - Our summer holidays -Lesson 1(1, 2, 3)",
-        "period": "Tiết 130",
+        "period": "Period 130",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10560,7 +10560,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A1: Nhận biết AI/công cụ nhận diện hình ảnh có thể gợi ý tên điểm đến; đối chiếu Huong River, Phong Nha Cave, Phu Quoc Island, Dam Sen Aquarium với SGK/nguồn đáng tin cậy.Địa lí - Du lịch: Nhận biết một số điểm đến ở Việt Nam; giữ gìn cảnh quan và ứng xử văn minh.",
+          "+ Digital competence & AI literacy: AI 4.A1: Recognize that AI/image recognition tools can suggest destination names; cross-check Huong River, Phong Nha Cave, Phu Quoc Island, Dam Sen Aquarium with textbooks/reliable sources. Geography - Tourism: Recognize some destinations in Vietnam; preserve landscapes and behave civilly.",
           "3. Attributes",
           "- Show their interest in making plans for the summer vacation."
         ],
@@ -10612,7 +10612,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Direct pupils’ attention to the pictures of different places. Ask them to say what places they can see.Step 2: Read the question in the speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and guess what the answer should be.Step 3: Have some pairs roleplay by asking and answering questions about places to visit in the picture. Go around the classroom to observe and provide help.Step 4: Invite some pairs to roleplay by asking and answering questions about places they want to visit in front of the class. Give corrections and feedback wherenecessary. Then, encourage pupils to talk about places that they know.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Nhận biết AI/công cụ nhận diện hình ảnh có thể gợi ý tên điểm đến; đối chiếu Huong River, Phong Nha Cave, Phu Quoc Island, Dam Sen Aquarium với SGK/nguồn đáng tin cậy.Địa lí - Du lịch: Nhận biết một số điểm đến ở Việt Nam; giữ gìn cảnh quan và ứng xử văn minh.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Direct pupils’ attention to the pictures of different places. Ask them to say what places they can see.Step 2: Read the question in the speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and guess what the answer should be.Step 3: Have some pairs roleplay by asking and answering questions about places to visit in the picture. Go around the classroom to observe and provide help.Step 4: Invite some pairs to roleplay by asking and answering questions about places they want to visit in front of the class. Give corrections and feedback wherenecessary. Then, encourage pupils to talk about places that they know.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A1: Recognize that AI/image recognition tools can suggest destination names; cross-check Huong River, Phong Nha Cave, Phu Quoc Island, Dam Sen Aquarium with textbooks/reliable sources. Geography - Tourism: Recognize some destinations in Vietnam; preserve landscapes and behave civilly.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures and say the places- Pupils listen and repeat after the teacher.- Pupils guess the answer at the second bubble.- Pupils role-play to practise asking the questions and giving their answers in pairs, using the picture cue. - Pairs of pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10629,7 +10629,7 @@
       {
         "lessonTitle": "UNIT 20: OUR SUMMER HOLIDAYS - Lesson 1 - Period 2 (Period 131)",
         "topic": "Unit 20:Our summerholidays - Our summer holidays -Lesson 1(4, 5, 6)",
-        "period": "Tiết 131",
+        "period": "Period 131",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10640,7 +10640,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening and reading tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Tìm thông tin cơ bản về điểm đến hè bằng từ khóa đơn giản; kiểm tra tên, hình ảnh và nguồn trước khi chia sẻ.An toàn số - Kỹ năng sống: Không công khai lịch trình chi tiết, nơi ở hoặc vị trí thời gian thực của gia đình.",
+          "+ Digital competence & AI literacy: NLS 1.1.CB2b: Find basic information about summer destinations using simple keywords; check names, images, and sources before sharing. Digital safety - Life skills: Do not publicly disclose detailed family schedules, residences, or real-time locations.",
           "3. Attributes",
           "- Show their interest in making plans for the summer vacation"
         ],
@@ -10692,7 +10692,7 @@
               "4. ACTIVITY 3: PRACTICE (8 minutes)"
             ],
             [
-              "Step 1: Tell pupils that they will listen to the song and fill in the gaps in the lyrics and sing it with correct pronunciation, rhythm and melody.Step 2: Have pupils read the lyrics and guess the words to fill in the gaps with the help of the picture.Step 3: Have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary.Step 4: Play the recording and let them listen to and practise singing the song, line by line, until they feel confident. Then have pupils listen to and sing the whole songwhile clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Tìm thông tin cơ bản về điểm đến hè bằng từ khóa đơn giản; kiểm tra tên, hình ảnh và nguồn trước khi chia sẻ.An toàn số - Kỹ năng sống: Không công khai lịch trình chi tiết, nơi ở hoặc vị trí thời gian thực của gia đình.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils that they will listen to the song and fill in the gaps in the lyrics and sing it with correct pronunciation, rhythm and melody.Step 2: Have pupils read the lyrics and guess the words to fill in the gaps with the help of the picture.Step 3: Have them listen to the song and fill in the gaps. Play the recording of the gapped sentences twice for pupils to fill in if necessary.Step 4: Play the recording and let them listen to and practise singing the song, line by line, until they feel confident. Then have pupils listen to and sing the whole songwhile clapping their hands.Step 5: Invite a few groups to the front of the class to sing the song. The class may sing along and clap to reinforce the activity.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.1.CB2b: Find basic information about summer destinations using simple keywords; check names, images, and sources before sharing. Digital safety - Life skills: Do not publicly disclose detailed family schedules, residences, or real-time locations.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils follow the teacher’s instructions.   - Read the lyrics and guess the words.- Listen to the song and fill in the gaps.- Follow the teacher's instructions.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10709,7 +10709,7 @@
       {
         "lessonTitle": "UNIT 20: OUR SUMMER HOLIDAYS - Lesson 2 - Period 3 (Period 132)",
         "topic": "Unit 20:Our summerholidays - Our summer holidays -Lesson 2(1, 2, 3)",
-        "period": "Tiết 132",
+        "period": "Period 132",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10720,7 +10720,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.A2: AI có thể gợi ý hoạt động hè; chọn lọc theo độ tuổi, sức khỏe, thời tiết và hướng dẫn của người lớn.Hoạt động trải nghiệm - Thể chất: Lập kế hoạch với join a music club, go camping, visit an eco-farm, practise swimming; ưu tiên an toàn.",
+          "+ Digital competence & AI literacy: AI 4.A2: AI can suggest summer activities; select according to age, health, weather, and adult guidance. Experiential activities - Physical education: Plan with join a music club, go camping, visit an eco-farm, practise swimming; prioritize safety.",
           "3. Attributes",
           "- Show their love and interest in summer holidays."
         ],
@@ -10772,7 +10772,7 @@
               "4. ACTIVITY 3: LET’S TALK (8 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to the pictures and say the activities to do in the summer. Read the question in the first speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and identify what the answer should be.Step 2: Have pairs of pupils practise asking and answering questions about activities someone will do in the summer. Go around the class and provide support when necessary.Step 3: Invite a few pairs to practise asking and answering questions about activities they will do in the summer. Encourage pupils to talk about different activities that they may know. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: AI có thể gợi ý hoạt động hè; chọn lọc theo độ tuổi, sức khỏe, thời tiết và hướng dẫn của người lớn.Hoạt động trải nghiệm - Thể chất: Lập kế hoạch với join a music club, go camping, visit an eco-farm, practise swimming; ưu tiên an toàn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to the pictures and say the activities to do in the summer. Read the question in the first speech bubble aloud and ask pupils to repeat it. Ask pupils to look at the second bubble and identify what the answer should be.Step 2: Have pairs of pupils practise asking and answering questions about activities someone will do in the summer. Go around the class and provide support when necessary.Step 3: Invite a few pairs to practise asking and answering questions about activities they will do in the summer. Encourage pupils to talk about different activities that they may know. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.A2: AI can suggest summer activities; select according to age, health, weather, and adult guidance. Experiential activities - Physical education: Plan with join a music club, go camping, visit an eco-farm, practise swimming; prioritize safety.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the pictures. Pupils say the actions of the characters in the pictures. - Pupils look at the second speech bubble on the board and say the completed sentences.- Pupils look at the bubbles to understand how the sentence pattern is used. Pupils role-play to practise asking and answering questions.- Pupils practise asking and answering questions in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10795,7 +10795,7 @@
       {
         "lessonTitle": "UNIT 20: OUR SUMMER HOLIDAYS - Lesson 2 - Period 4 (Period 133)",
         "topic": "Unit 20:Our summerholidays - Our summer holidays -Lesson 2(4, 5, 6)",
-        "period": "Tiết 133",
+        "period": "Period 133",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10807,7 +10807,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform listening, reading and writing tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Dùng bản đồ số/công cụ tìm kiếm để kiểm tra địa điểm và hoạt động; đối chiếu thông tin trước khi lựa chọn.Môi trường - Kỹ năng sống: Khi cắm trại, tham quan eco-farm hoặc bơi: không xả rác, bảo vệ cây cối và tuân thủ hướng dẫn an toàn.",
+          "+ Digital competence & AI literacy: NLS 5.2.CB2b: Use digital maps/search tools to check locations and activities; cross-check information before selection. Environment - Life skills: When camping, visiting eco-farms, or swimming: do not litter, protect plants, and follow safety instructions.",
           "3. Attributes",
           "- They can remember or imagine places they might visit and all the things they might do during summer break, like playing games, going on trips, or spending time with family."
         ],
@@ -10843,7 +10843,7 @@
               "3. ACTIVITY 2: PRACTICE (10 minutes)"
             ],
             [
-              "- To complete the target sentence patterns in two conversations about places someone has planned to visit and activities someone has planned to do in the summer with the help of picture cues.\n- Performance products: Pupils’ answers and pronunciation\n- Assessment tools: Observation; Questions & Answers\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Dùng bản đồ số/công cụ tìm kiếm để kiểm tra địa điểm và hoạt động; đối chiếu thông tin trước khi lựa chọn.Môi trường - Kỹ năng sống: Khi cắm trại, tham quan eco-farm hoặc bơi: không xả rác, bảo vệ cây cối và tuân thủ hướng dẫn an toàn.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "- To complete the target sentence patterns in two conversations about places someone has planned to visit and activities someone has planned to do in the summer with the help of picture cues.\n- Performance products: Pupils’ answers and pronunciation\n- Assessment tools: Observation; Questions & Answers\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 5.2.CB2b: Use digital maps/search tools to check locations and activities; cross-check information before selection. Environment - Life skills: When camping, visiting eco-farms, or swimming: do not litter, protect plants, and follow safety instructions.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Follow teacher's guidance and participate in 3. ACTIVITY 2: PRACTICE (10 minutes).\n- Practice speaking and interacting in pairs and groups.\n- Complete assigned exercises in the textbook.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10860,7 +10860,7 @@
       {
         "lessonTitle": "UNIT 20: OUR SUMMER HOLIDAYS - Lesson 3 - Period 5 (Period 134)",
         "topic": "Unit 20:Our summerholidays - Our summer holidays -Lesson 3(1, 2, 3)",
-        "period": "Tiết 134",
+        "period": "Period 134",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10871,7 +10871,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and listening tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: AI 4.B2: Kế hoạch do AI tạo có thể thiếu, sai hoặc lỗi thời; kiểm chứng địa điểm, hoạt động, thời tiết và điều kiện an toàn.Tiếng Việt - Giao tiếp: Luyện ngữ điệu câu hỏi Wh-; sắp xếp ý theo nơi sẽ đến - hoạt động sẽ làm.",
+          "+ Digital competence & AI literacy: AI 4.B2: AI-generated plans may be missing, incorrect, or outdated; verify locations, activities, weather, and safety conditions. Vietnamese - Communication: Practice Wh- question intonation; organize ideas by where to go - what to do.",
           "3. Attributes",
           "- Show their interests in plans for summer vacations and their experiences."
         ],
@@ -10915,7 +10915,7 @@
               "3. ACTIVITY 2: PRACTICE (10 minutes)"
             ],
             [
-              "Step 1: Have pupils read Question 1. Explain that they will hear the question, repeat and then say it with a falling intonation.Step 2: Do the same with Questions 2 – 4.Step 3: Invite a few pupils to say the questions in front of the class. Give corrections and feedback where necessary.\nStep 1: Have pupils scan the first verse of the chant. Draw their attention to the falling intonation in the Wh-questions.Step 2: Play the recording and ask pupils to listen and repeat the first verse, line by line. Show them how to chant and use their fingers to draw a falling line for the falling intonation in the air.Step 3: Play the recording of the whole verse again for pupils to do choral and individual repetition. Give corrections and feedback where necessary.Step 4: Repeat Steps 1 to 3 for the second verse of the chant. Draw pupils’ attention to the falling intonation in the Wh-questions.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: Kế hoạch do AI tạo có thể thiếu, sai hoặc lỗi thời; kiểm chứng địa điểm, hoạt động, thời tiết và điều kiện an toàn.Tiếng Việt - Giao tiếp: Luyện ngữ điệu câu hỏi Wh-; sắp xếp ý theo nơi sẽ đến - hoạt động sẽ làm.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Have pupils read Question 1. Explain that they will hear the question, repeat and then say it with a falling intonation.Step 2: Do the same with Questions 2 – 4.Step 3: Invite a few pupils to say the questions in front of the class. Give corrections and feedback where necessary.\nStep 1: Have pupils scan the first verse of the chant. Draw their attention to the falling intonation in the Wh-questions.Step 2: Play the recording and ask pupils to listen and repeat the first verse, line by line. Show them how to chant and use their fingers to draw a falling line for the falling intonation in the air.Step 3: Play the recording of the whole verse again for pupils to do choral and individual repetition. Give corrections and feedback where necessary.Step 4: Repeat Steps 1 to 3 for the second verse of the chant. Draw pupils’ attention to the falling intonation in the Wh-questions.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. AI 4.B2: AI-generated plans may be missing, incorrect, or outdated; verify locations, activities, weather, and safety conditions. Vietnamese - Communication: Practice Wh- question intonation; organize ideas by where to go - what to do.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Read the questions. Pay attention to the intonation.- Listen to the recording.  Pay attention to the intonation.- Listen again and repeat.- Practise saying the questions in front of the class.\n- Read the lyrics and pay attention to the falling tune at the end.- Pupils listen to the recording, line by line, and repeat.- Pupils listen to the recording all the way through and chant along. Pupils clap while chanting.- Pupils work in two or more groups to take turns listening to and repeating the chant, while the rest of the class claps along.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -10932,7 +10932,7 @@
       {
         "lessonTitle": "UNIT 20: OUR SUMMER HOLIDAYS - Lesson 3 - Period 6 (Period 135)",
         "topic": "Unit 20:Our summerholidays - Our summer holidays -Lesson 3(4, 5, 6)",
-        "period": "Tiết 135",
+        "period": "Period 135",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -10944,7 +10944,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Thiết kế poster/slide “Our summer holiday” gồm Destination - Activities - Sentences - Pictures.AI 4.A3: Kiểm tra hình ảnh/khẩu hiệu AI với thông tin thật; sửa chi tiết sai hoặc gây hiểu nhầm.Bản quyền và quyền riêng tư số: Dùng ảnh tự tạo/được phép, ghi nguồn; không đăng lịch trình hoặc vị trí cá nhân khi chưa được đồng ý.",
+          "+ Digital competence & AI literacy: NLS 3.1.CB2a: Design a poster/slide titled “Our summer holiday” including Destination - Activities - Sentences - Pictures. AI 4.A3: Check AI images/slogans against real information; correct incorrect or misleading details. Digital copyright and privacy: Use self-created/permitted photos, cite sources; do not post schedules or personal locations without consent.",
           "3. Attributes",
           "- Show their interest in making plans for the summer vacation."
         ],
@@ -10988,7 +10988,7 @@
               "3. ACTIVITY 2: PRODUCTION (10 minutes)"
             ],
             [
-              "Step 1: Ask pupils to read the title My summer and talk about the activities they can see from the picture. Tell pupils that they should write about 30 words.Step 2: Give pupils enough time to write their paragraph. Let pupils work in pairs or groups for cross checks. Go ground the class and give support when necessary.Step 3: Have some pupils read their paragraph aloud. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Thiết kế poster/slide “Our summer holiday” gồm Destination - Activities - Sentences - Pictures.AI 4.A3: Kiểm tra hình ảnh/khẩu hiệu AI với thông tin thật; sửa chi tiết sai hoặc gây hiểu nhầm.Bản quyền và quyền riêng tư số: Dùng ảnh tự tạo/được phép, ghi nguồn; không đăng lịch trình hoặc vị trí cá nhân khi chưa được đồng ý.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to read the title My summer and talk about the activities they can see from the picture. Tell pupils that they should write about 30 words.Step 2: Give pupils enough time to write their paragraph. Let pupils work in pairs or groups for cross checks. Go ground the class and give support when necessary.Step 3: Have some pupils read their paragraph aloud. Give corrections and feedback where necessary.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 3.1.CB2a: Design a poster/slide titled “Our summer holiday” including Destination - Activities - Sentences - Pictures. AI 4.A3: Check AI images/slogans against real information; correct incorrect or misleading details. Digital copyright and privacy: Use self-created/permitted photos, cite sources; do not post schedules or personal locations without consent.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to the teacher’s explanation.- Pupils read the first sentences in the frame and complete the sentences.- Pupils write their paragraph.- Pupils swap books with a partner, then check answers as a class.- Pupils read the sentences they have completed in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -11011,8 +11011,8 @@
       },
       {
         "lessonTitle": "REVIEW 4 - Period 1 (Period 136)",
-        "topic": "Review 4 – Part 1 - Ôn từ vựng, cấu trúc và bốn kỹ năng của Units 16–20; chữa lỗi thường gặp và chuẩn bị đánh giá.",
-        "period": "Tiết 136",
+        "topic": "Review 4 – Part 1",
+        "period": "Period 136",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -11024,7 +11024,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Đối chiếu câu trả lời với nguồn học tập tin cậy.AI 4.B2: So sánh một đáp án kiểu AI với kiến thức đã học, phát hiện và sửa lỗi trước khi chấp nhận.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Cross-check answers with reliable learning sources. AI 4.B2: Compare an AI-style answer with learned knowledge, detect and correct errors before accepting.",
           "3. Attributes",
           "- Pupils can observe changes in temperature and choose their suitable clothes.",
           "- Pupils can learn some life lessons and develop their imagination and creativity through stories for children.",
@@ -11072,7 +11072,7 @@
               "3. ACTIVITY 2: PRACTICE (10 minutes)"
             ],
             [
-              "Step 1: Draw pupils’ attention to Question 1. Get the class to read it in chorus. Elicit the answer based on what pupils can see in the picture (e.g. I want to visit Ha Long Bay.) and give feedback. Then get pupils to role-play the exchange. Repeat the same procedure with the rest of the questions. Step 2: Give pupils time to take turns to role-play the four exchanges. Tell them that they can feel free to adapt the information and make personal exchanges about themselves if they prefer, rather than using the pictures as prompts. Go around the classroom to oﬀer support where necessary.Step 3:  Invite a few pairs of pupils to stand up and take it in turns to role-play the target exchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Đối chiếu câu trả lời với nguồn học tập tin cậy.AI 4.B2: So sánh một đáp án kiểu AI với kiến thức đã học, phát hiện và sửa lỗi trước khi chấp nhận.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Draw pupils’ attention to Question 1. Get the class to read it in chorus. Elicit the answer based on what pupils can see in the picture (e.g. I want to visit Ha Long Bay.) and give feedback. Then get pupils to role-play the exchange. Repeat the same procedure with the rest of the questions. Step 2: Give pupils time to take turns to role-play the four exchanges. Tell them that they can feel free to adapt the information and make personal exchanges about themselves if they prefer, rather than using the pictures as prompts. Go around the classroom to oﬀer support where necessary.Step 3:  Invite a few pairs of pupils to stand up and take it in turns to role-play the target exchanges.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Cross-check answers with reliable learning sources. AI 4.B2: Compare an AI-style answer with learned knowledge, detect and correct errors before accepting.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils look at the picture, read Question 1 in chorus and guess the answer.- Pupils role-play the exchange.- Pupils repeat the same procedure with the rest of the questions. - Pupils take turns to role-play the four exchanges.- Pairs of pupils stand up and take it in turns to role-play the target exchanges.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -11094,8 +11094,8 @@
     "lessons": [
       {
         "lessonTitle": "REVIEW 4 - Period 2 (Period 137)",
-        "topic": "Review 4 – Part 2 - Ôn từ vựng, cấu trúc và bốn kỹ năng của Units 16–20; chữa lỗi thường gặp và chuẩn bị đánh giá.",
-        "period": "Tiết 137",
+        "topic": "Review 4 – Part 2",
+        "period": "Period 137",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -11108,7 +11108,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Đối chiếu câu trả lời với nguồn học tập tin cậy.AI 4.B2: So sánh một đáp án kiểu AI với kiến thức đã học, phát hiện và sửa lỗi trước khi chấp nhận.",
+          "+ Digital competence & AI literacy: NLS 1.2.CB1a: Cross-check answers with reliable learning sources. AI 4.B2: Compare an AI-style answer with learned knowledge, detect and correct errors before accepting.",
           "3. Attributes",
           "- Pupils can observe changes in temperature and choose their suitable clothes.",
           "- Pupils can learn some life lessons and develop their imagination and creativity through stories for children.",
@@ -11162,7 +11162,7 @@
               "4. ACTIVITY 3: PRODUCTION (8 minutes)"
             ],
             [
-              "Step 1: Ask pupils to read the guiding questions. Check comprehension.Step 2: Have pupils do the first question together as an example. Ask them to read the question and elicit where they are going to visit. Then have them complete the first sentence, e.g. I am going to visit Ba Na Hills this summer.Step 3: Give pupils time to complete the paragraph independently. Go around the classroom and offer help if necessary.Step 4: Get pupils to swap their writing with a partner for peer-checks, then invite a few pupils to read their writing in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Đối chiếu câu trả lời với nguồn học tập tin cậy.AI 4.B2: So sánh một đáp án kiểu AI với kiến thức đã học, phát hiện và sửa lỗi trước khi chấp nhận.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Ask pupils to read the guiding questions. Check comprehension.Step 2: Have pupils do the first question together as an example. Ask them to read the question and elicit where they are going to visit. Then have them complete the first sentence, e.g. I am going to visit Ba Na Hills this summer.Step 3: Give pupils time to complete the paragraph independently. Go around the classroom and offer help if necessary.Step 4: Get pupils to swap their writing with a partner for peer-checks, then invite a few pupils to read their writing in front of the class.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 1.2.CB1a: Cross-check answers with reliable learning sources. AI 4.B2: Compare an AI-style answer with learned knowledge, detect and correct errors before accepting.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils read the guiding questions.- Pupils do the first question together as an example. - Pupils write the paragraph independently. - Pairs of pupils swap their writing for peer-checks.- Some pairs read their writing in front of the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
@@ -11178,8 +11178,8 @@
       },
       {
         "lessonTitle": "REVIEW 4 - Period 3 - Extension activities (Period 138)",
-        "topic": "Extension activities 4 - Hoàn thành các hoạt động mở rộng của Units 16–20; vận dụng nghe – nói – đọc – viết trong tình huống gần gũi.",
-        "period": "Tiết 138",
+        "topic": "Extension activities 4 - Ho",
+        "period": "Period 138",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of this lesson, pupils will be able to:",
@@ -11192,7 +11192,7 @@
           "- Communication and collaboration: work in pairs and groups to complete the learning tasks.",
           "- Self-control & independent learning: perform pronunciation and speaking tasks.",
           "- Digital competence & AI literacy:",
-          "+ Digital competence & AI literacy: NLS 2.4.CB1a; 3.1.CB1a: Hợp tác trên bảng/slide số do GV quản lí và tạo sản phẩm đơn giản.AI 4.A3: Kiểm tra gợi ý AI trước khi sử dụng; con người quyết định nội dung cuối cùng.",
+          "+ Digital competence & AI literacy: NLS 2.4.CB1a; 3.1.CB1a: Collaborate on digital boards/slides managed by teachers and create simple products. AI 4.A3: Check AI suggestions before use; humans decide on the final content.",
           "3. Attributes",
           "- Categorization: Recognizing patterns and similarities, allowing them to sort stories into genres (adventure, mystery, etc.).",
           "- Evaluation: Forming opinions on why they like/ dislike certain types.",
@@ -11246,15 +11246,15 @@
               "4. ACTIVITY 3: PRODUCTION (5 minutes)"
             ],
             [
-              "Step 1: Tell pupils the goal of theactivity. Explain that they have to complete a short paragraph about stories with their own information.Step 2: Have pupils read the first sentence aloud, i.e. I like __ stories because they are __. Point at each gap and ask What is missing? (a type of story; why I like it). Review the types of stories they have learnt adventure, history, mystery and spooky. Have pupils complete the gaps independently, then check their answers as a class.Step 3:  Repeat Step 2 with the second sentence. Have a few pupils read their completed paragraphs to the class.Extension: Have pupils present their favourite books to the class. They should say what types of stories they are, who the main characters are and what happens.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB1a; 3.1.CB1a: Hợp tác trên bảng/slide số do GV quản lí và tạo sản phẩm đơn giản.AI 4.A3: Kiểm tra gợi ý AI trước khi sử dụng; con người quyết định nội dung cuối cùng.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
+              "Step 1: Tell pupils the goal of theactivity. Explain that they have to complete a short paragraph about stories with their own information.Step 2: Have pupils read the first sentence aloud, i.e. I like __ stories because they are __. Point at each gap and ask What is missing? (a type of story; why I like it). Review the types of stories they have learnt adventure, history, mystery and spooky. Have pupils complete the gaps independently, then check their answers as a class.Step 3:  Repeat Step 2 with the second sentence. Have a few pupils read their completed paragraphs to the class.Extension: Have pupils present their favourite books to the class. They should say what types of stories they are, who the main characters are and what happens.\n\nDIGITAL & AI MINI-TASK (integrated into Practice/Production – 2–3’):\nShow digital examples/audio on hoclieu.vn/slides. NLS 2.4.CB1a; 3.1.CB1a: Collaborate on digital boards/slides managed by teachers and create simple products. AI 4.A3: Check AI suggestions before use; humans decide on the final content.. Guide pupils to evaluate AI/digital outputs against textbook and official audio.",
               "- Pupils listen to teacher’s instructions.- Pupils read the first sentence aloud, guess what type of information they need to complete. - Pupils continue with the second sentence.- Pupils read their completed paragraphs to the class.\n\nDigital/AI pupil action:\nPupils observe digital materials, identify correct language patterns, verify answers with the textbook/audio, and practice safe interaction."
             ],
             [
               "5. FUN CORNER AND WRAP-UP (5 minutes)"
             ],
             [
-              "GIÁO VIÊN",
-              "DUYỆT TỔ TRƯỞNG"
+              "TEACHER",
+              "HEAD OF DEPARTMENT"
             ]
           ]
         ],
@@ -11263,7 +11263,7 @@
       {
         "lessonTitle": "SECOND TERM TEST – PART 1 (Period 139)",
         "topic": "Second Term Test – Part 1 (Units 11–20 Assessment)",
-        "period": "Tiết 139",
+        "period": "Period 139",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of the lesson, pupils will be able to:",
@@ -11274,7 +11274,7 @@
           "- Independent thinking: solve test tasks accurately and autonomously.",
           "- Academic integrity: adhere strictly to assessment ethics; do not use AI tools or digital search.",
           "- Digital competence & AI literacy:",
-          "  + Digital competence & AI literacy: NLS / AI – Liêm chính học thuật: HS làm bài độc lập; không sử dụng AI, tìm kiếm trực tuyến hoặc trợ giúp số không được phép trong bài kiểm tra chính thức.",
+          "  + Digital competence & AI literacy: NLS / AI - Academic integrity: Students work independently; do not use AI, online searches, or unauthorized digital assistance during official tests.",
           "3. Attributes:",
           "- Honesty, diligence, confidence and pride in their learning growth over the school year."
         ],
@@ -11323,7 +11323,7 @@
       {
         "lessonTitle": "SECOND TERM TEST – PART 2 (Period 140)",
         "topic": "Second Term Test – Part 2 (Units 11–20 Assessment)",
-        "period": "Tiết 140",
+        "period": "Period 140",
         "yccd": [
           "A. OBJECTIVES:",
           "By the end of the lesson, pupils will be able to:",
@@ -11334,7 +11334,7 @@
           "- Independent thinking: solve test tasks accurately and autonomously.",
           "- Academic integrity: adhere strictly to assessment ethics; do not use AI tools or digital search.",
           "- Digital competence & AI literacy:",
-          "  + Digital competence & AI literacy: NLS / AI – Liêm chính học thuật: HS làm bài độc lập; không sử dụng AI, tìm kiếm trực tuyến hoặc trợ giúp số không được phép trong bài kiểm tra chính thức.",
+          "  + Digital competence & AI literacy: NLS / AI - Academic integrity: Students work independently; do not use AI, online searches, or unauthorized digital assistance during official tests.",
           "3. Attributes:",
           "- Honesty, diligence, confidence and pride in their learning growth over the school year."
         ],

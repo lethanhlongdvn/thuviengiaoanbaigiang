@@ -5437,6 +5437,109 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     return les;
   },
 
+  removeVietnameseTones: function(str) {
+    if (!str || typeof str !== 'string') return '';
+    return str
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .replace(/đ/g, 'd')
+      .replace(/Đ/g, 'D');
+  },
+
+  /**
+   * Dịch và chuẩn hóa tự động các chuỗi tiếng Việt sang tiếng Anh cho KHBD Tiếng Anh
+   */
+  translateVnToEnglish: function(text) {
+    if (!text || typeof text !== 'string') return text;
+    var s = text;
+    // 1. Periods & Dates & Sessions & Timings
+    s = s.replace(/Tiết\s*(\d+)/gi, 'Period $1')
+         .replace(/(\d+)\s*tiết/gi, '$1 periods')
+         .replace(/(\d+)\s*phút/gi, '$1 mins')
+         .replace(/Buổi\s*Sáng/gi, 'Morning')
+         .replace(/Buổi\s*Chiều/gi, 'Afternoon')
+         .replace(/Thứ\s*Hai/gi, 'Monday')
+         .replace(/Thứ\s*Ba/gi, 'Tuesday')
+         .replace(/Thứ\s*Tư/gi, 'Wednesday')
+         .replace(/Thứ\s*Năm/gi, 'Thursday')
+         .replace(/Thứ\s*Sáu/gi, 'Friday')
+         .replace(/Thứ\s*Bảy/gi, 'Saturday')
+         .replace(/Chủ\s*Nhật/gi, 'Sunday');
+
+    // 2. Vocabulary glosses
+    var delimiter = s.includes('\\n') ? '\\n' : (s.includes('\n') ? '\n' : null);
+    if (delimiter) {
+      var parts = s.split(delimiter);
+      var cleanedParts = parts.map(function(part) {
+        if (/[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđĐ]/i.test(part)) {
+          var m = part.match(/^(\s*[+*•-]?\s*[a-zA-Z0-9\s'’=/–()\-\.\?]+)\s*[:;=]\s*([^()]+?)(\s*\([a-zA-Z\s]+\))?\s*$/);
+          if (m) return m[1] + (m[3] ? m[3] : '');
+          var m2 = part.match(/^(\s*[+*•-]?\s*[a-zA-Z0-9\s'’=/–()\-\.\?]+)\s*[:;=]\s*(?:[^()]*\([^)]*\))*[^()]*\s*(\([a-zA-Z\s]+\))\s*$/);
+          if (m2) return m2[1] + ' ' + m2[2];
+          var m3 = part.match(/^(\s*[+*•-]?\s*[a-zA-Z0-9\s'’=/–()\-\.\?]+)\s*[:;=]\s*[^\\]+$/);
+          if (m3) return m3[1];
+        }
+        return part;
+      });
+      s = cleanedParts.join(delimiter);
+    } else if (/[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđĐ]/i.test(s)) {
+      var m = s.match(/^(\s*[+*•-]?\s*[a-zA-Z0-9\s'’=/–()\-\.\?]+)\s*[:;=]\s*([^()]+?)(\s*\([a-zA-Z\s]+\))?\s*$/);
+      if (m) s = m[1] + (m[3] ? m[3] : '');
+    }
+
+    // 3. Topics with Vietnamese suffix
+    s = s.replace(/\s*[-–—]\s*[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđĐ].*$/, '');
+
+    // 4. Activity headings & Sections
+    s = s.replace(/Khởi\s*động/gi, 'Warm-up')
+         .replace(/Khám\s*phá/gi, 'Presentation')
+         .replace(/Luyện\s*tập/gi, 'Practice')
+         .replace(/Vận\s*dụng/gi, 'Production')
+         .replace(/Củng\s*cố/gi, 'Consolidation')
+         .replace(/Trò\s*chơi/gi, 'Game')
+         .replace(/Hoạt\s*động/gi, 'Activity')
+         .replace(/Bài\s*học/gi, 'Lesson')
+         .replace(/Bài\s*dạy/gi, 'Lesson');
+
+    // 5. Special entities & Signatures
+    s = s.replace(/GIÁO VIÊNPhạm Thị Kiều Dung/g, 'TEACHER: Pham Thi Kieu Dung')
+         .replace(/DUYỆT TỔ TRƯỞNGNguyễn Văn Thưởng/g, 'HEAD OF DEPARTMENT: Nguyen Van Thuong')
+         .replace(/GIÁO VIÊN\s*SOẠN/gi, 'TEACHER')
+         .replace(/GIÁO VIÊN/g, 'TEACHER')
+         .replace(/TỔ\s*TRƯỞNG\s*CHUYÊN\s*MÔN/gi, 'HEAD OF DEPARTMENT')
+         .replace(/PHÓ\s*TỔ\s*TRƯỞNG\s*CHUYÊN\s*MÔN/gi, 'VICE HEAD OF DEPARTMENT')
+         .replace(/BAN\s*GIÁM\s*HIỆU/gi, 'SCHOOL BOARD')
+         .replace(/HIỆU\s*TRƯỞNG/gi, 'PRINCIPAL')
+         .replace(/PHÓ\s*HIỆU\s*TRƯỞNG/gi, 'VICE PRINCIPAL')
+         .replace(/DUYỆT/gi, 'APPROVED')
+         .replace(/Phòng Y tế \(School Clinic\)/g, 'School Clinic')
+         .replace(/Phòng Y tế/g, 'School Clinic')
+         .replace(/Tiếng Anh 5/g, 'English 5')
+         .replace(/Tiếng Anh 4/g, 'English 4')
+         .replace(/Tiếng Anh 3/g, 'English 3')
+         .replace(/Tiếng Anh/g, 'English')
+         .replace(/50\.000đ\s*–\s*60\.000đ/g, '50,000 VND - 60,000 VND')
+         .replace(/55\.000đ/g, '55,000 VND');
+
+    // 6. SEN lines
+    s = s.replace(/5\.\s*Điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)\s*:/gi, '5. Adjustments for inclusive students (SEN):')
+         .replace(/Năng\s*lực\s*đặc\s*thù\s*:/gi, 'Specific competences:')
+         .replace(/Phẩm\s*chất,\s*năng\s*lực\s*chung\s*:/gi, 'General competences & Qualities:')
+         .replace(/Năng\s*lực\s*chung\s*:/gi, 'General competences:')
+         .replace(/Dạng\s*(\d+)\s*:/gi, 'Type $1:')
+         .replace(/Học\s*sinh\s*(\d+)\s*:/gi, 'Student $1:')
+         .replace(/Học\s*sinh\s*hòa\s*nhập/gi, 'Inclusive student (SEN)')
+         .replace(/học\s*sinh\s*hòa\s*nhập/gi, 'inclusive student (SEN)')
+         .replace(/học\s*sinh\s*khuyết\s*tật/gi, 'inclusive student (SEN)')
+         .replace(/Học\s*sinh\s*khuyết\s*tật/gi, 'Inclusive student (SEN)')
+         .replace(/Đối\s*với\s*học\s*sinh\s*hòa\s*nhập/gi, 'For inclusive students')
+         .replace(/Đối\s*với\s*học\s*sinh\s*khuyết\s*tật/gi, 'For inclusive students')
+         .replace(/đối\s*với\s*học\s*sinh\s*hòa\s*nhập/gi, 'for inclusive students')
+         .replace(/đối\s*với\s*học\s*sinh\s*khuyết\s*tật/gi, 'for inclusive students');
+
+    return s;
+  },
+
   generateWordHtmlStructure: function(lessons, meta) {
     var schoolName = meta.schoolName || 'TRƯỜNG TIỂU HỌC .................................';
     var teacherName = meta.teacherName || '';
@@ -5454,13 +5557,59 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var department = meta.department || '';
     var isTimetableDoc = !!meta.isTimetableDoc;
 
+    var isDocEn = !!(
+      (meta && (
+        (meta.subjectKey && /tieng_anh|english/i.test(meta.subjectKey)) ||
+        (meta.subjectId && /tieng_anh|english/i.test(meta.subjectId)) ||
+        (meta.subjectName && /tiếng anh|english/i.test(meta.subjectName))
+      )) ||
+      (lessons && lessons.some(function(l) { return IntegrationService.isEnglishLesson(l, meta && (meta.subjectKey || meta.subjectId || meta.subjectName)); }))
+    );
+
+    var docTitle = meta.title || 'Kế hoạch bài dạy';
+    if (isDocEn) {
+      docTitle = docTitle
+        .replace(/Kế hoạch bài dạy/gi, 'Lesson Plan')
+        .replace(/Môn Tiếng Anh/gi, 'English')
+        .replace(/Tiếng Anh/gi, 'English')
+        .replace(/Khối\s*(\d+)/gi, 'Grade $1')
+        .replace(/Tuần\s*(\d+)/gi, 'Week $1');
+    }
+
+    var displaySchoolName = schoolName;
+    var displayTeacherName = teacherName;
+    var displayDepartment = department;
+    if (isDocEn) {
+      if (/primary\s*school/i.test(displaySchoolName)) {
+        // already English
+      } else {
+        var cleanSch = displaySchoolName.replace(/^TRƯỜNG\s*TIỂU\s*HỌC\s*/i, '').replace(/^TIỂU\s*HỌC\s*/i, '').trim();
+        if (!cleanSch || /^[._\s-]+$/.test(cleanSch)) {
+          displaySchoolName = 'PRIMARY SCHOOL: .................................';
+        } else {
+          displaySchoolName = IntegrationService.removeVietnameseTones(cleanSch).toUpperCase() + ' PRIMARY SCHOOL';
+        }
+      }
+      if (displayTeacherName) {
+        displayTeacherName = IntegrationService.removeVietnameseTones(displayTeacherName);
+      }
+      if (displayDepartment) {
+        var cleanDep = displayDepartment.replace(/^Tổ\s*/i, '').trim();
+        if (/ngoại\s*ngữ|tiếng\s*anh|foreign\s*language|english/i.test(cleanDep)) {
+          displayDepartment = 'English Department';
+        } else {
+          displayDepartment = IntegrationService.removeVietnameseTones(cleanDep) + ' Department';
+        }
+      }
+    }
+
     var docHtml = `
       <html xmlns:o="urn:schemas-microsoft-com:office:office" 
             xmlns:w="urn:schemas-microsoft-com:office:word" 
             xmlns="http://www.w3.org/TR/REC-html40">
       <head>
         <meta charset="utf-8">
-        <title>${meta.title || 'Kế hoạch bài dạy'}</title>
+        <title>${docTitle}</title>
         <!--[if gte mso 9]>
         <xml>
           <w:WordDocument>
@@ -5804,20 +5953,35 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         IntegrationService.cleanGddpFromLesson(les);
       }
 
-      var clsInfo = les.className ? (' • ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '';
+      var isEnLesson = isDocEn || IntegrationService.isEnglishLesson(les, meta && (meta.subjectKey || meta.subjectId || meta.subjectName));
 
       // Tự động tính ngày giảng dạy thực tế theo Thời khóa biểu và Lịch năm học
       var currentWeekNum = meta.week || meta.startWeek || les.week || 1;
       var calObj = (typeof window !== 'undefined' && window.AcademicCalendar) ? window.AcademicCalendar : (typeof AcademicCalendar !== 'undefined' ? AcademicCalendar : null);
       var lessonDateInfo = (calObj && les.dayName) ? calObj.getDayDate(currentWeekNum, les.dayName) : null;
       var dateStr = lessonDateInfo ? lessonDateInfo.formatted : '';
-      var dayHeaderTitle = les.dayName ? (les.dayName + (dateStr ? (', ngày ' + dateStr) : '')) : '';
 
-      var daySessionInfo = dayHeaderTitle ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-weight: bold; color: #1e40af; font-size: 12pt; margin-bottom: 4pt; text-align: center; line-height: 1.0; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 4pt;">' + dayHeaderTitle + ' • Buổi ' + (les.session || 'Sáng') + ' • ' + (les.periodSlot ? ('Tiết ' + les.periodSlot) : '') + clsInfo + '</p>') : '';
+      var daySessionInfo = '';
+      if (isEnLesson) {
+        var dayNameEn = IntegrationService.translateVnToEnglish(les.dayName || '');
+        var sessionEn = (les.session && /chiều/i.test(les.session)) ? 'Afternoon' : 'Morning';
+        var slotEn = les.periodSlot ? ('Period ' + les.periodSlot) : '';
+        var clsInfoEn = les.className ? (' • ' + (les.className.toLowerCase().includes('class') ? les.className : ('Class ' + les.className.replace(/^lớp\s*/i, '')))) : '';
+        var dayHeaderTitleEn = dayNameEn ? (dayNameEn + (dateStr ? (', ' + dateStr) : '')) : '';
+        if (dayHeaderTitleEn) {
+          daySessionInfo = '<p align="center" style="font-family: \'Times New Roman\', serif; font-weight: bold; color: #1e40af; font-size: 12pt; margin-bottom: 4pt; text-align: center; line-height: 1.0; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 4pt;">' + dayHeaderTitleEn + ' • ' + sessionEn + (slotEn ? (' • ' + slotEn) : '') + clsInfoEn + '</p>';
+        }
+      } else {
+        var clsInfo = les.className ? (' • ' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className))) : '';
+        var dayHeaderTitle = les.dayName ? (les.dayName + (dateStr ? (', ngày ' + dateStr) : '')) : '';
+        if (dayHeaderTitle) {
+          daySessionInfo = '<p align="center" style="font-family: \'Times New Roman\', serif; font-weight: bold; color: #1e40af; font-size: 12pt; margin-bottom: 4pt; text-align: center; line-height: 1.0; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 4pt;">' + dayHeaderTitle + ' • Buổi ' + (les.session || 'Sáng') + ' • ' + (les.periodSlot ? ('Tiết ' + les.periodSlot) : '') + clsInfo + '</p>';
+        }
+      }
 
       var isDouble = (les.periodSlot && les.periodSlot.toString().includes('-')) || (les.period && (String(les.period).toLowerCase().includes('2 tiết') || String(les.period).toLowerCase().includes('tiết đôi')));
-      var durationDefault = isDouble ? '70 phút' : '35 phút';
-      var durationWithDate = dateStr ? (durationDefault + ' (ngày ' + dateStr + ')') : durationDefault;
+      var durationDefault = isEnLesson ? (isDouble ? '70 mins' : '35 mins') : (isDouble ? '70 phút' : '35 phút');
+      var durationWithDate = dateStr ? (durationDefault + (isEnLesson ? (' (' + dateStr + ')') : (' (ngày ' + dateStr + ')'))) : durationDefault;
 
       var inTichHopSection = false;
       var hasRenderedTichHopHeader = false;
@@ -5827,41 +5991,48 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       var yccdContent = normalizedYccdList.map(function(line) {
         if (typeof line !== 'string') return '';
         var cleanLine = line.trim();
+        if (isEnLesson) {
+          cleanLine = IntegrationService.translateVnToEnglish(cleanLine);
+          // Bỏ dòng tiêu đề A. OBJECTIVES: / I. OBJECTIVES: đầu mục (vì tiêu đề phần A. OBJECTIVES: đã tự sinh phía trên)
+          if (/^\s*(?:A\.|I\.)\s*OBJECTIVES\s*[:.-]?\s*$/i.test(cleanLine)) {
+            return '';
+          }
+        }
         // Bỏ dòng Số tiết thực hiện / Thời gian thực hiện / Ngày thực hiện / Tiêu đề giáo án khỏi YCCD
         if (/^[\s\-–—*•]*(?:số\s*tiết|thời\s*gian|ngày)\s*thực\s*hiện/i.test(cleanLine)) {
           return '';
         }
-        if (/^[\s\-–—*•]*(?:kế\s*hoạch\s*bài\s*dạy|bài\s*học\s*tiết\s*\d+)/i.test(cleanLine)) {
+        if (/^[\s\-–—*•]*(?:kế\s*hoạch\s*bài\s*dạy|bài\s*học\s*tiết\s*\d+|lesson\s*plan)/i.test(cleanLine)) {
           return '';
         }
 
-        var isEnSubject = IntegrationService.isEnglishLesson(les, meta && (meta.subjectKey || meta.subjectId || meta.subjectName)) || /unit\s+\d+|starter\b/i.test(cleanLine || '');
         var isSingleLineDieuChinhHeader = !cleanLine.includes('\n') && /^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students(?:\s*\(sen\))?|\(sen\)))[:.\s]*$/i.test(cleanLine);
         if (isSingleLineDieuChinhHeader) {
           inDisabilitySection = true;
           inTichHopSection = false;
           if (!hasRenderedDisabilityHeader) {
             hasRenderedDisabilityHeader = true;
-            var senHeaderText = isEnSubject ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
+            var senHeaderText = isEnLesson ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
             return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + senHeaderText + '</span></p>';
           }
           return '';
         }
 
-        // Nhận diện Tiêu đề nhóm Tích hợp (ví dụ: "4. Tích hợp", "4. Tích hợp giáo dục...")
-        var isTichHopHeaderGroup = /^(?:4|3)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp)\s*[:.-]?$/i.test(cleanLine) || /^[\s*•\-–—]*tích\s*hợp\s*[:.-]?$/i.test(cleanLine);
+        // Nhận diện Tiêu đề nhóm Tích hợp (ví dụ: "4. Tích hợp", "4. Integration")
+        var isTichHopHeaderGroup = /^(?:4|3)\.\s*(?:tích\s*hợp|nội\s*dung\s*tích\s*hợp|integration)\s*[:.-]?$/i.test(cleanLine) || /^[\s*•\-–—]*(?:tích\s*hợp|integration)\s*[:.-]?$/i.test(cleanLine);
         if (isTichHopHeaderGroup) {
           inTichHopSection = true;
           inDisabilitySection = false;
           if (!hasRenderedTichHopHeader) {
             hasRenderedTichHopHeader = true;
-            return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">4. Tích hợp:</p>';
+            var tichHopHeader = isEnLesson ? '4. Integration:' : '4. Tích hợp:';
+            return '<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: justify;">' + tichHopHeader + '</p>';
           }
           return '';
         }
 
         // Nếu gặp tiêu đề nhóm khác (như 1., 2., 3., 5.) thì thoát khỏi section tích hợp
-        if (/^[1-35]\.\s+(?:năng\s*lực|phẩm\s*chất|kiến\s*thức|điều\s*chỉnh)/i.test(cleanLine)) {
+        if (/^[1-35]\.\s+(?:năng\s*lực|phẩm\s*chất|kiến\s*thức|điều\s*chỉnh|competence|qualit|knowledge|adjustment)/i.test(cleanLine)) {
           inTichHopSection = false;
         }
         if (/^[1-4]\.\s*/i.test(cleanLine)) {
@@ -5869,7 +6040,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         }
 
         var isKhuyetTat = inDisabilitySection || IntegrationService.isDisabilityLine(cleanLine);
-        var isTichHop = inTichHopSection || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1;
+        var isTichHop = inTichHopSection || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|human\s*rights|stem|local/i.test(cleanLine) || cleanLine.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || cleanLine.indexOf('[Tích hợp') !== -1 || cleanLine.indexOf('(Tích hợp)') !== -1 || cleanLine.indexOf('[Integration') !== -1;
         if (isKhuyetTat) {
           inDisabilitySection = true;
           inTichHopSection = false;
@@ -5883,24 +6054,33 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             .replace(/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh\s*(?:khuyết\s*tật|hòa\s*nhập)|adjustments?\s*(?:for\s*inclusive\s*students(?:\s*\(sen\))?|\(sen\)))\s*[:.-]?\s*/gi, '')
             .trim();
 
+          if (isEnLesson) {
+            displayLine = IntegrationService.translateVnToEnglish(displayLine);
+          }
+
           var parts = displayLine.split(/\r?\n|<br\s*\/?>/i).map(function(p) { return p.trim(); }).filter(Boolean);
           var htmlLines = parts.map(function(pLine) {
             if (/^5\.\s*(?:điều\s*chỉnh\s*đối\s*với\s*học\s*sinh|adjustments?\s*(?:for|\(sen\)))/i.test(pLine)) return '';
             pLine = pLine.replace(/^[-*•+–—]?\s*(?:\(sen\)|sen)\s*[:.-]?\s*/i, '');
-            // Chuẩn hóa tiêu đề học sinh khuyết tật sang định dạng Dạng 1, Dạng 2 hoặc Type 1, Type 2
-            pLine = pLine.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
-              return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
-            });
+            if (isEnLesson) {
+              pLine = pLine.replace(/^\*\s*(?:học\s*sinh|student|dạng|type)\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
+                return '* Type ' + p1 + ': ' + p2.replace(/:$/, '').trim();
+              });
+            } else {
+              pLine = pLine.replace(/^\*\s*học\s*sinh\s*(\d+)\s*:\s*(.+?)(?:\s*\([^)]*mức\s*độ\s*nhận\s*thức[^)]*\))?\s*:?\s*$/i, function(m, p1, p2) {
+                return '* Dạng ' + p1 + ': ' + p2.replace(/:$/, '').trim();
+              });
+            }
             var isStudentSubHeader = /^\*\s*(?:học\s*sinh|đối\s*với\s*học\s*sinh|dạng\s*\d+|type\s*\d+|student\s*\d+)/i.test(pLine);
             if (isStudentSubHeader) {
               return '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000; font-weight: bold;">' + pLine + '</span></p>';
             }
             if (/^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:/i.test(pLine)) {
-              pLine = pLine.replace(/^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:\s*/i, '- <b>Năng lực đặc thù:</b> ');
+              pLine = pLine.replace(/^[-*•+–—]?\s*năng\s*lực\s*đặc\s*thù\s*:\s*/i, isEnLesson ? '- <b>Specific competences:</b> ' : '- <b>Năng lực đặc thù:</b> ');
             } else if (/^[-*•+–—]?\s*specific\s*competences?\s*:/i.test(pLine)) {
               pLine = pLine.replace(/^[-*•+–—]?\s*specific\s*competences?\s*:\s*/i, '- <b>Specific competences:</b> ');
             } else if (/^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:/i.test(pLine)) {
-              pLine = pLine.replace(/^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:\s*/i, '- <b>Phẩm chất, năng lực chung:</b> ');
+              pLine = pLine.replace(/^[-*•+–—]?\s*phẩm\s*chất[,\s]+năng\s*lực\s*chung\s*:\s*/i, isEnLesson ? '- <b>General competences & Qualities:</b> ' : '- <b>Phẩm chất, năng lực chung:</b> ');
             } else if (/^[-*•+–—]?\s*general\s*competences?\s*(?:&|and)?\s*qualit(?:y|ies)?\s*:/i.test(pLine)) {
               pLine = pLine.replace(/^[-*•+–—]?\s*general\s*competences?\s*(?:&|and)?\s*qualit(?:y|ies)?\s*:\s*/i, '- <b>General competences & Qualities:</b> ');
             } else if (!pLine.startsWith('-') && !pLine.startsWith('+') && !pLine.startsWith('*')) {
@@ -5911,7 +6091,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
           var headerHtml = '';
           if (!hasRenderedDisabilityHeader) {
-            var senHeaderText = isEnSubject ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
+            var senHeaderText = isEnLesson ? '5. Adjustments for inclusive students (SEN):' : '5. Điều chỉnh đối với học sinh hòa nhập:';
             headerHtml = '<p style="margin: 0pt; margin-top: 4pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 4pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; font-weight: bold; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + senHeaderText + '</span></p>';
             hasRenderedDisabilityHeader = true;
           }
@@ -5928,7 +6108,10 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             .replace(/\(Tích hợp\)/gi, '')
             .replace(/\s{2,}/g, ' ')
             .trim();
-          var isSubHeader = /^[-*•+–—]?\s*tích\s*hợp\s*(?:anqp|ai|năng\s*lực\s*số|stem|gdđp)/i.test(displayLine);
+          if (isEnLesson) {
+            displayLine = IntegrationService.translateVnToEnglish(displayLine);
+          }
+          var isSubHeader = /^[-*•+–—]?\s*(?:tích\s*hợp\s*(?:anqp|ai|năng\s*lực\s*số|stem|gdđp)|integration\b)/i.test(displayLine);
           var isCodeBullet = /^\d+(?:\.[A-Z\d]+)+(?::|\b)/i.test(displayLine);
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*') && !isCodeBullet) {
             displayLine = '- ' + displayLine;
@@ -5952,11 +6135,18 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       }
       var dodungContent = dodungList.map(function(line) {
         if (typeof line !== 'string') return '';
-        var isDisability = IntegrationService.isDisabilityLine(line) || line.toLowerCase().includes('học sinh hòa nhập') || line.toLowerCase().includes('khuyết tật');
+        if (isEnLesson) {
+          line = IntegrationService.translateVnToEnglish(line);
+          // Bỏ dòng tiêu đề B. TEACHING AIDS: / II. TEACHING AIDS: đầu mục (vì tiêu đề phần B. TEACHING AIDS: đã tự sinh phía trên)
+          if (/^\s*(?:B\.|II\.)\s*TEACHING\s*AIDS?\s*[:.-]?\s*$/i.test(line.trim())) {
+            return '';
+          }
+        }
+        var isDisability = IntegrationService.isDisabilityLine(line) || line.toLowerCase().includes('học sinh hòa nhập') || line.toLowerCase().includes('khuyết tật') || line.toLowerCase().includes('inclusive student');
         if (isDisability) {
           return '<p style="margin: 0pt; margin-top: 2pt; margin-bottom: 2pt; mso-para-margin: 0pt; mso-para-margin-top: 2pt; mso-para-margin-bottom: 2pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.15; color: #C00000; text-align: justify;"><span style="color: #C00000;">' + line + '</span></p>';
         }
-        var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(line) || line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
+        var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(line) || line.indexOf('[Tích hợp') !== -1 || line.indexOf('[Tích hợp mới]') !== -1 || line.indexOf('(Tích hợp)') !== -1 || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1;
         if (isTichHop) {
           var displayLine = line
             .replace(/<!--.*?-->/g, '')
@@ -5967,6 +6157,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
             .replace(/\(Tích hợp\)/gi, '')
             .replace(/\s{2,}/g, ' ')
             .trim();
+          if (isEnLesson) displayLine = IntegrationService.translateVnToEnglish(displayLine);
           if (!displayLine.startsWith('-') && !displayLine.startsWith('+') && !displayLine.startsWith('*')) {
             displayLine = '- ' + displayLine;
           }
@@ -5988,13 +6179,19 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
             if (has4Cols) {
               if (r.length >= 4) {
-                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[2] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[3] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[2] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[3] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1;
+                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[2] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[3] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[2] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[3] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[2] || '').indexOf('[Tích hợp') !== -1 || (r[3] || '').indexOf('[Tích hợp') !== -1;
                 var isDisability = IntegrationService.isDisabilityRow(r);
                 var isRed = isTichHop || isDisability;
                 var c0 = (r[0] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
                 var c1 = (r[1] || '').trim();
                 var c2 = (r[2] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
                 var c3 = (r[3] || '').replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/\[?NỘI DUNG TÍCH HỢP\]?:?\s*/gi, '').replace(/\[?TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').replace(/\(Tích hợp\)/gi, '').replace(/\s{2,}/g, ' ').trim();
+                if (isEnLesson) {
+                  c0 = IntegrationService.translateVnToEnglish(c0);
+                  c1 = IntegrationService.translateVnToEnglish(c1);
+                  c2 = IntegrationService.translateVnToEnglish(c2);
+                  c3 = IntegrationService.translateVnToEnglish(c3);
+                }
                 var cellStyle = isRed ? 'color: #C00000;' : '';
 
                 var c0Html = IntegrationService.formatCellParagraphs(c0, isRed, 'justify');
@@ -6021,21 +6218,22 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
               } else if (r.length === 1) {
                 var rawHeader = r[0] || '';
                 var cleanHeader = rawHeader.replace(/<!--.*?-->/g, '').replace(/\[?NỘI DUNG TÍCH HỢP MỚI\]?:?\s*/gi, '').replace(/^\[Tích hợp\]\s*/i, '').trim();
-                var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
-                var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
+                if (isEnLesson) cleanHeader = IntegrationService.translateVnToEnglish(cleanHeader);
+                var isTietRow = /^tiết\s+\d+|period\s+\d+/i.test(cleanHeader);
+                var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|game|activity)/i.test(cleanHeader);
                 var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
                 var rowBgColor = isTietRow ? '#FFF2CC' : (isActivityRow ? '#D9EAF7' : '#f8fafc');
                 var cellHeaderColorStyle = isPureIntegration ? 'color: #C00000;' : '';
                 var formattedHeader = IntegrationService.formatHeaderContentWithIntegration(cleanHeader, isPureIntegration);
                 rowsHtml += `<tr><td colspan="4" style="padding: 3.5pt 5pt; border: 1pt solid #000; background-color: ${rowBgColor}; font-weight: bold; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; text-align: left; ${cellHeaderColorStyle}"><div style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; text-align: left; ${cellHeaderColorStyle}">${formattedHeader}</div></td></tr>`;
               } else if (r.length === 2) {
-                var c0Html = IntegrationService.formatCellParagraphs(r[0] || '', false, 'left');
-                var c1Html = IntegrationService.formatCellParagraphs(r[1] || '', false, 'left');
+                var c0Html = IntegrationService.formatCellParagraphs(isEnLesson ? IntegrationService.translateVnToEnglish(r[0] || '') : (r[0] || ''), false, 'left');
+                var c1Html = IntegrationService.formatCellParagraphs(isEnLesson ? IntegrationService.translateVnToEnglish(r[1] || '') : (r[1] || ''), false, 'left');
                 rowsHtml += `<tr><td colspan="2" style="padding: 3.5pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">${c0Html}</td><td colspan="2" style="padding: 3.5pt 5pt; border: 1pt solid #000; background-color: #f8fafc; font-weight: bold; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; margin: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt;">${c1Html}</td></tr>`;
               }
             } else {
               if (r.length >= 2) {
-                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(r[1] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1;
+                var isTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[0] || '') || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(r[1] || '') || (r[0] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[1] || '').indexOf('NỘI DUNG TÍCH HỢP') !== -1 || (r[0] || '').indexOf('[Tích hợp') !== -1 || (r[1] || '').indexOf('[Tích hợp') !== -1;
                 var isDisability = IntegrationService.isDisabilityRow(r);
                 var isRed = isTichHop || isDisability;
                 var gvText = (r[0] || '')
@@ -6056,6 +6254,11 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   .replace(/\(Tích hợp\)/gi, '')
                   .replace(/\s{2,}/g, ' ')
                   .trim();
+
+                if (isEnLesson) {
+                  gvText = IntegrationService.translateVnToEnglish(gvText);
+                  hsText = IntegrationService.translateVnToEnglish(hsText);
+                }
 
                 var cellStyle = isRed ? 'color: #C00000;' : '';
                 var gvHtml = IntegrationService.formatCellParagraphs(gvText, isRed, 'justify');
@@ -6082,8 +6285,9 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                   .replace(/\(Tích hợp\)/gi, '')
                   .replace(/\s{2,}/g, ' ')
                   .trim();
-                var isTietRow = /^tiết\s+\d+/i.test(cleanHeader);
-                var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố)/i.test(cleanHeader);
+                if (isEnLesson) cleanHeader = IntegrationService.translateVnToEnglish(cleanHeader);
+                var isTietRow = /^tiết\s+\d+|period\s+\d+/i.test(cleanHeader);
+                var isActivityRow = /^\d+\.\s*(?:khởi động|khám phá|luyện tập|hoạt động|vận dụng|trò chơi|củng cố|warm-up|presentation|practice|production|consolidation|game|activity)/i.test(cleanHeader);
                 var isPureIntegration = !isTietRow && !isActivityRow && (/^\s*\*\s*(?:hoạt\s*động\s*vận\s*dụng\s*:?\s*)?tích\s*hợp/i.test(cleanHeader) || /địa\s*phương|gdđp|trà\s*vinh/i.test(cleanHeader) || rawHeader.indexOf('[NỘI DUNG TÍCH HỢP') !== -1 || rawHeader.indexOf('[Tích hợp') !== -1);
                 var rowBgColor = isTietRow ? '#FFF2CC' : (isActivityRow ? '#D9EAF7' : '#f8fafc');
                 var cellHeaderColorStyle = isPureIntegration ? 'color: #C00000;' : '';
@@ -6095,14 +6299,18 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
           if (rowsHtml) {
             if (has4Cols) {
+              var th0 = isEnLesson ? 'CONTENT' : 'NỘI DUNG';
+              var th1 = isEnLesson ? 'TIMING' : 'ĐỊNH LƯỢNG';
+              var th2 = isEnLesson ? "TEACHER'S ACTIVITIES" : 'HOẠT ĐỘNG CỦA GIÁO VIÊN';
+              var th3 = isEnLesson ? "STUDENTS' ACTIVITIES" : 'HOẠT ĐỘNG CỦA HỌC SINH';
               actTablesHtml += `
                 <table class="table-activity">
                   <thead>
                     <tr>
-                      <th style="width: 30%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">NỘI DUNG</th>
-                      <th style="width: 15%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">ĐỊNH LƯỢNG</th>
-                      <th style="width: 30%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">HOẠT ĐỘNG CỦA GIÁO VIÊN</th>
-                      <th style="width: 25%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">HOẠT ĐỘNG CỦA HỌC SINH</th>
+                      <th style="width: 30%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">${th0}</th>
+                      <th style="width: 15%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">${th1}</th>
+                      <th style="width: 30%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">${th2}</th>
+                      <th style="width: 25%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">${th3}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -6111,12 +6319,14 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
                 </table>
               `;
             } else {
+              var th0 = isEnLesson ? "TEACHER'S ACTIVITIES" : 'HOẠT ĐỘNG CỦA GIÁO VIÊN';
+              var th1 = isEnLesson ? "STUDENTS' ACTIVITIES" : 'HOẠT ĐỘNG CỦA HỌC SINH';
               actTablesHtml += `
                 <table class="table-activity">
                   <thead>
                     <tr>
-                      <th style="width: 50%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">HOẠT ĐỘNG CỦA GIÁO VIÊN</th>
-                      <th style="width: 50%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">HOẠT ĐỘNG CỦA HỌC SINH</th>
+                      <th style="width: 50%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">${th0}</th>
+                      <th style="width: 50%; background-color: #1F4E79; color: #ffffff; font-weight: bold; text-align: center; border: 1pt solid #000; padding: 4pt 6pt;">${th1}</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -6148,26 +6358,50 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
 
       var headerBlock = '';
       if (lIdx === 0) {
-        var depText = department ? `<p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Tổ chuyên môn: <b>${department}</b></p>` : '';
-        headerBlock = `
-          <table class="header-table">
-            <tr>
-              <td style="width: 50%; text-align: left;" align="left">
-                <p style="text-align: left; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left"><b>${schoolName}</b></p>
-                ${depText}
-                <p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Giáo viên: <b>${teacherName || '.................................'}</b></p>
-              </td>
-              <td style="width: 50%; text-align: right;" align="right">
-                <p style="text-align: right; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="right"><b>NĂM HỌC: ${schoolYear}</b></p>
-                <p style="text-align: right; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="right">${(meta.role === 'gvbm' && les.classes) ? ('<b>' + (les.subjectName || IntegrationService.getSubjectDisplayName(les.subjectKey) || subjName) + '</b> • ') : (className ? ('<b>' + className + '</b> • ') : ('Khối: <b>' + (les.grade || grade) + '</b> • '))}Tuần: <b>${weekText}</b></p>
-              </td>
-            </tr>
-          </table>
-        `;
+        if (isDocEn) {
+          var depText = displayDepartment ? `<p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Department: <b>${displayDepartment}</b></p>` : '';
+          var classOrGradeText = (meta.role === 'gvbm' && les.classes)
+            ? ('<b>English</b> • ')
+            : (className ? ('<b>' + className.replace(/^lớp\s*/i, 'Class ') + '</b> • ') : ('Grade: <b>' + (les.grade || grade) + '</b> • '));
+          headerBlock = `
+            <table class="header-table">
+              <tr>
+                <td style="width: 50%; text-align: left;" align="left">
+                  <p style="text-align: left; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left"><b>${displaySchoolName}</b></p>
+                  ${depText}
+                  <p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Teacher: <b>${displayTeacherName || '.................................'}</b></p>
+                </td>
+                <td style="width: 50%; text-align: right;" align="right">
+                  <p style="text-align: right; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="right"><b>SCHOOL YEAR: ${schoolYear}</b></p>
+                  <p style="text-align: right; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="right">${classOrGradeText}Week: <b>${weekText}</b></p>
+                </td>
+              </tr>
+            </table>
+          `;
+        } else {
+          var depText = department ? `<p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Tổ chuyên môn: <b>${department}</b></p>` : '';
+          headerBlock = `
+            <table class="header-table">
+              <tr>
+                <td style="width: 50%; text-align: left;" align="left">
+                  <p style="text-align: left; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left"><b>${schoolName}</b></p>
+                  ${depText}
+                  <p style="text-align: left; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="left">Giáo viên: <b>${teacherName || '.................................'}</b></p>
+                </td>
+                <td style="width: 50%; text-align: right;" align="right">
+                  <p style="text-align: right; margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="right"><b>NĂM HỌC: ${schoolYear}</b></p>
+                  <p style="text-align: right; margin: 2pt 0 0 0; margin-top: 2pt; margin-bottom: 0pt; mso-para-margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;" align="right">${(meta.role === 'gvbm' && les.classes) ? ('<b>' + (les.subjectName || IntegrationService.getSubjectDisplayName(les.subjectKey) || subjName) + '</b> • ') : (className ? ('<b>' + className + '</b> • ') : ('Khối: <b>' + (les.grade || grade) + '</b> • '))}Tuần: <b>${weekText}</b></p>
+                </td>
+              </tr>
+            </table>
+          `;
+        }
       }
 
       var subjName = les.subjectName || meta.subjectName || (les.subjectKey ? IntegrationService.getSubjectDisplayName(les.subjectKey) : '') || (meta.subjectKey ? IntegrationService.getSubjectDisplayName(meta.subjectKey) : '') || '';
-      if (!subjName) {
+      if (isEnLesson) {
+        subjName = 'English';
+      } else if (!subjName) {
         var checkStr = (meta.filename || '') + ' ' + (les.sourceFile || '') + ' ' + (meta.title || '');
         if (/lich_su_dia_ly|LSĐL|Lịch sử/i.test(checkStr)) subjName = 'Lịch sử và Địa lí';
         else if (/toan/i.test(checkStr)) subjName = 'Toán';
@@ -6183,8 +6417,12 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         else subjName = 'Lịch sử và Địa lí';
       }
 
-      var rawTitle = les.lessonTitle || les.title || 'BÀI DẠY';
+      var rawTitle = les.lessonTitle || les.title || (isEnLesson ? 'LESSON' : 'BÀI DẠY');
       var cleanLessonTitle = IntegrationService.cleanLessonTitle(rawTitle, les, subjName);
+
+      if (isEnLesson) {
+        cleanLessonTitle = IntegrationService.translateVnToEnglish(cleanLessonTitle);
+      }
 
       // Phòng hộ đa tầng: tuyệt đối không để tiêu đề bài trùng trơ trọi tên môn học
       if (cleanLessonTitle && cleanLessonTitle.trim().toUpperCase() === subjName.trim().toUpperCase()) {
@@ -6193,18 +6431,25 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
       }
 
       if (dateStr && /ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i.test(cleanLessonTitle)) {
-        cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, 'Ngày thực hiện: ' + dateStr);
+        cleanLessonTitle = cleanLessonTitle.replace(/ngày\s*thực\s*hiện\s*:\s*[.\s_]{3,}/i, isEnLesson ? ('Date: ' + dateStr) : ('Ngày thực hiện: ' + dateStr));
       }
+
+      var titleHeader = isEnLesson ? 'LESSON PLAN' : 'KẾ HOẠCH BÀI DẠY';
+      var titleSubject = isEnLesson
+        ? ('SUBJECT: ENGLISH - GRADE ' + (les.grade || grade) + (les.classes ? (' (Classes: ' + les.classes + ')') : (les.className ? (' (Class: ' + les.className.replace(/^lớp\s*/i, '') + ')') : '')))
+        : ('MÔN: ' + subjName.toUpperCase() + ((meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : '') + (les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')));
+
+      var periodText = les.period ? (isEnLesson ? IntegrationService.translateVnToEnglish(String(les.period)) : String(les.period)) : '';
 
       if (lIdx === 0 || !isContinuousMode) {
         docHtml += `
           <div class="title-box" style="text-align: center; font-family: 'Times New Roman', serif;">
             ${headerBlock}
             ${daySessionInfo}
-            <h2 align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; text-align: center; margin: 0pt; line-height: 1.0;">KẾ HOẠCH BÀI DẠY</h2>
-            <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0; text-align: center; line-height: 1.0;">MÔN: ${subjName.toUpperCase()}${(meta.role === 'gvbm' || les.grade) ? (' - KHỐI ' + (les.grade || grade)) : ''}${les.classes ? (' (Dạy các lớp: ' + les.classes + ')') : (les.className ? (' (' + (les.className.toLowerCase().includes('lớp') ? les.className : ('Lớp ' + les.className)) + ')') : '')}</p>
+            <h2 align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; text-transform: uppercase; text-align: center; margin: 0pt; line-height: 1.0;">${titleHeader}</h2>
+            <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 2pt 0 0 0; text-align: center; line-height: 1.0;">${titleSubject}</p>
             <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
-            ${les.period ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + les.period + ')</p>') : ''}
+            ${periodText ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + periodText + ')</p>') : ''}
           </div>
         `;
       } else {
@@ -6212,28 +6457,37 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
           <div class="title-box" style="margin-top: 10pt; margin-bottom: 4pt; text-align: center; font-family: 'Times New Roman', serif;">
             ${daySessionInfo}
             <p align="center" style="font-family: 'Times New Roman', serif; font-size: 14pt; font-weight: bold; margin-top: 4pt; margin-bottom: 0pt; text-align: center; line-height: 1.0; color: #1e3a8a;">${cleanLessonTitle}</p>
-            ${les.period ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + les.period + ')</p>') : ''}
+            ${periodText ? ('<p align="center" style="font-family: \'Times New Roman\', serif; font-size: 13pt; font-style: italic; margin-top: 2pt; margin-bottom: 0pt; text-align: center; line-height: 1.0;">(' + periodText + ')</p>') : ''}
           </div>
         `;
       }
 
+      var sec1Title = isEnLesson ? 'A. OBJECTIVES:' : 'I. YÊU CẦU CẦN ĐẠT:';
+      var sec2Title = isEnLesson ? 'B. TEACHING AIDS:' : 'II. ĐỒ DÙNG DẠY HỌC:';
+      var sec3Title = isEnLesson ? 'C. PROCEDURES:' : 'III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:';
+      var sec4Title = isEnLesson ? 'D. ADJUSTMENTS (IF ANY):' : 'IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):';
+
+      var sec1Fallback = isEnLesson ? 'According to the curriculum.' : 'Theo quy định của chương trình môn học.';
+      var sec2Fallback = isEnLesson ? '1. Teacher: Textbook, laptop, TV/projector.<br>2. Students: Textbooks, notebooks, school things.' : '1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.';
+      var sec3Fallback = isEnLesson ? 'Follow the standard lesson procedure.' : 'Thực hiện theo tiến trình chuẩn của bài dạy.';
+
       docHtml += `
-        <div class="section-title">I. YÊU CẦU CẦN ĐẠT:</div>
+        <div class="section-title">${sec1Title}</div>
         <div style="margin-left: 10pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-          ${yccdContent || '<p style="margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0;">Theo quy định của chương trình môn học.</p>'}
+          ${yccdContent || ('<p style="margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0;">' + sec1Fallback + '</p>')}
         </div>
 
-        <div class="section-title">II. ĐỒ DÙNG DẠY HỌC:</div>
+        <div class="section-title">${sec2Title}</div>
         <div style="margin-left: 10pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-          ${dodungContent || '<p style="margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0;">1. Giáo viên: SGK, máy tính, bài giảng điện tử.<br>2. Học sinh: SGK, vở bài tập, đồ dùng học tập.</p>'}
+          ${dodungContent || ('<p style="margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0;">' + sec2Fallback + '</p>')}
         </div>
 
-        <div class="section-title">III. CÁC HOẠT ĐỘNG DẠY HỌC CHỦ YẾU:</div>
+        <div class="section-title">${sec3Title}</div>
         <div style="margin-left: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-          ${actTablesHtml || '<p style="margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0;">Thực hiện theo tiến trình chuẩn của bài dạy.</p>'}
+          ${actTablesHtml || ('<p style="margin: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0;">' + sec3Fallback + '</p>')}
         </div>
 
-        <div class="section-title">IV. ĐIỀU CHỈNH SAU BÀI DẠY (NẾU CÓ):</div>
+        <div class="section-title">${sec4Title}</div>
         <div style="margin-left: 10pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
           <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>
           <p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; white-space: nowrap; overflow: hidden;">${'.'.repeat(130)}</p>
@@ -6247,67 +6501,137 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
     var showApproval = ap ? (ap.enabled === true) : false;
 
     if (showApproval) {
-      var leaderRoleTitle = (ap.leaderRole === 'P.Tổ trưởng' || (ap.leaderRole && ap.leaderRole.indexOf('Phó') !== -1)) 
-        ? 'PHÓ TỔ TRƯỞNG CHUYÊN MÔN' 
-        : 'TỔ TRƯỞNG CHUYÊN MÔN';
-      var leaderSignName = (ap.leaderName && ap.leaderName.trim()) ? ap.leaderName.trim() : '……………………………….';
+      if (isDocEn) {
+        var leaderRoleTitle = (ap.leaderRole === 'P.Tổ trưởng' || (ap.leaderRole && ap.leaderRole.indexOf('Phó') !== -1)) 
+          ? 'VICE HEAD OF DEPARTMENT' 
+          : 'HEAD OF DEPARTMENT';
+        var leaderSignName = (ap.leaderName && ap.leaderName.trim()) 
+          ? IntegrationService.removeVietnameseTones(ap.leaderName.trim()) 
+          : '……………………………….';
 
-      var adminRoleTitle = (ap.adminRole === 'P.Hiệu trưởng' || (ap.adminRole && ap.adminRole.indexOf('Phó') !== -1))
-        ? 'PHÓ HIỆU TRƯỞNG'
-        : 'HIỆU TRƯỞNG';
-      var adminSignName = (ap.adminName && ap.adminName.trim()) ? ap.adminName.trim() : '……………………………..';
+        var adminRoleTitle = (ap.adminRole === 'P.Hiệu trưởng' || (ap.adminRole && ap.adminRole.indexOf('Phó') !== -1))
+          ? 'VICE PRINCIPAL'
+          : 'PRINCIPAL';
+        var adminSignName = (ap.adminName && ap.adminName.trim()) 
+          ? IntegrationService.removeVietnameseTones(ap.adminName.trim()) 
+          : '……………………………..';
 
-      docHtml += `
-        <!-- ========================================================================= -->
-        <!-- TRANG RIÊNG DUYỆT GIÁO ÁN - ĐÓNG KHUNG THEO CHUẨN DUYỆT.DOCX CỦA TRƯỜNG -->
-        <!-- ========================================================================= -->
-        <br clear="all" style="page-break-before: always; mso-break-type: section-break;" />
-        <p class="MsoNormal" style="page-break-before: always; margin: 0pt; mso-para-margin: 0pt; font-size: 1pt; line-height: 1pt; height: 1pt; mso-margin-top-alt: 0pt; mso-margin-bottom-alt: 0pt;">&nbsp;</p>
+        var teacherSignName = displayTeacherName || '………………………';
 
-        <div class="approval-page" style="page-break-inside: avoid; margin-top: 0pt; font-family: 'Times New Roman', serif;">
-          <table class="approval-table" style="width: 100%; border-collapse: collapse; border: 1.5pt solid #000000; mso-border-alt: solid black 1.5pt; page-break-inside: avoid; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;">
-            <tr style="page-break-inside: avoid; mso-element: table-row;">
-              <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">GIÁO VIÊN SOẠN</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${teacherName || '………………………'}</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-              </td>
-            </tr>
-            <tr style="page-break-inside: avoid; mso-element: table-row;">
-              <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${leaderRoleTitle}</p>
-                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">DUYỆT</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${leaderSignName}</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-              </td>
-            </tr>
-            <tr style="page-break-inside: avoid; mso-element: table-row;">
-              <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
-                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">BAN GIÁM HIỆU</p>
-                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">DUYỆT</p>
-                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">${adminRoleTitle}</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-                <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${adminSignName}</p>
-                <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
-              </td>
-            </tr>
-          </table>
-        </div>
-      `;
+        docHtml += `
+          <!-- ========================================================================= -->
+          <!-- APPROVAL PAGE IN ENGLISH -->
+          <!-- ========================================================================= -->
+          <br clear="all" style="page-break-before: always; mso-break-type: section-break;" />
+          <p class="MsoNormal" style="page-break-before: always; margin: 0pt; mso-para-margin: 0pt; font-size: 1pt; line-height: 1pt; height: 1pt; mso-margin-top-alt: 0pt; mso-margin-bottom-alt: 0pt;">&nbsp;</p>
+
+          <div class="approval-page" style="page-break-inside: avoid; margin-top: 0pt; font-family: 'Times New Roman', serif;">
+            <table class="approval-table" style="width: 100%; border-collapse: collapse; border: 1.5pt solid #000000; mso-border-alt: solid black 1.5pt; page-break-inside: avoid; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;">
+              <tr style="page-break-inside: avoid; mso-element: table-row;">
+                <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">TEACHER</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${teacherSignName}</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid; mso-element: table-row;">
+                <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${leaderRoleTitle}</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">APPROVED</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${leaderSignName}</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid; mso-element: table-row;">
+                <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">SCHOOL BOARD</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">APPROVED</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">${adminRoleTitle}</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${adminSignName}</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        `;
+      } else {
+        var leaderRoleTitle = (ap.leaderRole === 'P.Tổ trưởng' || (ap.leaderRole && ap.leaderRole.indexOf('Phó') !== -1)) 
+          ? 'PHÓ TỔ TRƯỞNG CHUYÊN MÔN' 
+          : 'TỔ TRƯỞNG CHUYÊN MÔN';
+        var leaderSignName = (ap.leaderName && ap.leaderName.trim()) ? ap.leaderName.trim() : '……………………………….';
+
+        var adminRoleTitle = (ap.adminRole === 'P.Hiệu trưởng' || (ap.adminRole && ap.adminRole.indexOf('Phó') !== -1))
+          ? 'PHÓ HIỆU TRƯỞNG'
+          : 'HIỆU TRƯỞNG';
+        var adminSignName = (ap.adminName && ap.adminName.trim()) ? ap.adminName.trim() : '……………………………..';
+
+        docHtml += `
+          <!-- ========================================================================= -->
+          <!-- TRANG RIÊNG DUYỆT GIÁO ÁN - ĐÓNG KHUNG THEO CHUẨN DUYỆT.DOCX CỦA TRƯỜNG -->
+          <!-- ========================================================================= -->
+          <br clear="all" style="page-break-before: always; mso-break-type: section-break;" />
+          <p class="MsoNormal" style="page-break-before: always; margin: 0pt; mso-para-margin: 0pt; font-size: 1pt; line-height: 1pt; height: 1pt; mso-margin-top-alt: 0pt; mso-margin-bottom-alt: 0pt;">&nbsp;</p>
+
+          <div class="approval-page" style="page-break-inside: avoid; margin-top: 0pt; font-family: 'Times New Roman', serif;">
+            <table class="approval-table" style="width: 100%; border-collapse: collapse; border: 1.5pt solid #000000; mso-border-alt: solid black 1.5pt; page-break-inside: avoid; mso-table-lspace: 0pt; mso-table-rspace: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt;">
+              <tr style="page-break-inside: avoid; mso-element: table-row;">
+                <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">GIÁO VIÊN SOẠN</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${teacherName || '………………………'}</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid; mso-element: table-row;">
+                <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${leaderRoleTitle}</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">DUYỆT</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${leaderSignName}</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                </td>
+              </tr>
+              <tr style="page-break-inside: avoid; mso-element: table-row;">
+                <td align="center" style="border: 1.0pt solid #000000; mso-border-alt: solid black 1.0pt; text-align: center; vertical-align: top; padding: 10pt 8pt; page-break-inside: avoid; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0;">
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">BAN GIÁM HIỆU</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">DUYỆT</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; text-transform: uppercase; margin: 2pt 0 0 0; mso-para-margin-top: 2pt; line-height: 1.0; text-align: center;">${adminRoleTitle}</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                  <p align="center" style="font-family: 'Times New Roman', serif; font-size: 13pt; font-weight: bold; margin: 0pt; mso-para-margin: 0pt; line-height: 1.0; text-align: center;">${adminSignName}</p>
+                  <p align="center" style="margin: 0pt; font-family: 'Times New Roman', serif; font-size: 13pt; line-height: 1.0; mso-para-margin: 0pt; text-align: center;">&nbsp;</p>
+                </td>
+              </tr>
+            </table>
+          </div>
+        `;
+      }
     }
 
     docHtml += '</div></body></html>';
