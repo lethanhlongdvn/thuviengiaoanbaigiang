@@ -5383,7 +5383,7 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
         continue;
       }
       var isLineDisability = /\b(?:HSHN|SEN)\b/i.test(line) || /\[(?:HSHN|SEN)\]/i.test(line) || /học\s*sinh\s*(?:hòa\s*nhập|khuyết\s*tật)/i.test(line) || /inclusive\s*student/i.test(line);
-      var isLineTichHop = /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh|digital|integration/i.test(line) || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || line.indexOf('[Tích hợp') !== -1;
+      var isLineTichHop = /\[(?:Tích\s*hợp|Integration|GDĐP|GDQCN|NLS|AI)\]/i.test(line) || /^integrated\s*focus:|^digital\/ai\s*pupil\s*action:/i.test(line) || /tích\s*hợp|năng\s*lực\s*số|quyền\s*con\s*người|địa\s*phương|gdđp|trà\s*vinh/i.test(line) || line.indexOf('NỘI DUNG TÍCH HỢP') !== -1 || line.indexOf('[Tích hợp') !== -1;
       var curLineStyle = (cellStyle || isLineDisability || isLineTichHop) ? 'color: #C00000;' : '';
       var inner = curLineStyle ? ('<span style="' + curLineStyle + '"><font color="#C00000">' + line + '</font></span>') : line;
       pList.push('<p style="margin: 0pt; margin-top: 0pt; margin-bottom: 0pt; mso-para-margin: 0pt; mso-para-margin-top: 0pt; mso-para-margin-bottom: 0pt; font-family: \'Times New Roman\', serif; font-size: 13pt; line-height: 1.0; text-align: ' + textAlign + '; ' + curLineStyle + '">' + inner + '</p>');
@@ -5472,8 +5472,22 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
   translateVnToEnglish: function(text) {
     if (!text || typeof text !== 'string') return text;
     var s = text;
+
+    // 0. School names
+    if (/primary\s*school/i.test(s)) {
+      // already English
+    } else if (/^TRƯỜNG\s+TIỂU\s+HỌC\s+/i.test(s) || /^TIỂU\s+HỌC\s+/i.test(s) || /^TRƯỜNG\s+TH\s+/i.test(s)) {
+      var schNameOnly = s.replace(/^TRƯỜNG\s+TIỂU\s+HỌC\s+/i, '').replace(/^TIỂU\s+HỌC\s+/i, '').replace(/^TRƯỜNG\s+TH\s+/i, '').trim();
+      if (!schNameOnly || /^[._\s-]+$/.test(schNameOnly)) {
+        return 'PRIMARY SCHOOL: .................................';
+      }
+      return (typeof this.removeVietnameseTones === 'function' ? this.removeVietnameseTones(schNameOnly) : schNameOnly).toUpperCase() + ' PRIMARY SCHOOL';
+    }
+
     // 1. Periods & Dates & Sessions & Timings
-    s = s.replace(/Tiết\s*(\d+)/gi, 'Period $1')
+    s = s.replace(/Tiết\s*đôi/gi, 'Double period')
+         .replace(/Tiết\s*(\d+)\s*[-–—]\s*(\d+)/gi, 'Periods $1-$2')
+         .replace(/Tiết\s*(\d+)/gi, 'Period $1')
          .replace(/(\d+)\s*tiết/gi, '$1 periods')
          .replace(/(\d+)\s*phút/gi, '$1 mins')
          .replace(/Buổi\s*Sáng/gi, 'Morning')
@@ -5484,7 +5498,13 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
          .replace(/Thứ\s*Năm/gi, 'Thursday')
          .replace(/Thứ\s*Sáu/gi, 'Friday')
          .replace(/Thứ\s*Bảy/gi, 'Saturday')
-         .replace(/Chủ\s*Nhật/gi, 'Sunday');
+         .replace(/Chủ\s*Nhật/gi, 'Sunday')
+         .replace(/,\s*ngày\s*/gi, ', Date: ')
+         .replace(/ngày\s*(\d{1,2}\/\d{1,2}\/\d{4})/gi, 'Date: $1')
+         .replace(/Ngày\s*soạn\s*:\s*/gi, 'Date of preparation: ')
+         .replace(/Ngày\s*dạy\s*:\s*/gi, 'Date of teaching: ')
+         .replace(/Ngày\s*thực\s*hiện\s*:\s*/gi, 'Date: ')
+         .replace(/Thời\s*gian\s*thực\s*hiện\s*:\s*/gi, 'Teaching time: ');
 
     // 2. Vocabulary glosses
     var delimiter = s.includes('\\n') ? '\\n' : (s.includes('\n') ? '\n' : null);
@@ -5549,9 +5569,15 @@ Trả về JSON thuần túy (mảng các bài dạy đã cập nhật):`;
          .replace(/Điều\s*chỉnh\s*sau\s*bài\s*dạy(?:\s*\(nếu\s*có\))?/gi, 'Adjustments (if any)')
          .replace(/Thời\s*gian\s*thực\s*hiện/gi, 'Teaching time')
          .replace(/Ngày\s*thực\s*hiện/gi, 'Date')
+         .replace(/Tổ\s*Ngoại\s*ngữ/gi, 'English Department')
+         .replace(/Tổ\s*Tiếng\s*Anh/gi, 'English Department')
          .replace(/Tổ\s*chuyên\s*môn/gi, 'Department')
          .replace(/Tiến\s*trình\s*hoạt\s*động\s*chuẩn\s*theo\s*KHBD\s*số\s*hóa/gi, 'Follow standard lesson procedure')
          .replace(/Theo\s*chuẩn\s*chương\s*trình\s*môn\s*học/gi, 'According to curriculum standards')
+         .replace(/Nội\s*dung\s*tích\s*hợp\s*cụ\s*thể/gi, 'Integrated focus')
+         .replace(/Nội\s*dung\s*tích\s*hợp/gi, 'Integrated focus')
+         .replace(/Tích\s*hợp\s*năng\s*lực\s*số/gi, 'Digital competence integration')
+         .replace(/Khung\s*duyệt\s*giáo\s*án/gi, 'Lesson plan approval frame')
          .replace(/50\.000đ\s*–\s*60\.000đ/g, '50,000 VND - 60,000 VND')
          .replace(/55\.000đ/g, '55,000 VND');
 
