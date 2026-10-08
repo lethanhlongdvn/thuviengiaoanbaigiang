@@ -890,7 +890,7 @@ var IntegrationService = {
     } else {
       subjs.push('khoa_hoc', 'lich_su_dia_ly', 'cong_nghe');
     }
-    if (g >= 2) {
+    if (g >= 1) {
       subjs.push('tieng_anh');
     }
 

@@ -209,7 +209,7 @@ function getIntegrationSubjectsForGrade(grade) {
   if (g >= 3) {
     subjs.push({ key: 'cong_nghe', name: 'Công nghệ', icon: 'fa-microchip' });
   }
-  if (g >= 2) {
+  if (g >= 1) {
     subjs.push({ key: 'tieng_anh', name: 'Tiếng Anh', icon: 'fa-language' });
   }
   subjs.push({ key: 'gdtc', name: 'Giáo dục thể chất', icon: 'fa-person-running' });
