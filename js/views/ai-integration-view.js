@@ -5132,7 +5132,7 @@ function renderIntegratedLessonSheetContent(les, isLastLesson) {
 
       if (isEnLesson) {
         if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.sanitizeEnglishDisabilityText === 'function') {
-          displayLine = IntegrationService.sanitizeEnglishDisabilityText(displayLine, curLesson || les, disabilityConfig);
+          displayLine = IntegrationService.sanitizeEnglishDisabilityText(displayLine, les, disabilityConfig);
         }
         if (typeof IntegrationService !== 'undefined' && typeof IntegrationService.translateVnToEnglish === 'function') {
           displayLine = IntegrationService.translateVnToEnglish(displayLine);
